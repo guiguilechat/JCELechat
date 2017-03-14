@@ -1,7 +1,14 @@
 hulls:
   20183:
     attributes:
-      maximumVelocity: 70
+      inertiaModifier: 0.0625
+      maxTargets: 0
+      scanRes: 0
+      scanStr: 86
+      scanType: RADAR
+      targetRange: 0
+      velocity: 70
+      warpSpeed: 1.4
     fitting:
       capacitor: 3750.0
       capacitorTime: 231.0
@@ -19,7 +26,14 @@ hulls:
     name: Providence
   20185:
     attributes:
-      maximumVelocity: 60
+      inertiaModifier: 0.0625
+      maxTargets: 0
+      scanRes: 0
+      scanStr: 96
+      scanType: Gravimetric
+      targetRange: 0
+      velocity: 60
+      warpSpeed: 1.4
     fitting:
       capacitor: 3500.0
       capacitorTime: 215.6
@@ -37,7 +51,14 @@ hulls:
     name: Charon
   20187:
     attributes:
-      maximumVelocity: 65
+      inertiaModifier: 0.0625
+      maxTargets: 0
+      scanRes: 0
+      scanStr: 91
+      scanType: Magnetometric
+      targetRange: 0
+      velocity: 65
+      warpSpeed: 1.4
     fitting:
       capacitor: 3500.0
       capacitorTime: 215.6
@@ -55,7 +76,14 @@ hulls:
     name: Obelisk
   20189:
     attributes:
-      maximumVelocity: 80
+      inertiaModifier: 0.0625
+      maxTargets: 0
+      scanRes: 0
+      scanStr: 82
+      scanType: LADAR
+      targetRange: 0
+      velocity: 80
+      warpSpeed: 1.4
     fitting:
       capacitor: 3000.0
       capacitorTime: 184.8
@@ -73,7 +101,14 @@ hulls:
     name: Fenrir
   34328:
     attributes:
-      maximumVelocity: 65
+      inertiaModifier: 0.0675
+      maxTargets: 3
+      scanRes: 45
+      scanStr: 12
+      scanType: Magnetometric
+      targetRange: 51500
+      velocity: 65
+      warpSpeed: 1.4
     fitting:
       capacitor: 3900.0
       capacitorTime: 235.0
@@ -92,7 +127,14 @@ hulls:
     name: Bowhead
   11567:
     attributes:
-      maximumVelocity: 60
+      inertiaModifier: 0.037
+      maxTargets: 3
+      scanRes: 45
+      scanStr: 200
+      scanType: RADAR
+      targetRange: 250000
+      velocity: 60
+      warpSpeed: 1.4
     fitting:
       capacitor: 112500.0
       capacitorTime: 6750.0
@@ -111,7 +153,14 @@ hulls:
     name: Avatar
   3764:
     attributes:
-      maximumVelocity: 60
+      inertiaModifier: 0.0319
+      maxTargets: 3
+      scanRes: 35
+      scanStr: 200
+      scanType: Gravimetric
+      targetRange: 250000
+      velocity: 60
+      warpSpeed: 1.4
     fitting:
       capacitor: 103500.0
       capacitorTime: 6210.0
@@ -130,7 +179,14 @@ hulls:
     name: Leviathan
   671:
     attributes:
-      maximumVelocity: 70
+      inertiaModifier: 0.037
+      maxTargets: 3
+      scanRes: 40
+      scanStr: 200
+      scanType: Magnetometric
+      targetRange: 250000
+      velocity: 70
+      warpSpeed: 1.4
     fitting:
       capacitor: 108000.0
       capacitorTime: 6480.0
@@ -149,7 +205,14 @@ hulls:
     name: Erebus
   23773:
     attributes:
-      maximumVelocity: 80
+      inertiaModifier: 0.037
+      maxTargets: 3
+      scanRes: 50
+      scanStr: 200
+      scanType: LADAR
+      targetRange: 250000
+      velocity: 80
+      warpSpeed: 1.4
     fitting:
       capacitor: 99000.0
       capacitorTime: 5940.0
@@ -168,7 +231,14 @@ hulls:
     name: Ragnarok
   22852:
     attributes:
-      maximumVelocity: 80
+      inertiaModifier: 0.04
+      maxTargets: 6
+      scanRes: 55
+      scanStr: 150
+      scanType: LADAR
+      targetRange: 138750
+      velocity: 80
+      warpSpeed: 1.5
     fitting:
       capacitor: 65000.0
       capacitorTime: 4225.0
@@ -187,7 +257,14 @@ hulls:
     name: Hel
   24483:
     attributes:
-      maximumVelocity: 90
+      inertiaModifier: 0.0455
+      maxTargets: 6
+      scanRes: 60
+      scanStr: 68
+      scanType: LADAR
+      targetRange: 87500
+      velocity: 90
+      warpSpeed: 1.5
     fitting:
       capacitor: 55000.0
       capacitorTime: 3815.0
@@ -206,7 +283,14 @@ hulls:
     name: Nidhoggur
   3514:
     attributes:
-      maximumVelocity: 60
+      inertiaModifier: 0.04
+      maxTargets: 6
+      scanRes: 45
+      scanStr: 165
+      scanType: RADAR
+      targetRange: 184000
+      velocity: 60
+      warpSpeed: 1.5
     fitting:
       capacitor: 82500.0
       capacitorTime: 5362.5
@@ -225,7 +309,14 @@ hulls:
     name: Revenant
   23757:
     attributes:
-      maximumVelocity: 70
+      inertiaModifier: 0.0455
+      maxTargets: 6
+      scanRes: 55
+      scanStr: 72
+      scanType: RADAR
+      targetRange: 92500
+      velocity: 70
+      warpSpeed: 1.5
     fitting:
       capacitor: 64875.0
       capacitorTime: 4500.0
@@ -244,7 +335,14 @@ hulls:
     name: Archon
   23919:
     attributes:
-      maximumVelocity: 60
+      inertiaModifier: 0.04
+      maxTargets: 6
+      scanRes: 50
+      scanStr: 150
+      scanType: RADAR
+      targetRange: 146250
+      velocity: 60
+      warpSpeed: 1.5
     fitting:
       capacitor: 75000.0
       capacitorTime: 4875.0
@@ -263,7 +361,14 @@ hulls:
     name: Aeon
   23917:
     attributes:
-      maximumVelocity: 60
+      inertiaModifier: 0.0344
+      maxTargets: 6
+      scanRes: 40
+      scanStr: 150
+      scanType: Gravimetric
+      targetRange: 172500
+      velocity: 60
+      warpSpeed: 1.5
     fitting:
       capacitor: 63750.0
       capacitorTime: 4143.8
@@ -282,7 +387,14 @@ hulls:
     name: Wyvern
   23915:
     attributes:
-      maximumVelocity: 65
+      inertiaModifier: 0.0391
+      maxTargets: 6
+      scanRes: 45
+      scanStr: 80
+      scanType: Gravimetric
+      targetRange: 110000
+      velocity: 65
+      warpSpeed: 1.5
     fitting:
       capacitor: 56250.0
       capacitorTime: 3901.7
@@ -301,7 +413,14 @@ hulls:
     name: Chimera
   23911:
     attributes:
-      maximumVelocity: 75
+      inertiaModifier: 0.0455
+      maxTargets: 6
+      scanRes: 50
+      scanStr: 76
+      scanType: Magnetometric
+      targetRange: 100000
+      velocity: 75
+      warpSpeed: 1.5
     fitting:
       capacitor: 60000.0
       capacitorTime: 4161.8
@@ -320,7 +439,14 @@ hulls:
     name: Thanatos
   23913:
     attributes:
-      maximumVelocity: 70
+      inertiaModifier: 0.04
+      maxTargets: 6
+      scanRes: 45
+      scanStr: 150
+      scanType: Magnetometric
+      targetRange: 157500
+      velocity: 70
+      warpSpeed: 1.5
     fitting:
       capacitor: 67500.0
       capacitorTime: 4387.5
@@ -339,7 +465,14 @@ hulls:
     name: Nyx
   28846:
     attributes:
-      maximumVelocity: 96
+      inertiaModifier: 0.055
+      maxTargets: 0
+      scanRes: 0
+      scanStr: 82
+      scanType: LADAR
+      targetRange: 0
+      velocity: 96
+      warpSpeed: 1.5
     fitting:
       capacitor: 30000.0
       capacitorTime: 406.5
@@ -357,7 +490,14 @@ hulls:
     name: Nomad
   28850:
     attributes:
-      maximumVelocity: 84
+      inertiaModifier: 0.055
+      maxTargets: 0
+      scanRes: 0
+      scanStr: 86
+      scanType: RADAR
+      targetRange: 0
+      velocity: 84
+      warpSpeed: 1.5
     fitting:
       capacitor: 37500.0
       capacitorTime: 508.1
@@ -375,7 +515,14 @@ hulls:
     name: Ark
   28844:
     attributes:
-      maximumVelocity: 72
+      inertiaModifier: 0.055
+      maxTargets: 0
+      scanRes: 0
+      scanStr: 96
+      scanType: Gravimetric
+      targetRange: 0
+      velocity: 72
+      warpSpeed: 1.5
     fitting:
       capacitor: 35000.0
       capacitorTime: 474.3
@@ -393,7 +540,14 @@ hulls:
     name: Rhea
   28848:
     attributes:
-      maximumVelocity: 78
+      inertiaModifier: 0.055
+      maxTargets: 0
+      scanRes: 0
+      scanStr: 91
+      scanType: Magnetometric
+      targetRange: 0
+      velocity: 78
+      warpSpeed: 1.5
     fitting:
       capacitor: 35000.0
       capacitorTime: 474.3
@@ -411,7 +565,14 @@ hulls:
     name: Anshar
   28352:
     attributes:
-      maximumVelocity: 60
+      inertiaModifier: 0.05
+      maxTargets: 7
+      scanRes: 75
+      scanStr: 115
+      scanType: Magnetometric
+      targetRange: 160000
+      velocity: 60
+      warpSpeed: 1.5
     fitting:
       capacitor: 54560.0
       capacitorTime: 3900.0
@@ -430,7 +591,14 @@ hulls:
     name: Rorqual
   28606:
     attributes:
-      maximumVelocity: 60
+      inertiaModifier: 0.16
+      maxTargets: 5
+      scanRes: 75
+      scanStr: 15
+      scanType: Magnetometric
+      targetRange: 60000
+      velocity: 60
+      warpSpeed: 2.0
     fitting:
       capacitor: 4200.0
       capacitorTime: 800.0
@@ -449,7 +617,14 @@ hulls:
     name: Orca
   19720:
     attributes:
-      maximumVelocity: 65
+      inertiaModifier: 0.0455
+      maxTargets: 7
+      scanRes: 55
+      scanStr: 41
+      scanType: RADAR
+      targetRange: 97500
+      velocity: 65
+      warpSpeed: 1.5
     fitting:
       capacitor: 57375.0
       capacitorTime: 4157.6
@@ -468,7 +643,14 @@ hulls:
     name: Revelation
   19726:
     attributes:
-      maximumVelocity: 60
+      inertiaModifier: 0.0391
+      maxTargets: 7
+      scanRes: 45
+      scanStr: 48
+      scanType: Gravimetric
+      targetRange: 115000
+      velocity: 60
+      warpSpeed: 1.5
     fitting:
       capacitor: 48750.0
       capacitorTime: 3532.6
@@ -487,7 +669,14 @@ hulls:
     name: Phoenix
   19724:
     attributes:
-      maximumVelocity: 70
+      inertiaModifier: 0.0455
+      maxTargets: 7
+      scanRes: 50
+      scanStr: 44
+      scanType: Magnetometric
+      targetRange: 105000
+      velocity: 70
+      warpSpeed: 1.5
     fitting:
       capacitor: 52500.0
       capacitorTime: 3804.3
@@ -506,7 +695,14 @@ hulls:
     name: Moros
   19722:
     attributes:
-      maximumVelocity: 85
+      inertiaModifier: 0.0455
+      maxTargets: 7
+      scanRes: 60
+      scanStr: 39
+      scanType: LADAR
+      targetRange: 92500
+      velocity: 85
+      warpSpeed: 1.5
     fitting:
       capacitor: 47500.0
       capacitorTime: 3442.0
@@ -525,7 +721,14 @@ hulls:
     name: Naglfar
   596:
     attributes:
-      maximumVelocity: 300
+      inertiaModifier: 4.45
+      maxTargets: 3
+      scanRes: 485
+      scanStr: 6
+      scanType: RADAR
+      targetRange: 25500
+      velocity: 300
+      warpSpeed: 3.0
     fitting:
       capacitor: 140.0
       capacitorTime: 70.0
@@ -543,7 +746,14 @@ hulls:
     name: Impairor
   601:
     attributes:
-      maximumVelocity: 295
+      inertiaModifier: 4.5
+      maxTargets: 3
+      scanRes: 475
+      scanStr: 6
+      scanType: Gravimetric
+      targetRange: 27000
+      velocity: 295
+      warpSpeed: 3.0
     fitting:
       capacitor: 130.0
       capacitorTime: 65.0
@@ -561,7 +771,14 @@ hulls:
     name: Ibis
   606:
     attributes:
-      maximumVelocity: 305
+      inertiaModifier: 4.35
+      maxTargets: 3
+      scanRes: 480
+      scanStr: 6
+      scanType: Magnetometric
+      targetRange: 23500
+      velocity: 305
+      warpSpeed: 3.0
     fitting:
       capacitor: 135.0
       capacitorTime: 67.5
@@ -579,7 +796,14 @@ hulls:
     name: Velator
   588:
     attributes:
-      maximumVelocity: 310
+      inertiaModifier: 4.35
+      maxTargets: 3
+      scanRes: 490
+      scanStr: 6
+      scanType: LADAR
+      targetRange: 22000
+      velocity: 310
+      warpSpeed: 3.0
     fitting:
       capacitor: 125.0
       capacitorTime: 62.5
@@ -597,7 +821,14 @@ hulls:
     name: Reaper
   12753:
     attributes:
-      maximumVelocity: 90
+      inertiaModifier: 0.0
+      maxTargets: 3
+      scanRes: 205
+      scanStr: 16
+      scanType: RADAR
+      targetRange: 45000
+      velocity: 90
+      warpSpeed: 3.3
     fitting:
       capacitor: 3500.0
       capacitorTime: 875.0
@@ -616,7 +847,14 @@ hulls:
     name: Impel
   12733:
     attributes:
-      maximumVelocity: 170
+      inertiaModifier: 0.52
+      maxTargets: 2
+      scanRes: 240
+      scanStr: 14
+      scanType: RADAR
+      targetRange: 35000
+      velocity: 170
+      warpSpeed: 6.0
     fitting:
       capacitor: 1375.0
       capacitorTime: 393.0
@@ -635,7 +873,14 @@ hulls:
     name: Prorator
   12729:
     attributes:
-      maximumVelocity: 160
+      inertiaModifier: 0.51
+      maxTargets: 2
+      scanRes: 225
+      scanStr: 17
+      scanType: Gravimetric
+      targetRange: 45000
+      velocity: 160
+      warpSpeed: 6.0
     fitting:
       capacitor: 1300.0
       capacitorTime: 371.0
@@ -654,7 +899,14 @@ hulls:
     name: Crane
   12731:
     attributes:
-      maximumVelocity: 80
+      inertiaModifier: 0.0
+      maxTargets: 3
+      scanRes: 195
+      scanStr: 20
+      scanType: Gravimetric
+      targetRange: 55000
+      velocity: 80
+      warpSpeed: 3.3
     fitting:
       capacitor: 2900.0
       capacitorTime: 725.0
@@ -673,7 +925,14 @@ hulls:
     name: Bustard
   12743:
     attributes:
-      maximumVelocity: 165
+      inertiaModifier: 0.54
+      maxTargets: 2
+      scanRes: 230
+      scanStr: 15
+      scanType: Magnetometric
+      targetRange: 40000
+      velocity: 165
+      warpSpeed: 6.0
     fitting:
       capacitor: 1300.0
       capacitorTime: 371.0
@@ -692,7 +951,14 @@ hulls:
     name: Viator
   12745:
     attributes:
-      maximumVelocity: 110
+      inertiaModifier: 0.0
+      maxTargets: 3
+      scanRes: 200
+      scanStr: 18
+      scanType: Magnetometric
+      targetRange: 50000
+      velocity: 110
+      warpSpeed: 3.3
     fitting:
       capacitor: 3100.0
       capacitorTime: 775.0
@@ -711,7 +977,14 @@ hulls:
     name: Occator
   12747:
     attributes:
-      maximumVelocity: 120
+      inertiaModifier: 0.0
+      maxTargets: 3
+      scanRes: 210
+      scanStr: 14
+      scanType: LADAR
+      targetRange: 40000
+      velocity: 120
+      warpSpeed: 3.3
     fitting:
       capacitor: 2700.0
       capacitorTime: 675.0
@@ -730,7 +1003,14 @@ hulls:
     name: Mastodon
   12735:
     attributes:
-      maximumVelocity: 220
+      inertiaModifier: 0.485
+      maxTargets: 2
+      scanRes: 245
+      scanStr: 12
+      scanType: LADAR
+      targetRange: 30000
+      velocity: 220
+      warpSpeed: 6.0
     fitting:
       capacitor: 1200.0
       capacitorTime: 343.0
@@ -749,7 +1029,14 @@ hulls:
     name: Prowler
   2998:
     attributes:
-      maximumVelocity: 155
+      inertiaModifier: 0.0
+      maxTargets: 10
+      scanRes: 90
+      scanStr: 10
+      scanType: Magnetometric
+      targetRange: 75000
+      velocity: 155
+      warpSpeed: 3.0
     fitting:
       capacitor: 2200.0
       capacitorTime: 400.0
@@ -768,7 +1055,14 @@ hulls:
     name: Noctis
   19744:
     attributes:
-      maximumVelocity: 125
+      inertiaModifier: 0.86
+      maxTargets: 2
+      scanRes: 85
+      scanStr: 4
+      scanType: RADAR
+      targetRange: 45000
+      velocity: 125
+      warpSpeed: 4.5
     fitting:
       capacitor: 680.0
       capacitorTime: 381.3
@@ -787,7 +1081,14 @@ hulls:
     name: Sigil
   1944:
     attributes:
-      maximumVelocity: 110
+      inertiaModifier: 0.95
+      maxTargets: 2
+      scanRes: 85
+      scanStr: 9
+      scanType: RADAR
+      targetRange: 45000
+      velocity: 110
+      warpSpeed: 3.0
     fitting:
       capacitor: 700.0
       capacitorTime: 381.3
@@ -806,7 +1107,14 @@ hulls:
     name: Bestower
   656:
     attributes:
-      maximumVelocity: 120
+      inertiaModifier: 0.94
+      maxTargets: 2
+      scanRes: 65
+      scanStr: 11
+      scanType: Magnetometric
+      targetRange: 48750
+      velocity: 120
+      warpSpeed: 3.0
     fitting:
       capacitor: 580.0
       capacitorTime: 277.5
@@ -825,7 +1133,14 @@ hulls:
     name: Miasmos
   657:
     attributes:
-      maximumVelocity: 105
+      inertiaModifier: 0.87
+      maxTargets: 2
+      scanRes: 55
+      scanStr: 12
+      scanType: Magnetometric
+      targetRange: 52500
+      velocity: 105
+      warpSpeed: 3.0
     fitting:
       capacitor: 650.0
       capacitorTime: 416.3
@@ -844,7 +1159,14 @@ hulls:
     name: Iteron Mark V
   654:
     attributes:
-      maximumVelocity: 120
+      inertiaModifier: 0.92
+      maxTargets: 2
+      scanRes: 65
+      scanStr: 10
+      scanType: Magnetometric
+      targetRange: 41250
+      velocity: 120
+      warpSpeed: 3.0
     fitting:
       capacitor: 550.0
       capacitorTime: 242.5
@@ -863,7 +1185,14 @@ hulls:
     name: Kryos
   655:
     attributes:
-      maximumVelocity: 120
+      inertiaModifier: 0.9
+      maxTargets: 2
+      scanRes: 70
+      scanStr: 11
+      scanType: Magnetometric
+      targetRange: 45000
+      velocity: 120
+      warpSpeed: 3.0
     fitting:
       capacitor: 550.0
       capacitorTime: 381.3
@@ -882,7 +1211,14 @@ hulls:
     name: Epithal
   650:
     attributes:
-      maximumVelocity: 130
+      inertiaModifier: 0.78
+      maxTargets: 2
+      scanRes: 85
+      scanStr: 10
+      scanType: Magnetometric
+      targetRange: 37500
+      velocity: 130
+      warpSpeed: 4.5
     fitting:
       capacitor: 375.0
       capacitorTime: 207.5
@@ -901,7 +1237,14 @@ hulls:
     name: Nereus
   649:
     attributes:
-      maximumVelocity: 115
+      inertiaModifier: 0.97
+      maxTargets: 2
+      scanRes: 50
+      scanStr: 13
+      scanType: Gravimetric
+      targetRange: 45000
+      velocity: 115
+      warpSpeed: 3.0
     fitting:
       capacitor: 625.0
       capacitorTime: 346.3
@@ -920,7 +1263,14 @@ hulls:
     name: Tayra
   648:
     attributes:
-      maximumVelocity: 127
+      inertiaModifier: 0.94
+      maxTargets: 2
+      scanRes: 60
+      scanStr: 11
+      scanType: Gravimetric
+      targetRange: 42500
+      velocity: 127
+      warpSpeed: 4.5
     fitting:
       capacitor: 440.0
       capacitorTime: 242.5
@@ -939,7 +1289,14 @@ hulls:
     name: Badger
   652:
     attributes:
-      maximumVelocity: 120
+      inertiaModifier: 0.91
+      maxTargets: 2
+      scanRes: 85
+      scanStr: 8
+      scanType: LADAR
+      targetRange: 45000
+      velocity: 120
+      warpSpeed: 3.0
     fitting:
       capacitor: 560.0
       capacitorTime: 312.5
@@ -958,7 +1315,14 @@ hulls:
     name: Mammoth
   653:
     attributes:
-      maximumVelocity: 140
+      inertiaModifier: 0.81
+      maxTargets: 2
+      scanRes: 95
+      scanStr: 7
+      scanType: LADAR
+      targetRange: 35000
+      velocity: 140
+      warpSpeed: 4.5
     fitting:
       capacitor: 350.0
       capacitorTime: 207.5
@@ -977,7 +1341,14 @@ hulls:
     name: Wreathe
   651:
     attributes:
-      maximumVelocity: 130
+      inertiaModifier: 0.85
+      maxTargets: 2
+      scanRes: 90
+      scanStr: 7
+      scanType: LADAR
+      targetRange: 41250
+      velocity: 130
+      warpSpeed: 3.0
     fitting:
       capacitor: 600.0
       capacitorTime: 277.5
@@ -996,7 +1367,14 @@ hulls:
     name: Hoarder
   22460:
     attributes:
-      maximumVelocity: 305
+      inertiaModifier: 3.7
+      maxTargets: 7
+      scanRes: 500
+      scanStr: 13
+      scanType: Magnetometric
+      targetRange: 55000
+      velocity: 305
+      warpSpeed: 5.5
     fitting:
       capacitor: 700.0
       capacitorTime: 350.0
@@ -1015,7 +1393,14 @@ hulls:
     name: Eris
   22456:
     attributes:
-      maximumVelocity: 320
+      inertiaModifier: 3.7
+      maxTargets: 7
+      scanRes: 550
+      scanStr: 11
+      scanType: LADAR
+      targetRange: 45000
+      velocity: 320
+      warpSpeed: 5.5
     fitting:
       capacitor: 600.0
       capacitorTime: 300.0
@@ -1034,7 +1419,14 @@ hulls:
     name: Sabre
   22452:
     attributes:
-      maximumVelocity: 310
+      inertiaModifier: 3.6
+      maxTargets: 7
+      scanRes: 525
+      scanStr: 12
+      scanType: RADAR
+      targetRange: 50000
+      velocity: 310
+      warpSpeed: 5.5
     fitting:
       capacitor: 750.0
       capacitorTime: 375.0
@@ -1053,7 +1445,14 @@ hulls:
     name: Heretic
   22464:
     attributes:
-      maximumVelocity: 315
+      inertiaModifier: 3.6
+      maxTargets: 7
+      scanRes: 475
+      scanStr: 14
+      scanType: Gravimetric
+      targetRange: 60000
+      velocity: 315
+      warpSpeed: 5.5
     fitting:
       capacitor: 650.0
       capacitorTime: 325.0
@@ -1072,7 +1471,14 @@ hulls:
     name: Flycatcher
   34317:
     attributes:
-      maximumVelocity: 235
+      inertiaModifier: 2.7
+      maxTargets: 7
+      scanRes: 325
+      scanStr: 13
+      scanType: RADAR
+      targetRange: 45000
+      velocity: 235
+      warpSpeed: 4.5
     fitting:
       capacitor: 800.0
       capacitorTime: 320.0
@@ -1091,7 +1497,14 @@ hulls:
     name: Confessor
   34562:
     attributes:
-      maximumVelocity: 230
+      inertiaModifier: 3.5
+      maxTargets: 7
+      scanRes: 375
+      scanStr: 11
+      scanType: LADAR
+      targetRange: 40000
+      velocity: 230
+      warpSpeed: 4.5
     fitting:
       capacitor: 600.0
       capacitorTime: 240.0
@@ -1110,7 +1523,14 @@ hulls:
     name: Svipul
   32874:
     attributes:
-      maximumVelocity: 240
+      inertiaModifier: 2.87
+      maxTargets: 6
+      scanRes: 525
+      scanStr: 10
+      scanType: RADAR
+      targetRange: 39000
+      velocity: 240
+      warpSpeed: 4.5
     fitting:
       capacitor: 600.0
       capacitorTime: 275.0
@@ -1129,7 +1549,14 @@ hulls:
     name: Dragoon
   16236:
     attributes:
-      maximumVelocity: 255
+      inertiaModifier: 2.77
+      maxTargets: 6
+      scanRes: 525
+      scanStr: 10
+      scanType: RADAR
+      targetRange: 30000
+      velocity: 255
+      warpSpeed: 4.5
     fitting:
       capacitor: 700.0
       capacitorTime: 370.0
@@ -1148,7 +1575,14 @@ hulls:
     name: Coercer
   32876:
     attributes:
-      maximumVelocity: 235
+      inertiaModifier: 2.7
+      maxTargets: 7
+      scanRes: 475
+      scanStr: 12
+      scanType: Gravimetric
+      targetRange: 45000
+      velocity: 235
+      warpSpeed: 4.5
     fitting:
       capacitor: 500.0
       capacitorTime: 320.0
@@ -1167,7 +1601,14 @@ hulls:
     name: Corax
   16238:
     attributes:
-      maximumVelocity: 250
+      inertiaModifier: 2.78
+      maxTargets: 7
+      scanRes: 475
+      scanStr: 12
+      scanType: Gravimetric
+      targetRange: 36000
+      velocity: 250
+      warpSpeed: 4.5
     fitting:
       capacitor: 600.0
       capacitorTime: 320.0
@@ -1186,7 +1627,14 @@ hulls:
     name: Cormorant
   16240:
     attributes:
-      maximumVelocity: 265
+      inertiaModifier: 2.76
+      maxTargets: 7
+      scanRes: 500
+      scanStr: 11
+      scanType: Magnetometric
+      targetRange: 33000
+      velocity: 265
+      warpSpeed: 4.5
     fitting:
       capacitor: 650.0
       capacitorTime: 350.0
@@ -1205,7 +1653,14 @@ hulls:
     name: Catalyst
   32872:
     attributes:
-      maximumVelocity: 245
+      inertiaModifier: 2.85
+      maxTargets: 7
+      scanRes: 500
+      scanStr: 11
+      scanType: Magnetometric
+      targetRange: 42000
+      velocity: 245
+      warpSpeed: 4.5
     fitting:
       capacitor: 550.0
       capacitorTime: 350.0
@@ -1224,7 +1679,14 @@ hulls:
     name: Algos
   16242:
     attributes:
-      maximumVelocity: 270
+      inertiaModifier: 2.8
+      maxTargets: 6
+      scanRes: 550
+      scanStr: 9
+      scanType: LADAR
+      targetRange: 27000
+      velocity: 270
+      warpSpeed: 4.5
     fitting:
       capacitor: 550.0
       capacitorTime: 290.0
@@ -1243,7 +1705,14 @@ hulls:
     name: Thrasher
   32878:
     attributes:
-      maximumVelocity: 255
+      inertiaModifier: 2.9
+      maxTargets: 6
+      scanRes: 550
+      scanStr: 9
+      scanType: LADAR
+      targetRange: 36000
+      velocity: 255
+      warpSpeed: 4.5
     fitting:
       capacitor: 450.0
       capacitorTime: 290.0
@@ -1262,7 +1731,14 @@ hulls:
     name: Talwar
   609:
     attributes:
-      maximumVelocity: 375
+      inertiaModifier: 3.25
+      maxTargets: 6
+      scanRes: 520
+      scanStr: 16
+      scanType: Magnetometric
+      targetRange: 64500
+      velocity: 375
+      warpSpeed: 5.0
     fitting:
       capacitor: 275.0
       capacitorTime: 150.0
@@ -1281,7 +1757,14 @@ hulls:
     name: Maulus
   593:
     attributes:
-      maximumVelocity: 325
+      inertiaModifier: 3.44
+      maxTargets: 5
+      scanRes: 600
+      scanStr: 9
+      scanType: Magnetometric
+      targetRange: 40000
+      velocity: 325
+      warpSpeed: 5.0
     fitting:
       capacitor: 350.0
       capacitorTime: 175.0
@@ -1300,7 +1783,14 @@ hulls:
     name: Tristan
   594:
     attributes:
-      maximumVelocity: 340
+      inertiaModifier: 3.15
+      maxTargets: 4
+      scanRes: 600
+      scanStr: 9
+      scanType: Magnetometric
+      targetRange: 30000
+      velocity: 340
+      warpSpeed: 5.0
     fitting:
       capacitor: 370.0
       capacitorTime: 185.0
@@ -1319,7 +1809,14 @@ hulls:
     name: Incursus
   607:
     attributes:
-      maximumVelocity: 330
+      inertiaModifier: 4.15
+      maxTargets: 4
+      scanRes: 450
+      scanStr: 11
+      scanType: Magnetometric
+      targetRange: 35000
+      velocity: 330
+      warpSpeed: 5.0
     fitting:
       capacitor: 270.0
       capacitorTime: 150.0
@@ -1338,7 +1835,14 @@ hulls:
     name: Imicus
   608:
     attributes:
-      maximumVelocity: 420
+      inertiaModifier: 2.8
+      maxTargets: 4
+      scanRes: 900
+      scanStr: 8
+      scanType: Magnetometric
+      targetRange: 25000
+      velocity: 420
+      warpSpeed: 5.0
     fitting:
       capacitor: 330.0
       capacitorTime: 165.0
@@ -1357,7 +1861,14 @@ hulls:
     name: Atron
   592:
     attributes:
-      maximumVelocity: 410
+      inertiaModifier: 3.75
+      maxTargets: 7
+      scanRes: 875
+      scanStr: 11
+      scanType: Magnetometric
+      targetRange: 38000
+      velocity: 410
+      warpSpeed: 5.0
     fitting:
       capacitor: 425.0
       capacitorTime: 212.5
@@ -1376,7 +1887,14 @@ hulls:
     name: Navitas
   32880:
     attributes:
-      maximumVelocity: 335
+      inertiaModifier: 3.6
+      maxTargets: 5
+      scanRes: 750
+      scanStr: 4
+      scanType: Magnetometric
+      targetRange: 15000
+      velocity: 335
+      warpSpeed: 5.0
     fitting:
       capacitor: 250.0
       capacitorTime: 125.0
@@ -1395,7 +1913,14 @@ hulls:
     name: Venture
   599:
     attributes:
-      maximumVelocity: 415
+      inertiaModifier: 3.9
+      maxTargets: 7
+      scanRes: 925
+      scanStr: 9
+      scanType: LADAR
+      targetRange: 34000
+      velocity: 415
+      warpSpeed: 5.0
     fitting:
       capacitor: 400.0
       capacitorTime: 200.0
@@ -1414,7 +1939,14 @@ hulls:
     name: Burst
   586:
     attributes:
-      maximumVelocity: 360
+      inertiaModifier: 3.58
+      maxTargets: 4
+      scanRes: 465
+      scanStr: 9
+      scanType: LADAR
+      targetRange: 32500
+      velocity: 360
+      warpSpeed: 5.0
     fitting:
       capacitor: 235.0
       capacitorTime: 130.0
@@ -1433,7 +1965,14 @@ hulls:
     name: Probe
   598:
     attributes:
-      maximumVelocity: 360
+      inertiaModifier: 3.18
+      maxTargets: 4
+      scanRes: 650
+      scanStr: 8
+      scanType: LADAR
+      targetRange: 35000
+      velocity: 360
+      warpSpeed: 5.0
     fitting:
       capacitor: 300.0
       capacitorTime: 150.0
@@ -1452,7 +1991,14 @@ hulls:
     name: Breacher
   587:
     attributes:
-      maximumVelocity: 365
+      inertiaModifier: 3.2
+      maxTargets: 4
+      scanRes: 660
+      scanStr: 8
+      scanType: LADAR
+      targetRange: 22500
+      velocity: 365
+      warpSpeed: 5.0
     fitting:
       capacitor: 250.0
       capacitorTime: 125.0
@@ -1471,7 +2017,14 @@ hulls:
     name: Rifter
   585:
     attributes:
-      maximumVelocity: 430
+      inertiaModifier: 2.83
+      maxTargets: 4
+      scanRes: 940
+      scanStr: 7
+      scanType: LADAR
+      targetRange: 22500
+      velocity: 430
+      warpSpeed: 5.0
     fitting:
       capacitor: 240.0
       capacitorTime: 120.0
@@ -1490,7 +2043,14 @@ hulls:
     name: Slasher
   3766:
     attributes:
-      maximumVelocity: 410
+      inertiaModifier: 3.22
+      maxTargets: 6
+      scanRes: 560
+      scanStr: 12
+      scanType: LADAR
+      targetRange: 65000
+      velocity: 410
+      warpSpeed: 5.0
     fitting:
       capacitor: 235.0
       capacitorTime: 130.0
@@ -1509,7 +2069,14 @@ hulls:
     name: Vigil
   589:
     attributes:
-      maximumVelocity: 410
+      inertiaModifier: 2.85
+      maxTargets: 4
+      scanRes: 920
+      scanStr: 8
+      scanType: RADAR
+      targetRange: 27500
+      velocity: 410
+      warpSpeed: 5.0
     fitting:
       capacitor: 360.0
       capacitorTime: 180.0
@@ -1528,7 +2095,14 @@ hulls:
     name: Executioner
   29248:
     attributes:
-      maximumVelocity: 350
+      inertiaModifier: 3.8
+      maxTargets: 4
+      scanRes: 445
+      scanStr: 10
+      scanType: RADAR
+      targetRange: 34000
+      velocity: 350
+      warpSpeed: 5.0
     fitting:
       capacitor: 325.0
       capacitorTime: 180.0
@@ -1547,7 +2121,14 @@ hulls:
     name: Magnate
   597:
     attributes:
-      maximumVelocity: 355
+      inertiaModifier: 2.9
+      maxTargets: 4
+      scanRes: 640
+      scanStr: 10
+      scanType: RADAR
+      targetRange: 25000
+      velocity: 355
+      warpSpeed: 5.0
     fitting:
       capacitor: 400.0
       capacitorTime: 160.0
@@ -1566,7 +2147,14 @@ hulls:
     name: Punisher
   2161:
     attributes:
-      maximumVelocity: 350
+      inertiaModifier: 3.35
+      maxTargets: 6
+      scanRes: 540
+      scanStr: 14
+      scanType: RADAR
+      targetRange: 64000
+      velocity: 350
+      warpSpeed: 5.0
     fitting:
       capacitor: 330.0
       capacitorTime: 180.0
@@ -1585,7 +2173,14 @@ hulls:
     name: Crucifier
   591:
     attributes:
-      maximumVelocity: 335
+      inertiaModifier: 3.1
+      maxTargets: 4
+      scanRes: 620
+      scanStr: 9
+      scanType: RADAR
+      targetRange: 40000
+      velocity: 335
+      warpSpeed: 5.0
     fitting:
       capacitor: 425.0
       capacitorTime: 212.5
@@ -1604,7 +2199,14 @@ hulls:
     name: Tormentor
   590:
     attributes:
-      maximumVelocity: 405
+      inertiaModifier: 3.55
+      maxTargets: 7
+      scanRes: 900
+      scanStr: 10
+      scanType: RADAR
+      targetRange: 36000
+      velocity: 405
+      warpSpeed: 5.0
     fitting:
       capacitor: 450.0
       capacitorTime: 225.0
@@ -1623,7 +2225,14 @@ hulls:
     name: Inquisitor
   602:
     attributes:
-      maximumVelocity: 325
+      inertiaModifier: 3.27
+      maxTargets: 5
+      scanRes: 620
+      scanStr: 11
+      scanType: Gravimetric
+      targetRange: 50000
+      velocity: 325
+      warpSpeed: 5.0
     fitting:
       capacitor: 330.0
       capacitorTime: 165.0
@@ -1642,7 +2251,14 @@ hulls:
     name: Kestrel
   584:
     attributes:
-      maximumVelocity: 325
+      inertiaModifier: 3.5
+      maxTargets: 6
+      scanRes: 500
+      scanStr: 17
+      scanType: Gravimetric
+      targetRange: 65000
+      velocity: 325
+      warpSpeed: 5.0
     fitting:
       capacitor: 245.0
       capacitorTime: 135.0
@@ -1661,7 +2277,14 @@ hulls:
     name: Griffin
   582:
     attributes:
-      maximumVelocity: 370
+      inertiaModifier: 4.1
+      maxTargets: 7
+      scanRes: 850
+      scanStr: 12
+      scanType: Gravimetric
+      targetRange: 40000
+      velocity: 370
+      warpSpeed: 5.0
     fitting:
       capacitor: 410.0
       capacitorTime: 205.0
@@ -1680,7 +2303,14 @@ hulls:
     name: Bantam
   583:
     attributes:
-      maximumVelocity: 400
+      inertiaModifier: 2.9
+      maxTargets: 4
+      scanRes: 880
+      scanStr: 9
+      scanType: Gravimetric
+      targetRange: 30000
+      velocity: 400
+      warpSpeed: 5.0
     fitting:
       capacitor: 300.0
       capacitorTime: 150.0
@@ -1699,7 +2329,14 @@ hulls:
     name: Condor
   605:
     attributes:
-      maximumVelocity: 340
+      inertiaModifier: 3.57
+      maxTargets: 4
+      scanRes: 430
+      scanStr: 12
+      scanType: Gravimetric
+      targetRange: 37500
+      velocity: 340
+      warpSpeed: 5.0
     fitting:
       capacitor: 245.0
       capacitorTime: 135.0
@@ -1718,7 +2355,14 @@ hulls:
     name: Heron
   603:
     attributes:
-      maximumVelocity: 310
+      inertiaModifier: 3.6
+      maxTargets: 5
+      scanRes: 580
+      scanStr: 11
+      scanType: Gravimetric
+      targetRange: 50000
+      velocity: 310
+      warpSpeed: 5.0
     fitting:
       capacitor: 350.0
       capacitorTime: 175.0
@@ -1737,7 +2381,14 @@ hulls:
     name: Merlin
   33468:
     attributes:
-      maximumVelocity: 312
+      inertiaModifier: 2.87
+      maxTargets: 6
+      scanRes: 620
+      scanStr: 13
+      scanType: Magnetometric
+      targetRange: 37000
+      velocity: 312
+      warpSpeed: 5.0
     fitting:
       capacitor: 430.0
       capacitorTime: 195.0
@@ -1756,7 +2407,14 @@ hulls:
     name: Astero
   17928:
     attributes:
-      maximumVelocity: 385
+      inertiaModifier: 3.2
+      maxTargets: 5
+      scanRes: 650
+      scanStr: 12
+      scanType: Magnetometric
+      targetRange: 25000
+      velocity: 385
+      warpSpeed: 5.0
     fitting:
       capacitor: 390.0
       capacitorTime: 230.0
@@ -1775,7 +2433,14 @@ hulls:
     name: Daredevil
   17930:
     attributes:
-      maximumVelocity: 320
+      inertiaModifier: 3.8
+      maxTargets: 5
+      scanRes: 650
+      scanStr: 15
+      scanType: Gravimetric
+      targetRange: 30000
+      velocity: 320
+      warpSpeed: 5.0
     fitting:
       capacitor: 380.0
       capacitorTime: 212.0
@@ -1794,7 +2459,14 @@ hulls:
     name: Worm
   33816:
     attributes:
-      maximumVelocity: 415
+      inertiaModifier: 3.2
+      maxTargets: 5
+      scanRes: 650
+      scanStr: 13
+      scanType: Gravimetric
+      targetRange: 28000
+      velocity: 415
+      warpSpeed: 5.0
     fitting:
       capacitor: 400.0
       capacitorTime: 195.0
@@ -1813,7 +2485,14 @@ hulls:
     name: Garmur
   17932:
     attributes:
-      maximumVelocity: 460
+      inertiaModifier: 3.1
+      maxTargets: 5
+      scanRes: 750
+      scanStr: 11
+      scanType: LADAR
+      targetRange: 28000
+      velocity: 460
+      warpSpeed: 7.5
     fitting:
       capacitor: 370.0
       capacitorTime: 208.0
@@ -1832,7 +2511,14 @@ hulls:
     name: Dramiel
   17926:
     attributes:
-      maximumVelocity: 330
+      inertiaModifier: 3.6
+      maxTargets: 6
+      scanRes: 760
+      scanStr: 12
+      scanType: RADAR
+      targetRange: 33000
+      velocity: 330
+      warpSpeed: 5.0
     fitting:
       capacitor: 470.0
       capacitorTime: 205.0
@@ -1851,7 +2537,14 @@ hulls:
     name: Cruor
   17924:
     attributes:
-      maximumVelocity: 340
+      inertiaModifier: 3.5
+      maxTargets: 5
+      scanRes: 650
+      scanStr: 13
+      scanType: RADAR
+      targetRange: 32000
+      velocity: 340
+      warpSpeed: 5.0
     fitting:
       capacitor: 450.0
       capacitorTime: 210.0
@@ -1870,7 +2563,14 @@ hulls:
     name: Succubus
   33677:
     attributes:
-      maximumVelocity: 375
+      inertiaModifier: 3.135
+      maxTargets: 5
+      scanRes: 650
+      scanStr: 11
+      scanType: Magnetometric
+      targetRange: 37500
+      velocity: 375
+      warpSpeed: 5.0
     fitting:
       capacitor: 400.0
       capacitorTime: 200.0
@@ -1889,7 +2589,14 @@ hulls:
     name: Police Pursuit Comet
   17841:
     attributes:
-      maximumVelocity: 375
+      inertiaModifier: 3.135
+      maxTargets: 5
+      scanRes: 650
+      scanStr: 11
+      scanType: Magnetometric
+      targetRange: 37500
+      velocity: 375
+      warpSpeed: 5.0
     fitting:
       capacitor: 400.0
       capacitorTime: 200.0
@@ -1908,7 +2615,14 @@ hulls:
     name: Federation Navy Comet
   17703:
     attributes:
-      maximumVelocity: 350
+      inertiaModifier: 3.3
+      maxTargets: 5
+      scanRes: 675
+      scanStr: 11
+      scanType: RADAR
+      targetRange: 40000
+      velocity: 350
+      warpSpeed: 5.0
     fitting:
       capacitor: 500.0
       capacitorTime: 250.0
@@ -1927,7 +2641,14 @@ hulls:
     name: Imperial Navy Slicer
   17812:
     attributes:
-      maximumVelocity: 410
+      inertiaModifier: 3.2
+      maxTargets: 5
+      scanRes: 700
+      scanStr: 10
+      scanType: LADAR
+      targetRange: 35000
+      velocity: 410
+      warpSpeed: 5.0
     fitting:
       capacitor: 280.0
       capacitorTime: 140.0
@@ -1946,7 +2667,14 @@ hulls:
     name: Republic Fleet Firetail
   17619:
     attributes:
-      maximumVelocity: 360
+      inertiaModifier: 3.3
+      maxTargets: 5
+      scanRes: 600
+      scanStr: 13
+      scanType: Gravimetric
+      targetRange: 45000
+      velocity: 360
+      warpSpeed: 5.0
     fitting:
       capacitor: 300.0
       capacitorTime: 150.0
@@ -1965,7 +2693,14 @@ hulls:
     name: Caldari Navy Hookbill
   33697:
     attributes:
-      maximumVelocity: 380
+      inertiaModifier: 3.0
+      maxTargets: 6
+      scanRes: 750
+      scanStr: 10
+      scanType: Magnetometric
+      targetRange: 20000
+      velocity: 380
+      warpSpeed: 5.5
     fitting:
       capacitor: 300.0
       capacitorTime: 125.0
@@ -1984,7 +2719,14 @@ hulls:
     name: Prospect
   11190:
     attributes:
-      maximumVelocity: 340
+      inertiaModifier: 4.25
+      maxTargets: 7
+      scanRes: 575
+      scanStr: 21
+      scanType: RADAR
+      targetRange: 64000
+      velocity: 340
+      warpSpeed: 5.5
     fitting:
       capacitor: 415.0
       capacitorTime: 190.0
@@ -2003,7 +2745,14 @@ hulls:
     name: Sentinel
   11194:
     attributes:
-      maximumVelocity: 315
+      inertiaModifier: 3.86
+      maxTargets: 7
+      scanRes: 520
+      scanStr: 24
+      scanType: Gravimetric
+      targetRange: 65000
+      velocity: 315
+      warpSpeed: 5.5
     fitting:
       capacitor: 415.0
       capacitorTime: 195.0
@@ -2022,7 +2771,14 @@ hulls:
     name: Kitsune
   11174:
     attributes:
-      maximumVelocity: 350
+      inertiaModifier: 4.1
+      maxTargets: 7
+      scanRes: 550
+      scanStr: 23
+      scanType: Magnetometric
+      targetRange: 64500
+      velocity: 350
+      warpSpeed: 5.5
     fitting:
       capacitor: 375.0
       capacitorTime: 187.0
@@ -2041,7 +2797,14 @@ hulls:
     name: Keres
   11387:
     attributes:
-      maximumVelocity: 375
+      inertiaModifier: 3.93
+      maxTargets: 7
+      scanRes: 600
+      scanStr: 21
+      scanType: LADAR
+      targetRange: 65000
+      velocity: 375
+      warpSpeed: 5.5
     fitting:
       capacitor: 355.0
       capacitorTime: 175.0
@@ -2060,7 +2823,14 @@ hulls:
     name: Hyena
   11188:
     attributes:
-      maximumVelocity: 282
+      inertiaModifier: 4.89
+      maxTargets: 6
+      scanRes: 435
+      scanStr: 22
+      scanType: RADAR
+      targetRange: 42500
+      velocity: 282
+      warpSpeed: 8.0
     fitting:
       capacitor: 250.0
       capacitorTime: 187.5
@@ -2079,7 +2849,14 @@ hulls:
     name: Anathema
   12038:
     attributes:
-      maximumVelocity: 300
+      inertiaModifier: 4.4
+      maxTargets: 6
+      scanRes: 450
+      scanStr: 19
+      scanType: RADAR
+      targetRange: 60000
+      velocity: 300
+      warpSpeed: 4.5
     fitting:
       capacitor: 355.0
       capacitorTime: 266.3
@@ -2098,7 +2875,14 @@ hulls:
     name: Purifier
   11192:
     attributes:
-      maximumVelocity: 306
+      inertiaModifier: 4.27
+      maxTargets: 5
+      scanRes: 405
+      scanStr: 24
+      scanType: Gravimetric
+      targetRange: 50000
+      velocity: 306
+      warpSpeed: 8.0
     fitting:
       capacitor: 218.75
       capacitorTime: 187.5
@@ -2117,7 +2901,14 @@ hulls:
     name: Buzzard
   12032:
     attributes:
-      maximumVelocity: 280
+      inertiaModifier: 4.5
+      maxTargets: 6
+      scanRes: 375
+      scanStr: 21
+      scanType: Gravimetric
+      targetRange: 70000
+      velocity: 280
+      warpSpeed: 4.5
     fitting:
       capacitor: 315.0
       capacitorTime: 236.3
@@ -2136,7 +2927,14 @@ hulls:
     name: Manticore
   11172:
     attributes:
-      maximumVelocity: 330
+      inertiaModifier: 4.142
+      maxTargets: 6
+      scanRes: 390
+      scanStr: 22
+      scanType: Magnetometric
+      targetRange: 47500
+      velocity: 330
+      warpSpeed: 8.0
     fitting:
       capacitor: 218.75
       capacitorTime: 187.5
@@ -2155,7 +2953,14 @@ hulls:
     name: Helios
   11377:
     attributes:
-      maximumVelocity: 275
+      inertiaModifier: 4.6
+      maxTargets: 6
+      scanRes: 425
+      scanStr: 20
+      scanType: Magnetometric
+      targetRange: 65000
+      velocity: 275
+      warpSpeed: 4.5
     fitting:
       capacitor: 355.0
       capacitorTime: 266.3
@@ -2174,7 +2979,14 @@ hulls:
     name: Nemesis
   11182:
     attributes:
-      maximumVelocity: 381
+      inertiaModifier: 3.77
+      maxTargets: 6
+      scanRes: 450
+      scanStr: 20
+      scanType: LADAR
+      targetRange: 37500
+      velocity: 381
+      warpSpeed: 8.0
     fitting:
       capacitor: 187.5
       capacitorTime: 187.5
@@ -2193,7 +3005,14 @@ hulls:
     name: Cheetah
   12034:
     attributes:
-      maximumVelocity: 310
+      inertiaModifier: 4.4
+      maxTargets: 6
+      scanRes: 500
+      scanStr: 18
+      scanType: LADAR
+      targetRange: 55000
+      velocity: 310
+      warpSpeed: 4.5
     fitting:
       capacitor: 285.0
       capacitorTime: 213.8
@@ -2212,7 +3031,14 @@ hulls:
     name: Hound
   11371:
     attributes:
-      maximumVelocity: 329
+      inertiaModifier: 3.456
+      maxTargets: 6
+      scanRes: 700
+      scanStr: 10
+      scanType: LADAR
+      targetRange: 40000
+      velocity: 329
+      warpSpeed: 5.5
     fitting:
       capacitor: 275.0
       capacitorTime: 187.5
@@ -2231,7 +3057,14 @@ hulls:
     name: Wolf
   11400:
     attributes:
-      maximumVelocity: 357
+      inertiaModifier: 3.176
+      maxTargets: 6
+      scanRes: 750
+      scanStr: 11
+      scanType: LADAR
+      targetRange: 37500
+      velocity: 357
+      warpSpeed: 5.5
     fitting:
       capacitor: 250.0
       capacitorTime: 187.5
@@ -2250,7 +3083,14 @@ hulls:
     name: Jaguar
   11393:
     attributes:
-      maximumVelocity: 278
+      inertiaModifier: 4.128
+      maxTargets: 5
+      scanRes: 650
+      scanStr: 12
+      scanType: RADAR
+      targetRange: 40000
+      velocity: 278
+      warpSpeed: 5.5
     fitting:
       capacitor: 437.5
       capacitorTime: 187.5
@@ -2269,7 +3109,14 @@ hulls:
     name: Retribution
   11365:
     attributes:
-      maximumVelocity: 273
+      inertiaModifier: 4.264
+      maxTargets: 5
+      scanRes: 655
+      scanStr: 14
+      scanType: RADAR
+      targetRange: 38000
+      velocity: 273
+      warpSpeed: 5.5
     fitting:
       capacitor: 375.0
       capacitorTime: 187.5
@@ -2288,7 +3135,14 @@ hulls:
     name: Vengeance
   11381:
     attributes:
-      maximumVelocity: 264
+      inertiaModifier: 3.6328
+      maxTargets: 6
+      scanRes: 500
+      scanStr: 15
+      scanType: Gravimetric
+      targetRange: 50000
+      velocity: 264
+      warpSpeed: 5.5
     fitting:
       capacitor: 343.75
       capacitorTime: 187.5
@@ -2307,7 +3161,14 @@ hulls:
     name: Harpy
   11379:
     attributes:
-      maximumVelocity: 273
+      inertiaModifier: 3.768
+      maxTargets: 6
+      scanRes: 575
+      scanStr: 16
+      scanType: Gravimetric
+      targetRange: 45000
+      velocity: 273
+      warpSpeed: 5.5
     fitting:
       capacitor: 312.5
       capacitorTime: 187.5
@@ -2326,7 +3187,14 @@ hulls:
     name: Hawk
   12042:
     attributes:
-      maximumVelocity: 287
+      inertiaModifier: 3.8684
+      maxTargets: 6
+      scanRes: 550
+      scanStr: 12
+      scanType: Magnetometric
+      targetRange: 47500
+      velocity: 287
+      warpSpeed: 5.5
     fitting:
       capacitor: 312.5
       capacitorTime: 187.5
@@ -2345,7 +3213,14 @@ hulls:
     name: Ishkur
   12044:
     attributes:
-      maximumVelocity: 288
+      inertiaModifier: 3.9216
+      maxTargets: 6
+      scanRes: 625
+      scanStr: 11
+      scanType: Magnetometric
+      targetRange: 42500
+      velocity: 288
+      warpSpeed: 5.5
     fitting:
       capacitor: 343.75
       capacitorTime: 187.5
@@ -2364,7 +3239,14 @@ hulls:
     name: Enyo
   11196:
     attributes:
-      maximumVelocity: 480
+      inertiaModifier: 3.15
+      maxTargets: 5
+      scanRes: 1000
+      scanStr: 9
+      scanType: LADAR
+      targetRange: 22500
+      velocity: 480
+      warpSpeed: 8.0
     fitting:
       capacitor: 285.0
       capacitorTime: 213.8
@@ -2383,7 +3265,14 @@ hulls:
     name: Claw
   11198:
     attributes:
-      maximumVelocity: 435
+      inertiaModifier: 3.5
+      maxTargets: 5
+      scanRes: 970
+      scanStr: 10
+      scanType: LADAR
+      targetRange: 29500
+      velocity: 435
+      warpSpeed: 8.0
     fitting:
       capacitor: 250.0
       capacitorTime: 187.5
@@ -2402,7 +3291,14 @@ hulls:
     name: Stiletto
   11184:
     attributes:
-      maximumVelocity: 455
+      inertiaModifier: 3.2
+      maxTargets: 5
+      scanRes: 975
+      scanStr: 10
+      scanType: RADAR
+      targetRange: 25000
+      velocity: 455
+      warpSpeed: 8.0
     fitting:
       capacitor: 415.0
       capacitorTime: 311.3
@@ -2421,7 +3317,14 @@ hulls:
     name: Crusader
   11186:
     attributes:
-      maximumVelocity: 470
+      inertiaModifier: 3.05
+      maxTargets: 5
+      scanRes: 900
+      scanStr: 12
+      scanType: RADAR
+      targetRange: 31500
+      velocity: 470
+      warpSpeed: 8.0
     fitting:
       capacitor: 355.0
       capacitorTime: 266.3
@@ -2440,7 +3343,14 @@ hulls:
     name: Malediction
   11176:
     attributes:
-      maximumVelocity: 430
+      inertiaModifier: 3.7
+      maxTargets: 5
+      scanRes: 860
+      scanStr: 12
+      scanType: Gravimetric
+      targetRange: 32500
+      velocity: 430
+      warpSpeed: 8.0
     fitting:
       capacitor: 315.0
       capacitorTime: 236.3
@@ -2459,7 +3369,14 @@ hulls:
     name: Crow
   11178:
     attributes:
-      maximumVelocity: 420
+      inertiaModifier: 3.4
+      maxTargets: 5
+      scanRes: 940
+      scanStr: 14
+      scanType: Gravimetric
+      targetRange: 27500
+      velocity: 420
+      warpSpeed: 8.0
     fitting:
       capacitor: 355.0
       capacitorTime: 266.3
@@ -2478,7 +3395,14 @@ hulls:
     name: Raptor
   11200:
     attributes:
-      maximumVelocity: 420
+      inertiaModifier: 3.25
+      maxTargets: 5
+      scanRes: 880
+      scanStr: 10
+      scanType: Magnetometric
+      targetRange: 22500
+      velocity: 420
+      warpSpeed: 8.0
     fitting:
       capacitor: 355.0
       capacitorTime: 266.3
@@ -2497,7 +3421,14 @@ hulls:
     name: Taranis
   11202:
     attributes:
-      maximumVelocity: 425
+      inertiaModifier: 3.45
+      maxTargets: 5
+      scanRes: 955
+      scanStr: 11
+      scanType: Magnetometric
+      targetRange: 30500
+      velocity: 425
+      warpSpeed: 8.0
     fitting:
       capacitor: 355.0
       capacitorTime: 266.3
@@ -2516,7 +3447,14 @@ hulls:
     name: Ares
   11134:
     attributes:
-      maximumVelocity: 500
+      inertiaModifier: 0.0
+      maxTargets: 2
+      scanRes: 0
+      scanStr: 6
+      scanType: RADAR
+      targetRange: 35000
+      velocity: 500
+      warpSpeed: 5.0
     fitting:
       capacitor: 250.0
       capacitorTime: 375.0
@@ -2534,7 +3472,14 @@ hulls:
     name: Amarr Shuttle
   11132:
     attributes:
-      maximumVelocity: 500
+      inertiaModifier: 0.0
+      maxTargets: 2
+      scanRes: 0
+      scanStr: 5
+      scanType: LADAR
+      targetRange: 35000
+      velocity: 500
+      warpSpeed: 5.0
     fitting:
       capacitor: 250.0
       capacitorTime: 375.0
@@ -2552,7 +3497,14 @@ hulls:
     name: Minmatar Shuttle
   11129:
     attributes:
-      maximumVelocity: 500
+      inertiaModifier: 0.0
+      maxTargets: 2
+      scanRes: 0
+      scanStr: 6
+      scanType: Magnetometric
+      targetRange: 35000
+      velocity: 500
+      warpSpeed: 5.0
     fitting:
       capacitor: 250.0
       capacitorTime: 375.0
@@ -2570,7 +3522,14 @@ hulls:
     name: Gallente Shuttle
   672:
     attributes:
-      maximumVelocity: 500
+      inertiaModifier: 0.0
+      maxTargets: 2
+      scanRes: 0
+      scanStr: 7
+      scanType: Gravimetric
+      targetRange: 35000
+      velocity: 500
+      warpSpeed: 5.0
     fitting:
       capacitor: 250.0
       capacitorTime: 375.0
@@ -2588,7 +3547,14 @@ hulls:
     name: Caldari Shuttle
   21097:
     attributes:
-      maximumVelocity: 500
+      inertiaModifier: 0.0
+      maxTargets: 2
+      scanRes: 0
+      scanStr: 7
+      scanType: Gravimetric
+      targetRange: 35000
+      velocity: 500
+      warpSpeed: 5.0
     fitting:
       capacitor: 250.0
       capacitorTime: 375.0
@@ -2606,7 +3572,14 @@ hulls:
     name: Goru's Shuttle
   21628:
     attributes:
-      maximumVelocity: 500
+      inertiaModifier: 0.0
+      maxTargets: 2
+      scanRes: 0
+      scanStr: 7
+      scanType: Gravimetric
+      targetRange: 35000
+      velocity: 500
+      warpSpeed: 5.0
     fitting:
       capacitor: 250.0
       capacitorTime: 375.0
@@ -2624,7 +3597,14 @@ hulls:
     name: Guristas Shuttle
   17478:
     attributes:
-      maximumVelocity: 80
+      inertiaModifier: 0.65875
+      maxTargets: 5
+      scanRes: 550
+      scanStr: 9
+      scanType: Magnetometric
+      targetRange: 30000
+      velocity: 80
+      warpSpeed: 3.0
     fitting:
       capacitor: 250.0
       capacitorTime: 187.5
@@ -2643,7 +3623,14 @@ hulls:
     name: Retriever
   17476:
     attributes:
-      maximumVelocity: 100
+      inertiaModifier: 0.46
+      maxTargets: 6
+      scanRes: 660
+      scanStr: 8
+      scanType: Magnetometric
+      targetRange: 35000
+      velocity: 100
+      warpSpeed: 3.0
     fitting:
       capacitor: 312.5
       capacitorTime: 187.5
@@ -2662,7 +3649,14 @@ hulls:
     name: Covetor
   17480:
     attributes:
-      maximumVelocity: 160
+      inertiaModifier: 0.0
+      maxTargets: 5
+      scanRes: 440
+      scanStr: 10
+      scanType: Magnetometric
+      targetRange: 30000
+      velocity: 160
+      warpSpeed: 3.0
     fitting:
       capacitor: 800.0
       capacitorTime: 187.5
@@ -2681,7 +3675,14 @@ hulls:
     name: Procurer
   22546:
     attributes:
-      maximumVelocity: 200
+      inertiaModifier: 0.0
+      maxTargets: 6
+      scanRes: 440
+      scanStr: 14
+      scanType: Magnetometric
+      targetRange: 30000
+      velocity: 200
+      warpSpeed: 3.3
     fitting:
       capacitor: 900.0
       capacitorTime: 187.5
@@ -2700,7 +3701,14 @@ hulls:
     name: Skiff
   22544:
     attributes:
-      maximumVelocity: 140
+      inertiaModifier: 0.46
+      maxTargets: 7
+      scanRes: 660
+      scanStr: 12
+      scanType: Magnetometric
+      targetRange: 35000
+      velocity: 140
+      warpSpeed: 3.3
     fitting:
       capacitor: 625.0
       capacitorTime: 187.5
@@ -2719,7 +3727,14 @@ hulls:
     name: Hulk
   22548:
     attributes:
-      maximumVelocity: 90
+      inertiaModifier: 0.65875
+      maxTargets: 6
+      scanRes: 550
+      scanStr: 13
+      scanType: Magnetometric
+      targetRange: 30000
+      velocity: 90
+      warpSpeed: 3.3
     fitting:
       capacitor: 500.0
       capacitorTime: 187.5
@@ -2738,7 +3753,14 @@ hulls:
     name: Mackinaw
   33155:
     attributes:
-      maximumVelocity: 150
+      inertiaModifier: 0.69
+      maxTargets: 6
+      scanRes: 210
+      scanStr: 21
+      scanType: RADAR
+      targetRange: 55000
+      velocity: 150
+      warpSpeed: 2.7
     fitting:
       capacitor: 3125.0
       capacitorTime: 822.0
@@ -2757,7 +3779,14 @@ hulls:
     name: Harbinger Navy Issue
   33157:
     attributes:
-      maximumVelocity: 165
+      inertiaModifier: 0.704
+      maxTargets: 6
+      scanRes: 220
+      scanStr: 20
+      scanType: LADAR
+      targetRange: 50000
+      velocity: 165
+      warpSpeed: 2.7
     fitting:
       capacitor: 2250.0
       capacitorTime: 592.0
@@ -2776,7 +3805,14 @@ hulls:
     name: Hurricane Fleet Issue
   33151:
     attributes:
-      maximumVelocity: 155
+      inertiaModifier: 0.704
+      maxTargets: 7
+      scanRes: 200
+      scanStr: 22
+      scanType: Magnetometric
+      targetRange: 55000
+      velocity: 155
+      warpSpeed: 2.7
     fitting:
       capacitor: 3000.0
       capacitorTime: 789.0
@@ -2795,7 +3831,14 @@ hulls:
     name: Brutix Navy Issue
   33153:
     attributes:
-      maximumVelocity: 150
+      inertiaModifier: 0.64
+      maxTargets: 8
+      scanRes: 195
+      scanStr: 23
+      scanType: Gravimetric
+      targetRange: 60000
+      velocity: 150
+      warpSpeed: 2.7
     fitting:
       capacitor: 2500.0
       capacitorTime: 657.9
@@ -2814,7 +3857,14 @@ hulls:
     name: Drake Navy Issue
   16233:
     attributes:
-      maximumVelocity: 150
+      inertiaModifier: 0.704
+      maxTargets: 6
+      scanRes: 210
+      scanStr: 17
+      scanType: RADAR
+      targetRange: 50000
+      velocity: 150
+      warpSpeed: 2.7
     fitting:
       capacitor: 2850.0
       capacitorTime: 750.0
@@ -2833,7 +3883,14 @@ hulls:
     name: Prophecy
   24696:
     attributes:
-      maximumVelocity: 150
+      inertiaModifier: 0.69
+      maxTargets: 6
+      scanRes: 210
+      scanStr: 17
+      scanType: RADAR
+      targetRange: 55000
+      velocity: 150
+      warpSpeed: 2.7
     fitting:
       capacitor: 3125.0
       capacitorTime: 822.0
@@ -2852,7 +3909,14 @@ hulls:
     name: Harbinger
   4302:
     attributes:
-      maximumVelocity: 200
+      inertiaModifier: 0.495
+      maxTargets: 6
+      scanRes: 220
+      scanStr: 18
+      scanType: RADAR
+      targetRange: 65000
+      velocity: 200
+      warpSpeed: 2.7
     fitting:
       capacitor: 3500.0
       capacitorTime: 875.0
@@ -2871,7 +3935,14 @@ hulls:
     name: Oracle
   24698:
     attributes:
-      maximumVelocity: 140
+      inertiaModifier: 0.64
+      maxTargets: 8
+      scanRes: 195
+      scanStr: 19
+      scanType: Gravimetric
+      targetRange: 60000
+      velocity: 140
+      warpSpeed: 2.7
     fitting:
       capacitor: 2500.0
       capacitorTime: 657.9
@@ -2890,7 +3961,14 @@ hulls:
     name: Drake
   4306:
     attributes:
-      maximumVelocity: 195
+      inertiaModifier: 0.525
+      maxTargets: 8
+      scanRes: 200
+      scanStr: 21
+      scanType: Gravimetric
+      targetRange: 75000
+      velocity: 195
+      warpSpeed: 2.7
     fitting:
       capacitor: 2900.0
       capacitorTime: 725.0
@@ -2909,7 +3987,14 @@ hulls:
     name: Naga
   16227:
     attributes:
-      maximumVelocity: 140
+      inertiaModifier: 0.66
+      maxTargets: 8
+      scanRes: 195
+      scanStr: 19
+      scanType: Gravimetric
+      targetRange: 65000
+      velocity: 140
+      warpSpeed: 2.7
     fitting:
       capacitor: 2750.0
       capacitorTime: 723.5
@@ -2928,7 +4013,14 @@ hulls:
     name: Ferox
   24700:
     attributes:
-      maximumVelocity: 145
+      inertiaModifier: 0.704
+      maxTargets: 7
+      scanRes: 200
+      scanStr: 18
+      scanType: Magnetometric
+      targetRange: 55000
+      velocity: 145
+      warpSpeed: 2.7
     fitting:
       capacitor: 2850.0
       capacitorTime: 750.0
@@ -2947,7 +4039,14 @@ hulls:
     name: Myrmidon
   4308:
     attributes:
-      maximumVelocity: 220
+      inertiaModifier: 0.45
+      maxTargets: 7
+      scanRes: 210
+      scanStr: 20
+      scanType: Magnetometric
+      targetRange: 70000
+      velocity: 220
+      warpSpeed: 2.7
     fitting:
       capacitor: 3100.0
       capacitorTime: 775.0
@@ -2966,7 +4065,14 @@ hulls:
     name: Talos
   16229:
     attributes:
-      maximumVelocity: 155
+      inertiaModifier: 0.704
+      maxTargets: 7
+      scanRes: 200
+      scanStr: 18
+      scanType: Magnetometric
+      targetRange: 55000
+      velocity: 155
+      warpSpeed: 2.7
     fitting:
       capacitor: 3000.0
       capacitorTime: 789.0
@@ -2985,7 +4091,14 @@ hulls:
     name: Brutix
   16231:
     attributes:
-      maximumVelocity: 165
+      inertiaModifier: 0.704
+      maxTargets: 6
+      scanRes: 220
+      scanStr: 17
+      scanType: LADAR
+      targetRange: 45000
+      velocity: 165
+      warpSpeed: 2.7
     fitting:
       capacitor: 2850.0
       capacitorTime: 750.0
@@ -3004,7 +4117,14 @@ hulls:
     name: Cyclone
   4310:
     attributes:
-      maximumVelocity: 225
+      inertiaModifier: 0.475
+      maxTargets: 6
+      scanRes: 230
+      scanStr: 17
+      scanType: LADAR
+      targetRange: 60000
+      velocity: 225
+      warpSpeed: 2.7
     fitting:
       capacitor: 2700.0
       capacitorTime: 675.0
@@ -3023,7 +4143,14 @@ hulls:
     name: Tornado
   24702:
     attributes:
-      maximumVelocity: 165
+      inertiaModifier: 0.704
+      maxTargets: 6
+      scanRes: 220
+      scanStr: 16
+      scanType: LADAR
+      targetRange: 50000
+      velocity: 165
+      warpSpeed: 2.7
     fitting:
       capacitor: 2250.0
       capacitorTime: 592.0
@@ -3042,7 +4169,14 @@ hulls:
     name: Hurricane
   22468:
     attributes:
-      maximumVelocity: 170
+      inertiaModifier: 0.7
+      maxTargets: 7
+      scanRes: 220
+      scanStr: 22
+      scanType: LADAR
+      targetRange: 65000
+      velocity: 170
+      warpSpeed: 3.0
     fitting:
       capacitor: 2625.0
       capacitorTime: 583.3
@@ -3061,7 +4195,14 @@ hulls:
     name: Claymore
   22444:
     attributes:
-      maximumVelocity: 165
+      inertiaModifier: 0.704
+      maxTargets: 7
+      scanRes: 220
+      scanStr: 20
+      scanType: LADAR
+      targetRange: 70000
+      velocity: 165
+      warpSpeed: 3.0
     fitting:
       capacitor: 2625.0
       capacitorTime: 583.3
@@ -3080,7 +4221,14 @@ hulls:
     name: Sleipnir
   22448:
     attributes:
-      maximumVelocity: 150
+      inertiaModifier: 0.71
+      maxTargets: 7
+      scanRes: 210
+      scanStr: 21
+      scanType: RADAR
+      targetRange: 75000
+      velocity: 150
+      warpSpeed: 3.0
     fitting:
       capacitor: 3375.0
       capacitorTime: 750.0
@@ -3099,7 +4247,14 @@ hulls:
     name: Absolution
   22474:
     attributes:
-      maximumVelocity: 150
+      inertiaModifier: 0.7
+      maxTargets: 7
+      scanRes: 210
+      scanStr: 22
+      scanType: RADAR
+      targetRange: 70000
+      velocity: 150
+      warpSpeed: 3.0
     fitting:
       capacitor: 3375.0
       capacitorTime: 750.0
@@ -3118,7 +4273,14 @@ hulls:
     name: Damnation
   22446:
     attributes:
-      maximumVelocity: 140
+      inertiaModifier: 0.67
+      maxTargets: 9
+      scanRes: 195
+      scanStr: 23
+      scanType: Gravimetric
+      targetRange: 95000
+      velocity: 140
+      warpSpeed: 3.0
     fitting:
       capacitor: 3000.0
       capacitorTime: 666.7
@@ -3137,7 +4299,14 @@ hulls:
     name: Vulture
   22470:
     attributes:
-      maximumVelocity: 140
+      inertiaModifier: 0.65
+      maxTargets: 9
+      scanRes: 195
+      scanStr: 24
+      scanType: Gravimetric
+      targetRange: 80000
+      velocity: 140
+      warpSpeed: 3.0
     fitting:
       capacitor: 2813.0
       capacitorTime: 625.0
@@ -3156,7 +4325,14 @@ hulls:
     name: Nighthawk
   22466:
     attributes:
-      maximumVelocity: 155
+      inertiaModifier: 0.7
+      maxTargets: 8
+      scanRes: 200
+      scanStr: 23
+      scanType: Magnetometric
+      targetRange: 75000
+      velocity: 155
+      warpSpeed: 3.0
     fitting:
       capacitor: 3000.0
       capacitorTime: 666.7
@@ -3175,7 +4351,14 @@ hulls:
     name: Astarte
   22442:
     attributes:
-      maximumVelocity: 145
+      inertiaModifier: 0.704
+      maxTargets: 8
+      scanRes: 200
+      scanStr: 22
+      scanType: Magnetometric
+      targetRange: 65000
+      velocity: 145
+      warpSpeed: 3.0
     fitting:
       capacitor: 2813.0
       capacitorTime: 625.0
@@ -3194,7 +4377,14 @@ hulls:
     name: Eos
   22428:
     attributes:
-      maximumVelocity: 117
+      inertiaModifier: 0.072
+      maxTargets: 7
+      scanRes: 170
+      scanStr: 17
+      scanType: RADAR
+      targetRange: 52000
+      velocity: 117
+      warpSpeed: 2.2
     fitting:
       capacitor: 5313.0
       capacitorTime: 1087.5
@@ -3213,7 +4403,14 @@ hulls:
     name: Redeemer
   22436:
     attributes:
-      maximumVelocity: 106
+      inertiaModifier: 0.068
+      maxTargets: 7
+      scanRes: 115
+      scanStr: 24
+      scanType: Gravimetric
+      targetRange: 72000
+      velocity: 106
+      warpSpeed: 2.2
     fitting:
       capacitor: 5313.0
       capacitorTime: 1087.5
@@ -3232,7 +4429,14 @@ hulls:
     name: Widow
   22430:
     attributes:
-      maximumVelocity: 117
+      inertiaModifier: 0.0684
+      maxTargets: 7
+      scanRes: 140
+      scanStr: 22
+      scanType: Magnetometric
+      targetRange: 56000
+      velocity: 117
+      warpSpeed: 2.2
     fitting:
       capacitor: 5000.0
       capacitorTime: 1087.5
@@ -3251,7 +4455,14 @@ hulls:
     name: Sin
   22440:
     attributes:
-      maximumVelocity: 146
+      inertiaModifier: 0.064
+      maxTargets: 7
+      scanRes: 155
+      scanStr: 18
+      scanType: LADAR
+      targetRange: 48000
+      velocity: 146
+      warpSpeed: 2.2
     fitting:
       capacitor: 5000.0
       capacitorTime: 1087.5
@@ -3270,7 +4481,14 @@ hulls:
     name: Panther
   28710:
     attributes:
-      maximumVelocity: 100
+      inertiaModifier: 0.12
+      maxTargets: 10
+      scanRes: 105
+      scanStr: 14
+      scanType: Gravimetric
+      targetRange: 95000
+      velocity: 100
+      warpSpeed: 2.2
     fitting:
       capacitor: 6325.0
       capacitorTime: 1150.0
@@ -3289,7 +4507,14 @@ hulls:
     name: Golem
   28661:
     attributes:
-      maximumVelocity: 105
+      inertiaModifier: 0.117
+      maxTargets: 10
+      scanRes: 120
+      scanStr: 13
+      scanType: Magnetometric
+      targetRange: 90000
+      velocity: 105
+      warpSpeed: 2.2
     fitting:
       capacitor: 6900.0
       capacitorTime: 1150.0
@@ -3308,7 +4533,14 @@ hulls:
     name: Kronos
   28665:
     attributes:
-      maximumVelocity: 110
+      inertiaModifier: 0.11
+      maxTargets: 10
+      scanRes: 145
+      scanStr: 11
+      scanType: LADAR
+      targetRange: 81000
+      velocity: 110
+      warpSpeed: 2.2
     fitting:
       capacitor: 6200.0
       capacitorTime: 1100.0
@@ -3327,7 +4559,14 @@ hulls:
     name: Vargur
   28659:
     attributes:
-      maximumVelocity: 100
+      inertiaModifier: 0.119
+      maxTargets: 10
+      scanRes: 120
+      scanStr: 12
+      scanType: RADAR
+      targetRange: 91000
+      velocity: 100
+      warpSpeed: 2.2
     fitting:
       capacitor: 7500.0
       capacitorTime: 1000.0
@@ -3346,7 +4585,14 @@ hulls:
     name: Paladin
   33820:
     attributes:
-      maximumVelocity: 148
+      inertiaModifier: 0.098
+      maxTargets: 7
+      scanRes: 110
+      scanStr: 29
+      scanType: Gravimetric
+      targetRange: 76000
+      velocity: 148
+      warpSpeed: 2.0
     fitting:
       capacitor: 6100.0
       capacitorTime: 1154.9
@@ -3365,7 +4611,14 @@ hulls:
     name: Barghest
   17918:
     attributes:
-      maximumVelocity: 94
+      inertiaModifier: 0.128
+      maxTargets: 7
+      scanRes: 100
+      scanStr: 30
+      scanType: Gravimetric
+      targetRange: 75000
+      velocity: 94
+      warpSpeed: 2.0
     fitting:
       capacitor: 5350.0
       capacitorTime: 1154.0
@@ -3384,7 +4637,14 @@ hulls:
     name: Rattlesnake
   17740:
     attributes:
-      maximumVelocity: 132
+      inertiaModifier: 0.083
+      maxTargets: 7
+      scanRes: 100
+      scanStr: 28
+      scanType: Magnetometric
+      targetRange: 72500
+      velocity: 132
+      warpSpeed: 2.0
     fitting:
       capacitor: 6330.0
       capacitorTime: 1154.0
@@ -3403,7 +4663,14 @@ hulls:
     name: Vindicator
   17736:
     attributes:
-      maximumVelocity: 114
+      inertiaModifier: 0.122
+      maxTargets: 7
+      scanRes: 110
+      scanStr: 28
+      scanType: RADAR
+      targetRange: 80000
+      velocity: 114
+      warpSpeed: 2.0
     fitting:
       capacitor: 6950.0
       capacitorTime: 1154.0
@@ -3422,7 +4689,14 @@ hulls:
     name: Nightmare
   17920:
     attributes:
-      maximumVelocity: 101
+      inertiaModifier: 0.125
+      maxTargets: 8
+      scanRes: 100
+      scanStr: 28
+      scanType: RADAR
+      targetRange: 72000
+      velocity: 101
+      warpSpeed: 2.0
     fitting:
       capacitor: 7500.0
       capacitorTime: 1154.0
@@ -3441,7 +4715,14 @@ hulls:
     name: Bhaalgorn
   33472:
     attributes:
-      maximumVelocity: 70
+      inertiaModifier: 0.35
+      maxTargets: 7
+      scanRes: 125
+      scanStr: 30
+      scanType: Magnetometric
+      targetRange: 75000
+      velocity: 70
+      warpSpeed: 2.5
     fitting:
       capacitor: 7000.0
       capacitorTime: 1025.0
@@ -3460,7 +4741,14 @@ hulls:
     name: Nestor
   17738:
     attributes:
-      maximumVelocity: 161
+      inertiaModifier: 0.096
+      maxTargets: 7
+      scanRes: 125
+      scanStr: 26
+      scanType: LADAR
+      targetRange: 75000
+      velocity: 161
+      warpSpeed: 3.0
     fitting:
       capacitor: 5800.0
       capacitorTime: 1154.0
@@ -3479,7 +4767,14 @@ hulls:
     name: Machariel
   34151:
     attributes:
-      maximumVelocity: 94
+      inertiaModifier: 0.128
+      maxTargets: 7
+      scanRes: 100
+      scanStr: 30
+      scanType: Gravimetric
+      targetRange: 75000
+      velocity: 94
+      warpSpeed: 2.0
     fitting:
       capacitor: 5350.0
       capacitorTime: 1154.0
@@ -3498,7 +4793,14 @@ hulls:
     name: Rattlesnake Victory Edition
   17732:
     attributes:
-      maximumVelocity: 130
+      inertiaModifier: 0.115
+      maxTargets: 7
+      scanRes: 100
+      scanStr: 24
+      scanType: LADAR
+      targetRange: 74000
+      velocity: 130
+      warpSpeed: 2.0
     fitting:
       capacitor: 5500.0
       capacitorTime: 1150.0
@@ -3517,7 +4819,14 @@ hulls:
     name: Tempest Fleet Issue
   32311:
     attributes:
-      maximumVelocity: 138
+      inertiaModifier: 0.11
+      maxTargets: 7
+      scanRes: 115
+      scanStr: 23
+      scanType: LADAR
+      targetRange: 65000
+      velocity: 138
+      warpSpeed: 2.0
     fitting:
       capacitor: 5800.0
       capacitorTime: 1100.0
@@ -3536,7 +4845,14 @@ hulls:
     name: Typhoon Fleet Issue
   17636:
     attributes:
-      maximumVelocity: 123
+      inertiaModifier: 0.12
+      maxTargets: 7
+      scanRes: 105
+      scanStr: 28
+      scanType: Gravimetric
+      targetRange: 75000
+      velocity: 123
+      warpSpeed: 2.0
     fitting:
       capacitor: 5900.0
       capacitorTime: 1150.0
@@ -3555,7 +4871,14 @@ hulls:
     name: Raven Navy Issue
   32309:
     attributes:
-      maximumVelocity: 103
+      inertiaModifier: 0.125
+      maxTargets: 7
+      scanRes: 75
+      scanStr: 30
+      scanType: Gravimetric
+      targetRange: 90000
+      velocity: 103
+      warpSpeed: 2.0
     fitting:
       capacitor: 5500.0
       capacitorTime: 1100.0
@@ -3574,7 +4897,14 @@ hulls:
     name: Scorpion Navy Issue
   32305:
     attributes:
-      maximumVelocity: 105
+      inertiaModifier: 0.13
+      maxTargets: 7
+      scanRes: 110
+      scanStr: 26
+      scanType: RADAR
+      targetRange: 70000
+      velocity: 105
+      warpSpeed: 2.0
     fitting:
       capacitor: 6000.0
       capacitorTime: 1100.0
@@ -3593,7 +4923,14 @@ hulls:
     name: Armageddon Navy Issue
   17728:
     attributes:
-      maximumVelocity: 130
+      inertiaModifier: 0.105
+      maxTargets: 7
+      scanRes: 95
+      scanStr: 25
+      scanType: Magnetometric
+      targetRange: 72500
+      velocity: 130
+      warpSpeed: 2.0
     fitting:
       capacitor: 6000.0
       capacitorTime: 1150.0
@@ -3612,7 +4949,14 @@ hulls:
     name: Megathron Navy Issue
   17726:
     attributes:
-      maximumVelocity: 120
+      inertiaModifier: 0.115
+      maxTargets: 7
+      scanRes: 120
+      scanStr: 25
+      scanType: RADAR
+      targetRange: 76000
+      velocity: 120
+      warpSpeed: 2.0
     fitting:
       capacitor: 7000.0
       capacitorTime: 1000.0
@@ -3631,7 +4975,14 @@ hulls:
     name: Apocalypse Navy Issue
   32307:
     attributes:
-      maximumVelocity: 110
+      inertiaModifier: 0.12
+      maxTargets: 7
+      scanRes: 90
+      scanStr: 27
+      scanType: Magnetometric
+      targetRange: 70000
+      velocity: 110
+      warpSpeed: 2.0
     fitting:
       capacitor: 5500.0
       capacitorTime: 1100.0
@@ -3650,7 +5001,14 @@ hulls:
     name: Dominix Navy Issue
   645:
     attributes:
-      maximumVelocity: 109
+      inertiaModifier: 0.1254
+      maxTargets: 7
+      scanRes: 90
+      scanStr: 22
+      scanType: Magnetometric
+      targetRange: 70000
+      velocity: 109
+      warpSpeed: 2.0
     fitting:
       capacitor: 6000.0
       capacitorTime: 1100.0
@@ -3669,7 +5027,14 @@ hulls:
     name: Dominix
   641:
     attributes:
-      maximumVelocity: 122
+      inertiaModifier: 0.114
+      maxTargets: 7
+      scanRes: 95
+      scanStr: 21
+      scanType: Magnetometric
+      targetRange: 72500
+      velocity: 122
+      warpSpeed: 2.0
     fitting:
       capacitor: 6000.0
       capacitorTime: 1150.0
@@ -3688,7 +5053,14 @@ hulls:
     name: Megathron
   24690:
     attributes:
-      maximumVelocity: 115
+      inertiaModifier: 0.1178
+      maxTargets: 7
+      scanRes: 110
+      scanStr: 23
+      scanType: Magnetometric
+      targetRange: 60000
+      velocity: 115
+      warpSpeed: 2.0
     fitting:
       capacitor: 7200.0
       capacitorTime: 1500.0
@@ -3707,7 +5079,14 @@ hulls:
     name: Hyperion
   24688:
     attributes:
-      maximumVelocity: 89
+      inertiaModifier: 0.136
+      maxTargets: 7
+      scanRes: 75
+      scanStr: 24
+      scanType: Gravimetric
+      targetRange: 90000
+      velocity: 89
+      warpSpeed: 2.0
     fitting:
       capacitor: 6000.0
       capacitorTime: 1250.0
@@ -3726,7 +5105,14 @@ hulls:
     name: Rokh
   640:
     attributes:
-      maximumVelocity: 94
+      inertiaModifier: 0.116
+      maxTargets: 7
+      scanRes: 110
+      scanStr: 24
+      scanType: Gravimetric
+      targetRange: 90000
+      velocity: 94
+      warpSpeed: 2.0
     fitting:
       capacitor: 5500.0
       capacitorTime: 1100.0
@@ -3745,7 +5131,14 @@ hulls:
     name: Scorpion
   638:
     attributes:
-      maximumVelocity: 113
+      inertiaModifier: 0.12
+      maxTargets: 7
+      scanRes: 85
+      scanStr: 22
+      scanType: Gravimetric
+      targetRange: 75000
+      velocity: 113
+      warpSpeed: 2.0
     fitting:
       capacitor: 5500.0
       capacitorTime: 1150.0
@@ -3764,7 +5157,14 @@ hulls:
     name: Raven
   644:
     attributes:
-      maximumVelocity: 130
+      inertiaModifier: 0.11
+      maxTargets: 7
+      scanRes: 115
+      scanStr: 19
+      scanType: LADAR
+      targetRange: 65000
+      velocity: 130
+      warpSpeed: 2.0
     fitting:
       capacitor: 5400.0
       capacitorTime: 1100.0
@@ -3783,7 +5183,14 @@ hulls:
     name: Typhoon
   24694:
     attributes:
-      maximumVelocity: 94
+      inertiaModifier: 0.136
+      maxTargets: 7
+      scanRes: 90
+      scanStr: 21
+      scanType: LADAR
+      targetRange: 75000
+      velocity: 94
+      warpSpeed: 2.0
     fitting:
       capacitor: 6000.0
       capacitorTime: 1250.0
@@ -3802,7 +5209,14 @@ hulls:
     name: Maelstrom
   639:
     attributes:
-      maximumVelocity: 127
+      inertiaModifier: 0.116
+      maxTargets: 7
+      scanRes: 100
+      scanStr: 20
+      scanType: LADAR
+      targetRange: 67500
+      velocity: 127
+      warpSpeed: 2.0
     fitting:
       capacitor: 5400.0
       capacitorTime: 1150.0
@@ -3821,7 +5235,14 @@ hulls:
     name: Tempest
   643:
     attributes:
-      maximumVelocity: 100
+      inertiaModifier: 0.13
+      maxTargets: 7
+      scanRes: 110
+      scanStr: 21
+      scanType: RADAR
+      targetRange: 65000
+      velocity: 100
+      warpSpeed: 2.0
     fitting:
       capacitor: 6200.0
       capacitorTime: 1100.0
@@ -3840,7 +5261,14 @@ hulls:
     name: Armageddon
   642:
     attributes:
-      maximumVelocity: 113
+      inertiaModifier: 0.119
+      maxTargets: 7
+      scanRes: 95
+      scanStr: 20
+      scanType: RADAR
+      targetRange: 73000
+      velocity: 113
+      warpSpeed: 2.0
     fitting:
       capacitor: 7000.0
       capacitorTime: 1000.0
@@ -3859,7 +5287,14 @@ hulls:
     name: Apocalypse
   24692:
     attributes:
-      maximumVelocity: 89
+      inertiaModifier: 0.14
+      maxTargets: 7
+      scanRes: 85
+      scanStr: 22
+      scanType: RADAR
+      targetRange: 80000
+      velocity: 89
+      warpSpeed: 2.0
     fitting:
       capacitor: 6375.0
       capacitorTime: 1250.0
@@ -3878,7 +5313,14 @@ hulls:
     name: Abaddon
   634:
     attributes:
-      maximumVelocity: 240
+      inertiaModifier: 0.61
+      maxTargets: 8
+      scanRes: 295
+      scanStr: 14
+      scanType: Magnetometric
+      targetRange: 55000
+      velocity: 240
+      warpSpeed: 3.0
     fitting:
       capacitor: 1375.0
       capacitorTime: 264.0
@@ -3897,7 +5339,14 @@ hulls:
     name: Exequror
   633:
     attributes:
-      maximumVelocity: 210
+      inertiaModifier: 0.505
+      maxTargets: 8
+      scanRes: 290
+      scanStr: 18
+      scanType: Magnetometric
+      targetRange: 75000
+      velocity: 210
+      warpSpeed: 3.0
     fitting:
       capacitor: 1300.0
       capacitorTime: 463.0
@@ -3916,7 +5365,14 @@ hulls:
     name: Celestis
   627:
     attributes:
-      maximumVelocity: 240
+      inertiaModifier: 0.49
+      maxTargets: 6
+      scanRes: 280
+      scanStr: 15
+      scanType: Magnetometric
+      targetRange: 52500
+      velocity: 240
+      warpSpeed: 3.0
     fitting:
       capacitor: 1450.0
       capacitorTime: 517.0
@@ -3935,7 +5391,14 @@ hulls:
     name: Thorax
   626:
     attributes:
-      maximumVelocity: 195
+      inertiaModifier: 0.56
+      maxTargets: 6
+      scanRes: 280
+      scanStr: 16
+      scanType: Magnetometric
+      targetRange: 52500
+      velocity: 195
+      warpSpeed: 3.0
     fitting:
       capacitor: 1450.0
       capacitorTime: 482.5
@@ -3954,7 +5417,14 @@ hulls:
     name: Vexor
   624:
     attributes:
-      maximumVelocity: 205
+      inertiaModifier: 0.476
+      maxTargets: 6
+      scanRes: 280
+      scanStr: 16
+      scanType: RADAR
+      targetRange: 47500
+      velocity: 205
+      warpSpeed: 3.0
     fitting:
       capacitor: 1625.0
       capacitorTime: 465.0
@@ -3973,7 +5443,14 @@ hulls:
     name: Maller
   2006:
     attributes:
-      maximumVelocity: 260
+      inertiaModifier: 0.43
+      maxTargets: 6
+      scanRes: 300
+      scanStr: 15
+      scanType: RADAR
+      targetRange: 55000
+      velocity: 260
+      warpSpeed: 3.0
     fitting:
       capacitor: 1475.0
       capacitorTime: 526.0
@@ -3992,7 +5469,14 @@ hulls:
     name: Omen
   628:
     attributes:
-      maximumVelocity: 200
+      inertiaModifier: 0.56
+      maxTargets: 7
+      scanRes: 285
+      scanStr: 15
+      scanType: RADAR
+      targetRange: 50000
+      velocity: 200
+      warpSpeed: 3.0
     fitting:
       capacitor: 1375.0
       capacitorTime: 490.0
@@ -4011,7 +5495,14 @@ hulls:
     name: Arbitrator
   625:
     attributes:
-      maximumVelocity: 235
+      inertiaModifier: 0.56
+      maxTargets: 8
+      scanRes: 300
+      scanStr: 13
+      scanType: RADAR
+      targetRange: 60000
+      velocity: 235
+      warpSpeed: 3.0
     fitting:
       capacitor: 1500.0
       capacitorTime: 300.0
@@ -4030,7 +5521,14 @@ hulls:
     name: Augoror
   623:
     attributes:
-      maximumVelocity: 190
+      inertiaModifier: 0.52
+      maxTargets: 7
+      scanRes: 260
+      scanStr: 17
+      scanType: Gravimetric
+      targetRange: 55000
+      velocity: 190
+      warpSpeed: 3.0
     fitting:
       capacitor: 1550.0
       capacitorTime: 490.0
@@ -4049,7 +5547,14 @@ hulls:
     name: Moa
   632:
     attributes:
-      maximumVelocity: 190
+      inertiaModifier: 0.48
+      maxTargets: 8
+      scanRes: 230
+      scanStr: 20
+      scanType: Gravimetric
+      targetRange: 85000
+      velocity: 190
+      warpSpeed: 3.0
     fitting:
       capacitor: 1250.0
       capacitorTime: 445.0
@@ -4068,7 +5573,14 @@ hulls:
     name: Blackbird
   621:
     attributes:
-      maximumVelocity: 230
+      inertiaModifier: 0.47
+      maxTargets: 6
+      scanRes: 270
+      scanStr: 16
+      scanType: Gravimetric
+      targetRange: 57500
+      velocity: 230
+      warpSpeed: 3.0
     fitting:
       capacitor: 1250.0
       capacitorTime: 445.0
@@ -4087,7 +5599,14 @@ hulls:
     name: Caracal
   620:
     attributes:
-      maximumVelocity: 210
+      inertiaModifier: 0.61
+      maxTargets: 8
+      scanRes: 280
+      scanStr: 15
+      scanType: Gravimetric
+      targetRange: 62500
+      velocity: 210
+      warpSpeed: 3.0
     fitting:
       capacitor: 1375.0
       capacitorTime: 275.0
@@ -4106,7 +5625,14 @@ hulls:
     name: Osprey
   622:
     attributes:
-      maximumVelocity: 290
+      inertiaModifier: 0.5
+      maxTargets: 5
+      scanRes: 320
+      scanStr: 13
+      scanType: LADAR
+      targetRange: 47500
+      velocity: 290
+      warpSpeed: 3.0
     fitting:
       capacitor: 1200.0
       capacitorTime: 427.5
@@ -4125,7 +5651,14 @@ hulls:
     name: Stabber
   630:
     attributes:
-      maximumVelocity: 240
+      inertiaModifier: 0.51
+      maxTargets: 7
+      scanRes: 300
+      scanStr: 14
+      scanType: LADAR
+      targetRange: 42500
+      velocity: 240
+      warpSpeed: 3.0
     fitting:
       capacitor: 1200.0
       capacitorTime: 427.5
@@ -4144,7 +5677,14 @@ hulls:
     name: Bellicose
   631:
     attributes:
-      maximumVelocity: 250
+      inertiaModifier: 0.6
+      maxTargets: 8
+      scanRes: 315
+      scanStr: 12
+      scanType: LADAR
+      targetRange: 52500
+      velocity: 250
+      warpSpeed: 3.0
     fitting:
       capacitor: 1250.0
       capacitorTime: 240.0
@@ -4163,7 +5703,14 @@ hulls:
     name: Scythe
   629:
     attributes:
-      maximumVelocity: 210
+      inertiaModifier: 0.5
+      maxTargets: 6
+      scanRes: 290
+      scanStr: 15
+      scanType: LADAR
+      targetRange: 50000
+      velocity: 210
+      warpSpeed: 3.0
     fitting:
       capacitor: 1275.0
       capacitorTime: 425.0
@@ -4182,7 +5729,14 @@ hulls:
     name: Rupture
   12003:
     attributes:
-      maximumVelocity: 210
+      inertiaModifier: 0.553
+      maxTargets: 6
+      scanRes: 306
+      scanStr: 21
+      scanType: RADAR
+      targetRange: 75000
+      velocity: 210
+      warpSpeed: 3.3
     fitting:
       capacitor: 1500.0
       capacitorTime: 285.0
@@ -4201,7 +5755,14 @@ hulls:
     name: Zealot
   12019:
     attributes:
-      maximumVelocity: 200
+      inertiaModifier: 0.567
+      maxTargets: 7
+      scanRes: 312
+      scanStr: 22
+      scanType: RADAR
+      targetRange: 70000
+      velocity: 200
+      warpSpeed: 3.3
     fitting:
       capacitor: 1700.0
       capacitorTime: 255.0
@@ -4220,7 +5781,14 @@ hulls:
     name: Sacrilege
   12011:
     attributes:
-      maximumVelocity: 190
+      inertiaModifier: 0.576
+      maxTargets: 8
+      scanRes: 252
+      scanStr: 25
+      scanType: Gravimetric
+      targetRange: 90000
+      velocity: 190
+      warpSpeed: 3.3
     fitting:
       capacitor: 1350.0
       capacitorTime: 255.0
@@ -4239,7 +5807,14 @@ hulls:
     name: Eagle
   11993:
     attributes:
-      maximumVelocity: 220
+      inertiaModifier: 0.463
+      maxTargets: 6
+      scanRes: 282
+      scanStr: 24
+      scanType: Gravimetric
+      targetRange: 95000
+      velocity: 220
+      warpSpeed: 3.3
     fitting:
       capacitor: 1200.0
       capacitorTime: 235.0
@@ -4258,7 +5833,14 @@ hulls:
     name: Cerberus
   12023:
     attributes:
-      maximumVelocity: 230
+      inertiaModifier: 0.475
+      maxTargets: 6
+      scanRes: 270
+      scanStr: 22
+      scanType: Magnetometric
+      targetRange: 85000
+      velocity: 230
+      warpSpeed: 3.3
     fitting:
       capacitor: 1400.0
       capacitorTime: 225.0
@@ -4277,7 +5859,14 @@ hulls:
     name: Deimos
   12005:
     attributes:
-      maximumVelocity: 185
+      inertiaModifier: 0.52
+      maxTargets: 7
+      scanRes: 294
+      scanStr: 23
+      scanType: Magnetometric
+      targetRange: 80000
+      velocity: 185
+      warpSpeed: 3.3
     fitting:
       capacitor: 1400.0
       capacitorTime: 265.0
@@ -4296,7 +5885,14 @@ hulls:
     name: Ishtar
   11999:
     attributes:
-      maximumVelocity: 295
+      inertiaModifier: 0.504
+      maxTargets: 6
+      scanRes: 330
+      scanStr: 21
+      scanType: LADAR
+      targetRange: 70000
+      velocity: 295
+      warpSpeed: 3.3
     fitting:
       capacitor: 1200.0
       capacitorTime: 245.0
@@ -4315,7 +5911,14 @@ hulls:
     name: Vagabond
   12015:
     attributes:
-      maximumVelocity: 230
+      inertiaModifier: 0.571
+      maxTargets: 6
+      scanRes: 294
+      scanStr: 21
+      scanType: LADAR
+      targetRange: 80000
+      velocity: 230
+      warpSpeed: 3.3
     fitting:
       capacitor: 1300.0
       capacitorTime: 255.0
@@ -4334,7 +5937,14 @@ hulls:
     name: Muninn
   11987:
     attributes:
-      maximumVelocity: 209
+      inertiaModifier: 0.61
+      maxTargets: 10
+      scanRes: 385
+      scanStr: 19
+      scanType: RADAR
+      targetRange: 65000
+      velocity: 209
+      warpSpeed: 3.3
     fitting:
       capacitor: 1500.0
       capacitorTime: 335.0
@@ -4353,7 +5963,14 @@ hulls:
     name: Guardian
   11985:
     attributes:
-      maximumVelocity: 192
+      inertiaModifier: 0.505
+      maxTargets: 10
+      scanRes: 350
+      scanStr: 22
+      scanType: Gravimetric
+      targetRange: 80000
+      velocity: 192
+      warpSpeed: 3.3
     fitting:
       capacitor: 1375.0
       capacitorTime: 301.3
@@ -4372,7 +5989,14 @@ hulls:
     name: Basilisk
   11989:
     attributes:
-      maximumVelocity: 230
+      inertiaModifier: 0.615
+      maxTargets: 10
+      scanRes: 365
+      scanStr: 20
+      scanType: Magnetometric
+      targetRange: 70000
+      velocity: 230
+      warpSpeed: 3.3
     fitting:
       capacitor: 1375.0
       capacitorTime: 306.9
@@ -4391,7 +6015,14 @@ hulls:
     name: Oneiros
   11978:
     attributes:
-      maximumVelocity: 253
+      inertiaModifier: 0.55
+      maxTargets: 10
+      scanRes: 400
+      scanStr: 17
+      scanType: LADAR
+      targetRange: 60000
+      velocity: 253
+      warpSpeed: 3.3
     fitting:
       capacitor: 1250.0
       capacitorTime: 278.8
@@ -4410,7 +6041,14 @@ hulls:
     name: Scimitar
   11969:
     attributes:
-      maximumVelocity: 207
+      inertiaModifier: 0.59
+      maxTargets: 8
+      scanRes: 231
+      scanStr: 26
+      scanType: Magnetometric
+      targetRange: 112000
+      velocity: 207
+      warpSpeed: 3.3
     fitting:
       capacitor: 1290.0
       capacitorTime: 324.0
@@ -4429,7 +6067,14 @@ hulls:
     name: Arazu
   11971:
     attributes:
-      maximumVelocity: 220
+      inertiaModifier: 0.56
+      maxTargets: 10
+      scanRes: 270
+      scanStr: 30
+      scanType: Magnetometric
+      targetRange: 140000
+      velocity: 220
+      warpSpeed: 3.3
     fitting:
       capacitor: 1315.0
       capacitorTime: 323.0
@@ -4448,7 +6093,14 @@ hulls:
     name: Lachesis
   11961:
     attributes:
-      maximumVelocity: 240
+      inertiaModifier: 0.57
+      maxTargets: 10
+      scanRes: 303
+      scanStr: 28
+      scanType: LADAR
+      targetRange: 125000
+      velocity: 240
+      warpSpeed: 3.3
     fitting:
       capacitor: 1210.0
       capacitorTime: 330.0
@@ -4467,7 +6119,14 @@ hulls:
     name: Huginn
   11963:
     attributes:
-      maximumVelocity: 230
+      inertiaModifier: 0.59
+      maxTargets: 8
+      scanRes: 242
+      scanStr: 24
+      scanType: LADAR
+      targetRange: 100000
+      velocity: 230
+      warpSpeed: 3.3
     fitting:
       capacitor: 1180.0
       capacitorTime: 331.0
@@ -4486,7 +6145,14 @@ hulls:
     name: Rapier
   20125:
     attributes:
-      maximumVelocity: 205
+      inertiaModifier: 0.61
+      maxTargets: 10
+      scanRes: 281
+      scanStr: 28
+      scanType: RADAR
+      targetRange: 130000
+      velocity: 205
+      warpSpeed: 3.3
     fitting:
       capacitor: 1470.0
       capacitorTime: 329.0
@@ -4505,7 +6171,14 @@ hulls:
     name: Curse
   11965:
     attributes:
-      maximumVelocity: 198
+      inertiaModifier: 0.61
+      maxTargets: 8
+      scanRes: 237
+      scanStr: 26
+      scanType: RADAR
+      targetRange: 104000
+      velocity: 198
+      warpSpeed: 3.3
     fitting:
       capacitor: 1440.0
       capacitorTime: 328.0
@@ -4524,7 +6197,14 @@ hulls:
     name: Pilgrim
   11957:
     attributes:
-      maximumVelocity: 192
+      inertiaModifier: 0.64
+      maxTargets: 8
+      scanRes: 220
+      scanStr: 28
+      scanType: Gravimetric
+      targetRange: 120000
+      velocity: 192
+      warpSpeed: 3.3
     fitting:
       capacitor: 1190.0
       capacitorTime: 321.0
@@ -4543,7 +6223,14 @@ hulls:
     name: Falcon
   11959:
     attributes:
-      maximumVelocity: 194
+      inertiaModifier: 0.61
+      maxTargets: 10
+      scanRes: 259
+      scanStr: 32
+      scanType: Gravimetric
+      targetRange: 150000
+      velocity: 194
+      warpSpeed: 3.3
     fitting:
       capacitor: 1250.0
       capacitorTime: 318.0
@@ -4562,7 +6249,13 @@ hulls:
     name: Rook
   29984:
     attributes:
-      maximumVelocity: 10
+      inertiaModifier: 0.31
+      maxTargets: 5
+      scanRes: 0
+      scanStr: 0
+      targetRange: 0
+      velocity: 10
+      warpSpeed: 3.0
     fitting:
       capacitor: 100.0
       capacitorTime: 10.0
@@ -4581,7 +6274,13 @@ hulls:
     name: Tengu
   29988:
     attributes:
-      maximumVelocity: 10
+      inertiaModifier: 0.44
+      maxTargets: 5
+      scanRes: 0
+      scanStr: 0
+      targetRange: 0
+      velocity: 10
+      warpSpeed: 3.0
     fitting:
       capacitor: 100.0
       capacitorTime: 10.0
@@ -4600,7 +6299,13 @@ hulls:
     name: Proteus
   29990:
     attributes:
-      maximumVelocity: 10
+      inertiaModifier: 0.35
+      maxTargets: 5
+      scanRes: 0
+      scanStr: 0
+      targetRange: 0
+      velocity: 10
+      warpSpeed: 3.0
     fitting:
       capacitor: 100.0
       capacitorTime: 10.0
@@ -4619,7 +6324,13 @@ hulls:
     name: Loki
   29986:
     attributes:
-      maximumVelocity: 10
+      inertiaModifier: 0.41
+      maxTargets: 5
+      scanRes: 0
+      scanStr: 0
+      targetRange: 0
+      velocity: 10
+      warpSpeed: 3.0
     fitting:
       capacitor: 100.0
       capacitorTime: 10.0
@@ -4638,7 +6349,14 @@ hulls:
     name: Legion
   12017:
     attributes:
-      maximumVelocity: 215
+      inertiaModifier: 0.51
+      maxTargets: 6
+      scanRes: 250
+      scanStr: 15
+      scanType: RADAR
+      targetRange: 65000
+      velocity: 215
+      warpSpeed: 3.3
     fitting:
       capacitor: 1625.0
       capacitorTime: 335.0
@@ -4657,7 +6375,14 @@ hulls:
     name: Devoter
   11995:
     attributes:
-      maximumVelocity: 200
+      inertiaModifier: 0.55
+      maxTargets: 7
+      scanRes: 240
+      scanStr: 19
+      scanType: Gravimetric
+      targetRange: 80000
+      velocity: 200
+      warpSpeed: 3.3
     fitting:
       capacitor: 1250.0
       capacitorTime: 335.0
@@ -4676,7 +6401,14 @@ hulls:
     name: Onyx
   12021:
     attributes:
-      maximumVelocity: 205
+      inertiaModifier: 0.58
+      maxTargets: 6
+      scanRes: 250
+      scanStr: 17
+      scanType: Magnetometric
+      targetRange: 70000
+      velocity: 205
+      warpSpeed: 3.3
     fitting:
       capacitor: 1375.0
       capacitorTime: 335.0
@@ -4695,7 +6427,14 @@ hulls:
     name: Phobos
   12013:
     attributes:
-      maximumVelocity: 220
+      inertiaModifier: 0.55
+      maxTargets: 6
+      scanRes: 255
+      scanStr: 14
+      scanType: LADAR
+      targetRange: 55000
+      velocity: 220
+      warpSpeed: 3.3
     fitting:
       capacitor: 1250.0
       capacitorTime: 335.0
@@ -4714,7 +6453,14 @@ hulls:
     name: Broadsword
   29344:
     attributes:
-      maximumVelocity: 255
+      inertiaModifier: 0.4
+      maxTargets: 7
+      scanRes: 325
+      scanStr: 18
+      scanType: Magnetometric
+      targetRange: 47500
+      velocity: 255
+      warpSpeed: 3.0
     fitting:
       capacitor: 1500.0
       capacitorTime: 490.0
@@ -4733,7 +6479,14 @@ hulls:
     name: Exequror Navy Issue
   17709:
     attributes:
-      maximumVelocity: 265
+      inertiaModifier: 0.43
+      maxTargets: 7
+      scanRes: 320
+      scanStr: 17
+      scanType: RADAR
+      targetRange: 57500
+      velocity: 265
+      warpSpeed: 3.0
     fitting:
       capacitor: 1650.0
       capacitorTime: 520.0
@@ -4752,7 +6505,14 @@ hulls:
     name: Omen Navy Issue
   29336:
     attributes:
-      maximumVelocity: 280
+      inertiaModifier: 0.44
+      maxTargets: 7
+      scanRes: 345
+      scanStr: 16
+      scanType: LADAR
+      targetRange: 50000
+      velocity: 280
+      warpSpeed: 3.0
     fitting:
       capacitor: 1275.0
       capacitorTime: 425.0
@@ -4771,7 +6531,14 @@ hulls:
     name: Scythe Fleet Issue
   29337:
     attributes:
-      maximumVelocity: 215
+      inertiaModifier: 0.48
+      maxTargets: 7
+      scanRes: 300
+      scanStr: 19
+      scanType: RADAR
+      targetRange: 42500
+      velocity: 215
+      warpSpeed: 3.0
     fitting:
       capacitor: 1500.0
       capacitorTime: 475.0
@@ -4790,7 +6557,14 @@ hulls:
     name: Augoror Navy Issue
   17713:
     attributes:
-      maximumVelocity: 250
+      inertiaModifier: 0.465
+      maxTargets: 6
+      scanRes: 305
+      scanStr: 18
+      scanType: LADAR
+      targetRange: 40000
+      velocity: 250
+      warpSpeed: 3.0
     fitting:
       capacitor: 1275.0
       capacitorTime: 425.0
@@ -4809,7 +6583,14 @@ hulls:
     name: Stabber Fleet Issue
   17634:
     attributes:
-      maximumVelocity: 210
+      inertiaModifier: 0.51
+      maxTargets: 7
+      scanRes: 270
+      scanStr: 21
+      scanType: Gravimetric
+      targetRange: 57500
+      velocity: 210
+      warpSpeed: 3.0
     fitting:
       capacitor: 1450.0
       capacitorTime: 482.5
@@ -4828,7 +6609,14 @@ hulls:
     name: Caracal Navy Issue
   17843:
     attributes:
-      maximumVelocity: 220
+      inertiaModifier: 0.44
+      maxTargets: 7
+      scanRes: 285
+      scanStr: 20
+      scanType: Magnetometric
+      targetRange: 52500
+      velocity: 220
+      warpSpeed: 3.0
     fitting:
       capacitor: 1500.0
       capacitorTime: 490.0
@@ -4847,7 +6635,14 @@ hulls:
     name: Vexor Navy Issue
   29340:
     attributes:
-      maximumVelocity: 260
+      inertiaModifier: 0.385
+      maxTargets: 8
+      scanRes: 310
+      scanStr: 19
+      scanType: Gravimetric
+      targetRange: 60000
+      velocity: 260
+      warpSpeed: 3.0
     fitting:
       capacitor: 1450.0
       capacitorTime: 482.5
@@ -4866,7 +6661,14 @@ hulls:
     name: Osprey Navy Issue
   17720:
     attributes:
-      maximumVelocity: 263
+      inertiaModifier: 0.45
+      maxTargets: 7
+      scanRes: 390
+      scanStr: 18
+      scanType: LADAR
+      targetRange: 47000
+      velocity: 263
+      warpSpeed: 4.5
     fitting:
       capacitor: 1415.0
       capacitorTime: 490.0
@@ -4885,7 +6687,14 @@ hulls:
     name: Cynabal
   17922:
     attributes:
-      maximumVelocity: 208
+      inertiaModifier: 0.58
+      maxTargets: 7
+      scanRes: 340
+      scanStr: 19
+      scanType: RADAR
+      targetRange: 55000
+      velocity: 208
+      warpSpeed: 3.0
     fitting:
       capacitor: 1850.0
       capacitorTime: 530.0
@@ -4904,7 +6713,14 @@ hulls:
     name: Ashimmu
   33470:
     attributes:
-      maximumVelocity: 182
+      inertiaModifier: 0.47
+      maxTargets: 7
+      scanRes: 275
+      scanStr: 20
+      scanType: Magnetometric
+      targetRange: 55000
+      velocity: 182
+      warpSpeed: 3.0
     fitting:
       capacitor: 1700.0
       capacitorTime: 456.0
@@ -4923,7 +6739,14 @@ hulls:
     name: Stratios
   33818:
     attributes:
-      maximumVelocity: 245
+      inertiaModifier: 0.48
+      maxTargets: 7
+      scanRes: 300
+      scanStr: 21
+      scanType: Gravimetric
+      targetRange: 50000
+      velocity: 245
+      warpSpeed: 3.0
     fitting:
       capacitor: 1550.0
       capacitorTime: 490.0
@@ -4942,7 +6765,14 @@ hulls:
     name: Orthrus
   17722:
     attributes:
-      maximumVelocity: 242
+      inertiaModifier: 0.48
+      maxTargets: 7
+      scanRes: 300
+      scanStr: 20
+      scanType: Magnetometric
+      targetRange: 49000
+      velocity: 242
+      warpSpeed: 3.0
     fitting:
       capacitor: 1545.0
       capacitorTime: 490.0
@@ -4961,7 +6791,14 @@ hulls:
     name: Vigilant
   17718:
     attributes:
-      maximumVelocity: 228
+      inertiaModifier: 0.62
+      maxTargets: 7
+      scanRes: 275
+      scanStr: 20
+      scanType: RADAR
+      targetRange: 59000
+      velocity: 228
+      warpSpeed: 3.0
     fitting:
       capacitor: 1800.0
       capacitorTime: 495.0
@@ -4980,7 +6817,14 @@ hulls:
     name: Phantasm
   17715:
     attributes:
-      maximumVelocity: 195
+      inertiaModifier: 0.66
+      maxTargets: 7
+      scanRes: 285
+      scanStr: 22
+      scanType: Gravimetric
+      targetRange: 58000
+      velocity: 195
+      warpSpeed: 3.0
     fitting:
       capacitor: 1400.0
       capacitorTime: 490.0
@@ -4999,7 +6843,14 @@ hulls:
     name: Gila
   33675:
     attributes:
-      maximumVelocity: 170
+      inertiaModifier: 0.6
+      maxTargets: 8
+      scanRes: 260
+      scanStr: 34
+      scanType: Gravimetric
+      targetRange: 110000
+      velocity: 170
+      warpSpeed: 3.3
     fitting:
       capacitor: 1000.0
       capacitorTime: 333.3
@@ -5018,7 +6869,14 @@ hulls:
     name: Chameleon
   33395:
     attributes:
-      maximumVelocity: 260
+      inertiaModifier: 0.47
+      maxTargets: 8
+      scanRes: 430
+      scanStr: 28
+      scanType: LADAR
+      targetRange: 125000
+      velocity: 260
+      warpSpeed: 3.3
     fitting:
       capacitor: 1415.0
       capacitorTime: 460.0
@@ -5037,7 +6895,14 @@ hulls:
     name: Moracha
   33397:
     attributes:
-      maximumVelocity: 440
+      inertiaModifier: 3.12
+      maxTargets: 7
+      scanRes: 750
+      scanStr: 21
+      scanType: LADAR
+      targetRange: 57500
+      velocity: 440
+      warpSpeed: 8.0
     fitting:
       capacitor: 365.0
       capacitorTime: 250.0
@@ -5056,7 +6921,14 @@ hulls:
     name: Chremoas
   29266:
     attributes:
-      maximumVelocity: 500
+      inertiaModifier: 0.0
+      maxTargets: 2
+      scanRes: 0
+      scanStr: 10
+      scanType: RADAR
+      targetRange: 35000
+      velocity: 500
+      warpSpeed: 5.0
     fitting:
       capacitor: 250.0
       capacitorTime: 375.0
@@ -5074,7 +6946,14 @@ hulls:
     name: Apotheosis
   33513:
     attributes:
-      maximumVelocity: 500
+      inertiaModifier: 0.0
+      maxTargets: 2
+      scanRes: 0
+      scanStr: 5
+      scanType: LADAR
+      targetRange: 35000
+      velocity: 500
+      warpSpeed: 20.0
     fitting:
       capacitor: 250.0
       capacitorTime: 375.0
@@ -5092,7 +6971,14 @@ hulls:
     name: Leopard
   34496:
     attributes:
-      maximumVelocity: 500
+      inertiaModifier: 0.0
+      maxTargets: 2
+      scanRes: 0
+      scanStr: 8
+      scanType: RADAR
+      targetRange: 35000
+      velocity: 500
+      warpSpeed: 5.0
     fitting:
       capacitor: 250.0
       capacitorTime: 375.0
@@ -5110,7 +6996,14 @@ hulls:
     name: Council Diplomatic Shuttle
   30842:
     attributes:
-      maximumVelocity: 500
+      inertiaModifier: 0.0
+      maxTargets: 2
+      scanRes: 0
+      scanStr: 6
+      scanType: Magnetometric
+      targetRange: 35000
+      velocity: 500
+      warpSpeed: 5.0
     fitting:
       capacitor: 250.0
       capacitorTime: 375.0
@@ -5128,7 +7021,14 @@ hulls:
     name: InterBus Shuttle
   33079:
     attributes:
-      maximumVelocity: 310
+      inertiaModifier: 4.45
+      maxTargets: 4
+      scanRes: 580
+      scanStr: 8
+      scanType: RADAR
+      targetRange: 24000
+      velocity: 310
+      warpSpeed: 3.0
     fitting:
       capacitor: 210.0
       capacitorTime: 70.0
@@ -5146,7 +7046,14 @@ hulls:
     name: Hematos
   11940:
     attributes:
-      maximumVelocity: 296
+      inertiaModifier: 4.12
+      maxTargets: 5
+      scanRes: 700
+      scanStr: 15
+      scanType: RADAR
+      targetRange: 40000
+      velocity: 296
+      warpSpeed: 5.0
     fitting:
       capacitor: 781.25
       capacitorTime: 450.0
@@ -5165,7 +7072,14 @@ hulls:
     name: Gold Magnate
   3532:
     attributes:
-      maximumVelocity: 404
+      inertiaModifier: 2.45
+      maxTargets: 4
+      scanRes: 700
+      scanStr: 6
+      scanType: RADAR
+      targetRange: 20000
+      velocity: 404
+      warpSpeed: 5.0
     fitting:
       capacitor: 187.5
       capacitorTime: 140.6
@@ -5183,7 +7097,14 @@ hulls:
     name: Echelon
   617:
     attributes:
-      maximumVelocity: 360
+      inertiaModifier: 4.35
+      maxTargets: 3
+      scanRes: 555
+      scanStr: 7
+      scanType: LADAR
+      targetRange: 22000
+      velocity: 360
+      warpSpeed: 3.0
     fitting:
       capacitor: 125.0
       capacitorTime: 62.5
@@ -5201,7 +7122,14 @@ hulls:
     name: Echo
   33081:
     attributes:
-      maximumVelocity: 295
+      inertiaModifier: 4.5
+      maxTargets: 3
+      scanRes: 530
+      scanStr: 9
+      scanType: Gravimetric
+      targetRange: 20000
+      velocity: 295
+      warpSpeed: 3.0
     fitting:
       capacitor: 130.0
       capacitorTime: 65.0
@@ -5219,7 +7147,14 @@ hulls:
     name: Taipan
   11942:
     attributes:
-      maximumVelocity: 296
+      inertiaModifier: 4.08
+      maxTargets: 5
+      scanRes: 675
+      scanStr: 13
+      scanType: RADAR
+      targetRange: 37500
+      velocity: 296
+      warpSpeed: 5.0
     fitting:
       capacitor: 562.5
       capacitorTime: 350.0
@@ -5238,7 +7173,14 @@ hulls:
     name: Silver Magnate
   2078:
     attributes:
-      maximumVelocity: 300
+      inertiaModifier: 1000.0
+      maxTargets: 2
+      scanRes: 0
+      scanStr: 6
+      scanType: Magnetometric
+      targetRange: 35000
+      velocity: 300
+      warpSpeed: 5.0
     fitting:
       capacitor: 250.0
       capacitorTime: 375.0
@@ -5256,7 +7198,14 @@ hulls:
     name: Zephyr
   615:
     attributes:
-      maximumVelocity: 330
+      inertiaModifier: 4.45
+      maxTargets: 3
+      scanRes: 495
+      scanStr: 8
+      scanType: RADAR
+      targetRange: 30000
+      velocity: 330
+      warpSpeed: 3.0
     fitting:
       capacitor: 175.0
       capacitorTime: 70.0
@@ -5274,7 +7223,14 @@ hulls:
     name: Immolator
   33083:
     attributes:
-      maximumVelocity: 340
+      inertiaModifier: 4.35
+      maxTargets: 3
+      scanRes: 520
+      scanStr: 8
+      scanType: Magnetometric
+      targetRange: 16000
+      velocity: 340
+      warpSpeed: 3.0
     fitting:
       capacitor: 150.0
       capacitorTime: 67.5
@@ -5292,7 +7248,14 @@ hulls:
     name: Violator
   11936:
     attributes:
-      maximumVelocity: 94
+      inertiaModifier: 0.136
+      maxTargets: 7
+      scanRes: 95
+      scanStr: 27
+      scanType: RADAR
+      targetRange: 72500
+      velocity: 94
+      warpSpeed: 2.0
     fitting:
       capacitor: 6600.0
       capacitorTime: 1250.0
@@ -5311,7 +7274,14 @@ hulls:
     name: Apocalypse Imperial Issue
   11938:
     attributes:
-      maximumVelocity: 94
+      inertiaModifier: 0.136
+      maxTargets: 7
+      scanRes: 110
+      scanStr: 31
+      scanType: RADAR
+      targetRange: 75000
+      velocity: 94
+      warpSpeed: 2.0
     fitting:
       capacitor: 6640.0
       capacitorTime: 1150.0
@@ -5330,7 +7300,14 @@ hulls:
     name: Armageddon Imperial Issue
   26840:
     attributes:
-      maximumVelocity: 94
+      inertiaModifier: 0.128
+      maxTargets: 7
+      scanRes: 85
+      scanStr: 32
+      scanType: Gravimetric
+      targetRange: 80000
+      velocity: 94
+      warpSpeed: 2.0
     fitting:
       capacitor: 5250.0
       capacitorTime: 923.9
@@ -5349,7 +7326,14 @@ hulls:
     name: Raven State Issue
   13202:
     attributes:
-      maximumVelocity: 115
+      inertiaModifier: 0.1216
+      maxTargets: 7
+      scanRes: 95
+      scanStr: 36
+      scanType: Magnetometric
+      targetRange: 82500
+      velocity: 115
+      warpSpeed: 2.0
     fitting:
       capacitor: 6187.0
       capacitorTime: 1200.0
@@ -5368,7 +7352,14 @@ hulls:
     name: Megathron Federate Issue
   26842:
     attributes:
-      maximumVelocity: 120
+      inertiaModifier: 0.12
+      maxTargets: 7
+      scanRes: 100
+      scanStr: 26
+      scanType: LADAR
+      targetRange: 67500
+      velocity: 120
+      warpSpeed: 2.0
     fitting:
       capacitor: 5843.0
       capacitorTime: 923.9
@@ -5387,7 +7378,14 @@ hulls:
     name: Tempest Tribal Issue
   4005:
     attributes:
-      maximumVelocity: 94
+      inertiaModifier: 0.116
+      maxTargets: 7
+      scanRes: 75
+      scanStr: 24
+      scanType: Gravimetric
+      targetRange: 90000
+      velocity: 94
+      warpSpeed: 2.0
     fitting:
       capacitor: 5313.0
       capacitorTime: 1087.5
@@ -5406,7 +7404,14 @@ hulls:
     name: Scorpion Ishukone Watch
   3756:
     attributes:
-      maximumVelocity: 120
+      inertiaModifier: 0.45
+      maxTargets: 6
+      scanRes: 300
+      scanStr: 17
+      scanType: Gravimetric
+      targetRange: 50000
+      velocity: 120
+      warpSpeed: 2.7
     fitting:
       capacitor: 2700.0
       capacitorTime: 710.0
@@ -5425,7 +7430,14 @@ hulls:
     name: Gnosis
   2836:
     attributes:
-      maximumVelocity: 228
+      inertiaModifier: 0.45695
+      maxTargets: 6
+      scanRes: 320
+      scanStr: 15
+      scanType: Magnetometric
+      targetRange: 45000
+      velocity: 228
+      warpSpeed: 3.3
     fitting:
       capacitor: 2268.0
       capacitorTime: 335.0
@@ -5444,7 +7456,14 @@ hulls:
     name: Adrestia
   3518:
     attributes:
-      maximumVelocity: 209
+      inertiaModifier: 0.51
+      maxTargets: 7
+      scanRes: 400
+      scanStr: 15
+      scanType: RADAR
+      targetRange: 50000
+      velocity: 209
+      warpSpeed: 3.3
     fitting:
       capacitor: 2920.0
       capacitorTime: 281.3
@@ -5463,7 +7482,14 @@ hulls:
     name: Vangel
   32209:
     attributes:
-      maximumVelocity: 210
+      inertiaModifier: 0.51
+      maxTargets: 6
+      scanRes: 282
+      scanStr: 12
+      scanType: LADAR
+      targetRange: 64000
+      velocity: 210
+      warpSpeed: 3.3
     fitting:
       capacitor: 2055.0
       capacitorTime: 356.3
@@ -5482,7 +7508,14 @@ hulls:
     name: Mimir
   635:
     attributes:
-      maximumVelocity: 250
+      inertiaModifier: 0.65
+      maxTargets: 5
+      scanRes: 300
+      scanStr: 19
+      scanType: RADAR
+      targetRange: 20000
+      velocity: 250
+      warpSpeed: 3.0
     fitting:
       capacitor: 800.0
       capacitorTime: 375.0
@@ -5501,7 +7534,14 @@ hulls:
     name: Opux Luxury Yacht
   11011:
     attributes:
-      maximumVelocity: 180
+      inertiaModifier: 0.54625
+      maxTargets: 5
+      scanRes: 276
+      scanStr: 19
+      scanType: Magnetometric
+      targetRange: 62500
+      velocity: 180
+      warpSpeed: 3.0
     fitting:
       capacitor: 1250.0
       capacitorTime: 446.3
@@ -5520,7 +7560,14 @@ hulls:
     name: Guardian-Vexor
   34590:
     attributes:
-      maximumVelocity: 250
+      inertiaModifier: 0.4
+      maxTargets: 10
+      scanRes: 250
+      scanStr: 20
+      scanType: Magnetometric
+      targetRange: 60000
+      velocity: 250
+      warpSpeed: 6.0
     fitting:
       capacitor: 3500.0
       capacitorTime: 875.0
@@ -5539,7 +7586,14 @@ hulls:
     name: Victorieux Luxury Yacht
   32788:
     attributes:
-      maximumVelocity: 350
+      inertiaModifier: 3.5
+      maxTargets: 7
+      scanRes: 650
+      scanStr: 14
+      scanType: Gravimetric
+      targetRange: 40000
+      velocity: 350
+      warpSpeed: 5.5
     fitting:
       capacitor: 400.0
       capacitorTime: 150.0
@@ -5558,7 +7612,14 @@ hulls:
     name: Cambion
   2834:
     attributes:
-      maximumVelocity: 320
+      inertiaModifier: 3.4675
+      maxTargets: 6
+      scanRes: 550
+      scanStr: 9
+      scanType: Magnetometric
+      targetRange: 47500
+      velocity: 320
+      warpSpeed: 5.5
     fitting:
       capacitor: 410.0
       capacitorTime: 187.5
@@ -5577,7 +7638,14 @@ hulls:
     name: Utu
   3516:
     attributes:
-      maximumVelocity: 295
+      inertiaModifier: 2.43
+      maxTargets: 6
+      scanRes: 650
+      scanStr: 12
+      scanType: RADAR
+      targetRange: 40000
+      velocity: 295
+      warpSpeed: 5.5
     fitting:
       capacitor: 612.0
       capacitorTime: 150.0
@@ -5596,7 +7664,14 @@ hulls:
     name: Malice
   32207:
     attributes:
-      maximumVelocity: 355
+      inertiaModifier: 3.056
+      maxTargets: 6
+      scanRes: 700
+      scanStr: 10
+      scanType: LADAR
+      targetRange: 40000
+      velocity: 355
+      warpSpeed: 5.5
     fitting:
       capacitor: 350.0
       capacitorTime: 187.5
@@ -5615,7 +7690,14 @@ hulls:
     name: Freki
   33673:
     attributes:
-      maximumVelocity: 430
+      inertiaModifier: 3.7
+      maxTargets: 5
+      scanRes: 900
+      scanStr: 15
+      scanType: Gravimetric
+      targetRange: 32500
+      velocity: 430
+      warpSpeed: 8.0
     fitting:
       capacitor: 355.0
       capacitorTime: 266.3
@@ -5634,7 +7716,14 @@ hulls:
     name: Whiptail
   32790:
     attributes:
-      maximumVelocity: 200
+      inertiaModifier: 0.61
+      maxTargets: 10
+      scanRes: 400
+      scanStr: 16
+      scanType: Gravimetric
+      targetRange: 80000
+      velocity: 200
+      warpSpeed: 3.3
     fitting:
       capacitor: 2004.0
       capacitorTime: 278.8
@@ -5653,7 +7742,14 @@ hulls:
     name: Etana
   4363:
     attributes:
-      maximumVelocity: 120
+      inertiaModifier: 0.9
+      maxTargets: 2
+      scanRes: 65
+      scanStr: 11
+      scanType: Magnetometric
+      targetRange: 47500
+      velocity: 120
+      warpSpeed: 4.5
     fitting:
       capacitor: 500.0
       capacitorTime: 277.5
@@ -5672,7 +7768,14 @@ hulls:
     name: Miasmos Quafe Ultra Edition
   2863:
     attributes:
-      maximumVelocity: 200
+      inertiaModifier: 0.7
+      maxTargets: 0
+      scanRes: 10
+      scanStr: 30
+      scanType: Magnetometric
+      targetRange: 60000
+      velocity: 200
+      warpSpeed: 3.0
     fitting:
       capacitor: 1000.0
       capacitorTime: 400.0
@@ -5690,7 +7793,14 @@ hulls:
     name: Primae
   32811:
     attributes:
-      maximumVelocity: 120
+      inertiaModifier: 0.9
+      maxTargets: 2
+      scanRes: 65
+      scanStr: 11
+      scanType: Magnetometric
+      targetRange: 47500
+      velocity: 120
+      warpSpeed: 4.5
     fitting:
       capacitor: 500.0
       capacitorTime: 277.5
@@ -5709,7 +7819,14 @@ hulls:
     name: Miasmos Amastris Edition
   4388:
     attributes:
-      maximumVelocity: 120
+      inertiaModifier: 0.9
+      maxTargets: 2
+      scanRes: 65
+      scanStr: 11
+      scanType: Magnetometric
+      targetRange: 47500
+      velocity: 120
+      warpSpeed: 4.5
     fitting:
       capacitor: 500.0
       capacitorTime: 277.5

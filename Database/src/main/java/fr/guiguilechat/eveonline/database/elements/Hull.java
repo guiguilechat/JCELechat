@@ -9,7 +9,17 @@ public class Hull {
 	public Fitting fitting = new Fitting();
 
 	public static class Attributes {
-		public int maximumVelocity;
+
+		public int velocity;
+		public float warpSpeed;
+		public float inertiaModifier;
+
+		public int targetRange;
+		public int scanRes;
+		public int scanStr;
+		public String scanType;
+		public int maxTargets;
+
 	}
 
 	public Attributes attributes = new Attributes();
