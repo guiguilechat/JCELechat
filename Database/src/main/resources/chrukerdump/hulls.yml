@@ -6,11 +6,15 @@ hulls:
       capacitor: 3750.0
       capacitorTime: 231.0
       cpu: 1
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 3
       medium: 0
       powergrid: 3
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Providence
   20185:
@@ -20,11 +24,15 @@ hulls:
       capacitor: 3500.0
       capacitorTime: 215.6
       cpu: 1
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 3
       medium: 0
       powergrid: 3
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Charon
   20187:
@@ -34,11 +42,15 @@ hulls:
       capacitor: 3500.0
       capacitorTime: 215.6
       cpu: 1
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 3
       medium: 0
       powergrid: 3
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Obelisk
   20189:
@@ -48,11 +60,15 @@ hulls:
       capacitor: 3000.0
       capacitorTime: 184.8
       cpu: 1
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 3
       medium: 0
       powergrid: 3
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Fenrir
   34328:
@@ -62,11 +78,16 @@ hulls:
       capacitor: 3900.0
       capacitorTime: 235.0
       cpu: 215
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 3
       medium: 3
       powergrid: 1350
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 0
     name: Bowhead
   11567:
@@ -76,11 +97,16 @@ hulls:
       capacitor: 112500.0
       capacitorTime: 6750.0
       cpu: 815
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 0
       low: 8
       medium: 5
       powergrid: 1250000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 6
     name: Avatar
   3764:
@@ -90,11 +116,16 @@ hulls:
       capacitor: 103500.0
       capacitorTime: 6210.0
       cpu: 1250
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 7
       low: 5
       medium: 8
       powergrid: 755000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 0
     name: Leviathan
   671:
@@ -104,11 +135,16 @@ hulls:
       capacitor: 108000.0
       capacitorTime: 6480.0
       cpu: 950
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 0
       low: 7
       medium: 6
       powergrid: 1050000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 6
     name: Erebus
   23773:
@@ -118,11 +154,16 @@ hulls:
       capacitor: 99000.0
       capacitorTime: 5940.0
       cpu: 1050
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 0
       low: 6
       medium: 7
       powergrid: 965000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 6
     name: Ragnarok
   22852:
@@ -132,11 +173,16 @@ hulls:
       capacitor: 65000.0
       capacitorTime: 4225.0
       cpu: 950
+      droneBandwidth: 7500
+      droneCapa: 175000
       high: 6
       launcher: 0
       low: 5
       medium: 7
       powergrid: 650000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 0
     name: Hel
   24483:
@@ -146,11 +192,16 @@ hulls:
       capacitor: 55000.0
       capacitorTime: 3815.0
       cpu: 700
+      droneBandwidth: 375
+      droneCapa: 90000
       high: 5
       launcher: 0
       low: 6
       medium: 5
       powergrid: 605000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 0
     name: Nidhoggur
   3514:
@@ -160,11 +211,16 @@ hulls:
       capacitor: 82500.0
       capacitorTime: 5362.5
       cpu: 950
+      droneBandwidth: 5000
+      droneCapa: 150000
       high: 7
       launcher: 0
       low: 5
       medium: 7
       powergrid: 625000
+      rigCalibration: 350
+      rigSize: X-Large
+      rigSlots: 3
       turret: 0
     name: Revenant
   23757:
@@ -174,11 +230,16 @@ hulls:
       capacitor: 64875.0
       capacitorTime: 4500.0
       cpu: 625
+      droneBandwidth: 375
+      droneCapa: 80000
       high: 5
       launcher: 0
       low: 7
       medium: 4
       powergrid: 775000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 0
     name: Archon
   23919:
@@ -188,11 +249,16 @@ hulls:
       capacitor: 75000.0
       capacitorTime: 4875.0
       cpu: 725
+      droneBandwidth: 7500
+      droneCapa: 150000
       high: 6
       launcher: 0
       low: 8
       medium: 4
       powergrid: 925000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 0
     name: Aeon
   23917:
@@ -202,11 +268,16 @@ hulls:
       capacitor: 63750.0
       capacitorTime: 4143.8
       cpu: 975
+      droneBandwidth: 7500
+      droneCapa: 150000
       high: 6
       launcher: 0
       low: 4
       medium: 8
       powergrid: 550000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 0
     name: Wyvern
   23915:
@@ -216,11 +287,16 @@ hulls:
       capacitor: 56250.0
       capacitorTime: 3901.7
       cpu: 825
+      droneBandwidth: 375
+      droneCapa: 80000
       high: 5
       launcher: 0
       low: 4
       medium: 7
       powergrid: 450000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 0
     name: Chimera
   23911:
@@ -230,11 +306,16 @@ hulls:
       capacitor: 60000.0
       capacitorTime: 4161.8
       cpu: 725
+      droneBandwidth: 375
+      droneCapa: 100000
       high: 5
       launcher: 0
       low: 6
       medium: 5
       powergrid: 700000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 0
     name: Thanatos
   23913:
@@ -244,11 +325,16 @@ hulls:
       capacitor: 67500.0
       capacitorTime: 4387.5
       cpu: 800
+      droneBandwidth: 7500
+      droneCapa: 175000
       high: 6
       launcher: 0
       low: 7
       medium: 5
       powergrid: 825000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 0
     name: Nyx
   28846:
@@ -258,11 +344,15 @@ hulls:
       capacitor: 30000.0
       capacitorTime: 406.5
       cpu: 5
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 3
       medium: 0
       powergrid: 3
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Nomad
   28850:
@@ -272,11 +362,15 @@ hulls:
       capacitor: 37500.0
       capacitorTime: 508.1
       cpu: 5
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 3
       medium: 0
       powergrid: 3
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Ark
   28844:
@@ -286,11 +380,15 @@ hulls:
       capacitor: 35000.0
       capacitorTime: 474.3
       cpu: 5
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 3
       medium: 0
       powergrid: 3
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Rhea
   28848:
@@ -300,11 +398,15 @@ hulls:
       capacitor: 35000.0
       capacitorTime: 474.3
       cpu: 5
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 3
       medium: 0
       powergrid: 3
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Anshar
   28352:
@@ -314,11 +416,16 @@ hulls:
       capacitor: 54560.0
       capacitorTime: 3900.0
       cpu: 920
+      droneBandwidth: 125
+      droneCapa: 300
       high: 6
       launcher: 0
       low: 3
       medium: 7
       powergrid: 305000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 0
     name: Rorqual
   28606:
@@ -328,11 +435,16 @@ hulls:
       capacitor: 4200.0
       capacitorTime: 800.0
       cpu: 430
+      droneBandwidth: 50
+      droneCapa: 75
       high: 3
       launcher: 0
       low: 2
       medium: 4
       powergrid: 960
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 0
     name: Orca
   19720:
@@ -342,11 +454,16 @@ hulls:
       capacitor: 57375.0
       capacitorTime: 4157.6
       cpu: 650
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 0
       low: 8
       medium: 4
       powergrid: 650000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 3
     name: Revelation
   19726:
@@ -356,11 +473,16 @@ hulls:
       capacitor: 48750.0
       capacitorTime: 3532.6
       cpu: 875
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 3
       low: 5
       medium: 7
       powergrid: 450000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 0
     name: Phoenix
   19724:
@@ -370,11 +492,16 @@ hulls:
       capacitor: 52500.0
       capacitorTime: 3804.3
       cpu: 750
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 0
       low: 7
       medium: 5
       powergrid: 575000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 3
     name: Moros
   19722:
@@ -384,11 +511,16 @@ hulls:
       capacitor: 47500.0
       capacitorTime: 3442.0
       cpu: 670
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 0
       low: 6
       medium: 6
       powergrid: 416000
+      rigCalibration: 400
+      rigSize: X-Large
+      rigSlots: 3
       turret: 2
     name: Naglfar
   596:
@@ -398,11 +530,15 @@ hulls:
       capacitor: 140.0
       capacitorTime: 70.0
       cpu: 120
+      droneBandwidth: 5
+      droneCapa: 5
       high: 2
       launcher: 1
       low: 2
       medium: 2
       powergrid: 26
+      rigCalibration: 0
+      rigSlots: 0
       turret: 2
     name: Impairor
   601:
@@ -412,11 +548,15 @@ hulls:
       capacitor: 130.0
       capacitorTime: 65.0
       cpu: 135
+      droneBandwidth: 5
+      droneCapa: 5
       high: 2
       launcher: 2
       low: 2
       medium: 2
       powergrid: 23
+      rigCalibration: 0
+      rigSlots: 0
       turret: 2
     name: Ibis
   606:
@@ -426,11 +566,15 @@ hulls:
       capacitor: 135.0
       capacitorTime: 67.5
       cpu: 125
+      droneBandwidth: 10
+      droneCapa: 10
       high: 2
       launcher: 1
       low: 2
       medium: 2
       powergrid: 25
+      rigCalibration: 0
+      rigSlots: 0
       turret: 2
     name: Velator
   588:
@@ -440,11 +584,15 @@ hulls:
       capacitor: 125.0
       capacitorTime: 62.5
       cpu: 130
+      droneBandwidth: 5
+      droneCapa: 5
       high: 2
       launcher: 2
       low: 2
       medium: 2
       powergrid: 24
+      rigCalibration: 0
+      rigSlots: 0
       turret: 2
     name: Reaper
   12753:
@@ -454,11 +602,16 @@ hulls:
       capacitor: 3500.0
       capacitorTime: 875.0
       cpu: 240
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 2
       low: 7
       medium: 2
       powergrid: 330
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 0
     name: Impel
   12733:
@@ -468,11 +621,16 @@ hulls:
       capacitor: 1375.0
       capacitorTime: 393.0
       cpu: 200
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 4
       medium: 2
       powergrid: 150
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 1
     name: Prorator
   12729:
@@ -482,11 +640,16 @@ hulls:
       capacitor: 1300.0
       capacitorTime: 371.0
       cpu: 285
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 1
       low: 2
       medium: 4
       powergrid: 125
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 0
     name: Crane
   12731:
@@ -496,11 +659,16 @@ hulls:
       capacitor: 2900.0
       capacitorTime: 725.0
       cpu: 290
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 2
       low: 3
       medium: 6
       powergrid: 200
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 0
     name: Bustard
   12743:
@@ -510,11 +678,16 @@ hulls:
       capacitor: 1300.0
       capacitorTime: 371.0
       cpu: 250
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 3
       medium: 3
       powergrid: 135
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 1
     name: Viator
   12745:
@@ -524,11 +697,16 @@ hulls:
       capacitor: 3100.0
       capacitorTime: 775.0
       cpu: 260
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 6
       medium: 3
       powergrid: 290
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 2
     name: Occator
   12747:
@@ -538,11 +716,16 @@ hulls:
       capacitor: 2700.0
       capacitorTime: 675.0
       cpu: 270
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 4
       medium: 5
       powergrid: 230
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 2
     name: Mastodon
   12735:
@@ -552,11 +735,16 @@ hulls:
       capacitor: 1200.0
       capacitorTime: 343.0
       cpu: 230
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 1
       low: 3
       medium: 3
       powergrid: 130
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 1
     name: Prowler
   2998:
@@ -566,11 +754,16 @@ hulls:
       capacitor: 2200.0
       capacitorTime: 400.0
       cpu: 300
+      droneBandwidth: 25
+      droneCapa: 25
       high: 8
       launcher: 0
       low: 3
       medium: 2
       powergrid: 250
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Noctis
   19744:
@@ -580,11 +773,16 @@ hulls:
       capacitor: 680.0
       capacitorTime: 381.3
       cpu: 300
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 6
       medium: 4
       powergrid: 250
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Sigil
   1944:
@@ -594,11 +792,16 @@ hulls:
       capacitor: 700.0
       capacitorTime: 381.3
       cpu: 230
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 6
       medium: 3
       powergrid: 90
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Bestower
   656:
@@ -608,11 +811,16 @@ hulls:
       capacitor: 580.0
       capacitorTime: 277.5
       cpu: 260
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 4
       medium: 4
       powergrid: 120
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Miasmos
   657:
@@ -622,11 +830,16 @@ hulls:
       capacitor: 650.0
       capacitorTime: 416.3
       cpu: 270
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 5
       medium: 4
       powergrid: 85
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Iteron Mark V
   654:
@@ -636,11 +849,16 @@ hulls:
       capacitor: 550.0
       capacitorTime: 242.5
       cpu: 250
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 4
       medium: 4
       powergrid: 110
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Kryos
   655:
@@ -650,11 +868,16 @@ hulls:
       capacitor: 550.0
       capacitorTime: 381.3
       cpu: 270
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 4
       medium: 4
       powergrid: 130
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Epithal
   650:
@@ -664,11 +887,16 @@ hulls:
       capacitor: 375.0
       capacitorTime: 207.5
       cpu: 350
+      droneBandwidth: 15
+      droneCapa: 30
       high: 2
       launcher: 0
       low: 5
       medium: 5
       powergrid: 215
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Nereus
   649:
@@ -678,11 +906,16 @@ hulls:
       capacitor: 625.0
       capacitorTime: 346.3
       cpu: 320
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 1
       low: 4
       medium: 5
       powergrid: 80
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Tayra
   648:
@@ -692,11 +925,16 @@ hulls:
       capacitor: 440.0
       capacitorTime: 242.5
       cpu: 380
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 1
       low: 4
       medium: 6
       powergrid: 185
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Badger
   652:
@@ -706,11 +944,16 @@ hulls:
       capacitor: 560.0
       capacitorTime: 312.5
       cpu: 250
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 5
       medium: 4
       powergrid: 80
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Mammoth
   653:
@@ -720,11 +963,16 @@ hulls:
       capacitor: 350.0
       capacitorTime: 207.5
       cpu: 320
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 5
       medium: 5
       powergrid: 200
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Wreathe
   651:
@@ -734,11 +982,16 @@ hulls:
       capacitor: 600.0
       capacitorTime: 277.5
       cpu: 300
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 0
       low: 3
       medium: 4
       powergrid: 180
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 2
     name: Hoarder
   22460:
@@ -748,11 +1001,16 @@ hulls:
       capacitor: 700.0
       capacitorTime: 350.0
       cpu: 210
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 1
       low: 4
       medium: 2
       powergrid: 64
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 7
     name: Eris
   22456:
@@ -762,11 +1020,16 @@ hulls:
       capacitor: 600.0
       capacitorTime: 300.0
       cpu: 230
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 1
       low: 2
       medium: 4
       powergrid: 58
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 7
     name: Sabre
   22452:
@@ -776,11 +1039,16 @@ hulls:
       capacitor: 750.0
       capacitorTime: 375.0
       cpu: 240
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 7
       low: 3
       medium: 3
       powergrid: 60
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 4
     name: Heretic
   22464:
@@ -790,11 +1058,16 @@ hulls:
       capacitor: 650.0
       capacitorTime: 325.0
       cpu: 280
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 7
       low: 1
       medium: 5
       powergrid: 63
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Flycatcher
   34317:
@@ -804,11 +1077,16 @@ hulls:
       capacitor: 800.0
       capacitorTime: 320.0
       cpu: 180
+      droneBandwidth: 0
+      droneCapa: 0
       high: 6
       launcher: 0
       low: 5
       medium: 3
       powergrid: 62
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 4
     name: Confessor
   34562:
@@ -818,11 +1096,16 @@ hulls:
       capacitor: 600.0
       capacitorTime: 240.0
       cpu: 205
+      droneBandwidth: 0
+      droneCapa: 0
       high: 6
       launcher: 1
       low: 4
       medium: 4
       powergrid: 59
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 4
     name: Svipul
   32874:
@@ -832,11 +1115,16 @@ hulls:
       capacitor: 600.0
       capacitorTime: 275.0
       cpu: 150
+      droneBandwidth: 25
+      droneCapa: 75
       high: 6
       launcher: 3
       low: 4
       medium: 2
       powergrid: 58
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 3
     name: Dragoon
   16236:
@@ -846,11 +1134,16 @@ hulls:
       capacitor: 700.0
       capacitorTime: 370.0
       cpu: 168
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 0
       low: 3
       medium: 2
       powergrid: 85
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 8
     name: Coercer
   32876:
@@ -860,11 +1153,16 @@ hulls:
       capacitor: 500.0
       capacitorTime: 320.0
       cpu: 210
+      droneBandwidth: 0
+      droneCapa: 0
       high: 7
       launcher: 7
       low: 2
       medium: 4
       powergrid: 48
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 0
     name: Corax
   16238:
@@ -874,11 +1172,16 @@ hulls:
       capacitor: 600.0
       capacitorTime: 320.0
       cpu: 200
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 1
       low: 2
       medium: 3
       powergrid: 68
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 7
     name: Cormorant
   16240:
@@ -888,11 +1191,16 @@ hulls:
       capacitor: 650.0
       capacitorTime: 350.0
       cpu: 178
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 0
       low: 3
       medium: 2
       powergrid: 70
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 8
     name: Catalyst
   32872:
@@ -902,11 +1210,16 @@ hulls:
       capacitor: 550.0
       capacitorTime: 350.0
       cpu: 160
+      droneBandwidth: 35
+      droneCapa: 60
       high: 6
       launcher: 0
       low: 3
       medium: 3
       powergrid: 55
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 5
     name: Algos
   16242:
@@ -916,11 +1229,16 @@ hulls:
       capacitor: 550.0
       capacitorTime: 290.0
       cpu: 170
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 1
       low: 2
       medium: 3
       powergrid: 70
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 7
     name: Thrasher
   32878:
@@ -930,11 +1248,16 @@ hulls:
       capacitor: 450.0
       capacitorTime: 290.0
       cpu: 200
+      droneBandwidth: 0
+      droneCapa: 0
       high: 7
       launcher: 7
       low: 3
       medium: 3
       powergrid: 51
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 0
     name: Talwar
   609:
@@ -944,11 +1267,16 @@ hulls:
       capacitor: 275.0
       capacitorTime: 150.0
       cpu: 230
+      droneBandwidth: 20
+      droneCapa: 30
       high: 2
       launcher: 0
       low: 3
       medium: 4
       powergrid: 28
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Maulus
   593:
@@ -958,11 +1286,16 @@ hulls:
       capacitor: 350.0
       capacitorTime: 175.0
       cpu: 130
+      droneBandwidth: 25
+      droneCapa: 40
       high: 3
       launcher: 0
       low: 3
       medium: 3
       powergrid: 35
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Tristan
   594:
@@ -972,11 +1305,16 @@ hulls:
       capacitor: 370.0
       capacitorTime: 185.0
       cpu: 135
+      droneBandwidth: 5
+      droneCapa: 5
       high: 3
       launcher: 0
       low: 4
       medium: 3
       powergrid: 45
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 3
     name: Incursus
   607:
@@ -986,11 +1324,16 @@ hulls:
       capacitor: 270.0
       capacitorTime: 150.0
       cpu: 250
+      droneBandwidth: 20
+      droneCapa: 40
       high: 3
       launcher: 0
       low: 3
       medium: 4
       powergrid: 21
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 1
     name: Imicus
   608:
@@ -1000,11 +1343,16 @@ hulls:
       capacitor: 330.0
       capacitorTime: 165.0
       cpu: 147
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 0
       low: 3
       medium: 3
       powergrid: 37
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 3
     name: Atron
   592:
@@ -1014,11 +1362,16 @@ hulls:
       capacitor: 425.0
       capacitorTime: 212.5
       cpu: 145
+      droneBandwidth: 5
+      droneCapa: 5
       high: 3
       launcher: 0
       low: 3
       medium: 3
       powergrid: 49
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Navitas
   32880:
@@ -1028,11 +1381,16 @@ hulls:
       capacitor: 250.0
       capacitorTime: 125.0
       cpu: 240
+      droneBandwidth: 10
+      droneCapa: 10
       high: 3
       launcher: 0
       low: 1
       medium: 3
       powergrid: 45
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Venture
   599:
@@ -1042,11 +1400,16 @@ hulls:
       capacitor: 400.0
       capacitorTime: 200.0
       cpu: 205
+      droneBandwidth: 5
+      droneCapa: 5
       high: 3
       launcher: 0
       low: 3
       medium: 3
       powergrid: 40
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Burst
   586:
@@ -1056,11 +1419,16 @@ hulls:
       capacitor: 235.0
       capacitorTime: 130.0
       cpu: 240
+      droneBandwidth: 15
+      droneCapa: 35
       high: 3
       launcher: 2
       low: 3
       medium: 4
       powergrid: 25
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Probe
   598:
@@ -1070,11 +1438,16 @@ hulls:
       capacitor: 300.0
       capacitorTime: 150.0
       cpu: 180
+      droneBandwidth: 10
+      droneCapa: 10
       high: 3
       launcher: 3
       low: 3
       medium: 4
       powergrid: 37
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 0
     name: Breacher
   587:
@@ -1084,11 +1457,16 @@ hulls:
       capacitor: 250.0
       capacitorTime: 125.0
       cpu: 125
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 2
       low: 3
       medium: 3
       powergrid: 38
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 3
     name: Rifter
   585:
@@ -1098,11 +1476,16 @@ hulls:
       capacitor: 240.0
       capacitorTime: 120.0
       cpu: 135
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 0
       low: 2
       medium: 4
       powergrid: 34
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 3
     name: Slasher
   3766:
@@ -1112,11 +1495,16 @@ hulls:
       capacitor: 235.0
       capacitorTime: 130.0
       cpu: 225
+      droneBandwidth: 5
+      droneCapa: 5
       high: 2
       launcher: 2
       low: 2
       medium: 5
       powergrid: 26
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 0
     name: Vigil
   589:
@@ -1126,11 +1514,16 @@ hulls:
       capacitor: 360.0
       capacitorTime: 180.0
       cpu: 140
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 0
       low: 3
       medium: 3
       powergrid: 45
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 3
     name: Executioner
   29248:
@@ -1140,11 +1533,16 @@ hulls:
       capacitor: 325.0
       capacitorTime: 180.0
       cpu: 230
+      droneBandwidth: 15
+      droneCapa: 40
       high: 3
       launcher: 2
       low: 4
       medium: 3
       powergrid: 26
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Magnate
   597:
@@ -1154,11 +1552,16 @@ hulls:
       capacitor: 400.0
       capacitorTime: 160.0
       cpu: 127
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 0
       low: 4
       medium: 2
       powergrid: 57
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 3
     name: Punisher
   2161:
@@ -1168,11 +1571,16 @@ hulls:
       capacitor: 330.0
       capacitorTime: 180.0
       cpu: 235
+      droneBandwidth: 15
+      droneCapa: 45
       high: 2
       launcher: 0
       low: 3
       medium: 4
       powergrid: 27
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Crucifier
   591:
@@ -1182,11 +1590,16 @@ hulls:
       capacitor: 425.0
       capacitorTime: 212.5
       cpu: 130
+      droneBandwidth: 10
+      droneCapa: 10
       high: 3
       launcher: 0
       low: 4
       medium: 3
       powergrid: 50
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 3
     name: Tormentor
   590:
@@ -1196,11 +1609,16 @@ hulls:
       capacitor: 450.0
       capacitorTime: 225.0
       cpu: 135
+      droneBandwidth: 5
+      droneCapa: 5
       high: 3
       launcher: 0
       low: 4
       medium: 2
       powergrid: 51
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Inquisitor
   602:
@@ -1210,11 +1628,16 @@ hulls:
       capacitor: 330.0
       capacitorTime: 165.0
       cpu: 180
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 4
       low: 2
       medium: 4
       powergrid: 45
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 0
     name: Kestrel
   584:
@@ -1224,11 +1647,16 @@ hulls:
       capacitor: 245.0
       capacitorTime: 135.0
       cpu: 240
+      droneBandwidth: 5
+      droneCapa: 5
       high: 2
       launcher: 2
       low: 2
       medium: 5
       powergrid: 24
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 0
     name: Griffin
   582:
@@ -1238,11 +1666,16 @@ hulls:
       capacitor: 410.0
       capacitorTime: 205.0
       cpu: 215
+      droneBandwidth: 5
+      droneCapa: 5
       high: 3
       launcher: 0
       low: 2
       medium: 4
       powergrid: 39
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Bantam
   583:
@@ -1252,11 +1685,16 @@ hulls:
       capacitor: 300.0
       capacitorTime: 150.0
       cpu: 185
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 3
       low: 2
       medium: 4
       powergrid: 35
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 0
     name: Condor
   605:
@@ -1266,11 +1704,16 @@ hulls:
       capacitor: 245.0
       capacitorTime: 135.0
       cpu: 260
+      droneBandwidth: 15
+      droneCapa: 35
       high: 3
       launcher: 2
       low: 2
       medium: 5
       powergrid: 24
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Heron
   603:
@@ -1280,11 +1723,16 @@ hulls:
       capacitor: 350.0
       capacitorTime: 175.0
       cpu: 180
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 0
       low: 3
       medium: 4
       powergrid: 40
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 3
     name: Merlin
   33468:
@@ -1294,11 +1742,16 @@ hulls:
       capacitor: 430.0
       capacitorTime: 195.0
       cpu: 170
+      droneBandwidth: 25
+      droneCapa: 75
       high: 2
       launcher: 0
       low: 4
       medium: 4
       powergrid: 32
+      rigCalibration: 350
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Astero
   17928:
@@ -1308,11 +1761,16 @@ hulls:
       capacitor: 390.0
       capacitorTime: 230.0
       cpu: 145
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 0
       low: 4
       medium: 3
       powergrid: 35
+      rigCalibration: 350
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Daredevil
   17930:
@@ -1322,11 +1780,16 @@ hulls:
       capacitor: 380.0
       capacitorTime: 212.0
       cpu: 180
+      droneBandwidth: 10
+      droneCapa: 25
       high: 3
       launcher: 3
       low: 3
       medium: 4
       powergrid: 40
+      rigCalibration: 350
+      rigSize: Small
+      rigSlots: 3
       turret: 0
     name: Worm
   33816:
@@ -1336,11 +1799,16 @@ hulls:
       capacitor: 400.0
       capacitorTime: 195.0
       cpu: 178
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 3
       low: 3
       medium: 4
       powergrid: 38
+      rigCalibration: 350
+      rigSize: Small
+      rigSlots: 3
       turret: 0
     name: Garmur
   17932:
@@ -1350,11 +1818,16 @@ hulls:
       capacitor: 370.0
       capacitorTime: 208.0
       cpu: 133
+      droneBandwidth: 15
+      droneCapa: 20
       high: 3
       launcher: 1
       low: 3
       medium: 4
       powergrid: 37
+      rigCalibration: 350
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Dramiel
   17926:
@@ -1364,11 +1837,16 @@ hulls:
       capacitor: 470.0
       capacitorTime: 205.0
       cpu: 150
+      droneBandwidth: 5
+      droneCapa: 5
       high: 4
       launcher: 0
       low: 4
       medium: 3
       powergrid: 57
+      rigCalibration: 350
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Cruor
   17924:
@@ -1378,11 +1856,16 @@ hulls:
       capacitor: 450.0
       capacitorTime: 210.0
       cpu: 170
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 0
       low: 3
       medium: 4
       powergrid: 44
+      rigCalibration: 350
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Succubus
   33677:
@@ -1392,11 +1875,16 @@ hulls:
       capacitor: 400.0
       capacitorTime: 200.0
       cpu: 160
+      droneBandwidth: 15
+      droneCapa: 30
       high: 3
       launcher: 0
       low: 4
       medium: 3
       powergrid: 40
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Police Pursuit Comet
   17841:
@@ -1406,11 +1894,16 @@ hulls:
       capacitor: 400.0
       capacitorTime: 200.0
       cpu: 160
+      droneBandwidth: 15
+      droneCapa: 30
       high: 3
       launcher: 0
       low: 4
       medium: 3
       powergrid: 40
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Federation Navy Comet
   17703:
@@ -1420,11 +1913,16 @@ hulls:
       capacitor: 500.0
       capacitorTime: 250.0
       cpu: 125
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 0
       low: 5
       medium: 2
       powergrid: 50
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Imperial Navy Slicer
   17812:
@@ -1434,11 +1932,16 @@ hulls:
       capacitor: 280.0
       capacitorTime: 140.0
       cpu: 150
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 1
       low: 3
       medium: 4
       powergrid: 40
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 2
     name: Republic Fleet Firetail
   17619:
@@ -1448,11 +1951,16 @@ hulls:
       capacitor: 300.0
       capacitorTime: 150.0
       cpu: 165
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 3
       low: 2
       medium: 5
       powergrid: 37
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 0
     name: Caldari Navy Hookbill
   33697:
@@ -1462,11 +1970,16 @@ hulls:
       capacitor: 300.0
       capacitorTime: 125.0
       cpu: 290
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 0
       low: 4
       medium: 3
       powergrid: 45
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Prospect
   11190:
@@ -1476,11 +1989,16 @@ hulls:
       capacitor: 415.0
       capacitorTime: 190.0
       cpu: 195
+      droneBandwidth: 20
+      droneCapa: 60
       high: 3
       launcher: 0
       low: 3
       medium: 4
       powergrid: 40
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Sentinel
   11194:
@@ -1490,11 +2008,16 @@ hulls:
       capacitor: 415.0
       capacitorTime: 195.0
       cpu: 270
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 3
       low: 2
       medium: 5
       powergrid: 26
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 1
     name: Kitsune
   11174:
@@ -1504,11 +2027,16 @@ hulls:
       capacitor: 375.0
       capacitorTime: 187.0
       cpu: 205
+      droneBandwidth: 10
+      droneCapa: 10
       high: 2
       launcher: 0
       low: 3
       medium: 5
       powergrid: 33
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Keres
   11387:
@@ -1518,11 +2046,16 @@ hulls:
       capacitor: 355.0
       capacitorTime: 175.0
       cpu: 145
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 2
       low: 3
       medium: 4
       powergrid: 36
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Hyena
   11188:
@@ -1532,11 +2065,16 @@ hulls:
       capacitor: 250.0
       capacitorTime: 187.5
       cpu: 280
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 2
       low: 3
       medium: 4
       powergrid: 20
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Anathema
   12038:
@@ -1546,11 +2084,16 @@ hulls:
       capacitor: 355.0
       capacitorTime: 266.3
       cpu: 305
+      droneBandwidth: 0
+      droneCapa: 0
       high: 5
       launcher: 3
       low: 3
       medium: 3
       powergrid: 45
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Purifier
   11192:
@@ -1560,11 +2103,16 @@ hulls:
       capacitor: 218.75
       capacitorTime: 187.5
       cpu: 300
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 2
       low: 2
       medium: 5
       powergrid: 15
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 1
     name: Buzzard
   12032:
@@ -1574,11 +2122,16 @@ hulls:
       capacitor: 315.0
       capacitorTime: 236.3
       cpu: 330
+      droneBandwidth: 0
+      droneCapa: 0
       high: 5
       launcher: 3
       low: 2
       medium: 4
       powergrid: 38
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Manticore
   11172:
@@ -1588,11 +2141,16 @@ hulls:
       capacitor: 218.75
       capacitorTime: 187.5
       cpu: 290
+      droneBandwidth: 5
+      droneCapa: 5
       high: 2
       launcher: 0
       low: 3
       medium: 5
       powergrid: 20
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Helios
   11377:
@@ -1602,11 +2160,16 @@ hulls:
       capacitor: 355.0
       capacitorTime: 266.3
       cpu: 315
+      droneBandwidth: 0
+      droneCapa: 0
       high: 5
       launcher: 3
       low: 2
       medium: 4
       powergrid: 38
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Nemesis
   11182:
@@ -1616,11 +2179,16 @@ hulls:
       capacitor: 187.5
       capacitorTime: 187.5
       cpu: 275
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 1
       low: 3
       medium: 4
       powergrid: 15
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Cheetah
   12034:
@@ -1630,11 +2198,16 @@ hulls:
       capacitor: 285.0
       capacitorTime: 213.8
       cpu: 310
+      droneBandwidth: 0
+      droneCapa: 0
       high: 5
       launcher: 3
       low: 3
       medium: 3
       powergrid: 40
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Hound
   11371:
@@ -1644,11 +2217,16 @@ hulls:
       capacitor: 275.0
       capacitorTime: 187.5
       cpu: 135
+      droneBandwidth: 0
+      droneCapa: 0
       high: 5
       launcher: 1
       low: 5
       medium: 2
       powergrid: 48
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 4
     name: Wolf
   11400:
@@ -1658,11 +2236,16 @@ hulls:
       capacitor: 250.0
       capacitorTime: 187.5
       cpu: 170
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 1
       low: 4
       medium: 4
       powergrid: 43
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 3
     name: Jaguar
   11393:
@@ -1672,11 +2255,16 @@ hulls:
       capacitor: 437.5
       capacitorTime: 187.5
       cpu: 140
+      droneBandwidth: 0
+      droneCapa: 0
       high: 5
       launcher: 0
       low: 5
       medium: 2
       powergrid: 56
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 4
     name: Retribution
   11365:
@@ -1686,11 +2274,16 @@ hulls:
       capacitor: 375.0
       capacitorTime: 187.5
       cpu: 170
+      droneBandwidth: 0
+      droneCapa: 0
       high: 5
       launcher: 4
       low: 4
       medium: 3
       powergrid: 43
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 3
     name: Vengeance
   11381:
@@ -1700,11 +2293,16 @@ hulls:
       capacitor: 343.75
       capacitorTime: 187.5
       cpu: 185
+      droneBandwidth: 0
+      droneCapa: 0
       high: 5
       launcher: 1
       low: 3
       medium: 4
       powergrid: 50
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 4
     name: Harpy
   11379:
@@ -1714,11 +2312,16 @@ hulls:
       capacitor: 312.5
       capacitorTime: 187.5
       cpu: 190
+      droneBandwidth: 0
+      droneCapa: 0
       high: 5
       launcher: 4
       low: 2
       medium: 5
       powergrid: 45
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Hawk
   12042:
@@ -1728,11 +2331,16 @@ hulls:
       capacitor: 312.5
       capacitorTime: 187.5
       cpu: 155
+      droneBandwidth: 25
+      droneCapa: 25
       high: 4
       launcher: 0
       low: 4
       medium: 3
       powergrid: 42
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 3
     name: Ishkur
   12044:
@@ -1742,11 +2350,16 @@ hulls:
       capacitor: 343.75
       capacitorTime: 187.5
       cpu: 155
+      droneBandwidth: 5
+      droneCapa: 5
       high: 5
       launcher: 1
       low: 4
       medium: 3
       powergrid: 50
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 4
     name: Enyo
   11196:
@@ -1756,11 +2369,16 @@ hulls:
       capacitor: 285.0
       capacitorTime: 213.8
       cpu: 125
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 1
       low: 4
       medium: 2
       powergrid: 45
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 3
     name: Claw
   11198:
@@ -1770,11 +2388,16 @@ hulls:
       capacitor: 250.0
       capacitorTime: 187.5
       cpu: 150
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 1
       low: 3
       medium: 4
       powergrid: 30
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Stiletto
   11184:
@@ -1784,11 +2407,16 @@ hulls:
       capacitor: 415.0
       capacitorTime: 311.3
       cpu: 120
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 0
       low: 4
       medium: 2
       powergrid: 48
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 4
     name: Crusader
   11186:
@@ -1798,11 +2426,16 @@ hulls:
       capacitor: 355.0
       capacitorTime: 266.3
       cpu: 150
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 3
       low: 4
       medium: 3
       powergrid: 36
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 3
     name: Malediction
   11176:
@@ -1812,11 +2445,16 @@ hulls:
       capacitor: 315.0
       capacitorTime: 236.3
       cpu: 165
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 4
       low: 2
       medium: 4
       powergrid: 35
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 0
     name: Crow
   11178:
@@ -1826,11 +2464,16 @@ hulls:
       capacitor: 355.0
       capacitorTime: 266.3
       cpu: 160
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 1
       low: 3
       medium: 4
       powergrid: 38
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 3
     name: Raptor
   11200:
@@ -1840,11 +2483,16 @@ hulls:
       capacitor: 355.0
       capacitorTime: 266.3
       cpu: 150
+      droneBandwidth: 10
+      droneCapa: 10
       high: 4
       launcher: 0
       low: 3
       medium: 3
       powergrid: 35
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 3
     name: Taranis
   11202:
@@ -1854,11 +2502,16 @@ hulls:
       capacitor: 355.0
       capacitorTime: 266.3
       cpu: 145
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 1
       low: 4
       medium: 3
       powergrid: 33
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 3
     name: Ares
   11134:
@@ -1868,11 +2521,15 @@ hulls:
       capacitor: 250.0
       capacitorTime: 375.0
       cpu: 150
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 0
       powergrid: 25
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Amarr Shuttle
   11132:
@@ -1882,11 +2539,15 @@ hulls:
       capacitor: 250.0
       capacitorTime: 375.0
       cpu: 150
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 0
       powergrid: 25
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Minmatar Shuttle
   11129:
@@ -1896,11 +2557,15 @@ hulls:
       capacitor: 250.0
       capacitorTime: 375.0
       cpu: 150
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 0
       powergrid: 25
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Gallente Shuttle
   672:
@@ -1910,11 +2575,15 @@ hulls:
       capacitor: 250.0
       capacitorTime: 375.0
       cpu: 150
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 0
       powergrid: 25
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Caldari Shuttle
   21097:
@@ -1924,11 +2593,15 @@ hulls:
       capacitor: 250.0
       capacitorTime: 375.0
       cpu: 150
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 0
       powergrid: 25
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Goru's Shuttle
   21628:
@@ -1938,11 +2611,15 @@ hulls:
       capacitor: 250.0
       capacitorTime: 375.0
       cpu: 150
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 0
       powergrid: 25
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Guristas Shuttle
   17478:
@@ -1952,11 +2629,16 @@ hulls:
       capacitor: 250.0
       capacitorTime: 187.5
       cpu: 235
+      droneBandwidth: 25
+      droneCapa: 25
       high: 2
       launcher: 0
       low: 3
       medium: 1
       powergrid: 35
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Retriever
   17476:
@@ -1966,11 +2648,16 @@ hulls:
       capacitor: 312.5
       capacitorTime: 187.5
       cpu: 255
+      droneBandwidth: 50
+      droneCapa: 50
       high: 3
       launcher: 0
       low: 2
       medium: 1
       powergrid: 35
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Covetor
   17480:
@@ -1980,11 +2667,16 @@ hulls:
       capacitor: 800.0
       capacitorTime: 187.5
       cpu: 255
+      droneBandwidth: 25
+      droneCapa: 50
       high: 1
       launcher: 0
       low: 2
       medium: 4
       powergrid: 45
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Procurer
   22546:
@@ -1994,11 +2686,16 @@ hulls:
       capacitor: 900.0
       capacitorTime: 187.5
       cpu: 300
+      droneBandwidth: 50
+      droneCapa: 100
       high: 1
       launcher: 0
       low: 3
       medium: 5
       powergrid: 50
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 0
     name: Skiff
   22544:
@@ -2008,11 +2705,16 @@ hulls:
       capacitor: 625.0
       capacitorTime: 187.5
       cpu: 310
+      droneBandwidth: 50
+      droneCapa: 50
       high: 3
       launcher: 0
       low: 2
       medium: 4
       powergrid: 40
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 0
     name: Hulk
   22548:
@@ -2022,11 +2724,16 @@ hulls:
       capacitor: 500.0
       capacitorTime: 187.5
       cpu: 270
+      droneBandwidth: 50
+      droneCapa: 50
       high: 2
       launcher: 0
       low: 3
       medium: 4
       powergrid: 35
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 0
     name: Mackinaw
   33155:
@@ -2036,11 +2743,16 @@ hulls:
       capacitor: 3125.0
       capacitorTime: 822.0
       cpu: 410
+      droneBandwidth: 50
+      droneCapa: 50
       high: 7
       launcher: 0
       low: 6
       medium: 5
       powergrid: 1495
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 6
     name: Harbinger Navy Issue
   33157:
@@ -2050,11 +2762,16 @@ hulls:
       capacitor: 2250.0
       capacitorTime: 592.0
       cpu: 420
+      droneBandwidth: 30
+      droneCapa: 30
       high: 8
       launcher: 3
       low: 6
       medium: 4
       powergrid: 1350
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 6
     name: Hurricane Fleet Issue
   33151:
@@ -2064,11 +2781,16 @@ hulls:
       capacitor: 3000.0
       capacitorTime: 789.0
       cpu: 455
+      droneBandwidth: 50
+      droneCapa: 50
       high: 7
       launcher: 0
       low: 7
       medium: 4
       powergrid: 1235
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 6
     name: Brutix Navy Issue
   33153:
@@ -2078,11 +2800,16 @@ hulls:
       capacitor: 2500.0
       capacitorTime: 657.9
       cpu: 550
+      droneBandwidth: 25
+      droneCapa: 25
       high: 8
       launcher: 8
       low: 4
       medium: 6
       powergrid: 900
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Drake Navy Issue
   16233:
@@ -2092,11 +2819,16 @@ hulls:
       capacitor: 2850.0
       capacitorTime: 750.0
       cpu: 415
+      droneBandwidth: 75
+      droneCapa: 225
       high: 5
       launcher: 4
       low: 7
       medium: 4
       powergrid: 1100
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 4
     name: Prophecy
   24696:
@@ -2106,11 +2838,16 @@ hulls:
       capacitor: 3125.0
       capacitorTime: 822.0
       cpu: 375
+      droneBandwidth: 50
+      droneCapa: 75
       high: 7
       launcher: 0
       low: 6
       medium: 4
       powergrid: 1425
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 6
     name: Harbinger
   4302:
@@ -2120,11 +2857,16 @@ hulls:
       capacitor: 3500.0
       capacitorTime: 875.0
       cpu: 345
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 0
       low: 6
       medium: 3
       powergrid: 1375
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 8
     name: Oracle
   24698:
@@ -2134,11 +2876,16 @@ hulls:
       capacitor: 2500.0
       capacitorTime: 657.9
       cpu: 500
+      droneBandwidth: 25
+      droneCapa: 25
       high: 7
       launcher: 6
       low: 4
       medium: 6
       powergrid: 800
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Drake
   4306:
@@ -2148,11 +2895,16 @@ hulls:
       capacitor: 2900.0
       capacitorTime: 725.0
       cpu: 425
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 0
       low: 3
       medium: 6
       powergrid: 875
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 8
     name: Naga
   16227:
@@ -2162,11 +2914,16 @@ hulls:
       capacitor: 2750.0
       capacitorTime: 723.5
       cpu: 510
+      droneBandwidth: 25
+      droneCapa: 25
       high: 8
       launcher: 0
       low: 4
       medium: 5
       powergrid: 1250
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 7
     name: Ferox
   24700:
@@ -2176,11 +2933,16 @@ hulls:
       capacitor: 2850.0
       capacitorTime: 750.0
       cpu: 400
+      droneBandwidth: 100
+      droneCapa: 200
       high: 5
       launcher: 0
       low: 6
       medium: 5
       powergrid: 1050
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 5
     name: Myrmidon
   4308:
@@ -2190,11 +2952,16 @@ hulls:
       capacitor: 3100.0
       capacitorTime: 775.0
       cpu: 360
+      droneBandwidth: 25
+      droneCapa: 25
       high: 8
       launcher: 0
       low: 5
       medium: 4
       powergrid: 1100
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 8
     name: Talos
   16229:
@@ -2204,11 +2971,16 @@ hulls:
       capacitor: 3000.0
       capacitorTime: 789.0
       cpu: 435
+      droneBandwidth: 50
+      droneCapa: 50
       high: 7
       launcher: 0
       low: 6
       medium: 4
       powergrid: 1125
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 6
     name: Brutix
   16231:
@@ -2218,11 +2990,16 @@ hulls:
       capacitor: 2850.0
       capacitorTime: 750.0
       cpu: 525
+      droneBandwidth: 50
+      droneCapa: 50
       high: 7
       launcher: 5
       low: 5
       medium: 5
       powergrid: 1100
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 2
     name: Cyclone
   4310:
@@ -2232,11 +3009,16 @@ hulls:
       capacitor: 2700.0
       capacitorTime: 675.0
       cpu: 342
+      droneBandwidth: 0
+      droneCapa: 0
       high: 8
       launcher: 0
       low: 4
       medium: 5
       powergrid: 1000
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 8
     name: Tornado
   24702:
@@ -2246,11 +3028,16 @@ hulls:
       capacitor: 2250.0
       capacitorTime: 592.0
       cpu: 400
+      droneBandwidth: 30
+      droneCapa: 30
       high: 7
       launcher: 3
       low: 6
       medium: 4
       powergrid: 1125
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 6
     name: Hurricane
   22468:
@@ -2260,11 +3047,16 @@ hulls:
       capacitor: 2625.0
       capacitorTime: 583.3
       cpu: 525
+      droneBandwidth: 50
+      droneCapa: 75
       high: 7
       launcher: 5
       low: 4
       medium: 6
       powergrid: 1100
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 2
     name: Claymore
   22444:
@@ -2274,11 +3066,16 @@ hulls:
       capacitor: 2625.0
       capacitorTime: 583.3
       cpu: 475
+      droneBandwidth: 25
+      droneCapa: 25
       high: 7
       launcher: 2
       low: 5
       medium: 5
       powergrid: 1300
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 5
     name: Sleipnir
   22448:
@@ -2288,11 +3085,16 @@ hulls:
       capacitor: 3375.0
       capacitorTime: 750.0
       cpu: 400
+      droneBandwidth: 25
+      droneCapa: 25
       high: 7
       launcher: 0
       low: 7
       medium: 3
       powergrid: 1500
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 5
     name: Absolution
   22474:
@@ -2302,11 +3104,16 @@ hulls:
       capacitor: 3375.0
       capacitorTime: 750.0
       cpu: 500
+      droneBandwidth: 50
+      droneCapa: 100
       high: 7
       launcher: 5
       low: 6
       medium: 4
       powergrid: 1300
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 2
     name: Damnation
   22446:
@@ -2316,11 +3123,16 @@ hulls:
       capacitor: 3000.0
       capacitorTime: 666.7
       cpu: 545
+      droneBandwidth: 25
+      droneCapa: 25
       high: 7
       launcher: 2
       low: 4
       medium: 6
       powergrid: 1275
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 5
     name: Vulture
   22470:
@@ -2330,11 +3142,16 @@ hulls:
       capacitor: 2813.0
       capacitorTime: 625.0
       cpu: 560
+      droneBandwidth: 25
+      droneCapa: 25
       high: 7
       launcher: 5
       low: 5
       medium: 5
       powergrid: 1000
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 2
     name: Nighthawk
   22466:
@@ -2344,11 +3161,16 @@ hulls:
       capacitor: 3000.0
       capacitorTime: 666.7
       cpu: 440
+      droneBandwidth: 50
+      droneCapa: 75
       high: 7
       launcher: 2
       low: 6
       medium: 4
       powergrid: 1350
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 5
     name: Astarte
   22442:
@@ -2358,11 +3180,16 @@ hulls:
       capacitor: 2813.0
       capacitorTime: 625.0
       cpu: 425
+      droneBandwidth: 125
+      droneCapa: 250
       high: 6
       launcher: 0
       low: 6
       medium: 4
       powergrid: 1200
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 4
     name: Eos
   22428:
@@ -2372,11 +3199,16 @@ hulls:
       capacitor: 5313.0
       capacitorTime: 1087.5
       cpu: 505
+      droneBandwidth: 125
+      droneCapa: 125
       high: 8
       launcher: 0
       low: 7
       medium: 4
       powergrid: 17000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 2
       turret: 6
     name: Redeemer
   22436:
@@ -2386,11 +3218,16 @@ hulls:
       capacitor: 5313.0
       capacitorTime: 1087.5
       cpu: 760
+      droneBandwidth: 75
+      droneCapa: 75
       high: 7
       launcher: 5
       low: 4
       medium: 8
       powergrid: 8800
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 2
       turret: 0
     name: Widow
   22430:
@@ -2400,11 +3237,16 @@ hulls:
       capacitor: 5000.0
       capacitorTime: 1087.5
       cpu: 600
+      droneBandwidth: 125
+      droneCapa: 400
       high: 7
       launcher: 0
       low: 6
       medium: 6
       powergrid: 8800
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 2
       turret: 4
     name: Sin
   22440:
@@ -2414,11 +3256,16 @@ hulls:
       capacitor: 5000.0
       capacitorTime: 1087.5
       cpu: 510
+      droneBandwidth: 125
+      droneCapa: 175
       high: 8
       launcher: 0
       low: 6
       medium: 5
       powergrid: 12750
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 2
       turret: 5
     name: Panther
   28710:
@@ -2428,11 +3275,16 @@ hulls:
       capacitor: 6325.0
       capacitorTime: 1150.0
       cpu: 715
+      droneBandwidth: 25
+      droneCapa: 75
       high: 8
       launcher: 4
       low: 4
       medium: 7
       powergrid: 8500
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 2
       turret: 0
     name: Golem
   28661:
@@ -2442,11 +3294,16 @@ hulls:
       capacitor: 6900.0
       capacitorTime: 1150.0
       cpu: 580
+      droneBandwidth: 50
+      droneCapa: 125
       high: 8
       launcher: 0
       low: 7
       medium: 4
       powergrid: 14000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 2
       turret: 4
     name: Kronos
   28665:
@@ -2456,11 +3313,16 @@ hulls:
       capacitor: 6200.0
       capacitorTime: 1100.0
       cpu: 625
+      droneBandwidth: 50
+      droneCapa: 75
       high: 8
       launcher: 0
       low: 5
       medium: 6
       powergrid: 12900
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 2
       turret: 4
     name: Vargur
   28659:
@@ -2470,11 +3332,16 @@ hulls:
       capacitor: 7500.0
       capacitorTime: 1000.0
       cpu: 530
+      droneBandwidth: 25
+      droneCapa: 75
       high: 8
       launcher: 0
       low: 7
       medium: 4
       powergrid: 16000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 2
       turret: 4
     name: Paladin
   33820:
@@ -2484,11 +3351,16 @@ hulls:
       capacitor: 6100.0
       capacitorTime: 1154.9
       cpu: 730
+      droneBandwidth: 50
+      droneCapa: 75
       high: 8
       launcher: 7
       low: 6
       medium: 6
       powergrid: 11600
+      rigCalibration: 350
+      rigSize: Large
+      rigSlots: 3
       turret: 0
     name: Barghest
   17918:
@@ -2498,11 +3370,16 @@ hulls:
       capacitor: 5350.0
       capacitorTime: 1154.0
       cpu: 710
+      droneBandwidth: 50
+      droneCapa: 175
       high: 6
       launcher: 5
       low: 6
       medium: 7
       powergrid: 10000
+      rigCalibration: 350
+      rigSize: Large
+      rigSlots: 3
       turret: 0
     name: Rattlesnake
   17740:
@@ -2512,11 +3389,16 @@ hulls:
       capacitor: 6330.0
       capacitorTime: 1154.0
       cpu: 630
+      droneBandwidth: 125
+      droneCapa: 125
       high: 8
       launcher: 0
       low: 7
       medium: 5
       powergrid: 17500
+      rigCalibration: 350
+      rigSize: Large
+      rigSlots: 3
       turret: 8
     name: Vindicator
   17736:
@@ -2526,11 +3408,16 @@ hulls:
       capacitor: 6950.0
       capacitorTime: 1154.0
       cpu: 710
+      droneBandwidth: 75
+      droneCapa: 75
       high: 6
       launcher: 0
       low: 6
       medium: 7
       powergrid: 14500
+      rigCalibration: 350
+      rigSize: Large
+      rigSlots: 3
       turret: 4
     name: Nightmare
   17920:
@@ -2540,11 +3427,16 @@ hulls:
       capacitor: 7500.0
       capacitorTime: 1154.0
       cpu: 588
+      droneBandwidth: 100
+      droneCapa: 150
       high: 7
       launcher: 0
       low: 7
       medium: 5
       powergrid: 18400
+      rigCalibration: 350
+      rigSize: Large
+      rigSlots: 3
       turret: 4
     name: Bhaalgorn
   33472:
@@ -2554,11 +3446,16 @@ hulls:
       capacitor: 7000.0
       capacitorTime: 1025.0
       cpu: 680
+      droneBandwidth: 125
+      droneCapa: 500
       high: 7
       launcher: 0
       low: 6
       medium: 6
       powergrid: 11250
+      rigCalibration: 350
+      rigSize: Large
+      rigSlots: 3
       turret: 5
     name: Nestor
   17738:
@@ -2568,11 +3465,16 @@ hulls:
       capacitor: 5800.0
       capacitorTime: 1154.0
       cpu: 600
+      droneBandwidth: 100
+      droneCapa: 125
       high: 8
       launcher: 0
       low: 7
       medium: 5
       powergrid: 17950
+      rigCalibration: 350
+      rigSize: Large
+      rigSlots: 3
       turret: 7
     name: Machariel
   34151:
@@ -2582,11 +3484,16 @@ hulls:
       capacitor: 5350.0
       capacitorTime: 1154.0
       cpu: 710
+      droneBandwidth: 50
+      droneCapa: 175
       high: 6
       launcher: 5
       low: 6
       medium: 7
       powergrid: 10000
+      rigCalibration: 350
+      rigSize: Large
+      rigSlots: 3
       turret: 0
     name: Rattlesnake Victory Edition
   17732:
@@ -2596,11 +3503,16 @@ hulls:
       capacitor: 5500.0
       capacitorTime: 1150.0
       cpu: 580
+      droneBandwidth: 75
+      droneCapa: 100
       high: 8
       launcher: 4
       low: 7
       medium: 5
       powergrid: 17500
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 6
     name: Tempest Fleet Issue
   32311:
@@ -2610,11 +3522,16 @@ hulls:
       capacitor: 5800.0
       capacitorTime: 1100.0
       cpu: 660
+      droneBandwidth: 125
+      droneCapa: 200
       high: 8
       launcher: 6
       low: 7
       medium: 5
       powergrid: 13000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 6
     name: Typhoon Fleet Issue
   17636:
@@ -2624,11 +3541,16 @@ hulls:
       capacitor: 5900.0
       capacitorTime: 1150.0
       cpu: 780
+      droneBandwidth: 75
+      droneCapa: 100
       high: 8
       launcher: 8
       low: 5
       medium: 7
       powergrid: 12000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 0
     name: Raven Navy Issue
   32309:
@@ -2638,11 +3560,16 @@ hulls:
       capacitor: 5500.0
       capacitorTime: 1100.0
       cpu: 780
+      droneBandwidth: 75
+      droneCapa: 75
       high: 7
       launcher: 6
       low: 5
       medium: 8
       powergrid: 11000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 4
     name: Scorpion Navy Issue
   32305:
@@ -2652,11 +3579,16 @@ hulls:
       capacitor: 6000.0
       capacitorTime: 1100.0
       cpu: 560
+      droneBandwidth: 125
+      droneCapa: 200
       high: 8
       launcher: 0
       low: 8
       medium: 4
       powergrid: 17500
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 7
     name: Armageddon Navy Issue
   17728:
@@ -2666,11 +3598,16 @@ hulls:
       capacitor: 6000.0
       capacitorTime: 1150.0
       cpu: 630
+      droneBandwidth: 125
+      droneCapa: 175
       high: 8
       launcher: 1
       low: 8
       medium: 4
       powergrid: 16275
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 7
     name: Megathron Navy Issue
   17726:
@@ -2680,11 +3617,16 @@ hulls:
       capacitor: 7000.0
       capacitorTime: 1000.0
       cpu: 580
+      droneBandwidth: 75
+      droneCapa: 100
       high: 8
       launcher: 0
       low: 8
       medium: 4
       powergrid: 22000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 8
     name: Apocalypse Navy Issue
   32307:
@@ -2694,11 +3636,16 @@ hulls:
       capacitor: 5500.0
       capacitorTime: 1100.0
       cpu: 660
+      droneBandwidth: 125
+      droneCapa: 400
       high: 6
       launcher: 0
       low: 7
       medium: 6
       powergrid: 11000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 6
     name: Dominix Navy Issue
   645:
@@ -2708,11 +3655,16 @@ hulls:
       capacitor: 6000.0
       capacitorTime: 1100.0
       cpu: 600
+      droneBandwidth: 125
+      droneCapa: 375
       high: 6
       launcher: 0
       low: 7
       medium: 5
       powergrid: 10000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 6
     name: Dominix
   641:
@@ -2722,11 +3674,16 @@ hulls:
       capacitor: 6000.0
       capacitorTime: 1150.0
       cpu: 600
+      droneBandwidth: 75
+      droneCapa: 75
       high: 7
       launcher: 0
       low: 8
       medium: 4
       powergrid: 15500
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 7
     name: Megathron
   24690:
@@ -2736,11 +3693,16 @@ hulls:
       capacitor: 7200.0
       capacitorTime: 1500.0
       cpu: 600
+      droneBandwidth: 125
+      droneCapa: 175
       high: 7
       launcher: 1
       low: 7
       medium: 5
       powergrid: 16000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 6
     name: Hyperion
   24688:
@@ -2750,11 +3712,16 @@ hulls:
       capacitor: 6000.0
       capacitorTime: 1250.0
       cpu: 780
+      droneBandwidth: 50
+      droneCapa: 50
       high: 8
       launcher: 4
       low: 5
       medium: 6
       powergrid: 15000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 8
     name: Rokh
   640:
@@ -2764,11 +3731,16 @@ hulls:
       capacitor: 5500.0
       capacitorTime: 1100.0
       cpu: 750
+      droneBandwidth: 75
+      droneCapa: 75
       high: 5
       launcher: 4
       low: 5
       medium: 8
       powergrid: 9000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 4
     name: Scorpion
   638:
@@ -2778,11 +3750,16 @@ hulls:
       capacitor: 5500.0
       capacitorTime: 1150.0
       cpu: 750
+      droneBandwidth: 50
+      droneCapa: 75
       high: 7
       launcher: 6
       low: 5
       medium: 7
       powergrid: 11000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 4
     name: Raven
   644:
@@ -2792,11 +3769,16 @@ hulls:
       capacitor: 5400.0
       capacitorTime: 1100.0
       cpu: 640
+      droneBandwidth: 100
+      droneCapa: 125
       high: 7
       launcher: 6
       low: 7
       medium: 5
       powergrid: 12500
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 6
     name: Typhoon
   24694:
@@ -2806,11 +3788,16 @@ hulls:
       capacitor: 6000.0
       capacitorTime: 1250.0
       cpu: 640
+      droneBandwidth: 100
+      droneCapa: 100
       high: 8
       launcher: 0
       low: 5
       medium: 6
       powergrid: 21000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 8
     name: Maelstrom
   639:
@@ -2820,11 +3807,16 @@ hulls:
       capacitor: 5400.0
       capacitorTime: 1150.0
       cpu: 550
+      droneBandwidth: 75
+      droneCapa: 75
       high: 8
       launcher: 4
       low: 6
       medium: 5
       powergrid: 16000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 6
     name: Tempest
   643:
@@ -2834,11 +3826,16 @@ hulls:
       capacitor: 6200.0
       capacitorTime: 1100.0
       cpu: 550
+      droneBandwidth: 125
+      droneCapa: 375
       high: 7
       launcher: 5
       low: 7
       medium: 4
       powergrid: 13500
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 5
     name: Armageddon
   642:
@@ -2848,11 +3845,16 @@ hulls:
       capacitor: 7000.0
       capacitorTime: 1000.0
       cpu: 540
+      droneBandwidth: 50
+      droneCapa: 75
       high: 8
       launcher: 0
       low: 7
       medium: 4
       powergrid: 21000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 8
     name: Apocalypse
   24692:
@@ -2862,11 +3864,16 @@ hulls:
       capacitor: 6375.0
       capacitorTime: 1250.0
       cpu: 560
+      droneBandwidth: 75
+      droneCapa: 75
       high: 8
       launcher: 1
       low: 7
       medium: 4
       powergrid: 21000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 8
     name: Abaddon
   634:
@@ -2876,11 +3883,16 @@ hulls:
       capacitor: 1375.0
       capacitorTime: 264.0
       cpu: 275
+      droneBandwidth: 50
+      droneCapa: 50
       high: 3
       launcher: 0
       low: 6
       medium: 4
       powergrid: 610
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 3
     name: Exequror
   633:
@@ -2890,11 +3902,16 @@ hulls:
       capacitor: 1300.0
       capacitorTime: 463.0
       cpu: 375
+      droneBandwidth: 50
+      droneCapa: 50
       high: 3
       launcher: 3
       low: 5
       medium: 5
       powergrid: 575
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 3
     name: Celestis
   627:
@@ -2904,11 +3921,16 @@ hulls:
       capacitor: 1450.0
       capacitorTime: 517.0
       cpu: 330
+      droneBandwidth: 50
+      droneCapa: 50
       high: 5
       launcher: 0
       low: 5
       medium: 4
       powergrid: 820
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 5
     name: Thorax
   626:
@@ -2918,11 +3940,16 @@ hulls:
       capacitor: 1450.0
       capacitorTime: 482.5
       cpu: 300
+      droneBandwidth: 75
+      droneCapa: 125
       high: 4
       launcher: 0
       low: 5
       medium: 4
       powergrid: 800
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 4
     name: Vexor
   624:
@@ -2932,11 +3959,16 @@ hulls:
       capacitor: 1625.0
       capacitorTime: 465.0
       cpu: 300
+      droneBandwidth: 15
+      droneCapa: 15
       high: 5
       launcher: 0
       low: 6
       medium: 3
       powergrid: 1150
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 5
     name: Maller
   2006:
@@ -2946,11 +3978,16 @@ hulls:
       capacitor: 1475.0
       capacitorTime: 526.0
       cpu: 315
+      droneBandwidth: 40
+      droneCapa: 40
       high: 5
       launcher: 0
       low: 6
       medium: 3
       powergrid: 925
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 5
     name: Omen
   628:
@@ -2960,11 +3997,16 @@ hulls:
       capacitor: 1375.0
       capacitorTime: 490.0
       cpu: 325
+      droneBandwidth: 50
+      droneCapa: 150
       high: 4
       launcher: 2
       low: 5
       medium: 4
       powergrid: 575
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 2
     name: Arbitrator
   625:
@@ -2974,11 +4016,16 @@ hulls:
       capacitor: 1500.0
       capacitorTime: 300.0
       cpu: 275
+      droneBandwidth: 20
+      droneCapa: 20
       high: 5
       launcher: 0
       low: 5
       medium: 3
       powergrid: 650
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 3
     name: Augoror
   623:
@@ -2988,11 +4035,16 @@ hulls:
       capacitor: 1550.0
       capacitorTime: 490.0
       cpu: 380
+      droneBandwidth: 15
+      droneCapa: 15
       high: 5
       launcher: 0
       low: 4
       medium: 5
       powergrid: 850
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 5
     name: Moa
   632:
@@ -3002,11 +4054,16 @@ hulls:
       capacitor: 1250.0
       capacitorTime: 445.0
       cpu: 425
+      droneBandwidth: 10
+      droneCapa: 10
       high: 4
       launcher: 3
       low: 3
       medium: 6
       powergrid: 525
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 3
     name: Blackbird
   621:
@@ -3016,11 +4073,16 @@ hulls:
       capacitor: 1250.0
       capacitorTime: 445.0
       cpu: 430
+      droneBandwidth: 10
+      droneCapa: 10
       high: 5
       launcher: 5
       low: 4
       medium: 5
       powergrid: 630
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Caracal
   620:
@@ -3030,11 +4092,16 @@ hulls:
       capacitor: 1375.0
       capacitorTime: 275.0
       cpu: 410
+      droneBandwidth: 20
+      droneCapa: 20
       high: 5
       launcher: 2
       low: 3
       medium: 5
       powergrid: 425
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Osprey
   622:
@@ -3044,11 +4111,16 @@ hulls:
       capacitor: 1200.0
       capacitorTime: 427.5
       cpu: 340
+      droneBandwidth: 25
+      droneCapa: 25
       high: 6
       launcher: 2
       low: 4
       medium: 4
       powergrid: 715
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 4
     name: Stabber
   630:
@@ -3058,11 +4130,16 @@ hulls:
       capacitor: 1200.0
       capacitorTime: 427.5
       cpu: 360
+      droneBandwidth: 40
+      droneCapa: 40
       high: 4
       launcher: 4
       low: 4
       medium: 5
       powergrid: 575
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Bellicose
   631:
@@ -3072,11 +4149,16 @@ hulls:
       capacitor: 1250.0
       capacitorTime: 240.0
       cpu: 315
+      droneBandwidth: 45
+      droneCapa: 45
       high: 3
       launcher: 1
       low: 5
       medium: 5
       powergrid: 310
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 2
     name: Scythe
   629:
@@ -3086,11 +4168,16 @@ hulls:
       capacitor: 1275.0
       capacitorTime: 425.0
       cpu: 350
+      droneBandwidth: 30
+      droneCapa: 30
       high: 5
       launcher: 1
       low: 5
       medium: 4
       powergrid: 860
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 4
     name: Rupture
   12003:
@@ -3100,11 +4187,16 @@ hulls:
       capacitor: 1500.0
       capacitorTime: 285.0
       cpu: 340
+      droneBandwidth: 0
+      droneCapa: 0
       high: 5
       launcher: 0
       low: 7
       medium: 3
       powergrid: 1180
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 5
     name: Zealot
   12019:
@@ -3114,11 +4206,16 @@ hulls:
       capacitor: 1700.0
       capacitorTime: 255.0
       cpu: 420
+      droneBandwidth: 50
+      droneCapa: 50
       high: 6
       launcher: 5
       low: 5
       medium: 4
       powergrid: 1100
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 1
     name: Sacrilege
   12011:
@@ -3128,11 +4225,16 @@ hulls:
       capacitor: 1350.0
       capacitorTime: 255.0
       cpu: 440
+      droneBandwidth: 0
+      droneCapa: 0
       high: 5
       launcher: 1
       low: 4
       medium: 6
       powergrid: 990
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 5
     name: Eagle
   11993:
@@ -3142,11 +4244,16 @@ hulls:
       capacitor: 1200.0
       capacitorTime: 235.0
       cpu: 520
+      droneBandwidth: 15
+      droneCapa: 15
       high: 6
       launcher: 6
       low: 4
       medium: 5
       powergrid: 800
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 0
     name: Cerberus
   12023:
@@ -3156,11 +4263,16 @@ hulls:
       capacitor: 1400.0
       capacitorTime: 225.0
       cpu: 360
+      droneBandwidth: 50
+      droneCapa: 50
       high: 5
       launcher: 0
       low: 6
       medium: 4
       powergrid: 1050
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 5
     name: Deimos
   12005:
@@ -3170,11 +4282,16 @@ hulls:
       capacitor: 1400.0
       capacitorTime: 265.0
       cpu: 340
+      droneBandwidth: 125
+      droneCapa: 375
       high: 4
       launcher: 0
       low: 5
       medium: 5
       powergrid: 780
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 4
     name: Ishtar
   11999:
@@ -3184,11 +4301,16 @@ hulls:
       capacitor: 1200.0
       capacitorTime: 245.0
       cpu: 400
+      droneBandwidth: 25
+      droneCapa: 25
       high: 6
       launcher: 1
       low: 5
       medium: 4
       powergrid: 900
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 5
     name: Vagabond
   12015:
@@ -3198,11 +4320,16 @@ hulls:
       capacitor: 1300.0
       capacitorTime: 255.0
       cpu: 355
+      droneBandwidth: 25
+      droneCapa: 25
       high: 6
       launcher: 1
       low: 6
       medium: 3
       powergrid: 1160
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 5
     name: Muninn
   11987:
@@ -3212,11 +4339,16 @@ hulls:
       capacitor: 1500.0
       capacitorTime: 335.0
       cpu: 310
+      droneBandwidth: 25
+      droneCapa: 25
       high: 6
       launcher: 0
       low: 5
       medium: 2
       powergrid: 1075
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 3
     name: Guardian
   11985:
@@ -3226,11 +4358,16 @@ hulls:
       capacitor: 1375.0
       capacitorTime: 301.3
       cpu: 510
+      droneBandwidth: 25
+      droneCapa: 25
       high: 6
       launcher: 2
       low: 2
       medium: 5
       powergrid: 825
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 1
     name: Basilisk
   11989:
@@ -3240,11 +4377,16 @@ hulls:
       capacitor: 1375.0
       capacitorTime: 306.9
       cpu: 370
+      droneBandwidth: 50
+      droneCapa: 50
       high: 4
       launcher: 0
       low: 5
       medium: 4
       powergrid: 1050
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 2
     name: Oneiros
   11978:
@@ -3254,11 +4396,16 @@ hulls:
       capacitor: 1250.0
       capacitorTime: 278.8
       cpu: 495
+      droneBandwidth: 45
+      droneCapa: 45
       high: 4
       launcher: 1
       low: 4
       medium: 5
       powergrid: 550
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 2
     name: Scimitar
   11969:
@@ -3268,11 +4415,16 @@ hulls:
       capacitor: 1290.0
       capacitorTime: 324.0
       cpu: 420
+      droneBandwidth: 40
+      droneCapa: 40
       high: 4
       launcher: 1
       low: 4
       medium: 6
       powergrid: 750
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 3
     name: Arazu
   11971:
@@ -3282,11 +4434,16 @@ hulls:
       capacitor: 1315.0
       capacitorTime: 323.0
       cpu: 450
+      droneBandwidth: 50
+      droneCapa: 50
       high: 4
       launcher: 1
       low: 4
       medium: 7
       powergrid: 850
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 4
     name: Lachesis
   11961:
@@ -3296,11 +4453,16 @@ hulls:
       capacitor: 1210.0
       capacitorTime: 330.0
       cpu: 400
+      droneBandwidth: 40
+      droneCapa: 40
       high: 5
       launcher: 1
       low: 4
       medium: 6
       powergrid: 750
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 4
     name: Huginn
   11963:
@@ -3310,11 +4472,16 @@ hulls:
       capacitor: 1180.0
       capacitorTime: 331.0
       cpu: 480
+      droneBandwidth: 40
+      droneCapa: 40
       high: 4
       launcher: 3
       low: 4
       medium: 6
       powergrid: 750
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 1
     name: Rapier
   20125:
@@ -3324,11 +4491,16 @@ hulls:
       capacitor: 1470.0
       capacitorTime: 329.0
       cpu: 380
+      droneBandwidth: 50
+      droneCapa: 150
       high: 5
       launcher: 4
       low: 4
       medium: 6
       powergrid: 900
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 2
     name: Curse
   11965:
@@ -3338,11 +4510,16 @@ hulls:
       capacitor: 1440.0
       capacitorTime: 328.0
       cpu: 370
+      droneBandwidth: 50
+      droneCapa: 150
       high: 4
       launcher: 0
       low: 5
       medium: 5
       powergrid: 1000
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 3
     name: Pilgrim
   11957:
@@ -3352,11 +4529,16 @@ hulls:
       capacitor: 1190.0
       capacitorTime: 321.0
       cpu: 500
+      droneBandwidth: 10
+      droneCapa: 10
       high: 4
       launcher: 1
       low: 3
       medium: 7
       powergrid: 700
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 3
     name: Falcon
   11959:
@@ -3366,11 +4548,16 @@ hulls:
       capacitor: 1250.0
       capacitorTime: 318.0
       cpu: 600
+      droneBandwidth: 25
+      droneCapa: 25
       high: 5
       launcher: 5
       low: 3
       medium: 7
       powergrid: 680
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 2
     name: Rook
   29984:
@@ -3380,11 +4567,16 @@ hulls:
       capacitor: 100.0
       capacitorTime: 10.0
       cpu: 0
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 0
       powergrid: 0
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Tengu
   29988:
@@ -3394,11 +4586,16 @@ hulls:
       capacitor: 100.0
       capacitorTime: 10.0
       cpu: 0
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 0
       powergrid: 0
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Proteus
   29990:
@@ -3408,11 +4605,16 @@ hulls:
       capacitor: 100.0
       capacitorTime: 10.0
       cpu: 0
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 0
       powergrid: 0
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Loki
   29986:
@@ -3422,11 +4624,16 @@ hulls:
       capacitor: 100.0
       capacitorTime: 10.0
       cpu: 0
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 0
       powergrid: 0
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Legion
   12017:
@@ -3436,11 +4643,16 @@ hulls:
       capacitor: 1625.0
       capacitorTime: 335.0
       cpu: 368
+      droneBandwidth: 25
+      droneCapa: 50
       high: 6
       launcher: 0
       low: 7
       medium: 3
       powergrid: 1265
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 5
     name: Devoter
   11995:
@@ -3450,11 +4662,16 @@ hulls:
       capacitor: 1250.0
       capacitorTime: 335.0
       cpu: 560
+      droneBandwidth: 0
+      droneCapa: 0
       high: 6
       launcher: 5
       low: 4
       medium: 6
       powergrid: 900
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 0
     name: Onyx
   12021:
@@ -3464,11 +4681,16 @@ hulls:
       capacitor: 1375.0
       capacitorTime: 335.0
       cpu: 375
+      droneBandwidth: 0
+      droneCapa: 0
       high: 6
       launcher: 0
       low: 6
       medium: 4
       powergrid: 1165
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 5
     name: Phobos
   12013:
@@ -3478,11 +4700,16 @@ hulls:
       capacitor: 1250.0
       capacitorTime: 335.0
       cpu: 392
+      droneBandwidth: 0
+      droneCapa: 0
       high: 6
       launcher: 3
       low: 4
       medium: 6
       powergrid: 1010
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 5
     name: Broadsword
   29344:
@@ -3492,11 +4719,16 @@ hulls:
       capacitor: 1500.0
       capacitorTime: 490.0
       cpu: 340
+      droneBandwidth: 25
+      droneCapa: 25
       high: 5
       launcher: 0
       low: 6
       medium: 4
       powergrid: 830
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 5
     name: Exequror Navy Issue
   17709:
@@ -3506,11 +4738,16 @@ hulls:
       capacitor: 1650.0
       capacitorTime: 520.0
       cpu: 335
+      droneBandwidth: 50
+      droneCapa: 50
       high: 5
       launcher: 0
       low: 7
       medium: 3
       powergrid: 960
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 4
     name: Omen Navy Issue
   29336:
@@ -3520,11 +4757,16 @@ hulls:
       capacitor: 1275.0
       capacitorTime: 425.0
       cpu: 400
+      droneBandwidth: 25
+      droneCapa: 25
       high: 5
       launcher: 4
       low: 5
       medium: 5
       powergrid: 745
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 4
     name: Scythe Fleet Issue
   29337:
@@ -3534,11 +4776,16 @@ hulls:
       capacitor: 1500.0
       capacitorTime: 475.0
       cpu: 320
+      droneBandwidth: 15
+      droneCapa: 15
       high: 5
       launcher: 0
       low: 7
       medium: 3
       powergrid: 1150
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 3
     name: Augoror Navy Issue
   17713:
@@ -3548,11 +4795,16 @@ hulls:
       capacitor: 1275.0
       capacitorTime: 425.0
       cpu: 310
+      droneBandwidth: 40
+      droneCapa: 40
       high: 5
       launcher: 3
       low: 6
       medium: 4
       powergrid: 950
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 5
     name: Stabber Fleet Issue
   17634:
@@ -3562,11 +4814,16 @@ hulls:
       capacitor: 1450.0
       capacitorTime: 482.5
       cpu: 465
+      droneBandwidth: 0
+      droneCapa: 0
       high: 6
       launcher: 6
       low: 4
       medium: 5
       powergrid: 715
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Caracal Navy Issue
   17843:
@@ -3576,11 +4833,16 @@ hulls:
       capacitor: 1500.0
       capacitorTime: 490.0
       cpu: 310
+      droneBandwidth: 125
+      droneCapa: 200
       high: 4
       launcher: 0
       low: 6
       medium: 4
       powergrid: 800
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 2
     name: Vexor Navy Issue
   29340:
@@ -3590,11 +4852,16 @@ hulls:
       capacitor: 1450.0
       capacitorTime: 482.5
       cpu: 450
+      droneBandwidth: 10
+      droneCapa: 10
       high: 5
       launcher: 4
       low: 4
       medium: 6
       powergrid: 630
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 2
     name: Osprey Navy Issue
   17720:
@@ -3604,11 +4871,16 @@ hulls:
       capacitor: 1415.0
       capacitorTime: 490.0
       cpu: 335
+      droneBandwidth: 50
+      droneCapa: 50
       high: 5
       launcher: 0
       low: 5
       medium: 5
       powergrid: 980
+      rigCalibration: 350
+      rigSize: Medium
+      rigSlots: 3
       turret: 4
     name: Cynabal
   17922:
@@ -3618,11 +4890,16 @@ hulls:
       capacitor: 1850.0
       capacitorTime: 530.0
       cpu: 350
+      droneBandwidth: 40
+      droneCapa: 40
       high: 5
       launcher: 0
       low: 6
       medium: 4
       powergrid: 1300
+      rigCalibration: 350
+      rigSize: Medium
+      rigSlots: 3
       turret: 3
     name: Ashimmu
   33470:
@@ -3632,11 +4909,16 @@ hulls:
       capacitor: 1700.0
       capacitorTime: 456.0
       cpu: 400
+      droneBandwidth: 100
+      droneCapa: 400
       high: 5
       launcher: 0
       low: 5
       medium: 5
       powergrid: 920
+      rigCalibration: 350
+      rigSize: Medium
+      rigSlots: 3
       turret: 4
     name: Stratios
   33818:
@@ -3646,11 +4928,16 @@ hulls:
       capacitor: 1550.0
       capacitorTime: 490.0
       cpu: 460
+      droneBandwidth: 25
+      droneCapa: 25
       high: 6
       launcher: 5
       low: 4
       medium: 5
       powergrid: 900
+      rigCalibration: 350
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Orthrus
   17722:
@@ -3660,11 +4947,16 @@ hulls:
       capacitor: 1545.0
       capacitorTime: 490.0
       cpu: 360
+      droneBandwidth: 50
+      droneCapa: 50
       high: 5
       launcher: 0
       low: 6
       medium: 4
       powergrid: 1050
+      rigCalibration: 350
+      rigSize: Medium
+      rigSlots: 3
       turret: 5
     name: Vigilant
   17718:
@@ -3674,11 +4966,16 @@ hulls:
       capacitor: 1800.0
       capacitorTime: 495.0
       cpu: 380
+      droneBandwidth: 15
+      droneCapa: 15
       high: 4
       launcher: 0
       low: 5
       medium: 6
       powergrid: 890
+      rigCalibration: 350
+      rigSize: Medium
+      rigSlots: 3
       turret: 3
     name: Phantasm
   17715:
@@ -3688,11 +4985,16 @@ hulls:
       capacitor: 1400.0
       capacitorTime: 490.0
       cpu: 400
+      droneBandwidth: 20
+      droneCapa: 100
       high: 5
       launcher: 4
       low: 4
       medium: 6
       powergrid: 670
+      rigCalibration: 350
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Gila
   33675:
@@ -3702,11 +5004,16 @@ hulls:
       capacitor: 1000.0
       capacitorTime: 333.3
       cpu: 600
+      droneBandwidth: 20
+      droneCapa: 150
       high: 4
       launcher: 3
       low: 4
       medium: 7
       powergrid: 475
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 0
     name: Chameleon
   33395:
@@ -3716,11 +5023,16 @@ hulls:
       capacitor: 1415.0
       capacitorTime: 460.0
       cpu: 400
+      droneBandwidth: 25
+      droneCapa: 50
       high: 4
       launcher: 1
       low: 5
       medium: 6
       powergrid: 850
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 3
     name: Moracha
   33397:
@@ -3730,11 +5042,16 @@ hulls:
       capacitor: 365.0
       capacitorTime: 250.0
       cpu: 275
+      droneBandwidth: 15
+      droneCapa: 30
       high: 3
       launcher: 1
       low: 3
       medium: 5
       powergrid: 45
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 2
     name: Chremoas
   29266:
@@ -3744,11 +5061,15 @@ hulls:
       capacitor: 250.0
       capacitorTime: 375.0
       cpu: 150
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 0
       powergrid: 25
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Apotheosis
   33513:
@@ -3758,11 +5079,15 @@ hulls:
       capacitor: 250.0
       capacitorTime: 375.0
       cpu: 150
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 0
       powergrid: 25
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Leopard
   34496:
@@ -3772,11 +5097,15 @@ hulls:
       capacitor: 250.0
       capacitorTime: 375.0
       cpu: 150
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 0
       powergrid: 25
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Council Diplomatic Shuttle
   30842:
@@ -3786,11 +5115,15 @@ hulls:
       capacitor: 250.0
       capacitorTime: 375.0
       cpu: 150
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 0
       powergrid: 25
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: InterBus Shuttle
   33079:
@@ -3800,11 +5133,15 @@ hulls:
       capacitor: 210.0
       capacitorTime: 70.0
       cpu: 105
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 2
       medium: 3
       powergrid: 30
+      rigCalibration: 0
+      rigSlots: 0
       turret: 1
     name: Hematos
   11940:
@@ -3814,11 +5151,16 @@ hulls:
       capacitor: 781.25
       capacitorTime: 450.0
       cpu: 225
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 0
       low: 5
       medium: 4
       powergrid: 65
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 3
     name: Gold Magnate
   3532:
@@ -3828,11 +5170,15 @@ hulls:
       capacitor: 187.5
       capacitorTime: 140.6
       cpu: 0
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 0
       medium: 1
       powergrid: 0
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Echelon
   617:
@@ -3842,11 +5188,15 @@ hulls:
       capacitor: 125.0
       capacitorTime: 62.5
       cpu: 105
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 1
       low: 2
       medium: 3
       powergrid: 22
+      rigCalibration: 0
+      rigSlots: 0
       turret: 2
     name: Echo
   33081:
@@ -3856,11 +5206,15 @@ hulls:
       capacitor: 130.0
       capacitorTime: 65.0
       cpu: 115
+      droneBandwidth: 15
+      droneCapa: 15
       high: 2
       launcher: 2
       low: 2
       medium: 3
       powergrid: 23
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Taipan
   11942:
@@ -3870,11 +5224,16 @@ hulls:
       capacitor: 562.5
       capacitorTime: 350.0
       cpu: 200
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 0
       low: 4
       medium: 4
       powergrid: 60
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 3
       turret: 3
     name: Silver Magnate
   2078:
@@ -3884,11 +5243,15 @@ hulls:
       capacitor: 250.0
       capacitorTime: 375.0
       cpu: 0
+      droneBandwidth: 0
+      droneCapa: 0
       high: 1
       launcher: 0
       low: 0
       medium: 0
       powergrid: 0
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Zephyr
   615:
@@ -3898,11 +5261,15 @@ hulls:
       capacitor: 175.0
       capacitorTime: 70.0
       cpu: 125
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 2
       medium: 3
       powergrid: 27
+      rigCalibration: 0
+      rigSlots: 0
       turret: 1
     name: Immolator
   33083:
@@ -3912,11 +5279,15 @@ hulls:
       capacitor: 150.0
       capacitorTime: 67.5
       cpu: 110
+      droneBandwidth: 0
+      droneCapa: 0
       high: 2
       launcher: 0
       low: 3
       medium: 2
       powergrid: 24
+      rigCalibration: 0
+      rigSlots: 0
       turret: 2
     name: Violator
   11936:
@@ -3926,11 +5297,16 @@ hulls:
       capacitor: 6600.0
       capacitorTime: 1250.0
       cpu: 550
+      droneBandwidth: 125
+      droneCapa: 125
       high: 8
       launcher: 0
       low: 8
       medium: 5
       powergrid: 23400
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 8
     name: Apocalypse Imperial Issue
   11938:
@@ -3940,11 +5316,16 @@ hulls:
       capacitor: 6640.0
       capacitorTime: 1150.0
       cpu: 550
+      droneBandwidth: 125
+      droneCapa: 150
       high: 8
       launcher: 0
       low: 8
       medium: 4
       powergrid: 21000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 7
     name: Armageddon Imperial Issue
   26840:
@@ -3954,11 +5335,16 @@ hulls:
       capacitor: 5250.0
       capacitorTime: 923.9
       cpu: 770
+      droneBandwidth: 125
+      droneCapa: 150
       high: 8
       launcher: 8
       low: 6
       medium: 6
       powergrid: 11400
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 2
     name: Raven State Issue
   13202:
@@ -3968,11 +5354,16 @@ hulls:
       capacitor: 6187.0
       capacitorTime: 1200.0
       cpu: 600
+      droneBandwidth: 125
+      droneCapa: 175
       high: 8
       launcher: 2
       low: 8
       medium: 5
       powergrid: 18600
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 8
     name: Megathron Federate Issue
   26842:
@@ -3982,11 +5373,16 @@ hulls:
       capacitor: 5843.0
       capacitorTime: 923.9
       cpu: 600
+      droneBandwidth: 125
+      droneCapa: 125
       high: 8
       launcher: 2
       low: 7
       medium: 6
       powergrid: 18600
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 8
     name: Tempest Tribal Issue
   4005:
@@ -3996,11 +5392,16 @@ hulls:
       capacitor: 5313.0
       capacitorTime: 1087.5
       cpu: 750
+      droneBandwidth: 75
+      droneCapa: 75
       high: 6
       launcher: 4
       low: 4
       medium: 8
       powergrid: 9000
+      rigCalibration: 400
+      rigSize: Large
+      rigSlots: 3
       turret: 4
     name: Scorpion Ishukone Watch
   3756:
@@ -4010,11 +5411,16 @@ hulls:
       capacitor: 2700.0
       capacitorTime: 710.0
       cpu: 444
+      droneBandwidth: 50
+      droneCapa: 75
       high: 6
       launcher: 5
       low: 6
       medium: 6
       powergrid: 1200
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 5
     name: Gnosis
   2836:
@@ -4024,11 +5430,16 @@ hulls:
       capacitor: 2268.0
       capacitorTime: 335.0
       cpu: 370
+      droneBandwidth: 50
+      droneCapa: 100
       high: 5
       launcher: 0
       low: 6
       medium: 4
       powergrid: 1284
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 5
     name: Adrestia
   3518:
@@ -4038,11 +5449,16 @@ hulls:
       capacitor: 2920.0
       capacitorTime: 281.3
       cpu: 374
+      droneBandwidth: 25
+      droneCapa: 75
       high: 6
       launcher: 4
       low: 5
       medium: 4
       powergrid: 1176
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 0
     name: Vangel
   32209:
@@ -4052,11 +5468,16 @@ hulls:
       capacitor: 2055.0
       capacitorTime: 356.3
       cpu: 340
+      droneBandwidth: 30
+      droneCapa: 30
       high: 6
       launcher: 3
       low: 6
       medium: 3
       powergrid: 1172
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 4
     name: Mimir
   635:
@@ -4066,11 +5487,16 @@ hulls:
       capacitor: 800.0
       capacitorTime: 375.0
       cpu: 400
+      droneBandwidth: 50
+      droneCapa: 50
       high: 5
       launcher: 2
       low: 6
       medium: 3
       powergrid: 600
+      rigCalibration: 300
+      rigSize: Medium
+      rigSlots: 3
       turret: 2
     name: Opux Luxury Yacht
   11011:
@@ -4080,11 +5506,16 @@ hulls:
       capacitor: 1250.0
       capacitorTime: 446.3
       cpu: 400
+      droneBandwidth: 125
+      droneCapa: 125
       high: 5
       launcher: 1
       low: 5
       medium: 4
       powergrid: 725
+      rigCalibration: 350
+      rigSize: Medium
+      rigSlots: 3
       turret: 5
     name: Guardian-Vexor
   34590:
@@ -4094,11 +5525,16 @@ hulls:
       capacitor: 3500.0
       capacitorTime: 875.0
       cpu: 130
+      droneBandwidth: 0
+      droneCapa: 0
       high: 1
       launcher: 0
       low: 4
       medium: 1
       powergrid: 300
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 0
     name: Victorieux Luxury Yacht
   32788:
@@ -4108,11 +5544,16 @@ hulls:
       capacitor: 400.0
       capacitorTime: 150.0
       cpu: 225
+      droneBandwidth: 0
+      droneCapa: 0
       high: 4
       launcher: 4
       low: 3
       medium: 5
       powergrid: 63
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 1
     name: Cambion
   2834:
@@ -4122,11 +5563,16 @@ hulls:
       capacitor: 410.0
       capacitorTime: 187.5
       cpu: 225
+      droneBandwidth: 25
+      droneCapa: 75
       high: 3
       launcher: 0
       low: 4
       medium: 4
       powergrid: 47
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 3
     name: Utu
   3516:
@@ -4136,11 +5582,16 @@ hulls:
       capacitor: 612.0
       capacitorTime: 150.0
       cpu: 178
+      droneBandwidth: 0
+      droneCapa: 0
       high: 5
       launcher: 0
       low: 3
       medium: 3
       powergrid: 77
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 3
     name: Malice
   32207:
@@ -4150,11 +5601,16 @@ hulls:
       capacitor: 350.0
       capacitorTime: 187.5
       cpu: 187
+      droneBandwidth: 0
+      droneCapa: 0
       high: 3
       launcher: 1
       low: 4
       medium: 4
       powergrid: 54
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 3
     name: Freki
   33673:
@@ -4164,11 +5620,16 @@ hulls:
       capacitor: 355.0
       capacitorTime: 266.3
       cpu: 160
+      droneBandwidth: 10
+      droneCapa: 40
       high: 3
       launcher: 2
       low: 4
       medium: 4
       powergrid: 35
+      rigCalibration: 400
+      rigSize: Small
+      rigSlots: 2
       turret: 0
     name: Whiptail
   32790:
@@ -4178,11 +5639,16 @@ hulls:
       capacitor: 2004.0
       capacitorTime: 278.8
       cpu: 560
+      droneBandwidth: 25
+      droneCapa: 25
       high: 6
       launcher: 0
       low: 3
       medium: 6
       powergrid: 900
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 2
       turret: 1
     name: Etana
   4363:
@@ -4192,11 +5658,16 @@ hulls:
       capacitor: 500.0
       capacitorTime: 277.5
       cpu: 750
+      droneBandwidth: 0
+      droneCapa: 0
       high: 1
       launcher: 0
       low: 3
       medium: 4
       powergrid: 70
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Miasmos Quafe Ultra Edition
   2863:
@@ -4206,11 +5677,15 @@ hulls:
       capacitor: 1000.0
       capacitorTime: 400.0
       cpu: 100
+      droneBandwidth: 0
+      droneCapa: 0
       high: 0
       launcher: 0
       low: 4
       medium: 0
       powergrid: 175
+      rigCalibration: 0
+      rigSlots: 0
       turret: 0
     name: Primae
   32811:
@@ -4220,11 +5695,16 @@ hulls:
       capacitor: 500.0
       capacitorTime: 277.5
       cpu: 750
+      droneBandwidth: 0
+      droneCapa: 0
       high: 1
       launcher: 0
       low: 3
       medium: 4
       powergrid: 70
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Miasmos Amastris Edition
   4388:
@@ -4234,10 +5714,15 @@ hulls:
       capacitor: 500.0
       capacitorTime: 277.5
       cpu: 750
+      droneBandwidth: 0
+      droneCapa: 0
       high: 1
       launcher: 0
       low: 3
       medium: 4
       powergrid: 70
+      rigCalibration: 400
+      rigSize: Medium
+      rigSlots: 3
       turret: 1
     name: Miasmos Quafe Ultramarine Edition

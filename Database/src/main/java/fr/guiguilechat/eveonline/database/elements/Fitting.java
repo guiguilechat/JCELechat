@@ -4,4 +4,10 @@ public class Fitting {
 
 	public int high, medium, low, launcher, turret, cpu, powergrid;
 	public float capacitor, capacitorTime;
+
+	public int rigSlots, rigCalibration;
+	public String rigSize = null;
+
+	public int droneCapa, droneBandwidth;
+
 }

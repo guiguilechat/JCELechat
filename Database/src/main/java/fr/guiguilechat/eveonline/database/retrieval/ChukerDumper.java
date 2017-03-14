@@ -13,7 +13,7 @@ import fr.guiguilechat.eveonline.database.Database;
 import fr.guiguilechat.eveonline.database.Parser;
 import fr.guiguilechat.eveonline.database.elements.Hull;
 
-public class GetDistantDB {
+public class ChukerDumper {
 
 	public static final String SHIPS_PAGE = "http://games.chruker.dk/eve_online/market.php?group_id=4";
 	public static final String HERETIC_PAGE = "http://games.chruker.dk/eve_online/market.php?group_id=826";
@@ -55,10 +55,19 @@ public class GetDistantDB {
 		hull.fitting.low = getAttributeInt(page, "Low Slots:");
 		hull.fitting.launcher = getAttributeInt(page, "Launcher Hardpoints:");
 		hull.fitting.turret = getAttributeInt(page, "Turret Hardpoints:");
-		hull.fitting.capacitor = getAttributeFloat(page, "Capacitor Capacity:");
+
 		hull.fitting.cpu = getAttributeInt(page, "CPU:");
 		hull.fitting.powergrid = getAttributeInt(page, "Powergrid:");
+		hull.fitting.capacitor = getAttributeFloat(page, "Capacitor Capacity:");
 		hull.fitting.capacitorTime = getAttributeFloat(page, "Capacitor Recharge Time:");
+
+		hull.fitting.rigSlots = getAttributeInt(page, "Rig Slots:");
+		hull.fitting.rigCalibration = getAttributeInt(page, "Rig Calibration:");
+		hull.fitting.rigSize = getAttribute(page, "Rig Size:");
+
+		hull.fitting.droneCapa = getAttributeInt(page, "Drone Capacity:");
+		hull.fitting.droneBandwidth = getAttributeInt(page, "Drone Bandwidth:");
+
 		System.err.println(hull.name);
 	}
 

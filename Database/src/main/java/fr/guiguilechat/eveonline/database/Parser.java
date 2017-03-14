@@ -23,7 +23,7 @@ import org.yaml.snakeyaml.nodes.Tag;
 import org.yaml.snakeyaml.representer.Representer;
 
 import fr.guiguilechat.eveonline.database.elements.Hull;
-import fr.guiguilechat.eveonline.database.retrieval.GetDistantDB;
+import fr.guiguilechat.eveonline.database.retrieval.ChukerDumper;
 
 public class Parser {
 
@@ -38,7 +38,7 @@ public class Parser {
 
 	public static Database getChrukerDB() {
 		try {
-			return load(new File(GetDistantDB.CHRUKERFILE));
+			return load(new File(ChukerDumper.CHRUKERFILE));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
