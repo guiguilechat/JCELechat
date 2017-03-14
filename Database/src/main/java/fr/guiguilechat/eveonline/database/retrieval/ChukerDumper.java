@@ -34,16 +34,47 @@ public class ChukerDumper {
 		return db;
 	}
 
-	protected static void updateDatabaseShips(String url, Database db) throws IOException {
-		Document page = Jsoup.connect(url).get();
-		Set<String> subgroups = page.select("td[align=center] a[href]").stream().map(e -> e.absUrl("href"))
-				.collect(Collectors.toSet());
-		for (String subURL : subgroups) {
-			updateDatabaseShips(subURL, db);
+	public static Document getCached(String id, String url) {
+		Document page = null;
+		File cached = new File(CHRUKER_CACHE, id + ".html");
+		if (cached.exists()) {
+			try {
+				page = Jsoup.parse(cached, "UTF-8", url);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 		}
-		Set<String> s = page.select("a[href~=.*type_id.*]").stream().map(e -> e.absUrl("href")).collect(Collectors.toSet());
-		for (String u : s) {
-			addShipData(u, db);
+		if (page == null) {
+			System.err.println("caching element " + id);
+			try {
+				page = Jsoup.connect(url).get();
+				FileWriter w = new FileWriter(cached);
+				w.write(page.outerHtml());
+				w.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		return page;
+	}
+
+	protected static void updateDatabaseShips(String url, Database db) throws IOException {
+		try {
+			int gid = Integer.parseInt(url.replaceAll(".*group_id=", ""));
+			Document page = getCached("g_" + gid, url);
+			Set<String> subgroups = page.select("td[align=center] a[href]").stream()
+					.map(e -> e.absUrl("href"))
+					.collect(Collectors.toSet());
+			for (String subURL : subgroups) {
+				updateDatabaseShips(subURL, db);
+			}
+			Set<String> s = page.select("a[href~=.*type_id.*]").stream().map(e -> e.absUrl("href")).collect(Collectors.toSet());
+			for (String u : s) {
+				addShipData(u, db);
+			}
+		} catch (IOException | RuntimeException e) {
+			System.err.println("while loading group " + url + " : " + e);
+			throw e;
 		}
 	}
 
@@ -54,21 +85,7 @@ public class ChukerDumper {
 		int id = Integer.parseInt(url.replaceAll(".*type_id=", ""));
 		db.hulls.put(id, hull);
 
-		Document page = null;
-		File cached = new File(CHRUKER_CACHE, ""+id+".html");
-		if(cached.exists()) {
-			try {
-				page = Jsoup.parse(cached, "UTF-8");
-			}
-			catch(Exception e) {
-
-			}
-		}
-		if (page == null) {
-			System.err.println("loading data for element " + id);
-			page = Jsoup.connect(url).get();
-			new FileWriter(cached).write(page.outerHtml());
-		}
+		Document page = getCached("i_" + id, url);
 		hull.name = page.select("h1").get(0).html();
 		hull.fitting.high = getAttributeInt(page, "High Slots:");
 		hull.fitting.medium = getAttributeInt(page, "Medium Slots:");
