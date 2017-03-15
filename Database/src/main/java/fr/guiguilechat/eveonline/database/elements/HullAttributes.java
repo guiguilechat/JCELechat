@@ -3,8 +3,10 @@ package fr.guiguilechat.eveonline.database.elements;
 public class HullAttributes {
 
 	public int velocity;
-	public float warpSpeed;
-	public float inertiaModifier;
+	public double warpSpeed;
+	public double inertiaModifier;
+	public long mass;
+	public long volume;
 
 	public int targetRange;
 	public int scanRes;
@@ -13,7 +15,7 @@ public class HullAttributes {
 	public int maxTargets;
 
 	public int highSlots, mediumSlots, lowSlots, launcherHardPoints, turretHardPoints, cpu, powergrid;
-	public float capacitor, capacitorTime;
+	public double capacitor, capacitorTime;
 
 	public int rigSlots, rigCalibration;
 	public String rigSize = null;
