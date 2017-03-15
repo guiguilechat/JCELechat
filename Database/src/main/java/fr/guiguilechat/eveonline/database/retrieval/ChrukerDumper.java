@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Set;
+import java.util.function.BiConsumer;
 import java.util.stream.Collectors;
 
 import org.jsoup.Jsoup;
@@ -13,25 +14,41 @@ import org.jsoup.select.Elements;
 import fr.guiguilechat.eveonline.database.Database;
 import fr.guiguilechat.eveonline.database.Parser;
 import fr.guiguilechat.eveonline.database.elements.Hull;
+import fr.guiguilechat.eveonline.database.elements.Module;
+import fr.guiguilechat.eveonline.database.elements.ModuleActivation;
 
-public class ChukerDumper {
+public class ChrukerDumper {
 
 	public static final String SHIPS_PAGE = "http://games.chruker.dk/eve_online/market.php?group_id=4";
+	public static final String MODULES_PAGE = "http://games.chruker.dk/eve_online/market.php?group_id=9";
 	public static final String HERETIC_PAGE = "http://games.chruker.dk/eve_online/market.php?group_id=826";
-	public static final String CHRUKERFILE = "src/main/resources/chrukerdump/hulls.yml";
+	public static final String CHRUKER_HULLS_RES = "chrukerdump/hulls.yml";
+	public static final String CHRUKER_HULLS_FILE = "src/main/resources/" + CHRUKER_HULLS_RES;
+	public static final String CHRUKER_MODULES_RES = "chrukerdump/modules.yml";
+	public static final String CHRUKER_MODULES_FILE = "src/main/resources/" + CHRUKER_MODULES_RES;
 
 	public static final File CHRUKER_CACHE = new File("target/chruker/");
 
 	public static void main(String[] args) throws IOException {
-		Database db = dumpChruker();
-		Parser.write(db, new File(CHRUKERFILE));
+		Database db = dumpChrukerHulls();
+		Parser.write(db, new File(CHRUKER_HULLS_FILE));
+		db = dumpChrukerModules();
+		Parser.write(db, new File(CHRUKER_MODULES_FILE));
 	}
 
-	public static Database dumpChruker() throws IOException {
+	public static Database dumpChrukerHulls() throws IOException {
 		CHRUKER_CACHE.mkdirs();
 		Database db = new Database();
-		updateDatabaseShips(SHIPS_PAGE, db);
+		updateDatabase(SHIPS_PAGE, db, ChrukerDumper::addShipData);
 		return db;
+	}
+
+	public static Database dumpChrukerModules() throws IOException {
+		CHRUKER_CACHE.mkdirs();
+		Database db = new Database();
+		updateDatabase(MODULES_PAGE, db, ChrukerDumper::addModuleData);
+		return db;
+
 	}
 
 	public static Document getCached(String id, String url) {
@@ -58,7 +75,8 @@ public class ChukerDumper {
 		return page;
 	}
 
-	protected static void updateDatabaseShips(String url, Database db) throws IOException {
+	protected static void updateDatabase(String url, Database db, BiConsumer<String, Database> handler)
+			throws IOException {
 		try {
 			int gid = Integer.parseInt(url.replaceAll(".*group_id=", ""));
 			Document page = getCached("g_" + gid, url);
@@ -66,11 +84,11 @@ public class ChukerDumper {
 					.map(e -> e.absUrl("href"))
 					.collect(Collectors.toSet());
 			for (String subURL : subgroups) {
-				updateDatabaseShips(subURL, db);
+				updateDatabase(subURL, db, handler);
 			}
 			Set<String> s = page.select("a[href~=.*type_id.*]").stream().map(e -> e.absUrl("href")).collect(Collectors.toSet());
 			for (String u : s) {
-				addShipData(u, db);
+				handler.accept(u, db);
 			}
 		} catch (IOException | RuntimeException e) {
 			System.err.println("while loading group " + url + " : " + e);
@@ -80,30 +98,30 @@ public class ChukerDumper {
 
 	protected final static String[] SENSOR_TYPES = { "RADAR", "LADAR", "Magnetometric", "Gravimetric" };
 
-	protected static void addShipData(String url, Database db) throws IOException {
+	protected static void addShipData(String url, Database db) {
 		Hull hull = new Hull();
 		int id = Integer.parseInt(url.replaceAll(".*type_id=", ""));
 		db.hulls.put(id, hull);
 
 		Document page = getCached("i_" + id, url);
 		hull.name = page.select("h1").get(0).html();
-		hull.fitting.high = getAttributeInt(page, "High Slots:");
-		hull.fitting.medium = getAttributeInt(page, "Medium Slots:");
-		hull.fitting.low = getAttributeInt(page, "Low Slots:");
-		hull.fitting.launcher = getAttributeInt(page, "Launcher Hardpoints:");
-		hull.fitting.turret = getAttributeInt(page, "Turret Hardpoints:");
+		hull.attributes.highSlots = getAttributeInt(page, "High Slots:");
+		hull.attributes.mediumSlots = getAttributeInt(page, "Medium Slots:");
+		hull.attributes.lowSlots = getAttributeInt(page, "Low Slots:");
+		hull.attributes.launcherHardPoints = getAttributeInt(page, "Launcher Hardpoints:");
+		hull.attributes.turretHardPoints = getAttributeInt(page, "Turret Hardpoints:");
 
-		hull.fitting.cpu = getAttributeInt(page, "CPU:");
-		hull.fitting.powergrid = getAttributeInt(page, "Powergrid:");
-		hull.fitting.capacitor = getAttributeFloat(page, "Capacitor Capacity:");
-		hull.fitting.capacitorTime = getAttributeFloat(page, "Capacitor Recharge Time:");
+		hull.attributes.cpu = getAttributeInt(page, "CPU:");
+		hull.attributes.powergrid = getAttributeInt(page, "Powergrid:");
+		hull.attributes.capacitor = getAttributeFloat(page, "Capacitor Capacity:");
+		hull.attributes.capacitorTime = getAttributeFloat(page, "Capacitor Recharge Time:");
 
-		hull.fitting.rigSlots = getAttributeInt(page, "Rig Slots:");
-		hull.fitting.rigCalibration = getAttributeInt(page, "Rig Calibration:");
-		hull.fitting.rigSize = getAttribute(page, "Rig Size:");
+		hull.attributes.rigSlots = getAttributeInt(page, "Rig Slots:");
+		hull.attributes.rigCalibration = getAttributeInt(page, "Rig Calibration:");
+		hull.attributes.rigSize = getAttribute(page, "Rig Size:");
 
-		hull.fitting.droneCapa = getAttributeInt(page, "Drone Capacity:");
-		hull.fitting.droneBandwidth = getAttributeInt(page, "Drone Bandwidth:");
+		hull.attributes.droneCapa = getAttributeInt(page, "Drone Capacity:");
+		hull.attributes.droneBandwidth = getAttributeInt(page, "Drone Bandwidth:");
 
 		hull.attributes.velocity = getAttributeInt(page, "Maximum Velocity:");
 		hull.attributes.warpSpeed = getAttributeFloat(page, "Warp Speed:");
@@ -122,6 +140,36 @@ public class ChukerDumper {
 			}
 		}
 		System.err.println(hull.name);
+	}
+
+	protected static void addModuleData(String url, Database db) {
+		Module module = new Module();
+		int id = Integer.parseInt(url.replaceAll(".*type_id=", ""));
+		db.modules.put(id, module);
+
+		Document page = getCached("i_" + id, url);
+		module.name = page.select("h1").get(0).html();
+		module.attributes.cpu = getAttributeInt(page, "CPU:");
+		module.attributes.powergrid = getAttributeInt(page, "PowerGrid:");
+		String slot = getAttribute(page, "Slot:");
+		if (slot != null) {
+			module.attributes.slot = slot.replace("Requires a ", "").replace(" power slot", "");
+		}
+		String hardpoint = getAttribute(page, "Hardpoint:");
+		if (hardpoint != null) {
+			module.attributes.hardpoint=hardpoint.replace("Requires a ", "").replace(" hardpoint", "");
+		}
+		float activationCost = getAttributeFloat(page, "Activation Cost:");
+		if (activationCost > 0) {
+			ModuleActivation activ = module.activation= new ModuleActivation();
+			activ.cost=activationCost;
+			float modDuration = getAttributeFloat(page, "Duration:");
+			float weapDuration = getAttributeFloat(page, "Rate of Fire:");
+			activ.duration = Math.max(modDuration, weapDuration);
+		}
+
+
+		System.err.println(module.name);
 	}
 
 	/**

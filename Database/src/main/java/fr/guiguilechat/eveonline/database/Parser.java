@@ -5,7 +5,10 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
@@ -23,12 +26,16 @@ import org.yaml.snakeyaml.nodes.Tag;
 import org.yaml.snakeyaml.representer.Representer;
 
 import fr.guiguilechat.eveonline.database.elements.Hull;
-import fr.guiguilechat.eveonline.database.retrieval.ChukerDumper;
+import fr.guiguilechat.eveonline.database.retrieval.ChrukerDumper;
 
 public class Parser {
 
 	public static Database load(File file) throws FileNotFoundException {
 		return makeYaml().loadAs(new FileReader(file), Database.class);
+	}
+
+	public static Database load(InputStream stream) {
+		return makeYaml().loadAs(stream, Database.class);
 	}
 
 	public static void write(Database db, File file) throws IOException {
@@ -37,13 +44,9 @@ public class Parser {
 	}
 
 	public static Database getChrukerDB() {
-		try {
-			return load(new File(ChukerDumper.CHRUKERFILE));
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			return null;
-		}
+		String resName = "/" + ChrukerDumper.CHRUKER_HULLS_RES;
+		InputStream chrukerStream = Database.class.getResourceAsStream(resName);
+		return chrukerStream != null ? load(chrukerStream) : null;
 	}
 
 	protected static Yaml makeYaml() {
@@ -68,6 +71,9 @@ public class Parser {
 
 	public static class CleanRepresenter extends Representer {
 
+		protected static Set<Object> ZEROS = new HashSet<>(
+				Arrays.asList(Integer.valueOf(0), Long.valueOf(0), Float.valueOf(0), Double.valueOf(0)));
+
 		/**
 		 * skip a field when it is set to null or to an empty collection
 		 */
@@ -75,7 +81,7 @@ public class Parser {
 		protected NodeTuple representJavaBeanProperty(Object javaBean, Property property, Object propertyValue,
 				Tag customTag) {
 			if (propertyValue == null || propertyValue instanceof Collection && ((Collection<?>) propertyValue).isEmpty()
-					|| propertyValue instanceof Map && ((Map<?, ?>) propertyValue).isEmpty()) {
+					|| propertyValue instanceof Map && ((Map<?, ?>) propertyValue).isEmpty() || ZEROS.contains(propertyValue)) {
 				return null;
 			} else {
 				NodeTuple ret = super.representJavaBeanProperty(javaBean, property, propertyValue, customTag);

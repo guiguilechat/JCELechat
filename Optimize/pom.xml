@@ -8,4 +8,20 @@
   <groupId>fr.guiguilechat.eveonline</groupId>
   <artifactId>Optimize</artifactId>
   <name>Eve Online Optimize</name>
+  <dependencies>
+  <dependency>
+  	<groupId>fr.guiguilechat.eveonline</groupId>
+  	<artifactId>DataBase</artifactId>
+  </dependency>
+  <dependency>
+  	<groupId>org.testng</groupId>
+  	<artifactId>testng</artifactId>
+  	<scope>test</scope>
+  </dependency>
+  <dependency>
+  	<groupId>org.choco-solver</groupId>
+  	<artifactId>choco-solver</artifactId>
+  	<version>4.0.2</version>
+  </dependency>
+  </dependencies>
 </project>
