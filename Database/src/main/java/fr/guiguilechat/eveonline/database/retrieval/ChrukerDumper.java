@@ -125,7 +125,7 @@ public class ChrukerDumper {
 
 		hull.attributes.velocity = getAttributeInt(page, "Maximum Velocity:");
 		hull.attributes.warpSpeed = getAttributeFloat(page, "Warp Speed:");
-		hull.attributes.inertiaModifier = getAttributeFloat(page, "Inertia Modifier:");
+		hull.attributes.agility = getAttributeFloat(page, "Inertia Modifier:");
 
 		hull.attributes.targetRange = getAttributeInt(page, "Maximum Targeting Range:");
 		hull.attributes.scanRes = getAttributeInt(page, "Scan Resolution:");

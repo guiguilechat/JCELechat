@@ -4,7 +4,7 @@ public class HullAttributes {
 
 	public int velocity;
 	public double warpSpeed;
-	public double inertiaModifier;
+	public double agility;
 	public long mass;
 	public long volume;
 
@@ -18,6 +18,7 @@ public class HullAttributes {
 	public double capacitor, capacitorTime;
 
 	public int rigSlots, rigCalibration;
+	// small | medium | large | capital
 	public String rigSize = null;
 
 	public int droneCapa, droneBandwidth;
