@@ -79,7 +79,7 @@ public class SDEDumper {
 		dbModules.modules = db.modules;
 		db.modules = new LinkedHashMap<>();
 		Parser.write(db, DB_FILE_HULLS);
-		Parser.write(db, DB_FILE_MODULES);
+		Parser.write(dbModules, DB_FILE_MODULES);
 	}
 
 	@SuppressWarnings({ "unchecked" })
