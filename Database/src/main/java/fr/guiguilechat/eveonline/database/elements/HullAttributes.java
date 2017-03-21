@@ -11,6 +11,7 @@ public class HullAttributes {
 	public int targetRange;
 	public int scanRes;
 	public int scanStr;
+	/** RADAR | LADAR | Magnetometric | Gravimetric */
 	public String scanType;
 	public int maxTargets;
 
@@ -18,7 +19,7 @@ public class HullAttributes {
 	public double capacitor, capacitorTime;
 
 	public int rigSlots, rigCalibration;
-	// small | medium | large | capital
+	/** small | medium | large | capital */
 	public String rigSize = null;
 
 	public int droneCapa, droneBandwidth;

@@ -1,0 +1,1 @@
+package fr.guiguilechat.eveonline.database.retrieval.sde.tables;

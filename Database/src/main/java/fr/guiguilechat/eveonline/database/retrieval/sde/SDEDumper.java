@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.database.retrieval;
+package fr.guiguilechat.eveonline.database.retrieval.sde;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,11 +9,9 @@ import java.io.InputStream;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Set;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
@@ -38,15 +36,24 @@ public class SDEDumper {
 
 	public static final File DB_DIR = new File("src/main/resources/SDEDump/");
 
-	public static final File DB_FILE_HULLS = new File(DB_DIR, "hulls.yaml");
-	public static final File DB_FILE_MODULES = new File(DB_DIR, "modules.yaml");
+	public static final String DB_HULLS_RES = "SDEDump/hulls.yaml";
+	public static final File DB_HULLS_FILE = new File("src/main/resources/", DB_HULLS_RES);
+	public static final String DB_MODULES_RES = "SDEDump/modules.yaml";
+	public static final File DB_MODULES_FILE = new File("src/main/resources", DB_MODULES_RES);
 
 	/**
 	 * where we want to download the SDE from
 	 */
 	public static final String SDE_URL = "https://cdn1.eveonline.com/data/sde/tranquility/sde-20170216-TRANQUILITY.zip";
 
+	/**
+	 * if {@link #CHECKDIR} is not a directory, download the full yaml from the
+	 * sde . those files will be extracted and placed in {@link #CACHEDIR}
+	 */
 	public static void donwloadSDE() {
+		if (CHECKDIR.isDirectory()) {
+			return;
+		}
 		CACHEDIR.mkdirs();
 		try {
 			InputStream is = new URL(SDE_URL).openStream();
@@ -78,19 +85,16 @@ public class SDEDumper {
 		Database dbModules = new Database();
 		dbModules.modules = db.modules;
 		db.modules = new LinkedHashMap<>();
-		Parser.write(db, DB_FILE_HULLS);
-		Parser.write(dbModules, DB_FILE_MODULES);
+		Parser.write(db, DB_HULLS_FILE);
+		Parser.write(dbModules, DB_MODULES_FILE);
 	}
 
 	@SuppressWarnings({ "unchecked" })
 	public static Database loadDb() throws FileNotFoundException {
-		if (!CHECKDIR.isDirectory()) {
-			System.err.println("can't find " + CHECKDIR + " directory, loading it");
-			donwloadSDE();
-		}
+		donwloadSDE();
 		Database db = new Database();
-		Set<Integer> shipGroups = new LinkedHashSet<>();
-		Set<Integer> modulesGroups = new LinkedHashSet<>();
+		Map<Integer, String> shipGroups = new LinkedHashMap<>();
+		Map<Integer, String> modulesGroups = new LinkedHashMap<>();
 		findShipModuleGroups(shipGroups, modulesGroups);
 
 		File typesYaml = new File(CHECKDIR, "fsd/typeIDs.yaml");
@@ -100,16 +104,18 @@ public class SDEDumper {
 			Map<String, ?> elem = e.getValue();
 			if (Boolean.TRUE.equals(elem.get("published"))) {
 				Integer groupId = (Integer) e.getValue().get("groupID");
-				if (shipGroups.contains(groupId)) {
+				if (shipGroups.containsKey(groupId)) {
 					Hull h = new Hull();
 					db.hulls.put(e.getKey(), h);
 					h.name = getElemName(elem);
+					h.group = shipGroups.get(groupId);
 					h.attributes.mass = getelemDouble(elem, "mass", null).longValue();
 					h.attributes.volume = getelemDouble(elem, "volume", null).longValue();
-				} else if (modulesGroups.contains(groupId)) {
+				} else if (modulesGroups.containsKey(groupId)) {
 					Module m = new Module();
 					db.modules.put(e.getKey(), m);
 					m.name = getElemName(e.getValue());
+					m.group = modulesGroups.get(groupId);
 				}
 			}
 		}
@@ -123,7 +129,8 @@ public class SDEDumper {
 			attributesByIndex.put(id, (String) att.get("attributeName"));
 		}
 
-		// for each [ hull | module ] i, its map of attributeName-> attributeValue
+		// for each [ hull | module ] i, its map of attributeName->
+		// attributeValue
 		// skip anything that is not hull nor module to free memory
 		LinkedHashMap<Integer, LinkedHashMap<String, Object>> hullAttributes = new LinkedHashMap<>();
 		LinkedHashMap<Integer, LinkedHashMap<String, Object>> moduleAttributes = new LinkedHashMap<>();
@@ -146,7 +153,8 @@ public class SDEDumper {
 					moduleAttributes.put(itemId, atts);
 				}
 			}
-			// the id correspond to either a ship or a module: translate the affect
+			// the id correspond to either a ship or a module: translate the
+			// affect
 			// to name->value
 			if (atts != null) {
 				String attributename = attributesByIndex.get(affect.get("attributeID"));
@@ -162,11 +170,16 @@ public class SDEDumper {
 		}
 
 		// limit to X to print the X first ships
-		hullAttributes.entrySet().stream().limit(1).forEach(
-				e -> {
-					System.err.println("\n" + db.hulls.get(e.getKey()).name);
-					e.getValue().entrySet().forEach(eso -> System.err.println(eso.getKey() + " : " + eso.getValue()));
-				});
+		// hullAttributes.entrySet().stream().limit(0).forEach(e -> {
+		// System.err.println("\n" + db.hulls.get(e.getKey()).name);
+		// e.getValue().entrySet().forEach(eso ->
+		// System.err.println(eso.getKey() +
+		// " : " + eso.getValue()));
+		// });
+		moduleAttributes.entrySet().stream().limit(2).forEach(e -> {
+			System.err.println("\n" + db.modules.get(e.getKey()).name);
+			e.getValue().entrySet().forEach(eso -> System.err.println(eso.getKey() + " : " + eso.getValue()));
+		});
 		for (Entry<Integer, LinkedHashMap<String, Object>> hullAtts : hullAttributes.entrySet()) {
 			addHullAttributes(db.hulls.get(hullAtts.getKey()), hullAtts.getValue());
 		}
@@ -182,14 +195,14 @@ public class SDEDumper {
 	 * groupp corresponding to the module category.
 	 *
 	 * @param shipGroups
-	 *          the ship groups
+	 *            the ship groups
 	 * @param modulesGroups
-	 *          the modules groups
+	 *            the modules groups
 	 * @throws FileNotFoundException
-	 *           if the database file are not found
+	 *             if the database file are not found
 	 */
 	@SuppressWarnings("unchecked")
-	public static final void findShipModuleGroups(Set<Integer> shipGroups, Set<Integer> modulesGroups)
+	public static final void findShipModuleGroups(Map<Integer, String> shipGroups, Map<Integer, String> modulesGroups)
 			throws FileNotFoundException {
 		// find category for modules and ships
 		int shipCat = -1, moduleCat = -1;
@@ -214,10 +227,10 @@ public class SDEDumper {
 			if (Boolean.TRUE.equals(e.getValue().get("published"))) {
 				Integer groupCat = (Integer) e.getValue().get("categoryID");
 				if (groupCat == shipCat) {
-					shipGroups.add(e.getKey());
+					shipGroups.put(e.getKey(), getElemName(e.getValue()));
 				}
 				if (groupCat == moduleCat) {
-					modulesGroups.add(e.getKey());
+					modulesGroups.put(e.getKey(), getElemName(e.getValue()));
 				}
 			}
 		}
@@ -230,6 +243,27 @@ public class SDEDumper {
 				* getelemDouble(attributes, "warpSpeedMultiplier", 1.0);
 		hull.attributes.agility = getelemDouble(attributes, "agility", 0.0);
 
+		hull.attributes.targetRange = getelemInt(attributes, "maxTargetRange", 0);
+		hull.attributes.scanRes = getelemInt(attributes, "scanResolution", 0);
+		int scanLadar = getelemInt(attributes, "scanLadarStrength", 0);
+		int scanRadar = getelemInt(attributes, "scanRadarStrength", 0);
+		int scanGravi = getelemInt(attributes, "scanGravimetricStrength", 0);
+		int scanMagne = getelemInt(attributes, "scanMagnetometricStrength", 0);
+		hull.attributes.scanStr = Math.max(Math.max(scanMagne, scanGravi), Math.max(scanLadar, scanRadar));
+		if (hull.attributes.scanStr == scanLadar) {
+			hull.attributes.scanType = "LADAR";
+		}
+		if (hull.attributes.scanStr == scanRadar) {
+			hull.attributes.scanType = "RADAR";
+		}
+		if (hull.attributes.scanStr == scanMagne) {
+			hull.attributes.scanType = "Magnetometric";
+		}
+		if (hull.attributes.scanStr == scanGravi) {
+			hull.attributes.scanType = "Gravimetric";
+		}
+		hull.attributes.maxTargets = getelemInt(attributes, "maxLockedTargets", 0);
+
 		hull.attributes.highSlots = getelemInt(attributes, "hiSlots", 0);
 		hull.attributes.mediumSlots = getelemInt(attributes, "medSlots", 0);
 		hull.attributes.lowSlots = getelemInt(attributes, "lowSlots", 0);
@@ -237,6 +271,8 @@ public class SDEDumper {
 		hull.attributes.turretHardPoints = getelemInt(attributes, "turretSlotsLeft", 0);
 		hull.attributes.cpu = getelemInt(attributes, "cpuOutput", 0);
 		hull.attributes.powergrid = getelemInt(attributes, "powerOutput", 0);
+		hull.attributes.capacitor = getelemInt(attributes, "capacitorCapacity", 0);
+		hull.attributes.capacitorTime = getelemDouble(attributes, "rechargeRate", 0.0) / 1000;
 
 		hull.attributes.rigSlots = getelemInt(attributes, "rigSlots", 0);
 		hull.attributes.rigCalibration = getelemInt(attributes, "upgradeCapacity", 0);
@@ -261,9 +297,15 @@ public class SDEDumper {
 			System.err.println("no rig size for " + rigSize);
 			hull.attributes.rigSize = "unknown";
 		}
+
+		hull.attributes.droneCapa = getelemInt(attributes, "droneCapacity", 0);
+		hull.attributes.droneBandwidth = getelemInt(attributes, "droneBandwidth", 0);
+
 	}
 
 	public static void addModuleAttributes(Module module, LinkedHashMap<String, Object> attributes) {
+		module.attributes.cpu = getelemInt(attributes, "cpu", 0);
+		module.attributes.powergrid = getelemInt(attributes, "power", 0);
 
 	}
 

@@ -5,6 +5,7 @@ import java.util.LinkedHashMap;
 public class Hull {
 
 	public String name;
+	public String group;
 
 	public HullAttributes attributes = new HullAttributes();
 

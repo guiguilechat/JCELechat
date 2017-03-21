@@ -27,6 +27,7 @@ import org.yaml.snakeyaml.representer.Representer;
 
 import fr.guiguilechat.eveonline.database.elements.Hull;
 import fr.guiguilechat.eveonline.database.retrieval.ChrukerDumper;
+import fr.guiguilechat.eveonline.database.retrieval.sde.SDEDumper;
 
 public class Parser {
 
@@ -47,6 +48,21 @@ public class Parser {
 		String resName = "/" + ChrukerDumper.CHRUKER_HULLS_RES;
 		InputStream chrukerStream = Database.class.getResourceAsStream(resName);
 		return chrukerStream != null ? load(chrukerStream) : null;
+	}
+
+	public static Database getSDEDB() {
+		InputStream hullsStream = Database.class.getResourceAsStream("/" + SDEDumper.DB_HULLS_RES);
+		Database hullDB = hullsStream != null ? load(hullsStream) : null;
+		InputStream modulesStream = Database.class.getResourceAsStream("/" + SDEDumper.DB_MODULES_RES);
+		Database modulesDB = modulesStream != null ? load(modulesStream) : null;
+		if (hullDB == null) {
+			return modulesDB;
+		}
+		if (modulesDB != null) {
+			hullDB.merge(modulesDB);
+		}
+		;
+		return hullDB;
 	}
 
 	protected static Yaml makeYaml() {
