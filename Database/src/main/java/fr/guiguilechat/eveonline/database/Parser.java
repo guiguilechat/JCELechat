@@ -26,7 +26,7 @@ import org.yaml.snakeyaml.nodes.Tag;
 import org.yaml.snakeyaml.representer.Representer;
 
 import fr.guiguilechat.eveonline.database.elements.Hull;
-import fr.guiguilechat.eveonline.database.retrieval.ChrukerDumper;
+import fr.guiguilechat.eveonline.database.retrieval.chrukker.ChrukerDumper;
 import fr.guiguilechat.eveonline.database.retrieval.sde.SDEDumper;
 
 public class Parser {

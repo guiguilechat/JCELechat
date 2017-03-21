@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.database.retrieval;
+package fr.guiguilechat.eveonline.database.retrieval.chrukker;
 
 import java.io.File;
 import java.io.FileWriter;

@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.database.retrieval.sde.tables;
+package fr.guiguilechat.eveonline.database.retrieval.sde.bsd;
 
 import java.io.File;
 import java.io.FileNotFoundException;

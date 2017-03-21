@@ -1,10 +1,11 @@
-package fr.guiguilechat.eveonline.database.retrieval.sde.tables;
+package fr.guiguilechat.eveonline.database.retrieval.sde.fsd;
 
 import java.io.FileNotFoundException;
 import java.util.LinkedHashMap;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 
 public class EtypeIDsTest {
 

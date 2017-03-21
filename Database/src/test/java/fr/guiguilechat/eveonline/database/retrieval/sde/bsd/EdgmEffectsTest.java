@@ -1,10 +1,12 @@
-package fr.guiguilechat.eveonline.database.retrieval.sde.tables;
+package fr.guiguilechat.eveonline.database.retrieval.sde.bsd;
 
 import java.io.FileNotFoundException;
 import java.util.HashMap;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmEffects;
 
 public class EdgmEffectsTest {
 	
