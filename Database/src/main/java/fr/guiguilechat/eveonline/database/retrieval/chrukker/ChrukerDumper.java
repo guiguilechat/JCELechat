@@ -17,6 +17,7 @@ import fr.guiguilechat.eveonline.database.elements.Hull;
 import fr.guiguilechat.eveonline.database.elements.Module;
 import fr.guiguilechat.eveonline.database.elements.ModuleActivation;
 
+@Deprecated
 public class ChrukerDumper {
 
 	public static final String SHIPS_PAGE = "http://games.chruker.dk/eve_online/market.php?group_id=4";
