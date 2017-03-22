@@ -12,7 +12,7 @@ public class ShipModelTest {
 
 	@Test
 	public void testFastestHullSpeed() throws ContradictionException {
-		ShipModel sm = new ShipModel(Parser.getChrukerDB());
+		ShipModel sm = new ShipModel(Parser.getSDEDB());
 		Database db = sm.bridge.database;
 		Solution s = sm.getSolver().findOptimalSolution(sm.getHullSpeed(), true);
 		s.restore();

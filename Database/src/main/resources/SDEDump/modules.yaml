@@ -41050,7 +41050,7 @@ modules:
     - doomsdayBeamDOT
     - hiPower
     group: Super Weapon
-    name: ��Phalarica’ Thermal Lance
+    name: ‘Phalarica’ Thermal Lance
   41441:
     attributes:
       cpu: 100
@@ -41872,7 +41872,7 @@ modules:
     - doHacking
     - medPower
     group: Data Miners
-    name: ���Ligature’ Integrated Analyzer
+    name: ‘Ligature’ Integrated Analyzer
   41534:
     attributes:
       cpu: 30
