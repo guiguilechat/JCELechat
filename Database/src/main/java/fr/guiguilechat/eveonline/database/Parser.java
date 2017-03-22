@@ -29,6 +29,9 @@ import fr.guiguilechat.eveonline.database.elements.Hull;
 import fr.guiguilechat.eveonline.database.retrieval.chrukker.ChrukerDumper;
 import fr.guiguilechat.eveonline.database.retrieval.sde.SDEDumper;
 
+/**
+ * tools to get existing database
+ */
 public class Parser {
 
 	public static Database load(File file) throws FileNotFoundException {
@@ -61,7 +64,6 @@ public class Parser {
 		if (modulesDB != null) {
 			hullDB.merge(modulesDB);
 		}
-		;
 		return hullDB;
 	}
 

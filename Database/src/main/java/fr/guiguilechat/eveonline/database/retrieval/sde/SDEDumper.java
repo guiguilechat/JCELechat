@@ -21,6 +21,10 @@ import fr.guiguilechat.eveonline.database.Database;
 import fr.guiguilechat.eveonline.database.Parser;
 import fr.guiguilechat.eveonline.database.elements.Hull;
 import fr.guiguilechat.eveonline.database.elements.Module;
+import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmEffects;
+import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmTypeAttributes;
+import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmTypeEffects;
+import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.EtypeIDs;
 
 public class SDEDumper {
 
@@ -97,25 +101,38 @@ public class SDEDumper {
 		Map<Integer, String> modulesGroups = new LinkedHashMap<>();
 		findShipModuleGroups(shipGroups, modulesGroups);
 
-		File typesYaml = new File(CHECKDIR, "fsd/typeIDs.yaml");
-		HashMap<Integer, Map<String, ?>> types = (HashMap<Integer, Map<String, ?>>) new Yaml()
-				.load(new FileReader(typesYaml));
-		for (Entry<Integer, Map<String, ?>> e : types.entrySet()) {
-			Map<String, ?> elem = e.getValue();
-			if (Boolean.TRUE.equals(elem.get("published"))) {
-				Integer groupId = (Integer) e.getValue().get("groupID");
+		HashMap<Integer, EdgmEffects> effects = EdgmEffects.loadByIndex();
+		HashMap<Integer, HashMap<Integer, EdgmTypeEffects>> typeEffectsByTypeIDEffectID = EdgmTypeEffects.loadByTypeIDEffectID();
+
+		LinkedHashMap<Integer, EtypeIDs> types = EtypeIDs.load();
+		for (Entry<Integer, EtypeIDs> e : types.entrySet()) {
+			EtypeIDs elem = e.getValue();
+			if (elem.published) {
+				Integer groupId = elem.groupID;
 				if (shipGroups.containsKey(groupId)) {
 					Hull h = new Hull();
 					db.hulls.put(e.getKey(), h);
-					h.name = getElemName(elem);
+					h.name = elem.name.get("en");
 					h.group = shipGroups.get(groupId);
-					h.attributes.mass = getelemDouble(elem, "mass", null).longValue();
-					h.attributes.volume = getelemDouble(elem, "volume", null).longValue();
+					h.attributes.mass = (long) elem.mass;
+					h.attributes.volume = (long) elem.volume;
+					HashMap<Integer, EdgmTypeEffects> m_effects = typeEffectsByTypeIDEffectID.get(e.getKey());
+					if (m_effects != null) {
+						for (Integer effect_id : m_effects.keySet()) {
+							h.effects.add(effects.get(effect_id).effectName);
+						}
+					}
 				} else if (modulesGroups.containsKey(groupId)) {
 					Module m = new Module();
 					db.modules.put(e.getKey(), m);
-					m.name = getElemName(e.getValue());
+					m.name = elem.name.get("en");
 					m.group = modulesGroups.get(groupId);
+					HashMap<Integer, EdgmTypeEffects> m_effects = typeEffectsByTypeIDEffectID.get(e.getKey());
+					if (m_effects != null) {
+						for (Integer effect_id : m_effects.keySet()) {
+							m.effects.add(effects.get(effect_id).effectName);
+						}
+					}
 				}
 			}
 		}
@@ -134,52 +151,36 @@ public class SDEDumper {
 		// skip anything that is not hull nor module to free memory
 		LinkedHashMap<Integer, LinkedHashMap<String, Object>> hullAttributes = new LinkedHashMap<>();
 		LinkedHashMap<Integer, LinkedHashMap<String, Object>> moduleAttributes = new LinkedHashMap<>();
-		File attYaml = new File(CHECKDIR, "bsd/dgmTypeAttributes.yaml");
-		List<Map<String, ?>> attributes = (List<Map<String, ?>>) new Yaml().load(new FileReader(attYaml));
-		for (Map<String, ?> affect : attributes) {
-			int itemId = (int) affect.get("typeID");
+		HashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> attributesByTypeId = EdgmTypeAttributes
+				.loadByTypeIDAttributeID();
+		for (Entry<Integer, HashMap<Integer, EdgmTypeAttributes>> e : attributesByTypeId.entrySet()) {
+			int typeID = e.getKey();
 			// the map corresponding to the item id
 			LinkedHashMap<String, Object> atts = null;
-			if (db.hulls.containsKey(itemId)) {
-				atts = hullAttributes.get(itemId);
+			if (db.hulls.containsKey(typeID)) {
+				atts = hullAttributes.get(typeID);
 				if (atts == null) {
 					atts = new LinkedHashMap<>();
-					hullAttributes.put(itemId, atts);
+					hullAttributes.put(typeID, atts);
 				}
-			} else if (db.modules.containsKey(itemId)) {
-				atts = moduleAttributes.get(itemId);
+			} else if (db.modules.containsKey(typeID)) {
+				atts = moduleAttributes.get(typeID);
 				if (atts == null) {
 					atts = new LinkedHashMap<>();
-					moduleAttributes.put(itemId, atts);
+					moduleAttributes.put(typeID, atts);
 				}
 			}
 			// the id correspond to either a ship or a module: translate the
-			// affect
-			// to name->value
+			// affect to name->value
 			if (atts != null) {
-				String attributename = attributesByIndex.get(affect.get("attributeID"));
-				Object attValue = affect.get("valueInt");
-				if (attValue == null) {
-					attValue = affect.get("valueFloat");
+				for (Entry<Integer, EdgmTypeAttributes> e2 : e.getValue().entrySet()) {
+					String attributename = attributesByIndex.get(e2.getKey());
+					EdgmTypeAttributes affect = e2.getValue();
+					atts.put(attributename, affect.valueFloat != 0 ? affect.valueFloat : affect.valueInt);
 				}
-				if (attValue == null) {
-					System.err.println("att type not handled in " + affect);
-				}
-				atts.put(attributename, attValue);
 			}
 		}
 
-		// limit to X to print the X first ships
-		// hullAttributes.entrySet().stream().limit(0).forEach(e -> {
-		// System.err.println("\n" + db.hulls.get(e.getKey()).name);
-		// e.getValue().entrySet().forEach(eso ->
-		// System.err.println(eso.getKey() +
-		// " : " + eso.getValue()));
-		// });
-		moduleAttributes.entrySet().stream().limit(2).forEach(e -> {
-			System.err.println("\n" + db.modules.get(e.getKey()).name);
-			e.getValue().entrySet().forEach(eso -> System.err.println(eso.getKey() + " : " + eso.getValue()));
-		});
 		for (Entry<Integer, LinkedHashMap<String, Object>> hullAtts : hullAttributes.entrySet()) {
 			addHullAttributes(db.hulls.get(hullAtts.getKey()), hullAtts.getValue());
 		}
@@ -192,14 +193,14 @@ public class SDEDumper {
 
 	/**
 	 * find the index of groups corresponding to ship category and the index of
-	 * groupp corresponding to the module category.
+	 * group corresponding to the module category.
 	 *
 	 * @param shipGroups
-	 *            the ship groups
+	 *          the ship groups
 	 * @param modulesGroups
-	 *            the modules groups
+	 *          the modules groups
 	 * @throws FileNotFoundException
-	 *             if the database file are not found
+	 *           if the database file are not found
 	 */
 	@SuppressWarnings("unchecked")
 	public static final void findShipModuleGroups(Map<Integer, String> shipGroups, Map<Integer, String> modulesGroups)
@@ -306,7 +307,15 @@ public class SDEDumper {
 	public static void addModuleAttributes(Module module, LinkedHashMap<String, Object> attributes) {
 		module.attributes.cpu = getelemInt(attributes, "cpu", 0);
 		module.attributes.powergrid = getelemInt(attributes, "power", 0);
-
+		if (module.effects.contains("hiPower")) {
+			module.attributes.slot = "high";
+		}
+		if (module.effects.contains("medPower")) {
+			module.attributes.slot = "medium";
+		}
+		if (module.effects.contains("loPower")) {
+			module.attributes.slot = "low";
+		}
 	}
 
 	@SuppressWarnings("unchecked")
