@@ -101,7 +101,7 @@ public class SDEDumper {
 		Map<Integer, String> modulesGroups = new LinkedHashMap<>();
 		findShipModuleGroups(shipGroups, modulesGroups);
 
-		HashMap<Integer, EdgmEffects> effects = EdgmEffects.loadByIndex();
+		HashMap<Integer, EdgmEffects> effects = EdgmEffects.loadByEffectID();
 		HashMap<Integer, HashMap<Integer, EdgmTypeEffects>> typeEffectsByTypeIDEffectID = EdgmTypeEffects.loadByTypeIDEffectID();
 
 		LinkedHashMap<Integer, EtypeIDs> types = EtypeIDs.load();

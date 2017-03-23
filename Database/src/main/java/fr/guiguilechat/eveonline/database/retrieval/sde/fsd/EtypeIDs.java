@@ -72,15 +72,15 @@ public class EtypeIDs {
 
 	public double basePrice;
 	public double capacity;
-	public HashMap<String, String> description;
+	public HashMap<String, String> description = new HashMap<>();
 	public int factionID;
 	public int graphicID;
 	public int groupID;
 	public int iconID;
 	public int marketGroupID;
 	public double mass;
-	public HashMap<Integer, List<Integer>> masteries;
-	public HashMap<String, String> name;
+	public HashMap<Integer, List<Integer>> masteries = new HashMap<>();
+	public HashMap<String, String> name = new HashMap<>();
 	public int portionSize;
 	public boolean published;
 	public int raceID;

@@ -70,7 +70,7 @@ public class EdgmEffects {
 		}
 	}
 
-	public static HashMap<Integer, EdgmEffects> loadByIndex() {
+	public static HashMap<Integer, EdgmEffects> loadByEffectID() {
 		HashMap<Integer, EdgmEffects> ret = new HashMap<>();
 		load().stream().forEach(e -> ret.put(e.effectID, e));
 		return ret;

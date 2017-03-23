@@ -17,7 +17,7 @@ public class EdgmEffectsTest {
 	 */
 	@Test
 	public void testParse() throws FileNotFoundException {
-		HashMap<Integer, EdgmEffects> idx = EdgmEffects.loadByIndex();
+		HashMap<Integer, EdgmEffects> idx = EdgmEffects.loadByEffectID();
 		Assert.assertEquals(idx.get(11).effectName, "loPower");
 	}
 
