@@ -14,38 +14,37 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.eveonline.database.retrieval.sde.SDEDumper;
+import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDECache;
 
 /**
  * an entry in the fsd/typeIDs.yaml
  */
 public class Eblueprints {
 
-	public static final File FILE = new File(SDEDumper.CACHEDIR, "sde/fsd/blueprints.yaml");
+	public static final File FILE = new File(SDECache.CACHEDIR, "sde/fsd/blueprints.yaml");
 
 	public int blueprintTypeID;
 	public int maxProductionLimit;
+
+	/**
+	 * used in the blueprints as requirement, or products
+	 */
+	public static class Material {
+		public int quantity;
+		public int typeID;
+		public float probability = 1.0f;
+	}
+
+	public static class Skill {
+		public int typeID;
+		public int level;
+	}
 
 	public BPActivities activities = new BPActivities();
 
 	public static class BPActivities {
 
-		/**
-		 * used in the blueprints as requirement, or products
-		 */
-		public static class Material {
-			public int quantity;
-			public int typeID;
-			public float probability = 1.0f;
-		}
-
-		public static class Skill {
-			public int typeID;
-			public int level;
-		}
-
 		public static class Activity {
-
 			public ArrayList<Material> materials = new ArrayList<>();
 			public ArrayList<Material> products = new ArrayList<>();
 			public ArrayList<Skill> skills = new ArrayList<>();
@@ -63,7 +62,7 @@ public class Eblueprints {
 
 	@SuppressWarnings("unchecked")
 	public static LinkedHashMap<Integer, Eblueprints> load() {
-		SDEDumper.donwloadSDE();
+		SDECache.donwloadSDE();
 
 		Constructor cons = new Constructor(LinkedHashMap.class) {
 
@@ -74,8 +73,6 @@ public class Eblueprints {
 					if (mn.getValue().size() > 0) {
 						if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
 								.filter(s -> "blueprintTypeID".equals(s)).findAny().isPresent()) {
-							// System.err.println("replacing node type " + node.getType() + "
-							// with blueprint");
 							node.setType(Eblueprints.class);
 						}
 					}
@@ -84,16 +81,25 @@ public class Eblueprints {
 				return ret;
 			}
 		};
-		// TypeDescription td = new TypeDescription(EtypeIDs.class);
-		// td.putMapPropertyType("name", String.class, String.class);
-		// td.putMapPropertyType("description", String.class, String.class);
-		// cons.addTypeDescription(td);
 		Yaml yaml = new Yaml(cons);
 		try {
 			return yaml.loadAs(new FileReader(FILE), LinkedHashMap.class);
 		} catch (FileNotFoundException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (obj != null && obj.getClass() == Eblueprints.class) {
+			return ((Eblueprints) obj).blueprintTypeID == blueprintTypeID;
+		}
+		return false;
+	}
+
+	@Override
+	public int hashCode() {
+		return blueprintTypeID;
 	}
 
 }

@@ -14,15 +14,15 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.eveonline.database.retrieval.sde.SDEDumper;
+import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDECache;
 
 public class EcategoryIDs {
 
-	public static final File FILE = new File(SDEDumper.CACHEDIR, "sde/fsd/categoryIDs.yaml");
+	public static final File FILE = new File(SDECache.CACHEDIR, "sde/fsd/categoryIDs.yaml");
 
 	@SuppressWarnings("unchecked")
 	public static LinkedHashMap<Integer, EcategoryIDs> load() {
-		SDEDumper.donwloadSDE();
+		SDECache.donwloadSDE();
 		Constructor cons = new Constructor(LinkedHashMap.class) {
 
 			@Override

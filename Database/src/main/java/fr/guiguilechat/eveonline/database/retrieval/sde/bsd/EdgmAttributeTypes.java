@@ -12,15 +12,15 @@ import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 
-import fr.guiguilechat.eveonline.database.retrieval.sde.SDEDumper;
+import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDECache;
 
 public class EdgmAttributeTypes {
 
-	public static final File FILE = new File(SDEDumper.CACHEDIR, "sde/bsd/dgmAttributeTypes.yaml");
+	public static final File FILE = new File(SDECache.CACHEDIR, "sde/bsd/dgmAttributeTypes.yaml");
 
 	@SuppressWarnings("unchecked")
 	public static ArrayList<EdgmAttributeTypes> load() {
-		SDEDumper.donwloadSDE();
+		SDECache.donwloadSDE();
 		Constructor cons = new Constructor(ArrayList.class) {
 
 			@Override

@@ -3,17 +3,12 @@ package fr.guiguilechat.eveonline.database.retrieval.sde;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipInputStream;
 
 import org.yaml.snakeyaml.Yaml;
 
@@ -24,19 +19,10 @@ import fr.guiguilechat.eveonline.database.elements.Module;
 import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmEffects;
 import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmTypeEffects;
+import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDECache;
 import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.EtypeIDs;
 
 public class SDEDumper {
-
-	/**
-	 * where we want to extract the SDE
-	 */
-	public static final File CACHEDIR = new File("target/");
-
-	/**
-	 * the directory that should be present when we cached the sde
-	 */
-	public static final File CHECKDIR = new File(CACHEDIR, "sde");
 
 	public static final File DB_DIR = new File("src/main/resources/SDEDump/");
 
@@ -44,44 +30,6 @@ public class SDEDumper {
 	public static final File DB_HULLS_FILE = new File("src/main/resources/", DB_HULLS_RES);
 	public static final String DB_MODULES_RES = "SDEDump/modules.yaml";
 	public static final File DB_MODULES_FILE = new File("src/main/resources", DB_MODULES_RES);
-
-	/**
-	 * where we want to download the SDE from
-	 */
-	public static final String SDE_URL = "https://cdn1.eveonline.com/data/sde/tranquility/sde-20170216-TRANQUILITY.zip";
-
-	/**
-	 * if {@link #CHECKDIR} is not a directory, download the full yaml from the
-	 * sde . those files will be extracted and placed in {@link #CACHEDIR}
-	 */
-	public static void donwloadSDE() {
-		if (CHECKDIR.isDirectory()) {
-			return;
-		}
-		CACHEDIR.mkdirs();
-		try {
-			InputStream is = new URL(SDE_URL).openStream();
-			ZipEntry e;
-			try (ZipInputStream zis = new ZipInputStream(is)) {
-				while ((e = zis.getNextEntry()) != null) {
-					File out = new File(CACHEDIR, e.getName());
-					out.getParentFile().mkdirs();
-					FileWriter fw = new FileWriter(out);
-					byte[] b = new byte[100];
-					while (zis.available() > 0) {
-						int r = zis.read(b, 0, b.length);
-						if (r > -1) {
-							fw.write(new String(b, 0, r));
-						}
-					}
-					fw.close();
-					System.err.println(e.getName());
-				}
-			}
-		} catch (IOException e) {
-			throw new UnsupportedOperationException("while downloading the SDE", e);
-		}
-	}
 
 	public static void main(String[] args) throws IOException {
 		Database db = loadDb();
@@ -95,14 +43,15 @@ public class SDEDumper {
 
 	@SuppressWarnings({ "unchecked" })
 	public static Database loadDb() throws FileNotFoundException {
-		donwloadSDE();
+		SDECache.donwloadSDE();
 		Database db = new Database();
 		Map<Integer, String> shipGroups = new LinkedHashMap<>();
 		Map<Integer, String> modulesGroups = new LinkedHashMap<>();
 		findShipModuleGroups(shipGroups, modulesGroups);
 
 		HashMap<Integer, EdgmEffects> effects = EdgmEffects.loadByEffectID();
-		HashMap<Integer, HashMap<Integer, EdgmTypeEffects>> typeEffectsByTypeIDEffectID = EdgmTypeEffects.loadByTypeIDEffectID();
+		HashMap<Integer, HashMap<Integer, EdgmTypeEffects>> typeEffectsByTypeIDEffectID = EdgmTypeEffects
+				.loadByTypeIDEffectID();
 
 		LinkedHashMap<Integer, EtypeIDs> types = EtypeIDs.load();
 		for (Entry<Integer, EtypeIDs> e : types.entrySet()) {
@@ -112,7 +61,7 @@ public class SDEDumper {
 				if (shipGroups.containsKey(groupId)) {
 					Hull h = new Hull();
 					db.hulls.put(e.getKey(), h);
-					h.name = elem.name.get("en");
+					h.name = elem.enName();
 					h.group = shipGroups.get(groupId);
 					h.attributes.mass = (long) elem.mass;
 					h.attributes.volume = (long) elem.volume;
@@ -125,7 +74,7 @@ public class SDEDumper {
 				} else if (modulesGroups.containsKey(groupId)) {
 					Module m = new Module();
 					db.modules.put(e.getKey(), m);
-					m.name = elem.name.get("en");
+					m.name = elem.enName();
 					m.group = modulesGroups.get(groupId);
 					HashMap<Integer, EdgmTypeEffects> m_effects = typeEffectsByTypeIDEffectID.get(e.getKey());
 					if (m_effects != null) {
@@ -139,7 +88,7 @@ public class SDEDumper {
 
 		// for each attribute index, its corresponding name
 		LinkedHashMap<Integer, String> attributesByIndex = new LinkedHashMap<>();
-		File attDefYaml = new File(CHECKDIR, "bsd/dgmAttributeTypes.yaml");
+		File attDefYaml = new File(SDECache.CHECKDIR, "bsd/dgmAttributeTypes.yaml");
 		List<Map<String, ?>> attributesDefs = (List<Map<String, ?>>) new Yaml().load(new FileReader(attDefYaml));
 		for (Map<String, ?> att : attributesDefs) {
 			Integer id = (Integer) att.get("attributeID");
@@ -207,7 +156,7 @@ public class SDEDumper {
 			throws FileNotFoundException {
 		// find category for modules and ships
 		int shipCat = -1, moduleCat = -1;
-		File CategoryYaml = new File(CHECKDIR, "fsd/categoryIDs.yaml");
+		File CategoryYaml = new File(SDECache.CHECKDIR, "fsd/categoryIDs.yaml");
 		HashMap<Integer, Map<String, ?>> categorys = (HashMap<Integer, Map<String, ?>>) new Yaml()
 				.load(new FileReader(CategoryYaml));
 		for (Entry<Integer, Map<String, ?>> e : categorys.entrySet()) {
@@ -221,7 +170,7 @@ public class SDEDumper {
 		}
 
 		// find groups in modules and ships category
-		File groupYaml = new File(CHECKDIR, "fsd/groupIDs.yaml");
+		File groupYaml = new File(SDECache.CHECKDIR, "fsd/groupIDs.yaml");
 		HashMap<Integer, Map<String, ?>> groups = (HashMap<Integer, Map<String, ?>>) new Yaml()
 				.load(new FileReader(groupYaml));
 		for (Entry<Integer, Map<String, ?>> e : groups.entrySet()) {

@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.Eblueprints.BPActivities.Material;
+import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.Eblueprints.Material;
 
 public class EblueprintsTest {
 

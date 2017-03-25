@@ -12,14 +12,14 @@ import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 
-import fr.guiguilechat.eveonline.database.retrieval.sde.SDEDumper;
+import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDECache;
 
 /**
  * an entry in the bsd/dgmTypeAttributes.yaml file
  */
 public class EdgmTypeAttributes {
 
-	public static final File FILE = new File(SDEDumper.CACHEDIR, "sde/bsd/dgmTypeAttributes.yaml");
+	public static final File FILE = new File(SDECache.CACHEDIR, "sde/bsd/dgmTypeAttributes.yaml");
 	public int attributeID;
 	public int typeID;
 	public int valueInt;
@@ -27,7 +27,7 @@ public class EdgmTypeAttributes {
 
 	@SuppressWarnings("unchecked")
 	public static ArrayList<EdgmTypeAttributes> load() {
-		SDEDumper.donwloadSDE();
+		SDECache.donwloadSDE();
 		Constructor cons = new Constructor(ArrayList.class) {
 
 			@Override

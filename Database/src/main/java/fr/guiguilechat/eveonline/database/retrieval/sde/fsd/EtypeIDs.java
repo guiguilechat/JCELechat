@@ -17,7 +17,7 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.eveonline.database.retrieval.sde.SDEDumper;
+import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDECache;
 
 /**
  * an entry in the fsd/typeIDs.yaml
@@ -38,10 +38,10 @@ public class EtypeIDs {
 		public HashMap<Integer, ArrayList<Bonus>> types;
 	}
 
-	public static final File FILE = new File(SDEDumper.CACHEDIR, "sde/fsd/typeIDs.yaml");
+	public static final File FILE = new File(SDECache.CACHEDIR, "sde/fsd/typeIDs.yaml");
 	@SuppressWarnings("unchecked")
 	public static LinkedHashMap<Integer, EtypeIDs> load() {
-		SDEDumper.donwloadSDE();
+		SDECache.donwloadSDE();
 		Constructor cons = new Constructor(LinkedHashMap.class) {
 
 			@Override
@@ -50,8 +50,9 @@ public class EtypeIDs {
 					MappingNode mn = (MappingNode) node;
 					if (mn.getValue().size() > 0) {
 						if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-								.filter(s -> "groupID".equals(s)).findAny().isPresent())
+								.filter(s -> "groupID".equals(s)).findAny().isPresent()) {
 							node.setType(EtypeIDs.class);
+						}
 					}
 				}
 				Construct ret = super.getConstructor(node);
@@ -92,5 +93,16 @@ public class EtypeIDs {
 	public Etraits traits;
 
 	public double volume;
+
+	public String enName() {
+		String ret = name.get("en");
+		if (ret == null) {
+			ret = description.get("en");
+		}
+		if (ret == null) {
+			ret = "unnamed_gid" + graphicID + "_sid" + soundID;
+		}
+		return ret;
+	}
 
 }

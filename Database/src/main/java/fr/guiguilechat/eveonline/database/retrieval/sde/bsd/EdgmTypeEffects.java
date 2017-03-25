@@ -12,21 +12,21 @@ import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 
-import fr.guiguilechat.eveonline.database.retrieval.sde.SDEDumper;
+import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDECache;
 
 /**
  * an entry in the bsd/dgmTypeEffects.yaml file
  */
 public class EdgmTypeEffects {
 
-	public static final File FILE = new File(SDEDumper.CACHEDIR, "sde/bsd/dgmTypeEffects.yaml");
+	public static final File FILE = new File(SDECache.CACHEDIR, "sde/bsd/dgmTypeEffects.yaml");
 	public int effectID;
 	public boolean isDefault;
 	public int typeID;
 
 	@SuppressWarnings("unchecked")
 	public static ArrayList<EdgmTypeEffects> load() {
-		SDEDumper.donwloadSDE();
+		SDECache.donwloadSDE();
 		Constructor cons = new Constructor(ArrayList.class) {
 
 			@Override

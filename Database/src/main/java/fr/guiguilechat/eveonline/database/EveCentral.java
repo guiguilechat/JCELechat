@@ -12,15 +12,17 @@ import org.jsoup.select.Elements;
  *
  */
 public class EveCentral {
+	
+	public static final long JITA_SYSTEM=30000142;
 
-	public final long region;
+	public final long system;
 
-	public EveCentral(long region) {
-		this.region = region;
+	public EveCentral(long system) {
+		this.system = system;
 	}
 
 	public EveCentral() {
-		this(30000142);
+		this(JITA_SYSTEM);
 	}
 
 	public static class BOSO {
@@ -33,7 +35,7 @@ public class EveCentral {
 	protected BOSO boso(long itemID) {
 		BOSO ret = cachedValues.get(itemID);
 		if (ret == null) {
-			String url = "https://api.eve-central.com/api/marketstat?typeid=" + itemID + "&usesystem=" + region;
+			String url = "https://api.eve-central.com/api/marketstat?typeid=" + itemID + "&usesystem=" + system;
 			ret = new BOSO();
 			cachedValues.put(itemID, ret);
 			try {
