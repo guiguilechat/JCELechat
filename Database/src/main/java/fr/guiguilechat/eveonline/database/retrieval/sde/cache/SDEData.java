@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.database.EveCentral;
@@ -292,6 +293,18 @@ public class SDEData {
 		// TODO
 		// getParentManufacturing(itemID).flatMap(getIndustryUsages())
 		return null;
+	}
+
+	public IntStream getGroupsForCategory(int categoryId) {
+		return getGroupIDs().entrySet().stream().filter(e -> e.getValue().categoryID == categoryId).mapToInt(Entry::getKey);
+	}
+
+	public IntStream getTypeIDsForGroup(int groupID) {
+		return getTypeIDs().entrySet().stream().filter(e -> e.getValue().groupID == groupID).mapToInt(Entry::getKey);
+	}
+
+	public IntStream getTypeIDsForCategory(int catID) {
+		return getGroupsForCategory(catID).flatMap(this::getTypeIDsForGroup);
 	}
 
 }
