@@ -1,6 +1,7 @@
 package fr.guiguilechat.eveonline.database;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.HashMap;
 
 import org.jsoup.Jsoup;
@@ -15,10 +16,12 @@ public class EveCentral {
 
 	public static final long JITA_SYSTEM=30000142;
 
-	public final long system;
+	// set to -1 to ignore system
+	public final String baseurl;
 
 	public EveCentral(long system) {
-		this.system = system;
+		baseurl = system > 0 ? "https://api.eve-central.com/api/marketstat?usesystem=" + system
+				: "https://api.eve-central.com/api/marketstat?";
 	}
 
 	public EveCentral() {
@@ -35,12 +38,23 @@ public class EveCentral {
 		}
 	}
 
+	long nbMiss = 0;
+
+	/**
+	 *
+	 * @return number of cache miss
+	 */
+	public long nbMiss() {
+		return nbMiss;
+	}
+
 	private HashMap<Integer, BOSO> cachedValues = new HashMap<>();
 
 	protected BOSO boso(int itemID) {
 		BOSO ret = cachedValues.get(itemID);
 		if (ret == null) {
-			String url = "https://api.eve-central.com/api/marketstat?typeid=" + itemID + "&usesystem=" + system;
+			nbMiss++;
+			String url = baseurl + "&typeid=" + itemID;
 			ret = new BOSO();
 			cachedValues.put(itemID, ret);
 			try {
@@ -72,14 +86,25 @@ public class EveCentral {
 	 */
 	public void cache(int... itemIDs) {
 		if(itemIDs==null || itemIDs.length==0) {return ;}
-		StringBuilder sb = new StringBuilder("https://api.eve-central.com/api/marketstat?usesystem"+system);
+		// evecentral can't have urls with more than 2048 characters.
+		// base url = 60-65 cars
+		// each item = +12 cars
+		// so max ~ 160 items
+		int maxNbItems = 160;
+		if (itemIDs.length > maxNbItems) {
+			for (int i = 0; i < itemIDs.length; i += maxNbItems) {
+				cache(Arrays.copyOfRange(itemIDs, i, Math.min(i + maxNbItems, itemIDs.length)));
+			}
+			return;
+		}
+		StringBuilder sb = new StringBuilder(baseurl);
 		for(long id : itemIDs) {
 			sb.append("&typeid=").append(id);
 		}
 		Document page;
 		try {
 			page = Jsoup.connect(sb.toString()).get();
-			for(long id : itemIDs) {
+			for (int id : itemIDs) {
 				BOSO boso = new BOSO();
 				Elements bos = page.select("[id="+id+"] buy max");
 				if (!bos.isEmpty()) {
@@ -89,7 +114,7 @@ public class EveCentral {
 				if (!sos.isEmpty()) {
 					boso.so = Double.parseDouble(sos.get(0).ownText());
 				}
-				// System.err.println("" + id + ": " + boso);
+				cachedValues.put(id, boso);
 			}
 		} catch (IOException e) {
 			e.printStackTrace(System.err);

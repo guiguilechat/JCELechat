@@ -46,7 +46,7 @@ public class ShowJitaOrePrice {
 
 		Collections.sort(datas, (d1, d2) -> (int) Math.signum(d2.boPerVolume() - d1.boPerVolume()));
 		for (AsteroidData data : datas) {
-			System.err.println(data.type.enName() + "\t" + data.boPerVolume() + "\t(" + data.type.groupID + ")");
+			System.err.println(data.type.enName() + "\t" + data.boPerVolume());
 		}
 	}
 
