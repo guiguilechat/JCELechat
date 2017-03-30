@@ -9,6 +9,7 @@ import java.util.Set;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+import fr.guiguilechat.eveonline.database.ESIMarketPrices;
 import fr.guiguilechat.eveonline.database.EveCentral;
 import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmAttributeTypes;
 import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmEffects;
@@ -39,11 +40,11 @@ public class SDEData {
 		return cachedAttributeTypes;
 	}
 
-	protected ArrayList<EdgmEffects> cachedEffects = null;
+	protected HashMap<Integer, EdgmEffects> cachedEffects = null;
 
-	public ArrayList<EdgmEffects> getEffects() {
+	public HashMap<Integer, EdgmEffects> getEffects() {
 		if (cachedEffects == null) {
-			cachedEffects = EdgmEffects.load();
+			cachedEffects = EdgmEffects.loadByEffectID();
 		}
 		return cachedEffects;
 	}
@@ -60,6 +61,11 @@ public class SDEData {
 
 	protected HashMap<Integer, HashMap<Integer, EdgmTypeEffects>> cachedTypeEffects = null;
 
+	/**
+	 * get the cached typeID->effectId->EdgmTypeeffect
+	 *
+	 * @return
+	 */
 	public HashMap<Integer, HashMap<Integer, EdgmTypeEffects>>  getTypeEffects() {
 		if (cachedTypeEffects == null) {
 			cachedTypeEffects = EdgmTypeEffects
@@ -127,6 +133,12 @@ public class SDEData {
 			}
 		}
 		return cachedDico;
+	}
+
+	protected ESIMarketPrices esi = new ESIMarketPrices();
+
+	public ESIMarketPrices getESI() {
+		return esi;
 	}
 
 	// central cache

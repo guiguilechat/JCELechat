@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.database;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.stream.IntStream;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -14,16 +15,33 @@ import org.jsoup.select.Elements;
  */
 public class EveCentral {
 
-	public static final long JITA_SYSTEM=30000142;
+	//
+	// find . -name "solarsystem.staticdata" | grep Dodixie | xargs grep -e
+	// "solarSystemID"
+	//
+	public static final int JITA_SYSTEM = 30000142;
+	public static final int AMARR_SYSTEM = 30002187;
+	public static final int RENS_SYSTEM = 30002510;
+	public static final int DODIXIE_SYSTEM = 30002659;
+	public static final int HEK_SYSTEM = 30002053;
 
 	// set to -1 to ignore system
 	public final String baseurl;
 
+	/**
+	 * create a new Evecentral, getting results for the given system. <1 means no
+	 * system (eve-wide)
+	 *
+	 * @param system
+	 */
 	public EveCentral(long system) {
 		baseurl = system > 0 ? "https://api.eve-central.com/api/marketstat?usesystem=" + system
 				: "https://api.eve-central.com/api/marketstat?";
 	}
 
+	/**
+	 * create a new EveCentral for Jita data
+	 */
 	public EveCentral() {
 		this(JITA_SYSTEM);
 	}
@@ -53,6 +71,7 @@ public class EveCentral {
 	protected BOSO boso(int itemID) {
 		BOSO ret = cachedValues.get(itemID);
 		if (ret == null) {
+			System.err.println(" evecentral cache miss " + itemID);
 			nbMiss++;
 			String url = baseurl + "&typeid=" + itemID;
 			ret = new BOSO();
@@ -85,7 +104,15 @@ public class EveCentral {
 	 * cache the data about several items
 	 */
 	public void cache(int... itemIDs) {
-		if(itemIDs==null || itemIDs.length==0) {return ;}
+		if (itemIDs == null) {
+			return;
+		}
+		// only keep the ids we don't already have cached
+		itemIDs = IntStream.of(itemIDs).filter(i -> !cachedValues.containsKey(i)).toArray();
+		if (itemIDs.length == 0) {
+			return;// if all data is already cached, no reason to keep going
+		}
+
 		// evecentral can't have urls with more than 2048 characters.
 		// base url = 60-65 cars
 		// each item = +12 cars
@@ -98,12 +125,11 @@ public class EveCentral {
 			return;
 		}
 		StringBuilder sb = new StringBuilder(baseurl);
-		for(long id : itemIDs) {
+		for (int id : itemIDs) {
 			sb.append("&typeid=").append(id);
 		}
-		Document page;
 		try {
-			page = Jsoup.connect(sb.toString()).get();
+			Document page = Jsoup.connect(sb.toString()).get();
 			for (int id : itemIDs) {
 				BOSO boso = new BOSO();
 				Elements bos = page.select("[id="+id+"] buy max");
