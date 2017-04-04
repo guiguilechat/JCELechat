@@ -6,10 +6,10 @@ import java.util.HashMap;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmEffects;
+import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeAttributes;
 
-public class EdgmEffectsTest {
-	
+public class EdgmTypeAttributesTest {
+
 	/***
 	 * ensure we can parse the corresponding file
 	 * 
@@ -17,8 +17,10 @@ public class EdgmEffectsTest {
 	 */
 	@Test
 	public void testParse() throws FileNotFoundException {
-		HashMap<Integer, EdgmEffects> idx = EdgmEffects.loadByEffectID();
-		Assert.assertEquals(idx.get(11).effectName, "loPower");
+		HashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> idx = EdgmTypeAttributes.loadByTypeIDAttributeID();
+		HashMap<Integer, EdgmTypeAttributes> thrasher = idx.get(16242);
+		Assert.assertNotNull(
+				thrasher.keySet());
 	}
 
 }

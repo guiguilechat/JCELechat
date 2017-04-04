@@ -1,8 +1,8 @@
-package fr.guiguilechat.eveonline.database.retrieval.sde.model;
+package fr.guiguilechat.eveonline.sde.model;
 
 import java.util.HashSet;
 
-import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.Eblueprints;
+import fr.guiguilechat.eveonline.sde.fsd.Eblueprints;
 
 /**
  * usages of an item in industry

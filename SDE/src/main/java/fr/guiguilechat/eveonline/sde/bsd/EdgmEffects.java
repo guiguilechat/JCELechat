@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.database.retrieval.sde.bsd;
+package fr.guiguilechat.eveonline.sde.bsd;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 
-import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDECache;
+import fr.guiguilechat.eveonline.sde.cache.SDECache;
 
 /**
  * an entry in the bsd/dgmEffects.yaml file

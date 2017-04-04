@@ -33,8 +33,8 @@ import org.jfree.data.time.TimeSeriesCollection;
 import org.jfree.data.time.Week;
 
 import fr.guiguilechat.eveonline.database.EveCentral;
-import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDEData;
+import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeAttributes;
 
 public class BurnerParser {
 

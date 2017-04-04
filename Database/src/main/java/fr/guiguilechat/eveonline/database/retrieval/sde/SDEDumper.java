@@ -16,11 +16,11 @@ import fr.guiguilechat.eveonline.database.Database;
 import fr.guiguilechat.eveonline.database.Parser;
 import fr.guiguilechat.eveonline.database.elements.Hull;
 import fr.guiguilechat.eveonline.database.elements.Module;
-import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmEffects;
-import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmTypeAttributes;
-import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmTypeEffects;
-import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDECache;
-import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.EtypeIDs;
+import fr.guiguilechat.eveonline.sde.bsd.EdgmEffects;
+import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeAttributes;
+import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeEffects;
+import fr.guiguilechat.eveonline.sde.cache.SDECache;
+import fr.guiguilechat.eveonline.sde.fsd.EtypeIDs;
 
 public class SDEDumper {
 

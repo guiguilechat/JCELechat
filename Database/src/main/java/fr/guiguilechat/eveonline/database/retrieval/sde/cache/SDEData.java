@@ -11,18 +11,18 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.database.ESIMarketPrices;
 import fr.guiguilechat.eveonline.database.EveCentral;
-import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmAttributeTypes;
-import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmEffects;
-import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmTypeAttributes;
-import fr.guiguilechat.eveonline.database.retrieval.sde.bsd.EdgmTypeEffects;
-import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.Eblueprints;
-import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.Eblueprints.BPActivities.Activity;
-import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.Eblueprints.Material;
-import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.EcategoryIDs;
-import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.EgroupIDs;
-import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.EtypeIDs;
-import fr.guiguilechat.eveonline.database.retrieval.sde.model.IndustryUsages;
-import fr.guiguilechat.eveonline.database.retrieval.sde.model.InventionDecryptor;
+import fr.guiguilechat.eveonline.sde.bsd.EdgmAttributeTypes;
+import fr.guiguilechat.eveonline.sde.bsd.EdgmEffects;
+import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeAttributes;
+import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeEffects;
+import fr.guiguilechat.eveonline.sde.fsd.Eblueprints;
+import fr.guiguilechat.eveonline.sde.fsd.EcategoryIDs;
+import fr.guiguilechat.eveonline.sde.fsd.EgroupIDs;
+import fr.guiguilechat.eveonline.sde.fsd.EtypeIDs;
+import fr.guiguilechat.eveonline.sde.fsd.Eblueprints.Material;
+import fr.guiguilechat.eveonline.sde.fsd.Eblueprints.BPActivities.Activity;
+import fr.guiguilechat.eveonline.sde.model.IndustryUsages;
+import fr.guiguilechat.eveonline.sde.model.InventionDecryptor;
 
 /**
  * cache SDE data and evecentral data.

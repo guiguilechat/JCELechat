@@ -6,6 +6,8 @@ import java.util.LinkedHashMap;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import fr.guiguilechat.eveonline.sde.fsd.EtypeIDs;
+
 
 public class EtypeIDsTest {
 

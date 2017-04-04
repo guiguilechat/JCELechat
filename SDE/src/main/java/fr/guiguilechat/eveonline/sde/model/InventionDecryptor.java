@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.database.retrieval.sde.model;
+package fr.guiguilechat.eveonline.sde.model;
 
 /**
  * decryptors used in invention.

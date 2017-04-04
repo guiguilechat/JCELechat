@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.database.retrieval.sde.fsd;
+package fr.guiguilechat.eveonline.sde.fsd;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -14,7 +14,7 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDECache;
+import fr.guiguilechat.eveonline.sde.cache.SDECache;
 
 public class EgroupIDs {
 
@@ -31,8 +31,9 @@ public class EgroupIDs {
 					MappingNode mn = (MappingNode) node;
 					if (mn.getValue().size() > 0) {
 						if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-								.filter(s -> "published".equals(s)).findAny().isPresent())
+								.filter(s -> "published".equals(s)).findAny().isPresent()) {
 							node.setType(EgroupIDs.class);
+						}
 					}
 				}
 				Construct ret = super.getConstructor(node);
@@ -55,5 +56,9 @@ public class EgroupIDs {
 	public boolean fittableNonSingleton;
 	public boolean useBasePrice;
 	public int iconID;
+
+	public String enName() {
+		return name == null || !name.containsKey("en") ? "unamed" : name.get("en");
+	}
 
 }

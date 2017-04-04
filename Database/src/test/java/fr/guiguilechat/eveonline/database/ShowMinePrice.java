@@ -13,7 +13,7 @@ import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDEData;
-import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.EtypeIDs;
+import fr.guiguilechat.eveonline.sde.fsd.EtypeIDs;
 
 public class ShowMinePrice {
 

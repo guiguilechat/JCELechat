@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.database.retrieval.sde.cache;
+package fr.guiguilechat.eveonline.sde.cache;
 
 import java.io.File;
 import java.io.FileWriter;

@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.database.retrieval.sde.fsd;
+package fr.guiguilechat.eveonline.sde.fsd;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -14,7 +14,7 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDECache;
+import fr.guiguilechat.eveonline.sde.cache.SDECache;
 
 public class EcategoryIDs {
 

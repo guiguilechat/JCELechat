@@ -3,6 +3,8 @@ package fr.guiguilechat.eveonline.database.retrieval.sde.fsd;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import fr.guiguilechat.eveonline.sde.fsd.EgroupIDs;
+
 public class EgroupIDsTest {
 
 	@Test

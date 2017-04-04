@@ -3,6 +3,8 @@ package fr.guiguilechat.eveonline.database.retrieval.sde.fsd;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import fr.guiguilechat.eveonline.sde.fsd.EcategoryIDs;
+
 public class EcategoryIDsTest {
 
 	@Test

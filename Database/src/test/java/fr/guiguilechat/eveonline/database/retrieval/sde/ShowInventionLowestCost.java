@@ -7,10 +7,10 @@ import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.database.ESIMarketPrices;
 import fr.guiguilechat.eveonline.database.EveCentral;
 import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDEData;
-import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.Eblueprints;
-import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.Eblueprints.Material;
-import fr.guiguilechat.eveonline.database.retrieval.sde.fsd.EtypeIDs;
-import fr.guiguilechat.eveonline.database.retrieval.sde.model.InventionDecryptor;
+import fr.guiguilechat.eveonline.sde.fsd.Eblueprints;
+import fr.guiguilechat.eveonline.sde.fsd.EtypeIDs;
+import fr.guiguilechat.eveonline.sde.fsd.Eblueprints.Material;
+import fr.guiguilechat.eveonline.sde.model.InventionDecryptor;
 
 public class ShowInventionLowestCost {
 

@@ -8,6 +8,8 @@ import java.util.HashSet;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeEffects;
+
 public class EdgmTypeEffectsTest {
 
 	/***
