@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
@@ -40,8 +40,8 @@ public class EdgmAttributeTypes {
 		}
 	}
 
-	public static HashMap<Integer, EdgmAttributeTypes> loadByAttributeID() {
-		HashMap<Integer, EdgmAttributeTypes> ret = new HashMap<>();
+	public static LinkedHashMap<Integer, EdgmAttributeTypes> loadByAttributeID() {
+		LinkedHashMap<Integer, EdgmAttributeTypes> ret = new LinkedHashMap<>();
 		for (EdgmAttributeTypes e : load()) {
 			ret.put(e.attributeID, e);
 		}

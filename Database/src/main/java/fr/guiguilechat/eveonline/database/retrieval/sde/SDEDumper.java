@@ -6,7 +6,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
@@ -14,13 +13,18 @@ import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.eveonline.database.Database;
 import fr.guiguilechat.eveonline.database.Parser;
+import fr.guiguilechat.eveonline.database.elements.Asteroid;
 import fr.guiguilechat.eveonline.database.elements.Hull;
 import fr.guiguilechat.eveonline.database.elements.Module;
+import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDEData;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmEffects;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeEffects;
 import fr.guiguilechat.eveonline.sde.cache.SDECache;
+import fr.guiguilechat.eveonline.sde.fsd.Eblueprints;
+import fr.guiguilechat.eveonline.sde.fsd.Eblueprints.Material;
 import fr.guiguilechat.eveonline.sde.fsd.EtypeIDs;
+import fr.guiguilechat.eveonline.sde.model.IndustryUsages;
 
 public class SDEDumper {
 
@@ -28,8 +32,12 @@ public class SDEDumper {
 
 	public static final String DB_HULLS_RES = "SDEDump/hulls.yaml";
 	public static final File DB_HULLS_FILE = new File("src/main/resources/", DB_HULLS_RES);
+
 	public static final String DB_MODULES_RES = "SDEDump/modules.yaml";
 	public static final File DB_MODULES_FILE = new File("src/main/resources", DB_MODULES_RES);
+
+	public static final String DB_ASTEROIDS_RES = "SDEDump/asteroids.yaml";
+	public static final File DB_ASTEROIDS_FILE = new File("src/main/resources", DB_ASTEROIDS_RES);
 
 	public static void main(String[] args) throws IOException {
 		Database db = loadDb();
@@ -37,23 +45,25 @@ public class SDEDumper {
 		Database dbModules = new Database();
 		dbModules.modules = db.modules;
 		db.modules = new LinkedHashMap<>();
+		Database dbAsteroids = new Database();
+		dbAsteroids.asteroids = db.asteroids;
+		db.asteroids = new LinkedHashMap<>();
 		Parser.write(db, DB_HULLS_FILE);
 		Parser.write(dbModules, DB_MODULES_FILE);
+		Parser.write(dbAsteroids, DB_ASTEROIDS_FILE);
 	}
 
-	@SuppressWarnings({ "unchecked" })
 	public static Database loadDb() throws FileNotFoundException {
-		SDECache.donwloadSDE();
+		SDEData sde = new SDEData();
 		Database db = new Database();
 		Map<Integer, String> shipGroups = new LinkedHashMap<>();
 		Map<Integer, String> modulesGroups = new LinkedHashMap<>();
 		findShipModuleGroups(shipGroups, modulesGroups);
 
-		HashMap<Integer, EdgmEffects> effects = EdgmEffects.loadByEffectID();
-		HashMap<Integer, HashMap<Integer, EdgmTypeEffects>> typeEffectsByTypeIDEffectID = EdgmTypeEffects
-				.loadByTypeIDEffectID();
+		HashMap<Integer, EdgmEffects> effects = sde.getEffects();
+		HashMap<Integer, HashMap<Integer, EdgmTypeEffects>> typeEffectsByTypeIDEffectID = sde.getTypeEffects();
 
-		LinkedHashMap<Integer, EtypeIDs> types = EtypeIDs.load();
+		LinkedHashMap<Integer, EtypeIDs> types = sde.getTypeIDs();
 		for (Entry<Integer, EtypeIDs> e : types.entrySet()) {
 			EtypeIDs elem = e.getValue();
 			if (elem.published) {
@@ -86,22 +96,12 @@ public class SDEDumper {
 			}
 		}
 
-		// for each attribute index, its corresponding name
-		LinkedHashMap<Integer, String> attributesByIndex = new LinkedHashMap<>();
-		File attDefYaml = new File(SDECache.CHECKDIR, "bsd/dgmAttributeTypes.yaml");
-		List<Map<String, ?>> attributesDefs = (List<Map<String, ?>>) new Yaml().load(new FileReader(attDefYaml));
-		for (Map<String, ?> att : attributesDefs) {
-			Integer id = (Integer) att.get("attributeID");
-			attributesByIndex.put(id, (String) att.get("attributeName"));
-		}
-
 		// for each [ hull | module ] i, its map of attributeName->
 		// attributeValue
 		// skip anything that is not hull nor module to free memory
 		LinkedHashMap<Integer, LinkedHashMap<String, Object>> hullAttributes = new LinkedHashMap<>();
 		LinkedHashMap<Integer, LinkedHashMap<String, Object>> moduleAttributes = new LinkedHashMap<>();
-		HashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> attributesByTypeId = EdgmTypeAttributes
-				.loadByTypeIDAttributeID();
+		HashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> attributesByTypeId = sde.getTypeAttributes();
 		for (Entry<Integer, HashMap<Integer, EdgmTypeAttributes>> e : attributesByTypeId.entrySet()) {
 			int typeID = e.getKey();
 			// the map corresponding to the item id
@@ -123,7 +123,7 @@ public class SDEDumper {
 			// affect to name->value
 			if (atts != null) {
 				for (Entry<Integer, EdgmTypeAttributes> e2 : e.getValue().entrySet()) {
-					String attributename = attributesByIndex.get(e2.getKey());
+					String attributename = sde.getAttributeTypes().get(e2.getKey()).attributeName;
 					EdgmTypeAttributes affect = e2.getValue();
 					atts.put(attributename, affect.valueFloat != 0 ? affect.valueFloat : affect.valueInt);
 				}
@@ -136,6 +136,8 @@ public class SDEDumper {
 		for (Entry<Integer, LinkedHashMap<String, Object>> moduleAtts : moduleAttributes.entrySet()) {
 			addModuleAttributes(db.modules.get(moduleAtts.getKey()), moduleAtts.getValue());
 		}
+
+		loadAsteroids(sde, db);
 
 		return db;
 	}
@@ -152,7 +154,7 @@ public class SDEDumper {
 	 *           if the database file are not found
 	 */
 	@SuppressWarnings("unchecked")
-	public static final void findShipModuleGroups(Map<Integer, String> shipGroups, Map<Integer, String> modulesGroups)
+	public static void findShipModuleGroups(Map<Integer, String> shipGroups, Map<Integer, String> modulesGroups)
 			throws FileNotFoundException {
 		// find category for modules and ships
 		int shipCat = -1, moduleCat = -1;
@@ -286,6 +288,41 @@ public class SDEDumper {
 			return defaultValue;
 		}
 		return ((Number) ret).intValue();
+	}
+
+	public static void loadAsteroids(SDEData sde, Database db) {
+		sde.getTypeIDsForCategory(25).forEach(i -> {
+			EtypeIDs type = sde.getType(i);
+			Asteroid a = new Asteroid();
+			db.asteroids.put(type.enName(), a);
+			a.volume = type.volume;
+			a.id = i;
+			String desc = type.description.getOrDefault("en", "");
+			if (desc.contains("Available")) {
+				String availables = desc.replaceAll("\\n|\\r", "").replaceAll(".*'>", "").replaceAll("</.*", "");
+				a.maxSecurity = Float.parseFloat(availables);
+			} else {
+				a.maxSecurity = -1.0;
+			}
+		});
+		for (Entry<String, Asteroid> e : db.asteroids.entrySet()) {
+			Asteroid a = e.getValue();
+			IndustryUsages usages = sde.getIndustryUsages().get(a.id);
+			if (usages != null) {
+				for (Eblueprints l : usages.asMaterial) {
+					System.err.println(sde.getType(l.blueprintTypeID).enName());
+					Material product = l.activities.manufacturing.products.get(0);
+					Material requirement = l.activities.manufacturing.materials.stream()
+							.filter(m -> m.typeID == a.id)
+							.findAny().get();
+					String prodName = sde.getType(product.typeID).enName();
+					double ratio = requirement.quantity * 1.0 / product.quantity;
+					a.compressedTo = prodName;
+					db.asteroids.get(prodName).compressedFrom = e.getKey();
+					db.asteroids.get(prodName).compressRatio = ratio;
+				}
+			}
+		}
 	}
 
 }

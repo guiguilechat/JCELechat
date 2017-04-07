@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.IntStream;
@@ -16,11 +17,11 @@ import fr.guiguilechat.eveonline.sde.bsd.EdgmEffects;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeEffects;
 import fr.guiguilechat.eveonline.sde.fsd.Eblueprints;
+import fr.guiguilechat.eveonline.sde.fsd.Eblueprints.BPActivities.Activity;
+import fr.guiguilechat.eveonline.sde.fsd.Eblueprints.Material;
 import fr.guiguilechat.eveonline.sde.fsd.EcategoryIDs;
 import fr.guiguilechat.eveonline.sde.fsd.EgroupIDs;
 import fr.guiguilechat.eveonline.sde.fsd.EtypeIDs;
-import fr.guiguilechat.eveonline.sde.fsd.Eblueprints.Material;
-import fr.guiguilechat.eveonline.sde.fsd.Eblueprints.BPActivities.Activity;
 import fr.guiguilechat.eveonline.sde.model.IndustryUsages;
 import fr.guiguilechat.eveonline.sde.model.InventionDecryptor;
 
@@ -31,83 +32,81 @@ public class SDEData {
 
 	// bsd
 
-	protected HashMap<Integer, EdgmAttributeTypes> cachedAttributeTypes = null;
+	protected LinkedHashMap<Integer, EdgmAttributeTypes> cachedAttributeTypes = null;
 
-	public HashMap<Integer, EdgmAttributeTypes> getAttributeTypes() {
+	public LinkedHashMap<Integer, EdgmAttributeTypes> getAttributeTypes() {
 		if (cachedAttributeTypes == null) {
 			cachedAttributeTypes = EdgmAttributeTypes.loadByAttributeID();
 		}
 		return cachedAttributeTypes;
 	}
 
-	protected HashMap<Integer, EdgmEffects> cachedEffects = null;
+	protected LinkedHashMap<Integer, EdgmEffects> cachedEffects = null;
 
-	public HashMap<Integer, EdgmEffects> getEffects() {
+	public LinkedHashMap<Integer, EdgmEffects> getEffects() {
 		if (cachedEffects == null) {
 			cachedEffects = EdgmEffects.loadByEffectID();
 		}
 		return cachedEffects;
 	}
 
-	protected HashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> cachedTypeAttributes = null;
+	protected LinkedHashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> cachedTypeAttributes = null;
 
-	public HashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> getTypeAttributes() {
+	public LinkedHashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> getTypeAttributes() {
 		if (cachedTypeAttributes == null) {
-			cachedTypeAttributes = EdgmTypeAttributes
-					.loadByTypeIDAttributeID();
+			cachedTypeAttributes = EdgmTypeAttributes.loadByTypeIDAttributeID();
 		}
 		return cachedTypeAttributes;
 	}
 
-	protected HashMap<Integer, HashMap<Integer, EdgmTypeEffects>> cachedTypeEffects = null;
+	protected LinkedHashMap<Integer, HashMap<Integer, EdgmTypeEffects>> cachedTypeEffects = null;
 
 	/**
 	 * get the cached typeID->effectId->EdgmTypeeffect
 	 *
 	 * @return
 	 */
-	public HashMap<Integer, HashMap<Integer, EdgmTypeEffects>>  getTypeEffects() {
+	public LinkedHashMap<Integer, HashMap<Integer, EdgmTypeEffects>> getTypeEffects() {
 		if (cachedTypeEffects == null) {
-			cachedTypeEffects = EdgmTypeEffects
-					.loadByTypeIDEffectID();
+			cachedTypeEffects = EdgmTypeEffects.loadByTypeIDEffectID();
 		}
 		return cachedTypeEffects;
 	}
 
 	// fsd
 
-	protected HashMap<Integer, Eblueprints> cachedBlueprints = null;
+	protected LinkedHashMap<Integer, Eblueprints> cachedBlueprints = null;
 
-	public HashMap<Integer, Eblueprints> getBlueprints() {
-		if(cachedBlueprints==null) {
-			cachedBlueprints=Eblueprints.load();
+	public LinkedHashMap<Integer, Eblueprints> getBlueprints() {
+		if (cachedBlueprints == null) {
+			cachedBlueprints = Eblueprints.load();
 		}
 		return cachedBlueprints;
 	}
 
-	protected HashMap<Integer, EcategoryIDs> cachedCategoryIDs = null;
+	protected LinkedHashMap<Integer, EcategoryIDs> cachedCategoryIDs = null;
 
-	public HashMap<Integer, EcategoryIDs> getCategoryIDs() {
-		if(cachedCategoryIDs==null) {
-			cachedCategoryIDs=EcategoryIDs.load();
+	public LinkedHashMap<Integer, EcategoryIDs> getCategoryIDs() {
+		if (cachedCategoryIDs == null) {
+			cachedCategoryIDs = EcategoryIDs.load();
 		}
 		return cachedCategoryIDs;
 	}
 
-	protected HashMap<Integer, EgroupIDs> cachedGroupIDs = null;
+	protected LinkedHashMap<Integer, EgroupIDs> cachedGroupIDs = null;
 
-	public HashMap<Integer, EgroupIDs> getGroupIDs() {
-		if(cachedGroupIDs==null) {
-			cachedGroupIDs=EgroupIDs.load();
+	public LinkedHashMap<Integer, EgroupIDs> getGroupIDs() {
+		if (cachedGroupIDs == null) {
+			cachedGroupIDs = EgroupIDs.load();
 		}
 		return cachedGroupIDs;
 	}
 
-	protected HashMap<Integer, EtypeIDs> cachedTypeIDs = null;
+	protected LinkedHashMap<Integer, EtypeIDs> cachedTypeIDs = null;
 
-	public HashMap<Integer, EtypeIDs> getTypeIDs() {
-		if(cachedTypeIDs==null) {
-			cachedTypeIDs=EtypeIDs.load();
+	public LinkedHashMap<Integer, EtypeIDs> getTypeIDs() {
+		if (cachedTypeIDs == null) {
+			cachedTypeIDs = EtypeIDs.load();
 		}
 		return cachedTypeIDs;
 	}
@@ -116,20 +115,18 @@ public class SDEData {
 		return getTypeIDs().get(id);
 	}
 
-	protected HashMap<String, Integer> cachedDico=null;
+	protected HashMap<String, Integer> cachedDico = null;
 
 	/**
 	 * get the dictionary of names (lower case) to the types ids
+	 * 
 	 * @return the internal cached dictionary
 	 */
-	public HashMap<String, Integer> getDico(){
-		if(cachedDico==null) {
+	public HashMap<String, Integer> getDico() {
+		if (cachedDico == null) {
 			cachedDico = new HashMap<>();
 			for (Entry<Integer, EtypeIDs> e : getTypeIDs().entrySet()) {
-				cachedDico.put(e.getValue()
-						.enName()
-						.toLowerCase(),
-						e.getKey());
+				cachedDico.put(e.getValue().enName().toLowerCase(), e.getKey());
 			}
 		}
 		return cachedDico;
@@ -170,7 +167,7 @@ public class SDEData {
 	protected ArrayList<InventionDecryptor> cachedDecryptors = null;
 
 	public ArrayList<InventionDecryptor> getInventionDecryptors() {
-		if(cachedDecryptors==null) {
+		if (cachedDecryptors == null) {
 			// group of decryptors. hardcoded since I don't know how to get the
 			HashSet<Integer> groups = new HashSet<>();
 			groups.add(1304);
@@ -229,7 +226,6 @@ public class SDEData {
 
 	protected HashMap<Integer, IndustryUsages> cachedUsages = null;
 
-
 	protected IndustryUsages getCreateUsages(int itemID) {
 		IndustryUsages ret = cachedUsages.get(itemID);
 		if (ret == null) {
@@ -243,7 +239,9 @@ public class SDEData {
 		if (cachedUsages == null) {
 			cachedUsages = new HashMap<>();
 			for (Eblueprints bp : getBlueprints().values()) {
-				for (Activity act : new Activity[] { bp.activities.copying, bp.activities.invention,
+				for (Activity act : new Activity[] { 
+						bp.activities.copying, 
+						bp.activities.invention,
 						bp.activities.manufacturing }) {
 					for (Material m : act.materials) {
 						getCreateUsages(m.typeID).asMaterial.add(bp);
@@ -281,8 +279,7 @@ public class SDEData {
 			return Stream.empty();
 		}
 		return usages.asProduct.stream()
-				.filter(bp -> bp.activities.invention.products.stream()
-						.filter(m -> m.typeID == itemID).findAny().isPresent());
+				.filter(bp -> bp.activities.invention.products.stream().filter(m -> m.typeID == itemID).findAny().isPresent());
 	}
 
 	/**
@@ -296,9 +293,8 @@ public class SDEData {
 		if (usages == null) {
 			return Stream.empty();
 		}
-		return usages.asProduct.stream()
-				.filter(bp -> bp.activities.manufacturing.products.stream()
-						.filter(m -> m.typeID == itemID).findAny().isPresent());
+		return usages.asProduct.stream().filter(
+				bp -> bp.activities.manufacturing.products.stream().filter(m -> m.typeID == itemID).findAny().isPresent());
 	}
 
 	public Stream<Eblueprints> getParentBPO(int itemID) {

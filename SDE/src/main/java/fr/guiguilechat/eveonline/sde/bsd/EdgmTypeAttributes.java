@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
@@ -47,8 +48,8 @@ public class EdgmTypeAttributes {
 		}
 	}
 
-	public static HashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> loadByTypeIDAttributeID() {
-		HashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> ret = new HashMap<>();
+	public static LinkedHashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> loadByTypeIDAttributeID() {
+		LinkedHashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> ret = new LinkedHashMap<>();
 		for (EdgmTypeAttributes e : load()) {
 			HashMap<Integer, EdgmTypeAttributes> m = ret.get(e.typeID);
 			if (m == null) {
