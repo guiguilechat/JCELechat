@@ -10,8 +10,6 @@ import java.util.Set;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.eveonline.database.ESIMarketPrices;
-import fr.guiguilechat.eveonline.database.EveCentral;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmAttributeTypes;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmEffects;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeAttributes;
@@ -130,36 +128,6 @@ public class SDEData {
 			}
 		}
 		return cachedDico;
-	}
-
-	protected ESIMarketPrices esi = new ESIMarketPrices();
-
-	public ESIMarketPrices getESI() {
-		return esi;
-	}
-
-	// central cache
-
-	protected HashMap<Long, EveCentral> centrals = new HashMap<>();
-
-	/**
-	 * get a cached central for given system.
-	 *
-	 * @param systemID
-	 *          ID of system, Jita by default.
-	 * @return the internal cached eve-central proxy
-	 */
-	public EveCentral central(long systemID) {
-		EveCentral ret = centrals.get(systemID);
-		if (ret == null) {
-			ret = new EveCentral(systemID);
-			centrals.put(systemID, ret);
-		}
-		return ret;
-	}
-
-	public EveCentral central() {
-		return central(EveCentral.JITA_SYSTEM);
 	}
 
 	// invetion decryptors

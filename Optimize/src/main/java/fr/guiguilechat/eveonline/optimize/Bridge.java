@@ -1,22 +1,22 @@
 package fr.guiguilechat.eveonline.optimize;
 
-import fr.guiguilechat.eveonline.database.Database;
-import fr.guiguilechat.eveonline.database.elements.Hull;
-import fr.guiguilechat.eveonline.database.elements.Module;
+import fr.guiguilechat.eveonline.database.DataBase;
+import fr.guiguilechat.eveonline.database.yaml.Hull;
+import fr.guiguilechat.eveonline.database.yaml.Module;
 
 public class Bridge {
 
-	public final Database database;
+	public final DataBase database;
 
 	protected final Hull[] hulls;
 
 	/** for each hull i in the bridge, the corresponding item id for Eve */
 	protected final int[] hullsIds;
 
-	public Bridge(Database database) {
+	public Bridge(DataBase database) {
 		this.database = database;
-		hulls = database.hulls.values().toArray(new Hull[] {});
-		hullsIds = database.hulls.keySet().stream().mapToInt(i -> i).toArray();
+		hulls = database.getHulls().values().toArray(new Hull[] {});
+		hullsIds = database.getHulls().keySet().stream().mapToInt(i -> i).toArray();
 	}
 
 	public Hull[] getHulls() {
@@ -31,7 +31,7 @@ public class Bridge {
 
 	public int[] getHullSpeed() {
 		if (hullSpeed == null) {
-			hullSpeed = database.hulls.values().stream().mapToInt(h -> h.attributes.velocity).toArray();
+			hullSpeed = database.getHulls().values().stream().mapToInt(h -> h.attributes.velocity).toArray();
 		}
 		return hullSpeed;
 	}
@@ -40,7 +40,7 @@ public class Bridge {
 
 	public Module[] getHighModules() {
 		if (highModules == null) {
-			highModules = database.modules.values().stream().filter(m -> m.attributes.slot.equals("high"))
+			highModules = database.getModules().values().stream().filter(m -> m.attributes.slot.equals("high"))
 					.toArray(Module[]::new);
 		}
 		return highModules;
@@ -50,7 +50,7 @@ public class Bridge {
 
 	public Module[] getMediumModules() {
 		if (mediumModules == null) {
-			mediumModules = database.modules.values().stream().filter(m -> m.attributes.slot.equals("medium"))
+			mediumModules = database.getModules().values().stream().filter(m -> m.attributes.slot.equals("medium"))
 					.toArray(Module[]::new);
 		}
 		return highModules;
@@ -60,7 +60,7 @@ public class Bridge {
 
 	public Module[] getLowModules() {
 		if (lowModules == null) {
-			lowModules = database.modules.values().stream().filter(m -> m.attributes.slot.equals("low"))
+			lowModules = database.getModules().values().stream().filter(m -> m.attributes.slot.equals("low"))
 					.toArray(Module[]::new);
 		}
 		return highModules;

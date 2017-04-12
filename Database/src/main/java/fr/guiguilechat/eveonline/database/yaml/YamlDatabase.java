@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.database;
+package fr.guiguilechat.eveonline.database.yaml;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,6 +9,7 @@ import java.io.InputStream;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
@@ -25,39 +26,25 @@ import org.yaml.snakeyaml.nodes.NodeTuple;
 import org.yaml.snakeyaml.nodes.Tag;
 import org.yaml.snakeyaml.representer.Representer;
 
-import fr.guiguilechat.eveonline.database.elements.Hull;
+import fr.guiguilechat.eveonline.database.DataBase;
 import fr.guiguilechat.eveonline.database.retrieval.sde.SDEDumper;
 
 /**
  * tools to get existing database
  */
-public class Parser {
+public class YamlDatabase extends DataBase {
 
-	public static Database load(File file) throws FileNotFoundException {
-		return makeYaml().loadAs(new FileReader(file), Database.class);
+	public static DatabaseFile load(File file) throws FileNotFoundException {
+		return makeYaml().loadAs(new FileReader(file), DatabaseFile.class);
 	}
 
-	public static Database load(InputStream stream) {
-		return makeYaml().loadAs(stream, Database.class);
+	public static DatabaseFile load(InputStream stream) {
+		return makeYaml().loadAs(stream, DatabaseFile.class);
 	}
 
-	public static void write(Database db, File file) throws IOException {
+	public static void write(DatabaseFile db, File file) throws IOException {
 		file.getParentFile().mkdirs();
 		makeYaml().dump(db, new FileWriter(file));
-	}
-
-	public static Database getSDEDB() {
-		InputStream hullsStream = Database.class.getResourceAsStream("/" + SDEDumper.DB_HULLS_RES);
-		Database hullDB = hullsStream != null ? load(hullsStream) : null;
-		InputStream modulesStream = Database.class.getResourceAsStream("/" + SDEDumper.DB_MODULES_RES);
-		Database modulesDB = modulesStream != null ? load(modulesStream) : null;
-		if (hullDB == null) {
-			return modulesDB;
-		}
-		if (modulesDB != null) {
-			hullDB.merge(modulesDB);
-		}
-		return hullDB;
 	}
 
 	protected static Yaml makeYaml() {
@@ -69,9 +56,11 @@ public class Parser {
 	}
 
 	protected static BaseConstructor makeConstructor() {
-		Constructor ret = new Constructor(Database.class);
-		TypeDescription td = new TypeDescription(Database.class);
+		Constructor ret = new Constructor(DatabaseFile.class);
+		TypeDescription td = new TypeDescription(DatabaseFile.class);
 		td.putMapPropertyType("hulls", Integer.class, Hull.class);
+		td.putMapPropertyType("asteroids", String.class, Asteroid.class);
+		td.putMapPropertyType("modules", Integer.class, Module.class);
 		ret.addTypeDescription(td);
 		return ret;
 	}
@@ -120,6 +109,54 @@ public class Parser {
 			ret.setFlowStyle(false);
 			return ret;
 		}
+	}
+
+	protected LinkedHashMap<Integer, Hull> hulls = null;
+
+	@Override
+	public LinkedHashMap<Integer, Hull> getHulls() {
+		if (hulls == null) {
+			InputStream hullsStream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_HULLS_RES);
+			DatabaseFile hullDB = hullsStream != null ? load(hullsStream) : null;
+			if (hullDB != null) {
+				hulls = hullDB.hulls;
+			} else {
+				hulls = new LinkedHashMap<>();
+			}
+		}
+		return hulls;
+	}
+
+	protected LinkedHashMap<Integer, Module> modules = null;
+
+	@Override
+	public LinkedHashMap<Integer, Module> getModules() {
+		if (modules == null) {
+			InputStream modulesStream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_MODULES_RES);
+			DatabaseFile moduleDB = modulesStream != null ? load(modulesStream) : null;
+			if (moduleDB != null) {
+				modules = moduleDB.modules;
+			} else {
+				modules = new LinkedHashMap<>();
+			}
+		}
+		return modules;
+	}
+
+	protected LinkedHashMap<String, Asteroid> asteroids = null;
+
+	@Override
+	public LinkedHashMap<String, Asteroid> getAsteroids() {
+		if (asteroids == null) {
+			InputStream asteroidsStream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_ASTEROIDS_RES);
+			DatabaseFile asteroidsDB = asteroidsStream != null ? load(asteroidsStream) : null;
+			if (asteroidsDB != null) {
+				asteroids = asteroidsDB.asteroids;
+			} else {
+				asteroids = new LinkedHashMap<>();
+			}
+		}
+		return asteroids;
 	}
 
 }

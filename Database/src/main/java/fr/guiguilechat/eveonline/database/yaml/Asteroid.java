@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.database.elements;
+package fr.guiguilechat.eveonline.database.yaml;
 
 public class Asteroid {
 
@@ -12,6 +12,8 @@ public class Asteroid {
 	public double volume;
 
 	public int id;
+
+	public String groupName;
 
 	/**
 	 * maximum security we can mine this from. if <=-1 cannot be mined

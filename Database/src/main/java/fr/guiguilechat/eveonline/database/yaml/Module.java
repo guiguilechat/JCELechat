@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.database.elements;
+package fr.guiguilechat.eveonline.database.yaml;
 
 import java.util.ArrayList;
 

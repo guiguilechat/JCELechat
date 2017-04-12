@@ -8,6 +8,10 @@ import java.util.Map;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**
+ * get data from the ESI market interface
+ *
+ */
 public class ESIMarketPrices {
 
 	protected HashMap<Integer, Double> cachedAverage = null;
@@ -24,9 +28,10 @@ public class ESIMarketPrices {
 		try {
 			List<Map<String, ?>> l = mapper.readValue(new URL("https://esi.tech.ccp.is/latest/markets/prices/"), List.class);
 			for (Map<String, ?> m : l) {
-				int id = (int) m.get("type_id");
-				cachedAverage.put(id, (Double) m.get("average_price"));
-				cachedAdjusted.put(id, (Double) m.get("adjusted_price"));
+				Object oid = m.get("type_id");
+					int id = (Integer) oid;
+					cachedAverage.put(id, (Double) m.get("average_price"));
+					cachedAdjusted.put(id, (Double) m.get("adjusted_price"));
 			}
 		} catch (IOException e) {
 			e.printStackTrace(System.err);

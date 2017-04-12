@@ -1,12 +1,12 @@
-package fr.guiguilechat.eveonline.database;
+package fr.guiguilechat.eveonline.database.yaml;
 
 import java.util.LinkedHashMap;
 
-import fr.guiguilechat.eveonline.database.elements.Asteroid;
-import fr.guiguilechat.eveonline.database.elements.Hull;
-import fr.guiguilechat.eveonline.database.elements.Module;
-
-public class Database {
+/**
+ * a file for database loading from yaml
+ *
+ */
+public class DatabaseFile {
 
 	public LinkedHashMap<Integer, Hull> hulls = new LinkedHashMap<>();
 
@@ -20,10 +20,11 @@ public class Database {
 	 *
 	 * @param db
 	 */
-	public void merge(Database db) {
+	public void merge(DatabaseFile db) {
 		hulls.putAll(db.hulls);
 		modules.putAll(db.modules);
 		asteroids.putAll(db.asteroids);
 	}
+
 
 }

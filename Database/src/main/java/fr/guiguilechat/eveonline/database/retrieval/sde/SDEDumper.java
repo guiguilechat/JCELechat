@@ -11,12 +11,12 @@ import java.util.Map.Entry;
 
 import org.yaml.snakeyaml.Yaml;
 
-import fr.guiguilechat.eveonline.database.Database;
-import fr.guiguilechat.eveonline.database.Parser;
-import fr.guiguilechat.eveonline.database.elements.Asteroid;
-import fr.guiguilechat.eveonline.database.elements.Hull;
-import fr.guiguilechat.eveonline.database.elements.Module;
 import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDEData;
+import fr.guiguilechat.eveonline.database.yaml.Asteroid;
+import fr.guiguilechat.eveonline.database.yaml.DatabaseFile;
+import fr.guiguilechat.eveonline.database.yaml.Hull;
+import fr.guiguilechat.eveonline.database.yaml.Module;
+import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmEffects;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeEffects;
@@ -40,22 +40,22 @@ public class SDEDumper {
 	public static final File DB_ASTEROIDS_FILE = new File("src/main/resources", DB_ASTEROIDS_RES);
 
 	public static void main(String[] args) throws IOException {
-		Database db = loadDb();
+		DatabaseFile db = loadDb();
 		DB_DIR.mkdirs();
-		Database dbModules = new Database();
+		DatabaseFile dbModules = new DatabaseFile();
 		dbModules.modules = db.modules;
 		db.modules = new LinkedHashMap<>();
-		Database dbAsteroids = new Database();
+		DatabaseFile dbAsteroids = new DatabaseFile();
 		dbAsteroids.asteroids = db.asteroids;
 		db.asteroids = new LinkedHashMap<>();
-		Parser.write(db, DB_HULLS_FILE);
-		Parser.write(dbModules, DB_MODULES_FILE);
-		Parser.write(dbAsteroids, DB_ASTEROIDS_FILE);
+		YamlDatabase.write(db, DB_HULLS_FILE);
+		YamlDatabase.write(dbModules, DB_MODULES_FILE);
+		YamlDatabase.write(dbAsteroids, DB_ASTEROIDS_FILE);
 	}
 
-	public static Database loadDb() throws FileNotFoundException {
+	public static DatabaseFile loadDb() throws FileNotFoundException {
 		SDEData sde = new SDEData();
-		Database db = new Database();
+		DatabaseFile db = new DatabaseFile();
 		Map<Integer, String> shipGroups = new LinkedHashMap<>();
 		Map<Integer, String> modulesGroups = new LinkedHashMap<>();
 		findShipModuleGroups(shipGroups, modulesGroups);
@@ -158,6 +158,7 @@ public class SDEDumper {
 			throws FileNotFoundException {
 		// find category for modules and ships
 		int shipCat = -1, moduleCat = -1;
+		SDECache.donwloadSDE();
 		File CategoryYaml = new File(SDECache.CHECKDIR, "fsd/categoryIDs.yaml");
 		HashMap<Integer, Map<String, ?>> categorys = (HashMap<Integer, Map<String, ?>>) new Yaml()
 				.load(new FileReader(CategoryYaml));
@@ -290,13 +291,14 @@ public class SDEDumper {
 		return ((Number) ret).intValue();
 	}
 
-	public static void loadAsteroids(SDEData sde, Database db) {
+	public static void loadAsteroids(SDEData sde, DatabaseFile db) {
 		sde.getTypeIDsForCategory(25).forEach(i -> {
 			EtypeIDs type = sde.getType(i);
 			Asteroid a = new Asteroid();
 			db.asteroids.put(type.enName(), a);
 			a.volume = type.volume;
 			a.id = i;
+			a.groupName = sde.getGroupIDs().get(type.groupID).enName();
 			String desc = type.description.getOrDefault("en", "");
 			if (desc.contains("Available")) {
 				String availables = desc.replaceAll("\\n|\\r", "").replaceAll(".*'>", "").replaceAll("</.*", "");
@@ -310,7 +312,6 @@ public class SDEDumper {
 			IndustryUsages usages = sde.getIndustryUsages().get(a.id);
 			if (usages != null) {
 				for (Eblueprints l : usages.asMaterial) {
-					System.err.println(sde.getType(l.blueprintTypeID).enName());
 					Material product = l.activities.manufacturing.products.get(0);
 					Material requirement = l.activities.manufacturing.materials.stream()
 							.filter(m -> m.typeID == a.id)

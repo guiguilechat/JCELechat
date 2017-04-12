@@ -40,7 +40,7 @@ public class BurnerParser {
 
 	public static void main(String[] args) {
 		BurnerParser bp = new BurnerParser();
-		EveCentral central = bp.sde.central(0);
+		EveCentral central = new EveCentral(0);
 		ArrayList<LootEntry> list = bp.loadDirectory(new File(args[0]));
 
 		int[] allItemsIds = list.stream().flatMapToInt(e -> e.loots.keySet().stream().mapToInt(i -> i)).distinct()
