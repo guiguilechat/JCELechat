@@ -6,7 +6,7 @@ public class Asteroid {
 
 	public String compressedTo = null;
 
-	// number of compressedFrom we need to have one element of this.
+	/** number of compressedFrom we need to have one element of this. */
 	public double compressRatio = 0.0;
 
 	public double volume;

@@ -313,14 +313,12 @@ public class SDEDumper {
 			if (usages != null) {
 				for (Eblueprints l : usages.asMaterial) {
 					Material product = l.activities.manufacturing.products.get(0);
-					Material requirement = l.activities.manufacturing.materials.stream()
-							.filter(m -> m.typeID == a.id)
-							.findAny().get();
-					String prodName = sde.getType(product.typeID).enName();
-					double ratio = requirement.quantity * 1.0 / product.quantity;
+					EtypeIDs prodType = sde.getType(product.typeID);
+					String prodName = prodType.enName();
 					a.compressedTo = prodName;
-					db.asteroids.get(prodName).compressedFrom = e.getKey();
-					db.asteroids.get(prodName).compressRatio = ratio;
+					Asteroid astProduct = db.asteroids.get(prodName);
+					astProduct.compressedFrom = e.getKey();
+					astProduct.compressRatio = prodType.groupID == 465 ? 1 : 100;
 				}
 			}
 		}

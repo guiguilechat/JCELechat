@@ -2,8 +2,10 @@ package fr.guiguilechat.eveonline.database;
 
 import java.io.PrintWriter;
 import java.text.DecimalFormat;
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.function.Predicate;
@@ -16,14 +18,21 @@ import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 
 public class ShowMinePrice {
 
-	public static class AsteroidData {
-		Asteroid type;
+	public static class OreTradeOrder {
 		double bo;
 		double so;
 		String name;
+		/** volume of raw mineral we need to have one sellable item */
+		double extractionVolume;
 		public double boPerVolume() {
-			return bo / type.volume;
+			return bo / extractionVolume;
 		}
+
+		/**
+		 * max security of the uncompressed ore. this only has meaning for
+		 * compressed ore, otherwise should be equal to type.maxSecurity
+		 */
+		double maxRawSecurity;
 	}
 
 	public static final DecimalFormat secFormat = new DecimalFormat("#.#");
@@ -38,7 +47,7 @@ public class ShowMinePrice {
 		hubs.put("Hek", EveCentral.HEK_SYSTEM);
 
 		LinkedHashMap<String, Predicate<Asteroid>> typefilters = new LinkedHashMap<>();
-		// group 465=ice
+		// group 465=Ice
 		typefilters.put("ore", a -> !a.groupName.equals("Ice"));
 		typefilters.put("ice", a -> a.groupName.equals("Ice"));
 
@@ -50,13 +59,14 @@ public class ShowMinePrice {
 
 	}
 
-	public static AsteroidData getAsteroidData(Asteroid astero, String name, EveCentral market) {
-		AsteroidData data = new AsteroidData();
-		data.name = name;
-		data.type = astero;
-		data.bo = market.getBO(astero.id);
-		data.so = market.getSO(astero.id);
-		return data;
+	public static OreTradeOrder getAsteroidData(Asteroid astero, String name, EveCentral market) {
+		OreTradeOrder order = new OreTradeOrder();
+		order.name = name;
+		order.bo = market.getBO(astero.id);
+		order.so = market.getSO(astero.id);
+		order.extractionVolume = astero.volume;
+		order.maxRawSecurity = astero.maxSecurity;
+		return order;
 	}
 
 	public static LinkedHashMap<String, LinkedHashMap<String, LinkedHashMap<Float, LinkedHashMap<String, Double>>>> makePrices(
@@ -93,17 +103,29 @@ public class ShowMinePrice {
 		int[] typeIDs = db.getAsteroids().entrySet().stream().filter(e -> typefilter.test(e.getValue()))
 				.mapToInt(e -> e.getValue().id).toArray();
 		db.central(marketlimit).cache(typeIDs);
-		AsteroidData[] datas2 = db.getAsteroids().entrySet().stream().filter(e -> typefilter.test(e.getValue()))
-				.map(e -> getAsteroidData(e.getValue(), e.getKey(), db.central(marketlimit)))
-				.filter(ad -> ad.type.maxSecurity > -1).toArray(AsteroidData[]::new);
-		Arrays.sort(datas2, (d1, d2) -> (int) Math.signum(d2.boPerVolume() - d1.boPerVolume()));
-		Arrays.stream(datas2).map(d -> (Double) d.type.maxSecurity).distinct()
-		.sorted((f1, f2) -> (int) Math.signum(f2 - f1))
-		.filter(i -> i > -1).forEach(systemSec -> {
+		List<OreTradeOrder> asteroiDataList = new ArrayList<>();
+		for (Entry<String, Asteroid> e : db.getAsteroids().entrySet()) {
+			Asteroid a = e.getValue();
+			if (typefilter.test(a) && a.maxSecurity > -1) {
+				asteroiDataList.add(getAsteroidData(a, e.getKey(), db.central(marketlimit)));
+				if (a.compressedTo != null) {
+					Asteroid asteroCompressed = db.getAsteroids().get(a.compressedTo);
+					OreTradeOrder orderCompressed = getAsteroidData(asteroCompressed, a.compressedTo, db.central(marketlimit));
+					// replace compressed volume by uncompressed volume
+					orderCompressed.extractionVolume = asteroCompressed.compressRatio * a.volume;
+					orderCompressed.maxRawSecurity = a.maxSecurity;
+					asteroiDataList.add(orderCompressed);
+				}
+			}
+		}
+		Collections.sort(asteroiDataList, (d1, d2) -> (int) Math.signum(d2.boPerVolume() - d1.boPerVolume()));
+		// for each maxsecurity
+		asteroiDataList.stream().map(d -> (Double) d.maxRawSecurity).distinct()
+		.sorted((f1, f2) -> (int) Math.signum(f2 - f1)).forEach(systemSec -> {
 			LinkedHashMap<String, Double> values = new LinkedHashMap<>();
 			ret.put(systemSec.floatValue(), values);
-			for (AsteroidData data : datas2) {
-				if (data.type.maxSecurity == systemSec) {
+			for (OreTradeOrder data : asteroiDataList) {
+				if (data.maxRawSecurity == systemSec) {
 					values.put(data.name, data.boPerVolume());
 				}
 			}
