@@ -13,8 +13,6 @@ public class EvaluateRigs {
 		for (Entry<String, Module> e : db.getModules().entrySet()) {
 			Module m = e.getValue();
 			int id = m.id;
-			// only get rigs
-			// module is rig if has an effect named "rigSlot"
 			if (m.isRig() && m.techLevel() == 1) {
 				System.err.println("" + id + "\t" + m.name);
 				// db.

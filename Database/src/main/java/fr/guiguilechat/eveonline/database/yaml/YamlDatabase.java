@@ -62,6 +62,7 @@ public class YamlDatabase extends DataBase {
 		td.putMapPropertyType("asteroids", String.class, Asteroid.class);
 		td.putMapPropertyType("modules", Integer.class, Module.class);
 		td.putMapPropertyType("blueprints", String.class, Blueprint.class);
+		td.putMapPropertyType("metaInfs", String.class, MetaInf.class);
 		ret.addTypeDescription(td);
 		return ret;
 	}
@@ -176,15 +177,15 @@ public class YamlDatabase extends DataBase {
 		return blueprints;
 	}
 
-	protected LinkedHashMap<String, Integer> eveIDs = null;
+	protected LinkedHashMap<String, MetaInf> eveIDs = null;
 
 	@Override
-	public LinkedHashMap<String, Integer> getEveIDs() {
+	public LinkedHashMap<String, MetaInf> getEveIDs() {
 		if (eveIDs == null) {
 			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_BLUEPRINT_RES);
 			DatabaseFile db = stream != null ? load(stream) : null;
 			if (db != null) {
-				eveIDs = db.eveIDs;
+				eveIDs = db.metaInfs;
 			} else {
 				eveIDs = new LinkedHashMap<>();
 			}

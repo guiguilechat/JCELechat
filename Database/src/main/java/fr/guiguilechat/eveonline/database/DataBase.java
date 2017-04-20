@@ -6,6 +6,7 @@ import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Hull;
+import fr.guiguilechat.eveonline.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.database.yaml.Module;
 import fr.guiguilechat.eveonline.database.yaml.Type;
 
@@ -19,7 +20,7 @@ public abstract class DataBase {
 
 	public abstract LinkedHashMap<String, Blueprint> getBlueprints();
 
-	public abstract LinkedHashMap<String, Integer> getEveIDs();
+	public abstract LinkedHashMap<String, MetaInf> getEveIDs();
 
 	public Type getTypeByName(String name) {
 		Type ret = getHulls().get(name);

@@ -19,6 +19,7 @@ import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint.Activity;
 import fr.guiguilechat.eveonline.database.yaml.DatabaseFile;
 import fr.guiguilechat.eveonline.database.yaml.Hull;
+import fr.guiguilechat.eveonline.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.database.yaml.Module;
 import fr.guiguilechat.eveonline.database.yaml.Type;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
@@ -48,8 +49,8 @@ public class SDEDumper {
 	public static final String DB_BLUEPRINT_RES = "SDEDump/blueprints.yaml";
 	public static final File DB_BLUEPRINT_FILE = new File("src/main/resources", DB_BLUEPRINT_RES);
 
-	public static final String DB_IDS_RES = "SDEDump/ids.yaml";
-	public static final File DB_IDS_FILE = new File("src/main/resources", DB_IDS_RES);
+	public static final String DB_METAINF_RES = "SDEDump/metainfs.yaml";
+	public static final File DB_METAINF_FILE = new File("src/main/resources", DB_METAINF_RES);
 
 	public static void main(String[] args) throws IOException {
 		DatabaseFile db = loadDb();
@@ -70,10 +71,10 @@ public class SDEDumper {
 		db.blueprints = new LinkedHashMap<>();
 		YamlDatabase.write(dbBlueprints, DB_BLUEPRINT_FILE);
 
-		DatabaseFile dbIDs = new DatabaseFile();
-		dbIDs.eveIDs = db.eveIDs;
-		db.eveIDs = new LinkedHashMap<>();
-		YamlDatabase.write(dbIDs, DB_IDS_FILE);
+		DatabaseFile dbMetaInfs = new DatabaseFile();
+		dbMetaInfs.metaInfs = db.metaInfs;
+		db.metaInfs = new LinkedHashMap<>();
+		YamlDatabase.write(dbMetaInfs, DB_METAINF_FILE);
 
 		YamlDatabase.write(db, DB_HULLS_FILE);
 	}
@@ -145,7 +146,7 @@ public class SDEDumper {
 
 		loadBlueprints(sde, db);
 
-		loadIDs(sde, db);
+		loadMetaInfs(sde, db);
 
 		System.err.println("missings ids " + sde.missings);
 
@@ -371,19 +372,43 @@ public class SDEDumper {
 			}
 			loadTypeInformations(bp2, sde, id);
 			db.blueprints.put(bp2.name, bp2);
-			bp2.copying = new Activity(bp.activities.copying, sde);
-			bp2.invention = new Activity(bp.activities.invention, sde);
-			bp2.manufacturing = new Activity(bp.activities.manufacturing, sde);
-			bp2.research_material = new Activity(bp.activities.research_material, sde);
-			bp2.research_time = new Activity(bp.activities.research_time, sde);
+			bp2.copying = bp2.new Activity(bp.activities.copying, sde);
+			bp2.invention = bp2.new Activity(bp.activities.invention, sde);
+			bp2.manufacturing = bp2.new Activity(bp.activities.manufacturing, sde);
+			bp2.research_material = bp2.new Activity(bp.activities.research_material, sde);
+			bp2.research_time = bp2.new Activity(bp.activities.research_time, sde);
 		}
 	}
 
-	public static void loadIDs(SDEData sde, DatabaseFile db) {
+	public static void loadMetaInfs(SDEData sde, DatabaseFile db) {
 		for (Entry<Integer, EtypeIDs> e : sde.getTypeIDs().entrySet()) {
 			EtypeIDs item = e.getValue();
 			if (item.published) {
-				db.eveIDs.put(item.enName(), e.getKey());
+				MetaInf mi = new MetaInf();
+				mi.id = e.getKey();
+				db.metaInfs.put(item.enName(), mi);
+			}
+		}
+		for( Entry<String, Blueprint> e :db.blueprints.entrySet()) {
+			Blueprint bp = e.getValue();
+			for (Activity act : new Activity[] { bp.copying, bp.invention, bp.manufacturing, bp.research_material,
+					bp.research_time }) {
+				for (fr.guiguilechat.eveonline.database.yaml.Blueprint.Material mat : act.products) {
+					MetaInf mi = db.metaInfs.get(mat.name);
+					if (mi == null) {
+						mi = new MetaInf();
+						db.metaInfs.put(mat.name, mi);
+					}
+					mi.productOf.add(bp.name);
+				}
+				for (fr.guiguilechat.eveonline.database.yaml.Blueprint.Material mat : act.materials) {
+					MetaInf mi = db.metaInfs.get(mat.name);
+					if (mi == null) {
+						mi = new MetaInf();
+						db.metaInfs.put(mat.name, mi);
+					}
+					mi.productIn.add(bp.name);
+				}
 			}
 		}
 	}
