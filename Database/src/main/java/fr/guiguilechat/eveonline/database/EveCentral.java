@@ -71,7 +71,6 @@ public class EveCentral {
 	protected BOSO boso(int itemID) {
 		BOSO ret = cachedValues.get(itemID);
 		if (ret == null) {
-			System.err.println(" evecentral cache miss " + itemID);
 			nbMiss++;
 			String url = baseurl + "&typeid=" + itemID;
 			ret = new BOSO();

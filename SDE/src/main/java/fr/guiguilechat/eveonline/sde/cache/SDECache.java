@@ -10,6 +10,9 @@ import java.net.URL;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
+import org.jsoup.Jsoup;
+import org.jsoup.select.Elements;
+
 public class SDECache {
 
 	/**
@@ -24,12 +27,17 @@ public class SDECache {
 
 	public static final File LAST_DL = new File(CHECKDIR, "last.txt");
 
+	private static boolean triedDL = false;
+
 	/**
 	 * if {@link #CHECKDIR} is not a directory, download the full yaml from the
 	 * sde . those files will be extracted and placed in {@link #CACHEDIR}
 	 */
 	@SuppressWarnings("resource")
 	public static void donwloadSDE() {
+		if (triedDL) {
+			return;
+		}
 		CACHEDIR.mkdirs();
 		String url = findLastURL();
 		try {
@@ -62,12 +70,20 @@ public class SDECache {
 			FileWriter fw = new FileWriter(LAST_DL);
 			fw.write(url);
 			fw.close();
+			triedDL = true;
 		} catch (IOException e) {
 			throw new UnsupportedOperationException("while downloading the SDE", e);
 		}
 	}
 
 	public static String findLastURL() {
+		try {
+			org.jsoup.nodes.Document page = Jsoup.connect("https://developers.eveonline.com/resource/resources").get();
+			Elements a = page.select("a[href*=data/sde]");
+			return a.attr("href");
+		} catch (IOException e) {
+			e.printStackTrace(System.err);
+		}
 		return "https://cdn1.eveonline.com/data/sde/tranquility/sde-20170330-TRANQUILITY.zip";
 	}
 

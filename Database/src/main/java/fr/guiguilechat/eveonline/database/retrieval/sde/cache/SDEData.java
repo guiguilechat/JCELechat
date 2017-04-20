@@ -114,9 +114,6 @@ public class SDEData {
 	public EtypeIDs getType(int id) {
 		EtypeIDs ret = getTypeIDs().get(id);
 		if (ret == null) {
-			if (missings.add(id)) {
-				System.err.println("error : no type for id " + id + ", returning null");
-			}
 			missings.add(id);
 		}
 		return ret;
@@ -139,7 +136,7 @@ public class SDEData {
 		return cachedDico;
 	}
 
-	// invetion decryptors
+	// invention decryptors
 
 	protected ArrayList<InventionDecryptor> cachedDecryptors = null;
 
@@ -272,12 +269,6 @@ public class SDEData {
 		}
 		return usages.asProduct.stream().filter(
 				bp -> bp.activities.manufacturing.products.stream().filter(m -> m.typeID == itemID).findAny().isPresent());
-	}
-
-	public Stream<Eblueprints> getParentBPO(int itemID) {
-		// TODO
-		// getParentManufacturing(itemID).flatMap(getIndustryUsages())
-		return null;
 	}
 
 	public IntStream getGroupsForCategory(int categoryId) {

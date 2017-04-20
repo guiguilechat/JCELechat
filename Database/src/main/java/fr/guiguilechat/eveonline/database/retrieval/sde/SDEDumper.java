@@ -48,6 +48,9 @@ public class SDEDumper {
 	public static final String DB_BLUEPRINT_RES = "SDEDump/blueprints.yaml";
 	public static final File DB_BLUEPRINT_FILE = new File("src/main/resources", DB_BLUEPRINT_RES);
 
+	public static final String DB_IDS_RES = "SDEDump/ids.yaml";
+	public static final File DB_IDS_FILE = new File("src/main/resources", DB_IDS_RES);
+
 	public static void main(String[] args) throws IOException {
 		DatabaseFile db = loadDb();
 		DB_DIR.mkdirs();
@@ -66,6 +69,11 @@ public class SDEDumper {
 		dbBlueprints.blueprints = db.blueprints;
 		db.blueprints = new LinkedHashMap<>();
 		YamlDatabase.write(dbBlueprints, DB_BLUEPRINT_FILE);
+
+		DatabaseFile dbIDs = new DatabaseFile();
+		dbIDs.eveIDs = db.eveIDs;
+		db.eveIDs = new LinkedHashMap<>();
+		YamlDatabase.write(dbIDs, DB_IDS_FILE);
 
 		YamlDatabase.write(db, DB_HULLS_FILE);
 	}
@@ -136,6 +144,8 @@ public class SDEDumper {
 		loadAsteroids(sde, db);
 
 		loadBlueprints(sde, db);
+
+		loadIDs(sde, db);
 
 		System.err.println("missings ids " + sde.missings);
 
@@ -355,8 +365,8 @@ public class SDEDumper {
 			Eblueprints bp = e.getValue();
 			Blueprint bp2 = new Blueprint();
 			EtypeIDs item = sde.getType(id);
-			if (item == null) {
-				System.err.println("skip generating data for bp " + id);
+			if (item == null || !item.published) {
+				// System.err.println("skip generating data for bp " + id);
 				continue;
 			}
 			loadTypeInformations(bp2, sde, id);
@@ -366,6 +376,15 @@ public class SDEDumper {
 			bp2.manufacturing = new Activity(bp.activities.manufacturing, sde);
 			bp2.research_material = new Activity(bp.activities.research_material, sde);
 			bp2.research_time = new Activity(bp.activities.research_time, sde);
+		}
+	}
+
+	public static void loadIDs(SDEData sde, DatabaseFile db) {
+		for (Entry<Integer, EtypeIDs> e : sde.getTypeIDs().entrySet()) {
+			EtypeIDs item = e.getValue();
+			if (item.published) {
+				db.eveIDs.put(item.enName(), e.getKey());
+			}
 		}
 	}
 

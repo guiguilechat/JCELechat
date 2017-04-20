@@ -176,4 +176,20 @@ public class YamlDatabase extends DataBase {
 		return blueprints;
 	}
 
+	protected LinkedHashMap<String, Integer> eveIDs = null;
+
+	@Override
+	public LinkedHashMap<String, Integer> getEveIDs() {
+		if (eveIDs == null) {
+			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_BLUEPRINT_RES);
+			DatabaseFile db = stream != null ? load(stream) : null;
+			if (db != null) {
+				eveIDs = db.eveIDs;
+			} else {
+				eveIDs = new LinkedHashMap<>();
+			}
+		}
+		return eveIDs;
+	}
+
 }

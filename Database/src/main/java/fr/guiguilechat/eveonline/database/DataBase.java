@@ -19,6 +19,8 @@ public abstract class DataBase {
 
 	public abstract LinkedHashMap<String, Blueprint> getBlueprints();
 
+	public abstract LinkedHashMap<String, Integer> getEveIDs();
+
 	public Type getTypeByName(String name) {
 		Type ret = getHulls().get(name);
 		if (ret == null) {

@@ -16,6 +16,8 @@ public class DatabaseFile {
 
 	public LinkedHashMap<String, Blueprint> blueprints = new LinkedHashMap<>();
 
+	public LinkedHashMap<String, Integer> eveIDs = new LinkedHashMap<>();
+
 	/**
 	 * assimilates another DB. replaces values already stored as X if X is present
 	 * in db
@@ -27,6 +29,7 @@ public class DatabaseFile {
 		modules.putAll(db.modules);
 		asteroids.putAll(db.asteroids);
 		blueprints.putAll(db.blueprints);
+		eveIDs.putAll(db.eveIDs);
 	}
 
 
