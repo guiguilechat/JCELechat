@@ -1,5 +1,5 @@
 hulls:
-  582:
+  Bantam:
     attributes:
       agility: 4.099999904632568
       capacitor: 615.0
@@ -24,13 +24,16 @@ hulls:
       velocity: 370
       volume: 20000
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipBonusShieldTransferBoostAmountCF2
     - shieldTransporterFalloffBonus
     - shipBonusShieldTransferCapNeedCF
-    group: Frigate
+    groupName: Frigate
+    id: 582
     name: Bantam
-  583:
+    volume: 20000.0
+  Condor:
     attributes:
       agility: 2.9000000953674316
       capacitor: 300.0
@@ -53,12 +56,15 @@ hulls:
       velocity: 400
       volume: 18000
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipMissileKineticDamageCF
     - shipCapPropulsionJamming
-    group: Frigate
+    groupName: Frigate
+    id: 583
     name: Condor
-  584:
+    volume: 18000.0
+  Griffin:
     attributes:
       agility: 3.5
       capacitor: 245.0
@@ -83,12 +89,15 @@ hulls:
       velocity: 325
       volume: 19400
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - caldariShipEwCapacitorNeedCF2
     - shipECMScanStrengthBonusCF
-    group: Frigate
+    groupName: Frigate
+    id: 584
     name: Griffin
-  585:
+    volume: 19400.0
+  Slasher:
     attributes:
       agility: 2.8299999237060547
       capacitor: 240.0
@@ -111,13 +120,16 @@ hulls:
       velocity: 430
       volume: 17400
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipCapPropulsionJamming
     - shipProjectileTrackingMF2
     - shipPDmgBonusMF
-    group: Frigate
+    groupName: Frigate
+    id: 585
     name: Slasher
-  586:
+    volume: 17400.0
+  Probe:
     attributes:
       agility: 3.5799999237060547
       capacitor: 235.0
@@ -143,13 +155,16 @@ hulls:
       velocity: 360
       volume: 19500
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - minigameVirusStrengthBonus
     - shipBonusScanProbeStrengthMF
     - shipBonusSalvageCycleMF
-    group: Frigate
+    groupName: Frigate
+    id: 586
     name: Probe
-  587:
+    volume: 19500.0
+  Rifter:
     attributes:
       agility: 3.200000047683716
       capacitor: 250.0
@@ -173,12 +188,15 @@ hulls:
       velocity: 365
       volume: 27289
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipBonusSPTFalloffMF2
     - shipPDmgBonusMF
-    group: Frigate
+    groupName: Frigate
+    id: 587
     name: Rifter
-  588:
+    volume: 27289.0
+  Reaper:
     attributes:
       agility: 4.349999904632568
       capacitor: 125.0
@@ -201,14 +219,17 @@ hulls:
       velocity: 310
       volume: 15800
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipVelocityBonusRookie
     - minmatarShipEwTargetPainterRookie
     - shipSPTDmgBonusRookie
     - shipShieldBoostRookie
-    group: Corvette
+    groupName: Corvette
+    id: 588
     name: Reaper
-  589:
+    volume: 15800.0
+  Executioner:
     attributes:
       agility: 2.8499999046325684
       capacitor: 360.0
@@ -231,13 +252,16 @@ hulls:
       velocity: 410
       volume: 28100
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipSETDmgBonusAF
     - shipCapPropulsionJamming
     - shipEnergyTCapNeedBonusAF
-    group: Frigate
+    groupName: Frigate
+    id: 589
     name: Executioner
-  590:
+    volume: 28100.0
+  Inquisitor:
     attributes:
       agility: 3.549999952316284
       capacitor: 675.0
@@ -262,14 +286,17 @@ hulls:
       velocity: 405
       volume: 28700
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipBonusRemoteArmorRepairCapNeedAF
     - armorRepairProjectorFalloffBonus
     - shipBonusRemoteArmorRepairAmount2AF
     - armorRepairProjectorMaxRangeBonus
-    group: Frigate
+    groupName: Frigate
+    id: 590
     name: Inquisitor
-  591:
+    volume: 28700.0
+  Tormentor:
     attributes:
       agility: 3.0999999046325684
       capacitor: 425.0
@@ -294,12 +321,15 @@ hulls:
       velocity: 335
       volume: 24398
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipSETDmgBonusAF
     - shipEnergyTCapNeedBonusAF
-    group: Frigate
+    groupName: Frigate
+    id: 591
     name: Tormentor
-  592:
+    volume: 24398.0
+  Navitas:
     attributes:
       agility: 3.75
       capacitor: 595.0
@@ -324,14 +354,17 @@ hulls:
       velocity: 410
       volume: 10000
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipBonusRemoteArmorRepairCapNeedGF
     - shipBonusRemoteArmorRepairAmountGF2
     - armorRepairProjectorFalloffBonus
     - armorRepairProjectorMaxRangeBonus
-    group: Frigate
+    groupName: Frigate
+    id: 592
     name: Navitas
-  593:
+    volume: 10000.0
+  Tristan:
     attributes:
       agility: 3.440000057220459
       capacitor: 350.0
@@ -356,13 +389,16 @@ hulls:
       velocity: 315
       volume: 26500
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipBonusDroneTrackingGF
     - shipBonusHybridTrackingGF2
     - shipBonusDroneHitpointsGF
-    group: Frigate
+    groupName: Frigate
+    id: 593
     name: Tristan
-  594:
+    volume: 26500.0
+  Incursus:
     attributes:
       agility: 3.1500000953674316
       capacitor: 370.0
@@ -387,12 +423,15 @@ hulls:
       velocity: 340
       volume: 29500
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipSHTDmgBonusGF
     - shipArmorRepairingGF2
-    group: Frigate
+    groupName: Frigate
+    id: 594
     name: Incursus
-  596:
+    volume: 29500.0
+  Impairor:
     attributes:
       agility: 4.449999809265137
       capacitor: 140.0
@@ -415,6 +454,7 @@ hulls:
       velocity: 300
       volume: 28100
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipArmorEMResistanceRookie
     - shipArmorEXResistanceRookie
@@ -423,9 +463,11 @@ hulls:
     - shipArmorTHResistanceRookie
     - shipEnergyTCapNeedBonusRookie
     - shipSETDmgBonusRookie
-    group: Corvette
+    groupName: Corvette
+    id: 596
     name: Impairor
-  597:
+    volume: 28100.0
+  Punisher:
     attributes:
       agility: 2.9000000953674316
       capacitor: 400.0
@@ -448,15 +490,18 @@ hulls:
       velocity: 355
       volume: 28600
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipArmorEMResistanceAF1
     - shipArmorTHResistanceAF1
     - shipArmorKNResistanceAF1
     - shipArmorEXResistanceAF1
     - shipEnergyTCapNeedBonusAF
-    group: Frigate
+    groupName: Frigate
+    id: 597
     name: Punisher
-  598:
+    volume: 28600.0
+  Breacher:
     attributes:
       agility: 3.0999999046325684
       capacitor: 300.0
@@ -481,12 +526,15 @@ hulls:
       velocity: 365
       volume: 20000
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipShieldBoostMF
     - shipMissileRoFMF2
-    group: Frigate
+    groupName: Frigate
+    id: 598
     name: Breacher
-  599:
+    volume: 20000.0
+  Burst:
     attributes:
       agility: 3.9000000953674316
       capacitor: 560.0
@@ -511,13 +559,16 @@ hulls:
       velocity: 415
       volume: 17100
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shieldTransporterFalloffBonus
     - shipBonusShieldTransferCapNeedMF
     - shipBonusShieldTransferBoostAmountMF2
-    group: Frigate
+    groupName: Frigate
+    id: 599
     name: Burst
-  601:
+    volume: 17100.0
+  Ibis:
     attributes:
       agility: 4.5
       capacitor: 130.0
@@ -540,6 +591,7 @@ hulls:
       velocity: 295
       volume: 15000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipShieldEMResistanceRookie
     - shipShieldExplosiveResistanceRookie
@@ -548,9 +600,11 @@ hulls:
     - shipECMScanStrengthBonusRookie
     - shipHybridRangeBonusRookie
     - shipMissileKineticDamageRookie
-    group: Corvette
+    groupName: Corvette
+    id: 601
     name: Ibis
-  602:
+    volume: 15000.0
+  Kestrel:
     attributes:
       agility: 3.2699999809265137
       capacitor: 330.0
@@ -573,15 +627,18 @@ hulls:
       velocity: 325
       volume: 19700
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipSmallMissileExpDmgCF2
     - shipSmallMissileKinDmgCF2
     - shipMissileVelocityCF
     - shipSmallMissileThermDmgCF2
     - shipSmallMissileEMDmgCF2
-    group: Frigate
+    groupName: Frigate
+    id: 602
     name: Kestrel
-  603:
+    volume: 19700.0
+  Merlin:
     attributes:
       agility: 3.5999999046325684
       capacitor: 350.0
@@ -604,15 +661,18 @@ hulls:
       velocity: 310
       volume: 16500
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipShieldEMResistanceCF2
     - shipShieldThermalResistanceCF2
     - shipShieldKineticResistanceCF2
     - shipShieldExplosiveResistanceCF2
     - shipHybridDamageBonusCF2
-    group: Frigate
+    groupName: Frigate
+    id: 603
     name: Merlin
-  605:
+    volume: 16500.0
+  Heron:
     attributes:
       agility: 3.569999933242798
       capacitor: 245.0
@@ -638,13 +698,16 @@ hulls:
       velocity: 340
       volume: 18900
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - minigameVirusStrengthBonus
     - shipBonusScanProbeStrengthCF
     - shipBonusSalvageCycleCF
-    group: Frigate
+    groupName: Frigate
+    id: 605
     name: Heron
-  606:
+    volume: 18900.0
+  Velator:
     attributes:
       agility: 4.349999904632568
       capacitor: 135.0
@@ -667,6 +730,7 @@ hulls:
       velocity: 305
       volume: 24500
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipSHTDmgBonusRookie
     - shipBonusDroneDamageMultiplierRookie
@@ -675,9 +739,11 @@ hulls:
     - shipBonusEwRemoteSensorDampenerScanResolutionBonusRookie
     - shipArmorRepairingRookie
     - shipBonusDroneHitpointsRookie
-    group: Corvette
+    groupName: Corvette
+    id: 606
     name: Velator
-  607:
+    volume: 24500.0
+  Imicus:
     attributes:
       agility: 4.150000095367432
       capacitor: 270.0
@@ -702,13 +768,16 @@ hulls:
       velocity: 330
       volume: 21500
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - minigameVirusStrengthBonus
     - shipBonusScanProbeStrengthGF
     - shipBonusSalvageCycleGF
-    group: Frigate
+    groupName: Frigate
+    id: 607
     name: Imicus
-  608:
+    volume: 21500.0
+  Atron:
     attributes:
       agility: 2.799999952316284
       capacitor: 330.0
@@ -731,13 +800,16 @@ hulls:
       velocity: 420
       volume: 22500
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipSHTDmgBonusGF
     - shipCapPropulsionJamming
     - shipFalloffBonusGF
-    group: Frigate
+    groupName: Frigate
+    id: 608
     name: Atron
-  609:
+    volume: 22500.0
+  Maulus:
     attributes:
       agility: 3.25
       capacitor: 275.0
@@ -762,13 +834,16 @@ hulls:
       velocity: 375
       volume: 23000
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipBonusEwRemoteSensorDampenerMaxTargetRangeBonusGF2
     - shipBonusEwRemoteSensorDampenerScanResolutionBonusGF2
     - shipRemoteSensorDampenerCapNeedGF
-    group: Frigate
+    groupName: Frigate
+    id: 609
     name: Maulus
-  615:
+    volume: 23000.0
+  Immolator:
     attributes:
       agility: 4.449999809265137
       capacitor: 175.0
@@ -788,14 +863,17 @@ hulls:
       velocity: 330
       volume: 17400
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipSETTrackingBonusRookie
     - shipSETOptimalBonusRookie
     - shipShieldBoostRookie
     - shipSETDmgBonusRookie
-    group: Corvette
+    groupName: Corvette
+    id: 615
     name: Immolator
-  617:
+    volume: 17400.0
+  Echo:
     attributes:
       agility: 4.349999904632568
       capacitor: 125.0
@@ -816,14 +894,17 @@ hulls:
       velocity: 360
       volume: 17660
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipSPTTrackingSpeedBonusRookie
     - shipSPTFalloffBonusRookie
     - shipSPTOptimalRangeBonusRookie
     - shipSPTDmgBonusRookie
-    group: Corvette
+    groupName: Corvette
+    id: 617
     name: Echo
-  620:
+    volume: 17660.0
+  Osprey:
     attributes:
       agility: 0.6100000143051147
       capacitor: 2100.0
@@ -849,6 +930,7 @@ hulls:
       velocity: 210
       volume: 107000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shieldTransporterFalloffBonus
     - energyTransferArrayTransferAmountBonus
@@ -856,9 +938,11 @@ hulls:
     - shieldTransporterMaxRangeBonus
     - shipBonusShieldTransferBoostAmountCC2
     - shipBonusShieldTransferCapneed1
-    group: Cruiser
+    groupName: Cruiser
+    id: 620
     name: Osprey
-  621:
+    volume: 107000.0
+  Caracal:
     attributes:
       agility: 0.4699999988079071
       capacitor: 1250.0
@@ -883,14 +967,17 @@ hulls:
       velocity: 230
       volume: 92000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipMissileHeavyVelocityBonusCC2
     - shipMissileLightVelocityBonusCC2
     - shipMissileAssaultMissileVelocityBonusCC2
     - shipMissileRofCC
-    group: Cruiser
+    groupName: Cruiser
+    id: 621
     name: Caracal
-  622:
+    volume: 92000.0
+  Stabber:
     attributes:
       agility: 0.5
       capacitor: 1200.0
@@ -916,12 +1003,15 @@ hulls:
       velocity: 290
       volume: 80000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipPTurretSpeedBonusMC
     - shipPTurretFalloffBonusMC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 622
     name: Stabber
-  623:
+    volume: 80000.0
+  Moa:
     attributes:
       agility: 0.5199999809265137
       capacitor: 1550.0
@@ -946,15 +1036,18 @@ hulls:
       velocity: 190
       volume: 101000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipShieldEMResistanceCC2
     - shipShieldThermalResistanceCC2
     - shipShieldKineticResistanceCC2
     - shipShieldExplosiveResistanceCC2
     - shipHTDamageBonusCC
-    group: Cruiser
+    groupName: Cruiser
+    id: 623
     name: Moa
-  624:
+    volume: 101000.0
+  Maller:
     attributes:
       agility: 0.47600001096725464
       capacitor: 1625.0
@@ -979,15 +1072,18 @@ hulls:
       velocity: 205
       volume: 118000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipArmorKineticResistanceAC2
     - shipMETCDamageBonusAC
     - shipArmorThermalResistanceAC2
     - shipArmorEmResistanceAC2
     - shipArmorExplosiveResistanceAC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 624
     name: Maller
-  625:
+    volume: 118000.0
+  Augoror:
     attributes:
       agility: 0.5600000023841858
       capacitor: 2250.0
@@ -1012,6 +1108,7 @@ hulls:
       velocity: 235
       volume: 115000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - energyTransferArrayTransferAmountBonus
     - shipBonusRemoteArmorRepairCapNeedAC1
@@ -1019,9 +1116,11 @@ hulls:
     - energyTransferArrayMaxRangeBonus
     - armorRepairProjectorFalloffBonus
     - armorRepairProjectorMaxRangeBonus
-    group: Cruiser
+    groupName: Cruiser
+    id: 625
     name: Augoror
-  626:
+    volume: 115000.0
+  Vexor:
     attributes:
       agility: 0.5600000023841858
       capacitor: 1450.0
@@ -1046,14 +1145,17 @@ hulls:
       velocity: 195
       volume: 115000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipHTDmgBonusfixedGC
     - shipBonusDroneHitpointsGC2
     - shipBonusDroneMiningAmountGC2
     - shipBonusDroneDamageMultiplierGC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 626
     name: Vexor
-  627:
+    volume: 115000.0
+  Thorax:
     attributes:
       agility: 0.49000000953674316
       capacitor: 1450.0
@@ -1078,12 +1180,15 @@ hulls:
       velocity: 240
       volume: 112000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipHTDmgBonusfixedGC
     - shipHybridTrackingGC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 627
     name: Thorax
-  628:
+    volume: 112000.0
+  Arbitrator:
     attributes:
       agility: 0.5600000023841858
       capacitor: 1375.0
@@ -1109,14 +1214,17 @@ hulls:
       velocity: 200
       volume: 120000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusDroneHitpointsFixedAC2
     - shipBonusDroneMiningAmountAC2
     - shipBonusEwWeaponDisruptionStrengthAC1
     - shipBonusDroneDamageMultiplierAC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 628
     name: Arbitrator
-  629:
+    volume: 120000.0
+  Rupture:
     attributes:
       agility: 0.5
       capacitor: 1275.0
@@ -1142,12 +1250,15 @@ hulls:
       velocity: 210
       volume: 96000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipProjectileDmgMC2
     - shipPTurretSpeedBonusMC
-    group: Cruiser
+    groupName: Cruiser
+    id: 629
     name: Rupture
-  630:
+    volume: 96000.0
+  Bellicose:
     attributes:
       agility: 0.5099999904632568
       capacitor: 1200.0
@@ -1172,12 +1283,15 @@ hulls:
       velocity: 240
       volume: 85000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipMissileLauncherSpeedBonusMC2
     - minmatarShipEwTargetPainterMC1
-    group: Cruiser
+    groupName: Cruiser
+    id: 630
     name: Bellicose
-  631:
+    volume: 85000.0
+  Scythe:
     attributes:
       agility: 0.6000000238418579
       capacitor: 1750.0
@@ -1203,6 +1317,7 @@ hulls:
       velocity: 250
       volume: 89000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shieldTransporterFalloffBonus
     - shipBonusShieldTransferCapneedMC1
@@ -1211,9 +1326,11 @@ hulls:
     - shieldTransporterMaxRangeBonus
     - droneHullRepairBonusEffect
     - shipBonusShieldTransferBoostAmountMC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 631
     name: Scythe
-  632:
+    volume: 89000.0
+  Blackbird:
     attributes:
       agility: 0.47999998927116394
       capacitor: 1250.0
@@ -1239,13 +1356,16 @@ hulls:
       velocity: 190
       volume: 96000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - caldariShipEwOptimalRangeCC2
     - caldariShipEwFalloffRangeCC2
     - shipBonusECMStrengthBonusCC
-    group: Cruiser
+    groupName: Cruiser
+    id: 632
     name: Blackbird
-  633:
+    volume: 96000.0
+  Celestis:
     attributes:
       agility: 0.5049999952316284
       capacitor: 1300.0
@@ -1271,14 +1391,17 @@ hulls:
       velocity: 210
       volume: 116000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusEwRemoteSensorDampenerMaxTargetRangeBonusGC2
     - shipBonusEwRemoteSensorDampenerFalloffBonusGC1
     - shipBonusEwRemoteSensorDampenerScanResolutionBonusGC2
     - shipBonusEwRemoteSensorDampenerOptimalBonusGC1
-    group: Cruiser
+    groupName: Cruiser
+    id: 633
     name: Celestis
-  634:
+    volume: 116000.0
+  Exequror:
     attributes:
       agility: 0.6100000143051147
       capacitor: 1925.0
@@ -1303,6 +1426,7 @@ hulls:
       velocity: 240
       volume: 113000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusRemoteArmorRepairCapNeedGC1
     - droneArmorDamageBonusEffect
@@ -1311,9 +1435,11 @@ hulls:
     - armorRepairProjectorFalloffBonus
     - droneHullRepairBonusEffect
     - armorRepairProjectorMaxRangeBonus
-    group: Cruiser
+    groupName: Cruiser
+    id: 634
     name: Exequror
-  635:
+    volume: 113000.0
+  Opux Luxury Yacht:
     attributes:
       agility: 0.6499999761581421
       capacitor: 800.0
@@ -1339,9 +1465,12 @@ hulls:
       velocity: 250
       volume: 115000
       warpSpeed: 3.0
-    group: Cruiser
+    catName: Ship
+    groupName: Cruiser
+    id: 635
     name: Opux Luxury Yacht
-  638:
+    volume: 115000.0
+  Raven:
     attributes:
       agility: 0.11999999731779099
       capacitor: 5500.0
@@ -1367,15 +1496,18 @@ hulls:
       velocity: 113
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipBonusRHMLROF2CB
     - shipCruiseMissileVelocityBonusCB3
     - shipTorpedosVelocityBonusCB3
     - shipCruiseLauncherROFBonus2CB
     - shipSiegeLauncherROFBonus2CB
-    group: Battleship
+    groupName: Battleship
+    id: 638
     name: Raven
-  639:
+    volume: 486000.0
+  Tempest:
     attributes:
       agility: 0.11599999666213989
       capacitor: 5400.0
@@ -1401,12 +1533,15 @@ hulls:
       velocity: 127
       volume: 450000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipPTDmgBonusMB
     - shipPTspeedBonusMB2
-    group: Battleship
+    groupName: Battleship
+    id: 639
     name: Tempest
-  640:
+    volume: 450000.0
+  Scorpion:
     attributes:
       agility: 0.11599999666213989
       capacitor: 5500.0
@@ -1432,14 +1567,17 @@ hulls:
       velocity: 94
       volume: 468000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - caldariShipEwOptimalRangeCB3
     - caldariShipEwFalloffRangeCB3
     - caldariShipEwStrengthCB
     - caldariShipECMBurstOptimalRangeCB3
-    group: Battleship
+    groupName: Battleship
+    id: 640
     name: Scorpion
-  641:
+    volume: 468000.0
+  Megathron:
     attributes:
       agility: 0.11400000005960464
       capacitor: 6000.0
@@ -1464,12 +1602,15 @@ hulls:
       velocity: 122
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipLargeHybridTurretRofGB
     - shipHTTrackingBonusGB2
-    group: Battleship
+    groupName: Battleship
+    id: 641
     name: Megathron
-  642:
+    volume: 486000.0
+  Apocalypse:
     attributes:
       agility: 0.11900000274181366
       capacitor: 7000.0
@@ -1494,12 +1635,15 @@ hulls:
       velocity: 113
       volume: 495000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipBonusLargeEnergyTurretTrackingAB
     - shipBonusLargeEnergyTurretMaxRangeAB2
-    group: Battleship
+    groupName: Battleship
+    id: 642
     name: Apocalypse
-  643:
+    volume: 495000.0
+  Armageddon:
     attributes:
       agility: 0.12999999523162842
       capacitor: 6200.0
@@ -1525,6 +1669,7 @@ hulls:
       velocity: 100
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipBonusEnergyNeutFalloffAB2
     - shipBonusEnergyNosOptimalAB
@@ -1534,9 +1679,11 @@ hulls:
     - shipBonusDroneShieldHitPointsAB
     - shipBonusDroneStructureHitPointsAB
     - shipBonusEnergyNeutOptimalAB
-    group: Battleship
+    groupName: Battleship
+    id: 643
     name: Armageddon
-  644:
+    volume: 486000.0
+  Typhoon:
     attributes:
       agility: 0.10999999940395355
       capacitor: 5400.0
@@ -1562,15 +1709,18 @@ hulls:
       velocity: 130
       volume: 414000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipBonusRHMLROFMB
     - shipBonusMissileAoeVelocityMB2
     - shipBonusCruiseROFMB
     - shipBonusAoeVelocityCruiseMissilesMB2
     - shipBonusTorpedoROFMB
-    group: Battleship
+    groupName: Battleship
+    id: 644
     name: Typhoon
-  645:
+    volume: 414000.0
+  Dominix:
     attributes:
       agility: 0.12540000677108765
       capacitor: 6000.0
@@ -1595,14 +1745,17 @@ hulls:
       velocity: 109
       volume: 454500
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipBonusDroneTrackingGB
     - shipBonusDroneOptimalRangeGB
     - shipBonusDroneHitpointsGB2
     - shipBonusDroneDamageMultiplierGB2
-    group: Battleship
+    groupName: Battleship
+    id: 645
     name: Dominix
-  648:
+    volume: 454500.0
+  Badger:
     attributes:
       agility: 0.9399999976158142
       capacitor: 440.0
@@ -1626,13 +1779,16 @@ hulls:
       velocity: 127
       volume: 250000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - industrialBonusDroneDamage
     - shipBonusCargoCI
     - shipBonusAgilityCI2
-    group: Industrial
+    groupName: Industrial
+    id: 648
     name: Badger
-  649:
+    volume: 250000.0
+  Tayra:
     attributes:
       agility: 0.9700000286102295
       capacitor: 625.0
@@ -1656,13 +1812,16 @@ hulls:
       velocity: 115
       volume: 270000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - industrialBonusDroneDamage
     - shipBonusCargoCI
     - shipBonusVelocityCI
-    group: Industrial
+    groupName: Industrial
+    id: 649
     name: Tayra
-  650:
+    volume: 270000.0
+  Nereus:
     attributes:
       agility: 0.7799999713897705
       capacitor: 375.0
@@ -1687,13 +1846,16 @@ hulls:
       velocity: 130
       volume: 240000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - industrialBonusDroneDamage
     - shipBonusCargo2GI
     - shipBonusAgilityGI2
-    group: Industrial
+    groupName: Industrial
+    id: 650
     name: Nereus
-  651:
+    volume: 240000.0
+  Hoarder:
     attributes:
       agility: 0.8500000238418579
       capacitor: 600.0
@@ -1716,13 +1878,16 @@ hulls:
       velocity: 130
       volume: 400000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusAmmoBayMI2
     - industrialBonusDroneDamage
     - shipVelocityBonusMI
-    group: Industrial
+    groupName: Industrial
+    id: 651
     name: Hoarder
-  652:
+    volume: 400000.0
+  Mammoth:
     attributes:
       agility: 0.9100000262260437
       capacitor: 560.0
@@ -1745,13 +1910,16 @@ hulls:
       velocity: 120
       volume: 255000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - industrialBonusDroneDamage
     - shipBonusCargoMI
     - shipVelocityBonusMI
-    group: Industrial
+    groupName: Industrial
+    id: 652
     name: Mammoth
-  653:
+    volume: 255000.0
+  Wreathe:
     attributes:
       agility: 0.8100000023841858
       capacitor: 350.0
@@ -1774,13 +1942,16 @@ hulls:
       velocity: 140
       volume: 225000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - industrialBonusDroneDamage
     - shipBonusCargoMI
     - shipBonusAgilityMI2
-    group: Industrial
+    groupName: Industrial
+    id: 653
     name: Wreathe
-  654:
+    volume: 225000.0
+  Kryos:
     attributes:
       agility: 0.9200000166893005
       capacitor: 550.0
@@ -1803,13 +1974,16 @@ hulls:
       velocity: 120
       volume: 245000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - industrialBonusDroneDamage
     - shipBonusMineralBayGI2
     - shipBonusVelocityGI
-    group: Industrial
+    groupName: Industrial
+    id: 654
     name: Kryos
-  655:
+    volume: 245000.0
+  Epithal:
     attributes:
       agility: 0.8999999761581421
       capacitor: 550.0
@@ -1832,13 +2006,16 @@ hulls:
       velocity: 120
       volume: 250000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - industrialBonusDroneDamage
     - shipBonusPICommoditiesHoldGI2
     - shipBonusVelocityGI
-    group: Industrial
+    groupName: Industrial
+    id: 655
     name: Epithal
-  656:
+    volume: 250000.0
+  Miasmos:
     attributes:
       agility: 0.9399999976158142
       capacitor: 580.0
@@ -1861,13 +2038,16 @@ hulls:
       velocity: 120
       volume: 265000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusOreCapacityGI2
     - industrialBonusDroneDamage
     - shipBonusVelocityGI
-    group: Industrial
+    groupName: Industrial
+    id: 656
     name: Miasmos
-  657:
+    volume: 265000.0
+  Iteron Mark V:
     attributes:
       agility: 0.8700000047683716
       capacitor: 650.0
@@ -1890,13 +2070,16 @@ hulls:
       velocity: 105
       volume: 275000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - industrialBonusDroneDamage
     - shipBonusCargo2GI
     - shipBonusVelocityGI
-    group: Industrial
+    groupName: Industrial
+    id: 657
     name: Iteron Mark V
-  671:
+    volume: 275000.0
+  Erebus:
     attributes:
       agility: 0.03700000047683716
       capacitor: 130000.0
@@ -1919,6 +2102,7 @@ hulls:
       velocity: 70
       volume: 145500000
       warpSpeed: 1.3700000047683716
+    catName: Ship
     effects:
     - shipBonusTitanRole1NumWarfareLinks
     - shipCapitalAgilityBonus
@@ -1929,9 +2113,11 @@ hulls:
     - shipBonusTitanG2ROFBonus
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
-    group: Titan
+    groupName: Titan
+    id: 671
     name: Erebus
-  672:
+    volume: 1.455E8
+  Caldari Shuttle:
     attributes:
       agility: 1.0
       capacitor: 250.0
@@ -1947,9 +2133,12 @@ hulls:
       velocity: 500
       volume: 5000
       warpSpeed: 5.0
-    group: Shuttle
+    catName: Ship
+    groupName: Shuttle
+    id: 672
     name: Caldari Shuttle
-  1944:
+    volume: 5000.0
+  Bestower:
     attributes:
       agility: 0.949999988079071
       capacitor: 700.0
@@ -1972,13 +2161,16 @@ hulls:
       velocity: 110
       volume: 260000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipCargoBonusAI
     - industrialBonusDroneDamage
     - shipVelocityBonusAI
-    group: Industrial
+    groupName: Industrial
+    id: 1944
     name: Bestower
-  2006:
+    volume: 260000.0
+  Omen:
     attributes:
       agility: 0.4300000071525574
       capacitor: 1475.0
@@ -2003,12 +2195,15 @@ hulls:
       velocity: 260
       volume: 118000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipTCapNeedBonusAC
     - shipLaserRofAC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 2006
     name: Omen
-  2078:
+    volume: 118000.0
+  Zephyr:
     attributes:
       agility: 1000.0
       capacitor: 250.0
@@ -2023,9 +2218,12 @@ hulls:
       velocity: 300
       volume: 5000
       warpSpeed: 5.0
-    group: Prototype Exploration Ship
+    catName: Ship
+    groupName: Prototype Exploration Ship
+    id: 2078
     name: Zephyr
-  2161:
+    volume: 5000.0
+  Crucifier:
     attributes:
       agility: 3.3499999046325684
       capacitor: 330.0
@@ -2050,12 +2248,15 @@ hulls:
       velocity: 350
       volume: 28100
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipBonusEwWeaponDisruptionStrengthAF2
     - shipBonusTDOptimalBonusAF1
-    group: Frigate
+    groupName: Frigate
+    id: 2161
     name: Crucifier
-  2834:
+    volume: 28100.0
+  Utu:
     attributes:
       agility: 3.4674999713897705
       capacitor: 410.0
@@ -2080,15 +2281,18 @@ hulls:
       velocity: 320
       volume: 29500
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipBonusDroneDamageGF2
     - shipBonusWarpScramblerMaxRangeGF2
     - shipBonusHeatDamageATF1
     - shipBonusSmallHybridMaxRangeATF2
     - shipBonusSmallHybridTrackingSpeedATF2
-    group: Assault Frigate
+    groupName: Assault Frigate
+    id: 2834
     name: Utu
-  2836:
+    volume: 29500.0
+  Adrestia:
     attributes:
       agility: 0.45695000886917114
       capacitor: 2268.0
@@ -2113,15 +2317,18 @@ hulls:
       velocity: 228
       volume: 112000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipBonusHybridTrackingATC2
     - shipBonusHybridFalloffATC2
     - shipHTDmgBonusfixedGC
     - shipBonusWarpScramblerMaxRangeGC2
     - shipVelocityBonusATC1
-    group: Heavy Assault Cruiser
+    groupName: Heavy Assault Cruiser
+    id: 2836
     name: Adrestia
-  2863:
+    volume: 112000.0
+  Primae:
     attributes:
       agility: 0.699999988079071
       capacitor: 1000.0
@@ -2137,11 +2344,14 @@ hulls:
       velocity: 200
       volume: 270000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - industrialBonusDroneDamage
-    group: Industrial
+    groupName: Industrial
+    id: 2863
     name: Primae
-  2998:
+    volume: 270000.0
+  Noctis:
     attributes:
       agility: 1.0
       capacitor: 2200.0
@@ -2165,15 +2375,18 @@ hulls:
       velocity: 155
       volume: 270000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - industrialBonusDroneDamage
     - shipBonusNoctisSalvageCycle
     - shipBonusNoctisTractorCycle
     - shipBonusNoctisTractorVelocity
     - shipBonusNoctisTractorRange
-    group: Industrial
+    groupName: Industrial
+    id: 2998
     name: Noctis
-  3514:
+    volume: 270000.0
+  Revenant:
     attributes:
       agility: 0.03500000014901161
       capacitor: 90000.0
@@ -2195,6 +2408,7 @@ hulls:
       velocity: 80
       volume: 62000000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipBonusSupercarrierC3WarpStrength
     - shipBonusSupercarrierA1FighterDamage
@@ -2209,9 +2423,11 @@ hulls:
     - entosisDurationMultiply
     - shipBonusSupercarrierA3WarpStrength
     - commandBurstAoERoleBonus
-    group: Supercarrier
+    groupName: Supercarrier
+    id: 3514
     name: Revenant
-  3516:
+    volume: 6.2E7
+  Malice:
     attributes:
       agility: 2.430000066757202
       capacitor: 612.0
@@ -2234,6 +2450,7 @@ hulls:
       velocity: 295
       volume: 28600
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipEnergyVampireAmountBonusFixedAF2
     - shipBonusEnergyNosFalloffAF3
@@ -2247,9 +2464,11 @@ hulls:
     - shipArmorKNResistanceAF1
     - shipArmorEXResistanceAF1
     - shipBonusEnergyNosOptimalAF2
-    group: Assault Frigate
+    groupName: Assault Frigate
+    id: 3516
     name: Malice
-  3518:
+    volume: 28600.0
+  Vangel:
     attributes:
       agility: 0.5099999904632568
       capacitor: 2920.0
@@ -2274,6 +2493,7 @@ hulls:
       velocity: 209
       volume: 118000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipArmorEMAndExpAndkinAndThmResistanceAC2
     - shipBonusEnergyNosFalloffAC3
@@ -2286,9 +2506,11 @@ hulls:
     - shipBonusMissileLauncherHeavyAssaultROFATC1
     - shipBonusEnergyNeutFalloffAC3
     - shipBonusEnergyNosOptimalAC1
-    group: Heavy Assault Cruiser
+    groupName: Heavy Assault Cruiser
+    id: 3518
     name: Vangel
-  3532:
+    volume: 118000.0
+  Echelon:
     attributes:
       agility: 2.450000047683716
       capacitor: 187.0
@@ -2304,9 +2526,12 @@ hulls:
       velocity: 404
       volume: 28100
       warpSpeed: 5.0
-    group: Frigate
+    catName: Ship
+    groupName: Frigate
+    id: 3532
     name: Echelon
-  3756:
+    volume: 28100.0
+  Gnosis:
     attributes:
       agility: 0.44999998807907104
       capacitor: 2900.0
@@ -2332,6 +2557,7 @@ hulls:
       velocity: 135
       volume: 101000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - shipProjectileDmgPirateCruiser
     - shipHeavyAssaultMissileEMDmgPirateCruiser
@@ -2349,9 +2575,11 @@ hulls:
     - shipBonusDroneDamageMultiplierRookie
     - shipBonusMediumEnergyTurretDamagePirateFaction
     - commandBurstAoERoleBonus
-    group: Combat Battlecruiser
+    groupName: Combat Battlecruiser
+    id: 3756
     name: Gnosis
-  3764:
+    volume: 101000.0
+  Leviathan:
     attributes:
       agility: 0.03500000014901161
       capacitor: 128000.0
@@ -2374,6 +2602,7 @@ hulls:
       velocity: 60
       volume: 132500000
       warpSpeed: 1.3700000047683716
+    catName: Ship
     effects:
     - shipBonusTitanRole1NumWarfareLinks
     - shipBonusTitanRole3TorpdeoVelocityBonus
@@ -2386,9 +2615,11 @@ hulls:
     - shipBonusTitanC2ROFBonus
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
-    group: Titan
+    groupName: Titan
+    id: 3764
     name: Leviathan
-  3766:
+    volume: 1.325E8
+  Vigil:
     attributes:
       agility: 3.2200000286102295
       capacitor: 235.0
@@ -2413,12 +2644,15 @@ hulls:
       velocity: 410
       volume: 17400
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipBonusTargetPainterOptimalMF1
     - minmatarShipEwTargetPainterMF2
-    group: Frigate
+    groupName: Frigate
+    id: 3766
     name: Vigil
-  4302:
+    volume: 17400.0
+  Oracle:
     attributes:
       agility: 0.4950000047683716
       capacitor: 3500.0
@@ -2441,15 +2675,18 @@ hulls:
       velocity: 200
       volume: 234000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - bcLargeEnergyTurretPowerNeedBonus
     - bcLargeEnergyTurretCPUNeedBonus
     - bcLargeEnergyTurretCapacitorNeedBonus
     - shipLargeLaserCapABC1
     - shipLargeLaserDamageBonusABC2
-    group: Attack Battlecruiser
+    groupName: Attack Battlecruiser
+    id: 4302
     name: Oracle
-  4306:
+    volume: 234000.0
+  Naga:
     attributes:
       agility: 0.5249999761581421
       capacitor: 2900.0
@@ -2472,15 +2709,18 @@ hulls:
       velocity: 195
       volume: 252000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - bcLargeHybridTurretPowerNeedBonus
     - bcLargeHybridTurretCPUNeedBonus
     - bcLargeHybridTurretCapacitorNeedBonus
     - shipHybridRangeBonusCBC1
     - shipHybridDamageBonusCBC2
-    group: Attack Battlecruiser
+    groupName: Attack Battlecruiser
+    id: 4306
     name: Naga
-  4308:
+    volume: 252000.0
+  Talos:
     attributes:
       agility: 0.44999998807907104
       capacitor: 3100.0
@@ -2505,6 +2745,7 @@ hulls:
       velocity: 220
       volume: 270000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - bcLargeHybridTurretPowerNeedBonus
     - bcLargeHybridTurretCPUNeedBonus
@@ -2512,9 +2753,11 @@ hulls:
     - bcLargeHybridTurretCapacitorNeedBonus
     - shipLargeHybridTrackingBonusGBC1
     - shipHybridDamageBonusGBC2
-    group: Attack Battlecruiser
+    groupName: Attack Battlecruiser
+    id: 4308
     name: Talos
-  4310:
+    volume: 270000.0
+  Tornado:
     attributes:
       agility: 0.4749999940395355
       capacitor: 2700.0
@@ -2537,14 +2780,17 @@ hulls:
       velocity: 225
       volume: 216000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - shipProjectileRofBonusMBC1
     - shipProjectileFalloffBonusMBC2
     - bcLargeProjectileTurretPowerNeedBonus
     - bcLargeProjectileTurretCPUNeedBonus
-    group: Attack Battlecruiser
+    groupName: Attack Battlecruiser
+    id: 4310
     name: Tornado
-  4363:
+    volume: 216000.0
+  Miasmos Quafe Ultra Edition:
     attributes:
       agility: 0.8999999761581421
       capacitor: 500.0
@@ -2567,13 +2813,16 @@ hulls:
       velocity: 120
       volume: 265000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - industrialBonusDroneDamage
     - shipBonusCargo2GI
     - shipBonusVelocityGI
-    group: Industrial
+    groupName: Industrial
+    id: 4363
     name: Miasmos Quafe Ultra Edition
-  4388:
+    volume: 265000.0
+  Miasmos Quafe Ultramarine Edition:
     attributes:
       agility: 0.8999999761581421
       capacitor: 500.0
@@ -2596,13 +2845,16 @@ hulls:
       velocity: 120
       volume: 265000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - industrialBonusDroneDamage
     - shipBonusCargo2GI
     - shipBonusVelocityGI
-    group: Industrial
+    groupName: Industrial
+    id: 4388
     name: Miasmos Quafe Ultramarine Edition
-  11011:
+    volume: 265000.0
+  Guardian-Vexor:
     attributes:
       agility: 0.5462499856948853
       capacitor: 1250.0
@@ -2628,12 +2880,15 @@ hulls:
       velocity: 180
       volume: 115000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipHTDmgBonusfixedGC
     - shipDronesMaxGC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 11011
     name: Guardian-Vexor
-  11129:
+    volume: 115000.0
+  Gallente Shuttle:
     attributes:
       agility: 1.0
       capacitor: 250.0
@@ -2649,9 +2904,12 @@ hulls:
       velocity: 500
       volume: 5000
       warpSpeed: 5.0
-    group: Shuttle
+    catName: Ship
+    groupName: Shuttle
+    id: 11129
     name: Gallente Shuttle
-  11132:
+    volume: 5000.0
+  Minmatar Shuttle:
     attributes:
       agility: 1.0
       capacitor: 250.0
@@ -2667,9 +2925,12 @@ hulls:
       velocity: 500
       volume: 5000
       warpSpeed: 5.0
-    group: Shuttle
+    catName: Ship
+    groupName: Shuttle
+    id: 11132
     name: Minmatar Shuttle
-  11134:
+    volume: 5000.0
+  Amarr Shuttle:
     attributes:
       agility: 1.0
       capacitor: 250.0
@@ -2685,9 +2946,12 @@ hulls:
       velocity: 500
       volume: 5000
       warpSpeed: 5.0
-    group: Shuttle
+    catName: Ship
+    groupName: Shuttle
+    id: 11134
     name: Amarr Shuttle
-  11172:
+    volume: 5000.0
+  Helios:
     attributes:
       agility: 4.142000198364258
       capacitor: 218.0
@@ -2712,6 +2976,7 @@ hulls:
       velocity: 330
       volume: 23000
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - shipSHTDmgBonusGF
     - covertOpsWarpResistance
@@ -2721,9 +2986,11 @@ hulls:
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - covertOpsCloakCpuPercentBonus1
     - shipBonusSurveyProbeExplosionDelaySkillSurveyCovertOps3
-    group: Covert Ops
+    groupName: Covert Ops
+    id: 11172
     name: Helios
-  11174:
+    volume: 23000.0
+  Keres:
     attributes:
       agility: 4.099999904632568
       capacitor: 375.0
@@ -2748,15 +3015,18 @@ hulls:
       velocity: 350
       volume: 23000
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipBonusEwRemoteSensorDampenerMaxTargetRangeBonusGF2
     - shipBonusEwRemoteSensorDampenerScanResolutionBonusGF2
     - shipRemoteSensorDampenerCapNeedGF
     - eliteBonusElectronicAttackShipWarpScramblerMaxRange1
     - eliteBonusElectronicAttackShipWarpScramblerCapNeed2
-    group: Electronic Attack Ship
+    groupName: Electronic Attack Ship
+    id: 11174
     name: Keres
-  11176:
+    volume: 23000.0
+  Crow:
     attributes:
       agility: 3.700000047683716
       capacitor: 315.0
@@ -2779,6 +3049,7 @@ hulls:
       velocity: 430
       volume: 18000
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - shipBonusSmallMissileExplosionRadiusCF2
     - interceptorMWDSignatureRadiusBonus
@@ -2786,9 +3057,11 @@ hulls:
     - shipMissileVelocityCF
     - Interceptor2WarpScrambleRange
     - entosisCPUPenalty
-    group: Interceptor
+    groupName: Interceptor
+    id: 11176
     name: Crow
-  11178:
+    volume: 18000.0
+  Raptor:
     attributes:
       agility: 3.4000000953674316
       capacitor: 355.0
@@ -2812,6 +3085,7 @@ hulls:
       velocity: 420
       volume: 18000
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - shipHybridDamageBonusCF
     - shipHybridRangeBonusCF2
@@ -2819,9 +3093,11 @@ hulls:
     - shipCapPropulsionJamming
     - Interceptor2ShieldResist
     - entosisCPUPenalty
-    group: Interceptor
+    groupName: Interceptor
+    id: 11178
     name: Raptor
-  11182:
+    volume: 18000.0
+  Cheetah:
     attributes:
       agility: 3.7699999809265137
       capacitor: 187.0
@@ -2845,6 +3121,7 @@ hulls:
       velocity: 381
       volume: 17400
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - covertOpsWarpResistance
     - minigameVirusStrengthBonus
@@ -2854,9 +3131,11 @@ hulls:
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - covertOpsCloakCpuPercentBonus1
     - shipBonusSurveyProbeExplosionDelaySkillSurveyCovertOps3
-    group: Covert Ops
+    groupName: Covert Ops
+    id: 11182
     name: Cheetah
-  11184:
+    volume: 17400.0
+  Crusader:
     attributes:
       agility: 3.200000047683716
       capacitor: 415.0
@@ -2879,6 +3158,7 @@ hulls:
       velocity: 455
       volume: 28100
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - interceptor2LaserTracking
     - shipETDamageAF
@@ -2886,9 +3166,11 @@ hulls:
     - shipCapPropulsionJamming
     - entosisCPUPenalty
     - shipEnergyTCapNeedBonusAF
-    group: Interceptor
+    groupName: Interceptor
+    id: 11184
     name: Crusader
-  11186:
+    volume: 28100.0
+  Malediction:
     attributes:
       agility: 3.049999952316284
       capacitor: 355.0
@@ -2912,6 +3194,7 @@ hulls:
       velocity: 470
       volume: 28100
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - shipArmorResistanceAF1
     - shipRocketRoFBonusAF2
@@ -2919,9 +3202,11 @@ hulls:
     - shipCapPropulsionJamming
     - Interceptor2WarpScrambleRange
     - entosisCPUPenalty
-    group: Interceptor
+    groupName: Interceptor
+    id: 11186
     name: Malediction
-  11188:
+    volume: 28100.0
+  Anathema:
     attributes:
       agility: 4.889999866485596
       capacitor: 250.0
@@ -2945,6 +3230,7 @@ hulls:
       velocity: 282
       volume: 28100
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - shipCapRecharge2AF
     - covertOpsWarpResistance
@@ -2957,9 +3243,11 @@ hulls:
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - covertOpsCloakCpuPercentBonus1
     - shipBonusSurveyProbeExplosionDelaySkillSurveyCovertOps3
-    group: Covert Ops
+    groupName: Covert Ops
+    id: 11188
     name: Anathema
-  11190:
+    volume: 28100.0
+  Sentinel:
     attributes:
       agility: 4.25
       capacitor: 415.0
@@ -2984,6 +3272,7 @@ hulls:
       velocity: 340
       volume: 28100
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipBonusEnergyNeutFalloffEAF3
     - shipBonusEnergyNosOptimalEAF1
@@ -2993,9 +3282,11 @@ hulls:
     - eliteBonusElectronicAttackShipRechargeRate2
     - shipBonusEnergyNeutOptimalEAF1
     - shipEnergyDrainAmountAF1
-    group: Electronic Attack Ship
+    groupName: Electronic Attack Ship
+    id: 11190
     name: Sentinel
-  11192:
+    volume: 28100.0
+  Buzzard:
     attributes:
       agility: 4.269999980926514
       capacitor: 218.0
@@ -3019,6 +3310,7 @@ hulls:
       velocity: 306
       volume: 19400
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - covertOpsWarpResistance
     - shipMissileKineticDamageCF
@@ -3028,9 +3320,11 @@ hulls:
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - covertOpsCloakCpuPercentBonus1
     - shipBonusSurveyProbeExplosionDelaySkillSurveyCovertOps3
-    group: Covert Ops
+    groupName: Covert Ops
+    id: 11192
     name: Buzzard
-  11194:
+    volume: 19400.0
+  Kitsune:
     attributes:
       agility: 3.859999895095825
       capacitor: 415.0
@@ -3054,14 +3348,17 @@ hulls:
       velocity: 315
       volume: 19400
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - eliteBonusElectronicAttackShipECMOptimalRange1
     - eliteBonusElectronicAttackShipCapacitorCapacity2
     - caldariShipEwCapacitorNeedCF2
     - shipECMScanStrengthBonusCF
-    group: Electronic Attack Ship
+    groupName: Electronic Attack Ship
+    id: 11194
     name: Kitsune
-  11196:
+    volume: 19400.0
+  Claw:
     attributes:
       agility: 3.1500000953674316
       capacitor: 285.0
@@ -3085,6 +3382,7 @@ hulls:
       velocity: 480
       volume: 17400
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - interceptorMWDSignatureRadiusBonus
     - shipCapPropulsionJamming
@@ -3092,9 +3390,11 @@ hulls:
     - entosisCPUPenalty
     - shipProjectileTrackingMF2
     - shipPDmgBonusMF
-    group: Interceptor
+    groupName: Interceptor
+    id: 11196
     name: Claw
-  11198:
+    volume: 17400.0
+  Stiletto:
     attributes:
       agility: 3.5
       capacitor: 250.0
@@ -3118,6 +3418,7 @@ hulls:
       velocity: 435
       volume: 17400
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - interceptorMWDSignatureRadiusBonus
     - shipCapPropulsionJamming
@@ -3125,9 +3426,11 @@ hulls:
     - entosisCPUPenalty
     - shipProjectileTrackingMF2
     - shipPDmgBonusMF
-    group: Interceptor
+    groupName: Interceptor
+    id: 11198
     name: Stiletto
-  11200:
+    volume: 17400.0
+  Taranis:
     attributes:
       agility: 3.25
       capacitor: 355.0
@@ -3152,15 +3455,18 @@ hulls:
       velocity: 420
       volume: 22500
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - shipSHTDmgBonusGF
     - interceptor2HybridTracking
     - interceptorMWDSignatureRadiusBonus
     - shipCapPropulsionJamming
     - entosisCPUPenalty
-    group: Interceptor
+    groupName: Interceptor
+    id: 11200
     name: Taranis
-  11202:
+    volume: 22500.0
+  Ares:
     attributes:
       agility: 3.450000047683716
       capacitor: 355.0
@@ -3184,6 +3490,7 @@ hulls:
       velocity: 425
       volume: 22500
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - interceptorMWDSignatureRadiusBonus
     - shipCapPropulsionJamming
@@ -3191,9 +3498,11 @@ hulls:
     - Interceptor2WarpScrambleRange
     - entosisCPUPenalty
     - shipSHTOptimalBonusGF
-    group: Interceptor
+    groupName: Interceptor
+    id: 11202
     name: Ares
-  11365:
+    volume: 22500.0
+  Vengeance:
     attributes:
       agility: 4.263999938964844
       capacitor: 375.0
@@ -3217,6 +3526,7 @@ hulls:
       velocity: 273
       volume: 28600
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipRocketExplosiveDmgAF
     - shipRocketKineticDmgAF
@@ -3229,9 +3539,11 @@ hulls:
     - eliteBonusGunshipArmorThermalResistance1
     - eliteBonusGunshipArmorKineticResistance1
     - eliteBonusGunshipArmorExplosiveResistance1
-    group: Assault Frigate
+    groupName: Assault Frigate
+    id: 11365
     name: Vengeance
-  11371:
+    volume: 28600.0
+  Wolf:
     attributes:
       agility: 3.4560000896453857
       capacitor: 275.0
@@ -3255,15 +3567,18 @@ hulls:
       velocity: 329
       volume: 27289
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - eliteBonusGunshipProjectileDamage1
     - eliteBonusGunshipProjectileFalloff2
     - MWDSignatureRadiusRoleBonus
     - shipProjectileTrackingMF2
     - shipPDmgBonusMF
-    group: Assault Frigate
+    groupName: Assault Frigate
+    id: 11371
     name: Wolf
-  11377:
+    volume: 27289.0
+  Nemesis:
     attributes:
       agility: 4.599999904632568
       capacitor: 355.0
@@ -3287,6 +3602,7 @@ hulls:
       velocity: 275
       volume: 28100
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - covertOpsCpuBonus1
     - eliteBonusCoverOpsBombThermalDmg1
@@ -3297,9 +3613,11 @@ hulls:
     - covertOpsStealthBomberTargettingDelayBonus
     - shipBonusGFTorpedoExplosionVelocity
     - shipBonusGF1TorpedoFlightTime
-    group: Stealth Bomber
+    groupName: Stealth Bomber
+    id: 11377
     name: Nemesis
-  11379:
+    volume: 28100.0
+  Hawk:
     attributes:
       agility: 3.7679998874664307
       capacitor: 312.0
@@ -3323,15 +3641,18 @@ hulls:
       velocity: 273
       volume: 16500
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - eliteBonusAssaultShipMissileVelocity1
     - shipMissileKineticDamageCF
     - MWDSignatureRadiusRoleBonus
     - eliteBonusGunshipShieldBoost2
     - shipMissileSpeedBonusCF
-    group: Assault Frigate
+    groupName: Assault Frigate
+    id: 11379
     name: Hawk
-  11381:
+    volume: 16500.0
+  Harpy:
     attributes:
       agility: 3.6328001022338867
       capacitor: 343.0
@@ -3355,6 +3676,7 @@ hulls:
       velocity: 264
       volume: 16500
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipHybridRangeBonusCF2
     - MWDSignatureRadiusRoleBonus
@@ -3364,9 +3686,11 @@ hulls:
     - shipShieldExplosiveResistanceCF2
     - eliteBonusGunshipHybridOptimal1
     - eliteBonusGunshipHybridDmg2
-    group: Assault Frigate
+    groupName: Assault Frigate
+    id: 11381
     name: Harpy
-  11387:
+    volume: 16500.0
+  Hyena:
     attributes:
       agility: 3.930000066757202
       capacitor: 355.0
@@ -3390,14 +3714,17 @@ hulls:
       velocity: 375
       volume: 17400
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - eliteBonusElectronicAttackShipStasisWebMaxRange1
     - shipBonusTargetPainterOptimalMF1
     - eliteBonusElectronicAttackShipSignatureRadius2
     - minmatarShipEwTargetPainterMF2
-    group: Electronic Attack Ship
+    groupName: Electronic Attack Ship
+    id: 11387
     name: Hyena
-  11393:
+    volume: 17400.0
+  Retribution:
     attributes:
       agility: 4.127999782562256
       capacitor: 437.0
@@ -3420,15 +3747,18 @@ hulls:
       velocity: 278
       volume: 28600
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipSETTrackingBonusAF
     - MWDSignatureRadiusRoleBonus
     - eliteBonusGunshipLaserDamage2
     - shipEnergyTCapNeedBonusAF
     - eliteBonusGunshipLaserOptimal1
-    group: Assault Frigate
+    groupName: Assault Frigate
+    id: 11393
     name: Retribution
-  11400:
+    volume: 28600.0
+  Jaguar:
     attributes:
       agility: 3.1760001182556152
       capacitor: 250.0
@@ -3452,15 +3782,18 @@ hulls:
       velocity: 357
       volume: 27289
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - eliteBonusGunshipProjectileDamage2
     - MWDSignatureRadiusRoleBonus
     - shipProjectileTrackingMF2
     - shipPDmgBonusMF
     - eliteBonusGunshipProjectileOptimal1
-    group: Assault Frigate
+    groupName: Assault Frigate
+    id: 11400
     name: Jaguar
-  11567:
+    volume: 27289.0
+  Avatar:
     attributes:
       agility: 0.03400000184774399
       capacitor: 135000.0
@@ -3483,6 +3816,7 @@ hulls:
       velocity: 60
       volume: 155000000
       warpSpeed: 1.3700000047683716
+    catName: Ship
     effects:
     - shipBonusTitanRole1NumWarfareLinks
     - shipCapitalAgilityBonus
@@ -3493,9 +3827,11 @@ hulls:
     - shipBonusTitanA2CapNeed
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
-    group: Titan
+    groupName: Titan
+    id: 11567
     name: Avatar
-  11936:
+    volume: 1.55E8
+  Apocalypse Imperial Issue:
     attributes:
       agility: 0.13600000739097595
       capacitor: 6600.0
@@ -3520,12 +3856,15 @@ hulls:
       velocity: 94
       volume: 495000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipBonusCapCapAB
     - shipCapNeedBonusAB
-    group: Battleship
+    groupName: Battleship
+    id: 11936
     name: Apocalypse Imperial Issue
-  11938:
+    volume: 495000.0
+  Armageddon Imperial Issue:
     attributes:
       agility: 0.13600000739097595
       capacitor: 6640.0
@@ -3550,12 +3889,15 @@ hulls:
       velocity: 94
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipETspeedBonusAB2
     - shipCapNeedBonusAB
-    group: Battleship
+    groupName: Battleship
+    id: 11938
     name: Armageddon Imperial Issue
-  11940:
+    volume: 486000.0
+  Gold Magnate:
     attributes:
       agility: 2.200000047683716
       capacitor: 1275.0
@@ -3578,6 +3920,7 @@ hulls:
       velocity: 500
       volume: 22100
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipSETDmgBonusAF
     - shipArmorEMResistanceRookie
@@ -3586,9 +3929,11 @@ hulls:
     - shipArmorKNResistanceRookie
     - shipArmorTHResistanceRookie
     - shipEnergyTCapNeedBonusAF
-    group: Frigate
+    groupName: Frigate
+    id: 11940
     name: Gold Magnate
-  11942:
+    volume: 22100.0
+  Silver Magnate:
     attributes:
       agility: 2.200000047683716
       capacitor: 900.0
@@ -3611,6 +3956,7 @@ hulls:
       velocity: 450
       volume: 22100
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipSETDmgBonusAF
     - shipArmorEMResistanceRookie
@@ -3619,9 +3965,11 @@ hulls:
     - shipArmorKNResistanceRookie
     - shipArmorTHResistanceRookie
     - shipEnergyTCapNeedBonusAF
-    group: Frigate
+    groupName: Frigate
+    id: 11942
     name: Silver Magnate
-  11957:
+    volume: 22100.0
+  Falcon:
     attributes:
       agility: 0.6399999856948853
       capacitor: 1190.0
@@ -3647,6 +3995,7 @@ hulls:
       velocity: 192
       volume: 96000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - caldariShipEwCapacitorNeedCC
     - cynosuralTheoryConsumptionBonus
@@ -3658,9 +4007,11 @@ hulls:
     - reconShipCloakCpuBonus1
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - shipBonusMediumHybridDmgCC2
-    group: Force Recon Ship
+    groupName: Force Recon Ship
+    id: 11957
     name: Falcon
-  11959:
+    volume: 96000.0
+  Rook:
     attributes:
       agility: 0.6100000143051147
       capacitor: 1250.0
@@ -3686,6 +4037,7 @@ hulls:
       velocity: 194
       volume: 96000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteReconBonusHeavyMissileVelocity
     - eliteReconBonusHeavyAssaultMissileVelocity
@@ -3695,9 +4047,11 @@ hulls:
     - eliteReconBonusRadarStrength2
     - eliteReconBonusLadarStrength2
     - shipMissileKinDamageCC2
-    group: Combat Recon Ship
+    groupName: Combat Recon Ship
+    id: 11959
     name: Rook
-  11961:
+    volume: 96000.0
+  Huginn:
     attributes:
       agility: 0.5699999928474426
       capacitor: 1210.0
@@ -3723,14 +4077,17 @@ hulls:
       velocity: 240
       volume: 85000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteReconStasisWebBonus2
     - shipPTurretSpeedBonusMC
     - eliteReconBonusMPTdamage1
     - minmatarShipEwTargetPainterMC2
-    group: Combat Recon Ship
+    groupName: Combat Recon Ship
+    id: 11961
     name: Huginn
-  11963:
+    volume: 85000.0
+  Rapier:
     attributes:
       agility: 0.5899999737739563
       capacitor: 1180.0
@@ -3756,6 +4113,7 @@ hulls:
       velocity: 230
       volume: 85000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipBonusLightMissileAllDamageMC2
     - eliteReconStasisWebBonus2
@@ -3766,9 +4124,11 @@ hulls:
     - reconShipCloakCpuBonus1
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - shipBonusHeavyMissileAllDamageMC2
-    group: Force Recon Ship
+    groupName: Force Recon Ship
+    id: 11963
     name: Rapier
-  11965:
+    volume: 85000.0
+  Pilgrim:
     attributes:
       agility: 0.6100000143051147
       capacitor: 1440.0
@@ -3793,6 +4153,7 @@ hulls:
       velocity: 198
       volume: 120000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteReconBonusEnergyNeutAmount2
     - shipBonusEnergyNeutOptimalRS3
@@ -3807,9 +4168,11 @@ hulls:
     - shipBonusEnergyNeutFalloffRS2
     - shipBonusEwWeaponDisruptionStrengthAC1
     - shipBonusEnergyNosFalloffRS2
-    group: Force Recon Ship
+    groupName: Force Recon Ship
+    id: 11965
     name: Pilgrim
-  11969:
+    volume: 120000.0
+  Arazu:
     attributes:
       agility: 0.5899999737739563
       capacitor: 1290.0
@@ -3835,6 +4198,7 @@ hulls:
       velocity: 207
       volume: 116000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipHTDmgBonusfixedGC
     - eliteReconJumpScramblerRangeBonus2
@@ -3844,9 +4208,11 @@ hulls:
     - cynosuralDurationBonus
     - reconShipCloakCpuBonus1
     - covertOpsAndReconOpsCloakModuleDelayBonus
-    group: Force Recon Ship
+    groupName: Force Recon Ship
+    id: 11969
     name: Arazu
-  11971:
+    volume: 116000.0
+  Lachesis:
     attributes:
       agility: 0.5600000023841858
       capacitor: 1315.0
@@ -3872,15 +4238,18 @@ hulls:
       velocity: 220
       volume: 116000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteReconJumpScramblerRangeBonus2
     - shipBonusEwRemoteSensorDampenerMaxTargetRangeBonusGC2
     - shipBonusEwRemoteSensorDampenerScanResolutionBonusGC2
     - shipHybridTrackingGC
     - eliteReconBonusMHTOptimalRange1
-    group: Combat Recon Ship
+    groupName: Combat Recon Ship
+    id: 11971
     name: Lachesis
-  11978:
+    volume: 116000.0
+  Scimitar:
     attributes:
       agility: 0.550000011920929
       capacitor: 1750.0
@@ -3906,6 +4275,7 @@ hulls:
       velocity: 253
       volume: 89000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteBonusLogisticsTrackingLinkMaxRangeBonus1
     - eliteBonusLogisticsTrackingLinkFalloffBonus1
@@ -3918,9 +4288,11 @@ hulls:
     - shipShieldTransferRangeMC2
     - shipBonusRemoteTrackingComputerFalloffMC
     - eliteBonusLogisticShieldTransferCapNeed2
-    group: Logistics
+    groupName: Logistics
+    id: 11978
     name: Scimitar
-  11985:
+    volume: 89000.0
+  Basilisk:
     attributes:
       agility: 0.5049999952316284
       capacitor: 2100.0
@@ -3946,6 +4318,7 @@ hulls:
       velocity: 192
       volume: 107000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipEnergyTransferRange2
     - remoteCapacitorTransmitterPowerNeedBonusEffect
@@ -3957,9 +4330,11 @@ hulls:
     - shipShieldTransferRangeCC1
     - eliteBonusLogisticShieldTransferCapNeed1
     - eliteBonusLogisticEnergyTransferCapNeed2
-    group: Logistics
+    groupName: Logistics
+    id: 11985
     name: Basilisk
-  11987:
+    volume: 107000.0
+  Guardian:
     attributes:
       agility: 0.6100000143051147
       capacitor: 2250.0
@@ -3984,6 +4359,7 @@ hulls:
       velocity: 209
       volume: 115000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - remoteArmorPowerNeedBonusEffect
     - remoteCapacitorTransmitterPowerNeedBonusEffect
@@ -3995,9 +4371,11 @@ hulls:
     - eliteBonusLogisticRemoteArmorRepairCapNeed2
     - eliteBonusLogisticEnergyTransferCapNeed1
     - shipEnergyTransferRange1
-    group: Logistics
+    groupName: Logistics
+    id: 11987
     name: Guardian
-  11989:
+    volume: 115000.0
+  Oneiros:
     attributes:
       agility: 0.6150000095367432
       capacitor: 1925.0
@@ -4022,6 +4400,7 @@ hulls:
       velocity: 230
       volume: 113000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - remoteArmorPowerNeedBonusEffect
     - eliteBonusLogisticsTrackingLinkMaxRangeBonus2
@@ -4034,9 +4413,11 @@ hulls:
     - droneHullRepairBonusEffect
     - eliteBonusLogisticRemoteArmorRepairCapNeed1
     - shipBonusRemoteTrackingComputerFalloffGC2
-    group: Logistics
+    groupName: Logistics
+    id: 11989
     name: Oneiros
-  11993:
+    volume: 113000.0
+  Cerberus:
     attributes:
       agility: 0.46299999952316284
       capacitor: 1200.0
@@ -4061,6 +4442,7 @@ hulls:
       velocity: 220
       volume: 92000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipMissileKineticDamageCC
     - MWDSignatureRadiusRoleBonus
@@ -4071,9 +4453,11 @@ hulls:
     - eliteBonusHeavyGunshipLightMissileFlightTime1
     - eliteBonusHeavyGunshipAssaultMissileFlightTime1
     - shipBonusMissileVelocityCC2
-    group: Heavy Assault Cruiser
+    groupName: Heavy Assault Cruiser
+    id: 11993
     name: Cerberus
-  11995:
+    volume: 92000.0
+  Onyx:
     attributes:
       agility: 0.550000011920929
       capacitor: 1250.0
@@ -4096,6 +4480,7 @@ hulls:
       velocity: 200
       volume: 92000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipMissileLauncherRofCC2
     - shipShieldEMResistanceRookie
@@ -4107,9 +4492,11 @@ hulls:
     - eliteBonusHeavyInterdictorHeavyAssaultMissileVelocityBonus
     - eliteBonusHeavyInterdictorsWarpDisruptFieldGeneratorWarpScrambleRange2
     - eliteBonusHeavyInterdictorLightMissileVelocityBonus
-    group: Heavy Interdiction Cruiser
+    groupName: Heavy Interdiction Cruiser
+    id: 11995
     name: Onyx
-  11999:
+    volume: 92000.0
+  Vagabond:
     attributes:
       agility: 0.5040000081062317
       capacitor: 1200.0
@@ -4135,15 +4522,18 @@ hulls:
       velocity: 295
       volume: 80000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteBonusHeavyGunshipProjectileFallOff1
     - MWDSignatureRadiusRoleBonus
     - shipBonusShieldBoostAmountMC2
     - shipPTurretSpeedBonusMC
     - eliteBonusHeavyGunshipProjectileDmg2
-    group: Heavy Assault Cruiser
+    groupName: Heavy Assault Cruiser
+    id: 11999
     name: Vagabond
-  12003:
+    volume: 80000.0
+  Zealot:
     attributes:
       agility: 0.5529999732971191
       capacitor: 1500.0
@@ -4166,15 +4556,18 @@ hulls:
       velocity: 210
       volume: 118000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteBonusHeavyGunshipLaserOptimal1
     - shipTCapNeedBonusAC
     - eliteBonusHeavyGunshipLaserDmg2
     - MWDSignatureRadiusRoleBonus
     - shipLaserRofAC2
-    group: Heavy Assault Cruiser
+    groupName: Heavy Assault Cruiser
+    id: 12003
     name: Zealot
-  12005:
+    volume: 118000.0
+  Ishtar:
     attributes:
       agility: 0.5649999976158142
       capacitor: 1400.0
@@ -4199,6 +4592,7 @@ hulls:
       velocity: 175
       volume: 115000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipBonusSentryShieldHPGC3
     - shipBonusLightDroneDamageMultiplierGC2
@@ -4222,9 +4616,11 @@ hulls:
     - shipBonusSentryDamageMultiplierGC3
     - shipBonusSentryHPGC3
     - shipBonusSentryArmorHPGC3
-    group: Heavy Assault Cruiser
+    groupName: Heavy Assault Cruiser
+    id: 12005
     name: Ishtar
-  12011:
+    volume: 115000.0
+  Eagle:
     attributes:
       agility: 0.5759999752044678
       capacitor: 1350.0
@@ -4248,6 +4644,7 @@ hulls:
       velocity: 190
       volume: 101000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteBonusHeavyGunshipHybridOptimal1
     - shipShieldEMResistanceCC2
@@ -4257,9 +4654,11 @@ hulls:
     - MWDSignatureRadiusRoleBonus
     - shipShieldExplosiveResistanceCC2
     - shipHRangeBonusCC
-    group: Heavy Assault Cruiser
+    groupName: Heavy Assault Cruiser
+    id: 12011
     name: Eagle
-  12013:
+    volume: 101000.0
+  Broadsword:
     attributes:
       agility: 0.550000011920929
       capacitor: 1250.0
@@ -4283,6 +4682,7 @@ hulls:
       velocity: 220
       volume: 96000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipShieldEMResistanceRookie
     - shipShieldExplosiveResistanceRookie
@@ -4292,9 +4692,11 @@ hulls:
     - shipPTurretSpeedBonusMC
     - eliteBonusHeavyInterdictorsWarpDisruptFieldGeneratorWarpScrambleRange2
     - eliteBonusHeavyInterdictorsProjectileFalloff1
-    group: Heavy Interdiction Cruiser
+    groupName: Heavy Interdiction Cruiser
+    id: 12013
     name: Broadsword
-  12015:
+    volume: 96000.0
+  Muninn:
     attributes:
       agility: 0.5709999799728394
       capacitor: 1300.0
@@ -4320,15 +4722,18 @@ hulls:
       velocity: 230
       volume: 96000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteBonusHeavyGunshipProjectileOptimal1
     - MWDSignatureRadiusRoleBonus
     - eliteBonusHeavyGunshipProjectileTracking2
     - shipProjectileDmgMC2
     - shipPTurretSpeedBonusMC
-    group: Heavy Assault Cruiser
+    groupName: Heavy Assault Cruiser
+    id: 12015
     name: Muninn
-  12017:
+    volume: 96000.0
+  Devoter:
     attributes:
       agility: 0.5099999904632568
       capacitor: 1625.0
@@ -4353,6 +4758,7 @@ hulls:
       velocity: 215
       volume: 118000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipArmorEMResistanceRookie
     - shipArmorEXResistanceRookie
@@ -4362,9 +4768,11 @@ hulls:
     - eliteBonusHeavyInterdictorsMETOptimal
     - shipArmorTHResistanceRookie
     - eliteBonusHeavyInterdictorsWarpDisruptFieldGeneratorWarpScrambleRange2
-    group: Heavy Interdiction Cruiser
+    groupName: Heavy Interdiction Cruiser
+    id: 12017
     name: Devoter
-  12019:
+    volume: 118000.0
+  Sacrilege:
     attributes:
       agility: 0.5669999718666077
       capacitor: 1700.0
@@ -4390,6 +4798,7 @@ hulls:
       velocity: 200
       volume: 118000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipArmorEMAndExpAndkinAndThmResistanceAC2
     - shipBonusHMLVelocityEliteBonusHeavyGunship1
@@ -4401,9 +4810,11 @@ hulls:
     - shipBonusHMLThermDamageAC
     - MWDSignatureRadiusRoleBonus
     - shipBonusHMLExploDamageAC
-    group: Heavy Assault Cruiser
+    groupName: Heavy Assault Cruiser
+    id: 12019
     name: Sacrilege
-  12021:
+    volume: 118000.0
+  Phobos:
     attributes:
       agility: 0.5799999833106995
       capacitor: 1375.0
@@ -4426,6 +4837,7 @@ hulls:
       velocity: 205
       volume: 112000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipArmorEMResistanceRookie
     - shipArmorEXResistanceRookie
@@ -4435,9 +4847,11 @@ hulls:
     - eliteBonusHeavyInterdictorsHybridOptimal1
     - shipHybridTurretROFBonusGC2
     - eliteBonusHeavyInterdictorsWarpDisruptFieldGeneratorWarpScrambleRange2
-    group: Heavy Interdiction Cruiser
+    groupName: Heavy Interdiction Cruiser
+    id: 12021
     name: Phobos
-  12023:
+    volume: 112000.0
+  Deimos:
     attributes:
       agility: 0.4749999940395355
       capacitor: 1400.0
@@ -4462,15 +4876,18 @@ hulls:
       velocity: 230
       volume: 112000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipHTDmgBonusfixedGC
     - shipBonusArmorRepAmountGC2
     - eliteBonusHeavyGunshipHybridDmg2
     - MWDSignatureRadiusRoleBonus
     - eliteBonusHeavyGunshipHybridFallOff1
-    group: Heavy Assault Cruiser
+    groupName: Heavy Assault Cruiser
+    id: 12023
     name: Deimos
-  12032:
+    volume: 112000.0
+  Manticore:
     attributes:
       agility: 4.5
       capacitor: 315.0
@@ -4494,6 +4911,7 @@ hulls:
       velocity: 280
       volume: 28100
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - covertOpsCpuBonus1
     - shipBonusCF1TorpedoFlightTime
@@ -4504,9 +4922,11 @@ hulls:
     - shipBonusEliteCover2TorpedoKineticDamage
     - covertOpsStealthBomberTargettingDelayBonus
     - shipBonusCF1TorpedoExplosionVelocity
-    group: Stealth Bomber
+    groupName: Stealth Bomber
+    id: 12032
     name: Manticore
-  12034:
+    volume: 28100.0
+  Hound:
     attributes:
       agility: 4.400000095367432
       capacitor: 285.0
@@ -4530,6 +4950,7 @@ hulls:
       velocity: 310
       volume: 28100
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - eliteBonusCoverOpsBombExplosiveDmg1
     - covertOpsCpuBonus1
@@ -4540,9 +4961,11 @@ hulls:
     - covertOpsStealthBomberTargettingDelayBonus
     - shipBonusMF1TorpedoExplosionVelocity
     - shipBonusMF1TorpedoFlightTime
-    group: Stealth Bomber
+    groupName: Stealth Bomber
+    id: 12034
     name: Hound
-  12038:
+    volume: 28100.0
+  Purifier:
     attributes:
       agility: 4.400000095367432
       capacitor: 355.0
@@ -4566,6 +4989,7 @@ hulls:
       velocity: 300
       volume: 28100
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - covertOpsCpuBonus1
     - shipBonusAF1TorpedoExplosionVelocity
@@ -4576,9 +5000,11 @@ hulls:
     - shipBonusTorpedoVelocity2AF
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - covertOpsStealthBomberTargettingDelayBonus
-    group: Stealth Bomber
+    groupName: Stealth Bomber
+    id: 12038
     name: Purifier
-  12042:
+    volume: 28100.0
+  Ishkur:
     attributes:
       agility: 3.8684000968933105
       capacitor: 312.0
@@ -4603,6 +5029,7 @@ hulls:
       velocity: 287
       volume: 29500
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipSHTDmgBonusGF
     - shipBonusDroneHitpointsGF2
@@ -4611,9 +5038,11 @@ hulls:
     - MWDSignatureRadiusRoleBonus
     - eliteBonusGunshipDroneCapacity2
     - eliteBonusGunshipHybridOptimal1
-    group: Assault Frigate
+    groupName: Assault Frigate
+    id: 12042
     name: Ishkur
-  12044:
+    volume: 29500.0
+  Enyo:
     attributes:
       agility: 3.921600103378296
       capacitor: 343.0
@@ -4639,14 +5068,17 @@ hulls:
       velocity: 288
       volume: 29500
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipSHTDmgBonusGF
     - eliteBonusGunshipHybridTracking2
     - MWDSignatureRadiusRoleBonus
     - eliteBonusGunshipHybridOptimal1
-    group: Assault Frigate
+    groupName: Assault Frigate
+    id: 12044
     name: Enyo
-  12729:
+    volume: 29500.0
+  Crane:
     attributes:
       agility: 0.5099999904632568
       capacitor: 1300.0
@@ -4669,6 +5101,7 @@ hulls:
       velocity: 160
       volume: 195000
       warpSpeed: 6.0
+    catName: Ship
     effects:
     - blockadeRunnerCloakCpuPercentBonus
     - industrialBonusDroneDamage
@@ -4676,9 +5109,11 @@ hulls:
     - shipBonusVelocityCI
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - eliteIndustrialWarpSpeedBonus1
-    group: Blockade Runner
+    groupName: Blockade Runner
+    id: 12729
     name: Crane
-  12731:
+    volume: 195000.0
+  Bustard:
     attributes:
       agility: 1.0
       capacitor: 2900.0
@@ -4701,6 +5136,7 @@ hulls:
       velocity: 80
       volume: 390000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteIndustrialABHeatBonus
     - eliteIndustrialFleetCapacity1
@@ -4714,9 +5150,11 @@ hulls:
     - shipBonusVelocityCI
     - eliteIndustrialArmorRepairHeatBonus
     - shipBonusShieldBoostCI2
-    group: Deep Space Transport
+    groupName: Deep Space Transport
+    id: 12731
     name: Bustard
-  12733:
+    volume: 390000.0
+  Prorator:
     attributes:
       agility: 0.5199999809265137
       capacitor: 1375.0
@@ -4739,6 +5177,7 @@ hulls:
       velocity: 170
       volume: 200000
       warpSpeed: 6.0
+    catName: Ship
     effects:
     - shipCargoBonusAI
     - blockadeRunnerCloakCpuPercentBonus
@@ -4746,9 +5185,11 @@ hulls:
     - shipVelocityBonusAI
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - eliteIndustrialWarpSpeedBonus1
-    group: Blockade Runner
+    groupName: Blockade Runner
+    id: 12733
     name: Prorator
-  12735:
+    volume: 200000.0
+  Prowler:
     attributes:
       agility: 0.48500001430511475
       capacitor: 1200.0
@@ -4772,6 +5213,7 @@ hulls:
       velocity: 220
       volume: 180000
       warpSpeed: 6.0
+    catName: Ship
     effects:
     - blockadeRunnerCloakCpuPercentBonus
     - industrialBonusDroneDamage
@@ -4779,9 +5221,11 @@ hulls:
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - eliteIndustrialWarpSpeedBonus1
     - shipVelocityBonusMI
-    group: Blockade Runner
+    groupName: Blockade Runner
+    id: 12735
     name: Prowler
-  12743:
+    volume: 180000.0
+  Viator:
     attributes:
       agility: 0.5400000214576721
       capacitor: 1300.0
@@ -4804,6 +5248,7 @@ hulls:
       velocity: 165
       volume: 190000
       warpSpeed: 6.0
+    catName: Ship
     effects:
     - blockadeRunnerCloakCpuPercentBonus
     - industrialBonusDroneDamage
@@ -4811,9 +5256,11 @@ hulls:
     - shipBonusVelocityGI
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - eliteIndustrialWarpSpeedBonus1
-    group: Blockade Runner
+    groupName: Blockade Runner
+    id: 12743
     name: Viator
-  12745:
+    volume: 190000.0
+  Occator:
     attributes:
       agility: 1.0
       capacitor: 3100.0
@@ -4836,6 +5283,7 @@ hulls:
       velocity: 110
       volume: 390000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteIndustrialArmorResists2
     - shipBonusArmorRepairGI2
@@ -4849,9 +5297,11 @@ hulls:
     - eliteIndustrialShieldBoosterHeatBonus
     - shipBonusVelocityGI
     - eliteIndustrialArmorRepairHeatBonus
-    group: Deep Space Transport
+    groupName: Deep Space Transport
+    id: 12745
     name: Occator
-  12747:
+    volume: 390000.0
+  Mastodon:
     attributes:
       agility: 1.0
       capacitor: 2700.0
@@ -4874,6 +5324,7 @@ hulls:
       velocity: 120
       volume: 385000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteIndustrialABHeatBonus
     - eliteIndustrialFleetCapacity1
@@ -4887,9 +5338,11 @@ hulls:
     - eliteIndustrialArmorRepairHeatBonus
     - shipVelocityBonusMI
     - shipBonusShieldBoostMI2
-    group: Deep Space Transport
+    groupName: Deep Space Transport
+    id: 12747
     name: Mastodon
-  12753:
+    volume: 385000.0
+  Impel:
     attributes:
       agility: 1.0
       capacitor: 3500.0
@@ -4912,6 +5365,7 @@ hulls:
       velocity: 90
       volume: 400000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipBonusArmorRepairAI2
     - eliteIndustrialArmorResists2
@@ -4925,9 +5379,11 @@ hulls:
     - eliteIndustrialShieldBoosterHeatBonus
     - eliteIndustrialArmorRepairHeatBonus
     - shipVelocityBonusAI
-    group: Deep Space Transport
+    groupName: Deep Space Transport
+    id: 12753
     name: Impel
-  13202:
+    volume: 400000.0
+  Megathron Federate Issue:
     attributes:
       agility: 0.12160000205039978
       capacitor: 6187.0
@@ -4953,12 +5409,15 @@ hulls:
       velocity: 115
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipHTDmgBonusGB
     - shipHTTrackingBonusGB2
-    group: Battleship
+    groupName: Battleship
+    id: 13202
     name: Megathron Federate Issue
-  16227:
+    volume: 486000.0
+  Ferox:
     attributes:
       agility: 0.6299999952316284
       capacitor: 2900.0
@@ -4983,14 +5442,17 @@ hulls:
       velocity: 150
       volume: 252000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - shipHybridDmg1CBC2
     - shipHybridOptimal1CBC1
     - battlecruiserMHTRange
     - commandBurstAoERoleBonus
-    group: Combat Battlecruiser
+    groupName: Combat Battlecruiser
+    id: 16227
     name: Ferox
-  16229:
+    volume: 252000.0
+  Brutix:
     attributes:
       agility: 0.6800000071525574
       capacitor: 3100.0
@@ -5015,14 +5477,17 @@ hulls:
       velocity: 160
       volume: 270000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - shipHybridDmg1GBC1
     - battlecruiserMHTRange
     - shipArmorRepairing1GBC2
     - commandBurstAoERoleBonus
-    group: Combat Battlecruiser
+    groupName: Combat Battlecruiser
+    id: 16229
     name: Brutix
-  16231:
+    volume: 270000.0
+  Cyclone:
     attributes:
       agility: 0.6800000071525574
       capacitor: 2900.0
@@ -5048,15 +5513,18 @@ hulls:
       velocity: 180
       volume: 216000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - shipBonusHeavyMissileLauncherRofMBC2
     - shipBonusHeavyAssaultMissileLauncherRofMBC2
     - shipShieldBoost1MBC1
     - battlecruiserMissileRange
     - commandBurstAoERoleBonus
-    group: Combat Battlecruiser
+    groupName: Combat Battlecruiser
+    id: 16231
     name: Cyclone
-  16233:
+    volume: 216000.0
+  Prophecy:
     attributes:
       agility: 0.5699999928474426
       capacitor: 3000.0
@@ -5082,6 +5550,7 @@ hulls:
       velocity: 170
       volume: 234000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - battlecruiserDroneSpeed
     - shipBonusDroneHitpointsABC2
@@ -5091,9 +5560,11 @@ hulls:
     - shipArmorThermResistance1ABC1
     - shipBonusDroneDamageMultiplierABC2
     - commandBurstAoERoleBonus
-    group: Combat Battlecruiser
+    groupName: Combat Battlecruiser
+    id: 16233
     name: Prophecy
-  16236:
+    volume: 234000.0
+  Coercer:
     attributes:
       agility: 2.7699999809265137
       capacitor: 700.0
@@ -5116,13 +5587,16 @@ hulls:
       velocity: 255
       volume: 47000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - smallEnergyMaxRangeBonus
     - shipLaserCapNeed2AD1
     - shipLaserTracking2AD2
-    group: Destroyer
+    groupName: Destroyer
+    id: 16236
     name: Coercer
-  16238:
+    volume: 47000.0
+  Cormorant:
     attributes:
       agility: 2.7799999713897705
       capacitor: 600.0
@@ -5146,13 +5620,16 @@ hulls:
       velocity: 250
       volume: 52000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - smallHybridMaxRangeBonus
     - shipHybridRange1CD1
     - shipHybridTrackingCD2
-    group: Destroyer
+    groupName: Destroyer
+    id: 16238
     name: Cormorant
-  16240:
+    volume: 52000.0
+  Catalyst:
     attributes:
       agility: 2.759999990463257
       capacitor: 650.0
@@ -5175,13 +5652,16 @@ hulls:
       velocity: 265
       volume: 55000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - smallHybridMaxRangeBonus
     - shipHybridFallOff1GD1
     - shipHybridTracking1GD2
-    group: Destroyer
+    groupName: Destroyer
+    id: 16240
     name: Catalyst
-  16242:
+    volume: 55000.0
+  Thrasher:
     attributes:
       agility: 2.799999952316284
       capacitor: 550.0
@@ -5205,13 +5685,16 @@ hulls:
       velocity: 270
       volume: 43000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - smallProjectileMaxRangeBonus
     - shipProjectileDamageMD1
     - shipProjectileTracking1MD2
-    group: Destroyer
+    groupName: Destroyer
+    id: 16242
     name: Thrasher
-  17476:
+    volume: 43000.0
+  Covetor:
     attributes:
       agility: 0.46000000834465027
       capacitor: 312.0
@@ -5231,19 +5714,22 @@ hulls:
       scanRes: 660
       scanStr: 8
       scanType: Magnetometric
-      targetRange: 35000
+      targetRange: 40000
       velocity: 100
       volume: 200000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusIceHarvesterDurationORE3
     - shipBonusMiningDurationORE3
     - industrialBonusDroneDamage
     - shipBonusMiningIceHarvestingRangeORE2
     - roleBonusIceOreMiningDurationCap
-    group: Mining Barge
+    groupName: Mining Barge
+    id: 17476
     name: Covetor
-  17478:
+    volume: 200000.0
+  Retriever:
     attributes:
       agility: 0.6587499976158142
       capacitor: 250.0
@@ -5267,14 +5753,17 @@ hulls:
       velocity: 80
       volume: 150000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusIceHarvesterDurationORE3
     - shipBonusMiningDurationORE3
     - industrialBonusDroneDamage
     - shipBonusOreHoldORE2
-    group: Mining Barge
+    groupName: Mining Barge
+    id: 17478
     name: Retriever
-  17480:
+    volume: 150000.0
+  Procurer:
     attributes:
       agility: 1.0
       capacitor: 800.0
@@ -5298,15 +5787,18 @@ hulls:
       velocity: 160
       volume: 100000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusIceHarvesterDurationORE3
     - shipBonusMiningDurationORE3
     - industrialBonusDroneDamage
     - shipBonusDroneHitpointsRookie
     - shipBonusShieldCapacityORE2
-    group: Mining Barge
+    groupName: Mining Barge
+    id: 17480
     name: Procurer
-  17619:
+    volume: 100000.0
+  Caldari Navy Hookbill:
     attributes:
       agility: 3.299999952316284
       capacitor: 300.0
@@ -5329,15 +5821,18 @@ hulls:
       velocity: 360
       volume: 16500
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipSmallMissileExpDmgCF2
     - shipMissileVelocityCF
     - shipSmallMissileThermDmgCF2
     - shipSmallMissileEMDmgCF2
     - shipSmallMissileKinDmgCF3
-    group: Frigate
+    groupName: Frigate
+    id: 17619
     name: Caldari Navy Hookbill
-  17634:
+    volume: 16500.0
+  Caracal Navy Issue:
     attributes:
       agility: 0.5099999904632568
       capacitor: 1450.0
@@ -5360,13 +5855,16 @@ hulls:
       velocity: 210
       volume: 101000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipMissileRofCC
     - shipHeavyAssaultMissileAOECloudSizeCC2
     - shipHeavyMissileAOECloudSizeCC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 17634
     name: Caracal Navy Issue
-  17636:
+    volume: 101000.0
+  Raven Navy Issue:
     attributes:
       agility: 0.11999999731779099
       capacitor: 5900.0
@@ -5391,14 +5889,17 @@ hulls:
       velocity: 123
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipTorpedoAOECloudSize1CB
     - shipCruiseMissileAOECloudSize1CB
     - shipCruiseMissileVelocityBonusCB3
     - shipTorpedosVelocityBonusCB3
-    group: Battleship
+    groupName: Battleship
+    id: 17636
     name: Raven Navy Issue
-  17703:
+    volume: 486000.0
+  Imperial Navy Slicer:
     attributes:
       agility: 3.299999952316284
       capacitor: 500.0
@@ -5421,12 +5922,15 @@ hulls:
       velocity: 350
       volume: 16500
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipETOptimalRange2AF
     - shipETDamageAF
-    group: Frigate
+    groupName: Frigate
+    id: 17703
     name: Imperial Navy Slicer
-  17709:
+    volume: 16500.0
+  Omen Navy Issue:
     attributes:
       agility: 0.4300000071525574
       capacitor: 1650.0
@@ -5451,12 +5955,15 @@ hulls:
       velocity: 265
       volume: 101000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipMETCDamageBonusAC
     - shipBonusMETOptimalAC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 17709
     name: Omen Navy Issue
-  17713:
+    volume: 101000.0
+  Stabber Fleet Issue:
     attributes:
       agility: 0.4650000035762787
       capacitor: 1275.0
@@ -5482,12 +5989,15 @@ hulls:
       velocity: 250
       volume: 101000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipPTurretSpeedBonusMC
     - shipBonusProjectileTrackingMC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 17713
     name: Stabber Fleet Issue
-  17715:
+    volume: 101000.0
+  Gila:
     attributes:
       agility: 0.6600000262260437
       capacitor: 1400.0
@@ -5512,6 +6022,7 @@ hulls:
       velocity: 195
       volume: 101000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusMediumDroneShieldHPPirateFaction
     - shipBonusKineticMissileDamageGC2
@@ -5523,9 +6034,11 @@ hulls:
     - shipBonusMediumDroneDamageMultiplierPirateFaction
     - shipBonusMediumDroneHPPirateFaction
     - shipBonusMediumDroneArmorHPPirateFaction
-    group: Cruiser
+    groupName: Cruiser
+    id: 17715
     name: Gila
-  17718:
+    volume: 101000.0
+  Phantasm:
     attributes:
       agility: 0.6200000047683716
       capacitor: 1800.0
@@ -5550,13 +6063,16 @@ hulls:
       velocity: 228
       volume: 101000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusMediumEnergyTurretDamagePirateFaction
     - shipBonusMediumEnergyTurretTrackingAC2
     - shipBonusAfterburnerSpeedFactorCC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 17718
     name: Phantasm
-  17720:
+    volume: 101000.0
+  Cynabal:
     attributes:
       agility: 0.44999998807907104
       capacitor: 1415.0
@@ -5581,13 +6097,16 @@ hulls:
       velocity: 263
       volume: 101000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - shipProjectileRofPirateCruiser
     - shipPTurretFalloffBonusGC
     - shipProjectileDmgMC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 17720
     name: Cynabal
-  17722:
+    volume: 101000.0
+  Vigilant:
     attributes:
       agility: 0.47999998927116394
       capacitor: 1545.0
@@ -5612,13 +6131,16 @@ hulls:
       velocity: 242
       volume: 101000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipHybridDmgPirateCruiser
     - shipHTurretFalloffBonusGC
     - shipStasisWebStrengthBonusMC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 17722
     name: Vigilant
-  17726:
+    volume: 101000.0
+  Apocalypse Navy Issue:
     attributes:
       agility: 0.11500000208616257
       capacitor: 7000.0
@@ -5643,12 +6165,15 @@ hulls:
       velocity: 120
       volume: 495000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipBonusLargeEnergyTurretTrackingAB
     - shipBonusLargeEnergyTurretMaxRangeAB2
-    group: Battleship
+    groupName: Battleship
+    id: 17726
     name: Apocalypse Navy Issue
-  17728:
+    volume: 495000.0
+  Megathron Navy Issue:
     attributes:
       agility: 0.10499999672174454
       capacitor: 6000.0
@@ -5674,12 +6199,15 @@ hulls:
       velocity: 130
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipLargeHybridTurretRofGB
     - shipHTTrackingBonusGB2
-    group: Battleship
+    groupName: Battleship
+    id: 17728
     name: Megathron Navy Issue
-  17732:
+    volume: 486000.0
+  Tempest Fleet Issue:
     attributes:
       agility: 0.11500000208616257
       capacitor: 5500.0
@@ -5705,12 +6233,15 @@ hulls:
       velocity: 130
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipPTDmgBonusMB
     - shipPTspeedBonusMB2
-    group: Battleship
+    groupName: Battleship
+    id: 17732
     name: Tempest Fleet Issue
-  17736:
+    volume: 486000.0
+  Nightmare:
     attributes:
       agility: 0.12200000137090683
       capacitor: 6950.0
@@ -5735,13 +6266,16 @@ hulls:
       velocity: 114
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipLaserDamagePirateBattleship
     - shipTrackingBonusAB
     - shipBonusAfterburnerSpeedFactor2CB
-    group: Battleship
+    groupName: Battleship
+    id: 17736
     name: Nightmare
-  17738:
+    volume: 486000.0
+  Machariel:
     attributes:
       agility: 0.09600000083446503
       capacitor: 5800.0
@@ -5766,13 +6300,16 @@ hulls:
       velocity: 161
       volume: 595000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipPTurretFalloffBonusGB
     - shipPTDmgBonusMB
     - shipProjectileRofPirateBattleship
-    group: Battleship
+    groupName: Battleship
+    id: 17738
     name: Machariel
-  17740:
+    volume: 595000.0
+  Vindicator:
     attributes:
       agility: 0.08299999684095383
       capacitor: 6330.0
@@ -5797,13 +6334,16 @@ hulls:
       velocity: 132
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipBonusStasisWebSpeedFactorMB
     - shipHybridDmgPirateBattleship
     - shipHTTrackingBonusGB
-    group: Battleship
+    groupName: Battleship
+    id: 17740
     name: Vindicator
-  17812:
+    volume: 486000.0
+  Republic Fleet Firetail:
     attributes:
       agility: 3.200000047683716
       capacitor: 280.0
@@ -5827,12 +6367,15 @@ hulls:
       velocity: 410
       volume: 16500
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipProjectileTrackingMF2
     - shipPDmgBonusMF
-    group: Frigate
+    groupName: Frigate
+    id: 17812
     name: Republic Fleet Firetail
-  17841:
+    volume: 16500.0
+  Federation Navy Comet:
     attributes:
       agility: 3.134999990463257
       capacitor: 400.0
@@ -5857,12 +6400,15 @@ hulls:
       velocity: 375
       volume: 16500
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipSHTDmgBonusGF
     - shipBonusHybridTrackingGF2
-    group: Frigate
+    groupName: Frigate
+    id: 17841
     name: Federation Navy Comet
-  17843:
+    volume: 16500.0
+  Vexor Navy Issue:
     attributes:
       agility: 0.4399999976158142
       capacitor: 1500.0
@@ -5887,15 +6433,18 @@ hulls:
       velocity: 220
       volume: 112000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusDroneHitpointsGC2
     - shipBonusDroneMiningAmountGC2
     - shipBonusDroneDamageMultiplierGC2
     - shipBonusDroneTrackingGC
     - shipBonusDroneMWDboostGC
-    group: Cruiser
+    groupName: Cruiser
+    id: 17843
     name: Vexor Navy Issue
-  17918:
+    volume: 112000.0
+  Rattlesnake:
     attributes:
       agility: 0.12800000607967377
       capacitor: 5350.0
@@ -5920,6 +6469,7 @@ hulls:
       velocity: 94
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipBonusEmShieldResistanceCB2
     - shipBonusExplosiveShieldResistanceCB2
@@ -5935,9 +6485,11 @@ hulls:
     - shipBonusHeavyDroneHPPirateFaction
     - shipBonusKineticMissileDamageGB2
     - shipBonusThermalMissileDamageGB2
-    group: Battleship
+    groupName: Battleship
+    id: 17918
     name: Rattlesnake
-  17920:
+    volume: 486000.0
+  Bhaalgorn:
     attributes:
       agility: 0.125
       capacitor: 7500.0
@@ -5962,15 +6514,18 @@ hulls:
       velocity: 101
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipEnergyNeutralizerTransferAmountBonusAB
     - shipEnergyVampireTransferAmountBonusAB
     - shipStasisWebRangeBonusMB
     - shipLaserDamagePirateBattleship
     - shipBonusNosOverride
-    group: Battleship
+    groupName: Battleship
+    id: 17920
     name: Bhaalgorn
-  17922:
+    volume: 486000.0
+  Ashimmu:
     attributes:
       agility: 0.5799999833106995
       capacitor: 1850.0
@@ -5995,15 +6550,18 @@ hulls:
       velocity: 208
       volume: 118000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipEnergyNeutralizerTransferAmountBonusAC
     - shipEnergyVampireTransferAmountBonusAc
     - shipStasisWebRangeBonusMC2
     - shipBonusMediumEnergyTurretDamagePirateFaction
     - shipBonusNosOverride
-    group: Cruiser
+    groupName: Cruiser
+    id: 17922
     name: Ashimmu
-  17924:
+    volume: 118000.0
+  Succubus:
     attributes:
       agility: 3.5
       capacitor: 450.0
@@ -6026,13 +6584,16 @@ hulls:
       velocity: 340
       volume: 28600
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipBonusSmallEnergyTurretTracking2AF
     - shipBonusAfterburnerSpeedFactorCF2
     - shipBonusSmallEnergyTurretDamagePirateFaction
-    group: Frigate
+    groupName: Frigate
+    id: 17924
     name: Succubus
-  17926:
+    volume: 28600.0
+  Cruor:
     attributes:
       agility: 3.5999999046325684
       capacitor: 470.0
@@ -6057,15 +6618,18 @@ hulls:
       velocity: 330
       volume: 28600
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipEnergyNeutralizerTransferAmountBonusAF
     - shipBonusStasisMF2
     - shipBonusNosOverride
     - shipEnergyDrainAmountAF1
     - shipBonusSmallEnergyTurretDamagePirateFaction
-    group: Frigate
+    groupName: Frigate
+    id: 17926
     name: Cruor
-  17928:
+    volume: 28600.0
+  Daredevil:
     attributes:
       agility: 3.200000047683716
       capacitor: 390.0
@@ -6088,13 +6652,16 @@ hulls:
       velocity: 385
       volume: 26500
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipStasisWebStrengthBonusMF2
     - shipBonusPirateSmallHybridDmg
     - shipFalloffBonusGF
-    group: Frigate
+    groupName: Frigate
+    id: 17928
     name: Daredevil
-  17930:
+    volume: 26500.0
+  Worm:
     attributes:
       agility: 3.799999952316284
       capacitor: 380.0
@@ -6119,6 +6686,7 @@ hulls:
       velocity: 320
       volume: 16500
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipBonusKineticMissileDamageGF
     - shipBonusThermalMissileDamageGF
@@ -6130,9 +6698,11 @@ hulls:
     - shipShieldKineticResistanceCF2
     - shipBonusLightDroneShieldHPPirateFaction
     - shipShieldExplosiveResistanceCF2
-    group: Frigate
+    groupName: Frigate
+    id: 17930
     name: Worm
-  17932:
+    volume: 16500.0
+  Dramiel:
     attributes:
       agility: 3.0999999046325684
       capacitor: 370.0
@@ -6158,13 +6728,16 @@ hulls:
       velocity: 460
       volume: 27289
       warpSpeed: 7.5
+    catName: Ship
     effects:
     - shipFalloffBonusMF
     - shipBonusPirateFrigateProjDamage
     - shipProjectileTrackingGF
-    group: Frigate
+    groupName: Frigate
+    id: 17932
     name: Dramiel
-  19720:
+    volume: 27289.0
+  Revelation:
     attributes:
       agility: 0.04399999976158142
       capacitor: 60000.0
@@ -6187,6 +6760,7 @@ hulls:
       velocity: 75
       volume: 18500000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipCapitalAgilityBonus
     - shipBonusDreadnoughtA1DamageBonus
@@ -6194,9 +6768,11 @@ hulls:
     - shipBonusDreadnoughtA3CapNeed
     - entosisDurationMultiply
     - shipAdvancedSpaceshipCommandAgilityBonus
-    group: Dreadnought
+    groupName: Dreadnought
+    id: 19720
     name: Revelation
-  19722:
+    volume: 1.85E7
+  Naglfar:
     attributes:
       agility: 0.04500000178813934
       capacitor: 50000.0
@@ -6219,6 +6795,7 @@ hulls:
       velocity: 80
       volume: 15500000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipCapitalAgilityBonus
     - entosisDurationMultiply
@@ -6226,9 +6803,11 @@ hulls:
     - shipBonusDreadnoughtM2ROFBonus
     - shipAdvancedSpaceshipCommandAgilityBonus
     - shipBonusDreadnoughtM3RepairTime
-    group: Dreadnought
+    groupName: Dreadnought
+    id: 19722
     name: Naglfar
-  19724:
+    volume: 1.55E7
+  Moros:
     attributes:
       agility: 0.04500000178813934
       capacitor: 54500.0
@@ -6251,6 +6830,7 @@ hulls:
       velocity: 75
       volume: 17550000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipCapitalAgilityBonus
     - entosisDurationMultiply
@@ -6258,9 +6838,11 @@ hulls:
     - shipBonusDreadnoughtG2ROFBonus
     - shipBonusDreadnoughtG3RepairTime
     - shipAdvancedSpaceshipCommandAgilityBonus
-    group: Dreadnought
+    groupName: Dreadnought
+    id: 19724
     name: Moros
-  19726:
+    volume: 1.755E7
+  Phoenix:
     attributes:
       agility: 0.04500000178813934
       capacitor: 52500.0
@@ -6283,6 +6865,7 @@ hulls:
       velocity: 70
       volume: 16250000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipCapitalAgilityBonus
     - entosisDurationMultiply
@@ -6290,9 +6873,11 @@ hulls:
     - shipBonusDreadnoughtC2ShieldResists
     - shipBonusDreadnoughtC3ReloadBonus
     - shipAdvancedSpaceshipCommandAgilityBonus
-    group: Dreadnought
+    groupName: Dreadnought
+    id: 19726
     name: Phoenix
-  19744:
+    volume: 1.625E7
+  Sigil:
     attributes:
       agility: 0.8600000143051147
       capacitor: 680.0
@@ -6315,13 +6900,16 @@ hulls:
       velocity: 125
       volume: 230000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - shipCargoBonusAI
     - industrialBonusDroneDamage
     - shipBonusAgilityAI2
-    group: Industrial
+    groupName: Industrial
+    id: 19744
     name: Sigil
-  20125:
+    volume: 230000.0
+  Curse:
     attributes:
       agility: 0.6100000143051147
       capacitor: 1470.0
@@ -6347,6 +6935,7 @@ hulls:
       velocity: 205
       volume: 120000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteReconBonusEnergyNeutAmount2
     - shipBonusDroneHitpointsFixedAC2
@@ -6357,9 +6946,11 @@ hulls:
     - shipBonusEwWeaponDisruptionStrengthAC1
     - shipBonusDroneDamageMultiplierAC2
     - shipBonusEnergyNosFalloffRS3
-    group: Combat Recon Ship
+    groupName: Combat Recon Ship
+    id: 20125
     name: Curse
-  20183:
+    volume: 120000.0
+  Providence:
     attributes:
       agility: 0.0625
       capacitor: 3750.0
@@ -6374,14 +6965,17 @@ hulls:
       velocity: 70
       volume: 18500000
       warpSpeed: 1.3700000047683716
+    catName: Ship
     effects:
     - freighterCargoBonusA2
     - freighterMaxVelocityBonusA1
     - roleBonusBulkheadCPU
     - shipAdvancedSpaceshipCommandAgilityBonus
-    group: Freighter
+    groupName: Freighter
+    id: 20183
     name: Providence
-  20185:
+    volume: 1.85E7
+  Charon:
     attributes:
       agility: 0.0625
       capacitor: 3500.0
@@ -6396,14 +6990,17 @@ hulls:
       velocity: 60
       volume: 16250000
       warpSpeed: 1.3700000047683716
+    catName: Ship
     effects:
     - freighterCargoBonusC2
     - freighterMaxVelocityBonusC1
     - roleBonusBulkheadCPU
     - shipAdvancedSpaceshipCommandAgilityBonus
-    group: Freighter
+    groupName: Freighter
+    id: 20185
     name: Charon
-  20187:
+    volume: 1.625E7
+  Obelisk:
     attributes:
       agility: 0.0625
       capacitor: 3500.0
@@ -6418,14 +7015,17 @@ hulls:
       velocity: 65
       volume: 17550000
       warpSpeed: 1.3700000047683716
+    catName: Ship
     effects:
     - freighterCargoBonusG2
     - freighterMaxVelocityBonusG1
     - roleBonusBulkheadCPU
     - shipAdvancedSpaceshipCommandAgilityBonus
-    group: Freighter
+    groupName: Freighter
+    id: 20187
     name: Obelisk
-  20189:
+    volume: 1.755E7
+  Fenrir:
     attributes:
       agility: 0.0625
       capacitor: 3000.0
@@ -6440,14 +7040,17 @@ hulls:
       velocity: 80
       volume: 15500000
       warpSpeed: 1.3700000047683716
+    catName: Ship
     effects:
     - freighterCargoBonusM2
     - freighterMaxVelocityBonusM1
     - roleBonusBulkheadCPU
     - shipAdvancedSpaceshipCommandAgilityBonus
-    group: Freighter
+    groupName: Freighter
+    id: 20189
     name: Fenrir
-  21097:
+    volume: 1.55E7
+  Goru's Shuttle:
     attributes:
       agility: 1.0
       capacitor: 250.0
@@ -6463,9 +7066,12 @@ hulls:
       velocity: 500
       volume: 5000
       warpSpeed: 5.0
-    group: Shuttle
+    catName: Ship
+    groupName: Shuttle
+    id: 21097
     name: Goru's Shuttle
-  21628:
+    volume: 5000.0
+  Guristas Shuttle:
     attributes:
       agility: 1.0
       capacitor: 250.0
@@ -6481,9 +7087,12 @@ hulls:
       velocity: 500
       volume: 5000
       warpSpeed: 5.0
-    group: Shuttle
+    catName: Ship
+    groupName: Shuttle
+    id: 21628
     name: Guristas Shuttle
-  22428:
+    volume: 5000.0
+  Redeemer:
     attributes:
       agility: 0.07199999690055847
       capacitor: 5312.0
@@ -6508,6 +7117,7 @@ hulls:
       velocity: 117
       volume: 486000
       warpSpeed: 2.200000047683716
+    catName: Ship
     effects:
     - eliteBonusBlackOpsLargeEnergyTurretTracking1
     - shipETspeedBonusAB2
@@ -6515,9 +7125,11 @@ hulls:
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - covertOpsStealthBomberTargettingDelayBonus
     - shipCapNeedBonusAB
-    group: Black Ops
+    groupName: Black Ops
+    id: 22428
     name: Redeemer
-  22430:
+    volume: 486000.0
+  Sin:
     attributes:
       agility: 0.06840000301599503
       capacitor: 5000.0
@@ -6542,6 +7154,7 @@ hulls:
       velocity: 117
       volume: 454500
       warpSpeed: 2.200000047683716
+    catName: Ship
     effects:
     - shipHTDmgBonusGB
     - shipBonusDroneHitpointsGB2
@@ -6550,9 +7163,11 @@ hulls:
     - eliteBonusBlackOpsCloakVelocity2
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - covertOpsStealthBomberTargettingDelayBonus
-    group: Black Ops
+    groupName: Black Ops
+    id: 22430
     name: Sin
-  22436:
+    volume: 454500.0
+  Widow:
     attributes:
       agility: 0.06800000369548798
       capacitor: 5312.0
@@ -6577,6 +7192,7 @@ hulls:
       velocity: 106
       volume: 468000
       warpSpeed: 2.200000047683716
+    catName: Ship
     effects:
     - shipBonusRHMLROF2CB
     - eliteBonusBlackOpsECMGravAndLadarAndMagnetometricAndRadarStrength1
@@ -6586,9 +7202,11 @@ hulls:
     - covertOpsStealthBomberTargettingDelayBonus
     - shipCruiseAndTorpedoVelocityBonusCB3
     - eliteBonusBlackOpsECMBurstGravAndLadarAndMagnetoAndRadar
-    group: Black Ops
+    groupName: Black Ops
+    id: 22436
     name: Widow
-  22440:
+    volume: 468000.0
+  Panther:
     attributes:
       agility: 0.06400000303983688
       capacitor: 5000.0
@@ -6613,6 +7231,7 @@ hulls:
       velocity: 146
       volume: 414000
       warpSpeed: 2.200000047683716
+    catName: Ship
     effects:
     - shipPTDmgBonusMB
     - eliteBonusBlackOpsCloakVelocity2
@@ -6620,9 +7239,11 @@ hulls:
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - covertOpsStealthBomberTargettingDelayBonus
     - eliteBonusBlackOpsMaxVelocity1
-    group: Black Ops
+    groupName: Black Ops
+    id: 22440
     name: Panther
-  22442:
+    volume: 414000.0
+  Eos:
     attributes:
       agility: 0.7039999961853027
       capacitor: 2812.0
@@ -6647,6 +7268,7 @@ hulls:
       velocity: 145
       volume: 270000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - eliteBonusCommandShipHeavyDroneVelocityCS2
     - shipBonusDroneHitpointsGBC1
@@ -6658,9 +7280,11 @@ hulls:
     - shipBonusDroneDamageMultiplierGBC1
     - eliteBonusCommandShipHeavyDroneTrackingCS2
     - commandBurstAoERoleBonus
-    group: Command Ship
+    groupName: Command Ship
+    id: 22442
     name: Eos
-  22444:
+    volume: 270000.0
+  Sleipnir:
     attributes:
       agility: 0.7039999961853027
       capacitor: 2625.0
@@ -6686,6 +7310,7 @@ hulls:
       velocity: 165
       volume: 216000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - eliteBonusCommandShipSiegeCS3
     - eliteBonusCommandShipSkirmishCS3
@@ -6695,9 +7320,11 @@ hulls:
     - eliteBonusCommandShipProjectileFalloffCS2
     - shipBonusProjectileDamageMBC2
     - commandBurstAoERoleBonus
-    group: Command Ship
+    groupName: Command Ship
+    id: 22444
     name: Sleipnir
-  22446:
+    volume: 216000.0
+  Vulture:
     attributes:
       agility: 0.6700000166893005
       capacitor: 3000.0
@@ -6723,6 +7350,7 @@ hulls:
       velocity: 140
       volume: 252000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - eliteBonusCommandShipHybridOptimalCS1
     - eliteBonusCommandShipSiegeCS3
@@ -6735,9 +7363,11 @@ hulls:
     - commandshipMultiRelayEffect
     - eliteBonusCommandShipMediumHybridDamageCS2
     - commandBurstAoERoleBonus
-    group: Command Ship
+    groupName: Command Ship
+    id: 22446
     name: Vulture
-  22448:
+    volume: 252000.0
+  Absolution:
     attributes:
       agility: 0.7099999785423279
       capacitor: 3375.0
@@ -6762,6 +7392,7 @@ hulls:
       velocity: 150
       volume: 234000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipLaserCap1ABC2
     - eliteBonusCommandShipArmoredCS3
@@ -6774,9 +7405,11 @@ hulls:
     - shipArmorThermResistance1ABC1
     - eliteBonusCommandShipLaserROFCS2
     - commandBurstAoERoleBonus
-    group: Command Ship
+    groupName: Command Ship
+    id: 22448
     name: Absolution
-  22452:
+    volume: 234000.0
+  Heretic:
     attributes:
       agility: 3.5999999046325684
       capacitor: 750.0
@@ -6800,14 +7433,17 @@ hulls:
       velocity: 310
       volume: 47000
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipBonusMissileVelocityAD2
     - shipMissileLauncherRoFAD1Fixed
     - eliteBonusInterdictorsMWDSigRadius2
     - eliteBonusInterdictorsArmorResist1
-    group: Interdictor
+    groupName: Interdictor
+    id: 22452
     name: Heretic
-  22456:
+    volume: 47000.0
+  Sabre:
     attributes:
       agility: 3.700000047683716
       capacitor: 600.0
@@ -6831,14 +7467,17 @@ hulls:
       velocity: 320
       volume: 43000
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipProjectileDamageMD1
     - shipProjectileTracking1MD2
     - eliteBonusInterdictorsProjectileFalloff1
     - eliteBonusInterdictorsMWDSigRadius2
-    group: Interdictor
+    groupName: Interdictor
+    id: 22456
     name: Sabre
-  22460:
+    volume: 43000.0
+  Eris:
     attributes:
       agility: 3.700000047683716
       capacitor: 700.0
@@ -6862,14 +7501,17 @@ hulls:
       velocity: 305
       volume: 55000
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - eliteBonusInterdictorsSHTRoF1
     - shipHybridOptimalGD1
     - eliteBonusInterdictorsMWDSigRadius2
     - shipHybridTracking1GD2
-    group: Interdictor
+    groupName: Interdictor
+    id: 22460
     name: Eris
-  22464:
+    volume: 55000.0
+  Flycatcher:
     attributes:
       agility: 3.5999999046325684
       capacitor: 650.0
@@ -6893,14 +7535,17 @@ hulls:
       velocity: 315
       volume: 52000
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipMissileVelocityCD1
     - eliteBonusInterdictorsMissileKineticDamage1
     - eliteBonusInterdictorsMWDSigRadius2
     - shipBonusSmallMissileExplosionRadiusCD2
-    group: Interdictor
+    groupName: Interdictor
+    id: 22464
     name: Flycatcher
-  22466:
+    volume: 52000.0
+  Astarte:
     attributes:
       agility: 0.699999988079071
       capacitor: 3000.0
@@ -6926,6 +7571,7 @@ hulls:
       velocity: 155
       volume: 270000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - eliteBonusCommandShipHybridFalloffCS2
     - eliteBonusCommandShipMediumHybridRoFCS1
@@ -6935,9 +7581,11 @@ hulls:
     - shipHybridDmg1GBC1
     - shipArmorRepairing1GBC2
     - commandBurstAoERoleBonus
-    group: Command Ship
+    groupName: Command Ship
+    id: 22466
     name: Astarte
-  22468:
+    volume: 270000.0
+  Claymore:
     attributes:
       agility: 0.699999988079071
       capacitor: 2625.0
@@ -6963,6 +7611,7 @@ hulls:
       velocity: 170
       volume: 216000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusHeavyMissileLauncherRofMBC2
     - eliteBonusCommandShipSiegeCS3
@@ -6975,9 +7624,11 @@ hulls:
     - eliteBonusCommandShipsHeavyAssaultMissileExplosionVelocityCS2
     - commandshipMultiRelayEffect
     - commandBurstAoERoleBonus
-    group: Command Ship
+    groupName: Command Ship
+    id: 22468
     name: Claymore
-  22470:
+    volume: 216000.0
+  Nighthawk:
     attributes:
       agility: 0.6499999761581421
       capacitor: 2812.0
@@ -7003,6 +7654,7 @@ hulls:
       velocity: 140
       volume: 252000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - eliteBonusCommandShipSiegeCS3
     - eliteBonusCommandShipInformationCS3
@@ -7018,9 +7670,11 @@ hulls:
     - shipBonusHeavyMissileKineticDamageCBC1
     - eliteBonusCommandShipsHeavyMissileExplosionRadiusCS2
     - commandBurstAoERoleBonus
-    group: Command Ship
+    groupName: Command Ship
+    id: 22470
     name: Nighthawk
-  22474:
+    volume: 252000.0
+  Damnation:
     attributes:
       agility: 0.699999988079071
       capacitor: 3375.0
@@ -7046,6 +7700,7 @@ hulls:
       velocity: 150
       volume: 234000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - eliteBonusCommandShipArmorHP1
     - eliteBonusCommandShipArmoredCS3
@@ -7060,9 +7715,11 @@ hulls:
     - shipMissileHeavyAssaultVelocityABC2
     - shipMissileHeavyVelocityABC2
     - commandBurstAoERoleBonus
-    group: Command Ship
+    groupName: Command Ship
+    id: 22474
     name: Damnation
-  22544:
+    volume: 234000.0
+  Hulk:
     attributes:
       agility: 0.46000000834465027
       capacitor: 625.0
@@ -7082,10 +7739,11 @@ hulls:
       scanRes: 660
       scanStr: 12
       scanType: Magnetometric
-      targetRange: 35000
+      targetRange: 45000
       velocity: 140
       volume: 200000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteBargeBonusMiningDurationBarge2
     - shipBonusIceHarvesterDurationORE3
@@ -7095,9 +7753,11 @@ hulls:
     - shipBonusMiningIceHarvestingRangeORE2
     - roleBonusIceOreMiningDurationCap
     - eliteBargeShieldResistance1
-    group: Exhumer
+    groupName: Exhumer
+    id: 22544
     name: Hulk
-  22546:
+    volume: 200000.0
+  Skiff:
     attributes:
       agility: 1.0
       capacitor: 900.0
@@ -7117,10 +7777,11 @@ hulls:
       scanRes: 440
       scanStr: 14
       scanType: Magnetometric
-      targetRange: 30000
+      targetRange: 35000
       velocity: 200
       volume: 100000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteBargeBonusMiningDurationBarge2
     - shipBonusIceHarvesterDurationORE3
@@ -7130,9 +7791,11 @@ hulls:
     - shipBonusDroneHitpointsRookie
     - shipBonusShieldCapacityORE2
     - eliteBargeShieldResistance1
-    group: Exhumer
+    groupName: Exhumer
+    id: 22546
     name: Skiff
-  22548:
+    volume: 100000.0
+  Mackinaw:
     attributes:
       agility: 0.6587499976158142
       capacitor: 500.0
@@ -7152,10 +7815,11 @@ hulls:
       scanRes: 550
       scanStr: 13
       scanType: Magnetometric
-      targetRange: 30000
+      targetRange: 35000
       velocity: 90
       volume: 150000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - eliteBargeBonusMiningDurationBarge2
     - shipBonusIceHarvesterDurationORE3
@@ -7164,9 +7828,11 @@ hulls:
     - eliteBargeBonusIceHarvestingCycleTimeBarge3
     - shipBonusOreHoldORE2
     - eliteBargeShieldResistance1
-    group: Exhumer
+    groupName: Exhumer
+    id: 22548
     name: Mackinaw
-  22852:
+    volume: 150000.0
+  Hel:
     attributes:
       agility: 0.03500000014901161
       capacitor: 78000.0
@@ -7188,6 +7854,7 @@ hulls:
       velocity: 85
       volume: 51000000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipBonusSupercarrierM2FighterVelocity
     - shipCapitalAgilityBonus
@@ -7201,9 +7868,11 @@ hulls:
     - shipBonusSupercarrierM1FighterDamage
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
-    group: Supercarrier
+    groupName: Supercarrier
+    id: 22852
     name: Hel
-  23757:
+    volume: 5.1E7
+  Archon:
     attributes:
       agility: 0.04100000113248825
       capacitor: 58000.0
@@ -7225,6 +7894,7 @@ hulls:
       velocity: 80
       volume: 13950000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipCapitalAgilityBonus
     - shipBonusCarrierA2SupportFighterBonus
@@ -7234,9 +7904,11 @@ hulls:
     - shipBonusCarrierRole1NumWarfareLinks
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
-    group: Carrier
+    groupName: Carrier
+    id: 23757
     name: Archon
-  23773:
+    volume: 1.395E7
+  Ragnarok:
     attributes:
       agility: 0.035999998450279236
       capacitor: 125000.0
@@ -7259,6 +7931,7 @@ hulls:
       velocity: 80
       volume: 100000000
       warpSpeed: 1.3700000047683716
+    catName: Ship
     effects:
     - shipBonusTitanRole1NumWarfareLinks
     - shipCapitalAgilityBonus
@@ -7269,9 +7942,11 @@ hulls:
     - shipAdvancedSpaceshipCommandAgilityBonus
     - shipBonusTitanM2ROFBonus
     - commandBurstAoERoleBonus
-    group: Titan
+    groupName: Titan
+    id: 23773
     name: Ragnarok
-  23911:
+    volume: 1.0E8
+  Thanatos:
     attributes:
       agility: 0.039000000804662704
       capacitor: 55000.0
@@ -7293,6 +7968,7 @@ hulls:
       velocity: 80
       volume: 13095000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipCapitalAgilityBonus
     - shipBonusCarrierG2SupportFighterBonus
@@ -7303,9 +7979,11 @@ hulls:
     - shipBonusCarrierRole1NumWarfareLinks
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
-    group: Carrier
+    groupName: Carrier
+    id: 23911
     name: Thanatos
-  23913:
+    volume: 1.3095E7
+  Nyx:
     attributes:
       agility: 0.035999998450279236
       capacitor: 81000.0
@@ -7327,6 +8005,7 @@ hulls:
       velocity: 80
       volume: 58200000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipCapitalAgilityBonus
     - shipBonusSupercarrierG3WarpStrength
@@ -7339,9 +8018,11 @@ hulls:
     - shipAdvancedSpaceshipCommandAgilityBonus
     - shipBonusSupercarrierG2FighterHitpoints
     - commandBurstAoERoleBonus
-    group: Supercarrier
+    groupName: Supercarrier
+    id: 23913
     name: Nyx
-  23915:
+    volume: 5.82E7
+  Chimera:
     attributes:
       agility: 0.041999999433755875
       capacitor: 50000.0
@@ -7363,6 +8044,7 @@ hulls:
       velocity: 75
       volume: 11925000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipCapitalAgilityBonus
     - shipBonusCarrierC2SupportFighterBonus
@@ -7372,9 +8054,11 @@ hulls:
     - shipBonusCarrierRole1NumWarfareLinks
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
-    group: Carrier
+    groupName: Carrier
+    id: 23915
     name: Chimera
-  23917:
+    volume: 1.1925E7
+  Wyvern:
     attributes:
       agility: 0.035999998450279236
       capacitor: 80000.0
@@ -7396,6 +8080,7 @@ hulls:
       velocity: 75
       volume: 53000000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipBonusSupercarrierC3WarpStrength
     - shipBonusSupercarrierC5WarfareLinksBonus
@@ -7408,9 +8093,11 @@ hulls:
     - shipBonusSupercarrierC2ShieldResists
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
-    group: Supercarrier
+    groupName: Supercarrier
+    id: 23917
     name: Wyvern
-  23919:
+    volume: 5.3E7
+  Aeon:
     attributes:
       agility: 0.03500000014901161
       capacitor: 90000.0
@@ -7432,6 +8119,7 @@ hulls:
       velocity: 80
       volume: 62000000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipCapitalAgilityBonus
     - shipBonusSupercarrierRole1NumWarfareLinks
@@ -7444,9 +8132,11 @@ hulls:
     - shipBonusSupercarrierA3WarpStrength
     - shipBonusSupercarrierA5WarfareLinksBonus
     - commandBurstAoERoleBonus
-    group: Supercarrier
+    groupName: Supercarrier
+    id: 23919
     name: Aeon
-  24483:
+    volume: 6.2E7
+  Nidhoggur:
     attributes:
       agility: 0.039000000804662704
       capacitor: 48000.0
@@ -7468,6 +8158,7 @@ hulls:
       velocity: 85
       volume: 11250000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipCapitalAgilityBonus
     - shipBonusCarrierM2SupportFighterBonus
@@ -7478,9 +8169,11 @@ hulls:
     - shipBonusCarrierRole1NumWarfareLinks
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
-    group: Carrier
+    groupName: Carrier
+    id: 24483
     name: Nidhoggur
-  24688:
+    volume: 1.125E7
+  Rokh:
     attributes:
       agility: 0.13600000739097595
       capacitor: 6000.0
@@ -7506,15 +8199,18 @@ hulls:
       velocity: 89
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipBonusHybridOptimalCB
     - shipBonusEmShieldResistanceCB2
     - shipBonusExplosiveShieldResistanceCB2
     - shipBonusKineticShieldResistanceCB2
     - shipBonusThermicShieldResistanceCB2
-    group: Battleship
+    groupName: Battleship
+    id: 24688
     name: Rokh
-  24690:
+    volume: 486000.0
+  Hyperion:
     attributes:
       agility: 0.11779999732971191
       capacitor: 7200.0
@@ -7540,12 +8236,15 @@ hulls:
       velocity: 115
       volume: 495000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipHTDmgBonusGB
     - shipBonusRepairSystemsArmorRepairAmountGB2
-    group: Battleship
+    groupName: Battleship
+    id: 24690
     name: Hyperion
-  24692:
+    volume: 495000.0
+  Abaddon:
     attributes:
       agility: 0.14000000059604645
       capacitor: 6375.0
@@ -7571,12 +8270,15 @@ hulls:
       velocity: 89
       volume: 495000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipBonusArmorResistAB
     - shipBonusLargeEnergyWeaponDamageAB2
-    group: Battleship
+    groupName: Battleship
+    id: 24692
     name: Abaddon
-  24694:
+    volume: 495000.0
+  Maelstrom:
     attributes:
       agility: 0.13600000739097595
       capacitor: 6000.0
@@ -7601,12 +8303,15 @@ hulls:
       velocity: 94
       volume: 472500
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipBonusShieldBoosterMB1a
     - shipPTspeedBonusMB2
-    group: Battleship
+    groupName: Battleship
+    id: 24694
     name: Maelstrom
-  24696:
+    volume: 472500.0
+  Harbinger:
     attributes:
       agility: 0.5699999928474426
       capacitor: 3500.0
@@ -7631,14 +8336,17 @@ hulls:
       velocity: 175
       volume: 234000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - shipLaserCapABC1
     - shipLaserDamageBonusABC2
     - battlecruiserMETRange
     - commandBurstAoERoleBonus
-    group: Combat Battlecruiser
+    groupName: Combat Battlecruiser
+    id: 24696
     name: Harbinger
-  24698:
+    volume: 234000.0
+  Drake:
     attributes:
       agility: 0.6499999761581421
       capacitor: 2500.0
@@ -7663,6 +8371,7 @@ hulls:
       velocity: 150
       volume: 252000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - shipShieldEmResistance1CBC2
     - shipShieldExplosiveResistance1CBC2
@@ -7672,9 +8381,11 @@ hulls:
     - shipBonusHeavyMissileKineticDamageCBC1
     - battlecruiserMissileRange
     - commandBurstAoERoleBonus
-    group: Combat Battlecruiser
+    groupName: Combat Battlecruiser
+    id: 24698
     name: Drake
-  24700:
+    volume: 252000.0
+  Myrmidon:
     attributes:
       agility: 0.699999988079071
       capacitor: 2900.0
@@ -7699,15 +8410,18 @@ hulls:
       velocity: 145
       volume: 270000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - battlecruiserDroneSpeed
     - shipBonusDroneHitpointsGBC1
     - shipArmorRepairing1GBC2
     - shipBonusDroneDamageMultiplierGBC1
     - commandBurstAoERoleBonus
-    group: Combat Battlecruiser
+    groupName: Combat Battlecruiser
+    id: 24700
     name: Myrmidon
-  24702:
+    volume: 270000.0
+  Hurricane:
     attributes:
       agility: 0.6700000166893005
       capacitor: 2300.0
@@ -7733,14 +8447,17 @@ hulls:
       velocity: 180
       volume: 216000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - shipBonusProjectileDamageMBC1
     - shipProjectileRof1MBC2
     - battlecruiserMPTRange
     - commandBurstAoERoleBonus
-    group: Combat Battlecruiser
+    groupName: Combat Battlecruiser
+    id: 24702
     name: Hurricane
-  26840:
+    volume: 216000.0
+  Raven State Issue:
     attributes:
       agility: 0.12800000607967377
       capacitor: 5250.0
@@ -7766,14 +8483,17 @@ hulls:
       velocity: 94
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipCruiseMissileVelocityBonusCB3
     - shipTorpedosVelocityBonusCB3
     - shipCruiseLauncherROFBonus2CB
     - shipSiegeLauncherROFBonus2CB
-    group: Battleship
+    groupName: Battleship
+    id: 26840
     name: Raven State Issue
-  26842:
+    volume: 486000.0
+  Tempest Tribal Issue:
     attributes:
       agility: 0.11999999731779099
       capacitor: 5843.0
@@ -7799,12 +8519,15 @@ hulls:
       velocity: 120
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipPTDmgBonusMB
     - shipPTspeedBonusMB2
-    group: Battleship
+    groupName: Battleship
+    id: 26842
     name: Tempest Tribal Issue
-  28352:
+    volume: 486000.0
+  Rorqual:
     attributes:
       agility: 0.07000000029802322
       capacitor: 67500.0
@@ -7828,6 +8551,7 @@ hulls:
       velocity: 60
       volume: 14500000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipConsumptionQuantityBonusIndustrialReconfigurationORECapital1
     - rorqualCargoScanRangeBonus
@@ -7843,9 +8567,11 @@ hulls:
     - shieldTransporterMaxRangeBonus
     - entosisDurationMultiply
     - commandBurstAoERoleBonus
-    group: Capital Industrial Ship
+    groupName: Capital Industrial Ship
+    id: 28352
     name: Rorqual
-  28606:
+    volume: 1.45E7
+  Orca:
     attributes:
       agility: 0.25999999046325684
       capacitor: 8000.0
@@ -7869,6 +8595,7 @@ hulls:
       velocity: 60
       volume: 10250000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - miningForemanBurstBonusICS2
     - zColinOrcaSurveyScannerBonus
@@ -7884,9 +8611,11 @@ hulls:
     - zColinOrcaTractorVelocityBonus
     - cargoAndOreHoldCapacityBonusICS1
     - commandBurstAoERoleBonus
-    group: Industrial Command Ship
+    groupName: Industrial Command Ship
+    id: 28606
     name: Orca
-  28659:
+    volume: 1.025E7
+  Paladin:
     attributes:
       agility: 0.11900000274181366
       capacitor: 7500.0
@@ -7911,6 +8640,7 @@ hulls:
       velocity: 100
       volume: 495000
       warpSpeed: 2.200000047683716
+    catName: Ship
     effects:
     - shipBonusCapCapAB
     - eliteBonusViolatorsTractorBeamMaxTractorVelocityRole3
@@ -7920,9 +8650,11 @@ hulls:
     - eliteBonusViolatorsLargeEnergyTurretDamageRole1
     - roleBonusMarauderMJDRReactivationDelayBonus
     - shipBonusLargeEnergyTurretMaxRangeAB
-    group: Marauder
+    groupName: Marauder
+    id: 28659
     name: Paladin
-  28661:
+    volume: 495000.0
+  Kronos:
     attributes:
       agility: 0.11699999868869781
       capacitor: 6900.0
@@ -7947,6 +8679,7 @@ hulls:
       velocity: 105
       volume: 486000
       warpSpeed: 2.200000047683716
+    catName: Ship
     effects:
     - eliteBonusViolatorsLargeHybridTurretTracking1
     - eliteBonusViolatorsTractorBeamMaxTractorVelocityRole3
@@ -7956,9 +8689,11 @@ hulls:
     - eliteBonusViolatorsLargeHybridTurretDamageRole1
     - roleBonusMarauderMJDRReactivationDelayBonus
     - shipBonusHTFalloffGB2
-    group: Marauder
+    groupName: Marauder
+    id: 28661
     name: Kronos
-  28665:
+    volume: 486000.0
+  Vargur:
     attributes:
       agility: 0.10999999940395355
       capacitor: 6200.0
@@ -7983,6 +8718,7 @@ hulls:
       velocity: 110
       volume: 450000
       warpSpeed: 2.200000047683716
+    catName: Ship
     effects:
     - eliteBonusViolatorsLargeProjectileTurretTracking1
     - eliteBonusViolatorsTractorBeamMaxTractorVelocityRole3
@@ -7992,9 +8728,11 @@ hulls:
     - eliteBonusViolatorsLargeProjectileTurretDamageRole1
     - shipPTspeedBonusMB2
     - eliteBonusMarauderShieldBonus2a
-    group: Marauder
+    groupName: Marauder
+    id: 28665
     name: Vargur
-  28710:
+    volume: 450000.0
+  Golem:
     attributes:
       agility: 0.11999999731779099
       capacitor: 6325.0
@@ -8019,6 +8757,7 @@ hulls:
       velocity: 100
       volume: 486000
       warpSpeed: 2.200000047683716
+    catName: Ship
     effects:
     - eliteBonusViolatorsTractorBeamMaxTractorVelocityRole3
     - eliteBonusViolatorsTractorBeamMaxRangeRole2
@@ -8032,9 +8771,11 @@ hulls:
     - shipCruiseAndTorpedoVelocityBonusCB3
     - eliteBonusMarauderShieldBonus2a
     - eliteBonusViolatorsEwTargetPainting1
-    group: Marauder
+    groupName: Marauder
+    id: 28710
     name: Golem
-  28844:
+    volume: 486000.0
+  Rhea:
     attributes:
       agility: 0.054999999701976776
       capacitor: 35000.0
@@ -8049,6 +8790,7 @@ hulls:
       velocity: 72
       volume: 16250000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - freighterAgilityBonusC1
     - freighterCargoBonusC2
@@ -8057,9 +8799,11 @@ hulls:
     - roleBonusBulkheadCPU
     - eliteBonusJumpFreighterShieldHP1
     - shipAdvancedSpaceshipCommandAgilityBonus
-    group: Jump Freighter
+    groupName: Jump Freighter
+    id: 28844
     name: Rhea
-  28846:
+    volume: 1.625E7
+  Nomad:
     attributes:
       agility: 0.054999999701976776
       capacitor: 30000.0
@@ -8074,6 +8818,7 @@ hulls:
       velocity: 96
       volume: 15500000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - freighterAgilityBonusM1
     - freighterCargoBonusM2
@@ -8082,9 +8827,11 @@ hulls:
     - roleBonusBulkheadCPU
     - eliteBonusJumpFreighterShieldHP1
     - shipAdvancedSpaceshipCommandAgilityBonus
-    group: Jump Freighter
+    groupName: Jump Freighter
+    id: 28846
     name: Nomad
-  28848:
+    volume: 1.55E7
+  Anshar:
     attributes:
       agility: 0.054999999701976776
       capacitor: 35000.0
@@ -8099,6 +8846,7 @@ hulls:
       velocity: 78
       volume: 17550000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - freighterAgilityBonusG1
     - freighterCargoBonusG2
@@ -8107,9 +8855,11 @@ hulls:
     - roleBonusBulkheadCPU
     - shipAdvancedSpaceshipCommandAgilityBonus
     - eliteBonusJumpFreighterArmorHP1
-    group: Jump Freighter
+    groupName: Jump Freighter
+    id: 28848
     name: Anshar
-  28850:
+    volume: 1.755E7
+  Ark:
     attributes:
       agility: 0.054999999701976776
       capacitor: 37500.0
@@ -8124,6 +8874,7 @@ hulls:
       velocity: 84
       volume: 18500000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - freighterAgilityBonusA1
     - freighterCargoBonusA2
@@ -8132,9 +8883,11 @@ hulls:
     - roleBonusBulkheadCPU
     - shipAdvancedSpaceshipCommandAgilityBonus
     - eliteBonusJumpFreighterArmorHP1
-    group: Jump Freighter
+    groupName: Jump Freighter
+    id: 28850
     name: Ark
-  29248:
+    volume: 1.85E7
+  Magnate:
     attributes:
       agility: 3.799999952316284
       capacitor: 325.0
@@ -8160,13 +8913,16 @@ hulls:
       velocity: 350
       volume: 22100
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - minigameVirusStrengthBonus
     - shipBonusSalvageCycleAF
     - shipBonusScanProbeStrength2AF
-    group: Frigate
+    groupName: Frigate
+    id: 29248
     name: Magnate
-  29266:
+    volume: 22100.0
+  Apotheosis:
     attributes:
       agility: 1.0
       capacitor: 250.0
@@ -8182,9 +8938,12 @@ hulls:
       velocity: 500
       volume: 17400
       warpSpeed: 5.0
-    group: Shuttle
+    catName: Ship
+    groupName: Shuttle
+    id: 29266
     name: Apotheosis
-  29336:
+    volume: 17400.0
+  Scythe Fleet Issue:
     attributes:
       agility: 0.4399999976158142
       capacitor: 1275.0
@@ -8210,14 +8969,17 @@ hulls:
       velocity: 280
       volume: 89000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusLightMissileAllDamageMC2
     - shipBonusHeavyAssaultMissileAllDamageMC2
     - shipPTurretSpeedBonusMC
     - shipBonusHeavyMissileAllDamageMC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 29336
     name: Scythe Fleet Issue
-  29337:
+    volume: 89000.0
+  Augoror Navy Issue:
     attributes:
       agility: 0.47999998927116394
       capacitor: 1500.0
@@ -8242,12 +9004,15 @@ hulls:
       velocity: 215
       volume: 101000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipMETCDamageBonusAC
     - shipArmorHpAC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 29337
     name: Augoror Navy Issue
-  29340:
+    volume: 101000.0
+  Osprey Navy Issue:
     attributes:
       agility: 0.38499999046325684
       capacitor: 1450.0
@@ -8273,6 +9038,7 @@ hulls:
       velocity: 260
       volume: 107000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipMissileHeavyVelocityBonusCC2
     - shipMissileLightVelocityBonusCC2
@@ -8281,9 +9047,11 @@ hulls:
     - shipMissileAssaultMissileVelocityBonusCC2
     - shipMissileExpDamageCC
     - shipMissileKinDamageCC3
-    group: Cruiser
+    groupName: Cruiser
+    id: 29340
     name: Osprey Navy Issue
-  29344:
+    volume: 107000.0
+  Exequror Navy Issue:
     attributes:
       agility: 0.4000000059604645
       capacitor: 1500.0
@@ -8308,12 +9076,15 @@ hulls:
       velocity: 255
       volume: 112000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipHTDmgBonusfixedGC
     - shipHybridTurretROFBonusGC2
-    group: Cruiser
+    groupName: Cruiser
+    id: 29344
     name: Exequror Navy Issue
-  29984:
+    volume: 112000.0
+  Tengu:
     attributes:
       agility: 0.3100000023841858
       capacitor: 100.0
@@ -8328,11 +9099,14 @@ hulls:
       velocity: 10
       volume: 92000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusStrategicCruiserCaldariHeatDamage
-    group: Strategic Cruiser
+    groupName: Strategic Cruiser
+    id: 29984
     name: Tengu
-  29986:
+    volume: 92000.0
+  Legion:
     attributes:
       agility: 0.4099999964237213
       capacitor: 100.0
@@ -8347,11 +9121,14 @@ hulls:
       velocity: 10
       volume: 118000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusStrategicCruiserAmarrHeatDamage
-    group: Strategic Cruiser
+    groupName: Strategic Cruiser
+    id: 29986
     name: Legion
-  29988:
+    volume: 118000.0
+  Proteus:
     attributes:
       agility: 0.4399999976158142
       capacitor: 100.0
@@ -8366,11 +9143,14 @@ hulls:
       velocity: 10
       volume: 115000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusStrategicCruiserGallenteHeatDamage
-    group: Strategic Cruiser
+    groupName: Strategic Cruiser
+    id: 29988
     name: Proteus
-  29990:
+    volume: 115000.0
+  Loki:
     attributes:
       agility: 0.3499999940395355
       capacitor: 100.0
@@ -8385,11 +9165,14 @@ hulls:
       velocity: 10
       volume: 80000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusStrategicCruiserMinmatarHeatDamage
-    group: Strategic Cruiser
+    groupName: Strategic Cruiser
+    id: 29990
     name: Loki
-  30842:
+    volume: 80000.0
+  InterBus Shuttle:
     attributes:
       agility: 1.0
       capacitor: 250.0
@@ -8405,9 +9188,12 @@ hulls:
       velocity: 500
       volume: 5000
       warpSpeed: 5.0
-    group: Shuttle
+    catName: Ship
+    groupName: Shuttle
+    id: 30842
     name: InterBus Shuttle
-  32207:
+    volume: 5000.0
+  Freki:
     attributes:
       agility: 3.055999994277954
       capacitor: 350.0
@@ -8431,15 +9217,18 @@ hulls:
       velocity: 355
       volume: 27289
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipBonusStasisMF2
     - shipPDmgBonusMF
     - shipMTFalloffBonusATF
     - shipMTMaxRangeBonusATF
     - shipBonusAfterburnerCapNeedATF
-    group: Assault Frigate
+    groupName: Assault Frigate
+    id: 32207
     name: Freki
-  32209:
+    volume: 27289.0
+  Mimir:
     attributes:
       agility: 0.5099999904632568
       capacitor: 2055.0
@@ -8465,6 +9254,7 @@ hulls:
       velocity: 210
       volume: 96000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipArmorEmResistanceMC2
     - shipArmorExplosiveResistanceMC2
@@ -8474,9 +9264,11 @@ hulls:
     - shipArmorKineticResistanceMC2
     - shipMTFalloffBonusATC
     - shipArmorThermalResistanceMC2
-    group: Heavy Assault Cruiser
+    groupName: Heavy Assault Cruiser
+    id: 32209
     name: Mimir
-  32305:
+    volume: 96000.0
+  Armageddon Navy Issue:
     attributes:
       agility: 0.12999999523162842
       capacitor: 6000.0
@@ -8501,12 +9293,15 @@ hulls:
       velocity: 105
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipETspeedBonusAB2
     - shipCapNeedBonusAB
-    group: Battleship
+    groupName: Battleship
+    id: 32305
     name: Armageddon Navy Issue
-  32307:
+    volume: 486000.0
+  Dominix Navy Issue:
     attributes:
       agility: 0.11999999731779099
       capacitor: 5500.0
@@ -8531,13 +9326,16 @@ hulls:
       velocity: 110
       volume: 454500
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipHTDmgBonusGB
     - shipBonusDroneHitpointsGB2
     - shipBonusDroneDamageMultiplierGB2
-    group: Battleship
+    groupName: Battleship
+    id: 32307
     name: Dominix Navy Issue
-  32309:
+    volume: 454500.0
+  Scorpion Navy Issue:
     attributes:
       agility: 0.125
       capacitor: 5500.0
@@ -8563,6 +9361,7 @@ hulls:
       velocity: 103
       volume: 468000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipCruiseMissileROFCB
     - shipTorpedoROFCB
@@ -8571,9 +9370,11 @@ hulls:
     - shipBonusExplosiveShieldResistanceCB2
     - shipBonusKineticShieldResistanceCB2
     - shipBonusThermicShieldResistanceCB2
-    group: Battleship
+    groupName: Battleship
+    id: 32309
     name: Scorpion Navy Issue
-  32311:
+    volume: 468000.0
+  Typhoon Fleet Issue:
     attributes:
       agility: 0.10999999940395355
       capacitor: 5800.0
@@ -8599,6 +9400,7 @@ hulls:
       velocity: 138
       volume: 414000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipBonusTorpedoMissileExploDmgMB
     - shipBonusTorpedoMissileEMDmgMB
@@ -8613,9 +9415,11 @@ hulls:
     - shipBonusCruiseMissileThermDmgMB
     - shipBonusCruiseMissileKineticDmgMB
     - shipBonusCruiseMissileExploDmgMB
-    group: Battleship
+    groupName: Battleship
+    id: 32311
     name: Typhoon Fleet Issue
-  32788:
+    volume: 414000.0
+  Cambion:
     attributes:
       agility: 3.5
       capacitor: 400.0
@@ -8639,6 +9443,7 @@ hulls:
       velocity: 350
       volume: 16500
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipShieldEMResistanceCF2
     - shipShieldThermalResistanceCF2
@@ -8648,9 +9453,11 @@ hulls:
     - shipBonusHeatDamageATF1
     - eliteBonusAssaultShipRocketROF
     - shipBonusMissileKineticlATF2
-    group: Assault Frigate
+    groupName: Assault Frigate
+    id: 32788
     name: Cambion
-  32790:
+    volume: 16500.0
+  Etana:
     attributes:
       agility: 0.6100000143051147
       capacitor: 3000.0
@@ -8675,6 +9482,7 @@ hulls:
       velocity: 200
       volume: 107000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipEnergyTransferRange2
     - remoteCapacitorTransmitterPowerNeedBonusEffect
@@ -8688,9 +9496,11 @@ hulls:
     - covertOpsStealthBomberTargettingDelayBonus
     - shipBonusHeatDamageATF1
     - eliteBonusLogisticEnergyTransferCapNeed2
-    group: Logistics
+    groupName: Logistics
+    id: 32790
     name: Etana
-  32811:
+    volume: 107000.0
+  Miasmos Amastris Edition:
     attributes:
       agility: 0.8999999761581421
       capacitor: 500.0
@@ -8713,13 +9523,16 @@ hulls:
       velocity: 120
       volume: 265000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - industrialBonusDroneDamage
     - shipBonusCargo2GI
     - shipBonusVelocityGI
-    group: Industrial
+    groupName: Industrial
+    id: 32811
     name: Miasmos Amastris Edition
-  32872:
+    volume: 265000.0
+  Algos:
     attributes:
       agility: 2.8499999046325684
       capacitor: 550.0
@@ -8744,14 +9557,17 @@ hulls:
       velocity: 245
       volume: 55000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - shipBonusDroneHitpointsGD1
     - shipBonusDroneMWDboostrole
     - shipHybridTracking1GD2
     - shipBonusDroneDamageMultiplierGD1
-    group: Destroyer
+    groupName: Destroyer
+    id: 32872
     name: Algos
-  32874:
+    volume: 55000.0
+  Dragoon:
     attributes:
       agility: 2.869999885559082
       capacitor: 600.0
@@ -8777,6 +9593,7 @@ hulls:
       velocity: 240
       volume: 47000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - shipBonusEnergyNeutFalloffAD1
     - shipBonusEnergyNeutOptimalAD2
@@ -8785,9 +9602,11 @@ hulls:
     - shipBonusEnergyNosFalloffAD1
     - shipBonusDroneMWDboostrole
     - shipBonusDroneDamageMultiplierAD1
-    group: Destroyer
+    groupName: Destroyer
+    id: 32874
     name: Dragoon
-  32876:
+    volume: 47000.0
+  Corax:
     attributes:
       agility: 2.700000047683716
       capacitor: 500.0
@@ -8810,6 +9629,7 @@ hulls:
       velocity: 235
       volume: 52000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - shipMissileVelocityPirateFactionRocket
     - shipMissileVelocityPirateFactionLight
@@ -8817,9 +9637,11 @@ hulls:
     - shipRocketKineticDmgCD1
     - shipBonusAoeVelocityRocketsCD2
     - shipBonusAoeVelocityStandardMissilesCD2
-    group: Destroyer
+    groupName: Destroyer
+    id: 32876
     name: Corax
-  32878:
+    volume: 52000.0
+  Talwar:
     attributes:
       agility: 2.9000000953674316
       capacitor: 450.0
@@ -8842,15 +9664,18 @@ hulls:
       velocity: 255
       volume: 43000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - shipMissileVelocityPirateFactionRocket
     - shipMissileVelocityPirateFactionLight
     - shipBonusFrigateSizedLightMissileExplosiveDamageMD1
     - shipRocketExplosiveDmgMD1
     - shipBonusMWDSignatureRadiusMD2
-    group: Destroyer
+    groupName: Destroyer
+    id: 32878
     name: Talwar
-  32880:
+    volume: 43000.0
+  Venture:
     attributes:
       agility: 3.5999999046325684
       capacitor: 250.0
@@ -8875,15 +9700,18 @@ hulls:
       velocity: 335
       volume: 29500
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - miningYieldMultiplyPassive
     - shipMiningBonusOREfrig1
     - shipGCHYieldBonusOREfrig2
     - industrialBonusDroneDamage
     - GCHYieldMultiplyPassive
-    group: Frigate
+    groupName: Frigate
+    id: 32880
     name: Venture
-  33079:
+    volume: 29500.0
+  Hematos:
     attributes:
       agility: 4.449999809265137
       capacitor: 210.0
@@ -8903,15 +9731,18 @@ hulls:
       velocity: 310
       volume: 28100
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipNOSTransferAmountBonusRookie
     - shipNeutDestabilizationAmountBonusRookie
     - shipWebVelocityBonusRookie
     - shipEnergyTCapNeedBonusRookie
     - shipSETDmgBonusRookie
-    group: Corvette
+    groupName: Corvette
+    id: 33079
     name: Hematos
-  33081:
+    volume: 28100.0
+  Taipan:
     attributes:
       agility: 4.5
       capacitor: 130.0
@@ -8933,6 +9764,7 @@ hulls:
       velocity: 295
       volume: 15000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipShieldEMResistanceRookie
     - shipShieldExplosiveResistanceRookie
@@ -8944,9 +9776,11 @@ hulls:
     - shipDroneMWDSpeedBonusRookie
     - shipRocketMaxVelocityBonusRookie
     - shipLightMissileMaxVelocityBonusRookie
-    group: Corvette
+    groupName: Corvette
+    id: 33081
     name: Taipan
-  33083:
+    volume: 15000.0
+  Violator:
     attributes:
       agility: 4.349999904632568
       capacitor: 150.0
@@ -8966,14 +9800,17 @@ hulls:
       velocity: 340
       volume: 24500
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipSHTFalloffBonusRookie
     - shipSHTDmgBonusRookie
     - shipWebVelocityBonusRookie
     - shipSHTTrackingSpeedBonusRookie
-    group: Corvette
+    groupName: Corvette
+    id: 33083
     name: Violator
-  33151:
+    volume: 24500.0
+  Brutix Navy Issue:
     attributes:
       agility: 0.6299999952316284
       capacitor: 3100.0
@@ -8998,14 +9835,17 @@ hulls:
       velocity: 165
       volume: 270000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - shipHybridTrackingGBC2
     - shipHybridDmg1GBC1
     - battlecruiserMHTRange
     - commandBurstAoERoleBonus
-    group: Combat Battlecruiser
+    groupName: Combat Battlecruiser
+    id: 33151
     name: Brutix Navy Issue
-  33153:
+    volume: 270000.0
+  Drake Navy Issue:
     attributes:
       agility: 0.5299999713897705
       capacitor: 2500.0
@@ -9030,6 +9870,7 @@ hulls:
       velocity: 180
       volume: 252000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - shipHeavyMissileAOECloudSizeCBC1
     - shipHeavyAssaultMissileAOECloudSizeCBC1
@@ -9039,9 +9880,11 @@ hulls:
     - shipShieldThermalResistance1CBC2
     - battlecruiserMissileRange
     - commandBurstAoERoleBonus
-    group: Combat Battlecruiser
+    groupName: Combat Battlecruiser
+    id: 33153
     name: Drake Navy Issue
-  33155:
+    volume: 252000.0
+  Harbinger Navy Issue:
     attributes:
       agility: 0.5199999809265137
       capacitor: 3500.0
@@ -9066,14 +9909,17 @@ hulls:
       velocity: 175
       volume: 234000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - shipLaserDamageBonusABC2
     - shipEnergyTrackingABC1
     - battlecruiserMETRange
     - commandBurstAoERoleBonus
-    group: Combat Battlecruiser
+    groupName: Combat Battlecruiser
+    id: 33155
     name: Harbinger Navy Issue
-  33157:
+    volume: 234000.0
+  Hurricane Fleet Issue:
     attributes:
       agility: 0.6100000143051147
       capacitor: 2300.0
@@ -9099,14 +9945,17 @@ hulls:
       velocity: 185
       volume: 216000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - shipBonusProjectileTrackingMBC2
     - shipBonusProjectileDamageMBC1
     - battlecruiserMPTRange
     - commandBurstAoERoleBonus
-    group: Combat Battlecruiser
+    groupName: Combat Battlecruiser
+    id: 33157
     name: Hurricane Fleet Issue
-  33395:
+    volume: 216000.0
+  Moracha:
     attributes:
       agility: 0.4699999988079071
       capacitor: 1415.0
@@ -9132,6 +9981,7 @@ hulls:
       velocity: 260
       volume: 100000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipProjectileRofPirateCruiser
     - shipPTurretFalloffBonusGC
@@ -9139,9 +9989,11 @@ hulls:
     - shipProjectileDmgMC2
     - reconShipCloakCpuBonus1
     - covertOpsAndReconOpsCloakModuleDelayBonus
-    group: Force Recon Ship
+    groupName: Force Recon Ship
+    id: 33395
     name: Moracha
-  33397:
+    volume: 100000.0
+  Chremoas:
     attributes:
       agility: 3.119999885559082
       capacitor: 365.0
@@ -9167,6 +10019,7 @@ hulls:
       velocity: 440
       volume: 28000
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - shipFalloffBonusMF
     - minigameVirusStrengthBonus
@@ -9177,9 +10030,11 @@ hulls:
     - covertOpsCloakCpuPercentBonus1
     - shipSPTOptimalBonusMF
     - covertOpsStealthBomberTargettingDelayBonus
-    group: Covert Ops
+    groupName: Covert Ops
+    id: 33397
     name: Chremoas
-  33468:
+    volume: 28000.0
+  Astero:
     attributes:
       agility: 2.869999885559082
       capacitor: 430.0
@@ -9204,6 +10059,7 @@ hulls:
       velocity: 312
       volume: 16500
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - minigameVirusStrengthBonus
     - shipArmorEMResistanceAF1
@@ -9214,9 +10070,11 @@ hulls:
     - shipArmorEXResistanceAF1
     - shipBonusDroneHitpointsGF
     - covertOpsCloakCPUPercentBonusPirateFaction
-    group: Frigate
+    groupName: Frigate
+    id: 33468
     name: Astero
-  33470:
+    volume: 16500.0
+  Stratios:
     attributes:
       agility: 0.4699999988079071
       capacitor: 1700.0
@@ -9241,6 +10099,7 @@ hulls:
       velocity: 182
       volume: 101000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipArmorEMAndExpAndkinAndThmResistanceAC2
     - shipBonusDroneHitpointsGC2
@@ -9249,9 +10108,11 @@ hulls:
     - shipBonusDroneDamageMultiplierGC2
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - shipScanProbeStrengthBonusPirateCruiser
-    group: Cruiser
+    groupName: Cruiser
+    id: 33470
     name: Stratios
-  33472:
+    volume: 101000.0
+  Nestor:
     attributes:
       agility: 0.3499999940395355
       capacitor: 7000.0
@@ -9276,6 +10137,7 @@ hulls:
       velocity: 70
       volume: 486000
       warpSpeed: 2.5
+    catName: Ship
     effects:
     - shipBonusArmorResistAB
     - minigameVirusStrengthBonus
@@ -9285,9 +10147,11 @@ hulls:
     - shipBonusDroneDamageMultiplierGB2
     - shipBonusRemoteRepairAmountPirateFaction
     - shipBonusLETOptimalRangePirateFaction
-    group: Battleship
+    groupName: Battleship
+    id: 33472
     name: Nestor
-  33513:
+    volume: 486000.0
+  Leopard:
     attributes:
       agility: 1.0
       capacitor: 250.0
@@ -9303,9 +10167,12 @@ hulls:
       velocity: 500
       volume: 5000
       warpSpeed: 20.0
-    group: Shuttle
+    catName: Ship
+    groupName: Shuttle
+    id: 33513
     name: Leopard
-  33553:
+    volume: 5000.0
+  Stratios Emergency Responder:
     attributes:
       agility: 0.4699999988079071
       capacitor: 1800.0
@@ -9330,6 +10197,7 @@ hulls:
       velocity: 195
       volume: 101000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipArmorEMAndExpAndkinAndThmResistanceAC2
     - shipBonusDroneHitpointsGC2
@@ -9338,9 +10206,11 @@ hulls:
     - shipBonusDroneDamageMultiplierGC2
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - shipScanProbeStrengthBonusPirateCruiser
-    group: Cruiser
+    groupName: Cruiser
+    id: 33553
     name: Stratios Emergency Responder
-  33673:
+    volume: 101000.0
+  Whiptail:
     attributes:
       agility: 3.700000047683716
       capacitor: 355.0
@@ -9365,6 +10235,7 @@ hulls:
       velocity: 430
       volume: 18000
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - shipCapPropulsionJamming
     - interceptorMWDSignatureRadiusBonus
@@ -9380,9 +10251,11 @@ hulls:
     - shipBonusLightDroneShieldHPPirateFaction
     - shipShieldKineticResistanceCF2
     - shipShieldExplosiveResistanceCF2
-    group: Interceptor
+    groupName: Interceptor
+    id: 33673
     name: Whiptail
-  33675:
+    volume: 18000.0
+  Chameleon:
     attributes:
       agility: 0.6000000238418579
       capacitor: 1000.0
@@ -9407,6 +10280,7 @@ hulls:
       velocity: 170
       volume: 96000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipBonusMediumDroneShieldHPPirateFaction
     - shipBonusKineticMissileDamageGC2
@@ -9423,9 +10297,11 @@ hulls:
     - shipBonusMediumDroneDamageMultiplierPirateFaction
     - shipBonusMediumDroneHPPirateFaction
     - shipBonusMediumDroneArmorHPPirateFaction
-    group: Force Recon Ship
+    groupName: Force Recon Ship
+    id: 33675
     name: Chameleon
-  33697:
+    volume: 96000.0
+  Prospect:
     attributes:
       agility: 3.0
       capacitor: 300.0
@@ -9448,6 +10324,7 @@ hulls:
       velocity: 380
       volume: 50000
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - miningYieldMultiplyPassive
     - shipMiningBonusOREfrig1
@@ -9458,9 +10335,11 @@ hulls:
     - eliteBonusExpeditionMining1
     - eliteBonusExpeditionSigRadius2
     - covertOpsCloakCPUPercentBonusPirateFaction
-    group: Expedition Frigate
+    groupName: Expedition Frigate
+    id: 33697
     name: Prospect
-  33816:
+    volume: 50000.0
+  Garmur:
     attributes:
       agility: 3.200000047683716
       capacitor: 400.0
@@ -9483,6 +10362,7 @@ hulls:
       velocity: 415
       volume: 27289
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipMissileEMDamageCF2
     - shipMissileThermalDamageCF2
@@ -9491,9 +10371,11 @@ hulls:
     - shipBonusMissileExplosionDelayPirateFaction2
     - shipBonusWarpScramblerMaxRangeGF2
     - shipMissileVelocityPirateFactionFrigate
-    group: Frigate
+    groupName: Frigate
+    id: 33816
     name: Garmur
-  33818:
+    volume: 27289.0
+  Orthrus:
     attributes:
       agility: 0.47999998927116394
       capacitor: 1550.0
@@ -9518,6 +10400,7 @@ hulls:
       velocity: 245
       volume: 101000
       warpSpeed: 3.0
+    catName: Ship
     effects:
     - shipBonusWarpScramblerMaxRangeGC2
     - shipMissileKineticDamageCC
@@ -9526,9 +10409,11 @@ hulls:
     - shipMissileExpDamageCC
     - shipBonusMissileExplosionDelayPirateFaction2
     - shipMissileVelocityPirateFactionFrigate
-    group: Cruiser
+    groupName: Cruiser
+    id: 33818
     name: Orthrus
-  33820:
+    volume: 101000.0
+  Barghest:
     attributes:
       agility: 0.09799999743700027
       capacitor: 6100.0
@@ -9553,6 +10438,7 @@ hulls:
       velocity: 148
       volume: 595000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipMissileEMDamageCB
     - shipMissileKinDamageCB
@@ -9561,9 +10447,11 @@ hulls:
     - shipBonusWarpScrambleMaxRangeGB
     - shipBonusMissileExplosionDelayPirateFaction2
     - shipMissileVelocityPirateFactionFrigate
-    group: Battleship
+    groupName: Battleship
+    id: 33820
     name: Barghest
-  34151:
+    volume: 595000.0
+  Rattlesnake Victory Edition:
     attributes:
       agility: 0.12800000607967377
       capacitor: 5350.0
@@ -9588,6 +10476,7 @@ hulls:
       velocity: 94
       volume: 486000
       warpSpeed: 2.0
+    catName: Ship
     effects:
     - shipBonusEmShieldResistanceCB2
     - shipBonusExplosiveShieldResistanceCB2
@@ -9603,9 +10492,11 @@ hulls:
     - shipBonusHeavyDroneHPPirateFaction
     - shipBonusKineticMissileDamageGB2
     - shipBonusThermalMissileDamageGB2
-    group: Battleship
+    groupName: Battleship
+    id: 34151
     name: Rattlesnake Victory Edition
-  34317:
+    volume: 486000.0
+  Confessor:
     attributes:
       agility: 3.0
       capacitor: 800.0
@@ -9628,15 +10519,18 @@ hulls:
       velocity: 230
       volume: 47000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - shipSETDamageAmarrTacticalDestroyer1
     - shipSETCapNeedAmarrTacticalDestroyer2
     - shipHeatDamageAmarrTacticalDestroyer3
     - probeLauncherCPUPercentBonusTacticalDestroyer
     - shipBonusSmallEnergyTurretDamagePirateFaction
-    group: Tactical Destroyer
+    groupName: Tactical Destroyer
+    id: 34317
     name: Confessor
-  34328:
+    volume: 47000.0
+  Bowhead:
     attributes:
       agility: 0.1080000028014183
       capacitor: 3900.0
@@ -9657,13 +10551,16 @@ hulls:
       velocity: 65
       volume: 17550000
       warpSpeed: 1.3700000047683716
+    catName: Ship
     effects:
     - freighterAgilityBonus2O2
     - freighterSMACapacityBonusO1
     - shipAdvancedSpaceshipCommandAgilityBonus
-    group: Freighter
+    groupName: Freighter
+    id: 34328
     name: Bowhead
-  34496:
+    volume: 1.755E7
+  Council Diplomatic Shuttle:
     attributes:
       agility: 1.0
       capacitor: 250.0
@@ -9679,9 +10576,12 @@ hulls:
       velocity: 500
       volume: 5000
       warpSpeed: 5.0
-    group: Shuttle
+    catName: Ship
+    groupName: Shuttle
+    id: 34496
     name: Council Diplomatic Shuttle
-  34562:
+    volume: 5000.0
+  Svipul:
     attributes:
       agility: 3.799999952316284
       capacitor: 600.0
@@ -9705,15 +10605,18 @@ hulls:
       velocity: 220
       volume: 47000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - shipHeatDamageMinmatarTacticalDestroyer3
     - shipSPTDamageMinmatarTacticalDestroyer1
     - shipSPTOptimalMinmatarTacticalDestroyer2
     - shipBonusPirateFrigateProjDamage
     - probeLauncherCPUPercentBonusTacticalDestroyer
-    group: Tactical Destroyer
+    groupName: Tactical Destroyer
+    id: 34562
     name: Svipul
-  34590:
+    volume: 47000.0
+  Victorieux Luxury Yacht:
     attributes:
       agility: 0.4000000059604645
       capacitor: 3500.0
@@ -9735,11 +10638,14 @@ hulls:
       velocity: 250
       volume: 115000
       warpSpeed: 6.0
+    catName: Ship
     effects:
     - covertOpsCloakCPUPercentBonusPirateFaction
-    group: Cruiser
+    groupName: Cruiser
+    id: 34590
     name: Victorieux Luxury Yacht
-  34828:
+    volume: 115000.0
+  Jackdaw:
     attributes:
       agility: 6.0
       capacitor: 700.0
@@ -9762,15 +10668,18 @@ hulls:
       velocity: 180
       volume: 47000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - shipMissileReloadTimeCaldariTacticalDestroyer2
     - shipSmallMissileDmgPirateFaction
     - shipMissileRoFCaldariTacticalDestroyer1
     - probeLauncherCPUPercentBonusTacticalDestroyer
     - shipHeatDamageCaldariTacticalDestroyer3
-    group: Tactical Destroyer
+    groupName: Tactical Destroyer
+    id: 34828
     name: Jackdaw
-  35683:
+    volume: 47000.0
+  Hecate:
     attributes:
       agility: 6.0
       capacitor: 700.0
@@ -9793,15 +10702,18 @@ hulls:
       velocity: 180
       volume: 47000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - shipBonusPirateSmallHybridDmg
     - shipHeatDamageGallenteTacticalDestroyer3
     - shipSHTRoFGallenteTacticalDestroyer1
     - shipSHTTrackingGallenteTacticalDestroyer2
     - probeLauncherCPUPercentBonusTacticalDestroyer
-    group: Tactical Destroyer
+    groupName: Tactical Destroyer
+    id: 35683
     name: Hecate
-  35779:
+    volume: 47000.0
+  Imp:
     attributes:
       agility: 3.299999952316284
       capacitor: 450.0
@@ -9824,6 +10736,7 @@ hulls:
       velocity: 450
       volume: 28600
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - shipBonusSmallEnergyTurretTracking2AF
     - shipBonusAfterburnerSpeedFactorCF2
@@ -9832,9 +10745,11 @@ hulls:
     - Interceptor2WarpScrambleRange
     - entosisCPUPenalty
     - shipBonusSmallEnergyTurretDamagePirateFaction
-    group: Interceptor
+    groupName: Interceptor
+    id: 35779
     name: Imp
-  35781:
+    volume: 28600.0
+  Fiend:
     attributes:
       agility: 0.6000000238418579
       capacitor: 1800.0
@@ -9857,6 +10772,7 @@ hulls:
       velocity: 240
       volume: 101000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - shipShieldEMResistanceRookie
     - shipShieldExplosiveResistanceRookie
@@ -9867,9 +10783,11 @@ hulls:
     - shipBonusMediumEnergyTurretTrackingAC2
     - shipBonusAfterburnerSpeedFactorCC2
     - eliteBonusHeavyInterdictorsWarpDisruptFieldGeneratorWarpScrambleRange2
-    group: Heavy Interdiction Cruiser
+    groupName: Heavy Interdiction Cruiser
+    id: 35781
     name: Fiend
-  37135:
+    volume: 101000.0
+  Endurance:
     attributes:
       agility: 2.4000000953674316
       capacitor: 300.0
@@ -9894,6 +10812,7 @@ hulls:
       velocity: 420
       volume: 50000
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - ignoreCloakVelocityPenalty
     - miningYieldMultiplyPassive
@@ -9906,9 +10825,11 @@ hulls:
     - miningFrigateBonusIceHarvestingCycleTime2
     - iceHarvesterDurationMultiplier
     - covertOpsCloakCPUPercentBonusPirateFaction
-    group: Expedition Frigate
+    groupName: Expedition Frigate
+    id: 37135
     name: Endurance
-  37453:
+    volume: 50000.0
+  Crucifier Navy Issue:
     attributes:
       agility: 3.3499999046325684
       capacitor: 500.0
@@ -9933,14 +10854,17 @@ hulls:
       velocity: 340
       volume: 28100
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - roleBonusWDRange
     - roleBonusWDCapCPU
     - shipBonusEwWeaponDisruptionStrengthAF2
     - shipETDamageAF
-    group: Frigate
+    groupName: Frigate
+    id: 37453
     name: Crucifier Navy Issue
-  37454:
+    volume: 28100.0
+  Vigil Fleet Issue:
     attributes:
       agility: 3.200000047683716
       capacitor: 300.0
@@ -9966,14 +10890,17 @@ hulls:
       velocity: 400
       volume: 17400
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipBonusAoeVelocityRocketsMF
     - shipRocketEMThermKinDmgMF2
     - shipRocketExpDmgMF3
     - roleBonusStasisRange
-    group: Frigate
+    groupName: Frigate
+    id: 37454
     name: Vigil Fleet Issue
-  37455:
+    volume: 17400.0
+  Griffin Navy Issue:
     attributes:
       agility: 3.450000047683716
       capacitor: 425.0
@@ -9999,14 +10926,17 @@ hulls:
       velocity: 325
       volume: 19400
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - roleBonusECMCapCPU
     - roleBonusECMRange
     - shipHybridDamageBonusCF2
     - shipECMScanStrengthBonusCF
-    group: Frigate
+    groupName: Frigate
+    id: 37455
     name: Griffin Navy Issue
-  37456:
+    volume: 19400.0
+  Maulus Navy Issue:
     attributes:
       agility: 3.3499999046325684
       capacitor: 330.0
@@ -10031,14 +10961,17 @@ hulls:
       velocity: 315
       volume: 23000
       warpSpeed: 5.0
+    catName: Ship
     effects:
     - shipBonusJustScramblerRangeGF2
     - roleBonusJustScramblerStrength
     - shipBonusDroneTrackingGF
     - shipBonusDroneHitpointsGF
-    group: Frigate
+    groupName: Frigate
+    id: 37456
     name: Maulus Navy Issue
-  37457:
+    volume: 23000.0
+  Deacon:
     attributes:
       agility: 3.5
       capacitor: 675.0
@@ -10063,6 +10996,7 @@ hulls:
       velocity: 405
       volume: 28700
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipBonusRemoteArmorRepairCapNeedAF
     - armorRepairProjectorFalloffBonus
@@ -10070,9 +11004,11 @@ hulls:
     - armorRepairProjectorMaxRangeBonus
     - eliteBonusLogiFrigArmorRepSpeedCap1
     - eliteBonusLogiFrigArmorHP2
-    group: Logistics Frigate
+    groupName: Logistics Frigate
+    id: 37457
     name: Deacon
-  37458:
+    volume: 28700.0
+  Kirin:
     attributes:
       agility: 3.950000047683716
       capacitor: 615.0
@@ -10098,15 +11034,18 @@ hulls:
       velocity: 370
       volume: 20000
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipBonusShieldTransferBoostAmountCF2
     - shieldTransporterFalloffBonus
     - eliteBonusLogiFrigShieldRepSpeedCap1
     - eliteBonusLogiFrigShieldHP2
     - shipBonusShieldTransferCapNeedCF
-    group: Logistics Frigate
+    groupName: Logistics Frigate
+    id: 37458
     name: Kirin
-  37459:
+    volume: 20000.0
+  Thalia:
     attributes:
       agility: 3.700000047683716
       capacitor: 595.0
@@ -10131,6 +11070,7 @@ hulls:
       velocity: 410
       volume: 10000
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipBonusRemoteArmorRepairCapNeedGF
     - shipBonusRemoteArmorRepairAmountGF2
@@ -10138,9 +11078,11 @@ hulls:
     - armorRepairProjectorMaxRangeBonus
     - eliteBonusLogiFrigArmorRepSpeedCap1
     - eliteBonusLogiFrigSignature2
-    group: Logistics Frigate
+    groupName: Logistics Frigate
+    id: 37459
     name: Thalia
-  37460:
+    volume: 10000.0
+  Scalpel:
     attributes:
       agility: 3.8499999046325684
       capacitor: 560.0
@@ -10166,15 +11108,18 @@ hulls:
       velocity: 415
       volume: 17100
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shieldTransporterFalloffBonus
     - shipBonusShieldTransferCapNeedMF
     - shipBonusShieldTransferBoostAmountMF2
     - eliteBonusLogiFrigShieldRepSpeedCap1
     - eliteBonusLogiFrigSignature2
-    group: Logistics Frigate
+    groupName: Logistics Frigate
+    id: 37460
     name: Scalpel
-  37480:
+    volume: 17100.0
+  Bifrost:
     attributes:
       agility: 3.299999952316284
       capacitor: 600.0
@@ -10197,6 +11142,7 @@ hulls:
       velocity: 345
       volume: 43000
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipBonusThermMissileDmgMD1
     - shipBonusEMMissileDmgMD1
@@ -10212,9 +11158,11 @@ hulls:
     - shipBonusThermalShieldResistanceMD2
     - shipBonusExplosiveShieldResistanceMD2
     - shipBonusCommandDestroyerRole1DefenderBonus
-    group: Command Destroyer
+    groupName: Command Destroyer
+    id: 37480
     name: Bifrost
-  37481:
+    volume: 43000.0
+  Pontifex:
     attributes:
       agility: 3.4000000953674316
       capacitor: 750.0
@@ -10240,6 +11188,7 @@ hulls:
       velocity: 330
       volume: 47000
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - shipBonusThermalArmorResistanceAD2
     - shipBonusEMArmorResistanceAD2
@@ -10253,9 +11202,11 @@ hulls:
     - eliteBonusCommandDestroyerInfo1
     - shipBonusDroneDamageMultiplierAD1
     - shipBonusKineticArmorResistanceAD2
-    group: Command Destroyer
+    groupName: Command Destroyer
+    id: 37481
     name: Pontifex
-  37482:
+    volume: 47000.0
+  Stork:
     attributes:
       agility: 3.5999999046325684
       capacitor: 650.0
@@ -10278,6 +11229,7 @@ hulls:
       velocity: 335
       volume: 52000
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - roleBonusCDLinksPGReduction
     - MWDSignatureRadiusRoleBonus
@@ -10293,9 +11245,11 @@ hulls:
     - shipBonusShieldExplosiveResistanceCD2
     - shipBonusCommandDestroyerRole1DefenderBonus
     - eliteBonusCommandDestroyerInfo1
-    group: Command Destroyer
+    groupName: Command Destroyer
+    id: 37482
     name: Stork
-  37483:
+    volume: 52000.0
+  Magus:
     attributes:
       agility: 3.200000047683716
       capacitor: 700.0
@@ -10321,6 +11275,7 @@ hulls:
       velocity: 325
       volume: 55000
       warpSpeed: 5.5
+    catName: Ship
     effects:
     - eliteBonusCommandDestroyerArmored1
     - shipBonusDroneHitpointsGD1
@@ -10334,9 +11289,11 @@ hulls:
     - eliteBonusCommandDestroyerMJFGspool2
     - shipBonusCommandDestroyerRole1DefenderBonus
     - shipBonusDroneDamageMultiplierGD1
-    group: Command Destroyer
+    groupName: Command Destroyer
+    id: 37483
     name: Magus
-  37604:
+    volume: 55000.0
+  Apostle:
     attributes:
       agility: 0.041999999433755875
       capacitor: 75000.0
@@ -10360,6 +11317,7 @@ hulls:
       velocity: 80
       volume: 18135000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipBonusForceAuxiliaryA3CapCapacity
     - shipCapitalAgilityBonus
@@ -10372,9 +11330,11 @@ hulls:
     - shipAdvancedSpaceshipCommandAgilityBonus
     - shipBonusForceAuxiliaryA2ArmorResists
     - commandBurstAoERoleBonus
-    group: Force Auxiliary
+    groupName: Force Auxiliary
+    id: 37604
     name: Apostle
-  37605:
+    volume: 1.8135E7
+  Minokawa:
     attributes:
       agility: 0.0430000014603138
       capacitor: 63750.0
@@ -10398,6 +11358,7 @@ hulls:
       velocity: 75
       volume: 15500000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipCapitalAgilityBonus
     - shipBonusForceAuxiliaryC1RemoteBoostAndCapAmount
@@ -10410,9 +11371,11 @@ hulls:
     - shipBonusForceAuxiliaryRole3NumWarfareLinks
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
-    group: Force Auxiliary
+    groupName: Force Auxiliary
+    id: 37605
     name: Minokawa
-  37606:
+    volume: 1.55E7
+  Lif:
     attributes:
       agility: 0.041999999433755875
       capacitor: 65000.0
@@ -10436,6 +11399,7 @@ hulls:
       velocity: 85
       volume: 14625000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipCapitalAgilityBonus
     - shipBonusForceAuxiliaryRole2LogisticDroneBonus
@@ -10448,9 +11412,11 @@ hulls:
     - shipBonusForceAuxiliaryRole3NumWarfareLinks
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
-    group: Force Auxiliary
+    groupName: Force Auxiliary
+    id: 37606
     name: Lif
-  37607:
+    volume: 1.4625E7
+  Ninazu:
     attributes:
       agility: 0.041999999433755875
       capacitor: 67500.0
@@ -10474,6 +11440,7 @@ hulls:
       velocity: 80
       volume: 17020000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipCapitalAgilityBonus
     - shipBonusForceAuxiliaryG1RemoteCycleTime
@@ -10486,9 +11453,11 @@ hulls:
     - shipBonusForceAuxiliaryRole3NumWarfareLinks
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
-    group: Force Auxiliary
+    groupName: Force Auxiliary
+    id: 37607
     name: Ninazu
-  42124:
+    volume: 1.702E7
+  Vehement:
     attributes:
       agility: 0.03799999877810478
       capacitor: 57800.0
@@ -10511,6 +11480,7 @@ hulls:
       velocity: 80
       volume: 17550000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipCapitalAgilityBonus
     - shipBonusDreadnoughtRole1DamageBonus
@@ -10518,9 +11488,11 @@ hulls:
     - entosisDurationMultiply
     - shipBonusDreadnoughtG2ROFBonus
     - shipAdvancedSpaceshipCommandAgilityBonus
-    group: Dreadnought
+    groupName: Dreadnought
+    id: 42124
     name: Vehement
-  42125:
+    volume: 1.755E7
+  Vendetta:
     attributes:
       agility: 0.03099999949336052
       capacitor: 85900.0
@@ -10542,6 +11514,7 @@ hulls:
       velocity: 85
       volume: 58200000
       warpSpeed: 1.5
+    catName: Ship
     effects:
     - shipBonusSupercarrierM2FighterVelocity
     - shipCapitalAgilityBonus
@@ -10555,9 +11528,11 @@ hulls:
     - shipAdvancedSpaceshipCommandAgilityBonus
     - shipBonusSupercarrierG2FighterHitpoints
     - commandBurstAoERoleBonus
-    group: Supercarrier
+    groupName: Supercarrier
+    id: 42125
     name: Vendetta
-  42126:
+    volume: 5.82E7
+  Vanquisher:
     attributes:
       agility: 0.03200000151991844
       capacitor: 138000.0
@@ -10580,6 +11555,7 @@ hulls:
       velocity: 75
       volume: 145500000
       warpSpeed: 1.3700000047683716
+    catName: Ship
     effects:
     - shipBonusTitanRole1NumWarfareLinks
     - shipCapitalAgilityBonus
@@ -10592,9 +11568,11 @@ hulls:
     - shipBonusTitanG2ROFBonus
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
-    group: Titan
+    groupName: Titan
+    id: 42126
     name: Vanquisher
-  42244:
+    volume: 1.455E8
+  Porpoise:
     attributes:
       agility: 1.5
       capacitor: 3500.0
@@ -10618,6 +11596,7 @@ hulls:
       velocity: 100
       volume: 400000
       warpSpeed: 2.700000047683716
+    catName: Ship
     effects:
     - miningForemanBurstBonusICS2
     - zColinOrcaSurveyScannerBonus
@@ -10631,9 +11610,11 @@ hulls:
     - zColinOrcaTractorRangeBonus
     - zColinOrcaTractorVelocityBonus
     - cargoAndOreHoldCapacityBonusICS1
-    group: Industrial Command Ship
+    groupName: Industrial Command Ship
+    id: 42244
     name: Porpoise
-  42245:
+    volume: 400000.0
+  Rabisu:
     attributes:
       agility: 0.5199999809265137
       capacitor: 3250.0
@@ -10658,6 +11639,7 @@ hulls:
       velocity: 250
       volume: 115000
       warpSpeed: 3.299999952316284
+    catName: Ship
     effects:
     - remoteArmorPowerNeedBonusEffect
     - shipBonusDroneRepairMC1
@@ -10672,9 +11654,11 @@ hulls:
     - covertOpsStealthBomberTargettingDelayBonus
     - shipBonusNosOptimalFalloffAC2
     - shipBonusNosOverride
-    group: Logistics
+    groupName: Logistics
+    id: 42245
     name: Rabisu
-  42246:
+    volume: 115000.0
+  Caedes:
     attributes:
       agility: 3.5999999046325684
       capacitor: 500.0
@@ -10699,6 +11683,7 @@ hulls:
       velocity: 375
       volume: 28600
       warpSpeed: 8.0
+    catName: Ship
     effects:
     - shipEnergyNeutralizerTransferAmountBonusAF
     - minigameVirusStrengthBonus
@@ -10712,9 +11697,11 @@ hulls:
     - shipBonusNosOverride
     - shipEnergyDrainAmountAF1
     - shipBonusSmallEnergyTurretDamagePirateFaction
-    group: Covert Ops
+    groupName: Covert Ops
+    id: 42246
     name: Caedes
-  42685:
+    volume: 28600.0
+  Sunesis:
     attributes:
       agility: 2.0
       capacitor: 575.0
@@ -10740,6 +11727,7 @@ hulls:
       velocity: 220
       volume: 55000
       warpSpeed: 4.5
+    catName: Ship
     effects:
     - shipBonusPirateSmallHybridDmg
     - shipSmallMissileDmgPirateFaction
@@ -10748,5 +11736,7 @@ hulls:
     - shipBonusDroneHitpointsRookie
     - shipScanProbeStrengthBonusPirateCruiser
     - shipBonusSmallEnergyTurretDamagePirateFaction
-    group: Destroyer
+    groupName: Destroyer
+    id: 42685
     name: Sunesis
+    volume: 55000.0

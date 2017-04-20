@@ -5,24 +5,30 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 
 import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDEData;
 import fr.guiguilechat.eveonline.database.yaml.Asteroid;
+import fr.guiguilechat.eveonline.database.yaml.Blueprint;
+import fr.guiguilechat.eveonline.database.yaml.Blueprint.Activity;
 import fr.guiguilechat.eveonline.database.yaml.DatabaseFile;
 import fr.guiguilechat.eveonline.database.yaml.Hull;
 import fr.guiguilechat.eveonline.database.yaml.Module;
+import fr.guiguilechat.eveonline.database.yaml.Type;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.sde.bsd.EdgmEffects;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeEffects;
 import fr.guiguilechat.eveonline.sde.cache.SDECache;
 import fr.guiguilechat.eveonline.sde.fsd.Eblueprints;
 import fr.guiguilechat.eveonline.sde.fsd.Eblueprints.Material;
+import fr.guiguilechat.eveonline.sde.fsd.EcategoryIDs;
+import fr.guiguilechat.eveonline.sde.fsd.EgroupIDs;
 import fr.guiguilechat.eveonline.sde.fsd.EtypeIDs;
 import fr.guiguilechat.eveonline.sde.model.IndustryUsages;
 
@@ -39,105 +45,99 @@ public class SDEDumper {
 	public static final String DB_ASTEROIDS_RES = "SDEDump/asteroids.yaml";
 	public static final File DB_ASTEROIDS_FILE = new File("src/main/resources", DB_ASTEROIDS_RES);
 
+	public static final String DB_BLUEPRINT_RES = "SDEDump/blueprints.yaml";
+	public static final File DB_BLUEPRINT_FILE = new File("src/main/resources", DB_BLUEPRINT_RES);
+
 	public static void main(String[] args) throws IOException {
 		DatabaseFile db = loadDb();
 		DB_DIR.mkdirs();
+
 		DatabaseFile dbModules = new DatabaseFile();
 		dbModules.modules = db.modules;
 		db.modules = new LinkedHashMap<>();
+		YamlDatabase.write(dbModules, DB_MODULES_FILE);
+
 		DatabaseFile dbAsteroids = new DatabaseFile();
 		dbAsteroids.asteroids = db.asteroids;
 		db.asteroids = new LinkedHashMap<>();
-		YamlDatabase.write(db, DB_HULLS_FILE);
-		YamlDatabase.write(dbModules, DB_MODULES_FILE);
 		YamlDatabase.write(dbAsteroids, DB_ASTEROIDS_FILE);
+
+		DatabaseFile dbBlueprints = new DatabaseFile();
+		dbBlueprints.blueprints = db.blueprints;
+		db.blueprints = new LinkedHashMap<>();
+		YamlDatabase.write(dbBlueprints, DB_BLUEPRINT_FILE);
+
+		YamlDatabase.write(db, DB_HULLS_FILE);
 	}
 
 	public static DatabaseFile loadDb() throws FileNotFoundException {
 		SDEData sde = new SDEData();
 		DatabaseFile db = new DatabaseFile();
-		Map<Integer, String> shipGroups = new LinkedHashMap<>();
-		Map<Integer, String> modulesGroups = new LinkedHashMap<>();
+		Set<Integer> shipGroups = new HashSet<>();
+		Set<Integer> modulesGroups = new HashSet<>();
 		findShipModuleGroups(shipGroups, modulesGroups);
 
-		HashMap<Integer, EdgmEffects> effects = sde.getEffects();
-		HashMap<Integer, HashMap<Integer, EdgmTypeEffects>> typeEffectsByTypeIDEffectID = sde.getTypeEffects();
-
-		LinkedHashMap<Integer, EtypeIDs> types = sde.getTypeIDs();
-		for (Entry<Integer, EtypeIDs> e : types.entrySet()) {
+		// first pass to create the modules and the hulls
+		// the attributes will be stored afterwards, once we know which attributes
+		// we actually need
+		for (Entry<Integer, EtypeIDs> e : sde.getTypeIDs().entrySet()) {
 			EtypeIDs elem = e.getValue();
 			if (elem.published) {
 				Integer groupId = elem.groupID;
-				if (shipGroups.containsKey(groupId)) {
+				if (shipGroups.contains(groupId)) {
 					Hull h = new Hull();
-					db.hulls.put(e.getKey(), h);
-					h.name = elem.enName();
-					h.group = shipGroups.get(groupId);
+					db.hulls.put(elem.enName(), h);
+					loadTypeInformations(h, sde, e.getKey());
 					h.attributes.mass = (long) elem.mass;
 					h.attributes.volume = (long) elem.volume;
-					HashMap<Integer, EdgmTypeEffects> m_effects = typeEffectsByTypeIDEffectID.get(e.getKey());
+					HashMap<Integer, EdgmTypeEffects> m_effects = sde.getTypeEffects().get(e.getKey());
 					if (m_effects != null) {
 						for (Integer effect_id : m_effects.keySet()) {
-							h.effects.add(effects.get(effect_id).effectName);
+							h.effects.add(sde.getEffects().get(effect_id).effectName);
 						}
 					}
-				} else if (modulesGroups.containsKey(groupId)) {
+				} else if (modulesGroups.contains(groupId)) {
 					Module m = new Module();
-					db.modules.put(e.getKey(), m);
-					m.name = elem.enName();
-					m.group = modulesGroups.get(groupId);
-					HashMap<Integer, EdgmTypeEffects> m_effects = typeEffectsByTypeIDEffectID.get(e.getKey());
+					db.modules.put(elem.enName(), m);
+					loadTypeInformations(m, sde, e.getKey());
+					HashMap<Integer, EdgmTypeEffects> m_effects = sde.getTypeEffects().get(e.getKey());
 					if (m_effects != null) {
 						for (Integer effect_id : m_effects.keySet()) {
-							m.effects.add(effects.get(effect_id).effectName);
+							m.effects.add(sde.getEffects().get(effect_id).effectName);
 						}
 					}
 				}
 			}
 		}
 
-		// for each [ hull | module ] i, its map of attributeName->
+		// for each hull, its map of attributeName->
 		// attributeValue
 		// skip anything that is not hull nor module to free memory
-		LinkedHashMap<Integer, LinkedHashMap<String, Object>> hullAttributes = new LinkedHashMap<>();
-		LinkedHashMap<Integer, LinkedHashMap<String, Object>> moduleAttributes = new LinkedHashMap<>();
-		HashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> attributesByTypeId = sde.getTypeAttributes();
-		for (Entry<Integer, HashMap<Integer, EdgmTypeAttributes>> e : attributesByTypeId.entrySet()) {
-			int typeID = e.getKey();
-			// the map corresponding to the item id
-			LinkedHashMap<String, Object> atts = null;
-			if (db.hulls.containsKey(typeID)) {
-				atts = hullAttributes.get(typeID);
-				if (atts == null) {
-					atts = new LinkedHashMap<>();
-					hullAttributes.put(typeID, atts);
-				}
-			} else if (db.modules.containsKey(typeID)) {
-				atts = moduleAttributes.get(typeID);
-				if (atts == null) {
-					atts = new LinkedHashMap<>();
-					moduleAttributes.put(typeID, atts);
-				}
+		for (Hull h : db.hulls.values()) {
+			LinkedHashMap<String, Object> atts = new LinkedHashMap<>();
+			for (Entry<Integer, EdgmTypeAttributes> e : sde.getTypeAttributes().get(h.id).entrySet()) {
+				String attributename = sde.getAttributeTypes().get(e.getKey()).attributeName;
+				EdgmTypeAttributes affect = e.getValue();
+				atts.put(attributename, affect.valueFloat != 0 ? affect.valueFloat : affect.valueInt);
 			}
-			// the id correspond to either a ship or a module: translate the
-			// affect to name->value
-			if (atts != null) {
-				for (Entry<Integer, EdgmTypeAttributes> e2 : e.getValue().entrySet()) {
-					String attributename = sde.getAttributeTypes().get(e2.getKey()).attributeName;
-					EdgmTypeAttributes affect = e2.getValue();
-					atts.put(attributename, affect.valueFloat != 0 ? affect.valueFloat : affect.valueInt);
-				}
+			addHullAttributes(h, atts);
+		}
+		// same for modules
+		for (Module m : db.modules.values()) {
+			LinkedHashMap<String, Object> atts = new LinkedHashMap<>();
+			for (Entry<Integer, EdgmTypeAttributes> e : sde.getTypeAttributes().get(m.id).entrySet()) {
+				String attributename = sde.getAttributeTypes().get(e.getKey()).attributeName;
+				EdgmTypeAttributes affect = e.getValue();
+				atts.put(attributename, affect.valueFloat != 0 ? affect.valueFloat : affect.valueInt);
 			}
-		}
-
-		for (Entry<Integer, LinkedHashMap<String, Object>> hullAtts : hullAttributes.entrySet()) {
-			addHullAttributes(db.hulls.get(hullAtts.getKey()), hullAtts.getValue());
-		}
-		for (Entry<Integer, LinkedHashMap<String, Object>> moduleAtts : moduleAttributes.entrySet()) {
-			addModuleAttributes(db.modules.get(moduleAtts.getKey()), moduleAtts.getValue());
+			addModuleAttributes(m, atts);
 		}
 
 		loadAsteroids(sde, db);
+
+		loadBlueprints(sde, db);
+
+		System.err.println("missings ids " + sde.missings);
 
 		return db;
 	}
@@ -154,7 +154,7 @@ public class SDEDumper {
 	 *           if the database file are not found
 	 */
 	@SuppressWarnings("unchecked")
-	public static void findShipModuleGroups(Map<Integer, String> shipGroups, Map<Integer, String> modulesGroups)
+	public static void findShipModuleGroups(Set<Integer> shipGroups, Set<Integer> modulesGroups)
 			throws FileNotFoundException {
 		// find category for modules and ships
 		int shipCat = -1, moduleCat = -1;
@@ -180,13 +180,38 @@ public class SDEDumper {
 			if (Boolean.TRUE.equals(e.getValue().get("published"))) {
 				Integer groupCat = (Integer) e.getValue().get("categoryID");
 				if (groupCat == shipCat) {
-					shipGroups.put(e.getKey(), getElemName(e.getValue()));
+					shipGroups.add(e.getKey());
 				}
 				if (groupCat == moduleCat) {
-					modulesGroups.put(e.getKey(), getElemName(e.getValue()));
+					modulesGroups.add(e.getKey());
 				}
 			}
 		}
+	}
+
+	/**
+	 * store common informations in a type
+	 *
+	 * @param type
+	 *          the actual type to store data into
+	 * @param sde
+	 *          the database from sde
+	 * @param id
+	 *          the int id of the type we want to store data
+	 */
+	public static void loadTypeInformations(Type type, SDEData sde, int id) {
+		EtypeIDs elem = sde.getType(id);
+		type.id = id;
+		if (elem == null) {
+			type.name = "unknown_" + id;
+			return;
+		}
+		type.name = elem.enName();
+		EgroupIDs group = sde.getGroupIDs().get(elem.groupID);
+		EcategoryIDs cat = sde.getCategoryIDs().get(group.categoryID);
+		type.groupName = group.enName();
+		type.catName = cat.enName();
+		type.volume = elem.volume;
 	}
 
 	public static void addHullAttributes(Hull hull, LinkedHashMap<String, Object> attributes) {
@@ -268,6 +293,8 @@ public class SDEDumper {
 		if (module.effects.contains("loPower")) {
 			module.attributes.slot = "low";
 		}
+		module.attributes.metaLevel = getelemInt(attributes, "metaLevel", 0);
+		module.rawAttributes = attributes;
 	}
 
 	@SuppressWarnings("unchecked")
@@ -295,10 +322,8 @@ public class SDEDumper {
 		sde.getTypeIDsForCategory(25).forEach(i -> {
 			EtypeIDs type = sde.getType(i);
 			Asteroid a = new Asteroid();
-			db.asteroids.put(type.enName(), a);
-			a.volume = type.volume;
-			a.id = i;
-			a.groupName = sde.getGroupIDs().get(type.groupID).enName();
+			loadTypeInformations(a, sde, i);
+			db.asteroids.put(a.name, a);
 			String desc = type.description.getOrDefault("en", "");
 			if (desc.contains("Available")) {
 				String availables = desc.replaceAll("\\n|\\r", "").replaceAll(".*'>", "").replaceAll("</.*", "");
@@ -321,6 +346,26 @@ public class SDEDumper {
 					astProduct.compressRatio = prodType.groupID == 465 ? 1 : 100;
 				}
 			}
+		}
+	}
+
+	public static void loadBlueprints(SDEData sde, DatabaseFile db) {
+		for (Entry<Integer, Eblueprints> e : sde.getBlueprints().entrySet()) {
+			int id = e.getKey();
+			Eblueprints bp = e.getValue();
+			Blueprint bp2 = new Blueprint();
+			EtypeIDs item = sde.getType(id);
+			if (item == null) {
+				System.err.println("skip generating data for bp " + id);
+				continue;
+			}
+			loadTypeInformations(bp2, sde, id);
+			db.blueprints.put(bp2.name, bp2);
+			bp2.copying = new Activity(bp.activities.copying, sde);
+			bp2.invention = new Activity(bp.activities.invention, sde);
+			bp2.manufacturing = new Activity(bp.activities.manufacturing, sde);
+			bp2.research_material = new Activity(bp.activities.research_material, sde);
+			bp2.research_time = new Activity(bp.activities.research_time, sde);
 		}
 	}
 

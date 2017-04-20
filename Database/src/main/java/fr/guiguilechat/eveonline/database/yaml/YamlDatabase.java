@@ -61,6 +61,7 @@ public class YamlDatabase extends DataBase {
 		td.putMapPropertyType("hulls", Integer.class, Hull.class);
 		td.putMapPropertyType("asteroids", String.class, Asteroid.class);
 		td.putMapPropertyType("modules", Integer.class, Module.class);
+		td.putMapPropertyType("blueprints", String.class, Blueprint.class);
 		ret.addTypeDescription(td);
 		return ret;
 	}
@@ -111,10 +112,10 @@ public class YamlDatabase extends DataBase {
 		}
 	}
 
-	protected LinkedHashMap<Integer, Hull> hulls = null;
+	protected LinkedHashMap<String, Hull> hulls = null;
 
 	@Override
-	public LinkedHashMap<Integer, Hull> getHulls() {
+	public LinkedHashMap<String, Hull> getHulls() {
 		if (hulls == null) {
 			InputStream hullsStream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_HULLS_RES);
 			DatabaseFile hullDB = hullsStream != null ? load(hullsStream) : null;
@@ -127,10 +128,10 @@ public class YamlDatabase extends DataBase {
 		return hulls;
 	}
 
-	protected LinkedHashMap<Integer, Module> modules = null;
+	protected LinkedHashMap<String, Module> modules = null;
 
 	@Override
-	public LinkedHashMap<Integer, Module> getModules() {
+	public LinkedHashMap<String, Module> getModules() {
 		if (modules == null) {
 			InputStream modulesStream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_MODULES_RES);
 			DatabaseFile moduleDB = modulesStream != null ? load(modulesStream) : null;
@@ -157,6 +158,22 @@ public class YamlDatabase extends DataBase {
 			}
 		}
 		return asteroids;
+	}
+
+	protected LinkedHashMap<String, Blueprint> blueprints = null;
+
+	@Override
+	public LinkedHashMap<String, Blueprint> getBlueprints() {
+		if (blueprints == null) {
+			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_BLUEPRINT_RES);
+			DatabaseFile db = stream != null ? load(stream) : null;
+			if (db != null) {
+				blueprints = db.blueprints;
+			} else {
+				blueprints = new LinkedHashMap<>();
+			}
+		}
+		return blueprints;
 	}
 
 }

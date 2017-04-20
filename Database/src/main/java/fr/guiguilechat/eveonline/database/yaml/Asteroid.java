@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.database.yaml;
 
-public class Asteroid {
+public class Asteroid extends Type {
 
 	public String compressedFrom = null;
 
@@ -8,12 +8,6 @@ public class Asteroid {
 
 	/** number of compressedFrom we need to have one element of this. */
 	public double compressRatio = 0.0;
-
-	public double volume;
-
-	public int id;
-
-	public String groupName;
 
 	/**
 	 * maximum security we can mine this from. if <=-1 cannot be mined

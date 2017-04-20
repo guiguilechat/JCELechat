@@ -1,11 +1,9 @@
 package fr.guiguilechat.eveonline.database.yaml;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
-public class Module {
-
-	public String name;
-	public String group;
+public class Module extends Type {
 
 	public final ModuleAttributes attributes = new ModuleAttributes();
 
@@ -13,4 +11,13 @@ public class Module {
 
 	public ModuleActivation activation;
 
+	public boolean isRig() {
+		return effects.contains("rigSlot");
+	}
+
+	public int techLevel() {
+		return attributes.metaLevel == 5 ? 2 : 1;
+	}
+
+	public HashMap<String, ?> rawAttributes = new HashMap<>();
 }

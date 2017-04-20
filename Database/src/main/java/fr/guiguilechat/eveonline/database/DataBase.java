@@ -4,16 +4,34 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 
 import fr.guiguilechat.eveonline.database.yaml.Asteroid;
+import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Hull;
 import fr.guiguilechat.eveonline.database.yaml.Module;
+import fr.guiguilechat.eveonline.database.yaml.Type;
 
 public abstract class DataBase {
 
-	public abstract LinkedHashMap<Integer, Hull> getHulls();
+	public abstract LinkedHashMap<String, Hull> getHulls();
 
-	public abstract LinkedHashMap<Integer, Module> getModules();
+	public abstract LinkedHashMap<String, Module> getModules();
 
 	public abstract LinkedHashMap<String, Asteroid> getAsteroids();
+
+	public abstract LinkedHashMap<String, Blueprint> getBlueprints();
+
+	public Type getTypeByName(String name) {
+		Type ret = getHulls().get(name);
+		if (ret == null) {
+			ret = getModules().get(name);
+		}
+		if (ret == null) {
+			ret = getAsteroids().get(name);
+		}
+		if (ret == null) {
+			ret = getBlueprints().get(name);
+		}
+		return ret;
+	}
 
 	protected ESIMarketPrices esi = new ESIMarketPrices();
 

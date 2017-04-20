@@ -10,21 +10,17 @@ public class Bridge {
 
 	protected final Hull[] hulls;
 
-	/** for each hull i in the bridge, the corresponding item id for Eve */
-	protected final int[] hullsIds;
-
 	public Bridge(DataBase database) {
 		this.database = database;
 		hulls = database.getHulls().values().toArray(new Hull[] {});
-		hullsIds = database.getHulls().keySet().stream().mapToInt(i -> i).toArray();
 	}
 
 	public Hull[] getHulls() {
 		return hulls;
 	}
 
-	public int getEveHullId(int internalHudId) {
-		return hullsIds[internalHudId];
+	public Hull getEveHull(int internalHudId) {
+		return hulls[internalHudId];
 	}
 
 	protected int[] hullSpeed;

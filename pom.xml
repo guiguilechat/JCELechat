@@ -23,6 +23,7 @@
 		<module>Database</module>
 		<module>Optimize</module>
 		<module>SDE</module>
+		<module>programs</module>
 	</modules>
 	<properties>
 		<java.version>1.8</java.version>

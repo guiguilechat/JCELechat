@@ -1,6 +1,8 @@
 package fr.guiguilechat.eveonline.sde.cache;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
@@ -20,22 +22,25 @@ public class SDECache {
 	 */
 	public static final File CHECKDIR = new File(CACHEDIR, "sde");
 
-	/**
-	 * where we want to download the SDE from
-	 */
-	public static final String SDE_URL = "https://cdn1.eveonline.com/data/sde/tranquility/sde-20170216-TRANQUILITY.zip";
+	public static final File LAST_DL = new File(CHECKDIR, "last.txt");
 
 	/**
 	 * if {@link #CHECKDIR} is not a directory, download the full yaml from the
 	 * sde . those files will be extracted and placed in {@link #CACHEDIR}
 	 */
+	@SuppressWarnings("resource")
 	public static void donwloadSDE() {
-		if (CHECKDIR.isDirectory()) {
-			return;
-		}
 		CACHEDIR.mkdirs();
+		String url = findLastURL();
 		try {
-			InputStream is = new URL(SDE_URL).openStream();
+			if (LAST_DL.exists() && url.equals(new BufferedReader(new FileReader(LAST_DL)).readLine())) {
+				return;
+			}
+		} catch (IOException e1) {
+			System.err.println(e1);
+		}
+		try {
+			InputStream is = new URL(url).openStream();
 			ZipEntry e;
 			try (ZipInputStream zis = new ZipInputStream(is)) {
 				while ((e = zis.getNextEntry()) != null) {
@@ -53,9 +58,17 @@ public class SDECache {
 					System.err.println(e.getName());
 				}
 			}
+
+			FileWriter fw = new FileWriter(LAST_DL);
+			fw.write(url);
+			fw.close();
 		} catch (IOException e) {
 			throw new UnsupportedOperationException("while downloading the SDE", e);
 		}
+	}
+
+	public static String findLastURL() {
+		return "https://cdn1.eveonline.com/data/sde/tranquility/sde-20170330-TRANQUILITY.zip";
 	}
 
 }

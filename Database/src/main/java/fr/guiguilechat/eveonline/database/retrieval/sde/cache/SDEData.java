@@ -109,15 +109,24 @@ public class SDEData {
 		return cachedTypeIDs;
 	}
 
+	public HashSet<Integer> missings = new HashSet<>();
+
 	public EtypeIDs getType(int id) {
-		return getTypeIDs().get(id);
+		EtypeIDs ret = getTypeIDs().get(id);
+		if (ret == null) {
+			if (missings.add(id)) {
+				System.err.println("error : no type for id " + id + ", returning null");
+			}
+			missings.add(id);
+		}
+		return ret;
 	}
 
 	protected HashMap<String, Integer> cachedDico = null;
 
 	/**
 	 * get the dictionary of names (lower case) to the types ids
-	 * 
+	 *
 	 * @return the internal cached dictionary
 	 */
 	public HashMap<String, Integer> getDico() {
@@ -207,8 +216,8 @@ public class SDEData {
 		if (cachedUsages == null) {
 			cachedUsages = new HashMap<>();
 			for (Eblueprints bp : getBlueprints().values()) {
-				for (Activity act : new Activity[] { 
-						bp.activities.copying, 
+				for (Activity act : new Activity[] {
+						bp.activities.copying,
 						bp.activities.invention,
 						bp.activities.manufacturing }) {
 					for (Material m : act.materials) {

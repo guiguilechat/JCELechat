@@ -3,10 +3,8 @@ package fr.guiguilechat.eveonline.database.yaml;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
-public class Hull {
+public class Hull extends Type {
 
-	public String name;
-	public String group;
 
 	public HullAttributes attributes = new HullAttributes();
 

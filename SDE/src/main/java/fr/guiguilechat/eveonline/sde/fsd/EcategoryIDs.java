@@ -31,8 +31,9 @@ public class EcategoryIDs {
 					MappingNode mn = (MappingNode) node;
 					if (mn.getValue().size() > 0) {
 						if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-								.filter(s -> "published".equals(s)).findAny().isPresent())
+								.filter(s -> "published".equals(s)).findAny().isPresent()) {
 							node.setType(EcategoryIDs.class);
+						}
 					}
 				}
 				Construct ret = super.getConstructor(node);
@@ -50,5 +51,9 @@ public class EcategoryIDs {
 	public HashMap<String, String> name = new HashMap<>();
 	public boolean published;
 	public int iconID;
+
+	public String enName() {
+		return name == null || !name.containsKey("en") ? "unamed" : name.get("en");
+	}
 
 }

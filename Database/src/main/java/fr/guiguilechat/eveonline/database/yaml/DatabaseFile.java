@@ -8,11 +8,13 @@ import java.util.LinkedHashMap;
  */
 public class DatabaseFile {
 
-	public LinkedHashMap<Integer, Hull> hulls = new LinkedHashMap<>();
+	public LinkedHashMap<String, Hull> hulls = new LinkedHashMap<>();
 
-	public LinkedHashMap<Integer, Module> modules = new LinkedHashMap<>();
+	public LinkedHashMap<String, Module> modules = new LinkedHashMap<>();
 
 	public LinkedHashMap<String, Asteroid> asteroids = new LinkedHashMap<>();
+
+	public LinkedHashMap<String, Blueprint> blueprints = new LinkedHashMap<>();
 
 	/**
 	 * assimilates another DB. replaces values already stored as X if X is present
@@ -24,6 +26,7 @@ public class DatabaseFile {
 		hulls.putAll(db.hulls);
 		modules.putAll(db.modules);
 		asteroids.putAll(db.asteroids);
+		blueprints.putAll(db.blueprints);
 	}
 
 
