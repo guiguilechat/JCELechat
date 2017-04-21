@@ -1,5 +1,6 @@
 package fr.guiguilechat.eveonline.database.retrieval.sde;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -19,6 +20,7 @@ import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint.Activity;
 import fr.guiguilechat.eveonline.database.yaml.DatabaseFile;
 import fr.guiguilechat.eveonline.database.yaml.Hull;
+import fr.guiguilechat.eveonline.database.yaml.Location;
 import fr.guiguilechat.eveonline.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.database.yaml.Module;
 import fr.guiguilechat.eveonline.database.yaml.Type;
@@ -52,6 +54,9 @@ public class SDEDumper {
 	public static final String DB_METAINF_RES = "SDEDump/metainfs.yaml";
 	public static final File DB_METAINF_FILE = new File("src/main/resources", DB_METAINF_RES);
 
+	public static final String DB_LOCATION_RES = "SDEDump/locations.yaml";
+	public static final File DB_LOCATION_FILE = new File("src/main/resources", DB_LOCATION_RES);
+
 	public static void main(String[] args) throws IOException {
 		DatabaseFile db = loadDb();
 		DB_DIR.mkdirs();
@@ -75,6 +80,11 @@ public class SDEDumper {
 		dbMetaInfs.metaInfs = db.metaInfs;
 		db.metaInfs = new LinkedHashMap<>();
 		YamlDatabase.write(dbMetaInfs, DB_METAINF_FILE);
+
+		DatabaseFile dbLocations = new DatabaseFile();
+		dbLocations.locations = db.locations;
+		db.locations = new LinkedHashMap<>();
+		YamlDatabase.write(dbLocations, DB_LOCATION_FILE);
 
 		YamlDatabase.write(db, DB_HULLS_FILE);
 	}
@@ -145,6 +155,8 @@ public class SDEDumper {
 		loadAsteroids(sde, db);
 
 		loadBlueprints(sde, db);
+
+		loadLocations(sde, db);
 
 		loadMetaInfs(sde, db);
 
@@ -372,11 +384,113 @@ public class SDEDumper {
 			}
 			loadTypeInformations(bp2, sde, id);
 			db.blueprints.put(bp2.name, bp2);
-			bp2.copying = bp2.new Activity(bp.activities.copying, sde);
-			bp2.invention = bp2.new Activity(bp.activities.invention, sde);
-			bp2.manufacturing = bp2.new Activity(bp.activities.manufacturing, sde);
-			bp2.research_material = bp2.new Activity(bp.activities.research_material, sde);
-			bp2.research_time = bp2.new Activity(bp.activities.research_time, sde);
+			bp2.copying = new Activity(bp.activities.copying, sde);
+			bp2.invention = new Activity(bp.activities.invention, sde);
+			bp2.manufacturing = new Activity(bp.activities.manufacturing, sde);
+			bp2.research_material = new Activity(bp.activities.research_material, sde);
+			bp2.research_time = new Activity(bp.activities.research_time, sde);
+		}
+	}
+
+	public static void loadLocations(SDEData sde, DatabaseFile db) {
+		File mainFolder = new File(SDECache.CHECKDIR, "fsd/universe/eve");
+		if (!mainFolder.isDirectory()) {
+			System.err.println("can't create locations, folder not found " + mainFolder);
+			return;
+		}
+		for (String regionName : mainFolder.list()) {
+			File regionDir = new File(mainFolder, regionName);
+			Location region = new Location();
+			region.name = regionName;
+			try (BufferedReader br = new BufferedReader(new FileReader(new File(regionDir, "region.staticdata")))) {
+				br.lines().forEach(l -> {
+					if (l.startsWith("regionID: ")) {
+						region.locationID = Integer.parseInt(l.substring("regionID: ".length()));
+					}
+				});
+			} catch (IOException e) {
+				e.printStackTrace(System.err);
+			}
+			if (region.locationID == 0) {
+				System.err.println("could not get id for region " + regionName);
+				continue;
+			} else {
+				db.locations.put(regionName, region);
+			}
+			for (String constelName : regionDir.list((d, n) -> !n.contains("."))) {
+				File constelDir = new File(regionDir, constelName);
+				Location constel = new Location();
+				constel.name = constelName;
+				constel.parentRegion = regionName;
+				try (BufferedReader br = new BufferedReader(new FileReader(new File(constelDir, "constellation.staticdata")))) {
+					br.lines().forEach(l -> {
+						if (l.startsWith("constellationID: ")) {
+							constel.locationID = Integer.parseInt(l.substring("constellationID: ".length()));
+						}
+					});
+				} catch (IOException e) {
+					e.printStackTrace(System.err);
+				}
+				if (constel.locationID == 0) {
+					System.err.println("could not get id for constel " + constelName);
+					continue;
+				} else {
+					db.locations.put(constelName, constel);
+				}
+				for (String systemName : constelDir.list((d, n) -> !n.contains("."))) {
+					File systemDir = new File(constelDir, systemName);
+					Location system = new Location();
+					system.name = systemName;
+					system.parentRegion = regionName;
+					system.parentConstelation = constelName;
+					try (BufferedReader br = new BufferedReader(new FileReader(new File(systemDir, "solarsystem.staticdata")))) {
+						br.lines().forEach(l -> {
+							if (l.startsWith("solarSystemID: ")) {
+								system.locationID = Integer.parseInt(l.substring("solarSystemID: ".length()));
+							} else if (l.startsWith("security: ")) {
+								double sec = Double.parseDouble(l.substring("security: ".length()));
+								system.maxSec = system.minSec = sec;
+								constel.minSec = Math.min(constel.minSec, sec);
+								constel.maxSec = Math.max(constel.maxSec, sec);
+								region.minSec = Math.min(region.minSec, sec);
+								region.maxSec = Math.max(region.maxSec, sec);
+							}
+						});
+					} catch (IOException e) {
+						e.printStackTrace(System.err);
+					}
+					if (system.locationID == 0) {
+						System.err.println("could not get id for system " + systemName);
+						continue;
+					} else {
+						db.locations.put(systemName, system);
+					}
+				}
+			}
+		}
+		for (Location loc : db.locations.values()) {
+			switch (loc.getLocationType()) {
+			case 3:
+				if (loc.parentConstelation == null || loc.parentRegion == null) {
+					System.err.println("error with system " + loc.name + " in constel " + loc.parentConstelation + " region "
+							+ loc.parentRegion);
+				}
+				break;
+			case 2:
+				if (loc.parentRegion == null || loc.parentConstelation != null) {
+					System.err.println("error with constelation " + loc.name + " in constel " + loc.parentConstelation
+							+ " region " + loc.parentRegion);
+				}
+				break;
+			case 1:
+				if (loc.parentRegion != null || loc.parentConstelation != null) {
+					System.err.println("error with region " + loc.name + " in constel " + loc.parentConstelation + " region "
+							+ loc.parentRegion);
+				}
+				break;
+			default:
+				System.err.println("error, unknown locaiton type " + loc.getLocationType());
+			}
 		}
 	}
 
@@ -389,7 +503,7 @@ public class SDEDumper {
 				db.metaInfs.put(item.enName(), mi);
 			}
 		}
-		for( Entry<String, Blueprint> e :db.blueprints.entrySet()) {
+		for (Entry<String, Blueprint> e : db.blueprints.entrySet()) {
 			Blueprint bp = e.getValue();
 			for (Activity act : new Activity[] { bp.copying, bp.invention, bp.manufacturing, bp.research_material,
 					bp.research_time }) {

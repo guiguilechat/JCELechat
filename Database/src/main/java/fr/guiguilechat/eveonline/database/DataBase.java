@@ -6,6 +6,7 @@ import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Hull;
+import fr.guiguilechat.eveonline.database.yaml.Location;
 import fr.guiguilechat.eveonline.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.database.yaml.Module;
 import fr.guiguilechat.eveonline.database.yaml.Type;
@@ -20,7 +21,9 @@ public abstract class DataBase {
 
 	public abstract LinkedHashMap<String, Blueprint> getBlueprints();
 
-	public abstract LinkedHashMap<String, MetaInf> getEveIDs();
+	public abstract LinkedHashMap<String, MetaInf> getMetaInfs();
+
+	public abstract LinkedHashMap<String, Location> getLocations();
 
 	public Type getTypeByName(String name) {
 		Type ret = getHulls().get(name);
@@ -44,16 +47,16 @@ public abstract class DataBase {
 
 	// central cache
 
-	protected HashMap<Long, EveCentral> centrals = new HashMap<>();
+	protected HashMap<Integer, EveCentral> centrals = new HashMap<>();
 
 	/**
-	 * get a cached central for given system.
+	 * get a cached central for given system|region.
 	 *
 	 * @param systemID
-	 *          ID of system, Jita by default.
+	 *          ID of system, Jita by default, or a region.
 	 * @return the internal cached eve-central proxy
 	 */
-	public EveCentral central(long systemID) {
+	public EveCentral central(int systemID) {
 		EveCentral ret = centrals.get(systemID);
 		if (ret == null) {
 			ret = new EveCentral(systemID);
@@ -62,8 +65,15 @@ public abstract class DataBase {
 		return ret;
 	}
 
-	public EveCentral central() {
-		return central(EveCentral.JITA_SYSTEM);
+	public EveCentral central(String limit) {
+		Location location = getLocations().get(limit);
+		if (location == null || location.getLocationType() < 1 || location.getLocationType() > 3) {
+			return central(0);
+		}
+		if (location.getLocationType() == 2) {
+			location = getLocations().get(location.parentRegion);
+		}
+		return central(location.locationID);
 	}
 
 }

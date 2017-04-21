@@ -42,7 +42,7 @@ public class Blueprint extends Type {
 		}
 	}
 
-	public class Activity {
+	public static class Activity {
 		public ArrayList<Material> materials = new ArrayList<>();
 		public ArrayList<Material> products = new ArrayList<>();
 		public ArrayList<Skill> skills = new ArrayList<>();

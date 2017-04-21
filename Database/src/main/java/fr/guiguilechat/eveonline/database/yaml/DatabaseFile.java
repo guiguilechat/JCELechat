@@ -18,6 +18,8 @@ public class DatabaseFile {
 
 	public LinkedHashMap<String, MetaInf> metaInfs = new LinkedHashMap<>();
 
+	public LinkedHashMap<String, Location> locations = new LinkedHashMap<>();
+
 	/**
 	 * assimilates another DB. replaces values already stored as X if X is present
 	 * in db
@@ -30,6 +32,7 @@ public class DatabaseFile {
 		asteroids.putAll(db.asteroids);
 		blueprints.putAll(db.blueprints);
 		metaInfs.putAll(db.metaInfs);
+		locations.putAll(db.locations);
 	}
 
 

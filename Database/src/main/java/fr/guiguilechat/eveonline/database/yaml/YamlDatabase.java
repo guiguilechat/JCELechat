@@ -58,11 +58,12 @@ public class YamlDatabase extends DataBase {
 	protected static BaseConstructor makeConstructor() {
 		Constructor ret = new Constructor(DatabaseFile.class);
 		TypeDescription td = new TypeDescription(DatabaseFile.class);
-		td.putMapPropertyType("hulls", Integer.class, Hull.class);
+		td.putMapPropertyType("hulls", String.class, Hull.class);
 		td.putMapPropertyType("asteroids", String.class, Asteroid.class);
-		td.putMapPropertyType("modules", Integer.class, Module.class);
+		td.putMapPropertyType("modules", String.class, Module.class);
 		td.putMapPropertyType("blueprints", String.class, Blueprint.class);
 		td.putMapPropertyType("metaInfs", String.class, MetaInf.class);
+		td.putMapPropertyType("locations", String.class, Location.class);
 		ret.addTypeDescription(td);
 		return ret;
 	}
@@ -123,6 +124,7 @@ public class YamlDatabase extends DataBase {
 			if (hullDB != null) {
 				hulls = hullDB.hulls;
 			} else {
+				System.err.println("can't load hulls");
 				hulls = new LinkedHashMap<>();
 			}
 		}
@@ -139,6 +141,7 @@ public class YamlDatabase extends DataBase {
 			if (moduleDB != null) {
 				modules = moduleDB.modules;
 			} else {
+				System.err.println("can't load modules");
 				modules = new LinkedHashMap<>();
 			}
 		}
@@ -155,6 +158,7 @@ public class YamlDatabase extends DataBase {
 			if (asteroidsDB != null) {
 				asteroids = asteroidsDB.asteroids;
 			} else {
+				System.err.println("can't load asteroids");
 				asteroids = new LinkedHashMap<>();
 			}
 		}
@@ -171,6 +175,7 @@ public class YamlDatabase extends DataBase {
 			if (db != null) {
 				blueprints = db.blueprints;
 			} else {
+				System.err.println("can't load blueprints");
 				blueprints = new LinkedHashMap<>();
 			}
 		}
@@ -180,17 +185,35 @@ public class YamlDatabase extends DataBase {
 	protected LinkedHashMap<String, MetaInf> eveIDs = null;
 
 	@Override
-	public LinkedHashMap<String, MetaInf> getEveIDs() {
+	public LinkedHashMap<String, MetaInf> getMetaInfs() {
 		if (eveIDs == null) {
-			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_BLUEPRINT_RES);
+			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_METAINF_RES);
 			DatabaseFile db = stream != null ? load(stream) : null;
 			if (db != null) {
 				eveIDs = db.metaInfs;
 			} else {
+				System.err.println("can't load meta infs");
 				eveIDs = new LinkedHashMap<>();
 			}
 		}
 		return eveIDs;
+	}
+
+	protected LinkedHashMap<String, Location> locations = null;
+
+	@Override
+	public LinkedHashMap<String, Location> getLocations() {
+		if (locations == null) {
+			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_LOCATION_RES);
+			DatabaseFile db = stream != null ? load(stream) : null;
+			if (db != null) {
+				locations = db.locations;
+			} else {
+				System.err.println("can't load locations");
+				locations = new LinkedHashMap<>();
+			}
+		}
+		return locations;
 	}
 
 }

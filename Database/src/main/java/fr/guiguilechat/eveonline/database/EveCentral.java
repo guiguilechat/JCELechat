@@ -28,15 +28,34 @@ public class EveCentral {
 	// set to -1 to ignore system
 	public final String baseurl;
 
+	public static String makeBaseURL(int[] restrictions) {
+		StringBuilder ret = new StringBuilder("https://api.eve-central.com/api/marketstat?");
+		if (restrictions != null) {
+			for (long r : restrictions) {
+				switch ((int) r / 10000000) {
+				case 1:// region request
+					ret.append("&regionlimit=").append(r);
+					break;
+				case 3:// system request
+					ret.append("&usesystem=").append(r);
+					break;
+				default:
+					System.err.println("can't handle limit of id " + r);
+				}
+			}
+		}
+		return ret.toString();
+	}
+
 	/**
 	 * create a new Evecentral, getting results for the given system. <1 means no
 	 * system (eve-wide)
 	 *
-	 * @param system
+	 * @param restriction
+	 *          system or region limits.
 	 */
-	public EveCentral(long system) {
-		baseurl = system > 0 ? "https://api.eve-central.com/api/marketstat?usesystem=" + system
-				: "https://api.eve-central.com/api/marketstat?";
+	public EveCentral(int... restriction) {
+		baseurl = makeBaseURL(restriction);
 	}
 
 	/**
@@ -131,11 +150,11 @@ public class EveCentral {
 			Document page = Jsoup.connect(sb.toString()).get();
 			for (int id : itemIDs) {
 				BOSO boso = new BOSO();
-				Elements bos = page.select("[id="+id+"] buy max");
+				Elements bos = page.select("[id=" + id + "] buy max");
 				if (!bos.isEmpty()) {
 					boso.bo = Double.parseDouble(bos.get(0).ownText());
 				}
-				Elements sos = page.select("[id="+id+"] sell min");
+				Elements sos = page.select("[id=" + id + "] sell min");
 				if (!sos.isEmpty()) {
 					boso.so = Double.parseDouble(sos.get(0).ownText());
 				}
