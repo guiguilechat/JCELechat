@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
-import fr.guiguilechat.eveonline.database.ESIMarketPrices;
+import fr.guiguilechat.eveonline.database.ESIMarket;
 import fr.guiguilechat.eveonline.database.EveCentral;
 import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDEData;
 import fr.guiguilechat.eveonline.sde.fsd.Eblueprints;
@@ -17,7 +17,7 @@ public class ShowInventionLowestCost {
 	public static void main(String[] args) {
 		SDEData sde = new SDEData();
 		EveCentral central = new EveCentral();
-		ESIMarketPrices emp = new ESIMarketPrices();
+		ESIMarket emp = new ESIMarket();
 
 		ArrayList<InventionDecryptor> decryptors = sde.getInventionDecryptors();
 		central.cache(decryptors.stream().mapToInt(id -> id.id).toArray());

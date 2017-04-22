@@ -39,9 +39,9 @@ public abstract class DataBase {
 		return ret;
 	}
 
-	protected ESIMarketPrices esi = new ESIMarketPrices();
+	protected ESIMarket esi = new ESIMarket();
 
-	public ESIMarketPrices getESI() {
+	public ESIMarket ESIMarket() {
 		return esi;
 	}
 
@@ -74,6 +74,25 @@ public abstract class DataBase {
 			location = getLocations().get(location.parentRegion);
 		}
 		return central(location.locationID);
+	}
+
+	protected HashMap<Integer, ESIRegion> esiregions = new HashMap<>();
+
+	public ESIRegion ESIRegion(int regionID) {
+		ESIRegion ret = esiregions.get(regionID);
+		if (ret == null) {
+			ret = new ESIRegion(regionID);
+			esiregions.put(regionID, ret);
+		}
+		return ret;
+	}
+
+	public ESIRegion ESIRegion(String region) {
+		Location location = getLocations().get(region);
+		if (location == null || location.getLocationType() != 1) {
+			return null;
+		}
+		return ESIRegion(location.locationID);
 	}
 
 }

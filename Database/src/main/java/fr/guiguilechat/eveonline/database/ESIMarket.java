@@ -12,7 +12,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * get data from the ESI market interface
  *
  */
-public class ESIMarketPrices {
+public class ESIMarket {
 
 	protected HashMap<Integer, Double> cachedAverage = null;
 	protected HashMap<Integer, Double> cachedAdjusted = null;
@@ -29,9 +29,9 @@ public class ESIMarketPrices {
 			List<Map<String, ?>> l = mapper.readValue(new URL("https://esi.tech.ccp.is/latest/markets/prices/"), List.class);
 			for (Map<String, ?> m : l) {
 				Object oid = m.get("type_id");
-					int id = (Integer) oid;
-					cachedAverage.put(id, (Double) m.get("average_price"));
-					cachedAdjusted.put(id, (Double) m.get("adjusted_price"));
+				int id = (Integer) oid;
+				cachedAverage.put(id, (Double) m.get("average_price"));
+				cachedAdjusted.put(id, (Double) m.get("adjusted_price"));
 			}
 		} catch (IOException e) {
 			e.printStackTrace(System.err);
@@ -47,12 +47,4 @@ public class ESIMarketPrices {
 		dl();
 		return cachedAverage.getOrDefault(itemId, Double.POSITIVE_INFINITY);
 	}
-
-	public static void main(String[] args) {
-		ESIMarketPrices esimp = new ESIMarketPrices();
-		System.err.println("tritanium : average=" + esimp.getAdjusted(34) + " adjusted=" + esimp.getAverage(34));
-		System.err
-		.println("large cap battery : average=" + esimp.getAdjusted(2020) + " adjusted=" + esimp.getAverage(2020));
-	}
-
 }

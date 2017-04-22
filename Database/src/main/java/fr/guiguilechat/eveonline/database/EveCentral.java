@@ -135,7 +135,7 @@ public class EveCentral {
 		// base url = 60-65 cars
 		// each item = +12 cars
 		// so max ~ 160 items
-		int maxNbItems = 160;
+		int maxNbItems = 140;
 		if (itemIDs.length > maxNbItems) {
 			for (int i = 0; i < itemIDs.length; i += maxNbItems) {
 				cache(Arrays.copyOfRange(itemIDs, i, Math.min(i + maxNbItems, itemIDs.length)));
