@@ -6,8 +6,8 @@ import java.util.Collections;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.database.DataBase;
-import fr.guiguilechat.eveonline.database.ESIRegion;
 import fr.guiguilechat.eveonline.database.EveCentral;
+import fr.guiguilechat.eveonline.database.esi.ESIRegion;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint.Material;
 import fr.guiguilechat.eveonline.database.yaml.MetaInf;
@@ -50,12 +50,16 @@ public class EvaluateRigs {
 
 		String region = "PureBlind";// to black
 		double buyback_efficiency = 0.9;// price buyback gives for jita prices
-		int me = 10;
-		double systemCostIndex = 4.0;// percentage as system cost
-		double manufactureTax = 0;// percentage of system cost added as manufacture
-		// index
-		double sellTax = 2;// tax %
-		double brokerTax = 3;// broker %
+		int meSkill = 10;// BP ME value.
+		double meComplex = 1;// percent of me engineering bonus
+		double meRig = 4.2;// percent of ME added through rigs
+		double multME = 1.0 * (100 - meSkill) / 100 * (100 - meComplex) / 100 * (100 - meRig) / 100;
+
+		double systemCostIndex = 4.0;// craft system index
+		double manufactureTax = 0;// craft compmlex tax
+		double sellStationTax = 2.5;// tax in sell station%
+		double brokerTax = 2;// broker %
+		double taxMult = 0.01 * (100 + sellStationTax + brokerTax);
 
 		DataBase db = new YamlDatabase();
 
@@ -79,7 +83,7 @@ public class EvaluateRigs {
 				for (int i = 0; i < bp.manufacturing.materials.size(); i++) {
 					Material mat = bp.manufacturing.materials.get(i);
 					matIDs[i] = db.getMetaInfs().get(mat.name).id;
-					matQtty[i] = mat.quantity >= 2 ? 0.01 * (100.0 - me) * mat.quantity : mat.quantity;
+					matQtty[i] = mat.quantity >= 2 ? multME * mat.quantity : mat.quantity;
 				}
 				forgeCentral.cache(matIDs);
 				double materialsBuyback = 0;
@@ -92,7 +96,7 @@ public class EvaluateRigs {
 				double totalPrice = localESI.getTotalPrice(m.id);
 				double avgHistoryPrice = totalOrders == 0 ? 0.0 : totalPrice / totalOrders;
 				double centralPrice = Math.max(localCentral.getSO(m.id), localCentral.getBO(m.id));
-				double sellValue = Math.min(avgHistoryPrice, centralPrice) * 0.01 * (100 - sellTax - brokerTax);
+				double sellValue = Math.min(avgHistoryPrice, centralPrice) * taxMult;
 
 				if (sellValue > materialsBuyback) {
 					double expectedProfit = totalOrders * (sellValue - materialsBuyback - prodCost);

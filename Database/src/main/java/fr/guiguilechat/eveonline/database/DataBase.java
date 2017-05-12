@@ -1,11 +1,16 @@
 package fr.guiguilechat.eveonline.database;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.Map.Entry;
 
+import fr.guiguilechat.eveonline.database.esi.ESIMarket;
+import fr.guiguilechat.eveonline.database.esi.ESIRegion;
 import fr.guiguilechat.eveonline.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Hull;
+import fr.guiguilechat.eveonline.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.database.yaml.Location;
 import fr.guiguilechat.eveonline.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.database.yaml.Module;
@@ -22,6 +27,20 @@ public abstract class DataBase {
 	public abstract LinkedHashMap<String, Blueprint> getBlueprints();
 
 	public abstract LinkedHashMap<String, MetaInf> getMetaInfs();
+
+	public abstract ArrayList<LPOffer> getLPOffers();
+
+	protected HashMap<Integer, String> elementById = null;
+
+	public String getElementById(int id) {
+		if (elementById == null) {
+			elementById = new HashMap<>();
+			for (Entry<String, MetaInf> e : getMetaInfs().entrySet()) {
+				elementById.put(e.getValue().id, e.getKey());
+			}
+		}
+		return elementById.get(id);
+	}
 
 	public abstract LinkedHashMap<String, Location> getLocations();
 

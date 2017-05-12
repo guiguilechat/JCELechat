@@ -287,10 +287,6 @@ metaInfs:
     - Hazardous Chemical Silo Blueprint
     - Hybrid Polymer Silo Blueprint
     - Silo Blueprint
-    - Ammunition Assembly Array Blueprint
-    - Component Assembly Array Blueprint
-    - Drone Assembly Array Blueprint
-    - Rapid Equipment Assembly Array Blueprint
     - Corporate Hangar Array Blueprint
     - Biochemical Reactor Array Blueprint
     - Complex Reactor Array Blueprint
@@ -1081,7 +1077,6 @@ metaInfs:
     - Orthrus Blueprint
     - Barghest Blueprint
     - Omnidirectional Tracking Enhancer I Blueprint
-    - Thukker Component Assembly Array Blueprint
     - Medium Micro Jump Drive Blueprint
     - Limited Hyperspatial Accelerator Blueprint
     - Experimental Hyperspatial Accelerator Blueprint
@@ -4414,10 +4409,6 @@ metaInfs:
     - Hazardous Chemical Silo Blueprint
     - Hybrid Polymer Silo Blueprint
     - Silo Blueprint
-    - Ammunition Assembly Array Blueprint
-    - Component Assembly Array Blueprint
-    - Drone Assembly Array Blueprint
-    - Rapid Equipment Assembly Array Blueprint
     - Corporate Hangar Array Blueprint
     - Biochemical Reactor Array Blueprint
     - Complex Reactor Array Blueprint
@@ -4934,7 +4925,6 @@ metaInfs:
     - Orthrus Blueprint
     - Barghest Blueprint
     - Omnidirectional Tracking Enhancer I Blueprint
-    - Thukker Component Assembly Array Blueprint
     - Medium Micro Jump Drive Blueprint
     - Victorieux Luxury Yacht Blueprint
     - Entosis Link I Blueprint
@@ -5205,9 +5195,6 @@ metaInfs:
     - Berserker I Blueprint
     - Nova Torpedo Blueprint
     - Inferno Torpedo Blueprint
-    - Ammunition Assembly Array Blueprint
-    - Component Assembly Array Blueprint
-    - Drone Assembly Array Blueprint
     - Shadow Blueprint
     - Noctis Blueprint
     - Warp Disruptor I Blueprint
@@ -5626,7 +5613,6 @@ metaInfs:
     - Garmur Blueprint
     - Orthrus Blueprint
     - Barghest Blueprint
-    - Thukker Component Assembly Array Blueprint
     - Medium Micro Jump Drive Blueprint
     - Limited Hyperspatial Accelerator Blueprint
     - Experimental Hyperspatial Accelerator Blueprint
@@ -5875,10 +5861,6 @@ metaInfs:
     - Hazardous Chemical Silo Blueprint
     - Hybrid Polymer Silo Blueprint
     - Silo Blueprint
-    - Ammunition Assembly Array Blueprint
-    - Component Assembly Array Blueprint
-    - Drone Assembly Array Blueprint
-    - Rapid Equipment Assembly Array Blueprint
     - Corporate Hangar Array Blueprint
     - Biochemical Reactor Array Blueprint
     - Complex Reactor Array Blueprint
@@ -6404,7 +6386,6 @@ metaInfs:
     - Garmur Blueprint
     - Orthrus Blueprint
     - Barghest Blueprint
-    - Thukker Component Assembly Array Blueprint
     - Medium Micro Jump Drive Blueprint
     - Limited Hyperspatial Accelerator Blueprint
     - Experimental Hyperspatial Accelerator Blueprint
@@ -7709,7 +7690,7 @@ metaInfs:
     - Megathron Quafe Edition Blueprint
     - Megathron Police Edition Blueprint
     - Megathron Inner Zone Shipping Edition Blueprint
-    - 万王宝座级YC117年特别版��图
+    - 万王宝座级YC117年特别版蓝图
     productOf:
     - Megathron Blueprint
   Apocalypse:
@@ -7719,7 +7700,7 @@ metaInfs:
     - Apocalypse Blood Raider Edition Blueprint
     - Apocalypse Kador Edition Blueprint
     - Apocalypse Tash-Murkon Edition Blueprint
-    - 灾难级YC117年特别版蓝图
+    - 灾难级YC117年特��版蓝图
     productOf:
     - Apocalypse Blueprint
   Armageddon:
@@ -7740,7 +7721,7 @@ metaInfs:
     productIn:
     - Sin Blueprint
     - Dominix Quafe Edition Blueprint
-    - 多米尼克斯级YC117年特别版蓝��
+    - 多米尼克斯级YC117年特别版蓝图
     productOf:
     - Dominix Blueprint
   Badger:
@@ -10487,30 +10468,13 @@ metaInfs:
     - Territorial Claim Unit Blueprint
     - Warp Scrambling Battery Blueprint
     - Stasis Webification Battery Blueprint
-    - Advanced Large Ship Assembly Array Blueprint
     - X-Large Ship Maintenance Array Blueprint
-    - Advanced Medium Ship Assembly Array Blueprint
     - Ship Maintenance Array Blueprint
-    - Advanced Small Ship Assembly Array Blueprint
-    - Ammunition Assembly Array Blueprint
     - Ballistic Deflection Array Blueprint
-    - Supercapital Ship Assembly Array Blueprint
     - Explosion Dampening Array Blueprint
-    - Component Assembly Array Blueprint
     - Heat Dissipation Array Blueprint
-    - Drone Assembly Array Blueprint
     - Photon Scattering Array Blueprint
     - Sensor Dampening Battery Blueprint
-    - Equipment Assembly Array Blueprint
-    - Intensive Reprocessing Array Blueprint
-    - Large Ship Assembly Array Blueprint
-    - Compression Array Blueprint
-    - Medium Ship Assembly Array Blueprint
-    - Reprocessing Array Blueprint
-    - Rapid Equipment Assembly Array Blueprint
-    - Small Ship Assembly Array Blueprint
-    - Subsystem Assembly Array Blueprint
-    - Capital Ship Assembly Array Blueprint
     - Amarr Control Tower Blueprint
     - Amarr Control Tower Medium Blueprint
     - Amarr Control Tower Small Blueprint
@@ -10545,8 +10509,6 @@ metaInfs:
     - Medium Railgun Battery Blueprint
     - Medium Artillery Battery Blueprint
     - Medium AutoCannon Battery Blueprint
-    - Experimental Laboratory Blueprint
-    - Research Laboratory Blueprint
     - XL Torpedo Battery Blueprint
     - Torpedo Battery Blueprint
     - Medium Pulse Laser Battery Blueprint
@@ -10566,11 +10528,9 @@ metaInfs:
     - Structure Medical Center Blueprint
     - Structure Office Center Blueprint
     - Structure Mission Network Blueprint
-    - Design Laboratory Blueprint
     - Mobile Cynosural Inhibitor Blueprint
     - Mobile Decoy Unit Blueprint
     - Mobile Scan Inhibitor Blueprint
-    - Thukker Component Assembly Array Blueprint
     - Mobile Competitive Vault Blueprint
     - Entrapment Array 2 Blueprint
     - Entrapment Array 3 Blueprint
@@ -10619,21 +10579,11 @@ metaInfs:
     productIn:
     - Infrastructure Hub Blueprint
     - Territorial Claim Unit Blueprint
-    - Advanced Large Ship Assembly Array Blueprint
     - X-Large Ship Maintenance Array Blueprint
-    - Advanced Medium Ship Assembly Array Blueprint
-    - Advanced Small Ship Assembly Array Blueprint
     - Ballistic Deflection Array Blueprint
-    - Supercapital Ship Assembly Array Blueprint
     - Explosion Dampening Array Blueprint
     - Heat Dissipation Array Blueprint
     - Photon Scattering Array Blueprint
-    - Drug Lab Blueprint
-    - Large Ship Assembly Array Blueprint
-    - Medium Ship Assembly Array Blueprint
-    - Small Ship Assembly Array Blueprint
-    - Subsystem Assembly Array Blueprint
-    - Capital Ship Assembly Array Blueprint
     - Amarr Control Tower Blueprint
     - Amarr Control Tower Medium Blueprint
     - Amarr Control Tower Small Blueprint
@@ -10653,8 +10603,6 @@ metaInfs:
     - Polymer Reactor Array Blueprint
     - Simple Reactor Array Blueprint
     - Jump Bridge Blueprint
-    - Experimental Laboratory Blueprint
-    - Research Laboratory Blueprint
     - CONCORD Capital Armor Repairer Blueprint
     - CONCORD Capital Remote Armor Repairer Blueprint
     - CONCORD Ion Siege Blaster Blueprint
@@ -10670,7 +10618,6 @@ metaInfs:
     - Structure Docking Bay Blueprint
     - Structure Medical Center Blueprint
     - Structure Office Center Blueprint
-    - Design Laboratory Blueprint
     - Entrapment Array 2 Blueprint
     - Entrapment Array 3 Blueprint
     - Entrapment Array 4 Blueprint
@@ -10717,26 +10664,8 @@ metaInfs:
     productIn:
     - Infrastructure Hub Blueprint
     - Territorial Claim Unit Blueprint
-    - Advanced Large Ship Assembly Array Blueprint
     - X-Large Ship Maintenance Array Blueprint
-    - Advanced Medium Ship Assembly Array Blueprint
-    - Advanced Small Ship Assembly Array Blueprint
-    - Ammunition Assembly Array Blueprint
     - Ballistic Deflection Array Blueprint
-    - Supercapital Ship Assembly Array Blueprint
-    - Component Assembly Array Blueprint
-    - Drone Assembly Array Blueprint
-    - Drug Lab Blueprint
-    - Equipment Assembly Array Blueprint
-    - Intensive Reprocessing Array Blueprint
-    - Large Ship Assembly Array Blueprint
-    - Compression Array Blueprint
-    - Medium Ship Assembly Array Blueprint
-    - Reprocessing Array Blueprint
-    - Rapid Equipment Assembly Array Blueprint
-    - Small Ship Assembly Array Blueprint
-    - Subsystem Assembly Array Blueprint
-    - Capital Ship Assembly Array Blueprint
     - Amarr Control Tower Blueprint
     - Amarr Control Tower Medium Blueprint
     - Amarr Control Tower Small Blueprint
@@ -10756,8 +10685,6 @@ metaInfs:
     - Polymer Reactor Array Blueprint
     - Simple Reactor Array Blueprint
     - Jump Bridge Blueprint
-    - Experimental Laboratory Blueprint
-    - Research Laboratory Blueprint
     - CONCORD Capital Armor Repairer Blueprint
     - CONCORD Capital Remote Armor Repairer Blueprint
     - CONCORD Dual Giga Pulse Laser Blueprint
@@ -10775,8 +10702,6 @@ metaInfs:
     - Structure Reprocessing Plant Blueprint
     - Structure Market Network Blueprint
     - Structure Mission Network Blueprint
-    - Design Laboratory Blueprint
-    - Thukker Component Assembly Array Blueprint
     - Entrapment Array 2 Blueprint
     - Entrapment Array 3 Blueprint
     - Entrapment Array 4 Blueprint
@@ -10827,27 +10752,11 @@ metaInfs:
     - General Storage Blueprint
     - Hazardous Chemical Silo Blueprint
     - Hybrid Polymer Silo Blueprint
-    - Advanced Large Ship Assembly Array Blueprint
     - X-Large Ship Maintenance Array Blueprint
-    - Advanced Medium Ship Assembly Array Blueprint
     - Ship Maintenance Array Blueprint
-    - Advanced Small Ship Assembly Array Blueprint
-    - Supercapital Ship Assembly Array Blueprint
     - Explosion Dampening Array Blueprint
-    - Component Assembly Array Blueprint
     - Heat Dissipation Array Blueprint
     - Photon Scattering Array Blueprint
-    - Drug Lab Blueprint
-    - Equipment Assembly Array Blueprint
-    - Intensive Reprocessing Array Blueprint
-    - Large Ship Assembly Array Blueprint
-    - Compression Array Blueprint
-    - Medium Ship Assembly Array Blueprint
-    - Reprocessing Array Blueprint
-    - Rapid Equipment Assembly Array Blueprint
-    - Small Ship Assembly Array Blueprint
-    - Subsystem Assembly Array Blueprint
-    - Capital Ship Assembly Array Blueprint
     - Amarr Control Tower Blueprint
     - Amarr Control Tower Medium Blueprint
     - Amarr Control Tower Small Blueprint
@@ -10871,8 +10780,6 @@ metaInfs:
     - Large Railgun Battery Blueprint
     - Large Artillery Battery Blueprint
     - Large AutoCannon Battery Blueprint
-    - Experimental Laboratory Blueprint
-    - Research Laboratory Blueprint
     - XL Torpedo Battery Blueprint
     - Large Pulse Laser Battery Blueprint
     - Large Beam Laser Battery Blueprint
@@ -10886,14 +10793,12 @@ metaInfs:
     - Structure Market Network Blueprint
     - Structure Office Center Blueprint
     - Structure Mission Network Blueprint
-    - Design Laboratory Blueprint
     - Personal Hangar Array Blueprint
     - Mobile Cynosural Inhibitor Blueprint
     - Mobile Tractor Unit Blueprint
     - Mobile Decoy Unit Blueprint
     - '''Packrat'' Mobile Tractor Unit Blueprint'
     - '''Magpie'' Mobile Tractor Unit Blueprint'
-    - Thukker Component Assembly Array Blueprint
     - Mobile Competitive Vault Blueprint
     - Entrapment Array 2 Blueprint
     - Entrapment Array 3 Blueprint
@@ -10944,22 +10849,7 @@ metaInfs:
     - Hazardous Chemical Silo Blueprint
     - Hybrid Polymer Silo Blueprint
     - Silo Blueprint
-    - Advanced Large Ship Assembly Array Blueprint
     - X-Large Ship Maintenance Array Blueprint
-    - Advanced Medium Ship Assembly Array Blueprint
-    - Advanced Small Ship Assembly Array Blueprint
-    - Supercapital Ship Assembly Array Blueprint
-    - Drug Lab Blueprint
-    - Equipment Assembly Array Blueprint
-    - Intensive Reprocessing Array Blueprint
-    - Large Ship Assembly Array Blueprint
-    - Compression Array Blueprint
-    - Medium Ship Assembly Array Blueprint
-    - Reprocessing Array Blueprint
-    - Rapid Equipment Assembly Array Blueprint
-    - Small Ship Assembly Array Blueprint
-    - Subsystem Assembly Array Blueprint
-    - Capital Ship Assembly Array Blueprint
     - Amarr Control Tower Blueprint
     - Amarr Control Tower Medium Blueprint
     - Amarr Control Tower Small Blueprint
@@ -10978,8 +10868,6 @@ metaInfs:
     - Biochemical Reactor Array Blueprint
     - Complex Reactor Array Blueprint
     - Jump Bridge Blueprint
-    - Experimental Laboratory Blueprint
-    - Research Laboratory Blueprint
     - CONCORD XL Cruise Missile Launcher Blueprint
     - CONCORD XL Torpedo Launcher Blueprint
     - CONCORD Quad 3500mm Siege Artillery Blueprint
@@ -10994,7 +10882,6 @@ metaInfs:
     - Structure Medical Center Blueprint
     - Structure Office Center Blueprint
     - Structure Mission Network Blueprint
-    - Design Laboratory Blueprint
     - Deactivated Station Key Pass Blueprint
     - Entrapment Array 2 Blueprint
     - Entrapment Array 3 Blueprint
@@ -11041,23 +10928,8 @@ metaInfs:
     productIn:
     - Infrastructure Hub Blueprint
     - Territorial Claim Unit Blueprint
-    - Advanced Large Ship Assembly Array Blueprint
     - X-Large Ship Maintenance Array Blueprint
-    - Advanced Medium Ship Assembly Array Blueprint
     - Ship Maintenance Array Blueprint
-    - Advanced Small Ship Assembly Array Blueprint
-    - Supercapital Ship Assembly Array Blueprint
-    - Drug Lab Blueprint
-    - Equipment Assembly Array Blueprint
-    - Intensive Reprocessing Array Blueprint
-    - Large Ship Assembly Array Blueprint
-    - Compression Array Blueprint
-    - Medium Ship Assembly Array Blueprint
-    - Reprocessing Array Blueprint
-    - Rapid Equipment Assembly Array Blueprint
-    - Small Ship Assembly Array Blueprint
-    - Subsystem Assembly Array Blueprint
-    - Capital Ship Assembly Array Blueprint
     - Amarr Control Tower Blueprint
     - Amarr Control Tower Medium Blueprint
     - Amarr Control Tower Small Blueprint
@@ -11087,8 +10959,6 @@ metaInfs:
     - Small Railgun Battery Blueprint
     - Small Artillery Battery Blueprint
     - Small AutoCannon Battery Blueprint
-    - Experimental Laboratory Blueprint
-    - Research Laboratory Blueprint
     - XL Torpedo Battery Blueprint
     - Cruise Missile Battery Blueprint
     - Torpedo Battery Blueprint
@@ -11112,7 +10982,6 @@ metaInfs:
     - Structure Medical Center Blueprint
     - Structure Office Center Blueprint
     - Structure Mission Network Blueprint
-    - Design Laboratory Blueprint
     - Personal Hangar Array Blueprint
     - Mobile Cynosural Inhibitor Blueprint
     - Mobile Decoy Unit Blueprint
@@ -11172,23 +11041,8 @@ metaInfs:
     - Territorial Claim Unit Blueprint
     - Coupling Array Blueprint
     - Silo Blueprint
-    - Advanced Large Ship Assembly Array Blueprint
     - X-Large Ship Maintenance Array Blueprint
-    - Advanced Medium Ship Assembly Array Blueprint
     - Ship Maintenance Array Blueprint
-    - Advanced Small Ship Assembly Array Blueprint
-    - Supercapital Ship Assembly Array Blueprint
-    - Drug Lab Blueprint
-    - Equipment Assembly Array Blueprint
-    - Intensive Reprocessing Array Blueprint
-    - Large Ship Assembly Array Blueprint
-    - Compression Array Blueprint
-    - Medium Ship Assembly Array Blueprint
-    - Reprocessing Array Blueprint
-    - Rapid Equipment Assembly Array Blueprint
-    - Small Ship Assembly Array Blueprint
-    - Subsystem Assembly Array Blueprint
-    - Capital Ship Assembly Array Blueprint
     - Amarr Control Tower Blueprint
     - Amarr Control Tower Medium Blueprint
     - Amarr Control Tower Small Blueprint
@@ -11204,8 +11058,6 @@ metaInfs:
     - Corporate Hangar Array Blueprint
     - Cynosural Generator Array Blueprint
     - Jump Bridge Blueprint
-    - Experimental Laboratory Blueprint
-    - Research Laboratory Blueprint
     - CONCORD Capital Shield Booster Blueprint
     - CONCORD Capital Remote Shield Booster Blueprint
     - CONCORD Ion Siege Blaster Blueprint
@@ -11223,7 +11075,6 @@ metaInfs:
     - Structure Medical Center Blueprint
     - Structure Office Center Blueprint
     - Structure Mission Network Blueprint
-    - Design Laboratory Blueprint
     - Personal Hangar Array Blueprint
     - Mobile Cynosural Inhibitor Blueprint
     - Mobile Competitive Vault Blueprint
@@ -11275,24 +11126,9 @@ metaInfs:
     - Territorial Claim Unit Blueprint
     - Warp Scrambling Battery Blueprint
     - Stasis Webification Battery Blueprint
-    - Advanced Large Ship Assembly Array Blueprint
     - X-Large Ship Maintenance Array Blueprint
-    - Advanced Medium Ship Assembly Array Blueprint
     - Ship Maintenance Array Blueprint
-    - Advanced Small Ship Assembly Array Blueprint
-    - Ammunition Assembly Array Blueprint
-    - Supercapital Ship Assembly Array Blueprint
-    - Component Assembly Array Blueprint
-    - Drone Assembly Array Blueprint
-    - Drug Lab Blueprint
     - Sensor Dampening Battery Blueprint
-    - Equipment Assembly Array Blueprint
-    - Large Ship Assembly Array Blueprint
-    - Medium Ship Assembly Array Blueprint
-    - Rapid Equipment Assembly Array Blueprint
-    - Small Ship Assembly Array Blueprint
-    - Subsystem Assembly Array Blueprint
-    - Capital Ship Assembly Array Blueprint
     - Amarr Control Tower Blueprint
     - Amarr Control Tower Medium Blueprint
     - Amarr Control Tower Small Blueprint
@@ -11314,8 +11150,6 @@ metaInfs:
     - Spatial Destabilization Battery Blueprint
     - White Noise Generation Battery Blueprint
     - Jump Bridge Blueprint
-    - Experimental Laboratory Blueprint
-    - Research Laboratory Blueprint
     - CONCORD Capital Shield Booster Blueprint
     - CONCORD Capital Remote Shield Booster Blueprint
     - CONCORD XL Cruise Missile Launcher Blueprint
@@ -11330,14 +11164,12 @@ metaInfs:
     - Structure Market Network Blueprint
     - Structure Medical Center Blueprint
     - Structure Mission Network Blueprint
-    - Design Laboratory Blueprint
     - Mobile Cynosural Inhibitor Blueprint
     - Mobile Tractor Unit Blueprint
     - Mobile Decoy Unit Blueprint
     - Mobile Scan Inhibitor Blueprint
     - '''Packrat'' Mobile Tractor Unit Blueprint'
     - '''Magpie'' Mobile Tractor Unit Blueprint'
-    - Thukker Component Assembly Array Blueprint
     - Mobile Competitive Vault Blueprint
     - Entrapment Array 2 Blueprint
     - Entrapment Array 3 Blueprint
@@ -25830,10 +25662,14 @@ metaInfs:
     - Ship Maintenance Array Blueprint
   Reprocessing Array:
     id: 12238
+    productIn:
+    - Reprocessing Array Blueprint
     productOf:
     - Reprocessing Array Blueprint
   Compression Array:
     id: 12239
+    productIn:
+    - Compression Array Blueprint
     productOf:
     - Compression Array Blueprint
   Sovereignty:
@@ -26604,6 +26440,8 @@ metaInfs:
     id: 13779
   Equipment Assembly Array:
     id: 13780
+    productIn:
+    - Equipment Assembly Array Blueprint
     productOf:
     - Equipment Assembly Array Blueprint
   Domination 280mm Howitzer Artillery:
@@ -29332,10 +29170,14 @@ metaInfs:
     - Minmatar Control Tower Blueprint
   Research Laboratory:
     id: 16216
+    productIn:
+    - Research Laboratory Blueprint
     productOf:
     - Research Laboratory Blueprint
   Rapid Equipment Assembly Array:
     id: 16220
+    productIn:
+    - Rapid Equipment Assembly Array Blueprint
     productOf:
     - Rapid Equipment Assembly Array Blueprint
   Moon Harvesting Array:
@@ -32878,6 +32720,8 @@ metaInfs:
     id: 19463
   Intensive Reprocessing Array:
     id: 19470
+    productIn:
+    - Intensive Reprocessing Array Blueprint
     productOf:
     - Intensive Reprocessing Array Blueprint
   Arms Cache:
@@ -36039,6 +35883,9 @@ metaInfs:
     - Vehement Blueprint
     - Vendetta Blueprint
     - Vanquisher Blueprint
+    - Dagon Blueprint
+    - Chemosh Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Propulsion Engine Blueprint
   Capital Propulsion Engine Blueprint:
@@ -36054,6 +35901,8 @@ metaInfs:
     - Ragnarok Blueprint
     - Vehement Blueprint
     - Vanquisher Blueprint
+    - Chemosh Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Turret Hardpoint Blueprint
   Capital Turret Hardpoint Blueprint:
@@ -36087,6 +35936,9 @@ metaInfs:
     - Vehement Blueprint
     - Vendetta Blueprint
     - Vanquisher Blueprint
+    - Dagon Blueprint
+    - Chemosh Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Sensor Cluster Blueprint
   Capital Sensor Cluster Blueprint:
@@ -36124,6 +35976,9 @@ metaInfs:
     - Vehement Blueprint
     - Vendetta Blueprint
     - Vanquisher Blueprint
+    - Dagon Blueprint
+    - Chemosh Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Armor Plates Blueprint
   Capital Armor Plates Blueprint:
@@ -36157,6 +36012,9 @@ metaInfs:
     - Vehement Blueprint
     - Vendetta Blueprint
     - Vanquisher Blueprint
+    - Dagon Blueprint
+    - Chemosh Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Capacitor Battery Blueprint
   Capital Capacitor Battery Blueprint:
@@ -36189,6 +36047,9 @@ metaInfs:
     - Vehement Blueprint
     - Vendetta Blueprint
     - Vanquisher Blueprint
+    - Dagon Blueprint
+    - Chemosh Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Power Generator Blueprint
   Capital Power Generator Blueprint:
@@ -36222,6 +36083,9 @@ metaInfs:
     - Vehement Blueprint
     - Vendetta Blueprint
     - Vanquisher Blueprint
+    - Dagon Blueprint
+    - Chemosh Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Shield Emitter Blueprint
   Capital Shield Emitter Blueprint:
@@ -36262,6 +36126,9 @@ metaInfs:
     - Vehement Blueprint
     - Vendetta Blueprint
     - Vanquisher Blueprint
+    - Dagon Blueprint
+    - Chemosh Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Jump Drive Blueprint
   Capital Jump Drive Blueprint:
@@ -36298,6 +36165,7 @@ metaInfs:
     - Ninazu Blueprint
     - Lif Blueprint
     - Vendetta Blueprint
+    - Dagon Blueprint
     productOf:
     - Capital Drone Bay Blueprint
   Capital Drone Bay Blueprint:
@@ -36331,6 +36199,9 @@ metaInfs:
     - Vehement Blueprint
     - Vendetta Blueprint
     - Vanquisher Blueprint
+    - Dagon Blueprint
+    - Chemosh Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Computer System Blueprint
   Capital Computer System Blueprint:
@@ -36341,22 +36212,8 @@ metaInfs:
     - Erebus Blueprint
     - Infrastructure Hub Blueprint
     - Territorial Claim Unit Blueprint
-    - Advanced Large Ship Assembly Array Blueprint
     - X-Large Ship Maintenance Array Blueprint
-    - Advanced Medium Ship Assembly Array Blueprint
     - Ship Maintenance Array Blueprint
-    - Advanced Small Ship Assembly Array Blueprint
-    - Supercapital Ship Assembly Array Blueprint
-    - Drug Lab Blueprint
-    - Equipment Assembly Array Blueprint
-    - Intensive Reprocessing Array Blueprint
-    - Large Ship Assembly Array Blueprint
-    - Compression Array Blueprint
-    - Medium Ship Assembly Array Blueprint
-    - Reprocessing Array Blueprint
-    - Small Ship Assembly Array Blueprint
-    - Subsystem Assembly Array Blueprint
-    - Capital Ship Assembly Array Blueprint
     - Amarr Control Tower Blueprint
     - Amarr Control Tower Medium Blueprint
     - Amarr Control Tower Small Blueprint
@@ -36373,8 +36230,6 @@ metaInfs:
     - Cynosural Generator Array Blueprint
     - Cynosural System Jammer Blueprint
     - Jump Bridge Blueprint
-    - Experimental Laboratory Blueprint
-    - Research Laboratory Blueprint
     - Revenant Blueprint
     - Leviathan Blueprint
     - Customs Office Gantry Blueprint
@@ -36397,7 +36252,6 @@ metaInfs:
     - Aeon Blueprint
     - Nidhoggur Blueprint
     - Rorqual Blueprint
-    - Design Laboratory Blueprint
     - Orca Blueprint
     - Bowhead Blueprint
     - Entrapment Array 2 Blueprint
@@ -36436,6 +36290,9 @@ metaInfs:
     - Vehement Blueprint
     - Vendetta Blueprint
     - Vanquisher Blueprint
+    - Dagon Blueprint
+    - Chemosh Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Construction Parts Blueprint
   Capital Construction Parts Blueprint:
@@ -36452,6 +36309,8 @@ metaInfs:
     - Ninazu Blueprint
     - Lif Blueprint
     - Vehement Blueprint
+    - Dagon Blueprint
+    - Chemosh Blueprint
     productOf:
     - Capital Siege Array Blueprint
   Capital Siege Array Blueprint:
@@ -40650,6 +40509,7 @@ metaInfs:
     - Avatar Blueprint
     - Ragnarok Blueprint
     - Vanquisher Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Jump Bridge Array Blueprint
   Capital Jump Bridge Array Blueprint:
@@ -40663,6 +40523,7 @@ metaInfs:
     - Ragnarok Blueprint
     - Rorqual Blueprint
     - Vanquisher Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Clone Vat Bay Blueprint
   Capital Clone Vat Bay Blueprint:
@@ -40695,6 +40556,7 @@ metaInfs:
     - Avatar Blueprint
     - Ragnarok Blueprint
     - Vanquisher Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Doomsday Weapon Mount Blueprint
   Capital Doomsday Weapon Mount Blueprint:
@@ -40729,6 +40591,9 @@ metaInfs:
     - Vehement Blueprint
     - Vendetta Blueprint
     - Vanquisher Blueprint
+    - Dagon Blueprint
+    - Chemosh Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Ship Maintenance Bay Blueprint
   Capital Ship Maintenance Bay Blueprint:
@@ -40762,6 +40627,9 @@ metaInfs:
     - Vehement Blueprint
     - Vendetta Blueprint
     - Vanquisher Blueprint
+    - Dagon Blueprint
+    - Chemosh Blueprint
+    - Molok Blueprint
     productOf:
     - Capital Corporate Hangar Bay Blueprint
   Capital Corporate Hangar Bay Blueprint:
@@ -40774,6 +40642,8 @@ metaInfs:
     id: 24564
   Experimental Laboratory:
     id: 24567
+    productIn:
+    - Experimental Laboratory Blueprint
     productOf:
     - Experimental Laboratory Blueprint
   Capital Remote Armor Repair Systems:
@@ -40795,10 +40665,14 @@ metaInfs:
     id: 24572
   Small Ship Assembly Array:
     id: 24574
+    productIn:
+    - Small Ship Assembly Array Blueprint
     productOf:
     - Small Ship Assembly Array Blueprint
   Supercapital Ship Assembly Array:
     id: 24575
+    productIn:
+    - Supercapital Ship Assembly Array Blueprint
     productOf:
     - Supercapital Ship Assembly Array Blueprint
   Imperial Navy Gate Permit:
@@ -40881,34 +40755,50 @@ metaInfs:
     - X-Large Ship Maintenance Array Blueprint
   Advanced Small Ship Assembly Array:
     id: 24653
+    productIn:
+    - Advanced Small Ship Assembly Array Blueprint
     productOf:
     - Advanced Small Ship Assembly Array Blueprint
   Medium Ship Assembly Array:
     id: 24654
+    productIn:
+    - Medium Ship Assembly Array Blueprint
     productOf:
     - Medium Ship Assembly Array Blueprint
   Advanced Medium Ship Assembly Array:
     id: 24655
+    productIn:
+    - Advanced Medium Ship Assembly Array Blueprint
     productOf:
     - Advanced Medium Ship Assembly Array Blueprint
   Capital Ship Assembly Array:
     id: 24656
+    productIn:
+    - Capital Ship Assembly Array Blueprint
     productOf:
     - Capital Ship Assembly Array Blueprint
   Advanced Large Ship Assembly Array:
     id: 24657
+    productIn:
+    - Advanced Large Ship Assembly Array Blueprint
     productOf:
     - Advanced Large Ship Assembly Array Blueprint
   Ammunition Assembly Array:
     id: 24658
+    productIn:
+    - Ammunition Assembly Array Blueprint
     productOf:
     - Ammunition Assembly Array Blueprint
   Drone Assembly Array:
     id: 24659
+    productIn:
+    - Drone Assembly Array Blueprint
     productOf:
     - Drone Assembly Array Blueprint
   Component Assembly Array:
     id: 24660
+    productIn:
+    - Component Assembly Array Blueprint
     productOf:
     - Component Assembly Array Blueprint
   Zor's Custom Navigation Hyper-Link:
@@ -40942,7 +40832,7 @@ metaInfs:
     productIn:
     - Abaddon Tash-Murkon Edition Blueprint
     - Abaddon Kador Edition Blueprint
-    - 地���天使级YC117年特别版蓝图
+    - 地狱天使级YC117年特别版蓝图
     productOf:
     - Abaddon Blueprint
   Abaddon Blueprint:
@@ -41165,6 +41055,8 @@ metaInfs:
     id: 25304
   Drug Lab:
     id: 25305
+    productIn:
+    - Drug Lab Blueprint
     productOf:
     - Drug Lab Blueprint
   Improved Blue Pill Booster Blueprint:
@@ -48124,6 +48016,8 @@ metaInfs:
     id: 28338
   Design Laboratory:
     id: 28351
+    productIn:
+    - Design Laboratory Blueprint
     productOf:
     - Design Laboratory Blueprint
   Rorqual:
@@ -49541,6 +49435,8 @@ metaInfs:
     id: 29607
   Large Ship Assembly Array:
     id: 29613
+    productIn:
+    - Large Ship Assembly Array Blueprint
     productOf:
     - Large Ship Assembly Array Blueprint
   Brutor Workers:
@@ -49579,8 +49475,6 @@ metaInfs:
     id: 29663
   Unrefined Hyperflurite:
     id: 29664
-  30 Day Pilot's License Extension (PLEX):
-    id: 29668
   Sareko's Capsule:
     id: 29932
   Victor Emblem:
@@ -50802,6 +50696,8 @@ metaInfs:
     id: 30386
   Subsystem Assembly Array:
     id: 30389
+    productIn:
+    - Subsystem Assembly Array Blueprint
     productOf:
     - Subsystem Assembly Array Blueprint
   Omni Effect Beacon:
@@ -55114,7 +55010,7 @@ metaInfs:
     id: 32398
   Caldari Navy Overlay Transponder:
     id: 32403
-  Holoreel – Torture Log I15B:
+  Holoreel �� Torture Log I15B:
     id: 32407
   Correspondence Log KL-513:
     id: 32408
@@ -56422,8 +56318,6 @@ metaInfs:
     id: 33575
   Covert Research Tools:
     id: 33577
-    productIn:
-    - Thukker Component Assembly Array Blueprint
   Men's 'Humanitarian' T-shirt YC 115:
     id: 33578
   Women's 'Humanitarian' T-shirt YC 115:
@@ -56908,6 +56802,8 @@ metaInfs:
     id: 33856
   Thukker Component Assembly Array:
     id: 33867
+    productIn:
+    - Thukker Component Assembly Array Blueprint
     productOf:
     - Thukker Component Assembly Array Blueprint
   Thukker Component Assembly Array Blueprint:
@@ -57651,7 +57547,7 @@ metaInfs:
     id: 34419
   Cooking With Veldspar:
     id: 34420
-  Chribba’s Modified Strip Miner:
+  Chribba���s Modified Strip Miner:
     id: 34421
   Rooks & Kings – The Clarion Call Compilation:
     id: 34422
@@ -57697,19 +57593,19 @@ metaInfs:
     id: 34452
   末日沙场级YC117年特别版蓝图:
     id: 34458
-  地���天使级YC117年特别版蓝图:
+  地狱天使级YC117年特别版蓝图:
     id: 34460
   马克瑞级YC117年特别版蓝图:
     id: 34462
   响尾蛇级YC117年特别版蓝图:
     id: 34464
-  多米尼克斯级YC117年特别版蓝��:
+  多米尼克斯级YC117年特别版蓝图:
     id: 34466
-  万王宝座级YC117年特别版��图:
+  万王宝座级YC117年特别版蓝图:
     id: 34468
   乌鸦级YC117年特别版蓝图:
     id: 34470
-  灾难级YC117年特别版蓝图:
+  灾难级YC117年特��版蓝图:
     id: 34472
   幼龙级YC117年特别版蓝图:
     id: 34474
@@ -57924,9 +57820,9 @@ metaInfs:
     id: 34642
   Typhoon Krusual SKIN (Permanent):
     id: 34643
-  Orca ORE Development SKIN (Permanent):
+  Orca Nocx Rush SKIN (Permanent):
     id: 34645
-  Rorqual ORE Development SKIN (Permanent):
+  Rorqual Nocx Rush SKIN (Permanent):
     id: 34646
   Archon Kador SKIN (Permanent):
     id: 34647
@@ -58148,11 +58044,11 @@ metaInfs:
     id: 34756
   Mammoth Nefantar SKIN (Permanent):
     id: 34757
-  Hulk ORE Development SKIN (Permanent):
+  Hulk Nocx Rush SKIN (Permanent):
     id: 34758
-  Mackinaw ORE Development SKIN (Permanent):
+  Mackinaw Nocx Rush SKIN (Permanent):
     id: 34759
-  Skiff ORE Development SKIN (Permanent):
+  Skiff Nocx Rush SKIN (Permanent):
     id: 34760
   'CSM 1 Electee Archive Script ':
     id: 34769
@@ -62073,6 +61969,8 @@ metaInfs:
     - Cenobite I Blueprint
   Women's Genolution Combat Suit:
     id: 37600
+  Women's CONCORD 'Solitaire' Survival Suit:
+    id: 37601
   Apostle:
     id: 37604
     productOf:
@@ -62149,12 +62047,18 @@ metaInfs:
     id: 37799
   Republic Fleet Shield Recharger:
     id: 37805
+  Women's CONCORD Test Pilot T-Shirt:
+    id: 37808
+  Men's CONCORD Test Pilot T-Shirt:
+    id: 37809
   Men's Genolution Combat Suit:
     id: 37810
   Women's 'Rocket' Dress (festive):
     id: 37816
   Men's 'Curate' Coat (festive):
     id: 37817
+  Men's CONCORD 'Solitaire' Survival Suit:
+    id: 37818
   Caldari Navy Shield Power Relay:
     id: 37820
   Standup Gravimetric ECM Script:
@@ -63012,7 +62916,7 @@ metaInfs:
     id: 40631
     productOf:
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
-  ��Divine Harvest’ Electromagnetic Reaper:
+  ‘Divine Harvest’ Electromagnetic Reaper:
     id: 40632
     productOf:
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -65439,9 +65343,9 @@ metaInfs:
     id: 41566
     productOf:
     - Capital Inductive Compact Remote Capacitor Transmitter Blueprint
-  'Women''s “Mirelle” Upwell Executive Spectacles ':
+  'Women''s ���Mirelle” Upwell Executive Spectacles ':
     id: 41575
-  Men's ��Mirelle” Upwell Executive Spectacles:
+  Men's “Mirelle” Upwell Executive Spectacles:
     id: 41576
   Capsule Upwell SKIN (Permanent):
     id: 41579
@@ -65839,6 +65743,18 @@ metaInfs:
     id: 42233
   Copper Ouroboros Accelerator:
     id: 42234
+  Molok:
+    id: 42241
+    productOf:
+    - Molok Blueprint
+  Dagon:
+    id: 42242
+    productOf:
+    - Dagon Blueprint
+  Chemosh:
+    id: 42243
+    productOf:
+    - Chemosh Blueprint
   Porpoise:
     id: 42244
     productOf:
@@ -66337,6 +66253,8 @@ metaInfs:
     id: 43486
   Tormentor Crimson Harvest YC118 SKIN (Permanent):
     id: 43487
+  Anathema Crimson Harvest YC118 SKIN (Permanent):
+    id: 43490
   Coercer Crimson Harvest YC118 SKIN (Permanent):
     id: 43496
   Dragoon Crimson Harvest YC118 SKIN (Permanent):
@@ -67721,6 +67639,12 @@ metaInfs:
     id: 44950
   Dramiel YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
     id: 44951
+  PLEX:
+    id: 44992
+  Pacifier:
+    id: 44993
+  Enforcer:
+    id: 44995
   Focused Warp Scrambling Script:
     id: 45010
     productOf:
@@ -67755,6 +67679,100 @@ metaInfs:
     id: 45026
   Megathron Navy Issue Sapphire Sungrazer SKIN (Permanent):
     id: 45027
+  Dagon Blueprint:
+    id: 45043
+  Chemosh Blueprint:
+    id: 45044
+  Molok Blueprint:
+    id: 45045
+  Vintage Frigate Blueprints:
+    id: 45060
+  Subspace Energy & You:
+    id: 45061
+  Replica Gold Magnate Decorative Plating:
+    id: 45062
+  Enforcer CONCORD Aerospace 'Prototype' SKIN (Permanent):
+    id: 45480
+  Pacifier CONCORD Aerospace 'Prototype' SKIN (Permanent):
+    id: 45481
+  Capsule YC119 Capsuleer Day SKIN (Permanent):
+    id: 45482
+  Astero SOE Gold Cell (Archaeology) SKIN (Permanent):
+    id: 45483
+  Stratios SOE Gold Cell (Archaeology) SKIN (Permanent):
+    id: 45484
+  Nestor SOE Gold Cell (Archaeology) SKIN (Permanent):
+    id: 45485
+  Taipan Hostile Takeover SKIN (Permanent):
+    id: 45505
+  Worm Hostile Takeover SKIN (Permanent):
+    id: 45507
+  Gila Hostile Takeover SKIN (Permanent):
+    id: 45508
+  Rattlesnake Hostile Takeover SKIN (Permanent):
+    id: 45509
+  Guristas Victory SKIN (Permanent):
+    id: 45552
+  Hurricane Hazard Control SKIN (Permanent):
+    id: 45553
+  Rifter Hazard Control SKIN (Permanent):
+    id: 45554
+  Nidhoggur Hazard Control SKIN (Permanent):
+    id: 45555
+  Hel Hazard Control SKIN (Permanent):
+    id: 45556
+  Sabre Hazard Control SKIN (Permanent):
+    id: 45557
+  Naglfar Hazard Control SKIN (Permanent):
+    id: 45558
+  Typhoon Hazard Control SKIN (Permanent):
+    id: 45559
+  Tristan Ruby Sungrazer SKIN (Permanent):
+    id: 45560
+  Helios Ruby Sungrazer SKIN (Permanent):
+    id: 45561
+  Algos Ruby Sungrazer SKIN (Permanent):
+    id: 45562
+  Catalyst Ruby Sungrazer SKIN (Permanent):
+    id: 45563
+  Hecate Ruby Sungrazer SKIN (Permanent):
+    id: 45564
+  Thorax Ruby Sungrazer SKIN (Permanent):
+    id: 45565
+  Vexor Ruby Sungrazer SKIN (Permanent):
+    id: 45566
+  Ishtar Ruby Sungrazer SKIN (Permanent):
+    id: 45567
+  Vexor Navy Issue Ruby Sungrazer SKIN (Permanent):
+    id: 45568
+  Dominix Ruby Sungrazer SKIN (Permanent):
+    id: 45569
+  Megathron Ruby Sungrazer SKIN (Permanent):
+    id: 45570
+  Kronos Ruby Sungrazer SKIN (Permanent):
+    id: 45571
+  Moros Ruby Sungrazer SKIN (Permanent):
+    id: 45572
+  Thanatos Ruby Sungrazer SKIN (Permanent):
+    id: 45573
+  Nyx Ruby Sungrazer SKIN (Permanent):
+    id: 45574
+  Epithal Ruby Sungrazer SKIN (Permanent):
+    id: 45575
+  Iteron Mark V Ruby Sungrazer SKIN (Permanent):
+    id: 45576
+  Miasmos Ruby Sungrazer SKIN (Permanent):
+    id: 45577
+  Nereus Ruby Sungrazer SKIN (Permanent):
+    id: 45578
+  Viator Ruby Sungrazer SKIN (Permanent):
+    id: 45579
+  Occator Ruby Sungrazer SKIN (Permanent):
+    id: 45580
+  Obelisk Ruby Sungrazer SKIN (Permanent):
+    id: 45581
+  Erebus Ruby Sungrazer SKIN (Permanent):
+    id: 45582
   Haunter Cruise Missile:
     productOf:
     - Sansha Wrath Cruise Missile Blueprint
@@ -68043,31 +68061,31 @@ metaInfs:
   末日沙场级YC117年特别版:
     productOf:
     - 末日沙场级YC117年特别版蓝图
-  地狱天使级YC117年特别版:
+  地狱天使级YC117��特别版:
     productOf:
-    - 地���天使级YC117年特别版蓝图
+    - 地狱天使级YC117年特别版蓝图
   马克瑞级YC117年特别版:
     productOf:
     - 马克瑞级YC117年特别版蓝图
-  响尾蛇级YC117年特��版:
+  响尾蛇级YC117年特别版:
     productOf:
     - 响尾蛇级YC117年特别版蓝图
   多米尼克斯级YC117年特别版:
     productOf:
-    - 多米尼克斯级YC117年特别版蓝��
-  万王宝座���YC117年特别版:
+    - 多米尼克斯级YC117年特别版蓝图
+  万王宝座级YC117年特别版:
     productOf:
-    - 万王宝座级YC117年特别版��图
-  乌鸦级YC117年特别版:
+    - 万王宝座级YC117年特别版蓝图
+  乌鸦级YC117���特别版:
     productOf:
     - 乌鸦级YC117年特别版蓝图
   灾难级YC117年特别版:
     productOf:
-    - 灾难级YC117年特别版蓝图
+    - 灾难级YC117年特��版蓝图
   幼龙级YC117年特别版:
     productOf:
     - 幼龙级YC117年特别版蓝图
-  毒蜥级YC117年特别版:
+  ���蜥级YC117年特别版:
     productOf:
     - 毒蜥级YC117年特别版蓝图
   银鹰级YC117年特别版:

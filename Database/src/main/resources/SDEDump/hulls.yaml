@@ -2104,9 +2104,9 @@ hulls:
       warpSpeed: 1.3700000047683716
     catName: Ship
     effects:
-    - shipBonusTitanRole1NumWarfareLinks
+    - shipBonusRole1NumWarfareLinks
     - shipCapitalAgilityBonus
-    - shipBonusTitanRole2ArmorShieldModuleBonus
+    - shipBonusRole2ArmorPlates&ShieldExtendersBonus
     - entosisDurationMultiply
     - shipBonusTitanG3WarpStrength
     - shipBonusTitanG1DamageBonus
@@ -2604,10 +2604,10 @@ hulls:
       warpSpeed: 1.3700000047683716
     catName: Ship
     effects:
-    - shipBonusTitanRole1NumWarfareLinks
+    - shipBonusRole1NumWarfareLinks
     - shipBonusTitanRole3TorpdeoVelocityBonus
     - shipCapitalAgilityBonus
-    - shipBonusTitanRole2ArmorShieldModuleBonus
+    - shipBonusRole2ArmorPlates&ShieldExtendersBonus
     - shipBonusTitanC5AllDamageBonus
     - entosisDurationMultiply
     - shipBonusTitanC3WarpStrength
@@ -3315,7 +3315,7 @@ hulls:
     - covertOpsWarpResistance
     - shipMissileKineticDamageCF
     - minigameVirusStrengthBonus
-    - shipMissileSpeedBonusCF
+    - shipBonusSmallMissileRoFCF2
     - eliteBonusCoverOpsScanProbeStrength2
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - covertOpsCloakCpuPercentBonus1
@@ -3647,7 +3647,7 @@ hulls:
     - shipMissileKineticDamageCF
     - MWDSignatureRadiusRoleBonus
     - eliteBonusGunshipShieldBoost2
-    - shipMissileSpeedBonusCF
+    - shipBonusSmallMissileRoFCF2
     groupName: Assault Frigate
     id: 11379
     name: Hawk
@@ -3818,9 +3818,9 @@ hulls:
       warpSpeed: 1.3700000047683716
     catName: Ship
     effects:
-    - shipBonusTitanRole1NumWarfareLinks
+    - shipBonusRole1NumWarfareLinks
     - shipCapitalAgilityBonus
-    - shipBonusTitanRole2ArmorShieldModuleBonus
+    - shipBonusRole2ArmorPlates&ShieldExtendersBonus
     - shipBonusTitanA3WarpStrength
     - entosisDurationMultiply
     - shipBonusTitanA1DamageBonus
@@ -4201,7 +4201,7 @@ hulls:
     catName: Ship
     effects:
     - shipHTDmgBonusfixedGC
-    - eliteReconJumpScramblerRangeBonus2
+    - eliteReconScramblerRangeBonus2
     - shipBonusEwRemoteSensorDampenerMaxTargetRangeBonusGC2
     - cynosuralTheoryConsumptionBonus
     - shipBonusEwRemoteSensorDampenerScanResolutionBonusGC2
@@ -4240,7 +4240,7 @@ hulls:
       warpSpeed: 3.299999952316284
     catName: Ship
     effects:
-    - eliteReconJumpScramblerRangeBonus2
+    - eliteReconScramblerRangeBonus2
     - shipBonusEwRemoteSensorDampenerMaxTargetRangeBonusGC2
     - shipBonusEwRemoteSensorDampenerScanResolutionBonusGC2
     - shipHybridTrackingGC
@@ -4361,7 +4361,6 @@ hulls:
       warpSpeed: 3.299999952316284
     catName: Ship
     effects:
-    - remoteArmorPowerNeedBonusEffect
     - remoteCapacitorTransmitterPowerNeedBonusEffect
     - droneArmorDamageBonusEffect
     - shipRemoteArmorFalloffAC2
@@ -4369,6 +4368,7 @@ hulls:
     - droneHullRepairBonusEffect
     - shipRemoteArmorRangeAC2
     - eliteBonusLogisticRemoteArmorRepairCapNeed2
+    - shipBonusRole5RemoteArmorRepairPowergridBonus
     - eliteBonusLogisticEnergyTransferCapNeed1
     - shipEnergyTransferRange1
     groupName: Logistics
@@ -4402,7 +4402,6 @@ hulls:
       warpSpeed: 3.299999952316284
     catName: Ship
     effects:
-    - remoteArmorPowerNeedBonusEffect
     - eliteBonusLogisticsTrackingLinkMaxRangeBonus2
     - eliteBonusLogisticsTrackingLinkFalloffBonus2
     - eliteBonusLogisticsTrackingLinkTrackingSpeedBonus2
@@ -4413,6 +4412,7 @@ hulls:
     - droneHullRepairBonusEffect
     - eliteBonusLogisticRemoteArmorRepairCapNeed1
     - shipBonusRemoteTrackingComputerFalloffGC2
+    - shipBonusRole5RemoteArmorRepairPowergridBonus
     groupName: Logistics
     id: 11989
     name: Oneiros
@@ -6520,7 +6520,7 @@ hulls:
     - shipEnergyVampireTransferAmountBonusAB
     - shipStasisWebRangeBonusMB
     - shipLaserDamagePirateBattleship
-    - shipBonusNosOverride
+    - shipBonusNosferatuOverride
     groupName: Battleship
     id: 17920
     name: Bhaalgorn
@@ -6556,7 +6556,7 @@ hulls:
     - shipEnergyVampireTransferAmountBonusAc
     - shipStasisWebRangeBonusMC2
     - shipBonusMediumEnergyTurretDamagePirateFaction
-    - shipBonusNosOverride
+    - shipBonusNosferatuOverride
     groupName: Cruiser
     id: 17922
     name: Ashimmu
@@ -6622,7 +6622,7 @@ hulls:
     effects:
     - shipEnergyNeutralizerTransferAmountBonusAF
     - shipBonusStasisMF2
-    - shipBonusNosOverride
+    - shipBonusNosferatuOverride
     - shipEnergyDrainAmountAF1
     - shipBonusSmallEnergyTurretDamagePirateFaction
     groupName: Frigate
@@ -7933,9 +7933,9 @@ hulls:
       warpSpeed: 1.3700000047683716
     catName: Ship
     effects:
-    - shipBonusTitanRole1NumWarfareLinks
+    - shipBonusRole1NumWarfareLinks
     - shipCapitalAgilityBonus
-    - shipBonusTitanRole2ArmorShieldModuleBonus
+    - shipBonusRole2ArmorPlates&ShieldExtendersBonus
     - entosisDurationMultiply
     - shipBonusTitanM3WarpStrength
     - shipBonusTitanM1DamageBonus
@@ -10069,7 +10069,7 @@ hulls:
     - shipArmorKNResistanceAF1
     - shipArmorEXResistanceAF1
     - shipBonusDroneHitpointsGF
-    - covertOpsCloakCPUPercentBonusPirateFaction
+    - covertOpsCloakCPUPercentRoleBonus
     groupName: Frigate
     id: 33468
     name: Astero
@@ -10334,7 +10334,7 @@ hulls:
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - eliteBonusExpeditionMining1
     - eliteBonusExpeditionSigRadius2
-    - covertOpsCloakCPUPercentBonusPirateFaction
+    - covertOpsCloakCPUPercentRoleBonus
     groupName: Expedition Frigate
     id: 33697
     name: Prospect
@@ -10640,7 +10640,7 @@ hulls:
       warpSpeed: 6.0
     catName: Ship
     effects:
-    - covertOpsCloakCPUPercentBonusPirateFaction
+    - covertOpsCloakCPUPercentRoleBonus
     groupName: Cruiser
     id: 34590
     name: Victorieux Luxury Yacht
@@ -10824,7 +10824,7 @@ hulls:
     - covertOpsStealthBomberTargettingDelayBonus
     - miningFrigateBonusIceHarvestingCycleTime2
     - iceHarvesterDurationMultiplier
-    - covertOpsCloakCPUPercentBonusPirateFaction
+    - covertOpsCloakCPUPercentRoleBonus
     groupName: Expedition Frigate
     id: 37135
     name: Endurance
@@ -11321,11 +11321,11 @@ hulls:
     effects:
     - shipBonusForceAuxiliaryA3CapCapacity
     - shipCapitalAgilityBonus
-    - shipBonusForceAuxiliaryRole2LogisticDroneBonus
+    - shipBonusRole2LogisticDroneBonus
     - shipBonusForceAuxiliaryA4WarfareLinksBonus
     - entosisDurationMultiply
-    - shipBonusForceAuxiliaryRole1CPUBonus
-    - shipBonusForceAuxiliaryRole3NumWarfareLinks
+    - shipBonusRole1CommandBurstCPUBonus
+    - shipBonusRole3NumWarfareLinks
     - shipBonusForceAuxiliaryA1RemoteRepairAndCapAmount
     - shipAdvancedSpaceshipCommandAgilityBonus
     - shipBonusForceAuxiliaryA2ArmorResists
@@ -11364,11 +11364,11 @@ hulls:
     - shipBonusForceAuxiliaryC1RemoteBoostAndCapAmount
     - shipBonusForceAuxiliaryC2ShieldResists
     - shipBonusForceAuxiliaryC3CapCapacity
-    - shipBonusForceAuxiliaryRole2LogisticDroneBonus
+    - shipBonusRole2LogisticDroneBonus
     - entosisDurationMultiply
     - shipBonusForceAuxiliaryC4WarfareLinksBonus
-    - shipBonusForceAuxiliaryRole1CPUBonus
-    - shipBonusForceAuxiliaryRole3NumWarfareLinks
+    - shipBonusRole1CommandBurstCPUBonus
+    - shipBonusRole3NumWarfareLinks
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
     groupName: Force Auxiliary
@@ -11402,14 +11402,14 @@ hulls:
     catName: Ship
     effects:
     - shipCapitalAgilityBonus
-    - shipBonusForceAuxiliaryRole2LogisticDroneBonus
+    - shipBonusRole2LogisticDroneBonus
     - shipBonusForceAuxiliaryM4WarfareLinksBonus
-    - shipBonusForceAuxiliaryM1RemoteCycleTime
+    - shipBonusForceAuxiliaryM1RemoteDuration
     - entosisDurationMultiply
     - shipBonusForceAuxiliaryM2LocalBoostAmount
-    - shipBonusForceAuxiliaryRole1CPUBonus
+    - shipBonusRole1CommandBurstCPUBonus
     - shipBonusForceAuxiliaryM3CapBoosterStrength
-    - shipBonusForceAuxiliaryRole3NumWarfareLinks
+    - shipBonusRole3NumWarfareLinks
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
     groupName: Force Auxiliary
@@ -11444,13 +11444,13 @@ hulls:
     effects:
     - shipCapitalAgilityBonus
     - shipBonusForceAuxiliaryG1RemoteCycleTime
-    - shipBonusForceAuxiliaryRole2LogisticDroneBonus
+    - shipBonusRole2LogisticDroneBonus
     - shipBonusForceAuxiliaryG2LocalRepairAmount
     - shipBonusForceAuxiliaryG3CapBoosterStrength
     - shipBonusForceAuxiliaryG4WarfareLinksBonus
     - entosisDurationMultiply
-    - shipBonusForceAuxiliaryRole1CPUBonus
-    - shipBonusForceAuxiliaryRole3NumWarfareLinks
+    - shipBonusRole1CommandBurstCPUBonus
+    - shipBonusRole3NumWarfareLinks
     - shipAdvancedSpaceshipCommandAgilityBonus
     - commandBurstAoERoleBonus
     groupName: Force Auxiliary
@@ -11483,8 +11483,8 @@ hulls:
     catName: Ship
     effects:
     - shipCapitalAgilityBonus
-    - shipBonusDreadnoughtRole1DamageBonus
-    - shipBonusDreadnoughtM1WebBonus
+    - shipBonusRole1CapitalHybridDamageBonus
+    - shipBonusDreadnoughtM1WebStrengthBonus
     - entosisDurationMultiply
     - shipBonusDreadnoughtG2ROFBonus
     - shipAdvancedSpaceshipCommandAgilityBonus
@@ -11557,12 +11557,12 @@ hulls:
       warpSpeed: 1.3700000047683716
     catName: Ship
     effects:
-    - shipBonusTitanRole1NumWarfareLinks
+    - shipBonusRole1NumWarfareLinks
     - shipCapitalAgilityBonus
-    - shipBonusTitanRole2ArmorShieldModuleBonus
-    - shipBonusTitanRole3DamageBonus
+    - shipBonusRole2ArmorPlates&ShieldExtendersBonus
+    - shipBonusRole3CapitalHybridDamageBonus
     - entosisDurationMultiply
-    - shipBonusTitanM1WebBonus
+    - shipBonusTitanM1WebStrengthBonus
     - shipBonusTitanG3WarpStrength
     - shipBonusTitanM3WarpStrength
     - shipBonusTitanG2ROFBonus
@@ -11572,6 +11572,127 @@ hulls:
     id: 42126
     name: Vanquisher
     volume: 1.455E8
+  Molok:
+    attributes:
+      agility: 0.029999999329447746
+      capacitor: 145000.0
+      capacitorTime: 7500.0
+      cpu: 900
+      highSlots: 8
+      lowSlots: 8
+      mass: 2400000000
+      maxTargets: 8
+      mediumSlots: 6
+      powergrid: 1375000
+      rigCalibration: 350
+      rigSize: capital
+      rigSlots: 3
+      scanRes: 75
+      scanStr: 240
+      scanType: RADAR
+      targetRange: 250000
+      turretHardPoints: 4
+      velocity: 65
+      volume: 155000000
+      warpSpeed: 1.3700000047683716
+    catName: Ship
+    effects:
+    - shipBonusRole1NumWarfareLinks
+    - shipCapitalAgilityBonus
+    - shipBonusRole2ArmorPlates&ShieldExtendersBonus
+    - shipBonusRole3CapitalEnergyDamageBonus
+    - shipBonusTitanM1WebRangeBonus
+    - shipBonusTitanA1EnergyWarfareAmountBonus
+    - shipBonusTitanA3WarpStrength
+    - entosisDurationMultiply
+    - shipBonusTitanM3WarpStrength
+    - shipBonusNosferatuOverride
+    - shipAdvancedSpaceshipCommandAgilityBonus
+    - commandBurstAoERoleBonus
+    groupName: Titan
+    id: 42241
+    name: Molok
+    volume: 1.55E8
+  Dagon:
+    attributes:
+      agility: 0.03799999877810478
+      capacitor: 82500.0
+      capacitorTime: 5000.0
+      cpu: 540
+      droneBandwidth: 125
+      droneCapa: 600
+      highSlots: 6
+      lowSlots: 8
+      mass: 1310000000
+      maxTargets: 7
+      mediumSlots: 4
+      powergrid: 660000
+      rigCalibration: 350
+      rigSize: capital
+      rigSlots: 3
+      scanRes: 65
+      scanStr: 70
+      scanType: RADAR
+      targetRange: 110000
+      velocity: 85
+      volume: 18135000
+      warpSpeed: 1.5
+    catName: Ship
+    effects:
+    - shipBonusForceAuxiliaryM2LocalRepairAmount
+    - shipBonusRole1CommandBurstCPUBonus
+    - shipBonusForceAuxiliaryA1NosferatuRangeBonus
+    - shipBonusForceAuxiliaryA1NosferatuDrainAmount
+    - shipBonusRole4NosferatuCPUBonus
+    - shipBonusRole5CapitalRemoteArmorRepairPowergridBonus
+    - shipBonusForceAuxiliaryM1RemoteArmorRepairDuration
+    - shipAdvancedSpaceshipCommandAgilityBonus
+    - shipCapitalAgilityBonus
+    - shipBonusRole2LogisticDroneBonus
+    - entosisDurationMultiply
+    - shipBonusRole3NumWarfareLinks
+    - shipBonusNosferatuOverride
+    - commandBurstAoERoleBonus
+    groupName: Force Auxiliary
+    id: 42242
+    name: Dagon
+    volume: 1.8135E7
+  Chemosh:
+    attributes:
+      agility: 0.03999999910593033
+      capacitor: 66000.0
+      capacitorTime: 4400.0
+      cpu: 715
+      highSlots: 6
+      lowSlots: 8
+      mass: 1290000000
+      maxTargets: 7
+      mediumSlots: 4
+      powergrid: 858000
+      rigCalibration: 350
+      rigSize: capital
+      rigSlots: 3
+      scanRes: 85
+      scanStr: 45
+      scanType: RADAR
+      targetRange: 97500
+      turretHardPoints: 3
+      velocity: 80
+      volume: 18500000
+      warpSpeed: 1.5
+    catName: Ship
+    effects:
+    - shipCapitalAgilityBonus
+    - shipBonusRole3CapitalEnergyDamageBonus
+    - shipBonusDreadnoughtA1EnergyWarfareAmountBonus
+    - entosisDurationMultiply
+    - shipBonusDreadnoughtM1WebRangeBonus
+    - shipBonusNosferatuOverride
+    - shipAdvancedSpaceshipCommandAgilityBonus
+    groupName: Dreadnought
+    id: 42243
+    name: Chemosh
+    volume: 1.85E7
   Porpoise:
     attributes:
       agility: 1.5
@@ -11641,19 +11762,19 @@ hulls:
       warpSpeed: 3.299999952316284
     catName: Ship
     effects:
-    - remoteArmorPowerNeedBonusEffect
     - shipBonusDroneRepairMC1
     - eliteBonusLogisticRemoteArmorRepairOptimalFalloff1
     - roleBonusRemoteArmorRepairOptimalFalloff
     - shipBonusCloakCpuMC2
     - shipEnergyVampireTransferAmountBonusAc
     - eliteBonusLogisticRemoteArmorRepairDuration3
-    - nosCpuNeedBonusEffect
     - eliteBonusLogisticRemoteArmorRepairCapNeed2
+    - shipBonusRole4NosferatuCPUBonus
     - covertOpsAndReconOpsCloakModuleDelayBonus
+    - shipBonusRole5RemoteArmorRepairPowergridBonus
     - covertOpsStealthBomberTargettingDelayBonus
     - shipBonusNosOptimalFalloffAC2
-    - shipBonusNosOverride
+    - shipBonusNosferatuOverride
     groupName: Logistics
     id: 42245
     name: Rabisu
@@ -11694,7 +11815,7 @@ hulls:
     - eliteBonusCoverOpsScanProbeStrength2
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - covertOpsStealthBomberTargettingDelayBonus
-    - shipBonusNosOverride
+    - shipBonusNosferatuOverride
     - shipEnergyDrainAmountAF1
     - shipBonusSmallEnergyTurretDamagePirateFaction
     groupName: Covert Ops
@@ -11740,3 +11861,100 @@ hulls:
     id: 42685
     name: Sunesis
     volume: 55000.0
+  Pacifier:
+    attributes:
+      agility: 3.5999999046325684
+      capacitor: 350.0
+      capacitorTime: 175.0
+      cpu: 200
+      highSlots: 4
+      launcherHardPoints: 3
+      lowSlots: 4
+      mass: 1400000
+      maxTargets: 7
+      mediumSlots: 4
+      powergrid: 50
+      rigCalibration: 400
+      rigSize: small
+      rigSlots: 2
+      scanRes: 800
+      scanStr: 25
+      scanType: Gravimetric
+      targetRange: 40000
+      turretHardPoints: 3
+      velocity: 300
+      volume: 20000
+      warpSpeed: 8.0
+    catName: Ship
+    effects:
+    - shipSHTDmgBonusGF
+    - shipETOptimalRange2AF
+    - eliteBonusCoverOpsScanProbeStrength2
+    - shipBonusHybridTrackingGF2
+    - covertOpsAndReconOpsCloakModuleDelayBonus
+    - covertOpsCloakCPUPercentRoleBonus
+    - eliteBonusCoverOpsWarpVelocity1
+    - shipBonusSmallMissileFlightTimeCF1
+    - shipBonusSPTFalloffMF2
+    - shipBonusSPTRoFMF
+    - minigameVirusStrengthBonus
+    - roleBonusConcordSecGain
+    - shipETDamageAF
+    - concordIntermediateSecStatus
+    - concordAssignTankBonus
+    - concordSecStatusTankBonus
+    - shipBonusSmallMissileRoFCF2
+    - shipBonusSurveyProbeExplosionDelaySkillSurveyCovertOps3
+    groupName: Covert Ops
+    id: 44993
+    name: Pacifier
+    volume: 20000.0
+  Enforcer:
+    attributes:
+      agility: 0.550000011920929
+      capacitor: 1300.0
+      capacitorTime: 420.0
+      cpu: 500
+      highSlots: 6
+      launcherHardPoints: 4
+      lowSlots: 5
+      mass: 12500000
+      maxTargets: 10
+      mediumSlots: 5
+      powergrid: 1100
+      rigCalibration: 400
+      rigSize: medium
+      rigSlots: 2
+      scanRes: 320
+      scanStr: 35
+      scanType: Gravimetric
+      targetRange: 90000
+      turretHardPoints: 4
+      velocity: 170
+      volume: 100000
+      warpSpeed: 3.299999952316284
+    catName: Ship
+    effects:
+    - eliteReconScramblerRangeBonus2
+    - cynosuralTheoryConsumptionBonus
+    - shipBonusMETOptimalAC2
+    - shipMissileRofCC
+    - covertOpsAndReconOpsCloakModuleDelayBonus
+    - shipPTurretFalloffBonusMC2
+    - covertOpsCloakCPUPercentRoleBonus
+    - shipMETCDamageBonusAC
+    - shipHTDmgBonusfixedGC
+    - roleBonusConcordSecGain
+    - concordIntermediateSecStatus
+    - concordAssignTankBonus
+    - concordSecStatusTankBonus
+    - shipHybridTrackingGC2
+    - cynosuralDurationBonus
+    - eliteReconStasisWebBonus1
+    - eliteBonusReconWarpVelocity3
+    - shipBonusMedMissileFlightTimeCC2
+    - shipPTurretSpeedBonusMC
+    groupName: Force Recon Ship
+    id: 44995
+    name: Enforcer
+    volume: 100000.0

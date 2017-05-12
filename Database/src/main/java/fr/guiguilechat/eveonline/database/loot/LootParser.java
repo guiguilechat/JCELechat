@@ -190,39 +190,44 @@ public class LootParser {
 		BufferedReader br = new BufferedReader(new FileReader(lootFile));
 		while ((line = br.readLine()) != null) {
 			// System.err.println(line);
-			switch (state) {
-			case 0:
-				if (line.length() > 0) {
-					entry = new LootEntry();
-					entry.date = date;
-					String[] tokens = line.split(" ");
-					entry.type = rename(tokens[0]);
-					entry.race = rename(tokens[1]);
-					entry.sec = Float.parseFloat(tokens[2]);
-					list.add(entry);
-					state = 1;
-				}
-				break;
-			case 1:
-				if (line.length() == 0) {
-					state = 0;
-				} else {
-					String[] tokens = line.split("\\t");
-					Integer id = sde.getDico().get(tokens[0].toLowerCase());
-					if (id != null) {
-						Integer nb = entry.loots.get(id);
-						if (tokens[1].length() > 0) {
-							nb = Integer.parseInt(tokens[1].replaceAll("[^\\d]", "")) + (nb == null ? 0 : nb);
-						} else {
-							nb=1;
-						}
-						entry.loots.put(id, nb);
-						// System.err.println("" + id + "->" + nb);
-					} else {
-						System.err.println("can't decode " + tokens[0]);
+			try {
+				switch (state) {
+				case 0:
+					if (line.length() > 0) {
+						entry = new LootEntry();
+						entry.date = date;
+						String[] tokens = line.split(" ");
+						entry.type = rename(tokens[0]);
+						entry.race = rename(tokens[1]);
+						entry.sec = Float.parseFloat(tokens[2]);
+						list.add(entry);
+						state = 1;
 					}
+					break;
+				case 1:
+					if (line.length() == 0) {
+						state = 0;
+					} else {
+						String[] tokens = line.split("\\t");
+						Integer id = sde.getDico().get(tokens[0].toLowerCase());
+						if (id != null) {
+							Integer nb = entry.loots.get(id);
+							if (tokens[1].length() > 0) {
+								nb = Integer.parseInt(tokens[1].replaceAll("[^\\d]", "")) + (nb == null ? 0 : nb);
+							} else {
+								nb=1;
+							}
+							entry.loots.put(id, nb);
+							// System.err.println("" + id + "->" + nb);
+						} else {
+							System.err.println("can't decode " + tokens[0]);
+						}
+					}
+					break;
 				}
-				break;
+			} catch (Exception e) {
+				System.err.println("error line " + line + "\n " + lootFile.getName() + " state=" + state);
+				throw e;
 			}
 		}
 		br.close();

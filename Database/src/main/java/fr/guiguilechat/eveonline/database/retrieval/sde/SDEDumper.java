@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
@@ -14,12 +15,19 @@ import java.util.Set;
 
 import org.yaml.snakeyaml.Yaml;
 
+import fr.guiguilechat.eveonline.database.esi.ESILoyalty;
+import fr.guiguilechat.eveonline.database.esi.ESILoyalty.Offer;
+import fr.guiguilechat.eveonline.database.esi.ESILoyalty.Offer.ItemReq;
+import fr.guiguilechat.eveonline.database.esi.ESINpcCorporations;
+import fr.guiguilechat.eveonline.database.esi.ESINpcCorporations.Corporation;
 import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDEData;
 import fr.guiguilechat.eveonline.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint.Activity;
 import fr.guiguilechat.eveonline.database.yaml.DatabaseFile;
 import fr.guiguilechat.eveonline.database.yaml.Hull;
+import fr.guiguilechat.eveonline.database.yaml.LPOffer;
+import fr.guiguilechat.eveonline.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.database.yaml.Location;
 import fr.guiguilechat.eveonline.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.database.yaml.Module;
@@ -57,6 +65,9 @@ public class SDEDumper {
 	public static final String DB_LOCATION_RES = "SDEDump/locations.yaml";
 	public static final File DB_LOCATION_FILE = new File("src/main/resources", DB_LOCATION_RES);
 
+	public static final String DB_LPOFFERS_RES = "SDEDump/lpoffers.yaml";
+	public static final File DB_LPOFFERS_FILE = new File("src/main/resources", DB_LPOFFERS_RES);
+
 	public static void main(String[] args) throws IOException {
 		DatabaseFile db = loadDb();
 		DB_DIR.mkdirs();
@@ -85,6 +96,11 @@ public class SDEDumper {
 		dbLocations.locations = db.locations;
 		db.locations = new LinkedHashMap<>();
 		YamlDatabase.write(dbLocations, DB_LOCATION_FILE);
+
+		DatabaseFile dbLPOffers = new DatabaseFile();
+		dbLPOffers.lpoffers = db.lpoffers;
+		db.lpoffers = new ArrayList<>();
+		YamlDatabase.write(dbLPOffers, DB_LPOFFERS_FILE);
 
 		YamlDatabase.write(db, DB_HULLS_FILE);
 	}
@@ -159,6 +175,8 @@ public class SDEDumper {
 		loadLocations(sde, db);
 
 		loadMetaInfs(sde, db);
+
+		loadLPOffers(sde, db);
 
 		System.err.println("missings ids " + sde.missings);
 
@@ -523,6 +541,46 @@ public class SDEDumper {
 					}
 					mi.productIn.add(bp.name);
 				}
+			}
+		}
+	}
+
+	public static void loadLPOffers(SDEData sde, DatabaseFile db) {
+		ESILoyalty loyalty = new ESILoyalty();
+		ESINpcCorporations corps = new ESINpcCorporations();
+		for (Entry<Integer, Corporation> e : corps.getCorpos().entrySet()) {
+			for (Offer o : loyalty.getOffers(e.getKey())) {
+				LPOffer lpo = new LPOffer();
+				lpo.corporation = e.getValue().corporation_name;
+				lpo.requirements.isk += o.isk_cost;
+				lpo.requirements.lp += o.lp_cost;
+				lpo.offer_name = sde.getType(o.type_id).enName();
+
+				for (ItemReq ir : o.required_items) {
+					ItemRef translated = new ItemRef();
+					translated.quantity = ir.quantity;
+					translated.type_id = ir.type_id;
+					lpo.requirements.items.add(translated);
+				}
+
+				Eblueprints bp = sde.getBlueprints().get(o.type_id);
+
+				if (bp != null) {// the lp offers a BPC
+					for (Material m : bp.activities.manufacturing.materials) {
+						ItemRef translated = new ItemRef();
+						translated.quantity = m.quantity * o.quantity;
+						translated.type_id = m.typeID;
+						lpo.requirements.items.add(translated);
+					}
+					Material prod = bp.activities.manufacturing.products.get(0);
+					lpo.product.type_id = prod.typeID;
+					lpo.product.quantity = prod.quantity * o.quantity;
+				} else {// the lp offers a non-bpc
+					lpo.product.quantity = o.quantity;
+					lpo.product.type_id = o.type_id;
+				}
+
+				db.lpoffers.add(lpo);
 			}
 		}
 	}

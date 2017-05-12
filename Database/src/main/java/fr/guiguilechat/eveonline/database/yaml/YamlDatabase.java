@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashSet;
@@ -214,6 +215,23 @@ public class YamlDatabase extends DataBase {
 			}
 		}
 		return locations;
+	}
+
+	protected ArrayList<LPOffer> lpoffers = null;
+
+	@Override
+	public ArrayList<LPOffer> getLPOffers() {
+		if (lpoffers == null) {
+			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_LPOFFERS_RES);
+			DatabaseFile db = stream != null ? load(stream) : null;
+			if (db != null) {
+				lpoffers = db.lpoffers;
+			} else {
+				System.err.println("can't load lpoffers");
+				lpoffers = new ArrayList<>();
+			}
+		}
+		return lpoffers;
 	}
 
 }
