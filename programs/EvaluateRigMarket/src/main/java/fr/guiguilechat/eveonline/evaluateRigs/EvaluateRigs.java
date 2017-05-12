@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.database.DataBase;
 import fr.guiguilechat.eveonline.database.EveCentral;
-import fr.guiguilechat.eveonline.database.esi.ESIRegion;
+import fr.guiguilechat.eveonline.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint.Material;
 import fr.guiguilechat.eveonline.database.yaml.MetaInf;
@@ -65,7 +65,7 @@ public class EvaluateRigs {
 
 		EveCentral forgeCentral = db.central("TheForge");
 		EveCentral localCentral = db.central(region);
-		ESIRegion localESI = db.ESIRegion(region);
+		ESIMarket localESI = db.ESIRegion(region);
 
 		Module[] rigsT1 = db.getModules().values().stream().filter(m -> m.isRig() && m.techLevel() == 1)
 				.toArray(Module[]::new);
@@ -92,8 +92,8 @@ public class EvaluateRigs {
 				}
 
 				double prodCost = db.ESIMarket().getAdjusted(m.id) * systemCostIndex / 100 * (1.0 + manufactureTax / 100);
-				int totalOrders = localESI.getTotalOrders(m.id);
-				double totalPrice = localESI.getTotalPrice(m.id);
+				int totalOrders = localESI.getMonthNBOrders(m.id);
+				double totalPrice = localESI.getMonthTotalPrice(m.id);
 				double avgHistoryPrice = totalOrders == 0 ? 0.0 : totalPrice / totalOrders;
 				double centralPrice = Math.max(localCentral.getSO(m.id), localCentral.getBO(m.id));
 				double sellValue = Math.min(avgHistoryPrice, centralPrice) * taxMult;

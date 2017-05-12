@@ -5,8 +5,8 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 
+import fr.guiguilechat.eveonline.database.esi.ESIBasePrices;
 import fr.guiguilechat.eveonline.database.esi.ESIMarket;
-import fr.guiguilechat.eveonline.database.esi.ESIRegion;
 import fr.guiguilechat.eveonline.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Hull;
@@ -58,9 +58,9 @@ public abstract class DataBase {
 		return ret;
 	}
 
-	protected ESIMarket esi = new ESIMarket();
+	protected ESIBasePrices esi = new ESIBasePrices();
 
-	public ESIMarket ESIMarket() {
+	public ESIBasePrices ESIMarket() {
 		return esi;
 	}
 
@@ -95,18 +95,18 @@ public abstract class DataBase {
 		return central(location.locationID);
 	}
 
-	protected HashMap<Integer, ESIRegion> esiregions = new HashMap<>();
+	protected HashMap<Integer, ESIMarket> esiregions = new HashMap<>();
 
-	public ESIRegion ESIRegion(int regionID) {
-		ESIRegion ret = esiregions.get(regionID);
+	public ESIMarket ESIRegion(int regionID) {
+		ESIMarket ret = esiregions.get(regionID);
 		if (ret == null) {
-			ret = new ESIRegion(regionID);
+			ret = new ESIMarket(regionID);
 			esiregions.put(regionID, ret);
 		}
 		return ret;
 	}
 
-	public ESIRegion ESIRegion(String region) {
+	public ESIMarket ESIRegion(String region) {
 		Location location = getLocations().get(region);
 		if (location == null || location.getLocationType() != 1) {
 			return null;

@@ -2,49 +2,245 @@ package fr.guiguilechat.eveonline.database.esi;
 
 import java.io.IOException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Calendar;
+import java.util.Collections;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-/**
- * get data from the ESI market interface
- *
- */
 public class ESIMarket {
 
-	protected HashMap<Integer, Double> cachedAverage = null;
-	protected HashMap<Integer, Double> cachedAdjusted = null;
+	private final String historyURL;
+	private final String ordersURL;
 
-	@SuppressWarnings("unchecked")
-	public void dl() {
-		if (cachedAdjusted != null && cachedAverage != null) {
+	public ESIMarket(int regionID) {
+		historyURL = "https://esi.tech.ccp.is/dev/markets/" + regionID + "/history/?";
+		ordersURL = "https://esi.tech.ccp.is/latest/markets/" + regionID + "/orders/?";
+	}
+
+	private HashMap<Integer, List<HistoryData>> cachedHistories = new HashMap<>();
+
+	private static final SimpleDateFormat DATE_FORMATTER = new SimpleDateFormat("yyyy-MM-dd");
+
+	public static class HistoryData {
+		public Date date;
+		public int order_count;
+		public int volume;
+		public double highest;
+		public double average;
+		public double lowest;
+	}
+
+	public List<HistoryData> getHistory(int itemId) {
+		List<HistoryData> ret = cachedHistories.get(itemId);
+		if (ret == null) {
+			String url = historyURL + "type_id=" + itemId;
+			ObjectMapper mapper = new ObjectMapper(); // just need one
+			mapper.setDateFormat(DATE_FORMATTER);
+			try {
+				ret = mapper.readValue(new URL(url), new TypeReference<List<HistoryData>>() {
+				});
+				cachedHistories.put(itemId, ret);
+			} catch (IOException e) {
+				throw new UnsupportedOperationException("catch this", e);
+			}
+		}
+		return ret;
+	}
+
+	public Stream<HistoryData> getHistoryAfter(int itemID, Date limit) {
+		return getHistory(itemID).stream().filter(h -> h.date.after(limit));
+	}
+
+	/**
+	 * get the total sell price of an item over last month
+	 *
+	 * @param itemId
+	 *          the id of the item
+	 * @param regionID
+	 *          the id of the region
+	 * @return
+	 */
+	public double getMonthTotalPrice(int itemId) {
+		double totalPrice = 0;
+		Calendar cal = Calendar.getInstance();
+		cal.add(Calendar.MONTH, -1);
+		Date firstDate = cal.getTime();
+		for (HistoryData d : getHistory(itemId)) {
+			if (d.date.after(firstDate)) {
+				totalPrice += d.volume * d.average;
+			}
+		}
+		return totalPrice;
+	}
+
+	public int getMonthNBOrders(int itemId) {
+		int totalOrders = 0;
+		Calendar cal = Calendar.getInstance();
+		cal.add(Calendar.MONTH, -1);
+		Date firstDate = cal.getTime();
+		for (HistoryData d : getHistory(itemId)) {
+			if (d.date.after(firstDate)) {
+				totalOrders += d.volume;
+			}
+		}
+		return totalOrders;
+	}
+
+	protected HashMap<Integer, MyOrder[]> cachedBOs = new HashMap<>();
+
+	/**
+	 * get the highest BO value for given item ID. eg if item 5 has 10 BO at 100,
+	 * 10 BO at 90, requesting 10 will return 1000, requesting 20 will return
+	 * 1900, requesting 11 will return 1090
+	 *
+	 * @param itemID
+	 *          the id of the item
+	 * @param quantity
+	 *          number of items to consider
+	 * @return the sum of highest quantity buy orders values.
+	 */
+	public double getBO(int itemID, long quantity) {
+		MyOrder[] cached = cachedBOs.get(itemID);
+		if (cached == null) {
+			cached = loadOrders(itemID, true);
+			cachedBOs.put(itemID, cached);
+		}
+		if (cached == null || cached.length == 0) {
+			return 0.0;
+		}
+		// recursively add the quantity first volume price.
+		double ret = 0;
+		for (MyOrder mo : cached) {
+			long vol = Math.min(mo.volume, quantity);
+			ret += mo.price * vol;
+			quantity -= vol;
+			if (quantity == 0) {
+				return ret;
+			}
+		}
+		// if there was not enough quantity to feed the request, we fill with the
+		// worst value.
+		ret += cached[cached.length - 1].price * quantity;
+		return ret;
+	}
+
+	public void cacheBOs(int... itemIDs) {
+		if (itemIDs == null) {
 			return;
 		}
-		cachedAverage = new HashMap<>();
-		cachedAdjusted = new HashMap<>();
-		ObjectMapper mapper = new ObjectMapper(); // just need one
-		try {
-			List<Map<String, ?>> l = mapper.readValue(new URL("https://esi.tech.ccp.is/latest/markets/prices/"), List.class);
-			for (Map<String, ?> m : l) {
-				Object oid = m.get("type_id");
-				int id = (Integer) oid;
-				cachedAverage.put(id, (Double) m.get("average_price"));
-				cachedAdjusted.put(id, (Double) m.get("adjusted_price"));
+		Map<Integer, MyOrder[]> syncBOs = Collections.synchronizedMap(cachedBOs);
+		IntStream.of(itemIDs).distinct().filter(i -> !syncBOs.containsKey(i)).parallel()
+		.forEach(i -> syncBOs.put(i, loadOrders(i, true)));
+	}
+
+	protected HashMap<Integer, MyOrder[]> cachedSOs = new HashMap<>();
+
+
+	/**
+	 * get the value of SO for given item ID and given quantity
+	 *
+	 * @param itemID
+	 *          the id of the item
+	 * @param quantity
+	 *          the total quantity to consider for SO
+	 * @return the sum of the quantity lowest SO values.
+	 */
+	public double getSO(int itemID, long quantity) {
+		MyOrder[] cached = cachedSOs.get(itemID);
+		if (cached == null) {
+			cached = loadOrders(itemID, false);
+			cachedSOs.put(itemID, cached);
+		}
+		if (cached == null || cached.length == 0) {
+			return 0.0;
+		}
+		double ret = 0;
+		for (MyOrder mo : cached) {
+			long vol = Math.min(mo.volume, quantity);
+			ret += mo.price * vol;
+			quantity -= vol;
+			if (quantity == 0) {
+				return ret;
 			}
-		} catch (IOException e) {
-			e.printStackTrace(System.err);
+		}
+		// if there was not enough quantity to feed the request, we fill with the
+		// worst value.
+		ret += cached[cached.length - 1].price * quantity;
+		return ret;
+	}
+
+	public void cacheSOs(int... itemIDs) {
+		if (itemIDs == null) {
+			return;
+		}
+		Map<Integer, MyOrder[]> syncSOs = Collections.synchronizedMap(cachedSOs);
+		IntStream.of(itemIDs).distinct().filter(i -> !syncSOs.containsKey(i)).parallel()
+		.forEach(i -> syncSOs.put(i, loadOrders(i, false)));
+	}
+
+	protected static class MarketOrder {
+		public long order_id;
+		public int type_id;
+		public long location_id;
+		public long volume_total;
+		public long volume_remain;
+		public long min_volume;
+		public double price;
+		public boolean is_buy_order;
+		public int duration;
+		public String issued;
+		public String range;
+	}
+
+	protected static class MyOrder {
+		public long volume;
+		public double price;
+
+		public MyOrder() {
+		}
+
+		public MyOrder(long volume, double price) {
+			this.volume = volume;
+			this.price = price;
 		}
 	}
 
-	public double getAdjusted(int itemId) {
-		dl();
-		return cachedAdjusted.getOrDefault(itemId, Double.POSITIVE_INFINITY);
+	protected final ObjectMapper mapper = new ObjectMapper();
+
+	protected MyOrder[] loadOrders(int itemID, boolean buy) {
+		System.err.println("retrieving " + (buy ? "buy" : "sell") + "data for id " + itemID);
+		String url = ordersURL + "type_id=" + itemID + "&order_type=" + (buy ? "buy" : "sell");
+		try {
+			MarketOrder[] orders = mapper.readValue(new URL(url), MarketOrder[].class);
+			MyOrder[] arr = Stream.of(orders).map(mo -> new MyOrder(mo.volume_remain, mo.price)).toArray(MyOrder[]::new);
+			Arrays.sort(arr, buy ? (mo1, mo2) -> (int) Math.signum(mo2.price - mo1.price)
+					: (mo1, mo2) -> (int) Math.signum(mo1.price - mo2.price));
+			return arr;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return new MyOrder[] {};
 	}
 
-	public double getAverage(int itemId) {
-		dl();
-		return cachedAverage.getOrDefault(itemId, Double.POSITIVE_INFINITY);
+	public static void main(String[] args) {
+		// jita region : the forge
+		ESIMarket esir = new ESIMarket(10000002);
+		MyOrder[] mos = esir.loadOrders(34, true);
+		for (MyOrder mo : mos) {
+			System.err.println(mo.price + " : " + mo.volume);
+		}
+		long firstOrderQtty = mos[0].volume;
+		System.err.println("price of " + firstOrderQtty + " trita : " + esir.getBO(34, firstOrderQtty));
 	}
+
 }
