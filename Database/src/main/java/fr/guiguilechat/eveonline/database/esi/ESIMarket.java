@@ -20,8 +20,10 @@ public class ESIMarket {
 
 	private final String historyURL;
 	private final String ordersURL;
+	public final int region;
 
 	public ESIMarket(int regionID) {
+		region = regionID;
 		historyURL = "https://esi.tech.ccp.is/dev/markets/" + regionID + "/history/?";
 		ordersURL = "https://esi.tech.ccp.is/latest/markets/" + regionID + "/orders/?";
 	}
@@ -117,7 +119,9 @@ public class ESIMarket {
 		if (cached == null || cached.length == 0) {
 			return 0.0;
 		}
-		// recursively add the quantity first volume price.
+		// System.err.println(cached.length + " orders for id " + itemID + " on
+		// region " + region);
+		// iteratively add the quantity first volume price.
 		double ret = 0;
 		for (MyOrder mo : cached) {
 			long vol = Math.min(mo.volume, quantity);
@@ -127,9 +131,8 @@ public class ESIMarket {
 				return ret;
 			}
 		}
-		// if there was not enough quantity to feed the request, we fill with the
-		// worst value.
-		ret += cached[cached.length - 1].price * quantity;
+		// if there was not enough quantity to feed the request, we cfan't sell it.
+		// so the BO is 0
 		return ret;
 	}
 
@@ -161,7 +164,7 @@ public class ESIMarket {
 			cachedSOs.put(itemID, cached);
 		}
 		if (cached == null || cached.length == 0) {
-			return 0.0;
+			return Double.POSITIVE_INFINITY;
 		}
 		double ret = 0;
 		for (MyOrder mo : cached) {
@@ -172,10 +175,9 @@ public class ESIMarket {
 				return ret;
 			}
 		}
-		// if there was not enough quantity to feed the request, we fill with the
-		// worst value.
-		ret += cached[cached.length - 1].price * quantity;
-		return ret;
+		// if there was not enough quantity to feed the request, we set the price to
+		// infinite. we CANT buy that many items
+		return Double.POSITIVE_INFINITY;
 	}
 
 	public void cacheSOs(int... itemIDs) {
@@ -217,7 +219,8 @@ public class ESIMarket {
 	protected final ObjectMapper mapper = new ObjectMapper();
 
 	protected MyOrder[] loadOrders(int itemID, boolean buy) {
-		System.err.println("retrieving " + (buy ? "buy" : "sell") + "data for id " + itemID);
+		// System.err.println("retrieving " + (buy ? "buy" : "sell") + "data for id
+		// " + itemID);
 		String url = ordersURL + "type_id=" + itemID + "&order_type=" + (buy ? "buy" : "sell");
 		try {
 			MarketOrder[] orders = mapper.readValue(new URL(url), MarketOrder[].class);
@@ -226,10 +229,8 @@ public class ESIMarket {
 					: (mo1, mo2) -> (int) Math.signum(mo1.price - mo2.price));
 			return arr;
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			return new MyOrder[] {};
 		}
-		return new MyOrder[] {};
 	}
 
 	public static void main(String[] args) {
