@@ -33,7 +33,6 @@ public class ESIUniverse {
 		Station ret = cachedStations.get(id);
 		if (ret == null && !cachedStations.containsKey(id)) {
 			try {
-				System.err.println("uni station " + id);
 				ret = om.readValue(new URL(stationURL + id), Station.class);
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
@@ -63,7 +62,6 @@ public class ESIUniverse {
 		Systems ret = cachedSystems.get(id);
 		if (ret == null && !cachedSystems.containsKey(id)) {
 			try {
-				System.err.println("uni system " + id);
 				ret = om.readValue(new URL(systemURL + id), Systems.class);
 			} catch (IOException e) {
 				// TODO Auto-generated catch block

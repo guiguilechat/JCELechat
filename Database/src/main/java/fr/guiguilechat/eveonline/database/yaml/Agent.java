@@ -12,7 +12,5 @@ public class Agent {
 	public int level;
 	public String location;
 	public String system;
-	public String constellation;
-	public String region;
 
 }

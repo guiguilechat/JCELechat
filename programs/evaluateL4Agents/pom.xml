@@ -5,10 +5,8 @@
     <artifactId>programs</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
+  <artifactId>evaluateL4Agents</artifactId>
   <groupId>fr.guiguilechat.eveonline.programs</groupId>
-  <artifactId>EvaluateRigMarket</artifactId>
-  <name>Evaluate Rig Market</name>
-  <description>Evaluate production of rig on a given system</description>
   <dependencies>
   	<dependency>
   		<groupId>ch.qos.logback</groupId>

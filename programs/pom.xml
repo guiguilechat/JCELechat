@@ -12,5 +12,12 @@
   <description>pom for all main programs</description>
   <modules>
   	<module>EvaluateRigMarket</module>
+  	<module>evaluateL4Agents</module>
   </modules>
+  <dependencies>
+  	<dependency>
+  		<groupId>fr.guiguilechat.eveonline</groupId>
+  		<artifactId>DataBase</artifactId>
+  	</dependency>
+  </dependencies>
 </project>

@@ -46,4 +46,6 @@ public class Location {
 		return minSec <= 0;
 	}
 
+	public String[] neighbourSystems;
+
 }
