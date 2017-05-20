@@ -39,6 +39,7 @@ public class EtypeIDs {
 	}
 
 	public static final File FILE = new File(SDECache.CACHEDIR, "sde/fsd/typeIDs.yaml");
+
 	@SuppressWarnings("unchecked")
 	public static LinkedHashMap<Integer, EtypeIDs> load() {
 		SDECache.donwloadSDE();

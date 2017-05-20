@@ -65,6 +65,8 @@ public class YamlDatabase extends DataBase {
 		td.putMapPropertyType("blueprints", String.class, Blueprint.class);
 		td.putMapPropertyType("metaInfs", String.class, MetaInf.class);
 		td.putMapPropertyType("locations", String.class, Location.class);
+		td.putListPropertyType("lpoffers", LPOffer.class);
+		td.putMapPropertyType("agents", String.class, Agent.class);
 		ret.addTypeDescription(td);
 		return ret;
 	}
@@ -232,6 +234,23 @@ public class YamlDatabase extends DataBase {
 			}
 		}
 		return lpoffers;
+	}
+
+	public LinkedHashMap<String, Agent> agents = null;
+
+	@Override
+	public LinkedHashMap<String, Agent> getAgents() {
+		if (agents == null) {
+			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_AGENTS_RES);
+			DatabaseFile db = stream != null ? load(stream) : null;
+			if (db != null) {
+				agents = db.agents;
+			} else {
+				System.err.println("can't load agents");
+				agents = new LinkedHashMap<>();
+			}
+		}
+		return agents;
 	}
 
 }

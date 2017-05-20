@@ -7,6 +7,7 @@ import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.database.esi.ESIBasePrices;
 import fr.guiguilechat.eveonline.database.esi.ESIMarket;
+import fr.guiguilechat.eveonline.database.yaml.Agent;
 import fr.guiguilechat.eveonline.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Hull;
@@ -26,9 +27,13 @@ public abstract class DataBase {
 
 	public abstract LinkedHashMap<String, Blueprint> getBlueprints();
 
+	public abstract LinkedHashMap<String, Location> getLocations();
+
 	public abstract LinkedHashMap<String, MetaInf> getMetaInfs();
 
 	public abstract ArrayList<LPOffer> getLPOffers();
+
+	public abstract LinkedHashMap<String, Agent> getAgents();
 
 	protected HashMap<Integer, String> elementById = null;
 
@@ -41,8 +46,6 @@ public abstract class DataBase {
 		}
 		return elementById.get(id);
 	}
-
-	public abstract LinkedHashMap<String, Location> getLocations();
 
 	public Type getTypeByName(String name) {
 		Type ret = getHulls().get(name);
@@ -112,6 +115,18 @@ public abstract class DataBase {
 			return null;
 		}
 		return ESIRegion(location.locationID);
+	}
+
+	protected HashMap<Integer, Location> locationsById = null;
+
+	public HashMap<Integer, Location> getLocationById() {
+		if (locationsById == null) {
+			locationsById = new HashMap<>();
+			for (Entry<String, Location> e : getLocations().entrySet()) {
+				locationsById.put(e.getValue().locationID, e.getValue());
+			}
+		}
+		return locationsById;
 	}
 
 }

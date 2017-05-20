@@ -10,6 +10,9 @@ import java.util.Set;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+import fr.guiguilechat.eveonline.sde.bsd.EagtAgentTypes;
+import fr.guiguilechat.eveonline.sde.bsd.EagtAgents;
+import fr.guiguilechat.eveonline.sde.bsd.EcrpNPCDivisions;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmAttributeTypes;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmEffects;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeAttributes;
@@ -37,6 +40,24 @@ public class SDEData {
 			cachedAttributeTypes = EdgmAttributeTypes.loadByAttributeID();
 		}
 		return cachedAttributeTypes;
+	}
+
+	protected ArrayList<EagtAgents> cachedAgents = null;
+
+	public ArrayList<EagtAgents> getAgents() {
+		if (cachedAgents == null) {
+			cachedAgents = EagtAgents.load();
+		}
+		return cachedAgents;
+	}
+
+	protected HashMap<Integer, String> cachedAgentTypes = null;
+
+	public HashMap<Integer, String> getAgentTypes() {
+		if (cachedAgentTypes == null) {
+			cachedAgentTypes = EagtAgentTypes.loadById();
+		}
+		return cachedAgentTypes;
 	}
 
 	protected LinkedHashMap<Integer, EdgmEffects> cachedEffects = null;
@@ -69,6 +90,15 @@ public class SDEData {
 			cachedTypeEffects = EdgmTypeEffects.loadByTypeIDEffectID();
 		}
 		return cachedTypeEffects;
+	}
+
+	protected HashMap<Integer, String> crpDivisions = null;
+
+	public HashMap<Integer, String> getNPCDivisions() {
+		if (crpDivisions == null) {
+			crpDivisions = EcrpNPCDivisions.loadById();
+		}
+		return crpDivisions;
 	}
 
 	// fsd

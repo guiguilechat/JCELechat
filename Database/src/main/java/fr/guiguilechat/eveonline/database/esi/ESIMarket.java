@@ -22,6 +22,15 @@ public class ESIMarket {
 	private final String ordersURL;
 	public final int region;
 
+
+	private static final SimpleDateFormat DATE_FORMATTER = new SimpleDateFormat("yyyy-MM-dd");
+	private final ObjectMapper datedMapper = new ObjectMapper();
+	{
+		datedMapper.setDateFormat(DATE_FORMATTER);
+	}
+
+	private final ObjectMapper mapper = new ObjectMapper();
+
 	public ESIMarket(int regionID) {
 		region = regionID;
 		historyURL = "https://esi.tech.ccp.is/dev/markets/" + regionID + "/history/?";
@@ -29,9 +38,6 @@ public class ESIMarket {
 	}
 
 	private HashMap<Integer, List<HistoryData>> cachedHistories = new HashMap<>();
-
-	private static final SimpleDateFormat DATE_FORMATTER = new SimpleDateFormat("yyyy-MM-dd");
-
 	public static class HistoryData {
 		public Date date;
 		public int order_count;
@@ -45,10 +51,8 @@ public class ESIMarket {
 		List<HistoryData> ret = cachedHistories.get(itemId);
 		if (ret == null) {
 			String url = historyURL + "type_id=" + itemId;
-			ObjectMapper mapper = new ObjectMapper(); // just need one
-			mapper.setDateFormat(DATE_FORMATTER);
 			try {
-				ret = mapper.readValue(new URL(url), new TypeReference<List<HistoryData>>() {
+				ret = datedMapper.readValue(new URL(url), new TypeReference<List<HistoryData>>() {
 				});
 				cachedHistories.put(itemId, ret);
 			} catch (IOException e) {
@@ -215,8 +219,6 @@ public class ESIMarket {
 			this.price = price;
 		}
 	}
-
-	protected final ObjectMapper mapper = new ObjectMapper();
 
 	protected MyOrder[] loadOrders(int itemID, boolean buy) {
 		// System.err.println("retrieving " + (buy ? "buy" : "sell") + "data for id

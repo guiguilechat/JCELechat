@@ -2,8 +2,11 @@ package fr.guiguilechat.eveonline.database.esi;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.Map.Entry;
+import java.util.stream.IntStream;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -23,12 +26,14 @@ public class ESINpcCorporations {
 
 	private final String CORPORATIONS_LIST_URL = "https://esi.tech.ccp.is/latest/corporations/npccorps";
 
+	private final ObjectMapper om = new ObjectMapper();
+
 	int[] ids = null;
 
 	public int[] getIDs() {
 		if (ids == null) {
 			try {
-				ids = new ObjectMapper().readValue(new URL(CORPORATIONS_LIST_URL), int[].class);
+				ids = om.readValue(new URL(CORPORATIONS_LIST_URL), int[].class);
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -39,22 +44,52 @@ public class ESINpcCorporations {
 
 	private final String CORPORATIONS_DETAIL_URL = "https://esi.tech.ccp.is/latest/corporations/";
 
-	LinkedHashMap<Integer, Corporation> corpos = null;
+	private LinkedHashMap<Integer, Corporation> cachedCorpos = null;
+
+	/** set to true when all corporations are loaded */
+	private boolean fullLoad = false;
 
 	public LinkedHashMap<Integer, Corporation> getCorpos() {
-		if (corpos == null) {
-			corpos = new LinkedHashMap<>();
-			for (int corpId : getIDs()) {
-				corpos.put(corpId, getCorporation(corpId));
-			}
+		// first case : we loaded NO corporation. load all.
+		if (cachedCorpos == null) {
+			cachedCorpos = new LinkedHashMap<>();
+			Map<Integer, Corporation> syncCache = Collections.synchronizedMap(cachedCorpos);
+			IntStream.of(getIDs()).parallel().forEach(i -> syncCache.put(i, loadCorporation(i)));
+			fullLoad = true;
 		}
-		return corpos;
+		// second case : we got some corporations already. load all the other ones.
+		if (!fullLoad) {
+			Map<Integer, Corporation> syncCache = Collections.synchronizedMap(cachedCorpos);
+			IntStream.of(getIDs()).filter(i -> !syncCache.containsKey(i)).parallel()
+			.forEach(i -> syncCache.put(i, loadCorporation(i)));
+			fullLoad = true;
+		}
+		return cachedCorpos;
 	}
 
-	public Corporation getCorporation(int id) {
+	/**
+	 * get corporation informations
+	 *
+	 * @param id
+	 *          the corporation id
+	 * @return the cached data. if not in cache, cache it.
+	 */
+	public Corporation getCorpo(int id) {
+		if (cachedCorpos == null) {
+			cachedCorpos = new LinkedHashMap<>();
+		}
+		Corporation corpo = cachedCorpos.get(id);
+		if (corpo == null) {
+			corpo = loadCorporation(id);
+			cachedCorpos.put(id, corpo);
+		}
+		return corpo;
+	}
+
+	protected Corporation loadCorporation(int id) {
 		Corporation ret = null;
 		try {
-			ret = new ObjectMapper().readValue(new URL(CORPORATIONS_DETAIL_URL + id), Corporation.class);
+			ret = om.readValue(new URL(CORPORATIONS_DETAIL_URL + id), Corporation.class);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

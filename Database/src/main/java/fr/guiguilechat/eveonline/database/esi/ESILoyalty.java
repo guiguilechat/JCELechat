@@ -4,9 +4,14 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.HashMap;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class ESILoyalty {
+
+	private static final Logger logger = LoggerFactory.getLogger(ESILoyalty.class);
 
 	private static final String baseURL = "https://esi.tech.ccp.is/latest/loyalty/stores/";
 
@@ -25,17 +30,18 @@ public class ESILoyalty {
 
 	}
 
+	private ObjectMapper om = new ObjectMapper();
+
 	private final HashMap<Integer, Offer[]> cache = new HashMap<>();
 
 	public Offer[] getOffers(int id) {
 		Offer[] ret = cache.get(id);
 		if (ret == null) {
 			try {
-				ret = new ObjectMapper().readValue(new URL(baseURL + id + "/offers/"),
+				ret = om.readValue(new URL(baseURL + id + "/offers/"),
 						Offer[].class);
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+				logger.debug("can't get LP store for id " + id);
 			}
 			cache.put(id, ret);
 		}

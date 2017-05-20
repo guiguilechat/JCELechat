@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
@@ -15,12 +16,17 @@ import java.util.Set;
 
 import org.yaml.snakeyaml.Yaml;
 
+import fr.guiguilechat.eveonline.database.esi.ESICharacter;
 import fr.guiguilechat.eveonline.database.esi.ESILoyalty;
 import fr.guiguilechat.eveonline.database.esi.ESILoyalty.Offer;
 import fr.guiguilechat.eveonline.database.esi.ESILoyalty.Offer.ItemReq;
 import fr.guiguilechat.eveonline.database.esi.ESINpcCorporations;
 import fr.guiguilechat.eveonline.database.esi.ESINpcCorporations.Corporation;
+import fr.guiguilechat.eveonline.database.esi.ESIUniverse;
+import fr.guiguilechat.eveonline.database.esi.ESIUniverse.Station;
+import fr.guiguilechat.eveonline.database.esi.ESIUniverse.Systems;
 import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDEData;
+import fr.guiguilechat.eveonline.database.yaml.Agent;
 import fr.guiguilechat.eveonline.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint.Activity;
@@ -33,6 +39,7 @@ import fr.guiguilechat.eveonline.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.database.yaml.Module;
 import fr.guiguilechat.eveonline.database.yaml.Type;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.sde.bsd.EagtAgents;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeEffects;
 import fr.guiguilechat.eveonline.sde.cache.SDECache;
@@ -68,6 +75,9 @@ public class SDEDumper {
 	public static final String DB_LPOFFERS_RES = "SDEDump/lpoffers.yaml";
 	public static final File DB_LPOFFERS_FILE = new File("src/main/resources", DB_LPOFFERS_RES);
 
+	public static final String DB_AGENTS_RES = "SDEDump/agents.yaml";
+	public static final File DB_AGENTS_FILE = new File("src/main/resources", DB_AGENTS_RES);
+
 	public static void main(String[] args) throws IOException {
 		DatabaseFile db = loadDb();
 		DB_DIR.mkdirs();
@@ -102,12 +112,46 @@ public class SDEDumper {
 		db.lpoffers = new ArrayList<>();
 		YamlDatabase.write(dbLPOffers, DB_LPOFFERS_FILE);
 
+		DatabaseFile dbAgents = new DatabaseFile();
+		dbAgents.agents = db.agents;
+		db.agents = new LinkedHashMap<>();
+		YamlDatabase.write(dbAgents, DB_AGENTS_FILE);
+
 		YamlDatabase.write(db, DB_HULLS_FILE);
 	}
 
 	public static DatabaseFile loadDb() throws FileNotFoundException {
 		SDEData sde = new SDEData();
 		DatabaseFile db = new DatabaseFile();
+		ESINpcCorporations corps = new ESINpcCorporations();
+		ESICharacter chars = new ESICharacter();
+		ESIUniverse uni = new ESIUniverse();
+
+		loadShipModules(sde, db);
+
+		loadAsteroids(sde, db);
+
+		loadBlueprints(sde, db);
+
+		loadLocations(sde, db);
+
+		loadMetaInfs(sde, db);
+
+		// those two must remains at the end because they need the other
+		// informations.
+
+		loadLPOffers(sde, db, corps);
+
+
+		loadAgents(sde, db, corps, chars, uni);
+
+		System.err.println("missings ids " + sde.missings);
+
+		return db;
+	}
+
+	public static void loadShipModules(SDEData sde, DatabaseFile db) throws FileNotFoundException {
+
 		Set<Integer> shipGroups = new HashSet<>();
 		Set<Integer> modulesGroups = new HashSet<>();
 		findShipModuleGroups(shipGroups, modulesGroups);
@@ -167,20 +211,6 @@ public class SDEDumper {
 			}
 			addModuleAttributes(m, atts);
 		}
-
-		loadAsteroids(sde, db);
-
-		loadBlueprints(sde, db);
-
-		loadLocations(sde, db);
-
-		loadMetaInfs(sde, db);
-
-		loadLPOffers(sde, db);
-
-		System.err.println("missings ids " + sde.missings);
-
-		return db;
 	}
 
 	/**
@@ -545,9 +575,8 @@ public class SDEDumper {
 		}
 	}
 
-	public static void loadLPOffers(SDEData sde, DatabaseFile db) {
+	public static void loadLPOffers(SDEData sde, DatabaseFile db, ESINpcCorporations corps) {
 		ESILoyalty loyalty = new ESILoyalty();
-		ESINpcCorporations corps = new ESINpcCorporations();
 		for (Entry<Integer, Corporation> e : corps.getCorpos().entrySet()) {
 			for (Offer o : loyalty.getOffers(e.getKey())) {
 				LPOffer lpo = new LPOffer();
@@ -583,6 +612,49 @@ public class SDEDumper {
 				db.lpoffers.add(lpo);
 			}
 		}
+		// lp offers are sorted by corporation, offer name
+		Collections.sort(db.lpoffers, (o1, o2) -> {
+			int ret = o1.corporation.compareTo(o2.corporation);
+			if (ret == 0) {
+				ret = o1.offer_name.compareTo(o2.offer_name);
+			}
+			if (ret == 0) {
+				ret = o1.requirements.lp - o2.requirements.lp;
+			}
+			if (ret == 0) {
+				ret =o1.requirements.isk-o2.requirements.isk;
+			}
+			return ret;
+		});
+	}
+
+
+	public static void loadAgents(SDEData sde, DatabaseFile db, ESINpcCorporations corps, ESICharacter chars,
+			ESIUniverse uni) {
+		ArrayList<EagtAgents> sdeAgents = sde.getAgents();
+		HashMap<Integer, String> agtTypes = sde.getAgentTypes();
+		HashMap<Integer, String> crpDivisions = sde.getNPCDivisions();
+		Map<Integer, String> names = chars.getNames(sdeAgents.stream().mapToInt(a -> a.agentID).toArray());
+
+		sdeAgents.parallelStream().map(ea -> {
+			Agent ag = new Agent();
+			ag.agentID = ea.agentID;
+			ag.name = names.get(ag.agentID);
+			Corporation corp = corps.getCorpo(ea.corporationID);
+			ag.corporation = corp.corporation_name;
+			ag.faction = corp.faction;
+			ag.isLocator = ea.isLocator;
+			ag.level = ea.level;
+			ag.agentType = agtTypes.get(ea.agentTypeID);
+			ag.division = crpDivisions.get(ea.divisionID);
+			Station station = uni.getStation(ea.locationID);
+			if (station != null) {
+				ag.location = station.name;
+				Systems sys = uni.getSystem(station.system_id);
+				ag.system = sys.name;
+			}
+			return ag;
+		}).sorted((a1, a2) -> a1.name.compareTo(a2.name)).forEachOrdered(a -> db.agents.put(a.name, a));
 	}
 
 }

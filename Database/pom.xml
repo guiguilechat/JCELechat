@@ -38,6 +38,11 @@
 			<groupId>fr.guiguilechat.eveonline</groupId>
 			<artifactId>SDECompiler</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<optional>true</optional>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -60,4 +65,7 @@
 			</plugin>
 		</plugins>
 	</build>
+	<description>generates local helper files from the CCP SDE and ESI.
+
+Those files use String description instead of internal references (IDs), thought the id is kept to be able to call ESI or eve central eg.</description>
 </project>

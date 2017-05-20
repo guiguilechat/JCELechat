@@ -12,8 +12,16 @@ import java.util.zip.ZipInputStream;
 
 import org.jsoup.Jsoup;
 import org.jsoup.select.Elements;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+/**
+ * store the SDE locally
+ *
+ */
 public class SDECache {
+
+	private static final Logger logger = LoggerFactory.getLogger(SDECache.class);
 
 	/**
 	 * where we want to extract the SDE
@@ -43,6 +51,11 @@ public class SDECache {
 		try {
 			if (LAST_DL.exists() && url.equals(new BufferedReader(new FileReader(LAST_DL)).readLine())) {
 				return;
+			}
+			if(LAST_DL.exists()) {
+				logger.info("new version of sde to download from " + url);
+			} else {
+				logger.info("no existing download information, downloading sde from " + url);
 			}
 		} catch (IOException e1) {
 			System.err.println(e1);
