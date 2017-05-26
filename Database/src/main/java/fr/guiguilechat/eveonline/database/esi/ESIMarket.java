@@ -140,11 +140,12 @@ public class ESIMarket {
 		return ret;
 	}
 
+	private Map<Integer, MyOrder[]> syncBOs = Collections.synchronizedMap(cachedBOs);
+
 	public void cacheBOs(int... itemIDs) {
 		if (itemIDs == null) {
 			return;
 		}
-		Map<Integer, MyOrder[]> syncBOs = Collections.synchronizedMap(cachedBOs);
 		IntStream.of(itemIDs).distinct().filter(i -> !syncBOs.containsKey(i)).parallel()
 		.forEach(i -> syncBOs.put(i, loadOrders(i, true)));
 	}
@@ -184,11 +185,12 @@ public class ESIMarket {
 		return Double.POSITIVE_INFINITY;
 	}
 
+	private Map<Integer, MyOrder[]> syncSOs = Collections.synchronizedMap(cachedSOs);
+
 	public void cacheSOs(int... itemIDs) {
 		if (itemIDs == null) {
 			return;
 		}
-		Map<Integer, MyOrder[]> syncSOs = Collections.synchronizedMap(cachedSOs);
 		IntStream.of(itemIDs).distinct().filter(i -> !syncSOs.containsKey(i)).parallel()
 		.forEach(i -> syncSOs.put(i, loadOrders(i, false)));
 	}

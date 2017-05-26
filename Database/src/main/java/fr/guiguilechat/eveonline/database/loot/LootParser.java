@@ -187,6 +187,7 @@ public class LootParser {
 		int state = 0;
 		String line = null;
 		LootEntry entry = null;
+		@SuppressWarnings("resource")
 		BufferedReader br = new BufferedReader(new FileReader(lootFile));
 		while ((line = br.readLine()) != null) {
 			// System.err.println(line);

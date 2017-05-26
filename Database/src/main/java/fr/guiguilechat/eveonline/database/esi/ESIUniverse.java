@@ -30,6 +30,9 @@ public class ESIUniverse {
 	protected HashMap<Integer, Station> cachedStations = new HashMap<>();
 
 	public Station getStation(int id) {
+		if (id / 10000000 == 3) {
+			return null;
+		}
 		Station ret = cachedStations.get(id);
 		if (ret == null && !cachedStations.containsKey(id)) {
 			try {

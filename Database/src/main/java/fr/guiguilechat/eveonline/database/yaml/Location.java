@@ -46,6 +46,8 @@ public class Location {
 		return minSec <= 0;
 	}
 
-	public String[] neighbourSystems;
+	public String[] adjacentSystems = {};
+	public String[] adjacentRegions = {};
+	public String[] adjacentConstels = {};
 
 }

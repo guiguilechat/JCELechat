@@ -7700,7 +7700,7 @@ metaInfs:
     - Apocalypse Blood Raider Edition Blueprint
     - Apocalypse Kador Edition Blueprint
     - Apocalypse Tash-Murkon Edition Blueprint
-    - 灾难级YC117年特��版蓝图
+    - 灾难级YC117年特别版蓝图
     productOf:
     - Apocalypse Blueprint
   Armageddon:
@@ -25303,7 +25303,7 @@ metaInfs:
   Ishtar:
     id: 12005
     productIn:
-    - 伊什塔级YC117年特别版蓝图
+    - 伊什���级YC117年特别版蓝图
     productOf:
     - Ishtar Blueprint
   Ishtar Blueprint:
@@ -31157,7 +31157,7 @@ metaInfs:
   Gila:
     id: 17715
     productIn:
-    - 毒蜥级YC117年特别版蓝图
+    - 毒蜥级YC117年��别版蓝图
     productOf:
     - Gila Blueprint
   Gila Blueprint:
@@ -55006,11 +55006,11 @@ metaInfs:
     id: 32389
   Sealed Research Cache:
     id: 32393
-  Lieutenant Kipo “Foxfire” Tekira:
+  Lieutenant Kipo ��Foxfire” Tekira:
     id: 32398
   Caldari Navy Overlay Transponder:
     id: 32403
-  Holoreel �� Torture Log I15B:
+  Holoreel – Torture Log I15B:
     id: 32407
   Correspondence Log KL-513:
     id: 32408
@@ -57547,7 +57547,7 @@ metaInfs:
     id: 34419
   Cooking With Veldspar:
     id: 34420
-  Chribba���s Modified Strip Miner:
+  Chribba’s Modified Strip Miner:
     id: 34421
   Rooks & Kings – The Clarion Call Compilation:
     id: 34422
@@ -57605,15 +57605,15 @@ metaInfs:
     id: 34468
   乌鸦级YC117年特别版蓝图:
     id: 34470
-  灾难级YC117年特��版蓝图:
+  灾难级YC117年特别版蓝图:
     id: 34472
   幼龙级YC117年特别版蓝图:
     id: 34474
-  毒蜥级YC117年特别版蓝图:
+  毒蜥级YC117年��别版蓝图:
     id: 34476
   银鹰级YC117年特别版蓝图:
     id: 34478
-  伊什塔级YC117年特别版蓝图:
+  伊什���级YC117年特别版蓝图:
     id: 34480
   Domination Inertial Stabilizers:
     id: 34481
@@ -62712,7 +62712,7 @@ metaInfs:
     id: 40515
   Skill Extractor:
     id: 40519
-  Skill Injector:
+  Large Skill Injector:
     id: 40520
   Upwell Palatine Keepstar Blueprint:
     id: 40521
@@ -65343,7 +65343,7 @@ metaInfs:
     id: 41566
     productOf:
     - Capital Inductive Compact Remote Capacitor Transmitter Blueprint
-  'Women''s ���Mirelle” Upwell Executive Spectacles ':
+  'Women''s “Mirelle” Upwell Executive Spectacles ':
     id: 41575
   Men's “Mirelle” Upwell Executive Spectacles:
     id: 41576
@@ -67773,6 +67773,8 @@ metaInfs:
     id: 45581
   Erebus Ruby Sungrazer SKIN (Permanent):
     id: 45582
+  Small Skill Injector:
+    id: 45635
   Haunter Cruise Missile:
     productOf:
     - Sansha Wrath Cruise Missile Blueprint
@@ -68061,13 +68063,13 @@ metaInfs:
   末日沙场级YC117年特别版:
     productOf:
     - 末日沙场级YC117年特别版蓝图
-  地狱天使级YC117��特别版:
+  地狱天使级YC117年特别版:
     productOf:
     - 地狱天使级YC117年特别版蓝图
   马克瑞级YC117年特别版:
     productOf:
     - 马克瑞级YC117年特别版蓝图
-  响尾蛇级YC117年特别版:
+  响尾蛇级YC117年特��版:
     productOf:
     - 响尾蛇级YC117年特别版蓝图
   多米尼克斯级YC117年特别版:
@@ -68076,24 +68078,24 @@ metaInfs:
   万王宝座级YC117年特别版:
     productOf:
     - 万王宝座级YC117年特别版蓝图
-  乌鸦级YC117���特别版:
+  乌鸦级YC117年特别版:
     productOf:
     - 乌鸦级YC117年特别版蓝图
   灾难级YC117年特别版:
     productOf:
-    - 灾难级YC117年特��版蓝图
+    - 灾难级YC117年特别版蓝图
   幼龙级YC117年特别版:
     productOf:
     - 幼龙级YC117年特别版蓝图
-  ���蜥级YC117年特别版:
+  毒蜥级YC117年特别版:
     productOf:
-    - 毒蜥级YC117年特别版蓝图
+    - 毒蜥级YC117年��别版蓝图
   银鹰级YC117年特别版:
     productOf:
     - 银鹰级YC117年特别版蓝图
   伊什塔级YC117年特别版:
     productOf:
-    - 伊什塔级YC117年特别版蓝图
+    - 伊什���级YC117年特别版蓝图
   TE-2100 Ample XL Torpedo Launcher:
     productOf:
     - TE-2100 Ample XL Torpedo Launcher Blueprint

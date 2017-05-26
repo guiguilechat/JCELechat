@@ -2,12 +2,15 @@ package fr.guiguilechat.eveonline.programs;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map.Entry;
+import java.util.stream.Collectors;
 
 import fr.guiguilechat.eveonline.database.DataBase;
 import fr.guiguilechat.eveonline.database.esi.ESIMarket;
@@ -49,7 +52,7 @@ public class LPCorpEvaluator {
 		ArrayList<LPOffer> lpos = new ArrayList<>(db.getLPOffers());
 		lpos.removeIf(n -> !corpName.equals(n.corporation) || n.requirements.lp == 0);
 		System.err.println(" corp has " + lpos.size() + " offers");
-		ArrayList<OfferAnalysis> res = analyseoffers(market, lpos);
+		List<OfferAnalysis> res = analyseoffers(market, lpos);
 		double ret = res.size() < 1 ? 0.0 : res.get(0).iskPerLP;
 		System.err
 		.println(res.size() == 0 ? " none interesting" : " best one is " + ret + " for " + res.get(0).offer.offer_name);
@@ -66,33 +69,36 @@ public class LPCorpEvaluator {
 	 *          lp offers
 	 * @return a new list of the corresponding offer analyses.
 	 */
-	public ArrayList<OfferAnalysis> analyseoffers(ESIMarket market, Iterable<LPOffer> lpos) {
+	public List<OfferAnalysis> analyseoffers(ESIMarket market, Collection<LPOffer> lpos) {
 
-		ArrayList<OfferAnalysis> offers = new ArrayList<>();
 		HashSet<Integer> allBOIDs = new HashSet<>();
 		HashSet<Integer> allSOIDs = new HashSet<>();
+
 		for (LPOffer lpo : lpos) {
 			allBOIDs.add(lpo.product.type_id);
 			for (ItemRef e : lpo.requirements.items) {
 				allSOIDs.add(e.type_id);
 			}
 		}
-
 		market.cacheBOs(allBOIDs.stream().mapToInt(i -> i).toArray());
 
-		for (LPOffer lpo : lpos) {
-			OfferAnalysis ana = analyse(lpo, market);
-			if (ana != null) {
-				offers.add(ana);
-			}
+		List<OfferAnalysis> offers = lpos.parallelStream().map(lp -> analyse(lp, market)).filter(o -> o != null)
+				.collect(Collectors.toList());
+
+		try {
+			Collections.sort(offers, (oa1, oa2) -> (int) Math.signum(oa2.iskPerLP - oa1.iskPerLP));
+		} catch (Exception e) {
+			System.err.println(Arrays.asList(offers));
+			throw new UnsupportedOperationException(e);
 		}
-		Collections.sort(offers, (oa1, oa2) -> (int) Math.signum(oa2.iskPerLP - oa1.iskPerLP));
 		groupOrders(offers);
 		return offers;
 	}
 
 	public static void main(String[] args) {
 		LPCorpEvaluator eval = new LPCorpEvaluator();
+		int streamthreads = Runtime.getRuntime().availableProcessors() * 100;
+		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + streamthreads);
 
 		LinkedHashMap<String, ESIMarket> markets = new LinkedHashMap<>();
 		markets.put("Jita", new ESIMarket(10000002));
@@ -112,9 +118,9 @@ public class LPCorpEvaluator {
 		System.err.println("lp offers loaded");
 
 		for (Entry<String, ESIMarket> me : markets.entrySet()) {
-			System.err.println("");
-			System.err.println(me.getKey() + " :");
-			ArrayList<OfferAnalysis> offers = eval.analyseoffers(me.getValue(), lpos);
+			System.out.println("");
+			System.out.println(me.getKey() + " :");
+			List<OfferAnalysis> offers = eval.analyseoffers(me.getValue(), lpos);
 			for (OfferAnalysis oa : offers) {
 				System.out.println(oa.offer.offer_name + " ( " + oa.offer.requirements.lp + " lp ): " + oa.iskPerLP
 						+ " isk/LP ; " + oa.offerGroup);
@@ -146,10 +152,9 @@ public class LPCorpEvaluator {
 		}
 		double reqSO = o.requirements.isk * mult;
 		market.cacheSOs(o.requirements.items.stream().mapToInt(ir -> ir.type_id).toArray());
-		for (ItemRef rq : o.requirements.items) {
-			double itemprice = market.getSO(rq.type_id, rq.quantity * mult);
-			reqSO += itemprice;
-		}
+
+		reqSO += o.requirements.items.parallelStream().mapToDouble(rq -> market.getSO(rq.type_id, rq.quantity * mult))
+				.sum();
 		ret.iskPerLP = (prodBO - reqSO) / o.requirements.lp / mult;
 		return ret.iskPerLP >= minReturn ? ret : null;
 	}
@@ -159,7 +164,7 @@ public class LPCorpEvaluator {
 	 *
 	 * @param offers
 	 */
-	public static void groupOrders(ArrayList<OfferAnalysis> offers) {
+	public static void groupOrders(List<OfferAnalysis> offers) {
 		OfferAnalysis previous = null;
 		for (Iterator<OfferAnalysis> it = offers.iterator(); it.hasNext();) {
 			OfferAnalysis oa = it.next();

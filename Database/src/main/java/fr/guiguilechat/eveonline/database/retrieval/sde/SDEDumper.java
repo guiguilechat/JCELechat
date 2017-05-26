@@ -14,7 +14,11 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.yaml.snakeyaml.TypeDescription;
 import org.yaml.snakeyaml.Yaml;
+import org.yaml.snakeyaml.constructor.Constructor;
 
 import fr.guiguilechat.eveonline.database.esi.ESICharacter;
 import fr.guiguilechat.eveonline.database.esi.ESILoyalty;
@@ -48,9 +52,13 @@ import fr.guiguilechat.eveonline.sde.fsd.Eblueprints.Material;
 import fr.guiguilechat.eveonline.sde.fsd.EcategoryIDs;
 import fr.guiguilechat.eveonline.sde.fsd.EgroupIDs;
 import fr.guiguilechat.eveonline.sde.fsd.EtypeIDs;
+import fr.guiguilechat.eveonline.sde.fsd.SolarSystemStaticData;
+import fr.guiguilechat.eveonline.sde.fsd.SolarSystemStaticData.Stargate;
 import fr.guiguilechat.eveonline.sde.model.IndustryUsages;
 
 public class SDEDumper {
+
+	private static final Logger logger = LoggerFactory.getLogger(SDEDumper.class);
 
 	public static final File DB_DIR = new File("src/main/resources/SDEDump/");
 
@@ -127,25 +135,31 @@ public class SDEDumper {
 		ESICharacter chars = new ESICharacter();
 		ESIUniverse uni = new ESIUniverse();
 
+		logger.info("loading ships and modules");
 		loadShipModules(sde, db);
 
+		logger.info("loading asteroids");
 		loadAsteroids(sde, db);
 
+		logger.info("loading blueprints");
 		loadBlueprints(sde, db);
 
+		logger.info("loading locations");
 		loadLocations(sde, db);
 
+		logger.info("loading meta-infs");
 		loadMetaInfs(sde, db);
 
 		// those two must remains at the end because they need the other
 		// informations.
 
+		logger.info("loading lpoffers");
 		loadLPOffers(sde, db, corps);
 
-
+		logger.info("loading agents");
 		loadAgents(sde, db, corps, chars, uni);
 
-		System.err.println("missings ids " + sde.missings);
+		logger.info("missings ids " + sde.missings);
 
 		return db;
 	}
@@ -427,7 +441,6 @@ public class SDEDumper {
 			Blueprint bp2 = new Blueprint();
 			EtypeIDs item = sde.getType(id);
 			if (item == null || !item.published) {
-				// System.err.println("skip generating data for bp " + id);
 				continue;
 			}
 			loadTypeInformations(bp2, sde, id);
@@ -446,6 +459,15 @@ public class SDEDumper {
 			System.err.println("can't create locations, folder not found " + mainFolder);
 			return;
 		}
+		Constructor sysconstructor = new Constructor(SolarSystemStaticData.class);
+		TypeDescription td = new TypeDescription(SolarSystemStaticData.class);
+		td.putMapPropertyType("stargates", Integer.class, Stargate.class);
+		sysconstructor.addTypeDescription(td);
+		Yaml sysLoader = new Yaml(sysconstructor);
+		// we store all the name - systemid links
+		HashMap<String, HashSet<Integer>> links = new HashMap<>();
+		// for each gate, its system name
+		HashMap<Integer, Location> gate2system = new HashMap<>();
 		for (String regionName : mainFolder.list()) {
 			File regionDir = new File(mainFolder, regionName);
 			Location region = new Location();
@@ -465,6 +487,9 @@ public class SDEDumper {
 			} else {
 				db.locations.put(regionName, region);
 			}
+			HashSet<Integer> regionAdjacents = new HashSet<>();
+			links.put(regionName, regionAdjacents);
+
 			for (String constelName : regionDir.list((d, n) -> !n.contains("."))) {
 				File constelDir = new File(regionDir, constelName);
 				Location constel = new Location();
@@ -485,37 +510,45 @@ public class SDEDumper {
 				} else {
 					db.locations.put(constelName, constel);
 				}
+				HashSet<Integer> constelAdjacents = new HashSet<>();
+				links.put(constelName, constelAdjacents);
 				for (String systemName : constelDir.list((d, n) -> !n.contains("."))) {
 					File systemDir = new File(constelDir, systemName);
 					Location system = new Location();
 					system.name = systemName;
 					system.parentRegion = regionName;
 					system.parentConstelation = constelName;
-					try (BufferedReader br = new BufferedReader(new FileReader(new File(systemDir, "solarsystem.staticdata")))) {
-						br.lines().forEach(l -> {
-							if (l.startsWith("solarSystemID: ")) {
-								system.locationID = Integer.parseInt(l.substring("solarSystemID: ".length()));
-							} else if (l.startsWith("security: ")) {
-								double sec = Double.parseDouble(l.substring("security: ".length()));
-								system.maxSec = system.minSec = sec;
-								constel.minSec = Math.min(constel.minSec, sec);
-								constel.maxSec = Math.max(constel.maxSec, sec);
-								region.minSec = Math.min(region.minSec, sec);
-								region.maxSec = Math.max(region.maxSec, sec);
-							}
-						});
-					} catch (IOException e) {
-						e.printStackTrace(System.err);
+					FileReader staticdataFileReader;
+					try {
+						staticdataFileReader = new FileReader(new File(systemDir, "solarsystem.staticdata"));
+						SolarSystemStaticData sysdata = (SolarSystemStaticData) sysLoader.load(staticdataFileReader);
+						system.locationID = sysdata.solarSystemID;
+
+						system.maxSec = system.minSec = sysdata.security;
+						constel.minSec = Math.min(constel.minSec, sysdata.security);
+						constel.maxSec = Math.max(constel.maxSec, sysdata.security);
+						region.minSec = Math.min(region.minSec, sysdata.security);
+						region.maxSec = Math.max(region.maxSec, sysdata.security);
+
+						HashSet<Integer> sysAdjacents = new HashSet<>();
+						links.put(systemName, sysAdjacents);
+
+						for (Entry<Integer, Stargate> e : sysdata.stargates.entrySet()) {
+							gate2system.put(e.getKey(), system);
+							Stargate s = e.getValue();
+							regionAdjacents.add(s.destination);
+							constelAdjacents.add(s.destination);
+							sysAdjacents.add(s.destination);
+						}
+					} catch (FileNotFoundException e1) {
+						throw new UnsupportedOperationException("catch this", e1);
 					}
-					if (system.locationID == 0) {
-						System.err.println("could not get id for system " + systemName);
-						continue;
-					} else {
-						db.locations.put(systemName, system);
-					}
+					db.locations.put(systemName, system);
 				}
 			}
 		}
+
+		// check every location has its correct parent constellation/region.
 		for (Location loc : db.locations.values()) {
 			switch (loc.getLocationType()) {
 			case 3:
@@ -539,6 +572,34 @@ public class SDEDumper {
 			default:
 				System.err.println("error, unknown locaiton type " + loc.getLocationType());
 			}
+		}
+
+		// we use the adjacent systems for regions/constel/systems, to map them to
+		// their names
+		for (Entry<String, Location> e : db.locations.entrySet()) {
+			String name = e.getKey();
+			Location l = e.getValue();
+			HashSet<String> systems = new HashSet<>();
+			HashSet<String> constels = new HashSet<>();
+			HashSet<String> regions = new HashSet<>();
+			for (Integer gateId : links.get(name)) {
+				Location destSys = gate2system.get(gateId);
+				// if we go in the same region/constel, just skip that stargate
+				if (l.getLocationType() == 1 && destSys.parentRegion.equals(name)
+						|| l.getLocationType() == 2 && destSys.parentConstelation.equals(name)) {
+					continue;
+				}
+				systems.add(destSys.name);
+				if (l.getLocationType() != 3 || !destSys.parentConstelation.equals(l.parentConstelation)) {
+					constels.add(destSys.parentConstelation);
+					if (l.getLocationType() != 3 || !destSys.parentRegion.equals(l.parentRegion)) {
+						regions.add(destSys.parentRegion);
+					}
+				}
+			}
+			l.adjacentSystems = systems.toArray(new String[] {});
+			l.adjacentConstels = constels.toArray(new String[] {});
+			l.adjacentRegions = regions.toArray(new String[] {});
 		}
 	}
 
@@ -622,12 +683,11 @@ public class SDEDumper {
 				ret = o1.requirements.lp - o2.requirements.lp;
 			}
 			if (ret == 0) {
-				ret =o1.requirements.isk-o2.requirements.isk;
+				ret = o1.requirements.isk - o2.requirements.isk;
 			}
 			return ret;
 		});
 	}
-
 
 	public static void loadAgents(SDEData sde, DatabaseFile db, ESINpcCorporations corps, ESICharacter chars,
 			ESIUniverse uni) {
