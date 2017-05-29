@@ -48,14 +48,16 @@ public class LPCorpEvaluator {
 	}
 
 	public double analyseCorporationOffers(ESIMarket market, String corpName) {
-		System.err.println("analyse " + corpName + " on region " + market.region);
+		// System.err.println("analyse " + corpName + " on region " +
+		// market.region);
 		ArrayList<LPOffer> lpos = new ArrayList<>(db.getLPOffers());
 		lpos.removeIf(n -> !corpName.equals(n.corporation) || n.requirements.lp == 0);
-		System.err.println(" corp has " + lpos.size() + " offers");
+		// System.err.println(" corp has " + lpos.size() + " offers");
 		List<OfferAnalysis> res = analyseoffers(market, lpos);
 		double ret = res.size() < 1 ? 0.0 : res.get(0).iskPerLP;
-		System.err
-		.println(res.size() == 0 ? " none interesting" : " best one is " + ret + " for " + res.get(0).offer.offer_name);
+		// System.err
+		// .println(res.size() == 0 ? " none interesting" : " best one is " + ret +
+		// " for " + res.get(0).offer.offer_name);
 		return ret;
 
 	}

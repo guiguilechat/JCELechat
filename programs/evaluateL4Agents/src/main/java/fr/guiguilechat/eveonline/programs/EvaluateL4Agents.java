@@ -17,7 +17,7 @@ public class EvaluateL4Agents {
 	public static void main(String[] args) {
 		EvaluateL4Agents el4a = new EvaluateL4Agents();
 		el4a.corpEvaluator = new LPCorpEvaluator(el4a.db).cached(new ESIMarket(10000002))::analyseCorporationOffers;
-		el4a.systemEvaluator = sn -> (2 - el4a.db.getLocations().get(sn.replaceAll(" ", "")).minSec);
+		el4a.systemEvaluator = new SysBurnerEvaluator(7, el4a.db)::evaluate;
 		Agent[] agents = el4a.getPossibleAgents().toArray(Agent[]::new);
 		HashMap<String, Double> agentInterest = new HashMap<>();
 		HashMap<String, Agent> agentIdx = new HashMap<>();
@@ -62,7 +62,8 @@ public class EvaluateL4Agents {
 	protected double evaluateAgent(Agent agent) {
 		double corpval = corpEvaluator.applyAsDouble(agent.corporation);
 		double sysval = systemEvaluator.applyAsDouble(agent.system);
-		System.err.println("agent " + agent.name + " corp=" + corpval + " sys=" + sysval);
+		// System.err.println("agent " + agent.name + " corp=" + corpval + " sys=" +
+		// sysval);
 		return corpval * sysval;
 	}
 
