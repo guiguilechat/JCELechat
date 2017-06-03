@@ -1,0 +1,82 @@
+factionloot:
+  Shadow Serpentis Armor EM Hardener : 1
+  Caldari Navy Small Graviton Smartbomb : 1
+  Caldari Navy EM Ward Field : 1
+  Republic Fleet Gyrostabilizer : 1
+  Shadow Serpentis Energized Kinetic Membrane : 2
+  Caldari Navy Rocket Launcher : 1
+  Dark Blood Dual Light Beam Laser : 1
+  Shadow Serpentis Explosive Plating : 1
+  Shadow Serpentis Energized EM Membrane : 1
+  Republic Fleet Rocket Launcher : 1
+  Imperial Navy Armor Kinetic Hardener : 1
+  Imperial Navy Explosive Plating : 1
+  Shadow Serpentis Adaptive Nano Plating : 1
+  Shadow Serpentis Medium Armor Repairer : 2
+  Shadow Serpentis Tracking Computer : 1
+  Shadow Serpentis Kinetic Plating : 2
+  Shadow Serpentis Dual 150mm Railgun : 1
+  Shadow Serpentis Energized Thermal Membrane : 1
+  Shadow Serpentis Remote Tracking Computer : 1
+  Caldari Navy 150mm Railgun : 1
+  True Sansha EM Plating : 1
+  Imperial Navy Energized Explosive Membrane : 1
+  Federation Navy 75mm Railgun : 1
+  Imperial Navy Small Focused Pulse Laser : 1
+  Imperial Navy Small Focused Beam Laser : 1
+  Imperial Navy Armor EM Hardener : 1
+
+drops:
+  all: 415
+  agent: 189
+  team: 161
+  base: 65
+  team-jaguar: 52
+  team-vengeance: 46
+  agent-blood: 46
+  agent-guristas: 44
+  team-hawk: 35
+  agent-angel: 34
+  agent-sansha: 33
+  base-angel: 33
+  agent-serpentis: 31
+  base-serpentis: 30
+  team-enyo: 28
+  base-blood: 2
+  agent-angels: 1
+
+avgValueM:
+  base-serpentis: 14,07
+  base: 7,03
+  team-hawk: 3,24
+  team-jaguar: 2,34
+  all: 1,86
+  team: 1,77
+  base-blood: 1,42
+  base-angel: 0,97
+  team-enyo: 0,92
+  team-vengeance: 0,53
+  agent-sansha: 0,38
+  agent-blood: 0,32
+  agent: 0,15
+  agent-angels: 0,03
+  agent-guristas: 0,03
+  agent-angel: 0,01
+  agent-serpentis: 0,01
+
+factiondroppct:
+  base-serpentis: 46,7
+  base: 21,5
+  team-vengeance: 13
+  team-hawk: 11,4
+  team: 8,1
+  all: 7
+  team-jaguar: 3,8
+  team-enyo: 3,6
+  agent-sansha: 3
+  agent-blood: 2,2
+  agent: 1,1
+  agent-guristas: 0
+  agent-angel: 0
+  agent-serpentis: 0
+  base-angel: 0

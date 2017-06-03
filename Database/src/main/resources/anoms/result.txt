@@ -1,0 +1,67 @@
+factionloot:
+  Shadow Serpentis Energized Kinetic Membrane : 1
+  Shadow Serpentis Kinetic Plating : 1
+  Shadow Serpentis Armor Explosive Hardener : 1
+  Shadow Serpentis Explosive Plating : 2
+  Shadow Serpentis Armor Kinetic Hardener : 1
+
+drops:
+  all: 68
+  haven: 29
+  haven-serpentis: 29
+  forsakenrallypoint: 12
+  forsakenrallypoint-serpentis: 12
+  forsakenhub: 9
+  forsakenhub-serpentis: 9
+  sanctum: 5
+  sanctum-serpentis: 5
+  port-serpentis: 3
+  hub-serpentis: 3
+  hub: 3
+  port: 3
+  havengaz: 2
+  havengaz-serpentis: 2
+  havenrock-serpentis: 1
+  forlornrallypoint: 1
+  forlornhub: 1
+  forlornrallypoint-serpentis: 1
+  sanctumring: 1
+  sanctumring-serpentis: 1
+  forsakenden-serpentis: 1
+  havenrock: 1
+  forsakenden: 1
+  forlornhub-serpentis: 1
+
+avgValueM:
+  havengaz: 19,62
+  havengaz-serpentis: 19,62
+  haven: 18,92
+  haven-serpentis: 18,92
+  sanctumring: 17,12
+  sanctumring-serpentis: 17,12
+  havenrock-serpentis: 16,72
+  havenrock: 16,72
+  forlornhub: 15,87
+  forlornhub-serpentis: 15,87
+  sanctum: 15,82
+  sanctum-serpentis: 15,82
+  all: 15,58
+  forsakenhub: 14,53
+  forsakenhub-serpentis: 14,53
+  forsakenrallypoint: 12,61
+  forsakenrallypoint-serpentis: 12,61
+  forlornrallypoint: 11,06
+  forlornrallypoint-serpentis: 11,06
+  hub-serpentis: 9,19
+  hub: 9,19
+  port-serpentis: 6,22
+  port: 6,22
+  forsakenden-serpentis: 3,09
+  forsakenden: 3,09
+
+factiondroppct:
+  haven: 20,7
+  haven-serpentis: 20,7
+  all: 8,8
+  forsakenrallypoint: 0
+  forsakenrallypoint-serpentis: 0
