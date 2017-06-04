@@ -1,13 +1,15 @@
+package fr.guiguilechat.eveonline.programs;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.PrintStream;
-import java.util.ArrayList;
+import java.text.DecimalFormat;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
 import java.util.function.ToIntFunction;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -20,6 +22,7 @@ public class AnalyzeBurnersDest {
 
 	protected static final String[] types = new String[] { "aangel", "ablood", "aguristas", "aserpentis", "asansha",
 			"bangel", "bblood", "bguristas", "bserpentis", "tenyo", "thawk", "tjaguar", "tvengeance" };
+
 	protected static final HashMap<String, Integer> types2index = new HashMap<>();
 	static {
 		for (int idx = 0; idx < types.length; idx++) {
@@ -27,8 +30,9 @@ public class AnalyzeBurnersDest {
 		}
 	}
 
+	protected static DecimalFormat df = new DecimalFormat("#.##");
 	protected static String separator = ";";
-	protected static String offsetTypeData = separator + separator + separator + separator;
+	protected static String offsetTypeData = separator + separator + separator + separator + separator;
 
 	public static void main(String[] args) throws FileNotFoundException {
 
@@ -53,9 +57,7 @@ public class AnalyzeBurnersDest {
 
 			PrintStream ps = new PrintStream(new File(outputDir, an.system + ".csv"));
 
-			ArrayList<String> dests = new ArrayList<>(an.dest2counts.keySet());
-			Collections.sort(dests);
-			int[] systemDistances = dests.stream().mapToInt(n -> d.distJumps(n, an.system)).toArray();
+			Set<String> dests = an.dest2counts.keySet();
 
 			ps.print(offsetTypeData);
 			for (String name : dests) {
@@ -63,35 +65,50 @@ public class AnalyzeBurnersDest {
 			}
 			ps.println();
 
+			int[] systemDistances = dests.stream().mapToInt(n -> d.distJumps(n, an.system)).toArray();
 			ps.print(offsetTypeData + "jumps:");
 			for (int dst : systemDistances) {
 				ps.print(separator + dst);
 			}
 			ps.println();
 
+			int[] constelsDistances = dests.stream().mapToInt(n -> d.distConstels(n, an.system)).toArray();
+			ps.print(offsetTypeData + "constels:");
+			for (int dst : constelsDistances) {
+				ps.print(separator + dst);
+			}
 			ps.println();
-			ps.println("type" + separator + "count" + separator + "avgdst" + separator + "maxdst" + separator);
+
+			ps.println();
+			ps.println("type" + separator + "count" + separator + "avgdst" + separator + "maxdst" + separator + "constels"
+					+ separator);
 			for (String type : types) {
 				int idx = types2index.get(type);
-				printDestData(ps, type, an.dest2counts.values().stream(), t -> t[idx], systemDistances);
+				printDestData(ps, type, an.dest2counts.values().stream(), t -> t[idx], systemDistances, constelsDistances);
 			}
 
 			ps.println();
 
 			printDestData(ps, "agent", an.dest2counts.values().stream(), t -> IntStream.of(t).skip(0).limit(5).sum(),
-					systemDistances);
+					systemDistances, constelsDistances);
 			printDestData(ps, "base", an.dest2counts.values().stream(), t -> IntStream.of(t).skip(5).limit(4).sum(),
-					systemDistances);
+					systemDistances, constelsDistances);
 			printDestData(ps, "team", an.dest2counts.values().stream(), t -> IntStream.of(t).skip(9).limit(4).sum(),
-					systemDistances);
-			printDestData(ps, "all", an.dest2counts.values().stream(), t -> IntStream.of(t).sum(), systemDistances);
+					systemDistances, constelsDistances);
+			printDestData(ps, "all", an.dest2counts.values().stream(), t -> IntStream.of(t).sum(), systemDistances,
+					constelsDistances);
 
 			ps.println();
-			ps.println("maxjumps" + separator + "avgsysdst");
-			ps.println("5" + separator + d.avgDistWithin(l, 5));
-			ps.println("6" + separator + d.avgDistWithin(l, 6));
-			ps.println("7" + separator + d.avgDistWithin(l, 7));
-			ps.println("8" + separator + d.avgDistWithin(l, 8));
+			ps.println("avg jumps" + separator + an.system);
+			ps.println("within" + separator + "sys jumps" + separator + "cstl jumps");
+			for (int i = 0; i < 8; i++) {
+				ps.print("" + i + separator + df.format(d.avgDistWithinSys(l, i)));
+				if (i <= 2) {
+					ps.print( separator
+							+ df.format(d.avgDistWithinConstels(l, i)));
+				}
+				ps.println();
+			}
 
 			ps.close();
 		}
@@ -112,20 +129,22 @@ public class AnalyzeBurnersDest {
 	 *          destination table "counts".
 	 */
 	protected static void printDestData(PrintStream ps, String name, Stream<int[]> system2typeIdxCount,
-			ToIntFunction<int[]> mapper, int[] systemDistances) {
+			ToIntFunction<int[]> mapper, int[] systemDistances, int[] constelsDistances) {
 		ps.print(name);
 		int[] systemCount = system2typeIdxCount.mapToInt(mapper).toArray();
-		int total = 0, totaldst = 0, maxdst = 0;
+		int total = 0, totaldst = 0, maxdst = 0, totalcstl = 0;
 		for (int i = 0; i < systemCount.length; i++) {
 			total += systemCount[i];
 			if (systemCount[i] > 0) {
 				maxdst = Math.max(maxdst, systemDistances[i]);
 			}
 			totaldst += systemCount[i] * systemDistances[i];
+			totalcstl += systemCount[i] * constelsDistances[i];
 		}
 		ps.print(separator + total);
-		ps.print(separator + totaldst * 1.0 / total);
+		ps.print(separator + (total > 0 ? df.format(1.0 * totaldst / total) : 0));
 		ps.print(separator + maxdst);
+		ps.print(separator + (total > 0 ? df.format(totalcstl * 1.0 / total) : 0));
 		ps.print(separator);
 
 		for (int i : systemCount) {
@@ -161,6 +180,12 @@ public class AnalyzeBurnersDest {
 				System.err.println("can't get idx of " + type + " indexes are " + Arrays.asList(types));
 			}
 		});
+
+		// sort the map by key
+		LinkedHashMap<String, int[]> sorted = new LinkedHashMap<>();
+		dest2counts.entrySet().stream().sorted(Map.Entry.comparingByKey())
+				.forEachOrdered(e -> sorted.put(e.getKey(), e.getValue()));
+		dest2counts = sorted;
 	}
 
 }

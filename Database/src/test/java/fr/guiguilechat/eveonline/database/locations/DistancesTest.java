@@ -15,4 +15,11 @@ public class DistancesTest {
 		Assert.assertEquals(d.distJumps("Jita", "TheForge"), 0);
 	}
 
+	@Test
+	public void testDistanceConstels() {
+		Distances d = new Distances(new YamlDatabase());
+		Assert.assertEquals(d.distConstels("Jita", "TheForge"), 0);
+		Assert.assertEquals(d.distConstels("Jita", "Osmon"), 2);
+	}
+
 }

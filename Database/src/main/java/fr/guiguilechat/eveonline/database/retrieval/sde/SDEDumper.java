@@ -517,7 +517,7 @@ public class SDEDumper {
 					Location system = new Location();
 					system.name = systemName;
 					system.parentRegion = regionName;
-					system.parentConstelation = constelName;
+					system.parentConstellation = constelName;
 					FileReader staticdataFileReader;
 					try {
 						staticdataFileReader = new FileReader(new File(systemDir, "solarsystem.staticdata"));
@@ -552,20 +552,20 @@ public class SDEDumper {
 		for (Location loc : db.locations.values()) {
 			switch (loc.getLocationType()) {
 			case 3:
-				if (loc.parentConstelation == null || loc.parentRegion == null) {
-					System.err.println("error with system " + loc.name + " in constel " + loc.parentConstelation + " region "
+				if (loc.parentConstellation == null || loc.parentRegion == null) {
+					System.err.println("error with system " + loc.name + " in constel " + loc.parentConstellation + " region "
 							+ loc.parentRegion);
 				}
 				break;
 			case 2:
-				if (loc.parentRegion == null || loc.parentConstelation != null) {
-					System.err.println("error with constelation " + loc.name + " in constel " + loc.parentConstelation
+				if (loc.parentRegion == null || loc.parentConstellation != null) {
+					System.err.println("error with constelation " + loc.name + " in constel " + loc.parentConstellation
 							+ " region " + loc.parentRegion);
 				}
 				break;
 			case 1:
-				if (loc.parentRegion != null || loc.parentConstelation != null) {
-					System.err.println("error with region " + loc.name + " in constel " + loc.parentConstelation + " region "
+				if (loc.parentRegion != null || loc.parentConstellation != null) {
+					System.err.println("error with region " + loc.name + " in constel " + loc.parentConstellation + " region "
 							+ loc.parentRegion);
 				}
 				break;
@@ -586,12 +586,12 @@ public class SDEDumper {
 				Location destSys = gate2system.get(gateId);
 				// if we go in the same region/constel, just skip that stargate
 				if (l.getLocationType() == 1 && destSys.parentRegion.equals(name)
-						|| l.getLocationType() == 2 && destSys.parentConstelation.equals(name)) {
+						|| l.getLocationType() == 2 && destSys.parentConstellation.equals(name)) {
 					continue;
 				}
 				systems.add(destSys.name);
-				if (l.getLocationType() != 3 || !destSys.parentConstelation.equals(l.parentConstelation)) {
-					constels.add(destSys.parentConstelation);
+				if (l.getLocationType() != 3 || !destSys.parentConstellation.equals(l.parentConstellation)) {
+					constels.add(destSys.parentConstellation);
 					if (l.getLocationType() != 3 || !destSys.parentRegion.equals(l.parentRegion)) {
 						regions.add(destSys.parentRegion);
 					}

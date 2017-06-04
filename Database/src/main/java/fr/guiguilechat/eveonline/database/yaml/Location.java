@@ -5,7 +5,7 @@ public class Location {
 	public String name;
 
 	/** the parent constellation if this is a system ; null otherwise */
-	public String parentConstelation = null;
+	public String parentConstellation = null;
 
 	/**
 	 * the parent region if this is a system or a constellation ; null otherwise
