@@ -5,13 +5,13 @@ import java.util.stream.IntStream;
 import org.chocosolver.solver.Model;
 import org.chocosolver.solver.variables.IntVar;
 
-import fr.guiguilechat.eveonline.database.DataBase;
+import fr.guiguilechat.eveonline.database.EveDatabase;
 
 public class ShipModel extends Model {
 
 	public final Bridge bridge;
 
-	public ShipModel(DataBase database) {
+	public ShipModel(EveDatabase database) {
 		bridge = new Bridge(database);
 		makeVars();
 	}

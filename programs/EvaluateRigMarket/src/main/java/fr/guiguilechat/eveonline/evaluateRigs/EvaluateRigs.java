@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.eveonline.database.DataBase;
+import fr.guiguilechat.eveonline.database.EveDatabase;
 import fr.guiguilechat.eveonline.database.EveCentral;
 import fr.guiguilechat.eveonline.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint;
@@ -61,7 +61,7 @@ public class EvaluateRigs {
 		double brokerTax = 2;// broker %
 		double taxMult = 0.01 * (100 + sellStationTax + brokerTax);
 
-		DataBase db = new YamlDatabase();
+		EveDatabase db = new YamlDatabase();
 
 		EveCentral forgeCentral = db.central("TheForge");
 		EveCentral localCentral = db.central(region);

@@ -50,4 +50,23 @@ public class Location {
 	public String[] adjacentRegions = {};
 	public String[] adjacentConstels = {};
 
+	@Override
+	public int hashCode() {
+		return name.hashCode();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (super.equals(obj)) {
+			return true;
+		}
+		if (obj == null) {
+			return false;
+		}
+		if (obj.getClass() == Location.class) {
+			return name.equals(((Location) obj).name);
+		}
+		return false;
+	}
+
 }

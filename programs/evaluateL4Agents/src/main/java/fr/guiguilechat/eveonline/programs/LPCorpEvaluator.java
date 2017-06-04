@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
-import fr.guiguilechat.eveonline.database.DataBase;
+import fr.guiguilechat.eveonline.database.EveDatabase;
 import fr.guiguilechat.eveonline.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.database.yaml.LPOffer.ItemRef;
@@ -37,13 +37,13 @@ public class LPCorpEvaluator {
 	int minLP = 500000;
 
 
-	public final DataBase db;
+	public final EveDatabase db;
 
 	public LPCorpEvaluator() {
 		this(new YamlDatabase());
 	}
 
-	public LPCorpEvaluator(DataBase db) {
+	public LPCorpEvaluator(EveDatabase db) {
 		this.db = db;
 	}
 

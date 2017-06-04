@@ -38,7 +38,7 @@ public class ShowMinePrice {
 	public static final DecimalFormat secFormat = new DecimalFormat("#.#");
 
 	public static void main(String[] args) {
-		DataBase db = new YamlDatabase();
+		EveDatabase db = new YamlDatabase();
 		LinkedHashMap<String, Integer> hubs = new LinkedHashMap<>();
 		hubs.put("Jita", EveCentral.JITA_SYSTEM);
 		hubs.put("Amarr", EveCentral.AMARR_SYSTEM);
@@ -70,7 +70,7 @@ public class ShowMinePrice {
 	}
 
 	public static LinkedHashMap<String, LinkedHashMap<String, LinkedHashMap<Float, LinkedHashMap<String, Double>>>> makePrices(
-			DataBase db, Map<String, Predicate<Asteroid>> typefilters, Map<String, Integer> marketLimits) {
+			EveDatabase db, Map<String, Predicate<Asteroid>> typefilters, Map<String, Integer> marketLimits) {
 		LinkedHashMap<String, LinkedHashMap<String, LinkedHashMap<Float, LinkedHashMap<String, Double>>>> ret = new LinkedHashMap<>();
 		for (Entry<String, Integer> e : marketLimits.entrySet()) {
 			ret.put(e.getKey(), makePrices(db, typefilters, e.getValue()));
@@ -78,7 +78,7 @@ public class ShowMinePrice {
 		return ret;
 	}
 
-	public static LinkedHashMap<String, LinkedHashMap<Float, LinkedHashMap<String, Double>>> makePrices(DataBase db,
+	public static LinkedHashMap<String, LinkedHashMap<Float, LinkedHashMap<String, Double>>> makePrices(EveDatabase db,
 			Map<String, Predicate<Asteroid>> typefilters, int marketlimit) {
 		LinkedHashMap<String, LinkedHashMap<Float, LinkedHashMap<String, Double>>> ret = new LinkedHashMap<>();
 		for (Entry<String, Predicate<Asteroid>> e : typefilters.entrySet()) {
@@ -96,7 +96,7 @@ public class ShowMinePrice {
 	 * @param marketlimit
 	 * @return
 	 */
-	public static LinkedHashMap<Float, LinkedHashMap<String, Double>> makePrices(DataBase db,
+	public static LinkedHashMap<Float, LinkedHashMap<String, Double>> makePrices(EveDatabase db,
 			Predicate<Asteroid> typefilter,
 			int marketlimit) {
 		LinkedHashMap<Float, LinkedHashMap<String, Double>> ret = new LinkedHashMap<>();

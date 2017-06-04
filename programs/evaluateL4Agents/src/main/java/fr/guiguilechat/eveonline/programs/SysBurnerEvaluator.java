@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 
-import fr.guiguilechat.eveonline.database.DataBase;
+import fr.guiguilechat.eveonline.database.EveDatabase;
 import fr.guiguilechat.eveonline.database.yaml.Location;
 
 /**
@@ -18,9 +18,9 @@ public class SysBurnerEvaluator {
 
 	public final int distance;
 
-	public final DataBase db;
+	public final EveDatabase db;
 
-	public SysBurnerEvaluator(int distance, DataBase db) {
+	public SysBurnerEvaluator(int distance, EveDatabase db) {
 		this.distance = distance;
 		this.db = db;
 	}

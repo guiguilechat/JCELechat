@@ -17,7 +17,7 @@ import fr.guiguilechat.eveonline.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.database.yaml.Module;
 import fr.guiguilechat.eveonline.database.yaml.Type;
 
-public abstract class DataBase {
+public abstract class EveDatabase {
 
 	public abstract LinkedHashMap<String, Hull> getHulls();
 

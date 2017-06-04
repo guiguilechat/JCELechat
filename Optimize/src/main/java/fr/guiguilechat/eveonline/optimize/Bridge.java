@@ -1,16 +1,16 @@
 package fr.guiguilechat.eveonline.optimize;
 
-import fr.guiguilechat.eveonline.database.DataBase;
+import fr.guiguilechat.eveonline.database.EveDatabase;
 import fr.guiguilechat.eveonline.database.yaml.Hull;
 import fr.guiguilechat.eveonline.database.yaml.Module;
 
 public class Bridge {
 
-	public final DataBase database;
+	public final EveDatabase database;
 
 	protected final Hull[] hulls;
 
-	public Bridge(DataBase database) {
+	public Bridge(EveDatabase database) {
 		this.database = database;
 		hulls = database.getHulls().values().toArray(new Hull[] {});
 	}

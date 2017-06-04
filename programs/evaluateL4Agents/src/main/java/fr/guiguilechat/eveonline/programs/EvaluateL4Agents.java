@@ -7,7 +7,7 @@ import java.util.Map.Entry;
 import java.util.function.ToDoubleFunction;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.eveonline.database.DataBase;
+import fr.guiguilechat.eveonline.database.EveDatabase;
 import fr.guiguilechat.eveonline.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.database.yaml.Agent;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
@@ -35,7 +35,7 @@ public class EvaluateL4Agents {
 		}
 	}
 
-	protected DataBase db = new YamlDatabase();
+	protected EveDatabase db = new YamlDatabase();
 
 	public Stream<Agent> getPossibleAgents() {
 		return db.getAgents().values().parallelStream()

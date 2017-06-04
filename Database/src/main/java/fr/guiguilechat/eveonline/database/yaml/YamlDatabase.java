@@ -27,13 +27,13 @@ import org.yaml.snakeyaml.nodes.NodeTuple;
 import org.yaml.snakeyaml.nodes.Tag;
 import org.yaml.snakeyaml.representer.Representer;
 
-import fr.guiguilechat.eveonline.database.DataBase;
+import fr.guiguilechat.eveonline.database.EveDatabase;
 import fr.guiguilechat.eveonline.database.retrieval.sde.SDEDumper;
 
 /**
  * tools to get existing database
  */
-public class YamlDatabase extends DataBase {
+public class YamlDatabase extends EveDatabase {
 
 	public static DatabaseFile load(File file) throws FileNotFoundException {
 		return makeYaml().loadAs(new FileReader(file), DatabaseFile.class);
