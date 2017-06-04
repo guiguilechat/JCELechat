@@ -13,6 +13,7 @@
   <modules>
   	<module>EvaluateRigMarket</module>
   	<module>evaluateL4Agents</module>
+  	<module>StatsBurnerDest</module>
   </modules>
   <dependencies>
   	<dependency>
