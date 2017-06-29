@@ -1468,6 +1468,7 @@ hulls:
     catName: Ship
     groupName: Cruiser
     id: 635
+    metaLvl: 9
     name: Opux Luxury Yacht
     volume: 115000.0
   Raven:
@@ -2221,6 +2222,7 @@ hulls:
     catName: Ship
     groupName: Prototype Exploration Ship
     id: 2078
+    metaLvl: 6
     name: Zephyr
     volume: 5000.0
   Crucifier:
@@ -2290,6 +2292,7 @@ hulls:
     - shipBonusSmallHybridTrackingSpeedATF2
     groupName: Assault Frigate
     id: 2834
+    metaLvl: 9
     name: Utu
     volume: 29500.0
   Adrestia:
@@ -2326,6 +2329,7 @@ hulls:
     - shipVelocityBonusATC1
     groupName: Heavy Assault Cruiser
     id: 2836
+    metaLvl: 9
     name: Adrestia
     volume: 112000.0
   Primae:
@@ -2425,6 +2429,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Supercarrier
     id: 3514
+    metaLvl: 8
     name: Revenant
     volume: 6.2E7
   Malice:
@@ -2466,6 +2471,7 @@ hulls:
     - shipBonusEnergyNosOptimalAF2
     groupName: Assault Frigate
     id: 3516
+    metaLvl: 9
     name: Malice
     volume: 28600.0
   Vangel:
@@ -2508,6 +2514,7 @@ hulls:
     - shipBonusEnergyNosOptimalAC1
     groupName: Heavy Assault Cruiser
     id: 3518
+    metaLvl: 9
     name: Vangel
     volume: 118000.0
   Echelon:
@@ -2529,6 +2536,7 @@ hulls:
     catName: Ship
     groupName: Frigate
     id: 3532
+    metaLvl: 6
     name: Echelon
     volume: 28100.0
   Gnosis:
@@ -2886,6 +2894,7 @@ hulls:
     - shipDronesMaxGC2
     groupName: Cruiser
     id: 11011
+    metaLvl: 9
     name: Guardian-Vexor
     volume: 115000.0
   Gallente Shuttle:
@@ -2988,6 +2997,7 @@ hulls:
     - shipBonusSurveyProbeExplosionDelaySkillSurveyCovertOps3
     groupName: Covert Ops
     id: 11172
+    metaLvl: 5
     name: Helios
     volume: 23000.0
   Keres:
@@ -3024,6 +3034,7 @@ hulls:
     - eliteBonusElectronicAttackShipWarpScramblerCapNeed2
     groupName: Electronic Attack Ship
     id: 11174
+    metaLvl: 5
     name: Keres
     volume: 23000.0
   Crow:
@@ -3059,6 +3070,7 @@ hulls:
     - entosisCPUPenalty
     groupName: Interceptor
     id: 11176
+    metaLvl: 5
     name: Crow
     volume: 18000.0
   Raptor:
@@ -3095,6 +3107,7 @@ hulls:
     - entosisCPUPenalty
     groupName: Interceptor
     id: 11178
+    metaLvl: 5
     name: Raptor
     volume: 18000.0
   Cheetah:
@@ -3133,6 +3146,7 @@ hulls:
     - shipBonusSurveyProbeExplosionDelaySkillSurveyCovertOps3
     groupName: Covert Ops
     id: 11182
+    metaLvl: 5
     name: Cheetah
     volume: 17400.0
   Crusader:
@@ -3168,6 +3182,7 @@ hulls:
     - shipEnergyTCapNeedBonusAF
     groupName: Interceptor
     id: 11184
+    metaLvl: 5
     name: Crusader
     volume: 28100.0
   Malediction:
@@ -3204,6 +3219,7 @@ hulls:
     - entosisCPUPenalty
     groupName: Interceptor
     id: 11186
+    metaLvl: 5
     name: Malediction
     volume: 28100.0
   Anathema:
@@ -3245,6 +3261,7 @@ hulls:
     - shipBonusSurveyProbeExplosionDelaySkillSurveyCovertOps3
     groupName: Covert Ops
     id: 11188
+    metaLvl: 5
     name: Anathema
     volume: 28100.0
   Sentinel:
@@ -3284,6 +3301,7 @@ hulls:
     - shipEnergyDrainAmountAF1
     groupName: Electronic Attack Ship
     id: 11190
+    metaLvl: 5
     name: Sentinel
     volume: 28100.0
   Buzzard:
@@ -3322,6 +3340,7 @@ hulls:
     - shipBonusSurveyProbeExplosionDelaySkillSurveyCovertOps3
     groupName: Covert Ops
     id: 11192
+    metaLvl: 5
     name: Buzzard
     volume: 19400.0
   Kitsune:
@@ -3356,6 +3375,7 @@ hulls:
     - shipECMScanStrengthBonusCF
     groupName: Electronic Attack Ship
     id: 11194
+    metaLvl: 5
     name: Kitsune
     volume: 19400.0
   Claw:
@@ -3392,6 +3412,7 @@ hulls:
     - shipPDmgBonusMF
     groupName: Interceptor
     id: 11196
+    metaLvl: 5
     name: Claw
     volume: 17400.0
   Stiletto:
@@ -3428,6 +3449,7 @@ hulls:
     - shipPDmgBonusMF
     groupName: Interceptor
     id: 11198
+    metaLvl: 5
     name: Stiletto
     volume: 17400.0
   Taranis:
@@ -3464,6 +3486,7 @@ hulls:
     - entosisCPUPenalty
     groupName: Interceptor
     id: 11200
+    metaLvl: 5
     name: Taranis
     volume: 22500.0
   Ares:
@@ -3500,6 +3523,7 @@ hulls:
     - shipSHTOptimalBonusGF
     groupName: Interceptor
     id: 11202
+    metaLvl: 5
     name: Ares
     volume: 22500.0
   Vengeance:
@@ -3541,6 +3565,7 @@ hulls:
     - eliteBonusGunshipArmorExplosiveResistance1
     groupName: Assault Frigate
     id: 11365
+    metaLvl: 5
     name: Vengeance
     volume: 28600.0
   Wolf:
@@ -3576,6 +3601,7 @@ hulls:
     - shipPDmgBonusMF
     groupName: Assault Frigate
     id: 11371
+    metaLvl: 5
     name: Wolf
     volume: 27289.0
   Nemesis:
@@ -3615,6 +3641,7 @@ hulls:
     - shipBonusGF1TorpedoFlightTime
     groupName: Stealth Bomber
     id: 11377
+    metaLvl: 5
     name: Nemesis
     volume: 28100.0
   Hawk:
@@ -3650,6 +3677,7 @@ hulls:
     - shipBonusSmallMissileRoFCF2
     groupName: Assault Frigate
     id: 11379
+    metaLvl: 5
     name: Hawk
     volume: 16500.0
   Harpy:
@@ -3688,6 +3716,7 @@ hulls:
     - eliteBonusGunshipHybridDmg2
     groupName: Assault Frigate
     id: 11381
+    metaLvl: 5
     name: Harpy
     volume: 16500.0
   Hyena:
@@ -3722,6 +3751,7 @@ hulls:
     - minmatarShipEwTargetPainterMF2
     groupName: Electronic Attack Ship
     id: 11387
+    metaLvl: 5
     name: Hyena
     volume: 17400.0
   Retribution:
@@ -3756,6 +3786,7 @@ hulls:
     - eliteBonusGunshipLaserOptimal1
     groupName: Assault Frigate
     id: 11393
+    metaLvl: 5
     name: Retribution
     volume: 28600.0
   Jaguar:
@@ -3791,6 +3822,7 @@ hulls:
     - eliteBonusGunshipProjectileOptimal1
     groupName: Assault Frigate
     id: 11400
+    metaLvl: 5
     name: Jaguar
     volume: 27289.0
   Avatar:
@@ -3862,6 +3894,7 @@ hulls:
     - shipCapNeedBonusAB
     groupName: Battleship
     id: 11936
+    metaLvl: 9
     name: Apocalypse Imperial Issue
     volume: 495000.0
   Armageddon Imperial Issue:
@@ -3895,6 +3928,7 @@ hulls:
     - shipCapNeedBonusAB
     groupName: Battleship
     id: 11938
+    metaLvl: 9
     name: Armageddon Imperial Issue
     volume: 486000.0
   Gold Magnate:
@@ -3931,6 +3965,7 @@ hulls:
     - shipEnergyTCapNeedBonusAF
     groupName: Frigate
     id: 11940
+    metaLvl: 9
     name: Gold Magnate
     volume: 22100.0
   Silver Magnate:
@@ -3967,6 +4002,7 @@ hulls:
     - shipEnergyTCapNeedBonusAF
     groupName: Frigate
     id: 11942
+    metaLvl: 9
     name: Silver Magnate
     volume: 22100.0
   Falcon:
@@ -4009,6 +4045,7 @@ hulls:
     - shipBonusMediumHybridDmgCC2
     groupName: Force Recon Ship
     id: 11957
+    metaLvl: 5
     name: Falcon
     volume: 96000.0
   Rook:
@@ -4049,6 +4086,7 @@ hulls:
     - shipMissileKinDamageCC2
     groupName: Combat Recon Ship
     id: 11959
+    metaLvl: 5
     name: Rook
     volume: 96000.0
   Huginn:
@@ -4085,6 +4123,7 @@ hulls:
     - minmatarShipEwTargetPainterMC2
     groupName: Combat Recon Ship
     id: 11961
+    metaLvl: 5
     name: Huginn
     volume: 85000.0
   Rapier:
@@ -4126,6 +4165,7 @@ hulls:
     - shipBonusHeavyMissileAllDamageMC2
     groupName: Force Recon Ship
     id: 11963
+    metaLvl: 5
     name: Rapier
     volume: 85000.0
   Pilgrim:
@@ -4170,6 +4210,7 @@ hulls:
     - shipBonusEnergyNosFalloffRS2
     groupName: Force Recon Ship
     id: 11965
+    metaLvl: 5
     name: Pilgrim
     volume: 120000.0
   Arazu:
@@ -4210,6 +4251,7 @@ hulls:
     - covertOpsAndReconOpsCloakModuleDelayBonus
     groupName: Force Recon Ship
     id: 11969
+    metaLvl: 5
     name: Arazu
     volume: 116000.0
   Lachesis:
@@ -4247,6 +4289,7 @@ hulls:
     - eliteReconBonusMHTOptimalRange1
     groupName: Combat Recon Ship
     id: 11971
+    metaLvl: 5
     name: Lachesis
     volume: 116000.0
   Scimitar:
@@ -4290,6 +4333,7 @@ hulls:
     - eliteBonusLogisticShieldTransferCapNeed2
     groupName: Logistics
     id: 11978
+    metaLvl: 5
     name: Scimitar
     volume: 89000.0
   Basilisk:
@@ -4332,6 +4376,7 @@ hulls:
     - eliteBonusLogisticEnergyTransferCapNeed2
     groupName: Logistics
     id: 11985
+    metaLvl: 5
     name: Basilisk
     volume: 107000.0
   Guardian:
@@ -4373,6 +4418,7 @@ hulls:
     - shipEnergyTransferRange1
     groupName: Logistics
     id: 11987
+    metaLvl: 5
     name: Guardian
     volume: 115000.0
   Oneiros:
@@ -4415,6 +4461,7 @@ hulls:
     - shipBonusRole5RemoteArmorRepairPowergridBonus
     groupName: Logistics
     id: 11989
+    metaLvl: 5
     name: Oneiros
     volume: 113000.0
   Cerberus:
@@ -4455,6 +4502,7 @@ hulls:
     - shipBonusMissileVelocityCC2
     groupName: Heavy Assault Cruiser
     id: 11993
+    metaLvl: 5
     name: Cerberus
     volume: 92000.0
   Onyx:
@@ -4494,6 +4542,7 @@ hulls:
     - eliteBonusHeavyInterdictorLightMissileVelocityBonus
     groupName: Heavy Interdiction Cruiser
     id: 11995
+    metaLvl: 5
     name: Onyx
     volume: 92000.0
   Vagabond:
@@ -4531,6 +4580,7 @@ hulls:
     - eliteBonusHeavyGunshipProjectileDmg2
     groupName: Heavy Assault Cruiser
     id: 11999
+    metaLvl: 5
     name: Vagabond
     volume: 80000.0
   Zealot:
@@ -4565,6 +4615,7 @@ hulls:
     - shipLaserRofAC2
     groupName: Heavy Assault Cruiser
     id: 12003
+    metaLvl: 5
     name: Zealot
     volume: 118000.0
   Ishtar:
@@ -4618,6 +4669,7 @@ hulls:
     - shipBonusSentryArmorHPGC3
     groupName: Heavy Assault Cruiser
     id: 12005
+    metaLvl: 5
     name: Ishtar
     volume: 115000.0
   Eagle:
@@ -4656,6 +4708,7 @@ hulls:
     - shipHRangeBonusCC
     groupName: Heavy Assault Cruiser
     id: 12011
+    metaLvl: 5
     name: Eagle
     volume: 101000.0
   Broadsword:
@@ -4694,6 +4747,7 @@ hulls:
     - eliteBonusHeavyInterdictorsProjectileFalloff1
     groupName: Heavy Interdiction Cruiser
     id: 12013
+    metaLvl: 5
     name: Broadsword
     volume: 96000.0
   Muninn:
@@ -4731,6 +4785,7 @@ hulls:
     - shipPTurretSpeedBonusMC
     groupName: Heavy Assault Cruiser
     id: 12015
+    metaLvl: 5
     name: Muninn
     volume: 96000.0
   Devoter:
@@ -4770,6 +4825,7 @@ hulls:
     - eliteBonusHeavyInterdictorsWarpDisruptFieldGeneratorWarpScrambleRange2
     groupName: Heavy Interdiction Cruiser
     id: 12017
+    metaLvl: 5
     name: Devoter
     volume: 118000.0
   Sacrilege:
@@ -4812,6 +4868,7 @@ hulls:
     - shipBonusHMLExploDamageAC
     groupName: Heavy Assault Cruiser
     id: 12019
+    metaLvl: 5
     name: Sacrilege
     volume: 118000.0
   Phobos:
@@ -4849,6 +4906,7 @@ hulls:
     - eliteBonusHeavyInterdictorsWarpDisruptFieldGeneratorWarpScrambleRange2
     groupName: Heavy Interdiction Cruiser
     id: 12021
+    metaLvl: 5
     name: Phobos
     volume: 112000.0
   Deimos:
@@ -4885,6 +4943,7 @@ hulls:
     - eliteBonusHeavyGunshipHybridFallOff1
     groupName: Heavy Assault Cruiser
     id: 12023
+    metaLvl: 5
     name: Deimos
     volume: 112000.0
   Manticore:
@@ -4924,6 +4983,7 @@ hulls:
     - shipBonusCF1TorpedoExplosionVelocity
     groupName: Stealth Bomber
     id: 12032
+    metaLvl: 5
     name: Manticore
     volume: 28100.0
   Hound:
@@ -4963,6 +5023,7 @@ hulls:
     - shipBonusMF1TorpedoFlightTime
     groupName: Stealth Bomber
     id: 12034
+    metaLvl: 5
     name: Hound
     volume: 28100.0
   Purifier:
@@ -5002,6 +5063,7 @@ hulls:
     - covertOpsStealthBomberTargettingDelayBonus
     groupName: Stealth Bomber
     id: 12038
+    metaLvl: 5
     name: Purifier
     volume: 28100.0
   Ishkur:
@@ -5040,6 +5102,7 @@ hulls:
     - eliteBonusGunshipHybridOptimal1
     groupName: Assault Frigate
     id: 12042
+    metaLvl: 5
     name: Ishkur
     volume: 29500.0
   Enyo:
@@ -5076,6 +5139,7 @@ hulls:
     - eliteBonusGunshipHybridOptimal1
     groupName: Assault Frigate
     id: 12044
+    metaLvl: 5
     name: Enyo
     volume: 29500.0
   Crane:
@@ -5111,6 +5175,7 @@ hulls:
     - eliteIndustrialWarpSpeedBonus1
     groupName: Blockade Runner
     id: 12729
+    metaLvl: 5
     name: Crane
     volume: 195000.0
   Bustard:
@@ -5152,6 +5217,7 @@ hulls:
     - shipBonusShieldBoostCI2
     groupName: Deep Space Transport
     id: 12731
+    metaLvl: 5
     name: Bustard
     volume: 390000.0
   Prorator:
@@ -5187,6 +5253,7 @@ hulls:
     - eliteIndustrialWarpSpeedBonus1
     groupName: Blockade Runner
     id: 12733
+    metaLvl: 5
     name: Prorator
     volume: 200000.0
   Prowler:
@@ -5223,6 +5290,7 @@ hulls:
     - shipVelocityBonusMI
     groupName: Blockade Runner
     id: 12735
+    metaLvl: 5
     name: Prowler
     volume: 180000.0
   Viator:
@@ -5258,6 +5326,7 @@ hulls:
     - eliteIndustrialWarpSpeedBonus1
     groupName: Blockade Runner
     id: 12743
+    metaLvl: 5
     name: Viator
     volume: 190000.0
   Occator:
@@ -5299,6 +5368,7 @@ hulls:
     - eliteIndustrialArmorRepairHeatBonus
     groupName: Deep Space Transport
     id: 12745
+    metaLvl: 5
     name: Occator
     volume: 390000.0
   Mastodon:
@@ -5340,6 +5410,7 @@ hulls:
     - shipBonusShieldBoostMI2
     groupName: Deep Space Transport
     id: 12747
+    metaLvl: 5
     name: Mastodon
     volume: 385000.0
   Impel:
@@ -5381,6 +5452,7 @@ hulls:
     - shipVelocityBonusAI
     groupName: Deep Space Transport
     id: 12753
+    metaLvl: 5
     name: Impel
     volume: 400000.0
   Megathron Federate Issue:
@@ -5415,6 +5487,7 @@ hulls:
     - shipHTTrackingBonusGB2
     groupName: Battleship
     id: 13202
+    metaLvl: 9
     name: Megathron Federate Issue
     volume: 486000.0
   Ferox:
@@ -5830,6 +5903,7 @@ hulls:
     - shipSmallMissileKinDmgCF3
     groupName: Frigate
     id: 17619
+    metaLvl: 7
     name: Caldari Navy Hookbill
     volume: 16500.0
   Caracal Navy Issue:
@@ -5862,6 +5936,7 @@ hulls:
     - shipHeavyMissileAOECloudSizeCC2
     groupName: Cruiser
     id: 17634
+    metaLvl: 7
     name: Caracal Navy Issue
     volume: 101000.0
   Raven Navy Issue:
@@ -5897,6 +5972,7 @@ hulls:
     - shipTorpedosVelocityBonusCB3
     groupName: Battleship
     id: 17636
+    metaLvl: 7
     name: Raven Navy Issue
     volume: 486000.0
   Imperial Navy Slicer:
@@ -5928,6 +6004,7 @@ hulls:
     - shipETDamageAF
     groupName: Frigate
     id: 17703
+    metaLvl: 7
     name: Imperial Navy Slicer
     volume: 16500.0
   Omen Navy Issue:
@@ -5961,6 +6038,7 @@ hulls:
     - shipBonusMETOptimalAC2
     groupName: Cruiser
     id: 17709
+    metaLvl: 7
     name: Omen Navy Issue
     volume: 101000.0
   Stabber Fleet Issue:
@@ -5995,6 +6073,7 @@ hulls:
     - shipBonusProjectileTrackingMC2
     groupName: Cruiser
     id: 17713
+    metaLvl: 7
     name: Stabber Fleet Issue
     volume: 101000.0
   Gila:
@@ -6036,6 +6115,7 @@ hulls:
     - shipBonusMediumDroneArmorHPPirateFaction
     groupName: Cruiser
     id: 17715
+    metaLvl: 8
     name: Gila
     volume: 101000.0
   Phantasm:
@@ -6070,6 +6150,7 @@ hulls:
     - shipBonusAfterburnerSpeedFactorCC2
     groupName: Cruiser
     id: 17718
+    metaLvl: 8
     name: Phantasm
     volume: 101000.0
   Cynabal:
@@ -6104,6 +6185,7 @@ hulls:
     - shipProjectileDmgMC2
     groupName: Cruiser
     id: 17720
+    metaLvl: 8
     name: Cynabal
     volume: 101000.0
   Vigilant:
@@ -6138,6 +6220,7 @@ hulls:
     - shipStasisWebStrengthBonusMC2
     groupName: Cruiser
     id: 17722
+    metaLvl: 8
     name: Vigilant
     volume: 101000.0
   Apocalypse Navy Issue:
@@ -6171,6 +6254,7 @@ hulls:
     - shipBonusLargeEnergyTurretMaxRangeAB2
     groupName: Battleship
     id: 17726
+    metaLvl: 7
     name: Apocalypse Navy Issue
     volume: 495000.0
   Megathron Navy Issue:
@@ -6205,6 +6289,7 @@ hulls:
     - shipHTTrackingBonusGB2
     groupName: Battleship
     id: 17728
+    metaLvl: 7
     name: Megathron Navy Issue
     volume: 486000.0
   Tempest Fleet Issue:
@@ -6239,6 +6324,7 @@ hulls:
     - shipPTspeedBonusMB2
     groupName: Battleship
     id: 17732
+    metaLvl: 7
     name: Tempest Fleet Issue
     volume: 486000.0
   Nightmare:
@@ -6273,6 +6359,7 @@ hulls:
     - shipBonusAfterburnerSpeedFactor2CB
     groupName: Battleship
     id: 17736
+    metaLvl: 8
     name: Nightmare
     volume: 486000.0
   Machariel:
@@ -6307,6 +6394,7 @@ hulls:
     - shipProjectileRofPirateBattleship
     groupName: Battleship
     id: 17738
+    metaLvl: 8
     name: Machariel
     volume: 595000.0
   Vindicator:
@@ -6341,6 +6429,7 @@ hulls:
     - shipHTTrackingBonusGB
     groupName: Battleship
     id: 17740
+    metaLvl: 8
     name: Vindicator
     volume: 486000.0
   Republic Fleet Firetail:
@@ -6373,6 +6462,7 @@ hulls:
     - shipPDmgBonusMF
     groupName: Frigate
     id: 17812
+    metaLvl: 7
     name: Republic Fleet Firetail
     volume: 16500.0
   Federation Navy Comet:
@@ -6406,6 +6496,7 @@ hulls:
     - shipBonusHybridTrackingGF2
     groupName: Frigate
     id: 17841
+    metaLvl: 7
     name: Federation Navy Comet
     volume: 16500.0
   Vexor Navy Issue:
@@ -6442,6 +6533,7 @@ hulls:
     - shipBonusDroneMWDboostGC
     groupName: Cruiser
     id: 17843
+    metaLvl: 7
     name: Vexor Navy Issue
     volume: 112000.0
   Rattlesnake:
@@ -6487,6 +6579,7 @@ hulls:
     - shipBonusThermalMissileDamageGB2
     groupName: Battleship
     id: 17918
+    metaLvl: 8
     name: Rattlesnake
     volume: 486000.0
   Bhaalgorn:
@@ -6523,6 +6616,7 @@ hulls:
     - shipBonusNosferatuOverride
     groupName: Battleship
     id: 17920
+    metaLvl: 8
     name: Bhaalgorn
     volume: 486000.0
   Ashimmu:
@@ -6559,6 +6653,7 @@ hulls:
     - shipBonusNosferatuOverride
     groupName: Cruiser
     id: 17922
+    metaLvl: 8
     name: Ashimmu
     volume: 118000.0
   Succubus:
@@ -6591,6 +6686,7 @@ hulls:
     - shipBonusSmallEnergyTurretDamagePirateFaction
     groupName: Frigate
     id: 17924
+    metaLvl: 8
     name: Succubus
     volume: 28600.0
   Cruor:
@@ -6627,6 +6723,7 @@ hulls:
     - shipBonusSmallEnergyTurretDamagePirateFaction
     groupName: Frigate
     id: 17926
+    metaLvl: 8
     name: Cruor
     volume: 28600.0
   Daredevil:
@@ -6659,6 +6756,7 @@ hulls:
     - shipFalloffBonusGF
     groupName: Frigate
     id: 17928
+    metaLvl: 8
     name: Daredevil
     volume: 26500.0
   Worm:
@@ -6700,6 +6798,7 @@ hulls:
     - shipShieldExplosiveResistanceCF2
     groupName: Frigate
     id: 17930
+    metaLvl: 8
     name: Worm
     volume: 16500.0
   Dramiel:
@@ -6735,6 +6834,7 @@ hulls:
     - shipProjectileTrackingGF
     groupName: Frigate
     id: 17932
+    metaLvl: 8
     name: Dramiel
     volume: 27289.0
   Revelation:
@@ -6948,6 +7048,7 @@ hulls:
     - shipBonusEnergyNosFalloffRS3
     groupName: Combat Recon Ship
     id: 20125
+    metaLvl: 5
     name: Curse
     volume: 120000.0
   Providence:
@@ -7069,6 +7170,7 @@ hulls:
     catName: Ship
     groupName: Shuttle
     id: 21097
+    metaLvl: 6
     name: Goru's Shuttle
     volume: 5000.0
   Guristas Shuttle:
@@ -7090,6 +7192,7 @@ hulls:
     catName: Ship
     groupName: Shuttle
     id: 21628
+    metaLvl: 6
     name: Guristas Shuttle
     volume: 5000.0
   Redeemer:
@@ -7127,6 +7230,7 @@ hulls:
     - shipCapNeedBonusAB
     groupName: Black Ops
     id: 22428
+    metaLvl: 5
     name: Redeemer
     volume: 486000.0
   Sin:
@@ -7165,6 +7269,7 @@ hulls:
     - covertOpsStealthBomberTargettingDelayBonus
     groupName: Black Ops
     id: 22430
+    metaLvl: 5
     name: Sin
     volume: 454500.0
   Widow:
@@ -7204,6 +7309,7 @@ hulls:
     - eliteBonusBlackOpsECMBurstGravAndLadarAndMagnetoAndRadar
     groupName: Black Ops
     id: 22436
+    metaLvl: 5
     name: Widow
     volume: 468000.0
   Panther:
@@ -7241,6 +7347,7 @@ hulls:
     - eliteBonusBlackOpsMaxVelocity1
     groupName: Black Ops
     id: 22440
+    metaLvl: 5
     name: Panther
     volume: 414000.0
   Eos:
@@ -7282,6 +7389,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Command Ship
     id: 22442
+    metaLvl: 5
     name: Eos
     volume: 270000.0
   Sleipnir:
@@ -7322,6 +7430,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Command Ship
     id: 22444
+    metaLvl: 5
     name: Sleipnir
     volume: 216000.0
   Vulture:
@@ -7365,6 +7474,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Command Ship
     id: 22446
+    metaLvl: 5
     name: Vulture
     volume: 252000.0
   Absolution:
@@ -7407,6 +7517,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Command Ship
     id: 22448
+    metaLvl: 5
     name: Absolution
     volume: 234000.0
   Heretic:
@@ -7441,6 +7552,7 @@ hulls:
     - eliteBonusInterdictorsArmorResist1
     groupName: Interdictor
     id: 22452
+    metaLvl: 5
     name: Heretic
     volume: 47000.0
   Sabre:
@@ -7475,6 +7587,7 @@ hulls:
     - eliteBonusInterdictorsMWDSigRadius2
     groupName: Interdictor
     id: 22456
+    metaLvl: 5
     name: Sabre
     volume: 43000.0
   Eris:
@@ -7509,6 +7622,7 @@ hulls:
     - shipHybridTracking1GD2
     groupName: Interdictor
     id: 22460
+    metaLvl: 5
     name: Eris
     volume: 55000.0
   Flycatcher:
@@ -7543,6 +7657,7 @@ hulls:
     - shipBonusSmallMissileExplosionRadiusCD2
     groupName: Interdictor
     id: 22464
+    metaLvl: 5
     name: Flycatcher
     volume: 52000.0
   Astarte:
@@ -7583,6 +7698,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Command Ship
     id: 22466
+    metaLvl: 5
     name: Astarte
     volume: 270000.0
   Claymore:
@@ -7626,6 +7742,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Command Ship
     id: 22468
+    metaLvl: 5
     name: Claymore
     volume: 216000.0
   Nighthawk:
@@ -7672,6 +7789,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Command Ship
     id: 22470
+    metaLvl: 5
     name: Nighthawk
     volume: 252000.0
   Damnation:
@@ -7717,6 +7835,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Command Ship
     id: 22474
+    metaLvl: 5
     name: Damnation
     volume: 234000.0
   Hulk:
@@ -7755,6 +7874,7 @@ hulls:
     - eliteBargeShieldResistance1
     groupName: Exhumer
     id: 22544
+    metaLvl: 5
     name: Hulk
     volume: 200000.0
   Skiff:
@@ -7793,6 +7913,7 @@ hulls:
     - eliteBargeShieldResistance1
     groupName: Exhumer
     id: 22546
+    metaLvl: 5
     name: Skiff
     volume: 100000.0
   Mackinaw:
@@ -7830,6 +7951,7 @@ hulls:
     - eliteBargeShieldResistance1
     groupName: Exhumer
     id: 22548
+    metaLvl: 5
     name: Mackinaw
     volume: 150000.0
   Hel:
@@ -8491,6 +8613,7 @@ hulls:
     - shipSiegeLauncherROFBonus2CB
     groupName: Battleship
     id: 26840
+    metaLvl: 9
     name: Raven State Issue
     volume: 486000.0
   Tempest Tribal Issue:
@@ -8525,6 +8648,7 @@ hulls:
     - shipPTspeedBonusMB2
     groupName: Battleship
     id: 26842
+    metaLvl: 9
     name: Tempest Tribal Issue
     volume: 486000.0
   Rorqual:
@@ -8652,6 +8776,7 @@ hulls:
     - shipBonusLargeEnergyTurretMaxRangeAB
     groupName: Marauder
     id: 28659
+    metaLvl: 5
     name: Paladin
     volume: 495000.0
   Kronos:
@@ -8691,6 +8816,7 @@ hulls:
     - shipBonusHTFalloffGB2
     groupName: Marauder
     id: 28661
+    metaLvl: 5
     name: Kronos
     volume: 486000.0
   Vargur:
@@ -8730,6 +8856,7 @@ hulls:
     - eliteBonusMarauderShieldBonus2a
     groupName: Marauder
     id: 28665
+    metaLvl: 5
     name: Vargur
     volume: 450000.0
   Golem:
@@ -8773,6 +8900,7 @@ hulls:
     - eliteBonusViolatorsEwTargetPainting1
     groupName: Marauder
     id: 28710
+    metaLvl: 5
     name: Golem
     volume: 486000.0
   Rhea:
@@ -8801,6 +8929,7 @@ hulls:
     - shipAdvancedSpaceshipCommandAgilityBonus
     groupName: Jump Freighter
     id: 28844
+    metaLvl: 5
     name: Rhea
     volume: 1.625E7
   Nomad:
@@ -8829,6 +8958,7 @@ hulls:
     - shipAdvancedSpaceshipCommandAgilityBonus
     groupName: Jump Freighter
     id: 28846
+    metaLvl: 5
     name: Nomad
     volume: 1.55E7
   Anshar:
@@ -8857,6 +8987,7 @@ hulls:
     - eliteBonusJumpFreighterArmorHP1
     groupName: Jump Freighter
     id: 28848
+    metaLvl: 5
     name: Anshar
     volume: 1.755E7
   Ark:
@@ -8885,6 +9016,7 @@ hulls:
     - eliteBonusJumpFreighterArmorHP1
     groupName: Jump Freighter
     id: 28850
+    metaLvl: 5
     name: Ark
     volume: 1.85E7
   Magnate:
@@ -8941,6 +9073,7 @@ hulls:
     catName: Ship
     groupName: Shuttle
     id: 29266
+    metaLvl: 6
     name: Apotheosis
     volume: 17400.0
   Scythe Fleet Issue:
@@ -8977,6 +9110,7 @@ hulls:
     - shipBonusHeavyMissileAllDamageMC2
     groupName: Cruiser
     id: 29336
+    metaLvl: 7
     name: Scythe Fleet Issue
     volume: 89000.0
   Augoror Navy Issue:
@@ -9010,6 +9144,7 @@ hulls:
     - shipArmorHpAC2
     groupName: Cruiser
     id: 29337
+    metaLvl: 7
     name: Augoror Navy Issue
     volume: 101000.0
   Osprey Navy Issue:
@@ -9049,6 +9184,7 @@ hulls:
     - shipMissileKinDamageCC3
     groupName: Cruiser
     id: 29340
+    metaLvl: 7
     name: Osprey Navy Issue
     volume: 107000.0
   Exequror Navy Issue:
@@ -9082,6 +9218,7 @@ hulls:
     - shipHybridTurretROFBonusGC2
     groupName: Cruiser
     id: 29344
+    metaLvl: 7
     name: Exequror Navy Issue
     volume: 112000.0
   Tengu:
@@ -9104,6 +9241,7 @@ hulls:
     - shipBonusStrategicCruiserCaldariHeatDamage
     groupName: Strategic Cruiser
     id: 29984
+    metaLvl: 5
     name: Tengu
     volume: 92000.0
   Legion:
@@ -9126,6 +9264,7 @@ hulls:
     - shipBonusStrategicCruiserAmarrHeatDamage
     groupName: Strategic Cruiser
     id: 29986
+    metaLvl: 5
     name: Legion
     volume: 118000.0
   Proteus:
@@ -9148,6 +9287,7 @@ hulls:
     - shipBonusStrategicCruiserGallenteHeatDamage
     groupName: Strategic Cruiser
     id: 29988
+    metaLvl: 5
     name: Proteus
     volume: 115000.0
   Loki:
@@ -9170,6 +9310,7 @@ hulls:
     - shipBonusStrategicCruiserMinmatarHeatDamage
     groupName: Strategic Cruiser
     id: 29990
+    metaLvl: 5
     name: Loki
     volume: 80000.0
   InterBus Shuttle:
@@ -9191,6 +9332,7 @@ hulls:
     catName: Ship
     groupName: Shuttle
     id: 30842
+    metaLvl: 6
     name: InterBus Shuttle
     volume: 5000.0
   Freki:
@@ -9226,6 +9368,7 @@ hulls:
     - shipBonusAfterburnerCapNeedATF
     groupName: Assault Frigate
     id: 32207
+    metaLvl: 9
     name: Freki
     volume: 27289.0
   Mimir:
@@ -9266,6 +9409,7 @@ hulls:
     - shipArmorThermalResistanceMC2
     groupName: Heavy Assault Cruiser
     id: 32209
+    metaLvl: 9
     name: Mimir
     volume: 96000.0
   Armageddon Navy Issue:
@@ -9299,6 +9443,7 @@ hulls:
     - shipCapNeedBonusAB
     groupName: Battleship
     id: 32305
+    metaLvl: 7
     name: Armageddon Navy Issue
     volume: 486000.0
   Dominix Navy Issue:
@@ -9333,6 +9478,7 @@ hulls:
     - shipBonusDroneDamageMultiplierGB2
     groupName: Battleship
     id: 32307
+    metaLvl: 7
     name: Dominix Navy Issue
     volume: 454500.0
   Scorpion Navy Issue:
@@ -9372,6 +9518,7 @@ hulls:
     - shipBonusThermicShieldResistanceCB2
     groupName: Battleship
     id: 32309
+    metaLvl: 7
     name: Scorpion Navy Issue
     volume: 468000.0
   Typhoon Fleet Issue:
@@ -9417,6 +9564,7 @@ hulls:
     - shipBonusCruiseMissileExploDmgMB
     groupName: Battleship
     id: 32311
+    metaLvl: 7
     name: Typhoon Fleet Issue
     volume: 414000.0
   Cambion:
@@ -9455,6 +9603,7 @@ hulls:
     - shipBonusMissileKineticlATF2
     groupName: Assault Frigate
     id: 32788
+    metaLvl: 9
     name: Cambion
     volume: 16500.0
   Etana:
@@ -9498,6 +9647,7 @@ hulls:
     - eliteBonusLogisticEnergyTransferCapNeed2
     groupName: Logistics
     id: 32790
+    metaLvl: 9
     name: Etana
     volume: 107000.0
   Miasmos Amastris Edition:
@@ -9843,6 +9993,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Combat Battlecruiser
     id: 33151
+    metaLvl: 7
     name: Brutix Navy Issue
     volume: 270000.0
   Drake Navy Issue:
@@ -9882,6 +10033,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Combat Battlecruiser
     id: 33153
+    metaLvl: 7
     name: Drake Navy Issue
     volume: 252000.0
   Harbinger Navy Issue:
@@ -9917,6 +10069,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Combat Battlecruiser
     id: 33155
+    metaLvl: 7
     name: Harbinger Navy Issue
     volume: 234000.0
   Hurricane Fleet Issue:
@@ -9953,6 +10106,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Combat Battlecruiser
     id: 33157
+    metaLvl: 7
     name: Hurricane Fleet Issue
     volume: 216000.0
   Moracha:
@@ -9991,6 +10145,7 @@ hulls:
     - covertOpsAndReconOpsCloakModuleDelayBonus
     groupName: Force Recon Ship
     id: 33395
+    metaLvl: 9
     name: Moracha
     volume: 100000.0
   Chremoas:
@@ -10032,6 +10187,7 @@ hulls:
     - covertOpsStealthBomberTargettingDelayBonus
     groupName: Covert Ops
     id: 33397
+    metaLvl: 9
     name: Chremoas
     volume: 28000.0
   Astero:
@@ -10072,6 +10228,7 @@ hulls:
     - covertOpsCloakCPUPercentRoleBonus
     groupName: Frigate
     id: 33468
+    metaLvl: 8
     name: Astero
     volume: 16500.0
   Stratios:
@@ -10110,6 +10267,7 @@ hulls:
     - shipScanProbeStrengthBonusPirateCruiser
     groupName: Cruiser
     id: 33470
+    metaLvl: 8
     name: Stratios
     volume: 101000.0
   Nestor:
@@ -10149,6 +10307,7 @@ hulls:
     - shipBonusLETOptimalRangePirateFaction
     groupName: Battleship
     id: 33472
+    metaLvl: 8
     name: Nestor
     volume: 486000.0
   Leopard:
@@ -10208,6 +10367,7 @@ hulls:
     - shipScanProbeStrengthBonusPirateCruiser
     groupName: Cruiser
     id: 33553
+    metaLvl: 8
     name: Stratios Emergency Responder
     volume: 101000.0
   Whiptail:
@@ -10253,6 +10413,7 @@ hulls:
     - shipShieldExplosiveResistanceCF2
     groupName: Interceptor
     id: 33673
+    metaLvl: 5
     name: Whiptail
     volume: 18000.0
   Chameleon:
@@ -10299,6 +10460,7 @@ hulls:
     - shipBonusMediumDroneArmorHPPirateFaction
     groupName: Force Recon Ship
     id: 33675
+    metaLvl: 9
     name: Chameleon
     volume: 96000.0
   Prospect:
@@ -10337,6 +10499,7 @@ hulls:
     - covertOpsCloakCPUPercentRoleBonus
     groupName: Expedition Frigate
     id: 33697
+    metaLvl: 5
     name: Prospect
     volume: 50000.0
   Garmur:
@@ -10373,6 +10536,7 @@ hulls:
     - shipMissileVelocityPirateFactionFrigate
     groupName: Frigate
     id: 33816
+    metaLvl: 8
     name: Garmur
     volume: 27289.0
   Orthrus:
@@ -10411,6 +10575,7 @@ hulls:
     - shipMissileVelocityPirateFactionFrigate
     groupName: Cruiser
     id: 33818
+    metaLvl: 8
     name: Orthrus
     volume: 101000.0
   Barghest:
@@ -10449,6 +10614,7 @@ hulls:
     - shipMissileVelocityPirateFactionFrigate
     groupName: Battleship
     id: 33820
+    metaLvl: 8
     name: Barghest
     volume: 595000.0
   Rattlesnake Victory Edition:
@@ -10494,6 +10660,7 @@ hulls:
     - shipBonusThermalMissileDamageGB2
     groupName: Battleship
     id: 34151
+    metaLvl: 8
     name: Rattlesnake Victory Edition
     volume: 486000.0
   Confessor:
@@ -10528,6 +10695,7 @@ hulls:
     - shipBonusSmallEnergyTurretDamagePirateFaction
     groupName: Tactical Destroyer
     id: 34317
+    metaLvl: 5
     name: Confessor
     volume: 47000.0
   Bowhead:
@@ -10614,6 +10782,7 @@ hulls:
     - probeLauncherCPUPercentBonusTacticalDestroyer
     groupName: Tactical Destroyer
     id: 34562
+    metaLvl: 5
     name: Svipul
     volume: 47000.0
   Victorieux Luxury Yacht:
@@ -10643,6 +10812,7 @@ hulls:
     - covertOpsCloakCPUPercentRoleBonus
     groupName: Cruiser
     id: 34590
+    metaLvl: 9
     name: Victorieux Luxury Yacht
     volume: 115000.0
   Jackdaw:
@@ -10677,6 +10847,7 @@ hulls:
     - shipHeatDamageCaldariTacticalDestroyer3
     groupName: Tactical Destroyer
     id: 34828
+    metaLvl: 5
     name: Jackdaw
     volume: 47000.0
   Hecate:
@@ -10711,6 +10882,7 @@ hulls:
     - probeLauncherCPUPercentBonusTacticalDestroyer
     groupName: Tactical Destroyer
     id: 35683
+    metaLvl: 5
     name: Hecate
     volume: 47000.0
   Imp:
@@ -10747,6 +10919,7 @@ hulls:
     - shipBonusSmallEnergyTurretDamagePirateFaction
     groupName: Interceptor
     id: 35779
+    metaLvl: 8
     name: Imp
     volume: 28600.0
   Fiend:
@@ -10785,6 +10958,7 @@ hulls:
     - eliteBonusHeavyInterdictorsWarpDisruptFieldGeneratorWarpScrambleRange2
     groupName: Heavy Interdiction Cruiser
     id: 35781
+    metaLvl: 8
     name: Fiend
     volume: 101000.0
   Endurance:
@@ -10827,6 +11001,7 @@ hulls:
     - covertOpsCloakCPUPercentRoleBonus
     groupName: Expedition Frigate
     id: 37135
+    metaLvl: 5
     name: Endurance
     volume: 50000.0
   Crucifier Navy Issue:
@@ -10862,6 +11037,7 @@ hulls:
     - shipETDamageAF
     groupName: Frigate
     id: 37453
+    metaLvl: 7
     name: Crucifier Navy Issue
     volume: 28100.0
   Vigil Fleet Issue:
@@ -10898,6 +11074,7 @@ hulls:
     - roleBonusStasisRange
     groupName: Frigate
     id: 37454
+    metaLvl: 7
     name: Vigil Fleet Issue
     volume: 17400.0
   Griffin Navy Issue:
@@ -10934,6 +11111,7 @@ hulls:
     - shipECMScanStrengthBonusCF
     groupName: Frigate
     id: 37455
+    metaLvl: 7
     name: Griffin Navy Issue
     volume: 19400.0
   Maulus Navy Issue:
@@ -10969,6 +11147,7 @@ hulls:
     - shipBonusDroneHitpointsGF
     groupName: Frigate
     id: 37456
+    metaLvl: 7
     name: Maulus Navy Issue
     volume: 23000.0
   Deacon:
@@ -11006,6 +11185,7 @@ hulls:
     - eliteBonusLogiFrigArmorHP2
     groupName: Logistics Frigate
     id: 37457
+    metaLvl: 5
     name: Deacon
     volume: 28700.0
   Kirin:
@@ -11043,6 +11223,7 @@ hulls:
     - shipBonusShieldTransferCapNeedCF
     groupName: Logistics Frigate
     id: 37458
+    metaLvl: 5
     name: Kirin
     volume: 20000.0
   Thalia:
@@ -11080,6 +11261,7 @@ hulls:
     - eliteBonusLogiFrigSignature2
     groupName: Logistics Frigate
     id: 37459
+    metaLvl: 5
     name: Thalia
     volume: 10000.0
   Scalpel:
@@ -11117,6 +11299,7 @@ hulls:
     - eliteBonusLogiFrigSignature2
     groupName: Logistics Frigate
     id: 37460
+    metaLvl: 5
     name: Scalpel
     volume: 17100.0
   Bifrost:
@@ -11160,6 +11343,7 @@ hulls:
     - shipBonusCommandDestroyerRole1DefenderBonus
     groupName: Command Destroyer
     id: 37480
+    metaLvl: 5
     name: Bifrost
     volume: 43000.0
   Pontifex:
@@ -11204,6 +11388,7 @@ hulls:
     - shipBonusKineticArmorResistanceAD2
     groupName: Command Destroyer
     id: 37481
+    metaLvl: 5
     name: Pontifex
     volume: 47000.0
   Stork:
@@ -11247,6 +11432,7 @@ hulls:
     - eliteBonusCommandDestroyerInfo1
     groupName: Command Destroyer
     id: 37482
+    metaLvl: 5
     name: Stork
     volume: 52000.0
   Magus:
@@ -11291,6 +11477,7 @@ hulls:
     - shipBonusDroneDamageMultiplierGD1
     groupName: Command Destroyer
     id: 37483
+    metaLvl: 5
     name: Magus
     volume: 55000.0
   Apostle:
@@ -11490,6 +11677,7 @@ hulls:
     - shipAdvancedSpaceshipCommandAgilityBonus
     groupName: Dreadnought
     id: 42124
+    metaLvl: 8
     name: Vehement
     volume: 1.755E7
   Vendetta:
@@ -11530,6 +11718,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Supercarrier
     id: 42125
+    metaLvl: 8
     name: Vendetta
     volume: 5.82E7
   Vanquisher:
@@ -11570,6 +11759,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Titan
     id: 42126
+    metaLvl: 8
     name: Vanquisher
     volume: 1.455E8
   Molok:
@@ -11611,6 +11801,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Titan
     id: 42241
+    metaLvl: 8
     name: Molok
     volume: 1.55E8
   Dagon:
@@ -11655,6 +11846,7 @@ hulls:
     - commandBurstAoERoleBonus
     groupName: Force Auxiliary
     id: 42242
+    metaLvl: 8
     name: Dagon
     volume: 1.8135E7
   Chemosh:
@@ -11691,6 +11883,7 @@ hulls:
     - shipAdvancedSpaceshipCommandAgilityBonus
     groupName: Dreadnought
     id: 42243
+    metaLvl: 8
     name: Chemosh
     volume: 1.85E7
   Porpoise:
@@ -11777,6 +11970,7 @@ hulls:
     - shipBonusNosferatuOverride
     groupName: Logistics
     id: 42245
+    metaLvl: 9
     name: Rabisu
     volume: 115000.0
   Caedes:
@@ -11820,6 +12014,7 @@ hulls:
     - shipBonusSmallEnergyTurretDamagePirateFaction
     groupName: Covert Ops
     id: 42246
+    metaLvl: 9
     name: Caedes
     volume: 28600.0
   Sunesis:
@@ -11907,6 +12102,7 @@ hulls:
     - shipBonusSurveyProbeExplosionDelaySkillSurveyCovertOps3
     groupName: Covert Ops
     id: 44993
+    metaLvl: 5
     name: Pacifier
     volume: 20000.0
   Enforcer:
@@ -11956,5 +12152,6 @@ hulls:
     - shipPTurretSpeedBonusMC
     groupName: Force Recon Ship
     id: 44995
+    metaLvl: 5
     name: Enforcer
     volume: 100000.0

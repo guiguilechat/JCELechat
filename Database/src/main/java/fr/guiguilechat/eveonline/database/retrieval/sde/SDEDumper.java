@@ -363,7 +363,7 @@ public class SDEDumper {
 
 		hull.attributes.droneCapa = getelemInt(attributes, "droneCapacity", 0);
 		hull.attributes.droneBandwidth = getelemInt(attributes, "droneBandwidth", 0);
-
+		hull.metaLvl = getelemInt(attributes, "metaLevel", 0);
 	}
 
 	public static void addModuleAttributes(Module module, LinkedHashMap<String, Object> attributes) {
@@ -378,7 +378,7 @@ public class SDEDumper {
 		if (module.effects.contains("loPower")) {
 			module.attributes.slot = "low";
 		}
-		module.attributes.metaLevel = getelemInt(attributes, "metaLevel", 0);
+		module.metaLvl = getelemInt(attributes, "metaLevel", 0);
 		module.rawAttributes = attributes;
 	}
 
@@ -609,6 +609,7 @@ public class SDEDumper {
 			if (item.published) {
 				MetaInf mi = new MetaInf();
 				mi.id = e.getKey();
+				mi.volume = e.getValue().volume;
 				db.metaInfs.put(item.enName(), mi);
 			}
 		}

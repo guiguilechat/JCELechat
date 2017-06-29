@@ -61,6 +61,10 @@ public abstract class EveDatabase {
 		return ret;
 	}
 
+	public Type getTypeById(int id) {
+		return getTypeByName(getElementById(id));
+	}
+
 	protected ESIBasePrices esi = new ESIBasePrices();
 
 	public ESIBasePrices ESIMarket() {
@@ -110,6 +114,7 @@ public abstract class EveDatabase {
 	}
 
 	public ESIMarket ESIRegion(String region) {
+		region = region.replaceAll(" ", "");
 		Location location = getLocations().get(region);
 		if (location == null || location.getLocationType() != 1) {
 			return null;

@@ -15,9 +15,5 @@ public class Module extends Type {
 		return effects.contains("rigSlot");
 	}
 
-	public int techLevel() {
-		return attributes.metaLevel == 5 ? 2 : 1;
-	}
-
 	public HashMap<String, ?> rawAttributes = new HashMap<>();
 }

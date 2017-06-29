@@ -135,7 +135,7 @@ public class EveCentral {
 		// base url = 60-65 cars
 		// each item = +12 cars
 		// so max ~ 160 items
-		int maxNbItems = 140;
+		int maxNbItems = 130;
 		if (itemIDs.length > maxNbItems) {
 			for (int i = 0; i < itemIDs.length; i += maxNbItems) {
 				cache(Arrays.copyOfRange(itemIDs, i, Math.min(i + maxNbItems, itemIDs.length)));
@@ -161,6 +161,7 @@ public class EveCentral {
 				cachedValues.put(id, boso);
 			}
 		} catch (IOException e) {
+			System.err.println("while accessing " + sb.toString());
 			e.printStackTrace(System.err);
 		}
 	}

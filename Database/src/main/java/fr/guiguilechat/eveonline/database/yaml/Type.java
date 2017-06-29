@@ -16,4 +16,22 @@ public class Type {
 
 	public double volume;
 
+	public int metaLvl;
+
+	public boolean isBlueprint() {
+		return "Blueprint".equals(catName);
+	}
+
+	public boolean isFaction() {
+		return metaLvl > 5 && !name.contains("'");
+	}
+
+	public boolean isStoryline() {
+		return metaLvl > 5 && name.contains("'");
+	}
+
+	public boolean isT2() {
+		return metaLvl == 5;
+	}
+
 }

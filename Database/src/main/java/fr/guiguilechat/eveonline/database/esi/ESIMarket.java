@@ -39,9 +39,9 @@ public class ESIMarket {
 
 	private HashMap<Integer, List<HistoryData>> cachedHistories = new HashMap<>();
 	public static class HistoryData {
-		public Date date;
-		public int order_count;
-		public int volume;
+		public Calendar date;
+		public long order_count;
+		public long volume;
 		public double highest;
 		public double average;
 		public double lowest;
@@ -99,6 +99,72 @@ public class ESIMarket {
 			}
 		}
 		return totalOrders;
+	}
+
+	public static class ItemMedianData {
+		public long qtty;
+		public double average;
+
+		public ItemMedianData() {
+			this(0, 0.0);
+		}
+
+		public ItemMedianData(long qtty, double average) {
+			this.qtty = qtty;
+			this.average = average;
+		}
+
+	}
+
+	/**
+	 * for each period of given number of day, compute the total iskvolume =
+	 * nbsell*sellvalue. Each period is then ponderated by opposite age( period 0
+	 * is ponderated 1, period n is ponderated n+1) then we return the median
+	 * value of iskvolume .
+	 *
+	 * @param itemId
+	 * @param nbPeriods
+	 *          number of periods we consider
+	 * @param periodDays
+	 *          number of day to consider as a period. Use 30 for monthly.
+	 * @return
+	 */
+	public ItemMedianData getPonderatedMedianMonthlyAverage(int itemId, int nbPeriods, int periodDays) {
+		int today = Calendar.getInstance().get(Calendar.DAY_OF_YEAR);
+		double[] sumMonthSO = new double[nbPeriods];
+		long[] sumMonthQtty = new long[nbPeriods];
+		// for each month, the total sell numbers and total
+		for (HistoryData d : getHistory(itemId)) {
+			int dayDiff = today - d.date.get(Calendar.DAY_OF_YEAR);
+			// if the data was in previous year we have to add the actual number of
+			// days in that year.
+			if (dayDiff < 0) {
+				dayDiff += d.date.getActualMaximum(Calendar.DAY_OF_YEAR);
+			}
+			int dataMonth = nbPeriods - 1 - dayDiff / periodDays;
+			if (dataMonth >= 0) {
+				sumMonthQtty[dataMonth] += d.volume;
+				sumMonthSO[dataMonth] += d.volume * d.average;
+			}
+		}
+		// then create an array to sort containing the average sell order for each
+		// period
+		// weight[i]= i+1 so for n elements we need n*(n+1)/2 cells
+		double[] ponderatedSizeAvg = new double[nbPeriods * (nbPeriods + 1) / 2];
+		long[] ponderatedSizeQtty = new long[nbPeriods * (nbPeriods + 1) / 2];
+		for (int i = 0; i < nbPeriods; i++) {
+			// first indexs in the ponderated array
+			int pi = i * (i + 1) / 2;
+			double monthAvgValue = sumMonthSO[i] / sumMonthQtty[i];
+			for (int j = 0; j <= i; j++) {
+				ponderatedSizeAvg[pi + j] = monthAvgValue;
+				ponderatedSizeQtty[pi + j] = sumMonthQtty[i];
+			}
+		}
+		Arrays.sort(ponderatedSizeAvg);
+		Arrays.sort(ponderatedSizeQtty);
+		return new ItemMedianData(ponderatedSizeQtty[ponderatedSizeQtty.length / 2],
+				ponderatedSizeAvg[ponderatedSizeAvg.length / 2]);
 	}
 
 	protected HashMap<Integer, MyOrder[]> cachedBOs = new HashMap<>();
@@ -238,6 +304,10 @@ public class ESIMarket {
 	}
 
 	public static void main(String[] args) {
+		main2();
+	}
+
+	protected static void main1() {
 		// jita region : the forge
 		ESIMarket esir = new ESIMarket(10000002);
 		MyOrder[] mos = esir.loadOrders(34, true);
@@ -246,6 +316,22 @@ public class ESIMarket {
 		}
 		long firstOrderQtty = mos[0].volume;
 		System.err.println("price of " + firstOrderQtty + " trita : " + esir.getBO(34, firstOrderQtty));
+	}
+
+	protected static void main2() {
+		// jita region : the forge
+		ESIMarket esir = new ESIMarket(10000002);
+		// couples of periodNB,periodDays
+		int[][] granularities = new int[][] { { 14, 7 }, { 3, 30 }, { 1, 100 }, { 10, 10 } };
+		for (int[] grans : granularities) {
+			int periodNb = grans[0];
+			int periodDays = grans[1];
+			System.err.println(
+					"for " + periodNb + " periods of " + periodDays + " days each, total " + periodDays * periodNb + " days");
+			ItemMedianData d = esir.getPonderatedMedianMonthlyAverage(34, periodNb, periodDays);
+			System.err.println("\t" + d.qtty + " orders for " + d.average + " isks");
+		}
+
 	}
 
 }

@@ -13,6 +13,4 @@ public class ModuleAttributes {
 	 */
 	public String hardpoint;
 
-	public int metaLevel = 0;
-
 }

@@ -49,12 +49,9 @@ public class YamlDatabase extends EveDatabase {
 	}
 
 	protected static Yaml makeYaml() {
-		DumperOptions opt = new DumperOptions();
-		opt.setDefaultScalarStyle(ScalarStyle.PLAIN);
-		opt.setDefaultFlowStyle(FlowStyle.BLOCK);
-		Yaml ret = new Yaml(makeConstructor(), makeRepresenter(), opt);
-		return ret;
+		return new Yaml(makeConstructor(), makeRepresenter(), makeOptions());
 	}
+
 
 	protected static BaseConstructor makeConstructor() {
 		Constructor ret = new Constructor(DatabaseFile.class);
@@ -71,7 +68,7 @@ public class YamlDatabase extends EveDatabase {
 		return ret;
 	}
 
-	protected static Representer makeRepresenter() {
+	public static Representer makeRepresenter() {
 		return new CleanRepresenter();
 	}
 
@@ -115,6 +112,13 @@ public class YamlDatabase extends EveDatabase {
 			ret.setFlowStyle(false);
 			return ret;
 		}
+	}
+
+	public static DumperOptions makeOptions() {
+		DumperOptions opt = new DumperOptions();
+		opt.setDefaultScalarStyle(ScalarStyle.PLAIN);
+		opt.setDefaultFlowStyle(FlowStyle.BLOCK);
+		return opt;
 	}
 
 	protected LinkedHashMap<String, Hull> hulls = null;
