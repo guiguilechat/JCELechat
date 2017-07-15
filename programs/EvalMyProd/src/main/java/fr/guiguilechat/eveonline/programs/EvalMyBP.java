@@ -200,16 +200,16 @@ public class EvalMyBP {
 		if (eval.apiKey == null || eval.apiCode == null | help) {
 			System.out.println(
 					"required api key and code.\n"
-							+ "This program gets your owned blueprints and compute the value of required/output materials."
-							+ "It then prints the blueprints by decreasing interest, as well as the list of materials to buy"
-							+ "options:\n" + " keyd=KEY set the api key" + " code=CODE set the api code"
-							+ " hub=A,B,C set the systems/regions to get the prices from. default=Jita "
-							+ " selltax=X set the tax of output sell to X(default 3.0)%"
-							+ " mingain=MIN set the minimum gain of a bp to even consider it. default 0.0"
-							+ " bobo|boso|soso|sobo to set the evaluation of materials for required/output (sobo is sell order for input, buy order output)"
-							+ " mult|gain order the bps by isk multiplier of net isk gain"
-							+ " bpo|bpc only consider blueprint Original or Copy" + " nomat do not print the list of materials"
-							+ " help|-help|--help print this help and exit");
+							+ "This program gets your owned blueprints and compute the value of required/output materials.\n"
+							+ "It then prints the blueprints by decreasing interest, as well as the list of materials to buy\n"
+							+ "options:\n" + " key=KEY set the api key\n" + " code=CODE set the api code\n"
+							+ " hub=A,B,C set the systems/regions to get the prices from. default=Jita\n"
+							+ " selltax=X set the tax of output sell to X(default 3.0)%\n"
+							+ " mingain=MIN set the minimum gain of a bp to even consider it. default 0.0\n"
+							+ " bobo|boso|soso|sobo to set the evaluation of materials for required/output (sobo is sell order for input, buy order output)\n"
+							+ " mult|gain order the bps by isk multiplier of net isk gain\n"
+							+ " bpo|bpc only consider blueprint Original or Copy\n" + " nomat do not print the list of materials\n"
+							+ " help|-help|--help print this help and exit\n");
 			System.exit(1);
 		}
 		HashMap<String, Long> toBuy = new HashMap<>();
