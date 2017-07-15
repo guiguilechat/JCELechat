@@ -17,10 +17,29 @@
 		</license>
 	</licenses>
 
+	<repositories>
+		<repository>
+			<id>kimsufi-stable</id>
+			<url>http://91.121.120.36/maven/stable</url>
+		</repository>
+		<repository>
+			<id>kimsufi-snapshots</id>
+			<url>http://91.121.120.36/maven/snapshot/</url>
+		</repository>
+	</repositories>
+	<distributionManagement>
+		<repository>
+			<id>kimsufi-repository</id>
+			<url>ftp://91.121.120.36:12345/stable</url>
+		</repository>
+		<snapshotRepository>
+			<id>kimsufi-repository</id>
+			<url>ftp://91.121.120.36:12345/snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<modules>
-		<!-- <module>entropy-main</module> -->
 		<module>Database</module>
-		
 		<module>SDE</module>
 		<module>programs</module>
 	</modules>
@@ -113,4 +132,10 @@
 		</dependencies>
 	</dependencyManagement>
 	<version>0.0.1-SNAPSHOT</version>
+	<scm>
+		<url>https://github.com/guiguilechat/EveOnline</url>
+		<connection>scm:git:git://github.com/guiguilechat/EveOnline.git</connection>
+		<developerConnection>scm:git:git@github.com:guiguilechat/EveOnline.git</developerConnection>
+	  <tag>HEAD</tag>
+  </scm>
 </project>

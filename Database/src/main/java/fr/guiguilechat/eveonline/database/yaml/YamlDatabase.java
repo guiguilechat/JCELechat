@@ -9,9 +9,11 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 import org.yaml.snakeyaml.DumperOptions;
@@ -215,12 +217,28 @@ public class YamlDatabase extends EveDatabase {
 			DatabaseFile db = stream != null ? load(stream) : null;
 			if (db != null) {
 				locations = db.locations;
+				HashMap<String, Location> added = new LinkedHashMap<>();
+				for (Entry<String, Location> e : locations.entrySet()) {
+					String newName = e.getKey().toLowerCase();
+					if (!newName.equals(e.getKey())) {
+						added.put(newName, e.getValue());
+					}
+				}
+				locations.putAll(added);
 			} else {
 				System.err.println("can't load locations");
 				locations = new LinkedHashMap<>();
 			}
 		}
 		return locations;
+	}
+
+	public Location getLocation(String name) {
+		if (name == null) {
+			return null;
+		}
+		name = name.replaceAll(" ", "").toLowerCase();
+		return getLocations().get(name);
 	}
 
 	protected ArrayList<LPOffer> lpoffers = null;
