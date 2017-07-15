@@ -2,23 +2,12 @@ package fr.guiguilechat.eveonline.database.apiv2;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.Map.Entry;
-import java.util.stream.Stream;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
-import fr.guiguilechat.eveonline.database.EveCentral;
-import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
-import fr.guiguilechat.eveonline.database.yaml.Blueprint;
-import fr.guiguilechat.eveonline.database.yaml.Blueprint.Material;
-import fr.guiguilechat.eveonline.database.yaml.Type;
-import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 
 public class Char {
 
@@ -118,86 +107,6 @@ public class Char {
 		bpc.materialEfficiency = APIRoot.getInt(el, "materialEfficiency", 1);
 		bpc.runs = APIRoot.getInt(el, "runs", 1);
 		return bpc;
-	}
-
-	public static class BPCEval {
-		String name;
-		LinkedHashMap<String, Integer> required = new LinkedHashMap<>();
-		String outName;
-		int outNb;
-		double outValue, inValue;
-		double mult;
-	}
-
-	public static void main(String[] args) {
-		APIRoot r = new APIRoot(Integer.parseInt(args[0]), args[1]);
-		EveCentral central = new EveCentral();
-		YamlDatabase db = new YamlDatabase();
-		double tax = 03;
-		// first pass we copy the bpcs to get the required and produced amount of
-		// materials
-		ArrayList<BPCEval> evaluations = new ArrayList<>();
-		for (Character chara : r.account.characters()) {
-			for (BPEntry bp : r.chars.blueprints(chara.characterID)) {
-				// skip bpo
-				if (bp.runs <= 0) {
-					continue;
-				}
-				// blueprint unknown ??
-				Blueprint bpt = db.getBlueprints().get(bp.typeName);
-				if (bpt == null) {
-					continue;
-				}
-				Type output = db.getTypeByName(bpt.manufacturing.products.get(0).name);
-				// out type unknown? (not in database yet)
-				if (output == null) {
-					continue;
-				}
-				BPCEval eval = new BPCEval();
-				eval.name = bp.typeName;
-				for (Material required : bpt.manufacturing.materials) {
-					int modifiedQtty = required.quantity == 1 ? required.quantity * bp.runs
-							: (int) Math.ceil(bp.runs * 0.01 * (100 - bp.materialEfficiency) * required.quantity);
-					eval.required.put(required.name, modifiedQtty);
-				}
-				for (Material mout : bpt.manufacturing.products) {
-					eval.outName = mout.name;
-					eval.outNb = mout.quantity * bp.runs;
-				}
-				evaluations.add(eval);
-			}
-		}
-		// then we cache the materials
-		int[] itemIDs = evaluations.stream()
-				.flatMap(eval -> Stream.concat(Stream.of(eval.outName), eval.required.keySet().stream())).distinct()
-				.mapToInt(s -> db.getMetaInfs().get(s).id).toArray();
-		central.cache(itemIDs);
-		// then we retrieve sell / buy value of items and compute the mult value of
-		// each bpc
-		for (BPCEval eval : evaluations) {
-			for (Entry<String, Integer> e : eval.required.entrySet()) {
-				int id = db.getMetaInfs().get(e.getKey()).id;
-				eval.inValue += central.getSO(id) * e.getValue();
-			}
-			int outId = db.getMetaInfs().get(eval.outName).id;
-			eval.outValue += central.getBO(outId) * eval.outNb * (1.0 - tax / 100);
-			eval.mult = eval.outValue - eval.inValue;
-		}
-
-		Collections.sort(evaluations, (e1, e2) -> (int) Math.signum(e2.mult - e1.mult));
-		evaluations.removeIf(e -> e.mult <= 0);
-		HashMap<String, Integer> toBuy = new HashMap<>();
-		for (BPCEval e : evaluations) {
-			System.out.println("" + e.name + " : " + e.mult);
-			for (Entry<String, Integer> m : e.required.entrySet()) {
-				toBuy.put(m.getKey(), m.getValue() + toBuy.getOrDefault(m.getKey(), 0));
-			}
-		}
-		System.out.println();
-		System.out.println("to buy:");
-		toBuy.entrySet().stream().sorted((e1, e2) -> e1.getKey().compareTo(e2.getKey())).forEach(e -> {
-			System.out.println(e.getKey() + "\t" + e.getValue());
-		});
 	}
 
 }

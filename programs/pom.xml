@@ -17,6 +17,7 @@
   	<module>LootStats</module>
   	<module>Optimize</module>
   	<module>copypasteve</module>
+  	<module>EvalMyProd</module>
   </modules>
   <dependencies>
   	<dependency>
