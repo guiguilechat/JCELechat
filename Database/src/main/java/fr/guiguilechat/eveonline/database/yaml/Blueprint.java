@@ -59,6 +59,6 @@ public class Blueprint extends Type {
 		}
 	}
 
-	public Activity copying, invention, manufacturing, research_material, research_time;
+	public Activity copying, invention, manufacturing, research_material, research_time, reaction;
 
 }

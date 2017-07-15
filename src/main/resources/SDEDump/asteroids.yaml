@@ -1,899 +1,1337 @@
 asteroids:
   Arkonor:
+    catName: Asteroid
     compressedTo: Compressed Arkonor
     groupName: Arkonor
     id: 22
+    name: Arkonor
     volume: 16.0
   Crimson Arkonor:
+    catName: Asteroid
     compressedTo: Compressed Crimson Arkonor
     groupName: Arkonor
     id: 17425
+    name: Crimson Arkonor
     volume: 16.0
   Prime Arkonor:
+    catName: Asteroid
     compressedTo: Compressed Prime Arkonor
     groupName: Arkonor
     id: 17426
+    name: Prime Arkonor
     volume: 16.0
   Flawed Arkonor:
+    catName: Asteroid
     groupName: Arkonor
     id: 26852
     maxSecurity: -1.0
+    name: Flawed Arkonor
     volume: 16.0
   Compressed Arkonor:
-    compressRatio: 1000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Arkonor
     groupName: Arkonor
     id: 28367
     maxSecurity: -1.0
+    name: Compressed Arkonor
     volume: 8.8
   Compressed Crimson Arkonor:
-    compressRatio: 1000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Crimson Arkonor
     groupName: Arkonor
     id: 28385
     maxSecurity: -1.0
+    name: Compressed Crimson Arkonor
     volume: 8.8
   Compressed Prime Arkonor:
-    compressRatio: 1000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Prime Arkonor
     groupName: Arkonor
     id: 28387
     maxSecurity: -1.0
+    name: Compressed Prime Arkonor
     volume: 8.8
   Polygypsum:
+    catName: Asteroid
     groupName: Arkonor
     id: 28625
     maxSecurity: -1.0
+    name: Polygypsum
     volume: 16.0
   Bistot:
+    catName: Asteroid
     compressedTo: Compressed Bistot
     groupName: Bistot
     id: 1223
+    name: Bistot
     volume: 16.0
   Triclinic Bistot:
+    catName: Asteroid
     compressedTo: Compressed Triclinic Bistot
     groupName: Bistot
     id: 17428
+    name: Triclinic Bistot
     volume: 16.0
   Monoclinic Bistot:
+    catName: Asteroid
     compressedTo: Compressed Monoclinic Bistot
     groupName: Bistot
     id: 17429
+    name: Monoclinic Bistot
     volume: 16.0
   Compressed Bistot:
-    compressRatio: 1000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Bistot
     groupName: Bistot
     id: 28388
     maxSecurity: -1.0
+    name: Compressed Bistot
     volume: 4.4
   Compressed Monoclinic Bistot:
-    compressRatio: 1000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Monoclinic Bistot
     groupName: Bistot
     id: 28389
     maxSecurity: -1.0
+    name: Compressed Monoclinic Bistot
     volume: 4.4
   Compressed Triclinic Bistot:
-    compressRatio: 1000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Triclinic Bistot
     groupName: Bistot
     id: 28390
     maxSecurity: -1.0
+    name: Compressed Triclinic Bistot
     volume: 4.4
   Crokite:
+    catName: Asteroid
     compressedTo: Compressed Crokite
     groupName: Crokite
     id: 1225
+    name: Crokite
     volume: 16.0
   Sharp Crokite:
+    catName: Asteroid
     compressedTo: Compressed Sharp Crokite
     groupName: Crokite
     id: 17432
+    name: Sharp Crokite
     volume: 16.0
   Crystalline Crokite:
+    catName: Asteroid
     compressedTo: Compressed Crystalline Crokite
     groupName: Crokite
     id: 17433
+    name: Crystalline Crokite
     volume: 16.0
   Fools Crokite:
+    catName: Asteroid
     groupName: Crokite
     id: 26851
     maxSecurity: -1.0
+    name: Fools Crokite
     volume: 16.0
   Compressed Crokite:
-    compressRatio: 1250.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Crokite
     groupName: Crokite
     id: 28391
     maxSecurity: -1.0
+    name: Compressed Crokite
     volume: 7.81
   Compressed Crystalline Crokite:
-    compressRatio: 1250.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Crystalline Crokite
     groupName: Crokite
     id: 28392
     maxSecurity: -1.0
+    name: Compressed Crystalline Crokite
     volume: 7.81
   Compressed Sharp Crokite:
-    compressRatio: 1250.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Sharp Crokite
     groupName: Crokite
     id: 28393
     maxSecurity: -1.0
+    name: Compressed Sharp Crokite
     volume: 7.81
   Geodite:
+    catName: Asteroid
     groupName: Crokite
     id: 28624
     maxSecurity: -1.0
+    name: Geodite
     volume: 16.0
   Dark Ochre:
+    catName: Asteroid
     compressedTo: Compressed Dark Ochre
     groupName: Dark Ochre
     id: 1232
+    name: Dark Ochre
     volume: 8.0
   Onyx Ochre:
+    catName: Asteroid
     compressedTo: Compressed Onyx Ochre
     groupName: Dark Ochre
     id: 17436
+    name: Onyx Ochre
     volume: 8.0
   Obsidian Ochre:
+    catName: Asteroid
     compressedTo: Compressed Obsidian Ochre
     groupName: Dark Ochre
     id: 17437
+    name: Obsidian Ochre
     volume: 8.0
   Compressed Dark Ochre:
-    compressRatio: 2000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Dark Ochre
     groupName: Dark Ochre
     id: 28394
     maxSecurity: -1.0
+    name: Compressed Dark Ochre
     volume: 4.2
   Compressed Obsidian Ochre:
-    compressRatio: 2000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Obsidian Ochre
     groupName: Dark Ochre
     id: 28395
     maxSecurity: -1.0
+    name: Compressed Obsidian Ochre
     volume: 4.2
   Compressed Onyx Ochre:
-    compressRatio: 2000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Onyx Ochre
     groupName: Dark Ochre
     id: 28396
     maxSecurity: -1.0
+    name: Compressed Onyx Ochre
     volume: 4.2
   Oeryl:
+    catName: Asteroid
     groupName: Dark Ochre
     id: 28623
     maxSecurity: -1.0
+    name: Oeryl
     volume: 8.0
   Hedbergite:
+    catName: Asteroid
     compressedTo: Compressed Hedbergite
     groupName: Hedbergite
     id: 21
     maxSecurity: 0.20000000298023224
+    name: Hedbergite
     volume: 3.0
   Vitric Hedbergite:
+    catName: Asteroid
     compressedTo: Compressed Vitric Hedbergite
     groupName: Hedbergite
     id: 17440
     maxSecurity: 0.20000000298023224
+    name: Vitric Hedbergite
     volume: 3.0
   Glazed Hedbergite:
+    catName: Asteroid
     compressedTo: Compressed Glazed Hedbergite
     groupName: Hedbergite
     id: 17441
     maxSecurity: 0.20000000298023224
+    name: Glazed Hedbergite
     volume: 3.0
   Compressed Glazed Hedbergite:
-    compressRatio: 5000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Glazed Hedbergite
     groupName: Hedbergite
     id: 28400
     maxSecurity: -1.0
+    name: Compressed Glazed Hedbergite
     volume: 0.47
   Compressed Hedbergite:
-    compressRatio: 5000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Hedbergite
     groupName: Hedbergite
     id: 28401
     maxSecurity: -1.0
+    name: Compressed Hedbergite
     volume: 0.47
   Compressed Vitric Hedbergite:
-    compressRatio: 5000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Vitric Hedbergite
     groupName: Hedbergite
     id: 28402
     maxSecurity: -1.0
+    name: Compressed Vitric Hedbergite
     volume: 0.47
   Hemorphite:
+    catName: Asteroid
     compressedTo: Compressed Hemorphite
     groupName: Hemorphite
     id: 1231
     maxSecurity: 0.20000000298023224
+    name: Hemorphite
     volume: 3.0
   Vivid Hemorphite:
+    catName: Asteroid
     compressedTo: Compressed Vivid Hemorphite
     groupName: Hemorphite
     id: 17444
     maxSecurity: 0.20000000298023224
+    name: Vivid Hemorphite
     volume: 3.0
   Radiant Hemorphite:
+    catName: Asteroid
     compressedTo: Compressed Radiant Hemorphite
     groupName: Hemorphite
     id: 17445
     maxSecurity: 0.20000000298023224
+    name: Radiant Hemorphite
     volume: 3.0
   Compressed Hemorphite:
-    compressRatio: 5000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Hemorphite
     groupName: Hemorphite
     id: 28403
     maxSecurity: -1.0
+    name: Compressed Hemorphite
     volume: 0.86
   Compressed Radiant Hemorphite:
-    compressRatio: 5000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Radiant Hemorphite
     groupName: Hemorphite
     id: 28404
     maxSecurity: -1.0
+    name: Compressed Radiant Hemorphite
     volume: 0.86
   Compressed Vivid Hemorphite:
-    compressRatio: 5000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Vivid Hemorphite
     groupName: Hemorphite
     id: 28405
     maxSecurity: -1.0
+    name: Compressed Vivid Hemorphite
     volume: 0.86
   Jaspet:
+    catName: Asteroid
     compressedTo: Compressed Jaspet
     groupName: Jaspet
     id: 1226
     maxSecurity: 0.4000000059604645
+    name: Jaspet
     volume: 2.0
   Pure Jaspet:
+    catName: Asteroid
     compressedTo: Compressed Pure Jaspet
     groupName: Jaspet
     id: 17448
     maxSecurity: 0.4000000059604645
+    name: Pure Jaspet
     volume: 2.0
   Pristine Jaspet:
+    catName: Asteroid
     compressedTo: Compressed Pristine Jaspet
     groupName: Jaspet
     id: 17449
     maxSecurity: 0.4000000059604645
+    name: Pristine Jaspet
     volume: 2.0
   Flawed Jaspet:
+    catName: Asteroid
     groupName: Jaspet
     id: 26868
     maxSecurity: -1.0
+    name: Flawed Jaspet
     volume: 2.0
   Compressed Jaspet:
-    compressRatio: 7500.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Jaspet
     groupName: Jaspet
     id: 28406
     maxSecurity: -1.0
+    name: Compressed Jaspet
     volume: 0.15
   Compressed Pristine Jaspet:
-    compressRatio: 7500.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Pristine Jaspet
     groupName: Jaspet
     id: 28407
     maxSecurity: -1.0
+    name: Compressed Pristine Jaspet
     volume: 0.15
   Compressed Pure Jaspet:
-    compressRatio: 7500.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Pure Jaspet
     groupName: Jaspet
     id: 28408
     maxSecurity: -1.0
+    name: Compressed Pure Jaspet
     volume: 0.15
   Pithix:
+    catName: Asteroid
     groupName: Jaspet
     id: 28621
     maxSecurity: -1.0
+    name: Pithix
     volume: 2.0
   Kernite:
+    catName: Asteroid
     compressedTo: Compressed Kernite
     groupName: Kernite
     id: 20
     maxSecurity: 0.699999988079071
+    name: Kernite
     volume: 1.2
   Luminous Kernite:
+    catName: Asteroid
     compressedTo: Compressed Luminous Kernite
     groupName: Kernite
     id: 17452
     maxSecurity: 0.699999988079071
+    name: Luminous Kernite
     volume: 1.2
   Fiery Kernite:
+    catName: Asteroid
     compressedTo: Compressed Fiery Kernite
     groupName: Kernite
     id: 17453
     maxSecurity: 0.699999988079071
+    name: Fiery Kernite
     volume: 1.2
   Compressed Fiery Kernite:
-    compressRatio: 12000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Fiery Kernite
     groupName: Kernite
     id: 28409
     maxSecurity: -1.0
+    name: Compressed Fiery Kernite
     volume: 0.19
   Compressed Kernite:
-    compressRatio: 12000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Kernite
     groupName: Kernite
     id: 28410
     maxSecurity: -1.0
+    name: Compressed Kernite
     volume: 0.19
   Compressed Luminous Kernite:
-    compressRatio: 12000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Luminous Kernite
     groupName: Kernite
     id: 28411
     maxSecurity: -1.0
+    name: Compressed Luminous Kernite
     volume: 0.19
   Lyavite:
+    catName: Asteroid
     groupName: Kernite
     id: 28620
     maxSecurity: -1.0
+    name: Lyavite
     volume: 1.2
   Plagioclase:
+    catName: Asteroid
     compressedTo: Compressed Plagioclase
     groupName: Plagioclase
     id: 18
     maxSecurity: 0.8999999761581421
+    name: Plagioclase
     volume: 0.35
   Azure Plagioclase:
+    catName: Asteroid
     compressedTo: Compressed Azure Plagioclase
     groupName: Plagioclase
     id: 17455
     maxSecurity: 0.8999999761581421
+    name: Azure Plagioclase
     volume: 0.35
   Rich Plagioclase:
+    catName: Asteroid
     compressedTo: Compressed Rich Plagioclase
     groupName: Plagioclase
     id: 17456
     maxSecurity: 0.8999999761581421
+    name: Rich Plagioclase
     volume: 0.35
   Compressed Azure Plagioclase:
-    compressRatio: 33300.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Azure Plagioclase
     groupName: Plagioclase
     id: 28421
     maxSecurity: -1.0
+    name: Compressed Azure Plagioclase
     volume: 0.15
   Compressed Plagioclase:
-    compressRatio: 33300.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Plagioclase
     groupName: Plagioclase
     id: 28422
     maxSecurity: -1.0
+    name: Compressed Plagioclase
     volume: 0.15
   Compressed Rich Plagioclase:
-    compressRatio: 33300.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Rich Plagioclase
     groupName: Plagioclase
     id: 28423
     maxSecurity: -1.0
+    name: Compressed Rich Plagioclase
     volume: 0.15
   Pyroxeres:
+    catName: Asteroid
     compressedTo: Compressed Pyroxeres
     groupName: Pyroxeres
     id: 1224
     maxSecurity: 0.8999999761581421
+    name: Pyroxeres
     volume: 0.3
   Solid Pyroxeres:
+    catName: Asteroid
     compressedTo: Compressed Solid Pyroxeres
     groupName: Pyroxeres
     id: 17459
     maxSecurity: 0.8999999761581421
+    name: Solid Pyroxeres
     volume: 0.3
   Viscous Pyroxeres:
+    catName: Asteroid
     compressedTo: Compressed Viscous Pyroxeres
     groupName: Pyroxeres
     id: 17460
     maxSecurity: 0.8999999761581421
+    name: Viscous Pyroxeres
     volume: 0.3
   Compressed Pyroxeres:
-    compressRatio: 49950.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Pyroxeres
     groupName: Pyroxeres
     id: 28424
     maxSecurity: -1.0
+    name: Compressed Pyroxeres
     volume: 0.16
   Compressed Solid Pyroxeres:
-    compressRatio: 49950.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Solid Pyroxeres
     groupName: Pyroxeres
     id: 28425
     maxSecurity: -1.0
+    name: Compressed Solid Pyroxeres
     volume: 0.16
   Compressed Viscous Pyroxeres:
-    compressRatio: 49950.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Viscous Pyroxeres
     groupName: Pyroxeres
     id: 28426
     maxSecurity: -1.0
+    name: Compressed Viscous Pyroxeres
     volume: 0.16
   Augumene:
+    catName: Asteroid
     groupName: Pyroxeres
     id: 28618
     maxSecurity: -1.0
+    name: Augumene
     volume: 0.3
   Scordite:
+    catName: Asteroid
     compressedTo: Compressed Scordite
     groupName: Scordite
     id: 1228
     maxSecurity: 1.0
+    name: Scordite
     volume: 0.15
   Condensed Scordite:
+    catName: Asteroid
     compressedTo: Compressed Condensed Scordite
     groupName: Scordite
     id: 17463
     maxSecurity: 1.0
+    name: Condensed Scordite
     volume: 0.15
   Massive Scordite:
+    catName: Asteroid
     compressedTo: Compressed Massive Scordite
     groupName: Scordite
     id: 17464
     maxSecurity: 1.0
+    name: Massive Scordite
     volume: 0.15
   Compressed Condensed Scordite:
-    compressRatio: 99900.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Condensed Scordite
     groupName: Scordite
     id: 28427
     maxSecurity: -1.0
+    name: Compressed Condensed Scordite
     volume: 0.19
   Compressed Massive Scordite:
-    compressRatio: 99900.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Massive Scordite
     groupName: Scordite
     id: 28428
     maxSecurity: -1.0
+    name: Compressed Massive Scordite
     volume: 0.19
   Compressed Scordite:
-    compressRatio: 99900.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Scordite
     groupName: Scordite
     id: 28429
     maxSecurity: -1.0
+    name: Compressed Scordite
     volume: 0.19
   Spodumain:
+    catName: Asteroid
     compressedTo: Compressed Spodumain
     groupName: Spodumain
     id: 19
+    name: Spodumain
     volume: 16.0
   Bright Spodumain:
+    catName: Asteroid
     compressedTo: Compressed Bright Spodumain
     groupName: Spodumain
     id: 17466
+    name: Bright Spodumain
     volume: 16.0
   Gleaming Spodumain:
+    catName: Asteroid
     compressedTo: Compressed Gleaming Spodumain
     groupName: Spodumain
     id: 17467
+    name: Gleaming Spodumain
     volume: 16.0
   Compressed Bright Spodumain:
-    compressRatio: 1250.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Bright Spodumain
     groupName: Spodumain
     id: 28418
     maxSecurity: -1.0
+    name: Compressed Bright Spodumain
     volume: 28.0
   Compressed Gleaming Spodumain:
-    compressRatio: 1250.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Gleaming Spodumain
     groupName: Spodumain
     id: 28419
     maxSecurity: -1.0
+    name: Compressed Gleaming Spodumain
     volume: 28.0
   Compressed Spodumain:
-    compressRatio: 1250.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Spodumain
     groupName: Spodumain
     id: 28420
     maxSecurity: -1.0
+    name: Compressed Spodumain
     volume: 28.0
   Veldspar:
+    catName: Asteroid
     compressedTo: Compressed Veldspar
     groupName: Veldspar
     id: 1230
     maxSecurity: 1.0
+    name: Veldspar
     volume: 0.1
   Concentrated Veldspar:
+    catName: Asteroid
     compressedTo: Compressed Concentrated Veldspar
     groupName: Veldspar
     id: 17470
     maxSecurity: 1.0
+    name: Concentrated Veldspar
     volume: 0.1
   Dense Veldspar:
+    catName: Asteroid
     compressedTo: Compressed Dense Veldspar
     groupName: Veldspar
     id: 17471
     maxSecurity: 1.0
+    name: Dense Veldspar
     volume: 0.1
   Chondrite:
+    catName: Asteroid
     groupName: Veldspar
     id: 27028
     maxSecurity: -1.0
+    name: Chondrite
     volume: 0.1
   Compressed Concentrated Veldspar:
-    compressRatio: 166500.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Concentrated Veldspar
     groupName: Veldspar
     id: 28430
     maxSecurity: -1.0
+    name: Compressed Concentrated Veldspar
     volume: 0.15
   Compressed Dense Veldspar:
-    compressRatio: 166500.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Dense Veldspar
     groupName: Veldspar
     id: 28431
     maxSecurity: -1.0
+    name: Compressed Dense Veldspar
     volume: 0.15
   Compressed Veldspar:
-    compressRatio: 166500.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Veldspar
     groupName: Veldspar
     id: 28432
     maxSecurity: -1.0
+    name: Compressed Veldspar
     volume: 0.15
   Banidine:
+    catName: Asteroid
     groupName: Veldspar
     id: 28617
     maxSecurity: -1.0
+    name: Banidine
     volume: 0.1
   Clear Icicle:
+    catName: Asteroid
     compressedTo: Compressed Clear Icicle
     groupName: Ice
     id: 16262
     maxSecurity: 1.0
+    name: Clear Icicle
     volume: 1000.0
   Glacial Mass:
+    catName: Asteroid
     compressedTo: Compressed Glacial Mass
     groupName: Ice
     id: 16263
     maxSecurity: 1.0
+    name: Glacial Mass
     volume: 1000.0
   Blue Ice:
+    catName: Asteroid
     compressedTo: Compressed Blue Ice
     groupName: Ice
     id: 16264
     maxSecurity: 1.0
+    name: Blue Ice
     volume: 1000.0
   White Glaze:
+    catName: Asteroid
     compressedTo: Compressed White Glaze
     groupName: Ice
     id: 16265
     maxSecurity: 1.0
+    name: White Glaze
     volume: 1000.0
   Glare Crust:
+    catName: Asteroid
     compressedTo: Compressed Glare Crust
     groupName: Ice
     id: 16266
     maxSecurity: 0.4000000059604645
+    name: Glare Crust
     volume: 1000.0
   Dark Glitter:
+    catName: Asteroid
     compressedTo: Compressed Dark Glitter
     groupName: Ice
     id: 16267
     maxSecurity: 0.10000000149011612
+    name: Dark Glitter
     volume: 1000.0
   Gelidus:
+    catName: Asteroid
     compressedTo: Compressed Gelidus
     groupName: Ice
     id: 16268
+    name: Gelidus
     volume: 1000.0
   Krystallos:
+    catName: Asteroid
     compressedTo: Compressed Krystallos
     groupName: Ice
     id: 16269
+    name: Krystallos
     volume: 1000.0
   Thick Blue Ice:
+    catName: Asteroid
     compressedTo: Compressed Thick Blue Ice
     groupName: Ice
     id: 17975
+    name: Thick Blue Ice
     volume: 1000.0
   Pristine White Glaze:
+    catName: Asteroid
     compressedTo: Compressed Pristine White Glaze
     groupName: Ice
     id: 17976
+    name: Pristine White Glaze
     volume: 1000.0
   Smooth Glacial Mass:
+    catName: Asteroid
     compressedTo: Compressed Smooth Glacial Mass
     groupName: Ice
     id: 17977
+    name: Smooth Glacial Mass
     volume: 1000.0
   Enriched Clear Icicle:
+    catName: Asteroid
     compressedTo: Compressed Enriched Clear Icicle
     groupName: Ice
     id: 17978
+    name: Enriched Clear Icicle
     volume: 1000.0
   Compressed Blue Ice:
+    catName: Asteroid
     compressRatio: 1.0
     compressedFrom: Blue Ice
     groupName: Ice
     id: 28433
     maxSecurity: -1.0
+    name: Compressed Blue Ice
     volume: 100.0
   Compressed Clear Icicle:
+    catName: Asteroid
     compressRatio: 1.0
     compressedFrom: Clear Icicle
     groupName: Ice
     id: 28434
     maxSecurity: -1.0
+    name: Compressed Clear Icicle
     volume: 100.0
   Compressed Dark Glitter:
+    catName: Asteroid
     compressRatio: 1.0
     compressedFrom: Dark Glitter
     groupName: Ice
     id: 28435
     maxSecurity: -1.0
+    name: Compressed Dark Glitter
     volume: 100.0
   Compressed Enriched Clear Icicle:
+    catName: Asteroid
     compressRatio: 1.0
     compressedFrom: Enriched Clear Icicle
     groupName: Ice
     id: 28436
     maxSecurity: -1.0
+    name: Compressed Enriched Clear Icicle
     volume: 100.0
   Compressed Gelidus:
+    catName: Asteroid
     compressRatio: 1.0
     compressedFrom: Gelidus
     groupName: Ice
     id: 28437
     maxSecurity: -1.0
+    name: Compressed Gelidus
     volume: 100.0
   Compressed Glacial Mass:
+    catName: Asteroid
     compressRatio: 1.0
     compressedFrom: Glacial Mass
     groupName: Ice
     id: 28438
     maxSecurity: -1.0
+    name: Compressed Glacial Mass
     volume: 100.0
   Compressed Glare Crust:
+    catName: Asteroid
     compressRatio: 1.0
     compressedFrom: Glare Crust
     groupName: Ice
     id: 28439
     maxSecurity: -1.0
+    name: Compressed Glare Crust
     volume: 100.0
   Compressed Krystallos:
+    catName: Asteroid
     compressRatio: 1.0
     compressedFrom: Krystallos
     groupName: Ice
     id: 28440
     maxSecurity: -1.0
+    name: Compressed Krystallos
     volume: 100.0
   Compressed Pristine White Glaze:
+    catName: Asteroid
     compressRatio: 1.0
     compressedFrom: Pristine White Glaze
     groupName: Ice
     id: 28441
     maxSecurity: -1.0
+    name: Compressed Pristine White Glaze
     volume: 100.0
   Compressed Smooth Glacial Mass:
+    catName: Asteroid
     compressRatio: 1.0
     compressedFrom: Smooth Glacial Mass
     groupName: Ice
     id: 28442
     maxSecurity: -1.0
+    name: Compressed Smooth Glacial Mass
     volume: 100.0
   Compressed Thick Blue Ice:
+    catName: Asteroid
     compressRatio: 1.0
     compressedFrom: Thick Blue Ice
     groupName: Ice
     id: 28443
     maxSecurity: -1.0
+    name: Compressed Thick Blue Ice
     volume: 100.0
   Compressed White Glaze:
+    catName: Asteroid
     compressRatio: 1.0
     compressedFrom: White Glaze
     groupName: Ice
     id: 28444
     maxSecurity: -1.0
+    name: Compressed White Glaze
     volume: 100.0
   Azure Ice:
+    catName: Asteroid
     groupName: Ice
     id: 28627
     maxSecurity: -1.0
+    name: Azure Ice
     volume: 1000.0
   Crystalline Icicle:
+    catName: Asteroid
     groupName: Ice
     id: 28628
     maxSecurity: -1.0
+    name: Crystalline Icicle
     volume: 1000.0
   Gneiss:
+    catName: Asteroid
     compressedTo: Compressed Gneiss
     groupName: Gneiss
     id: 1229
+    name: Gneiss
     volume: 5.0
   Iridescent Gneiss:
+    catName: Asteroid
     compressedTo: Compressed Iridescent Gneiss
     groupName: Gneiss
     id: 17865
+    name: Iridescent Gneiss
     volume: 5.0
   Prismatic Gneiss:
+    catName: Asteroid
     compressedTo: Compressed Prismatic Gneiss
     groupName: Gneiss
     id: 17866
+    name: Prismatic Gneiss
     volume: 5.0
   Flawed Gneiss:
+    catName: Asteroid
     groupName: Gneiss
     id: 26713
     maxSecurity: -1.0
+    name: Flawed Gneiss
     volume: 5.0
   Compressed Gneiss:
-    compressRatio: 4000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Gneiss
     groupName: Gneiss
     id: 28397
     maxSecurity: -1.0
+    name: Compressed Gneiss
     volume: 1.8
   Compressed Iridescent Gneiss:
-    compressRatio: 4000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Iridescent Gneiss
     groupName: Gneiss
     id: 28398
     maxSecurity: -1.0
+    name: Compressed Iridescent Gneiss
     volume: 1.8
   Compressed Prismatic Gneiss:
-    compressRatio: 4000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Prismatic Gneiss
     groupName: Gneiss
     id: 28399
     maxSecurity: -1.0
+    name: Compressed Prismatic Gneiss
     volume: 1.8
   Green Arisite:
+    catName: Asteroid
     groupName: Gneiss
     id: 28622
     maxSecurity: -1.0
+    name: Green Arisite
     volume: 5.0
   Mercoxit:
+    catName: Asteroid
     compressedTo: Compressed Mercoxit
     groupName: Mercoxit
     id: 11396
+    name: Mercoxit
     volume: 40.0
   Magma Mercoxit:
+    catName: Asteroid
     compressedTo: Compressed Magma Mercoxit
     groupName: Mercoxit
     id: 17869
+    name: Magma Mercoxit
     volume: 40.0
   Vitreous Mercoxit:
+    catName: Asteroid
     compressedTo: Compressed Vitreous Mercoxit
     groupName: Mercoxit
     id: 17870
+    name: Vitreous Mercoxit
     volume: 40.0
   Compressed Magma Mercoxit:
-    compressRatio: 500.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Magma Mercoxit
     groupName: Mercoxit
     id: 28412
     maxSecurity: -1.0
+    name: Compressed Magma Mercoxit
     volume: 0.1
   Compressed Mercoxit:
-    compressRatio: 500.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Mercoxit
     groupName: Mercoxit
     id: 28413
     maxSecurity: -1.0
+    name: Compressed Mercoxit
     volume: 0.1
   Compressed Vitreous Mercoxit:
-    compressRatio: 500.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Vitreous Mercoxit
     groupName: Mercoxit
     id: 28414
     maxSecurity: -1.0
+    name: Compressed Vitreous Mercoxit
     volume: 0.1
   Zuthrine:
+    catName: Asteroid
     groupName: Mercoxit
     id: 28626
     maxSecurity: -1.0
+    name: Zuthrine
     volume: 40.0
   Omber:
+    catName: Asteroid
     compressedTo: Compressed Omber
     groupName: Omber
     id: 1227
     maxSecurity: 0.699999988079071
+    name: Omber
     volume: 0.6
   Silvery Omber:
+    catName: Asteroid
     compressedTo: Compressed Silvery Omber
     groupName: Omber
     id: 17867
     maxSecurity: 0.699999988079071
+    name: Silvery Omber
     volume: 0.6
   Golden Omber:
+    catName: Asteroid
     compressedTo: Compressed Golden Omber
     groupName: Omber
     id: 17868
     maxSecurity: 0.699999988079071
+    name: Golden Omber
     volume: 0.6
   Compressed Golden Omber:
-    compressRatio: 25000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Golden Omber
     groupName: Omber
     id: 28415
     maxSecurity: -1.0
+    name: Compressed Golden Omber
     volume: 0.3
   Compressed Omber:
-    compressRatio: 25000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Omber
     groupName: Omber
     id: 28416
     maxSecurity: -1.0
+    name: Compressed Omber
     volume: 0.3
   Compressed Silvery Omber:
-    compressRatio: 25000.0
+    catName: Asteroid
+    compressRatio: 100.0
     compressedFrom: Silvery Omber
     groupName: Omber
     id: 28417
     maxSecurity: -1.0
+    name: Compressed Silvery Omber
     volume: 0.3
   Mercium:
+    catName: Asteroid
     groupName: Omber
     id: 28619
     maxSecurity: -1.0
+    name: Mercium
     volume: 0.6
   Ancient Compressed Blue Ice:
+    catName: Asteroid
     groupName: Ancient Compressed Ice
     id: 29113
     maxSecurity: -1.0
+    name: Ancient Compressed Blue Ice
     volume: 100.0
   Ancient Compressed Clear Icicle:
+    catName: Asteroid
     groupName: Ancient Compressed Ice
     id: 29115
     maxSecurity: -1.0
+    name: Ancient Compressed Clear Icicle
     volume: 100.0
   Ancient Compressed Dark Glitter:
+    catName: Asteroid
     groupName: Ancient Compressed Ice
     id: 29117
     maxSecurity: -1.0
+    name: Ancient Compressed Dark Glitter
     volume: 100.0
   Ancient Compressed Enriched Clear Icicle:
+    catName: Asteroid
     groupName: Ancient Compressed Ice
     id: 29119
     maxSecurity: -1.0
+    name: Ancient Compressed Enriched Clear Icicle
     volume: 100.0
   Ancient Compressed Gelidus:
+    catName: Asteroid
     groupName: Ancient Compressed Ice
     id: 29121
     maxSecurity: -1.0
+    name: Ancient Compressed Gelidus
     volume: 100.0
   Ancient Compressed Glacial Mass:
+    catName: Asteroid
     groupName: Ancient Compressed Ice
     id: 29123
     maxSecurity: -1.0
+    name: Ancient Compressed Glacial Mass
     volume: 100.0
   Ancient Compressed Glare Crust:
+    catName: Asteroid
     groupName: Ancient Compressed Ice
     id: 29125
     maxSecurity: -1.0
+    name: Ancient Compressed Glare Crust
     volume: 100.0
   Ancient Compressed Krystallos:
+    catName: Asteroid
     groupName: Ancient Compressed Ice
     id: 29127
     maxSecurity: -1.0
+    name: Ancient Compressed Krystallos
     volume: 100.0
   Ancient Compressed Pristine White Glaze:
+    catName: Asteroid
     groupName: Ancient Compressed Ice
     id: 29129
     maxSecurity: -1.0
+    name: Ancient Compressed Pristine White Glaze
     volume: 100.0
   Ancient Compressed Smooth Glacial Mass:
+    catName: Asteroid
     groupName: Ancient Compressed Ice
     id: 29131
     maxSecurity: -1.0
+    name: Ancient Compressed Smooth Glacial Mass
     volume: 100.0
   Ancient Compressed Thick Blue Ice:
+    catName: Asteroid
     groupName: Ancient Compressed Ice
     id: 29133
     maxSecurity: -1.0
+    name: Ancient Compressed Thick Blue Ice
     volume: 100.0
   Ancient Compressed White Glaze:
+    catName: Asteroid
     groupName: Ancient Compressed Ice
     id: 29135
     maxSecurity: -1.0
+    name: Ancient Compressed White Glaze
     volume: 100.0
+  Moon Asteroid 1A:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45490
+    maxSecurity: -1.0
+    name: Moon Asteroid 1A
+    volume: 10.0
+  Moon Asteroid 1B:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45491
+    maxSecurity: -1.0
+    name: Moon Asteroid 1B
+    volume: 10.0
+  Moon Asteroid 1C:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45492
+    maxSecurity: -1.0
+    name: Moon Asteroid 1C
+    volume: 10.0
+  Moon Asteroid 1D:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45493
+    maxSecurity: -1.0
+    name: Moon Asteroid 1D
+    volume: 10.0
+  Moon Asteroid 2A:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45494
+    maxSecurity: -1.0
+    name: Moon Asteroid 2A
+    volume: 10.0
+  Moon Asteroid 2B:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45495
+    maxSecurity: -1.0
+    name: Moon Asteroid 2B
+    volume: 10.0
+  Moon Asteroid 2C:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45496
+    maxSecurity: -1.0
+    name: Moon Asteroid 2C
+    volume: 10.0
+  Moon Asteroid 2D:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45497
+    maxSecurity: -1.0
+    name: Moon Asteroid 2D
+    volume: 10.0
+  Moon Asteroid 3A:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45498
+    maxSecurity: -1.0
+    name: Moon Asteroid 3A
+    volume: 10.0
+  Moon Asteroid 3B:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45499
+    maxSecurity: -1.0
+    name: Moon Asteroid 3B
+    volume: 10.0
+  Moon Asteroid 3C:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45500
+    maxSecurity: -1.0
+    name: Moon Asteroid 3C
+    volume: 10.0
+  Moon Asteroid 3D:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45501
+    maxSecurity: -1.0
+    name: Moon Asteroid 3D
+    volume: 10.0
+  Moon Asteroid 4A:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45502
+    maxSecurity: -1.0
+    name: Moon Asteroid 4A
+    volume: 10.0
+  Moon Asteroid 4B:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45503
+    maxSecurity: -1.0
+    name: Moon Asteroid 4B
+    volume: 10.0
+  Moon Asteroid 4C:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45504
+    maxSecurity: -1.0
+    name: Moon Asteroid 4C
+    volume: 10.0
+  Moon Asteroid 4D:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45506
+    maxSecurity: -1.0
+    name: Moon Asteroid 4D
+    volume: 10.0
+  Moon Asteroid 5A:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45510
+    maxSecurity: -1.0
+    name: Moon Asteroid 5A
+    volume: 10.0
+  Moon Asteroid 5B:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45511
+    maxSecurity: -1.0
+    name: Moon Asteroid 5B
+    volume: 10.0
+  Moon Asteroid 5C:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45512
+    maxSecurity: -1.0
+    name: Moon Asteroid 5C
+    volume: 10.0
+  Moon Asteroid 5D:
+    catName: Asteroid
+    groupName: Moon Asteroids
+    id: 45513
+    maxSecurity: -1.0
+    name: Moon Asteroid 5D
+    volume: 10.0

@@ -20,7 +20,7 @@
 	<modules>
 		<!-- <module>entropy-main</module> -->
 		<module>Database</module>
-		<module>Optimize</module>
+		
 		<module>SDE</module>
 		<module>programs</module>
 	</modules>
@@ -112,5 +112,5 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<version>0.0.1-snapshot</version>
+	<version>0.0.1-SNAPSHOT</version>
 </project>

@@ -450,6 +450,7 @@ public class SDEDumper {
 			bp2.manufacturing = new Activity(bp.activities.manufacturing, sde);
 			bp2.research_material = new Activity(bp.activities.research_material, sde);
 			bp2.research_time = new Activity(bp.activities.research_time, sde);
+			bp2.reaction = new Activity(bp.activities.reaction, sde);
 		}
 	}
 
@@ -616,7 +617,7 @@ public class SDEDumper {
 		for (Entry<String, Blueprint> e : db.blueprints.entrySet()) {
 			Blueprint bp = e.getValue();
 			for (Activity act : new Activity[] { bp.copying, bp.invention, bp.manufacturing, bp.research_material,
-					bp.research_time }) {
+					bp.research_time, bp.reaction }) {
 				for (fr.guiguilechat.eveonline.database.yaml.Blueprint.Material mat : act.products) {
 					MetaInf mi = db.metaInfs.get(mat.name);
 					if (mi == null) {

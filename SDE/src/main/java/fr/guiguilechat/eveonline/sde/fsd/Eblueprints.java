@@ -53,6 +53,7 @@ public class Eblueprints {
 
 		public Activity copying = new Activity();
 		public Activity invention = new Activity();
+		public Activity reaction = new Activity();
 
 		public Activity manufacturing = new Activity();
 		public Activity research_material = new Activity();
