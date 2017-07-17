@@ -17,6 +17,7 @@ import fr.guiguilechat.eveonline.database.apiv2.Char.BPEntry;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint.Material;
 import fr.guiguilechat.eveonline.database.yaml.MetaInf;
+import fr.guiguilechat.eveonline.database.yaml.Type;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 
 /**
@@ -39,24 +40,20 @@ public class ProdEval {
 
 	public String apiKey = null, apiCode = null;
 	public double tax = 03;
-	public String[] hubs = { "Jita" };
+	public String[] hubs = { "TheForge" };
 	public boolean intputSO = true;
 	public boolean outputSO = false;
-	public double mingain = 0.0;
-	public boolean showmat = false;
+	public double mingain = Double.NEGATIVE_INFINITY;
+	public double minmult = 0.0;
 	public boolean debug = false;
 	public boolean skipSkills = false;
 
 	public boolean bpo = false, bpc = false;
-	public ArrayList<Predicate<Blueprint>> acceptList = new ArrayList<>();
-	public ArrayList<Predicate<Blueprint>> skipList = new ArrayList<>();
 
-	// we accept a bp if there is a predicate for it in the accept list (of
-	// course or this list is empty) and there is no predicate for it in the
-	// skiplist
-	public Predicate<Blueprint> filterbp = bp -> (acceptList.isEmpty()
-			|| acceptList.stream().filter(p -> p.test(bp)).findAny().isPresent())
-			&& !skipList.stream().filter(p -> p.test(bp)).findAny().isPresent();
+	// we accept to produce item which are on accept list and are not onskiplist.
+	// if accept list is empty we skip the first predicate
+	public ArrayList<Predicate<Type>> acceptList = new ArrayList<>();
+	public ArrayList<Predicate<Type>> skipList = new ArrayList<>();
 
 	public ToDoubleFunction<BPCEval> bpValue = bp -> bp.gain;
 
@@ -83,6 +80,7 @@ public class ProdEval {
 				}
 				MetaInf outMeta = db.getMetaInfs().get(bpt.manufacturing.products.get(0).name);
 				// out type unknown? (not in database yet)
+				Type outType = outMeta != null ? db.getTypeById(outMeta.id) : null;
 				if (outMeta == null) {
 					if (debug) {
 						System.err.println("item type " + bpt.manufacturing.products.get(0).name + " unknown");
@@ -90,9 +88,8 @@ public class ProdEval {
 					continue;
 				}
 				// is there a skill required by this bp we don't have ?
-				if (!skipSkills
-						&& bpt.manufacturing.skills.stream().filter(sk -> skills.getOrDefault(sk.name, 0) < sk.level).findAny()
-						.isPresent()) {
+				if (!skipSkills && bpt.manufacturing.skills.stream().filter(sk -> skills.getOrDefault(sk.name, 0) < sk.level)
+						.findAny().isPresent()) {
 					if (debug && missingSkills.add(bpt.name)) {
 						System.err.println("missing skills for " + bpt.name);
 					}
@@ -106,7 +103,7 @@ public class ProdEval {
 					continue;
 				}
 				// does it match the filters ?
-				if (!filterbp.test(bpt)) {
+				if (!acceptBP(outType)) {
 					continue;
 				}
 				BPCEval eval = new BPCEval();
@@ -145,16 +142,48 @@ public class ProdEval {
 			eval.gain = eval.outValue - eval.inValue;
 			eval.mult = eval.gain / eval.inValue;
 		}
-		evaluations.removeIf(bpce -> bpce.gain < mingain);
+		evaluations.removeIf(bpce -> bpce.gain < mingain || bpce.mult < minmult);
 		ToDoubleFunction<BPCEval> eval = bpValue;
 		Collections.sort(evaluations, (e1, e2) -> (int) Math.signum(eval.applyAsDouble(e2) - eval.applyAsDouble(e1)));
 		return evaluations;
+	}
+
+	/**
+	 * do we accept to produce given type ?
+	 *
+	 * @param bp
+	 * @return
+	 */
+	public boolean acceptBP(Type item) {
+		if (item == null) {
+			return acceptList.isEmpty() && skipList.isEmpty();
+		}
+		return (acceptList.isEmpty() || acceptList.stream().filter(p -> p.test(item)).findAny().isPresent())
+				&& !skipList.stream().filter(p -> p.test(item)).findAny().isPresent();
+	}
+
+	public static final Predicate<Type> isShip = t -> t != null && "Ship".equals(t.catName);
+	public static final Predicate<Type> isModule = t -> t != null && "Module".equals(t.catName);
+	public static final Predicate<Type> isT1 = t -> t != null && t.metaLvl < 5;
+	public static final Predicate<Type> isT2 = t -> t != null && t.isT2();
+	public static final Predicate<Type> isStoryline = t -> t != null && t.isStoryline();
+	public static final Predicate<Type> isFaction = t -> t != null && t.isFaction();
+
+	public static final HashMap<String, Predicate<Type>> filters = new HashMap<>();
+	static {
+		filters.put("ship", isShip);
+		filters.put("mod", isModule);
+		filters.put("t1", isT1);
+		filters.put("t2", isT2);
+		filters.put("story", isStoryline);
+		filters.put("faction", isFaction);
 	}
 
 	public static void main(String[] args) {
 
 		ProdEval eval = new ProdEval();
 		boolean help = false;
+		boolean showmat = false;
 
 		for (String arg : args) {
 			if (arg.startsWith("key=")) {
@@ -167,6 +196,24 @@ public class ProdEval {
 				eval.hubs = arg.substring("hub=".length()).split(",");
 			} else if (arg.startsWith("mingain=")) {
 				eval.mingain = Double.parseDouble(arg.substring("mingain=".length()));
+			} else if (arg.startsWith("minmult=")) {
+				eval.minmult = Double.parseDouble(arg.substring("minmult=".length()));
+			} else if (arg.startsWith("if")) {
+				String condition = arg.substring("if".length());
+				Predicate<Type> p = filters.get(condition);
+				if (p != null) {
+					eval.acceptList.add(p);
+				} else {
+					System.err.println("no condition known for " + condition);
+				}
+			} else if (arg.startsWith("no")) {
+				String condition = arg.substring("no".length());
+				Predicate<Type> p = filters.get(condition);
+				if (p != null) {
+					eval.skipList.add(p);
+				} else {
+					System.err.println("no condition known for " + condition);
+				}
 			} else {
 				switch (arg.toLowerCase()) {
 				case "bpo":
@@ -174,10 +221,6 @@ public class ProdEval {
 					break;
 				case "bpc":
 					eval.bpc = true;
-					break;
-				case "ship":
-					break;
-				case "noship":
 					break;
 				case "noskill":
 					eval.skipSkills = true;
@@ -205,7 +248,7 @@ public class ProdEval {
 					eval.bpValue = bp -> bp.mult;
 					break;
 				case "matlist":
-					eval.showmat = true;
+					showmat = true;
 					break;
 				case "debug":
 					eval.debug = true;
@@ -222,30 +265,32 @@ public class ProdEval {
 		}
 
 		if (eval.apiKey == null || eval.apiCode == null || help) {
-			System.out.println("required api key and code.\n"
-					+ "This program gets your owned blueprints and compute the value of required/output materials.\n"
-					+ "It then prints the blueprints by decreasing interest, as well as the list of materials to buy\n"
-					+ "options:\n" + " key=KEY set the api key\n" + " code=CODE set the api code\n"
-					+ " hub=A,B,C set the systems/regions to get the prices from. default=Jita\n"
-					+ " selltax=X set the tax of output sell to X(default 3.0)%\n"
-					+ " mingain=MIN set the minimum gain of a bp to even consider it. default 0.0\n"
-					+ " bobo|boso|soso|sobo to set the evaluation of materials for required/output (sobo is sell order for input, buy order output)\n"
-					+ " mult|gain order the bps by isk multiplier of net isk gain\n"
-					+ " bpo|bpc only consider blueprint Original or Copy\n" + " matlist print the list of materials\n"
-					+ " noskill skip the skills requirement of bp\n" + " debug output potentially uselfull information\n"
-					+ " help|-help|--help print this help and exit");
+			System.out.println(
+					"This program uses your API key and code to retrieve your blueprints. It computes the value of required/output materials of those blueprints.\n"
+							+ "It then prints the blueprints by decreasing interest, as well as the list of materials to buy\n"
+							+ "options:\n" + " key=KEY set the api key\n" + " code=CODE set the api code\n"
+							+ " hub=A,B,C set the systems/regions to get the prices from. default=TheForge\n"
+							+ " selltax=X set the tax of output sell to X(default 3.0)%\n"
+							+ " mingain=MIN set the minimum gain of a bp to even consider it. default -inf\n"
+							+ " minmult=MIN set the minimum money mult of a bp to consider it. default 0.0\n"
+							+ " bobo|boso|soso|sobo to set the evaluation of materials for required/output (sobo is sell order for input, buy order output)\n"
+							+ " mult|gain order the bps by isk multiplier of net isk gain\n"
+							+ " bpo|bpc only consider blueprint Original or Copy\n" + " matlist print the list of materials\n"
+							+ " ifCOND accept production of items which meet at least one cond\n"
+							+ " noCOND prevent production of any item which meet any cond\n" + "  known cond are " + filters.keySet()
+							+ "\n" + "   eg ifship ifmodule not1 not2 will only show production of ships and modules which are meta 6+\n"
+							+ " noskill skip the skills requirement of bp\n" + " debug output potentially uselfull information\n"
+							+ " help|-help|--help print this help and exit");
 			System.exit(1);
 		}
 		HashMap<String, Long> toBuy = new HashMap<>();
 		for (BPCEval e : eval.evaluateBPs()) {
 			System.out.println("" + e.name + "*" + e.outNb + " : " + formatPrice(eval.bpValue.applyAsDouble(e)));
 			for (Entry<String, Integer> m : e.required.entrySet()) {
-				// System.err.println("add " + m.getValue() + " of item id " +
-				// m.getKey());
 				toBuy.put(m.getKey(), m.getValue() + toBuy.getOrDefault(m.getKey(), 0l));
 			}
 		}
-		if (eval.showmat) {
+		if (showmat) {
 			System.out.println();
 			System.out.println("to buy:");
 			toBuy.entrySet().stream().sorted((e1, e2) -> e1.getKey().compareTo(e2.getKey())).forEach(e -> {
