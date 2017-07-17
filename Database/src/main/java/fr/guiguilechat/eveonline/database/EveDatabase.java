@@ -29,6 +29,13 @@ public abstract class EveDatabase {
 
 	public abstract LinkedHashMap<String, Location> getLocations();
 
+	public Location getLocation(String name) {
+		if (name == null) {
+			return null;
+		}
+		return getLocations().get(name.replaceAll(" ", "").toLowerCase());
+	}
+
 	public abstract LinkedHashMap<String, MetaInf> getMetaInfs();
 
 	public abstract ArrayList<LPOffer> getLPOffers();
@@ -92,12 +99,12 @@ public abstract class EveDatabase {
 	}
 
 	public EveCentral central(String limit) {
-		Location location = getLocations().get(limit);
+		Location location = getLocation(limit);
 		if (location == null || location.getLocationType() < 1 || location.getLocationType() > 3) {
 			return central(0);
 		}
 		if (location.getLocationType() == 2) {
-			location = getLocations().get(location.parentRegion);
+			location = getLocation(location.parentRegion);
 		}
 		return central(location.locationID);
 	}
@@ -115,7 +122,7 @@ public abstract class EveDatabase {
 
 	public ESIMarket ESIRegion(String region) {
 		region = region.replaceAll(" ", "");
-		Location location = getLocations().get(region);
+		Location location = getLocation(region);
 		if (location == null || location.getLocationType() != 1) {
 			return null;
 		}

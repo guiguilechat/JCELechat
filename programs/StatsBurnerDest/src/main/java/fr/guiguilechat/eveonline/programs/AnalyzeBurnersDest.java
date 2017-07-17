@@ -53,7 +53,7 @@ public class AnalyzeBurnersDest {
 			AnalyzeBurnersDest an = new AnalyzeBurnersDest();
 			an.load(textFile);
 			System.err.println(an.system);
-			Location l = d.db.getLocations().get(an.system);
+			Location l = d.db.getLocation(an.system);
 
 			PrintStream ps = new PrintStream(new File(outputDir, an.system + ".csv"));
 
@@ -184,7 +184,7 @@ public class AnalyzeBurnersDest {
 		// sort the map by key
 		LinkedHashMap<String, int[]> sorted = new LinkedHashMap<>();
 		dest2counts.entrySet().stream().sorted(Map.Entry.comparingByKey())
-				.forEachOrdered(e -> sorted.put(e.getKey(), e.getValue()));
+		.forEachOrdered(e -> sorted.put(e.getKey(), e.getValue()));
 		dest2counts = sorted;
 	}
 

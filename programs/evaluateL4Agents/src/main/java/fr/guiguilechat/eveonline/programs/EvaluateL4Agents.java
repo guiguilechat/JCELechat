@@ -46,7 +46,7 @@ public class EvaluateL4Agents {
 	public boolean isHSSystem(String sysname) {
 		sysname = sysname.replaceAll(" ", "");
 		try {
-			return db.getLocations().get(sysname).minSec > 0.45;
+			return db.getLocation(sysname).minSec > 0.45;
 		} catch (Exception e) {
 			System.err.println("can't find system " + sysname);
 			return false;

@@ -62,7 +62,8 @@ public class ProdEval {
 
 		APIRoot r = new APIRoot(Integer.parseInt(apiKey), apiCode);
 		YamlDatabase db = new YamlDatabase();
-		EveCentral central = new EveCentral(Stream.of(hubs).map(h -> db.getLocations().get(h)).filter(l -> l != null)
+		EveCentral central = new EveCentral(
+				Stream.of(hubs).map(h -> db.getLocation(h)).filter(l -> l != null)
 				.mapToInt(l -> l.locationID).toArray());
 		// first pass we copy the bpcs to get the required and produced amount of
 		// materials

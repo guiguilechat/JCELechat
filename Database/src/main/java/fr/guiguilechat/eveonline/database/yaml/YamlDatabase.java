@@ -233,14 +233,6 @@ public class YamlDatabase extends EveDatabase {
 		return locations;
 	}
 
-	public Location getLocation(String name) {
-		if (name == null) {
-			return null;
-		}
-		name = name.replaceAll(" ", "").toLowerCase();
-		return getLocations().get(name);
-	}
-
 	protected ArrayList<LPOffer> lpoffers = null;
 
 	@Override

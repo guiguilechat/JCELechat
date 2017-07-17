@@ -33,7 +33,7 @@ public class Distances {
 	 * @return for a system, itself ; for a constellation or region, its systems.
 	 */
 	public Set<Location> getAllSystems(String locname) {
-		Location l1 = db.getLocations().get(locname);
+		Location l1 = db.getLocation(locname);
 		if (l1.parentRegion == null) {
 			return findSystemsInRegion(l1.name);
 		} else if (l1.parentConstellation == null) {
@@ -53,7 +53,7 @@ public class Distances {
 	 *         its constellations
 	 */
 	public Set<Location> getAllConstels(String locname) {
-		Location l1 = db.getLocations().get(locname);
+		Location l1 = db.getLocation(locname);
 		if (l1.parentRegion == null) {
 			return findConstelsInRegion(l1.name);
 		} else if (l1.parentConstellation == null) {
@@ -125,7 +125,7 @@ public class Distances {
 			// add all the system adjacent to those in nextIteration and not done and
 			// not in nextIteration
 			for (Location loc : atDistance) {
-				Stream.of(loc.adjacentSystems).map(db.getLocations()::get).filter(l -> !avoid.contains(l))
+				Stream.of(loc.adjacentSystems).map(db::getLocation).filter(l -> !avoid.contains(l))
 				.forEach(nextJump::add);
 			}
 
@@ -194,7 +194,7 @@ public class Distances {
 			// add all the system adjacent to those in nextIteration and not done and
 			// not in nextIteration
 			for (Location loc : atDistance) {
-				Stream.of(loc.adjacentConstels).map(db.getLocations()::get).filter(l -> !avoid.contains(l))
+				Stream.of(loc.adjacentConstels).map(db::getLocation).filter(l -> !avoid.contains(l))
 				.forEach(nextJump::add);
 			}
 
@@ -219,7 +219,7 @@ public class Distances {
 			// add all the system adjacent to those in nextIteration and not done and
 			// not in nextIteration
 			for (Location loc : atDistance) {
-				Stream.of(loc.adjacentSystems).map(db.getLocations()::get).filter(l -> !done.contains(l))
+				Stream.of(loc.adjacentSystems).map(db::getLocation).filter(l -> !done.contains(l))
 				.forEach(nextJump::add);
 			}
 			done.addAll(nextJump);
@@ -242,8 +242,8 @@ public class Distances {
 	public double avgDistWithinConstels(Location system, int maxConstelJumps) {
 
 		// get all the constellations within range in done
-		Set<Location> atDistance = new HashSet<>(Arrays.asList(db.getLocations().get(system.parentConstellation)));
-		HashSet<Location> done = new HashSet<>(Arrays.asList(db.getLocations().get(system.parentConstellation)));
+		Set<Location> atDistance = new HashSet<>(Arrays.asList(db.getLocation(system.parentConstellation)));
+		HashSet<Location> done = new HashSet<>(Arrays.asList(db.getLocation(system.parentConstellation)));
 		for (int cstlJumps = 0; cstlJumps <= maxConstelJumps; cstlJumps++) {
 			Set<Location> nextJump = new HashSet<>();
 			for (Location loc : atDistance) {

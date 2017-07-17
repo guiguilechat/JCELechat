@@ -31,7 +31,7 @@ public class SysBurnerEvaluator {
 		if (cache.containsKey(sn)) {
 			return cache.get(sn);
 		}
-		Location sys = db.getLocations().get(sn.replaceAll(" ", ""));
+		Location sys = db.getLocation(sn);
 		double ret = 2 - sys.minSec;
 		double probaNonHigh = findProbaNonHighSystem(sn);
 
@@ -55,7 +55,7 @@ public class SysBurnerEvaluator {
 				if (hsDistances.containsKey(sysname)) {
 					continue;
 				}
-				Location loc = db.getLocations().get(sysname.replaceAll(" ", ""));
+				Location loc = db.getLocation(sysname);
 				if (loc.minSec < 0.46) {
 					if (lnsDistances.containsKey(sysname)) {
 						continue;
