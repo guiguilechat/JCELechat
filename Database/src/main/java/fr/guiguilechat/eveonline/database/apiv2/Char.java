@@ -109,4 +109,20 @@ public class Char {
 		return bpc;
 	}
 
+	public LinkedHashMap<String, Integer> skillsByName(long charID) {
+		String url = BASEURL + "Skills.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code + "&characterID="
+				+ charID;
+		LinkedHashMap<String, Integer> ret = new LinkedHashMap<>();
+		try {
+			Document page = Jsoup.connect(url).get();
+			Elements elements = page.select("result rowset row");
+			for (Element el : elements) {
+				ret.put(el.attr("typeName"), Integer.parseInt(el.attr("level")));
+			}
+		} catch (IOException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+		return ret;
+	}
+
 }

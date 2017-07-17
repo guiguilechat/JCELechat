@@ -32,10 +32,12 @@ public class Blueprint extends Type {
 	public static class Skill {
 		public String name;
 		public int level;
+		// public int skill_id;
 
 		public Skill(fr.guiguilechat.eveonline.sde.fsd.Eblueprints.Skill skill, SDEData sde) {
 			level = skill.level;
 			name = sde.getType(skill.typeID).enName();
+			// skill_id = skill.typeID;
 		}
 
 		public Skill() {

@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.programs;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 import java.util.function.Predicate;
@@ -16,7 +17,6 @@ import fr.guiguilechat.eveonline.database.apiv2.Char.BPEntry;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint.Material;
 import fr.guiguilechat.eveonline.database.yaml.MetaInf;
-import fr.guiguilechat.eveonline.database.yaml.Type;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 
 /**
@@ -43,7 +43,9 @@ public class ProdEval {
 	public boolean intputSO = true;
 	public boolean outputSO = false;
 	public double mingain = 0.0;
-	public boolean showmat = true;
+	public boolean showmat = false;
+	public boolean debug = false;
+	public boolean skipSkills = false;
 
 	public boolean bpo = false, bpc = false;
 	public ArrayList<Predicate<Blueprint>> acceptList = new ArrayList<>();
@@ -63,24 +65,39 @@ public class ProdEval {
 		APIRoot r = new APIRoot(Integer.parseInt(apiKey), apiCode);
 		YamlDatabase db = new YamlDatabase();
 		EveCentral central = new EveCentral(
-				Stream.of(hubs).map(h -> db.getLocation(h)).filter(l -> l != null)
-				.mapToInt(l -> l.locationID).toArray());
+				Stream.of(hubs).map(h -> db.getLocation(h)).filter(l -> l != null).mapToInt(l -> l.locationID).toArray());
 		// first pass we copy the bpcs to get the required and produced amount of
 		// materials
 		ArrayList<BPCEval> evaluations = new ArrayList<>();
 		for (Character chara : r.account.characters()) {
+			HashMap<String, Integer> skills = r.chars.skillsByName(chara.characterID);
+			HashSet<String> missingSkills = new HashSet<>();
 			for (BPEntry bp : r.chars.blueprints(chara.characterID)) {
 				// blueprint unknown ??
 				Blueprint bpt = db.getBlueprints().get(bp.typeName);
 				if (bpt == null) {
+					if (debug) {
+						System.err.println("null bp for " + bp.typeName);
+					}
 					continue;
 				}
-				Type output = db.getTypeByName(bpt.manufacturing.products.get(0).name);
+				MetaInf outMeta = db.getMetaInfs().get(bpt.manufacturing.products.get(0).name);
 				// out type unknown? (not in database yet)
-				if (output == null) {
+				if (outMeta == null) {
+					if (debug) {
+						System.err.println("item type " + bpt.manufacturing.products.get(0).name + " unknown");
+					}
 					continue;
 				}
-				// skip bpo ?
+				// is there a skill required by this bp we don't have ?
+				if (!skipSkills
+						&& bpt.manufacturing.skills.stream().filter(sk -> skills.getOrDefault(sk.name, 0) < sk.level).findAny()
+						.isPresent()) {
+					if (debug && missingSkills.add(bpt.name)) {
+						System.err.println("missing skills for " + bpt.name);
+					}
+					continue;
+				} // skip bpo ?
 				if (bpo != bpc && !bpo && bp.runs <= 0) {
 					continue;
 				}
@@ -162,6 +179,9 @@ public class ProdEval {
 					break;
 				case "noship":
 					break;
+				case "noskill":
+					eval.skipSkills = true;
+					break;
 				case "boso":
 					eval.intputSO = false;
 					eval.outputSO = true;
@@ -184,8 +204,11 @@ public class ProdEval {
 				case "mult":
 					eval.bpValue = bp -> bp.mult;
 					break;
-				case "nomat":
-					eval.showmat = false;
+				case "matlist":
+					eval.showmat = true;
+					break;
+				case "debug":
+					eval.debug = true;
 					break;
 				case "help":
 				case "-help":
@@ -198,19 +221,19 @@ public class ProdEval {
 			}
 		}
 
-		if (eval.apiKey == null || eval.apiCode == null | help) {
-			System.out.println(
-					"required api key and code.\n"
-							+ "This program gets your owned blueprints and compute the value of required/output materials.\n"
-							+ "It then prints the blueprints by decreasing interest, as well as the list of materials to buy\n"
-							+ "options:\n" + " key=KEY set the api key\n" + " code=CODE set the api code\n"
-							+ " hub=A,B,C set the systems/regions to get the prices from. default=Jita\n"
-							+ " selltax=X set the tax of output sell to X(default 3.0)%\n"
-							+ " mingain=MIN set the minimum gain of a bp to even consider it. default 0.0\n"
-							+ " bobo|boso|soso|sobo to set the evaluation of materials for required/output (sobo is sell order for input, buy order output)\n"
-							+ " mult|gain order the bps by isk multiplier of net isk gain\n"
-							+ " bpo|bpc only consider blueprint Original or Copy\n" + " nomat do not print the list of materials\n"
-							+ " help|-help|--help print this help and exit\n");
+		if (eval.apiKey == null || eval.apiCode == null || help) {
+			System.out.println("required api key and code.\n"
+					+ "This program gets your owned blueprints and compute the value of required/output materials.\n"
+					+ "It then prints the blueprints by decreasing interest, as well as the list of materials to buy\n"
+					+ "options:\n" + " key=KEY set the api key\n" + " code=CODE set the api code\n"
+					+ " hub=A,B,C set the systems/regions to get the prices from. default=Jita\n"
+					+ " selltax=X set the tax of output sell to X(default 3.0)%\n"
+					+ " mingain=MIN set the minimum gain of a bp to even consider it. default 0.0\n"
+					+ " bobo|boso|soso|sobo to set the evaluation of materials for required/output (sobo is sell order for input, buy order output)\n"
+					+ " mult|gain order the bps by isk multiplier of net isk gain\n"
+					+ " bpo|bpc only consider blueprint Original or Copy\n" + " matlist print the list of materials\n"
+					+ " noskill skip the skills requirement of bp\n" + " debug output potentially uselfull information\n"
+					+ " help|-help|--help print this help and exit");
 			System.exit(1);
 		}
 		HashMap<String, Long> toBuy = new HashMap<>();
