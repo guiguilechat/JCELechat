@@ -30,14 +30,13 @@ import org.jfree.data.time.TimeSeriesCollection;
 import org.jfree.data.time.Week;
 
 import fr.guiguilechat.eveonline.database.EveCentral;
-import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDEData;
+import fr.guiguilechat.eveonline.database.yaml.Type;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeAttributes;
 
 public class MakeStats {
 
 	public static void main(String[] args) throws IOException {
-		SDEData sde = new SDEData();
+		YamlDatabase db = new YamlDatabase();
 		LootParser bp = new LootParser(new YamlDatabase());
 		EveCentral central = new EveCentral();
 		File srcDir = new File("src/main/resources");
@@ -53,14 +52,13 @@ public class MakeStats {
 					.toArray();
 			central.cache(allItemsIds);
 			HashSet<Integer> allFactionItems = new HashSet<>();
-			int metaLevelAttribute = 633;
 			ps.println("factionloot:");
 			for (int i : allItemsIds) {
-				HashMap<Integer, EdgmTypeAttributes> mmap = sde.getTypeAttributes().get(i);
-				if (mmap != null) {
-					EdgmTypeAttributes metal = mmap.get(metaLevelAttribute);
-					if (metal != null && metal.valueInt > 4) {
-						ps.println("  " + sde.getType(i).enName() + " : "
+				Type t = db.getTypeById(i);
+				if (t != null) {
+					int metal = t.metaLvl;
+					if (metal > 4) {
+						ps.println("  " + t.name + " : "
 								+ list.stream().mapToInt(le -> le.loots.getOrDefault(i, 0)).sum());
 						allFactionItems.add(i);
 					}

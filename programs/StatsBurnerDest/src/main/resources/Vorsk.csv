@@ -1,34 +1,29 @@
 ;;;;;;Bongveber
-;;;;;jumps:;2
+;;;;;jumps:;2;;0;1;2;;0;1;2
 ;;;;;constels:;0
 
 type;count;avgdst;maxdst;constels;
-aangel;0;0;0;0;;0
-ablood;0;0;0;0;;0
-aguristas;0;0;0;0;;0
-aserpentis;0;0;0;0;;0
-asansha;0;0;0;0;;0
-bangel;0;0;0;0;;0
-bblood;0;0;0;0;;0
-bguristas;0;0;0;0;;0
-bserpentis;0;0;0;0;;0
-tenyo;0;0;0;0;;0
-thawk;1;2;2;0;;1
-tjaguar;0;0;0;0;;0
-tvengeance;0;0;0;0;;0
+aangel;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
+ablood;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
+aguristas;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
+aserpentis;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
+asansha;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
+bangel;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
+bblood;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
+bguristas;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
+bserpentis;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
+tenyo;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
+thawk;1;2;2;0;;1;;0.0;0.0;100.0;;0.0;0.0;33.333333333333336
+tjaguar;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
+tvengeance;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
 
-agent;0;0;0;0;;0
-base;0;0;0;0;;0
-team;1;2;2;0;;1
-all;1;2;2;0;;1
+agent;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
+base;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
+team;1;2;2;0;;1;;0.0;0.0;100.0;;0.0;0.0;33.333333333333336
+all;1;2;2;0;;1;;0.0;0.0;100.0;;0.0;0.0;33.333333333333336
 
 avg jumps;Vorsk
-within;sys jumps;cstl jumps
-0;0;3,74
-1;0,5;6,23
-2;1,4;9,15
-3;2,2
-4;2,62
-5;3,18
-6;3,82
-7;4,59
+at;#systems;avg sys jumps;avg cstl jumps
+0;1;0;3,74
+1;1;0,5;6,23
+2;3;1,4;9,15

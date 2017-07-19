@@ -16,6 +16,9 @@ import fr.guiguilechat.eveonline.database.yaml.Location;
  */
 public class SysBurnerEvaluator {
 
+	/**
+	 * max distance to consider the systems
+	 */
 	public final int distance;
 
 	public final EveDatabase db;

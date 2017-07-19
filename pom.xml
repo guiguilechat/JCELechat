@@ -96,7 +96,7 @@
 			</dependency>
 			<dependency>
 				<groupId>fr.guiguilechat.eveonline</groupId>
-				<artifactId>SDECompiler</artifactId>
+				<artifactId>SDE</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>

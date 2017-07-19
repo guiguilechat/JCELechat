@@ -34,6 +34,7 @@ import fr.guiguilechat.eveonline.database.yaml.Agent;
 import fr.guiguilechat.eveonline.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint.Activity;
+import fr.guiguilechat.eveonline.database.yaml.Blueprint.Skill;
 import fr.guiguilechat.eveonline.database.yaml.DatabaseFile;
 import fr.guiguilechat.eveonline.database.yaml.Hull;
 import fr.guiguilechat.eveonline.database.yaml.LPOffer;
@@ -445,13 +446,42 @@ public class SDEDumper {
 			}
 			loadTypeInformations(bp2, sde, id);
 			db.blueprints.put(bp2.name, bp2);
-			bp2.copying = new Activity(bp.activities.copying, sde);
-			bp2.invention = new Activity(bp.activities.invention, sde);
-			bp2.manufacturing = new Activity(bp.activities.manufacturing, sde);
-			bp2.research_material = new Activity(bp.activities.research_material, sde);
-			bp2.research_time = new Activity(bp.activities.research_time, sde);
-			bp2.reaction = new Activity(bp.activities.reaction, sde);
+			bp2.copying = convertEblueprint(bp.activities.copying, sde);
+			bp2.invention = convertEblueprint(bp.activities.invention, sde);
+			bp2.manufacturing = convertEblueprint(bp.activities.manufacturing, sde);
+			bp2.research_material = convertEblueprint(bp.activities.research_material, sde);
+			bp2.research_time = convertEblueprint(bp.activities.research_time, sde);
+			bp2.reaction = convertEblueprint(bp.activities.reaction, sde);
 		}
+	}
+
+	public static Activity convertEblueprint(fr.guiguilechat.eveonline.sde.fsd.Eblueprints.BPActivities.Activity activity,
+			SDEData sde) {
+		Activity ret = new Activity();
+		ret.time = activity.time;
+		activity.materials.stream().map(m -> convertMaterial(m, sde)).forEach(ret.materials::add);
+		activity.products.stream().map(p -> convertMaterial(p, sde)).forEach(ret.products::add);
+		activity.skills.stream().map(s -> convertSkill(s, sde)).forEach(ret.skills::add);
+		return ret;
+	}
+
+	public static fr.guiguilechat.eveonline.database.yaml.Blueprint.Material convertMaterial(Material sdeMat,
+			SDEData sde) {
+		fr.guiguilechat.eveonline.database.yaml.Blueprint.Material ret = new fr.guiguilechat.eveonline.database.yaml.Blueprint.Material();
+		ret.quantity = sdeMat.quantity;
+		EtypeIDs item = sde.getType(sdeMat.typeID);
+		ret.name = item == null ? "unknown_" + sdeMat.typeID : item.enName();
+		ret.probability = sdeMat.probability;
+		return ret;
+	}
+
+	public static fr.guiguilechat.eveonline.database.yaml.Blueprint.Skill convertSkill(
+			fr.guiguilechat.eveonline.sde.fsd.Eblueprints.Skill skill, SDEData sde) {
+		fr.guiguilechat.eveonline.database.yaml.Blueprint.Skill ret = new Skill();
+		ret.level = skill.level;
+		ret.name = sde.getType(skill.typeID).enName();
+		// skill_id = skill.typeID;
+		return ret;
 	}
 
 	public static void loadLocations(SDEData sde, DatabaseFile db) {

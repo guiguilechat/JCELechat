@@ -18,6 +18,7 @@
   	<module>Optimize</module>
   	<module>copypasteve</module>
   	<module>EvalMyProd</module>
+  	<module>UnCutOrders</module>
   </modules>
   <dependencies>
   	<dependency>

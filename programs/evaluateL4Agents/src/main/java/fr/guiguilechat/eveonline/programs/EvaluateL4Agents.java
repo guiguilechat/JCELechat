@@ -19,19 +19,17 @@ public class EvaluateL4Agents {
 		el4a.corpEvaluator = new LPCorpEvaluator(el4a.db).cached(new ESIMarket(10000002))::analyseCorporationOffers;
 		el4a.systemEvaluator = new SysBurnerEvaluator(7, el4a.db)::evaluate;
 		Agent[] agents = el4a.getPossibleAgents().toArray(Agent[]::new);
-		HashMap<String, Double> agentInterest = new HashMap<>();
-		HashMap<String, Agent> agentIdx = new HashMap<>();
+		HashMap<Agent, Double> agentInterest = new HashMap<>();
 		for (Agent a : agents) {
 			double interest = el4a.evaluateAgent(a);
 			if (interest > 0) {
-				agentInterest.put(a.name, interest);
-				agentIdx.put(a.name, a);
+				agentInterest.put(a, interest);
 			}
 		}
-		ArrayList<Entry<String, Double>> evals = new ArrayList<>(agentInterest.entrySet());
+		ArrayList<Entry<Agent, Double>> evals = new ArrayList<>(agentInterest.entrySet());
 		Collections.sort(evals, (e1, e2) -> (int) Math.signum(e2.getValue() - e1.getValue()));
-		for (Entry<String, Double> e : evals) {
-			System.out.println(e.getKey() + " : " + e.getValue() + " in " + agentIdx.get(e.getKey()).location);
+		for (Entry<Agent, Double> e : evals) {
+			System.out.println(e.getKey().name + " : " + e.getValue() + " in " + e.getKey().location);
 		}
 	}
 
@@ -44,11 +42,10 @@ public class EvaluateL4Agents {
 	}
 
 	public boolean isHSSystem(String sysname) {
-		sysname = sysname.replaceAll(" ", "");
 		try {
 			return db.getLocation(sysname).minSec > 0.45;
 		} catch (Exception e) {
-			System.err.println("can't find system " + sysname);
+			System.err.println("can't find system " + sysname + " " + e);
 			return false;
 		}
 	}

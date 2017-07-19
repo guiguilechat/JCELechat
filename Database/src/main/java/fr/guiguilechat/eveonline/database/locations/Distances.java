@@ -230,6 +230,26 @@ public class Distances {
 		return totaljumps * 1.0 / total;
 	}
 
+	public Set<Location> systemsAtDistance(Location system, int jumps) {
+		Set<Location> systemDone = new HashSet<>(Arrays.asList(system));
+		Set<Location> nextIteration = new HashSet<>(Arrays.asList(system));
+		for (int jump = 1; jump <= jumps; jump++) {
+			Set<Location> iterationAdjacent = new HashSet<>();
+			// add all the system adjacent to those in nextIteration and not done
+			for (Location loc : nextIteration) {
+				Stream.of(loc.adjacentSystems).map(db::getLocation).filter(l -> !systemDone.contains(l))
+				.forEach(iterationAdjacent::add);
+			}
+			systemDone.addAll(iterationAdjacent);
+			nextIteration = iterationAdjacent;
+		}
+		return nextIteration;
+	}
+
+	public Set<Location> systemsAtDistance(String locname, int jumps) {
+		return systemsAtDistance(db.getLocation(locname), jumps);
+	}
+
 	/**
 	 *
 	 * @param system

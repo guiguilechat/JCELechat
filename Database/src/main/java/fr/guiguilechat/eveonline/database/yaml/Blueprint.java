@@ -2,9 +2,6 @@ package fr.guiguilechat.eveonline.database.yaml;
 
 import java.util.ArrayList;
 
-import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDEData;
-import fr.guiguilechat.eveonline.sde.fsd.EtypeIDs;
-
 public class Blueprint extends Type {
 
 	/**
@@ -18,13 +15,6 @@ public class Blueprint extends Type {
 		 */
 		public float probability = 1.0f;
 
-		public Material(fr.guiguilechat.eveonline.sde.fsd.Eblueprints.Material sdeMat, SDEData sde) {
-			quantity = sdeMat.quantity;
-			EtypeIDs item = sde.getType(sdeMat.typeID);
-			name = item == null ? "unknown_" + sdeMat.typeID : item.enName();
-			probability = sdeMat.probability;
-		}
-
 		public Material() {
 		}
 	}
@@ -33,12 +23,6 @@ public class Blueprint extends Type {
 		public String name;
 		public int level;
 		// public int skill_id;
-
-		public Skill(fr.guiguilechat.eveonline.sde.fsd.Eblueprints.Skill skill, SDEData sde) {
-			level = skill.level;
-			name = sde.getType(skill.typeID).enName();
-			// skill_id = skill.typeID;
-		}
 
 		public Skill() {
 		}
@@ -49,13 +33,6 @@ public class Blueprint extends Type {
 		public ArrayList<Material> products = new ArrayList<>();
 		public ArrayList<Skill> skills = new ArrayList<>();
 		public int time;
-
-		public Activity(fr.guiguilechat.eveonline.sde.fsd.Eblueprints.BPActivities.Activity activity, SDEData sde) {
-			time = activity.time;
-			activity.materials.stream().map(m -> new Material(m, sde)).forEach(materials::add);
-			activity.products.stream().map(m -> new Material(m, sde)).forEach(products::add);
-			activity.skills.stream().map(m -> new Skill(m, sde)).forEach(skills::add);
-		}
 
 		public Activity() {
 		}

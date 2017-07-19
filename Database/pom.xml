@@ -36,7 +36,8 @@
 
 		<dependency>
 			<groupId>fr.guiguilechat.eveonline</groupId>
-			<artifactId>SDECompiler</artifactId>
+			<artifactId>SDE</artifactId>
+			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>

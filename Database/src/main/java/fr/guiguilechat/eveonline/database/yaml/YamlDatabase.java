@@ -211,7 +211,7 @@ public class YamlDatabase extends EveDatabase {
 	protected LinkedHashMap<String, Location> locations = null;
 
 	@Override
-	public LinkedHashMap<String, Location> getLocations() {
+	public synchronized LinkedHashMap<String, Location> getLocations() {
 		if (locations == null) {
 			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_LOCATION_RES);
 			DatabaseFile db = stream != null ? load(stream) : null;

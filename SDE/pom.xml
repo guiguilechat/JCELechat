@@ -6,7 +6,7 @@
 		<artifactId>EveOnline</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>SDECompiler</artifactId>
+	<artifactId>SDE</artifactId>
 	<groupId>fr.guiguilechat.eveonline</groupId>
 	<dependencies>
 		<dependency>
@@ -28,4 +28,5 @@
 			<optional>true</optional>
 		</dependency>
 	</dependencies>
+	<name>SDE</name>
 </project>
