@@ -23,7 +23,7 @@ team;1;2;2;0;;1;;0.0;0.0;100.0;;0.0;0.0;33.333333333333336
 all;1;2;2;0;;1;;0.0;0.0;100.0;;0.0;0.0;33.333333333333336
 
 avg jumps;Vorsk
-at;#systems;avg sys jumps;avg cstl jumps
+distance;#systems;avg sys jumps;avg cstl jumps
 0;1;0;3,74
 1;1;0,5;6,23
 2;3;1,4;9,15

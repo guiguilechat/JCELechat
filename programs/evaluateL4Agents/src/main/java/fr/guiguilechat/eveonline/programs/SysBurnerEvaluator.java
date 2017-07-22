@@ -36,14 +36,14 @@ public class SysBurnerEvaluator {
 		}
 		Location sys = db.getLocation(sn);
 		double ret = 2 - sys.minSec;
-		double probaNonHigh = findProbaNonHighSystem(sn);
+		double probaHigh = findProbaHighSystem(sn);
 
-		ret *= probaNonHigh;
+		ret *= probaHigh * probaHigh;
 		cache.put(sn, ret);
 		return ret;
 	}
 
-	public double findProbaNonHighSystem(String sn) {
+	public double findProbaHighSystem(String sn) {
 		HashMap<String, Integer> hsDistances = new HashMap<>();
 		HashMap<String, Integer> lnsDistances = new HashMap<>();
 		int jumps = 0;

@@ -1,57 +1,57 @@
 angelextravaganza angel:
   entries: 1
-  valueBO: 1.062681558E7
+  valueBO: 1.155134917E7
 poormanshakedown minmatar:
   entries: 1
-  valueBO: 9113900.37
+  valueBO: 8997562.9
 goneberserk eom:
   entries: 1
-  valueBO: 8719486.91
+  valueBO: 8750326.98
 vengeance4 angel:
   entries: 1
-  valueBO: 7494163.65
+  valueBO: 7206185.83
 damsel mercenaries:
   entries: 1
-  valueBO: 7117895.0200000005
+  valueBO: 7145689.17
 TheAveronExchange mercenaries:
   entries: 1
-  valueBO: 5281382.09
+  valueBO: 5717796.37
 interceptsaboteurs guristas:
   entries: 1
-  valueBO: 4940164.54
+  valueBO: 4936647.67
 undergroundcities mercenaries:
   entries: 1
-  valueBO: 4896432.7700000005
+  valueBO: 4856639.44
 priorityone minmatar:
   entries: 1
-  valueBO: 4738453.11
+  valueBO: 4737999.19
 showtime syndicate:
   entries: 1
-  valueBO: 4677981.21
-blockadeL4 angel:
-  entries: 1
-  valueBO: 3612058.82
+  valueBO: 4678019.12
 littlefingers syndicate:
   entries: 1
-  valueBO: 3609917.26
+  valueBO: 3609951.99
+blockadeL4 angel:
+  entries: 1
+  valueBO: 3590710.67
 zazzmataz none:
   entries: 1
-  valueBO: 2281404.68
+  valueBO: 2261171.8000000003
 massiveattack sansha:
   entries: 1
-  valueBO: 2123842.69
+  valueBO: 2116810.84
 studioI syndicate:
   entries: 1
-  valueBO: 2063761.92
+  valueBO: 2061765.72
 assistance mercenaries:
   entries: 1
-  valueBO: 1459097.28
+  valueBO: 1467167.3199999998
 intakichase syndicate:
   entries: 1
-  valueBO: 1202332.08
+  valueBO: 1202332.32
 shipyardtheft angel:
   entries: 1
-  valueBO: 604967.79
+  valueBO: 591513.63
 attackofthedrones drone:
   entries: 1
 thetollescar drone:

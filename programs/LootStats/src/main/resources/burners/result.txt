@@ -1,7 +1,7 @@
 base serpentis:
-  entries: 38
-  factionFreq: 0.42105263157894735
-  factionModFreq: 0.42105263157894735
+  entries: 40
+  factionFreq: 0.45
+  factionModFreq: 0.45
   factions:
   - Shadow Serpentis 50MN Microwarpdrive
   - Shadow Serpentis Medium Armor Repairer
@@ -11,6 +11,7 @@ base serpentis:
   - Shadow Serpentis Dual 150mm Railgun
   - Shadow Serpentis Stasis Webifier
   - Shadow Serpentis Remote Tracking Computer
+  - Shadow Serpentis 10MN Afterburner
   - Shadow Serpentis Magnetic Field Stabilizer
   - Shadow Serpentis Armor EM Hardener
   - Shadow Serpentis Explosive Plating
@@ -18,11 +19,11 @@ base serpentis:
   - Shadow Serpentis Adaptive Nano Plating
   - Shadow Serpentis Tracking Computer
   - Shadow Serpentis Energized Kinetic Membrane
-  valueBO: 1.662958599526316E7
+  valueBO: 1.8725419821E7
 team jaguar:
-  entries: 66
-  factionFreq: 0.09090909090909091
-  factionModFreq: 0.09090909090909091
+  entries: 68
+  factionFreq: 0.08823529411764706
+  factionModFreq: 0.08823529411764706
   factions:
   - Republic Fleet Small Armor Repairer
   - Republic Fleet Warp Disruptor
@@ -30,11 +31,11 @@ team jaguar:
   - Federation Navy 1MN Afterburner
   - Republic Fleet Gyrostabilizer
   - Republic Fleet Rocket Launcher
-  valueBO: 3890669.1190909087
+  valueBO: 3776301.082058823
 team hawk:
-  entries: 57
-  factionFreq: 0.10526315789473684
-  factionModFreq: 0.10526315789473684
+  entries: 59
+  factionFreq: 0.1016949152542373
+  factionModFreq: 0.1016949152542373
   factions:
   - Caldari Navy Cloaking Device
   - Caldari Navy Small Graviton Smartbomb
@@ -42,7 +43,7 @@ team hawk:
   - Caldari Navy Rocket Launcher
   - Caldari Navy EM Ward Field
   - Caldari Navy 150mm Railgun
-  valueBO: 2989977.0757894735
+  valueBO: 2866390.0759322033
 team enyo:
   entries: 46
   factionFreq: 0.06521739130434782
@@ -50,11 +51,11 @@ team enyo:
   factions:
   - Federation Navy 5MN Microwarpdrive
   - Federation Navy 75mm Railgun
-  valueBO: 1318873.5245652173
+  valueBO: 1311849.670652174
 team vengeance:
-  entries: 57
-  factionFreq: 0.14035087719298245
-  factionModFreq: 0.14035087719298245
+  entries: 58
+  factionFreq: 0.13793103448275862
+  factionModFreq: 0.13793103448275862
   factions:
   - Imperial Navy Armor Kinetic Hardener
   - Imperial Navy Armor EM Hardener
@@ -64,39 +65,39 @@ team vengeance:
   - Imperial Navy Energized Explosive Membrane
   - Imperial Navy Small Remote Capacitor Transmitter
   - Imperial Navy Small Armor Repairer
-  valueBO: 903197.795263158
+  valueBO: 936627.2258620689
 agent sansha:
-  entries: 53
-  factionFreq: 0.018867924528301886
-  factionModFreq: 0.018867924528301886
+  entries: 55
+  factionFreq: 0.01818181818181818
+  factionModFreq: 0.01818181818181818
   factions:
   - True Sansha EM Plating
-  valueBO: 289661.1058490566
+  valueBO: 287576.1587272727
 agent blood:
-  entries: 62
-  factionFreq: 0.016129032258064516
-  factionModFreq: 0.016129032258064516
+  entries: 63
+  factionFreq: 0.015873015873015872
+  factionModFreq: 0.015873015873015872
   factions:
   - Dark Blood Dual Light Beam Laser
-  valueBO: 286832.69241935486
+  valueBO: 279623.9138095238
 base angel:
-  entries: 53
-  valueBO: 193698.77000000002
+  entries: 54
+  valueBO: 202422.89611111113
 base blood:
   entries: 2
-  valueBO: 66864.545
+  valueBO: 58003.07
 agent angel:
   entries: 49
-  valueBO: 20595.093673469386
-base guristas:
-  entries: 1
-  valueBO: 19101.0
+  valueBO: 21108.8587755102
 agent serpentis:
   bpcFreq: 0.0425531914893617
   bps:
   - Daredevil Blueprint
   entries: 47
-  valueBO: 13736.588723404253
+  valueBO: 21077.008936170212
+base guristas:
+  entries: 1
+  valueBO: 20099.0
 agent guristas:
-  entries: 51
-  valueBO: 11715.213725490197
+  entries: 52
+  valueBO: 11333.084423076923

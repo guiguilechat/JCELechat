@@ -4,11 +4,11 @@ vigil serpentis:
   factionModFreq: 0.3333333333333333
   factions:
   - Shadow Serpentis Damage Control
-  valueBO: 7.340675903E7
+  valueBO: 7.740669243666667E7
 ded4 angel:
-  entries: 78
-  factionFreq: 0.6538461538461539
-  factionModFreq: 0.6538461538461539
+  entries: 81
+  factionFreq: 0.6666666666666666
+  factionModFreq: 0.6666666666666666
   factions:
   - Gistum C-Type Kinetic Deflection Amplifier
   - Domination Warp Disruptor
@@ -25,21 +25,23 @@ ded4 angel:
   - Domination Explosive Deflection Field
   - Gistum C-Type Medium Shield Booster
   - Gistum C-Type 10MN Afterburner
+  - Domination EM Ward Amplifier
   - Domination Kinetic Deflection Amplifier
   - Domination Medium Shield Booster
   - Domination Medium Armor Repairer
   - Domination Medium Proton Smartbomb
   - Gistum C-Type Medium Remote Shield Booster
-  valueBO: 5.564130790858974E7
+  valueBO: 5.734293694888888E7
 ded3 angel:
-  bpcFreq: 0.03896103896103896
+  bpcFreq: 0.0375
   bps:
   - Daredevil Blueprint
-  entries: 77
-  factionFreq: 0.4675324675324675
-  factionModFreq: 0.4675324675324675
+  entries: 80
+  factionFreq: 0.475
+  factionModFreq: 0.475
   factions:
   - Domination Warp Disruptor
+  - Domination Warp Scrambler
   - Domination Kinetic Deflection Amplifier
   - Domination Adaptive Invulnerability Field
   - Gistii A-Type Small Shield Booster
@@ -49,28 +51,28 @@ ded3 angel:
   - Gistii A-Type 1MN Afterburner
   - Domination Small Shield Booster
   - Gistii A-Type 5MN Microwarpdrive
-  valueBO: 2.4406909017272726E7
+  valueBO: 2.7558240077E7
 fortress serpentis:
   entries: 1
   factionFreq: 1.0
   factionModFreq: 1.0
   factions:
   - Shadow Serpentis Energized Adaptive Nano Membrane
-  valueBO: 1.2836495069999998E7
+  valueBO: 1.2836512489999998E7
 vigil angel:
-  bpcFreq: 0.047619047619047616
+  bpcFreq: 0.045454545454545456
   bps:
   - Medium Ancillary Remote Armor Repairer Blueprint
-  entries: 21
-  factionFreq: 0.23809523809523808
-  factionModFreq: 0.23809523809523808
+  entries: 22
+  factionFreq: 0.22727272727272727
+  factionModFreq: 0.22727272727272727
   factions:
   - Domination Thermal Dissipation Field
   - Domination Warp Scrambler
   - Domination 50MN Microwarpdrive
   - Domination Gyrostabilizer
   - Domination 220mm Autocannon
-  valueBO: 1.2602811237619048E7
+  valueBO: 1.2267752174090909E7
 bigblue angel:
   entries: 8
   factionFreq: 0.375
@@ -79,7 +81,7 @@ bigblue angel:
   - Domination Thermal Dissipation Amplifier
   - Domination Tracking Enhancer
   - Domination Medium Proton Smartbomb
-  valueBO: 9567393.2375
+  valueBO: 9942344.665000001
 ded2 angel:
   entries: 3
   factionFreq: 0.6666666666666666
@@ -87,13 +89,13 @@ ded2 angel:
   factions:
   - Gistii B-Type 1MN Afterburner
   - Gistii B-Type Small Remote Shield Booster
-  valueBO: 8782356.069999998
+  valueBO: 8791270.716666667
 shadowfleet serpentis:
   entries: 1
-  valueBO: 3829774.35
+  valueBO: 3833755.18
 nuclear angel:
   entries: 1
-  valueBO: 1899502.01
+  valueBO: 1852581.67
 mcache sleeper:
   bpcFreq: 1.0
   bps:
@@ -122,38 +124,28 @@ mcache sleeper:
   - Polarized Mega Pulse Laser Blueprint
   - 800mm Heavy 'Jolt' Repeating Cannon I Blueprint
   entries: 9
-  valueBO: 926486.9222222222
+  valueBO: 900541.2233333333
 watch angel:
-  entries: 42
-  factionFreq: 0.047619047619047616
-  factionModFreq: 0.047619047619047616
+  entries: 43
+  factionFreq: 0.046511627906976744
+  factionModFreq: 0.046511627906976744
   factions:
   - Domination 1MN Afterburner
   - Domination Small Shield Booster
-  valueBO: 552448.55
+  valueBO: 557943.7520930233
 chasing angel:
   entries: 5
   factionFreq: 0.2
   factionModFreq: 0.2
   factions:
   - Domination EM Ward Field
-  valueBO: 468655.27999999997
+  valueBO: 468655.208
 nuclearsmall angel:
   entries: 19
-  valueBO: 322809.8947368421
+  valueBO: 324258.67631578946
 hideout angel:
   entries: 6
-  valueBO: 316583.66833333333
-lookout angel:
-  bpcFreq: 0.027777777777777776
-  bps:
-  - Large Ancillary Armor Repairer Blueprint
-  entries: 36
-  factionFreq: 0.027777777777777776
-  factionModFreq: 0.027777777777777776
-  factions:
-  - Domination Kinetic Deflection Amplifier
-  valueBO: 276393.92472222226
+  valueBO: 308763.61166666663
 hauntedyard drone:
   bpcFreq: 0.05128205128205128
   bps:
@@ -164,37 +156,47 @@ hauntedyard drone:
   factionModFreq: 0.02564102564102564
   factions:
   - Sentient Signal Amplifier
-  valueBO: 241712.29358974358
+  valueBO: 241712.31205128206
+lookout angel:
+  bpcFreq: 0.027777777777777776
+  bps:
+  - Large Ancillary Armor Repairer Blueprint
+  entries: 36
+  factionFreq: 0.027777777777777776
+  factionModFreq: 0.027777777777777776
+  factions:
+  - Domination Kinetic Deflection Amplifier
+  valueBO: 226820.79527777777
 watch serpentis:
   entries: 6
   factionFreq: 0.16666666666666666
   factionModFreq: 0.16666666666666666
   factions:
   - Shadow Serpentis Thermal Plating
-  valueBO: 133312.21333333335
+  valueBO: 133312.23166666666
 booster serpentis:
   entries: 1
   factionFreq: 1.0
   factionModFreq: 1.0
   factions:
   - Shadow Serpentis Explosive Plating
-  valueBO: 106917.15
+  valueBO: 106917.23999999999
 lookout serpentis:
   entries: 1
-  valueBO: 50514.09
+  valueBO: 50514.08
 ded3 drone:
   entries: 9
-  valueBO: 26791.795555555556
+  valueBO: 26791.80777777778
 ded1 angel:
   entries: 3
-  valueBO: 8333.346666666666
+  valueBO: 8345.343333333332
 ghost angel:
-  bpcFreq: 0.2857142857142857
+  bpcFreq: 0.25
   bps:
   - Mid-grade Ascendancy Gamma Blueprint
   - Mid-grade Ascendancy Beta Blueprint
-  entries: 7
-  valueBO: 364.2871428571429
+  entries: 8
+  valueBO: 318.75125
 desolate drone:
   bpcFreq: 0.09523809523809523
   bps:

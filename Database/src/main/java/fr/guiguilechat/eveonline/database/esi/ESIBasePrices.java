@@ -11,6 +11,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 /**
  * get data from the ESI market interface
  *
+ * <p>
+ * adjusted value is used when producing an item from bp. this is the value
+ * which is taken for tax, eg if an item is adjusted value 5000 and tax is 1%
+ * then the production tax will be 50.
+ * </p>
+ *
  */
 public class ESIBasePrices {
 

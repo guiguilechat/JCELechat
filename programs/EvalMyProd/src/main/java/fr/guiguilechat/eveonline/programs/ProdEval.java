@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map.Entry;
 import java.util.function.Predicate;
 import java.util.function.ToDoubleFunction;
@@ -38,8 +39,9 @@ public class ProdEval {
 		public MetaInf output;
 	}
 
-	public String apiKey = null, apiCode = null;
-	public double tax = 03;
+	public List<String[]> apis = new ArrayList<>();
+	public double sellTax = 03;
+	public double prodTax = 02;
 	public String[] hubs = { "TheForge" };
 	public boolean intputSO = true;
 	public boolean outputSO = false;
@@ -58,71 +60,72 @@ public class ProdEval {
 	public ToDoubleFunction<BPCEval> bpValue = bp -> bp.gain;
 
 	public ArrayList<BPCEval> evaluateBPs() {
-
-		APIRoot r = new APIRoot(Integer.parseInt(apiKey), apiCode);
+		ArrayList<BPCEval> evaluations = new ArrayList<>();
 		YamlDatabase db = new YamlDatabase();
 		EveCentral central = new EveCentral(
 				Stream.of(hubs).map(h -> db.getLocation(h)).filter(l -> l != null).mapToInt(l -> l.locationID).toArray());
-		// first pass we copy the bpcs to get the required and produced amount of
-		// materials
-		ArrayList<BPCEval> evaluations = new ArrayList<>();
-		for (Character chara : r.account.characters()) {
-			HashMap<String, Integer> skills = r.chars.skillsByName(chara.characterID);
-			HashSet<String> missingSkills = new HashSet<>();
-			for (BPEntry bp : r.chars.blueprints(chara.characterID)) {
-				// blueprint unknown ??
-				Blueprint bpt = db.getBlueprints().get(bp.typeName);
-				if (bpt == null) {
-					if (debug) {
-						System.err.println("null bp for " + bp.typeName);
+		for (String[] api : apis) {
+			APIRoot r = new APIRoot(Integer.parseInt(api[0]), api[1]);
+			// first pass we copy the bpcs to get the required and produced amount of
+			// materials
+			for (Character chara : r.account.characters()) {
+				HashMap<String, Integer> skills = r.chars.skillsByName(chara.characterID);
+				HashSet<String> missingSkills = new HashSet<>();
+				for (BPEntry bp : r.chars.blueprints(chara.characterID)) {
+					// blueprint unknown ??
+					Blueprint bpt = db.getBlueprints().get(bp.typeName);
+					if (bpt == null) {
+						if (debug) {
+							System.err.println("null bp for " + bp.typeName);
+						}
+						continue;
 					}
-					continue;
-				}
-				MetaInf outMeta = db.getMetaInfs().get(bpt.manufacturing.products.get(0).name);
-				// out type unknown? (not in database yet)
-				Type outType = outMeta != null ? db.getTypeById(outMeta.id) : null;
-				if (outMeta == null) {
-					if (debug) {
-						System.err.println("item type " + bpt.manufacturing.products.get(0).name + " unknown");
+					MetaInf outMeta = db.getMetaInfs().get(bpt.manufacturing.products.get(0).name);
+					// out type unknown? (not in database yet)
+					Type outType = outMeta != null ? db.getTypeById(outMeta.id) : null;
+					if (outMeta == null) {
+						if (debug) {
+							System.err.println("item type " + bpt.manufacturing.products.get(0).name + " unknown");
+						}
+						continue;
 					}
-					continue;
-				}
-				// is there a skill required by this bp we don't have ?
-				if (!skipSkills && bpt.manufacturing.skills.stream().filter(sk -> skills.getOrDefault(sk.name, 0) < sk.level)
-						.findAny().isPresent()) {
-					if (debug && missingSkills.add(bpt.name)) {
-						System.err.println("missing skills for " + bpt.name);
+					// is there a skill required by this bp we don't have ?
+					if (!skipSkills && bpt.manufacturing.skills.stream().filter(sk -> skills.getOrDefault(sk.name, 0) < sk.level)
+							.findAny().isPresent()) {
+						if (debug && missingSkills.add(bpt.name)) {
+							System.err.println("missing skills for " + bpt.name);
+						}
+						continue;
+					} // skip bpo ?
+					if (bpo != bpc && !bpo && bp.runs <= 0) {
+						continue;
 					}
-					continue;
-				} // skip bpo ?
-				if (bpo != bpc && !bpo && bp.runs <= 0) {
-					continue;
-				}
-				// skip bpc ?
-				if (bpo != bpc && !bpc && bp.runs > 0) {
-					continue;
-				}
-				// does it match the filters ?
-				if (!acceptBP(outType)) {
-					continue;
-				}
-				BPCEval eval = new BPCEval();
-				eval.name = bp.typeName;
-				for (Material required : bpt.manufacturing.materials) {
-					int modifiedQtty = required.quantity == 1 ? required.quantity * Math.max(1, bp.runs)
-							: (int) Math.ceil(Math.max(1, bp.runs) * 0.01 * (100 - bp.materialEfficiency) * required.quantity);
-					if (modifiedQtty < 1) {
-						System.err.println("error on bp " + bpt.name + " material " + required.name + " quantity "
-								+ required.quantity + " becomes " + modifiedQtty);
+					// skip bpc ?
+					if (bpo != bpc && !bpc && bp.runs > 0) {
+						continue;
 					}
-					eval.required.put(required.name, modifiedQtty);
+					// does it match the filters ?
+					if (!acceptBP(outType)) {
+						continue;
+					}
+					BPCEval eval = new BPCEval();
+					eval.name = bp.typeName;
+					for (Material required : bpt.manufacturing.materials) {
+						int modifiedQtty = required.quantity == 1 ? required.quantity * Math.max(1, bp.runs)
+								: (int) Math.ceil(Math.max(1, bp.runs) * 0.01 * (100 - bp.materialEfficiency) * required.quantity);
+						if (modifiedQtty < 1) {
+							System.err.println("error on bp " + bpt.name + " material " + required.name + " quantity "
+									+ required.quantity + " becomes " + modifiedQtty);
+						}
+						eval.required.put(required.name, modifiedQtty);
+					}
+					for (Material mout : bpt.manufacturing.products) {
+						eval.outName = mout.name;
+						eval.outNb = mout.quantity * Math.max(1, bp.runs);
+						eval.output = db.getMetaInfs().get(mout.name);
+					}
+					evaluations.add(eval);
 				}
-				for (Material mout : bpt.manufacturing.products) {
-					eval.outName = mout.name;
-					eval.outNb = mout.quantity * Math.max(1, bp.runs);
-					eval.output = db.getMetaInfs().get(mout.name);
-				}
-				evaluations.add(eval);
 			}
 		}
 		// then we cache the materials
@@ -136,11 +139,12 @@ public class ProdEval {
 			for (Entry<String, Integer> e : eval.required.entrySet()) {
 				int id = db.getMetaInfs().get(e.getKey()).id;
 				eval.inValue += (intputSO ? central.getSO(id) : central.getBO(id)) * e.getValue();
+				eval.inValue += db.ESIBasePrices().getAdjusted(id) * prodTax / 100;
 			}
 			eval.outValue += (outputSO ? central.getSO(eval.output.id) : central.getBO(eval.output.id)) * eval.outNb
-					* (1.0 - tax / 100);
+					* (1.0 - sellTax / 100);
 			eval.gain = eval.outValue - eval.inValue;
-			eval.mult = eval.gain / eval.inValue;
+			eval.mult = eval.outValue / eval.inValue;
 		}
 		evaluations.removeIf(bpce -> bpce.gain < mingain || bpce.mult < minmult);
 		ToDoubleFunction<BPCEval> eval = bpValue;
@@ -186,12 +190,15 @@ public class ProdEval {
 		boolean showmat = false;
 
 		for (String arg : args) {
-			if (arg.startsWith("key=")) {
-				eval.apiKey = arg.substring("key=".length());
-			} else if (arg.startsWith("code=")) {
-				eval.apiCode = arg.substring("code=".length());
+			if (arg.startsWith("api=")) {
+				String apis = arg.substring("api=".length());
+				for (String api : apis.split(",")) {
+					eval.apis.add(api.split(":"));
+				}
 			} else if (arg.startsWith("selltax=")) {
-				eval.tax = Double.parseDouble(arg.substring("selltax=".length()));
+				eval.sellTax = Double.parseDouble(arg.substring("selltax=".length()));
+			} else if (arg.startsWith("prodtax=")) {
+				eval.prodTax = Double.parseDouble(arg.substring("prodtax=".length()));
 			} else if (arg.startsWith("hub=")) {
 				eval.hubs = arg.substring("hub=".length()).split(",");
 			} else if (arg.startsWith("mingain=")) {
@@ -264,13 +271,14 @@ public class ProdEval {
 			}
 		}
 
-		if (eval.apiKey == null || eval.apiCode == null || help) {
+		if (eval.apis.isEmpty() || help) {
 			System.out.println(
 					"This program uses your API key and code to retrieve your blueprints. It computes the value of required/output materials of those blueprints.\n"
 							+ "It then prints the blueprints by decreasing interest, as well as the list of materials to buy\n"
-							+ "options:\n" + " key=KEY set the api key\n" + " code=CODE set the api code\n"
+							+ "options:\n" + " api=KEY1:CODE1,KEY2:CODE2 set the api keys and codes\n"
 							+ " hub=A,B,C set the systems/regions to get the prices from. default=TheForge\n"
 							+ " selltax=X set the tax of output sell to X(default 3.0)%\n"
+							+ " prodtax=X set the total tax (system+structure) to x%. default 2%\n"
 							+ " mingain=MIN set the minimum gain of a bp to even consider it. default -inf\n"
 							+ " minmult=MIN set the minimum money mult of a bp to consider it. default 0.0\n"
 							+ " bobo|boso|soso|sobo to set the evaluation of materials for required/output (sobo is sell order for input, buy order output)\n"
@@ -285,7 +293,8 @@ public class ProdEval {
 		}
 		HashMap<String, Long> toBuy = new HashMap<>();
 		for (BPCEval e : eval.evaluateBPs()) {
-			System.out.println("" + e.name + "*" + e.outNb + " : " + formatPrice(eval.bpValue.applyAsDouble(e)));
+			System.out.println(
+					"" + e.name + (e.outNb == 1 ? "" : "*" + e.outNb) + " : " + formatPrice(eval.bpValue.applyAsDouble(e)));
 			for (Entry<String, Integer> m : e.required.entrySet()) {
 				toBuy.put(m.getKey(), m.getValue() + toBuy.getOrDefault(m.getKey(), 0l));
 			}

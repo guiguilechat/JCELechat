@@ -177,7 +177,7 @@ public class EvaluateRigs {
 			materialsImportCost += importTax * matQtty[i] * importCentral.getBO(matIDs[i])
 					+ matVol[i] * matQtty[i] * importVolPrice;
 		}
-		double prodTax = db.ESIMarket().getAdjusted(m.id) * systemCostIndex / 100 * (1.0 + manufactureTax / 100);
+		double prodTax = db.ESIBasePrices().getAdjusted(m.id) * systemCostIndex / 100 * (1.0 + manufactureTax / 100);
 
 		ItemMedianData pond = localESI.getPonderatedMedianMonthlyAverage(m.id, nbPeriods, periodLength);
 		long totalOrders = pond.qtty / periodLength;

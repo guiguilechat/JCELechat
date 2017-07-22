@@ -13,9 +13,9 @@ public class SysBurnerEvaluatorTest {
 		SysBurnerEvaluator e0 = new SysBurnerEvaluator(0, db);
 		SysBurnerEvaluator e1 = new SysBurnerEvaluator(1, db);
 		SysBurnerEvaluator e2 = new SysBurnerEvaluator(2, db);
-		Assert.assertEquals(e0.findProbaNonHighSystem("Jita"), 1.0);
-		Assert.assertEquals(e1.findProbaNonHighSystem("Friggi"), 0.8);
-		Assert.assertEquals(e2.findProbaNonHighSystem("Amo"), 0.5);
+		Assert.assertEquals(e0.findProbaHighSystem("Jita"), 1.0);
+		Assert.assertEquals(e1.findProbaHighSystem("Friggi"), 0.8);
+		Assert.assertEquals(e2.findProbaHighSystem("Amo"), 0.5);
 	}
 
 }

@@ -6,7 +6,7 @@ havenrock serpentis:
   - Shadow Serpentis Energized Explosive Membrane
   - Shadow Serpentis Inertial Stabilizers
   - Shadow Serpentis Thermal Plating
-  valueBO: 1.79531818275E7
+  valueBO: 1.793591757375E7
 forsakenrallypoint serpentis:
   entries: 25
   factionFreq: 0.04
@@ -14,14 +14,14 @@ forsakenrallypoint serpentis:
   factions:
   - Shadow Serpentis Tracking Computer
   - Shadow Serpentis Energized Adaptive Nano Membrane
-  valueBO: 1.12275439788E7
+  valueBO: 1.12371102756E7
 havengas serpentis:
   entries: 19
   factionFreq: 0.05263157894736842
   factionModFreq: 0.05263157894736842
   factions:
   - Shadow Serpentis Remote Tracking Computer
-  valueBO: 9476107.600526316
+  valueBO: 9645778.551578946
 haven serpentis:
   entries: 30
   factionFreq: 0.1
@@ -32,36 +32,36 @@ haven serpentis:
   - Shadow Serpentis Kinetic Plating
   - Shadow Serpentis Armor Kinetic Hardener
   - Shadow Serpentis Energized Kinetic Membrane
-  valueBO: 7217706.306666667
+  valueBO: 7174198.996333333
 sanctumring serpentis:
   entries: 3
-  valueBO: 7107902.803333334
+  valueBO: 6930039.48
 forsakenhub serpentis:
   entries: 23
   factionFreq: 0.043478260869565216
   factionModFreq: 0.043478260869565216
   factions:
   - Shadow Serpentis Armor EM Hardener
-  valueBO: 6059253.586521739
+  valueBO: 6015682.446086956
 sanctum serpentis:
   entries: 6
-  valueBO: 5206557.235
+  valueBO: 5214513.9799999995
 hub serpentis:
   entries: 15
   factionFreq: 0.06666666666666667
   factionModFreq: 0.06666666666666667
   factions:
   - Shadow Serpentis Energized Thermal Membrane
-  valueBO: 3860585.35
-forlornhub serpentis:
-  entries: 1
-  valueBO: 3061399.11
-port serpentis:
-  entries: 4
-  valueBO: 2884724.4825
+  valueBO: 3826834.220666667
 forlornrallypoint serpentis:
   entries: 1
-  valueBO: 2752232.16
+  valueBO: 3148408.21
+forlornhub serpentis:
+  entries: 1
+  valueBO: 3049604.52
+port serpentis:
+  entries: 4
+  valueBO: 2996649.3925
 forsakenden serpentis:
   entries: 3
-  valueBO: 2651213.3333333335
+  valueBO: 2840693.83

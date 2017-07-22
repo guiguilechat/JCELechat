@@ -74,7 +74,7 @@ public abstract class EveDatabase {
 
 	protected ESIBasePrices esi = new ESIBasePrices();
 
-	public ESIBasePrices ESIMarket() {
+	public ESIBasePrices ESIBasePrices() {
 		return esi;
 	}
 
