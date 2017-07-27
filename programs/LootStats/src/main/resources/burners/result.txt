@@ -1,7 +1,7 @@
 base serpentis:
-  entries: 40
-  factionFreq: 0.45
-  factionModFreq: 0.45
+  entries: 49
+  factionFreq: 0.4489795918367347
+  factionModFreq: 0.4489795918367347
   factions:
   - Shadow Serpentis 50MN Microwarpdrive
   - Shadow Serpentis Medium Armor Repairer
@@ -11,6 +11,7 @@ base serpentis:
   - Shadow Serpentis Dual 150mm Railgun
   - Shadow Serpentis Stasis Webifier
   - Shadow Serpentis Remote Tracking Computer
+  - Shadow Serpentis Warp Disruptor
   - Shadow Serpentis 10MN Afterburner
   - Shadow Serpentis Magnetic Field Stabilizer
   - Shadow Serpentis Armor EM Hardener
@@ -19,23 +20,28 @@ base serpentis:
   - Shadow Serpentis Adaptive Nano Plating
   - Shadow Serpentis Tracking Computer
   - Shadow Serpentis Energized Kinetic Membrane
-  valueBO: 1.8725419821E7
+  - Shadow Serpentis 250mm Railgun
+  valueBO: 1.7785241996938776E7
+base blood:
+  entries: 2
+  valueBO: 6081109.47
 team jaguar:
-  entries: 68
-  factionFreq: 0.08823529411764706
-  factionModFreq: 0.08823529411764706
+  entries: 73
+  factionFreq: 0.0958904109589041
+  factionModFreq: 0.0958904109589041
   factions:
   - Republic Fleet Small Armor Repairer
   - Republic Fleet Warp Disruptor
   - Republic Fleet Small Proton Smartbomb
   - Federation Navy 1MN Afterburner
   - Republic Fleet Gyrostabilizer
+  - Republic Fleet Armor Thermal Hardener
   - Republic Fleet Rocket Launcher
-  valueBO: 3776301.082058823
+  valueBO: 3625055.130821918
 team hawk:
-  entries: 59
-  factionFreq: 0.1016949152542373
-  factionModFreq: 0.1016949152542373
+  entries: 66
+  factionFreq: 0.09090909090909091
+  factionModFreq: 0.09090909090909091
   factions:
   - Caldari Navy Cloaking Device
   - Caldari Navy Small Graviton Smartbomb
@@ -43,19 +49,26 @@ team hawk:
   - Caldari Navy Rocket Launcher
   - Caldari Navy EM Ward Field
   - Caldari Navy 150mm Railgun
-  valueBO: 2866390.0759322033
+  valueBO: 2487222.4524242426
 team enyo:
-  entries: 46
-  factionFreq: 0.06521739130434782
-  factionModFreq: 0.06521739130434782
+  entries: 50
+  factionFreq: 0.06
+  factionModFreq: 0.06
   factions:
   - Federation Navy 5MN Microwarpdrive
   - Federation Navy 75mm Railgun
-  valueBO: 1311849.670652174
-team vengeance:
+  valueBO: 1226068.6286
+base angel:
   entries: 58
-  factionFreq: 0.13793103448275862
-  factionModFreq: 0.13793103448275862
+  factionFreq: 0.017241379310344827
+  factionModFreq: 0.017241379310344827
+  factions:
+  - Domination Kinetic Deflection Amplifier
+  valueBO: 1047238.0613793102
+team vengeance:
+  entries: 60
+  factionFreq: 0.13333333333333333
+  factionModFreq: 0.13333333333333333
   factions:
   - Imperial Navy Armor Kinetic Hardener
   - Imperial Navy Armor EM Hardener
@@ -65,39 +78,34 @@ team vengeance:
   - Imperial Navy Energized Explosive Membrane
   - Imperial Navy Small Remote Capacitor Transmitter
   - Imperial Navy Small Armor Repairer
-  valueBO: 936627.2258620689
+  valueBO: 984789.2013333333
 agent sansha:
-  entries: 55
-  factionFreq: 0.01818181818181818
-  factionModFreq: 0.01818181818181818
+  entries: 58
+  factionFreq: 0.017241379310344827
+  factionModFreq: 0.017241379310344827
   factions:
   - True Sansha EM Plating
-  valueBO: 287576.1587272727
+  valueBO: 211158.9320689655
 agent blood:
-  entries: 63
-  factionFreq: 0.015873015873015872
-  factionModFreq: 0.015873015873015872
+  entries: 71
+  factionFreq: 0.028169014084507043
+  factionModFreq: 0.028169014084507043
   factions:
+  - Dark Blood Energized Thermal Membrane
   - Dark Blood Dual Light Beam Laser
-  valueBO: 279623.9138095238
-base angel:
-  entries: 54
-  valueBO: 202422.89611111113
-base blood:
-  entries: 2
-  valueBO: 58003.07
+  valueBO: 205415.96436619718
 agent angel:
-  entries: 49
-  valueBO: 21108.8587755102
-agent serpentis:
-  bpcFreq: 0.0425531914893617
-  bps:
-  - Daredevil Blueprint
-  entries: 47
-  valueBO: 21077.008936170212
+  entries: 54
+  valueBO: 66678.1551851852
 base guristas:
   entries: 1
-  valueBO: 20099.0
+  valueBO: 47764.5
 agent guristas:
+  entries: 62
+  valueBO: 46358.9520967742
+agent serpentis:
+  bpcFreq: 0.038461538461538464
+  bps:
+  - Daredevil Blueprint
   entries: 52
-  valueBO: 11333.084423076923
+  valueBO: 13038.133653846153

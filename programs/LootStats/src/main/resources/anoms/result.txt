@@ -1,27 +1,19 @@
 havenrock serpentis:
-  entries: 8
-  factionFreq: 0.125
-  factionModFreq: 0.125
+  entries: 14
+  factionFreq: 0.07142857142857142
+  factionModFreq: 0.07142857142857142
   factions:
   - Shadow Serpentis Energized Explosive Membrane
   - Shadow Serpentis Inertial Stabilizers
   - Shadow Serpentis Thermal Plating
-  valueBO: 1.793591757375E7
-forsakenrallypoint serpentis:
-  entries: 25
-  factionFreq: 0.04
-  factionModFreq: 0.04
-  factions:
-  - Shadow Serpentis Tracking Computer
-  - Shadow Serpentis Energized Adaptive Nano Membrane
-  valueBO: 1.12371102756E7
+  valueBO: 2.7331775627142854E7
 havengas serpentis:
-  entries: 19
-  factionFreq: 0.05263157894736842
-  factionModFreq: 0.05263157894736842
+  entries: 23
+  factionFreq: 0.043478260869565216
+  factionModFreq: 0.043478260869565216
   factions:
   - Shadow Serpentis Remote Tracking Computer
-  valueBO: 9645778.551578946
+  valueBO: 2.4864099419565216E7
 haven serpentis:
   entries: 30
   factionFreq: 0.1
@@ -32,36 +24,44 @@ haven serpentis:
   - Shadow Serpentis Kinetic Plating
   - Shadow Serpentis Armor Kinetic Hardener
   - Shadow Serpentis Energized Kinetic Membrane
-  valueBO: 7174198.996333333
+  valueBO: 2.1608105751333334E7
+forsakenrallypoint serpentis:
+  entries: 26
+  factionFreq: 0.038461538461538464
+  factionModFreq: 0.038461538461538464
+  factions:
+  - Shadow Serpentis Tracking Computer
+  - Shadow Serpentis Energized Adaptive Nano Membrane
+  valueBO: 2.0810416049999997E7
 sanctumring serpentis:
   entries: 3
-  valueBO: 6930039.48
+  valueBO: 1.9711852613333333E7
+forlornhub serpentis:
+  entries: 1
+  valueBO: 1.812020952E7
 forsakenhub serpentis:
   entries: 23
   factionFreq: 0.043478260869565216
   factionModFreq: 0.043478260869565216
   factions:
   - Shadow Serpentis Armor EM Hardener
-  valueBO: 6015682.446086956
+  valueBO: 1.69256766973913E7
 sanctum serpentis:
   entries: 6
-  valueBO: 5214513.9799999995
+  valueBO: 1.5014742931666667E7
+forlornrallypoint serpentis:
+  entries: 1
+  valueBO: 1.343160855E7
 hub serpentis:
   entries: 15
   factionFreq: 0.06666666666666667
   factionModFreq: 0.06666666666666667
   factions:
   - Shadow Serpentis Energized Thermal Membrane
-  valueBO: 3826834.220666667
-forlornrallypoint serpentis:
-  entries: 1
-  valueBO: 3148408.21
-forlornhub serpentis:
-  entries: 1
-  valueBO: 3049604.52
+  valueBO: 1.096745685E7
 port serpentis:
   entries: 4
-  valueBO: 2996649.3925
+  valueBO: 7407719.92
 forsakenden serpentis:
   entries: 3
-  valueBO: 2840693.83
+  valueBO: 7285013.326666667

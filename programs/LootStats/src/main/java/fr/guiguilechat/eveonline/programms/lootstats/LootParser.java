@@ -16,6 +16,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.database.EveDatabase;
+import fr.guiguilechat.eveonline.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.database.yaml.Type;
 
 public class LootParser {
@@ -75,6 +76,19 @@ public class LootParser {
 					} else {
 						String[] tokens = line.split("\\t");
 						Type t = evedb.getTypeByName(tokens[0]);
+						if (t == null) {
+							MetaInf m = evedb.getMetaInfs().get(tokens[0]);
+							if (m != null) {
+								t = new Type();
+								t.catName = "";
+								t.groupName = "";
+								t.name = tokens[0];
+								t.id = m.id;
+								t.volume = m.volume;
+							} else if (undecoded.add(tokens[0])) {
+								logger.debug("can't decode " + tokens[0]);
+							}
+						}
 						if (t != null) {
 							Integer nb = entry.loots.get(t.id);
 							if (tokens[1].length() > 0) {
@@ -84,10 +98,6 @@ public class LootParser {
 							}
 							entry.loots.put(t.id, nb);
 							// System.err.println("" + id + "->" + nb);
-						} else {
-							if (undecoded.add(tokens[0])) {
-								logger.debug("can't decode " + tokens[0]);
-							}
 						}
 					}
 					break;

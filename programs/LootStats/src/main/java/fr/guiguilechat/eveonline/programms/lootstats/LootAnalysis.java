@@ -74,7 +74,7 @@ public class LootAnalysis {
 						factions.add(t.name);
 					}
 				} else {
-					logger.error("can't find type for id " + id);
+					// logger.error("can't find type for id " + id);
 				}
 			});
 			ret.entries++;

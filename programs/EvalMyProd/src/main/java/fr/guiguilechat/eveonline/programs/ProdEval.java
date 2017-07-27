@@ -229,7 +229,7 @@ public class ProdEval {
 				case "bpc":
 					eval.bpc = true;
 					break;
-				case "noskill":
+				case "all5":
 					eval.skipSkills = true;
 					break;
 				case "boso":
@@ -287,7 +287,7 @@ public class ProdEval {
 							+ " ifCOND accept production of items which meet at least one cond\n"
 							+ " noCOND prevent production of any item which meet any cond\n" + "  known cond are " + filters.keySet()
 							+ "\n" + "   eg ifship ifmodule not1 not2 will only show production of ships and modules which are meta 6+\n"
-							+ " noskill skip the skills requirement of bp\n" + " debug output potentially uselfull information\n"
+							+ " all5 skip the skills requirement of bp\n" + " debug output potentially uselfull information\n"
 							+ " help|-help|--help print this help and exit");
 			System.exit(1);
 		}
