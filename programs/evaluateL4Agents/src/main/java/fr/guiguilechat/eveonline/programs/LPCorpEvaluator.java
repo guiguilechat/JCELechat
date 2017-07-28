@@ -18,6 +18,7 @@ import fr.guiguilechat.eveonline.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 
+/** evaluate ratio isk/lp of a corp */
 public class LPCorpEvaluator {
 
 	public static class OfferAnalysis {

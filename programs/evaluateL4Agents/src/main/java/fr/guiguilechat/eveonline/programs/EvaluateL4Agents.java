@@ -61,7 +61,7 @@ public class EvaluateL4Agents {
 		double sysval = systemEvaluator.applyAsDouble(agent.system);
 		// System.err.println("agent " + agent.name + " corp=" + corpval + " sys=" +
 		// sysval);
-		return corpval * sysval;
+		return ((corpval * 8.340 + 3000) * sysval + 5000) * 6 / 1000;
 	}
 
 }
