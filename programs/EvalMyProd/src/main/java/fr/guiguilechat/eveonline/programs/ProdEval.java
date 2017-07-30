@@ -40,7 +40,8 @@ public class ProdEval {
 	}
 
 	public List<String[]> apis = new ArrayList<>();
-	public double sellTax = 03;
+	public double intTax = 2;
+	public double outTax = 03;
 	public double prodTax = 02;
 	public String[] hubs = { "TheForge" };
 	public boolean intputSO = true;
@@ -138,11 +139,11 @@ public class ProdEval {
 		for (BPCEval eval : evaluations) {
 			for (Entry<String, Integer> e : eval.required.entrySet()) {
 				int id = db.getMetaInfs().get(e.getKey()).id;
-				eval.inValue += (intputSO ? central.getSO(id) : central.getBO(id)) * e.getValue();
-				eval.inValue += db.ESIBasePrices().getAdjusted(id) * prodTax / 100;
+				eval.inValue += (intputSO ? central.getSO(id) : central.getBO(id)) * e.getValue() * (1.0 + intTax / 100);
 			}
 			eval.outValue += (outputSO ? central.getSO(eval.output.id) : central.getBO(eval.output.id)) * eval.outNb
-					* (1.0 - sellTax / 100);
+					* (1.0 - outTax / 100);
+			eval.inValue += db.ESIBasePrices().getAdjusted(eval.output.id) * eval.outNb * prodTax / 100;
 			eval.gain = eval.outValue - eval.inValue;
 			eval.mult = eval.outValue / eval.inValue;
 		}
@@ -195,8 +196,8 @@ public class ProdEval {
 				for (String api : apis.split(",")) {
 					eval.apis.add(api.split(":"));
 				}
-			} else if (arg.startsWith("selltax=")) {
-				eval.sellTax = Double.parseDouble(arg.substring("selltax=".length()));
+			} else if (arg.startsWith("outtax=")) {
+				eval.outTax = Double.parseDouble(arg.substring("outtax=".length()));
 			} else if (arg.startsWith("prodtax=")) {
 				eval.prodTax = Double.parseDouble(arg.substring("prodtax=".length()));
 			} else if (arg.startsWith("hub=")) {
@@ -277,7 +278,8 @@ public class ProdEval {
 							+ "It then prints the blueprints by decreasing interest, as well as the list of materials to buy\n"
 							+ "options:\n" + " api=KEY1:CODE1,KEY2:CODE2 set the api keys and codes\n"
 							+ " hub=A,B,C set the systems/regions to get the prices from. default=TheForge\n"
-							+ " selltax=X set the tax of output sell to X(default 3.0)%\n"
+							+ " outtax=X set the tax of output to X(default 3.0)%\n"
+							+ " intax=X set the tax of input items to X(default 2.0)%\n"
 							+ " prodtax=X set the total tax (system+structure) to x%. default 2%\n"
 							+ " mingain=MIN set the minimum gain of a bp to even consider it. default -inf\n"
 							+ " minmult=MIN set the minimum money mult of a bp to consider it. default 0.0\n"

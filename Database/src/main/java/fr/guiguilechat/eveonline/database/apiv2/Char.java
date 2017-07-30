@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.database.apiv2;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.LinkedHashMap;
 
 import org.jsoup.Jsoup;
@@ -96,17 +97,18 @@ public class Char {
 	}
 
 	protected static BPEntry extractBPEntry(Element el) {
-		BPEntry bpc = new BPEntry();
-		bpc.itemID = APIRoot.getLong(el, "itemID", 0);
-		bpc.locationID = APIRoot.getLong(el, "locationID", 0);
-		bpc.typeID = APIRoot.getInt(el, "typeID", 0);
-		bpc.typeName = el.attr("typeName");
-		bpc.flagID = APIRoot.getInt(el, "flagID", 0);
-		bpc.quantity = APIRoot.getInt(el, "quantity", 1);
-		bpc.timeEfficiency = APIRoot.getInt(el, "timeEfficiency", 1);
-		bpc.materialEfficiency = APIRoot.getInt(el, "materialEfficiency", 1);
-		bpc.runs = APIRoot.getInt(el, "runs", 1);
-		return bpc;
+		return APIRoot.convertElement(el, BPEntry.class);
+		// BPEntry bpc = new BPEntry();
+		// bpc.itemID = APIRoot.getLong(el, "itemID", 0);
+		// bpc.locationID = APIRoot.getLong(el, "locationID", 0);
+		// bpc.typeID = APIRoot.getInt(el, "typeID", 0);
+		// bpc.typeName = el.attr("typeName");
+		// bpc.flagID = APIRoot.getInt(el, "flagID", 0);
+		// bpc.quantity = APIRoot.getInt(el, "quantity", 1);
+		// bpc.timeEfficiency = APIRoot.getInt(el, "timeEfficiency", 1);
+		// bpc.materialEfficiency = APIRoot.getInt(el, "materialEfficiency", 1);
+		// bpc.runs = APIRoot.getInt(el, "runs", 1);
+		// return bpc;
 	}
 
 	public LinkedHashMap<String, Integer> skillsByName(long charID) {
@@ -123,6 +125,60 @@ public class Char {
 			throw new UnsupportedOperationException("catch this", e);
 		}
 		return ret;
+	}
+
+	/**
+	 * http://eveonline-third-party-documentation.readthedocs.io/en/latest/xmlapi/character/char_industryjobs.html
+	 */
+
+	public static class JobEntry {
+		public long jobID;
+		public long installerID;
+		public String installerName;
+		public long facilityID;
+		public long solarSystemID;
+		public String solarSystemName;
+		public long stationID;
+		public long activityID;
+		public long blueprintID;
+		public int blueprintTypeID;
+		public String blueprintTypeName;
+		public long blueprintLocationID;
+		public long outputLocationID;
+		public int runs;
+		public double cost;
+		public int licensedRuns;
+		public double probability;
+		public int productTypeID;
+		public String productTypeName;
+		public int status;
+		public int timeInSeconds;
+		public Date startDate;
+		public Date endDate;
+		public Date pauseDate;
+		public Date completedDate;
+		public long completedCharacterID;
+		public int successfulRuns;
+	}
+
+	public ArrayList<JobEntry> industryJobs(long charID) {
+		String url = BASEURL + "IndustryJobs.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code
+				+ "&characterID=" + charID;
+		ArrayList<JobEntry> ret = new ArrayList<>();
+		try {
+			Document page = Jsoup.connect(url).get();
+			Elements elements = page.select("result rowset row");
+			for (Element el : elements) {
+				ret.add(extractJobEntry(el));
+			}
+		} catch (IOException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+		return ret;
+	}
+
+	public JobEntry extractJobEntry(Element el) {
+		return APIRoot.convertElement(el, JobEntry.class);
 	}
 
 }
