@@ -17,7 +17,7 @@ public class EvaluateL4Agents {
 	public static void main(String[] args) {
 		EvaluateL4Agents el4a = new EvaluateL4Agents();
 		el4a.corpEvaluator = new LPCorpEvaluator(el4a.db).cached(new ESIMarket(10000002))::analyseCorporationOffers;
-		el4a.systemEvaluator = new SysBurnerEvaluator(7, el4a.db)::evaluate;
+		el4a.systemEvaluator = new SysBurnerEvaluator(8, el4a.db);
 		Agent[] agents = el4a.getPossibleAgents().toArray(Agent[]::new);
 		HashMap<Agent, Double> agentInterest = new HashMap<>();
 		for (Agent a : agents) {
@@ -51,17 +51,28 @@ public class EvaluateL4Agents {
 	}
 
 	// evaluate the interest of a system
-	protected ToDoubleFunction<String> systemEvaluator;
+	protected SysBurnerEvaluator systemEvaluator;
 
-	// evaluate the isk/lp value of a corpo
+	// evaluate the k isk/lp value of a corpo
 	protected ToDoubleFunction<String> corpEvaluator;
 
+	/**
+	 * get the number of M isk/hour we can get from an agent with its burners
+	 *
+	 * @param agent
+	 * @return
+	 */
 	protected double evaluateAgent(Agent agent) {
 		double corpval = corpEvaluator.applyAsDouble(agent.corporation);
-		double sysval = systemEvaluator.applyAsDouble(agent.system);
-		// System.err.println("agent " + agent.name + " corp=" + corpval + " sys=" +
-		// sysval);
-		return ((corpval * 8.340 + 3000) * sysval + 5000) * 6 / 1000;
+
+		double freqHS = systemEvaluator.freqHS(agent.system);
+		double avgDist = systemEvaluator.avgDist(agent.system);
+		double secBonus = systemEvaluator.secBonus(agent.system);
+		double nbPerHour = 60 / (3 + avgDist * 2);
+		double ret = freqHS * freqHS * nbPerHour * (5 + (3.0 + corpval * 8.3 / 1000) * secBonus);
+		System.err.println(" " + agent.name + " freqHS" + freqHS + " avgDist" + avgDist + " secb" + secBonus + " nbperhour"
+				+ nbPerHour + " corpval" + corpval);
+		return ret;// ((corpval * 8.340 + 3000) * sysval + 5000) / 1000;
 	}
 
 }

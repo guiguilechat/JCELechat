@@ -1,29 +1,35 @@
-;;;;;;Bongveber
-;;;;;jumps:;2;;0;1;2;;0;1;2
-;;;;;constels:;0
+;;;;;;Bongveber;Evuldgenzo;Todrir
+;;;;;jumps:;2;5;8;;0;1;2;3;4;5;6;7;8
+;;;;;constels:;0;1;1;;;;;;;;;;;;0;1
 
 type;count;avgdst;maxdst;constels;
-aangel;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
-ablood;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
-aguristas;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
-aserpentis;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
-asansha;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
-bangel;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
-bblood;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
-bguristas;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
-bserpentis;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
-tenyo;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
-thawk;1;2;2;0;;1;;0.0;0.0;100.0;;0.0;0.0;33.333333333333336
-tjaguar;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
-tvengeance;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
+aangel;0;0;0;0;;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
+ablood;0;0;0;0;;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
+aguristas;0;0;0;0;;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
+aserpentis;0;0;0;0;;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
+asansha;0;0;0;0;;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
+bangel;0;0;0;0;;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
+bblood;0;0;0;0;;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
+bguristas;0;0;0;0;;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
+bserpentis;0;0;0;0;;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
+tenyo;1;8;8;1;;0;0;1;;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;100.0;;0.0;100.0
+thawk;1;2;2;0;;1;0;0;;0.0;0.0;100.0;0.0;0.0;0.0;0.0;0.0;0.0;;100.0;0.0
+tjaguar;1;5;5;1;;0;1;0;;0.0;0.0;0.0;0.0;0.0;100.0;0.0;0.0;0.0;;0.0;100.0
+tvengeance;0;0;0;0;;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
 
-agent;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
-base;0;0;0;0;;0;;NaN;NaN;NaN;;NaN;NaN;NaN
-team;1;2;2;0;;1;;0.0;0.0;100.0;;0.0;0.0;33.333333333333336
-all;1;2;2;0;;1;;0.0;0.0;100.0;;0.0;0.0;33.333333333333336
+agent;0;0;0;0;;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
+base;0;0;0;0;;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
+team;3;5;8;0,67;;1;1;1;;0.0;0.0;33.333333333333336;0.0;0.0;33.333333333333336;0.0;0.0;33.333333333333336;;33.333333333333336;66.66666666666667
+all;3;5;8;0,67;;1;1;1;;0.0;0.0;33.333333333333336;0.0;0.0;33.333333333333336;0.0;0.0;33.333333333333336;;33.333333333333336;66.66666666666667
 
 avg jumps;Vorsk
 distance;#systems;avg sys jumps;avg cstl jumps
 0;1;0;3,74
 1;1;0,5;6,23
 2;3;1,4;9,15
+3;5;2,2
+4;3;2,62
+5;4;3,18
+6;5;3,82
+7;7;4,59
+8;15;5,75

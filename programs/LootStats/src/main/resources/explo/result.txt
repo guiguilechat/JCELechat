@@ -11,7 +11,7 @@ lcache sleeper:
   - 100MN Analog Booster Afterburner Blueprint
   - '''Hooligan'' Heavy Ion Blaster I Blueprint'
   entries: 2
-  valueBO: 1.3378417614999999E8
+  valueBO: 1.3375671064E8
 mcache sleeper:
   bpcFreq: 1.0
   bps:
@@ -41,14 +41,14 @@ mcache sleeper:
   - Polarized 800mm Repeating Cannon Blueprint
   - '''Arquebus'' Heavy Beam Laser I Blueprint'
   entries: 11
-  valueBO: 1.060066816681818E8
+  valueBO: 1.0597496985727273E8
 vigil serpentis:
   entries: 3
   factionFreq: 0.3333333333333333
   factionModFreq: 0.3333333333333333
   factions:
   - Shadow Serpentis Damage Control
-  valueBO: 8.044244516000001E7
+  valueBO: 8.044363592666666E7
 ded4 angel:
   entries: 94
   factionFreq: 0.6808510638297872
@@ -77,13 +77,13 @@ ded4 angel:
   - Domination Adaptive Nano Plating
   - Domination Medium Proton Smartbomb
   - Gistum C-Type Medium Remote Shield Booster
-  valueBO: 6.475353541968085E7
+  valueBO: 6.5515821445531905E7
 huntingdrudge drone:
   entries: 1
-  valueBO: 5.415703556E7
+  valueBO: 5.415704871E7
 drudgefactory drone:
   entries: 1
-  valueBO: 5.360003409E7
+  valueBO: 5.360004724E7
 ghost angel:
   bpcFreq: 0.4117647058823529
   bps:
@@ -91,16 +91,17 @@ ghost angel:
   - Mid-grade Ascendancy Beta Blueprint
   - Mid-grade Ascendancy Alpha Blueprint
   entries: 17
-  valueBO: 5.3400533832352936E7
+  valueBO: 5.297173593705883E7
 scache sleeper:
-  bpcFreq: 0.75
+  bpcFreq: 0.8
   bps:
   - Synthetic Hull Conversion Overdrive Injector Blueprint
   - Polarized Torpedo Launcher Blueprint
   - Polarized 200mm AutoCannon Blueprint
+  - Polarized Neutron Blaster Cannon Blueprint
   - 500MN Digital Booster Rockets Blueprint
-  entries: 4
-  valueBO: 2.97734954125E7
+  entries: 5
+  valueBO: 2.8069904166E7
 ded3 angel:
   bpcFreq: 0.056818181818181816
   bps:
@@ -121,27 +122,27 @@ ded3 angel:
   - Gistii A-Type 1MN Afterburner
   - Domination Small Shield Booster
   - Gistii A-Type 5MN Microwarpdrive
-  valueBO: 2.614900472965909E7
+  valueBO: 2.51582051075E7
 nuclear angel:
   entries: 1
-  valueBO: 2.372045004E7
-shadowfleet serpentis:
-  entries: 1
-  valueBO: 1.582342983E7
+  valueBO: 2.372046086E7
 fortress serpentis:
   entries: 1
   factionFreq: 1.0
   factionModFreq: 1.0
   factions:
   - Shadow Serpentis Energized Adaptive Nano Membrane
-  valueBO: 1.5604428329999998E7
+  valueBO: 1.6102419169999998E7
+shadowfleet serpentis:
+  entries: 1
+  valueBO: 1.575512176E7
 chemicalyard drone:
   bpcFreq: 0.08333333333333333
   bps:
   - Medium Ancillary Remote Shield Booster Blueprint
   - Target Spectrum Breaker Blueprint
   entries: 24
-  valueBO: 1.2488055555833334E7
+  valueBO: 1.25590111775E7
 vigil angel:
   bpcFreq: 0.041666666666666664
   bps:
@@ -155,13 +156,13 @@ vigil angel:
   - Domination 50MN Microwarpdrive
   - Domination Gyrostabilizer
   - Domination 220mm Autocannon
-  valueBO: 1.234455777625E7
+  valueBO: 1.2346627519166665E7
 maresargassum drone:
   bpcFreq: 0.05263157894736842
   bps:
   - Reactive Armor Hardener Blueprint
   entries: 19
-  valueBO: 1.0303604212631578E7
+  valueBO: 1.0393964198421054E7
 ded2 angel:
   entries: 3
   factionFreq: 0.6666666666666666
@@ -169,7 +170,7 @@ ded2 angel:
   factions:
   - Gistii B-Type 1MN Afterburner
   - Gistii B-Type Small Remote Shield Booster
-  valueBO: 8529024.700000001
+  valueBO: 8530189.166666666
 bigblue angel:
   entries: 11
   factionFreq: 0.2727272727272727
@@ -178,7 +179,7 @@ bigblue angel:
   - Domination Thermal Dissipation Amplifier
   - Domination Tracking Enhancer
   - Domination Medium Proton Smartbomb
-  valueBO: 7685605.449090909
+  valueBO: 7686322.206363637
 hauntedyard drone:
   bpcFreq: 0.05128205128205128
   bps:
@@ -189,20 +190,20 @@ hauntedyard drone:
   factionModFreq: 0.02564102564102564
   factions:
   - Sentient Signal Amplifier
-  valueBO: 7166350.804615385
+  valueBO: 7275125.336153846
 drudge drone:
   entries: 1
-  valueBO: 6160000.0
+  valueBO: 6300037.8
 pulverize drone:
   entries: 17
-  valueBO: 5133572.432352941
+  valueBO: 5231189.17
 desolate drone:
   bpcFreq: 0.09090909090909091
   bps:
   - Reactive Armor Hardener Blueprint
   - Large Ancillary Remote Shield Booster Blueprint
   entries: 22
-  valueBO: 5131272.7272727275
+  valueBO: 5226071.043181818
 maresargassume drone:
   entries: 1
   valueBO: 4191027.93
@@ -212,14 +213,14 @@ watch serpentis:
   factionModFreq: 0.16666666666666666
   factions:
   - Shadow Serpentis Thermal Plating
-  valueBO: 2910468.6283333334
+  valueBO: 2909874.515
 chasing angel:
   entries: 5
   factionFreq: 0.2
   factionModFreq: 0.2
   factions:
   - Domination EM Ward Field
-  valueBO: 1964458.6539999999
+  valueBO: 1964462.7559999998
 watch angel:
   entries: 43
   factionFreq: 0.046511627906976744
@@ -227,19 +228,19 @@ watch angel:
   factions:
   - Domination 1MN Afterburner
   - Domination Small Shield Booster
-  valueBO: 1451693.521627907
+  valueBO: 1434008.4488372093
 ded3 drone:
   entries: 9
-  valueBO: 626791.86
+  valueBO: 626791.8644444444
 nuclearsmall angel:
   entries: 19
-  valueBO: 579408.8794736841
+  valueBO: 583785.5510526316
 hunting drone:
   entries: 1
   valueBO: 459000.0
 hideout angel:
   entries: 6
-  valueBO: 297131.67333333334
+  valueBO: 297133.4766666667
 lookout angel:
   bpcFreq: 0.02702702702702703
   bps:
@@ -249,25 +250,25 @@ lookout angel:
   factionModFreq: 0.02702702702702703
   factions:
   - Domination Kinetic Deflection Amplifier
-  valueBO: 214437.8027027027
+  valueBO: 215053.07432432432
 booster serpentis:
   entries: 1
   factionFreq: 1.0
   factionModFreq: 1.0
   factions:
   - Shadow Serpentis Explosive Plating
-  valueBO: 141426.22
+  valueBO: 141456.38
 lookout serpentis:
   entries: 1
   valueBO: 45155.17
 base serpentis:
   entries: 1
-  valueBO: 40866.0
+  valueBO: 40940.0
 jetset serpentis:
   entries: 1
-  valueBO: 31091.0
+  valueBO: 30981.0
 ded1 angel:
   entries: 3
-  valueBO: 21999.67
+  valueBO: 21999.676666666666
 hideout serpentis:
   entries: 1

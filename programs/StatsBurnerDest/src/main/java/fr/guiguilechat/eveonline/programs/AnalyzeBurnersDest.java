@@ -78,18 +78,24 @@ public class AnalyzeBurnersDest {
 			for (int i = 0; i <= maxdist; i++) {
 				ps.print(separator + i);
 			}
-			ps.print(separator);
-			for (int i = 0; i <= maxdist; i++) {
-				ps.print(separator+i);
-			}
 			ps.println();
 			int[] distSystems = IntStream.rangeClosed(0, maxdist + 1).map(i -> d.systemsAtDistance(an.system, i).size())
 					.toArray();
 
+
 			int[] constelsDistances = dests.stream().mapToInt(n -> d.distConstels(n, an.system)).toArray();
+			int maxconsteldst = IntStream.of(constelsDistances).max().getAsInt();
 			ps.print(offsetTypeData + "constels:");
 			for (int dst : constelsDistances) {
 				ps.print(separator + dst);
+			}
+			ps.print(separator);
+			for (int i = 0; i <= maxdist; i++) {
+				ps.print(separator);
+			}
+			ps.print(separator);
+			for (int i = 0; i <= maxconsteldst; i++) {
+				ps.print(separator + i);
 			}
 			ps.println();
 
@@ -98,20 +104,19 @@ public class AnalyzeBurnersDest {
 					+ separator);
 			for (String type : types) {
 				int idx = types2index.get(type);
-				printDestData(ps, type, an.dest2counts.values().stream(), t -> t[idx], systemDistances, constelsDistances,
-						distSystems);
+				printDestData(ps, type, an.dest2counts.values().stream(), t -> t[idx], systemDistances, constelsDistances);
 			}
 
 			ps.println();
 
 			printDestData(ps, "agent", an.dest2counts.values().stream(), t -> IntStream.of(t).skip(0).limit(5).sum(),
-					systemDistances, constelsDistances, distSystems);
+					systemDistances, constelsDistances);
 			printDestData(ps, "base", an.dest2counts.values().stream(), t -> IntStream.of(t).skip(5).limit(4).sum(),
-					systemDistances, constelsDistances, distSystems);
+					systemDistances, constelsDistances);
 			printDestData(ps, "team", an.dest2counts.values().stream(), t -> IntStream.of(t).skip(9).limit(4).sum(),
-					systemDistances, constelsDistances, distSystems);
+					systemDistances, constelsDistances);
 			printDestData(ps, "all", an.dest2counts.values().stream(), t -> IntStream.of(t).sum(), systemDistances,
-					constelsDistances, distSystems);
+					constelsDistances);
 
 			ps.println();
 			ps.println("avg jumps" + separator + an.system);
@@ -144,10 +149,11 @@ public class AnalyzeBurnersDest {
 	 *          destination table "counts".
 	 */
 	protected static void printDestData(PrintStream ps, String name, Stream<int[]> system2typeIdxCount,
-			ToIntFunction<int[]> mapper, int[] systemDistances, int[] constelsDistances, int[] systemsAtDist) {
+			ToIntFunction<int[]> mapper, int[] systemDistances, int[] constelsDistances) {
 		ps.print(name);
 		int[] systemCount = system2typeIdxCount.mapToInt(mapper).toArray();
 		int[] nbByDist = new int[IntStream.of(systemDistances).max().getAsInt() + 1];
+		int[] nbByCstel = new int[IntStream.of(constelsDistances).max().getAsInt() + 1];
 		int total = 0, totaldst = 0, maxdst = 0, totalcstl = 0;
 		for (int i = 0; i < systemCount.length; i++) {
 			total += systemCount[i];
@@ -157,6 +163,7 @@ public class AnalyzeBurnersDest {
 			totaldst += systemCount[i] * systemDistances[i];
 			totalcstl += systemCount[i] * constelsDistances[i];
 			nbByDist[systemDistances[i]] += systemCount[i];
+			nbByCstel[constelsDistances[i]] += systemCount[i];
 		}
 		ps.print(separator + total);
 		ps.print(separator + (total > 0 ? df.format(1.0 * totaldst / total) : 0));
@@ -173,8 +180,8 @@ public class AnalyzeBurnersDest {
 			ps.print(separator + 100.0 * element / total);
 		}
 		ps.print(separator);
-		for (int i = 0; i < nbByDist.length; i++) {
-			ps.print(separator + 100.0 * nbByDist[i] / systemsAtDist[i] / total);
+		for (int element : nbByCstel) {
+			ps.print(separator + 100.0 * element / total);
 		}
 
 		ps.println();
