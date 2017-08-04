@@ -26,6 +26,7 @@ import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
  */
 public class LootAnalysis {
 
+	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(LootAnalysis.class);
 
 	/** number of drop entries in this analysis */
