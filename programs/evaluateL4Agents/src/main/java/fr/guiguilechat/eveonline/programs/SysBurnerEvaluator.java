@@ -25,6 +25,10 @@ import fr.guiguilechat.eveonline.database.yaml.Location;
  */
 public class SysBurnerEvaluator {
 
+	/**
+	 *
+	 * informations on a system
+	 */
 	protected static class SystemData{
 		public double avgDist;
 		public double bonusSys;
@@ -71,11 +75,13 @@ public class SysBurnerEvaluator {
 		SystemVisitor sv = new SystemVisitor(sys);
 		visitSystemsWithDistance(sys, distance, sv);
 		SystemData ret= new SystemData();
-		ret.avgDist = sv.sumPHSjumps / sv.nbPHS;
+		ret.avgDist = sv.sumWHSjumps / sv.sumWHS;
 		ret.bonusSys = 2 - sys.minSec;
-		ret.freqHS = sv.nbPHS / sv.sumPonderations;
-		System.err.println("system " + sys.name + " [nbpond" + sv.sumPonderations + " phsjumps" + sv.sumPHSjumps + " phs"
-				+ sv.nbPHS + "] avgdistHS" + ret.avgDist + " bonus" + ret.bonusSys + " pbHigh" + ret.freqHS);
+		ret.freqHS = sv.sumWHS / sv.sumWeight;
+		// System.err.println("system " + sys.name + " [nbpond" + sv.sumPonderations
+		// + " phsjumps" + sv.sumPHSjumps + " phs"
+		// + sv.nbPHS + "] avgdistHS" + ret.avgDist + " bonus" + ret.bonusSys + "
+		// pbHigh" + ret.freqHS);
 		cache.put(sn, ret);
 		return ret;
 	}
@@ -100,7 +106,7 @@ public class SysBurnerEvaluator {
 
 			// for each new system we can reach through HS
 			for (Location loc : nextHSLocations) {
-				if (hsDistances.containsKey(loc) || isSystemIgnored(loc)) {
+				if (hsDistances.containsKey(loc)) {
 					continue;
 				}
 				if (loc.hasHighSec()) {
@@ -127,7 +133,7 @@ public class SysBurnerEvaluator {
 			}
 			// for each new system we reach from low or null sec
 			for (Location loc : nextLNSLocations) {
-				if (hsDistances.containsKey(loc) || lnsDistances.containsKey(loc) || isSystemIgnored(loc)) {
+				if (hsDistances.containsKey(loc) || lnsDistances.containsKey(loc)) {
 					continue;
 				}
 				lnsDistances.put(loc, jumps);
@@ -154,22 +160,10 @@ public class SysBurnerEvaluator {
 
 	}
 
-	boolean ignoreHubs = true;
+	boolean ignoreHubs = false;
 	protected static final HashSet<String> hubs = new HashSet<>(Arrays.asList("Jita", "Hek", "Amarr", "Dodixie"));
 
-	/**
-	 * is a system forbiden to jump through ? basically true iff sys is trade hub
-	 *
-	 * @param loc
-	 * @return
-	 */
-	public boolean isSystemIgnored(Location loc) {
-		if (ignoreHubs) {
-			return hubs.contains(loc.name);
-		} else {
-			return false;
-		}
-	}
+
 
 	public class SystemVisitor {
 
@@ -182,30 +176,36 @@ public class SysBurnerEvaluator {
 		}
 
 		// a system in same const is ponderated 1, in next
-		// const is ponderated 4
-		public double pondAdjConstel = 3;
-		public double pondSameConstel = 1;
+		// const is ponderated 2
+		// if constel has a hub, the ponderation is divided by 6.
+		public double weightAdjConstel = 2;
+		public double weightSameConstel = 1;
+		public double multWeightHub = 1.0 / 6;
 
 		// we make a ponderated sum of jumps in HS and HS systems.
-		public double sumPHSjumps = 0, sumPonderations = 0, nbPHS;
+		public double sumWHSjumps = 0, sumWeight = 0, sumWHS;
 
 		public void acceptSystem(Location loc, int dst, boolean hasHSRoute) {
-			double pond = 0;
+			double sysWeight = 0;
 			if (loc.parentConstellation.equals(origin.parentConstellation)) {
-				pond = pondSameConstel;
+				sysWeight = weightSameConstel;
 			} else if(adjacentConstels.contains(loc.parentConstellation)) {
-				pond = pondAdjConstel;
+				sysWeight = weightAdjConstel;
 			}
 			// pond is set to 0 if ignored system, eg more than 1 constel jump
-			if (pond != 0) {
-				sumPonderations += pond;
+			if (sysWeight != 0) {
+				if (db.containsHub(loc.parentConstellation)) {
+					sysWeight *= multWeightHub;
+					// System.err.println("system " + loc.name + " has hub in constelation
+					// so weight is " + sysWeight);
+				}
+				sumWeight += sysWeight;
 				// if the system is not in HS we count it as decreasing the probability
-				// to
-				// play the burner, and we dont consider it has increasing the avg
+				// to play the burner, and we dont consider it has increasing the avg
 				// distance
 				if (hasHSRoute) {
-					sumPHSjumps += pond * dst;
-					nbPHS += pond;
+					sumWHSjumps += sysWeight * dst;
+					sumWHS += sysWeight;
 				}
 			}
 		}

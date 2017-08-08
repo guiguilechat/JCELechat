@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map.Entry;
 import java.util.function.Predicate;
 import java.util.function.ToDoubleFunction;
+import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.database.EveCentral;
@@ -40,6 +41,7 @@ public class ProdEval {
 	}
 
 	public List<String[]> apis = new ArrayList<>();
+	public Pattern[] nameFilter = {};
 	public double intTax = 2;
 	public double outTax = 03;
 	public double prodTax = 02;
@@ -70,6 +72,9 @@ public class ProdEval {
 			// first pass we copy the bpcs to get the required and produced amount of
 			// materials
 			for (Character chara : r.account.characters()) {
+				if (!acceptName(chara.name)) {
+					continue;
+				}
 				HashMap<String, Integer> skills = r.chars.skillsByName(chara.characterID);
 				HashSet<String> missingSkills = new HashSet<>();
 				for (BPEntry bp : r.chars.blueprints(chara.characterID)) {
@@ -167,6 +172,23 @@ public class ProdEval {
 				&& !skipList.stream().filter(p -> p.test(item)).findAny().isPresent();
 	}
 
+	public void setNameFilter(String... names) {
+		nameFilter = Stream.of(names).map(s -> Pattern.compile(".*" + s.toLowerCase() + ".*")).toArray(Pattern[]::new);
+	}
+
+	public boolean acceptName(String name) {
+		if (nameFilter == null || nameFilter.length == 0) {
+			return true;
+		}
+		name = name.toLowerCase();
+		for (Pattern p : nameFilter) {
+			if (p.matcher(name).matches()) {
+				return true;
+			}
+		}
+		return false;
+	}
+
 	public static final Predicate<Type> isShip = t -> t != null && "Ship".equals(t.catName);
 	public static final Predicate<Type> isModule = t -> t != null && "Module".equals(t.catName);
 	public static final Predicate<Type> isT1 = t -> t != null && t.metaLvl < 5;
@@ -196,6 +218,8 @@ public class ProdEval {
 				for (String api : apis.split(",")) {
 					eval.apis.add(api.split(":"));
 				}
+			} else if (arg.startsWith("names=")) {
+				eval.setNameFilter(arg.substring("name=".length()).split(","));
 			} else if (arg.startsWith("outtax=")) {
 				eval.outTax = Double.parseDouble(arg.substring("outtax=".length()));
 			} else if (arg.startsWith("prodtax=")) {
@@ -277,6 +301,7 @@ public class ProdEval {
 					"This program uses your API key and code to retrieve your blueprints. It computes the value of required/output materials of those blueprints.\n"
 							+ "It then prints the blueprints by decreasing interest, as well as the list of materials to buy\n"
 							+ "options:\n" + " api=KEY1:CODE1,KEY2:CODE2 set the api keys and codes\n"
+							+ " names=name1[,name2] limit the characters to those whose name matches at least one filter. no case sensistive"
 							+ " hub=A,B,C set the systems/regions to get the prices from. default=TheForge\n"
 							+ " outtax=X set the tax of output to X(default 3.0)%\n"
 							+ " intax=X set the tax of input items to X(default 2.0)%\n"
@@ -288,7 +313,8 @@ public class ProdEval {
 							+ " bpo|bpc only consider blueprint Original or Copy\n" + " matlist print the list of materials\n"
 							+ " ifCOND accept production of items which meet at least one cond\n"
 							+ " noCOND prevent production of any item which meet any cond\n" + "  known cond are " + filters.keySet()
-							+ "\n" + "   eg ifship ifmodule not1 not2 will only show production of ships and modules which are meta 6+\n"
+							+ "\n"
+							+ "   eg ifship ifmodule not1 not2 will only show production of ships and modules which are meta 6+\n"
 							+ " all5 skip the skills requirement of bp\n" + " debug output potentially uselfull information\n"
 							+ " help|-help|--help print this help and exit");
 			System.exit(1);

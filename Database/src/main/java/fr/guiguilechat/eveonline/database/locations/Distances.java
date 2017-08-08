@@ -34,6 +34,9 @@ public class Distances {
 	 */
 	public Set<Location> getAllSystems(String locname) {
 		Location l1 = db.getLocation(locname);
+		if (l1 == null) {
+			System.err.println("null location "+locname);
+		}
 		if (l1.parentRegion == null) {
 			return findSystemsInRegion(l1.name);
 		} else if (l1.parentConstellation == null) {

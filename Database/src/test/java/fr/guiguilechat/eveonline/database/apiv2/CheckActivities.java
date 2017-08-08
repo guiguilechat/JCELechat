@@ -15,7 +15,8 @@ public class CheckActivities {
 				System.out.println("" + c.name);
 				for (JobEntry e : r.chars.industryJobs(c.characterID)) {
 					if (now.after(e.endDate)) {
-						System.out.println("\t" + e.blueprintTypeName);
+						System.out
+						.println("\t[" + Char.activityNAme(e.activityID) + "] " + e.blueprintTypeName);
 					}
 				}
 			}

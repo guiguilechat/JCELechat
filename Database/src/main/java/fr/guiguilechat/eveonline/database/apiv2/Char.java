@@ -98,17 +98,6 @@ public class Char {
 
 	protected static BPEntry extractBPEntry(Element el) {
 		return APIRoot.convertElement(el, BPEntry.class);
-		// BPEntry bpc = new BPEntry();
-		// bpc.itemID = APIRoot.getLong(el, "itemID", 0);
-		// bpc.locationID = APIRoot.getLong(el, "locationID", 0);
-		// bpc.typeID = APIRoot.getInt(el, "typeID", 0);
-		// bpc.typeName = el.attr("typeName");
-		// bpc.flagID = APIRoot.getInt(el, "flagID", 0);
-		// bpc.quantity = APIRoot.getInt(el, "quantity", 1);
-		// bpc.timeEfficiency = APIRoot.getInt(el, "timeEfficiency", 1);
-		// bpc.materialEfficiency = APIRoot.getInt(el, "materialEfficiency", 1);
-		// bpc.runs = APIRoot.getInt(el, "runs", 1);
-		// return bpc;
 	}
 
 	public LinkedHashMap<String, Integer> skillsByName(long charID) {
@@ -159,6 +148,20 @@ public class Char {
 		public Date completedDate;
 		public long completedCharacterID;
 		public int successfulRuns;
+	}
+
+	public static String activityNAme(long actividyID) {
+		switch ((int) actividyID) {
+		case 1:
+			return "prod";
+		case 2:
+			return "ME";
+		case 4:
+			return "TE";
+		default:
+			return "unknown" + actividyID;
+		}
+
 	}
 
 	public ArrayList<JobEntry> industryJobs(long charID) {

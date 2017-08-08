@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.database;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 
@@ -29,11 +30,39 @@ public abstract class EveDatabase {
 
 	public abstract LinkedHashMap<String, Location> getLocations();
 
+	public String normalizeLocName(String name) {
+		return name.replaceAll(" ", "").toLowerCase();
+	}
+
 	public Location getLocation(String name) {
 		if (name == null) {
 			return null;
 		}
-		return getLocations().get(name.replaceAll(" ", "").toLowerCase());
+		return getLocations().get(normalizeLocName(name));
+	}
+
+	protected HashSet<String> hubsNames = null;
+
+	/**
+	 *
+	 * @param locName
+	 *          name of a location
+	 * @return true iff corresponding system/constel/region has a hub. for system,
+	 *         true iff system IS hub.
+	 */
+	public boolean containsHub(String locName) {
+		locName = normalizeLocName(locName);
+		if (hubsNames == null) {
+			hubsNames = new HashSet<>();
+			for (String sysName : new String[] { "hek", "jita", "amarr", "dodixie" }) {
+				hubsNames.add(sysName);
+				String constName = normalizeLocName(getLocation(sysName).parentConstellation);
+				hubsNames.add(constName);
+				String regName = normalizeLocName(getLocation(constName).parentRegion);
+				hubsNames.add(regName);
+			}
+		}
+		return hubsNames.contains(normalizeLocName(locName));
 	}
 
 	public abstract LinkedHashMap<String, MetaInf> getMetaInfs();

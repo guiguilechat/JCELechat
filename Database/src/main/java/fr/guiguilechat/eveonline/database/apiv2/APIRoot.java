@@ -65,7 +65,7 @@ public class APIRoot {
 		}
 	}
 
-	public static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+	public static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 	static {
 		sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
 	}
