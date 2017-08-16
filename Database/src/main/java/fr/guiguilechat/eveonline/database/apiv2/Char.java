@@ -154,10 +154,12 @@ public class Char {
 		switch ((int) actividyID) {
 		case 1:
 			return "prod";
-		case 2:
-			return "ME";
-		case 4:
+		case 3:
 			return "TE";
+		case 4:
+			return "ME";
+		case 5:
+			return "CP";
 		default:
 			return "unknown" + actividyID;
 		}

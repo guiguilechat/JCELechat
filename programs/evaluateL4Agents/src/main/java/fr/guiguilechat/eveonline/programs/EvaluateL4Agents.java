@@ -122,7 +122,7 @@ public class EvaluateL4Agents {
 		double freqHS = systemEvaluator.freqHS(agent.system);
 		double avgDist = systemEvaluator.avgDist(agent.system);
 		double secBonus = systemEvaluator.secBonus(agent.system);
-		double nbPerHour = 60 / (3 + avgDist * 2);
+		double nbPerHour = 60 / (4 + avgDist * 2);
 		double ret = freqHS * freqHS * nbPerHour * (5 + (3.0 + corpval * 8.3 / 1000) * secBonus);
 		return ret;
 	}

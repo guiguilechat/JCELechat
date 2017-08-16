@@ -29,7 +29,7 @@ public class SysBurnerEvaluator {
 	 *
 	 * informations on a system
 	 */
-	protected static class SystemData{
+	protected static class SystemData {
 		public double avgDist;
 		public double bonusSys;
 		public double freqHS;
@@ -51,6 +51,7 @@ public class SysBurnerEvaluator {
 
 	/**
 	 * get the avg distance you need to jump for a burner in given system
+	 *
 	 * @param sn
 	 * @return
 	 */
@@ -74,13 +75,13 @@ public class SysBurnerEvaluator {
 
 		SystemVisitor sv = new SystemVisitor(sys);
 		visitSystemsWithDistance(sys, distance, sv);
-		SystemData ret= new SystemData();
+		SystemData ret = new SystemData();
 		ret.avgDist = sv.sumWHSjumps / sv.sumWHS;
 		ret.bonusSys = 2 - sys.minSec;
 		ret.freqHS = sv.sumWHS / sv.sumWeight;
-		// System.err.println("system " + sys.name + " [nbpond" + sv.sumPonderations
-		// + " phsjumps" + sv.sumPHSjumps + " phs"
-		// + sv.nbPHS + "] avgdistHS" + ret.avgDist + " bonus" + ret.bonusSys + "
+		// System.err.println("system " + sys.name + " [sumweight" + sv.sumWeight +
+		// " whsjumps" + sv.sumWHSjumps + " whs"
+		// + sv.sumWHS + "] avgdistHS" + ret.avgDist + " bonus" + ret.bonusSys + "
 		// pbHigh" + ret.freqHS);
 		cache.put(sn, ret);
 		return ret;
@@ -163,8 +164,6 @@ public class SysBurnerEvaluator {
 	boolean ignoreHubs = false;
 	protected static final HashSet<String> hubs = new HashSet<>(Arrays.asList("Jita", "Hek", "Amarr", "Dodixie"));
 
-
-
 	public class SystemVisitor {
 
 		public final Location origin;
@@ -175,22 +174,36 @@ public class SysBurnerEvaluator {
 			adjacentConstels = new HashSet<>(Arrays.asList(db.getLocation(origin.parentConstellation).adjacentConstels));
 		}
 
-		// a system in same const is ponderated 1, in next
-		// const is ponderated 2
-		// if constel has a hub, the ponderation is divided by 6.
-		public double weightAdjConstel = 2;
+		// weight data. we weight a system in a constellation depending on the
+		// distance in constels we have to jump
+
+		// weight for same constel = 1
 		public double weightSameConstel = 1;
-		public double multWeightHub = 1.0 / 6;
+
+		// statistical constel jumps for a burner in freatlidur
+		// freatlidur has 2 adjacent constels
+		public double freatConstelsJums = 0.82;
+		// freatlidur jump constels =2* W(adjacent) / (1+W(adjacent)*2)
+		public double weightAdjConstel = freatConstelsJums / 2 / (1 - freatConstelsJums);
+
+		// statistical jump data for barkrik.
+		// barkrik has one constel adjacent, which is a hub
+		public double barkrikConstelsJumps = 0.22;
+		// if constel has a hub we divide the weight by given value
+		// barkrik jump constels = W(adjacent)*multHub/(W(adjacent)*multhub + 1)
+		public double multWeightHub = barkrikConstelsJumps / weightAdjConstel / (1 - barkrikConstelsJumps);
 
 		// we make a ponderated sum of jumps in HS and HS systems.
 		public double sumWHSjumps = 0, sumWeight = 0, sumWHS;
 
 		public void acceptSystem(Location loc, int dst, boolean hasHSRoute) {
 			double sysWeight = 0;
-			if (loc.parentConstellation.equals(origin.parentConstellation)) {
-				sysWeight = weightSameConstel;
-			} else if(adjacentConstels.contains(loc.parentConstellation)) {
-				sysWeight = weightAdjConstel;
+			if (!db.containsHub(loc.name)) {
+				if (loc.parentConstellation.equals(origin.parentConstellation)) {
+					sysWeight = weightSameConstel;
+				} else if (adjacentConstels.contains(loc.parentConstellation)) {
+					sysWeight = weightAdjConstel;
+				}
 			}
 			// pond is set to 0 if ignored system, eg more than 1 constel jump
 			if (sysWeight != 0) {
