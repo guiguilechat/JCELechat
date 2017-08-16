@@ -45,7 +45,7 @@ public class LootAnalysis {
 	/**
 	 * average BO of the loot in Jita
 	 */
-	public double valueBO = 0;
+	public double avgBO = 0;
 
 	public double bpcFreq = 0;
 
@@ -93,8 +93,8 @@ public class LootAnalysis {
 			ret.factionModFreq /= ret.entries;
 			ret.bpcFreq /= ret.entries;
 			ret.factionFreq /= ret.entries;
-			ret.valueBO = totalDrop.entrySet().stream().mapToDouble(e -> e.getValue() * cost.applyAsDouble(e.getKey()))
-					.sum() / ret.entries;
+			ret.avgBO = totalDrop.entrySet().stream().mapToDouble(e -> e.getValue() * cost.applyAsDouble(e.getKey())).sum()
+					/ ret.entries;
 			ret.bps.addAll(bps);
 			ret.factions.addAll(factions);
 			return ret;
@@ -129,7 +129,7 @@ public class LootAnalysis {
 			}
 
 			LinkedHashMap<String, LootAnalysis> grouped2 = new LinkedHashMap<>();
-			grouped.entrySet().stream().sorted((e1, e2) -> (int) Math.signum(e2.getValue().valueBO - e1.getValue().valueBO))
+			grouped.entrySet().stream().sorted((e1, e2) -> (int) Math.signum(e2.getValue().avgBO - e1.getValue().avgBO))
 			.forEachOrdered(e -> grouped2.put(e.getKey(), e.getValue()));
 
 			makeYaml().dump(grouped2, new FileWriter(new File(outDir, "result.txt")));

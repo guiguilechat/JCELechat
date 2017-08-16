@@ -1,72 +1,66 @@
 angelextravaganza4 angel:
+  avgBO: 2.5043206669999998E7
   entries: 1
-  valueBO: 2.621667748E7
 shipyardtheft4 angel:
+  avgBO: 2.103361367E7
   entries: 1
-  valueBO: 2.105311002E7
 priorityone minmatar:
+  avgBO: 1.9153462299999997E7
   entries: 1
-  valueBO: 1.931460643E7
 vengeance4 angel:
+  avgBO: 1.259097879E7
   entries: 1
-  valueBO: 1.289151011E7
 poormanshakedown minmatar:
+  avgBO: 1.234580148E7
   entries: 1
-  valueBO: 1.283459411E7
-blockadeL4 angel:
-  entries: 2
-  valueBO: 1.142491359E7
 goneberserk4 eom:
+  avgBO: 1.038964967E7
   entries: 1
-  valueBO: 1.077708653E7
-showtime syndicate:
-  entries: 1
-  valueBO: 9151901.9
-littlefingers syndicate:
-  entries: 1
-  valueBO: 8649890.18
-damsel4 mercenaries:
-  entries: 1
-  valueBO: 8586401.11
-undergroundcities mercenaries:
-  entries: 1
-  valueBO: 8450738.97
-TheAveronExchange mercenaries:
-  entries: 1
-  valueBO: 8109730.92
 blockade4 angel:
-  entries: 1
-  valueBO: 7208878.25
-intakichase syndicate:
-  entries: 1
-  valueBO: 6514440.93
-massiveattack4 sansha:
-  entries: 1
-  valueBO: 6232337.37
-righthandzazzmatazz4 none:
-  entries: 1
-  valueBO: 5766212.1899999995
-interceptsaboteurs4 guristas:
+  avgBO: 9850613.963333333
   entries: 3
-  valueBO: 5423592.613333333
+showtime syndicate:
+  avgBO: 8995353.56
+  entries: 1
+littlefingers syndicate:
+  avgBO: 8513061.28
+  entries: 1
+damsel4 mercenaries:
+  avgBO: 8367186.58
+  entries: 1
+undergroundcities mercenaries:
+  avgBO: 8219843.2700000005
+  entries: 1
+TheAveronExchange mercenaries:
+  avgBO: 7252433.23
+  entries: 1
+intakichase syndicate:
+  avgBO: 6514990.399999999
+  entries: 1
+massiveattack4 sansha:
+  avgBO: 6155137.6
+  entries: 1
+interceptsaboteurs4 guristas:
+  avgBO: 5420772.183333334
+  entries: 3
+righthandzazzmatazz4 none:
+  avgBO: 4863002.556666667
+  entries: 3
 studioI syndicate:
+  avgBO: 4546553.68
   entries: 1
-  valueBO: 4629884.95
 miningmisappropriation4 blood:
+  avgBO: 4060044.14
   entries: 1
-  valueBO: 4135126.24
 assistance mercenaries:
+  avgBO: 3582198.82
   entries: 1
-  valueBO: 3632038.39
-righthandzazzmataz4 none:
-  entries: 1
-  valueBO: 3484362.93
 thetollescar drone:
+  avgBO: 3018010.04
   entries: 1
-  valueBO: 2986187.13
 patientzero drone:
+  avgBO: 1418261.01
   entries: 1
-  valueBO: 1410387.6400000001
 attackofthedrones4 drone:
+  avgBO: 1238141.17
   entries: 1
-  valueBO: 1221640.99
