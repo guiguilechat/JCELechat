@@ -1,66 +1,72 @@
 angelextravaganza4 angel:
-  avgBO: 2.5043206669999998E7
+  avgBO: 2.521242468E7
   entries: 1
 shipyardtheft4 angel:
-  avgBO: 2.103361367E7
+  avgBO: 1.810835795E7
   entries: 1
 priorityone minmatar:
-  avgBO: 1.9153462299999997E7
-  entries: 1
-vengeance4 angel:
-  avgBO: 1.259097879E7
+  avgBO: 1.759196314E7
   entries: 1
 poormanshakedown minmatar:
-  avgBO: 1.234580148E7
+  avgBO: 1.623759585E7
   entries: 1
-goneberserk4 eom:
-  avgBO: 1.038964967E7
+blockade4 blood:
+  avgBO: 1.620026549E7
   entries: 1
-blockade4 angel:
-  avgBO: 9850613.963333333
-  entries: 3
-showtime syndicate:
-  avgBO: 8995353.56
-  entries: 1
-littlefingers syndicate:
-  avgBO: 8513061.28
+vengeance4 angel:
+  avgBO: 1.251264845E7
   entries: 1
 damsel4 mercenaries:
-  avgBO: 8367186.58
+  avgBO: 1.08553364E7
+  entries: 3
+blockade4 angel:
+  avgBO: 9968590.993333334
+  entries: 3
+goneberserk4 eom:
+  avgBO: 9293174.375
+  entries: 2
+showtime syndicate:
+  avgBO: 8956255.0
+  entries: 1
+littlefingers syndicate:
+  avgBO: 8491765.19
   entries: 1
 undergroundcities mercenaries:
-  avgBO: 8219843.2700000005
+  avgBO: 8198707.12
   entries: 1
 TheAveronExchange mercenaries:
-  avgBO: 7252433.23
+  avgBO: 7220852.86
   entries: 1
 intakichase syndicate:
-  avgBO: 6514990.399999999
+  avgBO: 6511884.1
   entries: 1
 massiveattack4 sansha:
-  avgBO: 6155137.6
+  avgBO: 6290021.640000001
   entries: 1
-interceptsaboteurs4 guristas:
-  avgBO: 5420772.183333334
-  entries: 3
 righthandzazzmatazz4 none:
-  avgBO: 4863002.556666667
-  entries: 3
+  avgBO: 4941084.9975
+  entries: 4
+interceptsaboteurs4 guristas:
+  avgBO: 4724961.6280000005
+  entries: 5
 studioI syndicate:
-  avgBO: 4546553.68
+  avgBO: 4576996.100000001
   entries: 1
 miningmisappropriation4 blood:
-  avgBO: 4060044.14
+  avgBO: 4528261.555
+  entries: 2
+theassault4 guristas:
+  avgBO: 4398865.15
   entries: 1
 assistance mercenaries:
-  avgBO: 3582198.82
+  avgBO: 3672782.17
   entries: 1
 thetollescar drone:
-  avgBO: 3018010.04
+  avgBO: 2924790.8600000003
   entries: 1
 patientzero drone:
-  avgBO: 1418261.01
+  avgBO: 1387653.4500000002
   entries: 1
 attackofthedrones4 drone:
-  avgBO: 1238141.17
+  avgBO: 1194482.68
   entries: 1

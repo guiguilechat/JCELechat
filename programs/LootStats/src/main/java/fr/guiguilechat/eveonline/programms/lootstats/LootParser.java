@@ -46,6 +46,7 @@ public class LootParser {
 	protected HashSet<String> undecoded = new HashSet<>();
 
 	public void loadFile(File lootFile, ArrayList<LootEntry> list) throws IOException, ParseException {
+		boolean isFilenamePrinted = false;
 		Date date = df.parse(lootFile.getName().split("\\.")[0]);
 		// 0 = wait for new entry
 		// 1 = writing an entry
@@ -86,6 +87,10 @@ public class LootParser {
 								t.id = m.id;
 								t.volume = m.volume;
 							} else if (undecoded.add(tokens[0])) {
+								if (!isFilenamePrinted) {
+									logger.debug("in file " + lootFile.getAbsolutePath());
+									isFilenamePrinted = true;
+								}
 								logger.debug("can't decode " + tokens[0]);
 							}
 						}
