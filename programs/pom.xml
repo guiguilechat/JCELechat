@@ -19,6 +19,7 @@
   	<module>copypasteve</module>
   	<module>EvalMyProd</module>
   	<module>UnCutOrders</module>
+  	<module>Gui</module>
   </modules>
   <dependencies>
   	<dependency>
