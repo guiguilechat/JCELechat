@@ -1,8 +1,6 @@
 package fr.guiguilechat.eveonline.database.yaml;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
@@ -36,10 +34,6 @@ import fr.guiguilechat.eveonline.database.retrieval.sde.SDEDumper;
  * tools to get existing database
  */
 public class YamlDatabase extends EveDatabase {
-
-	public static DatabaseFile load(File file) throws FileNotFoundException {
-		return makeYaml().loadAs(new FileReader(file), DatabaseFile.class);
-	}
 
 	public static DatabaseFile load(InputStream stream) {
 		return makeYaml().loadAs(stream, DatabaseFile.class);
