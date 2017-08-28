@@ -1,33 +1,58 @@
 package fr.guiguilechat.eveonline.programs.gui.panes;
 
+import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
+import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.Button;
+import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 
-public class ListApi extends TableView<Object> {
+public class ListApi extends TableView<APIRoot> {
 
 	protected Manager parent;
 
-	@SuppressWarnings("unchecked")
 	public ListApi(Manager parent) {
 		this.parent = parent;
 
-		TableColumn<Object, String> firstNameCol = new TableColumn<>("key");
-		TableColumn<Object, String> lastNameCol = new TableColumn<>("code");
-		TableColumn<Object, Button> emailCol = new TableColumn<>("delete");
+		setItems(parent.apis);
 
-		getColumns().addAll(firstNameCol, lastNameCol, emailCol);
+		TableColumn<APIRoot, Integer> keyCol = new TableColumn<>("key");
+		keyCol.setCellValueFactory(apiroot -> new ReadOnlyObjectWrapper<>(apiroot.getValue().key.keyID));
+		getColumns().add(keyCol);
+		TableColumn<APIRoot, String> codeCol = new TableColumn<>("code");
+		codeCol.setCellValueFactory(apiroot -> new ReadOnlyObjectWrapper<>(apiroot.getValue().key.code));
+		getColumns().add(codeCol);
+		TableColumn<APIRoot, APIRoot> delCol = new TableColumn<>("delete");
+		delCol.setCellValueFactory(param -> new ReadOnlyObjectWrapper<>(param.getValue()));
+		delCol.setCellFactory(param -> new TableCell<APIRoot, APIRoot>() {
+			private final Button deleteButton = new Button("delete");
+
+			@Override
+			protected void updateItem(APIRoot person, boolean empty) {
+				super.updateItem(person, empty);
+
+				if (person == null) {
+					setGraphic(null);
+					return;
+				}
+
+				setGraphic(deleteButton);
+				deleteButton.setOnAction(event -> removeApi(person.key.keyID));
+			}
+		});
+		getColumns().add(delCol);
 	}
 
-	public void removeApi(String key) {
-		parent.settings.apiKeys.remove(key);
+	public void removeApi(int keyID) {
+		parent.settings.apiKeys.remove(keyID);
 		parent.settings.store();
 		parent.settingsChanged();
 	}
 
 	public void settingsChanged() {
-		getChildren().clear();
+		refresh();
+		// getChildren().clear();
 		/**
 		 * for (Entry<String, String> e : parent.settings.apiKeys.entrySet()) {
 		 * BorderPane apiBox = new BorderPane();

@@ -12,7 +12,7 @@ public class Settings extends ASettings {
 		return "guiguilechat.evemanager";
 	}
 
-	public LinkedHashMap<String, String> apiKeys = new LinkedHashMap<>();
+	public LinkedHashMap<Integer, String> apiKeys = new LinkedHashMap<>();
 
 	public LinkedHashMap<String, LinkedHashSet<String>> teams = new LinkedHashMap<>();
 

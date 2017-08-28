@@ -1,5 +1,6 @@
 package fr.guiguilechat.eveonline.programs.gui.panes;
 
+import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import javafx.event.Event;
 import javafx.scene.control.Button;
@@ -9,24 +10,29 @@ import javafx.scene.layout.HBox;
 public class AddAPIPane extends HBox {
 
 	protected Manager parent;
-	TextField apiKey = new TextField();
+	TextField apiID = new TextField();
 	TextField apiCode = new TextField();
 	Button send = new Button("add");
 
 	public AddAPIPane(Manager parent) {
 		this.parent = parent;
-		apiKey.setPromptText("api key");
+		apiID.setPromptText("api key");
 		apiCode.setPromptText("api code");
-		getChildren().addAll(apiKey, apiCode, send);
+		getChildren().addAll(apiID, apiCode, send);
 		send.setOnAction(this::addApi);
 	}
 
 	public void addApi(Event e) {
-		String key = apiKey.getText();
+		int id = Integer.parseInt(apiID.getText());
 		String code = apiCode.getText();
-		parent.settings.apiKeys.put(key, code);
+		APIRoot api = new APIRoot(id, code);
+		if (api.account.characters().isEmpty()) {
+			// bad api, what do ?
+			return;
+		}
+		parent.settings.apiKeys.put(id, code);
 		parent.settings.store();
-		apiKey.clear();
+		apiID.clear();
 		apiCode.clear();
 		parent.settingsChanged();
 	}

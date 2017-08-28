@@ -8,8 +8,8 @@ public class MenuPane extends HBox {
 
 	private Manager parent;
 
+	Button btnOverview = new Button("overview");
 	Button btnOptions = new Button("Options");
-	Button btnOverview = new Button("useless");
 
 	public MenuPane(Manager parent) {
 		this.parent = parent;

@@ -10,8 +10,21 @@ import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 
+/**
+ * data stored locally for any platform.
+ * <p>
+ * The data stored are this class fields. those fields must be primitive or
+ * collections.
+ * </p>
+ *
+ */
 public abstract class ASettings {
 
+	/**
+	 *
+	 * @return the name of the application, defaults to
+	 *         this.getClass().getcannonicalName()
+	 */
 	public String getAppName() {
 		return getClass().getCanonicalName();
 	}
