@@ -154,7 +154,6 @@ public class SysBurnerEvaluator {
 		for (Entry<Location, Integer> e : hsDistances.entrySet()) {
 			sv.acceptSystem(e.getKey(), e.getValue(), true);
 		}
-
 		for (Entry<Location, Integer> e : lnsDistances.entrySet()) {
 			sv.acceptSystem(e.getKey(), e.getValue(), false);
 		}
@@ -188,7 +187,7 @@ public class SysBurnerEvaluator {
 
 		// statistical jump data for barkrik.
 		// barkrik has one constel adjacent, which is a hub
-		public double barkrikConstelsJumps = 0.22;
+		public double barkrikConstelsJumps = 0.2;
 		// if constel has a hub we divide the weight by given value
 		// barkrik jump constels = W(adjacent)*multHub/(W(adjacent)*multhub + 1)
 		public double multWeightHub = barkrikConstelsJumps / weightAdjConstel / (1 - barkrikConstelsJumps);

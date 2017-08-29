@@ -1335,3 +1335,59 @@ asteroids:
     maxSecurity: -1.0
     name: Moon Asteroid 5D
     volume: 10.0
+  RW A Normal:
+    catName: Asteroid
+    groupName: RW Asteroids
+    id: 46252
+    maxSecurity: -1.0
+    name: RW A Normal
+    volume: 0.1
+  RW A Dense:
+    catName: Asteroid
+    groupName: RW Asteroids
+    id: 46253
+    maxSecurity: -1.0
+    name: RW A Dense
+    volume: 0.1
+  RW C Normal:
+    catName: Asteroid
+    groupName: RW Asteroids
+    id: 46254
+    maxSecurity: -1.0
+    name: RW C Normal
+    volume: 0.1
+  RW C Dense:
+    catName: Asteroid
+    groupName: RW Asteroids
+    id: 46255
+    maxSecurity: -1.0
+    name: RW C Dense
+    volume: 0.1
+  RW G Normal:
+    catName: Asteroid
+    groupName: RW Asteroids
+    id: 46256
+    maxSecurity: -1.0
+    name: RW G Normal
+    volume: 0.1
+  RW G Dense:
+    catName: Asteroid
+    groupName: RW Asteroids
+    id: 46257
+    maxSecurity: -1.0
+    name: RW G Dense
+    volume: 0.1
+  RW M Normal:
+    catName: Asteroid
+    groupName: RW Asteroids
+    id: 46258
+    maxSecurity: -1.0
+    name: RW M Normal
+    volume: 0.1
+  RW M Dense:
+    catName: Asteroid
+    groupName: RW Asteroids
+    id: 46259
+    maxSecurity: -1.0
+    name: RW M Dense
+    volume: 0.1

@@ -30,7 +30,7 @@ public abstract class ASettings {
 	}
 
 	public File getFile() {
-		return new File(new File(new File(System.getProperty("user.dir")), getAppName()), "settings.yml");
+		return new File(new File(new File(System.getProperty("user.home")), getAppName()), "settings.yml");
 	}
 
 	/**

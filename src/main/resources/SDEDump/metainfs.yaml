@@ -1177,7 +1177,7 @@ metaInfs:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -2345,7 +2345,7 @@ metaInfs:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -3320,7 +3320,7 @@ metaInfs:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -4204,7 +4204,7 @@ metaInfs:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -5033,7 +5033,7 @@ metaInfs:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -5727,7 +5727,7 @@ metaInfs:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -6504,7 +6504,7 @@ metaInfs:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -7687,6 +7687,7 @@ metaInfs:
     productIn:
     - Nemesis Blueprint
     - Tristan Quafe Edition Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Tristan Blueprint
     volume: 26500.0
@@ -7895,6 +7896,7 @@ metaInfs:
     productIn:
     - Arazu Blueprint
     - Lachesis Blueprint
+    - Victor Blueprint
     productOf:
     - Celestis Blueprint
     volume: 116000.0
@@ -7943,7 +7945,7 @@ metaInfs:
     - Megathron Quafe Edition Blueprint
     - Megathron Police Edition Blueprint
     - Megathron Inner Zone Shipping Edition Blueprint
-    - 万王宝座级YC117年特别版蓝图
+    - 万王宝���级YC117年特别版蓝图
     productOf:
     - Megathron Blueprint
     volume: 486000.0
@@ -7954,7 +7956,7 @@ metaInfs:
     - Apocalypse Blood Raider Edition Blueprint
     - Apocalypse Kador Edition Blueprint
     - Apocalypse Tash-Murkon Edition Blueprint
-    - 灾难级YC117年���别版蓝图
+    - 灾难级YC117年特别版蓝图
     productOf:
     - Apocalypse Blueprint
     volume: 495000.0
@@ -7962,7 +7964,7 @@ metaInfs:
     id: 643
     productIn:
     - Redeemer Blueprint
-    - 末日沙场级YC117年特别版蓝图
+    - 末日沙场级YC117年特别��蓝图
     productOf:
     - Armageddon Blueprint
     volume: 486000.0
@@ -15554,7 +15556,7 @@ metaInfs:
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
@@ -16961,8 +16963,8 @@ metaInfs:
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
@@ -17103,6 +17105,8 @@ metaInfs:
     - Caedes Blueprint
     - Pacifier Blueprint
     - Enforcer Blueprint
+    - Victor Blueprint
+    - Virtuoso Blueprint
     volume: 1.5
   Medium Shield Extender I:
     id: 3829
@@ -21088,8 +21092,8 @@ metaInfs:
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
@@ -22357,6 +22361,7 @@ metaInfs:
     id: 11377
     productOf:
     - Nemesis Blueprint
+    - Virtuoso Blueprint
     volume: 28100.0
   Nemesis Blueprint:
     id: 11378
@@ -22969,6 +22974,8 @@ metaInfs:
     - '''Excavator'' Ice Harvesting Drone Blueprint'
     - Pacifier Blueprint
     - Enforcer Blueprint
+    - Victor Blueprint
+    - Virtuoso Blueprint
     volume: 0.01
   Jaguar:
     id: 11400
@@ -24914,9 +24921,9 @@ metaInfs:
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
@@ -25497,6 +25504,8 @@ metaInfs:
     - Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - R.A.M.- Starship Tech Blueprint
     volume: 0.04
@@ -25572,7 +25581,7 @@ metaInfs:
     - Standup M-Set Ammunition Manufacturing Time Efficiency II Blueprint
     - Standup M-Set Drone and Fighter Manufacturing Material Efficiency II Blueprint
     - Standup M-Set Drone and Fighter Manufacturing Time Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     productOf:
     - R.A.M.- Robotics Blueprint
     volume: 0.04
@@ -26227,6 +26236,8 @@ metaInfs:
     - Satyr II Blueprint
     - '''Excavator'' Mining Drone Blueprint'
     - '''Excavator'' Ice Harvesting Drone Blueprint'
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Ion Thruster Blueprint
     volume: 1.0
@@ -26401,6 +26412,8 @@ metaInfs:
     - Satyr II Blueprint
     - '''Excavator'' Mining Drone Blueprint'
     - '''Excavator'' Ice Harvesting Drone Blueprint'
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Magnetometric Sensor Cluster Blueprint
     volume: 1.0
@@ -26766,6 +26779,8 @@ metaInfs:
     - '''Excavator'' Ice Harvesting Drone Blueprint'
     - Pacifier Blueprint
     - Enforcer Blueprint
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Photon Microprocessor Blueprint
     volume: 1.0
@@ -26948,6 +26963,8 @@ metaInfs:
     - Antaeus II Blueprint
     - '''Excavator'' Mining Drone Blueprint'
     - '''Excavator'' Ice Harvesting Drone Blueprint'
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Crystalline Carbonide Armor Plate Blueprint
     volume: 1.0
@@ -26991,6 +27008,8 @@ metaInfs:
     - '''Excavator'' Ice Harvesting Drone Blueprint'
     - Pacifier Blueprint
     - Enforcer Blueprint
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Fusion Reactor Unit Blueprint
     volume: 1.0
@@ -27223,6 +27242,8 @@ metaInfs:
     - Siren II Blueprint
     - '''Excavator'' Mining Drone Blueprint'
     - '''Excavator'' Ice Harvesting Drone Blueprint'
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Oscillator Capacitor Unit Blueprint
     volume: 1.0
@@ -27370,6 +27391,8 @@ metaInfs:
     - Capital Shield Booster II Blueprint
     - '''Excavator'' Mining Drone Blueprint'
     - '''Excavator'' Ice Harvesting Drone Blueprint'
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Pulse Shield Emitter Blueprint
     volume: 1.0
@@ -28237,6 +28260,7 @@ metaInfs:
     id: 11969
     productOf:
     - Arazu Blueprint
+    - Victor Blueprint
     volume: 116000.0
   Arazu Blueprint:
     id: 11970
@@ -28348,7 +28372,7 @@ metaInfs:
   Eagle:
     id: 12011
     productIn:
-    - 银鹰级YC117年特别版蓝图
+    - 银鹰��YC117年特别版蓝图
     productOf:
     - Eagle Blueprint
     volume: 101000.0
@@ -36343,7 +36367,7 @@ metaInfs:
   Gila:
     id: 17715
     productIn:
-    - 毒蜥级YC117年特��版蓝图
+    - 毒蜥���YC117年特别版蓝图
     productOf:
     - Gila Blueprint
     volume: 101000.0
@@ -36409,7 +36433,7 @@ metaInfs:
   Machariel:
     id: 17738
     productIn:
-    - 马克瑞级YC117年特别版蓝图
+    - 马克瑞级YC117年���别版蓝图
     productOf:
     - Machariel Blueprint
     volume: 595000.0
@@ -36793,7 +36817,7 @@ metaInfs:
     id: 17918
     productIn:
     - Rattlesnake Victory Edition Blueprint
-    - 响尾蛇级YC117年特别版蓝图
+    - 响尾蛇级YC117年特别��蓝图
     productOf:
     - Rattlesnake Blueprint
     volume: 486000.0
@@ -48593,7 +48617,7 @@ metaInfs:
     id: 24698
     productIn:
     - Nighthawk Blueprint
-    - 幼龙级YC117年特别版蓝图
+    - ��龙级YC117年特别版蓝图
     productOf:
     - Drake Blueprint
     volume: 252000.0
@@ -51244,7 +51268,7 @@ metaInfs:
     - Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     volume: 0.01
   Lorentz Fluid:
@@ -51340,7 +51364,7 @@ metaInfs:
     - Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     volume: 0.01
   Current Pump:
@@ -51429,7 +51453,7 @@ metaInfs:
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
@@ -51513,7 +51537,7 @@ metaInfs:
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
@@ -51596,7 +51620,7 @@ metaInfs:
     - Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     volume: 0.01
   Single-crystal Superalloy I-beam:
@@ -51845,7 +51869,7 @@ metaInfs:
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
@@ -52029,7 +52053,7 @@ metaInfs:
     - Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     volume: 0.01
   Micro Circuit:
@@ -52230,7 +52254,7 @@ metaInfs:
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
@@ -52597,7 +52621,7 @@ metaInfs:
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
@@ -52760,7 +52784,7 @@ metaInfs:
     - Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     volume: 0.01
   Intact Armor Plates:
@@ -68487,37 +68511,37 @@ metaInfs:
   Self-regulating Machine Gears:
     id: 34452
     volume: 0.1
-  末日沙场级YC117年特别版蓝图:
+  末日沙场级YC117年特别��蓝图:
     id: 34458
     volume: 0.01
   地狱天使级YC117年特别版蓝图:
     id: 34460
     volume: 0.01
-  马克瑞级YC117年特别版蓝图:
+  马克瑞级YC117年���别版蓝图:
     id: 34462
     volume: 0.01
-  响尾蛇级YC117年特别版蓝图:
+  响尾蛇级YC117年特别��蓝图:
     id: 34464
     volume: 0.01
   多米尼克斯级YC117年特别版蓝图:
     id: 34466
     volume: 0.01
-  万王宝座级YC117年特别版蓝图:
+  万王宝���级YC117年特别版蓝图:
     id: 34468
     volume: 0.01
   乌鸦级YC117年特别版蓝图:
     id: 34470
     volume: 0.01
-  灾难级YC117年���别版蓝图:
+  灾难级YC117年特别版蓝图:
     id: 34472
     volume: 0.01
-  幼龙级YC117年特别版蓝图:
+  ��龙级YC117年特别版蓝图:
     id: 34474
     volume: 0.01
-  毒蜥级YC117年特��版蓝图:
+  毒蜥���YC117年特别版蓝图:
     id: 34476
     volume: 0.01
-  银鹰级YC117年特别版蓝图:
+  银鹰��YC117年特别版蓝图:
     id: 34478
     volume: 0.01
   伊什塔级YC117年特别版蓝图:
@@ -77036,6 +77060,11 @@ metaInfs:
     productOf:
     - Arbalest Compact XL Torpedo Launcher Blueprint
     volume: 4000.0
+  TE-2100 Ample XL Torpedo Launcher:
+    id: 41181
+    productOf:
+    - TE-2100 Ample XL Torpedo Launcher Blueprint
+    volume: 4000.0
   Dread Guristas XL Torpedo Launcher:
     id: 41182
     productOf:
@@ -78611,7 +78640,7 @@ metaInfs:
   ‘Cold Wind’ Kinetic Reaper:
     id: 41442
     productOf:
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     volume: 8000.0
   ‘Guillotine’ Thermal Reaper:
     id: 41443
@@ -78635,7 +78664,7 @@ metaInfs:
   ‘Geiravor’ Explosive Lance Blueprint:
     id: 41448
     volume: 0.01
-  ‘Cold Wind’ Kinetic Reaper Blueprint:
+  ‘Cold Wind�� Kinetic Reaper Blueprint:
     id: 41449
     volume: 0.01
   ‘Guillotine’ Thermal Reaper Blueprint:
@@ -79393,7 +79422,7 @@ metaInfs:
   Minokawa Raata Sunset SKIN (Permanent):
     id: 41681
     volume: 0.01
-  Minokawa Blue Tiger  SKIN (Permanent):
+  Minokawa Blue Tiger SKIN (Permanent):
     id: 41682
     volume: 0.01
   Minokawa Matigu Seabeast SKIN (Permanent):
@@ -80058,7 +80087,7 @@ metaInfs:
   Men's Beret (Blood Raiders):
     id: 42708
     volume: 0.1
-  Women's ��Defender’ Beret (Gallente Federation):
+  Women's ‘Defender’ Beret (Gallente Federation):
     id: 42709
     volume: 0.1
   Men's ‘Liberator’ Beret (Minmatar Republic):
@@ -80085,7 +80114,7 @@ metaInfs:
   Women's Beret (Blood Raiders):
     id: 42733
     volume: 0.1
-  Men's ‘Protector’ Beret (Caldari State):
+  Men's ‘Protector�� Beret (Caldari State):
     id: 42736
     volume: 0.1
   Women's ‘Liberator’ Beret (Minmatar Republic):
@@ -80750,7 +80779,7 @@ metaInfs:
   Standup L-Set Drone and Fighter Manufacturing Efficiency II:
     id: 43713
     productOf:
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     volume: 20.0
   Standup L-Set Basic Small Ship Manufacturing Efficiency I:
     id: 43714
@@ -81808,7 +81837,7 @@ metaInfs:
   Standup L-Set Drone and Fighter Manufacturing Efficiency I Blueprint:
     id: 44088
     volume: 0.01
-  Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint:
+  Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint:
     id: 44089
     productOf:
     - Standup L-Set Drone and Fighter Manufacturing Efficiency I Blueprint
@@ -82494,6 +82523,18 @@ metaInfs:
   Men's Corporate Troubleshooter Gear:
     id: 45527
     volume: 0.1
+  Virtuoso:
+    id: 45530
+    volume: 28100.0
+  Victor:
+    id: 45531
+    volume: 116000.0
+  Victor Blueprint:
+    id: 45532
+    volume: 0.01
+  Virtuoso Blueprint:
+    id: 45533
+    volume: 0.01
   Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency:
     id: 45544
     productOf:
@@ -83317,9 +83358,6 @@ metaInfs:
     - Malfunctioning Power Cores
     - Wrecked Power Cores
     volume: 0.01
-  Agency Standard Booster:
-    id: 45733
-    volume: 1.0
   Women's Exoplanets Hunter T-shirt:
     id: 45734
     volume: 0.1
@@ -84073,15 +84111,6 @@ metaInfs:
   Tengu Sukuuvestaa SKIN (Permanent):
     id: 45997
     volume: 0.01
-  Agency Damage Booster I:
-    id: 45998
-    volume: 1.0
-  Agency Damage Booster II:
-    id: 45999
-    volume: 1.0
-  Agency Damage Booster III:
-    id: 46000
-    volume: 1.0
   Agency Tank Booster I:
     id: 46001
     volume: 1.0
@@ -84099,15 +84128,6 @@ metaInfs:
     volume: 1.0
   Agency Speed Booster III:
     id: 46006
-    volume: 1.0
-  Agency Accelerator I:
-    id: 46007
-    volume: 1.0
-  Agency Accelerator II:
-    id: 46008
-    volume: 1.0
-  Agency Accelerator III:
-    id: 46009
     volume: 1.0
   Hel Firewall Breach SKIN (Permanent):
     id: 46014
@@ -84145,6 +84165,12 @@ metaInfs:
   Loki Battlescar SKIN (Permanent):
     id: 46026
     volume: 0.01
+  Men's IGC Location Scout Suit:
+    id: 46038
+    volume: 0.1
+  Women's IGC Location Scout Suit:
+    id: 46039
+    volume: 0.1
   Vigilant IGC SKIN (Permanent):
     id: 46040
     volume: 0.01
@@ -84343,7 +84369,7 @@ metaInfs:
   Apostle Exoplanets Hunter SKIN (Permanent):
     id: 46146
     volume: 0.01
-  "Minokawa Exoplanets Hunter SKIN (Permanent) \t":
+  Minokawa Exoplanets Hunter SKIN (Permanent):
     id: 46147
     volume: 0.01
   Ninazu Exoplanets Hunter SKIN (Permanent):
@@ -84351,6 +84377,30 @@ metaInfs:
     volume: 0.01
   Lif Exoplanets Hunter SKIN (Permanent):
     id: 46149
+    volume: 0.01
+  IGC Garment Keeper:
+    id: 46151
+    volume: 0.1
+  A3 Destroyer Package:
+    id: 46266
+    volume: 0.1
+  A3 Industrial Package:
+    id: 46267
+    volume: 0.1
+  A3 Industrial Gear:
+    id: 46268
+    volume: 0.1
+  A3 Combat Gear:
+    id: 46269
+    volume: 0.1
+  Kaatara's Custom Ballistic Control System:
+    id: 46270
+    volume: 5.0
+  Minokawa Steel Cardinal SKIN (Permanent):
+    id: 46276
+    volume: 0.01
+  Chimera Kairiola's Sacrifice SKIN (Permanent):
+    id: 46277
     volume: 0.01
   Haunter Cruise Missile:
     productOf:
@@ -84637,42 +84687,39 @@ metaInfs:
   Vexor Quafe Edition:
     productOf:
     - Vexor Quafe Edition Blueprint
-  末��沙场级YC117年特别版:
+  末日沙场级YC117年特别版:
     productOf:
-    - 末日沙场级YC117年特别版蓝图
+    - 末日沙场级YC117年特别��蓝图
   地狱天使级YC117年特别版:
     productOf:
     - 地狱天使级YC117年特别版蓝图
   马克瑞级YC117年特别版:
     productOf:
-    - 马克瑞级YC117年特别版蓝图
-  响尾蛇��YC117年特别版:
+    - 马克瑞级YC117年���别版蓝图
+  响尾蛇级YC117年特别版:
     productOf:
-    - 响尾蛇级YC117年特别版蓝图
+    - 响尾蛇级YC117年特别��蓝图
   多米尼克斯级YC117年特别版:
     productOf:
     - 多米尼克斯级YC117年特别版蓝图
   万王宝座级YC117年特别版:
     productOf:
-    - 万王宝座级YC117年特别版蓝图
+    - 万王宝���级YC117年特别版蓝图
   乌鸦级YC117年特别版:
     productOf:
     - 乌鸦级YC117年特别版蓝图
   灾难级YC117年特别版:
     productOf:
-    - 灾难级YC117年���别版蓝图
+    - 灾难级YC117年特别版蓝图
   幼龙级YC117年特别版:
     productOf:
-    - 幼龙级YC117年特别版蓝图
+    - ��龙级YC117年特别版蓝图
   毒蜥级YC117年特别版:
     productOf:
-    - 毒蜥级YC117年特��版蓝图
+    - 毒蜥���YC117年特别版蓝图
   银鹰级YC117年特别版:
     productOf:
-    - 银鹰级YC117年特别版蓝图
-  伊什塔级YC117年���别版:
+    - 银鹰��YC117年特别版蓝图
+  伊什塔级YC117年特别版:
     productOf:
     - 伊什塔级YC117年特别版蓝图
-  TE-2100 Ample XL Torpedo Launcher:
-    productOf:
-    - TE-2100 Ample XL Torpedo Launcher Blueprint
