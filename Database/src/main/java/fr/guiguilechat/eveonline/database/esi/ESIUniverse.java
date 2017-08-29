@@ -47,6 +47,7 @@ public class ESIUniverse {
 	}
 
 	public static class Systems {
+		public int star_id;
 		public int system_id;
 		public String name;
 		public Object position;
@@ -55,6 +56,7 @@ public class ESIUniverse {
 		public Object[] planets;
 		public int[] stargates;
 		public String security_class;
+
 	}
 
 	private static final String systemURL = "https://esi.tech.ccp.is/latest/universe/systems/";

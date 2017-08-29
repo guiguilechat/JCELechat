@@ -43,7 +43,9 @@ public class EvaluateL4Agents {
 		ArrayList<Entry<Agent, Double>> evals = new ArrayList<>(agentInterest.entrySet());
 		Collections.sort(evals, (e1, e2) -> (int) Math.signum(e2.getValue() - e1.getValue()));
 		for (Entry<Agent, Double> e : evals) {
-			System.out.println(e.getKey().name + " : " + e.getValue() + " in " + e.getKey().location);
+			if (e.getValue() > 150) {
+				System.out.println(e.getKey().name + " : " + e.getValue() + " in " + e.getKey().location);
+			}
 		}
 	}
 

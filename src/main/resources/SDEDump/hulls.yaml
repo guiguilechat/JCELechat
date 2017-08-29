@@ -12179,3 +12179,21 @@ hulls:
     metaLvl: 5
     name: Enforcer
     volume: 100000.0
+  Virtuoso:
+    attributes:
+      mass: 1410000
+      volume: 28100
+    catName: Ship
+    groupName: Stealth Bomber
+    id: 45530
+    name: Virtuoso
+    volume: 28100.0
+  Victor:
+    attributes:
+      mass: 11650000
+      volume: 116000
+    catName: Ship
+    groupName: Force Recon Ship
+    id: 45531
+    name: Victor
+    volume: 116000.0

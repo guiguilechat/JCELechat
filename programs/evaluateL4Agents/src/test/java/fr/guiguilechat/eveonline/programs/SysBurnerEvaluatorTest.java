@@ -16,16 +16,19 @@ public class SysBurnerEvaluatorTest {
 		SysBurnerEvaluator e1 = new SysBurnerEvaluator(1, db);
 
 		SystemVisitor sv = e1.new SystemVisitor(altrinur);
+
 		e1.visitSystemsWithDistance(altrinur, 1, sv);
 		Assert.assertEquals(sv.sumWHS, 5.0);
 		Assert.assertEquals(sv.sumWeight, 5.0);
 		Assert.assertEquals(sv.sumWHSjumps, 4.0);
 
 		sv = e1.new SystemVisitor(altrinur);
+		sv.weightAdjConstel = 2;
+		sv.multWeightHub = 1;
 		e1.visitSystemsWithDistance(altrinur, 2, sv);
-		Assert.assertEquals(sv.sumWHS, 23.0);
-		Assert.assertEquals(sv.sumWeight, 23.0);
-		Assert.assertEquals(sv.sumWHSjumps, 40.0);
+		Assert.assertEquals(sv.sumWHS, 15.0);
+		Assert.assertEquals(sv.sumWeight, 15.0);
+		Assert.assertEquals(sv.sumWHSjumps, 24.0);
 
 		Location erindur = db.getLocation("Erindur");
 

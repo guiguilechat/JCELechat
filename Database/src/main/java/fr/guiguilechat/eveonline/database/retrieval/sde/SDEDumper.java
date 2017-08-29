@@ -209,22 +209,32 @@ public class SDEDumper {
 		// skip anything that is not hull nor module to free memory
 		for (Hull h : db.hulls.values()) {
 			LinkedHashMap<String, Object> atts = new LinkedHashMap<>();
-			for (Entry<Integer, EdgmTypeAttributes> e : sde.getTypeAttributes().get(h.id).entrySet()) {
-				String attributename = sde.getAttributeTypes().get(e.getKey()).attributeName;
-				EdgmTypeAttributes affect = e.getValue();
-				atts.put(attributename, affect.valueFloat != 0 ? affect.valueFloat : affect.valueInt);
+			HashMap<Integer, EdgmTypeAttributes> eatts = sde.getTypeAttributes().get(h.id);
+			if (eatts == null) {
+				System.err.println("no attributes for hull id " + h.id + " named " + h.name);
+			} else {
+				for (Entry<Integer, EdgmTypeAttributes> e : eatts.entrySet()) {
+					String attributename = sde.getAttributeTypes().get(e.getKey()).attributeName;
+					EdgmTypeAttributes affect = e.getValue();
+					atts.put(attributename, affect.valueFloat != 0 ? affect.valueFloat : affect.valueInt);
+				}
+				addHullAttributes(h, atts);
 			}
-			addHullAttributes(h, atts);
 		}
 		// same for modules
 		for (Module m : db.modules.values()) {
 			LinkedHashMap<String, Object> atts = new LinkedHashMap<>();
-			for (Entry<Integer, EdgmTypeAttributes> e : sde.getTypeAttributes().get(m.id).entrySet()) {
-				String attributename = sde.getAttributeTypes().get(e.getKey()).attributeName;
-				EdgmTypeAttributes affect = e.getValue();
-				atts.put(attributename, affect.valueFloat != 0 ? affect.valueFloat : affect.valueInt);
+			HashMap<Integer, EdgmTypeAttributes> eatts = sde.getTypeAttributes().get(m.id);
+			if (eatts == null) {
+				System.err.println("no attributes for module id " + m.id + " named " + m.name);
+			} else {
+				for (Entry<Integer, EdgmTypeAttributes> e : eatts.entrySet()) {
+					String attributename = sde.getAttributeTypes().get(e.getKey()).attributeName;
+					EdgmTypeAttributes affect = e.getValue();
+					atts.put(attributename, affect.valueFloat != 0 ? affect.valueFloat : affect.valueInt);
+				}
+				addModuleAttributes(m, atts);
 			}
-			addModuleAttributes(m, atts);
 		}
 	}
 
