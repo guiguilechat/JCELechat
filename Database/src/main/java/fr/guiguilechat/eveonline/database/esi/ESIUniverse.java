@@ -56,7 +56,7 @@ public class ESIUniverse {
 		public Object[] planets;
 		public int[] stargates;
 		public String security_class;
-
+		public int[] stations;
 	}
 
 	private static final String systemURL = "https://esi.tech.ccp.is/latest/universe/systems/";
