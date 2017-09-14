@@ -13,15 +13,19 @@ import java.util.Map;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class ESIMarket {
 
+	private static final Logger logger = LoggerFactory.getLogger(ESIMarket.class);
+
 	private final String historyURL;
 	private final String ordersURL;
 	public final int region;
-
 
 	private static final SimpleDateFormat DATE_FORMATTER = new SimpleDateFormat("yyyy-MM-dd");
 	private final ObjectMapper datedMapper = new ObjectMapper();
@@ -38,6 +42,7 @@ public class ESIMarket {
 	}
 
 	private HashMap<Integer, List<HistoryData>> cachedHistories = new HashMap<>();
+
 	public static class HistoryData {
 		public Calendar date;
 		public long order_count;
@@ -218,7 +223,6 @@ public class ESIMarket {
 
 	protected HashMap<Integer, MyOrder[]> cachedSOs = new HashMap<>();
 
-
 	/**
 	 * get the value of SO for given item ID and given quantity
 	 *
@@ -289,8 +293,6 @@ public class ESIMarket {
 	}
 
 	protected MyOrder[] loadOrders(int itemID, boolean buy) {
-		// System.err.println("retrieving " + (buy ? "buy" : "sell") + "data for id
-		// " + itemID);
 		String url = ordersURL + "type_id=" + itemID + "&order_type=" + (buy ? "buy" : "sell");
 		try {
 			MarketOrder[] orders = mapper.readValue(new URL(url), MarketOrder[].class);
@@ -303,35 +305,86 @@ public class ESIMarket {
 		}
 	}
 
-	public static void main(String[] args) {
-		main2();
+	public static class MarketPrice {
+		public double adjusted_price;
+		public double average_price;
+		public long type_id;
 	}
 
-	protected static void main1() {
-		// jita region : the forge
-		ESIMarket esir = new ESIMarket(10000002);
-		MyOrder[] mos = esir.loadOrders(34, true);
-		for (MyOrder mo : mos) {
-			System.err.println(mo.price + " : " + mo.volume);
+	public static MarketPrice[] prices() {
+		String url = "https://esi.tech.ccp.is/latest/markets/prices/";
+		try {
+			MarketPrice[] orders = new ObjectMapper().readValue(new URL(url), MarketPrice[].class);
+			return orders;
+		} catch (IOException e) {
+			logger.debug("while retrieving prices ", e);
+			return new MarketPrice[] {};
 		}
-		long firstOrderQtty = mos[0].volume;
-		System.err.println("price of " + firstOrderQtty + " trita : " + esir.getBO(34, firstOrderQtty));
 	}
 
-	protected static void main2() {
-		// jita region : the forge
-		ESIMarket esir = new ESIMarket(10000002);
-		// couples of periodNB,periodDays
-		int[][] granularities = new int[][] { { 14, 7 }, { 3, 30 }, { 1, 100 }, { 10, 10 } };
-		for (int[] grans : granularities) {
-			int periodNb = grans[0];
-			int periodDays = grans[1];
-			System.err.println(
-					"for " + periodNb + " periods of " + periodDays + " days each, total " + periodDays * periodNb + " days");
-			ItemMedianData d = esir.getPonderatedMedianMonthlyAverage(34, periodNb, periodDays);
-			System.err.println("\t" + d.qtty + " orders for " + d.average + " isks");
-		}
+	public static class MarketPriceCache {
+		public HashMap<Long, Double> adjusted = new HashMap<>();
+		public HashMap<Long, Double> average = new HashMap<>();
+	}
 
+	/**
+	 * cache the url https://esi.tech.ccp.is/latest/markets/prices/ in two usable
+	 * maps.
+	 *
+	 * @return
+	 */
+	public static MarketPriceCache cacheMarketPrices() {
+		logger.debug("caching marketprices");
+		MarketPriceCache ret = new MarketPriceCache();
+		for (MarketPrice mp : prices()) {
+			ret.adjusted.put(mp.type_id, mp.adjusted_price);
+			ret.average.put(mp.type_id, mp.average_price);
+		}
+		return ret;
+	}
+
+	protected MarketPriceCache cachePrices = null;
+
+	/**
+	 * get the esi average price of an item. the prices are cached for a
+	 * ESIMarket, though several ESIMarket should return the same result.
+	 *
+	 * @param id
+	 *          item to get the average price
+	 * @return average price of item with given id.
+	 */
+	public double priceAverage(long id) {
+		synchronized (this) {
+			if (cachePrices == null) {
+				cachePrices = cacheMarketPrices();
+			}
+		}
+		Double ret = cachePrices.average.get(id);
+		if (ret == null) {
+			logger.debug("can't get average price of item " + id);
+		}
+		return ret == null ? 0l : ret;
+	}
+
+	/**
+	 * get the esi adjusted price of an item. the prices are cached for a
+	 * ESIMarket, though several ESIMarket should return the same result.
+	 *
+	 * @param id
+	 *          item to get the adjusted price
+	 * @return adjusted price of item with given id.
+	 */
+	public double priceAdjusted(long id) {
+		synchronized (this) {
+			if (cachePrices == null) {
+				cachePrices = cacheMarketPrices();
+			}
+		}
+		Double ret = cachePrices.adjusted.get(id);
+		if (ret == null) {
+			logger.debug("can't get adjusted price of item " + id);
+		}
+		return ret == null ? 0l : ret;
 	}
 
 }

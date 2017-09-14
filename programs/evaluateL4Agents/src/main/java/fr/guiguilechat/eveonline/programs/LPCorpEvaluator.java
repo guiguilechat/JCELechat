@@ -12,6 +12,8 @@ import java.util.List;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.eveonline.database.EveDatabase;
 import fr.guiguilechat.eveonline.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.database.yaml.LPOffer;
@@ -37,10 +39,14 @@ import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
  */
 public class LPCorpEvaluator {
 
+	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(LPCorpEvaluator.class);
+
 	public static class OfferAnalysis {
 
 		public LPOffer offer;
-		public double iskPerLP;
+		public double iskPerLPSOBO;
+		public double iskPerLPBOSO;
+		public double iskPerLPAVG;
 		public String offerGroup;
 
 	}
@@ -90,23 +96,23 @@ public class LPCorpEvaluator {
 	 */
 	public List<OfferAnalysis> analyseOffers(ESIMarket market, Collection<LPOffer> lpos, double minimumIskPerLP) {
 
-		HashSet<Integer> allBOIDs = new HashSet<>();
-		HashSet<Integer> allSOIDs = new HashSet<>();
+		HashSet<Integer> allIDs = new HashSet<>();
 
 		for (LPOffer lpo : lpos) {
-			allBOIDs.add(lpo.product.type_id);
+			allIDs.add(lpo.product.type_id);
 			for (ItemRef e : lpo.requirements.items) {
-				allSOIDs.add(e.type_id);
+				allIDs.add(e.type_id);
 			}
 		}
-		market.cacheBOs(allBOIDs.stream().mapToInt(i -> i).toArray());
+		market.cacheBOs(allIDs.stream().mapToInt(i -> i).toArray());
+		market.cacheSOs(allIDs.stream().mapToInt(i -> i).toArray());
 
 		List<OfferAnalysis> offers = lpos.parallelStream().map(lp -> analyse(lp, market, minimumIskPerLP))
 				.filter(oa -> oa != null)
 				.collect(Collectors.toList());
 
 		try {
-			Collections.sort(offers, (oa1, oa2) -> (int) Math.signum(oa2.iskPerLP - oa1.iskPerLP));
+			Collections.sort(offers, (oa1, oa2) -> (int) Math.signum(oa2.iskPerLPSOBO - oa1.iskPerLPSOBO));
 		} catch (Exception e) {
 			System.err.println(Arrays.asList(offers));
 			throw new UnsupportedOperationException(e);
@@ -142,7 +148,7 @@ public class LPCorpEvaluator {
 			System.out.println(me.getKey() + " :");
 			List<OfferAnalysis> offers = eval.analyseOffers(me.getValue(), lpos, 1000);
 			for (OfferAnalysis oa : offers) {
-				System.out.println(oa.offer.offer_name + " ( " + oa.offer.requirements.lp + " lp ): " + oa.iskPerLP
+				System.out.println(oa.offer.offer_name + " ( " + oa.offer.requirements.lp + " lp ): " + oa.iskPerLPSOBO
 						+ " isk/LP ; " + oa.offerGroup);
 			}
 		}
@@ -167,18 +173,26 @@ public class LPCorpEvaluator {
 		int mult = (int) Math.ceil(1.0 * amountLP / o.requirements.lp);
 
 		double prodBO = market.getBO(o.product.type_id, o.product.quantity * mult) * (1 - markettax);
+		double prodSO = market.getSO(o.product.type_id, o.product.quantity * mult) * (1 - markettax);
+		double prodAVG = market.priceAverage(o.product.type_id) * o.product.quantity * mult * (1 - markettax);
 		// if the BO-cost / lp is too low, it wont get bigger when taking SO into
 		// account.
 		if ((prodBO - o.requirements.isk * mult) / o.requirements.lp / mult < minimumIskPerLP) {
 			return null;
 		}
 		double reqSO = o.requirements.isk * mult;
-		market.cacheSOs(o.requirements.items.stream().mapToInt(ir -> ir.type_id).toArray());
-
+		double reqBO = o.requirements.isk * mult;
+		double reqAVG = o.requirements.isk * mult;
 		reqSO += o.requirements.items.parallelStream().mapToDouble(rq -> market.getSO(rq.type_id, rq.quantity * mult))
 				.sum();
-		ret.iskPerLP = (prodBO - reqSO) / o.requirements.lp / mult;
-		return ret.iskPerLP >= minimumIskPerLP ? ret : null;
+		reqBO += o.requirements.items.parallelStream().mapToDouble(rq -> market.getBO(rq.type_id, rq.quantity * mult))
+				.sum();
+		reqAVG += o.requirements.items.parallelStream()
+				.mapToDouble(rq -> market.priceAverage(rq.type_id) * rq.quantity * mult).sum();
+		ret.iskPerLPSOBO = (prodBO - reqSO) / o.requirements.lp / mult;
+		ret.iskPerLPBOSO = (prodSO - reqBO) / o.requirements.lp / mult;
+		ret.iskPerLPAVG = (prodAVG - reqAVG) / o.requirements.lp / mult;
+		return ret.iskPerLPSOBO >= minimumIskPerLP ? ret : null;
 	}
 
 	/**
@@ -190,7 +204,7 @@ public class LPCorpEvaluator {
 		OfferAnalysis previous = null;
 		for (Iterator<OfferAnalysis> it = offers.iterator(); it.hasNext();) {
 			OfferAnalysis oa = it.next();
-			if (previous != null && previous.iskPerLP == oa.iskPerLP
+			if (previous != null && previous.iskPerLPSOBO == oa.iskPerLPSOBO
 					&& previous.offer.offer_name.equals(oa.offer.offer_name)
 					&& previous.offer.requirements.lp == oa.offer.requirements.lp
 					&& previous.offer.requirements.isk == oa.offer.requirements.isk) {
@@ -220,6 +234,7 @@ public class LPCorpEvaluator {
 			if (cachedLists.containsKey(corpName)) {
 				return cachedLists.get(corpName);
 			}
+			logger.debug("evaluating offers for corp " + corpName);
 			List<OfferAnalysis> ret = analyseOffers(market, corpName, minISKLPRatio);
 			cachedLists.put(corpName, ret);
 			return ret;
