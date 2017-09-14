@@ -20,7 +20,11 @@ public class EvaluateL4Agents {
 
 		public Agent agent;
 
-		public double iskPerHour = 0;
+		public double sobogain = 0;
+
+		public double bosogain = 0;
+
+		public double avggain = 0;
 
 		public LocalizedLPOffer(LPOffer offer, Agent agent) {
 			product = offer.product;
@@ -53,12 +57,12 @@ public class EvaluateL4Agents {
 		for (Agent a : agents) {
 			offers.addAll(el4a.evaluateOffers(a));
 		}
-		Collections.sort(offers, (e1, e2) -> (int) Math.signum(e2.iskPerHour - e1.iskPerHour));
-		System.out.println("agent ; offer ; corporation ; location ; isk/h");
+		Collections.sort(offers, (e1, e2) -> (int) Math.signum(e2.sobogain - e1.sobogain));
+		System.out.println("agent ; offer ; corporation ; location ; sobogain ; bosogain ; avggain");
 		for (LocalizedLPOffer e : offers) {
-			if (e.iskPerHour > 150) {
+			if (e.sobogain > 150) {
 				System.out.println(e.agent.name + " ; " + e.offer_name + " ; " + e.agent.corporation + " ; " + e.agent.location
-						+ " ; " + e.iskPerHour);
+						+ " ; " + e.sobogain + " ; " + e.bosogain + " ; " + e.avggain);
 			}
 		}
 	}
@@ -136,8 +140,9 @@ public class EvaluateL4Agents {
 		List<OfferAnalysis> offers = corpEvaluator.analyseCorpOffers(agent.corporation);
 		for (OfferAnalysis oa : offers) {
 			LocalizedLPOffer llo = new LocalizedLPOffer(oa.offer, agent);
-			double corpval = oa.iskPerLP;
-			llo.iskPerHour = freqHS * freqHS * nbPerHour * (5 + (3.0 + corpval * 8.3 / 1000) * secBonus);
+			llo.sobogain = freqHS * freqHS * nbPerHour * (5 + (3.0 + oa.iskPerLPSOBO * 8.3 / 1000) * secBonus);
+			llo.bosogain = freqHS * freqHS * nbPerHour * (5 + (3.0 + oa.iskPerLPBOSO * 8.3 / 1000) * secBonus);
+			llo.avggain = freqHS * freqHS * nbPerHour * (5 + (3.0 + oa.iskPerLPAVG * 8.3 / 1000) * secBonus);
 			ret.add(llo);
 		}
 
