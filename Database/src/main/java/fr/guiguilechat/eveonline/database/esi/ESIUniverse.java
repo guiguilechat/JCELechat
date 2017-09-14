@@ -4,11 +4,12 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.HashMap;
 
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class ESIUniverse {
 
-	private ObjectMapper om = new ObjectMapper();
+	private ObjectMapper om = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
 	public static class Station {
 		public int station_id;
