@@ -18,7 +18,23 @@ import fr.guiguilechat.eveonline.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 
-/** evaluate ratio isk/lp of a corp */
+/**
+ * evaluate ratio isk/lp of a corp
+ * <p>
+ * two functions :
+ * <ul>
+ * <li>{@link #findCorpBestLPOffer(ESIMarket, String)} get the best ratio of
+ * isk/LP for a given corp name</li>
+ * <li>{@link #analyseOffers(ESIMarket, String, double)} list the offers of a
+ * corporation name by decreasing order.</li>
+ * </ul>
+ * </p>
+ * <p>
+ * for complex operations, the values should be cached. for this reason, use
+ * {@link #cached(ESIMarket)} to get a caching version. the caching version
+ * store the values
+ * </p>
+ */
 public class LPCorpEvaluator {
 
 	public static class OfferAnalysis {
@@ -33,9 +49,9 @@ public class LPCorpEvaluator {
 	double markettax = 0.02;
 
 	// only keep orders with isk/lp >= this value.
-	double minReturn = 1200;
+	double minISKLPRatio = 1000;
 
-	int minLP = 500000;
+	int amountLP = 1000000;
 
 
 	public final EveDatabase db;
@@ -44,27 +60,27 @@ public class LPCorpEvaluator {
 		this(new YamlDatabase());
 	}
 
+	/**
+	 *
+	 * @param db
+	 *          the database to get the lp offers from.
+	 */
 	public LPCorpEvaluator(EveDatabase db) {
 		this.db = db;
 	}
 
-	public double analyseCorporationOffers(ESIMarket market, String corpName) {
-		// System.err.println("analyse " + corpName + " on region " +
-		// market.region);
+	public ArrayList<LPOffer> listCorpOffers(String corpName) {
 		ArrayList<LPOffer> lpos = new ArrayList<>(db.getLPOffers());
-		lpos.removeIf(n -> !corpName.equals(n.corporation) || n.requirements.lp == 0);
-		// System.err.println(" corp has " + lpos.size() + " offers");
-		List<OfferAnalysis> res = analyseoffers(market, lpos);
-		double ret = res.size() < 1 ? 0.0 : res.get(0).iskPerLP;
-		// System.err
-		// .println(res.size() == 0 ? " none interesting" : " best one is " + ret +
-		// " for " + res.get(0).offer.offer_name);
-		return ret;
+		lpos.removeIf(offer -> !corpName.equals(offer.corporation) || offer.requirements.lp == 0);
+		return lpos;
+	}
 
+	public List<OfferAnalysis> analyseOffers(ESIMarket market, String corpName, double minimumIskPerLP) {
+		return analyseOffers(market, listCorpOffers(corpName), minimumIskPerLP);
 	}
 
 	/**
-	 * analyze a list of lp offers and sort them by decreasing is/lp
+	 * analyze a list of lp offers and sort them by decreasing isk/lp
 	 *
 	 * @param market
 	 *          the market to consider for BO/SO
@@ -72,7 +88,7 @@ public class LPCorpEvaluator {
 	 *          lp offers
 	 * @return a new list of the corresponding offer analyses.
 	 */
-	public List<OfferAnalysis> analyseoffers(ESIMarket market, Collection<LPOffer> lpos) {
+	public List<OfferAnalysis> analyseOffers(ESIMarket market, Collection<LPOffer> lpos, double minimumIskPerLP) {
 
 		HashSet<Integer> allBOIDs = new HashSet<>();
 		HashSet<Integer> allSOIDs = new HashSet<>();
@@ -85,7 +101,8 @@ public class LPCorpEvaluator {
 		}
 		market.cacheBOs(allBOIDs.stream().mapToInt(i -> i).toArray());
 
-		List<OfferAnalysis> offers = lpos.parallelStream().map(lp -> analyse(lp, market)).filter(o -> o != null)
+		List<OfferAnalysis> offers = lpos.parallelStream().map(lp -> analyse(lp, market, minimumIskPerLP))
+				.filter(oa -> oa != null)
 				.collect(Collectors.toList());
 
 		try {
@@ -123,7 +140,7 @@ public class LPCorpEvaluator {
 		for (Entry<String, ESIMarket> me : markets.entrySet()) {
 			System.out.println("");
 			System.out.println(me.getKey() + " :");
-			List<OfferAnalysis> offers = eval.analyseoffers(me.getValue(), lpos);
+			List<OfferAnalysis> offers = eval.analyseOffers(me.getValue(), lpos, 1000);
 			for (OfferAnalysis oa : offers) {
 				System.out.println(oa.offer.offer_name + " ( " + oa.offer.requirements.lp + " lp ): " + oa.iskPerLP
 						+ " isk/LP ; " + oa.offerGroup);
@@ -138,19 +155,21 @@ public class LPCorpEvaluator {
 	 *          the lp offer
 	 * @param market
 	 *          the market for BO/SO
+	 * @param minimumIskPerLP
+	 *          the minimum isk per LP to consider this offer.
 	 * @return a new offernaalysis which contains the data analysis. return null
-	 *         if the order interest is < #minReturn
+	 *         if the order interest is < minimumIskPerLP
 	 */
-	public OfferAnalysis analyse(LPOffer o, ESIMarket market) {
+	public OfferAnalysis analyse(LPOffer o, ESIMarket market, double minimumIskPerLP) {
 		OfferAnalysis ret = new OfferAnalysis();
 		ret.offer = o;
 		ret.offerGroup = o.corporation;
-		int mult = (int) Math.ceil(1.0 * minLP / o.requirements.lp);
+		int mult = (int) Math.ceil(1.0 * amountLP / o.requirements.lp);
 
 		double prodBO = market.getBO(o.product.type_id, o.product.quantity * mult) * (1 - markettax);
 		// if the BO-cost / lp is too low, it wont get bigger when taking SO into
 		// account.
-		if ((prodBO - o.requirements.isk * mult) / o.requirements.lp / mult < minReturn) {
+		if ((prodBO - o.requirements.isk * mult) / o.requirements.lp / mult < minimumIskPerLP) {
 			return null;
 		}
 		double reqSO = o.requirements.isk * mult;
@@ -159,7 +178,7 @@ public class LPCorpEvaluator {
 		reqSO += o.requirements.items.parallelStream().mapToDouble(rq -> market.getSO(rq.type_id, rq.quantity * mult))
 				.sum();
 		ret.iskPerLP = (prodBO - reqSO) / o.requirements.lp / mult;
-		return ret.iskPerLP >= minReturn ? ret : null;
+		return ret.iskPerLP >= minimumIskPerLP ? ret : null;
 	}
 
 	/**
@@ -195,15 +214,15 @@ public class LPCorpEvaluator {
 			this.market = market;
 		}
 
-		private HashMap<String, Double> cachedValues = new HashMap<>();
+		private HashMap<String, List<OfferAnalysis>> cachedLists = new HashMap<>();
 
-		public double analyseCorporationOffers(String corpName) {
-			if (cachedValues.containsKey(corpName)) {
-				return cachedValues.get(corpName);
+		public List<OfferAnalysis> analyseCorpOffers(String corpName) {
+			if (cachedLists.containsKey(corpName)) {
+				return cachedLists.get(corpName);
 			}
-			double val = LPCorpEvaluator.this.analyseCorporationOffers(market, corpName);
-			cachedValues.put(corpName, val);
-			return val;
+			List<OfferAnalysis> ret = analyseOffers(market, corpName, minISKLPRatio);
+			cachedLists.put(corpName, ret);
+			return ret;
 		}
 
 	}

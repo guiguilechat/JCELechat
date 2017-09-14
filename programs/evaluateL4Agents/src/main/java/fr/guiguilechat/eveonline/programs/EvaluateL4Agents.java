@@ -2,18 +2,34 @@ package fr.guiguilechat.eveonline.programs;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map.Entry;
-import java.util.function.ToDoubleFunction;
+import java.util.List;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.database.EveDatabase;
 import fr.guiguilechat.eveonline.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.database.yaml.Agent;
+import fr.guiguilechat.eveonline.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.programs.LPCorpEvaluator.MarketLPEvaluator;
+import fr.guiguilechat.eveonline.programs.LPCorpEvaluator.OfferAnalysis;
 
 public class EvaluateL4Agents {
+
+	public static class LocalizedLPOffer extends LPOffer {
+
+		public Agent agent;
+
+		public double iskPerHour = 0;
+
+		public LocalizedLPOffer(LPOffer offer, Agent agent) {
+			product = offer.product;
+			corporation = offer.corporation;
+			offer_name = offer.offer_name;
+			requirements = offer.requirements;
+			this.agent = agent;
+		}
+	}
 
 	public static void main(String[] args) {
 		EvaluateL4Agents el4a = new EvaluateL4Agents();
@@ -30,21 +46,19 @@ public class EvaluateL4Agents {
 			}
 		}
 
-		el4a.corpEvaluator = new LPCorpEvaluator(el4a.db).cached(el4a.getMarket())::analyseCorporationOffers;
+		el4a.corpEvaluator = new LPCorpEvaluator(el4a.db).cached(el4a.getMarket());
 		el4a.systemEvaluator = new SysBurnerEvaluator(10, el4a.db);
 		Agent[] agents = el4a.getPossibleAgents().toArray(Agent[]::new);
-		HashMap<Agent, Double> agentInterest = new HashMap<>();
+		ArrayList<LocalizedLPOffer> offers = new ArrayList<>();
 		for (Agent a : agents) {
-			double interest = el4a.evaluateAgent(a);
-			if (interest > 0) {
-				agentInterest.put(a, interest);
-			}
+			offers.addAll(el4a.evaluateOffers(a));
 		}
-		ArrayList<Entry<Agent, Double>> evals = new ArrayList<>(agentInterest.entrySet());
-		Collections.sort(evals, (e1, e2) -> (int) Math.signum(e2.getValue() - e1.getValue()));
-		for (Entry<Agent, Double> e : evals) {
-			if (e.getValue() > 150) {
-				System.out.println(e.getKey().name + " : " + e.getValue() + " in " + e.getKey().location);
+		Collections.sort(offers, (e1, e2) -> (int) Math.signum(e2.iskPerHour - e1.iskPerHour));
+		System.out.println("agent ; offer ; corporation ; location ; isk/h");
+		for (LocalizedLPOffer e : offers) {
+			if (e.iskPerHour > 150) {
+				System.out.println(e.agent.name + " ; " + e.offer_name + " ; " + e.agent.corporation + " ; " + e.agent.location
+						+ " ; " + e.iskPerHour);
 			}
 		}
 	}
@@ -110,22 +124,23 @@ public class EvaluateL4Agents {
 	protected SysBurnerEvaluator systemEvaluator;
 
 	// evaluate the k isk/lp value of a corpo
-	protected ToDoubleFunction<String> corpEvaluator;
+	protected MarketLPEvaluator corpEvaluator;
 
-	/**
-	 * get the number of M isk/hour we can get from an agent with its burners
-	 *
-	 * @param agent
-	 * @return
-	 */
-	protected double evaluateAgent(Agent agent) {
-		double corpval = corpEvaluator.applyAsDouble(agent.corporation);
-
+	protected List<LocalizedLPOffer> evaluateOffers(Agent agent) {
 		double freqHS = systemEvaluator.freqHS(agent.system);
 		double avgDist = systemEvaluator.avgDist(agent.system);
 		double secBonus = systemEvaluator.secBonus(agent.system);
 		double nbPerHour = 60 / (4 + avgDist * 2);
-		double ret = freqHS * freqHS * nbPerHour * (5 + (3.0 + corpval * 8.3 / 1000) * secBonus);
+
+		ArrayList<LocalizedLPOffer> ret = new ArrayList<>();
+		List<OfferAnalysis> offers = corpEvaluator.analyseCorpOffers(agent.corporation);
+		for (OfferAnalysis oa : offers) {
+			LocalizedLPOffer llo = new LocalizedLPOffer(oa.offer, agent);
+			double corpval = oa.iskPerLP;
+			llo.iskPerHour = freqHS * freqHS * nbPerHour * (5 + (3.0 + corpval * 8.3 / 1000) * secBonus);
+			ret.add(llo);
+		}
+
 		return ret;
 	}
 
