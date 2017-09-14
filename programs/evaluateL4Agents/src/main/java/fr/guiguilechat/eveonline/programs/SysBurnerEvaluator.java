@@ -67,7 +67,7 @@ public class SysBurnerEvaluator {
 		return evaluate(sn).freqHS;
 	}
 
-	protected SystemData evaluate(String sn) {
+	public SystemData evaluate(String sn) {
 		if (cache.containsKey(sn)) {
 			return cache.get(sn);
 		}

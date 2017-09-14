@@ -29,8 +29,24 @@ public abstract class ASettings {
 		return getClass().getCanonicalName();
 	}
 
+	/**
+	 *
+	 * @return the directory to store this in.
+	 */
+	public File getStorageDir() {
+		String folderName = System.getenv("LOCALAPPDATA");
+		if (folderName != null) {
+			return new File(folderName);
+		}
+		return new File(new File(System.getProperty("user.home")), getAppName());
+	}
+
+	/**
+	 *
+	 * @return the file used to store this
+	 */
 	public File getFile() {
-		return new File(new File(new File(System.getProperty("user.home")), getAppName()), "settings.yml");
+		return new File(getStorageDir(), "settings.yml");
 	}
 
 	/**
