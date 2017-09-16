@@ -58,7 +58,7 @@ public class EvaluateL4Agents {
 			offers.addAll(el4a.evaluateOffers(a));
 		}
 		Collections.sort(offers, (e1, e2) -> (int) Math.signum(e2.sobogain - e1.sobogain));
-		System.out.println("agent ; offer ; corporation ; location ; sobogain ; bosogain ; avggain");
+		System.out.println("\nagent ; offer ; corporation ; location ; sobogain ; bosogain ; avggain");
 		for (LocalizedLPOffer e : offers) {
 			if (e.sobogain > 150) {
 				System.out.println(e.agent.name + " ; " + e.offer_name + " ; " + e.agent.corporation + " ; " + e.agent.location
