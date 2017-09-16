@@ -4,7 +4,7 @@ import fr.guiguilechat.eveonline.programs.gui.Manager;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 
-public class OverViewPane extends VBox {
+public class OverViewPane extends VBox implements EvePane {
 
 	protected Manager parent;
 

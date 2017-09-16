@@ -1,11 +1,11 @@
 package fr.guiguilechat.eveonline.programs.gui;
 
-import java.util.HashSet;
 import java.util.Iterator;
-import java.util.Set;
-import java.util.stream.Collectors;
+import java.util.LinkedHashSet;
+import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
+import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.MenuPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.OptionPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.OverViewPane;
@@ -16,7 +16,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
-public class Manager extends Application {
+public class Manager extends Application implements EvePane {
 
 	public static void main(String[] args) {
 		launch(args);
@@ -34,6 +34,13 @@ public class Manager extends Application {
 
 	OptionPane optionPane = new OptionPane(this);
 
+	EvePane[] children = new EvePane[] { menuHBox, overviewPane, optionPane };
+
+	@Override
+	public EvePane[] children() {
+		return children;
+	}
+
 	public void showOptions() {
 		mainLayout.setCenter(optionPane);
 	}
@@ -47,34 +54,81 @@ public class Manager extends Application {
 		primaryStage.setTitle("eve toon manager");
 		mainLayout.setTop(menuHBox);
 
-		Scene scene = new Scene(mainLayout, 640, 800);
+		Scene scene = new Scene(mainLayout, 800, 900);
 		primaryStage.setScene(scene);
 		primaryStage.show();
 		showOverview();
-		settingsChanged();
+		for (Entry<Integer, String> a : settings.apiKeys.entrySet()) {
+			propagateNewAPI(a.getKey(), a.getValue());
+		}
+		for (String team : settings.teams.keySet()) {
+			propagateNewTeam(team);
+			for (String charname : settings.teams.get(team)) {
+				propagateAdd2Team(team, charname);
+			}
+		}
 	}
 
-	public void settingsChanged() {
+	@Override
+	public void onNewAPI(int key, String code) {
+		for (APIRoot ar : apis) {
+			if(ar.key.keyID==key) {
+				return;
+			}
+		}
+		apis.add(new APIRoot(key, code));
+	}
 
-		// remove all apis that are not exactly present
-		Iterator<APIRoot> it = apis.iterator();
-		while (it.hasNext()) {
-			APIRoot api = it.next();
-			String storedCode = settings.apiKeys.get(api.key.keyID);
-			if (storedCode == null || !api.key.code.equals(storedCode)) {
+	@Override
+	public void onDelAPI(int key) {
+		for (Iterator<APIRoot> it = apis.iterator(); it.hasNext();) {
+			if (it.next().key.keyID == key) {
 				it.remove();
 			}
 		}
-		// add all apis that are not already present
-		Set<Integer> missingKeys = new HashSet<>(settings.apiKeys.keySet());
-		missingKeys.removeAll(apis.stream().map(r -> r.key.keyID).collect(Collectors.toSet()));
-		for (Integer apiID : missingKeys) {
-			String code = settings.apiKeys.get(apiID);
-			apis.add(new APIRoot(apiID, code));
-		}
+	}
 
-		optionPane.settingsChanged();
-		overviewPane.settingsChanged();
+	// modification of the settings
+
+	// API
+
+	public void removeApi(int keyID) {
+		settings.apiKeys.remove(keyID);
+		settings.store();
+		propagateDelAPI(keyID);
+	}
+
+	public void addAPI(int key, String code) {
+		settings.apiKeys.put(key, code);
+		settings.store();
+		propagateNewAPI(key, code);
+	}
+
+	// team
+
+	public void addTeam(String name) {
+		settings.teams.put(name, new LinkedHashSet<>());
+		settings.store();
+		propagateNewTeam(name);
+	}
+
+	public void delTeam(String name) {
+		settings.teams.remove(name);
+		settings.store();
+		propagateDelTeam(name);
+
+	}
+
+	public void add2Team(String character, String team) {
+		settings.teams.get(team).add(character);
+		settings.store();
+		propagateAdd2Team(team, character);
+	}
+
+	public void del2Team(String character, String team) {
+		settings.teams.get(team).remove(character);
+		settings.store();
+		propagateDel2Team(team, character);
 	}
 
 }

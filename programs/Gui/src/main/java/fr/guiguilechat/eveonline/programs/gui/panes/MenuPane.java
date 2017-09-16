@@ -4,7 +4,7 @@ import fr.guiguilechat.eveonline.programs.gui.Manager;
 import javafx.scene.control.Button;
 import javafx.scene.layout.HBox;
 
-public class MenuPane extends HBox {
+public class MenuPane extends HBox implements EvePane {
 
 	private Manager parent;
 

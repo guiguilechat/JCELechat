@@ -7,12 +7,12 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 
-public class AddAPIPane extends HBox {
+public class AddAPIPane extends HBox implements EvePane {
 
 	protected Manager parent;
 	TextField apiID = new TextField();
 	TextField apiCode = new TextField();
-	Button send = new Button("add");
+	Button send = new Button("add API");
 
 	public AddAPIPane(Manager parent) {
 		this.parent = parent;
@@ -30,11 +30,9 @@ public class AddAPIPane extends HBox {
 			// bad api, what do ?
 			return;
 		}
-		parent.settings.apiKeys.put(id, code);
-		parent.settings.store();
+		parent.addAPI(id, code);
 		apiID.clear();
 		apiCode.clear();
-		parent.settingsChanged();
 	}
 
 }

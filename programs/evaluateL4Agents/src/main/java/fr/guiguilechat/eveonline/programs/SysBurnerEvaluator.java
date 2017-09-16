@@ -6,6 +6,9 @@ import java.util.HashSet;
 import java.util.Map.Entry;
 import java.util.Set;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.eveonline.database.EveDatabase;
 import fr.guiguilechat.eveonline.database.yaml.Location;
 
@@ -24,6 +27,8 @@ import fr.guiguilechat.eveonline.database.yaml.Location;
  *
  */
 public class SysBurnerEvaluator {
+
+	private static final Logger logger = LoggerFactory.getLogger(SysBurnerEvaluator.class);
 
 	/**
 	 *
@@ -79,10 +84,7 @@ public class SysBurnerEvaluator {
 		ret.avgDist = sv.sumWHSjumps / sv.sumWHS;
 		ret.bonusSys = 2 - sys.minSec;
 		ret.freqHS = sv.sumWHS / sv.sumWeight;
-		// System.err.println("system " + sys.name + " [sumweight" + sv.sumWeight +
-		// " whsjumps" + sv.sumWHSjumps + " whs"
-		// + sv.sumWHS + "] avgdistHS" + ret.avgDist + " bonus" + ret.bonusSys + "
-		// pbHigh" + ret.freqHS);
+		logger.debug("system " + sys.name + " avgdistHS" + ret.avgDist + " bonus" + ret.bonusSys + " pbHigh" + ret.freqHS);
 		cache.put(sn, ret);
 		return ret;
 	}

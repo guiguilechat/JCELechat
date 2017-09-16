@@ -7,12 +7,13 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.input.MouseEvent;
 
-public class ListApi extends TableView<APIRoot> {
+public class ListApiTableView extends TableView<APIRoot> implements EvePane {
 
 	protected Manager parent;
 
-	public ListApi(Manager parent) {
+	public ListApiTableView(Manager parent) {
 		this.parent = parent;
 
 		setItems(parent.apis);
@@ -23,10 +24,10 @@ public class ListApi extends TableView<APIRoot> {
 		TableColumn<APIRoot, String> codeCol = new TableColumn<>("code");
 		codeCol.setCellValueFactory(apiroot -> new ReadOnlyObjectWrapper<>(apiroot.getValue().key.code));
 		getColumns().add(codeCol);
-		TableColumn<APIRoot, APIRoot> delCol = new TableColumn<>("delete");
+		TableColumn<APIRoot, APIRoot> delCol = new TableColumn<>("");
 		delCol.setCellValueFactory(param -> new ReadOnlyObjectWrapper<>(param.getValue()));
 		delCol.setCellFactory(param -> new TableCell<APIRoot, APIRoot>() {
-			private final Button deleteButton = new Button("delete");
+			private final Button deleteButton = new Button("X");
 
 			@Override
 			protected void updateItem(APIRoot person, boolean empty) {
@@ -38,30 +39,18 @@ public class ListApi extends TableView<APIRoot> {
 				}
 
 				setGraphic(deleteButton);
-				deleteButton.setOnAction(event -> removeApi(person.key.keyID));
+				deleteButton.setOnMouseEntered((MouseEvent e) -> {
+					deleteButton.setScaleX(1.5);
+					deleteButton.setScaleY(1.5);
+				});
+				deleteButton.setOnMouseExited((MouseEvent e) -> {
+					deleteButton.setScaleX(1);
+					deleteButton.setScaleY(1);
+				});
+				deleteButton.setOnAction(event -> parent.removeApi(person.key.keyID));
 			}
 		});
 		getColumns().add(delCol);
-	}
-
-	public void removeApi(int keyID) {
-		parent.settings.apiKeys.remove(keyID);
-		parent.settings.store();
-		parent.settingsChanged();
-	}
-
-	public void settingsChanged() {
-		refresh();
-		// getChildren().clear();
-		/**
-		 * for (Entry<String, String> e : parent.settings.apiKeys.entrySet()) {
-		 * BorderPane apiBox = new BorderPane();
-		 *
-		 * Button removeButt = new Button("delete"); removeButt.setOnAction(ev ->
-		 * removeApi(e.getKey())); apiBox.setRight(removeButt);
-		 * apiBox.getChildren().addAll(new Label(e.getKey()), new
-		 * Label(e.getValue()), removeButt); getChildren().add(apiBox); }
-		 */
 	}
 
 }
