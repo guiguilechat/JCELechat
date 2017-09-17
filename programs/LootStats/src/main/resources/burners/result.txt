@@ -1,8 +1,89 @@
+agent angel:
+  entries: 67
+agent blood:
+  entries: 91
+  factionFreq: 0.054945054945054944
+  factionModFreq: 0.054945054945054944
+  factions:
+  - Dark Blood Energized Thermal Membrane
+  - Dark Blood Dual Light Beam Laser
+  - Dark Blood Explosive Plating
+  - Dark Blood Small Energy Nosferatu
+  - Dark Blood Stasis Webifier
+agent sansha:
+  entries: 76
+  factionFreq: 0.013157894736842105
+  factionModFreq: 0.013157894736842105
+  factions:
+  - True Sansha EM Plating
+agent serpentis:
+  bpcFreq: 0.0410958904109589
+  bps:
+  - Daredevil Blueprint
+  entries: 73
+agent guristas:
+  entries: 81
+team hawk:
+  entries: 79
+  factionFreq: 0.0759493670886076
+  factionModFreq: 0.0759493670886076
+  factions:
+  - Caldari Navy Cloaking Device
+  - Caldari Navy Small Graviton Smartbomb
+  - Caldari Navy Power Diagnostic System
+  - Caldari Navy Rocket Launcher
+  - Caldari Navy EM Ward Field
+  - Caldari Navy 150mm Railgun
+team vengeance:
+  entries: 78
+  factionFreq: 0.1282051282051282
+  factionModFreq: 0.1282051282051282
+  factions:
+  - Imperial Navy Armor Kinetic Hardener
+  - Imperial Navy Armor EM Hardener
+  - Imperial Navy Explosive Plating
+  - Imperial Navy Small Energy Nosferatu
+  - Imperial Navy Small Focused Pulse Laser
+  - Imperial Navy Small Focused Beam Laser
+  - Imperial Navy Small Capacitor Booster
+  - Imperial Navy Energized Explosive Membrane
+  - Imperial Navy Small Remote Capacitor Transmitter
+  - Imperial Navy Small Armor Repairer
+team jaguar:
+  entries: 90
+  factionFreq: 0.1111111111111111
+  factionModFreq: 0.1111111111111111
+  factions:
+  - Republic Fleet Small Armor Repairer
+  - Republic Fleet Warp Disruptor
+  - Republic Fleet Small Proton Smartbomb
+  - Federation Navy 1MN Afterburner
+  - Republic Fleet 125mm Autocannon
+  - Republic Fleet Explosive Deflection Amplifier
+  - Republic Fleet Gyrostabilizer
+  - Republic Fleet Armor Thermal Hardener
+  - Republic Fleet Rocket Launcher
+team enyo:
+  entries: 70
+  factionFreq: 0.07142857142857142
+  factionModFreq: 0.07142857142857142
+  factions:
+  - Federation Navy 5MN Microwarpdrive
+  - Federation Navy Stasis Webifier
+  - Federation Navy Tracking Computer
+  - Federation Navy 75mm Railgun
+base angel:
+  entries: 72
+  factionFreq: 0.013888888888888888
+  factionModFreq: 0.013888888888888888
+  factions:
+  - Domination Kinetic Deflection Amplifier
+base blood:
+  entries: 3
 base serpentis:
-  avgBO: 2.1901679758032788E7
-  entries: 61
-  factionFreq: 0.47540983606557374
-  factionModFreq: 0.47540983606557374
+  entries: 63
+  factionFreq: 0.4603174603174603
+  factionModFreq: 0.4603174603174603
   factions:
   - Shadow Serpentis 50MN Microwarpdrive
   - Shadow Serpentis Kinetic Plating
@@ -24,98 +105,5 @@ base serpentis:
   - Shadow Serpentis Damage Control
   - Shadow Serpentis Energized Kinetic Membrane
   - Shadow Serpentis 250mm Railgun
-team enyo:
-  avgBO: 4994953.560819672
-  entries: 61
-  factionFreq: 0.06557377049180328
-  factionModFreq: 0.06557377049180328
-  factions:
-  - Federation Navy 5MN Microwarpdrive
-  - Federation Navy Stasis Webifier
-  - Federation Navy Tracking Computer
-  - Federation Navy 75mm Railgun
-team jaguar:
-  avgBO: 3247215.1110588233
-  entries: 85
-  factionFreq: 0.10588235294117647
-  factionModFreq: 0.10588235294117647
-  factions:
-  - Republic Fleet Small Armor Repairer
-  - Republic Fleet Warp Disruptor
-  - Republic Fleet Small Proton Smartbomb
-  - Federation Navy 1MN Afterburner
-  - Republic Fleet 125mm Autocannon
-  - Republic Fleet Explosive Deflection Amplifier
-  - Republic Fleet Gyrostabilizer
-  - Republic Fleet Armor Thermal Hardener
-  - Republic Fleet Rocket Launcher
-base blood:
-  avgBO: 2341364.27
-  entries: 2
-team hawk:
-  avgBO: 2003230.1605263157
-  entries: 76
-  factionFreq: 0.07894736842105263
-  factionModFreq: 0.07894736842105263
-  factions:
-  - Caldari Navy Cloaking Device
-  - Caldari Navy Small Graviton Smartbomb
-  - Caldari Navy Power Diagnostic System
-  - Caldari Navy Rocket Launcher
-  - Caldari Navy EM Ward Field
-  - Caldari Navy 150mm Railgun
-team vengeance:
-  avgBO: 949188.3169014085
-  entries: 71
-  factionFreq: 0.14084507042253522
-  factionModFreq: 0.14084507042253522
-  factions:
-  - Imperial Navy Armor Kinetic Hardener
-  - Imperial Navy Armor EM Hardener
-  - Imperial Navy Explosive Plating
-  - Imperial Navy Small Energy Nosferatu
-  - Imperial Navy Small Focused Pulse Laser
-  - Imperial Navy Small Focused Beam Laser
-  - Imperial Navy Small Capacitor Booster
-  - Imperial Navy Energized Explosive Membrane
-  - Imperial Navy Small Remote Capacitor Transmitter
-  - Imperial Navy Small Armor Repairer
-base angel:
-  avgBO: 896707.1933333334
-  entries: 69
-  factionFreq: 0.014492753623188406
-  factionModFreq: 0.014492753623188406
-  factions:
-  - Domination Kinetic Deflection Amplifier
-agent blood:
-  avgBO: 396355.5281927711
-  entries: 83
-  factionFreq: 0.04819277108433735
-  factionModFreq: 0.04819277108433735
-  factions:
-  - Dark Blood Energized Thermal Membrane
-  - Dark Blood Dual Light Beam Laser
-  - Dark Blood Explosive Plating
-  - Dark Blood Small Energy Nosferatu
-agent sansha:
-  avgBO: 205589.51695652175
-  entries: 69
-  factionFreq: 0.014492753623188406
-  factionModFreq: 0.014492753623188406
-  factions:
-  - True Sansha EM Plating
 base guristas:
-  avgBO: 49308.93
   entries: 1
-agent serpentis:
-  avgBO: 46771.67575757576
-  bpcFreq: 0.045454545454545456
-  bps:
-  - Daredevil Blueprint
-  entries: 66
-agent guristas:
-  avgBO: 35743.891111111116
-  entries: 72
-agent angel:
-  avgBO: 26613.261451612903
-  entries: 62

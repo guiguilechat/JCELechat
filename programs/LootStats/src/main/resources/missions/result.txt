@@ -1,96 +1,64 @@
-cowardlycommanderEP sansha:
-  avgBO: 4.8886980339999996E7
-  entries: 1
-angelextravaganza4 angel:
-  avgBO: 2.606464771E7
-  entries: 1
-righttoruleEP sansha:
-  avgBO: 2.499163171E7
-  entries: 1
-shipyardtheft4 angel:
-  avgBO: 1.866755914E7
-  entries: 1
-priorityoneEP minmatar:
-  avgBO: 1.767862651E7
-  entries: 1
-blockade4 blood:
-  avgBO: 1.661389092E7
-  entries: 1
-catchingthescentEP sansha:
-  avgBO: 1.382133308E7
-  entries: 2
-poormanshakedownEP minmatar:
-  avgBO: 1.319836344E7
-  entries: 1
-vengeance4 angel:
-  avgBO: 1.311408184E7
-  entries: 1
-ascendingnoblesEP amarr:
-  avgBO: 1.118524491E7
-  entries: 2
-blockade4 angel:
-  avgBO: 1.031926739E7
-  entries: 3
-damsel4 mercenaries:
-  avgBO: 9470399.663333332
-  entries: 3
 showtimeEP syndicate:
-  avgBO: 9203972.25
+  entries: 1
+interceptsaboteurs4 guristas:
+  entries: 5
+miningmisappropriation4 blood:
+  entries: 2
+blockade4 blood:
+  entries: 1
+blockade4 angel:
+  entries: 3
+vengeance4 angel:
+  entries: 1
+righthandzazzmatazz4 none:
+  entries: 4
+patientzero drone:
   entries: 1
 goneberserk4 eom:
-  avgBO: 9044031.49
   entries: 2
-littlefingersEP syndicate:
-  avgBO: 8598409.959999999
+theassault4 guristas:
   entries: 1
-undergroundcitiesEP mercenaries:
-  avgBO: 8396390.3
+damsel4 mercenaries:
+  entries: 3
+attackofthedrones4 drone:
   entries: 1
-razingoutpostEP mordus:
-  avgBO: 8131464.36
-  entries: 1
-TheAveronExchangeEP mercenaries:
-  avgBO: 7587538.79
+angelextravaganza4 angel:
   entries: 1
 huntingthehunterEP sansha:
-  avgBO: 6800126.93
   entries: 1
-intakichaseEP syndicate:
-  avgBO: 6444179.96
+catchingthescentEP sansha:
+  entries: 2
+fallingintoplacesEP amarr:
+  entries: 2
+righttoruleEP sansha:
   entries: 1
-massiveattack4 sansha:
-  avgBO: 6366371.72
+cowardlycommanderEP sansha:
   entries: 1
 backgroundcheckEP sansha:
-  avgBO: 5900805.25
   entries: 2
-interceptsaboteurs4 guristas:
-  avgBO: 5139423.746
-  entries: 5
-righthandzazzmatazz4 none:
-  avgBO: 4982075.58
-  entries: 4
-miningmisappropriation4 blood:
-  avgBO: 4725992.555
-  entries: 2
-studioIEP syndicate:
-  avgBO: 4463315.15
+razingoutpostEP mordus:
   entries: 1
-theassault4 guristas:
-  avgBO: 4264635.39
-  entries: 1
-fallingintoplacesEP amarr:
-  avgBO: 3908623.92
+ascendingnoblesEP amarr:
   entries: 2
-assistanceEP mercenaries:
-  avgBO: 3745434.8200000003
+shipyardtheft4 angel:
   entries: 1
 thetollescarEP drone:
-  avgBO: 2892720.36
   entries: 1
-patientzero drone:
-  avgBO: 1375643.56
+priorityoneEP minmatar:
   entries: 1
-attackofthedrones4 drone:
-  avgBO: 1191587.65
+TheAveronExchangeEP mercenaries:
+  entries: 1
+assistanceEP mercenaries:
+  entries: 1
+poormanshakedownEP minmatar:
+  entries: 1
+undergroundcitiesEP mercenaries:
+  entries: 1
+intakichaseEP syndicate:
+  entries: 1
+littlefingersEP syndicate:
+  entries: 1
+studioIEP syndicate:
+  entries: 1
+massiveattack4 sansha:
   entries: 1
