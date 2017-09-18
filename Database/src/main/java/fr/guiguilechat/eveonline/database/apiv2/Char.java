@@ -150,7 +150,7 @@ public class Char {
 		public int successfulRuns;
 	}
 
-	public static String activityNAme(long actividyID) {
+	public static String activityName(long actividyID) {
 		switch ((int) actividyID) {
 		case 1:
 			return "prod";
