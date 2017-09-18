@@ -27,6 +27,11 @@ public class ListTeamPane extends TableView<CharacterTeams> implements EvePane {
 
 	protected Manager parent;
 
+	@Override
+	public Manager parent() {
+		return parent;
+	}
+
 	@SuppressWarnings("serial")
 	public static class CharacterTeams extends HashSet<String> {
 		public String charName;
@@ -53,6 +58,7 @@ public class ListTeamPane extends TableView<CharacterTeams> implements EvePane {
 		APIRoot aroot = parent.apis.stream().filter(r -> r.key.keyID == key).findFirst().get();
 		for (Character c : aroot.account.characters()) {
 			charteams.add(new CharacterTeams(c.name));
+			debug("toon " + c.name);
 		}
 	}
 
@@ -111,6 +117,7 @@ public class ListTeamPane extends TableView<CharacterTeams> implements EvePane {
 				refresh();
 			}
 		}
+		debug("toon " + character + " added to team " + team);
 	}
 
 	@Override
@@ -121,6 +128,7 @@ public class ListTeamPane extends TableView<CharacterTeams> implements EvePane {
 				refresh();
 			}
 		}
+		debug("toon " + character + " removed from team " + team);
 	}
 
 }

@@ -1,5 +1,7 @@
 package fr.guiguilechat.eveonline.programs.gui.panes;
 
+import fr.guiguilechat.eveonline.programs.gui.Manager;
+
 /**
  * panes to react to the modification of parameters.
  * <p>
@@ -10,11 +12,19 @@ package fr.guiguilechat.eveonline.programs.gui.panes;
  */
 public interface EvePane {
 
+	public Manager parent();
+
+	public static final EvePane[] emptyPaneArray = new EvePane[] {};
+
 	public default EvePane[] children() {
 		return emptyPaneArray;
 	}
 
-	public static final EvePane[] emptyPaneArray = new EvePane[] {};
+	//// debug
+
+	public default void debug(String message) {
+		parent().printDebug(getClass(), message);
+	}
 
 	//// API Modifications
 
@@ -90,6 +100,16 @@ public interface EvePane {
 
 	/** override this to handle a new team addition */
 	public default void onDel2Team(String team, String character) {
+	}
+
+	public default void propagateFocusedTeam(String teamName) {
+		for (EvePane p : children()) {
+			p.propagateFocusedTeam(teamName);
+		}
+		onFocusedTeam(teamName);
+	}
+
+	public default void onFocusedTeam(String teamName) {
 	}
 
 }

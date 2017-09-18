@@ -8,6 +8,11 @@ public class MenuPane extends HBox implements EvePane {
 
 	private Manager parent;
 
+	@Override
+	public Manager parent() {
+		return parent;
+	}
+
 	Button btnOverview = new Button("overview");
 	Button btnOptions = new Button("Options");
 

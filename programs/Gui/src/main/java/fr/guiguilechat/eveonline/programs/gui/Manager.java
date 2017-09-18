@@ -1,5 +1,8 @@
 package fr.guiguilechat.eveonline.programs.gui;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Map.Entry;
@@ -9,10 +12,14 @@ import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.MenuPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.OptionPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.OverViewPane;
+import fr.guiguilechat.eveonline.programs.gui.panes.SelectTeamPane;
 import javafx.application.Application;
+import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.Scene;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
@@ -22,19 +29,26 @@ public class Manager extends Application implements EvePane {
 		launch(args);
 	}
 
+	@Override
+	public Manager parent() {
+		return this;
+	}
+
 	public Settings settings = Settings.load(Settings.class);
+
+	public SelectTeamPane selectTeamPane = new SelectTeamPane(this);
 
 	public final ObservableList<APIRoot> apis = FXCollections.observableArrayList();
 
-	BorderPane mainLayout = new BorderPane();
+	public BorderPane mainLayout = new BorderPane();
 
-	MenuPane menuHBox = new MenuPane(this);
+	public MenuPane menuHBox = new MenuPane(this);
 
-	OverViewPane overviewPane = new OverViewPane(this);
+	public OverViewPane overviewPane = new OverViewPane(this);
 
-	OptionPane optionPane = new OptionPane(this);
+	public OptionPane optionPane = new OptionPane(this);
 
-	EvePane[] children = new EvePane[] { menuHBox, overviewPane, optionPane };
+	public EvePane[] children = new EvePane[] { menuHBox, overviewPane, optionPane, selectTeamPane };
 
 	@Override
 	public EvePane[] children() {
@@ -51,8 +65,11 @@ public class Manager extends Application implements EvePane {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		primaryStage.setTitle("eve toon manager");
+		primaryStage.setTitle("guigui lechat manager");
 		mainLayout.setTop(menuHBox);
+		if (!settings.hideDebug) {
+			mainLayout.setBottom(debugPane);
+		}
 
 		Scene scene = new Scene(mainLayout, 800, 900);
 		primaryStage.setScene(scene);
@@ -69,14 +86,19 @@ public class Manager extends Application implements EvePane {
 		}
 	}
 
+	//
+	// event handling
+	//
+
 	@Override
 	public void onNewAPI(int key, String code) {
 		for (APIRoot ar : apis) {
-			if(ar.key.keyID==key) {
+			if (ar.key.keyID == key) {
 				return;
 			}
 		}
 		apis.add(new APIRoot(key, code));
+		debug("new api " + key);
 	}
 
 	@Override
@@ -88,7 +110,9 @@ public class Manager extends Application implements EvePane {
 		}
 	}
 
+	// external calls
 	// modification of the settings
+	//
 
 	// API
 
@@ -129,6 +153,51 @@ public class Manager extends Application implements EvePane {
 		settings.teams.get(team).remove(character);
 		settings.store();
 		propagateDel2Team(team, character);
+	}
+
+	public void setFocusedTeam(String name) {
+		debug("focusing on team " + name);
+		settings.focusedTeam = name;
+		settings.store();
+		propagateFocusedTeam(name);
+	}
+
+	// debug
+
+	protected static class DebugEntry {
+		String message;
+		Class<? extends EvePane> context;
+		Date date;
+	}
+
+	protected TableView<DebugEntry> debugPane = new TableView<>();
+	{
+		DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
+		TableColumn<DebugEntry, String> dateCol = new TableColumn<>("date");
+		dateCol.setCellValueFactory(ct -> new ReadOnlyObjectWrapper<>(dateFormat.format(ct.getValue().date)));
+		debugPane.getColumns().add(dateCol);
+		TableColumn<DebugEntry, String> messCol = new TableColumn<>("debug");
+		messCol.setCellValueFactory(ct -> new ReadOnlyObjectWrapper<>(ct.getValue().message));
+		debugPane.getColumns().add(messCol);
+		TableColumn<DebugEntry, String> ctxtCol = new TableColumn<>("context");
+		ctxtCol.setCellValueFactory(ct -> new ReadOnlyObjectWrapper<>(ct.getValue().context.getSimpleName()));
+		debugPane.getColumns().add(ctxtCol);
+		dateCol.setSortType(TableColumn.SortType.DESCENDING);
+		debugPane.getSortOrder().add(dateCol);
+	}
+
+	public void printDebug(Class<? extends EvePane> clazz, String data) {
+		DebugEntry de = new DebugEntry();
+		de.message = data;
+		de.context = clazz;
+		de.date = new Date();
+		debugPane.getItems().add(de);
+	}
+
+	public void switchDebug() {
+		settings.hideDebug = !settings.hideDebug;
+		mainLayout.setBottom(settings.hideDebug ? null : debugPane);
+		settings.store();
 	}
 
 }

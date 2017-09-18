@@ -8,11 +8,17 @@ public class OverViewPane extends VBox implements EvePane {
 
 	protected Manager parent;
 
+	@Override
+	public Manager parent() {
+		return parent;
+	}
+
 	TextField tfOverview = new TextField("overview");
 
 	public OverViewPane(Manager parent) {
 		this.parent = parent;
-		getChildren().add(tfOverview);
+
+		getChildren().addAll(parent.selectTeamPane, tfOverview);
 	}
 
 	public void settingsChanged() {

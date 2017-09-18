@@ -16,4 +16,8 @@ public class Settings extends ASettings {
 
 	public LinkedHashMap<String, LinkedHashSet<String>> teams = new LinkedHashMap<>();
 
+	public String focusedTeam = null;
+
+	public boolean hideDebug = true;
+
 }

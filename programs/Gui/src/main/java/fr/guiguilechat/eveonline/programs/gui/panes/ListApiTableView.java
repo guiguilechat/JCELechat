@@ -13,6 +13,11 @@ public class ListApiTableView extends TableView<APIRoot> implements EvePane {
 
 	protected Manager parent;
 
+	@Override
+	public Manager parent() {
+		return parent;
+	}
+
 	public ListApiTableView(Manager parent) {
 		this.parent = parent;
 

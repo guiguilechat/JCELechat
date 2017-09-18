@@ -10,6 +10,12 @@ import javafx.scene.layout.HBox;
 public class AddAPIPane extends HBox implements EvePane {
 
 	protected Manager parent;
+
+	@Override
+	public Manager parent() {
+		return parent;
+	}
+
 	TextField apiID = new TextField();
 	TextField apiCode = new TextField();
 	Button send = new Button("add API");

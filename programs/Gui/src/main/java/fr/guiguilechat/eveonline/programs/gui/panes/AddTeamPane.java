@@ -12,6 +12,12 @@ import javafx.scene.layout.HBox;
 public class AddTeamPane extends HBox implements EvePane {
 
 	protected Manager parent;
+
+	@Override
+	public Manager parent() {
+		return parent;
+	}
+
 	TextField addTeamField = new TextField();
 	Button addTeamButton = new Button("add team");
 	ChoiceBox<String> delTeamBox = new ChoiceBox<>(FXCollections.observableArrayList());
