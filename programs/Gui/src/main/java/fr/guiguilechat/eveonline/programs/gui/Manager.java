@@ -8,6 +8,7 @@ import java.util.LinkedHashSet;
 import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
+import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.MenuPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.OptionPane;
@@ -84,6 +85,8 @@ public class Manager extends Application implements EvePane {
 				propagateAdd2Team(team, charname);
 			}
 		}
+		selectTeamPane.setValue(settings.focusedTeam);
+		propagateFocusedTeam(settings.focusedTeam);
 	}
 
 	//
@@ -128,6 +131,16 @@ public class Manager extends Application implements EvePane {
 		propagateNewAPI(key, code);
 	}
 
+	public APIRoot getAPI(int key) {
+		APIRoot api = null;
+		for (APIRoot a : apis) {
+			if (a.key.keyID == key) {
+				return api;
+			}
+		}
+		return null;
+	}
+
 	// team
 
 	public void addTeam(String name) {
@@ -160,6 +173,19 @@ public class Manager extends Application implements EvePane {
 		settings.focusedTeam = name;
 		settings.store();
 		propagateFocusedTeam(name);
+	}
+
+	public LinkedHashSet<String> getTeamCharacters() {
+		if (settings.focusedTeam != null) {
+			return settings.teams.get(settings.focusedTeam);
+		}
+		LinkedHashSet<String> ret = new LinkedHashSet<>();
+		for (APIRoot a : apis) {
+			for (Character c : a.account.characters()) {
+				ret.add(c.name);
+			}
+		}
+		return ret;
 	}
 
 	// debug

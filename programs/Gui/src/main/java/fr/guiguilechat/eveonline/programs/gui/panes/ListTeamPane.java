@@ -17,11 +17,11 @@ import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 
-/**Present the teams and give availability to assign team to character
+/**
+ * Present the teams and give availability to assign team to character
  * <p>
  * column (starting 1) is the team ; row(starting 1) is the character.
  * </p>
- *
  */
 public class ListTeamPane extends TableView<CharacterTeams> implements EvePane {
 
@@ -68,7 +68,6 @@ public class ListTeamPane extends TableView<CharacterTeams> implements EvePane {
 		Set<String> chars = aroot.account.characters().stream().map(c -> c.name).collect(Collectors.toSet());
 		charteams.removeIf(ct -> chars.contains(ct.charName));
 	}
-
 
 	@Override
 	public void onNewTeam(String teamName) {
