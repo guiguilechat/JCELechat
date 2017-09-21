@@ -1,6 +1,7 @@
 package fr.guiguilechat.eveonline.programs.gui.panes;
 
 import fr.guiguilechat.eveonline.programs.gui.Manager;
+import javafx.event.ActionEvent;
 import javafx.scene.control.ChoiceBox;
 
 public class SelectTeamPane extends ChoiceBox<String> implements EvePane {
@@ -14,7 +15,7 @@ public class SelectTeamPane extends ChoiceBox<String> implements EvePane {
 
 	public SelectTeamPane(Manager parent) {
 		this.parent = parent;
-		setOnAction(ev -> parent.setFocusedTeam(getValue()));
+		setOnAction(this::changeEvt);
 		setAccessibleText("select the team to focus on");
 	}
 
@@ -26,6 +27,22 @@ public class SelectTeamPane extends ChoiceBox<String> implements EvePane {
 	@Override
 	public void onDelTeam(String name) {
 		getItems().remove(name);
+	}
+
+	@Override
+	public void onFocusedTeam(String teamName) {
+		setValue(teamName);
+	}
+
+	protected String oldValue = null;
+
+	public void changeEvt(ActionEvent ev) {
+		String value = getValue();
+		if (value == oldValue || value != null && value.equals(oldValue)) {
+			return;
+		}
+		parent.setFocusedTeam(getValue());
+		oldValue = value;
 	}
 
 }

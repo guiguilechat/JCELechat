@@ -7,8 +7,12 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Account {
+
+	private final Logger logger = LoggerFactory.getLogger(Account.class);
 
 	private final APIRoot parent;
 
@@ -53,13 +57,10 @@ public class Account {
 				chara.factionName = el.attr("factionName");
 			}
 		} catch (IOException e) {
-			throw new UnsupportedOperationException("catch this", e);
+			logger.error("while getting characters for api key " + parent.key.keyID, e);
+			return new ArrayList<>();
 		}
 		return ret;
-	}
-
-	public static void main(String[] args) {
-		System.out.println(new APIRoot(Integer.parseInt(args[0]), args[1]).account.characters());
 	}
 
 }

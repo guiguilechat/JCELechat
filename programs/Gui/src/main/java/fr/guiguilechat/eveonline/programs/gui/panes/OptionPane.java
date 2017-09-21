@@ -23,7 +23,7 @@ public class OptionPane extends VBox implements EvePane {
 	EvePane[] children;
 
 	@Override
-	public EvePane[] children() {
+	public EvePane[] subEvePanes() {
 		return children;
 	}
 

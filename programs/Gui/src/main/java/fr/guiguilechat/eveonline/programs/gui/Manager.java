@@ -3,17 +3,19 @@ package fr.guiguilechat.eveonline.programs.gui;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
+import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.MenuPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.OptionPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.OverViewPane;
-import fr.guiguilechat.eveonline.programs.gui.panes.SelectTeamPane;
+import fr.guiguilechat.eveonline.programs.gui.panes.ProvisionPane;
 import javafx.application.Application;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.collections.FXCollections;
@@ -37,8 +39,6 @@ public class Manager extends Application implements EvePane {
 
 	public Settings settings = Settings.load(Settings.class);
 
-	public SelectTeamPane selectTeamPane = new SelectTeamPane(this);
-
 	public final ObservableList<APIRoot> apis = FXCollections.observableArrayList();
 
 	public BorderPane mainLayout = new BorderPane();
@@ -47,17 +47,23 @@ public class Manager extends Application implements EvePane {
 
 	public OverViewPane overviewPane = new OverViewPane(this);
 
+	public ProvisionPane provisionpane = new ProvisionPane(this);
+
 	public OptionPane optionPane = new OptionPane(this);
 
-	public EvePane[] children = new EvePane[] { menuHBox, overviewPane, optionPane, selectTeamPane };
+	public EvePane[] children = new EvePane[] { menuHBox, overviewPane, provisionpane, optionPane };
 
 	@Override
-	public EvePane[] children() {
+	public EvePane[] subEvePanes() {
 		return children;
 	}
 
 	public void showOptions() {
 		mainLayout.setCenter(optionPane);
+	}
+
+	public void showProvision() {
+		mainLayout.setCenter(provisionpane);
 	}
 
 	public void showOverview() {
@@ -85,7 +91,6 @@ public class Manager extends Application implements EvePane {
 				propagateAdd2Team(team, charname);
 			}
 		}
-		selectTeamPane.setValue(settings.focusedTeam);
 		propagateFocusedTeam(settings.focusedTeam);
 	}
 
@@ -188,6 +193,18 @@ public class Manager extends Application implements EvePane {
 		return ret;
 	}
 
+	// provision
+
+	public void provision(HashMap<Integer, Integer> items) {
+		debug("provision " + items);
+		for (Entry<Integer, Integer> e : items.entrySet()) {
+			propagateNewProvision(e.getKey(), e.getValue());
+			settings.provision.total.put(e.getKey(),
+					Math.max(0, settings.provision.total.getOrDefault(e.getKey(), 0) + e.getValue()));
+		}
+		settings.store();
+	}
+
 	// debug
 
 	protected static class DebugEntry {
@@ -209,6 +226,7 @@ public class Manager extends Application implements EvePane {
 		ctxtCol.setCellValueFactory(ct -> new ReadOnlyObjectWrapper<>(ct.getValue().context.getSimpleName()));
 		debugPane.getColumns().add(ctxtCol);
 		dateCol.setSortType(TableColumn.SortType.DESCENDING);
+		dateCol.setSortable(true);
 		debugPane.getSortOrder().add(dateCol);
 	}
 
@@ -218,12 +236,22 @@ public class Manager extends Application implements EvePane {
 		de.context = clazz;
 		de.date = new Date();
 		debugPane.getItems().add(de);
+		debugPane.sort();
 	}
 
 	public void switchDebug() {
 		settings.hideDebug = !settings.hideDebug;
 		mainLayout.setBottom(settings.hideDebug ? null : debugPane);
 		settings.store();
+	}
+
+	// database
+
+	protected YamlDatabase db = new YamlDatabase();
+
+	@Override
+	public YamlDatabase db() {
+		return db;
 	}
 
 }

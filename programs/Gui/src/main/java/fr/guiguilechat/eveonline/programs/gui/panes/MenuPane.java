@@ -14,14 +14,16 @@ public class MenuPane extends HBox implements EvePane {
 	}
 
 	Button btnOverview = new Button("overview");
-	Button btnOptions = new Button("Options");
+	Button btnProvision = new Button("provision");
+	Button btnOptions = new Button("options");
 
 	public MenuPane(Manager parent) {
 		this.parent = parent;
 
 		btnOptions.setOnAction(e -> this.parent.showOptions());
+		btnProvision.setOnAction(e -> this.parent.showProvision());
 		btnOverview.setOnAction(e -> this.parent.showOverview());
-		getChildren().addAll(btnOverview, btnOptions);
+		getChildren().addAll(btnOverview, btnProvision, btnOptions);
 	}
 
 }

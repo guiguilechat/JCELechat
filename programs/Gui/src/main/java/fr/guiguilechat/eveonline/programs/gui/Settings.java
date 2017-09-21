@@ -1,5 +1,6 @@
 package fr.guiguilechat.eveonline.programs.gui;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 
@@ -19,5 +20,13 @@ public class Settings extends ASettings {
 	public String focusedTeam = null;
 
 	public boolean hideDebug = true;
+
+	public static class Provision {
+
+		public HashMap<Integer, Integer> total = new HashMap<>();
+
+	}
+
+	public Provision provision = new Provision();
 
 }

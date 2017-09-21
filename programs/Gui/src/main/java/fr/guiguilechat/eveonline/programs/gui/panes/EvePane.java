@@ -1,5 +1,6 @@
 package fr.guiguilechat.eveonline.programs.gui.panes;
 
+import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 
 /**
@@ -16,7 +17,7 @@ public interface EvePane {
 
 	public static final EvePane[] emptyPaneArray = new EvePane[] {};
 
-	public default EvePane[] children() {
+	public default EvePane[] subEvePanes() {
 		return emptyPaneArray;
 	}
 
@@ -26,12 +27,18 @@ public interface EvePane {
 		parent().printDebug(getClass(), message);
 	}
 
+	// access to the database
+
+	public default YamlDatabase db() {
+		return parent().db();
+	}
+
 	//// API Modifications
 
 	/** do not override this */
 	public default void propagateNewAPI(int key, String code) {
 		onNewAPI(key, code);
-		for (EvePane p : children()) {
+		for (EvePane p : subEvePanes()) {
 			p.propagateNewAPI(key, code);
 		}
 	}
@@ -42,7 +49,7 @@ public interface EvePane {
 
 	/** do not override this */
 	public default void propagateDelAPI(int key) {
-		for (EvePane p : children()) {
+		for (EvePane p : subEvePanes()) {
 			p.propagateDelAPI(key);
 		}
 		onDelAPI(key);
@@ -57,7 +64,7 @@ public interface EvePane {
 	/** do not override this */
 	public default void propagateNewTeam(String name) {
 		onNewTeam(name);
-		for (EvePane p : children()) {
+		for (EvePane p : subEvePanes()) {
 			p.propagateNewTeam(name);
 		}
 	}
@@ -68,7 +75,7 @@ public interface EvePane {
 
 	/** do not override this */
 	public default void propagateDelTeam(String name) {
-		for (EvePane p : children()) {
+		for (EvePane p : subEvePanes()) {
 			p.propagateDelTeam(name);
 		}
 		onDelTeam(name);
@@ -81,7 +88,7 @@ public interface EvePane {
 	/** do not override this */
 	public default void propagateAdd2Team(String team, String character) {
 		onAdd2Team(team, character);
-		for (EvePane p : children()) {
+		for (EvePane p : subEvePanes()) {
 			p.propagateAdd2Team(team, character);
 		}
 	}
@@ -92,7 +99,7 @@ public interface EvePane {
 
 	/** do not override this */
 	public default void propagateDel2Team(String team, String character) {
-		for (EvePane p : children()) {
+		for (EvePane p : subEvePanes()) {
 			p.propagateDel2Team(team, character);
 		}
 		onDel2Team(team, character);
@@ -103,13 +110,33 @@ public interface EvePane {
 	}
 
 	public default void propagateFocusedTeam(String teamName) {
-		for (EvePane p : children()) {
+		for (EvePane p : subEvePanes()) {
 			p.propagateFocusedTeam(teamName);
 		}
 		onFocusedTeam(teamName);
 	}
 
 	public default void onFocusedTeam(String teamName) {
+	}
+
+	// provision
+
+	public default void propagateNewProvision(int itemID, int qtty) {
+		for (EvePane p : subEvePanes()) {
+			p.propagateNewProvision(itemID, qtty);
+		}
+		onNewProvision(itemID, qtty);
+	}
+
+	/**
+	 * override this to handle when an item provision is modified. This is called
+	 * before the value is set in the settings, so the settings still hold the old
+	 * value.
+	 *
+	 * @param itemID
+	 * @param qtty
+	 */
+	public default void onNewProvision(int itemID, int qtty) {
 	}
 
 }

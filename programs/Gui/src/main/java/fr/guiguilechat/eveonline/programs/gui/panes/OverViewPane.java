@@ -9,10 +9,13 @@ import fr.guiguilechat.eveonline.database.apiv2.Char;
 import fr.guiguilechat.eveonline.database.apiv2.Char.JobEntry;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import javafx.beans.property.ReadOnlyObjectWrapper;
+import javafx.scene.control.CheckBox;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableColumn.SortType;
 import javafx.scene.control.TableRow;
 import javafx.scene.control.TableView;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 
 /**
@@ -25,6 +28,17 @@ public class OverViewPane extends VBox implements EvePane {
 	@Override
 	public Manager parent() {
 		return parent;
+	}
+
+	protected SelectTeamPane selectTeamPane;
+	protected CheckBox showJobBox;
+	protected CheckBox showProvisionsBox;
+
+	protected EvePane[] children;
+
+	@Override
+	public EvePane[] subEvePanes() {
+		return children;
 	}
 
 	public static class EventData {
@@ -53,15 +67,32 @@ public class OverViewPane extends VBox implements EvePane {
 			EventData o = (EventData) obj;
 			return time.equals(o.time) && type.equals(o.type) && description.equals(o.description) && where.equals(o.where)
 					&& who.equals(o.who);
+		}
 
+		public boolean isIndustryJob() {
+			return Char.activityNamesSet.contains(type);
 		}
 	}
 
 	TableView<EventData> tvEvents = new TableView<>();
 
+	protected boolean showJobs = false;
+
+	protected boolean showProvisions = false;
+
 	public OverViewPane(Manager parent) {
 		this.parent = parent;
-		getChildren().addAll(parent.selectTeamPane, tvEvents);
+		HBox menubox = new HBox(10.0);
+		selectTeamPane = new SelectTeamPane(parent);
+		showJobBox = new CheckBox("show jobs");
+		showJobBox.setAllowIndeterminate(false);
+		showJobBox.setOnAction(e -> changeShowBox());
+		showProvisionsBox = new CheckBox("show provisions");
+		showProvisionsBox.setAllowIndeterminate(false);
+		showProvisionsBox.setOnAction(e -> changeShowProvision());
+		menubox.getChildren().addAll(selectTeamPane, new Label(" "), showJobBox, new Label(" "), showProvisionsBox);
+		children = new EvePane[] { selectTeamPane };
+		getChildren().addAll(menubox, tvEvents);
 
 		TableColumn<EventData, Date> dateCol = new TableColumn<>("time");
 		dateCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().time));
@@ -135,6 +166,12 @@ public class OverViewPane extends VBox implements EvePane {
 	}
 
 	protected void addCharInfo(Character c, APIRoot api) {
+		if (showJobs) {
+			addCharJobs(c, api);
+		}
+	}
+
+	protected void addCharJobs(Character c, APIRoot api) {
 		for (JobEntry e : api.chars.industryJobs(c.characterID)) {
 			EventData ed = new EventData();
 			ed.time = e.endDate;
@@ -144,6 +181,10 @@ public class OverViewPane extends VBox implements EvePane {
 			ed.who = c.name;
 			tvEvents.getItems().add(ed);
 		}
+	}
+
+	protected void addTeamProvisions() {
+
 	}
 
 	@Override
@@ -158,6 +199,34 @@ public class OverViewPane extends VBox implements EvePane {
 			}
 		}
 		tvEvents.sort();
+	}
+
+	protected void changeShowBox() {
+		if (showJobBox.isSelected()) {
+			showJobs = true;
+			for (APIRoot api : parent().apis) {
+				for (Character c : api.account.characters()) {
+					if (parent.getTeamCharacters().contains(c.name)) {
+						addCharJobs(c, api);
+					}
+				}
+			}
+			tvEvents.sort();
+		} else {
+			showJobs = false;
+			tvEvents.getItems().removeIf(EventData::isIndustryJob);
+		}
+	}
+
+	protected void changeShowProvision() {
+		if (showProvisionsBox.isSelected()) {
+			showProvisions = true;
+			addTeamProvisions();
+			tvEvents.sort();
+		} else {
+			showProvisions = false;
+			tvEvents.getItems().removeIf(ed -> ed.type.equals("provision"));
+		}
 	}
 
 }
