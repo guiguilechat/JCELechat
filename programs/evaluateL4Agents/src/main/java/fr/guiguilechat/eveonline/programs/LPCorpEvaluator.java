@@ -163,7 +163,7 @@ public class LPCorpEvaluator {
 	 *          the market for BO/SO
 	 * @param minimumIskPerLP
 	 *          the minimum isk per LP to consider this offer.
-	 * @return a new offernaalysis which contains the data analysis. return null
+	 * @return a new offer analysis which contains the data analysis. return null
 	 *         if the order interest is < minimumIskPerLP
 	 */
 	public OfferAnalysis analyse(LPOffer o, ESIMarket market, double minimumIskPerLP) {

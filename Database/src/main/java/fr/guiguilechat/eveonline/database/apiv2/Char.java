@@ -2,8 +2,12 @@ package fr.guiguilechat.eveonline.database.apiv2;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.Set;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -150,16 +154,24 @@ public class Char {
 		public int successfulRuns;
 	}
 
+	public static final String ACTIVITY_PROD = "prod";
+	public static final String ACTIVITY_TE = "TE";
+	public static final String ACTIVITY_ME = "ME";
+	public static final String ACTIVITY_COPY = "CP";
+
+	public static final Set<String> activityNamesSet = Collections
+			.unmodifiableSet(new HashSet<>(Arrays.asList(ACTIVITY_PROD, ACTIVITY_TE, ACTIVITY_ME, ACTIVITY_COPY)));
+
 	public static String activityName(long actividyID) {
 		switch ((int) actividyID) {
 		case 1:
-			return "prod";
+			return ACTIVITY_PROD;
 		case 3:
-			return "TE";
+			return ACTIVITY_TE;
 		case 4:
-			return "ME";
+			return ACTIVITY_ME;
 		case 5:
-			return "CP";
+			return ACTIVITY_COPY;
 		default:
 			return "unknown" + actividyID;
 		}
