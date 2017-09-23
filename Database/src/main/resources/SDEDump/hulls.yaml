@@ -9223,22 +9223,28 @@ hulls:
     volume: 112000.0
   Tengu:
     attributes:
-      agility: 0.3100000023841858
-      capacitor: 100.0
-      capacitorTime: 10.0
-      mass: 8201000
-      maxTargets: 5
+      agility: 0.5199999809265137
+      capacitor: 1400.0
+      capacitorTime: 350.0
+      cpu: 310
+      mass: 14400000
+      maxTargets: 6
+      powergrid: 420
       rigCalibration: 400
       rigSize: medium
       rigSlots: 3
-      scanStr: 10
+      scanRes: 210
+      scanStr: 20
       scanType: Gravimetric
-      velocity: 10
+      targetRange: 75000
+      velocity: 170
       volume: 92000
       warpSpeed: 3.0
     catName: Ship
     effects:
+    - probeLauncherCPUPercentRoleBonusT3
     - shipBonusStrategicCruiserCaldariHeatDamage
+    - shipBonusStrategicCruiserCaldariNaniteRepairTime2
     groupName: Strategic Cruiser
     id: 29984
     metaLvl: 5
@@ -9246,22 +9252,28 @@ hulls:
     volume: 92000.0
   Legion:
     attributes:
-      agility: 0.4099999964237213
-      capacitor: 100.0
-      capacitorTime: 10.0
-      mass: 6815000
-      maxTargets: 5
+      agility: 0.5199999809265137
+      capacitor: 1800.0
+      capacitorTime: 450.0
+      cpu: 220
+      mass: 14500000
+      maxTargets: 6
+      powergrid: 700
       rigCalibration: 400
       rigSize: medium
       rigSlots: 3
-      scanStr: 10
+      scanRes: 230
+      scanStr: 17
       scanType: RADAR
-      velocity: 10
+      targetRange: 70000
+      velocity: 185
       volume: 118000
       warpSpeed: 3.0
     catName: Ship
     effects:
+    - probeLauncherCPUPercentRoleBonusT3
     - shipBonusStrategicCruiserAmarrHeatDamage
+    - shipBonusStrategicCruiserAmarrNaniteRepairTime2
     groupName: Strategic Cruiser
     id: 29986
     metaLvl: 5
@@ -9269,22 +9281,28 @@ hulls:
     volume: 118000.0
   Proteus:
     attributes:
-      agility: 0.4399999976158142
-      capacitor: 100.0
-      capacitorTime: 10.0
-      mass: 5341000
-      maxTargets: 5
+      agility: 0.5600000023841858
+      capacitor: 1500.0
+      capacitorTime: 375.0
+      cpu: 230
+      mass: 13300000
+      maxTargets: 6
+      powergrid: 680
       rigCalibration: 400
       rigSize: medium
       rigSlots: 3
-      scanStr: 10
+      scanRes: 230
+      scanStr: 19
       scanType: Magnetometric
-      velocity: 10
+      targetRange: 70000
+      velocity: 180
       volume: 115000
       warpSpeed: 3.0
     catName: Ship
     effects:
+    - probeLauncherCPUPercentRoleBonusT3
     - shipBonusStrategicCruiserGallenteHeatDamage
+    - shipBonusStrategicCruiserGallenteNaniteRepairTime2
     groupName: Strategic Cruiser
     id: 29988
     metaLvl: 5
@@ -9292,22 +9310,28 @@ hulls:
     volume: 115000.0
   Loki:
     attributes:
-      agility: 0.3499999940395355
-      capacitor: 100.0
-      capacitorTime: 10.0
-      mass: 6540000
-      maxTargets: 5
+      agility: 0.5400000214576721
+      capacitor: 1300.0
+      capacitorTime: 325.0
+      cpu: 300
+      mass: 13800000
+      maxTargets: 6
+      powergrid: 670
       rigCalibration: 400
       rigSize: medium
       rigSlots: 3
-      scanStr: 10
+      scanRes: 240
+      scanStr: 17
       scanType: LADAR
-      velocity: 10
+      targetRange: 65000
+      velocity: 185
       volume: 80000
       warpSpeed: 3.0
     catName: Ship
     effects:
+    - probeLauncherCPUPercentRoleBonusT3
     - shipBonusStrategicCruiserMinmatarHeatDamage
+    - shipBonusStrategicCruiserMinmatarNaniteRepairTime2
     groupName: Strategic Cruiser
     id: 29990
     metaLvl: 5
@@ -10691,7 +10715,7 @@ hulls:
     - shipSETDamageAmarrTacticalDestroyer1
     - shipSETCapNeedAmarrTacticalDestroyer2
     - shipHeatDamageAmarrTacticalDestroyer3
-    - probeLauncherCPUPercentBonusTacticalDestroyer
+    - probeLauncherCPUPercentRoleBonusT3
     - shipBonusSmallEnergyTurretDamagePirateFaction
     groupName: Tactical Destroyer
     id: 34317
@@ -10779,7 +10803,7 @@ hulls:
     - shipSPTDamageMinmatarTacticalDestroyer1
     - shipSPTOptimalMinmatarTacticalDestroyer2
     - shipBonusPirateFrigateProjDamage
-    - probeLauncherCPUPercentBonusTacticalDestroyer
+    - probeLauncherCPUPercentRoleBonusT3
     groupName: Tactical Destroyer
     id: 34562
     metaLvl: 5
@@ -10843,7 +10867,7 @@ hulls:
     - shipMissileReloadTimeCaldariTacticalDestroyer2
     - shipSmallMissileDmgPirateFaction
     - shipMissileRoFCaldariTacticalDestroyer1
-    - probeLauncherCPUPercentBonusTacticalDestroyer
+    - probeLauncherCPUPercentRoleBonusT3
     - shipHeatDamageCaldariTacticalDestroyer3
     groupName: Tactical Destroyer
     id: 34828
@@ -10879,7 +10903,7 @@ hulls:
     - shipHeatDamageGallenteTacticalDestroyer3
     - shipSHTRoFGallenteTacticalDestroyer1
     - shipSHTTrackingGallenteTacticalDestroyer2
-    - probeLauncherCPUPercentBonusTacticalDestroyer
+    - probeLauncherCPUPercentRoleBonusT3
     groupName: Tactical Destroyer
     id: 35683
     metaLvl: 5
@@ -12155,3 +12179,21 @@ hulls:
     metaLvl: 5
     name: Enforcer
     volume: 100000.0
+  Virtuoso:
+    attributes:
+      mass: 1410000
+      volume: 28100
+    catName: Ship
+    groupName: Stealth Bomber
+    id: 45530
+    name: Virtuoso
+    volume: 28100.0
+  Victor:
+    attributes:
+      mass: 11650000
+      volume: 116000
+    catName: Ship
+    groupName: Force Recon Ship
+    id: 45531
+    name: Victor
+    volume: 116000.0

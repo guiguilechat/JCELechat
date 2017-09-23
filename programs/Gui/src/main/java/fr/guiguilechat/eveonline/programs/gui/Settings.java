@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 
-import fr.guiguilechat.eveonline.programs.settings.ASettings;
+import fr.guiguilechat.eveonline.programs.settings.ISettings;
 
-public class Settings extends ASettings {
+public class Settings implements ISettings {
 
 	@Override
 	public String getAppName() {
@@ -25,8 +25,10 @@ public class Settings extends ASettings {
 
 		public HashMap<Integer, Integer> total = new HashMap<>();
 
+		public HashMap<Integer, Integer> lpoffers = new HashMap<>();
+
 	}
 
-	public Provision provision = new Provision();
+	public HashMap<String, Provision> provisions = new HashMap<>();
 
 }

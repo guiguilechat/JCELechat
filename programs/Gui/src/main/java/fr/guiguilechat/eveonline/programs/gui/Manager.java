@@ -10,12 +10,16 @@ import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
+import fr.guiguilechat.eveonline.database.yaml.LPOffer;
+import fr.guiguilechat.eveonline.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.programs.gui.Settings.Provision;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.MenuPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.OptionPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.OverViewPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.ProvisionPane;
+import fr.guiguilechat.eveonline.programs.settings.ISettings;
 import javafx.application.Application;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.collections.FXCollections;
@@ -37,7 +41,7 @@ public class Manager extends Application implements EvePane {
 		return this;
 	}
 
-	public Settings settings = Settings.load(Settings.class);
+	public Settings settings = ISettings.load(Settings.class);
 
 	public final ObservableList<APIRoot> apis = FXCollections.observableArrayList();
 
@@ -195,12 +199,43 @@ public class Manager extends Application implements EvePane {
 
 	// provision
 
+	/** get the provision of the focused team. */
+	public Provision getProvision() {
+		Provision ret = settings.provisions.get(settings.focusedTeam);
+		if (ret == null) {
+			ret = new Provision();
+			settings.provisions.put(settings.focusedTeam, ret);
+		}
+		return ret;
+	}
+
 	public void provision(HashMap<Integer, Integer> items) {
 		debug("provision " + items);
 		for (Entry<Integer, Integer> e : items.entrySet()) {
 			propagateNewProvision(e.getKey(), e.getValue());
-			settings.provision.total.put(e.getKey(),
-					Math.max(0, settings.provision.total.getOrDefault(e.getKey(), 0) + e.getValue()));
+			getProvision().total.put(e.getKey(),
+					Math.max(0, getProvision().total.getOrDefault(e.getKey(), 0) + e.getValue()));
+		}
+		settings.store();
+	}
+
+	/** set the requirement in lp offer to given value for the focused team */
+	public void provisionLPOffer(LPOffer offer, int requirement) {
+		Provision p = getProvision();
+		int diff = requirement - p.lpoffers.getOrDefault(offer.id, 0);
+		if (requirement <= 0) {
+			p.lpoffers.remove(offer.id);
+		} else {
+			p.lpoffers.put(offer.id, requirement);
+		}
+		for (ItemRef e : offer.requirements.items) {
+			int newQtty = p.total.getOrDefault(e.type_id, 0) + e.quantity * diff;
+			propagateNewProvision(e.type_id, newQtty);
+			if (newQtty > 0) {
+				p.total.put(e.type_id, newQtty);
+			} else {
+				p.total.remove(e.type_id);
+			}
 		}
 		settings.store();
 	}

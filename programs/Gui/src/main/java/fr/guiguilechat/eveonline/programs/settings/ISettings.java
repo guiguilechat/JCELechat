@@ -18,14 +18,14 @@ import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
  * </p>
  *
  */
-public abstract class ASettings {
+public interface ISettings {
 
 	/**
 	 *
 	 * @return the name of the application, defaults to
 	 *         this.getClass().getcannonicalName()
 	 */
-	public String getAppName() {
+	public default String getAppName() {
 		return getClass().getCanonicalName();
 	}
 
@@ -33,7 +33,7 @@ public abstract class ASettings {
 	 *
 	 * @return the directory to store this in.
 	 */
-	public File getStorageDir() {
+	public default File getStorageDir() {
 		String folderName = System.getenv("LOCALAPPDATA");
 		if (folderName != null) {
 			return new File(folderName);
@@ -45,14 +45,25 @@ public abstract class ASettings {
 	 *
 	 * @return the file used to store this
 	 */
-	public File getFile() {
+	public default File getFile() {
+		if (useTempDir()) {
+			try {
+				return new File(File.createTempFile("___", null).getParentFile(), getAppName() + "_settings.yml");
+			} catch (IOException e) {
+				throw new UnsupportedOperationException("catch this", e);
+			}
+		}
 		return new File(getStorageDir(), "settings.yml");
+	}
+
+	public default boolean useTempDir() {
+		return false;
 	}
 
 	/**
 	 * store this settings locally, overriding previous stored settings
 	 */
-	public void store() {
+	public default void store() {
 		File f = getFile();
 		f.getParentFile().mkdirs();
 		try {
@@ -62,7 +73,7 @@ public abstract class ASettings {
 		}
 	}
 
-	public void erase() {
+	public default void erase() {
 		File f = getFile();
 		if (f.exists()) {
 			f.delete();
@@ -75,7 +86,7 @@ public abstract class ASettings {
 	 * @return
 	 * @throws FileNotFoundException
 	 */
-	public static <T extends ASettings> T load(Class<T> clazz) {
+	public static <T extends ISettings> T load(Class<T> clazz) {
 		T inst = null;
 		try {
 			inst = clazz.newInstance();
@@ -100,45 +111,6 @@ public abstract class ASettings {
 	public static Yaml makeYaml() {
 		Yaml ret = new Yaml(YamlDatabase.makeRepresenter(), YamlDatabase.makeOptions());
 		return ret;
-	}
-
-	public class DelaySaver {
-
-		public DelaySaver() {
-			new Thread(this::saveLoop).start();
-		}
-
-		public final long SAVE_DELAY_MS = 5000;
-
-		/**
-		 * request a save to be done after a delay. if another save request is
-		 * performed before that delay, the save is delayed.
-		 */
-		public void requestSave() {
-			nextSave = System.currentTimeMillis() +SAVE_DELAY_MS;
-			lock.notify();
-		}
-
-		protected void saveLoop() {
-			while (true) {
-				synchronized (lock) {
-					try {
-						lock.wait(nextSave - System.currentTimeMillis());
-					} catch (InterruptedException e) {
-						throw new UnsupportedOperationException("catch this", e);
-					}
-				}
-				if (nextSave <= System.currentTimeMillis()) {
-					store();
-					nextSave = Long.MAX_VALUE;
-				}
-			}
-		}
-
-		protected Object lock = new Object();
-
-		protected long nextSave = Long.MAX_VALUE;
-
 	}
 
 }

@@ -6,6 +6,7 @@ import java.util.HashMap;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectReader;
 
 public class ESIUniverse {
 
@@ -30,6 +31,8 @@ public class ESIUniverse {
 
 	protected HashMap<Integer, Station> cachedStations = new HashMap<>();
 
+	private final ObjectReader stationReader = om.readerFor(Station.class);
+
 	public Station getStation(int id) {
 		if (id / 10000000 == 3) {
 			return null;
@@ -37,7 +40,7 @@ public class ESIUniverse {
 		Station ret = cachedStations.get(id);
 		if (ret == null && !cachedStations.containsKey(id)) {
 			try {
-				ret = om.readValue(new URL(stationURL + id), Station.class);
+				ret = stationReader.readValue(new URL(stationURL + id));
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -64,11 +67,13 @@ public class ESIUniverse {
 
 	protected HashMap<Integer, Systems> cachedSystems = new HashMap<>();
 
+	private final ObjectReader systemsReader = om.readerFor(Systems.class);
+
 	public Systems getSystem(int id) {
 		Systems ret = cachedSystems.get(id);
 		if (ret == null && !cachedSystems.containsKey(id)) {
 			try {
-				ret = om.readValue(new URL(systemURL + id), Systems.class);
+				ret = systemsReader.readValue(new URL(systemURL + id));
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

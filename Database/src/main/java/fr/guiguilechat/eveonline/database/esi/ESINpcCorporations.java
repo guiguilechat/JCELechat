@@ -9,6 +9,7 @@ import java.util.Map.Entry;
 import java.util.stream.IntStream;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectReader;
 
 public class ESINpcCorporations {
 
@@ -27,13 +28,14 @@ public class ESINpcCorporations {
 	private final String CORPORATIONS_LIST_URL = "https://esi.tech.ccp.is/latest/corporations/npccorps";
 
 	private final ObjectMapper om = new ObjectMapper();
+	private final ObjectReader intArrReader = om.readerFor(int[].class);
 
 	int[] ids = null;
 
 	public int[] getIDs() {
 		if (ids == null) {
 			try {
-				ids = om.readValue(new URL(CORPORATIONS_LIST_URL), int[].class);
+				ids = intArrReader.readValue(new URL(CORPORATIONS_LIST_URL));
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -44,15 +46,14 @@ public class ESINpcCorporations {
 
 	private final String CORPORATIONS_DETAIL_URL = "https://esi.tech.ccp.is/latest/corporations/";
 
-	private LinkedHashMap<Integer, Corporation> cachedCorpos = null;
+	private final LinkedHashMap<Integer, Corporation> cachedCorpos = new LinkedHashMap<>();
 
 	/** set to true when all corporations are loaded */
 	private boolean fullLoad = false;
 
 	public LinkedHashMap<Integer, Corporation> getCorpos() {
 		// first case : we loaded NO corporation. load all.
-		if (cachedCorpos == null) {
-			cachedCorpos = new LinkedHashMap<>();
+		if (cachedCorpos.isEmpty()) {
 			Map<Integer, Corporation> syncCache = Collections.synchronizedMap(cachedCorpos);
 			IntStream.of(getIDs()).parallel().forEach(i -> syncCache.put(i, loadCorporation(i)));
 			fullLoad = true;
@@ -75,9 +76,6 @@ public class ESINpcCorporations {
 	 * @return the cached data. if not in cache, cache it.
 	 */
 	public Corporation getCorpo(int id) {
-		if (cachedCorpos == null) {
-			cachedCorpos = new LinkedHashMap<>();
-		}
 		Corporation corpo = cachedCorpos.get(id);
 		if (corpo == null) {
 			corpo = loadCorporation(id);
@@ -86,10 +84,12 @@ public class ESINpcCorporations {
 		return corpo;
 	}
 
+	private final ObjectReader corpReader = om.readerFor(Corporation.class);
+
 	protected Corporation loadCorporation(int id) {
 		Corporation ret = null;
 		try {
-			ret = om.readValue(new URL(CORPORATIONS_DETAIL_URL + id), Corporation.class);
+			ret = corpReader.readValue(new URL(CORPORATIONS_DETAIL_URL + id));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

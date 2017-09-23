@@ -6,6 +6,8 @@ import java.util.LinkedHashSet;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import fr.guiguilechat.eveonline.programs.settings.ISettings;
+
 public class SettingsTest {
 
 	public static class SettingsTests extends Settings {
@@ -22,7 +24,7 @@ public class SettingsTest {
 		sets1.teams.put("group1", new LinkedHashSet<>(Arrays.asList("toon1", "alt2")));
 		sets1.store();
 		SettingsTests sets2 = null;
-		sets2 = Settings.load(SettingsTests.class);
+		sets2 = ISettings.load(SettingsTests.class);
 		Assert.assertEquals(sets2.apiKeys.get(123), "bbb");
 		Assert.assertTrue(sets2.teams.get("group1").contains("toon1"));
 	}

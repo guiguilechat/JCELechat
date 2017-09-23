@@ -118941,7 +118941,7 @@ modules:
       doomsdayAOEShape: 1.0
       doomsdayRangeIsFixed: 1.0
     volume: 8000.0
-  ‘Geiravor’ Explosive Lance:
+  ���Geiravor’ Explosive Lance:
     attributes:
       cpu: 100
       powergrid: 100000
@@ -118953,7 +118953,7 @@ modules:
     - hiPower
     groupName: Super Weapon
     id: 41441
-    name: ‘Geiravor’ Explosive Lance
+    name: ���Geiravor’ Explosive Lance
     rawAttributes:
       capacitorNeed: 31000.0
       maxGroupFitted: 1.0

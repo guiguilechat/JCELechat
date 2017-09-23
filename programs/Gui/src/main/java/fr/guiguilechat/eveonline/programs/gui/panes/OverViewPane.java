@@ -190,10 +190,10 @@ public class OverViewPane extends VBox implements EvePane {
 	@Override
 	public void onFocusedTeam(String teamName) {
 		tvEvents.getItems().clear();
-		LinkedHashSet<String> allowed = parent.getTeamCharacters();
+		LinkedHashSet<String> allowedCharacters = parent.getTeamCharacters();
 		for (APIRoot api : parent.apis) {
 			for (Character c : api.account.characters()) {
-				if (allowed.contains(c.name)) {
+				if (allowedCharacters.contains(c.name)) {
 					addCharInfo(c, api);
 				}
 			}

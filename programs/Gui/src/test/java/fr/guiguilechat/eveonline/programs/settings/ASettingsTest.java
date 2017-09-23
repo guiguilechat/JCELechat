@@ -7,12 +7,15 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.yaml.snakeyaml.Yaml;
 
-import fr.guiguilechat.eveonline.programs.settings.ASettings;
-
 public class ASettingsTest {
 
-	public static class FalseSettings extends ASettings {
+	public static class FalseSettings implements ISettings {
 		public String a = "bla";
+
+		@Override
+		public boolean useTempDir() {
+			return true;
+		}
 	}
 
 	@Test
@@ -24,12 +27,12 @@ public class ASettingsTest {
 		fs1.store();
 		fs2 = new Yaml().loadAs(new FileReader(fs1.getFile()), FalseSettings.class);
 		Assert.assertEquals(fs2.a, "bbb");
-		fs2 = ASettings.makeYaml().loadAs(new FileReader(fs1.getFile()), FalseSettings.class);
+		fs2 = ISettings.makeYaml().loadAs(new FileReader(fs1.getFile()), FalseSettings.class);
 		Assert.assertEquals(fs2.a, "bbb");
-		fs2 = ASettings.load(FalseSettings.class);
+		fs2 = ISettings.load(FalseSettings.class);
 		Assert.assertEquals(fs2.a, "bbb");
 		fs2.erase();
-		fs2 = ASettings.load(FalseSettings.class);
+		fs2 = ISettings.load(FalseSettings.class);
 		Assert.assertEquals(fs2.a, "bla");
 	}
 

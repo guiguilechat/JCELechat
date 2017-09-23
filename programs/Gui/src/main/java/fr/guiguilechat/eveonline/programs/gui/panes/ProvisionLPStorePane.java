@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.eveonline.database.yaml.LPOffer;
-import fr.guiguilechat.eveonline.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.Button;
@@ -123,7 +122,8 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		}
 		OfferRow ret = new OfferRow();
 		ret.offer = offer;
-		ret.nb_field = new TextField("1");
+		int provision_nb = parent().getProvision().lpoffers.getOrDefault(offer.id, 0);
+		ret.nb_field = new TextField("" + provision_nb);
 		ret.bt_send = new Button("provision");
 		ret.bt_send.setOnAction(ev -> provision(ret, ret.nb_field.getText()));
 		cacherows.put(offer, ret);
@@ -132,13 +132,7 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 
 	public void provision(OfferRow row, String nb_text) {
 		int nb_provision = Integer.parseInt(nb_text);
-		HashMap<Integer, Integer> totalreq = new HashMap<>();
-		for (ItemRef e : row.offer.requirements.items) {
-			int req = totalreq.getOrDefault(e.type_id, 0) + e.quantity * nb_provision;
-			totalreq.put(e.type_id, req);
-		}
-		parent().provision(totalreq);
-		row.nb_field.setText("1");
+		parent().provisionLPOffer(row.offer, nb_provision);
 	}
 
 }
