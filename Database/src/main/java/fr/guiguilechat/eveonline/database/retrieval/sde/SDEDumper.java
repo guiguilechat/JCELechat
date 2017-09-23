@@ -89,6 +89,8 @@ public class SDEDumper {
 
 	public static void main(String[] args) throws IOException {
 		DatabaseFile db = loadDb();
+
+		logger.debug("db loaded, writting it");
 		DB_DIR.mkdirs();
 
 		DatabaseFile dbModules = new DatabaseFile();
@@ -96,15 +98,18 @@ public class SDEDumper {
 		db.modules = new LinkedHashMap<>();
 		YamlDatabase.write(dbModules, DB_MODULES_FILE);
 
+
 		DatabaseFile dbAsteroids = new DatabaseFile();
 		dbAsteroids.asteroids = db.asteroids;
 		db.asteroids = new LinkedHashMap<>();
 		YamlDatabase.write(dbAsteroids, DB_ASTEROIDS_FILE);
 
+
 		DatabaseFile dbBlueprints = new DatabaseFile();
 		dbBlueprints.blueprints = db.blueprints;
 		db.blueprints = new LinkedHashMap<>();
 		YamlDatabase.write(dbBlueprints, DB_BLUEPRINT_FILE);
+
 
 		DatabaseFile dbMetaInfs = new DatabaseFile();
 		dbMetaInfs.metaInfs = db.metaInfs;
@@ -687,6 +692,7 @@ public class SDEDumper {
 				lpo.requirements.isk += o.isk_cost;
 				lpo.requirements.lp += o.lp_cost;
 				lpo.offer_name = sde.getType(o.type_id).enName();
+				lpo.id = o.offer_id;
 
 				for (ItemReq ir : o.required_items) {
 					ItemRef translated = new ItemRef();
@@ -733,16 +739,18 @@ public class SDEDumper {
 
 	public static void loadAgents(SDEData sde, DatabaseFile db, ESINpcCorporations corps, ESICharacter chars,
 			ESIUniverse uni) {
+		LinkedHashMap<Integer, Corporation> mycorps = corps.getCorpos();
 		ArrayList<EagtAgents> sdeAgents = sde.getAgents();
 		HashMap<Integer, String> agtTypes = sde.getAgentTypes();
 		HashMap<Integer, String> crpDivisions = sde.getNPCDivisions();
 		Map<Integer, String> names = chars.getNames(sdeAgents.stream().mapToInt(a -> a.agentID).toArray());
 
+
 		sdeAgents.parallelStream().map(ea -> {
 			Agent ag = new Agent();
 			ag.agentID = ea.agentID;
 			ag.name = names.get(ag.agentID);
-			Corporation corp = corps.getCorpo(ea.corporationID);
+			Corporation corp = mycorps.get(ea.corporationID);
 			ag.corporation = corp.corporation_name;
 			ag.faction = corp.faction;
 			ag.isLocator = ea.isLocator;

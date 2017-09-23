@@ -25,5 +25,6 @@ public class LPOffer {
 
 	public String corporation;
 	public String offer_name;
+	public int id;
 
 }

@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectReader;
 
 public class ESILoyalty {
 
@@ -31,6 +32,7 @@ public class ESILoyalty {
 	}
 
 	private ObjectMapper om = new ObjectMapper();
+	private ObjectReader offerArrayReader = om.readerFor(Offer[].class);
 
 	private final HashMap<Integer, Offer[]> cache = new HashMap<>();
 
@@ -38,10 +40,10 @@ public class ESILoyalty {
 		Offer[] ret = cache.get(id);
 		if (ret == null) {
 			try {
-				ret = om.readValue(new URL(baseURL + id + "/offers/"),
-						Offer[].class);
+				ret = offerArrayReader.readValue(new URL(baseURL + id + "/offers/"));
 			} catch (IOException e) {
 				logger.debug("can't get LP store for id " + id);
+				ret = new Offer[] {};
 			}
 			cache.put(id, ret);
 		}

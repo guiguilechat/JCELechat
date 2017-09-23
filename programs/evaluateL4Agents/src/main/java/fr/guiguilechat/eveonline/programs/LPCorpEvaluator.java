@@ -123,8 +123,6 @@ public class LPCorpEvaluator {
 
 	public static void main(String[] args) {
 		LPCorpEvaluator eval = new LPCorpEvaluator();
-		int streamthreads = Runtime.getRuntime().availableProcessors() * 100;
-		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + streamthreads);
 
 		LinkedHashMap<String, ESIMarket> markets = new LinkedHashMap<>();
 		markets.put("Jita", new ESIMarket(10000002));

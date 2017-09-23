@@ -1177,7 +1177,7 @@ metaInfs:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -1241,6 +1241,8 @@ metaInfs:
     - Standup Supercapital Shipyard I Blueprint
     - Defender Launcher I Blueprint
     - Focused Warp Scrambling Script Blueprint
+    - Pacifier Blueprint
+    - Enforcer Blueprint
     volume: 0.01
   Pyerite:
     id: 35
@@ -2343,7 +2345,7 @@ metaInfs:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -2390,6 +2392,8 @@ metaInfs:
     - Vadari's Custom Gyrostabilizer Blueprint
     - Tahron's Custom Heat Sink Blueprint
     - Focused Warp Scrambling Script Blueprint
+    - Pacifier Blueprint
+    - Enforcer Blueprint
     volume: 0.01
   Mexallon:
     id: 36
@@ -3316,7 +3320,7 @@ metaInfs:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -3360,6 +3364,8 @@ metaInfs:
     - Standup Research Lab I Blueprint
     - Standup Supercapital Shipyard I Blueprint
     - Defender Launcher I Blueprint
+    - Pacifier Blueprint
+    - Enforcer Blueprint
     volume: 0.01
   Isogen:
     id: 37
@@ -4198,7 +4204,7 @@ metaInfs:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -4264,6 +4270,8 @@ metaInfs:
     - Harvester Mining Drone Blueprint
     - Defender Launcher I Blueprint
     - Focused Warp Scrambling Script Blueprint
+    - Pacifier Blueprint
+    - Enforcer Blueprint
     volume: 0.01
   Nocxium:
     id: 38
@@ -5025,7 +5033,7 @@ metaInfs:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -5081,6 +5089,8 @@ metaInfs:
     - Vadari's Custom Gyrostabilizer Blueprint
     - Tahron's Custom Heat Sink Blueprint
     - Focused Warp Scrambling Script Blueprint
+    - Pacifier Blueprint
+    - Enforcer Blueprint
     volume: 0.01
   Zydrine:
     id: 39
@@ -5717,7 +5727,7 @@ metaInfs:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -5768,6 +5778,8 @@ metaInfs:
     - Vadari's Custom Gyrostabilizer Blueprint
     - Tahron's Custom Heat Sink Blueprint
     - Focused Warp Scrambling Script Blueprint
+    - Pacifier Blueprint
+    - Enforcer Blueprint
     volume: 0.01
   Megacyte:
     id: 40
@@ -6492,7 +6504,7 @@ metaInfs:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -6543,6 +6555,8 @@ metaInfs:
     - Harvester Mining Drone Blueprint
     - Defender Launcher I Blueprint
     - Focused Warp Scrambling Script Blueprint
+    - Pacifier Blueprint
+    - Enforcer Blueprint
     volume: 0.01
   Garbage:
     id: 41
@@ -7673,6 +7687,7 @@ metaInfs:
     productIn:
     - Nemesis Blueprint
     - Tristan Quafe Edition Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Tristan Blueprint
     volume: 26500.0
@@ -7881,6 +7896,7 @@ metaInfs:
     productIn:
     - Arazu Blueprint
     - Lachesis Blueprint
+    - Victor Blueprint
     productOf:
     - Celestis Blueprint
     volume: 116000.0
@@ -7929,7 +7945,7 @@ metaInfs:
     - Megathron Quafe Edition Blueprint
     - Megathron Police Edition Blueprint
     - Megathron Inner Zone Shipping Edition Blueprint
-    - 万王宝座级YC117年特别版蓝图
+    - 万王宝���级YC117年特别版蓝图
     productOf:
     - Megathron Blueprint
     volume: 486000.0
@@ -15540,7 +15556,7 @@ metaInfs:
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
@@ -16947,8 +16963,8 @@ metaInfs:
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
@@ -17087,6 +17103,10 @@ metaInfs:
     - Capital Emergency Hull Energizer II Blueprint
     - Rabisu Blueprint
     - Caedes Blueprint
+    - Pacifier Blueprint
+    - Enforcer Blueprint
+    - Victor Blueprint
+    - Virtuoso Blueprint
     volume: 1.5
   Medium Shield Extender I:
     id: 3829
@@ -21072,8 +21092,8 @@ metaInfs:
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
@@ -22341,6 +22361,7 @@ metaInfs:
     id: 11377
     productOf:
     - Nemesis Blueprint
+    - Virtuoso Blueprint
     volume: 28100.0
   Nemesis Blueprint:
     id: 11378
@@ -22951,6 +22972,10 @@ metaInfs:
     - Ice Harvesting Drone II Blueprint
     - '''Excavator'' Mining Drone Blueprint'
     - '''Excavator'' Ice Harvesting Drone Blueprint'
+    - Pacifier Blueprint
+    - Enforcer Blueprint
+    - Victor Blueprint
+    - Virtuoso Blueprint
     volume: 0.01
   Jaguar:
     id: 11400
@@ -24896,9 +24921,9 @@ metaInfs:
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
@@ -25479,6 +25504,8 @@ metaInfs:
     - Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - R.A.M.- Starship Tech Blueprint
     volume: 0.04
@@ -25554,7 +25581,7 @@ metaInfs:
     - Standup M-Set Ammunition Manufacturing Time Efficiency II Blueprint
     - Standup M-Set Drone and Fighter Manufacturing Material Efficiency II Blueprint
     - Standup M-Set Drone and Fighter Manufacturing Time Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     productOf:
     - R.A.M.- Robotics Blueprint
     volume: 0.04
@@ -26159,6 +26186,8 @@ metaInfs:
     - Dromi II Blueprint
     - Einherji II Blueprint
     - Gram II Blueprint
+    - Pacifier Blueprint
+    - Enforcer Blueprint
     productOf:
     - Plasma Thruster Blueprint
     volume: 1.0
@@ -26207,6 +26236,8 @@ metaInfs:
     - Satyr II Blueprint
     - '''Excavator'' Mining Drone Blueprint'
     - '''Excavator'' Ice Harvesting Drone Blueprint'
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Ion Thruster Blueprint
     volume: 1.0
@@ -26333,6 +26364,8 @@ metaInfs:
     - Scarab II Blueprint
     - Dragonfly II Blueprint
     - Locust II Blueprint
+    - Pacifier Blueprint
+    - Enforcer Blueprint
     productOf:
     - Gravimetric Sensor Cluster Blueprint
     volume: 1.0
@@ -26379,6 +26412,8 @@ metaInfs:
     - Satyr II Blueprint
     - '''Excavator'' Mining Drone Blueprint'
     - '''Excavator'' Ice Harvesting Drone Blueprint'
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Magnetometric Sensor Cluster Blueprint
     volume: 1.0
@@ -26742,6 +26777,10 @@ metaInfs:
     - Ice Harvesting Drone II Blueprint
     - '''Excavator'' Mining Drone Blueprint'
     - '''Excavator'' Ice Harvesting Drone Blueprint'
+    - Pacifier Blueprint
+    - Enforcer Blueprint
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Photon Microprocessor Blueprint
     volume: 1.0
@@ -26833,6 +26872,8 @@ metaInfs:
     - Capital Flex Armor Hardener II Blueprint
     - Rabisu Blueprint
     - Caedes Blueprint
+    - Pacifier Blueprint
+    - Enforcer Blueprint
     productOf:
     - Tungsten Carbide Armor Plate Blueprint
     volume: 1.0
@@ -26922,6 +26963,8 @@ metaInfs:
     - Antaeus II Blueprint
     - '''Excavator'' Mining Drone Blueprint'
     - '''Excavator'' Ice Harvesting Drone Blueprint'
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Crystalline Carbonide Armor Plate Blueprint
     volume: 1.0
@@ -26963,6 +27006,10 @@ metaInfs:
     - Satyr II Blueprint
     - '''Excavator'' Mining Drone Blueprint'
     - '''Excavator'' Ice Harvesting Drone Blueprint'
+    - Pacifier Blueprint
+    - Enforcer Blueprint
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Fusion Reactor Unit Blueprint
     volume: 1.0
@@ -27195,6 +27242,8 @@ metaInfs:
     - Siren II Blueprint
     - '''Excavator'' Mining Drone Blueprint'
     - '''Excavator'' Ice Harvesting Drone Blueprint'
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Oscillator Capacitor Unit Blueprint
     volume: 1.0
@@ -27264,6 +27313,8 @@ metaInfs:
     - Capital Capacitor Booster II Blueprint
     - Rabisu Blueprint
     - Caedes Blueprint
+    - Pacifier Blueprint
+    - Enforcer Blueprint
     productOf:
     - Tesseract Capacitor Unit Blueprint
     volume: 1.0
@@ -27340,6 +27391,8 @@ metaInfs:
     - Capital Shield Booster II Blueprint
     - '''Excavator'' Mining Drone Blueprint'
     - '''Excavator'' Ice Harvesting Drone Blueprint'
+    - Victor Blueprint
+    - Virtuoso Blueprint
     productOf:
     - Pulse Shield Emitter Blueprint
     volume: 1.0
@@ -27429,6 +27482,8 @@ metaInfs:
     - Kirin Blueprint
     - Capital Shield Extender II Blueprint
     - Capital Flex Armor Hardener II Blueprint
+    - Pacifier Blueprint
+    - Enforcer Blueprint
     productOf:
     - Sustained Shield Emitter Blueprint
     volume: 1.0
@@ -28205,6 +28260,7 @@ metaInfs:
     id: 11969
     productOf:
     - Arazu Blueprint
+    - Victor Blueprint
     volume: 116000.0
   Arazu Blueprint:
     id: 11970
@@ -28316,7 +28372,7 @@ metaInfs:
   Eagle:
     id: 12011
     productIn:
-    - 银鹰级YC117年特别版蓝图
+    - 银鹰��YC117年特别版蓝图
     productOf:
     - Eagle Blueprint
     volume: 101000.0
@@ -36311,7 +36367,7 @@ metaInfs:
   Gila:
     id: 17715
     productIn:
-    - ��蜥级YC117年特别版蓝图
+    - 毒蜥���YC117年特别版蓝图
     productOf:
     - Gila Blueprint
     volume: 101000.0
@@ -36377,7 +36433,7 @@ metaInfs:
   Machariel:
     id: 17738
     productIn:
-    - 马克瑞级YC117年特别版蓝图
+    - 马克瑞级YC117年���别版蓝图
     productOf:
     - Machariel Blueprint
     volume: 595000.0
@@ -36761,7 +36817,7 @@ metaInfs:
     id: 17918
     productIn:
     - Rattlesnake Victory Edition Blueprint
-    - 响尾蛇级YC117年特别版蓝图
+    - 响尾蛇级YC117年特别��蓝图
     productOf:
     - Rattlesnake Blueprint
     volume: 486000.0
@@ -39064,19 +39120,12 @@ metaInfs:
     - Malfunctioning Thruster Sections
     - Wrecked Thruster Sections
     volume: 0.1
-  Datacore - Engineering Subsystems Engineering:
+  Datacore - Core Subsystems Engineering:
     id: 20115
     productIn:
     - Intact Power Cores
     - Malfunctioning Power Cores
     - Wrecked Power Cores
-    volume: 0.1
-  Datacore - Electronic Subsystems Engineering:
-    id: 20116
-    productIn:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
     volume: 0.1
   High-grade Crystal Alpha:
     id: 20121
@@ -40476,9 +40525,6 @@ metaInfs:
     - Inferno Heavy Assault Missile Blueprint
     - Scourge Heavy Assault Missile Blueprint
     - Small Processor Overclocking Unit I Blueprint
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
     - Small Emission Scope Sharpener I Blueprint
     - Medium Emission Scope Sharpener I Blueprint
     - Capital Emission Scope Sharpener I Blueprint
@@ -48571,7 +48617,7 @@ metaInfs:
     id: 24698
     productIn:
     - Nighthawk Blueprint
-    - 幼龙级YC117年特别版蓝图
+    - ��龙级YC117年特别版蓝图
     productOf:
     - Drake Blueprint
     volume: 252000.0
@@ -51222,7 +51268,7 @@ metaInfs:
     - Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     volume: 0.01
   Lorentz Fluid:
@@ -51318,7 +51364,7 @@ metaInfs:
     - Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     volume: 0.01
   Current Pump:
@@ -51407,7 +51453,7 @@ metaInfs:
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
@@ -51491,7 +51537,7 @@ metaInfs:
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
@@ -51574,7 +51620,7 @@ metaInfs:
     - Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     volume: 0.01
   Single-crystal Superalloy I-beam:
@@ -51823,7 +51869,7 @@ metaInfs:
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
@@ -52007,7 +52053,7 @@ metaInfs:
     - Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     volume: 0.01
   Micro Circuit:
@@ -52208,7 +52254,7 @@ metaInfs:
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
@@ -52575,7 +52621,7 @@ metaInfs:
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Blueprint Copy Optimization II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
@@ -52738,7 +52784,7 @@ metaInfs:
     - Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     volume: 0.01
   Intact Armor Plates:
@@ -59085,86 +59131,6 @@ metaInfs:
   'Address #298 Audio Fragment':
     id: 29955
     volume: 0.1
-  Legion Defensive - Adaptive Augmenter:
-    id: 29964
-    productOf:
-    - Legion Defensive - Adaptive Augmenter Blueprint
-    volume: 40.0
-  Legion Defensive - Nanobot Injector:
-    id: 29965
-    productOf:
-    - Legion Defensive - Nanobot Injector Blueprint
-    volume: 40.0
-  Legion Defensive - Augmented Plating:
-    id: 29966
-    productOf:
-    - Legion Defensive - Augmented Plating Blueprint
-    volume: 40.0
-  Legion Defensive - Warfare Processor:
-    id: 29967
-    productOf:
-    - Legion Defensive - Warfare Processor Blueprint
-    volume: 40.0
-  Tengu Defensive - Adaptive Shielding:
-    id: 29969
-    productOf:
-    - Tengu Defensive - Adaptive Shielding Blueprint
-    volume: 40.0
-  Tengu Defensive - Amplification Node:
-    id: 29970
-    productOf:
-    - Tengu Defensive - Amplification Node Blueprint
-    volume: 40.0
-  Tengu Defensive - Supplemental Screening:
-    id: 29971
-    productOf:
-    - Tengu Defensive - Supplemental Screening Blueprint
-    volume: 40.0
-  Tengu Defensive - Warfare Processor:
-    id: 29972
-    productOf:
-    - Tengu Defensive - Warfare Processor Blueprint
-    volume: 40.0
-  Loki Defensive - Adaptive Shielding:
-    id: 29974
-    productOf:
-    - Loki Defensive - Adaptive Shielding Blueprint
-    volume: 40.0
-  Loki Defensive - Adaptive Augmenter:
-    id: 29975
-    productOf:
-    - Loki Defensive - Adaptive Augmenter Blueprint
-    volume: 40.0
-  Loki Defensive - Amplification Node:
-    id: 29976
-    productOf:
-    - Loki Defensive - Amplification Node Blueprint
-    volume: 40.0
-  Loki Defensive - Warfare Processor:
-    id: 29977
-    productOf:
-    - Loki Defensive - Warfare Processor Blueprint
-    volume: 40.0
-  Proteus Defensive - Adaptive Augmenter:
-    id: 29979
-    productOf:
-    - Proteus Defensive - Adaptive Augmenter Blueprint
-    volume: 40.0
-  Proteus Defensive - Nanobot Injector:
-    id: 29980
-    productOf:
-    - Proteus Defensive - Nanobot Injector Blueprint
-    volume: 40.0
-  Proteus Defensive - Augmented Plating:
-    id: 29981
-    productOf:
-    - Proteus Defensive - Augmented Plating Blueprint
-    volume: 40.0
-  Proteus Defensive - Warfare Processor:
-    id: 29982
-    productOf:
-    - Proteus Defensive - Warfare Processor Blueprint
-    volume: 40.0
   Tengu:
     id: 29984
     productOf:
@@ -59216,26 +59182,22 @@ metaInfs:
   Optimized Nano-Engines:
     id: 29992
     productIn:
-    - Tengu Engineering - Power Core Multiplier Blueprint
-    - Tengu Engineering - Augmented Capacitor Reservoir Blueprint
-    - Tengu Engineering - Capacitor Regeneration Matrix Blueprint
-    - Tengu Engineering - Supplemental Coolant Injector Blueprint
-    - Proteus Engineering - Power Core Multiplier Blueprint
-    - Proteus Engineering - Augmented Capacitor Reservoir Blueprint
-    - Proteus Engineering - Capacitor Regeneration Matrix Blueprint
-    - Proteus Engineering - Supplemental Coolant Injector Blueprint
-    - Loki Engineering - Power Core Multiplier Blueprint
-    - Loki Engineering - Augmented Capacitor Reservoir Blueprint
-    - Loki Engineering - Capacitor Regeneration Matrix Blueprint
-    - Loki Engineering - Supplemental Coolant Injector Blueprint
-    - Legion Engineering - Power Core Multiplier Blueprint
-    - Legion Engineering - Augmented Capacitor Reservoir Blueprint
-    - Legion Engineering - Capacitor Regeneration Matrix Blueprint
-    - Legion Engineering - Supplemental Coolant Injector Blueprint
     - Confessor Blueprint
     - Svipul Blueprint
     - Jackdaw Blueprint
     - Hecate Blueprint
+    - Legion Core - Dissolution Sequencer Blueprint
+    - Legion Core - Augmented Antimatter Reactor Blueprint
+    - Legion Core - Energy Parasitic Complex Blueprint
+    - Tengu Core - Electronic Efficiency Gate Blueprint
+    - Tengu Core - Augmented Graviton Reactor Blueprint
+    - Tengu Core - Obfuscation Manifold Blueprint
+    - Proteus Core - Electronic Efficiency Gate Blueprint
+    - Proteus Core - Augmented Fusion Reactor Blueprint
+    - Proteus Core - Friction Extension Processor Blueprint
+    - Loki Core - Dissolution Sequencer Blueprint
+    - Loki Core - Augmented Nuclear Reactor Blueprint
+    - Loki Core - Immobility Drivers Blueprint
     productOf:
     - Optimized Nano-Engines Blueprint
     volume: 10.0
@@ -59245,26 +59207,22 @@ metaInfs:
   Warfare Computation Core:
     id: 29994
     productIn:
-    - Legion Offensive - Drone Synthesis Projector Blueprint
-    - Legion Offensive - Assault Optimization Blueprint
-    - Legion Offensive - Liquid Crystal Magnifiers Blueprint
-    - Legion Offensive - Covert Reconfiguration Blueprint
-    - Tengu Offensive - Accelerated Ejection Bay Blueprint
-    - Tengu Offensive - Rifling Launcher Pattern Blueprint
-    - Tengu Offensive - Magnetic Infusion Basin Blueprint
-    - Tengu Offensive - Covert Reconfiguration Blueprint
-    - Proteus Offensive - Dissonic Encoding Platform Blueprint
-    - Proteus Offensive - Hybrid Propulsion Armature Blueprint
-    - Proteus Offensive - Drone Synthesis Projector Blueprint
-    - Proteus Offensive - Covert Reconfiguration Blueprint
-    - Loki Offensive - Turret Concurrence Registry Blueprint
-    - Loki Offensive - Projectile Scoping Array Blueprint
-    - Loki Offensive - Hardpoint Efficiency Configuration Blueprint
-    - Loki Offensive - Covert Reconfiguration Blueprint
     - Confessor Blueprint
     - Svipul Blueprint
     - Jackdaw Blueprint
     - Hecate Blueprint
+    - Legion Offensive - Liquid Crystal Magnifiers Blueprint
+    - Legion Offensive - Assault Optimization Blueprint
+    - Legion Offensive - Support Processor Blueprint
+    - Tengu Offensive - Accelerated Ejection Bay Blueprint
+    - Tengu Offensive - Magnetic Infusion Basin Blueprint
+    - Tengu Offensive - Support Processor Blueprint
+    - Proteus Offensive - Hybrid Encoding Platform Blueprint
+    - Proteus Offensive - Drone Synthesis Projector Blueprint
+    - Proteus Offensive - Support Processor Blueprint
+    - Loki Offensive - Projectile Scoping Array Blueprint
+    - Loki Offensive - Launcher Efficiency Configuration Blueprint
+    - Loki Offensive - Support Processor Blueprint
     productOf:
     - Warfare Computation Core Blueprint
     volume: 10.0
@@ -59291,90 +59249,58 @@ metaInfs:
     - Legion Blueprint
     - Proteus Blueprint
     - Loki Blueprint
-    - Legion Electronics - Energy Parasitic Complex Blueprint
-    - Legion Electronics - Tactical Targeting Network Blueprint
-    - Legion Electronics - Dissolution Sequencer Blueprint
-    - Legion Electronics - Emergent Locus Analyzer Blueprint
-    - Tengu Electronics - Obfuscation Manifold Blueprint
-    - Tengu Electronics - CPU Efficiency Gate Blueprint
-    - Tengu Electronics - Dissolution Sequencer Blueprint
-    - Tengu Electronics - Emergent Locus Analyzer Blueprint
-    - Proteus Electronics - Friction Extension Processor Blueprint
-    - Proteus Electronics - CPU Efficiency Gate Blueprint
-    - Proteus Electronics - Dissolution Sequencer Blueprint
-    - Proteus Electronics - Emergent Locus Analyzer Blueprint
-    - Loki Electronics - Immobility Drivers Blueprint
-    - Loki Electronics - Tactical Targeting Network Blueprint
-    - Loki Electronics - Dissolution Sequencer Blueprint
-    - Loki Electronics - Emergent Locus Analyzer Blueprint
-    - Legion Propulsion - Chassis Optimization Blueprint
-    - Legion Propulsion - Fuel Catalyst Blueprint
-    - Legion Propulsion - Wake Limiter Blueprint
-    - Legion Propulsion - Interdiction Nullifier Blueprint
-    - Tengu Propulsion - Intercalated Nanofibers Blueprint
-    - Tengu Propulsion - Gravitational Capacitor Blueprint
-    - Tengu Propulsion - Fuel Catalyst Blueprint
-    - Tengu Propulsion - Interdiction Nullifier Blueprint
-    - Proteus Propulsion - Wake Limiter Blueprint
-    - Proteus Propulsion - Localized Injectors Blueprint
-    - Proteus Propulsion - Gravitational Capacitor Blueprint
-    - Proteus Propulsion - Interdiction Nullifier Blueprint
-    - Loki Propulsion - Chassis Optimization Blueprint
-    - Loki Propulsion - Intercalated Nanofibers Blueprint
-    - Loki Propulsion - Fuel Catalyst Blueprint
-    - Loki Propulsion - Interdiction Nullifier Blueprint
-    - Tengu Engineering - Power Core Multiplier Blueprint
-    - Tengu Engineering - Augmented Capacitor Reservoir Blueprint
-    - Tengu Engineering - Capacitor Regeneration Matrix Blueprint
-    - Tengu Engineering - Supplemental Coolant Injector Blueprint
-    - Proteus Engineering - Power Core Multiplier Blueprint
-    - Proteus Engineering - Augmented Capacitor Reservoir Blueprint
-    - Proteus Engineering - Capacitor Regeneration Matrix Blueprint
-    - Proteus Engineering - Supplemental Coolant Injector Blueprint
-    - Loki Engineering - Power Core Multiplier Blueprint
-    - Loki Engineering - Augmented Capacitor Reservoir Blueprint
-    - Loki Engineering - Capacitor Regeneration Matrix Blueprint
-    - Loki Engineering - Supplemental Coolant Injector Blueprint
-    - Legion Engineering - Power Core Multiplier Blueprint
-    - Legion Engineering - Augmented Capacitor Reservoir Blueprint
-    - Legion Engineering - Capacitor Regeneration Matrix Blueprint
-    - Legion Engineering - Supplemental Coolant Injector Blueprint
-    - Legion Defensive - Adaptive Augmenter Blueprint
-    - Legion Defensive - Nanobot Injector Blueprint
-    - Legion Defensive - Augmented Plating Blueprint
-    - Legion Defensive - Warfare Processor Blueprint
-    - Tengu Defensive - Adaptive Shielding Blueprint
-    - Tengu Defensive - Amplification Node Blueprint
-    - Tengu Defensive - Supplemental Screening Blueprint
-    - Tengu Defensive - Warfare Processor Blueprint
-    - Proteus Defensive - Adaptive Augmenter Blueprint
-    - Proteus Defensive - Nanobot Injector Blueprint
-    - Proteus Defensive - Augmented Plating Blueprint
-    - Proteus Defensive - Warfare Processor Blueprint
-    - Loki Defensive - Adaptive Shielding Blueprint
-    - Loki Defensive - Adaptive Augmenter Blueprint
-    - Loki Defensive - Amplification Node Blueprint
-    - Loki Defensive - Warfare Processor Blueprint
-    - Legion Offensive - Drone Synthesis Projector Blueprint
-    - Legion Offensive - Assault Optimization Blueprint
-    - Legion Offensive - Liquid Crystal Magnifiers Blueprint
-    - Legion Offensive - Covert Reconfiguration Blueprint
-    - Tengu Offensive - Accelerated Ejection Bay Blueprint
-    - Tengu Offensive - Rifling Launcher Pattern Blueprint
-    - Tengu Offensive - Magnetic Infusion Basin Blueprint
-    - Tengu Offensive - Covert Reconfiguration Blueprint
-    - Proteus Offensive - Dissonic Encoding Platform Blueprint
-    - Proteus Offensive - Hybrid Propulsion Armature Blueprint
-    - Proteus Offensive - Drone Synthesis Projector Blueprint
-    - Proteus Offensive - Covert Reconfiguration Blueprint
-    - Loki Offensive - Turret Concurrence Registry Blueprint
-    - Loki Offensive - Projectile Scoping Array Blueprint
-    - Loki Offensive - Hardpoint Efficiency Configuration Blueprint
-    - Loki Offensive - Covert Reconfiguration Blueprint
     - Confessor Blueprint
     - Svipul Blueprint
     - Jackdaw Blueprint
     - Hecate Blueprint
+    - Legion Defensive - Covert Reconfiguration Blueprint
+    - Legion Defensive - Augmented Plating Blueprint
+    - Legion Defensive - Nanobot Injector Blueprint
+    - Tengu Defensive - Covert Reconfiguration Blueprint
+    - Tengu Defensive - Supplemental Screening Blueprint
+    - Tengu Defensive - Amplification Node Blueprint
+    - Proteus Defensive - Covert Reconfiguration Blueprint
+    - Proteus Defensive - Augmented Plating Blueprint
+    - Proteus Defensive - Nanobot Injector Blueprint
+    - Loki Defensive - Covert Reconfiguration Blueprint
+    - Loki Defensive - Augmented Durability Blueprint
+    - Loki Defensive - Adaptive Defense Node Blueprint
+    - Legion Offensive - Liquid Crystal Magnifiers Blueprint
+    - Legion Offensive - Assault Optimization Blueprint
+    - Legion Offensive - Support Processor Blueprint
+    - Tengu Offensive - Accelerated Ejection Bay Blueprint
+    - Tengu Offensive - Magnetic Infusion Basin Blueprint
+    - Tengu Offensive - Support Processor Blueprint
+    - Proteus Offensive - Hybrid Encoding Platform Blueprint
+    - Proteus Offensive - Drone Synthesis Projector Blueprint
+    - Proteus Offensive - Support Processor Blueprint
+    - Loki Offensive - Projectile Scoping Array Blueprint
+    - Loki Offensive - Launcher Efficiency Configuration Blueprint
+    - Loki Offensive - Support Processor Blueprint
+    - Legion Propulsion - Interdiction Nullifier Blueprint
+    - Legion Propulsion - Intercalated Nanofibers Blueprint
+    - Legion Propulsion - Wake Limiter Blueprint
+    - Tengu Propulsion - Interdiction Nullifier Blueprint
+    - Tengu Propulsion - Chassis Optimization Blueprint
+    - Tengu Propulsion - Fuel Catalyst Blueprint
+    - Proteus Propulsion - Interdiction Nullifier Blueprint
+    - Proteus Propulsion - Hyperspatial Optimization Blueprint
+    - Proteus Propulsion - Localized Injectors Blueprint
+    - Loki Propulsion - Interdiction Nullifier Blueprint
+    - Loki Propulsion - Intercalated Nanofibers Blueprint
+    - Loki Propulsion - Wake Limiter Blueprint
+    - Legion Core - Dissolution Sequencer Blueprint
+    - Legion Core - Augmented Antimatter Reactor Blueprint
+    - Legion Core - Energy Parasitic Complex Blueprint
+    - Tengu Core - Electronic Efficiency Gate Blueprint
+    - Tengu Core - Augmented Graviton Reactor Blueprint
+    - Tengu Core - Obfuscation Manifold Blueprint
+    - Proteus Core - Electronic Efficiency Gate Blueprint
+    - Proteus Core - Augmented Fusion Reactor Blueprint
+    - Proteus Core - Friction Extension Processor Blueprint
+    - Loki Core - Dissolution Sequencer Blueprint
+    - Loki Core - Augmented Nuclear Reactor Blueprint
+    - Loki Core - Immobility Drivers Blueprint
     productOf:
     - Fullerene Intercalated Sheets Blueprint
     volume: 5.0
@@ -59384,22 +59310,18 @@ metaInfs:
   Reinforced Metallofullerene Alloys:
     id: 30008
     productIn:
-    - Legion Defensive - Adaptive Augmenter Blueprint
-    - Legion Defensive - Nanobot Injector Blueprint
+    - Legion Defensive - Covert Reconfiguration Blueprint
     - Legion Defensive - Augmented Plating Blueprint
-    - Legion Defensive - Warfare Processor Blueprint
-    - Tengu Defensive - Adaptive Shielding Blueprint
-    - Tengu Defensive - Amplification Node Blueprint
+    - Legion Defensive - Nanobot Injector Blueprint
+    - Tengu Defensive - Covert Reconfiguration Blueprint
     - Tengu Defensive - Supplemental Screening Blueprint
-    - Tengu Defensive - Warfare Processor Blueprint
-    - Proteus Defensive - Adaptive Augmenter Blueprint
-    - Proteus Defensive - Nanobot Injector Blueprint
+    - Tengu Defensive - Amplification Node Blueprint
+    - Proteus Defensive - Covert Reconfiguration Blueprint
     - Proteus Defensive - Augmented Plating Blueprint
-    - Proteus Defensive - Warfare Processor Blueprint
-    - Loki Defensive - Adaptive Shielding Blueprint
-    - Loki Defensive - Adaptive Augmenter Blueprint
-    - Loki Defensive - Amplification Node Blueprint
-    - Loki Defensive - Warfare Processor Blueprint
+    - Proteus Defensive - Nanobot Injector Blueprint
+    - Loki Defensive - Covert Reconfiguration Blueprint
+    - Loki Defensive - Augmented Durability Blueprint
+    - Loki Defensive - Adaptive Defense Node Blueprint
     productOf:
     - Reinforced Metallofullerene Alloys Blueprint
     volume: 10.0
@@ -59464,662 +59386,6 @@ metaInfs:
   Combat Scanner Probe I Blueprint:
     id: 30029
     volume: 0.01
-  Legion Electronics - Energy Parasitic Complex:
-    id: 30036
-    productOf:
-    - Legion Electronics - Energy Parasitic Complex Blueprint
-    volume: 40.0
-  Legion Electronics - Energy Parasitic Complex Blueprint:
-    id: 30037
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Legion Electronics - Tactical Targeting Network:
-    id: 30038
-    productOf:
-    - Legion Electronics - Tactical Targeting Network Blueprint
-    volume: 40.0
-  Legion Electronics - Tactical Targeting Network Blueprint:
-    id: 30039
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Legion Electronics - Dissolution Sequencer:
-    id: 30040
-    productOf:
-    - Legion Electronics - Dissolution Sequencer Blueprint
-    volume: 40.0
-  Legion Electronics - Dissolution Sequencer Blueprint:
-    id: 30041
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Legion Electronics - Emergent Locus Analyzer:
-    id: 30042
-    productOf:
-    - Legion Electronics - Emergent Locus Analyzer Blueprint
-    volume: 40.0
-  Legion Electronics - Emergent Locus Analyzer Blueprint:
-    id: 30043
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Tengu Electronics - Obfuscation Manifold:
-    id: 30046
-    productOf:
-    - Tengu Electronics - Obfuscation Manifold Blueprint
-    volume: 40.0
-  Tengu Electronics - Obfuscation Manifold Blueprint:
-    id: 30047
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Tengu Electronics - CPU Efficiency Gate:
-    id: 30048
-    productOf:
-    - Tengu Electronics - CPU Efficiency Gate Blueprint
-    volume: 40.0
-  Tengu Electronics - CPU Efficiency Gate Blueprint:
-    id: 30049
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Tengu Electronics - Dissolution Sequencer:
-    id: 30050
-    productOf:
-    - Tengu Electronics - Dissolution Sequencer Blueprint
-    volume: 40.0
-  Tengu Electronics - Dissolution Sequencer Blueprint:
-    id: 30051
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Tengu Electronics - Emergent Locus Analyzer:
-    id: 30052
-    productOf:
-    - Tengu Electronics - Emergent Locus Analyzer Blueprint
-    volume: 40.0
-  Tengu Electronics - Emergent Locus Analyzer Blueprint:
-    id: 30053
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Proteus Electronics - Friction Extension Processor:
-    id: 30056
-    productOf:
-    - Proteus Electronics - Friction Extension Processor Blueprint
-    volume: 40.0
-  Proteus Electronics - Friction Extension Processor Blueprint:
-    id: 30057
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Proteus Electronics - CPU Efficiency Gate:
-    id: 30058
-    productOf:
-    - Proteus Electronics - CPU Efficiency Gate Blueprint
-    volume: 40.0
-  Proteus Electronics - CPU Efficiency Gate Blueprint:
-    id: 30059
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Proteus Electronics - Dissolution Sequencer:
-    id: 30060
-    productOf:
-    - Proteus Electronics - Dissolution Sequencer Blueprint
-    volume: 40.0
-  Proteus Electronics - Dissolution Sequencer Blueprint:
-    id: 30061
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Proteus Electronics - Emergent Locus Analyzer:
-    id: 30062
-    productOf:
-    - Proteus Electronics - Emergent Locus Analyzer Blueprint
-    volume: 40.0
-  Proteus Electronics - Emergent Locus Analyzer Blueprint:
-    id: 30063
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Loki Electronics - Immobility Drivers:
-    id: 30066
-    productOf:
-    - Loki Electronics - Immobility Drivers Blueprint
-    volume: 40.0
-  Loki Electronics - Immobility Drivers Blueprint:
-    id: 30067
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Loki Electronics - Tactical Targeting Network:
-    id: 30068
-    productOf:
-    - Loki Electronics - Tactical Targeting Network Blueprint
-    volume: 40.0
-  Loki Electronics - Tactical Targeting Network Blueprint:
-    id: 30069
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Loki Electronics - Dissolution Sequencer:
-    id: 30070
-    productOf:
-    - Loki Electronics - Dissolution Sequencer Blueprint
-    volume: 40.0
-  Loki Electronics - Dissolution Sequencer Blueprint:
-    id: 30071
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Loki Electronics - Emergent Locus Analyzer:
-    id: 30072
-    productOf:
-    - Loki Electronics - Emergent Locus Analyzer Blueprint
-    volume: 40.0
-  Loki Electronics - Emergent Locus Analyzer Blueprint:
-    id: 30073
-    productOf:
-    - Intact Electromechanical Component
-    - Malfunctioning Electromechanical Component
-    - Wrecked Electromechanical Component
-    volume: 0.01
-  Legion Propulsion - Chassis Optimization:
-    id: 30076
-    productOf:
-    - Legion Propulsion - Chassis Optimization Blueprint
-    volume: 40.0
-  Legion Propulsion - Chassis Optimization Blueprint:
-    id: 30077
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Legion Propulsion - Fuel Catalyst:
-    id: 30078
-    productOf:
-    - Legion Propulsion - Fuel Catalyst Blueprint
-    volume: 40.0
-  Legion Propulsion - Fuel Catalyst Blueprint:
-    id: 30079
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Legion Propulsion - Wake Limiter:
-    id: 30080
-    productOf:
-    - Legion Propulsion - Wake Limiter Blueprint
-    volume: 40.0
-  Legion Propulsion - Wake Limiter Blueprint:
-    id: 30081
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Legion Propulsion - Interdiction Nullifier:
-    id: 30082
-    productOf:
-    - Legion Propulsion - Interdiction Nullifier Blueprint
-    volume: 40.0
-  Legion Propulsion - Interdiction Nullifier Blueprint:
-    id: 30083
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Tengu Propulsion - Intercalated Nanofibers:
-    id: 30086
-    productOf:
-    - Tengu Propulsion - Intercalated Nanofibers Blueprint
-    volume: 40.0
-  Tengu Propulsion - Intercalated Nanofibers Blueprint:
-    id: 30087
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Tengu Propulsion - Gravitational Capacitor:
-    id: 30088
-    productOf:
-    - Tengu Propulsion - Gravitational Capacitor Blueprint
-    volume: 40.0
-  Tengu Propulsion - Gravitational Capacitor Blueprint:
-    id: 30089
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Tengu Propulsion - Fuel Catalyst:
-    id: 30090
-    productOf:
-    - Tengu Propulsion - Fuel Catalyst Blueprint
-    volume: 40.0
-  Tengu Propulsion - Fuel Catalyst Blueprint:
-    id: 30091
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Tengu Propulsion - Interdiction Nullifier:
-    id: 30092
-    productOf:
-    - Tengu Propulsion - Interdiction Nullifier Blueprint
-    volume: 40.0
-  Tengu Propulsion - Interdiction Nullifier Blueprint:
-    id: 30093
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Proteus Propulsion - Wake Limiter:
-    id: 30096
-    productOf:
-    - Proteus Propulsion - Wake Limiter Blueprint
-    volume: 40.0
-  Proteus Propulsion - Wake Limiter Blueprint:
-    id: 30097
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Proteus Propulsion - Localized Injectors:
-    id: 30098
-    productOf:
-    - Proteus Propulsion - Localized Injectors Blueprint
-    volume: 40.0
-  Proteus Propulsion - Localized Injectors Blueprint:
-    id: 30099
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Proteus Propulsion - Gravitational Capacitor:
-    id: 30100
-    productOf:
-    - Proteus Propulsion - Gravitational Capacitor Blueprint
-    volume: 40.0
-  Proteus Propulsion - Gravitational Capacitor Blueprint:
-    id: 30101
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Proteus Propulsion - Interdiction Nullifier:
-    id: 30102
-    productOf:
-    - Proteus Propulsion - Interdiction Nullifier Blueprint
-    volume: 40.0
-  Proteus Propulsion - Interdiction Nullifier Blueprint:
-    id: 30103
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Loki Propulsion - Chassis Optimization:
-    id: 30106
-    productOf:
-    - Loki Propulsion - Chassis Optimization Blueprint
-    volume: 40.0
-  Loki Propulsion - Chassis Optimization Blueprint:
-    id: 30107
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Loki Propulsion - Intercalated Nanofibers:
-    id: 30108
-    productOf:
-    - Loki Propulsion - Intercalated Nanofibers Blueprint
-    volume: 40.0
-  Loki Propulsion - Intercalated Nanofibers Blueprint:
-    id: 30109
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Loki Propulsion - Fuel Catalyst:
-    id: 30110
-    productOf:
-    - Loki Propulsion - Fuel Catalyst Blueprint
-    volume: 40.0
-  Loki Propulsion - Fuel Catalyst Blueprint:
-    id: 30111
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Loki Propulsion - Interdiction Nullifier:
-    id: 30112
-    productOf:
-    - Loki Propulsion - Interdiction Nullifier Blueprint
-    volume: 40.0
-  Loki Propulsion - Interdiction Nullifier Blueprint:
-    id: 30113
-    productOf:
-    - Intact Thruster Sections
-    - Malfunctioning Thruster Sections
-    - Wrecked Thruster Sections
-    volume: 0.01
-  Legion Offensive - Drone Synthesis Projector:
-    id: 30117
-    productOf:
-    - Legion Offensive - Drone Synthesis Projector Blueprint
-    volume: 40.0
-  Legion Offensive - Assault Optimization:
-    id: 30118
-    productOf:
-    - Legion Offensive - Assault Optimization Blueprint
-    volume: 40.0
-  Legion Offensive - Liquid Crystal Magnifiers:
-    id: 30119
-    productOf:
-    - Legion Offensive - Liquid Crystal Magnifiers Blueprint
-    volume: 40.0
-  Legion Offensive - Covert Reconfiguration:
-    id: 30120
-    productOf:
-    - Legion Offensive - Covert Reconfiguration Blueprint
-    volume: 40.0
-  Tengu Offensive - Accelerated Ejection Bay:
-    id: 30122
-    productOf:
-    - Tengu Offensive - Accelerated Ejection Bay Blueprint
-    volume: 40.0
-  Tengu Offensive - Rifling Launcher Pattern:
-    id: 30123
-    productOf:
-    - Tengu Offensive - Rifling Launcher Pattern Blueprint
-    volume: 40.0
-  Tengu Offensive - Magnetic Infusion Basin:
-    id: 30124
-    productOf:
-    - Tengu Offensive - Magnetic Infusion Basin Blueprint
-    volume: 40.0
-  Tengu Offensive - Covert Reconfiguration:
-    id: 30125
-    productOf:
-    - Tengu Offensive - Covert Reconfiguration Blueprint
-    volume: 40.0
-  Proteus Offensive - Dissonic Encoding Platform:
-    id: 30127
-    productOf:
-    - Proteus Offensive - Dissonic Encoding Platform Blueprint
-    volume: 40.0
-  Proteus Offensive - Hybrid Propulsion Armature:
-    id: 30128
-    productOf:
-    - Proteus Offensive - Hybrid Propulsion Armature Blueprint
-    volume: 40.0
-  Proteus Offensive - Drone Synthesis Projector:
-    id: 30129
-    productOf:
-    - Proteus Offensive - Drone Synthesis Projector Blueprint
-    volume: 40.0
-  Proteus Offensive - Covert Reconfiguration:
-    id: 30130
-    productOf:
-    - Proteus Offensive - Covert Reconfiguration Blueprint
-    volume: 40.0
-  Loki Offensive - Turret Concurrence Registry:
-    id: 30132
-    productOf:
-    - Loki Offensive - Turret Concurrence Registry Blueprint
-    volume: 40.0
-  Loki Offensive - Projectile Scoping Array:
-    id: 30133
-    productOf:
-    - Loki Offensive - Projectile Scoping Array Blueprint
-    volume: 40.0
-  Loki Offensive - Hardpoint Efficiency Configuration:
-    id: 30134
-    productOf:
-    - Loki Offensive - Hardpoint Efficiency Configuration Blueprint
-    volume: 40.0
-  Loki Offensive - Covert Reconfiguration:
-    id: 30135
-    productOf:
-    - Loki Offensive - Covert Reconfiguration Blueprint
-    volume: 40.0
-  Tengu Engineering - Power Core Multiplier:
-    id: 30139
-    productOf:
-    - Tengu Engineering - Power Core Multiplier Blueprint
-    volume: 40.0
-  Tengu Engineering - Power Core Multiplier Blueprint:
-    id: 30140
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Tengu Engineering - Augmented Capacitor Reservoir:
-    id: 30141
-    productOf:
-    - Tengu Engineering - Augmented Capacitor Reservoir Blueprint
-    volume: 40.0
-  Tengu Engineering - Augmented Capacitor Reservoir Blueprint:
-    id: 30142
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Tengu Engineering - Capacitor Regeneration Matrix:
-    id: 30143
-    productOf:
-    - Tengu Engineering - Capacitor Regeneration Matrix Blueprint
-    volume: 40.0
-  Tengu Engineering - Capacitor Regeneration Matrix Blueprint:
-    id: 30144
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Tengu Engineering - Supplemental Coolant Injector:
-    id: 30145
-    productOf:
-    - Tengu Engineering - Supplemental Coolant Injector Blueprint
-    volume: 40.0
-  Tengu Engineering - Supplemental Coolant Injector Blueprint:
-    id: 30146
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Proteus Engineering - Power Core Multiplier:
-    id: 30149
-    productOf:
-    - Proteus Engineering - Power Core Multiplier Blueprint
-    volume: 40.0
-  Proteus Engineering - Power Core Multiplier Blueprint:
-    id: 30150
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Proteus Engineering - Augmented Capacitor Reservoir:
-    id: 30151
-    productOf:
-    - Proteus Engineering - Augmented Capacitor Reservoir Blueprint
-    volume: 40.0
-  Proteus Engineering - Augmented Capacitor Reservoir Blueprint:
-    id: 30152
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Proteus Engineering - Capacitor Regeneration Matrix:
-    id: 30153
-    productOf:
-    - Proteus Engineering - Capacitor Regeneration Matrix Blueprint
-    volume: 40.0
-  Proteus Engineering - Capacitor Regeneration Matrix Blueprint:
-    id: 30154
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Proteus Engineering - Supplemental Coolant Injector:
-    id: 30155
-    productOf:
-    - Proteus Engineering - Supplemental Coolant Injector Blueprint
-    volume: 40.0
-  Proteus Engineering - Supplemental Coolant Injector Blueprint:
-    id: 30156
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Loki Engineering - Power Core Multiplier:
-    id: 30159
-    productOf:
-    - Loki Engineering - Power Core Multiplier Blueprint
-    volume: 40.0
-  Loki Engineering - Power Core Multiplier Blueprint:
-    id: 30160
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Loki Engineering - Augmented Capacitor Reservoir:
-    id: 30161
-    productOf:
-    - Loki Engineering - Augmented Capacitor Reservoir Blueprint
-    volume: 40.0
-  Loki Engineering - Augmented Capacitor Reservoir Blueprint:
-    id: 30162
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Loki Engineering - Capacitor Regeneration Matrix:
-    id: 30163
-    productOf:
-    - Loki Engineering - Capacitor Regeneration Matrix Blueprint
-    volume: 40.0
-  Loki Engineering - Capacitor Regeneration Matrix Blueprint:
-    id: 30164
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Loki Engineering - Supplemental Coolant Injector:
-    id: 30165
-    productOf:
-    - Loki Engineering - Supplemental Coolant Injector Blueprint
-    volume: 40.0
-  Loki Engineering - Supplemental Coolant Injector Blueprint:
-    id: 30166
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Legion Engineering - Power Core Multiplier:
-    id: 30169
-    productOf:
-    - Legion Engineering - Power Core Multiplier Blueprint
-    volume: 40.0
-  Legion Engineering - Power Core Multiplier Blueprint:
-    id: 30170
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Legion Engineering - Augmented Capacitor Reservoir:
-    id: 30171
-    productOf:
-    - Legion Engineering - Augmented Capacitor Reservoir Blueprint
-    volume: 40.0
-  Legion Engineering - Augmented Capacitor Reservoir Blueprint:
-    id: 30172
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Legion Engineering - Capacitor Regeneration Matrix:
-    id: 30173
-    productOf:
-    - Legion Engineering - Capacitor Regeneration Matrix Blueprint
-    volume: 40.0
-  Legion Engineering - Capacitor Regeneration Matrix Blueprint:
-    id: 30174
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
-  Legion Engineering - Supplemental Coolant Injector:
-    id: 30175
-    productOf:
-    - Legion Engineering - Supplemental Coolant Injector Blueprint
-    volume: 40.0
-  Legion Engineering - Supplemental Coolant Injector Blueprint:
-    id: 30176
-    productOf:
-    - Intact Power Cores
-    - Malfunctioning Power Cores
-    - Wrecked Power Cores
-    volume: 0.01
   Serpentis Informant:
     id: 30182
     volume: 1.0
@@ -60132,118 +59398,6 @@ metaInfs:
   Melted Snowball CX:
     id: 30222
     volume: 1.0
-  Legion Defensive - Adaptive Augmenter Blueprint:
-    id: 30227
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Legion Defensive - Nanobot Injector Blueprint:
-    id: 30228
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Legion Defensive - Augmented Plating Blueprint:
-    id: 30229
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Legion Defensive - Warfare Processor Blueprint:
-    id: 30230
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Tengu Defensive - Adaptive Shielding Blueprint:
-    id: 30232
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Tengu Defensive - Amplification Node Blueprint:
-    id: 30233
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Tengu Defensive - Supplemental Screening Blueprint:
-    id: 30234
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Tengu Defensive - Warfare Processor Blueprint:
-    id: 30235
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Proteus Defensive - Adaptive Augmenter Blueprint:
-    id: 30237
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Proteus Defensive - Nanobot Injector Blueprint:
-    id: 30238
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Proteus Defensive - Augmented Plating Blueprint:
-    id: 30239
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Proteus Defensive - Warfare Processor Blueprint:
-    id: 30240
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Loki Defensive - Adaptive Shielding Blueprint:
-    id: 30242
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Loki Defensive - Adaptive Augmenter Blueprint:
-    id: 30243
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Loki Defensive - Amplification Node Blueprint:
-    id: 30244
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
-  Loki Defensive - Warfare Processor Blueprint:
-    id: 30245
-    productOf:
-    - Intact Armor Nanobot
-    - Malfunctioning Armor Nanobot
-    - Wrecked Armor Nanobot
-    volume: 0.01
   Emergent Combat Analyzer:
     id: 30248
     productIn:
@@ -60322,9 +59476,9 @@ metaInfs:
     - Reconfigured Subspace Calibrator Blueprint
     - Self-Assembling Nanolattice Blueprint
     - Superconducting Magnetometric Amplifier Blueprint
-    - ' Superconducting Gravimetric Amplifier Blueprint'
-    - ' Superconducting Radar Amplifier Blueprint'
-    - ' Superconducting Ladar Amplifier Blueprint'
+    - Superconducting Gravimetric Amplifier Blueprint
+    - Superconducting Radar Amplifier Blueprint
+    - Superconducting Ladar Amplifier Blueprint
     volume: 0.1
   PPD Fullerene Fibers:
     id: 30304
@@ -60337,9 +59491,9 @@ metaInfs:
     - Nanowire Composites Blueprint
     - Fulleroferrocene Power Conduits Blueprint
     - Superconducting Magnetometric Amplifier Blueprint
-    - ' Superconducting Gravimetric Amplifier Blueprint'
-    - ' Superconducting Radar Amplifier Blueprint'
-    - ' Superconducting Ladar Amplifier Blueprint'
+    - Superconducting Gravimetric Amplifier Blueprint
+    - Superconducting Radar Amplifier Blueprint
+    - Superconducting Ladar Amplifier Blueprint
     volume: 0.5
   Fullerene Intercalated Graphite:
     id: 30305
@@ -60348,9 +59502,9 @@ metaInfs:
     - Fullerene Intercalated Sheets Blueprint
     - Reinforced Metallofullerene Alloys Blueprint
     - Superconducting Magnetometric Amplifier Blueprint
-    - ' Superconducting Gravimetric Amplifier Blueprint'
-    - ' Superconducting Radar Amplifier Blueprint'
-    - ' Superconducting Ladar Amplifier Blueprint'
+    - Superconducting Gravimetric Amplifier Blueprint
+    - Superconducting Radar Amplifier Blueprint
+    - Superconducting Ladar Amplifier Blueprint
     volume: 0.8
   Methanofullerene:
     id: 30306
@@ -60374,9 +59528,9 @@ metaInfs:
     - Neurovisual Output Analyzer Blueprint
     - Fulleroferrocene Power Conduits Blueprint
     - Superconducting Magnetometric Amplifier Blueprint
-    - ' Superconducting Gravimetric Amplifier Blueprint'
-    - ' Superconducting Radar Amplifier Blueprint'
-    - ' Superconducting Ladar Amplifier Blueprint'
+    - Superconducting Gravimetric Amplifier Blueprint
+    - Superconducting Radar Amplifier Blueprint
+    - Superconducting Ladar Amplifier Blueprint
     volume: 0.65
   Graphene Nanoribbons:
     id: 30309
@@ -60403,11 +59557,8 @@ metaInfs:
   Defensive Subsystem Technology:
     id: 30324
     volume: 0.01
-  Engineering Subsystem Technology:
+  Core Subsystem Technology:
     id: 30325
-    volume: 0.01
-  Electronic Subsystem Technology:
-    id: 30326
     volume: 0.01
   Offensive Subsystem Technology:
     id: 30327
@@ -60507,118 +59658,6 @@ metaInfs:
   Omni Effect Beacon:
     id: 30391
     volume: 20.0
-  Legion Offensive - Drone Synthesis Projector Blueprint:
-    id: 30392
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Legion Offensive - Assault Optimization Blueprint:
-    id: 30393
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Legion Offensive - Liquid Crystal Magnifiers Blueprint:
-    id: 30394
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Legion Offensive - Covert Reconfiguration Blueprint:
-    id: 30395
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Tengu Offensive - Accelerated Ejection Bay Blueprint:
-    id: 30397
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Tengu Offensive - Rifling Launcher Pattern Blueprint:
-    id: 30398
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Tengu Offensive - Magnetic Infusion Basin Blueprint:
-    id: 30399
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Tengu Offensive - Covert Reconfiguration Blueprint:
-    id: 30400
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Proteus Offensive - Dissonic Encoding Platform Blueprint:
-    id: 30402
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Proteus Offensive - Hybrid Propulsion Armature Blueprint:
-    id: 30403
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Proteus Offensive - Drone Synthesis Projector Blueprint:
-    id: 30404
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Proteus Offensive - Covert Reconfiguration Blueprint:
-    id: 30405
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Loki Offensive - Turret Concurrence Registry Blueprint:
-    id: 30407
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Loki Offensive - Projectile Scoping Array Blueprint:
-    id: 30408
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Loki Offensive - Hardpoint Efficiency Configuration Blueprint:
-    id: 30409
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
-  Loki Offensive - Covert Reconfiguration Blueprint:
-    id: 30410
-    productOf:
-    - Intact Weapon Subroutines
-    - Malfunctioning Weapon Subroutines
-    - Wrecked Weapon Subroutines
-    volume: 0.01
   Civilian EM Ward Field:
     id: 30420
     productOf:
@@ -60650,90 +59689,58 @@ metaInfs:
     - Legion Blueprint
     - Proteus Blueprint
     - Loki Blueprint
-    - Legion Electronics - Energy Parasitic Complex Blueprint
-    - Legion Electronics - Tactical Targeting Network Blueprint
-    - Legion Electronics - Dissolution Sequencer Blueprint
-    - Legion Electronics - Emergent Locus Analyzer Blueprint
-    - Tengu Electronics - Obfuscation Manifold Blueprint
-    - Tengu Electronics - CPU Efficiency Gate Blueprint
-    - Tengu Electronics - Dissolution Sequencer Blueprint
-    - Tengu Electronics - Emergent Locus Analyzer Blueprint
-    - Proteus Electronics - Friction Extension Processor Blueprint
-    - Proteus Electronics - CPU Efficiency Gate Blueprint
-    - Proteus Electronics - Dissolution Sequencer Blueprint
-    - Proteus Electronics - Emergent Locus Analyzer Blueprint
-    - Loki Electronics - Immobility Drivers Blueprint
-    - Loki Electronics - Tactical Targeting Network Blueprint
-    - Loki Electronics - Dissolution Sequencer Blueprint
-    - Loki Electronics - Emergent Locus Analyzer Blueprint
-    - Legion Propulsion - Chassis Optimization Blueprint
-    - Legion Propulsion - Fuel Catalyst Blueprint
-    - Legion Propulsion - Wake Limiter Blueprint
-    - Legion Propulsion - Interdiction Nullifier Blueprint
-    - Tengu Propulsion - Intercalated Nanofibers Blueprint
-    - Tengu Propulsion - Gravitational Capacitor Blueprint
-    - Tengu Propulsion - Fuel Catalyst Blueprint
-    - Tengu Propulsion - Interdiction Nullifier Blueprint
-    - Proteus Propulsion - Wake Limiter Blueprint
-    - Proteus Propulsion - Localized Injectors Blueprint
-    - Proteus Propulsion - Gravitational Capacitor Blueprint
-    - Proteus Propulsion - Interdiction Nullifier Blueprint
-    - Loki Propulsion - Chassis Optimization Blueprint
-    - Loki Propulsion - Intercalated Nanofibers Blueprint
-    - Loki Propulsion - Fuel Catalyst Blueprint
-    - Loki Propulsion - Interdiction Nullifier Blueprint
-    - Tengu Engineering - Power Core Multiplier Blueprint
-    - Tengu Engineering - Augmented Capacitor Reservoir Blueprint
-    - Tengu Engineering - Capacitor Regeneration Matrix Blueprint
-    - Tengu Engineering - Supplemental Coolant Injector Blueprint
-    - Proteus Engineering - Power Core Multiplier Blueprint
-    - Proteus Engineering - Augmented Capacitor Reservoir Blueprint
-    - Proteus Engineering - Capacitor Regeneration Matrix Blueprint
-    - Proteus Engineering - Supplemental Coolant Injector Blueprint
-    - Loki Engineering - Power Core Multiplier Blueprint
-    - Loki Engineering - Augmented Capacitor Reservoir Blueprint
-    - Loki Engineering - Capacitor Regeneration Matrix Blueprint
-    - Loki Engineering - Supplemental Coolant Injector Blueprint
-    - Legion Engineering - Power Core Multiplier Blueprint
-    - Legion Engineering - Augmented Capacitor Reservoir Blueprint
-    - Legion Engineering - Capacitor Regeneration Matrix Blueprint
-    - Legion Engineering - Supplemental Coolant Injector Blueprint
-    - Legion Defensive - Adaptive Augmenter Blueprint
-    - Legion Defensive - Nanobot Injector Blueprint
-    - Legion Defensive - Augmented Plating Blueprint
-    - Legion Defensive - Warfare Processor Blueprint
-    - Tengu Defensive - Adaptive Shielding Blueprint
-    - Tengu Defensive - Amplification Node Blueprint
-    - Tengu Defensive - Supplemental Screening Blueprint
-    - Tengu Defensive - Warfare Processor Blueprint
-    - Proteus Defensive - Adaptive Augmenter Blueprint
-    - Proteus Defensive - Nanobot Injector Blueprint
-    - Proteus Defensive - Augmented Plating Blueprint
-    - Proteus Defensive - Warfare Processor Blueprint
-    - Loki Defensive - Adaptive Shielding Blueprint
-    - Loki Defensive - Adaptive Augmenter Blueprint
-    - Loki Defensive - Amplification Node Blueprint
-    - Loki Defensive - Warfare Processor Blueprint
-    - Legion Offensive - Drone Synthesis Projector Blueprint
-    - Legion Offensive - Assault Optimization Blueprint
-    - Legion Offensive - Liquid Crystal Magnifiers Blueprint
-    - Legion Offensive - Covert Reconfiguration Blueprint
-    - Tengu Offensive - Accelerated Ejection Bay Blueprint
-    - Tengu Offensive - Rifling Launcher Pattern Blueprint
-    - Tengu Offensive - Magnetic Infusion Basin Blueprint
-    - Tengu Offensive - Covert Reconfiguration Blueprint
-    - Proteus Offensive - Dissonic Encoding Platform Blueprint
-    - Proteus Offensive - Hybrid Propulsion Armature Blueprint
-    - Proteus Offensive - Drone Synthesis Projector Blueprint
-    - Proteus Offensive - Covert Reconfiguration Blueprint
-    - Loki Offensive - Turret Concurrence Registry Blueprint
-    - Loki Offensive - Projectile Scoping Array Blueprint
-    - Loki Offensive - Hardpoint Efficiency Configuration Blueprint
-    - Loki Offensive - Covert Reconfiguration Blueprint
     - Confessor Blueprint
     - Svipul Blueprint
     - Jackdaw Blueprint
     - Hecate Blueprint
+    - Legion Defensive - Covert Reconfiguration Blueprint
+    - Legion Defensive - Augmented Plating Blueprint
+    - Legion Defensive - Nanobot Injector Blueprint
+    - Tengu Defensive - Covert Reconfiguration Blueprint
+    - Tengu Defensive - Supplemental Screening Blueprint
+    - Tengu Defensive - Amplification Node Blueprint
+    - Proteus Defensive - Covert Reconfiguration Blueprint
+    - Proteus Defensive - Augmented Plating Blueprint
+    - Proteus Defensive - Nanobot Injector Blueprint
+    - Loki Defensive - Covert Reconfiguration Blueprint
+    - Loki Defensive - Augmented Durability Blueprint
+    - Loki Defensive - Adaptive Defense Node Blueprint
+    - Legion Offensive - Liquid Crystal Magnifiers Blueprint
+    - Legion Offensive - Assault Optimization Blueprint
+    - Legion Offensive - Support Processor Blueprint
+    - Tengu Offensive - Accelerated Ejection Bay Blueprint
+    - Tengu Offensive - Magnetic Infusion Basin Blueprint
+    - Tengu Offensive - Support Processor Blueprint
+    - Proteus Offensive - Hybrid Encoding Platform Blueprint
+    - Proteus Offensive - Drone Synthesis Projector Blueprint
+    - Proteus Offensive - Support Processor Blueprint
+    - Loki Offensive - Projectile Scoping Array Blueprint
+    - Loki Offensive - Launcher Efficiency Configuration Blueprint
+    - Loki Offensive - Support Processor Blueprint
+    - Legion Propulsion - Interdiction Nullifier Blueprint
+    - Legion Propulsion - Intercalated Nanofibers Blueprint
+    - Legion Propulsion - Wake Limiter Blueprint
+    - Tengu Propulsion - Interdiction Nullifier Blueprint
+    - Tengu Propulsion - Chassis Optimization Blueprint
+    - Tengu Propulsion - Fuel Catalyst Blueprint
+    - Proteus Propulsion - Interdiction Nullifier Blueprint
+    - Proteus Propulsion - Hyperspatial Optimization Blueprint
+    - Proteus Propulsion - Localized Injectors Blueprint
+    - Loki Propulsion - Interdiction Nullifier Blueprint
+    - Loki Propulsion - Intercalated Nanofibers Blueprint
+    - Loki Propulsion - Wake Limiter Blueprint
+    - Legion Core - Dissolution Sequencer Blueprint
+    - Legion Core - Augmented Antimatter Reactor Blueprint
+    - Legion Core - Energy Parasitic Complex Blueprint
+    - Tengu Core - Electronic Efficiency Gate Blueprint
+    - Tengu Core - Augmented Graviton Reactor Blueprint
+    - Tengu Core - Obfuscation Manifold Blueprint
+    - Proteus Core - Electronic Efficiency Gate Blueprint
+    - Proteus Core - Augmented Fusion Reactor Blueprint
+    - Proteus Core - Friction Extension Processor Blueprint
+    - Loki Core - Dissolution Sequencer Blueprint
+    - Loki Core - Augmented Nuclear Reactor Blueprint
+    - Loki Core - Immobility Drivers Blueprint
     productOf:
     - Metallofullerene Plating Blueprint
     volume: 5.0
@@ -60743,22 +59750,10 @@ metaInfs:
   Electromechanical Interface Nexus:
     id: 30466
     productIn:
-    - Legion Electronics - Energy Parasitic Complex Blueprint
-    - Legion Electronics - Tactical Targeting Network Blueprint
-    - Legion Electronics - Dissolution Sequencer Blueprint
-    - Legion Electronics - Emergent Locus Analyzer Blueprint
-    - Tengu Electronics - Obfuscation Manifold Blueprint
-    - Tengu Electronics - CPU Efficiency Gate Blueprint
-    - Tengu Electronics - Dissolution Sequencer Blueprint
-    - Tengu Electronics - Emergent Locus Analyzer Blueprint
-    - Proteus Electronics - Friction Extension Processor Blueprint
-    - Proteus Electronics - CPU Efficiency Gate Blueprint
-    - Proteus Electronics - Dissolution Sequencer Blueprint
-    - Proteus Electronics - Emergent Locus Analyzer Blueprint
-    - Loki Electronics - Immobility Drivers Blueprint
-    - Loki Electronics - Tactical Targeting Network Blueprint
-    - Loki Electronics - Dissolution Sequencer Blueprint
-    - Loki Electronics - Emergent Locus Analyzer Blueprint
+    - Tengu Blueprint
+    - Legion Blueprint
+    - Proteus Blueprint
+    - Loki Blueprint
     - Confessor Blueprint
     - Svipul Blueprint
     - Jackdaw Blueprint
@@ -60776,86 +59771,54 @@ metaInfs:
     - Legion Blueprint
     - Proteus Blueprint
     - Loki Blueprint
-    - Legion Electronics - Energy Parasitic Complex Blueprint
-    - Legion Electronics - Tactical Targeting Network Blueprint
-    - Legion Electronics - Dissolution Sequencer Blueprint
-    - Legion Electronics - Emergent Locus Analyzer Blueprint
-    - Tengu Electronics - Obfuscation Manifold Blueprint
-    - Tengu Electronics - CPU Efficiency Gate Blueprint
-    - Tengu Electronics - Dissolution Sequencer Blueprint
-    - Tengu Electronics - Emergent Locus Analyzer Blueprint
-    - Proteus Electronics - Friction Extension Processor Blueprint
-    - Proteus Electronics - CPU Efficiency Gate Blueprint
-    - Proteus Electronics - Dissolution Sequencer Blueprint
-    - Proteus Electronics - Emergent Locus Analyzer Blueprint
-    - Loki Electronics - Immobility Drivers Blueprint
-    - Loki Electronics - Tactical Targeting Network Blueprint
-    - Loki Electronics - Dissolution Sequencer Blueprint
-    - Loki Electronics - Emergent Locus Analyzer Blueprint
-    - Legion Propulsion - Chassis Optimization Blueprint
-    - Legion Propulsion - Fuel Catalyst Blueprint
-    - Legion Propulsion - Wake Limiter Blueprint
-    - Legion Propulsion - Interdiction Nullifier Blueprint
-    - Tengu Propulsion - Intercalated Nanofibers Blueprint
-    - Tengu Propulsion - Gravitational Capacitor Blueprint
-    - Tengu Propulsion - Fuel Catalyst Blueprint
-    - Tengu Propulsion - Interdiction Nullifier Blueprint
-    - Proteus Propulsion - Wake Limiter Blueprint
-    - Proteus Propulsion - Localized Injectors Blueprint
-    - Proteus Propulsion - Gravitational Capacitor Blueprint
-    - Proteus Propulsion - Interdiction Nullifier Blueprint
-    - Loki Propulsion - Chassis Optimization Blueprint
-    - Loki Propulsion - Intercalated Nanofibers Blueprint
-    - Loki Propulsion - Fuel Catalyst Blueprint
-    - Loki Propulsion - Interdiction Nullifier Blueprint
-    - Tengu Engineering - Power Core Multiplier Blueprint
-    - Tengu Engineering - Augmented Capacitor Reservoir Blueprint
-    - Tengu Engineering - Capacitor Regeneration Matrix Blueprint
-    - Tengu Engineering - Supplemental Coolant Injector Blueprint
-    - Proteus Engineering - Power Core Multiplier Blueprint
-    - Proteus Engineering - Augmented Capacitor Reservoir Blueprint
-    - Proteus Engineering - Capacitor Regeneration Matrix Blueprint
-    - Proteus Engineering - Supplemental Coolant Injector Blueprint
-    - Loki Engineering - Power Core Multiplier Blueprint
-    - Loki Engineering - Augmented Capacitor Reservoir Blueprint
-    - Loki Engineering - Capacitor Regeneration Matrix Blueprint
-    - Loki Engineering - Supplemental Coolant Injector Blueprint
-    - Legion Engineering - Power Core Multiplier Blueprint
-    - Legion Engineering - Augmented Capacitor Reservoir Blueprint
-    - Legion Engineering - Capacitor Regeneration Matrix Blueprint
-    - Legion Engineering - Supplemental Coolant Injector Blueprint
-    - Legion Defensive - Adaptive Augmenter Blueprint
-    - Legion Defensive - Nanobot Injector Blueprint
+    - Legion Defensive - Covert Reconfiguration Blueprint
     - Legion Defensive - Augmented Plating Blueprint
-    - Legion Defensive - Warfare Processor Blueprint
-    - Tengu Defensive - Adaptive Shielding Blueprint
-    - Tengu Defensive - Amplification Node Blueprint
+    - Legion Defensive - Nanobot Injector Blueprint
+    - Tengu Defensive - Covert Reconfiguration Blueprint
     - Tengu Defensive - Supplemental Screening Blueprint
-    - Tengu Defensive - Warfare Processor Blueprint
-    - Proteus Defensive - Adaptive Augmenter Blueprint
-    - Proteus Defensive - Nanobot Injector Blueprint
+    - Tengu Defensive - Amplification Node Blueprint
+    - Proteus Defensive - Covert Reconfiguration Blueprint
     - Proteus Defensive - Augmented Plating Blueprint
-    - Proteus Defensive - Warfare Processor Blueprint
-    - Loki Defensive - Adaptive Shielding Blueprint
-    - Loki Defensive - Adaptive Augmenter Blueprint
-    - Loki Defensive - Amplification Node Blueprint
-    - Loki Defensive - Warfare Processor Blueprint
-    - Legion Offensive - Drone Synthesis Projector Blueprint
-    - Legion Offensive - Assault Optimization Blueprint
+    - Proteus Defensive - Nanobot Injector Blueprint
+    - Loki Defensive - Covert Reconfiguration Blueprint
+    - Loki Defensive - Augmented Durability Blueprint
+    - Loki Defensive - Adaptive Defense Node Blueprint
     - Legion Offensive - Liquid Crystal Magnifiers Blueprint
-    - Legion Offensive - Covert Reconfiguration Blueprint
+    - Legion Offensive - Assault Optimization Blueprint
+    - Legion Offensive - Support Processor Blueprint
     - Tengu Offensive - Accelerated Ejection Bay Blueprint
-    - Tengu Offensive - Rifling Launcher Pattern Blueprint
     - Tengu Offensive - Magnetic Infusion Basin Blueprint
-    - Tengu Offensive - Covert Reconfiguration Blueprint
-    - Proteus Offensive - Dissonic Encoding Platform Blueprint
-    - Proteus Offensive - Hybrid Propulsion Armature Blueprint
+    - Tengu Offensive - Support Processor Blueprint
+    - Proteus Offensive - Hybrid Encoding Platform Blueprint
     - Proteus Offensive - Drone Synthesis Projector Blueprint
-    - Proteus Offensive - Covert Reconfiguration Blueprint
-    - Loki Offensive - Turret Concurrence Registry Blueprint
+    - Proteus Offensive - Support Processor Blueprint
     - Loki Offensive - Projectile Scoping Array Blueprint
-    - Loki Offensive - Hardpoint Efficiency Configuration Blueprint
-    - Loki Offensive - Covert Reconfiguration Blueprint
+    - Loki Offensive - Launcher Efficiency Configuration Blueprint
+    - Loki Offensive - Support Processor Blueprint
+    - Legion Propulsion - Interdiction Nullifier Blueprint
+    - Legion Propulsion - Intercalated Nanofibers Blueprint
+    - Legion Propulsion - Wake Limiter Blueprint
+    - Tengu Propulsion - Interdiction Nullifier Blueprint
+    - Tengu Propulsion - Chassis Optimization Blueprint
+    - Tengu Propulsion - Fuel Catalyst Blueprint
+    - Proteus Propulsion - Interdiction Nullifier Blueprint
+    - Proteus Propulsion - Hyperspatial Optimization Blueprint
+    - Proteus Propulsion - Localized Injectors Blueprint
+    - Loki Propulsion - Interdiction Nullifier Blueprint
+    - Loki Propulsion - Intercalated Nanofibers Blueprint
+    - Loki Propulsion - Wake Limiter Blueprint
+    - Legion Core - Dissolution Sequencer Blueprint
+    - Legion Core - Augmented Antimatter Reactor Blueprint
+    - Legion Core - Energy Parasitic Complex Blueprint
+    - Tengu Core - Electronic Efficiency Gate Blueprint
+    - Tengu Core - Augmented Graviton Reactor Blueprint
+    - Tengu Core - Obfuscation Manifold Blueprint
+    - Proteus Core - Electronic Efficiency Gate Blueprint
+    - Proteus Core - Augmented Fusion Reactor Blueprint
+    - Proteus Core - Friction Extension Processor Blueprint
+    - Loki Core - Dissolution Sequencer Blueprint
+    - Loki Core - Augmented Nuclear Reactor Blueprint
+    - Loki Core - Immobility Drivers Blueprint
     productOf:
     - Neurovisual Output Analyzer Blueprint
     volume: 5.0
@@ -60869,86 +59832,54 @@ metaInfs:
     - Legion Blueprint
     - Proteus Blueprint
     - Loki Blueprint
-    - Legion Electronics - Energy Parasitic Complex Blueprint
-    - Legion Electronics - Tactical Targeting Network Blueprint
-    - Legion Electronics - Dissolution Sequencer Blueprint
-    - Legion Electronics - Emergent Locus Analyzer Blueprint
-    - Tengu Electronics - Obfuscation Manifold Blueprint
-    - Tengu Electronics - CPU Efficiency Gate Blueprint
-    - Tengu Electronics - Dissolution Sequencer Blueprint
-    - Tengu Electronics - Emergent Locus Analyzer Blueprint
-    - Proteus Electronics - Friction Extension Processor Blueprint
-    - Proteus Electronics - CPU Efficiency Gate Blueprint
-    - Proteus Electronics - Dissolution Sequencer Blueprint
-    - Proteus Electronics - Emergent Locus Analyzer Blueprint
-    - Loki Electronics - Immobility Drivers Blueprint
-    - Loki Electronics - Tactical Targeting Network Blueprint
-    - Loki Electronics - Dissolution Sequencer Blueprint
-    - Loki Electronics - Emergent Locus Analyzer Blueprint
-    - Legion Propulsion - Chassis Optimization Blueprint
-    - Legion Propulsion - Fuel Catalyst Blueprint
-    - Legion Propulsion - Wake Limiter Blueprint
-    - Legion Propulsion - Interdiction Nullifier Blueprint
-    - Tengu Propulsion - Intercalated Nanofibers Blueprint
-    - Tengu Propulsion - Gravitational Capacitor Blueprint
-    - Tengu Propulsion - Fuel Catalyst Blueprint
-    - Tengu Propulsion - Interdiction Nullifier Blueprint
-    - Proteus Propulsion - Wake Limiter Blueprint
-    - Proteus Propulsion - Localized Injectors Blueprint
-    - Proteus Propulsion - Gravitational Capacitor Blueprint
-    - Proteus Propulsion - Interdiction Nullifier Blueprint
-    - Loki Propulsion - Chassis Optimization Blueprint
-    - Loki Propulsion - Intercalated Nanofibers Blueprint
-    - Loki Propulsion - Fuel Catalyst Blueprint
-    - Loki Propulsion - Interdiction Nullifier Blueprint
-    - Tengu Engineering - Power Core Multiplier Blueprint
-    - Tengu Engineering - Augmented Capacitor Reservoir Blueprint
-    - Tengu Engineering - Capacitor Regeneration Matrix Blueprint
-    - Tengu Engineering - Supplemental Coolant Injector Blueprint
-    - Proteus Engineering - Power Core Multiplier Blueprint
-    - Proteus Engineering - Augmented Capacitor Reservoir Blueprint
-    - Proteus Engineering - Capacitor Regeneration Matrix Blueprint
-    - Proteus Engineering - Supplemental Coolant Injector Blueprint
-    - Loki Engineering - Power Core Multiplier Blueprint
-    - Loki Engineering - Augmented Capacitor Reservoir Blueprint
-    - Loki Engineering - Capacitor Regeneration Matrix Blueprint
-    - Loki Engineering - Supplemental Coolant Injector Blueprint
-    - Legion Engineering - Power Core Multiplier Blueprint
-    - Legion Engineering - Augmented Capacitor Reservoir Blueprint
-    - Legion Engineering - Capacitor Regeneration Matrix Blueprint
-    - Legion Engineering - Supplemental Coolant Injector Blueprint
-    - Legion Defensive - Adaptive Augmenter Blueprint
-    - Legion Defensive - Nanobot Injector Blueprint
+    - Legion Defensive - Covert Reconfiguration Blueprint
     - Legion Defensive - Augmented Plating Blueprint
-    - Legion Defensive - Warfare Processor Blueprint
-    - Tengu Defensive - Adaptive Shielding Blueprint
-    - Tengu Defensive - Amplification Node Blueprint
+    - Legion Defensive - Nanobot Injector Blueprint
+    - Tengu Defensive - Covert Reconfiguration Blueprint
     - Tengu Defensive - Supplemental Screening Blueprint
-    - Tengu Defensive - Warfare Processor Blueprint
-    - Proteus Defensive - Adaptive Augmenter Blueprint
-    - Proteus Defensive - Nanobot Injector Blueprint
+    - Tengu Defensive - Amplification Node Blueprint
+    - Proteus Defensive - Covert Reconfiguration Blueprint
     - Proteus Defensive - Augmented Plating Blueprint
-    - Proteus Defensive - Warfare Processor Blueprint
-    - Loki Defensive - Adaptive Shielding Blueprint
-    - Loki Defensive - Adaptive Augmenter Blueprint
-    - Loki Defensive - Amplification Node Blueprint
-    - Loki Defensive - Warfare Processor Blueprint
-    - Legion Offensive - Drone Synthesis Projector Blueprint
-    - Legion Offensive - Assault Optimization Blueprint
+    - Proteus Defensive - Nanobot Injector Blueprint
+    - Loki Defensive - Covert Reconfiguration Blueprint
+    - Loki Defensive - Augmented Durability Blueprint
+    - Loki Defensive - Adaptive Defense Node Blueprint
     - Legion Offensive - Liquid Crystal Magnifiers Blueprint
-    - Legion Offensive - Covert Reconfiguration Blueprint
+    - Legion Offensive - Assault Optimization Blueprint
+    - Legion Offensive - Support Processor Blueprint
     - Tengu Offensive - Accelerated Ejection Bay Blueprint
-    - Tengu Offensive - Rifling Launcher Pattern Blueprint
     - Tengu Offensive - Magnetic Infusion Basin Blueprint
-    - Tengu Offensive - Covert Reconfiguration Blueprint
-    - Proteus Offensive - Dissonic Encoding Platform Blueprint
-    - Proteus Offensive - Hybrid Propulsion Armature Blueprint
+    - Tengu Offensive - Support Processor Blueprint
+    - Proteus Offensive - Hybrid Encoding Platform Blueprint
     - Proteus Offensive - Drone Synthesis Projector Blueprint
-    - Proteus Offensive - Covert Reconfiguration Blueprint
-    - Loki Offensive - Turret Concurrence Registry Blueprint
+    - Proteus Offensive - Support Processor Blueprint
     - Loki Offensive - Projectile Scoping Array Blueprint
-    - Loki Offensive - Hardpoint Efficiency Configuration Blueprint
-    - Loki Offensive - Covert Reconfiguration Blueprint
+    - Loki Offensive - Launcher Efficiency Configuration Blueprint
+    - Loki Offensive - Support Processor Blueprint
+    - Legion Propulsion - Interdiction Nullifier Blueprint
+    - Legion Propulsion - Intercalated Nanofibers Blueprint
+    - Legion Propulsion - Wake Limiter Blueprint
+    - Tengu Propulsion - Interdiction Nullifier Blueprint
+    - Tengu Propulsion - Chassis Optimization Blueprint
+    - Tengu Propulsion - Fuel Catalyst Blueprint
+    - Proteus Propulsion - Interdiction Nullifier Blueprint
+    - Proteus Propulsion - Hyperspatial Optimization Blueprint
+    - Proteus Propulsion - Localized Injectors Blueprint
+    - Loki Propulsion - Interdiction Nullifier Blueprint
+    - Loki Propulsion - Intercalated Nanofibers Blueprint
+    - Loki Propulsion - Wake Limiter Blueprint
+    - Legion Core - Dissolution Sequencer Blueprint
+    - Legion Core - Augmented Antimatter Reactor Blueprint
+    - Legion Core - Energy Parasitic Complex Blueprint
+    - Tengu Core - Electronic Efficiency Gate Blueprint
+    - Tengu Core - Augmented Graviton Reactor Blueprint
+    - Tengu Core - Obfuscation Manifold Blueprint
+    - Proteus Core - Electronic Efficiency Gate Blueprint
+    - Proteus Core - Augmented Fusion Reactor Blueprint
+    - Proteus Core - Friction Extension Processor Blueprint
+    - Loki Core - Dissolution Sequencer Blueprint
+    - Loki Core - Augmented Nuclear Reactor Blueprint
+    - Loki Core - Immobility Drivers Blueprint
     productOf:
     - Nanowire Composites Blueprint
     volume: 5.0
@@ -60962,90 +59893,58 @@ metaInfs:
     - Legion Blueprint
     - Proteus Blueprint
     - Loki Blueprint
-    - Legion Electronics - Energy Parasitic Complex Blueprint
-    - Legion Electronics - Tactical Targeting Network Blueprint
-    - Legion Electronics - Dissolution Sequencer Blueprint
-    - Legion Electronics - Emergent Locus Analyzer Blueprint
-    - Tengu Electronics - Obfuscation Manifold Blueprint
-    - Tengu Electronics - CPU Efficiency Gate Blueprint
-    - Tengu Electronics - Dissolution Sequencer Blueprint
-    - Tengu Electronics - Emergent Locus Analyzer Blueprint
-    - Proteus Electronics - Friction Extension Processor Blueprint
-    - Proteus Electronics - CPU Efficiency Gate Blueprint
-    - Proteus Electronics - Dissolution Sequencer Blueprint
-    - Proteus Electronics - Emergent Locus Analyzer Blueprint
-    - Loki Electronics - Immobility Drivers Blueprint
-    - Loki Electronics - Tactical Targeting Network Blueprint
-    - Loki Electronics - Dissolution Sequencer Blueprint
-    - Loki Electronics - Emergent Locus Analyzer Blueprint
-    - Legion Propulsion - Chassis Optimization Blueprint
-    - Legion Propulsion - Fuel Catalyst Blueprint
-    - Legion Propulsion - Wake Limiter Blueprint
-    - Legion Propulsion - Interdiction Nullifier Blueprint
-    - Tengu Propulsion - Intercalated Nanofibers Blueprint
-    - Tengu Propulsion - Gravitational Capacitor Blueprint
-    - Tengu Propulsion - Fuel Catalyst Blueprint
-    - Tengu Propulsion - Interdiction Nullifier Blueprint
-    - Proteus Propulsion - Wake Limiter Blueprint
-    - Proteus Propulsion - Localized Injectors Blueprint
-    - Proteus Propulsion - Gravitational Capacitor Blueprint
-    - Proteus Propulsion - Interdiction Nullifier Blueprint
-    - Loki Propulsion - Chassis Optimization Blueprint
-    - Loki Propulsion - Intercalated Nanofibers Blueprint
-    - Loki Propulsion - Fuel Catalyst Blueprint
-    - Loki Propulsion - Interdiction Nullifier Blueprint
-    - Tengu Engineering - Power Core Multiplier Blueprint
-    - Tengu Engineering - Augmented Capacitor Reservoir Blueprint
-    - Tengu Engineering - Capacitor Regeneration Matrix Blueprint
-    - Tengu Engineering - Supplemental Coolant Injector Blueprint
-    - Proteus Engineering - Power Core Multiplier Blueprint
-    - Proteus Engineering - Augmented Capacitor Reservoir Blueprint
-    - Proteus Engineering - Capacitor Regeneration Matrix Blueprint
-    - Proteus Engineering - Supplemental Coolant Injector Blueprint
-    - Loki Engineering - Power Core Multiplier Blueprint
-    - Loki Engineering - Augmented Capacitor Reservoir Blueprint
-    - Loki Engineering - Capacitor Regeneration Matrix Blueprint
-    - Loki Engineering - Supplemental Coolant Injector Blueprint
-    - Legion Engineering - Power Core Multiplier Blueprint
-    - Legion Engineering - Augmented Capacitor Reservoir Blueprint
-    - Legion Engineering - Capacitor Regeneration Matrix Blueprint
-    - Legion Engineering - Supplemental Coolant Injector Blueprint
-    - Legion Defensive - Adaptive Augmenter Blueprint
-    - Legion Defensive - Nanobot Injector Blueprint
-    - Legion Defensive - Augmented Plating Blueprint
-    - Legion Defensive - Warfare Processor Blueprint
-    - Tengu Defensive - Adaptive Shielding Blueprint
-    - Tengu Defensive - Amplification Node Blueprint
-    - Tengu Defensive - Supplemental Screening Blueprint
-    - Tengu Defensive - Warfare Processor Blueprint
-    - Proteus Defensive - Adaptive Augmenter Blueprint
-    - Proteus Defensive - Nanobot Injector Blueprint
-    - Proteus Defensive - Augmented Plating Blueprint
-    - Proteus Defensive - Warfare Processor Blueprint
-    - Loki Defensive - Adaptive Shielding Blueprint
-    - Loki Defensive - Adaptive Augmenter Blueprint
-    - Loki Defensive - Amplification Node Blueprint
-    - Loki Defensive - Warfare Processor Blueprint
-    - Legion Offensive - Drone Synthesis Projector Blueprint
-    - Legion Offensive - Assault Optimization Blueprint
-    - Legion Offensive - Liquid Crystal Magnifiers Blueprint
-    - Legion Offensive - Covert Reconfiguration Blueprint
-    - Tengu Offensive - Accelerated Ejection Bay Blueprint
-    - Tengu Offensive - Rifling Launcher Pattern Blueprint
-    - Tengu Offensive - Magnetic Infusion Basin Blueprint
-    - Tengu Offensive - Covert Reconfiguration Blueprint
-    - Proteus Offensive - Dissonic Encoding Platform Blueprint
-    - Proteus Offensive - Hybrid Propulsion Armature Blueprint
-    - Proteus Offensive - Drone Synthesis Projector Blueprint
-    - Proteus Offensive - Covert Reconfiguration Blueprint
-    - Loki Offensive - Turret Concurrence Registry Blueprint
-    - Loki Offensive - Projectile Scoping Array Blueprint
-    - Loki Offensive - Hardpoint Efficiency Configuration Blueprint
-    - Loki Offensive - Covert Reconfiguration Blueprint
     - Confessor Blueprint
     - Svipul Blueprint
     - Jackdaw Blueprint
     - Hecate Blueprint
+    - Legion Defensive - Covert Reconfiguration Blueprint
+    - Legion Defensive - Augmented Plating Blueprint
+    - Legion Defensive - Nanobot Injector Blueprint
+    - Tengu Defensive - Covert Reconfiguration Blueprint
+    - Tengu Defensive - Supplemental Screening Blueprint
+    - Tengu Defensive - Amplification Node Blueprint
+    - Proteus Defensive - Covert Reconfiguration Blueprint
+    - Proteus Defensive - Augmented Plating Blueprint
+    - Proteus Defensive - Nanobot Injector Blueprint
+    - Loki Defensive - Covert Reconfiguration Blueprint
+    - Loki Defensive - Augmented Durability Blueprint
+    - Loki Defensive - Adaptive Defense Node Blueprint
+    - Legion Offensive - Liquid Crystal Magnifiers Blueprint
+    - Legion Offensive - Assault Optimization Blueprint
+    - Legion Offensive - Support Processor Blueprint
+    - Tengu Offensive - Accelerated Ejection Bay Blueprint
+    - Tengu Offensive - Magnetic Infusion Basin Blueprint
+    - Tengu Offensive - Support Processor Blueprint
+    - Proteus Offensive - Hybrid Encoding Platform Blueprint
+    - Proteus Offensive - Drone Synthesis Projector Blueprint
+    - Proteus Offensive - Support Processor Blueprint
+    - Loki Offensive - Projectile Scoping Array Blueprint
+    - Loki Offensive - Launcher Efficiency Configuration Blueprint
+    - Loki Offensive - Support Processor Blueprint
+    - Legion Propulsion - Interdiction Nullifier Blueprint
+    - Legion Propulsion - Intercalated Nanofibers Blueprint
+    - Legion Propulsion - Wake Limiter Blueprint
+    - Tengu Propulsion - Interdiction Nullifier Blueprint
+    - Tengu Propulsion - Chassis Optimization Blueprint
+    - Tengu Propulsion - Fuel Catalyst Blueprint
+    - Proteus Propulsion - Interdiction Nullifier Blueprint
+    - Proteus Propulsion - Hyperspatial Optimization Blueprint
+    - Proteus Propulsion - Localized Injectors Blueprint
+    - Loki Propulsion - Interdiction Nullifier Blueprint
+    - Loki Propulsion - Intercalated Nanofibers Blueprint
+    - Loki Propulsion - Wake Limiter Blueprint
+    - Legion Core - Dissolution Sequencer Blueprint
+    - Legion Core - Augmented Antimatter Reactor Blueprint
+    - Legion Core - Energy Parasitic Complex Blueprint
+    - Tengu Core - Electronic Efficiency Gate Blueprint
+    - Tengu Core - Augmented Graviton Reactor Blueprint
+    - Tengu Core - Obfuscation Manifold Blueprint
+    - Proteus Core - Electronic Efficiency Gate Blueprint
+    - Proteus Core - Augmented Fusion Reactor Blueprint
+    - Proteus Core - Friction Extension Processor Blueprint
+    - Loki Core - Dissolution Sequencer Blueprint
+    - Loki Core - Augmented Nuclear Reactor Blueprint
+    - Loki Core - Immobility Drivers Blueprint
     productOf:
     - Fulleroferrocene Power Conduits Blueprint
     volume: 5.0
@@ -61055,26 +59954,22 @@ metaInfs:
   Reconfigured Subspace Calibrator:
     id: 30478
     productIn:
-    - Legion Propulsion - Chassis Optimization Blueprint
-    - Legion Propulsion - Fuel Catalyst Blueprint
-    - Legion Propulsion - Wake Limiter Blueprint
-    - Legion Propulsion - Interdiction Nullifier Blueprint
-    - Tengu Propulsion - Intercalated Nanofibers Blueprint
-    - Tengu Propulsion - Gravitational Capacitor Blueprint
-    - Tengu Propulsion - Fuel Catalyst Blueprint
-    - Tengu Propulsion - Interdiction Nullifier Blueprint
-    - Proteus Propulsion - Wake Limiter Blueprint
-    - Proteus Propulsion - Localized Injectors Blueprint
-    - Proteus Propulsion - Gravitational Capacitor Blueprint
-    - Proteus Propulsion - Interdiction Nullifier Blueprint
-    - Loki Propulsion - Chassis Optimization Blueprint
-    - Loki Propulsion - Intercalated Nanofibers Blueprint
-    - Loki Propulsion - Fuel Catalyst Blueprint
-    - Loki Propulsion - Interdiction Nullifier Blueprint
     - Confessor Blueprint
     - Svipul Blueprint
     - Jackdaw Blueprint
     - Hecate Blueprint
+    - Legion Propulsion - Interdiction Nullifier Blueprint
+    - Legion Propulsion - Intercalated Nanofibers Blueprint
+    - Legion Propulsion - Wake Limiter Blueprint
+    - Tengu Propulsion - Interdiction Nullifier Blueprint
+    - Tengu Propulsion - Chassis Optimization Blueprint
+    - Tengu Propulsion - Fuel Catalyst Blueprint
+    - Proteus Propulsion - Interdiction Nullifier Blueprint
+    - Proteus Propulsion - Hyperspatial Optimization Blueprint
+    - Proteus Propulsion - Localized Injectors Blueprint
+    - Loki Propulsion - Interdiction Nullifier Blueprint
+    - Loki Propulsion - Intercalated Nanofibers Blueprint
+    - Loki Propulsion - Wake Limiter Blueprint
     productOf:
     - Reconfigured Subspace Calibrator Blueprint
     volume: 10.0
@@ -61093,29 +59988,17 @@ metaInfs:
   Amarr Defensive Systems:
     id: 30532
     volume: 0.01
-  Amarr Electronic Systems:
-    id: 30536
-    volume: 0.01
   Amarr Offensive Systems:
     id: 30537
     volume: 0.01
   Amarr Propulsion Systems:
     id: 30538
     volume: 0.01
-  Amarr Engineering Systems:
+  Amarr Core Systems:
     id: 30539
     volume: 0.01
   Gallente Defensive Systems:
     id: 30540
-    volume: 0.01
-  Gallente Electronic Systems:
-    id: 30541
-    volume: 0.01
-  Caldari Electronic Systems:
-    id: 30542
-    volume: 0.01
-  Minmatar Electronic Systems:
-    id: 30543
     volume: 0.01
   Caldari Defensive Systems:
     id: 30544
@@ -61123,13 +60006,13 @@ metaInfs:
   Minmatar Defensive Systems:
     id: 30545
     volume: 0.01
-  Gallente Engineering Systems:
+  Gallente Core Systems:
     id: 30546
     volume: 0.01
-  Minmatar Engineering Systems:
+  Minmatar Core Systems:
     id: 30547
     volume: 0.01
-  Caldari Engineering Systems:
+  Caldari Core Systems:
     id: 30548
     volume: 0.01
   Caldari Offensive Systems:
@@ -61164,15 +60047,6 @@ metaInfs:
     volume: 10.0
   Wrecked Power Cores:
     id: 30588
-    volume: 10.0
-  Intact Electromechanical Component:
-    id: 30599
-    volume: 10.0
-  Malfunctioning Electromechanical Component:
-    id: 30600
-    volume: 10.0
-  Wrecked Electromechanical Component:
-    id: 30605
     volume: 10.0
   Intact Armor Nanobot:
     id: 30614
@@ -61234,13 +60108,13 @@ metaInfs:
     volume: 0.1
   Intact Hull Section:
     id: 30752
-    volume: 100.0
+    volume: 50.0
   Malfunctioning Hull Section:
     id: 30753
-    volume: 100.0
+    volume: 50.0
   Wrecked Hull Section:
     id: 30754
-    volume: 100.0
+    volume: 50.0
   Strange Datacore:
     id: 30755
     volume: 0.1
@@ -69552,13 +68426,13 @@ metaInfs:
     volume: 0.1
   Small Intact Hull Section:
     id: 34412
-    volume: 30.0
+    volume: 20.0
   Small Malfunctioning Hull Section:
     id: 34414
-    volume: 30.0
+    volume: 20.0
   Small Wrecked Hull Section:
     id: 34416
-    volume: 30.0
+    volume: 20.0
   Manufacturing Union’s Placard:
     id: 34417
     volume: 3.0
@@ -69643,16 +68517,16 @@ metaInfs:
   地狱天使级YC117年特别版蓝图:
     id: 34460
     volume: 0.01
-  马克瑞级YC117年特别版蓝图:
+  马克瑞级YC117年���别版蓝图:
     id: 34462
     volume: 0.01
-  响尾蛇级YC117年特别版蓝图:
+  响尾蛇级YC117年特别��蓝图:
     id: 34464
     volume: 0.01
   多米尼克斯级YC117年特别版蓝图:
     id: 34466
     volume: 0.01
-  万王宝座级YC117年特别版蓝图:
+  万王宝���级YC117年特别版蓝图:
     id: 34468
     volume: 0.01
   乌鸦级YC117年特别版蓝图:
@@ -69661,13 +68535,13 @@ metaInfs:
   灾难级YC117年特别版蓝图:
     id: 34472
     volume: 0.01
-  幼龙级YC117年特别版蓝图:
+  ��龙级YC117年特别版蓝图:
     id: 34474
     volume: 0.01
-  ��蜥级YC117年特别版蓝图:
+  毒蜥���YC117年特别版蓝图:
     id: 34476
     volume: 0.01
-  银鹰级YC117年特别版蓝图:
+  银鹰��YC117年特别版蓝图:
     id: 34478
     volume: 0.01
   伊什塔级YC117年特别版蓝图:
@@ -78186,6 +77060,11 @@ metaInfs:
     productOf:
     - Arbalest Compact XL Torpedo Launcher Blueprint
     volume: 4000.0
+  TE-2100 Ample XL Torpedo Launcher:
+    id: 41181
+    productOf:
+    - TE-2100 Ample XL Torpedo Launcher Blueprint
+    volume: 4000.0
   Dread Guristas XL Torpedo Launcher:
     id: 41182
     productOf:
@@ -79761,7 +78640,7 @@ metaInfs:
   ‘Cold Wind’ Kinetic Reaper:
     id: 41442
     productOf:
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     volume: 8000.0
   ‘Guillotine’ Thermal Reaper:
     id: 41443
@@ -79785,7 +78664,7 @@ metaInfs:
   ‘Geiravor’ Explosive Lance Blueprint:
     id: 41448
     volume: 0.01
-  ‘Cold Wind’ Kinetic Reaper Blueprint:
+  ‘Cold Wind�� Kinetic Reaper Blueprint:
     id: 41449
     volume: 0.01
   ‘Guillotine’ Thermal Reaper Blueprint:
@@ -80543,7 +79422,7 @@ metaInfs:
   Minokawa Raata Sunset SKIN (Permanent):
     id: 41681
     volume: 0.01
-  Minokawa Blue Tiger  SKIN (Permanent):
+  Minokawa Blue Tiger SKIN (Permanent):
     id: 41682
     volume: 0.01
   Minokawa Matigu Seabeast SKIN (Permanent):
@@ -80811,15 +79690,6 @@ metaInfs:
   Gold Ouroboros:
     id: 42231
     volume: 0.1
-  Gold Ouroboros Accelerator:
-    id: 42232
-    volume: 1.0
-  Silver Ouroboros Accelerator:
-    id: 42233
-    volume: 1.0
-  Copper Ouroboros Accelerator:
-    id: 42234
-    volume: 1.0
   Molok:
     id: 42241
     productOf:
@@ -80896,12 +79766,6 @@ metaInfs:
     productOf:
     - Skirmish Command Burst I Blueprint
     volume: 60.0
-  Blood Raider Cerebral Accelerator:
-    id: 42531
-    volume: 1.0
-  Advanced Blood Raider Cerebral Accelerator:
-    id: 42541
-    volume: 1.0
   Impairor Purity of the Throne SKIN (Permanent):
     id: 42543
     volume: 0.01
@@ -81073,6 +79937,15 @@ metaInfs:
   Ark Purity of the Throne SKIN (Permanent):
     id: 42600
     volume: 0.01
+  Venture Morphite Shine SKIN (Permanent):
+    id: 42614
+    volume: 0.01
+  Endurance Morphite Shine SKIN (Permanent):
+    id: 42615
+    volume: 0.01
+  Prospect Morphite Shine SKIN (Permanent):
+    id: 42616
+    volume: 0.01
   Procurer Morphite Shine SKIN (Permanent):
     id: 42617
     volume: 0.01
@@ -81193,7 +80066,7 @@ metaInfs:
   Women's 'Excursion' Pants (Blood Raider):
     id: 42701
     volume: 0.1
-  Men's 'Marshall' Jacket (Blood Raiders black/red):
+  Men's 'Marshal' Jacket (Blood Raiders black/red):
     id: 42702
     volume: 0.1
   Women's 'Gunner' Jacket (Blood Raiders black):
@@ -81241,7 +80114,7 @@ metaInfs:
   Women's Beret (Blood Raiders):
     id: 42733
     volume: 0.1
-  Men's ‘Protector’ Beret (Caldari State):
+  Men's ‘Protector�� Beret (Caldari State):
     id: 42736
     volume: 0.1
   Women's ‘Liberator’ Beret (Minmatar Republic):
@@ -81906,7 +80779,7 @@ metaInfs:
   Standup L-Set Drone and Fighter Manufacturing Efficiency II:
     id: 43713
     productOf:
-    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     volume: 20.0
   Standup L-Set Basic Small Ship Manufacturing Efficiency I:
     id: 43714
@@ -82194,6 +81067,9 @@ metaInfs:
   Hulk Angel Industrial Livery SKIN (Permanent):
     id: 43810
     volume: 0.01
+  Bowhead Angel Industrial Livery SKIN (Permanent):
+    id: 43811
+    volume: 0.01
   Orca Angel Industrial Livery SKIN (Permanent):
     id: 43812
     volume: 0.01
@@ -82229,6 +81105,9 @@ metaInfs:
     volume: 0.01
   Hulk Blood Raider Industrial Livery SKIN (Permanent):
     id: 43823
+    volume: 0.01
+  Bowhead Blood Raider Industrial Livery SKIN (Permanent):
+    id: 43824
     volume: 0.01
   Orca Blood Raider Industrial Livery SKIN (Permanent):
     id: 43825
@@ -82266,6 +81145,9 @@ metaInfs:
   Hulk Guristas Industrial Livery SKIN (Permanent):
     id: 43836
     volume: 0.01
+  Bowhead Guristas Industrial Livery SKIN (Permanent):
+    id: 43837
+    volume: 0.01
   Orca Guristas Industrial Livery SKIN (Permanent):
     id: 43838
     volume: 0.01
@@ -82301,6 +81183,9 @@ metaInfs:
     volume: 0.01
   Hulk Sansha Industrial Livery SKIN (Permanent):
     id: 43849
+    volume: 0.01
+  Bowhead Sansha Industrial Livery SKIN (Permanent):
+    id: 43850
     volume: 0.01
   Orca Sansha Industrial Livery SKIN (Permanent):
     id: 43851
@@ -82952,7 +81837,7 @@ metaInfs:
   Standup L-Set Drone and Fighter Manufacturing Efficiency I Blueprint:
     id: 44088
     volume: 0.01
-  Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint:
+  Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint:
     id: 44089
     productOf:
     - Standup L-Set Drone and Fighter Manufacturing Efficiency I Blueprint
@@ -83263,9 +82148,6 @@ metaInfs:
   Armor Plating From TES Seraph:
     id: 44216
     volume: 3.0
-  YC119 Yoiul Festival Accelerator:
-    id: 44217
-    volume: 1.0
   Stratios SOE Fire Cell (Defense) SKIN (Permanent):
     id: 44218
     volume: 0.01
@@ -83308,44 +82190,8 @@ metaInfs:
   Sunesis Midnight SKIN (Permanent):
     id: 44259
     volume: 0.01
-  Holiday_impact_Amarr1.red:
-    id: 44260
-    volume: 0.1
-  Holiday_impact_Angels1.red:
-    id: 44261
-    volume: 0.1
-  Holiday_impact_BloodRaiders1.red:
-    id: 44262
-    volume: 0.1
-  Holiday_impact_Caldari1.red:
-    id: 44263
-    volume: 0.1
-  Holiday_impact_Celebration1.red:
-    id: 44264
-    volume: 0.1
   Wings of Victory Firework:
     id: 44265
-    volume: 0.1
-  Holiday_impact_Celebration3.red:
-    id: 44266
-    volume: 0.1
-  Holiday_impact_CrimsonHarvest1.red:
-    id: 44267
-    volume: 0.1
-  Holiday_impact_Gallente1.red:
-    id: 44268
-    volume: 0.1
-  Holiday_impact_Guristas1.red:
-    id: 44269
-    volume: 0.1
-  Holiday_impact_Minmatar1.red:
-    id: 44270
-    volume: 0.1
-  Holiday_impact_Sansha1.red:
-    id: 44271
-    volume: 0.1
-  Holiday_impact_Serpentis1.red:
-    id: 44272
     volume: 0.1
   Apocalypse IGC Victory SKIN (Permanent):
     id: 44280
@@ -83523,9 +82369,13 @@ metaInfs:
     volume: 2.0E-4
   Pacifier:
     id: 44993
+    productOf:
+    - Pacifier Blueprint
     volume: 20000.0
   Enforcer:
     id: 44995
+    productOf:
+    - Enforcer Blueprint
     volume: 100000.0
   Focused Warp Scrambling Script:
     id: 45010
@@ -83538,13 +82388,13 @@ metaInfs:
   Raven IGC Victory SKIN (Permanent):
     id: 45012
     volume: 0.01
-  Cormorant IGC Victory SKIN (Permanent):
+  Cormorant IGC SKIN (Permanent):
     id: 45013
     volume: 0.01
-  Caracal IGC Victory SKIN (Permanent):
+  Caracal IGC SKIN (Permanent):
     id: 45014
     volume: 0.01
-  Drake IGC Victory SKIN (Permanent):
+  Drake IGC SKIN (Permanent):
     id: 45015
     volume: 0.01
   Astero SOE Blue Cell (Surveillance) SKIN (Permanent):
@@ -83613,6 +82463,12 @@ metaInfs:
   Nestor SOE Gold Cell (Archaeology) SKIN (Permanent):
     id: 45485
     volume: 0.01
+  Pacifier Blueprint:
+    id: 45486
+    volume: 0.01
+  Enforcer Blueprint:
+    id: 45487
+    volume: 0.01
   Taipan Hostile Takeover SKIN (Permanent):
     id: 45505
     volume: 0.01
@@ -83667,6 +82523,18 @@ metaInfs:
   Men's Corporate Troubleshooter Gear:
     id: 45527
     volume: 0.1
+  Virtuoso:
+    id: 45530
+    volume: 28100.0
+  Victor:
+    id: 45531
+    volume: 116000.0
+  Victor Blueprint:
+    id: 45532
+    volume: 0.01
+  Virtuoso Blueprint:
+    id: 45533
+    volume: 0.01
   Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency:
     id: 45544
     productOf:
@@ -83799,9 +82667,246 @@ metaInfs:
   Thukker Capital Component Manufacturing Technical Data Chip:
     id: 45585
     volume: 0.1
-  Rogue Swarm Accelerator:
-    id: 45634
-    volume: 1.0
+  Legion Defensive - Covert Reconfiguration:
+    id: 45586
+    productOf:
+    - Legion Defensive - Covert Reconfiguration Blueprint
+    volume: 40.0
+  Legion Defensive - Augmented Plating:
+    id: 45587
+    productOf:
+    - Legion Defensive - Augmented Plating Blueprint
+    volume: 40.0
+  Legion Defensive - Nanobot Injector:
+    id: 45588
+    productOf:
+    - Legion Defensive - Nanobot Injector Blueprint
+    volume: 40.0
+  Tengu Defensive - Covert Reconfiguration:
+    id: 45589
+    productOf:
+    - Tengu Defensive - Covert Reconfiguration Blueprint
+    volume: 40.0
+  Tengu Defensive - Supplemental Screening:
+    id: 45590
+    productOf:
+    - Tengu Defensive - Supplemental Screening Blueprint
+    volume: 40.0
+  Tengu Defensive - Amplification Node:
+    id: 45591
+    productOf:
+    - Tengu Defensive - Amplification Node Blueprint
+    volume: 40.0
+  Proteus Defensive - Covert Reconfiguration:
+    id: 45592
+    productOf:
+    - Proteus Defensive - Covert Reconfiguration Blueprint
+    volume: 40.0
+  Proteus Defensive - Augmented Plating:
+    id: 45593
+    productOf:
+    - Proteus Defensive - Augmented Plating Blueprint
+    volume: 40.0
+  Proteus Defensive - Nanobot Injector:
+    id: 45594
+    productOf:
+    - Proteus Defensive - Nanobot Injector Blueprint
+    volume: 40.0
+  Loki Defensive - Covert Reconfiguration:
+    id: 45595
+    productOf:
+    - Loki Defensive - Covert Reconfiguration Blueprint
+    volume: 40.0
+  Loki Defensive - Augmented Durability:
+    id: 45596
+    productOf:
+    - Loki Defensive - Augmented Durability Blueprint
+    volume: 40.0
+  Loki Defensive - Adaptive Defense Node:
+    id: 45597
+    productOf:
+    - Loki Defensive - Adaptive Defense Node Blueprint
+    volume: 40.0
+  Legion Offensive - Liquid Crystal Magnifiers:
+    id: 45598
+    productOf:
+    - Legion Offensive - Liquid Crystal Magnifiers Blueprint
+    volume: 40.0
+  Legion Offensive - Assault Optimization:
+    id: 45599
+    productOf:
+    - Legion Offensive - Assault Optimization Blueprint
+    volume: 40.0
+  Legion Offensive - Support Processor:
+    id: 45600
+    productOf:
+    - Legion Offensive - Support Processor Blueprint
+    volume: 40.0
+  Tengu Offensive - Accelerated Ejection Bay:
+    id: 45601
+    productOf:
+    - Tengu Offensive - Accelerated Ejection Bay Blueprint
+    volume: 40.0
+  Tengu Offensive - Magnetic Infusion Basin:
+    id: 45602
+    productOf:
+    - Tengu Offensive - Magnetic Infusion Basin Blueprint
+    volume: 40.0
+  Tengu Offensive - Support Processor:
+    id: 45603
+    productOf:
+    - Tengu Offensive - Support Processor Blueprint
+    volume: 40.0
+  Proteus Offensive - Hybrid Encoding Platform:
+    id: 45604
+    productOf:
+    - Proteus Offensive - Hybrid Encoding Platform Blueprint
+    volume: 40.0
+  Proteus Offensive - Drone Synthesis Projector:
+    id: 45605
+    productOf:
+    - Proteus Offensive - Drone Synthesis Projector Blueprint
+    volume: 40.0
+  Proteus Offensive - Support Processor:
+    id: 45606
+    productOf:
+    - Proteus Offensive - Support Processor Blueprint
+    volume: 40.0
+  Loki Offensive - Projectile Scoping Array:
+    id: 45607
+    productOf:
+    - Loki Offensive - Projectile Scoping Array Blueprint
+    volume: 40.0
+  Loki Offensive - Launcher Efficiency Configuration:
+    id: 45608
+    productOf:
+    - Loki Offensive - Launcher Efficiency Configuration Blueprint
+    volume: 40.0
+  Loki Offensive - Support Processor:
+    id: 45609
+    productOf:
+    - Loki Offensive - Support Processor Blueprint
+    volume: 40.0
+  Legion Propulsion - Interdiction Nullifier:
+    id: 45610
+    productOf:
+    - Legion Propulsion - Interdiction Nullifier Blueprint
+    volume: 40.0
+  Legion Propulsion - Intercalated Nanofibers:
+    id: 45611
+    productOf:
+    - Legion Propulsion - Intercalated Nanofibers Blueprint
+    volume: 40.0
+  Legion Propulsion - Wake Limiter:
+    id: 45612
+    productOf:
+    - Legion Propulsion - Wake Limiter Blueprint
+    volume: 40.0
+  Tengu Propulsion - Interdiction Nullifier:
+    id: 45613
+    productOf:
+    - Tengu Propulsion - Interdiction Nullifier Blueprint
+    volume: 40.0
+  Tengu Propulsion - Chassis Optimization:
+    id: 45614
+    productOf:
+    - Tengu Propulsion - Chassis Optimization Blueprint
+    volume: 40.0
+  Tengu Propulsion - Fuel Catalyst:
+    id: 45615
+    productOf:
+    - Tengu Propulsion - Fuel Catalyst Blueprint
+    volume: 40.0
+  Proteus Propulsion - Interdiction Nullifier:
+    id: 45616
+    productOf:
+    - Proteus Propulsion - Interdiction Nullifier Blueprint
+    volume: 40.0
+  Proteus Propulsion - Hyperspatial Optimization:
+    id: 45617
+    productOf:
+    - Proteus Propulsion - Hyperspatial Optimization Blueprint
+    volume: 40.0
+  Proteus Propulsion - Localized Injectors:
+    id: 45618
+    productOf:
+    - Proteus Propulsion - Localized Injectors Blueprint
+    volume: 40.0
+  Loki Propulsion - Interdiction Nullifier:
+    id: 45619
+    productOf:
+    - Loki Propulsion - Interdiction Nullifier Blueprint
+    volume: 40.0
+  Loki Propulsion - Intercalated Nanofibers:
+    id: 45620
+    productOf:
+    - Loki Propulsion - Intercalated Nanofibers Blueprint
+    volume: 40.0
+  Loki Propulsion - Wake Limiter:
+    id: 45621
+    productOf:
+    - Loki Propulsion - Wake Limiter Blueprint
+    volume: 40.0
+  Legion Core - Dissolution Sequencer:
+    id: 45622
+    productOf:
+    - Legion Core - Dissolution Sequencer Blueprint
+    volume: 40.0
+  Legion Core - Augmented Antimatter Reactor:
+    id: 45623
+    productOf:
+    - Legion Core - Augmented Antimatter Reactor Blueprint
+    volume: 40.0
+  Legion Core - Energy Parasitic Complex:
+    id: 45624
+    productOf:
+    - Legion Core - Energy Parasitic Complex Blueprint
+    volume: 40.0
+  Tengu Core - Electronic Efficiency Gate:
+    id: 45625
+    productOf:
+    - Tengu Core - Electronic Efficiency Gate Blueprint
+    volume: 40.0
+  Tengu Core - Augmented Graviton Reactor:
+    id: 45626
+    productOf:
+    - Tengu Core - Augmented Graviton Reactor Blueprint
+    volume: 40.0
+  Tengu Core - Obfuscation Manifold:
+    id: 45627
+    productOf:
+    - Tengu Core - Obfuscation Manifold Blueprint
+    volume: 40.0
+  Proteus Core - Electronic Efficiency Gate:
+    id: 45628
+    productOf:
+    - Proteus Core - Electronic Efficiency Gate Blueprint
+    volume: 40.0
+  Proteus Core - Augmented Fusion Reactor:
+    id: 45629
+    productOf:
+    - Proteus Core - Augmented Fusion Reactor Blueprint
+    volume: 40.0
+  Proteus Core - Friction Extension Processor:
+    id: 45630
+    productOf:
+    - Proteus Core - Friction Extension Processor Blueprint
+    volume: 40.0
+  Loki Core - Dissolution Sequencer:
+    id: 45631
+    productOf:
+    - Loki Core - Dissolution Sequencer Blueprint
+    volume: 40.0
+  Loki Core - Augmented Nuclear Reactor:
+    id: 45632
+    productOf:
+    - Loki Core - Augmented Nuclear Reactor Blueprint
+    volume: 40.0
+  Loki Core - Immobility Drivers:
+    id: 45633
+    productOf:
+    - Loki Core - Immobility Drivers Blueprint
+    volume: 40.0
   Small Skill Injector:
     id: 45635
     volume: 0.002
@@ -83823,67 +82928,75 @@ metaInfs:
     volume: 0.01
   Superconducting Magnetometric Amplifier:
     id: 45652
+    productIn:
+    - Proteus Blueprint
     productOf:
     - Superconducting Magnetometric Amplifier Blueprint
     volume: 5.0
   Superconducting Gravimetric Amplifier:
     id: 45653
+    productIn:
+    - Tengu Blueprint
     productOf:
-    - ' Superconducting Gravimetric Amplifier Blueprint'
+    - Superconducting Gravimetric Amplifier Blueprint
     volume: 5.0
   Superconducting Radar Amplifier:
     id: 45654
+    productIn:
+    - Legion Blueprint
     productOf:
-    - ' Superconducting Radar Amplifier Blueprint'
+    - Superconducting Radar Amplifier Blueprint
     volume: 5.0
-  ' Superconducting Ladar Amplifier':
+  Superconducting Ladar Amplifier:
     id: 45655
+    productIn:
+    - Loki Blueprint
     productOf:
-    - ' Superconducting Ladar Amplifier Blueprint'
+    - Superconducting Ladar Amplifier Blueprint
     volume: 5.0
   Superconducting Magnetometric Amplifier Blueprint:
     id: 45656
     volume: 0.01
-  ' Superconducting Gravimetric Amplifier Blueprint':
+  Superconducting Gravimetric Amplifier Blueprint:
     id: 45657
     volume: 0.01
-  ' Superconducting Radar Amplifier Blueprint':
+  Superconducting Radar Amplifier Blueprint:
     id: 45658
     volume: 0.01
-  ' Superconducting Ladar Amplifier Blueprint':
+  Superconducting Ladar Amplifier Blueprint:
     id: 45659
     volume: 0.01
   Scorched Microgravimeter:
     id: 45660
     productIn:
     - Superconducting Magnetometric Amplifier Blueprint
-    - ' Superconducting Gravimetric Amplifier Blueprint'
-    - ' Superconducting Radar Amplifier Blueprint'
-    - ' Superconducting Ladar Amplifier Blueprint'
+    - Superconducting Gravimetric Amplifier Blueprint
+    - Superconducting Radar Amplifier Blueprint
+    - Superconducting Ladar Amplifier Blueprint
     volume: 0.01
   Faraday Force Magnetometer:
     id: 45661
     productIn:
     - Superconducting Magnetometric Amplifier Blueprint
-    - ' Superconducting Gravimetric Amplifier Blueprint'
-    - ' Superconducting Radar Amplifier Blueprint'
-    - ' Superconducting Ladar Amplifier Blueprint'
+    - Superconducting Gravimetric Amplifier Blueprint
+    - Superconducting Radar Amplifier Blueprint
+    - Superconducting Ladar Amplifier Blueprint
     volume: 0.01
   Ancient Radar Decorrelator:
     id: 45662
     productIn:
     - Superconducting Magnetometric Amplifier Blueprint
-    - ' Superconducting Gravimetric Amplifier Blueprint'
-    - ' Superconducting Radar Amplifier Blueprint'
-    - ' Superconducting Ladar Amplifier Blueprint'
+    - Superconducting Gravimetric Amplifier Blueprint
+    - Superconducting Radar Amplifier Blueprint
+    - Superconducting Ladar Amplifier Blueprint
     volume: 0.01
   Synthetic Aperture Ladar Receiver:
     id: 45663
     productIn:
     - Superconducting Magnetometric Amplifier Blueprint
-    - ' Superconducting Gravimetric Amplifier Blueprint'
-    - ' Superconducting Radar Amplifier Blueprint'
-    - ' Superconducting Ladar Amplifier Blueprint'
+    - Superconducting Gravimetric Amplifier Blueprint
+    - Superconducting Radar Amplifier Blueprint
+    - Superconducting Ladar Amplifier Blueprint
     volume: 0.01
   Sin Ruby Sungrazer SKIN (Permanent):
     id: 45664
@@ -83909,6 +83022,1386 @@ metaInfs:
   Blood Raider Dagon Blueprint Armored Cache:
     id: 45679
     volume: 20000.0
+  Legion Defensive - Covert Reconfiguration Blueprint:
+    id: 45681
+    productOf:
+    - Intact Armor Nanobot
+    - Malfunctioning Armor Nanobot
+    - Wrecked Armor Nanobot
+    volume: 0.01
+  Legion Defensive - Augmented Plating Blueprint:
+    id: 45682
+    productOf:
+    - Intact Armor Nanobot
+    - Malfunctioning Armor Nanobot
+    - Wrecked Armor Nanobot
+    volume: 0.01
+  Legion Defensive - Nanobot Injector Blueprint:
+    id: 45683
+    productOf:
+    - Intact Armor Nanobot
+    - Malfunctioning Armor Nanobot
+    - Wrecked Armor Nanobot
+    volume: 0.01
+  Tengu Defensive - Covert Reconfiguration Blueprint:
+    id: 45684
+    productOf:
+    - Intact Armor Nanobot
+    - Malfunctioning Armor Nanobot
+    - Wrecked Armor Nanobot
+    volume: 0.01
+  Tengu Defensive - Supplemental Screening Blueprint:
+    id: 45685
+    productOf:
+    - Intact Armor Nanobot
+    - Malfunctioning Armor Nanobot
+    - Wrecked Armor Nanobot
+    volume: 0.01
+  Tengu Defensive - Amplification Node Blueprint:
+    id: 45686
+    productOf:
+    - Intact Armor Nanobot
+    - Malfunctioning Armor Nanobot
+    - Wrecked Armor Nanobot
+    volume: 0.01
+  Proteus Defensive - Covert Reconfiguration Blueprint:
+    id: 45687
+    productOf:
+    - Intact Armor Nanobot
+    - Malfunctioning Armor Nanobot
+    - Wrecked Armor Nanobot
+    volume: 0.01
+  Proteus Defensive - Augmented Plating Blueprint:
+    id: 45688
+    productOf:
+    - Intact Armor Nanobot
+    - Malfunctioning Armor Nanobot
+    - Wrecked Armor Nanobot
+    volume: 0.01
+  Proteus Defensive - Nanobot Injector Blueprint:
+    id: 45689
+    productOf:
+    - Intact Armor Nanobot
+    - Malfunctioning Armor Nanobot
+    - Wrecked Armor Nanobot
+    volume: 0.01
+  Loki Defensive - Covert Reconfiguration Blueprint:
+    id: 45690
+    productOf:
+    - Intact Armor Nanobot
+    - Malfunctioning Armor Nanobot
+    - Wrecked Armor Nanobot
+    volume: 0.01
+  Loki Defensive - Augmented Durability Blueprint:
+    id: 45691
+    productOf:
+    - Intact Armor Nanobot
+    - Malfunctioning Armor Nanobot
+    - Wrecked Armor Nanobot
+    volume: 0.01
+  Loki Defensive - Adaptive Defense Node Blueprint:
+    id: 45692
+    productOf:
+    - Intact Armor Nanobot
+    - Malfunctioning Armor Nanobot
+    - Wrecked Armor Nanobot
+    volume: 0.01
+  Legion Offensive - Liquid Crystal Magnifiers Blueprint:
+    id: 45693
+    productOf:
+    - Intact Weapon Subroutines
+    - Malfunctioning Weapon Subroutines
+    - Wrecked Weapon Subroutines
+    volume: 0.01
+  Legion Offensive - Assault Optimization Blueprint:
+    id: 45694
+    productOf:
+    - Intact Weapon Subroutines
+    - Malfunctioning Weapon Subroutines
+    - Wrecked Weapon Subroutines
+    volume: 0.01
+  Legion Offensive - Support Processor Blueprint:
+    id: 45695
+    productOf:
+    - Intact Weapon Subroutines
+    - Malfunctioning Weapon Subroutines
+    - Wrecked Weapon Subroutines
+    volume: 0.01
+  Tengu Offensive - Accelerated Ejection Bay Blueprint:
+    id: 45696
+    productOf:
+    - Intact Weapon Subroutines
+    - Malfunctioning Weapon Subroutines
+    - Wrecked Weapon Subroutines
+    volume: 0.01
+  Tengu Offensive - Magnetic Infusion Basin Blueprint:
+    id: 45697
+    productOf:
+    - Intact Weapon Subroutines
+    - Malfunctioning Weapon Subroutines
+    - Wrecked Weapon Subroutines
+    volume: 0.01
+  Tengu Offensive - Support Processor Blueprint:
+    id: 45698
+    productOf:
+    - Intact Weapon Subroutines
+    - Malfunctioning Weapon Subroutines
+    - Wrecked Weapon Subroutines
+    volume: 0.01
+  Proteus Offensive - Hybrid Encoding Platform Blueprint:
+    id: 45699
+    productOf:
+    - Intact Weapon Subroutines
+    - Malfunctioning Weapon Subroutines
+    - Wrecked Weapon Subroutines
+    volume: 0.01
+  Proteus Offensive - Drone Synthesis Projector Blueprint:
+    id: 45700
+    productOf:
+    - Intact Weapon Subroutines
+    - Malfunctioning Weapon Subroutines
+    - Wrecked Weapon Subroutines
+    volume: 0.01
+  Proteus Offensive - Support Processor Blueprint:
+    id: 45701
+    productOf:
+    - Intact Weapon Subroutines
+    - Malfunctioning Weapon Subroutines
+    - Wrecked Weapon Subroutines
+    volume: 0.01
+  Loki Offensive - Projectile Scoping Array Blueprint:
+    id: 45702
+    productOf:
+    - Intact Weapon Subroutines
+    - Malfunctioning Weapon Subroutines
+    - Wrecked Weapon Subroutines
+    volume: 0.01
+  Loki Offensive - Launcher Efficiency Configuration Blueprint:
+    id: 45703
+    productOf:
+    - Intact Weapon Subroutines
+    - Malfunctioning Weapon Subroutines
+    - Wrecked Weapon Subroutines
+    volume: 0.01
+  Loki Offensive - Support Processor Blueprint:
+    id: 45704
+    productOf:
+    - Intact Weapon Subroutines
+    - Malfunctioning Weapon Subroutines
+    - Wrecked Weapon Subroutines
+    volume: 0.01
+  Legion Propulsion - Interdiction Nullifier Blueprint:
+    id: 45705
+    productOf:
+    - Intact Thruster Sections
+    - Malfunctioning Thruster Sections
+    - Wrecked Thruster Sections
+    volume: 0.01
+  Legion Propulsion - Intercalated Nanofibers Blueprint:
+    id: 45706
+    productOf:
+    - Intact Thruster Sections
+    - Malfunctioning Thruster Sections
+    - Wrecked Thruster Sections
+    volume: 0.01
+  Legion Propulsion - Wake Limiter Blueprint:
+    id: 45707
+    productOf:
+    - Intact Thruster Sections
+    - Malfunctioning Thruster Sections
+    - Wrecked Thruster Sections
+    volume: 0.01
+  Tengu Propulsion - Interdiction Nullifier Blueprint:
+    id: 45708
+    productOf:
+    - Intact Thruster Sections
+    - Malfunctioning Thruster Sections
+    - Wrecked Thruster Sections
+    volume: 0.01
+  Tengu Propulsion - Chassis Optimization Blueprint:
+    id: 45709
+    productOf:
+    - Intact Thruster Sections
+    - Malfunctioning Thruster Sections
+    - Wrecked Thruster Sections
+    volume: 0.01
+  Tengu Propulsion - Fuel Catalyst Blueprint:
+    id: 45710
+    productOf:
+    - Intact Thruster Sections
+    - Malfunctioning Thruster Sections
+    - Wrecked Thruster Sections
+    volume: 0.01
+  Proteus Propulsion - Interdiction Nullifier Blueprint:
+    id: 45711
+    productOf:
+    - Intact Thruster Sections
+    - Malfunctioning Thruster Sections
+    - Wrecked Thruster Sections
+    volume: 0.01
+  Proteus Propulsion - Hyperspatial Optimization Blueprint:
+    id: 45712
+    productOf:
+    - Intact Thruster Sections
+    - Malfunctioning Thruster Sections
+    - Wrecked Thruster Sections
+    volume: 0.01
+  Proteus Propulsion - Localized Injectors Blueprint:
+    id: 45713
+    productOf:
+    - Intact Thruster Sections
+    - Malfunctioning Thruster Sections
+    - Wrecked Thruster Sections
+    volume: 0.01
+  Loki Propulsion - Interdiction Nullifier Blueprint:
+    id: 45714
+    productOf:
+    - Intact Thruster Sections
+    - Malfunctioning Thruster Sections
+    - Wrecked Thruster Sections
+    volume: 0.01
+  Loki Propulsion - Intercalated Nanofibers Blueprint:
+    id: 45715
+    productOf:
+    - Intact Thruster Sections
+    - Malfunctioning Thruster Sections
+    - Wrecked Thruster Sections
+    volume: 0.01
+  Loki Propulsion - Wake Limiter Blueprint:
+    id: 45716
+    productOf:
+    - Intact Thruster Sections
+    - Malfunctioning Thruster Sections
+    - Wrecked Thruster Sections
+    volume: 0.01
+  Legion Core - Dissolution Sequencer Blueprint:
+    id: 45717
+    productOf:
+    - Intact Power Cores
+    - Malfunctioning Power Cores
+    - Wrecked Power Cores
+    volume: 0.01
+  Legion Core - Augmented Antimatter Reactor Blueprint:
+    id: 45718
+    productOf:
+    - Intact Power Cores
+    - Malfunctioning Power Cores
+    - Wrecked Power Cores
+    volume: 0.01
+  Legion Core - Energy Parasitic Complex Blueprint:
+    id: 45719
+    productOf:
+    - Intact Power Cores
+    - Malfunctioning Power Cores
+    - Wrecked Power Cores
+    volume: 0.01
+  Tengu Core - Electronic Efficiency Gate Blueprint:
+    id: 45720
+    productOf:
+    - Intact Power Cores
+    - Malfunctioning Power Cores
+    - Wrecked Power Cores
+    volume: 0.01
+  Tengu Core - Augmented Graviton Reactor Blueprint:
+    id: 45721
+    productOf:
+    - Intact Power Cores
+    - Malfunctioning Power Cores
+    - Wrecked Power Cores
+    volume: 0.01
+  Tengu Core - Obfuscation Manifold Blueprint:
+    id: 45722
+    productOf:
+    - Intact Power Cores
+    - Malfunctioning Power Cores
+    - Wrecked Power Cores
+    volume: 0.01
+  Proteus Core - Electronic Efficiency Gate Blueprint:
+    id: 45723
+    productOf:
+    - Intact Power Cores
+    - Malfunctioning Power Cores
+    - Wrecked Power Cores
+    volume: 0.01
+  Proteus Core - Augmented Fusion Reactor Blueprint:
+    id: 45724
+    productOf:
+    - Intact Power Cores
+    - Malfunctioning Power Cores
+    - Wrecked Power Cores
+    volume: 0.01
+  Proteus Core - Friction Extension Processor Blueprint:
+    id: 45725
+    productOf:
+    - Intact Power Cores
+    - Malfunctioning Power Cores
+    - Wrecked Power Cores
+    volume: 0.01
+  Loki Core - Dissolution Sequencer Blueprint:
+    id: 45726
+    productOf:
+    - Intact Power Cores
+    - Malfunctioning Power Cores
+    - Wrecked Power Cores
+    volume: 0.01
+  Loki Core - Augmented Nuclear Reactor Blueprint:
+    id: 45727
+    productOf:
+    - Intact Power Cores
+    - Malfunctioning Power Cores
+    - Wrecked Power Cores
+    volume: 0.01
+  Loki Core - Immobility Drivers Blueprint:
+    id: 45728
+    productOf:
+    - Intact Power Cores
+    - Malfunctioning Power Cores
+    - Wrecked Power Cores
+    volume: 0.01
+  Women's Exoplanets Hunter T-shirt:
+    id: 45734
+    volume: 0.1
+  Women's Exoplanets Hunter Mission Suit:
+    id: 45735
+    volume: 0.1
+  Women's Exoplanets Data Analyst Lab Coat:
+    id: 45737
+    volume: 0.1
+  Women's Exoplanets Program Director Coat:
+    id: 45738
+    volume: 0.1
+  Women's Exoplanets Hunter Cap:
+    id: 45739
+    volume: 0.1
+  Men's Exoplanets Hunter Cap:
+    id: 45740
+    volume: 0.1
+  Men's Exoplanets Hunter Mission Suit:
+    id: 45741
+    volume: 0.1
+  Men's Exoplanets Program Director Coat:
+    id: 45742
+    volume: 0.1
+  Men's Exoplanets Hunter T-shirt:
+    id: 45743
+    volume: 0.1
+  Men's Exoplanets Data Analyst Lab Coat:
+    id: 45744
+    volume: 0.1
+  Men's 'Farsight' Augmented Spectacles:
+    id: 45745
+    volume: 0.1
+  Amarr Shuttle Exoplanets Hunter SKIN (Permanent):
+    id: 45751
+    volume: 0.01
+  Impairor Exoplanets Hunter SKIN (Permanent):
+    id: 45752
+    volume: 0.01
+  Crucifier Exoplanets Hunter SKIN (Permanent):
+    id: 45753
+    volume: 0.01
+  Executioner Exoplanets Hunter SKIN (Permanent):
+    id: 45754
+    volume: 0.01
+  Inquisitor Exoplanets Hunter SKIN (Permanent):
+    id: 45755
+    volume: 0.01
+  Magnate Exoplanets Hunter SKIN (Permanent):
+    id: 45756
+    volume: 0.01
+  Punisher Exoplanets Hunter SKIN (Permanent):
+    id: 45757
+    volume: 0.01
+  Tormentor Exoplanets Hunter SKIN (Permanent):
+    id: 45758
+    volume: 0.01
+  Retribution Exoplanets Hunter SKIN (Permanent):
+    id: 45759
+    volume: 0.01
+  Vengeance Exoplanets Hunter SKIN (Permanent):
+    id: 45760
+    volume: 0.01
+  Anathema Exoplanets Hunter SKIN (Permanent):
+    id: 45761
+    volume: 0.01
+  Purifier Exoplanets Hunter SKIN (Permanent):
+    id: 45762
+    volume: 0.01
+  Sentinel Exoplanets Hunter SKIN (Permanent):
+    id: 45763
+    volume: 0.01
+  Crusader Exoplanets Hunter SKIN (Permanent):
+    id: 45764
+    volume: 0.01
+  Malediction Exoplanets Hunter SKIN (Permanent):
+    id: 45765
+    volume: 0.01
+  Deacon Exoplanets Hunter SKIN (Permanent):
+    id: 45766
+    volume: 0.01
+  Imperial Navy Slicer Exoplanets Hunter SKIN (Permanent):
+    id: 45767
+    volume: 0.01
+  Crucifier Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45768
+    volume: 0.01
+  Coercer Exoplanets Hunter SKIN (Permanent):
+    id: 45769
+    volume: 0.01
+  Dragoon Exoplanets Hunter SKIN (Permanent):
+    id: 45770
+    volume: 0.01
+  Pontifex Exoplanets Hunter SKIN (Permanent):
+    id: 45771
+    volume: 0.01
+  Heretic Exoplanets Hunter SKIN (Permanent):
+    id: 45772
+    volume: 0.01
+  Confessor Exoplanets Hunter SKIN (Permanent):
+    id: 45773
+    volume: 0.01
+  Arbitrator Exoplanets Hunter SKIN (Permanent):
+    id: 45774
+    volume: 0.01
+  Augoror Exoplanets Hunter SKIN (Permanent):
+    id: 45775
+    volume: 0.01
+  Maller Exoplanets Hunter SKIN (Permanent):
+    id: 45776
+    volume: 0.01
+  Omen Exoplanets Hunter SKIN (Permanent):
+    id: 45777
+    volume: 0.01
+  Sacrilege Exoplanets Hunter SKIN (Permanent):
+    id: 45778
+    volume: 0.01
+  Zealot Exoplanets Hunter SKIN (Permanent):
+    id: 45779
+    volume: 0.01
+  Devoter Exoplanets Hunter SKIN (Permanent):
+    id: 45780
+    volume: 0.01
+  Guardian Exoplanets Hunter SKIN (Permanent):
+    id: 45781
+    volume: 0.01
+  Curse Exoplanets Hunter SKIN (Permanent):
+    id: 45782
+    volume: 0.01
+  Pilgrim Exoplanets Hunter SKIN (Permanent):
+    id: 45783
+    volume: 0.01
+  Augoror Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45785
+    volume: 0.01
+  Omen Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45786
+    volume: 0.01
+  Harbinger Exoplanets Hunter SKIN (Permanent):
+    id: 45787
+    volume: 0.01
+  Oracle Exoplanets Hunter SKIN (Permanent):
+    id: 45788
+    volume: 0.01
+  Prophecy Exoplanets Hunter SKIN (Permanent):
+    id: 45789
+    volume: 0.01
+  Absolution Exoplanets Hunter SKIN (Permanent):
+    id: 45790
+    volume: 0.01
+  Damnation Exoplanets Hunter SKIN (Permanent):
+    id: 45791
+    volume: 0.01
+  Harbinger Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45792
+    volume: 0.01
+  Abaddon Exoplanets Hunter SKIN (Permanent):
+    id: 45793
+    volume: 0.01
+  Apocalypse Exoplanets Hunter SKIN (Permanent):
+    id: 45794
+    volume: 0.01
+  Armageddon Exoplanets Hunter SKIN (Permanent):
+    id: 45795
+    volume: 0.01
+  Redeemer Exoplanets Hunter SKIN (Permanent):
+    id: 45796
+    volume: 0.01
+  Paladin Exoplanets Hunter SKIN (Permanent):
+    id: 45797
+    volume: 0.01
+  Apocalypse Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45798
+    volume: 0.01
+  Armageddon Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45799
+    volume: 0.01
+  Revelation Exoplanets Hunter SKIN (Permanent):
+    id: 45800
+    volume: 0.01
+  Archon Exoplanets Hunter SKIN (Permanent):
+    id: 45801
+    volume: 0.01
+  Aeon Exoplanets Hunter SKIN (Permanent):
+    id: 45802
+    volume: 0.01
+  Avatar Exoplanets Hunter SKIN (Permanent):
+    id: 45803
+    volume: 0.01
+  Bestower Exoplanets Hunter SKIN (Permanent):
+    id: 45804
+    volume: 0.01
+  Sigil Exoplanets Hunter SKIN (Permanent):
+    id: 45805
+    volume: 0.01
+  Prorator Exoplanets Hunter SKIN (Permanent):
+    id: 45806
+    volume: 0.01
+  Impel Exoplanets Hunter SKIN (Permanent):
+    id: 45807
+    volume: 0.01
+  Providence Exoplanets Hunter SKIN (Permanent):
+    id: 45808
+    volume: 0.01
+  Ark Exoplanets Hunter SKIN (Permanent):
+    id: 45809
+    volume: 0.01
+  Caldari Shuttle Exoplanets Hunter SKIN (Permanent):
+    id: 45810
+    volume: 0.01
+  Ibis Exoplanets Hunter SKIN (Permanent):
+    id: 45811
+    volume: 0.01
+  Bantam Exoplanets Hunter SKIN (Permanent):
+    id: 45812
+    volume: 0.01
+  Condor Exoplanets Hunter SKIN (Permanent):
+    id: 45813
+    volume: 0.01
+  Griffin Exoplanets Hunter SKIN (Permanent):
+    id: 45814
+    volume: 0.01
+  Heron Exoplanets Hunter SKIN (Permanent):
+    id: 45815
+    volume: 0.01
+  Kestrel Exoplanets Hunter SKIN (Permanent):
+    id: 45816
+    volume: 0.01
+  Merlin Exoplanets Hunter SKIN (Permanent):
+    id: 45817
+    volume: 0.01
+  Harpy Exoplanets Hunter SKIN (Permanent):
+    id: 45818
+    volume: 0.01
+  Hawk Exoplanets Hunter SKIN (Permanent):
+    id: 45819
+    volume: 0.01
+  Buzzard Exoplanets Hunter SKIN (Permanent):
+    id: 45820
+    volume: 0.01
+  Manticore Exoplanets Hunter SKIN (Permanent):
+    id: 45821
+    volume: 0.01
+  Kitsune Exoplanets Hunter SKIN (Permanent):
+    id: 45822
+    volume: 0.01
+  Crow Exoplanets Hunter SKIN (Permanent):
+    id: 45823
+    volume: 0.01
+  Raptor Exoplanets Hunter SKIN (Permanent):
+    id: 45824
+    volume: 0.01
+  Kirin Exoplanets Hunter SKIN (Permanent):
+    id: 45825
+    volume: 0.01
+  Caldari Navy Hookbill Exoplanets Hunter SKIN (Permanent):
+    id: 45826
+    volume: 0.01
+  Griffin Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45827
+    volume: 0.01
+  Corax Exoplanets Hunter SKIN (Permanent):
+    id: 45828
+    volume: 0.01
+  Cormorant Exoplanets Hunter SKIN (Permanent):
+    id: 45829
+    volume: 0.01
+  Stork Exoplanets Hunter SKIN (Permanent):
+    id: 45830
+    volume: 0.01
+  Flycatcher Exoplanets Hunter SKIN (Permanent):
+    id: 45831
+    volume: 0.01
+  Jackdaw Exoplanets Hunter SKIN (Permanent):
+    id: 45832
+    volume: 0.01
+  Blackbird Exoplanets Hunter SKIN (Permanent):
+    id: 45833
+    volume: 0.01
+  Caracal Exoplanets Hunter SKIN (Permanent):
+    id: 45834
+    volume: 0.01
+  Moa Exoplanets Hunter SKIN (Permanent):
+    id: 45835
+    volume: 0.01
+  Osprey Exoplanets Hunter SKIN (Permanent):
+    id: 45836
+    volume: 0.01
+  Cerberus Exoplanets Hunter SKIN (Permanent):
+    id: 45837
+    volume: 0.01
+  Eagle Exoplanets Hunter SKIN (Permanent):
+    id: 45838
+    volume: 0.01
+  Onyx Exoplanets Hunter SKIN (Permanent):
+    id: 45839
+    volume: 0.01
+  Basilisk Exoplanets Hunter SKIN (Permanent):
+    id: 45840
+    volume: 0.01
+  Falcon Exoplanets Hunter SKIN (Permanent):
+    id: 45841
+    volume: 0.01
+  Rook Exoplanets Hunter SKIN (Permanent):
+    id: 45842
+    volume: 0.01
+  Caracal Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45844
+    volume: 0.01
+  Osprey Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45845
+    volume: 0.01
+  Drake Exoplanets Hunter SKIN (Permanent):
+    id: 45846
+    volume: 0.01
+  Ferox Exoplanets Hunter SKIN (Permanent):
+    id: 45847
+    volume: 0.01
+  Naga Exoplanets Hunter SKIN (Permanent):
+    id: 45848
+    volume: 0.01
+  Nighthawk Exoplanets Hunter SKIN (Permanent):
+    id: 45849
+    volume: 0.01
+  Vulture Exoplanets Hunter SKIN (Permanent):
+    id: 45850
+    volume: 0.01
+  Drake Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45851
+    volume: 0.01
+  Raven Exoplanets Hunter SKIN (Permanent):
+    id: 45852
+    volume: 0.01
+  Rokh Exoplanets Hunter SKIN (Permanent):
+    id: 45853
+    volume: 0.01
+  Scorpion Exoplanets Hunter SKIN (Permanent):
+    id: 45854
+    volume: 0.01
+  Widow Exoplanets Hunter SKIN (Permanent):
+    id: 45855
+    volume: 0.01
+  Golem Exoplanets Hunter SKIN (Permanent):
+    id: 45856
+    volume: 0.01
+  Raven Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45857
+    volume: 0.01
+  Scorpion Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45858
+    volume: 0.01
+  Phoenix Exoplanets Hunter SKIN (Permanent):
+    id: 45859
+    volume: 0.01
+  Chimera Exoplanets Hunter SKIN (Permanent):
+    id: 45860
+    volume: 0.01
+  Wyvern Exoplanets Hunter SKIN (Permanent):
+    id: 45861
+    volume: 0.01
+  Leviathan Exoplanets Hunter SKIN (Permanent):
+    id: 45862
+    volume: 0.01
+  Badger Exoplanets Hunter SKIN (Permanent):
+    id: 45863
+    volume: 0.01
+  Tayra Exoplanets Hunter SKIN (Permanent):
+    id: 45864
+    volume: 0.01
+  Crane Exoplanets Hunter SKIN (Permanent):
+    id: 45865
+    volume: 0.01
+  Bustard Exoplanets Hunter SKIN (Permanent):
+    id: 45866
+    volume: 0.01
+  Charon Exoplanets Hunter SKIN (Permanent):
+    id: 45867
+    volume: 0.01
+  Rhea Exoplanets Hunter SKIN (Permanent):
+    id: 45868
+    volume: 0.01
+  Gallente Shuttle Exoplanets Hunter SKIN (Permanent):
+    id: 45869
+    volume: 0.01
+  Velator Exoplanets Hunter SKIN (Permanent):
+    id: 45870
+    volume: 0.01
+  Atron Exoplanets Hunter SKIN (Permanent):
+    id: 45871
+    volume: 0.01
+  Imicus Exoplanets Hunter SKIN (Permanent):
+    id: 45872
+    volume: 0.01
+  Incursus Exoplanets Hunter SKIN (Permanent):
+    id: 45873
+    volume: 0.01
+  Maulus Exoplanets Hunter SKIN (Permanent):
+    id: 45874
+    volume: 0.01
+  Navitas Exoplanets Hunter SKIN (Permanent):
+    id: 45875
+    volume: 0.01
+  Tristan Exoplanets Hunter SKIN (Permanent):
+    id: 45876
+    volume: 0.01
+  Enyo Exoplanets Hunter SKIN (Permanent):
+    id: 45877
+    volume: 0.01
+  Ishkur Exoplanets Hunter SKIN (Permanent):
+    id: 45878
+    volume: 0.01
+  Helios Exoplanets Hunter SKIN (Permanent):
+    id: 45879
+    volume: 0.01
+  Nemesis Exoplanets Hunter SKIN (Permanent):
+    id: 45880
+    volume: 0.01
+  Keres Exoplanets Hunter SKIN (Permanent):
+    id: 45881
+    volume: 0.01
+  Ares Exoplanets Hunter SKIN (Permanent):
+    id: 45882
+    volume: 0.01
+  Taranis Exoplanets Hunter SKIN (Permanent):
+    id: 45883
+    volume: 0.01
+  Thalia Exoplanets Hunter SKIN (Permanent):
+    id: 45884
+    volume: 0.01
+  Federation Navy Comet Exoplanets Hunter SKIN (Permanent):
+    id: 45885
+    volume: 0.01
+  Maulus Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45886
+    volume: 0.01
+  Algos Exoplanets Hunter SKIN (Permanent):
+    id: 45887
+    volume: 0.01
+  Catalyst Exoplanets Hunter SKIN (Permanent):
+    id: 45888
+    volume: 0.01
+  Magus Exoplanets Hunter SKIN (Permanent):
+    id: 45889
+    volume: 0.01
+  Eris Exoplanets Hunter SKIN (Permanent):
+    id: 45890
+    volume: 0.01
+  Hecate Exoplanets Hunter SKIN (Permanent):
+    id: 45891
+    volume: 0.01
+  Celestis Exoplanets Hunter SKIN (Permanent):
+    id: 45892
+    volume: 0.01
+  Exequror Exoplanets Hunter SKIN (Permanent):
+    id: 45893
+    volume: 0.01
+  Thorax Exoplanets Hunter SKIN (Permanent):
+    id: 45894
+    volume: 0.01
+  Vexor Exoplanets Hunter SKIN (Permanent):
+    id: 45895
+    volume: 0.01
+  Deimos Exoplanets Hunter SKIN (Permanent):
+    id: 45896
+    volume: 0.01
+  Ishtar Exoplanets Hunter SKIN (Permanent):
+    id: 45897
+    volume: 0.01
+  Phobos Exoplanets Hunter SKIN (Permanent):
+    id: 45898
+    volume: 0.01
+  Oneiros Exoplanets Hunter SKIN (Permanent):
+    id: 45899
+    volume: 0.01
+  Arazu Exoplanets Hunter SKIN (Permanent):
+    id: 45900
+    volume: 0.01
+  Lachesis Exoplanets Hunter SKIN (Permanent):
+    id: 45901
+    volume: 0.01
+  Exequror Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45903
+    volume: 0.01
+  Vexor Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45904
+    volume: 0.01
+  Brutix Exoplanets Hunter SKIN (Permanent):
+    id: 45905
+    volume: 0.01
+  Myrmidon Exoplanets Hunter SKIN (Permanent):
+    id: 45906
+    volume: 0.01
+  Talos Exoplanets Hunter SKIN (Permanent):
+    id: 45907
+    volume: 0.01
+  Astarte Exoplanets Hunter SKIN (Permanent):
+    id: 45908
+    volume: 0.01
+  Eos Exoplanets Hunter SKIN (Permanent):
+    id: 45909
+    volume: 0.01
+  Brutix Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45910
+    volume: 0.01
+  Dominix Exoplanets Hunter SKIN (Permanent):
+    id: 45911
+    volume: 0.01
+  Hyperion Exoplanets Hunter SKIN (Permanent):
+    id: 45912
+    volume: 0.01
+  Megathron Exoplanets Hunter SKIN (Permanent):
+    id: 45913
+    volume: 0.01
+  Sin Exoplanets Hunter SKIN (Permanent):
+    id: 45914
+    volume: 0.01
+  Kronos Exoplanets Hunter SKIN (Permanent):
+    id: 45915
+    volume: 0.01
+  Dominix Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45916
+    volume: 0.01
+  Megathron Navy Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45917
+    volume: 0.01
+  Moros Exoplanets Hunter SKIN (Permanent):
+    id: 45918
+    volume: 0.01
+  Thanatos Exoplanets Hunter SKIN (Permanent):
+    id: 45919
+    volume: 0.01
+  Nyx Exoplanets Hunter SKIN (Permanent):
+    id: 45920
+    volume: 0.01
+  Erebus Exoplanets Hunter SKIN (Permanent):
+    id: 45921
+    volume: 0.01
+  Epithal Exoplanets Hunter SKIN (Permanent):
+    id: 45922
+    volume: 0.01
+  Iteron Mark V Exoplanets Hunter SKIN (Permanent):
+    id: 45923
+    volume: 0.01
+  Kryos Exoplanets Hunter SKIN (Permanent):
+    id: 45924
+    volume: 0.01
+  Miasmos Exoplanets Hunter SKIN (Permanent):
+    id: 45925
+    volume: 0.01
+  Nereus Exoplanets Hunter SKIN (Permanent):
+    id: 45926
+    volume: 0.01
+  Viator Exoplanets Hunter SKIN (Permanent):
+    id: 45927
+    volume: 0.01
+  Occator Exoplanets Hunter SKIN (Permanent):
+    id: 45928
+    volume: 0.01
+  Obelisk Exoplanets Hunter SKIN (Permanent):
+    id: 45929
+    volume: 0.01
+  Anshar Exoplanets Hunter SKIN (Permanent):
+    id: 45930
+    volume: 0.01
+  Minmatar Shuttle Exoplanets Hunter SKIN (Permanent):
+    id: 45931
+    volume: 0.01
+  Reaper Exoplanets Hunter SKIN (Permanent):
+    id: 45932
+    volume: 0.01
+  Breacher Exoplanets Hunter SKIN (Permanent):
+    id: 45933
+    volume: 0.01
+  Burst Exoplanets Hunter SKIN (Permanent):
+    id: 45934
+    volume: 0.01
+  Probe Exoplanets Hunter SKIN (Permanent):
+    id: 45935
+    volume: 0.01
+  Rifter Exoplanets Hunter SKIN (Permanent):
+    id: 45936
+    volume: 0.01
+  Slasher Exoplanets Hunter SKIN (Permanent):
+    id: 45937
+    volume: 0.01
+  Vigil Exoplanets Hunter SKIN (Permanent):
+    id: 45938
+    volume: 0.01
+  Jaguar Exoplanets Hunter SKIN (Permanent):
+    id: 45939
+    volume: 0.01
+  Wolf Exoplanets Hunter SKIN (Permanent):
+    id: 45940
+    volume: 0.01
+  Cheetah Exoplanets Hunter SKIN (Permanent):
+    id: 45941
+    volume: 0.01
+  Hound Exoplanets Hunter SKIN (Permanent):
+    id: 45942
+    volume: 0.01
+  Hyena Exoplanets Hunter SKIN (Permanent):
+    id: 45943
+    volume: 0.01
+  Claw Exoplanets Hunter SKIN (Permanent):
+    id: 45944
+    volume: 0.01
+  Stiletto Exoplanets Hunter SKIN (Permanent):
+    id: 45945
+    volume: 0.01
+  Scalpel Exoplanets Hunter SKIN (Permanent):
+    id: 45946
+    volume: 0.01
+  Republic Fleet Firetail Exoplanets Hunter SKIN (Permanent):
+    id: 45947
+    volume: 0.01
+  Vigil Fleet Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45948
+    volume: 0.01
+  Talwar Exoplanets Hunter SKIN (Permanent):
+    id: 45949
+    volume: 0.01
+  Thrasher Exoplanets Hunter SKIN (Permanent):
+    id: 45950
+    volume: 0.01
+  Bifrost Exoplanets Hunter SKIN (Permanent):
+    id: 45951
+    volume: 0.01
+  Sabre Exoplanets Hunter SKIN (Permanent):
+    id: 45952
+    volume: 0.01
+  Svipul Exoplanets Hunter SKIN (Permanent):
+    id: 45953
+    volume: 0.01
+  Bellicose Exoplanets Hunter SKIN (Permanent):
+    id: 45954
+    volume: 0.01
+  Rupture Exoplanets Hunter SKIN (Permanent):
+    id: 45955
+    volume: 0.01
+  Scythe Exoplanets Hunter SKIN (Permanent):
+    id: 45956
+    volume: 0.01
+  Stabber Exoplanets Hunter SKIN (Permanent):
+    id: 45957
+    volume: 0.01
+  Muninn Exoplanets Hunter SKIN (Permanent):
+    id: 45958
+    volume: 0.01
+  Vagabond Exoplanets Hunter SKIN (Permanent):
+    id: 45959
+    volume: 0.01
+  Broadsword Exoplanets Hunter SKIN (Permanent):
+    id: 45960
+    volume: 0.01
+  Scimitar Exoplanets Hunter SKIN (Permanent):
+    id: 45961
+    volume: 0.01
+  Huginn Exoplanets Hunter SKIN (Permanent):
+    id: 45962
+    volume: 0.01
+  Rapier Exoplanets Hunter SKIN (Permanent):
+    id: 45963
+    volume: 0.01
+  Scythe Fleet Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45965
+    volume: 0.01
+  Stabber Fleet Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45966
+    volume: 0.01
+  Cyclone Exoplanets Hunter SKIN (Permanent):
+    id: 45967
+    volume: 0.01
+  Hurricane Exoplanets Hunter SKIN (Permanent):
+    id: 45968
+    volume: 0.01
+  Tornado Exoplanets Hunter SKIN (Permanent):
+    id: 45969
+    volume: 0.01
+  Claymore Exoplanets Hunter SKIN (Permanent):
+    id: 45970
+    volume: 0.01
+  Sleipnir Exoplanets Hunter SKIN (Permanent):
+    id: 45971
+    volume: 0.01
+  Hurricane Fleet Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45972
+    volume: 0.01
+  Maelstrom Exoplanets Hunter SKIN (Permanent):
+    id: 45973
+    volume: 0.01
+  Tempest Exoplanets Hunter SKIN (Permanent):
+    id: 45974
+    volume: 0.01
+  Typhoon Exoplanets Hunter SKIN (Permanent):
+    id: 45975
+    volume: 0.01
+  Panther Exoplanets Hunter SKIN (Permanent):
+    id: 45976
+    volume: 0.01
+  Vargur Exoplanets Hunter SKIN (Permanent):
+    id: 45977
+    volume: 0.01
+  Tempest Fleet Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45978
+    volume: 0.01
+  Typhoon Fleet Issue Exoplanets Hunter SKIN (Permanent):
+    id: 45979
+    volume: 0.01
+  Naglfar Exoplanets Hunter SKIN (Permanent):
+    id: 45980
+    volume: 0.01
+  Nidhoggur Exoplanets Hunter SKIN (Permanent):
+    id: 45981
+    volume: 0.01
+  Hel Exoplanets Hunter SKIN (Permanent):
+    id: 45982
+    volume: 0.01
+  Ragnarok Exoplanets Hunter SKIN (Permanent):
+    id: 45983
+    volume: 0.01
+  Hoarder Exoplanets Hunter SKIN (Permanent):
+    id: 45984
+    volume: 0.01
+  Mammoth Exoplanets Hunter SKIN (Permanent):
+    id: 45985
+    volume: 0.01
+  Wreathe Exoplanets Hunter SKIN (Permanent):
+    id: 45986
+    volume: 0.01
+  Prowler Exoplanets Hunter SKIN (Permanent):
+    id: 45987
+    volume: 0.01
+  Mastodon Exoplanets Hunter SKIN (Permanent):
+    id: 45988
+    volume: 0.01
+  Fenrir Exoplanets Hunter SKIN (Permanent):
+    id: 45989
+    volume: 0.01
+  Nomad Exoplanets Hunter SKIN (Permanent):
+    id: 45990
+    volume: 0.01
+  Pacifier Exoplanets Hunter SKIN (Permanent):
+    id: 45991
+    volume: 0.01
+  Enforcer Exoplanets Hunter SKIN (Permanent):
+    id: 45992
+    volume: 0.01
+  Exoplanets Hunter Reward Crate:
+    id: 45996
+    volume: 6000.0
+  Tengu Sukuuvestaa SKIN (Permanent):
+    id: 45997
+    volume: 0.01
+  Agency Tank Booster I:
+    id: 46001
+    volume: 1.0
+  Agency Tank Booster II:
+    id: 46002
+    volume: 1.0
+  Agency Tank Booster III:
+    id: 46003
+    volume: 1.0
+  Agency Speed Booster I:
+    id: 46004
+    volume: 1.0
+  Agency Speed Booster II:
+    id: 46005
+    volume: 1.0
+  Agency Speed Booster III:
+    id: 46006
+    volume: 1.0
+  Hel Firewall Breach SKIN (Permanent):
+    id: 46014
+    volume: 0.01
+  Nidhoggur Firewall Breach SKIN (Permanent):
+    id: 46015
+    volume: 0.01
+  Naglfar Firewall Breach SKIN (Permanent):
+    id: 46016
+    volume: 0.01
+  Rupture Firewall Breach SKIN (Permanent):
+    id: 46017
+    volume: 0.01
+  Broadsword Firewall Breach SKIN (Permanent):
+    id: 46018
+    volume: 0.01
+  Muninn Firewall Breach SKIN (Permanent):
+    id: 46019
+    volume: 0.01
+  Enforcer Firewatch SKIN (Permanent):
+    id: 46020
+    volume: 0.01
+  Pacifier Firewatch SKIN (Permanent):
+    id: 46021
+    volume: 0.01
+  Legion Sunburst SKIN (Permanent):
+    id: 46022
+    volume: 0.01
+  Tengu Nightfire SKIN (Permanent):
+    id: 46024
+    volume: 0.01
+  Proteus Skyliner SKIN (Permanent):
+    id: 46025
+    volume: 0.01
+  Loki Battlescar SKIN (Permanent):
+    id: 46026
+    volume: 0.01
+  Men's IGC Location Scout Suit:
+    id: 46038
+    volume: 0.1
+  Women's IGC Location Scout Suit:
+    id: 46039
+    volume: 0.1
+  Vigilant IGC SKIN (Permanent):
+    id: 46040
+    volume: 0.01
+  Violator IGC SKIN (Permanent):
+    id: 46041
+    volume: 0.01
+  Vindicator IGC SKIN (Permanent):
+    id: 46042
+    volume: 0.01
+  Vehement IGC SKIN (Permanent):
+    id: 46043
+    volume: 0.01
+  Vendetta IGC SKIN (Permanent):
+    id: 46044
+    volume: 0.01
+  Vanquisher IGC SKIN (Permanent):
+    id: 46045
+    volume: 0.01
+  Superior Exoplanets Hunter Reward Crate:
+    id: 46050
+    volume: 6000.0
+  Daredevil IGC SKIN (Permanent):
+    id: 46051
+    volume: 0.01
+  Bantam Steel Cardinal SKIN (Permanent):
+    id: 46089
+    volume: 0.01
+  Condor Steel Cardinal SKIN (Permanent):
+    id: 46090
+    volume: 0.01
+  Griffin Steel Cardinal SKIN (Permanent):
+    id: 46091
+    volume: 0.01
+  Heron Steel Cardinal SKIN (Permanent):
+    id: 46092
+    volume: 0.01
+  Kestrel Steel Cardinal SKIN (Permanent):
+    id: 46093
+    volume: 0.01
+  Merlin Steel Cardinal SKIN (Permanent):
+    id: 46094
+    volume: 0.01
+  Harpy Steel Cardinal SKIN (Permanent):
+    id: 46095
+    volume: 0.01
+  Hawk Steel Cardinal SKIN (Permanent):
+    id: 46096
+    volume: 0.01
+  Buzzard Steel Cardinal SKIN (Permanent):
+    id: 46097
+    volume: 0.01
+  Manticore Steel Cardinal SKIN (Permanent):
+    id: 46098
+    volume: 0.01
+  Kitsune Steel Cardinal SKIN (Permanent):
+    id: 46099
+    volume: 0.01
+  Crow Steel Cardinal SKIN (Permanent):
+    id: 46100
+    volume: 0.01
+  Raptor Steel Cardinal SKIN (Permanent):
+    id: 46101
+    volume: 0.01
+  Kirin Steel Cardinal SKIN (Permanent):
+    id: 46102
+    volume: 0.01
+  Caldari Navy Hookbill Steel Cardinal SKIN (Permanent):
+    id: 46103
+    volume: 0.01
+  Griffin Navy Issue Steel Cardinal SKIN (Permanent):
+    id: 46104
+    volume: 0.01
+  Corax Steel Cardinal SKIN (Permanent):
+    id: 46105
+    volume: 0.01
+  Cormorant Steel Cardinal SKIN (Permanent):
+    id: 46106
+    volume: 0.01
+  Stork Steel Cardinal SKIN (Permanent):
+    id: 46107
+    volume: 0.01
+  Flycatcher Steel Cardinal SKIN (Permanent):
+    id: 46108
+    volume: 0.01
+  Jackdaw Steel Cardinal SKIN (Permanent):
+    id: 46109
+    volume: 0.01
+  Blackbird Steel Cardinal SKIN (Permanent):
+    id: 46110
+    volume: 0.01
+  Caracal Steel Cardinal SKIN (Permanent):
+    id: 46111
+    volume: 0.01
+  Moa Steel Cardinal SKIN (Permanent):
+    id: 46112
+    volume: 0.01
+  Osprey Steel Cardinal SKIN (Permanent):
+    id: 46113
+    volume: 0.01
+  Cerberus Steel Cardinal SKIN (Permanent):
+    id: 46114
+    volume: 0.01
+  Eagle Steel Cardinal SKIN (Permanent):
+    id: 46115
+    volume: 0.01
+  Onyx Steel Cardinal SKIN (Permanent):
+    id: 46116
+    volume: 0.01
+  Basilisk Steel Cardinal SKIN (Permanent):
+    id: 46117
+    volume: 0.01
+  Falcon Steel Cardinal SKIN (Permanent):
+    id: 46118
+    volume: 0.01
+  Rook Steel Cardinal SKIN (Permanent):
+    id: 46119
+    volume: 0.01
+  Tengu Steel Cardinal SKIN (Permanent):
+    id: 46120
+    volume: 0.01
+  Caracal Navy Issue Steel Cardinal SKIN (Permanent):
+    id: 46121
+    volume: 0.01
+  Osprey Navy Issue Steel Cardinal SKIN (Permanent):
+    id: 46122
+    volume: 0.01
+  Drake Steel Cardinal SKIN (Permanent):
+    id: 46123
+    volume: 0.01
+  Ferox Steel Cardinal SKIN (Permanent):
+    id: 46124
+    volume: 0.01
+  Naga Steel Cardinal SKIN (Permanent):
+    id: 46125
+    volume: 0.01
+  Nighthawk Steel Cardinal SKIN (Permanent):
+    id: 46126
+    volume: 0.01
+  Vulture Steel Cardinal SKIN (Permanent):
+    id: 46127
+    volume: 0.01
+  Drake Navy Issue Steel Cardinal SKIN (Permanent):
+    id: 46128
+    volume: 0.01
+  Raven Steel Cardinal SKIN (Permanent):
+    id: 46129
+    volume: 0.01
+  Rokh Steel Cardinal SKIN (Permanent):
+    id: 46130
+    volume: 0.01
+  Scorpion Steel Cardinal SKIN (Permanent):
+    id: 46131
+    volume: 0.01
+  Widow Steel Cardinal SKIN (Permanent):
+    id: 46132
+    volume: 0.01
+  Golem Steel Cardinal SKIN (Permanent):
+    id: 46133
+    volume: 0.01
+  Raven Navy Issue Steel Cardinal SKIN (Permanent):
+    id: 46134
+    volume: 0.01
+  Scorpion Navy Issue Steel Cardinal SKIN (Permanent):
+    id: 46135
+    volume: 0.01
+  Phoenix Steel Cardinal SKIN (Permanent):
+    id: 46136
+    volume: 0.01
+  Chimera Steel Cardinal SKIN (Permanent):
+    id: 46137
+    volume: 0.01
+  Wyvern Steel Cardinal SKIN (Permanent):
+    id: 46138
+    volume: 0.01
+  Leviathan Steel Cardinal SKIN (Permanent):
+    id: 46139
+    volume: 0.01
+  Badger Steel Cardinal SKIN (Permanent):
+    id: 46140
+    volume: 0.01
+  Tayra Steel Cardinal SKIN (Permanent):
+    id: 46141
+    volume: 0.01
+  Crane Steel Cardinal SKIN (Permanent):
+    id: 46142
+    volume: 0.01
+  Bustard Steel Cardinal SKIN (Permanent):
+    id: 46143
+    volume: 0.01
+  Charon Steel Cardinal SKIN (Permanent):
+    id: 46144
+    volume: 0.01
+  Rhea Steel Cardinal SKIN (Permanent):
+    id: 46145
+    volume: 0.01
+  Apostle Exoplanets Hunter SKIN (Permanent):
+    id: 46146
+    volume: 0.01
+  Minokawa Exoplanets Hunter SKIN (Permanent):
+    id: 46147
+    volume: 0.01
+  Ninazu Exoplanets Hunter SKIN (Permanent):
+    id: 46148
+    volume: 0.01
+  Lif Exoplanets Hunter SKIN (Permanent):
+    id: 46149
+    volume: 0.01
+  IGC Garment Keeper:
+    id: 46151
+    volume: 0.1
+  A3 Destroyer Package:
+    id: 46266
+    volume: 0.1
+  A3 Industrial Package:
+    id: 46267
+    volume: 0.1
+  A3 Industrial Gear:
+    id: 46268
+    volume: 0.1
+  A3 Combat Gear:
+    id: 46269
+    volume: 0.1
+  Kaatara's Custom Ballistic Control System:
+    id: 46270
+    volume: 5.0
+  Minokawa Steel Cardinal SKIN (Permanent):
+    id: 46276
+    volume: 0.01
+  Chimera Kairiola's Sacrifice SKIN (Permanent):
+    id: 46277
+    volume: 0.01
   Haunter Cruise Missile:
     productOf:
     - Sansha Wrath Cruise Missile Blueprint
@@ -84197,21 +84690,21 @@ metaInfs:
   末日沙场级YC117年特别版:
     productOf:
     - 末日沙场级YC117年特别��蓝图
-  地狱天使级YC117年特���版:
+  地狱天使级YC117年特别版:
     productOf:
     - 地狱天使级YC117年特别版蓝图
   马克瑞级YC117年特别版:
     productOf:
-    - 马克瑞级YC117年特别版蓝图
+    - 马克瑞级YC117年���别版蓝图
   响尾蛇级YC117年特别版:
     productOf:
-    - 响尾蛇级YC117年特别版蓝图
+    - 响尾蛇级YC117年特别��蓝图
   多米尼克斯级YC117年特别版:
     productOf:
     - 多米尼克斯级YC117年特别版蓝图
-  万王��座级YC117年特别版:
+  万王宝座级YC117年特别版:
     productOf:
-    - 万王宝座级YC117年特别版蓝图
+    - 万王宝���级YC117年特别版蓝图
   乌鸦级YC117年特别版:
     productOf:
     - 乌鸦级YC117年特别版蓝图
@@ -84220,16 +84713,13 @@ metaInfs:
     - 灾难级YC117年特别版蓝图
   幼龙级YC117年特别版:
     productOf:
-    - 幼龙级YC117年特别版蓝图
+    - ��龙级YC117年特别版蓝图
   毒蜥级YC117年特别版:
     productOf:
-    - ��蜥级YC117年特别版蓝图
+    - 毒蜥���YC117年特别版蓝图
   银鹰级YC117年特别版:
     productOf:
-    - 银鹰级YC117年特别版蓝图
+    - 银鹰��YC117年特别版蓝图
   伊什塔级YC117年特别版:
     productOf:
     - 伊什塔级YC117年特别版蓝图
-  TE-2100 Ample XL Torpedo Launcher:
-    productOf:
-    - TE-2100 Ample XL Torpedo Launcher Blueprint
