@@ -18,6 +18,7 @@ import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectReader;
 
 public class ESIMarket {
 
@@ -292,10 +293,12 @@ public class ESIMarket {
 		}
 	}
 
+	private ObjectReader marketOrderArrReader = mapper.readerFor(MarketOrder[].class);
+
 	protected MyOrder[] loadOrders(int itemID, boolean buy) {
 		String url = ordersURL + "type_id=" + itemID + "&order_type=" + (buy ? "buy" : "sell");
 		try {
-			MarketOrder[] orders = mapper.readValue(new URL(url), MarketOrder[].class);
+			MarketOrder[] orders = marketOrderArrReader.readValue(new URL(url));
 			MyOrder[] arr = Stream.of(orders).map(mo -> new MyOrder(mo.volume_remain, mo.price)).toArray(MyOrder[]::new);
 			Arrays.sort(arr, buy ? (mo1, mo2) -> (int) Math.signum(mo2.price - mo1.price)
 					: (mo1, mo2) -> (int) Math.signum(mo1.price - mo2.price));

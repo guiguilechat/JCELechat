@@ -113,4 +113,9 @@ public class APIRoot {
 		}
 	}
 
+	@Override
+	public String toString() {
+		return key.keyID + ":" + key.code;
+	}
+
 }
