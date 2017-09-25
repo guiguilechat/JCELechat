@@ -27,8 +27,6 @@ public class ASettingsTest {
 		fs1.store();
 		fs2 = new Yaml().loadAs(new FileReader(fs1.getFile()), FalseSettings.class);
 		Assert.assertEquals(fs2.a, "bbb");
-		fs2 = ISettings.makeYaml().loadAs(new FileReader(fs1.getFile()), FalseSettings.class);
-		Assert.assertEquals(fs2.a, "bbb");
 		fs2 = ISettings.load(FalseSettings.class);
 		Assert.assertEquals(fs2.a, "bbb");
 		fs2.erase();

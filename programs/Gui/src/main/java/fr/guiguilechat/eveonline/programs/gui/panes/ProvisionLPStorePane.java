@@ -11,6 +11,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableColumn.SortType;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
@@ -68,6 +69,8 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		lpcol.setMinWidth(80);
 		lpcol.setMaxWidth(80);
 		listOffersPane.getColumns().add(lpcol);
+		lpcol.setSortType(SortType.DESCENDING);
+		listOffersPane.getSortOrder().add(lpcol);
 
 		TableColumn<OfferRow, TextField> nbCol = new TableColumn<>();
 		nbCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().nb_field));
@@ -85,6 +88,7 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 
 		setCenter(listOffersPane);
 		updateOffers();
+		listOffersPane.sort();
 		loaded = true;
 	}
 
@@ -102,6 +106,7 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 				listOffersPane.getItems().add(getRow(lo));
 			}
 		}
+		listOffersPane.sort();
 	}
 
 	/**

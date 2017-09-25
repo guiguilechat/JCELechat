@@ -94,10 +94,6 @@ public class YamlDatabase extends EveDatabase {
 			}
 		}
 
-		/**
-		 * avoid putting the tags in the yaml output ; otherwise snakeyaml puts a
-		 * !!blueprint in the document.
-		 */
 		@Override
 		protected MappingNode representJavaBean(Set<Property> properties, Object javaBean) {
 			// remove the !!class

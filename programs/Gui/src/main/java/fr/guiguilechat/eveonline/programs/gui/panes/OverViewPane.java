@@ -1,13 +1,17 @@
 package fr.guiguilechat.eveonline.programs.gui.panes;
 
 import java.util.Date;
+import java.util.HashMap;
 import java.util.LinkedHashSet;
+import java.util.Map;
+import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
 import fr.guiguilechat.eveonline.database.apiv2.Char;
 import fr.guiguilechat.eveonline.database.apiv2.Char.JobEntry;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
+import fr.guiguilechat.eveonline.programs.gui.Settings.Provision;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
@@ -131,25 +135,9 @@ public class OverViewPane extends VBox implements EvePane {
 
 	@Override
 	public void onNewAPI(int key, String code) {
-		checkAPI(key);
-	}
-
-	@Override
-	public void onDelAPI(int key) {
 		APIRoot api = parent.getAPI(key);
 		if (api == null) {
-			debug("can't find apiroot for id " + key);
-			return;
-		}
-		for (Character c : api.account.characters()) {
-			delCharInfo(c);
-		}
-	}
-
-	public void checkAPI(int key) {
-		APIRoot api = parent.getAPI(key);
-		if (api == null) {
-			debug("can't find apiroot for id " + key);
+			debug("can't use apiroot for id " + key);
 			return;
 		}
 		for (Character c : api.account.characters()) {
@@ -161,10 +149,28 @@ public class OverViewPane extends VBox implements EvePane {
 		tvEvents.sort();
 	}
 
+	@Override
+	public void onDelAPI(int key) {
+		APIRoot api = parent.getAPI(key);
+		if (api == null) {
+			debug("can't del apiroot for id " + key);
+			return;
+		}
+		for (Character c : api.account.characters()) {
+			delCharInfo(c);
+		}
+	}
+
 	protected void delCharInfo(Character c) {
 		tvEvents.getItems().removeIf(ev -> ev.who.equals(c.name));
 	}
 
+	/**
+	 * called for new Character
+	 *
+	 * @param c
+	 * @param api
+	 */
 	protected void addCharInfo(Character c, APIRoot api) {
 		if (showJobs) {
 			addCharJobs(c, api);
@@ -183,8 +189,64 @@ public class OverViewPane extends VBox implements EvePane {
 		}
 	}
 
-	protected void addTeamProvisions() {
+	protected static class ProvisionPreparation {
+		public String name;
+		public int required;
+		public EventData ed;
+		public boolean added = false;
+	}
 
+	HashMap<Integer, ProvisionPreparation> itemsProvisions = new HashMap<>();
+
+	/** get a provision preparation for given itemid */
+	public ProvisionPreparation getProvision(int itemID) {
+		ProvisionPreparation ret = itemsProvisions.get(itemID);
+		if (ret == null) {
+			ret = new ProvisionPreparation();
+			ret.name = db().getElementById(itemID);
+			ret.ed = new EventData();
+			ret.ed.type = "provision";
+			itemsProvisions.put(itemID, ret);
+
+		}
+		return ret;
+	}
+
+	protected void prepareTeamProvisions() {
+		Map<Integer, Integer> items = parent.getFocusedTeamItems();
+		for (Entry<Integer, Integer> e : parent.getProvision().total.entrySet()) {
+			ProvisionPreparation pp = getProvision(e.getKey());
+			pp.required = e.getValue();
+			pp.ed.time = new Date();
+			int present = items.getOrDefault(e.getKey(), 0);
+			if (present < pp.required) {
+				pp.ed.description = "buy " + (pp.required - present) + " " + pp.name;
+				pp.added = true;
+				tvEvents.getItems().add(pp.ed);
+			}
+		}
+		parent.updateTeamItems();
+	}
+
+	@Override
+	public void onFocusedTeamNewItems(HashMap<Integer, Integer> itemsDiff) {
+		Provision p = parent.getProvision();
+		for (Entry<Integer, Integer> e : itemsDiff.entrySet()) {
+			ProvisionPreparation pp = getProvision(e.getKey());
+			int newValue = p.total.getOrDefault(e.getKey(), 0) + e.getValue();
+			if (newValue <= pp.required) {
+				pp.ed.description = "buy " + (newValue - pp.required) + " " + pp.name;
+				if (!pp.added) {
+					tvEvents.getItems().add(pp.ed);
+				}
+				pp.added = true;
+			} else {
+				if (pp.added) {
+					tvEvents.getItems().remove(pp.ed);
+				}
+				pp.added = false;
+			}
+		}
 	}
 
 	@Override
@@ -197,6 +259,9 @@ public class OverViewPane extends VBox implements EvePane {
 					addCharInfo(c, api);
 				}
 			}
+		}
+		if (showProvisions) {
+			prepareTeamProvisions();
 		}
 		tvEvents.sort();
 	}
@@ -221,8 +286,7 @@ public class OverViewPane extends VBox implements EvePane {
 	protected void changeShowProvision() {
 		if (showProvisionsBox.isSelected()) {
 			showProvisions = true;
-			addTeamProvisions();
-			tvEvents.sort();
+			prepareTeamProvisions();
 		} else {
 			showProvisions = false;
 			tvEvents.getItems().removeIf(ed -> ed.type.equals("provision"));

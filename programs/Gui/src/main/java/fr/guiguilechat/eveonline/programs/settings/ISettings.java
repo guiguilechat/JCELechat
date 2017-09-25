@@ -6,7 +6,10 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.Yaml;
+import org.yaml.snakeyaml.constructor.Constructor;
+import org.yaml.snakeyaml.representer.Representer;
 
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 
@@ -96,7 +99,7 @@ public interface ISettings {
 		File f = inst.getFile();
 		if (f.exists()) {
 			try {
-				return makeYaml().loadAs(new FileReader(f), clazz);
+				return inst.makeYaml().loadAs(new FileReader(f), clazz);
 			} catch (FileNotFoundException e) {
 			}
 		}
@@ -108,9 +111,21 @@ public interface ISettings {
 	 *
 	 * @return
 	 */
-	public static Yaml makeYaml() {
-		Yaml ret = new Yaml(YamlDatabase.makeRepresenter(), YamlDatabase.makeOptions());
+	public default Yaml makeYaml() {
+		Yaml ret = new Yaml(makeYamlConstructor(), makeYamlRepresenter(), makeYamlOptions());
 		return ret;
+	}
+
+	public default Constructor makeYamlConstructor() {
+		return new Constructor(getClass());
+	}
+
+	public default Representer makeYamlRepresenter() {
+		return YamlDatabase.makeRepresenter();
+	}
+
+	public default DumperOptions makeYamlOptions() {
+		return YamlDatabase.makeOptions();
 	}
 
 }

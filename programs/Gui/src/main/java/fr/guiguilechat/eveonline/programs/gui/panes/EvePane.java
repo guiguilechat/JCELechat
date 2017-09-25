@@ -1,5 +1,7 @@
 package fr.guiguilechat.eveonline.programs.gui.panes;
 
+import java.util.HashMap;
+
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 
@@ -109,6 +111,7 @@ public interface EvePane {
 	public default void onDel2Team(String team, String character) {
 	}
 
+	/** do not override this */
 	public default void propagateFocusedTeam(String teamName) {
 		for (EvePane p : subEvePanes()) {
 			p.propagateFocusedTeam(teamName);
@@ -116,7 +119,25 @@ public interface EvePane {
 		onFocusedTeam(teamName);
 	}
 
+	/** override this to handle a modification in the focused team */
 	public default void onFocusedTeam(String teamName) {
+	}
+
+	/** do not override this */
+	public default void propagateFocusedTeamNewItems(HashMap<Integer, Integer> itemsDiff) {
+		onFocusedTeamNewItems(itemsDiff);
+		for (EvePane p : subEvePanes()) {
+			p.propagateFocusedTeamNewItems(itemsDiff);
+		}
+	}
+
+	/**
+	 * override this to handle modification of focused team's assets
+	 *
+	 * @param itemsDiff
+	 *          the map of modification in number owned for each item id
+	 */
+	public default void onFocusedTeamNewItems(HashMap<Integer, Integer> itemsDiff) {
 	}
 
 	// provision

@@ -2,14 +2,19 @@ package fr.guiguilechat.eveonline.programs.gui;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
+import java.util.Map;
 import java.util.Map.Entry;
+import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
+import fr.guiguilechat.eveonline.database.apiv2.Char.Content;
 import fr.guiguilechat.eveonline.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
@@ -141,10 +146,9 @@ public class Manager extends Application implements EvePane {
 	}
 
 	public APIRoot getAPI(int key) {
-		APIRoot api = null;
 		for (APIRoot a : apis) {
 			if (a.key.keyID == key) {
-				return api;
+				return a;
 			}
 		}
 		return null;
@@ -238,6 +242,97 @@ public class Manager extends Application implements EvePane {
 			}
 		}
 		settings.store();
+	}
+
+	// items
+
+	protected HashMap<String, HashMap<Integer, Integer>> itemsByCharName = new HashMap<>();
+
+	protected HashMap<String, HashMap<Integer, Integer>> itemsByTeamName = new HashMap<>();
+
+	// getting the items
+
+	/**
+	 * update the focused team's items. this is done on a character basis
+	 */
+	public void updateTeamItems() {
+		HashMap<Integer, Integer> totalGain = new HashMap<>();
+		for (APIRoot api : apis) {
+			for (Character c : api.account.characters()) {
+				if (getTeamCharacters().contains(c.name)) {
+					HashMap<Integer, Integer> gain = computeItemsDiff(api, c);
+					for (Entry<Integer, Integer> e : gain.entrySet()) {
+						totalGain.put(e.getKey(), e.getValue() + totalGain.getOrDefault(e.getKey(), 0));
+					}
+				}
+			}
+		}
+		if (!totalGain.isEmpty()) {
+			propagateFocusedTeamNewItems(totalGain);
+		}
+	}
+
+	public Map<Integer, Integer> getFocusedTeamItems() {
+		if (settings.focusedTeam == null) {
+			return Collections.emptyMap();
+		}
+		HashMap<Integer, Integer> ret = itemsByTeamName.get(settings.focusedTeam);
+		if (ret == null) {
+			ret = new HashMap<>();
+			itemsByTeamName.put(settings.focusedTeam, ret);
+		}
+		return ret;
+	}
+
+	@Override
+	public void onFocusedTeamNewItems(HashMap<Integer, Integer> itemsDiff) {
+		Map<Integer, Integer> m = getFocusedTeamItems();
+		for (Entry<Integer, Integer> e : itemsDiff.entrySet()) {
+			m.put(e.getKey(), e.getValue() + m.getOrDefault(e.getKey(), 0));
+		}
+	}
+
+	/**
+	 * compute the difference in items between last call and now.
+	 *
+	 * @param api
+	 *          the API to use
+	 * @param c
+	 *          the character to get the items for
+	 * @return a new Hashmap, for each item id as key, the difference in number as
+	 *         value.
+	 */
+	protected HashMap<Integer, Integer> computeItemsDiff(APIRoot api, Character c) {
+		HashMap<Integer, Integer> itemsGain = new HashMap<>();
+		for (ArrayList<Content> ac : api.chars.assetList(c.characterID).values()) {
+			for (Content co : ac) {
+				itemsGain.put(co.typeID, co.quantity + itemsGain.getOrDefault(co.itemID, 0));
+			}
+		}
+		HashMap<Integer, Integer> oldItems = itemsByCharName.get(c.name);
+		if (oldItems == null) {
+			// no items stored yet
+			oldItems = itemsGain;
+			itemsByCharName.put(c.name, oldItems);
+		} else {
+			for (int itemID : Stream.concat(oldItems.keySet().stream(), itemsGain.keySet().stream()).mapToInt(i -> i)
+					.distinct().toArray()) {
+				int newVal = itemsGain.getOrDefault(itemID, 0);
+				int diff = newVal - oldItems.getOrDefault(itemID, 0);
+				if (newVal != 0) {
+					oldItems.put(itemID, newVal);
+				} else {
+					oldItems.remove(itemID);
+				}
+				if (diff != 0) {
+					itemsGain.put(itemID, diff);
+				} else {
+					itemsGain.remove(itemID);
+				}
+			}
+		}
+
+		return itemsGain;
 	}
 
 	// debug

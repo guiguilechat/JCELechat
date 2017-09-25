@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 
+import org.yaml.snakeyaml.TypeDescription;
+import org.yaml.snakeyaml.constructor.Constructor;
+
 import fr.guiguilechat.eveonline.programs.settings.ISettings;
 
 public class Settings implements ISettings {
@@ -29,6 +32,15 @@ public class Settings implements ISettings {
 
 	}
 
-	public HashMap<String, Provision> provisions = new HashMap<>();
+	public LinkedHashMap<String, Provision> provisions = new LinkedHashMap<>();
+
+	@Override
+	public Constructor makeYamlConstructor() {
+		Constructor ret = ISettings.super.makeYamlConstructor();
+		TypeDescription settingsDescription = new TypeDescription(Settings.class);
+		settingsDescription.putMapPropertyType("provisions", String.class, Provision.class);
+		ret.addTypeDescription(settingsDescription);
+		return ret;
+	}
 
 }

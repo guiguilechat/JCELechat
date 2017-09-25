@@ -31,6 +31,7 @@ public class SelectTeamPane extends ChoiceBox<String> implements EvePane {
 
 	@Override
 	public void onFocusedTeam(String teamName) {
+		oldValue = teamName;
 		setValue(teamName);
 	}
 
