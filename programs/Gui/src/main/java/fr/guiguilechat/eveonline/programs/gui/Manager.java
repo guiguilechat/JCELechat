@@ -246,9 +246,9 @@ public class Manager extends Application implements EvePane {
 
 	// items
 
-	protected HashMap<String, HashMap<Integer, Integer>> itemsByCharName = new HashMap<>();
+	protected HashMap<String, HashMap<Integer, Long>> itemsByCharName = new HashMap<>();
 
-	protected HashMap<String, HashMap<Integer, Integer>> itemsByTeamName = new HashMap<>();
+	protected HashMap<String, HashMap<Integer, Long>> itemsByTeamName = new HashMap<>();
 
 	// getting the items
 
@@ -256,13 +256,13 @@ public class Manager extends Application implements EvePane {
 	 * update the focused team's items. this is done on a character basis
 	 */
 	public void updateTeamItems() {
-		HashMap<Integer, Integer> totalGain = new HashMap<>();
+		HashMap<Integer, Long> totalGain = new HashMap<>();
 		for (APIRoot api : apis) {
 			for (Character c : api.account.characters()) {
 				if (getTeamCharacters().contains(c.name)) {
-					HashMap<Integer, Integer> gain = computeItemsDiff(api, c);
-					for (Entry<Integer, Integer> e : gain.entrySet()) {
-						totalGain.put(e.getKey(), e.getValue() + totalGain.getOrDefault(e.getKey(), 0));
+					HashMap<Integer, Long> gain = computeItemsDiff(api, c);
+					for (Entry<Integer, Long> e : gain.entrySet()) {
+						totalGain.put(e.getKey(), e.getValue() + totalGain.getOrDefault(e.getKey(), 0l));
 					}
 				}
 			}
@@ -272,11 +272,11 @@ public class Manager extends Application implements EvePane {
 		}
 	}
 
-	public Map<Integer, Integer> getFocusedTeamItems() {
+	public Map<Integer, Long> getFocusedTeamItems() {
 		if (settings.focusedTeam == null) {
 			return Collections.emptyMap();
 		}
-		HashMap<Integer, Integer> ret = itemsByTeamName.get(settings.focusedTeam);
+		HashMap<Integer, Long> ret = itemsByTeamName.get(settings.focusedTeam);
 		if (ret == null) {
 			ret = new HashMap<>();
 			itemsByTeamName.put(settings.focusedTeam, ret);
@@ -285,10 +285,10 @@ public class Manager extends Application implements EvePane {
 	}
 
 	@Override
-	public void onFocusedTeamNewItems(HashMap<Integer, Integer> itemsDiff) {
-		Map<Integer, Integer> m = getFocusedTeamItems();
-		for (Entry<Integer, Integer> e : itemsDiff.entrySet()) {
-			m.put(e.getKey(), e.getValue() + m.getOrDefault(e.getKey(), 0));
+	public void onFocusedTeamNewItems(HashMap<Integer, Long> itemsDiff) {
+		Map<Integer, Long> m = getFocusedTeamItems();
+		for (Entry<Integer, Long> e : itemsDiff.entrySet()) {
+			m.put(e.getKey(), e.getValue() + m.getOrDefault(e.getKey(), 0l));
 		}
 	}
 
@@ -302,14 +302,14 @@ public class Manager extends Application implements EvePane {
 	 * @return a new Hashmap, for each item id as key, the difference in number as
 	 *         value.
 	 */
-	protected HashMap<Integer, Integer> computeItemsDiff(APIRoot api, Character c) {
-		HashMap<Integer, Integer> itemsGain = new HashMap<>();
+	protected HashMap<Integer, Long> computeItemsDiff(APIRoot api, Character c) {
+		HashMap<Integer, Long> itemsGain = new HashMap<>();
 		for (ArrayList<Content> ac : api.chars.assetList(c.characterID).values()) {
 			for (Content co : ac) {
-				itemsGain.put(co.typeID, co.quantity + itemsGain.getOrDefault(co.itemID, 0));
+				itemsGain.put(co.typeID, co.quantity + itemsGain.getOrDefault(co.typeID, 0l));
 			}
 		}
-		HashMap<Integer, Integer> oldItems = itemsByCharName.get(c.name);
+		HashMap<Integer, Long> oldItems = itemsByCharName.get(c.name);
 		if (oldItems == null) {
 			// no items stored yet
 			oldItems = itemsGain;
@@ -317,8 +317,8 @@ public class Manager extends Application implements EvePane {
 		} else {
 			for (int itemID : Stream.concat(oldItems.keySet().stream(), itemsGain.keySet().stream()).mapToInt(i -> i)
 					.distinct().toArray()) {
-				int newVal = itemsGain.getOrDefault(itemID, 0);
-				int diff = newVal - oldItems.getOrDefault(itemID, 0);
+				long newVal = itemsGain.getOrDefault(itemID, 0l);
+				long diff = newVal - oldItems.getOrDefault(itemID, 0l);
 				if (newVal != 0) {
 					oldItems.put(itemID, newVal);
 				} else {
@@ -349,12 +349,17 @@ public class Manager extends Application implements EvePane {
 		TableColumn<DebugEntry, String> dateCol = new TableColumn<>("date");
 		dateCol.setCellValueFactory(ct -> new ReadOnlyObjectWrapper<>(dateFormat.format(ct.getValue().date)));
 		debugPane.getColumns().add(dateCol);
-		TableColumn<DebugEntry, String> messCol = new TableColumn<>("debug");
-		messCol.setCellValueFactory(ct -> new ReadOnlyObjectWrapper<>(ct.getValue().message));
-		debugPane.getColumns().add(messCol);
+
 		TableColumn<DebugEntry, String> ctxtCol = new TableColumn<>("context");
 		ctxtCol.setCellValueFactory(ct -> new ReadOnlyObjectWrapper<>(ct.getValue().context.getSimpleName()));
+		ctxtCol.setMinWidth(130);
 		debugPane.getColumns().add(ctxtCol);
+
+		TableColumn<DebugEntry, String> messCol = new TableColumn<>("message");
+		messCol.setCellValueFactory(ct -> new ReadOnlyObjectWrapper<>(ct.getValue().message));
+		messCol.setMinWidth(500);
+		debugPane.getColumns().add(messCol);
+
 		dateCol.setSortType(TableColumn.SortType.DESCENDING);
 		dateCol.setSortable(true);
 		debugPane.getSortOrder().add(dateCol);

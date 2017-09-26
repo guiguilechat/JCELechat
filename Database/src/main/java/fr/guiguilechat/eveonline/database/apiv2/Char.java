@@ -25,9 +25,19 @@ public class Char {
 	public final String BASEURL = APIRoot.BASEURL + "char/";
 
 	public static class Content {
+		/**
+		 * bigint Unique ID for this item. This is only guaranteed to be unique
+		 * within this page load. IDs are recycled over time and it is possible for
+		 * this to happen. Also, items are not guaranteed to maintain the same
+		 * itemID over time. When they are repackaged, stacks are split or merged,
+		 * when they're assembled, and other actions can cause itemIDs to change.
+		 * Please note that the type of this value has been changed from int to
+		 * bigint with Tyrannis 1.2
+		 */
 		public long itemID;
+		/** The type of this item. References the invTypes table. */
 		public int typeID;
-		public int quantity = 1;
+		public long quantity = 1;
 		public int flag = 0;
 		public boolean singleton = false;
 		public int rawQuantity;

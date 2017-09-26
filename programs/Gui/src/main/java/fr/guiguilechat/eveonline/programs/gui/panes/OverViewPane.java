@@ -5,13 +5,13 @@ import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 
 import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
 import fr.guiguilechat.eveonline.database.apiv2.Char;
 import fr.guiguilechat.eveonline.database.apiv2.Char.JobEntry;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
-import fr.guiguilechat.eveonline.programs.gui.Settings.Provision;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
@@ -54,7 +54,8 @@ public class OverViewPane extends VBox implements EvePane {
 
 		@Override
 		public int hashCode() {
-			return time.hashCode() + type.hashCode() + description.hashCode() + where.hashCode() + who.hashCode();
+			return +type.hashCode() + description.hashCode() + where.hashCode()
+			+ who.hashCode();
 		}
 
 		@Override
@@ -69,12 +70,17 @@ public class OverViewPane extends VBox implements EvePane {
 				return false;
 			}
 			EventData o = (EventData) obj;
-			return time.equals(o.time) && type.equals(o.type) && description.equals(o.description) && where.equals(o.where)
+			return type.equals(o.type) && description.equals(o.description) && where.equals(o.where)
 					&& who.equals(o.who);
 		}
 
 		public boolean isIndustryJob() {
 			return Char.activityNamesSet.contains(type);
+		}
+
+		@Override
+		public String toString() {
+			return "" + type + ":" + description;
 		}
 	}
 
@@ -109,22 +115,24 @@ public class OverViewPane extends VBox implements EvePane {
 		tvEvents.getColumns().add(typeCol);
 		TableColumn<EventData, String> desCol = new TableColumn<>("description");
 		desCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().description));
+		desCol.setMinWidth(400);
 		tvEvents.getColumns().add(desCol);
+
 		TableColumn<EventData, String> whereCol = new TableColumn<>("where");
 		whereCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().where));
 		tvEvents.getColumns().add(whereCol);
+
 		TableColumn<EventData, String> whoCol = new TableColumn<>("who");
 		whoCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().who));
 		tvEvents.getColumns().add(whoCol);
+
 		tvEvents.getSortOrder().add(dateCol);
 
 		tvEvents.setRowFactory(tv -> new TableRow<EventData>() {
 			@Override
 			public void updateItem(EventData item, boolean empty) {
 				super.updateItem(item, empty);
-				if (item == null) {
-					setStyle("");
-				} else if (item.time.getTime() <= System.currentTimeMillis()) {
+				if (item != null && item.time != null && item.time.getTime() <= System.currentTimeMillis()) {
 					setStyle("-fx-background-color: palegreen;");
 				} else {
 					setStyle("");
@@ -198,7 +206,7 @@ public class OverViewPane extends VBox implements EvePane {
 
 	HashMap<Integer, ProvisionPreparation> itemsProvisions = new HashMap<>();
 
-	/** get a provision preparation for given itemid */
+	/** get a provision preparation for given item id */
 	public ProvisionPreparation getProvision(int itemID) {
 		ProvisionPreparation ret = itemsProvisions.get(itemID);
 		if (ret == null) {
@@ -207,51 +215,65 @@ public class OverViewPane extends VBox implements EvePane {
 			ret.ed = new EventData();
 			ret.ed.type = "provision";
 			itemsProvisions.put(itemID, ret);
-
 		}
 		return ret;
 	}
 
-	protected void prepareTeamProvisions() {
-		Map<Integer, Integer> items = parent.getFocusedTeamItems();
+	protected void loadProvisionsFromItems() {
+		Map<Integer, Long> items = parent.getFocusedTeamItems();
 		for (Entry<Integer, Integer> e : parent.getProvision().total.entrySet()) {
-			ProvisionPreparation pp = getProvision(e.getKey());
-			pp.required = e.getValue();
-			pp.ed.time = new Date();
-			int present = items.getOrDefault(e.getKey(), 0);
-			if (present < pp.required) {
-				pp.ed.description = "buy " + (pp.required - present) + " " + pp.name;
-				pp.added = true;
-				tvEvents.getItems().add(pp.ed);
-			}
+			ProvisionPreparation pr = getProvision(e.getKey());
+			pr.required = e.getValue();
+			pr.ed.who = parent().settings.focusedTeam;
+			updateItemQuantity(e.getKey(), items.getOrDefault(e.getKey(), 0l), pr);
 		}
 		parent.updateTeamItems();
 	}
 
 	@Override
-	public void onFocusedTeamNewItems(HashMap<Integer, Integer> itemsDiff) {
-		Provision p = parent.getProvision();
-		for (Entry<Integer, Integer> e : itemsDiff.entrySet()) {
-			ProvisionPreparation pp = getProvision(e.getKey());
-			int newValue = p.total.getOrDefault(e.getKey(), 0) + e.getValue();
-			if (newValue <= pp.required) {
-				pp.ed.description = "buy " + (newValue - pp.required) + " " + pp.name;
-				if (!pp.added) {
-					tvEvents.getItems().add(pp.ed);
-				}
-				pp.added = true;
-			} else {
-				if (pp.added) {
-					tvEvents.getItems().remove(pp.ed);
-				}
-				pp.added = false;
+	public void onNewProvision(int itemID, int qtty) {
+		ProvisionPreparation pr = getProvision(itemID);
+		pr.required = qtty;
+		pr.ed.who = parent().settings.focusedTeam;
+		updateItemQuantity(itemID, parent().getFocusedTeamItems().getOrDefault(itemID, 0l), pr);
+	}
+
+	@Override
+	public void onFocusedTeamNewItems(HashMap<Integer, Long> itemsDiff) {
+		Map<Integer, Long> items = parent().getFocusedTeamItems();
+		Set<Integer> provisionned = parent.getProvision().total.keySet();
+		for (Integer itemID : itemsDiff.keySet()) {
+			if (provisionned.contains(itemID)) {
+				updateItemQuantity(itemID, items.getOrDefault(itemID, 0l), getProvision(itemID));
 			}
 		}
+		// System.err.println("remaining " + tvEvents.getItems());
+	}
+
+	protected void updateItemQuantity(int itemID, long qtty, ProvisionPreparation pp) {
+		// System.err.println("" + pp.name + " required:" + pp.required + " qtty:" +
+		// qtty);
+		if (qtty < pp.required) {
+			pp.ed.description = "" + (pp.required - qtty) + " " + pp.name;
+			if (!pp.added) {
+				tvEvents.getItems().add(pp.ed);
+				// System.err.println(" ading " + pp.name);
+			}
+			pp.added = true;
+		} else {
+			if (pp.added) {
+				// System.err.println(" removing " + pp.name);
+				tvEvents.getItems().remove(pp.ed);
+			}
+			pp.added = false;
+		}
+
 	}
 
 	@Override
 	public void onFocusedTeam(String teamName) {
 		tvEvents.getItems().clear();
+		itemsProvisions.values().forEach(pp -> pp.added = false);
 		LinkedHashSet<String> allowedCharacters = parent.getTeamCharacters();
 		for (APIRoot api : parent.apis) {
 			for (Character c : api.account.characters()) {
@@ -261,7 +283,7 @@ public class OverViewPane extends VBox implements EvePane {
 			}
 		}
 		if (showProvisions) {
-			prepareTeamProvisions();
+			loadProvisionsFromItems();
 		}
 		tvEvents.sort();
 	}
@@ -286,7 +308,7 @@ public class OverViewPane extends VBox implements EvePane {
 	protected void changeShowProvision() {
 		if (showProvisionsBox.isSelected()) {
 			showProvisions = true;
-			prepareTeamProvisions();
+			loadProvisionsFromItems();
 		} else {
 			showProvisions = false;
 			tvEvents.getItems().removeIf(ed -> ed.type.equals("provision"));

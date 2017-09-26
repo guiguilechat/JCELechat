@@ -124,7 +124,7 @@ public interface EvePane {
 	}
 
 	/** do not override this */
-	public default void propagateFocusedTeamNewItems(HashMap<Integer, Integer> itemsDiff) {
+	public default void propagateFocusedTeamNewItems(HashMap<Integer, Long> itemsDiff) {
 		onFocusedTeamNewItems(itemsDiff);
 		for (EvePane p : subEvePanes()) {
 			p.propagateFocusedTeamNewItems(itemsDiff);
@@ -132,12 +132,13 @@ public interface EvePane {
 	}
 
 	/**
-	 * override this to handle modification of focused team's assets
+	 * override this to handle modification of focused team's assets. This is
+	 * called with the items quantities updated in the manager.
 	 *
 	 * @param itemsDiff
 	 *          the map of modification in number owned for each item id
 	 */
-	public default void onFocusedTeamNewItems(HashMap<Integer, Integer> itemsDiff) {
+	public default void onFocusedTeamNewItems(HashMap<Integer, Long> itemsDiff) {
 	}
 
 	// provision
