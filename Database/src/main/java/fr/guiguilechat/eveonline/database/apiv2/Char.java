@@ -49,6 +49,7 @@ public class Char {
 		LinkedHashMap<Long, ArrayList<Content>> ret = new LinkedHashMap<>();
 		try {
 			Document page = Jsoup.connect(url).get();
+			// System.err.println("got assets " + page.toString());
 			Elements elements = page.select("result > rowset > row");
 			for (Element el : elements) {
 				long locId = Long.parseLong(el.attr("locationID"));
@@ -59,10 +60,6 @@ public class Char {
 				}
 				for (Element ct : el.select("rowset row")) {
 					locCtt.add(extractContent(ct));
-					// is this needed ?
-					for (Element ct2 : el.select("rowset row")) {
-						locCtt.add(extractContent(ct2));
-					}
 				}
 			}
 		} catch (IOException ex) {
