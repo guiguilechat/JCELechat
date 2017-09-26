@@ -257,7 +257,7 @@ public class OverViewPane extends VBox implements EvePane {
 			pp.ed.description = "" + (pp.required - qtty) + " " + pp.name;
 			if (!pp.added) {
 				tvEvents.getItems().add(pp.ed);
-				// System.err.println(" ading " + pp.name);
+				// System.err.println(" adding " + pp.name);
 			}
 			pp.added = true;
 		} else {
