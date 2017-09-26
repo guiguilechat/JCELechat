@@ -15,6 +15,7 @@ import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
 import fr.guiguilechat.eveonline.database.apiv2.Char.Content;
+import fr.guiguilechat.eveonline.database.apiv2.Char.OrderEntry;
 import fr.guiguilechat.eveonline.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
@@ -263,6 +264,11 @@ public class Manager extends Application implements EvePane {
 					HashMap<Integer, Long> gain = computeItemsDiff(api, c);
 					for (Entry<Integer, Long> e : gain.entrySet()) {
 						totalGain.put(e.getKey(), e.getValue() + totalGain.getOrDefault(e.getKey(), 0l));
+					}
+					for (OrderEntry a : api.chars.marketOrders(c.characterID)) {
+						if (a.isBuyOrder() && a.isOpen()) {
+							totalGain.put(a.typeID, a.volRemaining + totalGain.getOrDefault(a.typeID, 0l));
+						}
 					}
 				}
 			}

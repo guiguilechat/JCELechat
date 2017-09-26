@@ -202,8 +202,67 @@ public class Char {
 		return ret;
 	}
 
-	public JobEntry extractJobEntry(Element el) {
+	protected JobEntry extractJobEntry(Element el) {
 		return APIRoot.convertElement(el, JobEntry.class);
+	}
+
+	/**
+	 * http://eveonline-third-party-documentation.readthedocs.io/en/latest/xmlapi/character/char_marketorders.html
+	 */
+	public static class OrderEntry {
+		public long orderID;
+		public long charID;
+		public int stationID;
+		public int volEntered;
+		public int volRemaining;
+		public int minVolume;
+		public int orderState;
+		public int typeID;
+		/**
+		 * <ul>
+		 * <li>-1 : station</li>
+		 * <li>0 : system</li>
+		 * <li>5,10,20,40 : region jumps</li>
+		 * <li>>40 : region or SO</li>
+		 * </ul>
+		 */
+		public int range;
+		public int accountKey;
+		public int duration;
+		public double escrow;
+		public double price;
+		public boolean bid;
+		public Date datetime;
+
+		public boolean isBuyOrder() {
+			return bid;
+		}
+
+		public boolean isOpen() {
+			return orderState == 0;
+		}
+	}
+
+	/** Returns a list of market orders for your character. */
+	public ArrayList<OrderEntry> marketOrders(long charID) {
+		String url = BASEURL + "MarketOrders.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code
+				+ "&characterID=" + charID;
+		ArrayList<OrderEntry> ret = new ArrayList<>();
+		try {
+			Document page = Jsoup.connect(url).get();
+			Elements elements = page.select("result rowset row");
+			for (Element el : elements) {
+				ret.add(extractMarketOrder(el));
+			}
+		} catch (IOException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+		return ret;
+
+	}
+
+	protected OrderEntry extractMarketOrder(Element el) {
+		return APIRoot.convertElement(el, OrderEntry.class);
 	}
 
 }
