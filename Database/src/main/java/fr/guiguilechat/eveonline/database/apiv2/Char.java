@@ -58,6 +58,7 @@ public class Char {
 					locCtt = new ArrayList<>();
 					ret.put(locId, locCtt);
 				}
+				locCtt.add(extractContent(el));
 				for (Element ct : el.select("rowset row")) {
 					locCtt.add(extractContent(ct));
 				}
