@@ -309,6 +309,7 @@ public class Manager extends Application implements EvePane {
 				itemsGain.put(co.typeID, co.quantity + itemsGain.getOrDefault(co.typeID, 0l));
 			}
 		}
+
 		HashMap<Integer, Long> oldItems = itemsByCharName.get(c.name);
 		if (oldItems == null) {
 			// no items stored yet
