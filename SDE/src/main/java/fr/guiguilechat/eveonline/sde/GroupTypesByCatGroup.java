@@ -17,7 +17,7 @@ import fr.guiguilechat.eveonline.sde.fsd.EtypeIDs;
 public class GroupTypesByCatGroup {
 
 	public static void main(String[] args) {
-		SDECache.donwloadSDE();
+		SDECache.INSTANCE.donwloadSDE();
 		HashMap<Integer, HashMap<Integer, EdgmTypeAttributes>> typeAttributes = EdgmTypeAttributes
 				.loadByTypeIDAttributeID();
 		HashMap<Integer, EdgmAttributeTypes> attributesTypes = EdgmAttributeTypes.loadByAttributeID();

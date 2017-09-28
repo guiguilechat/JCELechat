@@ -20,24 +20,28 @@ import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 
 public class AnalyzeBurnersDest {
 
-	protected static final String[] types = new String[] { "aangel", "ablood", "aguristas", "aserpentis", "asansha",
+	protected String[] types = new String[] { "aangel", "ablood", "aguristas", "aserpentis", "asansha",
 			"bangel", "bblood", "bguristas", "bserpentis", "tenyo", "thawk", "tjaguar", "tvengeance" };
 
 	/**
 	 * for each type of burner, its index in a location's numbers of missions
 	 */
-	protected static final HashMap<String, Integer> types2index = new HashMap<>();
-	static {
+	protected HashMap<String, Integer> types2index = new HashMap<>();
+	{
 		for (int idx = 0; idx < types.length; idx++) {
 			types2index.put(types[idx], idx);
 		}
 	}
 
-	protected static DecimalFormat df = new DecimalFormat("#.##");
-	protected static String separator = ";";
-	protected static String offsetTypeData = separator + separator + separator + separator + separator;
+	protected DecimalFormat df = new DecimalFormat("#.##");
+	protected String separator = ";";
+	protected String offsetTypeData = separator + separator + separator + separator + separator;
 
 	public static void main(String[] args) throws FileNotFoundException {
+		new AnalyzeBurnersDest().analyze(args);
+	}
+
+	public void analyze(String[] args) throws FileNotFoundException {
 
 		YamlDatabase db = new YamlDatabase();
 		Distances d = new Distances(db);
@@ -62,6 +66,7 @@ public class AnalyzeBurnersDest {
 
 			Set<String> dests = an.dest2counts.keySet();
 
+			ps.println(an.system);
 			ps.print(offsetTypeData);
 			for (String name : dests) {
 				ps.print(separator + name);
@@ -74,29 +79,17 @@ public class AnalyzeBurnersDest {
 				ps.print(separator + dst);
 			}
 			int maxdist = IntStream.of(systemDistances).max().getAsInt();
-			ps.print(separator);
-			for (int i = 0; i <= maxdist; i++) {
-				ps.print(separator + i);
-			}
 			ps.println();
 			int[] distSystems = IntStream.rangeClosed(0, maxdist + 1).map(i -> d.systemsAtDistance(an.system, i).size())
 					.toArray();
 
 
 			int[] constelsDistances = dests.stream().mapToInt(n -> d.distConstels(n, an.system)).toArray();
-			int maxconsteldst = IntStream.of(constelsDistances).max().getAsInt();
 			ps.print(offsetTypeData + "constels:");
 			for (int dst : constelsDistances) {
 				ps.print(separator + dst);
 			}
-			ps.print(separator);
-			for (int i = 0; i <= maxdist; i++) {
-				ps.print(separator);
-			}
-			ps.print(separator);
-			for (int i = 0; i <= maxconsteldst; i++) {
-				ps.print(separator + i);
-			}
+
 			ps.println();
 
 			ps.println();
@@ -148,12 +141,10 @@ public class AnalyzeBurnersDest {
 	 *          the function to extract specific location data from the
 	 *          destination table "counts".
 	 */
-	protected static void printDestData(PrintStream ps, String name, Stream<int[]> system2typeIdxCount,
+	protected void printDestData(PrintStream ps, String name, Stream<int[]> system2typeIdxCount,
 			ToIntFunction<int[]> mapper, int[] systemDistances, int[] constelsDistances) {
 		ps.print(name);
 		int[] systemCount = system2typeIdxCount.mapToInt(mapper).toArray();
-		int[] nbByDist = new int[IntStream.of(systemDistances).max().getAsInt() + 1];
-		int[] nbByCstel = new int[IntStream.of(constelsDistances).max().getAsInt() + 1];
 		int total = 0, totaldst = 0, maxdst = 0, totalcstl = 0;
 		for (int i = 0; i < systemCount.length; i++) {
 			total += systemCount[i];
@@ -162,8 +153,6 @@ public class AnalyzeBurnersDest {
 			}
 			totaldst += systemCount[i] * systemDistances[i];
 			totalcstl += systemCount[i] * constelsDistances[i];
-			nbByDist[systemDistances[i]] += systemCount[i];
-			nbByCstel[constelsDistances[i]] += systemCount[i];
 		}
 		ps.print(separator + total);
 		ps.print(separator + (total > 0 ? df.format(1.0 * totaldst / total) : 0));
@@ -175,14 +164,6 @@ public class AnalyzeBurnersDest {
 			ps.print(separator + i);
 		}
 
-		ps.print(separator);
-		for (int element : nbByDist) {
-			ps.print(separator + 100.0 * element / total);
-		}
-		ps.print(separator);
-		for (int element : nbByCstel) {
-			ps.print(separator + 100.0 * element / total);
-		}
 
 		ps.println();
 	}

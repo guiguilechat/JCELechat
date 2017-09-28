@@ -15,11 +15,11 @@ import fr.guiguilechat.eveonline.sde.cache.SDECache;
 
 public class EagtAgents {
 
-	public static final File FILE = new File(SDECache.CACHEDIR, "sde/bsd/agtAgents.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/agtAgents.yaml");
 
 	@SuppressWarnings("unchecked")
 	public static ArrayList<EagtAgents> load() {
-		SDECache.donwloadSDE();
+		SDECache.INSTANCE.donwloadSDE();
 		Constructor cons = new Constructor(ArrayList.class) {
 
 			@Override

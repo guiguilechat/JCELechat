@@ -20,14 +20,14 @@ import fr.guiguilechat.eveonline.sde.cache.SDECache;
  */
 public class EdgmTypeEffects {
 
-	public static final File FILE = new File(SDECache.CACHEDIR, "sde/bsd/dgmTypeEffects.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/dgmTypeEffects.yaml");
 	public int effectID;
 	public boolean isDefault;
 	public int typeID;
 
 	@SuppressWarnings("unchecked")
 	public static ArrayList<EdgmTypeEffects> load() {
-		SDECache.donwloadSDE();
+		SDECache.INSTANCE.donwloadSDE();
 		Constructor cons = new Constructor(ArrayList.class) {
 
 			@Override

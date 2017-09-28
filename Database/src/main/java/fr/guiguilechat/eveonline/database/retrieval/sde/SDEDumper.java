@@ -259,8 +259,8 @@ public class SDEDumper {
 			throws FileNotFoundException {
 		// find category for modules and ships
 		int shipCat = -1, moduleCat = -1;
-		SDECache.donwloadSDE();
-		File CategoryYaml = new File(SDECache.CHECKDIR, "fsd/categoryIDs.yaml");
+		SDECache.INSTANCE.donwloadSDE();
+		File CategoryYaml = new File(SDECache.INSTANCE.checkDir(), "fsd/categoryIDs.yaml");
 		HashMap<Integer, Map<String, ?>> categorys = (HashMap<Integer, Map<String, ?>>) new Yaml()
 				.load(new FileReader(CategoryYaml));
 		for (Entry<Integer, Map<String, ?>> e : categorys.entrySet()) {
@@ -274,7 +274,7 @@ public class SDEDumper {
 		}
 
 		// find groups in modules and ships category
-		File groupYaml = new File(SDECache.CHECKDIR, "fsd/groupIDs.yaml");
+		File groupYaml = new File(SDECache.INSTANCE.checkDir(), "fsd/groupIDs.yaml");
 		HashMap<Integer, Map<String, ?>> groups = (HashMap<Integer, Map<String, ?>>) new Yaml()
 				.load(new FileReader(groupYaml));
 		for (Entry<Integer, Map<String, ?>> e : groups.entrySet()) {
@@ -500,7 +500,7 @@ public class SDEDumper {
 	}
 
 	public static void loadLocations(SDEData sde, DatabaseFile db) {
-		File mainFolder = new File(SDECache.CHECKDIR, "fsd/universe/eve");
+		File mainFolder = new File(SDECache.INSTANCE.checkDir(), "fsd/universe/eve");
 		if (!mainFolder.isDirectory()) {
 			System.err.println("can't create locations, folder not found " + mainFolder);
 			return;

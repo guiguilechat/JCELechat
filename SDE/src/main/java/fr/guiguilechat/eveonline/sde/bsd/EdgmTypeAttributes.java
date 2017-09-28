@@ -20,7 +20,7 @@ import fr.guiguilechat.eveonline.sde.cache.SDECache;
  */
 public class EdgmTypeAttributes {
 
-	public static final File FILE = new File(SDECache.CACHEDIR, "sde/bsd/dgmTypeAttributes.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/dgmTypeAttributes.yaml");
 	public int attributeID;
 	public int typeID;
 	public int valueInt;
@@ -28,7 +28,7 @@ public class EdgmTypeAttributes {
 
 	@SuppressWarnings("unchecked")
 	public static ArrayList<EdgmTypeAttributes> load() {
-		SDECache.donwloadSDE();
+		SDECache.INSTANCE.donwloadSDE();
 		Constructor cons = new Constructor(ArrayList.class) {
 
 			@Override

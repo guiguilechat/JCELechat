@@ -23,26 +23,36 @@ public class SDECache {
 
 	private static final Logger logger = LoggerFactory.getLogger(SDECache.class);
 
+	public static final SDECache INSTANCE = new SDECache();
+
 	/**
 	 * where we want to extract the SDE
 	 */
-	public static final File CACHEDIR = new File("target/");
+	protected File CACHEDIR = new File("target/");
+
+	public File cacheDir() {
+		return CACHEDIR;
+	}
 
 	/**
 	 * the directory that should be present when we cached the sde
 	 */
-	public static final File CHECKDIR = new File(CACHEDIR, "sde");
+	protected File CHECKDIR = new File(CACHEDIR, "sde");
 
-	public static final File LAST_DL = new File(CHECKDIR, "last.txt");
+	public File checkDir() {
+		return CHECKDIR;
+	}
 
-	private static boolean triedDL = false;
+	protected File LAST_DL = new File(CHECKDIR, "last.txt");
+
+	private boolean triedDL = false;
 
 	/**
 	 * if {@link #CHECKDIR} is not a directory, download the full yaml from the
 	 * sde . those files will be extracted and placed in {@link #CACHEDIR}
 	 */
 	@SuppressWarnings("resource")
-	public static void donwloadSDE() {
+	public void donwloadSDE() {
 		if (triedDL) {
 			return;
 		}
@@ -97,7 +107,7 @@ public class SDECache {
 		} catch (IOException e) {
 			e.printStackTrace(System.err);
 		}
-		return "https://cdn1.eveonline.com/data/sde/tranquility/sde-20170330-TRANQUILITY.zip";
+		return null;
 	}
 
 }

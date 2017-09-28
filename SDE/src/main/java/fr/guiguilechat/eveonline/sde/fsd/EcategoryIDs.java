@@ -18,11 +18,11 @@ import fr.guiguilechat.eveonline.sde.cache.SDECache;
 
 public class EcategoryIDs {
 
-	public static final File FILE = new File(SDECache.CACHEDIR, "sde/fsd/categoryIDs.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/categoryIDs.yaml");
 
 	@SuppressWarnings("unchecked")
 	public static LinkedHashMap<Integer, EcategoryIDs> load() {
-		SDECache.donwloadSDE();
+		SDECache.INSTANCE.donwloadSDE();
 		Constructor cons = new Constructor(LinkedHashMap.class) {
 
 			@Override

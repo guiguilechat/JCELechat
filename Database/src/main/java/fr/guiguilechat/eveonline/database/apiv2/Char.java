@@ -212,7 +212,7 @@ public class Char {
 	public static class OrderEntry {
 		public long orderID;
 		public long charID;
-		public int stationID;
+		public long stationID;
 		public int volEntered;
 		public int volRemaining;
 		public int minVolume;
