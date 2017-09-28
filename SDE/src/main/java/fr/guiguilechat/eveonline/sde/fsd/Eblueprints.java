@@ -21,7 +21,7 @@ import fr.guiguilechat.eveonline.sde.cache.SDECache;
  */
 public class Eblueprints {
 
-	public static final File FILE = new File(SDECache.CACHEDIR, "sde/fsd/blueprints.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/blueprints.yaml");
 
 	public int blueprintTypeID;
 	public int maxProductionLimit;
@@ -63,7 +63,7 @@ public class Eblueprints {
 
 	@SuppressWarnings("unchecked")
 	public static LinkedHashMap<Integer, Eblueprints> load() {
-		SDECache.donwloadSDE();
+		SDECache.INSTANCE.donwloadSDE();
 
 		Constructor cons = new Constructor(LinkedHashMap.class) {
 

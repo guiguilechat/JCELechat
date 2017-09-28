@@ -19,7 +19,7 @@ import fr.guiguilechat.eveonline.sde.cache.SDECache;
  */
 public class EdgmEffects {
 
-	public static final File FILE = new File(SDECache.CACHEDIR, "sde/bsd/dgmEffects.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/dgmEffects.yaml");
 
 	public String description;
 	public boolean disallowAutoRepeat;
@@ -50,7 +50,7 @@ public class EdgmEffects {
 
 	@SuppressWarnings("unchecked")
 	public static ArrayList<EdgmEffects> load() {
-		SDECache.donwloadSDE();
+		SDECache.INSTANCE.donwloadSDE();
 		Constructor cons = new Constructor(ArrayList.class) {
 
 			@Override

@@ -38,11 +38,11 @@ public class EtypeIDs {
 		public HashMap<Integer, ArrayList<Bonus>> types;
 	}
 
-	public static final File FILE = new File(SDECache.CACHEDIR, "sde/fsd/typeIDs.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/typeIDs.yaml");
 
 	@SuppressWarnings("unchecked")
 	public static LinkedHashMap<Integer, EtypeIDs> load() {
-		SDECache.donwloadSDE();
+		SDECache.INSTANCE.donwloadSDE();
 		Constructor cons = new Constructor(LinkedHashMap.class) {
 
 			@Override

@@ -1,26 +1,27 @@
+Vorsk
 ;;;;;;Bongveber;Evuldgenzo;Todrir;Tratokard
-;;;;;jumps:;2;5;8;4;;0;1;2;3;4;5;6;7;8
-;;;;;constels:;0;1;1;1;;;;;;;;;;;;0;1
+;;;;;jumps:;2;5;8;4
+;;;;;constels:;0;1;1;1
 
 type;count;avgdst;maxdst;constels;
-aangel;0;0;0;0;;0;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
-ablood;0;0;0;0;;0;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
-aguristas;0;0;0;0;;0;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
-aserpentis;1;4;4;1;;0;0;0;1;;0.0;0.0;0.0;0.0;100.0;0.0;0.0;0.0;0.0;;0.0;100.0
-asansha;0;0;0;0;;0;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
-bangel;0;0;0;0;;0;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
-bblood;0;0;0;0;;0;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
-bguristas;0;0;0;0;;0;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
-bserpentis;0;0;0;0;;0;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
-tenyo;1;8;8;1;;0;0;1;0;;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;100.0;;0.0;100.0
-thawk;1;2;2;0;;1;0;0;0;;0.0;0.0;100.0;0.0;0.0;0.0;0.0;0.0;0.0;;100.0;0.0
-tjaguar;1;5;5;1;;0;1;0;0;;0.0;0.0;0.0;0.0;0.0;100.0;0.0;0.0;0.0;;0.0;100.0
-tvengeance;0;0;0;0;;0;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
+aangel;0;0;0;0;;0;0;0;0
+ablood;0;0;0;0;;0;0;0;0
+aguristas;0;0;0;0;;0;0;0;0
+aserpentis;1;4;4;1;;0;0;0;1
+asansha;0;0;0;0;;0;0;0;0
+bangel;0;0;0;0;;0;0;0;0
+bblood;0;0;0;0;;0;0;0;0
+bguristas;0;0;0;0;;0;0;0;0
+bserpentis;0;0;0;0;;0;0;0;0
+tenyo;1;8;8;1;;0;0;1;0
+thawk;1;2;2;0;;1;0;0;0
+tjaguar;1;5;5;1;;0;1;0;0
+tvengeance;0;0;0;0;;0;0;0;0
 
-agent;1;4;4;1;;0;0;0;1;;0.0;0.0;0.0;0.0;100.0;0.0;0.0;0.0;0.0;;0.0;100.0
-base;0;0;0;0;;0;0;0;0;;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;NaN;;NaN;NaN
-team;3;5;8;0,67;;1;1;1;0;;0.0;0.0;33.333333333333336;0.0;0.0;33.333333333333336;0.0;0.0;33.333333333333336;;33.333333333333336;66.66666666666667
-all;4;4,75;8;0,75;;1;1;1;1;;0.0;0.0;25.0;0.0;25.0;25.0;0.0;0.0;25.0;;25.0;75.0
+agent;1;4;4;1;;0;0;0;1
+base;0;0;0;0;;0;0;0;0
+team;3;5;8;0,67;;1;1;1;0
+all;4;4,75;8;0,75;;1;1;1;1
 
 avg jumps;Vorsk
 distance;#systems;avg sys jumps;avg cstl jumps

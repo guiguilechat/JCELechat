@@ -16,11 +16,11 @@ import fr.guiguilechat.eveonline.sde.cache.SDECache;
 
 public class EdgmAttributeTypes {
 
-	public static final File FILE = new File(SDECache.CACHEDIR, "sde/bsd/dgmAttributeTypes.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/dgmAttributeTypes.yaml");
 
 	@SuppressWarnings("unchecked")
 	public static ArrayList<EdgmAttributeTypes> load() {
-		SDECache.donwloadSDE();
+		SDECache.INSTANCE.donwloadSDE();
 		Constructor cons = new Constructor(ArrayList.class) {
 
 			@Override

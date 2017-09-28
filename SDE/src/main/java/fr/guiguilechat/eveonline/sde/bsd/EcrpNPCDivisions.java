@@ -16,11 +16,11 @@ import fr.guiguilechat.eveonline.sde.cache.SDECache;
 
 public class EcrpNPCDivisions {
 
-	public static final File FILE = new File(SDECache.CACHEDIR, "sde/bsd/crpNPCDivisions.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/crpNPCDivisions.yaml");
 
 	@SuppressWarnings("unchecked")
 	public static ArrayList<EcrpNPCDivisions> load() {
-		SDECache.donwloadSDE();
+		SDECache.INSTANCE.donwloadSDE();
 		Constructor cons = new Constructor(ArrayList.class) {
 
 			@Override
