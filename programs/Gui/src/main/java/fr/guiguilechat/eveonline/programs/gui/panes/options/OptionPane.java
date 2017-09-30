@@ -1,6 +1,7 @@
-package fr.guiguilechat.eveonline.programs.gui.panes;
+package fr.guiguilechat.eveonline.programs.gui.panes.options;
 
 import fr.guiguilechat.eveonline.programs.gui.Manager;
+import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 

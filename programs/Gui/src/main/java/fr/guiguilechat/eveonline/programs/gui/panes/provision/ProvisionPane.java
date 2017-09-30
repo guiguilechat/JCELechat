@@ -1,6 +1,8 @@
-package fr.guiguilechat.eveonline.programs.gui.panes;
+package fr.guiguilechat.eveonline.programs.gui.panes.provision;
 
 import fr.guiguilechat.eveonline.programs.gui.Manager;
+import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
+import fr.guiguilechat.eveonline.programs.gui.panes.SelectTeamPane;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;

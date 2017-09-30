@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.gui.panes;
+package fr.guiguilechat.eveonline.programs.gui.panes.overview;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -12,6 +12,8 @@ import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
 import fr.guiguilechat.eveonline.database.apiv2.Char;
 import fr.guiguilechat.eveonline.database.apiv2.Char.JobEntry;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
+import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
+import fr.guiguilechat.eveonline.programs.gui.panes.SelectTeamPane;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
@@ -96,7 +98,7 @@ public class OverViewPane extends VBox implements EvePane {
 		selectTeamPane = new SelectTeamPane(parent);
 		showJobBox = new CheckBox("show jobs");
 		showJobBox.setAllowIndeterminate(false);
-		showJobBox.setOnAction(e -> changeShowBox());
+		showJobBox.setOnAction(e -> changeShowJobs());
 		showProvisionsBox = new CheckBox("show provisions");
 		showProvisionsBox.setAllowIndeterminate(false);
 		showProvisionsBox.setOnAction(e -> changeShowProvision());
@@ -288,7 +290,7 @@ public class OverViewPane extends VBox implements EvePane {
 		tvEvents.sort();
 	}
 
-	protected void changeShowBox() {
+	protected void changeShowJobs() {
 		if (showJobBox.isSelected()) {
 			showJobs = true;
 			for (APIRoot api : parent().apis) {
@@ -301,6 +303,7 @@ public class OverViewPane extends VBox implements EvePane {
 			tvEvents.sort();
 		} else {
 			showJobs = false;
+
 			tvEvents.getItems().removeIf(EventData::isIndustryJob);
 		}
 	}
@@ -311,6 +314,7 @@ public class OverViewPane extends VBox implements EvePane {
 			loadProvisionsFromItems();
 		} else {
 			showProvisions = false;
+			itemsProvisions.values().forEach(pp -> pp.added = false);
 			tvEvents.getItems().removeIf(ed -> ed.type.equals("provision"));
 		}
 	}

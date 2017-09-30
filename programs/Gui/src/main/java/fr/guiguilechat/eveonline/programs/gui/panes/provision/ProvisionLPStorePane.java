@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.gui.panes;
+package fr.guiguilechat.eveonline.programs.gui.panes.provision;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 
 import fr.guiguilechat.eveonline.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
+import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;

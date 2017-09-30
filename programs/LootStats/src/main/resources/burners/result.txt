@@ -1,9 +1,9 @@
 agent angel:
-  entries: 67
+  entries: 72
 agent blood:
-  entries: 91
-  factionFreq: 0.054945054945054944
-  factionModFreq: 0.054945054945054944
+  entries: 99
+  factionFreq: 0.050505050505050504
+  factionModFreq: 0.050505050505050504
   factions:
   - Dark Blood Energized Thermal Membrane
   - Dark Blood Dual Light Beam Laser
@@ -11,33 +11,34 @@ agent blood:
   - Dark Blood Small Energy Nosferatu
   - Dark Blood Stasis Webifier
 agent sansha:
-  entries: 76
-  factionFreq: 0.013157894736842105
-  factionModFreq: 0.013157894736842105
+  entries: 82
+  factionFreq: 0.012195121951219513
+  factionModFreq: 0.012195121951219513
   factions:
   - True Sansha EM Plating
 agent serpentis:
-  bpcFreq: 0.0410958904109589
+  bpcFreq: 0.03614457831325301
   bps:
   - Daredevil Blueprint
-  entries: 73
+  entries: 83
 agent guristas:
-  entries: 81
+  entries: 92
 team hawk:
-  entries: 79
-  factionFreq: 0.0759493670886076
-  factionModFreq: 0.0759493670886076
+  entries: 90
+  factionFreq: 0.07777777777777778
+  factionModFreq: 0.07777777777777778
   factions:
   - Caldari Navy Cloaking Device
   - Caldari Navy Small Graviton Smartbomb
   - Caldari Navy Power Diagnostic System
   - Caldari Navy Rocket Launcher
+  - Caldari Navy Warp Scrambler
   - Caldari Navy EM Ward Field
   - Caldari Navy 150mm Railgun
 team vengeance:
-  entries: 78
-  factionFreq: 0.1282051282051282
-  factionModFreq: 0.1282051282051282
+  entries: 85
+  factionFreq: 0.11764705882352941
+  factionModFreq: 0.11764705882352941
   factions:
   - Imperial Navy Armor Kinetic Hardener
   - Imperial Navy Armor EM Hardener
@@ -50,9 +51,9 @@ team vengeance:
   - Imperial Navy Small Remote Capacitor Transmitter
   - Imperial Navy Small Armor Repairer
 team jaguar:
-  entries: 90
-  factionFreq: 0.1111111111111111
-  factionModFreq: 0.1111111111111111
+  entries: 97
+  factionFreq: 0.1134020618556701
+  factionModFreq: 0.1134020618556701
   factions:
   - Republic Fleet Small Armor Repairer
   - Republic Fleet Warp Disruptor
@@ -61,17 +62,20 @@ team jaguar:
   - Republic Fleet 125mm Autocannon
   - Republic Fleet Explosive Deflection Amplifier
   - Republic Fleet Gyrostabilizer
+  - Republic Fleet 5MN Microwarpdrive
   - Republic Fleet Armor Thermal Hardener
   - Republic Fleet Rocket Launcher
 team enyo:
-  entries: 70
-  factionFreq: 0.07142857142857142
-  factionModFreq: 0.07142857142857142
+  entries: 81
+  factionFreq: 0.07407407407407407
+  factionModFreq: 0.07407407407407407
   factions:
   - Federation Navy 5MN Microwarpdrive
   - Federation Navy Stasis Webifier
   - Federation Navy Tracking Computer
   - Federation Navy 75mm Railgun
+team hawh:
+  entries: 1
 base angel:
   entries: 72
   factionFreq: 0.013888888888888888
@@ -81,11 +85,12 @@ base angel:
 base blood:
   entries: 3
 base serpentis:
-  entries: 63
-  factionFreq: 0.4603174603174603
-  factionModFreq: 0.4603174603174603
+  entries: 70
+  factionFreq: 0.45714285714285713
+  factionModFreq: 0.45714285714285713
   factions:
   - Shadow Serpentis 50MN Microwarpdrive
+  - Shadow Serpentis 200mm Railgun
   - Shadow Serpentis Kinetic Plating
   - Shadow Serpentis Medium Armor Repairer
   - Shadow Serpentis Energized EM Membrane

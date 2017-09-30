@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.gui.panes;
+package fr.guiguilechat.eveonline.programs.gui.panes.options;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -8,7 +8,8 @@ import java.util.stream.Collectors;
 import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
-import fr.guiguilechat.eveonline.programs.gui.panes.ListTeamPane.CharacterTeams;
+import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
+import fr.guiguilechat.eveonline.programs.gui.panes.options.ListTeamPane.CharacterTeams;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
