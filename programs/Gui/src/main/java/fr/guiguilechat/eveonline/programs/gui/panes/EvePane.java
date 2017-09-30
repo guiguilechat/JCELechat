@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.programs.gui.panes;
 
-import java.util.HashMap;
+import java.util.Map;
 
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
@@ -124,7 +124,7 @@ public interface EvePane {
 	}
 
 	/** do not override this */
-	public default void propagateFocusedTeamNewItems(HashMap<Integer, Long> itemsDiff) {
+	public default void propagateFocusedTeamNewItems(Map<Integer, Long> itemsDiff) {
 		onFocusedTeamNewItems(itemsDiff);
 		for (EvePane p : subEvePanes()) {
 			p.propagateFocusedTeamNewItems(itemsDiff);
@@ -138,7 +138,7 @@ public interface EvePane {
 	 * @param itemsDiff
 	 *          the map of modification in number owned for each item id
 	 */
-	public default void onFocusedTeamNewItems(HashMap<Integer, Long> itemsDiff) {
+	public default void onFocusedTeamNewItems(Map<Integer, Long> itemsDiff) {
 	}
 
 	// provision

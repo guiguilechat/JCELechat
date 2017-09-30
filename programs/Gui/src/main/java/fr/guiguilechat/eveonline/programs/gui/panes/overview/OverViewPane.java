@@ -1,11 +1,17 @@
 package fr.guiguilechat.eveonline.programs.gui.panes.overview;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+
+import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
@@ -17,6 +23,7 @@ import fr.guiguilechat.eveonline.programs.gui.panes.SelectTeamPane;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableColumn.SortType;
 import javafx.scene.control.TableRow;
@@ -28,6 +35,8 @@ import javafx.scene.layout.VBox;
  * an overview pane contains a table of eventdata.
  */
 public class OverViewPane extends VBox implements EvePane {
+
+	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(OverViewPane.class);
 
 	protected Manager parent;
 
@@ -56,8 +65,7 @@ public class OverViewPane extends VBox implements EvePane {
 
 		@Override
 		public int hashCode() {
-			return +type.hashCode() + description.hashCode() + where.hashCode()
-			+ who.hashCode();
+			return +type.hashCode() + description.hashCode() + where.hashCode() + who.hashCode();
 		}
 
 		@Override
@@ -72,8 +80,7 @@ public class OverViewPane extends VBox implements EvePane {
 				return false;
 			}
 			EventData o = (EventData) obj;
-			return type.equals(o.type) && description.equals(o.description) && where.equals(o.where)
-					&& who.equals(o.who);
+			return type.equals(o.type) && description.equals(o.description) && where.equals(o.where) && who.equals(o.who);
 		}
 
 		public boolean isIndustryJob() {
@@ -106,8 +113,22 @@ public class OverViewPane extends VBox implements EvePane {
 		children = new EvePane[] { selectTeamPane };
 		getChildren().addAll(menubox, tvEvents);
 
-		TableColumn<EventData, Date> dateCol = new TableColumn<>("time");
+		TableColumn<EventData, Date> dateCol = new TableColumn<>("date");
 		dateCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().time));
+		DateFormat df = new SimpleDateFormat("dd/MM HH:mm:ss");
+		dateCol.setCellFactory(param -> new TableCell<EventData, Date>() {
+
+			@Override
+			protected void updateItem(Date item, boolean empty) {
+				super.updateItem(item, empty);
+				if (item != null) {
+					setText(df.format(item));
+				} else {
+					setText("");
+				}
+			}
+		});
+		dateCol.setMinWidth(120);
 		dateCol.setSortable(true);
 		dateCol.setSortType(SortType.ASCENDING);
 		tvEvents.getColumns().add(dateCol);
@@ -115,6 +136,7 @@ public class OverViewPane extends VBox implements EvePane {
 		TableColumn<EventData, String> typeCol = new TableColumn<>("type");
 		typeCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().type));
 		tvEvents.getColumns().add(typeCol);
+
 		TableColumn<EventData, String> desCol = new TableColumn<>("description");
 		desCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().description));
 		desCol.setMinWidth(400);
@@ -150,12 +172,12 @@ public class OverViewPane extends VBox implements EvePane {
 			debug("can't use apiroot for id " + key);
 			return;
 		}
-		for (Character c : api.account.characters()) {
+		api.account.characters().parallelStream().forEach(c -> {
 			delCharInfo(c);
 			if (parent.getTeamCharacters().contains(c.name)) {
-				addCharInfo(c, api);
+				addCharInfo(c);
 			}
-		}
+		});
 		tvEvents.sort();
 	}
 
@@ -172,7 +194,9 @@ public class OverViewPane extends VBox implements EvePane {
 	}
 
 	protected void delCharInfo(Character c) {
-		tvEvents.getItems().removeIf(ev -> ev.who.equals(c.name));
+		synchronized (tvEvents) {
+			tvEvents.getItems().removeIf(ev -> ev.who.equals(c.name));
+		}
 	}
 
 	/**
@@ -181,23 +205,70 @@ public class OverViewPane extends VBox implements EvePane {
 	 * @param c
 	 * @param api
 	 */
-	protected void addCharInfo(Character c, APIRoot api) {
+	protected void addCharInfo(Character c) {
 		if (showJobs) {
-			addCharJobs(c, api);
+			addCharJobs(c);
 		}
 	}
 
-	protected void addCharJobs(Character c, APIRoot api) {
-		for (JobEntry e : api.chars.industryJobs(c.characterID)) {
+	//
+	// jobs management.
+	//
+
+	protected Map<Long, ArrayList<JobEntry>> cachedJobs = Collections.synchronizedMap(new HashMap<>());
+	protected Map<Long, Date> cachedJobsDate = Collections.synchronizedMap(new HashMap<>());
+	protected int cache_duration_in_minutes = 1;
+
+	/**
+	 * Call to {@link APIRoot.#chars}.{@link Char.#industryJobs(long)} and cache
+	 * it.<br />
+	 * The cache duration is {@value OverViewPane#cache_duration_in_minutes} min.
+	 * <p>
+	 * should be thread safe unless several call of the same character at the same
+	 * time
+	 * </p>
+	 *
+	 * @param c
+	 * @param api
+	 * @return
+	 */
+	protected ArrayList<JobEntry> industryJobs(Character c) {
+		Date nextCall = cachedJobsDate.get(c.characterID);
+		Date now = new Date();
+		if (nextCall == null || nextCall.before(now)) {
+			logger.debug("invalid cache jobs " + c.name);
+			ArrayList<JobEntry> ret = c.industryJobs();
+			cachedJobs.put(c.characterID, ret);
+			cachedJobsDate.put(c.characterID, new Date(now.getTime() + cache_duration_in_minutes * 60000));
+			return ret;
+		} else {
+			return cachedJobs.get(c.characterID);
+		}
+	}
+
+	/**
+	 * should be thread safe since the only call is synchronized on the event ?
+	 * may lead to lock though
+	 *
+	 * @param c
+	 */
+	protected void addCharJobs(Character c) {
+		for (JobEntry e : industryJobs(c)) {
 			EventData ed = new EventData();
 			ed.time = e.endDate;
 			ed.type = Char.activityName(e.activityID);
 			ed.description = e.blueprintTypeName;
 			ed.where = e.solarSystemName;
 			ed.who = c.name;
-			tvEvents.getItems().add(ed);
+			synchronized (tvEvents) {
+				tvEvents.getItems().add(ed);
+			}
 		}
 	}
+
+	//
+	// provision preparation.
+	//
 
 	protected static class ProvisionPreparation {
 		public String name;
@@ -241,7 +312,7 @@ public class OverViewPane extends VBox implements EvePane {
 	}
 
 	@Override
-	public void onFocusedTeamNewItems(HashMap<Integer, Long> itemsDiff) {
+	public void onFocusedTeamNewItems(Map<Integer, Long> itemsDiff) {
 		Map<Integer, Long> items = parent().getFocusedTeamItems();
 		Set<Integer> provisionned = parent.getProvision().total.keySet();
 		for (Integer itemID : itemsDiff.keySet()) {
@@ -277,13 +348,8 @@ public class OverViewPane extends VBox implements EvePane {
 		tvEvents.getItems().clear();
 		itemsProvisions.values().forEach(pp -> pp.added = false);
 		LinkedHashSet<String> allowedCharacters = parent.getTeamCharacters();
-		for (APIRoot api : parent.apis) {
-			for (Character c : api.account.characters()) {
-				if (allowedCharacters.contains(c.name)) {
-					addCharInfo(c, api);
-				}
-			}
-		}
+		parent.apis.parallelStream().flatMap(api -> api.account.characters().parallelStream())
+		.filter(c -> allowedCharacters.contains(c.name)).forEach(this::addCharInfo);
 		if (showProvisions) {
 			loadProvisionsFromItems();
 		}
@@ -296,14 +362,13 @@ public class OverViewPane extends VBox implements EvePane {
 			for (APIRoot api : parent().apis) {
 				for (Character c : api.account.characters()) {
 					if (parent.getTeamCharacters().contains(c.name)) {
-						addCharJobs(c, api);
+						addCharJobs(c);
 					}
 				}
 			}
 			tvEvents.sort();
 		} else {
 			showJobs = false;
-
 			tvEvents.getItems().removeIf(EventData::isIndustryJob);
 		}
 	}
@@ -317,6 +382,7 @@ public class OverViewPane extends VBox implements EvePane {
 			itemsProvisions.values().forEach(pp -> pp.added = false);
 			tvEvents.getItems().removeIf(ed -> ed.type.equals("provision"));
 		}
+		tvEvents.sort();
 	}
 
 }

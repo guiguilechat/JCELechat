@@ -10,7 +10,11 @@ import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
@@ -37,6 +41,8 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 public class Manager extends Application implements EvePane {
+
+	private static final Logger logger = LoggerFactory.getLogger(Manager.class);
 
 	public static void main(String[] args) {
 		launch(args);
@@ -247,9 +253,9 @@ public class Manager extends Application implements EvePane {
 
 	// items
 
-	protected HashMap<String, HashMap<Integer, Long>> itemsByCharName = new HashMap<>();
+	protected Map<String, HashMap<Integer, Long>> itemsByCharName = Collections.synchronizedMap(new HashMap<>());
 
-	protected HashMap<String, HashMap<Integer, Long>> itemsByTeamName = new HashMap<>();
+	protected Map<String, HashMap<Integer, Long>> itemsByTeamName = Collections.synchronizedMap(new HashMap<>());
 
 	// getting the items
 
@@ -257,22 +263,12 @@ public class Manager extends Application implements EvePane {
 	 * update the focused team's items. this is done on a character basis
 	 */
 	public void updateTeamItems() {
-		HashMap<Integer, Long> totalGain = new HashMap<>();
-		for (APIRoot api : apis) {
-			for (Character c : api.account.characters()) {
-				if (getTeamCharacters().contains(c.name)) {
-					HashMap<Integer, Long> gain = computeItemsDiff(api, c);
-					for (Entry<Integer, Long> e : gain.entrySet()) {
-						totalGain.put(e.getKey(), e.getValue() + totalGain.getOrDefault(e.getKey(), 0l));
-					}
-					for (OrderEntry a : api.chars.marketOrders(c.characterID)) {
-						if (a.isBuyOrder() && a.isOpen()) {
-							totalGain.put(a.typeID, a.volRemaining + totalGain.getOrDefault(a.typeID, 0l));
-						}
-					}
-				}
-			}
-		}
+		LinkedHashSet<String> allowedNames = getTeamCharacters();
+		Map<Integer, Long> totalGain =
+				apis.parallelStream().flatMap(api -> api.account.characters().parallelStream())
+				.filter(c -> allowedNames.contains(c.name)).map(this::computeItemsDiff).filter(p -> p != null && !p.isEmpty())
+				.flatMap(m -> m.entrySet().stream())
+				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, Long::sum));
 		if (!totalGain.isEmpty()) {
 			propagateFocusedTeamNewItems(totalGain);
 		}
@@ -291,28 +287,49 @@ public class Manager extends Application implements EvePane {
 	}
 
 	@Override
-	public void onFocusedTeamNewItems(HashMap<Integer, Long> itemsDiff) {
+	public void onFocusedTeamNewItems(Map<Integer, Long> itemsDiff) {
 		Map<Integer, Long> m = getFocusedTeamItems();
 		for (Entry<Integer, Long> e : itemsDiff.entrySet()) {
 			m.put(e.getKey(), e.getValue() + m.getOrDefault(e.getKey(), 0l));
 		}
 	}
 
+	protected int assetListCacheDelayMinutes = 30;
+	protected Map<Long, Date> assetListCacheByCharID = Collections.synchronizedMap(new HashMap<>());
+
 	/**
-	 * compute the difference in items between last call and now.
+	 * compute the difference in items assets and buy orders between last call and
+	 * now. if we already called for those assets
+	 * {@value #assetListCacheDelayMinutes} or less before, we don't request
+	 * again.
 	 *
-	 * @param api
-	 *          the API to use
+	 * <p>
+	 * This should be thread-safe. Only the cache is manipulated, which is in a
+	 * synchronize map.
+	 * </p>
+	 *
 	 * @param c
 	 *          the character to get the items for
 	 * @return a new Hashmap, for each item id as key, the difference in number as
 	 *         value.
 	 */
-	protected HashMap<Integer, Long> computeItemsDiff(APIRoot api, Character c) {
+	protected Map<Integer, Long> computeItemsDiff(Character c) {
+		Date now = new Date();
+		Date cacheExpiration = assetListCacheByCharID.get(c.characterID);
+		if (cacheExpiration != null && cacheExpiration.after(now)) {
+			return Collections.emptyMap();
+		}
+		logger.debug("invalid cache assets " + c.name);
+		assetListCacheByCharID.put(c.characterID, new Date(now.getTime() + 20 * 60000));
 		HashMap<Integer, Long> itemsGain = new HashMap<>();
-		for (ArrayList<Content> ac : api.chars.assetList(c.characterID).values()) {
+		for (ArrayList<Content> ac : c.assetList().values()) {
 			for (Content co : ac) {
 				itemsGain.put(co.typeID, co.quantity + itemsGain.getOrDefault(co.typeID, 0l));
+			}
+		}
+		for (OrderEntry a : c.marketOrders()) {
+			if (a.isBuyOrder() && a.isOpen()) {
+				itemsGain.put(a.typeID, a.volRemaining + itemsGain.getOrDefault(a.typeID, 0l));
 			}
 		}
 
