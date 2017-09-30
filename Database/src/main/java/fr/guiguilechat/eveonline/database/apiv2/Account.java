@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.database.apiv2;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -9,6 +10,11 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import fr.guiguilechat.eveonline.database.apiv2.Char.BPEntry;
+import fr.guiguilechat.eveonline.database.apiv2.Char.Content;
+import fr.guiguilechat.eveonline.database.apiv2.Char.JobEntry;
+import fr.guiguilechat.eveonline.database.apiv2.Char.OrderEntry;
 
 public class Account {
 
@@ -22,7 +28,7 @@ public class Account {
 
 	public final String BASEURL = APIRoot.BASEURL + "account/";
 
-	public static class Character {
+	public class Character {
 		public String name;
 		public long characterID;
 		public String corporationName;
@@ -36,6 +42,27 @@ public class Account {
 		public String toString() {
 			return name;
 		}
+
+		public ArrayList<JobEntry> industryJobs() {
+			return parent.chars.industryJobs(characterID);
+		}
+
+		public ArrayList<OrderEntry> marketOrders() {
+			return parent.chars.marketOrders(characterID);
+		}
+
+		public LinkedHashMap<String, Integer> skillsByName() {
+			return parent.chars.skillsByName(characterID);
+		}
+
+		public LinkedHashMap<Long, ArrayList<Content>> assetList() {
+			return parent.chars.assetList(characterID);
+		}
+
+		public ArrayList<BPEntry> blueprints() {
+			return parent.chars.blueprints(characterID);
+		}
+
 	}
 
 	public ArrayList<Character> characters() {
