@@ -52,12 +52,12 @@ public class LPCorpEvaluator {
 	}
 
 	// adjust BO by removing this taxe
-	double markettax = 0.02;
+	double markettax = 0.04;
 
 	// only keep orders with isk/lp >= this value.
 	double minISKLPRatio = 600;
 
-	int amountLP = 400000;
+	int amountLP = 1000000;
 
 
 	public final EveDatabase db;

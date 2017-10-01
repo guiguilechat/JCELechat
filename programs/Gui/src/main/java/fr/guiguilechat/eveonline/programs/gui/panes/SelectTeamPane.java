@@ -35,6 +35,15 @@ public class SelectTeamPane extends ChoiceBox<String> implements EvePane {
 		setValue(teamName);
 	}
 
+	@Override
+	public void onRenameTeam(String old, String now) {
+		if (old.equals(getValue())) {
+			setValue(now);
+		}
+		getItems().remove(old);
+		getItems().add(now);
+	}
+
 	protected String oldValue = null;
 
 	public void changeEvt(ActionEvent ev) {

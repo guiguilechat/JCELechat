@@ -173,7 +173,38 @@ public class Manager extends Application implements EvePane {
 		settings.teams.remove(name);
 		settings.store();
 		propagateDelTeam(name);
+	}
 
+	public boolean renameTeam(String old, String now) {
+		if (old != null && settings.teams.keySet().contains(old) && now != null && now.length() > 0
+				&& !settings.teams.keySet().contains(now)) {
+			settings.teams.put(now, settings.teams.get(old));
+			settings.teams.remove(old);
+			settings.provisions.put(now, settings.provisions.get(old));
+			settings.provisions.remove(old);
+			if (old.equals(settings.focusedTeam)) {
+				settings.focusedTeam=now;
+			}
+			settings.store();
+			propagateRenameTeam(old, now);
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public boolean copyTeam(String from, String newname) {
+
+		if (from != null && settings.teams.keySet().contains(from) && newname != null && newname.length() > 0
+				&& !settings.teams.keySet().contains(newname)) {
+			settings.teams.put(newname, settings.teams.get(from));
+			settings.provisions.put(newname, settings.provisions.get(from));
+			settings.store();
+			propagateNewTeam(newname);
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	public void add2Team(String character, String team) {

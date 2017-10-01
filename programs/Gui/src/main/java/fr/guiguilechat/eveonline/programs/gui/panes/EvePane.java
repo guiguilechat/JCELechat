@@ -88,6 +88,27 @@ public interface EvePane {
 	}
 
 	/** do not override this */
+	public default void propagateRenameTeam(String old, String now) {
+		onRenameTeam(old, now);
+		for (EvePane e : subEvePanes()) {
+			e.propagateRenameTeam(old, now);
+		}
+	}
+
+	/**
+	 * Override this to handle a team rename. this is called after the parents
+	 * have been notified, and in most case should only replace occurences of old
+	 * by now.
+	 *
+	 * @param old
+	 *          old team name
+	 * @param now
+	 *          new team name
+	 */
+	public default void onRenameTeam(String old, String now) {
+	}
+
+	/** do not override this */
 	public default void propagateAdd2Team(String team, String character) {
 		onAdd2Team(team, character);
 		for (EvePane p : subEvePanes()) {
