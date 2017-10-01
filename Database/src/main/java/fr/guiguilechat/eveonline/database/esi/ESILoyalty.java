@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.database.esi;
 import java.io.IOException;
 import java.net.URL;
 import java.util.HashMap;
+import java.util.stream.IntStream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,6 +36,18 @@ public class ESILoyalty {
 	private ObjectReader offerArrayReader = om.readerFor(Offer[].class);
 
 	private final HashMap<Integer, Offer[]> cache = new HashMap<>();
+
+	public void loadOffers(int... ids) {
+		IntStream.of(ids).parallel().forEach(id -> {
+			try {
+				Offer[] ret = offerArrayReader.readValue(new URL(baseURL + id + "/offers/"));
+				cache.put(id, ret);
+			} catch (IOException e) {
+				logger.debug("can't get LP store for id " + id);
+				cache.put(id, new Offer[] {});
+			}
+		});
+	}
 
 	public Offer[] getOffers(int id) {
 		Offer[] ret = cache.get(id);

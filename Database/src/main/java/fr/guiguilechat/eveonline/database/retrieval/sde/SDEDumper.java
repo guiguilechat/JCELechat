@@ -685,6 +685,7 @@ public class SDEDumper {
 
 	public static void loadLPOffers(SDEData sde, DatabaseFile db, ESINpcCorporations corps) {
 		ESILoyalty loyalty = new ESILoyalty();
+		loyalty.loadOffers(corps.getCorpos().keySet().stream().mapToInt(i -> i).toArray());
 		for (Entry<Integer, Corporation> e : corps.getCorpos().entrySet()) {
 			for (Offer o : loyalty.getOffers(e.getKey())) {
 				LPOffer lpo = new LPOffer();
