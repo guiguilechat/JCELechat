@@ -109,6 +109,38 @@ public interface EvePane {
 	}
 
 	/** do not override this */
+	public default void propagateTeamAddLoc(String team, long locID) {
+		onTeamAddLoc(team, locID);
+		for (EvePane e : subEvePanes()) {
+			e.propagateTeamAddLoc(team, locID);
+		}
+	}
+
+	/**
+	 * override this to handle a new location to a team . This is called after the
+	 * parent are notified, so all parents values should be updated to reflect
+	 * this new location
+	 */
+	public default void onTeamAddLoc(String team, long locID) {
+	}
+
+	/** do not override this */
+	public default void propagateTeamDelLoc(String team, long locID) {
+		onTeamDelLoc(team, locID);
+		for (EvePane e : subEvePanes()) {
+			e.propagateTeamDelLoc(team, locID);
+		}
+	}
+
+	/**
+	 * override this to handle removal of location to a team . This is called
+	 * after the parent are notified, so all parents values should be updated to
+	 * reflect this removal
+	 */
+	public default void onTeamDelLoc(String team, long locID) {
+	}
+
+	/** do not override this */
 	public default void propagateAdd2Team(String team, String character) {
 		onAdd2Team(team, character);
 		for (EvePane p : subEvePanes()) {

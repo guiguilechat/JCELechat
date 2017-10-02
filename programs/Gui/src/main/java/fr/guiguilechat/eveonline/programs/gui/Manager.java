@@ -10,6 +10,7 @@ import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -134,6 +135,57 @@ public class Manager extends Application implements EvePane {
 		}
 	}
 
+	@Override
+	public void onAdd2Team(String team, String character) {
+		cachedTeamsPossibleLocations.remove(team);
+	}
+
+	@Override
+	public void onDel2Team(String team, String character) {
+		cachedTeamsPossibleLocations.remove(team);
+	}
+
+	@Override
+	public void onDelTeam(String name) {
+		cachedTeamsPossibleLocations.remove(name);
+	}
+
+	@Override
+	public void onTeamAddLoc(String team, long locID) {
+		if (team == null) {
+			return;
+		}
+		// for each character of the team, we get the asets of this characxter on
+		// the given location and we add them to the team assets.
+		HashMap<Integer, Long> itemsGains = new HashMap<>();
+		for (String charName : settings.teams.get(team)) {
+			Map<Long, Map<Integer, Long>> charItems = itemsByCharName.get(charName);
+			if (charItems != null) {
+				Map<Integer, Long> locItems = charItems.get(locID);
+				for (Entry<Integer, Long> e : locItems.entrySet()) {
+					itemsGains.put(e.getKey(), itemsGains.getOrDefault(e.getKey(), 0l) + e.getValue());
+				}
+			}
+		}
+		Map<Integer, Long> storedItemsValues = itemsByTeamName.get(team);
+		if (storedItemsValues == null) {
+			storedItemsValues = itemsGains;
+			itemsByTeamName.put(team, storedItemsValues);
+		} else {
+			for (Entry<Integer, Long> e : itemsGains.entrySet()) {
+				long newval = e.getValue() + storedItemsValues.getOrDefault(e.getKey(), 0l);
+				if (newval != 0) {
+					storedItemsValues.put(e.getKey(), newval);
+				} else {
+					storedItemsValues.remove(e.getKey());
+				}
+			}
+		}
+		if (team.equals(settings.focusedTeam)) {
+			propagateFocusedTeamNewItems(itemsGains);
+		}
+	}
+
 	// external calls
 	// modification of the settings
 	//
@@ -183,7 +235,7 @@ public class Manager extends Application implements EvePane {
 			settings.provisions.put(now, settings.provisions.get(old));
 			settings.provisions.remove(old);
 			if (old.equals(settings.focusedTeam)) {
-				settings.focusedTeam=now;
+				settings.focusedTeam = now;
 			}
 			settings.store();
 			propagateRenameTeam(old, now);
@@ -226,17 +278,45 @@ public class Manager extends Application implements EvePane {
 		propagateFocusedTeam(name);
 	}
 
-	public LinkedHashSet<String> getTeamCharacters() {
+	public Set<String> getFTeamCharacters() {
 		if (settings.focusedTeam != null) {
 			return settings.teams.get(settings.focusedTeam);
 		}
-		LinkedHashSet<String> ret = new LinkedHashSet<>();
-		for (APIRoot a : apis) {
-			for (Character c : a.account.characters()) {
-				ret.add(c.name);
-			}
+		return Collections.emptySet();
+	}
+
+	protected Map<String, Set<Long>> cachedTeamsPossibleLocations = new HashMap<>();
+
+	/**
+	 * find all the possible location ID for the given team.
+	 * @return
+	 */
+	public Set<Long> getFTeamPossibleLocations(){
+		if (settings.focusedTeam == null) {
+			return Collections.emptySet();
+		}
+		Set<Long> ret = cachedTeamsPossibleLocations.get(settings.focusedTeam);
+		if (ret == null) {
+			Set<String> allowedChars = getFTeamCharacters();
+			Stream<Character> chars = apis.stream().flatMap(a->a.account.characters().stream()).filter(c->allowedChars.contains(c.name));
+			ret = chars
+					.flatMap(c -> Stream.concat(c.marketOrders().stream().map(oe -> oe.stationID), c.assetList().keySet().stream()))
+					.collect(Collectors.toSet());
+			cachedTeamsPossibleLocations.put(settings.focusedTeam, ret);
 		}
 		return ret;
+	}
+
+	/**
+	 * get the set of stations id the focused team allows
+	 *
+	 * @return
+	 */
+	public Set<Long> getFTeamLocations() {
+		if (settings.focusedTeam != null) {
+			return settings.teamsLocations.get(settings.focusedTeam);
+		}
+		return Collections.emptySet();
 	}
 
 	// provision
@@ -284,20 +364,23 @@ public class Manager extends Application implements EvePane {
 
 	// items
 
-	protected Map<String, HashMap<Integer, Long>> itemsByCharName = Collections.synchronizedMap(new HashMap<>());
+	protected Map<String, Map<Long, Map<Integer, Long>>> itemsByCharName = Collections.synchronizedMap(new HashMap<>());
 
-	protected Map<String, HashMap<Integer, Long>> itemsByTeamName = Collections.synchronizedMap(new HashMap<>());
+	protected Map<String, Map<Integer, Long>> itemsByTeamName = Collections.synchronizedMap(new HashMap<>());
 
 	// getting the items
 
 	/**
 	 * update the focused team's items. this is done on a character basis
 	 */
-	public void updateTeamItems() {
-		LinkedHashSet<String> allowedNames = getTeamCharacters();
-		Map<Integer, Long> totalGain =
-				apis.parallelStream().flatMap(api -> api.account.characters().parallelStream())
-				.filter(c -> allowedNames.contains(c.name)).map(this::computeItemsDiff).filter(p -> p != null && !p.isEmpty())
+	public void updateFTeamItems() {
+		Set<String> allowedNames = getFTeamCharacters();
+		Set<Long> allowedLocations = getFTeamLocations();
+		Stream<Character> teamCharacters = apis.parallelStream().flatMap(api -> api.account.characters().parallelStream())
+				.filter(c -> allowedNames.contains(c.name));
+		Map<Integer, Long> totalGain = teamCharacters.map(this::computeItemsDiff).flatMap(m -> m.entrySet().stream())
+				.filter(e -> allowedLocations == null || allowedLocations.contains(e.getKey())).map(Map.Entry::getValue)
+				.filter(p -> p != null && !p.isEmpty())
 				.flatMap(m -> m.entrySet().stream())
 				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, Long::sum));
 		if (!totalGain.isEmpty()) {
@@ -309,7 +392,7 @@ public class Manager extends Application implements EvePane {
 		if (settings.focusedTeam == null) {
 			return Collections.emptyMap();
 		}
-		HashMap<Integer, Long> ret = itemsByTeamName.get(settings.focusedTeam);
+		Map<Integer, Long> ret = itemsByTeamName.get(settings.focusedTeam);
 		if (ret == null) {
 			ret = new HashMap<>();
 			itemsByTeamName.put(settings.focusedTeam, ret);
@@ -341,10 +424,9 @@ public class Manager extends Application implements EvePane {
 	 *
 	 * @param c
 	 *          the character to get the items for
-	 * @return a new Hashmap, for each item id as key, the difference in number as
-	 *         value.
+	 * @return a new Hashmap, locationID->itemid->difference in number.
 	 */
-	protected Map<Integer, Long> computeItemsDiff(Character c) {
+	protected Map<Long, Map<Integer, Long>> computeItemsDiff(Character c) {
 		Date now = new Date();
 		Date cacheExpiration = assetListCacheByCharID.get(c.characterID);
 		if (cacheExpiration != null && cacheExpiration.after(now)) {
@@ -352,42 +434,69 @@ public class Manager extends Application implements EvePane {
 		}
 		logger.debug("invalid cache assets " + c.name);
 		assetListCacheByCharID.put(c.characterID, new Date(now.getTime() + 20 * 60000));
-		HashMap<Integer, Long> itemsGain = new HashMap<>();
-		for (ArrayList<Content> ac : c.assetList().values()) {
-			for (Content co : ac) {
-				itemsGain.put(co.typeID, co.quantity + itemsGain.getOrDefault(co.typeID, 0l));
+		// for each
+		HashMap<Long, Map<Integer, Long>> itemsDiff = new HashMap<>();
+		for (Entry<Long, ArrayList<Content>> e : c.assetList().entrySet()) {
+			Map<Integer, Long> localGains = new HashMap<>();
+			itemsDiff.put(e.getKey(), localGains);
+			for (Content co : e.getValue()) {
+				localGains.put(co.typeID, co.quantity);
 			}
 		}
 		for (OrderEntry a : c.marketOrders()) {
-			if (a.isBuyOrder() && a.isOpen()) {
-				itemsGain.put(a.typeID, a.volRemaining + itemsGain.getOrDefault(a.typeID, 0l));
+			if (a.isOpen() && a.isBuyOrder()) {
+				Map<Integer, Long> localGains = itemsDiff.get(a.stationID);
+				if (localGains == null) {
+					localGains = new HashMap<>();
+					itemsDiff.put(a.stationID, localGains);
+				}
+				localGains.put(a.typeID, a.volRemaining + localGains.getOrDefault(a.typeID, 0l));
 			}
 		}
 
-		HashMap<Integer, Long> oldItems = itemsByCharName.get(c.name);
-		if (oldItems == null) {
+		Map<Long, Map<Integer, Long>> rawItems = itemsByCharName.get(c.name);
+		if (rawItems == null) {
 			// no items stored yet
-			oldItems = itemsGain;
-			itemsByCharName.put(c.name, oldItems);
+			rawItems = itemsDiff;
+			itemsByCharName.put(c.name, rawItems);
 		} else {
-			for (int itemID : Stream.concat(oldItems.keySet().stream(), itemsGain.keySet().stream()).mapToInt(i -> i)
-					.distinct().toArray()) {
-				long newVal = itemsGain.getOrDefault(itemID, 0l);
-				long diff = newVal - oldItems.getOrDefault(itemID, 0l);
-				if (newVal != 0) {
-					oldItems.put(itemID, newVal);
-				} else {
-					oldItems.remove(itemID);
+			for (long locID : Stream.concat(rawItems.keySet().stream(), itemsDiff.keySet().stream()).mapToLong(l -> l)
+					.toArray()) {
+				Map<Integer, Long> locDiff = itemsDiff.get(locID);
+				if (locDiff == null) {
+					locDiff = new HashMap<>();
+					itemsDiff.put(locID, locDiff);
 				}
-				if (diff != 0) {
-					itemsGain.put(itemID, diff);
-				} else {
-					itemsGain.remove(itemID);
+				Map<Integer, Long> locRaw = rawItems.get(locID);
+				if (locRaw == null) {
+					locRaw = new HashMap<>();
+					rawItems.put(locID, locRaw);
+				}
+				for (int itemID : Stream.concat(locDiff.keySet().stream(), locRaw.keySet().stream()).mapToInt(i -> i)
+						.distinct().toArray()) {
+					long newVal = locDiff.getOrDefault(itemID, 0l);
+					long diff = newVal - locRaw.getOrDefault(itemID, 0l);
+					if (newVal != 0) {
+						locRaw.put(itemID, newVal);
+					} else {
+						locRaw.remove(itemID);
+					}
+					if (diff != 0) {
+						locDiff.put(itemID, diff);
+					} else {
+						locDiff.remove(itemID);
+					}
+				}
+				if (locDiff.isEmpty()) {
+					itemsDiff.remove(locID);
+				}
+				if (locRaw.isEmpty()) {
+					rawItems.remove(locID);
 				}
 			}
 		}
 
-		return itemsGain;
+		return itemsDiff;
 	}
 
 	// debug

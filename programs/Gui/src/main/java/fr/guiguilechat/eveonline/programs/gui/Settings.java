@@ -2,7 +2,7 @@ package fr.guiguilechat.eveonline.programs.gui;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.LinkedHashSet;
+import java.util.Set;
 
 import org.yaml.snakeyaml.TypeDescription;
 import org.yaml.snakeyaml.constructor.Constructor;
@@ -18,7 +18,9 @@ public class Settings implements ISettings {
 
 	public LinkedHashMap<Integer, String> apiKeys = new LinkedHashMap<>();
 
-	public LinkedHashMap<String, LinkedHashSet<String>> teams = new LinkedHashMap<>();
+	public LinkedHashMap<String, Set<String>> teams = new LinkedHashMap<>();
+
+	public LinkedHashMap<String, Set<Long>> teamsLocations = new LinkedHashMap<>();
 
 	public String focusedTeam = null;
 

@@ -296,7 +296,7 @@ public class OverViewPane extends VBox implements EvePane {
 			pr.ed.who = parent().settings.focusedTeam;
 			updateItemQuantity(e.getKey(), items.getOrDefault(e.getKey(), 0l), pr);
 		}
-		parent.updateTeamItems();
+		parent.updateFTeamItems();
 	}
 
 	@Override
