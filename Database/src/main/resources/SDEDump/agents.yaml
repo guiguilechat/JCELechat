@@ -925,7 +925,7 @@ agents:
     level: 1
     location: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     name: Achi Astenaisen
-    system: Serpentis Prime
+    system: SerpentisPrime
   Achoghu Choosha:
     agentID: 3010374
     agentType: BasicAgent
@@ -3349,7 +3349,7 @@ agents:
     level: 3
     location: Khanid Prime V - Moon 1 - Khanid Innovation Factory
     name: Ahtamaa Visken
-    system: Khanid Prime
+    system: KhanidPrime
   Ahtamon Pavanakka:
     agentID: 3011527
     agentType: ResearchAgent
@@ -4396,7 +4396,7 @@ agents:
     level: 1
     location: New Caldari V (Oniteseru) - Moon 2 - House of Records Archives
     name: Aivuken Kirvira
-    system: New Caldari
+    system: NewCaldari
   Aizagenen Arozainen:
     agentID: 3011001
     agentType: BasicAgent
@@ -4646,7 +4646,7 @@ agents:
     level: 2
     location: Khanid Prime V - Moon 1 - Khanid Innovation Factory
     name: Ake Wagas
-    system: Khanid Prime
+    system: KhanidPrime
   Akelf Ortar:
     agentID: 3018864
     agentType: EventMissionAgent
@@ -4991,7 +4991,7 @@ agents:
     level: 3
     location: Ardishapur Prime II - Further Foodstuffs Plantation
     name: Akotoon Nolirz
-    system: Ardishapur Prime
+    system: ArdishapurPrime
   Akouh Hishmich:
     agentID: 3013810
     agentType: BasicAgent
@@ -5001,7 +5001,7 @@ agents:
     level: 3
     location: Kor-Azor Prime II - Kor-Azor Family Bureau
     name: Akouh Hishmich
-    system: Kor-Azor Prime
+    system: Kor-AzorPrime
   Akova Totama:
     agentID: 3016223
     agentType: BasicAgent
@@ -5289,7 +5289,7 @@ agents:
     level: 1
     location: Tash-Murkon Prime V - Moon 5 - Expert Distribution Warehouse
     name: Alaoutitoh Hevulainen
-    system: Tash-Murkon Prime
+    system: Tash-MurkonPrime
   Alarancke Vesnync:
     agentID: 3009809
     agentType: BasicAgent
@@ -7448,7 +7448,7 @@ agents:
     level: 2
     location: Serpentis Prime VIII - Moon 2 - Serpentis Corporation Chemical Refinery
     name: Amaurin Abamier
-    system: Serpentis Prime
+    system: SerpentisPrime
   Amavene Ylle:
     agentID: 3015221
     agentType: BasicAgent
@@ -9457,7 +9457,7 @@ agents:
     level: 3
     location: Ardishapur Prime II - Further Foodstuffs Plantation
     name: Anolher Rarmesu
-    system: Ardishapur Prime
+    system: ArdishapurPrime
   Anomun Sasama:
     agentID: 3012919
     agentType: BasicAgent
@@ -10544,7 +10544,7 @@ agents:
     level: 1
     location: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Kor-Azor Family Bureau
     name: Apra Alahma
-    system: Kor-Azor Prime
+    system: Kor-AzorPrime
   Apset Odiber:
     agentID: 3010724
     agentType: BasicAgent
@@ -13615,7 +13615,7 @@ agents:
     location: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Ishukone Corporation
       Factory
     name: Asanen Naikka
-    system: Kor-Azor Prime
+    system: Kor-AzorPrime
   Asaniri Reirvenen:
     agentID: 3016924
     agentType: BasicAgent
@@ -14035,7 +14035,7 @@ agents:
     level: 2
     location: Kador Prime VI - Moon 1 - Kador Family Bureau
     name: Ashken Enaeel
-    system: Kador Prime
+    system: KadorPrime
   Ashmarir Naita:
     agentID: 3018162
     agentType: BasicAgent
@@ -15951,7 +15951,7 @@ agents:
     level: 3
     location: Kador Prime IX - TransStellar Shipping Storage
     name: Aucier Prayl
-    system: Kador Prime
+    system: KadorPrime
   Audaerne Jucissire:
     agentID: 3018108
     agentType: BasicAgent
@@ -16752,7 +16752,7 @@ agents:
     level: 3
     location: Lower Debyl V - Chemal Tech Factory
     name: Aurecque Marbette
-    system: Lower Debyl
+    system: LowerDebyl
   Aurejet Anyadal:
     agentID: 3014728
     agentType: BasicAgent
@@ -18070,7 +18070,7 @@ agents:
     level: 4
     location: Old Man Star VIII - Moon 2 - Senate Bureau
     name: Aydefroy Brechalle
-    system: Old Man Star
+    system: OldManStar
   Ayderitte Estibiese:
     agentID: 3015543
     agentType: BasicAgent
@@ -18180,7 +18180,7 @@ agents:
     level: 1
     location: Old Man Star VIII - Moon 1 - Quafe Company Warehouse
     name: Aymirot Compsier
-    system: Old Man Star
+    system: OldManStar
   Aymynouel Chaland:
     agentID: 3015406
     agentType: BasicAgent
@@ -18748,7 +18748,7 @@ agents:
     level: 1
     location: Ardishapur Prime IX - Moon 17 - Ardishapur Family Bureau
     name: Bairshir Umam
-    system: Ardishapur Prime
+    system: ArdishapurPrime
   Bakkarault Brevier:
     agentID: 3009454
     agentType: BasicAgent
@@ -18887,7 +18887,7 @@ agents:
     level: 3
     location: Tash-Murkon Prime V - Moon 7 - Amarr Constructions Warehouse
     name: Bama Lierku
-    system: Tash-Murkon Prime
+    system: Tash-MurkonPrime
   Bamadah Sheymel:
     agentID: 3013277
     agentType: BasicAgent
@@ -20661,7 +20661,7 @@ agents:
     level: 2
     location: Kador Prime II - TransStellar Shipping Storage
     name: Bildecaina Riveau
-    system: Kador Prime
+    system: KadorPrime
   Bilni Zat:
     agentID: 3014839
     agentType: BasicAgent
@@ -21855,7 +21855,7 @@ agents:
     level: 2
     location: Kador Prime I - Kador Family Bureau
     name: Bouras Gakeli
-    system: Kador Prime
+    system: KadorPrime
   Bourens Boingaroix:
     agentID: 3009680
     agentType: BasicAgent
@@ -24322,7 +24322,7 @@ agents:
     level: 4
     location: New Caldari V (Oniteseru) - Moon 2 - House of Records Archives
     name: Chiku Koronen
-    system: New Caldari
+    system: NewCaldari
   Chilela Armaiah:
     agentID: 3008887
     agentType: BasicAgent
@@ -24462,7 +24462,7 @@ agents:
     level: 3
     location: Lower Debyl VIII - Moon 15 - Chemal Tech Factory
     name: Chostins Gaenloovitte
-    system: Lower Debyl
+    system: LowerDebyl
   Chozal Kenamben:
     agentID: 3015741
     agentType: BasicAgent
@@ -25190,7 +25190,7 @@ agents:
     level: 2
     location: Lower Debyl V - Chemal Tech Factory
     name: Cooleemina Wiranstoure
-    system: Lower Debyl
+    system: LowerDebyl
   Coommarecque Lalolles:
     agentID: 3009200
     agentType: BasicAgent
@@ -26218,7 +26218,7 @@ agents:
     level: 1
     location: Sarum Prime VI - Moon 7 - Sarum Family Assembly Plant
     name: Darnena Anjedin
-    system: Sarum Prime
+    system: SarumPrime
   Darolevre Verac:
     agentID: 3009333
     agentType: BasicAgent
@@ -26557,7 +26557,7 @@ agents:
     level: 2
     location: Sarum Prime III - Moon 2 - Imperial Academy
     name: Delabet Adiam
-    system: Sarum Prime
+    system: SarumPrime
   Delennotte Deloettan:
     agentID: 3009259
     agentType: BasicAgent
@@ -27701,7 +27701,7 @@ agents:
     level: 2
     location: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     name: Dralle Arson
-    system: Serpentis Prime
+    system: SerpentisPrime
   Drele Hussevris:
     agentID: 3015151
     agentType: BasicAgent
@@ -28969,7 +28969,7 @@ agents:
     level: 2
     location: Khanid Prime VII - Moon 2 - Khanid Works Shipyard
     name: Egino Aranata
-    system: Khanid Prime
+    system: KhanidPrime
   Egino Erashin:
     agentID: 3011651
     agentType: BasicAgent
@@ -29551,7 +29551,7 @@ agents:
     level: 4
     location: Serpentis Prime II - Archangels Testing Facilities
     name: Eitasena Annidhar
-    system: Serpentis Prime
+    system: SerpentisPrime
   Eitasena Hesker:
     agentID: 3012624
     agentType: BasicAgent
@@ -29910,7 +29910,7 @@ agents:
     level: 2
     location: Old Man Star VIII - Moon 2 - Senate Bureau
     name: Elage Rienne
-    system: Old Man Star
+    system: OldManStar
   Elahassen Jachi:
     agentID: 3015873
     agentType: BasicAgent
@@ -31112,7 +31112,7 @@ agents:
     level: 3
     location: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     name: Engardin Trahad
-    system: Serpentis Prime
+    system: SerpentisPrime
   Engata Lirfur:
     agentID: 3010781
     agentType: BasicAgent
@@ -32319,7 +32319,7 @@ agents:
     level: 1
     location: Tash-Murkon Prime V - Moon 1 - Tash-Murkon Family Bureau
     name: Ershol Arajah
-    system: Tash-Murkon Prime
+    system: Tash-MurkonPrime
   Ersi Argrik:
     agentID: 3016016
     agentType: BasicAgent
@@ -32329,7 +32329,7 @@ agents:
     level: 1
     location: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     name: Ersi Argrik
-    system: Serpentis Prime
+    system: SerpentisPrime
   Ertlie Gere:
     agentID: 3010430
     agentType: BasicAgent
@@ -32609,7 +32609,7 @@ agents:
     level: 2
     location: Tash-Murkon Prime III - Moon 1 - Expert Distribution Retail Center
     name: Eskanen Paatavainen
-    system: Tash-Murkon Prime
+    system: Tash-MurkonPrime
   Eskar Aerdar:
     agentID: 3012408
     agentType: BasicAgent
@@ -32859,7 +32859,7 @@ agents:
     level: 2
     location: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     name: Essbet Tittori
-    system: Serpentis Prime
+    system: SerpentisPrime
   Essegaines Edmalere:
     agentID: 3017368
     agentType: GenericStorylineMissionAgent
@@ -32989,7 +32989,7 @@ agents:
     level: 1
     location: Kador Prime II - TransStellar Shipping Storage
     name: Estavoire Ostrie
-    system: Kador Prime
+    system: KadorPrime
   Estelm Vudugbad:
     agentID: 3012597
     agentType: BasicAgent
@@ -33009,7 +33009,7 @@ agents:
     level: 1
     location: Kador Prime VII - Moon 1 - TransStellar Shipping Storage
     name: Estie Rolle
-    system: Kador Prime
+    system: KadorPrime
   Estime Hovrelaert:
     agentID: 3009510
     agentType: BasicAgent
@@ -33643,7 +33643,7 @@ agents:
     level: 2
     location: Tash-Murkon Prime III - Moon 1 - DED Assembly Plant
     name: Eves Obarmant
-    system: Tash-Murkon Prime
+    system: Tash-MurkonPrime
   Eveynel Daerne:
     agentID: 3015116
     agentType: BasicAgent
@@ -34317,7 +34317,7 @@ agents:
     level: 1
     location: Tash-Murkon Prime V - Moon 1 - Tash-Murkon Family Bureau
     name: Farela Laresh
-    system: Tash-Murkon Prime
+    system: Tash-MurkonPrime
   Farimla Yarvanu:
     agentID: 3012809
     agentType: BasicAgent
@@ -35366,7 +35366,7 @@ agents:
     level: 1
     location: Kador Prime VI - Moon 1 - Kador Family Bureau
     name: Fosha Dyrer
-    system: Kador Prime
+    system: KadorPrime
   Fotine Anilla:
     agentID: 3010694
     agentType: EventMissionAgent
@@ -36448,7 +36448,7 @@ agents:
     level: 2
     location: Old Man Star VIII - Moon 2 - Senate Bureau
     name: Gamanne Adaulleler
-    system: Old Man Star
+    system: OldManStar
   Gamis Pena:
     agentID: 3008687
     agentType: BasicAgent
@@ -36556,7 +36556,7 @@ agents:
     level: 4
     location: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     name: Gara Minsk
-    system: Serpentis Prime
+    system: SerpentisPrime
   Gara Nielon:
     agentID: 3013068
     agentType: BasicAgent
@@ -40695,7 +40695,7 @@ agents:
     level: 3
     location: New Caldari I (Matigu) - Poksu Mineral Group Mineral Reserve
     name: Han Taltanen
-    system: New Caldari
+    system: NewCaldari
   Hana Isourin:
     agentID: 3018885
     agentType: EventMissionAgent
@@ -42313,7 +42313,7 @@ agents:
     level: 2
     location: Kor-Azor Prime V - Moon 1 - Ishukone Corporation Factory
     name: Heinulaila Suola
-    system: Kor-Azor Prime
+    system: Kor-AzorPrime
   Heinulaila Yaris:
     agentID: 3016490
     agentType: BasicAgent
@@ -43686,7 +43686,7 @@ agents:
     level: 3
     location: Kor-Azor Prime V - Moon 2 - Amarr Civil Service Bureau Offices
     name: Hira Jonra
-    system: Kor-Azor Prime
+    system: Kor-AzorPrime
   Hirasez Malite:
     agentID: 3013390
     agentType: BasicAgent
@@ -44210,7 +44210,7 @@ agents:
     level: 1
     location: Old Man Star VIII - Moon 2 - Senate Bureau
     name: Hoel Broin
-    system: Old Man Star
+    system: OldManStar
   Hofuan Heli:
     agentID: 3014511
     agentType: BasicAgent
@@ -45626,7 +45626,7 @@ agents:
     level: 1
     location: Serpentis Prime VIII - Moon 2 - Serpentis Corporation Chemical Refinery
     name: Hut Itola
-    system: Serpentis Prime
+    system: SerpentisPrime
   Huthin Maja:
     agentID: 3012900
     agentType: BasicAgent
@@ -46545,7 +46545,7 @@ agents:
     level: 1
     location: Lower Debyl VII - Moon 13 - Expert Distribution Retail Center
     name: Ieva Omaken
-    system: Lower Debyl
+    system: LowerDebyl
   Ieyaki Aunka:
     agentID: 3016324
     agentType: BasicAgent
@@ -46685,7 +46685,7 @@ agents:
     level: 2
     location: Old Man Star VIII - Moon 2 - Senate Bureau
     name: Ignoitton Siveslet
-    system: Old Man Star
+    system: OldManStar
   Ignoure Audesiaen:
     agentID: 3015554
     agentType: BasicAgent
@@ -46695,7 +46695,7 @@ agents:
     level: 4
     location: Old Man Star VIII - Moon 2 - Senate Bureau
     name: Ignoure Audesiaen
-    system: Old Man Star
+    system: OldManStar
   Igu Hudi:
     agentID: 3008519
     agentType: BasicAgent
@@ -48413,7 +48413,7 @@ agents:
     level: 1
     location: New Caldari Prime - Moon 1 - Poksu Mineral Group Mineral Reserve
     name: Inikko Samanuni
-    system: New Caldari
+    system: NewCaldari
   Inikko Sirsashainen:
     agentID: 3013595
     agentType: BasicAgent
@@ -49349,7 +49349,7 @@ agents:
     level: 4
     location: Kador Prime I - Kador Family Bureau
     name: Isastime Nuboliyen
-    system: Kador Prime
+    system: KadorPrime
   Isaugnedan Presetin:
     agentID: 3009356
     agentType: ResearchAgent
@@ -50576,7 +50576,7 @@ agents:
     level: 1
     location: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     name: Iwaya Naukko
-    system: Serpentis Prime
+    system: SerpentisPrime
   Iwaya Sippeskallio:
     agentID: 3016845
     agentType: BasicAgent
@@ -51507,7 +51507,7 @@ agents:
     level: 1
     location: Ardishapur Prime II - Further Foodstuffs Plantation
     name: Jaynerk Aurthes
-    system: Ardishapur Prime
+    system: ArdishapurPrime
   Jaynerk Lanoh:
     agentID: 3014563
     agentType: BasicAgent
@@ -51636,7 +51636,7 @@ agents:
     level: 1
     location: New Caldari Prime - Moon 1 - Chief Executive Panel Bureau
     name: Jeka Vantoh
-    system: New Caldari
+    system: NewCaldari
   Jelfhiki Assbet:
     agentID: 3019260
     agentType: FactionalWarfareAgent
@@ -51798,7 +51798,7 @@ agents:
     level: 1
     location: New Caldari Prime - Moon 1 - Chief Executive Panel Bureau
     name: Jerva Vantoh
-    system: New Caldari
+    system: NewCaldari
   Jesahek Garan:
     agentID: 3012887
     agentType: BasicAgent
@@ -52147,7 +52147,7 @@ agents:
     level: 2
     location: Tash-Murkon Prime V - Moon 1 - Tash-Murkon Family Bureau
     name: Joppa Atzi
-    system: Tash-Murkon Prime
+    system: Tash-MurkonPrime
   Jopri Rayl:
     agentID: 3014450
     agentType: BasicAgent
@@ -53048,7 +53048,7 @@ agents:
     level: 1
     location: Tash-Murkon Prime III - Moon 1 - Expert Distribution Retail Center
     name: Kahala Okilen
-    system: Tash-Murkon Prime
+    system: Tash-MurkonPrime
   Kahazen Kuzek:
     agentID: 3017225
     agentType: GenericStorylineMissionAgent
@@ -53823,7 +53823,7 @@ agents:
     level: 2
     location: Khanid Prime VII - Moon 2 - Khanid Works Shipyard
     name: Kalvas Vuotikiura
-    system: Khanid Prime
+    system: KhanidPrime
   Kamaala Ononala:
     agentID: 3011730
     agentType: BasicAgent
@@ -54257,7 +54257,7 @@ agents:
     level: 1
     location: New Caldari II (Matias) - Kaalakiota Corporation Factory
     name: Kara Takin
-    system: New Caldari
+    system: NewCaldari
   Kara Ueshano:
     agentID: 3011596
     agentType: BasicAgent
@@ -54911,7 +54911,7 @@ agents:
     level: 3
     location: Khanid Prime V - Moon 1 - Khanid Innovation Factory
     name: Katitera Ongrik
-    system: Khanid Prime
+    system: KhanidPrime
   Katken Shitaluma:
     agentID: 3011746
     agentType: BasicAgent
@@ -59624,7 +59624,7 @@ agents:
     level: 1
     location: Khanid Prime VII - Moon 2 - Khanid Works Shipyard
     name: Laldellins Bassobins
-    system: Khanid Prime
+    system: KhanidPrime
   Laldjan Tolomer:
     agentID: 3017218
     agentType: GenericStorylineMissionAgent
@@ -62394,7 +62394,7 @@ agents:
     level: 1
     location: Kador Prime VI - Moon 1 - Kador Family Bureau
     name: Malite Shassal
-    system: Kador Prime
+    system: KadorPrime
   Malkikka Linachi:
     agentID: 3016261
     agentType: BasicAgent
@@ -62721,7 +62721,7 @@ agents:
     level: 4
     location: Khanid Prime VII - Moon 2 - Khanid Works Shipyard
     name: Manban Laremund
-    system: Khanid Prime
+    system: KhanidPrime
   Manbier Ommenne:
     agentID: 3009277
     agentType: BasicAgent
@@ -64807,7 +64807,7 @@ agents:
     level: 4
     location: Sarum Prime VI - Moon 7 - Sarum Family Assembly Plant
     name: Merimeth Sarum
-    system: Sarum Prime
+    system: SarumPrime
   Mermene Wirtnard:
     agentID: 3009265
     agentType: BasicAgent
@@ -66318,7 +66318,7 @@ agents:
     level: 1
     location: Sarum Prime VI - Moon 7 - Sarum Family Assembly Plant
     name: Molea Sigaza
-    system: Sarum Prime
+    system: SarumPrime
   Moledune Hevinivis:
     agentID: 3010416
     agentType: BasicAgent
@@ -66597,7 +66597,7 @@ agents:
     division: Distribution
     isLocator: false
     level: 1
-    location: Polaris VI - Game Master Health Spa
+    location: Polaris VI - Serpentis Corporation Manufacturing
     name: Moodle Doodledoo
     system: Polaris
   Moolis Aulbie:
@@ -68642,7 +68642,7 @@ agents:
     level: 1
     location: New Caldari Prime - Moon 1 - Chief Executive Panel Bureau
     name: Nashokoda Pekumatken
-    system: New Caldari
+    system: NewCaldari
   Nashrat Tedanken:
     agentID: 3017411
     agentType: GenericStorylineMissionAgent
@@ -70034,7 +70034,7 @@ agents:
     location: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Ishukone Corporation
       Factory
     name: Nittara Hikkoken
-    system: Kor-Azor Prime
+    system: Kor-AzorPrime
   Nituma Rainakaila:
     agentID: 3016858
     agentType: BasicAgent
@@ -70054,7 +70054,7 @@ agents:
     level: 1
     location: Tash-Murkon Prime V - Moon 7 - Expert Distribution Retail Center
     name: Niuchi Sobaseki
-    system: Tash-Murkon Prime
+    system: Tash-MurkonPrime
   Niurihokka Okanini:
     agentID: 3011390
     agentType: BasicAgent
@@ -70174,7 +70174,7 @@ agents:
     level: 2
     location: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Kor-Azor Family Bureau
     name: Nofni Padichier
-    system: Kor-Azor Prime
+    system: Kor-AzorPrime
   Noghy Kiru:
     agentID: 3015081
     agentType: BasicAgent
@@ -70484,7 +70484,7 @@ agents:
     level: 3
     location: Kador Prime VI - Moon 1 - Kador Family Bureau
     name: Nosha Ahnin
-    system: Kador Prime
+    system: KadorPrime
   Nosha Ahninn:
     agentID: 3018636
     agentType: EventMissionAgent
@@ -70494,7 +70494,7 @@ agents:
     level: 1
     location: Kador Prime VI - Moon 1 - Kador Family Bureau
     name: Nosha Ahninn
-    system: Kador Prime
+    system: KadorPrime
   Nosken Murvas:
     agentID: 3019298
     agentType: BasicAgent
@@ -70846,7 +70846,7 @@ agents:
     level: 4
     location: Kor-Azor Prime II - Kor-Azor Family Bureau
     name: Nurveh Mermazgab
-    system: Kor-Azor Prime
+    system: Kor-AzorPrime
   Nuse Louis:
     agentID: 3016039
     agentType: BasicAgent
@@ -72409,7 +72409,7 @@ agents:
     level: 1
     location: Tash-Murkon Prime V - Moon 5 - Tash-Murkon Family Bureau
     name: Ohtar Defsunun
-    system: Tash-Murkon Prime
+    system: Tash-MurkonPrime
   Ohtrik Energur:
     agentID: 3010566
     agentType: BasicAgent
@@ -72439,7 +72439,7 @@ agents:
     level: 2
     location: Khanid Prime V - Moon 1 - Khanid Innovation Factory
     name: Ohulainen Pesabato
-    system: Khanid Prime
+    system: KhanidPrime
   Ohvajuuri Ahama:
     agentID: 3016020
     agentType: BasicAgent
@@ -73489,7 +73489,7 @@ agents:
     level: 2
     location: Kador Prime VIII - Moon 3 - Inherent Implants Biotech Production
     name: Okoka Jehninth
-    system: Kador Prime
+    system: KadorPrime
   Okokka Aunki:
     agentID: 3012212
     agentType: BasicAgent
@@ -74239,7 +74239,7 @@ agents:
     level: 1
     location: Lower Debyl V - Chemal Tech Factory
     name: Ollolf Boddagdur
-    system: Lower Debyl
+    system: LowerDebyl
   Ollon Dumes:
     agentID: 3009578
     agentType: ResearchAgent
@@ -75281,7 +75281,7 @@ agents:
     level: 2
     location: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     name: Onlar Skadidsar
-    system: Serpentis Prime
+    system: SerpentisPrime
   Onmi Mara:
     agentID: 3018588
     agentType: EventMissionAgent
@@ -77151,7 +77151,7 @@ agents:
     level: 1
     location: Kador Prime VIII - Moon 1 - TransStellar Shipping Storage
     name: Ossel Oryerchiron
-    system: Kador Prime
+    system: KadorPrime
   Ossen Unonen:
     agentID: 3011755
     agentType: BasicAgent
@@ -78879,7 +78879,7 @@ agents:
     level: 4
     location: Khanid Prime V - Moon 1 - Khanid Innovation Factory
     name: Palephia Nurreuka
-    system: Khanid Prime
+    system: KhanidPrime
   Palimoila Obachi:
     agentID: 3011892
     agentType: BasicAgent
@@ -83856,7 +83856,7 @@ agents:
     level: 2
     location: Khanid Prime V - Moon 1 - Khanid Innovation Factory
     name: Reigen Ornolfer
-    system: Khanid Prime
+    system: KhanidPrime
   Reigetter Arnogar:
     agentID: 3017096
     agentType: BasicAgent
@@ -87852,7 +87852,7 @@ agents:
     level: 1
     location: Khanid Prime VII - Moon 2 - Khanid Works Shipyard
     name: Sartheron Folle
-    system: Khanid Prime
+    system: KhanidPrime
   Saru Mataka:
     agentID: 3013070
     agentType: BasicAgent
@@ -88580,7 +88580,7 @@ agents:
     level: 2
     location: Lower Debyl VII - Moon 13 - Expert Distribution Retail Center
     name: Seda Kushanula
-    system: Lower Debyl
+    system: LowerDebyl
   Sedaman Bankizak:
     agentID: 3013249
     agentType: BasicAgent
@@ -88938,7 +88938,7 @@ agents:
     level: 1
     location: Sarum Prime VI - Moon 7 - Sarum Family Assembly Plant
     name: Semilbaz Chibi
-    system: Sarum Prime
+    system: SarumPrime
   Semmenen Isokava:
     agentID: 3011567
     agentType: BasicAgent
@@ -89606,7 +89606,7 @@ agents:
     level: 1
     location: Tash-Murkon Prime V - Moon 1 - Tash-Murkon Family Bureau
     name: Sharenisali Sirjariad
-    system: Tash-Murkon Prime
+    system: Tash-MurkonPrime
   Sharik Thorir:
     agentID: 3019206
     agentType: FactionalWarfareAgent
@@ -89915,7 +89915,7 @@ agents:
     level: 1
     location: Khanid Prime IX - Khanid Transport Storage
     name: Shes Saal
-    system: Khanid Prime
+    system: KhanidPrime
   Sheseretiyi Atted:
     agentID: 3013246
     agentType: BasicAgent
@@ -92757,7 +92757,7 @@ agents:
     level: 1
     location: Ardishapur Prime II - Further Foodstuffs Plantation
     name: Soskes Ifodun
-    system: Ardishapur Prime
+    system: ArdishapurPrime
   Sotah Imya:
     agentID: 3017293
     agentType: GenericStorylineMissionAgent
@@ -93891,7 +93891,7 @@ agents:
     level: 1
     location: Tash-Murkon Prime II - Moon 1 - Kaalakiota Corporation Factory
     name: Suresen Uotenen
-    system: Tash-Murkon Prime
+    system: Tash-MurkonPrime
   Surier Suvaere:
     agentID: 3018833
     agentType: EventMissionAgent
@@ -94082,7 +94082,7 @@ agents:
     level: 3
     location: Kador Prime VIII - Moon 1 - TransStellar Shipping Storage
     name: Suvaere Oloere
-    system: Kador Prime
+    system: KadorPrime
   Suvasemi Ohkuya:
     agentID: 3016125
     agentType: BasicAgent
@@ -95227,7 +95227,7 @@ agents:
     level: 3
     location: Tash-Murkon Prime V - Moon 1 - Tash-Murkon Family Bureau
     name: Taridor Khiknizi
-    system: Tash-Murkon Prime
+    system: Tash-MurkonPrime
   Tarine Jatur:
     agentID: 3009986
     agentType: BasicAgent
@@ -99921,7 +99921,7 @@ agents:
     level: 1
     location: New Caldari Prime - Moon 1 - Chief Executive Panel Bureau
     name: Ukanno Mottoya
-    system: New Caldari
+    system: NewCaldari
   Ukaras Ebiken:
     agentID: 3010978
     agentType: BasicAgent
@@ -100808,7 +100808,7 @@ agents:
     level: 1
     location: Tash-Murkon Prime V - Moon 1 - Tash-Murkon Family Bureau
     name: Urara Oshuhad
-    system: Tash-Murkon Prime
+    system: Tash-MurkonPrime
   Urat Mehrekar:
     agentID: 3018896
     agentType: EventMissionAgent
@@ -101288,7 +101288,7 @@ agents:
     level: 1
     location: Kador Prime IX - Moon 2 - Kaalakiota Corporation Factory
     name: Utraki Oksikka
-    system: Kador Prime
+    system: KadorPrime
   Utranuolen Jesone:
     agentID: 3011220
     agentType: BasicAgent
@@ -103597,7 +103597,7 @@ agents:
     level: 2
     location: Lower Debyl V - Chemal Tech Factory
     name: Viggholon Olenckbrouck
-    system: Lower Debyl
+    system: LowerDebyl
   Vikayara Soukka:
     agentID: 3016273
     agentType: BasicAgent
@@ -103797,7 +103797,7 @@ agents:
     level: 1
     location: Khanid Prime VII - Moon 2 - Khanid Works Shipyard
     name: Vinkuski Tekkinashi
-    system: Khanid Prime
+    system: KhanidPrime
   Vinolfid Harmirkar:
     agentID: 3010680
     agentType: BasicAgent
@@ -106590,7 +106590,7 @@ agents:
     level: 1
     location: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Kor-Azor Family Bureau
     name: Yaphal Ahsod
-    system: Kor-Azor Prime
+    system: Kor-AzorPrime
   Yaphal Mahle:
     agentID: 3013780
     agentType: BasicAgent
@@ -107585,7 +107585,7 @@ agents:
     level: 4
     location: Old Man Star VIII - Moon 2 - Senate Bureau
     name: Yonnyllere Ashtemes
-    system: Old Man Star
+    system: OldManStar
   Yonoraita Immeri:
     agentID: 3016162
     agentType: BasicAgent
@@ -108325,7 +108325,7 @@ agents:
     level: 2
     location: Kor-Azor Prime II - Moon 1 - Joint Harvesting Plantation
     name: Zahrenin Eshuk
-    system: Kor-Azor Prime
+    system: Kor-AzorPrime
   Zaiden Tatsa:
     agentID: 3012886
     agentType: ResearchAgent
@@ -109100,7 +109100,7 @@ agents:
     level: 2
     location: Kor-Azor Prime V - Moon 2 - Amarr Civil Service Bureau Offices
     name: Zoke Eredlis
-    system: Kor-Azor Prime
+    system: Kor-AzorPrime
   Zomili Mabahian:
     agentID: 3010280
     agentType: CONCORDAgent
@@ -109277,7 +109277,7 @@ agents:
     level: 1
     location: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Kor-Azor Family Bureau
     name: gasd asdfas
-    system: Kor-Azor Prime
+    system: Kor-AzorPrime
   hilmirinnn:
     agentID: 3019326
     agentType: StorylineMissionAgent

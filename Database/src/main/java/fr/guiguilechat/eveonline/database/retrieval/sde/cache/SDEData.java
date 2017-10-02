@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.IntStream;
@@ -17,6 +18,7 @@ import fr.guiguilechat.eveonline.sde.bsd.EdgmAttributeTypes;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmEffects;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeEffects;
+import fr.guiguilechat.eveonline.sde.bsd.EstaStations;
 import fr.guiguilechat.eveonline.sde.fsd.Eblueprints;
 import fr.guiguilechat.eveonline.sde.fsd.Eblueprints.BPActivities.Activity;
 import fr.guiguilechat.eveonline.sde.fsd.Eblueprints.Material;
@@ -128,6 +130,15 @@ public class SDEData {
 			cachedGroupIDs = EgroupIDs.load();
 		}
 		return cachedGroupIDs;
+	}
+
+	protected Map<Integer, EstaStations> cachedStations = null;
+
+	public Map<Integer, EstaStations> getStations() {
+		if (cachedStations == null) {
+			cachedStations = EstaStations.loadById();
+		}
+		return cachedStations;
 	}
 
 	protected LinkedHashMap<Integer, EtypeIDs> cachedTypeIDs = null;

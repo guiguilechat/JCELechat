@@ -27,8 +27,6 @@ import fr.guiguilechat.eveonline.database.esi.ESILoyalty.Offer.ItemReq;
 import fr.guiguilechat.eveonline.database.esi.ESINpcCorporations;
 import fr.guiguilechat.eveonline.database.esi.ESINpcCorporations.Corporation;
 import fr.guiguilechat.eveonline.database.esi.ESIUniverse;
-import fr.guiguilechat.eveonline.database.esi.ESIUniverse.Station;
-import fr.guiguilechat.eveonline.database.esi.ESIUniverse.Systems;
 import fr.guiguilechat.eveonline.database.retrieval.sde.cache.SDEData;
 import fr.guiguilechat.eveonline.database.yaml.Agent;
 import fr.guiguilechat.eveonline.database.yaml.Asteroid;
@@ -47,6 +45,7 @@ import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.sde.bsd.EagtAgents;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.sde.bsd.EdgmTypeEffects;
+import fr.guiguilechat.eveonline.sde.bsd.EstaStations;
 import fr.guiguilechat.eveonline.sde.cache.SDECache;
 import fr.guiguilechat.eveonline.sde.fsd.Eblueprints;
 import fr.guiguilechat.eveonline.sde.fsd.Eblueprints.Material;
@@ -54,6 +53,10 @@ import fr.guiguilechat.eveonline.sde.fsd.EcategoryIDs;
 import fr.guiguilechat.eveonline.sde.fsd.EgroupIDs;
 import fr.guiguilechat.eveonline.sde.fsd.EtypeIDs;
 import fr.guiguilechat.eveonline.sde.fsd.SolarSystemStaticData;
+import fr.guiguilechat.eveonline.sde.fsd.SolarSystemStaticData.AsteroidBelt;
+import fr.guiguilechat.eveonline.sde.fsd.SolarSystemStaticData.Moon;
+import fr.guiguilechat.eveonline.sde.fsd.SolarSystemStaticData.NPCStation;
+import fr.guiguilechat.eveonline.sde.fsd.SolarSystemStaticData.Planet;
 import fr.guiguilechat.eveonline.sde.fsd.SolarSystemStaticData.Stargate;
 import fr.guiguilechat.eveonline.sde.model.IndustryUsages;
 
@@ -506,11 +509,25 @@ public class SDEDumper {
 			return;
 		}
 		Constructor sysconstructor = new Constructor(SolarSystemStaticData.class);
+
 		TypeDescription td = new TypeDescription(SolarSystemStaticData.class);
 		td.putMapPropertyType("stargates", Integer.class, Stargate.class);
+		td.putMapPropertyType("planets", Integer.class, Planet.class);
 		sysconstructor.addTypeDescription(td);
+
+		td = new TypeDescription(Planet.class);
+		td.putMapPropertyType("moons", Integer.class, Moon.class);
+		td.putMapPropertyType("asteroidBelts", Integer.class, AsteroidBelt.class);
+		td.putMapPropertyType("npcStations", Integer.class, NPCStation.class);
+		sysconstructor.addTypeDescription(td);
+
+		td = new TypeDescription(Moon.class);
+		td.putMapPropertyType("asteroidBelts", Integer.class, AsteroidBelt.class);
+		td.putMapPropertyType("npcStations", Integer.class, NPCStation.class);
+		sysconstructor.addTypeDescription(td);
+
 		Yaml sysLoader = new Yaml(sysconstructor);
-		// we store all the name - systemid links
+		// we store all the name - systemid link
 		HashMap<String, HashSet<Integer>> links = new HashMap<>();
 		// for each gate, its system name
 		HashMap<Integer, Location> gate2system = new HashMap<>();
@@ -586,6 +603,14 @@ public class SDEDumper {
 							constelAdjacents.add(s.destination);
 							sysAdjacents.add(s.destination);
 						}
+						ArrayList<Integer> stations = new ArrayList<>();
+						for (Planet p : sysdata.planets.values()) {
+							stations.addAll(p.npcStations.keySet());
+							for (Moon m : p.moons.values()) {
+								stations.addAll(m.npcStations.keySet());
+							}
+						}
+						system.stations = stations.stream().mapToInt(i -> i).toArray();
 					} catch (FileNotFoundException e1) {
 						throw new UnsupportedOperationException("catch this", e1);
 					}
@@ -745,7 +770,11 @@ public class SDEDumper {
 		HashMap<Integer, String> agtTypes = sde.getAgentTypes();
 		HashMap<Integer, String> crpDivisions = sde.getNPCDivisions();
 		Map<Integer, String> names = chars.getNames(sdeAgents.stream().mapToInt(a -> a.agentID).toArray());
-
+		Map<Integer, EstaStations> stations = sde.getStations();
+		Map<Integer, String> system2Name = new HashMap<>();
+		for (Location l : db.locations.values()) {
+			system2Name.put(l.locationID, l.name);
+		}
 
 		sdeAgents.parallelStream().map(ea -> {
 			Agent ag = new Agent();
@@ -758,11 +787,10 @@ public class SDEDumper {
 			ag.level = ea.level;
 			ag.agentType = agtTypes.get(ea.agentTypeID);
 			ag.division = crpDivisions.get(ea.divisionID);
-			Station station = uni.getStation(ea.locationID);
+			EstaStations station = stations.get(ea.locationID);
 			if (station != null) {
-				ag.location = station.name;
-				Systems sys = uni.getSystem(station.system_id);
-				ag.system = sys.name;
+				ag.location = station.stationName;
+				ag.system = system2Name.get(station.solarSystemID);
 			}
 			return ag;
 		}).sorted((a1, a2) -> a1.name.compareTo(a2.name)).forEachOrdered(a -> db.agents.put(a.name, a));

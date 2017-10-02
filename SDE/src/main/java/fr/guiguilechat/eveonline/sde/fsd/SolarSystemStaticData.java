@@ -27,13 +27,65 @@ public class SolarSystemStaticData {
 
 	public ArrayList<String> disallowedAnchorCategories = new ArrayList<>();
 
-	public LinkedHashMap<Long, Object> planets;
+	public static class Planet {
+		public int typeID, celestialIndex, radius;
+		public Object planetAttributes, position, statistics;
+
+		public int planetNameID;
+
+		public LinkedHashMap<Integer, Moon> moons = new LinkedHashMap<>();
+
+		public LinkedHashMap<Integer, AsteroidBelt> asteroidBelts = new LinkedHashMap<>();
+
+		public LinkedHashMap<Integer, NPCStation> npcStations = new LinkedHashMap<>();
+	}
+
+	public static class Moon {
+		public int typeID, celestialIndex, radius;
+		public Object planetAttributes, position, statistics;
+
+		public int moonNameID;
+
+		public LinkedHashMap<Integer, AsteroidBelt> asteroidBelts = new LinkedHashMap<>();
+
+		public LinkedHashMap<Integer, NPCStation> npcStations = new LinkedHashMap<>();
+
+	}
+
+	public static class AsteroidBelt {
+		public int typeID;
+		public Object position, statistics;
+
+		public int asteroidBeltNameID;
+	}
+
+	public static class NPCStation {
+		public int typeID;
+		public int graphicID;
+
+		public int operationID;
+
+		public int ownerID;
+
+		public double reprocessingEfficiency;
+
+		public int reprocessingHangarFlag;
+
+		public double reprocessingStationsTake;
+
+		public boolean useOperationName;
+
+		public boolean isConquerable;
+
+		public Object position, statistics;
+	}
+
+	public LinkedHashMap<Long, Planet> planets = new LinkedHashMap<>();
 	public Object star;
 	public int sunTypeID;
 	public LinkedHashMap<Integer, Stargate> stargates = new LinkedHashMap<>();
 
 	public static class Stargate {
-
 		public int destination;
 		public ArrayList<Double> position;
 		public int typeID;

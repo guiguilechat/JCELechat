@@ -31,6 +31,8 @@ public class Location {
 	 */
 	public double minSec = 1.0;
 
+	public int[] stations = null;
+
 	/**
 	 *
 	 * @return true iff at least one system has high security (>.45)
