@@ -13,8 +13,13 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Char {
+
+	@SuppressWarnings("unused")
+	private static final Logger logger = LoggerFactory.getLogger(Char.class);
 
 	private final APIRoot parent;
 
@@ -43,6 +48,10 @@ public class Char {
 		public int rawQuantity;
 	}
 
+	public static class StationContent {
+
+	}
+
 	public LinkedHashMap<Long, ArrayList<Content>> assetList(long charID) {
 		String url = BASEURL + "AssetList.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code
 				+ "&characterID=" + charID;
@@ -52,6 +61,7 @@ public class Char {
 			// System.err.println("got assets " + page.toString());
 			Elements elements = page.select("result > rowset > row");
 			for (Element el : elements) {
+
 				long locId = Long.parseLong(el.attr("locationID"));
 				ArrayList<Content> locCtt = ret.get(locId);
 				if (locCtt == null) {
