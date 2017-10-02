@@ -48,7 +48,6 @@ public class YamlDatabase extends EveDatabase {
 		return new Yaml(makeConstructor(), makeRepresenter(), makeOptions());
 	}
 
-
 	protected static BaseConstructor makeConstructor() {
 		Constructor ret = new Constructor(DatabaseFile.class);
 		TypeDescription td = new TypeDescription(DatabaseFile.class);

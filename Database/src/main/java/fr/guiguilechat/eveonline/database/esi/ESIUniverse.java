@@ -3,12 +3,18 @@ package fr.guiguilechat.eveonline.database.esi;
 import java.io.IOException;
 import java.net.URL;
 import java.util.HashMap;
+import java.util.stream.IntStream;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
 
 public class ESIUniverse {
+
+	private static final Logger logger = LoggerFactory.getLogger(ESIUniverse.class);
 
 	private ObjectMapper om = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
@@ -39,15 +45,37 @@ public class ESIUniverse {
 		}
 		Station ret = cachedStations.get(id);
 		if (ret == null && !cachedStations.containsKey(id)) {
-			try {
-				ret = stationReader.readValue(new URL(stationURL + id));
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			ret = fetchStation(id);
 			cachedStations.put(id, ret);
 		}
 		return ret;
+	}
+
+	protected Station fetchStation(int id) {
+		logger.debug("fetching station " + id);
+		boolean error = false;
+		for (int i = 0; i < 3; i++) {
+			try {
+				return stationReader.readValue(new URL(stationURL + id));
+			} catch (IOException e) {
+				if(!error) {
+					e.printStackTrace();
+				}
+				error = true;
+			}
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				throw new UnsupportedOperationException("catch this", e);
+			}
+		}
+		return null;
+	}
+
+	public void loadStations(int... ids) {
+		IntStream.of(ids).parallel().forEach(id -> {
+			cachedStations.put(id, fetchStation(id));
+		});
 	}
 
 	public static class Systems {
@@ -72,15 +100,36 @@ public class ESIUniverse {
 	public Systems getSystem(int id) {
 		Systems ret = cachedSystems.get(id);
 		if (ret == null && !cachedSystems.containsKey(id)) {
-			try {
-				ret = systemsReader.readValue(new URL(systemURL + id));
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			ret = fetchSystem(id);
 			cachedSystems.put(id, ret);
 		}
 		return ret;
+	}
+
+	public void loadSystems(int... ids) {
+		IntStream.of(ids).parallel().forEach(id -> {
+			cachedSystems.put(id, fetchSystem(id));
+		});
+	}
+	public Systems fetchSystem(int id) {
+		logger.debug("fetching system " + id);
+		boolean error = false;
+		for (int i = 0; i < 3; i++) {
+			try {
+				return systemsReader.readValue(new URL(systemURL + id));
+			} catch (IOException e) {
+				if (!error) {
+					e.printStackTrace();
+				}
+				error = true;
+			}
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				throw new UnsupportedOperationException("catch this", e);
+			}
+		}
+		return null;
 	}
 
 }

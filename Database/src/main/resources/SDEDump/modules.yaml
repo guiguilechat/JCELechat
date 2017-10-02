@@ -118882,7 +118882,7 @@ modules:
       doomsdayAOEShape: 1.0
       doomsdayRangeIsFixed: 1.0
     volume: 8000.0
-  ‘Phalarica’ Thermal Lance:
+  ‘Phalarica�� Thermal Lance:
     attributes:
       cpu: 100
       powergrid: 100000
@@ -118894,7 +118894,7 @@ modules:
     - hiPower
     groupName: Super Weapon
     id: 41440
-    name: ‘Phalarica’ Thermal Lance
+    name: ‘Phalarica�� Thermal Lance
     rawAttributes:
       capacitorNeed: 33750.0
       maxGroupFitted: 1.0
