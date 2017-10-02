@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -173,10 +172,7 @@ public class OverViewPane extends VBox implements EvePane {
 			return;
 		}
 		api.account.characters().parallelStream().forEach(c -> {
-			delCharInfo(c);
-			if (parent.getTeamCharacters().contains(c.name)) {
-				addCharInfo(c);
-			}
+			addCharInfo(c);
 		});
 		tvEvents.sort();
 	}
@@ -347,9 +343,7 @@ public class OverViewPane extends VBox implements EvePane {
 	public void onFocusedTeam(String teamName) {
 		tvEvents.getItems().clear();
 		itemsProvisions.values().forEach(pp -> pp.added = false);
-		LinkedHashSet<String> allowedCharacters = parent.getTeamCharacters();
-		parent.apis.parallelStream().flatMap(api -> api.account.characters().parallelStream())
-		.filter(c -> allowedCharacters.contains(c.name)).forEach(this::addCharInfo);
+		parent.apis.parallelStream().flatMap(api -> api.account.characters().parallelStream()).forEach(this::addCharInfo);
 		if (showProvisions) {
 			loadProvisionsFromItems();
 		}
@@ -361,9 +355,7 @@ public class OverViewPane extends VBox implements EvePane {
 			showJobs = true;
 			for (APIRoot api : parent().apis) {
 				for (Character c : api.account.characters()) {
-					if (parent.getTeamCharacters().contains(c.name)) {
-						addCharJobs(c);
-					}
+					addCharJobs(c);
 				}
 			}
 			tvEvents.sort();
