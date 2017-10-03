@@ -15,6 +15,8 @@ import fr.guiguilechat.eveonline.sde.fsd.EcategoryIDs;
 import fr.guiguilechat.eveonline.sde.fsd.EgroupIDs;
 import fr.guiguilechat.eveonline.sde.fsd.EtypeIDs;
 
+@SuppressWarnings("unused")
+
 /** tests of compilation of meta data to classes ? */
 public class SDEClassesCompiler {
 

@@ -16,6 +16,7 @@ import fr.guiguilechat.eveonline.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.database.yaml.Location;
 import fr.guiguilechat.eveonline.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.database.yaml.Module;
+import fr.guiguilechat.eveonline.database.yaml.Station;
 import fr.guiguilechat.eveonline.database.yaml.Type;
 
 public abstract class EveDatabase {
@@ -29,6 +30,8 @@ public abstract class EveDatabase {
 	public abstract LinkedHashMap<String, Blueprint> getBlueprints();
 
 	public abstract LinkedHashMap<String, Location> getLocations();
+
+	public abstract LinkedHashMap<String, Station> getStations();
 
 	public String normalizeLocName(String name) {
 		return name.replaceAll(" ", "").toLowerCase();
@@ -168,6 +171,18 @@ public abstract class EveDatabase {
 			}
 		}
 		return locationsById;
+	}
+
+	protected HashMap<Long, Station> stationsById = null;
+
+	public HashMap<Long, Station> getStationById() {
+		if (stationsById == null) {
+			stationsById = new HashMap<>();
+			for (Entry<String, Station> e : getStations().entrySet()) {
+				stationsById.put(e.getValue().stationId, e.getValue());
+			}
+		}
+		return stationsById;
 	}
 
 }

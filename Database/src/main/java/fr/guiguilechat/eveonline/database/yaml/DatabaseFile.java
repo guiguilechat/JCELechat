@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.database.yaml;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
+
 /**
  * a file for database loading from yaml
  *
@@ -25,6 +26,8 @@ public class DatabaseFile {
 
 	public LinkedHashMap<String, Agent> agents = new LinkedHashMap<>();
 
+	public LinkedHashMap<String, Station> stations = new LinkedHashMap<>();
+
 	/**
 	 * assimilates another DB. replaces values already stored as X if X is present
 	 * in db
@@ -40,6 +43,7 @@ public class DatabaseFile {
 		locations.putAll(db.locations);
 		lpoffers.addAll(db.lpoffers);
 		agents.putAll(db.agents);
+		stations.putAll(db.stations);
 	}
 
 
