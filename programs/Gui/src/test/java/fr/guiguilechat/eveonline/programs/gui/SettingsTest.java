@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.yaml.snakeyaml.TypeDescription;
+import org.yaml.snakeyaml.constructor.Constructor;
 
 import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription;
 import fr.guiguilechat.eveonline.programs.settings.ISettings;
@@ -14,6 +16,15 @@ public class SettingsTest {
 		@Override
 		public String getAppName() {
 			return "test app";
+		}
+
+		@Override
+		public Constructor makeYamlConstructor() {
+			Constructor ret = super.makeYamlConstructor();
+			TypeDescription settingsDescription = new TypeDescription(SettingsTests.class);
+			settingsDescription.putMapPropertyType("teams", String.class, TeamDescription.class);
+			ret.addTypeDescription(settingsDescription);
+			return ret;
 		}
 	}
 
