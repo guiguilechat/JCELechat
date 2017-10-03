@@ -128,7 +128,7 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		}
 		OfferRow ret = new OfferRow();
 		ret.offer = offer;
-		int provision_nb = parent().getProvision().lpoffers.getOrDefault(offer.id, 0);
+		int provision_nb = parent().getFTeamProvision().lpoffers.getOrDefault(offer.id, 0);
 		ret.nb_field = new TextField("" + provision_nb);
 		ret.bt_send = new Button("provision");
 		ret.bt_send.setOnAction(ev -> provision(ret, ret.nb_field.getText()));

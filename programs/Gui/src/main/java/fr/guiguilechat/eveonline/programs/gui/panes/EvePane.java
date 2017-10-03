@@ -109,10 +109,10 @@ public interface EvePane {
 	}
 
 	/** do not override this */
-	public default void propagateTeamAddLoc(String team, long locID) {
-		onTeamAddLoc(team, locID);
+	public default void propagateTeamAddSystem(String team, String system) {
+		onTeamAddSystem(team, system);
 		for (EvePane e : subEvePanes()) {
-			e.propagateTeamAddLoc(team, locID);
+			e.propagateTeamAddSystem(team, system);
 		}
 	}
 
@@ -121,14 +121,14 @@ public interface EvePane {
 	 * parent are notified, so all parents values should be updated to reflect
 	 * this new location
 	 */
-	public default void onTeamAddLoc(String team, long locID) {
+	public default void onTeamAddSystem(String team, String systemD) {
 	}
 
 	/** do not override this */
-	public default void propagateTeamDelLoc(String team, long locID) {
-		onTeamDelLoc(team, locID);
+	public default void propagateTeamDelSystem(String team, String system) {
+		onTeamDelSystem(team, system);
 		for (EvePane e : subEvePanes()) {
-			e.propagateTeamDelLoc(team, locID);
+			e.propagateTeamDelSystem(team, system);
 		}
 	}
 
@@ -137,7 +137,7 @@ public interface EvePane {
 	 * after the parent are notified, so all parents values should be updated to
 	 * reflect this removal
 	 */
-	public default void onTeamDelLoc(String team, long locID) {
+	public default void onTeamDelSystem(String team, String system) {
 	}
 
 	/** do not override this */
@@ -192,6 +192,26 @@ public interface EvePane {
 	 *          the map of modification in number owned for each item id
 	 */
 	public default void onFocusedTeamNewItems(Map<Integer, Long> itemsDiff) {
+	}
+
+	public default void propagateAddTeamSystem(String teamName, String sysName) {
+		for (EvePane p : subEvePanes()) {
+			p.propagateAddTeamSystem(teamName, sysName);
+		}
+		onAddTeamSystem(teamName, sysName);
+	}
+
+	public default void onAddTeamSystem(String teamName, String sysName) {
+	}
+
+	public default void propagateRemTeamSystem(String teamName, String sysName) {
+		for (EvePane p : subEvePanes()) {
+			p.propagateRemTeamSystem(teamName, sysName);
+		}
+		onRemTeamSystem(teamName, sysName);
+	}
+
+	public default void onRemTeamSystem(String teamName, String sysName) {
 	}
 
 	// provision

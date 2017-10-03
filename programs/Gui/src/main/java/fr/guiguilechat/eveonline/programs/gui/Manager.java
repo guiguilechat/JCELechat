@@ -7,7 +7,6 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -23,8 +22,10 @@ import fr.guiguilechat.eveonline.database.apiv2.Char.Content;
 import fr.guiguilechat.eveonline.database.apiv2.Char.OrderEntry;
 import fr.guiguilechat.eveonline.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.database.yaml.LPOffer.ItemRef;
+import fr.guiguilechat.eveonline.database.yaml.Station;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.programs.gui.Settings.Provision;
+import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription;
+import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription.Provision;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.MenuPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.options.OptionPane;
@@ -104,7 +105,7 @@ public class Manager extends Application implements EvePane {
 		}
 		for (String team : settings.teams.keySet()) {
 			propagateNewTeam(team);
-			for (String charname : settings.teams.get(team)) {
+			for (String charname : settings.teams.get(team).members) {
 				propagateAdd2Team(team, charname);
 			}
 		}
@@ -137,29 +138,29 @@ public class Manager extends Application implements EvePane {
 
 	@Override
 	public void onAdd2Team(String team, String character) {
-		cachedTeamsPossibleLocations.remove(team);
+		cachedTeamsPossibleSystems.remove(team);
 	}
 
 	@Override
 	public void onDel2Team(String team, String character) {
-		cachedTeamsPossibleLocations.remove(team);
+		cachedTeamsPossibleSystems.remove(team);
 	}
 
 	@Override
 	public void onDelTeam(String name) {
-		cachedTeamsPossibleLocations.remove(name);
+		cachedTeamsPossibleSystems.remove(name);
 	}
 
 	@Override
-	public void onTeamAddLoc(String team, long locID) {
+	public void onTeamAddSystem(String team, String locID) {
 		if (team == null) {
 			return;
 		}
 		// for each character of the team, we get the asets of this characxter on
 		// the given location and we add them to the team assets.
 		HashMap<Integer, Long> itemsGains = new HashMap<>();
-		for (String charName : settings.teams.get(team)) {
-			Map<Long, Map<Integer, Long>> charItems = itemsByCharName.get(charName);
+		for (String charName : settings.teams.get(team).members) {
+			Map<String, Map<Integer, Long>> charItems = itemsByCharName.get(charName);
 			if (charItems != null) {
 				Map<Integer, Long> locItems = charItems.get(locID);
 				for (Entry<Integer, Long> e : locItems.entrySet()) {
@@ -216,7 +217,7 @@ public class Manager extends Application implements EvePane {
 	// team
 
 	public void addTeam(String name) {
-		settings.teams.put(name, new LinkedHashSet<>());
+		settings.teams.put(name, new TeamDescription());
 		settings.store();
 		propagateNewTeam(name);
 	}
@@ -232,8 +233,6 @@ public class Manager extends Application implements EvePane {
 				&& !settings.teams.keySet().contains(now)) {
 			settings.teams.put(now, settings.teams.get(old));
 			settings.teams.remove(old);
-			settings.provisions.put(now, settings.provisions.get(old));
-			settings.provisions.remove(old);
 			if (old.equals(settings.focusedTeam)) {
 				settings.focusedTeam = now;
 			}
@@ -246,11 +245,9 @@ public class Manager extends Application implements EvePane {
 	}
 
 	public boolean copyTeam(String from, String newname) {
-
-		if (from != null && settings.teams.keySet().contains(from) && newname != null && newname.length() > 0
-				&& !settings.teams.keySet().contains(newname)) {
-			settings.teams.put(newname, settings.teams.get(from));
-			settings.provisions.put(newname, settings.provisions.get(from));
+		if (from != null && settings.teams.containsKey(from) && newname != null && newname.length() > 0
+				&& !settings.teams.containsKey(newname)) {
+			settings.teams.put(newname, settings.teams.get(from).clone());
 			settings.store();
 			propagateNewTeam(newname);
 			return true;
@@ -260,13 +257,13 @@ public class Manager extends Application implements EvePane {
 	}
 
 	public void add2Team(String character, String team) {
-		settings.teams.get(team).add(character);
+		settings.teams.get(team).members.add(character);
 		settings.store();
 		propagateAdd2Team(team, character);
 	}
 
 	public void del2Team(String character, String team) {
-		settings.teams.get(team).remove(character);
+		settings.teams.get(team).members.remove(character);
 		settings.store();
 		propagateDel2Team(team, character);
 	}
@@ -280,70 +277,113 @@ public class Manager extends Application implements EvePane {
 
 	public Set<String> getFTeamCharacters() {
 		if (settings.focusedTeam != null) {
-			return settings.teams.get(settings.focusedTeam);
+			return settings.teams.get(settings.focusedTeam).members;
 		}
 		return Collections.emptySet();
 	}
 
-	protected Map<String, Set<Long>> cachedTeamsPossibleLocations = new HashMap<>();
+	protected Map<String, Set<String>> cachedTeamsPossibleSystems = new HashMap<>();
 
 	/**
 	 * find all the possible location ID for the given team.
 	 * @return
 	 */
-	public Set<Long> getFTeamPossibleLocations(){
+	public Set<String> getFTeamPossibleSystems() {
 		if (settings.focusedTeam == null) {
 			return Collections.emptySet();
 		}
-		Set<Long> ret = cachedTeamsPossibleLocations.get(settings.focusedTeam);
+		Set<String> ret = cachedTeamsPossibleSystems.get(settings.focusedTeam);
 		if (ret == null) {
+			HashMap<Long, Station> stationsById = db.getStationById();
 			Set<String> allowedChars = getFTeamCharacters();
 			Stream<Character> chars = apis.stream().flatMap(a->a.account.characters().stream()).filter(c->allowedChars.contains(c.name));
 			ret = chars
-					.flatMap(c -> Stream.concat(c.marketOrders().stream().map(oe -> oe.stationID), c.assetList().keySet().stream()))
+					.flatMap(
+							c -> Stream.concat(c.marketOrders().stream().map(oe -> oe.stationID), c.assetList().keySet().stream()))
+					.distinct().map(l -> {
+						if (stationsById.containsKey(l)) {
+							return stationsById.get(l);
+						} else {
+							System.err.println("can't find station for id "+l);
+							return null;
+						}
+					})
+					.filter(l -> l != null).map(s -> s.system)
 					.collect(Collectors.toSet());
-			cachedTeamsPossibleLocations.put(settings.focusedTeam, ret);
+			cachedTeamsPossibleSystems.put(settings.focusedTeam, ret);
 		}
 		return ret;
 	}
 
 	/**
-	 * get the set of stations id the focused team allows
+	 * get the set of system the focused team is limited to
 	 *
 	 * @return
 	 */
-	public Set<Long> getFTeamLocations() {
+	public Set<String> getFTeamSystemLimit() {
 		if (settings.focusedTeam != null) {
-			return settings.teamsLocations.get(settings.focusedTeam);
+			return settings.teams.get(settings.focusedTeam).systems;
 		}
 		return Collections.emptySet();
+	}
+
+	/**
+	 * add a system to the limit of a team
+	 *
+	 * @param teamName
+	 * @param sysName
+	 * @return
+	 */
+	public boolean addTeamSystem(String teamName, String sysName) {
+		Set<String> teamSystems = settings.teams.get(teamName).systems;
+		if (!teamSystems.add(sysName)) {
+			return false;
+		}
+		propagateAddTeamSystem(teamName, sysName);
+		settings.store();
+		return true;
+	}
+
+	/**
+	 * remove a system from the limit of a team
+	 *
+	 * @param teamName
+	 * @param sysName
+	 * @return
+	 */
+	public boolean remTeamSystem(String teamName, String sysName) {
+		Set<String> teamSystems = settings.teams.get(teamName).systems;
+		if (!teamSystems.remove(sysName)) {
+			return false;
+		}
+		propagateRemTeamSystem(teamName, sysName);
+		settings.store();
+		return true;
 	}
 
 	// provision
 
 	/** get the provision of the focused team. */
-	public Provision getProvision() {
-		Provision ret = settings.provisions.get(settings.focusedTeam);
-		if (ret == null) {
-			ret = new Provision();
-			settings.provisions.put(settings.focusedTeam, ret);
+	public Provision getFTeamProvision() {
+		if (settings.focusedTeam == null) {
+			return null;
 		}
-		return ret;
+		return settings.teams.get(settings.focusedTeam).provision;
 	}
 
 	public void provision(HashMap<Integer, Integer> items) {
 		debug("provision " + items);
 		for (Entry<Integer, Integer> e : items.entrySet()) {
 			propagateNewProvision(e.getKey(), e.getValue());
-			getProvision().total.put(e.getKey(),
-					Math.max(0, getProvision().total.getOrDefault(e.getKey(), 0) + e.getValue()));
+			getFTeamProvision().total.put(e.getKey(),
+					Math.max(0, getFTeamProvision().total.getOrDefault(e.getKey(), 0) + e.getValue()));
 		}
 		settings.store();
 	}
 
 	/** set the requirement in lp offer to given value for the focused team */
 	public void provisionLPOffer(LPOffer offer, int requirement) {
-		Provision p = getProvision();
+		Provision p = getFTeamProvision();
 		int diff = requirement - p.lpoffers.getOrDefault(offer.id, 0);
 		if (requirement <= 0) {
 			p.lpoffers.remove(offer.id);
@@ -364,7 +404,7 @@ public class Manager extends Application implements EvePane {
 
 	// items
 
-	protected Map<String, Map<Long, Map<Integer, Long>>> itemsByCharName = Collections.synchronizedMap(new HashMap<>());
+	protected Map<String, Map<String, Map<Integer, Long>>> itemsByCharName = Collections.synchronizedMap(new HashMap<>());
 
 	protected Map<String, Map<Integer, Long>> itemsByTeamName = Collections.synchronizedMap(new HashMap<>());
 
@@ -374,12 +414,12 @@ public class Manager extends Application implements EvePane {
 	 * update the focused team's items. this is done on a character basis
 	 */
 	public void updateFTeamItems() {
-		Set<String> allowedNames = getFTeamCharacters();
-		Set<Long> allowedLocations = getFTeamLocations();
-		Stream<Character> teamCharacters = apis.parallelStream().flatMap(api -> api.account.characters().parallelStream())
-				.filter(c -> allowedNames.contains(c.name));
-		Map<Integer, Long> totalGain = teamCharacters.map(this::computeItemsDiff).flatMap(m -> m.entrySet().stream())
-				.filter(e -> allowedLocations == null || allowedLocations.contains(e.getKey())).map(Map.Entry::getValue)
+		Set<String> teamChars = getFTeamCharacters();
+		Set<String> teamSystems = getFTeamSystemLimit();
+		Stream<Character> charStream = apis.parallelStream().flatMap(api -> api.account.characters().parallelStream())
+				.filter(c -> teamChars.contains(c.name));
+		Map<Integer, Long> totalGain = charStream.map(this::computeItemsDiff).flatMap(m -> m.entrySet().stream())
+				.filter(e -> teamSystems == null || teamSystems.contains(e.getKey())).map(Map.Entry::getValue)
 				.filter(p -> p != null && !p.isEmpty())
 				.flatMap(m -> m.entrySet().stream())
 				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, Long::sum));
@@ -424,9 +464,9 @@ public class Manager extends Application implements EvePane {
 	 *
 	 * @param c
 	 *          the character to get the items for
-	 * @return a new Hashmap, locationID->itemid->difference in number.
+	 * @return a new Hashmap, system->itemid->difference in number.
 	 */
-	protected Map<Long, Map<Integer, Long>> computeItemsDiff(Character c) {
+	protected Map<String, Map<Integer, Long>> computeItemsDiff(Character c) {
 		Date now = new Date();
 		Date cacheExpiration = assetListCacheByCharID.get(c.characterID);
 		if (cacheExpiration != null && cacheExpiration.after(now)) {
@@ -434,64 +474,78 @@ public class Manager extends Application implements EvePane {
 		}
 		logger.debug("invalid cache assets " + c.name);
 		assetListCacheByCharID.put(c.characterID, new Date(now.getTime() + 20 * 60000));
+		HashMap<Long, Station> stationById = db().getStationById();
 		// for each
-		HashMap<Long, Map<Integer, Long>> itemsDiff = new HashMap<>();
+		HashMap<String, Map<Integer, Long>> itemsDiff = new HashMap<>();
 		for (Entry<Long, ArrayList<Content>> e : c.assetList().entrySet()) {
-			Map<Integer, Long> localGains = new HashMap<>();
-			itemsDiff.put(e.getKey(), localGains);
-			for (Content co : e.getValue()) {
-				localGains.put(co.typeID, co.quantity);
+			Station station = stationById.get(e.getKey());
+			if (station != null) {
+				Map<Integer, Long> localGains = itemsDiff.get(station.system);
+				if (localGains == null) {
+					localGains = new HashMap<>();
+					itemsDiff.put(station.system, localGains);
+				}
+				for (Content co : e.getValue()) {
+					localGains.put(co.typeID, co.quantity + localGains.getOrDefault(co.typeID, 0l));
+				}
+			} else {
+				logger.debug("no station for id " + e.getKey());
 			}
 		}
 		for (OrderEntry a : c.marketOrders()) {
 			if (a.isOpen() && a.isBuyOrder()) {
-				Map<Integer, Long> localGains = itemsDiff.get(a.stationID);
-				if (localGains == null) {
-					localGains = new HashMap<>();
-					itemsDiff.put(a.stationID, localGains);
+				Station station = stationById.get(a.stationID);
+				if (station != null) {
+					Map<Integer, Long> localGains = itemsDiff.get(station.system);
+					if (localGains == null) {
+						localGains = new HashMap<>();
+						itemsDiff.put(station.system, localGains);
+					}
+					localGains.put(a.typeID, a.volRemaining + localGains.getOrDefault(a.typeID, 0l));
+				} else {
+					logger.debug("no station for id " + a.stationID);
 				}
-				localGains.put(a.typeID, a.volRemaining + localGains.getOrDefault(a.typeID, 0l));
 			}
 		}
 
-		Map<Long, Map<Integer, Long>> rawItems = itemsByCharName.get(c.name);
+		Map<String, Map<Integer, Long>> rawItems = itemsByCharName.get(c.name);
 		if (rawItems == null) {
 			// no items stored yet
 			rawItems = itemsDiff;
 			itemsByCharName.put(c.name, rawItems);
 		} else {
-			for (long locID : Stream.concat(rawItems.keySet().stream(), itemsDiff.keySet().stream()).mapToLong(l -> l)
-					.toArray()) {
-				Map<Integer, Long> locDiff = itemsDiff.get(locID);
-				if (locDiff == null) {
-					locDiff = new HashMap<>();
-					itemsDiff.put(locID, locDiff);
+			for (String system : Stream.concat(rawItems.keySet().stream(), itemsDiff.keySet().stream())
+					.collect(Collectors.toList())) {
+				Map<Integer, Long> systemDiff = itemsDiff.get(system);
+				if (systemDiff == null) {
+					systemDiff = new HashMap<>();
+					itemsDiff.put(system, systemDiff);
 				}
-				Map<Integer, Long> locRaw = rawItems.get(locID);
-				if (locRaw == null) {
-					locRaw = new HashMap<>();
-					rawItems.put(locID, locRaw);
+				Map<Integer, Long> systemRaw = rawItems.get(system);
+				if (systemRaw == null) {
+					systemRaw = new HashMap<>();
+					rawItems.put(system, systemRaw);
 				}
-				for (int itemID : Stream.concat(locDiff.keySet().stream(), locRaw.keySet().stream()).mapToInt(i -> i)
+				for (int itemID : Stream.concat(systemDiff.keySet().stream(), systemRaw.keySet().stream()).mapToInt(i -> i)
 						.distinct().toArray()) {
-					long newVal = locDiff.getOrDefault(itemID, 0l);
-					long diff = newVal - locRaw.getOrDefault(itemID, 0l);
+					long newVal = systemDiff.getOrDefault(itemID, 0l);
+					long diff = newVal - systemRaw.getOrDefault(itemID, 0l);
 					if (newVal != 0) {
-						locRaw.put(itemID, newVal);
+						systemRaw.put(itemID, newVal);
 					} else {
-						locRaw.remove(itemID);
+						systemRaw.remove(itemID);
 					}
 					if (diff != 0) {
-						locDiff.put(itemID, diff);
+						systemDiff.put(itemID, diff);
 					} else {
-						locDiff.remove(itemID);
+						systemDiff.remove(itemID);
 					}
 				}
-				if (locDiff.isEmpty()) {
-					itemsDiff.remove(locID);
+				if (systemDiff.isEmpty()) {
+					itemsDiff.remove(system);
 				}
-				if (locRaw.isEmpty()) {
-					rawItems.remove(locID);
+				if (systemRaw.isEmpty()) {
+					rawItems.remove(system);
 				}
 			}
 		}

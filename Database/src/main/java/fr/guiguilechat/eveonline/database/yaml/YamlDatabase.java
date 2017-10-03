@@ -57,6 +57,7 @@ public class YamlDatabase extends EveDatabase {
 		td.putMapPropertyType("blueprints", String.class, Blueprint.class);
 		td.putMapPropertyType("metaInfs", String.class, MetaInf.class);
 		td.putMapPropertyType("locations", String.class, Location.class);
+		td.putMapPropertyType("stations", String.class, Station.class);
 		td.putListPropertyType("lpoffers", LPOffer.class);
 		td.putMapPropertyType("agents", String.class, Agent.class);
 		ret.addTypeDescription(td);
@@ -222,10 +223,27 @@ public class YamlDatabase extends EveDatabase {
 		return locations;
 	}
 
+	protected LinkedHashMap<String, Station> stations = null;
+
+	@Override
+	public synchronized LinkedHashMap<String, Station> getStations() {
+		if (stations == null) {
+			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_STATIONS_RES);
+			DatabaseFile db = stream != null ? load(stream) : null;
+			if (db != null) {
+				stations = db.stations;
+			} else {
+				System.err.println("can't load stations");
+				stations = new LinkedHashMap<>();
+			}
+		}
+		return stations;
+	}
+
 	protected ArrayList<LPOffer> lpoffers = null;
 
 	@Override
-	public ArrayList<LPOffer> getLPOffers() {
+	public synchronized ArrayList<LPOffer> getLPOffers() {
 		if (lpoffers == null) {
 			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_LPOFFERS_RES);
 			DatabaseFile db = stream != null ? load(stream) : null;
@@ -242,7 +260,7 @@ public class YamlDatabase extends EveDatabase {
 	public LinkedHashMap<String, Agent> agents = null;
 
 	@Override
-	public LinkedHashMap<String, Agent> getAgents() {
+	public synchronized LinkedHashMap<String, Agent> getAgents() {
 		if (agents == null) {
 			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_AGENTS_RES);
 			DatabaseFile db = stream != null ? load(stream) : null;

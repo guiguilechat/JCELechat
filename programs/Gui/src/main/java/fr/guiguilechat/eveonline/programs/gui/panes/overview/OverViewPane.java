@@ -290,7 +290,7 @@ public class OverViewPane extends VBox implements EvePane {
 
 	protected void loadProvisionsFromItems() {
 		Map<Integer, Long> items = parent.getFocusedTeamItems();
-		for (Entry<Integer, Integer> e : parent.getProvision().total.entrySet()) {
+		for (Entry<Integer, Integer> e : parent.getFTeamProvision().total.entrySet()) {
 			ProvisionPreparation pr = getProvision(e.getKey());
 			pr.required = e.getValue();
 			pr.ed.who = parent().settings.focusedTeam;
@@ -310,7 +310,7 @@ public class OverViewPane extends VBox implements EvePane {
 	@Override
 	public void onFocusedTeamNewItems(Map<Integer, Long> itemsDiff) {
 		Map<Integer, Long> items = parent().getFocusedTeamItems();
-		Set<Integer> provisionned = parent.getProvision().total.keySet();
+		Set<Integer> provisionned = parent.getFTeamProvision().total.keySet();
 		for (Integer itemID : itemsDiff.keySet()) {
 			if (provisionned.contains(itemID)) {
 				updateItemQuantity(itemID, items.getOrDefault(itemID, 0l), getProvision(itemID));

@@ -13,6 +13,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -40,6 +41,7 @@ import fr.guiguilechat.eveonline.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.database.yaml.Location;
 import fr.guiguilechat.eveonline.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.database.yaml.Module;
+import fr.guiguilechat.eveonline.database.yaml.Station;
 import fr.guiguilechat.eveonline.database.yaml.Type;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.sde.bsd.EagtAgents;
@@ -90,6 +92,9 @@ public class SDEDumper {
 	public static final String DB_AGENTS_RES = "SDEDump/agents.yaml";
 	public static final File DB_AGENTS_FILE = new File("src/main/resources", DB_AGENTS_RES);
 
+	public static final String DB_STATIONS_RES = "SDEDump/stations.yaml";
+	public static final File DB_STATIONS_FILE = new File("src/main/resources", DB_STATIONS_RES);
+
 	public static void main(String[] args) throws IOException {
 		DatabaseFile db = loadDb();
 
@@ -134,6 +139,11 @@ public class SDEDumper {
 		db.agents = new LinkedHashMap<>();
 		YamlDatabase.write(dbAgents, DB_AGENTS_FILE);
 
+		DatabaseFile dbStations = new DatabaseFile();
+		dbStations.stations = db.stations;
+		db.stations = new LinkedHashMap<>();
+		YamlDatabase.write(dbStations, DB_STATIONS_FILE);
+
 		YamlDatabase.write(db, DB_HULLS_FILE);
 	}
 
@@ -155,6 +165,9 @@ public class SDEDumper {
 
 		logger.info("loading locations");
 		loadLocations(sde, db);
+
+		logger.info("loading stations");
+		loadStations(sde, db);
 
 		logger.info("loading meta-infs");
 		loadMetaInfs(sde, db);
@@ -671,6 +684,28 @@ public class SDEDumper {
 			l.adjacentSystems = systems.toArray(new String[] {});
 			l.adjacentConstels = constels.toArray(new String[] {});
 			l.adjacentRegions = regions.toArray(new String[] {});
+		}
+	}
+
+	public static void loadStations(SDEData sde, DatabaseFile db) {
+		Map<Integer, Location> locationsByID = db.locations.values().stream()
+				.collect(Collectors.toMap(l -> l.locationID, l -> l));
+		for( Entry<Integer, EstaStations> e : sde.getStations().entrySet()) {
+			EstaStations staIn = e.getValue();
+			Station staOut = new Station();
+			Location system = locationsByID.get(staIn.solarSystemID);
+			if (system == null) {
+				logger.debug("can't load system " + staIn.solarSystemID);
+				staOut.system = "unknown_" + staIn.solarSystemID;
+				staOut.constel = "";
+				staOut.region = "";
+			} else {
+				staOut.system = system.name;
+				staOut.constel = system.parentConstellation;
+				staOut.region = system.parentRegion;
+			}
+			staOut.stationId = e.getKey();
+			db.stations.put(staIn.stationName, staOut);
 		}
 	}
 

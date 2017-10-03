@@ -26,7 +26,7 @@ import javafx.scene.control.TableView;
  */
 public class ListTeamPane extends TableView<CharacterTeams> implements EvePane {
 
-	protected Manager parent;
+	private final Manager parent;
 
 	@Override
 	public Manager parent() {
