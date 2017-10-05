@@ -23,10 +23,6 @@ public class TeamSystemManager extends GridPane implements EvePane {
 		this.parent = parent;
 	}
 
-	public void updateContent() {
-
-	}
-
 	protected class TeamElements {
 		public String name;
 		public Label label;
@@ -72,6 +68,19 @@ public class TeamSystemManager extends GridPane implements EvePane {
 		return ret;
 	}
 
+	/** redraw the full grid */
+	public void updateContent() {
+		getChildren().clear();
+		for (String team : parent.settings.teams.keySet()) {
+			addTeam(element(team));
+		}
+	}
+
+	protected void addTeam(TeamElements team) {
+		System.err.println("add team " + team.name);
+		addRow(0, team.label, team.addSystemBox, team.addSystemBtn);
+	}
+
 	@Override
 	public void onDelTeam(String name) {
 		TeamElements deleted = cachedTeamElements.remove(name);
@@ -81,9 +90,19 @@ public class TeamSystemManager extends GridPane implements EvePane {
 	@Override
 	public void onNewTeam(String name) {
 		TeamElements added = element(name);
-		add(added.label, 0, 0);
-		add(added.addSystemBox, 0, 1);
-		add(added.addSystemBtn, 0, 2);
+		addTeam(added);
+	}
+
+	@Override
+	public void onAdd2Team(String team, String character) {
+		// TODO Auto-generated method stub
+		EvePane.super.onAdd2Team(team, character);
+	}
+
+	@Override
+	public void onDel2Team(String team, String character) {
+		// TODO Auto-generated method stub
+		EvePane.super.onDel2Team(team, character);
 	}
 
 	@Override

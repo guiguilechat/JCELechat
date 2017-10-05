@@ -110,6 +110,7 @@ public class Manager extends Application implements EvePane {
 			}
 		}
 		propagateFocusedTeam(settings.focusedTeam);
+		propagateStart();
 	}
 
 	//
@@ -138,40 +139,40 @@ public class Manager extends Application implements EvePane {
 
 	@Override
 	public void onAdd2Team(String team, String character) {
-		cachedTeamsPossibleSystems.remove(team);
+		//
 	}
 
 	@Override
 	public void onDel2Team(String team, String character) {
-		cachedTeamsPossibleSystems.remove(team);
+		//
 	}
 
 	@Override
 	public void onDelTeam(String name) {
-		cachedTeamsPossibleSystems.remove(name);
+		cachedTeamItems.remove(name);
 	}
 
 	@Override
-	public void onTeamAddSystem(String team, String locID) {
+	public void onTeamAddSystem(String team, String systemName) {
 		if (team == null) {
 			return;
 		}
-		// for each character of the team, we get the asets of this characxter on
+		// for each character of the team, we get the assets of this character on
 		// the given location and we add them to the team assets.
 		HashMap<Integer, Long> itemsGains = new HashMap<>();
-		for (String charName : settings.teams.get(team).members) {
-			Map<String, Map<Integer, Long>> charItems = itemsByCharName.get(charName);
+		streamTeamCharacters(team).forEach(c -> {
+			Map<String, Map<Integer, Long>> charItems = getCharItems(c);
 			if (charItems != null) {
-				Map<Integer, Long> locItems = charItems.get(locID);
+				Map<Integer, Long> locItems = charItems.get(systemName);
 				for (Entry<Integer, Long> e : locItems.entrySet()) {
 					itemsGains.put(e.getKey(), itemsGains.getOrDefault(e.getKey(), 0l) + e.getValue());
 				}
 			}
-		}
-		Map<Integer, Long> storedItemsValues = itemsByTeamName.get(team);
+		});
+		Map<Integer, Long> storedItemsValues = cachedTeamItems.get(team);
 		if (storedItemsValues == null) {
 			storedItemsValues = itemsGains;
-			itemsByTeamName.put(team, storedItemsValues);
+			cachedTeamItems.put(team, storedItemsValues);
 		} else {
 			for (Entry<Integer, Long> e : itemsGains.entrySet()) {
 				long newval = e.getValue() + storedItemsValues.getOrDefault(e.getKey(), 0l);
@@ -182,9 +183,7 @@ public class Manager extends Application implements EvePane {
 				}
 			}
 		}
-		if (team.equals(settings.focusedTeam)) {
-			propagateFocusedTeamNewItems(itemsGains);
-		}
+		propagateTeamNewItems(team, itemsGains);
 	}
 
 	// external calls
@@ -212,6 +211,22 @@ public class Manager extends Application implements EvePane {
 			}
 		}
 		return null;
+	}
+
+	public Stream<Character> streamChars() {
+		return apis.stream().flatMap(a -> a.account.characters().stream());
+	}
+
+	public Stream<Character> streamTeamCharacters(String team) {
+		if (team != null && settings.teams.containsKey(team)) {
+			Set<String> members = settings.teams.get(team).members;
+			return streamChars().filter(c -> members.contains(c.name));
+		}
+		return Stream.empty();
+	}
+
+	public Stream<Character> streamFTeamCharacters() {
+		return streamTeamCharacters(settings.focusedTeam);
 	}
 
 	// team
@@ -275,44 +290,26 @@ public class Manager extends Application implements EvePane {
 		propagateFocusedTeam(name);
 	}
 
-	public Set<String> getFTeamCharacters() {
-		if (settings.focusedTeam != null) {
-			return settings.teams.get(settings.focusedTeam).members;
-		}
-		return Collections.emptySet();
-	}
-
-	protected Map<String, Set<String>> cachedTeamsPossibleSystems = new HashMap<>();
-
 	/**
 	 * find all the possible location ID for the given team.
+	 *
 	 * @return
 	 */
-	public Set<String> getFTeamPossibleSystems() {
-		if (settings.focusedTeam == null) {
-			return Collections.emptySet();
-		}
-		Set<String> ret = cachedTeamsPossibleSystems.get(settings.focusedTeam);
-		if (ret == null) {
-			HashMap<Long, Station> stationsById = db.getStationById();
-			Set<String> allowedChars = getFTeamCharacters();
-			Stream<Character> chars = apis.stream().flatMap(a->a.account.characters().stream()).filter(c->allowedChars.contains(c.name));
-			ret = chars
-					.flatMap(
-							c -> Stream.concat(c.marketOrders().stream().map(oe -> oe.stationID), c.assetList().keySet().stream()))
-					.distinct().map(l -> {
-						if (stationsById.containsKey(l)) {
-							return stationsById.get(l);
-						} else {
-							System.err.println("can't find station for id "+l);
-							return null;
-						}
-					})
-					.filter(l -> l != null).map(s -> s.system)
-					.collect(Collectors.toSet());
-			cachedTeamsPossibleSystems.put(settings.focusedTeam, ret);
-		}
-		return ret;
+	public Set<String> getTeamPossibleSystems(String team) {
+		HashMap<Long, Station> stationsById = db.getStationById();
+		Set<String> allowedChars = settings.teams.get(team).members;
+		Stream<Character> chars = apis.stream().flatMap(a -> a.account.characters().stream())
+				.filter(c -> allowedChars.contains(c.name));
+		return chars
+				.flatMap(c -> Stream.concat(c.marketOrders().stream().map(oe -> oe.stationID), c.assetList().keySet().stream()))
+				.distinct().map(l -> {
+					if (stationsById.containsKey(l)) {
+						return stationsById.get(l);
+					} else {
+						System.err.println("can't find station for id " + l);
+						return null;
+					}
+				}).filter(l -> l != null).map(s -> s.system).collect(Collectors.toSet());
 	}
 
 	/**
@@ -321,8 +318,12 @@ public class Manager extends Application implements EvePane {
 	 * @return
 	 */
 	public Set<String> getFTeamSystemLimit() {
-		if (settings.focusedTeam != null) {
-			return settings.teams.get(settings.focusedTeam).systems;
+		return getTeamSystemLimit(settings.focusedTeam);
+	}
+
+	public Set<String> getTeamSystemLimit(String team) {
+		if (team != null) {
+			return settings.teams.get(team).systems;
 		}
 		return Collections.emptySet();
 	}
@@ -404,86 +405,40 @@ public class Manager extends Application implements EvePane {
 
 	// items
 
-	protected Map<String, Map<String, Map<Integer, Long>>> itemsByCharName = Collections.synchronizedMap(new HashMap<>());
+	/** only fetch characer data once every X minutes */
+	protected int assetCacheDelayMinutes = 30;
 
-	protected Map<String, Map<Integer, Long>> itemsByTeamName = Collections.synchronizedMap(new HashMap<>());
+	/** char->system->typeID->qtty */
+	protected Map<Long, Map<String, Map<Integer, Long>>> itemsByCharName = Collections.synchronizedMap(new HashMap<>());
+	protected Map<Long, Date> expireItemsByCharName = new HashMap<>();
 
-	// getting the items
-
-	/**
-	 * update the focused team's items. this is done on a character basis
-	 */
-	public void updateFTeamItems() {
-		Set<String> teamChars = getFTeamCharacters();
-		Set<String> teamSystems = getFTeamSystemLimit();
-		Stream<Character> charStream = apis.parallelStream().flatMap(api -> api.account.characters().parallelStream())
-				.filter(c -> teamChars.contains(c.name));
-		Map<Integer, Long> totalGain = charStream.map(this::computeItemsDiff).flatMap(m -> m.entrySet().stream())
-				.filter(e -> teamSystems == null || teamSystems.contains(e.getKey())).map(Map.Entry::getValue)
-				.filter(p -> p != null && !p.isEmpty())
-				.flatMap(m -> m.entrySet().stream())
-				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, Long::sum));
-		if (!totalGain.isEmpty()) {
-			propagateFocusedTeamNewItems(totalGain);
-		}
-	}
-
-	public Map<Integer, Long> getFocusedTeamItems() {
-		if (settings.focusedTeam == null) {
-			return Collections.emptyMap();
-		}
-		Map<Integer, Long> ret = itemsByTeamName.get(settings.focusedTeam);
-		if (ret == null) {
-			ret = new HashMap<>();
-			itemsByTeamName.put(settings.focusedTeam, ret);
-		}
-		return ret;
-	}
-
-	@Override
-	public void onFocusedTeamNewItems(Map<Integer, Long> itemsDiff) {
-		Map<Integer, Long> m = getFocusedTeamItems();
-		for (Entry<Integer, Long> e : itemsDiff.entrySet()) {
-			m.put(e.getKey(), e.getValue() + m.getOrDefault(e.getKey(), 0l));
-		}
-	}
-
-	protected int assetListCacheDelayMinutes = 30;
-	protected Map<Long, Date> assetListCacheByCharID = Collections.synchronizedMap(new HashMap<>());
-
-	/**
-	 * compute the difference in items assets and buy orders between last call and
-	 * now. if we already called for those assets
-	 * {@value #assetListCacheDelayMinutes} or less before, we don't request
-	 * again.
-	 *
-	 * <p>
-	 * This should be thread-safe. Only the cache is manipulated, which is in a
-	 * synchronize map.
-	 * </p>
-	 *
-	 * @param c
-	 *          the character to get the items for
-	 * @return a new Hashmap, system->itemid->difference in number.
-	 */
-	protected Map<String, Map<Integer, Long>> computeItemsDiff(Character c) {
+	public Map<String, Map<Integer, Long>> getCharItems(Character c) {
+		Date cacheExpire = expireItemsByCharName.get(c.characterID);
 		Date now = new Date();
-		Date cacheExpiration = assetListCacheByCharID.get(c.characterID);
-		if (cacheExpiration != null && cacheExpiration.after(now)) {
-			return Collections.emptyMap();
+		if (cacheExpire != null && cacheExpire.after(now)) {
+			logger.debug("returning old cache for character " + c.name);
+			return itemsByCharName.get(c.characterID);
+		} else {
+			Map<String, Map<Integer, Long>> itemsqtty = fetchCharItems(c);
+			itemsByCharName.put(c.characterID, itemsqtty);
+			expireItemsByCharName.put(c.characterID, new Date(now.getTime() + assetCacheDelayMinutes * 60000));
+			logger.debug("new items for " + c.name + " : " + itemsqtty);
+			return itemsqtty;
 		}
-		logger.debug("invalid cache assets " + c.name);
-		assetListCacheByCharID.put(c.characterID, new Date(now.getTime() + 20 * 60000));
+	}
+
+	/** fetch the assets and BO of given character */
+	protected Map<String, Map<Integer, Long>> fetchCharItems(Character c) {
 		HashMap<Long, Station> stationById = db().getStationById();
 		// for each
-		HashMap<String, Map<Integer, Long>> itemsDiff = new HashMap<>();
+		HashMap<String, Map<Integer, Long>> itemsqtty = new HashMap<>();
 		for (Entry<Long, ArrayList<Content>> e : c.assetList().entrySet()) {
 			Station station = stationById.get(e.getKey());
 			if (station != null) {
-				Map<Integer, Long> localGains = itemsDiff.get(station.system);
+				Map<Integer, Long> localGains = itemsqtty.get(station.system);
 				if (localGains == null) {
 					localGains = new HashMap<>();
-					itemsDiff.put(station.system, localGains);
+					itemsqtty.put(station.system, localGains);
 				}
 				for (Content co : e.getValue()) {
 					localGains.put(co.typeID, co.quantity + localGains.getOrDefault(co.typeID, 0l));
@@ -496,10 +451,10 @@ public class Manager extends Application implements EvePane {
 			if (a.isOpen() && a.isBuyOrder()) {
 				Station station = stationById.get(a.stationID);
 				if (station != null) {
-					Map<Integer, Long> localGains = itemsDiff.get(station.system);
+					Map<Integer, Long> localGains = itemsqtty.get(station.system);
 					if (localGains == null) {
 						localGains = new HashMap<>();
-						itemsDiff.put(station.system, localGains);
+						itemsqtty.put(station.system, localGains);
 					}
 					localGains.put(a.typeID, a.volRemaining + localGains.getOrDefault(a.typeID, 0l));
 				} else {
@@ -507,50 +462,133 @@ public class Manager extends Application implements EvePane {
 				}
 			}
 		}
+		return itemsqtty;
+	}
 
-		Map<String, Map<Integer, Long>> rawItems = itemsByCharName.get(c.name);
-		if (rawItems == null) {
-			// no items stored yet
-			rawItems = itemsDiff;
-			itemsByCharName.put(c.name, rawItems);
+	/**
+	 * contains for each team the last list of items retrieved
+	 */
+	protected Map<String, Map<Integer, Long>> cachedTeamItems = Collections.synchronizedMap(new HashMap<>());
+
+	// getting the items
+
+	/**
+	 * get the list of items for given team. fires a
+	 * {@link #propagateFocusedTeamNewItems(Map)}
+	 *
+	 * @param team
+	 *          the name of the team
+	 * @return the new list of items.
+	 */
+	public Map<Integer, Long> getTeamItems(String team) {
+		if (team == null) {
+			return Collections.emptyMap();
+		}
+		Set<String> teamSystems = getTeamSystemLimit(team);
+		// first compute if there is a difference of items for at least one
+		// character
+		boolean itemsDiff = streamTeamCharacters(team).flatMap(c -> computeItemsDiff(c).entrySet().stream())
+				// stream of system->difference
+				.filter(e -> teamSystems.isEmpty() || teamSystems.contains(e.getKey()))
+				// keep correct system .
+				// there should not be empty entry.value
+				.findAny().isPresent();
+		if (itemsDiff) {
+			logger.debug("recomputing items for team " + team);
+			// if this is the case, recompute the whole map. successive calls to
+			// getItems use the cache, making it cost effective.
+			Stream<Map.Entry<Integer, Long>> teamAssetsStream = streamTeamCharacters(team)
+					.flatMap(c -> getCharItems(c).entrySet().stream())
+					.filter(e -> teamSystems.isEmpty() || teamSystems.contains(e.getKey()))
+					.flatMap(e -> e.getValue().entrySet().stream());
+			Map<Integer, Long> newItems = teamAssetsStream
+					.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, Long::sum));
+			Map<Integer, Long> oldItems = cachedTeamItems.get(team);
+			Map<Integer, Long> diff = new HashMap<>(newItems);
+			if (oldItems != null) {
+				for (Entry<Integer, Long> e : oldItems.entrySet()) {
+					diff.put(e.getKey(), newItems.getOrDefault(e.getKey(), 0l) - oldItems.getOrDefault(e.getKey(), 0l));
+				}
+			}
+			cachedTeamItems.put(team, newItems);
+			logger.debug("items diff for team " + team + " : " + newItems);
+			propagateTeamNewItems(team, diff);
+			return newItems;
 		} else {
-			for (String system : Stream.concat(rawItems.keySet().stream(), itemsDiff.keySet().stream())
-					.collect(Collectors.toList())) {
-				Map<Integer, Long> systemDiff = itemsDiff.get(system);
-				if (systemDiff == null) {
-					systemDiff = new HashMap<>();
-					itemsDiff.put(system, systemDiff);
+			logger.debug("no difference in items for team " + team);
+			Map<Integer, Long> ret = cachedTeamItems.get(team);
+			if (ret == null) {
+				ret = new HashMap<>();
+				cachedTeamItems.put(team, ret);
+			}
+			return ret;
+		}
+	}
+
+	public Map<Integer, Long> getFTeamItems() {
+		if (settings.focusedTeam == null) {
+			return Collections.emptyMap();
+		}
+		return getTeamItems(settings.focusedTeam);
+	}
+
+	/**
+	 * compute the difference in items assets and buy orders between last call and
+	 * now. if we already called for those assets {@value #assetCacheDelayMinutes}
+	 * or less before, we don't request again.
+	 *
+	 * <p>
+	 * This should be thread-safe. Only the cache is manipulated, which is in a
+	 * synchronize map.
+	 * </p>
+	 *
+	 * @param c
+	 *          the character to get the items for
+	 * @return a new Hashmap, system->itemid->difference in number.
+	 */
+	protected Map<String, Map<Integer, Long>> computeItemsDiff(Character c) {
+
+		// if we don't need to fetch data gain, return empty map
+		Date now = new Date();
+		Date cacheExpiration = expireItemsByCharName.get(c.characterID);
+		if (cacheExpiration != null && cacheExpiration.after(now)) {
+			return Collections.emptyMap();
+		}
+		logger.debug("invalid cache entry for character " + c.name);
+		// compute difference between old and new item list
+		Map<String, Map<Integer, Long>> oldItems = itemsByCharName.get(c.characterID);
+		Map<String, Map<Integer, Long>> newItems = getCharItems(c);
+		if (oldItems == null) {
+			logger.debug("items diff for " + c.name + " : " + newItems);
+			return newItems;
+		} else {
+			Map<String, Map<Integer, Long>> itemsDiff = new HashMap<>();
+			for (String systemName : Stream.concat(oldItems.keySet().stream(), itemsDiff.keySet().stream())
+					.collect(Collectors.toSet())) {
+				Map<Integer, Long> systemDiff = new HashMap<>();
+				itemsDiff.put(systemName, systemDiff);
+				Map<Integer, Long> systemNew = newItems.get(systemName);
+				if (systemNew != null) {
+					systemDiff.putAll(systemNew);
 				}
-				Map<Integer, Long> systemRaw = rawItems.get(system);
-				if (systemRaw == null) {
-					systemRaw = new HashMap<>();
-					rawItems.put(system, systemRaw);
-				}
-				for (int itemID : Stream.concat(systemDiff.keySet().stream(), systemRaw.keySet().stream()).mapToInt(i -> i)
-						.distinct().toArray()) {
-					long newVal = systemDiff.getOrDefault(itemID, 0l);
-					long diff = newVal - systemRaw.getOrDefault(itemID, 0l);
-					if (newVal != 0) {
-						systemRaw.put(itemID, newVal);
-					} else {
-						systemRaw.remove(itemID);
-					}
-					if (diff != 0) {
-						systemDiff.put(itemID, diff);
-					} else {
-						systemDiff.remove(itemID);
+				Map<Integer, Long> systemOld = oldItems.get(systemName);
+				if (systemOld != null) {
+					for (Entry<Integer, Long> e : systemOld.entrySet()) {
+						long newval = systemDiff.getOrDefault(e.getKey(), 0l) - e.getValue();
+						if (newval == 0) {
+							systemDiff.remove(e.getKey());
+						} else {
+							systemDiff.put(e.getKey(), newval);
+						}
 					}
 				}
 				if (systemDiff.isEmpty()) {
-					itemsDiff.remove(system);
-				}
-				if (systemRaw.isEmpty()) {
-					rawItems.remove(system);
+					itemsDiff.remove(systemName);
 				}
 			}
+			logger.debug("items diff for " + c.name + " : " + itemsDiff);
+			return itemsDiff;
 		}
-
-		return itemsDiff;
 	}
 
 	// debug

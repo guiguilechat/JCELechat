@@ -35,6 +35,18 @@ public interface EvePane {
 		return parent().db();
 	}
 
+	// when manager is started
+
+	public default void propagateStart() {
+		onStart();
+		for (EvePane p : subEvePanes()) {
+			p.propagateStart();
+		}
+	}
+
+	public default void onStart() {
+	}
+
 	//// API Modifications
 
 	/** do not override this */
@@ -177,10 +189,10 @@ public interface EvePane {
 	}
 
 	/** do not override this */
-	public default void propagateFocusedTeamNewItems(Map<Integer, Long> itemsDiff) {
-		onFocusedTeamNewItems(itemsDiff);
+	public default void propagateTeamNewItems(String team, Map<Integer, Long> itemsDiff) {
+		onTeamNewItems(team, itemsDiff);
 		for (EvePane p : subEvePanes()) {
-			p.propagateFocusedTeamNewItems(itemsDiff);
+			p.propagateTeamNewItems(team, itemsDiff);
 		}
 	}
 
@@ -191,7 +203,7 @@ public interface EvePane {
 	 * @param itemsDiff
 	 *          the map of modification in number owned for each item id
 	 */
-	public default void onFocusedTeamNewItems(Map<Integer, Long> itemsDiff) {
+	public default void onTeamNewItems(String team, Map<Integer, Long> itemsDiff) {
 	}
 
 	public default void propagateAddTeamSystem(String teamName, String sysName) {
