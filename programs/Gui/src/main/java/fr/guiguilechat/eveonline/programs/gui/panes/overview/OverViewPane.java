@@ -8,7 +8,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Set;
 
 import org.slf4j.LoggerFactory;
 
@@ -280,6 +279,7 @@ public class OverViewPane extends VBox implements EvePane {
 	public ProvisionPreparation getProvision(int itemID) {
 		ProvisionPreparation ret = itemsProvisions.get(itemID);
 		if (ret == null) {
+			logger.debug("creating provision for item " + itemID);
 			ret = new ProvisionPreparation();
 			ret.name = db().getElementById(itemID);
 			ret.ed = new EventData();
@@ -290,14 +290,15 @@ public class OverViewPane extends VBox implements EvePane {
 		return ret;
 	}
 
+	/**
+	 * prepare provisions for focused team. also remove them.
+	 */
 	protected void prepareProvisions() {
 		for (Entry<Integer, Integer> e : parent.getFTeamProvision().total.entrySet()) {
 			ProvisionPreparation pr = getProvision(e.getKey());
 			pr.required = e.getValue();
 			pr.ed.who = parent().settings.focusedTeam;
-			updateItemQuantity(0l, pr);
 		}
-		parent.getFTeamItems();
 	}
 
 	@Override
@@ -311,21 +312,23 @@ public class OverViewPane extends VBox implements EvePane {
 	@Override
 	public void onTeamNewItems(String team, Map<Integer, Long> itemsDiff) {
 		if (team == null || !team.equals(parent.settings.focusedTeam)) {
+			logger.debug("skipping items diff for team " + team);
 			return;
 		}
+		logger.debug("new items for focused team " + team + " : " + itemsDiff);
 		Map<Integer, Long> items = parent().getFTeamItems();
-		Set<Integer> provisionned = parent.getFTeamProvision().total.keySet();
 		for (Integer itemID : itemsDiff.keySet()) {
-			if (provisionned.contains(itemID)) {
-				updateItemQuantity(items.getOrDefault(itemID, 0l), getProvision(itemID));
-			}
+			updateItemQuantity(items.getOrDefault(itemID, 0l), getProvision(itemID));
 		}
 	}
 
-	/** update graphics on the modification of provisionned item's quantity */
+	/** update graphics on the modification of provisioned item's quantity */
 	protected void updateItemQuantity(long qtty, ProvisionPreparation pp) {
-		logger.debug("items " + pp.name + " required " + pp.required + ", we have " + qtty);
+		if (pp.required > 0) {
+			logger.debug("updating items " + pp.name + " required" + pp.required + " qtty" + qtty);
+		}
 		if (qtty < pp.required) {
+			logger.debug("adding item " + pp.name + " required " + pp.required + ", we have " + qtty);
 			pp.ed.description = "" + (pp.required - qtty) + " " + pp.name;
 			if (!pp.added) {
 				tvEvents.getItems().add(pp.ed);
@@ -334,6 +337,7 @@ public class OverViewPane extends VBox implements EvePane {
 		} else {
 			if (pp.added) {
 				tvEvents.getItems().remove(pp.ed);
+				logger.debug("removing item " + pp.name + " required " + pp.required + ", we have " + qtty);
 			}
 			pp.added = false;
 		}
@@ -370,6 +374,7 @@ public class OverViewPane extends VBox implements EvePane {
 		if (showProvisionsBox.isSelected()) {
 			showProvisions = true;
 			prepareProvisions();
+			onTeamNewItems(parent().settings.focusedTeam, parent().getFTeamItems());
 		} else {
 			showProvisions = false;
 			itemsProvisions.values().forEach(pp -> pp.added = false);

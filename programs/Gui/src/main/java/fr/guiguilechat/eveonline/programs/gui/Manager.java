@@ -296,20 +296,16 @@ public class Manager extends Application implements EvePane {
 	 * @return
 	 */
 	public Set<String> getTeamPossibleSystems(String team) {
-		HashMap<Long, Station> stationsById = db.getStationById();
 		Set<String> allowedChars = settings.teams.get(team).members;
 		Stream<Character> chars = apis.stream().flatMap(a -> a.account.characters().stream())
 				.filter(c -> allowedChars.contains(c.name));
-		return chars
-				.flatMap(c -> Stream.concat(c.marketOrders().stream().map(oe -> oe.stationID), c.assetList().keySet().stream()))
-				.distinct().map(l -> {
-					if (stationsById.containsKey(l)) {
-						return stationsById.get(l);
-					} else {
-						System.err.println("can't find station for id " + l);
-						return null;
-					}
-				}).filter(l -> l != null).map(s -> s.system).collect(Collectors.toSet());
+		return chars.flatMap(this::streamCharPossibleSystems).collect(Collectors.toSet());
+	}
+
+	public Stream<String> streamCharPossibleSystems(Character c) {
+		HashMap<Long, Station> stationsById = db.getStationById();
+		return Stream.concat(c.marketOrders().stream().map(oe -> oe.stationID), c.assetList().keySet().stream()).distinct()
+				.map(l -> stationsById.get(l)).filter(s -> s != null).map(s -> s.system);
 	}
 
 	/**

@@ -77,14 +77,14 @@ public class TeamSystemManager extends GridPane implements EvePane {
 	}
 
 	protected void addTeam(TeamElements team) {
-		System.err.println("add team " + team.name);
-		addRow(0, team.label, team.addSystemBox, team.addSystemBtn);
+		addRow(0, team.label, team.addSystemBox, team.addSystemBtn, team.remSystemBox, team.remSystemBtn);
 	}
 
 	@Override
 	public void onDelTeam(String name) {
 		TeamElements deleted = cachedTeamElements.remove(name);
-		getChildren().removeAll(deleted.addSystemBox, deleted.label, deleted.addSystemBtn);
+		getChildren().removeAll(deleted.label, deleted.addSystemBox, deleted.addSystemBtn, deleted.remSystemBox,
+				deleted.remSystemBtn);
 	}
 
 	@Override
@@ -95,8 +95,20 @@ public class TeamSystemManager extends GridPane implements EvePane {
 
 	@Override
 	public void onAdd2Team(String team, String character) {
-		// TODO Auto-generated method stub
-		EvePane.super.onAdd2Team(team, character);
+		TeamElements element = element(team);
+		for (String system : parent().getTeamPossibleSystems(team)) {
+			if (parent().getTeamSystemLimit(team).contains(system)) {
+				if (!element.remSystemBox.getItems().contains(system)) {
+					element.remSystemBox.getItems().add(system);
+				}
+			} else {
+				if (!element.addSystemBox.getItems().contains(system)) {
+					element.addSystemBox.getItems().add(system);
+				}
+			}
+		}
+		element.addSystemBox.getItems().sort(String::compareTo);
+		element.remSystemBox.getItems().sort(String::compareTo);
 	}
 
 	@Override
