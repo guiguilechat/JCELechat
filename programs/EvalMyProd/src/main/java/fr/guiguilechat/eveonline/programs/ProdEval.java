@@ -12,12 +12,13 @@ import java.util.function.ToDoubleFunction;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.eveonline.database.EveCentral;
 import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
 import fr.guiguilechat.eveonline.database.apiv2.Char.BPEntry;
+import fr.guiguilechat.eveonline.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.database.yaml.Blueprint.Material;
+import fr.guiguilechat.eveonline.database.yaml.Location;
 import fr.guiguilechat.eveonline.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.database.yaml.Type;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
@@ -29,7 +30,7 @@ import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
  */
 public class ProdEval {
 
-	public static class BPCEval {
+	public static class BPEval {
 		public String name;
 		public LinkedHashMap<String, Integer> required = new LinkedHashMap<>();
 		public String outName;
@@ -45,7 +46,7 @@ public class ProdEval {
 	public double intTax = 2;
 	public double outTax = 03;
 	public double prodTax = 02;
-	public String[] hubs = { "TheForge" };
+	public String hub = "TheForge";
 	public boolean intputSO = true;
 	public boolean outputSO = false;
 	public double mingain = Double.NEGATIVE_INFINITY;
@@ -55,18 +56,24 @@ public class ProdEval {
 
 	public boolean bpo = false, bpc = false;
 
-	// we accept to produce item which are on accept list and are not onskiplist.
-	// if accept list is empty we skip the first predicate
+	// we accept to produce item which are on accept list and are not on skip
+	// list.
+	// if accept list is empty we only check not on skip list
 	public ArrayList<Predicate<Type>> acceptList = new ArrayList<>();
 	public ArrayList<Predicate<Type>> skipList = new ArrayList<>();
 
-	public ToDoubleFunction<BPCEval> bpValue = bp -> bp.gain;
+	public ToDoubleFunction<BPEval> bpValue = bp -> bp.gain;
 
-	public ArrayList<BPCEval> evaluateBPs() {
-		ArrayList<BPCEval> evaluations = new ArrayList<>();
+	public ArrayList<BPEval> evaluateBPs() {
+		ArrayList<BPEval> evaluations = new ArrayList<>();
 		YamlDatabase db = new YamlDatabase();
-		EveCentral central = new EveCentral(
-				Stream.of(hubs).map(h -> db.getLocation(h)).filter(l -> l != null).mapToInt(l -> l.locationID).toArray());
+		Location hubR = db.getLocation(hub);
+		if (hubR != null) {
+			if (hubR.parentRegion != null) {
+				hubR = db.getLocation(hubR.parentRegion);
+			}
+		}
+		ESIMarket market = new ESIMarket(hubR.locationID);
 		for (String[] api : apis) {
 			APIRoot r = new APIRoot(Integer.parseInt(api[0]), api[1]);
 			// first pass we copy the bpcs to get the required and produced amount of
@@ -114,7 +121,7 @@ public class ProdEval {
 					if (!acceptBP(outType)) {
 						continue;
 					}
-					BPCEval eval = new BPCEval();
+					BPEval eval = new BPEval();
 					eval.name = bp.typeName;
 					for (Material required : bpt.manufacturing.materials) {
 						int modifiedQtty = required.quantity == 1 ? required.quantity * Math.max(1, bp.runs)
@@ -138,22 +145,24 @@ public class ProdEval {
 		int[] itemIDs = evaluations.stream()
 				.flatMap(eval -> Stream.concat(Stream.of(eval.outName), eval.required.keySet().stream())).distinct()
 				.mapToInt(s -> db.getMetaInfs().get(s).id).toArray();
-		central.cache(itemIDs);
+		market.cacheBOs(itemIDs);
+		market.cacheSOs(itemIDs);
 		// then we retrieve sell / buy value of items and compute the gain value of
 		// each bpc
-		for (BPCEval eval : evaluations) {
+		for (BPEval eval : evaluations) {
 			for (Entry<String, Integer> e : eval.required.entrySet()) {
 				int id = db.getMetaInfs().get(e.getKey()).id;
-				eval.inValue += (intputSO ? central.getSO(id) : central.getBO(id)) * e.getValue() * (1.0 + intTax / 100);
+				eval.inValue += (intputSO ? market.getSO(id, e.getValue()) : market.getBO(id, e.getValue()))
+						* (1.0 + intTax / 100);
 			}
-			eval.outValue += (outputSO ? central.getSO(eval.output.id) : central.getBO(eval.output.id)) * eval.outNb
+			eval.outValue += (outputSO ? market.getSO(eval.output.id, eval.outNb) : market.getBO(eval.output.id, eval.outNb))
 					* (1.0 - outTax / 100);
 			eval.inValue += db.ESIBasePrices().getAdjusted(eval.output.id) * eval.outNb * prodTax / 100;
 			eval.gain = eval.outValue - eval.inValue;
 			eval.mult = eval.outValue / eval.inValue;
 		}
 		evaluations.removeIf(bpce -> bpce.gain < mingain || bpce.mult < minmult);
-		ToDoubleFunction<BPCEval> eval = bpValue;
+		ToDoubleFunction<BPEval> eval = bpValue;
 		Collections.sort(evaluations, (e1, e2) -> (int) Math.signum(eval.applyAsDouble(e2) - eval.applyAsDouble(e1)));
 		return evaluations;
 	}
@@ -225,7 +234,7 @@ public class ProdEval {
 			} else if (arg.startsWith("prodtax=")) {
 				eval.prodTax = Double.parseDouble(arg.substring("prodtax=".length()));
 			} else if (arg.startsWith("hub=")) {
-				eval.hubs = arg.substring("hub=".length()).split(",");
+				eval.hub = arg.substring("hub=".length());
 			} else if (arg.startsWith("mingain=")) {
 				eval.mingain = Double.parseDouble(arg.substring("mingain=".length()));
 			} else if (arg.startsWith("minmult=")) {
@@ -302,7 +311,7 @@ public class ProdEval {
 							+ "It then prints the blueprints by decreasing interest, as well as the list of materials to buy\n"
 							+ "options:\n" + " api=KEY1:CODE1,KEY2:CODE2 set the api keys and codes\n"
 							+ " names=name1[,name2] limit the characters to those whose name matches at least one filter. no case sensistive"
-							+ " hub=A,B,C set the systems/regions to get the prices from. default=TheForge\n"
+							+ " hub=A set the region to get the prices from. default=TheForge\n"
 							+ " outtax=X set the tax of output to X(default 3.0)%\n"
 							+ " intax=X set the tax of input items to X(default 2.0)%\n"
 							+ " prodtax=X set the total tax (system+structure) to x%. default 2%\n"
@@ -320,7 +329,7 @@ public class ProdEval {
 			System.exit(1);
 		}
 		HashMap<String, Long> toBuy = new HashMap<>();
-		for (BPCEval e : eval.evaluateBPs()) {
+		for (BPEval e : eval.evaluateBPs()) {
 			System.out.println(
 					"" + e.name + (e.outNb == 1 ? "" : "*" + e.outNb) + " : " + formatPrice(eval.bpValue.applyAsDouble(e)));
 			for (Entry<String, Integer> m : e.required.entrySet()) {

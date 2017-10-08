@@ -47,7 +47,7 @@ public class EvaluateRigs {
 	}
 
 	public static void main(String[] args) {
-		String sellRegion = "TheForge";// to black
+		String sellRegion = "TheForge";
 		String importRegion = "TheForge";
 		double courrierColTax = 1.02;// tax multiplier to jita SO for importing
 		double courrierVolPrice = 390;// price to import an item of volume 1
@@ -158,7 +158,7 @@ public class EvaluateRigs {
 
 		// evaluate the cost of importing the material and crafting the rig
 		String bpName = mi.productOf.get(0);
-		System.err.println("evaluate bp " + bpName);
+		System.err.print(bpName);
 		Blueprint bp = db.getBlueprints().get(bpName);
 		int nbMats = bp.manufacturing.materials.size();
 		int[] matIDs = new int[nbMats];
@@ -190,7 +190,7 @@ public class EvaluateRigs {
 
 		if (sellValue > materialsImportCost) {
 			double expectedProfit = totalOrders * (sellValue - materialsImportCost - prodTax);
-			System.err.println("  expecting " + expectedProfit + " profit");
+			System.err.println(" expecting " + formatPrice(expectedProfit) + " profit");
 			ProdData data = new ProdData();
 			data.craftimport = materialsImportCost;
 			data.objectName = m.name;

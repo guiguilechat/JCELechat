@@ -57,12 +57,21 @@ public class ESIMarket {
 		List<HistoryData> ret = cachedHistories.get(itemId);
 		if (ret == null) {
 			String url = historyURL + "type_id=" + itemId;
-			try {
-				ret = datedMapper.readValue(new URL(url), new TypeReference<List<HistoryData>>() {
-				});
-				cachedHistories.put(itemId, ret);
-			} catch (IOException e) {
-				throw new UnsupportedOperationException("catch this", e);
+			int retries = 5;
+			IOException error = null;
+			do {
+				try {
+					ret = datedMapper.readValue(new URL(url), new TypeReference<List<HistoryData>>() {
+					});
+					cachedHistories.put(itemId, ret);
+				} catch (IOException e) {
+					error = e;
+				}
+				retries--;
+			} while (ret == null && retries > 0);
+			if (error != null) {
+				logger.debug("while getting price for "+itemId, error);
+				return Collections.emptyList();
 			}
 		}
 		return ret;
