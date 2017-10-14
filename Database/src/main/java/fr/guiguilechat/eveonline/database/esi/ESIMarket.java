@@ -182,7 +182,7 @@ public class ESIMarket {
 				ponderatedSizeAvg[ponderatedSizeAvg.length / 2]);
 	}
 
-	protected HashMap<Integer, MyOrder[]> cachedBOs = new HashMap<>();
+	protected HashMap<Integer, MarketOrderEntry[]> cachedBOs = new HashMap<>();
 
 	/**
 	 * get the highest BO value for given item ID. eg if item 5 has 10 BO at 100,
@@ -196,7 +196,7 @@ public class ESIMarket {
 	 * @return the sum of highest quantity buy orders values.
 	 */
 	public double getBO(int itemID, long quantity) {
-		MyOrder[] cached = cachedBOs.get(itemID);
+		MarketOrderEntry[] cached = cachedBOs.get(itemID);
 		if (cached == null) {
 			cached = loadOrders(itemID, true);
 			cachedBOs.put(itemID, cached);
@@ -208,7 +208,7 @@ public class ESIMarket {
 		// region " + region);
 		// iteratively add the quantity first volume price.
 		double ret = 0;
-		for (MyOrder mo : cached) {
+		for (MarketOrderEntry mo : cached) {
 			long vol = Math.min(mo.volume, quantity);
 			ret += mo.price * vol;
 			quantity -= vol;
@@ -216,12 +216,13 @@ public class ESIMarket {
 				return ret;
 			}
 		}
-		// if there was not enough quantity to feed the request, we cfan't sell it.
-		// so the BO is 0
+		logger.debug("not enough BO to fulfill " + quantity + " of item id " + itemID);
+		// if there was not enough quantity to feed the request, we can't sell it.
+		// so the BO of remaining entries is 0
 		return ret;
 	}
 
-	private Map<Integer, MyOrder[]> syncBOs = Collections.synchronizedMap(cachedBOs);
+	private Map<Integer, MarketOrderEntry[]> syncBOs = Collections.synchronizedMap(cachedBOs);
 
 	public void cacheBOs(int... itemIDs) {
 		if (itemIDs == null) {
@@ -231,7 +232,7 @@ public class ESIMarket {
 		.forEach(i -> syncBOs.put(i, loadOrders(i, true)));
 	}
 
-	protected HashMap<Integer, MyOrder[]> cachedSOs = new HashMap<>();
+	protected HashMap<Integer, MarketOrderEntry[]> cachedSOs = new HashMap<>();
 
 	/**
 	 * get the value of SO for given item ID and given quantity
@@ -243,7 +244,7 @@ public class ESIMarket {
 	 * @return the sum of the quantity lowest SO values.
 	 */
 	public double getSO(int itemID, long quantity) {
-		MyOrder[] cached = cachedSOs.get(itemID);
+		MarketOrderEntry[] cached = cachedSOs.get(itemID);
 		if (cached == null) {
 			cached = loadOrders(itemID, false);
 			cachedSOs.put(itemID, cached);
@@ -252,7 +253,7 @@ public class ESIMarket {
 			return Double.POSITIVE_INFINITY;
 		}
 		double ret = 0;
-		for (MyOrder mo : cached) {
+		for (MarketOrderEntry mo : cached) {
 			long vol = Math.min(mo.volume, quantity);
 			ret += mo.price * vol;
 			quantity -= vol;
@@ -260,12 +261,13 @@ public class ESIMarket {
 				return ret;
 			}
 		}
+		logger.debug("not enough SO to fulfill " + quantity + " of item id " + itemID);
 		// if there was not enough quantity to feed the request, we set the price to
 		// infinite. we CANT buy that many items
 		return Double.POSITIVE_INFINITY;
 	}
 
-	private Map<Integer, MyOrder[]> syncSOs = Collections.synchronizedMap(cachedSOs);
+	private Map<Integer, MarketOrderEntry[]> syncSOs = Collections.synchronizedMap(cachedSOs);
 
 	public void cacheSOs(int... itemIDs) {
 		if (itemIDs == null) {
@@ -289,14 +291,14 @@ public class ESIMarket {
 		public String range;
 	}
 
-	protected static class MyOrder {
+	protected static class MarketOrderEntry {
 		public long volume;
 		public double price;
 
-		public MyOrder() {
+		public MarketOrderEntry() {
 		}
 
-		public MyOrder(long volume, double price) {
+		public MarketOrderEntry(long volume, double price) {
 			this.volume = volume;
 			this.price = price;
 		}
@@ -304,16 +306,16 @@ public class ESIMarket {
 
 	private ObjectReader marketOrderArrReader = mapper.readerFor(MarketOrder[].class);
 
-	protected MyOrder[] loadOrders(int itemID, boolean buy) {
+	protected MarketOrderEntry[] loadOrders(int itemID, boolean buy) {
 		String url = ordersURL + "type_id=" + itemID + "&order_type=" + (buy ? "buy" : "sell");
 		try {
 			MarketOrder[] orders = marketOrderArrReader.readValue(new URL(url));
-			MyOrder[] arr = Stream.of(orders).map(mo -> new MyOrder(mo.volume_remain, mo.price)).toArray(MyOrder[]::new);
+			MarketOrderEntry[] arr = Stream.of(orders).map(mo -> new MarketOrderEntry(mo.volume_remain, mo.price)).toArray(MarketOrderEntry[]::new);
 			Arrays.sort(arr, buy ? (mo1, mo2) -> (int) Math.signum(mo2.price - mo1.price)
 					: (mo1, mo2) -> (int) Math.signum(mo1.price - mo2.price));
 			return arr;
 		} catch (IOException e) {
-			return new MyOrder[] {};
+			return new MarketOrderEntry[] {};
 		}
 	}
 
