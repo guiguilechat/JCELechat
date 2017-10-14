@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -16,6 +17,7 @@ import fr.guiguilechat.eveonline.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.programs.LPCorpEvaluator.MarketLPEvaluator;
 import fr.guiguilechat.eveonline.programs.LPCorpEvaluator.OfferAnalysis;
+import fr.guiguilechat.eveonline.programs.SysBurnerEvaluator.SystemData;
 
 public class EvaluateL4Agents {
 
@@ -41,6 +43,10 @@ public class EvaluateL4Agents {
 	}
 
 	public static void main(String[] args) {
+		// number of concurrent threads in the parallel pool
+		int parrallelism = 40;
+		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
+
 		EvaluateL4Agents el4a = new EvaluateL4Agents();
 
 		for (String arg : args) {
@@ -55,13 +61,10 @@ public class EvaluateL4Agents {
 			}
 		}
 
-		el4a.corpEvaluator = new LPCorpEvaluator(el4a.db).withLPAmount(200000).cached(el4a.getMarket());
+		el4a.corpEvaluator = new LPCorpEvaluator(el4a.db).withLPAmount(100000).cached(el4a.getMarket());
 		el4a.systemEvaluator = new SysBurnerEvaluator(10, el4a.db);
-		Agent[] agents = el4a.getPossibleAgents().toArray(Agent[]::new);
-		ArrayList<LocalizedLPOffer> offers = new ArrayList<>();
-		for (Agent a : agents) {
-			offers.addAll(el4a.evaluateOffers(a));
-		}
+		List<LocalizedLPOffer> offers = el4a.getPossibleAgents().parallel().flatMap(a -> el4a.evaluateOffers(a).stream())
+				.collect(Collectors.toList());
 		Collections.sort(offers, (e1, e2) -> (int) Math.signum(e2.sobogain - e1.sobogain));
 		System.out.println("\nagent ; offer ; corporation ; location ; sobogain ; bosogain ; avggain");
 		for (LocalizedLPOffer e : offers) {
@@ -141,9 +144,10 @@ public class EvaluateL4Agents {
 	protected MarketLPEvaluator corpEvaluator;
 
 	protected List<LocalizedLPOffer> evaluateOffers(Agent agent) {
-		double freqHS = systemEvaluator.freqHS(agent.system);
-		double avgDist = systemEvaluator.avgDist(agent.system);
-		double secBonus = systemEvaluator.secBonus(agent.system);
+		SystemData sysEval = systemEvaluator.evaluate(agent.system);
+		double freqHS = sysEval.freqHS;
+		double avgDist = sysEval.avgDist;
+		double secBonus = sysEval.bonusSys;
 		double nbPerHour = 60 / (4 + avgDist * 2);
 
 		ArrayList<LocalizedLPOffer> ret = new ArrayList<>();

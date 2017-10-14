@@ -3,14 +3,13 @@ package fr.guiguilechat.eveonline.database.esi;
 import java.io.IOException;
 import java.net.URL;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -70,7 +69,7 @@ public class ESIMarket {
 				retries--;
 			} while (ret == null && retries > 0);
 			if (error != null) {
-				logger.debug("while getting price for "+itemId, error);
+				logger.debug("while getting price for " + itemId, error);
 				return Collections.emptyList();
 			}
 		}
@@ -182,31 +181,27 @@ public class ESIMarket {
 				ponderatedSizeAvg[ponderatedSizeAvg.length / 2]);
 	}
 
-	protected HashMap<Integer, MarketOrderEntry[]> cachedBOs = new HashMap<>();
+	protected HashMap<Integer, List<MarketOrderEntry>> cachedBOs = new HashMap<>();
 
 	/**
 	 * get the highest BO value for given item ID. eg if item 5 has 10 BO at 100,
 	 * 10 BO at 90, requesting 10 will return 1000, requesting 20 will return
-	 * 1900, requesting 11 will return 1090
+	 * 1900, requesting 11 will return 1090.<br />
+	 * Synchronized with same id, or different ids.
 	 *
 	 * @param itemID
 	 *          the id of the item
 	 * @param quantity
 	 *          number of items to consider
-	 * @return the sum of highest quantity buy orders values.
+	 * @return the sum of highest quantity buy orders values. Mising entries are
+	 *         considered as 0
 	 */
 	public double getBO(int itemID, long quantity) {
-		MarketOrderEntry[] cached = cachedBOs.get(itemID);
-		if (cached == null) {
-			cached = loadOrders(itemID, true);
-			cachedBOs.put(itemID, cached);
-		}
-		if (cached == null || cached.length == 0) {
+		List<MarketOrderEntry> cached = getBOs(itemID);
+		if (cached == null || cached.size() == 0) {
 			return 0.0;
 		}
-		// System.err.println(cached.length + " orders for id " + itemID + " on
-		// region " + region);
-		// iteratively add the quantity first volume price.
+		// add the quantity first volume price.
 		double ret = 0;
 		for (MarketOrderEntry mo : cached) {
 			long vol = Math.min(mo.volume, quantity);
@@ -222,34 +217,46 @@ public class ESIMarket {
 		return ret;
 	}
 
-	private Map<Integer, MarketOrderEntry[]> syncBOs = Collections.synchronizedMap(cachedBOs);
-
-	public void cacheBOs(int... itemIDs) {
-		if (itemIDs == null) {
-			return;
+	protected List<MarketOrderEntry> getBOs(int itemID) {
+		List<MarketOrderEntry> ret;
+		synchronized (cachedBOs) {
+			ret = cachedBOs.get(itemID);
+			if (ret == null) {
+				ret = new ArrayList<>();
+			}
+			cachedBOs.put(itemID, ret);
 		}
-		IntStream.of(itemIDs).distinct().filter(i -> !syncBOs.containsKey(i)).parallel()
-		.forEach(i -> syncBOs.put(i, loadOrders(i, true)));
+		synchronized (ret) {
+			if (ret.isEmpty()) {
+				MarketOrderEntry[] orders = loadOrders(itemID, true);
+				if (orders == null || orders.length == 0) {
+					ret.add(new MarketOrderEntry(0, 0));
+				} else {
+					for (MarketOrderEntry mo : orders) {
+						ret.add(mo);
+					}
+				}
+			}
+		}
+		return ret;
 	}
 
-	protected HashMap<Integer, MarketOrderEntry[]> cachedSOs = new HashMap<>();
+	protected HashMap<Integer, List<MarketOrderEntry>> cachedSOs = new HashMap<>();
 
 	/**
-	 * get the value of SO for given item ID and given quantity
+	 * get the value of SO for given item ID and given quantity <br />
+	 * synchronized for parallel calls on same or different item id
 	 *
 	 * @param itemID
 	 *          the id of the item
 	 * @param quantity
 	 *          the total quantity to consider for SO
 	 * @return the sum of the quantity lowest SO values.
+	 *         {@link Double.#POSITIVE_INFINITY} if not enough SO are available
 	 */
 	public double getSO(int itemID, long quantity) {
-		MarketOrderEntry[] cached = cachedSOs.get(itemID);
-		if (cached == null) {
-			cached = loadOrders(itemID, false);
-			cachedSOs.put(itemID, cached);
-		}
-		if (cached == null || cached.length == 0) {
+		List<MarketOrderEntry> cached = cachedSOs.get(itemID);
+		if (cached == null || cached.size() == 0) {
 			return Double.POSITIVE_INFINITY;
 		}
 		double ret = 0;
@@ -267,14 +274,28 @@ public class ESIMarket {
 		return Double.POSITIVE_INFINITY;
 	}
 
-	private Map<Integer, MarketOrderEntry[]> syncSOs = Collections.synchronizedMap(cachedSOs);
-
-	public void cacheSOs(int... itemIDs) {
-		if (itemIDs == null) {
-			return;
+	protected List<MarketOrderEntry> getSOs(int itemID) {
+		List<MarketOrderEntry> ret;
+		synchronized (cachedSOs) {
+			ret = cachedSOs.get(itemID);
+			if (ret == null) {
+				ret = new ArrayList<>();
+			}
+			cachedSOs.put(itemID, ret);
 		}
-		IntStream.of(itemIDs).distinct().filter(i -> !syncSOs.containsKey(i)).parallel()
-		.forEach(i -> syncSOs.put(i, loadOrders(i, false)));
+		synchronized (ret) {
+			if (ret.isEmpty()) {
+				MarketOrderEntry[] orders = loadOrders(itemID, false);
+				if (orders == null || orders.length == 0) {
+					ret.add(new MarketOrderEntry(0, Double.POSITIVE_INFINITY));
+				} else {
+					for (MarketOrderEntry mo : orders) {
+						ret.add(mo);
+					}
+				}
+			}
+		}
+		return ret;
 	}
 
 	protected static class MarketOrder {
@@ -310,7 +331,8 @@ public class ESIMarket {
 		String url = ordersURL + "type_id=" + itemID + "&order_type=" + (buy ? "buy" : "sell");
 		try {
 			MarketOrder[] orders = marketOrderArrReader.readValue(new URL(url));
-			MarketOrderEntry[] arr = Stream.of(orders).map(mo -> new MarketOrderEntry(mo.volume_remain, mo.price)).toArray(MarketOrderEntry[]::new);
+			MarketOrderEntry[] arr = Stream.of(orders).map(mo -> new MarketOrderEntry(mo.volume_remain, mo.price))
+					.toArray(MarketOrderEntry[]::new);
 			Arrays.sort(arr, buy ? (mo1, mo2) -> (int) Math.signum(mo2.price - mo1.price)
 					: (mo1, mo2) -> (int) Math.signum(mo1.price - mo2.price));
 			return arr;

@@ -73,20 +73,22 @@ public class SysBurnerEvaluator {
 	}
 
 	public SystemData evaluate(String sn) {
-		if (cache.containsKey(sn)) {
-			return cache.get(sn);
-		}
-		Location sys = db.getLocation(sn);
+		synchronized (cache) {
+			if (cache.containsKey(sn)) {
+				return cache.get(sn);
+			}
+			Location sys = db.getLocation(sn);
 
-		SystemVisitor sv = new SystemVisitor(sys);
-		visitSystemsWithDistance(sys, distance, sv);
-		SystemData ret = new SystemData();
-		ret.avgDist = sv.sumWHSjumps / sv.sumWHS;
-		ret.bonusSys = 2 - sys.minSec;
-		ret.freqHS = sv.sumWHS / sv.sumWeight;
-		logger.debug("system " + sys.name + " avgdistHS" + ret.avgDist + " bonus" + ret.bonusSys + " pbHigh" + ret.freqHS);
-		cache.put(sn, ret);
-		return ret;
+			SystemVisitor sv = new SystemVisitor(sys);
+			visitSystemsWithDistance(sys, distance, sv);
+			SystemData ret = new SystemData();
+			ret.avgDist = sv.sumWHSjumps / sv.sumWHS;
+			ret.bonusSys = 2 - sys.minSec;
+			ret.freqHS = sv.sumWHS / sv.sumWeight;
+			logger.debug("system " + sys.name + " avgdistHS" + ret.avgDist + " bonus" + ret.bonusSys + " pbHigh" + ret.freqHS);
+			cache.put(sn, ret);
+			return ret;
+		}
 	}
 
 	/**
