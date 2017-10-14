@@ -113,8 +113,6 @@ public class LPCorpEvaluator {
 				allIDs.add(e.type_id);
 			}
 		}
-		market.cacheBOs(allIDs.stream().mapToInt(i -> i).toArray());
-		market.cacheSOs(allIDs.stream().mapToInt(i -> i).toArray());
 
 		List<OfferAnalysis> offers = lpos.parallelStream().map(lp -> analyse(lp, market, minimumIskPerLP))
 				.filter(oa -> oa != null)
@@ -248,15 +246,32 @@ public class LPCorpEvaluator {
 		private HashMap<String, List<OfferAnalysis>> cachedLists = new HashMap<>();
 
 		public List<OfferAnalysis> analyseCorpOffers(String corpName) {
-			if (cachedLists.containsKey(corpName)) {
-				return cachedLists.get(corpName);
+			List<OfferAnalysis> ret = null;
+			synchronized (cachedLists) {
+				if (cachedLists.containsKey(corpName)) {
+					ret = cachedLists.get(corpName);
+				} else {
+					ret = new ArrayList<>();
+					cachedLists.put(corpName, ret);
+				}
 			}
-			logger.debug("evaluating offers for corp " + corpName);
-			List<OfferAnalysis> ret = analyseOffers(market, corpName, minISKLPRatio);
-			for (OfferAnalysis r : ret) {
-				logger.debug(" " + r.offer.offer_name + " : " + r.iskPerLPSOBO);
+			// we ensure the list will not be empty. if no data can be retrieved, we
+			// had null
+			synchronized (ret) {
+				if (ret.isEmpty()) {
+					logger.debug("evaluating offers for corp " + corpName);
+					ret.addAll(analyseOffers(market, corpName, minISKLPRatio));
+					for (OfferAnalysis r : ret) {
+						logger.debug(" " + r.offer.offer_name + " : " + r.iskPerLPSOBO);
+					}
+					if (ret.isEmpty()) {
+						ret.add(null);
+					}
+				}
 			}
-			cachedLists.put(corpName, ret);
+			if (!ret.isEmpty() && ret.get(0) == null) {
+				return Collections.emptyList();
+			}
 			return ret;
 		}
 
