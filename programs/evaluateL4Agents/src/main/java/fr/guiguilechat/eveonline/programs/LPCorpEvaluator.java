@@ -47,7 +47,7 @@ public class LPCorpEvaluator {
 		public double iskPerLPSOBO;
 		public double iskPerLPBOSO;
 		public double iskPerLPAVG;
-		public String offerGroup;
+		public String offerCorp;
 
 	}
 
@@ -75,9 +75,18 @@ public class LPCorpEvaluator {
 		this.db = db;
 	}
 
+	public LPCorpEvaluator withLPAmount(int amount) {
+		amountLP = amount;
+		return this;
+	}
+
 	public ArrayList<LPOffer> listCorpOffers(String corpName) {
 		ArrayList<LPOffer> lpos = new ArrayList<>(db.getLPOffers());
+		// logger.debug(lpos.stream().map(o ->
+		// o.offer_name).collect(Collectors.toList()).toString());
 		lpos.removeIf(offer -> !corpName.equals(offer.corporation) || offer.requirements.lp == 0);
+		// logger.debug(lpos.stream().map(o ->
+		// o.offer_name).collect(Collectors.toList()).toString());
 		return lpos;
 	}
 
@@ -144,10 +153,10 @@ public class LPCorpEvaluator {
 		for (Entry<String, ESIMarket> me : markets.entrySet()) {
 			System.out.println("");
 			System.out.println(me.getKey() + " :");
-			List<OfferAnalysis> offers = eval.analyseOffers(me.getValue(), lpos, 1000);
+			List<OfferAnalysis> offers = eval.analyseOffers(me.getValue(), lpos, 400);
 			for (OfferAnalysis oa : offers) {
 				System.out.println(oa.offer.offer_name + " ( " + oa.offer.requirements.lp + " lp ): " + oa.iskPerLPSOBO
-						+ " isk/LP ; " + oa.offerGroup);
+						+ " isk/LP ; " + oa.offerCorp);
 			}
 		}
 	}
@@ -167,7 +176,7 @@ public class LPCorpEvaluator {
 	public OfferAnalysis analyse(LPOffer o, ESIMarket market, double minimumIskPerLP) {
 		OfferAnalysis ret = new OfferAnalysis();
 		ret.offer = o;
-		ret.offerGroup = o.corporation;
+		ret.offerCorp = o.corporation;
 		int mult = (int) Math.ceil(1.0 * amountLP / o.requirements.lp);
 
 		double prodBO = market.getBO(o.product.type_id, o.product.quantity * mult) * (1 - markettax);
@@ -176,6 +185,9 @@ public class LPCorpEvaluator {
 		// if the BO-cost / lp is too low, it wont get bigger when taking SO into
 		// account.
 		if ((prodBO - o.requirements.isk * mult) / o.requirements.lp / mult < minimumIskPerLP) {
+			logger.debug(
+					"offer " + o.corporation + " - " + o.offer_name + "[*" + mult + "] " + " does not produce enough isk. out="
+							+ prodBO / mult + ", in.isk=" + o.requirements.isk + " LP=" + o.requirements.lp);
 			return null;
 		}
 		double reqSO = o.requirements.isk * mult;
@@ -190,11 +202,18 @@ public class LPCorpEvaluator {
 		ret.iskPerLPSOBO = (prodBO - reqSO) / o.requirements.lp / mult;
 		ret.iskPerLPBOSO = (prodSO - reqBO) / o.requirements.lp / mult;
 		ret.iskPerLPAVG = (prodAVG - reqAVG) / o.requirements.lp / mult;
-		return ret.iskPerLPSOBO >= minimumIskPerLP ? ret : null;
+		if (ret.iskPerLPSOBO >= minimumIskPerLP) {
+			return ret;
+		} else {
+			logger.debug("offer " + o.corporation + " - " + o.offer_name + "[*" + mult + "] "
+					+ " has bad return on interest. in=" + reqSO / mult
+					+ " out=" + prodBO / mult + " LP=" + o.requirements.lp);
+			return null;
+		}
 	}
 
 	/**
-	 * group the offers if they have same item, return , ands/lp requirements
+	 * group the offers if they have same item, return , ands lp requirements
 	 *
 	 * @param offers
 	 */
@@ -207,7 +226,7 @@ public class LPCorpEvaluator {
 					&& previous.offer.requirements.lp == oa.offer.requirements.lp
 					&& previous.offer.requirements.isk == oa.offer.requirements.isk) {
 				it.remove();
-				previous.offerGroup = previous.offerGroup + ", " + oa.offer.corporation;
+				previous.offerCorp = previous.offerCorp + ", " + oa.offer.corporation;
 			} else {
 				previous = oa;
 			}
@@ -234,6 +253,9 @@ public class LPCorpEvaluator {
 			}
 			logger.debug("evaluating offers for corp " + corpName);
 			List<OfferAnalysis> ret = analyseOffers(market, corpName, minISKLPRatio);
+			for (OfferAnalysis r : ret) {
+				logger.debug(" " + r.offer.offer_name + " : " + r.iskPerLPSOBO);
+			}
 			cachedLists.put(corpName, ret);
 			return ret;
 		}

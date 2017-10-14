@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.eveonline.database.EveDatabase;
 import fr.guiguilechat.eveonline.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.database.yaml.Agent;
@@ -15,6 +18,8 @@ import fr.guiguilechat.eveonline.programs.LPCorpEvaluator.MarketLPEvaluator;
 import fr.guiguilechat.eveonline.programs.LPCorpEvaluator.OfferAnalysis;
 
 public class EvaluateL4Agents {
+
+	private static final Logger logger = LoggerFactory.getLogger(EvaluateL4Agents.class);
 
 	public static class LocalizedLPOffer extends LPOffer {
 
@@ -39,8 +44,8 @@ public class EvaluateL4Agents {
 		EvaluateL4Agents el4a = new EvaluateL4Agents();
 
 		for (String arg : args) {
-			if (arg.startsWith("faction=")) {
-				el4a.allowCorporations(arg.substring("faction=".length()).split(","));
+			if (arg.startsWith("corp=")) {
+				el4a.allowCorporations(arg.substring("corp=".length()).split(","));
 			} else if (arg.startsWith("region=")) {
 				el4a.marketRegion = arg.substring("region=".length());
 			} else if (arg.startsWith("minl=")) {
@@ -50,7 +55,7 @@ public class EvaluateL4Agents {
 			}
 		}
 
-		el4a.corpEvaluator = new LPCorpEvaluator(el4a.db).cached(el4a.getMarket());
+		el4a.corpEvaluator = new LPCorpEvaluator(el4a.db).withLPAmount(200000).cached(el4a.getMarket());
 		el4a.systemEvaluator = new SysBurnerEvaluator(10, el4a.db);
 		Agent[] agents = el4a.getPossibleAgents().toArray(Agent[]::new);
 		ArrayList<LocalizedLPOffer> offers = new ArrayList<>();
@@ -92,6 +97,12 @@ public class EvaluateL4Agents {
 	}
 
 	public boolean acceptCorp(String corpName) {
+		if (allowedCorporations == null || allowedCorporations.length == 0) {
+			return true;
+		}
+		if (corpName == null) {
+			return false;
+		}
 		for (String sub : corpName.toLowerCase().split(" ")) {
 			for (Pattern p : allowedCorporations) {
 				if (p.matcher(sub).matches()) {
@@ -99,6 +110,7 @@ public class EvaluateL4Agents {
 				}
 			}
 		}
+		logger.debug("corporation " + corpName + " not accepted");
 		return false;
 	}
 
@@ -109,9 +121,7 @@ public class EvaluateL4Agents {
 		if (onlyHS) {
 			ret = ret.filter(a -> isHSSystem(a.system));
 		}
-		if (allowedCorporations != null) {
-			ret = ret.filter(a -> a.corporation != null && acceptCorp(a.corporation));
-		}
+		ret = ret.filter(a -> acceptCorp(a.corporation));
 		return ret;
 	}
 
