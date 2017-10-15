@@ -45,9 +45,9 @@ public class EvaluateL4Agents {
 	public static void main(String[] args) {
 		// number of concurrent threads in the parallel pool
 		int parrallelism = Runtime.getRuntime().availableProcessors() * 10;
-		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
 
 		EvaluateL4Agents el4a = new EvaluateL4Agents();
+		LPCorpEvaluator ceval = new LPCorpEvaluator(el4a.db).withLPAmount(1000000);
 
 		for (String arg : args) {
 			if (arg.startsWith("corp=")) {
@@ -58,10 +58,15 @@ public class EvaluateL4Agents {
 				el4a.minLevel = Integer.parseInt(arg.substring("minl=".length()));
 			} else if (arg.startsWith("maxl=")) {
 				el4a.maxLevel = Integer.parseInt(arg.substring("minl=".length()));
+			} else if (arg.startsWith("parallel=")) {
+				parrallelism = Integer.parseInt(arg.substring("parallel=".length()));
+			} else if (arg.startsWith("lp=")) {
+				ceval.withLPAmount(Integer.parseInt(arg.substring("lp=".length())));
 			}
 		}
 
-		el4a.corpEvaluator = new LPCorpEvaluator(el4a.db).withLPAmount(100000).cached(el4a.getMarket());
+		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
+		el4a.corpEvaluator = ceval.cached(el4a.getMarket());
 		el4a.systemEvaluator = new SysBurnerEvaluator(10, el4a.db);
 		List<LocalizedLPOffer> offers = el4a.getPossibleAgents().parallel().flatMap(a -> el4a.evaluateOffers(a).stream())
 				.collect(Collectors.toList());
