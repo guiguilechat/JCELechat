@@ -106,48 +106,42 @@ public class SDEDumper {
 
 		DatabaseFile dbModules = new DatabaseFile();
 		dbModules.modules = db.modules;
-		db.modules = new LinkedHashMap<>();
 		YamlDatabase.write(dbModules, DB_MODULES_FILE);
 
 
 		DatabaseFile dbAsteroids = new DatabaseFile();
 		dbAsteroids.asteroids = db.asteroids;
-		db.asteroids = new LinkedHashMap<>();
 		YamlDatabase.write(dbAsteroids, DB_ASTEROIDS_FILE);
 
 
 		DatabaseFile dbBlueprints = new DatabaseFile();
 		dbBlueprints.blueprints = db.blueprints;
-		db.blueprints = new LinkedHashMap<>();
 		YamlDatabase.write(dbBlueprints, DB_BLUEPRINT_FILE);
 
 
 		DatabaseFile dbMetaInfs = new DatabaseFile();
 		dbMetaInfs.metaInfs = db.metaInfs;
-		db.metaInfs = new LinkedHashMap<>();
 		YamlDatabase.write(dbMetaInfs, DB_METAINF_FILE);
 
 		DatabaseFile dbLocations = new DatabaseFile();
 		dbLocations.locations = db.locations;
-		db.locations = new LinkedHashMap<>();
 		YamlDatabase.write(dbLocations, DB_LOCATION_FILE);
 
 		DatabaseFile dbLPOffers = new DatabaseFile();
 		dbLPOffers.lpoffers = db.lpoffers;
-		db.lpoffers = new ArrayList<>();
 		YamlDatabase.write(dbLPOffers, DB_LPOFFERS_FILE);
 
 		DatabaseFile dbAgents = new DatabaseFile();
 		dbAgents.agents = db.agents;
-		db.agents = new LinkedHashMap<>();
 		YamlDatabase.write(dbAgents, DB_AGENTS_FILE);
 
 		DatabaseFile dbStations = new DatabaseFile();
 		dbStations.stations = db.stations;
-		db.stations = new LinkedHashMap<>();
 		YamlDatabase.write(dbStations, DB_STATIONS_FILE);
 
-		YamlDatabase.write(db, DB_HULLS_FILE);
+		DatabaseFile dbHulls = new DatabaseFile();
+		dbHulls.hulls = db.hulls;
+		YamlDatabase.write(dbHulls, DB_HULLS_FILE);
 	}
 
 	public static DatabaseFile loadDb() throws FileNotFoundException {
