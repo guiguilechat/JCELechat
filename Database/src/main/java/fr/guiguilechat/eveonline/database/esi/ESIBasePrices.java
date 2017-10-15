@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
@@ -23,24 +24,28 @@ public class ESIBasePrices {
 	protected HashMap<Integer, Double> cachedAverage = null;
 	protected HashMap<Integer, Double> cachedAdjusted = null;
 
-	@SuppressWarnings("unchecked")
 	public void dl() {
-		if (cachedAdjusted != null && cachedAverage != null) {
-			return;
-		}
-		cachedAverage = new HashMap<>();
-		cachedAdjusted = new HashMap<>();
-		ObjectMapper mapper = new ObjectMapper(); // just need one
-		try {
-			List<Map<String, ?>> l = mapper.readValue(new URL("https://esi.tech.ccp.is/latest/markets/prices/"), List.class);
-			for (Map<String, ?> m : l) {
-				Object oid = m.get("type_id");
-				int id = (Integer) oid;
-				cachedAverage.put(id, (Double) m.get("average_price"));
-				cachedAdjusted.put(id, (Double) m.get("adjusted_price"));
+		if (cachedAdjusted == null || cachedAverage == null) {
+			synchronized (this) {
+				if (cachedAdjusted != null && cachedAverage != null) {
+					return;
+				}
+				cachedAverage = new HashMap<>();
+				cachedAdjusted = new HashMap<>();
+				ObjectMapper mapper = new ObjectMapper(); // just need one
+				try {
+					List<Map<String, ?>> l = mapper.readerFor(new TypeReference<List<Map<String, ?>>>() {
+					}).readValue(new URL("https://esi.tech.ccp.is/latest/markets/prices/"));
+					for (Map<String, ?> m : l) {
+						Object oid = m.get("type_id");
+						int id = (Integer) oid;
+						cachedAverage.put(id, (Double) m.get("average_price"));
+						cachedAdjusted.put(id, (Double) m.get("adjusted_price"));
+					}
+				} catch (IOException e) {
+					e.printStackTrace(System.err);
+				}
 			}
-		} catch (IOException e) {
-			e.printStackTrace(System.err);
 		}
 	}
 

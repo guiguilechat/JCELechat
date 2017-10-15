@@ -30,13 +30,21 @@ public class ESICharacter {
 					idBuilder.append("," + id);
 				}
 			}
-			try {
-				Name[] names = om.readValue(new URL(baseURL + idBuilder.toString()), Name[].class);
+			Name[] names = null;
+			IOException error = null;
+			for (int retry = 0; retry < 10 && names == null; retry++) {
+				try {
+					names = om.readValue(new URL(baseURL + idBuilder.toString()), Name[].class);
+				} catch (IOException e) {
+					error = e;
+				}
+			}
+			if (names != null) {
 				for (Name name : names) {
 					ret.put(name.character_id, name.character_name);
 				}
-			} catch (IOException e) {
-				throw new UnsupportedOperationException("catch this", e);
+			} else {
+				throw new UnsupportedOperationException(error);
 			}
 		}
 		return ret;
