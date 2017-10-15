@@ -85,7 +85,8 @@ public class SysBurnerEvaluator {
 			ret.avgDist = sv.sumWHSjumps / sv.sumWHS;
 			ret.bonusSys = 2 - sys.minSec;
 			ret.freqHS = sv.sumWHS / sv.sumWeight;
-			logger.debug("system " + sys.name + " avgdistHS" + ret.avgDist + " bonus" + ret.bonusSys + " pbHigh" + ret.freqHS);
+			logger
+					.trace("system " + sys.name + " avgdistHS" + ret.avgDist + " bonus" + ret.bonusSys + " pbHigh" + ret.freqHS);
 			cache.put(sn, ret);
 			return ret;
 		}

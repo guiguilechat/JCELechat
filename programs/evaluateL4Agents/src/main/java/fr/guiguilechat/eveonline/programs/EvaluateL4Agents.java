@@ -44,7 +44,7 @@ public class EvaluateL4Agents {
 
 	public static void main(String[] args) {
 		// number of concurrent threads in the parallel pool
-		int parrallelism = 40;
+		int parrallelism = Runtime.getRuntime().availableProcessors() * 10;
 		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
 
 		EvaluateL4Agents el4a = new EvaluateL4Agents();
@@ -113,7 +113,7 @@ public class EvaluateL4Agents {
 				}
 			}
 		}
-		logger.debug("corporation " + corpName + " not accepted");
+		logger.trace("corporation " + corpName + " not accepted");
 		return false;
 	}
 

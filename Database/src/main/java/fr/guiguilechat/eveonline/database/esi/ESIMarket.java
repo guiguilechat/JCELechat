@@ -181,41 +181,7 @@ public class ESIMarket {
 				ponderatedSizeAvg[ponderatedSizeAvg.length / 2]);
 	}
 
-	protected HashMap<Integer, List<MarketOrderEntry>> cachedBOs = new HashMap<>();
-
-	/**
-	 * get the highest BO value for given item ID. eg if item 5 has 10 BO at 100,
-	 * 10 BO at 90, requesting 10 will return 1000, requesting 20 will return
-	 * 1900, requesting 11 will return 1090.<br />
-	 * Synchronized with same id, or different ids.
-	 *
-	 * @param itemID
-	 *          the id of the item
-	 * @param quantity
-	 *          number of items to consider
-	 * @return the sum of highest quantity buy orders values. Mising entries are
-	 *         considered as 0
-	 */
-	public double getBO(int itemID, long quantity) {
-		List<MarketOrderEntry> cached = getBOs(itemID);
-		if (cached == null || cached.size() == 0) {
-			return 0.0;
-		}
-		// add the quantity first volume price.
-		double ret = 0;
-		for (MarketOrderEntry mo : cached) {
-			long vol = Math.min(mo.volume, quantity);
-			ret += mo.price * vol;
-			quantity -= vol;
-			if (quantity == 0) {
-				return ret;
-			}
-		}
-		logger.debug("not enough BO to fulfill " + quantity + " of item id " + itemID);
-		// if there was not enough quantity to feed the request, we can't sell it.
-		// so the BO of remaining entries is 0
-		return ret;
-	}
+	private HashMap<Integer, List<MarketOrderEntry>> cachedBOs = new HashMap<>();
 
 	protected List<MarketOrderEntry> getBOs(int itemID) {
 		List<MarketOrderEntry> ret;
@@ -228,7 +194,7 @@ public class ESIMarket {
 		}
 		synchronized (ret) {
 			if (ret.isEmpty()) {
-				MarketOrderEntry[] orders = loadOrders(itemID, true);
+				MarketOrderEntry[] orders = fetchOrders(itemID, true);
 				if (orders == null || orders.length == 0) {
 					ret.add(new MarketOrderEntry(0, 0));
 				} else {
@@ -236,43 +202,46 @@ public class ESIMarket {
 						ret.add(mo);
 					}
 				}
+				logger.trace("fetched " + ret.stream().mapToLong(mo -> mo.volume).sum() + " BO for item " + itemID);
 			}
 		}
 		return ret;
 	}
 
-	protected HashMap<Integer, List<MarketOrderEntry>> cachedSOs = new HashMap<>();
-
 	/**
-	 * get the value of SO for given item ID and given quantity <br />
-	 * synchronized for parallel calls on same or different item id
+	 * get the highest BO value for given item ID. eg if item 5 has 10 BO at 100,
+	 * 10 BO at 90, requesting 10 will return 1000, requesting 20 will return
+	 * 1900, requesting 11 will return 1090.<br />
+	 * Synchronized with same id, or different ids.
 	 *
 	 * @param itemID
 	 *          the id of the item
-	 * @param quantity
-	 *          the total quantity to consider for SO
-	 * @return the sum of the quantity lowest SO values.
-	 *         {@link Double.#POSITIVE_INFINITY} if not enough SO are available
+	 * @param remaining
+	 *          number of items to consider
+	 * @return the sum of highest quantity buy orders values. Mising entries are
+	 *         considered as 0
 	 */
-	public double getSO(int itemID, long quantity) {
-		List<MarketOrderEntry> cached = cachedSOs.get(itemID);
-		if (cached == null || cached.size() == 0) {
-			return Double.POSITIVE_INFINITY;
-		}
+	public double getBO(int itemID, long qtty) {
+		long remaining = qtty;
+		List<MarketOrderEntry> cached = getBOs(itemID);
+		// add the quantity first volume price.
 		double ret = 0;
 		for (MarketOrderEntry mo : cached) {
-			long vol = Math.min(mo.volume, quantity);
+			long vol = Math.min(mo.volume, remaining);
 			ret += mo.price * vol;
-			quantity -= vol;
-			if (quantity == 0) {
+			remaining -= vol;
+			if (remaining == 0) {
+				logger.trace("BO for " + qtty + " of " + itemID + " is " + ret);
 				return ret;
 			}
 		}
-		logger.debug("not enough SO to fulfill " + quantity + " of item id " + itemID);
-		// if there was not enough quantity to feed the request, we set the price to
-		// infinite. we CANT buy that many items
-		return Double.POSITIVE_INFINITY;
+		logger.debug("missing " + remaining + " BO of id " + itemID + " out of " + qtty);
+		// if there was not enough quantity to feed the request, we can't sell it.
+		// so the BO of remaining entries is 0
+		return ret;
 	}
+
+	private HashMap<Integer, List<MarketOrderEntry>> cachedSOs = new HashMap<>();
 
 	protected List<MarketOrderEntry> getSOs(int itemID) {
 		List<MarketOrderEntry> ret;
@@ -285,7 +254,7 @@ public class ESIMarket {
 		}
 		synchronized (ret) {
 			if (ret.isEmpty()) {
-				MarketOrderEntry[] orders = loadOrders(itemID, false);
+				MarketOrderEntry[] orders = fetchOrders(itemID, false);
 				if (orders == null || orders.length == 0) {
 					ret.add(new MarketOrderEntry(0, Double.POSITIVE_INFINITY));
 				} else {
@@ -293,9 +262,40 @@ public class ESIMarket {
 						ret.add(mo);
 					}
 				}
+				logger.trace("fetched " + ret.stream().mapToLong(mo -> mo.volume).sum() + " SO for item " + itemID);
 			}
 		}
 		return ret;
+	}
+
+	/**
+	 * get the value of SO for given item ID and given quantity <br />
+	 * synchronized for parallel calls on same or different item id
+	 *
+	 * @param itemID
+	 *          the id of the item
+	 * @param qtty
+	 *          the total quantity to consider for SO
+	 * @return the sum of the quantity lowest SO values.
+	 *         {@link Double.#POSITIVE_INFINITY} if not enough SO are available
+	 */
+	public double getSO(int itemID, long qtty) {
+		long remaining = qtty;
+		List<MarketOrderEntry> cached = getSOs(itemID);
+		double ret = 0;
+		for (MarketOrderEntry mo : cached) {
+			long vol = Math.min(mo.volume, remaining);
+			ret += mo.price * vol;
+			remaining -= vol;
+			if (remaining == 0) {
+				logger.trace("SO for " + qtty + " of " + itemID + " is " + ret);
+				return ret;
+			}
+		}
+		logger.debug("missing " + remaining + " SO of id " + itemID + " out of " + qtty);
+		// if there was not enough quantity to feed the request, we set the price to
+		// infinite. we CANT buy that many items
+		return Double.POSITIVE_INFINITY;
 	}
 
 	protected static class MarketOrder {
@@ -327,18 +327,27 @@ public class ESIMarket {
 
 	private ObjectReader marketOrderArrReader = mapper.readerFor(MarketOrder[].class);
 
-	protected MarketOrderEntry[] loadOrders(int itemID, boolean buy) {
+	protected MarketOrderEntry[] fetchOrders(int itemID, boolean buy) {
 		String url = ordersURL + "type_id=" + itemID + "&order_type=" + (buy ? "buy" : "sell");
-		try {
-			MarketOrder[] orders = marketOrderArrReader.readValue(new URL(url));
-			MarketOrderEntry[] arr = Stream.of(orders).map(mo -> new MarketOrderEntry(mo.volume_remain, mo.price))
-					.toArray(MarketOrderEntry[]::new);
-			Arrays.sort(arr, buy ? (mo1, mo2) -> (int) Math.signum(mo2.price - mo1.price)
-					: (mo1, mo2) -> (int) Math.signum(mo1.price - mo2.price));
-			return arr;
-		} catch (IOException e) {
-			return new MarketOrderEntry[] {};
+		MarketOrderEntry[] arr = null;
+		IOException error = null;
+		int retries = 10;
+		for (int trynb = 0; trynb <= retries && arr == null; trynb++) {
+			try {
+				MarketOrder[] orders = marketOrderArrReader.readValue(new URL(url));
+				arr = Stream.of(orders).map(mo -> new MarketOrderEntry(mo.volume_remain, mo.price))
+						.toArray(MarketOrderEntry[]::new);
+				Arrays.sort(arr, buy ? (mo1, mo2) -> (int) Math.signum(mo2.price - mo1.price)
+						: (mo1, mo2) -> (int) Math.signum(mo1.price - mo2.price));
+			} catch (IOException e) {
+				error=e;
+				Thread.yield();
+			}
 		}
+		if (arr == null && error != null) {
+			logger.debug("while fetching " + url, error);
+		}
+		return arr == null ? new MarketOrderEntry[] {} : arr;
 	}
 
 	public static class MarketPrice {

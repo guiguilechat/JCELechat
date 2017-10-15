@@ -51,13 +51,16 @@ public class LPCorpEvaluator {
 
 	}
 
-	// adjust BO by removing this taxe
-	double markettax = 0.04;
+	// adjust sales by removing this taxe
+	double markettax = 0.01;
 
 	// only keep orders with isk/lp >= this value.
-	double minISKLPRatio = 600;
+	double minISKLPRatio = 0;
 
-	int amountLP = 1000000;
+	// adjust placement of BO or SO by removing this tax
+	double brokertax = 0.02;
+
+	int amountLP = 5000000;
 
 
 	public final EveDatabase db;
@@ -82,11 +85,7 @@ public class LPCorpEvaluator {
 
 	public ArrayList<LPOffer> listCorpOffers(String corpName) {
 		ArrayList<LPOffer> lpos = new ArrayList<>(db.getLPOffers());
-		// logger.debug(lpos.stream().map(o ->
-		// o.offer_name).collect(Collectors.toList()).toString());
 		lpos.removeIf(offer -> !corpName.equals(offer.corporation) || offer.requirements.lp == 0);
-		// logger.debug(lpos.stream().map(o ->
-		// o.offer_name).collect(Collectors.toList()).toString());
 		return lpos;
 	}
 
@@ -177,13 +176,13 @@ public class LPCorpEvaluator {
 		ret.offerCorp = o.corporation;
 		int mult = (int) Math.ceil(1.0 * amountLP / o.requirements.lp);
 
-		double prodBO = market.getBO(o.product.type_id, o.product.quantity * mult) * (1 - markettax);
-		double prodSO = market.getSO(o.product.type_id, o.product.quantity * mult) * (1 - markettax);
-		double prodAVG = market.priceAverage(o.product.type_id) * o.product.quantity * mult * (1 - markettax);
+		double prodBO = market.getBO(o.product.type_id, o.product.quantity * mult) * (1.0 - markettax);
+		double prodSO = market.getSO(o.product.type_id, 1) * (o.product.quantity * mult) * (1.0 - markettax - brokertax);
+		double prodAVG = market.priceAverage(o.product.type_id) * o.product.quantity * mult * (1.0 - markettax);
 		// if the BO-cost / lp is too low, it wont get bigger when taking SO into
 		// account.
 		if ((prodBO - o.requirements.isk * mult) / o.requirements.lp / mult < minimumIskPerLP) {
-			logger.debug(
+			logger.trace(
 					"offer " + o.corporation + " - " + o.offer_name + "[*" + mult + "] " + " does not produce enough isk. out="
 							+ prodBO / mult + ", in.isk=" + o.requirements.isk + " LP=" + o.requirements.lp);
 			return null;
@@ -193,7 +192,8 @@ public class LPCorpEvaluator {
 		double reqAVG = o.requirements.isk * mult;
 		reqSO += o.requirements.items.parallelStream().mapToDouble(rq -> market.getSO(rq.type_id, rq.quantity * mult))
 				.sum();
-		reqBO += o.requirements.items.parallelStream().mapToDouble(rq -> market.getBO(rq.type_id, rq.quantity * mult))
+		reqBO += o.requirements.items.parallelStream()
+				.mapToDouble(rq -> market.getBO(rq.type_id, 1) * rq.quantity * mult * (1.0 - brokertax))
 				.sum();
 		reqAVG += o.requirements.items.parallelStream()
 				.mapToDouble(rq -> market.priceAverage(rq.type_id) * rq.quantity * mult).sum();
@@ -262,7 +262,7 @@ public class LPCorpEvaluator {
 					logger.debug("evaluating offers for corp " + corpName);
 					ret.addAll(analyseOffers(market, corpName, minISKLPRatio));
 					for (OfferAnalysis r : ret) {
-						logger.debug(" " + r.offer.offer_name + " : " + r.iskPerLPSOBO);
+						logger.trace(" " + r.offer.offer_name + " : " + r.iskPerLPSOBO);
 					}
 					if (ret.isEmpty()) {
 						ret.add(null);
