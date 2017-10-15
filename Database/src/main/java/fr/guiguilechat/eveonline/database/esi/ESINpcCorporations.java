@@ -8,10 +8,15 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.IntStream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
 
 public class ESINpcCorporations {
+
+	private static final Logger logger = LoggerFactory.getLogger(ESINpcCorporations.class);
 
 	public static class Corporation {
 		public int ceo_id;
@@ -32,13 +37,22 @@ public class ESINpcCorporations {
 
 	int[] ids = null;
 
+	/**
+	 *
+	 * @return the ids of npc corporations
+	 */
 	public int[] getIDs() {
 		if (ids == null) {
-			try {
-				ids = intArrReader.readValue(new URL(CORPORATIONS_LIST_URL));
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+			IOException error = null;
+			for (int retry = 0; retry < 10 && ids == null; retry++) {
+				try {
+					ids = intArrReader.readValue(new URL(CORPORATIONS_LIST_URL));
+				} catch (IOException e) {
+					error = e;
+				}
+			}
+			if (error != null) {
+				logger.debug("while loading npc corps",error);
 			}
 		}
 		return ids;
@@ -87,12 +101,17 @@ public class ESINpcCorporations {
 	private final ObjectReader corpReader = om.readerFor(Corporation.class);
 
 	protected Corporation loadCorporation(int id) {
+		IOException error = null;
 		Corporation ret = null;
-		try {
-			ret = corpReader.readValue(new URL(CORPORATIONS_DETAIL_URL + id));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		for (int retry = 0; retry < 10 && ret == null; retry++) {
+			try {
+				ret = corpReader.readValue(new URL(CORPORATIONS_DETAIL_URL + id));
+			} catch (IOException e) {
+				error = e;
+			}
+		}
+		if (error != null) {
+			logger.debug("while loading corp "+id, error);
 		}
 		return ret;
 	}

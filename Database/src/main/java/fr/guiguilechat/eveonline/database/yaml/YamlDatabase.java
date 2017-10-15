@@ -116,7 +116,7 @@ public class YamlDatabase extends EveDatabase {
 	protected LinkedHashMap<String, Hull> hulls = null;
 
 	@Override
-	public LinkedHashMap<String, Hull> getHulls() {
+	public synchronized LinkedHashMap<String, Hull> getHulls() {
 		if (hulls == null) {
 			InputStream hullsStream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_HULLS_RES);
 			DatabaseFile hullDB = hullsStream != null ? load(hullsStream) : null;
@@ -133,7 +133,7 @@ public class YamlDatabase extends EveDatabase {
 	protected LinkedHashMap<String, Module> modules = null;
 
 	@Override
-	public LinkedHashMap<String, Module> getModules() {
+	public synchronized LinkedHashMap<String, Module> getModules() {
 		if (modules == null) {
 			InputStream modulesStream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_MODULES_RES);
 			DatabaseFile moduleDB = modulesStream != null ? load(modulesStream) : null;
@@ -150,7 +150,7 @@ public class YamlDatabase extends EveDatabase {
 	protected LinkedHashMap<String, Asteroid> asteroids = null;
 
 	@Override
-	public LinkedHashMap<String, Asteroid> getAsteroids() {
+	public synchronized LinkedHashMap<String, Asteroid> getAsteroids() {
 		if (asteroids == null) {
 			InputStream asteroidsStream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_ASTEROIDS_RES);
 			DatabaseFile asteroidsDB = asteroidsStream != null ? load(asteroidsStream) : null;
@@ -167,7 +167,7 @@ public class YamlDatabase extends EveDatabase {
 	protected LinkedHashMap<String, Blueprint> blueprints = null;
 
 	@Override
-	public LinkedHashMap<String, Blueprint> getBlueprints() {
+	public synchronized LinkedHashMap<String, Blueprint> getBlueprints() {
 		if (blueprints == null) {
 			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_BLUEPRINT_RES);
 			DatabaseFile db = stream != null ? load(stream) : null;
@@ -184,7 +184,7 @@ public class YamlDatabase extends EveDatabase {
 	protected LinkedHashMap<String, MetaInf> eveIDs = null;
 
 	@Override
-	public LinkedHashMap<String, MetaInf> getMetaInfs() {
+	public synchronized LinkedHashMap<String, MetaInf> getMetaInfs() {
 		if (eveIDs == null) {
 			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_METAINF_RES);
 			DatabaseFile db = stream != null ? load(stream) : null;
@@ -257,7 +257,7 @@ public class YamlDatabase extends EveDatabase {
 		return lpoffers;
 	}
 
-	public LinkedHashMap<String, Agent> agents = null;
+	protected LinkedHashMap<String, Agent> agents = null;
 
 	@Override
 	public synchronized LinkedHashMap<String, Agent> getAgents() {

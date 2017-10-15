@@ -96,6 +96,9 @@ public class SDEDumper {
 	public static final File DB_STATIONS_FILE = new File("src/main/resources", DB_STATIONS_RES);
 
 	public static void main(String[] args) throws IOException {
+
+		int parallelism = Runtime.getRuntime().availableProcessors() * 10;
+		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parallelism);
 		DatabaseFile db = loadDb();
 
 		logger.debug("db loaded, writting it");
@@ -373,24 +376,24 @@ public class SDEDumper {
 		hull.attributes.rigCalibration = getelemInt(attributes, "upgradeCapacity", 0);
 		int rigSize = getelemInt(attributes, "rigSize", 0);
 		switch (rigSize) {
-		case 0:
-			// no rig
-			break;
-		case 1:
-			hull.attributes.rigSize = "small";
-			break;
-		case 2:
-			hull.attributes.rigSize = "medium";
-			break;
-		case 3:
-			hull.attributes.rigSize = "large";
-			break;
-		case 4:
-			hull.attributes.rigSize = "capital";
-			break;
-		default:
-			System.err.println("no rig size for " + rigSize);
-			hull.attributes.rigSize = "unknown";
+			case 0:
+				// no rig
+				break;
+			case 1:
+				hull.attributes.rigSize = "small";
+				break;
+			case 2:
+				hull.attributes.rigSize = "medium";
+				break;
+			case 3:
+				hull.attributes.rigSize = "large";
+				break;
+			case 4:
+				hull.attributes.rigSize = "capital";
+				break;
+			default:
+				System.err.println("no rig size for " + rigSize);
+				hull.attributes.rigSize = "unknown";
 		}
 
 		hull.attributes.droneCapa = getelemInt(attributes, "droneCapacity", 0);
@@ -635,26 +638,26 @@ public class SDEDumper {
 		// check every location has its correct parent constellation/region.
 		for (Location loc : db.locations.values()) {
 			switch (loc.getLocationType()) {
-			case 3:
-				if (loc.parentConstellation == null || loc.parentRegion == null) {
-					System.err.println("error with system " + loc.name + " in constel " + loc.parentConstellation + " region "
-							+ loc.parentRegion);
-				}
-				break;
-			case 2:
-				if (loc.parentRegion == null || loc.parentConstellation != null) {
-					System.err.println("error with constelation " + loc.name + " in constel " + loc.parentConstellation
-							+ " region " + loc.parentRegion);
-				}
-				break;
-			case 1:
-				if (loc.parentRegion != null || loc.parentConstellation != null) {
-					System.err.println("error with region " + loc.name + " in constel " + loc.parentConstellation + " region "
-							+ loc.parentRegion);
-				}
-				break;
-			default:
-				System.err.println("error, unknown locaiton type " + loc.getLocationType());
+				case 3:
+					if (loc.parentConstellation == null || loc.parentRegion == null) {
+						System.err.println("error with system " + loc.name + " in constel " + loc.parentConstellation + " region "
+								+ loc.parentRegion);
+					}
+					break;
+				case 2:
+					if (loc.parentRegion == null || loc.parentConstellation != null) {
+						System.err.println("error with constelation " + loc.name + " in constel " + loc.parentConstellation
+								+ " region " + loc.parentRegion);
+					}
+					break;
+				case 1:
+					if (loc.parentRegion != null || loc.parentConstellation != null) {
+						System.err.println("error with region " + loc.name + " in constel " + loc.parentConstellation + " region "
+								+ loc.parentRegion);
+					}
+					break;
+				default:
+					System.err.println("error, unknown locaiton type " + loc.getLocationType());
 			}
 		}
 

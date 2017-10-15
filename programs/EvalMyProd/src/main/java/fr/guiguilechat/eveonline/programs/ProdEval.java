@@ -3,15 +3,19 @@ package fr.guiguilechat.eveonline.programs;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map.Entry;
 import java.util.function.Predicate;
 import java.util.function.ToDoubleFunction;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import fr.guiguilechat.eveonline.database.EveDatabase;
 import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
 import fr.guiguilechat.eveonline.database.apiv2.Char.BPEntry;
@@ -29,6 +33,8 @@ import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
  * item produced prices.
  */
 public class ProdEval {
+
+	private static final Logger logger = LoggerFactory.getLogger(ProdEval.class);
 
 	public static class BPEval {
 		public String name;
@@ -64,9 +70,9 @@ public class ProdEval {
 
 	public ToDoubleFunction<BPEval> bpValue = bp -> bp.gain;
 
-	public ArrayList<BPEval> evaluateBPs() {
-		ArrayList<BPEval> evaluations = new ArrayList<>();
+	public List<BPEval> evaluateBPs() {
 		YamlDatabase db = new YamlDatabase();
+		LinkedHashMap<String, MetaInf> metainfs = db.getMetaInfs();
 		Location hubR = db.getLocation(hub);
 		if (hubR != null) {
 			if (hubR.parentRegion != null) {
@@ -74,97 +80,101 @@ public class ProdEval {
 			}
 		}
 		ESIMarket market = new ESIMarket(hubR.locationID);
-		for (String[] api : apis) {
-			APIRoot r = new APIRoot(Integer.parseInt(api[0]), api[1]);
-			// first pass we copy the bpcs to get the required and produced amount of
-			// materials
-			for (Character chara : r.account.characters()) {
-				if (!acceptName(chara.name)) {
-					continue;
-				}
-				HashMap<String, Integer> skills = r.chars.skillsByName(chara.characterID);
-				HashSet<String> missingSkills = new HashSet<>();
-				for (BPEntry bp : r.chars.blueprints(chara.characterID)) {
-					// blueprint unknown ??
-					Blueprint bpt = db.getBlueprints().get(bp.typeName);
-					if (bpt == null) {
-						if (debug) {
-							System.err.println("null bp for " + bp.typeName);
-						}
-						continue;
-					}
-					MetaInf outMeta = db.getMetaInfs().get(bpt.manufacturing.products.get(0).name);
-					// out type unknown? (not in database yet)
-					Type outType = outMeta != null ? db.getTypeById(outMeta.id) : null;
-					if (outMeta == null) {
-						if (debug) {
-							System.err.println("item type " + bpt.manufacturing.products.get(0).name + " unknown");
-						}
-						continue;
-					}
-					// is there a skill required by this bp we don't have ?
-					if (!skipSkills && bpt.manufacturing.skills.stream().filter(sk -> skills.getOrDefault(sk.name, 0) < sk.level)
-							.findAny().isPresent()) {
-						if (debug && missingSkills.add(bpt.name)) {
-							System.err.println("missing skills for " + bpt.name);
-						}
-						continue;
-					} // skip bpo ?
-					if (bpo != bpc && !bpo && bp.runs <= 0) {
-						continue;
-					}
-					// skip bpc ?
-					if (bpo != bpc && !bpc && bp.runs > 0) {
-						continue;
-					}
-					// does it match the filters ?
-					if (!acceptBP(outType)) {
-						continue;
-					}
-					BPEval eval = new BPEval();
-					eval.name = bp.typeName;
-					for (Material required : bpt.manufacturing.materials) {
-						int modifiedQtty = required.quantity == 1 ? required.quantity * Math.max(1, bp.runs)
-								: (int) Math.ceil(Math.max(1, bp.runs) * 0.01 * (100 - bp.materialEfficiency) * required.quantity);
-						if (modifiedQtty < 1) {
-							System.err.println("error on bp " + bpt.name + " material " + required.name + " quantity "
-									+ required.quantity + " becomes " + modifiedQtty);
-						}
-						eval.required.put(required.name, modifiedQtty);
-					}
-					for (Material mout : bpt.manufacturing.products) {
-						eval.outName = mout.name;
-						eval.outNb = mout.quantity * Math.max(1, bp.runs);
-						eval.output = db.getMetaInfs().get(mout.name);
-					}
-					evaluations.add(eval);
-				}
-			}
-		}
-		// then we cache the materials
-		int[] itemIDs = evaluations.stream()
-				.flatMap(eval -> Stream.concat(Stream.of(eval.outName), eval.required.keySet().stream())).distinct()
-				.mapToInt(s -> db.getMetaInfs().get(s).id).toArray();
-		market.cacheBOs(itemIDs);
-		market.cacheSOs(itemIDs);
+		Stream<Character> characters = apis.parallelStream().map(s_arr -> new APIRoot(Integer.parseInt(s_arr[0]), s_arr[1]))
+				.flatMap(api -> api.account.characters().parallelStream()).filter(c -> acceptName(c.name));
+		// first pass we copy the bpcs to get the required and produced amount of
+		// materials
+		List<BPEval> evaluations = characters.flatMap(chara -> evalCharacter(chara, db)).collect(Collectors.toList());
 		// then we retrieve sell / buy value of items and compute the gain value of
 		// each bpc
-		for (BPEval eval : evaluations) {
-			for (Entry<String, Integer> e : eval.required.entrySet()) {
-				int id = db.getMetaInfs().get(e.getKey()).id;
-				eval.inValue += (intputSO ? market.getSO(id, e.getValue()) : market.getBO(id, e.getValue()))
-						* (1.0 + intTax / 100);
-			}
-			eval.outValue += (outputSO ? market.getSO(eval.output.id, eval.outNb) : market.getBO(eval.output.id, eval.outNb))
+		evaluations.parallelStream().forEach(eval -> {
+			eval.inValue = eval.required.entrySet().parallelStream()
+					.mapToDouble(e -> (intputSO ? market.getSO(metainfs.get(e.getKey()).id, e.getValue())
+							: market.getBO(metainfs.get(e.getKey()).id, e.getValue())) * (1.0 + intTax / 100))
+					.sum();
+			eval.outValue = (outputSO ? market.getSO(eval.output.id, eval.outNb) : market.getBO(eval.output.id, eval.outNb))
 					* (1.0 - outTax / 100);
 			eval.inValue += db.ESIBasePrices().getAdjusted(eval.output.id) * eval.outNb * prodTax / 100;
 			eval.gain = eval.outValue - eval.inValue;
 			eval.mult = eval.outValue / eval.inValue;
-		}
+		});
 		evaluations.removeIf(bpce -> bpce.gain < mingain || bpce.mult < minmult);
 		ToDoubleFunction<BPEval> eval = bpValue;
 		Collections.sort(evaluations, (e1, e2) -> (int) Math.signum(eval.applyAsDouble(e2) - eval.applyAsDouble(e1)));
 		return evaluations;
+	}
+
+	protected Stream<BPEval> evalCharacter(Character chara, EveDatabase db) {
+		HashMap<String, Integer> skills = chara.skillsByName();
+		return chara.blueprints().parallelStream().map(bp -> evalBP(bp, db, skills))
+				.filter(bpe -> bpe != null);
+	}
+
+	/**
+	 * make the eval of a bpentry.
+	 * 
+	 * @param bp
+	 * @param db
+	 * @param skills
+	 * @return
+	 */
+	protected BPEval evalBP(BPEntry bp, EveDatabase db, HashMap<String, Integer> skills) {
+		LinkedHashMap<String, MetaInf> metainfs = db.getMetaInfs();
+		LinkedHashMap<String, Blueprint> bps = db.getBlueprints();
+
+		// blueprint unknown ??
+		Blueprint bpt = bps.get(bp.typeName);
+		if (bpt == null) {
+			if (debug) {
+				logger.debug("null bp for " + bp.typeName);
+			}
+			return null;
+		}
+		MetaInf outMeta = metainfs.get(bpt.manufacturing.products.get(0).name);
+		// out type unknown? (not in database yet)
+		Type outType = outMeta != null ? db.getTypeById(outMeta.id) : null;
+		if (outMeta == null) {
+			if (debug) {
+				logger.debug("item type " + bpt.manufacturing.products.get(0).name + " unknown");
+			}
+			return null;
+		}
+		// is there a skill required by this bp we don't have ?
+		if (!skipSkills && bpt.manufacturing.skills.stream().filter(sk -> skills.getOrDefault(sk.name, 0) < sk.level)
+				.findAny().isPresent()) {
+			if (debug) {
+				logger.debug("missing skills for " + bpt.name);
+			}
+			return null;
+		} // skip bpo ?
+		if (bpo != bpc && !bpo && bp.runs <= 0) {
+			return null;
+		}
+		// skip bpc ?
+		if (bpo != bpc && !bpc && bp.runs > 0) {
+			return null;
+		}
+		// does it match the filters ?
+		if (!acceptBP(outType)) {
+			return null;
+		}
+		BPEval eval = new BPEval();
+		eval.name = bp.typeName;
+		for (Material required : bpt.manufacturing.materials) {
+			int modifiedQtty = required.quantity == 1 ? required.quantity * Math.max(1, bp.runs)
+					: (int) Math.ceil(Math.max(1, bp.runs) * 0.01 * (100 - bp.materialEfficiency) * required.quantity);
+			if (modifiedQtty < 1) {
+				System.err.println("error on bp " + bpt.name + " material " + required.name + " quantity " + required.quantity
+						+ " becomes " + modifiedQtty);
+			}
+			eval.required.put(required.name, modifiedQtty);
+		}
+		for (Material mout : bpt.manufacturing.products) {
+			eval.outName = mout.name;
+			eval.outNb = mout.quantity * Math.max(1, bp.runs);
+			eval.output = metainfs.get(mout.name);
+		}
+		return eval;
 	}
 
 	/**
@@ -173,7 +183,7 @@ public class ProdEval {
 	 * @param bp
 	 * @return
 	 */
-	public boolean acceptBP(Type item) {
+	protected boolean acceptBP(Type item) {
 		if (item == null) {
 			return acceptList.isEmpty() && skipList.isEmpty();
 		}
@@ -185,7 +195,7 @@ public class ProdEval {
 		nameFilter = Stream.of(names).map(s -> Pattern.compile(".*" + s.toLowerCase() + ".*")).toArray(Pattern[]::new);
 	}
 
-	public boolean acceptName(String name) {
+	protected boolean acceptName(String name) {
 		if (nameFilter == null || nameFilter.length == 0) {
 			return true;
 		}
@@ -205,7 +215,7 @@ public class ProdEval {
 	public static final Predicate<Type> isStoryline = t -> t != null && t.isStoryline();
 	public static final Predicate<Type> isFaction = t -> t != null && t.isFaction();
 
-	public static final HashMap<String, Predicate<Type>> filters = new HashMap<>();
+	private static final HashMap<String, Predicate<Type>> filters = new HashMap<>();
 	static {
 		filters.put("ship", isShip);
 		filters.put("mod", isModule);
@@ -220,6 +230,7 @@ public class ProdEval {
 		ProdEval eval = new ProdEval();
 		boolean help = false;
 		boolean showmat = false;
+		int parallelism = Runtime.getRuntime().availableProcessors() * 10;
 
 		for (String arg : args) {
 			if (arg.startsWith("api=")) {
@@ -257,50 +268,50 @@ public class ProdEval {
 				}
 			} else {
 				switch (arg.toLowerCase()) {
-				case "bpo":
-					eval.bpo = true;
-					break;
-				case "bpc":
-					eval.bpc = true;
-					break;
-				case "all5":
-					eval.skipSkills = true;
-					break;
-				case "boso":
-					eval.intputSO = false;
-					eval.outputSO = true;
-					break;
-				case "bobo":
-					eval.intputSO = false;
-					eval.outputSO = false;
-					break;
-				case "soso":
-					eval.intputSO = true;
-					eval.outputSO = true;
-					break;
-				case "sobo":
-					eval.intputSO = true;
-					eval.outputSO = false;
-					break;
-				case "gain":
-					eval.bpValue = bp -> bp.gain;
-					break;
-				case "mult":
-					eval.bpValue = bp -> bp.mult;
-					break;
-				case "matlist":
-					showmat = true;
-					break;
-				case "debug":
-					eval.debug = true;
-					break;
-				case "help":
-				case "-help":
-				case "--help":
-					help = true;
-					break;
-				default:
-					System.out.println("key and code already set, can't use param " + arg);
+					case "bpo":
+						eval.bpo = true;
+						break;
+					case "bpc":
+						eval.bpc = true;
+						break;
+					case "all5":
+						eval.skipSkills = true;
+						break;
+					case "boso":
+						eval.intputSO = false;
+						eval.outputSO = true;
+						break;
+					case "bobo":
+						eval.intputSO = false;
+						eval.outputSO = false;
+						break;
+					case "soso":
+						eval.intputSO = true;
+						eval.outputSO = true;
+						break;
+					case "sobo":
+						eval.intputSO = true;
+						eval.outputSO = false;
+						break;
+					case "gain":
+						eval.bpValue = bp -> bp.gain;
+						break;
+					case "mult":
+						eval.bpValue = bp -> bp.mult;
+						break;
+					case "matlist":
+						showmat = true;
+						break;
+					case "debug":
+						eval.debug = true;
+						break;
+					case "help":
+					case "-help":
+					case "--help":
+						help = true;
+						break;
+					default:
+						System.out.println("key and code already set, can't use param " + arg);
 				}
 			}
 		}
@@ -328,7 +339,9 @@ public class ProdEval {
 							+ " help|-help|--help print this help and exit");
 			System.exit(1);
 		}
+		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parallelism);
 		HashMap<String, Long> toBuy = new HashMap<>();
+
 		for (BPEval e : eval.evaluateBPs()) {
 			System.out.println(
 					"" + e.name + (e.outNb == 1 ? "" : "*" + e.outNb) + " : " + formatPrice(eval.bpValue.applyAsDouble(e)));
