@@ -1,6 +1,7 @@
 package fr.guiguilechat.eveonline.programms.lootstats;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
@@ -28,84 +29,93 @@ import org.jfree.data.time.RegularTimePeriod;
 import org.jfree.data.time.TimeSeries;
 import org.jfree.data.time.TimeSeriesCollection;
 import org.jfree.data.time.Week;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.database.EveCentral;
+import fr.guiguilechat.eveonline.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.database.yaml.Type;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 
 public class MakeStats {
 
-	public static void main(String[] args) throws IOException {
+	private static final Logger logger = LoggerFactory.getLogger(MakeStats.class);
+
+	public static void main(String[] args) {
 		YamlDatabase db = new YamlDatabase();
 		LootParser bp = new LootParser(new YamlDatabase());
-		EveCentral central = new EveCentral();
+		ESIMarket em = new ESIMarket(db.getLocation("TheForge").locationID);
 		File srcDir = new File("src/main/resources");
 		srcDir.mkdirs();
-		for (String dirname : args) {
-			File dir = new File(dirname);
-			File outDir = new File(srcDir, dir.getName());
-			outDir.mkdirs();
-			PrintStream ps = new PrintStream(new File(outDir, "result.txt"));
-			ArrayList<LootEntry> list = bp.loadDirectory(dir);
+		int parrallelism = Runtime.getRuntime().availableProcessors() * 10;
+		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
 
-			int[] allItemsIds = list.stream().flatMapToInt(e -> e.loots.keySet().stream().mapToInt(i -> i)).distinct()
-					.toArray();
-			central.cache(allItemsIds);
-			HashSet<Integer> allFactionItems = new HashSet<>();
-			ps.println("factionloot:");
-			for (int i : allItemsIds) {
-				Type t = db.getTypeById(i);
-				if (t != null) {
-					int metal = t.metaLvl;
-					if (metal > 4) {
-						ps.println("  " + t.name + " : "
-								+ list.stream().mapToInt(le -> le.loots.getOrDefault(i, 0)).sum());
-						allFactionItems.add(i);
+		Stream.of(args).parallel().forEach(dirname -> {
+			try {
+				File dir = new File(dirname);
+				File outDir = new File(srcDir, dir.getName());
+				outDir.mkdirs();
+				PrintStream ps;
+				ps = new PrintStream(new File(outDir, "result.txt"));
+				ArrayList<LootEntry> list = bp.loadDirectory(dir);
+
+				int[] allItemsIds = list.stream().flatMapToInt(e -> e.loots.keySet().stream().mapToInt(i -> i)).distinct()
+						.toArray();
+				HashSet<Integer> allFactionItems = new HashSet<>();
+				ps.println("factionloot:");
+				for (int i : allItemsIds) {
+					Type t = db.getTypeById(i);
+					if (t != null) {
+						int metal = t.metaLvl;
+						if (metal > 4) {
+							ps.println("  " + t.name + " : " + list.stream().mapToInt(le -> le.loots.getOrDefault(i, 0)).sum());
+							allFactionItems.add(i);
+						}
 					}
 				}
-			}
-			IntToDoubleFunction cost = central::getBO;
-			LinkedHashMap<String, Double> catValue = new LinkedHashMap<>();
-			LinkedHashMap<String, Integer> catNumber = new LinkedHashMap<>();
+				IntToDoubleFunction cost = i -> em.getBO(i, 1);
+				LinkedHashMap<String, Double> catValue = new LinkedHashMap<>();
+				LinkedHashMap<String, Integer> catNumber = new LinkedHashMap<>();
 
-			HashMap<String, Double> catToAvgBO = translateLootsToCat(list.stream(), cost, catValue, catNumber, false);
-			ArrayList<Entry<String, Double>> sorted = new ArrayList<>(catToAvgBO.entrySet());
-			Collections.sort(sorted, (e1, e2) -> catNumber.get(e2.getKey()) - catNumber.get(e1.getKey()));
-			ps.println("\ndrops:");
-			for (Entry<String, Double> e : sorted) {
-				ps.println("  " + e.getKey() + ": " + catNumber.get(e.getKey()));
-			}
+				HashMap<String, Double> catToAvgBO = translateLootsToCat(list.stream(), cost, catValue, catNumber, false);
+				ArrayList<Entry<String, Double>> sorted = new ArrayList<>(catToAvgBO.entrySet());
+				Collections.sort(sorted, (e1, e2) -> catNumber.get(e2.getKey()) - catNumber.get(e1.getKey()));
+				ps.println("\ndrops:");
+				for (Entry<String, Double> e : sorted) {
+					ps.println("  " + e.getKey() + ": " + catNumber.get(e.getKey()));
+				}
 
-			Collections.sort(sorted, (e1, e2) -> (int) Math.signum(e2.getValue() - e1.getValue()));
-			ps.println("\navgValueM:");
-			DecimalFormat df = new DecimalFormat("#.##");
-			for (Entry<String, Double> e : sorted) {
-				ps.println("  " + e.getKey() + ": " + df.format(e.getValue() / 1000000));
-			}
+				Collections.sort(sorted, (e1, e2) -> (int) Math.signum(e2.getValue() - e1.getValue()));
+				ps.println("\navgValueM:");
+				DecimalFormat df = new DecimalFormat("#.##");
+				for (Entry<String, Double> e : sorted) {
+					ps.println("  " + e.getKey() + ": " + df.format(e.getValue() / 1000000));
+				}
 
-			catValue.clear();
-			catNumber.clear();
-			cost = i -> allFactionItems.contains(i) ? 1 : 0;
-			catToAvgBO = translateLootsToCat(list.stream(), cost, catValue, catNumber, false);
-			sorted = new ArrayList<>(catToAvgBO.entrySet());
-			sorted.removeIf(e -> catNumber.get(e.getKey()) < 10);
-			Collections.sort(sorted, (e1, e2) -> (int) Math.signum(e2.getValue() - e1.getValue()));
-			ps.println("\nfactiondroppct:");
-			df = new DecimalFormat("#.#");
-			for (Entry<String, Double> e : sorted) {
-				ps.println("  " + e.getKey() + ": " + df.format(e.getValue() * 100));
-			}
+				catValue.clear();
+				catNumber.clear();
+				cost = i -> allFactionItems.contains(i) ? 1 : 0;
+				catToAvgBO = translateLootsToCat(list.stream(), cost, catValue, catNumber, false);
+				sorted = new ArrayList<>(catToAvgBO.entrySet());
+				sorted.removeIf(e -> catNumber.get(e.getKey()) < 10);
+				Collections.sort(sorted, (e1, e2) -> (int) Math.signum(e2.getValue() - e1.getValue()));
+				ps.println("\nfactiondroppct:");
+				df = new DecimalFormat("#.#");
+				for (Entry<String, Double> e : sorted) {
+					ps.println("  " + e.getKey() + ": " + df.format(e.getValue() * 100));
+				}
 
-			makeChart(outDir, list.stream(), central::getBO, le -> new String[] { "" + le.sec }, "ss value per week",
-					Week::new);
-			makeChart(outDir, list.stream(), central::getBO, le -> new String[] { "all", "" + le.type },
-					"type value per week", Week::new);
-			makeChart(outDir, list.stream(), central::getBO, le -> new String[] { "all", "" + le.type },
-					" type value per month", Month::new);
-			makeChart(outDir, list.stream(), central::getBO,
-					le -> new String[] { "all", le.type.substring(0, 1) + "-" + le.race.substring(0, 2) },
-					"type-race value per week", Week::new);
-		}
+				makeChart(outDir, list.stream(), cost, le -> new String[] { "" + le.sec }, "ss value per week", Week::new);
+				makeChart(outDir, list.stream(), cost, le -> new String[] { "all", "" + le.type }, "type value per week",
+						Week::new);
+				makeChart(outDir, list.stream(), cost, le -> new String[] { "all", "" + le.type }, "type value per month",
+						Month::new);
+				makeChart(outDir, list.stream(), cost,
+						le -> new String[] { "all", le.type.substring(0, 1) + "-" + le.race.substring(0, 2) },
+						"type-race value per week", Week::new);
+			} catch (FileNotFoundException e3) {
+				logger.warn("while analyzing directory " + dirname, e3);
+			}
+		});
 	}
 
 	public static HashMap<String, Double> translateLootsToCat(Stream<LootEntry> list, IntToDoubleFunction cost,

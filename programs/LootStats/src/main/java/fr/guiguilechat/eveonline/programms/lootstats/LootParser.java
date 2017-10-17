@@ -34,8 +34,8 @@ public class LootParser {
 		for (File lootFile : lootDir.listFiles()) {
 			try {
 				loadFile(lootFile, ret);
-			} catch (IOException | ParseException e) {
-				e.printStackTrace(System.err);
+			} catch (Exception e) {
+				logger.debug("while loading file " + lootFile, e);
 			}
 		}
 		return ret;
@@ -47,6 +47,7 @@ public class LootParser {
 
 	public void loadFile(File lootFile, ArrayList<LootEntry> list) throws IOException, ParseException {
 		boolean isFilenamePrinted = false;
+		// logger.debug("name is " + lootFile.getName());
 		Date date = df.parse(lootFile.getName().split("\\.")[0]);
 		// 0 = wait for new entry
 		// 1 = writing an entry
