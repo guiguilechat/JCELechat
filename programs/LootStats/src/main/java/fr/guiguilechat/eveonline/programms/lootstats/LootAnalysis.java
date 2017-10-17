@@ -7,7 +7,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.function.IntToDoubleFunction;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -15,8 +17,8 @@ import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.SafeConstructor;
 
-import fr.guiguilechat.eveonline.database.EveCentral;
 import fr.guiguilechat.eveonline.database.EveDatabase;
+import fr.guiguilechat.eveonline.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.database.yaml.Type;
 import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 
@@ -26,7 +28,6 @@ import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
  */
 public class LootAnalysis {
 
-	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(LootAnalysis.class);
 
 	/** number of drop entries in this analysis */
@@ -49,6 +50,8 @@ public class LootAnalysis {
 
 	public double bpcFreq = 0;
 
+	public String desc = null;
+
 	public static LootAnalysis analyse(Stream<LootEntry> entries, EveDatabase db, IntToDoubleFunction cost) {
 		LootAnalysis ret = new LootAnalysis();
 		HashMap<Integer, Integer> totalDrop = new HashMap<>();
@@ -62,9 +65,6 @@ public class LootAnalysis {
 				totalDrop.put(id, totalDrop.getOrDefault(id, 0) + nb);
 				Type t = db.getTypeById(id);
 				if (t != null) {
-					// System.err.println("got id " + id + " : " + t.name + " bp?" +
-					// t.isBlueprint() + " faction?" + t.isFaction()
-					// + " meta:" + t.metaLvl);
 					if (t.isBlueprint()) {
 						containsBP.add(null);
 						bps.add(t.name);
@@ -93,7 +93,8 @@ public class LootAnalysis {
 			ret.factionModFreq /= ret.entries;
 			ret.bpcFreq /= ret.entries;
 			ret.factionFreq /= ret.entries;
-			ret.avgBO = totalDrop.entrySet().stream().mapToDouble(e -> e.getValue() * cost.applyAsDouble(e.getKey())).sum()
+			ret.avgBO = totalDrop.entrySet().parallelStream().mapToDouble(e -> e.getValue() * cost.applyAsDouble(e.getKey()))
+					.sum()
 					/ ret.entries;
 			ret.bps.addAll(bps);
 			ret.factions.addAll(factions);
@@ -105,36 +106,42 @@ public class LootAnalysis {
 	public static void main(String[] args) throws IOException {
 		EveDatabase db = new YamlDatabase();
 		LootParser bp = new LootParser(db);
-		EveCentral central = db.central(0);
+		ESIMarket em = new ESIMarket(db.getLocation("TheForge").locationID);
 		File srcDir = new File("src/main/resources");
 		srcDir.mkdirs();
+		int parrallelism = Runtime.getRuntime().availableProcessors() * 10;
+		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
 
-		for (String dirname : args) {
+		Stream.of(args).forEach(dirname -> {
+			logger.debug("analyzing " + dirname);
 			File dir = new File(dirname);
 			File outDir = new File(srcDir, dir.getName());
 			outDir.mkdirs();
 			ArrayList<LootEntry> al = bp.loadDirectory(dir);
-			central.cache(al.stream().flatMapToInt(le -> le.loots.keySet().stream().mapToInt(i -> i)).toArray());
-			String[] types = al.stream().map(le -> le.type).toArray(String[]::new);
-			String[] races = al.stream().map(le -> le.race).toArray(String[]::new);
-			LinkedHashMap<String, LootAnalysis> grouped = new LinkedHashMap<>();
-			for (String type : types) {
-				for (String race : races) {
+			String[] types = al.stream().map(le -> le.type).distinct().toArray(String[]::new);
+			String[] races = al.stream().map(le -> le.race).distinct().toArray(String[]::new);
+			Map<String, LootAnalysis> grouped = Stream.of(types).parallel().flatMap(type -> {
+				return Stream.of(races).parallel().map(race -> {
 					LootAnalysis la = analyse(al.stream().filter(le -> type.equals(le.type) && race.equals(le.race)), db,
-							central::getBO);
+							i -> em.getBO(i, 1));
 					if (la != null) {
-						grouped.put(type + " " + race, la);
+						la.desc = type + " " + race;
 					}
-				}
-			}
+					return la;
+				});
+			}).filter(la -> la != null).collect(Collectors.toMap(la -> la.desc, la -> la));
 
 			LinkedHashMap<String, LootAnalysis> grouped2 = new LinkedHashMap<>();
 			grouped.entrySet().stream().sorted((e1, e2) -> (int) Math.signum(e2.getValue().avgBO - e1.getValue().avgBO))
 			.forEachOrdered(e -> grouped2.put(e.getKey(), e.getValue()));
 
-			makeYaml().dump(grouped2, new FileWriter(new File(outDir, "result.txt")));
+			try {
+				makeYaml().dump(grouped2, new FileWriter(new File(outDir, "result.txt")));
+			} catch (IOException e3) {
+				logger.warn("while writing analyzis of " + dirname, e3);
+			}
 
-		}
+		});
 	}
 
 	public static Yaml makeYaml() {
