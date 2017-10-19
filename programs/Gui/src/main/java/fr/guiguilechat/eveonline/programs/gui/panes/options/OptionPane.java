@@ -17,7 +17,7 @@ public class OptionPane extends VBox implements EvePane {
 	ListApiTableView listApi;
 	AddAPIPane addApi;
 	ListTeamPane listTeam;
-	AddTeamPane addTeam;
+	ModifTeamPane addTeam;
 	TeamSystemManager teamSystem;
 
 	Button switchDebug = new Button("toggle debug");
@@ -34,7 +34,7 @@ public class OptionPane extends VBox implements EvePane {
 		listApi = new ListApiTableView(parent);
 		addApi = new AddAPIPane(parent);
 		listTeam = new ListTeamPane(parent);
-		addTeam = new AddTeamPane(parent);
+		addTeam = new ModifTeamPane(parent);
 		teamSystem = new TeamSystemManager(parent);
 		children = new EvePane[] { listApi, addApi, listTeam, addTeam, teamSystem };
 		getChildren().addAll(listApi, addApi, listTeam, addTeam, teamSystem, switchDebug);

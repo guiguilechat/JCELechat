@@ -9,7 +9,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 
-public class AddTeamPane extends HBox implements EvePane {
+public class ModifTeamPane extends HBox implements EvePane {
 
 	protected Manager parent;
 
@@ -29,7 +29,7 @@ public class AddTeamPane extends HBox implements EvePane {
 	TextField renameTeamField = new TextField();
 	Button renameTeamBtn = new Button("rename");
 
-	public AddTeamPane(Manager parent) {
+	public ModifTeamPane(Manager parent) {
 		this.parent = parent;
 		addTeamField.setPromptText("name");
 		addTeamField.setMaxWidth(60);
@@ -71,7 +71,7 @@ public class AddTeamPane extends HBox implements EvePane {
 	public void copyTeam(Event e) {
 		String oldName = copyTeamBox.getValue();
 		String newName = copyTeamField.getText();
-		if (parent().renameTeam(oldName, newName)) {
+		if (parent().copyTeam(oldName, newName)) {
 			copyTeamField.setText("");
 		}
 

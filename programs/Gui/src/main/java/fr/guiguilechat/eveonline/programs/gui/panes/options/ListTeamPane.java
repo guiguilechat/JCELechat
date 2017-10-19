@@ -111,8 +111,10 @@ public class ListTeamPane extends TableView<CharacterTeams> implements EvePane {
 
 	@Override
 	public void onRenameTeam(String old, String now) {
-		team2col.put(now, team2col.get(old));
+		TableColumn<CharacterTeams, CharacterTeams> tc = team2col.get(old);
+		team2col.put(now, tc);
 		team2col.remove(old);
+		tc.setText(now);
 	}
 
 	@Override

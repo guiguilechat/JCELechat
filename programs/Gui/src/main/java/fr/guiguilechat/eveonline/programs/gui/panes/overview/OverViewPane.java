@@ -303,15 +303,17 @@ public class OverViewPane extends VBox implements EvePane {
 
 	@Override
 	public void onNewProvision(int itemID, int qtty) {
-		ProvisionPreparation pr = getProvision(itemID);
-		pr.required = qtty;
-		pr.ed.who = parent().settings.focusedTeam;
-		updateItemQuantity(parent().getFTeamItems().getOrDefault(itemID, 0l), pr);
+		if (showProvisions) {
+			ProvisionPreparation pr = getProvision(itemID);
+			pr.required = qtty;
+			pr.ed.who = parent().settings.focusedTeam;
+			updateItemQuantity(parent().getFTeamItems().getOrDefault(itemID, 0l), pr);
+		}
 	}
 
 	@Override
 	public void onTeamNewItems(String team, Map<Integer, Long> itemsDiff) {
-		if (team == null || !team.equals(parent.settings.focusedTeam)) {
+		if (!showProvisions || team == null || !team.equals(parent.settings.focusedTeam)) {
 			logger.debug("skipping items diff for team " + team);
 			return;
 		}

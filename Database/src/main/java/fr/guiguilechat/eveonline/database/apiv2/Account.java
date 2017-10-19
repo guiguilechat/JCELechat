@@ -59,6 +59,10 @@ public class Account {
 			return parent.chars.assetList(characterID);
 		}
 
+		public LinkedHashMap<Long, ArrayList<Content>> corpAssets() {
+			return parent.corp.assetList(characterID);
+		}
+
 		public ArrayList<BPEntry> blueprints() {
 			return parent.chars.blueprints(characterID);
 		}
