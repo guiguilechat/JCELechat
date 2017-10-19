@@ -53,8 +53,11 @@ public class Char {
 	}
 
 	public LinkedHashMap<Long, ArrayList<Content>> assetList(long charID) {
-		String url = BASEURL + "AssetList.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code
-				+ "&characterID=" + charID;
+		return url2assets(BASEURL + "AssetList.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code
+				+ "&characterID=" + charID);
+	}
+
+	static LinkedHashMap<Long, ArrayList<Content>> url2assets(String url) {
 		LinkedHashMap<Long, ArrayList<Content>> ret = new LinkedHashMap<>();
 		try {
 			Document page = Jsoup.connect(url).get();
@@ -77,6 +80,7 @@ public class Char {
 			return ret;
 		}
 		return ret;
+
 	}
 
 	protected static Content extractContent(Element ct) {
@@ -197,8 +201,11 @@ public class Char {
 	}
 
 	public ArrayList<JobEntry> industryJobs(long charID) {
-		String url = BASEURL + "IndustryJobs.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code
-				+ "&characterID=" + charID;
+		return url2industryJobs(BASEURL + "IndustryJobs.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code
+				+ "&characterID=" + charID);
+	}
+
+	static ArrayList<JobEntry> url2industryJobs(String url) {
 		ArrayList<JobEntry> ret = new ArrayList<>();
 		try {
 			Document page = Jsoup.connect(url).get();
@@ -212,7 +219,7 @@ public class Char {
 		return ret;
 	}
 
-	protected JobEntry extractJobEntry(Element el) {
+	protected static JobEntry extractJobEntry(Element el) {
 		return APIRoot.convertElement(el, JobEntry.class);
 	}
 

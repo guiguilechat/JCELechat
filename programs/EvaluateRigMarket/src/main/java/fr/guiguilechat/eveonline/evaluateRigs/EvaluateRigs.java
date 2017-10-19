@@ -4,7 +4,6 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import fr.guiguilechat.eveonline.database.EveCentral;
 import fr.guiguilechat.eveonline.database.EveDatabase;
 import fr.guiguilechat.eveonline.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.database.esi.ESIMarket.ItemMedianData;
@@ -88,14 +87,14 @@ public class EvaluateRigs {
 			}
 		}
 
-		EveCentral importCentral = db.central(importRegion);
+		ESIMarket importESI = db.ESIRegion(importRegion);
 		ESIMarket localESI = db.ESIRegion(sellRegion);
 
 		Module[] rigsT1 = db.getModules().values().stream().filter(m -> m.isRig() && m.metaLvl < 5)
 				.toArray(Module[]::new);
 		ArrayList<ProdData> datal = new ArrayList<>();
 		for (Module m : rigsT1) {
-			ProdData pd = makeCraftData(m, db, importCentral, localESI, taxMult, multME, systemCostIndex, manufactureTax,
+			ProdData pd = makeCraftData(m, db, importESI, localESI, taxMult, multME, systemCostIndex, manufactureTax,
 					courrierColTax, courrierVolPrice, nbPeriods, periodLength);
 			if (pd != null && pd.totalGain > 0) {
 				datal.add(pd);
@@ -114,12 +113,12 @@ public class EvaluateRigs {
 	 *          the module we want to build
 	 * @param db
 	 *          the database to get item cached in
-	 * @param importCentral
-	 *          eve central to get prices from which to import items by jf
+	 * @param importESI
+	 *          market to get prices from which to import items
 	 * @param localESI
 	 *          esi data to make statistical sell data from
 	 * @param taxMult
-	 *          the effect of taxes on the SO prices (1-taxes/100)
+	 *          the effect of taxes on the SO prices (so 1-taxes/100)
 	 * @param multME
 	 *          the actual ME effect (so 1-ME/100). should consider the
 	 *          rigs/structure bonuses as well
@@ -128,10 +127,10 @@ public class EvaluateRigs {
 	 * @param manufactureTax
 	 *          manufacture tax of the structure where we craft
 	 * @param importTax
-	 *          tax of the jf, related to multiplier to jita SO. should be
-	 *          (1+taxPct/100)
+	 *          tax of the jump freighter, related to multiplier to jita SO.
+	 *          should be (1+taxPct/100)
 	 * @param importVolPrice
-	 *          price of the jf for each m3 we need
+	 *          price of the jump freighter for each m3 we import
 	 * @param nbPeriods
 	 *          periods to consider for analysis of item sell price/quantity
 	 * @param periodLength
@@ -139,7 +138,7 @@ public class EvaluateRigs {
 	 *          price/quantity
 	 * @return
 	 */
-	public static ProdData makeCraftData(Module m, EveDatabase db, EveCentral importCentral,
+	public static ProdData makeCraftData(Module m, EveDatabase db, ESIMarket importESI,
 			ESIMarket localESI, double taxMult, double multME, double systemCostIndex, double manufactureTax,
 			double importTax,
 			double importVolPrice, int nbPeriods, int periodLength) {
@@ -171,10 +170,9 @@ public class EvaluateRigs {
 			matQtty[i] = mat.quantity >= 2 ? multME * mat.quantity : mat.quantity;
 			matVol[i] = mi2.volume;
 		}
-		importCentral.cache(matIDs);
 		double materialsImportCost = 0;
 		for (int i = 0; i < bp.manufacturing.materials.size(); i++) {
-			materialsImportCost += importTax * matQtty[i] * importCentral.getBO(matIDs[i])
+			materialsImportCost += importTax * importESI.getBO(matIDs[i], (long) Math.ceil(matQtty[i]))
 					+ matVol[i] * matQtty[i] * importVolPrice;
 		}
 		double prodTax = db.ESIBasePrices().getAdjusted(m.id) * systemCostIndex / 100 * (1.0 + manufactureTax / 100);
@@ -182,10 +180,8 @@ public class EvaluateRigs {
 		ItemMedianData pond = localESI.getPonderatedMedianMonthlyAverage(m.id, nbPeriods, periodLength);
 		long totalOrders = pond.qtty / periodLength;
 		double avgHistoryPrice = pond.average;
-		// double centralPrice = Math.max(localCentral.getSO(m.id),
-		// localCentral.getBO(m.id));
 		// price to import from jita
-		double importValue = importTax * importCentral.getSO(mi.id) + mi.volume * importVolPrice;
+		double importValue = importTax * importESI.getSO(mi.id, 1) + mi.volume * importVolPrice;
 		double sellValue = Math.min(avgHistoryPrice, importValue) * taxMult;
 
 		if (sellValue > materialsImportCost) {

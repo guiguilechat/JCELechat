@@ -40,6 +40,8 @@ public class APIRoot {
 
 	public final Char chars = new Char(this);
 
+	public final Corp corp = new Corp(this);
+
 	public static int getInt(Element el, String field, int defaultVal) {
 		return el.hasAttr(field) ? Integer.parseInt(el.attr(field)) : defaultVal;
 	}
