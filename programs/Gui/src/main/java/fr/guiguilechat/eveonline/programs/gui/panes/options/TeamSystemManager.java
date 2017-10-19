@@ -21,6 +21,7 @@ public class TeamSystemManager extends GridPane implements EvePane {
 
 	public TeamSystemManager(Manager parent) {
 		this.parent = parent;
+		setStyle("-fx-border-color: black");
 	}
 
 	protected class TeamElements {
@@ -34,8 +35,8 @@ public class TeamSystemManager extends GridPane implements EvePane {
 		public TeamElements(String name) {
 			this.name = name;
 			label = new Label(name);
-			remSystemBox.setOnAction(this::rem);
-			addSystemBox.setOnAction(this::add);
+			remSystemBtn.setOnAction(this::rem);
+			addSystemBtn.setOnAction(this::add);
 		}
 
 		public void rem(Event e) {
@@ -77,7 +78,10 @@ public class TeamSystemManager extends GridPane implements EvePane {
 	}
 
 	protected void addTeam(TeamElements team) {
-		addRow(0, team.label, team.addSystemBox, team.addSystemBtn, team.remSystemBox, team.remSystemBtn);
+		int highestrow = cachedTeamElements.values().stream().filter(t -> t != team).mapToInt(te -> getRowIndex(te.label))
+				.max().orElse(0);
+		addRow(highestrow + 1, team.label, team.addSystemBox, team.addSystemBtn, team.remSystemBox,
+				team.remSystemBtn);
 	}
 
 	@Override
@@ -113,8 +117,7 @@ public class TeamSystemManager extends GridPane implements EvePane {
 
 	@Override
 	public void onDel2Team(String team, String character) {
-		// TODO Auto-generated method stub
-		EvePane.super.onDel2Team(team, character);
+		updateContent();
 	}
 
 	@Override

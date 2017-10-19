@@ -21,6 +21,7 @@ public class ListApiTableView extends TableView<APIRoot> implements EvePane {
 
 	public ListApiTableView(Manager parent) {
 		this.parent = parent;
+		setStyle("-fx-border-color: black");
 
 		setItems(parent.apis);
 

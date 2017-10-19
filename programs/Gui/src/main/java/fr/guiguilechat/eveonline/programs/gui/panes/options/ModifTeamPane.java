@@ -31,6 +31,7 @@ public class ModifTeamPane extends HBox implements EvePane {
 
 	public ModifTeamPane(Manager parent) {
 		this.parent = parent;
+		setStyle("-fx-border-color: black");
 		addTeamField.setPromptText("name");
 		addTeamField.setMaxWidth(60);
 		addTeamButton.setOnAction(this::addTeam);

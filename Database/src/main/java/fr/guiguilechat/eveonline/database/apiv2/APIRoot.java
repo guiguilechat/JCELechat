@@ -8,8 +8,12 @@ import java.util.Date;
 import java.util.TimeZone;
 
 import org.jsoup.nodes.Element;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class APIRoot {
+
+	private static final Logger logger = LoggerFactory.getLogger(APIRoot.class);
 
 	public final APIKey key;
 
@@ -62,6 +66,7 @@ public class APIRoot {
 		try {
 			return el.hasAttr(field) ? sdf.parse(el.attr(field)) : defaultVal;
 		} catch (ParseException e) {
+			logger.debug("while getting date " + field + " : " + el.attributes());
 			System.err.println(e);
 			return defaultVal;
 		}

@@ -23,6 +23,7 @@ public class AddAPIPane extends HBox implements EvePane {
 
 	public AddAPIPane(Manager parent) {
 		this.parent = parent;
+		setStyle("-fx-border-color: black");
 		apiID.setPromptText("api key");
 		apiCode.setPromptText("api code");
 		getChildren().addAll(apiID, apiCode, send);

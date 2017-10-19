@@ -48,6 +48,7 @@ public class ListTeamPane extends TableView<CharacterTeams> implements EvePane {
 
 	public ListTeamPane(Manager parent) {
 		this.parent = parent;
+		setStyle("-fx-border-color: black");
 		setItems(charteams);
 		TableColumn<CharacterTeams, String> keyCol = new TableColumn<>("character");
 		keyCol.setCellValueFactory(ct -> new ReadOnlyObjectWrapper<>(ct.getValue().charName));
