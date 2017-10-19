@@ -2,7 +2,6 @@ package fr.guiguilechat.eveonline.database.apiv2;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
@@ -65,9 +64,8 @@ public class APIRoot {
 	public static Date getDate(Element el, String field, Date defaultVal) {
 		try {
 			return el.hasAttr(field) ? sdf.parse(el.attr(field)) : defaultVal;
-		} catch (ParseException e) {
-			logger.debug("while getting date " + field + " : " + el.attributes());
-			System.err.println(e);
+		} catch (Exception e) {
+			logger.error("while getting date " + field + " : " + el.attributes(), e);
 			return defaultVal;
 		}
 	}

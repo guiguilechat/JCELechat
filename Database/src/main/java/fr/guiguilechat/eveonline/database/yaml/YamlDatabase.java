@@ -14,6 +14,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.DumperOptions.FlowStyle;
 import org.yaml.snakeyaml.DumperOptions.ScalarStyle;
@@ -34,6 +36,8 @@ import fr.guiguilechat.eveonline.database.retrieval.sde.SDEDumper;
  * tools to get existing database
  */
 public class YamlDatabase extends EveDatabase {
+
+	private static final Logger logger = LoggerFactory.getLogger(YamlDatabase.class);
 
 	public static DatabaseFile load(InputStream stream) {
 		return makeYaml().loadAs(stream, DatabaseFile.class);
@@ -118,6 +122,7 @@ public class YamlDatabase extends EveDatabase {
 	@Override
 	public synchronized LinkedHashMap<String, Hull> getHulls() {
 		if (hulls == null) {
+			logger.debug("loading hulls");
 			InputStream hullsStream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_HULLS_RES);
 			DatabaseFile hullDB = hullsStream != null ? load(hullsStream) : null;
 			if (hullDB != null) {
@@ -135,6 +140,7 @@ public class YamlDatabase extends EveDatabase {
 	@Override
 	public synchronized LinkedHashMap<String, Module> getModules() {
 		if (modules == null) {
+			logger.debug("loading modules");
 			InputStream modulesStream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_MODULES_RES);
 			DatabaseFile moduleDB = modulesStream != null ? load(modulesStream) : null;
 			if (moduleDB != null) {
@@ -152,6 +158,7 @@ public class YamlDatabase extends EveDatabase {
 	@Override
 	public synchronized LinkedHashMap<String, Asteroid> getAsteroids() {
 		if (asteroids == null) {
+			logger.debug("loading asteroids");
 			InputStream asteroidsStream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_ASTEROIDS_RES);
 			DatabaseFile asteroidsDB = asteroidsStream != null ? load(asteroidsStream) : null;
 			if (asteroidsDB != null) {
@@ -169,6 +176,7 @@ public class YamlDatabase extends EveDatabase {
 	@Override
 	public synchronized LinkedHashMap<String, Blueprint> getBlueprints() {
 		if (blueprints == null) {
+			logger.debug("loading blueprints");
 			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_BLUEPRINT_RES);
 			DatabaseFile db = stream != null ? load(stream) : null;
 			if (db != null) {
@@ -181,21 +189,22 @@ public class YamlDatabase extends EveDatabase {
 		return blueprints;
 	}
 
-	protected LinkedHashMap<String, MetaInf> eveIDs = null;
+	protected LinkedHashMap<String, MetaInf> metainfs = null;
 
 	@Override
 	public synchronized LinkedHashMap<String, MetaInf> getMetaInfs() {
-		if (eveIDs == null) {
+		if (metainfs == null) {
+			logger.debug("loading metainfs");
 			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_METAINF_RES);
 			DatabaseFile db = stream != null ? load(stream) : null;
 			if (db != null) {
-				eveIDs = db.metaInfs;
+				metainfs = db.metaInfs;
 			} else {
 				System.err.println("can't load meta infs");
-				eveIDs = new LinkedHashMap<>();
+				metainfs = new LinkedHashMap<>();
 			}
 		}
-		return eveIDs;
+		return metainfs;
 	}
 
 	protected LinkedHashMap<String, Location> locations = null;
@@ -203,6 +212,7 @@ public class YamlDatabase extends EveDatabase {
 	@Override
 	public synchronized LinkedHashMap<String, Location> getLocations() {
 		if (locations == null) {
+			logger.debug("loading locations");
 			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_LOCATION_RES);
 			DatabaseFile db = stream != null ? load(stream) : null;
 			if (db != null) {
@@ -228,6 +238,7 @@ public class YamlDatabase extends EveDatabase {
 	@Override
 	public synchronized LinkedHashMap<String, Station> getStations() {
 		if (stations == null) {
+			logger.debug("loading stations");
 			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_STATIONS_RES);
 			DatabaseFile db = stream != null ? load(stream) : null;
 			if (db != null) {
@@ -245,6 +256,7 @@ public class YamlDatabase extends EveDatabase {
 	@Override
 	public synchronized ArrayList<LPOffer> getLPOffers() {
 		if (lpoffers == null) {
+			logger.debug("loading lpoffers");
 			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_LPOFFERS_RES);
 			DatabaseFile db = stream != null ? load(stream) : null;
 			if (db != null) {
@@ -262,6 +274,7 @@ public class YamlDatabase extends EveDatabase {
 	@Override
 	public synchronized LinkedHashMap<String, Agent> getAgents() {
 		if (agents == null) {
+			logger.debug("loading agents");
 			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_AGENTS_RES);
 			DatabaseFile db = stream != null ? load(stream) : null;
 			if (db != null) {

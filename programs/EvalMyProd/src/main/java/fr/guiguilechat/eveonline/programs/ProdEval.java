@@ -81,7 +81,7 @@ public class ProdEval {
 		}
 		ESIMarket market = new ESIMarket(hubR.locationID);
 		Stream<Character> characters = apis.parallelStream().map(s_arr -> new APIRoot(Integer.parseInt(s_arr[0]), s_arr[1]))
-				.flatMap(api -> api.account.characters().parallelStream()).filter(c -> acceptName(c.name));
+				.flatMap(api -> api.account.characters().parallelStream()).filter(c -> acceptName(c.name.toLowerCase()));
 		// first pass we copy the bpcs to get the required and produced amount of
 		// materials
 		List<BPEval> evaluations = characters.flatMap(chara -> evalCharacter(chara, db)).collect(Collectors.toList());
@@ -112,7 +112,7 @@ public class ProdEval {
 
 	/**
 	 * make the eval of a bpentry.
-	 * 
+	 *
 	 * @param bp
 	 * @param db
 	 * @param skills
@@ -197,14 +197,17 @@ public class ProdEval {
 
 	protected boolean acceptName(String name) {
 		if (nameFilter == null || nameFilter.length == 0) {
+			logger.debug("accepted name " + name);
 			return true;
 		}
 		name = name.toLowerCase();
 		for (Pattern p : nameFilter) {
 			if (p.matcher(name).matches()) {
+				logger.debug("accepted name " + name);
 				return true;
 			}
 		}
+		logger.debug("refused name " + name);
 		return false;
 	}
 
@@ -239,7 +242,7 @@ public class ProdEval {
 					eval.apis.add(api.split(":"));
 				}
 			} else if (arg.startsWith("names=")) {
-				eval.setNameFilter(arg.substring("name=".length()).split(","));
+				eval.setNameFilter(arg.substring("names=".length()).split(","));
 			} else if (arg.startsWith("outtax=")) {
 				eval.outTax = Double.parseDouble(arg.substring("outtax=".length()));
 			} else if (arg.startsWith("prodtax=")) {
@@ -268,50 +271,50 @@ public class ProdEval {
 				}
 			} else {
 				switch (arg.toLowerCase()) {
-					case "bpo":
-						eval.bpo = true;
-						break;
-					case "bpc":
-						eval.bpc = true;
-						break;
-					case "all5":
-						eval.skipSkills = true;
-						break;
-					case "boso":
-						eval.intputSO = false;
-						eval.outputSO = true;
-						break;
-					case "bobo":
-						eval.intputSO = false;
-						eval.outputSO = false;
-						break;
-					case "soso":
-						eval.intputSO = true;
-						eval.outputSO = true;
-						break;
-					case "sobo":
-						eval.intputSO = true;
-						eval.outputSO = false;
-						break;
-					case "gain":
-						eval.bpValue = bp -> bp.gain;
-						break;
-					case "mult":
-						eval.bpValue = bp -> bp.mult;
-						break;
-					case "matlist":
-						showmat = true;
-						break;
-					case "debug":
-						eval.debug = true;
-						break;
-					case "help":
-					case "-help":
-					case "--help":
-						help = true;
-						break;
-					default:
-						System.out.println("key and code already set, can't use param " + arg);
+				case "bpo":
+					eval.bpo = true;
+					break;
+				case "bpc":
+					eval.bpc = true;
+					break;
+				case "all5":
+					eval.skipSkills = true;
+					break;
+				case "boso":
+					eval.intputSO = false;
+					eval.outputSO = true;
+					break;
+				case "bobo":
+					eval.intputSO = false;
+					eval.outputSO = false;
+					break;
+				case "soso":
+					eval.intputSO = true;
+					eval.outputSO = true;
+					break;
+				case "sobo":
+					eval.intputSO = true;
+					eval.outputSO = false;
+					break;
+				case "gain":
+					eval.bpValue = bp -> bp.gain;
+					break;
+				case "mult":
+					eval.bpValue = bp -> bp.mult;
+					break;
+				case "matlist":
+					showmat = true;
+					break;
+				case "debug":
+					eval.debug = true;
+					break;
+				case "help":
+				case "-help":
+				case "--help":
+					help = true;
+					break;
+				default:
+					System.out.println("key and code already set, can't use param " + arg);
 				}
 			}
 		}
