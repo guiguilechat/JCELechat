@@ -34,8 +34,8 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 	boolean loaded = false;
 	protected ArrayList<LPOffer> lpoffers;
 
-	ChoiceBox<String> corporationChoice = null;
-	ChoiceBox<Boolean> blueprintAllowedChoice = null;
+	ChoiceBox<String> corporationChoice = new ChoiceBox<>();
+	ChoiceBox<Boolean> blueprintAllowedChoice = new ChoiceBox<>();
 	HBox selectionPane = new HBox();
 	TableView<OfferRow> listOffersPane = new TableView<>();
 
@@ -45,7 +45,6 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		}
 		lpoffers = db().getLPOffers();
 		selectionPane.getChildren().add(new Label("corporation: "));
-		corporationChoice = new ChoiceBox<>();
 		corporationChoice.getItems()
 		.addAll(lpoffers.stream().map(lo -> lo.corporation).distinct().sorted().collect(Collectors.toList()));
 		// allow no value in the choicebox
@@ -54,7 +53,6 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		selectionPane.getChildren().add(corporationChoice);
 
 		selectionPane.getChildren().add(new Label("blueprints: "));
-		blueprintAllowedChoice = new ChoiceBox<>();
 		blueprintAllowedChoice.getItems().addAll(true, false, null);
 		blueprintAllowedChoice.setOnAction(ev -> updateOffers());
 		selectionPane.getChildren().add(blueprintAllowedChoice);
@@ -88,13 +86,16 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		listOffersPane.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
 
 		setCenter(listOffersPane);
-		updateOffers();
-		listOffersPane.sort();
 		loaded = true;
+		updateOffers();
 	}
 
 	protected void updateOffers() {
 		listOffersPane.getItems().clear();
+		if (!loaded) {
+			return;
+		}
+
 		String corp = corporationChoice.getValue();
 		if (corp == null) {
 			return;
@@ -141,4 +142,13 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		parent().provisionLPOffer(row.offer, nb_provision);
 	}
 
+	@Override
+	public void onFocusedTeam(String teamName) {
+		updateOffers();
+	}
+
+	@Override
+	public void onNewProvision(int itemID, int qtty) {
+		updateOffers();
+	}
 }

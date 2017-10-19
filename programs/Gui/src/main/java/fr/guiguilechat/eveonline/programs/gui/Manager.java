@@ -90,6 +90,7 @@ public class Manager extends Application implements EvePane {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
+		logger.debug("start manager");
 		primaryStage.setTitle("guigui lechat manager");
 		mainLayout.setTop(menuHBox);
 		if (!settings.hideDebug) {
@@ -111,6 +112,7 @@ public class Manager extends Application implements EvePane {
 		}
 		propagateFocusedTeam(settings.focusedTeam);
 		propagateStart();
+		logger.debug("start manager");
 	}
 
 	//
@@ -135,16 +137,6 @@ public class Manager extends Application implements EvePane {
 				it.remove();
 			}
 		}
-	}
-
-	@Override
-	public void onAdd2Team(String team, String character) {
-		//
-	}
-
-	@Override
-	public void onDel2Team(String team, String character) {
-		//
 	}
 
 	@Override
@@ -297,7 +289,7 @@ public class Manager extends Application implements EvePane {
 	 */
 	public Set<String> getTeamPossibleSystems(String team) {
 		Set<String> allowedChars = settings.teams.get(team).members;
-		Stream<Character> chars = apis.stream().flatMap(a -> a.account.characters().stream())
+		Stream<Character> chars = apis.parallelStream().flatMap(a -> a.account.characters().parallelStream())
 				.filter(c -> allowedChars.contains(c.name));
 		return chars.flatMap(this::streamCharPossibleSystems).collect(Collectors.toSet());
 	}

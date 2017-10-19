@@ -22,6 +22,7 @@ public class ProvisionPane extends BorderPane implements EvePane {
 	protected ChoiceBox<String> provisionModeChoice = new ChoiceBox<>();
 
 	protected ProvisionLPStorePane lpstore;
+	protected ProvisionOverview overview;
 
 	protected SelectTeamPane selectTeam;
 
@@ -41,11 +42,12 @@ public class ProvisionPane extends BorderPane implements EvePane {
 		selectPane.add(new Label("provision mode :"), 3, 0);
 		selectPane.add(provisionModeChoice, 4, 0);
 		setTop(selectPane);
-		provisionModeChoice.getItems().addAll("lpstore");
+		provisionModeChoice.getItems().addAll("lpstore", "overview");
 		provisionModeChoice.setOnAction(ev -> adaptProvisionMode());
 
 		lpstore = new ProvisionLPStorePane(parent);
-		children = new EvePane[] { selectTeam, lpstore };
+		overview = new ProvisionOverview(parent);
+		children = new EvePane[] { selectTeam, lpstore, overview };
 
 	}
 
@@ -54,12 +56,21 @@ public class ProvisionPane extends BorderPane implements EvePane {
 		case "lpstore":
 			showLPStore();
 			break;
+		case "overview":
+			showOverview();
+			break;
 		}
+
 	}
 
 	public void showLPStore() {
 		lpstore.load();
 		setCenter(lpstore);
+	}
+
+	public void showOverview() {
+		overview.load();
+		setCenter(overview);
 	}
 
 }
