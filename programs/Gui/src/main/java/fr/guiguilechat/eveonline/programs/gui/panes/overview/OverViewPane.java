@@ -291,14 +291,16 @@ public class OverViewPane extends VBox implements EvePane {
 	}
 
 	/**
-	 * prepare provisions for focused team. also remove them.
+	 * prepare provisions for focused team.
 	 */
 	protected void prepareProvisions() {
+		itemsProvisions.values().stream().forEach(pp -> pp.required = 0);
 		for (Entry<Integer, Integer> e : parent.getFTeamProvision().total.entrySet()) {
 			ProvisionPreparation pr = getProvision(e.getKey());
 			pr.required = e.getValue();
 			pr.ed.who = parent().settings.focusedTeam;
 		}
+		onTeamNewItems(parent().settings.focusedTeam, parent().getFTeamItems());
 	}
 
 	@Override
@@ -376,7 +378,6 @@ public class OverViewPane extends VBox implements EvePane {
 		if (showProvisionsBox.isSelected()) {
 			showProvisions = true;
 			prepareProvisions();
-			onTeamNewItems(parent().settings.focusedTeam, parent().getFTeamItems());
 		} else {
 			showProvisions = false;
 			itemsProvisions.values().forEach(pp -> pp.added = false);

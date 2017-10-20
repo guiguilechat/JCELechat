@@ -27,7 +27,6 @@ import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription;
 import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription.Provision;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
-import fr.guiguilechat.eveonline.programs.gui.panes.MenuPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.options.OptionPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.overview.OverViewPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.provision.ProvisionPane;
@@ -36,10 +35,16 @@ import javafx.application.Application;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.geometry.Side;
 import javafx.scene.Scene;
+import javafx.scene.control.Control;
+import javafx.scene.control.Tab;
+import javafx.scene.control.TabPane;
+import javafx.scene.control.TabPane.TabClosingPolicy;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import javafx.scene.layout.BorderPane;
+import javafx.scene.control.TitledPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class Manager extends Application implements EvePane {
@@ -59,48 +64,41 @@ public class Manager extends Application implements EvePane {
 
 	public final ObservableList<APIRoot> apis = FXCollections.observableArrayList();
 
-	public BorderPane mainLayout = new BorderPane();
-
-	public MenuPane menuHBox = new MenuPane(this);
+	public VBox mainLayout = new VBox();
 
 	public OverViewPane overviewPane = new OverViewPane(this);
-
 	public ProvisionPane provisionpane = new ProvisionPane(this);
-
 	public OptionPane optionPane = new OptionPane(this);
 
-	public EvePane[] children = new EvePane[] { menuHBox, overviewPane, provisionpane, optionPane };
+	public EvePane[] children = new EvePane[] { overviewPane, provisionpane, optionPane };
 
 	@Override
 	public EvePane[] subEvePanes() {
 		return children;
 	}
 
-	public void showOptions() {
-		mainLayout.setCenter(optionPane);
-	}
-
-	public void showProvision() {
-		mainLayout.setCenter(provisionpane);
-	}
-
-	public void showOverview() {
-		mainLayout.setCenter(overviewPane);
-	}
-
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		logger.debug("start manager");
 		primaryStage.setTitle("guigui lechat manager");
-		mainLayout.setTop(menuHBox);
-		if (!settings.hideDebug) {
-			mainLayout.setBottom(debugPane);
-		}
+		TabPane tabs = new TabPane(new Tab("overview", overviewPane), new Tab("provision", provisionpane),
+				new Tab("options", optionPane));
+		tabs.setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
+		tabs.setSide(Side.LEFT);
+		TitledPane tpDebug = new TitledPane("debug", debugPane);
+		tpDebug.setExpanded(false);
+		tpDebug.expandedProperty().addListener((ov, old, now) -> {
+			if (now) {
+				tpDebug.setMinHeight(500);
+			} else {
+				tpDebug.setMinHeight(Control.USE_COMPUTED_SIZE);
+			}
+		});
+		mainLayout.getChildren().addAll(tabs, tpDebug);
 
 		Scene scene = new Scene(mainLayout, 800, 900);
 		primaryStage.setScene(scene);
 		primaryStage.show();
-		showOverview();
 		for (Entry<Integer, String> a : settings.apiKeys.entrySet()) {
 			propagateNewAPI(a.getKey(), a.getValue());
 		}
@@ -473,48 +471,41 @@ public class Manager extends Application implements EvePane {
 			return Collections.emptyMap();
 		}
 		Set<String> teamSystems = getTeamSystemLimit(team);
-		// first compute if there is a difference of items for at least one
-		// character
-		boolean itemsDiff = streamTeamCharacters(team).flatMap(c -> computeItemsDiff(c).entrySet().stream())
-				// stream of system->difference
-				.filter(e -> teamSystems.isEmpty() || teamSystems.contains(e.getKey()))
-				// keep correct system .
-				// there should not be empty entry.value
-				.findAny().isPresent();
-		if (itemsDiff) {
-			logger.debug("recomputing items for team " + team);
-			// if this is the case, recompute the whole map. successive calls to
-			// getItems use the cache, making it cost effective.
-			Stream<Map.Entry<Integer, Long>> teamAssetsStream = streamTeamCharacters(team)
-					.flatMap(c -> getCharItems(c).entrySet().stream())
-					.filter(e -> teamSystems.isEmpty() || teamSystems.contains(e.getKey()))
-					.flatMap(e -> e.getValue().entrySet().stream());
-			Map<Integer, Long> newItems = teamAssetsStream
-					.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, Long::sum));
-			Map<Integer, Long> oldItems = cachedTeamItems.get(team);
-			Map<Integer, Long> diff = new HashMap<>(newItems);
-			if (oldItems != null) {
-				for (Entry<Integer, Long> e : oldItems.entrySet()) {
-					diff.put(e.getKey(), newItems.getOrDefault(e.getKey(), 0l) - oldItems.getOrDefault(e.getKey(), 0l));
+		logger.debug("recomputing items for team " + team);
+		// recompute the whole map. successive calls to
+		// getItems use the cache, making it cost effective.
+		Map<Integer, Long> newItems = fetchTeamAssets(team, teamSystems);
+		Map<Integer, Long> oldItems = cachedTeamItems.get(team);
+		Map<Integer, Long> diff = new HashMap<>(newItems);
+		if (oldItems != null) {
+			for (Entry<Integer, Long> e : oldItems.entrySet()) {
+				long value = newItems.getOrDefault(e.getKey(), 0l) - e.getValue();
+				if (value != 0) {
+					diff.put(e.getKey(), value);
+				} else {
+					diff.remove(e.getKey());
 				}
 			}
-			cachedTeamItems.put(team, newItems);
-			logger.debug("items diff for team " + team + " : " + newItems);
-			propagateTeamNewItems(team, diff);
-			return newItems;
-		} else {
-			logger.debug("no difference in items for team " + team);
-			Map<Integer, Long> ret = cachedTeamItems.get(team);
-			if (ret == null) {
-				ret = new HashMap<>();
-				cachedTeamItems.put(team, ret);
-			}
-			return ret;
 		}
+		cachedTeamItems.put(team, newItems);
+		if (!diff.isEmpty()) {
+			logger.debug("items diff for team " + team + " : " + diff);
+			propagateTeamNewItems(team, diff);
+		}
+		return newItems;
+	}
+
+	private Map<Integer, Long> fetchTeamAssets(String name, Set<String> teamSystems) {
+		Stream<Map.Entry<Integer, Long>> teamAssetsStream = streamTeamCharacters(name)
+				.flatMap(c -> getCharItems(c).entrySet().stream())
+				.filter(e -> teamSystems.isEmpty() || teamSystems.contains(e.getKey()))
+				.flatMap(e -> e.getValue().entrySet().stream());
+		return teamAssetsStream.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, Long::sum));
 	}
 
 	public Map<Integer, Long> getFTeamItems() {
 		if (settings.focusedTeam == null) {
+			System.err.println("null focused team");
 			return Collections.emptyMap();
 		}
 		return getTeamItems(settings.focusedTeam);
@@ -607,6 +598,7 @@ public class Manager extends Application implements EvePane {
 		dateCol.setSortType(TableColumn.SortType.DESCENDING);
 		dateCol.setSortable(true);
 		debugPane.getSortOrder().add(dateCol);
+
 	}
 
 	public void printDebug(Class<? extends EvePane> clazz, String data) {
@@ -616,12 +608,6 @@ public class Manager extends Application implements EvePane {
 		de.date = new Date();
 		debugPane.getItems().add(de);
 		debugPane.sort();
-	}
-
-	public void switchDebug() {
-		settings.hideDebug = !settings.hideDebug;
-		mainLayout.setBottom(settings.hideDebug ? null : debugPane);
-		settings.store();
 	}
 
 	// database

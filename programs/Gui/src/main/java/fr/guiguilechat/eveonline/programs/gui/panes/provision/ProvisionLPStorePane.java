@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.stream.Collectors;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.eveonline.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
@@ -19,6 +22,8 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 
 public class ProvisionLPStorePane extends BorderPane implements EvePane {
+
+	private static final Logger logger = LoggerFactory.getLogger(ProvisionLPStorePane.class);
 
 	protected Manager parent;
 
@@ -91,6 +96,7 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 	}
 
 	protected void updateOffers() {
+		logger.debug("updating offers");
 		listOffersPane.getItems().clear();
 		if (!loaded) {
 			return;

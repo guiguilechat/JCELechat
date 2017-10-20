@@ -2,7 +2,7 @@ package fr.guiguilechat.eveonline.programs.gui.panes.options;
 
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
-import javafx.scene.control.Button;
+import javafx.scene.control.TitledPane;
 import javafx.scene.layout.VBox;
 
 public class OptionPane extends VBox implements EvePane {
@@ -20,8 +20,6 @@ public class OptionPane extends VBox implements EvePane {
 	ModifTeamPane addTeam;
 	TeamSystemManager teamSystem;
 
-	Button switchDebug = new Button("toggle debug");
-
 	EvePane[] children;
 
 	@Override
@@ -37,9 +35,8 @@ public class OptionPane extends VBox implements EvePane {
 		addTeam = new ModifTeamPane(parent);
 		teamSystem = new TeamSystemManager(parent);
 		children = new EvePane[] { listApi, addApi, listTeam, addTeam, teamSystem };
-		getChildren().addAll(listApi, addApi, listTeam, addTeam, teamSystem, switchDebug);
-
-		switchDebug.setOnAction(ev -> parent.switchDebug());
+		getChildren().addAll(new TitledPane("api keys", new VBox(listApi, addApi)),
+				new TitledPane("teams", new VBox(listTeam, addTeam, teamSystem)));
 	}
 
 }

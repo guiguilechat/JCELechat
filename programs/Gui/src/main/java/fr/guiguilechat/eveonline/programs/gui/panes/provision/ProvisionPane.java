@@ -1,14 +1,20 @@
 package fr.guiguilechat.eveonline.programs.gui.panes.provision;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.SelectTeamPane;
-import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.Accordion;
 import javafx.scene.control.Label;
+import javafx.scene.control.TitledPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 
 public class ProvisionPane extends BorderPane implements EvePane {
+
+	private static final Logger logger = LoggerFactory.getLogger(ProvisionPane.class);
 
 	protected Manager parent;
 
@@ -18,8 +24,7 @@ public class ProvisionPane extends BorderPane implements EvePane {
 	}
 
 	protected GridPane selectPane = new GridPane();
-
-	protected ChoiceBox<String> provisionModeChoice = new ChoiceBox<>();
+	protected Accordion accordion;
 
 	protected ProvisionLPStorePane lpstore;
 	protected ProvisionOverview overview;
@@ -38,29 +43,22 @@ public class ProvisionPane extends BorderPane implements EvePane {
 		selectPane.add(new Label("team :"), 0, 0);
 		selectTeam = new SelectTeamPane(parent);
 		selectPane.add(selectTeam, 1, 0);
-		selectPane.add(new Label(" "), 2, 0);
-		selectPane.add(new Label("provision mode :"), 3, 0);
-		selectPane.add(provisionModeChoice, 4, 0);
 		setTop(selectPane);
-		provisionModeChoice.getItems().addAll("lpstore", "overview");
-		provisionModeChoice.setOnAction(ev -> adaptProvisionMode());
 
 		lpstore = new ProvisionLPStorePane(parent);
 		overview = new ProvisionOverview(parent);
+		TitledPane op = new TitledPane("overview", overview);
+		TitledPane lp = new TitledPane("lpstore", lpstore);
+		accordion = new Accordion(lp, op);
+		accordion.expandedPaneProperty().addListener((ov, old, now) -> {
+			if (now == lp) {
+				lpstore.load();
+			} else if (now == op) {
+				overview.load();
+			}
+		});
+		setCenter(accordion);
 		children = new EvePane[] { selectTeam, lpstore, overview };
-
-	}
-
-	protected void adaptProvisionMode() {
-		switch(provisionModeChoice.getValue()) {
-		case "lpstore":
-			showLPStore();
-			break;
-		case "overview":
-			showOverview();
-			break;
-		}
-
 	}
 
 	public void showLPStore() {
