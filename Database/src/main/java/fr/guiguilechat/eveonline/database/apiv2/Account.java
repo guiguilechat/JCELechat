@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.database.apiv2;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -28,6 +29,25 @@ public class Account {
 
 	public final String BASEURL = APIRoot.BASEURL + "account/";
 
+	public static class APIKeyInfo {
+		int accessMask;
+		public String type;
+		String expire;
+	}
+
+	public APIKeyInfo apiKeyInfo() {
+		String url = BASEURL + "APIKeyInfo.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code;
+		try {
+			Document page = Jsoup.connect(url).get();
+			Element el = page.select("result key").first();
+			APIKeyInfo ret = APIRoot.convertElement(el, APIKeyInfo.class);
+			return ret;
+		} catch (IOException e) {
+			logger.error("while getting api key info for " + parent.key.keyID, e);
+			return null;
+		}
+	}
+
 	public class Character {
 		public String name;
 		public long characterID;
@@ -44,27 +64,23 @@ public class Account {
 		}
 
 		public ArrayList<JobEntry> industryJobs() {
-			return parent.chars.industryJobs(characterID);
+			return parent.isCorp() ? parent.corp.industryJobs(characterID) : parent.chars.industryJobs(characterID);
 		}
 
-		public ArrayList<OrderEntry> marketOrders() {
-			return parent.chars.marketOrders(characterID);
+		public List<OrderEntry> marketOrders() {
+			return parent.isCorp() ? parent.corp.marketOrders(characterID) : parent.chars.marketOrders(characterID);
 		}
 
 		public LinkedHashMap<String, Integer> skillsByName() {
-			return parent.chars.skillsByName(characterID);
+			return parent.isCorp() ? new LinkedHashMap<>() : parent.chars.skillsByName(characterID);
 		}
 
 		public LinkedHashMap<Long, ArrayList<Content>> assetList() {
-			return parent.chars.assetList(characterID);
+			return parent.isCorp() ? parent.corp.assetList(characterID) : parent.chars.assetList(characterID);
 		}
 
-		public LinkedHashMap<Long, ArrayList<Content>> corpAssets() {
-			return parent.corp.assetList(characterID);
-		}
-
-		public ArrayList<BPEntry> blueprints() {
-			return parent.chars.blueprints(characterID);
+		public List<BPEntry> blueprints() {
+			return parent.isCorp() ? parent.corp.blueprints(characterID) : parent.chars.blueprints(characterID);
 		}
 
 	}
@@ -76,20 +92,16 @@ public class Account {
 			Document page = Jsoup.connect(url).get();
 			Elements elements = page.select("result rowset row");
 			for (Element el : elements) {
-				Character chara = new Character();
-				ret.add(chara);
-				chara.name = el.attr("name");
-				chara.characterID = Long.parseLong(el.attr("characterID"));
-				chara.corporationName = el.attr("corporationName");
-				chara.corporationID = Integer.parseInt(el.attr("corporationID"));
-				chara.allianceID = Integer.parseInt(el.attr("allianceID"));
-				chara.allianceName = el.attr("allianceName");
-				chara.factionID = Integer.parseInt(el.attr("factionID"));
-				chara.factionName = el.attr("factionName");
+				ret.add(APIRoot.convertElement(el, Character.class, this));
 			}
 		} catch (IOException e) {
 			logger.error("while getting characters for api key " + parent.key.keyID, e);
 			return new ArrayList<>();
+		}
+		if (parent.isCorp()) {
+			for (Character c : ret) {
+				c.name = "corp:" + c.name;
+			}
 		}
 		return ret;
 	}

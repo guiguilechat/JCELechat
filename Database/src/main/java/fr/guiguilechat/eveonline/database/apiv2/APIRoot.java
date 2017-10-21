@@ -5,10 +5,13 @@ import java.lang.reflect.InvocationTargetException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
+import java.util.stream.Stream;
 
 import org.jsoup.nodes.Element;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import fr.guiguilechat.eveonline.database.apiv2.Account.APIKeyInfo;
 
 public class APIRoot {
 
@@ -63,7 +66,9 @@ public class APIRoot {
 
 	public static Date getDate(Element el, String field, Date defaultVal) {
 		try {
-			return el.hasAttr(field) ? sdf.parse(el.attr(field)) : defaultVal;
+			synchronized (sdf) {
+				return el.hasAttr(field) ? sdf.parse(el.attr(field)) : defaultVal;
+			}
 		} catch (Exception e) {
 			logger.error("while getting date " + field + " : " + el.attributes(), e);
 			return defaultVal;
@@ -81,12 +86,20 @@ public class APIRoot {
 	 * primitive types are supported.
 	 *
 	 * @param e
+	 *          the json element to convert to an object.
 	 * @param clazz
-	 * @return
+	 *          the class to instantiate the json to.
+	 * @param constructParams
+	 *          optional args to pass when constructing an instance. eg if clazz
+	 *          is internal, the first param must be the outter class.
+	 * @return a new clazz instance whose fields correspond to the parameters of
+	 *         the json element.
 	 */
-	public static <T> T convertElement(Element e, Class<T> clazz) {
+	public static <T> T convertElement(Element e, Class<T> clazz, Object... constructParams) {
 		try {
-			T ret = clazz.getConstructor(new Class[] {}).newInstance((Object[]) null);
+			Class<?>[] paramsClass = constructParams == null ? new Class[] {}
+			: Stream.of(constructParams).map(Object::getClass).toArray(Class[]::new);
+			T ret = clazz.getConstructor(paramsClass).newInstance(constructParams);
 			for (Field f : clazz.getFields()) {
 				Class<?> type = f.getType();
 				f.setAccessible(true);
@@ -121,6 +134,19 @@ public class APIRoot {
 	@Override
 	public String toString() {
 		return key.keyID + ":" + key.code;
+	}
+
+	protected APIKeyInfo infos = null;
+
+	public APIKeyInfo getInfos() {
+		if (infos == null) {
+			infos = account.apiKeyInfo();
+		}
+		return infos;
+	}
+
+	public boolean isCorp() {
+		return "Corporation".equals(getInfos().type);
 	}
 
 }
