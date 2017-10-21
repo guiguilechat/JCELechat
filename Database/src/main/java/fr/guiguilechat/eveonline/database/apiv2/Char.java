@@ -7,6 +7,7 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Set;
 
 import org.jsoup.Jsoup;
@@ -18,7 +19,6 @@ import org.slf4j.LoggerFactory;
 
 public class Char {
 
-	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(Char.class);
 
 	private final APIRoot parent;
@@ -77,6 +77,7 @@ public class Char {
 				}
 			}
 		} catch (IOException ex) {
+			logger.debug("while fetching " + url, ex);
 			return ret;
 		}
 		return ret;
@@ -106,9 +107,12 @@ public class Char {
 		public int runs;
 	}
 
-	public ArrayList<BPEntry> blueprints(long charID) {
-		String url = BASEURL + "Blueprints.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code
-				+ "&characterID=" + charID;
+	public List<BPEntry> blueprints(long charID) {
+		return url2bps(BASEURL + "Blueprints.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code
+				+ "&characterID=" + charID);
+	}
+
+	public static List<BPEntry> url2bps(String url) {
 		ArrayList<BPEntry> ret = new ArrayList<>();
 		try {
 			Document page = Jsoup.connect(url).get();
@@ -261,9 +265,12 @@ public class Char {
 	}
 
 	/** Returns a list of market orders for your character. */
-	public ArrayList<OrderEntry> marketOrders(long charID) {
-		String url = BASEURL + "MarketOrders.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code
-				+ "&characterID=" + charID;
+	public List<OrderEntry> marketOrders(long charID) {
+		return url2marketOrders(BASEURL + "MarketOrders.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code
+				+ "&characterID=" + charID);
+	}
+
+	static List<OrderEntry> url2marketOrders(String url) {
 		ArrayList<OrderEntry> ret = new ArrayList<>();
 		try {
 			Document page = Jsoup.connect(url).get();
@@ -272,13 +279,14 @@ public class Char {
 				ret.add(extractMarketOrder(el));
 			}
 		} catch (IOException e) {
-			throw new UnsupportedOperationException("catch this", e);
+			logger.debug("while fetching " + url, e);
+			return Collections.emptyList();
 		}
 		return ret;
 
 	}
 
-	protected OrderEntry extractMarketOrder(Element el) {
+	protected static OrderEntry extractMarketOrder(Element el) {
 		return APIRoot.convertElement(el, OrderEntry.class);
 	}
 

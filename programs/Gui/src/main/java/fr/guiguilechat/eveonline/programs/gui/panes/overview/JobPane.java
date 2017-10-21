@@ -57,10 +57,6 @@ public class JobPane extends TableView<JobData> implements EvePane {
 			return type.equals(o.type) && description.equals(o.description) && where.equals(o.where) && who.equals(o.who);
 		}
 
-		public boolean isIndustryJob() {
-			return Char.activityNamesSet.contains(type);
-		}
-
 		@Override
 		public String toString() {
 			return "" + type + ":" + description;
@@ -132,15 +128,15 @@ public class JobPane extends TableView<JobData> implements EvePane {
 		if (!shown) {
 			return;
 		}
-	APIRoot api = parent().getAPI(key);
-	if (api == null) {
-		debug("can't use apiroot for id " + key);
-		return;
-	}
-	api.account.characters().parallelStream().forEach(c -> {
-		addCharJobs(c);
-	});
-	sort();
+		APIRoot api = parent().getAPI(key);
+		if (api == null) {
+			debug("can't use apiroot for id " + key);
+			return;
+		}
+		api.account.characters().parallelStream().forEach(c -> {
+			addCharJobs(c);
+		});
+		sort();
 	}
 
 	/**
@@ -154,7 +150,7 @@ public class JobPane extends TableView<JobData> implements EvePane {
 			ed.type = Char.activityName(e.activityID);
 			ed.description = e.blueprintTypeName;
 			ed.where = e.solarSystemName;
-			ed.who = c.name;
+			ed.who = e.installerName;
 			synchronized (this) {
 				getItems().add(ed);
 			}
@@ -184,10 +180,8 @@ public class JobPane extends TableView<JobData> implements EvePane {
 	protected ArrayList<JobEntry> industryJobs(Character c) {
 		Date nextCall = cachedJobsDate.get(c.characterID);
 		Date now = new Date();
-		System.err.println(c.name);
-		c.corpAssets().forEach((i, l) -> System.err.println(c.name + " corp has stuff on " + i + " : " + l));
 		if (nextCall == null || nextCall.before(now)) {
-			logger.debug("invalid cache jobs " + c.name);
+			logger.trace("invalid cache jobs " + c.name);
 			ArrayList<JobEntry> ret = c.industryJobs();
 			cachedJobs.put(c.characterID, ret);
 			cachedJobsDate.put(c.characterID, new Date(now.getTime() + cache_duration_in_minutes * 60000));

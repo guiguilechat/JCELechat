@@ -96,7 +96,7 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 	}
 
 	protected void updateOffers() {
-		logger.debug("updating offers");
+		logger.trace("updating offers");
 		listOffersPane.getItems().clear();
 		if (!loaded) {
 			return;

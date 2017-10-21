@@ -14,6 +14,7 @@ import javafx.scene.layout.GridPane;
 
 public class ProvisionPane extends BorderPane implements EvePane {
 
+	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(ProvisionPane.class);
 
 	protected Manager parent;

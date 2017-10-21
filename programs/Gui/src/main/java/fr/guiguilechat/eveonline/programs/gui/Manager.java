@@ -402,13 +402,13 @@ public class Manager extends Application implements EvePane {
 		Date cacheExpire = expireItemsByCharName.get(c.characterID);
 		Date now = new Date();
 		if (cacheExpire != null && cacheExpire.after(now)) {
-			logger.debug("returning old cache for character " + c.name);
+			logger.trace("returning old cache for character " + c.name);
 			return itemsByCharName.get(c.characterID);
 		} else {
 			Map<String, Map<Integer, Long>> itemsqtty = fetchCharItems(c);
 			itemsByCharName.put(c.characterID, itemsqtty);
 			expireItemsByCharName.put(c.characterID, new Date(now.getTime() + assetCacheDelayMinutes * 60000));
-			logger.debug("new items for " + c.name + " : " + itemsqtty);
+			logger.trace("new items for " + c.name + " : " + itemsqtty);
 			return itemsqtty;
 		}
 	}
@@ -471,7 +471,7 @@ public class Manager extends Application implements EvePane {
 			return Collections.emptyMap();
 		}
 		Set<String> teamSystems = getTeamSystemLimit(team);
-		logger.debug("recomputing items for team " + team);
+		logger.trace("recomputing items for team " + team);
 		// recompute the whole map. successive calls to
 		// getItems use the cache, making it cost effective.
 		Map<Integer, Long> newItems = fetchTeamAssets(team, teamSystems);
@@ -489,7 +489,7 @@ public class Manager extends Application implements EvePane {
 		}
 		cachedTeamItems.put(team, newItems);
 		if (!diff.isEmpty()) {
-			logger.debug("items diff for team " + team + " : " + diff);
+			logger.trace("items diff for team " + team + " : " + diff);
 			propagateTeamNewItems(team, diff);
 		}
 		return newItems;
@@ -505,7 +505,7 @@ public class Manager extends Application implements EvePane {
 
 	public Map<Integer, Long> getFTeamItems() {
 		if (settings.focusedTeam == null) {
-			System.err.println("null focused team");
+			logger.debug("null focused team");
 			return Collections.emptyMap();
 		}
 		return getTeamItems(settings.focusedTeam);
@@ -533,12 +533,12 @@ public class Manager extends Application implements EvePane {
 		if (cacheExpiration != null && cacheExpiration.after(now)) {
 			return Collections.emptyMap();
 		}
-		logger.debug("invalid cache entry for character " + c.name);
+		logger.trace("invalid cache entry for character " + c.name);
 		// compute difference between old and new item list
 		Map<String, Map<Integer, Long>> oldItems = itemsByCharName.get(c.characterID);
 		Map<String, Map<Integer, Long>> newItems = getCharItems(c);
 		if (oldItems == null) {
-			logger.debug("items diff for " + c.name + " : " + newItems);
+			logger.trace("items diff for " + c.name + " : " + newItems);
 			return newItems;
 		} else {
 			Map<String, Map<Integer, Long>> itemsDiff = new HashMap<>();
@@ -565,7 +565,7 @@ public class Manager extends Application implements EvePane {
 					itemsDiff.remove(systemName);
 				}
 			}
-			logger.debug("items diff for " + c.name + " : " + itemsDiff);
+			logger.trace("items diff for " + c.name + " : " + itemsDiff);
 			return itemsDiff;
 		}
 	}

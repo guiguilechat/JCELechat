@@ -85,7 +85,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	public ProvisionPreparation getProvision(int itemID) {
 		ProvisionPreparation ret = itemsProvisions.get(itemID);
 		if (ret == null) {
-			logger.debug("creating provision for item " + itemID);
+			logger.trace("creating provision for item " + itemID);
 			ret = new ProvisionPreparation();
 			ret.name = db().getElementById(itemID);
 			ret.ed = new ProvisionData();
@@ -121,10 +121,10 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	@Override
 	public void onTeamNewItems(String team, Map<Integer, Long> itemsDiff) {
 		if (!shown || team == null || !team.equals(parent.settings.focusedTeam)) {
-			logger.debug("skipping items diff for team " + team);
+			logger.trace("skipping items diff for team " + team);
 			return;
 		}
-		logger.debug("new items for focused team " + team + " : " + itemsDiff);
+		logger.trace("new items for focused team " + team + " : " + itemsDiff);
 		Map<Integer, Long> items = parent().getFTeamItems();
 		for (Integer itemID : itemsDiff.keySet()) {
 			updateItemQuantity(items.getOrDefault(itemID, 0l), getProvision(itemID));
@@ -135,10 +135,10 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	/** update graphics on the modification of provisioned item's quantity */
 	protected void updateItemQuantity(long qtty, ProvisionPreparation pp) {
 		if (pp.required > 0) {
-			logger.debug("updating items " + pp.name + " required" + pp.required + " qtty" + qtty);
+			logger.trace("updating items " + pp.name + " required" + pp.required + " qtty" + qtty);
 		}
 		if (qtty < pp.required) {
-			logger.debug("adding item " + pp.name + " required " + pp.required + ", we have " + qtty);
+			logger.trace("adding item " + pp.name + " required " + pp.required + ", we have " + qtty);
 			pp.ed.description = "" + (pp.required - qtty) + " " + pp.name;
 			if (!pp.added) {
 				getItems().add(pp.ed);
@@ -147,7 +147,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 		} else {
 			if (pp.added) {
 				getItems().remove(pp.ed);
-				logger.debug("removing item " + pp.name + " required " + pp.required + ", we have " + qtty);
+				logger.trace("removing item " + pp.name + " required " + pp.required + ", we have " + qtty);
 			}
 			pp.added = false;
 		}
