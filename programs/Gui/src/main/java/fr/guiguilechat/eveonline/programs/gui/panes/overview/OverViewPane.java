@@ -42,20 +42,10 @@ public class OverViewPane extends VBox implements EvePane {
 		children = new EvePane[] { selectTeamPane, jobpane, provisionpane };
 		TitledPane tpjobs = new TitledPane("jobs", jobpane);
 		tpjobs.setExpanded(false);
-		tpjobs.expandedProperty().addListener((o, old, now) -> {
-			if (now) {
-				jobpane.update();
-			}
-		});
+		tpjobs.expandedProperty().addListener((o, old, now) -> jobpane.setShown(now));
 		TitledPane tpprovi = new TitledPane("provisions", provisionpane);
 		tpprovi.setExpanded(false);
-		tpprovi.expandedProperty().addListener((o, old, now) -> {
-			if (now) {
-				provisionpane.show();
-			} else {
-				provisionpane.hide();
-			}
-		});
+		tpprovi.expandedProperty().addListener((o, old, now) -> provisionpane.setShown(now));
 		getChildren().addAll(selectTeamPane, tpjobs, tpprovi);
 	}
 

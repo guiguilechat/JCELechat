@@ -129,15 +129,18 @@ public class JobPane extends TableView<JobData> implements EvePane {
 
 	@Override
 	public void onNewAPI(int key, String code) {
-		APIRoot api = parent().getAPI(key);
-		if (api == null) {
-			debug("can't use apiroot for id " + key);
+		if (!shown) {
 			return;
 		}
-		api.account.characters().parallelStream().forEach(c -> {
-			addCharJobs(c);
-		});
-		sort();
+	APIRoot api = parent().getAPI(key);
+	if (api == null) {
+		debug("can't use apiroot for id " + key);
+		return;
+	}
+	api.account.characters().parallelStream().forEach(c -> {
+		addCharJobs(c);
+	});
+	sort();
 	}
 
 	/**
@@ -181,6 +184,8 @@ public class JobPane extends TableView<JobData> implements EvePane {
 	protected ArrayList<JobEntry> industryJobs(Character c) {
 		Date nextCall = cachedJobsDate.get(c.characterID);
 		Date now = new Date();
+		System.err.println(c.name);
+		c.corpAssets().forEach((i, l) -> System.err.println(c.name + " corp has stuff on " + i + " : " + l));
 		if (nextCall == null || nextCall.before(now)) {
 			logger.debug("invalid cache jobs " + c.name);
 			ArrayList<JobEntry> ret = c.industryJobs();
@@ -194,6 +199,9 @@ public class JobPane extends TableView<JobData> implements EvePane {
 
 	@Override
 	public void onDelAPI(int key) {
+		if (!shown) {
+			return;
+		}
 		APIRoot api = parent().getAPI(key);
 		if (api == null) {
 			debug("can't del apiroot for id " + key);
@@ -220,6 +228,15 @@ public class JobPane extends TableView<JobData> implements EvePane {
 	public void clean() {
 		cachedJobs.clear();
 		cachedJobsDate.clear();
+	}
+
+	protected boolean shown = false;
+
+	public void setShown(boolean shown) {
+		this.shown = shown;
+		if (shown) {
+			update();
+		}
 	}
 
 }

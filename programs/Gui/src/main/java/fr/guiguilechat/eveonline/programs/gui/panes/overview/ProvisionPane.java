@@ -110,7 +110,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 
 	@Override
 	public void onNewProvision(int itemID, int qtty) {
-		if (showProvisions) {
+		if (shown) {
 			ProvisionPreparation pr = getProvision(itemID);
 			pr.required = qtty;
 			pr.ed.who = parent().settings.focusedTeam;
@@ -120,7 +120,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 
 	@Override
 	public void onTeamNewItems(String team, Map<Integer, Long> itemsDiff) {
-		if (!showProvisions || team == null || !team.equals(parent.settings.focusedTeam)) {
+		if (!shown || team == null || !team.equals(parent.settings.focusedTeam)) {
 			logger.debug("skipping items diff for team " + team);
 			return;
 		}
@@ -158,20 +158,19 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	public void onFocusedTeam(String teamName) {
 		getItems().clear();
 		itemsProvisions.values().forEach(pp -> pp.added = false);
-		if (showProvisions) {
+		if (shown) {
 			prepareProvisions();
 		}
 	}
 
-	boolean showProvisions = false;
+	boolean shown = false;
 
-	public void show() {
-		showProvisions = true;
-		prepareProvisions();
-	}
+	public void setShown(boolean shown) {
+		this.shown = shown;
+		if (shown) {
+			prepareProvisions();
+		}
 
-	public void hide() {
-		showProvisions = false;
 	}
 
 }
