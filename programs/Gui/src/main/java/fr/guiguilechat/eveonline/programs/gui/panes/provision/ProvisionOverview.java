@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.programs.gui.panes.provision;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 
-import fr.guiguilechat.eveonline.database.yaml.LPOffer;
+import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription.Provision;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;

@@ -2,7 +2,7 @@ package fr.guiguilechat.eveonline.programs.gui.panes;
 
 import java.util.Map;
 
-import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 
 /**

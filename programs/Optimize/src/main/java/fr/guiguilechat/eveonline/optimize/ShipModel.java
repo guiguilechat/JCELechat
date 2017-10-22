@@ -5,7 +5,8 @@ import java.util.stream.IntStream;
 import org.chocosolver.solver.Model;
 import org.chocosolver.solver.variables.IntVar;
 
-import fr.guiguilechat.eveonline.database.EveDatabase;
+import fr.guiguilechat.eveonline.model.database.EveDatabase;
+
 
 public class ShipModel extends Model {
 

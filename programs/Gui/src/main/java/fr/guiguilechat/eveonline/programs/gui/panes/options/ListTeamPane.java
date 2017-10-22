@@ -5,8 +5,8 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
-import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
+import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
+import fr.guiguilechat.eveonline.model.database.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.options.ListTeamPane.CharacterTeams;
@@ -58,7 +58,7 @@ public class ListTeamPane extends TableView<CharacterTeams> implements EvePane {
 	@Override
 	public void onNewAPI(int key, String code) {
 		APIRoot aroot = parent.apis.stream().filter(r -> r.key.keyID == key).findFirst().get();
-		for (Character c : aroot.account.characters()) {
+		for (EveChar c : aroot.account.characters()) {
 			charteams.add(new CharacterTeams(c.name));
 			debug("toon " + c.name);
 		}

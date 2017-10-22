@@ -12,10 +12,10 @@ import java.util.stream.Collectors;
 
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
-import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
-import fr.guiguilechat.eveonline.database.apiv2.Char;
-import fr.guiguilechat.eveonline.database.apiv2.Char.JobEntry;
+import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
+import fr.guiguilechat.eveonline.model.database.apiv2.Account.EveChar;
+import fr.guiguilechat.eveonline.model.database.apiv2.Char;
+import fr.guiguilechat.eveonline.model.database.apiv2.Char.JobEntry;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.overview.JobPane.JobData;
@@ -143,7 +143,7 @@ public class JobPane extends TableView<JobData> implements EvePane {
 	 *
 	 * @param c
 	 */
-	protected void addCharJobs(Character c) {
+	protected void addCharJobs(EveChar c) {
 		for (JobEntry e : industryJobs(c)) {
 			JobData ed = new JobData();
 			ed.time = e.endDate;
@@ -177,7 +177,7 @@ public class JobPane extends TableView<JobData> implements EvePane {
 	 * @param api
 	 * @return
 	 */
-	protected ArrayList<JobEntry> industryJobs(Character c) {
+	protected ArrayList<JobEntry> industryJobs(EveChar c) {
 		Date nextCall = cachedJobsDate.get(c.characterID);
 		Date now = new Date();
 		if (nextCall == null || nextCall.before(now)) {

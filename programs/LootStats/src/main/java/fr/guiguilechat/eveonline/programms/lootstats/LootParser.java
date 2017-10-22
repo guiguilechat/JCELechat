@@ -15,9 +15,9 @@ import java.util.HashSet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.database.EveDatabase;
-import fr.guiguilechat.eveonline.database.yaml.MetaInf;
-import fr.guiguilechat.eveonline.database.yaml.Type;
+import fr.guiguilechat.eveonline.model.database.EveDatabase;
+import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
+import fr.guiguilechat.eveonline.model.database.yaml.Type;
 
 public class LootParser {
 

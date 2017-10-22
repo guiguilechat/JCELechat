@@ -15,17 +15,17 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.database.EveDatabase;
-import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
-import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
-import fr.guiguilechat.eveonline.database.apiv2.Char.BPEntry;
-import fr.guiguilechat.eveonline.database.esi.ESIMarket;
-import fr.guiguilechat.eveonline.database.yaml.Blueprint;
-import fr.guiguilechat.eveonline.database.yaml.Blueprint.Material;
-import fr.guiguilechat.eveonline.database.yaml.Location;
-import fr.guiguilechat.eveonline.database.yaml.MetaInf;
-import fr.guiguilechat.eveonline.database.yaml.Type;
-import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.database.EveDatabase;
+import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
+import fr.guiguilechat.eveonline.model.database.apiv2.Account.EveChar;
+import fr.guiguilechat.eveonline.model.database.apiv2.Char.BPEntry;
+import fr.guiguilechat.eveonline.model.database.esi.ESIMarket;
+import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
+import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material;
+import fr.guiguilechat.eveonline.model.database.yaml.Location;
+import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
+import fr.guiguilechat.eveonline.model.database.yaml.Type;
+import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 
 /**
  *
@@ -80,7 +80,7 @@ public class ProdEval {
 			}
 		}
 		ESIMarket market = new ESIMarket(hubR.locationID);
-		Stream<Character> characters = apis.parallelStream().map(s_arr -> new APIRoot(Integer.parseInt(s_arr[0]), s_arr[1]))
+		Stream<EveChar> characters = apis.parallelStream().map(s_arr -> new APIRoot(Integer.parseInt(s_arr[0]), s_arr[1]))
 				.flatMap(api -> api.account.characters().parallelStream()).filter(c -> acceptName(c.name.toLowerCase()));
 		// first pass we copy the bpcs to get the required and produced amount of
 		// materials
@@ -104,7 +104,7 @@ public class ProdEval {
 		return evaluations;
 	}
 
-	protected Stream<BPEval> evalCharacter(Character chara, EveDatabase db) {
+	protected Stream<BPEval> evalCharacter(EveChar chara, EveDatabase db) {
 		HashMap<String, Integer> skills = chara.skillsByName();
 		return chara.blueprints().parallelStream().map(bp -> evalBP(bp, db, skills))
 				.filter(bpe -> bpe != null);

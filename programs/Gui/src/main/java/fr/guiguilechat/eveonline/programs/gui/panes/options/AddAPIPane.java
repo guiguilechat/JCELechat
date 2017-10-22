@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.programs.gui.panes.options;
 
-import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
+import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import javafx.event.Event;

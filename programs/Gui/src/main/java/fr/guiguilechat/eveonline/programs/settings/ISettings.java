@@ -11,7 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.representer.Representer;
 
-import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
+
 
 /**
  * data stored locally for any platform.

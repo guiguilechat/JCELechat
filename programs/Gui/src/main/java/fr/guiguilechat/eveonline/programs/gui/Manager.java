@@ -16,14 +16,14 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.database.apiv2.APIRoot;
-import fr.guiguilechat.eveonline.database.apiv2.Account.Character;
-import fr.guiguilechat.eveonline.database.apiv2.Char.Content;
-import fr.guiguilechat.eveonline.database.apiv2.Char.OrderEntry;
-import fr.guiguilechat.eveonline.database.yaml.LPOffer;
-import fr.guiguilechat.eveonline.database.yaml.LPOffer.ItemRef;
-import fr.guiguilechat.eveonline.database.yaml.Station;
-import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
+import fr.guiguilechat.eveonline.model.database.apiv2.Account.EveChar;
+import fr.guiguilechat.eveonline.model.database.apiv2.Char.Content;
+import fr.guiguilechat.eveonline.model.database.apiv2.Char.OrderEntry;
+import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
+import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
+import fr.guiguilechat.eveonline.model.database.yaml.Station;
+import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription;
 import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription.Provision;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
@@ -203,11 +203,11 @@ public class Manager extends Application implements EvePane {
 		return null;
 	}
 
-	public Stream<Character> streamChars() {
+	public Stream<EveChar> streamChars() {
 		return apis.stream().flatMap(a -> a.account.characters().stream());
 	}
 
-	public Stream<Character> streamTeamCharacters(String team) {
+	public Stream<EveChar> streamTeamCharacters(String team) {
 		if (team != null && settings.teams.containsKey(team)) {
 			Set<String> members = settings.teams.get(team).members;
 			return streamChars().filter(c -> members.contains(c.name));
@@ -215,7 +215,7 @@ public class Manager extends Application implements EvePane {
 		return Stream.empty();
 	}
 
-	public Stream<Character> streamFTeamCharacters() {
+	public Stream<EveChar> streamFTeamCharacters() {
 		return streamTeamCharacters(settings.focusedTeam);
 	}
 
@@ -287,12 +287,12 @@ public class Manager extends Application implements EvePane {
 	 */
 	public Set<String> getTeamPossibleSystems(String team) {
 		Set<String> allowedChars = settings.teams.get(team).members;
-		Stream<Character> chars = apis.parallelStream().flatMap(a -> a.account.characters().parallelStream())
+		Stream<EveChar> chars = apis.parallelStream().flatMap(a -> a.account.characters().parallelStream())
 				.filter(c -> allowedChars.contains(c.name));
 		return chars.flatMap(this::streamCharPossibleSystems).collect(Collectors.toSet());
 	}
 
-	public Stream<String> streamCharPossibleSystems(Character c) {
+	public Stream<String> streamCharPossibleSystems(EveChar c) {
 		HashMap<Long, Station> stationsById = db.getStationById();
 		return Stream.concat(c.marketOrders().stream().map(oe -> oe.stationID), c.assetList().keySet().stream()).distinct()
 				.map(l -> stationsById.get(l)).filter(s -> s != null).map(s -> s.system);
@@ -398,7 +398,7 @@ public class Manager extends Application implements EvePane {
 	protected Map<Long, Map<String, Map<Integer, Long>>> itemsByCharName = Collections.synchronizedMap(new HashMap<>());
 	protected Map<Long, Date> expireItemsByCharName = new HashMap<>();
 
-	public Map<String, Map<Integer, Long>> getCharItems(Character c) {
+	public Map<String, Map<Integer, Long>> getCharItems(EveChar c) {
 		Date cacheExpire = expireItemsByCharName.get(c.characterID);
 		Date now = new Date();
 		if (cacheExpire != null && cacheExpire.after(now)) {
@@ -414,7 +414,7 @@ public class Manager extends Application implements EvePane {
 	}
 
 	/** fetch the assets and BO of given character */
-	protected Map<String, Map<Integer, Long>> fetchCharItems(Character c) {
+	protected Map<String, Map<Integer, Long>> fetchCharItems(EveChar c) {
 		HashMap<Long, Station> stationById = db().getStationById();
 		// for each
 		HashMap<String, Map<Integer, Long>> itemsqtty = new HashMap<>();
@@ -525,7 +525,7 @@ public class Manager extends Application implements EvePane {
 	 *          the character to get the items for
 	 * @return a new Hashmap, system->itemid->difference in number.
 	 */
-	protected Map<String, Map<Integer, Long>> computeItemsDiff(Character c) {
+	protected Map<String, Map<Integer, Long>> computeItemsDiff(EveChar c) {
 
 		// if we don't need to fetch data gain, return empty map
 		Date now = new Date();
