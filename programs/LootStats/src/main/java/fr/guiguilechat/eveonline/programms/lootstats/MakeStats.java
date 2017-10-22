@@ -32,9 +32,9 @@ import org.jfree.data.time.Week;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.database.esi.ESIMarket;
-import fr.guiguilechat.eveonline.database.yaml.Type;
-import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.database.esi.ESIMarket;
+import fr.guiguilechat.eveonline.model.database.yaml.Type;
+import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 
 public class MakeStats {
 

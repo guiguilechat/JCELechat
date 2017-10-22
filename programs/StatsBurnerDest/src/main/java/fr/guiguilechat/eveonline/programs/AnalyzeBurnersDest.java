@@ -14,9 +14,9 @@ import java.util.function.ToIntFunction;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.eveonline.database.locations.Distances;
-import fr.guiguilechat.eveonline.database.yaml.Location;
-import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.database.locations.Distances;
+import fr.guiguilechat.eveonline.model.database.yaml.Location;
+import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 
 public class AnalyzeBurnersDest {
 

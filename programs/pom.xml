@@ -1,29 +1,43 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>fr.guiguilechat</groupId>
-    <artifactId>EveOnline</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>fr.guiguilechat.eveonline</groupId>
+    <artifactId>Common</artifactId>
+    <version>1.0.0</version>
   </parent>
-  <groupId>fr.guiguilechat.eveonline</groupId>
   <artifactId>programs</artifactId>
   <packaging>pom</packaging>
   <name>Programs</name>
   <description>pom for all main programs</description>
   <modules>
   	<module>EvaluateRigMarket</module>
-  	<module>evaluateL4Agents</module>
+  	<module>EvaluateL4Agents</module>
   	<module>StatsBurnerDest</module>
   	<module>LootStats</module>
   	<module>Optimize</module>
-  	<module>copypasteve</module>
   	<module>EvalMyProd</module>
-  	<module>UnCutOrders</module>
   	<module>Gui</module>
   </modules>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>fr.guiguilechat.eveonline.model</groupId>
+  			<artifactId>DataBase</artifactId>
+  			<version>${model-version}</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>fr.guiguilechat.eveonline.model</groupId>
+  			<artifactId>SDE</artifactId>
+  			<version>${model-version}</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
+  <properties>
+  	<model-version>1.0.1</model-version>
+  </properties>
   <dependencies>
   	<dependency>
-  		<groupId>fr.guiguilechat.eveonline</groupId>
+  		<groupId>fr.guiguilechat.eveonline.model</groupId>
   		<artifactId>DataBase</artifactId>
   	</dependency>
   </dependencies>

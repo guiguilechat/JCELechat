@@ -1,8 +1,8 @@
 package fr.guiguilechat.eveonline.optimize;
 
-import fr.guiguilechat.eveonline.database.EveDatabase;
-import fr.guiguilechat.eveonline.database.yaml.Hull;
-import fr.guiguilechat.eveonline.database.yaml.Module;
+import fr.guiguilechat.eveonline.model.database.EveDatabase;
+import fr.guiguilechat.eveonline.model.database.yaml.Hull;
+import fr.guiguilechat.eveonline.model.database.yaml.Module;
 
 public class Bridge {
 

@@ -4,8 +4,8 @@ import org.chocosolver.solver.Solution;
 import org.chocosolver.solver.exception.ContradictionException;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.eveonline.database.yaml.Hull;
-import fr.guiguilechat.eveonline.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.database.yaml.Hull;
+import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 
 public class ShipModelTest {
 
