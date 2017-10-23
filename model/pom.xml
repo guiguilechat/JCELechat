@@ -18,6 +18,12 @@
 		<artifactId>Common</artifactId>
 		<version>1.0.2</version>
 	</parent>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.312-SNAPSHOT</version>
 	<groupId>fr.guiguilechat.eveonline</groupId>
+	<scm>
+		<url>https://github.com/guiguilechat/EveOnline</url>
+		<connection>scm:git:git://github.com/guiguilechat/EveOnline.git</connection>
+		<developerConnection>scm:git:git@github.com:guiguilechat/EveOnline.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 </project>

@@ -7964,7 +7964,7 @@ metaInfs:
     id: 643
     productIn:
     - Redeemer Blueprint
-    - 末日��场级YC117年特别版蓝图
+    - 末日沙场级YC117年特别版蓝图
     productOf:
     - Armageddon Blueprint
     volume: 486000.0
@@ -7980,7 +7980,7 @@ metaInfs:
     productIn:
     - Sin Blueprint
     - Dominix Quafe Edition Blueprint
-    - 多米尼克斯级YC117年特别版蓝图
+    - 多米尼克斯���YC117年特别版蓝图
     productOf:
     - Dominix Blueprint
     volume: 454500.0
@@ -28372,7 +28372,7 @@ metaInfs:
   Eagle:
     id: 12011
     productIn:
-    - 银鹰级YC117年特别版蓝图
+    - 银鹰级YC117年特别版蓝���
     productOf:
     - Eagle Blueprint
     volume: 101000.0
@@ -48617,7 +48617,7 @@ metaInfs:
     id: 24698
     productIn:
     - Nighthawk Blueprint
-    - 幼龙级YC117年特别版��图
+    - 幼��级YC117年特别版蓝图
     productOf:
     - Drake Blueprint
     volume: 252000.0
@@ -60351,7 +60351,7 @@ metaInfs:
   Verification Key:
     id: 30951
     volume: 3.0
-  Dossier – Author Unknown:
+  Dossier �� Author Unknown:
     id: 30952
     volume: 0.1
   Hyasyoda Captain:
@@ -68511,7 +68511,7 @@ metaInfs:
   Self-regulating Machine Gears:
     id: 34452
     volume: 0.1
-  末日��场级YC117年特别版蓝图:
+  末日沙场级YC117年特别版蓝图:
     id: 34458
     volume: 0.01
   地狱天使级YC117年特别版蓝图:
@@ -68523,7 +68523,7 @@ metaInfs:
   响尾蛇级YC117年特别版蓝图:
     id: 34464
     volume: 0.01
-  多米尼克斯级YC117年特别版蓝图:
+  多米尼克斯���YC117年特别版蓝图:
     id: 34466
     volume: 0.01
   万王宝座级YC117年特别版蓝图:
@@ -68535,13 +68535,13 @@ metaInfs:
   灾难级YC117年特别版蓝图:
     id: 34472
     volume: 0.01
-  幼龙级YC117年特别版��图:
+  幼��级YC117年特别版蓝图:
     id: 34474
     volume: 0.01
   毒蜥级YC117年特别版蓝图:
     id: 34476
     volume: 0.01
-  银鹰级YC117年特别版蓝图:
+  银鹰级YC117年特别版蓝���:
     id: 34478
     volume: 0.01
   伊什塔级YC117年特别版蓝图:
@@ -76147,7 +76147,7 @@ metaInfs:
     productOf:
     - ���Holy Destiny’ Electromagnetic Lance Blueprint
     volume: 8000.0
-  ‘Divine Harvest�� Electromagnetic Reaper:
+  ‘Divine Harvest’ Electromagnetic Reaper:
     id: 40632
     productOf:
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -80090,7 +80090,7 @@ metaInfs:
   Women's ‘Defender’ Beret (Gallente Federation):
     id: 42709
     volume: 0.1
-  Men's ��Liberator’ Beret (Minmatar Republic):
+  Men's ‘Liberator’ Beret (Minmatar Republic):
     id: 42712
     volume: 0.1
   Women's 'Pithum' Beret (Guristas):
@@ -80126,7 +80126,7 @@ metaInfs:
   Women's ‘Protector’ Beret (Caldari State):
     id: 42740
     volume: 0.1
-  Men��s ‘Crusader’ Beret (Amarr Empire):
+  Men’s ‘Crusader’ Beret (Amarr Empire):
     id: 42741
     volume: 0.1
   Women's 'Crusader' Beret (Amarr Empire):
@@ -84689,7 +84689,7 @@ metaInfs:
     - Vexor Quafe Edition Blueprint
   末日沙场级YC117年特别版:
     productOf:
-    - 末日��场级YC117年特别版蓝图
+    - 末日沙场级YC117年特别版蓝图
   地狱天使级YC117年特别版:
     productOf:
     - 地狱天使级YC117年特别版蓝图
@@ -84699,9 +84699,9 @@ metaInfs:
   响尾蛇级YC117年特别版:
     productOf:
     - 响尾蛇级YC117年特别版蓝图
-  多米尼克斯��YC117年特别版:
+  多米尼克斯级YC117年特别版:
     productOf:
-    - 多米尼克斯级YC117年特别版蓝图
+    - 多米尼克斯���YC117年特别版蓝图
   万王宝座级YC117年特别版:
     productOf:
     - 万王宝座级YC117年特别版蓝图
@@ -84713,13 +84713,13 @@ metaInfs:
     - 灾难级YC117年特别版蓝图
   幼龙级YC117年特别版:
     productOf:
-    - 幼龙级YC117年特别版��图
-  毒蜥级YC117年���别版:
+    - 幼��级YC117年特别版蓝图
+  毒蜥级YC117年特别版:
     productOf:
     - 毒蜥级YC117年特别版蓝图
   银鹰级YC117年特别版:
     productOf:
-    - 银鹰级YC117年特别版蓝图
+    - 银鹰级YC117年特别版蓝���
   伊什塔级YC117年特别版:
     productOf:
     - 伊什塔级YC117年特别版蓝图
