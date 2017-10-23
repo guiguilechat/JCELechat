@@ -6,7 +6,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<packaging>pom</packaging>
-	<name>EveOnline</name>
+	<name>model</name>
 
 	<modules>
 		<module>Database</module>
@@ -16,7 +16,8 @@
 	<parent>
 		<groupId>fr.guiguilechat.eveonline</groupId>
 		<artifactId>Common</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.2</version>
 	</parent>
-	<version>1.0.1</version>
+	<version>1.0.2-SNAPSHOT</version>
+	<groupId>fr.guiguilechat.eveonline</groupId>
 </project>
