@@ -41,6 +41,12 @@
   		<artifactId>DataBase</artifactId>
   	</dependency>
   </dependencies>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.1.0-SNAPSHOT</version>
   <groupId>fr.guiguilechat.eveonline</groupId>
+	<scm>
+		<url>https://github.com/guiguilechat/EveOnline</url>
+		<connection>scm:git:git://github.com/guiguilechat/EveOnline.git</connection>
+		<developerConnection>scm:git:git@github.com:guiguilechat/EveOnline.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 </project>
