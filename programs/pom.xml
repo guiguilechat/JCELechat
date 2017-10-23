@@ -41,4 +41,6 @@
   		<artifactId>DataBase</artifactId>
   	</dependency>
   </dependencies>
+  <version>1.0.1-SNAPSHOT</version>
+  <groupId>fr.guiguilechat.eveonline</groupId>
 </project>
