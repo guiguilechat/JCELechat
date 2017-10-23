@@ -22,8 +22,8 @@
 	<groupId>fr.guiguilechat.eveonline</groupId>
 	<scm>
 		<url>https://github.com/guiguilechat/EveOnline</url>
-		<connection>scm:git:git://github.com/guiguilechat/EveOnline.git</connection>
-		<developerConnection>scm:git:git@github.com:guiguilechat/EveOnline.git</developerConnection>
+		<connection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</connection>
+		<developerConnection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 </project>
