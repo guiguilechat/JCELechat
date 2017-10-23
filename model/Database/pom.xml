@@ -64,6 +64,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	<scm>
+		<url>https://github.com/guiguilechat/EveOnline</url>
+		<connection>scm:git:git://github.com/guiguilechat/EveOnline.git</connection>
+		<developerConnection>scm:git:git@github.com:guiguilechat/EveOnline.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 	<description>generates local helper files from the CCP SDE and ESI.
 
 Those files use String description instead of internal references (IDs), thought the id is kept to be able to call ESI or eve central eg.</description>
