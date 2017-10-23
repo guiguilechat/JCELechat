@@ -19,6 +19,7 @@ public class OptionPane extends VBox implements EvePane {
 	ListTeamPane listTeam;
 	ModifTeamPane addTeam;
 	TeamSystemManager teamSystem;
+	TitledPane tpapi, tpteams;
 
 	EvePane[] children;
 
@@ -34,9 +35,27 @@ public class OptionPane extends VBox implements EvePane {
 		listTeam = new ListTeamPane(parent);
 		addTeam = new ModifTeamPane(parent);
 		teamSystem = new TeamSystemManager(parent);
+		tpapi = new TitledPane("api keys", new VBox(listApi, addApi));
+		tpapi.setExpanded(false);
+		tpteams = new TitledPane("teams", new VBox(listTeam, addTeam, teamSystem));
+		tpteams.setExpanded(false);
 		children = new EvePane[] { listApi, addApi, listTeam, addTeam, teamSystem };
-		getChildren().addAll(new TitledPane("api keys", new VBox(listApi, addApi)),
-				new TitledPane("teams", new VBox(listTeam, addTeam, teamSystem)));
+		getChildren().addAll(tpapi, tpteams);
+	}
+
+	@Override
+	public boolean isShownSubPane(EvePane child) {
+		if (tpteams.isExpanded()) {
+			if (child == listTeam || child == addTeam || child == teamSystem) {
+				return true;
+			}
+		}
+		if (tpapi.isExpanded()) {
+			if (child == listApi || child == addApi) {
+				return true;
+			}
+		}
+		return false;
 	}
 
 }

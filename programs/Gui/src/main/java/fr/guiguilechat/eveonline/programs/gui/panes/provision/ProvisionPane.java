@@ -29,6 +29,7 @@ public class ProvisionPane extends BorderPane implements EvePane {
 
 	protected ProvisionLPStorePane lpstore;
 	protected ProvisionOverview overview;
+	TitledPane op, lp;
 
 	protected SelectTeamPane selectTeam;
 
@@ -48,28 +49,34 @@ public class ProvisionPane extends BorderPane implements EvePane {
 
 		lpstore = new ProvisionLPStorePane(parent);
 		overview = new ProvisionOverview(parent);
-		TitledPane op = new TitledPane("overview", overview);
-		TitledPane lp = new TitledPane("lpstore", lpstore);
+		op = new TitledPane("overview", overview);
+		lp = new TitledPane("lpstore", lpstore);
 		accordion = new Accordion(lp, op);
 		accordion.expandedPaneProperty().addListener((ov, old, now) -> {
-			if (now == lp) {
-				lpstore.load();
-			} else if (now == op) {
-				overview.load();
+			if (old != null) {
+				TP2Pane(old).propagateIsShown(false);
+			}
+			if (now != null) {
+				TP2Pane(now).propagateIsShown(true);
 			}
 		});
 		setCenter(accordion);
 		children = new EvePane[] { selectTeam, lpstore, overview };
 	}
 
-	public void showLPStore() {
-		lpstore.load();
-		setCenter(lpstore);
+	protected EvePane TP2Pane(TitledPane tp) {
+		if (op == tp) {
+			return overview;
+		}
+		if (lp == tp) {
+			return lpstore;
+		}
+		return null;
 	}
 
-	public void showOverview() {
-		overview.load();
-		setCenter(overview);
+	@Override
+	public boolean isShownSubPane(EvePane child) {
+		return child == TP2Pane(accordion.getExpandedPane());
 	}
 
 }

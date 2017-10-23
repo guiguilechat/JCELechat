@@ -37,14 +37,13 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.geometry.Side;
 import javafx.scene.Scene;
-import javafx.scene.control.Control;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.TabPane.TabClosingPolicy;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TitledPane;
-import javafx.scene.layout.VBox;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 public class Manager extends Application implements EvePane {
@@ -64,11 +63,13 @@ public class Manager extends Application implements EvePane {
 
 	public final ObservableList<APIRoot> apis = FXCollections.observableArrayList();
 
-	public VBox mainLayout = new VBox();
+	public BorderPane mainLayout = new BorderPane();
 
 	public OverViewPane overviewPane = new OverViewPane(this);
 	public ProvisionPane provisionpane = new ProvisionPane(this);
 	public OptionPane optionPane = new OptionPane(this);
+	TabPane tabs;
+	Tab overviewtab, provisiontab, optionstab;
 
 	public EvePane[] children = new EvePane[] { overviewPane, provisionpane, optionPane };
 
@@ -78,23 +79,41 @@ public class Manager extends Application implements EvePane {
 	}
 
 	@Override
+	public boolean isShownSubPane(EvePane child) {
+		Tab selected = tabs.getSelectionModel().getSelectedItem();
+		return selected == overviewtab && child == overviewPane || selected == provisiontab && child == provisionpane
+				|| selected == optionstab && child == optionPane;
+	}
+
+	@Override
 	public void start(Stage primaryStage) throws Exception {
 		logger.debug("start manager");
 		primaryStage.setTitle("guigui lechat manager");
-		TabPane tabs = new TabPane(new Tab("overview", overviewPane), new Tab("provision", provisionpane),
-				new Tab("options", optionPane));
+		overviewtab = new Tab("overview", overviewPane);
+		provisiontab = new Tab("provision", provisionpane);
+		optionstab = new Tab("options", optionPane);
+		tabs = new TabPane(overviewtab, provisiontab, optionstab);
 		tabs.setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
 		tabs.setSide(Side.LEFT);
-		TitledPane tpDebug = new TitledPane("debug", debugPane);
-		tpDebug.setExpanded(false);
-		tpDebug.expandedProperty().addListener((ov, old, now) -> {
-			if (now) {
-				tpDebug.setMinHeight(500);
-			} else {
-				tpDebug.setMinHeight(Control.USE_COMPUTED_SIZE);
+		tabs.getSelectionModel().selectedItemProperty().addListener((ov, old, now) -> {
+			if (old != null) {
+				((EvePane) old.getContent()).propagateIsShown(false);
+			}
+			if (now != null) {
+				((EvePane) now.getContent()).propagateIsShown(true);
 			}
 		});
-		mainLayout.getChildren().addAll(tabs, tpDebug);
+		TitledPane tpDebug = new TitledPane("debug", debugPane);
+		tpDebug.setExpanded(false);
+		// tpDebug.expandedProperty().addListener((ov, old, now) -> {
+		// if (now) {
+		// tpDebug.setMinHeight(500);
+		// } else {
+		// tpDebug.setMinHeight(Control.USE_COMPUTED_SIZE);
+		// }
+		// });
+		mainLayout.setCenter(tabs);
+		mainLayout.setBottom(tpDebug);
 
 		Scene scene = new Scene(mainLayout, 800, 900);
 		primaryStage.setScene(scene);

@@ -48,7 +48,9 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		if (loaded) {
 			return;
 		}
-		lpoffers = db().getLPOffers();
+		if (lpoffers == null) {
+			lpoffers = db().getLPOffers();
+		}
 		selectionPane.getChildren().add(new Label("corporation: "));
 		corporationChoice.getItems()
 		.addAll(lpoffers.stream().map(lo -> lo.corporation).distinct().sorted().collect(Collectors.toList()));
@@ -156,5 +158,13 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 	@Override
 	public void onNewProvision(int itemID, int qtty) {
 		updateOffers();
+	}
+
+	@Override
+	public void onIsShown(boolean shown) {
+		logger.debug("Provision lpstore is shown " + shown);
+		if (shown) {
+			load();
+		}
 	}
 }

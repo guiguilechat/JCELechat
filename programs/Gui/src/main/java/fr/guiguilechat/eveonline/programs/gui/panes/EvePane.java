@@ -37,6 +37,7 @@ public interface EvePane {
 
 	// when manager is started
 
+	/** do not override this */
 	public default void propagateStart() {
 		onStart();
 		for (EvePane p : subEvePanes()) {
@@ -44,6 +45,7 @@ public interface EvePane {
 		}
 	}
 
+	/** override to make actions when manager is loaded and started */
 	public default void onStart() {
 	}
 
@@ -206,6 +208,7 @@ public interface EvePane {
 	public default void onTeamNewItems(String team, Map<Integer, Long> itemsDiff) {
 	}
 
+	/** do not override this */
 	public default void propagateAddTeamSystem(String teamName, String sysName) {
 		for (EvePane p : subEvePanes()) {
 			p.propagateAddTeamSystem(teamName, sysName);
@@ -216,6 +219,7 @@ public interface EvePane {
 	public default void onAddTeamSystem(String teamName, String sysName) {
 	}
 
+	/** do not override this */
 	public default void propagateRemTeamSystem(String teamName, String sysName) {
 		for (EvePane p : subEvePanes()) {
 			p.propagateRemTeamSystem(teamName, sysName);
@@ -223,11 +227,18 @@ public interface EvePane {
 		onRemTeamSystem(teamName, sysName);
 	}
 
+	/**
+	 * override to handle removal of a system from a team.
+	 *
+	 * @param teamName
+	 * @param sysName
+	 */
 	public default void onRemTeamSystem(String teamName, String sysName) {
 	}
 
 	// provision
 
+	/** do not override this */
 	public default void propagateNewProvision(int itemID, int qtty) {
 		for (EvePane p : subEvePanes()) {
 			p.propagateNewProvision(itemID, qtty);
@@ -244,6 +255,37 @@ public interface EvePane {
 	 * @param qtty
 	 */
 	public default void onNewProvision(int itemID, int qtty) {
+	}
+
+	// visibility
+
+	/** do not override this */
+	public default void propagateIsShown(boolean shown) {
+		onIsShown(shown);
+		for (EvePane p : subEvePanes()) {
+			if (isShownSubPane(p)) {
+				p.propagateIsShown(shown);
+			}
+		}
+	}
+
+	/**
+	 * override this to specify if a child pane is actually shown
+	 *
+	 * @return true if the pane is actually shown. defaults to true.
+	 */
+	public default boolean isShownSubPane(EvePane child) {
+		return true;
+	}
+
+	/**
+	 * override to handle a case when this Pane is shown or hidden
+	 *
+	 * @param shown
+	 *          the boolean state of visibility
+	 */
+	public default void onIsShown(boolean shown) {
+
 	}
 
 }

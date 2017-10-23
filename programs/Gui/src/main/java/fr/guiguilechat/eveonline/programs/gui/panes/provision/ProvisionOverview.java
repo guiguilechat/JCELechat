@@ -3,6 +3,9 @@ package fr.guiguilechat.eveonline.programs.gui.panes.provision;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription.Provision;
@@ -12,6 +15,8 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 
 public class ProvisionOverview extends GridPane implements EvePane {
+
+	private static final Logger logger = LoggerFactory.getLogger(ProvisionOverview.class);
 
 	protected Manager parent;
 
@@ -26,24 +31,18 @@ public class ProvisionOverview extends GridPane implements EvePane {
 
 	LinkedHashMap<Integer, LPOffer> lpoffersbyId = null;
 
-	protected boolean loaded() {
-		return lpoffersbyId != null;
-	}
+	boolean shown = false;
 
-	public void load() {
+	public void update() {
+		getChildren().clear();
+		if (!shown) {
+			return;
+		}
 		if (lpoffersbyId == null) {
 			lpoffersbyId = new LinkedHashMap<>();
 			for (LPOffer lpo : db().getLPOffers()) {
 				lpoffersbyId.put(lpo.id, lpo);
 			}
-		}
-		update();
-	}
-
-	public void update() {
-		getChildren().clear();
-		if (!loaded()) {
-			return;
 		}
 		int row=0;
 		Provision p = parent().getFTeamProvision();
@@ -75,6 +74,13 @@ public class ProvisionOverview extends GridPane implements EvePane {
 
 	@Override
 	public void onDelTeam(String name) {
+		update();
+	}
+
+	@Override
+	public void onIsShown(boolean shown) {
+		logger.debug("Provision overview is shown " + shown);
+		this.shown = shown;
 		update();
 	}
 
