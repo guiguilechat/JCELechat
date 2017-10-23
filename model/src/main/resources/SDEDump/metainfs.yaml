@@ -1176,8 +1176,8 @@ metaInfs:
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
-    - ���Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Geiravor’ Explosive Lance Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -2344,8 +2344,8 @@ metaInfs:
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
-    - ���Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Geiravor’ Explosive Lance Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -3319,8 +3319,8 @@ metaInfs:
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
-    - ���Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Geiravor’ Explosive Lance Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -4203,8 +4203,8 @@ metaInfs:
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
-    - ���Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Geiravor’ Explosive Lance Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -5032,8 +5032,8 @@ metaInfs:
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
-    - ���Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Geiravor’ Explosive Lance Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -5726,8 +5726,8 @@ metaInfs:
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
-    - ���Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Geiravor’ Explosive Lance Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -6503,8 +6503,8 @@ metaInfs:
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
     - ‘Iron Pike’ Kinetic Lance Blueprint
     - ‘Phalarica’ Thermal Lance Blueprint
-    - ���Geiravor’ Explosive Lance Blueprint
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Geiravor’ Explosive Lance Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
     - ‘Jormungandr’ Explosive Reaper Blueprint
     - ‘Divine Harvest’ Electromagnetic Reaper Blueprint
@@ -7945,7 +7945,7 @@ metaInfs:
     - Megathron Quafe Edition Blueprint
     - Megathron Police Edition Blueprint
     - Megathron Inner Zone Shipping Edition Blueprint
-    - 万王宝座级YC117年特别版蓝图
+    - 万王宝���级YC117年特别版蓝图
     productOf:
     - Megathron Blueprint
     volume: 486000.0
@@ -7956,7 +7956,7 @@ metaInfs:
     - Apocalypse Blood Raider Edition Blueprint
     - Apocalypse Kador Edition Blueprint
     - Apocalypse Tash-Murkon Edition Blueprint
-    - 灾��级YC117年特别版蓝图
+    - 灾难级YC117年特别版蓝图
     productOf:
     - Apocalypse Blueprint
     volume: 495000.0
@@ -7964,7 +7964,7 @@ metaInfs:
     id: 643
     productIn:
     - Redeemer Blueprint
-    - 末日沙场级YC117年特别版蓝图
+    - 末日沙场级YC117年特别��蓝图
     productOf:
     - Armageddon Blueprint
     volume: 486000.0
@@ -28372,7 +28372,7 @@ metaInfs:
   Eagle:
     id: 12011
     productIn:
-    - 银鹰级YC117年特别版蓝图
+    - 银鹰��YC117年特别版蓝图
     productOf:
     - Eagle Blueprint
     volume: 101000.0
@@ -36367,7 +36367,7 @@ metaInfs:
   Gila:
     id: 17715
     productIn:
-    - 毒蜥级YC117年特别版蓝图
+    - 毒蜥���YC117年特别版蓝图
     productOf:
     - Gila Blueprint
     volume: 101000.0
@@ -36433,7 +36433,7 @@ metaInfs:
   Machariel:
     id: 17738
     productIn:
-    - 马克瑞级YC117年特别版蓝图
+    - 马克瑞级YC117年���别版蓝图
     productOf:
     - Machariel Blueprint
     volume: 595000.0
@@ -36817,7 +36817,7 @@ metaInfs:
     id: 17918
     productIn:
     - Rattlesnake Victory Edition Blueprint
-    - 响尾蛇级YC117年特别版蓝图
+    - 响尾蛇级YC117年特别��蓝图
     productOf:
     - Rattlesnake Blueprint
     volume: 486000.0
@@ -48585,7 +48585,7 @@ metaInfs:
     productIn:
     - Abaddon Tash-Murkon Edition Blueprint
     - Abaddon Kador Edition Blueprint
-    - 地狱天使级YC117年特���版蓝图
+    - 地狱天使级YC117年特别版蓝图
     productOf:
     - Abaddon Blueprint
     volume: 495000.0
@@ -48617,7 +48617,7 @@ metaInfs:
     id: 24698
     productIn:
     - Nighthawk Blueprint
-    - 幼龙级YC117年特别版蓝图
+    - ��龙级YC117年特别版蓝图
     productOf:
     - Drake Blueprint
     volume: 252000.0
@@ -68511,37 +68511,37 @@ metaInfs:
   Self-regulating Machine Gears:
     id: 34452
     volume: 0.1
-  末日沙场级YC117年特别版蓝图:
+  末日沙场级YC117年特别��蓝图:
     id: 34458
     volume: 0.01
-  地狱天使级YC117年特���版蓝图:
+  地狱天使级YC117年特别版蓝图:
     id: 34460
     volume: 0.01
-  马克瑞级YC117年特别版蓝图:
+  马克瑞级YC117年���别版蓝图:
     id: 34462
     volume: 0.01
-  响尾蛇级YC117年特别版蓝图:
+  响尾蛇级YC117年特别��蓝图:
     id: 34464
     volume: 0.01
   多米尼克斯级YC117年特别版蓝图:
     id: 34466
     volume: 0.01
-  万王宝座级YC117年特别版蓝图:
+  万王宝���级YC117年特别版蓝图:
     id: 34468
     volume: 0.01
   乌鸦级YC117年特别版蓝图:
     id: 34470
     volume: 0.01
-  灾��级YC117年特别版蓝图:
+  灾难级YC117年特别版蓝图:
     id: 34472
     volume: 0.01
-  幼龙级YC117年特别版蓝图:
+  ��龙级YC117年特别版蓝图:
     id: 34474
     volume: 0.01
-  毒蜥级YC117年特别版蓝图:
+  毒蜥���YC117年特别版蓝图:
     id: 34476
     volume: 0.01
-  银鹰级YC117年特别版蓝图:
+  银鹰��YC117年特别版蓝图:
     id: 34478
     volume: 0.01
   伊什塔级YC117年特别版蓝图:
@@ -78635,12 +78635,12 @@ metaInfs:
   ‘Geiravor’ Explosive Lance:
     id: 41441
     productOf:
-    - ���Geiravor’ Explosive Lance Blueprint
+    - ‘Geiravor’ Explosive Lance Blueprint
     volume: 8000.0
   ‘Cold Wind’ Kinetic Reaper:
     id: 41442
     productOf:
-    - ‘Cold Wind’ Kinetic Reaper Blueprint
+    - ‘Cold Wind�� Kinetic Reaper Blueprint
     volume: 8000.0
   ‘Guillotine’ Thermal Reaper:
     id: 41443
@@ -78661,10 +78661,10 @@ metaInfs:
   ‘Phalarica’ Thermal Lance Blueprint:
     id: 41447
     volume: 0.01
-  ���Geiravor’ Explosive Lance Blueprint:
+  ‘Geiravor’ Explosive Lance Blueprint:
     id: 41448
     volume: 0.01
-  ‘Cold Wind’ Kinetic Reaper Blueprint:
+  ‘Cold Wind�� Kinetic Reaper Blueprint:
     id: 41449
     volume: 0.01
   ‘Guillotine’ Thermal Reaper Blueprint:
@@ -79119,7 +79119,7 @@ metaInfs:
   'Women''s “Mirelle” Upwell Executive Spectacles ':
     id: 41575
     volume: 0.1
-  Men's “Mirelle��� Upwell Executive Spectacles:
+  Men's “Mirelle” Upwell Executive Spectacles:
     id: 41576
     volume: 0.5
   Capsule Upwell SKIN (Permanent):
@@ -80114,7 +80114,7 @@ metaInfs:
   Women's Beret (Blood Raiders):
     id: 42733
     volume: 0.1
-  Men's ‘Protector’ Beret (Caldari State):
+  Men's ‘Protector�� Beret (Caldari State):
     id: 42736
     volume: 0.1
   Women's ‘Liberator’ Beret (Minmatar Republic):
@@ -84689,37 +84689,37 @@ metaInfs:
     - Vexor Quafe Edition Blueprint
   末日沙场级YC117年特别版:
     productOf:
-    - 末日沙场级YC117年特别版蓝图
+    - 末日沙场级YC117年特别��蓝图
   地狱天使级YC117年特别版:
     productOf:
-    - 地狱天使级YC117年特���版蓝图
+    - 地狱天使级YC117年特别版蓝图
   马克瑞级YC117年特别版:
     productOf:
-    - 马克瑞级YC117年特别版蓝图
-  ��尾蛇级YC117年特别版:
+    - 马克瑞级YC117年���别版蓝图
+  响尾蛇级YC117年特别版:
     productOf:
-    - 响尾蛇级YC117年特别版蓝图
+    - 响尾蛇级YC117年特别��蓝图
   多米尼克斯级YC117年特别版:
     productOf:
     - 多米尼克斯级YC117年特别版蓝图
-  万王��座级YC117年特别版:
+  万王宝座级YC117年特别版:
     productOf:
-    - 万王宝座级YC117年特别版蓝图
+    - 万王宝���级YC117年特别版蓝图
   乌鸦级YC117年特别版:
     productOf:
     - 乌鸦级YC117年特别版蓝图
   灾难级YC117年特别版:
     productOf:
-    - 灾��级YC117年特别版蓝图
+    - 灾难级YC117年特别版蓝图
   幼龙级YC117年特别版:
     productOf:
-    - 幼龙级YC117年特别版蓝图
+    - ��龙级YC117年特别版蓝图
   毒蜥级YC117年特别版:
     productOf:
-    - 毒蜥级YC117年特别版蓝图
+    - 毒蜥���YC117年特别版蓝图
   银鹰级YC117年特别版:
     productOf:
-    - 银鹰级YC117年特别版蓝图
+    - 银鹰��YC117年特别版蓝图
   伊什塔级YC117年特别版:
     productOf:
     - 伊什塔级YC117年特别版蓝图

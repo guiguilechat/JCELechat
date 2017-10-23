@@ -32,7 +32,7 @@
 			<url>ftp://91.121.120.36:12345/stable</url>
 		</repository>
 		<snapshotRepository>
-			<id>kimsufi-repository</id>
+			<id>kimsufi-snapshots</id>
 			<url>ftp://91.121.120.36:12345/snapshot</url>
 		</snapshotRepository>
 	</distributionManagement>
