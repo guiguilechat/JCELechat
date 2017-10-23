@@ -130,6 +130,17 @@ public class Manager extends Application implements EvePane {
 		propagateFocusedTeam(settings.focusedTeam);
 		propagateStart();
 		logger.debug("start manager");
+		new Thread(this::precache).start();
+	}
+
+	protected void precache() {
+		db().getAgents();
+		db.getLocations();
+		db.getStations();
+		db.getMetaInfs();
+		db.getLPOffers();
+		db.getModules();
+		db.getHulls();
 	}
 
 	//
