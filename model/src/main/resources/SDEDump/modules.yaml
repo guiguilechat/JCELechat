@@ -112500,7 +112500,7 @@ modules:
       doomsdayAOEShape: 1.0
       doomsdayRangeIsFixed: 1.0
     volume: 8000.0
-  ‘Divine Harvest�� Electromagnetic Reaper:
+  ‘Divine Harvest’ Electromagnetic Reaper:
     attributes:
       cpu: 100
       powergrid: 100000
@@ -112512,7 +112512,7 @@ modules:
     - hiPower
     groupName: Super Weapon
     id: 40632
-    name: ‘Divine Harvest�� Electromagnetic Reaper
+    name: ‘Divine Harvest’ Electromagnetic Reaper
     rawAttributes:
       capacitorNeed: 35000.0
       maxGroupFitted: 1.0
