@@ -37,15 +37,22 @@ public class Account {
 
 	public APIKeyInfo apiKeyInfo() {
 		String url = BASEURL + "APIKeyInfo.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code;
-		try {
-			Document page = Jsoup.connect(url).get();
-			Element el = page.select("result key").first();
-			APIKeyInfo ret = APIRoot.convertElement(el, APIKeyInfo.class);
-			return ret;
-		} catch (IOException e) {
-			logger.error("while getting api key info for " + parent.key.keyID, e);
-			return null;
+		Exception error = null;
+		for (int retry = 0; retry < 10; retry++) {
+			try {
+				if (retry != 0) {
+					Thread.sleep(500);
+				}
+				Document page = Jsoup.connect(url).get();
+				Element el = page.select("result key").first();
+				APIKeyInfo ret = APIRoot.convertElement(el, APIKeyInfo.class);
+				return ret;
+			} catch (IOException | InterruptedException e) {
+				error = e;
+			}
 		}
+		logger.error("while retrieving api key, url " + url, error);
+		return null;
 	}
 
 	public class EveChar {
@@ -87,15 +94,25 @@ public class Account {
 
 	public ArrayList<EveChar> characters() {
 		String url = BASEURL + "characters.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code;
+		Exception error = null;
 		ArrayList<EveChar> ret = new ArrayList<>();
-		try {
-			Document page = Jsoup.connect(url).get();
-			Elements elements = page.select("result rowset row");
-			for (Element el : elements) {
-				ret.add(APIRoot.convertElement(el, EveChar.class, this));
+		for (int retry = 0; retry < 10; retry++) {
+			try {
+				if (retry != 0) {
+					Thread.sleep(500);
+				}
+				ret.clear();
+				Document page = Jsoup.connect(url).get();
+				Elements elements = page.select("result rowset row");
+				for (Element el : elements) {
+					ret.add(APIRoot.convertElement(el, EveChar.class, this));
+				}
+			} catch (IOException | InterruptedException e) {
+				error = e;
 			}
-		} catch (IOException e) {
-			logger.error("while getting characters for api key " + parent.key.keyID, e);
+		}
+		if (error != null) {
+			logger.error("while getting characters, url " + url, error);
 			return new ArrayList<>();
 		}
 		if (parent.isCorp()) {

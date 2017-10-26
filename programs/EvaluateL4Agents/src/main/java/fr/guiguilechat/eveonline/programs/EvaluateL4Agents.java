@@ -44,7 +44,7 @@ public class EvaluateL4Agents {
 
 	public static void main(String[] args) {
 		// number of concurrent threads in the parallel pool
-		int parrallelism = Runtime.getRuntime().availableProcessors() * 10;
+		int parrallelism = Runtime.getRuntime().availableProcessors() * 100;
 
 		EvaluateL4Agents el4a = new EvaluateL4Agents();
 		LPCorpEvaluator ceval = new LPCorpEvaluator(el4a.db).withLPAmount(1000000);
@@ -66,10 +66,12 @@ public class EvaluateL4Agents {
 		}
 
 		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
-		el4a.corpEvaluator = ceval.cached(el4a.getMarket());
+		ESIMarket market = el4a.getMarket();
+		el4a.corpEvaluator = ceval.cached(market);
 		el4a.systemEvaluator = new SysBurnerEvaluator(10, el4a.db);
 		List<LocalizedLPOffer> offers = el4a.getPossibleAgents().parallel().flatMap(a -> el4a.evaluateOffers(a).stream())
 				.collect(Collectors.toList());
+		logger.debug("retrieved " + market.nbCachedBOs() + " BOs and " + market.nbCachedSOs() + " SOs");
 		Collections.sort(offers, (e1, e2) -> (int) Math.signum(e2.sobogain - e1.sobogain));
 		System.out.println("\nagent ; offer ; corporation ; location ; sobogain ; bosogain ; avggain");
 		for (LocalizedLPOffer e : offers) {
