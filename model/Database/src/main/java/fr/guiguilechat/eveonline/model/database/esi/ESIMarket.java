@@ -183,6 +183,10 @@ public class ESIMarket {
 
 	private HashMap<Integer, List<MarketOrderEntry>> cachedBOs = new HashMap<>();
 
+	public int nbCachedBOs() {
+		return cachedBOs.size();
+	}
+
 	protected List<MarketOrderEntry> getBOs(int itemID) {
 		List<MarketOrderEntry> ret;
 		synchronized (cachedBOs) {
@@ -242,6 +246,10 @@ public class ESIMarket {
 	}
 
 	private HashMap<Integer, List<MarketOrderEntry>> cachedSOs = new HashMap<>();
+
+	public int nbCachedSOs() {
+		return cachedSOs.size();
+	}
 
 	protected List<MarketOrderEntry> getSOs(int itemID) {
 		List<MarketOrderEntry> ret;

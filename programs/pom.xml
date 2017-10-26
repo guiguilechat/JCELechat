@@ -33,7 +33,7 @@
   	</dependencies>
   </dependencyManagement>
   <properties>
-  	<model-version>1.0.4</model-version>
+  	<model-version>1.0.5-SNAPSHOT</model-version>
   </properties>
   <dependencies>
   	<dependency>

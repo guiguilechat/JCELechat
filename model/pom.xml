@@ -10,6 +10,7 @@
 	<modules>
 		<module>Database</module>
 		<module>SDE</module>
+		<module>ESI</module>
 	</modules>
 	<artifactId>model</artifactId>
 	<parent>

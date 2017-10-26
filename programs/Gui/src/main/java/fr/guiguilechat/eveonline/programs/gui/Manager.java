@@ -51,6 +51,10 @@ public class Manager extends Application implements EvePane {
 	private static final Logger logger = LoggerFactory.getLogger(Manager.class);
 
 	public static void main(String[] args) {
+		// int parrallelism = Runtime.getRuntime().availableProcessors() * 100;
+		// System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism",
+		// "" + parrallelism);
+
 		launch(args);
 	}
 
@@ -105,13 +109,6 @@ public class Manager extends Application implements EvePane {
 		});
 		TitledPane tpDebug = new TitledPane("debug", debugPane);
 		tpDebug.setExpanded(false);
-		// tpDebug.expandedProperty().addListener((ov, old, now) -> {
-		// if (now) {
-		// tpDebug.setMinHeight(500);
-		// } else {
-		// tpDebug.setMinHeight(Control.USE_COMPUTED_SIZE);
-		// }
-		// });
 		mainLayout.setCenter(tabs);
 		mainLayout.setBottom(tpDebug);
 
