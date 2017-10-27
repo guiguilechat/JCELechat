@@ -16,6 +16,7 @@ import javafx.scene.layout.GridPane;
 
 public class ProvisionOverview extends GridPane implements EvePane {
 
+	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(ProvisionOverview.class);
 
 	protected Manager parent;
@@ -46,7 +47,7 @@ public class ProvisionOverview extends GridPane implements EvePane {
 		}
 		int row=0;
 		Provision p = parent().getFTeamProvision();
-		for(Entry<Integer, Integer> e : p.lpoffers.entrySet()) {
+		for(Entry<Integer, Integer> e : p.lpoffersIn.entrySet()) {
 			LPOffer lpo = lpoffersbyId.get(e.getKey());
 			add(new Label("lp offer " + lpo.offer_name), 0, row);
 			add(new Label(""+e.getValue()), 1, row);
@@ -55,7 +56,7 @@ public class ProvisionOverview extends GridPane implements EvePane {
 			add(btn, 2, row);
 			row++;
 		}
-		for (Entry<Integer, Integer> e : p.total.entrySet()) {
+		for (Entry<Integer, Integer> e : p.totalIn.entrySet()) {
 			add(new Label(db().getElementById(e.getKey())), 0, row);
 			add(new Label("" + e.getValue()), 1, row);
 			row++;
@@ -79,7 +80,6 @@ public class ProvisionOverview extends GridPane implements EvePane {
 
 	@Override
 	public void onIsShown(boolean shown) {
-		logger.debug("Provision overview is shown " + shown);
 		this.shown = shown;
 		update();
 	}

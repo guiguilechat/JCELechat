@@ -92,7 +92,12 @@ public class Account {
 
 	}
 
+	protected ArrayList<EveChar> cachedChars = null;
+
 	public ArrayList<EveChar> characters() {
+		if (cachedChars != null) {
+			return cachedChars;
+		}
 		String url = BASEURL + "characters.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code;
 		Exception error = null;
 		ArrayList<EveChar> ret = new ArrayList<>();
@@ -108,11 +113,12 @@ public class Account {
 					ret.add(APIRoot.convertElement(el, EveChar.class, this));
 				}
 			} catch (IOException | InterruptedException e) {
+				logger.debug("while fetching characters for api key " + parent.key.keyID, e);
 				error = e;
 			}
 		}
 		if (error != null) {
-			logger.error("while getting characters, url " + url, error);
+			logger.error("while fetching characters " + url, error);
 			return new ArrayList<>();
 		}
 		if (parent.isCorp()) {
@@ -120,6 +126,7 @@ public class Account {
 				c.name = "corp:" + c.name;
 			}
 		}
+		cachedChars = ret;
 		return ret;
 	}
 

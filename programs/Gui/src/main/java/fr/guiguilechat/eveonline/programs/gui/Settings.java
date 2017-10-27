@@ -21,9 +21,18 @@ public class Settings implements ISettings {
 
 		public static class Provision {
 
-			public HashMap<Integer, Integer> total = new HashMap<>();
+			public HashMap<Integer, Integer> lpoffersIn = new HashMap<>();
 
-			public HashMap<Integer, Integer> lpoffers = new HashMap<>();
+			public HashMap<Integer, Integer> bpIn = new HashMap<>();
+
+			public HashMap<Integer, Integer> directIn = new HashMap<>();
+
+			public HashMap<Integer, Integer> totalIn = new HashMap<>();
+
+
+			public HashMap<Integer, Integer> directOut = new HashMap<>();
+
+			public HashMap<Integer, Integer> totalOut = new HashMap<>();
 
 		}
 
@@ -37,8 +46,8 @@ public class Settings implements ISettings {
 		public TeamDescription clone() {
 			TeamDescription ret = new TeamDescription();
 			ret.members.addAll(members);
-			ret.provision.total.putAll(provision.total);
-			ret.provision.lpoffers.putAll(provision.lpoffers);
+			ret.provision.totalIn.putAll(provision.totalIn);
+			ret.provision.lpoffersIn.putAll(provision.lpoffersIn);
 			ret.members.addAll(members);
 			ret.systems.addAll(systems);
 			return ret;

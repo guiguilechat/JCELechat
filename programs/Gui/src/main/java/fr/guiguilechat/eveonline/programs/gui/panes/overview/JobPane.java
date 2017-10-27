@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.slf4j.LoggerFactory;
 
@@ -124,18 +125,11 @@ public class JobPane extends TableView<JobData> implements EvePane {
 	}
 
 	@Override
-	public void onNewAPI(int key, String code) {
+	public void onNewAPI(APIRoot... apis) {
 		if (!shown) {
 			return;
 		}
-		APIRoot api = parent().getAPI(key);
-		if (api == null) {
-			debug("can't use apiroot for id " + key);
-			return;
-		}
-		api.account.characters().parallelStream().forEach(c -> {
-			addCharJobs(c);
-		});
+		Stream.of(apis).parallel().flatMap(api -> api.account.characters().parallelStream()).forEach(this::addCharJobs);
 		sort();
 	}
 

@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.model.database.apiv2.Account.EveChar;
@@ -26,6 +30,8 @@ import javafx.scene.control.TableView;
  */
 public class ListTeamPane extends TableView<CharacterTeams> implements EvePane {
 
+	private static final Logger logger = LoggerFactory.getLogger(ListTeamPane.class);
+
 	private final Manager parent;
 
 	@Override
@@ -33,6 +39,10 @@ public class ListTeamPane extends TableView<CharacterTeams> implements EvePane {
 		return parent;
 	}
 
+	/**
+	 * the teams a character belongs to.
+	 *
+	 */
 	@SuppressWarnings("serial")
 	public static class CharacterTeams extends HashSet<String> {
 		public String charName;
@@ -56,12 +66,17 @@ public class ListTeamPane extends TableView<CharacterTeams> implements EvePane {
 	}
 
 	@Override
-	public void onNewAPI(int key, String code) {
-		APIRoot aroot = parent.apis.stream().filter(r -> r.key.keyID == key).findFirst().get();
-		for (EveChar c : aroot.account.characters()) {
-			charteams.add(new CharacterTeams(c.name));
-			debug("toon " + c.name);
-		}
+	public void onNewAPI(APIRoot... apis) {
+		Stream.of(apis).parallel().forEach(api -> {
+			logger.debug("new api " + api);
+			for (EveChar c : api.account.characters()) {
+				logger.debug("new toon " + c.name);
+				synchronized (charteams) {
+					charteams.add(new CharacterTeams(c.name));
+				}
+				debug("toon " + c.name);
+			}
+		});
 	}
 
 	@Override

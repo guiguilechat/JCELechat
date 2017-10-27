@@ -29,7 +29,8 @@ public class ProvisionPane extends BorderPane implements EvePane {
 
 	protected ProvisionLPStorePane lpstore;
 	protected ProvisionOverview overview;
-	TitledPane op, lp;
+	protected ProvisionBlueprint blueprint;
+	TitledPane otp, ltp, btp;
 
 	protected SelectTeamPane selectTeam;
 
@@ -49,9 +50,11 @@ public class ProvisionPane extends BorderPane implements EvePane {
 
 		lpstore = new ProvisionLPStorePane(parent);
 		overview = new ProvisionOverview(parent);
-		op = new TitledPane("overview", overview);
-		lp = new TitledPane("lpstore", lpstore);
-		accordion = new Accordion(lp, op);
+		blueprint = new ProvisionBlueprint(parent);
+		otp = new TitledPane("overview", overview);
+		ltp = new TitledPane("lpstore", lpstore);
+		btp = new TitledPane("blueprint", blueprint);
+		accordion = new Accordion(ltp, otp, btp);
 		accordion.expandedPaneProperty().addListener((ov, old, now) -> {
 			if (old != null) {
 				TP2Pane(old).propagateIsShown(false);
@@ -65,13 +68,7 @@ public class ProvisionPane extends BorderPane implements EvePane {
 	}
 
 	protected EvePane TP2Pane(TitledPane tp) {
-		if (op == tp) {
-			return overview;
-		}
-		if (lp == tp) {
-			return lpstore;
-		}
-		return null;
+		return tp == null ? null : (EvePane) tp.getContent();
 	}
 
 	@Override

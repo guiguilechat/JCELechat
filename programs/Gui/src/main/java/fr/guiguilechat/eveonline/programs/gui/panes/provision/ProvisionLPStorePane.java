@@ -137,7 +137,7 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		}
 		OfferRow ret = new OfferRow();
 		ret.offer = offer;
-		int provision_nb = parent().getFTeamProvision().lpoffers.getOrDefault(offer.id, 0);
+		int provision_nb = parent().getFTeamProvision().lpoffersIn.getOrDefault(offer.id, 0);
 		ret.nb_field = new TextField("" + provision_nb);
 		ret.bt_send = new Button("provision");
 		ret.bt_send.setOnAction(ev -> provision(ret, ret.nb_field.getText()));
@@ -162,7 +162,6 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 
 	@Override
 	public void onIsShown(boolean shown) {
-		logger.debug("Provision lpstore is shown " + shown);
 		if (shown) {
 			load();
 		}

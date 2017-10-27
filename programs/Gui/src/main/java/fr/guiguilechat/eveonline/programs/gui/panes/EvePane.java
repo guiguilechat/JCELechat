@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.programs.gui.panes;
 
 import java.util.Map;
 
+import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 
@@ -52,15 +53,20 @@ public interface EvePane {
 	//// API Modifications
 
 	/** do not override this */
-	public default void propagateNewAPI(int key, String code) {
-		onNewAPI(key, code);
+	public default void propagateNewAPI(APIRoot... apis) {
+		onNewAPI(apis);
 		for (EvePane p : subEvePanes()) {
-			p.propagateNewAPI(key, code);
+			p.propagateNewAPI(apis);
 		}
 	}
 
-	/** override this to handle a new api */
-	public default void onNewAPI(int key, String code) {
+	/**
+	 * override this to handle possibly several new apis
+	 * 
+	 * @param apis
+	 *          should never be null
+	 */
+	public default void onNewAPI(APIRoot... apis) {
 	}
 
 	/** do not override this */

@@ -112,12 +112,18 @@ public class Manager extends Application implements EvePane {
 		mainLayout.setCenter(tabs);
 		mainLayout.setBottom(tpDebug);
 
+		logger.debug("making scene");
 		Scene scene = new Scene(mainLayout, 800, 900);
 		primaryStage.setScene(scene);
 		primaryStage.show();
+
+		logger.debug("propagate apis");
 		for (Entry<Integer, String> a : settings.apiKeys.entrySet()) {
-			propagateNewAPI(a.getKey(), a.getValue());
+			apis.add(new APIRoot(a.getKey(), a.getValue()));
 		}
+		propagateNewAPI(apis.toArray(new APIRoot[0]));
+
+		logger.debug("propagate teams");
 		for (String team : settings.teams.keySet()) {
 			propagateNewTeam(team);
 			for (String charname : settings.teams.get(team).members) {
@@ -126,7 +132,7 @@ public class Manager extends Application implements EvePane {
 		}
 		propagateFocusedTeam(settings.focusedTeam);
 		propagateStart();
-		logger.debug("start manager");
+		logger.debug("manager started");
 		new Thread(this::precache).start();
 	}
 
@@ -138,22 +144,12 @@ public class Manager extends Application implements EvePane {
 		db.getLPOffers();
 		db.getModules();
 		db.getHulls();
+		db.getBlueprints();
 	}
 
 	//
 	// event handling
 	//
-
-	@Override
-	public void onNewAPI(int key, String code) {
-		for (APIRoot ar : apis) {
-			if (ar.key.keyID == key) {
-				return;
-			}
-		}
-		apis.add(new APIRoot(key, code));
-		debug("new api " + key);
-	}
 
 	@Override
 	public void onDelAPI(int key) {
@@ -215,10 +211,21 @@ public class Manager extends Application implements EvePane {
 		propagateDelAPI(keyID);
 	}
 
-	public void addAPI(int key, String code) {
-		settings.apiKeys.put(key, code);
+	public APIRoot addAPI(int key, String code) {
+		String oldCode = settings.apiKeys.put(key, code);
 		settings.store();
-		propagateNewAPI(key, code);
+		/**
+		 * we can't modify the apiroot, as they have final args. so remove and add.
+		 */
+		if (oldCode != null) {
+			apis.removeIf(ar -> ar.key.keyID == key);
+		}
+		APIRoot newapi = new APIRoot(key, code);
+		apis.add(newapi);
+		if (oldCode == null) {
+			propagateNewAPI(newapi);
+		}
+		return newapi;
 	}
 
 	public APIRoot getAPI(int key) {
@@ -389,8 +396,8 @@ public class Manager extends Application implements EvePane {
 		debug("provision " + items);
 		for (Entry<Integer, Integer> e : items.entrySet()) {
 			propagateNewProvision(e.getKey(), e.getValue());
-			getFTeamProvision().total.put(e.getKey(),
-					Math.max(0, getFTeamProvision().total.getOrDefault(e.getKey(), 0) + e.getValue()));
+			getFTeamProvision().totalIn.put(e.getKey(),
+					Math.max(0, getFTeamProvision().totalIn.getOrDefault(e.getKey(), 0) + e.getValue()));
 		}
 		settings.store();
 	}
@@ -398,19 +405,19 @@ public class Manager extends Application implements EvePane {
 	/** set the requirement in lp offer to given value for the focused team */
 	public void provisionLPOffer(LPOffer offer, int requirement) {
 		Provision p = getFTeamProvision();
-		int diff = requirement - p.lpoffers.getOrDefault(offer.id, 0);
+		int diff = requirement - p.lpoffersIn.getOrDefault(offer.id, 0);
 		if (requirement <= 0) {
-			p.lpoffers.remove(offer.id);
+			p.lpoffersIn.remove(offer.id);
 		} else {
-			p.lpoffers.put(offer.id, requirement);
+			p.lpoffersIn.put(offer.id, requirement);
 		}
 		for (ItemRef e : offer.requirements.items) {
-			int newQtty = p.total.getOrDefault(e.type_id, 0) + e.quantity * diff;
+			int newQtty = p.totalIn.getOrDefault(e.type_id, 0) + e.quantity * diff;
 			propagateNewProvision(e.type_id, newQtty);
 			if (newQtty > 0) {
-				p.total.put(e.type_id, newQtty);
+				p.totalIn.put(e.type_id, newQtty);
 			} else {
-				p.total.remove(e.type_id);
+				p.totalIn.remove(e.type_id);
 			}
 		}
 		settings.store();
@@ -628,13 +635,23 @@ public class Manager extends Application implements EvePane {
 
 	}
 
+	/**
+	 * add item to the debug pane. synchronized.
+	 * 
+	 * @param clazz
+	 *          the class of the item which wants to add an entry
+	 * @param data
+	 *          the information
+	 */
 	public void printDebug(Class<? extends EvePane> clazz, String data) {
-		DebugEntry de = new DebugEntry();
-		de.message = data;
-		de.context = clazz;
-		de.date = new Date();
-		debugPane.getItems().add(de);
-		debugPane.sort();
+		synchronized (debugPane) {
+			DebugEntry de = new DebugEntry();
+			de.message = data;
+			de.context = clazz;
+			de.date = new Date();
+			debugPane.getItems().add(de);
+			debugPane.sort();
+		}
 	}
 
 	// database

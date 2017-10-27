@@ -100,7 +100,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	 */
 	protected void prepareProvisions() {
 		itemsProvisions.values().stream().forEach(pp -> pp.required = 0);
-		for (Entry<Integer, Integer> e : parent.getFTeamProvision().total.entrySet()) {
+		for (Entry<Integer, Integer> e : parent.getFTeamProvision().totalIn.entrySet()) {
 			ProvisionPreparation pr = getProvision(e.getKey());
 			pr.required = e.getValue();
 			pr.ed.who = parent().settings.focusedTeam;
