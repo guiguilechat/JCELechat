@@ -64,7 +64,7 @@ public class ProvisionPane extends BorderPane implements EvePane {
 			}
 		});
 		setCenter(accordion);
-		children = new EvePane[] { selectTeam, lpstore, overview };
+		children = new EvePane[] { selectTeam, lpstore, overview, blueprint };
 	}
 
 	protected EvePane TP2Pane(TitledPane tp) {

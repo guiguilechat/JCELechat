@@ -1,6 +1,8 @@
 package fr.guiguilechat.eveonline.programs.gui.panes.provision;
 
 import java.util.LinkedHashMap;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -10,11 +12,15 @@ import fr.guiguilechat.eveonline.model.database.apiv2.Char.BPEntry;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
+import javafx.animation.PauseTransition;
 import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.scene.control.TitledPane;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+import javafx.util.Duration;
 
 public class ProvisionBlueprint extends BorderPane implements EvePane {
 
@@ -32,11 +38,12 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 		this.parent = parent;
 	}
 
-	boolean loaded = false;
+	protected boolean loaded = false;
+	protected boolean shown = false;
 	protected LinkedHashMap<String, Blueprint> blueprints;
 
 	protected HBox filterPane;
-	protected GridPane bpsPane;
+	protected VBox bpsPane;
 
 	protected static enum BpSubset {
 
@@ -53,6 +60,8 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 	}
 
 	protected ChoiceBox<BpSubset> subset = new ChoiceBox<>();
+	protected ChoiceBox<String> allowedGroups = new ChoiceBox<>();
+	protected TextField filterNames = new TextField();
 
 	public void load() {
 		if (loaded) {
@@ -62,11 +71,24 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 			blueprints = db().getBlueprints();
 		}
 		filterPane = new HBox(10);
+
 		subset.getItems().addAll(BpSubset.values());
 		subset.getSelectionModel().select(BpSubset.all_bps);
 		subset.getSelectionModel().selectedItemProperty().addListener((o, old, now) -> updateListBPs());
-		filterPane.getChildren().addAll(subset);
-		bpsPane = new GridPane();
+
+		blueprints.values().stream().map(bp -> bp.groupName).distinct().forEach(allowedGroups.getItems()::add);
+		allowedGroups.getItems().sort(String::compareTo);
+		allowedGroups.getItems().add(0, null);
+		allowedGroups.getSelectionModel().selectedItemProperty().addListener((o, old, now) -> updateListBPs());
+
+		PauseTransition pause = new PauseTransition(Duration.seconds(1));
+		filterNames.textProperty().addListener((observable, oldValue, newValue) -> {
+			pause.setOnFinished(event -> updateListBPs());
+			pause.playFromStart();
+		});
+
+		filterPane.getChildren().addAll(subset, allowedGroups, filterNames);
+		bpsPane = new VBox();
 		setTop(new TitledPane("filters", filterPane));
 		getTop().setStyle("-fx-padding: 5 5 0 10;");
 		setCenter(bpsPane);
@@ -78,23 +100,52 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 		if (shown) {
 			load();
 		}
+		this.shown = shown;
 		updateListBPs();
 	}
 
+
 	public void updateListBPs() {
 		bpsPane.getChildren().clear();
+		bpsPane.getChildren().addAll(streambps().map(bp -> new Label(bp.catName + " : " + bp.groupName + " : " + bp.name))
+				.collect(Collectors.toList()));
 	}
 
 	protected Stream<Blueprint> streambps() {
 		BpSubset selection = subset.getSelectionModel().getSelectedItem();
+		Stream<Blueprint> ret = null;
 		if (selection.forceOwned) {
-			Stream<BPEntry> ret = parent.streamFTeamCharacters().parallel().flatMap(c -> c.blueprints().stream());
+			Stream<BPEntry> bpeStream = parent.streamFTeamCharacters().parallel().flatMap(c -> c.blueprints().stream());
 			if (selection.forceOriginal) {
-				ret = ret.filter(bpe -> bpe.runs == -1);
+				bpeStream = bpeStream.filter(bpe -> bpe.runs == -1);
 			}
-			return ret.map(bpe -> bpe.typeName).distinct().map(blueprints::get).filter(bp -> bp != null);
+			ret = bpeStream.map(bpe -> bpe.typeName).distinct().map(blueprints::get).filter(bp -> bp != null);
 		} else {
-			return blueprints.values().stream();
+			ret = blueprints.values().stream();
+		}
+		String group = allowedGroups.getSelectionModel().getSelectedItem();
+		if (group != null) {
+			ret = ret.filter(bpe -> bpe.groupName.equals(group));
+		}
+		String filterName = filterNames.getText();
+		if (filterName != null && filterName.length() > 0) {
+			Pattern pat = Pattern.compile(".*" + filterName.toLowerCase() + ".*");
+			ret = ret.filter(bpe -> pat.matcher(bpe.name.toLowerCase()).matches());
+		}
+		return ret;
+	}
+
+	@Override
+	public void onFocusedTeam(String teamName) {
+		if (shown) {
+			updateListBPs();
+		}
+	}
+
+	@Override
+	public void onAdd2Team(String team, String character) {
+		if (shown && team == parent.settings.focusedTeam) {
+			updateListBPs();
 		}
 	}
 
