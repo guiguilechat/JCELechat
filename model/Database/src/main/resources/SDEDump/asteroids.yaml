@@ -4,6 +4,7 @@ asteroids:
     compressedTo: Compressed Arkonor
     groupName: Arkonor
     id: 22
+    maxSecurity: -1.0
     name: Arkonor
     volume: 16.0
   Crimson Arkonor:
@@ -11,6 +12,7 @@ asteroids:
     compressedTo: Compressed Crimson Arkonor
     groupName: Arkonor
     id: 17425
+    maxSecurity: -1.0
     name: Crimson Arkonor
     volume: 16.0
   Prime Arkonor:
@@ -18,6 +20,7 @@ asteroids:
     compressedTo: Compressed Prime Arkonor
     groupName: Arkonor
     id: 17426
+    maxSecurity: -1.0
     name: Prime Arkonor
     volume: 16.0
   Flawed Arkonor:
@@ -61,11 +64,26 @@ asteroids:
     maxSecurity: -1.0
     name: Polygypsum
     volume: 16.0
+  Flawless Arkonor:
+    catName: Asteroid
+    groupName: Arkonor
+    id: 46678
+    maxSecurity: -1.0
+    name: Flawless Arkonor
+    volume: 16.0
+  Compressed Flawless Arkonor:
+    catName: Asteroid
+    groupName: Arkonor
+    id: 46691
+    maxSecurity: -1.0
+    name: Compressed Flawless Arkonor
+    volume: 8.8
   Bistot:
     catName: Asteroid
     compressedTo: Compressed Bistot
     groupName: Bistot
     id: 1223
+    maxSecurity: -1.0
     name: Bistot
     volume: 16.0
   Triclinic Bistot:
@@ -73,6 +91,7 @@ asteroids:
     compressedTo: Compressed Triclinic Bistot
     groupName: Bistot
     id: 17428
+    maxSecurity: -1.0
     name: Triclinic Bistot
     volume: 16.0
   Monoclinic Bistot:
@@ -80,6 +99,7 @@ asteroids:
     compressedTo: Compressed Monoclinic Bistot
     groupName: Bistot
     id: 17429
+    maxSecurity: -1.0
     name: Monoclinic Bistot
     volume: 16.0
   Compressed Bistot:
@@ -109,11 +129,26 @@ asteroids:
     maxSecurity: -1.0
     name: Compressed Triclinic Bistot
     volume: 4.4
+  Cubic Bistot:
+    catName: Asteroid
+    groupName: Bistot
+    id: 46676
+    maxSecurity: -1.0
+    name: Cubic Bistot
+    volume: 16.0
+  Compressed Cubic Bistot:
+    catName: Asteroid
+    groupName: Bistot
+    id: 46692
+    maxSecurity: -1.0
+    name: Compressed Cubic Bistot
+    volume: 4.4
   Crokite:
     catName: Asteroid
     compressedTo: Compressed Crokite
     groupName: Crokite
     id: 1225
+    maxSecurity: -1.0
     name: Crokite
     volume: 16.0
   Sharp Crokite:
@@ -121,6 +156,7 @@ asteroids:
     compressedTo: Compressed Sharp Crokite
     groupName: Crokite
     id: 17432
+    maxSecurity: -1.0
     name: Sharp Crokite
     volume: 16.0
   Crystalline Crokite:
@@ -128,6 +164,7 @@ asteroids:
     compressedTo: Compressed Crystalline Crokite
     groupName: Crokite
     id: 17433
+    maxSecurity: -1.0
     name: Crystalline Crokite
     volume: 16.0
   Fools Crokite:
@@ -171,11 +208,26 @@ asteroids:
     maxSecurity: -1.0
     name: Geodite
     volume: 16.0
+  Pellucid Crokite:
+    catName: Asteroid
+    groupName: Crokite
+    id: 46677
+    maxSecurity: -1.0
+    name: Pellucid Crokite
+    volume: 16.0
+  Compressed Pellucid Crokite:
+    catName: Asteroid
+    groupName: Crokite
+    id: 46693
+    maxSecurity: -1.0
+    name: Compressed Pellucid Crokite
+    volume: 7.81
   Dark Ochre:
     catName: Asteroid
     compressedTo: Compressed Dark Ochre
     groupName: Dark Ochre
     id: 1232
+    maxSecurity: -1.0
     name: Dark Ochre
     volume: 8.0
   Onyx Ochre:
@@ -183,6 +235,7 @@ asteroids:
     compressedTo: Compressed Onyx Ochre
     groupName: Dark Ochre
     id: 17436
+    maxSecurity: -1.0
     name: Onyx Ochre
     volume: 8.0
   Obsidian Ochre:
@@ -190,6 +243,7 @@ asteroids:
     compressedTo: Compressed Obsidian Ochre
     groupName: Dark Ochre
     id: 17437
+    maxSecurity: -1.0
     name: Obsidian Ochre
     volume: 8.0
   Compressed Dark Ochre:
@@ -226,12 +280,26 @@ asteroids:
     maxSecurity: -1.0
     name: Oeryl
     volume: 8.0
+  Jet Ochre:
+    catName: Asteroid
+    groupName: Dark Ochre
+    id: 46675
+    maxSecurity: -1.0
+    name: Jet Ochre
+    volume: 8.0
+  Compressed Jet Ochre:
+    catName: Asteroid
+    groupName: Dark Ochre
+    id: 46694
+    maxSecurity: -1.0
+    name: Compressed Jet Ochre
+    volume: 4.2
   Hedbergite:
     catName: Asteroid
     compressedTo: Compressed Hedbergite
     groupName: Hedbergite
     id: 21
-    maxSecurity: 0.20000000298023224
+    maxSecurity: -1.0
     name: Hedbergite
     volume: 3.0
   Vitric Hedbergite:
@@ -239,7 +307,7 @@ asteroids:
     compressedTo: Compressed Vitric Hedbergite
     groupName: Hedbergite
     id: 17440
-    maxSecurity: 0.20000000298023224
+    maxSecurity: -1.0
     name: Vitric Hedbergite
     volume: 3.0
   Glazed Hedbergite:
@@ -247,7 +315,7 @@ asteroids:
     compressedTo: Compressed Glazed Hedbergite
     groupName: Hedbergite
     id: 17441
-    maxSecurity: 0.20000000298023224
+    maxSecurity: -1.0
     name: Glazed Hedbergite
     volume: 3.0
   Compressed Glazed Hedbergite:
@@ -277,12 +345,26 @@ asteroids:
     maxSecurity: -1.0
     name: Compressed Vitric Hedbergite
     volume: 0.47
+  Lustrous Hedbergite:
+    catName: Asteroid
+    groupName: Hedbergite
+    id: 46680
+    maxSecurity: -1.0
+    name: Lustrous Hedbergite
+    volume: 3.0
+  Compressed Lustrous Hedbergite:
+    catName: Asteroid
+    groupName: Hedbergite
+    id: 46696
+    maxSecurity: -1.0
+    name: Compressed Lustrous Hedbergite
+    volume: 0.47
   Hemorphite:
     catName: Asteroid
     compressedTo: Compressed Hemorphite
     groupName: Hemorphite
     id: 1231
-    maxSecurity: 0.20000000298023224
+    maxSecurity: -1.0
     name: Hemorphite
     volume: 3.0
   Vivid Hemorphite:
@@ -290,7 +372,7 @@ asteroids:
     compressedTo: Compressed Vivid Hemorphite
     groupName: Hemorphite
     id: 17444
-    maxSecurity: 0.20000000298023224
+    maxSecurity: -1.0
     name: Vivid Hemorphite
     volume: 3.0
   Radiant Hemorphite:
@@ -298,7 +380,7 @@ asteroids:
     compressedTo: Compressed Radiant Hemorphite
     groupName: Hemorphite
     id: 17445
-    maxSecurity: 0.20000000298023224
+    maxSecurity: -1.0
     name: Radiant Hemorphite
     volume: 3.0
   Compressed Hemorphite:
@@ -328,12 +410,26 @@ asteroids:
     maxSecurity: -1.0
     name: Compressed Vivid Hemorphite
     volume: 0.86
+  Scintillating Hemorphite:
+    catName: Asteroid
+    groupName: Hemorphite
+    id: 46681
+    maxSecurity: -1.0
+    name: Scintillating Hemorphite
+    volume: 3.0
+  Compressed Scintillating Hemorphite:
+    catName: Asteroid
+    groupName: Hemorphite
+    id: 46697
+    maxSecurity: -1.0
+    name: Compressed Scintillating Hemorphite
+    volume: 0.86
   Jaspet:
     catName: Asteroid
     compressedTo: Compressed Jaspet
     groupName: Jaspet
     id: 1226
-    maxSecurity: 0.4000000059604645
+    maxSecurity: -1.0
     name: Jaspet
     volume: 2.0
   Pure Jaspet:
@@ -341,7 +437,7 @@ asteroids:
     compressedTo: Compressed Pure Jaspet
     groupName: Jaspet
     id: 17448
-    maxSecurity: 0.4000000059604645
+    maxSecurity: -1.0
     name: Pure Jaspet
     volume: 2.0
   Pristine Jaspet:
@@ -349,7 +445,7 @@ asteroids:
     compressedTo: Compressed Pristine Jaspet
     groupName: Jaspet
     id: 17449
-    maxSecurity: 0.4000000059604645
+    maxSecurity: -1.0
     name: Pristine Jaspet
     volume: 2.0
   Flawed Jaspet:
@@ -393,6 +489,20 @@ asteroids:
     maxSecurity: -1.0
     name: Pithix
     volume: 2.0
+  Immaculate Jaspet:
+    catName: Asteroid
+    groupName: Jaspet
+    id: 46682
+    maxSecurity: -1.0
+    name: Immaculate Jaspet
+    volume: 2.0
+  Compressed Immaculate Jaspet:
+    catName: Asteroid
+    groupName: Jaspet
+    id: 46698
+    maxSecurity: -1.0
+    name: Compressed Immaculate Jaspet
+    volume: 0.15
   Kernite:
     catName: Asteroid
     compressedTo: Compressed Kernite
@@ -451,6 +561,20 @@ asteroids:
     maxSecurity: -1.0
     name: Lyavite
     volume: 1.2
+  Resplendant Kernite:
+    catName: Asteroid
+    groupName: Kernite
+    id: 46683
+    maxSecurity: -1.0
+    name: Resplendant Kernite
+    volume: 1.2
+  Compressed Resplendant Kernite:
+    catName: Asteroid
+    groupName: Kernite
+    id: 46699
+    maxSecurity: -1.0
+    name: Compressed Resplendant Kernite
+    volume: 0.19
   Plagioclase:
     catName: Asteroid
     compressedTo: Compressed Plagioclase
@@ -501,6 +625,20 @@ asteroids:
     id: 28423
     maxSecurity: -1.0
     name: Compressed Rich Plagioclase
+    volume: 0.15
+  Sparkling Plagioclase:
+    catName: Asteroid
+    groupName: Plagioclase
+    id: 46685
+    maxSecurity: -1.0
+    name: Sparkling Plagioclase
+    volume: 0.35
+  Compressed Sparkling Plagioclase:
+    catName: Asteroid
+    groupName: Plagioclase
+    id: 46701
+    maxSecurity: -1.0
+    name: Compressed Sparkling Plagioclase
     volume: 0.15
   Pyroxeres:
     catName: Asteroid
@@ -560,6 +698,20 @@ asteroids:
     maxSecurity: -1.0
     name: Augumene
     volume: 0.3
+  Opulent Pyroxeres:
+    catName: Asteroid
+    groupName: Pyroxeres
+    id: 46686
+    maxSecurity: -1.0
+    name: Opulent Pyroxeres
+    volume: 0.3
+  Compressed Opulent Pyroxeres:
+    catName: Asteroid
+    groupName: Pyroxeres
+    id: 46702
+    maxSecurity: -1.0
+    name: Compressed Opulent Pyroxeres
+    volume: 0.16
   Scordite:
     catName: Asteroid
     compressedTo: Compressed Scordite
@@ -611,11 +763,26 @@ asteroids:
     maxSecurity: -1.0
     name: Compressed Scordite
     volume: 0.19
+  Glossy Scordite:
+    catName: Asteroid
+    groupName: Scordite
+    id: 46687
+    maxSecurity: -1.0
+    name: Glossy Scordite
+    volume: 0.15
+  Compressed Glossy Scordite:
+    catName: Asteroid
+    groupName: Scordite
+    id: 46703
+    maxSecurity: -1.0
+    name: Compressed Glossy Scordite
+    volume: 0.19
   Spodumain:
     catName: Asteroid
     compressedTo: Compressed Spodumain
     groupName: Spodumain
     id: 19
+    maxSecurity: -1.0
     name: Spodumain
     volume: 16.0
   Bright Spodumain:
@@ -623,6 +790,7 @@ asteroids:
     compressedTo: Compressed Bright Spodumain
     groupName: Spodumain
     id: 17466
+    maxSecurity: -1.0
     name: Bright Spodumain
     volume: 16.0
   Gleaming Spodumain:
@@ -630,6 +798,7 @@ asteroids:
     compressedTo: Compressed Gleaming Spodumain
     groupName: Spodumain
     id: 17467
+    maxSecurity: -1.0
     name: Gleaming Spodumain
     volume: 16.0
   Compressed Bright Spodumain:
@@ -658,6 +827,20 @@ asteroids:
     id: 28420
     maxSecurity: -1.0
     name: Compressed Spodumain
+    volume: 28.0
+  Dazzling Spodumain:
+    catName: Asteroid
+    groupName: Spodumain
+    id: 46688
+    maxSecurity: -1.0
+    name: Dazzling Spodumain
+    volume: 16.0
+  Compressed Dazzling Spodumain:
+    catName: Asteroid
+    groupName: Spodumain
+    id: 46704
+    maxSecurity: -1.0
+    name: Compressed Dazzling Spodumain
     volume: 28.0
   Veldspar:
     catName: Asteroid
@@ -724,6 +907,20 @@ asteroids:
     maxSecurity: -1.0
     name: Banidine
     volume: 0.1
+  Stable Veldspar:
+    catName: Asteroid
+    groupName: Veldspar
+    id: 46689
+    maxSecurity: -1.0
+    name: Stable Veldspar
+    volume: 0.1
+  Compressed Stable Veldspar:
+    catName: Asteroid
+    groupName: Veldspar
+    id: 46705
+    maxSecurity: -1.0
+    name: Compressed Stable Veldspar
+    volume: 0.15
   Clear Icicle:
     catName: Asteroid
     compressedTo: Compressed Clear Icicle
@@ -941,6 +1138,7 @@ asteroids:
     compressedTo: Compressed Gneiss
     groupName: Gneiss
     id: 1229
+    maxSecurity: -1.0
     name: Gneiss
     volume: 5.0
   Iridescent Gneiss:
@@ -948,6 +1146,7 @@ asteroids:
     compressedTo: Compressed Iridescent Gneiss
     groupName: Gneiss
     id: 17865
+    maxSecurity: -1.0
     name: Iridescent Gneiss
     volume: 5.0
   Prismatic Gneiss:
@@ -955,6 +1154,7 @@ asteroids:
     compressedTo: Compressed Prismatic Gneiss
     groupName: Gneiss
     id: 17866
+    maxSecurity: -1.0
     name: Prismatic Gneiss
     volume: 5.0
   Flawed Gneiss:
@@ -998,6 +1198,20 @@ asteroids:
     maxSecurity: -1.0
     name: Green Arisite
     volume: 5.0
+  Brilliant Gneiss:
+    catName: Asteroid
+    groupName: Gneiss
+    id: 46679
+    maxSecurity: -1.0
+    name: Brilliant Gneiss
+    volume: 5.0
+  Compressed Brilliant Gneiss:
+    catName: Asteroid
+    groupName: Gneiss
+    id: 46695
+    maxSecurity: -1.0
+    name: Compressed Brilliant Gneiss
+    volume: 1.8
   Mercoxit:
     catName: Asteroid
     compressedTo: Compressed Mercoxit
@@ -1111,6 +1325,20 @@ asteroids:
     maxSecurity: -1.0
     name: Mercium
     volume: 0.6
+  Platinoid Omber:
+    catName: Asteroid
+    groupName: Omber
+    id: 46684
+    maxSecurity: -1.0
+    name: Platinoid Omber
+    volume: 0.6
+  Compressed Platinoid Omber:
+    catName: Asteroid
+    groupName: Omber
+    id: 46700
+    maxSecurity: -1.0
+    name: Compressed Platinoid Omber
+    volume: 0.3
   Ancient Compressed Blue Ice:
     catName: Asteroid
     groupName: Ancient Compressed Ice
@@ -1195,199 +1423,479 @@ asteroids:
     maxSecurity: -1.0
     name: Ancient Compressed White Glaze
     volume: 100.0
-  Moon Asteroid 1A:
+  Zeolites:
     catName: Asteroid
-    groupName: Moon Asteroids
+    groupName: Ubiquitous Moon Asteroids
     id: 45490
     maxSecurity: -1.0
-    name: Moon Asteroid 1A
+    name: Zeolites
     volume: 10.0
-  Moon Asteroid 1B:
+  Sylvite:
     catName: Asteroid
-    groupName: Moon Asteroids
+    groupName: Ubiquitous Moon Asteroids
     id: 45491
     maxSecurity: -1.0
-    name: Moon Asteroid 1B
+    name: Sylvite
     volume: 10.0
-  Moon Asteroid 1C:
+  Bitumens:
     catName: Asteroid
-    groupName: Moon Asteroids
+    groupName: Ubiquitous Moon Asteroids
     id: 45492
     maxSecurity: -1.0
-    name: Moon Asteroid 1C
+    name: Bitumens
     volume: 10.0
-  Moon Asteroid 1D:
+  Coesite:
     catName: Asteroid
-    groupName: Moon Asteroids
+    groupName: Ubiquitous Moon Asteroids
     id: 45493
     maxSecurity: -1.0
-    name: Moon Asteroid 1D
+    name: Coesite
     volume: 10.0
-  Moon Asteroid 2A:
+  Brimful Zeolites:
     catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45494
+    groupName: Ubiquitous Moon Asteroids
+    id: 46280
     maxSecurity: -1.0
-    name: Moon Asteroid 2A
+    name: Brimful Zeolites
     volume: 10.0
-  Moon Asteroid 2B:
+  Glistening Zeolites:
     catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45495
+    groupName: Ubiquitous Moon Asteroids
+    id: 46281
     maxSecurity: -1.0
-    name: Moon Asteroid 2B
+    name: Glistening Zeolites
     volume: 10.0
-  Moon Asteroid 2C:
+  Brimful Sylvite:
     catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45496
+    groupName: Ubiquitous Moon Asteroids
+    id: 46282
     maxSecurity: -1.0
-    name: Moon Asteroid 2C
+    name: Brimful Sylvite
     volume: 10.0
-  Moon Asteroid 2D:
+  Glistening Sylvite:
     catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45497
+    groupName: Ubiquitous Moon Asteroids
+    id: 46283
     maxSecurity: -1.0
-    name: Moon Asteroid 2D
+    name: Glistening Sylvite
     volume: 10.0
-  Moon Asteroid 3A:
+  Brimful Bitumens:
     catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45498
+    groupName: Ubiquitous Moon Asteroids
+    id: 46284
     maxSecurity: -1.0
-    name: Moon Asteroid 3A
+    name: Brimful Bitumens
     volume: 10.0
-  Moon Asteroid 3B:
+  Glistening Bitumens:
     catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45499
+    groupName: Ubiquitous Moon Asteroids
+    id: 46285
     maxSecurity: -1.0
-    name: Moon Asteroid 3B
+    name: Glistening Bitumens
     volume: 10.0
-  Moon Asteroid 3C:
+  Brimful Coesite:
     catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45500
+    groupName: Ubiquitous Moon Asteroids
+    id: 46286
     maxSecurity: -1.0
-    name: Moon Asteroid 3C
+    name: Brimful Coesite
     volume: 10.0
-  Moon Asteroid 3D:
+  Glistening Coesite:
     catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45501
+    groupName: Ubiquitous Moon Asteroids
+    id: 46287
     maxSecurity: -1.0
-    name: Moon Asteroid 3D
+    name: Glistening Coesite
     volume: 10.0
-  Moon Asteroid 4A:
+  Raspite:
     catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45502
-    maxSecurity: -1.0
-    name: Moon Asteroid 4A
-    volume: 10.0
-  Moon Asteroid 4B:
-    catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45503
-    maxSecurity: -1.0
-    name: Moon Asteroid 4B
-    volume: 10.0
-  Moon Asteroid 4C:
-    catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45504
-    maxSecurity: -1.0
-    name: Moon Asteroid 4C
-    volume: 10.0
-  Moon Asteroid 4D:
-    catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45506
-    maxSecurity: -1.0
-    name: Moon Asteroid 4D
-    volume: 10.0
-  Moon Asteroid 5A:
-    catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45510
-    maxSecurity: -1.0
-    name: Moon Asteroid 5A
-    volume: 10.0
-  Moon Asteroid 5B:
-    catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45511
-    maxSecurity: -1.0
-    name: Moon Asteroid 5B
-    volume: 10.0
-  Moon Asteroid 5C:
-    catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45512
-    maxSecurity: -1.0
-    name: Moon Asteroid 5C
-    volume: 10.0
-  Moon Asteroid 5D:
-    catName: Asteroid
-    groupName: Moon Asteroids
-    id: 45513
-    maxSecurity: -1.0
-    name: Moon Asteroid 5D
-    volume: 10.0
-  RW A Normal:
-    catName: Asteroid
-    groupName: RW Asteroids
+    groupName: Empire Asteroids
     id: 46252
     maxSecurity: -1.0
-    name: RW A Normal
+    name: Raspite
     volume: 0.1
-  RW A Dense:
+  Adamantine Raspite:
     catName: Asteroid
-    groupName: RW Asteroids
+    groupName: Empire Asteroids
     id: 46253
     maxSecurity: -1.0
-    name: RW A Dense
+    name: Adamantine Raspite
     volume: 0.1
-  RW C Normal:
+  Polycrase:
     catName: Asteroid
-    groupName: RW Asteroids
+    groupName: Empire Asteroids
     id: 46254
     maxSecurity: -1.0
-    name: RW C Normal
+    name: Polycrase
     volume: 0.1
-  RW C Dense:
+  Granitic Polycrase:
     catName: Asteroid
-    groupName: RW Asteroids
+    groupName: Empire Asteroids
     id: 46255
     maxSecurity: -1.0
-    name: RW C Dense
+    name: Granitic Polycrase
     volume: 0.1
-  RW G Normal:
+  Moissanite:
     catName: Asteroid
-    groupName: RW Asteroids
+    groupName: Empire Asteroids
     id: 46256
     maxSecurity: -1.0
-    name: RW G Normal
+    name: Moissanite
     volume: 0.1
-  RW G Dense:
+  Diamond Moissanite:
     catName: Asteroid
-    groupName: RW Asteroids
+    groupName: Empire Asteroids
     id: 46257
     maxSecurity: -1.0
-    name: RW G Dense
+    name: Diamond Moissanite
     volume: 0.1
-  RW M Normal:
+  Kangite:
     catName: Asteroid
-    groupName: RW Asteroids
+    groupName: Empire Asteroids
     id: 46258
     maxSecurity: -1.0
-    name: RW M Normal
+    name: Kangite
     volume: 0.1
-  RW M Dense:
+  Cubic Kangite:
     catName: Asteroid
-    groupName: RW Asteroids
+    groupName: Empire Asteroids
     id: 46259
     maxSecurity: -1.0
-    name: RW M Dense
+    name: Cubic Kangite
     volume: 0.1
+  Cobaltite:
+    catName: Asteroid
+    groupName: Common Moon Asteroids
+    id: 45494
+    maxSecurity: -1.0
+    name: Cobaltite
+    volume: 10.0
+  Euxenite:
+    catName: Asteroid
+    groupName: Common Moon Asteroids
+    id: 45495
+    maxSecurity: -1.0
+    name: Euxenite
+    volume: 10.0
+  Titanite:
+    catName: Asteroid
+    groupName: Common Moon Asteroids
+    id: 45496
+    maxSecurity: -1.0
+    name: Titanite
+    volume: 10.0
+  Scheelite:
+    catName: Asteroid
+    groupName: Common Moon Asteroids
+    id: 45497
+    maxSecurity: -1.0
+    name: Scheelite
+    volume: 10.0
+  Copious Cobaltite:
+    catName: Asteroid
+    groupName: Common Moon Asteroids
+    id: 46288
+    maxSecurity: -1.0
+    name: Copious Cobaltite
+    volume: 10.0
+  Twinkling Cobaltite:
+    catName: Asteroid
+    groupName: Common Moon Asteroids
+    id: 46289
+    maxSecurity: -1.0
+    name: Twinkling Cobaltite
+    volume: 10.0
+  Copious Euxenite:
+    catName: Asteroid
+    groupName: Common Moon Asteroids
+    id: 46290
+    maxSecurity: -1.0
+    name: Copious Euxenite
+    volume: 10.0
+  Twinkling Euxenite:
+    catName: Asteroid
+    groupName: Common Moon Asteroids
+    id: 46291
+    maxSecurity: -1.0
+    name: Twinkling Euxenite
+    volume: 10.0
+  Copious Titanite:
+    catName: Asteroid
+    groupName: Common Moon Asteroids
+    id: 46292
+    maxSecurity: -1.0
+    name: Copious Titanite
+    volume: 10.0
+  Twinkling Titanite:
+    catName: Asteroid
+    groupName: Common Moon Asteroids
+    id: 46293
+    maxSecurity: -1.0
+    name: Twinkling Titanite
+    volume: 10.0
+  Copious Scheelite:
+    catName: Asteroid
+    groupName: Common Moon Asteroids
+    id: 46294
+    maxSecurity: -1.0
+    name: Copious Scheelite
+    volume: 10.0
+  Twinkling Scheelite:
+    catName: Asteroid
+    groupName: Common Moon Asteroids
+    id: 46295
+    maxSecurity: -1.0
+    name: Twinkling Scheelite
+    volume: 10.0
+  Otavite:
+    catName: Asteroid
+    groupName: Uncommon Moon Asteroids
+    id: 45498
+    maxSecurity: -1.0
+    name: Otavite
+    volume: 10.0
+  Sperrylite:
+    catName: Asteroid
+    groupName: Uncommon Moon Asteroids
+    id: 45499
+    maxSecurity: -1.0
+    name: Sperrylite
+    volume: 10.0
+  Vanadinite:
+    catName: Asteroid
+    groupName: Uncommon Moon Asteroids
+    id: 45500
+    maxSecurity: -1.0
+    name: Vanadinite
+    volume: 10.0
+  Chromite:
+    catName: Asteroid
+    groupName: Uncommon Moon Asteroids
+    id: 45501
+    maxSecurity: -1.0
+    name: Chromite
+    volume: 10.0
+  Lavish Otavite:
+    catName: Asteroid
+    groupName: Uncommon Moon Asteroids
+    id: 46296
+    maxSecurity: -1.0
+    name: Lavish Otavite
+    volume: 10.0
+  Shimmering Otavite:
+    catName: Asteroid
+    groupName: Uncommon Moon Asteroids
+    id: 46297
+    maxSecurity: -1.0
+    name: Shimmering Otavite
+    volume: 10.0
+  Lavish Sperrylite:
+    catName: Asteroid
+    groupName: Uncommon Moon Asteroids
+    id: 46298
+    maxSecurity: -1.0
+    name: Lavish Sperrylite
+    volume: 10.0
+  Shimmering Sperrylite:
+    catName: Asteroid
+    groupName: Uncommon Moon Asteroids
+    id: 46299
+    maxSecurity: -1.0
+    name: Shimmering Sperrylite
+    volume: 10.0
+  Lavish Vanadinite:
+    catName: Asteroid
+    groupName: Uncommon Moon Asteroids
+    id: 46300
+    maxSecurity: -1.0
+    name: Lavish Vanadinite
+    volume: 10.0
+  Shimmering Vanadinite:
+    catName: Asteroid
+    groupName: Uncommon Moon Asteroids
+    id: 46301
+    maxSecurity: -1.0
+    name: Shimmering Vanadinite
+    volume: 10.0
+  Lavish Chromite:
+    catName: Asteroid
+    groupName: Uncommon Moon Asteroids
+    id: 46302
+    maxSecurity: -1.0
+    name: Lavish Chromite
+    volume: 10.0
+  Shimmering Chromite:
+    catName: Asteroid
+    groupName: Uncommon Moon Asteroids
+    id: 46303
+    maxSecurity: -1.0
+    name: Shimmering Chromite
+    volume: 10.0
+  Carnotite:
+    catName: Asteroid
+    groupName: Rare Moon Asteroids
+    id: 45502
+    maxSecurity: -1.0
+    name: Carnotite
+    volume: 10.0
+  Zircon:
+    catName: Asteroid
+    groupName: Rare Moon Asteroids
+    id: 45503
+    maxSecurity: -1.0
+    name: Zircon
+    volume: 10.0
+  Pollucite:
+    catName: Asteroid
+    groupName: Rare Moon Asteroids
+    id: 45504
+    maxSecurity: -1.0
+    name: Pollucite
+    volume: 10.0
+  Cinnabar:
+    catName: Asteroid
+    groupName: Rare Moon Asteroids
+    id: 45506
+    maxSecurity: -1.0
+    name: Cinnabar
+    volume: 10.0
+  Replete Carnotite:
+    catName: Asteroid
+    groupName: Rare Moon Asteroids
+    id: 46304
+    maxSecurity: -1.0
+    name: Replete Carnotite
+    volume: 10.0
+  Glowing Carnotite:
+    catName: Asteroid
+    groupName: Rare Moon Asteroids
+    id: 46305
+    maxSecurity: -1.0
+    name: Glowing Carnotite
+    volume: 10.0
+  Replete Zircon:
+    catName: Asteroid
+    groupName: Rare Moon Asteroids
+    id: 46306
+    maxSecurity: -1.0
+    name: Replete Zircon
+    volume: 10.0
+  Glowing Zircon:
+    catName: Asteroid
+    groupName: Rare Moon Asteroids
+    id: 46307
+    maxSecurity: -1.0
+    name: Glowing Zircon
+    volume: 10.0
+  Replete Pollucite:
+    catName: Asteroid
+    groupName: Rare Moon Asteroids
+    id: 46308
+    maxSecurity: -1.0
+    name: Replete Pollucite
+    volume: 10.0
+  Glowing Pollucite:
+    catName: Asteroid
+    groupName: Rare Moon Asteroids
+    id: 46309
+    maxSecurity: -1.0
+    name: Glowing Pollucite
+    volume: 10.0
+  Replete Cinnabar:
+    catName: Asteroid
+    groupName: Rare Moon Asteroids
+    id: 46310
+    maxSecurity: -1.0
+    name: Replete Cinnabar
+    volume: 10.0
+  Glowing Cinnabar:
+    catName: Asteroid
+    groupName: Rare Moon Asteroids
+    id: 46311
+    maxSecurity: -1.0
+    name: Glowing Cinnabar
+    volume: 10.0
+  Xenotime:
+    catName: Asteroid
+    groupName: Exceptional Moon Asteroids
+    id: 45510
+    maxSecurity: -1.0
+    name: Xenotime
+    volume: 10.0
+  Monazite:
+    catName: Asteroid
+    groupName: Exceptional Moon Asteroids
+    id: 45511
+    maxSecurity: -1.0
+    name: Monazite
+    volume: 10.0
+  Loparite:
+    catName: Asteroid
+    groupName: Exceptional Moon Asteroids
+    id: 45512
+    maxSecurity: -1.0
+    name: Loparite
+    volume: 10.0
+  Ytterbite:
+    catName: Asteroid
+    groupName: Exceptional Moon Asteroids
+    id: 45513
+    maxSecurity: -1.0
+    name: Ytterbite
+    volume: 10.0
+  Bountiful Xenotime:
+    catName: Asteroid
+    groupName: Exceptional Moon Asteroids
+    id: 46312
+    maxSecurity: -1.0
+    name: Bountiful Xenotime
+    volume: 10.0
+  Shining Xenotime:
+    catName: Asteroid
+    groupName: Exceptional Moon Asteroids
+    id: 46313
+    maxSecurity: -1.0
+    name: Shining Xenotime
+    volume: 10.0
+  Bountiful Monazite:
+    catName: Asteroid
+    groupName: Exceptional Moon Asteroids
+    id: 46314
+    maxSecurity: -1.0
+    name: Bountiful Monazite
+    volume: 10.0
+  Shining Monazite:
+    catName: Asteroid
+    groupName: Exceptional Moon Asteroids
+    id: 46315
+    maxSecurity: -1.0
+    name: Shining Monazite
+    volume: 10.0
+  Bountiful Loparite:
+    catName: Asteroid
+    groupName: Exceptional Moon Asteroids
+    id: 46316
+    maxSecurity: -1.0
+    name: Bountiful Loparite
+    volume: 10.0
+  Shining Loparite:
+    catName: Asteroid
+    groupName: Exceptional Moon Asteroids
+    id: 46317
+    maxSecurity: -1.0
+    name: Shining Loparite
+    volume: 10.0
+  Bountiful Ytterbite:
+    catName: Asteroid
+    groupName: Exceptional Moon Asteroids
+    id: 46318
+    maxSecurity: -1.0
+    name: Bountiful Ytterbite
+    volume: 10.0
+  Shining Ytterbite:
+    catName: Asteroid
+    groupName: Exceptional Moon Asteroids
+    id: 46319
+    maxSecurity: -1.0
+    name: Shining Ytterbite
+    volume: 10.0

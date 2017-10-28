@@ -286,19 +286,7 @@ metaInfs:
     - Explosive Deflection Amplifier I Blueprint
     - Thermal Dissipation Amplifier I Blueprint
     - Kinetic Deflection Amplifier I Blueprint
-    - Biochemical Silo Blueprint
-    - Catalyst Silo Blueprint
-    - Coupling Array Blueprint
-    - General Storage Blueprint
-    - Hazardous Chemical Silo Blueprint
-    - Hybrid Polymer Silo Blueprint
-    - Silo Blueprint
     - Corporate Hangar Array Blueprint
-    - Biochemical Reactor Array Blueprint
-    - Complex Reactor Array Blueprint
-    - Medium Biochemical Reactor Array Blueprint
-    - Polymer Reactor Array Blueprint
-    - Simple Reactor Array Blueprint
     - Shadow Blueprint
     - Noctis Blueprint
     - Warp Disruptor I Blueprint
@@ -1058,14 +1046,11 @@ metaInfs:
     - Stratios Blueprint
     - Nestor Blueprint
     - Leopard Blueprint
-    - Small Mobile Siphon Unit Blueprint
     - Mobile Depot Blueprint
     - Mobile Cynosural Inhibitor Blueprint
     - '''Wetu'' Mobile Depot Blueprint'
     - '''Yurt'' Mobile Depot Blueprint'
     - Stratios Emergency Responder Blueprint
-    - Small Mobile 'Hybrid' Siphon Unit Blueprint
-    - Small Mobile 'Rote' Siphon Unit Blueprint
     - Amarr Encounter Surveillance System Blueprint
     - Mobile Decoy Unit Blueprint
     - Mobile Scan Inhibitor Blueprint
@@ -1109,6 +1094,7 @@ metaInfs:
     - Standup Point Defense Battery I Blueprint
     - Standup Arcing Vorton Projector I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - Standup Variable Spectrum ECM I Blueprint
     - Standup XL Energy Neutralizer I Blueprint
     - Standup Heavy Energy Neutralizer I Blueprint
@@ -1243,6 +1229,10 @@ metaInfs:
     - Focused Warp Scrambling Script Blueprint
     - Pacifier Blueprint
     - Enforcer Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
+    - Fulleroferrocene Reaction Formula
     volume: 0.01
   Pyerite:
     id: 35
@@ -2223,14 +2213,11 @@ metaInfs:
     - Astero Blueprint
     - Stratios Blueprint
     - Nestor Blueprint
-    - Small Mobile Siphon Unit Blueprint
     - Mobile Depot Blueprint
     - Mobile Cynosural Inhibitor Blueprint
     - '''Wetu'' Mobile Depot Blueprint'
     - '''Yurt'' Mobile Depot Blueprint'
     - Stratios Emergency Responder Blueprint
-    - Small Mobile 'Hybrid' Siphon Unit Blueprint
-    - Small Mobile 'Rote' Siphon Unit Blueprint
     - Amarr Encounter Surveillance System Blueprint
     - Mobile Decoy Unit Blueprint
     - Mobile Scan Inhibitor Blueprint
@@ -2274,6 +2261,7 @@ metaInfs:
     - Standup Point Defense Battery I Blueprint
     - Standup Arcing Vorton Projector I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - Standup Variable Spectrum ECM I Blueprint
     - Standup XL Energy Neutralizer I Blueprint
     - Standup Heavy Energy Neutralizer I Blueprint
@@ -2394,6 +2382,10 @@ metaInfs:
     - Focused Warp Scrambling Script Blueprint
     - Pacifier Blueprint
     - Enforcer Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
+    - PPD Fullerene Fibers Reaction Formula
     volume: 0.01
   Mexallon:
     id: 36
@@ -3218,10 +3210,7 @@ metaInfs:
     - Astero Blueprint
     - Stratios Blueprint
     - Nestor Blueprint
-    - Small Mobile Siphon Unit Blueprint
     - Stratios Emergency Responder Blueprint
-    - Small Mobile 'Hybrid' Siphon Unit Blueprint
-    - Small Mobile 'Rote' Siphon Unit Blueprint
     - Amarr Encounter Surveillance System Blueprint
     - Caldari Encounter Surveillance System Blueprint
     - Gallente Encounter Surveillance System Blueprint
@@ -3252,6 +3241,7 @@ metaInfs:
     - Standup Point Defense Battery I Blueprint
     - Standup Arcing Vorton Projector I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - Standup Variable Spectrum ECM I Blueprint
     - Standup XL Energy Neutralizer I Blueprint
     - Standup Heavy Energy Neutralizer I Blueprint
@@ -3366,6 +3356,10 @@ metaInfs:
     - Defender Launcher I Blueprint
     - Pacifier Blueprint
     - Enforcer Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
+    - Fullerene Intercalated Graphite Reaction Formula
     volume: 0.01
   Isogen:
     id: 37
@@ -4083,11 +4077,8 @@ metaInfs:
     - Astero Blueprint
     - Stratios Blueprint
     - Nestor Blueprint
-    - Small Mobile Siphon Unit Blueprint
     - Mobile Cynosural Inhibitor Blueprint
     - Stratios Emergency Responder Blueprint
-    - Small Mobile 'Hybrid' Siphon Unit Blueprint
-    - Small Mobile 'Rote' Siphon Unit Blueprint
     - Amarr Encounter Surveillance System Blueprint
     - Mobile Decoy Unit Blueprint
     - Mobile Scan Inhibitor Blueprint
@@ -4130,6 +4121,7 @@ metaInfs:
     - Standup Point Defense Battery I Blueprint
     - Standup Arcing Vorton Projector I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - Standup Variable Spectrum ECM I Blueprint
     - Standup XL Energy Neutralizer I Blueprint
     - Standup Heavy Energy Neutralizer I Blueprint
@@ -4272,6 +4264,10 @@ metaInfs:
     - Focused Warp Scrambling Script Blueprint
     - Pacifier Blueprint
     - Enforcer Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
+    - Methanofullerene Reaction Formula
     volume: 0.01
   Nocxium:
     id: 38
@@ -4420,19 +4416,7 @@ metaInfs:
     - Warrior I Blueprint
     - Inferno Torpedo Blueprint
     - Nanofiber Internal Structure I Blueprint
-    - Biochemical Silo Blueprint
-    - Catalyst Silo Blueprint
-    - Coupling Array Blueprint
-    - General Storage Blueprint
-    - Hazardous Chemical Silo Blueprint
-    - Hybrid Polymer Silo Blueprint
-    - Silo Blueprint
     - Corporate Hangar Array Blueprint
-    - Biochemical Reactor Array Blueprint
-    - Complex Reactor Array Blueprint
-    - Medium Biochemical Reactor Array Blueprint
-    - Polymer Reactor Array Blueprint
-    - Simple Reactor Array Blueprint
     - Shadow Blueprint
     - Noctis Blueprint
     - Malice Blueprint
@@ -4926,10 +4910,7 @@ metaInfs:
     - Astero Blueprint
     - Stratios Blueprint
     - Nestor Blueprint
-    - Small Mobile Siphon Unit Blueprint
     - Stratios Emergency Responder Blueprint
-    - Small Mobile 'Hybrid' Siphon Unit Blueprint
-    - Small Mobile 'Rote' Siphon Unit Blueprint
     - Amarr Encounter Surveillance System Blueprint
     - Caldari Encounter Surveillance System Blueprint
     - Gallente Encounter Surveillance System Blueprint
@@ -4962,6 +4943,7 @@ metaInfs:
     - Standup Point Defense Battery I Blueprint
     - Standup Arcing Vorton Projector I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - Standup Variable Spectrum ECM I Blueprint
     - Standup XL Energy Neutralizer I Blueprint
     - Standup Heavy Energy Neutralizer I Blueprint
@@ -5091,6 +5073,16 @@ metaInfs:
     - Focused Warp Scrambling Script Blueprint
     - Pacifier Blueprint
     - Enforcer Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
+    - Lanthanum Metallofullerene Reaction Formula
+    - Graphene Nanoribbons Reaction Formula
+    - Ubiquitous Moon Ore Mining Crystal I Blueprint
+    - Common Moon Ore Mining Crystal I Blueprint
+    - Uncommon Moon Ore Mining Crystal I Blueprint
+    - Rare Moon Ore Mining Crystal I Blueprint
+    - Exceptional Moon Ore Mining Crystal I Blueprint
     volume: 0.01
   Zydrine:
     id: 39
@@ -5610,15 +5602,12 @@ metaInfs:
     - Astero Blueprint
     - Stratios Blueprint
     - Nestor Blueprint
-    - Small Mobile Siphon Unit Blueprint
     - Mobile Depot Blueprint
     - Mobile Cynosural Inhibitor Blueprint
     - Mobile Tractor Unit Blueprint
     - '''Wetu'' Mobile Depot Blueprint'
     - '''Yurt'' Mobile Depot Blueprint'
     - Stratios Emergency Responder Blueprint
-    - Small Mobile 'Hybrid' Siphon Unit Blueprint
-    - Small Mobile 'Rote' Siphon Unit Blueprint
     - Amarr Encounter Surveillance System Blueprint
     - Mobile Decoy Unit Blueprint
     - Mobile Scan Inhibitor Blueprint
@@ -5659,6 +5648,7 @@ metaInfs:
     - Standup Point Defense Battery I Blueprint
     - Standup Arcing Vorton Projector I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - Standup Variable Spectrum ECM I Blueprint
     - Standup XL Energy Neutralizer I Blueprint
     - Standup Heavy Energy Neutralizer I Blueprint
@@ -5780,6 +5770,11 @@ metaInfs:
     - Focused Warp Scrambling Script Blueprint
     - Pacifier Blueprint
     - Enforcer Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
+    - Scandium Metallofullerene Reaction Formula
+    - Carbon-86 Epoxy Resin Reaction Formula
     volume: 0.01
   Megacyte:
     id: 40
@@ -5879,18 +5874,7 @@ metaInfs:
     - Sansha Juggernaut Torpedo Blueprint
     - Ogre I Blueprint
     - Mjolnir Torpedo Blueprint
-    - Biochemical Silo Blueprint
-    - Catalyst Silo Blueprint
-    - General Storage Blueprint
-    - Hazardous Chemical Silo Blueprint
-    - Hybrid Polymer Silo Blueprint
-    - Silo Blueprint
     - Corporate Hangar Array Blueprint
-    - Biochemical Reactor Array Blueprint
-    - Complex Reactor Array Blueprint
-    - Medium Biochemical Reactor Array Blueprint
-    - Polymer Reactor Array Blueprint
-    - Simple Reactor Array Blueprint
     - Shadow Blueprint
     - Noctis Blueprint
     - Malice Blueprint
@@ -6396,11 +6380,8 @@ metaInfs:
     - Astero Blueprint
     - Stratios Blueprint
     - Nestor Blueprint
-    - Small Mobile Siphon Unit Blueprint
     - Mobile Cynosural Inhibitor Blueprint
     - Stratios Emergency Responder Blueprint
-    - Small Mobile 'Hybrid' Siphon Unit Blueprint
-    - Small Mobile 'Rote' Siphon Unit Blueprint
     - Amarr Encounter Surveillance System Blueprint
     - Caldari Encounter Surveillance System Blueprint
     - Gallente Encounter Surveillance System Blueprint
@@ -6435,6 +6416,7 @@ metaInfs:
     - Standup Point Defense Battery I Blueprint
     - Standup Arcing Vorton Projector I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - Standup Variable Spectrum ECM I Blueprint
     - Standup XL Energy Neutralizer I Blueprint
     - Standup Heavy Energy Neutralizer I Blueprint
@@ -6557,9 +6539,22 @@ metaInfs:
     - Focused Warp Scrambling Script Blueprint
     - Pacifier Blueprint
     - Enforcer Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
+    - C3-FTM Acid Reaction Formula
     volume: 0.01
   Garbage:
     id: 41
+    productIn:
+    - Synth Drop Booster Reaction Formula
+    - Synth Exile Booster Reaction Formula
+    - Synth Frentix Booster Reaction Formula
+    - Synth Mindflood Booster Reaction Formula
+    - Synth Sooth Sayer Booster Reaction Formula
+    - Synth X-Instinct Booster Reaction Formula
+    - Synth Blue Pill Booster Reaction Formula
+    - Synth Crash Booster Reaction Formula
     volume: 0.25
   Spiced Wine:
     id: 42
@@ -7945,7 +7940,7 @@ metaInfs:
     - Megathron Quafe Edition Blueprint
     - Megathron Police Edition Blueprint
     - Megathron Inner Zone Shipping Edition Blueprint
-    - ���王宝座级YC117年特别版蓝图
+    - 万王宝座级YC117年特别版蓝图
     productOf:
     - Megathron Blueprint
     volume: 486000.0
@@ -7956,7 +7951,7 @@ metaInfs:
     - Apocalypse Blood Raider Edition Blueprint
     - Apocalypse Kador Edition Blueprint
     - Apocalypse Tash-Murkon Edition Blueprint
-    - ���难级YC117年特别版蓝图
+    - 灾难级YC117年特别���蓝图
     productOf:
     - Apocalypse Blueprint
     volume: 495000.0
@@ -11642,17 +11637,11 @@ metaInfs:
     - Minmatar Control Tower Blueprint
     - Minmatar Control Tower Medium Blueprint
     - Minmatar Control Tower Small Blueprint
-    - Moon Harvesting Array Blueprint
     - Cynosural Generator Array Blueprint
     - Cynosural System Jammer Blueprint
-    - Biochemical Reactor Array Blueprint
-    - Complex Reactor Array Blueprint
     - Ion Field Projection Battery Blueprint
-    - Medium Biochemical Reactor Array Blueprint
     - Phase Inversion Battery Blueprint
-    - Polymer Reactor Array Blueprint
     - Spatial Destabilization Battery Blueprint
-    - Simple Reactor Array Blueprint
     - White Noise Generation Battery Blueprint
     - Energy Neutralizing Battery Blueprint
     - Jump Bridge Blueprint
@@ -11722,6 +11711,7 @@ metaInfs:
     - Standup Market Hub I Blueprint
     - Standup Cloning Center I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - CONCORD Capital Shield Extender Blueprint
     - CONCORD 25000mm Steel Plates Blueprint
     - Standup Capital Shipyard I Blueprint
@@ -11729,6 +11719,9 @@ metaInfs:
     - Standup Manufacturing Plant I Blueprint
     - Standup Research Lab I Blueprint
     - Standup Supercapital Shipyard I Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
     volume: 100.0
   Integrity Response Drones:
     id: 2868
@@ -11753,11 +11746,6 @@ metaInfs:
     - Minmatar Control Tower Medium Blueprint
     - Minmatar Control Tower Small Blueprint
     - Cynosural System Jammer Blueprint
-    - Biochemical Reactor Array Blueprint
-    - Complex Reactor Array Blueprint
-    - Medium Biochemical Reactor Array Blueprint
-    - Polymer Reactor Array Blueprint
-    - Simple Reactor Array Blueprint
     - Jump Bridge Blueprint
     - CONCORD Capital Armor Repairer Blueprint
     - CONCORD Capital Remote Armor Repairer Blueprint
@@ -11809,12 +11797,16 @@ metaInfs:
     - Standup Market Hub I Blueprint
     - Standup Cloning Center I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - CONCORD 25000mm Steel Plates Blueprint
     - Standup Capital Shipyard I Blueprint
     - Standup Invention Lab I Blueprint
     - Standup Manufacturing Plant I Blueprint
     - Standup Research Lab I Blueprint
     - Standup Supercapital Shipyard I Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
     volume: 100.0
   Nano-Factory:
     id: 2869
@@ -11835,12 +11827,6 @@ metaInfs:
     - Minmatar Control Tower Blueprint
     - Minmatar Control Tower Medium Blueprint
     - Minmatar Control Tower Small Blueprint
-    - Moon Harvesting Array Blueprint
-    - Biochemical Reactor Array Blueprint
-    - Complex Reactor Array Blueprint
-    - Medium Biochemical Reactor Array Blueprint
-    - Polymer Reactor Array Blueprint
-    - Simple Reactor Array Blueprint
     - Jump Bridge Blueprint
     - CONCORD Capital Armor Repairer Blueprint
     - CONCORD Capital Remote Armor Repairer Blueprint
@@ -11892,24 +11878,22 @@ metaInfs:
     - Standup Market Hub I Blueprint
     - Standup Cloning Center I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - CONCORD 25000mm Steel Plates Blueprint
     - Standup Capital Shipyard I Blueprint
     - Standup Invention Lab I Blueprint
     - Standup Manufacturing Plant I Blueprint
     - Standup Research Lab I Blueprint
     - Standup Supercapital Shipyard I Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
     volume: 100.0
   Organic Mortar Applicators:
     id: 2870
     productIn:
     - Infrastructure Hub Blueprint
     - Territorial Claim Unit Blueprint
-    - Biochemical Silo Blueprint
-    - Catalyst Silo Blueprint
-    - Coupling Array Blueprint
-    - General Storage Blueprint
-    - Hazardous Chemical Silo Blueprint
-    - Hybrid Polymer Silo Blueprint
     - X-Large Ship Maintenance Array Blueprint
     - Ship Maintenance Array Blueprint
     - Explosion Dampening Array Blueprint
@@ -11930,8 +11914,6 @@ metaInfs:
     - Corporate Hangar Array Blueprint
     - Cynosural Generator Array Blueprint
     - Cynosural System Jammer Blueprint
-    - Biochemical Reactor Array Blueprint
-    - Complex Reactor Array Blueprint
     - Energy Neutralizing Battery Blueprint
     - Jump Bridge Blueprint
     - Large Blaster Battery Blueprint
@@ -11991,23 +11973,21 @@ metaInfs:
     - Standup Market Hub I Blueprint
     - Standup Cloning Center I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - Standup Capital Shipyard I Blueprint
     - Standup Invention Lab I Blueprint
     - Standup Manufacturing Plant I Blueprint
     - Standup Research Lab I Blueprint
     - Standup Supercapital Shipyard I Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
     volume: 100.0
   Recursive Computing Module:
     id: 2871
     productIn:
     - Infrastructure Hub Blueprint
     - Territorial Claim Unit Blueprint
-    - Biochemical Silo Blueprint
-    - Catalyst Silo Blueprint
-    - General Storage Blueprint
-    - Hazardous Chemical Silo Blueprint
-    - Hybrid Polymer Silo Blueprint
-    - Silo Blueprint
     - X-Large Ship Maintenance Array Blueprint
     - Amarr Control Tower Blueprint
     - Amarr Control Tower Medium Blueprint
@@ -12021,11 +12001,8 @@ metaInfs:
     - Minmatar Control Tower Blueprint
     - Minmatar Control Tower Medium Blueprint
     - Minmatar Control Tower Small Blueprint
-    - Moon Harvesting Array Blueprint
     - Cynosural Generator Array Blueprint
     - Cynosural System Jammer Blueprint
-    - Biochemical Reactor Array Blueprint
-    - Complex Reactor Array Blueprint
     - Jump Bridge Blueprint
     - CONCORD XL Cruise Missile Launcher Blueprint
     - CONCORD XL Torpedo Launcher Blueprint
@@ -12077,11 +12054,15 @@ metaInfs:
     - Standup Market Hub I Blueprint
     - Standup Cloning Center I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - Standup Capital Shipyard I Blueprint
     - Standup Invention Lab I Blueprint
     - Standup Manufacturing Plant I Blueprint
     - Standup Research Lab I Blueprint
     - Standup Supercapital Shipyard I Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
     volume: 100.0
   Self-Harmonizing Power Core:
     id: 2872
@@ -12102,7 +12083,6 @@ metaInfs:
     - Minmatar Control Tower Blueprint
     - Minmatar Control Tower Medium Blueprint
     - Minmatar Control Tower Small Blueprint
-    - Moon Harvesting Array Blueprint
     - Corporate Hangar Array Blueprint
     - Cynosural Generator Array Blueprint
     - Cynosural System Jammer Blueprint
@@ -12181,11 +12161,15 @@ metaInfs:
     - Standup Market Hub I Blueprint
     - Standup Cloning Center I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - Standup Capital Shipyard I Blueprint
     - Standup Invention Lab I Blueprint
     - Standup Manufacturing Plant I Blueprint
     - Standup Research Lab I Blueprint
     - Standup Supercapital Shipyard I Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
     volume: 100.0
   125mm Gatling AutoCannon II:
     id: 2873
@@ -12202,8 +12186,6 @@ metaInfs:
     productIn:
     - Infrastructure Hub Blueprint
     - Territorial Claim Unit Blueprint
-    - Coupling Array Blueprint
-    - Silo Blueprint
     - X-Large Ship Maintenance Array Blueprint
     - Ship Maintenance Array Blueprint
     - Amarr Control Tower Blueprint
@@ -12275,12 +12257,16 @@ metaInfs:
     - Standup Market Hub I Blueprint
     - Standup Cloning Center I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - CONCORD Capital Shield Extender Blueprint
     - Standup Capital Shipyard I Blueprint
     - Standup Invention Lab I Blueprint
     - Standup Manufacturing Plant I Blueprint
     - Standup Research Lab I Blueprint
     - Standup Supercapital Shipyard I Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
     volume: 100.0
   Wetware Mainframe:
     id: 2876
@@ -12307,8 +12293,6 @@ metaInfs:
     - Minmatar Control Tower Small Blueprint
     - Cynosural Generator Array Blueprint
     - Cynosural System Jammer Blueprint
-    - Biochemical Reactor Array Blueprint
-    - Complex Reactor Array Blueprint
     - Ion Field Projection Battery Blueprint
     - Phase Inversion Battery Blueprint
     - Spatial Destabilization Battery Blueprint
@@ -12370,12 +12354,16 @@ metaInfs:
     - Standup Market Hub I Blueprint
     - Standup Cloning Center I Blueprint
     - Standup Reprocessing Facility I Blueprint
+    - Standup Moon Drill I Blueprint
     - CONCORD Capital Shield Extender Blueprint
     - Standup Capital Shipyard I Blueprint
     - Standup Invention Lab I Blueprint
     - Standup Manufacturing Plant I Blueprint
     - Standup Research Lab I Blueprint
     - Standup Supercapital Shipyard I Blueprint
+    - Standup Composite Reactor I Blueprint
+    - Standup Hybrid Reactor I Blueprint
+    - Standup Biochemical Reactor I Blueprint
     volume: 100.0
   Unknown Dead:
     id: 2880
@@ -13194,10 +13182,10 @@ metaInfs:
   Zainou 'Snapshot' Heavy Assault Missiles AM-706:
     id: 3159
     volume: 1.0
-  Zainou 'Snapshot' FOF Explosion Radius FR-1002:
+  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002:
     id: 3160
     volume: 1.0
-  Zainou 'Snapshot' FOF Explosion Radius FR-1004:
+  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004:
     id: 3161
     volume: 1.0
   Light Electron Blaster II:
@@ -13210,7 +13198,7 @@ metaInfs:
     productOf:
     - Light Electron Blaster I Blueprint
     volume: 0.01
-  Zainou 'Snapshot' FOF Explosion Radius FR-1006:
+  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006:
     id: 3164
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-702:
@@ -14496,6 +14484,15 @@ metaInfs:
     volume: 1.5
   Water:
     id: 3645
+    productIn:
+    - Standard Frentix Booster Reaction Formula
+    - Standard Drop Booster Reaction Formula
+    - Standard Exile Booster Reaction Formula
+    - Standard Mindflood Booster Reaction Formula
+    - Standard X-Instinct Booster Reaction Formula
+    - Standard Sooth Sayer Booster Reaction Formula
+    - Standard Blue Pill Booster Reaction Formula
+    - Standard Crash Booster Reaction Formula
     volume: 0.38
   Holoreels:
     id: 3647
@@ -14555,6 +14552,10 @@ metaInfs:
     - Nitrogen Fuel Block Blueprint
     - Helium Fuel Block Blueprint
     - Hydrogen Fuel Block Blueprint
+    - Improved Drop Booster Reaction Formula
+    - Improved Mindflood Booster Reaction Formula
+    - Improved X-Instinct Booster Reaction Formula
+    - Improved Blue Pill Booster Reaction Formula
     volume: 0.38
   Hydrogen Batteries:
     id: 3685
@@ -14706,6 +14707,15 @@ metaInfs:
     volume: 0.5
   Hydrochloric Acid:
     id: 3773
+    productIn:
+    - Strong Blue Pill Booster Reaction Formula
+    - Strong Crash Booster Reaction Formula
+    - Strong Drop Booster Reaction Formula
+    - Strong Exile Booster Reaction Formula
+    - Strong Mindflood Booster Reaction Formula
+    - Strong Frentix Booster Reaction Formula
+    - Strong X-Instinct Booster Reaction Formula
+    - Strong Sooth Sayer Booster Reaction Formula
     volume: 0.5
   Viral Agent:
     id: 3775
@@ -15497,9 +15507,6 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer II Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator II Blueprint
     - Standup XL-Set Extinction Level Weapons Suite II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
     - Stork Blueprint
     - Pontifex Blueprint
     - Magus Blueprint
@@ -15512,10 +15519,6 @@ metaInfs:
     - Scalpel Blueprint
     - Guidance Disruptor II Blueprint
     - Heavy Stasis Grappler II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
     - Industrial Core II Blueprint
     - Standup M-Set Equipment Manufacturing Material Efficiency II Blueprint
     - Standup M-Set Equipment Manufacturing Time Efficiency II Blueprint
@@ -15561,6 +15564,11 @@ metaInfs:
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
     volume: 1.0
   Reports:
     id: 3814
@@ -16848,12 +16856,6 @@ metaInfs:
     - Standup XL-Set EW and Emissions Co-ordinator II Blueprint
     - Standup XL-Set Extinction Level Weapons Suite II Blueprint
     - Standup XL-Set Extinction Level Weapons Suite II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
     - Stork Blueprint
     - Stork Blueprint
     - Pontifex Blueprint
@@ -16875,14 +16877,6 @@ metaInfs:
     - Guidance Disruptor II Blueprint
     - Guidance Disruptor II Blueprint
     - Heavy Stasis Grappler II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
     - Industrial Core II Blueprint
     - Industrial Core II Blueprint
     - Standup M-Set Equipment Manufacturing Material Efficiency II Blueprint
@@ -16973,6 +16967,16 @@ metaInfs:
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
     volume: 0.1
   Exile:
     id: 3818
@@ -17510,6 +17514,29 @@ metaInfs:
     id: 4051
     productIn:
     - Deactivated Station Key Pass Blueprint
+    - Graphene Nanoribbons Reaction Formula
+    - Carbon-86 Epoxy Resin Reaction Formula
+    - Hexite Reaction Formula
+    - Hyperflurite Reaction Formula
+    - Platinum Technite Reaction Formula
+    - Rolled Tungsten Alloy Reaction Formula
+    - Sulfuric Acid Reaction Formula
+    - Unrefined Hexite Reaction Formula
+    - Unrefined Rolled Tungsten Alloy Reaction Formula
+    - Unrefined Titanium Chromide Reaction Formula
+    - Unrefined Hyperflurite Reaction Formula
+    - Tungsten Carbide Reaction Formula
+    - Fulleride Reaction Formula
+    - Nanotransistors Reaction Formula
+    - Nonlinear Metamaterials Reaction Formula
+    - Standard Blue Pill Booster Reaction Formula
+    - Standard Crash Booster Reaction Formula
+    - Synth Blue Pill Booster Reaction Formula
+    - Synth Crash Booster Reaction Formula
+    - Strong Blue Pill Booster Reaction Formula
+    - Improved Crash Booster Reaction Formula
+    - Strong Crash Booster Reaction Formula
+    - Improved Blue Pill Booster Reaction Formula
     productOf:
     - Nitrogen Fuel Block Blueprint
     volume: 5.0
@@ -18041,11 +18068,61 @@ metaInfs:
     volume: 0.1
   Hydrogen Fuel Block:
     id: 4246
+    productIn:
+    - Methanofullerene Reaction Formula
+    - PPD Fullerene Fibers Reaction Formula
+    - Fullerene Intercalated Graphite Reaction Formula
+    - Ceramic Powder Reaction Formula
+    - Fernite Alloy Reaction Formula
+    - Ferrofluid Reaction Formula
+    - Vanadium Hafnite Reaction Formula
+    - Thulium Hafnite Reaction Formula
+    - Unrefined Solerium Reaction Formula
+    - Unrefined Caesarium Cadmide Reaction Formula
+    - Unrefined Fernite Alloy Reaction Formula
+    - Unrefined Ferrofluid Reaction Formula
+    - Unrefined Thulium Hafnite Reaction Formula
+    - Fernite Carbide Reaction Formula
+    - Ferrogel Reaction Formula
+    - Plasmonic Metamaterials Reaction Formula
+    - Standard X-Instinct Booster Reaction Formula
+    - Standard Sooth Sayer Booster Reaction Formula
+    - Synth Sooth Sayer Booster Reaction Formula
+    - Synth X-Instinct Booster Reaction Formula
+    - Improved X-Instinct Booster Reaction Formula
+    - Improved Sooth Sayer Booster Reaction Formula
+    - Strong X-Instinct Booster Reaction Formula
+    - Strong Sooth Sayer Booster Reaction Formula
     productOf:
     - Hydrogen Fuel Block Blueprint
     volume: 5.0
   Helium Fuel Block:
     id: 4247
+    productIn:
+    - Scandium Metallofullerene Reaction Formula
+    - C3-FTM Acid Reaction Formula
+    - Carbon Polymers Reaction Formula
+    - Crystallite Alloy Reaction Formula
+    - Dysporite Reaction Formula
+    - Neo Mercurite Reaction Formula
+    - Promethium Mercurite Reaction Formula
+    - Unrefined Platinum Technite Reaction Formula
+    - Unrefined Crystallite Alloy Reaction Formula
+    - Unrefined Neo Mercurite Reaction Formula
+    - Unrefined Dysporite Reaction Formula
+    - Unrefined Promethium Mercurite Reaction Formula
+    - Crystalline Carbonide Reaction Formula
+    - Sylramic Fibers Reaction Formula
+    - Fermionic Condensates Reaction Formula
+    - Terahertz Metamaterials Reaction Formula
+    - Synth Frentix Booster Reaction Formula
+    - Standard Frentix Booster Reaction Formula
+    - Standard Mindflood Booster Reaction Formula
+    - Synth Mindflood Booster Reaction Formula
+    - Improved Mindflood Booster Reaction Formula
+    - Improved Frentix Booster Reaction Formula
+    - Strong Mindflood Booster Reaction Formula
+    - Strong Frentix Booster Reaction Formula
     productOf:
     - Helium Fuel Block Blueprint
     volume: 5.0
@@ -18234,6 +18311,29 @@ metaInfs:
     id: 4312
     productIn:
     - Deactivated Station Key Pass Blueprint
+    - Fulleroferrocene Reaction Formula
+    - Lanthanum Metallofullerene Reaction Formula
+    - Caesarium Cadmide Reaction Formula
+    - Fluxed Condensates Reaction Formula
+    - Silicon Diborite Reaction Formula
+    - Solerium Reaction Formula
+    - Titanium Chromide Reaction Formula
+    - Prometium Reaction Formula
+    - Unrefined Vanadium Hafnite Reaction Formula
+    - Unrefined Prometium Reaction Formula
+    - Unrefined Fluxed Condensates Reaction Formula
+    - Titanium Carbide Reaction Formula
+    - Phenolic Composites Reaction Formula
+    - Hypersynaptic Fibers Reaction Formula
+    - Photonic Metamaterials Reaction Formula
+    - Synth Drop Booster Reaction Formula
+    - Synth Exile Booster Reaction Formula
+    - Standard Drop Booster Reaction Formula
+    - Standard Exile Booster Reaction Formula
+    - Improved Drop Booster Reaction Formula
+    - Improved Exile Booster Reaction Formula
+    - Strong Drop Booster Reaction Formula
+    - Strong Exile Booster Reaction Formula
     productOf:
     - Oxygen Fuel Block Blueprint
     volume: 5.0
@@ -19675,13 +19775,10 @@ metaInfs:
     - Curator II Blueprint
     - Bouncer II Blueprint
     - Survey Probe Launcher II Blueprint
-    - Small Mobile Siphon Unit Blueprint
     - Mobile Depot Blueprint
     - Mobile Cynosural Inhibitor Blueprint
     - '''Wetu'' Mobile Depot Blueprint'
     - '''Yurt'' Mobile Depot Blueprint'
-    - Small Mobile 'Hybrid' Siphon Unit Blueprint
-    - Small Mobile 'Rote' Siphon Unit Blueprint
     - Mobile Micro Jump Unit Blueprint
     - Heavy Hull Maintenance Bot II Blueprint
     - Medium Hull Maintenance Bot II Blueprint
@@ -20977,12 +21074,6 @@ metaInfs:
     - Standup XL-Set EW and Emissions Co-ordinator II Blueprint
     - Standup XL-Set Extinction Level Weapons Suite II Blueprint
     - Standup XL-Set Extinction Level Weapons Suite II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
     - Stork Blueprint
     - Stork Blueprint
     - Pontifex Blueprint
@@ -21004,14 +21095,6 @@ metaInfs:
     - Guidance Disruptor II Blueprint
     - Heavy Stasis Grappler II Blueprint
     - Heavy Stasis Grappler II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
     - Industrial Core II Blueprint
     - Industrial Core II Blueprint
     - Standup M-Set Equipment Manufacturing Material Efficiency II Blueprint
@@ -21102,6 +21185,16 @@ metaInfs:
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
     volume: 1.5
   Superconductors:
     id: 9838
@@ -21285,9 +21378,6 @@ metaInfs:
     - Scan Acquisition Array II Blueprint
     - Scan Pinpointing Array II Blueprint
     - Scan Rangefinding Array II Blueprint
-    - Small Mobile Siphon Unit Blueprint
-    - Small Mobile 'Hybrid' Siphon Unit Blueprint
-    - Small Mobile 'Rote' Siphon Unit Blueprint
     - Omnidirectional Tracking Enhancer II Blueprint
     - Missile Guidance Enhancer II Blueprint
     - Missile Guidance Computer II Blueprint
@@ -21439,6 +21529,11 @@ metaInfs:
     volume: 6.0
   Spirits:
     id: 9850
+    productIn:
+    - Improved Crash Booster Reaction Formula
+    - Improved Exile Booster Reaction Formula
+    - Improved Frentix Booster Reaction Formula
+    - Improved Sooth Sayer Booster Reaction Formula
     volume: 0.2
   Tobacco:
     id: 9852
@@ -23976,30 +24071,24 @@ metaInfs:
     - Capital Warp Core Optimizer II Blueprint
     - Capital Warp Core Optimizer II Blueprint
     - Capital Warp Core Optimizer II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
     - Scalpel Blueprint
     - Scalpel Blueprint
     - Scalpel Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
     productOf:
     - R.Db - Thukker Mix Blueprint
     volume: 0.04
@@ -25316,9 +25405,6 @@ metaInfs:
     - Inferno Javelin Heavy Assault Missile Blueprint
     - Nova Javelin Heavy Assault Missile Blueprint
     - Mjolnir Javelin Heavy Assault Missile Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
     - Scourge Javelin XL Torpedo Blueprint
     - Scourge Rage XL Torpedo Blueprint
     - Nova Javelin XL Torpedo Blueprint
@@ -25347,10 +25433,11 @@ metaInfs:
     - Conflagration XL Blueprint
     - Gleam XL Blueprint
     - Aurora XL Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
     productOf:
     - R.A.M.- Ammunition Tech Blueprint
     volume: 0.04
@@ -25582,6 +25669,16 @@ metaInfs:
     - Standup M-Set Drone and Fighter Manufacturing Material Efficiency II Blueprint
     - Standup M-Set Drone and Fighter Manufacturing Time Efficiency II Blueprint
     - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
+    - Standup L-Set Moon Drilling Proficiency II Blueprint
+    - Standup M-Set Moon Drilling Stability II Blueprint
+    - Standup M-Set Moon Drilling Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency II Blueprint
+    - Standup L-Set Reactor Efficiency II Blueprint
     productOf:
     - R.A.M.- Robotics Blueprint
     volume: 0.04
@@ -25831,6 +25928,11 @@ metaInfs:
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
+    - Ubiquitous Moon Ore Mining Crystal II Blueprint
+    - Common Moon Ore Mining Crystal II Blueprint
+    - Uncommon Moon Ore Mining Crystal II Blueprint
+    - Rare Moon Ore Mining Crystal II Blueprint
+    - Exceptional Moon Ore Mining Crystal II Blueprint
     productOf:
     - R.A.M.- Electronics Blueprint
     volume: 0.04
@@ -28372,7 +28474,7 @@ metaInfs:
   Eagle:
     id: 12011
     productIn:
-    - 银鹰级YC117年特别版蓝图
+    - ��鹰级YC117年特别版蓝图
     productOf:
     - Eagle Blueprint
     volume: 101000.0
@@ -29678,7 +29780,7 @@ metaInfs:
   Zainou 'Snapshot' Defender Missiles DM-803:
     id: 13227
     volume: 1.0
-  Zainou 'Snapshot' FOF Explosion Radius FR-1003:
+  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003:
     id: 13228
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-703:
@@ -30700,6 +30802,8 @@ metaInfs:
     volume: 1.0
   Silo:
     id: 14343
+    productIn:
+    - Silo Blueprint
     productOf:
     - Silo Blueprint
     volume: 4000.0
@@ -33827,6 +33931,8 @@ metaInfs:
     volume: 6250.0
   Moon Harvesting Array:
     id: 16221
+    productIn:
+    - Moon Harvesting Array Blueprint
     productOf:
     - Moon Harvesting Array Blueprint
     volume: 4000.0
@@ -34002,7 +34108,7 @@ metaInfs:
     - Electronic Hardening Charge Blueprint
     - Electronic Superiority Charge Blueprint
     - Sensor Optimization Charge Blueprint
-    volume: 0.1
+    volume: 0.05
   Strontium Clathrates:
     id: 16275
     productIn:
@@ -34406,121 +34512,290 @@ metaInfs:
     volume: 500.0
   Hydrocarbons:
     id: 16633
-    volume: 0.1
+    productIn:
+    - Carbon Polymers Reaction Formula
+    - Unrefined Fernite Alloy Reaction Formula
+    volume: 0.05
   Atmospheric Gases:
     id: 16634
-    volume: 0.1
+    productIn:
+    - Sulfuric Acid Reaction Formula
+    - Unrefined Hexite Reaction Formula
+    - Unrefined Rolled Tungsten Alloy Reaction Formula
+    volume: 0.05
   Evaporite Deposits:
     id: 16635
-    volume: 0.1
+    productIn:
+    - Ceramic Powder Reaction Formula
+    - Silicon Diborite Reaction Formula
+    - Sulfuric Acid Reaction Formula
+    - Unrefined Hexite Reaction Formula
+    - Unrefined Titanium Chromide Reaction Formula
+    volume: 0.05
   Silicates:
     id: 16636
-    volume: 0.1
+    productIn:
+    - Carbon Polymers Reaction Formula
+    - Ceramic Powder Reaction Formula
+    - Silicon Diborite Reaction Formula
+    - Unrefined Crystallite Alloy Reaction Formula
+    volume: 0.05
   Tungsten:
     id: 16637
     productIn:
     - Deactivated Station Key Pass Blueprint
-    volume: 0.4
+    - Rolled Tungsten Alloy Reaction Formula
+    - Unrefined Rolled Tungsten Alloy Reaction Formula
+    volume: 0.05
   Titanium:
     id: 16638
     productIn:
     - Deactivated Station Key Pass Blueprint
-    volume: 0.4
+    - Titanium Chromide Reaction Formula
+    - Unrefined Vanadium Hafnite Reaction Formula
+    - Unrefined Titanium Chromide Reaction Formula
+    volume: 0.05
   Scandium:
     id: 16639
-    volume: 0.4
+    productIn:
+    - Fernite Alloy Reaction Formula
+    - Unrefined Solerium Reaction Formula
+    - Unrefined Caesarium Cadmide Reaction Formula
+    - Unrefined Fernite Alloy Reaction Formula
+    volume: 0.05
   Cobalt:
     id: 16640
-    volume: 0.4
+    productIn:
+    - Crystallite Alloy Reaction Formula
+    - Unrefined Platinum Technite Reaction Formula
+    - Unrefined Crystallite Alloy Reaction Formula
+    volume: 0.05
   Chromium:
     id: 16641
-    volume: 0.6
+    productIn:
+    - Hexite Reaction Formula
+    - Solerium Reaction Formula
+    - Titanium Chromide Reaction Formula
+    - Unrefined Solerium Reaction Formula
+    - Unrefined Hyperflurite Reaction Formula
+    - Unrefined Prometium Reaction Formula
+    - Unrefined Promethium Mercurite Reaction Formula
+    volume: 0.05
   Vanadium:
     id: 16642
     productIn:
     - Deactivated Station Key Pass Blueprint
-    volume: 1.0
+    - Fernite Alloy Reaction Formula
+    - Hyperflurite Reaction Formula
+    - Vanadium Hafnite Reaction Formula
+    - Unrefined Vanadium Hafnite Reaction Formula
+    - Unrefined Hyperflurite Reaction Formula
+    - Unrefined Fluxed Condensates Reaction Formula
+    - Unrefined Thulium Hafnite Reaction Formula
+    volume: 0.05
   Cadmium:
     id: 16643
-    volume: 0.4
+    productIn:
+    - Caesarium Cadmide Reaction Formula
+    - Crystallite Alloy Reaction Formula
+    - Prometium Reaction Formula
+    - Unrefined Caesarium Cadmide Reaction Formula
+    - Unrefined Ferrofluid Reaction Formula
+    - Unrefined Prometium Reaction Formula
+    - Unrefined Dysporite Reaction Formula
+    volume: 0.05
   Platinum:
     id: 16644
-    volume: 1.0
+    productIn:
+    - Hexite Reaction Formula
+    - Platinum Technite Reaction Formula
+    - Rolled Tungsten Alloy Reaction Formula
+    - Unrefined Platinum Technite Reaction Formula
+    - Unrefined Neo Mercurite Reaction Formula
+    - Unrefined Fluxed Condensates Reaction Formula
+    volume: 0.05
   Mercury:
     id: 16646
-    volume: 0.8
+    productIn:
+    - Dysporite Reaction Formula
+    - Neo Mercurite Reaction Formula
+    - Promethium Mercurite Reaction Formula
+    - Unrefined Neo Mercurite Reaction Formula
+    - Unrefined Dysporite Reaction Formula
+    - Unrefined Promethium Mercurite Reaction Formula
+    volume: 0.05
   Caesium:
     id: 16647
-    volume: 0.8
+    productIn:
+    - Caesarium Cadmide Reaction Formula
+    - Solerium Reaction Formula
+    volume: 0.05
   Hafnium:
     id: 16648
-    volume: 0.8
+    productIn:
+    - Ferrofluid Reaction Formula
+    - Vanadium Hafnite Reaction Formula
+    - Thulium Hafnite Reaction Formula
+    - Unrefined Ferrofluid Reaction Formula
+    - Unrefined Thulium Hafnite Reaction Formula
+    volume: 0.05
   Technetium:
     id: 16649
     productIn:
     - Deactivated Station Key Pass Blueprint
-    volume: 0.8
+    - Platinum Technite Reaction Formula
+    volume: 0.05
   Dysprosium:
     id: 16650
-    volume: 1.0
+    productIn:
+    - Dysporite Reaction Formula
+    - Ferrofluid Reaction Formula
+    volume: 0.05
   Neodymium:
     id: 16651
-    volume: 1.0
+    productIn:
+    - Fluxed Condensates Reaction Formula
+    - Neo Mercurite Reaction Formula
+    volume: 0.05
   Promethium:
     id: 16652
-    volume: 1.0
+    productIn:
+    - Hyperflurite Reaction Formula
+    - Prometium Reaction Formula
+    - Promethium Mercurite Reaction Formula
+    volume: 0.05
   Thulium:
     id: 16653
     productIn:
     - Deactivated Station Key Pass Blueprint
-    volume: 1.0
+    - Fluxed Condensates Reaction Formula
+    - Thulium Hafnite Reaction Formula
+    volume: 0.05
   Titanium Chromide:
     id: 16654
+    productIn:
+    - Titanium Carbide Reaction Formula
+    - Nonlinear Metamaterials Reaction Formula
+    productOf:
+    - Titanium Chromide Reaction Formula
     volume: 1.0
   Crystallite Alloy:
     id: 16655
+    productIn:
+    - Crystalline Carbonide Reaction Formula
+    - Photonic Metamaterials Reaction Formula
+    productOf:
+    - Crystallite Alloy Reaction Formula
     volume: 1.0
   Fernite Alloy:
     id: 16656
+    productIn:
+    - Fernite Carbide Reaction Formula
+    - Plasmonic Metamaterials Reaction Formula
+    productOf:
+    - Fernite Alloy Reaction Formula
     volume: 1.0
   Rolled Tungsten Alloy:
     id: 16657
+    productIn:
+    - Tungsten Carbide Reaction Formula
+    - Terahertz Metamaterials Reaction Formula
+    productOf:
+    - Rolled Tungsten Alloy Reaction Formula
     volume: 1.0
   Silicon Diborite:
     id: 16658
+    productIn:
+    - Titanium Carbide Reaction Formula
+    - Phenolic Composites Reaction Formula
+    productOf:
+    - Silicon Diborite Reaction Formula
     volume: 1.0
   Carbon Polymers:
     id: 16659
+    productIn:
+    - Crystalline Carbonide Reaction Formula
+    - Fulleride Reaction Formula
+    productOf:
+    - Carbon Polymers Reaction Formula
     volume: 1.0
   Ceramic Powder:
     id: 16660
+    productIn:
+    - Fernite Carbide Reaction Formula
+    - Sylramic Fibers Reaction Formula
+    productOf:
+    - Ceramic Powder Reaction Formula
     volume: 1.0
   Sulfuric Acid:
     id: 16661
+    productIn:
+    - Tungsten Carbide Reaction Formula
+    - Nanotransistors Reaction Formula
+    productOf:
+    - Sulfuric Acid Reaction Formula
     volume: 1.0
   Platinum Technite:
     id: 16662
+    productIn:
+    - Fulleride Reaction Formula
+    - Nanotransistors Reaction Formula
+    productOf:
+    - Platinum Technite Reaction Formula
     volume: 1.0
   Caesarium Cadmide:
     id: 16663
+    productIn:
+    - Phenolic Composites Reaction Formula
+    - Fermionic Condensates Reaction Formula
+    productOf:
+    - Caesarium Cadmide Reaction Formula
     volume: 1.0
   Solerium:
     id: 16664
+    productIn:
+    - Hypersynaptic Fibers Reaction Formula
+    productOf:
+    - Solerium Reaction Formula
     volume: 1.0
   Hexite:
     id: 16665
+    productIn:
+    - Sylramic Fibers Reaction Formula
+    - Ferrogel Reaction Formula
+    productOf:
+    - Hexite Reaction Formula
     volume: 1.0
   Hyperflurite:
     id: 16666
+    productIn:
+    - Ferrogel Reaction Formula
+    productOf:
+    - Hyperflurite Reaction Formula
     volume: 1.0
   Neo Mercurite:
     id: 16667
+    productIn:
+    - Nanotransistors Reaction Formula
+    - Plasmonic Metamaterials Reaction Formula
+    productOf:
+    - Neo Mercurite Reaction Formula
     volume: 1.0
   Dysporite:
     id: 16668
+    productIn:
+    - Hypersynaptic Fibers Reaction Formula
+    - Fermionic Condensates Reaction Formula
+    productOf:
+    - Dysporite Reaction Formula
     volume: 1.0
   Ferrofluid:
     id: 16669
+    productIn:
+    - Ferrogel Reaction Formula
+    - Nonlinear Metamaterials Reaction Formula
+    productOf:
+    - Ferrofluid Reaction Formula
     volume: 1.0
   Crystalline Carbonide:
     id: 16670
@@ -34553,6 +34828,8 @@ metaInfs:
     - Capital Pulse Shield Emitter Blueprint
     - Void XL Blueprint
     - Null XL Blueprint
+    productOf:
+    - Crystalline Carbonide Reaction Formula
     volume: 0.01
   Titanium Carbide:
     id: 16671
@@ -34585,6 +34862,8 @@ metaInfs:
     - Capital Titanium Diborite Armor Plate Blueprint
     - Javelin XL Blueprint
     - Spike XL Blueprint
+    productOf:
+    - Titanium Carbide Reaction Formula
     volume: 0.01
   Tungsten Carbide:
     id: 16672
@@ -34625,6 +34904,8 @@ metaInfs:
     - Conflagration XL Blueprint
     - Gleam XL Blueprint
     - Aurora XL Blueprint
+    productOf:
+    - Tungsten Carbide Reaction Formula
     volume: 0.01
   Fernite Carbide:
     id: 16673
@@ -34666,6 +34947,8 @@ metaInfs:
     - Barrage XL Blueprint
     - Tremor XL Blueprint
     - Quake XL Blueprint
+    productOf:
+    - Fernite Carbide Reaction Formula
     volume: 0.01
   Sylramic Fibers:
     id: 16678
@@ -34687,6 +34970,8 @@ metaInfs:
     - Capital Titanium Diborite Armor Plate Blueprint
     - Capital Tungsten Carbide Armor Plate Blueprint
     - Spatial Attunement Unit Blueprint
+    productOf:
+    - Sylramic Fibers Reaction Formula
     volume: 0.05
   Fullerides:
     id: 16679
@@ -34755,6 +35040,8 @@ metaInfs:
     - Conflagration XL Blueprint
     - Gleam XL Blueprint
     - Aurora XL Blueprint
+    productOf:
+    - Fulleride Reaction Formula
     volume: 0.15
   Phenolic Composites:
     id: 16680
@@ -34851,6 +35138,8 @@ metaInfs:
     - Locust II Blueprint
     - Satyr II Blueprint
     - Gram II Blueprint
+    productOf:
+    - Phenolic Composites Reaction Formula
     volume: 0.2
   Nanotransistors:
     id: 16681
@@ -34896,6 +35185,8 @@ metaInfs:
     - Mining Foreman Burst II Blueprint
     - Shield Command Burst II Blueprint
     - Skirmish Command Burst II Blueprint
+    productOf:
+    - Nanotransistors Reaction Formula
     volume: 0.25
   Hypersynaptic Fibers:
     id: 16682
@@ -34941,6 +35232,13 @@ metaInfs:
     - Mining Foreman Burst II Blueprint
     - Shield Command Burst II Blueprint
     - Skirmish Command Burst II Blueprint
+    - Ubiquitous Moon Ore Mining Crystal II Blueprint
+    - Common Moon Ore Mining Crystal II Blueprint
+    - Uncommon Moon Ore Mining Crystal II Blueprint
+    - Rare Moon Ore Mining Crystal II Blueprint
+    - Exceptional Moon Ore Mining Crystal II Blueprint
+    productOf:
+    - Hypersynaptic Fibers Reaction Formula
     volume: 0.6
   Ferrogel:
     id: 16683
@@ -34961,6 +35259,8 @@ metaInfs:
     - Capital Plasma Thruster Blueprint
     - Capital Pulse Shield Emitter Blueprint
     - Capital Sustained Shield Emitter Blueprint
+    productOf:
+    - Ferrogel Reaction Formula
     volume: 1.0
   Manufacturing Tools:
     id: 16686
@@ -35043,11 +35343,10 @@ metaInfs:
   Sansha Data Sheets:
     id: 16832
     volume: 1.0
-  Standard Blue Pill Booster Reaction:
-    id: 16868
-    volume: 1.0
   Complex Reactor Array:
     id: 16869
+    productIn:
+    - Complex Reactor Array Blueprint
     productOf:
     - Complex Reactor Array Blueprint
     volume: 4000.0
@@ -35461,6 +35760,8 @@ metaInfs:
     - Capital Fusion Reactor Unit Blueprint
     - Capital Graviton Reactor Unit Blueprint
     - Capital Nuclear Reactor Unit Blueprint
+    productOf:
+    - Fermionic Condensates Reaction Formula
     volume: 1.3
   Thermonuclear Trigger Unit Blueprint:
     id: 17322
@@ -35607,9 +35908,6 @@ metaInfs:
     id: 17392
     productIn:
     - Nanite Repair Paste Blueprint
-    - Small Mobile Siphon Unit Blueprint
-    - Small Mobile 'Hybrid' Siphon Unit Blueprint
-    - Small Mobile 'Rote' Siphon Unit Blueprint
     volume: 6.0
   Large Blaster Battery:
     id: 17402
@@ -36367,7 +36665,7 @@ metaInfs:
   Gila:
     id: 17715
     productIn:
-    - 毒蜥级YC117年特别版蓝图
+    - 毒蜥级YC117��特别版蓝图
     productOf:
     - Gila Blueprint
     volume: 101000.0
@@ -36433,7 +36731,7 @@ metaInfs:
   Machariel:
     id: 17738
     productIn:
-    - 马克瑞级YC117年特别版蓝图
+    - 马克瑞���YC117年特别版蓝图
     productOf:
     - Machariel Blueprint
     volume: 595000.0
@@ -36477,6 +36775,10 @@ metaInfs:
     volume: 1.0
   Fluxed Condensates:
     id: 17769
+    productIn:
+    - Fermionic Condensates Reaction Formula
+    productOf:
+    - Fluxed Condensates Reaction Formula
     volume: 1.0
   Large AutoCannon Battery:
     id: 17770
@@ -36724,7 +37026,7 @@ metaInfs:
     - Evasive Maneuvers Charge Blueprint
     - Interdiction Maneuvers Charge Blueprint
     - Rapid Deployment Charge Blueprint
-    volume: 0.1
+    volume: 0.05
   Nitrogen Isotopes:
     id: 17888
     productIn:
@@ -36735,7 +37037,7 @@ metaInfs:
     - Active Shielding Charge Blueprint
     - Shield Extension Charge Blueprint
     - Shield Harmonizing Charge Blueprint
-    volume: 0.1
+    volume: 0.05
   Hydrogen Isotopes:
     id: 17889
     productIn:
@@ -36746,7 +37048,7 @@ metaInfs:
     - Evasive Maneuvers Charge Blueprint
     - Interdiction Maneuvers Charge Blueprint
     - Rapid Deployment Charge Blueprint
-    volume: 0.1
+    volume: 0.05
   Drugdealer Passcard to Storage Area:
     id: 17892
     volume: 0.1
@@ -36893,101 +37195,21 @@ metaInfs:
   Mining Barge:
     id: 17940
     volume: 0.01
-  Caesarium Cadmide Reaction:
-    id: 17941
-    volume: 1.0
-  Carbon Polymers Reaction:
-    id: 17942
-    volume: 1.0
-  Ceramic Powder Reaction:
-    id: 17943
-    volume: 1.0
-  Crystallite Alloy Reaction:
-    id: 17944
-    volume: 1.0
-  Dysporite Reaction:
-    id: 17945
-    volume: 1.0
-  Fernite Alloy Reaction:
-    id: 17946
-    volume: 1.0
-  Ferrofluid Reaction:
-    id: 17947
-    volume: 1.0
-  Fluxed Condensates Reaction:
-    id: 17948
-    volume: 1.0
-  Hexite Reaction:
-    id: 17949
-    volume: 1.0
-  Hyperflurite Reaction:
-    id: 17950
-    volume: 1.0
-  Neo Mercurite Reaction:
-    id: 17951
-    volume: 1.0
-  Platinum Technite Reaction:
-    id: 17952
-    volume: 1.0
-  Rolled Tungsten Alloy Reaction:
-    id: 17953
-    volume: 1.0
-  Silicon Diborite Reaction:
-    id: 17954
-    volume: 1.0
-  Solerium Reaction:
-    id: 17955
-    volume: 1.0
-  Sulfuric Acid Reaction:
-    id: 17956
-    volume: 1.0
-  Titanium Chromide Reaction:
-    id: 17957
-    volume: 1.0
-  Vanadium Hafnite Reaction:
-    id: 17958
-    volume: 1.0
   Vanadium Hafnite:
     id: 17959
+    productIn:
+    - Phenolic Composites Reaction Formula
+    - Hypersynaptic Fibers Reaction Formula
+    productOf:
+    - Vanadium Hafnite Reaction Formula
     volume: 1.0
   Prometium:
     id: 17960
-    volume: 1.0
-  Prometium Reaction:
-    id: 17961
-    volume: 1.0
-  Titanium Carbide Reaction:
-    id: 17962
-    volume: 1.0
-  Crystalline Carbonide Reaction:
-    id: 17963
-    volume: 1.0
-  Fernite Carbide Reaction:
-    id: 17964
-    volume: 1.0
-  Tungsten Carbide Reaction:
-    id: 17965
-    volume: 1.0
-  Sylramic Fibers Reaction:
-    id: 17966
-    volume: 1.0
-  Fulleride Reaction:
-    id: 17967
-    volume: 1.0
-  Phenolic Composites Reaction:
-    id: 17968
-    volume: 1.0
-  Nanotransistors Reaction:
-    id: 17969
-    volume: 1.0
-  Hypersynaptic Fibers Reaction:
-    id: 17970
-    volume: 1.0
-  Ferrogel Reaction:
-    id: 17971
-    volume: 1.0
-  Fermionic Condensates Reaction:
-    id: 17972
+    productIn:
+    - Ferrogel Reaction Formula
+    - Fermionic Condensates Reaction Formula
+    productOf:
+    - Prometium Reaction Formula
     volume: 1.0
   Battlement Accesscard:
     id: 17974
@@ -37006,6 +37228,8 @@ metaInfs:
     volume: 1000.0
   Coupling Array:
     id: 17982
+    productIn:
+    - Coupling Array Blueprint
     productOf:
     - Coupling Array Blueprint
     volume: 4000.0
@@ -39332,6 +39556,8 @@ metaInfs:
     volume: 0.1
   Simple Reactor Array:
     id: 20175
+    productIn:
+    - Simple Reactor Array Blueprint
     productOf:
     - Simple Reactor Array Blueprint
     volume: 4000.0
@@ -39698,6 +39924,11 @@ metaInfs:
     - Quad Mega Pulse Laser I Blueprint
     - Capital Cap Battery I Blueprint
     - Capital Capacitor Booster I Blueprint
+    - Ubiquitous Moon Ore Mining Crystal I Blueprint
+    - Common Moon Ore Mining Crystal I Blueprint
+    - Uncommon Moon Ore Mining Crystal I Blueprint
+    - Rare Moon Ore Mining Crystal I Blueprint
+    - Exceptional Moon Ore Mining Crystal I Blueprint
     volume: 0.1
   Datacore - Plasma Physics:
     id: 20412
@@ -39748,6 +39979,11 @@ metaInfs:
     - Small Malfunctioning Hull Section
     - Small Wrecked Hull Section
     - Triple Neutron Blaster Cannon I Blueprint
+    - Standup L-Set Moon Drilling Proficiency I Blueprint
+    - Standup M-Set Moon Drilling Stability I Blueprint
+    - Standup M-Set Moon Drilling Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency I Blueprint
     volume: 0.1
   Datacore - Laser Physics:
     id: 20413
@@ -39843,15 +40079,19 @@ metaInfs:
     - Medium Energy Metastasis Adjuster I Blueprint
     - Capital Energy Metastasis Adjuster I Blueprint
     - Venture Blueprint
-    - Standup M-Set HS Materials Reclamation I Blueprint
-    - Standup L-Set Ore Grading Processor I Blueprint
-    - Standup XL-Set Reprocessing Monitor I Blueprint
     - Ice Mining Laser I Blueprint
     - Quad Mega Pulse Laser I Blueprint
-    - Standup M-Set I1 Materials Reclamation I Blueprint
-    - Standup M-Set I2 Materials Reclamation I Blueprint
-    - Standup L-Set Ice Grading Processor I Blueprint
-    - Standup M-Set LNS Materials Reclamation I Blueprint
+    - Ubiquitous Moon Ore Mining Crystal I Blueprint
+    - Common Moon Ore Mining Crystal I Blueprint
+    - Uncommon Moon Ore Mining Crystal I Blueprint
+    - Rare Moon Ore Mining Crystal I Blueprint
+    - Exceptional Moon Ore Mining Crystal I Blueprint
+    - Standup L-Set Reactor Efficiency I Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    - Standup M-Set Ice Grading Processor I Blueprint
+    - Standup M-Set Moon Ore Grading Processor I Blueprint
+    - Standup L-Set Reprocessing Monitor I Blueprint
+    - Standup XL-Set Reprocessing Monitor I Blueprint
     volume: 0.1
   Datacore - Quantum Physics:
     id: 20414
@@ -40023,6 +40263,11 @@ metaInfs:
     - Capital Cap Battery I Blueprint
     - Capital Capacitor Booster I Blueprint
     - Capital Flex Shield Hardener I Blueprint
+    - Standup L-Set Moon Drilling Proficiency I Blueprint
+    - Standup M-Set Moon Drilling Stability I Blueprint
+    - Standup M-Set Moon Drilling Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency I Blueprint
     volume: 0.1
   Datacore - Molecular Engineering:
     id: 20415
@@ -40130,6 +40375,8 @@ metaInfs:
     - Standup L-Set Invention Optimization I Blueprint
     - Standup L-Set ME Research Optimization I Blueprint
     - Standup L-Set TE Research Optimization I Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
     volume: 0.1
   Datacore - Nanite Engineering:
     id: 20416
@@ -40274,6 +40521,8 @@ metaInfs:
     - Standup L-Set Invention Optimization I Blueprint
     - Standup L-Set ME Research Optimization I Blueprint
     - Standup L-Set TE Research Optimization I Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
     volume: 0.1
   Datacore - Electromagnetic Physics:
     id: 20417
@@ -40666,6 +40915,8 @@ metaInfs:
     - Standup L-Set Capital Ship Manufacturing Efficiency I Blueprint
     - Standup L-Set Drone and Fighter Manufacturing Efficiency I Blueprint
     - Standup L-Set Structure Manufacturing Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
     volume: 0.1
   Datacore - Graviton Physics:
     id: 20419
@@ -40780,6 +41031,8 @@ metaInfs:
     - Standup L-Set Capital Ship Manufacturing Efficiency I Blueprint
     - Standup L-Set Drone and Fighter Manufacturing Efficiency I Blueprint
     - Standup L-Set Structure Manufacturing Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
     volume: 0.1
   Datacore - Rocket Science:
     id: 20420
@@ -40982,20 +41235,19 @@ metaInfs:
     - Standup L-Set Missile Flight Processor I Blueprint
     - Standup L-Set Bomb Aimer I Blueprint
     - Standup XL-Set Missile Fire Control Computer I Blueprint
-    - Standup M-Set HS Materials Reclamation I Blueprint
-    - Standup L-Set Ore Grading Processor I Blueprint
-    - Standup XL-Set Reprocessing Monitor I Blueprint
     - Quad 800mm Repeating Cannon I Blueprint
     - Rapid Torpedo Launcher I Blueprint
-    - Standup M-Set I1 Materials Reclamation I Blueprint
-    - Standup M-Set I2 Materials Reclamation I Blueprint
-    - Standup L-Set Ice Grading Processor I Blueprint
-    - Standup M-Set LNS Materials Reclamation I Blueprint
     - Mining Foreman Burst I Blueprint
     - Shield Command Burst I Blueprint
     - Skirmish Command Burst I Blueprint
     - Armor Command Burst I Blueprint
     - Information Command Burst I Blueprint
+    - Standup L-Set Reactor Efficiency I Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    - Standup M-Set Ice Grading Processor I Blueprint
+    - Standup M-Set Moon Ore Grading Processor I Blueprint
+    - Standup L-Set Reprocessing Monitor I Blueprint
+    - Standup XL-Set Reprocessing Monitor I Blueprint
     volume: 0.1
   Datacore - Mechanical Engineering:
     id: 20424
@@ -42236,6 +42488,9 @@ metaInfs:
     - Dagon Blueprint
     - Chemosh Blueprint
     - Molok Blueprint
+    - Loggerhead Blueprint
+    - Caiman Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Propulsion Engine Blueprint
     volume: 10000.0
@@ -42293,6 +42548,9 @@ metaInfs:
     - Dagon Blueprint
     - Chemosh Blueprint
     - Molok Blueprint
+    - Loggerhead Blueprint
+    - Caiman Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Sensor Cluster Blueprint
     volume: 10000.0
@@ -42335,6 +42593,9 @@ metaInfs:
     - Dagon Blueprint
     - Chemosh Blueprint
     - Molok Blueprint
+    - Loggerhead Blueprint
+    - Caiman Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Armor Plates Blueprint
     volume: 10000.0
@@ -42373,6 +42634,9 @@ metaInfs:
     - Dagon Blueprint
     - Chemosh Blueprint
     - Molok Blueprint
+    - Loggerhead Blueprint
+    - Caiman Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Capacitor Battery Blueprint
     volume: 10000.0
@@ -42410,6 +42674,9 @@ metaInfs:
     - Dagon Blueprint
     - Chemosh Blueprint
     - Molok Blueprint
+    - Loggerhead Blueprint
+    - Caiman Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Power Generator Blueprint
     volume: 10000.0
@@ -42448,6 +42715,9 @@ metaInfs:
     - Dagon Blueprint
     - Chemosh Blueprint
     - Molok Blueprint
+    - Loggerhead Blueprint
+    - Caiman Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Shield Emitter Blueprint
     volume: 10000.0
@@ -42493,6 +42763,9 @@ metaInfs:
     - Dagon Blueprint
     - Chemosh Blueprint
     - Molok Blueprint
+    - Loggerhead Blueprint
+    - Caiman Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Jump Drive Blueprint
     volume: 10000.0
@@ -42534,6 +42807,9 @@ metaInfs:
     - Lif Blueprint
     - Vendetta Blueprint
     - Dagon Blueprint
+    - Loggerhead Blueprint
+    - Caiman Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Drone Bay Blueprint
     volume: 10000.0
@@ -42572,6 +42848,9 @@ metaInfs:
     - Dagon Blueprint
     - Chemosh Blueprint
     - Molok Blueprint
+    - Loggerhead Blueprint
+    - Caiman Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Computer System Blueprint
     volume: 10000.0
@@ -42598,7 +42877,6 @@ metaInfs:
     - Minmatar Control Tower Blueprint
     - Minmatar Control Tower Medium Blueprint
     - Minmatar Control Tower Small Blueprint
-    - Moon Harvesting Array Blueprint
     - Cynosural Generator Array Blueprint
     - Cynosural System Jammer Blueprint
     - Jump Bridge Blueprint
@@ -42665,6 +42943,9 @@ metaInfs:
     - Dagon Blueprint
     - Chemosh Blueprint
     - Molok Blueprint
+    - Loggerhead Blueprint
+    - Caiman Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Construction Parts Blueprint
     volume: 10000.0
@@ -42685,6 +42966,8 @@ metaInfs:
     - Vehement Blueprint
     - Dagon Blueprint
     - Chemosh Blueprint
+    - Loggerhead Blueprint
+    - Caiman Blueprint
     productOf:
     - Capital Siege Array Blueprint
     volume: 10000.0
@@ -42696,6 +42979,8 @@ metaInfs:
     productIn:
     - Leviathan Blueprint
     - Phoenix Blueprint
+    - Caiman Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Launcher Hardpoint Blueprint
     volume: 10000.0
@@ -44483,6 +44768,8 @@ metaInfs:
     - Raitaru Blueprint
     - Azbel Blueprint
     - Sotiyo Blueprint
+    - Athanor Blueprint
+    - Tatara Blueprint
     - Upwell Palatine Keepstar Blueprint
     productOf:
     - Structure Construction Parts Blueprint
@@ -44499,6 +44786,8 @@ metaInfs:
     - Raitaru Blueprint
     - Azbel Blueprint
     - Sotiyo Blueprint
+    - Athanor Blueprint
+    - Tatara Blueprint
     - Upwell Palatine Keepstar Blueprint
     productOf:
     - Structure Hangar Array Blueprint
@@ -44515,6 +44804,8 @@ metaInfs:
     - Raitaru Blueprint
     - Azbel Blueprint
     - Sotiyo Blueprint
+    - Athanor Blueprint
+    - Tatara Blueprint
     - Upwell Palatine Keepstar Blueprint
     productOf:
     - Structure Storage Bay Blueprint
@@ -44530,6 +44821,7 @@ metaInfs:
     - Raitaru Blueprint
     - Azbel Blueprint
     - Sotiyo Blueprint
+    - Tatara Blueprint
     - Upwell Palatine Keepstar Blueprint
     productOf:
     - Structure Laboratory Blueprint
@@ -44545,6 +44837,7 @@ metaInfs:
     - Raitaru Blueprint
     - Azbel Blueprint
     - Sotiyo Blueprint
+    - Tatara Blueprint
     - Upwell Palatine Keepstar Blueprint
     productOf:
     - Structure Factory Blueprint
@@ -44561,6 +44854,8 @@ metaInfs:
     - Raitaru Blueprint
     - Azbel Blueprint
     - Sotiyo Blueprint
+    - Athanor Blueprint
+    - Tatara Blueprint
     - Upwell Palatine Keepstar Blueprint
     productOf:
     - Structure Repair Facility Blueprint
@@ -44576,6 +44871,8 @@ metaInfs:
     - Raitaru Blueprint
     - Azbel Blueprint
     - Sotiyo Blueprint
+    - Athanor Blueprint
+    - Tatara Blueprint
     - Upwell Palatine Keepstar Blueprint
     productOf:
     - Structure Reprocessing Plant Blueprint
@@ -44592,6 +44889,8 @@ metaInfs:
     - Raitaru Blueprint
     - Azbel Blueprint
     - Sotiyo Blueprint
+    - Athanor Blueprint
+    - Tatara Blueprint
     - Upwell Palatine Keepstar Blueprint
     productOf:
     - Structure Docking Bay Blueprint
@@ -44607,6 +44906,7 @@ metaInfs:
     - Keepstar Blueprint
     - Azbel Blueprint
     - Sotiyo Blueprint
+    - Tatara Blueprint
     - Upwell Palatine Keepstar Blueprint
     productOf:
     - Structure Market Network Blueprint
@@ -44622,6 +44922,7 @@ metaInfs:
     - Keepstar Blueprint
     - Azbel Blueprint
     - Sotiyo Blueprint
+    - Tatara Blueprint
     - Upwell Palatine Keepstar Blueprint
     productOf:
     - Structure Medical Center Blueprint
@@ -44638,6 +44939,7 @@ metaInfs:
     - Raitaru Blueprint
     - Azbel Blueprint
     - Sotiyo Blueprint
+    - Tatara Blueprint
     - Upwell Palatine Keepstar Blueprint
     productOf:
     - Structure Office Center Blueprint
@@ -45418,6 +45720,8 @@ metaInfs:
     volume: 5.0
   Medium Biochemical Reactor Array:
     id: 22634
+    productIn:
+    - Medium Biochemical Reactor Array Blueprint
     productOf:
     - Medium Biochemical Reactor Array Blueprint
     volume: 4000.0
@@ -48190,6 +48494,7 @@ metaInfs:
     - Ragnarok Blueprint
     - Vanquisher Blueprint
     - Molok Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Jump Bridge Array Blueprint
     volume: 10000.0
@@ -48206,6 +48511,7 @@ metaInfs:
     - Rorqual Blueprint
     - Vanquisher Blueprint
     - Molok Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Clone Vat Bay Blueprint
     volume: 10000.0
@@ -48248,6 +48554,7 @@ metaInfs:
     - Ragnarok Blueprint
     - Vanquisher Blueprint
     - Molok Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Doomsday Weapon Mount Blueprint
     volume: 10000.0
@@ -48287,6 +48594,9 @@ metaInfs:
     - Dagon Blueprint
     - Chemosh Blueprint
     - Molok Blueprint
+    - Loggerhead Blueprint
+    - Caiman Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Ship Maintenance Bay Blueprint
     volume: 10000.0
@@ -48325,6 +48635,9 @@ metaInfs:
     - Dagon Blueprint
     - Chemosh Blueprint
     - Molok Blueprint
+    - Loggerhead Blueprint
+    - Caiman Blueprint
+    - Komodo Blueprint
     productOf:
     - Capital Corporate Hangar Bay Blueprint
     volume: 10000.0
@@ -48555,6 +48868,8 @@ metaInfs:
     volume: 1.0
   Biochemical Reactor Array:
     id: 24684
+    productIn:
+    - Biochemical Reactor Array Blueprint
     productOf:
     - Biochemical Reactor Array Blueprint
     volume: 4000.0
@@ -48617,7 +48932,7 @@ metaInfs:
     id: 24698
     productIn:
     - Nighthawk Blueprint
-    - ��龙级YC117年特别版蓝图
+    - 幼龙级YC117年特别版蓝图
     productOf:
     - Drake Blueprint
     volume: 252000.0
@@ -48744,33 +49059,42 @@ metaInfs:
     id: 25237
     productIn:
     - Standard Blue Pill Booster Blueprint
+    - Improved Crash Booster Reaction Formula
+    - Strong Frentix Booster Reaction Formula
+    - Improved Blue Pill Booster Reaction Formula
+    productOf:
+    - Standard Blue Pill Booster Reaction Formula
     volume: 1.0
   Blood Gold Tag:
     id: 25239
     volume: 0.1
-  Improved Blue Pill Booster Reaction:
-    id: 25240
-    volume: 1.0
   Pure Improved Blue Pill Booster:
     id: 25241
     productIn:
     - Improved Blue Pill Booster Blueprint
+    - Strong Blue Pill Booster Reaction Formula
+    productOf:
+    - Improved Blue Pill Booster Reaction Formula
     volume: 1.0
   Pure Standard Crash Booster:
     id: 25242
     productIn:
     - Standard Crash Booster Blueprint
-    volume: 1.0
-  Standard Crash Booster Reaction:
-    id: 25243
-    volume: 1.0
-  Standard Frentix Booster Reaction:
-    id: 25251
+    - Improved Crash Booster Reaction Formula
+    - Strong Mindflood Booster Reaction Formula
+    - Improved Blue Pill Booster Reaction Formula
+    productOf:
+    - Standard Crash Booster Reaction Formula
     volume: 1.0
   Pure Standard Frentix Booster:
     id: 25252
     productIn:
     - Standard Frentix Booster Blueprint
+    - Improved Mindflood Booster Reaction Formula
+    - Improved Frentix Booster Reaction Formula
+    - Strong Crash Booster Reaction Formula
+    productOf:
+    - Standard Frentix Booster Reaction Formula
     volume: 1.0
   Gas Cloud Harvester I:
     id: 25266
@@ -48784,110 +49108,74 @@ metaInfs:
     volume: 0.01
   Amber Cytoserocin:
     id: 25268
+    productIn:
+    - Standard Blue Pill Booster Reaction Formula
     volume: 10.0
   Biochemical Silo:
     id: 25270
+    productIn:
+    - Biochemical Silo Blueprint
     productOf:
     - Biochemical Silo Blueprint
     volume: 4000.0
   Catalyst Silo:
     id: 25271
+    productIn:
+    - Catalyst Silo Blueprint
     productOf:
     - Catalyst Silo Blueprint
     volume: 4000.0
   Golden Cytoserocin:
     id: 25273
+    productIn:
+    - Standard Crash Booster Reaction Formula
     volume: 10.0
   Viridian Cytoserocin:
     id: 25274
+    productIn:
+    - Standard Drop Booster Reaction Formula
     volume: 10.0
   Celadon Cytoserocin:
     id: 25275
+    productIn:
+    - Standard Exile Booster Reaction Formula
     volume: 10.0
   Malachite Cytoserocin:
     id: 25276
+    productIn:
+    - Standard Mindflood Booster Reaction Formula
     volume: 10.0
   Lime Cytoserocin:
     id: 25277
+    productIn:
+    - Standard Frentix Booster Reaction Formula
     volume: 10.0
   Vermillion Cytoserocin:
     id: 25278
+    productIn:
+    - Standard X-Instinct Booster Reaction Formula
     volume: 10.0
   Azure Cytoserocin:
     id: 25279
+    productIn:
+    - Standard Sooth Sayer Booster Reaction Formula
     volume: 10.0
   Hazardous Chemical Silo:
     id: 25280
+    productIn:
+    - Hazardous Chemical Silo Blueprint
     productOf:
     - Hazardous Chemical Silo Blueprint
     volume: 4000.0
   The Red Card:
     id: 25281
     volume: 0.1
-  Strong Blue Pill Booster Reaction:
-    id: 25282
-    volume: 1.0
   Pure Strong Blue Pill Booster:
     id: 25283
     productIn:
     - Strong Blue Pill Booster Blueprint
-    volume: 1.0
-  Standard Drop Booster Reaction:
-    id: 25284
-    volume: 1.0
-  Standard Exile Booster Reaction:
-    id: 25285
-    volume: 1.0
-  Standard Mindflood Booster Reaction:
-    id: 25286
-    volume: 1.0
-  Standard X-Instinct Booster Reaction:
-    id: 25287
-    volume: 1.0
-  Standard Sooth Sayer Booster Reaction:
-    id: 25288
-    volume: 1.0
-  Improved Crash Booster Reaction:
-    id: 25289
-    volume: 1.0
-  Improved Drop Booster Reaction:
-    id: 25290
-    volume: 1.0
-  Improved Exile Booster Reaction:
-    id: 25291
-    volume: 1.0
-  Improved Mindflood Booster Reaction:
-    id: 25292
-    volume: 1.0
-  Improved Frentix Booster Reaction:
-    id: 25293
-    volume: 1.0
-  Improved X-Instinct Booster Reaction:
-    id: 25294
-    volume: 1.0
-  Improved Sooth Sayer Booster Reaction:
-    id: 25295
-    volume: 1.0
-  Strong Crash Booster Reaction:
-    id: 25296
-    volume: 1.0
-  Strong Drop Booster Reaction:
-    id: 25297
-    volume: 1.0
-  Strong Exile Booster Reaction:
-    id: 25298
-    volume: 1.0
-  Strong Mindflood Booster Reaction:
-    id: 25299
-    volume: 1.0
-  Strong Frentix Booster Reaction:
-    id: 25300
-    volume: 1.0
-  Strong X-Instinct Booster Reaction:
-    id: 25301
-    volume: 1.0
-  Strong Sooth Sayer Booster Reaction:
-    id: 25302
+    productOf:
+    - Strong Blue Pill Booster Reaction Formula
     volume: 1.0
   Standard Blue Pill Booster Blueprint:
     id: 25303
@@ -48939,26 +49227,51 @@ metaInfs:
     id: 25330
     productIn:
     - Standard Drop Booster Blueprint
+    - Improved Drop Booster Reaction Formula
+    - Improved Exile Booster Reaction Formula
+    - Strong Sooth Sayer Booster Reaction Formula
+    productOf:
+    - Standard Drop Booster Reaction Formula
     volume: 1.0
   Pure Standard Exile Booster:
     id: 25331
     productIn:
     - Standard Exile Booster Blueprint
+    - Improved Drop Booster Reaction Formula
+    - Improved Exile Booster Reaction Formula
+    - Strong X-Instinct Booster Reaction Formula
+    productOf:
+    - Standard Exile Booster Reaction Formula
     volume: 1.0
   Pure Standard Mindflood Booster:
     id: 25332
     productIn:
     - Standard Mindflood Booster Blueprint
+    - Strong Blue Pill Booster Reaction Formula
+    - Improved Mindflood Booster Reaction Formula
+    - Improved Frentix Booster Reaction Formula
+    productOf:
+    - Standard Mindflood Booster Reaction Formula
     volume: 1.0
   Pure Standard X-Instinct Booster:
     id: 25333
     productIn:
     - Standard X-Instinct Booster Blueprint
+    - Improved X-Instinct Booster Reaction Formula
+    - Improved Sooth Sayer Booster Reaction Formula
+    - Strong Drop Booster Reaction Formula
+    productOf:
+    - Standard X-Instinct Booster Reaction Formula
     volume: 1.0
   Pure Standard Sooth Sayer Booster:
     id: 25334
     productIn:
     - Standard Sooth Sayer Booster Blueprint
+    - Improved X-Instinct Booster Reaction Formula
+    - Improved Sooth Sayer Booster Reaction Formula
+    - Strong Exile Booster Reaction Formula
+    productOf:
+    - Standard Sooth Sayer Booster Reaction Formula
     volume: 1.0
   Pure Improved Crash Booster:
     id: 25335
@@ -48966,71 +49279,106 @@ metaInfs:
     - Improved Crash Booster Blueprint
     - Advanced Cerebral Accelerator Blueprint
     - Prototype Cerebral Accelerator Blueprint
+    - Strong Crash Booster Reaction Formula
+    productOf:
+    - Improved Crash Booster Reaction Formula
     volume: 1.0
   Pure Improved Drop Booster:
     id: 25336
     productIn:
     - Improved Drop Booster Blueprint
+    - Strong Drop Booster Reaction Formula
+    productOf:
+    - Improved Drop Booster Reaction Formula
     volume: 1.0
   Pure Improved Exile Booster:
     id: 25337
     productIn:
     - Improved Exile Booster Blueprint
+    - Strong Exile Booster Reaction Formula
+    productOf:
+    - Improved Exile Booster Reaction Formula
     volume: 1.0
   Pure Improved Mindflood Booster:
     id: 25338
     productIn:
     - Improved Mindflood Booster Blueprint
+    - Strong Mindflood Booster Reaction Formula
+    productOf:
+    - Improved Mindflood Booster Reaction Formula
     volume: 1.0
   Pure Improved Frentix Booster:
     id: 25339
     productIn:
     - Improved Frentix Booster Blueprint
+    - Strong Frentix Booster Reaction Formula
+    productOf:
+    - Improved Frentix Booster Reaction Formula
     volume: 1.0
   Pure Improved X-Instinct Booster:
     id: 25340
     productIn:
     - Improved X-Instinct Booster Blueprint
+    - Strong X-Instinct Booster Reaction Formula
+    productOf:
+    - Improved X-Instinct Booster Reaction Formula
     volume: 1.0
   Pure Improved Sooth Sayer Booster:
     id: 25341
     productIn:
     - Improved Sooth Sayer Booster Blueprint
+    - Strong Sooth Sayer Booster Reaction Formula
+    productOf:
+    - Improved Sooth Sayer Booster Reaction Formula
     volume: 1.0
   Pure Strong Crash Booster:
     id: 25342
     productIn:
     - Strong Crash Booster Blueprint
+    productOf:
+    - Strong Crash Booster Reaction Formula
     volume: 1.0
   Pure Strong Drop Booster:
     id: 25343
     productIn:
     - Strong Drop Booster Blueprint
+    productOf:
+    - Strong Drop Booster Reaction Formula
     volume: 1.0
   Pure Strong Exile Booster:
     id: 25344
     productIn:
     - Strong Exile Booster Blueprint
+    productOf:
+    - Strong Exile Booster Reaction Formula
     volume: 1.0
   Pure Strong Mindflood Booster:
     id: 25345
     productIn:
     - Strong Mindflood Booster Blueprint
+    productOf:
+    - Strong Mindflood Booster Reaction Formula
     volume: 1.0
   Pure Strong Frentix Booster:
     id: 25346
     productIn:
     - Strong Frentix Booster Blueprint
+    productOf:
+    - Strong Frentix Booster Reaction Formula
     volume: 1.0
   Pure Strong X-Instinct Booster:
     id: 25347
     productIn:
     - Strong X-Instinct Booster Blueprint
+    productOf:
+    - Strong X-Instinct Booster Reaction Formula
     volume: 1.0
   Pure Strong Sooth Sayer Booster:
     id: 25348
     productIn:
     - Strong Sooth Sayer Booster Blueprint
+    productOf:
+    - Strong Sooth Sayer Booster Reaction Formula
     volume: 1.0
   Strong Exile Booster:
     id: 25349
@@ -49302,13 +49650,6 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer I Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator I Blueprint
     - Standup XL-Set Extinction Level Weapons Suite I Blueprint
-    - Standup M-Set HS Materials Reclamation I Blueprint
-    - Standup L-Set Ore Grading Processor I Blueprint
-    - Standup XL-Set Reprocessing Monitor I Blueprint
-    - Standup M-Set I1 Materials Reclamation I Blueprint
-    - Standup M-Set I2 Materials Reclamation I Blueprint
-    - Standup L-Set Ice Grading Processor I Blueprint
-    - Standup M-Set LNS Materials Reclamation I Blueprint
     - Standup M-Set Invention Cost Optimization I Blueprint
     - Standup M-Set Invention Accelerator I Blueprint
     - Standup M-Set ME Research Cost Optimization I Blueprint
@@ -49321,6 +49662,18 @@ metaInfs:
     - Standup L-Set Invention Optimization I Blueprint
     - Standup L-Set ME Research Optimization I Blueprint
     - Standup L-Set TE Research Optimization I Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
+    - Standup L-Set Reactor Efficiency I Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    - Standup M-Set Ice Grading Processor I Blueprint
+    - Standup M-Set Moon Ore Grading Processor I Blueprint
+    - Standup L-Set Reprocessing Monitor I Blueprint
+    - Standup XL-Set Reprocessing Monitor I Blueprint
     volume: 0.01
   Malfunctioning Shield Emitter:
     id: 25589
@@ -49366,6 +49719,16 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer I Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator I Blueprint
     - Standup XL-Set Extinction Level Weapons Suite I Blueprint
+    - Standup L-Set Moon Drilling Proficiency I Blueprint
+    - Standup M-Set Moon Drilling Stability I Blueprint
+    - Standup M-Set Moon Drilling Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
+    - Standup L-Set Reactor Efficiency I Blueprint
     volume: 0.01
   Contaminated Nanite Compound:
     id: 25590
@@ -49418,13 +49781,6 @@ metaInfs:
     - Standup L-Set Advanced Component Manufacturing Efficiency I Blueprint
     - Standup XL-Set Ship Manufacturing Efficiency I Blueprint
     - Standup XL-Set Structure and Component Manufacturing Efficiency I Blueprint
-    - Standup M-Set HS Materials Reclamation I Blueprint
-    - Standup L-Set Ore Grading Processor I Blueprint
-    - Standup XL-Set Reprocessing Monitor I Blueprint
-    - Standup M-Set I1 Materials Reclamation I Blueprint
-    - Standup M-Set I2 Materials Reclamation I Blueprint
-    - Standup L-Set Ice Grading Processor I Blueprint
-    - Standup M-Set LNS Materials Reclamation I Blueprint
     - Standup M-Set Equipment Manufacturing Material Efficiency I Blueprint
     - Standup M-Set Equipment Manufacturing Time Efficiency I Blueprint
     - Standup M-Set Ammunition Manufacturing Material Efficiency I Blueprint
@@ -49457,6 +49813,18 @@ metaInfs:
     - Standup L-Set Capital Ship Manufacturing Efficiency I Blueprint
     - Standup L-Set Drone and Fighter Manufacturing Efficiency I Blueprint
     - Standup L-Set Structure Manufacturing Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
+    - Standup L-Set Reactor Efficiency I Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    - Standup M-Set Ice Grading Processor I Blueprint
+    - Standup M-Set Moon Ore Grading Processor I Blueprint
+    - Standup L-Set Reprocessing Monitor I Blueprint
+    - Standup XL-Set Reprocessing Monitor I Blueprint
     volume: 0.01
   Contaminated Lorentz Fluid:
     id: 25591
@@ -49514,13 +49882,6 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer I Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator I Blueprint
     - Standup XL-Set Extinction Level Weapons Suite I Blueprint
-    - Standup M-Set HS Materials Reclamation I Blueprint
-    - Standup L-Set Ore Grading Processor I Blueprint
-    - Standup XL-Set Reprocessing Monitor I Blueprint
-    - Standup M-Set I1 Materials Reclamation I Blueprint
-    - Standup M-Set I2 Materials Reclamation I Blueprint
-    - Standup L-Set Ice Grading Processor I Blueprint
-    - Standup M-Set LNS Materials Reclamation I Blueprint
     - Standup M-Set Equipment Manufacturing Material Efficiency I Blueprint
     - Standup M-Set Equipment Manufacturing Time Efficiency I Blueprint
     - Standup M-Set Ammunition Manufacturing Material Efficiency I Blueprint
@@ -49553,6 +49914,14 @@ metaInfs:
     - Standup L-Set Capital Ship Manufacturing Efficiency I Blueprint
     - Standup L-Set Drone and Fighter Manufacturing Efficiency I Blueprint
     - Standup L-Set Structure Manufacturing Efficiency I Blueprint
+    - Standup L-Set Moon Drilling Proficiency I Blueprint
+    - Standup M-Set Moon Drilling Stability I Blueprint
+    - Standup M-Set Moon Drilling Efficiency I Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    - Standup M-Set Ice Grading Processor I Blueprint
+    - Standup M-Set Moon Ore Grading Processor I Blueprint
+    - Standup L-Set Reprocessing Monitor I Blueprint
+    - Standup XL-Set Reprocessing Monitor I Blueprint
     volume: 0.01
   Defective Current Pump:
     id: 25592
@@ -49595,13 +49964,6 @@ metaInfs:
     - Standup XL-Set Ship Manufacturing Efficiency I Blueprint
     - Standup XL-Set Laboratory Optimization I Blueprint
     - Standup XL-Set Structure and Component Manufacturing Efficiency I Blueprint
-    - Standup M-Set HS Materials Reclamation I Blueprint
-    - Standup L-Set Ore Grading Processor I Blueprint
-    - Standup XL-Set Reprocessing Monitor I Blueprint
-    - Standup M-Set I1 Materials Reclamation I Blueprint
-    - Standup M-Set I2 Materials Reclamation I Blueprint
-    - Standup L-Set Ice Grading Processor I Blueprint
-    - Standup M-Set LNS Materials Reclamation I Blueprint
     - Standup M-Set Equipment Manufacturing Material Efficiency I Blueprint
     - Standup M-Set Equipment Manufacturing Time Efficiency I Blueprint
     - Standup M-Set Ammunition Manufacturing Material Efficiency I Blueprint
@@ -49646,6 +50008,14 @@ metaInfs:
     - Standup L-Set ME Research Optimization I Blueprint
     - Standup L-Set Structure Manufacturing Efficiency I Blueprint
     - Standup L-Set TE Research Optimization I Blueprint
+    - Standup L-Set Moon Drilling Proficiency I Blueprint
+    - Standup M-Set Moon Drilling Stability I Blueprint
+    - Standup M-Set Moon Drilling Efficiency I Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    - Standup M-Set Ice Grading Processor I Blueprint
+    - Standup M-Set Moon Ore Grading Processor I Blueprint
+    - Standup L-Set Reprocessing Monitor I Blueprint
+    - Standup XL-Set Reprocessing Monitor I Blueprint
     volume: 0.01
   Smashed Trigger Unit:
     id: 25593
@@ -49680,13 +50050,6 @@ metaInfs:
     - Standup XL-Set Ship Manufacturing Efficiency I Blueprint
     - Standup XL-Set Laboratory Optimization I Blueprint
     - Standup XL-Set Structure and Component Manufacturing Efficiency I Blueprint
-    - Standup M-Set HS Materials Reclamation I Blueprint
-    - Standup L-Set Ore Grading Processor I Blueprint
-    - Standup XL-Set Reprocessing Monitor I Blueprint
-    - Standup M-Set I1 Materials Reclamation I Blueprint
-    - Standup M-Set I2 Materials Reclamation I Blueprint
-    - Standup L-Set Ice Grading Processor I Blueprint
-    - Standup M-Set LNS Materials Reclamation I Blueprint
     - Standup M-Set Equipment Manufacturing Material Efficiency I Blueprint
     - Standup M-Set Equipment Manufacturing Time Efficiency I Blueprint
     - Standup M-Set Ammunition Manufacturing Material Efficiency I Blueprint
@@ -49731,6 +50094,18 @@ metaInfs:
     - Standup L-Set ME Research Optimization I Blueprint
     - Standup L-Set Structure Manufacturing Efficiency I Blueprint
     - Standup L-Set TE Research Optimization I Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
+    - Standup L-Set Reactor Efficiency I Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    - Standup M-Set Ice Grading Processor I Blueprint
+    - Standup M-Set Moon Ore Grading Processor I Blueprint
+    - Standup L-Set Reprocessing Monitor I Blueprint
+    - Standup XL-Set Reprocessing Monitor I Blueprint
     volume: 0.01
   Tangled Power Conduit:
     id: 25594
@@ -49772,13 +50147,6 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer I Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator I Blueprint
     - Standup XL-Set Extinction Level Weapons Suite I Blueprint
-    - Standup M-Set HS Materials Reclamation I Blueprint
-    - Standup L-Set Ore Grading Processor I Blueprint
-    - Standup XL-Set Reprocessing Monitor I Blueprint
-    - Standup M-Set I1 Materials Reclamation I Blueprint
-    - Standup M-Set I2 Materials Reclamation I Blueprint
-    - Standup L-Set Ice Grading Processor I Blueprint
-    - Standup M-Set LNS Materials Reclamation I Blueprint
     - Standup M-Set Equipment Manufacturing Material Efficiency I Blueprint
     - Standup M-Set Equipment Manufacturing Time Efficiency I Blueprint
     - Standup M-Set Ammunition Manufacturing Material Efficiency I Blueprint
@@ -49811,6 +50179,21 @@ metaInfs:
     - Standup L-Set Capital Ship Manufacturing Efficiency I Blueprint
     - Standup L-Set Drone and Fighter Manufacturing Efficiency I Blueprint
     - Standup L-Set Structure Manufacturing Efficiency I Blueprint
+    - Standup L-Set Moon Drilling Proficiency I Blueprint
+    - Standup M-Set Moon Drilling Stability I Blueprint
+    - Standup M-Set Moon Drilling Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
+    - Standup L-Set Reactor Efficiency I Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    - Standup M-Set Ice Grading Processor I Blueprint
+    - Standup M-Set Moon Ore Grading Processor I Blueprint
+    - Standup L-Set Reprocessing Monitor I Blueprint
+    - Standup XL-Set Reprocessing Monitor I Blueprint
     volume: 0.01
   Alloyed Tritanium Bar:
     id: 25595
@@ -49852,13 +50235,18 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer I Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator I Blueprint
     - Standup XL-Set Extinction Level Weapons Suite I Blueprint
-    - Standup M-Set HS Materials Reclamation I Blueprint
-    - Standup L-Set Ore Grading Processor I Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
+    - Standup L-Set Reactor Efficiency I Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    - Standup M-Set Ice Grading Processor I Blueprint
+    - Standup M-Set Moon Ore Grading Processor I Blueprint
+    - Standup L-Set Reprocessing Monitor I Blueprint
     - Standup XL-Set Reprocessing Monitor I Blueprint
-    - Standup M-Set I1 Materials Reclamation I Blueprint
-    - Standup M-Set I2 Materials Reclamation I Blueprint
-    - Standup L-Set Ice Grading Processor I Blueprint
-    - Standup M-Set LNS Materials Reclamation I Blueprint
     volume: 0.01
   Broken Drone Transceiver:
     id: 25596
@@ -49914,13 +50302,6 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer I Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator I Blueprint
     - Standup XL-Set Extinction Level Weapons Suite I Blueprint
-    - Standup M-Set HS Materials Reclamation I Blueprint
-    - Standup L-Set Ore Grading Processor I Blueprint
-    - Standup XL-Set Reprocessing Monitor I Blueprint
-    - Standup M-Set I1 Materials Reclamation I Blueprint
-    - Standup M-Set I2 Materials Reclamation I Blueprint
-    - Standup L-Set Ice Grading Processor I Blueprint
-    - Standup M-Set LNS Materials Reclamation I Blueprint
     - Standup M-Set Invention Cost Optimization I Blueprint
     - Standup M-Set Invention Accelerator I Blueprint
     - Standup M-Set ME Research Cost Optimization I Blueprint
@@ -49933,6 +50314,11 @@ metaInfs:
     - Standup L-Set Invention Optimization I Blueprint
     - Standup L-Set ME Research Optimization I Blueprint
     - Standup L-Set TE Research Optimization I Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    - Standup M-Set Ice Grading Processor I Blueprint
+    - Standup M-Set Moon Ore Grading Processor I Blueprint
+    - Standup L-Set Reprocessing Monitor I Blueprint
+    - Standup XL-Set Reprocessing Monitor I Blueprint
     volume: 0.01
   Damaged Artificial Neural Network:
     id: 25597
@@ -50068,6 +50454,9 @@ metaInfs:
     - Standup L-Set ME Research Optimization I Blueprint
     - Standup L-Set Structure Manufacturing Efficiency I Blueprint
     - Standup L-Set TE Research Optimization I Blueprint
+    - Standup L-Set Moon Drilling Proficiency I Blueprint
+    - Standup M-Set Moon Drilling Stability I Blueprint
+    - Standup M-Set Moon Drilling Efficiency I Blueprint
     volume: 0.01
   Tripped Power Circuit:
     id: 25598
@@ -50386,13 +50775,6 @@ metaInfs:
     - Standup XL-Set Ship Manufacturing Efficiency I Blueprint
     - Standup XL-Set Laboratory Optimization I Blueprint
     - Standup XL-Set Structure and Component Manufacturing Efficiency I Blueprint
-    - Standup M-Set HS Materials Reclamation I Blueprint
-    - Standup L-Set Ore Grading Processor I Blueprint
-    - Standup XL-Set Reprocessing Monitor I Blueprint
-    - Standup M-Set I1 Materials Reclamation I Blueprint
-    - Standup M-Set I2 Materials Reclamation I Blueprint
-    - Standup L-Set Ice Grading Processor I Blueprint
-    - Standup M-Set LNS Materials Reclamation I Blueprint
     - Small Command Processor I Blueprint
     - Medium Command Processor I Blueprint
     - Large Command Processor I Blueprint
@@ -50441,6 +50823,21 @@ metaInfs:
     - Standup L-Set ME Research Optimization I Blueprint
     - Standup L-Set Structure Manufacturing Efficiency I Blueprint
     - Standup L-Set TE Research Optimization I Blueprint
+    - Standup L-Set Moon Drilling Proficiency I Blueprint
+    - Standup M-Set Moon Drilling Stability I Blueprint
+    - Standup M-Set Moon Drilling Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
+    - Standup L-Set Reactor Efficiency I Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    - Standup M-Set Ice Grading Processor I Blueprint
+    - Standup M-Set Moon Ore Grading Processor I Blueprint
+    - Standup L-Set Reprocessing Monitor I Blueprint
+    - Standup XL-Set Reprocessing Monitor I Blueprint
     volume: 0.01
   Burned Logic Circuit:
     id: 25600
@@ -50580,6 +50977,9 @@ metaInfs:
     - Standup L-Set Invention Optimization I Blueprint
     - Standup L-Set ME Research Optimization I Blueprint
     - Standup L-Set TE Research Optimization I Blueprint
+    - Standup L-Set Moon Drilling Proficiency I Blueprint
+    - Standup M-Set Moon Drilling Stability I Blueprint
+    - Standup M-Set Moon Drilling Efficiency I Blueprint
     volume: 0.01
   Fried Interface Circuit:
     id: 25601
@@ -50823,6 +51223,16 @@ metaInfs:
     - Standup L-Set ME Research Optimization I Blueprint
     - Standup L-Set Structure Manufacturing Efficiency I Blueprint
     - Standup L-Set TE Research Optimization I Blueprint
+    - Standup L-Set Moon Drilling Proficiency I Blueprint
+    - Standup M-Set Moon Drilling Stability I Blueprint
+    - Standup M-Set Moon Drilling Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
+    - Standup L-Set Reactor Efficiency I Blueprint
     volume: 0.01
   Thruster Console:
     id: 25602
@@ -50902,6 +51312,9 @@ metaInfs:
     - Standup L-Set Invention Optimization I Blueprint
     - Standup L-Set ME Research Optimization I Blueprint
     - Standup L-Set TE Research Optimization I Blueprint
+    - Standup L-Set Moon Drilling Proficiency I Blueprint
+    - Standup M-Set Moon Drilling Stability I Blueprint
+    - Standup M-Set Moon Drilling Efficiency I Blueprint
     volume: 0.01
   Conductive Polymer:
     id: 25604
@@ -51029,13 +51442,21 @@ metaInfs:
     - Small Salvage Tackle I Blueprint
     - Medium Salvage Tackle I Blueprint
     - Capital Salvage Tackle I Blueprint
-    - Standup M-Set HS Materials Reclamation I Blueprint
-    - Standup L-Set Ore Grading Processor I Blueprint
+    - Standup L-Set Moon Drilling Proficiency I Blueprint
+    - Standup M-Set Moon Drilling Stability I Blueprint
+    - Standup M-Set Moon Drilling Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
+    - Standup L-Set Reactor Efficiency I Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    - Standup M-Set Ice Grading Processor I Blueprint
+    - Standup M-Set Moon Ore Grading Processor I Blueprint
+    - Standup L-Set Reprocessing Monitor I Blueprint
     - Standup XL-Set Reprocessing Monitor I Blueprint
-    - Standup M-Set I1 Materials Reclamation I Blueprint
-    - Standup M-Set I2 Materials Reclamation I Blueprint
-    - Standup L-Set Ice Grading Processor I Blueprint
-    - Standup M-Set LNS Materials Reclamation I Blueprint
     volume: 0.01
   Ward Console:
     id: 25606
@@ -51069,6 +51490,13 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer I Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator I Blueprint
     - Standup XL-Set Extinction Level Weapons Suite I Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
+    - Standup L-Set Reactor Efficiency I Blueprint
     volume: 0.01
   Telemetry Processor:
     id: 25607
@@ -51115,13 +51543,6 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer II Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator II Blueprint
     - Standup XL-Set Extinction Level Weapons Suite II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
     - Standup M-Set Invention Cost Optimization II Blueprint
     - Standup M-Set Invention Accelerator II Blueprint
     - Standup M-Set ME Research Cost Optimization II Blueprint
@@ -51134,6 +51555,18 @@ metaInfs:
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency II Blueprint
+    - Standup L-Set Reactor Efficiency II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
     volume: 0.01
   Intact Shield Emitter:
     id: 25608
@@ -51179,6 +51612,9 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer II Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator II Blueprint
     - Standup XL-Set Extinction Level Weapons Suite II Blueprint
+    - Standup L-Set Moon Drilling Proficiency II Blueprint
+    - Standup M-Set Moon Drilling Stability II Blueprint
+    - Standup M-Set Moon Drilling Efficiency II Blueprint
     volume: 0.01
   Nanite Compound:
     id: 25609
@@ -51231,13 +51667,6 @@ metaInfs:
     - Standup XL-Set Equipment and Consumable Manufacturing Efficiency II Blueprint
     - Standup XL-Set Ship Manufacturing Efficiency II Blueprint
     - Standup XL-Set Structure and Component Manufacturing Efficiency II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
     - Standup M-Set Equipment Manufacturing Material Efficiency II Blueprint
     - Standup M-Set Equipment Manufacturing Time Efficiency II Blueprint
     - Standup M-Set Ammunition Manufacturing Material Efficiency II Blueprint
@@ -51270,6 +51699,21 @@ metaInfs:
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
+    - Standup L-Set Moon Drilling Proficiency II Blueprint
+    - Standup M-Set Moon Drilling Stability II Blueprint
+    - Standup M-Set Moon Drilling Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency II Blueprint
+    - Standup L-Set Reactor Efficiency II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
     volume: 0.01
   Lorentz Fluid:
     id: 25610
@@ -51327,13 +51771,6 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer II Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator II Blueprint
     - Standup XL-Set Extinction Level Weapons Suite II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
     - Standup M-Set Equipment Manufacturing Material Efficiency II Blueprint
     - Standup M-Set Equipment Manufacturing Time Efficiency II Blueprint
     - Standup M-Set Ammunition Manufacturing Material Efficiency II Blueprint
@@ -51366,6 +51803,21 @@ metaInfs:
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
+    - Standup L-Set Moon Drilling Proficiency II Blueprint
+    - Standup M-Set Moon Drilling Stability II Blueprint
+    - Standup M-Set Moon Drilling Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency II Blueprint
+    - Standup L-Set Reactor Efficiency II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
     volume: 0.01
   Current Pump:
     id: 25611
@@ -51407,13 +51859,6 @@ metaInfs:
     - Standup XL-Set Ship Manufacturing Efficiency II Blueprint
     - Standup XL-Set Laboratory Optimization II Blueprint
     - Standup XL-Set Structure and Component Manufacturing Efficiency II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
     - Standup M-Set Equipment Manufacturing Material Efficiency II Blueprint
     - Standup M-Set Equipment Manufacturing Time Efficiency II Blueprint
     - Standup M-Set Ammunition Manufacturing Material Efficiency II Blueprint
@@ -51458,6 +51903,18 @@ metaInfs:
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency II Blueprint
+    - Standup L-Set Reactor Efficiency II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
     volume: 0.01
   Trigger Unit:
     id: 25612
@@ -51491,13 +51948,6 @@ metaInfs:
     - Standup XL-Set Ship Manufacturing Efficiency II Blueprint
     - Standup XL-Set Laboratory Optimization II Blueprint
     - Standup XL-Set Structure and Component Manufacturing Efficiency II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
     - Standup M-Set Equipment Manufacturing Material Efficiency II Blueprint
     - Standup M-Set Equipment Manufacturing Time Efficiency II Blueprint
     - Standup M-Set Ammunition Manufacturing Material Efficiency II Blueprint
@@ -51542,6 +51992,18 @@ metaInfs:
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency II Blueprint
+    - Standup L-Set Reactor Efficiency II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
     volume: 0.01
   Power Conduit:
     id: 25613
@@ -51583,13 +52045,6 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer II Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator II Blueprint
     - Standup XL-Set Extinction Level Weapons Suite II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
     - Standup M-Set Equipment Manufacturing Material Efficiency II Blueprint
     - Standup M-Set Equipment Manufacturing Time Efficiency II Blueprint
     - Standup M-Set Ammunition Manufacturing Material Efficiency II Blueprint
@@ -51622,6 +52077,21 @@ metaInfs:
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
+    - Standup L-Set Moon Drilling Proficiency II Blueprint
+    - Standup M-Set Moon Drilling Stability II Blueprint
+    - Standup M-Set Moon Drilling Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency II Blueprint
+    - Standup L-Set Reactor Efficiency II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
     volume: 0.01
   Single-crystal Superalloy I-beam:
     id: 25614
@@ -51663,13 +52133,18 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer II Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator II Blueprint
     - Standup XL-Set Extinction Level Weapons Suite II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency II Blueprint
+    - Standup L-Set Reactor Efficiency II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
     - Standup XL-Set Reprocessing Monitor II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
     volume: 0.01
   Drone Transceiver:
     id: 25615
@@ -51725,13 +52200,6 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer II Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator II Blueprint
     - Standup XL-Set Extinction Level Weapons Suite II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
     - Standup M-Set Invention Cost Optimization II Blueprint
     - Standup M-Set Invention Accelerator II Blueprint
     - Standup M-Set ME Research Cost Optimization II Blueprint
@@ -51744,6 +52212,11 @@ metaInfs:
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
     volume: 0.01
   Artificial Neural Network:
     id: 25616
@@ -51874,6 +52347,16 @@ metaInfs:
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
+    - Standup L-Set Moon Drilling Proficiency II Blueprint
+    - Standup M-Set Moon Drilling Stability II Blueprint
+    - Standup M-Set Moon Drilling Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency II Blueprint
+    - Standup L-Set Reactor Efficiency II Blueprint
     volume: 0.01
   Power Circuit:
     id: 25617
@@ -52055,6 +52538,9 @@ metaInfs:
     - Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint
     - Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
+    - Standup L-Set Moon Drilling Proficiency II Blueprint
+    - Standup M-Set Moon Drilling Stability II Blueprint
+    - Standup M-Set Moon Drilling Efficiency II Blueprint
     volume: 0.01
   Micro Circuit:
     id: 25618
@@ -52208,13 +52694,6 @@ metaInfs:
     - Standup XL-Set Ship Manufacturing Efficiency II Blueprint
     - Standup XL-Set Laboratory Optimization II Blueprint
     - Standup XL-Set Structure and Component Manufacturing Efficiency II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
-    - Standup XL-Set Reprocessing Monitor II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
     - Standup M-Set Equipment Manufacturing Material Efficiency II Blueprint
     - Standup M-Set Equipment Manufacturing Time Efficiency II Blueprint
     - Standup M-Set Ammunition Manufacturing Material Efficiency II Blueprint
@@ -52259,6 +52738,18 @@ metaInfs:
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency II Blueprint
+    - Standup L-Set Reactor Efficiency II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    - Standup XL-Set Reprocessing Monitor II Blueprint
     volume: 0.01
   Logic Circuit:
     id: 25619
@@ -52401,6 +52892,9 @@ metaInfs:
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
+    - Standup L-Set Moon Drilling Proficiency II Blueprint
+    - Standup M-Set Moon Drilling Stability II Blueprint
+    - Standup M-Set Moon Drilling Efficiency II Blueprint
     volume: 0.01
   Interface Circuit:
     id: 25620
@@ -52626,6 +53120,9 @@ metaInfs:
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set Structure Manufacturing Efficiency II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
+    - Standup L-Set Moon Drilling Proficiency II Blueprint
+    - Standup M-Set Moon Drilling Stability II Blueprint
+    - Standup M-Set Moon Drilling Efficiency II Blueprint
     volume: 0.01
   Impetus Console:
     id: 25621
@@ -52701,6 +53198,9 @@ metaInfs:
     - Standup L-Set Invention Optimization II Blueprint
     - Standup L-Set ME Research Optimization II Blueprint
     - Standup L-Set TE Research Optimization II Blueprint
+    - Standup L-Set Moon Drilling Proficiency II Blueprint
+    - Standup M-Set Moon Drilling Stability II Blueprint
+    - Standup M-Set Moon Drilling Efficiency II Blueprint
     volume: 0.01
   Conductive Thermoplastic:
     id: 25623
@@ -52826,13 +53326,18 @@ metaInfs:
     - Small Salvage Tackle II Blueprint
     - Medium Salvage Tackle II Blueprint
     - Capital Salvage Tackle II Blueprint
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    - Standup L-Set Ore Grading Processor II Blueprint
+    - Standup M-Set Composite Reactor Time Efficiency II Blueprint
+    - Standup M-Set Composite Reactor Material Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Time Efficiency II Blueprint
+    - Standup M-Set Hybrid Reactor Material Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Time Efficiency II Blueprint
+    - Standup M-Set Biochemical Reactor Material Efficiency II Blueprint
+    - Standup L-Set Reactor Efficiency II Blueprint
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    - Standup M-Set Ice Grading Processor II Blueprint
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    - Standup L-Set Reprocessing Monitor II Blueprint
     - Standup XL-Set Reprocessing Monitor II Blueprint
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    - Standup L-Set Ice Grading Processor II Blueprint
     volume: 0.01
   Enhanced Ward Console:
     id: 25625
@@ -52866,6 +53371,9 @@ metaInfs:
     - Standup XL-Set Missile Fire Control Computer II Blueprint
     - Standup XL-Set EW and Emissions Co-ordinator II Blueprint
     - Standup XL-Set Extinction Level Weapons Suite II Blueprint
+    - Standup L-Set Moon Drilling Proficiency II Blueprint
+    - Standup M-Set Moon Drilling Stability II Blueprint
+    - Standup M-Set Moon Drilling Efficiency II Blueprint
     volume: 0.01
   Prototype 'Arbalest' Heavy Assault Missile Launcher I:
     id: 25707
@@ -52926,6 +53434,8 @@ metaInfs:
     volume: 0.01
   General Storage:
     id: 25821
+    productIn:
+    - General Storage Blueprint
     productOf:
     - General Storage Blueprint
     volume: 4000.0
@@ -55180,10 +55690,10 @@ metaInfs:
   Zainou 'Snapshot' Heavy Assault Missiles AM-701:
     id: 27246
     volume: 1.0
-  Zainou 'Snapshot' FOF Explosion Radius FR-1005:
+  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005:
     id: 27247
     volume: 1.0
-  Zainou 'Snapshot' FOF Explosion Radius FR-1001:
+  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001:
     id: 27249
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-705:
@@ -57953,90 +58463,98 @@ metaInfs:
     id: 28686
     productIn:
     - Synth Blue Pill Booster Blueprint
+    productOf:
+    - Synth Blue Pill Booster Reaction Formula
     volume: 1.0
   Pure Synth Crash Booster:
     id: 28687
     productIn:
     - Synth Crash Booster Blueprint
+    productOf:
+    - Synth Crash Booster Reaction Formula
     volume: 1.0
   Pure Synth Drop Booster:
     id: 28688
     productIn:
     - Synth Drop Booster Blueprint
+    productOf:
+    - Synth Drop Booster Reaction Formula
     volume: 1.0
   Pure Synth Exile Booster:
     id: 28689
     productIn:
     - Synth Exile Booster Blueprint
+    productOf:
+    - Synth Exile Booster Reaction Formula
     volume: 1.0
   Pure Synth Frentix Booster:
     id: 28690
     productIn:
     - Synth Frentix Booster Blueprint
+    productOf:
+    - Synth Frentix Booster Reaction Formula
     volume: 1.0
   Pure Synth Mindflood Booster:
     id: 28691
     productIn:
     - Synth Mindflood Booster Blueprint
+    productOf:
+    - Synth Mindflood Booster Reaction Formula
     volume: 1.0
   Pure Synth Sooth Sayer Booster:
     id: 28692
     productIn:
     - Synth Sooth Sayer Booster Blueprint
+    productOf:
+    - Synth Sooth Sayer Booster Reaction Formula
     volume: 1.0
   Pure Synth X-Instinct Booster:
     id: 28693
     productIn:
     - Synth X-Instinct Booster Blueprint
+    productOf:
+    - Synth X-Instinct Booster Reaction Formula
     volume: 1.0
   Amber Mykoserocin:
     id: 28694
+    productIn:
+    - Synth Blue Pill Booster Reaction Formula
     volume: 10.0
   Azure Mykoserocin:
     id: 28695
+    productIn:
+    - Synth Sooth Sayer Booster Reaction Formula
     volume: 10.0
   Celadon Mykoserocin:
     id: 28696
+    productIn:
+    - Synth Exile Booster Reaction Formula
     volume: 10.0
   Golden Mykoserocin:
     id: 28697
+    productIn:
+    - Synth Crash Booster Reaction Formula
     volume: 10.0
   Lime Mykoserocin:
     id: 28698
+    productIn:
+    - Synth Frentix Booster Reaction Formula
     volume: 10.0
   Malachite Mykoserocin:
     id: 28699
+    productIn:
+    - Synth Mindflood Booster Reaction Formula
     volume: 10.0
   Vermillion Mykoserocin:
     id: 28700
+    productIn:
+    - Synth X-Instinct Booster Reaction Formula
     volume: 10.0
   Viridian Mykoserocin:
     id: 28701
+    productIn:
+    - Synth Drop Booster Reaction Formula
     volume: 10.0
-  Synth Blue Pill Booster Reaction:
-    id: 28702
-    volume: 1.0
-  Synth Crash Booster Reaction:
-    id: 28703
-    volume: 1.0
-  Synth Drop Booster Reaction:
-    id: 28704
-    volume: 1.0
-  Synth Exile Booster Reaction:
-    id: 28705
-    volume: 1.0
-  Synth Frentix Booster Reaction:
-    id: 28706
-    volume: 1.0
-  Synth Mindflood Booster Reaction:
-    id: 28707
-    volume: 1.0
-  Synth Sooth Sayer Booster Reaction:
-    id: 28708
-    volume: 1.0
-  Synth X-Instinct Booster Reaction:
-    id: 28709
-    volume: 1.0
   Golem:
     id: 28710
     productIn:
@@ -59023,41 +59541,35 @@ metaInfs:
   Industrial Command Ships:
     id: 29637
     volume: 0.01
-  Unrefined Hyperflurite Reaction:
-    id: 29640
-    volume: 1.0
-  Unrefined Ferrofluid Reaction:
-    id: 29641
-    volume: 1.0
-  Unrefined Prometium Reaction:
-    id: 29642
-    volume: 1.0
-  Unrefined Neo Mercurite Reaction:
-    id: 29643
-    volume: 1.0
-  Unrefined Dysporite Reaction:
-    id: 29644
-    volume: 1.0
-  Unrefined Fluxed Condensates Reaction:
-    id: 29645
-    volume: 1.0
   Unrefined Fluxed Condensates:
     id: 29659
+    productOf:
+    - Unrefined Fluxed Condensates Reaction Formula
     volume: 1.0
   Unrefined Dysporite:
     id: 29660
+    productOf:
+    - Unrefined Dysporite Reaction Formula
     volume: 1.0
   Unrefined Neo Mercurite:
     id: 29661
+    productOf:
+    - Unrefined Neo Mercurite Reaction Formula
     volume: 1.0
   Unrefined Prometium:
     id: 29662
+    productOf:
+    - Unrefined Prometium Reaction Formula
     volume: 1.0
   Unrefined Ferrofluid:
     id: 29663
+    productOf:
+    - Unrefined Ferrofluid Reaction Formula
     volume: 1.0
   Unrefined Hyperflurite:
     id: 29664
+    productOf:
+    - Unrefined Hyperflurite Reaction Formula
     volume: 1.0
   Sareko's Capsule:
     id: 29932
@@ -59479,6 +59991,8 @@ metaInfs:
     - Superconducting Gravimetric Amplifier Blueprint
     - Superconducting Radar Amplifier Blueprint
     - Superconducting Ladar Amplifier Blueprint
+    productOf:
+    - Fulleroferrocene Reaction Formula
     volume: 0.1
   PPD Fullerene Fibers:
     id: 30304
@@ -59494,6 +60008,8 @@ metaInfs:
     - Superconducting Gravimetric Amplifier Blueprint
     - Superconducting Radar Amplifier Blueprint
     - Superconducting Ladar Amplifier Blueprint
+    productOf:
+    - PPD Fullerene Fibers Reaction Formula
     volume: 0.5
   Fullerene Intercalated Graphite:
     id: 30305
@@ -59505,11 +60021,15 @@ metaInfs:
     - Superconducting Gravimetric Amplifier Blueprint
     - Superconducting Radar Amplifier Blueprint
     - Superconducting Ladar Amplifier Blueprint
+    productOf:
+    - Fullerene Intercalated Graphite Reaction Formula
     volume: 0.8
   Methanofullerene:
     id: 30306
     productIn:
     - Fulleroferrocene Power Conduits Blueprint
+    productOf:
+    - Methanofullerene Reaction Formula
     volume: 0.75
   Lanthanum Metallofullerene:
     id: 30307
@@ -59519,6 +60039,8 @@ metaInfs:
     - Electromechanical Interface Nexus Blueprint
     - Reconfigured Subspace Calibrator Blueprint
     - Self-Assembling Nanolattice Blueprint
+    productOf:
+    - Lanthanum Metallofullerene Reaction Formula
     volume: 1.0
   Scandium Metallofullerene:
     id: 30308
@@ -59531,6 +60053,8 @@ metaInfs:
     - Superconducting Gravimetric Amplifier Blueprint
     - Superconducting Radar Amplifier Blueprint
     - Superconducting Ladar Amplifier Blueprint
+    productOf:
+    - Scandium Metallofullerene Reaction Formula
     volume: 0.65
   Graphene Nanoribbons:
     id: 30309
@@ -59541,18 +60065,24 @@ metaInfs:
     - Electromechanical Interface Nexus Blueprint
     - Reconfigured Subspace Calibrator Blueprint
     - Self-Assembling Nanolattice Blueprint
+    productOf:
+    - Graphene Nanoribbons Reaction Formula
     volume: 1.5
   Carbon-86 Epoxy Resin:
     id: 30310
     productIn:
     - Neurovisual Output Analyzer Blueprint
     - Self-Assembling Nanolattice Blueprint
+    productOf:
+    - Carbon-86 Epoxy Resin Reaction Formula
     volume: 0.4
   C3-FTM Acid:
     id: 30311
     productIn:
     - Emergent Neurovisual Interface Blueprint
     - Self-Assembling Nanolattice Blueprint
+    productOf:
+    - C3-FTM Acid Reaction Formula
     volume: 0.2
   Defensive Subsystem Technology:
     id: 30324
@@ -59579,59 +60109,59 @@ metaInfs:
   Civilian Thermal Dissipation Field Blueprint:
     id: 30343
     volume: 0.01
-  Fulleroferrocene Reaction:
-    id: 30344
-    volume: 1.0
-  PPD Fullerene Fibers Reaction:
-    id: 30345
-    volume: 1.0
-  Fullerene Intercalated Graphite Reaction:
-    id: 30346
-    volume: 1.0
-  Lanthanum Metallofullerene Reaction:
-    id: 30348
-    volume: 1.0
-  Scandium Metallofullerene Reaction:
-    id: 30349
-    volume: 1.0
-  Graphene Nanoribbons Reaction:
-    id: 30350
-    volume: 1.0
-  Carbon-86 Epoxy Resin Reaction:
-    id: 30351
-    volume: 1.0
-  C3-FTM Acid Reaction:
-    id: 30352
-    volume: 1.0
-  Methanofullerene Reaction:
-    id: 30368
-    volume: 1.0
   Fullerite-C50:
     id: 30370
+    productIn:
+    - Fulleroferrocene Reaction Formula
+    - PPD Fullerene Fibers Reaction Formula
     volume: 1.0
   Fullerite-C60:
     id: 30371
+    productIn:
+    - Fulleroferrocene Reaction Formula
+    - PPD Fullerene Fibers Reaction Formula
+    - Fullerene Intercalated Graphite Reaction Formula
     volume: 1.0
   Fullerite-C70:
     id: 30372
+    productIn:
+    - Methanofullerene Reaction Formula
+    - Fullerene Intercalated Graphite Reaction Formula
+    - Lanthanum Metallofullerene Reaction Formula
     volume: 1.0
   Fullerite-C72:
     id: 30373
+    productIn:
+    - Methanofullerene Reaction Formula
+    - Scandium Metallofullerene Reaction Formula
     volume: 2.0
   Fullerite-C84:
     id: 30374
+    productIn:
+    - Lanthanum Metallofullerene Reaction Formula
+    - C3-FTM Acid Reaction Formula
     volume: 2.0
   Fullerite-C28:
     id: 30375
+    productIn:
+    - Scandium Metallofullerene Reaction Formula
+    - Graphene Nanoribbons Reaction Formula
     volume: 2.0
   Fullerite-C32:
     id: 30376
+    productIn:
+    - Graphene Nanoribbons Reaction Formula
+    - Carbon-86 Epoxy Resin Reaction Formula
     volume: 5.0
   Fullerite-C320:
     id: 30377
+    productIn:
+    - Carbon-86 Epoxy Resin Reaction Formula
     volume: 5.0
   Fullerite-C540:
     id: 30378
+    productIn:
+    - C3-FTM Acid Reaction Formula
     volume: 10.0
   Amarr Subsystems Data Interface:
     id: 30382
@@ -60080,11 +60610,15 @@ metaInfs:
     volume: 0.01
   Hybrid Polymer Silo:
     id: 30655
+    productIn:
+    - Hybrid Polymer Silo Blueprint
     productOf:
     - Hybrid Polymer Silo Blueprint
     volume: 4000.0
   Polymer Reactor Array:
     id: 30656
+    productIn:
+    - Polymer Reactor Array Blueprint
     productOf:
     - Polymer Reactor Array Blueprint
     volume: 4000.0
@@ -65115,57 +65649,48 @@ metaInfs:
     volume: 0.01
   Unrefined Vanadium Hafnite:
     id: 32821
+    productOf:
+    - Unrefined Vanadium Hafnite Reaction Formula
     volume: 1.0
   Unrefined Platinum Technite:
     id: 32822
+    productOf:
+    - Unrefined Platinum Technite Reaction Formula
     volume: 1.0
   Unrefined Solerium:
     id: 32823
+    productOf:
+    - Unrefined Solerium Reaction Formula
     volume: 1.0
   Unrefined Caesarium Cadmide:
     id: 32824
+    productOf:
+    - Unrefined Caesarium Cadmide Reaction Formula
     volume: 1.0
   Unrefined Hexite:
     id: 32825
+    productOf:
+    - Unrefined Hexite Reaction Formula
     volume: 1.0
   Unrefined Rolled Tungsten Alloy:
     id: 32826
+    productOf:
+    - Unrefined Rolled Tungsten Alloy Reaction Formula
     volume: 1.0
   Unrefined Titanium Chromide:
     id: 32827
+    productOf:
+    - Unrefined Titanium Chromide Reaction Formula
     volume: 1.0
   Unrefined Fernite Alloy:
     id: 32828
+    productOf:
+    - Unrefined Fernite Alloy Reaction Formula
     volume: 1.0
   Unrefined Crystallite Alloy:
     id: 32829
-    volume: 1.0
-  Unrefined Vanadium Hafnite Reaction:
-    id: 32830
-    volume: 1.0
-  Unrefined Platinum Technite Reaction:
-    id: 32831
-    volume: 1.0
-  Unrefined Solerium Reaction:
-    id: 32832
-    volume: 1.0
-  Unrefined Caesarium Cadmide Reaction:
-    id: 32833
-    volume: 1.0
-  Unrefined Hexite Reaction:
-    id: 32834
-    volume: 1.0
-  Unrefined Rolled Tungsten Alloy Reaction:
-    id: 32835
-    volume: 1.0
-  Unrefined Titanium Chromide Reaction:
-    id: 32836
-    volume: 1.0
-  Unrefined Fernite Alloy Reaction:
-    id: 32837
-    volume: 1.0
-  Unrefined Crystallite Alloy Reaction:
-    id: 32838
+    productOf:
+    - Unrefined Crystallite Alloy Reaction Formula
     volume: 1.0
   Quest Survey Probe I Blueprint:
     id: 32839
@@ -66176,27 +66701,27 @@ metaInfs:
     volume: 2.25
   Thulium Hafnite:
     id: 33336
+    productIn:
+    - Photonic Metamaterials Reaction Formula
+    productOf:
+    - Thulium Hafnite Reaction Formula
     volume: 1.0
   Promethium Mercurite:
     id: 33337
+    productIn:
+    - Terahertz Metamaterials Reaction Formula
+    productOf:
+    - Promethium Mercurite Reaction Formula
     volume: 1.0
   Unrefined Promethium Mercurite:
     id: 33338
+    productOf:
+    - Unrefined Promethium Mercurite Reaction Formula
     volume: 1.0
   Unrefined Thulium Hafnite:
     id: 33339
-    volume: 1.0
-  Thulium Hafnite Reaction:
-    id: 33340
-    volume: 1.0
-  Promethium Mercurite Reaction:
-    id: 33341
-    volume: 1.0
-  Unrefined Thulium Hafnite Reaction:
-    id: 33342
-    volume: 1.0
-  Unrefined Promethium Mercurite Reaction:
-    id: 33343
+    productOf:
+    - Unrefined Thulium Hafnite Reaction Formula
     volume: 1.0
   Photonic Metamaterials:
     id: 33359
@@ -66205,6 +66730,8 @@ metaInfs:
     - Photon Microprocessor Blueprint
     - Capital Oscillator Capacitor Unit Blueprint
     - Capital Photon Microprocessor Blueprint
+    productOf:
+    - Photonic Metamaterials Reaction Formula
     volume: 1.0
   Terahertz Metamaterials:
     id: 33360
@@ -66213,6 +66740,8 @@ metaInfs:
     - Tesseract Capacitor Unit Blueprint
     - Capital Nanoelectrical Microprocessor Blueprint
     - Capital Tesseract Capacitor Unit Blueprint
+    productOf:
+    - Terahertz Metamaterials Reaction Formula
     volume: 1.0
   Plasmonic Metamaterials:
     id: 33361
@@ -66221,6 +66750,8 @@ metaInfs:
     - Electrolytic Capacitor Unit Blueprint
     - Capital Electrolytic Capacitor Unit Blueprint
     - Capital Nanomechanical Microprocessor Blueprint
+    productOf:
+    - Plasmonic Metamaterials Reaction Formula
     volume: 1.0
   Nonlinear Metamaterials:
     id: 33362
@@ -66229,18 +66760,8 @@ metaInfs:
     - Quantum Microprocessor Blueprint
     - Capital Quantum Microprocessor Blueprint
     - Capital Scalar Capacitor Unit Blueprint
-    volume: 1.0
-  Nonlinear Metamaterials Reaction:
-    id: 33363
-    volume: 1.0
-  Photonic Metamaterials Reaction:
-    id: 33364
-    volume: 1.0
-  Plasmonic Metamaterials Reaction:
-    id: 33365
-    volume: 1.0
-  Terahertz Metamaterials Reaction:
-    id: 33366
+    productOf:
+    - Nonlinear Metamaterials Reaction Formula
     volume: 1.0
   'Alliance Tournament IX: HYDRA RELOADED and 0utbreak':
     id: 33373
@@ -66472,6 +66993,8 @@ metaInfs:
     volume: 300.0
   Small Mobile Siphon Unit:
     id: 33477
+    productIn:
+    - Small Mobile Siphon Unit Blueprint
     productOf:
     - Small Mobile Siphon Unit Blueprint
     volume: 35.0
@@ -66690,6 +67213,8 @@ metaInfs:
     volume: 0.1
   Small Mobile 'Hybrid' Siphon Unit:
     id: 33581
+    productIn:
+    - Small Mobile 'Hybrid' Siphon Unit Blueprint
     productOf:
     - Small Mobile 'Hybrid' Siphon Unit Blueprint
     volume: 35.0
@@ -66698,6 +67223,8 @@ metaInfs:
     volume: 0.01
   Small Mobile 'Rote' Siphon Unit:
     id: 33583
+    productIn:
+    - Small Mobile 'Rote' Siphon Unit Blueprint
     productOf:
     - Small Mobile 'Rote' Siphon Unit Blueprint
     volume: 35.0
@@ -68517,7 +69044,7 @@ metaInfs:
   地狱天使级YC117年特别版蓝图:
     id: 34460
     volume: 0.01
-  马克瑞级YC117年特别版蓝图:
+  马克瑞���YC117年特别版蓝图:
     id: 34462
     volume: 0.01
   响尾蛇级YC117年特别版蓝图:
@@ -68526,22 +69053,22 @@ metaInfs:
   多米尼克斯级YC117年特别版蓝图:
     id: 34466
     volume: 0.01
-  ���王宝座级YC117年特别版蓝图:
+  万王宝座级YC117年特别版蓝图:
     id: 34468
     volume: 0.01
   乌鸦级YC117年特别版蓝图:
     id: 34470
     volume: 0.01
-  ���难级YC117年特别版蓝图:
+  灾难级YC117年特别���蓝图:
     id: 34472
     volume: 0.01
-  ��龙级YC117年特别版蓝图:
+  幼龙级YC117年特别版蓝图:
     id: 34474
     volume: 0.01
-  毒蜥级YC117年特别版蓝图:
+  毒蜥级YC117��特别版蓝图:
     id: 34476
     volume: 0.01
-  银鹰级YC117年特别版蓝图:
+  ��鹰级YC117年特别版蓝图:
     id: 34478
     volume: 0.01
   伊什塔级YC117年特别版蓝图:
@@ -71932,6 +72459,16 @@ metaInfs:
     productOf:
     - Keepstar Blueprint
     volume: 800000.0
+  Athanor:
+    id: 35835
+    productOf:
+    - Athanor Blueprint
+    volume: 8000.0
+  Tatara:
+    id: 35836
+    productOf:
+    - Tatara Blueprint
+    volume: 80000.0
   Standup Supercapital Shipyard I:
     id: 35877
     productOf:
@@ -71999,6 +72536,8 @@ metaInfs:
     volume: 8000.0
   Standup Heavy Energy Neutralizer I:
     id: 35925
+    productIn:
+    - Dark Blood Standup Heavy Energy Neutralizer Blueprint
     productOf:
     - Standup Heavy Energy Neutralizer I Blueprint
     volume: 8000.0
@@ -72014,6 +72553,8 @@ metaInfs:
     volume: 64000.0
   Standup Variable Spectrum ECM I:
     id: 35940
+    productIn:
+    - Dread Guristas Standup Variable Spectrum ECM Blueprint
     productOf:
     - Standup Variable Spectrum ECM I Blueprint
     volume: 4000.0
@@ -73359,6 +73900,8 @@ metaInfs:
     productIn:
     - Keepstar Blueprint
     - Sotiyo Blueprint
+    - Athanor Blueprint
+    - Tatara Blueprint
     - Upwell Palatine Keepstar Blueprint
     productOf:
     - Structure Electromagnetic Sensor Blueprint
@@ -73368,6 +73911,8 @@ metaInfs:
     productIn:
     - Keepstar Blueprint
     - Sotiyo Blueprint
+    - Athanor Blueprint
+    - Tatara Blueprint
     - Upwell Palatine Keepstar Blueprint
     productOf:
     - Structure Acceleration Coils Blueprint
@@ -73379,6 +73924,7 @@ metaInfs:
     - Keepstar Blueprint
     - Azbel Blueprint
     - Sotiyo Blueprint
+    - Tatara Blueprint
     - Upwell Palatine Keepstar Blueprint
     productOf:
     - Structure Advertisement Nexus Blueprint
@@ -73400,6 +73946,12 @@ metaInfs:
     volume: 0.01
   Sotiyo Blueprint:
     id: 36973
+    volume: 0.01
+  Athanor Blueprint:
+    id: 36977
+    volume: 0.01
+  Tatara Blueprint:
+    id: 36978
     volume: 0.01
   Magnate Sarum Serenity Only SKIN (Permanent):
     id: 36982
@@ -73463,6 +74015,9 @@ metaInfs:
     volume: 0.01
   Standup Reprocessing Facility I Blueprint:
     id: 37032
+    volume: 0.01
+  Standup Moon Drill I Blueprint:
+    id: 37034
     volume: 0.01
   Standup Variable Spectrum ECM I Blueprint:
     id: 37041
@@ -74004,36 +74559,6 @@ metaInfs:
     productOf:
     - Standup XL-Set Extinction Level Weapons Suite II Blueprint
     volume: 40.0
-  Standup M-Set HS Materials Reclamation I:
-    id: 37280
-    productOf:
-    - Standup M-Set HS Materials Reclamation I Blueprint
-    volume: 10.0
-  Standup M-Set HS Materials Reclamation II:
-    id: 37281
-    productOf:
-    - Standup M-Set HS Materials Reclamation II Blueprint
-    volume: 10.0
-  Standup L-Set Ore Grading Processor I:
-    id: 37282
-    productOf:
-    - Standup L-Set Ore Grading Processor I Blueprint
-    volume: 20.0
-  Standup L-Set Ore Grading Processor II:
-    id: 37283
-    productOf:
-    - Standup L-Set Ore Grading Processor II Blueprint
-    volume: 20.0
-  Standup XL-Set Reprocessing Monitor I:
-    id: 37284
-    productOf:
-    - Standup XL-Set Reprocessing Monitor I Blueprint
-    volume: 40.0
-  Standup XL-Set Reprocessing Monitor II:
-    id: 37285
-    productOf:
-    - Standup XL-Set Reprocessing Monitor II Blueprint
-    volume: 40.0
   Rapid Torpedo Launcher I:
     id: 37288
     productIn:
@@ -74398,30 +74923,6 @@ metaInfs:
     id: 37438
     productOf:
     - Standup XL-Set Extinction Level Weapons Suite I Blueprint
-    volume: 0.01
-  Standup M-Set HS Materials Reclamation I Blueprint:
-    id: 37443
-    volume: 0.01
-  Standup M-Set HS Materials Reclamation II Blueprint:
-    id: 37444
-    productOf:
-    - Standup M-Set HS Materials Reclamation I Blueprint
-    volume: 0.01
-  Standup L-Set Ore Grading Processor I Blueprint:
-    id: 37445
-    volume: 0.01
-  Standup L-Set Ore Grading Processor II Blueprint:
-    id: 37446
-    productOf:
-    - Standup L-Set Ore Grading Processor I Blueprint
-    volume: 0.01
-  Standup XL-Set Reprocessing Monitor I Blueprint:
-    id: 37447
-    volume: 0.01
-  Standup XL-Set Reprocessing Monitor II Blueprint:
-    id: 37448
-    productOf:
-    - Standup XL-Set Reprocessing Monitor I Blueprint
     volume: 0.01
   Ice Mining Laser I:
     id: 37450
@@ -77468,6 +77969,8 @@ metaInfs:
     - Dread Guristas Capital Remote Shield Booster Blueprint
     - True Sansha Capital Remote Shield Booster Blueprint
     - Capital Inductive Compact Remote Capacitor Transmitter Blueprint
+    - Dark Blood Standup Heavy Energy Neutralizer Blueprint
+    - Dread Guristas Standup Variable Spectrum ECM Blueprint
     volume: 0.001
   Compact Compounds:
     id: 41267
@@ -77555,6 +78058,8 @@ metaInfs:
     - Dread Guristas Capital Remote Shield Booster Blueprint
     - True Sansha Capital Remote Shield Booster Blueprint
     - Capital Inductive Compact Remote Capacitor Transmitter Blueprint
+    - Dark Blood Standup Heavy Energy Neutralizer Blueprint
+    - Dread Guristas Standup Variable Spectrum ECM Blueprint
     volume: 0.001
   Compact Conductors:
     id: 41268
@@ -77637,6 +78142,8 @@ metaInfs:
     - Dread Guristas Capital Remote Shield Booster Blueprint
     - True Sansha Capital Remote Shield Booster Blueprint
     - Capital Inductive Compact Remote Capacitor Transmitter Blueprint
+    - Dark Blood Standup Heavy Energy Neutralizer Blueprint
+    - Dread Guristas Standup Variable Spectrum ECM Blueprint
     volume: 0.001
   Enduring Electronics:
     id: 41269
@@ -77690,6 +78197,7 @@ metaInfs:
     - Domination Capital Remote Shield Booster Blueprint
     - Dread Guristas Capital Remote Shield Booster Blueprint
     - True Sansha Capital Remote Shield Booster Blueprint
+    - Dread Guristas Standup Variable Spectrum ECM Blueprint
     volume: 0.001
   Scourge Javelin XL Torpedo:
     id: 41270
@@ -77898,6 +78406,7 @@ metaInfs:
     - Domination Capital Remote Shield Booster Blueprint
     - Dread Guristas Capital Remote Shield Booster Blueprint
     - True Sansha Capital Remote Shield Booster Blueprint
+    - Dread Guristas Standup Variable Spectrum ECM Blueprint
     volume: 0.001
   Enduring Conductors:
     id: 41303
@@ -77946,6 +78455,7 @@ metaInfs:
     - Domination Capital Remote Shield Booster Blueprint
     - Dread Guristas Capital Remote Shield Booster Blueprint
     - True Sansha Capital Remote Shield Booster Blueprint
+    - Dread Guristas Standup Variable Spectrum ECM Blueprint
     volume: 0.001
   Precise Electronics:
     id: 41304
@@ -78089,6 +78599,7 @@ metaInfs:
     - True Sansha Quad Mega Pulse Laser Blueprint
     - Anode Scoped Triple Neutron Blaster Cannon Blueprint
     - Shadow Serpentis Triple Neutron Blaster Cannon Blueprint
+    - Scout Scoped Quad 800mm Repeating Cannon Blueprint
     - Domination Quad 800mm Repeating Cannon Blueprint
     - Anode Scoped Dual Giga Pulse Laser Blueprint
     - Dark Blood Dual Giga Pulse Laser Blueprint
@@ -78112,6 +78623,8 @@ metaInfs:
     - Dread Guristas Capital Remote Shield Booster Blueprint
     - True Sansha Capital Remote Shield Booster Blueprint
     - Capital Radiative Scoped Remote Capacitor Transmitter Blueprint
+    - Dark Blood Standup Heavy Energy Neutralizer Blueprint
+    - Dread Guristas Standup Variable Spectrum ECM Blueprint
     volume: 0.001
   Scoped Compounds:
     id: 41311
@@ -78133,6 +78646,7 @@ metaInfs:
     - True Sansha Quad Mega Pulse Laser Blueprint
     - Anode Scoped Triple Neutron Blaster Cannon Blueprint
     - Shadow Serpentis Triple Neutron Blaster Cannon Blueprint
+    - Scout Scoped Quad 800mm Repeating Cannon Blueprint
     - Domination Quad 800mm Repeating Cannon Blueprint
     - Anode Scoped Dual Giga Pulse Laser Blueprint
     - Dark Blood Dual Giga Pulse Laser Blueprint
@@ -78156,6 +78670,8 @@ metaInfs:
     - Dread Guristas Capital Remote Shield Booster Blueprint
     - True Sansha Capital Remote Shield Booster Blueprint
     - Capital Radiative Scoped Remote Capacitor Transmitter Blueprint
+    - Dark Blood Standup Heavy Energy Neutralizer Blueprint
+    - Dread Guristas Standup Variable Spectrum ECM Blueprint
     volume: 0.001
   Scoped Conductors:
     id: 41312
@@ -78177,6 +78693,7 @@ metaInfs:
     - True Sansha Quad Mega Pulse Laser Blueprint
     - Anode Scoped Triple Neutron Blaster Cannon Blueprint
     - Shadow Serpentis Triple Neutron Blaster Cannon Blueprint
+    - Scout Scoped Quad 800mm Repeating Cannon Blueprint
     - Domination Quad 800mm Repeating Cannon Blueprint
     - Anode Scoped Dual Giga Pulse Laser Blueprint
     - Dark Blood Dual Giga Pulse Laser Blueprint
@@ -78200,6 +78717,8 @@ metaInfs:
     - Dread Guristas Capital Remote Shield Booster Blueprint
     - True Sansha Capital Remote Shield Booster Blueprint
     - Capital Radiative Scoped Remote Capacitor Transmitter Blueprint
+    - Dark Blood Standup Heavy Energy Neutralizer Blueprint
+    - Dread Guristas Standup Variable Spectrum ECM Blueprint
     volume: 0.001
   50000MN Cold-Gas Enduring Microwarpdrive Blueprint:
     id: 41313
@@ -78547,78 +79066,6 @@ metaInfs:
   Moa Valkyrie SKIN (Permanent):
     id: 41421
     volume: 0.01
-  Standup M-Set LNS Materials Reclamation I:
-    id: 41422
-    productOf:
-    - Standup M-Set LNS Materials Reclamation I Blueprint
-    volume: 10.0
-  Standup M-Set LNS Materials Reclamation II:
-    id: 41423
-    productOf:
-    - Standup M-Set LNS Materials Reclamation II Blueprint
-    volume: 10.0
-  Standup M-Set I1 Materials Reclamation I:
-    id: 41424
-    productOf:
-    - Standup M-Set I1 Materials Reclamation I Blueprint
-    volume: 10.0
-  Standup M-Set I1 Materials Reclamation II:
-    id: 41425
-    productOf:
-    - Standup M-Set I1 Materials Reclamation II Blueprint
-    volume: 10.0
-  Standup M-Set I2 Materials Reclamation I:
-    id: 41426
-    productOf:
-    - Standup M-Set I2 Materials Reclamation I Blueprint
-    volume: 10.0
-  Standup M-Set I2 Materials Reclamation II:
-    id: 41427
-    productOf:
-    - Standup M-Set I2 Materials Reclamation II Blueprint
-    volume: 10.0
-  Standup L-Set Ice Grading Processor I:
-    id: 41428
-    productOf:
-    - Standup L-Set Ice Grading Processor I Blueprint
-    volume: 20.0
-  Standup L-Set Ice Grading Processor II:
-    id: 41429
-    productOf:
-    - Standup L-Set Ice Grading Processor II Blueprint
-    volume: 20.0
-  Standup M-Set LNS Materials Reclamation II Blueprint:
-    id: 41430
-    productOf:
-    - Standup M-Set LNS Materials Reclamation I Blueprint
-    volume: 0.01
-  Standup M-Set I1 Materials Reclamation I Blueprint:
-    id: 41431
-    volume: 0.01
-  Standup M-Set I1 Materials Reclamation II Blueprint:
-    id: 41432
-    productOf:
-    - Standup M-Set I1 Materials Reclamation I Blueprint
-    volume: 0.01
-  Standup M-Set I2 Materials Reclamation I Blueprint:
-    id: 41433
-    volume: 0.01
-  Standup M-Set I2 Materials Reclamation II Blueprint:
-    id: 41434
-    productOf:
-    - Standup M-Set I2 Materials Reclamation I Blueprint
-    volume: 0.01
-  Standup L-Set Ice Grading Processor I Blueprint:
-    id: 41435
-    volume: 0.01
-  Standup L-Set Ice Grading Processor II Blueprint:
-    id: 41436
-    productOf:
-    - Standup L-Set Ice Grading Processor I Blueprint
-    volume: 0.01
-  Standup M-Set LNS Materials Reclamation I Blueprint:
-    id: 41437
-    volume: 0.01
   Gravitational Transportation Field Oscillator Blueprint:
     id: 41438
     volume: 0.01
@@ -78627,7 +79074,7 @@ metaInfs:
     productOf:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     volume: 8000.0
-  ‘Phalarica�� Thermal Lance:
+  ‘Phalarica’ Thermal Lance:
     id: 41440
     productOf:
     - ‘Phalarica’ Thermal Lance Blueprint
@@ -79119,7 +79566,7 @@ metaInfs:
   'Women''s “Mirelle” Upwell Executive Spectacles ':
     id: 41575
     volume: 0.1
-  Men's “Mirelle” Upwell Executive Spectacles:
+  Men's ���Mirelle” Upwell Executive Spectacles:
     id: 41576
     volume: 0.5
   Capsule Upwell SKIN (Permanent):
@@ -82190,8 +82637,44 @@ metaInfs:
   Sunesis Midnight SKIN (Permanent):
     id: 44259
     volume: 0.01
+  Crown Imperial Firework:
+    id: 44260
+    volume: 0.1
+  Angels Arisen Firework:
+    id: 44261
+    volume: 0.1
+  Blood Dagger Firework:
+    id: 44262
+    volume: 0.1
+  Wheel of Prosperity Firework:
+    id: 44263
+    volume: 0.1
+  Pulsar Flare Firework:
+    id: 44264
+    volume: 0.1
   Wings of Victory Firework:
     id: 44265
+    volume: 0.1
+  Spacetime Singularity Firework:
+    id: 44266
+    volume: 0.1
+  Crimson Scythes Firework:
+    id: 44267
+    volume: 0.1
+  Four Freedoms Firework:
+    id: 44268
+    volume: 0.1
+  Naughty People Firework:
+    id: 44269
+    volume: 0.1
+  Flames of the Rebellion Firework:
+    id: 44270
+    volume: 0.1
+  Nation Uplifts Firework:
+    id: 44271
+    volume: 0.1
+  Fangs of the Serpent Firework:
+    id: 44272
     volume: 0.1
   Apocalypse IGC Victory SKIN (Permanent):
     id: 44280
@@ -82377,6 +82860,14 @@ metaInfs:
     productOf:
     - Enforcer Blueprint
     volume: 100000.0
+  Marshal:
+    id: 44996
+    volume: 450000.0
+  Standup Moon Drill I:
+    id: 45009
+    productOf:
+    - Standup Moon Drill I Blueprint
+    volume: 8000.0
   Focused Warp Scrambling Script:
     id: 45010
     productOf:
@@ -82469,9 +82960,57 @@ metaInfs:
   Enforcer Blueprint:
     id: 45487
     volume: 0.01
+  Zeolites:
+    id: 45490
+    volume: 10.0
+  Sylvite:
+    id: 45491
+    volume: 10.0
+  Bitumens:
+    id: 45492
+    volume: 10.0
+  Coesite:
+    id: 45493
+    volume: 10.0
+  Cobaltite:
+    id: 45494
+    volume: 10.0
+  Euxenite:
+    id: 45495
+    volume: 10.0
+  Titanite:
+    id: 45496
+    volume: 10.0
+  Scheelite:
+    id: 45497
+    volume: 10.0
+  Otavite:
+    id: 45498
+    volume: 10.0
+  Sperrylite:
+    id: 45499
+    volume: 10.0
+  Vanadinite:
+    id: 45500
+    volume: 10.0
+  Chromite:
+    id: 45501
+    volume: 10.0
+  Carnotite:
+    id: 45502
+    volume: 10.0
+  Zircon:
+    id: 45503
+    volume: 10.0
+  Pollucite:
+    id: 45504
+    volume: 10.0
   Taipan Hostile Takeover SKIN (Permanent):
     id: 45505
     volume: 0.01
+  Cinnabar:
+    id: 45506
+    volume: 10.0
   Worm Hostile Takeover SKIN (Permanent):
     id: 45507
     volume: 0.01
@@ -82481,6 +83020,18 @@ metaInfs:
   Rattlesnake Hostile Takeover SKIN (Permanent):
     id: 45509
     volume: 0.01
+  Xenotime:
+    id: 45510
+    volume: 10.0
+  Monazite:
+    id: 45511
+    volume: 10.0
+  Loparite:
+    id: 45512
+    volume: 10.0
+  Ytterbite:
+    id: 45513
+    volume: 10.0
   Women's SOE Expeditionary Suit:
     id: 45514
     volume: 0.1
@@ -82534,6 +83085,30 @@ metaInfs:
     volume: 0.01
   Virtuoso Blueprint:
     id: 45533
+    volume: 0.01
+  Standup Composite Reactor I:
+    id: 45537
+    productOf:
+    - Standup Composite Reactor I Blueprint
+    volume: 4000.0
+  Standup Hybrid Reactor I:
+    id: 45538
+    productOf:
+    - Standup Hybrid Reactor I Blueprint
+    volume: 4000.0
+  Standup Biochemical Reactor I:
+    id: 45539
+    productOf:
+    - Standup Biochemical Reactor I Blueprint
+    volume: 4000.0
+  Standup Composite Reactor I Blueprint:
+    id: 45540
+    volume: 0.01
+  Standup Hybrid Reactor I Blueprint:
+    id: 45541
+    volume: 0.01
+  Standup Biochemical Reactor I Blueprint:
+    id: 45542
     volume: 0.01
   Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency:
     id: 45544
@@ -82926,6 +83501,30 @@ metaInfs:
   Standup L-Set Thukker Advanced Component Manufacturing Efficiency Blueprint:
     id: 45643
     volume: 0.01
+  Loggerhead Blueprint:
+    id: 45644
+    volume: 0.01
+  Loggerhead:
+    id: 45645
+    productOf:
+    - Loggerhead Blueprint
+    volume: 1.55E7
+  Caiman Blueprint:
+    id: 45646
+    volume: 0.01
+  Caiman:
+    id: 45647
+    productOf:
+    - Caiman Blueprint
+    volume: 1.625E7
+  Komodo Blueprint:
+    id: 45648
+    volume: 0.01
+  Komodo:
+    id: 45649
+    productOf:
+    - Komodo Blueprint
+    volume: 1.325E8
   Superconducting Magnetometric Amplifier:
     id: 45652
     productIn:
@@ -83391,6 +83990,18 @@ metaInfs:
   Men's 'Farsight' Augmented Spectacles:
     id: 45745
     volume: 0.1
+  Reactions:
+    id: 45746
+    volume: 0.01
+  Mass Reactions:
+    id: 45748
+    volume: 0.01
+  Advanced Mass Reactions:
+    id: 45749
+    volume: 0.01
+  Remote Reactions:
+    id: 45750
+    volume: 0.01
   Amarr Shuttle Exoplanets Hunter SKIN (Permanent):
     id: 45751
     volume: 0.01
@@ -83489,6 +84100,9 @@ metaInfs:
     volume: 0.01
   Pilgrim Exoplanets Hunter SKIN (Permanent):
     id: 45783
+    volume: 0.01
+  Legion Exoplanets Hunter SKIN (Permanent):
+    id: 45784
     volume: 0.01
   Augoror Navy Issue Exoplanets Hunter SKIN (Permanent):
     id: 45785
@@ -83664,6 +84278,9 @@ metaInfs:
   Rook Exoplanets Hunter SKIN (Permanent):
     id: 45842
     volume: 0.01
+  Tengu Exoplanets Hunter SKIN (Permanent):
+    id: 45843
+    volume: 0.01
   Caracal Navy Issue Exoplanets Hunter SKIN (Permanent):
     id: 45844
     volume: 0.01
@@ -83837,6 +84454,9 @@ metaInfs:
     volume: 0.01
   Lachesis Exoplanets Hunter SKIN (Permanent):
     id: 45901
+    volume: 0.01
+  Proteus Exoplanets Hunter SKIN (Permanent):
+    id: 45902
     volume: 0.01
   Exequror Navy Issue Exoplanets Hunter SKIN (Permanent):
     id: 45903
@@ -84021,6 +84641,9 @@ metaInfs:
   Rapier Exoplanets Hunter SKIN (Permanent):
     id: 45963
     volume: 0.01
+  Loki Exoplanets Hunter SKIN (Permanent):
+    id: 45964
+    volume: 0.01
   Scythe Fleet Issue Exoplanets Hunter SKIN (Permanent):
     id: 45965
     volume: 0.01
@@ -84111,6 +84734,15 @@ metaInfs:
   Tengu Sukuuvestaa SKIN (Permanent):
     id: 45997
     volume: 0.01
+  Agency Damage Booster I:
+    id: 45998
+    volume: 1.0
+  Agency Damage Booster II:
+    id: 45999
+    volume: 1.0
+  Agency Damage Booster III:
+    id: 46000
+    volume: 1.0
   Agency Tank Booster I:
     id: 46001
     volume: 1.0
@@ -84128,6 +84760,9 @@ metaInfs:
     volume: 1.0
   Agency Speed Booster III:
     id: 46006
+    volume: 1.0
+  Valkyrie Cerebral Accelerator:
+    id: 46007
     volume: 1.0
   Hel Firewall Breach SKIN (Permanent):
     id: 46014
@@ -84381,12 +85016,309 @@ metaInfs:
   IGC Garment Keeper:
     id: 46151
     volume: 0.1
+  Ubiquitous Moon Ore Processing:
+    id: 46152
+    volume: 0.01
+  Common Moon Ore Processing:
+    id: 46153
+    volume: 0.01
+  Uncommon Moon Ore Processing:
+    id: 46154
+    volume: 0.01
+  Rare Moon Ore Processing:
+    id: 46155
+    volume: 0.01
+  Exceptional Moon Ore Processing:
+    id: 46156
+    volume: 0.01
+  Methanofullerene Reaction Formula:
+    id: 46157
+    volume: 0.01
+  Fulleroferrocene Reaction Formula:
+    id: 46158
+    volume: 0.01
+  PPD Fullerene Fibers Reaction Formula:
+    id: 46159
+    volume: 0.01
+  Fullerene Intercalated Graphite Reaction Formula:
+    id: 46160
+    volume: 0.01
+  Lanthanum Metallofullerene Reaction Formula:
+    id: 46161
+    volume: 0.01
+  Scandium Metallofullerene Reaction Formula:
+    id: 46162
+    volume: 0.01
+  Graphene Nanoribbons Reaction Formula:
+    id: 46163
+    volume: 0.01
+  Carbon-86 Epoxy Resin Reaction Formula:
+    id: 46164
+    volume: 0.01
+  C3-FTM Acid Reaction Formula:
+    id: 46165
+    volume: 0.01
+  Caesarium Cadmide Reaction Formula:
+    id: 46166
+    volume: 0.01
+  Carbon Polymers Reaction Formula:
+    id: 46167
+    volume: 0.01
+  Ceramic Powder Reaction Formula:
+    id: 46168
+    volume: 0.01
+  Crystallite Alloy Reaction Formula:
+    id: 46169
+    volume: 0.01
+  Dysporite Reaction Formula:
+    id: 46170
+    volume: 0.01
+  Fernite Alloy Reaction Formula:
+    id: 46171
+    volume: 0.01
+  Ferrofluid Reaction Formula:
+    id: 46172
+    volume: 0.01
+  Fluxed Condensates Reaction Formula:
+    id: 46173
+    volume: 0.01
+  Hexite Reaction Formula:
+    id: 46174
+    volume: 0.01
+  Hyperflurite Reaction Formula:
+    id: 46175
+    volume: 0.01
+  Neo Mercurite Reaction Formula:
+    id: 46176
+    volume: 0.01
+  Platinum Technite Reaction Formula:
+    id: 46177
+    volume: 0.01
+  Rolled Tungsten Alloy Reaction Formula:
+    id: 46178
+    volume: 0.01
+  Silicon Diborite Reaction Formula:
+    id: 46179
+    volume: 0.01
+  Solerium Reaction Formula:
+    id: 46180
+    volume: 0.01
+  Sulfuric Acid Reaction Formula:
+    id: 46181
+    volume: 0.01
+  Titanium Chromide Reaction Formula:
+    id: 46182
+    volume: 0.01
+  Vanadium Hafnite Reaction Formula:
+    id: 46183
+    volume: 0.01
+  Prometium Reaction Formula:
+    id: 46184
+    volume: 0.01
+  Thulium Hafnite Reaction Formula:
+    id: 46185
+    volume: 0.01
+  Promethium Mercurite Reaction Formula:
+    id: 46186
+    volume: 0.01
+  Unrefined Vanadium Hafnite Reaction Formula:
+    id: 46187
+    volume: 0.01
+  Unrefined Platinum Technite Reaction Formula:
+    id: 46188
+    volume: 0.01
+  Unrefined Solerium Reaction Formula:
+    id: 46189
+    volume: 0.01
+  Unrefined Caesarium Cadmide Reaction Formula:
+    id: 46190
+    volume: 0.01
+  Unrefined Hexite Reaction Formula:
+    id: 46191
+    volume: 0.01
+  Unrefined Rolled Tungsten Alloy Reaction Formula:
+    id: 46192
+    volume: 0.01
+  Unrefined Titanium Chromide Reaction Formula:
+    id: 46193
+    volume: 0.01
+  Unrefined Fernite Alloy Reaction Formula:
+    id: 46194
+    volume: 0.01
+  Unrefined Crystallite Alloy Reaction Formula:
+    id: 46195
+    volume: 0.01
+  Unrefined Hyperflurite Reaction Formula:
+    id: 46196
+    volume: 0.01
+  Unrefined Ferrofluid Reaction Formula:
+    id: 46197
+    volume: 0.01
+  Unrefined Prometium Reaction Formula:
+    id: 46198
+    volume: 0.01
+  Unrefined Neo Mercurite Reaction Formula:
+    id: 46199
+    volume: 0.01
+  Unrefined Dysporite Reaction Formula:
+    id: 46200
+    volume: 0.01
+  Unrefined Fluxed Condensates Reaction Formula:
+    id: 46201
+    volume: 0.01
+  Unrefined Thulium Hafnite Reaction Formula:
+    id: 46202
+    volume: 0.01
+  Unrefined Promethium Mercurite Reaction Formula:
+    id: 46203
+    volume: 0.01
+  Titanium Carbide Reaction Formula:
+    id: 46204
+    volume: 0.01
+  Crystalline Carbonide Reaction Formula:
+    id: 46205
+    volume: 0.01
+  Fernite Carbide Reaction Formula:
+    id: 46206
+    volume: 0.01
+  Tungsten Carbide Reaction Formula:
+    id: 46207
+    volume: 0.01
+  Sylramic Fibers Reaction Formula:
+    id: 46208
+    volume: 0.01
+  Fulleride Reaction Formula:
+    id: 46209
+    volume: 0.01
+  Phenolic Composites Reaction Formula:
+    id: 46210
+    volume: 0.01
+  Nanotransistors Reaction Formula:
+    id: 46211
+    volume: 0.01
+  Hypersynaptic Fibers Reaction Formula:
+    id: 46212
+    volume: 0.01
+  Ferrogel Reaction Formula:
+    id: 46213
+    volume: 0.01
+  Fermionic Condensates Reaction Formula:
+    id: 46214
+    volume: 0.01
+  Plasmonic Metamaterials Reaction Formula:
+    id: 46215
+    volume: 0.01
+  Terahertz Metamaterials Reaction Formula:
+    id: 46216
+    volume: 0.01
+  Photonic Metamaterials Reaction Formula:
+    id: 46217
+    volume: 0.01
+  Nonlinear Metamaterials Reaction Formula:
+    id: 46218
+    volume: 0.01
+  Synth Drop Booster Reaction Formula:
+    id: 46219
+    volume: 0.01
+  Synth Exile Booster Reaction Formula:
+    id: 46220
+    volume: 0.01
+  Synth Frentix Booster Reaction Formula:
+    id: 46221
+    volume: 0.01
+  Standard Frentix Booster Reaction Formula:
+    id: 46222
+    volume: 0.01
+  Standard Drop Booster Reaction Formula:
+    id: 46223
+    volume: 0.01
+  Standard Exile Booster Reaction Formula:
+    id: 46224
+    volume: 0.01
+  Standard Mindflood Booster Reaction Formula:
+    id: 46225
+    volume: 0.01
+  Standard X-Instinct Booster Reaction Formula:
+    id: 46226
+    volume: 0.01
+  Standard Sooth Sayer Booster Reaction Formula:
+    id: 46227
+    volume: 0.01
+  Synth Mindflood Booster Reaction Formula:
+    id: 46228
+    volume: 0.01
+  Synth Sooth Sayer Booster Reaction Formula:
+    id: 46229
+    volume: 0.01
+  Standard Blue Pill Booster Reaction Formula:
+    id: 46230
+    volume: 0.01
+  Standard Crash Booster Reaction Formula:
+    id: 46231
+    volume: 0.01
+  Synth X-Instinct Booster Reaction Formula:
+    id: 46232
+    volume: 0.01
+  Synth Blue Pill Booster Reaction Formula:
+    id: 46233
+    volume: 0.01
+  Synth Crash Booster Reaction Formula:
+    id: 46234
+    volume: 0.01
+  Strong Blue Pill Booster Reaction Formula:
+    id: 46235
+    volume: 0.01
+  Improved Crash Booster Reaction Formula:
+    id: 46236
+    volume: 0.01
+  Improved Drop Booster Reaction Formula:
+    id: 46237
+    volume: 0.01
+  Improved Exile Booster Reaction Formula:
+    id: 46238
+    volume: 0.01
+  Improved Mindflood Booster Reaction Formula:
+    id: 46240
+    volume: 0.01
+  Improved Frentix Booster Reaction Formula:
+    id: 46241
+    volume: 0.01
+  Improved X-Instinct Booster Reaction Formula:
+    id: 46242
+    volume: 0.01
+  Improved Sooth Sayer Booster Reaction Formula:
+    id: 46243
+    volume: 0.01
+  Strong Crash Booster Reaction Formula:
+    id: 46244
+    volume: 0.01
+  Strong Drop Booster Reaction Formula:
+    id: 46245
+    volume: 0.01
+  Strong Exile Booster Reaction Formula:
+    id: 46246
+    volume: 0.01
+  Strong Mindflood Booster Reaction Formula:
+    id: 46247
+    volume: 0.01
+  Strong Frentix Booster Reaction Formula:
+    id: 46248
+    volume: 0.01
+  Strong X-Instinct Booster Reaction Formula:
+    id: 46249
+    volume: 0.01
+  Strong Sooth Sayer Booster Reaction Formula:
+    id: 46250
+    volume: 0.01
+  Improved Blue Pill Booster Reaction Formula:
+    id: 46251
+    volume: 0.01
   A3 Destroyer Package:
     id: 46266
-    volume: 0.1
+    volume: 50000.0
   A3 Industrial Package:
     id: 46267
-    volume: 0.1
+    volume: 50000.0
   A3 Industrial Gear:
     id: 46268
     volume: 0.1
@@ -84396,12 +85328,1100 @@ metaInfs:
   Kaatara's Custom Ballistic Control System:
     id: 46270
     volume: 5.0
+  Women's 'Valkyrie' Flight Jacket:
+    id: 46273
+    volume: 0.1
+  Men's 'Valkyrie' Flight Jacket:
+    id: 46274
+    volume: 0.1
   Minokawa Steel Cardinal SKIN (Permanent):
     id: 46276
     volume: 0.01
   Chimera Kairiola's Sacrifice SKIN (Permanent):
     id: 46277
     volume: 0.01
+  Corrupted Trinary Relics:
+    id: 46278
+    volume: 0.1
+  Brimful Zeolites:
+    id: 46280
+    volume: 10.0
+  Glistening Zeolites:
+    id: 46281
+    volume: 10.0
+  Brimful Sylvite:
+    id: 46282
+    volume: 10.0
+  Glistening Sylvite:
+    id: 46283
+    volume: 10.0
+  Brimful Bitumens:
+    id: 46284
+    volume: 10.0
+  Glistening Bitumens:
+    id: 46285
+    volume: 10.0
+  Brimful Coesite:
+    id: 46286
+    volume: 10.0
+  Glistening Coesite:
+    id: 46287
+    volume: 10.0
+  Copious Cobaltite:
+    id: 46288
+    volume: 10.0
+  Twinkling Cobaltite:
+    id: 46289
+    volume: 10.0
+  Copious Euxenite:
+    id: 46290
+    volume: 10.0
+  Twinkling Euxenite:
+    id: 46291
+    volume: 10.0
+  Copious Titanite:
+    id: 46292
+    volume: 10.0
+  Twinkling Titanite:
+    id: 46293
+    volume: 10.0
+  Copious Scheelite:
+    id: 46294
+    volume: 10.0
+  Twinkling Scheelite:
+    id: 46295
+    volume: 10.0
+  Lavish Otavite:
+    id: 46296
+    volume: 10.0
+  Shimmering Otavite:
+    id: 46297
+    volume: 10.0
+  Lavish Sperrylite:
+    id: 46298
+    volume: 10.0
+  Shimmering Sperrylite:
+    id: 46299
+    volume: 10.0
+  Lavish Vanadinite:
+    id: 46300
+    volume: 10.0
+  Shimmering Vanadinite:
+    id: 46301
+    volume: 10.0
+  Lavish Chromite:
+    id: 46302
+    volume: 10.0
+  Shimmering Chromite:
+    id: 46303
+    volume: 10.0
+  Replete Carnotite:
+    id: 46304
+    volume: 10.0
+  Glowing Carnotite:
+    id: 46305
+    volume: 10.0
+  Replete Zircon:
+    id: 46306
+    volume: 10.0
+  Glowing Zircon:
+    id: 46307
+    volume: 10.0
+  Replete Pollucite:
+    id: 46308
+    volume: 10.0
+  Glowing Pollucite:
+    id: 46309
+    volume: 10.0
+  Replete Cinnabar:
+    id: 46310
+    volume: 10.0
+  Glowing Cinnabar:
+    id: 46311
+    volume: 10.0
+  Bountiful Xenotime:
+    id: 46312
+    volume: 10.0
+  Shining Xenotime:
+    id: 46313
+    volume: 10.0
+  Bountiful Monazite:
+    id: 46314
+    volume: 10.0
+  Shining Monazite:
+    id: 46315
+    volume: 10.0
+  Bountiful Loparite:
+    id: 46316
+    volume: 10.0
+  Shining Loparite:
+    id: 46317
+    volume: 10.0
+  Bountiful Ytterbite:
+    id: 46318
+    volume: 10.0
+  Shining Ytterbite:
+    id: 46319
+    volume: 10.0
+  Standup M-Set Moon Drilling Efficiency I:
+    id: 46323
+    productOf:
+    - Standup M-Set Moon Drilling Efficiency I Blueprint
+    volume: 10.0
+  Standup M-Set Moon Drilling Efficiency II:
+    id: 46324
+    productOf:
+    - Standup M-Set Moon Drilling Efficiency II Blueprint
+    volume: 10.0
+  Standup M-Set Moon Drilling Stability I:
+    id: 46325
+    productOf:
+    - Standup M-Set Moon Drilling Stability I Blueprint
+    volume: 10.0
+  Standup M-Set Moon Drilling Stability II:
+    id: 46326
+    productOf:
+    - Standup M-Set Moon Drilling Stability II Blueprint
+    volume: 10.0
+  Standup L-Set Moon Drilling Proficiency I:
+    id: 46327
+    productOf:
+    - Standup L-Set Moon Drilling Proficiency I Blueprint
+    volume: 20.0
+  Standup L-Set Moon Drilling Proficiency II:
+    id: 46328
+    productOf:
+    - Standup L-Set Moon Drilling Proficiency II Blueprint
+    volume: 20.0
+  Ubiquitous Moon Ore Mining Crystal I Blueprint:
+    id: 46350
+    volume: 0.01
+  Ubiquitous Moon Ore Mining Crystal II Blueprint:
+    id: 46351
+    productOf:
+    - Ubiquitous Moon Ore Mining Crystal I Blueprint
+    volume: 0.01
+  Common Moon Ore Mining Crystal I Blueprint:
+    id: 46352
+    volume: 0.01
+  Common Moon Ore Mining Crystal II Blueprint:
+    id: 46353
+    productOf:
+    - Common Moon Ore Mining Crystal I Blueprint
+    volume: 0.01
+  Ubiquitous Moon Ore Mining Crystal I:
+    id: 46355
+    productIn:
+    - Ubiquitous Moon Ore Mining Crystal II Blueprint
+    productOf:
+    - Ubiquitous Moon Ore Mining Crystal I Blueprint
+    volume: 6.0
+  Ubiquitous Moon Ore Mining Crystal II:
+    id: 46356
+    productOf:
+    - Ubiquitous Moon Ore Mining Crystal II Blueprint
+    volume: 10.0
+  Uncommon Moon Ore Mining Crystal I Blueprint:
+    id: 46357
+    volume: 0.01
+  Uncommon Moon Ore Mining Crystal II Blueprint:
+    id: 46358
+    productOf:
+    - Uncommon Moon Ore Mining Crystal I Blueprint
+    volume: 0.01
+  Rare Moon Ore Mining Crystal I Blueprint:
+    id: 46359
+    volume: 0.01
+  Rare Moon Ore Mining Crystal II Blueprint:
+    id: 46360
+    productOf:
+    - Rare Moon Ore Mining Crystal I Blueprint
+    volume: 0.01
+  Exceptional Moon Ore Mining Crystal I Blueprint:
+    id: 46361
+    volume: 0.01
+  Exceptional Moon Ore Mining Crystal II Blueprint:
+    id: 46362
+    productOf:
+    - Exceptional Moon Ore Mining Crystal I Blueprint
+    volume: 0.01
+  Common Moon Ore Mining Crystal I:
+    id: 46365
+    productIn:
+    - Common Moon Ore Mining Crystal II Blueprint
+    productOf:
+    - Common Moon Ore Mining Crystal I Blueprint
+    volume: 6.0
+  Common Moon Ore Mining Crystal II:
+    id: 46366
+    productOf:
+    - Common Moon Ore Mining Crystal II Blueprint
+    volume: 10.0
+  Uncommon Moon Ore Mining Crystal I:
+    id: 46367
+    productIn:
+    - Uncommon Moon Ore Mining Crystal II Blueprint
+    productOf:
+    - Uncommon Moon Ore Mining Crystal I Blueprint
+    volume: 6.0
+  Uncommon Moon Ore Mining Crystal II:
+    id: 46368
+    productOf:
+    - Uncommon Moon Ore Mining Crystal II Blueprint
+    volume: 10.0
+  Rare Moon Ore Mining Crystal I:
+    id: 46369
+    productIn:
+    - Rare Moon Ore Mining Crystal II Blueprint
+    productOf:
+    - Rare Moon Ore Mining Crystal I Blueprint
+    volume: 6.0
+  Rare Moon Ore Mining Crystal II:
+    id: 46370
+    productOf:
+    - Rare Moon Ore Mining Crystal II Blueprint
+    volume: 10.0
+  Exceptional Moon Ore Mining Crystal I:
+    id: 46371
+    productIn:
+    - Exceptional Moon Ore Mining Crystal II Blueprint
+    productOf:
+    - Exceptional Moon Ore Mining Crystal I Blueprint
+    volume: 6.0
+  Exceptional Moon Ore Mining Crystal II:
+    id: 46372
+    productOf:
+    - Exceptional Moon Ore Mining Crystal II Blueprint
+    volume: 10.0
+  Raven Valkyrie SKIN (Permanent):
+    id: 46376
+    volume: 0.01
+  Naga Valkyrie SKIN (Permanent):
+    id: 46377
+    volume: 0.01
+  Abaddon Valkyrie SKIN (Permanent):
+    id: 46378
+    volume: 0.01
+  Dominix Valkyrie SKIN (Permanent):
+    id: 46379
+    volume: 0.01
+  Typhoon Valkyrie SKIN (Permanent):
+    id: 46380
+    volume: 0.01
+  Agency Support Kit:
+    id: 46381
+    volume: 1.0
+  Atron Kopis Edge SKIN (Permanent):
+    id: 46383
+    volume: 0.01
+  Imicus Kopis Edge SKIN (Permanent):
+    id: 46384
+    volume: 0.01
+  Incursus Kopis Edge SKIN (Permanent):
+    id: 46385
+    volume: 0.01
+  Maulus Kopis Edge SKIN (Permanent):
+    id: 46386
+    volume: 0.01
+  Navitas Kopis Edge SKIN (Permanent):
+    id: 46387
+    volume: 0.01
+  Tristan Kopis Edge SKIN (Permanent):
+    id: 46388
+    volume: 0.01
+  Enyo Kopis Edge SKIN (Permanent):
+    id: 46389
+    volume: 0.01
+  Ishkur Kopis Edge SKIN (Permanent):
+    id: 46390
+    volume: 0.01
+  Helios Kopis Edge SKIN (Permanent):
+    id: 46391
+    volume: 0.01
+  Nemesis Kopis Edge SKIN (Permanent):
+    id: 46392
+    volume: 0.01
+  Keres Kopis Edge SKIN (Permanent):
+    id: 46393
+    volume: 0.01
+  Ares Kopis Edge SKIN (Permanent):
+    id: 46394
+    volume: 0.01
+  Taranis Kopis Edge SKIN (Permanent):
+    id: 46395
+    volume: 0.01
+  Thalia Kopis Edge SKIN (Permanent):
+    id: 46396
+    volume: 0.01
+  Federation Navy Comet Kopis Edge SKIN (Permanent):
+    id: 46397
+    volume: 0.01
+  Maulus Navy Issue Kopis Edge SKIN (Permanent):
+    id: 46398
+    volume: 0.01
+  Algos Kopis Edge SKIN (Permanent):
+    id: 46399
+    volume: 0.01
+  Catalyst Kopis Edge SKIN (Permanent):
+    id: 46400
+    volume: 0.01
+  Magus Kopis Edge SKIN (Permanent):
+    id: 46401
+    volume: 0.01
+  Eris Kopis Edge SKIN (Permanent):
+    id: 46402
+    volume: 0.01
+  Hecate Kopis Edge SKIN (Permanent):
+    id: 46403
+    volume: 0.01
+  Celestis Kopis Edge SKIN (Permanent):
+    id: 46404
+    volume: 0.01
+  Exequror Kopis Edge SKIN (Permanent):
+    id: 46405
+    volume: 0.01
+  Thorax Kopis Edge SKIN (Permanent):
+    id: 46406
+    volume: 0.01
+  Vexor Kopis Edge SKIN (Permanent):
+    id: 46407
+    volume: 0.01
+  Deimos Kopis Edge SKIN (Permanent):
+    id: 46408
+    volume: 0.01
+  Ishtar Kopis Edge SKIN (Permanent):
+    id: 46409
+    volume: 0.01
+  Phobos Kopis Edge SKIN (Permanent):
+    id: 46410
+    volume: 0.01
+  Oneiros Kopis Edge SKIN (Permanent):
+    id: 46411
+    volume: 0.01
+  Arazu Kopis Edge SKIN (Permanent):
+    id: 46412
+    volume: 0.01
+  Lachesis Kopis Edge SKIN (Permanent):
+    id: 46413
+    volume: 0.01
+  Proteus Kopis Edge SKIN (Permanent):
+    id: 46414
+    volume: 0.01
+  Exequror Navy Issue Kopis Edge SKIN (Permanent):
+    id: 46415
+    volume: 0.01
+  Vexor Navy Issue Kopis Edge SKIN (Permanent):
+    id: 46416
+    volume: 0.01
+  Brutix Kopis Edge SKIN (Permanent):
+    id: 46417
+    volume: 0.01
+  Myrmidon Kopis Edge SKIN (Permanent):
+    id: 46418
+    volume: 0.01
+  Talos Kopis Edge SKIN (Permanent):
+    id: 46419
+    volume: 0.01
+  Astarte Kopis Edge SKIN (Permanent):
+    id: 46420
+    volume: 0.01
+  Eos Kopis Edge SKIN (Permanent):
+    id: 46421
+    volume: 0.01
+  Brutix Navy Issue Kopis Edge SKIN (Permanent):
+    id: 46422
+    volume: 0.01
+  Dominix Kopis Edge SKIN (Permanent):
+    id: 46423
+    volume: 0.01
+  Hyperion Kopis Edge SKIN (Permanent):
+    id: 46424
+    volume: 0.01
+  Megathron Kopis Edge SKIN (Permanent):
+    id: 46425
+    volume: 0.01
+  Sin Kopis Edge SKIN (Permanent):
+    id: 46426
+    volume: 0.01
+  Kronos Kopis Edge SKIN (Permanent):
+    id: 46427
+    volume: 0.01
+  Dominix Navy Issue Kopis Edge SKIN (Permanent):
+    id: 46428
+    volume: 0.01
+  Megathron Navy Issue Kopis Edge SKIN (Permanent):
+    id: 46429
+    volume: 0.01
+  Moros Kopis Edge SKIN (Permanent):
+    id: 46430
+    volume: 0.01
+  Thanatos Kopis Edge SKIN (Permanent):
+    id: 46431
+    volume: 0.01
+  Nyx Kopis Edge SKIN (Permanent):
+    id: 46432
+    volume: 0.01
+  Erebus Kopis Edge SKIN (Permanent):
+    id: 46433
+    volume: 0.01
+  Epithal Kopis Edge SKIN (Permanent):
+    id: 46434
+    volume: 0.01
+  Iteron Mark V Kopis Edge SKIN (Permanent):
+    id: 46435
+    volume: 0.01
+  Kryos Kopis Edge SKIN (Permanent):
+    id: 46436
+    volume: 0.01
+  Miasmos Kopis Edge SKIN (Permanent):
+    id: 46437
+    volume: 0.01
+  Nereus Kopis Edge SKIN (Permanent):
+    id: 46438
+    volume: 0.01
+  Viator Kopis Edge SKIN (Permanent):
+    id: 46439
+    volume: 0.01
+  Occator Kopis Edge SKIN (Permanent):
+    id: 46440
+    volume: 0.01
+  Obelisk Kopis Edge SKIN (Permanent):
+    id: 46441
+    volume: 0.01
+  Anshar Kopis Edge SKIN (Permanent):
+    id: 46442
+    volume: 0.01
+  Ninazu Kopis Edge SKIN (Permanent):
+    id: 46443
+    volume: 0.01
+  Standup M-Set Composite Reactor Time Efficiency I:
+    id: 46484
+    productOf:
+    - Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    volume: 10.0
+  Standup M-Set Composite Reactor Time Efficiency II:
+    id: 46485
+    productOf:
+    - Standup M-Set Composite Reactor Time Efficiency II Blueprint
+    volume: 10.0
+  Standup M-Set Composite Reactor Material Efficiency I:
+    id: 46486
+    productOf:
+    - Standup M-Set Composite Reactor Material Efficiency I Blueprint
+    volume: 10.0
+  Standup M-Set Composite Reactor Material Efficiency II:
+    id: 46487
+    productOf:
+    - Standup M-Set Composite Reactor Material Efficiency II Blueprint
+    volume: 10.0
+  Standup M-Set Hybrid Reactor Time Efficiency I:
+    id: 46488
+    productOf:
+    - Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    volume: 10.0
+  Standup M-Set Hybrid Reactor Time Efficiency II:
+    id: 46489
+    productOf:
+    - Standup M-Set Hybrid Reactor Time Efficiency II Blueprint
+    volume: 10.0
+  Standup M-Set Hybrid Reactor Material Efficiency I:
+    id: 46490
+    productOf:
+    - Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
+    volume: 10.0
+  Standup M-Set Hybrid Reactor Material Efficiency II:
+    id: 46491
+    productOf:
+    - Standup M-Set Hybrid Reactor Material Efficiency II Blueprint
+    volume: 10.0
+  Standup M-Set Biochemical Reactor Time Efficiency I:
+    id: 46492
+    productOf:
+    - Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    volume: 10.0
+  Standup M-Set Biochemical Reactor Time Efficiency II:
+    id: 46493
+    productOf:
+    - Standup M-Set Biochemical Reactor Time Efficiency II Blueprint
+    volume: 10.0
+  Standup M-Set Biochemical Reactor Material Efficiency I:
+    id: 46494
+    productOf:
+    - Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
+    volume: 10.0
+  Standup M-Set Biochemical Reactor Material Efficiency II:
+    id: 46495
+    productOf:
+    - Standup M-Set Biochemical Reactor Material Efficiency II Blueprint
+    volume: 10.0
+  Standup L-Set Reactor Efficiency I:
+    id: 46496
+    productOf:
+    - Standup L-Set Reactor Efficiency I Blueprint
+    volume: 20.0
+  Standup L-Set Reactor Efficiency II:
+    id: 46497
+    productOf:
+    - Standup L-Set Reactor Efficiency II Blueprint
+    volume: 20.0
+  Standup L-Set Moon Drilling Proficiency II Blueprint:
+    id: 46500
+    productOf:
+    - Standup L-Set Moon Drilling Proficiency I Blueprint
+    volume: 0.01
+  Standup L-Set Moon Drilling Proficiency I Blueprint:
+    id: 46501
+    volume: 0.01
+  Standup M-Set Moon Drilling Stability II Blueprint:
+    id: 46502
+    productOf:
+    - Standup M-Set Moon Drilling Stability I Blueprint
+    volume: 0.01
+  Standup M-Set Moon Drilling Stability I Blueprint:
+    id: 46503
+    volume: 0.01
+  Standup M-Set Moon Drilling Efficiency II Blueprint:
+    id: 46504
+    productOf:
+    - Standup M-Set Moon Drilling Efficiency I Blueprint
+    volume: 0.01
+  Standup M-Set Moon Drilling Efficiency I Blueprint:
+    id: 46505
+    volume: 0.01
+  Standup M-Set Composite Reactor Time Efficiency I Blueprint:
+    id: 46506
+    volume: 0.01
+  Standup M-Set Composite Reactor Time Efficiency II Blueprint:
+    id: 46507
+    productOf:
+    - Standup M-Set Composite Reactor Time Efficiency I Blueprint
+    volume: 0.01
+  Standup M-Set Composite Reactor Material Efficiency I Blueprint:
+    id: 46508
+    volume: 0.01
+  Standup M-Set Composite Reactor Material Efficiency II Blueprint:
+    id: 46509
+    productOf:
+    - Standup M-Set Composite Reactor Material Efficiency I Blueprint
+    volume: 0.01
+  Standup M-Set Hybrid Reactor Time Efficiency I Blueprint:
+    id: 46510
+    volume: 0.01
+  Standup M-Set Hybrid Reactor Time Efficiency II Blueprint:
+    id: 46511
+    productOf:
+    - Standup M-Set Hybrid Reactor Time Efficiency I Blueprint
+    volume: 0.01
+  Standup M-Set Hybrid Reactor Material Efficiency I Blueprint:
+    id: 46512
+    volume: 0.01
+  Standup M-Set Hybrid Reactor Material Efficiency II Blueprint:
+    id: 46513
+    productOf:
+    - Standup M-Set Hybrid Reactor Material Efficiency I Blueprint
+    volume: 0.01
+  Standup M-Set Biochemical Reactor Time Efficiency I Blueprint:
+    id: 46514
+    volume: 0.01
+  Standup M-Set Biochemical Reactor Time Efficiency II Blueprint:
+    id: 46515
+    productOf:
+    - Standup M-Set Biochemical Reactor Time Efficiency I Blueprint
+    volume: 0.01
+  Standup M-Set Biochemical Reactor Material Efficiency I Blueprint:
+    id: 46516
+    volume: 0.01
+  Standup M-Set Biochemical Reactor Material Efficiency II Blueprint:
+    id: 46517
+    productOf:
+    - Standup M-Set Biochemical Reactor Material Efficiency I Blueprint
+    volume: 0.01
+  Standup L-Set Reactor Efficiency I Blueprint:
+    id: 46518
+    volume: 0.01
+  Standup L-Set Reactor Efficiency II Blueprint:
+    id: 46519
+    productOf:
+    - Standup L-Set Reactor Efficiency I Blueprint
+    volume: 0.01
+  Astero Spectral Shift SKIN (Permanent):
+    id: 46520
+    volume: 0.01
+  Stratios Spectral Shift SKIN (Permanent):
+    id: 46521
+    volume: 0.01
+  Nestor Spectral Shift SKIN (Permanent):
+    id: 46522
+    volume: 0.01
+  Purifier Imperial Jubilee SKIN (Permanent):
+    id: 46525
+    volume: 0.01
+  Dragoon Imperial Jubilee SKIN (Permanent):
+    id: 46526
+    volume: 0.01
+  Confessor Imperial Jubilee SKIN (Permanent):
+    id: 46527
+    volume: 0.01
+  Sacrilege Imperial Jubilee SKIN (Permanent):
+    id: 46528
+    volume: 0.01
+  Devoter Imperial Jubilee SKIN (Permanent):
+    id: 46529
+    volume: 0.01
+  Guardian Imperial Jubilee SKIN (Permanent):
+    id: 46530
+    volume: 0.01
+  Prophecy Imperial Jubilee SKIN (Permanent):
+    id: 46531
+    volume: 0.01
+  Harbinger Imperial Jubilee SKIN (Permanent):
+    id: 46532
+    volume: 0.01
+  Oracle Imperial Jubilee SKIN (Permanent):
+    id: 46533
+    volume: 0.01
+  Armageddon Imperial Jubilee SKIN (Permanent):
+    id: 46534
+    volume: 0.01
+  Abaddon Imperial Jubilee SKIN (Permanent):
+    id: 46535
+    volume: 0.01
+  Paladin Imperial Jubilee SKIN (Permanent):
+    id: 46536
+    volume: 0.01
+  Providence Imperial Jubilee SKIN (Permanent):
+    id: 46537
+    volume: 0.01
+  Revelation Imperial Jubilee SKIN (Permanent):
+    id: 46538
+    volume: 0.01
+  Archon Imperial Jubilee SKIN (Permanent):
+    id: 46539
+    volume: 0.01
+  Avatar Imperial Jubilee SKIN (Permanent):
+    id: 46540
+    volume: 0.01
+  Rorqual Forgemaster SKIN (Permanent):
+    id: 46547
+    volume: 0.01
+  Algos Sapphire Sungrazer SKIN (Permanent):
+    id: 46548
+    volume: 0.01
+  Catalyst Sapphire Sungrazer SKIN (Permanent):
+    id: 46549
+    volume: 0.01
+  Dominix Sapphire Sungrazer SKIN (Permanent):
+    id: 46550
+    volume: 0.01
+  Erebus Sapphire Sungrazer SKIN (Permanent):
+    id: 46551
+    volume: 0.01
+  Hecate Sapphire Sungrazer SKIN (Permanent):
+    id: 46552
+    volume: 0.01
+  Helios Sapphire Sungrazer SKIN (Permanent):
+    id: 46553
+    volume: 0.01
+  Ishtar Sapphire Sungrazer SKIN (Permanent):
+    id: 46554
+    volume: 0.01
+  Kronos Sapphire Sungrazer SKIN (Permanent):
+    id: 46555
+    volume: 0.01
+  Megathron Sapphire Sungrazer SKIN (Permanent):
+    id: 46556
+    volume: 0.01
+  Moros Sapphire Sungrazer SKIN (Permanent):
+    id: 46557
+    volume: 0.01
+  Nyx Sapphire Sungrazer SKIN (Permanent):
+    id: 46558
+    volume: 0.01
+  Obelisk Sapphire Sungrazer SKIN (Permanent):
+    id: 46559
+    volume: 0.01
+  Sin Sapphire Sungrazer SKIN (Permanent):
+    id: 46560
+    volume: 0.01
+  Thanatos Sapphire Sungrazer SKIN (Permanent):
+    id: 46561
+    volume: 0.01
+  Thorax Sapphire Sungrazer SKIN (Permanent):
+    id: 46562
+    volume: 0.01
+  Tristan Sapphire Sungrazer SKIN (Permanent):
+    id: 46563
+    volume: 0.01
+  Vexor Sapphire Sungrazer SKIN (Permanent):
+    id: 46564
+    volume: 0.01
+  Dark Blood Standup Heavy Energy Neutralizer:
+    id: 46575
+    productOf:
+    - Dark Blood Standup Heavy Energy Neutralizer Blueprint
+    volume: 8000.0
+  Dark Blood Standup Heavy Energy Neutralizer Blueprint:
+    id: 46576
+    volume: 0.01
+  Dread Guristas Standup Variable Spectrum ECM:
+    id: 46577
+    productOf:
+    - Dread Guristas Standup Variable Spectrum ECM Blueprint
+    volume: 4000.0
+  Dread Guristas Standup Variable Spectrum ECM Blueprint:
+    id: 46578
+    volume: 0.01
+  Blood Raider Standup Module Blueprint Armored Cache:
+    id: 46579
+    volume: 20000.0
+  Guristas Standup Module Blueprint Armored Cache:
+    id: 46580
+    volume: 20000.0
+  Serpentis Victory SKIN (Permanent):
+    id: 46582
+    volume: 0.01
+  Daredevil Serpentis Victory SKIN (Permanent):
+    id: 46584
+    volume: 0.01
+  Guristas Loggerhead Blueprint Armored Cache:
+    id: 46601
+    volume: 20000.0
+  Guristas Caiman Blueprint Armored Cache:
+    id: 46602
+    volume: 20000.0
+  Guristas Komodo Blueprint Armored Cache:
+    id: 46603
+    volume: 20000.0
+  Standup M-Set Asteroid Ore Grading Processor I:
+    id: 46633
+    productOf:
+    - Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    volume: 10.0
+  Standup M-Set Asteroid Ore Grading Processor II:
+    id: 46634
+    productOf:
+    - Standup M-Set Asteroid Ore Grading Processor II Blueprint
+    volume: 10.0
+  Standup M-Set Ice Grading Processor I:
+    id: 46635
+    productOf:
+    - Standup M-Set Ice Grading Processor I Blueprint
+    volume: 10.0
+  Standup M-Set Ice Grading Processor II:
+    id: 46636
+    productOf:
+    - Standup M-Set Ice Grading Processor II Blueprint
+    volume: 10.0
+  Standup M-Set Moon Ore Grading Processor I:
+    id: 46637
+    productOf:
+    - Standup M-Set Moon Ore Grading Processor I Blueprint
+    volume: 10.0
+  Standup M-Set Moon Ore Grading Processor II:
+    id: 46638
+    productOf:
+    - Standup M-Set Moon Ore Grading Processor II Blueprint
+    volume: 10.0
+  Standup L-Set Reprocessing Monitor I:
+    id: 46639
+    productOf:
+    - Standup L-Set Reprocessing Monitor I Blueprint
+    volume: 20.0
+  Standup L-Set Reprocessing Monitor II:
+    id: 46640
+    productOf:
+    - Standup L-Set Reprocessing Monitor II Blueprint
+    volume: 20.0
+  Standup XL-Set Reprocessing Monitor I:
+    id: 46641
+    productOf:
+    - Standup XL-Set Reprocessing Monitor I Blueprint
+    volume: 40.0
+  Standup XL-Set Reprocessing Monitor II:
+    id: 46642
+    productOf:
+    - Standup XL-Set Reprocessing Monitor II Blueprint
+    volume: 40.0
+  Standup M-Set Asteroid Ore Grading Processor I Blueprint:
+    id: 46643
+    volume: 0.01
+  Standup M-Set Asteroid Ore Grading Processor II Blueprint:
+    id: 46644
+    productOf:
+    - Standup M-Set Asteroid Ore Grading Processor I Blueprint
+    volume: 0.01
+  Standup M-Set Ice Grading Processor I Blueprint:
+    id: 46645
+    volume: 0.01
+  Standup M-Set Ice Grading Processor II Blueprint:
+    id: 46646
+    productOf:
+    - Standup M-Set Ice Grading Processor I Blueprint
+    volume: 0.01
+  Standup M-Set Moon Ore Grading Processor I Blueprint:
+    id: 46647
+    volume: 0.01
+  Standup M-Set Moon Ore Grading Processor II Blueprint:
+    id: 46648
+    productOf:
+    - Standup M-Set Moon Ore Grading Processor I Blueprint
+    volume: 0.01
+  Standup L-Set Reprocessing Monitor I Blueprint:
+    id: 46649
+    volume: 0.01
+  Standup L-Set Reprocessing Monitor II Blueprint:
+    id: 46650
+    productOf:
+    - Standup L-Set Reprocessing Monitor I Blueprint
+    volume: 0.01
+  Standup XL-Set Reprocessing Monitor I Blueprint:
+    id: 46651
+    volume: 0.01
+  Standup XL-Set Reprocessing Monitor II Blueprint:
+    id: 46652
+    productOf:
+    - Standup XL-Set Reprocessing Monitor I Blueprint
+    volume: 0.01
+  Jet Ochre:
+    id: 46675
+    volume: 8.0
+  Cubic Bistot:
+    id: 46676
+    volume: 16.0
+  Pellucid Crokite:
+    id: 46677
+    volume: 16.0
+  Flawless Arkonor:
+    id: 46678
+    volume: 16.0
+  Brilliant Gneiss:
+    id: 46679
+    volume: 5.0
+  Lustrous Hedbergite:
+    id: 46680
+    volume: 3.0
+  Scintillating Hemorphite:
+    id: 46681
+    volume: 3.0
+  Immaculate Jaspet:
+    id: 46682
+    volume: 2.0
+  Resplendant Kernite:
+    id: 46683
+    volume: 1.2
+  Platinoid Omber:
+    id: 46684
+    volume: 0.6
+  Sparkling Plagioclase:
+    id: 46685
+    volume: 0.35
+  Opulent Pyroxeres:
+    id: 46686
+    volume: 0.3
+  Glossy Scordite:
+    id: 46687
+    volume: 0.15
+  Dazzling Spodumain:
+    id: 46688
+    volume: 16.0
+  Stable Veldspar:
+    id: 46689
+    volume: 0.1
+  Compressed Flawless Arkonor:
+    id: 46691
+    volume: 8.8
+  Compressed Cubic Bistot:
+    id: 46692
+    volume: 4.4
+  Compressed Pellucid Crokite:
+    id: 46693
+    volume: 7.81
+  Compressed Jet Ochre:
+    id: 46694
+    volume: 4.2
+  Compressed Brilliant Gneiss:
+    id: 46695
+    volume: 1.8
+  Compressed Lustrous Hedbergite:
+    id: 46696
+    volume: 0.47
+  Compressed Scintillating Hemorphite:
+    id: 46697
+    volume: 0.86
+  Compressed Immaculate Jaspet:
+    id: 46698
+    volume: 0.15
+  Compressed Resplendant Kernite:
+    id: 46699
+    volume: 0.19
+  Compressed Platinoid Omber:
+    id: 46700
+    volume: 0.3
+  Compressed Sparkling Plagioclase:
+    id: 46701
+    volume: 0.15
+  Compressed Opulent Pyroxeres:
+    id: 46702
+    volume: 0.16
+  Compressed Glossy Scordite:
+    id: 46703
+    volume: 0.19
+  Compressed Dazzling Spodumain:
+    id: 46704
+    volume: 28.0
+  Compressed Stable Veldspar:
+    id: 46705
+    volume: 0.15
+  Magnate Headhunter SKIN (Permanent):
+    id: 46707
+    volume: 0.01
+  Omen Headhunter SKIN (Permanent):
+    id: 46708
+    volume: 0.01
+  Oracle Headhunter SKIN (Permanent):
+    id: 46709
+    volume: 0.01
+  Abaddon Headhunter SKIN (Permanent):
+    id: 46710
+    volume: 0.01
+  Avatar Headhunter SKIN (Permanent):
+    id: 46711
+    volume: 0.01
+  Merlin Headhunter SKIN (Permanent):
+    id: 46712
+    volume: 0.01
+  Caracal Headhunter SKIN (Permanent):
+    id: 46713
+    volume: 0.01
+  Drake Headhunter SKIN (Permanent):
+    id: 46714
+    volume: 0.01
+  Raven Headhunter SKIN (Permanent):
+    id: 46715
+    volume: 0.01
+  Phoenix Headhunter SKIN (Permanent):
+    id: 46716
+    volume: 0.01
+  Tristan Headhunter SKIN (Permanent):
+    id: 46717
+    volume: 0.01
+  Vexor Headhunter SKIN (Permanent):
+    id: 46718
+    volume: 0.01
+  Talos Headhunter SKIN (Permanent):
+    id: 46719
+    volume: 0.01
+  Dominix Headhunter SKIN (Permanent):
+    id: 46720
+    volume: 0.01
+  Nyx Headhunter SKIN (Permanent):
+    id: 46721
+    volume: 0.01
+  Slasher Headhunter SKIN (Permanent):
+    id: 46722
+    volume: 0.01
+  Rupture Headhunter SKIN (Permanent):
+    id: 46723
+    volume: 0.01
+  Hurricane Headhunter SKIN (Permanent):
+    id: 46724
+    volume: 0.01
+  Typhoon Headhunter SKIN (Permanent):
+    id: 46725
+    volume: 0.01
+  Hel Headhunter SKIN (Permanent):
+    id: 46726
+    volume: 0.01
+  Cormorant Octopus Red Flight SKIN (Permanent):
+    id: 46727
+    volume: 0.01
+  Jackdaw Octopus Red Flight SKIN (Permanent):
+    id: 46728
+    volume: 0.01
+  Caracal Octopus Red Flight SKIN (Permanent):
+    id: 46729
+    volume: 0.01
+  Cerberus Octopus Red Flight SKIN (Permanent):
+    id: 46730
+    volume: 0.01
+  Drake Octopus Red Flight SKIN (Permanent):
+    id: 46731
+    volume: 0.01
+  Raven Octopus Red Flight SKIN (Permanent):
+    id: 46732
+    volume: 0.01
+  Golem Octopus Red Flight SKIN (Permanent):
+    id: 46733
+    volume: 0.01
+  Venture Lodestrike SKIN (Permanent):
+    id: 46734
+    volume: 0.01
+  Procurer Lodestrike SKIN (Permanent):
+    id: 46735
+    volume: 0.01
+  Retriever Lodestrike SKIN (Permanent):
+    id: 46736
+    volume: 0.01
+  Covetor Lodestrike SKIN (Permanent):
+    id: 46737
+    volume: 0.01
+  Skiff Lodestrike SKIN (Permanent):
+    id: 46738
+    volume: 0.01
+  Mackinaw Lodestrike SKIN (Permanent):
+    id: 46739
+    volume: 0.01
+  Hulk Lodestrike SKIN (Permanent):
+    id: 46740
+    volume: 0.01
+  Orca Lodestrike SKIN (Permanent):
+    id: 46741
+    volume: 0.01
+  Rorqual Lodestrike SKIN (Permanent):
+    id: 46742
+    volume: 0.01
+  Noctis Lodestrike SKIN (Permanent):
+    id: 46743
+    volume: 0.01
+  Bestower Lodestrike SKIN (Permanent):
+    id: 46744
+    volume: 0.01
+  Prorator Lodestrike SKIN (Permanent):
+    id: 46745
+    volume: 0.01
+  Impel Lodestrike SKIN (Permanent):
+    id: 46746
+    volume: 0.01
+  Mammoth Lodestrike SKIN (Permanent):
+    id: 46747
+    volume: 0.01
+  Prowler Lodestrike SKIN (Permanent):
+    id: 46748
+    volume: 0.01
+  Mastodon Lodestrike SKIN (Permanent):
+    id: 46749
+    volume: 0.01
+  Iteron Mark V Lodestrike SKIN (Permanent):
+    id: 46750
+    volume: 0.01
+  Viator Lodestrike SKIN (Permanent):
+    id: 46751
+    volume: 0.01
+  Occator Lodestrike SKIN (Permanent):
+    id: 46752
+    volume: 0.01
+  Tayra Lodestrike SKIN (Permanent):
+    id: 46753
+    volume: 0.01
+  Crane Lodestrike SKIN (Permanent):
+    id: 46754
+    volume: 0.01
+  Bustard Lodestrike SKIN (Permanent):
+    id: 46755
+    volume: 0.01
+  Headhunter Crate:
+    id: 46756
+    volume: 0.1
   Haunter Cruise Missile:
     productOf:
     - Sansha Wrath Cruise Missile Blueprint
@@ -84690,13 +86710,13 @@ metaInfs:
   末日沙场级YC117年特别版:
     productOf:
     - 末日沙场级YC117年特别版蓝图
-  地狱��使级YC117年特别版:
+  地狱天使级YC117年特别版:
     productOf:
     - 地狱天使级YC117年特别版蓝图
-  马克瑞级YC117年特别版:
+  马克���级YC117年特别版:
     productOf:
-    - 马克瑞级YC117年特别版蓝图
-  响尾蛇级YC117年特别��:
+    - 马克瑞���YC117年特别版蓝图
+  响尾蛇级YC117年特别版:
     productOf:
     - 响尾蛇级YC117年特别版蓝图
   多米尼克斯级YC117年特别版:
@@ -84704,22 +86724,22 @@ metaInfs:
     - 多米尼克斯级YC117年特别版蓝图
   万王宝座级YC117年特别版:
     productOf:
-    - ���王宝座级YC117年特别版蓝图
+    - 万王宝座级YC117年特别版蓝图
   乌鸦级YC117年特别版:
     productOf:
     - 乌鸦级YC117年特别版蓝图
   灾难级YC117年特别版:
     productOf:
-    - ���难级YC117年特别版蓝图
-  幼龙级YC117年特��版:
+    - 灾难级YC117年特别���蓝图
+  幼龙级YC117年特别版:
     productOf:
-    - ��龙级YC117年特别版蓝图
+    - 幼龙级YC117年特别版蓝图
   毒蜥级YC117年特别版:
     productOf:
-    - 毒蜥级YC117年特别版蓝图
-  银鹰级YC117年特���版:
+    - 毒蜥级YC117��特别版蓝图
+  银鹰级YC117年特别版:
     productOf:
-    - 银鹰级YC117年特别版蓝图
+    - ��鹰级YC117年特别版蓝图
   伊什塔级YC117年特别版:
     productOf:
     - 伊什塔级YC117年特别版蓝图
