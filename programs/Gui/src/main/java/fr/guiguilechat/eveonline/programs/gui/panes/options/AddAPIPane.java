@@ -1,10 +1,16 @@
 package fr.guiguilechat.eveonline.programs.gui.panes.options;
 
+import java.awt.Desktop;
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+
 import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import javafx.event.Event;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 
@@ -21,13 +27,31 @@ public class AddAPIPane extends HBox implements EvePane {
 	TextField apiCode = new TextField();
 	Button send = new Button("add API");
 
+	Button create = new Button("create a new api");
+
 	public AddAPIPane(Manager parent) {
 		this.parent = parent;
 		setStyle("-fx-border-color: black");
 		apiID.setPromptText("api key");
 		apiCode.setPromptText("api code");
-		getChildren().addAll(apiID, apiCode, send);
+		getChildren().addAll(apiID, apiCode, send, new Label(" "), create);
 		send.setOnAction(this::addApi);
+		create.setOnAction(
+				event -> {
+					try {
+						new Thread(() -> {
+							if (Desktop.isDesktopSupported()) {
+								try {
+									Desktop.getDesktop().browse(new URI("http://community.eveonline.com/support/api-key/update/"));
+								} catch (IOException | URISyntaxException e) {
+									throw new UnsupportedOperationException("catch this", e);
+								}
+							}
+						}).start();
+					} catch (Exception e) {
+						throw new UnsupportedOperationException("catch this", e);
+					}
+				});
 	}
 
 	public void addApi(Event e) {

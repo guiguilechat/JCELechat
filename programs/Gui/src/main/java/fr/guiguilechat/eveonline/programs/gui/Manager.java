@@ -51,9 +51,8 @@ public class Manager extends Application implements EvePane {
 	private static final Logger logger = LoggerFactory.getLogger(Manager.class);
 
 	public static void main(String[] args) {
-		// int parrallelism = Runtime.getRuntime().availableProcessors() * 100;
-		// System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism",
-		// "" + parrallelism);
+		int parrallelism = Runtime.getRuntime().availableProcessors() * 10;
+		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
 
 		launch(args);
 	}
@@ -93,6 +92,8 @@ public class Manager extends Application implements EvePane {
 	public void start(Stage primaryStage) throws Exception {
 		logger.debug("start manager");
 		primaryStage.setTitle("guigui lechat manager");
+
+		// set the tabs
 		overviewtab = new Tab("overview", overviewPane);
 		provisiontab = new Tab("provision", provisionpane);
 		optionstab = new Tab("options", optionPane);
@@ -107,6 +108,10 @@ public class Manager extends Application implements EvePane {
 				((EvePane) now.getContent()).propagateIsShown(true);
 			}
 		});
+		// prevent moving out of options until we have at least one correct API.
+		tabs.getSelectionModel().selectedItemProperty().addListener((obj, old, now) -> checkAPIOrSetOptionsTab());
+		checkAPIOrSetOptionsTab();
+
 		TitledPane tpDebug = new TitledPane("debug", debugPane);
 		tpDebug.setExpanded(false);
 		mainLayout.setCenter(tabs);
@@ -145,6 +150,12 @@ public class Manager extends Application implements EvePane {
 		db.getModules();
 		db.getHulls();
 		db.getBlueprints();
+	}
+
+	protected void checkAPIOrSetOptionsTab() {
+		if (settings.apiKeys.isEmpty()) {
+			tabs.getSelectionModel().select(optionstab);
+		}
 	}
 
 	//
@@ -212,15 +223,19 @@ public class Manager extends Application implements EvePane {
 	}
 
 	public APIRoot addAPI(int key, String code) {
+		// first check the api
+		APIRoot newapi = new APIRoot(key, code);
+		if (newapi.getInfos() == null) {
+			return null;
+		}
+		// then remove former api with same key
 		String oldCode = settings.apiKeys.put(key, code);
 		settings.store();
-		/**
-		 * we can't modify the apiroot, as they have final args. so remove and add.
-		 */
+
+		// we can't modify the apiroot, as they have final args. so remove and add.
 		if (oldCode != null) {
 			apis.removeIf(ar -> ar.key.keyID == key);
 		}
-		APIRoot newapi = new APIRoot(key, code);
 		apis.add(newapi);
 		if (oldCode == null) {
 			propagateNewAPI(newapi);
@@ -637,7 +652,7 @@ public class Manager extends Application implements EvePane {
 
 	/**
 	 * add item to the debug pane. synchronized.
-	 * 
+	 *
 	 * @param clazz
 	 *          the class of the item which wants to add an entry
 	 * @param data
