@@ -2,7 +2,9 @@ package fr.guiguilechat.eveonline.programs.gui.panes.options;
 
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
-import javafx.scene.control.TitledPane;
+import javafx.scene.control.Tab;
+import javafx.scene.control.TabPane;
+import javafx.scene.control.TabPane.TabClosingPolicy;
 import javafx.scene.layout.VBox;
 
 public class OptionPane extends VBox implements EvePane {
@@ -14,18 +16,19 @@ public class OptionPane extends VBox implements EvePane {
 		return parent;
 	}
 
-	ListApiTableView listApi;
-	AddAPIPane addApi;
-	ListTeamPane listTeam;
-	ModifTeamPane addTeam;
-	TeamSystemManager teamSystem;
-	TitledPane tpapi, tpteams;
+	protected ListApiTableView listApi;
+	protected AddAPIPane addApi;
+	protected ListTeamPane listTeam;
+	protected ModifTeamPane addTeam;
+	protected TeamSystemManager teamSystem;
+	protected Tab tabAPI, tabTeams;
+	protected TabPane tabs;
 
-	EvePane[] children;
+	protected EvePane[] subPanes;
 
 	@Override
 	public EvePane[] subEvePanes() {
-		return children;
+		return subPanes;
 	}
 
 	public OptionPane(Manager parent) {
@@ -35,24 +38,19 @@ public class OptionPane extends VBox implements EvePane {
 		listTeam = new ListTeamPane(parent);
 		addTeam = new ModifTeamPane(parent);
 		teamSystem = new TeamSystemManager(parent);
-		tpapi = new TitledPane("api keys", new VBox(listApi, addApi));
-		tpapi.setExpanded(false);
-		tpteams = new TitledPane("teams", new VBox(listTeam, addTeam, teamSystem));
-		tpteams.setExpanded(false);
-		children = new EvePane[] { listApi, addApi, listTeam, addTeam, teamSystem };
-		getChildren().addAll(tpapi, tpteams);
+		tabAPI = new Tab("api keys", new VBox(listApi, addApi));
+		tabTeams = new Tab("teams", new VBox(listTeam, addTeam, teamSystem));
+		subPanes = new EvePane[] { listApi, addApi, listTeam, addTeam, teamSystem };
+		tabs = new TabPane(tabAPI, tabTeams);
+		tabs.setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
+		getChildren().add(tabs);
 	}
 
 	@Override
 	public boolean isShownSubPane(EvePane child) {
-		if (tpteams.isExpanded()) {
-			if (child == listTeam || child == addTeam || child == teamSystem) {
-				return true;
-			}
-		}
-		if (tpapi.isExpanded()) {
-			if (child == listApi || child == addApi) {
-				return true;
+		for (Tab t : new Tab[] { tabAPI, tabTeams }) {
+			if(t.isSelected()) {
+				return t.getContent()==child;
 			}
 		}
 		return false;

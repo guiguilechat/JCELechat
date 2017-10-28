@@ -66,15 +66,15 @@ public class Manager extends Application implements EvePane {
 
 	public final ObservableList<APIRoot> apis = FXCollections.observableArrayList();
 
-	public BorderPane mainLayout = new BorderPane();
+	protected BorderPane mainLayout = new BorderPane();
 
-	public OverViewPane overviewPane = new OverViewPane(this);
-	public ProvisionPane provisionpane = new ProvisionPane(this);
-	public OptionPane optionPane = new OptionPane(this);
-	TabPane tabs;
-	Tab overviewtab, provisiontab, optionstab;
+	protected OverViewPane overviewPane = new OverViewPane(this);
+	protected ProvisionPane provisionpane = new ProvisionPane(this);
+	protected OptionPane optionPane = new OptionPane(this);
+	protected TabPane tabs;
+	protected Tab overviewtab, provisiontab, optionstab;
 
-	public EvePane[] children = new EvePane[] { overviewPane, provisionpane, optionPane };
+	private EvePane[] children = new EvePane[] { overviewPane, provisionpane, optionPane };
 
 	@Override
 	public EvePane[] subEvePanes() {
@@ -83,9 +83,7 @@ public class Manager extends Application implements EvePane {
 
 	@Override
 	public boolean isShownSubPane(EvePane child) {
-		Tab selected = tabs.getSelectionModel().getSelectedItem();
-		return selected == overviewtab && child == overviewPane || selected == provisiontab && child == provisionpane
-				|| selected == optionstab && child == optionPane;
+		return tabs.getSelectionModel().getSelectedItem().getContent() == child;
 	}
 
 	@Override

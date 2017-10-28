@@ -23,38 +23,38 @@ import org.yaml.snakeyaml.constructor.Constructor;
 
 import fr.guiguilechat.eveonline.model.database.esi.ESICharacter;
 import fr.guiguilechat.eveonline.model.database.esi.ESILoyalty;
-import fr.guiguilechat.eveonline.model.database.esi.ESINpcCorporations;
-import fr.guiguilechat.eveonline.model.database.esi.ESIUniverse;
 import fr.guiguilechat.eveonline.model.database.esi.ESILoyalty.Offer;
 import fr.guiguilechat.eveonline.model.database.esi.ESILoyalty.Offer.ItemReq;
+import fr.guiguilechat.eveonline.model.database.esi.ESINpcCorporations;
 import fr.guiguilechat.eveonline.model.database.esi.ESINpcCorporations.Corporation;
+import fr.guiguilechat.eveonline.model.database.esi.ESIUniverse;
 import fr.guiguilechat.eveonline.model.database.retrieval.sde.cache.SDEData;
 import fr.guiguilechat.eveonline.model.database.yaml.Agent;
 import fr.guiguilechat.eveonline.model.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
+import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Activity;
+import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill;
 import fr.guiguilechat.eveonline.model.database.yaml.DatabaseFile;
 import fr.guiguilechat.eveonline.model.database.yaml.Hull;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
+import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.model.database.yaml.Location;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Module;
 import fr.guiguilechat.eveonline.model.database.yaml.Station;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Activity;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill;
-import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.model.sde.bsd.EagtAgents;
 import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeEffects;
 import fr.guiguilechat.eveonline.model.sde.bsd.EstaStations;
 import fr.guiguilechat.eveonline.model.sde.cache.SDECache;
 import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints;
+import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints.Material;
 import fr.guiguilechat.eveonline.model.sde.fsd.EcategoryIDs;
 import fr.guiguilechat.eveonline.model.sde.fsd.EgroupIDs;
 import fr.guiguilechat.eveonline.model.sde.fsd.EtypeIDs;
 import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData;
-import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints.Material;
 import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.AsteroidBelt;
 import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.Moon;
 import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.NPCStation;
@@ -370,24 +370,24 @@ public class SDEDumper {
 		hull.attributes.rigCalibration = getelemInt(attributes, "upgradeCapacity", 0);
 		int rigSize = getelemInt(attributes, "rigSize", 0);
 		switch (rigSize) {
-			case 0:
-				// no rig
-				break;
-			case 1:
-				hull.attributes.rigSize = "small";
-				break;
-			case 2:
-				hull.attributes.rigSize = "medium";
-				break;
-			case 3:
-				hull.attributes.rigSize = "large";
-				break;
-			case 4:
-				hull.attributes.rigSize = "capital";
-				break;
-			default:
-				System.err.println("no rig size for " + rigSize);
-				hull.attributes.rigSize = "unknown";
+		case 0:
+			// no rig
+			break;
+		case 1:
+			hull.attributes.rigSize = "small";
+			break;
+		case 2:
+			hull.attributes.rigSize = "medium";
+			break;
+		case 3:
+			hull.attributes.rigSize = "large";
+			break;
+		case 4:
+			hull.attributes.rigSize = "capital";
+			break;
+		default:
+			System.err.println("no rig size for " + rigSize);
+			hull.attributes.rigSize = "unknown";
 		}
 
 		hull.attributes.droneCapa = getelemInt(attributes, "droneCapacity", 0);
@@ -439,7 +439,7 @@ public class SDEDumper {
 			loadTypeInformations(a, sde, i);
 			db.asteroids.put(a.name, a);
 			String desc = type.description.getOrDefault("en", "");
-			if (desc.contains("Available")) {
+			if (desc.contains("Available in ")) {
 				String availables = desc.replaceAll("\\n|\\r", "").replaceAll(".*'>", "").replaceAll("</.*", "");
 				a.maxSecurity = Float.parseFloat(availables);
 			} else {
@@ -632,26 +632,26 @@ public class SDEDumper {
 		// check every location has its correct parent constellation/region.
 		for (Location loc : db.locations.values()) {
 			switch (loc.getLocationType()) {
-				case 3:
-					if (loc.parentConstellation == null || loc.parentRegion == null) {
-						System.err.println("error with system " + loc.name + " in constel " + loc.parentConstellation + " region "
-								+ loc.parentRegion);
-					}
-					break;
-				case 2:
-					if (loc.parentRegion == null || loc.parentConstellation != null) {
-						System.err.println("error with constelation " + loc.name + " in constel " + loc.parentConstellation
-								+ " region " + loc.parentRegion);
-					}
-					break;
-				case 1:
-					if (loc.parentRegion != null || loc.parentConstellation != null) {
-						System.err.println("error with region " + loc.name + " in constel " + loc.parentConstellation + " region "
-								+ loc.parentRegion);
-					}
-					break;
-				default:
-					System.err.println("error, unknown locaiton type " + loc.getLocationType());
+			case 3:
+				if (loc.parentConstellation == null || loc.parentRegion == null) {
+					System.err.println("error with system " + loc.name + " in constel " + loc.parentConstellation + " region "
+							+ loc.parentRegion);
+				}
+				break;
+			case 2:
+				if (loc.parentRegion == null || loc.parentConstellation != null) {
+					System.err.println("error with constelation " + loc.name + " in constel " + loc.parentConstellation
+							+ " region " + loc.parentRegion);
+				}
+				break;
+			case 1:
+				if (loc.parentRegion != null || loc.parentConstellation != null) {
+					System.err.println("error with region " + loc.name + " in constel " + loc.parentConstellation + " region "
+							+ loc.parentRegion);
+				}
+				break;
+			default:
+				System.err.println("error, unknown locaiton type " + loc.getLocationType());
 			}
 		}
 

@@ -170,9 +170,9 @@ hulls:
       capacitor: 250.0
       capacitorTime: 125.0
       cpu: 130
-      highSlots: 4
+      highSlots: 3
       launcherHardPoints: 2
-      lowSlots: 3
+      lowSlots: 4
       mass: 1067000
       maxTargets: 4
       mediumSlots: 3
@@ -374,7 +374,7 @@ hulls:
       droneCapa: 40
       highSlots: 3
       lowSlots: 3
-      mass: 956000
+      mass: 1044000
       maxTargets: 5
       mediumSlots: 3
       powergrid: 35
@@ -1133,7 +1133,7 @@ hulls:
       mass: 11100000
       maxTargets: 6
       mediumSlots: 4
-      powergrid: 800
+      powergrid: 700
       rigCalibration: 400
       rigSize: medium
       rigSlots: 3
@@ -1193,23 +1193,23 @@ hulls:
       agility: 0.5600000023841858
       capacitor: 1375.0
       capacitorTime: 490.0
-      cpu: 325
+      cpu: 370
       droneBandwidth: 50
       droneCapa: 150
       highSlots: 4
-      launcherHardPoints: 2
+      launcherHardPoints: 3
       lowSlots: 5
       mass: 11200000
       maxTargets: 7
       mediumSlots: 4
-      powergrid: 575
+      powergrid: 695
       rigCalibration: 400
       rigSize: medium
       rigSlots: 3
       scanRes: 285
       scanStr: 15
       scanType: RADAR
-      targetRange: 50000
+      targetRange: 70000
       turretHardPoints: 2
       velocity: 200
       volume: 120000
@@ -1263,7 +1263,7 @@ hulls:
       agility: 0.5099999904632568
       capacitor: 1200.0
       capacitorTime: 427.5
-      cpu: 360
+      cpu: 400
       droneBandwidth: 40
       droneCapa: 40
       highSlots: 4
@@ -1272,14 +1272,14 @@ hulls:
       mass: 11550000
       maxTargets: 7
       mediumSlots: 5
-      powergrid: 575
+      powergrid: 650
       rigCalibration: 400
       rigSize: medium
       rigSlots: 3
       scanRes: 300
       scanStr: 14
       scanType: LADAR
-      targetRange: 42500
+      targetRange: 62500
       velocity: 240
       volume: 85000
       warpSpeed: 3.0
@@ -2174,9 +2174,9 @@ hulls:
   Omen:
     attributes:
       agility: 0.4300000071525574
-      capacitor: 1475.0
-      capacitorTime: 526.0
-      cpu: 315
+      capacitor: 1600.0
+      capacitorTime: 565.0
+      cpu: 330
       droneBandwidth: 40
       droneCapa: 40
       highSlots: 5
@@ -2184,7 +2184,7 @@ hulls:
       mass: 13000000
       maxTargets: 6
       mediumSlots: 3
-      powergrid: 925
+      powergrid: 1000
       rigCalibration: 400
       rigSize: medium
       rigSlots: 3
@@ -2613,7 +2613,7 @@ hulls:
     catName: Ship
     effects:
     - shipBonusRole1NumWarfareLinks
-    - shipBonusTitanRole3TorpdeoVelocityBonus
+    - shipBonusRole3XLTorpdeoVelocityBonus
     - shipCapitalAgilityBonus
     - shipBonusRole2ArmorPlates&ShieldExtendersBonus
     - shipBonusTitanC5AllDamageBonus
@@ -9746,15 +9746,15 @@ hulls:
       agility: 2.869999885559082
       capacitor: 600.0
       capacitorTime: 275.0
-      cpu: 150
+      cpu: 155
       droneBandwidth: 25
       droneCapa: 75
-      highSlots: 6
+      highSlots: 5
       launcherHardPoints: 3
       lowSlots: 4
       mass: 1700000
       maxTargets: 6
-      mediumSlots: 2
+      mediumSlots: 3
       powergrid: 58
       rigCalibration: 400
       rigSize: small
@@ -9789,7 +9789,7 @@ hulls:
       highSlots: 7
       launcherHardPoints: 7
       lowSlots: 2
-      mass: 1900000
+      mass: 1750000
       maxTargets: 7
       mediumSlots: 4
       powergrid: 48
@@ -11532,7 +11532,7 @@ hulls:
     effects:
     - shipBonusForceAuxiliaryA3CapCapacity
     - shipCapitalAgilityBonus
-    - shipBonusRole2LogisticDroneBonus
+    - shipBonusRole2LogisticDroneRepAmountBonus
     - shipBonusForceAuxiliaryA4WarfareLinksBonus
     - entosisDurationMultiply
     - shipBonusRole1CommandBurstCPUBonus
@@ -11575,7 +11575,7 @@ hulls:
     - shipBonusForceAuxiliaryC1RemoteBoostAndCapAmount
     - shipBonusForceAuxiliaryC2ShieldResists
     - shipBonusForceAuxiliaryC3CapCapacity
-    - shipBonusRole2LogisticDroneBonus
+    - shipBonusRole2LogisticDroneRepAmountBonus
     - entosisDurationMultiply
     - shipBonusForceAuxiliaryC4WarfareLinksBonus
     - shipBonusRole1CommandBurstCPUBonus
@@ -11613,7 +11613,7 @@ hulls:
     catName: Ship
     effects:
     - shipCapitalAgilityBonus
-    - shipBonusRole2LogisticDroneBonus
+    - shipBonusRole2LogisticDroneRepAmountBonus
     - shipBonusForceAuxiliaryM4WarfareLinksBonus
     - shipBonusForceAuxiliaryM1RemoteDuration
     - entosisDurationMultiply
@@ -11655,7 +11655,7 @@ hulls:
     effects:
     - shipCapitalAgilityBonus
     - shipBonusForceAuxiliaryG1RemoteCycleTime
-    - shipBonusRole2LogisticDroneBonus
+    - shipBonusRole2LogisticDroneRepAmountBonus
     - shipBonusForceAuxiliaryG2LocalRepairAmount
     - shipBonusForceAuxiliaryG3CapBoosterStrength
     - shipBonusForceAuxiliaryG4WarfareLinksBonus
@@ -11863,7 +11863,7 @@ hulls:
     - shipBonusForceAuxiliaryM1RemoteArmorRepairDuration
     - shipAdvancedSpaceshipCommandAgilityBonus
     - shipCapitalAgilityBonus
-    - shipBonusRole2LogisticDroneBonus
+    - shipBonusRole2LogisticDroneRepAmountBonus
     - entosisDurationMultiply
     - shipBonusRole3NumWarfareLinks
     - shipBonusNosferatuOverride
@@ -12179,6 +12179,55 @@ hulls:
     metaLvl: 5
     name: Enforcer
     volume: 100000.0
+  Marshal:
+    attributes:
+      agility: 0.07000000029802322
+      capacitor: 5000.0
+      capacitorTime: 1000.0
+      cpu: 800
+      highSlots: 8
+      launcherHardPoints: 6
+      lowSlots: 7
+      mass: 150000000
+      maxTargets: 7
+      mediumSlots: 7
+      powergrid: 18000
+      rigCalibration: 400
+      rigSize: large
+      rigSlots: 2
+      scanRes: 180
+      scanStr: 40
+      scanType: Gravimetric
+      targetRange: 70000
+      turretHardPoints: 6
+      velocity: 110
+      volume: 450000
+      warpSpeed: 2.200000047683716
+    catName: Ship
+    effects:
+    - shipBonusLauncherRoF2CB
+    - shipBonusLargeMissileFlightTimeCB1
+    - shipHTDmgBonusGB
+    - shipHTTrackingBonusGB2
+    - shipBonusLargeEnergyTurretMaxRangeAB
+    - eliteBonusBlackOpsCloakVelocity2
+    - covertOpsAndReconOpsCloakModuleDelayBonus
+    - covertOpsStealthBomberTargettingDelayBonus
+    - roleBonusConcordSecGain
+    - concordIntermediateSecStatus
+    - shipBonusLargeEnergyWeaponDamageAB2
+    - concordAssignTankBonus
+    - concordSecStatusTankBonus
+    - shipBonusPTFalloffMB1
+    - shipPTspeedBonusMB2
+    - eliteBonusBlackOpsWarpVelocity1
+    - eliteBonusBlackOpsScramblerRange4
+    - eliteBonusBlackOpsWebRange3
+    groupName: Black Ops
+    id: 44996
+    metaLvl: 5
+    name: Marshal
+    volume: 450000.0
   Virtuoso:
     attributes:
       mass: 1410000
@@ -12197,3 +12246,124 @@ hulls:
     id: 45531
     name: Victor
     volume: 116000.0
+  Loggerhead:
+    attributes:
+      agility: 0.03799999877810478
+      capacitor: 90000.0
+      capacitorTime: 5500.0
+      cpu: 1020
+      droneBandwidth: 50
+      droneCapa: 250
+      highSlots: 6
+      lowSlots: 4
+      mass: 1300000000
+      maxTargets: 7
+      mediumSlots: 8
+      powergrid: 530000
+      rigCalibration: 350
+      rigSize: capital
+      rigSlots: 3
+      scanRes: 60
+      scanStr: 77
+      scanType: Gravimetric
+      targetRange: 115000
+      velocity: 80
+      volume: 15500000
+      warpSpeed: 1.5
+    catName: Ship
+    effects:
+    - shipCapitalAgilityBonus
+    - shipBonusForceAuxiliaryC1RemoteBoostAndCapAmount
+    - shipBonusForceAuxiliaryC2ShieldResists
+    - entosisDurationMultiply
+    - shipBonusRole1CommandBurstCPUBonus
+    - shipBonusRole3NumWarfareLinks
+    - shipBonusForceAuxiliaryG1RemoteShieldBoostAmount
+    - shipBonusRole2LogisticDroneRepAmountAndHitpointBonus
+    - shipAdvancedSpaceshipCommandAgilityBonus
+    - commandBurstAoERoleBonus
+    groupName: Force Auxiliary
+    id: 45645
+    metaLvl: 8
+    name: Loggerhead
+    volume: 1.55E7
+  Caiman:
+    attributes:
+      agility: 0.03799999877810478
+      capacitor: 57800.0
+      capacitorTime: 4000.0
+      cpu: 1060
+      highSlots: 5
+      launcherHardPoints: 3
+      lowSlots: 5
+      mass: 1270000000
+      maxTargets: 7
+      mediumSlots: 7
+      powergrid: 550000
+      rigCalibration: 350
+      rigSize: capital
+      rigSlots: 3
+      scanRes: 75
+      scanStr: 55
+      scanType: Gravimetric
+      targetRange: 115000
+      velocity: 75
+      volume: 16250000
+      warpSpeed: 1.5
+    catName: Ship
+    effects:
+    - shipCapitalAgilityBonus
+    - entosisDurationMultiply
+    - shipBonusRole4FighterDamageAndHitpoints
+    - shipBonusDreadnoughtC2ShieldResists
+    - shipBonusDreadnoughtG1KinThermDamageBonus
+    - shipAdvancedSpaceshipCommandAgilityBonus
+    groupName: Dreadnought
+    id: 45647
+    metaLvl: 8
+    name: Caiman
+    volume: 1.625E7
+  Komodo:
+    attributes:
+      agility: 0.03150000050663948
+      capacitor: 140000.0
+      capacitorTime: 7400.0
+      cpu: 1375
+      highSlots: 8
+      launcherHardPoints: 6
+      lowSlots: 5
+      mass: 2300000000
+      maxTargets: 8
+      mediumSlots: 8
+      powergrid: 840000
+      rigCalibration: 350
+      rigSize: capital
+      rigSlots: 3
+      scanRes: 65
+      scanStr: 290
+      scanType: Gravimetric
+      targetRange: 250000
+      velocity: 65
+      volume: 132500000
+      warpSpeed: 1.3700000047683716
+    catName: Ship
+    effects:
+    - shipBonusRole3XLTorpdeoVelocityBonus
+    - shipBonusTitanG1KinThermDamageBonus
+    - shipBonusTitanG2AllDamageBonus
+    - shipBonusTitanC1ShieldResists
+    - shipBonusRole4FighterDamageAndHitpoints
+    - shipBonusTitanC2ROFBonus
+    - shipAdvancedSpaceshipCommandAgilityBonus
+    - shipBonusRole1NumWarfareLinks
+    - shipCapitalAgilityBonus
+    - shipBonusRole2ArmorPlates&ShieldExtendersBonus
+    - entosisDurationMultiply
+    - shipBonusTitanC3WarpStrength
+    - shipBonusTitanG3WarpStrength
+    - commandBurstAoERoleBonus
+    groupName: Titan
+    id: 45649
+    metaLvl: 8
+    name: Komodo
+    volume: 1.325E8

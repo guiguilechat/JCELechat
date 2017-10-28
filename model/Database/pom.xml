@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.eveonline</groupId>
 		<artifactId>model</artifactId>
-		<version>1.0.5-SNAPSHOT</version>
+		<version>17.10.24</version>
 	</parent>
 	<groupId>fr.guiguilechat.eveonline.model</groupId>
 	<artifactId>DataBase</artifactId>
@@ -56,7 +56,7 @@
 						</goals>
 						<configuration>
 							<mainClass>fr.guiguilechat.eveonline.model.database.retrieval.sde.SDEDumper</mainClass>
-<!-- 							<cleanupDaemonThreads>false</cleanupDaemonThreads> -->
+							<cleanupDaemonThreads>false</cleanupDaemonThreads>
 						</configuration>
 					</execution>
 				</executions>
