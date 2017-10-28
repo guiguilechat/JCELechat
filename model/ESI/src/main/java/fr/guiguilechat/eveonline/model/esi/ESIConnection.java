@@ -8,7 +8,6 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
 import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.stream.Stream;
 
@@ -24,7 +23,7 @@ public class ESIConnection {
 		System.err.println("received " + code);
 	}
 
-	public static void openBrowserForApp(String appID, String calllback, String...scopes) {
+	public static boolean openBrowserForApp(String appID, String calllback, String... scopes) {
 		String uri = "https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri="+calllback+"&client_id="+appID;
 		if (scopes != null && scopes.length != 0) {
 			StringBuilder sb = new StringBuilder(uri).append("&scopes=");
@@ -32,12 +31,14 @@ public class ESIConnection {
 					.toString();
 		}
 		try {
-			Desktop.getDesktop().browse(new URI(uri));
-		} catch (IOException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		} catch (URISyntaxException e) {
-			throw new UnsupportedOperationException("catch this", e);
+			if (Desktop.isDesktopSupported()) {
+				Desktop.getDesktop().browse(new URI(uri));
+				return true;
+			}
+		} catch (Exception e) {
+			logger.debug("while open browser for " + uri, e);
 		}
+		return false;
 	}
 
 	public static String extractStringFromClipboard() {
