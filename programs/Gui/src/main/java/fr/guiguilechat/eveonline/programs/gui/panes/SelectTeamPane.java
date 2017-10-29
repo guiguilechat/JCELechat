@@ -15,6 +15,7 @@ public class SelectTeamPane extends ChoiceBox<String> implements EvePane {
 
 	public SelectTeamPane(Manager parent) {
 		this.parent = parent;
+		setMaxWidth(Double.MAX_VALUE);
 		setOnAction(this::changeEvt);
 		setAccessibleText("select the team to focus on");
 	}

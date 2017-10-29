@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.gui.panes.options;
+package fr.guiguilechat.eveonline.programs.gui.panes.api;
 
 import java.awt.Desktop;
 import java.io.IOException;

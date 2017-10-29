@@ -5,13 +5,15 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.SelectTeamPane;
-import javafx.scene.control.TitledPane;
-import javafx.scene.layout.VBox;
+import javafx.scene.control.Tab;
+import javafx.scene.control.TabPane;
+import javafx.scene.control.TabPane.TabClosingPolicy;
+import javafx.scene.layout.BorderPane;
 
 /**
  * an overview pane contains a table of eventdata.
  */
-public class OverViewPane extends VBox implements EvePane {
+public class OverViewPane extends BorderPane implements EvePane {
 
 	@SuppressWarnings("unused")
 	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(OverViewPane.class);
@@ -26,6 +28,7 @@ public class OverViewPane extends VBox implements EvePane {
 	protected SelectTeamPane selectTeamPane;
 	protected JobPane jobpane;
 	protected ProvisionPane provisionpane;
+	TabPane tabs = new TabPane();
 
 	protected EvePane[] children;
 
@@ -37,16 +40,27 @@ public class OverViewPane extends VBox implements EvePane {
 	public OverViewPane(Manager parent) {
 		this.parent = parent;
 		selectTeamPane = new SelectTeamPane(parent);
+
 		jobpane = new JobPane(parent);
 		provisionpane = new ProvisionPane(parent);
 		children = new EvePane[] { selectTeamPane, jobpane, provisionpane };
-		TitledPane tpjobs = new TitledPane("jobs", jobpane);
-		tpjobs.setExpanded(false);
-		tpjobs.expandedProperty().addListener((o, old, now) -> jobpane.setShown(now));
-		TitledPane tpprovi = new TitledPane("provisions", provisionpane);
-		tpprovi.setExpanded(false);
-		tpprovi.expandedProperty().addListener((o, old, now) -> provisionpane.setShown(now));
-		getChildren().addAll(selectTeamPane, tpjobs, tpprovi);
+
+		Tab tjobs = new Tab("jobs", jobpane);
+		Tab tprovision = new Tab("provision", provisionpane);
+		tabs = new TabPane(tjobs, tprovision);
+		tabs.setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
+		tabs.getSelectionModel().selectedItemProperty().addListener((o, old, now) -> {
+			if (old != null) {
+				((EvePane) old.getContent()).propagateIsShown(false);
+			}
+			if (now != null) {
+				((EvePane) now.getContent()).propagateIsShown(true);
+			}
+		});
+
+		setTop(selectTeamPane);
+		setCenter(tabs);
+		// getChildren().addAll(selectTeamPane, tpjobs, tpprovi);
 	}
 
 }

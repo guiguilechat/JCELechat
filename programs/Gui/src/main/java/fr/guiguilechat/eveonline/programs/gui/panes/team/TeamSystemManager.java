@@ -1,6 +1,7 @@
-package fr.guiguilechat.eveonline.programs.gui.panes.options;
+package fr.guiguilechat.eveonline.programs.gui.panes.team;
 
 import java.util.HashMap;
+import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -73,9 +74,10 @@ public class TeamSystemManager extends GridPane implements EvePane {
 		}
 	}
 
-	protected HashMap<String, TeamElements> cachedTeamElements = new HashMap<>();
+	// synchronized on this
+	private HashMap<String, TeamElements> cachedTeamElements = new HashMap<>();
 
-	protected TeamElements element(String team) {
+	protected synchronized TeamElements element(String team) {
 		TeamElements ret = cachedTeamElements.get(team);
 		if (ret == null) {
 			ret = new TeamElements(team);
@@ -88,37 +90,36 @@ public class TeamSystemManager extends GridPane implements EvePane {
 	public void updateContent() {
 		logger.debug("updating team system manager pane");
 		getChildren().clear();
-		for (String team : parent.settings.teams.keySet()) {
-			TeamElements te = element(team);
-			addTeam(te);
-			updateSystems(team);
-		}
+		parent.settings.teams.keySet().parallelStream().map(this::element).peek(this::updateSystems)
+		// we need to collect them because parallelism can make UI modification
+		// out of thread.
+		.collect(Collectors.toList()).forEach(this::addTeam);
 	}
 
-	protected void updateSystems(String team) {
-		TeamElements element = element(team);
-		element.addSystemBox.getItems().clear();
-		element.remSystemBox.getItems().clear();
-		for (String system : parent().getTeamPossibleSystems(team)) {
-			if (parent().getTeamSystemLimit(team).contains(system)) {
-				if (!element.remSystemBox.getItems().contains(system)) {
-					element.remSystemBox.getItems().add(system);
-				}
-			} else {
-				if (!element.addSystemBox.getItems().contains(system)) {
-					element.addSystemBox.getItems().add(system);
+	protected void updateSystems(TeamElements element) {
+		logger.debug("updateteamsystems " + element.name);
+		synchronized (element) {
+			element.addSystemBox.getItems().clear();
+			element.remSystemBox.getItems().clear();
+			for (String system : parent().getTeamPossibleSystems(element.name)) {
+				if (parent().getTeamSystemLimit(element.name).contains(system)) {
+					if (!element.remSystemBox.getItems().contains(system)) {
+						element.remSystemBox.getItems().add(system);
+					}
+				} else {
+					if (!element.addSystemBox.getItems().contains(system)) {
+						element.addSystemBox.getItems().add(system);
+					}
 				}
 			}
+			element.addSystemBox.getItems().sort(String::compareTo);
+			element.remSystemBox.getItems().sort(String::compareTo);
 		}
-		element.addSystemBox.getItems().sort(String::compareTo);
-		element.remSystemBox.getItems().sort(String::compareTo);
 	}
 
-	protected void addTeam(TeamElements team) {
-		int highestrow = cachedTeamElements.values().stream().filter(t -> t != team).mapToInt(te -> getRowIndex(te.label))
-				.max().orElse(0);
-		addRow(highestrow + 1, team.label, team.addSystemBox, team.addSystemBtn, team.remSystemBox,
-				team.remSystemBtn);
+	protected synchronized void addTeam(TeamElements team) {
+		int highestrow = getChildren().stream().mapToInt(GridPane::getRowIndex).max().orElse(0);
+		addRow(highestrow + 1, team.label, team.addSystemBox, team.addSystemBtn, team.remSystemBox, team.remSystemBtn);
 	}
 
 	@Override
@@ -126,9 +127,11 @@ public class TeamSystemManager extends GridPane implements EvePane {
 		if (!isShown) {
 			return;
 		}
-		TeamElements deleted = cachedTeamElements.remove(name);
-		getChildren().removeAll(deleted.label, deleted.addSystemBox, deleted.addSystemBtn, deleted.remSystemBox,
-				deleted.remSystemBtn);
+		synchronized (this) {
+			TeamElements deleted = cachedTeamElements.remove(name);
+			getChildren().removeAll(deleted.label, deleted.addSystemBox, deleted.addSystemBtn, deleted.remSystemBox,
+					deleted.remSystemBtn);
+		}
 	}
 
 	@Override
@@ -145,7 +148,7 @@ public class TeamSystemManager extends GridPane implements EvePane {
 		if (!isShown) {
 			return;
 		}
-		updateSystems(team);
+		updateSystems(element(team));
 	}
 
 	@Override

@@ -220,7 +220,8 @@ public class JobPane extends TableView<JobData> implements EvePane {
 
 	protected boolean shown = false;
 
-	public void setShown(boolean shown) {
+	@Override
+	public void onIsShown(boolean shown) {
 		this.shown = shown;
 		if (shown) {
 			update();

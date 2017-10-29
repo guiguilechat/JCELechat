@@ -107,7 +107,12 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 
 	public void updateListBPs() {
 		bpsPane.getChildren().clear();
-		bpsPane.getChildren().addAll(streambps().map(bp -> new Label(bp.catName + " : " + bp.groupName + " : " + bp.name))
+		addBPs(streambps());
+	}
+
+	protected void addBPs(Stream<Blueprint> bps) {
+		bpsPane.getChildren().addAll(
+				bps.map(bp -> new Label(bp.catName + " : " + bp.groupName + " : " + bp.name))
 				.collect(Collectors.toList()));
 	}
 

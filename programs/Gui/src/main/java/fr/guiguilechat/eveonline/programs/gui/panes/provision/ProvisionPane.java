@@ -7,10 +7,8 @@ import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.SelectTeamPane;
 import javafx.scene.control.Accordion;
-import javafx.scene.control.Label;
 import javafx.scene.control.TitledPane;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.GridPane;
 
 public class ProvisionPane extends BorderPane implements EvePane {
 
@@ -24,7 +22,6 @@ public class ProvisionPane extends BorderPane implements EvePane {
 		return parent;
 	}
 
-	protected GridPane selectPane = new GridPane();
 	protected Accordion accordion;
 
 	protected ProvisionLPStorePane lpstore;
@@ -43,10 +40,8 @@ public class ProvisionPane extends BorderPane implements EvePane {
 
 	public ProvisionPane(Manager parent) {
 		this.parent = parent;
-		selectPane.add(new Label("team :"), 0, 0);
 		selectTeam = new SelectTeamPane(parent);
-		selectPane.add(selectTeam, 1, 0);
-		setTop(selectPane);
+		setTop(selectTeam);
 
 		lpstore = new ProvisionLPStorePane(parent);
 		overview = new ProvisionOverview(parent);

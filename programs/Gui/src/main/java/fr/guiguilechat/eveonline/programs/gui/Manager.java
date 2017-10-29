@@ -27,9 +27,10 @@ import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription;
 import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription.Provision;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
-import fr.guiguilechat.eveonline.programs.gui.panes.options.OptionPane;
+import fr.guiguilechat.eveonline.programs.gui.panes.api.APIPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.overview.OverViewPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.provision.ProvisionPane;
+import fr.guiguilechat.eveonline.programs.gui.panes.team.TeamPane;
 import fr.guiguilechat.eveonline.programs.settings.ISettings;
 import javafx.application.Application;
 import javafx.beans.property.ReadOnlyObjectWrapper;
@@ -70,11 +71,12 @@ public class Manager extends Application implements EvePane {
 
 	protected OverViewPane overviewPane = new OverViewPane(this);
 	protected ProvisionPane provisionpane = new ProvisionPane(this);
-	protected OptionPane optionPane = new OptionPane(this);
+	protected TeamPane teamPane = new TeamPane(this);
+	protected APIPane apiPane = new APIPane(this);
 	protected TabPane tabs;
-	protected Tab overviewtab, provisiontab, optionstab;
+	protected Tab overviewtab, provisiontab, teamtab, apitab;
 
-	private EvePane[] children = new EvePane[] { overviewPane, provisionpane, optionPane };
+	private EvePane[] children = new EvePane[] { overviewPane, provisionpane, teamPane, apiPane };
 
 	@Override
 	public EvePane[] subEvePanes() {
@@ -94,8 +96,9 @@ public class Manager extends Application implements EvePane {
 		// set the tabs
 		overviewtab = new Tab("overview", overviewPane);
 		provisiontab = new Tab("provision", provisionpane);
-		optionstab = new Tab("options", optionPane);
-		tabs = new TabPane(overviewtab, provisiontab, optionstab);
+		teamtab = new Tab("teams", teamPane);
+		apitab = new Tab("apis", apiPane);
+		tabs = new TabPane(overviewtab, provisiontab, teamtab, apitab);
 		tabs.setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
 		tabs.setSide(Side.LEFT);
 		tabs.getSelectionModel().selectedItemProperty().addListener((ov, old, now) -> {
@@ -152,7 +155,7 @@ public class Manager extends Application implements EvePane {
 
 	protected void checkAPIOrSetOptionsTab() {
 		if (settings.apiKeys.isEmpty()) {
-			tabs.getSelectionModel().select(optionstab);
+			tabs.getSelectionModel().select(apitab);
 		}
 	}
 
@@ -336,13 +339,11 @@ public class Manager extends Application implements EvePane {
 		Set<String> allowedChars = settings.teams.get(team).members;
 		Stream<EveChar> chars = apis.parallelStream().flatMap(a -> a.account.characters().parallelStream())
 				.filter(c -> allowedChars.contains(c.name));
-		return chars.flatMap(this::streamCharPossibleSystems).collect(Collectors.toSet());
+		return chars.parallel().flatMap(this::streamCharPossibleSystems).collect(Collectors.toSet());
 	}
 
 	public Stream<String> streamCharPossibleSystems(EveChar c) {
-		HashMap<Long, Station> stationsById = db.getStationById();
-		return Stream.concat(c.marketOrders().stream().map(oe -> oe.stationID), c.assetList().keySet().stream()).distinct()
-				.map(l -> stationsById.get(l)).filter(s -> s != null).map(s -> s.system);
+		return getCharItems(c).keySet().stream().distinct();
 	}
 
 	/**
@@ -442,18 +443,26 @@ public class Manager extends Application implements EvePane {
 	protected int assetCacheDelayMinutes = 30;
 
 	/** char->system->typeID->qtty */
-	protected Map<Long, Map<String, Map<Integer, Long>>> itemsByCharName = Collections.synchronizedMap(new HashMap<>());
+	protected Map<Long, Map<String, Map<Integer, Long>>> cachedItemsByCharName = Collections.synchronizedMap(new HashMap<>());
 	protected Map<Long, Date> expireItemsByCharName = new HashMap<>();
 
+	/**
+	 * cache and get the (possible) items of a char. items considered are thos
+	 * owned or in BO.
+	 *
+	 * @param c
+	 *          a char.
+	 * @return system > itemId > qtty for this char
+	 */
 	public Map<String, Map<Integer, Long>> getCharItems(EveChar c) {
 		Date cacheExpire = expireItemsByCharName.get(c.characterID);
 		Date now = new Date();
 		if (cacheExpire != null && cacheExpire.after(now)) {
 			logger.trace("returning old cache for character " + c.name);
-			return itemsByCharName.get(c.characterID);
+			return cachedItemsByCharName.get(c.characterID);
 		} else {
 			Map<String, Map<Integer, Long>> itemsqtty = fetchCharItems(c);
-			itemsByCharName.put(c.characterID, itemsqtty);
+			cachedItemsByCharName.put(c.characterID, itemsqtty);
 			expireItemsByCharName.put(c.characterID, new Date(now.getTime() + assetCacheDelayMinutes * 60000));
 			logger.trace("new items for " + c.name + " : " + itemsqtty);
 			return itemsqtty;
@@ -582,7 +591,7 @@ public class Manager extends Application implements EvePane {
 		}
 		logger.trace("invalid cache entry for character " + c.name);
 		// compute difference between old and new item list
-		Map<String, Map<Integer, Long>> oldItems = itemsByCharName.get(c.characterID);
+		Map<String, Map<Integer, Long>> oldItems = cachedItemsByCharName.get(c.characterID);
 		Map<String, Map<Integer, Long>> newItems = getCharItems(c);
 		if (oldItems == null) {
 			logger.trace("items diff for " + c.name + " : " + newItems);

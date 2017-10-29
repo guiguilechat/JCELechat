@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.gui.panes.options;
+package fr.guiguilechat.eveonline.programs.gui.panes.api;
 
 import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.programs.gui.Manager;

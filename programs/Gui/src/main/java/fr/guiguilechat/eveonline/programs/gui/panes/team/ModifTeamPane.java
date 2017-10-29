@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.gui.panes.options;
+package fr.guiguilechat.eveonline.programs.gui.panes.team;
 
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;

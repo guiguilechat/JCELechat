@@ -165,12 +165,12 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 
 	boolean shown = false;
 
-	public void setShown(boolean shown) {
+	@Override
+	public void onIsShown(boolean shown) {
 		this.shown = shown;
 		if (shown) {
 			prepareProvisions();
 		}
-
 	}
 
 }
