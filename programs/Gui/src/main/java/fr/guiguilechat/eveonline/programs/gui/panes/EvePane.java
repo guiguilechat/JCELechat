@@ -54,15 +54,19 @@ public interface EvePane {
 
 	/** do not override this */
 	public default void propagateNewAPI(APIRoot... apis) {
-		onNewAPI(apis);
-		for (EvePane p : subEvePanes()) {
-			p.propagateNewAPI(apis);
+		try {
+			onNewAPI(apis);
+			for (EvePane p : subEvePanes()) {
+				p.propagateNewAPI(apis);
+			}
+		} catch (Exception e) {
+			System.err.println("while propagating api for " + getClass());
 		}
 	}
 
 	/**
 	 * override this to handle possibly several new apis
-	 * 
+	 *
 	 * @param apis
 	 *          should never be null
 	 */

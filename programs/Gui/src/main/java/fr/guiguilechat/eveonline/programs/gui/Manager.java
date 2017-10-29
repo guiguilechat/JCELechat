@@ -30,7 +30,7 @@ import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.api.APIPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.overview.OverViewPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.provision.ProvisionPane;
-import fr.guiguilechat.eveonline.programs.gui.panes.team.TeamPane;
+import fr.guiguilechat.eveonline.programs.gui.panes.team.TeamsPane;
 import fr.guiguilechat.eveonline.programs.settings.ISettings;
 import javafx.application.Application;
 import javafx.beans.property.ReadOnlyObjectWrapper;
@@ -71,7 +71,7 @@ public class Manager extends Application implements EvePane {
 
 	protected OverViewPane overviewPane = new OverViewPane(this);
 	protected ProvisionPane provisionpane = new ProvisionPane(this);
-	protected TeamPane teamPane = new TeamPane(this);
+	protected TeamsPane teamPane = new TeamsPane(this);
 	protected APIPane apiPane = new APIPane(this);
 	protected TabPane tabs;
 	protected Tab overviewtab, provisiontab, teamtab, apitab;
@@ -254,7 +254,7 @@ public class Manager extends Application implements EvePane {
 	}
 
 	public Stream<EveChar> streamChars() {
-		return apis.stream().flatMap(a -> a.account.characters().stream());
+		return apis.parallelStream().flatMap(a -> a.account.characters().stream());
 	}
 
 	public Stream<EveChar> streamTeamCharacters(String team) {
@@ -286,8 +286,7 @@ public class Manager extends Application implements EvePane {
 	public boolean renameTeam(String old, String now) {
 		if (old != null && settings.teams.keySet().contains(old) && now != null && now.length() > 0
 				&& !settings.teams.keySet().contains(now)) {
-			settings.teams.put(now, settings.teams.get(old));
-			settings.teams.remove(old);
+			settings.teams.put(now, settings.teams.remove(old));
 			if (old.equals(settings.focusedTeam)) {
 				settings.focusedTeam = now;
 			}
@@ -331,19 +330,21 @@ public class Manager extends Application implements EvePane {
 	}
 
 	/**
-	 * find all the possible location ID for the given team.
+	 * find all the possible systems names for the given team.
 	 *
-	 * @return
+	 * @return distinct parallel stream of system names
 	 */
-	public Set<String> getTeamPossibleSystems(String team) {
+	public Stream<String> streamTeamPossibleSystems(String team) {
 		Set<String> allowedChars = settings.teams.get(team).members;
 		Stream<EveChar> chars = apis.parallelStream().flatMap(a -> a.account.characters().parallelStream())
 				.filter(c -> allowedChars.contains(c.name));
-		return chars.parallel().flatMap(this::streamCharPossibleSystems).collect(Collectors.toSet());
+		return chars.parallel().flatMap(this::streamCharPossibleSystems).distinct();
 	}
 
 	public Stream<String> streamCharPossibleSystems(EveChar c) {
-		return getCharItems(c).keySet().stream().distinct();
+		return getCharItems(c).keySet().stream().distinct()
+				// .peek(s -> System.err.println("char " + c.name + " has sys " + s))
+				;
 	}
 
 	/**
@@ -444,7 +445,7 @@ public class Manager extends Application implements EvePane {
 
 	/** char->system->typeID->qtty */
 	protected Map<Long, Map<String, Map<Integer, Long>>> cachedItemsByCharName = Collections.synchronizedMap(new HashMap<>());
-	protected Map<Long, Date> expireItemsByCharName = new HashMap<>();
+	protected Map<Long, Date> expireItemsByCharName = Collections.synchronizedMap(new HashMap<>());
 
 	/**
 	 * cache and get the (possible) items of a char. items considered are thos
