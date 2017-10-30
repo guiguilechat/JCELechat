@@ -61,7 +61,6 @@ public class Char {
 		LinkedHashMap<Long, ArrayList<Content>> ret = new LinkedHashMap<>();
 		try {
 			Document page = Jsoup.connect(url).get();
-			// System.err.println("got assets " + page.toString());
 			Elements elements = page.select("result > rowset > row");
 			for (Element el : elements) {
 
