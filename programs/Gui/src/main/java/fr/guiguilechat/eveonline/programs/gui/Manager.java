@@ -138,8 +138,8 @@ public class Manager extends Application implements EvePane {
 			}
 		}
 		propagateFocusedTeam(settings.focusedTeam);
-		propagateIsShown(true);
 		logger.debug("manager started");
+		propagateIsShown(true);
 		new Thread(this::precache).start();
 	}
 

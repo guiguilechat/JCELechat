@@ -40,7 +40,7 @@ public class TeamsPane extends BorderPane implements EvePane {
 			if (old != null) {
 				((EvePane) old.getContent()).propagateIsShown(false);
 			}
-			if (now != null) {
+			if (now != null && isShown) {
 				((EvePane) now.getContent()).propagateIsShown(true);
 			}
 		});
@@ -79,6 +79,13 @@ public class TeamsPane extends BorderPane implements EvePane {
 	public void onRenameTeam(String old, String now) {
 		tabs.getTabs().removeIf(t -> t.getText().equals(old));
 		onNewTeam(now);
+	}
+
+	protected boolean isShown = false;
+
+	@Override
+	public void onIsShown(boolean shown) {
+		this.isShown = true;
 	}
 
 }
