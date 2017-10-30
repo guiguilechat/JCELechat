@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -92,26 +93,24 @@ public class Account {
 
 	}
 
-	protected ArrayList<EveChar> cachedChars = null;
+	protected List<EveChar> cachedChars = null;
 
-	public ArrayList<EveChar> characters() {
+	public List<EveChar> characters() {
 		if (cachedChars != null) {
 			return cachedChars;
 		}
 		String url = BASEURL + "characters.xml.aspx?keyID=" + parent.key.keyID + "&vCode=" + parent.key.code;
 		Exception error = null;
-		ArrayList<EveChar> ret = new ArrayList<>();
-		for (int retry = 0; retry < 10; retry++) {
+		List<EveChar> ret = null;
+		for (int retry = 0; retry < 10 && ret == null; retry++) {
 			try {
+				error = null;
 				if (retry != 0) {
 					Thread.sleep(500);
 				}
-				ret.clear();
 				Document page = Jsoup.connect(url).get();
 				Elements elements = page.select("result rowset row");
-				for (Element el : elements) {
-					ret.add(APIRoot.convertElement(el, EveChar.class, this));
-				}
+				ret = elements.stream().map(el -> APIRoot.convertElement(el, EveChar.class, this)).collect(Collectors.toList());
 			} catch (IOException | InterruptedException e) {
 				logger.debug("while fetching characters for api key " + parent.key.keyID, e);
 				error = e;
