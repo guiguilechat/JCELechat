@@ -77,13 +77,17 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 
 		subset.getItems().addAll(BpSubset.values());
 		subset.getSelectionModel().select(BpSubset.all_bps);
-		subset.getSelectionModel().selectedItemProperty().addListener((o, old, now) -> updateListBPs());
+		subset.getSelectionModel().selectedItemProperty().addListener((o, old, now) -> {
+			updateListBPs();
+			updateGroupList();
+		});
 
-		blueprints.values().stream().map(bp -> bp.groupName).distinct().forEach(allowedGroups.getItems()::add);
-		allowedGroups.getItems().sort(String::compareTo);
-		allowedGroups.getItems().add(0, null);
+		allowedGroups.setMinWidth(300);
+		allowedGroups.setMaxWidth(300);
 		allowedGroups.getSelectionModel().selectedItemProperty().addListener((o, old, now) -> updateListBPs());
+		updateGroupList();
 
+		filterNames.setPromptText("filter blueprints name");
 		PauseTransition pause = new PauseTransition(Duration.seconds(1));
 		filterNames.textProperty().addListener((observable, oldValue, newValue) -> {
 			pause.setOnFinished(event -> updateListBPs());
@@ -139,6 +143,16 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 		updateListBPs();
 	}
 
+	protected void updateGroupList() {
+		String selected = allowedGroups.getSelectionModel().getSelectedItem();
+		allowedGroups.getItems().clear();
+		streambps(subset.getSelectionModel().getSelectedItem()).map(bp -> bp.groupName).distinct()
+		.forEachOrdered(allowedGroups.getItems()::add);
+		allowedGroups.getItems().sort(String::compareTo);
+		if (allowedGroups.getItems().contains(selected)) {
+			allowedGroups.getSelectionModel().select(selected);
+		}
+	}
 
 	public void updateListBPs() {
 		bpsPane.getItems().clear();
@@ -180,17 +194,7 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 	}
 
 	protected Stream<Blueprint> streambps() {
-		BpSubset selection = subset.getSelectionModel().getSelectedItem();
-		Stream<Blueprint> ret = null;
-		if (selection.forceOwned) {
-			Stream<BPEntry> bpeStream = parent.streamFTeamCharacters().parallel().flatMap(c -> c.blueprints().stream());
-			if (selection.forceOriginal) {
-				bpeStream = bpeStream.filter(bpe -> bpe.runs == -1);
-			}
-			ret = bpeStream.map(bpe -> bpe.typeName).distinct().map(blueprints::get).filter(bp -> bp != null);
-		} else {
-			ret = blueprints.values().stream();
-		}
+		Stream<Blueprint> ret = streambps(subset.getSelectionModel().getSelectedItem());
 		String group = allowedGroups.getSelectionModel().getSelectedItem();
 		if (group != null) {
 			ret = ret.filter(bpe -> bpe.groupName.equals(group));
@@ -201,6 +205,18 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 			ret = ret.filter(bpe -> pat.matcher(bpe.name.toLowerCase()).matches());
 		}
 		return ret;
+	}
+
+	protected Stream<Blueprint> streambps(BpSubset selection) {
+		if (selection.forceOwned) {
+			Stream<BPEntry> bpeStream = parent.streamFTeamCharacters().parallel().flatMap(c -> c.blueprints().stream());
+			if (selection.forceOriginal) {
+				bpeStream = bpeStream.filter(bpe -> bpe.runs == -1);
+			}
+			return bpeStream.map(bpe -> bpe.typeName).distinct().map(blueprints::get).filter(bp -> bp != null);
+		} else {
+			return blueprints.values().stream();
+		}
 	}
 
 	@Override

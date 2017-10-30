@@ -516,35 +516,40 @@ public class Manager extends Application implements EvePane {
 	/** fetch the assets and BO of given character */
 	protected Map<String, Map<Integer, Long>> fetchCharItems(EveChar c) {
 		HashMap<Long, Station> stationById = db().getStationById();
-		// for each
 		HashMap<String, Map<Integer, Long>> itemsqtty = new HashMap<>();
 		for (Entry<Long, ArrayList<Content>> e : c.assetList().entrySet()) {
 			Station station = stationById.get(e.getKey());
 			if (station != null) {
-				Map<Integer, Long> localGains = itemsqtty.get(station.system);
-				if (localGains == null) {
-					localGains = new HashMap<>();
-					itemsqtty.put(station.system, localGains);
+				Map<Integer, Long> sysItems = itemsqtty.get(station.system);
+				if (sysItems == null) {
+					sysItems = new HashMap<>();
+					itemsqtty.put(station.system, sysItems);
 				}
 				for (Content co : e.getValue()) {
-					localGains.put(co.typeID, co.quantity + localGains.getOrDefault(co.typeID, 0l));
+					sysItems.put(co.typeID, co.quantity + sysItems.getOrDefault(co.typeID, 0l));
+					// System.err.println("inv " + c.name + " " + station.name + " " +
+					// station.system + " "
+					// + db.getElementById(co.typeID) + " : " + co.quantity);
 				}
 			} else {
-				logger.debug("no station for id " + e.getKey());
+				logger.debug("no station for fetch char " + c.name + " with id " + e.getKey());
 			}
 		}
 		for (OrderEntry a : c.marketOrders()) {
 			if (a.isOpen() && a.isBuyOrder()) {
 				Station station = stationById.get(a.stationID);
 				if (station != null) {
-					Map<Integer, Long> localGains = itemsqtty.get(station.system);
-					if (localGains == null) {
-						localGains = new HashMap<>();
-						itemsqtty.put(station.system, localGains);
+					Map<Integer, Long> sysGain = itemsqtty.get(station.system);
+					if (sysGain == null) {
+						sysGain = new HashMap<>();
+						itemsqtty.put(station.system, sysGain);
 					}
-					localGains.put(a.typeID, a.volRemaining + localGains.getOrDefault(a.typeID, 0l));
+					sysGain.put(a.typeID, a.volRemaining + sysGain.getOrDefault(a.typeID, 0l));
+					// System.err.println("bo " + c.name + " " + station.name + " " +
+					// station.system + " "
+					// + db.getElementById(a.typeID) + " : " + a.volRemaining);
 				} else {
-					logger.debug("no station for id " + a.stationID);
+					logger.debug("no station for market order with id " + a.stationID);
 				}
 			}
 		}
@@ -571,10 +576,8 @@ public class Manager extends Application implements EvePane {
 			return Collections.emptyMap();
 		}
 		Set<String> teamSystems = getTeamSystemLimit(team);
-		logger.trace("recomputing items for team " + team);
-		// recompute the whole map. successive calls to
-		// getItems use the cache, making it cost effective.
 		Map<Integer, Long> newItems = fetchTeamAssets(team, teamSystems);
+
 		Map<Integer, Long> oldItems = cachedTeamItems.get(team);
 		Map<Integer, Long> diff = new HashMap<>(newItems);
 		if (oldItems != null) {

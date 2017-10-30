@@ -748,6 +748,7 @@ public class SDEDumper {
 				staOut.region = system.parentRegion;
 			}
 			staOut.stationId = e.getKey();
+			staOut.name = staIn.stationName;
 			db.stations.put(staIn.stationName, staOut);
 		}
 	}

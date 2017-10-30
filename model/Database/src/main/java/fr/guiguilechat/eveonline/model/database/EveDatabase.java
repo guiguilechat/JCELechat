@@ -77,10 +77,13 @@ public abstract class EveDatabase {
 	protected HashMap<Integer, String> elementById = null;
 
 	public String getElementById(int id) {
-		if (elementById == null) {
-			elementById = new HashMap<>();
-			for (Entry<String, MetaInf> e : getMetaInfs().entrySet()) {
-				elementById.put(e.getValue().id, e.getKey());
+		LinkedHashMap<String, MetaInf> mi = getMetaInfs();
+		synchronized (this) {
+			if (elementById == null) {
+				elementById = new HashMap<>();
+				for (Entry<String, MetaInf> e : mi.entrySet()) {
+					elementById.put(e.getValue().id, e.getKey());
+				}
 			}
 		}
 		return elementById.get(id);
@@ -164,10 +167,13 @@ public abstract class EveDatabase {
 	protected HashMap<Integer, Location> locationsById = null;
 
 	public HashMap<Integer, Location> getLocationById() {
-		if (locationsById == null) {
-			locationsById = new HashMap<>();
-			for (Entry<String, Location> e : getLocations().entrySet()) {
-				locationsById.put(e.getValue().locationID, e.getValue());
+		LinkedHashMap<String, Location> locations = getLocations();
+		synchronized (this) {
+			if (locationsById == null) {
+				locationsById = new HashMap<>();
+				for (Entry<String, Location> e : locations.entrySet()) {
+					locationsById.put(e.getValue().locationID, e.getValue());
+				}
 			}
 		}
 		return locationsById;
@@ -176,10 +182,13 @@ public abstract class EveDatabase {
 	protected HashMap<Long, Station> stationsById = null;
 
 	public HashMap<Long, Station> getStationById() {
-		if (stationsById == null) {
-			stationsById = new HashMap<>();
-			for (Entry<String, Station> e : getStations().entrySet()) {
-				stationsById.put(e.getValue().stationId, e.getValue());
+		LinkedHashMap<String, Station> stations = getStations();
+		synchronized (this) {
+			if (stationsById == null) {
+				stationsById = new HashMap<>();
+				for (Entry<String, Station> e : stations.entrySet()) {
+					stationsById.put(e.getValue().stationId, e.getValue());
+				}
 			}
 		}
 		return stationsById;
