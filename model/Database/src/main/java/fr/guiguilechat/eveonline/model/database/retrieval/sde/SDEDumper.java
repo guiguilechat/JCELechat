@@ -62,38 +62,78 @@ import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.Planet;
 import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.Stargate;
 import fr.guiguilechat.eveonline.model.sde.model.IndustryUsages;
 
+/** load SDE, convert it into db, store the db, and allow to load it. */
 public class SDEDumper {
 
 	private static final Logger logger = LoggerFactory.getLogger(SDEDumper.class);
 
-	public static final File DB_DIR = new File("src/main/resources/SDEDump/");
+	protected String rootDir = ".";
+
+	public void setRootDir(String path) {
+		rootDir = path;
+	}
+
+	protected File dumpDir() {
+		return new File(rootDir, "src/main/resources/");
+	}
+
+	public File dbDir() {
+		return new File(dumpDir(), "SDEDump/");
+	}
 
 	public static final String DB_HULLS_RES = "SDEDump/hulls.yaml";
-	public static final File DB_HULLS_FILE = new File("src/main/resources/", DB_HULLS_RES);
+
+	public File dbHullsFile() {
+		return new File(dumpDir(), DB_HULLS_RES);
+	}
 
 	public static final String DB_MODULES_RES = "SDEDump/modules.yaml";
-	public static final File DB_MODULES_FILE = new File("src/main/resources", DB_MODULES_RES);
+
+	public File dbModulesFile() {
+		return new File(dumpDir(), DB_MODULES_RES);
+	}
 
 	public static final String DB_ASTEROIDS_RES = "SDEDump/asteroids.yaml";
-	public static final File DB_ASTEROIDS_FILE = new File("src/main/resources", DB_ASTEROIDS_RES);
+
+	public File dbAsteroidsFile() {
+		return new File(dumpDir(), DB_ASTEROIDS_RES);
+	}
 
 	public static final String DB_BLUEPRINT_RES = "SDEDump/blueprints.yaml";
-	public static final File DB_BLUEPRINT_FILE = new File("src/main/resources", DB_BLUEPRINT_RES);
+
+	public File dbBPsFile() {
+		return new File(dumpDir(), DB_BLUEPRINT_RES);
+	}
 
 	public static final String DB_METAINF_RES = "SDEDump/metainfs.yaml";
-	public static final File DB_METAINF_FILE = new File("src/main/resources", DB_METAINF_RES);
+
+	public File dbMetaInfFile() {
+		return new File(dumpDir(), DB_METAINF_RES);
+	}
 
 	public static final String DB_LOCATION_RES = "SDEDump/locations.yaml";
-	public static final File DB_LOCATION_FILE = new File("src/main/resources", DB_LOCATION_RES);
+
+	public File dbLocationFile() {
+		return new File(dumpDir(), DB_LOCATION_RES);
+	}
 
 	public static final String DB_LPOFFERS_RES = "SDEDump/lpoffers.yaml";
-	public static final File DB_LPOFFERS_FILE = new File("src/main/resources", DB_LPOFFERS_RES);
+
+	public File dbLPOffersFile() {
+		return new File(dumpDir(), DB_LPOFFERS_RES);
+	}
 
 	public static final String DB_AGENTS_RES = "SDEDump/agents.yaml";
-	public static final File DB_AGENTS_FILE = new File("src/main/resources", DB_AGENTS_RES);
+
+	public File dbAgentsFile() {
+		return new File(dumpDir(), DB_AGENTS_RES);
+	}
 
 	public static final String DB_STATIONS_RES = "SDEDump/stations.yaml";
-	public static final File DB_STATIONS_FILE = new File("src/main/resources", DB_STATIONS_RES);
+
+	public File dbStationsFile() {
+		return new File(dumpDir(), DB_STATIONS_RES);
+	}
 
 	public static void main(String[] args) throws IOException {
 
@@ -102,46 +142,52 @@ public class SDEDumper {
 		DatabaseFile db = loadDb();
 
 		logger.debug("db loaded, writting it");
-		DB_DIR.mkdirs();
+		SDEDumper dumper = new SDEDumper();
+		if (args.length != 0) {
+			dumper.setRootDir(args[0]);
+		}
+		dumper.dump(db);
+	}
+
+	protected void dump(DatabaseFile db) throws IOException {
+		dbDir().mkdirs();
+		System.err.println("writing in " + dbDir().getAbsolutePath());
 
 		DatabaseFile dbModules = new DatabaseFile();
 		dbModules.modules = db.modules;
-		YamlDatabase.write(dbModules, DB_MODULES_FILE);
-
+		YamlDatabase.write(dbModules, dbModulesFile());
 
 		DatabaseFile dbAsteroids = new DatabaseFile();
 		dbAsteroids.asteroids = db.asteroids;
-		YamlDatabase.write(dbAsteroids, DB_ASTEROIDS_FILE);
-
+		YamlDatabase.write(dbAsteroids, dbAsteroidsFile());
 
 		DatabaseFile dbBlueprints = new DatabaseFile();
 		dbBlueprints.blueprints = db.blueprints;
-		YamlDatabase.write(dbBlueprints, DB_BLUEPRINT_FILE);
-
+		YamlDatabase.write(dbBlueprints, dbBPsFile());
 
 		DatabaseFile dbMetaInfs = new DatabaseFile();
 		dbMetaInfs.metaInfs = db.metaInfs;
-		YamlDatabase.write(dbMetaInfs, DB_METAINF_FILE);
+		YamlDatabase.write(dbMetaInfs, dbMetaInfFile());
 
 		DatabaseFile dbLocations = new DatabaseFile();
 		dbLocations.locations = db.locations;
-		YamlDatabase.write(dbLocations, DB_LOCATION_FILE);
+		YamlDatabase.write(dbLocations, dbLocationFile());
 
 		DatabaseFile dbLPOffers = new DatabaseFile();
 		dbLPOffers.lpoffers = db.lpoffers;
-		YamlDatabase.write(dbLPOffers, DB_LPOFFERS_FILE);
+		YamlDatabase.write(dbLPOffers, dbLPOffersFile());
 
 		DatabaseFile dbAgents = new DatabaseFile();
 		dbAgents.agents = db.agents;
-		YamlDatabase.write(dbAgents, DB_AGENTS_FILE);
+		YamlDatabase.write(dbAgents, dbAgentsFile());
 
 		DatabaseFile dbStations = new DatabaseFile();
 		dbStations.stations = db.stations;
-		YamlDatabase.write(dbStations, DB_STATIONS_FILE);
+		YamlDatabase.write(dbStations, dbStationsFile());
 
 		DatabaseFile dbHulls = new DatabaseFile();
 		dbHulls.hulls = db.hulls;
-		YamlDatabase.write(dbHulls, DB_HULLS_FILE);
+		YamlDatabase.write(dbHulls, dbHullsFile());
 	}
 
 	public static DatabaseFile loadDb() throws FileNotFoundException {

@@ -57,6 +57,7 @@
 						<configuration>
 							<mainClass>fr.guiguilechat.eveonline.model.database.retrieval.sde.SDEDumper</mainClass>
 							<cleanupDaemonThreads>false</cleanupDaemonThreads>
+							<arguments>${project.basedir}</arguments>
 						</configuration>
 					</execution>
 				</executions>
