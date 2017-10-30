@@ -137,7 +137,7 @@ public class Manager extends Application implements EvePane {
 			}
 		}
 		propagateFocusedTeam(settings.focusedTeam);
-		propagateStart();
+		propagateIsShown(true);
 		logger.debug("manager started");
 		new Thread(this::precache).start();
 	}
@@ -342,9 +342,7 @@ public class Manager extends Application implements EvePane {
 	}
 
 	public Stream<String> streamCharPossibleSystems(EveChar c) {
-		return getCharItems(c).keySet().stream().distinct()
-				// .peek(s -> System.err.println("char " + c.name + " has sys " + s))
-				;
+		return getCharItems(c).keySet().stream().distinct();
 	}
 
 	/**
@@ -444,8 +442,9 @@ public class Manager extends Application implements EvePane {
 	protected int assetCacheDelayMinutes = 30;
 
 	/** char->system->typeID->qtty */
-	protected Map<Long, Map<String, Map<Integer, Long>>> cachedItemsByCharName = Collections.synchronizedMap(new HashMap<>());
-	protected Map<Long, Date> expireItemsByCharName = Collections.synchronizedMap(new HashMap<>());
+	protected Map<String, Map<String, Map<Integer, Long>>> cachedItemsByCharName = Collections
+			.synchronizedMap(new HashMap<>());
+	protected Map<String, Date> expireItemsByCharName = Collections.synchronizedMap(new HashMap<>());
 
 	/**
 	 * cache and get the (possible) items of a char. items considered are thos
@@ -456,15 +455,15 @@ public class Manager extends Application implements EvePane {
 	 * @return system > itemId > qtty for this char
 	 */
 	public Map<String, Map<Integer, Long>> getCharItems(EveChar c) {
-		Date cacheExpire = expireItemsByCharName.get(c.characterID);
+		Date cacheExpire = expireItemsByCharName.get(c.name);
 		Date now = new Date();
 		if (cacheExpire != null && cacheExpire.after(now)) {
 			logger.trace("returning old cache for character " + c.name);
-			return cachedItemsByCharName.get(c.characterID);
+			return cachedItemsByCharName.get(c.name);
 		} else {
 			Map<String, Map<Integer, Long>> itemsqtty = fetchCharItems(c);
-			cachedItemsByCharName.put(c.characterID, itemsqtty);
-			expireItemsByCharName.put(c.characterID, new Date(now.getTime() + assetCacheDelayMinutes * 60000));
+			cachedItemsByCharName.put(c.name, itemsqtty);
+			expireItemsByCharName.put(c.name, new Date(now.getTime() + assetCacheDelayMinutes * 60000));
 			logger.trace("new items for " + c.name + " : " + itemsqtty);
 			return itemsqtty;
 		}
@@ -586,13 +585,13 @@ public class Manager extends Application implements EvePane {
 
 		// if we don't need to fetch data gain, return empty map
 		Date now = new Date();
-		Date cacheExpiration = expireItemsByCharName.get(c.characterID);
+		Date cacheExpiration = expireItemsByCharName.get(c.name);
 		if (cacheExpiration != null && cacheExpiration.after(now)) {
 			return Collections.emptyMap();
 		}
 		logger.trace("invalid cache entry for character " + c.name);
 		// compute difference between old and new item list
-		Map<String, Map<Integer, Long>> oldItems = cachedItemsByCharName.get(c.characterID);
+		Map<String, Map<Integer, Long>> oldItems = cachedItemsByCharName.get(c.name);
 		Map<String, Map<Integer, Long>> newItems = getCharItems(c);
 		if (oldItems == null) {
 			logger.trace("items diff for " + c.name + " : " + newItems);

@@ -36,20 +36,6 @@ public interface EvePane {
 		return parent().db();
 	}
 
-	// when manager is started
-
-	/** do not override this */
-	public default void propagateStart() {
-		onStart();
-		for (EvePane p : subEvePanes()) {
-			p.propagateStart();
-		}
-	}
-
-	/** override to make actions when manager is loaded and started */
-	public default void onStart() {
-	}
-
 	//// API Modifications
 
 	/** do not override this */

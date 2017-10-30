@@ -23,6 +23,7 @@ import javafx.scene.layout.HBox;
 
 public class ProvisionLPStorePane extends BorderPane implements EvePane {
 
+	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(ProvisionLPStorePane.class);
 
 	protected Manager parent;
@@ -94,15 +95,14 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 
 		setCenter(listOffersPane);
 		loaded = true;
-		updateOffers();
 	}
 
 	protected void updateOffers() {
-		logger.trace("updating offers");
 		listOffersPane.getItems().clear();
-		if (!loaded) {
+		if (!shown) {
 			return;
 		}
+		load();
 
 		String corp = corporationChoice.getValue();
 		if (corp == null) {
@@ -111,9 +111,10 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		Boolean bp = blueprintAllowedChoice.getValue();
 		for (LPOffer lo : lpoffers) {
 			boolean isbp = lo.offer_name.contains("Blueprint");
-			if (corp != null && corp.equals(lo.corporation) && !(bp == Boolean.TRUE && !isbp)
-					&& !(bp == Boolean.FALSE && isbp)) {
-				listOffersPane.getItems().add(getRow(lo));
+			if (corp.equals(lo.corporation) && !(bp == Boolean.TRUE && !isbp) && !(bp == Boolean.FALSE && isbp)) {
+				OfferRow row = getRow(lo);
+				row.nb_field.setText("" + parent().getFTeamProvision().lpoffersIn.getOrDefault(lo.id, 0));
+				listOffersPane.getItems().add(row);
 			}
 		}
 		listOffersPane.sort();
@@ -137,10 +138,9 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		}
 		OfferRow ret = new OfferRow();
 		ret.offer = offer;
-		int provision_nb = parent().getFTeamProvision().lpoffersIn.getOrDefault(offer.id, 0);
-		ret.nb_field = new TextField("" + provision_nb);
 		ret.bt_send = new Button("provision");
 		ret.bt_send.setOnAction(ev -> provision(ret, ret.nb_field.getText()));
+		ret.nb_field = new TextField();
 		cacherows.put(offer, ret);
 		return ret;
 	}
@@ -160,10 +160,13 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		updateOffers();
 	}
 
+	protected boolean shown = false;
+
 	@Override
 	public void onIsShown(boolean shown) {
+		this.shown = shown;
 		if (shown) {
-			load();
+			updateOffers();
 		}
 	}
 }

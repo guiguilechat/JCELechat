@@ -37,6 +37,7 @@ public class JobPane extends TableView<JobData> implements EvePane {
 		public String description;
 		public String where;
 		public String who;
+		public long id;
 
 		@Override
 		public int hashCode() {
@@ -142,9 +143,10 @@ public class JobPane extends TableView<JobData> implements EvePane {
 			JobData ed = new JobData();
 			ed.time = e.endDate;
 			ed.type = Char.activityName(e.activityID);
-			ed.description = e.blueprintTypeName + " *" + e.runs;
+			ed.description = e.blueprintTypeName + " *" + e.runs + "(" + e.jobID + ")";
 			ed.where = e.solarSystemName;
-			ed.who = e.installerName;
+			ed.who = e.installerName + " " + e.installerID;
+			ed.id = e.jobID;
 			synchronized (this) {
 				getItems().add(ed);
 			}
@@ -154,8 +156,8 @@ public class JobPane extends TableView<JobData> implements EvePane {
 	/**
 	 * for each character id, its list of jobs.
 	 */
-	protected Map<Long, ArrayList<JobEntry>> cachedJobs = Collections.synchronizedMap(new HashMap<>());
-	protected Map<Long, Date> cachedJobsDate = Collections.synchronizedMap(new HashMap<>());
+	protected Map<String, ArrayList<JobEntry>> cachedJobs = Collections.synchronizedMap(new HashMap<>());
+	protected Map<String, Date> cachedJobsDate = Collections.synchronizedMap(new HashMap<>());
 	protected int cache_duration_in_minutes = 5;
 
 	/**
@@ -172,16 +174,16 @@ public class JobPane extends TableView<JobData> implements EvePane {
 	 * @return
 	 */
 	protected ArrayList<JobEntry> industryJobs(EveChar c) {
-		Date nextCall = cachedJobsDate.get(c.characterID);
+		Date nextCall = cachedJobsDate.get(c.name);
 		Date now = new Date();
 		if (nextCall == null || nextCall.before(now)) {
 			logger.trace("invalid cache jobs " + c.name);
 			ArrayList<JobEntry> ret = c.industryJobs();
-			cachedJobs.put(c.characterID, ret);
-			cachedJobsDate.put(c.characterID, new Date(now.getTime() + cache_duration_in_minutes * 60000));
+			cachedJobs.put(c.name, ret);
+			cachedJobsDate.put(c.name, new Date(now.getTime() + cache_duration_in_minutes * 60000));
 			return ret;
 		} else {
-			return cachedJobs.get(c.characterID);
+			return cachedJobs.get(c.name);
 		}
 	}
 
