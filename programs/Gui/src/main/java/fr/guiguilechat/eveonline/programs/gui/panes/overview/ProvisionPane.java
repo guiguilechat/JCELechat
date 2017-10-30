@@ -7,6 +7,7 @@ import java.util.Map.Entry;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.programs.gui.Manager;
+import fr.guiguilechat.eveonline.programs.gui.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.overview.ProvisionPane.ProvisionData;
 import javafx.beans.property.ReadOnlyObjectWrapper;
@@ -79,18 +80,34 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 		public int itemID;
 	}
 
-	HashMap<Integer, ProvisionPreparation> itemsProvisions = new HashMap<>();
+	HashMap<Integer, ProvisionPreparation> itemsProvisionsMaterial = new HashMap<>();
+	HashMap<Integer, ProvisionPreparation> itemsProvisionsProdcut = new HashMap<>();
+	HashMap<Integer, ProvisionPreparation> itemsProvisionsSO = new HashMap<>();
 
-	/** get a provision preparation for given item id */
-	public ProvisionPreparation getProvision(int itemID) {
-		ProvisionPreparation ret = itemsProvisions.get(itemID);
+	/** get a provision preparation of given type for given item id */
+	public ProvisionPreparation getProvision(int itemID, ProvisionType ptype) {
+		HashMap<Integer, ProvisionPreparation> map = null;
+		switch (ptype) {
+		case MATERIAL:
+			map = itemsProvisionsMaterial;
+			break;
+		case PRODUCT:
+			map = itemsProvisionsProdcut;
+			break;
+		case SO:
+			map = itemsProvisionsSO;
+			break;
+		default:
+			throw new UnsupportedOperationException("handle " + ptype);
+		}
+		ProvisionPreparation ret = map.get(itemID);
 		if (ret == null) {
 			logger.trace("creating provision for item " + itemID);
 			ret = new ProvisionPreparation();
 			ret.name = db().getElementById(itemID);
 			ret.ed = new ProvisionData();
 			ret.itemID = itemID;
-			itemsProvisions.put(itemID, ret);
+			map.put(itemID, ret);
 		}
 		return ret;
 	}
@@ -99,19 +116,21 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	 * prepare provisions for focused team.
 	 */
 	protected void prepareProvisions() {
-		itemsProvisions.values().stream().forEach(pp -> pp.required = 0);
-		for (Entry<Integer, Integer> e : parent.getFTeamProvision().totalIn.entrySet()) {
-			ProvisionPreparation pr = getProvision(e.getKey());
-			pr.required = e.getValue();
-			pr.ed.who = parent().settings.focusedTeam;
+		itemsProvisionsMaterial.values().stream().forEach(pp -> pp.required = 0);
+		for (ProvisionType ptype : ProvisionType.values()) {
+			for (Entry<Integer, Integer> e : parent.getFTeamProvision(ptype).total.entrySet()) {
+				ProvisionPreparation pr = getProvision(e.getKey(), ptype);
+				pr.required = e.getValue();
+				pr.ed.who = parent().settings.focusedTeam;
+			}
 		}
 		onTeamNewItems(parent().settings.focusedTeam, parent().getFTeamItems());
 	}
 
 	@Override
-	public void onNewProvision(int itemID, int qtty) {
+	public void onNewProvision(ProvisionType ptype, int itemID, int qtty) {
 		if (shown) {
-			ProvisionPreparation pr = getProvision(itemID);
+			ProvisionPreparation pr = getProvision(itemID, ptype);
 			pr.required = qtty;
 			pr.ed.who = parent().settings.focusedTeam;
 			updateItemQuantity(parent().getFTeamItems().getOrDefault(itemID, 0l), pr);
@@ -127,7 +146,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 		logger.trace("new items for focused team " + team + " : " + itemsDiff);
 		Map<Integer, Long> items = parent().getFTeamItems();
 		for (Integer itemID : itemsDiff.keySet()) {
-			updateItemQuantity(items.getOrDefault(itemID, 0l), getProvision(itemID));
+			updateItemQuantity(items.getOrDefault(itemID, 0l), getProvision(itemID, ProvisionType.MATERIAL));
 		}
 		sort();
 	}
@@ -157,7 +176,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	@Override
 	public void onFocusedTeam(String teamName) {
 		getItems().clear();
-		itemsProvisions.values().forEach(pp -> pp.added = false);
+		itemsProvisionsMaterial.values().forEach(pp -> pp.added = false);
 		if (shown) {
 			prepareProvisions();
 		}

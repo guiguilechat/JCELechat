@@ -17,7 +17,7 @@ public class AddTeamPane extends HBox implements EvePane {
 	}
 
 	protected TextField addTeamField = new TextField();
-	protected Button addTeamButton = new Button("add team");
+	protected Button addTeamButton = new Button("create a new team");
 
 	public AddTeamPane(Manager parent) {
 		this.parent = parent;

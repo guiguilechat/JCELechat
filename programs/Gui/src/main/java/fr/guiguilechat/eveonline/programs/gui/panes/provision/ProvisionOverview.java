@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
+import fr.guiguilechat.eveonline.programs.gui.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription.Provision;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import javafx.scene.control.Button;
@@ -46,8 +47,8 @@ public class ProvisionOverview extends GridPane implements EvePane {
 			}
 		}
 		int row=0;
-		Provision p = parent().getFTeamProvision();
-		for(Entry<Integer, Integer> e : p.lpoffersIn.entrySet()) {
+		Provision proviMat = parent().getFTeamProvision(ProvisionType.MATERIAL);
+		for (Entry<Integer, Integer> e : proviMat.lpoffers.entrySet()) {
 			LPOffer lpo = lpoffersbyId.get(e.getKey());
 			add(new Label("lp offer " + lpo.offer_name), 0, row);
 			add(new Label(""+e.getValue()), 1, row);
@@ -56,15 +57,16 @@ public class ProvisionOverview extends GridPane implements EvePane {
 			add(btn, 2, row);
 			row++;
 		}
-		for (Entry<Integer, Integer> e : p.totalIn.entrySet()) {
-			add(new Label(db().getElementById(e.getKey())), 0, row);
+		for (Entry<Integer, Integer> e : proviMat.total.entrySet()) {
+			String itemName = db().getElementById(e.getKey());
+			add(new Label(itemName), 0, row);
 			add(new Label("" + e.getValue()), 1, row);
 			row++;
 		}
 	}
 
 	@Override
-	public void onNewProvision(int itemID, int qtty) {
+	public void onNewProvision(ProvisionType ptype, int itemID, int qtty) {
 		update();
 	}
 

@@ -2,7 +2,6 @@ package fr.guiguilechat.eveonline.programs.gui.panes.provision;
 
 import java.util.LinkedHashMap;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -13,13 +12,15 @@ import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import javafx.animation.PauseTransition;
+import javafx.beans.property.ReadOnlyObjectWrapper;
+import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TitledPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
 import javafx.util.Duration;
 
 public class ProvisionBlueprint extends BorderPane implements EvePane {
@@ -43,7 +44,7 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 	protected LinkedHashMap<String, Blueprint> blueprints;
 
 	protected HBox filterPane;
-	protected VBox bpsPane;
+	protected TableView<BPRow> bpsPane;
 
 	protected static enum BpSubset {
 
@@ -88,7 +89,41 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 		});
 
 		filterPane.getChildren().addAll(subset, allowedGroups, filterNames);
-		bpsPane = new VBox();
+
+		bpsPane = new TableView<>();
+
+		TableColumn<BPRow, String> namecol = new TableColumn<>("name");
+		namecol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().name));
+		bpsPane.getColumns().add(namecol);
+
+		TableColumn<BPRow, String> groupcol = new TableColumn<>("group");
+		groupcol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().group));
+		bpsPane.getColumns().add(groupcol);
+
+		TableColumn<BPRow, TextField> materialscol = new TableColumn<>("materials");
+		materialscol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().materialField));
+		materialscol.setMinWidth(50);
+		materialscol.setMaxWidth(50);
+		bpsPane.getColumns().add(materialscol);
+
+		TableColumn<BPRow, TextField> productcol = new TableColumn<>("product");
+		productcol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().productField));
+		productcol.setMinWidth(50);
+		productcol.setMaxWidth(50);
+		bpsPane.getColumns().add(productcol);
+
+		TableColumn<BPRow, TextField> salescol = new TableColumn<>("sell orders");
+		salescol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().soField));
+		salescol.setMinWidth(50);
+		salescol.setMaxWidth(50);
+		bpsPane.getColumns().add(salescol);
+
+		TableColumn<BPRow, Button> sendCol = new TableColumn<>("");
+		sendCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().updatebtn));
+		sendCol.setMinWidth(100);
+		sendCol.setMaxWidth(100);
+		bpsPane.getColumns().add(sendCol);
+
 		setTop(new TitledPane("filters", filterPane));
 		getTop().setStyle("-fx-padding: 5 5 0 10;");
 		setCenter(bpsPane);
@@ -106,14 +141,33 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 
 
 	public void updateListBPs() {
-		bpsPane.getChildren().clear();
-		addBPs(streambps());
+		bpsPane.getItems().clear();
+		streambps().forEachOrdered(bp->{
+			BPRow row = makeBPNode(bp);
+			bpsPane.getItems().add(row);
+		});
 	}
 
-	protected void addBPs(Stream<Blueprint> bps) {
-		bpsPane.getChildren().addAll(
-				bps.map(bp -> new Label(bp.catName + " : " + bp.groupName + " : " + bp.name))
-				.collect(Collectors.toList()));
+	protected BPRow makeBPNode(Blueprint bp) {
+		BPRow ret = new BPRow();
+		ret.name = bp.name;
+		ret.group = bp.groupName;
+		ret.updatebtn.setOnAction(e -> update(ret.name, ret.materialField, ret.productField, ret.soField));
+		return ret;
+	}
+
+	protected void update(String bpName, TextField materialField, TextField productField, TextField soField) {
+		System.err.println("update bp " + bpName);
+	}
+
+	protected static class BPRow {
+		String name;
+		String group;
+		TextField materialField = new TextField();
+		TextField productField = new TextField();
+		TextField soField = new TextField();
+
+		Button updatebtn = new Button("update provisions");
 	}
 
 	protected Stream<Blueprint> streambps() {

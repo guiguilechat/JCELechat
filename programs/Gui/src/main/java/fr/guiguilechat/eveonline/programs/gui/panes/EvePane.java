@@ -5,6 +5,7 @@ import java.util.Map;
 import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
+import fr.guiguilechat.eveonline.programs.gui.Settings.ProvisionType;
 
 /**
  * panes to react to the modification of parameters.
@@ -235,22 +236,22 @@ public interface EvePane {
 	// provision
 
 	/** do not override this */
-	public default void propagateNewProvision(int itemID, int qtty) {
+	public default void propagateNewProvision(ProvisionType ptype, int itemID, int qtty) {
+		onNewProvision(ptype, itemID, qtty);
 		for (EvePane p : subEvePanes()) {
-			p.propagateNewProvision(itemID, qtty);
+			p.propagateNewProvision(ptype, itemID, qtty);
 		}
-		onNewProvision(itemID, qtty);
 	}
 
 	/**
-	 * override this to handle when an item provision is modified. This is called
-	 * before the value is set in the settings, so the settings still hold the old
-	 * value.
+	 * override this to handle after an item provision is modified.
 	 *
+	 * @param ptype
+	 *          the type of provision
 	 * @param itemID
 	 * @param qtty
 	 */
-	public default void onNewProvision(int itemID, int qtty) {
+	public default void onNewProvision(ProvisionType ptype, int itemID, int qtty) {
 	}
 
 	// visibility

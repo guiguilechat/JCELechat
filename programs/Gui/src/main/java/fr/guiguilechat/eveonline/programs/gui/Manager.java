@@ -24,6 +24,7 @@ import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.model.database.yaml.Station;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.programs.gui.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription;
 import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription.Provision;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
@@ -397,41 +398,41 @@ public class Manager extends Application implements EvePane {
 
 	// provision
 
-	/** get the provision of the focused team. */
-	public Provision getFTeamProvision() {
+	/** get the provision of materials for the focused team. */
+	public Provision getFTeamProvision(ProvisionType provitype) {
 		if (settings.focusedTeam == null) {
 			return null;
 		}
-		return settings.teams.get(settings.focusedTeam).provision;
-	}
-
-	public void provision(HashMap<Integer, Integer> items) {
-		debug("provision " + items);
-		for (Entry<Integer, Integer> e : items.entrySet()) {
-			propagateNewProvision(e.getKey(), e.getValue());
-			getFTeamProvision().totalIn.put(e.getKey(),
-					Math.max(0, getFTeamProvision().totalIn.getOrDefault(e.getKey(), 0) + e.getValue()));
+		switch (provitype) {
+		case MATERIAL:
+			return settings.teams.get(settings.focusedTeam).provisionMaterials;
+		case PRODUCT:
+			return settings.teams.get(settings.focusedTeam).provisionProduct;
+		case SO:
+			return settings.teams.get(settings.focusedTeam).provisionSO;
+		default:
+			throw new UnsupportedOperationException("can't handle " + provitype);
 		}
-		settings.store();
 	}
 
 	/** set the requirement in lp offer to given value for the focused team */
 	public void provisionLPOffer(LPOffer offer, int requirement) {
-		Provision p = getFTeamProvision();
-		int diff = requirement - p.lpoffersIn.getOrDefault(offer.id, 0);
+		HashMap<Integer, Integer> proviMatLP = getFTeamProvision(ProvisionType.MATERIAL).lpoffers;
+		int diff = requirement - proviMatLP.getOrDefault(offer.id, 0);
 		if (requirement <= 0) {
-			p.lpoffersIn.remove(offer.id);
+			proviMatLP.remove(offer.id);
 		} else {
-			p.lpoffersIn.put(offer.id, requirement);
+			proviMatLP.put(offer.id, requirement);
 		}
+		HashMap<Integer, Integer> proviMatTotal = getFTeamProvision(ProvisionType.MATERIAL).total;
 		for (ItemRef e : offer.requirements.items) {
-			int newQtty = p.totalIn.getOrDefault(e.type_id, 0) + e.quantity * diff;
-			propagateNewProvision(e.type_id, newQtty);
+			int newQtty = proviMatTotal.getOrDefault(e.type_id, 0) + e.quantity * diff;
 			if (newQtty > 0) {
-				p.totalIn.put(e.type_id, newQtty);
+				proviMatTotal.put(e.type_id, newQtty);
 			} else {
-				p.totalIn.remove(e.type_id);
+				proviMatTotal.remove(e.type_id);
 			}
+			propagateNewProvision(ProvisionType.MATERIAL, e.type_id, newQtty);
 		}
 		settings.store();
 	}

@@ -49,7 +49,8 @@ public class ProvisionPane extends BorderPane implements EvePane {
 		otp = new TitledPane("overview", overview);
 		ltp = new TitledPane("lpstore", lpstore);
 		btp = new TitledPane("blueprint", blueprint);
-		accordion = new Accordion(ltp, otp, btp);
+		accordion = new Accordion(otp, ltp, btp);
+		accordion.setExpandedPane(otp);
 		accordion.expandedPaneProperty().addListener((ov, old, now) -> {
 			if (old != null) {
 				TP2Pane(old).propagateIsShown(false);

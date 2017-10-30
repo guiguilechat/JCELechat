@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
+import fr.guiguilechat.eveonline.programs.gui.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.Button;
@@ -79,11 +80,11 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		lpcol.setSortType(SortType.DESCENDING);
 		listOffersPane.getSortOrder().add(lpcol);
 
-		TableColumn<OfferRow, TextField> nbCol = new TableColumn<>();
-		nbCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().nb_field));
-		nbCol.setMinWidth(50);
-		nbCol.setMaxWidth(50);
-		listOffersPane.getColumns().add(nbCol);
+		TableColumn<OfferRow, TextField> matCol = new TableColumn<>("materials");
+		matCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().nb_field));
+		matCol.setMinWidth(50);
+		matCol.setMaxWidth(50);
+		listOffersPane.getColumns().add(matCol);
 
 		TableColumn<OfferRow, Button> sendCol = new TableColumn<>("");
 		sendCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().bt_send));
@@ -104,6 +105,7 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		}
 		load();
 
+		HashMap<Integer, Integer> provisions = parent().getFTeamProvision(ProvisionType.MATERIAL).lpoffers;
 		String corp = corporationChoice.getValue();
 		if (corp == null) {
 			return;
@@ -113,7 +115,7 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 			boolean isbp = lo.offer_name.contains("Blueprint");
 			if (corp.equals(lo.corporation) && !(bp == Boolean.TRUE && !isbp) && !(bp == Boolean.FALSE && isbp)) {
 				OfferRow row = getRow(lo);
-				row.nb_field.setText("" + parent().getFTeamProvision().lpoffersIn.getOrDefault(lo.id, 0));
+				row.nb_field.setText("" + provisions.getOrDefault(lo.id, 0));
 				listOffersPane.getItems().add(row);
 			}
 		}
@@ -138,7 +140,7 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		}
 		OfferRow ret = new OfferRow();
 		ret.offer = offer;
-		ret.bt_send = new Button("provision");
+		ret.bt_send = new Button("update");
 		ret.bt_send.setOnAction(ev -> provision(ret, ret.nb_field.getText()));
 		ret.nb_field = new TextField();
 		cacherows.put(offer, ret);
@@ -156,7 +158,7 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 	}
 
 	@Override
-	public void onNewProvision(int itemID, int qtty) {
+	public void onNewProvision(ProvisionType ptype, int itemID, int qtty) {
 		updateOffers();
 	}
 

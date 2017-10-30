@@ -143,9 +143,9 @@ public class JobPane extends TableView<JobData> implements EvePane {
 			JobData ed = new JobData();
 			ed.time = e.endDate;
 			ed.type = Char.activityName(e.activityID);
-			ed.description = e.blueprintTypeName + " *" + e.runs + "(" + e.jobID + ")";
+			ed.description = e.blueprintTypeName + " *" + e.runs;
 			ed.where = e.solarSystemName;
-			ed.who = e.installerName + " " + e.installerID;
+			ed.who = e.installerName;
 			ed.id = e.jobID;
 			synchronized (this) {
 				getItems().add(ed);
