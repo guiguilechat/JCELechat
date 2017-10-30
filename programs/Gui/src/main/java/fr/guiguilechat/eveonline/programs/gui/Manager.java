@@ -3,10 +3,12 @@ package fr.guiguilechat.eveonline.programs.gui;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -20,8 +22,11 @@ import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.model.database.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.database.apiv2.Char.Content;
 import fr.guiguilechat.eveonline.model.database.apiv2.Char.OrderEntry;
+import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
+import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
+import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Station;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.programs.gui.Settings.ProvisionType;
@@ -416,25 +421,63 @@ public class Manager extends Application implements EvePane {
 	}
 
 	/** set the requirement in lp offer to given value for the focused team */
-	public void provisionLPOffer(LPOffer offer, int requirement) {
-		HashMap<Integer, Integer> proviMatLP = getFTeamProvision(ProvisionType.MATERIAL).lpoffers;
+	public void provisionLPOffer(ProvisionType ptype, LPOffer offer, int requirement) {
+		HashMap<Integer, Integer> proviMatLP = getFTeamProvision(ptype).lpoffers;
 		int diff = requirement - proviMatLP.getOrDefault(offer.id, 0);
 		if (requirement <= 0) {
 			proviMatLP.remove(offer.id);
 		} else {
 			proviMatLP.put(offer.id, requirement);
 		}
-		HashMap<Integer, Integer> proviMatTotal = getFTeamProvision(ProvisionType.MATERIAL).total;
-		for (ItemRef e : offer.requirements.items) {
-			int newQtty = proviMatTotal.getOrDefault(e.type_id, 0) + e.quantity * diff;
+		HashMap<Integer, Integer> proviTotal = getFTeamProvision(ptype).total;
+
+		for (ItemRef e : ptype == ProvisionType.MATERIAL ? offer.requirements.items : Arrays.asList(offer.product)) {
+			int newQtty = proviTotal.getOrDefault(e.type_id, 0) + e.quantity * diff;
 			if (newQtty > 0) {
-				proviMatTotal.put(e.type_id, newQtty);
+				proviTotal.put(e.type_id, newQtty);
 			} else {
-				proviMatTotal.remove(e.type_id);
+				proviTotal.remove(e.type_id);
 			}
-			propagateNewProvision(ProvisionType.MATERIAL, e.type_id, newQtty);
+			propagateNewProvision(ptype, e.type_id, newQtty);
+		}
+
+		settings.store();
+	}
+
+	public void provisionLPOffer(LPOffer offer, int mat, int product, int so) {
+		provisionLPOffer(ProvisionType.MATERIAL, offer, mat);
+		provisionLPOffer(ProvisionType.PRODUCT, offer, product);
+		provisionLPOffer(ProvisionType.SO, offer, so);
+	}
+
+	/** set the requirement in BP to given value for the focused team */
+	public void provisionBP(ProvisionType ptype, Blueprint bp, int requirement) {
+		LinkedHashMap<String, MetaInf> mi = db().getMetaInfs();
+		HashMap<Integer, Integer> proviBP = getFTeamProvision(ptype).blueprints;
+		int diff = requirement - proviBP.getOrDefault(bp.id, 0);
+		if (requirement <= 0) {
+			proviBP.remove(bp.id);
+		} else {
+			proviBP.put(bp.id, requirement);
+		}
+		HashMap<Integer, Integer> proviTotal = getFTeamProvision(ptype).total;
+		for (Material m : ptype == ProvisionType.MATERIAL ? bp.manufacturing.materials : bp.manufacturing.products) {
+			int mid = mi.get(m.name).id;
+			int newQtty = proviTotal.getOrDefault(mid, 0) + m.quantity * diff;
+			if (newQtty > 0) {
+				proviTotal.put(mid, newQtty);
+			} else {
+				proviTotal.remove(mid);
+			}
+			propagateNewProvision(ptype, mid, newQtty);
 		}
 		settings.store();
+	}
+
+	public void provisionBP(Blueprint bp, int mat, int product, int so) {
+		provisionBP(ProvisionType.MATERIAL, bp, mat);
+		provisionBP(ProvisionType.PRODUCT, bp, product);
+		provisionBP(ProvisionType.SO, bp, so);
 	}
 
 	// items

@@ -141,15 +141,15 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		OfferRow ret = new OfferRow();
 		ret.offer = offer;
 		ret.bt_send = new Button("update");
-		ret.bt_send.setOnAction(ev -> provision(ret, ret.nb_field.getText()));
+		ret.bt_send.setOnAction(ev -> provision(ProvisionType.MATERIAL, ret, ret.nb_field.getText()));
 		ret.nb_field = new TextField();
 		cacherows.put(offer, ret);
 		return ret;
 	}
 
-	public void provision(OfferRow row, String nb_text) {
+	public void provision(ProvisionType ptype, OfferRow row, String nb_text) {
 		int nb_provision = Integer.parseInt(nb_text);
-		parent().provisionLPOffer(row.offer, nb_provision);
+		parent().provisionLPOffer(ptype, row.offer, nb_provision);
 	}
 
 	@Override

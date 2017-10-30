@@ -1,5 +1,6 @@
 package fr.guiguilechat.eveonline.programs.gui.panes.provision;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
@@ -10,6 +11,7 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.eveonline.model.database.apiv2.Char.BPEntry;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
+import fr.guiguilechat.eveonline.programs.gui.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import javafx.animation.PauseTransition;
 import javafx.beans.property.ReadOnlyObjectWrapper;
@@ -102,26 +104,24 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 
 		TableColumn<BPRow, TextField> materialscol = new TableColumn<>("materials");
 		materialscol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().materialField));
-		materialscol.setMinWidth(50);
-		materialscol.setMaxWidth(50);
+		materialscol.setMinWidth(80);
+		materialscol.setMaxWidth(80);
 		bpsPane.getColumns().add(materialscol);
 
 		TableColumn<BPRow, TextField> productcol = new TableColumn<>("product");
 		productcol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().productField));
-		productcol.setMinWidth(50);
-		productcol.setMaxWidth(50);
+		productcol.setMinWidth(80);
+		productcol.setMaxWidth(80);
 		bpsPane.getColumns().add(productcol);
 
 		TableColumn<BPRow, TextField> salescol = new TableColumn<>("sell orders");
 		salescol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().soField));
-		salescol.setMinWidth(50);
-		salescol.setMaxWidth(50);
+		salescol.setMinWidth(80);
+		salescol.setMaxWidth(80);
 		bpsPane.getColumns().add(salescol);
 
 		TableColumn<BPRow, Button> sendCol = new TableColumn<>("");
 		sendCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().updatebtn));
-		sendCol.setMinWidth(100);
-		sendCol.setMaxWidth(100);
 		bpsPane.getColumns().add(sendCol);
 
 		setTop(new TitledPane("filters", filterPane));
@@ -142,22 +142,31 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 
 	public void updateListBPs() {
 		bpsPane.getItems().clear();
+		HashMap<Integer, Integer> mats = parent().getFTeamProvision(ProvisionType.MATERIAL).blueprints;
+		HashMap<Integer, Integer> prods = parent().getFTeamProvision(ProvisionType.PRODUCT).blueprints;
+		HashMap<Integer, Integer> sos = parent().getFTeamProvision(ProvisionType.SO).blueprints;
 		streambps().forEachOrdered(bp->{
 			BPRow row = makeBPNode(bp);
+			row.materialField.setText("" + mats.getOrDefault(bp.id, 0));
+			row.productField.setText("" + prods.getOrDefault(bp.id, 0));
+			row.soField.setText("" + sos.getOrDefault(bp.id, 0));
 			bpsPane.getItems().add(row);
 		});
 	}
 
 	protected BPRow makeBPNode(Blueprint bp) {
 		BPRow ret = new BPRow();
-		ret.name = bp.name;
-		ret.group = bp.groupName;
-		ret.updatebtn.setOnAction(e -> update(ret.name, ret.materialField, ret.productField, ret.soField));
+		ret.name = bp.name.replaceAll(" Blueprint", "");
+		ret.group = bp.groupName.replaceAll(" Blueprint", "");
+		ret.updatebtn.setOnAction(e -> update(bp, ret.materialField, ret.productField, ret.soField));
 		return ret;
 	}
 
-	protected void update(String bpName, TextField materialField, TextField productField, TextField soField) {
-		System.err.println("update bp " + bpName);
+	protected void update(Blueprint bp, TextField materialField, TextField productField, TextField soField) {
+		int mat = Integer.parseInt(materialField.getText());
+		int product = Integer.parseInt(productField.getText());
+		int so = Integer.parseInt(soField.getText());
+		parent.provisionBP(bp, mat, product, so);
 	}
 
 	protected static class BPRow {
@@ -167,7 +176,7 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 		TextField productField = new TextField();
 		TextField soField = new TextField();
 
-		Button updatebtn = new Button("update provisions");
+		Button updatebtn = new Button("update");
 	}
 
 	protected Stream<Blueprint> streambps() {

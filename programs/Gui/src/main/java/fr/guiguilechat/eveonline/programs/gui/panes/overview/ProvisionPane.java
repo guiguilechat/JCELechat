@@ -19,12 +19,14 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(ProvisionPane.class);
 
 	public static class ProvisionData {
-		public String description;
+		public String item;
 		public String who;
+		public long required;
+		public long owned;
 
 		@Override
 		public int hashCode() {
-			return description.hashCode() + who.hashCode();
+			return (int) (item.hashCode() + who.hashCode() + required + owned);
 		}
 
 		@Override
@@ -39,12 +41,12 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 				return false;
 			}
 			ProvisionData o = (ProvisionData) obj;
-			return description.equals(o.description) && who.equals(o.who);
+			return item.equals(o.item) && who.equals(o.who) && required == o.required && owned == o.owned;
 		}
 
 		@Override
 		public String toString() {
-			return description;
+			return item;
 		}
 	}
 
@@ -58,14 +60,22 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	public ProvisionPane(Manager parent) {
 		this.parent = parent;
 
-		TableColumn<ProvisionData, String> desCol = new TableColumn<>("description");
-		desCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().description));
+		TableColumn<ProvisionData, String> desCol = new TableColumn<>("item");
+		desCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().item));
 		desCol.setMinWidth(400);
 		getColumns().add(desCol);
+
+		TableColumn<ProvisionData, Long> missingCol = new TableColumn<>("missing");
+		missingCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().required - ed.getValue().owned));
+		getColumns().add(missingCol);
 
 		TableColumn<ProvisionData, String> whoCol = new TableColumn<>("who");
 		whoCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().who));
 		getColumns().add(whoCol);
+
+		TableColumn<ProvisionData, Long> ownedcol = new TableColumn<>("owned");
+		ownedcol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().owned));
+		getColumns().add(ownedcol);
 	}
 
 	//
@@ -74,7 +84,6 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 
 	protected static class ProvisionPreparation {
 		public String name;
-		public int required;
 		public ProvisionData ed;
 		public boolean added = false;
 		public int itemID;
@@ -116,11 +125,11 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	 * prepare provisions for focused team.
 	 */
 	protected void prepareProvisions() {
-		itemsProvisionsMaterial.values().stream().forEach(pp -> pp.required = 0);
+		itemsProvisionsMaterial.values().stream().forEach(pp -> pp.ed.required = 0);
 		for (ProvisionType ptype : ProvisionType.values()) {
 			for (Entry<Integer, Integer> e : parent.getFTeamProvision(ptype).total.entrySet()) {
 				ProvisionPreparation pr = getProvision(e.getKey(), ptype);
-				pr.required = e.getValue();
+				pr.ed.required = e.getValue();
 				pr.ed.who = parent().settings.focusedTeam;
 			}
 		}
@@ -131,7 +140,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	public void onNewProvision(ProvisionType ptype, int itemID, int qtty) {
 		if (shown) {
 			ProvisionPreparation pr = getProvision(itemID, ptype);
-			pr.required = qtty;
+			pr.ed.required = qtty;
 			pr.ed.who = parent().settings.focusedTeam;
 			updateItemQuantity(parent().getFTeamItems().getOrDefault(itemID, 0l), pr);
 		}
@@ -153,12 +162,13 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 
 	/** update graphics on the modification of provisioned item's quantity */
 	protected void updateItemQuantity(long qtty, ProvisionPreparation pp) {
-		if (pp.required > 0) {
-			logger.trace("updating items " + pp.name + " required" + pp.required + " qtty" + qtty);
+		if (pp.ed.required > 0) {
+			logger.trace("updating items " + pp.name + " required" + pp.ed.required + " qtty" + qtty);
 		}
-		if (qtty < pp.required) {
-			logger.trace("adding item " + pp.name + " required " + pp.required + ", we have " + qtty);
-			pp.ed.description = "" + (pp.required - qtty) + " " + pp.name;
+		if (qtty < pp.ed.required) {
+			logger.trace("adding item " + pp.name + " required " + pp.ed.required + ", we have " + qtty);
+			pp.ed.item = pp.name;
+			pp.ed.owned = qtty;
 			if (!pp.added) {
 				getItems().add(pp.ed);
 			}
@@ -166,7 +176,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 		} else {
 			if (pp.added) {
 				getItems().remove(pp.ed);
-				logger.trace("removing item " + pp.name + " required " + pp.required + ", we have " + qtty);
+				logger.trace("removing item " + pp.name + " required " + pp.ed.required + ", we have " + qtty);
 			}
 			pp.added = false;
 		}
