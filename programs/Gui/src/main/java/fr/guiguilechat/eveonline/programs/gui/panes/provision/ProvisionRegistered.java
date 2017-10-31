@@ -16,10 +16,10 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 
-public class ProvisionOverview extends GridPane implements EvePane {
+public class ProvisionRegistered extends GridPane implements EvePane {
 
 	@SuppressWarnings("unused")
-	private static final Logger logger = LoggerFactory.getLogger(ProvisionOverview.class);
+	private static final Logger logger = LoggerFactory.getLogger(ProvisionRegistered.class);
 
 	protected Manager parent;
 
@@ -28,7 +28,7 @@ public class ProvisionOverview extends GridPane implements EvePane {
 		return parent;
 	}
 
-	public ProvisionOverview(Manager parent) {
+	public ProvisionRegistered(Manager parent) {
 		this.parent = parent;
 		setHgap(5);
 		setVgap(1);

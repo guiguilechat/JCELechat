@@ -13,6 +13,7 @@ import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
+import fr.guiguilechat.eveonline.programs.panes.TypedField;
 import javafx.animation.PauseTransition;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.Button;
@@ -160,11 +161,11 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 		HashMap<Integer, Integer> mats = parent().getFTeamProvision(ProvisionType.MATERIAL).blueprints;
 		HashMap<Integer, Integer> prods = parent().getFTeamProvision(ProvisionType.PRODUCT).blueprints;
 		HashMap<Integer, Integer> sos = parent().getFTeamProvision(ProvisionType.SO).blueprints;
-		streambps().forEachOrdered(bp->{
+		streambps().forEachOrdered(bp -> {
 			BPRow row = makeBPNode(bp);
-			row.materialField.setText("" + mats.getOrDefault(bp.id, 0));
-			row.productField.setText("" + prods.getOrDefault(bp.id, 0));
-			row.soField.setText("" + sos.getOrDefault(bp.id, 0));
+			row.materialField.setValue(mats.getOrDefault(bp.id, 0));
+			row.productField.setValue(prods.getOrDefault(bp.id, 0));
+			row.soField.setValue(sos.getOrDefault(bp.id, 0));
 			bpsPane.getItems().add(row);
 		});
 	}
@@ -195,22 +196,25 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 	protected static class BPRow {
 		String name;
 		String group;
-		TextField materialField = new TextField();
-		TextField productField = new TextField();
-		TextField soField = new TextField();
+		TypedField<Integer> materialField = TypedField.positivIntField(0);
+		TypedField<Integer> productField = TypedField.positivIntField(0);
+		TypedField<Integer> soField = TypedField.positivIntField(0);
 
 		Button updatebtn = new Button("update");
 
 		protected void handleScrollMat(ScrollEvent se) {
-			materialField.setText("" + (getNbValue(materialField) + (se.getDeltaY() > 0 ? 1 : -1)));
+			materialField.setValue(materialField.getValue() + (se.getDeltaY() > 0 ? 1 : -1));
+			se.consume();
 		}
 
 		protected void handleScrollProd(ScrollEvent se) {
-			productField.setText("" + (getNbValue(productField) + (se.getDeltaY() > 0 ? 1 : -1)));
+			productField.setValue(productField.getValue() + (se.getDeltaY() > 0 ? 1 : -1));
+			se.consume();
 		}
 
 		protected void handleScrollSo(ScrollEvent se) {
-			soField.setText("" + (getNbValue(soField) + (se.getDeltaY() > 0 ? 1 : -1)));
+			soField.setValue(soField.getValue() + (se.getDeltaY() > 0 ? 1 : -1));
+			se.consume();
 		}
 
 		public BPRow() {

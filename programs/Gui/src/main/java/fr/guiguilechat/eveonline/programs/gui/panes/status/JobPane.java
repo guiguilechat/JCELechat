@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.gui.panes.overview;
+package fr.guiguilechat.eveonline.programs.gui.panes.status;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -19,7 +19,7 @@ import fr.guiguilechat.eveonline.model.database.apiv2.Char;
 import fr.guiguilechat.eveonline.model.database.apiv2.Char.JobEntry;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
-import fr.guiguilechat.eveonline.programs.gui.panes.overview.JobPane.JobData;
+import fr.guiguilechat.eveonline.programs.gui.panes.status.JobPane.JobData;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;

@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.gui.panes.overview;
+package fr.guiguilechat.eveonline.programs.gui.panes.status;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
-import fr.guiguilechat.eveonline.programs.gui.panes.overview.ProvisionPane.ProvisionData;
+import fr.guiguilechat.eveonline.programs.gui.panes.status.ProvisionPane.ProvisionData;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;

@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.gui.panes.overview;
+package fr.guiguilechat.eveonline.programs.gui.panes.status;
 
 import org.slf4j.LoggerFactory;
 

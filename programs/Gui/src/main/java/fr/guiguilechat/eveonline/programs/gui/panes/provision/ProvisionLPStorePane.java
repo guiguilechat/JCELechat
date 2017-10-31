@@ -11,6 +11,7 @@ import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
+import fr.guiguilechat.eveonline.programs.panes.TypedField;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
@@ -19,6 +20,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableColumn.SortType;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.input.ScrollEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 
@@ -115,7 +117,7 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 			boolean isbp = lo.offer_name.contains("Blueprint");
 			if (corp.equals(lo.corporation) && !(bp == Boolean.TRUE && !isbp) && !(bp == Boolean.FALSE && isbp)) {
 				OfferRow row = getRow(lo);
-				row.nb_field.setText("" + provisions.getOrDefault(lo.id, 0));
+				row.nb_field.setValue(provisions.getOrDefault(lo.id, 0));
 				listOffersPane.getItems().add(row);
 			}
 		}
@@ -128,8 +130,19 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 	 */
 	protected static class OfferRow {
 		public LPOffer offer;
-		public TextField nb_field;
+		public TypedField<Integer> nb_field;
 		public Button bt_send;
+
+		public OfferRow() {
+			bt_send = new Button("update");
+			nb_field = TypedField.positivIntField(0);
+			nb_field.setOnScroll(this::handleScrollNb);
+		}
+
+		protected void handleScrollNb(ScrollEvent se) {
+			nb_field.setValue(nb_field.getValue() + (se.getDeltaY() > 0 ? 1 : -1));
+			se.consume();
+		}
 	}
 
 	protected HashMap<LPOffer, OfferRow> cacherows = new HashMap<>();
@@ -140,16 +153,9 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		}
 		OfferRow ret = new OfferRow();
 		ret.offer = offer;
-		ret.bt_send = new Button("update");
-		ret.bt_send.setOnAction(ev -> provision(ProvisionType.MATERIAL, ret, ret.nb_field.getText()));
-		ret.nb_field = new TextField();
+		ret.bt_send.setOnAction(ev -> parent().provisionLPOffer(ProvisionType.MATERIAL, offer, ret.nb_field.getValue()));
 		cacherows.put(offer, ret);
 		return ret;
-	}
-
-	public void provision(ProvisionType ptype, OfferRow row, String nb_text) {
-		int nb_provision = Integer.parseInt(nb_text);
-		parent().provisionLPOffer(ptype, row.offer, nb_provision);
 	}
 
 	@Override

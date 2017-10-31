@@ -34,8 +34,8 @@ import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription;
 import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription.Provision;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.api.APIPane;
-import fr.guiguilechat.eveonline.programs.gui.panes.overview.OverViewPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.provision.ProvisionPane;
+import fr.guiguilechat.eveonline.programs.gui.panes.status.OverViewPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.team.TeamsPane;
 import fr.guiguilechat.eveonline.programs.settings.ISettings;
 import javafx.application.Application;
@@ -75,14 +75,14 @@ public class Manager extends Application implements EvePane {
 
 	protected BorderPane mainLayout = new BorderPane();
 
-	protected OverViewPane overviewPane = new OverViewPane(this);
+	protected OverViewPane statuspane = new OverViewPane(this);
 	protected ProvisionPane provisionpane = new ProvisionPane(this);
 	protected TeamsPane teamPane = new TeamsPane(this);
 	protected APIPane apiPane = new APIPane(this);
 	protected TabPane tabs;
-	protected Tab overviewtab, provisiontab, teamtab, apitab;
+	protected Tab statustab, provisiontab, teamtab, apitab;
 
-	private EvePane[] children = new EvePane[] { overviewPane, provisionpane, teamPane, apiPane };
+	private EvePane[] children = new EvePane[] { statuspane, provisionpane, teamPane, apiPane };
 
 	@Override
 	public EvePane[] subEvePanes() {
@@ -100,11 +100,11 @@ public class Manager extends Application implements EvePane {
 		primaryStage.setTitle("guigui lechat manager");
 
 		// set the tabs
-		overviewtab = new Tab("overview", overviewPane);
+		statustab = new Tab("status", statuspane);
 		provisiontab = new Tab("provision", provisionpane);
 		teamtab = new Tab("teams", teamPane);
 		apitab = new Tab("apis", apiPane);
-		tabs = new TabPane(overviewtab, provisiontab, teamtab, apitab);
+		tabs = new TabPane(statustab, provisiontab, teamtab, apitab);
 		tabs.setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
 		tabs.setSide(Side.LEFT);
 		tabs.getSelectionModel().selectedItemProperty().addListener((ov, old, now) -> {

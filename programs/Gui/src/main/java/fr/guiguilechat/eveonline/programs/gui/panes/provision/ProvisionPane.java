@@ -25,7 +25,7 @@ public class ProvisionPane extends BorderPane implements EvePane {
 	protected Accordion accordion;
 
 	protected ProvisionLPStorePane lpstore;
-	protected ProvisionOverview overview;
+	protected ProvisionRegistered registered;
 	protected ProvisionBlueprint blueprint;
 	TitledPane otp, ltp, btp;
 
@@ -44,9 +44,9 @@ public class ProvisionPane extends BorderPane implements EvePane {
 		setTop(selectTeam);
 
 		lpstore = new ProvisionLPStorePane(parent);
-		overview = new ProvisionOverview(parent);
+		registered = new ProvisionRegistered(parent);
 		blueprint = new ProvisionBlueprint(parent);
-		otp = new TitledPane("overview", overview);
+		otp = new TitledPane("registered", registered);
 		ltp = new TitledPane("lpstore", lpstore);
 		btp = new TitledPane("blueprint", blueprint);
 		accordion = new Accordion(otp, ltp, btp);
@@ -60,7 +60,7 @@ public class ProvisionPane extends BorderPane implements EvePane {
 			}
 		});
 		setCenter(accordion);
-		children = new EvePane[] { selectTeam, lpstore, overview, blueprint };
+		children = new EvePane[] { selectTeam, lpstore, registered, blueprint };
 	}
 
 	protected EvePane TP2Pane(TitledPane tp) {

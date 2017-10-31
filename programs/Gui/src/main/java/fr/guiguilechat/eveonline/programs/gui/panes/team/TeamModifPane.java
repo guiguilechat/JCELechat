@@ -31,7 +31,7 @@ public class TeamModifPane extends HBox implements EvePane {
 
 	protected String name;
 
-	protected VBox update = new VBox(10);
+	protected VBox updateBox = new VBox(10);
 	protected VBox systemsBox = new VBox(5);
 	protected VBox toonsBox = new VBox(5);
 
@@ -60,12 +60,12 @@ public class TeamModifPane extends HBox implements EvePane {
 		Button delButton = new Button("delete");
 		delButton.setOnAction(e -> parent.delTeam(name));
 
-		update.getChildren().addAll(new Label(), renBox, cpBox, delButton);
+		updateBox.getChildren().addAll(new Label(), renBox, cpBox, delButton);
 
-		update.setStyle("-fx-border-color: grey; -fx-border-width: 1; -fx-border-radius: 10;");
+		updateBox.setStyle("-fx-border-color: grey; -fx-border-width: 1; -fx-border-radius: 10;");
 		toonBP.setStyle("-fx-border-color: grey; -fx-border-width: 1; -fx-border-radius: 10;");
 		sysBP.setStyle("-fx-border-color: grey; -fx-border-width: 1; -fx-border-radius: 10;");
-		getChildren().addAll(update, toonBP, sysBP);
+		getChildren().addAll(updateBox, toonBP, sysBP);
 	}
 
 	public void update() {
