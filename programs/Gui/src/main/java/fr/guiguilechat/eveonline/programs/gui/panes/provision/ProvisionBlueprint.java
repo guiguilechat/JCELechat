@@ -21,6 +21,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TitledPane;
+import javafx.scene.input.ScrollEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.util.Duration;
@@ -177,10 +178,18 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 	}
 
 	protected void update(Blueprint bp, TextField materialField, TextField productField, TextField soField) {
-		int mat = Integer.parseInt(materialField.getText());
-		int product = Integer.parseInt(productField.getText());
-		int so = Integer.parseInt(soField.getText());
+		int mat = getNbValue(materialField);
+		int product = getNbValue(productField);
+		int so = getNbValue(soField);
 		parent.provisionBP(bp, mat, product, so);
+	}
+
+	public static int getNbValue(TextField field) {
+		try {
+			return Integer.parseInt(field.getText());
+		} catch (Exception e) {
+			return 0;
+		}
 	}
 
 	protected static class BPRow {
@@ -191,6 +200,24 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 		TextField soField = new TextField();
 
 		Button updatebtn = new Button("update");
+
+		protected void handleScrollMat(ScrollEvent se) {
+			materialField.setText("" + (getNbValue(materialField) + (se.getDeltaY() > 0 ? 1 : -1)));
+		}
+
+		protected void handleScrollProd(ScrollEvent se) {
+			productField.setText("" + (getNbValue(productField) + (se.getDeltaY() > 0 ? 1 : -1)));
+		}
+
+		protected void handleScrollSo(ScrollEvent se) {
+			soField.setText("" + (getNbValue(soField) + (se.getDeltaY() > 0 ? 1 : -1)));
+		}
+
+		public BPRow() {
+			materialField.setOnScroll(this::handleScrollMat);
+			productField.setOnScroll(this::handleScrollProd);
+			soField.setOnScroll(this::handleScrollSo);
+		}
 	}
 
 	protected Stream<Blueprint> streambps() {

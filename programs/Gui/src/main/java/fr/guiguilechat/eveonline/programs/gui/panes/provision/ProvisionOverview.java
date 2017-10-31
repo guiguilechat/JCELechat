@@ -69,6 +69,10 @@ public class ProvisionOverview extends GridPane implements EvePane {
 				add(btn, 3, row);
 				row++;
 			}
+
+		}
+		for (ProvisionType p : ProvisionType.values()) {
+			Provision provisions = parent().getFTeamProvision(p);
 			for (Entry<Integer, Integer> e : provisions.blueprints.entrySet()) {
 				Blueprint bp = bpsbyId.get(e.getKey());
 				add(new Label("bp " + p), 0, row);
@@ -79,6 +83,9 @@ public class ProvisionOverview extends GridPane implements EvePane {
 				add(btn, 3, row);
 				row++;
 			}
+		}
+		for (ProvisionType p : ProvisionType.values()) {
+			Provision provisions = parent().getFTeamProvision(p);
 			for (Entry<Integer, Integer> e : provisions.total.entrySet()) {
 				String itemName = db().getElementById(e.getKey());
 				add(new Label(itemName), 1, row);
