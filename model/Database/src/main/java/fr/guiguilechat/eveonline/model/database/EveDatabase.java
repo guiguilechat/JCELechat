@@ -147,12 +147,14 @@ public abstract class EveDatabase {
 	protected HashMap<Integer, ESIMarket> esiregions = new HashMap<>();
 
 	public ESIMarket ESIRegion(int regionID) {
-		ESIMarket ret = esiregions.get(regionID);
-		if (ret == null) {
-			ret = new ESIMarket(regionID);
-			esiregions.put(regionID, ret);
+		synchronized (esiregions) {
+			ESIMarket ret = esiregions.get(regionID);
+			if (ret == null) {
+				ret = new ESIMarket(regionID);
+				esiregions.put(regionID, ret);
+			}
+			return ret;
 		}
-		return ret;
 	}
 
 	public ESIMarket ESIRegion(String region) {

@@ -19,9 +19,9 @@ import fr.guiguilechat.eveonline.programs.LPCorpEvaluator.MarketLPEvaluator;
 import fr.guiguilechat.eveonline.programs.LPCorpEvaluator.OfferAnalysis;
 import fr.guiguilechat.eveonline.programs.SysBurnerEvaluator.SystemData;
 
-public class EvaluateL4Agents {
+public class EvaluateBurnersAgents {
 
-	private static final Logger logger = LoggerFactory.getLogger(EvaluateL4Agents.class);
+	private static final Logger logger = LoggerFactory.getLogger(EvaluateBurnersAgents.class);
 
 	public static class LocalizedLPOffer extends LPOffer {
 
@@ -46,7 +46,7 @@ public class EvaluateL4Agents {
 		// number of concurrent threads in the parallel pool
 		int parrallelism = Runtime.getRuntime().availableProcessors() * 100;
 
-		EvaluateL4Agents el4a = new EvaluateL4Agents();
+		EvaluateBurnersAgents el4a = new EvaluateBurnersAgents();
 		LPCorpEvaluator ceval = new LPCorpEvaluator(el4a.db).withLPAmount(1000000);
 
 		for (String arg : args) {

@@ -23,8 +23,8 @@ public class SysBurnerEvaluatorTest {
 		Assert.assertEquals(sv.sumWHSjumps, 4.0);
 
 		sv = e1.new SystemVisitor(altrinur);
-		sv.weightAdjConstel = 2;
-		sv.multWeightHub = 1;
+		e1.weightAdjConstel = 2;
+		e1.multWeightHub = 1;
 		e1.visitSystemsWithDistance(altrinur, 2, sv);
 		Assert.assertEquals(sv.sumWHS, 15.0);
 		Assert.assertEquals(sv.sumWeight, 15.0);
