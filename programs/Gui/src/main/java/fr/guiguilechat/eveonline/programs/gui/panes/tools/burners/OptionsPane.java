@@ -13,6 +13,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.Tooltip;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.Region;
 
 public class OptionsPane extends HBox implements EvePane {
 
@@ -26,15 +27,12 @@ public class OptionsPane extends HBox implements EvePane {
 	public Button computeBtn = new Button("COMPUTE");
 
 	public ChoiceBox<String> regionMarket = new ChoiceBox<>();
-	public TypedField<Double> sellTax, brokerTax;
+	public TypedField<Double> sellTax, brokerFee;
 	public TypedField<Integer> lpQtty;
-	public Button modifMarket = new Button("update market");
 
-	public TypedField<Double> weightSys, weightConst, weightOut, hubConstelMult;
-	public Button modifMap = new Button("update map");
+	public TypedField<Double> weightConst, weightOut, hubConstelMult;
 
 	public TypedField<Double> systemTime, burnerTime;
-	public Button modifTime = new Button("update times");
 
 	public OptionsPane(Manager parent) {
 		this.parent = parent;
@@ -50,11 +48,10 @@ public class OptionsPane extends HBox implements EvePane {
 	boolean loaded = false;
 
 	protected void load() {
-		if(loaded) {
+		if (loaded) {
 			return;
 		}
 		BurnersEval burnersSettings = parent().settings.burners;
-
 
 		GridPane marketPane = new GridPane();
 		marketPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
@@ -71,27 +68,19 @@ public class OptionsPane extends HBox implements EvePane {
 		sellTax.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, sellTax));
 		marketPane.addRow(1, new Label("sell tax percentage"), sellTax);
 
-		brokerTax = TypedField.positivDecimal(burnersSettings.brokerTax);
-		brokerTax.setTooltip(new Tooltip(
+		brokerFee = TypedField.positivDecimal(burnersSettings.brokerFee);
+		brokerFee.setTooltip(new Tooltip(
 				"when buying at BO value or selling at SO value, the percentage of the transaction that is due as broker fee"));
-		brokerTax.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, brokerTax));
-		marketPane.addRow(2, new Label("broker tax percentage"), brokerTax);
+		brokerFee.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, brokerFee));
+		marketPane.addRow(2, new Label("broker tax percentage"), brokerFee);
 
 		lpQtty = TypedField.positivIntField(burnersSettings.lpQtty);
 		lpQtty.setTooltip(new Tooltip("quantity of LP to use. Higher LP quantity means less interesting BO/SO values, "));
 		lpQtty.setOnScroll(new ScrollAdd.IntScrollAdd(100000, lpQtty));
 		marketPane.addRow(3, new Label("LP quantity"), lpQtty);
 
-		marketPane.addRow(4, new Label(), modifMarket);
-
-
 		GridPane mapPane = new GridPane();
 		mapPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
-
-		weightSys = TypedField.positivDecimal(burnersSettings.weightSystem);
-		weightSys.setTooltip(new Tooltip("probability weight of self system"));
-		weightSys.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, weightSys));
-		mapPane.addRow(0, new Label("system weight"), weightSys);
 
 		weightConst = TypedField.positivDecimal(burnersSettings.weightConstel);
 		weightConst.setTooltip(new Tooltip("probability weight of system in same constelation"));
@@ -108,9 +97,6 @@ public class OptionsPane extends HBox implements EvePane {
 		hubConstelMult.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, hubConstelMult));
 		mapPane.addRow(3, new Label("hub mult"), hubConstelMult);
 
-		mapPane.addRow(4, new Label(), modifMap);
-
-
 		GridPane speedPane = new GridPane();
 		speedPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
 
@@ -125,10 +111,13 @@ public class OptionsPane extends HBox implements EvePane {
 		burnerTime.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, burnerTime));
 		speedPane.addRow(1, new Label("burner time"), burnerTime);
 
-		speedPane.addRow(2, new Label(), modifTime);
+		for (Region tf : new Region[] { regionMarket, sellTax, brokerFee, lpQtty, weightConst, weightOut, hubConstelMult,
+				systemTime, burnerTime }) {
+			tf.setMaxWidth(70);
+		}
 
 		getChildren().addAll(computeBtn, marketPane, mapPane, speedPane);
-		loaded=true;
+		loaded = true;
 	}
 
 }

@@ -59,10 +59,19 @@ public class Manager extends Application implements EvePane {
 	private static final Logger logger = LoggerFactory.getLogger(Manager.class);
 
 	public static void main(String[] args) {
-		int parrallelism = Runtime.getRuntime().availableProcessors() * 10;
+		int parrallelism = Runtime.getRuntime().availableProcessors() * 50;
 		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
 
 		launch(args);
+	}
+
+	// database
+
+	protected YamlDatabase db = new YamlDatabase();
+
+	@Override
+	public YamlDatabase db() {
+		return db;
 	}
 
 	@Override
@@ -724,15 +733,6 @@ public class Manager extends Application implements EvePane {
 			debugPane.getItems().add(de);
 			debugPane.sort();
 		}
-	}
-
-	// database
-
-	protected YamlDatabase db = new YamlDatabase();
-
-	@Override
-	public YamlDatabase db() {
-		return db;
 	}
 
 }

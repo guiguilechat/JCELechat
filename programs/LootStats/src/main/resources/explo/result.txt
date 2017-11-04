@@ -1,5 +1,5 @@
 ded10 serpentis:
-  avgBO: 4.11934245095E8
+  avgBO: 4.12946570355E8
   desc: ded10 serpentis
   entries: 2
   factionFreq: 1.0
@@ -8,7 +8,7 @@ ded10 serpentis:
   - Core X-Type Armor Kinetic Hardener
   - Core X-Type 500MN Microwarpdrive
 prisoncamp serpentis:
-  avgBO: 2.3760314525000003E8
+  avgBO: 2.3832963179E8
   desc: prisoncamp serpentis
   entries: 1
   factionFreq: 1.0
@@ -18,7 +18,7 @@ prisoncamp serpentis:
   - Shadow Serpentis Stasis Webifier
   - Shadow Serpentis Heavy Stasis Grappler
 lcache sleeper:
-  avgBO: 1.1914285286E8
+  avgBO: 1.1925281502250001E8
   bpcFreq: 1.0
   bps:
   - '''Bastion'' 400mm Steel Plates Blueprint'
@@ -38,7 +38,7 @@ lcache sleeper:
   desc: lcache sleeper
   entries: 4
 mcache sleeper:
-  avgBO: 1.0784956098230769E8
+  avgBO: 1.0790392667692307E8
   bpcFreq: 1.0
   bps:
   - '''Protest'' Large Armor Repairer I Blueprint'
@@ -73,7 +73,7 @@ mcache sleeper:
   desc: mcache sleeper
   entries: 13
 vigil serpentis:
-  avgBO: 9.144556746999998E7
+  avgBO: 8.869854036333333E7
   desc: vigil serpentis
   entries: 3
   factionFreq: 0.3333333333333333
@@ -81,7 +81,7 @@ vigil serpentis:
   factions:
   - Shadow Serpentis Damage Control
 ded4 angel:
-  avgBO: 5.794606874233334E7
+  avgBO: 5.7820209799333334E7
   desc: ded4 angel
   entries: 120
   factionFreq: 0.6833333333333333
@@ -115,7 +115,7 @@ ded4 angel:
   - Gistum C-Type 10MN Afterburner
   - Domination Medium Proton Smartbomb
 ghost angel:
-  avgBO: 5.472756213103448E7
+  avgBO: 5.192317019275863E7
   bpcFreq: 0.27586206896551724
   bps:
   - Mid-grade Ascendancy Gamma Blueprint
@@ -124,11 +124,11 @@ ghost angel:
   desc: ghost angel
   entries: 29
 huntingdrudge drone:
-  avgBO: 2.936739487E7
+  avgBO: 2.9693145295E7
   desc: huntingdrudge drone
   entries: 4
 ded3 angel:
-  avgBO: 2.3953929449223295E7
+  avgBO: 2.3636806122330096E7
   bpcFreq: 0.06796116504854369
   bps:
   - Daredevil Blueprint
@@ -152,7 +152,7 @@ ded3 angel:
   - Domination Small Shield Booster
   - Gistii A-Type 5MN Microwarpdrive
 scache sleeper:
-  avgBO: 2.0563140107777778E7
+  avgBO: 2.0617402972222224E7
   bpcFreq: 0.6666666666666666
   bps:
   - Synthetic Hull Conversion Overdrive Injector Blueprint
@@ -164,11 +164,11 @@ scache sleeper:
   desc: scache sleeper
   entries: 9
 shadowfleet serpentis:
-  avgBO: 1.6647840179999998E7
+  avgBO: 1.683799286E7
   desc: shadowfleet serpentis
   entries: 1
 fortress serpentis:
-  avgBO: 1.586145509E7
+  avgBO: 1.621964754E7
   desc: fortress serpentis
   entries: 1
   factionFreq: 1.0
@@ -176,7 +176,7 @@ fortress serpentis:
   factions:
   - Shadow Serpentis Energized Adaptive Nano Membrane
 ghost serpentis:
-  avgBO: 1.584005263E7
+  avgBO: 1.584005063E7
   bpcFreq: 1.0
   bps:
   - High-grade Ascendancy Epsilon Blueprint
@@ -184,11 +184,11 @@ ghost serpentis:
   desc: ghost serpentis
   entries: 1
 independance drone:
-  avgBO: 1.5115473950000001E7
+  avgBO: 1.5537543620000001E7
   desc: independance drone
   entries: 1
 lghost guristas:
-  avgBO: 1.2960689969999999E7
+  avgBO: 1.296068127E7
   bpcFreq: 1.0
   bps:
   - '''Packrat'' Mobile Tractor Unit Blueprint'
@@ -196,7 +196,7 @@ lghost guristas:
   desc: lghost guristas
   entries: 1
 vigil angel:
-  avgBO: 1.2436166860416666E7
+  avgBO: 1.2242750800833335E7
   bpcFreq: 0.041666666666666664
   bps:
   - Medium Ancillary Remote Armor Repairer Blueprint
@@ -211,7 +211,7 @@ vigil angel:
   - Domination Gyrostabilizer
   - Domination 220mm Autocannon
 chemicalyard drone:
-  avgBO: 1.1529114338846155E7
+  avgBO: 1.1408049597692309E7
   bpcFreq: 0.07692307692307693
   bps:
   - Medium Ancillary Remote Shield Booster Blueprint
@@ -219,14 +219,23 @@ chemicalyard drone:
   desc: chemicalyard drone
   entries: 26
 maresargassum drone:
-  avgBO: 1.0120613911052631E7
+  avgBO: 9802614.037894737
   bpcFreq: 0.05263157894736842
   bps:
   - Reactive Armor Hardener Blueprint
   desc: maresargassum drone
   entries: 19
+ded2 angel:
+  avgBO: 8797692.3
+  desc: ded2 angel
+  entries: 4
+  factionFreq: 0.5
+  factionModFreq: 0.5
+  factions:
+  - Gistii B-Type 1MN Afterburner
+  - Gistii B-Type Small Remote Shield Booster
 bigblue angel:
-  avgBO: 7195819.259090909
+  avgBO: 7304242.162727272
   desc: bigblue angel
   entries: 11
   factionFreq: 0.2727272727272727
@@ -236,7 +245,7 @@ bigblue angel:
   - Domination Tracking Enhancer
   - Domination Medium Proton Smartbomb
 hauntedyard drone:
-  avgBO: 6604234.111904762
+  avgBO: 5986491.949285715
   bpcFreq: 0.047619047619047616
   bps:
   - Medium Ancillary Remote Armor Repairer Blueprint
@@ -248,36 +257,27 @@ hauntedyard drone:
   factions:
   - Sentient Signal Amplifier
 base serpentis:
-  avgBO: 5592628.79
+  avgBO: 5683065.73
   desc: base serpentis
   entries: 2
-ded2 angel:
-  avgBO: 5374690.5475
-  desc: ded2 angel
-  entries: 4
-  factionFreq: 0.5
-  factionModFreq: 0.5
-  factions:
-  - Gistii B-Type 1MN Afterburner
-  - Gistii B-Type Small Remote Shield Booster
 pulverize drone:
-  avgBO: 4689896.825294117
+  avgBO: 4145104.397647058
   desc: pulverize drone
   entries: 17
+maresargassume drone:
+  avgBO: 4106892.0100000002
+  desc: maresargassume drone
+  entries: 1
 desolate drone:
-  avgBO: 4617743.942272727
+  avgBO: 4085842.9618181814
   bpcFreq: 0.09090909090909091
   bps:
   - Reactive Armor Hardener Blueprint
   - Large Ancillary Remote Shield Booster Blueprint
   desc: desolate drone
   entries: 22
-maresargassume drone:
-  avgBO: 3498768.81
-  desc: maresargassume drone
-  entries: 1
 watch serpentis:
-  avgBO: 2915358.078333333
+  avgBO: 2915709.3966666665
   desc: watch serpentis
   entries: 6
   factionFreq: 0.16666666666666666
@@ -285,7 +285,7 @@ watch serpentis:
   factions:
   - Shadow Serpentis Thermal Plating
 chasing angel:
-  avgBO: 1681440.6060000001
+  avgBO: 1681659.768
   desc: chasing angel
   entries: 5
   factionFreq: 0.2
@@ -293,11 +293,11 @@ chasing angel:
   factions:
   - Domination EM Ward Field
 nuclearsmall angel:
-  avgBO: 1602796.306521739
+  avgBO: 1608166.9960869565
   desc: nuclearsmall angel
   entries: 23
 watch angel:
-  avgBO: 1335934.0186363636
+  avgBO: 1340590.3465909092
   desc: watch angel
   entries: 44
   factionFreq: 0.045454545454545456
@@ -306,19 +306,19 @@ watch angel:
   - Domination 1MN Afterburner
   - Domination Small Shield Booster
 ded3 drone:
-  avgBO: 633899.1511111112
+  avgBO: 633450.5433333333
   desc: ded3 drone
   entries: 9
 hideout angel:
-  avgBO: 344708.51
+  avgBO: 346564.54
   desc: hideout angel
   entries: 6
 hunting drone:
-  avgBO: 203960.7
+  avgBO: 204012.54
   desc: hunting drone
   entries: 1
 lookout angel:
-  avgBO: 167594.02810810815
+  avgBO: 169834.92324324322
   bpcFreq: 0.02702702702702703
   bps:
   - Large Ancillary Armor Repairer Blueprint
@@ -329,7 +329,7 @@ lookout angel:
   factions:
   - Domination Kinetic Deflection Amplifier
 booster serpentis:
-  avgBO: 110082.88
+  avgBO: 110082.94
   desc: booster serpentis
   entries: 1
   factionFreq: 1.0
@@ -337,11 +337,11 @@ booster serpentis:
   factions:
   - Shadow Serpentis Explosive Plating
 lookout serpentis:
-  avgBO: 64226.1
+  avgBO: 41728.25
   desc: lookout serpentis
   entries: 1
 jetset serpentis:
-  avgBO: 30745.0
+  avgBO: 30773.0
   desc: jetset serpentis
   entries: 1
 ded1 angel:

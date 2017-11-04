@@ -81,11 +81,10 @@ public class Settings implements ISettings {
 	public static class BurnersEval {
 		public String region = "TheForge";
 		public double sellTax = 1;
-		public double brokerTax = 2;
+		public double brokerFee = 2;
 		public int lpQtty = 1000000;
 
 		public double weightConstel = 1;
-		public double weightSystem = 1;
 		public double weightOut = 1;
 		public double hubConstelMult = 1;
 
