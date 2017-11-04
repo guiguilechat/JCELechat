@@ -37,6 +37,7 @@ import fr.guiguilechat.eveonline.programs.gui.panes.api.APIPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.provision.ProvisionPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.status.OverViewPane;
 import fr.guiguilechat.eveonline.programs.gui.panes.team.TeamsPane;
+import fr.guiguilechat.eveonline.programs.gui.panes.tools.ToolsTab;
 import fr.guiguilechat.eveonline.programs.settings.ISettings;
 import javafx.application.Application;
 import javafx.beans.property.ReadOnlyObjectWrapper;
@@ -79,8 +80,9 @@ public class Manager extends Application implements EvePane {
 	protected ProvisionPane provisionpane = new ProvisionPane(this);
 	protected TeamsPane teamPane = new TeamsPane(this);
 	protected APIPane apiPane = new APIPane(this);
+	protected ToolsTab toolsPane = new ToolsTab(this);
 	protected TabPane tabs;
-	protected Tab statustab, provisiontab, teamtab, apitab;
+	protected Tab statustab, provisiontab, teamtab, apitab, tooltab;
 
 	private EvePane[] children = new EvePane[] { statuspane, provisionpane, teamPane, apiPane };
 
@@ -104,7 +106,8 @@ public class Manager extends Application implements EvePane {
 		provisiontab = new Tab("provision", provisionpane);
 		teamtab = new Tab("teams", teamPane);
 		apitab = new Tab("apis", apiPane);
-		tabs = new TabPane(statustab, provisiontab, teamtab, apitab);
+		tooltab = new Tab("tools", toolsPane);
+		tabs = new TabPane(statustab, provisiontab, teamtab, tooltab, apitab);
 		tabs.setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
 		tabs.setSide(Side.LEFT);
 		tabs.getSelectionModel().selectedItemProperty().addListener((ov, old, now) -> {

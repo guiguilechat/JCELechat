@@ -98,7 +98,7 @@ public class SysBurnerEvaluator {
 	 * @param maxJumps
 	 * @param sv
 	 */
-	public void visitSystemsWithDistance(Location Origin, int maxJumps, SystemVisitor sv) {
+	protected void visitSystemsWithDistance(Location Origin, int maxJumps, SystemVisitor sv) {
 		// distance through high-sec to system
 		HashMap<Location, Integer> hsDistances = new HashMap<>();
 		// distance through non-high sec to systems
@@ -165,8 +165,18 @@ public class SysBurnerEvaluator {
 
 	}
 
-	boolean ignoreHubs = false;
-	protected static final HashSet<String> hubs = new HashSet<>(Arrays.asList("Jita", "Hek", "Amarr", "Dodixie"));
+	// weight data. we weight a system in a constellation depending on the
+	// distance in constels we have to jump
+
+	// weight for same constel = 1
+	public double weightSameConstel = 1;
+
+	// freatlidur jump constels =2* W(adjacent) / (1+W(adjacent)*2)
+	public double weightAdjConstel = 1;
+
+	// if constel has a hub we divide the weight by given value
+	// barkrik jump constels = W(adjacent)*multHub/(W(adjacent)*multhub + 1)
+	public double multWeightHub = 1;
 
 	public class SystemVisitor {
 
@@ -177,25 +187,6 @@ public class SysBurnerEvaluator {
 			this.origin = origin;
 			adjacentConstels = new HashSet<>(Arrays.asList(db.getLocation(origin.parentConstellation).adjacentConstels));
 		}
-
-		// weight data. we weight a system in a constellation depending on the
-		// distance in constels we have to jump
-
-		// weight for same constel = 1
-		public double weightSameConstel = 1;
-
-		// statistical constel jumps for a burner in freatlidur
-		// freatlidur has 2 adjacent constels
-		public double freatConstelsJums = 0.82;
-		// freatlidur jump constels =2* W(adjacent) / (1+W(adjacent)*2)
-		public double weightAdjConstel = freatConstelsJums / 2 / (1 - freatConstelsJums);
-
-		// statistical jump data for barkrik.
-		// barkrik has one constel adjacent, which is a hub
-		public double barkrikConstelsJumps = 0.2;
-		// if constel has a hub we divide the weight by given value
-		// barkrik jump constels = W(adjacent)*multHub/(W(adjacent)*multhub + 1)
-		public double multWeightHub = barkrikConstelsJumps / weightAdjConstel / (1 - barkrikConstelsJumps);
 
 		// we make a ponderated sum of jumps in HS and HS systems.
 		public double sumWHSjumps = 0, sumWeight = 0, sumWHS;
@@ -209,7 +200,7 @@ public class SysBurnerEvaluator {
 					sysWeight = weightAdjConstel;
 				}
 			}
-			// pond is set to 0 if ignored system, eg more than 1 constel jump
+			// pond is set to 0 if ignored system, eg a hub
 			if (sysWeight != 0) {
 				if (db.containsHub(loc.parentConstellation)) {
 					sysWeight *= multWeightHub;

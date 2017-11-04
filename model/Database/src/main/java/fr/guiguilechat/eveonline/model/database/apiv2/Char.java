@@ -209,17 +209,24 @@ public class Char {
 	}
 
 	static ArrayList<JobEntry> url2industryJobs(String url) {
-		ArrayList<JobEntry> ret = new ArrayList<>();
-		try {
-			Document page = Jsoup.connect(url).get();
-			Elements elements = page.select("result rowset row");
-			for (Element el : elements) {
-				ret.add(extractJobEntry(el));
+		Exception error = null;
+		for (int i = 0; i < 10; i++) {
+			try {
+				ArrayList<JobEntry> ret = new ArrayList<>();
+				Document page = Jsoup.connect(url).get();
+				Elements elements = page.select("result rowset row");
+				for (Element el : elements) {
+					ret.add(extractJobEntry(el));
+				}
+				return ret;
+			} catch (IOException e) {
+				if (error == null) {
+					error = e;
+					logger.warn("while fetching " + url, e);
+				}
 			}
-		} catch (IOException e) {
-			throw new UnsupportedOperationException("catch this", e);
 		}
-		return ret;
+		return null;
 	}
 
 	protected static JobEntry extractJobEntry(Element el) {

@@ -82,4 +82,34 @@ public class TypedField<T> extends TextField {
 		return new TypedField<>(Integer::parseInt, TypedField::isPositivInt, value);
 	}
 
+	/**
+	 * check if a string is in the form nnn.nnn with n numbers, eg 10, 2435.124777
+	 */
+	protected static boolean isPositivDecimal(String str) {
+		if (str == null) {
+			return false;
+		}
+		int length = str.length();
+		if (length == 0) {
+			return false;
+		}
+		int nbDot = 0;
+		for (int i = 0; i < length; i++) {
+			char c = str.charAt(i);
+			if (c == '.') {
+				nbDot++;
+				if (nbDot > 1) {
+					return false;
+				}
+			} else if (c <= '/' || c >= ':') {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public static TypedField<Double> positivDecimal(Double value) {
+		return new TypedField<>(Double::parseDouble, TypedField::isPositivDecimal, value);
+	}
+
 }

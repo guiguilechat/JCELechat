@@ -7,9 +7,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
 import org.slf4j.LoggerFactory;
@@ -53,13 +51,13 @@ public class LPCorpEvaluator {
 	}
 
 	// adjust sales by removing this taxe
-	double markettax = 0.01;
+	double saleTax = 0.01;
 
 	// only keep orders with isk/lp >= this value.
 	double minISKLPRatio = 0;
 
 	// adjust placement of BO or SO by removing this tax
-	double brokertax = 0.02;
+	double brokerFee = 0.02;
 
 	int amountLP = 5000000;
 
@@ -128,37 +126,6 @@ public class LPCorpEvaluator {
 		return offers;
 	}
 
-	public static void main(String[] args) {
-		LPCorpEvaluator eval = new LPCorpEvaluator();
-
-		LinkedHashMap<String, ESIMarket> markets = new LinkedHashMap<>();
-		markets.put("Jita", new ESIMarket(10000002));
-		markets.put("Amarr", new ESIMarket(10000043));
-		markets.put("Rens", new ESIMarket(10000030));
-		markets.put("Dodixie", new ESIMarket(10000032));
-		markets.put("Hek", new ESIMarket(10000042));
-
-		HashSet<String> noHSCorps = new HashSet<>(Arrays.asList("Archangels", "Blood Raiders", "Dominations",
-				"Frostline Laboratories", "Guardian Angels", "Guristas", "Guristas Production", "Intaki Bank",
-				"Intaki Commerce", "Intaki Space Police", "Intaki Syndicate", "Mordu's Legion", "ORE Technologies",
-				"Outer Ring Development", "Outer Ring Excavations", "Outer Ring Prospecting", "Salvation Angels",
-				"Serpentis Corporation", "Serpentis Inquest", "The Sanctuary", "True Creations", "True Power"));
-
-		ArrayList<LPOffer> lpos = eval.db.getLPOffers();
-		lpos.removeIf(lp -> lp.requirements.lp <= 0 || noHSCorps.contains(lp.corporation));
-		System.err.println("lp offers loaded");
-
-		for (Entry<String, ESIMarket> me : markets.entrySet()) {
-			System.out.println("");
-			System.out.println(me.getKey() + " :");
-			List<OfferAnalysis> offers = eval.analyseOffers(me.getValue(), lpos, 400);
-			for (OfferAnalysis oa : offers) {
-				System.out.println(oa.offer.offer_name + " ( " + oa.offer.requirements.lp + " lp ): " + oa.iskPerLPSOBO
-						+ " isk/LP ; " + oa.offerCorp);
-			}
-		}
-	}
-
 	/**
 	 * make lp offer analysis on a given market.
 	 *
@@ -177,9 +144,10 @@ public class LPCorpEvaluator {
 		ret.offerCorp = o.corporation;
 		int mult = (int) Math.ceil(1.0 * amountLP / o.requirements.lp);
 
-		double prodBO = market.getBO(o.product.type_id, o.product.quantity * mult) * (1.0 - markettax);
-		double prodSO = market.getSO(o.product.type_id, 1) * (o.product.quantity * mult) * (1.0 - markettax - brokertax);
-		double prodAVG = market.priceAverage(o.product.type_id) * o.product.quantity * mult * (1.0 - markettax);
+		double prodBO = market.getBO(o.product.type_id, o.product.quantity * mult) * (100.0 - saleTax) / 100;
+		double prodSO = market.getSO(o.product.type_id, 1) * (o.product.quantity * mult) * (100.0 - saleTax - brokerFee)
+				/ 100;
+		double prodAVG = market.priceAverage(o.product.type_id) * o.product.quantity * mult * (100.0 - saleTax) / 100;
 		// if the BO-cost / lp is too low, it wont get bigger when taking SO into
 		// account.
 		if ((prodBO - o.requirements.isk * mult) / o.requirements.lp / mult < minimumIskPerLP) {
@@ -194,7 +162,7 @@ public class LPCorpEvaluator {
 		reqSO += o.requirements.items.parallelStream().mapToDouble(rq -> market.getSO(rq.type_id, rq.quantity * mult))
 				.sum();
 		reqBO += o.requirements.items.parallelStream()
-				.mapToDouble(rq -> market.getBO(rq.type_id, 1) * rq.quantity * mult * (1.0 - brokertax))
+				.mapToDouble(rq -> market.getBO(rq.type_id, 1) * rq.quantity * mult * (100.0 - brokerFee) / 100)
 				.sum();
 		reqAVG += o.requirements.items.parallelStream()
 				.mapToDouble(rq -> market.priceAverage(rq.type_id) * rq.quantity * mult).sum();
