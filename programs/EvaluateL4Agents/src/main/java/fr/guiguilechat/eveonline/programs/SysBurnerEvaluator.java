@@ -54,22 +54,8 @@ public class SysBurnerEvaluator {
 
 	protected final HashMap<String, SystemData> cache = new HashMap<>();
 
-	/**
-	 * get the avg distance you need to jump for a burner in given system
-	 *
-	 * @param sn
-	 * @return
-	 */
-	public double avgDist(String sn) {
-		return evaluate(sn).avgDist;
-	}
-
-	public double secBonus(String sn) {
-		return evaluate(sn).bonusSys;
-	}
-
-	public double freqHS(String sn) {
-		return evaluate(sn).freqHS;
+	public void clearCache() {
+		cache.clear();
 	}
 
 	public SystemData evaluate(String sn) {
@@ -168,15 +154,31 @@ public class SysBurnerEvaluator {
 	// weight data. we weight a system in a constellation depending on the
 	// distance in constels we have to jump
 
-	// weight for same constel = 1
-	public double weightSameConstel = 1;
 
-	// freatlidur jump constels =2* W(adjacent) / (1+W(adjacent)*2)
-	public double weightAdjConstel = 1;
+	protected double weightSameConstel = 1;
+
+	public SysBurnerEvaluator withWeightSameConstel(double w) {
+		weightSameConstel = w;
+		clearCache();
+		return this;
+	}
+
+	protected double weightAdjConstel = 1;
+
+	public SysBurnerEvaluator withWeightAdjConstel(double w) {
+		weightAdjConstel = w;
+		clearCache();
+		return this;
+	}
 
 	// if constel has a hub we divide the weight by given value
-	// barkrik jump constels = W(adjacent)*multHub/(W(adjacent)*multhub + 1)
-	public double multWeightHub = 1;
+	protected double multWeightHub = 1;
+
+	public SysBurnerEvaluator withMultWeightHub(double w) {
+		multWeightHub = w;
+		clearCache();
+		return this;
+	}
 
 	public class SystemVisitor {
 
@@ -194,13 +196,15 @@ public class SysBurnerEvaluator {
 		public void acceptSystem(Location loc, int dst, boolean hasHSRoute) {
 			double sysWeight = 0;
 			if (!db.containsHub(loc.name)) {
-				if (loc.parentConstellation.equals(origin.parentConstellation)) {
+				if (loc.name.equals(origin.name)) {
+					sysWeight = 1;
+				} else if (loc.parentConstellation.equals(origin.parentConstellation)) {
 					sysWeight = weightSameConstel;
 				} else if (adjacentConstels.contains(loc.parentConstellation)) {
 					sysWeight = weightAdjConstel;
 				}
 			}
-			// pond is set to 0 if ignored system, eg a hub
+			// set weight to 0 if ignored system, eg a hub
 			if (sysWeight != 0) {
 				if (db.containsHub(loc.parentConstellation)) {
 					sysWeight *= multWeightHub;

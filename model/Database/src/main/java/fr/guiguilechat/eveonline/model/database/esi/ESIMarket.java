@@ -181,7 +181,13 @@ public class ESIMarket {
 				ponderatedSizeAvg[ponderatedSizeAvg.length / 2]);
 	}
 
+	/**
+	 * duration for which we cache BO and SO of an item.
+	 */
+	public long cacheDurationMS = 60000;
+
 	private HashMap<Integer, List<MarketOrderEntry>> cachedBOs = new HashMap<>();
+	private HashMap<Integer, Date> cachedBOsTime = new HashMap<>();
 
 	public int nbCachedBOs() {
 		return cachedBOs.size();
@@ -197,7 +203,10 @@ public class ESIMarket {
 			cachedBOs.put(itemID, ret);
 		}
 		synchronized (ret) {
-			if (ret.isEmpty()) {
+			Date now = new Date();
+			Date last = cachedBOsTime.get(itemID);
+			if (ret.isEmpty() || last == null || last.getTime() + cacheDurationMS < now.getTime()) {
+				ret.clear();
 				MarketOrderEntry[] orders = fetchOrders(itemID, true);
 				if (orders == null || orders.length == 0) {
 					ret.add(new MarketOrderEntry(0, 0));
@@ -205,6 +214,7 @@ public class ESIMarket {
 					for (MarketOrderEntry mo : orders) {
 						ret.add(mo);
 					}
+					cachedBOsTime.put(itemID, now);
 				}
 				logger.trace("fetched " + ret.stream().mapToLong(mo -> mo.volume).sum() + " BO for item " + itemID);
 			}
@@ -246,6 +256,7 @@ public class ESIMarket {
 	}
 
 	private HashMap<Integer, List<MarketOrderEntry>> cachedSOs = new HashMap<>();
+	private HashMap<Integer, Date> cachedSOsTime = new HashMap<>();
 
 	public int nbCachedSOs() {
 		return cachedSOs.size();
@@ -261,7 +272,10 @@ public class ESIMarket {
 			cachedSOs.put(itemID, ret);
 		}
 		synchronized (ret) {
-			if (ret.isEmpty()) {
+			Date now = new Date();
+			Date last = cachedSOsTime.get(itemID);
+			if (ret.isEmpty() || last == null || last.getTime() + cacheDurationMS < now.getTime()) {
+				ret.clear();
 				MarketOrderEntry[] orders = fetchOrders(itemID, false);
 				if (orders == null || orders.length == 0) {
 					ret.add(new MarketOrderEntry(0, Double.POSITIVE_INFINITY));
@@ -269,6 +283,7 @@ public class ESIMarket {
 					for (MarketOrderEntry mo : orders) {
 						ret.add(mo);
 					}
+					cachedSOsTime.put(itemID, now);
 				}
 				logger.trace("fetched " + ret.stream().mapToLong(mo -> mo.volume).sum() + " SO for item " + itemID);
 			}
@@ -304,6 +319,11 @@ public class ESIMarket {
 		// if there was not enough quantity to feed the request, we set the price to
 		// infinite. we CANT buy that many items
 		return Double.POSITIVE_INFINITY;
+	}
+
+	public void clearCache() {
+		cachedBOsTime.clear();
+		cachedSOsTime.clear();
 	}
 
 	protected static class MarketOrder {

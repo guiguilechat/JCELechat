@@ -1,6 +1,5 @@
 package fr.guiguilechat.eveonline.programs;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.regex.Pattern;
@@ -11,17 +10,21 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.model.database.yaml.Agent;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.programs.LPCorpEvaluator.MarketLPEvaluator;
 import fr.guiguilechat.eveonline.programs.LPCorpEvaluator.OfferAnalysis;
 import fr.guiguilechat.eveonline.programs.SysBurnerEvaluator.SystemData;
 
 public class EvaluateBurnersAgents {
 
 	private static final Logger logger = LoggerFactory.getLogger(EvaluateBurnersAgents.class);
+
+	// evaluate the interest of a system
+	public SysBurnerEvaluator systemEvaluator;
+
+	// evaluate the k isk/lp value of a corpo
+	public LPCorpEvaluator corpEvaluator;
 
 	public static class LocalizedLPOffer extends LPOffer {
 
@@ -42,36 +45,41 @@ public class EvaluateBurnersAgents {
 		}
 	}
 
+	public EvaluateBurnersAgents() {
+		this(new YamlDatabase());
+	}
+
+	public EvaluateBurnersAgents(EveDatabase db) {
+		this.db = db;
+		systemEvaluator = new SysBurnerEvaluator(10, db);
+		corpEvaluator = new LPCorpEvaluator(db);
+		if (db == null) {
+			throw new NullPointerException();
+		}
+	}
+
 	public static void main(String[] args) {
 		// number of concurrent threads in the parallel pool
 		int parrallelism = Runtime.getRuntime().availableProcessors() * 100;
 
 		EvaluateBurnersAgents el4a = new EvaluateBurnersAgents();
-		LPCorpEvaluator ceval = new LPCorpEvaluator(el4a.db).withLPAmount(1000000);
 
 		for (String arg : args) {
 			if (arg.startsWith("corp=")) {
 				el4a.allowCorporations(arg.substring("corp=".length()).split(","));
 			} else if (arg.startsWith("region=")) {
-				el4a.marketRegion = arg.substring("region=".length());
-			} else if (arg.startsWith("minl=")) {
-				el4a.minLevel = Integer.parseInt(arg.substring("minl=".length()));
-			} else if (arg.startsWith("maxl=")) {
-				el4a.maxLevel = Integer.parseInt(arg.substring("minl=".length()));
+				el4a.corpEvaluator.withMarket(arg.substring("region=".length()));
 			} else if (arg.startsWith("parallel=")) {
 				parrallelism = Integer.parseInt(arg.substring("parallel=".length()));
 			} else if (arg.startsWith("lp=")) {
-				ceval.withLPAmount(Integer.parseInt(arg.substring("lp=".length())));
+				el4a.corpEvaluator.withLPAmount(Integer.parseInt(arg.substring("lp=".length())));
 			}
 		}
 
 		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
-		ESIMarket market = el4a.getMarket();
-		el4a.corpEvaluator = ceval.cached(market);
-		el4a.systemEvaluator = new SysBurnerEvaluator(10, el4a.db);
-		List<LocalizedLPOffer> offers = el4a.getPossibleAgents().parallel().flatMap(a -> el4a.evaluateOffers(a).stream())
+
+		List<LocalizedLPOffer> offers = el4a.getPossibleAgents().parallel().flatMap(a -> el4a.evaluateOffers(a))
 				.collect(Collectors.toList());
-		logger.debug("retrieved " + market.nbCachedBOs() + " BOs and " + market.nbCachedSOs() + " SOs");
 		Collections.sort(offers, (e1, e2) -> (int) Math.signum(e2.sobogain - e1.sobogain));
 		System.out.println("\nagent ; offer ; corporation ; location ; sobogain ; bosogain ; avggain");
 		for (LocalizedLPOffer e : offers) {
@@ -82,19 +90,7 @@ public class EvaluateBurnersAgents {
 		}
 	}
 
-	protected EveDatabase db = new YamlDatabase();
-
-	public String marketRegion = "TheForge";
-
-	public ESIMarket getMarket() {
-		return new ESIMarket(db.getLocation(marketRegion).locationID);
-	}
-
-	public int minLevel = 4;
-
-	public int maxLevel = 4;
-
-	public boolean onlyHS = true;
+	protected EveDatabase db;
 
 	protected Pattern[] allowedCorporations = null;
 
@@ -126,11 +122,8 @@ public class EvaluateBurnersAgents {
 
 	public Stream<Agent> getPossibleAgents() {
 		Stream<Agent> ret = db.getAgents().values().parallelStream()
-				.filter(a -> "Security".equals(a.division) && "BasicAgent".equals(a.agentType));
-		ret = ret.filter(a -> a.level >= minLevel && a.level <= maxLevel);
-		if (onlyHS) {
-			ret = ret.filter(a -> isHSSystem(a.system));
-		}
+				.filter(a -> "Security".equals(a.division) && "BasicAgent".equals(a.agentType) && isHSSystem(a.system)
+						&& a.level == 4);
 		ret = ret.filter(a -> acceptCorp(a.corporation));
 		return ret;
 	}
@@ -144,30 +137,29 @@ public class EvaluateBurnersAgents {
 		}
 	}
 
-	// evaluate the interest of a system
-	protected SysBurnerEvaluator systemEvaluator;
+	public double burnerTime = 4;
 
-	// evaluate the k isk/lp value of a corpo
-	protected MarketLPEvaluator corpEvaluator;
+	public double sysTravelTime = 2;
 
-	protected List<LocalizedLPOffer> evaluateOffers(Agent agent) {
+	protected Stream<LocalizedLPOffer> evaluateOffers(Agent agent) {
 		SystemData sysEval = systemEvaluator.evaluate(agent.system);
 		double freqHS = sysEval.freqHS;
 		double avgDist = sysEval.avgDist;
 		double secBonus = sysEval.bonusSys;
-		double nbPerHour = 60 / (4 + avgDist * 2);
+		double nbPerHour = 60 / (burnerTime + avgDist * sysTravelTime * 2);
 
-		ArrayList<LocalizedLPOffer> ret = new ArrayList<>();
 		List<OfferAnalysis> offers = corpEvaluator.analyseCorpOffers(agent.corporation);
-		for (OfferAnalysis oa : offers) {
+		return offers.stream().map(oa -> {
 			LocalizedLPOffer llo = new LocalizedLPOffer(oa.offer, agent);
 			llo.sobogain = freqHS * freqHS * nbPerHour * (5 + (3.0 + oa.iskPerLPSOBO * 8.3 / 1000) * secBonus);
 			llo.bosogain = freqHS * freqHS * nbPerHour * (5 + (3.0 + oa.iskPerLPBOSO * 8.3 / 1000) * secBonus);
 			llo.avggain = freqHS * freqHS * nbPerHour * (5 + (3.0 + oa.iskPerLPAVG * 8.3 / 1000) * secBonus);
-			ret.add(llo);
-		}
+			return llo;
+		});
+	}
 
-		return ret;
+	public Stream<LocalizedLPOffer> streamOffers() {
+		return getPossibleAgents().parallel().flatMap(a -> evaluateOffers(a));
 	}
 
 }

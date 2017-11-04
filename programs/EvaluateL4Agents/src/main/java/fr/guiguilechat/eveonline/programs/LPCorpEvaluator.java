@@ -50,19 +50,27 @@ public class LPCorpEvaluator {
 
 	}
 
-	// adjust sales by removing this taxe
-	double saleTax = 0.01;
-
-	// only keep orders with isk/lp >= this value.
-	double minISKLPRatio = 0;
-
-	// adjust placement of BO or SO by removing this tax
-	double brokerFee = 0.02;
-
-	int amountLP = 5000000;
-
 
 	public final EveDatabase db;
+
+	protected ESIMarket market = null;
+
+	// adjust sales by removing this taxe
+	protected double saleTax = 0.01;
+
+	// adjust placement of BO or SO by removing this tax
+	protected double brokerFee = 0.02;
+
+	protected int amountLP = 1000000;
+
+	private HashMap<String, List<OfferAnalysis>> cachedLists = new HashMap<>();
+
+	public void clearCache() {
+		cachedLists.clear();
+		if (market != null) {
+			market.clearCache();
+		}
+	}
 
 	public LPCorpEvaluator() {
 		this(new YamlDatabase());
@@ -74,22 +82,78 @@ public class LPCorpEvaluator {
 	 *          the database to get the lp offers from.
 	 */
 	public LPCorpEvaluator(EveDatabase db) {
-		this.db = db;
+		this(db, null);
 	}
+
+	/**
+	 *
+	 * @param db
+	 *          the database to get the lp offers from.
+	 */
+	public LPCorpEvaluator(EveDatabase db, ESIMarket market) {
+		this.db = db;
+		this.market = market;
+	}
+
 
 	public LPCorpEvaluator withLPAmount(int amount) {
 		amountLP = amount;
+		cachedLists.clear();
 		return this;
 	}
 
-	public ArrayList<LPOffer> listCorpOffers(String corpName) {
+	public LPCorpEvaluator withSaleTax(double tax) {
+		saleTax = tax;
+		cachedLists.clear();
+		return this;
+	}
+
+	public LPCorpEvaluator withBrokerFee(double fee) {
+		brokerFee = fee;
+		cachedLists.clear();
+		return this;
+	}
+
+	public LPCorpEvaluator withMarket(String region) {
+		market = db.ESIRegion(region);
+		cachedLists.clear();
+		return this;
+	}
+
+	public List<OfferAnalysis> analyseCorpOffers(String corpName) {
+		List<OfferAnalysis> ret = null;
+		synchronized (cachedLists) {
+			if (cachedLists.containsKey(corpName)) {
+				ret = cachedLists.get(corpName);
+			} else {
+				ret = new ArrayList<>();
+				cachedLists.put(corpName, ret);
+			}
+		}
+		// we ensure the list will not be empty. if no data can be retrieved, we
+		// had null
+		synchronized (ret) {
+			if (ret.isEmpty()) {
+				logger.debug("evaluating offers for corp " + corpName);
+				ret.addAll(analyseOffers(market, corpName));
+				for (OfferAnalysis r : ret) {
+					logger.trace(" " + r.offer.offer_name + " : " + r.iskPerLPSOBO);
+				}
+				if (ret.isEmpty()) {
+					ret.add(null);
+				}
+			}
+		}
+		if (!ret.isEmpty() && ret.get(0) == null) {
+			return Collections.emptyList();
+		}
+		return ret;
+	}
+
+	protected ArrayList<LPOffer> listCorpOffers(String corpName) {
 		ArrayList<LPOffer> lpos = new ArrayList<>(db.getLPOffers());
 		lpos.removeIf(offer -> !corpName.equals(offer.corporation) || offer.requirements.lp == 0);
 		return lpos;
-	}
-
-	public List<OfferAnalysis> analyseOffers(ESIMarket market, String corpName, double minimumIskPerLP) {
-		return analyseOffers(market, listCorpOffers(corpName), minimumIskPerLP);
 	}
 
 	/**
@@ -101,8 +165,8 @@ public class LPCorpEvaluator {
 	 *          lp offers
 	 * @return a new list of the corresponding offer analyses.
 	 */
-	public List<OfferAnalysis> analyseOffers(ESIMarket market, Collection<LPOffer> lpos, double minimumIskPerLP) {
-
+	protected List<OfferAnalysis> analyseOffers(ESIMarket market, String corpName) {
+		Collection<LPOffer> lpos = listCorpOffers(corpName);
 		HashSet<Integer> allIDs = new HashSet<>();
 
 		for (LPOffer lpo : lpos) {
@@ -112,8 +176,8 @@ public class LPCorpEvaluator {
 			}
 		}
 
-		List<OfferAnalysis> offers = lpos.parallelStream().map(lp -> analyse(lp, market, minimumIskPerLP))
-				.filter(oa -> oa != null)
+		List<OfferAnalysis> offers = lpos.parallelStream().map(lp -> analyse(lp, market))
+				.filter(oa -> oa != null && oa.iskPerLPBOSO > 0)
 				.collect(Collectors.toList());
 
 		try {
@@ -138,7 +202,7 @@ public class LPCorpEvaluator {
 	 * @return a new offer analysis which contains the data analysis. return null
 	 *         if the order interest is < minimumIskPerLP
 	 */
-	public OfferAnalysis analyse(LPOffer o, ESIMarket market, double minimumIskPerLP) {
+	protected OfferAnalysis analyse(LPOffer o, ESIMarket market) {
 		OfferAnalysis ret = new OfferAnalysis();
 		ret.offer = o;
 		ret.offerCorp = o.corporation;
@@ -147,15 +211,11 @@ public class LPCorpEvaluator {
 		double prodBO = market.getBO(o.product.type_id, o.product.quantity * mult) * (100.0 - saleTax) / 100;
 		double prodSO = market.getSO(o.product.type_id, 1) * (o.product.quantity * mult) * (100.0 - saleTax - brokerFee)
 				/ 100;
-		double prodAVG = market.priceAverage(o.product.type_id) * o.product.quantity * mult * (100.0 - saleTax) / 100;
-		// if the BO-cost / lp is too low, it wont get bigger when taking SO into
-		// account.
-		if ((prodBO - o.requirements.isk * mult) / o.requirements.lp / mult < minimumIskPerLP) {
-			logger.trace(
-					"offer " + o.corporation + " - " + o.offer_name + "[*" + mult + "] " + " does not produce enough isk. out="
-							+ prodBO / mult + ", in.isk=" + o.requirements.isk + " LP=" + o.requirements.lp);
-			return null;
+		if (prodSO == Double.POSITIVE_INFINITY) {
+			prodSO = 0;
 		}
+		double prodAVG = market.priceAverage(o.product.type_id) * o.product.quantity * mult * (100.0 - saleTax) / 100;
+
 		double reqSO = o.requirements.isk * mult;
 		double reqBO = o.requirements.isk * mult;
 		double reqAVG = o.requirements.isk * mult;
@@ -169,14 +229,11 @@ public class LPCorpEvaluator {
 		ret.iskPerLPSOBO = (prodBO - reqSO) / o.requirements.lp / mult;
 		ret.iskPerLPBOSO = (prodSO - reqBO) / o.requirements.lp / mult;
 		ret.iskPerLPAVG = (prodAVG - reqAVG) / o.requirements.lp / mult;
-		if (ret.iskPerLPSOBO >= minimumIskPerLP) {
-			return ret;
-		} else {
-			logger.debug("offer " + o.corporation + " - " + o.offer_name + "[*" + mult + "] "
-					+ " has bad return on interest. in=" + reqSO / mult
-					+ " out=" + prodBO / mult + " LP=" + o.requirements.lp);
-			return null;
+		if (ret.iskPerLPBOSO == Double.POSITIVE_INFINITY) {
+			System.err.println("offer " + o.offer_name + " has boso " + ret.iskPerLPBOSO + " reqBO=" + reqBO + " prodSO="
+					+ prodSO + " mult=" + mult);
 		}
+		return ret;
 	}
 
 	/**
@@ -198,55 +255,5 @@ public class LPCorpEvaluator {
 				previous = oa;
 			}
 		}
-	}
-
-	/**
-	 * cached data for a given market
-	 *
-	 */
-	public class MarketLPEvaluator {
-
-		protected final ESIMarket market;
-
-		public MarketLPEvaluator(ESIMarket market) {
-			this.market = market;
-		}
-
-		private HashMap<String, List<OfferAnalysis>> cachedLists = new HashMap<>();
-
-		public List<OfferAnalysis> analyseCorpOffers(String corpName) {
-			List<OfferAnalysis> ret = null;
-			synchronized (cachedLists) {
-				if (cachedLists.containsKey(corpName)) {
-					ret = cachedLists.get(corpName);
-				} else {
-					ret = new ArrayList<>();
-					cachedLists.put(corpName, ret);
-				}
-			}
-			// we ensure the list will not be empty. if no data can be retrieved, we
-			// had null
-			synchronized (ret) {
-				if (ret.isEmpty()) {
-					logger.debug("evaluating offers for corp " + corpName);
-					ret.addAll(analyseOffers(market, corpName, minISKLPRatio));
-					for (OfferAnalysis r : ret) {
-						logger.trace(" " + r.offer.offer_name + " : " + r.iskPerLPSOBO);
-					}
-					if (ret.isEmpty()) {
-						ret.add(null);
-					}
-				}
-			}
-			if (!ret.isEmpty() && ret.get(0) == null) {
-				return Collections.emptyList();
-			}
-			return ret;
-		}
-
-	}
-
-	public MarketLPEvaluator cached(ESIMarket market) {
-		return new MarketLPEvaluator(market);
 	}
 }
