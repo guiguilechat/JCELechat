@@ -22,10 +22,12 @@ import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.model.database.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.database.apiv2.Char.Content;
 import fr.guiguilechat.eveonline.model.database.apiv2.Char.OrderEntry;
+import fr.guiguilechat.eveonline.model.database.apiv2.Eve.EStation;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
+import fr.guiguilechat.eveonline.model.database.yaml.Location;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Station;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
@@ -528,14 +530,25 @@ public class Manager extends Application implements EvePane {
 	/** fetch the assets and BO of given character */
 	protected Map<String, Map<Integer, Long>> fetchCharItems(EveChar c) {
 		HashMap<Long, Station> stationById = db().getStationById();
+		Map<Long, EStation> conquerableStations = db().eve().stationsByID();
+		HashMap<Integer, Location> locs = db().getLocationById();
 		HashMap<String, Map<Integer, Long>> itemsqtty = new HashMap<>();
 		for (Entry<Long, ArrayList<Content>> e : c.assetList().entrySet()) {
+			String system = null;
 			Station station = stationById.get(e.getKey());
 			if (station != null) {
-				Map<Integer, Long> sysItems = itemsqtty.get(station.system);
+				system = station.system;
+			} else {
+				EStation estat = conquerableStations.get(e.getKey());
+				if (estat != null) {
+					system = locs.get((int) estat.solarSystemID).name;
+				}
+			}
+			if (system != null) {
+				Map<Integer, Long> sysItems = itemsqtty.get(system);
 				if (sysItems == null) {
 					sysItems = new HashMap<>();
-					itemsqtty.put(station.system, sysItems);
+					itemsqtty.put(system, sysItems);
 				}
 				for (Content co : e.getValue()) {
 					sysItems.put(co.typeID, co.quantity + sysItems.getOrDefault(co.typeID, 0l));

@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 
+import fr.guiguilechat.eveonline.model.database.apiv2.Eve;
 import fr.guiguilechat.eveonline.model.database.esi.ESIBasePrices;
 import fr.guiguilechat.eveonline.model.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.model.database.yaml.Agent;
@@ -194,6 +195,12 @@ public abstract class EveDatabase {
 			}
 		}
 		return stationsById;
+	}
+
+	protected final Eve eve = new Eve();
+
+	public Eve eve() {
+		return eve;
 	}
 
 }
