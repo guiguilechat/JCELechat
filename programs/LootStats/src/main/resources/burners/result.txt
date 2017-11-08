@@ -1,5 +1,5 @@
 base serpentis:
-  avgBO: 1.8041523512926828E7
+  avgBO: 1.8312566011341464E7
   desc: base serpentis
   entries: 82
   factionFreq: 0.4634146341463415
@@ -30,22 +30,22 @@ base serpentis:
   - Shadow Serpentis Thermal Plating
   - Shadow Serpentis 250mm Railgun
 team enyo:
-  avgBO: 6761669.0025287345
+  avgBO: 6887330.963749999
   desc: team enyo
-  entries: 87
-  factionFreq: 0.06896551724137931
-  factionModFreq: 0.06896551724137931
+  entries: 88
+  factionFreq: 0.06818181818181818
+  factionModFreq: 0.06818181818181818
   factions:
   - Federation Navy 5MN Microwarpdrive
   - Federation Navy Stasis Webifier
   - Federation Navy Tracking Computer
   - Federation Navy 75mm Railgun
 team jaguar:
-  avgBO: 2831234.1942718453
+  avgBO: 2905150.678846154
   desc: team jaguar
-  entries: 103
-  factionFreq: 0.10679611650485436
-  factionModFreq: 0.10679611650485436
+  entries: 104
+  factionFreq: 0.10576923076923077
+  factionModFreq: 0.10576923076923077
   factions:
   - Republic Fleet Small Armor Repairer
   - Republic Fleet Warp Disruptor
@@ -58,11 +58,11 @@ team jaguar:
   - Republic Fleet Armor Thermal Hardener
   - Republic Fleet Rocket Launcher
 team hawk:
-  avgBO: 1963532.1474000001
+  avgBO: 2011235.8345544555
   desc: team hawk
-  entries: 100
-  factionFreq: 0.08
-  factionModFreq: 0.08
+  entries: 101
+  factionFreq: 0.07920792079207921
+  factionModFreq: 0.07920792079207921
   factions:
   - Caldari Navy Cloaking Device
   - Caldari Navy Small Graviton Smartbomb
@@ -73,15 +73,28 @@ team hawk:
   - Caldari Navy EM Ward Field
   - Caldari Navy 150mm Railgun
 base blood:
-  avgBO: 1751511.5433333332
+  avgBO: 1721997.0033333332
   desc: base blood
   entries: 3
+agent blood:
+  avgBO: 1008525.9637614678
+  desc: agent blood
+  entries: 109
+  factionFreq: 0.05504587155963303
+  factionModFreq: 0.05504587155963303
+  factions:
+  - Dark Blood Energized Thermal Membrane
+  - Dark Blood Dual Light Beam Laser
+  - Dark Blood Explosive Plating
+  - Dark Blood Small Energy Nosferatu
+  - Dark Blood Reactor Control Unit
+  - Dark Blood Stasis Webifier
 team vengeance:
-  avgBO: 1030715.5562637361
+  avgBO: 920285.6795652173
   desc: team vengeance
-  entries: 91
-  factionFreq: 0.12087912087912088
-  factionModFreq: 0.12087912087912088
+  entries: 92
+  factionFreq: 0.11956521739130435
+  factionModFreq: 0.11956521739130435
   factions:
   - Imperial Navy Armor Kinetic Hardener
   - Imperial Navy Armor EM Hardener
@@ -93,47 +106,34 @@ team vengeance:
   - Imperial Navy Energized Explosive Membrane
   - Imperial Navy Small Remote Capacitor Transmitter
   - Imperial Navy Small Armor Repairer
-agent blood:
-  avgBO: 1015159.2441666669
-  desc: agent blood
-  entries: 108
-  factionFreq: 0.05555555555555555
-  factionModFreq: 0.05555555555555555
-  factions:
-  - Dark Blood Energized Thermal Membrane
-  - Dark Blood Dual Light Beam Laser
-  - Dark Blood Explosive Plating
-  - Dark Blood Small Energy Nosferatu
-  - Dark Blood Reactor Control Unit
-  - Dark Blood Stasis Webifier
 base angel:
-  avgBO: 787521.9710714286
+  avgBO: 750063.3754651162
   desc: base angel
-  entries: 84
-  factionFreq: 0.011904761904761904
-  factionModFreq: 0.011904761904761904
+  entries: 86
+  factionFreq: 0.011627906976744186
+  factionModFreq: 0.011627906976744186
   factions:
   - Domination Kinetic Deflection Amplifier
 agent sansha:
-  avgBO: 131891.05648351647
+  avgBO: 130652.8041304348
   desc: agent sansha
-  entries: 91
-  factionFreq: 0.01098901098901099
-  factionModFreq: 0.01098901098901099
+  entries: 92
+  factionFreq: 0.010869565217391304
+  factionModFreq: 0.010869565217391304
   factions:
   - True Sansha EM Plating
 agent serpentis:
-  avgBO: 46715.880869565204
-  bpcFreq: 0.03260869565217391
+  avgBO: 54646.68161290323
+  bpcFreq: 0.03225806451612903
   bps:
   - Daredevil Blueprint
   desc: agent serpentis
-  entries: 92
+  entries: 93
 agent guristas:
-  avgBO: 41482.86407766991
+  avgBO: 42823.45339805826
   desc: agent guristas
   entries: 103
 agent angel:
-  avgBO: 13421.886375000002
+  avgBO: 12501.31675
   desc: agent angel
   entries: 80
