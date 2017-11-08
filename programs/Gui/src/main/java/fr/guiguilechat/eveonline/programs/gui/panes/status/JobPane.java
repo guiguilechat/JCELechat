@@ -163,7 +163,7 @@ public class JobPane extends TableView<JobData> implements EvePane {
 	/**
 	 * Call to {@link APIRoot.#chars}.{@link Char.#industryJobs(long)} and cache
 	 * it.<br />
-	 * The cache duration is {@value OverViewPane#cache_duration_in_minutes} min.
+	 * The cache duration is {@value StatusPane#cache_duration_in_minutes} min.
 	 * <p>
 	 * should be thread safe unless several call of the same character at the same
 	 * time

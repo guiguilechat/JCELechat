@@ -188,10 +188,10 @@ public interface EvePane {
 	}
 
 	/** do not override this */
-	public default void propagateTeamNewItems(String team, Map<Integer, Long> itemsDiff) {
-		onTeamNewItems(team, itemsDiff);
+	public default void propagateTeamNewAssets(String team, Map<Integer, Long> itemsDiff) {
+		onTeamNewAssets(team, itemsDiff);
 		for (EvePane p : subEvePanes()) {
-			p.propagateTeamNewItems(team, itemsDiff);
+			p.propagateTeamNewAssets(team, itemsDiff);
 		}
 	}
 
@@ -202,7 +202,7 @@ public interface EvePane {
 	 * @param itemsDiff
 	 *          the map of modification in number owned for each item id
 	 */
-	public default void onTeamNewItems(String team, Map<Integer, Long> itemsDiff) {
+	public default void onTeamNewAssets(String team, Map<Integer, Long> itemsDiff) {
 	}
 
 	/** do not override this */

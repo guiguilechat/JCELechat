@@ -13,10 +13,10 @@ import javafx.scene.layout.BorderPane;
 /**
  * an overview pane contains a table of eventdata.
  */
-public class OverViewPane extends BorderPane implements EvePane {
+public class StatusPane extends BorderPane implements EvePane {
 
 	@SuppressWarnings("unused")
-	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(OverViewPane.class);
+	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(StatusPane.class);
 
 	protected final Manager parent;
 
@@ -37,7 +37,7 @@ public class OverViewPane extends BorderPane implements EvePane {
 		return children;
 	}
 
-	public OverViewPane(Manager parent) {
+	public StatusPane(Manager parent) {
 		this.parent = parent;
 		selectTeamPane = new SelectTeamPane(parent);
 
@@ -61,6 +61,11 @@ public class OverViewPane extends BorderPane implements EvePane {
 		setTop(selectTeamPane);
 		setCenter(tabs);
 		// getChildren().addAll(selectTeamPane, tpjobs, tpprovi);
+	}
+
+	@Override
+	public boolean isShownSubPane(EvePane child) {
+		return tabs.getSelectionModel().getSelectedItem().getContent() == child;
 	}
 
 }

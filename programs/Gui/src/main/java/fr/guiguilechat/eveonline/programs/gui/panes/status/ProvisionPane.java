@@ -3,6 +3,8 @@ package fr.guiguilechat.eveonline.programs.gui.panes.status;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.slf4j.LoggerFactory;
 
@@ -12,21 +14,24 @@ import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.status.ProvisionPane.ProvisionData;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableRow;
 import javafx.scene.control.TableView;
 
 public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 
+	@SuppressWarnings("unused")
 	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(ProvisionPane.class);
 
 	public static class ProvisionData {
 		public String item;
-		public String who;
 		public long required;
-		public long owned;
+		public long done;
+		public ProvisionType type;
+		boolean added = false;
 
 		@Override
 		public int hashCode() {
-			return (int) (item.hashCode() + who.hashCode() + required + owned);
+			return (int) (item.hashCode() + required + done);
 		}
 
 		@Override
@@ -41,7 +46,9 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 				return false;
 			}
 			ProvisionData o = (ProvisionData) obj;
-			return item.equals(o.item) && who.equals(o.who) && required == o.required && owned == o.owned;
+			return item.equals(o.item)
+					&& required == o.required
+					&& done == o.done;
 		}
 
 		@Override
@@ -60,48 +67,60 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	public ProvisionPane(Manager parent) {
 		this.parent = parent;
 
+		TableColumn<ProvisionData, ProvisionType> typeCol = new TableColumn<>("type");
+		typeCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().type));
+		getColumns().add(typeCol);
+
 		TableColumn<ProvisionData, String> desCol = new TableColumn<>("item");
 		desCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().item));
 		desCol.setMinWidth(400);
 		getColumns().add(desCol);
 
 		TableColumn<ProvisionData, Long> missingCol = new TableColumn<>("missing");
-		missingCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().required - ed.getValue().owned));
+		missingCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().required - ed.getValue().done));
 		getColumns().add(missingCol);
 
-		TableColumn<ProvisionData, String> whoCol = new TableColumn<>("who");
-		whoCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().who));
-		getColumns().add(whoCol);
-
-		TableColumn<ProvisionData, Long> ownedcol = new TableColumn<>("owned");
-		ownedcol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().owned));
+		TableColumn<ProvisionData, Long> ownedcol = new TableColumn<>("required");
+		ownedcol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().required));
 		getColumns().add(ownedcol);
+
+		TableColumn<ProvisionData, Integer> percentCol = new TableColumn<>("percent");
+		percentCol.setCellValueFactory(
+				ed -> new ReadOnlyObjectWrapper<>((int) (100 * ed.getValue().done / ed.getValue().required)));
+		getColumns().add(percentCol);
+
+		setRowFactory(tv -> new TableRow<ProvisionData>() {
+			@Override
+			public void updateItem(ProvisionData item, boolean empty) {
+				super.updateItem(item, empty);
+				if (item != null && item.required <= item.done) {
+					setStyle("-fx-background-color: palegreen;");
+				} else {
+					setStyle("");
+				}
+			}
+		});
+
+		getSortOrder().add(percentCol);
 	}
 
 	//
 	// provision preparation.
 	//
 
-	protected static class ProvisionPreparation {
-		public String name;
-		public ProvisionData ed;
-		public boolean added = false;
-		public int itemID;
-	}
-
-	HashMap<Integer, ProvisionPreparation> itemsProvisionsMaterial = new HashMap<>();
-	HashMap<Integer, ProvisionPreparation> itemsProvisionsProdcut = new HashMap<>();
-	HashMap<Integer, ProvisionPreparation> itemsProvisionsSO = new HashMap<>();
+	HashMap<Integer, ProvisionData> itemsProvisionsMaterial = new HashMap<>();
+	HashMap<Integer, ProvisionData> itemsProvisionsProduct = new HashMap<>();
+	HashMap<Integer, ProvisionData> itemsProvisionsSO = new HashMap<>();
 
 	/** get a provision preparation of given type for given item id */
-	public ProvisionPreparation getProvision(int itemID, ProvisionType ptype) {
-		HashMap<Integer, ProvisionPreparation> map = null;
+	public ProvisionData getProvision(int itemID, ProvisionType ptype) {
+		HashMap<Integer, ProvisionData> map = null;
 		switch (ptype) {
 		case MATERIAL:
 			map = itemsProvisionsMaterial;
 			break;
 		case PRODUCT:
-			map = itemsProvisionsProdcut;
+			map = itemsProvisionsProduct;
 			break;
 		case SO:
 			map = itemsProvisionsSO;
@@ -109,13 +128,13 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 		default:
 			throw new UnsupportedOperationException("handle " + ptype);
 		}
-		ProvisionPreparation ret = map.get(itemID);
+		ProvisionData ret = map.get(itemID);
 		if (ret == null) {
-			logger.trace("creating provision for item " + itemID);
-			ret = new ProvisionPreparation();
-			ret.name = db().getElementById(itemID);
-			ret.ed = new ProvisionData();
-			ret.itemID = itemID;
+			ret = new ProvisionData();
+			ret.item = db().getElementById(itemID);
+			if (ret.item == null) {
+				ret.item="unknown_"+itemID;
+			}
 			map.put(itemID, ret);
 		}
 		return ret;
@@ -125,68 +144,51 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	 * prepare provisions for focused team.
 	 */
 	protected void prepareProvisions() {
-		itemsProvisionsMaterial.values().stream().forEach(pp -> pp.ed.required = 0);
+		itemsProvisionsMaterial.values().stream().forEach(pp -> pp.required = 0);
+		itemsProvisionsProduct.values().stream().forEach(pp -> pp.required = 0);
+		itemsProvisionsSO.values().stream().forEach(pp -> pp.required = 0);
+		getItems().clear();
 		for (ProvisionType ptype : ProvisionType.values()) {
 			for (Entry<Integer, Integer> e : parent.getFTeamProvision(ptype).total.entrySet()) {
-				ProvisionPreparation pr = getProvision(e.getKey(), ptype);
-				pr.ed.required = e.getValue();
-				pr.ed.who = parent().settings.focusedTeam;
+				ProvisionData pr = getProvision(e.getKey(), ptype);
+				pr.required = e.getValue();
+				pr.type = ptype;
+				getItems().add(pr);
 			}
 		}
-		onTeamNewItems(parent().settings.focusedTeam, parent().getFTeamItems());
+		updateItems();
 	}
 
-	@Override
-	public void onNewProvision(ProvisionType ptype, int itemID, int qtty) {
-		if (shown) {
-			ProvisionPreparation pr = getProvision(itemID, ptype);
-			pr.ed.required = qtty;
-			pr.ed.who = parent().settings.focusedTeam;
-			updateItemQuantity(parent().getFTeamItems().getOrDefault(itemID, 0l), pr);
+	public void updateItems() {
+		Map<Integer, Long> assets = parent().getFTeamAssets();
+		Map<Integer, Long> bos = parent().getFTeamBOs();
+		Map<Integer, Long> sos = parent().getFTeamSOs();
+		Map<Integer, Long> materials = Stream.concat(assets.entrySet().stream(), bos.entrySet().stream())
+				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, Long::sum));
+		for (Entry<Integer, Long> e : materials.entrySet()) {
+			updateItemQuantity(e.getValue(), getProvision(e.getKey(), ProvisionType.MATERIAL));
 		}
-	}
-
-	@Override
-	public void onTeamNewItems(String team, Map<Integer, Long> itemsDiff) {
-		if (!shown || team == null || !team.equals(parent.settings.focusedTeam)) {
-			logger.trace("skipping items diff for team " + team);
-			return;
+		for (Entry<Integer, Long> e : assets.entrySet()) {
+			updateItemQuantity(e.getValue(), getProvision(e.getKey(), ProvisionType.PRODUCT));
 		}
-		logger.trace("new items for focused team " + team + " : " + itemsDiff);
-		Map<Integer, Long> items = parent().getFTeamItems();
-		for (Integer itemID : itemsDiff.keySet()) {
-			updateItemQuantity(items.getOrDefault(itemID, 0l), getProvision(itemID, ProvisionType.MATERIAL));
+		for (Entry<Integer, Long> e : sos.entrySet()) {
+			updateItemQuantity(e.getValue(), getProvision(e.getKey(), ProvisionType.SO));
 		}
 		sort();
 	}
 
 	/** update graphics on the modification of provisioned item's quantity */
-	protected void updateItemQuantity(long qtty, ProvisionPreparation pp) {
-		if (pp.ed.required > 0) {
-			logger.trace("updating items " + pp.name + " required" + pp.ed.required + " qtty" + qtty);
+	protected void updateItemQuantity(long qtty, ProvisionData pp) {
+		pp.done = qtty;
+		getItems().remove(pp);
+		if (pp.required > 0) {
+			getItems().add(pp);
 		}
-		if (qtty < pp.ed.required) {
-			logger.trace("adding item " + pp.name + " required " + pp.ed.required + ", we have " + qtty);
-			pp.ed.item = pp.name;
-			pp.ed.owned = qtty;
-			if (!pp.added) {
-				getItems().add(pp.ed);
-			}
-			pp.added = true;
-		} else {
-			if (pp.added) {
-				getItems().remove(pp.ed);
-				logger.trace("removing item " + pp.name + " required " + pp.ed.required + ", we have " + qtty);
-			}
-			pp.added = false;
-		}
-
 	}
 
 	@Override
 	public void onFocusedTeam(String teamName) {
 		getItems().clear();
-		itemsProvisionsMaterial.values().forEach(pp -> pp.added = false);
 		if (shown) {
 			prepareProvisions();
 		}

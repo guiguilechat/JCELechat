@@ -111,18 +111,6 @@ public class AnalyzeBurnersDest {
 			printDestData(ps, "all", an.dest2counts.values().stream(), t -> IntStream.of(t).sum(), systemDistances,
 					constelsDistances);
 
-			ps.println();
-			ps.println("avg jumps" + separator + an.system);
-			ps.println("distance" + separator + "#systems" + separator + "avg sys jumps" + separator + "avg cstl jumps");
-			for (int i = 0; i <= maxdist; i++) {
-				ps.print("" + i + separator + distSystems[i] + separator + df.format(d.avgDistWithinSys(l, i)));
-				if (i <= 2) {
-					ps.print( separator
-							+ df.format(d.avgDistWithinConstels(l, i)));
-				}
-				ps.println();
-			}
-
 			ps.close();
 		}
 
