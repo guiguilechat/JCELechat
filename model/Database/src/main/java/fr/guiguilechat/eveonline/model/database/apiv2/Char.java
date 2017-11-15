@@ -57,7 +57,7 @@ public class Char {
 				+ "&characterID=" + charID);
 	}
 
-	static LinkedHashMap<Long, ArrayList<Content>> url2assets(String url) {
+	public static LinkedHashMap<Long, ArrayList<Content>> url2assets(String url) {
 		LinkedHashMap<Long, ArrayList<Content>> ret = new LinkedHashMap<>();
 		try {
 			Document page = Jsoup.connect(url).get();
@@ -208,7 +208,7 @@ public class Char {
 				+ "&characterID=" + charID);
 	}
 
-	static ArrayList<JobEntry> url2industryJobs(String url) {
+	public static ArrayList<JobEntry> url2industryJobs(String url) {
 		Exception error = null;
 		for (int i = 0; i < 10; i++) {
 			try {
@@ -276,7 +276,7 @@ public class Char {
 				+ "&characterID=" + charID);
 	}
 
-	static List<OrderEntry> url2marketOrders(String url) {
+	public static List<OrderEntry> url2marketOrders(String url) {
 		ArrayList<OrderEntry> ret = new ArrayList<>();
 		try {
 			Document page = Jsoup.connect(url).get();
