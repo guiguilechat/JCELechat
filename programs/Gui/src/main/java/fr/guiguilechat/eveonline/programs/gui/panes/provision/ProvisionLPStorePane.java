@@ -2,7 +2,7 @@ package fr.guiguilechat.eveonline.programs.gui.panes.provision;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.stream.Collectors;
+import java.util.regex.Pattern;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +11,9 @@ import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
+import fr.guiguilechat.eveonline.programs.panes.ScrollAdd.IntScrollAdd;
 import fr.guiguilechat.eveonline.programs.panes.TypedField;
+import javafx.animation.PauseTransition;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
@@ -20,9 +22,9 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableColumn.SortType;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
-import javafx.scene.input.ScrollEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
+import javafx.util.Duration;
 
 public class ProvisionLPStorePane extends BorderPane implements EvePane {
 
@@ -43,10 +45,11 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 	boolean loaded = false;
 	protected ArrayList<LPOffer> lpoffers;
 
-	ChoiceBox<String> corporationChoice = new ChoiceBox<>();
-	ChoiceBox<Boolean> blueprintAllowedChoice = new ChoiceBox<>();
-	HBox selectionPane = new HBox();
-	TableView<OfferRow> listOffersPane = new TableView<>();
+	protected ChoiceBox<String> corporationChoice = new ChoiceBox<>();
+	protected ChoiceBox<Boolean> blueprintAllowedChoice = new ChoiceBox<>();
+	protected TextField filterNames = new TextField();
+	protected HBox selectionPane = new HBox();
+	protected TableView<OfferRow> listOffersPane = new TableView<>();
 
 	public void load() {
 		if (loaded) {
@@ -56,10 +59,8 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 			lpoffers = db().getLPOffers();
 		}
 		selectionPane.getChildren().add(new Label("corporation: "));
-		corporationChoice.getItems()
-		.addAll(lpoffers.stream().map(lo -> lo.corporation).distinct().sorted().collect(Collectors.toList()));
-		// allow no value in the choicebox
 		corporationChoice.getItems().add(null);
+		lpoffers.stream().map(lo -> lo.corporation).distinct().sorted().forEachOrdered(corporationChoice.getItems()::add);
 		corporationChoice.setOnAction(ev -> updateOffers());
 		selectionPane.getChildren().add(corporationChoice);
 
@@ -68,10 +69,19 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		blueprintAllowedChoice.setOnAction(ev -> updateOffers());
 		selectionPane.getChildren().add(blueprintAllowedChoice);
 
+		filterNames.setPromptText("filter offer name");
+		PauseTransition pause = new PauseTransition(Duration.seconds(1));
+		filterNames.textProperty().addListener((observable, oldValue, newValue) -> {
+			pause.setOnFinished(event -> updateOffers());
+			pause.playFromStart();
+		});
+		selectionPane.getChildren().add(filterNames);
+
 		setTop(selectionPane);
 
 		TableColumn<OfferRow, String> namecol = new TableColumn<>("name");
 		namecol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().offer.offer_name));
+		namecol.setMinWidth(50);
 		listOffersPane.getColumns().add(namecol);
 
 		TableColumn<OfferRow, Integer> lpcol = new TableColumn<>("lp");
@@ -83,10 +93,19 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		listOffersPane.getSortOrder().add(lpcol);
 
 		TableColumn<OfferRow, TextField> matCol = new TableColumn<>("materials");
-		matCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().nb_field));
+		matCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().mat_field));
 		matCol.setMinWidth(50);
-		matCol.setMaxWidth(50);
 		listOffersPane.getColumns().add(matCol);
+
+		TableColumn<OfferRow, TextField> prodCol = new TableColumn<>("product");
+		prodCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().prod_field));
+		prodCol.setMinWidth(50);
+		listOffersPane.getColumns().add(prodCol);
+
+		TableColumn<OfferRow, TextField> soCol = new TableColumn<>("sell orders");
+		soCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().so_field));
+		soCol.setMinWidth(50);
+		listOffersPane.getColumns().add(soCol);
 
 		TableColumn<OfferRow, Button> sendCol = new TableColumn<>("");
 		sendCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().bt_send));
@@ -107,17 +126,24 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		}
 		load();
 
-		HashMap<Integer, Integer> provisions = parent().getFTeamProvision(ProvisionType.MATERIAL).lpoffers;
+		HashMap<Integer, Integer> materials = parent().getFTeamProvision(ProvisionType.MATERIAL).lpoffers,
+				products = parent().getFTeamProvision(ProvisionType.PRODUCT).lpoffers,
+				sorders = parent().getFTeamProvision(ProvisionType.SO).lpoffers;
 		String corp = corporationChoice.getValue();
-		if (corp == null) {
-			return;
-		}
 		Boolean bp = blueprintAllowedChoice.getValue();
+		String nameFilter = filterNames.getText();
+		Pattern pat = null;
+		if (nameFilter != null && nameFilter.length() != 0) {
+			pat = Pattern.compile(".*" + nameFilter.toLowerCase() + ".*");
+		}
 		for (LPOffer lo : lpoffers) {
 			boolean isbp = lo.offer_name.contains("Blueprint");
-			if (corp.equals(lo.corporation) && !(bp == Boolean.TRUE && !isbp) && !(bp == Boolean.FALSE && isbp)) {
+			if ((corp == null || corp.equals(lo.corporation)) && (bp == null || bp == isbp)
+					&& (pat == null || pat.matcher(lo.offer_name.toLowerCase()).matches())) {
 				OfferRow row = getRow(lo);
-				row.nb_field.setValue(provisions.getOrDefault(lo.id, 0));
+				row.mat_field.setValue(materials.getOrDefault(lo.id, 0));
+				row.prod_field.setValue(products.getOrDefault(lo.id, 0));
+				row.so_field.setValue(sorders.getOrDefault(lo.id, 0));
 				listOffersPane.getItems().add(row);
 			}
 		}
@@ -130,18 +156,17 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 	 */
 	protected static class OfferRow {
 		public LPOffer offer;
-		public TypedField<Integer> nb_field;
+		public TypedField<Integer> mat_field, prod_field, so_field;
 		public Button bt_send;
 
 		public OfferRow() {
 			bt_send = new Button("update");
-			nb_field = TypedField.positivIntField(0);
-			nb_field.setOnScroll(this::handleScrollNb);
-		}
-
-		protected void handleScrollNb(ScrollEvent se) {
-			nb_field.setValue(nb_field.getValue() + (se.getDeltaY() > 0 ? 1 : -1));
-			se.consume();
+			mat_field = TypedField.positivIntField(0);
+			mat_field.setOnScroll(new IntScrollAdd(1, mat_field));
+			prod_field = TypedField.positivIntField(0);
+			prod_field.setOnScroll(new IntScrollAdd(1, prod_field));
+			so_field = TypedField.positivIntField(0);
+			so_field.setOnScroll(new IntScrollAdd(1, so_field));
 		}
 	}
 
@@ -153,7 +178,8 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		}
 		OfferRow ret = new OfferRow();
 		ret.offer = offer;
-		ret.bt_send.setOnAction(ev -> parent().provisionLPOffer(ProvisionType.MATERIAL, offer, ret.nb_field.getValue()));
+		ret.bt_send.setOnAction(ev -> parent().provisionLPOffer(offer, ret.mat_field.getValue(), ret.prod_field.getValue(),
+				ret.so_field.getValue()));
 		cacherows.put(offer, ret);
 		return ret;
 	}

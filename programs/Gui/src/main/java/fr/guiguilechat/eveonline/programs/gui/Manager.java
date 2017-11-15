@@ -366,7 +366,8 @@ public class Manager extends Application implements EvePane {
 
 	public Stream<String> streamCharPossibleSystems(EveChar c) {
 		return Stream.concat(getCharAssets(c).keySet().stream(),
-				Stream.concat(getCharBOs(c).keySet().stream(), getCharSOs(c).keySet().stream())).distinct();
+				Stream.concat(getCharBOs(c).keySet().stream(), getCharSOs(c).keySet().stream())).filter(s -> s != null)
+				.distinct();
 	}
 
 	/**
@@ -618,7 +619,7 @@ public class Manager extends Application implements EvePane {
 					// + db.getElementById(co.typeID) + " : " + co.quantity);
 				}
 			} else {
-				logger.debug("no station for fetch char " + c.name + " with id " + e.getKey());
+				logger.debug("no station for char " + c.name + " assets with id " + e.getKey());
 			}
 		}
 		return itemsqtty;
@@ -630,16 +631,15 @@ public class Manager extends Application implements EvePane {
 		for (OrderEntry a : c.marketOrders()) {
 			if (a.isOpen() && a.isBuyOrder()) {
 				String system = getStationSystem(a.stationID);
-				if (system != null) {
-					Map<Integer, Long> sysGain = itemsqtty.get(system);
-					if (sysGain == null) {
-						sysGain = new HashMap<>();
-						itemsqtty.put(system, sysGain);
-					}
-					sysGain.put(a.typeID, a.volRemaining + sysGain.getOrDefault(a.typeID, 0l));
-				} else {
-					logger.debug("no station for market order with id " + a.stationID);
+				if (system == null) {
+					logger.debug("no station for BO with id " + a.stationID);
 				}
+				Map<Integer, Long> sysGain = itemsqtty.get(system);
+				if (sysGain == null) {
+					sysGain = new HashMap<>();
+					itemsqtty.put(system, sysGain);
+				}
+				sysGain.put(a.typeID, a.volRemaining + sysGain.getOrDefault(a.typeID, 0l));
 			}
 		}
 		return itemsqtty;
@@ -651,16 +651,16 @@ public class Manager extends Application implements EvePane {
 		for (OrderEntry a : c.marketOrders()) {
 			if (a.isOpen() && !a.isBuyOrder()) {
 				String system = getStationSystem(a.stationID);
-				if (system != null) {
-					Map<Integer, Long> sysGain = itemsqtty.get(system);
-					if (sysGain == null) {
-						sysGain = new HashMap<>();
-						itemsqtty.put(system, sysGain);
-					}
-					sysGain.put(a.typeID, a.volRemaining + sysGain.getOrDefault(a.typeID, 0l));
-				} else {
-					logger.debug("no station for market order with id " + a.stationID);
+				if (system == null) {
+					logger.debug("no station for SO with id " + a.stationID);
 				}
+				Map<Integer, Long> sysGain = itemsqtty.get(system);
+				if (sysGain == null) {
+					sysGain = new HashMap<>();
+					itemsqtty.put(system, sysGain);
+				}
+				sysGain.put(a.typeID, a.volRemaining + sysGain.getOrDefault(a.typeID, 0l));
+
 			}
 		}
 		return itemsqtty;
@@ -735,7 +735,7 @@ public class Manager extends Application implements EvePane {
 		Set<String> teamSystems = getTeamSystemLimit(settings.focusedTeam);
 		Stream<Map.Entry<Integer, Long>> teamBOsStream = streamTeamCharacters(settings.focusedTeam)
 				.flatMap(c -> getCharBOs(c).entrySet().stream())
-				.filter(e -> teamSystems.isEmpty() || teamSystems.contains(e.getKey()))
+				.filter(e -> e.getKey() == null || teamSystems.isEmpty() || teamSystems.contains(e.getKey()))
 				.flatMap(e -> e.getValue().entrySet().stream());
 		return teamBOsStream.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, Long::sum));
 	}
@@ -750,7 +750,7 @@ public class Manager extends Application implements EvePane {
 		Set<String> teamSystems = getTeamSystemLimit(settings.focusedTeam);
 		Stream<Map.Entry<Integer, Long>> teamBOsStream = streamTeamCharacters(settings.focusedTeam)
 				.flatMap(c -> getCharSOs(c).entrySet().stream())
-				.filter(e -> teamSystems.isEmpty() || teamSystems.contains(e.getKey()))
+				.filter(e -> e.getKey() == null || teamSystems.isEmpty() || teamSystems.contains(e.getKey()))
 				.flatMap(e -> e.getValue().entrySet().stream());
 		return teamBOsStream.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, Long::sum));
 	}

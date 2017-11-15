@@ -33,6 +33,7 @@ public abstract class ScrollAdd<T extends Number> implements EventHandler<Scroll
 	public void handle(ScrollEvent event) {
 		boolean add = event.getDeltaY() > 0;
 		target.setValue(add ? add(target.getValue(), increment) : sub(target.getValue(), increment));
+		event.consume();
 	}
 
 	public static class IntScrollAdd extends ScrollAdd<Integer> {

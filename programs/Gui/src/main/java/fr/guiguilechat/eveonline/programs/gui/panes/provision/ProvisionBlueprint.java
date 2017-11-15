@@ -52,13 +52,11 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 
 	protected static enum BpSubset {
 
-		my_bpos(true, true), my_bps(false, true), all_bps(true, false);
+		my_bpos(true), all_bps(false);
 
-		public final boolean forceOriginal;
 		public final boolean forceOwned;
 
-		private BpSubset(boolean forceOriginal, boolean forceOwned) {
-			this.forceOriginal = forceOriginal;
+		private BpSubset(boolean forceOwned) {
 			this.forceOwned = forceOwned;
 		}
 
@@ -241,9 +239,6 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 	protected Stream<Blueprint> streambps(BpSubset selection) {
 		if (selection.forceOwned) {
 			Stream<BPEntry> bpeStream = parent.streamFTeamCharacters().parallel().flatMap(c -> c.blueprints().stream());
-			if (selection.forceOriginal) {
-				bpeStream = bpeStream.filter(bpe -> bpe.runs == -1);
-			}
 			return bpeStream.map(bpe -> bpe.typeName).distinct().map(blueprints::get).filter(bp -> bp != null);
 		} else {
 			return blueprints.values().stream();
