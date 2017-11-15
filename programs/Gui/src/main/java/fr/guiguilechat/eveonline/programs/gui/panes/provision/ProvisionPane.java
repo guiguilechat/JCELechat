@@ -6,7 +6,9 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.SelectTeamPane;
-import javafx.scene.control.Accordion;
+import javafx.scene.control.Tab;
+import javafx.scene.control.TabPane;
+import javafx.scene.control.TabPane.TabClosingPolicy;
 import javafx.scene.control.TitledPane;
 import javafx.scene.layout.BorderPane;
 
@@ -22,12 +24,12 @@ public class ProvisionPane extends BorderPane implements EvePane {
 		return parent;
 	}
 
-	protected Accordion accordion;
+	protected TabPane tabs;
+	protected Tab orderedtab, lpstoretab, bpotab;
 
 	protected ProvisionLPStorePane lpstore;
 	protected ProvisionOrderedPane ordered;
 	protected ProvisionBlueprint blueprint;
-	TitledPane otp, ltp, btp;
 
 	protected SelectTeamPane selectTeam;
 
@@ -46,20 +48,20 @@ public class ProvisionPane extends BorderPane implements EvePane {
 		lpstore = new ProvisionLPStorePane(parent);
 		ordered = new ProvisionOrderedPane(parent);
 		blueprint = new ProvisionBlueprint(parent);
-		otp = new TitledPane("ordered provisions", ordered);
-		ltp = new TitledPane("lpstore", lpstore);
-		btp = new TitledPane("blueprint", blueprint);
-		accordion = new Accordion(otp, ltp, btp);
-		accordion.setExpandedPane(otp);
-		accordion.expandedPaneProperty().addListener((ov, old, now) -> {
+		orderedtab = new Tab("ordered", ordered);
+		lpstoretab = new Tab("lpstore", lpstore);
+		bpotab = new Tab("bpos", blueprint);
+		tabs = new TabPane(orderedtab, lpstoretab, bpotab);
+		tabs.setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
+		tabs.getSelectionModel().selectedItemProperty().addListener((ov, old, now) -> {
 			if (old != null) {
-				TP2Pane(old).propagateIsShown(false);
+				((EvePane) old.getContent()).propagateIsShown(false);
 			}
 			if (now != null) {
-				TP2Pane(now).propagateIsShown(true);
+				((EvePane) now.getContent()).propagateIsShown(true);
 			}
 		});
-		setCenter(accordion);
+		setCenter(tabs);
 		children = new EvePane[] { selectTeam, lpstore, ordered, blueprint };
 	}
 
@@ -69,7 +71,7 @@ public class ProvisionPane extends BorderPane implements EvePane {
 
 	@Override
 	public boolean isShownSubPane(EvePane child) {
-		return child == TP2Pane(accordion.getExpandedPane());
+		return tabs.getSelectionModel().getSelectedItem().getContent() == child;
 	}
 
 }

@@ -29,7 +29,7 @@ public class TeamModifPane extends HBox implements EvePane {
 		return parent;
 	}
 
-	protected String name;
+	public final String name;
 
 	protected VBox updateBox = new VBox(10);
 	protected VBox systemsBox = new VBox(5);

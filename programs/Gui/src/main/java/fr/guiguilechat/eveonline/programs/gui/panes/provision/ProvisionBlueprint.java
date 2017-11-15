@@ -63,7 +63,6 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 	}
 
 	protected ChoiceBox<BpSubset> subset = new ChoiceBox<>();
-	protected ChoiceBox<String> allowedGroups = new ChoiceBox<>();
 	protected TextField filterNames = new TextField();
 
 	public void load() {
@@ -79,13 +78,8 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 		subset.getSelectionModel().select(BpSubset.all_bps);
 		subset.getSelectionModel().selectedItemProperty().addListener((o, old, now) -> {
 			updateListBPs();
-			updateGroupList();
 		});
 
-		allowedGroups.setMinWidth(300);
-		allowedGroups.setMaxWidth(300);
-		allowedGroups.getSelectionModel().selectedItemProperty().addListener((o, old, now) -> updateListBPs());
-		updateGroupList();
 
 		filterNames.setPromptText("filter blueprints name");
 		PauseTransition pause = new PauseTransition(Duration.seconds(1));
@@ -94,7 +88,7 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 			pause.playFromStart();
 		});
 
-		filterPane.getChildren().addAll(subset, allowedGroups, filterNames);
+		filterPane.getChildren().addAll(subset, filterNames);
 
 		bpsPane = new TableView<>();
 
@@ -141,17 +135,6 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 		}
 		this.shown = shown;
 		updateListBPs();
-	}
-
-	protected void updateGroupList() {
-		String selected = allowedGroups.getSelectionModel().getSelectedItem();
-		allowedGroups.getItems().clear();
-		streambps(subset.getSelectionModel().getSelectedItem()).map(bp -> bp.groupName).distinct()
-		.forEachOrdered(allowedGroups.getItems()::add);
-		allowedGroups.getItems().sort(String::compareTo);
-		if (allowedGroups.getItems().contains(selected)) {
-			allowedGroups.getSelectionModel().select(selected);
-		}
 	}
 
 	public void updateListBPs() {
@@ -224,10 +207,6 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 
 	protected Stream<Blueprint> streambps() {
 		Stream<Blueprint> ret = streambps(subset.getSelectionModel().getSelectedItem());
-		String group = allowedGroups.getSelectionModel().getSelectedItem();
-		if (group != null) {
-			ret = ret.filter(bpe -> bpe.groupName.equals(group));
-		}
 		String filterName = filterNames.getText();
 		if (filterName != null && filterName.length() > 0) {
 			Pattern pat = Pattern.compile(".*" + filterName.toLowerCase() + ".*");

@@ -41,6 +41,8 @@ public class TeamsPane extends BorderPane implements EvePane {
 				((EvePane) old.getContent()).propagateIsShown(false);
 			}
 			if (now != null && isShown) {
+				TeamModifPane tmp = (TeamModifPane) now.getContent();
+				parent().setFocusedTeam(tmp.name);
 				((EvePane) now.getContent()).propagateIsShown(true);
 			}
 		});
@@ -54,6 +56,16 @@ public class TeamsPane extends BorderPane implements EvePane {
 			team2pane.put(teamName, ret);
 		}
 		return ret;
+	}
+
+	@Override
+	public void onFocusedTeam(String teamName) {
+		for (Tab tab : tabs.getTabs()) {
+			TeamModifPane tmp = (TeamModifPane) tab.getContent();
+			if (tmp.name.equals(teamName)) {
+				tabs.getSelectionModel().select(tab);
+			}
+		}
 	}
 
 	@Override
@@ -85,7 +97,7 @@ public class TeamsPane extends BorderPane implements EvePane {
 
 	@Override
 	public void onIsShown(boolean shown) {
-		this.isShown = true;
+		isShown = true;
 	}
 
 }

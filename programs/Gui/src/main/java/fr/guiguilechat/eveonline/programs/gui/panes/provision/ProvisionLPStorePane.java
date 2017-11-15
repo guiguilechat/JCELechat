@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.programs.gui.panes.provision;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.regex.Pattern;
 
 import org.slf4j.Logger;
@@ -136,10 +137,11 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 		if (nameFilter != null && nameFilter.length() != 0) {
 			pat = Pattern.compile(".*" + nameFilter.toLowerCase() + ".*");
 		}
+		HashSet<Integer> addedIDs = new HashSet<>();
 		for (LPOffer lo : lpoffers) {
 			boolean isbp = lo.offer_name.contains("Blueprint");
 			if ((corp == null || corp.equals(lo.corporation)) && (bp == null || bp == isbp)
-					&& (pat == null || pat.matcher(lo.offer_name.toLowerCase()).matches())) {
+					&& (pat == null || pat.matcher(lo.offer_name.toLowerCase()).matches()) && addedIDs.add(lo.id)) {
 				OfferRow row = getRow(lo);
 				row.mat_field.setValue(materials.getOrDefault(lo.id, 0));
 				row.prod_field.setValue(products.getOrDefault(lo.id, 0));

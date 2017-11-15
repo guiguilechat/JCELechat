@@ -346,6 +346,9 @@ public class Manager extends Application implements EvePane {
 	}
 
 	public void setFocusedTeam(String name) {
+		if (name == settings.focusedTeam || name != null && name.equals(settings.focusedTeam)) {
+			return;
+		}
 		debug("focusing on team " + name);
 		settings.focusedTeam = name;
 		settings.store();
