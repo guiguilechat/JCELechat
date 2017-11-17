@@ -13,9 +13,9 @@ import java.util.stream.Collectors;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
+import fr.guiguilechat.eveonline.model.esi.ESIMarket;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 
 

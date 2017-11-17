@@ -5,7 +5,7 @@ import java.util.Map;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.eveonline.model.database.esi.ESICharacter;
+import fr.guiguilechat.eveonline.model.esi.ESICharacter;
 
 public class ESICharacterTest {
 
