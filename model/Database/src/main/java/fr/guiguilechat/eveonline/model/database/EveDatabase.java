@@ -7,8 +7,6 @@ import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.model.database.apiv2.Eve;
-import fr.guiguilechat.eveonline.model.database.esi.ESIBasePrices;
-import fr.guiguilechat.eveonline.model.database.esi.ESIMarket;
 import fr.guiguilechat.eveonline.model.database.yaml.Agent;
 import fr.guiguilechat.eveonline.model.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
@@ -19,6 +17,8 @@ import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Module;
 import fr.guiguilechat.eveonline.model.database.yaml.Station;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
+import fr.guiguilechat.eveonline.model.esi.ESIBasePrices;
+import fr.guiguilechat.eveonline.model.esi.ESIMarket;
 
 public abstract class EveDatabase {
 
