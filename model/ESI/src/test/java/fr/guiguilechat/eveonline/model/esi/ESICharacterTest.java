@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.database.esi;
+package fr.guiguilechat.eveonline.model.esi;
 
 import java.util.Map;
 

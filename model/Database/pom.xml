@@ -46,6 +46,11 @@
 			<artifactId>ESI</artifactId>
 			<version>${project.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.eveonline.model</groupId>
+			<artifactId>APIv2</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>

@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.database.apiv2;
+package fr.guiguilechat.eveonline.model.apiv2;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -11,7 +11,7 @@ import org.jsoup.nodes.Element;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.database.apiv2.Account.APIKeyInfo;
+import fr.guiguilechat.eveonline.model.apiv2.Account.APIKeyInfo;
 
 public class APIRoot {
 

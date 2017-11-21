@@ -15,7 +15,6 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.database.locations.Distances;
-import fr.guiguilechat.eveonline.model.database.yaml.Location;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 
 public class AnalyzeBurnersDest {
@@ -60,7 +59,6 @@ public class AnalyzeBurnersDest {
 			AnalyzeBurnersDest an = new AnalyzeBurnersDest();
 			an.load(textFile);
 			System.err.println(an.system);
-			Location l = d.db.getLocation(an.system);
 
 			PrintStream ps = new PrintStream(new File(outputDir, an.system + ".csv"));
 
@@ -78,10 +76,7 @@ public class AnalyzeBurnersDest {
 			for (int dst : systemDistances) {
 				ps.print(separator + dst);
 			}
-			int maxdist = IntStream.of(systemDistances).max().getAsInt();
 			ps.println();
-			int[] distSystems = IntStream.rangeClosed(0, maxdist + 1).map(i -> d.systemsAtDistance(an.system, i).size())
-					.toArray();
 
 
 			int[] constelsDistances = dests.stream().mapToInt(n -> d.distConstels(n, an.system)).toArray();

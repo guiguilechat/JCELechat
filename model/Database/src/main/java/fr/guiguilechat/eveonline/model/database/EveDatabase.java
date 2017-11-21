@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 
-import fr.guiguilechat.eveonline.model.database.apiv2.Eve;
+import fr.guiguilechat.eveonline.model.apiv2.Eve;
 import fr.guiguilechat.eveonline.model.database.yaml.Agent;
 import fr.guiguilechat.eveonline.model.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
