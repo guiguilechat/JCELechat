@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.database.apiv2;
+package fr.guiguilechat.eveonline.model.apiv2;
 
 public class APIKey {
 

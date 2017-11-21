@@ -18,11 +18,11 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
-import fr.guiguilechat.eveonline.model.database.apiv2.Account.EveChar;
-import fr.guiguilechat.eveonline.model.database.apiv2.Char.Content;
-import fr.guiguilechat.eveonline.model.database.apiv2.Char.OrderEntry;
-import fr.guiguilechat.eveonline.model.database.apiv2.Eve.EStation;
+import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
+import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
+import fr.guiguilechat.eveonline.model.apiv2.Char.Content;
+import fr.guiguilechat.eveonline.model.apiv2.Char.OrderEntry;
+import fr.guiguilechat.eveonline.model.apiv2.Eve.EStation;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;

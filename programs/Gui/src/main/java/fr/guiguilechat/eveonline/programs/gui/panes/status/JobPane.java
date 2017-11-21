@@ -13,10 +13,10 @@ import java.util.stream.Stream;
 
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
-import fr.guiguilechat.eveonline.model.database.apiv2.Account.EveChar;
-import fr.guiguilechat.eveonline.model.database.apiv2.Char;
-import fr.guiguilechat.eveonline.model.database.apiv2.Char.JobEntry;
+import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
+import fr.guiguilechat.eveonline.model.apiv2.Char;
+import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
+import fr.guiguilechat.eveonline.model.apiv2.Char.JobEntry;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.status.JobPane.JobData;

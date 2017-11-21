@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.database.apiv2;
+package fr.guiguilechat.eveonline.model.apiv2;
 
 import java.io.IOException;
 import java.util.ArrayList;

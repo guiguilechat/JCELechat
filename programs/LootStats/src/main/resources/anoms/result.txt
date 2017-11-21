@@ -1,13 +1,13 @@
 havengas serpentis:
-  avgBO: 2.6498696031666674E7
+  avgBO: 2.6638896820000004E7
   desc: havengas serpentis
-  entries: 30
-  factionFreq: 0.03333333333333333
-  factionModFreq: 0.03333333333333333
+  entries: 31
+  factionFreq: 0.03225806451612903
+  factionModFreq: 0.03225806451612903
   factions:
   - Shadow Serpentis Remote Tracking Computer
 haven serpentis:
-  avgBO: 2.3180361533E7
+  avgBO: 2.3351901069333337E7
   desc: haven serpentis
   entries: 30
   factionFreq: 0.1
@@ -19,19 +19,24 @@ haven serpentis:
   - Shadow Serpentis Armor Kinetic Hardener
   - Shadow Serpentis Energized Kinetic Membrane
 havenrock serpentis:
-  avgBO: 2.186270292234694E7
+  avgBO: 2.2699951372E7
   desc: havenrock serpentis
-  entries: 98
-  factionFreq: 0.030612244897959183
-  factionModFreq: 0.030612244897959183
+  entries: 110
+  factionFreq: 0.045454545454545456
+  factionModFreq: 0.045454545454545456
   factions:
   - Shadow Serpentis EM Plating
   - Shadow Serpentis Armor Thermal Hardener
   - Shadow Serpentis Energized Explosive Membrane
+  - Shadow Serpentis Stasis Webifier
   - Shadow Serpentis Inertial Stabilizers
   - Shadow Serpentis Thermal Plating
+forlornhub serpentis:
+  avgBO: 2.166167778E7
+  desc: forlornhub serpentis
+  entries: 1
 forsakenrallypoint serpentis:
-  avgBO: 2.1049652550689653E7
+  avgBO: 2.1303008574482758E7
   desc: forsakenrallypoint serpentis
   entries: 29
   factionFreq: 0.034482758620689655
@@ -40,15 +45,11 @@ forsakenrallypoint serpentis:
   - Shadow Serpentis Tracking Computer
   - Shadow Serpentis Energized Adaptive Nano Membrane
 sanctumring serpentis:
-  avgBO: 2.080643273666667E7
+  avgBO: 2.077295641E7
   desc: sanctumring serpentis
   entries: 3
-forlornhub serpentis:
-  avgBO: 2.075890361E7
-  desc: forlornhub serpentis
-  entries: 1
 forsakenhub serpentis:
-  avgBO: 1.8171830280416667E7
+  avgBO: 1.82531318625E7
   desc: forsakenhub serpentis
   entries: 24
   factionFreq: 0.041666666666666664
@@ -56,15 +57,15 @@ forsakenhub serpentis:
   factions:
   - Shadow Serpentis Armor EM Hardener
 sanctum serpentis:
-  avgBO: 1.6081295358333334E7
+  avgBO: 1.617151980166667E7
   desc: sanctum serpentis
   entries: 6
 forlornrallypoint serpentis:
-  avgBO: 1.4505796450000001E7
+  avgBO: 1.4883176629999999E7
   desc: forlornrallypoint serpentis
   entries: 1
 hub serpentis:
-  avgBO: 1.17389142375E7
+  avgBO: 1.1923628684999997E7
   desc: hub serpentis
   entries: 16
   factionFreq: 0.0625
@@ -72,10 +73,10 @@ hub serpentis:
   factions:
   - Shadow Serpentis Energized Thermal Membrane
 port serpentis:
-  avgBO: 7710112.977499999
+  avgBO: 7774436.3825
   desc: port serpentis
   entries: 4
 forsakenden serpentis:
-  avgBO: 7364142.126666666
+  avgBO: 7464741.910000001
   desc: forsakenden serpentis
   entries: 3

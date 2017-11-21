@@ -11,6 +11,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class ESICharacter {
 
 	private static final String baseURL = "https://esi.tech.ccp.is/latest/characters/names/?character_ids=";
+	/** max number of ids we can specify in a http request */
 	private static final int maxIDs = 500;
 
 	private ObjectMapper om = new ObjectMapper();

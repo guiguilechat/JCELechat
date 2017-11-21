@@ -1,9 +1,9 @@
 base serpentis:
-  avgBO: 1.8312566011341464E7
+  avgBO: 1.958955761044444E7
   desc: base serpentis
-  entries: 82
-  factionFreq: 0.4634146341463415
-  factionModFreq: 0.4634146341463415
+  entries: 90
+  factionFreq: 0.43333333333333335
+  factionModFreq: 0.43333333333333335
   factions:
   - Shadow Serpentis 50MN Microwarpdrive
   - Shadow Serpentis 200mm Railgun
@@ -30,39 +30,40 @@ base serpentis:
   - Shadow Serpentis Thermal Plating
   - Shadow Serpentis 250mm Railgun
 team enyo:
-  avgBO: 6887330.963749999
+  avgBO: 5424997.368247423
   desc: team enyo
-  entries: 88
-  factionFreq: 0.06818181818181818
-  factionModFreq: 0.06818181818181818
+  entries: 97
+  factionFreq: 0.061855670103092786
+  factionModFreq: 0.061855670103092786
   factions:
   - Federation Navy 5MN Microwarpdrive
   - Federation Navy Stasis Webifier
   - Federation Navy Tracking Computer
   - Federation Navy 75mm Railgun
 team jaguar:
-  avgBO: 2905150.678846154
+  avgBO: 2871260.000825688
   desc: team jaguar
-  entries: 104
-  factionFreq: 0.10576923076923077
-  factionModFreq: 0.10576923076923077
+  entries: 109
+  factionFreq: 0.11009174311926606
+  factionModFreq: 0.11009174311926606
   factions:
   - Republic Fleet Small Armor Repairer
   - Republic Fleet Warp Disruptor
   - Republic Fleet Small Proton Smartbomb
   - Federation Navy 1MN Afterburner
   - Republic Fleet 125mm Autocannon
+  - Republic Fleet EM Ward Amplifier
   - Republic Fleet Explosive Deflection Amplifier
   - Republic Fleet Gyrostabilizer
   - Republic Fleet 5MN Microwarpdrive
   - Republic Fleet Armor Thermal Hardener
   - Republic Fleet Rocket Launcher
 team hawk:
-  avgBO: 2011235.8345544555
+  avgBO: 2534731.432972973
   desc: team hawk
-  entries: 101
-  factionFreq: 0.07920792079207921
-  factionModFreq: 0.07920792079207921
+  entries: 111
+  factionFreq: 0.08108108108108109
+  factionModFreq: 0.08108108108108109
   factions:
   - Caldari Navy Cloaking Device
   - Caldari Navy Small Graviton Smartbomb
@@ -73,15 +74,15 @@ team hawk:
   - Caldari Navy EM Ward Field
   - Caldari Navy 150mm Railgun
 base blood:
-  avgBO: 1721997.0033333332
+  avgBO: 1449268.7299999997
   desc: base blood
   entries: 3
 agent blood:
-  avgBO: 1008525.9637614678
+  avgBO: 1037655.5876521742
   desc: agent blood
-  entries: 109
-  factionFreq: 0.05504587155963303
-  factionModFreq: 0.05504587155963303
+  entries: 115
+  factionFreq: 0.05217391304347826
+  factionModFreq: 0.05217391304347826
   factions:
   - Dark Blood Energized Thermal Membrane
   - Dark Blood Dual Light Beam Laser
@@ -90,11 +91,11 @@ agent blood:
   - Dark Blood Reactor Control Unit
   - Dark Blood Stasis Webifier
 team vengeance:
-  avgBO: 920285.6795652173
+  avgBO: 986596.1125263157
   desc: team vengeance
-  entries: 92
-  factionFreq: 0.11956521739130435
-  factionModFreq: 0.11956521739130435
+  entries: 95
+  factionFreq: 0.12631578947368421
+  factionModFreq: 0.12631578947368421
   factions:
   - Imperial Navy Armor Kinetic Hardener
   - Imperial Navy Armor EM Hardener
@@ -107,33 +108,37 @@ team vengeance:
   - Imperial Navy Small Remote Capacitor Transmitter
   - Imperial Navy Small Armor Repairer
 base angel:
-  avgBO: 750063.3754651162
+  avgBO: 717700.800967742
+  bpcFreq: 0.010752688172043012
+  bps:
+  - Cynabal Blueprint
   desc: base angel
-  entries: 86
-  factionFreq: 0.011627906976744186
-  factionModFreq: 0.011627906976744186
+  entries: 93
+  factionFreq: 0.010752688172043012
+  factionModFreq: 0.010752688172043012
   factions:
   - Domination Kinetic Deflection Amplifier
 agent sansha:
-  avgBO: 130652.8041304348
+  avgBO: 154408.98485148515
   desc: agent sansha
-  entries: 92
-  factionFreq: 0.010869565217391304
-  factionModFreq: 0.010869565217391304
+  entries: 101
+  factionFreq: 0.019801980198019802
+  factionModFreq: 0.019801980198019802
   factions:
   - True Sansha EM Plating
+  - True Sansha Armor Explosive Hardener
 agent serpentis:
-  avgBO: 54646.68161290323
-  bpcFreq: 0.03225806451612903
+  avgBO: 52118.458333333336
+  bpcFreq: 0.029411764705882353
   bps:
   - Daredevil Blueprint
   desc: agent serpentis
-  entries: 93
+  entries: 102
 agent guristas:
-  avgBO: 42823.45339805826
+  avgBO: 38941.847009345795
   desc: agent guristas
-  entries: 103
+  entries: 107
 agent angel:
-  avgBO: 12501.31675
+  avgBO: 18294.78816091954
   desc: agent angel
-  entries: 80
+  entries: 87

@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.database.apiv2;
+package fr.guiguilechat.eveonline.model.apiv2;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -7,10 +7,10 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.database.apiv2.Char.BPEntry;
-import fr.guiguilechat.eveonline.model.database.apiv2.Char.Content;
-import fr.guiguilechat.eveonline.model.database.apiv2.Char.JobEntry;
-import fr.guiguilechat.eveonline.model.database.apiv2.Char.OrderEntry;
+import fr.guiguilechat.eveonline.model.apiv2.Char.BPEntry;
+import fr.guiguilechat.eveonline.model.apiv2.Char.Content;
+import fr.guiguilechat.eveonline.model.apiv2.Char.JobEntry;
+import fr.guiguilechat.eveonline.model.apiv2.Char.OrderEntry;
 
 public class Corp {
 

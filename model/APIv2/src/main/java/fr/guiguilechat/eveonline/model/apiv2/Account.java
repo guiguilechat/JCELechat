@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.database.apiv2;
+package fr.guiguilechat.eveonline.model.apiv2;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,10 +13,10 @@ import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.database.apiv2.Char.BPEntry;
-import fr.guiguilechat.eveonline.model.database.apiv2.Char.Content;
-import fr.guiguilechat.eveonline.model.database.apiv2.Char.JobEntry;
-import fr.guiguilechat.eveonline.model.database.apiv2.Char.OrderEntry;
+import fr.guiguilechat.eveonline.model.apiv2.Char.BPEntry;
+import fr.guiguilechat.eveonline.model.apiv2.Char.Content;
+import fr.guiguilechat.eveonline.model.apiv2.Char.JobEntry;
+import fr.guiguilechat.eveonline.model.apiv2.Char.OrderEntry;
 
 public class Account {
 

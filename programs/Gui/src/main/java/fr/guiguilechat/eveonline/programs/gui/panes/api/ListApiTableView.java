@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.programs.gui.panes.api;
 
-import fr.guiguilechat.eveonline.model.database.apiv2.APIRoot;
+import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import javafx.beans.property.ReadOnlyObjectWrapper;
