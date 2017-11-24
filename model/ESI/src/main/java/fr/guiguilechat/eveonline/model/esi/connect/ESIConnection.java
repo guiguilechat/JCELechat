@@ -137,7 +137,18 @@ public class ESIConnection {
 		return Base64.getEncoder().encodeToString((appID + ":" + appCode).getBytes(StandardCharsets.UTF_8));
 	}
 
-	public static String getRefreshToken(String appAuth, String authorizationCode) {
+	/**
+	 * connect to the auth server with given appAuth, transmit data and return the
+	 * resulting line.
+	 *
+	 * @param appAuth
+	 *          the base64 value of APPID:APPSECRET
+	 * @param transmitData
+	 *          the data transmitted in the header of the application, as JSON
+	 * @return the line returned as the result of connection, or null if any issue
+	 *         appears.
+	 */
+	protected static String getAuthLine(String appAuth, String transmitData) {
 		try {
 			String url = "https://login.eveonline.com/oauth/token";
 			URL target = new URL(url);
@@ -147,28 +158,38 @@ public class ESIConnection {
 			con.setRequestProperty("Content-Type", "application/json");
 			con.setDoOutput(true);
 			DataOutputStream wr = new DataOutputStream(con.getOutputStream());
-			String transmit = "{\"grant_type\":\"authorization_code\",\"code\":\"" + authorizationCode + "\"}";
-			wr.write(transmit.getBytes(StandardCharsets.UTF_8));
+			wr.write(transmitData.getBytes(StandardCharsets.UTF_8));
 			wr.flush();
 			wr.close();
 			int responseCode = con.getResponseCode();
 			if (responseCode != 200) {
 				System.err.println("response is " + responseCode);
 				System.err.println("properties are " + con.getRequestProperties());
+				System.err.println("returned error :");
 				new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(System.err::println);
 				return null;
 			} else {
-				String line = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
-				Map<String, String> map = new ObjectMapper().readValue(line, new TypeReference<Map<String, String>>() {
-				});
-				String refreshtoken = map.get("refresh_token");
-				if (refreshtoken == null) {
-					System.err.println("received " + map);
-				}
-				return refreshtoken;
+				return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
 			}
 		} catch (Exception e) {
 			throw new UnsupportedOperationException("catch this", e);
+		}
+	}
+
+	public static String getRefreshToken(String appAuth, String authorizationCode) {
+		String transmit = "{\"grant_type\":\"authorization_code\",\"code\":\"" + authorizationCode + "\"}";
+		try {
+			Map<String, String> map = new ObjectMapper().readValue(getAuthLine(appAuth, transmit),
+					new TypeReference<Map<String, String>>() {
+			});
+			String refreshtoken = map.get("refresh_token");
+			if (refreshtoken == null) {
+				System.err.println("received " + map);
+			}
+			return refreshtoken;
+		} catch (Exception e) {
+			logger.debug("while getting refresh token", e);
+			return null;
 		}
 	}
 
@@ -178,40 +199,22 @@ public class ESIConnection {
 	}
 
 	public static AccessToken getAccessToken(String appAuth, String refreshtoken) {
+		String transmit = "{\"grant_type\":\"refresh_token\",\"refresh_token\":\"" + refreshtoken + "\"}";
 		try {
-			String url = "https://login.eveonline.com/oauth/token";
-			URL target = new URL(url);
-			HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
-			con.setRequestMethod("POST");
-			con.setRequestProperty("Authorization", "Basic " + appAuth);
-			con.setRequestProperty("Content-Type", "application/json");
-			con.setDoOutput(true);
-			DataOutputStream wr = new DataOutputStream(con.getOutputStream());
-			String transmit = "{\"grant_type\":\"refresh_token\",\"refresh_token\":\"" + refreshtoken + "\"}";
-			wr.write(transmit.getBytes(StandardCharsets.UTF_8));
-			wr.flush();
-			wr.close();
-			int responseCode = con.getResponseCode();
-			if (responseCode != 200) {
-				System.err.println("response is " + responseCode);
-				System.err.println("properties are " + con.getRequestProperties());
-				new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(System.err::println);
-				return null;
-			} else {
-				String line = new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
-				Map<String, String> map = new ObjectMapper().readValue(line, new TypeReference<Map<String, String>>() {
-				});
-				String accessToken = map.get("access_token");
-				if (accessToken == null) {
-					System.err.println("received " + map);
-				}
-				AccessToken ret = new AccessToken();
-				ret.token = accessToken;
-				ret.expire = System.currentTimeMillis() + (Integer.parseInt(map.get("expires_in")) - 1) * 1000;
-				return ret;
+			Map<String, String> map = new ObjectMapper().readValue(getAuthLine(appAuth, transmit),
+					new TypeReference<Map<String, String>>() {
+			});
+			String accessToken = map.get("access_token");
+			if (accessToken == null) {
+				System.err.println("received " + map);
 			}
+			AccessToken ret = new AccessToken();
+			ret.token = accessToken;
+			ret.expire = System.currentTimeMillis() + (Integer.parseInt(map.get("expires_in")) - 1) * 1000;
+			return ret;
 		} catch (Exception e) {
-			throw new UnsupportedOperationException("catch this", e);
+			logger.debug("while getting access token", e);
+			return null;
 		}
 	}
 
@@ -226,7 +229,7 @@ public class ESIConnection {
 
 	protected String getAccessToken() {
 		if (accessToken == null || accessToken.expire < System.currentTimeMillis()) {
-			System.err.println("fetching access token");
+			logger.trace("fetching access token");
 			accessToken = getAccessToken(basicAuth, refreshToken);
 		}
 		return accessToken.token;

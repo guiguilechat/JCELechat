@@ -30,18 +30,22 @@ public class ESIBasePrices {
 				if (cachedAdjusted != null && cachedAverage != null) {
 					return;
 				}
-				cachedAverage = new HashMap<>();
-				cachedAdjusted = new HashMap<>();
+				HashMap<Integer, Double> fcachedAverage = new HashMap<>();
+				HashMap<Integer, Double> fcachedAdjusted = new HashMap<>();
 				ObjectMapper mapper = new ObjectMapper(); // just need one
 				try {
-					List<Map<String, ?>> l = mapper.readerFor(new TypeReference<List<Map<String, ?>>>() {
+					// need Map<String, ?> because this is actually numbers : doubles or
+					// longs.
+					List<Map<String, Number>> l = mapper.readerFor(new TypeReference<List<Map<String, Number>>>() {
 					}).readValue(new URL("https://esi.tech.ccp.is/latest/markets/prices/"));
-					for (Map<String, ?> m : l) {
-						Object oid = m.get("type_id");
+					for (Map<String, Number> m : l) {
+						Number oid = m.get("type_id");
 						int id = (Integer) oid;
-						cachedAverage.put(id, (Double) m.get("average_price"));
-						cachedAdjusted.put(id, (Double) m.get("adjusted_price"));
+						fcachedAverage.put(id, (Double) m.get("average_price"));
+						fcachedAdjusted.put(id, (Double) m.get("adjusted_price"));
 					}
+					cachedAverage = fcachedAverage;
+					cachedAdjusted = fcachedAdjusted;
 				} catch (IOException e) {
 					e.printStackTrace(System.err);
 				}

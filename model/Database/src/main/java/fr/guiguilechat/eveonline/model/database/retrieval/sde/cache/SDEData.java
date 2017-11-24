@@ -20,11 +20,11 @@ import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeEffects;
 import fr.guiguilechat.eveonline.model.sde.bsd.EstaStations;
 import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints;
+import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints.BPActivities.Activity;
+import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints.Material;
 import fr.guiguilechat.eveonline.model.sde.fsd.EcategoryIDs;
 import fr.guiguilechat.eveonline.model.sde.fsd.EgroupIDs;
 import fr.guiguilechat.eveonline.model.sde.fsd.EtypeIDs;
-import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints.Material;
-import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints.BPActivities.Activity;
 import fr.guiguilechat.eveonline.model.sde.model.IndustryUsages;
 import fr.guiguilechat.eveonline.model.sde.model.InventionDecryptor;
 
@@ -183,7 +183,7 @@ public class SDEData {
 
 	public ArrayList<InventionDecryptor> getInventionDecryptors() {
 		if (cachedDecryptors == null) {
-			// group of decryptors. hardcoded since I don't know how to get the
+			// group of decryptors. hardcoded since I don't know how to get it
 			HashSet<Integer> groups = new HashSet<>();
 			groups.add(1304);
 
