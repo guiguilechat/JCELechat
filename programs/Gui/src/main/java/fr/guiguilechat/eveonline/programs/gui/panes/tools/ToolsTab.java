@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.programs.gui.panes.tools;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.tools.burners.BurnerPane;
+import fr.guiguilechat.eveonline.programs.gui.panes.tools.inventer.InventerPane;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 
@@ -30,6 +31,8 @@ public class ToolsTab extends TabPane implements EvePane {
 
 	BurnerPane bpane;
 
+	InventerPane invPane;
+
 	public ToolsTab(Manager parent) {
 		this.parent = parent;
 		setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
@@ -44,8 +47,9 @@ public class ToolsTab extends TabPane implements EvePane {
 			}
 		});
 		bpane = new BurnerPane(parent);
-		getTabs().add(new Tab("burners", bpane));
-		children = new EvePane[] { bpane };
+		invPane = new InventerPane(parent);
+		getTabs().addAll(new Tab("burners", bpane), new Tab("invention", invPane));
+		children = new EvePane[] { bpane, invPane };
 	}
 
 	protected boolean shown = false;

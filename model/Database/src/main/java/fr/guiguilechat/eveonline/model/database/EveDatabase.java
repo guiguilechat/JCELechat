@@ -1,9 +1,11 @@
 package fr.guiguilechat.eveonline.model.database;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.model.apiv2.Eve;
@@ -71,6 +73,10 @@ public abstract class EveDatabase {
 
 	public abstract LinkedHashMap<String, MetaInf> getMetaInfs();
 
+	public int getId(String name) {
+		return getMetaInfs().get(name).id;
+	}
+
 	public abstract ArrayList<LPOffer> getLPOffers();
 
 	public abstract LinkedHashMap<String, Agent> getAgents();
@@ -114,36 +120,7 @@ public abstract class EveDatabase {
 		return esi;
 	}
 
-	// central cache
-
-	protected HashMap<Integer, EveCentral> centrals = new HashMap<>();
-
-	/**
-	 * get a cached central for given system|region.
-	 *
-	 * @param systemID
-	 *          ID of system, Jita by default, or a region.
-	 * @return the internal cached eve-central proxy
-	 */
-	public EveCentral central(int systemID) {
-		EveCentral ret = centrals.get(systemID);
-		if (ret == null) {
-			ret = new EveCentral(systemID);
-			centrals.put(systemID, ret);
-		}
-		return ret;
-	}
-
-	public EveCentral central(String limit) {
-		Location location = getLocation(limit);
-		if (location == null || location.getLocationType() < 1 || location.getLocationType() > 3) {
-			return central(0);
-		}
-		if (location.getLocationType() == 2) {
-			location = getLocation(location.parentRegion);
-		}
-		return central(location.locationID);
-	}
+	// market cache
 
 	protected HashMap<Integer, ESIMarket> esiregions = new HashMap<>();
 
@@ -166,6 +143,8 @@ public abstract class EveDatabase {
 		}
 		return ESIRegion(location.locationID);
 	}
+
+	// locations
 
 	protected HashMap<Integer, Location> locationsById = null;
 
@@ -199,8 +178,40 @@ public abstract class EveDatabase {
 
 	protected final Eve eve = new Eve();
 
+	/** get the {@link Eve} apiv2 access */
 	public Eve eve() {
 		return eve;
+	}
+
+	public static enum InventionDecryptor {
+
+		None("No Decryptor", 0, 0, 0, 0, 1.0)
+		, Accelerant("Accelerant Decryptor", 34201, 1, 2, 10, 1.2)
+		, Attainment("Attainment Decryptor", 34202, 4, -1, +4, 1.8)
+		, Augmentation("Augmentation Decryptor", 34203, 9, -2, +2, 0.6)
+		, Parity("Parity Decryptor", 34204, 3, 1, -2, 1.5)
+		, Process("Process Decryptor", 34205, 0, 3, 6, 1.1)
+		, Symmetry("Symmetry Decryptor", 34206, 2,1, 8, 1.0)
+		, OptimizedAttainment("Optimized Attainment Decryptor", 34207, 2, 1, -2, 1.9)
+		, OptimizedAugmentation("Optimized Augmentation Decryptor", 34208, 7, 2, 0, 0.9);
+
+		public final String name;
+		public final int maxrun, me, te;
+		public final double probmult;
+		public final int id;
+
+		private InventionDecryptor(String name, int id, int runs, int me, int te, double successMult) {
+			this.name = name;
+			this.id = id;
+			maxrun = runs;
+			this.me = me;
+			this.te = te;
+			probmult = successMult;
+		}
+	}
+
+	public List<InventionDecryptor> decryptors() {
+		return Arrays.asList(InventionDecryptor.values());
 	}
 
 }

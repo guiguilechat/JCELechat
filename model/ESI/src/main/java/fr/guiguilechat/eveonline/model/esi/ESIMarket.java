@@ -23,6 +23,8 @@ public class ESIMarket {
 
 	private static final Logger logger = LoggerFactory.getLogger(ESIMarket.class);
 
+	public static final int THEFORGE = 10000002, DOMAIN = 10000043, SINQLAISON = 10000032;
+
 	private final String historyURL;
 	private final String ordersURL;
 	public final int region;

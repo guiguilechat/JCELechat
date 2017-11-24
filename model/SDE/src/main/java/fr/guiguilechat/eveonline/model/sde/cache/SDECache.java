@@ -52,7 +52,7 @@ public class SDECache {
 	 * sde . those files will be extracted and placed in {@link #CACHEDIR}
 	 */
 	@SuppressWarnings("resource")
-	public void donwloadSDE() {
+	public synchronized void donwloadSDE() {
 		if (triedDL) {
 			return;
 		}

@@ -93,6 +93,22 @@ public class Settings implements ISettings {
 
 	}
 
+	public static class InventionParams {
+		public String marketRegion = "TheForge";
+		public double copyIndex = 4;
+		public double copyTax = 10;
+		public double inventIndex = 4;
+		public double inventTax = 10;
+		public double manufactureIndex = 4;
+		public double manufactureTax = 10;
+		public double sellTax = 1;
+		public double brokerFee = 2;
+		public int nbHours = 48;
+		public String decryptor = null;
+	}
+
+	public InventionParams invention = new InventionParams();
+
 	public BurnersEval burners = new BurnersEval();
 
 	@Override
