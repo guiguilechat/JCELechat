@@ -1,5 +1,6 @@
 package fr.guiguilechat.eveonline.programs.gui.panes.tools;
 
+import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.gui.panes.tools.burners.BurnerPane;
@@ -57,6 +58,11 @@ public class ToolsTab extends TabPane implements EvePane {
 	@Override
 	public void onIsShown(boolean shown) {
 		this.shown = shown;
+	}
+
+	@Override
+	public void onNewAPI(APIRoot... apis) {
+		System.err.println("new api for toolstab");
 	}
 
 }

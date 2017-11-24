@@ -95,6 +95,7 @@ public class Settings implements ISettings {
 
 	public static class InventionParams {
 		public String marketRegion = "TheForge";
+		public String characterSkills = null;
 		public double copyIndex = 4;
 		public double copyTax = 10;
 		public double inventIndex = 4;
@@ -104,7 +105,6 @@ public class Settings implements ISettings {
 		public double sellTax = 1;
 		public double brokerFee = 2;
 		public int nbHours = 48;
-		public String decryptor = null;
 	}
 
 	public InventionParams invention = new InventionParams();

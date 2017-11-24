@@ -53,6 +53,16 @@ public class OptionsPane extends HBox implements EvePane {
 		}
 		BurnersEval burnersSettings = parent().settings.burners;
 
+		GridPane computepane = new GridPane();
+		computepane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
+
+		lpQtty = TypedField.positivIntField(burnersSettings.lpQtty);
+		lpQtty.setTooltip(new Tooltip("quantity of LP to use. Higher LP quantity means less interesting BO/SO values, "));
+		lpQtty.setOnScroll(new ScrollAdd.IntScrollAdd(100000, lpQtty));
+		computepane.addRow(0, new Label("LP quantity"), lpQtty);
+
+		computepane.addRow(2, computeBtn);
+
 		GridPane marketPane = new GridPane();
 		marketPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
 
@@ -66,18 +76,13 @@ public class OptionsPane extends HBox implements EvePane {
 		sellTax = TypedField.positivDecimal(burnersSettings.sellTax);
 		sellTax.setTooltip(new Tooltip("percentage of the sale that is due as tax"));
 		sellTax.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, sellTax));
-		marketPane.addRow(1, new Label("sell tax percentage"), sellTax);
+		marketPane.addRow(1, new Label("sell tax %"), sellTax);
 
 		brokerFee = TypedField.positivDecimal(burnersSettings.brokerFee);
 		brokerFee.setTooltip(new Tooltip(
 				"when buying at BO value or selling at SO value, the percentage of the transaction that is due as broker fee"));
 		brokerFee.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, brokerFee));
-		marketPane.addRow(2, new Label("broker tax percentage"), brokerFee);
-
-		lpQtty = TypedField.positivIntField(burnersSettings.lpQtty);
-		lpQtty.setTooltip(new Tooltip("quantity of LP to use. Higher LP quantity means less interesting BO/SO values, "));
-		lpQtty.setOnScroll(new ScrollAdd.IntScrollAdd(100000, lpQtty));
-		marketPane.addRow(3, new Label("LP quantity"), lpQtty);
+		marketPane.addRow(2, new Label("broker fee %"), brokerFee);
 
 		GridPane mapPane = new GridPane();
 		mapPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
@@ -85,12 +90,12 @@ public class OptionsPane extends HBox implements EvePane {
 		weightConst = TypedField.positivDecimal(burnersSettings.weightConstel);
 		weightConst.setTooltip(new Tooltip("probability weight of system in same constelation"));
 		weightConst.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, weightConst));
-		mapPane.addRow(1, new Label("constel weight"), weightConst);
+		mapPane.addRow(1, new Label("same const"), weightConst);
 
 		weightOut = TypedField.positivDecimal(burnersSettings.weightOut);
 		weightOut.setTooltip(new Tooltip("probability weight of system in adjacent constel"));
 		weightOut.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, weightOut));
-		mapPane.addRow(2, new Label("other weight"), weightOut);
+		mapPane.addRow(2, new Label("out const"), weightOut);
 
 		hubConstelMult = TypedField.positivDecimal(burnersSettings.hubConstelMult);
 		hubConstelMult.setTooltip(new Tooltip("weight mult of system in hub constel"));
@@ -116,7 +121,7 @@ public class OptionsPane extends HBox implements EvePane {
 			tf.setMaxWidth(70);
 		}
 
-		getChildren().addAll(computeBtn, marketPane, mapPane, speedPane);
+		getChildren().addAll(computepane, marketPane, mapPane, speedPane);
 		loaded = true;
 	}
 

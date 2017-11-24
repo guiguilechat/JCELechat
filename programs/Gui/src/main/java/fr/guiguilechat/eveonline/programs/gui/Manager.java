@@ -94,7 +94,7 @@ public class Manager extends Application implements EvePane {
 	protected TabPane tabs;
 	protected Tab statustab, provisiontab, teamtab, apitab, tooltab;
 
-	private EvePane[] children = new EvePane[] { statuspane, provisionpane, teamPane, apiPane };
+	private EvePane[] children = new EvePane[] { statuspane, provisionpane, teamPane, apiPane, toolsPane };
 
 	@Override
 	public EvePane[] subEvePanes() {
@@ -181,6 +181,7 @@ public class Manager extends Application implements EvePane {
 	//
 	// event handling
 	//
+
 
 	@Override
 	public void onDelAPI(int key) {

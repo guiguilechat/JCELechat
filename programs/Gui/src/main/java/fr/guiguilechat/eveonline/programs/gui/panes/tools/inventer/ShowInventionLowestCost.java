@@ -123,7 +123,7 @@ public class ShowInventionLowestCost {
 		// if no decryptor specified, use no decryptor.
 
 		List<InventionDecryptor> decryptors = db.decryptors().stream()
-				.filter(d -> params.decryptor == null || d.name.contains(params.decryptor)).collect(Collectors.toList());
+				.collect(Collectors.toList());
 		// the bpc selected
 		Blueprint bpc = db.getBlueprints().get(selectedbpc.name);
 		Material product = bpc.manufacturing.products.get(0);
