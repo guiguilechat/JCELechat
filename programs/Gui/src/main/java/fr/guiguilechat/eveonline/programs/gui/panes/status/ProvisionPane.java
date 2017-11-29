@@ -27,11 +27,12 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 		public long required;
 		public long done;
 		public ProvisionType type;
+		public String team;
 		boolean added = false;
 
 		@Override
 		public int hashCode() {
-			return (int) (item.hashCode() + required + done);
+			return (int) (item.hashCode() + required + done + team.hashCode());
 		}
 
 		@Override
@@ -46,7 +47,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 				return false;
 			}
 			ProvisionData o = (ProvisionData) obj;
-			return item.equals(o.item)
+			return item.equals(o.item) && team.equals(o.team)
 					&& required == o.required
 					&& done == o.done;
 		}
@@ -75,6 +76,10 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 		desCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().item));
 		desCol.setMinWidth(400);
 		getColumns().add(desCol);
+
+		TableColumn<ProvisionData, String> teamCol = new TableColumn<>("team");
+		teamCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().team));
+		getColumns().add(teamCol);
 
 		TableColumn<ProvisionData, Long> missingCol = new TableColumn<>("missing");
 		missingCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().required - ed.getValue().done));
@@ -108,71 +113,97 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	// provision preparation.
 	//
 
-	HashMap<Integer, ProvisionData> itemsProvisionsMaterial = new HashMap<>();
-	HashMap<Integer, ProvisionData> itemsProvisionsProduct = new HashMap<>();
-	HashMap<Integer, ProvisionData> itemsProvisionsSO = new HashMap<>();
+	private class TeamProvisions {
+		public HashMap<Integer, ProvisionData> itemsProvisionsMaterial = new HashMap<>();
+		public HashMap<Integer, ProvisionData> itemsProvisionsProduct = new HashMap<>();
+		public HashMap<Integer, ProvisionData> itemsProvisionsSO = new HashMap<>();
 
-	/** get a provision preparation of given type for given item id */
-	public ProvisionData getProvision(int itemID, ProvisionType ptype) {
-		HashMap<Integer, ProvisionData> map = null;
-		switch (ptype) {
-		case MATERIAL:
-			map = itemsProvisionsMaterial;
-			break;
-		case PRODUCT:
-			map = itemsProvisionsProduct;
-			break;
-		case SO:
-			map = itemsProvisionsSO;
-			break;
-		default:
-			throw new UnsupportedOperationException("handle " + ptype);
+		public final String team;
+
+		public TeamProvisions(String team) {
+			this.team = team;
 		}
-		ProvisionData ret = map.get(itemID);
-		if (ret == null) {
-			ret = new ProvisionData();
-			ret.item = db().getElementById(itemID);
-			if (ret.item == null) {
-				ret.item="unknown_"+itemID;
+
+		/** get a provision preparation of given type for given item id */
+		public ProvisionData getProvision(int itemID, ProvisionType ptype) {
+
+			HashMap<Integer, ProvisionData> map = null;
+			switch (ptype) {
+			case MATERIAL:
+				map = itemsProvisionsMaterial;
+				break;
+			case PRODUCT:
+				map = itemsProvisionsProduct;
+				break;
+			case SO:
+				map = itemsProvisionsSO;
+				break;
+			default:
+				throw new UnsupportedOperationException("handle " + ptype);
 			}
-			map.put(itemID, ret);
+			ProvisionData ret = map.get(itemID);
+			if (ret == null) {
+				ret = new ProvisionData();
+				ret.item = db().getElementById(itemID);
+				ret.team=team;
+				if (ret.item == null) {
+					ret.item="unknown_"+itemID;
+				}
+				ret.type = ptype;
+				map.put(itemID, ret);
+			}
+			return ret;
 		}
-		return ret;
+
 	}
+
+	protected Map<String, TeamProvisions> teamprovisions = new HashMap<>();
 
 	/**
 	 * prepare provisions for focused team.
 	 */
 	protected void prepareProvisions() {
-		itemsProvisionsMaterial.values().stream().forEach(pp -> pp.required = 0);
-		itemsProvisionsProduct.values().stream().forEach(pp -> pp.required = 0);
-		itemsProvisionsSO.values().stream().forEach(pp -> pp.required = 0);
+		for (TeamProvisions tp : teamprovisions.values()) {
+			tp.itemsProvisionsMaterial.values().stream().forEach(pp -> pp.required = 0);
+			tp.itemsProvisionsProduct.values().stream().forEach(pp -> pp.required = 0);
+			tp.itemsProvisionsSO.values().stream().forEach(pp -> pp.required = 0);
+		}
 		getItems().clear();
-		for (ProvisionType ptype : ProvisionType.values()) {
-			for (Entry<Integer, Integer> e : parent.getFTeamProvision(ptype).total.entrySet()) {
-				ProvisionData pr = getProvision(e.getKey(), ptype);
-				pr.required = e.getValue();
-				pr.type = ptype;
-				getItems().add(pr);
+		for (String team : parent().settings.teams.keySet()) {
+			TeamProvisions tp = teamprovisions.get(team);
+			if (tp == null) {
+				tp = new TeamProvisions(team);
+				teamprovisions.put(team, tp);
+			}
+			for (ProvisionType ptype : ProvisionType.values()) {
+				for (Entry<Integer, Integer> e : parent.getTeamProvision(team, ptype).total.entrySet()) {
+					ProvisionData pr = tp.getProvision(e.getKey(), ptype);
+					pr.required += e.getValue();
+					pr.type = ptype;
+					getItems().add(pr);
+				}
 			}
 		}
 		updateItems();
 	}
 
 	public void updateItems() {
-		Map<Integer, Long> assets = parent().getFTeamAssets();
-		Map<Integer, Long> bos = parent().getFTeamBOs();
-		Map<Integer, Long> sos = parent().getFTeamSOs();
-		Map<Integer, Long> materials = Stream.concat(assets.entrySet().stream(), bos.entrySet().stream())
-				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, Long::sum));
-		for (Entry<Integer, Long> e : materials.entrySet()) {
-			updateItemQuantity(e.getValue(), getProvision(e.getKey(), ProvisionType.MATERIAL));
-		}
-		for (Entry<Integer, Long> e : assets.entrySet()) {
-			updateItemQuantity(e.getValue(), getProvision(e.getKey(), ProvisionType.PRODUCT));
-		}
-		for (Entry<Integer, Long> e : sos.entrySet()) {
-			updateItemQuantity(e.getValue(), getProvision(e.getKey(), ProvisionType.SO));
+		for (String team : parent().settings.teams.keySet()) {
+			TeamProvisions tp = teamprovisions.get(team);
+			Map<Integer, Long> assets = parent().getTeamAssets(team);
+			Map<Integer, Long> bos = parent().getTeamBOs(team);
+			Map<Integer, Long> sos = parent().getTeamSOs(team);
+			Map<Integer, Long> materials = Stream.concat(assets.entrySet().stream(), bos.entrySet().stream())
+					.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, Long::sum));
+			for (Entry<Integer, Long> e : materials.entrySet()) {
+				updateItemQuantity(e.getValue(), tp.getProvision(e.getKey(), ProvisionType.MATERIAL));
+			}
+			for (Entry<Integer, Long> e : assets.entrySet()) {
+				updateItemQuantity(e.getValue(), tp.getProvision(e.getKey(), ProvisionType.PRODUCT));
+			}
+			for (Entry<Integer, Long> e : sos.entrySet()) {
+				updateItemQuantity(e.getValue(), tp.getProvision(e.getKey(), ProvisionType.SO));
+			}
 		}
 		sort();
 	}
@@ -183,14 +214,6 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 		getItems().remove(pp);
 		if (pp.required > 0) {
 			getItems().add(pp);
-		}
-	}
-
-	@Override
-	public void onFocusedTeam(String teamName) {
-		getItems().clear();
-		if (shown) {
-			prepareProvisions();
 		}
 	}
 

@@ -139,9 +139,10 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 
 	public void updateListBPs() {
 		bpsPane.getItems().clear();
-		HashMap<Integer, Integer> mats = parent().getFTeamProvision(ProvisionType.MATERIAL).blueprints;
-		HashMap<Integer, Integer> prods = parent().getFTeamProvision(ProvisionType.PRODUCT).blueprints;
-		HashMap<Integer, Integer> sos = parent().getFTeamProvision(ProvisionType.SO).blueprints;
+		String team = parent.settings.focusedTeam;
+		HashMap<Integer, Integer> mats = parent().getTeamProvision(team, ProvisionType.MATERIAL).blueprints;
+		HashMap<Integer, Integer> prods = parent().getTeamProvision(team, ProvisionType.PRODUCT).blueprints;
+		HashMap<Integer, Integer> sos = parent().getTeamProvision(team, ProvisionType.SO).blueprints;
 		streambps().forEachOrdered(bp -> {
 			BPRow row = makeBPNode(bp);
 			row.materialField.setValue(mats.getOrDefault(bp.id, 0));

@@ -4,7 +4,6 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
-import fr.guiguilechat.eveonline.programs.gui.panes.SelectTeamPane;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.TabPane.TabClosingPolicy;
@@ -25,7 +24,6 @@ public class StatusPane extends BorderPane implements EvePane {
 		return parent;
 	}
 
-	protected SelectTeamPane selectTeamPane;
 	protected JobPane jobpane;
 	protected ProvisionPane provisionpane;
 	TabPane tabs = new TabPane();
@@ -39,11 +37,10 @@ public class StatusPane extends BorderPane implements EvePane {
 
 	public StatusPane(Manager parent) {
 		this.parent = parent;
-		selectTeamPane = new SelectTeamPane(parent);
 
 		jobpane = new JobPane(parent);
 		provisionpane = new ProvisionPane(parent);
-		children = new EvePane[] { selectTeamPane, jobpane, provisionpane };
+		children = new EvePane[] { jobpane, provisionpane };
 
 		Tab tjobs = new Tab("jobs", jobpane);
 		Tab tprovision = new Tab("provision", provisionpane);
@@ -58,7 +55,6 @@ public class StatusPane extends BorderPane implements EvePane {
 			}
 		});
 
-		setTop(selectTeamPane);
 		setCenter(tabs);
 		// getChildren().addAll(selectTeamPane, tpjobs, tpprovi);
 	}

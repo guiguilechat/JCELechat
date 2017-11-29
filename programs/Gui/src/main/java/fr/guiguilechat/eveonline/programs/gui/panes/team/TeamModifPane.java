@@ -48,19 +48,14 @@ public class TeamModifPane extends HBox implements EvePane {
 		renTxt.setPromptText("new name");
 		Button renBut = new Button("rename");
 		renBut.setOnAction(e -> rename(renTxt));
-		renBox.getChildren().addAll(renTxt, renBut);
-
-		VBox cpBox = new VBox();
-		TextField cpTxt = new TextField();
-		cpTxt.setPromptText("new name");
 		Button cpBut = new Button("copy");
-		cpBut.setOnAction(e -> copy(cpTxt));
-		cpBox.getChildren().addAll(cpTxt, cpBut);
+		cpBut.setOnAction(e -> copy(renTxt));
+		renBox.getChildren().addAll(renTxt, new HBox(renBut, cpBut));
 
 		Button delButton = new Button("delete");
 		delButton.setOnAction(e -> parent.delTeam(name));
 
-		updateBox.getChildren().addAll(new Label(), renBox, cpBox, delButton);
+		updateBox.getChildren().addAll(new Label(), renBox, delButton);
 
 		updateBox.setStyle("-fx-border-color: grey; -fx-border-width: 1; -fx-border-radius: 10;");
 		toonBP.setStyle("-fx-border-color: grey; -fx-border-width: 1; -fx-border-radius: 10;");

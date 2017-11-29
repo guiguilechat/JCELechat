@@ -8,9 +8,11 @@ import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.Settings.InventionParams;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
+import fr.guiguilechat.eveonline.programs.gui.panes.tools.inventer.InventerPane.StructBonus;
 import fr.guiguilechat.eveonline.programs.panes.ScrollAdd;
 import fr.guiguilechat.eveonline.programs.panes.TypedField;
 import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -35,12 +37,19 @@ public class OptionsPane extends HBox implements EvePane {
 	public ChoiceBox<EveChar> characterSkills = new ChoiceBox<>();
 
 	public TextField bpPattern = new TextField();
-	public TypedField<Integer> nbHours;
-	public TypedField<Double> sellTax, brokerFee, copyTax, copyIndex, inventTax, inventIndex, manufTax, manufIndex;
+	public CheckBox onlyBest = new CheckBox();
+	public TypedField<Double> sellTax, brokerFee;
+	public TypedField<Double> copyTax, copyIndex;
+	public ChoiceBox<InventerPane.StructBonus> copystruct;
+	public TypedField<Double> inventTax, inventIndex;
+	public ChoiceBox<InventerPane.StructBonus> inventstruct;
+	public TypedField<Double> manufTax, manufIndex;
+	public ChoiceBox<InventerPane.StructBonus> manufstruct;
 
 	public OptionsPane(Manager parent) {
 		this.parent = parent;
-		characterSkills.getItems().add(null);
+		InventerPane.ALL5.name = "all5";
+		characterSkills.getItems().add(InventerPane.ALL5);
 		characterSkills.setConverter(new StringConverter<Account.EveChar>() {
 
 			@Override
@@ -82,13 +91,8 @@ public class OptionsPane extends HBox implements EvePane {
 		marketRegion.getItems().sort(String::compareToIgnoreCase);
 
 		characterSkills.getSelectionModel()
-		.select(characterSkills.getItems().stream().filter(ec -> ec == null && settings.characterSkills == null
-		|| ec != null && ec.name.equals(settings.characterSkills)).findFirst()
-				.orElse(null));
-
-		nbHours = TypedField.positivIntField(settings.nbHours);
-		nbHours.setTooltip(new Tooltip("number of hours or resarch or production to run"));
-		nbHours.setOnScroll(new ScrollAdd.IntScrollAdd(1, nbHours));
+		.select(characterSkills.getItems().stream().filter(ec -> ec.name.equals(settings.characterSkills)).findFirst()
+				.orElse(InventerPane.ALL5));
 
 		sellTax = TypedField.positivDecimal(settings.sellTax);
 		sellTax.setTooltip(new Tooltip("percentage of the sale that is due as tax"));
@@ -99,6 +103,8 @@ public class OptionsPane extends HBox implements EvePane {
 				"when buying at BO value or selling at SO value, the percentage of the transaction that is due as broker fee"));
 		brokerFee.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, brokerFee));
 
+		onlyBest.setSelected(true);
+
 		copyTax = TypedField.positivDecimal(settings.copyTax);
 		copyTax.setTooltip(new Tooltip("station tax on copying"));
 		copyTax.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, copyTax));
@@ -106,6 +112,11 @@ public class OptionsPane extends HBox implements EvePane {
 		copyIndex = TypedField.positivDecimal(settings.copyIndex);
 		copyIndex.setTooltip(new Tooltip("system copying index"));
 		copyIndex.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, copyIndex));
+
+		copystruct = new ChoiceBox<>();
+		copystruct.getItems().addAll(StructBonus.values());
+		copystruct.getSelectionModel()
+		.select(settings.copystruct == null ? StructBonus.none : StructBonus.valueOf(settings.copystruct));
 
 		inventTax = TypedField.positivDecimal(settings.inventTax);
 		inventTax.setTooltip(new Tooltip("station tax on invention"));
@@ -115,6 +126,11 @@ public class OptionsPane extends HBox implements EvePane {
 		inventIndex.setTooltip(new Tooltip("system invention index"));
 		inventIndex.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, inventIndex));
 
+		inventstruct = new ChoiceBox<>();
+		inventstruct.getItems().addAll(StructBonus.values());
+		inventstruct.getSelectionModel()
+		.select(settings.inventstruct == null ? StructBonus.none : StructBonus.valueOf(settings.inventstruct));
+
 		manufTax = TypedField.positivDecimal(settings.manufactureTax);
 		manufTax.setTooltip(new Tooltip("station tax on manufacture"));
 		manufTax.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, manufTax));
@@ -123,36 +139,44 @@ public class OptionsPane extends HBox implements EvePane {
 		manufIndex.setTooltip(new Tooltip("system manufacturing index"));
 		manufIndex.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, manufIndex));
 
-		for (Region tf : new Region[] { brokerFee, characterSkills, copyIndex, copyTax, inventIndex, inventTax, manufIndex,
-				manufTax, marketRegion, nbHours, sellTax, bpPattern }) {
+		manufstruct = new ChoiceBox<>();
+		manufstruct.getItems().addAll(StructBonus.values());
+		manufstruct.getSelectionModel()
+		.select(settings.manufstruct == null ? StructBonus.none : StructBonus.valueOf(settings.manufstruct));
+
+		for (Region tf : new Region[] { bpPattern, brokerFee, characterSkills, copyIndex, copyTax, inventIndex, inventTax,
+				manufIndex, manufTax, marketRegion, sellTax }) {
 			tf.setMaxWidth(70);
 		}
 
 		GridPane mainpane = new GridPane();
 		mainpane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
-		mainpane.addRow(0, new Label("market region"), marketRegion);
-		mainpane.addRow(1, new Label("period(hours)"), nbHours);
-		mainpane.addRow(2, new Label("product name"), bpPattern);
+		mainpane.addRow(0, new Label("character"), characterSkills);
+		mainpane.addRow(1, new Label("market region"), marketRegion);
+		mainpane.addRow(2, new Label("broker %"), brokerFee);
+		mainpane.addRow(3, new Label("sell tax %"), sellTax);
+		mainpane.addRow(4, new Label("product name"), bpPattern);
 		bpPattern.setTooltip(new Tooltip("specify a pattern to limit the products. eg \"small\""));
-		mainpane.addRow(3, computeBtn);
+		mainpane.addRow(5, new Label("best descryp"), onlyBest);
+		mainpane.addRow(6, computeBtn);
 
 		GridPane copyPane = new GridPane();
 		copyPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
-		copyPane.addRow(0, new Label("broker %"), brokerFee);
 		copyPane.addRow(1, new Label("copy tax %"), copyTax);
 		copyPane.addRow(2, new Label("copy index"), copyIndex);
+		copyPane.addRow(3, new Label("copy struct"), copystruct);
 
 		GridPane inventPane = new GridPane();
 		inventPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
-		inventPane.addRow(0, new Label("character"), characterSkills);
 		inventPane.addRow(1, new Label("invention tax %"), inventTax);
 		inventPane.addRow(2, new Label("invention index"), inventIndex);
+		inventPane.addRow(3, new Label("invention struct"), inventstruct);
 
 		GridPane manufPane = new GridPane();
 		manufPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
-		manufPane.addRow(0, new Label("sell tax %"), sellTax);
 		manufPane.addRow(1, new Label("manufacture tax %"), manufTax);
 		manufPane.addRow(2, new Label("manufacture index"), manufIndex);
+		manufPane.addRow(3, new Label("manufacture struct"), manufstruct);
 
 		getChildren().addAll(mainpane, copyPane, inventPane, manufPane);
 		loaded = true;

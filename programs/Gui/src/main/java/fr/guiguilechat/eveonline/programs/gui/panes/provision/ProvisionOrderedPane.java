@@ -40,10 +40,10 @@ public class ProvisionOrderedPane extends GridPane implements EvePane {
 	boolean shown = false;
 
 	public void update() {
-		getChildren().clear();
 		if (!shown) {
 			return;
 		}
+		getChildren().clear();
 		if (lpoffersbyId == null) {
 			lpoffersbyId = new LinkedHashMap<>();
 			for (LPOffer lpo : db().getLPOffers()) {
@@ -57,8 +57,9 @@ public class ProvisionOrderedPane extends GridPane implements EvePane {
 			}
 		}
 		int row=0;
+		String team = parent().settings.focusedTeam;
 		for (ProvisionType p : ProvisionType.values()) {
-			Provision provisions = parent().getFTeamProvision(p);
+			Provision provisions = parent().getTeamProvision(team, p);
 			for (Entry<Integer, Integer> e : provisions.lpoffers.entrySet()) {
 				LPOffer lpo = lpoffersbyId.get(e.getKey());
 				add(new Label("lp offer " + p), 0, row);
@@ -72,7 +73,7 @@ public class ProvisionOrderedPane extends GridPane implements EvePane {
 
 		}
 		for (ProvisionType p : ProvisionType.values()) {
-			Provision provisions = parent().getFTeamProvision(p);
+			Provision provisions = parent().getTeamProvision(team, p);
 			for (Entry<Integer, Integer> e : provisions.blueprints.entrySet()) {
 				Blueprint bp = bpsbyId.get(e.getKey());
 				add(new Label("bp " + p), 0, row);
@@ -85,7 +86,7 @@ public class ProvisionOrderedPane extends GridPane implements EvePane {
 			}
 		}
 		for (ProvisionType p : ProvisionType.values()) {
-			Provision provisions = parent().getFTeamProvision(p);
+			Provision provisions = parent().getTeamProvision(team, p);
 			for (Entry<Integer, Integer> e : provisions.total.entrySet()) {
 				String itemName = db().getElementById(e.getKey());
 				add(new Label(itemName), 1, row);

@@ -117,7 +117,7 @@ public class Manager extends Application implements EvePane {
 		teamtab = new Tab("teams", teamPane);
 		apitab = new Tab("apis", apiPane);
 		tooltab = new Tab("tools", toolsPane);
-		tabs = new TabPane(statustab, provisiontab, teamtab, tooltab, apitab);
+		tabs = new TabPane(statustab, provisiontab, tooltab, teamtab, apitab);
 		tabs.setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
 		tabs.setSide(Side.LEFT);
 		tabs.getSelectionModel().selectedItemProperty().addListener((ov, old, now) -> {
@@ -427,17 +427,17 @@ public class Manager extends Application implements EvePane {
 	// provision
 
 	/** get the provision of materials for the focused team. */
-	public Provision getFTeamProvision(ProvisionType provitype) {
-		if (settings.focusedTeam == null) {
+	public Provision getTeamProvision(String team, ProvisionType provitype) {
+		if (team == null) {
 			return null;
 		}
 		switch (provitype) {
 		case MATERIAL:
-			return settings.teams.get(settings.focusedTeam).provisionMaterials;
+			return settings.teams.get(team).provisionMaterials;
 		case PRODUCT:
-			return settings.teams.get(settings.focusedTeam).provisionProduct;
+			return settings.teams.get(team).provisionProduct;
 		case SO:
-			return settings.teams.get(settings.focusedTeam).provisionSO;
+			return settings.teams.get(team).provisionSO;
 		default:
 			throw new UnsupportedOperationException("can't handle " + provitype);
 		}
@@ -445,14 +445,14 @@ public class Manager extends Application implements EvePane {
 
 	/** set the requirement in lp offer to given value for the focused team */
 	public void provisionLPOffer(ProvisionType ptype, LPOffer offer, int requirement) {
-		HashMap<Integer, Integer> proviMatLP = getFTeamProvision(ptype).lpoffers;
+		HashMap<Integer, Integer> proviMatLP = getTeamProvision(settings.focusedTeam, ptype).lpoffers;
 		int diff = requirement - proviMatLP.getOrDefault(offer.id, 0);
 		if (requirement <= 0) {
 			proviMatLP.remove(offer.id);
 		} else {
 			proviMatLP.put(offer.id, requirement);
 		}
-		HashMap<Integer, Integer> proviTotal = getFTeamProvision(ptype).total;
+		HashMap<Integer, Integer> proviTotal = getTeamProvision(settings.focusedTeam, ptype).total;
 
 		for (ItemRef e : ptype == ProvisionType.MATERIAL ? offer.requirements.items : Arrays.asList(offer.product)) {
 			int newQtty = proviTotal.getOrDefault(e.type_id, 0) + e.quantity * diff;
@@ -476,14 +476,14 @@ public class Manager extends Application implements EvePane {
 	/** set the requirement in BP to given value for the focused team */
 	public void provisionBP(ProvisionType ptype, Blueprint bp, int requirement) {
 		LinkedHashMap<String, MetaInf> mi = db().getMetaInfs();
-		HashMap<Integer, Integer> proviBP = getFTeamProvision(ptype).blueprints;
+		HashMap<Integer, Integer> proviBP = getTeamProvision(settings.focusedTeam, ptype).blueprints;
 		int diff = requirement - proviBP.getOrDefault(bp.id, 0);
 		if (requirement <= 0) {
 			proviBP.remove(bp.id);
 		} else {
 			proviBP.put(bp.id, requirement);
 		}
-		HashMap<Integer, Integer> proviTotal = getFTeamProvision(ptype).total;
+		HashMap<Integer, Integer> proviTotal = getTeamProvision(settings.focusedTeam, ptype).total;
 		for (Material m : ptype == ProvisionType.MATERIAL ? bp.manufacturing.materials : bp.manufacturing.products) {
 			int mid = mi.get(m.name).id;
 			int newQtty = proviTotal.getOrDefault(mid, 0) + m.quantity * diff;
@@ -731,13 +731,13 @@ public class Manager extends Application implements EvePane {
 
 	// bos
 
-	public Map<Integer, Long> getFTeamBOs() {
-		if (settings.focusedTeam == null) {
-			logger.debug("null focused team");
+	public Map<Integer, Long> getTeamBOs(String team) {
+		if (team == null) {
+			logger.debug("null team");
 			return Collections.emptyMap();
 		}
-		Set<String> teamSystems = getTeamSystemLimit(settings.focusedTeam);
-		Stream<Map.Entry<Integer, Long>> teamBOsStream = streamTeamCharacters(settings.focusedTeam)
+		Set<String> teamSystems = getTeamSystemLimit(team);
+		Stream<Map.Entry<Integer, Long>> teamBOsStream = streamTeamCharacters(team)
 				.flatMap(c -> getCharBOs(c).entrySet().stream())
 				.filter(e -> e.getKey() == null || teamSystems.isEmpty() || teamSystems.contains(e.getKey()))
 				.flatMap(e -> e.getValue().entrySet().stream());
@@ -746,13 +746,13 @@ public class Manager extends Application implements EvePane {
 
 	// sos
 
-	public Map<Integer, Long> getFTeamSOs() {
-		if (settings.focusedTeam == null) {
-			logger.debug("null focused team");
+	public Map<Integer, Long> getTeamSOs(String team) {
+		if (team == null) {
+			logger.debug("null team");
 			return Collections.emptyMap();
 		}
-		Set<String> teamSystems = getTeamSystemLimit(settings.focusedTeam);
-		Stream<Map.Entry<Integer, Long>> teamBOsStream = streamTeamCharacters(settings.focusedTeam)
+		Set<String> teamSystems = getTeamSystemLimit(team);
+		Stream<Map.Entry<Integer, Long>> teamBOsStream = streamTeamCharacters(team)
 				.flatMap(c -> getCharSOs(c).entrySet().stream())
 				.filter(e -> e.getKey() == null || teamSystems.isEmpty() || teamSystems.contains(e.getKey()))
 				.flatMap(e -> e.getValue().entrySet().stream());

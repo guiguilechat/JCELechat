@@ -157,10 +157,12 @@ public class BurnerPane extends BorderPane implements EvePane {
 			parent().settings.store();
 			table.getItems().clear();
 		}
+		optionBox.computeBtn.setDisable(true);
 		if (upd || table.getItems().isEmpty()) {
 			eval.streamOffers().forEachOrdered(table.getItems()::add);
 		}
 		table.sort();
+		optionBox.computeBtn.setDisable(false);
 	}
 
 }

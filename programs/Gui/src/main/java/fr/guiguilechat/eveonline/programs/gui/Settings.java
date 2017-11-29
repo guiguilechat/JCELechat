@@ -104,7 +104,7 @@ public class Settings implements ISettings {
 		public double manufactureTax = 10;
 		public double sellTax = 1;
 		public double brokerFee = 2;
-		public int nbHours = 48;
+		public String copystruct, inventstruct, manufstruct;
 	}
 
 	public InventionParams invention = new InventionParams();

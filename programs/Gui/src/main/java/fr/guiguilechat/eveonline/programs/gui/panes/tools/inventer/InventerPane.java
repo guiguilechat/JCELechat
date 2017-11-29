@@ -1,19 +1,28 @@
 package fr.guiguilechat.eveonline.programs.gui.panes.tools.inventer;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import fr.guiguilechat.eveonline.model.apiv2.Account;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.programs.gui.Manager;
 import fr.guiguilechat.eveonline.programs.gui.Settings.InventionParams;
 import fr.guiguilechat.eveonline.programs.gui.panes.EvePane;
-import fr.guiguilechat.eveonline.programs.gui.panes.tools.inventer.ShowInventionLowestCost.InvProdData;
+import fr.guiguilechat.eveonline.programs.gui.panes.tools.inventer.InventionGainAlgorithm.InvProdData;
+import javafx.application.Platform;
 import javafx.beans.property.ReadOnlyObjectWrapper;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.concurrent.Task;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableColumn.SortType;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TitledPane;
 import javafx.scene.layout.BorderPane;
@@ -45,10 +54,32 @@ public class InventerPane extends BorderPane implements EvePane {
 			if (empty) {
 				setText(null);
 			} else {
-				setText(ShowInventionLowestCost.formatPrice(value));
+				setText(InventionGainAlgorithm.formatPrice(value));
 			}
 		}
 	}
+
+	public static final EveChar ALL5 = new Account(null).new EveChar() {
+
+		@SuppressWarnings("serial")
+		public java.util.LinkedHashMap<String, Integer> ALL5MAP = new LinkedHashMap<String, Integer>() {
+			@Override
+			public Integer get(Object key) {
+				return 5;
+			};
+
+			@Override
+			public Integer getOrDefault(Object key, Integer defaultValue) {
+				return 5;
+			};
+		};
+
+		@Override
+		public java.util.LinkedHashMap<String, Integer> skillsByName() {
+			return ALL5MAP;
+		};
+
+	};
 
 	public InventerPane(Manager parent) {
 		this.parent = parent;
@@ -70,16 +101,12 @@ public class InventerPane extends BorderPane implements EvePane {
 		sobophCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().SOBOph));
 		sobophCol.setCellFactory(col -> new PriceCellFactory());
 		table.getColumns().add(sobophCol);
+		sobophCol.setSortType(SortType.DESCENDING);
+		table.getSortOrder().add(sobophCol);
 
-		TableColumn<InvProdData, Double> bosophCol = new TableColumn<>("boso/h");
-		bosophCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().BOSOph));
-		bosophCol.setCellFactory(col -> new PriceCellFactory());
-		table.getColumns().add(bosophCol);
-
-		TableColumn<InvProdData, Double> costBOCol = new TableColumn<>("inBO");
-		costBOCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleCostBO));
-		costBOCol.setCellFactory(col -> new PriceCellFactory());
-		table.getColumns().add(costBOCol);
+		TableColumn<InvProdData, Double> marginCol = new TableColumn<>("margin");
+		marginCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleMargin));
+		table.getColumns().add(marginCol);
 
 		TableColumn<InvProdData, Double> costSOCol = new TableColumn<>("inSO");
 		costSOCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleCostSO));
@@ -91,13 +118,17 @@ public class InventerPane extends BorderPane implements EvePane {
 		sellBOCol.setCellFactory(col -> new PriceCellFactory());
 		table.getColumns().add(sellBOCol);
 
-		TableColumn<InvProdData, Double> sellSOCol = new TableColumn<>("outSO");
-		sellSOCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleProductSO));
-		sellSOCol.setCellFactory(col -> new PriceCellFactory());
-		table.getColumns().add(sellSOCol);
+		TableColumn<InvProdData, Double> volumeCol = new TableColumn<>("prod/cycle");
+		volumeCol
+		.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleAvgProd));
+		table.getColumns().add(volumeCol);
 
-		for (TableColumn<?, ?> t : new TableColumn<?, ?>[] { sobophCol, bosophCol, costBOCol, costSOCol, sellBOCol,
-			sellSOCol }) {
+		TableColumn<InvProdData, String> cycleDuration = new TableColumn<>("cycle dur");
+		cycleDuration.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(InventionGainAlgorithm.formatDurationSeconds(
+				lo.getValue().copyTime + lo.getValue().inventionTime + lo.getValue().manufacturingTime)));
+		table.getColumns().add(cycleDuration);
+
+		for (TableColumn<?, ?> t : new TableColumn<?, ?>[] { sobophCol, costSOCol, sellBOCol, volumeCol }) {
 			t.setMaxWidth(60);
 		}
 
@@ -106,28 +137,56 @@ public class InventerPane extends BorderPane implements EvePane {
 	}
 
 	protected void compute() {
-
-		if (!updateSettings() && table.getItems().size() != 0) {
-			return;
-		}
+		updateSettings();
 		table.getItems().clear();
-		EveChar cs = options.characterSkills.getValue();
-		Map<String, Integer> skills = cs == null ? new HashMap<>() : cs.skillsByName();
-		Pattern nameMatcher = nameLimit == null ? null : Pattern.compile(".*" + nameLimit.toLowerCase() + ".*");
-
-		blueprints()
-		.flatMap(bpo -> bpo.invention.products.stream()
-				.filter(nameMatcher == null ? mat -> true : mat -> nameMatcher.matcher(mat.name.toLowerCase()).matches())
-				.flatMap(mat -> ShowInventionLowestCost
-						.evalCostInventionProd(bpo, mat, skills, db(), parent().settings.invention, true).stream()))
-		.forEachOrdered(table.getItems()::add);
-
-		table.sort();
+		options.computeBtn.setDisable(true);
+		Task<Void> task = task();
+		Thread th = new Thread(task);
+		th.setDaemon(true);
+		th.start();
 	}
 
-	protected Stream<Blueprint> blueprints() {
+	Task<Void> task() {
+		return new Task<Void>() {
+			@Override
+			protected Void call() throws Exception {
+				options.computeBtn.setDisable(true);
+				table.getItems().clear();
+
+				EveChar cs = options.characterSkills.getValue();
+				Map<String, Integer> skills = cs == null ? new HashMap<>() : cs.skillsByName();
+				Pattern nameMatcher = nameLimit == null ? null : Pattern.compile(".*" + nameLimit.toLowerCase() + ".*");
+
+				ObservableList<InvProdData> list = FXCollections.observableArrayList();
+				List<Blueprint> bpos = blueprints(skills).collect(Collectors.toList());
+				int maxnb = bpos.size() * 2;
+
+				bpos.parallelStream().flatMap(bpo -> bpo.invention.products.stream().parallel()
+						.filter(nameMatcher == null ? mat -> true : mat -> nameMatcher.matcher(mat.name.toLowerCase()).matches())
+						.flatMap(mat -> InventionGainAlgorithm
+								.evalCostInventionProd(bpo, mat, skills, db(), parent().settings.invention,
+										options.onlyBest.isSelected())
+								.stream()))
+				.forEachOrdered(e -> {
+					list.add(e);
+					updateProgress(list.size(), maxnb);
+				});
+				Platform.runLater(() -> {
+					table.getItems().addAll(list);
+					table.sort();
+					options.computeBtn.setDisable(false);
+				});
+				return null;
+			}
+
+		};
+	}
+
+	protected Stream<Blueprint> blueprints(Map<String, Integer> skills) {
 		Stream<Blueprint> ret = db().getBlueprints().values().stream().parallel()
-				.filter(bp -> bp != null && bp.invention != null && !bp.invention.products.isEmpty() && bp.copying != null);
+				.filter(bp -> bp != null && bp.invention != null && !bp.invention.products.isEmpty() && bp.copying != null)
+				.filter(bp -> InventionGainAlgorithm.haveReqSkills(skills, bp.copying.skills)
+						&& InventionGainAlgorithm.haveReqSkills(skills, bp.invention.skills));
 		return ret;
 	}
 
@@ -185,8 +244,16 @@ public class InventerPane extends BorderPane implements EvePane {
 			settings.brokerFee = options.brokerFee.getValue();
 			modification = true;
 		}
-		if (settings.nbHours != options.nbHours.getValue()) {
-			settings.nbHours = options.nbHours.getValue();
+		if (!options.copystruct.getValue().name().equals(settings.copystruct)) {
+			settings.copystruct = options.copystruct.getValue().name();
+			modification = true;
+		}
+		if (!options.inventstruct.getValue().name().equals(settings.inventstruct)) {
+			settings.inventstruct = options.inventstruct.getValue().name();
+			modification = true;
+		}
+		if (!options.manufstruct.getValue().name().equals(settings.manufstruct)) {
+			settings.manufstruct = options.manufstruct.getValue().name();
 			modification = true;
 		}
 
@@ -204,6 +271,17 @@ public class InventerPane extends BorderPane implements EvePane {
 		}
 
 		return modification;
+	}
+
+	public static enum StructBonus {
+		none(0, 0, 0), raitaru(15, 1, 3), azbel(20, 1, 4), sotiyo(30, 1, 5);
+		public final double me, te, cost;
+
+		private StructBonus(double te, double me, double cost) {
+			this.me = me;
+			this.te = te;
+			this.cost = cost;
+		}
 	}
 
 }

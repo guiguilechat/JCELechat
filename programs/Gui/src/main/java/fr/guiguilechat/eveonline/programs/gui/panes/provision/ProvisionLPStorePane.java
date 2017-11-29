@@ -126,10 +126,11 @@ public class ProvisionLPStorePane extends BorderPane implements EvePane {
 			return;
 		}
 		load();
+		String team = parent().settings.focusedTeam;
 
-		HashMap<Integer, Integer> materials = parent().getFTeamProvision(ProvisionType.MATERIAL).lpoffers,
-				products = parent().getFTeamProvision(ProvisionType.PRODUCT).lpoffers,
-				sorders = parent().getFTeamProvision(ProvisionType.SO).lpoffers;
+		HashMap<Integer, Integer> materials = parent().getTeamProvision(team, ProvisionType.MATERIAL).lpoffers,
+				products = parent().getTeamProvision(team, ProvisionType.PRODUCT).lpoffers,
+				sorders = parent().getTeamProvision(team, ProvisionType.SO).lpoffers;
 		String corp = corporationChoice.getValue();
 		Boolean bp = blueprintAllowedChoice.getValue();
 		String nameFilter = filterNames.getText();
