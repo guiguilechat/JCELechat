@@ -183,6 +183,7 @@ public class Char {
 	public static final String ACTIVITY_TE = "TE";
 	public static final String ACTIVITY_ME = "ME";
 	public static final String ACTIVITY_COPY = "CP";
+	public static final String ACTIVITY_INVENT = "invent";
 
 	public static final Set<String> activityNamesSet = Collections
 			.unmodifiableSet(new HashSet<>(Arrays.asList(ACTIVITY_PROD, ACTIVITY_TE, ACTIVITY_ME, ACTIVITY_COPY)));
@@ -197,6 +198,8 @@ public class Char {
 			return ACTIVITY_ME;
 		case 5:
 			return ACTIVITY_COPY;
+		case 8:
+			return ACTIVITY_INVENT;
 		default:
 			return "unknown" + actividyID;
 		}

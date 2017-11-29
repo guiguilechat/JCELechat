@@ -1,156 +1,156 @@
 cowardlycommanderEP sansha:
-  avgBO: 4.159376138E7
+  avgBO: 3.7886723069999985E7
   desc: cowardlycommanderEP sansha
   entries: 1
 righttoruleEP sansha:
-  avgBO: 2.583186366E7
+  avgBO: 2.503841964E7
   desc: righttoruleEP sansha
   entries: 1
 writtenbythevictorsEP ammatar:
-  avgBO: 2.4618818655E7
+  avgBO: 2.1604670150000002E7
   desc: writtenbythevictorsEP ammatar
   entries: 2
 angelextravaganza4 angel:
-  avgBO: 1.872266193E7
+  avgBO: 1.9142878050000004E7
   desc: angelextravaganza4 angel
   entries: 1
 blockade4 blood:
-  avgBO: 1.760333748E7
+  avgBO: 1.651823424E7
   desc: blockade4 blood
   entries: 1
 priorityoneEP minmatar:
-  avgBO: 1.5588407619999997E7
+  avgBO: 1.614305811E7
   desc: priorityoneEP minmatar
   entries: 1
-churchoftheobsidianEP amatar:
-  avgBO: 1.455666344E7
-  desc: churchoftheobsidianEP amatar
-  entries: 2
 shipyardtheft4 angel:
-  avgBO: 1.4041717799999999E7
+  avgBO: 1.43045222E7
   desc: shipyardtheft4 angel
   entries: 1
+churchoftheobsidianEP amatar:
+  avgBO: 1.4113972594999999E7
+  desc: churchoftheobsidianEP amatar
+  entries: 2
 catchingthescentEP sansha:
-  avgBO: 1.312248549E7
+  avgBO: 1.3186271579999998E7
   desc: catchingthescentEP sansha
   entries: 2
-ascendingnoblesEP amarr:
-  avgBO: 1.120874273E7
-  desc: ascendingnoblesEP amarr
-  entries: 2
 vengeance4 angel:
-  avgBO: 1.106941144E7
+  avgBO: 1.125016382E7
   desc: vengeance4 angel
   entries: 1
+ascendingnoblesEP amarr:
+  avgBO: 1.090090791E7
+  desc: ascendingnoblesEP amarr
+  entries: 2
 poormanshakedownEP minmatar:
-  avgBO: 1.063329774E7
+  avgBO: 1.0602038139999999E7
   desc: poormanshakedownEP minmatar
   entries: 1
 blockade4 angel:
-  avgBO: 1.0466798665E7
+  avgBO: 1.0466574895000001E7
   desc: blockade4 angel
   entries: 6
 showtimeEP syndicate:
-  avgBO: 8670447.2
+  avgBO: 8636584.860000001
   desc: showtimeEP syndicate
   entries: 1
 littlefingersEP syndicate:
-  avgBO: 8287863.49
+  avgBO: 8226739.400000001
   desc: littlefingersEP syndicate
   entries: 1
-huntingthehunterEP sansha:
-  avgBO: 7922464.510000001
-  desc: huntingthehunterEP sansha
-  entries: 1
 surfacingEP angel:
-  avgBO: 7633167.675
+  avgBO: 8007821.415000001
   desc: surfacingEP angel
   entries: 2
 thecostofpreservationEP mercenaries:
-  avgBO: 7554931.845
+  avgBO: 7672795.459999999
   desc: thecostofpreservationEP mercenaries
   entries: 2
-damsel4 mercenaries:
-  avgBO: 7505303.386666667
-  desc: damsel4 mercenaries
-  entries: 3
+huntingthehunterEP sansha:
+  avgBO: 7560402.5200000005
+  desc: huntingthehunterEP sansha
+  entries: 1
 undergroundcitiesEP mercenaries:
-  avgBO: 7433989.38
+  avgBO: 7557865.12
   desc: undergroundcitiesEP mercenaries
   entries: 1
+damsel4 mercenaries:
+  avgBO: 7550343.886666666
+  desc: damsel4 mercenaries
+  entries: 3
 intakichaseEP syndicate:
-  avgBO: 7374881.310000001
+  avgBO: 6930171.65
   desc: intakichaseEP syndicate
   entries: 1
 goneberserk4 eom:
-  avgBO: 7126960.4399999995
+  avgBO: 6891194.7700000005
   desc: goneberserk4 eom
   entries: 2
-razingoutpostEP mordus:
-  avgBO: 6509408.8
-  desc: razingoutpostEP mordus
-  entries: 1
 mordu'sfolly4 mordus:
-  avgBO: 6449467.11
+  avgBO: 6443821.87
   desc: mordu'sfolly4 mordus
   entries: 1
-heresiologyEP amatar:
-  avgBO: 6063606.279999999
-  desc: heresiologyEP amatar
-  entries: 2
+razingoutpostEP mordus:
+  avgBO: 6363679.75
+  desc: razingoutpostEP mordus
+  entries: 1
 TheAveronExchangeEP mercenaries:
-  avgBO: 6053548.26
+  avgBO: 6349744.45
   desc: TheAveronExchangeEP mercenaries
   entries: 1
+heresiologyEP amatar:
+  avgBO: 6014641.715000001
+  desc: heresiologyEP amatar
+  entries: 2
 massiveattack4 sansha:
-  avgBO: 6025792.36
+  avgBO: 5887222.17
   desc: massiveattack4 sansha
   entries: 1
 backgroundcheckEP sansha:
-  avgBO: 5766665.08
+  avgBO: 5660434.615
   desc: backgroundcheckEP sansha
   entries: 2
-interceptsaboteurs4 guristas:
-  avgBO: 4878348.51
-  desc: interceptsaboteurs4 guristas
-  entries: 5
 studioIEP syndicate:
-  avgBO: 4867374.130000001
+  avgBO: 4543183.14
   desc: studioIEP syndicate
   entries: 1
 fromwayaboveEP angel:
-  avgBO: 4508273.390000001
+  avgBO: 4465350.9
   desc: fromwayaboveEP angel
   entries: 1
 miningmisappropriation4 blood:
-  avgBO: 4346601.9350000005
+  avgBO: 4218061.065
   desc: miningmisappropriation4 blood
   entries: 2
-theassault4 guristas:
-  avgBO: 4149766.38
-  desc: theassault4 guristas
-  entries: 1
-fallingintoplacesEP amarr:
-  avgBO: 3756678.7449999996
-  desc: fallingintoplacesEP amarr
-  entries: 2
+interceptsaboteurs4 guristas:
+  avgBO: 4210008.074
+  desc: interceptsaboteurs4 guristas
+  entries: 5
 righthandzazzmatazz4 none:
-  avgBO: 3693451.6725000003
+  avgBO: 3871488.59
   desc: righthandzazzmatazz4 none
   entries: 4
+fallingintoplacesEP amarr:
+  avgBO: 3863038.485
+  desc: fallingintoplacesEP amarr
+  entries: 2
+theassault4 guristas:
+  avgBO: 3730166.97
+  desc: theassault4 guristas
+  entries: 1
 assistanceEP mercenaries:
-  avgBO: 3501470.67
+  avgBO: 3286340.53
   desc: assistanceEP mercenaries
   entries: 1
 thetollescarEP drone:
-  avgBO: 3338400.7399999993
+  avgBO: 3200968.88
   desc: thetollescarEP drone
   entries: 1
 patientzero drone:
-  avgBO: 1606282.81
+  avgBO: 1500891.46
   desc: patientzero drone
   entries: 1
 attackofthedrones4 drone:
-  avgBO: 1436014.27
+  avgBO: 1349317.0099999998
   desc: attackofthedrones4 drone
   entries: 1

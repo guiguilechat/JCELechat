@@ -189,7 +189,7 @@ public class ESIMarket {
 	public long cacheDurationMS = 60000;
 
 	private HashMap<Integer, List<MarketOrderEntry>> cachedBOs = new HashMap<>();
-	private HashMap<Integer, Date> cachedBOsTime = new HashMap<>();
+	private HashMap<Integer, Long> cachedBOsTime = new HashMap<>();
 
 	public int nbCachedBOs() {
 		return cachedBOs.size();
@@ -197,28 +197,24 @@ public class ESIMarket {
 
 	protected List<MarketOrderEntry> getBOs(int itemID) {
 		List<MarketOrderEntry> ret;
+		long now = System.currentTimeMillis();
+		Long last;
 		synchronized (cachedBOs) {
-			ret = cachedBOs.get(itemID);
-			if (ret == null) {
+			last = cachedBOsTime.get(itemID);
+			if (last == null || last + cacheDurationMS < now) {
 				ret = new ArrayList<>();
+				cachedBOs.put(itemID, ret);
+			} else {
+				ret = cachedBOs.get(itemID);
 			}
-			cachedBOs.put(itemID, ret);
 		}
 		synchronized (ret) {
-			Date now = new Date();
-			Date last = cachedBOsTime.get(itemID);
-			if (ret.isEmpty() || last == null || last.getTime() + cacheDurationMS < now.getTime()) {
-				ret.clear();
-				MarketOrderEntry[] orders = fetchOrders(itemID, true);
-				if (orders == null || orders.length == 0) {
-					ret.add(new MarketOrderEntry(0, 0));
-				} else {
-					for (MarketOrderEntry mo : orders) {
-						ret.add(mo);
-					}
-					cachedBOsTime.put(itemID, now);
+			last = cachedBOsTime.get(itemID);
+			if (last == null || last + cacheDurationMS < now) {
+				for (MarketOrderEntry mo : fetchOrders(itemID, true)) {
+					ret.add(mo);
 				}
-				logger.trace("fetched " + ret.stream().mapToLong(mo -> mo.volume).sum() + " BO for item " + itemID);
+				cachedBOsTime.put(itemID, now);
 			}
 		}
 		return ret;
@@ -234,7 +230,7 @@ public class ESIMarket {
 	 *          the id of the item
 	 * @param remaining
 	 *          number of items to consider
-	 * @return the sum of highest quantity buy orders values. Mising entries are
+	 * @return the sum of highest quantity buy orders values. Missing entries are
 	 *         considered as 0
 	 */
 	public double getBO(int itemID, long qtty) {
@@ -258,7 +254,7 @@ public class ESIMarket {
 	}
 
 	private HashMap<Integer, List<MarketOrderEntry>> cachedSOs = new HashMap<>();
-	private HashMap<Integer, Date> cachedSOsTime = new HashMap<>();
+	private HashMap<Integer, Long> cachedSOsTime = new HashMap<>();
 
 	public int nbCachedSOs() {
 		return cachedSOs.size();
@@ -266,28 +262,24 @@ public class ESIMarket {
 
 	protected List<MarketOrderEntry> getSOs(int itemID) {
 		List<MarketOrderEntry> ret;
+		Long now = System.currentTimeMillis();
+		Long last;
 		synchronized (cachedSOs) {
-			ret = cachedSOs.get(itemID);
-			if (ret == null) {
+			last = cachedSOsTime.get(itemID);
+			if (last == null || last + cacheDurationMS < now) {
 				ret = new ArrayList<>();
+				cachedSOs.put(itemID, ret);
+			} else {
+				ret = cachedSOs.get(itemID);
 			}
-			cachedSOs.put(itemID, ret);
 		}
 		synchronized (ret) {
-			Date now = new Date();
-			Date last = cachedSOsTime.get(itemID);
-			if (ret.isEmpty() || last == null || last.getTime() + cacheDurationMS < now.getTime()) {
-				ret.clear();
-				MarketOrderEntry[] orders = fetchOrders(itemID, false);
-				if (orders == null || orders.length == 0) {
-					ret.add(new MarketOrderEntry(0, Double.POSITIVE_INFINITY));
-				} else {
-					for (MarketOrderEntry mo : orders) {
-						ret.add(mo);
-					}
-					cachedSOsTime.put(itemID, now);
+			last = cachedSOsTime.get(itemID);
+			if (last == null || last + cacheDurationMS < now) {
+				for (MarketOrderEntry mo : fetchOrders(itemID, false)) {
+					ret.add(mo);
 				}
-				logger.trace("fetched " + ret.stream().mapToLong(mo -> mo.volume).sum() + " SO for item " + itemID);
+				cachedSOsTime.put(itemID, now);
 			}
 		}
 		return ret;
