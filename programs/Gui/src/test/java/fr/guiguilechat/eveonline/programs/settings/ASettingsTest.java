@@ -7,6 +7,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.yaml.snakeyaml.Yaml;
 
+import fr.guiguilechat.eveonline.programs.manager.settings.ISettings;
+
 public class ASettingsTest {
 
 	public static class FalseSettings implements ISettings {

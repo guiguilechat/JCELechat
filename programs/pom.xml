@@ -17,7 +17,7 @@
   	<module>Optimize</module>
   	<module>EvalMyProd</module>
   	<module>Gui</module>
-  </modules>
+   </modules>
   <dependencyManagement>
   	<dependencies>
   		<dependency>

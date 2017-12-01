@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.programs.panes;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import fr.guiguilechat.eveonline.programs.manager.panes.TypedField;
 import javafx.embed.swing.JFXPanel;
 
 public class TypedFieldTest {

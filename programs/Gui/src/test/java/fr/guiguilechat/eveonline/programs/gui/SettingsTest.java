@@ -7,8 +7,9 @@ import org.testng.annotations.Test;
 import org.yaml.snakeyaml.TypeDescription;
 import org.yaml.snakeyaml.constructor.Constructor;
 
-import fr.guiguilechat.eveonline.programs.gui.Settings.TeamDescription;
-import fr.guiguilechat.eveonline.programs.settings.ISettings;
+import fr.guiguilechat.eveonline.programs.manager.Settings;
+import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription;
+import fr.guiguilechat.eveonline.programs.manager.settings.ISettings;
 
 public class SettingsTest {
 
