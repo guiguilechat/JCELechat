@@ -7,8 +7,8 @@ import java.util.Collections;
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material;
-import fr.guiguilechat.eveonline.model.esi.ESIMarket;
-import fr.guiguilechat.eveonline.model.esi.ESIMarket.ItemMedianData;
+import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
+import fr.guiguilechat.eveonline.model.esi.raw.market.Markets.ItemMedianData;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Module;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
@@ -87,8 +87,8 @@ public class EvaluateRigs {
 			}
 		}
 
-		ESIMarket importESI = db.ESIRegion(importRegion);
-		ESIMarket localESI = db.ESIRegion(sellRegion);
+		Markets importESI = db.ESIRegion(importRegion);
+		Markets localESI = db.ESIRegion(sellRegion);
 
 		Module[] rigsT1 = db.getModules().values().stream().filter(m -> m.isRig() && m.metaLvl < 5)
 				.toArray(Module[]::new);
@@ -138,8 +138,8 @@ public class EvaluateRigs {
 	 *          price/quantity
 	 * @return
 	 */
-	public static ProdData makeCraftData(Module m, EveDatabase db, ESIMarket importESI,
-			ESIMarket localESI, double taxMult, double multME, double systemCostIndex, double manufactureTax,
+	public static ProdData makeCraftData(Module m, EveDatabase db, Markets importESI,
+			Markets localESI, double taxMult, double multME, double systemCostIndex, double manufactureTax,
 			double importTax,
 			double importVolPrice, int nbPeriods, int periodLength) {
 		MetaInf mi = db.getMetaInfs().get(m.name);

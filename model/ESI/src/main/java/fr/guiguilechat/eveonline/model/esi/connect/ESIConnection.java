@@ -14,7 +14,9 @@ import java.net.URI;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
+import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -119,7 +121,7 @@ public class ESIConnection {
 		try {
 			return dataHolder.take();
 		} catch (InterruptedException e) {
-			throw new UnsupportedOperationException("catch this", e);
+			return null;
 		}
 	}
 
@@ -237,6 +239,98 @@ public class ESIConnection {
 
 	public String getAuthorization() {
 		return "Bearer " + getAccessToken();
+	}
+
+
+	/**
+	 * connect to an url and retrieve the result.
+	 *
+	 * @param url
+	 *          the url to fetch
+	 * @param method
+	 *          the method to connect. must be POST or GET
+	 * @param properties
+	 *          the properties to transmit in the header
+	 * @param transmit
+	 *          the data to transmit duing the query
+	 * @return the line returned by the server as a response. null if there was an
+	 *         issue
+	 */
+	public static String connect(String url, String method, Map<String, String> properties, String transmit) {
+		try {
+			URL target = new URL(url);
+			HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
+			con.setRequestMethod(method);
+			if (properties != null) {
+				for (Entry<String, String> e : properties.entrySet()) {
+					con.setRequestProperty(e.getKey(), e.getValue());
+				}
+			}
+			con.setDoOutput(true);
+			if (transmit != null) {
+				DataOutputStream wr = new DataOutputStream(con.getOutputStream());
+				wr.write(transmit.getBytes(StandardCharsets.UTF_8));
+				wr.flush();
+				wr.close();
+			}
+			int responseCode = con.getResponseCode();
+			if (responseCode != 200) {
+				System.err.println("response is " + responseCode);
+				System.err.println("properties are " + con.getRequestProperties());
+				System.err.println("returned error :");
+				new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(System.err::println);
+				return null;
+			} else {
+				return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
+			}
+		} catch (Exception e) {
+			logger.debug("while geting " + url, e);
+			return null;
+		}
+	}
+
+	/**
+	 * get an url, using your authorization
+	 *
+	 * @param url
+	 *          the url to fetch
+	 * @return the line returned by the server as a response. null if there was an
+	 *         issue
+	 */
+	public String connectGet(String url) {
+		HashMap<String, String> props = new HashMap<>();
+		props.put("Authorization", getAuthorization());
+		return connect(url, "GET", props, null);
+	}
+
+	/**
+	 * post an url, using your authorization
+	 *
+	 * @param url
+	 *          the url to fetch
+	 * @param contentType
+	 *          the type of the data transmitted
+	 * @param transmit
+	 *          the data to transmit duing the query
+	 * @return the line returned by the server as a response. null if there was an
+	 *         issue
+	 */
+	public String connectPost(String url, String contentType, String transmit) {
+		HashMap<String, String> props = new HashMap<>();
+		props.put("Authorization", getAuthorization());
+		props.put("Content-Type", contentType);
+		return connect(url, "GET", props, transmit);
+	}
+
+	public String verify() {
+		String res = connectGet("https://login.eveonline.com/oauth/verify");
+		try {
+			Map<String, String> map = new ObjectMapper().readValue(res, new TypeReference<Map<String, String>>() {
+			});
+			return map.get("CharacterName");
+		} catch (IOException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
 	}
 
 }

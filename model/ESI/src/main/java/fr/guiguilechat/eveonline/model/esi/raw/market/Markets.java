@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.esi;
+package fr.guiguilechat.eveonline.model.esi.raw.market;
 
 import java.io.IOException;
 import java.net.URL;
@@ -19,9 +19,9 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
 
-public class ESIMarket {
+public class Markets {
 
-	private static final Logger logger = LoggerFactory.getLogger(ESIMarket.class);
+	private static final Logger logger = LoggerFactory.getLogger(Markets.class);
 
 	public static final int THEFORGE = 10000002, DOMAIN = 10000043, SINQLAISON = 10000032;
 
@@ -37,9 +37,9 @@ public class ESIMarket {
 
 	private final ObjectMapper mapper = new ObjectMapper();
 
-	public ESIMarket(int regionID) {
+	public Markets(int regionID) {
 		region = regionID;
-		historyURL = "https://esi.tech.ccp.is/dev/markets/" + regionID + "/history/?";
+		historyURL = "https://esi.tech.ccp.is/latest/markets/" + regionID + "/history/?";
 		ordersURL = "https://esi.tech.ccp.is/latest/markets/" + regionID + "/orders/?";
 	}
 

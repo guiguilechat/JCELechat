@@ -25,7 +25,7 @@ import fr.guiguilechat.eveonline.model.database.yaml.Location;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.model.esi.ESIMarket;
+import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
 
 /**
  *
@@ -79,7 +79,7 @@ public class ProdEval {
 				hubR = db.getLocation(hubR.parentRegion);
 			}
 		}
-		ESIMarket market = new ESIMarket(hubR.locationID);
+		Markets market = new Markets(hubR.locationID);
 		Stream<EveChar> characters = apis.parallelStream().map(s_arr -> new APIRoot(Integer.parseInt(s_arr[0]), s_arr[1]))
 				.flatMap(api -> api.account.characters().parallelStream()).filter(c -> acceptName(c.name.toLowerCase()));
 		// first pass we copy the bpcs to get the required and produced amount of

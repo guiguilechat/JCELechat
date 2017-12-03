@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.esi;
+package fr.guiguilechat.eveonline.model.esi.raw;
 
 import java.io.IOException;
 import java.net.URL;

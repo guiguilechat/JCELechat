@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.esi;
+package fr.guiguilechat.eveonline.model.esi.raw.market;
 
 import java.io.IOException;
 import java.net.URL;
@@ -19,7 +19,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * </p>
  *
  */
-public class ESIBasePrices {
+public class Prices {
 
 	protected HashMap<Integer, Double> cachedAverage = null;
 	protected HashMap<Integer, Double> cachedAdjusted = null;
