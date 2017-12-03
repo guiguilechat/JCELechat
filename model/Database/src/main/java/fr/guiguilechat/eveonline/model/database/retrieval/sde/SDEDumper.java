@@ -31,19 +31,19 @@ import fr.guiguilechat.eveonline.model.database.yaml.DatabaseFile;
 import fr.guiguilechat.eveonline.model.database.yaml.Hull;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
-import fr.guiguilechat.eveonline.model.esi.ESICharacter;
-import fr.guiguilechat.eveonline.model.esi.ESILoyalty;
-import fr.guiguilechat.eveonline.model.esi.ESINpcCorporations;
-import fr.guiguilechat.eveonline.model.esi.ESIUniverse;
-import fr.guiguilechat.eveonline.model.esi.ESILoyalty.Offer;
-import fr.guiguilechat.eveonline.model.esi.ESILoyalty.Offer.ItemReq;
-import fr.guiguilechat.eveonline.model.esi.ESINpcCorporations.Corporation;
 import fr.guiguilechat.eveonline.model.database.yaml.Location;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Module;
 import fr.guiguilechat.eveonline.model.database.yaml.Station;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.esi.raw.Character;
+import fr.guiguilechat.eveonline.model.esi.raw.Corporations;
+import fr.guiguilechat.eveonline.model.esi.raw.Corporations.Corporation;
+import fr.guiguilechat.eveonline.model.esi.raw.ESIUniverse;
+import fr.guiguilechat.eveonline.model.esi.raw.Loyalty;
+import fr.guiguilechat.eveonline.model.esi.raw.Loyalty.Offer;
+import fr.guiguilechat.eveonline.model.esi.raw.Loyalty.Offer.ItemReq;
 import fr.guiguilechat.eveonline.model.sde.bsd.EagtAgents;
 import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeEffects;
@@ -193,8 +193,7 @@ public class SDEDumper {
 	public static DatabaseFile loadDb() throws FileNotFoundException {
 		SDEData sde = new SDEData();
 		DatabaseFile db = new DatabaseFile();
-		ESINpcCorporations corps = new ESINpcCorporations();
-		ESICharacter chars = new ESICharacter();
+		Corporations corps = new Corporations(null);
 		ESIUniverse uni = new ESIUniverse();
 
 		logger.info("loading ships and modules");
@@ -222,7 +221,7 @@ public class SDEDumper {
 		loadLPOffers(sde, db, corps);
 
 		logger.info("loading agents");
-		loadAgents(sde, db, corps, chars, uni);
+		loadAgents(sde, db, corps, uni);
 
 		logger.info("missings ids " + sde.missings);
 
@@ -787,8 +786,8 @@ public class SDEDumper {
 		}
 	}
 
-	public static void loadLPOffers(SDEData sde, DatabaseFile db, ESINpcCorporations corps) {
-		ESILoyalty loyalty = new ESILoyalty();
+	public static void loadLPOffers(SDEData sde, DatabaseFile db, Corporations corps) {
+		Loyalty loyalty = new Loyalty();
 		loyalty.loadOffers(corps.getCorpos().keySet().stream().mapToInt(i -> i).toArray());
 		for (Entry<Integer, Corporation> e : corps.getCorpos().entrySet()) {
 			for (Offer o : loyalty.getOffers(e.getKey())) {
@@ -842,13 +841,13 @@ public class SDEDumper {
 		});
 	}
 
-	public static void loadAgents(SDEData sde, DatabaseFile db, ESINpcCorporations corps, ESICharacter chars,
+	public static void loadAgents(SDEData sde, DatabaseFile db, Corporations corps,
 			ESIUniverse uni) {
 		LinkedHashMap<Integer, Corporation> mycorps = corps.getCorpos();
 		ArrayList<EagtAgents> sdeAgents = sde.getAgents();
 		HashMap<Integer, String> agtTypes = sde.getAgentTypes();
 		HashMap<Integer, String> crpDivisions = sde.getNPCDivisions();
-		Map<Integer, String> names = chars.getNames(sdeAgents.stream().mapToInt(a -> a.agentID).toArray());
+		Map<Integer, String> names = Character.getNames(sdeAgents.stream().mapToInt(a -> a.agentID).toArray());
 		Map<Integer, EstaStations> stations = sde.getStations();
 		Map<Integer, String> system2Name = new HashMap<>();
 		for (Location l : db.locations.values()) {
@@ -861,7 +860,6 @@ public class SDEDumper {
 			ag.name = names.get(ag.agentID);
 			Corporation corp = mycorps.get(ea.corporationID);
 			ag.corporation = corp.corporation_name;
-			ag.faction = corp.faction;
 			ag.isLocator = ea.isLocator;
 			ag.level = ea.level;
 			ag.agentType = agtTypes.get(ea.agentTypeID);

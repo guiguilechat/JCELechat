@@ -19,8 +19,8 @@ import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Module;
 import fr.guiguilechat.eveonline.model.database.yaml.Station;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
-import fr.guiguilechat.eveonline.model.esi.ESIBasePrices;
-import fr.guiguilechat.eveonline.model.esi.ESIMarket;
+import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
+import fr.guiguilechat.eveonline.model.esi.raw.market.Prices;
 
 public abstract class EveDatabase {
 
@@ -114,28 +114,28 @@ public abstract class EveDatabase {
 		return getTypeByName(getElementById(id));
 	}
 
-	protected ESIBasePrices esi = new ESIBasePrices();
+	protected Prices esi = new Prices();
 
-	public ESIBasePrices ESIBasePrices() {
+	public Prices ESIBasePrices() {
 		return esi;
 	}
 
 	// market cache
 
-	protected HashMap<Integer, ESIMarket> esiregions = new HashMap<>();
+	protected HashMap<Integer, Markets> esiregions = new HashMap<>();
 
-	public ESIMarket ESIRegion(int regionID) {
+	public Markets ESIRegion(int regionID) {
 		synchronized (esiregions) {
-			ESIMarket ret = esiregions.get(regionID);
+			Markets ret = esiregions.get(regionID);
 			if (ret == null) {
-				ret = new ESIMarket(regionID);
+				ret = new Markets(regionID);
 				esiregions.put(regionID, ret);
 			}
 			return ret;
 		}
 	}
 
-	public ESIMarket ESIRegion(String region) {
+	public Markets ESIRegion(String region) {
 		region = region.replaceAll(" ", "");
 		Location location = getLocation(region);
 		if (location == null || location.getLocationType() != 1) {

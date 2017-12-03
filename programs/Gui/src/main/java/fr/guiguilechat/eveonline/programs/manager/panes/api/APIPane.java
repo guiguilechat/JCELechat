@@ -2,9 +2,11 @@ package fr.guiguilechat.eveonline.programs.manager.panes.api;
 
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
+import javafx.scene.control.Tab;
+import javafx.scene.control.TabPane;
 import javafx.scene.layout.BorderPane;
 
-public class APIPane extends BorderPane implements EvePane {
+public class APIPane extends TabPane implements EvePane {
 
 	protected final Manager parent;
 
@@ -23,12 +25,20 @@ public class APIPane extends BorderPane implements EvePane {
 	protected ListApiTableView listApi;
 	protected AddAPIPane addApi;
 
+	protected BorderPane apiListPane = new BorderPane();
+	protected SSOCreationPane ssoPane;
+
 	public APIPane(Manager parent) {
 		this.parent = parent;
 		listApi = new ListApiTableView(parent);
 		addApi = new AddAPIPane(parent);
-		setCenter(listApi);
-		setTop(addApi);
+		apiListPane.setCenter(listApi);
+		apiListPane.setTop(addApi);
+
+		ssoPane = new SSOCreationPane(parent);
+
+		getTabs().addAll(new Tab("your apis", apiListPane), new Tab("sso creation", ssoPane));
+		setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
 		subPanes = new EvePane[] { listApi, addApi };
 	}
 

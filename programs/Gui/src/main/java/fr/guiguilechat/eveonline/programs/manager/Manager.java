@@ -27,6 +27,9 @@ import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
+import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
+import fr.guiguilechat.eveonline.model.database.yaml.Station;
+import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.programs.manager.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription;
 import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription.Provision;
@@ -37,9 +40,6 @@ import fr.guiguilechat.eveonline.programs.manager.panes.status.StatusPane;
 import fr.guiguilechat.eveonline.programs.manager.panes.team.TeamsPane;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.ToolsTab;
 import fr.guiguilechat.eveonline.programs.manager.settings.ISettings;
-import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
-import fr.guiguilechat.eveonline.model.database.yaml.Station;
-import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import javafx.application.Application;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.collections.FXCollections;
@@ -266,6 +266,19 @@ public class Manager extends Application implements EvePane {
 			propagateNewAPI(newapi);
 		}
 		return newapi;
+	}
+
+	/**
+	 * add an sso api
+	 *
+	 * @param key
+	 *          the base64 value of {id}:{secret}
+	 * @param code
+	 *          the refreshtoken
+	 */
+	public void addAPI(String key, String code) {
+		settings.ssoKeys.put(key, code);
+		settings.store();
 	}
 
 	public APIRoot getAPI(int key) {

@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
-import fr.guiguilechat.eveonline.model.esi.ESIMarket;
+import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 
 
@@ -24,15 +24,15 @@ import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
  * <p>
  * two functions :
  * <ul>
- * <li>{@link #findCorpBestLPOffer(ESIMarket, String)} get the best ratio of
+ * <li>{@link #findCorpBestLPOffer(Markets, String)} get the best ratio of
  * isk/LP for a given corp name</li>
- * <li>{@link #analyseOffers(ESIMarket, String, double)} list the offers of a
+ * <li>{@link #analyseOffers(Markets, String, double)} list the offers of a
  * corporation name by decreasing order.</li>
  * </ul>
  * </p>
  * <p>
  * for complex operations, the values should be cached. for this reason, use
- * {@link #cached(ESIMarket)} to get a caching version. the caching version
+ * {@link #cached(Markets)} to get a caching version. the caching version
  * store the values
  * </p>
  */
@@ -53,7 +53,7 @@ public class LPCorpEvaluator {
 
 	public final EveDatabase db;
 
-	protected ESIMarket market = null;
+	protected Markets market = null;
 
 	// adjust sales by removing this taxe
 	protected double saleTax = 0.01;
@@ -90,7 +90,7 @@ public class LPCorpEvaluator {
 	 * @param db
 	 *          the database to get the lp offers from.
 	 */
-	public LPCorpEvaluator(EveDatabase db, ESIMarket market) {
+	public LPCorpEvaluator(EveDatabase db, Markets market) {
 		this.db = db;
 		this.market = market;
 	}
@@ -165,7 +165,7 @@ public class LPCorpEvaluator {
 	 *          lp offers
 	 * @return a new list of the corresponding offer analyses.
 	 */
-	protected List<OfferAnalysis> analyseOffers(ESIMarket market, String corpName) {
+	protected List<OfferAnalysis> analyseOffers(Markets market, String corpName) {
 		Collection<LPOffer> lpos = listCorpOffers(corpName);
 		HashSet<Integer> allIDs = new HashSet<>();
 
@@ -202,7 +202,7 @@ public class LPCorpEvaluator {
 	 * @return a new offer analysis which contains the data analysis. return null
 	 *         if the order interest is < minimumIskPerLP
 	 */
-	protected OfferAnalysis analyse(LPOffer o, ESIMarket market) {
+	protected OfferAnalysis analyse(LPOffer o, Markets market) {
 		OfferAnalysis ret = new OfferAnalysis();
 		ret.offer = o;
 		ret.offerCorp = o.corporation;

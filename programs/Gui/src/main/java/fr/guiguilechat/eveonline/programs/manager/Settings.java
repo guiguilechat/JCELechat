@@ -71,6 +71,7 @@ public class Settings implements ISettings {
 	}
 
 	public LinkedHashMap<Integer, String> apiKeys = new LinkedHashMap<>();
+	public LinkedHashMap<String, String> ssoKeys = new LinkedHashMap<>();
 
 	public LinkedHashMap<String, TeamDescription> teams = new LinkedHashMap<>();
 

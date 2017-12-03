@@ -12,8 +12,8 @@ import java.util.stream.Collectors;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill;
+import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.model.esi.ESIMarket;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventerPane.StructBonus;
 
@@ -116,7 +116,7 @@ public class InventionGainAlgorithm {
 		if (!haveReqSkills(skills, bpc.manufacturing.skills)) {
 			return Collections.emptyList();
 		}
-		ESIMarket market = db.ESIRegion(params.marketRegion);
+		Markets market = db.ESIRegion(params.marketRegion);
 		Material product = bpc.manufacturing.products.get(0);
 		if (debug) {
 			System.err.println("inventing " + product.name + " from " + bpo.name);
