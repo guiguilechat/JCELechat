@@ -186,10 +186,11 @@ public class Markets {
 	/**
 	 * duration for which we cache BO and SO of an item.
 	 */
-	public long cacheDurationMS = 60000;
+	public long cacheMinDurationMS = 600000;
+	public long cacheRandomDurationAdded = 2700000;
 
 	private HashMap<Integer, List<MarketOrderEntry>> cachedBOs = new HashMap<>();
-	private HashMap<Integer, Long> cachedBOsTime = new HashMap<>();
+	private HashMap<Integer, Long> cachedBOsRefreshTime = new HashMap<>();
 
 	public int nbCachedBOs() {
 		return cachedBOs.size();
@@ -198,10 +199,10 @@ public class Markets {
 	protected List<MarketOrderEntry> getBOs(int itemID) {
 		List<MarketOrderEntry> ret;
 		long now = System.currentTimeMillis();
-		Long last;
+		Long refreshTime;
 		synchronized (cachedBOs) {
-			last = cachedBOsTime.get(itemID);
-			if (last == null || last + cacheDurationMS < now) {
+			refreshTime = cachedBOsRefreshTime.get(itemID);
+			if (refreshTime == null || refreshTime < now) {
 				ret = new ArrayList<>();
 				cachedBOs.put(itemID, ret);
 			} else {
@@ -209,12 +210,12 @@ public class Markets {
 			}
 		}
 		synchronized (ret) {
-			last = cachedBOsTime.get(itemID);
-			if (last == null || last + cacheDurationMS < now) {
+			refreshTime = cachedBOsRefreshTime.get(itemID);
+			if (refreshTime == null || refreshTime < now) {
 				for (MarketOrderEntry mo : fetchOrders(itemID, true)) {
 					ret.add(mo);
 				}
-				cachedBOsTime.put(itemID, now);
+				cachedBOsRefreshTime.put(itemID, now + (long) (Math.random() * cacheRandomDurationAdded));
 			}
 		}
 		return ret;
@@ -266,7 +267,7 @@ public class Markets {
 		Long last;
 		synchronized (cachedSOs) {
 			last = cachedSOsTime.get(itemID);
-			if (last == null || last + cacheDurationMS < now) {
+			if (last == null || last + cacheMinDurationMS < now) {
 				ret = new ArrayList<>();
 				cachedSOs.put(itemID, ret);
 			} else {
@@ -275,7 +276,7 @@ public class Markets {
 		}
 		synchronized (ret) {
 			last = cachedSOsTime.get(itemID);
-			if (last == null || last + cacheDurationMS < now) {
+			if (last == null || last + cacheMinDurationMS < now) {
 				for (MarketOrderEntry mo : fetchOrders(itemID, false)) {
 					ret.add(mo);
 				}
@@ -316,7 +317,7 @@ public class Markets {
 	}
 
 	public void clearCache() {
-		cachedBOsTime.clear();
+		cachedBOsRefreshTime.clear();
 		cachedSOsTime.clear();
 	}
 
