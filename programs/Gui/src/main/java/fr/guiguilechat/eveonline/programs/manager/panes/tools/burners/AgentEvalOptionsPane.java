@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.programs.manager.panes.tools.burners;
 import java.util.Map;
 
 import fr.guiguilechat.eveonline.programs.manager.Manager;
-import fr.guiguilechat.eveonline.programs.manager.Settings.BurnersEval;
+import fr.guiguilechat.eveonline.programs.manager.Settings.BurnersEvalParams;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.manager.panes.ScrollAdd;
 import fr.guiguilechat.eveonline.programs.manager.panes.TypedField;
@@ -12,10 +12,9 @@ import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.Tooltip;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.HBox;
 import javafx.scene.layout.Region;
 
-public class OptionsPane extends HBox implements EvePane {
+public class AgentEvalOptionsPane extends GridPane implements EvePane {
 
 	protected final Manager parent;
 
@@ -34,7 +33,7 @@ public class OptionsPane extends HBox implements EvePane {
 
 	public TypedField<Double> systemTime, burnerTime;
 
-	public OptionsPane(Manager parent) {
+	public AgentEvalOptionsPane(Manager parent) {
 		this.parent = parent;
 	}
 
@@ -51,7 +50,7 @@ public class OptionsPane extends HBox implements EvePane {
 		if (loaded) {
 			return;
 		}
-		BurnersEval burnersSettings = parent().settings.burners;
+		BurnersEvalParams burnersSettings = parent().settings.burners;
 
 		GridPane computepane = new GridPane();
 		computepane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
@@ -87,6 +86,8 @@ public class OptionsPane extends HBox implements EvePane {
 		GridPane mapPane = new GridPane();
 		mapPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
 
+		mapPane.addRow(0, new Label("burner dest"));
+
 		weightConst = TypedField.positivDecimal(burnersSettings.weightConstel);
 		weightConst.setTooltip(new Tooltip("probability weight of system in same constelation"));
 		weightConst.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, weightConst));
@@ -121,7 +122,7 @@ public class OptionsPane extends HBox implements EvePane {
 			tf.setMaxWidth(70);
 		}
 
-		getChildren().addAll(computepane, marketPane, mapPane, speedPane);
+		addRow(3, computepane, marketPane, mapPane);
 		loaded = true;
 	}
 

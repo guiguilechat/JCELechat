@@ -15,8 +15,8 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
-import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
 
 
 /**
@@ -197,10 +197,7 @@ public class LPCorpEvaluator {
 	 *          the lp offer
 	 * @param market
 	 *          the market for BO/SO
-	 * @param minimumIskPerLP
-	 *          the minimum isk per LP to consider this offer.
-	 * @return a new offer analysis which contains the data analysis. return null
-	 *         if the order interest is < minimumIskPerLP
+	 * @return a new offer analysis which contains the data analysis.
 	 */
 	protected OfferAnalysis analyse(LPOffer o, Markets market) {
 		OfferAnalysis ret = new OfferAnalysis();

@@ -244,6 +244,14 @@ public class InventerPane extends BorderPane implements EvePane {
 			settings.brokerFee = options.brokerFee.getValue();
 			modification = true;
 		}
+		if (settings.minCycles != options.minCycles.getValue()) {
+			settings.minCycles = options.minCycles.getValue();
+			modification = true;
+		}
+		if (settings.minHours != options.minHours.getValue()) {
+			settings.minHours = options.minHours.getValue();
+			modification = true;
+		}
 		if (!options.copystruct.getValue().name().equals(settings.copystruct)) {
 			settings.copystruct = options.copystruct.getValue().name();
 			modification = true;

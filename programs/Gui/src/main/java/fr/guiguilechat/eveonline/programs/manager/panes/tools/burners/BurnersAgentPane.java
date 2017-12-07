@@ -10,7 +10,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TitledPane;
 import javafx.scene.layout.BorderPane;
 
-public class BurnerPane extends BorderPane implements EvePane {
+public class BurnersAgentPane extends BorderPane implements EvePane {
 
 	protected final Manager parent;
 
@@ -26,16 +26,16 @@ public class BurnerPane extends BorderPane implements EvePane {
 		return children;
 	}
 
-	protected OptionsPane optionBox;
+	protected AgentEvalOptionsPane optionBox;
 
 	EvaluateBurnersAgents eval;
 
 	protected final TableView<LocalizedLPOffer> table = new TableView<>();
 
-	public BurnerPane(Manager parent) {
+	public BurnersAgentPane(Manager parent) {
 		this.parent = parent;
 
-		optionBox = new OptionsPane(parent);
+		optionBox = new AgentEvalOptionsPane(parent);
 		setTop(new TitledPane("options", optionBox));
 		optionBox.computeBtn.setOnAction(e -> compute());
 
@@ -155,12 +155,10 @@ public class BurnerPane extends BorderPane implements EvePane {
 		upd = updateTime() || upd;
 		if (upd) {
 			parent().settings.store();
-			table.getItems().clear();
 		}
+		table.getItems().clear();
 		optionBox.computeBtn.setDisable(true);
-		if (upd || table.getItems().isEmpty()) {
-			eval.streamOffers().forEachOrdered(table.getItems()::add);
-		}
+		eval.streamOffers().forEachOrdered(table.getItems()::add);
 		table.sort();
 		optionBox.computeBtn.setDisable(false);
 	}

@@ -2,8 +2,6 @@ package fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -12,8 +10,8 @@ import java.util.stream.Collectors;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill;
-import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventerPane.StructBonus;
 
@@ -52,60 +50,10 @@ public class InventionGainAlgorithm {
 		/** average price of producing one unit, with items prices being SO */
 		public double cycleCostSO;
 		/** average time to produce one unit */
-		public double cycleTime;
+		public long cycleTime;
 
 		public double SOBOph;
 		public double cycleMargin;
-	}
-
-	protected static boolean debug = false;
-
-	public static void main(String[] args) {
-		int parrallelism = Runtime.getRuntime().availableProcessors() * 50;
-		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
-		YamlDatabase db = new YamlDatabase();
-		LinkedHashMap<String, Blueprint> bps = db.getBlueprints();
-		InventionParams params = new InventionParams();
-		params.marketRegion = "TheForge";
-		params.copyIndex = 2;
-		params.copyTax = 10;
-		params.inventIndex = 2;
-		params.inventTax = 10;
-		params.manufactureIndex = 2;
-		params.manufactureTax = 10;
-		params.sellTax = 1;
-		params.brokerFee = 2;
-
-		Map<String, Integer> skills = new HashMap<>();
-		// skills.put("Molecular Engineering", 3);
-		// skills.put("Nanite Engineering", 4);
-		// skills.put("Minmatar Encryption Methods", 3);
-		// skills.put("Advanced Industry", 4);
-		// skills.put("Amarr Starship Engineering", 3);
-		// skills.put("High Energy Physics", 3);
-		// skills.put("Amarr Encryption Methods", 4);
-
-		if (debug) {
-			System.err.println("iterating, skills are" + skills);
-		}
-
-		List<InvProdData> datas = bps.values().stream()
-				// comment for sequential calls (easier debuging)
-				.parallel()
-				// only keep bpo that are found in the itemid table and with invention
-				.filter(bp -> bp != null && bp.invention != null && !bp.invention.products.isEmpty() && bp.copying != null)
-				// .filter(bp -> bp.name.contains("Apocalypse"))
-				// then analyze the bpos that have invention
-				.flatMap(bpo -> bpo.invention.products.stream()
-						.flatMap(mat -> evalCostInventionProd(bpo, mat, skills, db, params, !debug).stream()))
-				.collect(Collectors.toList());
-		datas.sort((ipd1, ipd2) -> (int) Math.signum(ipd1.SOBOph - ipd2.SOBOph));
-		for (InvProdData d : datas) {
-			System.out.println(d.productName + "\t" + d.decryptor + "\t" + formatPrice(d.SOBOph) + "sobo/h\t"
-					+ formatPrice(d.cycleCostSO) + "inso\t" + formatPrice(d.cycleProductBO) + "outbo\t"
-					+ (int) (d.inventionProbability * 100) + "%invent\t" + 0.01 * (int) (d.cycleAvgProd * 100) + "item/cycle\t "
-					+ formatDurationSeconds((long) d.cycleTime) + "/cycle");
-		}
 	}
 
 	/** evaluate the cost of producing a T2 item form a T1 bpo */
@@ -118,9 +66,6 @@ public class InventionGainAlgorithm {
 		}
 		Markets market = db.ESIRegion(params.marketRegion);
 		Material product = bpc.manufacturing.products.get(0);
-		if (debug) {
-			System.err.println("inventing " + product.name + " from " + bpo.name);
-		}
 		int prodID = db.getId(product.name);
 
 		StructBonus copyStruct = InventerPane.StructBonus.valueOf(params.copystruct);
@@ -146,8 +91,8 @@ public class InventionGainAlgorithm {
 		double copyME = 1.0 - 0.01 * copyStruct.me;
 		double copyCostSO = copyInstalation + bpo.copying.materials.parallelStream()
 		.mapToDouble(m -> market.getSO(db.getId(m.name),
-				m.quantity == 1 ? 1 : (int) Math.ceil(m.quantity * copyME)))
-		.sum();
+				params.minCycles * (m.quantity == 1 ? 1 : (int) Math.ceil(m.quantity * copyME))))
+		.sum() / params.minCycles;
 
 		long copyTime = (long) (bpo.copying.time
 				// struct bonus
@@ -197,14 +142,15 @@ public class InventionGainAlgorithm {
 
 			data.cycleAvgProd = data.inventedRuns * bpc.manufacturing.products.get(0).quantity * data.inventionProbability;
 			data.cycleTime = data.copyTime + data.inventionTime + data.manufacturingTime;
-
+			int nbCycles = Math.max(params.minCycles, (int) Math.ceil(3600.0 * params.minHours / data.cycleTime));
 
 			// estimate the ceil number off items solds, then average it back to
 			// the real number of items sold
 			// eg if we sell 0.1 item, the ceil is 1 but the real value is 10% of
 			// the BO of 1.
 			long qttysold = (long) Math.ceil(data.cycleAvgProd);
-			data.cycleProductBO = market.getBO(prodID, qttysold) * (1.0 - 0.01 * params.sellTax)
+			data.cycleProductBO = market.getBO(prodID, qttysold * nbCycles) / nbCycles
+					* (1.0 - 0.01 * params.sellTax)
 					// qttysold is cycleavgprod rounded up. scale back
 					* data.cycleAvgProd / qttysold;
 
@@ -217,9 +163,9 @@ public class InventionGainAlgorithm {
 			data.inventionCostSO = inventionInstall
 					// add the required materials cost
 					+ bpo.invention.materials.parallelStream()
-					.mapToDouble(m -> market.getSO(db.getId(m.name), m.quantity)).sum()
+					.mapToDouble(m -> market.getSO(db.getId(m.name), nbCycles * m.quantity)).sum() / nbCycles
 					// add the decryptor cost
-					+ (decryptor.id != 0 ? market.getSO(decryptor.id, 1) : 0.0);
+					+ (decryptor.id != 0 ? market.getSO(decryptor.id, nbCycles) : 0.0) / nbCycles;
 
 			// now we manufacture the invented bpc.
 			// we compute the production cost of one invented bpc.
@@ -230,10 +176,10 @@ public class InventionGainAlgorithm {
 			data.manufacturingCostSO = manufInstall
 					// material cost
 					+ bpc.manufacturing.materials.parallelStream().mapToDouble(m -> {
-						double bpcQtty = m.quantity * data.inventedRuns;
+						double bpcQtty = m.quantity * data.inventedRuns * nbCycles;
 						long qttyBO = (long) Math
 								.ceil((m.quantity == 1 ? 1 : 1.0 - 0.01 * inventedME) * bpcQtty);
-						return market.getSO(db.getId(m.name), qttyBO) * bpcQtty / qttyBO;
+						return market.getSO(db.getId(m.name), qttyBO) * bpcQtty / qttyBO / nbCycles;
 					}).sum();
 
 			data.cycleCostSO = data.copyCostSO + data.inventionCostSO + data.manufacturingCostSO * data.inventionProbability;

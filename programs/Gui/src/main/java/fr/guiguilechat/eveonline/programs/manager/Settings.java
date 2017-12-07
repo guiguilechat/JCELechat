@@ -79,7 +79,7 @@ public class Settings implements ISettings {
 
 	public boolean hideDebug = true;
 
-	public static class BurnersEval {
+	public static class BurnersEvalParams {
 		public String region = "TheForge";
 		public double sellTax = 1;
 		public double brokerFee = 2;
@@ -92,6 +92,22 @@ public class Settings implements ISettings {
 		public double systemTime = 2;
 		public double burnerTime = 5;
 
+		public LinkedHashMap<String, MissionStats> missions = new LinkedHashMap<>();
+
+	}
+
+	/**
+	 * stats of a burner mission. isk_indexed is the reward for a 1.0 system and 0
+	 * skills, same for lp.<br />
+	 * align and warp speed are the stats of the ship used. time to kill is the
+	 * time between using the gate, and the time to leave the grid(or loot the
+	 * wreck)
+	 */
+	public static class MissionStats {
+		public int isk_cstt = 5000, isk_indexed = 2000,
+				lp = 8000,
+				align_time_s = 10, warp_speed_uaps = 4, timetokill_s = 60;
+		public boolean isBurner = true;
 	}
 
 	public static class InventionParams {
@@ -106,11 +122,13 @@ public class Settings implements ISettings {
 		public double sellTax = 1;
 		public double brokerFee = 2;
 		public String copystruct, inventstruct, manufstruct;
+		public int minCycles = 1;
+		public int minHours = 0;
 	}
 
 	public InventionParams invention = new InventionParams();
 
-	public BurnersEval burners = new BurnersEval();
+	public BurnersEvalParams burners = new BurnersEvalParams();
 
 	@Override
 	public Constructor makeYamlConstructor() {
@@ -118,6 +136,9 @@ public class Settings implements ISettings {
 		TypeDescription settingsDescription = new TypeDescription(Settings.class);
 		settingsDescription.putMapPropertyType("teams", String.class, TeamDescription.class);
 		ret.addTypeDescription(settingsDescription);
+		TypeDescription missionsDescription = new TypeDescription(BurnersEvalParams.class);
+		missionsDescription.putMapPropertyType("missions", String.class, MissionStats.class);
+		ret.addTypeDescription(missionsDescription);
 		return ret;
 	}
 

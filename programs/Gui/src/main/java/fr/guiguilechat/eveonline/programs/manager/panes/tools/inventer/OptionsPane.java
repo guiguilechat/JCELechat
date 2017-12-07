@@ -38,6 +38,8 @@ public class OptionsPane extends HBox implements EvePane {
 
 	public TextField bpPattern = new TextField();
 	public CheckBox onlyBest = new CheckBox();
+	public TypedField<Integer> minCycles;
+	public TypedField<Integer> minHours;
 	public TypedField<Double> sellTax, brokerFee;
 	public TypedField<Double> copyTax, copyIndex;
 	public ChoiceBox<InventerPane.StructBonus> copystruct;
@@ -104,6 +106,10 @@ public class OptionsPane extends HBox implements EvePane {
 		brokerFee.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, brokerFee));
 
 		onlyBest.setSelected(true);
+		minCycles = TypedField.positivIntField(settings.minCycles);
+		minCycles.setOnScroll(new ScrollAdd.IntScrollAdd(1, minCycles));
+		minHours = TypedField.positivIntField(settings.minHours);
+		minHours.setOnScroll(new ScrollAdd.IntScrollAdd(1, minHours));
 
 		copyTax = TypedField.positivDecimal(settings.copyTax);
 		copyTax.setTooltip(new Tooltip("station tax on copying"));
@@ -145,7 +151,7 @@ public class OptionsPane extends HBox implements EvePane {
 		.select(settings.manufstruct == null ? StructBonus.none : StructBonus.valueOf(settings.manufstruct));
 
 		for (Region tf : new Region[] { bpPattern, brokerFee, characterSkills, copyIndex, copyTax, inventIndex, inventTax,
-				manufIndex, manufTax, marketRegion, sellTax }) {
+				manufIndex, manufTax, marketRegion, minCycles, minHours, sellTax }) {
 			tf.setMaxWidth(70);
 		}
 
@@ -158,7 +164,9 @@ public class OptionsPane extends HBox implements EvePane {
 		mainpane.addRow(4, new Label("product name"), bpPattern);
 		bpPattern.setTooltip(new Tooltip("specify a pattern to limit the products. eg \"small\""));
 		mainpane.addRow(5, new Label("best descryp"), onlyBest);
-		mainpane.addRow(6, computeBtn);
+		mainpane.addRow(6, new Label("min cycles"), minCycles);
+		mainpane.addRow(7, new Label("min hours"), minHours);
+		mainpane.addRow(8, computeBtn);
 
 		GridPane copyPane = new GridPane();
 		copyPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
