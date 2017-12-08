@@ -82,41 +82,6 @@ public class Markets {
 		return getHistory(itemID).stream().filter(h -> h.date.after(limit));
 	}
 
-	/**
-	 * get the total sell price of an item over last month
-	 *
-	 * @param itemId
-	 *          the id of the item
-	 * @param regionID
-	 *          the id of the region
-	 * @return
-	 */
-	public double getMonthTotalPrice(int itemId) {
-		double totalPrice = 0;
-		Calendar cal = Calendar.getInstance();
-		cal.add(Calendar.MONTH, -1);
-		Date firstDate = cal.getTime();
-		for (HistoryData d : getHistory(itemId)) {
-			if (d.date.after(firstDate)) {
-				totalPrice += d.volume * d.average;
-			}
-		}
-		return totalPrice;
-	}
-
-	public int getMonthNBOrders(int itemId) {
-		int totalOrders = 0;
-		Calendar cal = Calendar.getInstance();
-		cal.add(Calendar.MONTH, -1);
-		Date firstDate = cal.getTime();
-		for (HistoryData d : getHistory(itemId)) {
-			if (d.date.after(firstDate)) {
-				totalOrders += d.volume;
-			}
-		}
-		return totalOrders;
-	}
-
 	public static class ItemMedianData {
 		public long qtty;
 		public double average;
