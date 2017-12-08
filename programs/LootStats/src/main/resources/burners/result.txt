@@ -1,51 +1,55 @@
 base serpentis:
-  avgBO: 1.941964779097826E7
+  avgBO: 1.9183434219603956E7
   desc: base serpentis
-  entries: 92
-  factionFreq: 0.43478260869565216
-  factionModFreq: 0.43478260869565216
+  entries: 101
+  factionFreq: 0.44554455445544555
+  factionModFreq: 0.44554455445544555
   factions:
-  - Shadow Serpentis 50MN Microwarpdrive
-  - Shadow Serpentis 200mm Railgun
-  - Shadow Serpentis Armor Explosive Hardener
   - Shadow Serpentis Kinetic Plating
-  - Shadow Serpentis Medium Armor Repairer
   - Shadow Serpentis Energized EM Membrane
   - Shadow Serpentis Remote Sensor Booster
-  - Shadow Serpentis Sensor Booster
   - Shadow Serpentis Dual 150mm Railgun
   - Shadow Serpentis Energized Adaptive Nano Membrane
   - Shadow Serpentis Stasis Webifier
+  - Shadow Serpentis 425mm Railgun
   - Shadow Serpentis Remote Tracking Computer
   - Shadow Serpentis Warp Disruptor
-  - Shadow Serpentis 10MN Afterburner
   - Shadow Serpentis Magnetic Field Stabilizer
-  - Shadow Serpentis Armor EM Hardener
   - Shadow Serpentis Explosive Plating
   - Shadow Serpentis Energized Thermal Membrane
+  - Shadow Serpentis Energized Kinetic Membrane
+  - Shadow Serpentis 50MN Microwarpdrive
+  - Shadow Serpentis 200mm Railgun
+  - Shadow Serpentis Armor Explosive Hardener
+  - Shadow Serpentis Medium Armor Repairer
+  - Shadow Serpentis Sensor Booster
+  - Shadow Serpentis Inertial Stabilizers
+  - Shadow Serpentis 10MN Afterburner
+  - Shadow Serpentis Armor EM Hardener
+  - Shadow Serpentis EM Plating
   - Shadow Serpentis Adaptive Nano Plating
   - Shadow Serpentis Tracking Computer
   - Shadow Serpentis Damage Control
-  - Shadow Serpentis Energized Kinetic Membrane
   - Shadow Serpentis Thermal Plating
   - Shadow Serpentis 250mm Railgun
 team enyo:
-  avgBO: 5480008.0789690735
+  avgBO: 5192464.137254902
   desc: team enyo
-  entries: 97
-  factionFreq: 0.061855670103092786
-  factionModFreq: 0.061855670103092786
+  entries: 102
+  factionFreq: 0.06862745098039216
+  factionModFreq: 0.06862745098039216
   factions:
+  - Federation Navy 100mm Steel Plates
   - Federation Navy 5MN Microwarpdrive
   - Federation Navy Stasis Webifier
   - Federation Navy Tracking Computer
   - Federation Navy 75mm Railgun
 team jaguar:
-  avgBO: 2900376.3579279277
+  avgBO: 3061547.4539837395
   desc: team jaguar
-  entries: 111
-  factionFreq: 0.10810810810810811
-  factionModFreq: 0.10810810810810811
+  entries: 123
+  factionFreq: 0.13008130081300814
+  factionModFreq: 0.13008130081300814
   factions:
   - Republic Fleet Small Armor Repairer
   - Republic Fleet Warp Disruptor
@@ -54,16 +58,17 @@ team jaguar:
   - Republic Fleet 125mm Autocannon
   - Republic Fleet EM Ward Amplifier
   - Republic Fleet Explosive Deflection Amplifier
+  - Republic Fleet Target Painter
   - Republic Fleet Gyrostabilizer
   - Republic Fleet 5MN Microwarpdrive
   - Republic Fleet Armor Thermal Hardener
   - Republic Fleet Rocket Launcher
 team hawk:
-  avgBO: 2575479.7755357143
+  avgBO: 2176597.5755462185
   desc: team hawk
-  entries: 112
-  factionFreq: 0.08035714285714286
-  factionModFreq: 0.08035714285714286
+  entries: 119
+  factionFreq: 0.08403361344537816
+  factionModFreq: 0.08403361344537816
   factions:
   - Caldari Navy Cloaking Device
   - Caldari Navy Small Graviton Smartbomb
@@ -74,15 +79,15 @@ team hawk:
   - Caldari Navy EM Ward Field
   - Caldari Navy 150mm Railgun
 base blood:
-  avgBO: 1583450.9833333334
+  avgBO: 1724650.2833333332
   desc: base blood
   entries: 3
 agent blood:
-  avgBO: 1058286.3071186442
+  avgBO: 901478.7762499999
   desc: agent blood
-  entries: 118
-  factionFreq: 0.05084745762711865
-  factionModFreq: 0.05084745762711865
+  entries: 120
+  factionFreq: 0.05
+  factionModFreq: 0.05
   factions:
   - Dark Blood Energized Thermal Membrane
   - Dark Blood Dual Light Beam Laser
@@ -91,11 +96,11 @@ agent blood:
   - Dark Blood Reactor Control Unit
   - Dark Blood Stasis Webifier
 team vengeance:
-  avgBO: 883761.8207291667
+  avgBO: 832281.5588235295
   desc: team vengeance
-  entries: 96
-  factionFreq: 0.125
-  factionModFreq: 0.125
+  entries: 102
+  factionFreq: 0.11764705882352941
+  factionModFreq: 0.11764705882352941
   factions:
   - Imperial Navy Armor Kinetic Hardener
   - Imperial Navy Armor EM Hardener
@@ -108,37 +113,37 @@ team vengeance:
   - Imperial Navy Small Remote Capacitor Transmitter
   - Imperial Navy Small Armor Repairer
 base angel:
-  avgBO: 743016.5377894738
-  bpcFreq: 0.010526315789473684
+  avgBO: 732030.7376530613
+  bpcFreq: 0.01020408163265306
   bps:
   - Cynabal Blueprint
   desc: base angel
-  entries: 95
-  factionFreq: 0.010526315789473684
-  factionModFreq: 0.010526315789473684
+  entries: 98
+  factionFreq: 0.01020408163265306
+  factionModFreq: 0.01020408163265306
   factions:
   - Domination Kinetic Deflection Amplifier
 agent sansha:
-  avgBO: 159507.0038235294
+  avgBO: 160145.79605504588
   desc: agent sansha
-  entries: 102
-  factionFreq: 0.0196078431372549
-  factionModFreq: 0.0196078431372549
+  entries: 109
+  factionFreq: 0.01834862385321101
+  factionModFreq: 0.01834862385321101
   factions:
   - True Sansha EM Plating
   - True Sansha Armor Explosive Hardener
 agent serpentis:
-  avgBO: 51206.98575471698
-  bpcFreq: 0.02830188679245283
+  avgBO: 57622.5795412844
+  bpcFreq: 0.027522935779816515
   bps:
   - Daredevil Blueprint
   desc: agent serpentis
-  entries: 106
+  entries: 109
 agent guristas:
-  avgBO: 42824.11046296295
+  avgBO: 44538.277699115046
   desc: agent guristas
-  entries: 108
+  entries: 113
 agent angel:
-  avgBO: 20779.133956043956
+  avgBO: 17748.4853
   desc: agent angel
-  entries: 91
+  entries: 100
