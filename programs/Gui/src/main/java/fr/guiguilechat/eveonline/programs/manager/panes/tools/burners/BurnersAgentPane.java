@@ -1,10 +1,12 @@
 package fr.guiguilechat.eveonline.programs.manager.panes.tools.burners;
 
-import fr.guiguilechat.eveonline.programs.EvaluateBurnersAgents;
-import fr.guiguilechat.eveonline.programs.EvaluateBurnersAgents.LocalizedLPOffer;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
+import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms.EvaluateBurnersAgents;
+import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms.EvaluateBurnersAgents.LocalizedLPOffer;
+import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventionGainAlgorithm;
 import javafx.beans.property.ReadOnlyObjectWrapper;
+import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TitledPane;
@@ -26,16 +28,28 @@ public class BurnersAgentPane extends BorderPane implements EvePane {
 		return children;
 	}
 
-	protected AgentEvalOptionsPane optionBox;
+	protected OptionsPane optionBox;
 
 	EvaluateBurnersAgents eval;
 
 	protected final TableView<LocalizedLPOffer> table = new TableView<>();
 
+	public static class PriceCellFactory extends TableCell<LocalizedLPOffer, Double> {
+		@Override
+		public void updateItem(Double value, boolean empty) {
+			super.updateItem(value, empty);
+			if (empty) {
+				setText(null);
+			} else {
+				setText(InventionGainAlgorithm.formatPrice(value));
+			}
+		}
+	}
+
 	public BurnersAgentPane(Manager parent) {
 		this.parent = parent;
 
-		optionBox = new AgentEvalOptionsPane(parent);
+		optionBox = new OptionsPane(parent);
 		setTop(new TitledPane("options", optionBox));
 		optionBox.computeBtn.setOnAction(e -> compute());
 
@@ -57,12 +71,14 @@ public class BurnersAgentPane extends BorderPane implements EvePane {
 		offerCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().offer_name));
 		table.getColumns().add(offerCol);
 
-		TableColumn<LocalizedLPOffer, Double> soboCol = new TableColumn<>("sobo");
+		TableColumn<LocalizedLPOffer, Double> soboCol = new TableColumn<>("soboph");
 		soboCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().sobogain));
+		soboCol.setCellFactory(col -> new PriceCellFactory());
 		table.getColumns().add(soboCol);
 
 		TableColumn<LocalizedLPOffer, Double> avgcol = new TableColumn<>("avg");
 		avgcol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().avggain));
+		avgcol.setCellFactory(col -> new PriceCellFactory());
 		table.getColumns().add(avgcol);
 
 		setCenter(table);
@@ -77,6 +93,7 @@ public class BurnersAgentPane extends BorderPane implements EvePane {
 		eval.systemEvaluator.withMultWeightHub(parent.settings.burners.hubConstelMult);
 		eval.systemEvaluator.withWeightAdjConstel(parent.settings.burners.weightOut);
 		eval.systemEvaluator.withWeightSameConstel(parent.settings.burners.weightConstel);
+		eval.missions = parent.settings.burners.missions.values();
 
 	}
 
@@ -132,27 +149,18 @@ public class BurnersAgentPane extends BorderPane implements EvePane {
 		return ret;
 	}
 
-	protected boolean updateTime() {
-		boolean ret = false;
-		double newSystemTime = optionBox.systemTime.getValue();
-		if (parent.settings.burners.systemTime != newSystemTime) {
-			parent.settings.burners.systemTime = newSystemTime;
-			eval.sysTravelTime = newSystemTime;
-			ret = true;
-		}
-		double newBurnerTime = optionBox.burnerTime.getValue();
-		if (parent.settings.burners.burnerTime != newBurnerTime) {
-			parent.settings.burners.burnerTime = newBurnerTime;
-			eval.burnerTime = newBurnerTime;
-			ret = true;
-		}
-		return ret;
+	protected boolean updateMissions() {
+		// on all tabs, we check if there was a modification, return true if number
+		// of modified tabs is >0
+		return optionBox.missionsPane.getTabs().stream()
+				.map(t -> ((MissionPane) t.getContent()))
+				.filter(MissionPane::updateOptions)
+				.count() > 0;
+
 	}
 
 	protected void compute() {
-		boolean upd = updateMarket();
-		upd = updateMap() || upd;
-		upd = updateTime() || upd;
+		boolean upd = updateMarket() | updateMap() | updateMissions();
 		if (upd) {
 			parent().settings.store();
 		}

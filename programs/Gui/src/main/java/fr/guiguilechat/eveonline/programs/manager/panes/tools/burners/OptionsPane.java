@@ -1,20 +1,28 @@
 package fr.guiguilechat.eveonline.programs.manager.panes.tools.burners;
 
 import java.util.Map;
+import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.BurnersEvalParams;
+import fr.guiguilechat.eveonline.programs.manager.Settings.MissionStats;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.manager.panes.ScrollAdd;
 import fr.guiguilechat.eveonline.programs.manager.panes.TypedField;
+import javafx.collections.ListChangeListener.Change;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.Tab;
+import javafx.scene.control.TabPane;
+import javafx.scene.control.TabPane.TabClosingPolicy;
+import javafx.scene.control.TextField;
 import javafx.scene.control.Tooltip;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Region;
 
-public class AgentEvalOptionsPane extends GridPane implements EvePane {
+public class OptionsPane extends BorderPane implements EvePane {
 
 	protected final Manager parent;
 
@@ -23,6 +31,8 @@ public class AgentEvalOptionsPane extends GridPane implements EvePane {
 		return parent;
 	}
 
+	public TextField newMission = new TextField();
+	public Button addMissionBtn = new Button("add mission");
 	public Button computeBtn = new Button("COMPUTE");
 
 	public ChoiceBox<String> regionMarket = new ChoiceBox<>();
@@ -31,9 +41,9 @@ public class AgentEvalOptionsPane extends GridPane implements EvePane {
 
 	public TypedField<Double> weightConst, weightOut, hubConstelMult;
 
-	public TypedField<Double> systemTime, burnerTime;
+	protected TabPane missionsPane = new TabPane();
 
-	public AgentEvalOptionsPane(Manager parent) {
+	public OptionsPane(Manager parent) {
 		this.parent = parent;
 	}
 
@@ -50,16 +60,16 @@ public class AgentEvalOptionsPane extends GridPane implements EvePane {
 		if (loaded) {
 			return;
 		}
+
+		GridPane topPane = new GridPane();
+
 		BurnersEvalParams burnersSettings = parent().settings.burners;
 
 		GridPane computepane = new GridPane();
 		computepane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
 
-		lpQtty = TypedField.positivIntField(burnersSettings.lpQtty);
-		lpQtty.setTooltip(new Tooltip("quantity of LP to use. Higher LP quantity means less interesting BO/SO values, "));
-		lpQtty.setOnScroll(new ScrollAdd.IntScrollAdd(100000, lpQtty));
-		computepane.addRow(0, new Label("LP quantity"), lpQtty);
-
+		computepane.addRow(0, newMission, addMissionBtn);
+		addMissionBtn.setOnAction(e -> addNewMission());
 		computepane.addRow(2, computeBtn);
 
 		GridPane marketPane = new GridPane();
@@ -83,6 +93,11 @@ public class AgentEvalOptionsPane extends GridPane implements EvePane {
 		brokerFee.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, brokerFee));
 		marketPane.addRow(2, new Label("broker fee %"), brokerFee);
 
+		lpQtty = TypedField.positivIntField(burnersSettings.lpQtty);
+		lpQtty.setTooltip(new Tooltip("quantity of LP to use. Higher LP quantity means less interesting BO/SO values, "));
+		lpQtty.setOnScroll(new ScrollAdd.IntScrollAdd(100000, lpQtty));
+		marketPane.addRow(3, new Label("LP quantity"), lpQtty);
+
 		GridPane mapPane = new GridPane();
 		mapPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
 
@@ -103,27 +118,53 @@ public class AgentEvalOptionsPane extends GridPane implements EvePane {
 		hubConstelMult.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, hubConstelMult));
 		mapPane.addRow(3, new Label("hub mult"), hubConstelMult);
 
-		GridPane speedPane = new GridPane();
-		speedPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
-
-		systemTime = TypedField.positivDecimal(burnersSettings.systemTime);
-		systemTime.setTooltip(new Tooltip("avg time to travel through a system in min"));
-		systemTime.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, systemTime));
-		speedPane.addRow(0, new Label("system warp time"), systemTime);
-
-		burnerTime = TypedField.positivDecimal(burnersSettings.burnerTime);
-		burnerTime.setTooltip(new Tooltip(
-				"avg time to select mission and ship, undock, make last burner warp, kill it and warp back to gate in minute."));
-		burnerTime.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, burnerTime));
-		speedPane.addRow(1, new Label("burner time"), burnerTime);
-
-		for (Region tf : new Region[] { regionMarket, sellTax, brokerFee, lpQtty, weightConst, weightOut, hubConstelMult,
-				systemTime, burnerTime }) {
+		for (Region tf : new Region[] { regionMarket, sellTax, brokerFee, lpQtty, weightConst, weightOut,
+				hubConstelMult }) {
 			tf.setMaxWidth(70);
 		}
 
-		addRow(3, computepane, marketPane, mapPane);
+		topPane.addRow(0, computepane, marketPane, mapPane);
+		setTop(topPane);
+
+		for (Entry<String, MissionStats> e : parent.settings.burners.missions.entrySet()) {
+			missionsPane.getTabs().add(new Tab(e.getKey(), new MissionPane(e.getKey(), e.getValue())));
+		}
+		missionsPane.setTabClosingPolicy(TabClosingPolicy.ALL_TABS);
+		missionsPane.getTabs().addListener(this::handleTabChange);
+		setCenter(missionsPane);
+
 		loaded = true;
+	}
+
+	public void addNewMission() {
+		String missionName = newMission.getText();
+		if (missionName == null || missionName.length() == 0) {
+			return;
+		}
+		MissionStats stats = parent.settings.burners.missions.get(missionName);
+		if (stats == null) {
+			debug("creating mission " + missionName);
+			stats = new MissionStats();
+			parent.settings.burners.missions.put(missionName, stats);
+			parent.settings.store();
+			missionsPane.getTabs().add(new Tab(missionName, new MissionPane(missionName, stats)));
+			newMission.setText(null);
+		} else {
+			debug("mission " + missionName + " exists already");
+		}
+	}
+
+	protected void handleTabChange(Change<? extends Tab> c) {
+		while (c.next()) {
+			if (c.wasRemoved()) {
+				for (Tab t : c.getRemoved()) {
+					String missionName = t.getText();
+					debug("removing mission" + missionName);
+					parent.settings.burners.missions.remove(missionName);
+				}
+				parent.settings.store();
+			}
+		}
 	}
 
 }

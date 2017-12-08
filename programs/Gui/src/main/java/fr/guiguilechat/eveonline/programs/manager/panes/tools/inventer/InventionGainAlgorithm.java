@@ -28,7 +28,7 @@ public class InventionGainAlgorithm {
 	 *
 	 *
 	 */
-	public static class InvProdData {
+	public static class InventionProdData {
 		public String bpoName;
 		public String productName;
 		public String decryptor;
@@ -57,7 +57,7 @@ public class InventionGainAlgorithm {
 	}
 
 	/** evaluate the cost of producing a T2 item form a T1 bpo */
-	public static List<InvProdData> evalCostInventionProd(Blueprint bpo, Material selectedbpc,
+	public static List<InventionProdData> evalCostInventionProd(Blueprint bpo, Material selectedbpc,
 			Map<String, Integer> skills, YamlDatabase db, InventionParams params, boolean onlybest) {
 		// the bpc selected
 		Blueprint bpc = db.getBlueprints().get(selectedbpc.name);
@@ -102,8 +102,8 @@ public class InventionGainAlgorithm {
 				// advanced indus skill reduces by 3%
 				* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
 
-		List<InvProdData> ret = db.decryptors().parallelStream().map(decryptor -> {
-			InvProdData data = new InvProdData();
+		List<InventionProdData> ret = db.decryptors().parallelStream().map(decryptor -> {
+			InventionProdData data = new InventionProdData();
 			data.bpoName = bpo.name;
 			data.productName = product.name;
 			data.copyCostSO = copyCostSO;
@@ -190,7 +190,9 @@ public class InventionGainAlgorithm {
 		if (onlybest) {
 			double bestsobo = ret.stream().mapToDouble(ipd -> ipd.SOBOph).max().getAsDouble();
 			double bestMargin = ret.stream().mapToDouble(ipd -> ipd.cycleMargin).max().getAsDouble();
-			ret.removeIf(ipd -> ipd.SOBOph != bestsobo && ipd.cycleMargin != bestMargin);
+			double bestGain = ret.stream().mapToDouble(ipd -> ipd.cycleProductBO - ipd.cycleCostSO).max().getAsDouble();
+			ret.removeIf(ipd -> ipd.SOBOph != bestsobo && ipd.cycleMargin != bestMargin
+					&& ipd.cycleProductBO - ipd.cycleCostSO != bestGain);
 		}
 		return ret;
 	}

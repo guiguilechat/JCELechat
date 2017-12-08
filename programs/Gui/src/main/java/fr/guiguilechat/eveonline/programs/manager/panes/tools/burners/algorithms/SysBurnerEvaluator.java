@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs;
+package fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -36,7 +36,7 @@ public class SysBurnerEvaluator {
 	 */
 	protected static class SystemData {
 		public double avgDist;
-		public double bonusSys;
+		public double bonusTrueSec;
 		public double freqHS;
 	}
 
@@ -69,10 +69,10 @@ public class SysBurnerEvaluator {
 			visitSystemsWithDistance(sys, distance, sv);
 			SystemData ret = new SystemData();
 			ret.avgDist = sv.sumWHSjumps / sv.sumWHS;
-			ret.bonusSys = 2 - sys.minSec;
+			ret.bonusTrueSec = 2 - sys.minSec;
 			ret.freqHS = sv.sumWHS / sv.sumWeight;
 			logger
-			.trace("system " + sys.name + " avgdistHS" + ret.avgDist + " bonus" + ret.bonusSys + " pbHigh" + ret.freqHS);
+			.trace("system " + sys.name + " avgdistHS" + ret.avgDist + " bonus" + ret.bonusTrueSec + " pbHigh" + ret.freqHS);
 			cache.put(sn, ret);
 			return ret;
 		}

@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs;
+package fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -214,15 +214,16 @@ public class LPCorpEvaluator {
 		double prodAVG = market.priceAverage(o.product.type_id) * o.product.quantity * mult * (100.0 - saleTax) / 100;
 
 		double reqSO = o.requirements.isk * mult;
-		double reqBO = o.requirements.isk * mult;
-		double reqAVG = o.requirements.isk * mult;
 		reqSO += o.requirements.items.parallelStream().mapToDouble(rq -> market.getSO(rq.type_id, rq.quantity * mult))
 				.sum();
+		double reqBO = o.requirements.isk * mult;
 		reqBO += o.requirements.items.parallelStream()
 				.mapToDouble(rq -> market.getBO(rq.type_id, 1) * rq.quantity * mult * (100.0 - brokerFee) / 100)
 				.sum();
+		double reqAVG = o.requirements.isk * mult;
 		reqAVG += o.requirements.items.parallelStream()
 				.mapToDouble(rq -> market.priceAverage(rq.type_id) * rq.quantity * mult).sum();
+
 		ret.iskPerLPSOBO = (prodBO - reqSO) / o.requirements.lp / mult;
 		ret.iskPerLPBOSO = (prodSO - reqBO) / o.requirements.lp / mult;
 		ret.iskPerLPAVG = (prodAVG - reqAVG) / o.requirements.lp / mult;

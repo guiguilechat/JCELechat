@@ -89,9 +89,6 @@ public class Settings implements ISettings {
 		public double weightOut = 1;
 		public double hubConstelMult = 1;
 
-		public double systemTime = 2;
-		public double burnerTime = 5;
-
 		public LinkedHashMap<String, MissionStats> missions = new LinkedHashMap<>();
 
 	}
@@ -104,10 +101,21 @@ public class Settings implements ISettings {
 	 * wreck)
 	 */
 	public static class MissionStats {
-		public int isk_cstt = 5000, isk_indexed = 2000,
-				lp = 8000,
-				align_time_s = 10, warp_speed_uaps = 4, timetokill_s = 60;
+		public int isk_cstt = 0, isk_indexed = 0, lp = 0, align_time_s = 0, timetokill_s = 0;
+		public double warp_speed_aups = 0.0;
 		public boolean isBurner = true;
+
+		/**
+		 *
+		 * @param au
+		 * @return travel time in seconds, rounded up
+		 */
+		public int systemTravel(double au) {
+			return (int) Math.ceil(align_time_s+(
+					warp_speed_aups<6
+					?(98.4+au)/warp_speed_aups
+							:12.36+(25.73+au-warp_speed_aups/2)/warp_speed_aups));
+		}
 	}
 
 	public static class InventionParams {

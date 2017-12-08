@@ -11,7 +11,7 @@
   <description>pom for all main programs</description>
   <modules>
   	<module>EvaluateRigMarket</module>
-  	<module>EvaluateL4Agents</module>
+  	
   	<module>StatsBurnerDest</module>
   	<module>LootStats</module>
   	<module>Optimize</module>

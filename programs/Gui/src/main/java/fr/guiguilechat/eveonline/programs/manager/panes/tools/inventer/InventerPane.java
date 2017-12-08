@@ -14,7 +14,7 @@ import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
-import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventionGainAlgorithm.InvProdData;
+import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventionGainAlgorithm.InventionProdData;
 import javafx.application.Platform;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.collections.FXCollections;
@@ -45,9 +45,9 @@ public class InventerPane extends BorderPane implements EvePane {
 
 	protected OptionsPane options;
 
-	protected final TableView<InvProdData> table = new TableView<>();
+	protected final TableView<InventionProdData> table = new TableView<>();
 
-	protected static class PriceCellFactory extends TableCell<InvProdData, Double> {
+	protected static class PriceCellFactory extends TableCell<InventionProdData, Double> {
 		@Override
 		public void updateItem(Double value, boolean empty) {
 			super.updateItem(value, empty);
@@ -88,47 +88,53 @@ public class InventerPane extends BorderPane implements EvePane {
 		setTop(new TitledPane("options", options));
 		options.computeBtn.setOnAction(e -> compute());
 
-		TableColumn<InvProdData, String> prodCol = new TableColumn<>("product");
+		TableColumn<InventionProdData, String> prodCol = new TableColumn<>("product");
 		prodCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().productName));
 		prodCol.setMinWidth(300);
 		table.getColumns().add(prodCol);
 
-		TableColumn<InvProdData, String> decCol = new TableColumn<>("decryptor");
+		TableColumn<InventionProdData, String> decCol = new TableColumn<>("decryptor");
 		decCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().decryptor));
 		table.getColumns().add(decCol);
 
-		TableColumn<InvProdData, Double> sobophCol = new TableColumn<>("sobo/h");
+		TableColumn<InventionProdData, Double> sobophCol = new TableColumn<>("sobo/h");
 		sobophCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().SOBOph));
 		sobophCol.setCellFactory(col -> new PriceCellFactory());
 		table.getColumns().add(sobophCol);
 		sobophCol.setSortType(SortType.DESCENDING);
 		table.getSortOrder().add(sobophCol);
 
-		TableColumn<InvProdData, Double> marginCol = new TableColumn<>("margin");
+		TableColumn<InventionProdData, Double> marginCol = new TableColumn<>("margin");
 		marginCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleMargin));
 		table.getColumns().add(marginCol);
 
-		TableColumn<InvProdData, Double> costSOCol = new TableColumn<>("inSO");
+		TableColumn<InventionProdData, Double> gainCol = new TableColumn<>("gain/ccl");
+		gainCol.setCellValueFactory(
+				lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleProductBO - lo.getValue().cycleCostSO));
+		gainCol.setCellFactory(col -> new PriceCellFactory());
+		table.getColumns().add(gainCol);
+
+		TableColumn<InventionProdData, Double> costSOCol = new TableColumn<>("inSO");
 		costSOCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleCostSO));
 		costSOCol.setCellFactory(col -> new PriceCellFactory());
 		table.getColumns().add(costSOCol);
 
-		TableColumn<InvProdData, Double> sellBOCol = new TableColumn<>("outBO");
+		TableColumn<InventionProdData, Double> sellBOCol = new TableColumn<>("outBO");
 		sellBOCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleProductBO));
 		sellBOCol.setCellFactory(col -> new PriceCellFactory());
 		table.getColumns().add(sellBOCol);
 
-		TableColumn<InvProdData, Double> volumeCol = new TableColumn<>("prod/cycle");
+		TableColumn<InventionProdData, Double> volumeCol = new TableColumn<>("prod/cycle");
 		volumeCol
 		.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleAvgProd));
 		table.getColumns().add(volumeCol);
 
-		TableColumn<InvProdData, String> cycleDuration = new TableColumn<>("cycle dur");
+		TableColumn<InventionProdData, String> cycleDuration = new TableColumn<>("cycle dur");
 		cycleDuration.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(InventionGainAlgorithm.formatDurationSeconds(
 				lo.getValue().copyTime + lo.getValue().inventionTime + lo.getValue().manufacturingTime)));
 		table.getColumns().add(cycleDuration);
 
-		for (TableColumn<?, ?> t : new TableColumn<?, ?>[] { sobophCol, costSOCol, sellBOCol, volumeCol }) {
+		for (TableColumn<?, ?> t : new TableColumn<?, ?>[] { sobophCol, costSOCol, sellBOCol, volumeCol, gainCol }) {
 			t.setMaxWidth(60);
 		}
 
@@ -157,7 +163,7 @@ public class InventerPane extends BorderPane implements EvePane {
 				Map<String, Integer> skills = cs == null ? new HashMap<>() : cs.skillsByName();
 				Pattern nameMatcher = nameLimit == null ? null : Pattern.compile(".*" + nameLimit.toLowerCase() + ".*");
 
-				ObservableList<InvProdData> list = FXCollections.observableArrayList();
+				ObservableList<InventionProdData> list = FXCollections.observableArrayList();
 				List<Blueprint> bpos = blueprints(skills).collect(Collectors.toList());
 				int maxnb = bpos.size() * 2;
 
