@@ -154,7 +154,7 @@ public class BurnersAgentPane extends BorderPane implements EvePane {
 		// of modified tabs is >0
 		return optionBox.missionsPane.getTabs().stream()
 				.map(t -> ((MissionPane) t.getContent()))
-				.filter(MissionPane::updateOptions)
+				.filter(MissionPane::updateSettings)
 				.count() > 0;
 
 	}

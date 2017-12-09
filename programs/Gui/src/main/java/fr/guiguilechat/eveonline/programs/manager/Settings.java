@@ -103,7 +103,72 @@ public class Settings implements ISettings {
 	public static class MissionStats {
 		public int isk_cstt = 0, isk_indexed = 0, lp = 0, align_time_s = 0, timetokill_s = 0;
 		public double warp_speed_aups = 0.0;
-		public boolean isBurner = true;
+		public boolean burner = true;
+		public boolean active = true;
+
+		public boolean isActive() {
+			return active;
+		}
+
+		public void setActive(boolean isActive) {
+			this.active = isActive;
+		}
+
+		public int getIsk_cstt() {
+			return isk_cstt;
+		}
+
+		public void setIsk_cstt(int isk_cstt) {
+			this.isk_cstt = isk_cstt;
+		}
+
+		public int getIsk_indexed() {
+			return isk_indexed;
+		}
+
+		public void setIsk_indexed(int isk_indexed) {
+			this.isk_indexed = isk_indexed;
+		}
+
+		public int getLp() {
+			return lp;
+		}
+
+		public void setLp(int lp) {
+			this.lp = lp;
+		}
+
+		public int getAlign_time_s() {
+			return align_time_s;
+		}
+
+		public void setAlign_time_s(int align_time_s) {
+			this.align_time_s = align_time_s;
+		}
+
+		public int getTimetokill_s() {
+			return timetokill_s;
+		}
+
+		public void setTimetokill_s(int timetokill_s) {
+			this.timetokill_s = timetokill_s;
+		}
+
+		public double getWarp_speed_aups() {
+			return warp_speed_aups;
+		}
+
+		public void setWarp_speed_aups(double warp_speed_aups) {
+			this.warp_speed_aups = warp_speed_aups;
+		}
+
+		public boolean isBurner() {
+			return burner;
+		}
+
+		public void setBurner(boolean isBurner) {
+			this.burner = isBurner;
+		}
 
 		/**
 		 *

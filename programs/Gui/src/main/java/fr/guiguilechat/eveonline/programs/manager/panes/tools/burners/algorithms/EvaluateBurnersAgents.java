@@ -109,23 +109,24 @@ public class EvaluateBurnersAgents {
 	}
 
 	protected Stream<LocalizedLPOffer> evaluateOffers(Agent agent) {
-		if (missions.isEmpty()) {
+		MissionStats[] missions = this.missions.stream().filter(MissionStats::isActive).toArray(MissionStats[]::new);
+		if (missions.length == 0) {
 			return Stream.empty();
 		}
 		SystemData sysEval = systemEvaluator.evaluate(agent.system);
 		double freqHS = sysEval.freqHS;
-		double avgDist = sysEval.avgDist;
-		double nbPerHour = 3600.0 / missions.stream().mapToDouble(m ->
+		double avgDist = sysEval.burnerAvgDist;
+		double nbPerHour = 3600.0 / Stream.of(missions).mapToDouble(m ->
 		m.timetokill_s
 		//time to dock, repair, move items, cancel offers.
 		+60
 		// time to travel, per jump (distance). we assume 20AU per system
 		+2*avgDist*(m.systemTravel(20.0)+7+m.align_time_s)
 		// time to make the last warp. we assume 10AU for initial warp
-				+ 2 * m.systemTravel(10.0)).sum() * missions.size();
-		double isk_static=missions.stream().mapToDouble(m->m.isk_cstt).sum()/missions.size();
-		double isk_indexed=missions.stream().mapToDouble(m->m.isk_indexed).sum()/missions.size();
-		double lp =missions.stream().mapToDouble(m->m.lp).sum()/missions.size();
+				+ 2 * m.systemTravel(10.0)).sum() * missions.length;
+		double isk_static = Stream.of(missions).mapToDouble(m -> m.isk_cstt).sum() / missions.length;
+		double isk_indexed = Stream.of(missions).mapToDouble(m -> m.isk_indexed).sum() / missions.length;
+		double lp = Stream.of(missions).mapToDouble(m -> m.lp).sum() / missions.length;
 		System.err.println("agent in " + agent.system + " average nbperhour=" + nbPerHour + " isk_static=" + isk_static
 				+ " isk_indexed=" + isk_indexed + " lp=" + lp);
 		double secBonus = sysEval.bonusTrueSec;

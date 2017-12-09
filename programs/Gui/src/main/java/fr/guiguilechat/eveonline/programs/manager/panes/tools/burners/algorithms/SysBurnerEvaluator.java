@@ -35,7 +35,7 @@ public class SysBurnerEvaluator {
 	 * informations on a system
 	 */
 	protected static class SystemData {
-		public double avgDist;
+		public double burnerAvgDist;
 		public double bonusTrueSec;
 		public double freqHS;
 	}
@@ -68,11 +68,11 @@ public class SysBurnerEvaluator {
 			SystemVisitor sv = new SystemVisitor(sys);
 			visitSystemsWithDistance(sys, distance, sv);
 			SystemData ret = new SystemData();
-			ret.avgDist = sv.sumWHSjumps / sv.sumWHS;
+			ret.burnerAvgDist = sv.sumWHSjumps / sv.sumWHS;
 			ret.bonusTrueSec = 2 - sys.minSec;
 			ret.freqHS = sv.sumWHS / sv.sumWeight;
 			logger
-			.trace("system " + sys.name + " avgdistHS" + ret.avgDist + " bonus" + ret.bonusTrueSec + " pbHigh" + ret.freqHS);
+			.trace("system " + sys.name + " avgdistHS" + ret.burnerAvgDist + " bonus" + ret.bonusTrueSec + " pbHigh" + ret.freqHS);
 			cache.put(sn, ret);
 			return ret;
 		}
