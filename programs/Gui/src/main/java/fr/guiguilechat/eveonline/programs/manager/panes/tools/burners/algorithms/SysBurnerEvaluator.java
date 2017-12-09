@@ -36,6 +36,7 @@ public class SysBurnerEvaluator {
 	 */
 	protected static class SystemData {
 		public double burnerAvgDist;
+		public double constelAvgDist;
 		public double bonusTrueSec;
 		public double freqHS;
 	}
@@ -69,6 +70,7 @@ public class SysBurnerEvaluator {
 			visitSystemsWithDistance(sys, distance, sv);
 			SystemData ret = new SystemData();
 			ret.burnerAvgDist = sv.sumWHSjumps / sv.sumWHS;
+			ret.constelAvgDist = sv.sumWHSConstJumps / sv.sumWeightHSConst;
 			ret.bonusTrueSec = 2 - sys.minSec;
 			ret.freqHS = sv.sumWHS / sv.sumWeight;
 			logger
@@ -191,15 +193,18 @@ public class SysBurnerEvaluator {
 		}
 
 		// we make a ponderated sum of jumps in HS and HS systems.
-		public double sumWHSjumps = 0, sumWeight = 0, sumWHS;
+		public double sumWHSjumps = 0, sumWeight = 0, sumWHS, sumWHSConstJumps = 0, sumWeightHSConst = 0;
 
 		public void acceptSystem(Location loc, int dst, boolean hasHSRoute) {
 			double sysWeight = 0;
 			if (!db.containsHub(loc.name)) {
 				if (loc.name.equals(origin.name)) {
 					sysWeight = 1;
+					sumWeightHSConst += 1;
 				} else if (loc.parentConstellation.equals(origin.parentConstellation)) {
 					sysWeight = weightSameConstel;
+					sumWeightHSConst += weightSameConstel;
+					sumWHSConstJumps += weightSameConstel * dst;
 				} else if (adjacentConstels.contains(loc.parentConstellation)) {
 					sysWeight = weightAdjConstel;
 				}
