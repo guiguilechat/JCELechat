@@ -5,6 +5,7 @@ import java.util.function.Supplier;
 
 import fr.guiguilechat.eveonline.programs.manager.panes.ScrollAdd;
 import fr.guiguilechat.eveonline.programs.manager.panes.TypedField;
+import javafx.scene.layout.Region;
 
 /**
  * represents a field in data into a textfield. Allow to update the data when
@@ -20,6 +21,11 @@ public class TextFieldRepresentation<T> extends Representation<T> {
 	protected final TypedField<T> field;
 
 	public TypedField<T> getField() {
+		return field;
+	}
+
+	@Override
+	public Region getRegion() {
 		return field;
 	}
 

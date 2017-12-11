@@ -3,6 +3,8 @@ package fr.guiguilechat.eveonline.programs.manager.panes.representation;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
+import javafx.scene.layout.Region;
+
 /**
  * representation in gui of an attribute somewhere.
  *
@@ -32,6 +34,8 @@ public abstract class Representation<T> {
 	 * so it can be different from the geter value
 	 */
 	public abstract T getRepresentation();
+
+	public abstract Region getRegion();
 
 	/**
 	 * check if the representation is different from attribute, set the attribute

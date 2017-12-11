@@ -5,14 +5,18 @@ import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms.EvaluateBurnersAgents;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms.EvaluateBurnersAgents.LocalizedLPOffer;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventionGainAlgorithm;
+import javafx.application.Platform;
 import javafx.beans.property.ReadOnlyObjectWrapper;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.concurrent.Task;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TitledPane;
 import javafx.scene.layout.BorderPane;
 
-public class BurnersAgentPane extends BorderPane implements EvePane {
+public class BurnersToolPane extends BorderPane implements EvePane {
 
 	protected final Manager parent;
 
@@ -46,7 +50,7 @@ public class BurnersAgentPane extends BorderPane implements EvePane {
 		}
 	}
 
-	public BurnersAgentPane(Manager parent) {
+	public BurnersToolPane(Manager parent) {
 		this.parent = parent;
 
 		optionBox = new OptionsPane(parent);
@@ -160,15 +164,32 @@ public class BurnersAgentPane extends BorderPane implements EvePane {
 	}
 
 	protected void compute() {
-		boolean upd = updateMarket() | updateMap() | updateMissions();
-		if (upd) {
+		if (updateMarket() | updateMap() | updateMissions()) {
 			parent().settings.store();
 		}
 		table.getItems().clear();
 		optionBox.computeBtn.setDisable(true);
-		eval.streamOffers().forEachOrdered(table.getItems()::add);
-		table.sort();
-		optionBox.computeBtn.setDisable(false);
+		Task<Void> task = task();
+		Thread th = new Thread(task);
+		th.setDaemon(true);
+		th.start();
+	}
+
+	Task<Void> task() {
+		return new Task<Void>() {
+			@Override
+			protected Void call() throws Exception {
+				ObservableList<LocalizedLPOffer> list = FXCollections.observableArrayList();
+				eval.streamOffers().forEachOrdered(list::add);
+				Platform.runLater(() -> {
+					table.getItems().addAll(list);
+					table.sort();
+					optionBox.computeBtn.setDisable(false);
+				});
+				return null;
+			}
+
+		};
 	}
 
 }

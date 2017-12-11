@@ -12,7 +12,6 @@ import fr.guiguilechat.eveonline.model.apiv2.Account;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
-import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventionGainAlgorithm.InventionProdData;
 import javafx.application.Platform;
@@ -27,7 +26,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TitledPane;
 import javafx.scene.layout.BorderPane;
 
-public class InventerPane extends BorderPane implements EvePane {
+public class InventerToolPane extends BorderPane implements EvePane {
 
 	protected final Manager parent;
 
@@ -60,6 +59,9 @@ public class InventerPane extends BorderPane implements EvePane {
 	}
 
 	public static final EveChar ALL5 = new Account(null).new EveChar() {
+		{
+			name = "all5";
+		}
 
 		@SuppressWarnings("serial")
 		public java.util.LinkedHashMap<String, Integer> ALL5MAP = new LinkedHashMap<String, Integer>() {
@@ -81,7 +83,7 @@ public class InventerPane extends BorderPane implements EvePane {
 
 	};
 
-	public InventerPane(Manager parent) {
+	public InventerToolPane(Manager parent) {
 		this.parent = parent;
 		options = new OptionsPane(parent);
 
@@ -143,7 +145,9 @@ public class InventerPane extends BorderPane implements EvePane {
 	}
 
 	protected void compute() {
-		updateSettings();
+		if (options.updateSettings()) {
+			parent().settings.store();
+		}
 		table.getItems().clear();
 		options.computeBtn.setDisable(true);
 		Task<Void> task = task();
@@ -156,16 +160,14 @@ public class InventerPane extends BorderPane implements EvePane {
 		return new Task<Void>() {
 			@Override
 			protected Void call() throws Exception {
-				options.computeBtn.setDisable(true);
-				table.getItems().clear();
-
-				EveChar cs = options.characterSkills.getValue();
+				EveChar cs = options.characterSkills.getBox().getValue();
 				Map<String, Integer> skills = cs == null ? new HashMap<>() : cs.skillsByName();
-				Pattern nameMatcher = nameLimit == null ? null : Pattern.compile(".*" + nameLimit.toLowerCase() + ".*");
+				String nameLimit = options.bpPattern.getText();
+				Pattern nameMatcher = nameLimit == null || nameLimit.length() == 0 ? null
+						: Pattern.compile(".*" + nameLimit.toLowerCase() + ".*");
 
 				ObservableList<InventionProdData> list = FXCollections.observableArrayList();
 				List<Blueprint> bpos = blueprints(skills).collect(Collectors.toList());
-				int maxnb = bpos.size() * 2;
 
 				bpos.parallelStream().flatMap(bpo -> bpo.invention.products.stream().parallel()
 						.filter(nameMatcher == null ? mat -> true : mat -> nameMatcher.matcher(mat.name.toLowerCase()).matches())
@@ -175,7 +177,6 @@ public class InventerPane extends BorderPane implements EvePane {
 								.stream()))
 				.forEachOrdered(e -> {
 					list.add(e);
-					updateProgress(list.size(), maxnb);
 				});
 				Platform.runLater(() -> {
 					table.getItems().addAll(list);
@@ -194,97 +195,6 @@ public class InventerPane extends BorderPane implements EvePane {
 				.filter(bp -> InventionGainAlgorithm.haveReqSkills(skills, bp.copying.skills)
 						&& InventionGainAlgorithm.haveReqSkills(skills, bp.invention.skills));
 		return ret;
-	}
-
-	private String nameLimit = null;
-
-	/**
-	 * update the settings from the values in the window
-	 *
-	 * @return true if settings were modified
-	 */
-	protected boolean updateSettings() {
-		InventionParams settings = parent().settings.invention;
-		boolean modification = false;
-
-		if (settings.marketRegion != options.marketRegion.getValue()) {
-			settings.marketRegion = options.marketRegion.getValue();
-			modification = true;
-		}
-		if (options.characterSkills.getValue() == null && settings.characterSkills != null
-				|| options.characterSkills.getValue() != null
-				&& !options.characterSkills.getValue().name.equals(settings.characterSkills)) {
-			settings.characterSkills = options.characterSkills.getValue() == null ? null
-					: options.characterSkills.getValue().name;
-			modification = true;
-		}
-		if (settings.copyIndex != options.copyIndex.getValue()) {
-			settings.copyIndex = options.copyIndex.getValue();
-			modification = true;
-		}
-		if (settings.copyTax != options.copyTax.getValue()) {
-			settings.copyTax = options.copyTax.getValue();
-			modification = true;
-		}
-		if (settings.inventIndex != options.inventIndex.getValue()) {
-			settings.inventIndex = options.inventIndex.getValue();
-			modification = true;
-		}
-		if (settings.inventTax != options.inventTax.getValue()) {
-			settings.inventTax = options.inventTax.getValue();
-			modification = true;
-		}
-		if (settings.manufactureIndex != options.manufIndex.getValue()) {
-			settings.manufactureIndex = options.manufIndex.getValue();
-			modification = true;
-		}
-		if (settings.manufactureTax != options.manufTax.getValue()) {
-			settings.manufactureTax = options.manufTax.getValue();
-			modification = true;
-		}
-		if (settings.sellTax != options.sellTax.getValue()) {
-			settings.sellTax = options.sellTax.getValue();
-			modification = true;
-		}
-		if (settings.brokerFee != options.brokerFee.getValue()) {
-			settings.brokerFee = options.brokerFee.getValue();
-			modification = true;
-		}
-		if (settings.minCycles != options.minCycles.getValue()) {
-			settings.minCycles = options.minCycles.getValue();
-			modification = true;
-		}
-		if (settings.minHours != options.minHours.getValue()) {
-			settings.minHours = options.minHours.getValue();
-			modification = true;
-		}
-		if (!options.copystruct.getValue().name().equals(settings.copystruct)) {
-			settings.copystruct = options.copystruct.getValue().name();
-			modification = true;
-		}
-		if (!options.inventstruct.getValue().name().equals(settings.inventstruct)) {
-			settings.inventstruct = options.inventstruct.getValue().name();
-			modification = true;
-		}
-		if (!options.manufstruct.getValue().name().equals(settings.manufstruct)) {
-			settings.manufstruct = options.manufstruct.getValue().name();
-			modification = true;
-		}
-
-		if (modification) {
-			parent().settings.store();
-		}
-
-		String newNameLimit = options.bpPattern.getText();
-		if (newNameLimit != null && newNameLimit.length() == 0) {
-			newNameLimit = null;
-		}
-		if (newNameLimit == null && nameLimit != null || newNameLimit != null && !newNameLimit.equals(nameLimit)) {
-			nameLimit = newNameLimit;
-			modification = true;
-		}
-
-		return modification;
 	}
 
 	public static enum StructBonus {

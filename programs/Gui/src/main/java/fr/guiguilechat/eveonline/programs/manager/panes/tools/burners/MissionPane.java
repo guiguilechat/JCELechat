@@ -42,7 +42,7 @@ public class MissionPane extends GridPane implements PaneWithRepresentation {
 				new Tooltip("constant isk gain when successfuly doing this mission, in k. includes bounty and BO of loot"));
 		addRow(1, new Label("cstt isk"), isk_cstt.getField());
 
-		isk_indexed = TextFieldRepresentation.positivIntField(options::getIsk_indexed, options::setIsk_cstt);
+		isk_indexed = TextFieldRepresentation.positivIntField(options::getIsk_indexed, options::setIsk_indexed);
 		isk_indexed.getField().setOnScroll(new ScrollAdd.IntScrollAdd(100000, isk_indexed.getField()));
 		isk_indexed.getField().setTooltip(
 				new Tooltip("indexed isk gain when successfuly doing this mission, in k.\n"

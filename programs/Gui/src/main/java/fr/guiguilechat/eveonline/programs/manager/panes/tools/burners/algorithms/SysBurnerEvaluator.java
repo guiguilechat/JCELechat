@@ -71,7 +71,7 @@ public class SysBurnerEvaluator {
 			SystemData ret = new SystemData();
 			ret.burnerAvgDist = sv.sumWHSjumps / sv.sumWHS;
 			ret.constelAvgDist = sv.sumWHSConstJumps / sv.sumWeightHSConst;
-			ret.bonusTrueSec = 2 - sys.minSec;
+			ret.bonusTrueSec = 1.63 - sys.minSec;
 			ret.freqHS = sv.sumWHS / sv.sumWeight;
 			logger
 			.trace("system " + sys.name + " avgdistHS" + ret.burnerAvgDist + " bonus" + ret.bonusTrueSec + " pbHigh" + ret.freqHS);

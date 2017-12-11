@@ -13,7 +13,7 @@ import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
-import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventerPane.StructBonus;
+import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventerToolPane.StructBonus;
 
 /**
  * evaluate the gain per hour of a copy-invent-manufacture cycle for each bpo,
@@ -68,9 +68,9 @@ public class InventionGainAlgorithm {
 		Material product = bpc.manufacturing.products.get(0);
 		int prodID = db.getId(product.name);
 
-		StructBonus copyStruct = InventerPane.StructBonus.valueOf(params.copystruct);
-		StructBonus inventStruct = InventerPane.StructBonus.valueOf(params.inventstruct);
-		StructBonus manufStruct = InventerPane.StructBonus.valueOf(params.manufstruct);
+		StructBonus copyStruct = InventerToolPane.StructBonus.valueOf(params.copystruct);
+		StructBonus inventStruct = InventerToolPane.StructBonus.valueOf(params.inventstruct);
+		StructBonus manufStruct = InventerToolPane.StructBonus.valueOf(params.manufstruct);
 
 		// the Estimated Item Value of the bpo. used for copying and manufacturing
 		double bpoEIV = bpo.manufacturing == null || bpo.manufacturing.materials == null ? 0

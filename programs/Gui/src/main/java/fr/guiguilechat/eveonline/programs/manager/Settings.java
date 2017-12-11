@@ -111,7 +111,7 @@ public class Settings implements ISettings {
 		}
 
 		public void setActive(boolean isActive) {
-			this.active = isActive;
+			active = isActive;
 		}
 
 		public int getIsk_cstt() {
@@ -167,7 +167,7 @@ public class Settings implements ISettings {
 		}
 
 		public void setBurner(boolean isBurner) {
-			this.burner = isBurner;
+			burner = isBurner;
 		}
 
 		/**
@@ -197,6 +197,126 @@ public class Settings implements ISettings {
 		public String copystruct, inventstruct, manufstruct;
 		public int minCycles = 1;
 		public int minHours = 0;
+
+		public String getMarketRegion() {
+			return marketRegion;
+		}
+
+		public void setMarketRegion(String marketRegion) {
+			this.marketRegion = marketRegion;
+		}
+
+		public String getCharacterSkills() {
+			return characterSkills;
+		}
+
+		public void setCharacterSkills(String characterSkills) {
+			this.characterSkills = characterSkills;
+		}
+
+		public double getCopyIndex() {
+			return copyIndex;
+		}
+
+		public void setCopyIndex(double copyIndex) {
+			this.copyIndex = copyIndex;
+		}
+
+		public double getCopyTax() {
+			return copyTax;
+		}
+
+		public void setCopyTax(double copyTax) {
+			this.copyTax = copyTax;
+		}
+
+		public double getInventIndex() {
+			return inventIndex;
+		}
+
+		public void setInventIndex(double inventIndex) {
+			this.inventIndex = inventIndex;
+		}
+
+		public double getInventTax() {
+			return inventTax;
+		}
+
+		public void setInventTax(double inventTax) {
+			this.inventTax = inventTax;
+		}
+
+		public double getManufactureIndex() {
+			return manufactureIndex;
+		}
+
+		public void setManufactureIndex(double manufactureIndex) {
+			this.manufactureIndex = manufactureIndex;
+		}
+
+		public double getManufactureTax() {
+			return manufactureTax;
+		}
+
+		public void setManufactureTax(double manufactureTax) {
+			this.manufactureTax = manufactureTax;
+		}
+
+		public double getSellTax() {
+			return sellTax;
+		}
+
+		public void setSellTax(double sellTax) {
+			this.sellTax = sellTax;
+		}
+
+		public double getBrokerFee() {
+			return brokerFee;
+		}
+
+		public void setBrokerFee(double brokerFee) {
+			this.brokerFee = brokerFee;
+		}
+
+		public String getCopystruct() {
+			return copystruct;
+		}
+
+		public void setCopystruct(String copystruct) {
+			this.copystruct = copystruct;
+		}
+
+		public String getInventstruct() {
+			return inventstruct;
+		}
+
+		public void setInventstruct(String inventstruct) {
+			this.inventstruct = inventstruct;
+		}
+
+		public String getManufstruct() {
+			return manufstruct;
+		}
+
+		public void setManufstruct(String manufstruct) {
+			this.manufstruct = manufstruct;
+		}
+
+		public int getMinCycles() {
+			return minCycles;
+		}
+
+		public void setMinCycles(int minCycles) {
+			this.minCycles = minCycles;
+		}
+
+		public int getMinHours() {
+			return minHours;
+		}
+
+		public void setMinHours(int minHours) {
+			this.minHours = minHours;
+		}
 	}
 
 	public InventionParams invention = new InventionParams();

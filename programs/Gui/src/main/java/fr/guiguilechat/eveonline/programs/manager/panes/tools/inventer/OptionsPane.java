@@ -1,6 +1,10 @@
 package fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer;
 
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.model.apiv2.Account;
@@ -9,20 +13,23 @@ import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.manager.panes.ScrollAdd;
-import fr.guiguilechat.eveonline.programs.manager.panes.TypedField;
-import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventerPane.StructBonus;
+import fr.guiguilechat.eveonline.programs.manager.panes.representation.ChoiceBoxRepresentation;
+import fr.guiguilechat.eveonline.programs.manager.panes.representation.PaneWithRepresentation;
+import fr.guiguilechat.eveonline.programs.manager.panes.representation.Representation;
+import fr.guiguilechat.eveonline.programs.manager.panes.representation.TextFieldRepresentation;
+import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventerToolPane.StructBonus;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
-import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Tooltip;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.Region;
 import javafx.util.StringConverter;
 
-public class OptionsPane extends HBox implements EvePane {
+public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation {
 
 	protected final Manager parent;
 
@@ -31,44 +38,39 @@ public class OptionsPane extends HBox implements EvePane {
 		return parent;
 	}
 
+	protected Collection<Representation<?>> representations;
+
+	@Override
+	public Collection<Representation<?>> GetRepresentations() {
+		return representations;
+	}
+
 	public Button computeBtn = new Button("COMPUTE");
 
-	public ChoiceBox<String> marketRegion = new ChoiceBox<>();
-	public ChoiceBox<EveChar> characterSkills = new ChoiceBox<>();
+	public ChoiceBoxRepresentation<EveChar> characterSkills;
 
 	public TextField bpPattern = new TextField();
 	public CheckBox onlyBest = new CheckBox();
-	public TypedField<Integer> minCycles;
-	public TypedField<Integer> minHours;
-	public TypedField<Double> sellTax, brokerFee;
-	public TypedField<Double> copyTax, copyIndex;
-	public ChoiceBox<InventerPane.StructBonus> copystruct;
-	public TypedField<Double> inventTax, inventIndex;
-	public ChoiceBox<InventerPane.StructBonus> inventstruct;
-	public TypedField<Double> manufTax, manufIndex;
-	public ChoiceBox<InventerPane.StructBonus> manufstruct;
+	public TextFieldRepresentation<Integer> minCycles;
+	public TextFieldRepresentation<Integer> minHours;
+
+	public TextFieldRepresentation<Double> sellTax, brokerFee;
+	public ChoiceBoxRepresentation<String> marketRegion;
+
+	public TextFieldRepresentation<Double> copyTax, copyIndex;
+	public ChoiceBoxRepresentation<InventerToolPane.StructBonus> copystruct;
+
+	public TextFieldRepresentation<Double> inventTax, inventIndex;
+	public ChoiceBoxRepresentation<InventerToolPane.StructBonus> inventstruct;
+
+	public TextFieldRepresentation<Double> manufTax, manufIndex;
+	public ChoiceBoxRepresentation<InventerToolPane.StructBonus> manufstruct;
+
+	ObservableList<EveChar> chars;
 
 	public OptionsPane(Manager parent) {
 		this.parent = parent;
-		InventerPane.ALL5.name = "all5";
-		characterSkills.getItems().add(InventerPane.ALL5);
-		characterSkills.setConverter(new StringConverter<Account.EveChar>() {
-
-			@Override
-			public String toString(EveChar object) {
-				return object != null ? object.name : "";
-			}
-
-			@Override
-			public EveChar fromString(String string) {
-				// should actually never be called.
-				if (string == null) {
-					return null;
-				}
-				return parent().apis.stream().filter(a -> !a.isCorp()).flatMap(ar -> ar.account.characters().stream())
-						.filter(c -> string.equals(c.name)).findFirst().orElse(null);
-			}
-		});
+		chars = FXCollections.observableArrayList(InventerToolPane.ALL5);
 	}
 
 	@Override
@@ -85,106 +87,124 @@ public class OptionsPane extends HBox implements EvePane {
 			return;
 		}
 		InventionParams settings = parent().settings.invention;
+		characterSkills = new ChoiceBoxRepresentation<>(
+				() -> parent.streamChars().filter(c -> c.name.equals(settings.characterSkills)).findAny().orElse(InventerToolPane.ALL5),
+				c -> settings.characterSkills = c.name,
+				chars);
+		characterSkills.getBox().setConverter(new StringConverter<Account.EveChar>() {
 
-		// add all the regions to the choicebox
-		parent.db().getLocations().entrySet().stream().filter(e -> e.getValue().parentRegion == null).map(Map.Entry::getKey)
-		.forEachOrdered(marketRegion.getItems()::add);
-		marketRegion.setValue(settings.marketRegion);
-		marketRegion.getItems().sort(String::compareToIgnoreCase);
+			@Override
+			public String toString(EveChar object) {
+				return object != null ? object.name : "";
+			}
 
-		characterSkills.getSelectionModel()
-		.select(characterSkills.getItems().stream().filter(ec -> ec.name.equals(settings.characterSkills)).findFirst()
-				.orElse(InventerPane.ALL5));
+			@Override
+			public EveChar fromString(String string) {
+				throw new UnsupportedOperationException();
+			}
+		});
+		List<String> regions = parent.db().getLocations().entrySet().stream().filter(e -> e.getValue().parentRegion == null)
+				.map(Map.Entry::getKey).sorted(String::compareToIgnoreCase).collect(Collectors.toList());
+		marketRegion = new ChoiceBoxRepresentation<>(
+				() -> regions.stream().filter(r -> r.equals(settings.marketRegion)).findAny().orElse("TheForge"),
+				settings::setMarketRegion,
+				regions);
 
-		sellTax = TypedField.positivDecimal(settings.sellTax);
-		sellTax.setTooltip(new Tooltip("percentage of the sale that is due as tax"));
-		sellTax.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, sellTax));
+		sellTax = TextFieldRepresentation.positivDecimal(settings::getSellTax, settings::setSellTax);
+		sellTax.getField().setTooltip(new Tooltip("percentage of the sale that is due as tax"));
+		sellTax.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, sellTax.getField()));
 
-		brokerFee = TypedField.positivDecimal(settings.brokerFee);
-		brokerFee.setTooltip(new Tooltip(
+		brokerFee = TextFieldRepresentation.positivDecimal(settings::getBrokerFee, settings::setBrokerFee);
+		brokerFee.getField().setTooltip(new Tooltip(
 				"when buying at BO value or selling at SO value, the percentage of the transaction that is due as broker fee"));
-		brokerFee.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, brokerFee));
+		brokerFee.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, brokerFee.getField()));
 
 		onlyBest.setSelected(true);
-		minCycles = TypedField.positivIntField(settings.minCycles);
-		minCycles.setOnScroll(new ScrollAdd.IntScrollAdd(1, minCycles));
-		minHours = TypedField.positivIntField(settings.minHours);
-		minHours.setOnScroll(new ScrollAdd.IntScrollAdd(1, minHours));
 
-		copyTax = TypedField.positivDecimal(settings.copyTax);
-		copyTax.setTooltip(new Tooltip("station tax on copying"));
-		copyTax.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, copyTax));
+		minCycles = TextFieldRepresentation.positivIntField(settings::getMinCycles, settings::setMinCycles);
+		minCycles.getField().setOnScroll(new ScrollAdd.IntScrollAdd(1, minCycles.getField()));
 
-		copyIndex = TypedField.positivDecimal(settings.copyIndex);
-		copyIndex.setTooltip(new Tooltip("system copying index"));
-		copyIndex.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, copyIndex));
+		minHours = TextFieldRepresentation.positivIntField(settings::getMinHours, settings::setMinHours);
+		minHours.getField().setOnScroll(new ScrollAdd.IntScrollAdd(1, minHours.getField()));
 
-		copystruct = new ChoiceBox<>();
-		copystruct.getItems().addAll(StructBonus.values());
-		copystruct.getSelectionModel()
-		.select(settings.copystruct == null ? StructBonus.none : StructBonus.valueOf(settings.copystruct));
+		copyTax = TextFieldRepresentation.positivDecimal(settings::getCopyTax, settings::setCopyTax);
+		copyTax.getField().setTooltip(new Tooltip("station tax on copying"));
+		copyTax.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, copyTax.getField()));
 
-		inventTax = TypedField.positivDecimal(settings.inventTax);
-		inventTax.setTooltip(new Tooltip("station tax on invention"));
-		inventTax.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, inventTax));
+		copyIndex = TextFieldRepresentation.positivDecimal(settings::getCopyIndex, settings::setCopyIndex);
+		copyIndex.getField().setTooltip(new Tooltip("system copying index"));
+		copyIndex.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, copyIndex.getField()));
 
-		inventIndex = TypedField.positivDecimal(settings.inventIndex);
-		inventIndex.setTooltip(new Tooltip("system invention index"));
-		inventIndex.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, inventIndex));
+		copystruct = new ChoiceBoxRepresentation<>(
+				() -> (settings.copystruct == null ? StructBonus.none : StructBonus.valueOf(settings.copystruct)),
+				sb -> settings.setCopystruct(sb.name()),
+				StructBonus.values());
 
-		inventstruct = new ChoiceBox<>();
-		inventstruct.getItems().addAll(StructBonus.values());
-		inventstruct.getSelectionModel()
-		.select(settings.inventstruct == null ? StructBonus.none : StructBonus.valueOf(settings.inventstruct));
+		inventTax = TextFieldRepresentation.positivDecimal(settings::getInventTax, settings::setInventTax);
+		inventTax.getField().setTooltip(new Tooltip("station tax on invention"));
+		inventTax.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, inventTax.getField()));
 
-		manufTax = TypedField.positivDecimal(settings.manufactureTax);
-		manufTax.setTooltip(new Tooltip("station tax on manufacture"));
-		manufTax.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, manufTax));
+		inventIndex = TextFieldRepresentation.positivDecimal(settings::getInventIndex, settings::setInventIndex);
+		inventIndex.getField().setTooltip(new Tooltip("system invention index"));
+		inventIndex.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, inventIndex.getField()));
 
-		manufIndex = TypedField.positivDecimal(settings.manufactureIndex);
-		manufIndex.setTooltip(new Tooltip("system manufacturing index"));
-		manufIndex.setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, manufIndex));
+		inventstruct = new ChoiceBoxRepresentation<>(
+				() -> (settings.inventstruct == null ? StructBonus.none : StructBonus.valueOf(settings.inventstruct)),
+				sb -> settings.setInventstruct(sb.name()), StructBonus.values());
 
-		manufstruct = new ChoiceBox<>();
-		manufstruct.getItems().addAll(StructBonus.values());
-		manufstruct.getSelectionModel()
-		.select(settings.manufstruct == null ? StructBonus.none : StructBonus.valueOf(settings.manufstruct));
+		manufTax = TextFieldRepresentation.positivDecimal(settings::getManufactureTax, settings::setManufactureTax);
+		manufTax.getField().setTooltip(new Tooltip("station tax on manufacture"));
+		manufTax.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, manufTax.getField()));
 
-		for (Region tf : new Region[] { bpPattern, brokerFee, characterSkills, copyIndex, copyTax, inventIndex, inventTax,
-				manufIndex, manufTax, marketRegion, minCycles, minHours, sellTax }) {
-			tf.setMaxWidth(70);
+		manufIndex = TextFieldRepresentation.positivDecimal(settings::getManufactureIndex, settings::setManufactureIndex);
+		manufIndex.getField().setTooltip(new Tooltip("system manufacturing index"));
+		manufIndex.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, manufIndex.getField()));
+
+		manufstruct = new ChoiceBoxRepresentation<>(
+				() -> (settings.manufstruct == null ? StructBonus.none : StructBonus.valueOf(settings.manufstruct)),
+				sb -> settings.setManufstruct(sb.name()), StructBonus.values());
+
+		representations = Arrays.asList(brokerFee, characterSkills, copyIndex, copystruct, copyTax, inventIndex,
+				inventstruct, inventTax, manufIndex, manufstruct, manufTax,
+				marketRegion, minCycles, minHours, sellTax);
+		for (Representation<?> r : representations) {
+			r.getRegion().setMaxWidth(70);
 		}
+		bpPattern.setMaxWidth(70);
 
 		GridPane mainpane = new GridPane();
 		mainpane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
-		mainpane.addRow(0, new Label("character"), characterSkills);
-		mainpane.addRow(1, new Label("market region"), marketRegion);
-		mainpane.addRow(2, new Label("broker %"), brokerFee);
-		mainpane.addRow(3, new Label("sell tax %"), sellTax);
+		mainpane.addRow(0, new Label("character"), characterSkills.getBox());
+		mainpane.addRow(1, new Label("market region"), marketRegion.getBox());
+		mainpane.addRow(2, new Label("broker %"), brokerFee.getField());
+		mainpane.addRow(3, new Label("sell tax %"), sellTax.getField());
 		mainpane.addRow(4, new Label("product name"), bpPattern);
 		bpPattern.setTooltip(new Tooltip("specify a pattern to limit the products. eg \"small\""));
 		mainpane.addRow(5, new Label("best descryp"), onlyBest);
-		mainpane.addRow(6, new Label("min cycles"), minCycles);
-		mainpane.addRow(7, new Label("min hours"), minHours);
+		mainpane.addRow(6, new Label("min cycles"), minCycles.getField());
+		mainpane.addRow(7, new Label("min hours"), minHours.getField());
 		mainpane.addRow(8, computeBtn);
 
 		GridPane copyPane = new GridPane();
 		copyPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
-		copyPane.addRow(1, new Label("copy tax %"), copyTax);
-		copyPane.addRow(2, new Label("copy index"), copyIndex);
-		copyPane.addRow(3, new Label("copy struct"), copystruct);
+		copyPane.addRow(0, new Label("copying"));
+		copyPane.addRow(1, new Label("tax %"), copyTax.getField());
+		copyPane.addRow(2, new Label("sys index"), copyIndex.getField());
+		copyPane.addRow(3, new Label("struct"), copystruct.getBox());
 
 		GridPane inventPane = new GridPane();
 		inventPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
-		inventPane.addRow(1, new Label("invention tax %"), inventTax);
-		inventPane.addRow(2, new Label("invention index"), inventIndex);
-		inventPane.addRow(3, new Label("invention struct"), inventstruct);
+		inventPane.addRow(0, new Label("invent"));
+		inventPane.addRow(1, new Label("tax %"), inventTax.getField());
+		inventPane.addRow(2, new Label("sys index"), inventIndex.getField());
+		inventPane.addRow(3, new Label("struct"), inventstruct.getBox());
 
 		GridPane manufPane = new GridPane();
 		manufPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
-		manufPane.addRow(1, new Label("manufacture tax %"), manufTax);
-		manufPane.addRow(2, new Label("manufacture index"), manufIndex);
-		manufPane.addRow(3, new Label("manufacture struct"), manufstruct);
+		manufPane.addRow(0, new Label("manuf"));
+		manufPane.addRow(1, new Label("tax %"), manufTax.getField());
+		manufPane.addRow(2, new Label("sys index"), manufIndex.getField());
+		manufPane.addRow(3, new Label("struct"), manufstruct.getBox());
 
 		getChildren().addAll(mainpane, copyPane, inventPane, manufPane);
 		loaded = true;
@@ -195,7 +215,7 @@ public class OptionsPane extends HBox implements EvePane {
 		if (apis != null) {
 			for (APIRoot ar : apis) {
 				if (!ar.isCorp()) {
-					characterSkills.getItems().addAll(ar.account.characters());
+					chars.addAll(ar.account.characters());
 				}
 			}
 		}

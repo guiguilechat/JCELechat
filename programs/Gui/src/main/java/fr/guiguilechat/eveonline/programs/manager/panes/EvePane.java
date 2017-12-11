@@ -47,7 +47,8 @@ public interface EvePane {
 				p.propagateNewAPI(apis);
 			}
 		} catch (Exception e) {
-			System.err.println("while propagating api for " + getClass());
+			System.err.println("while propagating api for " + getClass() + " : " + e);
+			e.printStackTrace();
 		}
 	}
 
