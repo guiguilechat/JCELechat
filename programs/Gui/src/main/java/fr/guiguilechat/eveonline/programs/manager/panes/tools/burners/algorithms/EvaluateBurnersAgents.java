@@ -127,9 +127,10 @@ public class EvaluateBurnersAgents {
 		double isk_static = Stream.of(missions).mapToDouble(m -> m.isk_cstt).sum() / missions.length;
 		double isk_indexed = Stream.of(missions).mapToDouble(m -> m.isk_indexed).sum() / missions.length;
 		double lp = Stream.of(missions).mapToDouble(m -> m.lp).sum() / missions.length;
-		System.err.println("agent in " + agent.system + " average burnerjumps=" + sysEval.burnerAvgDist + " nbperhour="
-				+ nbPerHour + " isk_static=" + isk_static
-				+ " isk_indexed=" + isk_indexed + " lp=" + lp);
+		// System.err.println("agent in " + agent.system + " average burnerjumps=" +
+		// sysEval.burnerAvgDist + " nbperhour="
+		// + nbPerHour + " isk_static=" + isk_static
+		// + " isk_indexed=" + isk_indexed + " lp=" + lp);
 		double secBonus = sysEval.bonusTrueSec;
 		List<OfferAnalysis> offers = corpEvaluator.analyseCorpOffers(agent.corporation);
 		return offers.stream().map(oa -> {

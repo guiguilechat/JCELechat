@@ -51,8 +51,8 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 
 	public TextField bpPattern = new TextField();
 	public CheckBox onlyBest = new CheckBox();
-	public TextFieldRepresentation<Integer> minCycles;
-	public TextFieldRepresentation<Integer> minHours;
+	public TextFieldRepresentation<Double> maxCycleReduction;
+	public TextFieldRepresentation<Double> minHours;
 
 	public TextFieldRepresentation<Double> sellTax, brokerFee;
 	public ChoiceBoxRepresentation<String> marketRegion;
@@ -104,7 +104,8 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 			}
 		});
 		List<String> regions = parent.db().getLocations().entrySet().stream().filter(e -> e.getValue().parentRegion == null)
-				.map(Map.Entry::getKey).sorted(String::compareToIgnoreCase).collect(Collectors.toList());
+				.map(Map.Entry::getKey).sorted(String::compareToIgnoreCase)
+				.filter(s -> !(s.charAt(0) >= 'a' && s.charAt(0) <= 'z')).collect(Collectors.toList());
 		marketRegion = new ChoiceBoxRepresentation<>(
 				() -> regions.stream().filter(r -> r.equals(settings.marketRegion)).findAny().orElse("TheForge"),
 				settings::setMarketRegion,
@@ -121,11 +122,16 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 
 		onlyBest.setSelected(true);
 
-		minCycles = TextFieldRepresentation.positivIntField(settings::getMinCycles, settings::setMinCycles);
-		minCycles.getField().setOnScroll(new ScrollAdd.IntScrollAdd(1, minCycles.getField()));
+		maxCycleReduction = TextFieldRepresentation.positivDecimal(settings::getMaxCycleReduction,
+				settings::setMaxCycleReduction);
+		maxCycleReduction.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(1.0, maxCycleReduction.getField()));
+		maxCycleReduction.getField()
+		.setTooltip(new Tooltip("possible reduction on gain, in percentage, to calculate the number of cycles."));
 
-		minHours = TextFieldRepresentation.positivIntField(settings::getMinHours, settings::setMinHours);
-		minHours.getField().setOnScroll(new ScrollAdd.IntScrollAdd(1, minHours.getField()));
+		minHours = TextFieldRepresentation.positivDecimal(settings::getMinActionHours, settings::setMinActionHours);
+		minHours.getField().setTooltip(new Tooltip(
+				"The minimum time, in hours, we consider between actions. If a cycle invention or manufacture lasts less than this value, it is actually set to this value"));
+		minHours.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(1.0, minHours.getField()));
 
 		copyTax = TextFieldRepresentation.positivDecimal(settings::getCopyTax, settings::setCopyTax);
 		copyTax.getField().setTooltip(new Tooltip("station tax on copying"));
@@ -166,7 +172,7 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 
 		representations = Arrays.asList(brokerFee, characterSkills, copyIndex, copystruct, copyTax, inventIndex,
 				inventstruct, inventTax, manufIndex, manufstruct, manufTax,
-				marketRegion, minCycles, minHours, sellTax);
+				marketRegion, maxCycleReduction, minHours, sellTax);
 		for (Representation<?> r : representations) {
 			r.getRegion().setMaxWidth(70);
 		}
@@ -175,15 +181,19 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 		GridPane mainpane = new GridPane();
 		mainpane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
 		mainpane.addRow(0, new Label("character"), characterSkills.getBox());
-		mainpane.addRow(1, new Label("market region"), marketRegion.getBox());
-		mainpane.addRow(2, new Label("broker %"), brokerFee.getField());
-		mainpane.addRow(3, new Label("sell tax %"), sellTax.getField());
-		mainpane.addRow(4, new Label("product name"), bpPattern);
+		mainpane.addRow(1, new Label("sell tax %"), sellTax.getField());
+		mainpane.addRow(2, new Label("product name"), bpPattern);
 		bpPattern.setTooltip(new Tooltip("specify a pattern to limit the products. eg \"small\""));
-		mainpane.addRow(5, new Label("best descryp"), onlyBest);
-		mainpane.addRow(6, new Label("min cycles"), minCycles.getField());
-		mainpane.addRow(7, new Label("min hours"), minHours.getField());
-		mainpane.addRow(8, computeBtn);
+		mainpane.addRow(3, new Label("best descryp"), onlyBest);
+		mainpane.addRow(4, new Label("max reduction"), maxCycleReduction.getField());
+		mainpane.addRow(5, new Label("min hours"), minHours.getField());
+		mainpane.addRow(6, computeBtn);
+
+		GridPane importPane = new GridPane();
+		importPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
+		importPane.addRow(0, new Label("import"));
+		importPane.addRow(1, new Label("region"), marketRegion.getBox());
+		importPane.addRow(2, new Label("broker %"), brokerFee.getField());
 
 		GridPane copyPane = new GridPane();
 		copyPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
@@ -206,7 +216,7 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 		manufPane.addRow(2, new Label("sys index"), manufIndex.getField());
 		manufPane.addRow(3, new Label("struct"), manufstruct.getBox());
 
-		getChildren().addAll(mainpane, copyPane, inventPane, manufPane);
+		getChildren().addAll(mainpane, importPane, copyPane, inventPane, manufPane);
 		loaded = true;
 	}
 

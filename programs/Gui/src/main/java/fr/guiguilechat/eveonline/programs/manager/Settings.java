@@ -195,8 +195,12 @@ public class Settings implements ISettings {
 		public double sellTax = 1;
 		public double brokerFee = 2;
 		public String copystruct, inventstruct, manufstruct;
-		public int minCycles = 1;
-		public int minHours = 0;
+		/**
+		 * reduction over the gain in a cycle we accept to calculate the number of
+		 * cycles
+		 */
+		public double maxCycleReduction = 1;
+		public double minActionHours = 0;
 
 		public String getMarketRegion() {
 			return marketRegion;
@@ -302,20 +306,20 @@ public class Settings implements ISettings {
 			this.manufstruct = manufstruct;
 		}
 
-		public int getMinCycles() {
-			return minCycles;
+		public double getMaxCycleReduction() {
+			return maxCycleReduction;
 		}
 
-		public void setMinCycles(int minCycles) {
-			this.minCycles = minCycles;
+		public void setMaxCycleReduction(double maxCycleLoss) {
+			maxCycleReduction = maxCycleLoss;
 		}
 
-		public int getMinHours() {
-			return minHours;
+		public double getMinActionHours() {
+			return minActionHours;
 		}
 
-		public void setMinHours(int minHours) {
-			this.minHours = minHours;
+		public void setMinActionHours(double minHours) {
+			minActionHours = minHours;
 		}
 	}
 

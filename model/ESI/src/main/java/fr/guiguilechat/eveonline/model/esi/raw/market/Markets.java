@@ -213,7 +213,7 @@ public class Markets {
 				return ret;
 			}
 		}
-		logger.debug("missing " + remaining + " BO of id " + itemID + " out of " + qtty);
+		logger.trace("missing " + remaining + " BO of id " + itemID + " out of " + qtty);
 		// if there was not enough quantity to feed the request, we can't sell it.
 		// so the BO of remaining entries is 0
 		return ret;
@@ -275,7 +275,7 @@ public class Markets {
 				return ret;
 			}
 		}
-		logger.debug("missing " + remaining + " SO of id " + itemID + " out of " + qtty);
+		logger.trace("missing " + remaining + " SO of id " + itemID + " out of " + qtty);
 		// if there was not enough quantity to feed the request, we set the price to
 		// infinite. we CANT buy that many items
 		return Double.POSITIVE_INFINITY;
@@ -367,7 +367,7 @@ public class Markets {
 	 * @return
 	 */
 	public static MarketPriceCache cacheMarketPrices() {
-		logger.debug("caching marketprices");
+		logger.trace("caching marketprices");
 		MarketPriceCache ret = new MarketPriceCache();
 		for (MarketPrice mp : prices()) {
 			ret.adjusted.put(mp.type_id, mp.adjusted_price);
@@ -394,7 +394,7 @@ public class Markets {
 		}
 		Double ret = cachePrices.average.get(id);
 		if (ret == null) {
-			logger.debug("can't get average price of item " + id);
+			logger.trace("can't get average price of item " + id);
 		}
 		return ret == null ? 0l : ret;
 	}
@@ -415,7 +415,7 @@ public class Markets {
 		}
 		Double ret = cachePrices.adjusted.get(id);
 		if (ret == null) {
-			logger.debug("can't get adjusted price of item " + id);
+			logger.trace("can't get adjusted price of item " + id);
 		}
 		return ret == null ? 0l : ret;
 	}

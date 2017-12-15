@@ -34,11 +34,11 @@ public class TextFieldRepresentation<T> extends Representation<T> {
 		this.field = field;
 	}
 
-	public static TextFieldRepresentation<Integer> intField(Supplier<Integer> get, Consumer<Integer> set) {
+	public static TextFieldRepresentation<Integer> integer(Supplier<Integer> get, Consumer<Integer> set) {
 		return new TextFieldRepresentation<>(TypedField.intField(get.get()), get, set);
 	}
 
-	public static TextFieldRepresentation<Integer> positivIntField(Supplier<Integer> get, Consumer<Integer> set) {
+	public static TextFieldRepresentation<Integer> positivInteger(Supplier<Integer> get, Consumer<Integer> set) {
 		return new TextFieldRepresentation<>(TypedField.positivIntField(get.get()), get, set);
 	}
 

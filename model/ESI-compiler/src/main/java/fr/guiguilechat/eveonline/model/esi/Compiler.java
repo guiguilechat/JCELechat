@@ -1,5 +1,6 @@
 package fr.guiguilechat.eveonline.model.esi;
 
+import io.swagger.models.Path;
 import io.swagger.models.Swagger;
 import io.swagger.parser.SwaggerParser;
 
@@ -7,5 +8,11 @@ public class Compiler {
 	public static void main(String[] args) {
 		Swagger swagger = new SwaggerParser().read("https://esi.tech.ccp.is/latest/swagger.json");
 		System.err.println("path is " + swagger.getHost() + swagger.getBasePath());
+		swagger.getPaths().entrySet().forEach(e -> {
+			String resource = e.getKey();
+			Path p = e.getValue();
+			System.err.println(resource);
+			System.err.println(" " + p.getParameters());
+		});
 	}
 }

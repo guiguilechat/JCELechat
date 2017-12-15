@@ -106,6 +106,10 @@ public class InventerToolPane extends BorderPane implements EvePane {
 		sobophCol.setSortType(SortType.DESCENDING);
 		table.getSortOrder().add(sobophCol);
 
+		TableColumn<InventionProdData, Integer> maxCycleCol = new TableColumn<>("cycles");
+		maxCycleCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().maxCycles));
+		table.getColumns().add(maxCycleCol);
+
 		TableColumn<InventionProdData, Double> marginCol = new TableColumn<>("margin");
 		marginCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleMargin));
 		table.getColumns().add(marginCol);
@@ -136,7 +140,9 @@ public class InventerToolPane extends BorderPane implements EvePane {
 				lo.getValue().copyTime + lo.getValue().inventionTime + lo.getValue().manufacturingTime)));
 		table.getColumns().add(cycleDuration);
 
-		for (TableColumn<?, ?> t : new TableColumn<?, ?>[] { sobophCol, costSOCol, sellBOCol, volumeCol, gainCol }) {
+		for (TableColumn<?, ?> t : new TableColumn<?, ?>[] { sobophCol, maxCycleCol, marginCol, gainCol, costSOCol,
+				sellBOCol, volumeCol,
+			gainCol }) {
 			t.setMaxWidth(60);
 		}
 
