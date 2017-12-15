@@ -21,6 +21,8 @@ public class AnalyzeBurnersDest {
 
 	protected String[] types = new String[] { "aangel", "ablood", "aguristas", "aserpentis", "asansha",
 			"bangel", "bblood", "bguristas", "bserpentis", "tenyo", "thawk", "tjaguar", "tvengeance" };
+	protected String[] aliases = new String[] { "aang", "abld", "agur", "aser", "asan", "bang", "bbld", "bgur", "bser",
+			"teny", "thwk", "tjag", "tven" };
 
 	/**
 	 * for each type of burner, its index in a location's numbers of missions
@@ -29,6 +31,7 @@ public class AnalyzeBurnersDest {
 	{
 		for (int idx = 0; idx < types.length; idx++) {
 			types2index.put(types[idx], idx);
+			types2index.put(aliases[idx], idx);
 		}
 	}
 
@@ -105,6 +108,12 @@ public class AnalyzeBurnersDest {
 					systemDistances, constelsDistances);
 			printDestData(ps, "all", an.dest2counts.values().stream(), t -> IntStream.of(t).sum(), systemDistances,
 					constelsDistances);
+			ps.println();
+
+			ps.println("probability /1000");
+			int allnb = an.dest2counts.values().stream().flatMapToInt(i -> IntStream.of(i)).sum();
+			printDestData(ps, "all", an.dest2counts.values().stream(), t -> 1000 * IntStream.of(t).sum() / allnb,
+					systemDistances, constelsDistances);
 
 			ps.close();
 		}
