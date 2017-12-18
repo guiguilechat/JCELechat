@@ -23,48 +23,53 @@
 			<artifactId>testng</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.eveonline</groupId>
+			<artifactId>ESI-compiler</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>io.swagger</groupId>
-				<artifactId>swagger-codegen-maven-plugin</artifactId>
-				<version>2.2.3</version>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.2.1</version>
 				<executions>
 					<execution>
+						<phase>compile</phase>
 						<goals>
-							<goal>generate</goal>
+							<goal>java</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<mainClass>fr.guiguilechat.eveonline.model.esi.Compiler</mainClass>
+					<arguments>
+						<argument>https://esi.tech.ccp.is/latest/</argument>
+						<argument>src/main/generated</argument>
+					</arguments>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<version>1.7</version>
+				<executions>
+					<execution>
+						<id>add-source</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>add-source</goal>
 						</goals>
 						<configuration>
-<!-- 							<inputSpec>https://esi.tech.ccp.is/latest/swagger.json</inputSpec> -->
-							<inputSpec>http://petstore.swagger.io/v2/swagger.json</inputSpec>
-							<language>java</language>
-							<configOptions>
-								<sourceFolder>src/main/generated</sourceFolder>
-							</configOptions>
+							<sources>
+								<source>src/main/generated</source>
+							</sources>
 						</configuration>
 					</execution>
 				</executions>
 			</plugin>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>build-helper-maven-plugin</artifactId>
-        <version>1.7</version>
-        <executions>
-          <execution>
-            <id>add-source</id>
-            <phase>generate-sources</phase>
-            <goals>
-              <goal>add-source</goal>
-            </goals>
-            <configuration>
-              <sources>
-                <source>src/main/generated</source>
-              </sources>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
 		</plugins>
 	</build>
 </project>
