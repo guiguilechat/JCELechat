@@ -15,6 +15,7 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.LongStream;
+import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -39,8 +40,6 @@ import fr.guiguilechat.eveonline.model.database.yaml.Station;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.raw.Character;
-import fr.guiguilechat.eveonline.model.esi.raw.Corporations;
-import fr.guiguilechat.eveonline.model.esi.raw.Corporations.Corporation;
 import fr.guiguilechat.eveonline.model.esi.raw.ESIRaw;
 import fr.guiguilechat.eveonline.model.esi.raw.ESIUniverse;
 import fr.guiguilechat.eveonline.model.sde.bsd.EagtAgents;
@@ -195,7 +194,6 @@ public class SDEDumper {
 	public static DatabaseFile loadDb() throws FileNotFoundException {
 		SDEData sde = new SDEData();
 		DatabaseFile db = new DatabaseFile();
-		Corporations corps = new Corporations(null);
 		ESIUniverse uni = new ESIUniverse();
 		ESIRaw esi = new ESIRaw(null, null);
 
@@ -224,7 +222,7 @@ public class SDEDumper {
 		loadLPOffers(sde, db, esi);
 
 		logger.info("loading agents");
-		loadAgents(sde, db, corps, uni);
+		loadAgents(sde, db, esi, uni);
 
 		logger.info("missings ids " + sde.missings);
 
@@ -790,48 +788,8 @@ public class SDEDumper {
 	}
 
 	public static void loadLPOffers(SDEData sde, DatabaseFile db, ESIRaw esi) {
-		LongStream.of(esi.get_corporations_npccorps()).parallel().forEach(i -> {
-			R_get_corporations_corporation_id_ok corp = esi.get_corporations_corporation_id(i);
-			R_get_loyalty_stores_corporation_id_offers_ok[] offers = esi.get_loyalty_stores_corporation_id_offers(i);
-			if (corp != null && offers != null) {
-				for (R_get_loyalty_stores_corporation_id_offers_ok o : offers) {
-					LPOffer lpo = new LPOffer();
-					lpo.corporation = corp.name;
-					lpo.requirements.isk += o.isk_cost;
-					lpo.requirements.lp += o.lp_cost;
-					lpo.offer_name = sde.getType((int) o.type_id).enName();
-					lpo.id = (int) o.offer_id;
-
-					for (R_get_loyalty_stores_corporation_id_offers_ok_required_items ir : o.required_items) {
-						ItemRef translated = new ItemRef();
-						translated.quantity = (int) ir.quantity;
-						translated.type_id = (int) ir.type_id;
-						lpo.requirements.items.add(translated);
-					}
-
-					Eblueprints bp = sde.getBlueprints().get((int) o.type_id);
-
-					if (bp != null) {// the lp offers a BPC
-						for (Material m : bp.activities.manufacturing.materials) {
-							ItemRef translated = new ItemRef();
-							translated.quantity = (int) (m.quantity * o.quantity);
-							translated.type_id = m.typeID;
-							lpo.requirements.items.add(translated);
-						}
-						Material prod = bp.activities.manufacturing.products.get(0);
-						lpo.product.type_id = prod.typeID;
-						lpo.product.quantity = (int) (prod.quantity * o.quantity);
-					} else {// the lp offers a non-bpc
-						lpo.product.quantity = (int) o.quantity;
-						lpo.product.type_id = (int) o.type_id;
-					}
-
-					db.lpoffers.add(lpo);
-				}
-			} else {
-				logger.debug("cannot load offers for corp " + i + (corp == null ? "" : corp.name));
-			}
-		});
+		LongStream.of(esi.get_corporations_npccorps()).parallel().mapToObj(i -> streamoffers(i, esi, sde)).flatMap(s -> s)
+		.forEachOrdered(db.lpoffers::add);
 		// lp offers are sorted by corporation, offer name
 		Collections.sort(db.lpoffers, (o1, o2) -> {
 			int ret = o1.corporation.compareTo(o2.corporation);
@@ -848,9 +806,52 @@ public class SDEDumper {
 		});
 	}
 
-	public static void loadAgents(SDEData sde, DatabaseFile db, Corporations corps,
+	protected static Stream<LPOffer> streamoffers(long corpid, ESIRaw esi, SDEData sde) {
+		R_get_corporations_corporation_id_ok corp = esi.get_corporations_corporation_id(corpid);
+		R_get_loyalty_stores_corporation_id_offers_ok[] offers = esi.get_loyalty_stores_corporation_id_offers(corpid);
+		return corp != null && offers != null ? Stream.of(offers).map(o -> {
+			LPOffer lpo = new LPOffer();
+			if (corp.name == null) {
+				throw new NullPointerException("corp " + corpid + " has null name ?");
+			}
+			lpo.corporation = corp.name;
+			lpo.requirements.isk += o.isk_cost;
+			lpo.requirements.lp += o.lp_cost;
+			lpo.offer_name = sde.getType((int) o.type_id).enName();
+			lpo.id = (int) o.offer_id;
+
+			for (R_get_loyalty_stores_corporation_id_offers_ok_required_items ir : o.required_items) {
+				ItemRef translated = new ItemRef();
+				translated.quantity = (int) ir.quantity;
+				translated.type_id = (int) ir.type_id;
+				lpo.requirements.items.add(translated);
+			}
+
+			Eblueprints bp = sde.getBlueprints().get((int) o.type_id);
+
+			if (bp != null) {// the lp offers a BPC
+				for (Material m : bp.activities.manufacturing.materials) {
+					ItemRef translated = new ItemRef();
+					translated.quantity = (int) (m.quantity * o.quantity);
+					translated.type_id = m.typeID;
+					lpo.requirements.items.add(translated);
+				}
+				Material prod = bp.activities.manufacturing.products.get(0);
+				lpo.product.type_id = prod.typeID;
+				lpo.product.quantity = (int) (prod.quantity * o.quantity);
+			} else {// the lp offers a non-bpc
+				lpo.product.quantity = (int) o.quantity;
+				lpo.product.type_id = (int) o.type_id;
+			}
+			return lpo;
+		}).filter(lpo -> lpo != null) : Stream.empty();
+	}
+
+	public static void loadAgents(SDEData sde, DatabaseFile db, ESIRaw esi,
 			ESIUniverse uni) {
-		LinkedHashMap<Integer, Corporation> mycorps = corps.getCorpos();
+		Map<Long, R_get_corporations_corporation_id_ok> corps = LongStream.of(esi.get_corporations_npccorps()).parallel()
+				.mapToObj(l -> l).collect(Collectors.toMap(l -> l, esi::get_corporations_corporation_id));
+
 		ArrayList<EagtAgents> sdeAgents = sde.getAgents();
 		HashMap<Integer, String> agtTypes = sde.getAgentTypes();
 		HashMap<Integer, String> crpDivisions = sde.getNPCDivisions();
@@ -865,7 +866,7 @@ public class SDEDumper {
 			Agent ag = new Agent();
 			ag.agentID = ea.agentID;
 			ag.name = names.get(ag.agentID);
-			Corporation corp = mycorps.get(ea.corporationID);
+			R_get_corporations_corporation_id_ok corp = corps.get((long) ea.corporationID);
 			ag.corporation = corp.name;
 			ag.isLocator = ea.isLocator;
 			ag.level = ea.level;

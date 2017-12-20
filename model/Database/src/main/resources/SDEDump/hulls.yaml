@@ -804,7 +804,7 @@ hulls:
     effects:
     - shipSHTDmgBonusGF
     - shipCapPropulsionJamming
-    - shipFalloffBonusGF
+    - shipBonusSHTFalloffGF2
     groupName: Frigate
     id: 608
     name: Atron
@@ -3632,7 +3632,7 @@ hulls:
     effects:
     - covertOpsCpuBonus1
     - eliteBonusCoverOpsBombThermalDmg1
-    - covertOpsStealthBomberSiegeMissileLauncerPowerNeedBonus
+    - covertOpsStealthBomberSiegeMissileLauncherPowerNeedBonus
     - shipBonusTorpedoVelocityGF2
     - shipBonusEliteCover2TorpedoThermalDamage
     - covertOpsAndReconOpsCloakModuleDelayBonus
@@ -4975,7 +4975,7 @@ hulls:
     - covertOpsCpuBonus1
     - shipBonusCF1TorpedoFlightTime
     - eliteBonusCoverOpsBombKineticDmg1
-    - covertOpsStealthBomberSiegeMissileLauncerPowerNeedBonus
+    - covertOpsStealthBomberSiegeMissileLauncherPowerNeedBonus
     - covertOpsAndReconOpsCloakModuleDelayBonus
     - shipBonusTorpedoVelocityCF2
     - shipBonusEliteCover2TorpedoKineticDamage
@@ -5014,7 +5014,7 @@ hulls:
     effects:
     - eliteBonusCoverOpsBombExplosiveDmg1
     - covertOpsCpuBonus1
-    - covertOpsStealthBomberSiegeMissileLauncerPowerNeedBonus
+    - covertOpsStealthBomberSiegeMissileLauncherPowerNeedBonus
     - shipBonusTorpedoVelocityMF2
     - shipBonusEliteCover2TorpedoExplosiveDamage
     - covertOpsAndReconOpsCloakModuleDelayBonus
@@ -5056,7 +5056,7 @@ hulls:
     - shipBonusAF1TorpedoExplosionVelocity
     - shipBonusAF1TorpedoFlightTime
     - eliteBonusCoverOpsBombEmDmg1
-    - covertOpsStealthBomberSiegeMissileLauncerPowerNeedBonus
+    - covertOpsStealthBomberSiegeMissileLauncherPowerNeedBonus
     - shipBonusEliteCover2TorpedoEMDamage
     - shipBonusTorpedoVelocity2AF
     - covertOpsAndReconOpsCloakModuleDelayBonus
@@ -6753,7 +6753,7 @@ hulls:
     effects:
     - shipStasisWebStrengthBonusMF2
     - shipBonusPirateSmallHybridDmg
-    - shipFalloffBonusGF
+    - shipBonusSHTFalloffGF2
     groupName: Frigate
     id: 17928
     metaLvl: 8
@@ -10641,52 +10641,6 @@ hulls:
     metaLvl: 8
     name: Barghest
     volume: 595000.0
-  Rattlesnake Victory Edition:
-    attributes:
-      agility: 0.12800000607967377
-      capacitor: 5350.0
-      capacitorTime: 1154.0
-      cpu: 710
-      droneBandwidth: 50
-      droneCapa: 175
-      highSlots: 6
-      launcherHardPoints: 5
-      lowSlots: 6
-      mass: 99300000
-      maxTargets: 7
-      mediumSlots: 7
-      powergrid: 10000
-      rigCalibration: 350
-      rigSize: large
-      rigSlots: 3
-      scanRes: 100
-      scanStr: 30
-      scanType: Gravimetric
-      targetRange: 75000
-      velocity: 94
-      volume: 486000
-      warpSpeed: 2.0
-    catName: Ship
-    effects:
-    - shipBonusEmShieldResistanceCB2
-    - shipBonusExplosiveShieldResistanceCB2
-    - shipBonusSentryDroneDamageMultiplierPirateFaction
-    - shipBonusKineticShieldResistanceCB2
-    - shipBonusHeavyDroneDamageMultiplierPirateFaction
-    - shipBonusThermicShieldResistanceCB2
-    - shipBonusSentryDroneHPPirateFaction
-    - shipBonusSentryDroneArmorHpPirateFaction
-    - shipBonusSentryDroneShieldHpPirateFaction
-    - shipBonusHeavyDroneShieldHpPirateFaction
-    - shipBonusHeavyDroneArmorHpPirateFaction
-    - shipBonusHeavyDroneHPPirateFaction
-    - shipBonusKineticMissileDamageGB2
-    - shipBonusThermalMissileDamageGB2
-    groupName: Battleship
-    id: 34151
-    metaLvl: 8
-    name: Rattlesnake Victory Edition
-    volume: 486000.0
   Confessor:
     attributes:
       agility: 3.0
@@ -12230,20 +12184,97 @@ hulls:
     volume: 450000.0
   Virtuoso:
     attributes:
+      agility: 4.0
+      capacitor: 400.0
+      capacitorTime: 230.0
+      cpu: 230
+      highSlots: 5
+      launcherHardPoints: 2
+      lowSlots: 4
       mass: 1410000
+      maxTargets: 6
+      mediumSlots: 3
+      powergrid: 39
+      rigCalibration: 400
+      rigSize: small
+      rigSlots: 2
+      scanRes: 425
+      scanStr: 21
+      scanType: Magnetometric
+      targetRange: 65000
+      turretHardPoints: 1
+      velocity: 350
       volume: 28100
+      warpSpeed: 4.5
     catName: Ship
+    effects:
+    - shipStasisWebStrengthBonusMF2
+    - shipBonusEliteCover2TorpedoThermalDamage
+    - shipBonusEliteCover2TorpedoExplosiveDamage
+    - covertOpsAndReconOpsCloakModuleDelayBonus
+    - covertOpsStealthBomberTargettingDelayBonus
+    - shipBonusMF1TorpedoExplosionVelocity
+    - covertOpsCloakCPUPercentRoleBonus
+    - eliteBonusCoverOpsBombExplosiveDmg1
+    - roleBonus2BoosterPenaltyReduction
+    - eliteBonusCoverOpsBombThermalDmg1
+    - covertOpsStealthBomberSiegeMissileLauncherPowerNeedBonus
+    - eliteCovertOpsBonusArmorRepAmount4
+    - shipSHTDmgBonusRookie
+    - covertOpsStealthBomberSiegeMissileLauncherCPUNeedBonus
+    - shipBonusSHTFalloffGF1
+    - shipBonusTorpedoVelocityGF2
+    - roleBonusTorpRoF1
+    - roleBonusBombLauncherPWGCPU3
+    - eliteBonusCovertOpsSHTDamage3
+    - shipBonusMF1TorpedoFlightTime
     groupName: Stealth Bomber
     id: 45530
+    metaLvl: 9
     name: Virtuoso
     volume: 28100.0
   Victor:
     attributes:
+      agility: 0.5899999737739563
+      capacitor: 1545.0
+      capacitorTime: 380.0
+      cpu: 420
+      droneBandwidth: 50
+      droneCapa: 75
+      highSlots: 5
+      launcherHardPoints: 2
+      lowSlots: 5
       mass: 11650000
+      maxTargets: 8
+      mediumSlots: 5
+      powergrid: 1000
+      rigCalibration: 400
+      rigSize: medium
+      rigSlots: 2
+      scanRes: 235
+      scanStr: 30
+      scanType: Magnetometric
+      targetRange: 115000
+      turretHardPoints: 3
+      velocity: 220
       volume: 116000
+      warpSpeed: 3.299999952316284
     catName: Ship
+    effects:
+    - roleBonusMHTDamage1
+    - eliteReconStasisWebBonus2
+    - roleBonus2BoosterPenaltyReduction
+    - eliteReconBonusMHTDamage1
+    - shipHTurretFalloffBonusGC
+    - eliteReconBonusArmorRepAmount3
+    - cynosuralTheoryConsumptionBonus
+    - cynosuralDurationBonus
+    - covertOpsAndReconOpsCloakModuleDelayBonus
+    - shipStasisWebStrengthBonusMC2
+    - covertOpsCloakCPUPercentRoleBonus
     groupName: Force Recon Ship
     id: 45531
+    metaLvl: 5
     name: Victor
     volume: 116000.0
   Loggerhead:
@@ -12273,7 +12304,6 @@ hulls:
     catName: Ship
     effects:
     - shipCapitalAgilityBonus
-    - shipBonusForceAuxiliaryC1RemoteBoostAndCapAmount
     - shipBonusForceAuxiliaryC2ShieldResists
     - entosisDurationMultiply
     - shipBonusRole1CommandBurstCPUBonus
@@ -12350,7 +12380,7 @@ hulls:
     effects:
     - shipBonusRole3XLTorpdeoVelocityBonus
     - shipBonusTitanG1KinThermDamageBonus
-    - shipBonusTitanG2AllDamageBonus
+    - shipBonusTitanG2EMExplosiveDamageBonus
     - shipBonusTitanC1ShieldResists
     - shipBonusRole4FighterDamageAndHitpoints
     - shipBonusTitanC2ROFBonus
