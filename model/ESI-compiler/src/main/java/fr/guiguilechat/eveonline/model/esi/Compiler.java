@@ -20,12 +20,16 @@ import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JPackage;
 import com.helger.jcodemodel.JVar;
 
+import io.swagger.models.ArrayModel;
+import io.swagger.models.Model;
 import io.swagger.models.Operation;
 import io.swagger.models.Path;
 import io.swagger.models.Response;
 import io.swagger.models.Swagger;
+import io.swagger.models.parameters.BodyParameter;
 import io.swagger.models.parameters.Parameter;
 import io.swagger.models.parameters.PathParameter;
+import io.swagger.models.parameters.QueryParameter;
 import io.swagger.models.properties.ArrayProperty;
 import io.swagger.models.properties.BooleanProperty;
 import io.swagger.models.properties.DecimalProperty;
@@ -65,6 +69,7 @@ public class Compiler {
 	protected String swaggerFile = "swagger.json";
 
 	protected String responsesPackage = "responses";
+	protected String structuresPackage = "structures";
 	JDefinedClass jc;
 
 	public Compiler() {
@@ -73,6 +78,7 @@ public class Compiler {
 
 	JCodeModel cm = null;
 	JPackage responsePackage = null;
+	JPackage structurePackage = null;
 
 	public JCodeModel compile() throws JClassAlreadyExistsException {
 		Swagger swagger = new SwaggerParser().read(baseURL + "/" + swaggerFile);
@@ -86,6 +92,7 @@ public class Compiler {
 		jc._extends(cm.ref(RequestHandler.class));
 
 		responsePackage = cm._package(rootPackage + "." + responsesPackage);
+		structurePackage = cm._package(rootPackage + "." + structuresPackage);
 
 		swagger.getPaths().entrySet().forEach(e -> {
 			String resource = e.getKey();
@@ -105,33 +112,49 @@ public class Compiler {
 				AbstractJType retType = translateToClass(s, responsePackage, "R_" + s.getTitle());
 				JMethod meth = jc.method(JMod.PUBLIC | JMod.DEFAULT, retType, operation.getOperationId());
 				List<JVar> pathparameters = new ArrayList<>();
-				// List<JVar> queryparameters = new ArrayList<>();
+				List<JVar> queryparameters = new ArrayList<>();
+				List<JVar> bodyparameters = new ArrayList<>();
+
 				for (Parameter p : operation.getParameters()) {
 					if (p.getRequired()) {
 						if (p instanceof PathParameter) {
 							PathParameter pp = (PathParameter) p;
-							AbstractJType pt = getExistingClass(pp.getType(), null);
+							AbstractJType pt = getExistingClass(pp.getType());
 							pathparameters.add(meth.param(pt, pp.getName()));
+						} else if (p instanceof QueryParameter) {
+							QueryParameter qp = (QueryParameter) p;
+							AbstractJType pt = getExistingClass(qp);
+							JVar param = meth.param(pt, qp.getName());
+							queryparameters.add(param);
+						} else if (p instanceof BodyParameter) {
+							BodyParameter bp = (BodyParameter) p;
+							AbstractJType pt = getExistingClass(bp.getSchema());
+							JVar param = meth.param(pt, bp.getName());
+							bodyparameters.add(param);
+						} else {
+							System.err.println("  no match for parameter " + p.getClass());
 						}
-						// else if (p instanceof QueryParameter) {
-						// QueryParameter qp = (QueryParameter) p;
-						// AbstractJType pt = getExistingClass(qp.getType(), null);
-						// queryparameters.add(meth.param(pt, qp.getName()));
-						// }
 					}
 				}
 				String urlAssign = "String url=\"" + baseURL + path + "\"";
 				for (JVar jv : pathparameters) {
 					urlAssign += ".replace(\"{" + jv.name() + "}\", \"\"+" + jv.name() + ")";
 				}
-				// for (int pi = 0; pi < queryparameters.size(); pi++) {
-				// JVar qp = queryparameters.get(pi);
-				// urlAssign += "+\"" + (pi == 0 ? '?' : '&') + qp.name() + "\"=" +
-				// qp.name();
-				// }
+				for (int pi = 0; pi < queryparameters.size(); pi++) {
+					JVar qp = queryparameters.get(pi);
+					urlAssign += "+\"" + (pi == 0 ? '?' : '&') + qp.name() + "=\"+flatten(" + qp.name() + ")";
+				}
 				meth.body().directStatement(urlAssign + ";");
 				if (isPost) {
-					meth.body().directStatement("String fetched=" + "connectPost(url, null, null);");
+					if (bodyparameters.isEmpty()) {
+						meth.body().directStatement("java.util.Map<String, String> content = java.util.Collections.emptyMap();");
+					} else {
+						meth.body().directStatement("java.util.Map<String, String> content = new java.util.HashMap<>();");
+						for (JVar p : bodyparameters) {
+							meth.body().directStatement("content.put(\"" + p.name() + "\", flatten(" + p.name() + "));");
+						}
+					}
+					meth.body().directStatement("String fetched=" + "connectPost(url, content);");
 				} else {
 					meth.body().directStatement("String fetched=" + "connectGet(url);");
 				}
@@ -153,7 +176,7 @@ public class Compiler {
 	 * @return
 	 */
 	protected AbstractJType translateToClass(Property p, JPackage pck, String name) {
-		AbstractJType ret = getExistingClass(p.getType(), pck);
+		AbstractJType ret = getExistingClass(p.getType());
 		if (ret != null) {
 			return ret;
 		}
@@ -167,7 +190,7 @@ public class Compiler {
 		}
 	}
 
-	protected AbstractJType getExistingClass(String name, JPackage pck) {
+	protected AbstractJType getExistingClass(String name) {
 		switch (name) {
 		case IntegerProperty.TYPE:
 			return cm.INT;
@@ -183,6 +206,23 @@ public class Compiler {
 			return created;
 		}
 		return null;
+	}
+
+	protected AbstractJType getExistingClass(Model model) {
+		if (model instanceof ArrayModel) {
+			return translateToClass(((ArrayModel) model).getItems(), structurePackage, "S_" + model.getTitle()).array();
+		}
+		System.err.println(
+				"  model " + model.getTitle() + " has class " + model.getClass() + " properties " + model.getProperties());
+		return null;
+	}
+
+	protected AbstractJType getExistingClass(QueryParameter pp) {
+		if (pp.getType().equals(ArrayProperty.TYPE)) {
+			return getExistingClass(pp.getItems().getType()).array();
+		} else {
+			return getExistingClass(pp.getType());
+		}
 	}
 
 	protected AbstractJClass translateToClass(ObjectProperty p, JPackage pck, String name) {

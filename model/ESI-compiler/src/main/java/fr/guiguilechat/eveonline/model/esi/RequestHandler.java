@@ -1,5 +1,10 @@
 package fr.guiguilechat.eveonline.model.esi;
 
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
 public interface RequestHandler {
 
 	/**
@@ -21,11 +26,11 @@ public interface RequestHandler {
 	 *          additionnal data transmitted
 	 * @return the line returned by the server.
 	 */
-	public String connectPost(String url, String contentType, String transmit);
+	public String connectPost(String url, Map<String, String> content);
 
 	/**
 	 * convert a Line returned by a server into a structure
-	 * 
+	 *
 	 * @param line
 	 *          the server line
 	 * @param clazz
@@ -34,4 +39,20 @@ public interface RequestHandler {
 	 */
 	public <T> T convert(String line, Class<? extends T> clazz);
 
+	public default String flatten(Object o) {
+		if(o==null) {
+			return null;
+		}
+		if(o.getClass().isArray()) {
+			Class<?> ct = o.getClass().getComponentType();
+			if(ct.isPrimitive()) {
+				if (ct == int.class) {
+					return IntStream.of((int[]) o).mapToObj(Integer::toString).collect(Collectors.joining(","));
+				}
+			}
+			return Stream.of((Object[]) o).map(Object::toString).collect(Collectors.joining(","));
+		} else {
+			return o.toString();
+		}
+	}
 }
