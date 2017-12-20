@@ -115,6 +115,7 @@ public class Compiler {
 				List<JVar> queryparameters = new ArrayList<>();
 				List<JVar> bodyparameters = new ArrayList<>();
 
+				boolean connected = false;
 				for (Parameter p : operation.getParameters()) {
 					if (p.getRequired()) {
 						if (p instanceof PathParameter) {
@@ -134,7 +135,12 @@ public class Compiler {
 						} else {
 							System.err.println("  no match for parameter " + p.getClass());
 						}
+					} else {
+						if (p.getName().equals("token")) {
+							connected=true;
+						}
 					}
+
 				}
 				String urlAssign = "String url=\"" + baseURL + path + "\"";
 				for (JVar jv : pathparameters) {
@@ -154,9 +160,10 @@ public class Compiler {
 							meth.body().directStatement("content.put(\"" + p.name() + "\", flatten(" + p.name() + "));");
 						}
 					}
-					meth.body().directStatement("String fetched=" + "connectPost(url, content);");
+					meth.body()
+					.directStatement("String fetched=" + "connectPost(url, content," + Boolean.toString(connected) + ");");
 				} else {
-					meth.body().directStatement("String fetched=" + "connectGet(url);");
+					meth.body().directStatement("String fetched=" + "connectGet(url," + Boolean.toString(connected) + ");");
 				}
 				meth.body().directStatement("return convert(fetched, " + retType.binaryName() + ".class);");
 			}
@@ -193,7 +200,7 @@ public class Compiler {
 	protected AbstractJType getExistingClass(String name) {
 		switch (name) {
 		case IntegerProperty.TYPE:
-			return cm.INT;
+			return cm.LONG;
 		case BooleanProperty.TYPE:
 			return cm.BOOLEAN;
 		case StringProperty.TYPE:

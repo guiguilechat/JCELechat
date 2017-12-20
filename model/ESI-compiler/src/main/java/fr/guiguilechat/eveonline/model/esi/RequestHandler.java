@@ -13,7 +13,7 @@ public interface RequestHandler {
 	 *          the url we want
 	 * @return the line returned by the server.
 	 */
-	public String connectGet(String url);
+	public String connectGet(String url, boolean connected);
 
 	/**
 	 *
@@ -26,7 +26,7 @@ public interface RequestHandler {
 	 *          additionnal data transmitted
 	 * @return the line returned by the server.
 	 */
-	public String connectPost(String url, Map<String, String> content);
+	public String connectPost(String url, Map<String, String> content, boolean connected);
 
 	/**
 	 * convert a Line returned by a server into a structure

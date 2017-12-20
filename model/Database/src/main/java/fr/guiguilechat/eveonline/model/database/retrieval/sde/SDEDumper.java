@@ -14,6 +14,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.stream.LongStream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -40,10 +41,8 @@ import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.raw.Character;
 import fr.guiguilechat.eveonline.model.esi.raw.Corporations;
 import fr.guiguilechat.eveonline.model.esi.raw.Corporations.Corporation;
+import fr.guiguilechat.eveonline.model.esi.raw.ESIRaw;
 import fr.guiguilechat.eveonline.model.esi.raw.ESIUniverse;
-import fr.guiguilechat.eveonline.model.esi.raw.Loyalty;
-import fr.guiguilechat.eveonline.model.esi.raw.Loyalty.Offer;
-import fr.guiguilechat.eveonline.model.esi.raw.Loyalty.Offer.ItemReq;
 import fr.guiguilechat.eveonline.model.sde.bsd.EagtAgents;
 import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeEffects;
@@ -61,6 +60,9 @@ import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.NPCStation;
 import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.Planet;
 import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.Stargate;
 import fr.guiguilechat.eveonline.model.sde.model.IndustryUsages;
+import is.ccp.tech.esi.responses.R_get_corporations_corporation_id_ok;
+import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers_ok;
+import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers_ok_required_items;
 
 /** load SDE, convert it into db, store the db, and allow to load it. */
 public class SDEDumper {
@@ -195,6 +197,7 @@ public class SDEDumper {
 		DatabaseFile db = new DatabaseFile();
 		Corporations corps = new Corporations(null);
 		ESIUniverse uni = new ESIUniverse();
+		ESIRaw esi = new ESIRaw(null, null);
 
 		logger.info("loading ships and modules");
 		loadShipModules(sde, db);
@@ -218,7 +221,7 @@ public class SDEDumper {
 		// informations.
 
 		logger.info("loading lpoffers");
-		loadLPOffers(sde, db, corps);
+		loadLPOffers(sde, db, esi);
 
 		logger.info("loading agents");
 		loadAgents(sde, db, corps, uni);
@@ -786,45 +789,49 @@ public class SDEDumper {
 		}
 	}
 
-	public static void loadLPOffers(SDEData sde, DatabaseFile db, Corporations corps) {
-		Loyalty loyalty = new Loyalty();
-		loyalty.loadOffers(corps.getCorpos().keySet().stream().mapToInt(i -> i).toArray());
-		for (Entry<Integer, Corporation> e : corps.getCorpos().entrySet()) {
-			for (Offer o : loyalty.getOffers(e.getKey())) {
-				LPOffer lpo = new LPOffer();
-				lpo.corporation = e.getValue().corporation_name;
-				lpo.requirements.isk += o.isk_cost;
-				lpo.requirements.lp += o.lp_cost;
-				lpo.offer_name = sde.getType(o.type_id).enName();
-				lpo.id = o.offer_id;
+	public static void loadLPOffers(SDEData sde, DatabaseFile db, ESIRaw esi) {
+		LongStream.of(esi.get_corporations_npccorps()).parallel().forEach(i -> {
+			R_get_corporations_corporation_id_ok corp = esi.get_corporations_corporation_id(i);
+			R_get_loyalty_stores_corporation_id_offers_ok[] offers = esi.get_loyalty_stores_corporation_id_offers(i);
+			if (corp != null && offers != null) {
+				for (R_get_loyalty_stores_corporation_id_offers_ok o : offers) {
+					LPOffer lpo = new LPOffer();
+					lpo.corporation = corp.name;
+					lpo.requirements.isk += o.isk_cost;
+					lpo.requirements.lp += o.lp_cost;
+					lpo.offer_name = sde.getType((int) o.type_id).enName();
+					lpo.id = (int) o.offer_id;
 
-				for (ItemReq ir : o.required_items) {
-					ItemRef translated = new ItemRef();
-					translated.quantity = ir.quantity;
-					translated.type_id = ir.type_id;
-					lpo.requirements.items.add(translated);
-				}
-
-				Eblueprints bp = sde.getBlueprints().get(o.type_id);
-
-				if (bp != null) {// the lp offers a BPC
-					for (Material m : bp.activities.manufacturing.materials) {
+					for (R_get_loyalty_stores_corporation_id_offers_ok_required_items ir : o.required_items) {
 						ItemRef translated = new ItemRef();
-						translated.quantity = m.quantity * o.quantity;
-						translated.type_id = m.typeID;
+						translated.quantity = (int) ir.quantity;
+						translated.type_id = (int) ir.type_id;
 						lpo.requirements.items.add(translated);
 					}
-					Material prod = bp.activities.manufacturing.products.get(0);
-					lpo.product.type_id = prod.typeID;
-					lpo.product.quantity = prod.quantity * o.quantity;
-				} else {// the lp offers a non-bpc
-					lpo.product.quantity = o.quantity;
-					lpo.product.type_id = o.type_id;
-				}
 
-				db.lpoffers.add(lpo);
+					Eblueprints bp = sde.getBlueprints().get((int) o.type_id);
+
+					if (bp != null) {// the lp offers a BPC
+						for (Material m : bp.activities.manufacturing.materials) {
+							ItemRef translated = new ItemRef();
+							translated.quantity = (int) (m.quantity * o.quantity);
+							translated.type_id = m.typeID;
+							lpo.requirements.items.add(translated);
+						}
+						Material prod = bp.activities.manufacturing.products.get(0);
+						lpo.product.type_id = prod.typeID;
+						lpo.product.quantity = (int) (prod.quantity * o.quantity);
+					} else {// the lp offers a non-bpc
+						lpo.product.quantity = (int) o.quantity;
+						lpo.product.type_id = (int) o.type_id;
+					}
+
+					db.lpoffers.add(lpo);
+				}
+			} else {
+				logger.debug("cannot load offers for corp " + i + (corp == null ? "" : corp.name));
 			}
-		}
+		});
 		// lp offers are sorted by corporation, offer name
 		Collections.sort(db.lpoffers, (o1, o2) -> {
 			int ret = o1.corporation.compareTo(o2.corporation);
@@ -859,7 +866,7 @@ public class SDEDumper {
 			ag.agentID = ea.agentID;
 			ag.name = names.get(ag.agentID);
 			Corporation corp = mycorps.get(ea.corporationID);
-			ag.corporation = corp.corporation_name;
+			ag.corporation = corp.name;
 			ag.isLocator = ea.isLocator;
 			ag.level = ea.level;
 			ag.agentType = agtTypes.get(ea.agentTypeID);
