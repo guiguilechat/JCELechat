@@ -63,7 +63,7 @@ public class Corporations extends ConnectedCall {
 	//
 
 	public static class Corporation {
-		public String corporation_name;
+		public String name;
 		public String ticker;
 		public int member_count;
 		public long ceo_id;
@@ -73,6 +73,7 @@ public class Corporations extends ConnectedCall {
 		public String creation_date;
 		public long creator_id;
 		public String url;
+		public String description;
 	}
 
 	private static final String CORPORATIONS_DETAIL_URL = "https://esi.tech.ccp.is/latest/corporations/";

@@ -2,7 +2,7 @@ package fr.guiguilechat.eveonline.model.esi.connect;
 
 public class ConnectedCall {
 
-	private ESIConnection connection = null;
+	protected ESIConnection connection = null;
 
 	public ConnectedCall(ESIConnection connection) {
 		this.connection = connection;

@@ -14,6 +14,7 @@ import java.net.URI;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -26,8 +27,10 @@ import javax.net.ssl.HttpsURLConnection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
 
 public class ESIConnection {
 
@@ -276,7 +279,6 @@ public class ESIConnection {
 			int responseCode = con.getResponseCode();
 			if (responseCode != 200) {
 				System.err.println("response is " + responseCode);
-				System.err.println("properties are " + con.getRequestProperties());
 				System.err.println("returned error :");
 				new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(System.err::println);
 				return null;
@@ -297,9 +299,14 @@ public class ESIConnection {
 	 * @return the line returned by the server as a response. null if there was an
 	 *         issue
 	 */
-	public String connectGet(String url) {
-		HashMap<String, String> props = new HashMap<>();
-		props.put("Authorization", getAuthorization());
+	public String connectGet(String url, boolean connected) {
+		Map<String, String> props;
+		if (connected) {
+			props = new HashMap<>();
+			props.put("Authorization", getAuthorization());
+		} else {
+			props = Collections.emptyMap();
+		}
 		return connect(url, "GET", props, null);
 	}
 
@@ -315,15 +322,27 @@ public class ESIConnection {
 	 * @return the line returned by the server as a response. null if there was an
 	 *         issue
 	 */
-	public String connectPost(String url, String contentType, String transmit) {
+	public String connectPost(String url, String contentType, String transmit, boolean connected) {
 		HashMap<String, String> props = new HashMap<>();
-		props.put("Authorization", getAuthorization());
+		if (connected) {
+			props.put("Authorization", getAuthorization());
+		}
 		props.put("Content-Type", contentType);
 		return connect(url, "GET", props, transmit);
 	}
 
+	ObjectWriter ow = new ObjectMapper().writer();
+
+	public String connectPost(String url, Map<String, String> transmit, boolean connected) {
+		try {
+			return connectPost(url, "application/json", ow.writeValueAsString(transmit), connected);
+		} catch (JsonProcessingException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+	}
+
 	public String verify() {
-		String res = connectGet("https://login.eveonline.com/oauth/verify");
+		String res = connectGet("https://login.eveonline.com/oauth/verify", true);
 		try {
 			Map<String, String> map = new ObjectMapper().readValue(res, new TypeReference<Map<String, String>>() {
 			});
