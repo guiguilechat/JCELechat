@@ -311,7 +311,7 @@ public class ESIConnection {
 	 * @param contentType
 	 *          the type of the data transmitted
 	 * @param transmit
-	 *          the data to transmit duing the query
+	 *          the data to transmit during the query
 	 * @return the line returned by the server as a response. null if there was an
 	 *         issue
 	 */
