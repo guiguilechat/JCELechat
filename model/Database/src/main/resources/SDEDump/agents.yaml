@@ -462,7 +462,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 2
     location: Enaluri V - State Protectorate Assembly Plant
@@ -1051,7 +1050,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Sosala IV - 24th Imperial Crusade Logistic Support
@@ -1122,7 +1120,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 4
     location: Intaki II - Federal Defense Union Logistic Support
@@ -1477,7 +1474,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 2
     location: Auner VI - Tribal Liberation Force Logistic Support
@@ -1548,7 +1544,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 1
     location: Covryn III - Federal Defense Union Logistic Support
@@ -1579,7 +1574,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Myyhera III - 24th Imperial Crusade Logistic Support
@@ -3040,7 +3034,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 1
     location: Ofstold IV - Tribal Liberation Force Logistic Support
@@ -3091,7 +3084,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Tzvi VI - 24th Imperial Crusade Logistic Support
@@ -3212,7 +3204,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 1
     location: Myyhera III - 24th Imperial Crusade Logistic Support
@@ -3233,7 +3224,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Kurniainen IX - 24th Imperial Crusade Logistic Support
@@ -3274,7 +3264,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Tararan IV - 24th Imperial Crusade Logistic Support
@@ -4341,7 +4330,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 2
     location: Innia II - State Protectorate Logistic Support
@@ -4858,7 +4846,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 2
     location: Oshaima IV - State Protectorate Logistic Support
@@ -5483,7 +5470,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 2
     location: Eugales V - Federal Defense Union Assembly Plant
@@ -5674,7 +5660,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 4
     location: Olfeim IV - Tribal Liberation Force Logistic Support
@@ -5775,7 +5760,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 2
     location: Ebolfer V - Tribal Liberation Force Testing Facilities
@@ -6146,7 +6130,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: false
     level: 4
     location: Arzad VIII - 24th Imperial Crusade Logistic Support
@@ -6367,7 +6350,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 4
     location: Moclinamaud VII - Federal Defense Union Logistic Support
@@ -6468,7 +6450,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 2
     location: Ostingele IV - Federal Defense Union Testing Facilities
@@ -6627,7 +6608,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 3
     location: Jufvitte IV - Federal Defense Union Logistic Support
@@ -6788,7 +6768,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 3
     location: Orfrold IV - Tribal Liberation Force Logistic Support
@@ -6857,7 +6836,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 1
     location: Hykanima I - State Protectorate Logistic Support
@@ -7554,7 +7532,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: false
     level: 3
     location: Kamela V - 24th Imperial Crusade Logistic Support
@@ -7725,7 +7702,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 4
     location: Enaluri V - State Protectorate Assembly Plant
@@ -7786,7 +7762,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 3
     location: Ofstold IV - Tribal Liberation Force Logistic Support
@@ -8011,7 +7986,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 4
     location: Eugales V - Federal Defense Union Assembly Plant
@@ -8200,7 +8174,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 3
     location: Orvolle VII - Federal Defense Union Logistic Support
@@ -8752,7 +8725,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 1
     location: Costolle V - Federal Defense Union Logistic Support
@@ -8951,7 +8923,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 3
     location: Amo II - Tribal Liberation Force Logistic Support
@@ -9132,7 +9103,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 2
     location: Ofstold IV - Tribal Liberation Force Logistic Support
@@ -9711,7 +9681,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 3
     location: Villore VI - Federal Defense Union Logistic Support
@@ -11294,7 +11263,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: false
     level: 3
     location: Eugales V - Federal Defense Union Assembly Plant
@@ -12581,7 +12549,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 3
     location: Aidart IV - Federal Defense Union Logistic Support
@@ -13032,7 +12999,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 3
     location: Costolle V - Federal Defense Union Logistic Support
@@ -13489,7 +13455,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 1
     location: Kamela V - 24th Imperial Crusade Logistic Support
@@ -14061,7 +14026,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 1
     location: Ishomilken V - State Protectorate Logistic Support
@@ -14222,7 +14186,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 1
     location: Enaluri V - State Protectorate Assembly Plant
@@ -16267,7 +16230,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 2
     location: Lulm IV - Tribal Liberation Force Logistic Support
@@ -16798,7 +16760,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: false
     level: 1
     location: Ouelletta II - Federal Defense Union Logistic Support
@@ -16829,7 +16790,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 3
     location: Onnamon IV - State Protectorate Logistic Support
@@ -17286,7 +17246,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 3
     location: Covryn III - Federal Defense Union Logistic Support
@@ -17547,7 +17506,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 1
     location: Hek VII - Tribal Liberation Force Logistic Support
@@ -18326,7 +18284,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Huola VI - 24th Imperial Crusade Logistic Support
@@ -18643,7 +18600,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 2
     location: Dal I - Tribal Liberation Force Logistic Support
@@ -18842,7 +18798,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 3
     location: Hadozeko II - Tribal Liberation Force Logistic Support
@@ -19171,7 +19126,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: false
     level: 2
     location: Sasiekko III - 24th Imperial Crusade Logistic Support
@@ -19212,7 +19166,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Asghed III - 24th Imperial Crusade Logistic Support
@@ -19857,7 +19810,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 2
     location: Jufvitte IV - Federal Defense Union Logistic Support
@@ -20444,7 +20396,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Iesa IV - 24th Imperial Crusade Testing Facilities
@@ -20525,7 +20476,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Kurniainen IX - 24th Imperial Crusade Logistic Support
@@ -20815,7 +20765,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Kamela V - 24th Imperial Crusade Logistic Support
@@ -20826,7 +20775,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Tannakan VII - 24th Imperial Crusade Logistic Support
@@ -21067,7 +21015,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 2
     location: Fliet III - Federal Defense Union Logistic Support
@@ -21520,7 +21467,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 4
     location: Villore VI - Federal Defense Union Logistic Support
@@ -22311,7 +22257,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 2
     location: Floseswin IV - Tribal Liberation Force Logistic Support
@@ -23487,7 +23432,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 4
     location: Jufvitte IV - Federal Defense Union Logistic Support
@@ -23788,7 +23732,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 1
     location: Intaki II - Federal Defense Union Logistic Support
@@ -23809,7 +23752,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 3
     location: Ostingele IV - Federal Defense Union Testing Facilities
@@ -23840,7 +23782,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 4
     location: Parts I - Federal Defense Union Logistic Support
@@ -23881,7 +23822,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 1
     location: Moclinamaud VII - Federal Defense Union Logistic Support
@@ -24058,7 +23998,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Arzad VIII - 24th Imperial Crusade Logistic Support
@@ -24119,7 +24058,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 1
     location: Huola VI - 24th Imperial Crusade Logistic Support
@@ -24498,7 +24436,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 2
     location: Moclinamaud VII - Federal Defense Union Logistic Support
@@ -24757,7 +24694,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 1
     location: Caslemon III - Federal Defense Union Logistic Support
@@ -25645,7 +25581,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Gammel III - 24th Imperial Crusade Logistic Support
@@ -25830,7 +25765,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 1
     location: Mehatoor VI - 24th Imperial Crusade Logistic Support
@@ -25881,7 +25815,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 1
     location: Gukarla V - Tribal Liberation Force Logistic Support
@@ -26532,7 +26465,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 4
     location: Hek VII - Tribal Liberation Force Logistic Support
@@ -26928,7 +26860,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: false
     level: 4
     location: Caslemon III - Federal Defense Union Logistic Support
@@ -27853,7 +27784,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 3
     location: Ouelletta II - Federal Defense Union Logistic Support
@@ -27914,7 +27844,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: false
     level: 4
     location: Orvolle VII - Federal Defense Union Logistic Support
@@ -28055,7 +27984,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: false
     level: 1
     location: Tararan IV - 24th Imperial Crusade Logistic Support
@@ -28666,7 +28594,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 4
     location: Ebolfer V - Tribal Liberation Force Testing Facilities
@@ -28985,7 +28912,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 4
     location: Lulm IV - Tribal Liberation Force Logistic Support
@@ -29356,7 +29282,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 2
     location: Amo II - Tribal Liberation Force Logistic Support
@@ -29785,7 +29710,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 4
     location: Enaluri II - State Protectorate Logistic Support
@@ -29986,7 +29910,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 1
     location: Rakapas II - State Protectorate Logistic Support
@@ -30007,7 +29930,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 1
     location: Onnamon IV - State Protectorate Logistic Support
@@ -30248,7 +30170,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 1
     location: Eugales V - Federal Defense Union Assembly Plant
@@ -30477,7 +30398,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Halmah IV - 24th Imperial Crusade Assembly Plant
@@ -30708,7 +30628,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 1
     location: Jufvitte IV - Federal Defense Union Logistic Support
@@ -31794,7 +31713,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Kurniainen IX - 24th Imperial Crusade Logistic Support
@@ -32725,7 +32643,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 3
     location: Oshaima IV - State Protectorate Logistic Support
@@ -32784,7 +32701,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: false
     level: 2
     location: Orvolle VII - Federal Defense Union Logistic Support
@@ -34511,7 +34427,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Oyonata VI - 24th Imperial Crusade Logistic Support
@@ -34592,7 +34507,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: false
     level: 4
     location: Iesa IV - 24th Imperial Crusade Testing Facilities
@@ -34693,7 +34607,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 1
     location: Oyonata VI - 24th Imperial Crusade Logistic Support
@@ -34902,7 +34815,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 1
     location: Floseswin IV - Tribal Liberation Force Logistic Support
@@ -34951,7 +34863,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 3
     location: Caslemon III - Federal Defense Union Logistic Support
@@ -35532,7 +35443,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 3
     location: Abudban IV - Tribal Liberation Force Logistic Support
@@ -35759,7 +35669,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 3
     location: Enaluri V - State Protectorate Assembly Plant
@@ -36026,7 +35935,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 3
     location: Eszur III - Tribal Liberation Force Assembly Plant
@@ -36265,7 +36173,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Mehatoor VI - 24th Imperial Crusade Logistic Support
@@ -36882,7 +36789,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 4
     location: Mercomesier III - Federal Defense Union Logistic Support
@@ -37013,7 +36919,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Iesa IV - 24th Imperial Crusade Testing Facilities
@@ -37044,7 +36949,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 3
     location: Ebolfer V - Tribal Liberation Force Testing Facilities
@@ -37215,7 +37119,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: false
     level: 3
     location: Uphallant II - Federal Defense Union Logistic Support
@@ -37654,7 +37557,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 1
     location: Fliet III - Federal Defense Union Logistic Support
@@ -37835,7 +37737,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: false
     level: 1
     location: Asghed III - 24th Imperial Crusade Logistic Support
@@ -38686,7 +38587,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 4
     location: Hadozeko II - Tribal Liberation Force Logistic Support
@@ -39073,7 +38973,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Huola VI - 24th Imperial Crusade Logistic Support
@@ -39294,7 +39193,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 2
     location: Orfrold IV - Tribal Liberation Force Logistic Support
@@ -39853,7 +39751,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 4
     location: Amo II - Tribal Liberation Force Logistic Support
@@ -40014,7 +39911,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Halmah IV - 24th Imperial Crusade Assembly Plant
@@ -41165,7 +41061,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 4
     location: Eha III - State Protectorate Logistic Support
@@ -41812,7 +41707,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Dihra V - 24th Imperial Crusade Logistic Support
@@ -42437,7 +42331,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 3
     location: Enaluri II - State Protectorate Logistic Support
@@ -42488,7 +42381,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Tannakan VII - 24th Imperial Crusade Logistic Support
@@ -42985,7 +42877,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 3
     location: Auner VI - Tribal Liberation Force Logistic Support
@@ -44266,7 +44157,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 4
     location: Orfrold IV - Tribal Liberation Force Logistic Support
@@ -45321,7 +45211,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 2
     location: Olfeim IV - Tribal Liberation Force Logistic Support
@@ -46002,7 +45891,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 1
     location: Elanoda IV - State Protectorate Logistic Support
@@ -46991,7 +46879,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 4
     location: Nourvukaiken V - State Protectorate Logistic Support
@@ -47222,7 +47109,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 2
     location: Hek VII - Tribal Liberation Force Logistic Support
@@ -47677,7 +47563,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 3
     location: Parts I - Federal Defense Union Logistic Support
@@ -48338,7 +48223,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 2
     location: Eszur III - Tribal Liberation Force Assembly Plant
@@ -49655,7 +49539,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 1
     location: Innia II - State Protectorate Logistic Support
@@ -49666,7 +49549,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 3
     location: Hykanima I - State Protectorate Logistic Support
@@ -49767,7 +49649,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 3
     location: Lulm IV - Tribal Liberation Force Logistic Support
@@ -50888,7 +50769,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 1
     location: Asakai II - State Protectorate Testing Facilities
@@ -51291,7 +51171,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: false
     level: 1
     location: Parts I - Federal Defense Union Logistic Support
@@ -51330,7 +51209,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 1
     location: Esesier IX - Federal Defense Union Logistic Support
@@ -51361,7 +51239,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: false
     level: 1
     location: Kurniainen IX - 24th Imperial Crusade Logistic Support
@@ -51452,7 +51329,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Mehatoor VI - 24th Imperial Crusade Logistic Support
@@ -51523,7 +51399,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: false
     level: 1
     location: Aidart IV - Federal Defense Union Logistic Support
@@ -51642,7 +51517,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 4
     location: Anher I - Tribal Liberation Force Logistic Support
@@ -51683,7 +51557,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: false
     level: 2
     location: Tzvi VI - 24th Imperial Crusade Logistic Support
@@ -51704,7 +51577,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 3
     location: Asakai II - State Protectorate Testing Facilities
@@ -51745,7 +51617,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 2
     location: Ouelletta II - Federal Defense Union Logistic Support
@@ -52052,7 +51923,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 2
     location: Enaluri II - State Protectorate Logistic Support
@@ -52173,7 +52043,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 1
     location: Hadozeko II - Tribal Liberation Force Logistic Support
@@ -53638,7 +53507,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Gammel III - 24th Imperial Crusade Logistic Support
@@ -54585,7 +54453,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 3
     location: Anher I - Tribal Liberation Force Logistic Support
@@ -54856,7 +54723,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 1
     location: Usi III - State Protectorate Logistic Support
@@ -55275,7 +55141,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: false
     level: 1
     location: Iesa IV - 24th Imperial Crusade Testing Facilities
@@ -55826,7 +55691,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 1
     location: Olfeim IV - Tribal Liberation Force Logistic Support
@@ -56287,7 +56151,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 4
     location: Aivonen VI - State Protectorate Logistic Support
@@ -56396,7 +56259,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 1
     location: Nisuwa VII - State Protectorate Logistic Support
@@ -56707,7 +56569,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 1
     location: Anher I - Tribal Liberation Force Logistic Support
@@ -58208,7 +58069,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 4
     location: Sujarento IV - State Protectorate Logistic Support
@@ -58845,7 +58705,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 4
     location: Oshaima IV - State Protectorate Logistic Support
@@ -59720,7 +59579,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 4
     location: Fliet III - Federal Defense Union Logistic Support
@@ -59962,7 +59820,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 3
     location: Esesier IX - Federal Defense Union Logistic Support
@@ -60053,7 +59910,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Asghed III - 24th Imperial Crusade Logistic Support
@@ -60112,7 +59968,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 1
     location: Orfrold IV - Tribal Liberation Force Logistic Support
@@ -60331,7 +60186,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 4
     location: Uphallant II - Federal Defense Union Logistic Support
@@ -62626,7 +62480,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: false
     level: 4
     location: Covryn III - Federal Defense Union Logistic Support
@@ -63249,7 +63102,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: false
     level: 1
     location: Sasiekko III - 24th Imperial Crusade Logistic Support
@@ -63448,7 +63300,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: false
     level: 1
     location: Dihra V - 24th Imperial Crusade Logistic Support
@@ -63517,7 +63368,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 1
     location: Gammel III - 24th Imperial Crusade Logistic Support
@@ -63568,7 +63418,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Kamela V - 24th Imperial Crusade Logistic Support
@@ -64073,7 +63922,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Sasiekko III - 24th Imperial Crusade Logistic Support
@@ -64772,7 +64620,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: false
     level: 1
     location: Tannakan VII - 24th Imperial Crusade Logistic Support
@@ -65425,7 +65272,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 1
     location: Aivonen VI - State Protectorate Logistic Support
@@ -66564,7 +66410,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 4
     location: Innia II - State Protectorate Logistic Support
@@ -66665,7 +66510,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: false
     level: 3
     location: Fliet III - Federal Defense Union Logistic Support
@@ -66766,7 +66610,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Sasiekko III - 24th Imperial Crusade Logistic Support
@@ -67473,7 +67316,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Asghed III - 24th Imperial Crusade Logistic Support
@@ -68506,7 +68348,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Myyhera III - 24th Imperial Crusade Logistic Support
@@ -68567,7 +68408,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Tzvi VI - 24th Imperial Crusade Logistic Support
@@ -68696,7 +68536,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 2
     location: Usi III - State Protectorate Logistic Support
@@ -68907,7 +68746,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Sosala IV - 24th Imperial Crusade Logistic Support
@@ -69336,7 +69174,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 2
     location: Rakapas II - State Protectorate Logistic Support
@@ -69397,7 +69234,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 4
     location: Nisuwa VII - State Protectorate Logistic Support
@@ -69456,7 +69292,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 1
     location: Amo II - Tribal Liberation Force Logistic Support
@@ -69477,7 +69312,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Oyonata VI - 24th Imperial Crusade Logistic Support
@@ -69838,7 +69672,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Dihra V - 24th Imperial Crusade Logistic Support
@@ -70952,7 +70785,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 3
     location: Mercomesier III - Federal Defense Union Logistic Support
@@ -71925,7 +71757,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 4
     location: Gukarla V - Tribal Liberation Force Logistic Support
@@ -72034,7 +71865,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 3
     location: Ishomilken V - State Protectorate Logistic Support
@@ -72565,7 +72395,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 2
     location: Asakai II - State Protectorate Testing Facilities
@@ -72666,7 +72495,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 3
     location: Sujarento IV - State Protectorate Logistic Support
@@ -73155,7 +72983,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 3
     location: Usi III - State Protectorate Logistic Support
@@ -73306,7 +73133,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 1
     location: Ishomilken V - State Protectorate Logistic Support
@@ -73835,7 +73661,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 2
     location: Esesier IX - Federal Defense Union Logistic Support
@@ -74116,7 +73941,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 2
     location: Nourvukaiken V - State Protectorate Logistic Support
@@ -74385,7 +74209,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 1
     location: Eha III - State Protectorate Logistic Support
@@ -74456,7 +74279,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 2
     location: Hadozeko II - Tribal Liberation Force Logistic Support
@@ -74627,7 +74449,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 1
     location: Villore VI - Federal Defense Union Logistic Support
@@ -75038,7 +74859,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 2
     location: Intaki II - Federal Defense Union Logistic Support
@@ -76897,7 +76717,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Mehatoor VI - 24th Imperial Crusade Logistic Support
@@ -76946,7 +76765,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 3
     location: Eha III - State Protectorate Logistic Support
@@ -77417,7 +77235,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 1
     location: Lulm IV - Tribal Liberation Force Logistic Support
@@ -77448,7 +77265,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 4
     location: Abudban IV - Tribal Liberation Force Logistic Support
@@ -78069,7 +77885,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 2
     location: Eha III - State Protectorate Logistic Support
@@ -78674,7 +78489,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Gammel III - 24th Imperial Crusade Logistic Support
@@ -78895,7 +78709,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: false
     level: 4
     location: Ostingele IV - Federal Defense Union Testing Facilities
@@ -79224,7 +79037,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 1
     location: Oshaima IV - State Protectorate Logistic Support
@@ -79941,7 +79753,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 1
     location: Orvolle VII - Federal Defense Union Logistic Support
@@ -80140,7 +79951,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 2
     location: Parts I - Federal Defense Union Logistic Support
@@ -80591,7 +80401,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 4
     location: Esesier IX - Federal Defense Union Logistic Support
@@ -80822,7 +80631,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 3
     location: Moclinamaud VII - Federal Defense Union Logistic Support
@@ -81209,7 +81017,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 1
     location: Sosala IV - 24th Imperial Crusade Logistic Support
@@ -81378,7 +81185,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: false
     level: 1
     location: Mercomesier III - Federal Defense Union Logistic Support
@@ -81627,7 +81433,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 3
     location: Innia II - State Protectorate Logistic Support
@@ -82436,7 +82241,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Arzad VIII - 24th Imperial Crusade Logistic Support
@@ -82555,7 +82359,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 4
     location: Eszur III - Tribal Liberation Force Assembly Plant
@@ -84216,7 +84019,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 4
     location: Elanoda IV - State Protectorate Logistic Support
@@ -84729,7 +84531,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 1
     location: Uphallant II - Federal Defense Union Logistic Support
@@ -85226,7 +85027,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 3
     location: Aivonen VI - State Protectorate Logistic Support
@@ -85265,7 +85065,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 2
     location: Villore VI - Federal Defense Union Logistic Support
@@ -85504,7 +85303,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 3
     location: Olfeim IV - Tribal Liberation Force Logistic Support
@@ -85813,7 +85611,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Oyonata VI - 24th Imperial Crusade Logistic Support
@@ -85894,7 +85691,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 3
     location: Nisuwa VII - State Protectorate Logistic Support
@@ -86829,7 +86625,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 2
     location: Hykanima I - State Protectorate Logistic Support
@@ -87110,7 +86905,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 3
     location: Floseswin IV - Tribal Liberation Force Logistic Support
@@ -87519,7 +87313,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 4
     location: Onnamon IV - State Protectorate Logistic Support
@@ -87898,7 +87691,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: false
     level: 3
     location: Tannakan VII - 24th Imperial Crusade Logistic Support
@@ -87919,7 +87711,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Tararan IV - 24th Imperial Crusade Logistic Support
@@ -88200,7 +87991,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 4
     location: Ishomilken V - State Protectorate Logistic Support
@@ -88241,7 +88031,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 3
     location: Intaki II - Federal Defense Union Logistic Support
@@ -89212,7 +89001,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 2
     location: Aidart IV - Federal Defense Union Logistic Support
@@ -89313,7 +89101,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Dihra V - 24th Imperial Crusade Logistic Support
@@ -89612,7 +89399,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 1
     location: Auner VI - Tribal Liberation Force Logistic Support
@@ -90091,7 +89877,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 2
     location: Aivonen VI - State Protectorate Logistic Support
@@ -90182,7 +89967,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 1
     location: Nourvukaiken V - State Protectorate Logistic Support
@@ -90533,7 +90317,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 2
     location: Ishomilken V - State Protectorate Logistic Support
@@ -90634,7 +90417,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 1
     location: Halmah IV - 24th Imperial Crusade Assembly Plant
@@ -91101,7 +90883,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 2
     location: Anher I - Tribal Liberation Force Logistic Support
@@ -91664,7 +91445,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 4
     location: Auner VI - Tribal Liberation Force Logistic Support
@@ -91735,7 +91515,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 2
     location: Elanoda IV - State Protectorate Logistic Support
@@ -91836,7 +91615,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 1
     location: Ebolfer V - Tribal Liberation Force Testing Facilities
@@ -92043,7 +91821,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 1
     location: Eszur III - Tribal Liberation Force Assembly Plant
@@ -92112,7 +91889,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: false
     level: 4
     location: Costolle V - Federal Defense Union Logistic Support
@@ -92671,7 +92447,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 4
     location: Floseswin IV - Tribal Liberation Force Logistic Support
@@ -92702,7 +92477,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 2
     location: Onnamon IV - State Protectorate Logistic Support
@@ -92853,7 +92627,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Myyhera III - 24th Imperial Crusade Logistic Support
@@ -93420,7 +93193,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 4
     location: Tararan IV - 24th Imperial Crusade Logistic Support
@@ -93957,7 +93729,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 2
     location: Nisuwa VII - State Protectorate Logistic Support
@@ -94138,7 +93909,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 3
     location: Gukarla V - Tribal Liberation Force Logistic Support
@@ -94805,7 +94575,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 4
     location: Usi III - State Protectorate Logistic Support
@@ -94836,7 +94605,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 3
     location: Rakapas II - State Protectorate Logistic Support
@@ -95913,7 +95681,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 3
     location: Nourvukaiken V - State Protectorate Logistic Support
@@ -96618,7 +96385,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Huola VI - 24th Imperial Crusade Logistic Support
@@ -97335,7 +97101,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 3
     location: Hek VII - Tribal Liberation Force Logistic Support
@@ -97772,7 +97537,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 2
     location: Sujarento IV - State Protectorate Logistic Support
@@ -97803,7 +97567,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 3
     location: Dal I - Tribal Liberation Force Logistic Support
@@ -98878,7 +98641,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 4
     location: Hykanima I - State Protectorate Logistic Support
@@ -98979,7 +98741,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 2
     location: Mercomesier III - Federal Defense Union Logistic Support
@@ -99598,7 +99359,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 3
     location: Elanoda IV - State Protectorate Logistic Support
@@ -100077,7 +99837,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 4
     location: Asakai II - State Protectorate Testing Facilities
@@ -100832,7 +100591,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 2
     location: Abudban IV - Tribal Liberation Force Logistic Support
@@ -101123,7 +100881,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: false
     level: 1
     location: Enaluri II - State Protectorate Logistic Support
@@ -101694,7 +101451,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: false
     level: 2
     location: Costolle V - Federal Defense Union Logistic Support
@@ -102923,7 +102679,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 4
     location: Aidart IV - Federal Defense Union Logistic Support
@@ -103124,7 +102879,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 2
     location: Sosala IV - 24th Imperial Crusade Logistic Support
@@ -103913,7 +103667,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: false
     level: 1
     location: Abudban IV - Tribal Liberation Force Logistic Support
@@ -104372,7 +104125,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 2
     location: Caslemon III - Federal Defense Union Logistic Support
@@ -104433,7 +104185,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 4
     location: Dal I - Tribal Liberation Force Logistic Support
@@ -104584,7 +104335,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 1
     location: Covryn III - Federal Defense Union Logistic Support
@@ -105559,7 +105309,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 4
     location: Ofstold IV - Tribal Liberation Force Logistic Support
@@ -106186,7 +105935,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 1
     location: Ostingele IV - Federal Defense Union Testing Facilities
@@ -106205,7 +105953,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 3
     location: Halmah IV - 24th Imperial Crusade Assembly Plant
@@ -107312,7 +107059,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: false
     level: 1
     location: Arzad VIII - 24th Imperial Crusade Logistic Support
@@ -107401,7 +107147,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: State Protectorate
     division: Security
-    faction: Caldari
     isLocator: true
     level: 4
     location: Rakapas II - State Protectorate Logistic Support
@@ -107540,7 +107285,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: 24th Imperial Crusade
     division: Security
-    faction: Amarr
     isLocator: true
     level: 1
     location: Tzvi VI - 24th Imperial Crusade Logistic Support
@@ -107955,7 +107699,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 1
     location: Dal I - Tribal Liberation Force Logistic Support
@@ -108106,7 +107849,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 4
     location: Ouelletta II - Federal Defense Union Logistic Support
@@ -108547,7 +108289,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Tribal Liberation Force
     division: Security
-    faction: Minmatar
     isLocator: true
     level: 2
     location: Gukarla V - Tribal Liberation Force Logistic Support
@@ -109146,7 +108887,6 @@ agents:
     agentType: FactionalWarfareAgent
     corporation: Federal Defense Union
     division: Security
-    faction: Gallente
     isLocator: true
     level: 2
     location: Uphallant II - Federal Defense Union Logistic Support

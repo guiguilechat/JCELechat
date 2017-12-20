@@ -278,9 +278,12 @@ public class ESIConnection {
 			}
 			int responseCode = con.getResponseCode();
 			if (responseCode != 200) {
-				System.err.println("response is " + responseCode);
-				System.err.println("returned error :");
-				new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(System.err::println);
+				StringBuilder sb = new StringBuilder("get").append(url).append(" ").append(responseCode);
+				if (responseCode != 500) {
+					sb.append(" error : ");
+					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
+				}
+				System.err.println(sb.toString());
 				return null;
 			} else {
 				return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();

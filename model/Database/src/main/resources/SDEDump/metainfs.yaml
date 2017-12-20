@@ -679,7 +679,7 @@ metaInfs:
     - 100MN Analog Booster Afterburner Blueprint
     - 5MN Digital Booster Microwarpdrive Blueprint
     - 50MN Digital Booster Microwarpdrive Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     - '''Full Duplex'' Ballistic Control System Blueprint'
     - '''Kindred'' Gyrostabilizer Blueprint'
     - Synthetic Hull Conversion Overdrive Injector Blueprint
@@ -1876,7 +1876,7 @@ metaInfs:
     - 100MN Analog Booster Afterburner Blueprint
     - 5MN Digital Booster Microwarpdrive Blueprint
     - 50MN Digital Booster Microwarpdrive Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     - '''Kindred'' Gyrostabilizer Blueprint'
     - Synthetic Hull Conversion Overdrive Injector Blueprint
     - Synthetic Hull Conversion Inertia Stabilizers Blueprint
@@ -2932,7 +2932,7 @@ metaInfs:
     - 100MN Analog Booster Afterburner Blueprint
     - 5MN Digital Booster Microwarpdrive Blueprint
     - 50MN Digital Booster Microwarpdrive Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     - '''Full Duplex'' Ballistic Control System Blueprint'
     - '''Kindred'' Gyrostabilizer Blueprint'
     - Synthetic Hull Conversion Inertia Stabilizers Blueprint
@@ -3796,7 +3796,7 @@ metaInfs:
     - 100MN Analog Booster Afterburner Blueprint
     - 5MN Digital Booster Microwarpdrive Blueprint
     - 50MN Digital Booster Microwarpdrive Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     - '''Full Duplex'' Ballistic Control System Blueprint'
     - '''Kindred'' Gyrostabilizer Blueprint'
     - Limited Expanded 'Archiver' Cargo Blueprint
@@ -4675,7 +4675,7 @@ metaInfs:
     - 100MN Analog Booster Afterburner Blueprint
     - 5MN Digital Booster Microwarpdrive Blueprint
     - 50MN Digital Booster Microwarpdrive Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     - Limited Expanded 'Archiver' Cargo Blueprint
     - Synthetic Hull Conversion Nanofiber Structure Blueprint
     - Large 'Integrative' Hull Repair Unit Blueprint
@@ -5400,7 +5400,7 @@ metaInfs:
     - Capital Launcher Hardpoint Blueprint
     - 100MN Analog Booster Afterburner Blueprint
     - 50MN Digital Booster Microwarpdrive Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     - '''Full Duplex'' Ballistic Control System Blueprint'
     - '''Kindred'' Gyrostabilizer Blueprint'
     - Medium 'Integrative' Hull Repair Unit Blueprint
@@ -6097,7 +6097,7 @@ metaInfs:
     - Capital Launcher Hardpoint Blueprint
     - 100MN Analog Booster Afterburner Blueprint
     - 50MN Digital Booster Microwarpdrive Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     - '''Full Duplex'' Ballistic Control System Blueprint'
     - Medium 'Integrative' Hull Repair Unit Blueprint
     - Large 'Integrative' Hull Repair Unit Blueprint
@@ -7912,7 +7912,7 @@ metaInfs:
     - Raven Guristas Edition Blueprint
     - Raven Kaalakiota Edition Blueprint
     - Raven Nugoeihuvi Edition Blueprint
-    - 乌鸦级YC117年特别版蓝图
+    - 乌鸦级YC117年��别版蓝图
     productOf:
     - Raven Blueprint
     volume: 486000.0
@@ -10238,6 +10238,7 @@ metaInfs:
     - Skirmish Command Burst I Blueprint
     - Armor Command Burst I Blueprint
     - Information Command Burst I Blueprint
+    - Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint
     volume: 6.0
   Gel-Matrix Biopaste:
     id: 2348
@@ -10249,6 +10250,7 @@ metaInfs:
     - Mid-grade Ascendancy Beta Blueprint
     - Mid-grade Ascendancy Gamma Blueprint
     - Mid-grade Ascendancy Omega Blueprint
+    - Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint
     volume: 6.0
   Supercomputers:
     id: 2349
@@ -22456,7 +22458,6 @@ metaInfs:
     id: 11377
     productOf:
     - Nemesis Blueprint
-    - Virtuoso Blueprint
     volume: 28100.0
   Nemesis Blueprint:
     id: 11378
@@ -28362,7 +28363,6 @@ metaInfs:
     id: 11969
     productOf:
     - Arazu Blueprint
-    - Victor Blueprint
     volume: 116000.0
   Arazu Blueprint:
     id: 11970
@@ -34108,7 +34108,7 @@ metaInfs:
     - Electronic Hardening Charge Blueprint
     - Electronic Superiority Charge Blueprint
     - Sensor Optimization Charge Blueprint
-    volume: 0.05
+    volume: 0.03
   Strontium Clathrates:
     id: 16275
     productIn:
@@ -34678,7 +34678,7 @@ metaInfs:
     - Nonlinear Metamaterials Reaction Formula
     productOf:
     - Titanium Chromide Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Crystallite Alloy:
     id: 16655
     productIn:
@@ -34686,7 +34686,7 @@ metaInfs:
     - Photonic Metamaterials Reaction Formula
     productOf:
     - Crystallite Alloy Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Fernite Alloy:
     id: 16656
     productIn:
@@ -34694,7 +34694,7 @@ metaInfs:
     - Plasmonic Metamaterials Reaction Formula
     productOf:
     - Fernite Alloy Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Rolled Tungsten Alloy:
     id: 16657
     productIn:
@@ -34702,7 +34702,7 @@ metaInfs:
     - Terahertz Metamaterials Reaction Formula
     productOf:
     - Rolled Tungsten Alloy Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Silicon Diborite:
     id: 16658
     productIn:
@@ -34710,7 +34710,7 @@ metaInfs:
     - Phenolic Composites Reaction Formula
     productOf:
     - Silicon Diborite Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Carbon Polymers:
     id: 16659
     productIn:
@@ -34718,7 +34718,7 @@ metaInfs:
     - Fulleride Reaction Formula
     productOf:
     - Carbon Polymers Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Ceramic Powder:
     id: 16660
     productIn:
@@ -34726,7 +34726,7 @@ metaInfs:
     - Sylramic Fibers Reaction Formula
     productOf:
     - Ceramic Powder Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Sulfuric Acid:
     id: 16661
     productIn:
@@ -34734,7 +34734,7 @@ metaInfs:
     - Nanotransistors Reaction Formula
     productOf:
     - Sulfuric Acid Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Platinum Technite:
     id: 16662
     productIn:
@@ -34742,7 +34742,7 @@ metaInfs:
     - Nanotransistors Reaction Formula
     productOf:
     - Platinum Technite Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Caesarium Cadmide:
     id: 16663
     productIn:
@@ -34750,14 +34750,14 @@ metaInfs:
     - Fermionic Condensates Reaction Formula
     productOf:
     - Caesarium Cadmide Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Solerium:
     id: 16664
     productIn:
     - Hypersynaptic Fibers Reaction Formula
     productOf:
     - Solerium Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Hexite:
     id: 16665
     productIn:
@@ -34765,14 +34765,14 @@ metaInfs:
     - Ferrogel Reaction Formula
     productOf:
     - Hexite Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Hyperflurite:
     id: 16666
     productIn:
     - Ferrogel Reaction Formula
     productOf:
     - Hyperflurite Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Neo Mercurite:
     id: 16667
     productIn:
@@ -34780,7 +34780,7 @@ metaInfs:
     - Plasmonic Metamaterials Reaction Formula
     productOf:
     - Neo Mercurite Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Dysporite:
     id: 16668
     productIn:
@@ -34788,7 +34788,7 @@ metaInfs:
     - Fermionic Condensates Reaction Formula
     productOf:
     - Dysporite Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Ferrofluid:
     id: 16669
     productIn:
@@ -34796,7 +34796,7 @@ metaInfs:
     - Nonlinear Metamaterials Reaction Formula
     productOf:
     - Ferrofluid Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Crystalline Carbonide:
     id: 16670
     productIn:
@@ -36779,7 +36779,7 @@ metaInfs:
     - Fermionic Condensates Reaction Formula
     productOf:
     - Fluxed Condensates Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Large AutoCannon Battery:
     id: 17770
     productIn:
@@ -37026,7 +37026,7 @@ metaInfs:
     - Evasive Maneuvers Charge Blueprint
     - Interdiction Maneuvers Charge Blueprint
     - Rapid Deployment Charge Blueprint
-    volume: 0.05
+    volume: 0.03
   Nitrogen Isotopes:
     id: 17888
     productIn:
@@ -37037,7 +37037,7 @@ metaInfs:
     - Active Shielding Charge Blueprint
     - Shield Extension Charge Blueprint
     - Shield Harmonizing Charge Blueprint
-    volume: 0.05
+    volume: 0.03
   Hydrogen Isotopes:
     id: 17889
     productIn:
@@ -37048,7 +37048,7 @@ metaInfs:
     - Evasive Maneuvers Charge Blueprint
     - Interdiction Maneuvers Charge Blueprint
     - Rapid Deployment Charge Blueprint
-    volume: 0.05
+    volume: 0.03
   Drugdealer Passcard to Storage Area:
     id: 17892
     volume: 0.1
@@ -37118,7 +37118,6 @@ metaInfs:
   Rattlesnake:
     id: 17918
     productIn:
-    - Rattlesnake Victory Edition Blueprint
     - 响尾蛇级YC117年特别版蓝图
     productOf:
     - Rattlesnake Blueprint
@@ -37202,7 +37201,7 @@ metaInfs:
     - Hypersynaptic Fibers Reaction Formula
     productOf:
     - Vanadium Hafnite Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Prometium:
     id: 17960
     productIn:
@@ -37210,7 +37209,7 @@ metaInfs:
     - Fermionic Condensates Reaction Formula
     productOf:
     - Prometium Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Battlement Accesscard:
     id: 17974
     volume: 0.1
@@ -39322,7 +39321,7 @@ metaInfs:
     - 100MN Analog Booster Afterburner Blueprint
     - 5MN Digital Booster Microwarpdrive Blueprint
     - 50MN Digital Booster Microwarpdrive Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     - Synthetic Hull Conversion Overdrive Injector Blueprint
     - Limited Expanded 'Archiver' Cargo Blueprint
     - Synthetic Hull Conversion Reinforced Bulkheads Blueprint
@@ -43700,9 +43699,9 @@ metaInfs:
   500MN Digital Booster Microwarpdrive:
     id: 21480
     productOf:
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     volume: 10.0
-  500MN Digital Booster Rockets Blueprint:
+  500MN Digital Booster Microwarpdrive Blueprint:
     id: 21481
     volume: 0.01
   '''Full Duplex'' Ballistic Control System':
@@ -43972,14 +43971,14 @@ metaInfs:
     - 100MN Analog Booster Afterburner Blueprint
     - 5MN Digital Booster Microwarpdrive Blueprint
     - 50MN Digital Booster Microwarpdrive Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     volume: 1.0
   Sleeper Manuscripts:
     id: 21570
     productIn:
     - 5MN Digital Booster Microwarpdrive Blueprint
     - 50MN Digital Booster Microwarpdrive Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     - Synthetic Hull Conversion Overdrive Injector Blueprint
     - Limited Expanded 'Archiver' Cargo Blueprint
     - Synthetic Hull Conversion Reinforced Bulkheads Blueprint
@@ -44049,7 +44048,7 @@ metaInfs:
     - 100MN Analog Booster Afterburner Blueprint
     - 5MN Digital Booster Microwarpdrive Blueprint
     - 50MN Digital Booster Microwarpdrive Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     - Synthetic Hull Conversion Overdrive Injector Blueprint
     - Large 'Integrative' Hull Repair Unit Blueprint
     - '''Firewall'' Signal Amplifier Blueprint'
@@ -44061,7 +44060,7 @@ metaInfs:
     id: 21585
     productIn:
     - 100MN Analog Booster Afterburner Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     - '''Delineative'' Warp Scrambler Blueprint'
     - '''Firewall'' Signal Amplifier Blueprint'
     - Large Degenerative Concussion Bomb I Blueprint
@@ -44356,7 +44355,7 @@ metaInfs:
     id: 21719
     productIn:
     - 100MN Analog Booster Afterburner Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     - Large Degenerative Concussion Bomb I Blueprint
     volume: 0.1
   Sleeper Thermal Regulator:
@@ -44365,7 +44364,7 @@ metaInfs:
     - 10MN Analog Booster Afterburner Blueprint
     - 100MN Analog Booster Afterburner Blueprint
     - 50MN Digital Booster Microwarpdrive Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     - Small Degenerative Concussion Bomb I Blueprint
     - Medium Degenerative Concussion Bomb I Blueprint
     - Large Degenerative Concussion Bomb I Blueprint
@@ -44378,7 +44377,7 @@ metaInfs:
     - 100MN Analog Booster Afterburner Blueprint
     - 5MN Digital Booster Microwarpdrive Blueprint
     - 50MN Digital Booster Microwarpdrive Blueprint
-    - 500MN Digital Booster Rockets Blueprint
+    - 500MN Digital Booster Microwarpdrive Blueprint
     - Limited Expanded 'Archiver' Cargo Blueprint
     - Synthetic Hull Conversion Reinforced Bulkheads Blueprint
     - Synthetic Hull Conversion Nanofiber Structure Blueprint
@@ -48900,7 +48899,7 @@ metaInfs:
     productIn:
     - Abaddon Tash-Murkon Edition Blueprint
     - Abaddon Kador Edition Blueprint
-    - 地狱天使级YC117年特��版蓝图
+    - 地狱天使级YC117年特别版蓝图
     productOf:
     - Abaddon Blueprint
     volume: 495000.0
@@ -66705,14 +66704,14 @@ metaInfs:
     - Photonic Metamaterials Reaction Formula
     productOf:
     - Thulium Hafnite Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Promethium Mercurite:
     id: 33337
     productIn:
     - Terahertz Metamaterials Reaction Formula
     productOf:
     - Promethium Mercurite Reaction Formula
-    volume: 1.0
+    volume: 0.2
   Unrefined Promethium Mercurite:
     id: 33338
     productOf:
@@ -68488,14 +68487,6 @@ metaInfs:
   Multiple Pilot Training Certificate:
     id: 34133
     volume: 0.01
-  Rattlesnake Victory Edition:
-    id: 34151
-    productOf:
-    - Rattlesnake Victory Edition Blueprint
-    volume: 486000.0
-  Rattlesnake Victory Edition Blueprint:
-    id: 34153
-    volume: 0.01
   Men's 'Marshal' Jacket (Caldari):
     id: 34156
     volume: 0.1
@@ -69041,7 +69032,7 @@ metaInfs:
   末日沙场级YC117年特别版蓝图:
     id: 34458
     volume: 0.01
-  地狱天使级YC117年特��版蓝图:
+  地狱天使级YC117年特别版蓝图:
     id: 34460
     volume: 0.01
   马克瑞级YC117年特别版蓝图:
@@ -69056,7 +69047,7 @@ metaInfs:
   万王宝座级YC117年特别版蓝图:
     id: 34468
     volume: 0.01
-  乌鸦级YC117年特别版蓝图:
+  乌鸦级YC117年��别版蓝图:
     id: 34470
     volume: 0.01
   灾难级YC117年特别版蓝图:
@@ -73874,12 +73865,6 @@ metaInfs:
   Omen Blood Raiders SKIN (Permanent):
     id: 36916
     volume: 0.01
-  Expired Blood Raider Cerebral Accelerator:
-    id: 36946
-    volume: 1.0
-  Expired Blood Raider Advanced Cerebral Accelerator:
-    id: 36948
-    volume: 1.0
   Coalesced Element Blueprint:
     id: 36949
     volume: 0.01
@@ -79074,7 +79059,7 @@ metaInfs:
     productOf:
     - ‘Iron Pike’ Kinetic Lance Blueprint
     volume: 8000.0
-  ‘Phalarica’ Thermal Lance:
+  ��Phalarica’ Thermal Lance:
     id: 41440
     productOf:
     - ‘Phalarica’ Thermal Lance Blueprint
@@ -79566,7 +79551,7 @@ metaInfs:
   'Women''s “Mirelle” Upwell Executive Spectacles ':
     id: 41575
     volume: 0.1
-  Men's ���Mirelle” Upwell Executive Spectacles:
+  Men's “Mirelle” Upwell Executive Spectacles:
     id: 41576
     volume: 0.5
   Capsule Upwell SKIN (Permanent):
@@ -80549,6 +80534,9 @@ metaInfs:
   Men's 'Pithum' Beret (Guristas):
     id: 42721
     volume: 0.1
+  Men's 'Sable' Cap (Black):
+    id: 42723
+    volume: 0.1
   Men's Cap (Blood Raiders):
     id: 42726
     volume: 0.1
@@ -80560,6 +80548,9 @@ metaInfs:
     volume: 0.1
   Women's Beret (Blood Raiders):
     id: 42733
+    volume: 0.1
+  Women's 'Sable' Cap (Black):
+    id: 42734
     volume: 0.1
   Men's ‘Protector’ Beret (Caldari State):
     id: 42736
@@ -80877,85 +80868,85 @@ metaInfs:
   Impairor Cold Iron SKIN (Permanent):
     id: 42909
     volume: 0.01
-  Crucifier Crimson Harvest YC118 SKIN (Permanent):
+  Crucifier Ironblood SKIN (Permanent):
     id: 43482
     volume: 0.01
-  Executioner Crimson Harvest YC118 SKIN (Permanent):
+  Executioner Ironblood SKIN (Permanent):
     id: 43483
     volume: 0.01
-  Inquisitor Crimson Harvest YC118 SKIN (Permanent):
+  Inquisitor Ironblood SKIN (Permanent):
     id: 43484
     volume: 0.01
-  Magnate Crimson Harvest YC118 SKIN (Permanent):
+  Magnate Ironblood SKIN (Permanent):
     id: 43485
     volume: 0.01
-  Punisher Crimson Harvest YC118 SKIN (Permanent):
+  Punisher Ironblood SKIN (Permanent):
     id: 43486
     volume: 0.01
-  Tormentor Crimson Harvest YC118 SKIN (Permanent):
+  Tormentor Ironblood SKIN (Permanent):
     id: 43487
     volume: 0.01
-  Anathema Crimson Harvest YC118 SKIN (Permanent):
+  Anathema Ironblood SKIN (Permanent):
     id: 43490
     volume: 0.01
-  Coercer Crimson Harvest YC118 SKIN (Permanent):
+  Coercer Ironblood SKIN (Permanent):
     id: 43496
     volume: 0.01
-  Dragoon Crimson Harvest YC118 SKIN (Permanent):
+  Dragoon Ironblood SKIN (Permanent):
     id: 43497
     volume: 0.01
-  Arbitrator Crimson Harvest YC118 SKIN (Permanent):
+  Arbitrator Ironblood SKIN (Permanent):
     id: 43500
     volume: 0.01
-  Augoror Crimson Harvest YC118 SKIN (Permanent):
+  Augoror Ironblood SKIN (Permanent):
     id: 43501
     volume: 0.01
-  Maller Crimson Harvest YC118 SKIN (Permanent):
+  Maller Ironblood SKIN (Permanent):
     id: 43502
     volume: 0.01
-  Omen Crimson Harvest YC118 SKIN (Permanent):
+  Omen Ironblood SKIN (Permanent):
     id: 43503
     volume: 0.01
-  Harbinger Crimson Harvest YC118 SKIN (Permanent):
+  Harbinger Ironblood SKIN (Permanent):
     id: 43510
     volume: 0.01
-  Oracle Crimson Harvest YC118 SKIN (Permanent):
+  Oracle Ironblood SKIN (Permanent):
     id: 43511
     volume: 0.01
-  Prophecy Crimson Harvest YC118 SKIN (Permanent):
+  Prophecy Ironblood SKIN (Permanent):
     id: 43512
     volume: 0.01
-  Abaddon Crimson Harvest YC118 SKIN (Permanent):
+  Abaddon Ironblood SKIN (Permanent):
     id: 43515
     volume: 0.01
-  Apocalypse Crimson Harvest YC118 SKIN (Permanent):
+  Apocalypse Ironblood SKIN (Permanent):
     id: 43516
     volume: 0.01
-  Armageddon Crimson Harvest YC118 SKIN (Permanent):
+  Armageddon Ironblood SKIN (Permanent):
     id: 43517
     volume: 0.01
-  Revelation Crimson Harvest YC118 SKIN (Permanent):
+  Revelation Ironblood SKIN (Permanent):
     id: 43520
     volume: 0.01
-  Archon Crimson Harvest YC118 SKIN (Permanent):
+  Archon Ironblood SKIN (Permanent):
     id: 43521
     volume: 0.01
-  Aeon Crimson Harvest YC118 SKIN (Permanent):
+  Aeon Ironblood SKIN (Permanent):
     id: 43522
     volume: 0.01
-  Avatar Crimson Harvest YC118 SKIN (Permanent):
+  Avatar Ironblood SKIN (Permanent):
     id: 43523
     volume: 0.01
-  Bestower Crimson Harvest YC118 SKIN (Permanent):
+  Bestower Ironblood SKIN (Permanent):
     id: 43524
     volume: 0.01
-  Sigil Crimson Harvest YC118 SKIN (Permanent):
+  Sigil Ironblood SKIN (Permanent):
     id: 43525
     volume: 0.01
-  Providence Crimson Harvest YC118 SKIN (Permanent):
+  Providence Ironblood SKIN (Permanent):
     id: 43528
     volume: 0.01
-  Gnosis Crimson Harvest YC118 SKIN (Permanent):
+  Gnosis Ironblood SKIN (Permanent):
     id: 43530
     volume: 0.01
   Mining Foreman Burst I Blueprint:
@@ -82391,163 +82382,163 @@ metaInfs:
   Paladin Star Captain SKIN (Permanent):
     id: 44127
     volume: 0.01
-  Crucifier YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Crucifier Glacial Drift SKIN (Permanent):
     id: 44134
     volume: 0.01
-  Executioner YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Executioner Glacial Drift SKIN (Permanent):
     id: 44135
     volume: 0.01
-  Inquisitor YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Inquisitor Glacial Drift SKIN (Permanent):
     id: 44136
     volume: 0.01
-  Magnate YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Magnate Glacial Drift SKIN (Permanent):
     id: 44137
     volume: 0.01
-  Punisher YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Punisher Glacial Drift SKIN (Permanent):
     id: 44138
     volume: 0.01
-  Tormentor YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Tormentor Glacial Drift SKIN (Permanent):
     id: 44139
     volume: 0.01
-  Coercer YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Coercer Glacial Drift SKIN (Permanent):
     id: 44140
     volume: 0.01
-  Dragoon YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Dragoon Glacial Drift SKIN (Permanent):
     id: 44141
     volume: 0.01
-  Arbitrator YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Arbitrator Glacial Drift SKIN (Permanent):
     id: 44142
     volume: 0.01
-  Augoror YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Augoror Glacial Drift SKIN (Permanent):
     id: 44143
     volume: 0.01
-  Maller YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Maller Glacial Drift SKIN (Permanent):
     id: 44144
     volume: 0.01
-  Omen YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Omen Glacial Drift SKIN (Permanent):
     id: 44145
     volume: 0.01
-  Impairor YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Impairor Glacial Drift SKIN (Permanent):
     id: 44146
     volume: 0.01
-  Ibis YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Ibis Glacial Drift SKIN (Permanent):
     id: 44147
     volume: 0.01
-  Bantam YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Bantam Glacial Drift SKIN (Permanent):
     id: 44148
     volume: 0.01
-  Heron YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Heron Glacial Drift SKIN (Permanent):
     id: 44149
     volume: 0.01
-  Kestrel YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Kestrel Glacial Drift SKIN (Permanent):
     id: 44150
     volume: 0.01
-  Griffin YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Griffin Glacial Drift SKIN (Permanent):
     id: 44151
     volume: 0.01
-  Condor YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Condor Glacial Drift SKIN (Permanent):
     id: 44152
     volume: 0.01
-  Merlin YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Merlin Glacial Drift SKIN (Permanent):
     id: 44153
     volume: 0.01
-  Cormorant YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Cormorant Glacial Drift SKIN (Permanent):
     id: 44154
     volume: 0.01
-  Corax YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Corax Glacial Drift SKIN (Permanent):
     id: 44155
     volume: 0.01
-  Osprey YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Osprey Glacial Drift SKIN (Permanent):
     id: 44156
     volume: 0.01
-  Blackbird YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Blackbird Glacial Drift SKIN (Permanent):
     id: 44157
     volume: 0.01
-  Caracal YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Caracal Glacial Drift SKIN (Permanent):
     id: 44158
     volume: 0.01
-  Moa YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Moa Glacial Drift SKIN (Permanent):
     id: 44159
     volume: 0.01
-  Reaper YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Reaper Glacial Drift SKIN (Permanent):
     id: 44160
     volume: 0.01
-  Burst YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Burst Glacial Drift SKIN (Permanent):
     id: 44161
     volume: 0.01
-  Probe YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Probe Glacial Drift SKIN (Permanent):
     id: 44162
     volume: 0.01
-  Slasher YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Slasher Glacial Drift SKIN (Permanent):
     id: 44163
     volume: 0.01
-  Breacher YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Breacher Glacial Drift SKIN (Permanent):
     id: 44164
     volume: 0.01
-  Vigil YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Vigil Glacial Drift SKIN (Permanent):
     id: 44165
     volume: 0.01
-  Rifter YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Rifter Glacial Drift SKIN (Permanent):
     id: 44166
     volume: 0.01
-  Thrasher YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Thrasher Glacial Drift SKIN (Permanent):
     id: 44167
     volume: 0.01
-  Talwar YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Talwar Glacial Drift SKIN (Permanent):
     id: 44168
     volume: 0.01
-  Scythe YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
-    id: 44169
+  Scythe Glacial Drift SKIN (Permanent):
+    id: 46893
     volume: 0.01
-  Bellicose YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Bellicose Glacial Drift SKIN (Permanent):
     id: 44170
     volume: 0.01
-  Stabber YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
-    id: 44171
+  Stabber Glacial Drift SKIN (Permanent):
+    id: 46894
     volume: 0.01
-  Rupture YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Rupture Glacial Drift SKIN (Permanent):
     id: 44172
     volume: 0.01
-  Velator YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Velator Glacial Drift SKIN (Permanent):
     id: 44173
     volume: 0.01
-  Atron YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Atron Glacial Drift SKIN (Permanent):
     id: 44174
     volume: 0.01
-  Imicus YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Imicus Glacial Drift SKIN (Permanent):
     id: 44175
     volume: 0.01
-  Incursus YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Incursus Glacial Drift SKIN (Permanent):
     id: 44176
     volume: 0.01
-  Maulus YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Maulus Glacial Drift SKIN (Permanent):
     id: 44177
     volume: 0.01
-  Navitas YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Navitas Glacial Drift SKIN (Permanent):
     id: 44178
     volume: 0.01
-  Tristan YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Tristan Glacial Drift SKIN (Permanent):
     id: 44179
     volume: 0.01
-  Catalyst YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Catalyst Glacial Drift SKIN (Permanent):
     id: 44180
     volume: 0.01
-  Algos YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Algos Glacial Drift SKIN (Permanent):
     id: 44181
     volume: 0.01
-  Exequror YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Exequror Glacial Drift SKIN (Permanent):
     id: 44182
     volume: 0.01
-  Celestis YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Celestis Glacial Drift SKIN (Permanent):
     id: 44183
     volume: 0.01
-  Vexor YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Vexor Glacial Drift SKIN (Permanent):
     id: 44184
     volume: 0.01
-  Thorax YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Thorax Glacial Drift SKIN (Permanent):
     id: 44185
     volume: 0.01
-  Venture YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent):
+  Venture Glacial Drift SKIN (Permanent):
     id: 44186
     volume: 0.01
   Punisher Khanid SKIN (Permanent):
@@ -83076,9 +83067,13 @@ metaInfs:
     volume: 0.1
   Virtuoso:
     id: 45530
+    productOf:
+    - Virtuoso Blueprint
     volume: 28100.0
   Victor:
     id: 45531
+    productOf:
+    - Victor Blueprint
     volume: 116000.0
   Victor Blueprint:
     id: 45532
@@ -84734,35 +84729,38 @@ metaInfs:
   Tengu Sukuuvestaa SKIN (Permanent):
     id: 45997
     volume: 0.01
-  Agency Damage Booster I:
+  Agency 'Pyrolancea' DB3 Dose I:
     id: 45998
     volume: 1.0
-  Agency Damage Booster II:
+  Agency 'Pyrolancea' DB5 Dose II:
     id: 45999
     volume: 1.0
-  Agency Damage Booster III:
+  Agency 'Pyrolancea' DB7 Dose III:
     id: 46000
     volume: 1.0
-  Agency Tank Booster I:
+  Agency 'Hardshell' TB3 Dose I:
     id: 46001
     volume: 1.0
-  Agency Tank Booster II:
+  Agency 'Hardshell' TB5 Dose II:
     id: 46002
     volume: 1.0
-  Agency Tank Booster III:
+  Agency 'Hardshell' TB7 Dose III:
     id: 46003
     volume: 1.0
-  Agency Speed Booster I:
+  Agency 'Overclocker' SB3 Dose I:
     id: 46004
     volume: 1.0
-  Agency Speed Booster II:
+  Agency 'Overclocker' SB5 Dose II:
     id: 46005
     volume: 1.0
-  Agency Speed Booster III:
+  Agency 'Overclocker' SB7 Dose III:
     id: 46006
     volume: 1.0
-  Valkyrie Cerebral Accelerator:
-    id: 46007
+  Crimson Harvest Cerebral Accelerator:
+    id: 46008
+    volume: 1.0
+  Yoiul Festival Cerebral Accelerator:
+    id: 46009
     volume: 1.0
   Hel Firewall Breach SKIN (Permanent):
     id: 46014
@@ -85313,6 +85311,8 @@ metaInfs:
   Improved Blue Pill Booster Reaction Formula:
     id: 46251
     volume: 0.01
+  Project Discovery Phase One Monument:
+    id: 46263
   A3 Destroyer Package:
     id: 46266
     volume: 50000.0
@@ -85593,6 +85593,9 @@ metaInfs:
     productOf:
     - Exceptional Moon Ore Mining Crystal II Blueprint
     volume: 10.0
+  Daily Alpha Injector:
+    id: 46375
+    volume: 0.01
   Raven Valkyrie SKIN (Permanent):
     id: 46376
     volume: 0.01
@@ -85608,7 +85611,7 @@ metaInfs:
   Typhoon Valkyrie SKIN (Permanent):
     id: 46380
     volume: 0.01
-  Agency Support Kit:
+  Agency Support Drop:
     id: 46381
     volume: 1.0
   Atron Kopis Edge SKIN (Permanent):
@@ -86182,6 +86185,54 @@ metaInfs:
     productOf:
     - Standup XL-Set Reprocessing Monitor I Blueprint
     volume: 0.01
+  Women's Federal Strategic Materiel Jacket:
+    id: 46658
+    volume: 0.1
+  Men's Caldari State Officer Jacket:
+    id: 46659
+    volume: 0.1
+  Women's Gallente Federation Command Jacket:
+    id: 46660
+    volume: 0.1
+  Women's Republic Fleet Ordnance Jacket:
+    id: 46661
+    volume: 0.1
+  Men's Amarr Empire Command Jacket:
+    id: 46662
+    volume: 0.1
+  Women's Amarr Empire Command Jacket:
+    id: 46663
+    volume: 0.1
+  Men's Minmatar Republic Officer Jacket:
+    id: 46664
+    volume: 0.1
+  Men's Gallente Federation Command Jacket:
+    id: 46665
+    volume: 0.1
+  Men's Imperial War Reserves Jacket:
+    id: 46666
+    volume: 0.1
+  Men's Federal Strategic Materiel Jacket:
+    id: 46667
+    volume: 0.1
+  Women's Imperial War Reserves Jacket:
+    id: 46668
+    volume: 0.1
+  Women's Caldari State Officer Jacket:
+    id: 46669
+    volume: 0.1
+  Women's State Military Stockpile Jacket:
+    id: 46671
+    volume: 0.1
+  Men's State Military Stockpile Jacket:
+    id: 46672
+    volume: 0.1
+  Women's Minmatar Republic Officer Jacket:
+    id: 46673
+    volume: 0.1
+  Men's Republic Fleet Ordnance Jacket:
+    id: 46674
+    volume: 0.1
   Jet Ochre:
     id: 46675
     volume: 8.0
@@ -86422,6 +86473,868 @@ metaInfs:
   Headhunter Crate:
     id: 46756
     volume: 0.1
+  Glacial Drift Festival Box:
+    id: 46766
+    volume: 5000.0
+  'Arms Race Battlecruiser Assembler ':
+    id: 46771
+    volume: 15000.0
+  Arms Race Battleship Assembler:
+    id: 46772
+    volume: 50000.0
+  Amarr Shuttle Glacial Drift SKIN (Permanent):
+    id: 46773
+    volume: 0.01
+  Retribution Glacial Drift SKIN (Permanent):
+    id: 46774
+    volume: 0.01
+  Vengeance Glacial Drift SKIN (Permanent):
+    id: 46775
+    volume: 0.01
+  Anathema Glacial Drift SKIN (Permanent):
+    id: 46776
+    volume: 0.01
+  Purifier Glacial Drift SKIN (Permanent):
+    id: 46777
+    volume: 0.01
+  Sentinel Glacial Drift SKIN (Permanent):
+    id: 46778
+    volume: 0.01
+  Crusader Glacial Drift SKIN (Permanent):
+    id: 46779
+    volume: 0.01
+  Malediction Glacial Drift SKIN (Permanent):
+    id: 46780
+    volume: 0.01
+  Deacon Glacial Drift SKIN (Permanent):
+    id: 46781
+    volume: 0.01
+  Imperial Navy Slicer Glacial Drift SKIN (Permanent):
+    id: 46782
+    volume: 0.01
+  Crucifier Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46783
+    volume: 0.01
+  Pontifex Glacial Drift SKIN (Permanent):
+    id: 46784
+    volume: 0.01
+  Heretic Glacial Drift SKIN (Permanent):
+    id: 46785
+    volume: 0.01
+  Confessor Glacial Drift SKIN (Permanent):
+    id: 46786
+    volume: 0.01
+  Sacrilege Glacial Drift SKIN (Permanent):
+    id: 46787
+    volume: 0.01
+  Zealot Glacial Drift SKIN (Permanent):
+    id: 46788
+    volume: 0.01
+  Devoter Glacial Drift SKIN (Permanent):
+    id: 46789
+    volume: 0.01
+  Guardian Glacial Drift SKIN (Permanent):
+    id: 46790
+    volume: 0.01
+  Curse Glacial Drift SKIN (Permanent):
+    id: 46791
+    volume: 0.01
+  Pilgrim Glacial Drift SKIN (Permanent):
+    id: 46792
+    volume: 0.01
+  Legion Glacial Drift SKIN (Permanent):
+    id: 46793
+    volume: 0.01
+  Augoror Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46794
+    volume: 0.01
+  Omen Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46795
+    volume: 0.01
+  Harbinger Glacial Drift SKIN (Permanent):
+    id: 46796
+    volume: 0.01
+  Oracle Glacial Drift SKIN (Permanent):
+    id: 46797
+    volume: 0.01
+  Prophecy Glacial Drift SKIN (Permanent):
+    id: 46798
+    volume: 0.01
+  Absolution Glacial Drift SKIN (Permanent):
+    id: 46799
+    volume: 0.01
+  Damnation Glacial Drift SKIN (Permanent):
+    id: 46800
+    volume: 0.01
+  Harbinger Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46801
+    volume: 0.01
+  Abaddon Glacial Drift SKIN (Permanent):
+    id: 46802
+    volume: 0.01
+  Apocalypse Glacial Drift SKIN (Permanent):
+    id: 46803
+    volume: 0.01
+  Armageddon Glacial Drift SKIN (Permanent):
+    id: 46804
+    volume: 0.01
+  Redeemer Glacial Drift SKIN (Permanent):
+    id: 46805
+    volume: 0.01
+  Paladin Glacial Drift SKIN (Permanent):
+    id: 46806
+    volume: 0.01
+  Apocalypse Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46807
+    volume: 0.01
+  Armageddon Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46808
+    volume: 0.01
+  Revelation Glacial Drift SKIN (Permanent):
+    id: 46809
+    volume: 0.01
+  Archon Glacial Drift SKIN (Permanent):
+    id: 46810
+    volume: 0.01
+  Aeon Glacial Drift SKIN (Permanent):
+    id: 46811
+    volume: 0.01
+  Avatar Glacial Drift SKIN (Permanent):
+    id: 46812
+    volume: 0.01
+  Bestower Glacial Drift SKIN (Permanent):
+    id: 46813
+    volume: 0.01
+  Sigil Glacial Drift SKIN (Permanent):
+    id: 46814
+    volume: 0.01
+  Prorator Glacial Drift SKIN (Permanent):
+    id: 46815
+    volume: 0.01
+  Impel Glacial Drift SKIN (Permanent):
+    id: 46816
+    volume: 0.01
+  Providence Glacial Drift SKIN (Permanent):
+    id: 46817
+    volume: 0.01
+  Ark Glacial Drift SKIN (Permanent):
+    id: 46818
+    volume: 0.01
+  Cruor Glacial Drift SKIN (Permanent):
+    id: 46819
+    volume: 0.01
+  Ashimmu Glacial Drift SKIN (Permanent):
+    id: 46820
+    volume: 0.01
+  Bhaalgorn Glacial Drift SKIN (Permanent):
+    id: 46821
+    volume: 0.01
+  Chemosh Glacial Drift SKIN (Permanent):
+    id: 46822
+    volume: 0.01
+  Dagon Glacial Drift SKIN (Permanent):
+    id: 46823
+    volume: 0.01
+  Molok Glacial Drift SKIN (Permanent):
+    id: 46824
+    volume: 0.01
+  Yoiul Festival Fireworks Package:
+    id: 46825
+    volume: 1.0
+  Caldari Shuttle Glacial Drift SKIN (Permanent):
+    id: 46827
+    volume: 0.01
+  Harpy Glacial Drift SKIN (Permanent):
+    id: 46828
+    volume: 0.01
+  Hawk Glacial Drift SKIN (Permanent):
+    id: 46829
+    volume: 0.01
+  Buzzard Glacial Drift SKIN (Permanent):
+    id: 46830
+    volume: 0.01
+  Manticore Glacial Drift SKIN (Permanent):
+    id: 46831
+    volume: 0.01
+  Kitsune Glacial Drift SKIN (Permanent):
+    id: 46832
+    volume: 0.01
+  Crow Glacial Drift SKIN (Permanent):
+    id: 46833
+    volume: 0.01
+  Raptor Glacial Drift SKIN (Permanent):
+    id: 46834
+    volume: 0.01
+  Kirin Glacial Drift SKIN (Permanent):
+    id: 46835
+    volume: 0.01
+  Caldari Navy Hookbill Glacial Drift SKIN (Permanent):
+    id: 46836
+    volume: 0.01
+  Griffin Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46837
+    volume: 0.01
+  Stork Glacial Drift SKIN (Permanent):
+    id: 46838
+    volume: 0.01
+  Flycatcher Glacial Drift SKIN (Permanent):
+    id: 46839
+    volume: 0.01
+  Jackdaw Glacial Drift SKIN (Permanent):
+    id: 46840
+    volume: 0.01
+  Cerberus Glacial Drift SKIN (Permanent):
+    id: 46841
+    volume: 0.01
+  Eagle Glacial Drift SKIN (Permanent):
+    id: 46842
+    volume: 0.01
+  Onyx Glacial Drift SKIN (Permanent):
+    id: 46843
+    volume: 0.01
+  Basilisk Glacial Drift SKIN (Permanent):
+    id: 46844
+    volume: 0.01
+  Falcon Glacial Drift SKIN (Permanent):
+    id: 46845
+    volume: 0.01
+  Rook Glacial Drift SKIN (Permanent):
+    id: 46846
+    volume: 0.01
+  Tengu Glacial Drift SKIN (Permanent):
+    id: 46847
+    volume: 0.01
+  Caracal Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46848
+    volume: 0.01
+  Osprey Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46849
+    volume: 0.01
+  Drake Glacial Drift SKIN (Permanent):
+    id: 46850
+    volume: 0.01
+  Ferox Glacial Drift SKIN (Permanent):
+    id: 46851
+    volume: 0.01
+  Naga Glacial Drift SKIN (Permanent):
+    id: 46852
+    volume: 0.01
+  Nighthawk Glacial Drift SKIN (Permanent):
+    id: 46853
+    volume: 0.01
+  Vulture Glacial Drift SKIN (Permanent):
+    id: 46854
+    volume: 0.01
+  Drake Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46855
+    volume: 0.01
+  Raven Glacial Drift SKIN (Permanent):
+    id: 46856
+    volume: 0.01
+  Rokh Glacial Drift SKIN (Permanent):
+    id: 46857
+    volume: 0.01
+  Scorpion Glacial Drift SKIN (Permanent):
+    id: 46858
+    volume: 0.01
+  Widow Glacial Drift SKIN (Permanent):
+    id: 46859
+    volume: 0.01
+  Golem Glacial Drift SKIN (Permanent):
+    id: 46860
+    volume: 0.01
+  Raven Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46861
+    volume: 0.01
+  Scorpion Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46862
+    volume: 0.01
+  Phoenix Glacial Drift SKIN (Permanent):
+    id: 46863
+    volume: 0.01
+  Chimera Glacial Drift SKIN (Permanent):
+    id: 46864
+    volume: 0.01
+  Wyvern Glacial Drift SKIN (Permanent):
+    id: 46865
+    volume: 0.01
+  Leviathan Glacial Drift SKIN (Permanent):
+    id: 46866
+    volume: 0.01
+  Badger Glacial Drift SKIN (Permanent):
+    id: 46867
+    volume: 0.01
+  Tayra Glacial Drift SKIN (Permanent):
+    id: 46868
+    volume: 0.01
+  Crane Glacial Drift SKIN (Permanent):
+    id: 46869
+    volume: 0.01
+  Bustard Glacial Drift SKIN (Permanent):
+    id: 46870
+    volume: 0.01
+  Charon Glacial Drift SKIN (Permanent):
+    id: 46871
+    volume: 0.01
+  Rhea Glacial Drift SKIN (Permanent):
+    id: 46872
+    volume: 0.01
+  Worm Glacial Drift SKIN (Permanent):
+    id: 46873
+    volume: 0.01
+  Gila Glacial Drift SKIN (Permanent):
+    id: 46874
+    volume: 0.01
+  Rattlesnake Glacial Drift SKIN (Permanent):
+    id: 46875
+    volume: 0.01
+  Caiman Glacial Drift SKIN (Permanent):
+    id: 46876
+    volume: 0.01
+  Loggerhead Glacial Drift SKIN (Permanent):
+    id: 46877
+    volume: 0.01
+  Komodo Glacial Drift SKIN (Permanent):
+    id: 46878
+    volume: 0.01
+  Minmatar Shuttle Glacial Drift SKIN (Permanent):
+    id: 46879
+    volume: 0.01
+  Jaguar Glacial Drift SKIN (Permanent):
+    id: 46880
+    volume: 0.01
+  Wolf Glacial Drift SKIN (Permanent):
+    id: 46881
+    volume: 0.01
+  Cheetah Glacial Drift SKIN (Permanent):
+    id: 46882
+    volume: 0.01
+  Hound Glacial Drift SKIN (Permanent):
+    id: 46883
+    volume: 0.01
+  Hyena Glacial Drift SKIN (Permanent):
+    id: 46884
+    volume: 0.01
+  Claw Glacial Drift SKIN (Permanent):
+    id: 46885
+    volume: 0.01
+  Stiletto Glacial Drift SKIN (Permanent):
+    id: 46886
+    volume: 0.01
+  Scalpel Glacial Drift SKIN (Permanent):
+    id: 46887
+    volume: 0.01
+  Republic Fleet Firetail Glacial Drift SKIN (Permanent):
+    id: 46888
+    volume: 0.01
+  Vigil Fleet Issue Glacial Drift SKIN (Permanent):
+    id: 46889
+    volume: 0.01
+  Bifrost Glacial Drift SKIN (Permanent):
+    id: 46890
+    volume: 0.01
+  Sabre Glacial Drift SKIN (Permanent):
+    id: 46891
+    volume: 0.01
+  Svipul Glacial Drift SKIN (Permanent):
+    id: 46892
+    volume: 0.01
+  Muninn Glacial Drift SKIN (Permanent):
+    id: 46895
+    volume: 0.01
+  Vagabond Glacial Drift SKIN (Permanent):
+    id: 46896
+    volume: 0.01
+  Broadsword Glacial Drift SKIN (Permanent):
+    id: 46897
+    volume: 0.01
+  Scimitar Glacial Drift SKIN (Permanent):
+    id: 46898
+    volume: 0.01
+  Huginn Glacial Drift SKIN (Permanent):
+    id: 46899
+    volume: 0.01
+  Rapier Glacial Drift SKIN (Permanent):
+    id: 46900
+    volume: 0.01
+  Loki Glacial Drift SKIN (Permanent):
+    id: 46901
+    volume: 0.01
+  Scythe Fleet Issue Glacial Drift SKIN (Permanent):
+    id: 46902
+    volume: 0.01
+  Stabber Fleet Issue Glacial Drift SKIN (Permanent):
+    id: 46903
+    volume: 0.01
+  Cyclone Glacial Drift SKIN (Permanent):
+    id: 46904
+    volume: 0.01
+  Hurricane Glacial Drift SKIN (Permanent):
+    id: 46905
+    volume: 0.01
+  Tornado Glacial Drift SKIN (Permanent):
+    id: 46906
+    volume: 0.01
+  Claymore Glacial Drift SKIN (Permanent):
+    id: 46907
+    volume: 0.01
+  Sleipnir Glacial Drift SKIN (Permanent):
+    id: 46908
+    volume: 0.01
+  Hurricane Fleet Issue Glacial Drift SKIN (Permanent):
+    id: 46909
+    volume: 0.01
+  Maelstrom Glacial Drift SKIN (Permanent):
+    id: 46910
+    volume: 0.01
+  Tempest Glacial Drift SKIN (Permanent):
+    id: 46911
+    volume: 0.01
+  Typhoon Glacial Drift SKIN (Permanent):
+    id: 46912
+    volume: 0.01
+  Panther Glacial Drift SKIN (Permanent):
+    id: 46913
+    volume: 0.01
+  Vargur Glacial Drift SKIN (Permanent):
+    id: 46914
+    volume: 0.01
+  Tempest Fleet Issue Glacial Drift SKIN (Permanent):
+    id: 46915
+    volume: 0.01
+  Typhoon Fleet Issue Glacial Drift SKIN (Permanent):
+    id: 46916
+    volume: 0.01
+  Naglfar Glacial Drift SKIN (Permanent):
+    id: 46917
+    volume: 0.01
+  Nidhoggur Glacial Drift SKIN (Permanent):
+    id: 46918
+    volume: 0.01
+  Hel Glacial Drift SKIN (Permanent):
+    id: 46919
+    volume: 0.01
+  Ragnarok Glacial Drift SKIN (Permanent):
+    id: 46920
+    volume: 0.01
+  Hoarder Glacial Drift SKIN (Permanent):
+    id: 46921
+    volume: 0.01
+  Mammoth Glacial Drift SKIN (Permanent):
+    id: 46922
+    volume: 0.01
+  Wreathe Glacial Drift SKIN (Permanent):
+    id: 46923
+    volume: 0.01
+  Prowler Glacial Drift SKIN (Permanent):
+    id: 46924
+    volume: 0.01
+  Mastodon Glacial Drift SKIN (Permanent):
+    id: 46925
+    volume: 0.01
+  Fenrir Glacial Drift SKIN (Permanent):
+    id: 46926
+    volume: 0.01
+  Nomad Glacial Drift SKIN (Permanent):
+    id: 46927
+    volume: 0.01
+  Gallente Shuttle Glacial Drift SKIN (Permanent):
+    id: 46928
+    volume: 0.01
+  Enyo Glacial Drift SKIN (Permanent):
+    id: 46929
+    volume: 0.01
+  Ishkur Glacial Drift SKIN (Permanent):
+    id: 46930
+    volume: 0.01
+  Helios Glacial Drift SKIN (Permanent):
+    id: 46931
+    volume: 0.01
+  Nemesis Glacial Drift SKIN (Permanent):
+    id: 46932
+    volume: 0.01
+  Keres Glacial Drift SKIN (Permanent):
+    id: 46933
+    volume: 0.01
+  Ares Glacial Drift SKIN (Permanent):
+    id: 46934
+    volume: 0.01
+  Taranis Glacial Drift SKIN (Permanent):
+    id: 46935
+    volume: 0.01
+  Thalia Glacial Drift SKIN (Permanent):
+    id: 46936
+    volume: 0.01
+  Federation Navy Comet Glacial Drift SKIN (Permanent):
+    id: 46937
+    volume: 0.01
+  Maulus Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46938
+    volume: 0.01
+  Magus Glacial Drift SKIN (Permanent):
+    id: 46939
+    volume: 0.01
+  Eris Glacial Drift SKIN (Permanent):
+    id: 46940
+    volume: 0.01
+  Hecate Glacial Drift SKIN (Permanent):
+    id: 46941
+    volume: 0.01
+  Deimos Glacial Drift SKIN (Permanent):
+    id: 46942
+    volume: 0.01
+  Ishtar Glacial Drift SKIN (Permanent):
+    id: 46943
+    volume: 0.01
+  Phobos Glacial Drift SKIN (Permanent):
+    id: 46944
+    volume: 0.01
+  Oneiros Glacial Drift SKIN (Permanent):
+    id: 46945
+    volume: 0.01
+  Arazu Glacial Drift SKIN (Permanent):
+    id: 46946
+    volume: 0.01
+  Lachesis Glacial Drift SKIN (Permanent):
+    id: 46947
+    volume: 0.01
+  Proteus Glacial Drift SKIN (Permanent):
+    id: 46948
+    volume: 0.01
+  Exequror Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46949
+    volume: 0.01
+  Vexor Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46950
+    volume: 0.01
+  Brutix Glacial Drift SKIN (Permanent):
+    id: 46951
+    volume: 0.01
+  Myrmidon Glacial Drift SKIN (Permanent):
+    id: 46952
+    volume: 0.01
+  Talos Glacial Drift SKIN (Permanent):
+    id: 46953
+    volume: 0.01
+  Astarte Glacial Drift SKIN (Permanent):
+    id: 46954
+    volume: 0.01
+  Eos Glacial Drift SKIN (Permanent):
+    id: 46955
+    volume: 0.01
+  Brutix Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46956
+    volume: 0.01
+  Dominix Glacial Drift SKIN (Permanent):
+    id: 46957
+    volume: 0.01
+  Hyperion Glacial Drift SKIN (Permanent):
+    id: 46958
+    volume: 0.01
+  Megathron Glacial Drift SKIN (Permanent):
+    id: 46959
+    volume: 0.01
+  Sin Glacial Drift SKIN (Permanent):
+    id: 46960
+    volume: 0.01
+  Kronos Glacial Drift SKIN (Permanent):
+    id: 46961
+    volume: 0.01
+  Dominix Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46962
+    volume: 0.01
+  Megathron Navy Issue Glacial Drift SKIN (Permanent):
+    id: 46963
+    volume: 0.01
+  Moros Glacial Drift SKIN (Permanent):
+    id: 46964
+    volume: 0.01
+  Thanatos Glacial Drift SKIN (Permanent):
+    id: 46965
+    volume: 0.01
+  Nyx Glacial Drift SKIN (Permanent):
+    id: 46966
+    volume: 0.01
+  Erebus Glacial Drift SKIN (Permanent):
+    id: 46967
+    volume: 0.01
+  Epithal Glacial Drift SKIN (Permanent):
+    id: 46968
+    volume: 0.01
+  Iteron Mark V Glacial Drift SKIN (Permanent):
+    id: 46969
+    volume: 0.01
+  Kryos Glacial Drift SKIN (Permanent):
+    id: 46970
+    volume: 0.01
+  Miasmos Glacial Drift SKIN (Permanent):
+    id: 46971
+    volume: 0.01
+  Nereus Glacial Drift SKIN (Permanent):
+    id: 46972
+    volume: 0.01
+  Occator Glacial Drift SKIN (Permanent):
+    id: 46973
+    volume: 0.01
+  Obelisk Glacial Drift SKIN (Permanent):
+    id: 46974
+    volume: 0.01
+  Anshar Glacial Drift SKIN (Permanent):
+    id: 46975
+    volume: 0.01
+  Vigilant Glacial Drift SKIN (Permanent):
+    id: 46976
+    volume: 0.01
+  Vindicator Glacial Drift SKIN (Permanent):
+    id: 46977
+    volume: 0.01
+  Viator Glacial Drift SKIN (Permanent):
+    id: 46978
+    volume: 0.01
+  Vehement Glacial Drift SKIN (Permanent):
+    id: 46979
+    volume: 0.01
+  Vendetta Glacial Drift SKIN (Permanent):
+    id: 46980
+    volume: 0.01
+  Vanquisher Glacial Drift SKIN (Permanent):
+    id: 46981
+    volume: 0.01
+  Endurance Glacial Drift SKIN (Permanent):
+    id: 46982
+    volume: 0.01
+  Prospect Glacial Drift SKIN (Permanent):
+    id: 46983
+    volume: 0.01
+  Procurer Glacial Drift SKIN (Permanent):
+    id: 46984
+    volume: 0.01
+  Retriever Glacial Drift SKIN (Permanent):
+    id: 46985
+    volume: 0.01
+  Covetor Glacial Drift SKIN (Permanent):
+    id: 46986
+    volume: 0.01
+  Skiff Glacial Drift SKIN (Permanent):
+    id: 46987
+    volume: 0.01
+  Mackinaw Glacial Drift SKIN (Permanent):
+    id: 46988
+    volume: 0.01
+  Hulk Glacial Drift SKIN (Permanent):
+    id: 46989
+    volume: 0.01
+  Bowhead Glacial Drift SKIN (Permanent):
+    id: 46990
+    volume: 0.01
+  Orca Glacial Drift SKIN (Permanent):
+    id: 46991
+    volume: 0.01
+  Rorqual Glacial Drift SKIN (Permanent):
+    id: 46992
+    volume: 0.01
+  Primae Glacial Drift SKIN (Permanent):
+    id: 46993
+    volume: 0.01
+  Noctis Glacial Drift SKIN (Permanent):
+    id: 46994
+    volume: 0.01
+  Porpoise Glacial Drift SKIN (Permanent):
+    id: 46995
+    volume: 0.01
+  Daredevil Glacial Drift SKIN (Permanent):
+    id: 46996
+    volume: 0.01
+  Dramiel Glacial Drift SKIN (Permanent):
+    id: 46997
+    volume: 0.01
+  Cynabal Glacial Drift SKIN (Permanent):
+    id: 46998
+    volume: 0.01
+  Machariel Glacial Drift SKIN (Permanent):
+    id: 46999
+    volume: 0.01
+  Enforcer Glacial Drift SKIN (Permanent):
+    id: 47000
+    volume: 0.01
+  Pacifier Glacial Drift SKIN (Permanent):
+    id: 47001
+    volume: 0.01
+  Marshal Glacial Drift SKIN (Permanent):
+    id: 47002
+    volume: 0.01
+  Garmur Glacial Drift SKIN (Permanent):
+    id: 47003
+    volume: 0.01
+  Orthrus Glacial Drift SKIN (Permanent):
+    id: 47004
+    volume: 0.01
+  Barghest Glacial Drift SKIN (Permanent):
+    id: 47005
+    volume: 0.01
+  Succubus Glacial Drift SKIN (Permanent):
+    id: 47006
+    volume: 0.01
+  Phantasm Glacial Drift SKIN (Permanent):
+    id: 47007
+    volume: 0.01
+  Nightmare Glacial Drift SKIN (Permanent):
+    id: 47008
+    volume: 0.01
+  Revenant Glacial Drift SKIN (Permanent):
+    id: 47009
+    volume: 0.01
+  Gnosis Glacial Drift SKIN (Permanent):
+    id: 47010
+    volume: 0.01
+  Apotheosis Glacial Drift SKIN (Permanent):
+    id: 47011
+    volume: 0.01
+  Sunesis Glacial Drift SKIN (Permanent):
+    id: 47012
+    volume: 0.01
+  Astero Glacial Drift SKIN (Permanent):
+    id: 47013
+    volume: 0.01
+  Stratios Glacial Drift SKIN (Permanent):
+    id: 47014
+    volume: 0.01
+  Nestor Glacial Drift SKIN (Permanent):
+    id: 47015
+    volume: 0.01
+  Rogue Swarm Cerebral Accelerator:
+    id: 47016
+    volume: 1.0
+  Project Discovery Phase One Elite 5K:
+    id: 47017
+    volume: 0.1
+  Project Discovery Phase One Elite 2K:
+    id: 47018
+    volume: 0.1
+  Project Discovery Phase One Elite 1K:
+    id: 47019
+    volume: 0.1
+  Project Discovery DNA Reference (Jove):
+    id: 47020
+    productIn:
+    - Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint
+    volume: 0.1
+  Project Discovery DNA Reference (Minmatar):
+    id: 47021
+    productIn:
+    - Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint
+    volume: 0.1
+  Project Discovery DNA Reference (Amarr):
+    id: 47022
+    productIn:
+    - Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint
+    volume: 0.1
+  Project Discovery DNA Reference (Gallente):
+    id: 47023
+    productIn:
+    - Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint
+    volume: 0.1
+  Project Discovery DNA Reference (Caldari):
+    id: 47024
+    productIn:
+    - Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint
+    volume: 0.1
+  Recovered Navigation Telemetry:
+    id: 47025
+    volume: 0.1
+  Recovered Radioactive Materials:
+    id: 47026
+    productIn:
+    - Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint
+    volume: 1.0
+  Biomechanical Interface Data:
+    id: 47027
+    productIn:
+    - Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint
+    volume: 0.1
+  Neural Lace 'Blackglass' Net Intrusion 920-40:
+    id: 47028
+    productOf:
+    - Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint
+    volume: 1.0
+  Rattlesnake King's Ransom Luecin SKIN (Permanent):
+    id: 47029
+    volume: 0.01
+  Rattlesnake King's Ransom Darouen SKIN (Permanent):
+    id: 47030
+    volume: 0.01
+  Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint:
+    id: 47040
+    volume: 0.01
+  New Eden Genome Amalgam:
+    id: 47041
+    volume: 0.1
+  Rorqual Design Change Log:
+    id: 47042
+    volume: 3.0
+  Delve Yoiul Calendar:
+    id: 47043
+    volume: 3.0
+  Remember Myrskaa Flyers:
+    id: 47044
+    volume: 3.0
+  A Stolen Voting Pebble:
+    id: 47045
+    volume: 3.0
+  Vial of Kyonoke Plague Cure:
+    id: 47046
+    volume: 3.0
+  Lump of Carbon:
+    id: 47047
+    volume: 3.0
+  Frozen Droplet of Blood:
+    id: 47048
+    volume: 3.0
+  Apostle Glacial Drift SKIN (Permanent):
+    id: 47049
+    volume: 0.01
+  Minokawa Glacial Drift SKIN (Permanent):
+    id: 47050
+    volume: 0.01
+  Ninazu Glacial Drift SKIN (Permanent):
+    id: 47051
+    volume: 0.01
+  Lif Glacial Drift SKIN (Permanent):
+    id: 47052
+    volume: 0.01
+  Damaged Ancient PEG:
+    id: 47053
+    volume: 3.0
+  Badly Corrupted Holoreel:
+    id: 47054
+    volume: 3.0
+  CONCORD GalNet Monitoring Archive:
+    id: 47055
+    volume: 3.0
+  300 Billion ISK Contract Copy:
+    id: 47056
+    volume: 3.0
+  Alliance Tournament XV Meta:
+    id: 47057
+    volume: 3.0
+  How to Retire Your Starbase:
+    id: 47058
+    volume: 3.0
+  To Kill the Risen Dead:
+    id: 47059
+    volume: 3.0
+  Yoiul Festival YC120 Coin (Amarr):
+    id: 47060
+    volume: 3.0
+  Yoiul Festival YC120 Coin (Minmatar):
+    id: 47062
+    volume: 3.0
+  Yoiul Festival YC120 Coin (Caldari):
+    id: 47063
+    volume: 3.0
+  Yoiul Festival YC120 Coin (Gallente):
+    id: 47064
+    volume: 3.0
   Haunter Cruise Missile:
     productOf:
     - Sansha Wrath Cruise Missile Blueprint
@@ -86707,13 +87620,13 @@ metaInfs:
   Vexor Quafe Edition:
     productOf:
     - Vexor Quafe Edition Blueprint
-  末日沙场���YC117年特别版:
+  末日沙场级YC117年特别版:
     productOf:
     - 末日沙场级YC117年特别版蓝图
   地狱天使级YC117年特别版:
     productOf:
-    - 地狱天使级YC117年特��版蓝图
-  马克瑞级YC117年特别版:
+    - 地狱天使级YC117年特别版蓝图
+  马克瑞���YC117年特别版:
     productOf:
     - 马克瑞级YC117年特别版蓝图
   响尾蛇级YC117年特别版:
@@ -86722,12 +87635,12 @@ metaInfs:
   多米尼克斯级YC117年特别版:
     productOf:
     - 多米尼克斯级YC117年特别版蓝图
-  万王宝座��YC117年特别版:
+  万王宝座级YC117年特��版:
     productOf:
     - 万王宝座级YC117年特别版蓝图
   乌鸦级YC117年特别版:
     productOf:
-    - 乌鸦级YC117年特别版蓝图
+    - 乌鸦级YC117年��别版蓝图
   灾难级YC117年特别版:
     productOf:
     - 灾难级YC117年特别版蓝图
@@ -86740,6 +87653,6 @@ metaInfs:
   银鹰级YC117年特别版:
     productOf:
     - 银鹰级YC117年特别版蓝图
-  ��什塔级YC117年特别版:
+  伊什塔级YC117年特别版:
     productOf:
     - 伊什塔级YC117年特别版蓝图
