@@ -1,6 +1,6 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_fw_wars_ok {
-    public int faction_id;
-    public int against_id;
+    public long faction_id;
+    public long against_id;
 }

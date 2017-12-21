@@ -1,7 +1,7 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_universe_graphics_graphic_id_ok {
-    public int graphic_id;
+    public long graphic_id;
     public String graphic_file;
     public String sof_race_name;
     public String sof_fation_name;

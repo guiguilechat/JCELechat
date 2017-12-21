@@ -1,12 +1,12 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_corporations_corporation_id_blueprints_ok {
-    public int item_id;
-    public int type_id;
-    public int location_id;
+    public long item_id;
+    public long type_id;
+    public long location_id;
     public String location_flag;
-    public int quantity;
-    public int time_efficiency;
-    public int material_efficiency;
-    public int runs;
+    public long quantity;
+    public long time_efficiency;
+    public long material_efficiency;
+    public long runs;
 }

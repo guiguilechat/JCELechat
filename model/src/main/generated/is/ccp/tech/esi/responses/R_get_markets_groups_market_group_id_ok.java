@@ -1,9 +1,9 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_markets_groups_market_group_id_ok {
-    public int market_group_id;
+    public long market_group_id;
     public String name;
     public String description;
-    public int[] types;
-    public int parent_group_id;
+    public long[] types;
+    public long parent_group_id;
 }

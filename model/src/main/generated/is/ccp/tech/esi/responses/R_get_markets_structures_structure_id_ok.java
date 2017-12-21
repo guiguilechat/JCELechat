@@ -1,15 +1,15 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_markets_structures_structure_id_ok {
-    public int order_id;
-    public int type_id;
-    public int location_id;
-    public int volume_total;
-    public int volume_remain;
-    public int min_volume;
+    public long order_id;
+    public long type_id;
+    public long location_id;
+    public long volume_total;
+    public long volume_remain;
+    public long min_volume;
     public double price;
     public boolean is_buy_order;
-    public int duration;
+    public long duration;
     public String issued;
     public String range;
 }
