@@ -1,9 +1,9 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_characters_character_id_chat_channels_ok {
-    public int channel_id;
+    public long channel_id;
     public String name;
-    public int owner_id;
+    public long owner_id;
     public String comparison_key;
     public boolean has_password;
     public String motd;

@@ -1,15 +1,15 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_universe_bloodlines_ok {
-    public int bloodline_id;
+    public long bloodline_id;
     public String name;
     public String description;
-    public int race_id;
-    public int ship_type_id;
-    public int corporation_id;
-    public int perception;
-    public int willpower;
-    public int charisma;
-    public int memory;
-    public int intelligence;
+    public long race_id;
+    public long ship_type_id;
+    public long corporation_id;
+    public long perception;
+    public long willpower;
+    public long charisma;
+    public long memory;
+    public long intelligence;
 }

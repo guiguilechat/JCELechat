@@ -1,7 +1,7 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_wars_war_id_ok {
-    public int id;
+    public long id;
     public String declared;
     public String started;
     public String retracted;

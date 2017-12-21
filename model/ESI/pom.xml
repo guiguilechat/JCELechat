@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.eveonline</groupId>
 		<artifactId>model</artifactId>
-		<version>17.10.24</version>
+		<version>17.12.05</version>
 	</parent>
 	<groupId>fr.guiguilechat.eveonline.model</groupId>
 	<artifactId>ESI</artifactId>

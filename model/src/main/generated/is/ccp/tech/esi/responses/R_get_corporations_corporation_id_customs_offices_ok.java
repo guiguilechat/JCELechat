@@ -1,10 +1,10 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_corporations_corporation_id_customs_offices_ok {
-    public int office_id;
-    public int system_id;
-    public int reinforce_exit_start;
-    public int reinforce_exit_end;
+    public long office_id;
+    public long system_id;
+    public long reinforce_exit_start;
+    public long reinforce_exit_end;
     public double corporation_tax_rate;
     public boolean allow_alliance_access;
     public double alliance_tax_rate;
