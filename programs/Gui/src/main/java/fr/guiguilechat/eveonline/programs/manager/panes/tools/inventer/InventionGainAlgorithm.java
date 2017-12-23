@@ -138,8 +138,7 @@ public class InventionGainAlgorithm {
 			}
 
 			data.cycleAvgProd = data.inventedRuns * bpc.manufacturing.products.get(0).quantity * data.inventionProbability;
-			data.cycleTime = (long) (data.copyTime + Math.max(data.inventionTime, params.minActionHours * 3600)
-			+ Math.max(data.manufacturingTime, params.minActionHours * 3600));
+			data.cycleTime = data.copyTime + data.inventionTime + data.manufacturingTime;
 
 			for (int nbCycles = 1; nbCycles <= 1000; nbCycles++) {
 				// otherwise compiler complains "must be final or effectively final"
@@ -188,7 +187,9 @@ public class InventionGainAlgorithm {
 						}).sum();
 
 				double cycleCostSO = copyCostSO + inventionCostSO + manufacturingCostSO * data.inventionProbability;
-				double SOBOph = (cycleProductBO - cycleCostSO) * 3600 / data.cycleTime;
+				double SOBOph = (cycleProductBO - cycleCostSO) * 3600
+						/ Math.max(params.minActionHours * 3600,
+								Math.max(data.copyTime + data.inventionTime, data.manufacturingTime));
 				double cycleMargin = (cycleProductBO - cycleCostSO) / cycleProductBO;
 				if (nbCycles == 1) {
 					data.copyCostSO = copyCostSO;
