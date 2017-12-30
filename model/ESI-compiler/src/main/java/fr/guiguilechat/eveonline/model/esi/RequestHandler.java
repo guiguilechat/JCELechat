@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.model.esi;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 public interface RequestHandler {
@@ -48,6 +49,8 @@ public interface RequestHandler {
 			if(ct.isPrimitive()) {
 				if (ct == int.class) {
 					return IntStream.of((int[]) o).mapToObj(Integer::toString).collect(Collectors.joining(","));
+				} else if (ct == long.class) {
+					return LongStream.of((long[]) o).mapToObj(Long::toString).collect(Collectors.joining(","));
 				}
 			}
 			return Stream.of((Object[]) o).map(Object::toString).collect(Collectors.joining(","));
