@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.manager.panes.representation;
+package fr.guiguilechat.eveonline.programs.manager.representation;
 
 import java.util.Collection;
 import java.util.function.Consumer;
@@ -45,6 +45,11 @@ public class ChoiceBoxRepresentation<T> extends Representation<T> {
 	@Override
 	public T getRepresentation() {
 		return box.getValue();
+	}
+
+	@Override
+	public void setRepresentation(T value) {
+		box.setValue(value);
 	}
 
 }

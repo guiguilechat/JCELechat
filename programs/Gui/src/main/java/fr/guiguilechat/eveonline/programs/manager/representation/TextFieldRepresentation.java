@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.manager.panes.representation;
+package fr.guiguilechat.eveonline.programs.manager.representation;
 
 import java.util.function.Consumer;
 import java.util.function.Supplier;
@@ -54,6 +54,11 @@ public class TextFieldRepresentation<T> extends Representation<T> {
 	@Override
 	public T getRepresentation() {
 		return field.getValue();
+	}
+
+	@Override
+	public void setRepresentation(T value) {
+		field.setValue(value);
 	}
 
 }

@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.manager.panes.representation;
+package fr.guiguilechat.eveonline.programs.manager.representation;
 
 import java.util.Collection;
 
@@ -18,6 +18,10 @@ public interface PaneWithRepresentation {
 	 */
 	public default boolean updateSettings() {
 		return GetRepresentations().stream().filter(Representation::updateValue).count() > 0;
+	}
+
+	public default boolean reloadSettings() {
+		return GetRepresentations().stream().filter(Representation::reload).count() > 0;
 	}
 
 }

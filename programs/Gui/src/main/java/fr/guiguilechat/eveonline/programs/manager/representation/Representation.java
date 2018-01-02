@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.manager.panes.representation;
+package fr.guiguilechat.eveonline.programs.manager.representation;
 
 import java.util.function.Consumer;
 import java.util.function.Supplier;
@@ -12,8 +12,14 @@ import javafx.scene.layout.Region;
  */
 public abstract class Representation<T> {
 
+	/**
+	 * set the value when the user modified it
+	 */
 	protected final Consumer<T> setter;
 
+	/**
+	 * get the value to show to the user
+	 */
 	protected final Supplier<T> getter;
 
 	public Consumer<T> getSet() {
@@ -35,6 +41,14 @@ public abstract class Representation<T> {
 	 */
 	public abstract T getRepresentation();
 
+	/**
+	 * set the actual value represented by this.
+	 *
+	 * @param value
+	 *          value to set.
+	 */
+	public abstract void setRepresentation(T value);
+
 	public abstract Region getRegion();
 
 	/**
@@ -51,6 +65,31 @@ public abstract class Representation<T> {
 			return true;
 		} else {
 			return false;
+		}
+	}
+
+	/**
+	 * modify the data shown to user to reflect what is in the getter.
+	 *
+	 * @return true if the data was modified.
+	 */
+	public boolean reload() {
+		T old = getRepresentation();
+		T now = getter.get();
+		if (now == null) {
+			if (old == null) {
+				return false;
+			} else {
+				setRepresentation(now);
+				return true;
+			}
+		} else {
+			if (now.equals(old)) {
+				return false;
+			} else {
+				setRepresentation(now);
+				return true;
+			}
 		}
 	}
 

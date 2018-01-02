@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.manager.panes.representation;
+package fr.guiguilechat.eveonline.programs.manager.representation;
 
 import java.util.function.Consumer;
 import java.util.function.Supplier;
@@ -36,6 +36,13 @@ public class CheckBoxRepresentation extends Representation<Boolean> {
 	@Override
 	public Boolean getRepresentation() {
 		return box.isSelected();
+	}
+
+	@Override
+	public void setRepresentation(Boolean value) {
+		if (value != null) {
+			box.setSelected(value);
+		}
 	}
 
 }
