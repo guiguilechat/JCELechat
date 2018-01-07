@@ -26,7 +26,6 @@ public class APIPane extends TabPane implements EvePane {
 	protected AddAPIPane addApi;
 
 	protected BorderPane apiListPane = new BorderPane();
-	protected SSOCreationPane ssoPane;
 
 	public APIPane(Manager parent) {
 		this.parent = parent;
@@ -35,9 +34,7 @@ public class APIPane extends TabPane implements EvePane {
 		apiListPane.setCenter(listApi);
 		apiListPane.setTop(addApi);
 
-		ssoPane = new SSOCreationPane(parent);
-
-		getTabs().addAll(new Tab("your apis", apiListPane), new Tab("sso creation", ssoPane));
+		getTabs().addAll(new Tab("your apis", apiListPane));
 		setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
 		subPanes = new EvePane[] { listApi, addApi };
 	}

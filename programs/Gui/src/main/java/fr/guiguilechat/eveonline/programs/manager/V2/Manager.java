@@ -3,7 +3,9 @@ package fr.guiguilechat.eveonline.programs.manager.V2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import fr.guiguilechat.eveonline.programs.manager.V2.panes.MainPane;
 import javafx.application.Application;
+import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Manager extends Application {
@@ -23,6 +25,11 @@ public class Manager extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		logger.debug("start manager");
 		primaryStage.setTitle("guigui lechat manager");
+
+		logger.debug("making scene");
+		Scene scene = new Scene(new MainPane(datahandler), 800, 900);
+		primaryStage.setScene(scene);
+		primaryStage.show();
 	}
 
 }

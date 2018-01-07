@@ -3,16 +3,16 @@ package fr.guiguilechat.eveonline.programs.manager.V2.panes.managed;
 import fr.guiguilechat.eveonline.programs.manager.V2.DataHandler;
 import fr.guiguilechat.eveonline.programs.manager.V2.panes.ManagedPane;
 import javafx.beans.value.ObservableValue;
-import javafx.scene.control.Tab;
-import javafx.scene.control.TabPane;
+import javafx.scene.control.Accordion;
+import javafx.scene.control.TitledPane;
 
-public class ManagedTab extends TabPane implements ManagedPane {
+public class ManagedAccordion extends Accordion implements ManagedPane {
 
 	protected final DataHandler handler;
 
-	public ManagedTab(DataHandler handler) {
+	public ManagedAccordion(DataHandler handler) {
 		this.handler = handler;
-		getSelectionModel().selectedItemProperty().addListener(this::onSelectedItem);
+		expandedPaneProperty().addListener(this::onSelectedItem);
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class ManagedTab extends TabPane implements ManagedPane {
 		if (shown == this.shown) {
 			return;
 		}
-		Tab tselected = getSelectionModel().getSelectedItem();
+		TitledPane tselected = getExpandedPane();
 		if (tselected == null) {
 			return;
 		}
@@ -38,7 +38,8 @@ public class ManagedTab extends TabPane implements ManagedPane {
 		this.shown = shown;
 	}
 
-	protected void onSelectedItem(ObservableValue<? extends Tab> observable, Tab oldValue, Tab newValue) {
+	protected void onSelectedItem(ObservableValue<? extends TitledPane> observable, TitledPane oldValue,
+			TitledPane newValue) {
 		ManagedPane oldSelected = oldValue == null ? null : (ManagedPane) oldValue.getContent();
 		if (oldSelected != null) {
 			oldSelected.setShown(false);

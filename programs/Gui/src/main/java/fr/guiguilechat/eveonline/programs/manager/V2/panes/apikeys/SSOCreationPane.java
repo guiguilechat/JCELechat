@@ -1,11 +1,12 @@
-package fr.guiguilechat.eveonline.programs.manager.panes.api;
+package fr.guiguilechat.eveonline.programs.manager.V2.panes.apikeys;
 
 import java.util.regex.Pattern;
 
-import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
-import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection.SCOPES;
-import fr.guiguilechat.eveonline.programs.manager.Manager;
-import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
+import fr.guiguilechat.eveonline.model.esi.connect.ESIRawConnection;
+import fr.guiguilechat.eveonline.model.esi.connect.MakeKey;
+import fr.guiguilechat.eveonline.model.esi.connect.MakeKey.SCOPES;
+import fr.guiguilechat.eveonline.programs.manager.V2.DataHandler;
+import fr.guiguilechat.eveonline.programs.manager.V2.panes.ManagedPane;
 import javafx.application.Platform;
 import javafx.scene.control.Accordion;
 import javafx.scene.control.Button;
@@ -15,16 +16,8 @@ import javafx.scene.control.TitledPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 
-public class SSOCreationPane extends Accordion implements EvePane {
+public class SSOCreationPane extends Accordion implements ManagedPane {
 
-	protected final Manager parent;
-
-	@Override
-	public Manager parent() {
-		return parent;
-	}
-
-	protected EvePane[] subPanes;
 	protected TitledPane devAPIPane;
 	protected TitledPane refreshTokenPane;
 
@@ -35,14 +28,16 @@ public class SSOCreationPane extends Accordion implements EvePane {
 
 	protected Label characterName = new Label();
 
-	@Override
-	public EvePane[] subEvePanes() {
-		return subPanes;
-	}
-
 	protected static String localcallback = "http://localhost/callback/";
 
-	public SSOCreationPane(Manager parent) {
+	protected final DataHandler parent;
+
+	@Override
+	public DataHandler getDataHandler() {
+		return parent;
+	}
+
+	public SSOCreationPane(DataHandler parent) {
 		this.parent = parent;
 
 		VBox devapibox = new VBox();
@@ -79,8 +74,8 @@ public class SSOCreationPane extends Accordion implements EvePane {
 		Button addAPI = new Button("add this api");
 		addAPI.setOnAction(e -> addAPI());
 		refreshTokenBox.getChildren().addAll(refreshExplanation,
-				new HBox(new Label("app id created from previous step"), baseField),
-				webConnectBtn, new HBox(new Label("refresh token"), refreshTokenField), testConnection, characterName, addAPI);
+				new VBox(new Label("app id created from previous step"), baseField),
+				webConnectBtn, new VBox(new Label("refresh token"), refreshTokenField), testConnection, characterName, addAPI);
 		refreshTokenPane = new TitledPane("refresh token", refreshTokenBox);
 
 		getPanes().addAll(devAPIPane, refreshTokenPane);
@@ -97,10 +92,10 @@ public class SSOCreationPane extends Accordion implements EvePane {
 			thread.interrupt();
 		}
 		thread = Thread.currentThread();
-		ESIConnection.openBrowserForDevAPI();
+		MakeKey.openBrowserForDevAPI();
 		boolean correct = false;
 		while(!correct) {
-			String entry = ESIConnection.extractStringFromClipboard();
+			String entry = MakeKey.extractStringFromClipboard();
 			if(entry!=null) {
 				if (appIdPat.matcher(entry).matches()) {
 					appIDField.setText(entry);
@@ -118,7 +113,7 @@ public class SSOCreationPane extends Accordion implements EvePane {
 	protected void changeToRefreshToken() {
 		String appID = appIDField.getText(), appKey = appKeyField.getText();
 		if (appID != null && appIdPat.matcher(appID).matches() && appKey != null && appKeyPat.matcher(appKey).matches()) {
-			baseField.setText(ESIConnection.encode(appID, appKey));
+			baseField.setText(MakeKey.encode(appID, appKey));
 			setExpandedPane(refreshTokenPane);
 		}
 	}
@@ -128,9 +123,9 @@ public class SSOCreationPane extends Accordion implements EvePane {
 			thread.interrupt();
 		}
 		thread = Thread.currentThread();
-		String authCode = ESIConnection.getCodeByClipboard(appIDField.getText(), localcallback, SCOPES.values());
+		String authCode = MakeKey.getCodeByClipboard(appIDField.getText(), localcallback, SCOPES.values());
 		if (authCode != null) {
-			refreshTokenField.setText(ESIConnection.getRefreshToken(baseField.getText(), authCode));
+			refreshTokenField.setText(MakeKey.getRefreshToken(baseField.getText(), authCode));
 		}
 	}
 
@@ -138,17 +133,17 @@ public class SSOCreationPane extends Accordion implements EvePane {
 		String base = baseField.getText();
 		String refresh = refreshTokenField.getText();
 		if (base != null && refresh != null) {
-			String charName = new ESIConnection(base, refresh).verify();
+			String charName = new ESIRawConnection(base, refresh).verify().CharacterName;
 			Platform.runLater(() -> characterName.setText(charName));
 		} else {
-			characterName.setText("invalid base/refresh");
+			characterName.setText("invalid refresh/base");
 		}
 	}
 
 	protected void addAPI() {
 		String base = baseField.getText();
 		String refresh = refreshTokenField.getText();
-		parent.addAPI(base, refresh);
+		getDataHandler().addAPI(refresh, base);
 	}
 
 }
