@@ -154,7 +154,7 @@ public class ESIRawConnection implements Swagger {
 	}
 
 	public static class R_Verify {
-		public long CharacterID;
+		public int CharacterID;
 		public String CharacterName;
 		public String ExpiresOn;
 		public String Scopes;

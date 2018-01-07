@@ -234,7 +234,7 @@ public class Compiler {
 
 	protected AbstractJClass translateToClass(ObjectProperty p, JPackage pck, String name) {
 		try {
-			JDefinedClass cl = pck._class(name);
+			JDefinedClass cl = pck._class(name.replaceAll("_ok", ""));
 			for (Entry<String, Property> e : p.getProperties().entrySet()) {
 				cl.field(JMod.PUBLIC, translateToClass(e.getValue(), pck, name + "_" + e.getKey()), e.getKey());
 			}
