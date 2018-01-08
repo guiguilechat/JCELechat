@@ -60,7 +60,7 @@ public class SDEClassesCompiler {
 		// atttypes.get(i).attributeName).collect(Collectors.toList()));
 		// }
 
-		// then for each cat we find the atributes that are present in every group
+		// then for each cat we find the attributes that are present in every group
 
 		HashMap<Integer, HashSet<Integer>> catAttributes = new HashMap<>();
 		for (Entry<Integer, HashSet<Integer>> e : groupAttributes.entrySet()) {
