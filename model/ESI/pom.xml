@@ -37,7 +37,7 @@
 				<version>1.2.1</version>
 				<executions>
 					<execution>
-						<phase>verify</phase>
+						<phase>generate-sources</phase>
 						<goals>
 							<goal>java</goal>
 						</goals>
@@ -47,7 +47,7 @@
 					<mainClass>fr.guiguilechat.eveonline.model.esi.Compiler</mainClass>
 					<arguments>
 						<argument>https://esi.tech.ccp.is/latest/</argument>
-						<argument>src/main/generated</argument>
+						<argument>${project.basedir}/src/main/generated</argument>
 					</arguments>
 				</configuration>
 			</plugin>
@@ -72,5 +72,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<version>0.7.3</version>
+	<version>0.7.4</version>
 </project>
