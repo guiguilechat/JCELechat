@@ -1,6 +1,7 @@
 package fr.guiguilechat.eveonline.model.esi.connect;
 
 import fr.guiguilechat.eveonline.model.esi.connect.modeled.Character;
+import fr.guiguilechat.eveonline.model.esi.connect.modeled.Corporation;
 import fr.guiguilechat.eveonline.model.esi.connect.modeled.Verify;
 
 /**
@@ -11,10 +12,11 @@ public class ESIConnection {
 
 	public final ESIRawConnection raw;
 
-	public ESIConnection(ESIRawConnection connection) {
-		raw = connection;
-		chars = new Character(raw);
+	public ESIConnection(ESIRawConnection raw) {
+		this.raw = raw;
+		character = new Character(raw);
 		verify = new Verify(raw);
+		corporation = new Corporation(this);
 	}
 
 	public ESIConnection(String refresh, String base) {
@@ -25,7 +27,7 @@ public class ESIConnection {
 		return raw;
 	}
 
-	public final Character chars;
+	public final Character character;
 
 	public final Verify verify;
 
@@ -36,6 +38,8 @@ public class ESIConnection {
 	public String characterName() {
 		return verify.characterName();
 	}
+
+	public final Corporation corporation;
 
 	@Override
 	public int hashCode() {

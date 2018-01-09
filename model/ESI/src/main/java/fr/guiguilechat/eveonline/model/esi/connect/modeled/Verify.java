@@ -3,6 +3,10 @@ package fr.guiguilechat.eveonline.model.esi.connect.modeled;
 import fr.guiguilechat.eveonline.model.esi.connect.ESIRawConnection;
 import fr.guiguilechat.eveonline.model.esi.connect.ESIRawConnection.R_Verify;
 
+/**
+ * access to the verify method( not in swagger)
+ * 
+ */
 public class Verify {
 
 	protected final ESIRawConnection raw;
