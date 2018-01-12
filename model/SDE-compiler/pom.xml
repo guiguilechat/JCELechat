@@ -5,7 +5,7 @@
 		<artifactId>model</artifactId>
 		<version>17.12.05</version>
 	</parent>
-	<artifactId>SDE</artifactId>
+	<artifactId>SDE-compiler</artifactId>
 	<groupId>fr.guiguilechat.eveonline.model</groupId>
 	<dependencies>
 		<dependency>
@@ -42,5 +42,5 @@
 			<version>1.2</version>
 		</dependency>
 	</dependencies>
-	<name>SDE</name>
+	<name>SDE-compiler</name>
 </project>
