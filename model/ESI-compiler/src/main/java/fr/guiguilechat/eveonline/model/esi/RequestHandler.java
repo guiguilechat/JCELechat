@@ -4,6 +4,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
+import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 public interface RequestHandler {
@@ -55,6 +56,8 @@ public interface RequestHandler {
 			if(ct.isPrimitive()) {
 				if (ct == int.class || ct == short.class || ct == byte.class || ct == char.class || ct == boolean.class) {
 					return IntStream.of((int[]) o).mapToObj(Integer::toString).collect(Collectors.joining(","));
+				} else if (ct == long.class) {
+					return LongStream.of((long[]) o).mapToObj(Long::toString).collect(Collectors.joining(","));
 				} else if (ct == double.class || ct == float.class) {
 					return DoubleStream.of((double[]) o).mapToObj(Double::toString).collect(Collectors.joining(","));
 				}
