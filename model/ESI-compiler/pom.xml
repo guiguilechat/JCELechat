@@ -26,6 +26,11 @@
 			<optional>true</optional>
 			<version>1.7.7</version>
 		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 	<version>1.0.0</version>
 </project>
