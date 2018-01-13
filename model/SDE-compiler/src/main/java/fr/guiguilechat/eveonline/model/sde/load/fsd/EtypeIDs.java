@@ -40,36 +40,41 @@ public class EtypeIDs {
 
 	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/typeIDs.yaml");
 
-	@SuppressWarnings("unchecked")
-	public static LinkedHashMap<Integer, EtypeIDs> load() {
-		SDECache.INSTANCE.donwloadSDE();
-		Constructor cons = new Constructor(LinkedHashMap.class) {
+	private static LinkedHashMap<Integer, EtypeIDs> cache = null;
 
-			@Override
-			protected Construct getConstructor(Node node) {
-				if (node.getNodeId() == NodeId.mapping) {
-					MappingNode mn = (MappingNode) node;
-					if (mn.getValue().size() > 0) {
-						if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-								.filter(s -> "groupID".equals(s)).findAny().isPresent()) {
-							node.setType(EtypeIDs.class);
+	@SuppressWarnings("unchecked")
+	public static synchronized LinkedHashMap<Integer, EtypeIDs> load() {
+		if (cache == null) {
+			SDECache.INSTANCE.donwloadSDE();
+			Constructor cons = new Constructor(LinkedHashMap.class) {
+
+				@Override
+				protected Construct getConstructor(Node node) {
+					if (node.getNodeId() == NodeId.mapping) {
+						MappingNode mn = (MappingNode) node;
+						if (mn.getValue().size() > 0) {
+							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
+									.filter(s -> "groupID".equals(s)).findAny().isPresent()) {
+								node.setType(EtypeIDs.class);
+							}
 						}
 					}
+					Construct ret = super.getConstructor(node);
+					return ret;
 				}
-				Construct ret = super.getConstructor(node);
-				return ret;
+			};
+			TypeDescription td = new TypeDescription(EtypeIDs.class);
+			td.putMapPropertyType("name", String.class, String.class);
+			td.putMapPropertyType("description", String.class, String.class);
+			cons.addTypeDescription(td);
+			Yaml yaml = new Yaml(cons);
+			try {
+				cache = yaml.loadAs(new FileReader(FILE), LinkedHashMap.class);
+			} catch (FileNotFoundException e) {
+				throw new UnsupportedOperationException("catch this", e);
 			}
-		};
-		TypeDescription td = new TypeDescription(EtypeIDs.class);
-		td.putMapPropertyType("name", String.class, String.class);
-		td.putMapPropertyType("description", String.class, String.class);
-		cons.addTypeDescription(td);
-		Yaml yaml = new Yaml(cons);
-		try {
-			return yaml.loadAs(new FileReader(FILE), LinkedHashMap.class);
-		} catch (FileNotFoundException e) {
-			throw new UnsupportedOperationException("catch this", e);
 		}
+		return cache;
 	}
 
 	public double basePrice;

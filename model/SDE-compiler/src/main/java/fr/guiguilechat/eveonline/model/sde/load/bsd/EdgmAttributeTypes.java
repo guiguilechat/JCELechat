@@ -17,27 +17,31 @@ import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 public class EdgmAttributeTypes {
 
 	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/dgmAttributeTypes.yaml");
+	private static ArrayList<EdgmAttributeTypes> cache;
 
 	@SuppressWarnings("unchecked")
-	public static ArrayList<EdgmAttributeTypes> load() {
-		SDECache.INSTANCE.donwloadSDE();
-		Constructor cons = new Constructor(ArrayList.class) {
+	public static synchronized ArrayList<EdgmAttributeTypes> load() {
+		if (cache == null) {
+			SDECache.INSTANCE.donwloadSDE();
+			Constructor cons = new Constructor(ArrayList.class) {
 
-			@Override
-			protected Construct getConstructor(Node node) {
-				if (node.getNodeId() == NodeId.mapping) {
-					node.setType(EdgmAttributeTypes.class);
+				@Override
+				protected Construct getConstructor(Node node) {
+					if (node.getNodeId() == NodeId.mapping) {
+						node.setType(EdgmAttributeTypes.class);
+					}
+					Construct ret = super.getConstructor(node);
+					return ret;
 				}
-				Construct ret = super.getConstructor(node);
-				return ret;
+			};
+			Yaml yaml = new Yaml(cons);
+			try {
+				cache = yaml.loadAs(new FileReader(FILE), ArrayList.class);
+			} catch (FileNotFoundException e) {
+				throw new UnsupportedOperationException("catch this", e);
 			}
-		};
-		Yaml yaml = new Yaml(cons);
-		try {
-			return yaml.loadAs(new FileReader(FILE), ArrayList.class);
-		} catch (FileNotFoundException e) {
-			throw new UnsupportedOperationException("catch this", e);
 		}
+		return cache;
 	}
 
 	public static LinkedHashMap<Integer, EdgmAttributeTypes> loadByAttributeID() {
