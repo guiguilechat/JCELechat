@@ -21,6 +21,8 @@ public class EdgmEffects {
 
 	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/dgmEffects.yaml");
 
+	private static ArrayList<EdgmEffects> cache;
+
 	public String description;
 	public boolean disallowAutoRepeat;
 	public String displayName;
@@ -49,7 +51,8 @@ public class EdgmEffects {
 	public int npcActivationChanceAttributeID;
 
 	@SuppressWarnings("unchecked")
-	public static ArrayList<EdgmEffects> load() {
+	public static synchronized ArrayList<EdgmEffects> load() {
+		if (cache == null) {
 		SDECache.INSTANCE.donwloadSDE();
 		Constructor cons = new Constructor(ArrayList.class) {
 
@@ -64,10 +67,12 @@ public class EdgmEffects {
 		};
 		Yaml yaml = new Yaml(cons);
 		try {
-			return yaml.loadAs(new FileReader(FILE), ArrayList.class);
+				cache = yaml.loadAs(new FileReader(FILE), ArrayList.class);
 		} catch (FileNotFoundException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
+	}
+		return cache;
 	}
 
 	public static LinkedHashMap<Integer, EdgmEffects> loadByEffectID() {

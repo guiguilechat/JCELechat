@@ -23,6 +23,8 @@ public class Eblueprints {
 
 	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/blueprints.yaml");
 
+	private static LinkedHashMap<Integer, Eblueprints> cache = null;
+
 	public int blueprintTypeID;
 	public int maxProductionLimit;
 
@@ -62,32 +64,35 @@ public class Eblueprints {
 	}
 
 	@SuppressWarnings("unchecked")
-	public static LinkedHashMap<Integer, Eblueprints> load() {
-		SDECache.INSTANCE.donwloadSDE();
+	public static synchronized LinkedHashMap<Integer, Eblueprints> load() {
+		if (cache == null) {
+			SDECache.INSTANCE.donwloadSDE();
 
-		Constructor cons = new Constructor(LinkedHashMap.class) {
+			Constructor cons = new Constructor(LinkedHashMap.class) {
 
-			@Override
-			protected Construct getConstructor(Node node) {
-				if (node.getNodeId() == NodeId.mapping) {
-					MappingNode mn = (MappingNode) node;
-					if (mn.getValue().size() > 0) {
-						if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-								.filter(s -> "blueprintTypeID".equals(s)).findAny().isPresent()) {
-							node.setType(Eblueprints.class);
+				@Override
+				protected Construct getConstructor(Node node) {
+					if (node.getNodeId() == NodeId.mapping) {
+						MappingNode mn = (MappingNode) node;
+						if (mn.getValue().size() > 0) {
+							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
+									.filter(s -> "blueprintTypeID".equals(s)).findAny().isPresent()) {
+								node.setType(Eblueprints.class);
+							}
 						}
 					}
+					Construct ret = super.getConstructor(node);
+					return ret;
 				}
-				Construct ret = super.getConstructor(node);
-				return ret;
+			};
+			Yaml yaml = new Yaml(cons);
+			try {
+				cache = yaml.loadAs(new FileReader(FILE), LinkedHashMap.class);
+			} catch (FileNotFoundException e) {
+				throw new UnsupportedOperationException("catch this", e);
 			}
-		};
-		Yaml yaml = new Yaml(cons);
-		try {
-			return yaml.loadAs(new FileReader(FILE), LinkedHashMap.class);
-		} catch (FileNotFoundException e) {
-			throw new UnsupportedOperationException("catch this", e);
 		}
+		return cache;
 	}
 
 	@Override

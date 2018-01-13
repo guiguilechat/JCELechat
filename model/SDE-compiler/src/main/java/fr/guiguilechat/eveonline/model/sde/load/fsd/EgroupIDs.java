@@ -19,33 +19,37 @@ import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 public class EgroupIDs {
 
 	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/groupIDs.yaml");
+	private static LinkedHashMap<Integer, EgroupIDs> cache;
 
 	@SuppressWarnings("unchecked")
-	public static LinkedHashMap<Integer, EgroupIDs> load() {
-		SDECache.INSTANCE.donwloadSDE();
-		Constructor cons = new Constructor(LinkedHashMap.class) {
+	public static synchronized LinkedHashMap<Integer, EgroupIDs> load() {
+		if (cache == null) {
+			SDECache.INSTANCE.donwloadSDE();
+			Constructor cons = new Constructor(LinkedHashMap.class) {
 
-			@Override
-			protected Construct getConstructor(Node node) {
-				if (node.getNodeId() == NodeId.mapping) {
-					MappingNode mn = (MappingNode) node;
-					if (mn.getValue().size() > 0) {
-						if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-								.filter(s -> "published".equals(s)).findAny().isPresent()) {
-							node.setType(EgroupIDs.class);
+				@Override
+				protected Construct getConstructor(Node node) {
+					if (node.getNodeId() == NodeId.mapping) {
+						MappingNode mn = (MappingNode) node;
+						if (mn.getValue().size() > 0) {
+							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
+									.filter(s -> "published".equals(s)).findAny().isPresent()) {
+								node.setType(EgroupIDs.class);
+							}
 						}
 					}
+					Construct ret = super.getConstructor(node);
+					return ret;
 				}
-				Construct ret = super.getConstructor(node);
-				return ret;
+			};
+			Yaml yaml = new Yaml(cons);
+			try {
+				cache = yaml.loadAs(new FileReader(FILE), LinkedHashMap.class);
+			} catch (FileNotFoundException e) {
+				throw new UnsupportedOperationException("catch this", e);
 			}
-		};
-		Yaml yaml = new Yaml(cons);
-		try {
-			return yaml.loadAs(new FileReader(FILE), LinkedHashMap.class);
-		} catch (FileNotFoundException e) {
-			throw new UnsupportedOperationException("catch this", e);
 		}
+		return cache;
 	}
 
 	public HashMap<String, String> name = new HashMap<>();

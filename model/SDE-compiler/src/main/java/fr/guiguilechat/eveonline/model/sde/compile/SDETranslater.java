@@ -1,5 +1,6 @@
 package fr.guiguilechat.eveonline.model.sde.compile;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
@@ -10,7 +11,7 @@ import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
 
 public class SDETranslater {
 
-	public void translate(CompiledClassesData classes) {
+	public void translate(CompiledClassesData classes, File destFolder) {
 		DynamicClassLoader cl = new DynamicClassLoader(getClass().getClassLoader()).withCode(classes.model);
 		HashMap<Integer, Object> builtItems = new HashMap<>();
 		LinkedHashMap<Integer, EtypeIDs> typeids = EtypeIDs.load();
