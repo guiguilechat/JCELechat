@@ -6,10 +6,10 @@ import java.util.List;
 
 import fr.guiguilechat.eveonline.programs.manager.Settings.MissionStats;
 import fr.guiguilechat.eveonline.programs.manager.panes.ScrollAdd;
-import fr.guiguilechat.eveonline.programs.manager.panes.representation.CheckBoxRepresentation;
-import fr.guiguilechat.eveonline.programs.manager.panes.representation.PaneWithRepresentation;
-import fr.guiguilechat.eveonline.programs.manager.panes.representation.Representation;
-import fr.guiguilechat.eveonline.programs.manager.panes.representation.TextFieldRepresentation;
+import fr.guiguilechat.eveonline.programs.manager.representation.CheckBoxRepresentation;
+import fr.guiguilechat.eveonline.programs.manager.representation.PaneWithRepresentation;
+import fr.guiguilechat.eveonline.programs.manager.representation.Representation;
+import fr.guiguilechat.eveonline.programs.manager.representation.TextFieldRepresentation;
 import javafx.scene.control.Label;
 import javafx.scene.control.Tooltip;
 import javafx.scene.layout.GridPane;

@@ -5,28 +5,28 @@ import java.util.Map;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import fr.guiguilechat.eveonline.model.esi.connect.ConnectedCall;
 import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.connect.ESIRawConnection;
 import is.ccp.tech.esi.Swagger;
 
-public class ESIRaw extends ConnectedCall implements Swagger {
+public class ESIRaw extends ESIConnection implements Swagger {
 
-	public ESIRaw(ESIConnection connection) {
+	public ESIRaw(ESIRawConnection connection) {
 		super(connection);
 	}
 
 	public ESIRaw(String basicAuth, String refreshToken) {
-		this(new ESIConnection(basicAuth, refreshToken));
+		this(new ESIRawConnection(basicAuth, refreshToken));
 	}
 
 	@Override
 	public String connectGet(String url, boolean connected) {
-		return connection.connectGet(url, connected);
+		return raw.connectGet(url, connected);
 	}
 
 	@Override
 	public String connectPost(String url, Map<String, String> content, boolean connected) {
-		return connection.connectPost(url, content, connected);
+		return raw.connectPost(url, content, connected);
 	}
 
 	ObjectMapper om = new ObjectMapper();

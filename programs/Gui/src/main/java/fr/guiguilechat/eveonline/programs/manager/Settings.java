@@ -187,11 +187,11 @@ public class Settings implements ISettings {
 		public String marketRegion = "TheForge";
 		public String characterSkills = null;
 		public double copyIndex = 4;
-		public double copyTax = 10;
+		public double copyTax = 0;
 		public double inventIndex = 4;
-		public double inventTax = 10;
+		public double inventTax = 0;
 		public double manufactureIndex = 4;
-		public double manufactureTax = 10;
+		public double manufactureTax = 0;
 		public double sellTax = 1;
 		public double brokerFee = 2;
 		public String copystruct, inventstruct, manufstruct;
