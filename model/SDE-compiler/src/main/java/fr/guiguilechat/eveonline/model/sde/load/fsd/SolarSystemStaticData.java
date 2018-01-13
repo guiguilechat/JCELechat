@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.sde.fsd;
+package fr.guiguilechat.eveonline.model.sde.load.fsd;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

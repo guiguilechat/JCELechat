@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.sde.bsd;
+package fr.guiguilechat.eveonline.model.sde.load.bsd;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,21 +12,21 @@ import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 
-import fr.guiguilechat.eveonline.model.sde.cache.SDECache;
+import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 
-public class EcrpNPCDivisions {
+public class EagtAgentTypes {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/crpNPCDivisions.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/agtAgentTypes.yaml");
 
 	@SuppressWarnings("unchecked")
-	public static ArrayList<EcrpNPCDivisions> load() {
+	public static ArrayList<EagtAgentTypes> load() {
 		SDECache.INSTANCE.donwloadSDE();
 		Constructor cons = new Constructor(ArrayList.class) {
 
 			@Override
 			protected Construct getConstructor(Node node) {
 				if (node.getNodeId() == NodeId.mapping) {
-					node.setType(EcrpNPCDivisions.class);
+					node.setType(EagtAgentTypes.class);
 				}
 				Construct ret = super.getConstructor(node);
 				return ret;
@@ -42,15 +42,13 @@ public class EcrpNPCDivisions {
 
 	public static HashMap<Integer, String> loadById() {
 		HashMap<Integer, String> ret = new HashMap<>();
-		for (EcrpNPCDivisions e : load()) {
-			ret.put(e.divisionID, e.divisionName);
+		for (EagtAgentTypes e : load()) {
+			ret.put(e.agentTypeID, e.agentType);
 		}
 		return ret;
 	}
 
-	public String description;
-	public int divisionID;
-	public String divisionName;
-	public String leaderType;
+	public String agentType;
+	public int agentTypeID;
 
 }

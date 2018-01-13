@@ -8,11 +8,11 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import fr.guiguilechat.eveonline.model.sde.bsd.EdgmAttributeTypes;
-import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeAttributes;
-import fr.guiguilechat.eveonline.model.sde.cache.SDECache;
-import fr.guiguilechat.eveonline.model.sde.fsd.EgroupIDs;
-import fr.guiguilechat.eveonline.model.sde.fsd.EtypeIDs;
+import fr.guiguilechat.eveonline.model.sde.load.SDECache;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmAttributeTypes;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeAttributes;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EgroupIDs;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
 
 public class GroupTypesByCatGroup {
 

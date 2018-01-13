@@ -2,7 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.model;
 
 import java.util.HashSet;
 
-import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints;
 
 /**
  * usages of an item in industry
