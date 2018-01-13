@@ -85,7 +85,7 @@ public class ESIRawConnection implements Swagger {
 			}
 			int responseCode = con.getResponseCode();
 			if (responseCode != 200) {
-				StringBuilder sb = new StringBuilder("get").append(url).append(" ").append(responseCode);
+				StringBuilder sb = new StringBuilder(method).append(url).append(" ").append(responseCode);
 				if (responseCode != 500) {
 					sb.append(" error : ");
 					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
@@ -139,7 +139,7 @@ public class ESIRawConnection implements Swagger {
 			props.put("Authorization", getAuthorization());
 		}
 		props.put("Content-Type", contentType);
-		return connect(url, "GET", props, transmit);
+		return connect(url, "POST", props, transmit);
 	}
 
 	ObjectWriter ow = new ObjectMapper().writer();
