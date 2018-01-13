@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.sde.compile;
+package fr.guiguilechat.eveonline.model.sde.compile.inmemory;
 
 import java.io.File;
 import java.io.IOException;

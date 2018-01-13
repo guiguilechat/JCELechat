@@ -1,10 +1,9 @@
-package fr.guiguilechat.eveonline.model.sde.bsd;
+package fr.guiguilechat.eveonline.model.sde.load.bsd;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 
 import org.yaml.snakeyaml.Yaml;
@@ -13,27 +12,21 @@ import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 
-import fr.guiguilechat.eveonline.model.sde.cache.SDECache;
+import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 
-/**
- * an entry in the bsd/dgmTypeEffects.yaml file
- */
-public class EdgmTypeEffects {
+public class EdgmAttributeTypes {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/dgmTypeEffects.yaml");
-	public int effectID;
-	public boolean isDefault;
-	public int typeID;
+	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/dgmAttributeTypes.yaml");
 
 	@SuppressWarnings("unchecked")
-	public static ArrayList<EdgmTypeEffects> load() {
+	public static ArrayList<EdgmAttributeTypes> load() {
 		SDECache.INSTANCE.donwloadSDE();
 		Constructor cons = new Constructor(ArrayList.class) {
 
 			@Override
 			protected Construct getConstructor(Node node) {
 				if (node.getNodeId() == NodeId.mapping) {
-					node.setType(EdgmTypeEffects.class);
+					node.setType(EdgmAttributeTypes.class);
 				}
 				Construct ret = super.getConstructor(node);
 				return ret;
@@ -47,16 +40,24 @@ public class EdgmTypeEffects {
 		}
 	}
 
-	public static LinkedHashMap<Integer, HashMap<Integer, EdgmTypeEffects>> loadByTypeIDEffectID() {
-		LinkedHashMap<Integer, HashMap<Integer, EdgmTypeEffects>> ret = new LinkedHashMap<>();
-		for (EdgmTypeEffects e : load()) {
-			HashMap<Integer, EdgmTypeEffects> l = ret.get(e.typeID);
-			if (l == null) {
-				l = new HashMap<>();
-				ret.put(e.typeID, l);
-			}
-			l.put(e.effectID, e);
+	public static LinkedHashMap<Integer, EdgmAttributeTypes> loadByAttributeID() {
+		LinkedHashMap<Integer, EdgmAttributeTypes> ret = new LinkedHashMap<>();
+		for (EdgmAttributeTypes e : load()) {
+			ret.put(e.attributeID, e);
 		}
 		return ret;
 	}
+
+	public int attributeID;
+	public String attributeName;
+	public int categoryID;
+	public double defaultValue;
+	public String description;
+	public boolean highIsGood;
+	public boolean published;
+	public boolean stackable;
+	public int iconID;
+	public int unitID;
+	public String displayName;
+
 }

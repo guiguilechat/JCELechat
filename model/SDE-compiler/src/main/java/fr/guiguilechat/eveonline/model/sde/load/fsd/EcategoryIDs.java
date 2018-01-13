@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.sde.fsd;
+package fr.guiguilechat.eveonline.model.sde.load.fsd;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -14,14 +14,14 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import fr.guiguilechat.eveonline.model.sde.cache.SDECache;
+import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 
-public class EgroupIDs {
+public class EcategoryIDs {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/groupIDs.yaml");
+	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/fsd/categoryIDs.yaml");
 
 	@SuppressWarnings("unchecked")
-	public static LinkedHashMap<Integer, EgroupIDs> load() {
+	public static LinkedHashMap<Integer, EcategoryIDs> load() {
 		SDECache.INSTANCE.donwloadSDE();
 		Constructor cons = new Constructor(LinkedHashMap.class) {
 
@@ -32,7 +32,7 @@ public class EgroupIDs {
 					if (mn.getValue().size() > 0) {
 						if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
 								.filter(s -> "published".equals(s)).findAny().isPresent()) {
-							node.setType(EgroupIDs.class);
+							node.setType(EcategoryIDs.class);
 						}
 					}
 				}
@@ -50,11 +50,6 @@ public class EgroupIDs {
 
 	public HashMap<String, String> name = new HashMap<>();
 	public boolean published;
-	public boolean anchorable;
-	public boolean anchored;
-	public int categoryID;
-	public boolean fittableNonSingleton;
-	public boolean useBasePrice;
 	public int iconID;
 
 	public String enName() {

@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.sde.bsd;
+package fr.guiguilechat.eveonline.model.sde.load.bsd;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,7 +11,7 @@ import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 
-import fr.guiguilechat.eveonline.model.sde.cache.SDECache;
+import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 
 public class EagtAgents {
 

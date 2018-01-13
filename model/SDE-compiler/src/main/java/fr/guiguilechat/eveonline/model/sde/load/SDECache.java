@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.sde.cache;
+package fr.guiguilechat.eveonline.model.sde.load;
 
 import java.io.BufferedReader;
 import java.io.File;
