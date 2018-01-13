@@ -49,6 +49,7 @@ public class Compiler {
 	 * @throws JClassAlreadyExistsException
 	 */
 	public static void main(String[] args) throws IOException, JClassAlreadyExistsException {
+		System.err.println("compiling esi with params " + Arrays.asList(args));
 		Compiler c = new Compiler();
 		c.setBaseURL(args[0]);
 		JCodeModel cm = c.compile();
@@ -97,7 +98,7 @@ public class Compiler {
 		swagger.getPaths().entrySet().forEach(e -> {
 			String resource = e.getKey();
 			Path p = e.getValue();
-			System.err.println(resource);
+			// System.err.println(resource);
 			addPath(false, resource, p.getGet());
 			addPath(true, resource, p.getPost());
 		});
@@ -234,7 +235,7 @@ public class Compiler {
 
 	protected AbstractJClass translateToClass(ObjectProperty p, JPackage pck, String name) {
 		try {
-			JDefinedClass cl = pck._class(name);
+			JDefinedClass cl = pck._class(name.replaceAll("_ok", ""));
 			for (Entry<String, Property> e : p.getProperties().entrySet()) {
 				cl.field(JMod.PUBLIC, translateToClass(e.getValue(), pck, name + "_" + e.getKey()), e.getKey());
 			}
