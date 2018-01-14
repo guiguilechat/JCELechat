@@ -1,0 +1,14 @@
+items:
+  Standup Stasis Webifier I:
+    CanFitShipGroup01: 1657.0
+    CanFitShipGroup02: 1404.0
+    CanFitShipGroup03: 1406.0
+    CapacitorNeed: 400.0
+    Cpu: 2000.0
+    Duration: 5000.0
+    Hp: 40.0
+    MaxRange: 250000.0
+    Power: 50000.0
+    RemoteResistanceID: 2115.0
+    SpeedFactor: -70.0
+    StructureItemVisualFlag: 1.0

@@ -1,0 +1,19 @@
+items:
+  Zainou 'Beancounter' Industry BX-804:
+    Implantness: 8.0
+    ManufacturingTimeBonus: -4.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Zainou 'Beancounter' Industry BX-802:
+    Implantness: 8.0
+    ManufacturingTimeBonus: -2.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Zainou 'Beancounter' Industry BX-801:
+    Implantness: 8.0
+    ManufacturingTimeBonus: -1.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0

@@ -3,15 +3,15 @@ package fr.guiguilechat.eveonline.model.sde.compile;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.eveonline.model.sde.compile.SDEClassesCompiler;
+import fr.guiguilechat.eveonline.model.sde.compile.SDECompiler;
 
 public class SDEClassesCompilerTest {
 
 	@Test
 	public void testFormatName() {
-		Assert.assertEquals(SDEClassesCompiler.formatName("ta ta ta"), "TaTaTa");
-		Assert.assertEquals(SDEClassesCompiler.formatName("Ta ta ta"), "TaTaTa");
-		Assert.assertEquals(SDEClassesCompiler.formatName("tatata"), "Tatata");
-		Assert.assertEquals(SDEClassesCompiler.formatName("TATATA"), "TATATA");
+		Assert.assertEquals(SDECompiler.formatName("ta ta ta"), "TaTaTa");
+		Assert.assertEquals(SDECompiler.formatName("Ta ta ta"), "TaTaTa");
+		Assert.assertEquals(SDECompiler.formatName("tatata"), "Tatata");
+		Assert.assertEquals(SDECompiler.formatName("TATATA"), "TATATA");
 	}
 }

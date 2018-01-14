@@ -1,0 +1,509 @@
+items:
+  CONCORD Micro Shield Extender:
+    CapacityBonus: 169.0
+    Cpu: 25.0
+    Hp: 40.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 5.0
+    SignatureRadiusAdd: 2.0
+    TechLevel: 1.0
+  Medium Shield Extender I:
+    CapacityBonus: 800.0
+    Cpu: 28.0
+    Hp: 40.0
+    Power: 28.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 7.0
+    TechLevel: 1.0
+  Capital Shield Extender II:
+    CapacityBonus: 72000.0
+    Cpu: 132.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 82500.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 4.0
+    SignatureRadiusAdd: 1200.0
+    TechLevel: 2.0
+  Thukker Small Shield Extender:
+    CapacityBonus: 550.0
+    Cpu: 20.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 3.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  CONCORD Large Shield Extender:
+    CapacityBonus: 2813.0
+    Cpu: 36.0
+    Hp: 40.0
+    MetaLevel: 8.0
+    Power: 143.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 5.0
+    SignatureRadiusAdd: 20.0
+    TechLevel: 1.0
+  Large Subordinate Screen Stabilizer I:
+    CapacityBonus: 2063.0
+    Cpu: 36.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    Power: 150.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 23.0
+    TechLevel: 1.0
+  Thukker Modified Medium Shield Extender:
+    CapacityBonus: 1406.0
+    Cpu: 30.0
+    Hp: 40.0
+    MetaLevel: 9.0
+    Power: 28.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 4.0
+    SignatureRadiusAdd: 4.0
+    TechLevel: 1.0
+  Micro Shield Extender I:
+    CapacityBonus: 94.0
+    Cpu: 15.0
+    Hp: 40.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 1.0
+    TechLevel: 1.0
+  Small Azeotropic Restrained Shield Extender:
+    CapacityBonus: 450.0
+    Cpu: 20.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 2.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Dread Guristas Capital Shield Extender:
+    CapacityBonus: 79200.0
+    Cpu: 100.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 62500.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 800.0
+    TechLevel: 1.0
+  Small 'Wolf' Shield Extender:
+    CapacityBonus: 500.0
+    Cpu: 16.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 2.0
+    TechLevel: 1.0
+  Medium Subordinate Screen Stabilizer I:
+    CapacityBonus: 825.0
+    Cpu: 27.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    Power: 28.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 6.0
+    TechLevel: 1.0
+  Micro Azeotropic Ward Salubrity I:
+    CapacityBonus: 109.0
+    Cpu: 12.0
+    Hp: 40.0
+    MetaLevel: 3.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 1.0
+    TechLevel: 1.0
+  Small Supplemental Barrier Emitter I:
+    CapacityBonus: 198.0
+    Cpu: 19.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 2.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 2.0
+    TechLevel: 1.0
+  Republic Fleet Large Shield Extender:
+    CapacityBonus: 2750.0
+    Cpu: 40.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 145.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 20.0
+    TechLevel: 1.0
+  Republic Fleet Medium Shield Extender:
+    CapacityBonus: 1200.0
+    Cpu: 28.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 26.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 5.0
+    TechLevel: 1.0
+  Large F-S9 Regolith Compact Shield Extender:
+    CapacityBonus: 2200.0
+    Cpu: 35.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 140.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 25.0
+    TechLevel: 1.0
+  Medium Supplemental Barrier Emitter I:
+    CapacityBonus: 788.0
+    Cpu: 28.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 28.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 6.0
+    TechLevel: 1.0
+  Small Subordinate Screen Stabilizer I:
+    CapacityBonus: 206.0
+    Cpu: 18.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    Power: 2.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 2.0
+    TechLevel: 1.0
+  Thukker Large Shield Extender:
+    CapacityBonus: 2750.0
+    Cpu: 40.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 155.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 15.0
+    TechLevel: 1.0
+  Capital Azeotropic Restrained Shield Extender:
+    CapacityBonus: 64800.0
+    Cpu: 120.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 75000.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 800.0
+    TechLevel: 1.0
+  Medium Shield Extender II:
+    CapacityBonus: 1100.0
+    Cpu: 35.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 30.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 4.0
+    SignatureRadiusAdd: 7.0
+    TechLevel: 2.0
+  Small 'Trapper' Shield Extender:
+    CapacityBonus: 300.0
+    Cpu: 12.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Domination Capital Shield Extender:
+    CapacityBonus: 79200.0
+    Cpu: 100.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 62500.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 800.0
+    TechLevel: 1.0
+  Micro F-S9 Regolith Shield Induction:
+    CapacityBonus: 113.0
+    Cpu: 13.0
+    Hp: 40.0
+    MetaLevel: 4.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 1.0
+    TechLevel: 1.0
+  Large Azeotropic Restrained Shield Extender:
+    CapacityBonus: 2200.0
+    Cpu: 40.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 150.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 15.0
+    TechLevel: 1.0
+  Micro Supplemental Barrier Emitter I:
+    CapacityBonus: 100.0
+    Cpu: 14.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 1.0
+    TechLevel: 1.0
+  Caldari Navy Large Shield Extender:
+    CapacityBonus: 2750.0
+    Cpu: 35.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 150.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 25.0
+    TechLevel: 1.0
+  Large Shield Extender I:
+    CapacityBonus: 1900.0
+    Cpu: 40.0
+    Hp: 40.0
+    Power: 150.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 25.0
+    TechLevel: 1.0
+  Large Supplemental Barrier Emitter I:
+    CapacityBonus: 1969.0
+    Cpu: 38.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 150.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 24.0
+    TechLevel: 1.0
+  Capital Shield Extender I:
+    CapacityBonus: 57600.0
+    Cpu: 120.0
+    Hp: 40.0
+    Power: 75000.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 1000.0
+    TechLevel: 1.0
+  Thukker Medium Shield Extender:
+    CapacityBonus: 1200.0
+    Cpu: 28.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 30.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 3.0
+    TechLevel: 1.0
+  Micro Subordinate Screen Stabilizer I:
+    CapacityBonus: 104.0
+    Cpu: 13.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 1.0
+    TechLevel: 1.0
+  Republic Fleet Small Shield Extender:
+    CapacityBonus: 550.0
+    Cpu: 20.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 2.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 1.0
+    TechLevel: 1.0
+  Small F-S9 Regolith Compact Shield Extender:
+    CapacityBonus: 450.0
+    Cpu: 16.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 2.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 2.0
+    TechLevel: 1.0
+  Small Shield Extender I:
+    CapacityBonus: 400.0
+    Cpu: 20.0
+    Hp: 40.0
+    Power: 2.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 2.0
+    TechLevel: 1.0
+  CONCORD Medium Shield Extender:
+    CapacityBonus: 1106.0
+    Cpu: 28.0
+    Hp: 40.0
+    MetaLevel: 8.0
+    Power: 26.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 5.0
+    SignatureRadiusAdd: 4.0
+    TechLevel: 1.0
+  Micro Shield Extender II:
+    CapacityBonus: 131.0
+    Cpu: 17.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 2.0
+    SignatureRadiusAdd: 1.0
+    TechLevel: 2.0
+  Capital F-S9 Regolith Compact Shield Extender:
+    CapacityBonus: 64800.0
+    Cpu: 100.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 62500.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 1000.0
+    TechLevel: 1.0
+  Medium F-S9 Regolith Compact Shield Extender:
+    CapacityBonus: 900.0
+    Cpu: 26.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 26.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 7.0
+    TechLevel: 1.0
+  Large Shield Extender II:
+    CapacityBonus: 2600.0
+    Cpu: 45.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 160.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 4.0
+    SignatureRadiusAdd: 25.0
+    TechLevel: 2.0
+  Caldari Navy Small Shield Extender:
+    CapacityBonus: 550.0
+    Cpu: 19.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 2.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 2.0
+    TechLevel: 1.0
+  Luther Veron's Modified Shield Extender:
+    CapacityBonus: 2906.0
+    Cpu: 40.0
+    Hp: 40.0
+    MetaLevel: 11.0
+    Power: 150.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 2.0
+    SignatureRadiusAdd: 20.0
+    TechLevel: 1.0
+  True Sansha Capital Shield Extender:
+    CapacityBonus: 79200.0
+    Cpu: 100.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 62500.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 800.0
+    TechLevel: 1.0
+  Small Shield Extender II:
+    CapacityBonus: 520.0
+    Cpu: 23.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 3.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 3.0
+    SignatureRadiusAdd: 2.0
+    TechLevel: 2.0
+  Medium 'Canyon' Shield Extender:
+    CapacityBonus: 1000.0
+    Cpu: 26.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    Power: 25.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 7.0
+    TechLevel: 1.0
+  Large 'Sheriff' Shield Extender:
+    CapacityBonus: 2400.0
+    Cpu: 35.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    Power: 135.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 25.0
+    TechLevel: 1.0
+  Medium Azeotropic Restrained Shield Extender:
+    CapacityBonus: 900.0
+    Cpu: 28.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 28.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 3.0
+    TechLevel: 1.0
+  Caldari Navy Medium Shield Extender:
+    CapacityBonus: 1200.0
+    Cpu: 26.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 28.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 7.0
+    TechLevel: 1.0
+  CONCORD Capital Shield Extender:
+    CapacityBonus: 79200.0
+    Cpu: 100.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 62500.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusAdd: 800.0
+    TechLevel: 1.0

@@ -1,0 +1,28 @@
+items:
+  Experimental Jump Drive Economizer:
+    CanFitShipGroup01: 902.0
+    CanFitShipGroup02: 883.0
+    ConsumptionQuantityBonusPercentage: -7.0
+    Hp: 40.0
+    Power: 1.0
+    RequiredSkill1: 21610.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Limited Jump Drive Economizer:
+    CanFitShipGroup01: 902.0
+    CanFitShipGroup02: 883.0
+    ConsumptionQuantityBonusPercentage: -4.0
+    Hp: 40.0
+    Power: 1.0
+    RequiredSkill1: 21610.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Prototype Jump Drive Economizer:
+    CanFitShipGroup01: 902.0
+    CanFitShipGroup02: 883.0
+    ConsumptionQuantityBonusPercentage: -10.0
+    Hp: 40.0
+    Power: 1.0
+    RequiredSkill1: 21610.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0

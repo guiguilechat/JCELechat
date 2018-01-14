@@ -1,0 +1,141 @@
+items:
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPE-X:
+    FastTalkMutator: 50.0
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPD-X:
+    DiplomacyMutator: 4.0
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPC-X:
+    ConnectionBonusMutator: 4.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPB-X:
+    Implantness: 7.0
+    NegotiationBonus: 50.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPA-X:
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SocialBonus: 100.0
+    SocialMutator: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPE-2:
+    FastTalkMutator: 5.0
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPE-1:
+    FastTalkMutator: 3.0
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPD-2:
+    DiplomacyMutator: 0.4000000059604645
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPD-1:
+    DiplomacyMutator: 0.20000000298023224
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPC-2:
+    ConnectionBonusMutator: 0.4000000059604645
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPE-0:
+    FastTalkMutator: 3.0
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPC-1:
+    ConnectionBonusMutator: 0.20000000298023224
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPB-2:
+    Implantness: 7.0
+    NegotiationBonus: 5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPD-0:
+    DiplomacyMutator: 0.10000000149011612
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPB-1:
+    Implantness: 7.0
+    NegotiationBonus: 3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPA-2:
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SocialBonus: 10.0
+    SocialMutator: 5.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPC-0:
+    ConnectionBonusMutator: 0.10000000149011612
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPA-1:
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SocialBonus: 6.0
+    SocialMutator: 3.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPB-0:
+    Implantness: 7.0
+    NegotiationBonus: 1.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SocialBonus: 100.0
+    TechLevel: 1.0
+  Hardwiring - Poteque Pharmaceuticals 'Consul' PPA-0:
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SocialBonus: 6.0
+    SocialMutator: 1.0
+    TechLevel: 1.0

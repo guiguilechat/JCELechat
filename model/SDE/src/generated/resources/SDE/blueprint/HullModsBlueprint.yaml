@@ -1,0 +1,69 @@
+items:
+  Limited Jump Drive Economizer Blueprint:
+    TechLevel: 1.0
+  Prototype Jump Drive Economizer Blueprint:
+    TechLevel: 1.0
+  Synthetic Hull Conversion Inertia Stabilizers Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Synthetic Hull Conversion Nanofiber Structure Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Civilian Expanded Cargohold Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Expanded Cargohold II Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Reinforced Bulkheads I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Overdrive Injector System I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Limited Hyperspatial Accelerator Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Inertial Stabilizers I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Reinforced Bulkheads II Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Synthetic Hull Conversion Overdrive Injector Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Synthetic Hull Conversion Reinforced Bulkheads Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Limited Expanded 'Archiver' Cargo Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Expanded Cargohold I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Inertial Stabilizers II Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Nanofiber Internal Structure II Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Prototype Hyperspatial Accelerator Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Nanofiber Internal Structure I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Experimental Hyperspatial Accelerator Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Overdrive Injector System II Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Experimental Jump Drive Economizer Blueprint:
+    TechLevel: 1.0

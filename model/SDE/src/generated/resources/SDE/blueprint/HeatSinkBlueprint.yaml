@@ -1,0 +1,21 @@
+items:
+  Heat Sink I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  '''Mangonel'' Heat Sink I Blueprint':
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Imperial Navy Heat Sink Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  '''Trebuchet'' Heat Sink Blueprint':
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Heat Sink II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Tahron's Custom Heat Sink Blueprint:
+    TechLevel: 1.0
+  Ammatar Navy Heat Sink Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0

@@ -1,0 +1,43 @@
+items:
+  Standup XL-Set Extinction Level Weapons Suite I:
+    CanFitShipGroup01: 1657.0
+    CanFitShipGroup02: 1404.0
+    HiSecModifier: 1.0
+    Hp: 40.0
+    LowSecModifier: 1.2000000476837158
+    MaxGroupFitted: 1.0
+    NullSecModifier: 1.2000000476837158
+    RequiredSkill1: 26252.0
+    RequiredSkill1Level: 1.0
+    RigSize: 4.0
+    SecurityModifier: 1.0
+    StructureItemVisualFlag: 1.0
+    StructureRigDoomsdayDamageLossTargetBonus: 0.019999999552965164
+    StructureRigDoomsdayTargetAmountBonus: 3.0
+    StructureRigMaxTargetBonus: 2.0
+    StructureRigPDCapUseBonus: -30.0
+    StructureRigPDRangeBonus: 500.0
+    StructureRigScanResBonus: 100.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Standup XL-Set Extinction Level Weapons Suite II:
+    CanFitShipGroup01: 1657.0
+    CanFitShipGroup02: 1404.0
+    HiSecModifier: 1.0
+    Hp: 40.0
+    LowSecModifier: 1.2000000476837158
+    MaxGroupFitted: 1.0
+    NullSecModifier: 1.2000000476837158
+    RequiredSkill1: 26252.0
+    RequiredSkill1Level: 1.0
+    RigSize: 4.0
+    SecurityModifier: 1.0
+    StructureItemVisualFlag: 1.0
+    StructureRigDoomsdayDamageLossTargetBonus: 0.05000000074505806
+    StructureRigDoomsdayTargetAmountBonus: 5.0
+    StructureRigMaxTargetBonus: 5.0
+    StructureRigPDCapUseBonus: -35.0
+    StructureRigPDRangeBonus: 600.0
+    StructureRigScanResBonus: 150.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0

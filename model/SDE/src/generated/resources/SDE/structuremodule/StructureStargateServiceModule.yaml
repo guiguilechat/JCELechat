@@ -1,0 +1,17 @@
+items:
+  Structure Warp Accelerant:
+    CanFitShipGroup01: 1657.0
+    Cpu: 4000.0
+    Power: 50000.0
+  Structure Stargate Connector:
+    CanFitShipGroup01: 1657.0
+    Cpu: 15000.0
+    Power: 150000.0
+  Structure Cynosural Generator Array:
+    CanFitShipGroup01: 1657.0
+    Cpu: 3000.0
+    Power: 50000.0
+  Structure Wormhole Stabilizer:
+    CanFitShipGroup01: 1657.0
+    Cpu: 6000.0
+    Power: 100000.0

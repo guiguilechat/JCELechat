@@ -1,0 +1,37 @@
+items:
+  Orbital Command Center:
+    ArmorHP: 10000.0
+    DisallowInEmpireSpace: 1.0
+    Hp: 10000.0
+    NpcCustomsOfficeTaxRate: 0.1
+    ReinforcementDuration: 86400.0
+    ReinforcementVariance: 3600.0
+    ShieldCapacity: 10000.0
+    ShieldRechargeRate: 800000.0
+    SignatureRadius: 100.0
+    SpecialMaterialBayCapacity: 5000000.0
+    StructureUniformity: 1.0
+  Customs Office:
+    ArmorHP: 2500000.0
+    ArmorUniformity: 0.75
+    Hp: 2000000.0
+    NpcCustomsOfficeTaxRate: 0.1
+    ReinforcementDuration: 86400.0
+    ReinforcementVariance: 3600.0
+    ShieldCapacity: 1.0E7
+    ShieldRechargeRate: 5.0E7
+    ShieldUniformity: 0.75
+    SignatureRadius: 4500.0
+    StructureUniformity: 1.0
+  InterBus Customs Office:
+    ArmorHP: 2500000.0
+    ArmorUniformity: 0.75
+    Hp: 2000000.0
+    NpcCustomsOfficeTaxRate: 0.17000000178813934
+    ReinforcementDuration: 172800.0
+    ReinforcementVariance: 10800.0
+    ShieldCapacity: 1.0E7
+    ShieldRechargeRate: 5.0E7
+    ShieldUniformity: 0.75
+    SignatureRadius: 4500.0
+    StructureUniformity: 1.0

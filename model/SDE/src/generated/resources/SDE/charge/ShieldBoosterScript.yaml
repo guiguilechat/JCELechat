@@ -1,0 +1,7 @@
+items:
+  Shield Booster Fuel Allocation Script:
+    CapNeedBonus: -100.0
+    ChargeSize: 1.0
+    ConsumptionQuantityBonus: 1.0
+    MainColor: 1.1646664E7
+    TechLevel: 1.0

@@ -1,0 +1,22 @@
+items:
+  Mobile Scan Inhibitor:
+    ArmorHP: 7500.0
+    ArmorUniformity: 0.75
+    Hp: 30000.0
+    MetaLevel: 1.0
+    RequiredSkill1: 11584.0
+    RequiredSkill1Level: 3.0
+    ScanGravimetricStrength: 5.0
+    ScanLadarStrength: 5.0
+    ScanMagnetometricStrength: 5.0
+    ScanRadarStrength: 5.0
+    ShieldCapacity: 7500.0
+    ShieldRechargeRate: 2400000.0
+    ShieldUniformity: 0.75
+    SignatureRadius: 500.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+  Tournament Practice Unit:
+    SignatureRadius: 100.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0

@@ -1,0 +1,51 @@
+items:
+  Structure Kinetic Resistance Script Blueprint: {}
+  Armor Thermal Resistance Script Blueprint: {}
+  Standup Radar ECM Script Blueprint:
+    StructureItemVisualFlag: 1.0
+  Tracking Speed Disruption Script Blueprint:
+    IndustryBlueprintRank: 1.0
+  Standup Magnetometric ECM Script Blueprint:
+    StructureItemVisualFlag: 1.0
+  Armor EM Resistance Script Blueprint: {}
+  Optimal Range Script Blueprint:
+    IndustryBlueprintRank: 1.0
+  Armor Explosive Resistance Script Blueprint: {}
+  Structure EM Hardener Script Blueprint: {}
+  Focused Warp Scrambling Script Blueprint: {}
+  Tracking Speed Script Blueprint:
+    IndustryBlueprintRank: 1.0
+  Shield Thermal Resistance Script Blueprint: {}
+  ECCM Script Blueprint: {}
+  Shield Explosive Resistance Script Blueprint: {}
+  Standup Ladar ECM Script Blueprint:
+    StructureItemVisualFlag: 1.0
+  Missile Precision Disruption Script Blueprint: {}
+  Scan Resolution Script Blueprint:
+    IndustryBlueprintRank: 1.0
+  Targeting Range Dampening Script Blueprint:
+    IndustryBlueprintRank: 1.0
+  Shield Booster Fuel Allocation Script Blueprint:
+    IndustryBlueprintRank: 1.0
+  Focused Warp Disruption Script Blueprint:
+    IndustryBlueprintRank: 1.0
+  Optimal Range Disruption Script Blueprint:
+    IndustryBlueprintRank: 1.0
+  Shield EM Resistance Script Blueprint: {}
+  Shield Kinetic Resistance Script Blueprint: {}
+  Structure Explosive Hardener Script Blueprint: {}
+  Missile Range Disruption Script Blueprint: {}
+  Armor Kinetic Resistance Script Blueprint: {}
+  Missile Range Script Blueprint:
+    IndustryBlueprintRank: 1.0
+  Standup Gravimetric ECM Script Blueprint:
+    StructureItemVisualFlag: 1.0
+  Structure Thermal Resistance Script Blueprint: {}
+  Nanite Repair Paste Blueprint:
+    IndustryBlueprintRank: 1.0
+  Missile Precision Script Blueprint:
+    IndustryBlueprintRank: 1.0
+  Targeting Range Script Blueprint:
+    IndustryBlueprintRank: 1.0
+  Scan Resolution Dampening Script Blueprint:
+    IndustryBlueprintRank: 1.0

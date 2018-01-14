@@ -1,0 +1,22 @@
+items:
+  Huge Freight Container:
+    Hp: 10.0
+    StructureUniformity: 1.0
+  Large Freight Container:
+    Hp: 10.0
+    StructureUniformity: 1.0
+  Small Freight Container:
+    Hp: 10.0
+    StructureUniformity: 1.0
+  Plastic Wrap:
+    Hp: 10.0
+    StructureUniformity: 1.0
+  Giant Freight Container:
+    Hp: 10.0
+    StructureUniformity: 1.0
+  Enormous Freight Container:
+    Hp: 10.0
+    StructureUniformity: 1.0
+  Medium Freight Container:
+    Hp: 10.0
+    StructureUniformity: 1.0

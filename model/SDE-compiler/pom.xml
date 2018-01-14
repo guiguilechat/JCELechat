@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.eveonline</groupId>
 		<artifactId>model</artifactId>
-		<version>17.12.05</version>
+		<version>18.01.10</version>
 	</parent>
 	<artifactId>SDE-compiler</artifactId>
 	<groupId>fr.guiguilechat.eveonline.model</groupId>
@@ -43,4 +43,5 @@
 		</dependency>
 	</dependencies>
 	<name>SDE-compiler</name>
+	<version>1.0.0</version>
 </project>

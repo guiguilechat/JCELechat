@@ -1,0 +1,10 @@
+items:
+  Energy Neutralization Burst Projector Blueprint: {}
+  Sensor Dampening Burst Projector Blueprint: {}
+  Warp Disruption Burst Projector Blueprint: {}
+  Weapon Disruption Burst Projector Blueprint: {}
+  ECM Jammer Burst Projector Blueprint:
+    IndustryBlueprintRank: 180.0
+  Superweapon_AOEGuide Blueprint: {}
+  Stasis Webification Burst Projector Blueprint: {}
+  Target Illumination Burst Projector Blueprint: {}

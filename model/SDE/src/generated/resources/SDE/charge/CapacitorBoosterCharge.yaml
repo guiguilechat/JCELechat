@@ -1,0 +1,116 @@
+items:
+  Cap Booster 25:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 25.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+  Navy Cap Booster 150:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 150.0
+    ChargeSize: 2.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+    MetaGroupID: 4.0
+  Navy Cap Booster 200:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 200.0
+    ChargeSize: 2.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+    MetaGroupID: 4.0
+  Navy Cap Booster 100:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 100.0
+    ChargeSize: 1.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+    MetaGroupID: 4.0
+  Navy Cap Booster 3200:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 3200.0
+    ChargeSize: 4.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+    MetaGroupID: 4.0
+  Cap Booster 150:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 150.0
+    ChargeSize: 2.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+  Navy Cap Booster 400:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 400.0
+    ChargeSize: 3.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+    MetaGroupID: 4.0
+  Navy Cap Booster 25:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 25.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+    MetaGroupID: 4.0
+  Cap Booster 100:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 100.0
+    ChargeSize: 1.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+  Navy Cap Booster 800:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 800.0
+    ChargeSize: 3.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+    MetaGroupID: 4.0
+  Cap Booster 200:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 200.0
+    ChargeSize: 2.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+  Cap Booster 400:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 400.0
+    ChargeSize: 3.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+  Navy Cap Booster 50:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 50.0
+    ChargeSize: 1.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+    MetaGroupID: 4.0
+  Cap Booster 50:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 50.0
+    ChargeSize: 1.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+  Cap Booster 800:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 800.0
+    ChargeSize: 3.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+  Cap Booster 3200:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 3200.0
+    ChargeSize: 4.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+  Cap Booster 75:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 75.0
+    ChargeSize: 1.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+  Navy Cap Booster 75:
+    CapNeedBonus: -100.0
+    CapacitorBonus: 75.0
+    ChargeSize: 1.0
+    LauncherGroup: 76.0
+    LauncherGroup2: 1156.0
+    MetaGroupID: 4.0
