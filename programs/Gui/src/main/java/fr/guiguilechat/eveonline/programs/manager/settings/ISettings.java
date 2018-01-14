@@ -1,17 +1,14 @@
 package fr.guiguilechat.eveonline.programs.manager.settings;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-
+import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.representer.Representer;
 
-import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 
 /**
@@ -70,17 +67,28 @@ public interface ISettings {
 	public default void store() {
 		File f = getFile();
 		f.getParentFile().mkdirs();
+		FileWriter fileWriter = null;
 		try {
-			makeYaml().dump(this, new FileWriter(f));
+			fileWriter = new FileWriter(f);
+			makeYaml().dump(this, fileWriter);
 		} catch (IOException e) {
 			throw new UnsupportedOperationException("catch this", e);
+		} finally {
+			if (fileWriter != null){
+				try {
+					fileWriter.close();
+				} catch (IOException e) {
+					// ignore
+				}
+			}
 		}
 	}
 
 	public default void erase() {
-		File f = getFile();
-		if (f.exists()) {
-			f.delete();
+		try {
+			Files.deleteIfExists(Paths.get(getFile().toURI()));
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 	}
 
@@ -99,9 +107,19 @@ public interface ISettings {
 		}
 		File f = inst.getFile();
 		if (f.exists()) {
+			FileReader fileReader = null;
 			try {
-				return inst.makeYaml().loadAs(new FileReader(f), clazz);
+				fileReader = new FileReader(f);
+				return inst.makeYaml().loadAs(fileReader, clazz);
 			} catch (FileNotFoundException e) {
+			} finally {
+				if (fileReader!=null){
+					try {
+						fileReader.close();
+					} catch (IOException e) {
+						// ignore
+					}
+				}
 			}
 		}
 		return inst;

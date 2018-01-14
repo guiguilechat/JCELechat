@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.programs.settings;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -27,7 +28,13 @@ public class ASettingsTest {
 		Assert.assertEquals(fs1.a, "bla");
 		fs1.a = "bbb";
 		fs1.store();
-		fs2 = new Yaml().loadAs(new FileReader(fs1.getFile()), FalseSettings.class);
+		FileReader fileReader = new FileReader(fs1.getFile());
+		fs2 = new Yaml().loadAs(fileReader, FalseSettings.class);
+		try {
+			fileReader.close();
+		} catch (IOException e) {
+			// ignore
+		}
 		Assert.assertEquals(fs2.a, "bbb");
 		fs2 = ISettings.load(FalseSettings.class);
 		Assert.assertEquals(fs2.a, "bbb");
