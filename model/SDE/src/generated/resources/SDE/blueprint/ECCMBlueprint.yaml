@@ -1,0 +1,52 @@
+items:
+  Conjunctive Radar ECCM Scanning Array I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  ECCM - Radar II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  ECCM Projector II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  Conjunctive Gravimetric ECCM Scanning Array I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  ECCM - Omni I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  ECCM - Magnetometric I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  ECCM - Gravimetric I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  ECCM - Ladar II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  ECCM - Magnetometric II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  ECCM - Gravimetric II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  ECCM - Omni II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  Conjunctive Magnetometric ECCM Scanning Array I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  '''Forger'' ECCM - Magnetometric I Blueprint':
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  ECCM Projector I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  ECCM - Ladar I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Conjunctive Ladar ECCM Scanning Array I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  ECCM - Radar I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0

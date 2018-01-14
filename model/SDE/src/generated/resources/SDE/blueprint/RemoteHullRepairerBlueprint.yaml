@@ -1,0 +1,24 @@
+items:
+  Small Remote Hull Repairer II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Capital Remote Hull Repairer II Blueprint:
+    TechLevel: 1.0
+  Large Remote Hull Repairer II Blueprint:
+    IndustryBlueprintRank: 23.399999618530273
+    TechLevel: 2.0
+  Medium Remote Hull Repairer II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  Medium Remote Hull Repairer I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Large Remote Hull Repairer I Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Small Remote Hull Repairer I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Capital Remote Hull Repairer I Blueprint:
+    IndustryBlueprintRank: 120.0
+    TechLevel: 1.0

@@ -1,0 +1,25 @@
+items:
+  Standup M-Set Moon Drilling Efficiency I:
+    CanFitShipGroup03: 1406.0
+    DisallowInHighSec: 1.0
+    Hp: 40.0
+    MaxGroupFitted: 1.0
+    MoonRigSpewVolumeBonus: 2.0
+    RequiredSkill1: 26252.0
+    RequiredSkill1Level: 1.0
+    RigSize: 2.0
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Standup M-Set Moon Drilling Efficiency II:
+    CanFitShipGroup03: 1406.0
+    DisallowInHighSec: 1.0
+    Hp: 40.0
+    MaxGroupFitted: 1.0
+    MoonRigSpewVolumeBonus: 2.4000000953674316
+    RequiredSkill1: 26252.0
+    RequiredSkill1Level: 1.0
+    RigSize: 2.0
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0

@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.eveonline</groupId>
 		<artifactId>model</artifactId>
-		<version>17.12.05</version>
+		<version>18.01.10</version>
 	</parent>
 	<groupId>fr.guiguilechat.eveonline.model</groupId>
 	<artifactId>APIv2</artifactId>

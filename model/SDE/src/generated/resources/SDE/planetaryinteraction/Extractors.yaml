@@ -1,0 +1,361 @@
+items:
+  Lava Heavy Metals Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2272.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2015.0
+    PowerLoad: 800.0
+  Lava Suspended Plasma Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2308.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2015.0
+    PowerLoad: 800.0
+  Plasma Base Metals Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2267.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2063.0
+    PowerLoad: 800.0
+  Barren Carbon Compounds Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2288.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2016.0
+    PowerLoad: 800.0
+  Temperate Autotrophs Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2305.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 11.0
+    PowerLoad: 800.0
+  Oceanic Planktic Colonies Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2286.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2014.0
+    PowerLoad: 800.0
+  Gas Reactive Gas Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2311.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 13.0
+    PowerLoad: 800.0
+  Ice Noble Gas Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2310.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 12.0
+    PowerLoad: 800.0
+  Ice Aqueous Liquid Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2268.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 12.0
+    PowerLoad: 800.0
+  Oceanic Microorganisms Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2073.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2014.0
+    PowerLoad: 800.0
+  Gas Ionic Solutions Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2309.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 13.0
+    PowerLoad: 800.0
+  Lava Base Metals Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2267.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2015.0
+    PowerLoad: 800.0
+  Plasma Heavy Metals Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2272.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2063.0
+    PowerLoad: 800.0
+  Lava Non-CS Crystals Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2306.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2015.0
+    PowerLoad: 800.0
+  Barren Aqueous Liquid Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2268.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2016.0
+    PowerLoad: 800.0
+  Plasma Noble Metals Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2270.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2063.0
+    PowerLoad: 800.0
+  Ice Planktic Colonies Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2286.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 12.0
+    PowerLoad: 800.0
+  Plasma Suspended Plasma Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2308.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2063.0
+    PowerLoad: 800.0
+  Temperate Carbon Compounds Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2288.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 11.0
+    PowerLoad: 800.0
+  Gas Base Metals Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2267.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 13.0
+    PowerLoad: 800.0
+  Oceanic Complex Organisms Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2287.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2014.0
+    PowerLoad: 800.0
+  Oceanic Aqueous Liquid Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2268.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2014.0
+    PowerLoad: 800.0
+  Gas Noble Gas Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2310.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 13.0
+    PowerLoad: 800.0
+  Gas Aqueous Liquid Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2268.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 13.0
+    PowerLoad: 800.0
+  Temperate Complex Organisms Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2287.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 11.0
+    PowerLoad: 800.0
+  Lava Felsic Magma Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2307.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2015.0
+    PowerLoad: 800.0
+  Plasma Non-CS Crystals Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2306.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2063.0
+    PowerLoad: 800.0
+  Storm Aqueous Liquid Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2268.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2017.0
+    PowerLoad: 800.0
+  Storm Base Metals Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2267.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2017.0
+    PowerLoad: 800.0
+  Storm Ionic Solutions Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2309.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2017.0
+    PowerLoad: 800.0
+  Oceanic Carbon Compounds Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2288.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2014.0
+    PowerLoad: 800.0
+  Storm Suspended Plasma Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2308.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2017.0
+    PowerLoad: 800.0
+  Barren Noble Metals Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2270.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2016.0
+    PowerLoad: 800.0
+  Temperate Microorganisms Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2073.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 11.0
+    PowerLoad: 800.0
+  Ice Heavy Metals Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2272.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 12.0
+    PowerLoad: 800.0
+  Barren Base Metals Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2267.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2016.0
+    PowerLoad: 800.0
+  Barren Microorganisms Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2073.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2016.0
+    PowerLoad: 800.0
+  Temperate Aqueous Liquid Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2268.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 11.0
+    PowerLoad: 800.0
+  Storm Noble Gas Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2310.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 2017.0
+    PowerLoad: 800.0
+  Ice Microorganisms Extractor:
+    CpuLoad: 200.0
+    ExtractorDepletionRange: 5.0
+    ExtractorDepletionRate: 1.0
+    HarvesterType: 2073.0
+    PinCycleTime: 300.0
+    PinExtractionQuantity: 1000.0
+    PlanetRestriction: 12.0
+    PowerLoad: 800.0

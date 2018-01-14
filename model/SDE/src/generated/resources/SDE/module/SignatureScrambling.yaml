@@ -1,0 +1,70 @@
+items:
+  Stealth System I:
+    CapacitorNeed: 40.0
+    Cpu: 40.0
+    Duration: 12000.0
+    Hp: 40.0
+    MaxGroupActive: 1.0
+    Power: 1.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 2.0
+    SignatureRadiusBonusPercent: -20.0
+    TechLevel: 1.0
+  Large Active Stealth System I:
+    CapacitorNeed: 400.0
+    Cpu: 120.0
+    Duration: 24000.0
+    Hp: 40.0
+    MaxGroupActive: 1.0
+    Power: 1000.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 4.0
+    SignatureRadiusBonus: -80.0
+    TechLevel: 1.0
+  Smugglers Mask I:
+    CapacitorNeed: 100.0
+    ContrabandDetectionChanceBonus: 0.25
+    Cpu: 60.0
+    Duration: 24000.0
+    Hp: 40.0
+    MaxGroupActive: 1.0
+    Power: 30.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3448.0
+    RequiredSkill2Level: 3.0
+    SignatureRadiusBonus: -20.0
+    TechLevel: 1.0
+  Huge Active Stealth System I:
+    CapacitorNeed: 800.0
+    Cpu: 150.0
+    Duration: 24000.0
+    Hp: 40.0
+    MaxGroupActive: 1.0
+    Power: 4000.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 5.0
+    SignatureRadiusBonus: -160.0
+    TechLevel: 1.0
+  Small Active Stealth System I:
+    CapacitorNeed: 100.0
+    Cpu: 60.0
+    Duration: 24000.0
+    Hp: 40.0
+    MaxGroupActive: 1.0
+    Power: 30.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 2.0
+    SignatureRadiusBonus: -20.0
+    TechLevel: 1.0
+  Medium Active Stealth System I:
+    CapacitorNeed: 200.0
+    Cpu: 90.0
+    Duration: 24000.0
+    Hp: 40.0
+    MaxGroupActive: 1.0
+    Power: 180.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 3.0
+    SignatureRadiusBonus: -40.0
+    TechLevel: 1.0

@@ -1,0 +1,461 @@
+items:
+  Small Cap Battery II:
+    CapacitorBonus: 150.0
+    Cpu: 24.0
+    EnergyWarfareResistanceBonus: -25.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 10.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 2.0
+  Micro Ohm Capacitor Reserve I:
+    CapacitorBonus: 41.0
+    Cpu: 23.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    Power: 5.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Republic Fleet Medium Cap Battery:
+    CapacitorBonus: 700.0
+    Cpu: 28.0
+    EnergyWarfareResistanceBonus: -27.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 60.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Micro Ld-Acid Capacitor Battery I:
+    CapacitorBonus: 39.0
+    Cpu: 22.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 5.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  X-Large Ohm Capacitor Reserve I:
+    CapacitorBonus: 1375.0
+    Cpu: 118.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    Power: 1250.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Domination Medium Cap Battery:
+    CapacitorBonus: 700.0
+    Cpu: 28.0
+    EnergyWarfareResistanceBonus: -27.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 60.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Capital Cap Battery I:
+    CapacitorBonus: 14000.0
+    Cpu: 55.0
+    EnergyWarfareResistanceBonus: -20.0
+    Hp: 40.0
+    Power: 100000.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  '''Crucible'' Small Cap Battery':
+    CapacitorBonus: 150.0
+    Cpu: 12.0
+    EnergyWarfareResistanceBonus: -25.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    Power: 5.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Small Compact Pb-Acid Cap Battery:
+    CapacitorBonus: 132.0
+    Cpu: 16.0
+    EnergyWarfareResistanceBonus: -22.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 6.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Small Cap Battery I:
+    CapacitorBonus: 120.0
+    Cpu: 20.0
+    EnergyWarfareResistanceBonus: -20.0
+    Hp: 40.0
+    Power: 8.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  X-Large Peroxide Capacitor Power Cell:
+    CapacitorBonus: 1500.0
+    Cpu: 100.0
+    Hp: 40.0
+    MetaLevel: 4.0
+    Power: 1250.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Thukker Medium Cap Battery:
+    CapacitorBonus: 675.0
+    Cpu: 29.0
+    EnergyWarfareResistanceBonus: -28.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 52.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Medium Compact Pb-Acid Cap Battery:
+    CapacitorBonus: 550.0
+    Cpu: 28.0
+    EnergyWarfareResistanceBonus: -22.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 60.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Medium Ohm Capacitor Reserve I:
+    CapacitorBonus: 330.0
+    Cpu: 71.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    Power: 75.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Small Ohm Capacitor Reserve I:
+    CapacitorBonus: 83.0
+    Cpu: 47.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    Power: 10.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Large Peroxide Capacitor Power Cell:
+    CapacitorBonus: 600.0
+    Cpu: 80.0
+    Hp: 40.0
+    MetaLevel: 4.0
+    Power: 250.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Large F-4a Ld-Sulfate Capacitor Charge Unit:
+    CapacitorBonus: 575.0
+    Cpu: 85.0
+    Hp: 40.0
+    MetaLevel: 3.0
+    Power: 250.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Thukker Small Cap Battery:
+    CapacitorBonus: 162.0
+    Cpu: 17.0
+    EnergyWarfareResistanceBonus: -28.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 5.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  '''Thurifer'' Large Cap Battery':
+    CapacitorBonus: 1625.0
+    Cpu: 30.0
+    EnergyWarfareResistanceBonus: -25.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    Power: 240.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Capital Cap Battery II:
+    CapacitorBonus: 16800.0
+    Cpu: 60.0
+    EnergyWarfareResistanceBonus: -25.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 110000.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 2.0
+  Dark Blood Capital Cap Battery:
+    CapacitorBonus: 19600.0
+    Cpu: 44.0
+    EnergyWarfareResistanceBonus: -27.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 90000.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Large Ohm Capacitor Reserve I:
+    CapacitorBonus: 550.0
+    Cpu: 95.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    Power: 250.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Republic Fleet Large Cap Battery:
+    CapacitorBonus: 1820.0
+    Cpu: 40.0
+    EnergyWarfareResistanceBonus: -27.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 320.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Domination Large Cap Battery:
+    CapacitorBonus: 1820.0
+    Cpu: 40.0
+    EnergyWarfareResistanceBonus: -27.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 320.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  '''Censer'' Medium Cap Battery':
+    CapacitorBonus: 625.0
+    Cpu: 21.0
+    EnergyWarfareResistanceBonus: -25.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    Power: 45.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Small F-4a Ld-Sulfate Capacitor Charge Unit:
+    CapacitorBonus: 86.0
+    Cpu: 42.0
+    Hp: 40.0
+    MetaLevel: 3.0
+    Power: 10.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Micro Capacitor Battery II:
+    CapacitorBonus: 53.0
+    Cpu: 25.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 5.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 2.0
+  Medium Cap Battery I:
+    CapacitorBonus: 500.0
+    Cpu: 35.0
+    EnergyWarfareResistanceBonus: -20.0
+    Hp: 40.0
+    Power: 75.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Medium Peroxide Capacitor Power Cell:
+    CapacitorBonus: 360.0
+    Cpu: 60.0
+    Hp: 40.0
+    MetaLevel: 4.0
+    Power: 75.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  X-Large Capacitor Battery II:
+    CapacitorBonus: 1750.0
+    Cpu: 125.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 1375.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 2.0
+  Medium F-4a Ld-Sulfate Capacitor Charge Unit:
+    CapacitorBonus: 345.0
+    Cpu: 63.0
+    Hp: 40.0
+    MetaLevel: 3.0
+    Power: 75.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  X-Large Ld-Acid Capacitor Battery I:
+    CapacitorBonus: 1313.0
+    Cpu: 112.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 1250.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Large Cap Battery I:
+    CapacitorBonus: 1300.0
+    Cpu: 50.0
+    EnergyWarfareResistanceBonus: -20.0
+    Hp: 40.0
+    Power: 400.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  X-Large F-4a Ld-Sulfate Capacitor Charge Unit:
+    CapacitorBonus: 1438.0
+    Cpu: 106.0
+    Hp: 40.0
+    MetaLevel: 3.0
+    Power: 1250.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Thukker Large Cap Battery:
+    CapacitorBonus: 1755.0
+    Cpu: 42.0
+    EnergyWarfareResistanceBonus: -28.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 280.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Large Cap Battery II:
+    CapacitorBonus: 1625.0
+    Cpu: 60.0
+    EnergyWarfareResistanceBonus: -25.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 480.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 2.0
+  Small Peroxide Capacitor Power Cell:
+    CapacitorBonus: 90.0
+    Cpu: 40.0
+    Hp: 40.0
+    MetaLevel: 4.0
+    Power: 10.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Domination Capital Cap Battery:
+    CapacitorBonus: 19600.0
+    Cpu: 44.0
+    EnergyWarfareResistanceBonus: -27.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 90000.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Medium Cap Battery II:
+    CapacitorBonus: 625.0
+    Cpu: 42.0
+    EnergyWarfareResistanceBonus: -25.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 90.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 2.0
+  X-Large Capacitor Battery I:
+    CapacitorBonus: 1250.0
+    Cpu: 125.0
+    Hp: 40.0
+    Power: 1250.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Micro Peroxide Capacitor Power Cell:
+    CapacitorBonus: 45.0
+    Cpu: 20.0
+    Hp: 40.0
+    MetaLevel: 4.0
+    Power: 5.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Capital Compact Pb-Acid Cap Battery:
+    CapacitorBonus: 15400.0
+    Cpu: 44.0
+    EnergyWarfareResistanceBonus: -22.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 90000.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  '''Micro'' Cap Battery':
+    CapacitorBonus: 60.0
+    Cpu: 8.0
+    EnergyWarfareResistanceBonus: -20.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    Power: 3.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Micro F-4a Ld-Sulfate Capacitor Charge Unit:
+    CapacitorBonus: 43.0
+    Cpu: 21.0
+    Hp: 40.0
+    MetaLevel: 3.0
+    Power: 5.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Large Compact Pb-Acid Cap Battery:
+    CapacitorBonus: 1430.0
+    Cpu: 40.0
+    EnergyWarfareResistanceBonus: -22.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 320.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Republic Fleet Small Cap Battery:
+    CapacitorBonus: 168.0
+    Cpu: 16.0
+    EnergyWarfareResistanceBonus: -27.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 6.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Domination Small Cap Battery:
+    CapacitorBonus: 168.0
+    Cpu: 16.0
+    EnergyWarfareResistanceBonus: -27.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 6.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0

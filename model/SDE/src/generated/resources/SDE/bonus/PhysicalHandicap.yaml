@@ -1,0 +1,16 @@
+items:
+  Trigger-happy Bonus:
+    AccuracyMultiplier: 0.949999988079071
+  Weak Double-helix Bond Bonus:
+    AccuracyMultiplier: 1.0
+  Mechanical Inaptitude Bonus:
+    AccuracyMultiplier: 1.0
+  Short Attention Span Bonus:
+    AccuracyMultiplier: 1.0
+    CapacitorNeedMultiplier: 1.0499999523162842
+  Epileptic Bonus:
+    AccuracyMultiplier: 1.0
+  Strong Immunity System Bonus:
+    AccuracyMultiplier: 1.0
+  Wasteful Bonus:
+    AccuracyMultiplier: 1.0

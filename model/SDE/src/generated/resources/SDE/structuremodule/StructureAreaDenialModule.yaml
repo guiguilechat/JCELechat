@@ -1,0 +1,22 @@
+items:
+  Standup Point Defense Battery I:
+    CanFitShipType1: 35833.0
+    CanFitShipType2: 35834.0
+    CanFitShipType3: 40340.0
+    CanFitShipType4: 35826.0
+    CanFitShipType5: 35827.0
+    CanFitShipType6: 35836.0
+    CapacitorNeed: 1500.0
+    Cpu: 700.0
+    DeadspaceUnsafe: 2.0
+    DisallowInHighSec: 1.0
+    Duration: 10000.0
+    EmDamage: 500.0
+    EmpFieldRange: 2500.0
+    ExplosiveDamage: 500.0
+    Hp: 40.0
+    KineticDamage: 500.0
+    OnlineMaxSecurityClass: 1.0
+    Power: 50000.0
+    StructureItemVisualFlag: 1.0
+    ThermalDamage: 500.0

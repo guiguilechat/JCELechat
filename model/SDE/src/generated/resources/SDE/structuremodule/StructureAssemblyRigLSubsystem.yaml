@@ -1,0 +1,17 @@
+items:
+  Large Tech I Subsystem Manufacturing I:
+    CanFitShipGroup01: 1657.0
+    Hp: 40.0
+    RigSize: 3.0
+    StructureRigBonus1: 32.0
+    StructureRigBonus2: 3.200000047683716
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Large Tech I Subsystem Manufacturing II:
+    CanFitShipGroup01: 1657.0
+    Hp: 40.0
+    RigSize: 3.0
+    StructureRigBonus1: 40.0
+    StructureRigBonus2: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0

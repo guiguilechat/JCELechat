@@ -1,0 +1,555 @@
+items:
+  Capital Anti-Thermal Screen Reinforcer I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -30.0
+    UpgradeCost: 50.0
+  Large Anti-Kinetic Screen Reinforcer II:
+    Drawback: 10.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -35.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Capital Core Defense Field Extender I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    ShieldCapacityBonus: 15.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Capital Anti-Kinetic Screen Reinforcer I:
+    Drawback: 10.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -30.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Core Defense Operational Solidifier II:
+    Drawback: 10.0
+    DurationSkillBonus: -20.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Small Core Defense Field Purger II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Rechargeratebonus: -25.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Capital Core Defense Capacitor Safeguard I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    ShieldBoostCapacitorBonus: -10.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Core Defense Capacitor Safeguard I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    ShieldBoostCapacitorBonus: -10.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Anti-Thermal Screen Reinforcer II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    ThermalDamageResistanceBonus: -35.0
+    UpgradeCost: 75.0
+  Capital Core Defense Capacitor Safeguard II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    ShieldBoostCapacitorBonus: -15.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Core Defense Field Extender I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    ShieldCapacityBonus: 15.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Medium Anti-Explosive Screen Reinforcer II:
+    Drawback: 10.0
+    ExplosiveDamageResistanceBonus: -35.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Core Defense Charge Economizer II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    PowerNeedBonus: -15.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small Core Defense Charge Economizer I:
+    Drawback: 10.0
+    Hp: 40.0
+    PowerNeedBonus: -10.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Medium Core Defense Charge Economizer I:
+    Drawback: 10.0
+    Hp: 40.0
+    PowerNeedBonus: -10.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Anti-Thermal Screen Reinforcer II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    ThermalDamageResistanceBonus: -35.0
+    UpgradeCost: 75.0
+  Medium Core Defense Operational Solidifier II:
+    Drawback: 10.0
+    DurationSkillBonus: -20.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Large Anti-Kinetic Screen Reinforcer I:
+    Drawback: 10.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -30.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Capital Anti-EM Screen Reinforcer II:
+    Drawback: 10.0
+    EmDamageResistanceBonus: -35.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Capital Core Defense Charge Economizer II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    PowerNeedBonus: -15.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Large Core Defense Field Extender I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    ShieldCapacityBonus: 15.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Core Defense Field Purger I:
+    Drawback: 10.0
+    Hp: 40.0
+    Rechargeratebonus: -20.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Medium Core Defense Field Purger I:
+    Drawback: 10.0
+    Hp: 40.0
+    Rechargeratebonus: -20.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Anti-Thermal Screen Reinforcer I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -30.0
+    UpgradeCost: 50.0
+  Large Core Defense Field Purger I:
+    Drawback: 10.0
+    Hp: 40.0
+    Rechargeratebonus: -20.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Capital Core Defense Operational Solidifier II:
+    Drawback: 10.0
+    DurationSkillBonus: -20.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Small Core Defense Charge Economizer II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    PowerNeedBonus: -15.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Core Defense Field Extender II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    ShieldCapacityBonus: 20.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Capital Core Defense Charge Economizer I:
+    Drawback: 10.0
+    Hp: 40.0
+    PowerNeedBonus: -10.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Core Defense Operational Solidifier II:
+    Drawback: 10.0
+    DurationSkillBonus: -20.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Large Anti-EM Screen Reinforcer II:
+    Drawback: 10.0
+    EmDamageResistanceBonus: -35.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Shield Transporter Rig I:
+    CapNeedBonus: -20.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Capital Anti-Explosive Screen Reinforcer II:
+    Drawback: 10.0
+    ExplosiveDamageResistanceBonus: -35.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small Anti-Explosive Screen Reinforcer II:
+    Drawback: 10.0
+    ExplosiveDamageResistanceBonus: -35.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Capital Core Defense Field Extender II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    ShieldCapacityBonus: 20.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Shield Transporter Rig II:
+    CapNeedBonus: -25.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 150.0
+  Large Anti-Explosive Screen Reinforcer I:
+    Drawback: 10.0
+    ExplosiveDamageResistanceBonus: -30.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Core Defense Charge Economizer I:
+    Drawback: 10.0
+    Hp: 40.0
+    PowerNeedBonus: -10.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Capital Anti-Thermal Screen Reinforcer II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    ThermalDamageResistanceBonus: -35.0
+    UpgradeCost: 75.0
+  Small Core Defense Field Extender I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    ShieldCapacityBonus: 15.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Anti-EM Screen Reinforcer I:
+    Drawback: 10.0
+    EmDamageResistanceBonus: -30.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Medium Anti-EM Screen Reinforcer I:
+    Drawback: 10.0
+    EmDamageResistanceBonus: -30.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Anti-Explosive Screen Reinforcer I:
+    Drawback: 10.0
+    ExplosiveDamageResistanceBonus: -30.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Medium Anti-EM Screen Reinforcer II:
+    Drawback: 10.0
+    EmDamageResistanceBonus: -35.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Anti-Thermal Screen Reinforcer I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -30.0
+    UpgradeCost: 50.0
+  Medium Core Defense Operational Solidifier I:
+    Drawback: 10.0
+    DurationSkillBonus: -15.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Capital Core Defense Field Purger II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Rechargeratebonus: -25.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small Core Defense Operational Solidifier I:
+    Drawback: 10.0
+    DurationSkillBonus: -15.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Capital Anti-Explosive Screen Reinforcer I:
+    Drawback: 10.0
+    ExplosiveDamageResistanceBonus: -30.0
+    Hp: 40.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Capital Anti-Kinetic Screen Reinforcer II:
+    Drawback: 10.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -35.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Large Core Defense Capacitor Safeguard I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    ShieldBoostCapacitorBonus: -10.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Core Defense Field Extender II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    ShieldCapacityBonus: 20.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Large Core Defense Field Purger II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Rechargeratebonus: -25.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Capital Anti-EM Screen Reinforcer I:
+    Drawback: 10.0
+    EmDamageResistanceBonus: -30.0
+    Hp: 40.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Core Defense Field Extender II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    ShieldCapacityBonus: 20.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Large Anti-EM Screen Reinforcer I:
+    Drawback: 10.0
+    EmDamageResistanceBonus: -30.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Core Defense Capacitor Safeguard II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    ShieldBoostCapacitorBonus: -15.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Core Defense Field Purger II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Rechargeratebonus: -25.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Anti-Explosive Screen Reinforcer I:
+    Drawback: 10.0
+    ExplosiveDamageResistanceBonus: -30.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Core Defense Capacitor Safeguard II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    ShieldBoostCapacitorBonus: -15.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small Anti-Kinetic Screen Reinforcer II:
+    Drawback: 10.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -35.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Anti-Thermal Screen Reinforcer II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    ThermalDamageResistanceBonus: -35.0
+    UpgradeCost: 75.0
+  Small Anti-EM Screen Reinforcer II:
+    Drawback: 10.0
+    EmDamageResistanceBonus: -35.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Anti-Kinetic Screen Reinforcer II:
+    Drawback: 10.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -35.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small Anti-Thermal Screen Reinforcer I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -30.0
+    UpgradeCost: 50.0
+  Medium Core Defense Capacitor Safeguard II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    ShieldBoostCapacitorBonus: -15.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Large Core Defense Charge Economizer II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    PowerNeedBonus: -15.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Anti-Kinetic Screen Reinforcer I:
+    Drawback: 10.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -30.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Anti-Kinetic Screen Reinforcer I:
+    Drawback: 10.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -30.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Capital Core Defense Field Purger I:
+    Drawback: 10.0
+    Hp: 40.0
+    Rechargeratebonus: -20.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Capital Core Defense Operational Solidifier I:
+    Drawback: 10.0
+    DurationSkillBonus: -15.0
+    Hp: 40.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Large Anti-Explosive Screen Reinforcer II:
+    Drawback: 10.0
+    ExplosiveDamageResistanceBonus: -35.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Core Defense Capacitor Safeguard I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    ShieldBoostCapacitorBonus: -10.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Core Defense Operational Solidifier I:
+    Drawback: 10.0
+    DurationSkillBonus: -15.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0

@@ -9,6 +9,7 @@
 		<module>ESI</module>
 		<module>APIv2</module>
 		<module>ESI-compiler</module>
+		<module>SDE</module>
 	</modules>
 	<artifactId>model</artifactId>
 	<parent>
@@ -16,7 +17,7 @@
 		<artifactId>Common</artifactId>
 		<version>1.0.3</version>
 	</parent>
-	<version>17.12.05</version>
+	<version>18.01.10</version>
 	<scm>
 		<url>https://github.com/guiguilechat/EveOnline</url>
 		<connection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</connection>

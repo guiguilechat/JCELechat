@@ -1,0 +1,33 @@
+items:
+  Oceanic Storage Facility:
+    CpuLoad: 500.0
+    PlanetRestriction: 2014.0
+    PowerLoad: 700.0
+  Storm Storage Facility:
+    CpuLoad: 500.0
+    PlanetRestriction: 2017.0
+    PowerLoad: 700.0
+  Barren Storage Facility:
+    CpuLoad: 500.0
+    PlanetRestriction: 2016.0
+    PowerLoad: 700.0
+  Plasma Storage Facility:
+    CpuLoad: 500.0
+    PlanetRestriction: 2063.0
+    PowerLoad: 700.0
+  Gas Storage Facility:
+    CpuLoad: 500.0
+    PlanetRestriction: 13.0
+    PowerLoad: 700.0
+  Lava Storage Facility:
+    CpuLoad: 500.0
+    PlanetRestriction: 2015.0
+    PowerLoad: 700.0
+  Temperate Storage Facility:
+    CpuLoad: 500.0
+    PlanetRestriction: 11.0
+    PowerLoad: 700.0
+  Ice Storage Facility:
+    CpuLoad: 500.0
+    PlanetRestriction: 12.0
+    PowerLoad: 700.0
