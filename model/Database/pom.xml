@@ -51,6 +51,11 @@
 			<artifactId>APIv2</artifactId>
 			<version>${project.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.eveonline.model</groupId>
+			<artifactId>SDE-compiler</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>

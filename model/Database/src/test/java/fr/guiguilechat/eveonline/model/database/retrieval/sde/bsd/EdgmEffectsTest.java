@@ -6,13 +6,13 @@ import java.util.HashMap;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.eveonline.model.sde.bsd.EdgmEffects;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmEffects;
 
 public class EdgmEffectsTest {
-	
+
 	/***
 	 * ensure we can parse the corresponding file
-	 * 
+	 *
 	 * @throws FileNotFoundException
 	 */
 	@Test

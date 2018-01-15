@@ -8,13 +8,13 @@ import java.util.HashSet;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeEffects;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeEffects;
 
 public class EdgmTypeEffectsTest {
 
 	/***
 	 * ensure we can parse the corresponding file
-	 * 
+	 *
 	 * @throws FileNotFoundException
 	 */
 	@Test

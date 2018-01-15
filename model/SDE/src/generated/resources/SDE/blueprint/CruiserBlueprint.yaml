@@ -79,6 +79,8 @@ items:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1.0
     TechLevel: 1.0
+  毒蜥级YC117年特��版蓝图:
+    TechLevel: 1.0
   Rapier Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1.0
@@ -115,8 +117,6 @@ items:
   Stabber Fleet Issue Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
-  银鹰级YC117年特别版蓝图:
     TechLevel: 1.0
   Caracal Blueprint:
     IndustryBlueprintRank: 40.0
@@ -185,6 +185,8 @@ items:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1.0
     TechLevel: 2.0
+  银鹰级YC117年特���版蓝图:
+    TechLevel: 1.0
   Vexor Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1.0
@@ -262,8 +264,6 @@ items:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1.0
     TechLevel: 2.0
-  毒蜥级YC117年特别版蓝图:
-    TechLevel: 1.0
   Enforcer Blueprint:
     IndustryJobCostMultiplier: 1.0
     TechLevel: 1.0

@@ -19,8 +19,6 @@ items:
     Gender: 2.0
   GDN-9 "Nightstalker" Combat Goggles:
     Gender: 2.0
-  'Women''s ���Mirelle” Upwell Executive Spectacles ':
-    Gender: 3.0
   Odin Synthetic Eye (left/gold):
     Gender: 2.0
   Women's 'Farsight' Augmented Spectacles:
@@ -39,5 +37,7 @@ items:
     Gender: 2.0
   Odin Synthetic Eye (right/gray):
     Gender: 2.0
+  'Women''s “Mirelle” Upwell Executive Spectacles ':
+    Gender: 3.0
   Men's 'Farsight' Augmented Spectacles:
     Gender: 1.0

@@ -127,7 +127,6 @@ items:
   Tactical Assault Rifle: {}
   Duvolle Specialist Shotgun: {}
   '''Gravepin'' N7-A Magsec SMG': {}
-  Beacon��s ELI-74 Swarm Launcher: {}
   '''Scattermind'' Swarm Launcher': {}
   Laser Rifle: {}
   Staff Recruiter Laser Rifle: {}
@@ -636,6 +635,7 @@ items:
   Contact Grenade: {}
   '''Pyrus'' Allotek Nova Knives': {}
   Militia Combat Rifle: {}
+  Beacon’s ELI-74 Swarm Launcher: {}
   '''Deathchorus'' ELM-7 Laser Rifle': {}
   Experimental Mass Driver: {}
   State Swarm Launcher: {}

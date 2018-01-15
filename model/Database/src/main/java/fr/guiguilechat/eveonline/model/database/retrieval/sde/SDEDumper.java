@@ -42,22 +42,22 @@ import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.raw.Character;
 import fr.guiguilechat.eveonline.model.esi.raw.ESIRaw;
 import fr.guiguilechat.eveonline.model.esi.raw.ESIUniverse;
-import fr.guiguilechat.eveonline.model.sde.bsd.EagtAgents;
-import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeAttributes;
-import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeEffects;
-import fr.guiguilechat.eveonline.model.sde.bsd.EstaStations;
-import fr.guiguilechat.eveonline.model.sde.cache.SDECache;
-import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints;
-import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints.Material;
-import fr.guiguilechat.eveonline.model.sde.fsd.EcategoryIDs;
-import fr.guiguilechat.eveonline.model.sde.fsd.EgroupIDs;
-import fr.guiguilechat.eveonline.model.sde.fsd.EtypeIDs;
-import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData;
-import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.AsteroidBelt;
-import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.Moon;
-import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.NPCStation;
-import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.Planet;
-import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.Stargate;
+import fr.guiguilechat.eveonline.model.sde.load.SDECache;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgents;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeAttributes;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeEffects;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EstaStations;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EcategoryIDs;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EgroupIDs;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.AsteroidBelt;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.Moon;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.NPCStation;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.Planet;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.Stargate;
 import fr.guiguilechat.eveonline.model.sde.model.IndustryUsages;
 import is.ccp.tech.esi.responses.R_get_corporations_corporation_id;
 import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers;
@@ -529,7 +529,8 @@ public class SDEDumper {
 		}
 	}
 
-	public static Activity convertEblueprint(fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints.BPActivities.Activity activity,
+	public static Activity convertEblueprint(
+			fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.BPActivities.Activity activity,
 			SDEData sde) {
 		Activity ret = new Activity();
 		ret.time = activity.time;
@@ -550,7 +551,7 @@ public class SDEDumper {
 	}
 
 	public static fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill convertSkill(
-			fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints.Skill skill, SDEData sde) {
+			fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Skill skill, SDEData sde) {
 		fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill ret = new Skill();
 		ret.level = skill.level;
 		ret.name = sde.getType(skill.typeID).enName();
