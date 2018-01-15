@@ -23,6 +23,14 @@ items:
     Hp: 1.0E8
     SignatureRadius: 100.0
     StructureUniformity: 1.0
+  泰坦会战纪念碑:
+    EntityAttackRange: 15000.0
+    EntityChaseMaxDistance: 2500.0
+    EntityFlyRange: 500.0
+    Falloff: 1.0
+    Hp: 1.0E8
+    SignatureRadius: 100.0
+    StructureUniformity: 1.0
   Caldari Chimera Carrier:
     EntityAttackRange: 15000.0
     EntityChaseMaxDistance: 2500.0
@@ -4614,14 +4622,6 @@ items:
     SignatureRadius: 100.0
     StructureUniformity: 1.0
   Angel Fence:
-    EntityAttackRange: 15000.0
-    EntityChaseMaxDistance: 2500.0
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
-    StructureUniformity: 1.0
-  泰坦会战纪��碑:
     EntityAttackRange: 15000.0
     EntityChaseMaxDistance: 2500.0
     EntityFlyRange: 500.0

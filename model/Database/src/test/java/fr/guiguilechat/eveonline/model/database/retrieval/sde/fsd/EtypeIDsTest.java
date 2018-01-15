@@ -6,14 +6,14 @@ import java.util.LinkedHashMap;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.eveonline.model.sde.fsd.EtypeIDs;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
 
 
 public class EtypeIDsTest {
 
 	/***
 	 * ensure we can parse the corresponding file
-	 * 
+	 *
 	 * @throws FileNotFoundException
 	 */
 	@Test

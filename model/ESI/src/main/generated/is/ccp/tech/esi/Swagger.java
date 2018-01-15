@@ -273,12 +273,6 @@ public interface Swagger
         return convert(fetched, is.ccp.tech.esi.responses.R_get_characters_character_id_calendar_event_id_attendees[].class);
     }
 
-    public default R_get_characters_character_id_stats[] get_characters_character_id_stats(long character_id) {
-        String url="https://esi.tech.ccp.is/latest/characters/{character_id}/stats/".replace("{character_id}", ""+character_id);
-        String fetched=connectGet(url,true);
-        return convert(fetched, is.ccp.tech.esi.responses.R_get_characters_character_id_stats[].class);
-    }
-
     public default R_get_characters_character_id get_characters_character_id(long character_id) {
         String url="https://esi.tech.ccp.is/latest/characters/{character_id}/".replace("{character_id}", ""+character_id);
         String fetched=connectGet(url,false);
@@ -369,6 +363,12 @@ public interface Swagger
         String url="https://esi.tech.ccp.is/latest/characters/{character_id}/titles/".replace("{character_id}", ""+character_id);
         String fetched=connectGet(url,true);
         return convert(fetched, is.ccp.tech.esi.responses.R_get_characters_character_id_titles[].class);
+    }
+
+    public default R_get_characters_character_id_stats[] get_characters_character_id_stats(long character_id) {
+        String url="https://esi.tech.ccp.is/latest/characters/{character_id}/stats/".replace("{character_id}", ""+character_id);
+        String fetched=connectGet(url,true);
+        return convert(fetched, is.ccp.tech.esi.responses.R_get_characters_character_id_stats[].class);
     }
 
     public default R_get_characters_character_id_clones get_characters_character_id_clones(long character_id) {
@@ -995,6 +995,14 @@ public interface Swagger
         return convert(fetched, is.ccp.tech.esi.responses.R_get_status.class);
     }
 
+    public default R_post_universe_ids post_universe_ids(String[] names) {
+        String url="https://esi.tech.ccp.is/latest/universe/ids/";
+        java.util.Map<String, String> content = new java.util.HashMap<>();
+        content.put("names", flatten(names));
+        String fetched=connectPost(url, content,false);
+        return convert(fetched, is.ccp.tech.esi.responses.R_post_universe_ids.class);
+    }
+
     public default R_get_universe_planets_planet_id get_universe_planets_planet_id(long planet_id) {
         String url="https://esi.tech.ccp.is/latest/universe/planets/{planet_id}/".replace("{planet_id}", ""+planet_id);
         String fetched=connectGet(url,false);
@@ -1157,14 +1165,6 @@ public interface Swagger
         String url="https://esi.tech.ccp.is/latest/universe/stars/{star_id}/".replace("{star_id}", ""+star_id);
         String fetched=connectGet(url,false);
         return convert(fetched, is.ccp.tech.esi.responses.R_get_universe_stars_star_id.class);
-    }
-
-    public default R_post_universe_ids post_universe_ids(String[] names) {
-        String url="https://esi.tech.ccp.is/latest/universe/ids/";
-        java.util.Map<String, String> content = new java.util.HashMap<>();
-        content.put("names", flatten(names));
-        String fetched=connectPost(url, content,false);
-        return convert(fetched, is.ccp.tech.esi.responses.R_post_universe_ids.class);
     }
 
     public default double get_characters_character_id_wallet(long character_id) {
