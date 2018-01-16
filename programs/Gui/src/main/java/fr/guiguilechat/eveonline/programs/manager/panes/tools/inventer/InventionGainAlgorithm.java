@@ -126,8 +126,9 @@ public class InventionGainAlgorithm {
 					// advanced industry reduces by 3%
 					* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
 
-			// get the avg time to produce an item during a cycle.
-			data.manufacturingTime = (long) (bpc.manufacturing.time * (1.0 - 0.01 * inventedTE)
+			// get the avg time to produce the items during a cycle.
+			data.manufacturingTime = (long) (data.inventionProbability * data.inventedRuns * bpc.manufacturing.time
+					* (1.0 - 0.01 * inventedTE)
 					// struct bonus
 					* (1.0 - 0.01 * manufStruct.te) * (1.0 - 0.04 * skills.getOrDefault("Industry", 0))
 					* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
