@@ -1161,7 +1161,7 @@ metaInfs:
     - Gravitational Transportation Field Oscillator Blueprint
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
     - ‘Iron Pike’ Kinetic Lance Blueprint
-    - ���Phalarica’ Thermal Lance Blueprint
+    - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
     - ‘Cold Wind’ Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
@@ -2331,7 +2331,7 @@ metaInfs:
     - Gravitational Transportation Field Oscillator Blueprint
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
     - ‘Iron Pike’ Kinetic Lance Blueprint
-    - ���Phalarica’ Thermal Lance Blueprint
+    - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
     - ‘Cold Wind’ Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
@@ -3308,7 +3308,7 @@ metaInfs:
     - Gravitational Transportation Field Oscillator Blueprint
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
     - ‘Iron Pike’ Kinetic Lance Blueprint
-    - ���Phalarica’ Thermal Lance Blueprint
+    - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
     - ‘Cold Wind’ Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
@@ -4194,7 +4194,7 @@ metaInfs:
     - Gravitational Transportation Field Oscillator Blueprint
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
     - ‘Iron Pike’ Kinetic Lance Blueprint
-    - ���Phalarica’ Thermal Lance Blueprint
+    - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
     - ‘Cold Wind’ Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
@@ -5013,7 +5013,7 @@ metaInfs:
     - Gravitational Transportation Field Oscillator Blueprint
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
     - ‘Iron Pike’ Kinetic Lance Blueprint
-    - ���Phalarica’ Thermal Lance Blueprint
+    - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
     - ‘Cold Wind’ Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
@@ -5715,7 +5715,7 @@ metaInfs:
     - Gravitational Transportation Field Oscillator Blueprint
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
     - ‘Iron Pike’ Kinetic Lance Blueprint
-    - ���Phalarica’ Thermal Lance Blueprint
+    - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
     - ‘Cold Wind’ Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
@@ -6484,7 +6484,7 @@ metaInfs:
     - Gravitational Transportation Field Oscillator Blueprint
     - ‘Holy Destiny’ Electromagnetic Lance Blueprint
     - ‘Iron Pike’ Kinetic Lance Blueprint
-    - ���Phalarica’ Thermal Lance Blueprint
+    - ‘Phalarica’ Thermal Lance Blueprint
     - ‘Geiravor’ Explosive Lance Blueprint
     - ‘Cold Wind’ Kinetic Reaper Blueprint
     - ‘Guillotine’ Thermal Reaper Blueprint
@@ -7940,7 +7940,7 @@ metaInfs:
     - Megathron Quafe Edition Blueprint
     - Megathron Police Edition Blueprint
     - Megathron Inner Zone Shipping Edition Blueprint
-    - 万王宝座级YC117年特���版蓝图
+    - 万王宝座级YC117年特别版蓝图
     productOf:
     - Megathron Blueprint
     volume: 486000.0
@@ -28474,7 +28474,7 @@ metaInfs:
   Eagle:
     id: 12011
     productIn:
-    - 银鹰级YC117年特别版蓝图
+    - 银鹰级YC117年特���版蓝图
     productOf:
     - Eagle Blueprint
     volume: 101000.0
@@ -36665,7 +36665,7 @@ metaInfs:
   Gila:
     id: 17715
     productIn:
-    - 毒蜥级YC117年特别版蓝图
+    - 毒蜥级YC117年特��版蓝图
     productOf:
     - Gila Blueprint
     volume: 101000.0
@@ -37118,7 +37118,7 @@ metaInfs:
   Rattlesnake:
     id: 17918
     productIn:
-    - 响尾蛇级YC117年��别版蓝图
+    - 响尾蛇级YC117年特别版蓝图
     productOf:
     - Rattlesnake Blueprint
     volume: 486000.0
@@ -69038,13 +69038,13 @@ metaInfs:
   马克瑞级YC117年特别版蓝图:
     id: 34462
     volume: 0.01
-  响尾蛇级YC117年��别版蓝图:
+  响尾蛇级YC117年特别版蓝图:
     id: 34464
     volume: 0.01
   多米尼克斯级YC117年特别版蓝图:
     id: 34466
     volume: 0.01
-  万王宝座级YC117年特���版蓝图:
+  万王宝座级YC117年特别版蓝图:
     id: 34468
     volume: 0.01
   乌鸦级YC117年特别版蓝图:
@@ -69056,10 +69056,10 @@ metaInfs:
   幼龙级YC117年特别版蓝图:
     id: 34474
     volume: 0.01
-  毒蜥级YC117年特别版蓝图:
+  毒蜥级YC117年特��版蓝图:
     id: 34476
     volume: 0.01
-  银鹰级YC117年特别版蓝图:
+  银鹰级YC117年特���版蓝图:
     id: 34478
     volume: 0.01
   伊什塔级YC117年特别版蓝图:
@@ -75610,7 +75610,7 @@ metaInfs:
   YC118 Succession Trial Champion’s Decree – House Khanid:
     id: 37894
     volume: 0.01
-  YC118 Succession Trial Champion’s Decree – House Kor-Azor:
+  YC118 Succession Trial Champion��s Decree – House Kor-Azor:
     id: 37895
     volume: 0.01
   YC118 Succession Trial Champion’s Decree – House Sarum:
@@ -79054,7 +79054,7 @@ metaInfs:
   Gravitational Transportation Field Oscillator Blueprint:
     id: 41438
     volume: 0.01
-  ‘Iron Pike’ Kinetic Lance:
+  ‘Iron Pike�� Kinetic Lance:
     id: 41439
     productOf:
     - ‘Iron Pike’ Kinetic Lance Blueprint
@@ -79062,7 +79062,7 @@ metaInfs:
   ‘Phalarica’ Thermal Lance:
     id: 41440
     productOf:
-    - ���Phalarica’ Thermal Lance Blueprint
+    - ‘Phalarica’ Thermal Lance Blueprint
     volume: 8000.0
   ‘Geiravor’ Explosive Lance:
     id: 41441
@@ -79090,7 +79090,7 @@ metaInfs:
   ‘Iron Pike’ Kinetic Lance Blueprint:
     id: 41446
     volume: 0.01
-  ���Phalarica’ Thermal Lance Blueprint:
+  ‘Phalarica’ Thermal Lance Blueprint:
     id: 41447
     volume: 0.01
   ‘Geiravor’ Explosive Lance Blueprint:
@@ -87335,6 +87335,165 @@ metaInfs:
   Yoiul Festival YC120 Coin (Gallente):
     id: 47064
     volume: 3.0
+  Gold Magnate Serenity YC119 SKIN (Permanent):
+    id: 47075
+    volume: 0.01
+  Gold Magnate Serenity YC119 SKIN (7 Days):
+    id: 47076
+    volume: 0.01
+  Gold Magnate Serenity YC119 SKIN (30 Days):
+    id: 47077
+    volume: 0.01
+  Gold Magnate Serenity YC119 SKIN (90 Days):
+    id: 47078
+    volume: 0.01
+  Gold Magnate Serenity YC119 SKIN (365 Days):
+    id: 47079
+    volume: 0.01
+  Hyperion Serenity YC119 SKIN (Permanent):
+    id: 47080
+    volume: 0.01
+  Hyperion Serenity YC119 SKIN (7 Days):
+    id: 47081
+    volume: 0.01
+  Hyperion Serenity YC119 SKIN (30 Days):
+    id: 47082
+    volume: 0.01
+  Hyperion Serenity YC119 SKIN (90 Days):
+    id: 47083
+    volume: 0.01
+  Hyperion Serenity YC119 SKIN (365 Days):
+    id: 47084
+    volume: 0.01
+  Naga Serenity YC119 SKIN (Permanent):
+    id: 47085
+    volume: 0.01
+  Naga Serenity YC119 SKIN (7 Days):
+    id: 47086
+    volume: 0.01
+  Naga Serenity YC119 SKIN (30 Days):
+    id: 47087
+    volume: 0.01
+  Naga Serenity YC119 SKIN (90 Days):
+    id: 47088
+    volume: 0.01
+  Naga Serenity YC119 SKIN (365 Days):
+    id: 47089
+    volume: 0.01
+  Cynabal Serenity YC119 SKIN (Permanent):
+    id: 47090
+    volume: 0.01
+  Cynabal Serenity YC119 SKIN (7 Days):
+    id: 47091
+    volume: 0.01
+  Cynabal Serenity YC119 SKIN (30 Days):
+    id: 47092
+    volume: 0.01
+  Cynabal Serenity YC119 SKIN (90 Days):
+    id: 47093
+    volume: 0.01
+  Cynabal Serenity YC119 SKIN (365 Days):
+    id: 47094
+    volume: 0.01
+  Augoror Navy Issue Serenity YC119 SKIN (Permanent):
+    id: 47095
+    volume: 0.01
+  Augoror Navy Issue Serenity YC119 SKIN (7 Days):
+    id: 47096
+    volume: 0.01
+  Augoror Navy Issue Serenity YC119 SKIN (30 Days):
+    id: 47097
+    volume: 0.01
+  Augoror Navy Issue Serenity YC119 SKIN (90 Days):
+    id: 47098
+    volume: 0.01
+  Augoror Navy Issue Serenity YC119 SKIN (365 Days):
+    id: 47099
+    volume: 0.01
+  Oracle "Blaze" Squadron SKIN (Permanent):
+    id: 47101
+    volume: 0.01
+  Armageddon "Blaze" Squadron SKIN (Permanent):
+    id: 47102
+    volume: 0.01
+  Ishtar "Blaze" Squadron SKIN (Permanent):
+    id: 47103
+    volume: 0.01
+  Hurricane "Blaze" Squadron SKIN (Permanent):
+    id: 47104
+    volume: 0.01
+  Cerberus "Blaze" Squadron SKIN (Permanent):
+    id: 47105
+    volume: 0.01
+  Barghest "Blaze" Squadron SKIN (Permanent):
+    id: 47106
+    volume: 0.01
+  Marshal Exoplanets Hunter SKIN (Permanent):
+    id: 47158
+    volume: 0.01
+  Marshal CONCORD Aerospace 'Prototype' SKIN (Permanent):
+    id: 47159
+    volume: 0.01
+  Marshal Firewatch SKIN (Permanent):
+    id: 47160
+    volume: 0.01
+  Rupture Bloody Hands SKIN (Permanent):
+    id: 47161
+    volume: 0.01
+  Muninn Bloody Hands SKIN (Permanent):
+    id: 47162
+    volume: 0.01
+  Broadsword Bloody Hands SKIN (Permanent):
+    id: 47163
+    volume: 0.01
+  Scythe Bloody Hands SKIN (Permanent):
+    id: 47164
+    volume: 0.01
+  Scythe Fleet Issue Bloody Hands SKIN (Permanent):
+    id: 47165
+    volume: 0.01
+  Scimitar Bloody Hands SKIN (Permanent):
+    id: 47166
+    volume: 0.01
+  Hurricane Bloody Hands SKIN (Permanent):
+    id: 47167
+    volume: 0.01
+  Hurricane Fleet Issue Bloody Hands SKIN (Permanent):
+    id: 47168
+    volume: 0.01
+  Sleipnir Bloody Hands SKIN (Permanent):
+    id: 47169
+    volume: 0.01
+  Tornado Bloody Hands SKIN (Permanent):
+    id: 47170
+    volume: 0.01
+  Typhoon Bloody Hands SKIN (Permanent):
+    id: 47171
+    volume: 0.01
+  Typhoon Fleet Issue Bloody Hands SKIN (Permanent):
+    id: 47172
+    volume: 0.01
+  Tempest Bloody Hands SKIN (Permanent):
+    id: 47173
+    volume: 0.01
+  Tempest Fleet Issue Bloody Hands SKIN (Permanent):
+    id: 47174
+    volume: 0.01
+  Panther Bloody Hands SKIN (Permanent):
+    id: 47175
+    volume: 0.01
+  Vargur Bloody Hands SKIN (Permanent):
+    id: 47176
+    volume: 0.01
+  Nidhoggur Bloody Hands SKIN (Permanent):
+    id: 47177
+    volume: 0.01
+  Lif Bloody Hands SKIN (Permanent):
+    id: 47178
+    volume: 0.01
+  Hel Bloody Hands SKIN (Permanent):
+    id: 47179
+    volume: 0.01
   Haunter Cruise Missile:
     productOf:
     - Sansha Wrath Cruise Missile Blueprint
@@ -87620,7 +87779,7 @@ metaInfs:
   Vexor Quafe Edition:
     productOf:
     - Vexor Quafe Edition Blueprint
-  末日沙场级YC117年��别版:
+  末日沙场级YC117年特别版:
     productOf:
     - 末日沙场级YC117年特别版蓝图
   地狱天使级YC117年特别版:
@@ -87629,30 +87788,30 @@ metaInfs:
   马克瑞级YC117年特别版:
     productOf:
     - 马克瑞级YC117年特别版蓝图
-  响尾��级YC117年特别版:
+  响尾蛇级YC117年特��版:
     productOf:
-    - 响尾蛇级YC117年��别版蓝图
-  多米尼克斯级YC117年��别版:
+    - 响尾蛇级YC117年特别版蓝图
+  多米尼克斯级YC117年特别版:
     productOf:
     - 多米尼克斯级YC117年特别版蓝图
-  万王宝座级YC117年特别版:
+  万王宝��级YC117年特别版:
     productOf:
-    - 万王宝座级YC117年特���版蓝图
+    - 万王宝座级YC117年特别版蓝图
   乌鸦级YC117年特别版:
     productOf:
     - 乌鸦级YC117年特别版蓝图
-  灾难级YC117年特别版:
+  ���难级YC117年特别版:
     productOf:
     - 灾难级YC117年特别版蓝图
-  ���龙级YC117年特别版:
+  幼龙级YC117年特别版:
     productOf:
     - 幼龙级YC117年特别版蓝图
   毒蜥级YC117年特别版:
     productOf:
-    - 毒蜥级YC117年特别版蓝图
+    - 毒蜥级YC117年特��版蓝图
   银鹰级YC117年特别版:
     productOf:
-    - 银鹰级YC117年特别版蓝图
-  伊什塔级YC117年特别版:
+    - 银鹰级YC117年特���版蓝图
+  伊什塔级YC117年特��版:
     productOf:
     - 伊什塔级YC117年特别版蓝图
