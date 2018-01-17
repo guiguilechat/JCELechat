@@ -23,12 +23,12 @@ public class SolarSystem {
 	public int wormholeClassID;
 	public int factionID;
 
-	public boolean border;
-	public boolean corridor;
-	public boolean fringe;
-	public boolean hub;
-	public boolean international;
-	public boolean regional;
+	public boolean border = false;
+	public boolean corridor = false;
+	public boolean fringe = false;
+	public boolean hub = false;
+	public boolean international = false;
+	public boolean regional = false;
 
 	public ArrayList<String> disallowedAnchorCategories = new ArrayList<>();
 	public ArrayList<Integer> disallowedAnchorGroups = new ArrayList<>();

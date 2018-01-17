@@ -1,9 +1,17 @@
 package fr.guiguilechat.eveonline.model.sde.locations;
 
-/** abstract class for locations */
-public abstract class ALocation {
+import java.util.ArrayList;
 
-	// all locations have id
+public class ALocation {
+
 	public int id;
+
+	public boolean isWormhole = false;
+
+	public ArrayList<String> adjacentSystems = new ArrayList<>();
+
+	public ArrayList<String> adjacentConstellations = new ArrayList<>();
+
+	public ArrayList<String> adjacentRegions = new ArrayList<>();
 
 }

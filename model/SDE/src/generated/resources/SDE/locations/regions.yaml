@@ -1,0 +1,3279 @@
+locations:
+  A-R00001:
+    constellations:
+    - A-C00322
+    - A-C00311
+    - A-C00312
+    - A-C00323
+    - A-C00313
+    - A-C00314
+    - A-C00325
+    - A-C00320
+    - A-C00321
+    - A-C00319
+    - A-C00315
+    - A-C00316
+    - A-C00317
+    - A-C00318
+    id: 11000001
+    isWormhole: true
+  A-R00002:
+    constellations:
+    - A-C00014
+    - A-C00003
+    - A-C00004
+    - A-C00005
+    - A-C00006
+    - A-C00010
+    - A-C00011
+    - A-C00001
+    - A-C00012
+    - A-C00002
+    - A-C00013
+    - A-C00007
+    - A-C00008
+    - A-C00009
+    id: 11000002
+    isWormhole: true
+  A-R00003:
+    constellations:
+    - A-C00020
+    - A-C00018
+    - A-C00019
+    - A-C00015
+    - A-C00016
+    - A-C00017
+    id: 11000003
+    isWormhole: true
+  A821-A:
+    constellations:
+    - O-BSIB
+    - B9J-NT
+    - 6I-9Y2
+    - UN2H-D
+    - W1-F3U
+    - F-0CTG
+    - 826-A5
+    id: 10000019
+    isWormhole: false
+  Aridia:
+    adjacentConstellations:
+    - Panoumid
+    - YX-LYK
+    - Alpakian
+    - Taurus
+    - Aven
+    - Elerelle
+    adjacentRegions:
+    - Kor-Azor
+    - Delve
+    - Khanid
+    - Fountain
+    - Genesis
+    - Solitude
+    adjacentSystems:
+    - Zinkon
+    - 1-SMEB
+    - Rafeme
+    - D4KU-5
+    - Otakod
+    - Agaullores
+    constellations:
+    - Mareerieh
+    - Afinoo
+    - Helab
+    - Leseasesh
+    - Fabai
+    - Selonat
+    - Maal
+    - Ombil
+    - Mayonhen
+    - Tid
+    - Anama
+    id: 10000054
+    isWormhole: false
+  B-R00004:
+    constellations:
+    - B-C00030
+    - B-C00021
+    - B-C00027
+    - B-C00026
+    - B-C00326
+    - B-C00029
+    - B-C00028
+    - B-C00023
+    - B-C00022
+    - B-C00025
+    - B-C00024
+    id: 11000004
+    isWormhole: true
+  B-R00005:
+    constellations:
+    - B-C00040
+    - B-C00032
+    - B-C00031
+    - B-C00038
+    - B-C00037
+    - B-C00039
+    - B-C00034
+    - B-C00033
+    - B-C00036
+    - B-C00035
+    id: 11000005
+    isWormhole: true
+  B-R00006:
+    constellations:
+    - B-C00052
+    - B-C00041
+    - B-C00051
+    - B-C00054
+    - B-C00043
+    - B-C00053
+    - B-C00042
+    - B-C00050
+    - B-C00049
+    - B-C00048
+    - B-C00045
+    - B-C00044
+    - B-C00047
+    - B-C00046
+    id: 11000006
+    isWormhole: true
+  B-R00007:
+    constellations:
+    - B-C00059
+    - B-C00056
+    - B-C00055
+    - B-C00058
+    - B-C00057
+    id: 11000007
+    isWormhole: true
+  B-R00008:
+    constellations:
+    - B-C00063
+    - B-C00074
+    - B-C00062
+    - B-C00073
+    - B-C00065
+    - B-C00064
+    - B-C00075
+    - B-C00070
+    - B-C00061
+    - B-C00072
+    - B-C00071
+    - B-C00060
+    - B-C00067
+    - B-C00066
+    - B-C00069
+    - B-C00068
+    id: 11000008
+    isWormhole: true
+  BlackRise:
+    adjacentConstellations:
+    - Amevync
+    - Tinnimerci
+    - Umamon
+    - Malariya
+    - Jeon
+    - Isoma
+    - Minnen
+    - Ieyama
+    adjacentRegions:
+    - Placid
+    - CloudRing
+    - Lonetrek
+    - Essence
+    - TheCitadel
+    adjacentSystems:
+    - Aldranette
+    - W-4NUU
+    - Karjataimon
+    - Ohbochi
+    - Oicx
+    - Abune
+    - Tama
+    - Piak
+    - Manjonakko
+    constellations:
+    - Ishaga
+    - Urpiken
+    - Inolari
+    - Okakuola
+    - Aokinen
+    - Kurala
+    id: 10000069
+    isWormhole: false
+  Branch:
+    adjacentConstellations:
+    - 1D-65L
+    - D-AWFI
+    - W9MQ-1
+    - XHYS-O
+    - 09-4XW
+    - M-J57M
+    adjacentRegions:
+    - Tenal
+    - Deklein
+    - Venal
+    adjacentSystems:
+    - Q1U-IU
+    - UJY-HE
+    - 9IPC-E
+    - 2-3Q2G
+    - 92D-OI
+    - ZXA-V6
+    - H1-ESN
+    constellations:
+    - BI-NFW
+    - T-RQ7S
+    - LIB-F9
+    - GP-GIU
+    - E-312G
+    - XPBM-F
+    - JE7-F2
+    - KWCZ-A
+    - C-ULS4
+    - 304-QS
+    - Q5KW-Z
+    - BZ-10K
+    - 0C-PZ4
+    - 8-IL7S
+    id: 10000055
+    isWormhole: false
+  C-R00009:
+    constellations:
+    - C-C00076
+    - C-C00077
+    - C-C00083
+    - C-C00084
+    - C-C00081
+    - C-C00082
+    - C-C00327
+    - C-C00080
+    - C-C00078
+    - C-C00079
+    id: 11000009
+    isWormhole: true
+  C-R00010:
+    constellations:
+    - C-C00087
+    - C-C00088
+    - C-C00085
+    - C-C00086
+    - C-C00092
+    - C-C00090
+    - C-C00091
+    - C-C00089
+    id: 11000010
+    isWormhole: true
+  C-R00011:
+    constellations:
+    - C-C00098
+    - C-C00099
+    - C-C00096
+    - C-C00097
+    - C-C00094
+    - C-C00095
+    - C-C00093
+    - C-C00104
+    - C-C00105
+    - C-C00102
+    - C-C00103
+    - C-C00100
+    - C-C00101
+    id: 11000011
+    isWormhole: true
+  C-R00012:
+    constellations:
+    - C-C00120
+    - C-C00121
+    - C-C00110
+    - C-C00106
+    - C-C00117
+    - C-C00107
+    - C-C00118
+    - C-C00115
+    - C-C00116
+    - C-C00113
+    - C-C00114
+    - C-C00111
+    - C-C00112
+    - C-C00119
+    - C-C00108
+    - C-C00109
+    id: 11000012
+    isWormhole: true
+  C-R00013:
+    constellations:
+    - C-C00128
+    - C-C00126
+    - C-C00127
+    - C-C00124
+    - C-C00125
+    - C-C00122
+    - C-C00123
+    id: 11000013
+    isWormhole: true
+  C-R00014:
+    constellations:
+    - C-C00131
+    - C-C00142
+    - C-C00143
+    - C-C00132
+    - C-C00140
+    - C-C00141
+    - C-C00130
+    - C-C00139
+    - C-C00129
+    - C-C00137
+    - C-C00138
+    - C-C00135
+    - C-C00136
+    - C-C00133
+    - C-C00134
+    id: 11000014
+    isWormhole: true
+  C-R00015:
+    constellations:
+    - C-C00151
+    - C-C00152
+    - C-C00150
+    - C-C00148
+    - C-C00149
+    - C-C00146
+    - C-C00147
+    - C-C00144
+    - C-C00145
+    id: 11000015
+    isWormhole: true
+  Cache:
+    adjacentConstellations:
+    - 6GU-AT
+    - OWT3-6
+    - X5O9-E
+    - V2S-RH
+    - U-IOR1
+    - 8-4EFQ
+    - J0-59Y
+    - I3-2J0
+    adjacentRegions:
+    - OuterPassage
+    - TheSpire
+    - Insmother
+    - GreatWildlands
+    adjacentSystems:
+    - LTT-AP
+    - DVN6-0
+    - XUPK-Z
+    - 3-0FYP
+    - RT64-C
+    - 5-2PQU
+    - C1G-XC
+    - JNG7-K
+    - K-IYNW
+    constellations:
+    - MRC-29
+    - Y-JSM8
+    - BVA-YH
+    - VSC-W9
+    - FQ-COP
+    - VS-8P0
+    - 5HN-S5
+    id: 10000007
+    isWormhole: false
+  Catch:
+    adjacentConstellations:
+    - AZBG-H
+    - Q-6LG1
+    - 4BZ-R3
+    - 5VN-B7
+    - MY-QQI
+    - 5J-SSP
+    - Heaven
+    - G2E-RJ
+    - MPJW-6
+    - Paradise
+    - Youledian
+    - QP6B-I
+    adjacentRegions:
+    - Providence
+    - Stain
+    - Immensea
+    - Impass
+    - Curse
+    - Querious
+    - Khanid
+    - Tenerifis
+    adjacentSystems:
+    - OXIY-V
+    - DP-JD4
+    - 3KB-J0
+    - T-RPFU
+    - DSS-EZ
+    - XD-JW7
+    - N-CREL
+    - Jamunda
+    - 9UY4-H
+    - 49-U6U
+    - 0SHT-A
+    - Keberz
+    - D-GTMI
+    - 3L3N-X
+    constellations:
+    - NNLX-K
+    - 9HXQ-G
+    - N-OGI1
+    - T-1WDH
+    - JZV-O6
+    - EM-L3K
+    - FDR-EQ
+    - 6JCS-4
+    - T-HHHT
+    - BRP2-K
+    - UX3-N2
+    - XR9-LP
+    - U-JTBT
+    - A-JI5E
+    - ZW-BY5
+    id: 10000014
+    isWormhole: false
+  CloudRing:
+    adjacentConstellations:
+    - 7X-X1Y
+    - Centaur
+    - Scepter
+    - 49A-BZ
+    - Urpiken
+    - 0A-73B
+    - Amevync
+    adjacentRegions:
+    - Fade
+    - Fountain
+    - OuterRing
+    - Syndicate
+    - BlackRise
+    - PureBlind
+    - Placid
+    adjacentSystems:
+    - E9KD-N
+    - J5A-IX
+    - IZ-AOB
+    - A-SJ8X
+    - Okagaiken
+    - 7D-0SQ
+    - Alsavoinon
+    constellations:
+    - Assilot
+    - Yrton
+    - Miennue
+    - Tinnimerci
+    - Prelle
+    - Balenne
+    id: 10000051
+    isWormhole: false
+  CobaltEdge:
+    adjacentConstellations:
+    - 2-ZRM0
+    - NPL-WH
+    - CZ-06R
+    - O9X-CV
+    - DOCS-O
+    adjacentRegions:
+    - Tenal
+    - OuterPassage
+    - Oasa
+    adjacentSystems:
+    - SF-XJS
+    - 2ID-87
+    - R8WV-7
+    - IAMJ-Q
+    - XXZ-3W
+    - U9SE-N
+    constellations:
+    - BB-48X
+    - N4TD-6
+    - I-WRVM
+    - QJ2-0M
+    - XHL-TZ
+    - 5ZAB-N
+    - G3-MU3
+    - SI1-CF
+    - DA0V-R
+    - HNZF-Z
+    id: 10000053
+    isWormhole: false
+  Curse:
+    adjacentConstellations:
+    - 51ZT-6
+    - EM-L3K
+    - Anares
+    - V-LQBF
+    - Y-M7ML
+    - UX3-N2
+    adjacentRegions:
+    - ScaldingPass
+    - Catch
+    - Derelik
+    - GreatWildlands
+    adjacentSystems:
+    - S-E6ES
+    - 1P-WGB
+    - Sendaya
+    - ARG-3R
+    - UT-UZB
+    - ZFJH-T
+    - U-QVWD
+    constellations:
+    - Hale
+    - Rapture
+    - Heaven
+    - Tranquillity
+    - Elysium
+    - Sound
+    - Paradise
+    id: 10000012
+    isWormhole: false
+  D-R00016:
+    constellations:
+    - D-C00155
+    - D-C00154
+    - D-C00153
+    - D-C00161
+    - D-C00160
+    - D-C00328
+    - D-C00159
+    - D-C00158
+    - D-C00157
+    - D-C00156
+    id: 11000016
+    isWormhole: true
+  D-R00017:
+    constellations:
+    - D-C00165
+    - D-C00164
+    - D-C00163
+    - D-C00162
+    id: 11000017
+    isWormhole: true
+  D-R00018:
+    constellations:
+    - D-C00166
+    - D-C00170
+    - D-C00171
+    - D-C00172
+    - D-C00169
+    - D-C00168
+    - D-C00167
+    id: 11000018
+    isWormhole: true
+  D-R00019:
+    constellations:
+    - D-C00178
+    - D-C00179
+    - D-C00181
+    - D-C00182
+    - D-C00183
+    - D-C00184
+    - D-C00173
+    - D-C00174
+    - D-C00185
+    - D-C00175
+    - D-C00186
+    - D-C00176
+    - D-C00177
+    - D-C00180
+    id: 11000019
+    isWormhole: true
+  D-R00020:
+    constellations:
+    - D-C00189
+    - D-C00190
+    - D-C00191
+    - D-C00192
+    - D-C00193
+    - D-C00194
+    - D-C00187
+    - D-C00188
+    id: 11000020
+    isWormhole: true
+  D-R00021:
+    constellations:
+    - D-C00211
+    - D-C00200
+    - D-C00201
+    - D-C00212
+    - D-C00202
+    - D-C00203
+    - D-C00204
+    - D-C00205
+    - D-C00206
+    - D-C00207
+    - D-C00195
+    - D-C00196
+    - D-C00197
+    - D-C00198
+    - D-C00199
+    - D-C00210
+    - D-C00208
+    - D-C00209
+    id: 11000021
+    isWormhole: true
+  D-R00022:
+    constellations:
+    - D-C00222
+    - D-C00223
+    - D-C00213
+    - D-C00224
+    - D-C00214
+    - D-C00225
+    - D-C00215
+    - D-C00226
+    - D-C00216
+    - D-C00217
+    - D-C00218
+    - D-C00220
+    - D-C00221
+    - D-C00219
+    id: 11000022
+    isWormhole: true
+  D-R00023:
+    constellations:
+    - D-C00227
+    - D-C00228
+    - D-C00229
+    - D-C00230
+    - D-C00231
+    id: 11000023
+    isWormhole: true
+  Deklein:
+    adjacentConstellations:
+    - LIB-F9
+    - 1G-8KY
+    - XMNF-7
+    - UWRZ-2
+    - XFLN-F
+    adjacentRegions:
+    - Branch
+    - Venal
+    - Fade
+    adjacentSystems:
+    - Y-1918
+    - 9-R6GU
+    - WLF-D3
+    - K4YZ-Y
+    - DO6H-Q
+    constellations:
+    - D-AWFI
+    - Z-D6K5
+    - 29V-1R
+    - N-U2LX
+    - S-B1E4
+    - A21H-Z
+    - VW7-YN
+    - RFY-QB
+    - UTQ-BO
+    id: 10000035
+    isWormhole: false
+  Delve:
+    adjacentConstellations:
+    - MPJW-6
+    - 4QZ-2M
+    - Basilisk
+    - 6KFH-X
+    - XOV7-5
+    - A-Z7C9
+    - 3B-IWE
+    - Fabai
+    adjacentRegions:
+    - Querious
+    - Fountain
+    - PeriodBasis
+    - Aridia
+    adjacentSystems:
+    - 8QT-H4
+    - E-VKJV
+    - Y-2ANO
+    - TN25-J
+    - QY1E-N
+    - L-YMYU
+    - A-BO4V
+    - F2OY-X
+    - Sakht
+    constellations:
+    - F-I56R
+    - 1-A81R
+    - W-4U1E
+    - 6-UCYU
+    - SG-CTQ
+    - O-EIMK
+    - B4H-9W
+    - LSC-4P
+    - NJU-QV
+    - D5-SOW
+    - SPNZ-Z
+    - OK-FEM
+    - O5K-Y6
+    - XPJ1-6
+    - YX-LYK
+    id: 10000060
+    isWormhole: false
+  Derelik:
+    adjacentConstellations:
+    - Heaven
+    - Ortner
+    - Kisana
+    - G2E-RJ
+    - Kabo
+    - Q-PVMK
+    - Tartatven
+    adjacentRegions:
+    - Curse
+    - Heimatar
+    - Devoid
+    - Providence
+    - GreatWildlands
+    - MoldenHeath
+    adjacentSystems:
+    - Doril
+    - Odatrik
+    - Lisudeh
+    - G-5EN2
+    - Rahadalon
+    - 7Q-8Z2
+    - Audesder
+    - Trytedald
+    constellations:
+    - Kalangin
+    - Mossas
+    - Sazdih
+    - Mekashtad
+    - Aguh
+    - Ananah
+    - Mamouna
+    - Anares
+    - SanMatar
+    - Subi
+    - Oraron
+    - Bedaleya
+    - Joas
+    - Mal
+    - Orshed
+    - Hevaka
+    id: 10000001
+    isWormhole: false
+  Detorid:
+    adjacentConstellations:
+    - 4-QV2L
+    - EL8Z-M
+    - IJE6-J
+    - R-M719
+    - W-3E44
+    - UR-HG4
+    - AC-RON
+    - R-CL2W
+    adjacentRegions:
+    - WickedCreek
+    - Immensea
+    - Tenerifis
+    - Insmother
+    adjacentSystems:
+    - V7G-RL
+    - E8-YS9
+    - M-ZJWJ
+    - 5H-SM2
+    - 46DP-O
+    - SHBF-V
+    - GM-50Y
+    - 5C-RPA
+    - GB-6X5
+    - 0-6VZ5
+    constellations:
+    - GJH-1C
+    - HOV-VI
+    - 4SRW-B
+    - MZ-PA2
+    - D-95MV
+    - ZPI-2E
+    - 1RG-GU
+    - 5P4-QA
+    - 5F8-PZ
+    - 3R-BJL
+    - PR-ACX
+    - NZU8-G
+    - RFQ-8Y
+    - T875-C
+    id: 10000005
+    isWormhole: false
+  Devoid:
+    adjacentConstellations:
+    - Sasen
+    - Hed
+    - Bedaleya
+    - XV7L-S
+    - Maseend
+    - Ichida
+    - SanMatar
+    - Tandoiras
+    adjacentRegions:
+    - TheBleakLands
+    - Heimatar
+    - Derelik
+    - Providence
+    - Domain
+    adjacentSystems:
+    - Lamaa
+    - Vard
+    - Nakah
+    - KBP7-G
+    - Kamela
+    - Yuhelia
+    - Jarkkolen
+    - Lashesih
+    - Oyonata
+    - Huola
+    constellations:
+    - Semou
+    - Kabo
+    - Ryra
+    - Daredan
+    - Abthi
+    - Kisana
+    - Jayai
+    - Enka
+    id: 10000036
+    isWormhole: false
+  Domain:
+    adjacentConstellations:
+    - Somi
+    - Emsek
+    - Orus
+    - Rifenda
+    - Moghiz
+    - Arvachah
+    - Megeh
+    - 04-H4M
+    - Sasen
+    - Nadire
+    - Pezarba
+    - Daredan
+    - Suon
+    - Vaarma
+    - Gebem
+    - Febihkin
+    - Sanair
+    - Jatari
+    adjacentRegions:
+    - Tash-Murkon
+    - Kor-Azor
+    - Kador
+    - Providence
+    - TheBleakLands
+    - SinqLaison
+    - Devoid
+    - TheCitadel
+    adjacentSystems:
+    - Riramia
+    - Shousran
+    - Gademam
+    - Iro
+    - Nafomeh
+    - Jennim
+    - Tash-MurkonPrime
+    - Romi
+    - Yong
+    - R3-K7K
+    - Otelen
+    - Hiroudeh
+    - Esmes
+    - Mod
+    - Hati
+    - Kaaputenen
+    - Sasiekko
+    - Matyas
+    - Kor-AzorPrime
+    - KadorPrime
+    - Kooreng
+    - Goram
+    - Zororzih
+    - Fensi
+    constellations:
+    - Sosarir
+    - Mazake
+    - Norgoh
+    - Parud
+    - Jakemhih
+    - Kekah
+    - Maddam
+    - Qeti
+    - Fua
+    - Kehina
+    - Mofa
+    - Maseend
+    - Hoosa
+    - Yekti
+    - Mulata
+    - Zemont
+    - Nakid
+    - Avib
+    - Armi
+    - Yestadan
+    - ThroneWorlds
+    - Kashag
+    - Mobit
+    - Chardu
+    - Liela
+    - Nashar
+    id: 10000043
+    isWormhole: false
+  E-R00024:
+    constellations:
+    - E-C00235
+    - E-C00234
+    - E-C00237
+    - E-C00236
+    - E-C00239
+    - E-C00238
+    - E-C00329
+    - E-C00240
+    - E-C00242
+    - E-C00241
+    - E-C00233
+    - E-C00232
+    id: 11000024
+    isWormhole: true
+  E-R00025:
+    constellations:
+    - E-C00246
+    - E-C00245
+    - E-C00248
+    - E-C00247
+    - E-C00249
+    - E-C00251
+    - E-C00250
+    - E-C00253
+    - E-C00252
+    - E-C00244
+    - E-C00255
+    - E-C00254
+    - E-C00243
+    id: 11000025
+    isWormhole: true
+  E-R00026:
+    constellations:
+    - E-C00257
+    - E-C00256
+    - E-C00259
+    - E-C00258
+    - E-C00260
+    - E-C00262
+    - E-C00261
+    - E-C00264
+    - E-C00263
+    id: 11000026
+    isWormhole: true
+  E-R00027:
+    constellations:
+    - E-C00268
+    - E-C00267
+    - E-C00269
+    - E-C00271
+    - E-C00270
+    - E-C00273
+    - E-C00272
+    - E-C00266
+    - E-C00265
+    id: 11000027
+    isWormhole: true
+  E-R00028:
+    constellations:
+    - E-C00279
+    - E-C00278
+    - E-C00280
+    - E-C00282
+    - E-C00281
+    - E-C00284
+    - E-C00283
+    - E-C00275
+    - E-C00274
+    - E-C00285
+    - E-C00277
+    - E-C00276
+    id: 11000028
+    isWormhole: true
+  E-R00029:
+    constellations:
+    - E-C00289
+    - E-C00291
+    - E-C00290
+    - E-C00293
+    - E-C00292
+    - E-C00295
+    - E-C00294
+    - E-C00286
+    - E-C00296
+    - E-C00288
+    - E-C00287
+    id: 11000029
+    isWormhole: true
+  Esoteria:
+    adjacentConstellations:
+    - U7L-MQ
+    - 3-PC31
+    - 17K-QM
+    - IZ-FBT
+    - 3-U491
+    adjacentRegions:
+    - Stain
+    - Feythabolis
+    - ParagonSoul
+    adjacentSystems:
+    - U-WLT9
+    - D4-2XN
+    - O-MCZR
+    - O4T-Z5
+    - JI-K5H
+    - TR07-S
+    constellations:
+    - KUSW-P
+    - Q-2BI6
+    - 3WN-1T
+    - R2-BT6
+    - O-PQU0
+    - FY6-NK
+    - AJG-MV
+    - 7ZRW-G
+    - 9D1V-O
+    - E-ILCH
+    - JSZ-X6
+    - 8T-OLH
+    id: 10000039
+    isWormhole: false
+  Essence:
+    adjacentConstellations:
+    - Jonenor
+    - Sanctum
+    - Disier
+    - CaldariBorderZone
+    - Osnins
+    - Isoma
+    - Woenckee
+    - Okakuola
+    - Aideron
+    - Beyt
+    - Nadire
+    - Obray
+    adjacentRegions:
+    - SinqLaison
+    - Genesis
+    - TheCitadel
+    - Everyshore
+    - VergeVendor
+    - BlackRise
+    - Placid
+    adjacentSystems:
+    - Trosquesere
+    - Pakhshi
+    - DuAnnes
+    - Grinacanne
+    - Kassigainen
+    - Bereye
+    - Pettinck
+    - Metserel
+    - Erme
+    - Kemerk
+    - Nagamanen
+    - Murethand
+    - Oinasiken
+    - Yashunen
+    - Amoderia
+    - Orvolle
+    - Lermireve
+    - Emsar
+    - Jovainnon
+    - Arraron
+    - Tierijev
+    - Ourapheh
+    constellations:
+    - Crux
+    - Thoulde
+    - Vieres
+    - Jeon
+    - Patrie
+    - Balrille
+    - Peccanouette
+    - Eustron
+    - Arand
+    id: 10000064
+    isWormhole: false
+  EtheriumReach:
+    adjacentConstellations:
+    - 2O-VY7
+    - G-HISF
+    - OC-TTA
+    - E-UBWI
+    - PFL-QY
+    - 0YMH-Q
+    - Mivora
+    - P-B2NE
+    - HRJG-D
+    - Eoldulf
+    - S4S-SD
+    - VT-LHB
+    adjacentRegions:
+    - TheKalevalaExpanse
+    - Malpais
+    - TheSpire
+    - Insmother
+    - TheForge
+    - GreatWildlands
+    - MoldenHeath
+    - PerrigenFalls
+    adjacentSystems:
+    - SY-0AM
+    - 6-WMKE
+    - C6C-K9
+    - RXA-W1
+    - Z0H2-4
+    - 63-7Q6
+    - EFM-C4
+    - Paala
+    - FZX-PU
+    - BRT-OP
+    - Skarkon
+    - L-GY1B
+    - BEG-RL
+    - A-YB15
+    constellations:
+    - 4M6-GJ
+    - SLYP-5
+    - 6TT8-Z
+    - RDD-E6
+    - H7Q-DG
+    - J-78ZG
+    - PGPJ-8
+    - N-APJ8
+    - 8AO-5V
+    - ICH-B6
+    - 1VN-XC
+    - D-GU3R
+    - M9-AN3
+    - 8G-JN6
+    - PG-RWX
+    id: 10000027
+    isWormhole: false
+  Everyshore:
+    adjacentConstellations:
+    - Spaen
+    - Stion
+    - Wyllequet
+    - Coriault
+    - Firille
+    - Sanctum
+    - Fabas
+    - Nadire
+    - Agiesseson
+    - Crux
+    - Nexus
+    - Disier
+    adjacentRegions:
+    - SinqLaison
+    - Genesis
+    - Essence
+    adjacentSystems:
+    - Ardene
+    - Jel
+    - Brapelille
+    - Vylade
+    - Pulin
+    - Manarq
+    - Girani-Fa
+    - Lermireve
+    - Schoorasana
+    - Claysson
+    - Mies
+    - Dodixie
+    - Bourynes
+    - Doussivitte
+    - Adreland
+    constellations:
+    - Ysiette
+    - Elalan
+    - Marele
+    - Chasnaye
+    - Osnins
+    - Odilis
+    - Giatole
+    id: 10000037
+    isWormhole: false
+  F-R00030:
+    constellations:
+    - F-C00303
+    - F-C00304
+    - F-C00301
+    - F-C00302
+    - F-C00307
+    - F-C00308
+    - F-C00305
+    - F-C00306
+    - F-C00299
+    - F-C00310
+    - F-C00300
+    - F-C00297
+    - F-C00330
+    - F-C00298
+    - F-C00309
+    id: 11000030
+    isWormhole: true
+  Fade:
+    adjacentConstellations:
+    - 38G6-L
+    - VW7-YN
+    - WMP-OF
+    - S-B1E4
+    - LN-L8L
+    - Assilot
+    adjacentRegions:
+    - PureBlind
+    - Deklein
+    - CloudRing
+    adjacentSystems:
+    - ROIR-Y
+    - CCP-US
+    - U-INPD
+    - 8S28-3
+    - E-Z2ZX
+    - 6RCQ-V
+    constellations:
+    - XFLN-F
+    - UWRZ-2
+    - VNX-P0
+    - 7X-X1Y
+    id: 10000046
+    isWormhole: false
+  Feythabolis:
+    adjacentConstellations:
+    - O5QG-M
+    - G3IP-E
+    - ZYR-NF
+    - 8T-OLH
+    - RL36-K
+    - O-PQU0
+    adjacentRegions:
+    - Omist
+    - Tenerifis
+    - Impass
+    - Esoteria
+    adjacentSystems:
+    - 9MWZ-B
+    - T2-V8F
+    - IV-UNR
+    - X-7BIX
+    - OKEO-X
+    - C-PEWN
+    constellations:
+    - I-3ODK
+    - RHG-4O
+    - C45-9Y
+    - 1ANT-J
+    - L-H07K
+    - AV-SCL
+    - YZKE-Q
+    - 3-U491
+    - 42-WDG
+    - OFQ-HG
+    - 3-PC31
+    - JQA8-6
+    id: 10000056
+    isWormhole: false
+  Fountain:
+    adjacentConstellations:
+    - Sword
+    - Yrton
+    - NJU-QV
+    - Selonat
+    adjacentRegions:
+    - OuterRing
+    - CloudRing
+    - Delve
+    - Aridia
+    adjacentSystems:
+    - 7-692B
+    - B-DBYQ
+    - ZXB-VC
+    - Hophib
+    constellations:
+    - Satyr
+    - Skaven
+    - Unicorn
+    - Pegasus
+    - Centaur
+    - Basilisk
+    - Taurus
+    - Hydra
+    - Manticore
+    - Sphinx
+    - Kraken
+    - Minotaur
+    - Wyvern
+    - Griffin
+    - Phoenix
+    - Mermaid
+    - Chimera
+    id: 10000058
+    isWormhole: false
+  G-R00031:
+    constellations:
+    - G-C00311
+    id: 11000031
+    isWormhole: true
+  Geminate:
+    adjacentConstellations:
+    - OSJ7-I
+    - A3-T8B
+    - Mivora
+    - Rollera
+    - I3-2J0
+    - 9KX-M0
+    - 8UD2-J
+    - Aulari
+    adjacentRegions:
+    - ValeoftheSilent
+    - TheForge
+    - Metropolis
+    - GreatWildlands
+    - TheKalevalaExpanse
+    adjacentSystems:
+    - H-5GUI
+    - 1W-0KS
+    - Akkio
+    - Eurgrana
+    - K-IYNW
+    - 9-GBPD
+    - 1S-SU1
+    - Oijanen
+    constellations:
+    - N-K4Q0
+    - ZYL-FT
+    - F-ZNNG
+    - RJ-1R7
+    - KR-XF4
+    - 8K-CHA
+    - V1G-63
+    - 74IL-O
+    - NK-AOZ
+    - IPS-QB
+    - UBPU-9
+    id: 10000029
+    isWormhole: false
+  Genesis:
+    adjacentConstellations:
+    - Peccanouette
+    - Anwyns
+    - Balrille
+    - Vieres
+    - Aideron
+    - Eustron
+    - Coriault
+    - Elalan
+    - Crux
+    - Thoulde
+    - Anama
+    - Megeh
+    - Parrosa
+    - Heti
+    - Araz
+    - Favo
+    - Comadu
+    - Jatari
+    adjacentRegions:
+    - Essence
+    - VergeVendor
+    - SinqLaison
+    - Everyshore
+    - Aridia
+    - Kador
+    - Kor-Azor
+    adjacentSystems:
+    - Arnon
+    - Merolles
+    - Tourier
+    - Deninard
+    - Arant
+    - Chantrousse
+    - Atlangeins
+    - Botane
+    - Tolle
+    - Renyn
+    - Oursulaert
+    - Synchelle
+    - Van
+    - Gensela
+    - Kamda
+    - Ansasos
+    - Chanoun
+    - Aydoteaux
+    - Iaokit
+    - Atarli
+    - Nebian
+    - Rayeret
+    constellations:
+    - Sanctum
+    - Aven
+    - Nazdirer
+    - Mih
+    - Ekrin
+    - Fabas
+    - Meli
+    - Kihkounad
+    - Ashela
+    - Monalaz
+    - EVE
+    - Makh
+    - Ubar
+    - Charak
+    - Reya
+    id: 10000067
+    isWormhole: false
+  GreatWildlands:
+    adjacentConstellations:
+    - KR-XF4
+    - 5HN-S5
+    - Hulf
+    - 4YFT-F
+    - Joas
+    - 02QH-A
+    - 1VN-XC
+    - Elysium
+    - Elfrard
+    adjacentRegions:
+    - Geminate
+    - Cache
+    - Metropolis
+    - ScaldingPass
+    - Derelik
+    - EtheriumReach
+    - Curse
+    - MoldenHeath
+    adjacentSystems:
+    - Atioth
+    - I6-SYN
+    - Konora
+    - F-5FDA
+    - Khabi
+    - U2-28D
+    - C-4D0W
+    - KLMT-W
+    - Egbinger
+    constellations:
+    - I3-2J0
+    - W-3Y6D
+    - T-W4L3
+    - U-3HAO
+    - 730-KH
+    - AP-S8F
+    - K-DLD2
+    - IYOO-M
+    - Q-PVMK
+    - L-TEVM
+    - DYK-G8
+    - BB8E-G
+    - HRJG-D
+    - V-LQBF
+    - V-4QJC
+    id: 10000011
+    isWormhole: false
+  H-R00032:
+    constellations:
+    - H-C00332
+    - H-C00333
+    - H-C00331
+    id: 11000032
+    isWormhole: true
+  Heimatar:
+    adjacentConstellations:
+    - Meinigefur
+    - Fittakan
+    - Gedur
+    - SanMatar
+    - Hevaka
+    - Sasen
+    - Stion
+    - Essin
+    - Semou
+    - Rollera
+    - Inkelm
+    - Angils
+    - Aldodan
+    - Ankard
+    - Barvigrard
+    adjacentRegions:
+    - Metropolis
+    - MoldenHeath
+    - Derelik
+    - TheBleakLands
+    - SinqLaison
+    - Devoid
+    adjacentSystems:
+    - Ryddinjorn
+    - Teonusude
+    - Eram
+    - Arlulf
+    - Jark
+    - Uplingur
+    - Aeddin
+    - Kourmonen
+    - Egghelende
+    - Eszur
+    - Ezzara
+    - Hofjaldgund
+    - Offikatlin
+    - Mateber
+    - Egmar
+    - Arnstur
+    - Olbra
+    - Hek
+    constellations:
+    - Odengsolf
+    - Erada
+    - Ortner
+    - Benurad
+    - Urtfer
+    - Osta
+    - Hed
+    - Akimamur
+    - Huvilma
+    - Evannater
+    - Sveipar
+    - Wiedadur
+    id: 10000030
+    isWormhole: false
+  Immensea:
+    adjacentConstellations:
+    - CL-QB2
+    - HOV-VI
+    - N-OGI1
+    - QP6B-I
+    - 4SRW-B
+    - BZZ-1U
+    adjacentRegions:
+    - Tenerifis
+    - Detorid
+    - Catch
+    adjacentSystems:
+    - ZMV9-A
+    - I-9GI1
+    - 9-8GBA
+    - BW-WJ2
+    - 62O-UE
+    - R1-IMO
+    constellations:
+    - RTCU-5
+    - K-ZKBM
+    - EL8Z-M
+    - Q-IPAA
+    - K-N3MD
+    - WTE-CK
+    - MY-QQI
+    - IJE6-J
+    - 4MY-AB
+    - C73-U5
+    - Y46-EN
+    - YENX-U
+    id: 10000025
+    isWormhole: false
+  Impass:
+    adjacentConstellations:
+    - T-1WDH
+    - AU-S0B
+    - 1ANT-J
+    adjacentRegions:
+    - Catch
+    - Tenerifis
+    - Feythabolis
+    adjacentSystems:
+    - E3-SDZ
+    - H-HWQR
+    - UD-VZW
+    constellations:
+    - O6W-QE
+    - 5J-SSP
+    - ZYR-NF
+    - 1A-WYQ
+    - 05M-I1
+    - EK-NQ2
+    - QZJ-FL
+    id: 10000031
+    isWormhole: false
+  Insmother:
+    adjacentConstellations:
+    - E-UBWI
+    - 5F8-PZ
+    - WQZ8-4
+    - ENP-SH
+    - DJ-XCW
+    - DITJ-X
+    - AC-RON
+    - VS-8P0
+    - FQ-COP
+    - 3R-BJL
+    - RFQ-8Y
+    - NZU8-G
+    - 02QH-A
+    - N-APJ8
+    adjacentRegions:
+    - TheSpire
+    - Detorid
+    - ScaldingPass
+    - WickedCreek
+    - Cache
+    - EtheriumReach
+    adjacentSystems:
+    - RXA-W1
+    - 9N-0HF
+    - X2-ZA5
+    - 1V-LI2
+    - GPLB-C
+    - 1QZ-Y9
+    - L-FM3P
+    - 8-OZU1
+    - BLMX-B
+    - 8-VC6H
+    - 8FN-GP
+    - 1KAW-T
+    - U69-YC
+    - 0TYR-T
+    - IVP-KA
+    - 6-EQYE
+    - G-QTSD
+    constellations:
+    - TL-FDN
+    - UR-HG4
+    - 0EA3-8
+    - QA-P7J
+    - FD-7Y4
+    - 0-YMZM
+    - V2S-RH
+    - E-95ID
+    - R-CL2W
+    - N-LY4R
+    - 8-4EFQ
+    - Z-ONUI
+    - N5V-Y0
+    - 0YMH-Q
+    - IV-LWJ
+    - U-EUG7
+    id: 10000009
+    isWormhole: false
+  J7HZ-F:
+    constellations:
+    - 2RX9-6
+    - OG-DJD
+    - D-YMGR
+    - 05-1B6
+    - BS8-ZQ
+    - 4I-WP1
+    - WSC-AL
+    - F-8DMX
+    - NSM-6F
+    - 3A-CND
+    - I4-DK8
+    - 1-Z95W
+    id: 10000017
+    isWormhole: false
+  K-R00033:
+    constellations:
+    - K-C00334
+    id: 11000033
+    isWormhole: true
+  Kador:
+    adjacentConstellations:
+    - Mih
+    - Meli
+    - Reya
+    - Norgoh
+    - ThroneWorlds
+    - Somi
+    - Fua
+    - Gebem
+    - Nimedaz
+    - Nazdirer
+    - Damadil
+    - Mobit
+    - Hoosa
+    - Yekti
+    adjacentRegions:
+    - Genesis
+    - Domain
+    - Tash-Murkon
+    - Kor-Azor
+    adjacentSystems:
+    - Iderion
+    - Petidu
+    - Hirizan
+    - Safizon
+    - Martha
+    - Pimsu
+    - Amod
+    - Amdonen
+    - Danyana
+    - Boranai
+    - Shera
+    - Masanuh
+    - Onazel
+    - Fahruni
+    - Akhragan
+    - Sayartchen
+    - Madirmilire
+    - Bhizheba
+    constellations:
+    - Heti
+    - Ahrnot
+    - Favo
+    - Moghiz
+    - Pezarba
+    - Febihkin
+    - Araz
+    - Parrosa
+    - Trigentia
+    - Naloran
+    - Kakol
+    - Megeh
+    - Qermi
+    id: 10000052
+    isWormhole: false
+  Khanid:
+    adjacentConstellations:
+    - Fabai
+    - Gebem
+    - Ravin
+    - H-6HGD
+    - UX3-N2
+    - Panoumid
+    - Damadil
+    - LI-BA0
+    adjacentRegions:
+    - Aridia
+    - Kor-Azor
+    - Querious
+    - Catch
+    - Tash-Murkon
+    adjacentSystems:
+    - Anath
+    - Masanuh
+    - Abath
+    - A2-V27
+    - HED-GP
+    - Kulu
+    - Nakregde
+    - Mimime
+    - 3-FKCZ
+    constellations:
+    - Alpakian
+    - Homroon
+    - Finaka
+    - Akar
+    - Youledian
+    - Arniri
+    - Seevadin
+    - Fekhoya
+    - Budar
+    - Amdimmah
+    - Nohshayess
+    - Sib
+    id: 10000049
+    isWormhole: false
+  Kor-Azor:
+    adjacentConstellations:
+    - Meli
+    - Mazake
+    - Amdimmah
+    - Mareerieh
+    - Febihkin
+    - Mobit
+    - ThroneWorlds
+    - Trigentia
+    - Finaka
+    - Akar
+    adjacentRegions:
+    - Genesis
+    - Domain
+    - Khanid
+    - Aridia
+    - Kador
+    adjacentSystems:
+    - Menai
+    - Sakhti
+    - Moniyyuku
+    - Vehan
+    - Dantan
+    - Noranim
+    - Narai
+    - Amarr
+    - Suner
+    - Ervekam
+    - Molea
+    - Nahrneder
+    constellations:
+    - Comadu
+    - Finena
+    - Orus
+    - Tendrara
+    - Panoumid
+    - Nimedaz
+    - Jatari
+    - Gebem
+    - Ravin
+    id: 10000065
+    isWormhole: false
+  Lonetrek:
+    adjacentConstellations:
+    - Kimotoro
+    - Aokinen
+    - Inolari
+    - Otawasa
+    - Arekin
+    - Orpana
+    - 1P-VL2
+    - Isoma
+    - Uusasai
+    - Ihilakken
+    - Urpiken
+    - YS-GOP
+    - Ieyama
+    adjacentRegions:
+    - TheForge
+    - BlackRise
+    - TheCitadel
+    - Tribute
+    - PureBlind
+    adjacentSystems:
+    - NewCaldari
+    - Onnamon
+    - Raihbaka
+    - Venilen
+    - Alikara
+    - Obe
+    - M-OEE8
+    - Tama
+    - Halaima
+    - Ahynada
+    - Niyabainen
+    - Ikuchi
+    - Jita
+    - Aikoro
+    - Sarenemi
+    - 93PI-4
+    - EC-P8R
+    - Hasama
+    constellations:
+    - Sela
+    - Karnola
+    - Minnen
+    - Malariya
+    - Pietanen
+    - Haurala
+    - Kaala
+    - Mito
+    - Okela
+    - Koichi
+    - Umamon
+    - Asalola
+    - Okunda
+    - Kainokai
+    - Makiriemi
+    id: 10000016
+    isWormhole: false
+  Malpais:
+    adjacentConstellations:
+    - S4S-SD
+    - L7-RDZ
+    - O5PO-O
+    - 2O-VY7
+    - WE-WLQ
+    - NT1-5Q
+    - 3D-ROC
+    - SLYP-5
+    - PGPJ-8
+    adjacentRegions:
+    - TheKalevalaExpanse
+    - PerrigenFalls
+    - Oasa
+    - TheSpire
+    - EtheriumReach
+    adjacentSystems:
+    - B1UE-J
+    - PVF-N9
+    - R-AG7W
+    - QZX-L9
+    - O31W-6
+    - QB-AE6
+    - AY9X-Q
+    - ND-X7X
+    - B-B0ME
+    - 0J-MQW
+    - 89-JPE
+    - 83-YGI
+    - N06Z-Q
+    constellations:
+    - E6EO-H
+    - D-YKXH
+    - 4R-HUN
+    - 7UNX-J
+    - UL8-RD
+    - XI0-X2
+    - 1M4-FN
+    - MW49-U
+    - 3TS-12
+    - GDBW-2
+    - PX0-P4
+    - WS5L-X
+    - G-HISF
+    - 2747-4
+    - PFL-QY
+    id: 10000013
+    isWormhole: false
+  Metropolis:
+    adjacentConstellations:
+    - I3-2J0
+    - Tandoiras
+    - Algintal
+    - Hed
+    - Mivora
+    - Evannater
+    - Aeman
+    - Sveipar
+    - Akimamur
+    - Ortner
+    - Eoldulf
+    - F-ZNNG
+    - Erada
+    - Odengsolf
+    - Huvilma
+    adjacentRegions:
+    - GreatWildlands
+    - TheBleakLands
+    - SinqLaison
+    - Heimatar
+    - TheForge
+    - MoldenHeath
+    - Geminate
+    adjacentSystems:
+    - N-RAEL
+    - Kurniainen
+    - Audaerne
+    - Dal
+    - Siseide
+    - Akkio
+    - Gultratren
+    - Colelie
+    - Thelan
+    - Eystur
+    - Otou
+    - Fuskunen
+    - Wiskeber
+    - Ameinaka
+    - Ennur
+    - AD-5B8
+    - Vullat
+    - Meirakulf
+    - Gulmorogod
+    constellations:
+    - Hulf
+    - Fribrodi
+    - Eugidi
+    - Essin
+    - Aldodan
+    - Tiat
+    - Barvigrard
+    - Inkelm
+    - Aptetter
+    - Gedur
+    - Argeir
+    - Panorad
+    - Brazinget
+    - Rollera
+    - Ergruk
+    - Lorundio
+    - Frar
+    - Jonar
+    - Ani
+    - Ankard
+    - Meinigefur
+    - Stadakorn
+    - Angils
+    id: 10000042
+    isWormhole: false
+  MoldenHeath:
+    adjacentConstellations:
+    - Joas
+    - Rollera
+    - 1VN-XC
+    - Osta
+    - Erada
+    - V-4QJC
+    adjacentRegions:
+    - Derelik
+    - Metropolis
+    - EtheriumReach
+    - Heimatar
+    - GreatWildlands
+    adjacentSystems:
+    - Kenobanala
+    - Tabbetzur
+    - L4X-1V
+    - Austraka
+    - Magiko
+    - B-VIP9
+    constellations:
+    - Tartatven
+    - Eoldulf
+    - Besateoden
+    - Fittakan
+    - Almur
+    - Elfrard
+    id: 10000028
+    isWormhole: false
+  Oasa:
+    adjacentConstellations:
+    - 3D-ROC
+    - LWMW-6
+    - 9BGY-6
+    - WXB-RY
+    - QJ2-0M
+    - XHL-TZ
+    - TPB-KG
+    - 1M4-FN
+    - 2747-4
+    - MW49-U
+    - HNZF-Z
+    adjacentRegions:
+    - TheSpire
+    - PerrigenFalls
+    - CobaltEdge
+    - Malpais
+    adjacentSystems:
+    - 3ET-G8
+    - XY-ZCI
+    - 5T-A3D
+    - J9A-BH
+    - FV-YEA
+    - EJ-5X2
+    - C3I-D5
+    - O8W-5O
+    - POQP-K
+    - 863P-X
+    - HG-YEQ
+    - P-NRD3
+    - Y-RAW3
+    constellations:
+    - 04-LOF
+    - D61-WV
+    - 3RU-10
+    - 0PS-L5
+    - 4ZXC-8
+    - T-4ACL
+    - CZ-06R
+    - O9X-CV
+    - S-Q02B
+    - WE-WLQ
+    - D4J-PP
+    - F-W6B4
+    - DOCS-O
+    id: 10000040
+    isWormhole: false
+  Omist:
+    adjacentConstellations:
+    - I-3ODK
+    - 42-WDG
+    - W-3E44
+    adjacentRegions:
+    - Feythabolis
+    - Tenerifis
+    adjacentSystems:
+    - TSG-NO
+    - 6-ELQP
+    - ZO-P5K
+    constellations:
+    - U7-GIV
+    - Y-LRWI
+    - O5QG-M
+    - 5Z0Y-S
+    - 8MJO-4
+    - RL36-K
+    id: 10000062
+    isWormhole: false
+  OuterPassage:
+    adjacentConstellations:
+    - QJ2-0M
+    - E1L-UY
+    - MRC-29
+    - OWT3-6
+    - FQ-COP
+    - E65-47
+    - LWMW-6
+    adjacentRegions:
+    - CobaltEdge
+    - TheSpire
+    - Cache
+    - PerrigenFalls
+    adjacentSystems:
+    - SK7-G6
+    - K-YL9T
+    - PKN-NJ
+    - XR-ZL7
+    - LJ-RJK
+    - ZWM-BB
+    - PFV-ZH
+    - K85Y-6
+    constellations:
+    - NPL-WH
+    - AGI1-F
+    - 7-ZDOK
+    - B-D245
+    - KPU3-3
+    - IM-8S5
+    - X5O9-E
+    - U-IOR1
+    - J33-JR
+    - 2FYX-H
+    - 6GU-AT
+    - NOB-HD
+    - C9XB-L
+    id: 10000021
+    isWormhole: false
+  OuterRing:
+    adjacentConstellations:
+    - SKX-PL
+    - YFN-UN
+    - QS-FVH
+    - 6-V49K
+    - Pegasus
+    - Yrton
+    adjacentRegions:
+    - Syndicate
+    - Fountain
+    - CloudRing
+    adjacentSystems:
+    - VSIG-K
+    - 3KNK-A
+    - 0T-AMZ
+    - EF-F36
+    - XF-TQL
+    - 5-MLDT
+    constellations:
+    - Heart
+    - Wield
+    - Sole
+    - Crown
+    - Sword
+    - Belt
+    - Regalia
+    - Velvet
+    - Scepter
+    id: 10000057
+    isWormhole: false
+  ParagonSoul:
+    adjacentConstellations:
+    - N-39FI
+    - E-ILCH
+    - FY6-NK
+    adjacentRegions:
+    - PeriodBasis
+    - Esoteria
+    adjacentSystems:
+    - TCAG-3
+    - SN9S-N
+    - KSM-1T
+    - R-ARKN
+    constellations:
+    - GEP-XF
+    - TCC-ZV
+    - 17K-QM
+    - I-CCEI
+    - IZ-FBT
+    - D9DM-O
+    id: 10000059
+    isWormhole: false
+  PeriodBasis:
+    adjacentConstellations:
+    - GEP-XF
+    - OK-FEM
+    - W-ULNA
+    adjacentRegions:
+    - ParagonSoul
+    - Delve
+    - Stain
+    adjacentSystems:
+    - G-M4GK
+    - LWX-93
+    - CJF-1P
+    - 1-2J4P
+    constellations:
+    - OY3-DM
+    - NOK-FZ
+    - N-39FI
+    - 6KFH-X
+    - J8-G8K
+    - XOV7-5
+    id: 10000063
+    isWormhole: false
+  PerrigenFalls:
+    adjacentConstellations:
+    - 3RU-10
+    - 6GU-AT
+    - D-GU3R
+    - 0PS-L5
+    - E1L-UY
+    - E65-47
+    - D-YKXH
+    - 3TS-12
+    - 1M4-FN
+    - 4R-HUN
+    - MY-HQD
+    - O9X-CV
+    - Y8HB-U
+    - T-4ACL
+    adjacentRegions:
+    - Oasa
+    - OuterPassage
+    - EtheriumReach
+    - TheSpire
+    - Malpais
+    - Venal
+    adjacentSystems:
+    - QE2-FS
+    - 9S-GPT
+    - Z-DRIY
+    - MTGF-2
+    - EU-WFW
+    - OTJ9-E
+    - QZ1-OH
+    - QCGG-Q
+    - O8W-5O
+    - IF-KD1
+    - L-EUY2
+    - Y-0HVF
+    - HD-JVQ
+    - DYS-CG
+    constellations:
+    - LWMW-6
+    - VT-LHB
+    - 9BGY-6
+    - B-MQ0Y
+    - Q0-4FU
+    - L7-RDZ
+    - NT1-5Q
+    - TY0-Q2
+    - X7-FTR
+    - O5PO-O
+    - S0X-O4
+    - BXT7-V
+    - 4LEZ-6
+    - TPB-KG
+    - WXB-RY
+    id: 10000066
+    isWormhole: false
+  Placid:
+    adjacentConstellations:
+    - S4GH-I
+    - Z-6NQ6
+    - Patrie
+    - Anwyns
+    - Woenckee
+    - Ishaga
+    - Balenne
+    - Inolari
+    - YFN-UN
+    adjacentRegions:
+    - PureBlind
+    - Syndicate
+    - Essence
+    - VergeVendor
+    - BlackRise
+    - CloudRing
+    adjacentSystems:
+    - RQH-MY
+    - PF-346
+    - Mesybier
+    - Aidart
+    - Loes
+    - MHC-R3
+    - Nennamaila
+    - F7C-H0
+    - Eha
+    - TXW-EI
+    constellations:
+    - Pegeler
+    - Josmaert
+    - Serthoulde
+    - Alselbosier
+    - Beyt
+    - Unour
+    - Mallugier
+    - Viriette
+    - Fislipesnes
+    - Amevync
+    - Ganoure
+    id: 10000048
+    isWormhole: false
+  Providence:
+    adjacentConstellations:
+    - NNLX-K
+    - Jakemhih
+    - Bedaleya
+    - T-HHHT
+    - UX3-N2
+    - Peges
+    - Ryra
+    adjacentRegions:
+    - Catch
+    - Domain
+    - Derelik
+    - Tash-Murkon
+    - Devoid
+    adjacentSystems:
+    - IS-R7P
+    - Misaba
+    - Assah
+    - ZQ-Z3Y
+    - 7MD-S1
+    - F9E-KX
+    - UL-7I8
+    - Kari
+    - Dital
+    constellations:
+    - Q-6LG1
+    - 04-H4M
+    - G2E-RJ
+    - ZQ2-CF
+    - H-KW4A
+    - 4BZ-R3
+    - AZBG-H
+    - I9B-8X
+    - XV7L-S
+    - 5-88B9
+    - HS7W-T
+    - UD-ZJ3
+    - P6N8-J
+    id: 10000047
+    isWormhole: false
+  PureBlind:
+    adjacentConstellations:
+    - Umamon
+    - Asalola
+    - UWRZ-2
+    - X-VN63
+    - Prelle
+    - XFLN-F
+    - Serthoulde
+    adjacentRegions:
+    - Lonetrek
+    - Fade
+    - Tribute
+    - CloudRing
+    - Placid
+    adjacentSystems:
+    - Saranen
+    - Torrinos
+    - VRH-H7
+    - 0-YMBJ
+    - Z-Y7R7
+    - DO6H-Q
+    - C8-CHY
+    - Mantenault
+    constellations:
+    - G8-D09
+    - YS-GOP
+    - LN-L8L
+    - U8-CWA
+    - MDM8-J
+    - 0A-73B
+    - K-QUVW
+    - U-7RBK
+    - 304Z-R
+    - WMP-OF
+    - 38G6-L
+    - S4GH-I
+    - LY-FY6
+    id: 10000023
+    isWormhole: false
+  Querious:
+    adjacentConstellations:
+    - Youledian
+    - XPJ1-6
+    - Sib
+    - O-EIMK
+    - OK-FEM
+    - W-4U1E
+    - BRP2-K
+    adjacentRegions:
+    - Khanid
+    - Delve
+    - Catch
+    adjacentSystems:
+    - Kaira
+    - 1DH-SX
+    - Efa
+    - 3-DMQT
+    - C3N-3S
+    - UHKL-N
+    - SVM-3K
+    - 4-07MU
+    constellations:
+    - F-RA63
+    - PUB-0R
+    - H-6HGD
+    - YB7B-8
+    - 3B-IWE
+    - LI-BA0
+    - 9NP-KR
+    - XLL-Z7
+    - 4QZ-2M
+    - A-Z7C9
+    - 8BO-IH
+    - 8ET-D1
+    - K-JO26
+    - MPJW-6
+    id: 10000050
+    isWormhole: false
+  ScaldingPass:
+    adjacentConstellations:
+    - Elysium
+    - R-M719
+    - Tranquillity
+    - Rapture
+    - 5ZR-29
+    - 0YMH-Q
+    - L-TEVM
+    - 5Y1E-3
+    - QA-P7J
+    - 3GK-WS
+    - DJ-XCW
+    - 0EA3-8
+    - IYOO-M
+    - V-LQBF
+    adjacentRegions:
+    - Curse
+    - WickedCreek
+    - Insmother
+    - GreatWildlands
+    adjacentSystems:
+    - XX9-WV
+    - YI-GV6
+    - H-ADOC
+    - ES-UWY
+    - C0O6-K
+    - VOL-MI
+    - 74-VZA
+    - PUZ-IO
+    - TP7-KE
+    - MSG-BZ
+    - R0-DMM
+    - 5E-CMA
+    - GDHN-K
+    - G9NE-B
+    - GK5Z-T
+    - 9-34L5
+    - TET3-B
+    constellations:
+    - 7VJ-7M
+    - Y-M7ML
+    - YCM-AI
+    - 51ZT-6
+    - 02QH-A
+    - DITJ-X
+    - ENP-SH
+    - CN5-F2
+    - WQZ8-4
+    - P-I9PF
+    - QI1M-Q
+    - 4YFT-F
+    id: 10000008
+    isWormhole: false
+  SinqLaison:
+    adjacentConstellations:
+    - Ysiette
+    - Hed
+    - Crux
+    - Kimotoro
+    - Odilis
+    - Marele
+    - Tandoiras
+    - Chasnaye
+    - CaldariBorderZone
+    - Vieres
+    - Thoulde
+    - Balrille
+    - Fua
+    - Barvigrard
+    - Eugidi
+    - Sanctum
+    adjacentRegions:
+    - Everyshore
+    - Heimatar
+    - Essence
+    - TheForge
+    - TheBleakLands
+    - TheCitadel
+    - Domain
+    - Metropolis
+    - Genesis
+    adjacentSystems:
+    - Ardallabier
+    - Siseide
+    - Duripant
+    - Perimeter
+    - Ethernity
+    - Mormelot
+    - Saidusairos
+    - Harerget
+    - Tennen
+    - Mattere
+    - Renyn
+    - Villore
+    - Luminaire
+    - Seyllin
+    - Jaschercis
+    - Angatalie
+    - Palmon
+    - Basan
+    - Hagilur
+    - Hek
+    - Avenod
+    - Bei
+    - Athinard
+    - Meves
+    - Ourapheh
+    - Blameston
+    constellations:
+    - Stion
+    - Jonenor
+    - GallenteBorderZone
+    - Nexus
+    - Lolbrerie
+    - Spaen
+    - Agiesseson
+    - Disier
+    - Ambrye
+    - Firille
+    - Nadire
+    - Aeman
+    - Algintal
+    - Wyllequet
+    - Coriault
+    id: 10000032
+    isWormhole: false
+  Solitude:
+    adjacentConstellations:
+    - TA-A7V
+    - Anama
+    - 59H-0G
+    adjacentRegions:
+    - Syndicate
+    - Aridia
+    adjacentSystems:
+    - Y9G-KS
+    - Shirshocin
+    - D85-VD
+    constellations:
+    - Braille
+    - Mobrault
+    - Elose
+    - Elerelle
+    - Orvanne
+    - Goins
+    id: 10000044
+    isWormhole: false
+  Stain:
+    adjacentConstellations:
+    - 9HXQ-G
+    - KUSW-P
+    - XOV7-5
+    adjacentRegions:
+    - Catch
+    - Esoteria
+    - PeriodBasis
+    adjacentSystems:
+    - 3GD6-8
+    - VYJ-DA
+    - XZ-SKZ
+    constellations:
+    - V-H3V0
+    - R-IZDC
+    - JG-ZLG
+    - 5VN-B7
+    - QO-17V
+    - H-QXM7
+    - WF-OP4
+    - Q4IG-S
+    - Y-2D6Q
+    - U7L-MQ
+    - SB3-IH
+    - T-L301
+    - W-ULNA
+    - XJ-0RG
+    - Z01V-Z
+    - 41JS-R
+    - VH1-NS
+    - H26A-B
+    id: 10000022
+    isWormhole: false
+  Syndicate:
+    adjacentConstellations:
+    - Braille
+    - Elose
+    - Crown
+    - Yrton
+    - Elerelle
+    - Ancbeu
+    - Viriette
+    - Beyt
+    - Ganoure
+    adjacentRegions:
+    - Solitude
+    - OuterRing
+    - CloudRing
+    - VergeVendor
+    - Placid
+    adjacentSystems:
+    - Conomette
+    - Pertnineere
+    - P-NUWP
+    - E9G-MT
+    - TQ-RR8
+    - 1-3HWZ
+    - Faurulle
+    - Reblier
+    - Harroule
+    - Orvolle
+    - C0T-77
+    - Vestouve
+    constellations:
+    - TA-A7V
+    - 6-V49K
+    - SKX-PL
+    - GN-ACS
+    - JQV5-9
+    - QS-FVH
+    - 49A-BZ
+    - 59H-0G
+    - 2-M6DE
+    - Z-6NQ6
+    - YFN-UN
+    - Y4Y7-Q
+    - DS-M4Q
+    - MK7-AO
+    id: 10000041
+    isWormhole: false
+  Tash-Murkon:
+    adjacentConstellations:
+    - Kashag
+    - Mazake
+    - Trigentia
+    - Nohshayess
+    - Jakemhih
+    - I9B-8X
+    - Norgoh
+    - Avib
+    - Parud
+    - Febihkin
+    - Moghiz
+    adjacentRegions:
+    - Domain
+    - Kador
+    - Khanid
+    - Providence
+    adjacentSystems:
+    - Andabiar
+    - Aldali
+    - Turba
+    - Gousoviba
+    - Biphi
+    - Nomash
+    - Y-MPWL
+    - Bhizheba
+    - Jarshitsan
+    - Khopa
+    - Artoun
+    - Uanim
+    - Elmed
+    - Joppaya
+    constellations:
+    - Subhatoub
+    - Anidaza
+    - Mimishia
+    - Sanair
+    - Mise
+    - Rifenda
+    - Damadil
+    - Emsek
+    - Ajah
+    - Tsemshatel
+    - Peges
+    - Arvachah
+    - Nasorin
+    - Sukanan
+    - Somi
+    id: 10000020
+    isWormhole: false
+  Tenal:
+    adjacentConstellations:
+    - N4TD-6
+    - 0HD-6C
+    - 0C-PZ4
+    - T-RQ7S
+    - C-ULS4
+    - BZ-10K
+    adjacentRegions:
+    - CobaltEdge
+    - Venal
+    - Branch
+    adjacentSystems:
+    - HB-5L3
+    - 42XJ-N
+    - B3QP-K
+    - OJ-A8M
+    - CH9L-K
+    - ZIU-EP
+    - T-Q2DD
+    constellations:
+    - 2-ZRM0
+    - M-J57M
+    - X-FHU3
+    - O-EOI9
+    - 1D-65L
+    - GFE-SS
+    - 9P57-V
+    - TJ10-O
+    - E-72A3
+    - 09-4XW
+    id: 10000045
+    isWormhole: false
+  Tenerifis:
+    adjacentConstellations:
+    - IJE6-J
+    - 5J-SSP
+    - C45-9Y
+    - EL8Z-M
+    - XR9-LP
+    - MY-QQI
+    - ZPI-2E
+    - RL36-K
+    adjacentRegions:
+    - Immensea
+    - Impass
+    - Feythabolis
+    - Catch
+    - Detorid
+    - Omist
+    adjacentSystems:
+    - RU-PT9
+    - 1-7KWU
+    - JI-LGM
+    - Y-FZ5N
+    - Q-S7ZD
+    - XVV-21
+    - 77S8-E
+    - 7L9-ZC
+    constellations:
+    - BZZ-1U
+    - AU-S0B
+    - G3IP-E
+    - CL-QB2
+    - F5-O9O
+    - 6I-3VX
+    - EIX-HK
+    - 50-5UD
+    - E-IFSA
+    - ZQ7-QS
+    - QP6B-I
+    - W-3E44
+    id: 10000061
+    isWormhole: false
+  TheBleakLands:
+    adjacentConstellations:
+    - Hed
+    - Maddam
+    - Semou
+    - Kisana
+    - Ryra
+    - Jayai
+    - Spaen
+    - Eugidi
+    - Zemont
+    - Daredan
+    adjacentRegions:
+    - Heimatar
+    - Domain
+    - Devoid
+    - SinqLaison
+    - Metropolis
+    adjacentSystems:
+    - Auga
+    - Mahrokht
+    - Tzvi
+    - Ohide
+    - Choonka
+    - Roushzar
+    - Sosan
+    - Gratesier
+    - Isbrabata
+    - Raravoss
+    - Hati
+    constellations:
+    - Sasen
+    - Tandoiras
+    - Vaarma
+    - Ichida
+    - Ohvarainen
+    id: 10000038
+    isWormhole: false
+  TheCitadel:
+    adjacentConstellations:
+    - Makiriemi
+    - Kurala
+    - Kimotoro
+    - Aideron
+    - Okela
+    - Okakuola
+    - Jeon
+    - Yekti
+    - Anttanen
+    - Haurala
+    - Agiesseson
+    - Crux
+    - Thoulde
+    - Patrie
+    - Kaala
+    - Koichi
+    adjacentRegions:
+    - Lonetrek
+    - BlackRise
+    - TheForge
+    - VergeVendor
+    - Essence
+    - Domain
+    - SinqLaison
+    adjacentSystems:
+    - Mara
+    - Mushikegi
+    - Urlen
+    - Tierijev
+    - Nourvukaiken
+    - Kedama
+    - Deven
+    - Sarekuwa
+    - Niarja
+    - Sirseshin
+    - Kino
+    - Jita
+    - Maurasi
+    - Unel
+    - Algogille
+    - Synchelle
+    - Jolevier
+    - Vellaine
+    - Isanamo
+    - NewCaldari
+    - Tunttaras
+    - Funtanainen
+    - Isikemi
+    constellations:
+    - Ieyama
+    - Tasen
+    - Isoma
+    - Uusasai
+    - Suon
+    - Santenpaa
+    - Otawasa
+    - Kantanen
+    - Outartoh
+    - Nagaslaiken
+    - Imurukka
+    - CaldariBorderZone
+    - Arekin
+    id: 10000033
+    isWormhole: false
+  TheForge:
+    adjacentConstellations:
+    - 8AO-5V
+    - F-ZNNG
+    - Aldodan
+    - Inkelm
+    - GallenteBorderZone
+    - Sela
+    - Arekin
+    - Tasen
+    - Suon
+    - Outartoh
+    - Okela
+    - Koichi
+    - Z-DO53
+    - Mito
+    - IPS-QB
+    adjacentRegions:
+    - EtheriumReach
+    - Geminate
+    - Metropolis
+    - SinqLaison
+    - Lonetrek
+    - TheCitadel
+    - ValeoftheSilent
+    adjacentSystems:
+    - LXQ2-T
+    - EOA-ZC
+    - Todifrauan
+    - Ofage
+    - Iyen-Oursta
+    - Malkalen
+    - Alikara
+    - Kusomonmon
+    - Sirppala
+    - Muvolailen
+    - Tunttaras
+    - Sobaseki
+    - P3EN-E
+    - Hakonen
+    - BWF-ZZ
+    - Inaro
+    constellations:
+    - Mivora
+    - Kimotoro
+    - Onirvura
+    - Etsala
+    - Ruomo
+    - Ihilakken
+    - Okkelen
+    - Otsabaira
+    - Ihatalo
+    - Orpana
+    - Aulari
+    - Okomon
+    - Anttanen
+    id: 10000002
+    isWormhole: false
+  TheKalevalaExpanse:
+    adjacentConstellations:
+    - V1G-63
+    - M9-AN3
+    - 4M6-GJ
+    - 7UNX-J
+    - 8AO-5V
+    - E6EO-H
+    - XI0-X2
+    - D-GU3R
+    - 9KX-M0
+    adjacentRegions:
+    - Geminate
+    - EtheriumReach
+    - Malpais
+    - ValeoftheSilent
+    adjacentSystems:
+    - 9P4O-F
+    - FB-MPY
+    - J7M-3W
+    - Z-EKCY
+    - TZ-74M
+    - V3P-AZ
+    - 7-YHRX
+    - AID-9T
+    - LS-JEP
+    constellations:
+    - U-HSM3
+    - 8UD2-J
+    - 2O-VY7
+    - 78-6RI
+    - P-B2NE
+    - XPG-HE
+    - S4S-SD
+    - 2Q-8WA
+    - 6-CBBM
+    - 3NA-Z1
+    id: 10000034
+    isWormhole: false
+  TheSpire:
+    adjacentConstellations:
+    - G-HISF
+    - D61-WV
+    - B-MQ0Y
+    - S0X-O4
+    - B-D245
+    - TL-FDN
+    - H7Q-DG
+    - RDD-E6
+    - 2FYX-H
+    - 5HN-S5
+    - X5O9-E
+    - MRC-29
+    adjacentRegions:
+    - Malpais
+    - Oasa
+    - PerrigenFalls
+    - OuterPassage
+    - Insmother
+    - EtheriumReach
+    - Cache
+    adjacentSystems:
+    - APES-G
+    - 91-KD8
+    - E-WMT7
+    - PA-ALN
+    - JUE-DX
+    - X1-IZ0
+    - D-OJEZ
+    - JAWX-R
+    - L1YK-V
+    - F-5WYK
+    - 8-SPNN
+    - XUPK-Z
+    - 8OYE-Z
+    constellations:
+    - 3D-ROC
+    - 4-0VL9
+    - E1L-UY
+    - Z6T6-B
+    - E-UBWI
+    - P-FL48
+    - MY-HQD
+    - OC-TTA
+    - E65-47
+    - J0-59Y
+    - OWT3-6
+    id: 10000018
+    isWormhole: false
+  Tribute:
+    adjacentConstellations:
+    - N32Z-Z
+    - 5YHF-H
+    - Mito
+    - MDM8-J
+    - 1G-8KY
+    - F-V9QW
+    - 0HD-6C
+    - E-8CSQ
+    - Z-DO53
+    adjacentRegions:
+    - Venal
+    - ValeoftheSilent
+    - Lonetrek
+    - PureBlind
+    adjacentSystems:
+    - 3A1P-N
+    - 0J3L-V
+    - Taisy
+    - KQK1-2
+    - Y-W1Q3
+    - T-ZWA1
+    - G9D-XW
+    - Y5J-EU
+    - 9OO-LH
+    constellations:
+    - 52-JKU
+    - 1P-VL2
+    - X-VN63
+    - W-XBGF
+    - GORV-P
+    - 03C-SU
+    - E3-NLE
+    - LLAP-1
+    id: 10000010
+    isWormhole: false
+  UUA-F4:
+    constellations:
+    - T7B-VB
+    - B-PHYN
+    - 0VFS-G
+    - FL-TD4
+    - J-4QD7
+    - LC-AQD
+    - L5-H1O
+    - VW-JMB
+    - 9RW5-Z
+    - KCR-1E
+    - RO-AZT
+    - HN5-RL
+    - VL-OGL
+    - V8UW-M
+    - 7PUP-K
+    - B-HLOG
+    id: 10000004
+    isWormhole: false
+  ValeoftheSilent:
+    adjacentConstellations:
+    - W-XBGF
+    - 52-JKU
+    - 6-CBBM
+    - V1G-63
+    - F-ZNNG
+    - N-K4Q0
+    - LLAP-1
+    - Orpana
+    adjacentRegions:
+    - Tribute
+    - TheKalevalaExpanse
+    - Geminate
+    - TheForge
+    adjacentSystems:
+    - 2CG-5V
+    - QFF-O6
+    - WH-JCA
+    - UDVW-O
+    - L-TOFR
+    - QP0K-B
+    - MR4-MY
+    - MSHD-4
+    - Obe
+    constellations:
+    - UK-MI6
+    - BUG6-X
+    - E-8CSQ
+    - F-V9QW
+    - 5YHF-H
+    - 9KX-M0
+    - 88G-M4
+    - DMXN-3
+    - A3-T8B
+    - OSJ7-I
+    - I89-EP
+    - YDS0-Y
+    - 0-8MWQ
+    - Z-DO53
+    - U29-0S
+    - YUT3-U
+    - DILJ-7
+    id: 10000003
+    isWormhole: false
+  Venal:
+    adjacentConstellations:
+    - Q5KW-Z
+    - W-XBGF
+    - 2-ZRM0
+    - M-J57M
+    - X-VN63
+    - 29V-1R
+    - JE7-F2
+    - TPB-KG
+    - 52-JKU
+    - N-U2LX
+    adjacentRegions:
+    - Branch
+    - Tribute
+    - Tenal
+    - Deklein
+    - PerrigenFalls
+    adjacentSystems:
+    - MA-VDX
+    - NJ4X-S
+    - OE-4HB
+    - EOY-BG
+    - UMI-KK
+    - 4U90-Z
+    - UQ9-3C
+    - MTO2-2
+    - Q-CAB2
+    - DKUK-G
+    constellations:
+    - L-1T22
+    - Y8-HHZ
+    - XHYS-O
+    - E-I1JW
+    - UTZ-7B
+    - ST-0EZ
+    - 0HD-6C
+    - 1G-8KY
+    - 48R-PS
+    - W9MQ-1
+    - Y8HB-U
+    - N32Z-Z
+    - XMNF-7
+    - 0KTC-R
+    id: 10000015
+    isWormhole: false
+  VergeVendor:
+    adjacentConstellations:
+    - Peccanouette
+    - Sanctum
+    - Ubar
+    - Fislipesnes
+    - Mallugier
+    - Viriette
+    - Patrie
+    - Jeon
+    - Eustron
+    - Isoma
+    - 2-M6DE
+    adjacentRegions:
+    - Essence
+    - Genesis
+    - Placid
+    - TheCitadel
+    - Syndicate
+    adjacentSystems:
+    - Aeschee
+    - Tar
+    - Yulai
+    - Diaderi
+    - Stacmon
+    - Avaux
+    - Agoze
+    - Mesybier
+    - Indregulle
+    - Attyn
+    - Ourapheh
+    - Derririntel
+    - Tannolen
+    - Pemene
+    - 6-CZ49
+    constellations:
+    - Obray
+    - Kiartanne
+    - Anwyns
+    - Woenckee
+    - Aideron
+    - Ancbeu
+    id: 10000068
+    isWormhole: false
+  WickedCreek:
+    adjacentConstellations:
+    - DITJ-X
+    - ENP-SH
+    - GJH-1C
+    - QA-P7J
+    - 8-4EFQ
+    - 5F8-PZ
+    - 51ZT-6
+    - MZ-PA2
+    - CN5-F2
+    adjacentRegions:
+    - ScaldingPass
+    - Detorid
+    - Insmother
+    adjacentSystems:
+    - B-1UJC
+    - OAQY-M
+    - OEG-K9
+    - 78-0R6
+    - SN9-3Z
+    - 4NDT-W
+    - DE-A7P
+    - 3-LJW3
+    - MSG-BZ
+    - 1V-LI2
+    - M9-MLR
+    - 4-43BW
+    - X9V-15
+    constellations:
+    - 5Y1E-3
+    - 3GK-WS
+    - RF9-ZU
+    - 4-QV2L
+    - AC-RON
+    - R-M719
+    - DJ-XCW
+    - GU-JZ1
+    - 0FC-ZX
+    - 760-9C
+    - 5ZR-29
+    - J-9M7D
+    id: 10000006
+    isWormhole: false
