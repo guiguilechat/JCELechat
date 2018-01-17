@@ -110,11 +110,11 @@ public class SolarSystem {
 
 	public static SolarSystem load(File systemDir) {
 		File[] data = systemDir.listFiles((d, name) -> name.equals("solarsystem.staticdata"));
+		if (data == null || data.length != 1 || !data[0].exists() || !data[0].isFile()) {
+			throw new UnsupportedOperationException(
+					"while looking for one file of system data, found " + Arrays.asList(data));
+		}
 		try {
-			if (data == null || data.length != 1 || !data[0].exists() || !data[0].isFile()) {
-				throw new UnsupportedOperationException(
-						"while looking for one file of system data, found " + Arrays.asList(data));
-			}
 			return new Yaml().loadAs(new FileReader(data[0]), SolarSystem.class);
 		} catch (Exception e) {
 			throw new UnsupportedOperationException("while loading solarsystem from directory " + systemDir.getAbsolutePath(),
