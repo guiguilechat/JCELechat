@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,17 +25,14 @@ public class Region {
 			return null;
 		}
 		File[] data = regionDir.listFiles((d, name) -> name.equals("region.staticdata"));
+		if (data == null || data.length != 1 || !data[0].exists() || !data[0].isFile()) {
+			throw new UnsupportedOperationException(
+					"while looking for one file of system data, found " + Arrays.asList(data));
+		}
 		try {
-			if (data == null || data.length != 1 || !data[0].exists() || !data[0].isFile()) {
-				throw new UnsupportedOperationException(
-						"while looking for one file of system data, found " + Arrays.asList(data));
-			}
 			Region ret = new Yaml().loadAs(new FileReader(data[0]), Region.class);
-			for (File child : regionDir.listFiles()) {
-				if (child.isDirectory()) {
-					ret.constellations.put(child.getName(), Constellation.load(child));
-				}
-			}
+			ret.constellations.putAll(Stream.of(regionDir.listFiles()).parallel().filter(File::isDirectory)
+					.collect(Collectors.toMap(File::getName, Constellation::load)));
 			return ret;
 		} catch (Exception e) {
 			throw new UnsupportedOperationException("while loading region from directory " + regionDir.getAbsolutePath(), e);
