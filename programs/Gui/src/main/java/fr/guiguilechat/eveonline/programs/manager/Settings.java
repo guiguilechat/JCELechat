@@ -5,8 +5,6 @@ import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Set;
 
-import org.yaml.snakeyaml.TypeDescription;
-import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.representer.Representer;
 
 import fr.guiguilechat.eveonline.programs.manager.settings.ISettings;
@@ -326,18 +324,6 @@ public class Settings implements ISettings {
 	public InventionParams invention = new InventionParams();
 
 	public BurnersEvalParams burners = new BurnersEvalParams();
-
-	@Override
-	public Constructor makeYamlConstructor() {
-		Constructor ret = ISettings.super.makeYamlConstructor();
-		TypeDescription settingsDescription = new TypeDescription(Settings.class);
-		settingsDescription.putMapPropertyType("teams", String.class, TeamDescription.class);
-		ret.addTypeDescription(settingsDescription);
-		TypeDescription missionsDescription = new TypeDescription(BurnersEvalParams.class);
-		missionsDescription.putMapPropertyType("missions", String.class, MissionStats.class);
-		ret.addTypeDescription(missionsDescription);
-		return ret;
-	}
 
 	@Override
 	public Representer makeYamlRepresenter() {

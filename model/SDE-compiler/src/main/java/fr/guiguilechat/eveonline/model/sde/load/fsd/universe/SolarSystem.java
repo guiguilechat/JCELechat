@@ -1,9 +1,14 @@
-package fr.guiguilechat.eveonline.model.sde.load.fsd;
+package fr.guiguilechat.eveonline.model.sde.load.fsd.universe;
 
+import java.io.File;
+import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 
-public class SolarSystemStaticData {
+import org.yaml.snakeyaml.Yaml;
+
+public class SolarSystem {
 
 	public ArrayList<Double> center = new ArrayList<>();
 	public ArrayList<Double> max = new ArrayList<>();
@@ -26,6 +31,11 @@ public class SolarSystemStaticData {
 	public boolean regional;
 
 	public ArrayList<String> disallowedAnchorCategories = new ArrayList<>();
+	public ArrayList<Integer> disallowedAnchorGroups = new ArrayList<>();
+
+	// for wormhole only ?
+	public SecondarySun secondarySun;
+	public String visualEffect;
 
 	public static class Planet {
 		public int typeID, celestialIndex, radius;
@@ -89,6 +99,27 @@ public class SolarSystemStaticData {
 		public int destination;
 		public ArrayList<Double> position;
 		public int typeID;
+	}
+
+	public static class SecondarySun {
+		public int effectBeaconTypeID;
+		public int itemID;
+		public double[] position;
+		public int typeID;
+	}
+
+	public static SolarSystem load(File systemDir) {
+		File[] data = systemDir.listFiles((d, name) -> name.equals("solarsystem.staticdata"));
+		try {
+			if (data == null || data.length != 1 || !data[0].exists() || !data[0].isFile()) {
+				throw new UnsupportedOperationException(
+						"while looking for one file of system data, found " + Arrays.asList(data));
+			}
+			return new Yaml().loadAs(new FileReader(data[0]), SolarSystem.class);
+		} catch (Exception e) {
+			throw new UnsupportedOperationException("while loading solarsystem from directory " + systemDir.getAbsolutePath(),
+					e);
+		}
 	}
 
 }

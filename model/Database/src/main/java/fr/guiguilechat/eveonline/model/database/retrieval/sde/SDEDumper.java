@@ -19,7 +19,6 @@ import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.yaml.snakeyaml.TypeDescription;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Constructor;
 
@@ -49,15 +48,13 @@ import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeEffects;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EstaStations;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.SolarSystem;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.SolarSystem.Moon;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.SolarSystem.Planet;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.SolarSystem.Stargate;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.AsteroidBelt;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.Moon;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.NPCStation;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.Planet;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.Stargate;
 import fr.guiguilechat.eveonline.model.sde.model.IndustryUsages;
 import is.ccp.tech.esi.responses.R_get_corporations_corporation_id;
 import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers;
@@ -565,23 +562,7 @@ public class SDEDumper {
 			System.err.println("can't create locations, folder not found " + mainFolder);
 			return;
 		}
-		Constructor sysconstructor = new Constructor(SolarSystemStaticData.class);
-
-		TypeDescription td = new TypeDescription(SolarSystemStaticData.class);
-		td.putMapPropertyType("stargates", Integer.class, Stargate.class);
-		td.putMapPropertyType("planets", Integer.class, Planet.class);
-		sysconstructor.addTypeDescription(td);
-
-		td = new TypeDescription(Planet.class);
-		td.putMapPropertyType("moons", Integer.class, Moon.class);
-		td.putMapPropertyType("asteroidBelts", Integer.class, AsteroidBelt.class);
-		td.putMapPropertyType("npcStations", Integer.class, NPCStation.class);
-		sysconstructor.addTypeDescription(td);
-
-		td = new TypeDescription(Moon.class);
-		td.putMapPropertyType("asteroidBelts", Integer.class, AsteroidBelt.class);
-		td.putMapPropertyType("npcStations", Integer.class, NPCStation.class);
-		sysconstructor.addTypeDescription(td);
+		Constructor sysconstructor = new Constructor(SolarSystem.class);
 
 		Yaml sysLoader = new Yaml(sysconstructor);
 		// we store all the name - systemid link
@@ -641,7 +622,7 @@ public class SDEDumper {
 					FileReader staticdataFileReader;
 					try {
 						staticdataFileReader = new FileReader(new File(systemDir, "solarsystem.staticdata"));
-						SolarSystemStaticData sysdata = (SolarSystemStaticData) sysLoader.load(staticdataFileReader);
+						SolarSystem sysdata = (SolarSystem) sysLoader.load(staticdataFileReader);
 						system.locationID = sysdata.solarSystemID;
 
 						system.maxSec = system.minSec = sysdata.security;
