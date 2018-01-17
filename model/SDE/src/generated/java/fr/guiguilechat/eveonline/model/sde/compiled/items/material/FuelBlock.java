@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.material;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Material;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class FuelBlock
     extends Material
 {
 
-    public final static String RESOURCE_PATH = "SDE/material/FuelBlock.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/material/FuelBlock.yaml";
     private static LinkedHashMap<String, FuelBlock> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class FuelBlock
     public static LinkedHashMap<String, FuelBlock> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(FuelBlock.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

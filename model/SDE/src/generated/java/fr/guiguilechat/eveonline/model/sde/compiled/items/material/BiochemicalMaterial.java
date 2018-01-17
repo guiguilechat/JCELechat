@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.material;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -21,7 +21,7 @@ public class BiochemicalMaterial
     @Stackable(true)
     @DefaultValue(1.0D)
     public double MoonMiningAmount;
-    public final static String RESOURCE_PATH = "SDE/material/BiochemicalMaterial.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/material/BiochemicalMaterial.yaml";
     private static LinkedHashMap<String, BiochemicalMaterial> cache = (null);
 
     @Override
@@ -37,8 +37,9 @@ public class BiochemicalMaterial
     public static LinkedHashMap<String, BiochemicalMaterial> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(BiochemicalMaterial.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

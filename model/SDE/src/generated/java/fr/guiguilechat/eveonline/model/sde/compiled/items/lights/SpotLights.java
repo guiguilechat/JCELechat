@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.lights;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Lights;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class SpotLights
     extends Lights
 {
 
-    public final static String RESOURCE_PATH = "SDE/lights/SpotLights.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/lights/SpotLights.yaml";
     private static LinkedHashMap<String, SpotLights> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class SpotLights
     public static LinkedHashMap<String, SpotLights> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(SpotLights.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

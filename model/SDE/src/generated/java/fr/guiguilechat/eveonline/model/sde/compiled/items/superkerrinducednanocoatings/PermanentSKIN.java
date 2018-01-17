@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.superkerrinducednanocoatings;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.SuperKerrInducedNanocoatings;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class PermanentSKIN
     extends SuperKerrInducedNanocoatings
 {
 
-    public final static String RESOURCE_PATH = "SDE/superkerrinducednanocoatings/PermanentSKIN.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/superkerrinducednanocoatings/PermanentSKIN.yaml";
     private static LinkedHashMap<String, PermanentSKIN> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class PermanentSKIN
     public static LinkedHashMap<String, PermanentSKIN> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(PermanentSKIN.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

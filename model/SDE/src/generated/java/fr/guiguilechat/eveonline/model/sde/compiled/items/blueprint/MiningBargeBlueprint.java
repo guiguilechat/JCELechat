@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.blueprint;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -37,7 +37,7 @@ public class MiningBargeBlueprint
     @Stackable(true)
     @DefaultValue(1.0D)
     public double TechLevel;
-    public final static String RESOURCE_PATH = "SDE/blueprint/MiningBargeBlueprint.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/blueprint/MiningBargeBlueprint.yaml";
     private static LinkedHashMap<String, MiningBargeBlueprint> cache = (null);
 
     @Override
@@ -53,8 +53,9 @@ public class MiningBargeBlueprint
     public static LinkedHashMap<String, MiningBargeBlueprint> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(MiningBargeBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

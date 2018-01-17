@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.module;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -173,7 +173,7 @@ public class MissileLauncherRocket
     @Stackable(true)
     @DefaultValue(0.0D)
     public double ChargeGroup3;
-    public final static String RESOURCE_PATH = "SDE/module/MissileLauncherRocket.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/module/MissileLauncherRocket.yaml";
     private static LinkedHashMap<String, MissileLauncherRocket> cache = (null);
 
     @Override
@@ -189,8 +189,9 @@ public class MissileLauncherRocket
     public static LinkedHashMap<String, MissileLauncherRocket> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(MissileLauncherRocket.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

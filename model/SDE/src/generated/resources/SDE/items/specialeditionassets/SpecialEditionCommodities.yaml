@@ -25,6 +25,8 @@ items:
     CpuMultiplier: 1.0
   YC119 Yoiul Festival Day 6:
     CpuMultiplier: 1.0
+  未���人类纪念章:
+    CpuMultiplier: 1.0
   YC119 Yoiul Festival Day 3:
     CpuMultiplier: 1.0
   YC119 Yoiul Festival Day 4:
@@ -145,15 +147,11 @@ items:
     CpuMultiplier: 1.0
   Glacial Drift Festival Box:
     CpuMultiplier: 1.0
-  YC118 Succession Trial Champion��s Decree – House Kor-Azor:
-    CpuMultiplier: 1.0
   A3 Industrial Package:
     CpuMultiplier: 1.0
   Sansha Claws Fairytale Book:
     CpuMultiplier: 1.0
   Starsi:
-    CpuMultiplier: 1.0
-  未来人类纪念章:
     CpuMultiplier: 1.0
   Pre-Completed CSM 10 Ballot Paper:
     CpuMultiplier: 1.0
@@ -202,6 +200,8 @@ items:
   Deactivated Station Key Pass:
     CpuMultiplier: 1.0
   Animal Medical Expert:
+    CpuMultiplier: 1.0
+  YC118 Succession Trial Champion’s Decree – House Kor-Azor:
     CpuMultiplier: 1.0
   Badly Corrupted Holoreel:
     CpuMultiplier: 1.0

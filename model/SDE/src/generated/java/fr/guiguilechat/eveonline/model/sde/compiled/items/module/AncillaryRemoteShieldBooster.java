@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.module;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -189,7 +189,7 @@ public class AncillaryRemoteShieldBooster
     @Stackable(false)
     @DefaultValue(0.0D)
     public double FalloffEffectiveness;
-    public final static String RESOURCE_PATH = "SDE/module/AncillaryRemoteShieldBooster.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/module/AncillaryRemoteShieldBooster.yaml";
     private static LinkedHashMap<String, AncillaryRemoteShieldBooster> cache = (null);
 
     @Override
@@ -205,8 +205,9 @@ public class AncillaryRemoteShieldBooster
     public static LinkedHashMap<String, AncillaryRemoteShieldBooster> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(AncillaryRemoteShieldBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

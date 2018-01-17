@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.module;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -229,7 +229,7 @@ public class WarpDisruptFieldGenerator
     @Stackable(true)
     @DefaultValue(0.0D)
     public double MaxVelocityMultiplier;
-    public final static String RESOURCE_PATH = "SDE/module/WarpDisruptFieldGenerator.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/module/WarpDisruptFieldGenerator.yaml";
     private static LinkedHashMap<String, WarpDisruptFieldGenerator> cache = (null);
 
     @Override
@@ -245,8 +245,9 @@ public class WarpDisruptFieldGenerator
     public static LinkedHashMap<String, WarpDisruptFieldGenerator> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(WarpDisruptFieldGenerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

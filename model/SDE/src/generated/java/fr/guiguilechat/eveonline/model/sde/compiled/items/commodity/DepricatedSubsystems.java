@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.commodity;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -717,7 +717,7 @@ public class DepricatedSubsystems
     @Stackable(true)
     @DefaultValue(0.0D)
     public double SubsystemBonusMinmatarOffensive3;
-    public final static String RESOURCE_PATH = "SDE/commodity/DepricatedSubsystems.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/commodity/DepricatedSubsystems.yaml";
     private static LinkedHashMap<String, DepricatedSubsystems> cache = (null);
 
     @Override
@@ -733,8 +733,9 @@ public class DepricatedSubsystems
     public static LinkedHashMap<String, DepricatedSubsystems> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(DepricatedSubsystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

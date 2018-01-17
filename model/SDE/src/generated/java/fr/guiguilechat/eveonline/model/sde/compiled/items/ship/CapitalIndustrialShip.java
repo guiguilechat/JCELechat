@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.ship;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -485,7 +485,7 @@ public class CapitalIndustrialShip
     @Stackable(true)
     @DefaultValue(0.0D)
     public double IsCapitalSize;
-    public final static String RESOURCE_PATH = "SDE/ship/CapitalIndustrialShip.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/ship/CapitalIndustrialShip.yaml";
     private static LinkedHashMap<String, CapitalIndustrialShip> cache = (null);
 
     @Override
@@ -501,8 +501,9 @@ public class CapitalIndustrialShip
     public static LinkedHashMap<String, CapitalIndustrialShip> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(CapitalIndustrialShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

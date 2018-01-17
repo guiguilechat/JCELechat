@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.implant;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -77,7 +77,7 @@ public class CyberXSpecials
     @Stackable(true)
     @DefaultValue(0.0D)
     public double VelocityBonus2;
-    public final static String RESOURCE_PATH = "SDE/implant/CyberXSpecials.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/implant/CyberXSpecials.yaml";
     private static LinkedHashMap<String, CyberXSpecials> cache = (null);
 
     @Override
@@ -93,8 +93,9 @@ public class CyberXSpecials
     public static LinkedHashMap<String, CyberXSpecials> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(CyberXSpecials.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

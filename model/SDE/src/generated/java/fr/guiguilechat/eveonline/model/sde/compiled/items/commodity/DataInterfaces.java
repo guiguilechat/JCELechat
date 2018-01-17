@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.commodity;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -45,7 +45,7 @@ public class DataInterfaces
     @Stackable(true)
     @DefaultValue(0.0D)
     public double DecryptorID;
-    public final static String RESOURCE_PATH = "SDE/commodity/DataInterfaces.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/commodity/DataInterfaces.yaml";
     private static LinkedHashMap<String, DataInterfaces> cache = (null);
 
     @Override
@@ -61,8 +61,9 @@ public class DataInterfaces
     public static LinkedHashMap<String, DataInterfaces> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(DataInterfaces.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

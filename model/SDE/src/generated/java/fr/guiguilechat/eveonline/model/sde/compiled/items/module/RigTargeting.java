@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.module;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -77,7 +77,7 @@ public class RigTargeting
     @Stackable(false)
     @DefaultValue(0.0D)
     public double ScanSkillEwStrengthBonus;
-    public final static String RESOURCE_PATH = "SDE/module/RigTargeting.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/module/RigTargeting.yaml";
     private static LinkedHashMap<String, RigTargeting> cache = (null);
 
     @Override
@@ -93,8 +93,9 @@ public class RigTargeting
     public static LinkedHashMap<String, RigTargeting> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(RigTargeting.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

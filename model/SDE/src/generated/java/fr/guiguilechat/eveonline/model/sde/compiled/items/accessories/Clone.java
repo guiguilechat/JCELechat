@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.accessories;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -21,7 +21,7 @@ public class Clone
     @Stackable(true)
     @DefaultValue(10000.0D)
     public double SkillPointsSaved;
-    public final static String RESOURCE_PATH = "SDE/accessories/Clone.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/accessories/Clone.yaml";
     private static LinkedHashMap<String, Clone> cache = (null);
 
     @Override
@@ -37,8 +37,9 @@ public class Clone
     public static LinkedHashMap<String, Clone> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Clone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.blueprint;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -29,7 +29,7 @@ public class PassiveTargetingSystemBlueprint
     @Stackable(true)
     @DefaultValue(1.0D)
     public double TechLevel;
-    public final static String RESOURCE_PATH = "SDE/blueprint/PassiveTargetingSystemBlueprint.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/blueprint/PassiveTargetingSystemBlueprint.yaml";
     private static LinkedHashMap<String, PassiveTargetingSystemBlueprint> cache = (null);
 
     @Override
@@ -45,8 +45,9 @@ public class PassiveTargetingSystemBlueprint
     public static LinkedHashMap<String, PassiveTargetingSystemBlueprint> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(PassiveTargetingSystemBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

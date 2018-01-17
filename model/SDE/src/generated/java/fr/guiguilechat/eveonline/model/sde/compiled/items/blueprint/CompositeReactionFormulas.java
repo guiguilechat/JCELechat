@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.blueprint;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Blueprint;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class CompositeReactionFormulas
     extends Blueprint
 {
 
-    public final static String RESOURCE_PATH = "SDE/blueprint/CompositeReactionFormulas.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/blueprint/CompositeReactionFormulas.yaml";
     private static LinkedHashMap<String, CompositeReactionFormulas> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class CompositeReactionFormulas
     public static LinkedHashMap<String, CompositeReactionFormulas> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(CompositeReactionFormulas.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

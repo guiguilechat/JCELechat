@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.entity;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Entity;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class LCODrone
     extends Entity
 {
 
-    public final static String RESOURCE_PATH = "SDE/entity/LCODrone.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/entity/LCODrone.yaml";
     private static LinkedHashMap<String, LCODrone> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class LCODrone
     public static LinkedHashMap<String, LCODrone> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(LCODrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

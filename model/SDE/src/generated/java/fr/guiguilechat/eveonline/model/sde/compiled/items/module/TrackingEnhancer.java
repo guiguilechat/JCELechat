@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.module;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -77,7 +77,7 @@ public class TrackingEnhancer
     @Stackable(true)
     @DefaultValue(0.0D)
     public double MaxRangeBonus;
-    public final static String RESOURCE_PATH = "SDE/module/TrackingEnhancer.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/module/TrackingEnhancer.yaml";
     private static LinkedHashMap<String, TrackingEnhancer> cache = (null);
 
     @Override
@@ -93,8 +93,9 @@ public class TrackingEnhancer
     public static LinkedHashMap<String, TrackingEnhancer> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(TrackingEnhancer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

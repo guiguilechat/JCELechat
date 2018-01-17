@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.charge;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -117,7 +117,7 @@ public class InterdictionProbe
     @Stackable(false)
     @DefaultValue(0.0D)
     public double ExplosionDelay;
-    public final static String RESOURCE_PATH = "SDE/charge/InterdictionProbe.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/charge/InterdictionProbe.yaml";
     private static LinkedHashMap<String, InterdictionProbe> cache = (null);
 
     @Override
@@ -133,8 +133,9 @@ public class InterdictionProbe
     public static LinkedHashMap<String, InterdictionProbe> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(InterdictionProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

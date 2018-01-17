@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.module;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -117,7 +117,7 @@ public class StripMiner
     @Stackable(true)
     @DefaultValue(0.0D)
     public double Power;
-    public final static String RESOURCE_PATH = "SDE/module/StripMiner.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/module/StripMiner.yaml";
     private static LinkedHashMap<String, StripMiner> cache = (null);
 
     @Override
@@ -133,8 +133,9 @@ public class StripMiner
     public static LinkedHashMap<String, StripMiner> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(StripMiner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

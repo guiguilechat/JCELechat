@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.celestial;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -109,7 +109,7 @@ public class Beacon
     @Stackable(true)
     @DefaultValue(1.0D)
     public double StructureUniformity;
-    public final static String RESOURCE_PATH = "SDE/celestial/Beacon.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/celestial/Beacon.yaml";
     private static LinkedHashMap<String, Beacon> cache = (null);
 
     @Override
@@ -125,8 +125,9 @@ public class Beacon
     public static LinkedHashMap<String, Beacon> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Beacon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

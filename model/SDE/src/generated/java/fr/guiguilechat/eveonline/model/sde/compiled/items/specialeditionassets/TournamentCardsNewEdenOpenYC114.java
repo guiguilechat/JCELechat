@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.specialeditionassets;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.SpecialEditionAssets;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class TournamentCardsNewEdenOpenYC114
     extends SpecialEditionAssets
 {
 
-    public final static String RESOURCE_PATH = "SDE/specialeditionassets/TournamentCardsNewEdenOpenYC114.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/specialeditionassets/TournamentCardsNewEdenOpenYC114.yaml";
     private static LinkedHashMap<String, TournamentCardsNewEdenOpenYC114> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class TournamentCardsNewEdenOpenYC114
     public static LinkedHashMap<String, TournamentCardsNewEdenOpenYC114> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(TournamentCardsNewEdenOpenYC114 .class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

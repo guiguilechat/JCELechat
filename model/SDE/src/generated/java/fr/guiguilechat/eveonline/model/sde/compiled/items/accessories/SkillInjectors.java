@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.accessories;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -29,7 +29,7 @@ public class SkillInjectors
     @Stackable(true)
     @DefaultValue(0.0D)
     public double ContainedSkillPoints;
-    public final static String RESOURCE_PATH = "SDE/accessories/SkillInjectors.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/accessories/SkillInjectors.yaml";
     private static LinkedHashMap<String, SkillInjectors> cache = (null);
 
     @Override
@@ -45,8 +45,9 @@ public class SkillInjectors
     public static LinkedHashMap<String, SkillInjectors> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(SkillInjectors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

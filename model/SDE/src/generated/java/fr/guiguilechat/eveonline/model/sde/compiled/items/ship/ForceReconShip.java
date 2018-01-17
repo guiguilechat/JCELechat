@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.ship;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -421,7 +421,7 @@ public class ForceReconShip
     @Stackable(true)
     @DefaultValue(0.0D)
     public double ShipBonusRole2;
-    public final static String RESOURCE_PATH = "SDE/ship/ForceReconShip.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/ship/ForceReconShip.yaml";
     private static LinkedHashMap<String, ForceReconShip> cache = (null);
 
     @Override
@@ -437,8 +437,9 @@ public class ForceReconShip
     public static LinkedHashMap<String, ForceReconShip> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(ForceReconShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

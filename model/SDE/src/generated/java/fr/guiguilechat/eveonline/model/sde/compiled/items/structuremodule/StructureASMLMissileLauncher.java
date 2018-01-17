@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.structuremodule;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -109,7 +109,7 @@ public class StructureASMLMissileLauncher
     @Stackable(true)
     @DefaultValue(1.0D)
     public double Slots;
-    public final static String RESOURCE_PATH = "SDE/structuremodule/StructureASMLMissileLauncher.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureASMLMissileLauncher.yaml";
     private static LinkedHashMap<String, StructureASMLMissileLauncher> cache = (null);
 
     @Override
@@ -125,8 +125,9 @@ public class StructureASMLMissileLauncher
     public static LinkedHashMap<String, StructureASMLMissileLauncher> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(StructureASMLMissileLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

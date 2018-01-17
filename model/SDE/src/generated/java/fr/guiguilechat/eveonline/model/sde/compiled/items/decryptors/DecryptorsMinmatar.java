@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.decryptors;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Decryptors;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class DecryptorsMinmatar
     extends Decryptors
 {
 
-    public final static String RESOURCE_PATH = "SDE/decryptors/DecryptorsMinmatar.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/decryptors/DecryptorsMinmatar.yaml";
     private static LinkedHashMap<String, DecryptorsMinmatar> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class DecryptorsMinmatar
     public static LinkedHashMap<String, DecryptorsMinmatar> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(DecryptorsMinmatar.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

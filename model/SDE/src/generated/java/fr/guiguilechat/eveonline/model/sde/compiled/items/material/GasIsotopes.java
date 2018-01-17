@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.material;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Material;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class GasIsotopes
     extends Material
 {
 
-    public final static String RESOURCE_PATH = "SDE/material/GasIsotopes.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/material/GasIsotopes.yaml";
     private static LinkedHashMap<String, GasIsotopes> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class GasIsotopes
     public static LinkedHashMap<String, GasIsotopes> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(GasIsotopes.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

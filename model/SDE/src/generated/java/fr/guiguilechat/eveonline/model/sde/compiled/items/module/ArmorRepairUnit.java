@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.module;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -133,7 +133,7 @@ public class ArmorRepairUnit
     @Stackable(true)
     @DefaultValue(0.0D)
     public double Power;
-    public final static String RESOURCE_PATH = "SDE/module/ArmorRepairUnit.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/module/ArmorRepairUnit.yaml";
     private static LinkedHashMap<String, ArmorRepairUnit> cache = (null);
 
     @Override
@@ -149,8 +149,9 @@ public class ArmorRepairUnit
     public static LinkedHashMap<String, ArmorRepairUnit> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(ArmorRepairUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

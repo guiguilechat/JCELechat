@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.superkerrinducednanocoatings;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.SuperKerrInducedNanocoatings;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class VolatileSKIN
     extends SuperKerrInducedNanocoatings
 {
 
-    public final static String RESOURCE_PATH = "SDE/superkerrinducednanocoatings/VolatileSKIN.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/superkerrinducednanocoatings/VolatileSKIN.yaml";
     private static LinkedHashMap<String, VolatileSKIN> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class VolatileSKIN
     public static LinkedHashMap<String, VolatileSKIN> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(VolatileSKIN.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

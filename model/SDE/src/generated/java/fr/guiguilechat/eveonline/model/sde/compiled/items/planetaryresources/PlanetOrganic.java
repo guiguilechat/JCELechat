@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.planetaryresources;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.PlanetaryResources;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class PlanetOrganic
     extends PlanetaryResources
 {
 
-    public final static String RESOURCE_PATH = "SDE/planetaryresources/PlanetOrganic.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/planetaryresources/PlanetOrganic.yaml";
     private static LinkedHashMap<String, PlanetOrganic> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class PlanetOrganic
     public static LinkedHashMap<String, PlanetOrganic> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(PlanetOrganic.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.entity;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Entity;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class SleeperEventBattleship
     extends Entity
 {
 
-    public final static String RESOURCE_PATH = "SDE/entity/SleeperEventBattleship.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/entity/SleeperEventBattleship.yaml";
     private static LinkedHashMap<String, SleeperEventBattleship> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class SleeperEventBattleship
     public static LinkedHashMap<String, SleeperEventBattleship> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(SleeperEventBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

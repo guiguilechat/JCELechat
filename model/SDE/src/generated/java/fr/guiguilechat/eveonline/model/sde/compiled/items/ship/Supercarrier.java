@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.ship;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -669,7 +669,7 @@ public class Supercarrier
     @Stackable(false)
     @DefaultValue(1.0D)
     public double EnergyWarfareResistance;
-    public final static String RESOURCE_PATH = "SDE/ship/Supercarrier.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/ship/Supercarrier.yaml";
     private static LinkedHashMap<String, Supercarrier> cache = (null);
 
     @Override
@@ -685,8 +685,9 @@ public class Supercarrier
     public static LinkedHashMap<String, Supercarrier> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Supercarrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

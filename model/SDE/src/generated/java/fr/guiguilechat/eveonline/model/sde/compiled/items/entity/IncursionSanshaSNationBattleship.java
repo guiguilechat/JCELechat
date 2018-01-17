@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.entity;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Entity;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class IncursionSanshaSNationBattleship
     extends Entity
 {
 
-    public final static String RESOURCE_PATH = "SDE/entity/IncursionSanshaSNationBattleship.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/entity/IncursionSanshaSNationBattleship.yaml";
     private static LinkedHashMap<String, IncursionSanshaSNationBattleship> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class IncursionSanshaSNationBattleship
     public static LinkedHashMap<String, IncursionSanshaSNationBattleship> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(IncursionSanshaSNationBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.ship;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -309,7 +309,7 @@ public class DeepSpaceTransport
     @Stackable(true)
     @DefaultValue(0.0D)
     public double MainColor;
-    public final static String RESOURCE_PATH = "SDE/ship/DeepSpaceTransport.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/ship/DeepSpaceTransport.yaml";
     private static LinkedHashMap<String, DeepSpaceTransport> cache = (null);
 
     @Override
@@ -325,8 +325,9 @@ public class DeepSpaceTransport
     public static LinkedHashMap<String, DeepSpaceTransport> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(DeepSpaceTransport.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

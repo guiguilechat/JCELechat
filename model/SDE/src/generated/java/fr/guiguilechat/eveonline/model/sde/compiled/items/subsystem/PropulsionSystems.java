@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.subsystem;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -109,7 +109,7 @@ public class PropulsionSystems
     @Stackable(true)
     @DefaultValue(0.0D)
     public double SubsystemBonusAmarrPropulsion;
-    public final static String RESOURCE_PATH = "SDE/subsystem/PropulsionSystems.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/subsystem/PropulsionSystems.yaml";
     private static LinkedHashMap<String, PropulsionSystems> cache = (null);
 
     @Override
@@ -125,8 +125,9 @@ public class PropulsionSystems
     public static LinkedHashMap<String, PropulsionSystems> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(PropulsionSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

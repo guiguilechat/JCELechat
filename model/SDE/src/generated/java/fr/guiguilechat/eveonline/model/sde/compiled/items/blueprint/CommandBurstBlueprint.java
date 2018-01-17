@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.blueprint;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Blueprint;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class CommandBurstBlueprint
     extends Blueprint
 {
 
-    public final static String RESOURCE_PATH = "SDE/blueprint/CommandBurstBlueprint.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/blueprint/CommandBurstBlueprint.yaml";
     private static LinkedHashMap<String, CommandBurstBlueprint> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class CommandBurstBlueprint
     public static LinkedHashMap<String, CommandBurstBlueprint> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(CommandBurstBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

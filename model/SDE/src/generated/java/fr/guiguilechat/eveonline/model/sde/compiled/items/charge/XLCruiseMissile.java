@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.charge;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -213,7 +213,7 @@ public class XLCruiseMissile
     @Stackable(true)
     @DefaultValue(0.0D)
     public double MetaLevel;
-    public final static String RESOURCE_PATH = "SDE/charge/XLCruiseMissile.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/charge/XLCruiseMissile.yaml";
     private static LinkedHashMap<String, XLCruiseMissile> cache = (null);
 
     @Override
@@ -229,8 +229,9 @@ public class XLCruiseMissile
     public static LinkedHashMap<String, XLCruiseMissile> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(XLCruiseMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

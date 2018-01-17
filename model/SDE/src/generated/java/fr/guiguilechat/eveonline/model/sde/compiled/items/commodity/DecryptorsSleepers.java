@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.commodity;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -45,7 +45,7 @@ public class DecryptorsSleepers
     @Stackable(true)
     @DefaultValue(0.0D)
     public double InventionTEModifier;
-    public final static String RESOURCE_PATH = "SDE/commodity/DecryptorsSleepers.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/commodity/DecryptorsSleepers.yaml";
     private static LinkedHashMap<String, DecryptorsSleepers> cache = (null);
 
     @Override
@@ -61,8 +61,9 @@ public class DecryptorsSleepers
     public static LinkedHashMap<String, DecryptorsSleepers> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(DecryptorsSleepers.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

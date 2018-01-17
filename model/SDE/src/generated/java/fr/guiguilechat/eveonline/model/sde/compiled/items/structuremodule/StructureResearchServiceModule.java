@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.structuremodule;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -61,7 +61,7 @@ public class StructureResearchServiceModule
     @Stackable(true)
     @DefaultValue(0.0D)
     public double Power;
-    public final static String RESOURCE_PATH = "SDE/structuremodule/StructureResearchServiceModule.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureResearchServiceModule.yaml";
     private static LinkedHashMap<String, StructureResearchServiceModule> cache = (null);
 
     @Override
@@ -77,8 +77,9 @@ public class StructureResearchServiceModule
     public static LinkedHashMap<String, StructureResearchServiceModule> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(StructureResearchServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

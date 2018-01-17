@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.starbase;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -37,7 +37,7 @@ public class ForceFieldArray
     @Stackable(true)
     @DefaultValue(0.0D)
     public double Power;
-    public final static String RESOURCE_PATH = "SDE/starbase/ForceFieldArray.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/starbase/ForceFieldArray.yaml";
     private static LinkedHashMap<String, ForceFieldArray> cache = (null);
 
     @Override
@@ -53,8 +53,9 @@ public class ForceFieldArray
     public static LinkedHashMap<String, ForceFieldArray> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(ForceFieldArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

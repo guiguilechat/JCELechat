@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.ship;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -253,7 +253,7 @@ public class MiningBarge
     @Stackable(true)
     @DefaultValue(0.0D)
     public double ShipScanResistance;
-    public final static String RESOURCE_PATH = "SDE/ship/MiningBarge.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/ship/MiningBarge.yaml";
     private static LinkedHashMap<String, MiningBarge> cache = (null);
 
     @Override
@@ -269,8 +269,9 @@ public class MiningBarge
     public static LinkedHashMap<String, MiningBarge> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(MiningBarge.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

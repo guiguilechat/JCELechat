@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.starbase;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -341,7 +341,7 @@ public class MobileMissileSentry
     @Stackable(true)
     @DefaultValue(20000.0D)
     public double MissileLaunchDuration;
-    public final static String RESOURCE_PATH = "SDE/starbase/MobileMissileSentry.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/starbase/MobileMissileSentry.yaml";
     private static LinkedHashMap<String, MobileMissileSentry> cache = (null);
 
     @Override
@@ -357,8 +357,9 @@ public class MobileMissileSentry
     public static LinkedHashMap<String, MobileMissileSentry> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(MobileMissileSentry.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.celestial;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Celestial;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class Planet
     extends Celestial
 {
 
-    public final static String RESOURCE_PATH = "SDE/celestial/Planet.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/celestial/Planet.yaml";
     private static LinkedHashMap<String, Planet> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class Planet
     public static LinkedHashMap<String, Planet> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Planet.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

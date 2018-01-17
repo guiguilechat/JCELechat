@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.skill;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -166,7 +166,7 @@ public class ResourceProcessing
     @Stackable(true)
     @DefaultValue(0.0D)
     public double MiningUpgradeCPUReductionBonus;
-    public final static String RESOURCE_PATH = "SDE/skill/ResourceProcessing.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/skill/ResourceProcessing.yaml";
     private static LinkedHashMap<String, ResourceProcessing> cache = (null);
 
     @Override
@@ -182,8 +182,9 @@ public class ResourceProcessing
     public static LinkedHashMap<String, ResourceProcessing> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(ResourceProcessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

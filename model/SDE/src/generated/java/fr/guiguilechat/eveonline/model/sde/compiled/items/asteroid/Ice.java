@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.asteroid;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -90,7 +90,7 @@ public class Ice
     @Stackable(true)
     @DefaultValue(90.0D)
     public double AsteroidRadiusUnitSize;
-    public final static String RESOURCE_PATH = "SDE/asteroid/Ice.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/asteroid/Ice.yaml";
     private static LinkedHashMap<String, Ice> cache = (null);
 
     @Override
@@ -106,8 +106,9 @@ public class Ice
     public static LinkedHashMap<String, Ice> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Ice.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

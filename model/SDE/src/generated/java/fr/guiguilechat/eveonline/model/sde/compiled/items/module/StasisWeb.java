@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.module;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -141,7 +141,7 @@ public class StasisWeb
     @Stackable(false)
     @DefaultValue(1.0D)
     public double Falloff;
-    public final static String RESOURCE_PATH = "SDE/module/StasisWeb.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/module/StasisWeb.yaml";
     private static LinkedHashMap<String, StasisWeb> cache = (null);
 
     @Override
@@ -157,8 +157,9 @@ public class StasisWeb
     public static LinkedHashMap<String, StasisWeb> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(StasisWeb.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

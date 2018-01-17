@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.ship;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -309,7 +309,7 @@ public class HeavyInterdictionCruiser
     @Stackable(true)
     @DefaultValue(0.0D)
     public double MainColor;
-    public final static String RESOURCE_PATH = "SDE/ship/HeavyInterdictionCruiser.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/ship/HeavyInterdictionCruiser.yaml";
     private static LinkedHashMap<String, HeavyInterdictionCruiser> cache = (null);
 
     @Override
@@ -325,8 +325,9 @@ public class HeavyInterdictionCruiser
     public static LinkedHashMap<String, HeavyInterdictionCruiser> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(HeavyInterdictionCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);
