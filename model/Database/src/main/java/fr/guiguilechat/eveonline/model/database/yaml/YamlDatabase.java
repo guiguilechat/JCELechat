@@ -19,7 +19,6 @@ import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.DumperOptions.FlowStyle;
 import org.yaml.snakeyaml.DumperOptions.ScalarStyle;
-import org.yaml.snakeyaml.TypeDescription;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.BaseConstructor;
 import org.yaml.snakeyaml.constructor.Constructor;
@@ -54,17 +53,6 @@ public class YamlDatabase extends EveDatabase {
 
 	protected static BaseConstructor makeConstructor() {
 		Constructor ret = new Constructor(DatabaseFile.class);
-		TypeDescription td = new TypeDescription(DatabaseFile.class);
-		td.putMapPropertyType("hulls", String.class, Hull.class);
-		td.putMapPropertyType("asteroids", String.class, Asteroid.class);
-		td.putMapPropertyType("modules", String.class, Module.class);
-		td.putMapPropertyType("blueprints", String.class, Blueprint.class);
-		td.putMapPropertyType("metaInfs", String.class, MetaInf.class);
-		td.putMapPropertyType("locations", String.class, Location.class);
-		td.putMapPropertyType("stations", String.class, Station.class);
-		td.putListPropertyType("lpoffers", LPOffer.class);
-		td.putMapPropertyType("agents", String.class, Agent.class);
-		ret.addTypeDescription(td);
 		return ret;
 	}
 

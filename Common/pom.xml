@@ -120,6 +120,11 @@
 				<artifactId>logback-classic</artifactId>
 				<version>1.2.3</version>
 			</dependency>
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-simple</artifactId>
+				<version>1.8.0-beta0</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<version>1.0.5</version>

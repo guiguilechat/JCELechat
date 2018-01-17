@@ -8,7 +8,6 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-import org.yaml.snakeyaml.TypeDescription;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
 import org.yaml.snakeyaml.constructor.Constructor;
@@ -63,10 +62,6 @@ public class EtypeIDs {
 					return ret;
 				}
 			};
-			TypeDescription td = new TypeDescription(EtypeIDs.class);
-			td.putMapPropertyType("name", String.class, String.class);
-			td.putMapPropertyType("description", String.class, String.class);
-			cons.addTypeDescription(td);
 			Yaml yaml = new Yaml(cons);
 			try {
 				cache = yaml.loadAs(new FileReader(FILE), LinkedHashMap.class);
