@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.celestial;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -29,7 +29,7 @@ public class Comet
     @Stackable(true)
     @DefaultValue(0.0D)
     public double ReprocessingSkillType;
-    public final static String RESOURCE_PATH = "SDE/celestial/Comet.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/celestial/Comet.yaml";
     private static LinkedHashMap<String, Comet> cache = (null);
 
     @Override
@@ -45,8 +45,9 @@ public class Comet
     public static LinkedHashMap<String, Comet> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Comet.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.charge;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -149,7 +149,7 @@ public class ScannerProbe
     @Stackable(true)
     @DefaultValue(0.0D)
     public double RangeFactor;
-    public final static String RESOURCE_PATH = "SDE/charge/ScannerProbe.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/charge/ScannerProbe.yaml";
     private static LinkedHashMap<String, ScannerProbe> cache = (null);
 
     @Override
@@ -165,8 +165,9 @@ public class ScannerProbe
     public static LinkedHashMap<String, ScannerProbe> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(ScannerProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

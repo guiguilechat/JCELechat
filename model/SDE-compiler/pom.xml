@@ -44,4 +44,7 @@
 	</dependencies>
 	<name>SDE-compiler</name>
 	<version>1.0.0</version>
+	<description>Generate classes corresponding to the dogma structure of the Static Data Export from CCP.
+This module is designed to be used pre-compile time in order to load the SDE from CCP and generate both the classes and the corresponding classes data.
+At the moment it creates classes for items in the SDE, considering their attributes.</description>
 </project>

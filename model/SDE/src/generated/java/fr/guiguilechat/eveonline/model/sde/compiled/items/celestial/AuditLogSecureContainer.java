@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.celestial;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -58,7 +58,7 @@ public class AuditLogSecureContainer
     @Stackable(true)
     @DefaultValue(1.0D)
     public double StructureUniformity;
-    public final static String RESOURCE_PATH = "SDE/celestial/AuditLogSecureContainer.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/celestial/AuditLogSecureContainer.yaml";
     private static LinkedHashMap<String, AuditLogSecureContainer> cache = (null);
 
     @Override
@@ -74,8 +74,9 @@ public class AuditLogSecureContainer
     public static LinkedHashMap<String, AuditLogSecureContainer> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(AuditLogSecureContainer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

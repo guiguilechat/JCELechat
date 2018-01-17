@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.infantry;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Infantry;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class Services
     extends Infantry
 {
 
-    public final static String RESOURCE_PATH = "SDE/infantry/Services.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/infantry/Services.yaml";
     private static LinkedHashMap<String, Services> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class Services
     public static LinkedHashMap<String, Services> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Services.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

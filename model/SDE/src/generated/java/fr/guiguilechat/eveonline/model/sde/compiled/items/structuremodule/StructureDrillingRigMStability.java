@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.structuremodule;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -117,7 +117,7 @@ public class StructureDrillingRigMStability
     @Stackable(true)
     @DefaultValue(0.0D)
     public double StructureItemVisualFlag;
-    public final static String RESOURCE_PATH = "SDE/structuremodule/StructureDrillingRigMStability.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigMStability.yaml";
     private static LinkedHashMap<String, StructureDrillingRigMStability> cache = (null);
 
     @Override
@@ -133,8 +133,9 @@ public class StructureDrillingRigMStability
     public static LinkedHashMap<String, StructureDrillingRigMStability> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(StructureDrillingRigMStability.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

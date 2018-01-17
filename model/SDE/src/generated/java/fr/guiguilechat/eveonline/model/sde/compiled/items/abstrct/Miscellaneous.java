@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.abstrct;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Abstrct;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class Miscellaneous
     extends Abstrct
 {
 
-    public final static String RESOURCE_PATH = "SDE/abstrct/Miscellaneous.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/abstrct/Miscellaneous.yaml";
     private static LinkedHashMap<String, Miscellaneous> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class Miscellaneous
     public static LinkedHashMap<String, Miscellaneous> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Miscellaneous.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

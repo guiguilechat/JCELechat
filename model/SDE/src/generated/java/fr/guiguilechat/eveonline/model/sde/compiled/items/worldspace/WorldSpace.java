@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.worldspace;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import org.yaml.snakeyaml.Yaml;
 
@@ -9,7 +9,7 @@ public class WorldSpace
     extends fr.guiguilechat.eveonline.model.sde.compiled.items.WorldSpace
 {
 
-    public final static String RESOURCE_PATH = "SDE/worldspace/WorldSpace.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/worldspace/WorldSpace.yaml";
     private static LinkedHashMap<String, WorldSpace> cache = (null);
 
     @Override
@@ -25,8 +25,9 @@ public class WorldSpace
     public static LinkedHashMap<String, WorldSpace> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(WorldSpace.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

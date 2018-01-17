@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.superkerrinducednanocoatings;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.SuperKerrInducedNanocoatings;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class Max90DaySKIN
     extends SuperKerrInducedNanocoatings
 {
 
-    public final static String RESOURCE_PATH = "SDE/superkerrinducednanocoatings/Max90DaySKIN.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/superkerrinducednanocoatings/Max90DaySKIN.yaml";
     private static LinkedHashMap<String, Max90DaySKIN> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class Max90DaySKIN
     public static LinkedHashMap<String, Max90DaySKIN> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Max90DaySKIN.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

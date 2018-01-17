@@ -1,9 +1,9 @@
 package fr.guiguilechat.eveonline.model.sde.compile;
 
 import java.io.File;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Arrays;
@@ -24,6 +24,7 @@ import org.yaml.snakeyaml.nodes.Tag;
 import org.yaml.snakeyaml.representer.Representer;
 
 import com.sun.codemodel.JBlock;
+import com.sun.codemodel.JCatchBlock;
 import com.sun.codemodel.JClass;
 import com.sun.codemodel.JClassAlreadyExistsException;
 import com.sun.codemodel.JCodeModel;
@@ -92,10 +93,13 @@ public class SDETranslater {
 				JBlock ifblock = load.body()._if(JExpr.direct("cache==null"))._then();
 				JTryBlock tryblock = ifblock._try();
 				tryblock.body().assign(cache, JExpr._new(cm.ref(Yaml.class)).invoke("loadAs")
-						.arg(JExpr._new(cm.ref(FileReader.class)).arg(JExpr.direct("RESOURCE_PATH")))
+						.arg(JExpr._new(cm.ref(InputStreamReader.class)).arg(clazz.dotclass().invoke("getClassLoader")
+								.invoke("getResourceAsStream").arg(JExpr.direct("RESOURCE_PATH"))))
 						.arg(JExpr.direct("Container.class"))
 						.ref("items"));
-				tryblock._catch(cm.ref(Exception.class));
+				JCatchBlock catchblk = tryblock._catch(cm.ref(Exception.class));
+				catchblk.body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)).arg(JExpr.lit("catch this"))
+						.arg(catchblk.param("exception")));
 				load.body()._return(JExpr.direct("cache"));
 
 			}

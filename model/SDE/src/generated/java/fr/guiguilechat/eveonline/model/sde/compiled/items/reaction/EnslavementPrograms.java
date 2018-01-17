@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.reaction;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Reaction;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class EnslavementPrograms
     extends Reaction
 {
 
-    public final static String RESOURCE_PATH = "SDE/reaction/EnslavementPrograms.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/reaction/EnslavementPrograms.yaml";
     private static LinkedHashMap<String, EnslavementPrograms> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class EnslavementPrograms
     public static LinkedHashMap<String, EnslavementPrograms> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(EnslavementPrograms.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

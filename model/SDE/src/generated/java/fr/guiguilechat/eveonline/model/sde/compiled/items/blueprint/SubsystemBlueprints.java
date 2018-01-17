@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.blueprint;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Blueprint;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class SubsystemBlueprints
     extends Blueprint
 {
 
-    public final static String RESOURCE_PATH = "SDE/blueprint/SubsystemBlueprints.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/blueprint/SubsystemBlueprints.yaml";
     private static LinkedHashMap<String, SubsystemBlueprints> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class SubsystemBlueprints
     public static LinkedHashMap<String, SubsystemBlueprints> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(SubsystemBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

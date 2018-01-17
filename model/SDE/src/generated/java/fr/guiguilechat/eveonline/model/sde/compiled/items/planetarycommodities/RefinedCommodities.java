@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.planetarycommodities;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.PlanetaryCommodities;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class RefinedCommodities
     extends PlanetaryCommodities
 {
 
-    public final static String RESOURCE_PATH = "SDE/planetarycommodities/RefinedCommodities.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/planetarycommodities/RefinedCommodities.yaml";
     private static LinkedHashMap<String, RefinedCommodities> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class RefinedCommodities
     public static LinkedHashMap<String, RefinedCommodities> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(RefinedCommodities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

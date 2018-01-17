@@ -21,7 +21,7 @@ import java.util.function.IntToDoubleFunction;
 import java.util.stream.Stream;
 
 import org.jfree.chart.ChartFactory;
-import org.jfree.chart.ChartUtilities;
+//import org.jfree.chart.ChartUtilities;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.DateAxis;
 import org.jfree.data.time.Month;
@@ -222,7 +222,7 @@ public class MakeStats {
 		try {
 			dir.mkdirs();
 			out = new FileOutputStream(new File(dir, name + ".png"));
-			ChartUtilities.writeChartAsPNG(out, chart, 1400, 800);
+			// ChartUtilities.writeChartAsPNG(out, chart, 1400, 800);
 		} catch (IOException iOException) {
 		} finally {
 			try {

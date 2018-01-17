@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.celestial;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Celestial;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class PlanetaryCloud
     extends Celestial
 {
 
-    public final static String RESOURCE_PATH = "SDE/celestial/PlanetaryCloud.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/celestial/PlanetaryCloud.yaml";
     private static LinkedHashMap<String, PlanetaryCloud> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class PlanetaryCloud
     public static LinkedHashMap<String, PlanetaryCloud> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(PlanetaryCloud.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

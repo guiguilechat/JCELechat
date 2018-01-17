@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.ship;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -605,7 +605,7 @@ public class Dreadnought
     @Stackable(true)
     @DefaultValue(0.0D)
     public double ShipBonusRole4;
-    public final static String RESOURCE_PATH = "SDE/ship/Dreadnought.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/ship/Dreadnought.yaml";
     private static LinkedHashMap<String, Dreadnought> cache = (null);
 
     @Override
@@ -621,8 +621,9 @@ public class Dreadnought
     public static LinkedHashMap<String, Dreadnought> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Dreadnought.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

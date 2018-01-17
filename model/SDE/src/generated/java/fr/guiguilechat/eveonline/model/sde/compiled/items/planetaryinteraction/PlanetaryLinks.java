@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.planetaryinteraction;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -69,7 +69,7 @@ public class PlanetaryLinks
     @Stackable(true)
     @DefaultValue(0.0D)
     public double PowerLoad;
-    public final static String RESOURCE_PATH = "SDE/planetaryinteraction/PlanetaryLinks.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/PlanetaryLinks.yaml";
     private static LinkedHashMap<String, PlanetaryLinks> cache = (null);
 
     @Override
@@ -85,8 +85,9 @@ public class PlanetaryLinks
     public static LinkedHashMap<String, PlanetaryLinks> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(PlanetaryLinks.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

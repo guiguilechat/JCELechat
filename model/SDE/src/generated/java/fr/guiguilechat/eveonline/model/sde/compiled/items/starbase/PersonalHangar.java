@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.starbase;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -141,7 +141,7 @@ public class PersonalHangar
     @Stackable(true)
     @DefaultValue(0.0D)
     public double ShieldRechargeRate;
-    public final static String RESOURCE_PATH = "SDE/starbase/PersonalHangar.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/starbase/PersonalHangar.yaml";
     private static LinkedHashMap<String, PersonalHangar> cache = (null);
 
     @Override
@@ -157,8 +157,9 @@ public class PersonalHangar
     public static LinkedHashMap<String, PersonalHangar> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(PersonalHangar.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

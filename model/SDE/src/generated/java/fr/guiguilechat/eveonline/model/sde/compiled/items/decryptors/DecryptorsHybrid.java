@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.decryptors;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Decryptors;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class DecryptorsHybrid
     extends Decryptors
 {
 
-    public final static String RESOURCE_PATH = "SDE/decryptors/DecryptorsHybrid.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/decryptors/DecryptorsHybrid.yaml";
     private static LinkedHashMap<String, DecryptorsHybrid> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class DecryptorsHybrid
     public static LinkedHashMap<String, DecryptorsHybrid> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(DecryptorsHybrid.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

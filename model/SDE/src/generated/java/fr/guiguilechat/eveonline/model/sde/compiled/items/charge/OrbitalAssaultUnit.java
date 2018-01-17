@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.charge;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -125,7 +125,7 @@ public class OrbitalAssaultUnit
     @Stackable(false)
     @DefaultValue(0.0D)
     public double ExplosionDelay;
-    public final static String RESOURCE_PATH = "SDE/charge/OrbitalAssaultUnit.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/charge/OrbitalAssaultUnit.yaml";
     private static LinkedHashMap<String, OrbitalAssaultUnit> cache = (null);
 
     @Override
@@ -141,8 +141,9 @@ public class OrbitalAssaultUnit
     public static LinkedHashMap<String, OrbitalAssaultUnit> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(OrbitalAssaultUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

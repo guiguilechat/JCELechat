@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.drone;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -245,7 +245,7 @@ public class MiningDrone
     @Stackable(true)
     @DefaultValue(0.0D)
     public double MetaLevel;
-    public final static String RESOURCE_PATH = "SDE/drone/MiningDrone.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/drone/MiningDrone.yaml";
     private static LinkedHashMap<String, MiningDrone> cache = (null);
 
     @Override
@@ -261,8 +261,9 @@ public class MiningDrone
     public static LinkedHashMap<String, MiningDrone> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(MiningDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

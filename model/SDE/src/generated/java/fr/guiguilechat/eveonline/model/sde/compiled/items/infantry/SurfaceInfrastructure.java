@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.infantry;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Infantry;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class SurfaceInfrastructure
     extends Infantry
 {
 
-    public final static String RESOURCE_PATH = "SDE/infantry/SurfaceInfrastructure.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/infantry/SurfaceInfrastructure.yaml";
     private static LinkedHashMap<String, SurfaceInfrastructure> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class SurfaceInfrastructure
     public static LinkedHashMap<String, SurfaceInfrastructure> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(SurfaceInfrastructure.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

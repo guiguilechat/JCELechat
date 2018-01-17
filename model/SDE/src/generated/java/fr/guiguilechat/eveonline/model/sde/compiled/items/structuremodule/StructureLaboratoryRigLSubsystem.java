@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.structuremodule;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -61,7 +61,7 @@ public class StructureLaboratoryRigLSubsystem
     @Stackable(true)
     @DefaultValue(0.0D)
     public double StructureRigBonus1;
-    public final static String RESOURCE_PATH = "SDE/structuremodule/StructureLaboratoryRigLSubsystem.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureLaboratoryRigLSubsystem.yaml";
     private static LinkedHashMap<String, StructureLaboratoryRigLSubsystem> cache = (null);
 
     @Override
@@ -77,8 +77,9 @@ public class StructureLaboratoryRigLSubsystem
     public static LinkedHashMap<String, StructureLaboratoryRigLSubsystem> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(StructureLaboratoryRigLSubsystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

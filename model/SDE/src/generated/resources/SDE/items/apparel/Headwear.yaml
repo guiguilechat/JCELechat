@@ -73,8 +73,6 @@ items:
     Gender: 2.0
   Women's ‘Liberator’ Beret (Minmatar Republic):
     Gender: 3.0
-  Men’s ‘Crusader’ Beret (Amarr Empire):
-    Gender: 1.0
   Men's 'Nova' Headwear (bronze):
     Gender: 1.0
   Men's 'Dread' Beret (Guristas):
@@ -96,6 +94,8 @@ items:
   Women's 'Crusader' Beret (Amarr Empire):
     Gender: 3.0
   Men's 'Tectonic' Headwear (white):
+    Gender: 1.0
+  Men���s ‘Crusader’ Beret (Amarr Empire):
     Gender: 1.0
   Men's 'Nova' Headwear (gold):
     Gender: 1.0

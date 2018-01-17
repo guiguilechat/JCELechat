@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.celestial;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Celestial;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class MoonMiningBeacon
     extends Celestial
 {
 
-    public final static String RESOURCE_PATH = "SDE/celestial/MoonMiningBeacon.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/celestial/MoonMiningBeacon.yaml";
     private static LinkedHashMap<String, MoonMiningBeacon> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class MoonMiningBeacon
     public static LinkedHashMap<String, MoonMiningBeacon> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(MoonMiningBeacon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

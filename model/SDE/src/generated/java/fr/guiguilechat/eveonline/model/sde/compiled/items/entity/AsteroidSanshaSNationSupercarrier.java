@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.entity;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Entity;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class AsteroidSanshaSNationSupercarrier
     extends Entity
 {
 
-    public final static String RESOURCE_PATH = "SDE/entity/AsteroidSanshaSNationSupercarrier.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/entity/AsteroidSanshaSNationSupercarrier.yaml";
     private static LinkedHashMap<String, AsteroidSanshaSNationSupercarrier> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class AsteroidSanshaSNationSupercarrier
     public static LinkedHashMap<String, AsteroidSanshaSNationSupercarrier> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(AsteroidSanshaSNationSupercarrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.structure;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Structure;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class AdministrationHub
     extends Structure
 {
 
-    public final static String RESOURCE_PATH = "SDE/structure/AdministrationHub.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/structure/AdministrationHub.yaml";
     private static LinkedHashMap<String, AdministrationHub> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class AdministrationHub
     public static LinkedHashMap<String, AdministrationHub> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(AdministrationHub.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.implant;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -77,7 +77,7 @@ public class CyberSocial
     @Stackable(true)
     @DefaultValue(0.0D)
     public double FastTalkMutator;
-    public final static String RESOURCE_PATH = "SDE/implant/CyberSocial.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/implant/CyberSocial.yaml";
     private static LinkedHashMap<String, CyberSocial> cache = (null);
 
     @Override
@@ -93,8 +93,9 @@ public class CyberSocial
     public static LinkedHashMap<String, CyberSocial> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(CyberSocial.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

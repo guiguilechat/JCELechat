@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.commodity;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Commodity;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class TechnicalDataChips
     extends Commodity
 {
 
-    public final static String RESOURCE_PATH = "SDE/commodity/TechnicalDataChips.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/commodity/TechnicalDataChips.yaml";
     private static LinkedHashMap<String, TechnicalDataChips> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class TechnicalDataChips
     public static LinkedHashMap<String, TechnicalDataChips> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(TechnicalDataChips.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

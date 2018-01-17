@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.charge;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -165,7 +165,7 @@ public class FrequencyCrystal
     @Stackable(true)
     @DefaultValue(0.0D)
     public double CapNeedBonus;
-    public final static String RESOURCE_PATH = "SDE/charge/FrequencyCrystal.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/charge/FrequencyCrystal.yaml";
     private static LinkedHashMap<String, FrequencyCrystal> cache = (null);
 
     @Override
@@ -181,8 +181,9 @@ public class FrequencyCrystal
     public static LinkedHashMap<String, FrequencyCrystal> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(FrequencyCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

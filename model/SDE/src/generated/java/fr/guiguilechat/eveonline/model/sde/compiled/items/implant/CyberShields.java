@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.implant;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -101,7 +101,7 @@ public class CyberShields
     @Stackable(true)
     @DefaultValue(0.0D)
     public double CapNeedBonus;
-    public final static String RESOURCE_PATH = "SDE/implant/CyberShields.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/implant/CyberShields.yaml";
     private static LinkedHashMap<String, CyberShields> cache = (null);
 
     @Override
@@ -117,8 +117,9 @@ public class CyberShields
     public static LinkedHashMap<String, CyberShields> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(CyberShields.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

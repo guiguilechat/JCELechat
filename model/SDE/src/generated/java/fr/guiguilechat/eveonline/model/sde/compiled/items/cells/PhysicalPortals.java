@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.cells;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Cells;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class PhysicalPortals
     extends Cells
 {
 
-    public final static String RESOURCE_PATH = "SDE/cells/PhysicalPortals.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/cells/PhysicalPortals.yaml";
     private static LinkedHashMap<String, PhysicalPortals> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class PhysicalPortals
     public static LinkedHashMap<String, PhysicalPortals> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(PhysicalPortals.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

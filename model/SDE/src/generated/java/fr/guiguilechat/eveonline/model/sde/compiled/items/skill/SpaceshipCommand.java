@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.skill;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -165,7 +165,7 @@ public class SpaceshipCommand
     @Stackable(true)
     @DefaultValue(0.0D)
     public double RequiredSkill3;
-    public final static String RESOURCE_PATH = "SDE/skill/SpaceshipCommand.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/skill/SpaceshipCommand.yaml";
     private static LinkedHashMap<String, SpaceshipCommand> cache = (null);
 
     @Override
@@ -181,8 +181,9 @@ public class SpaceshipCommand
     public static LinkedHashMap<String, SpaceshipCommand> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(SpaceshipCommand.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.apparel;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Apparel;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class Headwear
     extends Apparel
 {
 
-    public final static String RESOURCE_PATH = "SDE/apparel/Headwear.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/apparel/Headwear.yaml";
     private static LinkedHashMap<String, Headwear> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class Headwear
     public static LinkedHashMap<String, Headwear> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Headwear.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

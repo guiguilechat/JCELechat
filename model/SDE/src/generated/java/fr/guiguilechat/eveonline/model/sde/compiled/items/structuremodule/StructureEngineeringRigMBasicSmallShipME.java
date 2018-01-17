@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.structuremodule;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -173,7 +173,7 @@ public class StructureEngineeringRigMBasicSmallShipME
     @Stackable(true)
     @DefaultValue(0.0D)
     public double StructureItemVisualFlag;
-    public final static String RESOURCE_PATH = "SDE/structuremodule/StructureEngineeringRigMBasicSmallShipME.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMBasicSmallShipME.yaml";
     private static LinkedHashMap<String, StructureEngineeringRigMBasicSmallShipME> cache = (null);
 
     @Override
@@ -189,8 +189,9 @@ public class StructureEngineeringRigMBasicSmallShipME
     public static LinkedHashMap<String, StructureEngineeringRigMBasicSmallShipME> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMBasicSmallShipME.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

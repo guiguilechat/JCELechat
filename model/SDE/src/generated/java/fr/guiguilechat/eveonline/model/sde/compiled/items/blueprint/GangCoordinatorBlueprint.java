@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.blueprint;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -29,7 +29,7 @@ public class GangCoordinatorBlueprint
     @Stackable(true)
     @DefaultValue(1.0D)
     public double TechLevel;
-    public final static String RESOURCE_PATH = "SDE/blueprint/GangCoordinatorBlueprint.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/blueprint/GangCoordinatorBlueprint.yaml";
     private static LinkedHashMap<String, GangCoordinatorBlueprint> cache = (null);
 
     @Override
@@ -45,8 +45,9 @@ public class GangCoordinatorBlueprint
     public static LinkedHashMap<String, GangCoordinatorBlueprint> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(GangCoordinatorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

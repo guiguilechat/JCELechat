@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.skill;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Skill;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class FakeSkills
     extends Skill
 {
 
-    public final static String RESOURCE_PATH = "SDE/skill/FakeSkills.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/skill/FakeSkills.yaml";
     private static LinkedHashMap<String, FakeSkills> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class FakeSkills
     public static LinkedHashMap<String, FakeSkills> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(FakeSkills.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.celestial;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -29,7 +29,7 @@ public class Satellite
     @Stackable(true)
     @DefaultValue(0.0D)
     public double ProximityRange;
-    public final static String RESOURCE_PATH = "SDE/celestial/Satellite.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/celestial/Satellite.yaml";
     private static LinkedHashMap<String, Satellite> cache = (null);
 
     @Override
@@ -45,8 +45,9 @@ public class Satellite
     public static LinkedHashMap<String, Satellite> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Satellite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

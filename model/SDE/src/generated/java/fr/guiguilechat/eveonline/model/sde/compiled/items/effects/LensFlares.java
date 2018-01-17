@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.effects;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Effects;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class LensFlares
     extends Effects
 {
 
-    public final static String RESOURCE_PATH = "SDE/effects/LensFlares.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/effects/LensFlares.yaml";
     private static LinkedHashMap<String, LensFlares> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class LensFlares
     public static LinkedHashMap<String, LensFlares> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(LensFlares.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

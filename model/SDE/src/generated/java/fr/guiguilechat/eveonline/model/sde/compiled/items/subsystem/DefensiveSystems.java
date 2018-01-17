@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.subsystem;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -197,7 +197,7 @@ public class DefensiveSystems
     @Stackable(true)
     @DefaultValue(0.0D)
     public double SubsystemBonusMinmatarDefensive3;
-    public final static String RESOURCE_PATH = "SDE/subsystem/DefensiveSystems.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/subsystem/DefensiveSystems.yaml";
     private static LinkedHashMap<String, DefensiveSystems> cache = (null);
 
     @Override
@@ -213,8 +213,9 @@ public class DefensiveSystems
     public static LinkedHashMap<String, DefensiveSystems> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(DefensiveSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

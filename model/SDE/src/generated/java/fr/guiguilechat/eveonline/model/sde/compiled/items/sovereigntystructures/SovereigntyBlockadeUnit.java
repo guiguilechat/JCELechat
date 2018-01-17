@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.sovereigntystructures;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -141,7 +141,7 @@ public class SovereigntyBlockadeUnit
     @Stackable(true)
     @DefaultValue(0.0D)
     public double ShieldRechargeRate;
-    public final static String RESOURCE_PATH = "SDE/sovereigntystructures/SovereigntyBlockadeUnit.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/sovereigntystructures/SovereigntyBlockadeUnit.yaml";
     private static LinkedHashMap<String, SovereigntyBlockadeUnit> cache = (null);
 
     @Override
@@ -157,8 +157,9 @@ public class SovereigntyBlockadeUnit
     public static LinkedHashMap<String, SovereigntyBlockadeUnit> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(SovereigntyBlockadeUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

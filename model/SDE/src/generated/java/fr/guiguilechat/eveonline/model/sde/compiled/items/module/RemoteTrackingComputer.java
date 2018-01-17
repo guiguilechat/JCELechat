@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.module;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -173,7 +173,7 @@ public class RemoteTrackingComputer
     @Stackable(true)
     @DefaultValue(0.0D)
     public double MaxRangeBonus;
-    public final static String RESOURCE_PATH = "SDE/module/RemoteTrackingComputer.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/module/RemoteTrackingComputer.yaml";
     private static LinkedHashMap<String, RemoteTrackingComputer> cache = (null);
 
     @Override
@@ -189,8 +189,9 @@ public class RemoteTrackingComputer
     public static LinkedHashMap<String, RemoteTrackingComputer> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(RemoteTrackingComputer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

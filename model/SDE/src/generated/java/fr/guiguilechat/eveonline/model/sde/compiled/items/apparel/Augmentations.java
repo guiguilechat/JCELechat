@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.apparel;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Apparel;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class Augmentations
     extends Apparel
 {
 
-    public final static String RESOURCE_PATH = "SDE/apparel/Augmentations.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/apparel/Augmentations.yaml";
     private static LinkedHashMap<String, Augmentations> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class Augmentations
     public static LinkedHashMap<String, Augmentations> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Augmentations.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.asteroid;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -98,7 +98,7 @@ public class Spodumain
     @Stackable(true)
     @DefaultValue(90.0D)
     public double AsteroidRadiusUnitSize;
-    public final static String RESOURCE_PATH = "SDE/asteroid/Spodumain.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/asteroid/Spodumain.yaml";
     private static LinkedHashMap<String, Spodumain> cache = (null);
 
     @Override
@@ -114,8 +114,9 @@ public class Spodumain
     public static LinkedHashMap<String, Spodumain> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Spodumain.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

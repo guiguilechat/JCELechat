@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.bonus;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -69,7 +69,7 @@ public class PhysicalBenefit
     @Stackable(false)
     @DefaultValue(1.0D)
     public double MiningAmountMultiplier;
-    public final static String RESOURCE_PATH = "SDE/bonus/PhysicalBenefit.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/bonus/PhysicalBenefit.yaml";
     private static LinkedHashMap<String, PhysicalBenefit> cache = (null);
 
     @Override
@@ -85,8 +85,9 @@ public class PhysicalBenefit
     public static LinkedHashMap<String, PhysicalBenefit> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(PhysicalBenefit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

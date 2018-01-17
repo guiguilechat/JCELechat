@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.skill;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -165,7 +165,7 @@ public class Science
     @Stackable(true)
     @DefaultValue(0.0D)
     public double ManufactureTimePerLevel;
-    public final static String RESOURCE_PATH = "SDE/skill/Science.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/skill/Science.yaml";
     private static LinkedHashMap<String, Science> cache = (null);
 
     @Override
@@ -181,8 +181,9 @@ public class Science
     public static LinkedHashMap<String, Science> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Science.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

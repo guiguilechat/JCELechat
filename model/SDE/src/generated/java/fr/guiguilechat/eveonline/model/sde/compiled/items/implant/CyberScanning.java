@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.implant;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.DefaultValue;
 import fr.guiguilechat.eveonline.model.sde.compiled.annotations.HighIsGood;
@@ -85,7 +85,7 @@ public class CyberScanning
     @Stackable(true)
     @DefaultValue(0.0D)
     public double VirusStrengthBonus;
-    public final static String RESOURCE_PATH = "SDE/implant/CyberScanning.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/implant/CyberScanning.yaml";
     private static LinkedHashMap<String, CyberScanning> cache = (null);
 
     @Override
@@ -101,8 +101,9 @@ public class CyberScanning
     public static LinkedHashMap<String, CyberScanning> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(CyberScanning.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);

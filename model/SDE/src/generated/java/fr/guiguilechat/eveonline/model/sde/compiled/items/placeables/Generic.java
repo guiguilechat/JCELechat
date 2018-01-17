@@ -1,7 +1,7 @@
 
 package fr.guiguilechat.eveonline.model.sde.compiled.items.placeables;
 
-import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.compiled.items.Placeables;
 import org.yaml.snakeyaml.Yaml;
@@ -10,7 +10,7 @@ public class Generic
     extends Placeables
 {
 
-    public final static String RESOURCE_PATH = "SDE/placeables/Generic.yaml";
+    public final static String RESOURCE_PATH = "SDE/items/placeables/Generic.yaml";
     private static LinkedHashMap<String, Generic> cache = (null);
 
     @Override
@@ -26,8 +26,9 @@ public class Generic
     public static LinkedHashMap<String, Generic> load() {
         if ((cache==null)) {
             try {
-                cache = new Yaml().loadAs(new FileReader((RESOURCE_PATH)), (Container.class)).items;
-            } catch (Exception _x) {
+                cache = new Yaml().loadAs(new InputStreamReader(Generic.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
             }
         }
         return (cache);
