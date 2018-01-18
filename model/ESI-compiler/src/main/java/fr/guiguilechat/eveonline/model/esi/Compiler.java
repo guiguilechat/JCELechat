@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.esi;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -55,7 +56,7 @@ public class Compiler {
 		JCodeModel cm = c.compile();
 		File dir = new File(args[1]);
 		dir.mkdirs();
-		cm.build(dir);
+		cm.build(dir, (PrintStream) null);
 	}
 
 	protected String baseURL;
