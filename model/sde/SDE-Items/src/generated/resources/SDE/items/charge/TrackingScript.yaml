@@ -1,0 +1,25 @@
+items:
+  Tracking Speed Script:
+    AoeCloudSizeBonusBonus: 100.0
+    AoeVelocityBonusBonus: 100.0
+    ChargeSize: 1.0
+    FalloffBonusBonus: -100.0
+    LauncherGroup: 213.0
+    LauncherGroup2: 209.0
+    LauncherGroup3: 646.0
+    MainColor: 1.1646664E7
+    MaxRangeBonusBonus: -100.0
+    TechLevel: 1.0
+    TrackingSpeedBonusBonus: 100.0
+  Optimal Range Script:
+    AoeCloudSizeBonusBonus: -100.0
+    AoeVelocityBonusBonus: -100.0
+    ChargeSize: 1.0
+    FalloffBonusBonus: 100.0
+    LauncherGroup: 213.0
+    LauncherGroup2: 209.0
+    LauncherGroup3: 646.0
+    MainColor: 1.1646664E7
+    MaxRangeBonusBonus: 100.0
+    TechLevel: 1.0
+    TrackingSpeedBonusBonus: -100.0

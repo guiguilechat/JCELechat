@@ -1,0 +1,31 @@
+items:
+  Corporation:
+    BountyMultiplier: 1.0
+    CopySpeedPercent: 1.0
+    DroneControlDistance: 20000.0
+    FastTalkPercentage: 100.0
+    FrigateConstructionCost: 100.0
+    HeavyDroneDamagePercent: 1.0
+    InventionReverseEngineeringResearchSpeed: 1.0
+    ManufactureCostMultiplier: 1.0
+    ManufactureTimeMultiplier: 1.0
+    ManufacturingTimeResearchSpeed: 1.0
+    MaxGangModules: 3.0
+    MaxLaborotorySlots: 1.0
+    MineralNeedResearchSpeed: 1.0
+    MiningDroneAmountPercent: 100.0
+    MissileDamageMultiplier: 1.0
+    MissileFOFVelocityPercent: 100.0
+    MissileStandardVelocityPecent: 100.0
+    ModuleRepairRate: 10.0
+    NegotiationPercentage: 1.0
+    RefiningTimePercentage: 100.0
+    RepairCostMultiplier: 1.0
+    RepairCostPercent: 100.0
+    RocketVelocityPercent: 1.0
+    ShipBrokenModuleRepairCostMultiplier: 0.5
+    SocialBonus: 100.0
+    StationConstructionTime: 100.0
+    TitanConstructionTime: 100.0
+    WarpAccuracyFactor: 1.0
+    WarpAccuracyMaxRange: 15000.0

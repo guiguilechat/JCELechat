@@ -1,0 +1,590 @@
+items:
+  Standup M-Set Moon Ore Grading Processor II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Energy Neutralizer Feedback Control II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup XL-Set Missile Fire Control Computer I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Medium Tech I Small Ship Manufacturing I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set Advanced Small Ship Manufacturing Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Medium Tech I Small Ship Research II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Drone and Fighter Manufacturing Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Medium Tech I Small Ship Manufacturing II Blueprint:
+    TechLevel: 2.0
+  Standup L-Set Advanced Large Ship Manufacturing Efficiency I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set Structure Target Multiplexing I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set Thukker Advanced Component Manufacturing Efficiency Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Medium Tech I Small Ship Research I Blueprint:
+    TechLevel: 1.0
+  Standup L-Set Missile Flight Processor I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Thukker Advanced Component Manufacturing Material Efficiency Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Invention Accelerator I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Basic Medium Ship Manufacturing Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Missile Projection II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Basic Large Ship Manufacturing Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup XL-Set Equipment and Consumable Manufacturing Efficiency I Blueprint:
+    TechLevel: 1.0
+  Medium Drone Research I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set Advanced Small Ship Manufacturing Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup XL-Set Thukker Structure and Component Manufacturing Efficiency Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Structure Manufacturing Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Basic Large Ship Manufacturing Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Advanced Large Ship Manufacturing Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set TE Research Optimization I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Hybrid Reactor Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Basic Large Ship Manufacturing Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set Point Defense Battery Control II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup XL-Set Structure and Component Manufacturing Efficiency II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Advanced Medium Ship Manufacturing Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Medium Module Research I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set Composite Reactor Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Basic Capital Component Manufacturing Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Advanced Large Ship Manufacturing Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Drone and Fighter Manufacturing Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup XL-Set Laboratory Optimization II Blueprint:
+    TechLevel: 1.0
+  Standup M-Set Hybrid Reactor Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Biochemical Reactor Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Point Defense Battery Control I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup XL-Set Ship Manufacturing Efficiency I Blueprint:
+    TechLevel: 1.0
+  Medium Tech II Small Ship Manufacturing II Blueprint:
+    TechLevel: 2.0
+  Standup L-Set EW Expert System II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Large Structure Component Research II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Biochemical Reactor Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  X-Large Equipment Research I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set Advanced Small Ship Manufacturing Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup XL-Set Extinction Level Weapons Suite I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup XL-Set Equipment and Consumable Manufacturing Efficiency II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Structure Target Multiplexing II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Advanced Component Manufacturing Efficiency II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Drone and Fighter Manufacturing Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Large Module, Consumable, Drone Research II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Basic Capital Component Manufacturing Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set Invention Optimization II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Medium Tech II Small Ship Manufacturing I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set Missile Precision I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Advanced Large Ship Manufacturing Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Structure Manufacturing Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  X-Large Ship Research I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set Energy Neutralizer Projection II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Blueprint Copy Accelerator I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Ammunition Manufacturing Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Basic Small Ship Manufacturing Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Ammunition Manufacturing Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Large Tech I Subsystem Research I Blueprint:
+    TechLevel: 1.0
+  Standup XL-Set Laboratory Optimization I Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Basic Capital Component Manufacturing Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Drone and Fighter Manufacturing Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  X-Large Equipment Research II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Advanced Component Manufacturing Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set Advanced Medium Ship Manufacturing Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Medium Tech I Medium Ship Manufacturing II Blueprint:
+    TechLevel: 2.0
+  Large Tech I Subsystem Research II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Moon Drilling Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Blueprint Copy Optimization II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set ME Research Accelerator I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Composite Reactor Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Basic Small Ship Manufacturing Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set Invention Optimization I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Moon Ore Grading Processor I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Asteroid Ore Grading Processor I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Basic Small Ship Manufacturing Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup XL-Set EW and Emissions Co-ordinator II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Structure Manufacturing Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Biochemical Reactor Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Asteroid Ore Grading Processor II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Hybrid Reactor Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Advanced Component Manufacturing Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup XL-Set Reprocessing Monitor II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Blueprint Copy Accelerator II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Ammunition Manufacturing Efficiency II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Scan Resolution II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Basic Medium Ship Manufacturing Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set Capital Ship Manufacturing Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Scan Resolution I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set ME Research Cost Optimization I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Composite Reactor Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set Moon Drilling Proficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Medium Drone Research II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Missile Precision II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set TE Research Accelerator I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Basic Medium Ship Manufacturing Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Large Structure Component Research I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set ME Research Cost Optimization II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Medium Tech I Medium Ship Manufacturing I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set Electronic Warfare Economy I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set Bomb Aimer II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Equipment Manufacturing Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Basic Small Ship Manufacturing Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set Missile Flight Processor II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set EW Expert System I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Moon Drilling Stability II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set TE Research Cost Optimization II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Medium Module Research II Blueprint:
+    TechLevel: 2.0
+  Standup L-Set Bomb Aimer I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Structure Manufacturing Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Hybrid Reactor Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Reprocessing Monitor I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Basic Large Ship Manufacturing Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Equipment Manufacturing Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Ammunition Manufacturing Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Advanced Medium Ship Manufacturing Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Basic Medium Ship Manufacturing Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Medium Module Manufacturing II Blueprint:
+    TechLevel: 2.0
+  Standup L-Set Structure Manufacturing Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Equipment Manufacturing Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Medium Tech II Medium Ship Manufacturing II Blueprint:
+    TechLevel: 2.0
+  Medium Tech I Medium Ship Research I Blueprint:
+    TechLevel: 1.0
+  Standup XL-Set Reprocessing Monitor I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Advanced Medium Ship Manufacturing Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup XL-Set Structure and Component Manufacturing Efficiency I Blueprint:
+    TechLevel: 1.0
+  Standup XL-Set Missile Fire Control Computer II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Target Acquisition Array II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set TE Research Cost Optimization I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Advanced Component Manufacturing Time Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Medium Consumable Research I Blueprint:
+    TechLevel: 1.0
+  Medium Tech I Large Ship Manufacturing II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Advanced Large Ship Manufacturing Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Invention Cost Optimization II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Advanced Small Ship Manufacturing Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Blueprint Copy Optimization I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set Advanced Component Manufacturing Efficiency I Blueprint:
+    TechLevel: 1.0
+  Large Tech II Component Research II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Basic Medium Ship Manufacturing Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Medium Tech I Medium Ship Research II Blueprint:
+    TechLevel: 2.0
+  Standup L-Set Equipment Manufacturing Efficiency I Blueprint:
+    TechLevel: 1.0
+  Standup L-Set Basic Small Ship Manufacturing Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Moon Drilling Proficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Energy Neutralizer Feedback Control I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Medium Tech II Large Ship Manufacturing I Blueprint:
+    TechLevel: 1.0
+  Standup L-Set Reactor Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set Basic Capital Component Manufacturing Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Composite Reactor Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Medium Tech II Large Ship Manufacturing II Blueprint:
+    TechLevel: 2.0
+  Standup L-Set Reactor Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Energy Neutralizer Projection I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Basic Small Ship Manufacturing Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Equipment Manufacturing Efficiency II Blueprint:
+    TechLevel: 2.0
+  Large Module, Consumable, Drone Research I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set ME Research Accelerator II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Electronic Warfare Economy II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set Drone and Fighter Manufacturing Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Medium Consumable Research II Blueprint:
+    TechLevel: 2.0
+  Standup L-Set TE Research Optimization II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Medium Tech I Large Ship Research I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set Invention Accelerator II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Electronic Warfare Projection I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set Advanced Large Ship Manufacturing Efficiency II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Advanced Component Manufacturing Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Blueprint Copy Cost Optimization II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Moon Drilling Stability I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Equipment Manufacturing Time Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  X-Large Ship Research II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set TE Research Accelerator II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Moon Drilling Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Biochemical Reactor Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Invention Cost Optimization I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Basic Capital Component Manufacturing Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set ME Research Optimization II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Basic Large Ship Manufacturing Efficiency I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set Ammunition Manufacturing Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Ammunition Manufacturing Efficiency I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set Missile Projection I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Electronic Warfare Projection II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Large Tech I Capital Component Research II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Advanced Small Ship Manufacturing Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Large Tech I Ship Research II Blueprint:
+    TechLevel: 2.0
+  Medium Tech I Large Ship Research II Blueprint:
+    TechLevel: 2.0
+  Medium Tech II Medium Ship Manufacturing I Blueprint:
+    TechLevel: 1.0
+  Large Tech I Ship Research I Blueprint:
+    TechLevel: 1.0
+  Standup L-Set Advanced Small Ship Manufacturing Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Energy Neutralizer Economy II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Reprocessing Monitor II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup L-Set Basic Capital Component Manufacturing Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup XL-Set Ship Manufacturing Efficiency II Blueprint:
+    TechLevel: 2.0
+  Standup M-Set Energy Neutralizer Economy I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Large Tech II Component Research I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set Advanced Medium Ship Manufacturing Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup XL-Set Extinction Level Weapons Suite II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup XL-Set EW and Emissions Co-ordinator I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Structure Manufacturing Material Efficiency I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set Basic Large Ship Manufacturing Efficiency II Blueprint:
+    TechLevel: 2.0
+  Standup L-Set Thukker Basic Capital Component Manufacturing Efficiency Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Medium Tech I Large Ship Manufacturing I Blueprint:
+    TechLevel: 1.0
+  Standup M-Set Blueprint Copy Cost Optimization I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Advanced Medium Ship Manufacturing Material Efficiency II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Standup M-Set Ice Grading Processor I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup L-Set ME Research Optimization I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup M-Set Ice Grading Processor II Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+  Large Tech I Capital Component Research I Blueprint:
+    TechLevel: 1.0
+  Standup L-Set Target Acquisition Array I Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0

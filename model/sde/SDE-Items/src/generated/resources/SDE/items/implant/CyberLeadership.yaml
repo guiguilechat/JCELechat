@@ -1,0 +1,96 @@
+items:
+  Imperial Navy Command Mindlink:
+    Implantness: 10.0
+    MetaGroupID: 4.0
+    MindlinkBonus: 25.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 11569.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3352.0
+    RequiredSkill3Level: 5.0
+    TechLevel: 1.0
+  ORE Mining Director Mindlink:
+    Implantness: 10.0
+    MetaGroupID: 4.0
+    MindlinkBonus: 25.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 22552.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3351.0
+    RequiredSkill3Level: 5.0
+    TechLevel: 1.0
+  Skirmish Command Mindlink:
+    Implantness: 10.0
+    MindlinkBonus: 25.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 11572.0
+    RequiredSkill2Level: 5.0
+    TechLevel: 2.0
+  Federation Navy Command Mindlink:
+    Implantness: 10.0
+    MetaGroupID: 4.0
+    MindlinkBonus: 25.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 11569.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 11572.0
+    RequiredSkill3Level: 5.0
+    TechLevel: 1.0
+  Information Command Mindlink:
+    Implantness: 10.0
+    MindlinkBonus: 25.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3352.0
+    RequiredSkill2Level: 5.0
+    TechLevel: 2.0
+  Mining Foreman Mindlink:
+    Implantness: 10.0
+    MindlinkBonus: 25.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 22552.0
+    RequiredSkill2Level: 5.0
+    TechLevel: 2.0
+  Republic Fleet Command Mindlink:
+    Implantness: 10.0
+    MetaGroupID: 4.0
+    MindlinkBonus: 25.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3351.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 11572.0
+    RequiredSkill3Level: 5.0
+    TechLevel: 1.0
+  Caldari Navy Command Mindlink:
+    Implantness: 10.0
+    MetaGroupID: 4.0
+    MindlinkBonus: 25.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3351.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3352.0
+    RequiredSkill3Level: 5.0
+    TechLevel: 1.0
+  Shield Command Mindlink:
+    Implantness: 10.0
+    MindlinkBonus: 25.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3351.0
+    RequiredSkill2Level: 5.0
+    TechLevel: 2.0
+  Armored Command Mindlink:
+    Implantness: 10.0
+    MindlinkBonus: 25.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 11569.0
+    RequiredSkill2Level: 5.0
+    TechLevel: 2.0

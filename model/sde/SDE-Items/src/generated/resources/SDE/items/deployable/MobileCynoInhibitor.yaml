@@ -1,0 +1,18 @@
+items:
+  Mobile Cynosural Inhibitor:
+    ArmorHP: 10000.0
+    ArmorUniformity: 0.75
+    Hp: 150000.0
+    MetaLevel: 1.0
+    RequiredSkill1: 11584.0
+    RequiredSkill1Level: 3.0
+    ScanGravimetricStrength: 20.0
+    ScanLadarStrength: 20.0
+    ScanMagnetometricStrength: 20.0
+    ScanRadarStrength: 20.0
+    ShieldCapacity: 10000.0
+    ShieldRechargeRate: 2400000.0
+    ShieldUniformity: 0.75
+    SignatureRadius: 400.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0

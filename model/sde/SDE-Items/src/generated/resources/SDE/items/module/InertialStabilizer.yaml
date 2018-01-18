@@ -1,0 +1,113 @@
+items:
+  Domination Inertial Stabilizers:
+    AgilityMultiplier: -20.5
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusBonus: 7.0
+    TechLevel: 1.0
+  Partial Hull Conversion Inertial Stabilizers:
+    AgilityMultiplier: -16.0
+    Hp: 40.0
+    RequiredSkill1: 3392.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusBonus: 8.0
+    TechLevel: 1.0
+  Beta Hull Mod Inertial Stabilizers:
+    AgilityMultiplier: -19.200000762939453
+    Hp: 40.0
+    MetaLevel: 3.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusBonus: 8.5
+    TechLevel: 1.0
+  Shadow Serpentis Inertial Stabilizers:
+    AgilityMultiplier: -21.5
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusBonus: 10.0
+    TechLevel: 1.0
+  Local Hull Conversion Inertial Stabilizers I:
+    AgilityMultiplier: -20.0
+    Hp: 40.0
+    MetaLevel: 4.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusBonus: 8.0
+    TechLevel: 1.0
+  '''Basic'' Inertial Stabilizers':
+    AgilityMultiplier: -14.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    RequiredSkill1: 3392.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusBonus: 5.0
+    TechLevel: 1.0
+  Type-E Altered SS Inertial Stabilizers:
+    AgilityMultiplier: -14.699999809265137
+    Hp: 40.0
+    RequiredSkill1: 3392.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusBonus: 9.0
+    TechLevel: 1.0
+  Type-D Restrained Inertial Stabilizers:
+    AgilityMultiplier: -18.5
+    Hp: 40.0
+    MetaLevel: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusBonus: 8.0
+    TechLevel: 1.0
+  Inertial Stabilizers II:
+    AgilityMultiplier: -20.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 2.0
+    SignatureRadiusBonus: 11.0
+    TechLevel: 2.0
+  Mark I Modified SS Inertial Stabilizers:
+    AgilityMultiplier: -17.5
+    Hp: 40.0
+    MetaLevel: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusBonus: 9.5
+    TechLevel: 1.0
+  Synthetic Hull Conversion Inertia Stabilizers:
+    AgilityMultiplier: -20.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusBonus: 6.0
+    TechLevel: 1.0
+  Inertial Stabilizers I:
+    AgilityMultiplier: -16.75
+    Hp: 40.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusBonus: 10.0
+    TechLevel: 1.0
+  Marked Modified SS Inertial Stabilizers:
+    AgilityMultiplier: -14.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    RequiredSkill1: 3392.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusBonus: 9.5
+    TechLevel: 1.0
+  Alpha Hull Mod Inertial Stabilizers:
+    AgilityMultiplier: -15.300000190734863
+    Hp: 40.0
+    RequiredSkill1: 3392.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusBonus: 8.5
+    TechLevel: 1.0

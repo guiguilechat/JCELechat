@@ -273,6 +273,12 @@ public interface Swagger
         return convert(fetched, is.ccp.tech.esi.responses.R_get_characters_character_id_calendar_event_id_attendees[].class);
     }
 
+    public default R_get_characters_character_id_stats[] get_characters_character_id_stats(long character_id) {
+        String url="https://esi.tech.ccp.is/latest/characters/{character_id}/stats/".replace("{character_id}", ""+character_id);
+        String fetched=connectGet(url,true);
+        return convert(fetched, is.ccp.tech.esi.responses.R_get_characters_character_id_stats[].class);
+    }
+
     public default R_get_characters_character_id get_characters_character_id(long character_id) {
         String url="https://esi.tech.ccp.is/latest/characters/{character_id}/".replace("{character_id}", ""+character_id);
         String fetched=connectGet(url,false);
@@ -365,12 +371,6 @@ public interface Swagger
         return convert(fetched, is.ccp.tech.esi.responses.R_get_characters_character_id_titles[].class);
     }
 
-    public default R_get_characters_character_id_stats[] get_characters_character_id_stats(long character_id) {
-        String url="https://esi.tech.ccp.is/latest/characters/{character_id}/stats/".replace("{character_id}", ""+character_id);
-        String fetched=connectGet(url,true);
-        return convert(fetched, is.ccp.tech.esi.responses.R_get_characters_character_id_stats[].class);
-    }
-
     public default R_get_characters_character_id_clones get_characters_character_id_clones(long character_id) {
         String url="https://esi.tech.ccp.is/latest/characters/{character_id}/clones/".replace("{character_id}", ""+character_id);
         String fetched=connectGet(url,true);
@@ -441,12 +441,6 @@ public interface Swagger
         String url="https://esi.tech.ccp.is/latest/corporations/{corporation_id}/contracts/{contract_id}/bids/".replace("{contract_id}", ""+contract_id).replace("{corporation_id}", ""+corporation_id);
         String fetched=connectGet(url,true);
         return convert(fetched, is.ccp.tech.esi.responses.R_get_corporations_corporation_id_contracts_contract_id_bids[].class);
-    }
-
-    public default R_get_corporations_corporation_id_shareholders[] get_corporations_corporation_id_shareholders(long corporation_id) {
-        String url="https://esi.tech.ccp.is/latest/corporations/{corporation_id}/shareholders/".replace("{corporation_id}", ""+corporation_id);
-        String fetched=connectGet(url,true);
-        return convert(fetched, is.ccp.tech.esi.responses.R_get_corporations_corporation_id_shareholders[].class);
     }
 
     public default R_get_corporations_corporation_id get_corporations_corporation_id(long corporation_id) {
@@ -591,6 +585,12 @@ public interface Swagger
         String url="https://esi.tech.ccp.is/latest/corporations/{corporation_id}/outposts/{outpost_id}/".replace("{corporation_id}", ""+corporation_id).replace("{outpost_id}", ""+outpost_id);
         String fetched=connectGet(url,true);
         return convert(fetched, is.ccp.tech.esi.responses.R_get_corporations_corporation_id_outposts_outpost_id.class);
+    }
+
+    public default R_get_corporations_corporation_id_shareholders[] get_corporations_corporation_id_shareholders(long corporation_id) {
+        String url="https://esi.tech.ccp.is/latest/corporations/{corporation_id}/shareholders/".replace("{corporation_id}", ""+corporation_id);
+        String fetched=connectGet(url,true);
+        return convert(fetched, is.ccp.tech.esi.responses.R_get_corporations_corporation_id_shareholders[].class);
     }
 
     public default long[] get_dogma_attributes() {

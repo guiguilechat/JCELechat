@@ -1,0 +1,19 @@
+items:
+  Missile Range Disruption Script:
+    AoeCloudSizeBonusBonus: -100.0
+    AoeVelocityBonusBonus: -100.0
+    ChargeSize: 1.0
+    ExplosionDelayBonusBonus: 100.0
+    LauncherGroup: 1396.0
+    MainColor: 1.1646664E7
+    MissileVelocityBonusBonus: 100.0
+    TechLevel: 1.0
+  Missile Precision Disruption Script:
+    AoeCloudSizeBonusBonus: 100.0
+    AoeVelocityBonusBonus: 100.0
+    ChargeSize: 1.0
+    ExplosionDelayBonusBonus: -100.0
+    LauncherGroup: 1396.0
+    MainColor: 1.1646664E7
+    MissileVelocityBonusBonus: -100.0
+    TechLevel: 1.0

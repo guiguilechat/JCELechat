@@ -1,0 +1,37 @@
+items:
+  Standup L-Set Point Defense Battery Control I:
+    CanFitShipGroup01: 1657.0
+    CanFitShipGroup02: 1404.0
+    CanFitShipGroup03: 1406.0
+    HiSecModifier: 1.0
+    Hp: 40.0
+    LowSecModifier: 1.2000000476837158
+    MaxGroupFitted: 1.0
+    NullSecModifier: 1.2000000476837158
+    RequiredSkill1: 26252.0
+    RequiredSkill1Level: 1.0
+    RigSize: 3.0
+    SecurityModifier: 1.0
+    StructureItemVisualFlag: 1.0
+    StructureRigPDCapUseBonus: -30.0
+    StructureRigPDRangeBonus: 500.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Standup L-Set Point Defense Battery Control II:
+    CanFitShipGroup01: 1657.0
+    CanFitShipGroup02: 1404.0
+    CanFitShipGroup03: 1406.0
+    HiSecModifier: 1.0
+    Hp: 40.0
+    LowSecModifier: 1.2000000476837158
+    MaxGroupFitted: 1.0
+    NullSecModifier: 1.2000000476837158
+    RequiredSkill1: 26252.0
+    RequiredSkill1Level: 1.0
+    RigSize: 3.0
+    SecurityModifier: 1.0
+    StructureItemVisualFlag: 1.0
+    StructureRigPDCapUseBonus: -35.0
+    StructureRigPDRangeBonus: 600.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0

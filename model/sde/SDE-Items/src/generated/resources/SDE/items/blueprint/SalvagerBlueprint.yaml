@@ -1,0 +1,10 @@
+items:
+  Civilian Salvager Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Salvager I Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Salvager II Blueprint:
+    IndustryBlueprintRank: 23.399999618530273
+    TechLevel: 2.0

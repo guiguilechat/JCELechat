@@ -1,0 +1,392 @@
+items:
+  Runic Inscription: {}
+  Sealed Container: {}
+  Basic Robotics: {}
+  Ryoke Laika's Head: {}
+  Parts of Printing Machine: {}
+  Caldari Graduation Certificate: {}
+  Guristas Armory Codes: {}
+  Enlistment (Minmatar) for Naval Capsuleers: {}
+  Pilot Certification Documents: {}
+  Guristas Outlaw Leader Insignia: {}
+  Powdered Cubensis: {}
+  Rotgut: {}
+  Drone Mind Embryo: {}
+  Aortal Purifier: {}
+  ID Card Generator: {}
+  Blood Reel: {}
+  Pistols: {}
+  Jakon's Head: {}
+  Safe-Deposit Box Owner List: {}
+  Recon Speeders: {}
+  Kelmiler's Transaction Documents 18992 D: {}
+  Test Bong: {}
+  Firecrackers: {}
+  Cache of Pistols: {}
+  Threaded Waypoint Map: {}
+  Crash Ultra: {}
+  Elere Febre's Data Log: {}
+  FON-Wiyrkomi Data Chip: {}
+  Gallente Admiral's Corpse: {}
+  Archpriest Hakram's Head: {}
+  Counterfeit Credits: {}
+  Clay Pigeon: {}
+  17 Successful Torture Techniques: {}
+  Cold Turkey: {}
+  Blood Raider Squad Leader's Head: {}
+  Generator Debris: {}
+  Divine Opium: {}
+  Construction Tools:
+    Hp: 100.0
+  Alarus Ekire's Insignia: {}
+  Imperial Navy Gate Permit Container: {}
+  Gallente Graduation Certificate (signed): {}
+  Kepheur's DNA: {}
+  Crude Sculpture: {}
+  Seasoned Dandruff: {}
+  DNA Samples of Republic Commandos: {}
+  Inter-Galactic Media Report - The Audesder Incident (1 of 3): {}
+  Booster Pack: {}
+  Tri-Vitoc: {}
+  Assistant's Keychain: {}
+  Custom-made Antenna: {}
+  Searcher Drone's Memory Chip: {}
+  FON Strike Scene Evidence: {}
+  Shattered Forgery Tools: {}
+  Enlistment (Caldari) for Naval Capsuleers: {}
+  Imperial Navy Gate Permit: {}
+  Foreman's Head: {}
+  Gallente Corpse: {}
+  Ancient Weapon: {}
+  Replacement Laboratory Equipment: {}
+  Norak Pakkul's DNA: {}
+  NOH Signal Operators: {}
+  Terran Broken Datachips - Weaponry:
+    DamageCloudChance: 0.05000000074505806
+    DamageCloudType: 11546.0
+    ReprocessingSkillType: 12189.0
+    RequiredSkill1: 13281.0
+    RequiredSkill1Level: 3.0
+  Encoded Data Transmission: {}
+  Raid Drone Navigation Chip: {}
+  Onreun's Crash: {}
+  Enigma Cypher Book: {}
+  Guristas Patrol Routes: {}
+  Smuggler Signet: {}
+  Kakala's Voucher: {}
+  Salvaged Data Core: {}
+  Unassembled Drills: {}
+  Excavation Note: {}
+  Rebel Biomass: {}
+  Minmatar Bluechip: {}
+  Preaux's Letter: {}
+  Truthteller: {}
+  Strike Force Gear: {}
+  Ancient Vherokior Medallion: {}
+  Scanner Data III: {}
+  Caldari P.A. Keycard Replica: {}
+  Wiyrkomi Data Chip: {}
+  Angel Cartel Computer Hardware: {}
+  Insorum Components: {}
+  Propel Dynamics Reports: {}
+  Isone Flosins's Corpse: {}
+  Loki's DNA: {}
+  Tactical Information II: {}
+  Amolah Kesti's Data Fragment II: {}
+  Airkio Yanjulen's Corpse: {}
+  Republic Pilot: {}
+  Thukker Loot:
+    Hp: 100.0
+  Vanir Makono's DNA: {}
+  Navigation for Dummies: {}
+  Wiyrkomi Voucher: {}
+  Tactical Information IV: {}
+  Machul's Head: {}
+  Ardillan's Dossier: {}
+  Zach's Note: {}
+  Eilard's Corpse: {}
+  Choonka's Coordinates: {}
+  Ader's Message: {}
+  House Arachnan Legal Documents: {}
+  Severed Head: {}
+  Runic Tablet: {}
+  Important Surveillance Data: {}
+  Medicinal Herbs: {}
+  Ovon Flac's Documents: {}
+  Godun Sakt's Questionable Holoreel: {}
+  FON Contact DNA: {}
+  Kusan Niemenen's Missile Launcher: {}
+  Amolah Kesti's Data Fragment III: {}
+  Hybrid Weapon Assembly Instructions: {}
+  Bono Zakan Corpse: {}
+  Chanounian Wine: {}
+  Mamo's Message: {}
+  Broken Science Equipment: {}
+  Republic Repair Kit: {}
+  Wiyrkomi Scandal Holoreel: {}
+  Transputer Orb: {}
+  Lord Manel's Message: {}
+  Nanom Basskel's Ship Logs: {}
+  Stolen Documents: {}
+  Tactical Information III: {}
+  Veko Tallaja's Voucher: {}
+  The Apocryphon: {}
+  Sample of Septicemic Agent: {}
+  Military Intelligence Report: {}
+  Tampered Dolls: {}
+  Secure Coded Package: {}
+  Fedo Blood: {}
+  Analyzed Blood Sample: {}
+  Augmented Stem Cells: {}
+  Purple Haze: {}
+  Scanner Data I: {}
+  Latent Submission Tapes: {}
+  Maqeri Camcen's DNA: {}
+  Christer Fuglesang's Medal: {}
+  Oduma's Voucher: {}
+  Prototype Nuclear Small Arms: {}
+  Binary Transpositional Code: {}
+  Formula for Septicemic Agent: {}
+  Strange DNA: {}
+  Encryption Code Book: {}
+  Akkeshu Karuan's DNA: {}
+  Forged Waypoint Logs: {}
+  Drone Observation Data: {}
+  Namian's Artifacts: {}
+  Cognitive Hive Mind: {}
+  Hakkuran Brother's Remains: {}
+  Aether Hive Link: {}
+  Blueprint Documents for Naval Capsuleers: {}
+  Telligman's Stone: {}
+  Aggregated FON Data: {}
+  Noble Remains: {}
+  Dead Pilgrim: {}
+  Reinforced Metal Scraps: {}
+  Excavation Equipment: {}
+  7th Fleet Data Fragment: {}
+  Armor of Rouvenor: {}
+  Utrainen's Reports: {}
+  Smuggler DNA: {}
+  Metal Scraps: {}
+  Secret Garage Coordinates: {}
+  Spiked Quafe: {}
+  Achuran White Song Birds: {}
+  Gatti's DNA: {}
+  Encoded Gurista Intelligence Dossier: {}
+  Plan to Crack Impregnable Safe: {}
+  Perpetual Chamber Warden: {}
+  Elite Laser Pistols: {}
+  Unassembled Hybrid Weapons: {}
+  Vat of Aqua Regia Acid: {}
+  Letter of Recommendation: {}
+  Yamia Mida's Remains: {}
+  Reclaimed Organics: {}
+  Pata Wakiro's DNA: {}
+  Raid Drone Command Chip: {}
+  Hraldar's Sculpture: {}
+  Portable Power Generator: {}
+  Godun Sakt's Diamond Drill: {}
+  Wiretap Plant: {}
+  Recruitment Center Data Log: {}
+  Bai's Corpse: {}
+  Hakiro's Scanner Data: {}
+  Cracked Keycard: {}
+  Data Chip Decoder: {}
+  Erakki's Voucher: {}
+  Amarr Corpse: {}
+  Flower Power Powder: {}
+  Frozen Livers: {}
+  Pakkori's Hat: {}
+  EMP Charge Components: {}
+  Head in a Jar: {}
+  Ovon Flac's Container: {}
+  Aradim Arachnan's Head: {}
+  Abufyr Joek's Head: {}
+  The Little Pirate That Could: {}
+  Scanner Data II: {}
+  Black Mask: {}
+  Oggiin Kalda's DNA: {}
+  Enlistment (Gallente) for Naval Capsuleers: {}
+  Surveillance Recordings: {}
+  Anema Bluechip: {}
+  Tikui's Message: {}
+  Sweet Leaves: {}
+  Nugoeihuvi Station Schematics: {}
+  Lord Arachnan's Encrypted Data Burst: {}
+  Thyram Arachnan's Dossier: {}
+  E.F.A. ID Card: {}
+  ST 60 Memory Chip: {}
+  Okham's Head: {}
+  Shady Goods: {}
+  Lagaster Malotoff's Tag: {}
+  Nugoeihuvi Dogtag: {}
+  House Methros Coat of Arms: {}
+  Caldari P.A. Keycard: {}
+  Khanid Commander Keycard: {}
+  Neural Bio Link: {}
+  Utrainen's Employment Voucher: {}
+  Eule Vitrauze's DNA: {}
+  Empty Data Chip: {}
+  Amolah Kesti's Data Fragment I: {}
+  Gallente Graduation Certificate: {}
+  Firewater: {}
+  Minmatar Graduation Certificate (signed): {}
+  Rifles: {}
+  Ader's Keycard: {}
+  Destroyed ComLink Scanner: {}
+  Doctored Arrivals & Departures Logs: {}
+  Warning Message: {}
+  Gist Database Codes: {}
+  Don Rico's Head: {}
+  Nossa Farad's Voucher: {}
+  Odan Poun's Message: {}
+  Altered Identity Records: {}
+  ST 59 Memory Chip: {}
+  Kyan Magdesh's DNA: {}
+  Pillaging 101: {}
+  ST 58 Memory Chip: {}
+  'Cartography: The Art of Treasure Map Making': {}
+  Tactical Response Transmitter: {}
+  Smuggler Tag: {}
+  Sadry Damoklet's Head: {}
+  Identity Data Chip: {}
+  Kutill's Data Chip: {}
+  Modified Laser Rifles: {}
+  Avrue's Token: {}
+  Ancient Nefantar Sculpture: {}
+  FedMart Reports: {}
+  Saintly Shroud: {}
+  Nuomo's Scanner Data: {}
+  Hacker's Keycard: {}
+  Encoding Matrix Component: {}
+  Ruined Hive Mind: {}
+  Broken Bug Device: {}
+  Ancestral Armor: {}
+  Kois Entry Passcard: {}
+  Enlistment (Amarr) for Naval Capsuleers: {}
+  Caldari Corpse: {}
+  Isone Flosin's DNA: {}
+  Minmatar Pilot's Corpse: {}
+  Ancient Treasure Map: {}
+  Bag of Counterfeit Credits: {}
+  Raytio Family Supplies: {}
+  Cheri Mirei's DNA: {}
+  Blood Sample: {}
+  Zydrine Burn: {}
+  Angel Cartel Scanner Data: {}
+  Guristas Communications Logs: {}
+  Nuomo's Voucher: {}
+  Gallente Intelligence Data Recorder: {}
+  Caldari Navy Convoy Disposition File: {}
+  Antiseptic Biomass: {}
+  Dynamite Crate: {}
+  Blue Box: {}
+  Stolen Goods: {}
+  Prophecy Virus: {}
+  Encoded RSS Brief: {}
+  Okelle's Encryption-Protected Hard Drive: {}
+  Lord Arachnan's Medal: {}
+  Amarr Graduation Certificate (signed): {}
+  Liberation Elixir: {}
+  R.S. Officer's Alpha Passcard: {}
+  Serpentis Data Chip Decoder: {}
+  TX-890 Polytextile Fabric: {}
+  Guristas Data Sequence: {}
+  Black Jack's DNA: {}
+  Methros Enhanced Decoding Device: {}
+  Spoiled Drugs: {}
+  Azure Canyon Tourist Pass: {}
+  Fedo: {}
+  Bartezo's Message: {}
+  Inter-Galactic Media Report - The Audesder Incident (3 of 3): {}
+  Gue Mouey's Message: {}
+  Arc of Revelation: {}
+  unnamed_gid0_sid0: {}
+  Khanid Ext Keycard: {}
+  Homemade Sansha Beacon: {}
+  Guristas Outlaw Dogtag: {}
+  Broken ComLink Scanner: {}
+  Slave Ownership Record: {}
+  Strange Construction Blocks: {}
+  Dolls: {}
+  Moa Parts: {}
+  REF Insignia: {}
+  Plague Spores: {}
+  Blood Fund: {}
+  Device: {}
+  Kuashi: {}
+  Slave Manifests: {}
+  Myrkai's Data Chip: {}
+  Nugoeihuvi Transaction Logs: {}
+  Wiyrkomi Rifles: {}
+  Shady Acres Deed: {}
+  Robikar's Recommendation: {}
+  Jerpam Hollek's Head: {}
+  Minmatar Graduation Certificate: {}
+  Body Bag: {}
+  Interview Transcripts: {}
+  Nugoeihuvi reports: {}
+  ComLink Encoder/Decoder: {}
+  Ritual Texts: {}
+  Mining Equipment: {}
+  Sealed Case of GI Paradise Missiles: {}
+  Mysterious Portal Parts: {}
+  Minas's Voucher: {}
+  Tactical Information I: {}
+  Edict of Ancestry: {}
+  Remains of Thukker Pest: {}
+  Bug-Ridden Corpse: {}
+  Holy Statue: {}
+  Lord Methros' Encrypted Data Burst: {}
+  Dynasty Ring: {}
+  Hard Currency: {}
+  Custom-built Guidance System: {}
+  Secret Documents: {}
+  Speedometer: {}
+  Drill: {}
+  R.S. Officer's Passcard: {}
+  Yan Jung Micro Processor: {}
+  Dorga Roes: {}
+  Amarr Graduation Certificate: {}
+  Yttora's Corpse: {}
+  Damaged Cloaking Device: {}
+  Swirling Color-cards: {}
+  Illian's Passcard: {}
+  Zydrine Wine: {}
+  MicroLink Encoder/Decoder: {}
+  Expeditionary Data: {}
+  Shattered Villard Wheel: {}
+  Sispur's Security Camera Logs: {}
+  Ison's Voucher: {}
+  Free Sample: {}
+  Inter-Galactic Media Report - The Audesder Incident (2 of 3): {}
+  Otsalen Mano's Corpse: {}
+  Suho Tatanal's Investigation Dossier: {}
+  Mind-Altering Drugs: {}
+  Rekker's Keycard: {}
+  Motherload Bomb: {}
+  Ship logs: {}
+  Serpentis Transaction Log: {}
+  Nugoeihuvi Rifles: {}
+  Colelian Spider Spruce: {}
+  Jedon Hekkiren's Belongings: {}
+  250,000 Skill Points: {}
+  Navy Issue Amplifier: {}
+  FON Banner: {}
+  Villard Wheel: {}
+  Angel Cartel Dust: {}
+  Republic Fleet Deserter: {}
+  Drug Delivery Package: {}
+  Ceremonial Brush: {}
+  Pansya's Head: {}
+  Finger Bone: {}
+  Me, Myself and Plunder: {}
+  Patrenn's Stash: {}
+  Trust Partners Business Card: {}
+  Key To Lord Manel's Mansion: {}
+  Impregnable Safe: {}
+  Store Goods: {}
+  Caldari Graduation Certificate (signed): {}
+  Corpse of Enlil Bel: {}
+  Mangled Corpses: {}
+  Barbed Wire Scanner: {}

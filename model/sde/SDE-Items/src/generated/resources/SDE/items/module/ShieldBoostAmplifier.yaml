@@ -1,0 +1,269 @@
+items:
+  Shield Boost Amplifier I:
+    Cpu: 50.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 30.0
+    TechLevel: 1.0
+  '''Stalwart'' Particle Field Magnifier':
+    Cpu: 43.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaLevel: 3.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 30.0
+    TechLevel: 1.0
+  '''Copasetic'' Particle Field Acceleration':
+    Cpu: 40.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaLevel: 4.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 30.0
+    TechLevel: 1.0
+  Vepas' Modified Shield Boost Amplifier:
+    Cpu: 72.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 43.125
+    TechLevel: 1.0
+  Estamel's Modified Shield Boost Amplifier:
+    Cpu: 77.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 45.0
+    TechLevel: 1.0
+  Dread Guristas Shield Boost Amplifier:
+    Cpu: 55.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 37.5
+    TechLevel: 1.0
+  Gist C-Type Shield Boost Amplifier:
+    Cpu: 54.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 35.75
+    TechLevel: 1.0
+  Domination Shield Boost Amplifier:
+    Cpu: 40.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 32.5
+    TechLevel: 1.0
+  Gist X-Type Shield Boost Amplifier:
+    Cpu: 72.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 43.125
+    TechLevel: 1.0
+  5a Prototype Shield Support I:
+    Cpu: 45.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 30.0
+    TechLevel: 1.0
+  Caldari Navy Shield Boost Amplifier:
+    Cpu: 55.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 37.5
+    TechLevel: 1.0
+  Gist B-Type Shield Boost Amplifier:
+    Cpu: 58.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 37.5
+    TechLevel: 1.0
+  Republic Fleet Shield Boost Amplifier:
+    Cpu: 40.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 32.5
+    TechLevel: 1.0
+  Pith A-Type Shield Boost Amplifier:
+    Cpu: 72.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 43.125
+    TechLevel: 1.0
+  Pith X-Type Shield Boost Amplifier:
+    Cpu: 77.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 45.0
+    TechLevel: 1.0
+  Shield Boost Amplifier II:
+    Cpu: 55.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 5.0
+    ShieldBoostMultiplier: 36.0
+    TechLevel: 2.0
+  Gist A-Type Shield Boost Amplifier:
+    Cpu: 63.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 39.0
+    TechLevel: 1.0
+  Thon's Modified Shield Boost Amplifier:
+    Cpu: 66.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 41.25
+    TechLevel: 1.0
+  Pith B-Type Shield Boost Amplifier:
+    Cpu: 66.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 41.25
+    TechLevel: 1.0
+  Hakim's Modified Shield Boost Amplifier:
+    Cpu: 54.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 35.75
+    TechLevel: 1.0
+  Kaikka's Modified Shield Boost Amplifier:
+    Cpu: 61.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 39.375
+    TechLevel: 1.0
+  Ionic Field Accelerator I:
+    Cpu: 48.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 30.0
+    TechLevel: 1.0
+  Tobias' Modified Shield Boost Amplifier:
+    Cpu: 63.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 39.0
+    TechLevel: 1.0
+  '''Glycerine'' Shield Boost Amplifier':
+    Cpu: 43.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 30.0
+    TechLevel: 1.0
+  Pith C-Type Shield Boost Amplifier:
+    Cpu: 61.0
+    HeatDamageBonus: 100.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3419.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: 39.375
+    TechLevel: 1.0

@@ -1,0 +1,152 @@
+items:
+  Zainou 'Gnome' Shield Upgrades SU-605:
+    Implantness: 6.0
+    PowerNeedBonus: -5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Upgrades SU-606:
+    Implantness: 6.0
+    PowerNeedBonus: -6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Upgrades SU-603:
+    Implantness: 6.0
+    PowerNeedBonus: -3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Upgrades SU-604:
+    Implantness: 6.0
+    PowerNeedBonus: -4.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Emission Systems SE-805:
+    CapNeedBonus: -5.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Emission Systems SE-806:
+    CapNeedBonus: -6.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Management SM-701:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    ShieldCapacityBonus: 1.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Management SM-702:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    ShieldCapacityBonus: 2.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Management SM-703:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    ShieldCapacityBonus: 3.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Management SM-704:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    ShieldCapacityBonus: 4.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Management SM-705:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    ShieldCapacityBonus: 5.0
+    TechLevel: 1.0
+  Sansha Modified 'Gnome' Implant:
+    Implantness: 7.0
+    Rechargeratebonus: -3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    ShieldCapacityBonus: 3.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Operation SP-901:
+    Implantness: 9.0
+    Rechargeratebonus: -1.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Operation SP-902:
+    Implantness: 9.0
+    Rechargeratebonus: -2.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Operation SP-903:
+    Implantness: 9.0
+    Rechargeratebonus: -3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Operation SP-904:
+    Implantness: 9.0
+    Rechargeratebonus: -4.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Operation SP-905:
+    Implantness: 9.0
+    Rechargeratebonus: -5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Operation SP-906:
+    Implantness: 9.0
+    Rechargeratebonus: -6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Management SM-706:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    ShieldCapacityBonus: 6.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Emission Systems SE-801:
+    CapNeedBonus: -1.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Emission Systems SE-802:
+    CapNeedBonus: -2.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Emission Systems SE-803:
+    CapNeedBonus: -3.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Emission Systems SE-804:
+    CapNeedBonus: -4.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Upgrades SU-601:
+    Implantness: 6.0
+    PowerNeedBonus: -1.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Shield Upgrades SU-602:
+    Implantness: 6.0
+    PowerNeedBonus: -2.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0

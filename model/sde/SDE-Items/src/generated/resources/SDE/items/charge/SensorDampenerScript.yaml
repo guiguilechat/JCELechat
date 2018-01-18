@@ -1,0 +1,15 @@
+items:
+  Scan Resolution Dampening Script:
+    ChargeSize: 1.0
+    LauncherGroup: 208.0
+    MainColor: 1.1646664E7
+    MaxTargetRangeBonusBonus: -100.0
+    ScanResolutionBonusBonus: 100.0
+    TechLevel: 1.0
+  Targeting Range Dampening Script:
+    ChargeSize: 1.0
+    LauncherGroup: 208.0
+    MainColor: 1.1646664E7
+    MaxTargetRangeBonusBonus: 100.0
+    ScanResolutionBonusBonus: -100.0
+    TechLevel: 1.0

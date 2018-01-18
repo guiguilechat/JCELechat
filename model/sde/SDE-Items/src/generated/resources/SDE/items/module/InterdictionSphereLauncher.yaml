@@ -1,0 +1,23 @@
+items:
+  Interdiction Sphere Launcher I:
+    CanFitShipGroup01: 541.0
+    ChargeGroup1: 548.0
+    ChargeRate: 1.0
+    Cpu: 100.0
+    DisallowInEmpireSpace: 1.0
+    DisallowRepeatingActivation: 1.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.7000000476837158
+    Hp: 40.0
+    MaxGroupFitted: 1.0
+    OverloadRofBonus: -15.0
+    Power: 1.0
+    ReloadTime: 60000.0
+    RequiredSkill1: 11446.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3435.0
+    RequiredSkill2Level: 5.0
+    RequiredThermoDynamicsSkill: 1.0
+    Slots: 1.0
+    Speed: 5000.0
+    TechLevel: 1.0

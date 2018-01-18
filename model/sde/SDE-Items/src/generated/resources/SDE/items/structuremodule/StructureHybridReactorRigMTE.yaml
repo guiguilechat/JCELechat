@@ -1,0 +1,31 @@
+items:
+  Standup M-Set Hybrid Reactor Time Efficiency II:
+    CanFitShipGroup03: 1406.0
+    DisallowInHighSec: 1.0
+    Hp: 40.0
+    LowSecModifier: 1.0
+    MaxGroupFitted: 1.0
+    NullSecModifier: 1.100000023841858
+    RefRigTimeBonus: -24.0
+    RequiredSkill1: 26252.0
+    RequiredSkill1Level: 1.0
+    RigSize: 2.0
+    SecurityModifier: 1.0
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Standup M-Set Hybrid Reactor Time Efficiency I:
+    CanFitShipGroup03: 1406.0
+    DisallowInHighSec: 1.0
+    Hp: 40.0
+    LowSecModifier: 1.0
+    MaxGroupFitted: 1.0
+    NullSecModifier: 1.100000023841858
+    RefRigTimeBonus: -20.0
+    RequiredSkill1: 26252.0
+    RequiredSkill1Level: 1.0
+    RigSize: 2.0
+    SecurityModifier: 1.0
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0

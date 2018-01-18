@@ -1,0 +1,295 @@
+items:
+  Inherent Implants 'Squire' Capacitor Systems Operation EO-606:
+    CapRechargeBonus: -6.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Systems Operation EO-604:
+    CapRechargeBonus: -4.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Systems Operation EO-605:
+    CapRechargeBonus: -5.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Power Grid Management EG-603:
+    Implantness: 6.0
+    PowerEngineeringOutputBonus: 3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Power Grid Management EG-604:
+    Implantness: 6.0
+    PowerEngineeringOutputBonus: 4.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Power Grid Management EG-601:
+    Implantness: 6.0
+    PowerEngineeringOutputBonus: 1.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Power Grid Management EG-602:
+    Implantness: 6.0
+    PowerEngineeringOutputBonus: 2.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Power Grid Management EG-605:
+    Implantness: 6.0
+    PowerEngineeringOutputBonus: 5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Power Grid Management EG-606:
+    Implantness: 6.0
+    PowerEngineeringOutputBonus: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Electronics Upgrades EU-601:
+    CpuNeedBonus: -1.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Electronics Upgrades EU-602:
+    CpuNeedBonus: -2.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Electronics Upgrades EU-603:
+    CpuNeedBonus: -3.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Electronics Upgrades EU-604:
+    CpuNeedBonus: -4.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Electronics Upgrades EU-605:
+    CpuNeedBonus: -5.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Electronics Upgrades EU-606:
+    CpuNeedBonus: -6.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Management EM-806:
+    CapacitorCapacityBonus: 6.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Management EM-804:
+    CapacitorCapacityBonus: 4.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Management EM-805:
+    CapacitorCapacityBonus: 5.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Energy Pulse Weapons EP-703:
+    DurationBonus: -3.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Energy Pulse Weapons EP-704:
+    DurationBonus: -4.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Energy Pulse Weapons EP-701:
+    DurationBonus: -1.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Energy Pulse Weapons EP-702:
+    DurationBonus: -2.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Energy Pulse Weapons EP-705:
+    DurationBonus: -5.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Energy Pulse Weapons EP-706:
+    DurationBonus: -6.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Inherent Implants 'Sergeant' XE4:
+    CapNeedBonus: -3.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' CPU Management EE-605:
+    CpuOutputBonus2: 5.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' CPU Management EE-604:
+    CpuOutputBonus2: 4.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' CPU Management EE-603:
+    CpuOutputBonus2: 3.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' CPU Management EE-602:
+    CpuOutputBonus2: 2.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Systems Operation EO-602:
+    CapRechargeBonus: -2.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' CPU Management EE-601:
+    CpuOutputBonus2: 1.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Systems Operation EO-603:
+    CapRechargeBonus: -3.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Systems Operation EO-601:
+    CapRechargeBonus: -1.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Management EM-802:
+    CapacitorCapacityBonus: 2.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Management EM-803:
+    CapacitorCapacityBonus: 3.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Management EM-801:
+    CapacitorCapacityBonus: 1.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Energy Grid Upgrades EU-701:
+    CpuNeedBonus: -1.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Energy Grid Upgrades EU-702:
+    CpuNeedBonus: -2.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Energy Grid Upgrades EU-703:
+    CpuNeedBonus: -3.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Energy Grid Upgrades EU-704:
+    CpuNeedBonus: -4.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Energy Grid Upgrades EU-705:
+    CpuNeedBonus: -5.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Energy Grid Upgrades EU-706:
+    CpuNeedBonus: -6.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Emission Systems ES-702:
+    CapNeedBonus: -2.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Emission Systems ES-701:
+    CapNeedBonus: -1.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Emission Systems ES-704:
+    CapNeedBonus: -4.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Emission Systems ES-703:
+    CapNeedBonus: -3.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Emission Systems ES-706:
+    CapNeedBonus: -6.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Inherent Implants 'Squire' Capacitor Emission Systems ES-705:
+    CapNeedBonus: -5.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' CPU Management EE-606:
+    CpuOutputBonus2: 6.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0

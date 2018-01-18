@@ -1,0 +1,123 @@
+items:
+  '''Carpo'' Mining Laser Upgrade':
+    Cpu: 35.0
+    CpuPenaltyPercent: 6.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    MiningAmountBonus: 9.0
+    Power: 1.0
+    RequiredSkill1: 22578.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Erin Mining Laser Upgrade:
+    Cpu: 31.0
+    CpuPenaltyPercent: 9.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    MiningAmountBonus: 6.0
+    Power: 1.0
+    RequiredSkill1: 22578.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Crisium Ice Harvester Upgrade:
+    Cpu: 31.0
+    CpuPenaltyPercent: 9.0
+    Hp: 40.0
+    IceHarvestCycleBonus: -6.0
+    MetaLevel: 1.0
+    Power: 1.0
+    RequiredSkill1: 22578.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Ice Harvester Upgrade II:
+    Cpu: 40.0
+    CpuPenaltyPercent: 12.5
+    Hp: 40.0
+    IceHarvestCycleBonus: -9.0
+    MetaLevel: 5.0
+    Power: 1.0
+    RequiredSkill1: 22578.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 2.0
+  Elara Restrained Mining Laser Upgrade:
+    Cpu: 35.0
+    CpuPenaltyPercent: 8.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    MiningAmountBonus: 8.0
+    Power: 1.0
+    RequiredSkill1: 22578.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  '''Ingenii'' Ice Harvester Upgrade':
+    Cpu: 40.0
+    CpuPenaltyPercent: 8.0
+    Hp: 40.0
+    IceHarvestCycleBonus: -10.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    Power: 1.0
+    RequiredSkill1: 22578.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Mining Laser Upgrade I:
+    Cpu: 30.0
+    CpuPenaltyPercent: 10.0
+    Hp: 40.0
+    MiningAmountBonus: 5.0
+    Power: 1.0
+    RequiredSkill1: 22578.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  '''Aoede'' Mining Laser Upgrade':
+    Cpu: 40.0
+    CpuPenaltyPercent: 8.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    MiningAmountBonus: 10.0
+    Power: 1.0
+    RequiredSkill1: 22578.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  '''Anguis'' Ice Harvester Upgrade':
+    Cpu: 35.0
+    CpuPenaltyPercent: 6.0
+    Hp: 40.0
+    IceHarvestCycleBonus: -9.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    Power: 1.0
+    RequiredSkill1: 22578.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Mining Laser Upgrade II:
+    Cpu: 40.0
+    CpuPenaltyPercent: 12.5
+    Hp: 40.0
+    MetaLevel: 5.0
+    MiningAmountBonus: 9.0
+    Power: 1.0
+    RequiredSkill1: 22578.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 2.0
+  Ice Harvester Upgrade I:
+    Cpu: 30.0
+    CpuPenaltyPercent: 10.0
+    Hp: 40.0
+    IceHarvestCycleBonus: -5.0
+    Power: 1.0
+    RequiredSkill1: 22578.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Frigoris Restrained Ice Harvester Upgrade:
+    Cpu: 35.0
+    CpuPenaltyPercent: 8.0
+    Hp: 40.0
+    IceHarvestCycleBonus: -8.0
+    MetaLevel: 1.0
+    Power: 1.0
+    RequiredSkill1: 22578.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0

@@ -1,0 +1,70 @@
+items:
+  Survey Networks 2:
+    DevIndexIndustrial: 2.0
+    DistributionIDAngel01: 370.0
+    DistributionIDBlood01: 375.0
+    DistributionIDGurista01: 380.0
+    DistributionIDRogueDrone01: 395.0
+    DistributionIDSansha01: 385.0
+    DistributionIDSerpentis01: 390.0
+    SovUpgradeRequiredUpgradeID: 2053.0
+  Ore Prospecting Array 5:
+    DevIndexIndustrial: 5.0
+    DistributionID01: 368.0
+    DistributionID02: 679.0
+    DistributionID03: 682.0
+    SovUpgradeRequiredUpgradeID: 2043.0
+  Survey Networks 1:
+    DevIndexIndustrial: 1.0
+    DistributionIDAngel01: 369.0
+    DistributionIDBlood01: 374.0
+    DistributionIDGurista01: 379.0
+    DistributionIDRogueDrone01: 394.0
+    DistributionIDSansha01: 384.0
+    DistributionIDSerpentis01: 389.0
+  Ore Prospecting Array 4:
+    DevIndexIndustrial: 4.0
+    DistributionID01: 367.0
+    DistributionID02: 678.0
+    DistributionID03: 681.0
+    SovUpgradeRequiredUpgradeID: 2042.0
+  Survey Networks 4:
+    DevIndexIndustrial: 4.0
+    DistributionIDAngel01: 372.0
+    DistributionIDBlood01: 377.0
+    DistributionIDGurista01: 382.0
+    DistributionIDRogueDrone01: 397.0
+    DistributionIDSansha01: 387.0
+    DistributionIDSerpentis01: 392.0
+    SovUpgradeRequiredUpgradeID: 2055.0
+  Ore Prospecting Array 3:
+    DevIndexIndustrial: 3.0
+    DistributionID01: 366.0
+    DistributionID02: 676.0
+    DistributionID03: 680.0
+    SovUpgradeRequiredUpgradeID: 2041.0
+  Survey Networks 3:
+    DevIndexIndustrial: 3.0
+    DistributionIDAngel01: 371.0
+    DistributionIDBlood01: 376.0
+    DistributionIDGurista01: 381.0
+    DistributionIDRogueDrone01: 396.0
+    DistributionIDSansha01: 386.0
+    DistributionIDSerpentis01: 391.0
+    SovUpgradeRequiredUpgradeID: 2054.0
+  Ore Prospecting Array 2:
+    DevIndexIndustrial: 2.0
+    DistributionID01: 365.0
+    SovUpgradeRequiredUpgradeID: 2040.0
+  Ore Prospecting Array 1:
+    DevIndexIndustrial: 1.0
+    DistributionID01: 364.0
+  Survey Networks 5:
+    DevIndexIndustrial: 5.0
+    DistributionIDAngel01: 373.0
+    DistributionIDBlood01: 378.0
+    DistributionIDGurista01: 383.0
+    DistributionIDRogueDrone01: 398.0
+    DistributionIDSansha01: 388.0
+    DistributionIDSerpentis01: 393.0
+    SovUpgradeRequiredUpgradeID: 2056.0

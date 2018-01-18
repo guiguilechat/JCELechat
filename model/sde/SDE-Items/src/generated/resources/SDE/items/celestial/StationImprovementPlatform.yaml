@@ -1,0 +1,433 @@
+items:
+  Caldari Basic Outpost Factory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28096.0
+  Minmatar Advanced Outpost Refinery Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationOreRefiningBonus: 0.07999999821186066
+    StationTypeID: 28125.0
+  Gallente Advanced Outpost Laboratory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28108.0
+  Amarr Basic Outpost Plant Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28082.0
+  Minmatar Basic Outpost Refinery Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationOreRefiningBonus: 0.019999999552965164
+    StationTypeID: 28130.0
+  Minmatar Outpost Office Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28134.0
+  Gallente Outpost Plant Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28117.0
+  Gallente Advanced Outpost Office Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28109.0
+  Gallente Basic Outpost Factory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28111.0
+  Caldari Advanced Outpost Office Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28094.0
+  Caldari Outpost Office Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28104.0
+  Caldari Outpost Research Facility Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28103.0
+  Minmatar Basic Outpost Laboratory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28128.0
+  Amarr Advanced Outpost Plant Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28077.0
+  Gallente Basic Outpost Office Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28114.0
+  Gallente Basic Outpost Plant Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28112.0
+  Minmatar Basic Outpost Factory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28126.0
+  Amarr Outpost Office Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28089.0
+  Minmatar Outpost Factory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28131.0
+  Gallente Outpost Laboratory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28118.0
+  Caldari Advanced Outpost Laboratory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28092.0
+  Amarr Advanced Outpost Refinery Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationOreRefiningBonus: 0.07000000029802322
+    StationTypeID: 28080.0
+  Caldari Advanced Outpost Factory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28091.0
+  Caldari Outpost Factory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28101.0
+  Amarr Basic Outpost Office Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28084.0
+  Amarr Advanced Outpost Office Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28079.0
+  Minmatar Basic Outpost Office Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28129.0
+  Minmatar Outpost Plant Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28132.0
+  Minmatar Outpost Laboratory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28133.0
+  Amarr Outpost Refinery Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationOreRefiningBonus: 0.03999999910593033
+    StationTypeID: 28090.0
+  Caldari Basic Outpost Laboratory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28097.0
+  Gallente Outpost Office Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28119.0
+  Amarr Advanced Outpost Factory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28076.0
+  Minmatar Advanced Outpost Plant Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28122.0
+  Gallente Advanced Outpost Factory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28106.0
+  Minmatar Advanced Outpost Factory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28121.0
+  Caldari Advanced Outpost Refinery Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationOreRefiningBonus: 0.07000000029802322
+    StationTypeID: 28095.0
+  Amarr Basic Outpost Refinery Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationOreRefiningBonus: 0.019999999552965164
+    StationTypeID: 28085.0
+  Caldari Basic Outpost Research Facility Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28098.0
+  Minmatar Advanced Outpost Laboratory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28123.0
+  Gallente Advanced Outpost Plant Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28107.0
+  Amarr Outpost Factory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28086.0
+  Amarr Outpost Plant Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28087.0
+  Caldari Basic Outpost Refinery Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationOreRefiningBonus: 0.019999999552965164
+    StationTypeID: 28100.0
+  Minmatar Basic Outpost Plant Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28127.0
+  Caldari Advanced Outpost Research Facility Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28093.0
+  Gallente Basic Outpost Laboratory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28113.0
+  Caldari Outpost Refinery Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationOreRefiningBonus: 0.03999999910593033
+    StationTypeID: 28105.0
+  Amarr Basic Outpost Laboratory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28083.0
+  Gallente Advanced Outpost Refinery Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationOreRefiningBonus: 0.07000000029802322
+    StationTypeID: 28110.0
+  Gallente Basic Outpost Refinery Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationOreRefiningBonus: 0.019999999552965164
+    StationTypeID: 28115.0
+  Caldari Outpost Laboratory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28102.0
+  Caldari Basic Outpost Office Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28099.0
+  Minmatar Advanced Outpost Office Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28124.0
+  Gallente Outpost Refinery Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationOreRefiningBonus: 0.03999999910593033
+    StationTypeID: 28120.0
+  Minmatar Outpost Refinery Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationOreRefiningBonus: 0.05000000074505806
+    StationTypeID: 28135.0
+  Gallente Outpost Factory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28116.0
+  Amarr Advanced Outpost Laboratory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 5.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28078.0
+  Amarr Outpost Laboratory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28088.0
+  Amarr Basic Outpost Factory Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28081.0

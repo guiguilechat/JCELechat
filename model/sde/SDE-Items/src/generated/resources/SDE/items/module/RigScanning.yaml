@@ -1,0 +1,257 @@
+items:
+  Medium Gravity Capacitor Upgrade I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    ScanStrengthBonus: 10.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Capital Memetic Algorithm Bank I:
+    AccessDifficultyBonusModifier: 20.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+    VirusCoherenceBonus: 10.0
+  Capital Signal Focusing Kit I:
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 4.0
+    ScanspeedBonus: -15.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Capital Signal Focusing Kit II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    ScanspeedBonus: -20.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small Gravity Capacitor Upgrade I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    ScanStrengthBonus: 10.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Medium Signal Focusing Kit I:
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 2.0
+    ScanspeedBonus: -15.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Signal Focusing Kit II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    ScanspeedBonus: -20.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small Signal Focusing Kit I:
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 1.0
+    ScanspeedBonus: -15.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Gravity Capacitor Upgrade I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    ScanStrengthBonus: 10.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Large Memetic Algorithm Bank II:
+    AccessDifficultyBonusModifier: 40.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+    VirusCoherenceBonus: 20.0
+  Small Gravity Capacitor Upgrade II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    ScanStrengthBonus: 15.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Medium Emission Scope Sharpener I:
+    AccessDifficultyBonusModifier: 20.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+    VirusCoherenceBonus: 10.0
+  Large Memetic Algorithm Bank I:
+    AccessDifficultyBonusModifier: 20.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+    VirusCoherenceBonus: 10.0
+  Capital Emission Scope Sharpener II:
+    AccessDifficultyBonusModifier: 40.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+    VirusCoherenceBonus: 20.0
+  Small Signal Focusing Kit II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    ScanspeedBonus: -20.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Large Signal Focusing Kit I:
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 3.0
+    ScanspeedBonus: -15.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Capital Gravity Capacitor Upgrade I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    ScanStrengthBonus: 10.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Medium Memetic Algorithm Bank I:
+    AccessDifficultyBonusModifier: 20.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+    VirusCoherenceBonus: 10.0
+  Large Gravity Capacitor Upgrade II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    ScanStrengthBonus: 15.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Small Memetic Algorithm Bank II:
+    AccessDifficultyBonusModifier: 40.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+    VirusCoherenceBonus: 20.0
+  Medium Emission Scope Sharpener II:
+    AccessDifficultyBonusModifier: 40.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+    VirusCoherenceBonus: 20.0
+  Medium Signal Focusing Kit II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    ScanspeedBonus: -20.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small Emission Scope Sharpener II:
+    AccessDifficultyBonusModifier: 40.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+    VirusCoherenceBonus: 20.0
+  Medium Gravity Capacitor Upgrade II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    ScanStrengthBonus: 15.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Large Emission Scope Sharpener II:
+    AccessDifficultyBonusModifier: 40.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+    VirusCoherenceBonus: 20.0
+  Capital Memetic Algorithm Bank II:
+    AccessDifficultyBonusModifier: 40.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+    VirusCoherenceBonus: 20.0
+  Capital Gravity Capacitor Upgrade II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    ScanStrengthBonus: 15.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Small Memetic Algorithm Bank I:
+    AccessDifficultyBonusModifier: 20.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+    VirusCoherenceBonus: 10.0
+  Medium Memetic Algorithm Bank II:
+    AccessDifficultyBonusModifier: 40.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+    VirusCoherenceBonus: 20.0
+  Capital Emission Scope Sharpener I:
+    AccessDifficultyBonusModifier: 20.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+    VirusCoherenceBonus: 10.0
+  Large Emission Scope Sharpener I:
+    AccessDifficultyBonusModifier: 20.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+    VirusCoherenceBonus: 10.0
+  Small Emission Scope Sharpener I:
+    AccessDifficultyBonusModifier: 20.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+    VirusCoherenceBonus: 10.0

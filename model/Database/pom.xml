@@ -31,15 +31,10 @@
 		<!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
 
 		<dependency>
-			<groupId>fr.guiguilechat.eveonline.model</groupId>
-			<artifactId>SDE</artifactId>
+			<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+			<artifactId>SDE-Raw</artifactId>
 			<optional>true</optional>
 			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.eveonline.model</groupId>
@@ -52,9 +47,14 @@
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.eveonline.model</groupId>
-			<artifactId>SDE-compiler</artifactId>
-			<version>1.0.0</version>
+			<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+			<artifactId>SDE-Full</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 	<build>

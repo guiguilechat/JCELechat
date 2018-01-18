@@ -1,0 +1,12 @@
+items:
+  Standup Moon Drill I:
+    CanFitShipGroup01: 1406.0
+    Cpu: 200.0
+    DisallowInHighSec: 1.0
+    MaxTypeFitted: 1.0
+    OnlineMaxSecurityClass: 1.0
+    Power: 10000.0
+    ServiceModuleFuelAmount: 5.0
+    ServiceModuleFuelConsumptionGroup: 1136.0
+    ServiceModuleFuelOnlineAmount: 360.0
+    StructureItemVisualFlag: 1.0
