@@ -65,7 +65,8 @@ public class SDECache {
 			if(LAST_DL.exists()) {
 				logger.info("new version of sde to download from " + url);
 			} else {
-				logger.info("no existing download information, downloading sde from " + url);
+				logger.info(
+						"no existing download information in file " + LAST_DL.getAbsolutePath() + ", downloading sde from " + url);
 			}
 		} catch (IOException e1) {
 			System.err.println(e1);
@@ -86,7 +87,6 @@ public class SDECache {
 						}
 					}
 					fw.close();
-					System.err.println(e.getName());
 				}
 			}
 
