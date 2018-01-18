@@ -5,11 +5,12 @@
 
 	<modules>
 		<module>Database</module>
-		<module>SDE-compiler</module>
+		
 		<module>ESI</module>
 		<module>APIv2</module>
 		<module>ESI-compiler</module>
-		<module>SDE</module>
+		<module>sde</module>
+		
 	</modules>
 	<artifactId>model</artifactId>
 	<parent>

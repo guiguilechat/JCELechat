@@ -6,5 +6,6 @@ public class R_get_loyalty_stores_corporation_id_offers {
     public long quantity;
     public long lp_cost;
     public long isk_cost;
+    public long ak_cost;
     public R_get_loyalty_stores_corporation_id_offers_required_items[] required_items;
 }

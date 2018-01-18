@@ -28474,7 +28474,7 @@ metaInfs:
   Eagle:
     id: 12011
     productIn:
-    - 银鹰级YC117年特���版蓝图
+    - 银鹰级YC117年特别版蓝图
     productOf:
     - Eagle Blueprint
     volume: 101000.0
@@ -36665,7 +36665,7 @@ metaInfs:
   Gila:
     id: 17715
     productIn:
-    - 毒蜥级YC117年特��版蓝图
+    - 毒蜥级YC117年特别版蓝图
     productOf:
     - Gila Blueprint
     volume: 101000.0
@@ -69056,10 +69056,10 @@ metaInfs:
   幼龙级YC117年特别版蓝图:
     id: 34474
     volume: 0.01
-  毒蜥级YC117年特��版蓝图:
+  毒蜥级YC117年特别版蓝图:
     id: 34476
     volume: 0.01
-  银鹰级YC117年特���版蓝图:
+  银鹰级YC117年特别版蓝图:
     id: 34478
     volume: 0.01
   伊什塔级YC117年特别版蓝图:
@@ -75610,7 +75610,7 @@ metaInfs:
   YC118 Succession Trial Champion’s Decree – House Khanid:
     id: 37894
     volume: 0.01
-  YC118 Succession Trial Champion��s Decree – House Kor-Azor:
+  YC118 Succession Trial Champion’s Decree – House Kor-Azor:
     id: 37895
     volume: 0.01
   YC118 Succession Trial Champion’s Decree – House Sarum:
@@ -79054,7 +79054,7 @@ metaInfs:
   Gravitational Transportation Field Oscillator Blueprint:
     id: 41438
     volume: 0.01
-  ‘Iron Pike�� Kinetic Lance:
+  ‘Iron Pike’ Kinetic Lance:
     id: 41439
     productOf:
     - ‘Iron Pike’ Kinetic Lance Blueprint
@@ -87779,28 +87779,28 @@ metaInfs:
   Vexor Quafe Edition:
     productOf:
     - Vexor Quafe Edition Blueprint
-  末日沙场级YC117年特别版:
+  末日沙��级YC117年特别版:
     productOf:
     - 末日沙场级YC117年特别版蓝图
   地狱天使级YC117年特别版:
     productOf:
     - 地狱天使级YC117年特别版蓝图
-  马克瑞级YC117年特别版:
+  马克瑞��YC117年特别版:
     productOf:
     - 马克瑞级YC117年特别版蓝图
-  响尾蛇级YC117年特��版:
+  响尾蛇级YC117年特别版:
     productOf:
     - 响尾蛇级YC117年特别版蓝图
   多米尼克斯级YC117年特别版:
     productOf:
     - 多米尼克斯级YC117年特别版蓝图
-  万王宝��级YC117年特别版:
+  万��宝座级YC117年特别版:
     productOf:
     - 万王宝座级YC117年特别版蓝图
   乌鸦级YC117年特别版:
     productOf:
     - 乌鸦级YC117年特别版蓝图
-  ���难级YC117年特别版:
+  灾难级YC117年特别��:
     productOf:
     - 灾难级YC117年特别版蓝图
   幼龙级YC117年特别版:
@@ -87808,10 +87808,10 @@ metaInfs:
     - 幼龙级YC117年特别版蓝图
   毒蜥级YC117年特别版:
     productOf:
-    - 毒蜥级YC117年特��版蓝图
+    - 毒蜥级YC117年特别版蓝图
   银鹰级YC117年特别版:
     productOf:
-    - 银鹰级YC117年特���版蓝图
-  伊什塔级YC117年特��版:
+    - 银鹰级YC117年特别版蓝图
+  伊什塔级YC117年特别版:
     productOf:
     - 伊什塔级YC117年特别版蓝图

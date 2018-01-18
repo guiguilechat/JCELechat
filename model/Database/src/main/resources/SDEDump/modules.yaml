@@ -118934,7 +118934,7 @@ modules:
       power: 80000.0
       fighterBonusShieldCapacityPercent: 1.065
     volume: 2000.0
-  ‘Iron Pike�� Kinetic Lance:
+  ‘Iron Pike’ Kinetic Lance:
     attributes:
       cpu: 100
       powergrid: 100000
@@ -118946,7 +118946,7 @@ modules:
     - hiPower
     groupName: Super Weapon
     id: 41439
-    name: ‘Iron Pike�� Kinetic Lance
+    name: ‘Iron Pike’ Kinetic Lance
     rawAttributes:
       capacitorNeed: 32500.0
       maxGroupFitted: 1.0

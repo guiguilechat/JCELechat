@@ -1,0 +1,29 @@
+items:
+  Sensor Optimization Charge:
+    LauncherGroup: 1770.0
+    RequiredSkill1: 20495.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3348.0
+    RequiredSkill2Level: 1.0
+    WarfareBuff1ID: 16.0
+    WarfareBuff1Multiplier: 9.0
+    WarfareBuff2ID: 26.0
+    WarfareBuff2Multiplier: 18.0
+  Electronic Superiority Charge:
+    LauncherGroup: 1770.0
+    RequiredSkill1: 20495.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3348.0
+    RequiredSkill2Level: 1.0
+    WarfareBuff1ID: 17.0
+    WarfareBuff1Multiplier: 9.0
+  Electronic Hardening Charge:
+    LauncherGroup: 1770.0
+    RequiredSkill1: 20495.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3348.0
+    RequiredSkill2Level: 1.0
+    WarfareBuff1ID: 18.0
+    WarfareBuff1Multiplier: 18.0
+    WarfareBuff2ID: 19.0
+    WarfareBuff2Multiplier: -9.0

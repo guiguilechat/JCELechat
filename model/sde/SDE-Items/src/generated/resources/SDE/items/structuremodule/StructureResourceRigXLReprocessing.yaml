@@ -1,0 +1,33 @@
+items:
+  Standup XL-Set Reprocessing Monitor I:
+    CanFitShipGroup01: 1657.0
+    CanFitShipGroup02: 1404.0
+    HiSecModifier: 1.0
+    Hp: 40.0
+    LowSecModifier: 1.059999942779541
+    MaxGroupFitted: 1.0
+    NullSecModifier: 1.1200000047683716
+    RefiningYieldMultiplier: 0.5099999904632568
+    RequiredSkill1: 26252.0
+    RequiredSkill1Level: 1.0
+    RigSize: 4.0
+    SecurityModifier: 1.0
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Standup XL-Set Reprocessing Monitor II:
+    CanFitShipGroup01: 1657.0
+    CanFitShipGroup02: 1404.0
+    HiSecModifier: 1.0
+    Hp: 40.0
+    LowSecModifier: 1.059999942779541
+    MaxGroupFitted: 1.0
+    NullSecModifier: 1.1200000047683716
+    RefiningYieldMultiplier: 0.5299999713897705
+    RequiredSkill1: 26252.0
+    RequiredSkill1Level: 1.0
+    RigSize: 4.0
+    SecurityModifier: 1.0
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0

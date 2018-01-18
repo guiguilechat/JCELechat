@@ -1,0 +1,14 @@
+items:
+  Standup AXL Missile Launcher I:
+    CanFitShipGroup01: 1657.0
+    CanFitShipGroup02: 1404.0
+    CanFitShipGroup03: 1406.0
+    ChargeGroup1: 1546.0
+    ChargeRate: 1.0
+    Cpu: 1500.0
+    Hp: 40.0
+    Power: 150000.0
+    ReloadTime: 0.009999999776482582
+    Slots: 1.0
+    Speed: 15000.0
+    StructureItemVisualFlag: 1.0

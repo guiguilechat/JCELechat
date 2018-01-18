@@ -1,9 +1,0 @@
-items:
-  Link:
-    CpuLoad: 15.0
-    CpuLoadLevelModifier: 1.399999976158142
-    CpuLoadPerKm: 0.20000000298023224
-    LogisticalCapacity: 1250.0
-    PowerLoad: 10.0
-    PowerLoadLevelModifier: 1.2000000476837158
-    PowerLoadPerKm: 0.15000000596046448

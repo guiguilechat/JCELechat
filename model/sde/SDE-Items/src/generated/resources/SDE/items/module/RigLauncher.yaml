@@ -1,0 +1,461 @@
+items:
+  Large Bay Loading Accelerator I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Large Warhead Calefaction Catalyst I:
+    Drawback: 10.0
+    Hp: 40.0
+    MissileDamageMultiplierBonus: 1.100000023841858
+    RigSize: 3.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Large Rocket Fuel Cache Partition I:
+    Drawback: 10.0
+    Hp: 40.0
+    MaxFlightTimeBonus: 15.0
+    RigSize: 3.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Medium Hydraulic Bay Thrusters I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    SpeedFactor: 15.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Small Warhead Flare Catalyst II:
+    AoeVelocityBonus: 20.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Rocket Fuel Cache Partition II:
+    Drawback: 10.0
+    Hp: 40.0
+    MaxFlightTimeBonus: 20.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Capital Hydraulic Bay Thrusters I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    SpeedFactor: 15.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Capital Warhead Flare Catalyst I:
+    AoeVelocityBonus: 15.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Medium Bay Loading Accelerator I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Small Rocket Fuel Cache Partition II:
+    Drawback: 10.0
+    Hp: 40.0
+    MaxFlightTimeBonus: 20.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Capital Rocket Fuel Cache Partition II:
+    Drawback: 10.0
+    Hp: 40.0
+    MaxFlightTimeBonus: 20.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Launcher Processor Rig I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 75.0
+  Capital Warhead Rigor Catalyst II:
+    AoeCloudSizeBonus: -20.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Medium Warhead Calefaction Catalyst I:
+    Drawback: 10.0
+    Hp: 40.0
+    MissileDamageMultiplierBonus: 1.100000023841858
+    RigSize: 2.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Small Warhead Flare Catalyst I:
+    AoeVelocityBonus: 15.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Bay Loading Accelerator II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 0.8500000238418579
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Large Rocket Fuel Cache Partition II:
+    Drawback: 10.0
+    Hp: 40.0
+    MaxFlightTimeBonus: 20.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Small Rocket Fuel Cache Partition I:
+    Drawback: 10.0
+    Hp: 40.0
+    MaxFlightTimeBonus: 15.0
+    RigSize: 1.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Capital Rocket Fuel Cache Partition I:
+    Drawback: 10.0
+    Hp: 40.0
+    MaxFlightTimeBonus: 15.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Capital Bay Loading Accelerator I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Small Warhead Calefaction Catalyst I:
+    Drawback: 10.0
+    Hp: 40.0
+    MissileDamageMultiplierBonus: 1.100000023841858
+    RigSize: 1.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Medium Warhead Flare Catalyst I:
+    AoeVelocityBonus: 15.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Bay Loading Accelerator I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Large Warhead Flare Catalyst I:
+    AoeVelocityBonus: 15.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Capital Warhead Calefaction Catalyst I:
+    Drawback: 10.0
+    Hp: 40.0
+    MissileDamageMultiplierBonus: 1.100000023841858
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Capital Warhead Calefaction Catalyst II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    MissileDamageMultiplierBonus: 1.149999976158142
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Small Hydraulic Bay Thrusters II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedFactor: 20.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Capital Warhead Flare Catalyst II:
+    AoeVelocityBonus: 20.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Capital Warhead Rigor Catalyst I:
+    AoeCloudSizeBonus: -15.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Large Hydraulic Bay Thrusters II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedFactor: 20.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Small Hydraulic Bay Thrusters I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    SpeedFactor: 15.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Medium Warhead Flare Catalyst II:
+    AoeVelocityBonus: 20.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Large Bay Loading Accelerator II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 0.8500000238418579
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Missile Guidance System Rig II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 200.0
+  Small Warhead Rigor Catalyst I:
+    AoeCloudSizeBonus: -15.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Small Warhead Calefaction Catalyst II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    MissileDamageMultiplierBonus: 1.149999976158142
+    RigSize: 1.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Large Warhead Calefaction Catalyst II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    MissileDamageMultiplierBonus: 1.149999976158142
+    RigSize: 3.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Large Warhead Rigor Catalyst II:
+    AoeCloudSizeBonus: -20.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Small Warhead Rigor Catalyst II:
+    AoeCloudSizeBonus: -20.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Medium Warhead Calefaction Catalyst II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    MissileDamageMultiplierBonus: 1.149999976158142
+    RigSize: 2.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Missile Guidance System Rig I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Capital Bay Loading Accelerator II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    SpeedMultiplier: 0.8500000238418579
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Capital Hydraulic Bay Thrusters II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    SpeedFactor: 20.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Large Hydraulic Bay Thrusters I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    SpeedFactor: 15.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Launcher Processor Rig II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Medium Warhead Rigor Catalyst I:
+    AoeCloudSizeBonus: -15.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Medium Bay Loading Accelerator II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 0.8500000238418579
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Medium Rocket Fuel Cache Partition I:
+    Drawback: 10.0
+    Hp: 40.0
+    MaxFlightTimeBonus: 15.0
+    RigSize: 2.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Large Warhead Flare Catalyst II:
+    AoeVelocityBonus: 20.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Warhead Rigor Catalyst II:
+    AoeCloudSizeBonus: -20.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Medium Hydraulic Bay Thrusters II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedFactor: 20.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Large Warhead Rigor Catalyst I:
+    AoeCloudSizeBonus: -15.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    SpeedFactor: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0

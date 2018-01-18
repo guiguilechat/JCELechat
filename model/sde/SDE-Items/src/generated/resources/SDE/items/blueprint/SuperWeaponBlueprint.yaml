@@ -1,0 +1,21 @@
+items:
+  ‘Geiravor’ Explosive Lance Blueprint: {}
+  Gravitational Transportation Field Oscillator Blueprint: {}
+  ‘Guillotine’ Thermal Reaper Blueprint: {}
+  Superweapon_AOEECM Blueprint: {}
+  Bosonic Field Generator Blueprint: {}
+  ‘Iron Pike’ Kinetic Lance Blueprint: {}
+  ‘Cold Wind’ Kinetic Reaper Blueprint: {}
+  ‘Divine Harvest’ Electromagnetic Reaper Blueprint: {}
+  '''Gjallarhorn'' Explosive Doomsday Blueprint':
+    IndustryBlueprintRank: 240.0
+  ‘Phalarica’ Thermal Lance Blueprint: {}
+  Pulse Activated Nexus Invulnerability Core Blueprint: {}
+  ‘Holy Destiny’ Electromagnetic Lance Blueprint: {}
+  '''Aurora Ominae'' Thermal Doomsday Blueprint':
+    IndustryBlueprintRank: 240.0
+  '''Oblivion'' Kinetic Doomsday Blueprint':
+    IndustryBlueprintRank: 240.0
+  '''Judgment'' Electromagnetic Doomsday Blueprint':
+    IndustryBlueprintRank: 240.0
+  ‘Jormungandr’ Explosive Reaper Blueprint: {}

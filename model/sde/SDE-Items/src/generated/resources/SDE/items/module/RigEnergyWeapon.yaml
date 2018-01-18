@@ -1,0 +1,573 @@
+items:
+  Small Energy Collision Accelerator I:
+    DamageMultiplier: 1.100000023841858
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 200.0
+  Medium Energy Collision Accelerator I:
+    DamageMultiplier: 1.100000023841858
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 200.0
+  Capital Energy Discharge Elutriation I:
+    CapNeedBonus: -20.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Large Energy Burst Aerator I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 200.0
+  Small Energy Metastasis Adjuster II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedBonus: 20.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Capital Energy Ambit Extension II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    FalloffBonus: 20.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 75.0
+  Capital Energy Discharge Elutriation II:
+    CapNeedBonus: -25.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Capital Energy Metastasis Adjuster I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 15.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Small Algid Energy Administrations Unit I:
+    CpuNeedBonus: -10.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 50.0
+  Medium Energy Discharge Elutriation I:
+    CapNeedBonus: -20.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Capital Energy Locus Coordinator I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeBonus: 15.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Medium Energy Metastasis Adjuster I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 15.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Capital Energy Collision Accelerator I:
+    DamageMultiplier: 1.100000023841858
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 200.0
+  Large Energy Metastasis Adjuster I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 15.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Capital Energy Collision Accelerator II:
+    DamageMultiplier: 1.149999976158142
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0
+  Medium Energy Burst Aerator II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedMultiplier: 0.8500000238418579
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0
+  Medium Algid Energy Administrations Unit II:
+    CpuNeedBonus: -15.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 75.0
+  Capital Algid Energy Administrations Unit I:
+    CpuNeedBonus: -10.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 50.0
+  Capital Energy Ambit Extension I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    FalloffBonus: 15.0
+    Hp: 40.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 50.0
+  Small Energy Discharge Elutriation II:
+    CapNeedBonus: -25.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Medium Energy Burst Aerator I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 200.0
+  Medium Energy Locus Coordinator I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeBonus: 15.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Small Energy Ambit Extension II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    FalloffBonus: 20.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 75.0
+  Capital Algid Energy Administrations Unit II:
+    CpuNeedBonus: -15.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 75.0
+  Small Energy Ambit Extension I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    FalloffBonus: 15.0
+    Hp: 40.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 50.0
+  Small Energy Burst Aerator I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 200.0
+  Large Energy Ambit Extension I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    FalloffBonus: 15.0
+    Hp: 40.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 50.0
+  Large Energy Discharge Elutriation II:
+    CapNeedBonus: -25.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Small Energy Burst Aerator II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedMultiplier: 0.8500000238418579
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0
+  Medium Energy Locus Coordinator II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeBonus: 20.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Capital Energy Metastasis Adjuster II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedBonus: 20.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Large Energy Locus Coordinator II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeBonus: 20.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Large Energy Discharge Elutriation I:
+    CapNeedBonus: -20.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Small Algid Energy Administrations Unit II:
+    CpuNeedBonus: -15.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 75.0
+  Capital Energy Burst Aerator I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 200.0
+  Capital Energy Burst Aerator II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    SpeedMultiplier: 0.8500000238418579
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0
+  Medium Energy Collision Accelerator II:
+    DamageMultiplier: 1.149999976158142
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0
+  Medium Energy Ambit Extension I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    FalloffBonus: 15.0
+    Hp: 40.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 50.0
+  Large Energy Locus Coordinator I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeBonus: 15.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Small Energy Locus Coordinator II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeBonus: 20.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Small Energy Metastasis Adjuster I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 15.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Medium Energy Discharge Elutriation II:
+    CapNeedBonus: -25.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Large Algid Energy Administrations Unit II:
+    CpuNeedBonus: -15.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 75.0
+  Large Energy Collision Accelerator I:
+    DamageMultiplier: 1.100000023841858
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 200.0
+  Medium Algid Energy Administrations Unit I:
+    CpuNeedBonus: -10.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 50.0
+  Small Energy Locus Coordinator I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeBonus: 15.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Large Energy Metastasis Adjuster II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedBonus: 20.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Large Energy Ambit Extension II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    FalloffBonus: 20.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 75.0
+  Small Energy Discharge Elutriation I:
+    CapNeedBonus: -20.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Medium Energy Ambit Extension II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    FalloffBonus: 20.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 75.0
+  Capital Energy Locus Coordinator II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeBonus: 20.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Large Algid Energy Administrations Unit I:
+    CpuNeedBonus: -10.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 50.0
+  Medium Energy Metastasis Adjuster II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedBonus: 20.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Small Energy Collision Accelerator II:
+    DamageMultiplier: 1.149999976158142
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0
+  Large Energy Burst Aerator II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedMultiplier: 0.8500000238418579
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0
+  Large Energy Collision Accelerator II:
+    DamageMultiplier: 1.149999976158142
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0

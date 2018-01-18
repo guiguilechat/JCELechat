@@ -1,0 +1,35 @@
+items:
+  Standup M-Set Invention Cost Optimization I:
+    AttributeEngRigCostBonus: -10.0
+    CanFitShipGroup01: 1657.0
+    CanFitShipGroup02: 1404.0
+    CanFitShipGroup03: 1406.0
+    HiSecModifier: 1.0
+    Hp: 40.0
+    LowSecModifier: 1.899999976158142
+    MaxGroupFitted: 1.0
+    NullSecModifier: 2.0999999046325684
+    RequiredSkill1: 26252.0
+    RequiredSkill1Level: 1.0
+    RigSize: 2.0
+    SecurityModifier: 1.0
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Standup M-Set Invention Cost Optimization II:
+    AttributeEngRigCostBonus: -12.0
+    CanFitShipGroup01: 1657.0
+    CanFitShipGroup02: 1404.0
+    CanFitShipGroup03: 1406.0
+    HiSecModifier: 1.0
+    Hp: 40.0
+    LowSecModifier: 1.899999976158142
+    MaxGroupFitted: 1.0
+    NullSecModifier: 2.0999999046325684
+    RequiredSkill1: 26252.0
+    RequiredSkill1Level: 1.0
+    RigSize: 2.0
+    SecurityModifier: 1.0
+    StructureItemVisualFlag: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0

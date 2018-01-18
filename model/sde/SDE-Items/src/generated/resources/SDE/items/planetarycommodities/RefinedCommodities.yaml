@@ -1,0 +1,73 @@
+items:
+  Test Cultures:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Biocells:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Miniature Electronics:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Polyaramids:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Coolant:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Transmitter:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Oxides:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Construction Blocks:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Supertensile Plastics:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Water-Cooled CPU:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Enriched Uranium:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Viral Agent:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Consumer Electronics:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Mechanical Parts:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Polytextiles:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Superconductors:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Synthetic Oil:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Silicate Glass:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Genetically Enhanced Livestock:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Microfiber Shielding:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Rocket Fuel:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Livestock:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Nanites:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0
+  Fertilizer:
+    ExportTaxMultiplier: 7200.0
+    ImportTaxMultiplier: 7200.0

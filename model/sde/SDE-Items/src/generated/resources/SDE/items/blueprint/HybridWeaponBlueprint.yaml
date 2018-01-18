@@ -1,0 +1,243 @@
+items:
+  Light Electron Blaster II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Light Ion Blaster I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  75mm Gatling Rail II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  250mm Railgun II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  Scout Scoped Dual 1000mm Railgun Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  Ion Blaster Cannon II Blueprint:
+    IndustryBlueprintRank: 23.399999618530273
+    TechLevel: 2.0
+  '''Dealer'' Light Ion Blaster I Blueprint':
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Modal Enduring Ion Siege Blaster Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  Polarized Light Neutron Blaster Blueprint:
+    TechLevel: 2.0
+  250mm Railgun I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  CONCORD Ion Siege Blaster Blueprint:
+    IndustryBlueprintRank: 400.0
+    MetaGroupID: 4.0
+    TechLevel: 1.0
+  Compressed Enduring Dual 1000mm Railgun Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  Ion Blaster Cannon I Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Neutron Blaster Cannon II Blueprint:
+    IndustryBlueprintRank: 23.399999618530273
+    TechLevel: 2.0
+  Anode Scoped Triple Neutron Blaster Cannon Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  425mm Railgun I Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Limited Precise Triple Neutron Blaster Cannon Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  Regulated Compact Triple Neutron Blaster Cannon Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  Prototype Precise Dual 1000mm Railgun Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  350mm Railgun I Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  250mm 'Flintlock' Railgun Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Heavy Neutron Blaster II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  Medium Tractor Beam I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Electron Blaster Cannon II Blueprint:
+    IndustryBlueprintRank: 23.399999618530273
+    TechLevel: 2.0
+  Dual 1000mm Railgun II Blueprint:
+    IndustryBlueprintRank: 300.0
+    TechLevel: 2.0
+  Heavy Ion Blaster II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  Light Electron Blaster I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Neutron Blaster Cannon I Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  '''Felon'' Ion Blaster Cannon I Blueprint':
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  200mm Railgun II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  Shadow Serpentis Dual 1000mm Railgun Blueprint:
+    IndustryBlueprintRank: 400.0
+    MetaGroupID: 4.0
+    TechLevel: 1.0
+  Polarized Neutron Blaster Cannon Blueprint:
+    TechLevel: 2.0
+  425mm 'Popper' Railgun Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Dual 1000mm Railgun I Blueprint:
+    IndustryBlueprintRank: 120.0
+    TechLevel: 1.0
+  200mm Railgun I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Heavy Electron Blaster I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  CONCORD Dual 1000mm Railgun Blueprint:
+    IndustryBlueprintRank: 400.0
+    MetaGroupID: 4.0
+    TechLevel: 1.0
+  Carbide Compact Dual 1000mm Railgun Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  Caldari Navy 200mm Railgun Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  350mm Railgun II Blueprint:
+    IndustryBlueprintRank: 23.399999618530273
+    TechLevel: 2.0
+  150mm Railgun II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Federation Navy 350mm Railgun Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Triple Neutron Blaster Cannon II Blueprint:
+    IndustryBlueprintRank: 300.0
+    TechLevel: 2.0
+  150mm Railgun I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Ion Siege Blaster I Blueprint:
+    IndustryBlueprintRank: 120.0
+    TechLevel: 1.0
+  Limited Precise Ion Siege Blaster Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  Heavy Ion Blaster I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Polarized Heavy Neutron Blaster Blueprint:
+    TechLevel: 2.0
+  Triple Neutron Blaster Cannon I Blueprint:
+    IndustryBlueprintRank: 120.0
+    TechLevel: 1.0
+  Shadow Serpentis Ion Siege Blaster Blueprint:
+    IndustryBlueprintRank: 400.0
+    MetaGroupID: 4.0
+    TechLevel: 1.0
+  Light Neutron Blaster II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Federation Navy 200mm Railgun Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Light Neutron Blaster I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Large Tractor Beam I Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Dual 150mm Railgun I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  '''Slither'' Heavy Electron Blaster I Blueprint':
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  125mm Railgun II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  '''Underhand'' Neutron Blaster Cannon I Blueprint':
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Modal Enduring Triple Neutron Blaster Cannon Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  Dual 150mm Railgun II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  Anode Scoped Ion Siege Blaster Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  Light Ion Blaster II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  '''Hooligan'' Heavy Ion Blaster I Blueprint':
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Dual 250mm Railgun I Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  150mm 'Musket' Railgun Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  75mm Gatling Rail I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  425mm Railgun II Blueprint:
+    IndustryBlueprintRank: 23.399999618530273
+    TechLevel: 2.0
+  125mm Railgun I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Dual 250mm Railgun II Blueprint:
+    IndustryBlueprintRank: 23.399999618530273
+    TechLevel: 2.0
+  Caldari Navy 350mm Railgun Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Heavy Electron Blaster II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  Heavy Neutron Blaster I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  '''Hustler'' Heavy Neutron Blaster I Blueprint':
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  '''Racket'' Light Neutron Blaster I Blueprint':
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Ion Siege Blaster II Blueprint:
+    IndustryBlueprintRank: 300.0
+    TechLevel: 2.0
+  '''Corporate'' Light Electron Blaster I Blueprint':
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Regulated Compact Ion Siege Blaster Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  Electron Blaster Cannon I Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  '''Swindler'' Electron Blaster Cannon I Blueprint':
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Shadow Serpentis Triple Neutron Blaster Cannon Blueprint:
+    IndustryBlueprintRank: 400.0
+    MetaGroupID: 4.0
+    TechLevel: 1.0

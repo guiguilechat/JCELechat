@@ -1,0 +1,87 @@
+items:
+  Compressed Dense Veldspar:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 3.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 1230.0
+    ReprocessingSkillType: 12195.0
+    RequiredSkill1: 3386.0
+  Banidine:
+    AsteroidMaxRadius: 16255.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 1230.0
+    ReprocessingSkillType: 12195.0
+    RequiredSkill1: 3386.0
+  Stable Veldspar:
+    AsteroidMaxRadius: 5000.0
+    AsteroidMetaLevel: 4.0
+    AsteroidRadiusGrowthFactor: 0.014999999664723873
+    AsteroidRadiusUnitSize: 600.0
+    CompressionQuantityNeeded: 100.0
+    CompressionTypeID: 46705.0
+    OreBasicType: 46689.0
+    ReprocessingSkillType: 12195.0
+    RequiredSkill1: 3386.0
+  Compressed Veldspar:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 1.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 1230.0
+    ReprocessingSkillType: 12195.0
+    RequiredSkill1: 3386.0
+  Dense Veldspar:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 3.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    CompressionQuantityNeeded: 100.0
+    CompressionTypeID: 28431.0
+    OreBasicType: 1230.0
+    ReprocessingSkillType: 12195.0
+    RequiredSkill1: 3386.0
+  Veldspar:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 1.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    CompressionQuantityNeeded: 100.0
+    CompressionTypeID: 28432.0
+    OreBasicType: 1230.0
+    ReprocessingSkillType: 12195.0
+    RequiredSkill1: 3386.0
+  Chondrite:
+    AsteroidMaxRadius: 16255.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 1230.0
+    ReprocessingSkillType: 12195.0
+    RequiredSkill1: 3386.0
+  Concentrated Veldspar:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 2.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    CompressionQuantityNeeded: 100.0
+    CompressionTypeID: 28430.0
+    OreBasicType: 1230.0
+    ReprocessingSkillType: 12195.0
+    RequiredSkill1: 3386.0
+  Compressed Stable Veldspar:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 4.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 46689.0
+    ReprocessingSkillType: 12195.0
+    RequiredSkill1: 3386.0
+  Compressed Concentrated Veldspar:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 2.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 1230.0
+    ReprocessingSkillType: 12195.0
+    RequiredSkill1: 3386.0

@@ -1,0 +1,23 @@
+items:
+  Focused Warp Disruption Script:
+    CapNeedBonus: -60.0
+    DurationBonus: -80.0
+    LauncherGroup: 899.0
+    MassBonusPercentageBonus: -100.0
+    MaxRangeHidden: 24000.0
+    SignatureRadiusBonusBonus: -100.0
+    SpeedBoostFactorBonusBonus: -100.0
+    SpeedFactorBonusBonus: -100.0
+    TechLevel: 1.0
+    WarpScrambleRangeBonus: 50.0
+  Focused Warp Scrambling Script:
+    CapNeedBonus: -60.0
+    DurationBonus: -80.0
+    LauncherGroup: 899.0
+    MassBonusPercentageBonus: -100.0
+    MaxRangeHidden: 24000.0
+    SignatureRadiusBonusBonus: -100.0
+    SpeedBoostFactorBonusBonus: -100.0
+    SpeedFactorBonusBonus: -100.0
+    TechLevel: 1.0
+    WarpScrambleRangeBonus: -20.0

@@ -1,0 +1,11 @@
+items:
+  Shield Generation Array:
+    AnchoringDelay: 30000.0
+    Cpu: 200.0
+    DisallowOffensiveModifiers: 1.0
+    Hp: 1000.0
+    IncapacitationRatio: 0.75
+    OnliningDelay: 600000.0
+    Power: 50.0
+    StructureUniformity: 1.0
+    UnanchoringDelay: 600000.0

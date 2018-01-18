@@ -1,0 +1,33 @@
+items:
+  Ancient Acceleration Gate:
+    MassLimit: 5000000.0
+    ProximityRange: 2500.0
+  Acceleration Gate:
+    ArmorHP: 100000.0
+    Hp: 1.0E7
+    MassLimit: 5000000.0
+    ProximityRange: 2500.0
+  Pathfinder Gate:
+    MassLimit: 5000000.0
+    ProximityRange: 50000.0
+  Acceleration Gate (Precise):
+    ArmorHP: 1000000.0
+    Hp: 1000000.0
+    MassLimit: 5000000.0
+    ProximityRange: 2500.0
+  Spatial Rift:
+    MassLimit: 5000000.0
+    ProximityRange: 2500.0
+  Newly Constructed Acceleration Gate:
+    MassLimit: 5000000.0
+    ProximityRange: 50000.0
+  Large Acceleration Gate:
+    ArmorHP: 100000.0
+    Hp: 1.0E7
+    MassLimit: 5000000.0
+    ProximityRange: 5000.0
+  Spatial Rift (Precise):
+    ArmorHP: 1000000.0
+    Hp: 1000000.0
+    MassLimit: 5000000.0
+    ProximityRange: 2500.0

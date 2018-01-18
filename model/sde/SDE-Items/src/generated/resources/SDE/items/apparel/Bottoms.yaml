@@ -1,0 +1,263 @@
+items:
+  Women's 'Impress' Skirt (graphite):
+    Gender: 3.0
+  Women's 'Structure' Skirt (green stripes):
+    Gender: 3.0
+  Women's 'Impress' Skirt (black leather):
+    Gender: 3.0
+  Women's 'Impress' Skirt (green/gold):
+    Gender: 3.0
+  Women's 'Hover' Tights (pink):
+    Gender: 3.0
+  Women's 'Excursion' Pants (Blood Raider):
+    Gender: 3.0
+  Women's 'Poise' Pants (black):
+    Gender: 3.0
+  bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_red.type:
+    ClothingAlsoCoversCategory: 26.0
+    Gender: 3.0
+  Women's 'Hover' Tights (orange):
+    Gender: 3.0
+  Women's 'Poise' Pants (beige swirl):
+    Gender: 3.0
+  Women's 'Structure' Skirt (blue):
+    Gender: 3.0
+  Women's 'Structure' Skirt (matte black):
+    Gender: 3.0
+  Women's 'Hephaestus' Pants (blue):
+    Gender: 3.0
+  Men's 'Commando' Pants (red/black):
+    Gender: 1.0
+  Men's 'Outlaw' Pants (Guristas):
+    Gender: 1.0
+  Women's 'Excursion' Pants (silver):
+    Gender: 3.0
+  Women's 'Impress' Skirt (brown leather):
+    Gender: 3.0
+  Women's 'Poise' Pants (glossy bronze):
+    Gender: 3.0
+  Men's 'Strider' Pants (graphite):
+    Gender: 1.0
+  Women's 'Impress' Skirt (matte black):
+    Gender: 3.0
+  Women's 'Hephaestus' Pants (green):
+    Gender: 3.0
+  Women's 'Hover' Tights (matte black):
+    Gender: 3.0
+  Women's 'Structure' Skirt (khaki):
+    Gender: 3.0
+  Women's 'Poise' Pants (cream):
+    Gender: 3.0
+  Women's 'Structure' Skirt (gray):
+    Gender: 3.0
+  Men's 'Strider' Pants (dark red):
+    Gender: 1.0
+  Men's YC119 Yoiul Festival Pants:
+    Gender: 2.0
+  Women's 'Structure' Skirt (white stripes):
+    Gender: 3.0
+  Women's 'Hephaestus' Pants (gray/orange):
+    Gender: 3.0
+  Women's 'Hover' Tights (black):
+    Gender: 3.0
+  Men's 'Commando' Pants (blue):
+    Gender: 1.0
+  Women's 'Excursion' Pants (black/gray):
+    Gender: 3.0
+  Women's 'Mirelle' Pants (Upwell):
+    Gender: 3.0
+  Women's 'Hover' Tights (red):
+    Gender: 3.0
+  Women's 'Hephaestus' Pants (desert):
+    Gender: 3.0
+  Women's 'Hephaestus' Pants (white/red):
+    Gender: 3.0
+  Women's 'Hover' Tights (opaque blue):
+    Gender: 3.0
+  Women's 'Eternity' Suit (White):
+    ClothingAlsoCoversCategory: 26.0
+    Gender: 3.0
+  Women's 'Structure' Skirt (camouflage):
+    Gender: 3.0
+  Women's 'Poise' Pants (red):
+    Gender: 3.0
+  Women's 'Hover' Tights (opaque black):
+    Gender: 3.0
+  bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_blue.type:
+    ClothingAlsoCoversCategory: 26.0
+    Gender: 3.0
+  Men's 'Commando' Pants (gold/black):
+    Gender: 1.0
+  Men's 'Commando' Pants (gray/black):
+    Gender: 1.0
+  Women's 'Hover' Tights (yellow):
+    Gender: 3.0
+  Women's 'Strut' Pants (black):
+    Gender: 3.0
+  Women's 'Structure' Skirt (gray stripes):
+    Gender: 3.0
+  Men's 'Rider' Pants (white gold):
+    Gender: 1.0
+  Women's 'Excursion' Pants (black):
+    Gender: 3.0
+  Women's 'Outlaw' Pants (Sansha's Nation):
+    Gender: 3.0
+  Women's 'Impress' Skirt (white):
+    Gender: 3.0
+  Women's 'Strut' Pants (orange):
+    Gender: 3.0
+  Women's 'Eternity' Suit (Olive):
+    ClothingAlsoCoversCategory: 26.0
+    Gender: 3.0
+  Men's 'Rider' Pants (black silver):
+    Gender: 1.0
+  Women's 'Strut' Pants (blue):
+    Gender: 3.0
+  Women's 'Excursion' Pants (black/blue/gold):
+    Gender: 3.0
+  Women's 'Impress' Skirt (black wax):
+    Gender: 3.0
+  Women's 'Strut' Pants (red):
+    Gender: 3.0
+  Women's 'Excursion' Pants (matte red):
+    Gender: 3.0
+  Men's 'Hephaestus' Pants (desert):
+    Gender: 1.0
+  Women's 'Excursion' Pants (black/gold line):
+    Gender: 3.0
+  bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_orange.type:
+    ClothingAlsoCoversCategory: 26.0
+    ClothingRemovesCategory: 26.0
+    Gender: 3.0
+  bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_black.type:
+    ClothingAlsoCoversCategory: 26.0
+    Gender: 3.0
+  Women's 'Poise' Pants (dark green):
+    Gender: 3.0
+  Women's 'Strut' Pants (matte gray):
+    Gender: 3.0
+  Women's 'Poise' Pants (glossy black):
+    Gender: 3.0
+  Men's 'Outlaw' Pants (Sansha's Nation):
+    Gender: 1.0
+  Women's 'Poise' Pants (blue):
+    Gender: 3.0
+  Men's 'Rider' Pants (royal gold):
+    Gender: 1.0
+  Women's 'Structure' Skirt (black):
+    Gender: 3.0
+  Men's 'Strider' Pants (black):
+    Gender: 1.0
+  Men's 'Outlaw' Pants (Blood Raiders):
+    Gender: 1.0
+  Women's 'Impress' Skirt (gray):
+    Gender: 3.0
+  Women's 'Eternity' Suit (Black/Red):
+    ClothingAlsoCoversCategory: 26.0
+    Gender: 3.0
+  Women's 'Eternity' Suit (Yellow):
+    ClothingAlsoCoversCategory: 26.0
+    Gender: 3.0
+  Men's 'Commando' Pants (green camo):
+    Gender: 1.0
+  Men's 'Commando' Pants (brown camo):
+    Gender: 1.0
+  Men's 'Hephaestus' Pants (cyan):
+    Gender: 1.0
+  Women's 'Strut' Pants (red gloss):
+    Gender: 3.0
+  Women's 'Excursion' Pants (black/gold):
+    Gender: 3.0
+  Women's 'Structure' Skirt (black/white):
+    Gender: 3.0
+  Women's 'Structure' Skirt (red):
+    Gender: 3.0
+  Men's 'Hephaestus' Pants (white/red):
+    Gender: 1.0
+  Women's 'Structure' Skirt (marine):
+    Gender: 3.0
+  Women's 'Hover' Tights (opaque gray):
+    Gender: 3.0
+  Women's 'Outlaw' Pants (Blood Raiders):
+    Gender: 3.0
+  Women's 'Structure' Skirt (red stripes):
+    Gender: 3.0
+  Women's 'Excursion' Pants (gold):
+    Gender: 3.0
+  Women's 'Hephaestus' Pants (cyan):
+    Gender: 3.0
+  Men's 'Rider' Pants (reflective blue):
+    Gender: 1.0
+  Women's 'Structure' Skirt (black/red):
+    Gender: 3.0
+  Women's 'Impress' Skirt (red gold):
+    Gender: 3.0
+  Women's 'Structure' Skirt (green):
+    Gender: 3.0
+  Women's 'Hover' Tights (white):
+    Gender: 3.0
+  Men's 'Rider' Pants (red gold):
+    Gender: 1.0
+  bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_stealth.type:
+    ClothingAlsoCoversCategory: 26.0
+    Gender: 3.0
+  Women's 'Outlaw' Pants (Guristas):
+    Gender: 3.0
+  Women's 'Impress' Skirt (marine):
+    Gender: 3.0
+  Women's 'Strut' Pants (yellow gloss):
+    Gender: 3.0
+  Men's 'Hephaestus' Pants (gray/orange):
+    Gender: 1.0
+  Women's 'Structure' Skirt (green/black):
+    Gender: 3.0
+  Women's 'Structure' Skirt (red leather):
+    Gender: 3.0
+  Women's 'Poise' Pants (glossy red):
+    Gender: 3.0
+  Women's 'Impress' Skirt (silver):
+    Gender: 3.0
+  Women's 'Hover' Tights (opaque purple):
+    Gender: 3.0
+  bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_brown.type:
+    ClothingAlsoCoversCategory: 26.0
+    Gender: 3.0
+  Women's 'Strut' Pants (camo):
+    Gender: 3.0
+  Men's 'Strider' Pants (green camo):
+    Gender: 1.0
+  Men's 'Hephaestus' Pants (blue):
+    Gender: 1.0
+  Women's 'Poise' Pants (dark swirl):
+    Gender: 3.0
+  Men's 'Commando' Pants (black):
+    Gender: 1.0
+  Women's 'Hover' Tights (light):
+    Gender: 3.0
+  Men's 'Mirelle' Pants (Upwell):
+    Gender: 1.0
+  Men's 'Hephaestus' Pants (green):
+    Gender: 1.0
+  Women's 'Structure' Skirt (graphite):
+    Gender: 3.0
+  Women's 'Excursion' Pants (black/red/gold):
+    Gender: 3.0
+  Women's 'Excursion' Pants (black/silver):
+    Gender: 3.0
+  Women's 'Impress' Skirt (matte blue):
+    Gender: 3.0
+  Women's 'Impress' Skirt (matte red):
+    Gender: 3.0
+  Women's 'Eternity' Suit (Black/Gold):
+    ClothingAlsoCoversCategory: 26.0
+    Gender: 3.0
+  Women's YC119 Yoiul Festival Pants:
+    Gender: 2.0
+  Women's 'Excursion' Pants (matte blue):
+    Gender: 3.0
+  Women's 'Excursion' Pants (matte green):
+    Gender: 3.0
+  Men's 'Strider' Pants (monochrome):
+    Gender: 1.0
+  Men's 'Commando' Pants (black wax):
+    Gender: 1.0

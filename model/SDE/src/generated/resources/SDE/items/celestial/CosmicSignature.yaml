@@ -1,9 +1,0 @@
-items:
-  Cosmic Agent Site Signature:
-    ScanGravimetricStrength: 1.0
-    ScanLadarStrength: 1.0
-    ScanMagnetometricStrength: 1.0
-    ScanRadarStrength: 1.0
-    SignatureRadius: 5.0
-  Deadspace Signature:
-    SignatureRadius: 100.0

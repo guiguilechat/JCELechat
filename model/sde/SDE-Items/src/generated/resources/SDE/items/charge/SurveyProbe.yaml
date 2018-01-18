@@ -1,0 +1,43 @@
+items:
+  Quest Survey Probe I:
+    Agility: 1000.0
+    ExplosionDelay: 1200000.0
+    Hp: 240.0
+    LauncherGroup: 1226.0
+    MaxScanRange: 1.0E8
+    MaxVelocity: 30000.0
+    RequiredSkill1: 3412.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3551.0
+    RequiredSkill2Level: 3.0
+    ScanRange: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+  Discovery Survey Probe I:
+    Agility: 1000.0
+    ExplosionDelay: 300000.0
+    Hp: 240.0
+    LauncherGroup: 1226.0
+    MaxScanRange: 1.0E8
+    MaxVelocity: 30000.0
+    RequiredSkill1: 3412.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3551.0
+    RequiredSkill2Level: 3.0
+    ScanRange: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+  Gaze Survey Probe I:
+    Agility: 1000.0
+    ExplosionDelay: 150000.0
+    Hp: 240.0
+    LauncherGroup: 1226.0
+    MaxScanRange: 1.0E8
+    MaxVelocity: 30000.0
+    RequiredSkill1: 3412.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3551.0
+    RequiredSkill2Level: 5.0
+    ScanRange: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0

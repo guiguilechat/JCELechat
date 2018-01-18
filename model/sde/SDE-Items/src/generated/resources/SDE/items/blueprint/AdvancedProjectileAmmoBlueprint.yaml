@@ -1,0 +1,63 @@
+items:
+  Barrage M Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Shock M Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Quake M Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Barrage L Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Hail S Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Tremor M Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Barrage XL Blueprint:
+    TechLevel: 2.0
+  Quake S Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Quake XL Blueprint:
+    TechLevel: 2.0
+  Storm L Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Tremor S Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Tremor L Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Storm S Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Hail M Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Shock S Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Storm M Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Quake L Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Barrage S Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Hail L Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Hail XL Blueprint:
+    TechLevel: 2.0
+  Tremor XL Blueprint:
+    TechLevel: 2.0
+  Shock L Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
