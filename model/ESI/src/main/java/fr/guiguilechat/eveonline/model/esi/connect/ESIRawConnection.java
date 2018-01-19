@@ -2,7 +2,6 @@ package fr.guiguilechat.eveonline.model.esi.connect;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
@@ -171,12 +170,13 @@ public class ESIRawConnection implements Swagger {
 
 	@Override
 	public <T> T convert(String line, Class<? extends T> clazz) {
+		if (line == null || line.length() == 0) {
+			return null;
+		}
 		try {
 			return mapper.readerFor(clazz).readValue(line);
-		} catch (JsonProcessingException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		} catch (IOException e) {
-			throw new UnsupportedOperationException("catch this", e);
+		} catch (Exception e) {
+			throw new UnsupportedOperationException("while converting line " + line + "to class" + clazz.getName(), e);
 		}
 	}
 
