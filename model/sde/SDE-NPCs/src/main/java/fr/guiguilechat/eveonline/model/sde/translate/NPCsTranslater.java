@@ -12,13 +12,21 @@ import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.connect.ESIRawConnection;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgentTypes;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgents;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.eveonline.model.sde.locations.Station;
 import fr.guiguilechat.eveonline.model.sde.npcs.Agent;
 import fr.guiguilechat.eveonline.model.sde.npcs.Corporation;
+import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
+import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer.ItemRef;
 import is.ccp.tech.esi.responses.R_get_alliances_alliance_id;
 import is.ccp.tech.esi.responses.R_get_corporations_corporation_id;
+import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers;
+import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers_required_items;
 
 public class NPCsTranslater {
 
@@ -37,8 +45,9 @@ public class NPCsTranslater {
 
 		LinkedHashMap<String, Agent> agents = new LinkedHashMap<>();
 		LinkedHashMap<String, Corporation> corporations = new LinkedHashMap<>();
+		LinkedHashMap<Integer, LPOffer> lpoffers = new LinkedHashMap<>();
 
-		translate(EagtAgents.load(), EagtAgentTypes.loadById(), agents, corporations);
+		translate(EagtAgents.load(), EagtAgentTypes.loadById(), agents, corporations, lpoffers);
 
 		// sort
 
@@ -50,17 +59,25 @@ public class NPCsTranslater {
 				((Map<String, Object>) m).put(e.getKey(), e.getValue());
 			}
 		});
+		ArrayList<Entry<Integer, LPOffer>> list = new ArrayList<>(lpoffers.entrySet());
+		Collections.sort(list, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
+		lpoffers.clear();
+		for (Entry<Integer, LPOffer> e : list) {
+			lpoffers.put(e.getKey(), e.getValue());
+		}
 
 		// save
 
 		Agent.export(agents, folderOut);
 		Corporation.export(corporations, folderOut);
+		LPOffer.export(lpoffers, folderOut);
 
 		System.err.println("exported npcs in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
 	}
 
 	private static void translate(ArrayList<EagtAgents> eagents, HashMap<Integer, String> agentTypes,
-			LinkedHashMap<String, Agent> agents, LinkedHashMap<String, Corporation> corporations) {
+			LinkedHashMap<String, Agent> agents, LinkedHashMap<String, Corporation> corporations,
+			LinkedHashMap<Integer, LPOffer> offers) {
 		ESIConnection esi = new ESIConnection(null, null);
 		Map<Integer, String> stationsByID = Station.loadById();
 		LinkedHashMap<String, Station> stations = Station.load();
@@ -96,7 +113,62 @@ public class NPCsTranslater {
 			add.alliance = allianceNames.get(e.getValue().alliance_id);
 			corporations.put(e.getValue().name, add);
 		}
+		corporations.values().stream().parallel().flatMap(c -> {
+			R_get_loyalty_stores_corporation_id_offers[] values = esi.raw.get_loyalty_stores_corporation_id_offers(c.id);
+			return values == null ? Stream.empty() : Stream.of(values);
+		}).forEachOrdered(o -> {
+			if (!offers.containsKey((int) o.offer_id)) {
+				offers.put((int) o.offer_id, makeOffer(o));
+			}
+		});
+		corporations.values().stream().parallel().forEach(c -> loadCorpOffers(c, esi.raw, offers));
+	}
 
+	protected static LPOffer makeOffer(R_get_loyalty_stores_corporation_id_offers o) {
+		LinkedHashMap<Integer, EtypeIDs> typesbyID = EtypeIDs.load();
+		LinkedHashMap<Integer, Eblueprints> bps = Eblueprints.load();
+		LPOffer lpo = new LPOffer();
+		lpo.requirements.isk += o.isk_cost;
+		lpo.requirements.lp += o.lp_cost;
+		lpo.offer_name = typesbyID.get((int) o.type_id).enName();
+		lpo.id = (int) o.offer_id;
+
+		for (R_get_loyalty_stores_corporation_id_offers_required_items ir : o.required_items) {
+			ItemRef translated = new ItemRef();
+			translated.quantity = (int) ir.quantity;
+			translated.item = typesbyID.get((int) ir.type_id).enName();
+			lpo.requirements.items.add(translated);
+		}
+
+		Eblueprints bp = bps.get((int) o.type_id);
+
+		if (bp != null) {// the lp offers a BPC
+			for (Material m : bp.activities.manufacturing.materials) {
+				ItemRef translated = new ItemRef();
+				translated.quantity = (int) (m.quantity * o.quantity);
+				translated.item = typesbyID.get(m.typeID).enName();
+				lpo.requirements.items.add(translated);
+			}
+			Material prod = bp.activities.manufacturing.products.get(0);
+			lpo.product.item = typesbyID.get(prod.typeID).enName();
+			lpo.product.quantity = (int) (prod.quantity * o.quantity);
+			lpo.offer_name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.item + "(BPC)";
+		} else {// the lp offers a non-bpc
+			lpo.product.quantity = (int) o.quantity;
+			lpo.product.item = typesbyID.get((int) o.type_id).enName();
+			lpo.offer_name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.item;
+		}
+		return lpo;
+	}
+
+	protected static void loadCorpOffers(Corporation c, ESIRawConnection raw, LinkedHashMap<Integer, LPOffer> alloffers) {
+		R_get_loyalty_stores_corporation_id_offers[] offers = raw.get_loyalty_stores_corporation_id_offers(c.id);
+		if (offers != null) {
+			for (R_get_loyalty_stores_corporation_id_offers o : offers) {
+				c.lpoffers.add((int) o.offer_id);
+			}
+		}
+		Collections.sort(c.lpoffers);
 	}
 
 }
