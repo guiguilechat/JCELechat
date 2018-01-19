@@ -1,0 +1,499 @@
+corporations:
+  24th Imperial Crusade:
+    id: 1000179
+  Academy of Aggressive Behaviour:
+    id: 1000178
+  Algintal Core:
+    id: 1000215
+  Aliastra:
+    id: 1000111
+  Allotek Industries:
+    id: 1000103
+  Amarr Certified News:
+    id: 1000073
+  Amarr Civil Service:
+    id: 1000079
+  Amarr Constructions:
+    id: 1000063
+  Amarr Navy:
+    id: 1000084
+  Amarr Templars:
+    id: 1000205
+  Amarr Trade Registry:
+    id: 1000083
+  Ametat Security:
+    id: 1000226
+  Ammatar Consulate:
+    id: 1000126
+  Ammatar Fleet:
+    id: 1000123
+  Archangels:
+    id: 1000124
+  Ardishapur Family:
+    id: 1000090
+  Arkombine:
+    id: 1000193
+  Astral Mining Inc.:
+    id: 1000098
+  Bank of Luminaire:
+    id: 1000112
+  Blood Raiders:
+    id: 1000134
+  Boundless Creation:
+    id: 1000057
+  Bragian Order:
+    id: 1000207
+  Brutor Tribe:
+    id: 1000049
+  Brutor Vanguard:
+    id: 1000251
+  CBD Corporation:
+    id: 1000002
+  CBD Sell Division:
+    id: 1000024
+  CONCORD:
+    id: 1000125
+  CONCORD Aerospace:
+    id: 1000280
+  Caldari Business Tribunal:
+    id: 1000033
+  Caldari Constructions:
+    id: 1000026
+  Caldari Funds Unlimited:
+    id: 1000028
+  Caldari Navy:
+    id: 1000035
+  Caldari Provisions:
+    id: 1000009
+  Caldari Steel:
+    id: 1000015
+  Carthum Conglomerate:
+    id: 1000064
+  Center for Advanced Studies:
+    id: 1000169
+  Chatelain Rapid Response:
+    id: 1000247
+  Chemal Tech:
+    id: 1000108
+  Chief Executive Panel:
+    id: 1000031
+  Circle of Huskarl:
+    id: 1000218
+  Civic Court:
+    id: 1000092
+  Combined Harvest:
+    id: 1000099
+  Commando Perkone:
+    id: 1000237
+  Company of Marcher Lords:
+    id: 1000227
+  Condotta Rouvenor:
+    id: 1000250
+  Core Complexion Inc.:
+    id: 1000056
+  Corporate Police Force:
+    id: 1000043
+  Court Chamberlain:
+    id: 1000085
+  CreoDron:
+    id: 1000101
+  Crux Special Tasks Group:
+    id: 1000216
+  DED:
+    id: 1000137
+  Deep Core Mining Inc.:
+    id: 1000006
+  Directive Intelligence Agency:
+    id: 1000282
+  Dominations:
+    id: 1000138
+  Doomheim:
+    id: 1000001
+  Ducia Foundry:
+    id: 1000069
+  Duvolle Laboratories:
+    id: 1000109
+  Echelon Entertainment:
+    id: 1000018
+  Edimmu Warfighters:
+    id: 1000248
+  Egonics Inc.:
+    id: 1000106
+  Eifyr and Co.:
+    id: 1000058
+  Emperor Family:
+    id: 1000086
+  Expert Distribution:
+    id: 1000023
+  Expert Housing:
+    id: 1000027
+  Expert Intervention:
+    id: 1000233
+  Eyniletti Rangers:
+    id: 1000255
+  FedMart:
+    id: 1000110
+  Federal Administration:
+    id: 1000119
+  Federal Defense Union:
+    id: 1000181
+  Federal Freight:
+    id: 1000095
+  Federal Intelligence Office:
+    id: 1000121
+  Federal Marines:
+    id: 1000262
+  Federal Navy Academy:
+    id: 1000168
+  Federal Strategic Materiel:
+    id: 1000285
+  Federation Customs:
+    id: 1000122
+  Federation Navy:
+    id: 1000120
+  Food Relief:
+    id: 1000139
+  Forty-Nine Fedayeen:
+    id: 1000257
+  Fraternity of St. Venefice:
+    id: 1000223
+  Freedom Extension:
+    id: 1000061
+  Frostline Laboratories:
+    id: 1000277
+  Further Foodstuffs:
+    id: 1000076
+  Garoun Investment Bank:
+    id: 1000114
+  Genolution:
+    id: 1000140
+  Guardian Angels:
+    id: 1000136
+  Guristas:
+    id: 1000127
+  Guristas Production:
+    id: 1000141
+  HZO Refinery:
+    id: 1000070
+  Hedion University:
+    id: 1000165
+  Holdfast Syndicate:
+    id: 1000231
+  Home Guard:
+    id: 1000039
+  House of Records:
+    id: 1000034
+  Hyasyoda Corporation:
+    id: 1000005
+  Ikomari-Onu Enforcement:
+    id: 1000240
+  Imperial Academy:
+    id: 1000166
+  Imperial Armaments:
+    id: 1000065
+  Imperial Chancellor:
+    id: 1000078
+  Imperial Guard:
+    id: 1000198
+  Imperial Shipment:
+    id: 1000072
+  Imperial War Reserves:
+    id: 1000283
+  Impetus:
+    id: 1000105
+  Impro:
+    id: 1000142
+  Independent Gaming Commission:
+    id: 1000281
+  Inherent Implants:
+    id: 1000071
+  Inner Circle:
+    id: 1000143
+  Inner Zone Shipping:
+    id: 1000096
+  Intaki Bank:
+    id: 1000144
+  Intaki Commerce:
+    id: 1000145
+  Intaki Space Police:
+    id: 1000146
+  Intaki Syndicate:
+    id: 1000147
+  Intara Direct Action:
+    id: 1000239
+  InterBus:
+    id: 1000148
+  Internal Security:
+    id: 1000036
+  Ishukone Corporation:
+    id: 1000019
+  Ishukone Watch:
+    id: 1000038
+  Isuuaya Tactical:
+    id: 1000238
+  Joint Harvesting:
+    id: 1000074
+  Jove Navy:
+    id: 1000149
+  Jovian Directorate:
+    id: 1000150
+  Kaalakiota Corporation:
+    id: 1000010
+  Kador Family:
+    id: 1000087
+  Kameira Lodge:
+    id: 1000229
+  Kang Lo Directorate:
+    id: 1000249
+  Khanid Innovation:
+    id: 1000151
+  Khanid Transport:
+    id: 1000152
+  Khanid Works:
+    id: 1000153
+  Kinsho Swords:
+    id: 1000232
+  Kirkinen Risk Control:
+    id: 1000235
+  Kor-Azor Family:
+    id: 1000089
+  Krullefor Organization:
+    id: 1000253
+  Krusual Covert Operators:
+    id: 1000259
+  Krusual Tribe:
+    id: 1000047
+  Lai Dai Corporation:
+    id: 1000020
+  Lai Dai Protection Service:
+    id: 1000037
+  Mannar Focused Warfare:
+    id: 1000244
+  Material Acquisition:
+    id: 1000097
+  Material Institute:
+    id: 1000177
+  Mercantile Club:
+    id: 1000032
+  Mikramurka Shock Troop:
+    id: 1000254
+  Minedrill:
+    id: 1000008
+  Ministry of Assessment:
+    id: 1000081
+  Ministry of Internal Order:
+    id: 1000082
+  Ministry of War:
+    id: 1000080
+  Minmatar Mining Corporation:
+    id: 1000055
+  Modern Finances:
+    id: 1000030
+  Mordu's Legion:
+    id: 1000128
+  Namtar Elite:
+    id: 1000243
+  Native Freshfood:
+    id: 1000060
+  Nefantar Miner Association:
+    id: 1000154
+  Noble Appliances:
+    id: 1000068
+  Nugoeihuvi Corporation:
+    id: 1000017
+  Nurtura:
+    id: 1000075
+  ORE Technologies:
+    id: 1000276
+  Onikanabo Brigade:
+    id: 1000234
+  Osmon Surveillance:
+    id: 1000213
+  Ostrakon Agency:
+    id: 1000222
+  Outer Ring Development:
+    id: 1000270
+  Outer Ring Excavations:
+    id: 1000129
+  Outer Ring Prospecting:
+    id: 1000271
+  Paladin Survey Force:
+    id: 1000225
+  Pann's Peeps:
+    id: 1000176
+  Pator Tech School:
+    id: 1000172
+  Peace and Order Unit:
+    id: 1000040
+  Pend Insurance:
+    id: 1000113
+  Perkone:
+    id: 1000014
+  Poksu Mineral Group:
+    id: 1000007
+  Polaris Bug Hunters:
+    id: 1000174
+  Polaris Corporation:
+    id: 1000173
+  Polaris Events:
+    id: 1000175
+  Poteque Pharmaceuticals:
+    id: 1000104
+  President:
+    id: 1000116
+  Project Discovery:
+    id: 1000279
+  Prompt Delivery:
+    id: 1000003
+  Propel Dynamics:
+    id: 1000022
+  Prosper:
+    id: 1000155
+  Quafe Company:
+    id: 1000100
+  Rapid Assembly:
+    id: 1000013
+  Red and Silver Hand:
+    id: 1000230
+  Republic Command:
+    id: 1000263
+  Republic Fleet:
+    id: 1000051
+  Republic Fleet Ordnance:
+    id: 1000286
+  Republic Justice Department:
+    id: 1000052
+  Republic Military School:
+    id: 1000170
+  Republic Parliament:
+    id: 1000050
+  Republic Security Services:
+    id: 1000054
+  Republic University:
+    id: 1000171
+  Resheph Interstellar Strategy:
+    id: 1000245
+  Roden Shipyards:
+    id: 1000102
+  Royal Amarr Institute:
+    id: 1000077
+  Royal Khanid Navy:
+    id: 1000156
+  Royal Uhlans:
+    id: 1000206
+  Salvation Angels:
+    id: 1000133
+  Sanmatar Kelkoons:
+    id: 1000220
+  Sarum Family:
+    id: 1000088
+  School of Applied Knowledge:
+    id: 1000044
+  Science and Trade Institute:
+    id: 1000045
+  Sebiestor Field Sappers:
+    id: 1000256
+  Sebiestor Tribe:
+    id: 1000046
+  Secure Commerce Commission:
+    id: 1000132
+  Seituoda Taskforce Command:
+    id: 1000214
+  Senate:
+    id: 1000117
+  Serpentis Corporation:
+    id: 1000135
+  Serpentis Inquest:
+    id: 1000157
+  Seykal Expeditionary Group:
+    id: 1000258
+  Shapeset:
+    id: 1000158
+  Shining Flame:
+    id: 1000224
+  Sinq Laison Gendarmes:
+    id: 1000246
+  Sisters of EVE:
+    id: 1000130
+  Six Kin Development:
+    id: 1000059
+  Society of Conscious Thought:
+    id: 1000131
+  Spacelane Patrol:
+    id: 1000041
+  State Military Stockpile:
+    id: 1000284
+  State Peacekeepers:
+    id: 1000261
+  State Protectorate:
+    id: 1000180
+  State War Academy:
+    id: 1000167
+  State and Region Bank:
+    id: 1000029
+  Storm Wind Strikeforce:
+    id: 1000236
+  Sukuuvestaa Corporation:
+    id: 1000025
+  Supreme Court:
+    id: 1000118
+  Tal-Romon Legion:
+    id: 1000228
+  Tash-Murkon Family:
+    id: 1000091
+  Templis Dragonaurs:
+    id: 1000197
+  The Leisure Group:
+    id: 1000062
+  The Sanctuary:
+    id: 1000159
+  The Scope:
+    id: 1000107
+  Theology Council:
+    id: 1000093
+  Thukker Mix:
+    id: 1000160
+  Top Down:
+    id: 1000012
+  TransStellar Shipping:
+    id: 1000094
+  Tribal Liberation Force:
+    id: 1000182
+  Tronhadar Free Guard:
+    id: 1000219
+  True Creations:
+    id: 1000161
+  True Power:
+    id: 1000162
+  Trust Partners:
+    id: 1000163
+  University of Caille:
+    id: 1000115
+  Urban Management:
+    id: 1000053
+  Vherokior Combat Logistics:
+    id: 1000252
+  Vherokior Tribe:
+    id: 1000048
+  Vigilant Tyrannos:
+    id: 1000274
+  Villore Sec Ops:
+    id: 1000217
+  Viziam:
+    id: 1000066
+  Wiyrkomi Corporation:
+    id: 1000011
+  Wiyrkomi Peace Corps:
+    id: 1000042
+  X-Sense:
+    id: 1000164
+  Ytiri:
+    id: 1000004
+  Zainou:
+    id: 1000016
+  Zero-G Research Firm:
+    id: 1000021
+  Zoar and Sons:
+    id: 1000067
+  Zumari Force Projection:
+    id: 1000208

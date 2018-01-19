@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.eveonline.model.esi.raw.ESIRaw;
+import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgentTypes;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgents;
 import fr.guiguilechat.eveonline.model.sde.locations.Station;
@@ -61,33 +61,34 @@ public class NPCsTranslater {
 
 	private static void translate(ArrayList<EagtAgents> eagents, HashMap<Integer, String> agentTypes,
 			LinkedHashMap<String, Agent> agents, LinkedHashMap<String, Corporation> corporations) {
-		ESIRaw esi = new ESIRaw(null, null);
+		ESIConnection esi = new ESIConnection(null, null);
 		Map<Integer, String> stationsByID = Station.loadById();
 		LinkedHashMap<String, Station> stations = Station.load();
-		Map<Long, R_get_corporations_corporation_id> corpNames = LongStream.of(esi.get_corporations_npccorps()).parallel()
-				.mapToObj(l -> l).collect(Collectors.toMap(l -> l, esi::get_corporations_corporation_id));
+		Map<Long, R_get_corporations_corporation_id> corpNames = LongStream.of(esi.raw.get_corporations_npccorps())
+				.parallel().mapToObj(l -> l).collect(Collectors.toMap(l -> l, esi.raw::get_corporations_corporation_id));
 		Map<Long, String> allianceNames = new HashMap<>();
 		corpNames.values().stream().mapToLong(corp -> corp.alliance_id).distinct().filter(l -> l > 0).forEachOrdered(l -> {
-			R_get_alliances_alliance_id ally = esi.get_alliances_alliance_id(l);
+			R_get_alliances_alliance_id ally = esi.raw.get_alliances_alliance_id(l);
 			if (ally != null) {
 				allianceNames.put(l, ally.name);
 			}
 		});
 		Map<Long, String> agentNames = Stream
-				.of(esi.get_characters_names(eagents.stream().parallel().mapToLong(a -> a.agentID).toArray()))
+				.of(esi.names.characterNames(eagents.stream().parallel().mapToLong(a -> a.agentID).toArray()))
 				.collect(Collectors.toMap(n -> ((Long) n.character_id), n -> n.character_name));
 		for (EagtAgents eagt : eagents) {
-			Agent add = new Agent();
-			add.corporation = corpNames.get((long) eagt.corporationID).name;
-			add.id = eagt.agentID;
-			add.isLocator = eagt.isLocator;
-			add.level = eagt.level;
+			Agent agent = new Agent();
+			agent.corporation = corpNames.get((long) eagt.corporationID).name;
+			agent.id = eagt.agentID;
+			agent.isLocator = eagt.isLocator;
+			agent.level = eagt.level;
+			agent.type = agentTypes.get(eagt.agentTypeID);
 			String station = stationsByID.get(eagt.locationID);
 			if (station != null) {
-				add.station = station;
-				add.system = stations.get(station).solarSystem;
+				agent.station = station;
+				agent.system = stations.get(station).solarSystem;
 			}
-			agents.put(agentNames.get((long) eagt.agentID), add);
+			agents.put(agentNames.get((long) eagt.agentID), agent);
 		}
 		for (Entry<Long, R_get_corporations_corporation_id> e : corpNames.entrySet()) {
 			Corporation add = new Corporation();
