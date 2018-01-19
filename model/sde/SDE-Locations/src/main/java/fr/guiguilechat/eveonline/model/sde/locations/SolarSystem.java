@@ -34,7 +34,8 @@ public class SolarSystem extends ALocation {
 		return cache;
 	}
 
-	public static void export(LinkedHashMap<String, SolarSystem> data, File output) {
+	public static void export(LinkedHashMap<String, SolarSystem> data, File folderout) {
+		File output = new File(folderout, RESOURCE_PATH);
 		output.mkdirs();
 		output.delete();
 		Container c = new Container();
