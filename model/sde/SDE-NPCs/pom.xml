@@ -1,13 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>fr.guiguilechat.eveonline.model</groupId>
-		<version>18.01.10</version>
-		<artifactId>sde</artifactId>
-	</parent>
-	<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
-	<artifactId>SDE-Locations</artifactId>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>fr.guiguilechat.eveonline.model</groupId>
+    <artifactId>sde</artifactId>
+    <version>18.01.10</version>
+  </parent>
+  <groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+  <artifactId>SDE-NPCs</artifactId>
 	<dependencies>
 		<dependency>
 			<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
@@ -29,6 +28,17 @@
 			<groupId>org.yaml</groupId>
 			<artifactId>snakeyaml</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+			<artifactId>SDE-Locations</artifactId>
+			<version>18.01.10</version>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.eveonline.model</groupId>
+			<artifactId>ESI</artifactId>
+			<optional>true</optional>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -45,7 +55,7 @@
 						</goals>
 						<configuration>
 							<includePluginDependencies>true</includePluginDependencies>
-							<mainClass>fr.guiguilechat.eveonline.model.sde.translate.LocationsTranslater</mainClass>
+							<mainClass>fr.guiguilechat.eveonline.model.sde.translate.NPCsTranslater</mainClass>
 							<arguments>
 								<!-- resource folder to put database in -->
 								<argument>${project.basedir}/src/generated/resources/</argument>
@@ -77,4 +87,5 @@
 			</plugin>
 		</plugins>
 	</build>
+	<name>SDE-NPCs</name>
 </project>

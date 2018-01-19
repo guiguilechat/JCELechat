@@ -15,5 +15,6 @@
   	<module>SDE-Raw</module>
   	<module>SDE-Items-compiler</module>
   	<module>SDE-Full</module>
+  	<module>SDE-NPCs</module>
   </modules>
 </project>

@@ -35,7 +35,8 @@ public class Constellation extends ALocation {
 		return cache;
 	}
 
-	public static void export(LinkedHashMap<String, Constellation> data, File output) {
+	public static void export(LinkedHashMap<String, Constellation> data, File folderout) {
+		File output = new File(folderout, RESOURCE_PATH);
 		output.mkdirs();
 		output.delete();
 		Container c = new Container();

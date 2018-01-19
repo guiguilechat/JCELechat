@@ -26,4 +26,13 @@
 		<tag>HEAD</tag>
 	</scm>
 	<groupId>fr.guiguilechat.eveonline</groupId>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>fr.guiguilechat.eveonline.model</groupId>
+				<artifactId>ESI</artifactId>
+				<version>0.7.4</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>
