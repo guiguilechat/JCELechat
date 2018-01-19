@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.function.ToDoubleFunction;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
@@ -54,13 +55,14 @@ public class InventionGainAlgorithm {
 
 		public double SOBOph;
 		public double cycleMargin;
+		public double itemCost;
 
 		public int maxCycles;
 	}
 
 	/** evaluate the cost of producing a T2 item form a T1 bpo */
 	public static List<InventionProdData> evalCostInventionProd(Blueprint bpo, Material selectedbpc,
-			Map<String, Integer> skills, YamlDatabase db, InventionParams params, boolean onlybest) {
+			Map<String, Integer> skills, YamlDatabase db, InventionParams params) {
 		// the bpc selected
 		Blueprint bpc = db.getBlueprints().get(selectedbpc.name);
 		if (!haveReqSkills(skills, bpc.manufacturing.skills)) {
@@ -201,6 +203,7 @@ public class InventionGainAlgorithm {
 					data.SOBOph = SOBOph;
 					data.cycleMargin = cycleMargin;
 					data.maxCycles = nbCycles;
+					data.itemCost = data.cycleCostSO / data.cycleAvgProd;
 				} else {
 					if (SOBOph > data.SOBOph * (100.0 - params.maxCycleReduction) / 100) {
 						data.maxCycles = nbCycles;
@@ -211,12 +214,24 @@ public class InventionGainAlgorithm {
 			}
 			return data;
 		}).collect(Collectors.toList());
-		if (onlybest) {
-			double bestsobo = ret.stream().mapToDouble(ipd -> ipd.SOBOph).max().getAsDouble();
-			double bestMargin = ret.stream().mapToDouble(ipd -> ipd.cycleMargin).max().getAsDouble();
-			double bestGain = ret.stream().mapToDouble(ipd -> ipd.cycleProductBO - ipd.cycleCostSO).max().getAsDouble();
-			ret.removeIf(ipd -> ipd.SOBOph != bestsobo && ipd.cycleMargin != bestMargin
-					&& ipd.cycleProductBO - ipd.cycleCostSO != bestGain);
+		ToDoubleFunction<InventionProdData> gainFunction = null;
+		switch (params.target) {
+		case MARGIN:
+			gainFunction = ipd -> ipd.cycleMargin;
+			break;
+		case ITEMCOST:
+			gainFunction = ipd -> -ipd.itemCost;
+			break;
+		case SOBO:
+			gainFunction = ipd -> ipd.SOBOph;
+			break;
+		case NONE:
+			break;
+		}
+		if (gainFunction != null) {
+			ToDoubleFunction<InventionProdData> f = gainFunction;
+			double bestGain = ret.stream().mapToDouble(gainFunction).max().getAsDouble();
+			ret.removeIf(ipd -> f.applyAsDouble(ipd) != bestGain);
 		}
 		return ret;
 	}

@@ -120,19 +120,27 @@ public class InventerToolPane extends BorderPane implements EvePane {
 		gainCol.setCellFactory(col -> new PriceCellFactory());
 		table.getColumns().add(gainCol);
 
-		TableColumn<InventionProdData, Double> costSOCol = new TableColumn<>("inSO");
-		costSOCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleCostSO));
-		costSOCol.setCellFactory(col -> new PriceCellFactory());
-		table.getColumns().add(costSOCol);
+		TableColumn<InventionProdData, Double> itemCostCol = new TableColumn<>("itemcost");
+		itemCostCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().itemCost));
+		itemCostCol.setCellFactory(col -> new PriceCellFactory());
+		table.getColumns().add(itemCostCol);
 
-		TableColumn<InventionProdData, Double> sellBOCol = new TableColumn<>("outBO");
-		sellBOCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleProductBO));
-		sellBOCol.setCellFactory(col -> new PriceCellFactory());
-		table.getColumns().add(sellBOCol);
+		// TableColumn<InventionProdData, Double> costSOCol = new
+		// TableColumn<>("inSO");
+		// costSOCol.setCellValueFactory(lo -> new
+		// ReadOnlyObjectWrapper<>(lo.getValue().cycleCostSO));
+		// costSOCol.setCellFactory(col -> new PriceCellFactory());
+		// table.getColumns().add(costSOCol);
+		//
+		// TableColumn<InventionProdData, Double> sellBOCol = new
+		// TableColumn<>("outBO");
+		// sellBOCol.setCellValueFactory(lo -> new
+		// ReadOnlyObjectWrapper<>(lo.getValue().cycleProductBO));
+		// sellBOCol.setCellFactory(col -> new PriceCellFactory());
+		// table.getColumns().add(sellBOCol);
 
 		TableColumn<InventionProdData, Double> volumeCol = new TableColumn<>("prod/cycle");
-		volumeCol
-		.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleAvgProd));
+		volumeCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleAvgProd));
 		table.getColumns().add(volumeCol);
 
 		TableColumn<InventionProdData, String> cycleDuration = new TableColumn<>("cycle dur");
@@ -140,9 +148,8 @@ public class InventerToolPane extends BorderPane implements EvePane {
 				lo.getValue().copyTime + lo.getValue().inventionTime + lo.getValue().manufacturingTime)));
 		table.getColumns().add(cycleDuration);
 
-		for (TableColumn<?, ?> t : new TableColumn<?, ?>[] { sobophCol, maxCycleCol, marginCol, gainCol, costSOCol,
-				sellBOCol, volumeCol,
-			gainCol }) {
+		for (TableColumn<?, ?> t : new TableColumn<?, ?>[] { sobophCol, maxCycleCol, marginCol, gainCol, itemCostCol,
+				volumeCol, gainCol, }) {
 			t.setMaxWidth(60);
 		}
 
@@ -178,9 +185,7 @@ public class InventerToolPane extends BorderPane implements EvePane {
 				bpos.parallelStream().flatMap(bpo -> bpo.invention.products.stream().parallel()
 						.filter(nameMatcher == null ? mat -> true : mat -> nameMatcher.matcher(mat.name.toLowerCase()).matches())
 						.flatMap(mat -> InventionGainAlgorithm
-								.evalCostInventionProd(bpo, mat, skills, db(), parent().settings.invention,
-										options.onlyBest.isSelected())
-								.stream()))
+								.evalCostInventionProd(bpo, mat, skills, db(), parent().settings.invention).stream()))
 				.forEachOrdered(e -> {
 					list.add(e);
 				});

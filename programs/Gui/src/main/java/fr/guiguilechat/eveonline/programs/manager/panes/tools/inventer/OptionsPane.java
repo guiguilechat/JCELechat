@@ -11,6 +11,7 @@ import fr.guiguilechat.eveonline.model.apiv2.Account;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
+import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams.TARGETDECRYPTOR;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.manager.panes.ScrollAdd;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventerToolPane.StructBonus;
@@ -21,7 +22,6 @@ import fr.guiguilechat.eveonline.programs.manager.representation.TextFieldRepres
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Tooltip;
@@ -50,7 +50,7 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 	public ChoiceBoxRepresentation<EveChar> characterSkills;
 
 	public TextField bpPattern = new TextField();
-	public CheckBox onlyBest = new CheckBox();
+	public ChoiceBoxRepresentation<TARGETDECRYPTOR> bestDecryptor;
 	public TextFieldRepresentation<Double> maxCycleReduction;
 	public TextFieldRepresentation<Double> minHours;
 
@@ -120,8 +120,7 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 				"when buying at BO value or selling at SO value, the percentage of the transaction that is due as broker fee"));
 		brokerFee.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, brokerFee.getField()));
 
-		onlyBest.setSelected(true);
-
+		bestDecryptor = new ChoiceBoxRepresentation<>(settings::getTarget, settings::setTarget, TARGETDECRYPTOR.values());
 		maxCycleReduction = TextFieldRepresentation.positivDecimal(settings::getMaxCycleReduction,
 				settings::setMaxCycleReduction);
 		maxCycleReduction.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(1.0, maxCycleReduction.getField()));
@@ -172,7 +171,7 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 
 		representations = Arrays.asList(brokerFee, characterSkills, copyIndex, copystruct, copyTax, inventIndex,
 				inventstruct, inventTax, manufIndex, manufstruct, manufTax,
-				marketRegion, maxCycleReduction, minHours, sellTax);
+				marketRegion, maxCycleReduction, minHours, sellTax, bestDecryptor);
 		for (Representation<?> r : representations) {
 			r.getRegion().setMaxWidth(70);
 		}
@@ -184,7 +183,7 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 		mainpane.addRow(1, new Label("sell tax %"), sellTax.getField());
 		mainpane.addRow(2, new Label("product name"), bpPattern);
 		bpPattern.setTooltip(new Tooltip("specify a pattern to limit the products. eg \"small\""));
-		mainpane.addRow(3, new Label("best descryp"), onlyBest);
+		mainpane.addRow(3, new Label("best descryp"), bestDecryptor.getBox());
 		mainpane.addRow(4, new Label("max reduction"), maxCycleReduction.getField());
 		mainpane.addRow(5, new Label("min hours"), minHours.getField());
 		mainpane.addRow(6, computeBtn);

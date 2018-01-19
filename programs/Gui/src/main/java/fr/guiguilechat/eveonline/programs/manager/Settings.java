@@ -182,8 +182,14 @@ public class Settings implements ISettings {
 	}
 
 	public static class InventionParams {
+
+		public static enum TARGETDECRYPTOR {
+			SOBO, MARGIN, ITEMCOST, NONE
+		}
+
 		public String marketRegion = "TheForge";
 		public String characterSkills = null;
+		public TARGETDECRYPTOR target = TARGETDECRYPTOR.SOBO;
 		public double copyIndex = 4;
 		public double copyTax = 0;
 		public double inventIndex = 4;
@@ -318,6 +324,14 @@ public class Settings implements ISettings {
 
 		public void setMinActionHours(double minHours) {
 			minActionHours = minHours;
+		}
+
+		public TARGETDECRYPTOR getTarget() {
+			return target;
+		}
+
+		public void setTarget(TARGETDECRYPTOR target) {
+			this.target = target;
 		}
 	}
 
