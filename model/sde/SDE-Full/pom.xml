@@ -20,5 +20,10 @@
   		<artifactId>SDE-Locations</artifactId>
   		<version>${project.version}</version>
   	</dependency>
+  	<dependency>
+  		<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+  		<artifactId>SDE-NPCs</artifactId>
+  		<version>${project.version}</version>
+  	</dependency>
   </dependencies>
 </project>

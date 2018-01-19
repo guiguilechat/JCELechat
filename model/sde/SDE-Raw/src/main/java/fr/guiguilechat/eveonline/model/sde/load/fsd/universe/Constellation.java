@@ -33,6 +33,9 @@ public class Constellation {
 			ret.systems.putAll(Stream.of(contellationDir.listFiles()).parallel().filter(File::isDirectory)
 					.collect(Collectors.toMap(File::getName, SolarSystem::load)));
 			return ret;
+		} catch (ClassCastException e) {
+			throw new UnsupportedOperationException("while loading constellation from directory "
+					+ contellationDir.getAbsolutePath() + " : required class from " + Constellation.class.getClassLoader(), e);
 		} catch (Exception e) {
 			throw new UnsupportedOperationException(
 					"while loading constellation from directory " + contellationDir.getAbsolutePath(), e);

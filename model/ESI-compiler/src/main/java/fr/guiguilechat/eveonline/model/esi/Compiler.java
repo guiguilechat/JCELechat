@@ -6,9 +6,14 @@ import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.helger.jcodemodel.AbstractJClass;
 import com.helger.jcodemodel.AbstractJType;
@@ -16,6 +21,7 @@ import com.helger.jcodemodel.EClassType;
 import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.JDefinedClass;
+import com.helger.jcodemodel.JExpr;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JPackage;
@@ -41,6 +47,9 @@ import io.swagger.models.properties.StringProperty;
 import io.swagger.parser.SwaggerParser;
 
 public class Compiler {
+
+	private static final Logger logger = LoggerFactory.getLogger(Compiler.class);
+
 	/**
 	 *
 	 * @param args
@@ -50,13 +59,15 @@ public class Compiler {
 	 * @throws JClassAlreadyExistsException
 	 */
 	public static void main(String[] args) throws IOException, JClassAlreadyExistsException {
-		System.err.println("compiling esi with params " + Arrays.asList(args));
+		long startTime = System.currentTimeMillis();
+		logger.info("compiling esi with params " + Arrays.asList(args));
 		Compiler c = new Compiler();
 		c.setBaseURL(args[0]);
 		JCodeModel cm = c.compile();
 		File dir = new File(args[1]);
 		dir.mkdirs();
 		cm.build(dir, (PrintStream) null);
+		logger.info("compiled esi in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 	}
 
 	protected String baseURL;
@@ -109,9 +120,15 @@ public class Compiler {
 	protected void addPath(boolean isPost, String path, Operation operation) {
 		if (operation != null) {
 			Response r = operation.getResponses().get("200");
+			if (r == null) {
+				r = operation.getResponses().get("201");
+			}
+			if (r == null) {
+				r = operation.getResponses().get("204");
+			}
 			if (r != null) {
 				Property s = r.getSchema();
-				AbstractJType retType = translateToClass(s, responsePackage, "R_" + s.getTitle());
+				AbstractJType retType = s == null ? cm.VOID : translateToClass(s, responsePackage, "R_" + s.getTitle());
 				JMethod meth = jc.method(JMod.PUBLIC | JMod.DEFAULT, retType, operation.getOperationId());
 				List<JVar> pathparameters = new ArrayList<>();
 				List<JVar> queryparameters = new ArrayList<>();
@@ -131,20 +148,29 @@ public class Compiler {
 							queryparameters.add(param);
 						} else if (p instanceof BodyParameter) {
 							BodyParameter bp = (BodyParameter) p;
-							AbstractJType pt = getExistingClass(bp.getSchema());
-							JVar param = meth.param(pt, bp.getName());
-							bodyparameters.add(param);
+							Model schema = bp.getSchema();
+							if (schema instanceof ArrayModel) {
+								AbstractJType pt = getExistingClass((ArrayModel) schema);
+								JVar param = meth.param(pt, bp.getName());
+								bodyparameters.add(param);
+							} else {
+								for (Entry<String, Property> e : schema.getProperties().entrySet()) {
+									AbstractJType type = translateToClass(e.getValue(), structurePackage, e.getKey());
+									JVar param = meth.param(type, e.getKey());
+									bodyparameters.add(param);
+								}
+							}
 						} else {
-							System.err.println("  no match for parameter " + p.getClass());
+							logger.error("no match for parameter " + p.getClass());
 						}
 					} else {
 						if (p.getName().equals("token")) {
-							connected=true;
+							connected = true;
 						}
 					}
 
 				}
-				String urlAssign = "String url=\"" + baseURL + path + "\"";
+				String urlAssign = "\"" + baseURL + path + "\"";
 				for (JVar jv : pathparameters) {
 					urlAssign += ".replace(\"{" + jv.name() + "}\", \"\"+" + jv.name() + ")";
 				}
@@ -152,22 +178,37 @@ public class Compiler {
 					JVar qp = queryparameters.get(pi);
 					urlAssign += "+\"" + (pi == 0 ? '?' : '&') + qp.name() + "=\"+flatten(" + qp.name() + ")";
 				}
-				meth.body().directStatement(urlAssign + ";");
+				JVar url = meth.body().decl(cm.ref(String.class), "url");
+				url.init(JExpr.direct(urlAssign));
 				if (isPost) {
-					if (bodyparameters.isEmpty()) {
-						meth.body().directStatement("java.util.Map<String, String> content = java.util.Collections.emptyMap();");
-					} else {
-						meth.body().directStatement("java.util.Map<String, String> content = new java.util.HashMap<>();");
+					JVar content = null;
+					if (!bodyparameters.isEmpty()) {
+						content = meth.body().decl(cm.ref(Map.class).narrow(cm.ref(String.class)).narrow(cm.ref(String.class)),
+								"content");
+						content.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
 						for (JVar p : bodyparameters) {
 							meth.body().directStatement("content.put(\"" + p.name() + "\", flatten(" + p.name() + "));");
 						}
 					}
-					meth.body()
-					.directStatement("String fetched=" + "connectPost(url, content," + Boolean.toString(connected) + ");");
+					if (s == null) {
+						meth.body().invoke("connectPost").arg(url)
+						.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
+						.arg(JExpr.lit(connected));
+					} else {
+						JVar fetched = meth.body().decl(cm.ref(String.class), "fetched");
+						fetched.init(meth.body().invoke("connectPost").arg(url)
+								.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
+								.arg(JExpr.lit(connected)));
+					}
 				} else {
 					meth.body().directStatement("String fetched=" + "connectGet(url," + Boolean.toString(connected) + ");");
 				}
-				meth.body().directStatement("return convert(fetched, " + retType.binaryName() + ".class);");
+				if (s != null) {
+					meth.body()._return(
+							JExpr.invoke("convert").arg(JExpr.direct("fetched")).arg(JExpr.direct(retType.binaryName() + ".class")));
+				}
+			} else {
+				logger.error("can't find response for path " + path);
 			}
 		}
 	}
@@ -217,13 +258,8 @@ public class Compiler {
 		return null;
 	}
 
-	protected AbstractJType getExistingClass(Model model) {
-		if (model instanceof ArrayModel) {
-			return translateToClass(((ArrayModel) model).getItems(), structurePackage, "S_" + model.getTitle()).array();
-		}
-		System.err.println(
-				"  model " + model.getTitle() + " has class " + model.getClass() + " properties " + model.getProperties());
-		return null;
+	protected AbstractJType getExistingClass(ArrayModel model) {
+		return translateToClass(model.getItems(), structurePackage, "S_" + model.getTitle()).array();
 	}
 
 	protected AbstractJType getExistingClass(QueryParameter pp) {

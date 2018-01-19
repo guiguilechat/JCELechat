@@ -13,6 +13,9 @@ import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 import java.util.stream.Stream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.sun.codemodel.JClassAlreadyExistsException;
 import com.sun.codemodel.JCodeModel;
 import com.sun.codemodel.JConditional;
@@ -36,6 +39,8 @@ import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
 
 /** Compile the sde tables into java classes */
 public class SDECompiler {
+
+	private static final Logger logger = LoggerFactory.getLogger(SDECompiler.class);
 
 	protected SDECache sde;
 
@@ -100,7 +105,7 @@ public class SDECompiler {
 		Stream<Runnable> r = Stream.of(this::loadAttributes, this::loadAttTypes, this::loadCatIDs, this::loadgroupIDs,
 				this::loadTypeIDs);
 		r.parallel().forEach(Runnable::run);
-		System.err.println("loaded in " + (System.currentTimeMillis() - beginTime) / 1000 + "s");
+		logger.info("loaded in " + (System.currentTimeMillis() - beginTime) / 1000 + "s");
 	}
 
 	public static class CompiledClassesData {
