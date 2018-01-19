@@ -46,4 +46,5 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	<groupId>fr.guiguilechat.eveonline.model</groupId>
 </project>

@@ -19,7 +19,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.eveonline</groupId>
+			<groupId>fr.guiguilechat.eveonline.model</groupId>
 			<artifactId>ESI-compiler</artifactId>
 			<version>1.0.0</version>
 		</dependency>
