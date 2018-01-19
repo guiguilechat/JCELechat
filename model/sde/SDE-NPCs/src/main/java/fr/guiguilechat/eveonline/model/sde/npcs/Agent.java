@@ -58,4 +58,6 @@ public class Agent {
 	public String system;
 	public String station;
 
+	public String type;
+
 }
