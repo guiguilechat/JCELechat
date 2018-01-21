@@ -56,7 +56,7 @@ public class Constellation extends ALocation {
 
 	private static Map<String, String> lowerCased = null;
 
-	public static Constellation getRegion(String name) {
+	public static Constellation getConstellation(String name) {
 		if (name == null) {
 			return null;
 		}

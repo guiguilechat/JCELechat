@@ -45,13 +45,12 @@ public class LocationsTranslater {
 		File folderOut = new File(args.length == 0 ? "src/generated/resources/" : args[0]);
 		folderOut.mkdirs();
 
-		Universe uni = Universe.load();
 		LinkedHashMap<String, Region> regions = new LinkedHashMap<>();
 		LinkedHashMap<String, Constellation> constellations = new LinkedHashMap<>();
 		LinkedHashMap<String, SolarSystem> systems = new LinkedHashMap<>();
 		LinkedHashMap<String, Station> stations = new LinkedHashMap<>();
 
-		translate(uni, regions, constellations, systems, stations);
+		translate(regions, constellations, systems, stations);
 
 		// sort
 
@@ -76,9 +75,10 @@ public class LocationsTranslater {
 
 	}
 
-	public static void translate(Universe uni, LinkedHashMap<String, Region> regions,
+	public static void translate(LinkedHashMap<String, Region> regions,
 			LinkedHashMap<String, Constellation> constellations, LinkedHashMap<String, SolarSystem> systems,
 			LinkedHashMap<String, Station> stations) {
+		Universe uni = Universe.load();
 		for (Entry<String, fr.guiguilechat.eveonline.model.sde.load.fsd.universe.Region> e : uni.eve.entrySet()) {
 			addRegion(e.getKey(), e.getValue(), regions, constellations, systems, stations, false);
 		}
