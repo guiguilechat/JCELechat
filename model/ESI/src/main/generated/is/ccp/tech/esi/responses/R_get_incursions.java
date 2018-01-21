@@ -3,10 +3,10 @@ package is.ccp.tech.esi.responses;
 public class R_get_incursions {
     public String type;
     public String state;
-    public double influence;
+    public float influence;
     public boolean has_boss;
-    public long faction_id;
-    public long constellation_id;
-    public long staging_solar_system_id;
-    public long[] infested_solar_systems;
+    public int faction_id;
+    public int constellation_id;
+    public int staging_solar_system_id;
+    public int[] infested_solar_systems;
 }

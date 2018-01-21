@@ -40,7 +40,9 @@ import io.swagger.models.parameters.QueryParameter;
 import io.swagger.models.properties.ArrayProperty;
 import io.swagger.models.properties.BooleanProperty;
 import io.swagger.models.properties.DecimalProperty;
+import io.swagger.models.properties.FloatProperty;
 import io.swagger.models.properties.IntegerProperty;
+import io.swagger.models.properties.LongProperty;
 import io.swagger.models.properties.ObjectProperty;
 import io.swagger.models.properties.Property;
 import io.swagger.models.properties.StringProperty;
@@ -139,7 +141,7 @@ public class Compiler {
 					if (p.getRequired()) {
 						if (p instanceof PathParameter) {
 							PathParameter pp = (PathParameter) p;
-							AbstractJType pt = getExistingClass(pp.getType());
+							AbstractJType pt = getExistingClass(pp.getType(), pp.getFormat());
 							pathparameters.add(meth.param(pt, pp.getName()));
 						} else if (p instanceof QueryParameter) {
 							QueryParameter qp = (QueryParameter) p;
@@ -226,7 +228,7 @@ public class Compiler {
 	 * @return
 	 */
 	protected AbstractJType translateToClass(Property p, JPackage pck, String name) {
-		AbstractJType ret = getExistingClass(p.getType());
+		AbstractJType ret = getExistingClass(p.getType(), p.getFormat());
 		if (ret != null) {
 			return ret;
 		}
@@ -240,16 +242,31 @@ public class Compiler {
 		}
 	}
 
-	protected AbstractJType getExistingClass(String name) {
+	protected AbstractJType getExistingClass(String name, String format) {
 		switch (name) {
 		case IntegerProperty.TYPE:
-			return cm.LONG;
+			if (format == null) {
+				return cm.LONG;
+			}
+			switch (format) {
+			case LongProperty.FORMAT:
+				return cm.LONG;
+			case IntegerProperty.FORMAT:
+				return cm.INT;
+			default:
+				throw new UnsupportedOperationException("can't translate property name " + name + " with format " + format);
+			}
 		case BooleanProperty.TYPE:
 			return cm.BOOLEAN;
 		case StringProperty.TYPE:
 			return cm.ref(String.class);
 		case DecimalProperty.TYPE:
-			return cm.DOUBLE;
+			switch (format) {
+			case FloatProperty.FORMAT:
+				return cm.FLOAT;
+			default:
+				return cm.DOUBLE;
+			}
 		}
 		JDefinedClass created = cm._getClass(name);
 		if (created != null) {
@@ -264,9 +281,9 @@ public class Compiler {
 
 	protected AbstractJType getExistingClass(QueryParameter pp) {
 		if (pp.getType().equals(ArrayProperty.TYPE)) {
-			return getExistingClass(pp.getItems().getType()).array();
+			return getExistingClass(pp.getItems().getType(), pp.getItems().getFormat()).array();
 		} else {
-			return getExistingClass(pp.getType());
+			return getExistingClass(pp.getType(), pp.getFormat());
 		}
 	}
 

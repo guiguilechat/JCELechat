@@ -1,8 +1,8 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_sovereignty_map {
-    public long system_id;
-    public long alliance_id;
-    public long corporation_id;
-    public long faction_id;
+    public int system_id;
+    public int alliance_id;
+    public int corporation_id;
+    public int faction_id;
 }

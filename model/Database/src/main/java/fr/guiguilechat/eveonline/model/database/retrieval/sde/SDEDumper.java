@@ -14,7 +14,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.Collectors;
-import java.util.stream.LongStream;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -48,13 +48,13 @@ import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeEffects;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EstaStations;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EcategoryIDs;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EgroupIDs;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.SolarSystem;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.SolarSystem.Moon;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.SolarSystem.Planet;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.SolarSystem.Stargate;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.EcategoryIDs;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.EgroupIDs;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.eveonline.model.sde.model.IndustryUsages;
 import is.ccp.tech.esi.responses.R_get_corporations_corporation_id;
 import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers;
@@ -770,7 +770,7 @@ public class SDEDumper {
 	}
 
 	public static void loadLPOffers(SDEData sde, DatabaseFile db, ESIRaw esi) {
-		LongStream.of(esi.get_corporations_npccorps()).parallel().mapToObj(i -> streamoffers(i, esi, sde)).flatMap(s -> s)
+		IntStream.of(esi.get_corporations_npccorps()).parallel().mapToObj(i -> streamoffers(i, esi, sde)).flatMap(s -> s)
 		.forEachOrdered(db.lpoffers::add);
 		// lp offers are sorted by corporation, offer name
 		Collections.sort(db.lpoffers, (o1, o2) -> {
@@ -788,7 +788,7 @@ public class SDEDumper {
 		});
 	}
 
-	protected static Stream<LPOffer> streamoffers(long corpid, ESIRaw esi, SDEData sde) {
+	protected static Stream<LPOffer> streamoffers(int corpid, ESIRaw esi, SDEData sde) {
 		R_get_corporations_corporation_id corp = esi.get_corporations_corporation_id(corpid);
 		R_get_loyalty_stores_corporation_id_offers[] offers = esi.get_loyalty_stores_corporation_id_offers(corpid);
 		return corp != null && offers != null ? Stream.of(offers).map(o -> {
@@ -799,31 +799,31 @@ public class SDEDumper {
 			lpo.corporation = corp.name;
 			lpo.requirements.isk += o.isk_cost;
 			lpo.requirements.lp += o.lp_cost;
-			lpo.offer_name = sde.getType((int) o.type_id).enName();
-			lpo.id = (int) o.offer_id;
+			lpo.offer_name = sde.getType(o.type_id).enName();
+			lpo.id = o.offer_id;
 
 			for (R_get_loyalty_stores_corporation_id_offers_required_items ir : o.required_items) {
 				ItemRef translated = new ItemRef();
-				translated.quantity = (int) ir.quantity;
-				translated.type_id = (int) ir.type_id;
+				translated.quantity = ir.quantity;
+				translated.type_id = ir.type_id;
 				lpo.requirements.items.add(translated);
 			}
 
-			Eblueprints bp = sde.getBlueprints().get((int) o.type_id);
+			Eblueprints bp = sde.getBlueprints().get(o.type_id);
 
 			if (bp != null) {// the lp offers a BPC
 				for (Material m : bp.activities.manufacturing.materials) {
 					ItemRef translated = new ItemRef();
-					translated.quantity = (int) (m.quantity * o.quantity);
+					translated.quantity = m.quantity * o.quantity;
 					translated.type_id = m.typeID;
 					lpo.requirements.items.add(translated);
 				}
 				Material prod = bp.activities.manufacturing.products.get(0);
 				lpo.product.type_id = prod.typeID;
-				lpo.product.quantity = (int) (prod.quantity * o.quantity);
+				lpo.product.quantity = prod.quantity * o.quantity;
 			} else {// the lp offers a non-bpc
-				lpo.product.quantity = (int) o.quantity;
-				lpo.product.type_id = (int) o.type_id;
+				lpo.product.quantity = o.quantity;
+				lpo.product.type_id = o.type_id;
 			}
 			return lpo;
 		}).filter(lpo -> lpo != null) : Stream.empty();
@@ -831,7 +831,7 @@ public class SDEDumper {
 
 	public static void loadAgents(SDEData sde, DatabaseFile db, ESIRaw esi,
 			ESIUniverse uni) {
-		Map<Long, R_get_corporations_corporation_id> corps = LongStream.of(esi.get_corporations_npccorps()).parallel()
+		Map<Integer, R_get_corporations_corporation_id> corps = IntStream.of(esi.get_corporations_npccorps()).parallel()
 				.mapToObj(l -> l).collect(Collectors.toMap(l -> l, esi::get_corporations_corporation_id));
 
 		ArrayList<EagtAgents> sdeAgents = sde.getAgents();
@@ -848,7 +848,7 @@ public class SDEDumper {
 			Agent ag = new Agent();
 			ag.agentID = ea.agentID;
 			ag.name = names.get(ag.agentID);
-			R_get_corporations_corporation_id corp = corps.get((long) ea.corporationID);
+			R_get_corporations_corporation_id corp = corps.get(ea.corporationID);
 			ag.corporation = corp.name;
 			ag.isLocator = ea.isLocator;
 			ag.level = ea.level;

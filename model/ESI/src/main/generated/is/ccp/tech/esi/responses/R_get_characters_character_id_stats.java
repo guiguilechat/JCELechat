@@ -1,7 +1,7 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_characters_character_id_stats {
-    public long year;
+    public int year;
     public R_get_characters_character_id_stats_character character;
     public R_get_characters_character_id_stats_combat combat;
     public R_get_characters_character_id_stats_industry industry;

@@ -2,10 +2,10 @@ package is.ccp.tech.esi.responses;
 
 public class R_get_corporations_corporation_id_structures {
     public long structure_id;
-    public long type_id;
-    public long corporation_id;
-    public long system_id;
-    public long profile_id;
+    public int type_id;
+    public int corporation_id;
+    public int system_id;
+    public int profile_id;
     public R_get_corporations_corporation_id_structures_current_vul[] current_vul;
     public R_get_corporations_corporation_id_structures_next_vul[] next_vul;
     public String fuel_expires;

@@ -1,9 +1,9 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_universe_groups_group_id {
-    public long group_id;
+    public int group_id;
     public String name;
     public boolean published;
-    public long category_id;
-    public long[] types;
+    public int category_id;
+    public int[] types;
 }
