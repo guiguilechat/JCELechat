@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Starbase;
@@ -19,15 +20,15 @@ public class Silo
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.1D)
-    public double FighterAbilityAntiCapitalMissileResistance;
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiCapitalMissileResistance;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldUniformity;
     /**
      * Amount of maximum shield HP on the item.
@@ -35,23 +36,23 @@ public class Silo
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldCapacity;
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * Signature Radius is used for turret tracking and scanning.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(100.0D)
-    public double SignatureRadius;
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Uniformity;
     /**
      * The number of hit points on the entities armor.
@@ -59,15 +60,15 @@ public class Silo
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorHP;
+    @DefaultIntValue(0)
+    public int ArmorHP;
     /**
      * DO NOT MESS WITH
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ArmorUniformity;
     /**
      * Radar strength.
@@ -75,7 +76,7 @@ public class Silo
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanRadarStrength;
     /**
      * Ladar strength.
@@ -83,7 +84,7 @@ public class Silo
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanLadarStrength;
     /**
      * Magnetometric strength.
@@ -91,7 +92,7 @@ public class Silo
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanMagnetometricStrength;
     /**
      * CPU need of module
@@ -99,7 +100,7 @@ public class Silo
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * Gravimetric strength.
@@ -107,7 +108,7 @@ public class Silo
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanGravimetricStrength;
     /**
      * The cargo group that can be loaded into this container
@@ -115,31 +116,31 @@ public class Silo
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CargoGroup;
+    @DefaultIntValue(0)
+    public int CargoGroup;
     /**
      * The second cargo group that can be loaded into this container
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CargoGroup2;
+    @DefaultIntValue(0)
+    public int CargoGroup2;
     /**
      * current power need
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * Amount of time taken to fully recharge the shield.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldRechargeRate;
     public final static String RESOURCE_PATH = "SDE/items/starbase/Silo.yaml";
     private static LinkedHashMap<String, Silo> cache = (null);

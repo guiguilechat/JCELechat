@@ -156,106 +156,106 @@ items:
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
   Drifter Incursion 3 to 4 Defeat:
-    ArmorEmDamageResistanceBonus: 10.0
-    ArmorExplosiveDamageResistanceBonus: 10.0
+    ArmorEmDamageResistanceBonus: 10
+    ArmorExplosiveDamageResistanceBonus: 10
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 10.0
-    ArmorThermalDamageResistanceBonus: 10.0
+    ArmorKineticDamageResistanceBonus: 10
+    ArmorThermalDamageResistanceBonus: 10
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: 5.0
-    ShieldExplosiveDamageResistanceBonus: 5.0
-    ShieldKineticDamageResistanceBonus: 5.0
-    ShieldThermalDamageResistanceBonus: 5.0
+    ShieldEmDamageResistanceBonus: 5
+    ShieldExplosiveDamageResistanceBonus: 5
+    ShieldKineticDamageResistanceBonus: 5
+    ShieldThermalDamageResistanceBonus: 5
     SmartbombDamageMultiplier: -10.0
     SpeedFactor: -10.0
-    SystemEffectDamageReduction: -10.0
+    SystemEffectDamageReduction: -10
     TrackingSpeedMultiplier: 1.0
   Drifter Incursion 3 to 4 Victory:
-    ArmorEmDamageResistanceBonus: -30.0
-    ArmorExplosiveDamageResistanceBonus: -30.0
+    ArmorEmDamageResistanceBonus: -30
+    ArmorExplosiveDamageResistanceBonus: -30
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: -30.0
-    ArmorThermalDamageResistanceBonus: -30.0
+    ArmorKineticDamageResistanceBonus: -30
+    ArmorThermalDamageResistanceBonus: -30
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: -15.0
-    ShieldExplosiveDamageResistanceBonus: -15.0
-    ShieldKineticDamageResistanceBonus: -15.0
-    ShieldThermalDamageResistanceBonus: -15.0
+    ShieldEmDamageResistanceBonus: -15
+    ShieldExplosiveDamageResistanceBonus: -15
+    ShieldKineticDamageResistanceBonus: -15
+    ShieldThermalDamageResistanceBonus: -15
     SmartbombDamageMultiplier: 30.0
     SpeedFactor: 30.0
-    SystemEffectDamageReduction: 30.0
+    SystemEffectDamageReduction: 30
     TrackingSpeedMultiplier: 1.0
   Drifter Incursion 5 to 7 Defeat:
-    ArmorEmDamageResistanceBonus: 20.0
-    ArmorExplosiveDamageResistanceBonus: 20.0
+    ArmorEmDamageResistanceBonus: 20
+    ArmorExplosiveDamageResistanceBonus: 20
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 20.0
-    ArmorThermalDamageResistanceBonus: 20.0
+    ArmorKineticDamageResistanceBonus: 20
+    ArmorThermalDamageResistanceBonus: 20
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: 10.0
-    ShieldExplosiveDamageResistanceBonus: 10.0
-    ShieldKineticDamageResistanceBonus: 10.0
-    ShieldThermalDamageResistanceBonus: 10.0
+    ShieldEmDamageResistanceBonus: 10
+    ShieldExplosiveDamageResistanceBonus: 10
+    ShieldKineticDamageResistanceBonus: 10
+    ShieldThermalDamageResistanceBonus: 10
     SmartbombDamageMultiplier: -20.0
     SpeedFactor: -20.0
-    SystemEffectDamageReduction: -20.0
+    SystemEffectDamageReduction: -20
     TrackingSpeedMultiplier: 1.0
   Drifter Incursion 5 to 7 Victory:
-    ArmorEmDamageResistanceBonus: -20.0
-    ArmorExplosiveDamageResistanceBonus: -20.0
+    ArmorEmDamageResistanceBonus: -20
+    ArmorExplosiveDamageResistanceBonus: -20
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: -20.0
-    ArmorThermalDamageResistanceBonus: -20.0
+    ArmorKineticDamageResistanceBonus: -20
+    ArmorThermalDamageResistanceBonus: -20
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: -10.0
-    ShieldExplosiveDamageResistanceBonus: -10.0
-    ShieldKineticDamageResistanceBonus: -10.0
-    ShieldThermalDamageResistanceBonus: -10.0
+    ShieldEmDamageResistanceBonus: -10
+    ShieldExplosiveDamageResistanceBonus: -10
+    ShieldKineticDamageResistanceBonus: -10
+    ShieldThermalDamageResistanceBonus: -10
     SmartbombDamageMultiplier: 20.0
     SpeedFactor: 20.0
-    SystemEffectDamageReduction: 20.0
+    SystemEffectDamageReduction: 20
     TrackingSpeedMultiplier: 1.0
   Drifter Incursion 8+ Defeat:
-    ArmorEmDamageResistanceBonus: 30.0
-    ArmorExplosiveDamageResistanceBonus: 30.0
+    ArmorEmDamageResistanceBonus: 30
+    ArmorExplosiveDamageResistanceBonus: 30
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 30.0
-    ArmorThermalDamageResistanceBonus: 30.0
+    ArmorKineticDamageResistanceBonus: 30
+    ArmorThermalDamageResistanceBonus: 30
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: 15.0
-    ShieldExplosiveDamageResistanceBonus: 15.0
-    ShieldKineticDamageResistanceBonus: 15.0
-    ShieldThermalDamageResistanceBonus: 15.0
+    ShieldEmDamageResistanceBonus: 15
+    ShieldExplosiveDamageResistanceBonus: 15
+    ShieldKineticDamageResistanceBonus: 15
+    ShieldThermalDamageResistanceBonus: 15
     SmartbombDamageMultiplier: -30.0
     SpeedFactor: -30.0
-    SystemEffectDamageReduction: -30.0
+    SystemEffectDamageReduction: -30
     TrackingSpeedMultiplier: 1.0
   Drifter Incursion 8+ Victory:
-    ArmorEmDamageResistanceBonus: -10.0
-    ArmorExplosiveDamageResistanceBonus: -10.0
+    ArmorEmDamageResistanceBonus: -10
+    ArmorExplosiveDamageResistanceBonus: -10
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: -10.0
-    ArmorThermalDamageResistanceBonus: -10.0
+    ArmorKineticDamageResistanceBonus: -10
+    ArmorThermalDamageResistanceBonus: -10
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: -5.0
-    ShieldExplosiveDamageResistanceBonus: -5.0
-    ShieldKineticDamageResistanceBonus: -5.0
-    ShieldThermalDamageResistanceBonus: -5.0
+    ShieldEmDamageResistanceBonus: -5
+    ShieldExplosiveDamageResistanceBonus: -5
+    ShieldKineticDamageResistanceBonus: -5
+    ShieldThermalDamageResistanceBonus: -5
     SmartbombDamageMultiplier: 10.0
     SpeedFactor: 10.0
-    SystemEffectDamageReduction: 10.0
+    SystemEffectDamageReduction: 10
     TrackingSpeedMultiplier: 1.0
   Electronic Effect Beacon:
     ArmorHPMultiplier: 1.0
@@ -266,74 +266,74 @@ items:
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
   Incursion Effect Assault:
-    ArmorEmDamageResistanceBonus: 25.0
-    ArmorExplosiveDamageResistanceBonus: 25.0
+    ArmorEmDamageResistanceBonus: 25
+    ArmorExplosiveDamageResistanceBonus: 25
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 25.0
-    ArmorThermalDamageResistanceBonus: 25.0
+    ArmorKineticDamageResistanceBonus: 25
+    ArmorThermalDamageResistanceBonus: 25
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
   Incursion Effect HQ:
-    ArmorEmDamageResistanceBonus: 50.0
-    ArmorExplosiveDamageResistanceBonus: 50.0
+    ArmorEmDamageResistanceBonus: 50
+    ArmorExplosiveDamageResistanceBonus: 50
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 50.0
-    ArmorThermalDamageResistanceBonus: 50.0
+    ArmorKineticDamageResistanceBonus: 50
+    ArmorThermalDamageResistanceBonus: 50
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
   'Incursion ship attributes effects Assault ':
-    ArmorEmDamageResistanceBonus: 25.0
-    ArmorExplosiveDamageResistanceBonus: 25.0
+    ArmorEmDamageResistanceBonus: 25
+    ArmorExplosiveDamageResistanceBonus: 25
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 25.0
-    ArmorThermalDamageResistanceBonus: 25.0
+    ArmorKineticDamageResistanceBonus: 25
+    ArmorThermalDamageResistanceBonus: 25
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: 25.0
-    ShieldExplosiveDamageResistanceBonus: 25.0
-    ShieldKineticDamageResistanceBonus: 25.0
-    ShieldThermalDamageResistanceBonus: 25.0
+    ShieldEmDamageResistanceBonus: 25
+    ShieldExplosiveDamageResistanceBonus: 25
+    ShieldKineticDamageResistanceBonus: 25
+    ShieldThermalDamageResistanceBonus: 25
     SpeedFactor: 1.0
-    SystemEffectDamageReduction: -25.0
+    SystemEffectDamageReduction: -25
     TrackingSpeedMultiplier: 1.0
   Incursion ship attributes effects HQ:
-    ArmorEmDamageResistanceBonus: 50.0
-    ArmorExplosiveDamageResistanceBonus: 50.0
+    ArmorEmDamageResistanceBonus: 50
+    ArmorExplosiveDamageResistanceBonus: 50
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 50.0
-    ArmorThermalDamageResistanceBonus: 50.0
+    ArmorKineticDamageResistanceBonus: 50
+    ArmorThermalDamageResistanceBonus: 50
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: 50.0
-    ShieldExplosiveDamageResistanceBonus: 50.0
-    ShieldKineticDamageResistanceBonus: 50.0
-    ShieldThermalDamageResistanceBonus: 50.0
+    ShieldEmDamageResistanceBonus: 50
+    ShieldExplosiveDamageResistanceBonus: 50
+    ShieldKineticDamageResistanceBonus: 50
+    ShieldThermalDamageResistanceBonus: 50
     SpeedFactor: 1.0
-    SystemEffectDamageReduction: -50.0
+    SystemEffectDamageReduction: -50
     TrackingSpeedMultiplier: 1.0
   Incursion ship attributes effects Vanguard:
-    ArmorEmDamageResistanceBonus: 10.0
-    ArmorExplosiveDamageResistanceBonus: 10.0
+    ArmorEmDamageResistanceBonus: 10
+    ArmorExplosiveDamageResistanceBonus: 10
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 10.0
-    ArmorThermalDamageResistanceBonus: 10.0
+    ArmorKineticDamageResistanceBonus: 10
+    ArmorThermalDamageResistanceBonus: 10
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: 10.0
-    ShieldExplosiveDamageResistanceBonus: 10.0
-    ShieldKineticDamageResistanceBonus: 10.0
-    ShieldThermalDamageResistanceBonus: 10.0
+    ShieldEmDamageResistanceBonus: 10
+    ShieldExplosiveDamageResistanceBonus: 10
+    ShieldKineticDamageResistanceBonus: 10
+    ShieldThermalDamageResistanceBonus: 10
     SpeedFactor: 1.0
-    SystemEffectDamageReduction: -10.0
+    SystemEffectDamageReduction: -10
     TrackingSpeedMultiplier: 1.0
   Magnetar Effect Beacon Class 1:
     AoeCloudSizeMultiplier: 1.2999999523162842
@@ -397,7 +397,7 @@ items:
     TrackingSpeedMultiplier: 0.5
   Omni Effect Beacon:
     ArmorHPMultiplier: 1.0
-    DurationBonus: -50.0
+    DurationBonus: -50
     MaxTargetRangeBonus: -50.0
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: -50.0
@@ -406,11 +406,11 @@ items:
     TrackingSpeedBonus: -50.0
     TrackingSpeedMultiplier: 1.0
   Pulsar Effect Beacon Class 1:
-    ArmorEmDamageResistanceBonus: 15.0
-    ArmorExplosiveDamageResistanceBonus: 15.0
+    ArmorEmDamageResistanceBonus: 15
+    ArmorExplosiveDamageResistanceBonus: 15
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 15.0
-    ArmorThermalDamageResistanceBonus: 15.0
+    ArmorKineticDamageResistanceBonus: 15
+    ArmorThermalDamageResistanceBonus: 15
     EnergyWarfareStrengthMultiplier: 1.2999999523162842
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
@@ -420,11 +420,11 @@ items:
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
   Pulsar Effect Beacon Class 2:
-    ArmorEmDamageResistanceBonus: 22.0
-    ArmorExplosiveDamageResistanceBonus: 22.0
+    ArmorEmDamageResistanceBonus: 22
+    ArmorExplosiveDamageResistanceBonus: 22
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 22.0
-    ArmorThermalDamageResistanceBonus: 22.0
+    ArmorKineticDamageResistanceBonus: 22
+    ArmorThermalDamageResistanceBonus: 22
     EnergyWarfareStrengthMultiplier: 1.440000057220459
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
@@ -434,11 +434,11 @@ items:
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
   Pulsar Effect Beacon Class 3:
-    ArmorEmDamageResistanceBonus: 29.0
-    ArmorExplosiveDamageResistanceBonus: 29.0
+    ArmorEmDamageResistanceBonus: 29
+    ArmorExplosiveDamageResistanceBonus: 29
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 29.0
-    ArmorThermalDamageResistanceBonus: 29.0
+    ArmorKineticDamageResistanceBonus: 29
+    ArmorThermalDamageResistanceBonus: 29
     EnergyWarfareStrengthMultiplier: 1.5800000429153442
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
@@ -448,11 +448,11 @@ items:
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
   Pulsar Effect Beacon Class 4:
-    ArmorEmDamageResistanceBonus: 36.0
-    ArmorExplosiveDamageResistanceBonus: 36.0
+    ArmorEmDamageResistanceBonus: 36
+    ArmorExplosiveDamageResistanceBonus: 36
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 36.0
-    ArmorThermalDamageResistanceBonus: 36.0
+    ArmorKineticDamageResistanceBonus: 36
+    ArmorThermalDamageResistanceBonus: 36
     EnergyWarfareStrengthMultiplier: 1.7200000286102295
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
@@ -462,11 +462,11 @@ items:
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
   Pulsar Effect Beacon Class 5:
-    ArmorEmDamageResistanceBonus: 43.0
-    ArmorExplosiveDamageResistanceBonus: 43.0
+    ArmorEmDamageResistanceBonus: 43
+    ArmorExplosiveDamageResistanceBonus: 43
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 43.0
-    ArmorThermalDamageResistanceBonus: 43.0
+    ArmorKineticDamageResistanceBonus: 43
+    ArmorThermalDamageResistanceBonus: 43
     EnergyWarfareStrengthMultiplier: 1.8600000143051147
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
@@ -476,11 +476,11 @@ items:
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
   Pulsar Effect Beacon Class 6:
-    ArmorEmDamageResistanceBonus: 50.0
-    ArmorExplosiveDamageResistanceBonus: 50.0
+    ArmorEmDamageResistanceBonus: 50
+    ArmorExplosiveDamageResistanceBonus: 50
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 50.0
-    ArmorThermalDamageResistanceBonus: 50.0
+    ArmorKineticDamageResistanceBonus: 50
+    ArmorThermalDamageResistanceBonus: 50
     EnergyWarfareStrengthMultiplier: 2.0
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
@@ -556,18 +556,18 @@ items:
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
   Tournament Resistance Lowering Beacon:
-    ArmorEmDamageResistanceBonus: 50.0
-    ArmorExplosiveDamageResistanceBonus: 50.0
+    ArmorEmDamageResistanceBonus: 50
+    ArmorExplosiveDamageResistanceBonus: 50
     ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 50.0
-    ArmorThermalDamageResistanceBonus: 50.0
+    ArmorKineticDamageResistanceBonus: 50
+    ArmorThermalDamageResistanceBonus: 50
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: 50.0
-    ShieldExplosiveDamageResistanceBonus: 50.0
-    ShieldKineticDamageResistanceBonus: 50.0
-    ShieldThermalDamageResistanceBonus: 50.0
+    ShieldEmDamageResistanceBonus: 50
+    ShieldExplosiveDamageResistanceBonus: 50
+    ShieldKineticDamageResistanceBonus: 50
+    ShieldThermalDamageResistanceBonus: 50
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
   Wolf Rayet Effect Beacon Class 1:
@@ -575,10 +575,10 @@ items:
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: 15.0
-    ShieldExplosiveDamageResistanceBonus: 15.0
-    ShieldKineticDamageResistanceBonus: 15.0
-    ShieldThermalDamageResistanceBonus: 15.0
+    ShieldEmDamageResistanceBonus: 15
+    ShieldExplosiveDamageResistanceBonus: 15
+    ShieldKineticDamageResistanceBonus: 15
+    ShieldThermalDamageResistanceBonus: 15
     SignatureRadiusMultiplier: 0.8500000238418579
     SmallWeaponDamageMultiplier: 1.600000023841858
     SpeedFactor: 1.0
@@ -588,10 +588,10 @@ items:
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: 22.0
-    ShieldExplosiveDamageResistanceBonus: 22.0
-    ShieldKineticDamageResistanceBonus: 22.0
-    ShieldThermalDamageResistanceBonus: 22.0
+    ShieldEmDamageResistanceBonus: 22
+    ShieldExplosiveDamageResistanceBonus: 22
+    ShieldKineticDamageResistanceBonus: 22
+    ShieldThermalDamageResistanceBonus: 22
     SignatureRadiusMultiplier: 0.7799999713897705
     SmallWeaponDamageMultiplier: 1.8799999952316284
     SpeedFactor: 1.0
@@ -601,10 +601,10 @@ items:
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: 29.0
-    ShieldExplosiveDamageResistanceBonus: 29.0
-    ShieldKineticDamageResistanceBonus: 29.0
-    ShieldThermalDamageResistanceBonus: 29.0
+    ShieldEmDamageResistanceBonus: 29
+    ShieldExplosiveDamageResistanceBonus: 29
+    ShieldKineticDamageResistanceBonus: 29
+    ShieldThermalDamageResistanceBonus: 29
     SignatureRadiusMultiplier: 0.7099999785423279
     SmallWeaponDamageMultiplier: 2.1600000858306885
     SpeedFactor: 1.0
@@ -614,10 +614,10 @@ items:
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: 36.0
-    ShieldExplosiveDamageResistanceBonus: 36.0
-    ShieldKineticDamageResistanceBonus: 36.0
-    ShieldThermalDamageResistanceBonus: 36.0
+    ShieldEmDamageResistanceBonus: 36
+    ShieldExplosiveDamageResistanceBonus: 36
+    ShieldKineticDamageResistanceBonus: 36
+    ShieldThermalDamageResistanceBonus: 36
     SignatureRadiusMultiplier: 0.6399999856948853
     SmallWeaponDamageMultiplier: 2.440000057220459
     SpeedFactor: 1.0
@@ -627,10 +627,10 @@ items:
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: 43.0
-    ShieldExplosiveDamageResistanceBonus: 43.0
-    ShieldKineticDamageResistanceBonus: 43.0
-    ShieldThermalDamageResistanceBonus: 43.0
+    ShieldEmDamageResistanceBonus: 43
+    ShieldExplosiveDamageResistanceBonus: 43
+    ShieldKineticDamageResistanceBonus: 43
+    ShieldThermalDamageResistanceBonus: 43
     SignatureRadiusMultiplier: 0.5699999928474426
     SmallWeaponDamageMultiplier: 2.7200000286102295
     SpeedFactor: 1.0
@@ -640,10 +640,10 @@ items:
     MaxTargetRangeMultiplier: 1.0
     MaxVelocityModifier: 1.0
     ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: 50.0
-    ShieldExplosiveDamageResistanceBonus: 50.0
-    ShieldKineticDamageResistanceBonus: 50.0
-    ShieldThermalDamageResistanceBonus: 50.0
+    ShieldEmDamageResistanceBonus: 50
+    ShieldExplosiveDamageResistanceBonus: 50
+    ShieldKineticDamageResistanceBonus: 50
+    ShieldThermalDamageResistanceBonus: 50
     SignatureRadiusMultiplier: 0.5
     SmallWeaponDamageMultiplier: 3.0
     SpeedFactor: 1.0

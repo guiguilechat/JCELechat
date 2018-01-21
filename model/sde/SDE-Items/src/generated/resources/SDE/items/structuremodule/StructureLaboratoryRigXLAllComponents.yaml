@@ -1,17 +1,17 @@
 items:
   X-Large All Components Research I:
-    CanFitShipGroup01: 1657.0
-    Hp: 40.0
-    RigSize: 4.0
-    StructureRigBonus1: 32.0
+    CanFitShipGroup01: 1657
+    Hp: 40
+    RigSize: 4
+    StructureRigBonus1: 32
     StructureRigBonus2: 3.200000047683716
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   X-Large All Components Research II:
-    CanFitShipGroup01: 1657.0
-    Hp: 40.0
-    RigSize: 4.0
-    StructureRigBonus1: 40.0
+    CanFitShipGroup01: 1657
+    Hp: 40
+    RigSize: 4
+    StructureRigBonus1: 40
     StructureRigBonus2: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150

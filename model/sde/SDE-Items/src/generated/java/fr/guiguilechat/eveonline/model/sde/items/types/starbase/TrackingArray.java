@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Starbase;
@@ -19,15 +20,15 @@ public class TrackingArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxRangeBonus2;
+    @DefaultIntValue(0)
+    public int MaxRangeBonus2;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldUniformity;
     /**
      * Amount of maximum shield HP on the item.
@@ -35,23 +36,23 @@ public class TrackingArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldCapacity;
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * Signature Radius is used for turret tracking and scanning.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(100.0D)
-    public double SignatureRadius;
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Uniformity;
     /**
      * Length of activation time.
@@ -59,7 +60,7 @@ public class TrackingArray
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Duration;
     /**
      * The number of hit points on the entities armor.
@@ -67,15 +68,15 @@ public class TrackingArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorHP;
+    @DefaultIntValue(0)
+    public int ArmorHP;
     /**
      * DO NOT MESS WITH
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ArmorUniformity;
     /**
      * Radar strength.
@@ -83,7 +84,7 @@ public class TrackingArray
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanRadarStrength;
     /**
      * Ladar strength.
@@ -91,7 +92,7 @@ public class TrackingArray
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanLadarStrength;
     /**
      * Magnetometric strength.
@@ -99,7 +100,7 @@ public class TrackingArray
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanMagnetometricStrength;
     /**
      * CPU need of module
@@ -107,7 +108,7 @@ public class TrackingArray
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * Gravimetric strength.
@@ -115,7 +116,7 @@ public class TrackingArray
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanGravimetricStrength;
     /**
      * The hull damage proportion at which an entity becomes incapacitated.
@@ -123,7 +124,7 @@ public class TrackingArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double IncapacitationRatio;
     /**
      * current power need
@@ -131,15 +132,15 @@ public class TrackingArray
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * Amount of time taken to fully recharge the shield.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldRechargeRate;
     /**
      * Tracking Speed Bonus
@@ -147,7 +148,7 @@ public class TrackingArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double TrackingSpeedBonus;
     public final static String RESOURCE_PATH = "SDE/items/starbase/TrackingArray.yaml";
     private static LinkedHashMap<String, TrackingArray> cache = (null);

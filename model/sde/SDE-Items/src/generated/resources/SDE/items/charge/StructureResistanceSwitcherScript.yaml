@@ -4,7 +4,7 @@ items:
     ArmorExplosiveDamageResonancePostAssignment: 1.0
     ArmorKineticDamageResonancePostAssignment: 1.0
     ArmorThermalDamageResonancePostAssignment: 1.0
-    ChargeSize: 1.0
+    ChargeSize: 1
     EmDamageResonancePostAssignment: 0.20000000298023224
     ExplosiveDamageResonancePostAssignment: 1.0
     KineticDamageResonancePostAssignment: 1.0
@@ -18,7 +18,7 @@ items:
     ArmorExplosiveDamageResonancePostAssignment: 0.20000000298023224
     ArmorKineticDamageResonancePostAssignment: 1.0
     ArmorThermalDamageResonancePostAssignment: 1.0
-    ChargeSize: 1.0
+    ChargeSize: 1
     EmDamageResonancePostAssignment: 1.0
     ExplosiveDamageResonancePostAssignment: 0.20000000298023224
     KineticDamageResonancePostAssignment: 1.0
@@ -32,7 +32,7 @@ items:
     ArmorExplosiveDamageResonancePostAssignment: 1.0
     ArmorKineticDamageResonancePostAssignment: 0.20000000298023224
     ArmorThermalDamageResonancePostAssignment: 1.0
-    ChargeSize: 1.0
+    ChargeSize: 1
     EmDamageResonancePostAssignment: 1.0
     ExplosiveDamageResonancePostAssignment: 1.0
     KineticDamageResonancePostAssignment: 0.20000000298023224
@@ -46,7 +46,7 @@ items:
     ArmorExplosiveDamageResonancePostAssignment: 1.0
     ArmorKineticDamageResonancePostAssignment: 1.0
     ArmorThermalDamageResonancePostAssignment: 0.20000000298023224
-    ChargeSize: 1.0
+    ChargeSize: 1
     EmDamageResonancePostAssignment: 1.0
     ExplosiveDamageResonancePostAssignment: 1.0
     KineticDamageResonancePostAssignment: 1.0

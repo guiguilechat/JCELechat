@@ -2,7 +2,7 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
 import fr.guiguilechat.eveonline.model.sde.items.Item;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 
@@ -16,7 +16,7 @@ public abstract class Decryptors
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double InventionMaxRunModifier;
     /**
      * Modifies base chance of successful invention
@@ -24,7 +24,7 @@ public abstract class Decryptors
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double InventionPropabilityMultiplier;
     /**
      * Modifies the mineral efficiency of invented BPCs
@@ -32,7 +32,7 @@ public abstract class Decryptors
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double InventionMEModifier;
     /**
      * Modifies the time efficiency of invented BPCs
@@ -40,7 +40,7 @@ public abstract class Decryptors
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double InventionTEModifier;
 
     @Override

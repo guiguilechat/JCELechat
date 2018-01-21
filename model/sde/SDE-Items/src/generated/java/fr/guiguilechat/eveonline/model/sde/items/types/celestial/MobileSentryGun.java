@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Celestial;
@@ -19,15 +20,15 @@ public class MobileSentryGun
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxLockedTargets;
+    @DefaultIntValue(0)
+    public int MaxLockedTargets;
     /**
      * Damage multiplier.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double DamageMultiplier;
     /**
      * The maximum number of their targets that the character can attack at a given time.
@@ -35,15 +36,15 @@ public class MobileSentryGun
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxAttackTargets;
+    @DefaultIntValue(0)
+    public int MaxAttackTargets;
     /**
      * The amount of charge used from the capacitor for a module activation.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorNeed;
     /**
      * Amount of maximum shield HP on the item.
@@ -51,31 +52,31 @@ public class MobileSentryGun
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldCapacity;
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * The number of hit points on the entities armor.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorHP;
+    @DefaultIntValue(0)
+    public int ArmorHP;
     /**
      * The maximum hitpoints of an object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * Multiplies EM damage taken by Armor. 
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorEmDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
@@ -83,7 +84,7 @@ public class MobileSentryGun
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorExplosiveDamageResonance;
     /**
      * Maximum range at which the scanner can lock a target.
@@ -91,15 +92,15 @@ public class MobileSentryGun
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double MaxTargetRange;
+    @DefaultIntValue(0)
+    public int MaxTargetRange;
     /**
      * DO NOT MESS WITH
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StructureUniformity;
     /**
      * Multiplies KINETIC damage taken by Armor. 
@@ -107,7 +108,7 @@ public class MobileSentryGun
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorKineticDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
@@ -115,7 +116,7 @@ public class MobileSentryGun
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorThermalDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
@@ -123,7 +124,7 @@ public class MobileSentryGun
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldExplosiveDamageResonance;
     /**
      * Radar strength.
@@ -131,7 +132,7 @@ public class MobileSentryGun
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanRadarStrength;
     /**
      * Multiplies KINETIC damage taken by Armor. 
@@ -139,7 +140,7 @@ public class MobileSentryGun
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldKineticDamageResonance;
     /**
      * Ladar strength.
@@ -147,7 +148,7 @@ public class MobileSentryGun
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanLadarStrength;
     /**
      * Multiplies THERMAL damage taken by Shield. 
@@ -155,7 +156,7 @@ public class MobileSentryGun
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldThermalDamageResonance;
     /**
      * Magnetometric strength.
@@ -163,7 +164,7 @@ public class MobileSentryGun
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanMagnetometricStrength;
     /**
      * Gravimetric strength.
@@ -171,7 +172,7 @@ public class MobileSentryGun
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanGravimetricStrength;
     /**
      * The distance at which to react when relevant objects come within range.
@@ -179,15 +180,15 @@ public class MobileSentryGun
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ProximityRange;
+    @DefaultIntValue(0)
+    public int ProximityRange;
     /**
      * Amount of time taken to fully recharge the shield.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldRechargeRate;
     /**
      * Capacitor capacity
@@ -195,7 +196,7 @@ public class MobileSentryGun
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorCapacity;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
@@ -203,7 +204,7 @@ public class MobileSentryGun
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldUniformity;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
@@ -211,15 +212,15 @@ public class MobileSentryGun
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double TypeColorScheme;
+    @DefaultIntValue(0)
+    public int TypeColorScheme;
     /**
      * EM damage done.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double EmDamage;
     /**
      * Time in milliseconds between possible activations
@@ -227,15 +228,15 @@ public class MobileSentryGun
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double Speed;
+    @DefaultIntValue(0)
+    public int Speed;
     /**
      * Explosive damage done.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ExplosiveDamage;
     /**
      * Graphic ID of the turrets for drone type ships.
@@ -243,15 +244,15 @@ public class MobileSentryGun
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double GfxTurretID;
+    @DefaultIntValue(0)
+    public int GfxTurretID;
     /**
      * Kinetic damage done.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double KineticDamage;
     /**
      * Thermal damage done.
@@ -259,7 +260,7 @@ public class MobileSentryGun
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ThermalDamage;
     /**
      * The type ID of the skill that is required.
@@ -267,23 +268,23 @@ public class MobileSentryGun
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Distance below which range does not affect the to-hit equation.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double MaxRange;
+    @DefaultIntValue(0)
+    public int MaxRange;
     /**
      * Amount of time taken to fully recharge the capacitor.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double RechargeRate;
     public final static String RESOURCE_PATH = "SDE/items/celestial/MobileSentryGun.yaml";
     private static LinkedHashMap<String, MobileSentryGun> cache = (null);

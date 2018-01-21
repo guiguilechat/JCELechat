@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Starbase;
@@ -19,7 +20,7 @@ public class CorporateHangarArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldUniformity;
     /**
      * 
@@ -27,31 +28,31 @@ public class CorporateHangarArray
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.1D)
-    public double FighterAbilityAntiCapitalMissileResistance;
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiCapitalMissileResistance;
     /**
      * Amount of maximum shield HP on the item.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldCapacity;
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * Signature Radius is used for turret tracking and scanning.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(100.0D)
-    public double SignatureRadius;
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Uniformity;
     /**
      * The number of hit points on the entities armor.
@@ -59,23 +60,23 @@ public class CorporateHangarArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorHP;
+    @DefaultIntValue(0)
+    public int ArmorHP;
     /**
      * The maximum distance at which the object can be used.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxOperationalDistance;
+    @DefaultIntValue(0)
+    public int MaxOperationalDistance;
     /**
      * DO NOT MESS WITH
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ArmorUniformity;
     /**
      * The maximum number of users that can be present within the operational range of the structure for it to be capable of operation.
@@ -83,15 +84,15 @@ public class CorporateHangarArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxOperationalUsers;
+    @DefaultIntValue(0)
+    public int MaxOperationalUsers;
     /**
      * Radar strength.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanRadarStrength;
     /**
      * Ladar strength.
@@ -99,7 +100,7 @@ public class CorporateHangarArray
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanLadarStrength;
     /**
      * Magnetometric strength.
@@ -107,7 +108,7 @@ public class CorporateHangarArray
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanMagnetometricStrength;
     /**
      * CPU need of module
@@ -115,7 +116,7 @@ public class CorporateHangarArray
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * Gravimetric strength.
@@ -123,7 +124,7 @@ public class CorporateHangarArray
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanGravimetricStrength;
     /**
      * current power need
@@ -131,15 +132,15 @@ public class CorporateHangarArray
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * Amount of time taken to fully recharge the shield.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldRechargeRate;
     public final static String RESOURCE_PATH = "SDE/items/starbase/CorporateHangarArray.yaml";
     private static LinkedHashMap<String, CorporateHangarArray> cache = (null);

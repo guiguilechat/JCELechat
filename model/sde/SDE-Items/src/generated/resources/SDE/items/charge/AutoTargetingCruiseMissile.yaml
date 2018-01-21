@@ -1,365 +1,365 @@
 items:
   Arch Angel Nova F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
-    ExplosionDelay: 14000.0
+    DetonationRange: 35
+    ExplosionDelay: 14000
     ExplosiveDamage: 309.0
-    Hp: 70.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    Hp: 70
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    MetaGroupID: 4
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Blood Mjolnir F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 309.0
-    ExplosionDelay: 14000.0
-    Hp: 70.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    ExplosionDelay: 14000
+    Hp: 70
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    MetaGroupID: 4
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Caldari Navy Scourge Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
-    ExplosionDelay: 14000.0
-    Hp: 70.0
+    DetonationRange: 35
+    ExplosionDelay: 14000
+    Hp: 70
     KineticDamage: 323.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    MetaGroupID: 4
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Dark Blood Mjolnir F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 338.0
-    ExplosionDelay: 14000.0
-    Hp: 70.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    ExplosionDelay: 14000
+    Hp: 70
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    MetaGroupID: 4
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Domination Nova F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
-    ExplosionDelay: 14000.0
+    DetonationRange: 35
+    ExplosionDelay: 14000
     ExplosiveDamage: 338.0
-    Hp: 70.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    Hp: 70
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    MetaGroupID: 4
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Dread Guristas Scourge F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
-    ExplosionDelay: 14000.0
-    Hp: 70.0
+    DetonationRange: 35
+    ExplosionDelay: 14000
+    Hp: 70
     KineticDamage: 338.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    MetaGroupID: 4
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Federation Navy Inferno Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
-    ExplosionDelay: 14000.0
-    Hp: 70.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    DetonationRange: 35
+    ExplosionDelay: 14000
+    Hp: 70
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    MetaGroupID: 4
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamage: 323.0
   Guardian Inferno F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
-    ExplosionDelay: 14000.0
-    Hp: 70.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    DetonationRange: 35
+    ExplosionDelay: 14000
+    Hp: 70
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    MetaGroupID: 4
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamage: 338.0
   Guristas Scourge F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
-    ExplosionDelay: 14000.0
-    Hp: 70.0
+    DetonationRange: 35
+    ExplosionDelay: 14000
+    Hp: 70
     KineticDamage: 309.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    MetaGroupID: 4
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Imperial Navy Mjolnir Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 323.0
-    ExplosionDelay: 14000.0
-    Hp: 70.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    ExplosionDelay: 14000
+    Hp: 70
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    MetaGroupID: 4
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Inferno Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
-    ExplosionDelay: 14000.0
-    Hp: 70.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    DetonationRange: 35
+    ExplosionDelay: 14000
+    Hp: 70
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamage: 281.0
   Mjolnir Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 281.0
-    ExplosionDelay: 14000.0
-    Hp: 70.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    ExplosionDelay: 14000
+    Hp: 70
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Nova Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
-    ExplosionDelay: 14000.0
+    DetonationRange: 35
+    ExplosionDelay: 14000
     ExplosiveDamage: 281.0
-    Hp: 70.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    Hp: 70
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Republic Fleet Nova Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
-    ExplosionDelay: 14000.0
+    DetonationRange: 35
+    ExplosionDelay: 14000
     ExplosiveDamage: 323.0
-    Hp: 70.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    Hp: 70
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    MetaGroupID: 4
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Scourge Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
-    ExplosionDelay: 14000.0
-    Hp: 70.0
+    DetonationRange: 35
+    ExplosionDelay: 14000
+    Hp: 70
     KineticDamage: 281.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Shadow Inferno F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
+    AimedLaunch: 1
+    AoeCloudSize: 330
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 69.0
-    DetonationRange: 35.0
-    ExplosionDelay: 14000.0
-    Hp: 70.0
-    LauncherGroup: 506.0
-    MaxFOFTargetRange: 200000.0
+    DetonationRange: 35
+    ExplosionDelay: 14000
+    Hp: 70
+    LauncherGroup: 506
+    MaxFOFTargetRange: 200000
     MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    RequiredSkill1: 3322.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3326.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 1.0
+    MetaGroupID: 4
+    RequiredSkill1: 3322
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3326
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamage: 309.0

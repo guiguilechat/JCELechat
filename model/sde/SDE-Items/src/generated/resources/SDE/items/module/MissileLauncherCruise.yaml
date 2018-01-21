@@ -1,477 +1,455 @@
 items:
   '''Arbalest'' Cruise Launcher I':
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 51.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadRofBonus: -15.0
-    Power: 1450.0
+    Hp: 40
+    MetaLevel: 4
+    OverloadRofBonus: -15
+    Power: 1450
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 16545.0
-    TechLevel: 1.0
-    TypeColorScheme: 20113.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 16545
+    TechLevel: 1
+    TypeColorScheme: 20113
   '''Limos'' Cruise Launcher I':
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 54.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0999999046325684
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadRofBonus: -15.0
-    Power: 1450.0
+    Hp: 40
+    MetaLevel: 2
+    OverloadRofBonus: -15
+    Power: 1450
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 18610.0
-    TechLevel: 1.0
-    TypeColorScheme: 20115.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 18610
+    TechLevel: 1
+    TypeColorScheme: 20115
   '''Malkuth'' Cruise Launcher I':
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 48.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.299999952316284
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadRofBonus: -15.0
-    Power: 1450.0
+    Hp: 40
+    MetaLevel: 1
+    OverloadRofBonus: -15
+    Power: 1450
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 19645.0
-    TechLevel: 1.0
-    TypeColorScheme: 20123.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 19645
+    TechLevel: 1
+    TypeColorScheme: 20123
   '''Noose'' Cruise Missile Launcher':
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 51.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0999999046325684
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadRofBonus: -15.0
-    Power: 1325.0
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
+    OverloadRofBonus: -15
+    Power: 1325
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 18610.0
-    TechLevel: 1.0
-    TypeColorScheme: 20117.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 18610
+    TechLevel: 1
+    TypeColorScheme: 20117
   CONCORD Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 66.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MetaLevel: 8.0
-    OverloadRofBonus: -15.0
-    Power: 1325.0
+    Hp: 40
+    MetaLevel: 8
+    OverloadRofBonus: -15
+    Power: 1325
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 14475.0
-    TechLevel: 1.0
-    TypeColorScheme: 20111.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 14475
+    TechLevel: 1
+    TypeColorScheme: 20111
   Caldari Navy Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 66.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRofBonus: -15.0
-    Power: 1325.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRofBonus: -15
+    Power: 1325
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 14475.0
-    TechLevel: 1.0
-    TypeColorScheme: 11321.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 14475
+    TechLevel: 1
+    TypeColorScheme: 11321
   Cruise Missile Launcher I:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 60.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40.0
-    OverloadRofBonus: -15.0
-    Power: 1450.0
+    Hp: 40
+    OverloadRofBonus: -15
+    Power: 1450
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 20680.0
-    TechLevel: 1.0
-    TypeColorScheme: 11324.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 20680
+    TechLevel: 1
+    TypeColorScheme: 11324
   Cruise Missile Launcher II:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeGroup4: 656.0
-    ChargeRate: 1.0
-    Cpu: 66.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeGroup4: 656
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 1.899999976158142
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadRofBonus: -15.0
-    Power: 1513.0
+    Hp: 40
+    MetaLevel: 5
+    OverloadRofBonus: -15
+    Power: 1513
     ReloadTime: 10000.0
-    RequiredSkill1: 3319.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 20212.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 16540.0
-    TechLevel: 2.0
-    TypeColorScheme: 11325.0
+    RequiredSkill1: 3319
+    RequiredSkill1Level: 1
+    RequiredSkill2: 20212
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 16540
+    TechLevel: 2
+    TypeColorScheme: 11325
   Domination Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 48.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 7.0
-    OverloadRofBonus: -15.0
-    Power: 1450.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 7
+    OverloadRofBonus: -15
+    Power: 1450
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 16030.0
-    TechLevel: 1.0
-    TypeColorScheme: 11318.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 16030
+    TechLevel: 1
+    TypeColorScheme: 11318
   Dread Guristas Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 66.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRofBonus: -15.0
-    Power: 1325.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRofBonus: -15
+    Power: 1325
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 14475.0
-    TechLevel: 1.0
-    TypeColorScheme: 11335.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 14475
+    TechLevel: 1
+    TypeColorScheme: 11335
   Estamel's Modified Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 80.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.2999999523162842
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadRofBonus: -15.0
-    Power: 1325.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 14
+    OverloadRofBonus: -15
+    Power: 1325
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 11580.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 11580
+    TechLevel: 1
+    TypeColorScheme: 11323
   Gotan's Modified Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 55.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadRofBonus: -15.0
-    Power: 1450.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 13
+    OverloadRofBonus: -15
+    Power: 1450
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 14060.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 14060
+    TechLevel: 1
+    TypeColorScheme: 11323
   Hakim's Modified Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 53.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadRofBonus: -15.0
-    Power: 1450.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 12
+    OverloadRofBonus: -15
+    Power: 1450
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 14890.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 14890
+    TechLevel: 1
+    TypeColorScheme: 11323
   Kaikka's Modified Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 69.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadRofBonus: -15.0
-    Power: 1325.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadRofBonus: -15
+    Power: 1325
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 13750.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 13750
+    TechLevel: 1
+    TypeColorScheme: 11323
   Mizuro's Modified Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 50.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadRofBonus: -15.0
-    Power: 1450.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadRofBonus: -15
+    Power: 1450
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 15720.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 15720
+    TechLevel: 1
+    TypeColorScheme: 11323
   Republic Fleet Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 48.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 7.0
-    OverloadRofBonus: -15.0
-    Power: 1450.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 7
+    OverloadRofBonus: -15
+    Power: 1450
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 16030.0
-    TechLevel: 1.0
-    TypeColorScheme: 11339.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 16030
+    TechLevel: 1
+    TypeColorScheme: 11339
   Shaqil's Modified Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 55.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.5
-    Hp: 40.0
-    MetaLevel: 14.0
-    OverloadRofBonus: -15.0
-    Power: 1325.0
+    Hp: 40
+    MetaLevel: 14
+    OverloadRofBonus: -15
+    Power: 1325
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 13235.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 13235
+    TechLevel: 1
+    TypeColorScheme: 11323
   Thon's Modified Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 73.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.5
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadRofBonus: -15.0
-    Power: 1325.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 12
+    OverloadRofBonus: -15
+    Power: 1325
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 13025.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 13025
+    TechLevel: 1
+    TypeColorScheme: 11323
   Tobias' Modified Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 58.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.5
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadRofBonus: -15.0
-    Power: 1450.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 14
+    OverloadRofBonus: -15
+    Power: 1450
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 13235.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 13235
+    TechLevel: 1
+    TypeColorScheme: 11323
   True Sansha Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 48.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 7.0
-    OverloadRofBonus: -15.0
-    Power: 1450.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 7
+    OverloadRofBonus: -15
+    Power: 1450
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 16030.0
-    TechLevel: 1.0
-    TypeColorScheme: 11349.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 16030
+    TechLevel: 1
+    TypeColorScheme: 11349
   Vepas' Modified Cruise Missile Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 76.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadRofBonus: -15.0
-    Power: 1325.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 13
+    OverloadRofBonus: -15
+    Power: 1325
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 12300.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 12300
+    TechLevel: 1
+    TypeColorScheme: 11323
   XT-9000 Cruise Launcher:
-    ChargeGroup1: 386.0
-    ChargeGroup2: 396.0
-    ChargeRate: 1.0
-    Cpu: 57.0
+    ChargeGroup1: 386
+    ChargeGroup2: 396
+    ChargeRate: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadRofBonus: -15.0
-    Power: 1450.0
+    Hp: 40
+    MetaLevel: 3
+    OverloadRofBonus: -15
+    Power: 1450
     ReloadTime: 10000.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 17580.0
-    TechLevel: 1.0
-    TypeColorScheme: 20116.0
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 17580
+    TechLevel: 1
+    TypeColorScheme: 20116

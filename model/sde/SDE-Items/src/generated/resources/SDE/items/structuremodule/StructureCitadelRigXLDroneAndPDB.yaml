@@ -1,25 +1,25 @@
 items:
   Standup XL-Set Integrated Fighter and PD Network I:
-    CanFitShipGroup01: 1657.0
-    CapNeedBonus: -30.0
-    DroneMaxVelocityBonus: 30.0
-    Hp: 40.0
+    CanFitShipGroup01: 1657
+    CapNeedBonus: -30
+    DroneMaxVelocityBonus: 30
+    Hp: 40
     HullHpBonus: 30.0
-    MaxGroupFitted: 1.0
+    MaxGroupFitted: 1
     MaxRangeBonus: 600.0
-    RigSize: 4.0
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    RigSize: 4
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    UpgradeCost: 50
   Standup XL-Set Integrated Fighter and PD Network II:
-    CanFitShipGroup01: 1657.0
-    CapNeedBonus: -35.0
-    DroneMaxVelocityBonus: 35.0
-    Hp: 40.0
+    CanFitShipGroup01: 1657
+    CapNeedBonus: -35
+    DroneMaxVelocityBonus: 35
+    Hp: 40
     HullHpBonus: 35.0
-    MaxGroupFitted: 1.0
+    MaxGroupFitted: 1
     MaxRangeBonus: 700.0
-    RigSize: 4.0
-    StructureItemVisualFlag: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 100.0
+    RigSize: 4
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    UpgradeCost: 100

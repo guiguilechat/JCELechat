@@ -1,699 +1,699 @@
 items:
   Arkonor Mining Crystal I:
-    CapNeedBonus: 50.0
-    ChargeSize: 1.0
+    CapNeedBonus: 50
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12180.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 450.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12180
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 450
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 75.0
+    TechLevel: 1
+    UnfitCapCost: 75
   Arkonor Mining Crystal II:
-    CapNeedBonus: 50.0
-    ChargeSize: 1.0
+    CapNeedBonus: 50
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12180.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 450.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12180
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 450
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 75.0
+    TechLevel: 2
+    UnfitCapCost: 75
   Bistot Mining Crystal I:
-    CapNeedBonus: 45.0
-    ChargeSize: 1.0
+    CapNeedBonus: 45
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12181.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 451.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12181
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 451
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 70.0
+    TechLevel: 1
+    UnfitCapCost: 70
   Bistot Mining Crystal II:
-    CapNeedBonus: 45.0
-    ChargeSize: 1.0
+    CapNeedBonus: 45
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12181.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 451.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12181
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 451
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 70.0
+    TechLevel: 2
+    UnfitCapCost: 70
   Common Moon Ore Mining Crystal I:
-    CapNeedBonus: 35.0
-    ChargeSize: 1.0
+    CapNeedBonus: 35
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 46153.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 1920.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 46153
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 1920
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 60.0
+    TechLevel: 1
+    UnfitCapCost: 60
   Common Moon Ore Mining Crystal II:
-    CapNeedBonus: 35.0
-    ChargeSize: 1.0
+    CapNeedBonus: 35
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 46153.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 1920.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 46153
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 1920
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 60.0
+    TechLevel: 2
+    UnfitCapCost: 60
   Crokite Mining Crystal I:
-    CapNeedBonus: 35.0
-    ChargeSize: 1.0
+    CapNeedBonus: 35
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12182.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 452.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12182
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 452
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 60.0
+    TechLevel: 1
+    UnfitCapCost: 60
   Crokite Mining Crystal II:
-    CapNeedBonus: 35.0
-    ChargeSize: 1.0
+    CapNeedBonus: 35
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12182.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 452.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12182
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 452
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 60.0
+    TechLevel: 2
+    UnfitCapCost: 60
   Dark Ochre Mining Crystal I:
-    CapNeedBonus: 30.0
-    ChargeSize: 1.0
+    CapNeedBonus: 30
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12183.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 453.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12183
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 453
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 55.0
+    TechLevel: 1
+    UnfitCapCost: 55
   Dark Ochre Mining Crystal II:
-    CapNeedBonus: 30.0
-    ChargeSize: 1.0
+    CapNeedBonus: 30
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12183.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 453.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12183
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 453
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 55.0
+    TechLevel: 2
+    UnfitCapCost: 55
   Exceptional Moon Ore Mining Crystal I:
-    CapNeedBonus: 50.0
-    ChargeSize: 1.0
+    CapNeedBonus: 50
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 46156.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 1923.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 46156
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 1923
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 75.0
+    TechLevel: 1
+    UnfitCapCost: 75
   Exceptional Moon Ore Mining Crystal II:
-    CapNeedBonus: 50.0
-    ChargeSize: 1.0
+    CapNeedBonus: 50
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 46156.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 1923.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 46156
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 1923
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 75.0
+    TechLevel: 2
+    UnfitCapCost: 75
   Gneiss Mining Crystal I:
-    CapNeedBonus: 25.0
-    ChargeSize: 1.0
+    CapNeedBonus: 25
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12184.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 467.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12184
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 467
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 50.0
+    TechLevel: 1
+    UnfitCapCost: 50
   Gneiss Mining Crystal II:
-    CapNeedBonus: 25.0
-    ChargeSize: 1.0
+    CapNeedBonus: 25
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12184.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 467.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12184
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 467
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 50.0
+    TechLevel: 2
+    UnfitCapCost: 50
   Hedbergite Mining Crystal I:
-    CapNeedBonus: 20.0
-    ChargeSize: 1.0
+    CapNeedBonus: 20
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12185.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 454.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12185
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 454
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 45.0
+    TechLevel: 1
+    UnfitCapCost: 45
   Hedbergite Mining Crystal II:
-    CapNeedBonus: 20.0
-    ChargeSize: 1.0
+    CapNeedBonus: 20
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12185.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 454.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12185
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 454
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 45.0
+    TechLevel: 2
+    UnfitCapCost: 45
   Hemorphite Mining Crystal I:
-    CapNeedBonus: 15.0
-    ChargeSize: 1.0
+    CapNeedBonus: 15
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12186.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 455.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12186
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 455
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 40.0
+    TechLevel: 1
+    UnfitCapCost: 40
   Hemorphite Mining Crystal II:
-    CapNeedBonus: 15.0
-    ChargeSize: 1.0
+    CapNeedBonus: 15
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12186.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 455.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12186
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 455
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 40.0
+    TechLevel: 2
+    UnfitCapCost: 40
   Jaspet Mining Crystal I:
-    CapNeedBonus: 10.0
-    ChargeSize: 1.0
+    CapNeedBonus: 10
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12187.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 456.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12187
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 456
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 35.0
+    TechLevel: 1
+    UnfitCapCost: 35
   Jaspet Mining Crystal II:
-    CapNeedBonus: 10.0
-    ChargeSize: 1.0
+    CapNeedBonus: 10
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12187.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 456.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12187
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 456
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 35.0
+    TechLevel: 2
+    UnfitCapCost: 35
   Kernite Mining Crystal I:
-    CapNeedBonus: 5.0
-    ChargeSize: 1.0
+    CapNeedBonus: 5
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12188.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 457.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12188
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 457
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 30.0
+    TechLevel: 1
+    UnfitCapCost: 30
   Kernite Mining Crystal II:
-    CapNeedBonus: 5.0
-    ChargeSize: 1.0
+    CapNeedBonus: 5
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12188.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 457.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12188
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 457
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 30.0
+    TechLevel: 2
+    UnfitCapCost: 30
   Omber Mining Crystal I:
-    ChargeSize: 1.0
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12190.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 469.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12190
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 469
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 25.0
+    TechLevel: 1
+    UnfitCapCost: 25
   Omber Mining Crystal II:
-    ChargeSize: 1.0
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12190.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 469.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12190
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 469
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 25.0
+    TechLevel: 2
+    UnfitCapCost: 25
   Plagioclase Mining Crystal I:
-    CapNeedBonus: -5.0
-    ChargeSize: 1.0
+    CapNeedBonus: -5
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12191.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 458.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12191
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 458
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 20.0
+    TechLevel: 1
+    UnfitCapCost: 20
   Plagioclase Mining Crystal II:
-    CapNeedBonus: -5.0
-    ChargeSize: 1.0
+    CapNeedBonus: -5
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12191.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 458.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12191
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 458
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 20.0
+    TechLevel: 2
+    UnfitCapCost: 20
   Pyroxeres Mining Crystal I:
-    CapNeedBonus: -10.0
-    ChargeSize: 1.0
+    CapNeedBonus: -10
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12192.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 459.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12192
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 459
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 15.0
+    TechLevel: 1
+    UnfitCapCost: 15
   Pyroxeres Mining Crystal II:
-    CapNeedBonus: -10.0
-    ChargeSize: 1.0
+    CapNeedBonus: -10
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12192.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 459.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12192
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 459
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 15.0
+    TechLevel: 2
+    UnfitCapCost: 15
   Rare Moon Ore Mining Crystal I:
-    CapNeedBonus: 45.0
-    ChargeSize: 1.0
+    CapNeedBonus: 45
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 46155.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 1922.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 46155
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 1922
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 70.0
+    TechLevel: 1
+    UnfitCapCost: 70
   Rare Moon Ore Mining Crystal II:
-    CapNeedBonus: 45.0
-    ChargeSize: 1.0
+    CapNeedBonus: 45
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 46155.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 1922.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 46155
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 1922
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 70.0
+    TechLevel: 2
+    UnfitCapCost: 70
   Scordite Mining Crystal I:
-    CapNeedBonus: -15.0
-    ChargeSize: 1.0
+    CapNeedBonus: -15
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12193.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 460.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12193
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 460
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 10.0
+    TechLevel: 1
+    UnfitCapCost: 10
   Scordite Mining Crystal II:
-    CapNeedBonus: -15.0
-    ChargeSize: 1.0
+    CapNeedBonus: -15
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12193.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 460.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12193
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 460
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 10.0
+    TechLevel: 2
+    UnfitCapCost: 10
   Spodumain Mining Crystal I:
-    CapNeedBonus: 40.0
-    ChargeSize: 1.0
+    CapNeedBonus: 40
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12194.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 461.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12194
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 461
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 65.0
+    TechLevel: 1
+    UnfitCapCost: 65
   Spodumain Mining Crystal II:
-    CapNeedBonus: 40.0
-    ChargeSize: 1.0
+    CapNeedBonus: 40
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12194.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 461.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12194
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 461
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 65.0
+    TechLevel: 2
+    UnfitCapCost: 65
   Ubiquitous Moon Ore Mining Crystal I:
-    CapNeedBonus: 30.0
-    ChargeSize: 1.0
+    CapNeedBonus: 30
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 46152.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 1884.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 46152
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 1884
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 55.0
+    TechLevel: 1
+    UnfitCapCost: 55
   Ubiquitous Moon Ore Mining Crystal II:
-    CapNeedBonus: 30.0
-    ChargeSize: 1.0
+    CapNeedBonus: 30
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 46152.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 1884.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 46152
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 1884
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 55.0
+    TechLevel: 2
+    UnfitCapCost: 55
   Uncommon Moon Ore Mining Crystal I:
-    CapNeedBonus: 40.0
-    ChargeSize: 1.0
+    CapNeedBonus: 40
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 46154.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 1921.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 46154
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 1921
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 65.0
+    TechLevel: 1
+    UnfitCapCost: 65
   Uncommon Moon Ore Mining Crystal II:
-    CapNeedBonus: 40.0
-    ChargeSize: 1.0
+    CapNeedBonus: 40
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 46154.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 1921.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 46154
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 1921
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 65.0
+    TechLevel: 2
+    UnfitCapCost: 65
   Veldspar Mining Crystal I:
-    CapNeedBonus: -20.0
-    ChargeSize: 1.0
+    CapNeedBonus: -20
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12195.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 462.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12195
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 462
     SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1.0
-    UnfitCapCost: 5.0
+    TechLevel: 1
+    UnfitCapCost: 5
   Veldspar Mining Crystal II:
-    CapNeedBonus: -20.0
-    ChargeSize: 1.0
+    CapNeedBonus: -20
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12195.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 462.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12195
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 462
     SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2.0
-    UnfitCapCost: 5.0
+    TechLevel: 2
+    UnfitCapCost: 5

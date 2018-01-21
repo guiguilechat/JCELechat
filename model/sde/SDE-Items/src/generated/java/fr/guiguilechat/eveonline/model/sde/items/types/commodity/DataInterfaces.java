@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Commodity;
@@ -19,32 +19,32 @@ public class DataInterfaces
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * The maximum hitpoints of an object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * Used to show usable decryptors when starting reverse engineering based on data interface
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DecryptorID;
+    @DefaultIntValue(0)
+    public int DecryptorID;
     public final static String RESOURCE_PATH = "SDE/items/commodity/DataInterfaces.yaml";
     private static LinkedHashMap<String, DataInterfaces> cache = (null);
 

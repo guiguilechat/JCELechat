@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Subsystem;
@@ -19,95 +20,95 @@ public class OffensiveSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemCommandBurstFittingReduction;
+    @DefaultIntValue(0)
+    public int SubsystemCommandBurstFittingReduction;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RemoteShieldBoosterFalloffBonus;
+    @DefaultIntValue(0)
+    public int RemoteShieldBoosterFalloffBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RemoteArmorRepairerFalloffBonus;
+    @DefaultIntValue(0)
+    public int RemoteArmorRepairerFalloffBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RemoteArmorRepairerOptimalBonus;
+    @DefaultIntValue(0)
+    public int RemoteArmorRepairerOptimalBonus;
     /**
      * power output of power core
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double PowerOutput;
+    @DefaultIntValue(0)
+    public int PowerOutput;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RoleBonusCommandBurstAoERange;
+    @DefaultIntValue(0)
+    public int RoleBonusCommandBurstAoERange;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double TurretHardPointModifier;
+    @DefaultIntValue(0)
+    public int TurretHardPointModifier;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LauncherHardPointModifier;
+    @DefaultIntValue(0)
+    public int LauncherHardPointModifier;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusAmarrOffensive;
+    @DefaultIntValue(0)
+    public int SubsystemBonusAmarrOffensive;
     /**
      * This defines the total capacity of drones allowed in the drone bay of the ship
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DroneCapacity;
+    @DefaultIntValue(0)
+    public int DroneCapacity;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WarfareLinkCPUPenalty;
+    @DefaultIntValue(0)
+    public int WarfareLinkCPUPenalty;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusGallenteOffensive;
     /**
      * Capacitor capacity
@@ -115,7 +116,7 @@ public class OffensiveSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorCapacity;
     /**
      * 
@@ -123,7 +124,7 @@ public class OffensiveSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusCaldariOffensive;
     /**
      * 
@@ -131,23 +132,23 @@ public class OffensiveSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusCaldariOffensive2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusCaldariOffensive2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusAmarrOffensive2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusAmarrOffensive2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusMinmatarOffensive;
     /**
      * 
@@ -155,79 +156,79 @@ public class OffensiveSystems
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemMHTFittingReduction;
+    @DefaultIntValue(0)
+    public int SubsystemMHTFittingReduction;
     /**
      * Additional amount of locked targets that can be handled.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxLockedTargetsBonus;
+    @DefaultIntValue(0)
+    public int MaxLockedTargetsBonus;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemMPTFittingReduction;
+    @DefaultIntValue(0)
+    public int SubsystemMPTFittingReduction;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemMETFittingReduction;
+    @DefaultIntValue(0)
+    public int SubsystemMETFittingReduction;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemMMissileFittingReduction;
+    @DefaultIntValue(0)
+    public int SubsystemMMissileFittingReduction;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemMRSBFittingReduction;
+    @DefaultIntValue(0)
+    public int SubsystemMRSBFittingReduction;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemMRARFittingReduction;
+    @DefaultIntValue(0)
+    public int SubsystemMRARFittingReduction;
     /**
      * CPU output of ship
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CpuOutput;
+    @DefaultIntValue(0)
+    public int CpuOutput;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusGallenteOffensive2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusGallenteOffensive2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusMinmatarOffensive2;
     /**
      * 
@@ -235,15 +236,15 @@ public class OffensiveSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DroneBandwidth;
+    @DefaultIntValue(0)
+    public int DroneBandwidth;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusAmarrOffensive3;
     /**
      * 
@@ -251,7 +252,7 @@ public class OffensiveSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusGallenteOffensive3;
     /**
      * 
@@ -259,15 +260,15 @@ public class OffensiveSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusCaldariOffensive3;
+    @DefaultIntValue(0)
+    public int SubsystemBonusCaldariOffensive3;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusMinmatarOffensive3;
     public final static String RESOURCE_PATH = "SDE/items/subsystem/OffensiveSystems.yaml";
     private static LinkedHashMap<String, OffensiveSystems> cache = (null);

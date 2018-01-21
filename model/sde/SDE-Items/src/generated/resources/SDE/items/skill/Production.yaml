@@ -1,128 +1,128 @@
 items:
   Advanced Industrial Ship Construction:
-    ManufactureTimePerLevel: -1.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3392.0
-    RequiredSkill1Level: 2.0
-    RequiredSkill2: 3380.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 166.0
+    ManufactureTimePerLevel: -1
+    PrimaryAttribute: 165
+    RequiredSkill1: 3392
+    RequiredSkill1Level: 2
+    RequiredSkill2: 3380
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Advanced Industry:
-    AdvancedIndustrySkillIndustryJobTimeBonus: -3.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3380.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 165.0
+    AdvancedIndustrySkillIndustryJobTimeBonus: -3
+    PrimaryAttribute: 166
+    RequiredSkill1: 3380
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 3.0
   Advanced Large Ship Construction:
-    ManufactureTimePerLevel: -1.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3397.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
+    ManufactureTimePerLevel: -1
+    PrimaryAttribute: 165
+    RequiredSkill1: 3397
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
     SkillTimeConstant: 8.0
   Advanced Mass Production:
-    CanNotBeTrainedOnTrial: 1.0
-    ManufacturingSlotBonus: 1.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3387.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 165.0
+    CanNotBeTrainedOnTrial: 1
+    ManufacturingSlotBonus: 1
+    PrimaryAttribute: 166
+    RequiredSkill1: 3387
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 165
     SkillTimeConstant: 8.0
   Advanced Medium Ship Construction:
-    ManufactureTimePerLevel: -1.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3392.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3395.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 166.0
+    ManufactureTimePerLevel: -1
+    PrimaryAttribute: 165
+    RequiredSkill1: 3392
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3395
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 166
     SkillTimeConstant: 5.0
   Advanced Small Ship Construction:
-    ManufactureTimePerLevel: -1.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3392.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3380.0
-    RequiredSkill2Level: 2.0
-    SecondaryAttribute: 166.0
+    ManufactureTimePerLevel: -1
+    PrimaryAttribute: 165
+    RequiredSkill1: 3392
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3380
+    RequiredSkill2Level: 2
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0
   Amarr Tech:
-    AmarrTechMutator: -5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3380.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 165.0
+    AmarrTechMutator: -5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3380
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Caldari Tech:
-    CaldariTechMutator: -5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3380.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 165.0
+    CaldariTechMutator: -5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3380
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Capital Ship Construction:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3392.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3380.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3388.0
-    RequiredSkill3Level: 5.0
-    SecondaryAttribute: 166.0
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 165
+    RequiredSkill1: 3392
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3380
+    RequiredSkill2Level: 5
+    RequiredSkill3: 3388
+    RequiredSkill3Level: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 14.0
   Drug Manufacturing:
-    CanNotBeTrainedOnTrial: 1.0
-    DurationSkillBonus: 1.0
-    PrimaryAttribute: 166.0
-    SecondaryAttribute: 165.0
+    CanNotBeTrainedOnTrial: 1
+    DurationSkillBonus: 1
+    PrimaryAttribute: 166
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Gallente Tech:
-    GallenteTechMutator: -5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3380.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 165.0
+    GallenteTechMutator: -5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3380
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Industry:
-    ManufacturingTimeBonus: -4.0
-    PrimaryAttribute: 166.0
-    SecondaryAttribute: 165.0
+    ManufacturingTimeBonus: -4
+    PrimaryAttribute: 166
+    SecondaryAttribute: 165
     SkillTimeConstant: 1.0
   Mass Production:
-    ManufacturingSlotBonus: 1.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3380.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 165.0
+    ManufacturingSlotBonus: 1
+    PrimaryAttribute: 166
+    RequiredSkill1: 3380
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Minmatar Tech:
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3380.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RequiredSkill1: 3380
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Mobile Factory Operation:
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3380.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RequiredSkill1: 3380
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 165
     SkillTimeConstant: 5.0
   Outpost Construction:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3392.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3380.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 11584.0
-    RequiredSkill3Level: 5.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3392
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3380
+    RequiredSkill2Level: 5
+    RequiredSkill3: 11584
+    RequiredSkill3Level: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 16.0
   Supply Chain Management:
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3387.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RequiredSkill1: 3387
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 3.0

@@ -2,7 +2,8 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
 import fr.guiguilechat.eveonline.model.sde.items.Item;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 
@@ -16,15 +17,15 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldCapacity;
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Uniformity;
     /**
      * The maximum hitpoints of an object.
@@ -32,31 +33,31 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * The number of hit points on the entities armor.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorHP;
+    @DefaultIntValue(0)
+    public int ArmorHP;
     /**
      * power output of power core
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double PowerOutput;
+    @DefaultIntValue(0)
+    public int PowerOutput;
     /**
      * Multiplies EM damage taken by Armor. 
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorEmDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
@@ -64,7 +65,7 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorExplosiveDamageResonance;
     /**
      * DO NOT MESS WITH
@@ -72,7 +73,7 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ArmorUniformity;
     /**
      * The number of low power slots on the ship.
@@ -80,15 +81,15 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LowSlots;
+    @DefaultIntValue(0)
+    public int LowSlots;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorKineticDamageResonance;
     /**
      * tbd
@@ -96,15 +97,15 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MedSlots;
+    @DefaultIntValue(0)
+    public int MedSlots;
     /**
      * Multiplies THERMAL damage taken by Armor. 
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorThermalDamageResonance;
     /**
      * tbd
@@ -112,15 +113,15 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HiSlots;
+    @DefaultIntValue(0)
+    public int HiSlots;
     /**
      * Multiplies EM damage taken by shield
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldEmDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
@@ -128,7 +129,7 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldExplosiveDamageResonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
@@ -136,7 +137,7 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldKineticDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Shield. 
@@ -144,7 +145,7 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldThermalDamageResonance;
     /**
      * Signature Radius is used for turret tracking and scanning.
@@ -152,31 +153,31 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(100.0D)
-    public double SignatureRadius;
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * CPU output of ship
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CpuOutput;
+    @DefaultIntValue(0)
+    public int CpuOutput;
     /**
      * The resolution that the vessel can target other objects at.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ScanResolution;
+    @DefaultIntValue(0)
+    public int ScanResolution;
     /**
      * Amount of time taken to fully recharge the capacitor.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double RechargeRate;
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
@@ -184,15 +185,15 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxLockedTargets;
+    @DefaultIntValue(0)
+    public int MaxLockedTargets;
     /**
      * Resistance against Remote Sensor Dampeners.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double SensorDampenerResistance;
     /**
      * Resistance against Remote Weapon Disruptors.
@@ -200,7 +201,7 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double WeaponDisruptionResistance;
     /**
      * Resistance against Target Painters
@@ -208,7 +209,7 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double TargetPainterResistance;
     /**
      * Resistance against Stasis Webifiers
@@ -216,7 +217,7 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StasisWebifierResistance;
     /**
      * 
@@ -224,15 +225,15 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.1D)
-    public double FighterAbilityAntiCapitalMissileResistance;
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiCapitalMissileResistance;
     /**
      * Impedance against Remote Repair (shield, armor, hull and energy).
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double RemoteRepairImpedance;
     /**
      * Maximum range at which the scanner can lock a target.
@@ -240,15 +241,15 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double MaxTargetRange;
+    @DefaultIntValue(0)
+    public int MaxTargetRange;
     /**
      * Resistance to ECM. 0 gives Immunity.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ECMResistance;
     /**
      * Radar strength.
@@ -256,7 +257,7 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanRadarStrength;
     /**
      * Ladar strength.
@@ -264,7 +265,7 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanLadarStrength;
     /**
      * Magnetometric strength.
@@ -272,7 +273,7 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanMagnetometricStrength;
     /**
      * Gravimetric strength.
@@ -280,7 +281,7 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanGravimetricStrength;
     /**
      * Impedance against Remote assistance (sensor boosters, tracking computers and ECCM).
@@ -288,7 +289,7 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double RemoteAssistanceImpedance;
     /**
      * Amount of time taken to fully recharge the shield.
@@ -296,7 +297,7 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldRechargeRate;
     /**
      * Capacitor capacity
@@ -304,7 +305,7 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorCapacity;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
@@ -312,7 +313,7 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldUniformity;
     /**
      * damage multiplier vs. kinetic damagers.
@@ -320,7 +321,7 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double KineticDamageResonance;
     /**
      * damage multiplier vs. thermal.
@@ -328,7 +329,7 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ThermalDamageResonance;
     /**
      * damage multiplier vs. explosive damagers.
@@ -336,7 +337,7 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ExplosiveDamageResonance;
     /**
      * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
@@ -344,7 +345,7 @@ public abstract class Structure
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double EmDamageResonance;
     /**
      * 
@@ -352,31 +353,31 @@ public abstract class Structure
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldDamageLimit;
+    @DefaultIntValue(0)
+    public int ShieldDamageLimit;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorDamageLimit;
+    @DefaultIntValue(0)
+    public int ArmorDamageLimit;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double StructureDamageLimit;
+    @DefaultIntValue(0)
+    public int StructureDamageLimit;
     /**
      * Resistance against Energy Neutralizing and Nosferatu
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double EnergyWarfareResistance;
 
     @Override

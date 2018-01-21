@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.accessories;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Accessories;
@@ -19,16 +19,16 @@ public class SkillInjectors
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxCharacterSkillPointLimit;
+    @DefaultIntValue(0)
+    public int MaxCharacterSkillPointLimit;
     /**
      * The amount of skill points contained in this item
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ContainedSkillPoints;
+    @DefaultIntValue(0)
+    public int ContainedSkillPoints;
     public final static String RESOURCE_PATH = "SDE/items/accessories/SkillInjectors.yaml";
     private static LinkedHashMap<String, SkillInjectors> cache = (null);
 

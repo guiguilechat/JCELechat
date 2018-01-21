@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Blueprint;
@@ -19,15 +20,15 @@ public class IndustrialCommandShipBlueprint
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double IndustryJobCostMultiplier;
+    @DefaultIntValue(1)
+    public int IndustryJobCostMultiplier;
     /**
      * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double IndustryBlueprintRank;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/IndustrialCommandShipBlueprint.yaml";
     private static LinkedHashMap<String, IndustrialCommandShipBlueprint> cache = (null);

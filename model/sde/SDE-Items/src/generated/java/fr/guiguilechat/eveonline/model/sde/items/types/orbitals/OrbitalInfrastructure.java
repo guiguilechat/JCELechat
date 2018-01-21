@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.orbitals;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Orbitals;
@@ -19,55 +20,55 @@ public class OrbitalInfrastructure
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(100.0D)
-    public double SignatureRadius;
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * Capacity of material bay
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SpecialMaterialBayCapacity;
+    @DefaultIntValue(0)
+    public int SpecialMaterialBayCapacity;
     /**
      * The number of seconds that the structure will be in reinforcement time
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(172800.0D)
-    public double ReinforcementDuration;
+    @DefaultIntValue(172800)
+    public int ReinforcementDuration;
     /**
      * The number of seconds that the reinforcement exit time will be adjusted by. exitTime +- attribute
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(10800.0D)
-    public double ReinforcementVariance;
+    @DefaultIntValue(10800)
+    public int ReinforcementVariance;
     /**
      * If set on a charge or module type, will prevent it from being activated in empire space.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DisallowInEmpireSpace;
+    @DefaultIntValue(0)
+    public int DisallowInEmpireSpace;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EntityFactionLoss;
+    @DefaultIntValue(0)
+    public int EntityFactionLoss;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.1D)
+    @DefaultDoubleValue(0.1D)
     public double NpcCustomsOfficeTaxRate;
     public final static String RESOURCE_PATH = "SDE/items/orbitals/OrbitalInfrastructure.yaml";
     private static LinkedHashMap<String, OrbitalInfrastructure> cache = (null);

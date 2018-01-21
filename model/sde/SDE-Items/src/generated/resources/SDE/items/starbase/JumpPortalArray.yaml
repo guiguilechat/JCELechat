@@ -1,67 +1,67 @@
 items:
   Jump Bridge:
-    AnchoringDelay: 30000.0
-    ArmorHP: 1.5E7
+    AnchoringDelay: 30000
+    ArmorHP: 15000000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 25000.0
+    ControlTowerMinimumDistance: 25000
     Cpu: 4000.0
-    DisallowOffensiveModifiers: 1.0
+    DisallowOffensiveModifiers: 1
     EmDamageResonance: 1.0
     ExplosiveDamageResonance: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
-    JumpDriveConsumptionAmount: 500.0
-    JumpDriveConsumptionType: 16273.0
+    JumpDriveConsumptionAmount: 500
+    JumpDriveConsumptionType: 16273
     JumpDriveRange: 5.0
     JumpPortalConsumptionMassFactor: 1.500000013088254E-9
     KineticDamageResonance: 1.0
-    OnliningDelay: 1800000.0
-    PosAnchoredPerSolarSystemAmount: 1.0
-    PosCargobayAcceptType: 16273.0
-    Power: 750000.0
-    RequiresSovUpgrade1: 32422.0
+    OnliningDelay: 1800000
+    PosAnchoredPerSolarSystemAmount: 1
+    PosCargobayAcceptType: 16273
+    Power: 750000
+    RequiresSovUpgrade1: 32422
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 1000000.0
+    ShieldCapacity: 1000000
     ShieldRechargeRate: 1.0E8
-    SignatureRadius: 8000.0
+    SignatureRadius: 8000
     StructureUniformity: 1.0
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 60000.0
+    UnanchoringDelay: 60000
     Uniformity: 0.75
   QA Jump Bridge:
-    AnchoringDelay: 1000.0
+    AnchoringDelay: 1000
     AnchoringSecurityLevelMax: 1.0
-    ArmorHP: 1.5E7
+    ArmorHP: 15000000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 25000.0
+    ControlTowerMinimumDistance: 25000
     Cpu: 1.0
-    DisallowOffensiveModifiers: 1.0
+    DisallowOffensiveModifiers: 1
     EmDamageResonance: 1.0
     ExplosiveDamageResonance: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
-    JumpDriveConsumptionAmount: 1.0
-    JumpDriveConsumptionType: 16273.0
+    JumpDriveConsumptionAmount: 1
+    JumpDriveConsumptionType: 16273
     JumpDriveRange: 500.0
     JumpPortalConsumptionMassFactor: 9.999999717180685E-10
     KineticDamageResonance: 1.0
-    OnliningDelay: 1000.0
-    PosAnchoredPerSolarSystemAmount: 1.0
-    PosCargobayAcceptType: 16273.0
-    Power: 1.0
+    OnliningDelay: 1000
+    PosAnchoredPerSolarSystemAmount: 1
+    PosCargobayAcceptType: 16273
+    Power: 1
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 1000000.0
+    ShieldCapacity: 1000000
     ShieldRechargeRate: 1.0E8
-    SignatureRadius: 3000.0
+    SignatureRadius: 3000
     StructureUniformity: 1.0
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 1000.0
+    UnanchoringDelay: 1000
     Uniformity: 0.75

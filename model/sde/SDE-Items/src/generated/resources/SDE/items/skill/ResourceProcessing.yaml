@@ -1,328 +1,328 @@
 items:
   Advanced Mass Reactions:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 166.0
-    ReactionSlotBonus: 1.0
-    RequiredSkill1: 45748.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 165.0
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 166
+    ReactionSlotBonus: 1
+    RequiredSkill1: 45748
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 165
     SkillTimeConstant: 8.0
   Arkonor Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3409.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3409
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 4.0
   Astrogeology:
-    MiningAmountBonus: 5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3402.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 166.0
+    MiningAmountBonus: 5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Bistot Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3409.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3409
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 4.0
   Common Moon Ore Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3409.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3409
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 5.0
   Crokite Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3409.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3409
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 4.0
   Dark Ochre Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3409.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3409
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 3.0
   Deep Core Mining:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageCloudChanceReduction: -20.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3386.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3410.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 165.0
+    CanNotBeTrainedOnTrial: 1
+    DamageCloudChanceReduction: -20
+    PrimaryAttribute: 166
+    RequiredSkill1: 3386
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3410
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 165
     SkillTimeConstant: 6.0
   Exceptional Moon Ore Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3409.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3409
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 8.0
   Gas Cloud Harvesting:
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3386.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RequiredSkill1: 3386
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 1.0
   Gneiss Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3409.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3409
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 3.0
   Hedbergite Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3409.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3409
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 3.0
   Hemorphite Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3385.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3385
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Ice Harvesting:
     IceHarvestCycleBonus: -5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3386.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RequiredSkill1: 3386
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 1.0
   Ice Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 11443.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 5
+    RequiredSkill2: 11443
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 5.0
   Industrial Reconfiguration:
-    ConsumptionQuantityBonus: 50.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 24625.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 165.0
+    ConsumptionQuantityBonus: 50
+    PrimaryAttribute: 166
+    RequiredSkill1: 24625
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 8.0
   Jaspet Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3385.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3385
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Kernite Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3385.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3385
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Mass Reactions:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 166.0
-    ReactionSlotBonus: 1.0
-    RequiredSkill1: 45746.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 165.0
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 166
+    ReactionSlotBonus: 1
+    RequiredSkill1: 45746
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Mercoxit Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3409.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3409
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 5.0
   Mining:
-    MiningAmountBonus: 5.0
-    PrimaryAttribute: 166.0
-    SecondaryAttribute: 165.0
+    MiningAmountBonus: 5
+    PrimaryAttribute: 166
+    SecondaryAttribute: 165
     SkillTimeConstant: 1.0
   Mining Upgrades:
-    MiningUpgradeCPUReductionBonus: -5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3386.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 165.0
+    MiningUpgradeCPUReductionBonus: -5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3386
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 4.0
   Mobile Refinery Operation:
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3380.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3385.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RequiredSkill1: 3380
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3385
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 4.0
   Omber Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3385.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3385
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Ore Compression:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3380.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3389.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3402.0
-    RequiredSkill3Level: 5.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3380
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3389
+    RequiredSkill2Level: 5
+    RequiredSkill3: 3402
+    RequiredSkill3Level: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 8.0
   Plagioclase Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3385.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3385
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 1.0
   Pyroxeres Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3385.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3385
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 1.0
   Rare Moon Ore Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3409.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3409
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 7.0
   Reactions:
-    PrimaryAttribute: 166.0
-    ReactionTimeBonus: -4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    ReactionTimeBonus: -4
+    SecondaryAttribute: 165
     SkillTimeConstant: 1.0
   Remote Reactions:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 45746.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 165.0
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 166
+    RequiredSkill1: 45746
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 3.0
   Reprocessing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 3.0
-    RequiredSkill1: 3380.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 3
+    RequiredSkill1: 3380
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 165
     SkillTimeConstant: 1.0
   Reprocessing Efficiency:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3385.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3385
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 3.0
   Salvaging:
-    AccessDifficultyBonusAbsolutePercent: 1.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3392.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3551.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 166.0
+    AccessDifficultyBonusAbsolutePercent: 1
+    PrimaryAttribute: 165
+    RequiredSkill1: 3392
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3551
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Scordite Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3385.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3385
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 1.0
   Scrapmetal Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3409.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3409
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 165
     SkillTimeConstant: 5.0
   Spodumain Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3409.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3409
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 3.0
   Ubiquitous Moon Ore Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3409.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3409
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 4.0
   Uncommon Moon Ore Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3389.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3409.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3389
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3409
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 6.0
   Veldspar Processing:
-    PrimaryAttribute: 166.0
-    RefiningYieldMutator: 2.0
-    RequiredSkill1: 3385.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 166
+    RefiningYieldMutator: 2
+    RequiredSkill1: 3385
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 1.0

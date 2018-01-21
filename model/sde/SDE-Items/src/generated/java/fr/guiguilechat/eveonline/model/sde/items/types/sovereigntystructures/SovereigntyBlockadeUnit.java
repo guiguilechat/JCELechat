@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.sovereigntystructures;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.SovereigntyStructures;
@@ -19,7 +20,7 @@ public class SovereigntyBlockadeUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldUniformity;
     /**
      * Amount of maximum shield HP on the item.
@@ -27,15 +28,15 @@ public class SovereigntyBlockadeUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldCapacity;
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Uniformity;
     /**
      * The maximum hitpoints of an object.
@@ -43,23 +44,23 @@ public class SovereigntyBlockadeUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * The number of hit points on the entities armor.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorHP;
+    @DefaultIntValue(0)
+    public int ArmorHP;
     /**
      * Multiplies EM damage taken by Armor. 
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorEmDamageResonance;
     /**
      * DO NOT MESS WITH
@@ -67,7 +68,7 @@ public class SovereigntyBlockadeUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ArmorUniformity;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
@@ -75,7 +76,7 @@ public class SovereigntyBlockadeUnit
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorExplosiveDamageResonance;
     /**
      * DO NOT MESS WITH
@@ -83,7 +84,7 @@ public class SovereigntyBlockadeUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StructureUniformity;
     /**
      * Multiplies KINETIC damage taken by Armor. 
@@ -91,7 +92,7 @@ public class SovereigntyBlockadeUnit
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorKineticDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
@@ -99,7 +100,7 @@ public class SovereigntyBlockadeUnit
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorThermalDamageResonance;
     /**
      * Multiplies EM damage taken by shield
@@ -107,7 +108,7 @@ public class SovereigntyBlockadeUnit
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldEmDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
@@ -115,7 +116,7 @@ public class SovereigntyBlockadeUnit
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldExplosiveDamageResonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
@@ -123,7 +124,7 @@ public class SovereigntyBlockadeUnit
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldKineticDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Shield. 
@@ -131,7 +132,7 @@ public class SovereigntyBlockadeUnit
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldThermalDamageResonance;
     /**
      * Amount of time taken to fully recharge the shield.
@@ -139,7 +140,7 @@ public class SovereigntyBlockadeUnit
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldRechargeRate;
     public final static String RESOURCE_PATH = "SDE/items/sovereigntystructures/SovereigntyBlockadeUnit.yaml";
     private static LinkedHashMap<String, SovereigntyBlockadeUnit> cache = (null);

@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Blueprint;
@@ -19,7 +20,7 @@ public class HybridWeaponBlueprint
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double IndustryBlueprintRank;
     /**
      * Tech level of an item
@@ -27,16 +28,16 @@ public class HybridWeaponBlueprint
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double TechLevel;
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * meta group of type
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MetaGroupID;
+    @DefaultIntValue(0)
+    public int MetaGroupID;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/HybridWeaponBlueprint.yaml";
     private static LinkedHashMap<String, HybridWeaponBlueprint> cache = (null);
 

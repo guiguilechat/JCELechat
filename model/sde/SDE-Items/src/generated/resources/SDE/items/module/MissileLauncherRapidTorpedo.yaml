@@ -1,105 +1,105 @@
 items:
   Arbalest Compact Rapid Torpedo Launcher:
-    ChargeGroup1: 89.0
-    ChargeRate: 1.0
+    ChargeGroup1: 89
+    ChargeRate: 1
     Cpu: 120.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadRofBonus: -15.0
-    Power: 100000.0
+    Hp: 40
+    MetaLevel: 1
+    OverloadRofBonus: -15
+    Power: 100000
     ReloadTime: 40000.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 5.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 27093.0
-    TechLevel: 1.0
-    TypeColorScheme: 11324.0
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 5
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 27093
+    TechLevel: 1
+    TypeColorScheme: 11324
   Dread Guristas Rapid Torpedo Launcher:
-    ChargeGroup1: 89.0
-    ChargeGroup2: 657.0
-    ChargeRate: 1.0
+    ChargeGroup1: 89
+    ChargeGroup2: 657
+    ChargeRate: 1
     Cpu: 120.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRofBonus: -15.0
-    Power: 110000.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRofBonus: -15
+    Power: 110000
     ReloadTime: 40000.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 5.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 24738.0
-    TechLevel: 1.0
-    TypeColorScheme: 11324.0
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 5
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 24738
+    TechLevel: 1
+    TypeColorScheme: 11324
   Rapid Torpedo Launcher I:
-    ChargeGroup1: 89.0
-    ChargeRate: 1.0
+    ChargeGroup1: 89
+    ChargeRate: 1
     Cpu: 135.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40.0
-    OverloadRofBonus: -15.0
-    Power: 100000.0
+    Hp: 40
+    OverloadRofBonus: -15
+    Power: 100000
     ReloadTime: 40000.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 5.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 28450.0
-    TechLevel: 1.0
-    TypeColorScheme: 11324.0
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 5
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 28450
+    TechLevel: 1
+    TypeColorScheme: 11324
   Rapid Torpedo Launcher II:
-    ChargeGroup1: 89.0
-    ChargeGroup2: 657.0
-    ChargeRate: 1.0
+    ChargeGroup1: 89
+    ChargeGroup2: 657
+    ChargeRate: 1
     Cpu: 150.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadRofBonus: -15.0
-    Power: 110000.0
+    Hp: 40
+    MetaLevel: 5
+    OverloadRofBonus: -15
+    Power: 110000
     ReloadTime: 40000.0
-    RequiredSkill1: 20213.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3325.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 25861.0
-    TechLevel: 2.0
-    TypeColorScheme: 11324.0
+    RequiredSkill1: 20213
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3325
+    RequiredSkill2Level: 5
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 4
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 25861
+    TechLevel: 2
+    TypeColorScheme: 11324
   TE-2100 Ample Rapid Torpedo Launcher:
-    ChargeGroup1: 89.0
-    ChargeRate: 1.0
+    ChargeGroup1: 89
+    ChargeRate: 1
     Cpu: 135.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadRofBonus: -15.0
-    Power: 100000.0
+    Hp: 40
+    MetaLevel: 1
+    OverloadRofBonus: -15
+    Power: 100000
     ReloadTime: 40000.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 5.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 27093.0
-    TechLevel: 1.0
-    TypeColorScheme: 11324.0
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 5
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 27093
+    TechLevel: 1
+    TypeColorScheme: 11324

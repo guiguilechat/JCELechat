@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Deployable;
@@ -19,15 +20,15 @@ public class MobileTractorUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxLockedTargets;
+    @DefaultIntValue(0)
+    public int MaxLockedTargets;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldUniformity;
     /**
      * Length of activation time.
@@ -35,7 +36,7 @@ public class MobileTractorUnit
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Duration;
     /**
      * Maximum range at which the scanner can lock a target.
@@ -43,15 +44,15 @@ public class MobileTractorUnit
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double MaxTargetRange;
+    @DefaultIntValue(0)
+    public int MaxTargetRange;
     /**
      * DO NOT MESS WITH
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ArmorUniformity;
     /**
      * DO NOT MESS WITH
@@ -59,7 +60,7 @@ public class MobileTractorUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StructureUniformity;
     /**
      * Radar strength.
@@ -67,7 +68,7 @@ public class MobileTractorUnit
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanRadarStrength;
     /**
      * Magnetometric strength.
@@ -75,7 +76,7 @@ public class MobileTractorUnit
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanMagnetometricStrength;
     /**
      * Gravimetric strength.
@@ -83,7 +84,7 @@ public class MobileTractorUnit
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanGravimetricStrength;
     /**
      * The maximum speed that the tractor beam draws objects closer at.
@@ -91,24 +92,24 @@ public class MobileTractorUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxTractorVelocity;
+    @DefaultIntValue(0)
+    public int MaxTractorVelocity;
     /**
      * Distance below which range does not affect the to-hit equation.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double MaxRange;
+    @DefaultIntValue(0)
+    public int MaxRange;
     /**
      * The ranking of the module within its tech level
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MetaLevel;
+    @DefaultIntValue(0)
+    public int MetaLevel;
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileTractorUnit.yaml";
     private static LinkedHashMap<String, MobileTractorUnit> cache = (null);
 

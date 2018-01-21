@@ -1,421 +1,419 @@
 items:
   Capital Projectile Ambit Extension I:
-    Drawback: 10.0
+    Drawback: 10
     FalloffBonus: 15.0
-    Hp: 40.0
-    RigSize: 4.0
+    Hp: 40
+    RigSize: 4
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Capital Projectile Ambit Extension II:
-    Drawback: 10.0
+    Drawback: 10
     FalloffBonus: 20.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 4
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Capital Projectile Burst Aerator I:
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 4.0
+    Drawback: 10
+    Hp: 40
+    RigSize: 4
     SpeedMultiplier: 0.8999999761581421
-    TechLevel: 1.0
-    UpgradeCost: 200.0
+    TechLevel: 1
+    UpgradeCost: 200
   Capital Projectile Burst Aerator II:
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 4
     SpeedMultiplier: 0.8500000238418579
-    TechLevel: 2.0
-    UpgradeCost: 300.0
+    TechLevel: 2
+    UpgradeCost: 300
   Capital Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 4.0
+    Drawback: 10
+    Hp: 40
+    RigSize: 4
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 200.0
+    TechLevel: 1
+    UpgradeCost: 200
   Capital Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 4
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 300.0
+    TechLevel: 2
+    UpgradeCost: 300
   Capital Projectile Locus Coordinator I:
-    Drawback: 10.0
-    Hp: 40.0
+    Drawback: 10
+    Hp: 40
     MaxRangeBonus: 15.0
-    RigSize: 4.0
+    RigSize: 4
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Capital Projectile Locus Coordinator II:
-    Drawback: 10.0
-    Hp: 40.0
+    Drawback: 10
+    Hp: 40
     MaxRangeBonus: 20.0
-    MetaLevel: 5.0
-    RigSize: 4.0
+    MetaLevel: 5
+    RigSize: 4
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Capital Projectile Metastasis Adjuster I:
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 4.0
+    Drawback: 10
+    Hp: 40
+    RigSize: 4
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
+    UpgradeCost: 100
   Capital Projectile Metastasis Adjuster II:
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 4
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
+    UpgradeCost: 150
   Large Projectile Ambit Extension I:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    FalloffBonus: 15.0
-    Hp: 40.0
-    RigSize: 3.0
+    Drawback: 10
+    Hp: 40
+    RigSize: 3
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
+    UpgradeCost: 100
   Large Projectile Ambit Extension II:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    FalloffBonus: 20.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 3
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
+    UpgradeCost: 150
   Large Projectile Burst Aerator I:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 3.0
+    Drawback: 10
+    Hp: 40
+    RigSize: 3
     SpeedMultiplier: 0.8999999761581421
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 200.0
+    UpgradeCost: 200
   Large Projectile Burst Aerator II:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 3
     SpeedMultiplier: 0.8500000238418579
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 300.0
+    UpgradeCost: 300
   Large Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 3.0
+    Drawback: 10
+    Hp: 40
+    RigSize: 3
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 200.0
+    UpgradeCost: 200
   Large Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 3
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 300.0
+    UpgradeCost: 300
   Large Projectile Locus Coordinator I:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
+    Drawback: 10
+    Hp: 40
     MaxRangeBonus: 15.0
-    RigSize: 3.0
+    RigSize: 3
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
+    UpgradeCost: 100
   Large Projectile Locus Coordinator II:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
+    Drawback: 10
+    Hp: 40
     MaxRangeBonus: 20.0
-    MetaLevel: 5.0
-    RigSize: 3.0
+    MetaLevel: 5
+    RigSize: 3
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
+    UpgradeCost: 150
   Large Projectile Metastasis Adjuster I:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 3.0
+    Drawback: 10
+    Hp: 40
+    RigSize: 3
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
+    UpgradeCost: 100
   Large Projectile Metastasis Adjuster II:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 3
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
+    UpgradeCost: 150
   Medium Projectile Ambit Extension I:
     DamageMultiplier: 1.0
-    Drawback: 10.0
+    Drawback: 10
     FalloffBonus: 15.0
-    Hp: 40.0
-    RigSize: 2.0
+    Hp: 40
+    RigSize: 2
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
+    UpgradeCost: 100
   Medium Projectile Ambit Extension II:
     DamageMultiplier: 1.0
-    Drawback: 10.0
+    Drawback: 10
     FalloffBonus: 20.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 2
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
+    UpgradeCost: 150
   Medium Projectile Burst Aerator I:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 2.0
+    Drawback: 10
+    Hp: 40
+    RigSize: 2
     SpeedMultiplier: 0.8999999761581421
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 200.0
+    UpgradeCost: 200
   Medium Projectile Burst Aerator II:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 2
     SpeedMultiplier: 0.8500000238418579
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 300.0
+    UpgradeCost: 300
   Medium Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 2.0
+    Drawback: 10
+    Hp: 40
+    RigSize: 2
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 200.0
+    UpgradeCost: 200
   Medium Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 2
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 300.0
+    UpgradeCost: 300
   Medium Projectile Locus Coordinator I:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
+    Drawback: 10
+    Hp: 40
     MaxRangeBonus: 15.0
-    RigSize: 2.0
+    RigSize: 2
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
+    UpgradeCost: 100
   Medium Projectile Locus Coordinator II:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
+    Drawback: 10
+    Hp: 40
     MaxRangeBonus: 20.0
-    MetaLevel: 5.0
-    RigSize: 2.0
+    MetaLevel: 5
+    RigSize: 2
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
+    UpgradeCost: 150
   Medium Projectile Metastasis Adjuster I:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 2.0
+    Drawback: 10
+    Hp: 40
+    RigSize: 2
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
+    UpgradeCost: 100
   Medium Projectile Metastasis Adjuster II:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 2
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
+    UpgradeCost: 150
   Projectile Cache Distributor I:
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 1.0
+    Drawback: 10
+    Hp: 40
+    RigSize: 1
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Projectile Cache Distributor II:
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 200.0
+    TechLevel: 2
+    UpgradeCost: 200
   Projectile Consumption Elutriator I:
-    CpuNeedBonus: -10.0
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 1.0
+    CpuNeedBonus: -10
+    Drawback: 10
+    Hp: 40
+    RigSize: 1
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    TechLevel: 1
+    UpgradeCost: 50
   Projectile Consumption Elutriator II:
-    CpuNeedBonus: -15.0
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
+    CpuNeedBonus: -15
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    TechLevel: 2
+    UpgradeCost: 75
   Small Projectile Ambit Extension I:
     DamageMultiplier: 1.0
-    Drawback: 10.0
+    Drawback: 10
     FalloffBonus: 15.0
-    Hp: 40.0
-    RigSize: 1.0
+    Hp: 40
+    RigSize: 1
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
+    UpgradeCost: 100
   Small Projectile Ambit Extension II:
     DamageMultiplier: 1.0
-    Drawback: 10.0
+    Drawback: 10
     FalloffBonus: 20.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
+    UpgradeCost: 150
   Small Projectile Burst Aerator I:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 1.0
+    Drawback: 10
+    Hp: 40
+    RigSize: 1
     SpeedMultiplier: 0.8999999761581421
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 200.0
+    UpgradeCost: 200
   Small Projectile Burst Aerator II:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 1
     SpeedMultiplier: 0.8500000238418579
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 300.0
+    UpgradeCost: 300
   Small Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 1.0
+    Drawback: 10
+    Hp: 40
+    RigSize: 1
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 200.0
+    UpgradeCost: 200
   Small Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 300.0
+    UpgradeCost: 300
   Small Projectile Locus Coordinator I:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
+    Drawback: 10
+    Hp: 40
     MaxRangeBonus: 15.0
-    RigSize: 1.0
+    RigSize: 1
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
+    UpgradeCost: 100
   Small Projectile Locus Coordinator II:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
+    Drawback: 10
+    Hp: 40
     MaxRangeBonus: 20.0
-    MetaLevel: 5.0
-    RigSize: 1.0
+    MetaLevel: 5
+    RigSize: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
+    UpgradeCost: 150
   Small Projectile Metastasis Adjuster I:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 1.0
+    Drawback: 10
+    Hp: 40
+    RigSize: 1
     SpeedMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
+    UpgradeCost: 100
   Small Projectile Metastasis Adjuster II:
     DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
+    UpgradeCost: 150

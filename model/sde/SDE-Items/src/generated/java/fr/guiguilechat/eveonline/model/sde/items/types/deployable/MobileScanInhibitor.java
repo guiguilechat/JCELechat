@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Deployable;
@@ -19,7 +20,7 @@ public class MobileScanInhibitor
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldUniformity;
     /**
      * DO NOT MESS WITH
@@ -27,7 +28,7 @@ public class MobileScanInhibitor
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ArmorUniformity;
     /**
      * DO NOT MESS WITH
@@ -35,7 +36,7 @@ public class MobileScanInhibitor
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StructureUniformity;
     /**
      * Radar strength.
@@ -43,7 +44,7 @@ public class MobileScanInhibitor
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanRadarStrength;
     /**
      * Magnetometric strength.
@@ -51,7 +52,7 @@ public class MobileScanInhibitor
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanMagnetometricStrength;
     /**
      * Gravimetric strength.
@@ -59,7 +60,7 @@ public class MobileScanInhibitor
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanGravimetricStrength;
     /**
      * Required skill level for skill 1
@@ -67,24 +68,24 @@ public class MobileScanInhibitor
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * The ranking of the module within its tech level
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MetaLevel;
+    @DefaultIntValue(0)
+    public int MetaLevel;
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileScanInhibitor.yaml";
     private static LinkedHashMap<String, MobileScanInhibitor> cache = (null);
 

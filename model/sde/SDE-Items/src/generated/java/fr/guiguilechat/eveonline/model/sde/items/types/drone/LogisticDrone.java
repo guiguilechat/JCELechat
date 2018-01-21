@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Drone;
@@ -19,7 +20,7 @@ public class LogisticDrone
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorNeed;
     /**
      * Amount of maximum shield HP on the item.
@@ -27,23 +28,23 @@ public class LogisticDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldCapacity;
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * The number of hit points on the entities armor.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorHP;
+    @DefaultIntValue(0)
+    public int ArmorHP;
     /**
      * Multiplies EM damage taken by Armor. 
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorEmDamageResonance;
     /**
      * DO NOT MESS WITH
@@ -51,7 +52,7 @@ public class LogisticDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ArmorUniformity;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
@@ -59,7 +60,7 @@ public class LogisticDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorExplosiveDamageResonance;
     /**
      * 
@@ -67,15 +68,15 @@ public class LogisticDrone
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.2D)
-    public double FighterAbilityAntiFighterMissileResistance;
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiFighterMissileResistance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorKineticDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
@@ -83,7 +84,7 @@ public class LogisticDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorThermalDamageResonance;
     /**
      * Multiplies EM damage taken by shield
@@ -91,7 +92,7 @@ public class LogisticDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldEmDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
@@ -99,7 +100,7 @@ public class LogisticDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldExplosiveDamageResonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
@@ -107,7 +108,7 @@ public class LogisticDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldKineticDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Shield. 
@@ -115,7 +116,7 @@ public class LogisticDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldThermalDamageResonance;
     /**
      * Required skill level for skill 2
@@ -123,31 +124,31 @@ public class LogisticDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * Required skill level for skill 3
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill3Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill3Level;
     /**
      * The distance outside of which the entity activates their MWD equivalent.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(2500.0D)
-    public double EntityChaseMaxDistance;
+    @DefaultIntValue(2500)
+    public int EntityChaseMaxDistance;
     /**
      * The distance at which the entity orbits, follows.. and more.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(500.0D)
+    @DefaultDoubleValue(500.0D)
     public double EntityFlyRange;
     /**
      * Tech level of an item
@@ -155,63 +156,63 @@ public class LogisticDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double TechLevel;
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * Signature Radius is used for turret tracking and scanning.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(100.0D)
-    public double SignatureRadius;
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * Distance below which range does not affect the to-hit equation.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double MaxRange;
+    @DefaultIntValue(0)
+    public int MaxRange;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2;
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill3;
+    @DefaultIntValue(0)
+    public int RequiredSkill3;
     /**
      * The maximum number of their targets that the character can attack at a given time.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxAttackTargets;
+    @DefaultIntValue(0)
+    public int MaxAttackTargets;
     /**
      * The maximum amount of time stalled before entity chase speed kicks in.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(5000.0D)
-    public double EntityChaseMaxDelay;
+    @DefaultIntValue(5000)
+    public int EntityChaseMaxDelay;
     /**
      * Bonus to shield.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldBonus;
     /**
      * Chance that the max delay is waited before chase is engaged.
@@ -219,23 +220,23 @@ public class LogisticDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double EntityChaseMaxDelayChance;
+    @DefaultIntValue(1)
+    public int EntityChaseMaxDelayChance;
     /**
      * The maximum amount of time chase is ever engaged for.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(5000.0D)
-    public double EntityChaseMaxDuration;
+    @DefaultIntValue(5000)
+    public int EntityChaseMaxDuration;
     /**
      * The agility of the object.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Agility;
     /**
      * The chance of engaging chase for the maximum duration.
@@ -243,15 +244,15 @@ public class LogisticDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double EntityChaseMaxDurationChance;
+    @DefaultIntValue(1)
+    public int EntityChaseMaxDurationChance;
     /**
      * Length of activation time.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Duration;
     /**
      * scanning speed in milliseconds
@@ -259,39 +260,39 @@ public class LogisticDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ScanSpeed;
+    @DefaultIntValue(0)
+    public int ScanSpeed;
     /**
      * An amount to modify the structural damage by.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double StructureDamageAmount;
+    @DefaultIntValue(0)
+    public int StructureDamageAmount;
     /**
      * An amount to modify the armor damage by.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ArmorDamageAmount;
+    @DefaultIntValue(0)
+    public int ArmorDamageAmount;
     /**
      * Attribute ID of the resistance type v's this Ewar module.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RemoteResistanceID;
+    @DefaultIntValue(0)
+    public int RemoteResistanceID;
     /**
      * Amount of time taken to fully recharge the shield.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldRechargeRate;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
@@ -299,7 +300,7 @@ public class LogisticDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldUniformity;
     /**
      * The ranking of the module within its tech level
@@ -307,16 +308,16 @@ public class LogisticDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MetaLevel;
+    @DefaultIntValue(0)
+    public int MetaLevel;
     /**
      * The speed that entities fly at when not chasing a target.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EntityCruiseSpeed;
+    @DefaultIntValue(0)
+    public int EntityCruiseSpeed;
     public final static String RESOURCE_PATH = "SDE/items/drone/LogisticDrone.yaml";
     private static LinkedHashMap<String, LogisticDrone> cache = (null);
 

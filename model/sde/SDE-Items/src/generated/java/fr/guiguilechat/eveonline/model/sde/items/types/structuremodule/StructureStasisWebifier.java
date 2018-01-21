@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.StructureModule;
@@ -19,7 +20,7 @@ public class StructureStasisWebifier
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorNeed;
     /**
      * The maximum hitpoints of an object.
@@ -27,15 +28,15 @@ public class StructureStasisWebifier
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * Length of activation time.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Duration;
     /**
      * 
@@ -43,15 +44,15 @@ public class StructureStasisWebifier
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup01;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup01;
     /**
      * CPU need of module
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * 
@@ -59,15 +60,15 @@ public class StructureStasisWebifier
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup02;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup02;
     /**
      * Factor by which topspeed increases.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double SpeedFactor;
     /**
      * 
@@ -75,48 +76,48 @@ public class StructureStasisWebifier
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup03;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup03;
     /**
      * Distance below which range does not affect the to-hit equation.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double MaxRange;
+    @DefaultIntValue(0)
+    public int MaxRange;
     /**
      * Attribute ID of the resistance type v's this Ewar module.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RemoteResistanceID;
+    @DefaultIntValue(0)
+    public int RemoteResistanceID;
     /**
      * distance from maximum range at which effectiveness has fallen by half
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FalloffEffectiveness;
+    @DefaultIntValue(0)
+    public int FalloffEffectiveness;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double StructureItemVisualFlag;
+    @DefaultIntValue(0)
+    public int StructureItemVisualFlag;
     /**
      * current power need
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureStasisWebifier.yaml";
     private static LinkedHashMap<String, StructureStasisWebifier> cache = (null);
 

@@ -1,22 +1,22 @@
 items:
   '''Deuce'' Co-Processor I Blueprint':
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Dyad'' Co-Processor I Blueprint':
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Caldari Navy Co-Processor Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Co-Processor I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Co-Processor II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
+    TechLevel: 2
   Federation Navy Co-Processor Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Khanid Navy Co-Processor Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1

@@ -1,215 +1,215 @@
 items:
   Amarr Citadel:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Amarr Class A Starport:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Amarr Class B Starport:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Amarr Factory Outpost:
     ArmorUniformity: 1.0
-    IsPlayerOwnable: 1.0
-    SignatureRadius: 10000.0
+    IsPlayerOwnable: 1
+    SignatureRadius: 10000
   Amarr Industrial Station:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Amarr Mining Station:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Amarr Research Station:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Amarr Standard Station:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Amarr Station Hub:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Amarr Station Military:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Amarr Trade Post:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Blood Raider Logistics Outpost:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Blood Raider Military Outpost:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Blood Raider Trading Outpost:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   C-O-1:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   C-O-2:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Caldari Administrative Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Caldari Food Processing Plant Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Caldari Logistics Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Caldari Military Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Caldari Mining Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Caldari Research Outpost:
     ArmorUniformity: 1.0
-    IsPlayerOwnable: 1.0
-    SignatureRadius: 10000.0
+    IsPlayerOwnable: 1
+    SignatureRadius: 10000
   Caldari Research Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Caldari Station Hub:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Caldari Trading Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Concord Starbase:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Damaged CONCORD Station:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Dark Amarr Station O:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Gallente Administrative Outpost:
     ArmorUniformity: 1.0
-    IsPlayerOwnable: 1.0
-    SignatureRadius: 10000.0
+    IsPlayerOwnable: 1
+    SignatureRadius: 10000
   Gallente Administrative Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Gallente Industrial Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Gallente Logistics Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Gallente Military Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Gallente Mining Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Gallente Research Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   'Gallente Station Hub ':
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Gallente Trading Hub:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Heaven:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Ishukone Corporation Headquarters:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Jovian Construct:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Minmatar Hub:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Minmatar Industrial Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Minmatar Military Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Minmatar Mining Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Minmatar Research Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Minmatar Service Outpost:
     ArmorUniformity: 1.0
-    IsPlayerOwnable: 1.0
-    SignatureRadius: 10000.0
+    IsPlayerOwnable: 1
+    SignatureRadius: 10000
   Minmatar Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Minmatar Trade Post:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   'Repaired Amarr Military Station ':
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Repaired Amarr Station Hub:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Repaired Amarr Trading Post:
     ArmorUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
   Research Outpost:
-    ArmorHP: 8.0E7
+    ArmorHP: 80000000
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    IsPlayerOwnable: 1.0
-    ShieldCapacity: 4.0E7
+    Hp: 100000000
+    IsPlayerOwnable: 1
+    ShieldCapacity: 40000000
     ShieldRechargeRate: 2.0E8
     ShieldUniformity: 1.0
-    SignatureRadius: 1000.0
+    SignatureRadius: 1000
   Sisters of EVE Industrial Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Sisters of EVE Logistics Station:
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100
   Station (Conquerable 1):
     ArmorUniformity: 1.0
-    IsPlayerOwnable: 1.0
-    SignatureRadius: 10000.0
+    IsPlayerOwnable: 1
+    SignatureRadius: 10000
   Station (Conquerable 2):
     ArmorUniformity: 1.0
-    IsPlayerOwnable: 1.0
-    SignatureRadius: 10000.0
+    IsPlayerOwnable: 1
+    SignatureRadius: 10000
   Station (Conquerable 3):
     ArmorUniformity: 1.0
-    IsPlayerOwnable: 1.0
-    SignatureRadius: 10000.0
+    IsPlayerOwnable: 1
+    SignatureRadius: 10000
   Station (InterBus):
     ArmorUniformity: 1.0
-    Hp: 1.0E8
-    SignatureRadius: 100.0
+    Hp: 100000000
+    SignatureRadius: 100

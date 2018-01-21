@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Subsystem;
@@ -19,7 +20,7 @@ public class PropulsionSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusGallentePropulsion;
     /**
      * 
@@ -27,7 +28,7 @@ public class PropulsionSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double AgilityBonusAdd;
     /**
      * 
@@ -35,15 +36,15 @@ public class PropulsionSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WarpBubbleImmuneModifier;
+    @DefaultIntValue(0)
+    public int WarpBubbleImmuneModifier;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusCaldariPropulsion;
     /**
      * 
@@ -51,23 +52,23 @@ public class PropulsionSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusAmarrPropulsion2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusAmarrPropulsion2;
     /**
      * Signature Radius is used for turret tracking and scanning.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(100.0D)
-    public double SignatureRadius;
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusCaldariPropulsion2;
     /**
      * 
@@ -75,23 +76,23 @@ public class PropulsionSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusMinmatarPropulsion;
+    @DefaultIntValue(0)
+    public int SubsystemBonusMinmatarPropulsion;
     /**
      * Maximum range at which the scanner can lock a target.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double MaxTargetRange;
+    @DefaultIntValue(0)
+    public int MaxTargetRange;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusGallentePropulsion2;
     /**
      * 
@@ -99,16 +100,16 @@ public class PropulsionSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusMinmatarPropulsion2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusMinmatarPropulsion2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusAmarrPropulsion;
+    @DefaultIntValue(0)
+    public int SubsystemBonusAmarrPropulsion;
     public final static String RESOURCE_PATH = "SDE/items/subsystem/PropulsionSystems.yaml";
     private static LinkedHashMap<String, PropulsionSystems> cache = (null);
 

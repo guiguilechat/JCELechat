@@ -1,39 +1,39 @@
 items:
   Standup L-Set Energy Neutralizer Feedback Control I:
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
     HiSecModifier: 1.0
-    Hp: 40.0
+    Hp: 40
     LowSecModifier: 1.2000000476837158
-    MaxGroupFitted: 1.0
+    MaxGroupFitted: 1
     NullSecModifier: 1.2000000476837158
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 1.0
-    RigSize: 3.0
-    SecurityModifier: 1.0
-    StructureItemVisualFlag: 1.0
-    StructureRigEwarCapUseBonus: -30.0
-    StructureRigEwarFalloffBonus: 30.0
-    StructureRigEwarOptimalBonus: 30.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 3
+    SecurityModifier: 1
+    StructureItemVisualFlag: 1
+    StructureRigEwarCapUseBonus: -30
+    StructureRigEwarFalloffBonus: 30
+    StructureRigEwarOptimalBonus: 30
+    TechLevel: 1
+    UpgradeCost: 100
   Standup L-Set Energy Neutralizer Feedback Control II:
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
     HiSecModifier: 1.0
-    Hp: 40.0
+    Hp: 40
     LowSecModifier: 1.2000000476837158
-    MaxGroupFitted: 1.0
+    MaxGroupFitted: 1
     NullSecModifier: 1.2000000476837158
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 1.0
-    RigSize: 3.0
-    SecurityModifier: 1.0
-    StructureItemVisualFlag: 1.0
-    StructureRigEwarCapUseBonus: -35.0
-    StructureRigEwarFalloffBonus: 30.0
-    StructureRigEwarOptimalBonus: 30.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 3
+    SecurityModifier: 1
+    StructureItemVisualFlag: 1
+    StructureRigEwarCapUseBonus: -35
+    StructureRigEwarFalloffBonus: 30
+    StructureRigEwarOptimalBonus: 30
+    TechLevel: 2
+    UpgradeCost: 150

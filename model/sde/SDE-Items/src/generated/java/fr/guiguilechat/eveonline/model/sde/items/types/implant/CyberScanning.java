@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Implant;
@@ -19,72 +19,72 @@ public class CyberScanning
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DurationBonus;
+    @DefaultIntValue(0)
+    public int DurationBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxScanDeviationModifier;
+    @DefaultIntValue(0)
+    public int MaxScanDeviationModifier;
     /**
      * Tech level of an item
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double TechLevel;
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * Bonus to chance of opening a container.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AccessDifficultyBonus;
+    @DefaultIntValue(0)
+    public int AccessDifficultyBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AccessDifficultyBonusModifier;
+    @DefaultIntValue(0)
+    public int AccessDifficultyBonusModifier;
     /**
      * Whether an item is an implant or not
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Implantness;
+    @DefaultIntValue(0)
+    public int Implantness;
     /**
      * Adds to the virus coherence of profession modules
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double VirusCoherenceBonus;
+    @DefaultIntValue(0)
+    public int VirusCoherenceBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ScanStrengthBonus;
+    @DefaultIntValue(0)
+    public int ScanStrengthBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double VirusStrengthBonus;
+    @DefaultIntValue(0)
+    public int VirusStrengthBonus;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberScanning.yaml";
     private static LinkedHashMap<String, CyberScanning> cache = (null);
 

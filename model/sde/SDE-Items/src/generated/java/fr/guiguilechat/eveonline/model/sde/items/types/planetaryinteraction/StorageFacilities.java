@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.PlanetaryInteraction;
@@ -19,24 +19,24 @@ public class StorageFacilities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double PlanetRestriction;
+    @DefaultIntValue(0)
+    public int PlanetRestriction;
     /**
      * CPU load of ship
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CpuLoad;
+    @DefaultIntValue(0)
+    public int CpuLoad;
     /**
      * Current load of power core
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double PowerLoad;
+    @DefaultIntValue(0)
+    public int PowerLoad;
     public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/StorageFacilities.yaml";
     private static LinkedHashMap<String, StorageFacilities> cache = (null);
 

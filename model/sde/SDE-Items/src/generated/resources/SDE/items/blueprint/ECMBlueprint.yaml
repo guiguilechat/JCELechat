@@ -1,58 +1,58 @@
 items:
   '''Gambler'' Ladar ECM Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Heist'' Radar ECM Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Marshall'' Magnetometric ECM Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Plunderer'' Gravimetric ECM Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gravimetric ECM I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gravimetric ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Ladar ECM I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Ladar ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Legion Gravimetric ECM Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Legion Ladar ECM Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Legion Magnetometric ECM Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Legion Multispectral ECM Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Legion Radar ECM Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Magnetometric ECM I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Magnetometric ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Multispectral ECM I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Multispectral ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Radar ECM I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Radar ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2

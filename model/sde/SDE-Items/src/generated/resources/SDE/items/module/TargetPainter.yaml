@@ -3,163 +3,160 @@ items:
     CapacitorNeed: 4.0
     Cpu: 14.0
     Duration: 5000.0
-    FalloffEffectiveness: 90000.0
+    FalloffEffectiveness: 90000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MaxRange: 36000.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadPainterStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2114.0
-    RequiredSkill2: 19921.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 36000
+    MetaGroupID: 3
+    MetaLevel: 6
+    OverloadPainterStrengthBonus: 20
+    Power: 1
+    RemoteResistanceID: 2114
+    RequiredSkill2: 19921
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 30.0
-    TechLevel: 1.0
+    TechLevel: 1
   Domination Target Painter:
     CapacitorNeed: 10.0
     Cpu: 20.0
     Duration: 5000.0
-    FalloffEffectiveness: 90000.0
+    FalloffEffectiveness: 90000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MaxRange: 36000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadPainterStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2114.0
-    RequiredSkill2: 19921.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 36000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadPainterStrengthBonus: 20
+    Power: 1
+    RemoteResistanceID: 2114
+    RequiredSkill2: 19921
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 33.0
-    TechLevel: 1.0
+    TechLevel: 1
   Parallel Enduring Target Painter:
     CapacitorNeed: 6.0
     Cpu: 20.0
     Duration: 5000.0
-    FalloffEffectiveness: 75000.0
+    FalloffEffectiveness: 75000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MaxRange: 30000.0
-    MetaLevel: 1.0
-    OverloadPainterStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2114.0
-    RequiredSkill2: 19921.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 30000
+    MetaLevel: 1
+    OverloadPainterStrengthBonus: 20
+    Power: 1
+    RemoteResistanceID: 2114
+    RequiredSkill2: 19921
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 27.5
-    TechLevel: 1.0
+    TechLevel: 1
   Partial Weapon Navigation:
     CapacitorNeed: 10.0
-    Cpu: 19.0
     Duration: 5000.0
-    FalloffEffectiveness: 75000.0
+    FalloffEffectiveness: 75000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MaxRange: 26250.0
-    MetaLevel: 1.0
-    OverloadPainterStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2114.0
-    RequiredSkill2: 19921.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 26250
+    MetaLevel: 1
+    OverloadPainterStrengthBonus: 20
+    Power: 1
+    RemoteResistanceID: 2114
+    RequiredSkill2: 19921
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 26.25
-    TechLevel: 1.0
+    TechLevel: 1
   Peripheral Compact Target Painter:
     CapacitorNeed: 10.0
     Cpu: 16.0
     Duration: 5000.0
-    FalloffEffectiveness: 75000.0
+    FalloffEffectiveness: 75000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MaxRange: 30000.0
-    MetaLevel: 1.0
-    OverloadPainterStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2114.0
-    RequiredSkill2: 19921.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 30000
+    MetaLevel: 1
+    OverloadPainterStrengthBonus: 20
+    Power: 1
+    RemoteResistanceID: 2114
+    RequiredSkill2: 19921
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 27.5
-    TechLevel: 1.0
+    TechLevel: 1
   Phased Scoped Target Painter:
     CapacitorNeed: 10.0
     Cpu: 20.0
     Duration: 5000.0
-    FalloffEffectiveness: 82500.0
+    FalloffEffectiveness: 82500
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MaxRange: 33000.0
-    MetaLevel: 1.0
-    OverloadPainterStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2114.0
-    RequiredSkill2: 19921.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 33000
+    MetaLevel: 1
+    OverloadPainterStrengthBonus: 20
+    Power: 1
+    RemoteResistanceID: 2114
+    RequiredSkill2: 19921
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 27.5
-    TechLevel: 1.0
+    TechLevel: 1
   Republic Fleet Target Painter:
     CapacitorNeed: 10.0
     Cpu: 20.0
     Duration: 5000.0
-    FalloffEffectiveness: 90000.0
+    FalloffEffectiveness: 90000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MaxRange: 36000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadPainterStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2114.0
-    RequiredSkill2: 19921.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 36000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadPainterStrengthBonus: 20
+    Power: 1
+    RemoteResistanceID: 2114
+    RequiredSkill2: 19921
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 33.0
-    TechLevel: 1.0
+    TechLevel: 1
   Target Painter I:
     CapacitorNeed: 10.0
-    Cpu: 20.0
     Duration: 5000.0
-    FalloffEffectiveness: 75000.0
+    FalloffEffectiveness: 75000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MaxRange: 30000.0
-    OverloadPainterStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2114.0
-    RequiredSkill2: 19921.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 30000
+    OverloadPainterStrengthBonus: 20
+    Power: 1
+    RemoteResistanceID: 2114
+    RequiredSkill2: 19921
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 25.0
-    TechLevel: 1.0
+    TechLevel: 1
   Target Painter II:
     CapacitorNeed: 12.0
-    Cpu: 24.0
     Duration: 5000.0
-    FalloffEffectiveness: 90000.0
+    FalloffEffectiveness: 90000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MaxRange: 36000.0
-    MetaLevel: 5.0
-    OverloadPainterStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2114.0
-    RequiredSkill2: 19921.0
-    RequiredSkill2Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 36000
+    MetaLevel: 5
+    OverloadPainterStrengthBonus: 20
+    Power: 1
+    RemoteResistanceID: 2114
+    RequiredSkill2: 19921
+    RequiredSkill2Level: 4
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 30.0
-    TechLevel: 2.0
+    TechLevel: 2

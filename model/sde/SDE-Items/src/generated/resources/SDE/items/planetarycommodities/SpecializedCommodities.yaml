@@ -1,64 +1,64 @@
 items:
   Biotech Research Reports:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Camera Drones:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Condensates:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Cryoprotectant Solution:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Data Chips:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Gel-Matrix Biopaste:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Guidance Systems:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Hazmat Detection Systems:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Hermetic Membranes:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   High-Tech Transmitters:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Industrial Explosives:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Neocoms:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Nuclear Reactors:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Planetary Vehicles:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Robotics:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Smartfab Units:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Supercomputers:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Synthetic Synapses:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Transcranial Microcontrollers:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Ukomi Superconductors:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000
   Vaccines:
-    ExportTaxMultiplier: 60000.0
-    ImportTaxMultiplier: 60000.0
+    ExportTaxMultiplier: 60000
+    ImportTaxMultiplier: 60000

@@ -5,363 +5,363 @@ items:
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 10000.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 10000
+    MetaLevel: 1
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -52.5
-    TechLevel: 1.0
+    TechLevel: 1
   Caldari Navy Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 16.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 13000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 13000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -55.0
-    TechLevel: 1.0
+    TechLevel: 1
   Civilian Stasis Webifier:
     CapacitorNeed: 7.0
     Cpu: 27.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 10000.0
-    OverloadRangeBonus: 30.0
-    Power: 2.0
-    RemoteResistanceID: 2115.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 10000
+    OverloadRangeBonus: 30
+    Power: 2
+    RemoteResistanceID: 2115
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -35.0
-    TechLevel: 1.0
+    TechLevel: 1
   Dark Blood Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 25.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 15000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 15000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -55.0
-    TechLevel: 1.0
+    TechLevel: 1
   Domination Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 16.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 15000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 15000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -50.0
-    TechLevel: 1.0
+    TechLevel: 1
   Dread Guristas Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 16.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 13000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 13000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -55.0
-    TechLevel: 1.0
+    TechLevel: 1
   Federation Navy Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 25.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 14000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 14000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -60.0
-    TechLevel: 1.0
+    TechLevel: 1
   Fleeting Compact Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 20.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 10000.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 10000
+    MetaLevel: 1
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -55.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gotan's Modified Stasis Webifier:
     CapacitorNeed: 15.0
     Cpu: 18.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 19000.0
-    MetaGroupID: 5.0
-    MetaLevel: 15.0
-    OverloadRangeBonus: 30.0
-    Power: 1800.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 19000
+    MetaGroupID: 5
+    MetaLevel: 15
+    OverloadRangeBonus: 30
+    Power: 1800
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -60.0
-    TechLevel: 1.0
+    TechLevel: 1
   Hakim's Modified Stasis Webifier:
     CapacitorNeed: 15.0
     Cpu: 18.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 18000.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadRangeBonus: 30.0
-    Power: 1750.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 18000
+    MetaGroupID: 5
+    MetaLevel: 13
+    OverloadRangeBonus: 30
+    Power: 1750
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -60.0
-    TechLevel: 1.0
+    TechLevel: 1
   Khanid Navy Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 16.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 12000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 12000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -60.0
-    TechLevel: 1.0
+    TechLevel: 1
   Mizuro's Modified Stasis Webifier:
     CapacitorNeed: 15.0
     Cpu: 18.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 17000.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadRangeBonus: 30.0
-    Power: 1700.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 17000
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadRangeBonus: 30
+    Power: 1700
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -60.0
-    TechLevel: 1.0
+    TechLevel: 1
   Naiyon's Modified Stasis Webifier:
     CapacitorNeed: 10.0
     Cpu: 18.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 18000.0
-    MetaLevel: 12.0
-    OverloadRangeBonus: 30.0
-    Power: 1500.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 18000
+    MetaLevel: 12
+    OverloadRangeBonus: 30
+    Power: 1500
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -55.0
-    TechLevel: 1.0
+    TechLevel: 1
   Patterned Stasis Web I:
     CapacitorNeed: 5.0
     Cpu: 23.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 10000.0
-    MetaLevel: 2.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 10000
+    MetaLevel: 2
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -55.0
-    TechLevel: 1.0
+    TechLevel: 1
   Republic Fleet Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 16.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 15000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 15000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -50.0
-    TechLevel: 1.0
+    TechLevel: 1
   Shadow Serpentis Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 25.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 14000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 14000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -60.0
-    TechLevel: 1.0
+    TechLevel: 1
   Stasis Webifier I:
     CapacitorNeed: 5.0
     Cpu: 25.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 10000.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 10000
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -50.0
-    TechLevel: 1.0
+    TechLevel: 1
   Stasis Webifier II:
     CapacitorNeed: 6.0
     Cpu: 30.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 10000.0
-    MetaLevel: 5.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 10000
+    MetaLevel: 5
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -60.0
-    TechLevel: 2.0
+    TechLevel: 2
   Tobias' Modified Stasis Webifier:
     CapacitorNeed: 15.0
     Cpu: 18.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 20000.0
-    MetaGroupID: 5.0
-    MetaLevel: 17.0
-    OverloadRangeBonus: 30.0
-    Power: 1850.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 20000
+    MetaGroupID: 5
+    MetaLevel: 17
+    OverloadRangeBonus: 30
+    Power: 1850
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -60.0
-    TechLevel: 1.0
+    TechLevel: 1
   True Sansha Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 25.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 15000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 15000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -55.0
-    TechLevel: 1.0
+    TechLevel: 1
   X5 Enduring Stasis Webifier:
     CapacitorNeed: 2.0
     Cpu: 25.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 10000.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 30.0
-    Power: 1.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MaxRange: 10000
+    MetaLevel: 1
+    OverloadRangeBonus: 30
+    Power: 1
+    RemoteResistanceID: 2115
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SpeedFactor: -55.0
-    TechLevel: 1.0
+    TechLevel: 1

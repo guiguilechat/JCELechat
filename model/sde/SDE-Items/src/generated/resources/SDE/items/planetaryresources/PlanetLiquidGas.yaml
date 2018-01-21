@@ -1,16 +1,16 @@
 items:
   Aqueous Liquids:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
   Ionic Solutions:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
   Noble Gas:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
   Reactive Gas:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
   Suspended Plasma:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5

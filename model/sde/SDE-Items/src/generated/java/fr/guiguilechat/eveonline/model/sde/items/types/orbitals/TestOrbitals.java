@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.orbitals;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Orbitals;
@@ -19,23 +20,23 @@ public class TestOrbitals
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(60000.0D)
-    public double UnanchoringDelay;
+    @DefaultIntValue(60000)
+    public int UnanchoringDelay;
     /**
      * How long it takes to bring this object online.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(60000.0D)
-    public double OnliningDelay;
+    @DefaultIntValue(60000)
+    public int OnliningDelay;
     /**
      * The difficulty in opening this object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double AccessDifficulty;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
@@ -43,7 +44,7 @@ public class TestOrbitals
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Uniformity;
     /**
      * How long it takes to anchor or unanchor this object.
@@ -51,8 +52,8 @@ public class TestOrbitals
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(60000.0D)
-    public double AnchoringDelay;
+    @DefaultIntValue(60000)
+    public int AnchoringDelay;
     public final static String RESOURCE_PATH = "SDE/items/orbitals/TestOrbitals.yaml";
     private static LinkedHashMap<String, TestOrbitals> cache = (null);
 

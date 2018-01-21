@@ -1,80 +1,80 @@
 items:
   Compact Doom Torpedo I:
     Agility: 0.15843622386455536
-    AimedLaunch: 1.0
-    AoeCloudSize: 1750.0
+    AimedLaunch: 1
+    AoeCloudSize: 1750
     AoeDamageReductionFactor: 1.0980000495910645
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 60.0
-    DetonationRange: 35.0
-    ExplosionDelay: 25000.0
+    DetonationRange: 35
+    ExplosionDelay: 25000
     ExplosiveDamage: 3000.0
-    Hp: 1920.0
+    Hp: 1920
     MaxVelocity: 2750.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Compact Purgatory Torpedo I:
     Agility: 0.15843622386455536
-    AimedLaunch: 1.0
-    AoeCloudSize: 1750.0
+    AimedLaunch: 1
+    AoeCloudSize: 1750
     AoeDamageReductionFactor: 1.0980000495910645
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 60.0
-    DetonationRange: 35.0
-    ExplosionDelay: 25000.0
-    Hp: 1920.0
+    DetonationRange: 35
+    ExplosionDelay: 25000
+    Hp: 1920
     MaxVelocity: 2750.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamage: 3000.0
   Compact Rift Torpedo I:
     Agility: 0.15843622386455536
-    AimedLaunch: 1.0
-    AoeCloudSize: 1750.0
+    AimedLaunch: 1
+    AoeCloudSize: 1750
     AoeDamageReductionFactor: 1.0980000495910645
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 60.0
-    DetonationRange: 35.0
-    ExplosionDelay: 25000.0
-    Hp: 1920.0
+    DetonationRange: 35
+    ExplosionDelay: 25000
+    Hp: 1920
     KineticDamage: 3000.0
     MaxVelocity: 2750.0
-    RequiredSkill1: 32339.0
+    RequiredSkill1: 32339
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Compact Shade Torpedo:
     Agility: 0.15843622386455536
-    AimedLaunch: 1.0
-    AoeCloudSize: 1750.0
+    AimedLaunch: 1
+    AoeCloudSize: 1750
     AoeDamageReductionFactor: 1.0980000495910645
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 60.0
-    DetonationRange: 35.0
-    ExplosionDelay: 25000.0
+    DetonationRange: 35
+    ExplosionDelay: 25000
     ExplosiveDamage: 1650.0
-    Hp: 1920.0
+    Hp: 1920
     KineticDamage: 1650.0
     MaxVelocity: 2750.0
-    RequiredSkill1: 32339.0
+    RequiredSkill1: 32339
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Compact Thor Torpedo I:
     Agility: 0.15843622386455536
-    AimedLaunch: 1.0
-    AoeCloudSize: 1750.0
+    AimedLaunch: 1
+    AoeCloudSize: 1750
     AoeDamageReductionFactor: 1.0980000495910645
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 60.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 3000.0
-    ExplosionDelay: 25000.0
-    Hp: 1920.0
+    ExplosionDelay: 25000
+    Hp: 1920
     MaxVelocity: 2750.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1

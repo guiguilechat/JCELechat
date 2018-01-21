@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.fighter;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Fighter;
@@ -19,159 +20,159 @@ public class SupportFighter
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FighterAbilityStasisWebifierDuration;
+    @DefaultIntValue(0)
+    public int FighterAbilityStasisWebifierDuration;
     /**
      * Maximum Velocity Bonus
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FighterAbilityStasisWebifierSpeedPenalty;
+    @DefaultIntValue(0)
+    public int FighterAbilityStasisWebifierSpeedPenalty;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterAbilityStasisWebifierSpeedPenaltyInterim;
+    @DefaultIntValue(0)
+    public int FighterAbilityStasisWebifierSpeedPenaltyInterim;
     /**
      * Optimal Range
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FighterAbilityStasisWebifierOptimalRange;
+    @DefaultIntValue(0)
+    public int FighterAbilityStasisWebifierOptimalRange;
     /**
      * Effectiveness Falloff
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FighterAbilityStasisWebifierFalloffRange;
+    @DefaultIntValue(0)
+    public int FighterAbilityStasisWebifierFalloffRange;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterAbilityStasisWebifierResistanceID;
+    @DefaultIntValue(0)
+    public int FighterAbilityStasisWebifierResistanceID;
     /**
      * Duration
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FighterAbilityWarpDisruptionDuration;
+    @DefaultIntValue(0)
+    public int FighterAbilityWarpDisruptionDuration;
     /**
      * Optimal Range
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FighterAbilityWarpDisruptionRange;
+    @DefaultIntValue(0)
+    public int FighterAbilityWarpDisruptionRange;
     /**
      * Warp Disruption Strength
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FighterAbilityWarpDisruptionPointStrength;
+    @DefaultIntValue(0)
+    public int FighterAbilityWarpDisruptionPointStrength;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterAbilityWarpDisruptionPointStrengthInterim;
+    @DefaultIntValue(0)
+    public int FighterAbilityWarpDisruptionPointStrengthInterim;
     /**
      * Duration
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FighterAbilityEnergyNeutralizerDuration;
+    @DefaultIntValue(0)
+    public int FighterAbilityEnergyNeutralizerDuration;
     /**
      * Optimal Range
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FighterAbilityEnergyNeutralizerOptimalRange;
+    @DefaultIntValue(0)
+    public int FighterAbilityEnergyNeutralizerOptimalRange;
     /**
      * Effectiveness Falloff
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FighterAbilityEnergyNeutralizerFalloffRange;
+    @DefaultIntValue(0)
+    public int FighterAbilityEnergyNeutralizerFalloffRange;
     /**
      * Energy Amount Neutralized
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FighterAbilityEnergyNeutralizerAmount;
+    @DefaultIntValue(0)
+    public int FighterAbilityEnergyNeutralizerAmount;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterSquadronIsSupport;
+    @DefaultIntValue(0)
+    public int FighterSquadronIsSupport;
     /**
      * Duration
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FighterAbilityECMDuration;
+    @DefaultIntValue(0)
+    public int FighterAbilityECMDuration;
     /**
      * Optimal Range
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FighterAbilityECMRangeOptimal;
+    @DefaultIntValue(0)
+    public int FighterAbilityECMRangeOptimal;
     /**
      * Effectiveness Falloff
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FighterAbilityECMRangeFalloff;
+    @DefaultIntValue(0)
+    public int FighterAbilityECMRangeFalloff;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterSquadronIsStandupSupport;
+    @DefaultIntValue(0)
+    public int FighterSquadronIsStandupSupport;
     /**
      * Gravimetric ECM Jammer Strength
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double FighterAbilityECMStrengthGravimetric;
     /**
      * Ladar ECM Jammer Strength
@@ -179,7 +180,7 @@ public class SupportFighter
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double FighterAbilityECMStrengthLadar;
     /**
      * Magnetometric ECM Jammer Strength
@@ -187,7 +188,7 @@ public class SupportFighter
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double FighterAbilityECMStrengthMagnetometric;
     /**
      * Radar ECM Jammer Strength
@@ -195,7 +196,7 @@ public class SupportFighter
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double FighterAbilityECMStrengthRadar;
     /**
      * 
@@ -203,16 +204,16 @@ public class SupportFighter
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterAbilityECMTargetSuccess;
+    @DefaultIntValue(0)
+    public int FighterAbilityECMTargetSuccess;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterAbilityECMTargetJam;
+    @DefaultIntValue(0)
+    public int FighterAbilityECMTargetJam;
     public final static String RESOURCE_PATH = "SDE/items/fighter/SupportFighter.yaml";
     private static LinkedHashMap<String, SupportFighter> cache = (null);
 

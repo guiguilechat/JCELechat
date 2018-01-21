@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Starbase;
@@ -19,23 +20,23 @@ public class ScannerArray
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.1D)
-    public double FighterAbilityAntiCapitalMissileResistance;
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiCapitalMissileResistance;
     /**
      * Amount of maximum shield HP on the item.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldCapacity;
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Uniformity;
     /**
      * Length of activation time.
@@ -43,7 +44,7 @@ public class ScannerArray
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Duration;
     /**
      * The number of hit points on the entities armor.
@@ -51,15 +52,15 @@ public class ScannerArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorHP;
+    @DefaultIntValue(0)
+    public int ArmorHP;
     /**
      * DO NOT MESS WITH
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ArmorUniformity;
     /**
      * Radar strength.
@@ -67,7 +68,7 @@ public class ScannerArray
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanRadarStrength;
     /**
      * Ladar strength.
@@ -75,7 +76,7 @@ public class ScannerArray
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanLadarStrength;
     /**
      * Magnetometric strength.
@@ -83,7 +84,7 @@ public class ScannerArray
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanMagnetometricStrength;
     /**
      * Gravimetric strength.
@@ -91,7 +92,7 @@ public class ScannerArray
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanGravimetricStrength;
     /**
      * Minimum scanning error
@@ -99,15 +100,15 @@ public class ScannerArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MinScanDeviation;
+    @DefaultIntValue(0)
+    public int MinScanDeviation;
     /**
      * Maximum scan error
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxScanDeviation;
     /**
      * Required skill level for skill 1
@@ -115,15 +116,15 @@ public class ScannerArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * The hull damage proportion at which an entity becomes incapacitated.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double IncapacitationRatio;
     /**
      * current power need
@@ -131,15 +132,15 @@ public class ScannerArray
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * Amount of time taken to fully recharge the shield.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldRechargeRate;
     /**
      * Whether the structure requires the onliner's alliance to hold sovereignty in the system for it to be onlineable.
@@ -147,15 +148,15 @@ public class ScannerArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double OnliningRequiresSovereigntyLevel;
+    @DefaultIntValue(0)
+    public int OnliningRequiresSovereigntyLevel;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldUniformity;
     /**
      * Signature Radius is used for turret tracking and scanning.
@@ -163,23 +164,23 @@ public class ScannerArray
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(100.0D)
-    public double SignatureRadius;
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * How many structures in this group can be anchored for the same alliance per solar system.  0 means there is no limit.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double PosAnchoredPerSolarSystemAmount;
+    @DefaultIntValue(0)
+    public int PosAnchoredPerSolarSystemAmount;
     /**
      * CPU need of module
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * The type ID of the skill that is required.
@@ -187,16 +188,16 @@ public class ScannerArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Effective range of scanner in multiples of AUs
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(10.0D)
-    public double ScanRange;
+    @DefaultIntValue(10)
+    public int ScanRange;
     public final static String RESOURCE_PATH = "SDE/items/starbase/ScannerArray.yaml";
     private static LinkedHashMap<String, ScannerArray> cache = (null);
 

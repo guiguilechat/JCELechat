@@ -2,67 +2,65 @@ items:
   '''Recusant'' Hostile Targeting Array I':
     CapacitorNeed: 8.0
     Duration: 5000.0
-    Hp: 40.0
-    MaxLockedTargetsBonus: 2.0
-    MetaLevel: 2.0
-    Power: 1.0
-    RequiredSkill1: 3429.0
-    RequiredSkill1Level: 1.0
-    TargetHostileRange: 50000.0
-    TechLevel: 1.0
+    Hp: 40
+    MaxLockedTargetsBonus: 2
+    MetaLevel: 2
+    Power: 1
+    RequiredSkill1: 3429
+    RequiredSkill1Level: 1
+    TargetHostileRange: 50000
+    TechLevel: 1
   Auto Targeting System I:
     CapacitorNeed: 8.0
-    Cpu: 1.0
     Duration: 5000.0
-    Hp: 40.0
-    MaxLockedTargetsBonus: 2.0
-    Power: 1.0
-    RequiredSkill1: 3429.0
-    RequiredSkill1Level: 1.0
-    TargetHostileRange: 50000.0
-    TechLevel: 1.0
+    Hp: 40
+    MaxLockedTargetsBonus: 2
+    Power: 1
+    RequiredSkill1: 3429
+    RequiredSkill1Level: 1
+    TargetHostileRange: 50000
+    TechLevel: 1
   Auto Targeting System II:
     CapacitorNeed: 10.0
-    Cpu: 35.0
     Duration: 5000.0
-    Hp: 40.0
-    MaxLockedTargetsBonus: 3.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 3429.0
-    RequiredSkill1Level: 4.0
-    TargetHostileRange: 60000.0
-    TechLevel: 2.0
+    Hp: 40
+    MaxLockedTargetsBonus: 3
+    MetaLevel: 5
+    Power: 1
+    RequiredSkill1: 3429
+    RequiredSkill1Level: 4
+    TargetHostileRange: 60000
+    TechLevel: 2
   Automated Targeting Unit I:
     CapacitorNeed: 8.0
     Duration: 5000.0
-    Hp: 40.0
-    MaxLockedTargetsBonus: 2.0
-    MetaLevel: 4.0
-    Power: 1.0
-    RequiredSkill1: 3429.0
-    RequiredSkill1Level: 1.0
-    TargetHostileRange: 50000.0
-    TechLevel: 1.0
+    Hp: 40
+    MaxLockedTargetsBonus: 2
+    MetaLevel: 4
+    Power: 1
+    RequiredSkill1: 3429
+    RequiredSkill1Level: 1
+    TargetHostileRange: 50000
+    TechLevel: 1
   Hostile Target Acquisition I:
     CapacitorNeed: 8.0
     Duration: 5000.0
-    Hp: 40.0
-    MaxLockedTargetsBonus: 2.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill1: 3429.0
-    RequiredSkill1Level: 1.0
-    TargetHostileRange: 50000.0
-    TechLevel: 1.0
+    Hp: 40
+    MaxLockedTargetsBonus: 2
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill1: 3429
+    RequiredSkill1Level: 1
+    TargetHostileRange: 50000
+    TechLevel: 1
   Responsive Auto-Targeting System I:
     CapacitorNeed: 8.0
     Duration: 5000.0
-    Hp: 40.0
-    MaxLockedTargetsBonus: 2.0
-    MetaLevel: 3.0
-    Power: 1.0
-    RequiredSkill1: 3429.0
-    RequiredSkill1Level: 1.0
-    TargetHostileRange: 50000.0
-    TechLevel: 1.0
+    Hp: 40
+    MaxLockedTargetsBonus: 2
+    MetaLevel: 3
+    Power: 1
+    RequiredSkill1: 3429
+    RequiredSkill1Level: 1
+    TargetHostileRange: 50000
+    TechLevel: 1

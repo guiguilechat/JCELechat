@@ -1,2710 +1,2702 @@
 items:
   Blood Gamma L:
-    CapNeedBonus: -15.0
-    ChargeSize: 3.0
+    CapNeedBonus: -15
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 30.799999237060547
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.625
   Blood Gamma M:
-    CapNeedBonus: -15.0
-    ChargeSize: 2.0
+    CapNeedBonus: -15
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 15.399999618530273
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.625
   Blood Gamma S:
-    CapNeedBonus: -15.0
-    ChargeSize: 1.0
+    CapNeedBonus: -15
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 7.699999809265137
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.625
   Blood Gamma XL:
-    CapNeedBonus: -15.0
-    ChargeSize: 4.0
+    CapNeedBonus: -15
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 61.599998474121094
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.625
   Blood Infrared L:
-    CapNeedBonus: -35.0
-    ChargeSize: 3.0
+    CapNeedBonus: -35
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 22.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.2000000476837158
   Blood Infrared M:
-    CapNeedBonus: -35.0
-    ChargeSize: 2.0
+    CapNeedBonus: -35
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 11.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.2000000476837158
   Blood Infrared S:
-    CapNeedBonus: -35.0
-    ChargeSize: 1.0
+    CapNeedBonus: -35
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 5.5
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.2000000476837158
   Blood Infrared XL:
-    CapNeedBonus: -35.0
-    ChargeSize: 4.0
+    CapNeedBonus: -35
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 44.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.2000000476837158
   Blood Microwave L:
-    CapNeedBonus: -25.0
-    ChargeSize: 3.0
+    CapNeedBonus: -25
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 17.600000381469727
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
   Blood Microwave M:
-    CapNeedBonus: -25.0
-    ChargeSize: 2.0
+    CapNeedBonus: -25
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 8.800000190734863
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.399999976158142
   Blood Microwave S:
-    CapNeedBonus: -25.0
-    ChargeSize: 1.0
+    CapNeedBonus: -25
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 4.400000095367432
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.399999976158142
   Blood Microwave XL:
-    CapNeedBonus: -25.0
-    ChargeSize: 4.0
+    CapNeedBonus: -25
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 35.20000076293945
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
   Blood Multifrequency L:
-    ChargeSize: 3.0
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 30.799999237060547
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 22.0
     WeaponRangeMultiplier: 0.5
   Blood Multifrequency M:
-    ChargeSize: 2.0
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 15.399999618530273
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 11.0
     WeaponRangeMultiplier: 0.5
   Blood Multifrequency S:
-    ChargeSize: 1.0
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 7.699999809265137
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 5.5
     WeaponRangeMultiplier: 0.5
   Blood Multifrequency XL:
-    ChargeSize: 4.0
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 61.599998474121094
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 44.0
     WeaponRangeMultiplier: 0.5
   Blood Radio L:
-    CapNeedBonus: -15.0
-    ChargeSize: 3.0
+    CapNeedBonus: -15
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 22.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Blood Radio M:
-    CapNeedBonus: -15.0
-    ChargeSize: 2.0
+    CapNeedBonus: -15
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 11.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Blood Radio S:
-    CapNeedBonus: -15.0
-    ChargeSize: 1.0
+    CapNeedBonus: -15
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 5.5
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Blood Radio XL:
-    CapNeedBonus: -15.0
-    ChargeSize: 4.0
+    CapNeedBonus: -15
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 44.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Blood Standard L:
-    CapNeedBonus: -45.0
-    ChargeSize: 3.0
+    CapNeedBonus: -45
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 22.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 1.0
   Blood Standard M:
-    CapNeedBonus: -45.0
-    ChargeSize: 2.0
+    CapNeedBonus: -45
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 11.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 1.0
   Blood Standard S:
-    CapNeedBonus: -45.0
-    ChargeSize: 1.0
+    CapNeedBonus: -45
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 5.5
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 1.0
   Blood Standard XL:
-    CapNeedBonus: -45.0
-    ChargeSize: 4.0
+    CapNeedBonus: -45
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 44.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 1.0
   Blood Ultraviolet L:
-    CapNeedBonus: -35.0
-    ChargeSize: 3.0
+    CapNeedBonus: -35
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 26.399999618530273
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 0.875
   Blood Ultraviolet M:
-    CapNeedBonus: -35.0
-    ChargeSize: 2.0
+    CapNeedBonus: -35
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 13.199999809265137
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 0.875
   Blood Ultraviolet S:
-    CapNeedBonus: -35.0
-    ChargeSize: 1.0
+    CapNeedBonus: -35
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 6.599999904632568
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 0.875
   Blood Ultraviolet XL:
-    CapNeedBonus: -35.0
-    ChargeSize: 4.0
+    CapNeedBonus: -35
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 52.79999923706055
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 0.875
   Blood Xray L:
-    CapNeedBonus: -25.0
-    ChargeSize: 3.0
+    CapNeedBonus: -25
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 26.399999618530273
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.75
   Blood Xray M:
-    CapNeedBonus: -25.0
-    ChargeSize: 2.0
+    CapNeedBonus: -25
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 13.199999809265137
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.75
   Blood Xray S:
-    CapNeedBonus: -25.0
-    ChargeSize: 1.0
+    CapNeedBonus: -25
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 6.599999904632568
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.75
   Blood Xray XL:
-    CapNeedBonus: -25.0
-    ChargeSize: 4.0
+    CapNeedBonus: -25
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 52.79999923706055
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.75
   Civilian Autocannon Ammo:
-    ChargeSize: 1.0
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EntityFlyRangeMultiplier: 1.0
-    ExplosiveDamage: 3.0
-    Hp: 1.0
-    KineticDamage: 2.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    TechLevel: 1
     WeaponRangeMultiplier: 1.0
   Civilian Blaster Charge:
-    ChargeSize: 1.0
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    KineticDamage: 2.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    TechLevel: 1.0
-    ThermalDamage: 3.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    TechLevel: 1
     WeaponRangeMultiplier: 1.0
   Civilian Pulse Crystal:
-    ChargeSize: 1.0
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    EmDamage: 3.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    TechLevel: 1.0
-    ThermalDamage: 2.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    TechLevel: 1
     WeaponRangeMultiplier: 1.0
   Civilian Railgun Charge:
-    ChargeSize: 1.0
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    KineticDamage: 3.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    TechLevel: 1.0
-    ThermalDamage: 2.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    TechLevel: 1
     WeaponRangeMultiplier: 1.0
   Dark Blood Gamma L:
-    CapNeedBonus: -15.0
-    ChargeSize: 3.0
+    CapNeedBonus: -15
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 33.599998474121094
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.625
   Dark Blood Gamma M:
-    CapNeedBonus: -15.0
-    ChargeSize: 2.0
+    CapNeedBonus: -15
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 16.799999237060547
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.625
   Dark Blood Gamma S:
-    CapNeedBonus: -15.0
-    ChargeSize: 1.0
+    CapNeedBonus: -15
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 8.399999618530273
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.625
   Dark Blood Gamma XL:
-    CapNeedBonus: -15.0
-    ChargeSize: 4.0
+    CapNeedBonus: -15
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 67.19999694824219
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.625
   Dark Blood Infrared L:
-    CapNeedBonus: -35.0
-    ChargeSize: 3.0
+    CapNeedBonus: -35
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 24.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.2000000476837158
   Dark Blood Infrared M:
-    CapNeedBonus: -35.0
-    ChargeSize: 2.0
+    CapNeedBonus: -35
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 12.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.2000000476837158
   Dark Blood Infrared S:
-    CapNeedBonus: -35.0
-    ChargeSize: 1.0
+    CapNeedBonus: -35
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 6.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.2000000476837158
   Dark Blood Infrared XL:
-    CapNeedBonus: -35.0
-    ChargeSize: 4.0
+    CapNeedBonus: -35
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 48.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.2000000476837158
   Dark Blood Microwave L:
-    CapNeedBonus: -25.0
-    ChargeSize: 3.0
+    CapNeedBonus: -25
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 19.200000762939453
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
   Dark Blood Microwave M:
-    CapNeedBonus: -25.0
-    ChargeSize: 2.0
+    CapNeedBonus: -25
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 9.600000381469727
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
   Dark Blood Microwave S:
-    CapNeedBonus: -25.0
-    ChargeSize: 1.0
+    CapNeedBonus: -25
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 4.800000190734863
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.399999976158142
   Dark Blood Microwave XL:
-    CapNeedBonus: -25.0
-    ChargeSize: 4.0
+    CapNeedBonus: -25
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 38.400001525878906
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.399999976158142
   Dark Blood Multifrequency L:
-    ChargeSize: 3.0
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 33.599998474121094
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 0.5
   Dark Blood Multifrequency M:
-    ChargeSize: 2.0
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 16.799999237060547
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 0.5
   Dark Blood Multifrequency S:
-    ChargeSize: 1.0
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 8.399999618530273
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 0.5
   Dark Blood Multifrequency XL:
-    ChargeSize: 4.0
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 67.19999694824219
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 48.0
     WeaponRangeMultiplier: 0.5
   Dark Blood Radio L:
-    CapNeedBonus: -15.0
-    ChargeSize: 3.0
+    CapNeedBonus: -15
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 24.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Dark Blood Radio M:
-    CapNeedBonus: -15.0
-    ChargeSize: 2.0
+    CapNeedBonus: -15
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 12.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Dark Blood Radio S:
-    CapNeedBonus: -15.0
-    ChargeSize: 1.0
+    CapNeedBonus: -15
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 6.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Dark Blood Radio XL:
-    CapNeedBonus: -15.0
-    ChargeSize: 4.0
+    CapNeedBonus: -15
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 48.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Dark Blood Standard L:
-    CapNeedBonus: -45.0
-    ChargeSize: 3.0
+    CapNeedBonus: -45
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 24.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 1.0
   Dark Blood Standard M:
-    CapNeedBonus: -45.0
-    ChargeSize: 2.0
+    CapNeedBonus: -45
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 12.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 1.0
   Dark Blood Standard S:
-    CapNeedBonus: -45.0
-    ChargeSize: 1.0
+    CapNeedBonus: -45
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 6.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 1.0
   Dark Blood Standard XL:
-    CapNeedBonus: -45.0
-    ChargeSize: 4.0
+    CapNeedBonus: -45
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 48.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 1.0
   Dark Blood Ultraviolet L:
-    CapNeedBonus: -35.0
-    ChargeSize: 3.0
+    CapNeedBonus: -35
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 28.799999237060547
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 0.875
   Dark Blood Ultraviolet M:
-    CapNeedBonus: -35.0
-    ChargeSize: 2.0
+    CapNeedBonus: -35
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 14.399999618530273
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 0.875
   Dark Blood Ultraviolet S:
-    CapNeedBonus: -35.0
-    ChargeSize: 1.0
+    CapNeedBonus: -35
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 7.199999809265137
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 0.875
   Dark Blood Ultraviolet XL:
-    CapNeedBonus: -35.0
-    ChargeSize: 4.0
+    CapNeedBonus: -35
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 57.599998474121094
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 0.875
   Dark Blood Xray L:
-    CapNeedBonus: -25.0
-    ChargeSize: 3.0
+    CapNeedBonus: -25
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 28.799999237060547
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.75
   Dark Blood Xray M:
-    CapNeedBonus: -25.0
-    ChargeSize: 2.0
+    CapNeedBonus: -25
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 14.399999618530273
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.75
   Dark Blood Xray S:
-    CapNeedBonus: -25.0
-    ChargeSize: 1.0
+    CapNeedBonus: -25
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 7.199999809265137
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.75
   Dark Blood Xray XL:
-    CapNeedBonus: -25.0
-    ChargeSize: 4.0
+    CapNeedBonus: -25
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 57.599998474121094
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.75
   Gamma L:
-    CapNeedBonus: -15.0
-    ChargeSize: 3.0
+    CapNeedBonus: -15
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 28.0
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    TechLevel: 1
     ThermalDamage: 16.0
     WeaponRangeMultiplier: 0.625
   Gamma M:
-    CapNeedBonus: -15.0
-    ChargeSize: 2.0
+    CapNeedBonus: -15
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 14.0
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    TechLevel: 1
     ThermalDamage: 8.0
     WeaponRangeMultiplier: 0.625
   Gamma S:
-    CapNeedBonus: -15.0
-    ChargeSize: 1.0
+    CapNeedBonus: -15
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 7.0
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    TechLevel: 1
     ThermalDamage: 4.0
     WeaponRangeMultiplier: 0.625
   Gamma XL:
-    CapNeedBonus: -15.0
-    ChargeSize: 4.0
+    CapNeedBonus: -15
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 56.0
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    TechLevel: 1
     ThermalDamage: 32.0
     WeaponRangeMultiplier: 0.625
   Imperial Navy Gamma L:
-    CapNeedBonus: -15.0
-    ChargeSize: 3.0
+    CapNeedBonus: -15
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 32.20000076293945
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 18.399999618530273
     WeaponRangeMultiplier: 0.625
   Imperial Navy Gamma M:
-    CapNeedBonus: -15.0
-    ChargeSize: 2.0
+    CapNeedBonus: -15
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 16.100000381469727
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 0.625
   Imperial Navy Gamma S:
-    CapNeedBonus: -15.0
-    ChargeSize: 1.0
+    CapNeedBonus: -15
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 8.050000190734863
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 0.625
   Imperial Navy Infrared L:
-    CapNeedBonus: -35.0
-    ChargeSize: 3.0
+    CapNeedBonus: -35
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 23.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 1.2000000476837158
   Imperial Navy Infrared M:
-    CapNeedBonus: -35.0
-    ChargeSize: 2.0
+    CapNeedBonus: -35
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 11.5
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 1.2000000476837158
   Imperial Navy Infrared S:
-    CapNeedBonus: -35.0
-    ChargeSize: 1.0
+    CapNeedBonus: -35
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 5.75
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 2.299999952316284
     WeaponRangeMultiplier: 1.2000000476837158
   Imperial Navy Microwave L:
-    CapNeedBonus: -25.0
-    ChargeSize: 3.0
+    CapNeedBonus: -25
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 18.399999618530273
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 1.399999976158142
   Imperial Navy Microwave M:
-    CapNeedBonus: -25.0
-    ChargeSize: 2.0
+    CapNeedBonus: -25
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 9.199999809265137
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 1.399999976158142
   Imperial Navy Microwave S:
-    CapNeedBonus: -25.0
-    ChargeSize: 1.0
+    CapNeedBonus: -25
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 4.599999904632568
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 2.299999952316284
     WeaponRangeMultiplier: 1.399999976158142
   Imperial Navy Multifrequency L:
-    ChargeSize: 3.0
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 32.20000076293945
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 23.0
     WeaponRangeMultiplier: 0.5
   Imperial Navy Multifrequency M:
-    ChargeSize: 2.0
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 16.100000381469727
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 11.5
     WeaponRangeMultiplier: 0.5
   Imperial Navy Multifrequency S:
-    ChargeSize: 1.0
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 8.050000190734863
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 5.75
     WeaponRangeMultiplier: 0.5
   Imperial Navy Radio L:
-    CapNeedBonus: -15.0
-    ChargeSize: 3.0
+    CapNeedBonus: -15
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 23.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Imperial Navy Radio M:
-    CapNeedBonus: -15.0
-    ChargeSize: 2.0
+    CapNeedBonus: -15
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 11.5
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Imperial Navy Radio S:
-    CapNeedBonus: -15.0
-    ChargeSize: 1.0
+    CapNeedBonus: -15
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 5.75
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Imperial Navy Standard L:
-    CapNeedBonus: -45.0
-    ChargeSize: 3.0
+    CapNeedBonus: -45
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 23.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 13.800000190734863
     WeaponRangeMultiplier: 1.0
   Imperial Navy Standard M:
-    CapNeedBonus: -45.0
-    ChargeSize: 2.0
+    CapNeedBonus: -45
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 11.5
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 6.900000095367432
     WeaponRangeMultiplier: 1.0
   Imperial Navy Standard S:
-    CapNeedBonus: -45.0
-    ChargeSize: 1.0
+    CapNeedBonus: -45
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 5.75
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 3.450000047683716
     WeaponRangeMultiplier: 1.0
   Imperial Navy Ultraviolet L:
-    CapNeedBonus: -35.0
-    ChargeSize: 3.0
+    CapNeedBonus: -35
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 27.600000381469727
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 13.800000190734863
     WeaponRangeMultiplier: 0.875
   Imperial Navy Ultraviolet M:
-    CapNeedBonus: -35.0
-    ChargeSize: 2.0
+    CapNeedBonus: -35
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 13.800000190734863
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 6.900000095367432
     WeaponRangeMultiplier: 0.875
   Imperial Navy Ultraviolet S:
-    CapNeedBonus: -35.0
-    ChargeSize: 1.0
+    CapNeedBonus: -35
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 6.900000095367432
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 3.450000047683716
     WeaponRangeMultiplier: 0.875
   Imperial Navy Xray L:
-    CapNeedBonus: -25.0
-    ChargeSize: 3.0
+    CapNeedBonus: -25
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 27.600000381469727
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 18.399999618530273
     WeaponRangeMultiplier: 0.75
   Imperial Navy Xray M:
-    CapNeedBonus: -25.0
-    ChargeSize: 2.0
+    CapNeedBonus: -25
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 13.800000190734863
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 0.75
   Imperial Navy Xray S:
-    CapNeedBonus: -25.0
-    ChargeSize: 1.0
+    CapNeedBonus: -25
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 6.900000095367432
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 0.75
   Infrared L:
-    CapNeedBonus: -35.0
-    ChargeSize: 3.0
+    CapNeedBonus: -35
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 20.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    TechLevel: 1
     ThermalDamage: 8.0
     WeaponRangeMultiplier: 1.2000000476837158
   Infrared M:
-    CapNeedBonus: -35.0
-    ChargeSize: 2.0
+    CapNeedBonus: -35
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 10.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    TechLevel: 1
     ThermalDamage: 4.0
     WeaponRangeMultiplier: 1.2000000476837158
   Infrared S:
-    CapNeedBonus: -35.0
-    ChargeSize: 1.0
+    CapNeedBonus: -35
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 5.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    TechLevel: 1
     ThermalDamage: 2.0
     WeaponRangeMultiplier: 1.2000000476837158
   Infrared XL:
-    CapNeedBonus: -35.0
-    ChargeSize: 4.0
+    CapNeedBonus: -35
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 40.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    TechLevel: 1
     ThermalDamage: 16.0
     WeaponRangeMultiplier: 1.2000000476837158
   Microwave L:
-    CapNeedBonus: -25.0
-    ChargeSize: 3.0
+    CapNeedBonus: -25
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 16.0
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    TechLevel: 1
     ThermalDamage: 8.0
     WeaponRangeMultiplier: 1.399999976158142
   Microwave M:
-    CapNeedBonus: -25.0
-    ChargeSize: 2.0
+    CapNeedBonus: -25
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 8.0
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    TechLevel: 1
     ThermalDamage: 4.0
     WeaponRangeMultiplier: 1.399999976158142
   Microwave S:
-    CapNeedBonus: -25.0
-    ChargeSize: 1.0
+    CapNeedBonus: -25
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 4.0
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    TechLevel: 1
     ThermalDamage: 2.0
     WeaponRangeMultiplier: 1.399999976158142
   Microwave XL:
-    CapNeedBonus: -25.0
-    ChargeSize: 4.0
+    CapNeedBonus: -25
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 32.0
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    TechLevel: 1
     ThermalDamage: 16.0
     WeaponRangeMultiplier: 1.399999976158142
   Multifrequency L:
-    ChargeSize: 3.0
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 28.0
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    TechLevel: 1
     ThermalDamage: 20.0
     WeaponRangeMultiplier: 0.5
   Multifrequency M:
-    ChargeSize: 2.0
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 14.0
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    TechLevel: 1
     ThermalDamage: 10.0
     WeaponRangeMultiplier: 0.5
   Multifrequency S:
-    ChargeSize: 1.0
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 7.0
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    TechLevel: 1
     ThermalDamage: 5.0
     WeaponRangeMultiplier: 0.5
   Multifrequency XL:
-    ChargeSize: 4.0
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 56.0
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    TechLevel: 1
     ThermalDamage: 40.0
     WeaponRangeMultiplier: 0.5
   Orbital Laser S:
-    CapNeedBonus: -45.0
-    ChargeSize: 1.0
+    CapNeedBonus: -45
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    TechLevel: 1
     WeaponRangeMultiplier: 1.0
   Radio L:
-    CapNeedBonus: -15.0
-    ChargeSize: 3.0
+    CapNeedBonus: -15
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 20.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Radio M:
-    CapNeedBonus: -15.0
-    ChargeSize: 2.0
+    CapNeedBonus: -15
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 10.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Radio S:
-    CapNeedBonus: -15.0
-    ChargeSize: 1.0
+    CapNeedBonus: -15
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 5.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Radio XL:
-    CapNeedBonus: -15.0
-    ChargeSize: 4.0
+    CapNeedBonus: -15
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 40.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Sanshas Gamma L:
-    CapNeedBonus: -15.0
-    ChargeSize: 3.0
+    CapNeedBonus: -15
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 30.799999237060547
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.625
   Sanshas Gamma M:
-    CapNeedBonus: -15.0
-    ChargeSize: 2.0
+    CapNeedBonus: -15
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 15.399999618530273
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.625
   Sanshas Gamma S:
-    CapNeedBonus: -15.0
-    ChargeSize: 1.0
+    CapNeedBonus: -15
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 7.699999809265137
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.625
   Sanshas Gamma XL:
-    CapNeedBonus: -15.0
-    ChargeSize: 4.0
+    CapNeedBonus: -15
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 61.599998474121094
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.625
   Sanshas Infrared L:
-    CapNeedBonus: -35.0
-    ChargeSize: 3.0
+    CapNeedBonus: -35
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 22.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.2000000476837158
   Sanshas Infrared M:
-    CapNeedBonus: -35.0
-    ChargeSize: 2.0
+    CapNeedBonus: -35
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 11.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.2000000476837158
   Sanshas Infrared S:
-    CapNeedBonus: -35.0
-    ChargeSize: 1.0
+    CapNeedBonus: -35
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 5.5
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.2000000476837158
   Sanshas Infrared XL:
-    CapNeedBonus: -35.0
-    ChargeSize: 4.0
+    CapNeedBonus: -35
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 44.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.2000000476837158
   Sanshas Microwave L:
-    CapNeedBonus: -25.0
-    ChargeSize: 3.0
+    CapNeedBonus: -25
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 17.600000381469727
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
   Sanshas Microwave M:
-    CapNeedBonus: -25.0
-    ChargeSize: 2.0
+    CapNeedBonus: -25
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 8.800000190734863
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.399999976158142
   Sanshas Microwave S:
-    CapNeedBonus: -25.0
-    ChargeSize: 1.0
+    CapNeedBonus: -25
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 4.400000095367432
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.399999976158142
   Sanshas Microwave XL:
-    CapNeedBonus: -25.0
-    ChargeSize: 4.0
+    CapNeedBonus: -25
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 35.20000076293945
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
   Sanshas Multifrequency L:
-    ChargeSize: 3.0
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 30.799999237060547
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 22.0
     WeaponRangeMultiplier: 0.5
   Sanshas Multifrequency M:
-    ChargeSize: 2.0
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 15.399999618530273
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 11.0
     WeaponRangeMultiplier: 0.5
   Sanshas Multifrequency S:
-    ChargeSize: 1.0
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 7.699999809265137
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 5.5
     WeaponRangeMultiplier: 0.5
   Sanshas Multifrequency XL:
-    ChargeSize: 4.0
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 61.599998474121094
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 44.0
     WeaponRangeMultiplier: 0.5
   Sanshas Radio L:
-    CapNeedBonus: -15.0
-    ChargeSize: 3.0
+    CapNeedBonus: -15
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 22.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Sanshas Radio M:
-    CapNeedBonus: -15.0
-    ChargeSize: 2.0
+    CapNeedBonus: -15
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 11.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Sanshas Radio S:
-    CapNeedBonus: -15.0
-    ChargeSize: 1.0
+    CapNeedBonus: -15
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 5.5
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Sanshas Radio XL:
-    CapNeedBonus: -15.0
-    ChargeSize: 4.0
+    CapNeedBonus: -15
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 44.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   Sanshas Standard L:
-    CapNeedBonus: -45.0
-    ChargeSize: 3.0
+    CapNeedBonus: -45
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 22.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 1.0
   Sanshas Standard M:
-    CapNeedBonus: -45.0
-    ChargeSize: 2.0
+    CapNeedBonus: -45
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 11.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 1.0
   Sanshas Standard S:
-    CapNeedBonus: -45.0
-    ChargeSize: 1.0
+    CapNeedBonus: -45
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 5.5
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 1.0
   Sanshas Standard XL:
-    CapNeedBonus: -45.0
-    ChargeSize: 4.0
+    CapNeedBonus: -45
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 44.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 1.0
   Sanshas Ultraviolet L:
-    CapNeedBonus: -35.0
-    ChargeSize: 3.0
+    CapNeedBonus: -35
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 26.399999618530273
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 0.875
   Sanshas Ultraviolet M:
-    CapNeedBonus: -35.0
-    ChargeSize: 2.0
+    CapNeedBonus: -35
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 13.199999809265137
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 0.875
   Sanshas Ultraviolet S:
-    CapNeedBonus: -35.0
-    ChargeSize: 1.0
+    CapNeedBonus: -35
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 6.599999904632568
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 0.875
   Sanshas Ultraviolet XL:
-    CapNeedBonus: -35.0
-    ChargeSize: 4.0
+    CapNeedBonus: -35
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 52.79999923706055
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 0.875
   Sanshas Xray L:
-    CapNeedBonus: -25.0
-    ChargeSize: 3.0
+    CapNeedBonus: -25
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 26.399999618530273
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.75
   Sanshas Xray M:
-    CapNeedBonus: -25.0
-    ChargeSize: 2.0
+    CapNeedBonus: -25
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 13.199999809265137
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.75
   Sanshas Xray S:
-    CapNeedBonus: -25.0
-    ChargeSize: 1.0
+    CapNeedBonus: -25
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 6.599999904632568
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.75
   Sanshas Xray XL:
-    CapNeedBonus: -25.0
-    ChargeSize: 4.0
+    CapNeedBonus: -25
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 52.79999923706055
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.75
   Standard L:
-    CapNeedBonus: -45.0
-    ChargeSize: 3.0
+    CapNeedBonus: -45
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 20.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    TechLevel: 1
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 1.0
   Standard M:
-    CapNeedBonus: -45.0
-    ChargeSize: 2.0
+    CapNeedBonus: -45
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 10.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    TechLevel: 1
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 1.0
   Standard S:
-    CapNeedBonus: -45.0
-    ChargeSize: 1.0
+    CapNeedBonus: -45
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 5.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    TechLevel: 1
     ThermalDamage: 3.0
     WeaponRangeMultiplier: 1.0
   Standard XL:
-    CapNeedBonus: -45.0
-    ChargeSize: 4.0
+    CapNeedBonus: -45
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 40.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    TechLevel: 1
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 1.0
   True Sanshas Gamma L:
-    CapNeedBonus: -15.0
-    ChargeSize: 3.0
+    CapNeedBonus: -15
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 33.599998474121094
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.625
   True Sanshas Gamma M:
-    CapNeedBonus: -15.0
-    ChargeSize: 2.0
+    CapNeedBonus: -15
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 16.799999237060547
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.625
   True Sanshas Gamma S:
-    CapNeedBonus: -15.0
-    ChargeSize: 1.0
+    CapNeedBonus: -15
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 8.399999618530273
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.625
   True Sanshas Gamma XL:
-    CapNeedBonus: -15.0
-    ChargeSize: 4.0
+    CapNeedBonus: -15
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 67.19999694824219
     EntityFlyRangeMultiplier: 0.625
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.6746403E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 16746403
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.625
   True Sanshas Infrared L:
-    CapNeedBonus: -35.0
-    ChargeSize: 3.0
+    CapNeedBonus: -35
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 24.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.2000000476837158
   True Sanshas Infrared M:
-    CapNeedBonus: -35.0
-    ChargeSize: 2.0
+    CapNeedBonus: -35
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 12.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.2000000476837158
   True Sanshas Infrared S:
-    CapNeedBonus: -35.0
-    ChargeSize: 1.0
+    CapNeedBonus: -35
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 6.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.2000000476837158
   True Sanshas Infrared XL:
-    CapNeedBonus: -35.0
-    ChargeSize: 4.0
+    CapNeedBonus: -35
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 48.0
     EntityFlyRangeMultiplier: 1.2000000476837158
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5209238.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5209238
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.2000000476837158
   True Sanshas Microwave L:
-    CapNeedBonus: -25.0
-    ChargeSize: 3.0
+    CapNeedBonus: -25
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 19.200000762939453
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
   True Sanshas Microwave M:
-    CapNeedBonus: -25.0
-    ChargeSize: 2.0
+    CapNeedBonus: -25
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 9.600000381469727
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
   True Sanshas Microwave S:
-    CapNeedBonus: -25.0
-    ChargeSize: 1.0
+    CapNeedBonus: -25
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 4.800000190734863
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.399999976158142
   True Sanshas Microwave XL:
-    CapNeedBonus: -25.0
-    ChargeSize: 4.0
+    CapNeedBonus: -25
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 38.400001525878906
     EntityFlyRangeMultiplier: 1.399999976158142
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 3105952.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 3105952
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.399999976158142
   True Sanshas Multifrequency L:
-    ChargeSize: 3.0
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 33.599998474121094
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 0.5
   True Sanshas Multifrequency M:
-    ChargeSize: 2.0
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 16.799999237060547
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 0.5
   True Sanshas Multifrequency S:
-    ChargeSize: 1.0
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 8.399999618530273
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 0.5
   True Sanshas Multifrequency XL:
-    ChargeSize: 4.0
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 67.19999694824219
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 1.1646664E7
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 11646664
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 48.0
     WeaponRangeMultiplier: 0.5
   True Sanshas Radio L:
-    CapNeedBonus: -15.0
-    ChargeSize: 3.0
+    CapNeedBonus: -15
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 24.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   True Sanshas Radio M:
-    CapNeedBonus: -15.0
-    ChargeSize: 2.0
+    CapNeedBonus: -15
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 12.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   True Sanshas Radio S:
-    CapNeedBonus: -15.0
-    ChargeSize: 1.0
+    CapNeedBonus: -15
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 6.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   True Sanshas Radio XL:
-    CapNeedBonus: -15.0
-    ChargeSize: 4.0
+    CapNeedBonus: -15
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 48.0
     EntityFlyRangeMultiplier: 1.600000023841858
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaGroupID: 4
+    TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
   True Sanshas Standard L:
-    CapNeedBonus: -45.0
-    ChargeSize: 3.0
+    CapNeedBonus: -45
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 24.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 1.0
   True Sanshas Standard M:
-    CapNeedBonus: -45.0
-    ChargeSize: 2.0
+    CapNeedBonus: -45
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 12.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 1.0
   True Sanshas Standard S:
-    CapNeedBonus: -45.0
-    ChargeSize: 1.0
+    CapNeedBonus: -45
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 6.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 1.0
   True Sanshas Standard XL:
-    CapNeedBonus: -45.0
-    ChargeSize: 4.0
+    CapNeedBonus: -45
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 48.0
     EntityFlyRangeMultiplier: 1.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 5215864.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 5215864
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 1.0
   True Sanshas Ultraviolet L:
-    CapNeedBonus: -35.0
-    ChargeSize: 3.0
+    CapNeedBonus: -35
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 28.799999237060547
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 0.875
   True Sanshas Ultraviolet M:
-    CapNeedBonus: -35.0
-    ChargeSize: 2.0
+    CapNeedBonus: -35
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 14.399999618530273
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 0.875
   True Sanshas Ultraviolet S:
-    CapNeedBonus: -35.0
-    ChargeSize: 1.0
+    CapNeedBonus: -35
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 7.199999809265137
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 0.875
   True Sanshas Ultraviolet XL:
-    CapNeedBonus: -35.0
-    ChargeSize: 4.0
+    CapNeedBonus: -35
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 57.599998474121094
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 0.875
   True Sanshas Xray L:
-    CapNeedBonus: -25.0
-    ChargeSize: 3.0
+    CapNeedBonus: -25
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 28.799999237060547
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.75
   True Sanshas Xray M:
-    CapNeedBonus: -25.0
-    ChargeSize: 2.0
+    CapNeedBonus: -25
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 14.399999618530273
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.75
   True Sanshas Xray S:
-    CapNeedBonus: -25.0
-    ChargeSize: 1.0
+    CapNeedBonus: -25
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 7.199999809265137
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.75
   True Sanshas Xray XL:
-    CapNeedBonus: -25.0
-    ChargeSize: 4.0
+    CapNeedBonus: -25
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     EmDamage: 57.599998474121094
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    MetaGroupID: 4
+    TechLevel: 1
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.75
   Ultraviolet L:
-    CapNeedBonus: -35.0
-    ChargeSize: 3.0
+    CapNeedBonus: -35
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 24.0
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    TechLevel: 1
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 0.875
   Ultraviolet M:
-    CapNeedBonus: -35.0
-    ChargeSize: 2.0
+    CapNeedBonus: -35
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 12.0
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    TechLevel: 1
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 0.875
   Ultraviolet S:
-    CapNeedBonus: -35.0
-    ChargeSize: 1.0
+    CapNeedBonus: -35
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 6.0
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    TechLevel: 1
     ThermalDamage: 3.0
     WeaponRangeMultiplier: 0.875
   Ultraviolet XL:
-    CapNeedBonus: -35.0
-    ChargeSize: 4.0
+    CapNeedBonus: -35
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 48.0
     EntityFlyRangeMultiplier: 0.875
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 8039008.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 8039008
+    TechLevel: 1
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 0.875
   Xray L:
-    CapNeedBonus: -25.0
-    ChargeSize: 3.0
+    CapNeedBonus: -25
+    ChargeSize: 3
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 24.0
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    TechLevel: 1
     ThermalDamage: 16.0
     WeaponRangeMultiplier: 0.75
   Xray M:
-    CapNeedBonus: -25.0
-    ChargeSize: 2.0
+    CapNeedBonus: -25
+    ChargeSize: 2
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 12.0
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    TechLevel: 1
     ThermalDamage: 8.0
     WeaponRangeMultiplier: 0.75
   Xray S:
-    CapNeedBonus: -25.0
-    ChargeSize: 1.0
+    CapNeedBonus: -25
+    ChargeSize: 1
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 6.0
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    TechLevel: 1
     ThermalDamage: 4.0
     WeaponRangeMultiplier: 0.75
   Xray XL:
-    CapNeedBonus: -25.0
-    ChargeSize: 4.0
+    CapNeedBonus: -25
+    ChargeSize: 4
     CrystalVolatilityChance: 1.0
     CrystalVolatilityDamage: 2.500000118743628E-4
     EmDamage: 48.0
     EntityFlyRangeMultiplier: 0.75
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 9202277.0
-    TechLevel: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 9202277
+    TechLevel: 1
     ThermalDamage: 32.0
     WeaponRangeMultiplier: 0.75

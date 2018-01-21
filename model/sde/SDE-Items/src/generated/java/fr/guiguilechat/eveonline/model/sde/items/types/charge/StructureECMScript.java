@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Charge;
@@ -19,56 +19,56 @@ public class StructureECMScript
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ChargeSize;
+    @DefaultIntValue(0)
+    public int ChargeSize;
     /**
      * Bonus to Gravimetric Strength bonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ScanGravimetricStrengthBonusBonus;
+    @DefaultIntValue(0)
+    public int ScanGravimetricStrengthBonusBonus;
     /**
      * One of the groups of launcher this charge can be loaded into.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LauncherGroup;
+    @DefaultIntValue(0)
+    public int LauncherGroup;
     /**
      * Bonus to Lader Strength bonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ScanLadarStrengthBonusBonus;
+    @DefaultIntValue(0)
+    public int ScanLadarStrengthBonusBonus;
     /**
      * Bonus to Magnetometric Strength bonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ScanMagnetometricStrengthBonusBonus;
+    @DefaultIntValue(0)
+    public int ScanMagnetometricStrengthBonusBonus;
     /**
      * Bonus to Radar Strength bonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ScanRadarStrengthBonusBonus;
+    @DefaultIntValue(0)
+    public int ScanRadarStrengthBonusBonus;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double StructureItemVisualFlag;
+    @DefaultIntValue(0)
+    public int StructureItemVisualFlag;
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureECMScript.yaml";
     private static LinkedHashMap<String, StructureECMScript> cache = (null);
 

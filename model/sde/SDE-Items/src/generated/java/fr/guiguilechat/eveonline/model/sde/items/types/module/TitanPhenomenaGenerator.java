@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Module;
@@ -19,15 +20,15 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DisallowActivateInForcefield;
+    @DefaultIntValue(0)
+    public int DisallowActivateInForcefield;
     /**
      * The amount of charge used from the capacitor for a module activation.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorNeed;
     /**
      * 
@@ -35,15 +36,15 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxGroupFitted;
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
     /**
      * Length of activation time.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Duration;
     /**
      * The type of resource needed to be consumed for each activation cycle of this structure.
@@ -51,79 +52,79 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ConsumptionType;
+    @DefaultIntValue(0)
+    public int ConsumptionType;
     /**
      * The amount of the given resource type needed to be consumed for each activation cycle of this structure.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ConsumptionQuantity;
+    @DefaultIntValue(0)
+    public int ConsumptionQuantity;
     /**
      * Required skill level for skill 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType1;
+    @DefaultIntValue(0)
+    public int CanFitShipType1;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType2;
+    @DefaultIntValue(0)
+    public int CanFitShipType2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType3;
+    @DefaultIntValue(0)
+    public int CanFitShipType3;
     /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ModuleReactivationDelay;
+    @DefaultIntValue(0)
+    public int ModuleReactivationDelay;
     /**
      * current power need
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WarfareBuff1ID;
+    @DefaultIntValue(0)
+    public int WarfareBuff1ID;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double WarfareBuff1Value;
     /**
      * 
@@ -131,23 +132,23 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WarfareBuff2ID;
+    @DefaultIntValue(0)
+    public int WarfareBuff2ID;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from activating the structure tethering.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DisallowTethering;
+    @DefaultIntValue(0)
+    public int DisallowTethering;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double WarfareBuff2Value;
     /**
      * Applied modifier duration
@@ -155,31 +156,31 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double BuffDuration;
+    @DefaultIntValue(0)
+    public int BuffDuration;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WarfareBuff3ID;
+    @DefaultIntValue(0)
+    public int WarfareBuff3ID;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WarfareBuff4ID;
+    @DefaultIntValue(0)
+    public int WarfareBuff4ID;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double WarfareBuff3Value;
     /**
      * 
@@ -187,7 +188,7 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double WarfareBuff4Value;
     /**
      * CPU need of module
@@ -195,7 +196,7 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
@@ -203,32 +204,32 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DisallowDocking;
+    @DefaultIntValue(0)
+    public int DisallowDocking;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Distance below which range does not affect the to-hit equation.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double MaxRange;
+    @DefaultIntValue(0)
+    public int MaxRange;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxGroupActive;
+    @DefaultIntValue(0)
+    public int MaxGroupActive;
     public final static String RESOURCE_PATH = "SDE/items/module/TitanPhenomenaGenerator.yaml";
     private static LinkedHashMap<String, TitanPhenomenaGenerator> cache = (null);
 

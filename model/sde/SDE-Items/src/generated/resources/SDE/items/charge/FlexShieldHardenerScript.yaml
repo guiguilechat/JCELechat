@@ -1,33 +1,33 @@
 items:
   Shield EM Resistance Script:
-    ChargeSize: 1.0
-    EmDamageResistanceBonusBonus: 200.0
-    ExplosiveDamageResistanceBonusBonus: -100.0
-    KineticDamageResistanceBonusBonus: -100.0
-    LauncherGroup: 1700.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonusBonus: -100.0
+    ChargeSize: 1
+    EmDamageResistanceBonusBonus: 200
+    ExplosiveDamageResistanceBonusBonus: -100
+    KineticDamageResistanceBonusBonus: -100
+    LauncherGroup: 1700
+    TechLevel: 1
+    ThermalDamageResistanceBonusBonus: -100
   Shield Explosive Resistance Script:
-    ChargeSize: 1.0
-    EmDamageResistanceBonusBonus: -100.0
-    ExplosiveDamageResistanceBonusBonus: 200.0
-    KineticDamageResistanceBonusBonus: -100.0
-    LauncherGroup: 1700.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonusBonus: -100.0
+    ChargeSize: 1
+    EmDamageResistanceBonusBonus: -100
+    ExplosiveDamageResistanceBonusBonus: 200
+    KineticDamageResistanceBonusBonus: -100
+    LauncherGroup: 1700
+    TechLevel: 1
+    ThermalDamageResistanceBonusBonus: -100
   Shield Kinetic Resistance Script:
-    ChargeSize: 1.0
-    EmDamageResistanceBonusBonus: -100.0
-    ExplosiveDamageResistanceBonusBonus: -100.0
-    KineticDamageResistanceBonusBonus: 200.0
-    LauncherGroup: 1700.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonusBonus: -100.0
+    ChargeSize: 1
+    EmDamageResistanceBonusBonus: -100
+    ExplosiveDamageResistanceBonusBonus: -100
+    KineticDamageResistanceBonusBonus: 200
+    LauncherGroup: 1700
+    TechLevel: 1
+    ThermalDamageResistanceBonusBonus: -100
   Shield Thermal Resistance Script:
-    ChargeSize: 1.0
-    EmDamageResistanceBonusBonus: -100.0
-    ExplosiveDamageResistanceBonusBonus: -100.0
-    KineticDamageResistanceBonusBonus: -100.0
-    LauncherGroup: 1700.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonusBonus: 200.0
+    ChargeSize: 1
+    EmDamageResistanceBonusBonus: -100
+    ExplosiveDamageResistanceBonusBonus: -100
+    KineticDamageResistanceBonusBonus: -100
+    LauncherGroup: 1700
+    TechLevel: 1
+    ThermalDamageResistanceBonusBonus: 200

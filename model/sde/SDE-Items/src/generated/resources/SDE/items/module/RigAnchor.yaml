@@ -1,41 +1,41 @@
 items:
   Capital Higgs Anchor I:
     AgilityBonus: -55.0
-    Drawback: -10.0
-    Hp: 40.0
-    MassBonusPercentage: 100.0
-    MaxGroupFitted: 1.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 25.0
+    Drawback: -10
+    Hp: 40
+    MassBonusPercentage: 100
+    MaxGroupFitted: 1
+    RigSize: 4
+    TechLevel: 1
+    UpgradeCost: 25
     VelocityBonus: -75.0
   Large Higgs Anchor I:
     AgilityBonus: -55.0
-    Drawback: -10.0
-    Hp: 40.0
-    MassBonusPercentage: 100.0
-    MaxGroupFitted: 1.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 25.0
+    Drawback: -10
+    Hp: 40
+    MassBonusPercentage: 100
+    MaxGroupFitted: 1
+    RigSize: 3
+    TechLevel: 1
+    UpgradeCost: 25
     VelocityBonus: -75.0
   Medium Higgs Anchor I:
     AgilityBonus: -55.0
-    Drawback: -10.0
-    Hp: 40.0
-    MassBonusPercentage: 100.0
-    MaxGroupFitted: 1.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 25.0
+    Drawback: -10
+    Hp: 40
+    MassBonusPercentage: 100
+    MaxGroupFitted: 1
+    RigSize: 2
+    TechLevel: 1
+    UpgradeCost: 25
     VelocityBonus: -75.0
   Small Higgs Anchor I:
     AgilityBonus: -55.0
-    Drawback: -10.0
-    Hp: 40.0
-    MassBonusPercentage: 100.0
-    MaxGroupFitted: 1.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 25.0
+    Drawback: -10
+    Hp: 40
+    MassBonusPercentage: 100
+    MaxGroupFitted: 1
+    RigSize: 1
+    TechLevel: 1
+    UpgradeCost: 25
     VelocityBonus: -75.0

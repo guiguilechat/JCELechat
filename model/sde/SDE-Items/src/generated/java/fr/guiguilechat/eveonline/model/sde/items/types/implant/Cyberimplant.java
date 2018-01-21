@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Implant;
@@ -19,7 +20,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetThukker;
     /**
      * 
@@ -27,23 +28,23 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ScanGravimetricStrengthPercent;
+    @DefaultIntValue(0)
+    public int ScanGravimetricStrengthPercent;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ScanLadarStrengthPercent;
+    @DefaultIntValue(0)
+    public int ScanLadarStrengthPercent;
     /**
      * Virtue set bonus attribute
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetSisters;
     /**
      * 
@@ -51,23 +52,23 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ScanMagnetometricStrengthPercent;
+    @DefaultIntValue(0)
+    public int ScanMagnetometricStrengthPercent;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ScanRadarStrengthPercent;
+    @DefaultIntValue(0)
+    public int ScanRadarStrengthPercent;
     /**
      * Edge set bonus attribute
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetSyndicate;
     /**
      * 
@@ -75,7 +76,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetWarpSpeed;
     /**
      * Harvest set bonus attribute
@@ -83,7 +84,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetORE;
     /**
      * Centurion set bonus attribute
@@ -91,7 +92,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetMordus;
     /**
      * 
@@ -99,7 +100,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetImperialNavy;
     /**
      * 
@@ -107,7 +108,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetCaldariNavy;
     /**
      * 
@@ -115,7 +116,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetFederationNavy;
     /**
      * 
@@ -123,7 +124,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetRepublicFleet;
     /**
      * Required skill level for skill 2
@@ -131,15 +132,15 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * Bonus to the agility for a ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double AgilityBonus;
     /**
      * 
@@ -147,39 +148,39 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DisallowOffensiveModifierBonus;
+    @DefaultIntValue(0)
+    public int DisallowOffensiveModifierBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorRepairBonus;
+    @DefaultIntValue(0)
+    public int ArmorRepairBonus;
     /**
      * + / - modifier to a ship radar strength
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ScanRadarStrengthModifier;
+    @DefaultIntValue(0)
+    public int ScanRadarStrengthModifier;
     /**
      * + / - modifier to a ship ladar strength
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ScanLadarStrengthModifier;
+    @DefaultIntValue(0)
+    public int ScanLadarStrengthModifier;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(2.0D)
+    @DefaultDoubleValue(2.0D)
     public double ImplantSetBloodraider;
     /**
      * + / - modifier to a ship gravimetric strength
@@ -187,23 +188,23 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ScanGravimetricStrengthModifier;
+    @DefaultIntValue(0)
+    public int ScanGravimetricStrengthModifier;
     /**
      * + / - modifier to a ship magnetometric strength
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ScanMagnetometricStrengthModifier;
+    @DefaultIntValue(0)
+    public int ScanMagnetometricStrengthModifier;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetLGImperialNavy;
     /**
      * 
@@ -211,7 +212,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ImplantSetSerpentis;
     /**
      * 
@@ -219,7 +220,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetLGFederationNavy;
     /**
      * 
@@ -227,7 +228,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ImplantSetSerpentis2;
     /**
      * 
@@ -235,7 +236,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetLGCaldariNavy;
     /**
      * 
@@ -243,7 +244,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldBoostMultiplier;
     /**
      * 
@@ -251,7 +252,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetLGRepublicFleet;
     /**
      * Tech level of an item
@@ -259,31 +260,31 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double TechLevel;
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * Autogenerated skill attribute, rangeSkillBonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RangeSkillBonus;
+    @DefaultIntValue(0)
+    public int RangeSkillBonus;
     /**
      * Autogenerated skill attribute, repairBonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RepairBonus;
+    @DefaultIntValue(0)
+    public int RepairBonus;
     /**
      * Autogenerated skill attribute, cpu OutputBonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CpuOutputBonus2;
     /**
      * Autogenerated skill attribute, signatureRadiusBonus
@@ -291,7 +292,7 @@ public class Cyberimplant
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SignatureRadiusBonus;
     /**
      * +/- bonus to the charisma of a character.
@@ -299,47 +300,47 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CharismaBonus;
+    @DefaultIntValue(0)
+    public int CharismaBonus;
     /**
      * +/- bonus to the intelligence of a character.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double IntelligenceBonus;
+    @DefaultIntValue(0)
+    public int IntelligenceBonus;
     /**
      * +/- bonus to the memory of a character.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MemoryBonus;
+    @DefaultIntValue(0)
+    public int MemoryBonus;
     /**
      * +/- bonus to the perception of a character.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double PerceptionBonus;
+    @DefaultIntValue(0)
+    public int PerceptionBonus;
     /**
      * +/- bonus to the willpower of a character.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WillpowerBonus;
+    @DefaultIntValue(0)
+    public int WillpowerBonus;
     /**
      * Bonus to Max Targeting Range
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxTargetRangeBonus;
     /**
      * The type ID of the skill that is required.
@@ -347,15 +348,15 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2;
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
     /**
      * Autogenerated skill attribute, PowerOutputBonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double PowerEngineeringOutputBonus;
     /**
      * Autogenerated skill attribute, velocityBonus
@@ -363,7 +364,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double VelocityBonus;
     /**
      * This is a devhax attribute that prevents you from e-warping on logon or logoff
@@ -371,15 +372,15 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DoesNotEmergencyWarp;
+    @DefaultIntValue(0)
+    public int DoesNotEmergencyWarp;
     /**
      * Autogenerated skill attribute, smugglingChanceBonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SmugglingChanceBonus;
     /**
      * Bonus to duration.
@@ -387,15 +388,15 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DurationBonus;
+    @DefaultIntValue(0)
+    public int DurationBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetGuristas;
     /**
      * Whether an item is an implant or not
@@ -403,31 +404,31 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Implantness;
+    @DefaultIntValue(0)
+    public int Implantness;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ScanStrengthBonus;
+    @DefaultIntValue(0)
+    public int ScanStrengthBonus;
     /**
      * Autogenerated skill attribute, armorHpBonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorHpBonus;
+    @DefaultIntValue(0)
+    public int ArmorHpBonus;
     /**
      * Autogenerated skill attribute, shieldCapacityBonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldCapacityBonus;
     /**
      * 
@@ -435,7 +436,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ImplantSetAngel;
     /**
      * Autogenerated skill attribute, maxRangeBonus
@@ -443,7 +444,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxRangeBonus;
     /**
      * 
@@ -451,7 +452,7 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ImplantSetSansha;
     /**
      * This will make the item non-destructible upon podding.  ONLY FOR IMPLANTS AND BOOSTERS
@@ -459,71 +460,71 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Nondestructible;
+    @DefaultIntValue(0)
+    public int Nondestructible;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double PassiveEmDamageResistanceBonus;
+    @DefaultIntValue(0)
+    public int PassiveEmDamageResistanceBonus;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double PassiveExplosiveDamageResistanceBonus;
+    @DefaultIntValue(0)
+    public int PassiveExplosiveDamageResistanceBonus;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double PassiveKineticDamageResistanceBonus;
+    @DefaultIntValue(0)
+    public int PassiveKineticDamageResistanceBonus;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double PassiveThermicDamageResistanceBonus;
+    @DefaultIntValue(0)
+    public int PassiveThermicDamageResistanceBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double BoosterAttributeModifier;
+    @DefaultIntValue(0)
+    public int BoosterAttributeModifier;
     /**
      * Jump range bonus for jump drive operation.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double JumpDriveRangeBonus;
+    @DefaultIntValue(0)
+    public int JumpDriveRangeBonus;
     /**
      * Autogenerated skill attribute, WarpSBonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WarpSBonus;
+    @DefaultIntValue(0)
+    public int WarpSBonus;
     /**
      * Scale the tracking speed of a weapon.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double TrackingSpeedMultiplier;
     /**
      * Stays with characters across clone changes. ONLY FOR IMPLANTS AND BOOSTERS.
@@ -531,8 +532,8 @@ public class Cyberimplant
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FollowsJumpClones;
+    @DefaultIntValue(0)
+    public int FollowsJumpClones;
     public final static String RESOURCE_PATH = "SDE/items/implant/Cyberimplant.yaml";
     private static LinkedHashMap<String, Cyberimplant> cache = (null);
 

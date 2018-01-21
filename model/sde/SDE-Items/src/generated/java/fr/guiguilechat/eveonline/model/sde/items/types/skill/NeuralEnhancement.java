@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Skill;
@@ -19,39 +20,39 @@ public class NeuralEnhancement
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DurationBonus;
+    @DefaultIntValue(0)
+    public int DurationBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double BoosterChanceBonus;
+    @DefaultIntValue(0)
+    public int BoosterChanceBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double BoosterAttributeModifier;
+    @DefaultIntValue(0)
+    public int BoosterAttributeModifier;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxJumpClonesBonus;
+    @DefaultIntValue(0)
+    public int MaxJumpClonesBonus;
     /**
      * Time constant for skill training
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SkillTimeConstant;
     /**
      * The maximum amount of jump clones that the character may have in existence or ship may have stored.
@@ -59,64 +60,64 @@ public class NeuralEnhancement
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxJumpClones;
+    @DefaultIntValue(0)
+    public int MaxJumpClones;
     /**
      * Only refers to another dogma attribute.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double PrimaryAttribute;
+    @DefaultIntValue(0)
+    public int PrimaryAttribute;
     /**
      * Only refers to another dogma attribute.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SecondaryAttribute;
+    @DefaultIntValue(0)
+    public int SecondaryAttribute;
     /**
      * Required skill level for skill 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Required skill level for skill 2
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * If set to 1 on a skill then this skill can not be trained on accounts that are marked as Trial.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanNotBeTrainedOnTrial;
+    @DefaultIntValue(0)
+    public int CanNotBeTrainedOnTrial;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2;
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
     public final static String RESOURCE_PATH = "SDE/items/skill/NeuralEnhancement.yaml";
     private static LinkedHashMap<String, NeuralEnhancement> cache = (null);
 

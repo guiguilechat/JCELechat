@@ -1,205 +1,205 @@
 items:
   Azure Ice:
     AsteroidRadiusGrowthFactor: 160.0
-    AsteroidRadiusUnitSize: 1000.0
-    OreBasicType: 16264.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 1000
+    OreBasicType: 16264
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Blue Ice:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
-    AsteroidRadiusUnitSize: 1000.0
-    CompressionQuantityNeeded: 1.0
-    CompressionTypeID: 28433.0
-    OreBasicType: 16264.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 1000
+    CompressionQuantityNeeded: 1
+    CompressionTypeID: 28433
+    OreBasicType: 16264
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Clear Icicle:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
-    AsteroidRadiusUnitSize: 1000.0
-    CompressionQuantityNeeded: 1.0
-    CompressionTypeID: 28434.0
-    OreBasicType: 16262.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 1000
+    CompressionQuantityNeeded: 1
+    CompressionTypeID: 28434
+    OreBasicType: 16262
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Compressed Blue Ice:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 16264.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 16264
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Compressed Clear Icicle:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 16262.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 16262
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Compressed Dark Glitter:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 16267.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 16267
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Compressed Enriched Clear Icicle:
-    AsteroidMetaLevel: 4.0
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 16262.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 16262
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Compressed Gelidus:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 16268.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 16268
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Compressed Glacial Mass:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 16263.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 16263
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Compressed Glare Crust:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 16266.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 16266
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Compressed Krystallos:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 16269.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 16269
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Compressed Pristine White Glaze:
-    AsteroidMetaLevel: 4.0
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 16265.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 16265
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Compressed Smooth Glacial Mass:
-    AsteroidMetaLevel: 4.0
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 16263.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 16263
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Compressed Thick Blue Ice:
-    AsteroidMetaLevel: 4.0
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 16264.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 16264
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Compressed White Glaze:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 16265.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 16265
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Crystalline Icicle:
     AsteroidRadiusGrowthFactor: 160.0
-    AsteroidRadiusUnitSize: 1000.0
-    OreBasicType: 16262.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 1000
+    OreBasicType: 16262
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Dark Glitter:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
-    AsteroidRadiusUnitSize: 1000.0
-    CompressionQuantityNeeded: 1.0
-    CompressionTypeID: 28435.0
-    OreBasicType: 16267.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 1000
+    CompressionQuantityNeeded: 1
+    CompressionTypeID: 28435
+    OreBasicType: 16267
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Enriched Clear Icicle:
-    AsteroidMetaLevel: 4.0
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 160.0
-    AsteroidRadiusUnitSize: 1000.0
-    CompressionQuantityNeeded: 1.0
-    CompressionTypeID: 28436.0
-    OreBasicType: 16262.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 1000
+    CompressionQuantityNeeded: 1
+    CompressionTypeID: 28436
+    OreBasicType: 16262
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Gelidus:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
-    AsteroidRadiusUnitSize: 1000.0
-    CompressionQuantityNeeded: 1.0
-    CompressionTypeID: 28437.0
-    OreBasicType: 16268.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 1000
+    CompressionQuantityNeeded: 1
+    CompressionTypeID: 28437
+    OreBasicType: 16268
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Glacial Mass:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
-    AsteroidRadiusUnitSize: 1000.0
-    CompressionQuantityNeeded: 1.0
-    CompressionTypeID: 28438.0
-    OreBasicType: 16263.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 1000
+    CompressionQuantityNeeded: 1
+    CompressionTypeID: 28438
+    OreBasicType: 16263
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Glare Crust:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
-    AsteroidRadiusUnitSize: 1000.0
-    CompressionQuantityNeeded: 1.0
-    CompressionTypeID: 28439.0
-    OreBasicType: 16266.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 1000
+    CompressionQuantityNeeded: 1
+    CompressionTypeID: 28439
+    OreBasicType: 16266
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Krystallos:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
-    AsteroidRadiusUnitSize: 1000.0
-    CompressionQuantityNeeded: 1.0
-    CompressionTypeID: 28440.0
-    OreBasicType: 16269.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 1000
+    CompressionQuantityNeeded: 1
+    CompressionTypeID: 28440
+    OreBasicType: 16269
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Pristine White Glaze:
-    AsteroidMetaLevel: 4.0
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 160.0
-    AsteroidRadiusUnitSize: 1000.0
-    CompressionQuantityNeeded: 1.0
-    CompressionTypeID: 28441.0
-    OreBasicType: 16265.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 1000
+    CompressionQuantityNeeded: 1
+    CompressionTypeID: 28441
+    OreBasicType: 16265
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Smooth Glacial Mass:
-    AsteroidMetaLevel: 4.0
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 160.0
-    AsteroidRadiusUnitSize: 1000.0
-    CompressionQuantityNeeded: 1.0
-    CompressionTypeID: 28442.0
-    OreBasicType: 16263.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 1000
+    CompressionQuantityNeeded: 1
+    CompressionTypeID: 28442
+    OreBasicType: 16263
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   Thick Blue Ice:
-    AsteroidMetaLevel: 4.0
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 160.0
-    AsteroidRadiusUnitSize: 1000.0
-    CompressionQuantityNeeded: 1.0
-    CompressionTypeID: 28443.0
-    OreBasicType: 16264.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 1000
+    CompressionQuantityNeeded: 1
+    CompressionTypeID: 28443
+    OreBasicType: 16264
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281
   White Glaze:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
-    AsteroidRadiusUnitSize: 1000.0
-    CompressionQuantityNeeded: 1.0
-    CompressionTypeID: 28444.0
-    OreBasicType: 16265.0
-    ReprocessingSkillType: 18025.0
-    RequiredSkill1: 16281.0
+    AsteroidRadiusUnitSize: 1000
+    CompressionQuantityNeeded: 1
+    CompressionTypeID: 28444
+    OreBasicType: 16265
+    ReprocessingSkillType: 18025
+    RequiredSkill1: 16281

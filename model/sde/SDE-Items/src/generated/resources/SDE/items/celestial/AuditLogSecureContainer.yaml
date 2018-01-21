@@ -1,28 +1,28 @@
 items:
   Large Audit Log Secure Container:
-    CanBeJettisoned: 1.0
-    Hp: 1.0E7
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 1.0
+    CanBeJettisoned: 1
+    Hp: 10000000
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 1
     StructureUniformity: 1.0
   Medium Audit Log Secure Container:
-    CanBeJettisoned: 1.0
-    Hp: 1000000.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 1.0
+    CanBeJettisoned: 1
+    Hp: 1000000
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 1
     StructureUniformity: 1.0
   Small Audit Log Secure Container:
-    CanBeJettisoned: 1.0
-    Hp: 100000.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 1.0
+    CanBeJettisoned: 1
+    Hp: 100000
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 1
     StructureUniformity: 1.0
   Station Container:
-    Hp: 1.0E7
+    Hp: 10000000
     StructureUniformity: 1.0
   Station Vault Container:
-    Hp: 1.0E7
+    Hp: 10000000
     StructureUniformity: 1.0
   Station Warehouse Container:
-    Hp: 1.0E8
+    Hp: 100000000
     StructureUniformity: 1.0

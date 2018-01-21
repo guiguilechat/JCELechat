@@ -1,567 +1,567 @@
 items:
   '''Silvershore'' Greatcoat':
-    Gender: 1.0
+    Gender: 1
   ArmorSuitCF01_Copper.type:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
   'ArmorSuitMM01_Copper.type ':
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 1.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
   JacketALM01_JinMeiOpera.type:
-    Gender: 2.0
+    Gender: 2
   JacketCLM01_Concord.type:
-    Gender: 1.0
+    Gender: 1
   JacketFBR01_concord.type:
-    Gender: 3.0
+    Gender: 3
   JacketSLF_01_JinMeiOpera.type:
-    Gender: 2.0
+    Gender: 2
   LabCoatF01_Cyan.type:
-    ClothingAlsoCoversCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    Gender: 3
   LabCoatF01_Green.type:
-    ClothingAlsoCoversCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    Gender: 3
   LabCoatF01_Orange.type:
-    ClothingAlsoCoversCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    Gender: 3
   LabCoatM01_Cyan.type:
-    Gender: 1.0
+    Gender: 1
   LabCoatM01_Green.type:
-    Gender: 1.0
+    Gender: 1
   LabCoatM01_Orange:
-    Gender: 1.0
+    Gender: 1
   Men's 'Curate' Coat (black/silver):
-    Gender: 1.0
+    Gender: 1
   Men's 'Curate' Coat (dark bronze):
-    Gender: 1.0
+    Gender: 1
   Men's 'Curate' Coat (festive):
-    Gender: 1.0
+    Gender: 1
   Men's 'Curate' Coat (red/gold):
-    Gender: 1.0
+    Gender: 1
   Men's 'Curate' Coat (royal gold):
-    Gender: 1.0
+    Gender: 1
   Men's 'Curate' Coat (white gold):
-    Gender: 1.0
+    Gender: 1
   Men's 'Esquire' Coat:
-    Gender: 1.0
+    Gender: 1
   Men's 'Esquire' Coat (black):
-    Gender: 1.0
+    Gender: 1
   Men's 'Esquire' Coat (green/gold):
-    Gender: 1.0
+    Gender: 1
   Men's 'Esquire' Coat (matte graphite):
-    Gender: 1.0
+    Gender: 1
   Men's 'Esquire' Coat (matte gray):
-    Gender: 1.0
+    Gender: 1
   Men's 'Esquire' Coat (matte green):
-    Gender: 1.0
+    Gender: 1
   Men's 'Esquire' Coat (red/gold):
-    Gender: 1.0
+    Gender: 1
   Men's 'Esquire' Coat (silver):
-    Gender: 1.0
+    Gender: 1
   Men's 'Field Marshal' Coat:
-    Gender: 1.0
+    Gender: 1
   Men's 'Field Marshal' Coat (green):
-    Gender: 1.0
+    Gender: 1
   Men's 'Impact' Jacket (dark red):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Impact' Jacket (graphite):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Impact' Jacket (green camo):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Impact' Jacket (monochrome):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Impact' Jacket (reflective blue):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Marshal' Jacket (Amarr):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Marshal' Jacket (Angel Cartel):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Marshal' Jacket (Blood Raiders black/red):
-    Gender: 1.0
+    Gender: 1
   Men's 'Marshal' Jacket (Blood Raiders):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Marshal' Jacket (Caldari):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Marshal' Jacket (Gallente):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Marshal' Jacket (Guristas):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Marshal' Jacket (InterBus):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Marshal' Jacket (Minmatar):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Marshal' Jacket (Mordu's Legion):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Marshal' Jacket (ORE):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Marshal' Jacket (Sansha's Nation):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Marshal' Jacket (Serpentis):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Marshal' Jacket (Sisters of EVE):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Mirelle' Upwell Executive Coat:
-    Gender: 1.0
+    Gender: 1
   Men's 'Outlaw' Jacket (Blood Raiders extra red):
-    Gender: 1.0
+    Gender: 1
   Men's 'Outlaw' Jacket (Blood Raiders):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Outlaw' Jacket (Burnt Orange):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Outlaw' Jacket (Guristas):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Outlaw' Jacket (Sansha's Nation):
-    ClothingRemovesCategory: 2.0
-    Gender: 1.0
+    ClothingRemovesCategory: 2
+    Gender: 1
   Men's 'Source' Coat (black):
-    Gender: 1.0
+    Gender: 1
   Men's 'Valkyrie' Flight Jacket:
-    Gender: 2.0
+    Gender: 2
   Men's Amarr Empire Command Jacket:
-    Gender: 2.0
+    Gender: 2
   Men's Amarr Empire Exploration Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 1.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
   Men's CONCORD 'Solitaire' Survival Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 1.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
   Men's Caldari State Exploration Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 1.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
   Men's Caldari State Officer Jacket:
-    Gender: 2.0
+    Gender: 2
   Men's Corporate Troubleshooter Gear:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 1.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
   Men's Exoplanets Data Analyst Lab Coat:
-    Gender: 2.0
+    Gender: 2
   Men's Exoplanets Hunter Mission Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 1.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
   Men's Exoplanets Program Director Coat:
-    Gender: 2.0
+    Gender: 2
   Men's Federal Strategic Materiel Jacket:
-    Gender: 2.0
+    Gender: 2
   Men's Gallente Federation Command Jacket:
-    Gender: 2.0
+    Gender: 2
   Men's Gallente Federation Exploration Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 1.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
   Men's Genolution Combat Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 1.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
   Men's IGC Location Scout Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 1.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
   Men's Imperial War Reserves Jacket:
-    Gender: 2.0
+    Gender: 2
   Men's Minmatar Republic Exploration Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 1.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
   Men's Minmatar Republic Officer Jacket:
-    Gender: 2.0
+    Gender: 2
   Men's ORE Claim Surveyor Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 1.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
   Men's Republic Fleet Ordnance Jacket:
-    Gender: 2.0
+    Gender: 2
   Men's SOE Expeditionary Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 1.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
   Men's Scope Network Special Correspondent Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 1.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
   Men's Sisters of EVE Advanced Combat Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 1.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
   Men's Sisters of EVE Analysis Coat:
-    Gender: 1.0
+    Gender: 1
   Men's State Military Stockpile Jacket:
-    Gender: 2.0
+    Gender: 2
   Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_black.type:
-    ClothingRemovesCategory: 2.0
-    ClothingRuleException: 1.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    ClothingRuleException: 1
+    Gender: 3
   Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_blue.type:
-    ClothingRemovesCategory: 2.0
-    ClothingRuleException: 1.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    ClothingRuleException: 1
+    Gender: 3
   Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_brown.type:
-    ClothingRemovesCategory: 2.0
-    ClothingRuleException: 1.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    ClothingRuleException: 1
+    Gender: 3
   Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_orange.type:
-    ClothingRemovesCategory: 2.0
-    ClothingRuleException: 1.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    ClothingRuleException: 1
+    Gender: 3
   Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_red.type:
-    ClothingRemovesCategory: 2.0
-    ClothingRuleException: 1.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    ClothingRuleException: 1
+    Gender: 3
   Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_stealth.type:
-    ClothingRemovesCategory: 2.0
-    ClothingRuleException: 1.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    ClothingRuleException: 1
+    Gender: 3
   Women's 'Eternity' Suit Top (Black/Gold):
-    ClothingRemovesCategory: 2.0
-    ClothingRuleException: 1.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    ClothingRuleException: 1
+    Gender: 3
   Women's 'Eternity' Suit Top (Black/Red):
-    ClothingRemovesCategory: 2.0
-    ClothingRuleException: 1.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    ClothingRuleException: 1
+    Gender: 3
   Women's 'Eternity' Suit Top (Olive):
-    ClothingRemovesCategory: 2.0
-    ClothingRuleException: 1.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    ClothingRuleException: 1
+    Gender: 3
   Women's 'Eternity' Suit Top (White):
-    ClothingRemovesCategory: 2.0
-    ClothingRuleException: 1.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    ClothingRuleException: 1
+    Gender: 3
   Women's 'Eternity' Suit Top (Yellow):
-    ClothingRemovesCategory: 2.0
-    ClothingRuleException: 1.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    ClothingRuleException: 1
+    Gender: 3
   Women's 'Executor' Coat:
-    Gender: 3.0
+    Gender: 3
   Women's 'Executor' Coat (black):
-    Gender: 3.0
+    Gender: 3
   Women's 'Executor' Coat (graphite):
-    Gender: 3.0
+    Gender: 3
   Women's 'Executor' Coat (green/gold):
-    Gender: 3.0
+    Gender: 3
   Women's 'Executor' Coat (matte blue):
-    Gender: 3.0
+    Gender: 3
   Women's 'Executor' Coat (matte red):
-    Gender: 3.0
+    Gender: 3
   Women's 'Executor' Coat (red/gold):
-    Gender: 3.0
+    Gender: 3
   Women's 'Executor' Coat (silver):
-    Gender: 3.0
+    Gender: 3
   Women's 'Gunner' Jacket (Amarr):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Gunner' Jacket (Angel Cartel):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Gunner' Jacket (Blood Raiders black):
-    Gender: 3.0
+    Gender: 3
   Women's 'Gunner' Jacket (Blood Raiders):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Gunner' Jacket (Caldari):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Gunner' Jacket (Gallente):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Gunner' Jacket (Guristas):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Gunner' Jacket (InterBus):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Gunner' Jacket (Minmatar):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Gunner' Jacket (Mordu's Legion):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Gunner' Jacket (ORE):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Gunner' Jacket (Sansha's Nation):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Gunner' Jacket (Serpentis):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Gunner' Jacket (Sisters of EVE):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Mirelle' Upwell Executive Coat:
-    Gender: 3.0
+    Gender: 3
   Women's 'Outlaw' Coat (Blood Raiders extra red):
-    Gender: 3.0
+    Gender: 3
   Women's 'Outlaw' Coat (Blood Raiders):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Outlaw' Coat (Burnt Orange):
-    Gender: 3.0
+    Gender: 3
   Women's 'Outlaw' Coat (Guristas):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Outlaw' Coat (Sansha's Nation):
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Rocket' Dress (black):
-    Gender: 3.0
+    Gender: 3
   Women's 'Rocket' Dress (blue):
-    Gender: 3.0
+    Gender: 3
   Women's 'Rocket' Dress (copper):
-    Gender: 3.0
+    Gender: 3
   Women's 'Rocket' Dress (dark grey):
-    Gender: 3.0
+    Gender: 3
   Women's 'Rocket' Dress (dark teal):
-    Gender: 3.0
+    Gender: 3
   Women's 'Rocket' Dress (festive):
-    Gender: 3.0
+    Gender: 3
   Women's 'Rocket' Dress (glossy black):
-    Gender: 3.0
+    Gender: 3
   Women's 'Rocket' Dress (green):
-    Gender: 3.0
+    Gender: 3
   'Women''s ''Rocket'' Dress (metal) ':
-    Gender: 3.0
+    Gender: 3
   Women's 'Rocket' Dress (purple):
-    Gender: 3.0
+    Gender: 3
   Women's 'Rocket' Dress (red):
-    Gender: 3.0
+    Gender: 3
   Women's 'Rocket' Dress (white):
-    Gender: 3.0
+    Gender: 3
   Women's 'Sanctity' Dress (black/gold):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Sanctity' Dress (blue/silver):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Sanctity' Dress (brown/gold):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Sanctity' Dress (cream/gold):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Sanctity' Dress (green/gold):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Sanctity' Dress (olive/gold):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Sanctity' Dress (red/gold):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Sanctity' Dress (red/silver):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 2.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 2
+    Gender: 3
   Women's 'Source' Coat (silver):
-    Gender: 3.0
+    Gender: 3
   Women's 'Structure' Dress (black):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 25
+    Gender: 3
   Women's 'Structure' Dress (black/white):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 25
+    Gender: 3
   Women's 'Structure' Dress (brown):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 25
+    Gender: 3
   Women's 'Structure' Dress (gold/black):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 25
+    Gender: 3
   Women's 'Structure' Dress (graphite):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 25
+    Gender: 3
   Women's 'Structure' Dress (green):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 25
+    Gender: 3
   Women's 'Structure' Dress (matte blue):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 25
+    Gender: 3
   Women's 'Structure' Dress (matte red):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 25
+    Gender: 3
   Women's 'Structure' Dress (navy):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 25
+    Gender: 3
   Women's 'Structure' Dress (red):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 25
+    Gender: 3
   Women's 'Structure' Dress (turquoise):
-    ClothingAlsoCoversCategory: 25.0
-    ClothingRemovesCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingRemovesCategory: 25
+    Gender: 3
   Women's 'Valkyrie' Flight Jacket:
-    Gender: 2.0
+    Gender: 2
   Women's Amarr Empire Command Jacket:
-    Gender: 2.0
+    Gender: 2
   Women's Amarr Empire Exploration Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
   Women's CONCORD 'Solitaire' Survival Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
   Women's Caldari State Exploration Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
   Women's Caldari State Officer Jacket:
-    Gender: 2.0
+    Gender: 2
   Women's Corporate Troubleshooter Gear:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
   Women's Exoplanets Data Analyst Lab Coat:
-    Gender: 2.0
+    Gender: 2
   Women's Exoplanets Hunter Mission Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
   Women's Exoplanets Program Director Coat:
-    Gender: 2.0
+    Gender: 2
   Women's Federal Strategic Materiel Jacket:
-    Gender: 2.0
+    Gender: 2
   Women's Gallente Federation Command Jacket:
-    Gender: 2.0
+    Gender: 2
   Women's Gallente Federation Exploration Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
   Women's Genolution Combat Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
   Women's IGC Location Scout Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
   Women's Imperial War Reserves Jacket:
-    Gender: 2.0
+    Gender: 2
   Women's Minmatar Republic Exploration Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
   Women's Minmatar Republic Officer Jacket:
-    Gender: 2.0
+    Gender: 2
   Women's ORE Claim Surveyor Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
   Women's Republic Fleet Ordnance Jacket:
-    Gender: 2.0
+    Gender: 2
   Women's SOE Expeditionary Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
   Women's Scope Network Special Correspondent Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
   Women's Sisters of EVE Advanced Combat Suit:
-    ClothingAlsoCoversCategory: 25.0
-    ClothingAlsoCoversCategory2: 22.0
-    ClothingRemovesCategory: 25.0
-    ClothingRemovesCategory2: 22.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
   Women's Sisters of EVE Analysis Coat:
-    ClothingAlsoCoversCategory: 25.0
-    Gender: 3.0
+    ClothingAlsoCoversCategory: 25
+    Gender: 3
   Women's State Military Stockpile Jacket:
-    Gender: 2.0
+    Gender: 2

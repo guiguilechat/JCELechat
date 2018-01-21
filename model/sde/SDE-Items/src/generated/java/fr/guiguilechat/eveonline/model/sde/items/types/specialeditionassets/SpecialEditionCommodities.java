@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.specialeditionassets;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.SpecialEditionAssets;
@@ -19,7 +19,7 @@ public class SpecialEditionCommodities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double CpuMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/specialeditionassets/SpecialEditionCommodities.yaml";
     private static LinkedHashMap<String, SpecialEditionCommodities> cache = (null);

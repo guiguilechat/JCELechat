@@ -1,192 +1,192 @@
 items:
   Desolation L:
     CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 3.0
+    ChargeSize: 3
     EmDamage: 28.0
     EntityFlyRangeMultiplier: 1.0
     FallofMultiplier: 1.0
-    LauncherGroup: 74.0
-    MainColor: 1.1835778E7
-    MetaLevel: 5.0
-    PowerNeedMultiplier: 1.0
-    RequiredSkill1: 12212.0
-    RequiredSkill1Level: 1.0
+    LauncherGroup: 74
+    MainColor: 11835778
+    MetaLevel: 5
+    PowerNeedMultiplier: 1
+    RequiredSkill1: 12212
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 20.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
   Desolation M:
     CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 2.0
+    ChargeSize: 2
     EmDamage: 14.0
     EntityFlyRangeMultiplier: 1.0
     FallofMultiplier: 1.0
-    LauncherGroup: 74.0
-    MainColor: 1.1835778E7
-    MetaLevel: 5.0
-    PowerNeedMultiplier: 1.0
-    RequiredSkill1: 12211.0
-    RequiredSkill1Level: 1.0
+    LauncherGroup: 74
+    MainColor: 11835778
+    MetaLevel: 5
+    PowerNeedMultiplier: 1
+    RequiredSkill1: 12211
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 10.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
   Desolation S:
     CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 1.0
+    ChargeSize: 1
     EmDamage: 7.0
     EntityFlyRangeMultiplier: 1.0
     FallofMultiplier: 1.0
-    LauncherGroup: 74.0
-    MainColor: 1.1835778E7
-    MetaLevel: 5.0
-    PowerNeedMultiplier: 1.0
-    RequiredSkill1: 12210.0
-    RequiredSkill1Level: 1.0
+    LauncherGroup: 74
+    MainColor: 11835778
+    MetaLevel: 5
+    PowerNeedMultiplier: 1
+    RequiredSkill1: 12210
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 5.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
   Null L:
     CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 3.0
+    ChargeSize: 3
     EntityFlyRangeMultiplier: 1.399999976158142
     FallofMultiplier: 1.399999976158142
     KineticDamage: 20.0
-    LauncherGroup: 74.0
-    MainColor: 1.1835778E7
-    MetaLevel: 5.0
-    PowerNeedMultiplier: 1.0
-    RequiredSkill1: 12212.0
-    RequiredSkill1Level: 1.0
+    LauncherGroup: 74
+    MainColor: 11835778
+    MetaLevel: 5
+    PowerNeedMultiplier: 1
+    RequiredSkill1: 12212
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 24.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
   Null M:
     CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 2.0
+    ChargeSize: 2
     EntityFlyRangeMultiplier: 1.399999976158142
     FallofMultiplier: 1.399999976158142
     KineticDamage: 10.0
-    LauncherGroup: 74.0
-    MainColor: 1.1835778E7
-    MetaLevel: 5.0
-    PowerNeedMultiplier: 1.0
-    RequiredSkill1: 12211.0
-    RequiredSkill1Level: 1.0
+    LauncherGroup: 74
+    MainColor: 11835778
+    MetaLevel: 5
+    PowerNeedMultiplier: 1
+    RequiredSkill1: 12211
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 12.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
   Null S:
     CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 1.0
+    ChargeSize: 1
     EntityFlyRangeMultiplier: 1.399999976158142
     FallofMultiplier: 1.399999976158142
     KineticDamage: 5.0
-    LauncherGroup: 74.0
-    MainColor: 1.1835778E7
-    MetaLevel: 5.0
-    PowerNeedMultiplier: 1.0
-    RequiredSkill1: 12210.0
-    RequiredSkill1Level: 1.0
+    LauncherGroup: 74
+    MainColor: 11835778
+    MetaLevel: 5
+    PowerNeedMultiplier: 1
+    RequiredSkill1: 12210
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 6.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
   Null XL:
     CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 4.0
+    ChargeSize: 4
     EntityFlyRangeMultiplier: 1.399999976158142
     FallofMultiplier: 1.399999976158142
     KineticDamage: 40.0
-    LauncherGroup: 74.0
-    MainColor: 1.1835778E7
-    MetaLevel: 5.0
-    PowerNeedMultiplier: 1.0
-    RequiredSkill1: 41405.0
-    RequiredSkill1Level: 1.0
+    LauncherGroup: 74
+    MainColor: 11835778
+    MetaLevel: 5
+    PowerNeedMultiplier: 1
+    RequiredSkill1: 41405
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 48.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
   Void L:
-    CapNeedBonus: 25.0
+    CapNeedBonus: 25
     CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 3.0
+    ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
     FallofMultiplier: 0.5
     KineticDamage: 30.799999237060547
-    LauncherGroup: 74.0
-    MainColor: 1.1835778E7
-    MetaLevel: 5.0
-    PowerNeedMultiplier: 1.0
-    RequiredSkill1: 12212.0
-    RequiredSkill1Level: 1.0
+    LauncherGroup: 74
+    MainColor: 11835778
+    MetaLevel: 5
+    PowerNeedMultiplier: 1
+    RequiredSkill1: 12212
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 30.799999237060547
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
   Void M:
-    CapNeedBonus: 25.0
+    CapNeedBonus: 25
     CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 2.0
+    ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
     FallofMultiplier: 0.5
     KineticDamage: 15.399999618530273
-    LauncherGroup: 74.0
-    MainColor: 1.1835778E7
-    MetaLevel: 5.0
-    PowerNeedMultiplier: 1.0
-    RequiredSkill1: 12211.0
-    RequiredSkill1Level: 1.0
+    LauncherGroup: 74
+    MainColor: 11835778
+    MetaLevel: 5
+    PowerNeedMultiplier: 1
+    RequiredSkill1: 12211
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 15.399999618530273
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
   Void S:
-    CapNeedBonus: 25.0
+    CapNeedBonus: 25
     CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 1.0
+    ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
     FallofMultiplier: 0.5
     KineticDamage: 7.699999809265137
-    LauncherGroup: 74.0
-    MainColor: 1.1835778E7
-    MetaLevel: 5.0
-    PowerNeedMultiplier: 1.0
-    RequiredSkill1: 12210.0
-    RequiredSkill1Level: 1.0
+    LauncherGroup: 74
+    MainColor: 11835778
+    MetaLevel: 5
+    PowerNeedMultiplier: 1
+    RequiredSkill1: 12210
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 7.699999809265137
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
   Void XL:
-    CapNeedBonus: 25.0
+    CapNeedBonus: 25
     CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 4.0
+    ChargeSize: 4
     EntityFlyRangeMultiplier: 0.5
     FallofMultiplier: 0.5
     KineticDamage: 61.599998474121094
-    LauncherGroup: 74.0
-    MainColor: 1.1835778E7
-    MetaLevel: 5.0
-    PowerNeedMultiplier: 1.0
-    RequiredSkill1: 41405.0
-    RequiredSkill1Level: 1.0
+    LauncherGroup: 74
+    MainColor: 11835778
+    MetaLevel: 5
+    PowerNeedMultiplier: 1
+    RequiredSkill1: 41405
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 61.599998474121094
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75

@@ -3,61 +3,61 @@ items:
     AoeCloudSizeBonus: -6.599999904632568
     AoeVelocityBonus: 6.599999904632568
     CapacitorNeed: 7.0
-    ChargeGroup1: 1400.0
-    ChargeSize: 1.0
+    ChargeGroup1: 1400
+    ChargeSize: 1
     Cpu: 24.0
     Duration: 10000.0
     ExplosionDelayBonus: 4.5
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.299999952316284
-    Hp: 40.0
-    MetaLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
     MissileVelocityBonus: 4.5
-    OverloadTrackingModuleStrengthBonus: 15.0
-    Power: 1.0
+    OverloadTrackingModuleStrengthBonus: 15
+    Power: 1
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 12441.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
+    RequiredSkill1: 12441
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
   Missile Guidance Computer I:
     AoeCloudSizeBonus: -5.5
     AoeVelocityBonus: 5.5
     CapacitorNeed: 7.0
-    ChargeGroup1: 1400.0
-    ChargeSize: 1.0
+    ChargeGroup1: 1400
+    ChargeSize: 1
     Cpu: 28.0
     Duration: 10000.0
     ExplosionDelayBonus: 4.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.299999952316284
-    Hp: 40.0
+    Hp: 40
     MissileVelocityBonus: 4.0
-    OverloadTrackingModuleStrengthBonus: 15.0
-    Power: 1.0
+    OverloadTrackingModuleStrengthBonus: 15
+    Power: 1
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 12441.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
+    RequiredSkill1: 12441
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
   Missile Guidance Computer II:
     AoeCloudSizeBonus: -8.25
     AoeVelocityBonus: 8.25
     CapacitorNeed: 7.0
-    ChargeGroup1: 1400.0
-    ChargeSize: 1.0
+    ChargeGroup1: 1400
+    ChargeSize: 1
     Cpu: 35.0
     Duration: 10000.0
     ExplosionDelayBonus: 5.5
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.299999952316284
-    Hp: 40.0
-    MetaLevel: 5.0
+    Hp: 40
+    MetaLevel: 5
     MissileVelocityBonus: 5.5
-    OverloadTrackingModuleStrengthBonus: 15.0
-    Power: 1.0
+    OverloadTrackingModuleStrengthBonus: 15
+    Power: 1
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 12441.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
+    RequiredSkill1: 12441
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 2

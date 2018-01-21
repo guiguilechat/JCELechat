@@ -1,266 +1,266 @@
 items:
   Astrahus:
-    ArmorDamageLimit: 5000.0
+    ArmorDamageLimit: 5000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 7200000.0
+    ArmorHP: 7200000
     ArmorKineticDamageResonance: 0.800000011920929
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
     CapacitorCapacity: 200000.0
-    CpuOutput: 26000.0
+    CpuOutput: 26000
     ECMResistance: 9.999999747378752E-6
     EmDamageResonance: 0.800000011920929
     EnergyWarfareResistance: 9.999999747378752E-6
     ExplosiveDamageResonance: 0.800000011920929
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    FighterAbilityKamikazeResistance: 1.0
-    FighterCapacity: 100000.0
-    FighterLightSlots: 3.0
-    FighterSupportSlots: 1.0
-    FighterTubes: 3.0
-    HiSlots: 4.0
-    Hp: 7200000.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 100000
+    FighterLightSlots: 3
+    FighterSupportSlots: 1
+    FighterTubes: 3
+    HiSlots: 4
+    Hp: 7200000
     KineticDamageResonance: 0.800000011920929
-    LauncherSlotsLeft: 2.0
-    LowSlots: 3.0
-    MaxLockedTargets: 7.0
-    MaxTargetRange: 350000.0
-    MaximumRangeCap: 400000.0
-    MedSlots: 4.0
-    PowerOutput: 1900000.0
+    LauncherSlotsLeft: 2
+    LowSlots: 3
+    MaxLockedTargets: 7
+    MaxTargetRange: 350000
+    MaximumRangeCap: 400000
+    MedSlots: 4
+    PowerOutput: 1900000
     RechargeRate: 3600000.0
     RemoteAssistanceImpedance: 9.999999747378752E-6
     RemoteRepairImpedance: 9.999999747378752E-6
-    RigSize: 2.0
-    RigSlots: 3.0
+    RigSize: 2
+    RigSlots: 3
     ScanGravimetricStrength: 500.0
     ScanLadarStrength: 500.0
     ScanMagnetometricStrength: 500.0
     ScanRadarStrength: 500.0
-    ScanResolution: 40.0
-    ScanSpeed: 2500.0
+    ScanResolution: 40
+    ScanSpeed: 2500
     SensorDampenerResistance: 9.999999747378752E-6
-    ServiceSlots: 3.0
-    ShieldCapacity: 7200000.0
-    ShieldDamageLimit: 5000.0
+    ServiceSlots: 3
+    ShieldCapacity: 7200000
+    ShieldDamageLimit: 5000
     ShieldEmDamageResonance: 0.800000011920929
     ShieldExplosiveDamageResonance: 0.800000011920929
     ShieldKineticDamageResonance: 0.800000011920929
     ShieldRechargeRate: 9.99999995904E11
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 1.0
-    SignatureRadius: 50000.0
+    SignatureRadius: 50000
     StasisWebifierResistance: 9.999999747378752E-6
-    StructureDamageLimit: 5000.0
-    StructureRoleBonus: 25.0
-    StructureServiceRoleBonus: -25.0
+    StructureDamageLimit: 5000
+    StructureRoleBonus: 25
+    StructureServiceRoleBonus: -25
     StructureUniformity: 1.0
     TargetPainterResistance: 9.999999747378752E-6
-    TetheringRange: 10000.0
+    TetheringRange: 10000
     ThermalDamageResonance: 0.800000011920929
     Uniformity: 1.0
-    UpgradeCapacity: 400.0
-    UpgradeSlotsLeft: 3.0
-    VulnerabilityRequired: 3.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
+    VulnerabilityRequired: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
   Fortizar:
-    ArmorDamageLimit: 15000.0
+    ArmorDamageLimit: 15000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 2.16E7
+    ArmorHP: 21600000
     ArmorKineticDamageResonance: 0.800000011920929
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
     CapacitorCapacity: 400000.0
-    CpuOutput: 45000.0
+    CpuOutput: 45000
     ECMResistance: 9.999999747378752E-6
     EmDamageResonance: 0.800000011920929
     EnergyWarfareResistance: 9.999999747378752E-6
     ExplosiveDamageResonance: 0.800000011920929
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    FighterAbilityKamikazeResistance: 1.0
-    FighterCapacity: 100000.0
-    FighterHeavySlots: 2.0
-    FighterLightSlots: 5.0
-    FighterSupportSlots: 2.0
-    FighterTubes: 5.0
-    HiSlots: 6.0
-    Hp: 2.16E7
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 100000
+    FighterHeavySlots: 2
+    FighterLightSlots: 5
+    FighterSupportSlots: 2
+    FighterTubes: 5
+    HiSlots: 6
+    Hp: 21600000
     KineticDamageResonance: 0.800000011920929
-    LauncherSlotsLeft: 3.0
-    LowSlots: 4.0
-    MaxLockedTargets: 7.0
-    MaxTargetRange: 350000.0
-    MaximumRangeCap: 400000.0
-    MedSlots: 5.0
-    PowerOutput: 3400000.0
+    LauncherSlotsLeft: 3
+    LowSlots: 4
+    MaxLockedTargets: 7
+    MaxTargetRange: 350000
+    MaximumRangeCap: 400000
+    MedSlots: 5
+    PowerOutput: 3400000
     RechargeRate: 7200000.0
     RemoteAssistanceImpedance: 9.999999747378752E-6
     RemoteRepairImpedance: 9.999999747378752E-6
-    RigSize: 3.0
-    RigSlots: 3.0
+    RigSize: 3
+    RigSlots: 3
     ScanGravimetricStrength: 500.0
     ScanLadarStrength: 500.0
     ScanMagnetometricStrength: 500.0
     ScanRadarStrength: 500.0
-    ScanResolution: 40.0
-    ScanSpeed: 2500.0
+    ScanResolution: 40
+    ScanSpeed: 2500
     SensorDampenerResistance: 9.999999747378752E-6
-    ServiceSlots: 5.0
-    ShieldCapacity: 2.16E7
-    ShieldDamageLimit: 15000.0
+    ServiceSlots: 5
+    ShieldCapacity: 21600000
+    ShieldDamageLimit: 15000
     ShieldEmDamageResonance: 0.800000011920929
     ShieldExplosiveDamageResonance: 0.800000011920929
     ShieldKineticDamageResonance: 0.800000011920929
     ShieldRechargeRate: 9.99999995904E11
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 1.0
-    SignatureRadius: 100000.0
+    SignatureRadius: 100000
     StasisWebifierResistance: 9.999999747378752E-6
-    StructureDamageLimit: 15000.0
-    StructureRoleBonus: 25.0
-    StructureServiceRoleBonus: -25.0
+    StructureDamageLimit: 15000
+    StructureRoleBonus: 25
+    StructureServiceRoleBonus: -25
     StructureUniformity: 1.0
     TargetPainterResistance: 9.999999747378752E-6
-    TetheringRange: 10000.0
+    TetheringRange: 10000
     ThermalDamageResonance: 0.800000011920929
     Uniformity: 1.0
-    UpgradeCapacity: 400.0
-    UpgradeSlotsLeft: 3.0
-    VulnerabilityRequired: 6.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
+    VulnerabilityRequired: 6
     WeaponDisruptionResistance: 9.999999747378752E-6
   Keepstar:
-    ArmorDamageLimit: 75000.0
+    ArmorDamageLimit: 75000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 1.08E8
+    ArmorHP: 108000000
     ArmorKineticDamageResonance: 0.800000011920929
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
     CapacitorCapacity: 600000.0
-    CpuOutput: 64000.0
+    CpuOutput: 64000
     ECMResistance: 9.999999747378752E-6
     EmDamageResonance: 0.800000011920929
     EnergyWarfareResistance: 9.999999747378752E-6
     ExplosiveDamageResonance: 0.800000011920929
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    FighterAbilityKamikazeResistance: 1.0
-    FighterCapacity: 100000.0
-    FighterHeavySlots: 5.0
-    FighterLightSlots: 5.0
-    FighterSupportSlots: 5.0
-    FighterTubes: 5.0
-    HiSlots: 8.0
-    Hp: 1.08E8
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 100000
+    FighterHeavySlots: 5
+    FighterLightSlots: 5
+    FighterSupportSlots: 5
+    FighterTubes: 5
+    HiSlots: 8
+    Hp: 108000000
     KineticDamageResonance: 0.800000011920929
-    LauncherSlotsLeft: 4.0
-    LowSlots: 5.0
-    MaxLockedTargets: 7.0
-    MaxTargetRange: 350000.0
-    MaximumRangeCap: 400000.0
-    MedSlots: 6.0
-    PowerOutput: 5900000.0
+    LauncherSlotsLeft: 4
+    LowSlots: 5
+    MaxLockedTargets: 7
+    MaxTargetRange: 350000
+    MaximumRangeCap: 400000
+    MedSlots: 6
+    PowerOutput: 5900000
     RechargeRate: 1.08E7
     RemoteAssistanceImpedance: 9.999999747378752E-6
     RemoteRepairImpedance: 9.999999747378752E-6
-    RigSize: 4.0
-    RigSlots: 3.0
+    RigSize: 4
+    RigSlots: 3
     ScanGravimetricStrength: 500.0
     ScanLadarStrength: 500.0
     ScanMagnetometricStrength: 500.0
     ScanRadarStrength: 500.0
-    ScanResolution: 40.0
-    ScanSpeed: 2500.0
+    ScanResolution: 40
+    ScanSpeed: 2500
     SensorDampenerResistance: 9.999999747378752E-6
-    ServiceSlots: 7.0
-    ShieldCapacity: 1.08E8
-    ShieldDamageLimit: 75000.0
+    ServiceSlots: 7
+    ShieldCapacity: 108000000
+    ShieldDamageLimit: 75000
     ShieldEmDamageResonance: 0.800000011920929
     ShieldExplosiveDamageResonance: 0.800000011920929
     ShieldKineticDamageResonance: 0.800000011920929
     ShieldRechargeRate: 9.99999995904E11
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 1.0
-    SignatureRadius: 150000.0
+    SignatureRadius: 150000
     StasisWebifierResistance: 9.999999747378752E-6
-    StructureDamageLimit: 75000.0
-    StructureRoleBonus: 25.0
-    StructureServiceRoleBonus: -25.0
+    StructureDamageLimit: 75000
+    StructureRoleBonus: 25
+    StructureServiceRoleBonus: -25
     StructureUniformity: 1.0
     TargetPainterResistance: 9.999999747378752E-6
-    TetheringRange: 10000.0
+    TetheringRange: 10000
     ThermalDamageResonance: 0.800000011920929
     Uniformity: 1.0
-    UpgradeCapacity: 400.0
-    UpgradeSlotsLeft: 3.0
-    VulnerabilityRequired: 21.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
+    VulnerabilityRequired: 21
     WeaponDisruptionResistance: 9.999999747378752E-6
   Upwell Palatine Keepstar:
-    ArmorDamageLimit: 75000.0
+    ArmorDamageLimit: 75000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 2.16E8
+    ArmorHP: 216000000
     ArmorKineticDamageResonance: 0.800000011920929
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
     CapacitorCapacity: 800000.0
-    CpuOutput: 70000.0
+    CpuOutput: 70000
     ECMResistance: 9.999999747378752E-6
     EmDamageResonance: 0.800000011920929
     EnergyWarfareResistance: 9.999999747378752E-6
     ExplosiveDamageResonance: 0.800000011920929
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    FighterAbilityKamikazeResistance: 1.0
-    FighterCapacity: 100000.0
-    FighterHeavySlots: 5.0
-    FighterLightSlots: 5.0
-    FighterSupportSlots: 5.0
-    FighterTubes: 5.0
-    HiSlots: 8.0
-    Hp: 2.16E8
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 100000
+    FighterHeavySlots: 5
+    FighterLightSlots: 5
+    FighterSupportSlots: 5
+    FighterTubes: 5
+    HiSlots: 8
+    Hp: 216000000
     KineticDamageResonance: 0.800000011920929
-    LauncherSlotsLeft: 5.0
-    LowSlots: 6.0
-    MaxLockedTargets: 7.0
-    MaxTargetRange: 350000.0
-    MaximumRangeCap: 400000.0
-    MedSlots: 8.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    PowerOutput: 6490000.0
+    LauncherSlotsLeft: 5
+    LowSlots: 6
+    MaxLockedTargets: 7
+    MaxTargetRange: 350000
+    MaximumRangeCap: 400000
+    MedSlots: 8
+    MetaGroupID: 4
+    MetaLevel: 8
+    PowerOutput: 6490000
     RechargeRate: 1.08E7
     RemoteAssistanceImpedance: 9.999999747378752E-6
     RemoteRepairImpedance: 9.999999747378752E-6
-    RigSize: 4.0
-    RigSlots: 3.0
+    RigSize: 4
+    RigSlots: 3
     ScanGravimetricStrength: 500.0
     ScanLadarStrength: 500.0
     ScanMagnetometricStrength: 500.0
     ScanRadarStrength: 500.0
-    ScanResolution: 40.0
-    ScanSpeed: 2500.0
+    ScanResolution: 40
+    ScanSpeed: 2500
     SensorDampenerResistance: 9.999999747378752E-6
-    ServiceSlots: 8.0
-    ShieldCapacity: 2.16E8
-    ShieldDamageLimit: 75000.0
+    ServiceSlots: 8
+    ShieldCapacity: 216000000
+    ShieldDamageLimit: 75000
     ShieldEmDamageResonance: 0.800000011920929
     ShieldExplosiveDamageResonance: 0.800000011920929
     ShieldKineticDamageResonance: 0.800000011920929
     ShieldRechargeRate: 9.99999995904E11
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 1.0
-    SignatureRadius: 150000.0
+    SignatureRadius: 150000
     StasisWebifierResistance: 9.999999747378752E-6
-    StructureDamageLimit: 75000.0
-    StructureRoleBonus: 25.0
-    StructureServiceRoleBonus: -25.0
+    StructureDamageLimit: 75000
+    StructureRoleBonus: 25
+    StructureServiceRoleBonus: -25
     StructureUniformity: 1.0
     TargetPainterResistance: 9.999999747378752E-6
-    TetheringRange: 10000.0
+    TetheringRange: 10000
     ThermalDamageResonance: 0.800000011920929
     Uniformity: 1.0
-    UpgradeCapacity: 400.0
-    UpgradeSlotsLeft: 3.0
-    VulnerabilityRequired: 21.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
+    VulnerabilityRequired: 21
     WeaponDisruptionResistance: 9.999999747378752E-6

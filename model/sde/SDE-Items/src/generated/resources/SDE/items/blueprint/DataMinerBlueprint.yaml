@@ -1,46 +1,46 @@
 items:
   '''Alpha'' Data Analyzer I Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Codex'' Data Analyzer I Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Daemon'' Data Analyzer I Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Libram'' Data Analyzer I Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Civilian Data Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Civilian Relic Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Data Analyzer I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Data Analyzer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Data Subverter I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Ligature Integrated Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Mangled Sansha Data Analyzer Blueprint:
     IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Purloined Sansha Data Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Relic Analyzer I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Relic Analyzer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Zeugma Integrated Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1

@@ -8,7 +8,6 @@ items:
     EmDamageResonance: 1.0
     EnergyWarfareResistance: 1.0
     ExplosiveDamageResonance: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 0.1
     KineticDamageResonance: 1.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
@@ -17,7 +16,7 @@ items:
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StasisWebifierResistance: 1.0
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
@@ -31,7 +30,6 @@ items:
     EmDamageResonance: 1.0
     EnergyWarfareResistance: 1.0
     ExplosiveDamageResonance: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 0.1
     KineticDamageResonance: 1.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
@@ -40,7 +38,7 @@ items:
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StasisWebifierResistance: 1.0
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
@@ -54,7 +52,6 @@ items:
     EmDamageResonance: 1.0
     EnergyWarfareResistance: 1.0
     ExplosiveDamageResonance: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 0.1
     KineticDamageResonance: 1.0
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
@@ -63,7 +60,7 @@ items:
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StasisWebifierResistance: 1.0
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0

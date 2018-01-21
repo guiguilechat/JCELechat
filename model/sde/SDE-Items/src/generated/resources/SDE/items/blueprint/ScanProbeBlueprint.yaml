@@ -4,5 +4,5 @@ items:
   Core Scanner Probe I Blueprint:
     IndustryBlueprintRank: 1.0
   Warp Disrupt Probe Blueprint:
-    Hp: 1.0
+    Hp: 1
     IndustryBlueprintRank: 2.0

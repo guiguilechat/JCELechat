@@ -1,16 +1,16 @@
 items:
   Base Metals:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
   Felsic Magma:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
   Heavy Metals:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
   Noble Metals:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
   Non-CS Crystals:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5

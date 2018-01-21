@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Module;
@@ -19,15 +20,15 @@ public class StasisGrappler
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double OverloadRangeBonus;
+    @DefaultIntValue(0)
+    public int OverloadRangeBonus;
     /**
      * The amount of charge used from the capacitor for a module activation.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorNeed;
     /**
      * 
@@ -35,15 +36,15 @@ public class StasisGrappler
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxGroupFitted;
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
     /**
      * Length of activation time.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Duration;
     /**
      * Can be fitted to
@@ -51,47 +52,47 @@ public class StasisGrappler
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup05;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup05;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup09;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup09;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup01;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup01;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup02;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup02;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup03;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup03;
     /**
      * Factor by which topspeed increases.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double SpeedFactor;
     /**
      * 
@@ -99,55 +100,55 @@ public class StasisGrappler
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup04;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup04;
     /**
      * Required skill level for skill 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * Can be fitted to
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup06;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup06;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup07;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup07;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup08;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup08;
     /**
      * Attribute ID of the resistance type v's this Ewar module.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RemoteResistanceID;
+    @DefaultIntValue(0)
+    public int RemoteResistanceID;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double HeatAbsorbtionRateModifier;
     /**
      * meta group of type
@@ -155,31 +156,31 @@ public class StasisGrappler
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MetaGroupID;
+    @DefaultIntValue(0)
+    public int MetaGroupID;
     /**
      * distance from maximum range at which accuracy has fallen by half
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(1.0D)
-    public double Falloff;
+    @DefaultIntValue(1)
+    public int Falloff;
     /**
      * current power need
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * CPU need of module
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * The type ID of the skill that is required.
@@ -187,23 +188,23 @@ public class StasisGrappler
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Distance below which range does not affect the to-hit equation.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double MaxRange;
+    @DefaultIntValue(0)
+    public int MaxRange;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double HeatDamage;
     /**
      * 
@@ -211,16 +212,16 @@ public class StasisGrappler
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredThermoDynamicsSkill;
+    @DefaultIntValue(0)
+    public int RequiredThermoDynamicsSkill;
     /**
      * distance from maximum range at which effectiveness has fallen by half
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FalloffEffectiveness;
+    @DefaultIntValue(0)
+    public int FalloffEffectiveness;
     public final static String RESOURCE_PATH = "SDE/items/module/StasisGrappler.yaml";
     private static LinkedHashMap<String, StasisGrappler> cache = (null);
 

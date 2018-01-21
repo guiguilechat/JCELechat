@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Ship;
@@ -19,127 +20,127 @@ public class DeepSpaceTransport
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double UpgradeSlotsLeft;
+    @DefaultIntValue(0)
+    public int UpgradeSlotsLeft;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RigSize;
+    @DefaultIntValue(0)
+    public int RigSize;
     /**
      * The number of low power slots on the ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LowSlots;
+    @DefaultIntValue(0)
+    public int LowSlots;
     /**
      * tbd
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MedSlots;
+    @DefaultIntValue(0)
+    public int MedSlots;
     /**
      * tbd
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HiSlots;
+    @DefaultIntValue(0)
+    public int HiSlots;
     /**
      * Whether this ship has fleet hangars.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HasFleetHangars;
+    @DefaultIntValue(0)
+    public int HasFleetHangars;
     /**
      * The capacity of the fleet hangar.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FleetHangarCapacity;
+    @DefaultIntValue(0)
+    public int FleetHangarCapacity;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FwLpKill;
+    @DefaultIntValue(0)
+    public int FwLpKill;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double IndustrialBonusDroneDamage;
+    @DefaultIntValue(0)
+    public int IndustrialBonusDroneDamage;
     /**
      * Required skill level for skill 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * Required skill level for skill 2
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RoleBonusOverheatDST;
+    @DefaultIntValue(0)
+    public int RoleBonusOverheatDST;
     /**
      * Tells if this type (ship) can be affected by the Rorqual Invulnerability Module
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AffectedByIndustrialInvulnModule;
+    @DefaultIntValue(0)
+    public int AffectedByIndustrialInvulnModule;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EliteBonusIndustrial1;
+    @DefaultIntValue(0)
+    public int EliteBonusIndustrial1;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EliteBonusIndustrial2;
+    @DefaultIntValue(0)
+    public int EliteBonusIndustrial2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShipBonusAI2;
     /**
      * 
@@ -147,7 +148,7 @@ public class DeepSpaceTransport
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShipBonusCI2;
     /**
      * 
@@ -155,7 +156,7 @@ public class DeepSpaceTransport
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShipBonusGI2;
     /**
      * 
@@ -163,7 +164,7 @@ public class DeepSpaceTransport
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShipBonusMI2;
     /**
      * Multiplier for jump fatigue distance
@@ -171,7 +172,7 @@ public class DeepSpaceTransport
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double JumpFatigueMultiplier;
     /**
      * The resolution that the vessel can target other objects at.
@@ -179,63 +180,63 @@ public class DeepSpaceTransport
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ScanResolution;
+    @DefaultIntValue(0)
+    public int ScanResolution;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2;
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
     /**
      * scanning speed in milliseconds
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ScanSpeed;
+    @DefaultIntValue(0)
+    public int ScanSpeed;
     /**
      * Tells if this type (ship) can be placed in the maintenance bay of a capital industrial ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AllowedInCapIndustrialMaintenanceBay;
+    @DefaultIntValue(0)
+    public int AllowedInCapIndustrialMaintenanceBay;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double TypeColorScheme;
+    @DefaultIntValue(0)
+    public int TypeColorScheme;
     /**
      * Warp ability of a ship.  If greater than zero than the ship cannot warp.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WarpScrambleStatus;
+    @DefaultIntValue(0)
+    public int WarpScrambleStatus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationHi;
     /**
      * Attribute on ships used for ship upgrades
@@ -243,15 +244,15 @@ public class DeepSpaceTransport
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double UpgradeCapacity;
+    @DefaultIntValue(0)
+    public int UpgradeCapacity;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationMed;
     /**
      * 
@@ -259,15 +260,15 @@ public class DeepSpaceTransport
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(5.0D)
-    public double ShipBonusMI;
+    @DefaultIntValue(5)
+    public int ShipBonusMI;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationLow;
     /**
      * 
@@ -275,40 +276,40 @@ public class DeepSpaceTransport
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(5.0D)
-    public double ShipBonusAI;
+    @DefaultIntValue(5)
+    public int ShipBonusAI;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(5.0D)
-    public double ShipBonusCI;
+    @DefaultIntValue(5)
+    public int ShipBonusCI;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(5.0D)
-    public double ShipBonusGI;
+    @DefaultIntValue(5)
+    public int ShipBonusGI;
     /**
      * The number of rig slots on the ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RigSlots;
+    @DefaultIntValue(0)
+    public int RigSlots;
     /**
      * The main color of a ship type.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MainColor;
+    @DefaultIntValue(0)
+    public int MainColor;
     public final static String RESOURCE_PATH = "SDE/items/ship/DeepSpaceTransport.yaml";
     private static LinkedHashMap<String, DeepSpaceTransport> cache = (null);
 

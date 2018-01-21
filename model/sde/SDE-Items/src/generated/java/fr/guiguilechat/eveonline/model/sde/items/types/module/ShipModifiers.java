@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Module;
@@ -19,7 +20,7 @@ public class ShipModifiers
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeMaxRangePostDiv;
     /**
      * 
@@ -27,7 +28,7 @@ public class ShipModifiers
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeMaxTargetRangePostDiv;
     /**
      * 
@@ -35,7 +36,7 @@ public class ShipModifiers
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeRadarStrengthPostDiv;
     /**
      * 
@@ -43,7 +44,7 @@ public class ShipModifiers
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeLadarStrengthPostDiv;
     /**
      * 
@@ -51,7 +52,7 @@ public class ShipModifiers
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeGravimetricStrengthPostDiv;
     /**
      * 
@@ -59,7 +60,7 @@ public class ShipModifiers
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeMagnetometricStrengthPostDiv;
     /**
      * 
@@ -67,7 +68,7 @@ public class ShipModifiers
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeEmResistancePostDiv;
     /**
      * 
@@ -75,7 +76,7 @@ public class ShipModifiers
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeExplosiveResistancePostDiv;
     /**
      * 
@@ -83,7 +84,7 @@ public class ShipModifiers
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeArmorRepDurationPostDiv;
     /**
      * 
@@ -91,7 +92,7 @@ public class ShipModifiers
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeThermicResistancePostDiv;
     /**
      * 
@@ -99,7 +100,7 @@ public class ShipModifiers
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ModeMWDVelocityPostDiv;
     /**
      * 
@@ -107,7 +108,7 @@ public class ShipModifiers
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeKineticResistancePostDiv;
     /**
      * 
@@ -115,15 +116,15 @@ public class ShipModifiers
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ModeMWDCapPostDiv;
+    @DefaultIntValue(0)
+    public int ModeMWDCapPostDiv;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeSignatureRadiusPostDiv;
     /**
      * 
@@ -131,7 +132,7 @@ public class ShipModifiers
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeAgilityPostDiv;
     /**
      * 
@@ -139,7 +140,7 @@ public class ShipModifiers
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeVelocityPostDiv;
     /**
      * 
@@ -147,15 +148,15 @@ public class ShipModifiers
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ModeMWDSigPenaltyPostDiv;
+    @DefaultIntValue(0)
+    public int ModeMWDSigPenaltyPostDiv;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ModeTrackingPostDiv;
     /**
      * 
@@ -163,7 +164,7 @@ public class ShipModifiers
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ModeDamageBonusPostDiv;
     /**
      * 
@@ -171,8 +172,8 @@ public class ShipModifiers
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double ModeEwarResistancePostDiv;
+    @DefaultIntValue(1)
+    public int ModeEwarResistancePostDiv;
     public final static String RESOURCE_PATH = "SDE/items/module/ShipModifiers.yaml";
     private static LinkedHashMap<String, ShipModifiers> cache = (null);
 

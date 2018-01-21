@@ -1,41 +1,41 @@
 items:
   Standup L-Set Basic Large Ship Manufacturing Efficiency I:
     AttributeEngRigMatBonus: -2.0
-    AttributeEngRigTimeBonus: -20.0
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
+    AttributeEngRigTimeBonus: -20
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
     HiSecModifier: 1.0
-    Hp: 40.0
+    Hp: 40
     LowSecModifier: 1.899999976158142
-    MaxGroupFitted: 1.0
+    MaxGroupFitted: 1
     NullSecModifier: 2.0999999046325684
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 1.0
-    RigSize: 3.0
-    SecurityModifier: 1.0
-    StructureItemVisualFlag: 1.0
-    StructureRigBonus1: 32.0
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 3
+    SecurityModifier: 1
+    StructureItemVisualFlag: 1
+    StructureRigBonus1: 32
     StructureRigBonus2: 3.200000047683716
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Standup L-Set Basic Large Ship Manufacturing Efficiency II:
     AttributeEngRigMatBonus: -2.4000000953674316
-    AttributeEngRigTimeBonus: -24.0
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
+    AttributeEngRigTimeBonus: -24
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
     HiSecModifier: 1.0
-    Hp: 40.0
+    Hp: 40
     LowSecModifier: 1.899999976158142
-    MaxGroupFitted: 1.0
+    MaxGroupFitted: 1
     NullSecModifier: 2.0999999046325684
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 1.0
-    RigSize: 3.0
-    SecurityModifier: 1.0
-    StructureItemVisualFlag: 1.0
-    StructureRigBonus1: 40.0
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 3
+    SecurityModifier: 1
+    StructureItemVisualFlag: 1
+    StructureRigBonus1: 40
     StructureRigBonus2: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150

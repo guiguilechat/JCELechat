@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.accessories;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Accessories;
@@ -19,8 +19,8 @@ public class Clone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(10000.0D)
-    public double SkillPointsSaved;
+    @DefaultIntValue(10000)
+    public int SkillPointsSaved;
     public final static String RESOURCE_PATH = "SDE/items/accessories/Clone.yaml";
     private static LinkedHashMap<String, Clone> cache = (null);
 

@@ -1,55 +1,55 @@
 items:
   Standup ASML-LD Missile:
     Agility: 1000.0
-    AimedLaunch: 1.0
-    AoeCloudSize: 500.0
+    AimedLaunch: 1
+    AoeCloudSize: 500
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 60.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 600.0
-    ExplosionDelay: 115000.0
+    ExplosionDelay: 115000
     ExplosiveDamage: 600.0
-    Hp: 4000000.0
+    Hp: 4000000
     KineticDamage: 600.0
-    LauncherGroup: 1562.0
+    LauncherGroup: 1562
     MaxVelocity: 6000.0
-    StructureItemVisualFlag: 1.0
+    StructureItemVisualFlag: 1
     StructureUniformity: 0.75
     ThermalDamage: 600.0
   Standup ASML-MD Missile:
     Agility: 1000.0
-    AimedLaunch: 1.0
-    AoeCloudSize: 200.0
+    AimedLaunch: 1
+    AoeCloudSize: 200
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 100.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 300.0
-    ExplosionDelay: 105000.0
+    ExplosionDelay: 105000
     ExplosiveDamage: 300.0
-    Hp: 4000000.0
+    Hp: 4000000
     KineticDamage: 300.0
-    LauncherGroup: 1562.0
+    LauncherGroup: 1562
     MaxVelocity: 7000.0
-    StructureItemVisualFlag: 1.0
+    StructureItemVisualFlag: 1
     StructureUniformity: 0.75
     ThermalDamage: 300.0
   Standup ASML-SD Missile:
     Agility: 1000.0
-    AimedLaunch: 1.0
-    AoeCloudSize: 100.0
+    AimedLaunch: 1
+    AoeCloudSize: 100
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 200.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 100.0
-    ExplosionDelay: 95000.0
+    ExplosionDelay: 95000
     ExplosiveDamage: 100.0
-    Hp: 4000000.0
+    Hp: 4000000
     KineticDamage: 100.0
-    LauncherGroup: 1562.0
+    LauncherGroup: 1562
     MaxVelocity: 10000.0
-    StructureItemVisualFlag: 1.0
+    StructureItemVisualFlag: 1
     StructureUniformity: 0.75
     ThermalDamage: 100.0

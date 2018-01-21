@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Implant;
@@ -19,55 +20,55 @@ public class CyberXSpecials
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double IntelligenceBonus;
+    @DefaultIntValue(0)
+    public int IntelligenceBonus;
     /**
      * +/- bonus to the memory of a character.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MemoryBonus;
+    @DefaultIntValue(0)
+    public int MemoryBonus;
     /**
      * +/- bonus to the perception of a character.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double PerceptionBonus;
+    @DefaultIntValue(0)
+    public int PerceptionBonus;
     /**
      * +/- bonus to the willpower of a character.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WillpowerBonus;
+    @DefaultIntValue(0)
+    public int WillpowerBonus;
     /**
      * Tech level of an item
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double TechLevel;
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * Whether an item is an implant or not
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Implantness;
+    @DefaultIntValue(0)
+    public int Implantness;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ArmorHpBonus2;
     /**
      * 
@@ -75,8 +76,8 @@ public class CyberXSpecials
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double VelocityBonus2;
+    @DefaultIntValue(0)
+    public int VelocityBonus2;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberXSpecials.yaml";
     private static LinkedHashMap<String, CyberXSpecials> cache = (null);
 

@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Drone;
@@ -19,7 +20,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorNeed;
     /**
      * Amount of maximum shield HP on the item.
@@ -27,23 +28,23 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldCapacity;
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * The number of hit points on the entities armor.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorHP;
+    @DefaultIntValue(0)
+    public int ArmorHP;
     /**
      * Multiplies EM damage taken by Armor. 
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorEmDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
@@ -51,7 +52,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorExplosiveDamageResonance;
     /**
      * DO NOT MESS WITH
@@ -59,7 +60,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ArmorUniformity;
     /**
      * Multiplies KINETIC damage taken by Armor. 
@@ -67,7 +68,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorKineticDamageResonance;
     /**
      * 
@@ -75,15 +76,15 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.2D)
-    public double FighterAbilityAntiFighterMissileResistance;
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiFighterMissileResistance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorThermalDamageResonance;
     /**
      * Multiplies EM damage taken by shield
@@ -91,7 +92,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldEmDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
@@ -99,7 +100,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldExplosiveDamageResonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
@@ -107,7 +108,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldKineticDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Shield. 
@@ -115,7 +116,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldThermalDamageResonance;
     /**
      * Required skill level for skill 2
@@ -123,31 +124,31 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * Required skill level for skill 3
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill3Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill3Level;
     /**
      * The distance outside of which the entity activates their MWD equivalent.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(2500.0D)
-    public double EntityChaseMaxDistance;
+    @DefaultIntValue(2500)
+    public int EntityChaseMaxDistance;
     /**
      * The distance at which the entity orbits, follows.. and more.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(500.0D)
+    @DefaultDoubleValue(500.0D)
     public double EntityFlyRange;
     /**
      * Duration of NPC effect
@@ -155,47 +156,47 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(30000.0D)
-    public double ECMDuration;
+    @DefaultIntValue(30000)
+    public int ECMDuration;
     /**
      * Chance of NPC effect to be activated each duration
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ECMEntityChance;
+    @DefaultIntValue(0)
+    public int ECMEntityChance;
     /**
      * Tech level of an item
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double TechLevel;
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * Signature Radius is used for turret tracking and scanning.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(100.0D)
-    public double SignatureRadius;
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * Max Range for NPC Target Jam
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ECMRangeOptimal;
+    @DefaultIntValue(0)
+    public int ECMRangeOptimal;
     /**
      * Autogenerated skill attribute, signatureRadiusBonus
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SignatureRadiusBonus;
     /**
      * Bonus to Max Targeting Range
@@ -203,7 +204,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxTargetRangeBonus;
     /**
      * Distance below which range does not affect the to-hit equation.
@@ -211,15 +212,15 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double MaxRange;
+    @DefaultIntValue(0)
+    public int MaxRange;
     /**
      * Bonus for scan resolution
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanResolutionBonus;
     /**
      * The type ID of the skill that is required.
@@ -227,55 +228,55 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2;
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill3;
+    @DefaultIntValue(0)
+    public int RequiredSkill3;
     /**
      * Used for target jam effects to reduce max locked targets of victem to a negative value to ensure the victem looses its targets, use extreme value
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EwTargetJam;
+    @DefaultIntValue(0)
+    public int EwTargetJam;
     /**
      * The maximum number of their targets that the character can attack at a given time.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxAttackTargets;
+    @DefaultIntValue(0)
+    public int MaxAttackTargets;
     /**
      * The maximum amount of time stalled before entity chase speed kicks in.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(5000.0D)
-    public double EntityChaseMaxDelay;
+    @DefaultIntValue(5000)
+    public int EntityChaseMaxDelay;
     /**
      * Chance that the max delay is waited before chase is engaged.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double EntityChaseMaxDelayChance;
+    @DefaultIntValue(1)
+    public int EntityChaseMaxDelayChance;
     /**
      * The agility of the object.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Agility;
     /**
      * The maximum amount of time chase is ever engaged for.
@@ -283,23 +284,23 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(5000.0D)
-    public double EntityChaseMaxDuration;
+    @DefaultIntValue(5000)
+    public int EntityChaseMaxDuration;
     /**
      * The chance of engaging chase for the maximum duration.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double EntityChaseMaxDurationChance;
+    @DefaultIntValue(1)
+    public int EntityChaseMaxDurationChance;
     /**
      * Length of activation time.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Duration;
     /**
      * scanning speed in milliseconds
@@ -307,23 +308,23 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ScanSpeed;
+    @DefaultIntValue(0)
+    public int ScanSpeed;
     /**
      * Attribute ID of the resistance type v's this Ewar module.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RemoteResistanceID;
+    @DefaultIntValue(0)
+    public int RemoteResistanceID;
     /**
      * Autogenerated skill attribute, falloffBonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double FalloffBonus;
     /**
      * Amount of time taken to fully recharge the shield.
@@ -331,7 +332,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldRechargeRate;
     /**
      * Autogenerated skill attribute, maxRangeBonus
@@ -339,7 +340,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxRangeBonus;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
@@ -347,7 +348,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldUniformity;
     /**
      * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
@@ -355,15 +356,15 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1000.0D)
-    public double OptimalSigRadius;
+    @DefaultIntValue(1000)
+    public int OptimalSigRadius;
     /**
      * +/- modifier to the gravimetric strength of an electronic system.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanGravimetricStrengthBonus;
     /**
      * +/- modifier to the ladar strength of an electronic system.
@@ -371,7 +372,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanLadarStrengthBonus;
     /**
      * +/- modifier to the magnetometric strength of an electronic system.
@@ -379,7 +380,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanMagnetometricStrengthBonus;
     /**
      * +/- modifier to the radar strength of an electronic system.
@@ -387,7 +388,7 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanRadarStrengthBonus;
     /**
      * The distance from a target an entity starts using its weapons.
@@ -395,23 +396,23 @@ public class ElectronicWarfareDrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(15000.0D)
-    public double EntityAttackRange;
+    @DefaultIntValue(15000)
+    public int EntityAttackRange;
     /**
      * The speed that entities fly at when not chasing a target.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EntityCruiseSpeed;
+    @DefaultIntValue(0)
+    public int EntityCruiseSpeed;
     /**
      * Tracking Speed Bonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double TrackingSpeedBonus;
     public final static String RESOURCE_PATH = "SDE/items/drone/ElectronicWarfareDrone.yaml";
     private static LinkedHashMap<String, ElectronicWarfareDrone> cache = (null);

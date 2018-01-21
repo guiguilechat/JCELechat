@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Deployable;
@@ -19,72 +19,72 @@ public class MobileJumpDisruptor
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WarpScrambleRange;
+    @DefaultIntValue(0)
+    public int WarpScrambleRange;
     /**
      * How long it takes to anchor or unanchor this object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(60000.0D)
-    public double AnchoringDelay;
+    @DefaultIntValue(60000)
+    public int AnchoringDelay;
     /**
      * Required skill level for skill 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Required skill level for skill 2
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2;
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
     /**
      * Required skill level for skill 3
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill3Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill3Level;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill3;
+    @DefaultIntValue(0)
+    public int RequiredSkill3;
     /**
      * The ranking of the module within its tech level
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MetaLevel;
+    @DefaultIntValue(0)
+    public int MetaLevel;
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileJumpDisruptor.yaml";
     private static LinkedHashMap<String, MobileJumpDisruptor> cache = (null);
 

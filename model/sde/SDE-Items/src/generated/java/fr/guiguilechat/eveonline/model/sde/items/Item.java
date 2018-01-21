@@ -2,7 +2,8 @@
 package fr.guiguilechat.eveonline.model.sde.items;
 
 import java.lang.reflect.Field;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 
 public abstract class Item {
 
@@ -19,12 +20,21 @@ public abstract class Item {
 
     public void loadDefault() {
         for (Field f: (getClass().getFields())) {
-            DefaultValue annot = f.getAnnotation(DefaultValue.class);
-            if (annot!= (null)) {
+            DefaultDoubleValue annotDouble = f.getAnnotation(DefaultDoubleValue.class);
+            if (annotDouble!= (null)) {
                 try {
                     f.setAccessible(true);
-                    f.set(this, annot.value());
+                    f.set(this, annotDouble.value());
                 } catch (Exception _x) {
+                }
+            } else {
+                DefaultIntValue annotLong = f.getAnnotation(DefaultIntValue.class);
+                if (annotLong!= (null)) {
+                    try {
+                        f.setAccessible(true);
+                        f.set(this, annotLong.value());
+                    } catch (Exception _x) {
+                    }
                 }
             }
         }

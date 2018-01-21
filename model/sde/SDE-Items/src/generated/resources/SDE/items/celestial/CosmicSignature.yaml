@@ -4,6 +4,6 @@ items:
     ScanLadarStrength: 1.0
     ScanMagnetometricStrength: 1.0
     ScanRadarStrength: 1.0
-    SignatureRadius: 5.0
+    SignatureRadius: 5
   Deadspace Signature:
-    SignatureRadius: 100.0
+    SignatureRadius: 100

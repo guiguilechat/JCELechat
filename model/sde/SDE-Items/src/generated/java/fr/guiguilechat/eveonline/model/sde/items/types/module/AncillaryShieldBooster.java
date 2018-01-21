@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Module;
@@ -19,15 +20,15 @@ public class AncillaryShieldBooster
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ChargeSize;
+    @DefaultIntValue(0)
+    public int ChargeSize;
     /**
      * reload time (ms)
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(10000.0D)
+    @DefaultDoubleValue(10000.0D)
     public double ReloadTime;
     /**
      * Bonus to shield.
@@ -35,7 +36,7 @@ public class AncillaryShieldBooster
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldBonus;
     /**
      * The amount of charge used from the capacitor for a module activation.
@@ -43,7 +44,7 @@ public class AncillaryShieldBooster
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorNeed;
     /**
      * Length of activation time.
@@ -51,7 +52,7 @@ public class AncillaryShieldBooster
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Duration;
     /**
      * 
@@ -59,15 +60,15 @@ public class AncillaryShieldBooster
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double OverloadShieldBonus;
+    @DefaultIntValue(0)
+    public int OverloadShieldBonus;
     /**
      * CPU need of module
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * Required skill level for skill 1
@@ -75,15 +76,15 @@ public class AncillaryShieldBooster
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double OverloadSelfDurationBonus;
     /**
      * The type ID of the skill that is required.
@@ -91,23 +92,23 @@ public class AncillaryShieldBooster
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Number of charges consumed per activation
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double ChargeRate;
+    @DefaultIntValue(1)
+    public int ChargeRate;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double HeatDamage;
     /**
      * 
@@ -115,7 +116,7 @@ public class AncillaryShieldBooster
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double HeatAbsorbtionRateModifier;
     /**
      * 
@@ -123,24 +124,24 @@ public class AncillaryShieldBooster
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredThermoDynamicsSkill;
+    @DefaultIntValue(0)
+    public int RequiredThermoDynamicsSkill;
     /**
      * One of the groups of charge this launcher can be loaded with.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ChargeGroup2;
+    @DefaultIntValue(0)
+    public int ChargeGroup2;
     /**
      * current power need
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     public final static String RESOURCE_PATH = "SDE/items/module/AncillaryShieldBooster.yaml";
     private static LinkedHashMap<String, AncillaryShieldBooster> cache = (null);
 

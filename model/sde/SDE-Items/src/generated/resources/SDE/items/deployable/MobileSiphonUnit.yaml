@@ -1,94 +1,94 @@
 items:
   Large Mobile Siphon Unit:
-    AnchoringDelay: 5000.0
+    AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 1000.0
+    ArmorHP: 1000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 50000.0
-    Hp: 1000.0
-    ShieldCapacity: 1000.0
+    ControlTowerMinimumDistance: 50000
+    Hp: 1000
+    ShieldCapacity: 1000
     ShieldRechargeRate: 20000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     Uniformity: 1.0
   Medium Mobile Siphon Unit:
-    AnchoringDelay: 5000.0
+    AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 1000.0
+    ArmorHP: 1000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 50000.0
-    Hp: 1000.0
-    ShieldCapacity: 1000.0
+    ControlTowerMinimumDistance: 50000
+    Hp: 1000
+    ShieldCapacity: 1000
     ShieldRechargeRate: 20000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     Uniformity: 1.0
   Small Mobile 'Hybrid' Siphon Unit:
-    AnchoringDelay: 60000.0
+    AnchoringDelay: 60000
     AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 10000.0
+    ArmorHP: 10000
     ArmorUniformity: 0.75
-    Hp: 60000.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 2.0
+    Hp: 60000
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 2
     ScanGravimetricStrength: 75.0
     ScanLadarStrength: 75.0
     ScanMagnetometricStrength: 75.0
     ScanRadarStrength: 75.0
-    ShieldCapacity: 10000.0
+    ShieldCapacity: 10000
     ShieldRechargeRate: 2400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 600.0
-    SiphonPolyMaterial: 50.0
-    SiphonWasteAmount: 20.0
+    SignatureRadius: 600
+    SiphonPolyMaterial: 50
+    SiphonWasteAmount: 20
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     Uniformity: 1.0
   Small Mobile 'Rote' Siphon Unit:
-    AnchoringDelay: 60000.0
+    AnchoringDelay: 60000
     AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 10000.0
+    ArmorHP: 10000
     ArmorUniformity: 0.75
-    Hp: 60000.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 2.0
+    Hp: 60000
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 2
     ScanGravimetricStrength: 75.0
     ScanLadarStrength: 75.0
     ScanMagnetometricStrength: 75.0
     ScanRadarStrength: 75.0
-    ShieldCapacity: 10000.0
+    ShieldCapacity: 10000
     ShieldRechargeRate: 2400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 600.0
-    SiphonProMaterial: 110.0
-    SiphonRawMaterial: 20.0
-    SiphonWasteAmount: 10.0
+    SignatureRadius: 600
+    SiphonProMaterial: 110
+    SiphonRawMaterial: 20
+    SiphonWasteAmount: 10
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     Uniformity: 1.0
   Small Mobile Siphon Unit:
-    AnchoringDelay: 60000.0
+    AnchoringDelay: 60000
     AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 10000.0
+    ArmorHP: 10000
     ArmorUniformity: 0.75
-    Hp: 60000.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 2.0
+    Hp: 60000
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 2
     ScanGravimetricStrength: 75.0
     ScanLadarStrength: 75.0
     ScanMagnetometricStrength: 75.0
     ScanRadarStrength: 75.0
-    ShieldCapacity: 10000.0
+    ShieldCapacity: 10000
     ShieldRechargeRate: 2400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 600.0
-    SiphonProMaterial: 30.0
-    SiphonRawMaterial: 60.0
-    SiphonWasteAmount: 10.0
+    SignatureRadius: 600
+    SiphonProMaterial: 30
+    SiphonRawMaterial: 60
+    SiphonWasteAmount: 10
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     Uniformity: 1.0

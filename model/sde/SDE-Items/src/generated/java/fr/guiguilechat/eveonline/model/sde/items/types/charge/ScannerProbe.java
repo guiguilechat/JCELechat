@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Charge;
@@ -19,7 +20,7 @@ public class ScannerProbe
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxVelocity;
     /**
      * If this is 1 then the probe can scan for ships, otherwise it can't.
@@ -27,15 +28,15 @@ public class ScannerProbe
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ProbeCanScanShips;
+    @DefaultIntValue(0)
+    public int ProbeCanScanShips;
     /**
      * The agility of the object.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Agility;
     /**
      * Tech level of an item
@@ -43,39 +44,39 @@ public class ScannerProbe
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double TechLevel;
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * The maximum hitpoints of an object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * One of the groups of launcher this charge can be loaded into.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LauncherGroup;
+    @DefaultIntValue(0)
+    public int LauncherGroup;
     /**
      * Range in meters of explosion effect area.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ExplosionRange;
+    @DefaultIntValue(0)
+    public int ExplosionRange;
     /**
      * DO NOT MESS WITH
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StructureUniformity;
     /**
      * Required skill level for skill 1
@@ -83,23 +84,23 @@ public class ScannerProbe
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(3.0D)
+    @DefaultDoubleValue(3.0D)
     public double WarpSpeedMultiplier;
     /**
      * The amount of milliseconds before the object explodes.
@@ -107,15 +108,15 @@ public class ScannerProbe
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ExplosionDelay;
+    @DefaultIntValue(0)
+    public int ExplosionDelay;
     /**
      * This is the lowest scan range value in AUs for probes under the revised probing system
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double BaseScanRange;
     /**
      * This is the highest sensor strength in points for probes under the revised probing system
@@ -123,23 +124,23 @@ public class ScannerProbe
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double BaseSensorStrength;
+    @DefaultIntValue(0)
+    public int BaseSensorStrength;
     /**
      * meta group of type
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MetaGroupID;
+    @DefaultIntValue(0)
+    public int MetaGroupID;
     /**
      * This is the lowest maximum scan deviation in AU for probes under the revised probing system
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double BaseMaxScanDeviation;
     /**
      * This is the multiplier/divisor for probe range increases and associated values under the revised probing system
@@ -147,8 +148,8 @@ public class ScannerProbe
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RangeFactor;
+    @DefaultIntValue(0)
+    public int RangeFactor;
     public final static String RESOURCE_PATH = "SDE/items/charge/ScannerProbe.yaml";
     private static LinkedHashMap<String, ScannerProbe> cache = (null);
 

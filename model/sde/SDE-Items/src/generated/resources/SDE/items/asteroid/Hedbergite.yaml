@@ -1,73 +1,73 @@
 items:
   Compressed Glazed Hedbergite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 21.0
-    ReprocessingSkillType: 12185.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 21
+    ReprocessingSkillType: 12185
+    RequiredSkill1: 3386
   Compressed Hedbergite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 21.0
-    ReprocessingSkillType: 12185.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 21
+    ReprocessingSkillType: 12185
+    RequiredSkill1: 3386
   Compressed Lustrous Hedbergite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 4.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 46680.0
-    ReprocessingSkillType: 12185.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 46680
+    ReprocessingSkillType: 12185
+    RequiredSkill1: 3386
   Compressed Vitric Hedbergite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 21.0
-    ReprocessingSkillType: 12185.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 21
+    ReprocessingSkillType: 12185
+    RequiredSkill1: 3386
   Glazed Hedbergite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28400.0
-    OreBasicType: 21.0
-    ReprocessingSkillType: 12185.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28400
+    OreBasicType: 21
+    ReprocessingSkillType: 12185
+    RequiredSkill1: 3386
   Hedbergite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28401.0
-    OreBasicType: 21.0
-    ReprocessingSkillType: 12185.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28401
+    OreBasicType: 21
+    ReprocessingSkillType: 12185
+    RequiredSkill1: 3386
   Lustrous Hedbergite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 4.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 0.44999998807907104
-    AsteroidRadiusUnitSize: 600.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 46696.0
-    OreBasicType: 46680.0
-    ReprocessingSkillType: 12185.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 46696
+    OreBasicType: 46680
+    ReprocessingSkillType: 12185
+    RequiredSkill1: 3386
   Vitric Hedbergite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28402.0
-    OreBasicType: 21.0
-    ReprocessingSkillType: 12185.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28402
+    OreBasicType: 21
+    ReprocessingSkillType: 12185
+    RequiredSkill1: 3386

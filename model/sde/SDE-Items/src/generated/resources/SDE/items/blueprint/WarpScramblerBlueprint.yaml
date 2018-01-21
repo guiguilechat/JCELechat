@@ -1,78 +1,78 @@
 items:
   '''Delineative'' Warp Scrambler Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Interruptive'' Warp Disruptor Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Caldari Navy Warp Disruptor Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Caldari Navy Warp Scrambler Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Domination Heavy Warp Disruptor Blueprint:
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    MetaGroupID: 4
+    TechLevel: 1
   Domination Heavy Warp Scrambler Blueprint:
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    MetaGroupID: 4
+    TechLevel: 1
   Heavy Faint Epsilon Scoped Warp Scrambler Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Heavy Faint Scoped Warp Disruptor Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Heavy Fleeting Compact Warp Disruptor Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Heavy Initiated Compact Warp Scrambler Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Heavy J5 Enduring Warp Disruptor Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Heavy J5b Enduring Warp Scrambler Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Heavy Warp Disruptor I Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Heavy Warp Disruptor II Blueprint:
-    TechLevel: 2.0
+    TechLevel: 2
   Heavy Warp Scrambler I Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Heavy Warp Scrambler II Blueprint:
-    TechLevel: 2.0
+    TechLevel: 2
   Khanid Navy Warp Disruptor Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Khanid Navy Warp Scrambler Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Republic Fleet Warp Disruptor Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Republic Fleet Warp Scrambler Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Shadow Serpentis Heavy Warp Disruptor Blueprint:
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    MetaGroupID: 4
+    TechLevel: 1
   Shadow Serpentis Heavy Warp Scrambler Blueprint:
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    MetaGroupID: 4
+    TechLevel: 1
   Warp Disruption Field Generator I Blueprint:
     IndustryBlueprintRank: 12.0
-    TechLevel: 1.0
+    TechLevel: 1
   Warp Disruption Field Generator II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
-    TechLevel: 2.0
+    TechLevel: 2
   Warp Disruptor I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Warp Disruptor II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Warp Prohibitor I Blueprint:
     IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
+    TechLevel: 1
   Warp Scrambler I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Warp Scrambler II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2

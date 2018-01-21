@@ -1,435 +1,435 @@
 items:
   '''Arbalest'' Rapid Heavy Missile Launcher I':
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 46.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadRofBonus: -15.0
-    Power: 1160.0
+    Hp: 40
+    MetaLevel: 4
+    OverloadRofBonus: -15
+    Power: 1160
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 5185.0
-    TechLevel: 1.0
-    TypeColorScheme: 20113.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 5185
+    TechLevel: 1
+    TypeColorScheme: 20113
   '''Limos'' Rapid Heavy Missile Launcher I':
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 49.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0999999046325684
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadRofBonus: -15.0
-    Power: 1160.0
+    Hp: 40
+    MetaLevel: 2
+    OverloadRofBonus: -15
+    Power: 1160
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 5835.0
-    TechLevel: 1.0
-    TypeColorScheme: 20115.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 5835
+    TechLevel: 1
+    TypeColorScheme: 20115
   '''Malkuth'' Rapid Heavy Missile Launcher I':
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 43.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.299999952316284
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadRofBonus: -15.0
-    Power: 1160.0
+    Hp: 40
+    MetaLevel: 1
+    OverloadRofBonus: -15
+    Power: 1160
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 6160.0
-    TechLevel: 1.0
-    TypeColorScheme: 20123.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 6160
+    TechLevel: 1
+    TypeColorScheme: 20123
   Caldari Navy Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 59.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRofBonus: -15.0
-    Power: 1060.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRofBonus: -15
+    Power: 1060
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 4540.0
-    TechLevel: 1.0
-    TypeColorScheme: 11321.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 4540
+    TechLevel: 1
+    TypeColorScheme: 11321
   Domination Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 43.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 7.0
-    OverloadRofBonus: -15.0
-    Power: 1160.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 7
+    OverloadRofBonus: -15
+    Power: 1160
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 5030.0
-    TechLevel: 1.0
-    TypeColorScheme: 11318.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 5030
+    TechLevel: 1
+    TypeColorScheme: 11318
   Dread Guristas Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 59.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRofBonus: -15.0
-    Power: 1060.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRofBonus: -15
+    Power: 1060
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 4540.0
-    TechLevel: 1.0
-    TypeColorScheme: 11335.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 4540
+    TechLevel: 1
+    TypeColorScheme: 11335
   Estamel's Modified Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 72.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.2999999523162842
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadRofBonus: -15.0
-    Power: 1060.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 14
+    OverloadRofBonus: -15
+    Power: 1060
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 3630.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 3630
+    TechLevel: 1
+    TypeColorScheme: 11323
   Gotan's Modified Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadRofBonus: -15.0
-    Power: 1160.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 13
+    OverloadRofBonus: -15
+    Power: 1160
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 4405.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 4405
+    TechLevel: 1
+    TypeColorScheme: 11323
   Hakim's Modified Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 48.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadRofBonus: -15.0
-    Power: 1160.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 12
+    OverloadRofBonus: -15
+    Power: 1160
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 4670.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 4670
+    TechLevel: 1
+    TypeColorScheme: 11323
   Kaikka's Modified Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 62.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.600000023841858
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadRofBonus: -15.0
-    Power: 1060.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadRofBonus: -15
+    Power: 1060
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 4310.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 4310
+    TechLevel: 1
+    TypeColorScheme: 11323
   Mizuro's Modified Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 45.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.7999999523162842
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadRofBonus: -15.0
-    Power: 1160.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadRofBonus: -15
+    Power: 1160
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 4930.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 4930
+    TechLevel: 1
+    TypeColorScheme: 11323
   Rapid Heavy Missile Launcher I:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.4000000953674316
-    Hp: 40.0
-    OverloadRofBonus: -15.0
-    Power: 960.0
+    Hp: 40
+    OverloadRofBonus: -15
+    Power: 960
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 6480.0
-    TechLevel: 1.0
-    TypeColorScheme: 11324.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 6480
+    TechLevel: 1
+    TypeColorScheme: 11324
   Rapid Heavy Missile Launcher II:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeGroup4: 655.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeGroup4: 655
+    ChargeRate: 1
     Cpu: 59.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 1.899999976158142
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadRofBonus: -15.0
-    Power: 1210.0
+    Hp: 40
+    MetaLevel: 5
+    OverloadRofBonus: -15
+    Power: 1210
     ReloadTime: 35000.0
-    RequiredSkill1: 3319.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 20211.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 5185.0
-    TechLevel: 2.0
-    TypeColorScheme: 11325.0
+    RequiredSkill1: 3319
+    RequiredSkill1Level: 3
+    RequiredSkill2: 20211
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 5185
+    TechLevel: 2
+    TypeColorScheme: 11325
   Republic Fleet Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 43.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 7.0
-    OverloadRofBonus: -15.0
-    Power: 1160.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 7
+    OverloadRofBonus: -15
+    Power: 1160
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 5030.0
-    TechLevel: 1.0
-    TypeColorScheme: 11339.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 5030
+    TechLevel: 1
+    TypeColorScheme: 11339
   Shaqil's Modified Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.5
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadRofBonus: -15.0
-    Power: 1060.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 14
+    OverloadRofBonus: -15
+    Power: 1060
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 4150.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 4150
+    TechLevel: 1
+    TypeColorScheme: 11323
   Thon's Modified Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 66.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.5
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadRofBonus: -15.0
-    Power: 1060.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 12
+    OverloadRofBonus: -15
+    Power: 1060
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 4080.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 4080
+    TechLevel: 1
+    TypeColorScheme: 11323
   Tobias' Modified Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 52.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.5
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadRofBonus: -15.0
-    Power: 1160.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 14
+    OverloadRofBonus: -15
+    Power: 1160
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 4150.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 4150
+    TechLevel: 1
+    TypeColorScheme: 11323
   True Sansha Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 43.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.899999976158142
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 7.0
-    OverloadRofBonus: -15.0
-    Power: 1160.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 7
+    OverloadRofBonus: -15
+    Power: 1160
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 5030.0
-    TechLevel: 1.0
-    TypeColorScheme: 11349.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 5030
+    TechLevel: 1
+    TypeColorScheme: 11349
   Vepas' Modified Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 68.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadRofBonus: -15.0
-    Power: 1060.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 13
+    OverloadRofBonus: -15
+    Power: 1060
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 3855.0
-    TechLevel: 1.0
-    TypeColorScheme: 11323.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 3855
+    TechLevel: 1
+    TypeColorScheme: 11323
   YO-5000 Rapid Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
+    ChargeGroup1: 385
+    ChargeGroup2: 395
+    ChargeRate: 1
     Cpu: 51.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadRofBonus: -15.0
-    Power: 1160.0
+    Hp: 40
+    MetaLevel: 3
+    OverloadRofBonus: -15
+    Power: 1160
     ReloadTime: 35000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 5510.0
-    TechLevel: 1.0
-    TypeColorScheme: 20116.0
+    RequiredSkill1: 3324
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 5510
+    TechLevel: 1
+    TypeColorScheme: 20116

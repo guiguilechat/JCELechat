@@ -1,97 +1,97 @@
 items:
   Bitumens:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45492.0
-    ReprocessingSkillType: 46152.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45492
+    ReprocessingSkillType: 46152
+    RequiredSkill1: 3386
   Brimful Bitumens:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45492.0
-    ReprocessingSkillType: 46152.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45492
+    ReprocessingSkillType: 46152
+    RequiredSkill1: 3386
   Brimful Coesite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45493.0
-    ReprocessingSkillType: 46152.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45493
+    ReprocessingSkillType: 46152
+    RequiredSkill1: 3386
   Brimful Sylvite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45491.0
-    ReprocessingSkillType: 46152.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45491
+    ReprocessingSkillType: 46152
+    RequiredSkill1: 3386
   Brimful Zeolites:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45490.0
-    ReprocessingSkillType: 46152.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45490
+    ReprocessingSkillType: 46152
+    RequiredSkill1: 3386
   Coesite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45493.0
-    ReprocessingSkillType: 46152.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45493
+    ReprocessingSkillType: 46152
+    RequiredSkill1: 3386
   Glistening Bitumens:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 5.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45492.0
-    ReprocessingSkillType: 46152.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45492
+    ReprocessingSkillType: 46152
+    RequiredSkill1: 3386
   Glistening Coesite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 5.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45493.0
-    ReprocessingSkillType: 46152.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45493
+    ReprocessingSkillType: 46152
+    RequiredSkill1: 3386
   Glistening Sylvite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 5.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45491.0
-    ReprocessingSkillType: 46152.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45491
+    ReprocessingSkillType: 46152
+    RequiredSkill1: 3386
   Glistening Zeolites:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 5.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45490.0
-    ReprocessingSkillType: 46152.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45490
+    ReprocessingSkillType: 46152
+    RequiredSkill1: 3386
   Sylvite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45491.0
-    ReprocessingSkillType: 46152.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45491
+    ReprocessingSkillType: 46152
+    RequiredSkill1: 3386
   Zeolites:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45490.0
-    ReprocessingSkillType: 46152.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45490
+    ReprocessingSkillType: 46152
+    RequiredSkill1: 3386

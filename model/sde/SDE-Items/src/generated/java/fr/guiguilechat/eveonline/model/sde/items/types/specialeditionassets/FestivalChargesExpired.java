@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.specialeditionassets;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.SpecialEditionAssets;
@@ -19,31 +20,31 @@ public class FestivalChargesExpired
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double BaseShieldDamage;
+    @DefaultIntValue(0)
+    public int BaseShieldDamage;
     /**
      * Determines wether a missile launches aligned with the ship (0) or directly at the target (1).
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AimedLaunch;
+    @DefaultIntValue(0)
+    public int AimedLaunch;
     /**
      * Just for the UI to display base damage on armor.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double BaseArmorDamage;
+    @DefaultIntValue(0)
+    public int BaseArmorDamage;
     /**
      * Maximum velocity of ship
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxVelocity;
     /**
      * Tech level of an item
@@ -51,15 +52,15 @@ public class FestivalChargesExpired
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double TechLevel;
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * The agility of the object.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Agility;
     /**
      * One of the groups of launcher this charge can be loaded into.
@@ -67,31 +68,31 @@ public class FestivalChargesExpired
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LauncherGroup;
+    @DefaultIntValue(0)
+    public int LauncherGroup;
     /**
      * The maximum hitpoints of an object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * the range in meters for an object to trigger detonation of missile. (own ship excluded)
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DetonationRange;
+    @DefaultIntValue(0)
+    public int DetonationRange;
     /**
      * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double SpeedMultiplier;
     /**
      * DO NOT MESS WITH
@@ -99,7 +100,7 @@ public class FestivalChargesExpired
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StructureUniformity;
     /**
      * If present on a type which is used like a missile, signifies that it should never do damage (whether it has any to do or not).
@@ -107,31 +108,31 @@ public class FestivalChargesExpired
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MissileNeverDoesDamage;
+    @DefaultIntValue(0)
+    public int MissileNeverDoesDamage;
     /**
      * Required skill level for skill 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * Required skill level for skill 2
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * Thermal damage done.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ThermalDamage;
     /**
      * The amount of milliseconds before the object explodes.
@@ -139,16 +140,16 @@ public class FestivalChargesExpired
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ExplosionDelay;
+    @DefaultIntValue(0)
+    public int ExplosionDelay;
     /**
      * Chance of piercing the armor.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorPiercingChance;
+    @DefaultIntValue(0)
+    public int ArmorPiercingChance;
     public final static String RESOURCE_PATH = "SDE/items/specialeditionassets/FestivalChargesExpired.yaml";
     private static LinkedHashMap<String, FestivalChargesExpired> cache = (null);
 

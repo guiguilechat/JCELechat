@@ -1,29 +1,29 @@
 items:
   Amarr Factory Outpost Platform:
-    AnchoringDelay: 3600000.0
-    Hp: 1.0E8
-    RequiredSkill1: 3400.0
-    RequiredSkill1Level: 1.0
-    RequiresSovereigntyDisplayOnly: 1.0
-    StationTypeID: 21644.0
+    AnchoringDelay: 3600000
+    Hp: 100000000
+    RequiredSkill1: 3400
+    RequiredSkill1Level: 1
+    RequiresSovereigntyDisplayOnly: 1
+    StationTypeID: 21644
   Caldari Research Outpost Platform:
-    AnchoringDelay: 3600000.0
-    Hp: 1.0E8
-    RequiredSkill1: 3400.0
-    RequiredSkill1Level: 1.0
-    RequiresSovereigntyDisplayOnly: 1.0
-    StationTypeID: 21642.0
+    AnchoringDelay: 3600000
+    Hp: 100000000
+    RequiredSkill1: 3400
+    RequiredSkill1Level: 1
+    RequiresSovereigntyDisplayOnly: 1
+    StationTypeID: 21642
   Gallente Administrative Outpost Platform:
-    AnchoringDelay: 3600000.0
-    Hp: 1.0E8
-    RequiredSkill1: 3400.0
-    RequiredSkill1Level: 1.0
-    RequiresSovereigntyDisplayOnly: 1.0
-    StationTypeID: 21645.0
+    AnchoringDelay: 3600000
+    Hp: 100000000
+    RequiredSkill1: 3400
+    RequiredSkill1Level: 1
+    RequiresSovereigntyDisplayOnly: 1
+    StationTypeID: 21645
   Minmatar Service Outpost Platform:
-    AnchoringDelay: 3600000.0
-    Hp: 1.0E8
-    RequiredSkill1: 3400.0
-    RequiredSkill1Level: 1.0
-    RequiresSovereigntyDisplayOnly: 1.0
-    StationTypeID: 21646.0
+    AnchoringDelay: 3600000
+    Hp: 100000000
+    RequiredSkill1: 3400
+    RequiredSkill1Level: 1
+    RequiresSovereigntyDisplayOnly: 1
+    StationTypeID: 21646

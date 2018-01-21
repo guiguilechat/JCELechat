@@ -1,34 +1,32 @@
 items:
   Dread Guristas Ion Field Projection Battery:
-    AnchoringDelay: 5000.0
-    ArmorHP: 3000000.0
+    AnchoringDelay: 5000
+    ArmorHP: 3000000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 5000.0
-    Cpu: 50.0
-    DisallowOffensiveModifiers: 1.0
+    ControlTowerMinimumDistance: 5000
+    DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
-    EntityAttackDelayMax: 30000.0
-    EntityAttackDelayMin: 7500.0
-    EntityFlyRange: 200000.0
+    EntityAttackDelayMax: 30000
+    EntityAttackDelayMin: 7500
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    FalloffEffectiveness: 100000.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FalloffEffectiveness: 100000
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
-    MaxLockedTargets: 1.0
-    MaxRange: 200000.0
-    MaxTargetRange: 500000.0
-    MetaGroupID: 4.0
-    OnliningDelay: 120000.0
-    PosPlayerControlStructure: 1.0
-    Power: 20000.0
-    ProximityRange: 300000.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 3.0
+    MaxLockedTargets: 1
+    MaxRange: 200000
+    MaxTargetRange: 500000
+    MetaGroupID: 4
+    OnliningDelay: 120000
+    PosPlayerControlStructure: 1
+    Power: 20000
+    ProximityRange: 300000
+    RemoteResistanceID: 2253
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 3
     ScanGravimetricStrength: 200.0
     ScanGravimetricStrengthBonus: 25.0
     ScanLadarStrength: 200.0
@@ -37,46 +35,44 @@ items:
     ScanMagnetometricStrengthBonus: 76.0
     ScanRadarStrength: 200.0
     ScanRadarStrengthBonus: 25.0
-    ScanResolution: 60.0
-    ShieldCapacity: 200000.0
+    ScanResolution: 60
+    ShieldCapacity: 200000
     ShieldRechargeRate: 2.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
+    SignatureRadius: 8000
     StructureUniformity: 1.0
-    TargetSwitchDelay: 30000.0
+    TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 5000.0
+    UnanchoringDelay: 5000
     Uniformity: 1.0
   Dread Guristas Phase Inversion Battery:
-    AnchoringDelay: 5000.0
-    ArmorHP: 3000000.0
+    AnchoringDelay: 5000
+    ArmorHP: 3000000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 5000.0
-    Cpu: 50.0
-    DisallowOffensiveModifiers: 1.0
+    ControlTowerMinimumDistance: 5000
+    DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
-    EntityAttackDelayMax: 30000.0
-    EntityAttackDelayMin: 7500.0
-    EntityFlyRange: 200000.0
+    EntityAttackDelayMax: 30000
+    EntityAttackDelayMin: 7500
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    FalloffEffectiveness: 100000.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FalloffEffectiveness: 100000
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
-    MaxLockedTargets: 1.0
-    MaxRange: 200000.0
-    MaxTargetRange: 500000.0
-    MetaGroupID: 4.0
-    OnliningDelay: 120000.0
-    PosPlayerControlStructure: 1.0
-    Power: 20000.0
-    ProximityRange: 300000.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 3.0
+    MaxLockedTargets: 1
+    MaxRange: 200000
+    MaxTargetRange: 500000
+    MetaGroupID: 4
+    OnliningDelay: 120000
+    PosPlayerControlStructure: 1
+    Power: 20000
+    ProximityRange: 300000
+    RemoteResistanceID: 2253
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 3
     ScanGravimetricStrength: 200.0
     ScanGravimetricStrengthBonus: 25.0
     ScanLadarStrength: 200.0
@@ -85,46 +81,44 @@ items:
     ScanMagnetometricStrengthBonus: 25.0
     ScanRadarStrength: 200.0
     ScanRadarStrengthBonus: 25.0
-    ScanResolution: 60.0
-    ShieldCapacity: 200000.0
+    ScanResolution: 60
+    ShieldCapacity: 200000
     ShieldRechargeRate: 2.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
+    SignatureRadius: 8000
     StructureUniformity: 1.0
-    TargetSwitchDelay: 30000.0
+    TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 5000.0
+    UnanchoringDelay: 5000
     Uniformity: 1.0
   Dread Guristas Spatial Destabilization Battery:
-    AnchoringDelay: 5000.0
-    ArmorHP: 3000000.0
+    AnchoringDelay: 5000
+    ArmorHP: 3000000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 5000.0
-    Cpu: 50.0
-    DisallowOffensiveModifiers: 1.0
+    ControlTowerMinimumDistance: 5000
+    DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
-    EntityAttackDelayMax: 30000.0
-    EntityAttackDelayMin: 7500.0
-    EntityFlyRange: 200000.0
+    EntityAttackDelayMax: 30000
+    EntityAttackDelayMin: 7500
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    FalloffEffectiveness: 100000.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FalloffEffectiveness: 100000
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
-    MaxLockedTargets: 1.0
-    MaxRange: 200000.0
-    MaxTargetRange: 500000.0
-    MetaGroupID: 4.0
-    OnliningDelay: 120000.0
-    PosPlayerControlStructure: 1.0
-    Power: 20000.0
-    ProximityRange: 300000.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 3.0
+    MaxLockedTargets: 1
+    MaxRange: 200000
+    MaxTargetRange: 500000
+    MetaGroupID: 4
+    OnliningDelay: 120000
+    PosPlayerControlStructure: 1
+    Power: 20000
+    ProximityRange: 300000
+    RemoteResistanceID: 2253
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 3
     ScanGravimetricStrength: 200.0
     ScanGravimetricStrengthBonus: 76.0
     ScanLadarStrength: 200.0
@@ -133,46 +127,44 @@ items:
     ScanMagnetometricStrengthBonus: 25.0
     ScanRadarStrength: 200.0
     ScanRadarStrengthBonus: 25.0
-    ScanResolution: 60.0
-    ShieldCapacity: 200000.0
+    ScanResolution: 60
+    ShieldCapacity: 200000
     ShieldRechargeRate: 2.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
+    SignatureRadius: 8000
     StructureUniformity: 1.0
-    TargetSwitchDelay: 30000.0
+    TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 5000.0
+    UnanchoringDelay: 5000
     Uniformity: 1.0
   Dread Guristas White Noise Generation Battery:
-    AnchoringDelay: 5000.0
-    ArmorHP: 3000000.0
+    AnchoringDelay: 5000
+    ArmorHP: 3000000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 5000.0
-    Cpu: 50.0
-    DisallowOffensiveModifiers: 1.0
+    ControlTowerMinimumDistance: 5000
+    DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
-    EntityAttackDelayMax: 30000.0
-    EntityAttackDelayMin: 7500.0
-    EntityFlyRange: 200000.0
+    EntityAttackDelayMax: 30000
+    EntityAttackDelayMin: 7500
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    FalloffEffectiveness: 100000.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FalloffEffectiveness: 100000
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
-    MaxLockedTargets: 1.0
-    MaxRange: 200000.0
-    MaxTargetRange: 500000.0
-    MetaGroupID: 4.0
-    OnliningDelay: 120000.0
-    PosPlayerControlStructure: 1.0
-    Power: 20000.0
-    ProximityRange: 300000.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 3.0
+    MaxLockedTargets: 1
+    MaxRange: 200000
+    MaxTargetRange: 500000
+    MetaGroupID: 4
+    OnliningDelay: 120000
+    PosPlayerControlStructure: 1
+    Power: 20000
+    ProximityRange: 300000
+    RemoteResistanceID: 2253
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 3
     ScanGravimetricStrength: 200.0
     ScanGravimetricStrengthBonus: 25.0
     ScanLadarStrength: 200.0
@@ -181,46 +173,44 @@ items:
     ScanMagnetometricStrengthBonus: 25.0
     ScanRadarStrength: 200.0
     ScanRadarStrengthBonus: 76.0
-    ScanResolution: 60.0
-    ShieldCapacity: 200000.0
+    ScanResolution: 60
+    ShieldCapacity: 200000
     ShieldRechargeRate: 2.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
+    SignatureRadius: 8000
     StructureUniformity: 1.0
-    TargetSwitchDelay: 30000.0
+    TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 5000.0
+    UnanchoringDelay: 5000
     Uniformity: 1.0
   Guristas Ion Field Projection Battery:
-    AnchoringDelay: 5000.0
-    ArmorHP: 2250000.0
+    AnchoringDelay: 5000
+    ArmorHP: 2250000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 5000.0
-    Cpu: 50.0
-    DisallowOffensiveModifiers: 1.0
+    ControlTowerMinimumDistance: 5000
+    DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
-    EntityAttackDelayMax: 30000.0
-    EntityAttackDelayMin: 7500.0
-    EntityFlyRange: 200000.0
+    EntityAttackDelayMax: 30000
+    EntityAttackDelayMin: 7500
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    FalloffEffectiveness: 100000.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FalloffEffectiveness: 100000
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
-    MaxLockedTargets: 1.0
-    MaxRange: 200000.0
-    MaxTargetRange: 500000.0
-    MetaGroupID: 4.0
-    OnliningDelay: 120000.0
-    PosPlayerControlStructure: 1.0
-    Power: 22500.0
-    ProximityRange: 300000.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 3.0
+    MaxLockedTargets: 1
+    MaxRange: 200000
+    MaxTargetRange: 500000
+    MetaGroupID: 4
+    OnliningDelay: 120000
+    PosPlayerControlStructure: 1
+    Power: 22500
+    ProximityRange: 300000
+    RemoteResistanceID: 2253
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 3
     ScanGravimetricStrength: 200.0
     ScanGravimetricStrengthBonus: 17.0
     ScanLadarStrength: 200.0
@@ -229,46 +219,44 @@ items:
     ScanMagnetometricStrengthBonus: 51.0
     ScanRadarStrength: 200.0
     ScanRadarStrengthBonus: 17.0
-    ScanResolution: 55.0
-    ShieldCapacity: 150000.0
+    ScanResolution: 55
+    ShieldCapacity: 150000
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
+    SignatureRadius: 8000
     StructureUniformity: 1.0
-    TargetSwitchDelay: 30000.0
+    TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 5000.0
+    UnanchoringDelay: 5000
     Uniformity: 1.0
   Guristas Phase Inversion Battery:
-    AnchoringDelay: 5000.0
-    ArmorHP: 2250000.0
+    AnchoringDelay: 5000
+    ArmorHP: 2250000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 5000.0
-    Cpu: 50.0
-    DisallowOffensiveModifiers: 1.0
+    ControlTowerMinimumDistance: 5000
+    DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
-    EntityAttackDelayMax: 30000.0
-    EntityAttackDelayMin: 7500.0
-    EntityFlyRange: 200000.0
+    EntityAttackDelayMax: 30000
+    EntityAttackDelayMin: 7500
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    FalloffEffectiveness: 100000.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FalloffEffectiveness: 100000
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
-    MaxLockedTargets: 1.0
-    MaxRange: 200000.0
-    MaxTargetRange: 500000.0
-    MetaGroupID: 4.0
-    OnliningDelay: 120000.0
-    PosPlayerControlStructure: 1.0
-    Power: 22500.0
-    ProximityRange: 300000.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 3.0
+    MaxLockedTargets: 1
+    MaxRange: 200000
+    MaxTargetRange: 500000
+    MetaGroupID: 4
+    OnliningDelay: 120000
+    PosPlayerControlStructure: 1
+    Power: 22500
+    ProximityRange: 300000
+    RemoteResistanceID: 2253
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 3
     ScanGravimetricStrength: 200.0
     ScanGravimetricStrengthBonus: 17.0
     ScanLadarStrength: 200.0
@@ -277,46 +265,44 @@ items:
     ScanMagnetometricStrengthBonus: 17.0
     ScanRadarStrength: 200.0
     ScanRadarStrengthBonus: 17.0
-    ScanResolution: 55.0
-    ShieldCapacity: 150000.0
+    ScanResolution: 55
+    ShieldCapacity: 150000
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
+    SignatureRadius: 8000
     StructureUniformity: 1.0
-    TargetSwitchDelay: 30000.0
+    TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 5000.0
+    UnanchoringDelay: 5000
     Uniformity: 1.0
   Guristas Spatial Destabilization Battery:
-    AnchoringDelay: 5000.0
-    ArmorHP: 2250000.0
+    AnchoringDelay: 5000
+    ArmorHP: 2250000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 5000.0
-    Cpu: 50.0
-    DisallowOffensiveModifiers: 1.0
+    ControlTowerMinimumDistance: 5000
+    DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
-    EntityAttackDelayMax: 30000.0
-    EntityAttackDelayMin: 7500.0
-    EntityFlyRange: 200000.0
+    EntityAttackDelayMax: 30000
+    EntityAttackDelayMin: 7500
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    FalloffEffectiveness: 100000.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FalloffEffectiveness: 100000
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
-    MaxLockedTargets: 1.0
-    MaxRange: 200000.0
-    MaxTargetRange: 500000.0
-    MetaGroupID: 4.0
-    OnliningDelay: 120000.0
-    PosPlayerControlStructure: 1.0
-    Power: 22500.0
-    ProximityRange: 300000.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 3.0
+    MaxLockedTargets: 1
+    MaxRange: 200000
+    MaxTargetRange: 500000
+    MetaGroupID: 4
+    OnliningDelay: 120000
+    PosPlayerControlStructure: 1
+    Power: 22500
+    ProximityRange: 300000
+    RemoteResistanceID: 2253
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 3
     ScanGravimetricStrength: 200.0
     ScanGravimetricStrengthBonus: 51.0
     ScanLadarStrength: 200.0
@@ -325,46 +311,44 @@ items:
     ScanMagnetometricStrengthBonus: 17.0
     ScanRadarStrength: 200.0
     ScanRadarStrengthBonus: 17.0
-    ScanResolution: 55.0
-    ShieldCapacity: 150000.0
+    ScanResolution: 55
+    ShieldCapacity: 150000
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
+    SignatureRadius: 8000
     StructureUniformity: 1.0
-    TargetSwitchDelay: 30000.0
+    TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 5000.0
+    UnanchoringDelay: 5000
     Uniformity: 1.0
   Guristas White Noise Generation Battery:
-    AnchoringDelay: 5000.0
-    ArmorHP: 2250000.0
+    AnchoringDelay: 5000
+    ArmorHP: 2250000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 5000.0
-    Cpu: 50.0
-    DisallowOffensiveModifiers: 1.0
+    ControlTowerMinimumDistance: 5000
+    DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
-    EntityAttackDelayMax: 30000.0
-    EntityAttackDelayMin: 7500.0
-    EntityFlyRange: 200000.0
+    EntityAttackDelayMax: 30000
+    EntityAttackDelayMin: 7500
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    FalloffEffectiveness: 100000.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FalloffEffectiveness: 100000
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
-    MaxLockedTargets: 1.0
-    MaxRange: 200000.0
-    MaxTargetRange: 500000.0
-    MetaGroupID: 4.0
-    OnliningDelay: 120000.0
-    PosPlayerControlStructure: 1.0
-    Power: 22500.0
-    ProximityRange: 300000.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 3.0
+    MaxLockedTargets: 1
+    MaxRange: 200000
+    MaxTargetRange: 500000
+    MetaGroupID: 4
+    OnliningDelay: 120000
+    PosPlayerControlStructure: 1
+    Power: 22500
+    ProximityRange: 300000
+    RemoteResistanceID: 2253
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 3
     ScanGravimetricStrength: 200.0
     ScanGravimetricStrengthBonus: 17.0
     ScanLadarStrength: 200.0
@@ -373,45 +357,43 @@ items:
     ScanMagnetometricStrengthBonus: 17.0
     ScanRadarStrength: 200.0
     ScanRadarStrengthBonus: 51.0
-    ScanResolution: 55.0
-    ShieldCapacity: 150000.0
+    ScanResolution: 55
+    ShieldCapacity: 150000
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
+    SignatureRadius: 8000
     StructureUniformity: 1.0
-    TargetSwitchDelay: 30000.0
+    TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 5000.0
+    UnanchoringDelay: 5000
     Uniformity: 1.0
   Ion Field Projection Battery:
-    AnchoringDelay: 5000.0
-    ArmorHP: 1500000.0
+    AnchoringDelay: 5000
+    ArmorHP: 1500000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 5000.0
-    Cpu: 50.0
-    DisallowOffensiveModifiers: 1.0
+    ControlTowerMinimumDistance: 5000
+    DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
-    EntityAttackDelayMax: 30000.0
-    EntityAttackDelayMin: 7500.0
-    EntityFlyRange: 200000.0
+    EntityAttackDelayMax: 30000
+    EntityAttackDelayMin: 7500
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    FalloffEffectiveness: 100000.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FalloffEffectiveness: 100000
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
-    MaxLockedTargets: 1.0
-    MaxRange: 200000.0
-    MaxTargetRange: 500000.0
-    OnliningDelay: 120000.0
-    PosPlayerControlStructure: 1.0
-    Power: 25000.0
-    ProximityRange: 300000.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 3.0
+    MaxLockedTargets: 1
+    MaxRange: 200000
+    MaxTargetRange: 500000
+    OnliningDelay: 120000
+    PosPlayerControlStructure: 1
+    Power: 25000
+    ProximityRange: 300000
+    RemoteResistanceID: 2253
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 3
     ScanGravimetricStrength: 200.0
     ScanGravimetricStrengthBonus: 15.0
     ScanLadarStrength: 200.0
@@ -420,45 +402,43 @@ items:
     ScanMagnetometricStrengthBonus: 45.0
     ScanRadarStrength: 200.0
     ScanRadarStrengthBonus: 15.0
-    ScanResolution: 50.0
-    ShieldCapacity: 100000.0
+    ScanResolution: 50
+    ShieldCapacity: 100000
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
+    SignatureRadius: 8000
     StructureUniformity: 1.0
-    TargetSwitchDelay: 30000.0
+    TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 5000.0
+    UnanchoringDelay: 5000
     Uniformity: 1.0
   Phase Inversion Battery:
-    AnchoringDelay: 5000.0
-    ArmorHP: 1500000.0
+    AnchoringDelay: 5000
+    ArmorHP: 1500000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 5000.0
-    Cpu: 50.0
-    DisallowOffensiveModifiers: 1.0
+    ControlTowerMinimumDistance: 5000
+    DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
-    EntityAttackDelayMax: 30000.0
-    EntityAttackDelayMin: 7500.0
-    EntityFlyRange: 200000.0
+    EntityAttackDelayMax: 30000
+    EntityAttackDelayMin: 7500
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    FalloffEffectiveness: 100000.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FalloffEffectiveness: 100000
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
-    MaxLockedTargets: 1.0
-    MaxRange: 200000.0
-    MaxTargetRange: 500000.0
-    OnliningDelay: 120000.0
-    PosPlayerControlStructure: 1.0
-    Power: 25000.0
-    ProximityRange: 300000.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 3.0
+    MaxLockedTargets: 1
+    MaxRange: 200000
+    MaxTargetRange: 500000
+    OnliningDelay: 120000
+    PosPlayerControlStructure: 1
+    Power: 25000
+    ProximityRange: 300000
+    RemoteResistanceID: 2253
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 3
     ScanGravimetricStrength: 200.0
     ScanGravimetricStrengthBonus: 15.0
     ScanLadarStrength: 200.0
@@ -467,45 +447,43 @@ items:
     ScanMagnetometricStrengthBonus: 15.0
     ScanRadarStrength: 200.0
     ScanRadarStrengthBonus: 15.0
-    ScanResolution: 50.0
-    ShieldCapacity: 100000.0
+    ScanResolution: 50
+    ShieldCapacity: 100000
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
+    SignatureRadius: 8000
     StructureUniformity: 1.0
-    TargetSwitchDelay: 30000.0
+    TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 5000.0
+    UnanchoringDelay: 5000
     Uniformity: 1.0
   Spatial Destabilization Battery:
-    AnchoringDelay: 5000.0
-    ArmorHP: 1500000.0
+    AnchoringDelay: 5000
+    ArmorHP: 1500000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 5000.0
-    Cpu: 50.0
-    DisallowOffensiveModifiers: 1.0
+    ControlTowerMinimumDistance: 5000
+    DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
-    EntityAttackDelayMax: 30000.0
-    EntityAttackDelayMin: 7500.0
-    EntityFlyRange: 200000.0
+    EntityAttackDelayMax: 30000
+    EntityAttackDelayMin: 7500
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    FalloffEffectiveness: 100000.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FalloffEffectiveness: 100000
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
-    MaxLockedTargets: 1.0
-    MaxRange: 200000.0
-    MaxTargetRange: 500000.0
-    OnliningDelay: 120000.0
-    PosPlayerControlStructure: 1.0
-    Power: 25000.0
-    ProximityRange: 300000.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 3.0
+    MaxLockedTargets: 1
+    MaxRange: 200000
+    MaxTargetRange: 500000
+    OnliningDelay: 120000
+    PosPlayerControlStructure: 1
+    Power: 25000
+    ProximityRange: 300000
+    RemoteResistanceID: 2253
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 3
     ScanGravimetricStrength: 200.0
     ScanGravimetricStrengthBonus: 45.0
     ScanLadarStrength: 200.0
@@ -514,45 +492,43 @@ items:
     ScanMagnetometricStrengthBonus: 15.0
     ScanRadarStrength: 200.0
     ScanRadarStrengthBonus: 15.0
-    ScanResolution: 50.0
-    ShieldCapacity: 100000.0
+    ScanResolution: 50
+    ShieldCapacity: 100000
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
+    SignatureRadius: 8000
     StructureUniformity: 1.0
-    TargetSwitchDelay: 30000.0
+    TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 5000.0
+    UnanchoringDelay: 5000
     Uniformity: 1.0
   White Noise Generation Battery:
-    AnchoringDelay: 5000.0
-    ArmorHP: 1500000.0
+    AnchoringDelay: 5000
+    ArmorHP: 1500000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 5000.0
-    Cpu: 50.0
-    DisallowOffensiveModifiers: 1.0
+    ControlTowerMinimumDistance: 5000
+    DisallowOffensiveModifiers: 1
     Duration: 7500.0
     EmDamageResonance: 1.0
-    EntityAttackDelayMax: 30000.0
-    EntityAttackDelayMin: 7500.0
-    EntityFlyRange: 200000.0
+    EntityAttackDelayMax: 30000
+    EntityAttackDelayMin: 7500
     EntityReactionFactor: 0.5
     ExplosiveDamageResonance: 1.0
-    FalloffEffectiveness: 100000.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FalloffEffectiveness: 100000
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
     KineticDamageResonance: 1.0
-    MaxLockedTargets: 1.0
-    MaxRange: 200000.0
-    MaxTargetRange: 500000.0
-    OnliningDelay: 120000.0
-    PosPlayerControlStructure: 1.0
-    Power: 25000.0
-    ProximityRange: 300000.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 3.0
+    MaxLockedTargets: 1
+    MaxRange: 200000
+    MaxTargetRange: 500000
+    OnliningDelay: 120000
+    PosPlayerControlStructure: 1
+    Power: 25000
+    ProximityRange: 300000
+    RemoteResistanceID: 2253
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 3
     ScanGravimetricStrength: 200.0
     ScanGravimetricStrengthBonus: 15.0
     ScanLadarStrength: 200.0
@@ -561,13 +537,13 @@ items:
     ScanMagnetometricStrengthBonus: 15.0
     ScanRadarStrength: 200.0
     ScanRadarStrengthBonus: 45.0
-    ScanResolution: 50.0
-    ShieldCapacity: 100000.0
+    ScanResolution: 50
+    ShieldCapacity: 100000
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
+    SignatureRadius: 8000
     StructureUniformity: 1.0
-    TargetSwitchDelay: 30000.0
+    TargetSwitchDelay: 30000
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 5000.0
+    UnanchoringDelay: 5000
     Uniformity: 1.0

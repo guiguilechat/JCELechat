@@ -1,11 +1,11 @@
 items:
   Confessor Defense Mode:
-    Hp: 40.0
+    Hp: 40
     ModeAgilityPostDiv: 1.0
     ModeArmorRepDurationPostDiv: 1.0
     ModeDamageBonusPostDiv: 1.0
     ModeEmResistancePostDiv: 1.5
-    ModeEwarResistancePostDiv: 1.0
+    ModeEwarResistancePostDiv: 1
     ModeExplosiveResistancePostDiv: 1.5
     ModeGravimetricStrengthPostDiv: 1.0
     ModeKineticResistancePostDiv: 1.5
@@ -17,14 +17,14 @@ items:
     ModeSignatureRadiusPostDiv: 1.5
     ModeThermicResistancePostDiv: 1.5
     ModeVelocityPostDiv: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Confessor Propulsion Mode:
-    Hp: 40.0
+    Hp: 40
     ModeAgilityPostDiv: 1.5
     ModeArmorRepDurationPostDiv: 1.0
     ModeDamageBonusPostDiv: 1.0
     ModeEmResistancePostDiv: 1.0
-    ModeEwarResistancePostDiv: 1.0
+    ModeEwarResistancePostDiv: 1
     ModeExplosiveResistancePostDiv: 1.0
     ModeGravimetricStrengthPostDiv: 1.0
     ModeKineticResistancePostDiv: 1.0
@@ -36,14 +36,14 @@ items:
     ModeSignatureRadiusPostDiv: 1.0
     ModeThermicResistancePostDiv: 1.0
     ModeVelocityPostDiv: 0.6000000238418579
-    TechLevel: 1.0
+    TechLevel: 1
   Confessor Sharpshooter Mode:
-    Hp: 40.0
+    Hp: 40
     ModeAgilityPostDiv: 1.0
     ModeArmorRepDurationPostDiv: 1.0
     ModeDamageBonusPostDiv: 0.75
     ModeEmResistancePostDiv: 1.0
-    ModeEwarResistancePostDiv: 3.0
+    ModeEwarResistancePostDiv: 3
     ModeExplosiveResistancePostDiv: 1.0
     ModeGravimetricStrengthPostDiv: 1.0
     ModeKineticResistancePostDiv: 1.0
@@ -55,14 +55,14 @@ items:
     ModeSignatureRadiusPostDiv: 1.0
     ModeThermicResistancePostDiv: 1.0
     ModeVelocityPostDiv: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Hecate Defense Mode:
-    Hp: 40.0
+    Hp: 40
     ModeAgilityPostDiv: 1.0
     ModeArmorRepDurationPostDiv: 1.5
     ModeDamageBonusPostDiv: 1.0
     ModeEmResistancePostDiv: 1.5
-    ModeEwarResistancePostDiv: 1.0
+    ModeEwarResistancePostDiv: 1
     ModeExplosiveResistancePostDiv: 1.5
     ModeGravimetricStrengthPostDiv: 1.0
     ModeKineticResistancePostDiv: 1.5
@@ -74,19 +74,19 @@ items:
     ModeSignatureRadiusPostDiv: 1.0
     ModeThermicResistancePostDiv: 1.5
     ModeVelocityPostDiv: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Hecate Propulsion Mode:
-    Hp: 40.0
+    Hp: 40
     ModeAgilityPostDiv: 3.0
     ModeArmorRepDurationPostDiv: 1.0
     ModeDamageBonusPostDiv: 1.0
     ModeEmResistancePostDiv: 1.0
-    ModeEwarResistancePostDiv: 1.0
+    ModeEwarResistancePostDiv: 1
     ModeExplosiveResistancePostDiv: 1.0
     ModeGravimetricStrengthPostDiv: 1.0
     ModeKineticResistancePostDiv: 1.0
     ModeLadarStrengthPostDiv: 1.0
-    ModeMWDCapPostDiv: 3.0
+    ModeMWDCapPostDiv: 3
     ModeMWDVelocityPostDiv: 0.6000000238418579
     ModeMagnetometricStrengthPostDiv: 1.0
     ModeMaxRangePostDiv: 1.0
@@ -95,14 +95,14 @@ items:
     ModeSignatureRadiusPostDiv: 1.0
     ModeThermicResistancePostDiv: 1.0
     ModeVelocityPostDiv: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Hecate Sharpshooter Mode:
-    Hp: 40.0
+    Hp: 40
     ModeAgilityPostDiv: 1.0
     ModeArmorRepDurationPostDiv: 1.0
     ModeDamageBonusPostDiv: 0.75
     ModeEmResistancePostDiv: 1.0
-    ModeEwarResistancePostDiv: 3.0
+    ModeEwarResistancePostDiv: 3
     ModeExplosiveResistancePostDiv: 1.0
     ModeGravimetricStrengthPostDiv: 1.0
     ModeKineticResistancePostDiv: 1.0
@@ -114,14 +114,14 @@ items:
     ModeSignatureRadiusPostDiv: 1.0
     ModeThermicResistancePostDiv: 1.0
     ModeVelocityPostDiv: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Jackdaw Defense Mode:
-    Hp: 40.0
+    Hp: 40
     ModeAgilityPostDiv: 1.0
     ModeArmorRepDurationPostDiv: 1.0
     ModeDamageBonusPostDiv: 1.0
     ModeEmResistancePostDiv: 1.5
-    ModeEwarResistancePostDiv: 1.0
+    ModeEwarResistancePostDiv: 1
     ModeExplosiveResistancePostDiv: 1.5
     ModeGravimetricStrengthPostDiv: 1.0
     ModeKineticResistancePostDiv: 1.5
@@ -133,14 +133,14 @@ items:
     ModeSignatureRadiusPostDiv: 1.5
     ModeThermicResistancePostDiv: 1.5
     ModeVelocityPostDiv: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Jackdaw Propulsion Mode:
-    Hp: 40.0
+    Hp: 40
     ModeAgilityPostDiv: 3.0
     ModeArmorRepDurationPostDiv: 1.0
     ModeDamageBonusPostDiv: 1.0
     ModeEmResistancePostDiv: 1.0
-    ModeEwarResistancePostDiv: 1.0
+    ModeEwarResistancePostDiv: 1
     ModeExplosiveResistancePostDiv: 1.0
     ModeGravimetricStrengthPostDiv: 1.0
     ModeKineticResistancePostDiv: 1.0
@@ -152,14 +152,14 @@ items:
     ModeSignatureRadiusPostDiv: 1.0
     ModeThermicResistancePostDiv: 1.0
     ModeVelocityPostDiv: 0.75
-    TechLevel: 1.0
+    TechLevel: 1
   Jackdaw Sharpshooter Mode:
-    Hp: 40.0
+    Hp: 40
     ModeAgilityPostDiv: 1.0
     ModeArmorRepDurationPostDiv: 1.0
     ModeDamageBonusPostDiv: 0.75
     ModeEmResistancePostDiv: 1.0
-    ModeEwarResistancePostDiv: 3.0
+    ModeEwarResistancePostDiv: 3
     ModeExplosiveResistancePostDiv: 1.0
     ModeGravimetricStrengthPostDiv: 0.5
     ModeKineticResistancePostDiv: 1.0
@@ -171,19 +171,19 @@ items:
     ModeSignatureRadiusPostDiv: 1.0
     ModeThermicResistancePostDiv: 1.0
     ModeVelocityPostDiv: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Svipul Defense Mode:
-    Hp: 40.0
+    Hp: 40
     ModeAgilityPostDiv: 1.0
     ModeArmorRepDurationPostDiv: 1.0
     ModeDamageBonusPostDiv: 1.0
     ModeEmResistancePostDiv: 1.5
-    ModeEwarResistancePostDiv: 1.0
+    ModeEwarResistancePostDiv: 1
     ModeExplosiveResistancePostDiv: 1.5
     ModeGravimetricStrengthPostDiv: 1.0
     ModeKineticResistancePostDiv: 1.5
     ModeLadarStrengthPostDiv: 1.0
-    ModeMWDSigPenaltyPostDiv: 3.0
+    ModeMWDSigPenaltyPostDiv: 3
     ModeMagnetometricStrengthPostDiv: 1.0
     ModeMaxRangePostDiv: 1.0
     ModeMaxTargetRangePostDiv: 1.0
@@ -191,14 +191,14 @@ items:
     ModeSignatureRadiusPostDiv: 1.0
     ModeThermicResistancePostDiv: 1.5
     ModeVelocityPostDiv: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Svipul Propulsion Mode:
-    Hp: 40.0
+    Hp: 40
     ModeAgilityPostDiv: 1.5
     ModeArmorRepDurationPostDiv: 1.0
     ModeDamageBonusPostDiv: 1.0
     ModeEmResistancePostDiv: 1.0
-    ModeEwarResistancePostDiv: 1.0
+    ModeEwarResistancePostDiv: 1
     ModeExplosiveResistancePostDiv: 1.0
     ModeGravimetricStrengthPostDiv: 1.0
     ModeKineticResistancePostDiv: 1.0
@@ -210,14 +210,14 @@ items:
     ModeSignatureRadiusPostDiv: 1.0
     ModeThermicResistancePostDiv: 1.0
     ModeVelocityPostDiv: 0.6000000238418579
-    TechLevel: 1.0
+    TechLevel: 1
   Svipul Sharpshooter Mode:
-    Hp: 40.0
+    Hp: 40
     ModeAgilityPostDiv: 1.0
     ModeArmorRepDurationPostDiv: 1.0
     ModeDamageBonusPostDiv: 0.75
     ModeEmResistancePostDiv: 1.0
-    ModeEwarResistancePostDiv: 3.0
+    ModeEwarResistancePostDiv: 3
     ModeExplosiveResistancePostDiv: 1.0
     ModeGravimetricStrengthPostDiv: 1.0
     ModeKineticResistancePostDiv: 1.0
@@ -230,4 +230,4 @@ items:
     ModeThermicResistancePostDiv: 1.0
     ModeTrackingPostDiv: 0.75
     ModeVelocityPostDiv: 1.0
-    TechLevel: 1.0
+    TechLevel: 1

@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Ship;
@@ -19,143 +20,143 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EliteBonusInterceptorRole;
+    @DefaultIntValue(0)
+    public int EliteBonusInterceptorRole;
     /**
      * This defines the total capacity of fighters allowed in the fighter bay of the ship
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterCapacity;
+    @DefaultIntValue(0)
+    public int FighterCapacity;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(30000.0D)
-    public double CovertOpsAndReconOpsCloakModuleDelay;
+    @DefaultIntValue(30000)
+    public int CovertOpsAndReconOpsCloakModuleDelay;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RigSize;
+    @DefaultIntValue(0)
+    public int RigSize;
     /**
      * The number of low power slots on the ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LowSlots;
+    @DefaultIntValue(0)
+    public int LowSlots;
     /**
      * tbd
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MedSlots;
+    @DefaultIntValue(0)
+    public int MedSlots;
     /**
      * special fuel bay capacity
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double SpecialFuelBayCapacity;
+    @DefaultIntValue(0)
+    public int SpecialFuelBayCapacity;
     /**
      * tbd
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HiSlots;
+    @DefaultIntValue(0)
+    public int HiSlots;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FwLpKill;
+    @DefaultIntValue(0)
+    public int FwLpKill;
     /**
      * Capacity of ore-only hold
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SpecialOreHoldCapacity;
+    @DefaultIntValue(0)
+    public int SpecialOreHoldCapacity;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double IndustrialBonusDroneDamage;
+    @DefaultIntValue(0)
+    public int IndustrialBonusDroneDamage;
     /**
      * Required skill level for skill 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * Capacity of gas-only hold
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SpecialGasHoldCapacity;
+    @DefaultIntValue(0)
+    public int SpecialGasHoldCapacity;
     /**
      * Required skill level for skill 2
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * Capacity of mineral-only hold
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SpecialMineralHoldCapacity;
+    @DefaultIntValue(0)
+    public int SpecialMineralHoldCapacity;
     /**
      * Capacity of special salvage-only hold
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SpecialSalvageHoldCapacity;
+    @DefaultIntValue(0)
+    public int SpecialSalvageHoldCapacity;
     /**
      * Capacity of ship-only hold
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SpecialShipHoldCapacity;
+    @DefaultIntValue(0)
+    public int SpecialShipHoldCapacity;
     /**
      * Fixed Role Bonus on a ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShipBonusRole7;
     /**
      * Capacity of frigate/destroyer hold
@@ -163,95 +164,95 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SpecialSmallShipHoldCapacity;
+    @DefaultIntValue(0)
+    public int SpecialSmallShipHoldCapacity;
     /**
      * Capacity of cruiser/battlecruiser ship hold
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SpecialMediumShipHoldCapacity;
+    @DefaultIntValue(0)
+    public int SpecialMediumShipHoldCapacity;
     /**
      * Capacity of battleship hold
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SpecialLargeShipHoldCapacity;
+    @DefaultIntValue(0)
+    public int SpecialLargeShipHoldCapacity;
     /**
      * Capacity of industrial ship hold
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SpecialIndustrialShipHoldCapacity;
+    @DefaultIntValue(0)
+    public int SpecialIndustrialShipHoldCapacity;
     /**
      * Bonus to armor resistances
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RookieArmorResistanceBonus;
+    @DefaultIntValue(0)
+    public int RookieArmorResistanceBonus;
     /**
      * special ammo hold capacity
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double SpecialAmmoHoldCapacity;
+    @DefaultIntValue(0)
+    public int SpecialAmmoHoldCapacity;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RoleBonus;
+    @DefaultIntValue(0)
+    public int RoleBonus;
     /**
      * Bonus to optimal range of Codebreakers and Analyzers
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MiniProfessionRangeBonus;
+    @DefaultIntValue(0)
+    public int MiniProfessionRangeBonus;
     /**
      * ORE Mining frigate bonus 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusOREfrig1;
+    @DefaultIntValue(0)
+    public int ShipBonusOREfrig1;
     /**
      * ORE Mining frigate bonus 2
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusOREfrig2;
+    @DefaultIntValue(0)
+    public int ShipBonusOREfrig2;
     /**
      * The resolution that the vessel can target other objects at.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ScanResolution;
+    @DefaultIntValue(0)
+    public int ScanResolution;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShipBonusGF2;
     /**
      * 
@@ -259,7 +260,7 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShipBonusMF2;
     /**
      * 
@@ -267,7 +268,7 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShipBonusCF2;
     /**
      * scanning speed in milliseconds
@@ -275,31 +276,31 @@ public class Frigate
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ScanSpeed;
+    @DefaultIntValue(0)
+    public int ScanSpeed;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonus3CF;
+    @DefaultIntValue(0)
+    public int ShipBonus3CF;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonus3MF;
+    @DefaultIntValue(0)
+    public int ShipBonus3MF;
     /**
      * Autogenerated skill attribute, falloffBonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double FalloffBonus;
     /**
      * Autogenerated skill attribute, maxRangeBonus
@@ -307,7 +308,7 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxRangeBonus;
     /**
      * Tells if this type (ship) can be placed in the maintenance bay of a capital industrial ship.
@@ -315,87 +316,87 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AllowedInCapIndustrialMaintenanceBay;
+    @DefaultIntValue(0)
+    public int AllowedInCapIndustrialMaintenanceBay;
     /**
      * Warp ability of a ship.  If greater than zero than the ship cannot warp.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WarpScrambleStatus;
+    @DefaultIntValue(0)
+    public int WarpScrambleStatus;
     /**
      * Attribute on ships used for ship upgrades
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double UpgradeCapacity;
+    @DefaultIntValue(0)
+    public int UpgradeCapacity;
     /**
      * Capacity of CC-only hold
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SpecialCommandCenterHoldCapacity;
+    @DefaultIntValue(0)
+    public int SpecialCommandCenterHoldCapacity;
     /**
      * The number of rig slots on the ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RigSlots;
+    @DefaultIntValue(0)
+    public int RigSlots;
     /**
      * Capacity of Planetary Commodities hold
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SpecialPlanetaryCommoditiesHoldCapacity;
+    @DefaultIntValue(0)
+    public int SpecialPlanetaryCommoditiesHoldCapacity;
     /**
      * The main color of a ship type.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MainColor;
+    @DefaultIntValue(0)
+    public int MainColor;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double VirusStrengthBonus;
+    @DefaultIntValue(0)
+    public int VirusStrengthBonus;
     /**
      * How many upgrades can by fitted to this ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double UpgradeSlotsLeft;
+    @DefaultIntValue(0)
+    public int UpgradeSlotsLeft;
     /**
      * Deprecated.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double MaxDirectionalVelocity;
+    @DefaultIntValue(1)
+    public int MaxDirectionalVelocity;
     /**
      * Deprecated.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double MinTargetVelDmgMultiplier;
     /**
      * Second Stock Bonus on Pirate Faction Ships.
@@ -403,7 +404,7 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShipBonusPirateFaction2;
     /**
      * NOS override allows a nosferatu module to drain the target capacitor below the current ships capacitor level.
@@ -411,79 +412,79 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double NosOverride;
+    @DefaultIntValue(0)
+    public int NosOverride;
     /**
      * meta group of type
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MetaGroupID;
+    @DefaultIntValue(0)
+    public int MetaGroupID;
     /**
      * Tells if this type (ship) can be affected by the Rorqual Invulnerability Module
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AffectedByIndustrialInvulnModule;
+    @DefaultIntValue(0)
+    public int AffectedByIndustrialInvulnModule;
     /**
      * This defines the total number of fighter launch tubes on the ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterTubes;
+    @DefaultIntValue(0)
+    public int FighterTubes;
     /**
      * Number of Light Fighters the ship can launch.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterLightSlots;
+    @DefaultIntValue(0)
+    public int FighterLightSlots;
     /**
      * Number of Support Fighters the ship can launch.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterSupportSlots;
+    @DefaultIntValue(0)
+    public int FighterSupportSlots;
     /**
      * Number of Heavy Fighters the ship can launch.Heavy 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterHeavySlots;
+    @DefaultIntValue(0)
+    public int FighterHeavySlots;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2;
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShipBonusMF;
     /**
      * 
@@ -491,7 +492,7 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShipBonusGF;
     /**
      * 
@@ -499,7 +500,7 @@ public class Frigate
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HullEmDamageResonance;
     /**
      * 
@@ -507,7 +508,7 @@ public class Frigate
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HullExplosiveDamageResonance;
     /**
      * 
@@ -515,15 +516,15 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusCF;
+    @DefaultIntValue(0)
+    public int ShipBonusCF;
     /**
      * The factor by which the amount mined by a mining laser is scaled.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double MiningAmountMultiplier;
     /**
      * 
@@ -531,7 +532,7 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShipBonusAF;
     /**
      * 
@@ -539,7 +540,7 @@ public class Frigate
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HullKineticDamageResonance;
     /**
      * 
@@ -547,7 +548,7 @@ public class Frigate
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HullThermalDamageResonance;
     /**
      * Scales the capacitor need for fitted modules.
@@ -555,7 +556,7 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorNeedMultiplier;
     /**
      * 
@@ -563,7 +564,7 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(5.0D)
+    @DefaultDoubleValue(5.0D)
     public double ShipBonus2AF;
     /**
      * 
@@ -571,23 +572,23 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double JumpHarmonics;
+    @DefaultIntValue(0)
+    public int JumpHarmonics;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double TypeColorScheme;
+    @DefaultIntValue(0)
+    public int TypeColorScheme;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationHi;
     /**
      * 
@@ -595,7 +596,7 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationMed;
     /**
      * 
@@ -603,7 +604,7 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationLow;
     /**
      * Chance of being able to resist a ship scan.
@@ -611,8 +612,8 @@ public class Frigate
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipScanResistance;
+    @DefaultIntValue(0)
+    public int ShipScanResistance;
     public final static String RESOURCE_PATH = "SDE/items/ship/Frigate.yaml";
     private static LinkedHashMap<String, Frigate> cache = (null);
 

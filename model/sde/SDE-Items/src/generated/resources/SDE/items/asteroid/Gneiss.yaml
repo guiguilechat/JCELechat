@@ -1,87 +1,87 @@
 items:
   Brilliant Gneiss:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 4.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 0.699999988079071
-    AsteroidRadiusUnitSize: 650.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 46695.0
-    OreBasicType: 46679.0
-    ReprocessingSkillType: 12184.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 650
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 46695
+    OreBasicType: 46679
+    ReprocessingSkillType: 12184
+    RequiredSkill1: 3386
   Compressed Brilliant Gneiss:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 4.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 46679.0
-    ReprocessingSkillType: 12184.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 46679
+    ReprocessingSkillType: 12184
+    RequiredSkill1: 3386
   Compressed Gneiss:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1229.0
-    ReprocessingSkillType: 12184.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 1229
+    ReprocessingSkillType: 12184
+    RequiredSkill1: 3386
   Compressed Iridescent Gneiss:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1229.0
-    ReprocessingSkillType: 12184.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 1229
+    ReprocessingSkillType: 12184
+    RequiredSkill1: 3386
   Compressed Prismatic Gneiss:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1229.0
-    ReprocessingSkillType: 12184.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 1229
+    ReprocessingSkillType: 12184
+    RequiredSkill1: 3386
   Flawed Gneiss:
-    AsteroidMaxRadius: 16255.0
+    AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1229.0
-    ReprocessingSkillType: 12184.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 1229
+    ReprocessingSkillType: 12184
+    RequiredSkill1: 3386
   Gneiss:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 400.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28397.0
-    OreBasicType: 1229.0
-    ReprocessingSkillType: 12184.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 400
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28397
+    OreBasicType: 1229
+    ReprocessingSkillType: 12184
+    RequiredSkill1: 3386
   Green Arisite:
-    AsteroidMaxRadius: 16255.0
+    AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1229.0
-    ReprocessingSkillType: 12184.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 1229
+    ReprocessingSkillType: 12184
+    RequiredSkill1: 3386
   Iridescent Gneiss:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 400.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28398.0
-    OreBasicType: 1229.0
-    ReprocessingSkillType: 12184.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 400
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28398
+    OreBasicType: 1229
+    ReprocessingSkillType: 12184
+    RequiredSkill1: 3386
   Prismatic Gneiss:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 400.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28399.0
-    OreBasicType: 1229.0
-    ReprocessingSkillType: 12184.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 400
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28399
+    OreBasicType: 1229
+    ReprocessingSkillType: 12184
+    RequiredSkill1: 3386

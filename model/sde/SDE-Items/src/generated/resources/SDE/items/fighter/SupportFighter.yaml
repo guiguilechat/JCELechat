@@ -1,344 +1,343 @@
 items:
   Able_PLACEHOLDER:
-    FighterAbilityAntiFighterMissileResistance: 0.2
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Cenobite I:
     Agility: 500.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityEnergyNeutralizerAmount: 60.0
-    FighterAbilityEnergyNeutralizerDuration: 6000.0
-    FighterAbilityEnergyNeutralizerFalloffRange: 2500.0
-    FighterAbilityEnergyNeutralizerOptimalRange: 5000.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 495.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsSupport: 1.0
-    FighterSquadronMaxSize: 3.0
-    FighterSquadronOrbitRange: 3750.0
-    FighterSquadronRole: 3.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 45000.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityEnergyNeutralizerAmount: 60
+    FighterAbilityEnergyNeutralizerDuration: 6000
+    FighterAbilityEnergyNeutralizerFalloffRange: 2500
+    FighterAbilityEnergyNeutralizerOptimalRange: 5000
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 495
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterRefuelingTime: 2000
+    FighterSquadronIsSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 3750
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
     MaxVelocity: 715.0
-    RequiredSkill1: 40573.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 40573
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanRadarStrength: 7.0
-    ScanResolution: 600.0
-    ShieldCapacity: 6800.0
+    ScanResolution: 600
+    ShieldCapacity: 6800
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 2200000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Cenobite II:
     Agility: 500.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityEnergyNeutralizerAmount: 80.0
-    FighterAbilityEnergyNeutralizerDuration: 6000.0
-    FighterAbilityEnergyNeutralizerFalloffRange: 5000.0
-    FighterAbilityEnergyNeutralizerOptimalRange: 10000.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 505.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsSupport: 1.0
-    FighterSquadronMaxSize: 3.0
-    FighterSquadronOrbitRange: 7500.0
-    FighterSquadronRole: 3.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 54000.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityEnergyNeutralizerAmount: 80
+    FighterAbilityEnergyNeutralizerDuration: 6000
+    FighterAbilityEnergyNeutralizerFalloffRange: 5000
+    FighterAbilityEnergyNeutralizerOptimalRange: 10000
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 505
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterRefuelingTime: 2000
+    FighterSquadronIsSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 7500
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
     MaxVelocity: 744.0
-    MetaLevel: 5.0
-    RequiredSkill1: 40573.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 40573
+    RequiredSkill1Level: 4
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 5
     ScanRadarStrength: 8.0
-    ScanResolution: 650.0
-    ShieldCapacity: 7500.0
+    ScanResolution: 650
+    ShieldCapacity: 7500
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.699999988079071
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 2200000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     WarpSpeedMultiplier: 1.5
   Dromi I:
     Agility: 500.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 495.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterAbilityStasisWebifierDuration: 10000.0
-    FighterAbilityStasisWebifierOptimalRange: 8000.0
-    FighterAbilityStasisWebifierResistanceID: 2115.0
-    FighterAbilityStasisWebifierSpeedPenalty: -15.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsSupport: 1.0
-    FighterSquadronMaxSize: 3.0
-    FighterSquadronOrbitRange: 4000.0
-    FighterSquadronRole: 3.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 45000.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 495
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityStasisWebifierDuration: 10000
+    FighterAbilityStasisWebifierOptimalRange: 8000
+    FighterAbilityStasisWebifierResistanceID: 2115
+    FighterAbilityStasisWebifierSpeedPenalty: -15
+    FighterRefuelingTime: 2000
+    FighterSquadronIsSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 4000
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
     MaxVelocity: 715.0
-    RequiredSkill1: 40573.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 40573
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanLadarStrength: 7.0
-    ScanResolution: 600.0
-    ShieldCapacity: 6800.0
+    ScanResolution: 600
+    ShieldCapacity: 6800
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 2200000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Dromi II:
     Agility: 500.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 505.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterAbilityStasisWebifierDuration: 10000.0
-    FighterAbilityStasisWebifierOptimalRange: 16000.0
-    FighterAbilityStasisWebifierResistanceID: 2115.0
-    FighterAbilityStasisWebifierSpeedPenalty: -20.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsSupport: 1.0
-    FighterSquadronMaxSize: 3.0
-    FighterSquadronOrbitRange: 8000.0
-    FighterSquadronRole: 3.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 54000.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 505
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityStasisWebifierDuration: 10000
+    FighterAbilityStasisWebifierOptimalRange: 16000
+    FighterAbilityStasisWebifierResistanceID: 2115
+    FighterAbilityStasisWebifierSpeedPenalty: -20
+    FighterRefuelingTime: 2000
+    FighterSquadronIsSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 8000
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
     MaxVelocity: 744.0
-    MetaLevel: 5.0
-    RequiredSkill1: 40573.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 40573
+    RequiredSkill1Level: 4
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 5
     ScanLadarStrength: 8.0
-    ScanResolution: 650.0
-    ShieldCapacity: 7500.0
+    ScanResolution: 650
+    ShieldCapacity: 7500
     ShieldEmDamageResonance: 0.699999988079071
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 2200000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     WarpSpeedMultiplier: 1.5
   Scarab I:
     Agility: 500.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityECMDuration: 10000.0
-    FighterAbilityECMRangeFalloff: 5625.0
-    FighterAbilityECMRangeOptimal: 5000.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityECMDuration: 10000
+    FighterAbilityECMRangeFalloff: 5625
+    FighterAbilityECMRangeOptimal: 5000
     FighterAbilityECMStrengthGravimetric: 1.600000023841858
     FighterAbilityECMStrengthLadar: 1.600000023841858
     FighterAbilityECMStrengthMagnetometric: 1.600000023841858
     FighterAbilityECMStrengthRadar: 1.600000023841858
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 495.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsSupport: 1.0
-    FighterSquadronMaxSize: 3.0
-    FighterSquadronOrbitRange: 5300.0
-    FighterSquadronRole: 3.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 45000.0
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 495
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterRefuelingTime: 2000
+    FighterSquadronIsSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 5300
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
     MaxVelocity: 715.0
-    RequiredSkill1: 40573.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 40573
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanGravimetricStrength: 7.0
-    ScanResolution: 600.0
-    ShieldCapacity: 6800.0
+    ScanResolution: 600
+    ShieldCapacity: 6800
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 2200000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Scarab II:
     Agility: 500.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityECMDuration: 10000.0
-    FighterAbilityECMRangeFalloff: 8400.0
-    FighterAbilityECMRangeOptimal: 7500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityECMDuration: 10000
+    FighterAbilityECMRangeFalloff: 8400
+    FighterAbilityECMRangeOptimal: 7500
     FighterAbilityECMStrengthGravimetric: 2.299999952316284
     FighterAbilityECMStrengthLadar: 2.299999952316284
     FighterAbilityECMStrengthMagnetometric: 2.299999952316284
     FighterAbilityECMStrengthRadar: 2.299999952316284
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 505.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsSupport: 1.0
-    FighterSquadronMaxSize: 3.0
-    FighterSquadronOrbitRange: 8000.0
-    FighterSquadronRole: 3.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 54000.0
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 505
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterRefuelingTime: 2000
+    FighterSquadronIsSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 8000
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
     MaxVelocity: 744.0
-    MetaLevel: 5.0
-    RequiredSkill1: 40573.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 40573
+    RequiredSkill1Level: 4
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 5
     ScanGravimetricStrength: 8.0
-    ScanResolution: 650.0
-    ShieldCapacity: 7500.0
+    ScanResolution: 650
+    ShieldCapacity: 7500
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 2200000.0
     ShieldThermalDamageResonance: 0.699999988079071
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     WarpSpeedMultiplier: 1.5
   Siren I:
     Agility: 500.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 495.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterAbilityWarpDisruptionDuration: 10000.0
-    FighterAbilityWarpDisruptionPointStrength: 1.0
-    FighterAbilityWarpDisruptionRange: 8000.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsSupport: 1.0
-    FighterSquadronMaxSize: 3.0
-    FighterSquadronOrbitRange: 4000.0
-    FighterSquadronRole: 3.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 45000.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 495
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityWarpDisruptionDuration: 10000
+    FighterAbilityWarpDisruptionPointStrength: 1
+    FighterAbilityWarpDisruptionRange: 8000
+    FighterRefuelingTime: 2000
+    FighterSquadronIsSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 4000
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
     MaxVelocity: 715.0
-    RequiredSkill1: 40573.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 40573
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanMagnetometricStrength: 7.0
-    ScanResolution: 600.0
-    ShieldCapacity: 6800.0
+    ScanResolution: 600
+    ShieldCapacity: 6800
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 2200000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Siren II:
     Agility: 500.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 505.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterAbilityWarpDisruptionDuration: 10000.0
-    FighterAbilityWarpDisruptionPointStrength: 1.0
-    FighterAbilityWarpDisruptionRange: 16000.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsSupport: 1.0
-    FighterSquadronMaxSize: 3.0
-    FighterSquadronOrbitRange: 8000.0
-    FighterSquadronRole: 3.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 54000.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 505
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityWarpDisruptionDuration: 10000
+    FighterAbilityWarpDisruptionPointStrength: 1
+    FighterAbilityWarpDisruptionRange: 16000
+    FighterRefuelingTime: 2000
+    FighterSquadronIsSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 8000
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
     MaxVelocity: 744.0
-    MetaLevel: 5.0
-    RequiredSkill1: 40573.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 40573
+    RequiredSkill1Level: 4
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 5
     ScanMagnetometricStrength: 8.0
-    ScanResolution: 650.0
-    ShieldCapacity: 7500.0
+    ScanResolution: 650
+    ShieldCapacity: 7500
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.699999988079071
     ShieldRechargeRate: 2200000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     WarpSpeedMultiplier: 1.5
   Standup Siren I:
     Agility: 500.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 495.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterAbilityWarpDisruptionDuration: 10000.0
-    FighterAbilityWarpDisruptionPointStrength: 1.0
-    FighterAbilityWarpDisruptionRange: 8000.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsStandupSupport: 1.0
-    FighterSquadronMaxSize: 3.0
-    FighterSquadronOrbitRange: 4000.0
-    FighterSquadronRole: 3.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 45000.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 495
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityWarpDisruptionDuration: 10000
+    FighterAbilityWarpDisruptionPointStrength: 1
+    FighterAbilityWarpDisruptionRange: 8000
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 4000
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
     MaxVelocity: 715.0
-    RequiredSkill1: 40573.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 40573
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanMagnetometricStrength: 7.0
-    ScanResolution: 600.0
-    ShieldCapacity: 6800.0
+    ScanResolution: 600
+    ShieldCapacity: 6800
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 2200000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5

@@ -1,26 +1,25 @@
 items:
   Structure Repair Array:
-    AnchoringDelay: 600000.0
-    ArmorHP: 15000.0
+    AnchoringDelay: 600000
+    ArmorHP: 15000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 35000.0
-    Cpu: 500.0
-    DisallowOffensiveModifiers: 1.0
-    Hp: 10000.0
+    ControlTowerMinimumDistance: 35000
+    DisallowOffensiveModifiers: 1
+    Hp: 10000
     IncapacitationRatio: 0.75
-    MaxRange: 10000.0
-    OnliningDelay: 180000.0
-    Power: 50000.0
+    MaxRange: 10000
+    OnliningDelay: 180000
+    Power: 50000
     ScanGravimetricStrength: 40.0
     ScanLadarStrength: 40.0
     ScanMagnetometricStrength: 40.0
     ScanRadarStrength: 40.0
-    ShieldCapacity: 10000.0
+    ShieldCapacity: 10000
     ShieldRechargeRate: 200000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 400.0
-    StructureArmorRepairAmount: 1000.0
-    StructureShieldRepairAmount: 1000.0
+    SignatureRadius: 400
+    StructureArmorRepairAmount: 1000
+    StructureShieldRepairAmount: 1000
     StructureUniformity: 1.0
-    UnanchoringDelay: 1200000.0
+    UnanchoringDelay: 1200000
     Uniformity: 1.0

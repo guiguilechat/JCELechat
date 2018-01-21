@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.StructureModule;
@@ -19,7 +20,7 @@ public class StructureStargateServiceModule
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * 
@@ -27,16 +28,16 @@ public class StructureStargateServiceModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup01;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup01;
     /**
      * current power need
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureStargateServiceModule.yaml";
     private static LinkedHashMap<String, StructureStargateServiceModule> cache = (null);
 

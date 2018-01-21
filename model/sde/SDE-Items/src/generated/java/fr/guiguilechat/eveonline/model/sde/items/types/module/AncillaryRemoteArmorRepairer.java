@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Module;
@@ -19,7 +20,7 @@ public class AncillaryRemoteArmorRepairer
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(10000.0D)
+    @DefaultDoubleValue(10000.0D)
     public double ReloadTime;
     /**
      * 
@@ -27,15 +28,15 @@ public class AncillaryRemoteArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double MediumRemoteRepFittingMultiplier;
+    @DefaultIntValue(1)
+    public int MediumRemoteRepFittingMultiplier;
     /**
      * The amount of charge used from the capacitor for a module activation.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorNeed;
     /**
      * 
@@ -43,15 +44,15 @@ public class AncillaryRemoteArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxGroupFitted;
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
     /**
      * Length of activation time.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Duration;
     /**
      * An amount to modify the armor damage by.
@@ -59,39 +60,39 @@ public class AncillaryRemoteArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ArmorDamageAmount;
+    @DefaultIntValue(0)
+    public int ArmorDamageAmount;
     /**
      * Required skill level for skill 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * Required skill level for skill 2
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * Attribute ID of the resistance type v's this Ewar module.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RemoteResistanceID;
+    @DefaultIntValue(0)
+    public int RemoteResistanceID;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double HeatAbsorbtionRateModifier;
     /**
      * One of the groups of charge this launcher can be loaded with.
@@ -99,31 +100,31 @@ public class AncillaryRemoteArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ChargeGroup1;
+    @DefaultIntValue(0)
+    public int ChargeGroup1;
     /**
      * current power need
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * Multiplier applied to armorDamageAmount when consuming a collection of charges.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ChargedArmorDamageMultiplier;
+    @DefaultIntValue(0)
+    public int ChargedArmorDamageMultiplier;
     /**
      * CPU need of module
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * Distance below which range does not affect the to-hit equation.
@@ -131,23 +132,23 @@ public class AncillaryRemoteArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double MaxRange;
+    @DefaultIntValue(0)
+    public int MaxRange;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double OverloadSelfDurationBonus;
     /**
      * The type ID of the skill that is required.
@@ -155,23 +156,23 @@ public class AncillaryRemoteArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2;
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
     /**
      * Number of charges consumed per activation
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double ChargeRate;
+    @DefaultIntValue(1)
+    public int ChargeRate;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double HeatDamage;
     /**
      * 
@@ -179,16 +180,16 @@ public class AncillaryRemoteArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredThermoDynamicsSkill;
+    @DefaultIntValue(0)
+    public int RequiredThermoDynamicsSkill;
     /**
      * distance from maximum range at which effectiveness has fallen by half
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double FalloffEffectiveness;
+    @DefaultIntValue(0)
+    public int FalloffEffectiveness;
     public final static String RESOURCE_PATH = "SDE/items/module/AncillaryRemoteArmorRepairer.yaml";
     private static LinkedHashMap<String, AncillaryRemoteArmorRepairer> cache = (null);
 

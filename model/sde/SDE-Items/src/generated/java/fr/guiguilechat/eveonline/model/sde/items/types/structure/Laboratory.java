@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Structure;
@@ -19,103 +20,103 @@ public class Laboratory
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterCapacity;
+    @DefaultIntValue(0)
+    public int FighterCapacity;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ServiceSlots;
+    @DefaultIntValue(0)
+    public int ServiceSlots;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RigSize;
+    @DefaultIntValue(0)
+    public int RigSize;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HeatCapacityHi;
+    @DefaultIntValue(0)
+    public int HeatCapacityHi;
     /**
      * This defines the total capacity of drones allowed in the drone bay of the ship
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DroneCapacity;
+    @DefaultIntValue(0)
+    public int DroneCapacity;
     /**
      * This defines the total number of fighter launch tubes on the ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterTubes;
+    @DefaultIntValue(0)
+    public int FighterTubes;
     /**
      * Number of Light Fighters the ship can launch.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterLightSlots;
+    @DefaultIntValue(0)
+    public int FighterLightSlots;
     /**
      * Number of Support Fighters the ship can launch.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterSupportSlots;
+    @DefaultIntValue(0)
+    public int FighterSupportSlots;
     /**
      * Number of Heavy Fighters the ship can launch.Heavy 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterHeavySlots;
+    @DefaultIntValue(0)
+    public int FighterHeavySlots;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HeatCapacityMed;
+    @DefaultIntValue(0)
+    public int HeatCapacityMed;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HeatCapacityLow;
+    @DefaultIntValue(0)
+    public int HeatCapacityLow;
     /**
      * The number of remaining unused launcher slots.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LauncherSlotsLeft;
+    @DefaultIntValue(0)
+    public int LauncherSlotsLeft;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationHi;
     /**
      * Attribute on ships used for ship upgrades
@@ -123,15 +124,15 @@ public class Laboratory
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double UpgradeCapacity;
+    @DefaultIntValue(0)
+    public int UpgradeCapacity;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationMed;
     /**
      * 
@@ -139,7 +140,7 @@ public class Laboratory
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationLow;
     /**
      * The number of rig slots on the ship.
@@ -147,16 +148,16 @@ public class Laboratory
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RigSlots;
+    @DefaultIntValue(0)
+    public int RigSlots;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DroneBandwidth;
+    @DefaultIntValue(0)
+    public int DroneBandwidth;
     public final static String RESOURCE_PATH = "SDE/items/structure/Laboratory.yaml";
     private static LinkedHashMap<String, Laboratory> cache = (null);
 

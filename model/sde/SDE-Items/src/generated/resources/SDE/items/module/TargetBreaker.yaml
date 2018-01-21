@@ -1,21 +1,21 @@
 items:
   Target Spectrum Breaker:
-    CanFitShipGroup01: 900.0
-    CanFitShipGroup02: 27.0
-    CanFitShipGroup03: 898.0
+    CanFitShipGroup01: 900
+    CanFitShipGroup02: 27
+    CanFitShipGroup03: 898
     CapacitorNeed: 272.0
     Cpu: 50.0
     Duration: 8000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.700000047683716
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MetaLevel: 1.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaLevel: 1
     OverloadSelfDurationBonus: -15.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
     ScanResolutionMultiplier: 0.75
-    TechLevel: 1.0
+    TechLevel: 1

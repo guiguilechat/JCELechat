@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Charge;
@@ -19,7 +20,7 @@ public class InterdictionProbe
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxVelocity;
     /**
      * Tech level of an item
@@ -27,15 +28,15 @@ public class InterdictionProbe
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double TechLevel;
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * The agility of the object.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Agility;
     /**
      * Maximum range objects can be warp scrambled from.
@@ -43,39 +44,39 @@ public class InterdictionProbe
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WarpScrambleRange;
+    @DefaultIntValue(0)
+    public int WarpScrambleRange;
     /**
      * Signature Radius is used for turret tracking and scanning.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(100.0D)
-    public double SignatureRadius;
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * The maximum hitpoints of an object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * One of the groups of launcher this charge can be loaded into.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LauncherGroup;
+    @DefaultIntValue(0)
+    public int LauncherGroup;
     /**
      * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double SpeedMultiplier;
     /**
      * DO NOT MESS WITH
@@ -83,7 +84,7 @@ public class InterdictionProbe
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StructureUniformity;
     /**
      * If set on a charge or module type, will prevent it from being activated in empire space.
@@ -91,32 +92,32 @@ public class InterdictionProbe
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DisallowInEmpireSpace;
+    @DefaultIntValue(0)
+    public int DisallowInEmpireSpace;
     /**
      * Required skill level for skill 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * The amount of milliseconds before the object explodes.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ExplosionDelay;
+    @DefaultIntValue(0)
+    public int ExplosionDelay;
     public final static String RESOURCE_PATH = "SDE/items/charge/InterdictionProbe.yaml";
     private static LinkedHashMap<String, InterdictionProbe> cache = (null);
 

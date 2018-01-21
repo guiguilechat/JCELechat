@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.material;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Material;
@@ -19,16 +19,16 @@ public class WormholeMinerals
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double MoonMiningAmount;
+    @DefaultIntValue(1)
+    public int MoonMiningAmount;
     /**
      * The maximum hitpoints of an object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     public final static String RESOURCE_PATH = "SDE/items/material/WormholeMinerals.yaml";
     private static LinkedHashMap<String, WormholeMinerals> cache = (null);
 

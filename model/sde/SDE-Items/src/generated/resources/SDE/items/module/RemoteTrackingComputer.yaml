@@ -1,232 +1,220 @@
 items:
   '''Enterprise'' Remote Tracking Computer':
     CapacitorNeed: 14.0
-    ChargeGroup1: 907.0
-    ChargeSize: 1.0
+    ChargeGroup1: 907
+    ChargeSize: 1
     Cpu: 22.0
-    DisallowAgainstEwImmuneTarget: 1.0
+    DisallowAgainstEwImmuneTarget: 1
     Duration: 12000.0
     FalloffBonus: 15.0
-    FalloffEffectiveness: 24000.0
+    FalloffEffectiveness: 24000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 48000.0
+    Hp: 40
+    MaxRange: 48000
     MaxRangeBonus: 7.5
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadTrackingModuleStrengthBonus: 15.0
-    Power: 1.0
+    MetaGroupID: 3
+    MetaLevel: 6
+    OverloadTrackingModuleStrengthBonus: 15
+    Power: 1
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
+    RequiredSkill1: 3433
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
     TrackingSpeedBonus: 15.0
   '''Prayer'' Remote Tracking Computer':
-    CapacitorNeed: 20.0
-    ChargeGroup1: 907.0
-    ChargeSize: 1.0
-    Cpu: 24.0
-    DisallowAgainstEwImmuneTarget: 1.0
+    ChargeGroup1: 907
+    ChargeSize: 1
+    DisallowAgainstEwImmuneTarget: 1
     Duration: 10500.0
     FalloffBonus: 10.600000381469727
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.5
-    Hp: 40.0
-    MaxRange: 5250.0
+    Hp: 40
+    MaxRange: 5250
     MaxRangeBonus: 5.300000190734863
-    MetaLevel: 1.0
-    OverloadTrackingModuleStrengthBonus: 15.0
-    Power: 1.0
+    MetaLevel: 1
+    OverloadTrackingModuleStrengthBonus: 15
+    Power: 1
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
+    RequiredSkill1: 3433
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
     TrackingSpeedBonus: 10.5
   '''Tycoon'' Remote Tracking Computer':
-    CapacitorNeed: 20.0
-    ChargeGroup1: 907.0
-    ChargeSize: 1.0
-    Cpu: 24.0
-    DisallowAgainstEwImmuneTarget: 1.0
+    ChargeGroup1: 907
+    ChargeSize: 1
+    DisallowAgainstEwImmuneTarget: 1
     Duration: 12000.0
     FalloffBonus: 14.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 6000.0
+    Hp: 40
+    MaxRange: 6000
     MaxRangeBonus: 7.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadTrackingModuleStrengthBonus: 15.0
-    Power: 1.0
+    MetaGroupID: 3
+    MetaLevel: 6
+    OverloadTrackingModuleStrengthBonus: 15
+    Power: 1
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
+    RequiredSkill1: 3433
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
     TrackingSpeedBonus: 13.5
   Alfven Enduring Remote Tracking Computer:
     CapacitorNeed: 16.0
-    ChargeGroup1: 907.0
-    ChargeSize: 1.0
+    ChargeGroup1: 907
+    ChargeSize: 1
     Cpu: 30.0
-    DisallowAgainstEwImmuneTarget: 1.0
+    DisallowAgainstEwImmuneTarget: 1
     Duration: 12000.0
     FalloffBonus: 13.5
-    FalloffEffectiveness: 20000.0
+    FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 40000.0
+    Hp: 40
+    MaxRange: 40000
     MaxRangeBonus: 6.75
-    MetaLevel: 1.0
-    OverloadTrackingModuleStrengthBonus: 15.0
-    Power: 1.0
+    MetaLevel: 1
+    OverloadTrackingModuleStrengthBonus: 15
+    Power: 1
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
+    RequiredSkill1: 3433
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
     TrackingSpeedBonus: 13.5
   F-293 Scoped Remote Tracking Computer:
-    CapacitorNeed: 20.0
-    ChargeGroup1: 907.0
-    ChargeSize: 1.0
+    ChargeGroup1: 907
+    ChargeSize: 1
     Cpu: 30.0
-    DisallowAgainstEwImmuneTarget: 1.0
+    DisallowAgainstEwImmuneTarget: 1
     Duration: 12000.0
     FalloffBonus: 13.5
-    FalloffEffectiveness: 22000.0
+    FalloffEffectiveness: 22000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 44000.0
+    Hp: 40
+    MaxRange: 44000
     MaxRangeBonus: 6.75
-    MetaLevel: 1.0
-    OverloadTrackingModuleStrengthBonus: 15.0
-    Power: 1.0
+    MetaLevel: 1
+    OverloadTrackingModuleStrengthBonus: 15
+    Power: 1
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
+    RequiredSkill1: 3433
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
     TrackingSpeedBonus: 13.5
   Federation Navy Remote Tracking Computer:
-    CapacitorNeed: 20.0
-    ChargeGroup1: 907.0
-    ChargeSize: 1.0
-    Cpu: 30.0
-    DisallowAgainstEwImmuneTarget: 1.0
+    ChargeGroup1: 907
+    ChargeSize: 1
+    DisallowAgainstEwImmuneTarget: 1
     Duration: 12000.0
     FalloffBonus: 16.0
-    FalloffEffectiveness: 28000.0
+    FalloffEffectiveness: 28000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 56000.0
+    Hp: 40
+    MaxRange: 56000
     MaxRangeBonus: 8.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadTrackingModuleStrengthBonus: 15.0
-    Power: 1.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadTrackingModuleStrengthBonus: 15
+    Power: 1
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
+    RequiredSkill1: 3433
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
     TrackingSpeedBonus: 17.5
   P-S Compact Remote Tracking Computer:
-    CapacitorNeed: 20.0
-    ChargeGroup1: 907.0
-    ChargeSize: 1.0
+    ChargeGroup1: 907
+    ChargeSize: 1
     Cpu: 24.0
-    DisallowAgainstEwImmuneTarget: 1.0
+    DisallowAgainstEwImmuneTarget: 1
     Duration: 12000.0
     FalloffBonus: 13.5
-    FalloffEffectiveness: 20000.0
+    FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 40000.0
+    Hp: 40
+    MaxRange: 40000
     MaxRangeBonus: 6.75
-    MetaLevel: 1.0
-    OverloadTrackingModuleStrengthBonus: 15.0
-    Power: 1.0
+    MetaLevel: 1
+    OverloadTrackingModuleStrengthBonus: 15
+    Power: 1
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
+    RequiredSkill1: 3433
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
     TrackingSpeedBonus: 13.5
   Remote Tracking Computer I:
-    CapacitorNeed: 20.0
-    ChargeGroup1: 907.0
-    ChargeSize: 1.0
-    Cpu: 30.0
-    DisallowAgainstEwImmuneTarget: 1.0
+    ChargeGroup1: 907
+    ChargeSize: 1
+    DisallowAgainstEwImmuneTarget: 1
     Duration: 12000.0
     FalloffBonus: 12.0
-    FalloffEffectiveness: 20000.0
+    FalloffEffectiveness: 20000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 40000.0
+    Hp: 40
+    MaxRange: 40000
     MaxRangeBonus: 6.0
-    OverloadTrackingModuleStrengthBonus: 15.0
-    Power: 1.0
+    OverloadTrackingModuleStrengthBonus: 15
+    Power: 1
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
+    RequiredSkill1: 3433
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
     TrackingSpeedBonus: 12.0
   Remote Tracking Computer II:
     CapacitorNeed: 24.0
-    ChargeGroup1: 907.0
-    ChargeSize: 1.0
+    ChargeGroup1: 907
+    ChargeSize: 1
     Cpu: 36.0
-    DisallowAgainstEwImmuneTarget: 1.0
+    DisallowAgainstEwImmuneTarget: 1
     Duration: 12000.0
     FalloffBonus: 15.0
-    FalloffEffectiveness: 24000.0
+    FalloffEffectiveness: 24000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 48000.0
+    Hp: 40
+    MaxRange: 48000
     MaxRangeBonus: 7.5
-    MetaLevel: 5.0
-    OverloadTrackingModuleStrengthBonus: 15.0
-    Power: 1.0
+    MetaLevel: 5
+    OverloadTrackingModuleStrengthBonus: 15
+    Power: 1
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
+    RequiredSkill1: 3433
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 2
     TrackingSpeedBonus: 15.0
   Shadow Serpentis Remote Tracking Computer:
-    CapacitorNeed: 20.0
-    ChargeGroup1: 907.0
-    ChargeSize: 1.0
-    Cpu: 30.0
-    DisallowAgainstEwImmuneTarget: 1.0
+    ChargeGroup1: 907
+    ChargeSize: 1
+    DisallowAgainstEwImmuneTarget: 1
     Duration: 12000.0
     FalloffBonus: 16.0
-    FalloffEffectiveness: 28000.0
+    FalloffEffectiveness: 28000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 56000.0
+    Hp: 40
+    MaxRange: 56000
     MaxRangeBonus: 8.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadTrackingModuleStrengthBonus: 15.0
-    Power: 1.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadTrackingModuleStrengthBonus: 15
+    Power: 1
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
+    RequiredSkill1: 3433
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
     TrackingSpeedBonus: 17.5

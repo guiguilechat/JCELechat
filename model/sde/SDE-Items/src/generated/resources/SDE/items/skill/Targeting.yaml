@@ -1,57 +1,55 @@
 items:
   Advanced Target Management:
-    MaxTargetBonus: 1.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3429.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 166.0
+    MaxTargetBonus: 1
+    PrimaryAttribute: 165
+    RequiredSkill1: 3429
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Gravimetric Sensor Compensation:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
-    SensorStrengthBonus: 4.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
+    SensorStrengthBonus: 4
     SkillTimeConstant: 2.0
   Ladar Sensor Compensation:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
-    SensorStrengthBonus: 4.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
+    SensorStrengthBonus: 4
     SkillTimeConstant: 2.0
   Long Range Targeting:
-    MaxTargetRangeBonus: 5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 2
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0
   Magnetometric Sensor Compensation:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
-    SensorStrengthBonus: 4.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
+    SensorStrengthBonus: 4
     SkillTimeConstant: 2.0
   Radar Sensor Compensation:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
-    SensorStrengthBonus: 4.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
+    SensorStrengthBonus: 4
     SkillTimeConstant: 2.0
   Signature Analysis:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanResolutionBonus: 5.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 166
     SkillTimeConstant: 1.0
   Target Management:
-    MaxTargetBonus: 1.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 166.0
+    MaxTargetBonus: 1
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 166
     SkillTimeConstant: 1.0

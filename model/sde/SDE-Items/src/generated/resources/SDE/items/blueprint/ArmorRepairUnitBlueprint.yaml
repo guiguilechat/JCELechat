@@ -1,56 +1,56 @@
 items:
   '''Gorget'' Small Armor Repairer I Blueprint':
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Greaves'' Medium Armor Repairer I Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Harmony'' Small Armor Repairer I Blueprint':
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Hauberk'' Large Armor Repairer I Blueprint':
     IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Meditation'' Medium Armor Repairer I Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Protest'' Large Armor Repairer I Blueprint':
     IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
+    TechLevel: 1
   CONCORD Capital Armor Repairer Blueprint:
     IndustryBlueprintRank: 120.0
-    TechLevel: 1.0
+    TechLevel: 1
   Capital ACM Compact Armor Repairer Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Capital Armor Repairer I Blueprint:
     IndustryBlueprintRank: 120.0
-    TechLevel: 1.0
+    TechLevel: 1
   Capital Armor Repairer II Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Capital I-a Enduring Armor Repairer Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Civilian Armor Repairer Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Dark Blood Capital Armor Repairer Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Large Armor Repairer I Blueprint:
     IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
+    TechLevel: 1
   Large Armor Repairer II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
-    TechLevel: 2.0
+    TechLevel: 2
   Medium Armor Repairer I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Medium Armor Repairer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Shadow Serpentis Capital Armor Repairer Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Small Armor Repairer I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Small Armor Repairer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
+    TechLevel: 2

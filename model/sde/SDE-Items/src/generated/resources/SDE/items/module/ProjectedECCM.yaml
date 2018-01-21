@@ -1,120 +1,114 @@
 items:
   ECCM Projector I:
     CapacitorNeed: 20.0
-    Cpu: 50.0
     Duration: 10000.0
-    Falloff: 40000.0
+    Falloff: 40000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 20000.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 100.0
-    ScanLadarStrengthPercent: 100.0
-    ScanMagnetometricStrengthPercent: 100.0
-    ScanRadarStrengthPercent: 100.0
-    TechLevel: 1.0
+    Hp: 40
+    MaxRange: 20000
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 100
+    ScanLadarStrengthPercent: 100
+    ScanMagnetometricStrengthPercent: 100
+    ScanRadarStrengthPercent: 100
+    TechLevel: 1
   ECCM Projector II:
     CapacitorNeed: 22.0
-    Cpu: 55.0
     Duration: 10000.0
-    Falloff: 48000.0
+    Falloff: 48000
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 24000.0
-    MetaLevel: 5.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 120.0
-    ScanLadarStrengthPercent: 120.0
-    ScanMagnetometricStrengthPercent: 120.0
-    ScanRadarStrengthPercent: 120.0
-    TechLevel: 2.0
+    Hp: 40
+    MaxRange: 24000
+    MetaLevel: 5
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 120
+    ScanLadarStrengthPercent: 120
+    ScanMagnetometricStrengthPercent: 120
+    ScanRadarStrengthPercent: 120
+    TechLevel: 2
   Phased Muon ECCM Caster I:
     CapacitorNeed: 16.0
-    Cpu: 40.0
     Duration: 10000.0
-    Falloff: 48000.0
+    Falloff: 48000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 24000.0
-    MetaLevel: 4.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 120.0
-    ScanLadarStrengthPercent: 120.0
-    ScanMagnetometricStrengthPercent: 120.0
-    ScanRadarStrengthPercent: 120.0
-    TechLevel: 1.0
+    Hp: 40
+    MaxRange: 24000
+    MetaLevel: 4
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 120
+    ScanLadarStrengthPercent: 120
+    ScanMagnetometricStrengthPercent: 120
+    ScanRadarStrengthPercent: 120
+    TechLevel: 1
   Piercing ECCM Emitter I:
     CapacitorNeed: 18.0
-    Cpu: 45.0
     Duration: 10000.0
-    Falloff: 44000.0
+    Falloff: 44000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 22000.0
-    MetaLevel: 2.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 110.0
-    ScanLadarStrengthPercent: 110.0
-    ScanMagnetometricStrengthPercent: 110.0
-    ScanRadarStrengthPercent: 110.0
-    TechLevel: 1.0
+    Hp: 40
+    MaxRange: 22000
+    MetaLevel: 2
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 110
+    ScanLadarStrengthPercent: 110
+    ScanMagnetometricStrengthPercent: 110
+    ScanRadarStrengthPercent: 110
+    TechLevel: 1
   Scattering ECCM Projector I:
     CapacitorNeed: 19.0
-    Cpu: 48.0
     Duration: 10000.0
-    Falloff: 42000.0
+    Falloff: 42000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 21000.0
-    MetaLevel: 1.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 105.0
-    ScanLadarStrengthPercent: 105.0
-    ScanMagnetometricStrengthPercent: 105.0
-    ScanRadarStrengthPercent: 105.0
-    TechLevel: 1.0
+    Hp: 40
+    MaxRange: 21000
+    MetaLevel: 1
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 105
+    ScanLadarStrengthPercent: 105
+    ScanMagnetometricStrengthPercent: 105
+    ScanRadarStrengthPercent: 105
+    TechLevel: 1
   Spot Pulsing ECCM I:
     CapacitorNeed: 17.0
-    Cpu: 43.0
     Duration: 10000.0
-    Falloff: 46000.0
+    Falloff: 46000
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 23000.0
-    MetaLevel: 3.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 115.0
-    ScanLadarStrengthPercent: 115.0
-    ScanMagnetometricStrengthPercent: 115.0
-    ScanRadarStrengthPercent: 115.0
-    TechLevel: 1.0
+    Hp: 40
+    MaxRange: 23000
+    MetaLevel: 3
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 115
+    ScanLadarStrengthPercent: 115
+    ScanMagnetometricStrengthPercent: 115
+    ScanRadarStrengthPercent: 115
+    TechLevel: 1

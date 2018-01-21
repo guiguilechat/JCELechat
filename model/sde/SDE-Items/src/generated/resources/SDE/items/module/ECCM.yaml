@@ -1,660 +1,617 @@
 items:
   '''Forger'' ECCM - Magnetometric I':
     CapacitorNeed: 8.0
-    Cpu: 14.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanMagnetometricStrengthPercent: 88.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanMagnetometricStrengthPercent: 88
+    TechLevel: 1
   Alumel Gravimetric ECCM Sensor Array I:
     CapacitorNeed: 10.0
-    Cpu: 19.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 84.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 84
+    TechLevel: 1
   Alumel Ladar ECCM Sensor Array I:
     CapacitorNeed: 10.0
-    Cpu: 19.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanLadarStrengthPercent: 84.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanLadarStrengthPercent: 84
+    TechLevel: 1
   Alumel Magnetometric ECCM Sensor Array I:
     CapacitorNeed: 10.0
-    Cpu: 19.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanMagnetometricStrengthPercent: 84.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanMagnetometricStrengthPercent: 84
+    TechLevel: 1
   Alumel Omni ECCM Sensor Array I:
     CapacitorNeed: 20.0
-    Cpu: 19.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 84.0
-    ScanLadarStrengthPercent: 84.0
-    ScanMagnetometricStrengthPercent: 84.0
-    ScanRadarStrengthPercent: 84.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 84
+    ScanLadarStrengthPercent: 84
+    ScanMagnetometricStrengthPercent: 84
+    ScanRadarStrengthPercent: 84
+    TechLevel: 1
   Alumel Radar ECCM Sensor Array I:
     CapacitorNeed: 10.0
-    Cpu: 19.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanRadarStrengthPercent: 84.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanRadarStrengthPercent: 84
+    TechLevel: 1
   Conjunctive Gravimetric ECCM Scanning Array I:
     CapacitorNeed: 8.0
-    Cpu: 16.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 96.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 96
+    TechLevel: 1
   Conjunctive Ladar ECCM Scanning Array I:
     CapacitorNeed: 8.0
-    Cpu: 16.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanLadarStrengthPercent: 96.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanLadarStrengthPercent: 96
+    TechLevel: 1
   Conjunctive Magnetometric ECCM Scanning Array I:
     CapacitorNeed: 8.0
-    Cpu: 16.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanMagnetometricStrengthPercent: 96.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanMagnetometricStrengthPercent: 96
+    TechLevel: 1
   Conjunctive Radar ECCM Scanning Array I:
     CapacitorNeed: 8.0
-    Cpu: 16.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanRadarStrengthPercent: 96.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanRadarStrengthPercent: 96
+    TechLevel: 1
   ECCM - Gravimetric I:
     CapacitorNeed: 10.0
-    Cpu: 20.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 80.0
-    TechLevel: 1.0
+    Hp: 40
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 80
+    TechLevel: 1
   ECCM - Gravimetric II:
     CapacitorNeed: 12.0
-    Cpu: 24.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 96.0
-    TechLevel: 2.0
+    Hp: 40
+    MetaLevel: 5
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 96
+    TechLevel: 2
   ECCM - Ladar I:
     CapacitorNeed: 10.0
-    Cpu: 20.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanLadarStrengthPercent: 80.0
-    TechLevel: 1.0
+    Hp: 40
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanLadarStrengthPercent: 80
+    TechLevel: 1
   ECCM - Ladar II:
     CapacitorNeed: 12.0
-    Cpu: 24.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanLadarStrengthPercent: 96.0
-    TechLevel: 2.0
+    Hp: 40
+    MetaLevel: 5
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    ScanLadarStrengthPercent: 96
+    TechLevel: 2
   ECCM - Magnetometric I:
     CapacitorNeed: 10.0
-    Cpu: 20.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanMagnetometricStrengthPercent: 80.0
-    TechLevel: 1.0
+    Hp: 40
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanMagnetometricStrengthPercent: 80
+    TechLevel: 1
   ECCM - Magnetometric II:
     CapacitorNeed: 12.0
-    Cpu: 24.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanMagnetometricStrengthPercent: 96.0
-    TechLevel: 2.0
+    Hp: 40
+    MetaLevel: 5
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    ScanMagnetometricStrengthPercent: 96
+    TechLevel: 2
   ECCM - Omni I:
     CapacitorNeed: 20.0
-    Cpu: 20.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 80.0
-    ScanLadarStrengthPercent: 80.0
-    ScanMagnetometricStrengthPercent: 80.0
-    ScanRadarStrengthPercent: 80.0
-    TechLevel: 1.0
+    Hp: 40
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 80
+    ScanLadarStrengthPercent: 80
+    ScanMagnetometricStrengthPercent: 80
+    ScanRadarStrengthPercent: 80
+    TechLevel: 1
   ECCM - Omni II:
     CapacitorNeed: 24.0
-    Cpu: 24.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 96.0
-    ScanLadarStrengthPercent: 96.0
-    ScanMagnetometricStrengthPercent: 96.0
-    ScanRadarStrengthPercent: 96.0
-    TechLevel: 2.0
+    Hp: 40
+    MetaLevel: 5
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 96
+    ScanLadarStrengthPercent: 96
+    ScanMagnetometricStrengthPercent: 96
+    ScanRadarStrengthPercent: 96
+    TechLevel: 2
   ECCM - Radar I:
     CapacitorNeed: 10.0
-    Cpu: 20.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanRadarStrengthPercent: 80.0
-    TechLevel: 1.0
+    Hp: 40
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanRadarStrengthPercent: 80
+    TechLevel: 1
   ECCM - Radar II:
     CapacitorNeed: 12.0
-    Cpu: 24.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanRadarStrengthPercent: 96.0
-    TechLevel: 2.0
+    Hp: 40
+    MetaLevel: 5
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    ScanRadarStrengthPercent: 96
+    TechLevel: 2
   Extra Gravimetric ECCM Scanning Array I:
     CapacitorNeed: 9.0
-    Cpu: 18.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 88.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 88
+    TechLevel: 1
   Extra Ladar ECCM Scanning Array I:
     CapacitorNeed: 9.0
-    Cpu: 18.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanLadarStrengthPercent: 88.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanLadarStrengthPercent: 88
+    TechLevel: 1
   Extra Magnetometric ECCM Scanning Array I:
     CapacitorNeed: 9.0
-    Cpu: 18.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanMagnetometricStrengthPercent: 88.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanMagnetometricStrengthPercent: 88
+    TechLevel: 1
   Extra Radar ECCM Scanning Array I:
     CapacitorNeed: 9.0
-    Cpu: 18.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanRadarStrengthPercent: 88.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanRadarStrengthPercent: 88
+    TechLevel: 1
   Gravimetric Positional ECCM Sensor System I:
     CapacitorNeed: 10.0
-    Cpu: 17.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 92.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 92
+    TechLevel: 1
   Incremental Gravimetric ECCM Scanning Array I:
     CapacitorNeed: 9.0
-    Cpu: 17.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 92.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 92
+    TechLevel: 1
   Incremental Ladar ECCM Scanning Array I:
     CapacitorNeed: 9.0
-    Cpu: 17.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanLadarStrengthPercent: 92.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanLadarStrengthPercent: 92
+    TechLevel: 1
   Incremental Magnetometric ECCM Scanning Array I:
     CapacitorNeed: 9.0
-    Cpu: 17.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanMagnetometricStrengthPercent: 92.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanMagnetometricStrengthPercent: 92
+    TechLevel: 1
   Incremental Radar ECCM Scanning Array I:
     CapacitorNeed: 9.0
-    Cpu: 17.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanRadarStrengthPercent: 92.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanRadarStrengthPercent: 92
+    TechLevel: 1
   Ladar Positional ECCM Sensor System I:
     CapacitorNeed: 10.0
-    Cpu: 17.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanLadarStrengthPercent: 92.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanLadarStrengthPercent: 92
+    TechLevel: 1
   Magnetometric Positional ECCM Sensor System I:
     CapacitorNeed: 10.0
-    Cpu: 17.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanMagnetometricStrengthPercent: 92.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanMagnetometricStrengthPercent: 92
+    TechLevel: 1
   Omni Positional ECCM Sensor System I:
     CapacitorNeed: 20.0
-    Cpu: 17.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 92.0
-    ScanLadarStrengthPercent: 92.0
-    ScanMagnetometricStrengthPercent: 92.0
-    ScanRadarStrengthPercent: 92.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 92
+    ScanLadarStrengthPercent: 92
+    ScanMagnetometricStrengthPercent: 92
+    ScanRadarStrengthPercent: 92
+    TechLevel: 1
   Prototype ECCM Gravimetric Sensor Cluster:
     CapacitorNeed: 10.0
-    Cpu: 16.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 96.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 96
+    TechLevel: 1
   Prototype ECCM Ladar Sensor Cluster:
     CapacitorNeed: 10.0
-    Cpu: 16.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanLadarStrengthPercent: 96.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanLadarStrengthPercent: 96
+    TechLevel: 1
   Prototype ECCM Magnetometric Sensor Cluster:
     CapacitorNeed: 10.0
-    Cpu: 16.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanMagnetometricStrengthPercent: 96.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanMagnetometricStrengthPercent: 96
+    TechLevel: 1
   Prototype ECCM Omni Sensor Cluster:
     CapacitorNeed: 20.0
-    Cpu: 16.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 96.0
-    ScanLadarStrengthPercent: 96.0
-    ScanMagnetometricStrengthPercent: 96.0
-    ScanRadarStrengthPercent: 96.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 96
+    ScanLadarStrengthPercent: 96
+    ScanMagnetometricStrengthPercent: 96
+    ScanRadarStrengthPercent: 96
+    TechLevel: 1
   Prototype ECCM Radar Sensor Cluster:
     CapacitorNeed: 10.0
-    Cpu: 16.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanRadarStrengthPercent: 96.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanRadarStrengthPercent: 96
+    TechLevel: 1
   Radar Positional ECCM Sensor System I:
     CapacitorNeed: 10.0
-    Cpu: 17.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanRadarStrengthPercent: 92.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanRadarStrengthPercent: 92
+    TechLevel: 1
   Supplemental Gravimetric ECCM Scanning Array I:
     CapacitorNeed: 10.0
-    Cpu: 18.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 88.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 88
+    TechLevel: 1
   Supplemental Ladar ECCM Scanning Array I:
     CapacitorNeed: 10.0
-    Cpu: 18.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanLadarStrengthPercent: 88.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanLadarStrengthPercent: 88
+    TechLevel: 1
   Supplemental Magnetometric ECCM Scanning Array I:
     CapacitorNeed: 10.0
-    Cpu: 18.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanMagnetometricStrengthPercent: 88.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanMagnetometricStrengthPercent: 88
+    TechLevel: 1
   Supplemental Omni ECCM Scanning Array I:
     CapacitorNeed: 20.0
-    Cpu: 18.0
     Duration: 6000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 88.0
-    ScanLadarStrengthPercent: 88.0
-    ScanMagnetometricStrengthPercent: 88.0
-    ScanRadarStrengthPercent: 88.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanGravimetricStrengthPercent: 88
+    ScanLadarStrengthPercent: 88
+    ScanMagnetometricStrengthPercent: 88
+    ScanRadarStrengthPercent: 88
+    TechLevel: 1
   Supplemental Radar ECCM Scanning Array I:
     CapacitorNeed: 10.0
-    Cpu: 18.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadECCMStrenghtBonus: 30.0
-    Power: 1.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanRadarStrengthPercent: 88.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    OverloadECCMStrenghtBonus: 30
+    Power: 1
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    ScanRadarStrengthPercent: 88
+    TechLevel: 1

@@ -1,80 +1,80 @@
 items:
   Compressed Dark Ochre:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1232.0
-    ReprocessingSkillType: 12183.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 1232
+    ReprocessingSkillType: 12183
+    RequiredSkill1: 3386
   Compressed Jet Ochre:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 4.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 46675.0
-    ReprocessingSkillType: 12183.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 46675
+    ReprocessingSkillType: 12183
+    RequiredSkill1: 3386
   Compressed Obsidian Ochre:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1232.0
-    ReprocessingSkillType: 12183.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 1232
+    ReprocessingSkillType: 12183
+    RequiredSkill1: 3386
   Compressed Onyx Ochre:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1232.0
-    ReprocessingSkillType: 12183.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 1232
+    ReprocessingSkillType: 12183
+    RequiredSkill1: 3386
   Dark Ochre:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28394.0
-    OreBasicType: 1232.0
-    ReprocessingSkillType: 12183.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28394
+    OreBasicType: 1232
+    ReprocessingSkillType: 12183
+    RequiredSkill1: 3386
   Jet Ochre:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 4.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.100000023841858
-    AsteroidRadiusUnitSize: 700.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 46694.0
-    OreBasicType: 46675.0
-    ReprocessingSkillType: 12183.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 700
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 46694
+    OreBasicType: 46675
+    ReprocessingSkillType: 12183
+    RequiredSkill1: 3386
   Obsidian Ochre:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28395.0
-    OreBasicType: 1232.0
-    ReprocessingSkillType: 12183.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28395
+    OreBasicType: 1232
+    ReprocessingSkillType: 12183
+    RequiredSkill1: 3386
   Oeryl:
-    AsteroidMaxRadius: 16255.0
+    AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1232.0
-    ReprocessingSkillType: 12183.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 1232
+    ReprocessingSkillType: 12183
+    RequiredSkill1: 3386
   Onyx Ochre:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28396.0
-    OreBasicType: 1232.0
-    ReprocessingSkillType: 12183.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28396
+    OreBasicType: 1232
+    ReprocessingSkillType: 12183
+    RequiredSkill1: 3386

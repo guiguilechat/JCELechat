@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.StructureModule;
@@ -19,23 +20,23 @@ public class StructureAreaDenialModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DeadspaceUnsafe;
+    @DefaultIntValue(0)
+    public int DeadspaceUnsafe;
     /**
      * Range of broadcasted EMP field.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EmpFieldRange;
+    @DefaultIntValue(0)
+    public int EmpFieldRange;
     /**
      * The amount of charge used from the capacitor for a module activation.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorNeed;
     /**
      * The maximum hitpoints of an object.
@@ -43,15 +44,15 @@ public class StructureAreaDenialModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * Length of activation time.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Duration;
     /**
      * CPU need of module
@@ -59,7 +60,7 @@ public class StructureAreaDenialModule
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * EM damage done.
@@ -67,7 +68,7 @@ public class StructureAreaDenialModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double EmDamage;
     /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
@@ -75,15 +76,15 @@ public class StructureAreaDenialModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DisallowInHighSec;
+    @DefaultIntValue(0)
+    public int DisallowInHighSec;
     /**
      * Explosive damage done.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ExplosiveDamage;
     /**
      * Kinetic damage done.
@@ -91,7 +92,7 @@ public class StructureAreaDenialModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double KineticDamage;
     /**
      * Determines the maximum security class that a module can be onlined within. Used for structure modules.
@@ -103,23 +104,23 @@ public class StructureAreaDenialModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(2.0D)
-    public double OnlineMaxSecurityClass;
+    @DefaultIntValue(2)
+    public int OnlineMaxSecurityClass;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType1;
+    @DefaultIntValue(0)
+    public int CanFitShipType1;
     /**
      * Thermal damage done.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ThermalDamage;
     /**
      * 
@@ -127,56 +128,56 @@ public class StructureAreaDenialModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType2;
+    @DefaultIntValue(0)
+    public int CanFitShipType2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType6;
+    @DefaultIntValue(0)
+    public int CanFitShipType6;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType3;
+    @DefaultIntValue(0)
+    public int CanFitShipType3;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType5;
+    @DefaultIntValue(0)
+    public int CanFitShipType5;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType4;
+    @DefaultIntValue(0)
+    public int CanFitShipType4;
     /**
      * current power need
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double StructureItemVisualFlag;
+    @DefaultIntValue(0)
+    public int StructureItemVisualFlag;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureAreaDenialModule.yaml";
     private static LinkedHashMap<String, StructureAreaDenialModule> cache = (null);
 

@@ -1,15 +1,14 @@
 items:
   Imperial Special Ops Field Enhancer - Standard:
-    ArmorHpBonus2: 5.0
-    Implantness: 1.0
-    PerceptionBonus: 4.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    Implantness: 1
+    PerceptionBonus: 4
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
   Republic Special Ops Field Enhancer - Gamma:
-    Implantness: 3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
-    VelocityBonus2: 5.0
-    WillpowerBonus: 4.0
+    Implantness: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    VelocityBonus2: 5
+    WillpowerBonus: 4

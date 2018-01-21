@@ -9,11 +9,10 @@ public class TestLoad {
 
 	@Test
 	public void testLoadAtron() {
-		Assert.assertEquals(Frigate
-				.load()
-				.get("Atron")
-				.CpuOutput
-				, 147.0);
+		Frigate atron = Frigate.load().get("Atron");
+		Assert.assertEquals(atron.CpuOutput, 147);
+		Assert.assertEquals(atron.HiSlots, 4);
+		Assert.assertEquals(atron.Agility, 2.799999952316284);
 	}
 
 }

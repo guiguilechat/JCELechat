@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.StructureModule;
@@ -19,7 +20,7 @@ public class StructureResourceProcessingServiceModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.5D)
+    @DefaultDoubleValue(0.5D)
     public double RefiningYieldNormalOres;
     /**
      * 
@@ -27,7 +28,7 @@ public class StructureResourceProcessingServiceModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.5D)
+    @DefaultDoubleValue(0.5D)
     public double RefiningYieldMoonOres;
     /**
      * The factor by which the structure modifies the using pilot's refining yield rate.
@@ -35,7 +36,7 @@ public class StructureResourceProcessingServiceModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.5D)
+    @DefaultDoubleValue(0.5D)
     public double RefiningYieldMultiplier;
     /**
      * 
@@ -43,7 +44,7 @@ public class StructureResourceProcessingServiceModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.5D)
+    @DefaultDoubleValue(0.5D)
     public double RefiningYieldIce;
     /**
      * CPU need of module
@@ -51,7 +52,7 @@ public class StructureResourceProcessingServiceModule
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * 
@@ -59,32 +60,32 @@ public class StructureResourceProcessingServiceModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup01;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup01;
     /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DisallowInHighSec;
+    @DefaultIntValue(0)
+    public int DisallowInHighSec;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup02;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup02;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup03;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup03;
     /**
      * Determines the maximum security class that a module can be onlined within. Used for structure modules.
      * 
@@ -95,56 +96,56 @@ public class StructureResourceProcessingServiceModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(2.0D)
-    public double OnlineMaxSecurityClass;
+    @DefaultIntValue(2)
+    public int OnlineMaxSecurityClass;
     /**
      * Fuel consumed by the structure service module
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ServiceModuleFuelConsumptionGroup;
+    @DefaultIntValue(0)
+    public int ServiceModuleFuelConsumptionGroup;
     /**
      * Fuel consumed at the beginning of each hour to keep a service module online.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ServiceModuleFuelAmount;
+    @DefaultIntValue(0)
+    public int ServiceModuleFuelAmount;
     /**
      * current power need
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * Fuel consumed to online the service module.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ServiceModuleFuelOnlineAmount;
+    @DefaultIntValue(0)
+    public int ServiceModuleFuelOnlineAmount;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double StructureItemVisualFlag;
+    @DefaultIntValue(0)
+    public int StructureItemVisualFlag;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxTypeFitted;
+    @DefaultIntValue(0)
+    public int MaxTypeFitted;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureResourceProcessingServiceModule.yaml";
     private static LinkedHashMap<String, StructureResourceProcessingServiceModule> cache = (null);
 

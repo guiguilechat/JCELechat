@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Celestial;
@@ -19,16 +19,16 @@ public class Satellite
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Untargetable;
+    @DefaultIntValue(0)
+    public int Untargetable;
     /**
      * The distance at which to react when relevant objects come within range.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ProximityRange;
+    @DefaultIntValue(0)
+    public int ProximityRange;
     public final static String RESOURCE_PATH = "SDE/items/celestial/Satellite.yaml";
     private static LinkedHashMap<String, Satellite> cache = (null);
 

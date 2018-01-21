@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Asteroid;
@@ -19,7 +20,7 @@ public class RareMoonAsteroids
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StasisWebifierResistance;
     /**
      * The type ID of the skill that is required.
@@ -27,32 +28,32 @@ public class RareMoonAsteroids
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * The skill required to reprocess this ore type.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ReprocessingSkillType;
+    @DefaultIntValue(0)
+    public int ReprocessingSkillType;
     /**
      * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double OreBasicType;
+    @DefaultIntValue(0)
+    public int OreBasicType;
     /**
      * max visual size for asteroids to fit moon chunk
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(16255.0D)
-    public double AsteroidMaxRadius;
+    @DefaultIntValue(16255)
+    public int AsteroidMaxRadius;
     /**
      *  0: Mission/NPE Ore
      *  1: Standard Ore/Ice
@@ -64,15 +65,15 @@ public class RareMoonAsteroids
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AsteroidMetaLevel;
+    @DefaultIntValue(0)
+    public int AsteroidMetaLevel;
     /**
      * Controls how quickly an asteroid radius increases as its quantity grows.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double AsteroidRadiusGrowthFactor;
     /**
      * Sets the radius of the asteroid ball when it has a quantity of 1 unit
@@ -80,8 +81,8 @@ public class RareMoonAsteroids
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(90.0D)
-    public double AsteroidRadiusUnitSize;
+    @DefaultIntValue(90)
+    public int AsteroidRadiusUnitSize;
     public final static String RESOURCE_PATH = "SDE/items/asteroid/RareMoonAsteroids.yaml";
     private static LinkedHashMap<String, RareMoonAsteroids> cache = (null);
 

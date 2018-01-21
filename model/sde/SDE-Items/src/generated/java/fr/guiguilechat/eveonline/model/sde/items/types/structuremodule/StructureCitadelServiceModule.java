@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.StructureModule;
@@ -19,15 +20,15 @@ public class StructureCitadelServiceModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup01;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup01;
     /**
      * CPU need of module
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * 
@@ -35,112 +36,112 @@ public class StructureCitadelServiceModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup02;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup02;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup03;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup03;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType1;
+    @DefaultIntValue(0)
+    public int CanFitShipType1;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType6;
+    @DefaultIntValue(0)
+    public int CanFitShipType6;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType2;
+    @DefaultIntValue(0)
+    public int CanFitShipType2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType5;
+    @DefaultIntValue(0)
+    public int CanFitShipType5;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType3;
+    @DefaultIntValue(0)
+    public int CanFitShipType3;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipType4;
+    @DefaultIntValue(0)
+    public int CanFitShipType4;
     /**
      * Fuel consumed by the structure service module
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ServiceModuleFuelConsumptionGroup;
+    @DefaultIntValue(0)
+    public int ServiceModuleFuelConsumptionGroup;
     /**
      * Fuel consumed at the beginning of each hour to keep a service module online.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ServiceModuleFuelAmount;
+    @DefaultIntValue(0)
+    public int ServiceModuleFuelAmount;
     /**
      * Fuel consumed to online the service module.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ServiceModuleFuelOnlineAmount;
+    @DefaultIntValue(0)
+    public int ServiceModuleFuelOnlineAmount;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double StructureItemVisualFlag;
+    @DefaultIntValue(0)
+    public int StructureItemVisualFlag;
     /**
      * current power need
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxTypeFitted;
+    @DefaultIntValue(0)
+    public int MaxTypeFitted;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCitadelServiceModule.yaml";
     private static LinkedHashMap<String, StructureCitadelServiceModule> cache = (null);
 

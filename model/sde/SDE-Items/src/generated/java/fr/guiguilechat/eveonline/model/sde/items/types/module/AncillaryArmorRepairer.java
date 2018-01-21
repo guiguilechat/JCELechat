@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Module;
@@ -19,7 +20,7 @@ public class AncillaryArmorRepairer
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(10000.0D)
+    @DefaultDoubleValue(10000.0D)
     public double ReloadTime;
     /**
      * The amount of charge used from the capacitor for a module activation.
@@ -27,7 +28,7 @@ public class AncillaryArmorRepairer
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorNeed;
     /**
      * 
@@ -35,15 +36,15 @@ public class AncillaryArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxGroupFitted;
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
     /**
      * Length of activation time.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Duration;
     /**
      * 
@@ -51,15 +52,15 @@ public class AncillaryArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double OverloadArmorDamageAmount;
+    @DefaultIntValue(0)
+    public int OverloadArmorDamageAmount;
     /**
      * CPU need of module
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * An amount to modify the armor damage by.
@@ -67,23 +68,23 @@ public class AncillaryArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ArmorDamageAmount;
+    @DefaultIntValue(0)
+    public int ArmorDamageAmount;
     /**
      * Required skill level for skill 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double OverloadSelfDurationBonus;
     /**
      * The type ID of the skill that is required.
@@ -91,47 +92,47 @@ public class AncillaryArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Required skill level for skill 2
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2;
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
     /**
      * Number of charges consumed per activation
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double ChargeRate;
+    @DefaultIntValue(1)
+    public int ChargeRate;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxGroupActive;
+    @DefaultIntValue(0)
+    public int MaxGroupActive;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double HeatDamage;
     /**
      * 
@@ -139,7 +140,7 @@ public class AncillaryArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double HeatAbsorbtionRateModifier;
     /**
      * 
@@ -147,32 +148,32 @@ public class AncillaryArmorRepairer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredThermoDynamicsSkill;
+    @DefaultIntValue(0)
+    public int RequiredThermoDynamicsSkill;
     /**
      * One of the groups of charge this launcher can be loaded with.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ChargeGroup2;
+    @DefaultIntValue(0)
+    public int ChargeGroup2;
     /**
      * Multiplier applied to armorDamageAmount when consuming a collection of charges.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ChargedArmorDamageMultiplier;
+    @DefaultIntValue(0)
+    public int ChargedArmorDamageMultiplier;
     /**
      * current power need
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     public final static String RESOURCE_PATH = "SDE/items/module/AncillaryArmorRepairer.yaml";
     private static LinkedHashMap<String, AncillaryArmorRepairer> cache = (null);
 

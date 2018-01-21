@@ -1,266 +1,254 @@
 items:
   '''Alpha'' Data Analyzer I':
-    AccessDifficultyBonus: 5.0
+    AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
-    Cpu: 20.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill2: 21718.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
-    VirusCoherence: 50.0
-    VirusElementSlots: 3.0
-    VirusStrength: 20.0
+    Hp: 40
+    MaxRange: 5000
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill2: 21718
+    RequiredSkill2Level: 1
+    TechLevel: 1
+    VirusCoherence: 50
+    VirusElementSlots: 3
+    VirusStrength: 20
   '''Codex'' Data Analyzer I':
-    AccessDifficultyBonus: 5.0
+    AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
-    Cpu: 20.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill2: 21718.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
-    VirusCoherence: 50.0
-    VirusElementSlots: 3.0
-    VirusStrength: 20.0
+    Hp: 40
+    MaxRange: 5000
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill2: 21718
+    RequiredSkill2Level: 1
+    TechLevel: 1
+    VirusCoherence: 50
+    VirusElementSlots: 3
+    VirusStrength: 20
   '''Daemon'' Data Analyzer I':
-    AccessDifficultyBonus: 5.0
+    AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
-    Cpu: 20.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill2: 21718.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
-    VirusCoherence: 50.0
-    VirusElementSlots: 3.0
-    VirusStrength: 20.0
+    Hp: 40
+    MaxRange: 5000
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill2: 21718
+    RequiredSkill2Level: 1
+    TechLevel: 1
+    VirusCoherence: 50
+    VirusElementSlots: 3
+    VirusStrength: 20
   '''Libram'' Data Analyzer I':
-    AccessDifficultyBonus: 5.0
+    AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
-    Cpu: 20.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill2: 21718.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
-    VirusCoherence: 50.0
-    VirusElementSlots: 3.0
-    VirusStrength: 20.0
+    Hp: 40
+    MaxRange: 5000
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill2: 21718
+    RequiredSkill2Level: 1
+    TechLevel: 1
+    VirusCoherence: 50
+    VirusElementSlots: 3
+    VirusStrength: 20
   Civilian Data Analyzer:
-    AccessDifficultyBonus: 2.0
+    AccessDifficultyBonus: 2
     CapacitorNeed: 1.0
-    Cpu: 5.0
     Duration: 10000.0
-    Hp: 40.0
-    IsHacking: 1.0
-    MaxRange: 5000.0
-    Power: 1.0
-    TechLevel: 1.0
-    VirusCoherence: 25.0
-    VirusElementSlots: 3.0
-    VirusStrength: 10.0
+    Hp: 40
+    IsHacking: 1
+    MaxRange: 5000
+    Power: 1
+    TechLevel: 1
+    VirusCoherence: 25
+    VirusElementSlots: 3
+    VirusStrength: 10
   Civilian Relic Analyzer:
-    AccessDifficultyBonus: 2.0
+    AccessDifficultyBonus: 2
     CapacitorNeed: 1.0
-    Cpu: 5.0
     Duration: 10000.0
-    Hp: 40.0
-    IsArcheology: 1.0
-    MaxRange: 5000.0
-    Power: 1.0
-    TechLevel: 1.0
-    VirusCoherence: 25.0
-    VirusElementSlots: 3.0
-    VirusStrength: 10.0
+    Hp: 40
+    IsArcheology: 1
+    MaxRange: 5000
+    Power: 1
+    TechLevel: 1
+    VirusCoherence: 25
+    VirusElementSlots: 3
+    VirusStrength: 10
   Data Analyzer I:
-    AccessDifficultyBonus: 5.0
+    AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
-    Cpu: 20.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    Power: 1.0
-    RequiredSkill2: 21718.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
-    VirusCoherence: 40.0
-    VirusElementSlots: 3.0
-    VirusStrength: 20.0
+    Hp: 40
+    MaxRange: 5000
+    Power: 1
+    RequiredSkill2: 21718
+    RequiredSkill2Level: 1
+    TechLevel: 1
+    VirusCoherence: 40
+    VirusElementSlots: 3
+    VirusStrength: 20
   Data Analyzer II:
-    AccessDifficultyBonus: 7.0
+    AccessDifficultyBonus: 7
     CapacitorNeed: 20.0
     Cpu: 25.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 6000.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill2: 21718.0
-    RequiredSkill2Level: 5.0
-    TechLevel: 2.0
-    VirusCoherence: 60.0
-    VirusElementSlots: 3.0
-    VirusStrength: 30.0
+    Hp: 40
+    MaxRange: 6000
+    MetaLevel: 5
+    Power: 1
+    RequiredSkill2: 21718
+    RequiredSkill2Level: 5
+    TechLevel: 2
+    VirusCoherence: 60
+    VirusElementSlots: 3
+    VirusStrength: 30
   Data Subverter I:
-    AccessDifficultyBonus: 15.0
+    AccessDifficultyBonus: 15
     CapacitorNeed: 20.0
     Cpu: 20.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    Power: 1.0
-    RequiredSkill2: 21718.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
+    Hp: 40
+    MaxRange: 5000
+    Power: 1
+    RequiredSkill2: 21718
+    RequiredSkill2Level: 1
+    TechLevel: 1
   Ligature Integrated Analyzer:
-    AccessDifficultyBonus: 5.0
+    AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
     Cpu: 25.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    Power: 1.0
-    RequiredSkill1: 13278.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 21718.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
-    VirusCoherence: 20.0
-    VirusElementSlots: 1.0
-    VirusStrength: 20.0
+    Hp: 40
+    MaxRange: 5000
+    MetaGroupID: 3
+    MetaLevel: 6
+    Power: 1
+    RequiredSkill1: 13278
+    RequiredSkill1Level: 1
+    RequiredSkill2: 21718
+    RequiredSkill2Level: 1
+    TechLevel: 1
+    VirusCoherence: 20
+    VirusElementSlots: 1
+    VirusStrength: 20
   Purloined Sansha Data Analyzer:
-    AccessDifficultyBonus: 5.0
-    CanFitShipType1: 3532.0
+    AccessDifficultyBonus: 5
+    CanFitShipType1: 3532
     CapacitorNeed: 20.0
     Duration: 8000.0
-    Hp: 40.0
-    MaxRange: 10000.0
-    MetaLevel: 6.0
-    RequiredSkill2: 21718.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
-    VirusCoherence: 80.0
-    VirusElementSlots: 3.0
-    VirusStrength: 40.0
+    Hp: 40
+    MaxRange: 10000
+    MetaLevel: 6
+    RequiredSkill2: 21718
+    RequiredSkill2Level: 1
+    TechLevel: 1
+    VirusCoherence: 80
+    VirusElementSlots: 3
+    VirusStrength: 40
   Relic Analyzer I:
-    AccessDifficultyBonus: 5.0
+    AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
-    Cpu: 20.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    Power: 1.0
-    RequiredSkill2: 13278.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
-    VirusCoherence: 40.0
-    VirusElementSlots: 3.0
-    VirusStrength: 20.0
+    Hp: 40
+    MaxRange: 5000
+    Power: 1
+    RequiredSkill2: 13278
+    RequiredSkill2Level: 1
+    TechLevel: 1
+    VirusCoherence: 40
+    VirusElementSlots: 3
+    VirusStrength: 20
   Relic Analyzer II:
-    AccessDifficultyBonus: 7.0
+    AccessDifficultyBonus: 7
     CapacitorNeed: 20.0
     Cpu: 25.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 6000.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill2: 13278.0
-    RequiredSkill2Level: 5.0
-    TechLevel: 2.0
-    VirusCoherence: 60.0
-    VirusElementSlots: 3.0
-    VirusStrength: 30.0
+    Hp: 40
+    MaxRange: 6000
+    MetaLevel: 5
+    Power: 1
+    RequiredSkill2: 13278
+    RequiredSkill2Level: 5
+    TechLevel: 2
+    VirusCoherence: 60
+    VirusElementSlots: 3
+    VirusStrength: 30
   Sleeper Data Analyzer I:
-    AccessDifficultyBonus: 5.0
+    AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
-    Cpu: 20.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill2: 13278.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
-    VirusCoherence: 50.0
-    VirusElementSlots: 3.0
-    VirusStrength: 20.0
+    Hp: 40
+    MaxRange: 5000
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill2: 13278
+    RequiredSkill2Level: 1
+    TechLevel: 1
+    VirusCoherence: 50
+    VirusElementSlots: 3
+    VirusStrength: 20
   Talocan Data Analyzer I:
-    AccessDifficultyBonus: 5.0
+    AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
-    Cpu: 20.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill2: 13278.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
-    VirusCoherence: 50.0
-    VirusElementSlots: 3.0
-    VirusStrength: 20.0
+    Hp: 40
+    MaxRange: 5000
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill2: 13278
+    RequiredSkill2Level: 1
+    TechLevel: 1
+    VirusCoherence: 50
+    VirusElementSlots: 3
+    VirusStrength: 20
   Terran Data Analyzer I:
-    AccessDifficultyBonus: 5.0
+    AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
-    Cpu: 20.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill2: 13278.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
-    VirusCoherence: 50.0
-    VirusElementSlots: 3.0
-    VirusStrength: 20.0
+    Hp: 40
+    MaxRange: 5000
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill2: 13278
+    RequiredSkill2Level: 1
+    TechLevel: 1
+    VirusCoherence: 50
+    VirusElementSlots: 3
+    VirusStrength: 20
   Tetrimon Data Analyzer I:
-    AccessDifficultyBonus: 5.0
+    AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
-    Cpu: 20.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill2: 13278.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
-    VirusCoherence: 50.0
-    VirusElementSlots: 3.0
-    VirusStrength: 20.0
+    Hp: 40
+    MaxRange: 5000
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill2: 13278
+    RequiredSkill2Level: 1
+    TechLevel: 1
+    VirusCoherence: 50
+    VirusElementSlots: 3
+    VirusStrength: 20
   Zeugma Integrated Analyzer:
-    AccessDifficultyBonus: 7.0
+    AccessDifficultyBonus: 7
     CapacitorNeed: 20.0
     Cpu: 30.0
     Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 6000.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    Power: 1.0
-    RequiredSkill1: 13278.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 21718.0
-    RequiredSkill2Level: 5.0
-    TechLevel: 2.0
-    VirusCoherence: 30.0
-    VirusElementSlots: 1.0
-    VirusStrength: 30.0
+    Hp: 40
+    MaxRange: 6000
+    MetaGroupID: 3
+    MetaLevel: 6
+    Power: 1
+    RequiredSkill1: 13278
+    RequiredSkill1Level: 5
+    RequiredSkill2: 21718
+    RequiredSkill2Level: 5
+    TechLevel: 2
+    VirusCoherence: 30
+    VirusElementSlots: 1
+    VirusStrength: 30

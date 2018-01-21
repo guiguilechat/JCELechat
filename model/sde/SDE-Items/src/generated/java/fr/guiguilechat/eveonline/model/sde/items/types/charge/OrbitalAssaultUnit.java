@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Charge;
@@ -19,7 +20,7 @@ public class OrbitalAssaultUnit
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxVelocity;
     /**
      * The agility of the object.
@@ -27,7 +28,7 @@ public class OrbitalAssaultUnit
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Agility;
     /**
      * Tech level of an item
@@ -35,47 +36,47 @@ public class OrbitalAssaultUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double TechLevel;
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * The maximum hitpoints of an object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * One of the groups of launcher this charge can be loaded into.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LauncherGroup;
+    @DefaultIntValue(0)
+    public int LauncherGroup;
     /**
      * Range in meters of explosion effect area.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ExplosionRange;
+    @DefaultIntValue(0)
+    public int ExplosionRange;
     /**
      * the range in meters for an object to trigger detonation of missile. (own ship excluded)
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DetonationRange;
+    @DefaultIntValue(0)
+    public int DetonationRange;
     /**
      * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double SpeedMultiplier;
     /**
      * DO NOT MESS WITH
@@ -83,7 +84,7 @@ public class OrbitalAssaultUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StructureUniformity;
     /**
      * EM damage done.
@@ -91,7 +92,7 @@ public class OrbitalAssaultUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double EmDamage;
     /**
      * Explosive damage done.
@@ -99,7 +100,7 @@ public class OrbitalAssaultUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ExplosiveDamage;
     /**
      * Kinetic damage done.
@@ -107,7 +108,7 @@ public class OrbitalAssaultUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double KineticDamage;
     /**
      * Thermal damage done.
@@ -115,7 +116,7 @@ public class OrbitalAssaultUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ThermalDamage;
     /**
      * The amount of milliseconds before the object explodes.
@@ -123,8 +124,8 @@ public class OrbitalAssaultUnit
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ExplosionDelay;
+    @DefaultIntValue(0)
+    public int ExplosionDelay;
     public final static String RESOURCE_PATH = "SDE/items/charge/OrbitalAssaultUnit.yaml";
     private static LinkedHashMap<String, OrbitalAssaultUnit> cache = (null);
 

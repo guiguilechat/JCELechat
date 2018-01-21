@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.PlanetaryInteraction;
@@ -19,64 +19,64 @@ public class Extractors
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double PlanetRestriction;
+    @DefaultIntValue(0)
+    public int PlanetRestriction;
     /**
      * CPU load of ship
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CpuLoad;
+    @DefaultIntValue(0)
+    public int CpuLoad;
     /**
      * The type of material harvested.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HarvesterType;
+    @DefaultIntValue(0)
+    public int HarvesterType;
     /**
      * Base amount (in units) of commodities extracted by an extractor pin.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(100.0D)
-    public double PinExtractionQuantity;
+    @DefaultIntValue(100)
+    public int PinExtractionQuantity;
     /**
      * Base cycle time (in seconds) of an extractor pin.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(300.0D)
-    public double PinCycleTime;
+    @DefaultIntValue(300)
+    public int PinCycleTime;
     /**
      * This is the radius that the depletion at this pin effects
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(10.0D)
-    public double ExtractorDepletionRange;
+    @DefaultIntValue(10)
+    public int ExtractorDepletionRange;
     /**
      * This is the amount that is added to the depletion of a resource on a planet
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ExtractorDepletionRate;
+    @DefaultIntValue(0)
+    public int ExtractorDepletionRate;
     /**
      * Current load of power core
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double PowerLoad;
+    @DefaultIntValue(0)
+    public int PowerLoad;
     public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/Extractors.yaml";
     private static LinkedHashMap<String, Extractors> cache = (null);
 

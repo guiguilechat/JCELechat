@@ -1,29 +1,29 @@
 items:
   Ammo Shipping Crate:
-    CargoGroup: 18.0
-    Hp: 10.0
+    CargoGroup: 18
+    Hp: 10
     StructureUniformity: 1.0
   Consumable Shipping Crate:
-    CargoGroup: 281.0
-    Hp: 10.0
+    CargoGroup: 281
+    Hp: 10
     StructureUniformity: 1.0
   Frigate Shipping Crate:
-    CargoGroup: 25.0
-    Hp: 10.0
+    CargoGroup: 25
+    Hp: 10
     StructureUniformity: 1.0
   General Shipping Crate:
-    CargoGroup: 280.0
-    Hp: 10.0
+    CargoGroup: 280
+    Hp: 10
     StructureUniformity: 1.0
   Hazardous Material Shipping Crate:
-    CargoGroup: 282.0
-    Hp: 10.0
+    CargoGroup: 282
+    Hp: 10
     StructureUniformity: 1.0
   Mineral Shipping Crate:
-    CargoGroup: 18.0
-    Hp: 10.0
+    CargoGroup: 18
+    Hp: 10
     StructureUniformity: 1.0
   Raw Material Shipping Crate:
-    CargoGroup: 18.0
-    Hp: 10.0
+    CargoGroup: 18
+    Hp: 10
     StructureUniformity: 1.0

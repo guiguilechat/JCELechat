@@ -1,32 +1,31 @@
 items:
   Cynosural Generator Array:
-    AnchoringDelay: 10000.0
-    ArmorHP: 1.5E7
+    AnchoringDelay: 10000
+    ArmorHP: 15000000
     ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 25000.0
-    Cpu: 150.0
-    DisallowOffensiveModifiers: 1.0
+    ControlTowerMinimumDistance: 25000
+    DisallowOffensiveModifiers: 1
     Duration: 10000.0
     EmDamageResonance: 1.0
     ExplosiveDamageResonance: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    Hp: 100000
     IncapacitationRatio: 0.0010000000474974513
-    JumpHarmonics: -5.0
+    JumpHarmonics: -5
     KineticDamageResonance: 1.0
-    OnliningDelay: 300000.0
-    PosAnchoredPerSolarSystemAmount: 1.0
-    Power: 375000.0
-    RequiresSovUpgrade1: 2008.0
+    OnliningDelay: 300000
+    PosAnchoredPerSolarSystemAmount: 1
+    Power: 375000
+    RequiresSovUpgrade1: 2008
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 1000000.0
+    ShieldCapacity: 1000000
     ShieldRechargeRate: 1.0E8
     ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
+    SignatureRadius: 8000
     StructureUniformity: 1.0
     ThermalDamageResonance: 1.0
-    UnanchoringDelay: 10000.0
+    UnanchoringDelay: 10000
     Uniformity: 1.0

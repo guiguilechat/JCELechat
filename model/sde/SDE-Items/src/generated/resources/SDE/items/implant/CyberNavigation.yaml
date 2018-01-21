@@ -1,320 +1,320 @@
 items:
   Eifyr and Co. 'Rogue' Acceleration Control AC-601:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFBonus: 1.0
-    TechLevel: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    SpeedFBonus: 1
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Acceleration Control AC-602:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFBonus: 2.0
-    TechLevel: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    SpeedFBonus: 2
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Acceleration Control AC-603:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    SpeedFBonus: 3.0
-    TechLevel: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    SpeedFBonus: 3
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Acceleration Control AC-604:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    SpeedFBonus: 4.0
-    TechLevel: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    SpeedFBonus: 4
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Acceleration Control AC-605:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    SpeedFBonus: 5.0
-    TechLevel: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    SpeedFBonus: 5
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Acceleration Control AC-606:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    SpeedFBonus: 6.0
-    TechLevel: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    SpeedFBonus: 6
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Afterburner AB-602:
-    DurationBonus: 2.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    DurationBonus: 2
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Afterburner AB-604:
-    DurationBonus: 4.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    DurationBonus: 4
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Afterburner AB-606:
-    DurationBonus: 6.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    DurationBonus: 6
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Afterburner AB-608:
-    DurationBonus: 8.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    DurationBonus: 8
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Afterburner AB-610:
-    DurationBonus: 10.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    DurationBonus: 10
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Afterburner AB-612:
-    DurationBonus: 12.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    DurationBonus: 12
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-701:
     AgilityBonus: -1.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-702:
     AgilityBonus: -2.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703:
     AgilityBonus: -3.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-704:
     AgilityBonus: -4.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705:
     AgilityBonus: -5.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706:
     AgilityBonus: -6.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Fuel Conservation FC-801:
-    CapNeedBonus: -1.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    CapNeedBonus: -1
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Fuel Conservation FC-802:
-    CapNeedBonus: -2.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    CapNeedBonus: -2
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Fuel Conservation FC-803:
-    CapNeedBonus: -3.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    CapNeedBonus: -3
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Fuel Conservation FC-804:
-    CapNeedBonus: -4.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    CapNeedBonus: -4
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Fuel Conservation FC-805:
-    CapNeedBonus: -5.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    CapNeedBonus: -5
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Fuel Conservation FC-806:
-    CapNeedBonus: -6.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    CapNeedBonus: -6
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-901:
     CapacitorNeedMultiplier: -1.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-902:
     CapacitorNeedMultiplier: -2.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-903:
     CapacitorNeedMultiplier: -3.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-904:
     CapacitorNeedMultiplier: -4.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-905:
     CapacitorNeedMultiplier: -5.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-906:
     CapacitorNeedMultiplier: -6.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Navigation NN-601:
     ImplantBonusVelocity: 1.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Navigation NN-602:
     ImplantBonusVelocity: 2.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Navigation NN-603:
     ImplantBonusVelocity: 3.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Navigation NN-604:
     ImplantBonusVelocity: 4.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Navigation NN-605:
     ImplantBonusVelocity: 5.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Navigation NN-606:
     ImplantBonusVelocity: 6.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-602:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    WarpCapacitorNeedBonus: -2.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    WarpCapacitorNeedBonus: -2
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-604:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    WarpCapacitorNeedBonus: -4.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    WarpCapacitorNeedBonus: -4
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-606:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
-    WarpCapacitorNeedBonus: -6.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    WarpCapacitorNeedBonus: -6
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-608:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
-    WarpCapacitorNeedBonus: -8.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    WarpCapacitorNeedBonus: -8
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-610:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
-    WarpCapacitorNeedBonus: -10.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    WarpCapacitorNeedBonus: -10
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-612:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-    WarpCapacitorNeedBonus: -12.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    WarpCapacitorNeedBonus: -12
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-605:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    WarpSBonus: 5.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    WarpSBonus: 5
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-608:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    WarpSBonus: 8.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
+    WarpSBonus: 8
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-610:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
-    WarpSBonus: 10.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    WarpSBonus: 10
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-613:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
-    WarpSBonus: 13.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    WarpSBonus: 13
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-615:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
-    WarpSBonus: 15.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    WarpSBonus: 15
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-618:
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-    WarpSBonus: 18.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    WarpSBonus: 18
   QA Agility Booster:
     AgilityBonus: -99.0
-    Implantness: 22.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    Implantness: 22
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
+    TechLevel: 1
   QA Warp Accelerator:
-    Implantness: 21.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-    WarpCapacitorNeedBonus: -99.0
-    WarpSpeedBonus: 1000.0
+    Implantness: 21
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    WarpCapacitorNeedBonus: -99
+    WarpSpeedBonus: 1000
   Shaqil's Speed Enhancer:
     ImplantBonusVelocity: 8.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 2.0
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 2
   Zor's Custom Navigation Hyper-Link:
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    SpeedFBonus: 5.0
-    TechLevel: 1.0
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    SpeedFBonus: 5
+    TechLevel: 1
   Zor's Custom Navigation Link:
-    DurationBonus: 10.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    DurationBonus: 10
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1

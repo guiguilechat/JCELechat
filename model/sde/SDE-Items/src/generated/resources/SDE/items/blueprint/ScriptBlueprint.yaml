@@ -30,13 +30,13 @@ items:
   Shield Kinetic Resistance Script Blueprint: {}
   Shield Thermal Resistance Script Blueprint: {}
   Standup Gravimetric ECM Script Blueprint:
-    StructureItemVisualFlag: 1.0
+    StructureItemVisualFlag: 1
   Standup Ladar ECM Script Blueprint:
-    StructureItemVisualFlag: 1.0
+    StructureItemVisualFlag: 1
   Standup Magnetometric ECM Script Blueprint:
-    StructureItemVisualFlag: 1.0
+    StructureItemVisualFlag: 1
   Standup Radar ECM Script Blueprint:
-    StructureItemVisualFlag: 1.0
+    StructureItemVisualFlag: 1
   Structure EM Hardener Script Blueprint: {}
   Structure Explosive Hardener Script Blueprint: {}
   Structure Kinetic Resistance Script Blueprint: {}

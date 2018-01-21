@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Implant;
@@ -19,40 +19,40 @@ public class CyberBiology
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DurationBonus;
+    @DefaultIntValue(0)
+    public int DurationBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double BoosterChanceBonus;
+    @DefaultIntValue(0)
+    public int BoosterChanceBonus;
     /**
      * Tech level of an item
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double TechLevel;
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double BoosterAttributeModifier;
+    @DefaultIntValue(0)
+    public int BoosterAttributeModifier;
     /**
      * Whether an item is an implant or not
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Implantness;
+    @DefaultIntValue(0)
+    public int Implantness;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberBiology.yaml";
     private static LinkedHashMap<String, CyberBiology> cache = (null);
 

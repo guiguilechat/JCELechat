@@ -1,172 +1,172 @@
 items:
   Large Laboratory:
-    ArmorDamageLimit: 12000.0
+    ArmorDamageLimit: 12000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 1.728E7
+    ArmorHP: 17280000
     ArmorKineticDamageResonance: 0.800000011920929
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
     CapacitorCapacity: 320000.0
-    CpuOutput: 42000.0
-    DroneBandwidth: 375.0
-    DroneCapacity: 80000.0
+    CpuOutput: 42000
+    DroneBandwidth: 375
+    DroneCapacity: 80000
     EmDamageResonance: 0.800000011920929
     ExplosiveDamageResonance: 0.800000011920929
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    FighterCapacity: 100000.0
-    FighterHeavySlots: 5.0
-    FighterLightSlots: 3.0
-    FighterSupportSlots: 5.0
-    FighterTubes: 5.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterCapacity: 100000
+    FighterHeavySlots: 5
+    FighterLightSlots: 3
+    FighterSupportSlots: 5
+    FighterTubes: 5
     HeatAttenuationHi: 0.7099999785423279
     HeatAttenuationLow: 0.25
     HeatAttenuationMed: 0.7599999904632568
-    HeatCapacityHi: 100.0
-    HeatCapacityLow: 100.0
-    HeatCapacityMed: 100.0
-    HiSlots: 5.0
-    Hp: 1.728E7
+    HeatCapacityHi: 100
+    HeatCapacityLow: 100
+    HeatCapacityMed: 100
+    HiSlots: 5
+    Hp: 17280000
     KineticDamageResonance: 0.800000011920929
-    LauncherSlotsLeft: 2.0
-    LowSlots: 2.0
-    MaxLockedTargets: 8.0
-    MaxTargetRange: 350000.0
-    MedSlots: 6.0
-    PowerOutput: 2600000.0
+    LauncherSlotsLeft: 2
+    LowSlots: 2
+    MaxLockedTargets: 8
+    MaxTargetRange: 350000
+    MedSlots: 6
+    PowerOutput: 2600000
     RechargeRate: 7200000.0
-    RigSize: 3.0
-    RigSlots: 3.0
+    RigSize: 3
+    RigSlots: 3
     ScanGravimetricStrength: 500.0
     ScanLadarStrength: 500.0
     ScanMagnetometricStrength: 500.0
     ScanRadarStrength: 500.0
-    ScanResolution: 55.0
-    ServiceSlots: 5.0
-    ShieldCapacity: 2.16E7
-    ShieldDamageLimit: 12000.0
+    ScanResolution: 55
+    ServiceSlots: 5
+    ShieldCapacity: 21600000
+    ShieldDamageLimit: 12000
     ShieldEmDamageResonance: 0.800000011920929
     ShieldExplosiveDamageResonance: 0.800000011920929
     ShieldKineticDamageResonance: 0.800000011920929
     ShieldRechargeRate: 9.99999995904E11
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 1.0
-    SignatureRadius: 100000.0
-    StructureDamageLimit: 12000.0
+    SignatureRadius: 100000
+    StructureDamageLimit: 12000
     ThermalDamageResonance: 0.800000011920929
     Uniformity: 1.0
-    UpgradeCapacity: 400.0
+    UpgradeCapacity: 400
   Medium Laboratory:
-    ArmorDamageLimit: 4000.0
+    ArmorDamageLimit: 4000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 5760000.0
+    ArmorHP: 5760000
     ArmorKineticDamageResonance: 0.800000011920929
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
     CapacitorCapacity: 160000.0
-    CpuOutput: 30000.0
-    DroneBandwidth: 125.0
-    DroneCapacity: 7500.0
+    CpuOutput: 30000
+    DroneBandwidth: 125
+    DroneCapacity: 7500
     EmDamageResonance: 0.800000011920929
     ExplosiveDamageResonance: 0.800000011920929
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    FighterCapacity: 100000.0
-    FighterHeavySlots: 5.0
-    FighterLightSlots: 2.0
-    FighterSupportSlots: 5.0
-    FighterTubes: 5.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterCapacity: 100000
+    FighterHeavySlots: 5
+    FighterLightSlots: 2
+    FighterSupportSlots: 5
+    FighterTubes: 5
     HeatAttenuationHi: 0.6299999952316284
     HeatAttenuationLow: 0.25
     HeatAttenuationMed: 0.6299999952316284
-    HeatCapacityHi: 100.0
-    HeatCapacityLow: 100.0
-    HeatCapacityMed: 100.0
-    HiSlots: 4.0
-    Hp: 5760000.0
+    HeatCapacityHi: 100
+    HeatCapacityLow: 100
+    HeatCapacityMed: 100
+    HiSlots: 4
+    Hp: 5760000
     KineticDamageResonance: 0.800000011920929
-    LauncherSlotsLeft: 2.0
-    LowSlots: 2.0
-    MaxLockedTargets: 8.0
-    MaxTargetRange: 350000.0
-    MedSlots: 4.0
-    PowerOutput: 1900000.0
+    LauncherSlotsLeft: 2
+    LowSlots: 2
+    MaxLockedTargets: 8
+    MaxTargetRange: 350000
+    MedSlots: 4
+    PowerOutput: 1900000
     RechargeRate: 3600000.0
-    RigSize: 2.0
-    RigSlots: 3.0
+    RigSize: 2
+    RigSlots: 3
     ScanGravimetricStrength: 500.0
     ScanLadarStrength: 500.0
     ScanMagnetometricStrength: 500.0
     ScanRadarStrength: 500.0
-    ScanResolution: 65.0
-    ServiceSlots: 4.0
-    ShieldCapacity: 7200000.0
-    ShieldDamageLimit: 4000.0
+    ScanResolution: 65
+    ServiceSlots: 4
+    ShieldCapacity: 7200000
+    ShieldDamageLimit: 4000
     ShieldEmDamageResonance: 0.800000011920929
     ShieldExplosiveDamageResonance: 0.800000011920929
     ShieldKineticDamageResonance: 0.800000011920929
     ShieldRechargeRate: 9.99999995904E11
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 1.0
-    SignatureRadius: 50000.0
-    StructureDamageLimit: 4000.0
+    SignatureRadius: 50000
+    StructureDamageLimit: 4000
     ThermalDamageResonance: 0.800000011920929
     Uniformity: 1.0
-    UpgradeCapacity: 400.0
+    UpgradeCapacity: 400
   X-Large Laboratory:
-    ArmorDamageLimit: 60000.0
+    ArmorDamageLimit: 60000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 8.64E7
+    ArmorHP: 86400000
     ArmorKineticDamageResonance: 0.800000011920929
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
     CapacitorCapacity: 480000.0
-    CpuOutput: 67000.0
-    DroneBandwidth: 7500.0
-    DroneCapacity: 150000.0
+    CpuOutput: 67000
+    DroneBandwidth: 7500
+    DroneCapacity: 150000
     EmDamageResonance: 0.800000011920929
     ExplosiveDamageResonance: 0.800000011920929
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    FighterCapacity: 100000.0
-    FighterHeavySlots: 5.0
-    FighterLightSlots: 4.0
-    FighterSupportSlots: 5.0
-    FighterTubes: 5.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterCapacity: 100000
+    FighterHeavySlots: 5
+    FighterLightSlots: 4
+    FighterSupportSlots: 5
+    FighterTubes: 5
     HeatAttenuationHi: 0.7599999904632568
     HeatAttenuationLow: 0.5
     HeatAttenuationMed: 0.7900000214576721
-    HeatCapacityHi: 100.0
-    HeatCapacityLow: 100.0
-    HeatCapacityMed: 100.0
-    HiSlots: 6.0
-    Hp: 8.64E7
+    HeatCapacityHi: 100
+    HeatCapacityLow: 100
+    HeatCapacityMed: 100
+    HiSlots: 6
+    Hp: 86400000
     KineticDamageResonance: 0.800000011920929
-    LauncherSlotsLeft: 3.0
-    LowSlots: 3.0
-    MaxLockedTargets: 8.0
-    MaxTargetRange: 350000.0
-    MedSlots: 7.0
-    PowerOutput: 3600000.0
+    LauncherSlotsLeft: 3
+    LowSlots: 3
+    MaxLockedTargets: 8
+    MaxTargetRange: 350000
+    MedSlots: 7
+    PowerOutput: 3600000
     RechargeRate: 1.08E7
-    RigSize: 4.0
-    RigSlots: 3.0
+    RigSize: 4
+    RigSlots: 3
     ScanGravimetricStrength: 500.0
     ScanLadarStrength: 500.0
     ScanMagnetometricStrength: 500.0
     ScanRadarStrength: 500.0
-    ScanResolution: 44.0
-    ServiceSlots: 6.0
-    ShieldCapacity: 1.35E8
-    ShieldDamageLimit: 60000.0
+    ScanResolution: 44
+    ServiceSlots: 6
+    ShieldCapacity: 135000000
+    ShieldDamageLimit: 60000
     ShieldEmDamageResonance: 0.800000011920929
     ShieldExplosiveDamageResonance: 0.800000011920929
     ShieldKineticDamageResonance: 0.800000011920929
     ShieldRechargeRate: 9.99999995904E11
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 1.0
-    SignatureRadius: 150000.0
-    StructureDamageLimit: 60000.0
+    SignatureRadius: 150000
+    StructureDamageLimit: 60000
     ThermalDamageResonance: 0.800000011920929
     Uniformity: 1.0
-    UpgradeCapacity: 400.0
+    UpgradeCapacity: 400

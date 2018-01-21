@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.PlanetaryInteraction;
@@ -19,23 +20,23 @@ public class Spaceports
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double PlanetRestriction;
+    @DefaultIntValue(0)
+    public int PlanetRestriction;
     /**
      * CPU load of ship
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CpuLoad;
+    @DefaultIntValue(0)
+    public int CpuLoad;
     /**
      * Base importation tax (ISK per m3 of volume) for commodities imported to pin.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ImportTax;
     /**
      * Base export tax (ISK per m3 of volume) on commodities exported from a planet via this pin.
@@ -43,16 +44,16 @@ public class Spaceports
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ExportTax;
+    @DefaultIntValue(0)
+    public int ExportTax;
     /**
      * Current load of power core
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double PowerLoad;
+    @DefaultIntValue(0)
+    public int PowerLoad;
     public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/Spaceports.yaml";
     private static LinkedHashMap<String, Spaceports> cache = (null);
 

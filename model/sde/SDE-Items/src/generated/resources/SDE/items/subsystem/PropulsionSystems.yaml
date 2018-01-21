@@ -1,160 +1,160 @@
 items:
   Legion Propulsion - Intercalated Nanofibers:
-    FitsToShipType: 29986.0
-    Hp: 40.0
-    LowSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30538.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 100.0
-    SubSystemSlot: 128.0
-    SubsystemBonusAmarrPropulsion: 5.0
-    SubsystemBonusAmarrPropulsion2: -5.0
-    TechLevel: 3.0
+    FitsToShipType: 29986
+    Hp: 40
+    LowSlotModifier: 2
+    MetaLevel: 1
+    RequiredSkill1: 30538
+    RequiredSkill1Level: 1
+    SignatureRadius: 100
+    SubSystemSlot: 128
+    SubsystemBonusAmarrPropulsion: 5
+    SubsystemBonusAmarrPropulsion2: -5
+    TechLevel: 3
   Legion Propulsion - Interdiction Nullifier:
     AgilityBonusAdd: 0.10000000149011612
-    FitsToShipType: 29986.0
-    Hp: 40.0
-    LowSlotModifier: 1.0
-    MaxTargetRange: -20000.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30538.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 20.0
-    SubSystemSlot: 128.0
-    SubsystemBonusAmarrPropulsion: -15.0
-    SubsystemBonusAmarrPropulsion2: 10.0
-    TechLevel: 3.0
-    WarpBubbleImmuneModifier: 1.0
+    FitsToShipType: 29986
+    Hp: 40
+    LowSlotModifier: 1
+    MaxTargetRange: -20000
+    MetaLevel: 1
+    RequiredSkill1: 30538
+    RequiredSkill1Level: 1
+    SignatureRadius: 20
+    SubSystemSlot: 128
+    SubsystemBonusAmarrPropulsion: -15
+    SubsystemBonusAmarrPropulsion2: 10
+    TechLevel: 3
+    WarpBubbleImmuneModifier: 1
   Legion Propulsion - Wake Limiter:
-    FitsToShipType: 29986.0
-    Hp: 40.0
-    LowSlotModifier: 1.0
-    MedSlotModifier: 1.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30538.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 100.0
-    SubSystemSlot: 128.0
-    SubsystemBonusAmarrPropulsion: 10.0
-    SubsystemBonusAmarrPropulsion2: -10.0
-    TechLevel: 3.0
+    FitsToShipType: 29986
+    Hp: 40
+    LowSlotModifier: 1
+    MedSlotModifier: 1
+    MetaLevel: 1
+    RequiredSkill1: 30538
+    RequiredSkill1Level: 1
+    SignatureRadius: 100
+    SubSystemSlot: 128
+    SubsystemBonusAmarrPropulsion: 10
+    SubsystemBonusAmarrPropulsion2: -10
+    TechLevel: 3
   Loki Propulsion - Intercalated Nanofibers:
-    FitsToShipType: 29990.0
-    Hp: 40.0
-    LowSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30554.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 100.0
-    SubSystemSlot: 128.0
-    SubsystemBonusMinmatarPropulsion: 5.0
-    SubsystemBonusMinmatarPropulsion2: -5.0
-    TechLevel: 3.0
+    FitsToShipType: 29990
+    Hp: 40
+    LowSlotModifier: 2
+    MetaLevel: 1
+    RequiredSkill1: 30554
+    RequiredSkill1Level: 1
+    SignatureRadius: 100
+    SubSystemSlot: 128
+    SubsystemBonusMinmatarPropulsion: 5
+    SubsystemBonusMinmatarPropulsion2: -5
+    TechLevel: 3
   Loki Propulsion - Interdiction Nullifier:
     AgilityBonusAdd: 0.10000000149011612
-    FitsToShipType: 29990.0
-    Hp: 40.0
-    LowSlotModifier: 1.0
-    MaxTargetRange: -20000.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30554.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 20.0
-    SubSystemSlot: 128.0
-    SubsystemBonusMinmatarPropulsion: -15.0
-    SubsystemBonusMinmatarPropulsion2: 10.0
-    TechLevel: 3.0
-    WarpBubbleImmuneModifier: 1.0
+    FitsToShipType: 29990
+    Hp: 40
+    LowSlotModifier: 1
+    MaxTargetRange: -20000
+    MetaLevel: 1
+    RequiredSkill1: 30554
+    RequiredSkill1Level: 1
+    SignatureRadius: 20
+    SubSystemSlot: 128
+    SubsystemBonusMinmatarPropulsion: -15
+    SubsystemBonusMinmatarPropulsion2: 10
+    TechLevel: 3
+    WarpBubbleImmuneModifier: 1
   Loki Propulsion - Wake Limiter:
-    FitsToShipType: 29990.0
-    Hp: 40.0
-    MedSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30554.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 100.0
-    SubSystemSlot: 128.0
-    SubsystemBonusMinmatarPropulsion: 10.0
-    SubsystemBonusMinmatarPropulsion2: -10.0
-    TechLevel: 3.0
+    FitsToShipType: 29990
+    Hp: 40
+    MedSlotModifier: 2
+    MetaLevel: 1
+    RequiredSkill1: 30554
+    RequiredSkill1Level: 1
+    SignatureRadius: 100
+    SubSystemSlot: 128
+    SubsystemBonusMinmatarPropulsion: 10
+    SubsystemBonusMinmatarPropulsion2: -10
+    TechLevel: 3
   Proteus Propulsion - Hyperspatial Optimization:
-    FitsToShipType: 29988.0
-    Hp: 40.0
-    LowSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30553.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 100.0
-    SubSystemSlot: 128.0
+    FitsToShipType: 29988
+    Hp: 40
+    LowSlotModifier: 2
+    MetaLevel: 1
+    RequiredSkill1: 30553
+    RequiredSkill1Level: 1
+    SignatureRadius: 100
+    SubSystemSlot: 128
     SubsystemBonusGallentePropulsion: 10.0
     SubsystemBonusGallentePropulsion2: -7.5
-    TechLevel: 3.0
+    TechLevel: 3
   Proteus Propulsion - Interdiction Nullifier:
     AgilityBonusAdd: 0.10000000149011612
-    FitsToShipType: 29988.0
-    Hp: 40.0
-    LowSlotModifier: 1.0
-    MaxTargetRange: -20000.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30553.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 20.0
-    SubSystemSlot: 128.0
+    FitsToShipType: 29988
+    Hp: 40
+    LowSlotModifier: 1
+    MaxTargetRange: -20000
+    MetaLevel: 1
+    RequiredSkill1: 30553
+    RequiredSkill1Level: 1
+    SignatureRadius: 20
+    SubSystemSlot: 128
     SubsystemBonusGallentePropulsion: -15.0
     SubsystemBonusGallentePropulsion2: 10.0
-    TechLevel: 3.0
-    WarpBubbleImmuneModifier: 1.0
+    TechLevel: 3
+    WarpBubbleImmuneModifier: 1
   Proteus Propulsion - Localized Injectors:
-    FitsToShipType: 29988.0
-    Hp: 40.0
-    LowSlotModifier: 1.0
-    MedSlotModifier: 1.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30553.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 100.0
-    SubSystemSlot: 128.0
+    FitsToShipType: 29988
+    Hp: 40
+    LowSlotModifier: 1
+    MedSlotModifier: 1
+    MetaLevel: 1
+    RequiredSkill1: 30553
+    RequiredSkill1Level: 1
+    SignatureRadius: 100
+    SubSystemSlot: 128
     SubsystemBonusGallentePropulsion: -15.0
     SubsystemBonusGallentePropulsion2: 10.0
-    TechLevel: 3.0
+    TechLevel: 3
   Tengu Propulsion - Chassis Optimization:
-    FitsToShipType: 29984.0
-    Hp: 40.0
-    LowSlotModifier: 1.0
-    MedSlotModifier: 1.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30552.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 100.0
-    SubSystemSlot: 128.0
+    FitsToShipType: 29984
+    Hp: 40
+    LowSlotModifier: 1
+    MedSlotModifier: 1
+    MetaLevel: 1
+    RequiredSkill1: 30552
+    RequiredSkill1Level: 1
+    SignatureRadius: 100
+    SubSystemSlot: 128
     SubsystemBonusCaldariPropulsion: 3.0
     SubsystemBonusCaldariPropulsion2: -7.5
-    TechLevel: 3.0
+    TechLevel: 3
   Tengu Propulsion - Fuel Catalyst:
-    FitsToShipType: 29984.0
-    Hp: 40.0
-    MedSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30552.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 100.0
-    SubSystemSlot: 128.0
+    FitsToShipType: 29984
+    Hp: 40
+    MedSlotModifier: 2
+    MetaLevel: 1
+    RequiredSkill1: 30552
+    RequiredSkill1Level: 1
+    SignatureRadius: 100
+    SubSystemSlot: 128
     SubsystemBonusCaldariPropulsion: 10.0
     SubsystemBonusCaldariPropulsion2: 10.0
-    TechLevel: 3.0
+    TechLevel: 3
   Tengu Propulsion - Interdiction Nullifier:
     AgilityBonusAdd: 0.10000000149011612
-    FitsToShipType: 29984.0
-    Hp: 40.0
-    LowSlotModifier: 1.0
-    MaxTargetRange: -20000.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30552.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 20.0
-    SubSystemSlot: 128.0
+    FitsToShipType: 29984
+    Hp: 40
+    LowSlotModifier: 1
+    MaxTargetRange: -20000
+    MetaLevel: 1
+    RequiredSkill1: 30552
+    RequiredSkill1Level: 1
+    SignatureRadius: 20
+    SubSystemSlot: 128
     SubsystemBonusCaldariPropulsion: -15.0
     SubsystemBonusCaldariPropulsion2: 10.0
-    TechLevel: 3.0
-    WarpBubbleImmuneModifier: 1.0
+    TechLevel: 3
+    WarpBubbleImmuneModifier: 1

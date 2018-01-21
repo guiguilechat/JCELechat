@@ -1,110 +1,109 @@
 items:
   Acceleration Control:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3449.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 167.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3449
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 167
     SkillTimeConstant: 4.0
-    SpeedFBonus: 5.0
+    SpeedFBonus: 5
   Afterburner:
-    CapNeedBonus: -10.0
-    DurationBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3449.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 167.0
+    CapNeedBonus: -10
+    DurationBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3449
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 167
     SkillTimeConstant: 1.0
   Cynosural Field Theory:
-    CanNotBeTrainedOnTrial: 1.0
-    ConsumptionQuantityBonusPercentage: -10.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 166.0
+    CanNotBeTrainedOnTrial: 1
+    ConsumptionQuantityBonusPercentage: -10
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 5.0
   Evasive Maneuvering:
     AgilityBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3449.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 167.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3449
+    RequiredSkill1Level: 2
+    SecondaryAttribute: 167
     SkillTimeConstant: 2.0
   Fuel Conservation:
-    CapNeedBonus: -10.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3449.0
-    RequiredSkill1Level: 2.0
-    RequiredSkill2: 3450.0
-    RequiredSkill2Level: 2.0
-    SecondaryAttribute: 167.0
+    CapNeedBonus: -10
+    PrimaryAttribute: 165
+    RequiredSkill1: 3449
+    RequiredSkill1Level: 2
+    RequiredSkill2: 3450
+    RequiredSkill2Level: 2
+    SecondaryAttribute: 167
     SkillTimeConstant: 2.0
   High Speed Maneuvering:
     CapacitorNeedMultiplier: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3449.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3450.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 167.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3449
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3450
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Jump Drive Calibration:
-    CanNotBeTrainedOnTrial: 1.0
-    JumpDriveRangeBonus: 20.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3456.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 167.0
+    CanNotBeTrainedOnTrial: 1
+    JumpDriveRangeBonus: 20
+    PrimaryAttribute: 165
+    RequiredSkill1: 3456
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
     SkillTimeConstant: 9.0
   Jump Drive Operation:
-    CanNotBeTrainedOnTrial: 1.0
-    JumpDriveCapacitorNeedBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3449.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3455.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3402.0
-    RequiredSkill3Level: 5.0
-    SecondaryAttribute: 167.0
+    CanNotBeTrainedOnTrial: 1
+    JumpDriveCapacitorNeedBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3449
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3455
+    RequiredSkill2Level: 5
+    RequiredSkill3: 3402
+    RequiredSkill3Level: 5
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Jump Fuel Conservation:
-    CanNotBeTrainedOnTrial: 1.0
-    ConsumptionQuantityBonusPercentage: -10.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3456.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 167.0
+    CanNotBeTrainedOnTrial: 1
+    ConsumptionQuantityBonusPercentage: -10
+    PrimaryAttribute: 165
+    RequiredSkill1: 3456
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 167
     SkillTimeConstant: 8.0
   Jump Portal Generation:
-    CanNotBeTrainedOnTrial: 1.0
-    ConsumptionQuantityBonusPercent: -10.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3402.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3412.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3456.0
-    RequiredSkill3Level: 5.0
-    SecondaryAttribute: 166.0
+    CanNotBeTrainedOnTrial: 1
+    ConsumptionQuantityBonusPercent: -10
+    PrimaryAttribute: 165
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3412
+    RequiredSkill2Level: 5
+    RequiredSkill3: 3456
+    RequiredSkill3Level: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 14.0
   Micro Jump Drive Operation:
-    DurationBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3449.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3455.0
-    RequiredSkill2Level: 2.0
-    SecondaryAttribute: 167.0
+    DurationBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3449
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3455
+    RequiredSkill2Level: 2
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Navigation:
-    PrimaryAttribute: 165.0
-    SecondaryAttribute: 167.0
+    PrimaryAttribute: 165
+    SecondaryAttribute: 167
     SkillTimeConstant: 1.0
-    VelocityBonus: 5.0
   Warp Drive Operation:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3449.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 167.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3449
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 167
     SkillTimeConstant: 1.0
-    WarpCapacitorNeedBonus: -10.0
+    WarpCapacitorNeedBonus: -10

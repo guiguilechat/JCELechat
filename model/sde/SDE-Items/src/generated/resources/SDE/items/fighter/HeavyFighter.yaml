@@ -1,1170 +1,1153 @@
 items:
   Ametat I:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageEM: 253.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDuration: 8000.0
-    FighterAbilityAttackMissileExplosionRadius: 330.0
-    FighterAbilityAttackMissileExplosionVelocity: 110.0
-    FighterAbilityAttackMissileRangeFalloff: 8000.0
-    FighterAbilityAttackMissileRangeOptimal: 34000.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageEM: 253
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 8000
+    FighterAbilityAttackMissileRangeOptimal: 34000
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityLaunchBombDuration: 60000.0
-    FighterAbilityLaunchBombType: 41549.0
-    FighterAbilityMicroJumpDriveDistance: 100000.0
-    FighterAbilityMicroJumpDriveDuration: 10000.0
-    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 31500.0
-    FighterSquadronRole: 5.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 90000.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41549
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 10000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 31500
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 90000
     MaxVelocity: 555.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanRadarStrength: 7.0
-    ScanResolution: 430.0
-    ShieldCapacity: 3420.0
+    ScanResolution: 430
+    ShieldCapacity: 3420
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Ametat II:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageEM: 279.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDuration: 8000.0
-    FighterAbilityAttackMissileExplosionRadius: 330.0
-    FighterAbilityAttackMissileExplosionVelocity: 110.0
-    FighterAbilityAttackMissileRangeFalloff: 8000.0
-    FighterAbilityAttackMissileRangeOptimal: 40800.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageEM: 279
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 8000
+    FighterAbilityAttackMissileRangeOptimal: 40800
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityLaunchBombDuration: 60000.0
-    FighterAbilityLaunchBombType: 41549.0
-    FighterAbilityMicroJumpDriveDistance: 100000.0
-    FighterAbilityMicroJumpDriveDuration: 8000.0
-    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 36600.0
-    FighterSquadronRole: 5.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 100000.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41549
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 8000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 36600
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 100000
     MaxVelocity: 578.0
-    MetaLevel: 5.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 4
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 5
     ScanRadarStrength: 8.0
-    ScanResolution: 450.0
-    ShieldCapacity: 3780.0
+    ScanResolution: 450
+    ShieldCapacity: 3780
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.699999988079071
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     WarpSpeedMultiplier: 1.5
   Antaeus I:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDamageTherm: 293.0
-    FighterAbilityAttackMissileDuration: 8000.0
-    FighterAbilityAttackMissileExplosionRadius: 330.0
-    FighterAbilityAttackMissileExplosionVelocity: 110.0
-    FighterAbilityAttackMissileRangeFalloff: 12000.0
-    FighterAbilityAttackMissileRangeOptimal: 30000.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDamageTherm: 293
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 12000
+    FighterAbilityAttackMissileRangeOptimal: 30000
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityLaunchBombDuration: 60000.0
-    FighterAbilityLaunchBombType: 41550.0
-    FighterAbilityMicroJumpDriveDistance: 100000.0
-    FighterAbilityMicroJumpDriveDuration: 10000.0
-    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 31500.0
-    FighterSquadronRole: 5.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 90000.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41550
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 10000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 31500
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 90000
     MaxVelocity: 476.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanMagnetometricStrength: 7.0
-    ScanResolution: 430.0
-    ShieldCapacity: 3420.0
+    ScanResolution: 430
+    ShieldCapacity: 3420
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Antaeus II:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDamageTherm: 323.0
-    FighterAbilityAttackMissileDuration: 8000.0
-    FighterAbilityAttackMissileExplosionRadius: 330.0
-    FighterAbilityAttackMissileExplosionVelocity: 110.0
-    FighterAbilityAttackMissileRangeFalloff: 12000.0
-    FighterAbilityAttackMissileRangeOptimal: 36000.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDamageTherm: 323
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 12000
+    FighterAbilityAttackMissileRangeOptimal: 36000
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityLaunchBombDuration: 60000.0
-    FighterAbilityLaunchBombType: 41550.0
-    FighterAbilityMicroJumpDriveDistance: 100000.0
-    FighterAbilityMicroJumpDriveDuration: 8000.0
-    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 36000.0
-    FighterSquadronRole: 5.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 100000.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41550
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 8000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 36000
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 100000
     MaxVelocity: 495.0
-    MetaLevel: 5.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 4
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 5
     ScanMagnetometricStrength: 8.0
-    ScanResolution: 450.0
-    ShieldCapacity: 3780.0
+    ScanResolution: 450
+    ShieldCapacity: 3780
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.699999988079071
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     WarpSpeedMultiplier: 1.5
   Cyclops I:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDamageTherm: 366.0
-    FighterAbilityAttackMissileDuration: 5000.0
-    FighterAbilityAttackMissileExplosionRadius: 3000.0
-    FighterAbilityAttackMissileExplosionVelocity: 40.0
-    FighterAbilityAttackMissileRangeFalloff: 5000.0
-    FighterAbilityAttackMissileRangeOptimal: 4000.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDamageTherm: 366
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 5000
+    FighterAbilityAttackMissileRangeOptimal: 4000
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterAbilityMissilesDamageMultiplier: 1.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageMultiplier: 1
     FighterAbilityMissilesDamageReductionFactor: 5.5
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
-    FighterAbilityMissilesDamageTherm: 2926.0
-    FighterAbilityMissilesDuration: 40000.0
-    FighterAbilityMissilesExplosionRadius: 5000.0
-    FighterAbilityMissilesExplosionVelocity: 50.0
-    FighterAbilityMissilesRange: 10000.0
-    FighterAbilityMissilesResistanceID: 2244.0
-    FighterRefuelingTime: 10000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 4500.0
-    FighterSquadronRole: 4.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 45000.0
+    FighterAbilityMissilesDamageTherm: 2926
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 10000
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 4500
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
     MaxVelocity: 494.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanMagnetometricStrength: 7.0
-    ScanResolution: 500.0
-    ShieldCapacity: 3650.0
+    ScanResolution: 500
+    ShieldCapacity: 3650
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110.0
+    SignatureRadius: 110
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Cyclops II:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDamageTherm: 404.0
-    FighterAbilityAttackMissileDuration: 5000.0
-    FighterAbilityAttackMissileExplosionRadius: 3000.0
-    FighterAbilityAttackMissileExplosionVelocity: 40.0
-    FighterAbilityAttackMissileRangeFalloff: 5000.0
-    FighterAbilityAttackMissileRangeOptimal: 4800.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDamageTherm: 404
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 5000
+    FighterAbilityAttackMissileRangeOptimal: 4800
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterAbilityMissilesDamageMultiplier: 1.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageMultiplier: 1
     FighterAbilityMissilesDamageReductionFactor: 5.5
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
-    FighterAbilityMissilesDamageTherm: 3234.0
-    FighterAbilityMissilesDuration: 40000.0
-    FighterAbilityMissilesExplosionRadius: 5000.0
-    FighterAbilityMissilesExplosionVelocity: 50.0
-    FighterAbilityMissilesRange: 12000.0
-    FighterAbilityMissilesResistanceID: 2244.0
-    FighterRefuelingTime: 10000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 4900.0
-    FighterSquadronRole: 4.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 54000.0
+    FighterAbilityMissilesDamageTherm: 3234
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 12000
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 4900
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
     MaxVelocity: 514.0
-    MetaLevel: 5.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 4
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 5
     ScanMagnetometricStrength: 8.0
-    ScanResolution: 520.0
-    ShieldCapacity: 4030.0
+    ScanResolution: 520
+    ShieldCapacity: 4030
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.699999988079071
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 110.0
+    SignatureRadius: 110
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     WarpSpeedMultiplier: 1.5
   Dog_PLACEHOLDER:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Easy_PLACEHOLDER:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Gungnir I:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageExp: 239.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDuration: 8000.0
-    FighterAbilityAttackMissileExplosionRadius: 330.0
-    FighterAbilityAttackMissileExplosionVelocity: 110.0
-    FighterAbilityAttackMissileRangeFalloff: 16000.0
-    FighterAbilityAttackMissileRangeOptimal: 26000.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageExp: 239
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 16000
+    FighterAbilityAttackMissileRangeOptimal: 26000
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityLaunchBombDuration: 60000.0
-    FighterAbilityLaunchBombType: 41551.0
-    FighterAbilityMicroJumpDriveDistance: 100000.0
-    FighterAbilityMicroJumpDriveDuration: 10000.0
-    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 31500.0
-    FighterSquadronRole: 5.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 90000.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41551
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 10000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 31500
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 90000
     MaxVelocity: 582.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanLadarStrength: 7.0
-    ScanResolution: 430.0
-    ShieldCapacity: 3420.0
+    ScanResolution: 430
+    ShieldCapacity: 3420
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Gungnir II:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageExp: 265.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDuration: 8000.0
-    FighterAbilityAttackMissileExplosionRadius: 330.0
-    FighterAbilityAttackMissileExplosionVelocity: 110.0
-    FighterAbilityAttackMissileRangeFalloff: 16000.0
-    FighterAbilityAttackMissileRangeOptimal: 31200.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageExp: 265
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 16000
+    FighterAbilityAttackMissileRangeOptimal: 31200
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityLaunchBombDuration: 60000.0
-    FighterAbilityLaunchBombType: 41551.0
-    FighterAbilityMicroJumpDriveDistance: 100000.0
-    FighterAbilityMicroJumpDriveDuration: 8000.0
-    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 35400.0
-    FighterSquadronRole: 5.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 100000.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41551
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 8000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 35400
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 100000
     MaxVelocity: 605.0
-    MetaLevel: 5.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 4
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 5
     ScanLadarStrength: 8.0
-    ScanResolution: 450.0
-    ShieldCapacity: 3780.0
+    ScanResolution: 450
+    ShieldCapacity: 3780
     ShieldEmDamageResonance: 0.699999988079071
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     WarpSpeedMultiplier: 1.5
   Malleus I:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageEM: 316.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDuration: 5000.0
-    FighterAbilityAttackMissileExplosionRadius: 3000.0
-    FighterAbilityAttackMissileExplosionVelocity: 40.0
-    FighterAbilityAttackMissileRangeFalloff: 5000.0
-    FighterAbilityAttackMissileRangeOptimal: 8000.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageEM: 316
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 5000
+    FighterAbilityAttackMissileRangeOptimal: 8000
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterAbilityMissilesDamageEM: 2527.0
-    FighterAbilityMissilesDamageMultiplier: 1.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageEM: 2527
+    FighterAbilityMissilesDamageMultiplier: 1
     FighterAbilityMissilesDamageReductionFactor: 5.5
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
-    FighterAbilityMissilesDuration: 40000.0
-    FighterAbilityMissilesExplosionRadius: 5000.0
-    FighterAbilityMissilesExplosionVelocity: 50.0
-    FighterAbilityMissilesRange: 10000.0
-    FighterAbilityMissilesResistanceID: 2244.0
-    FighterRefuelingTime: 10000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 6500.0
-    FighterSquadronRole: 4.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 45000.0
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 10000
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 6500
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
     MaxVelocity: 576.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanRadarStrength: 7.0
-    ScanResolution: 500.0
-    ShieldCapacity: 3650.0
+    ScanResolution: 500
+    ShieldCapacity: 3650
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110.0
+    SignatureRadius: 110
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Malleus II:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageEM: 349.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDuration: 5000.0
-    FighterAbilityAttackMissileExplosionRadius: 3000.0
-    FighterAbilityAttackMissileExplosionVelocity: 40.0
-    FighterAbilityAttackMissileRangeFalloff: 5000.0
-    FighterAbilityAttackMissileRangeOptimal: 9600.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageEM: 349
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 5000
+    FighterAbilityAttackMissileRangeOptimal: 9600
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterAbilityMissilesDamageEM: 2793.0
-    FighterAbilityMissilesDamageMultiplier: 1.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageEM: 2793
+    FighterAbilityMissilesDamageMultiplier: 1
     FighterAbilityMissilesDamageReductionFactor: 5.5
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
-    FighterAbilityMissilesDuration: 40000.0
-    FighterAbilityMissilesExplosionRadius: 5000.0
-    FighterAbilityMissilesExplosionVelocity: 50.0
-    FighterAbilityMissilesRange: 12000.0
-    FighterAbilityMissilesResistanceID: 2244.0
-    FighterRefuelingTime: 10000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 7300.0
-    FighterSquadronRole: 4.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 54000.0
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 12000
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 7300
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
     MaxVelocity: 600.0
-    MetaLevel: 5.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 4
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 5
     ScanRadarStrength: 8.0
-    ScanResolution: 520.0
-    ShieldCapacity: 4030.0
+    ScanResolution: 520
+    ShieldCapacity: 4030
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.699999988079071
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110.0
+    SignatureRadius: 110
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     WarpSpeedMultiplier: 1.5
   Mantis I:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageKin: 349.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDuration: 5000.0
-    FighterAbilityAttackMissileExplosionRadius: 3000.0
-    FighterAbilityAttackMissileExplosionVelocity: 40.0
-    FighterAbilityAttackMissileRangeFalloff: 5000.0
-    FighterAbilityAttackMissileRangeOptimal: 4000.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageKin: 349
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 5000
+    FighterAbilityAttackMissileRangeOptimal: 4000
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterAbilityMissilesDamageKin: 2793.0
-    FighterAbilityMissilesDamageMultiplier: 1.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageKin: 2793
+    FighterAbilityMissilesDamageMultiplier: 1
     FighterAbilityMissilesDamageReductionFactor: 5.5
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
-    FighterAbilityMissilesDuration: 40000.0
-    FighterAbilityMissilesExplosionRadius: 5000.0
-    FighterAbilityMissilesExplosionVelocity: 50.0
-    FighterAbilityMissilesRange: 10000.0
-    FighterAbilityMissilesResistanceID: 2244.0
-    FighterRefuelingTime: 10000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 4500.0
-    FighterSquadronRole: 4.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 45000.0
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 10000
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 4500
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
     MaxVelocity: 521.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanGravimetricStrength: 7.0
-    ScanResolution: 500.0
-    ShieldCapacity: 3650.0
+    ScanResolution: 500
+    ShieldCapacity: 3650
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110.0
+    SignatureRadius: 110
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Mantis II:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageKin: 386.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDuration: 5000.0
-    FighterAbilityAttackMissileExplosionRadius: 3000.0
-    FighterAbilityAttackMissileExplosionVelocity: 40.0
-    FighterAbilityAttackMissileRangeFalloff: 5000.0
-    FighterAbilityAttackMissileRangeOptimal: 4800.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageKin: 386
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 5000
+    FighterAbilityAttackMissileRangeOptimal: 4800
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterAbilityMissilesDamageKin: 3087.0
-    FighterAbilityMissilesDamageMultiplier: 1.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageKin: 3087
+    FighterAbilityMissilesDamageMultiplier: 1
     FighterAbilityMissilesDamageReductionFactor: 5.5
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
-    FighterAbilityMissilesDuration: 40000.0
-    FighterAbilityMissilesExplosionRadius: 5000.0
-    FighterAbilityMissilesExplosionVelocity: 50.0
-    FighterAbilityMissilesRange: 12000.0
-    FighterAbilityMissilesResistanceID: 2244.0
-    FighterRefuelingTime: 10000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 4900.0
-    FighterSquadronRole: 4.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 54000.0
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 12000
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 4900
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
     MaxVelocity: 543.0
-    MetaLevel: 5.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 4
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 5
     ScanGravimetricStrength: 8.0
-    ScanResolution: 520.0
-    ShieldCapacity: 4030.0
+    ScanResolution: 520
+    ShieldCapacity: 4030
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.699999988079071
     ShieldUniformity: 1.0
-    SignatureRadius: 110.0
+    SignatureRadius: 110
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     WarpSpeedMultiplier: 1.5
   Shadow:
     Agility: 500.0
-    FighterAbilityAfterburnerDuration: 20000.0
-    FighterAbilityAfterburnerSpeedBonus: 400.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageEM: 200.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDamageTherm: 200.0
-    FighterAbilityAttackMissileDuration: 3500.0
-    FighterAbilityAttackMissileExplosionRadius: 2000.0
-    FighterAbilityAttackMissileExplosionVelocity: 60.0
-    FighterAbilityAttackMissileRangeFalloff: 5000.0
-    FighterAbilityAttackMissileRangeOptimal: 9600.0
+    FighterAbilityAfterburnerDuration: 20000
+    FighterAbilityAfterburnerSpeedBonus: 400
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageEM: 200
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDamageTherm: 200
+    FighterAbilityAttackMissileDuration: 3500
+    FighterAbilityAttackMissileExplosionRadius: 2000
+    FighterAbilityAttackMissileExplosionVelocity: 60
+    FighterAbilityAttackMissileRangeFalloff: 5000
+    FighterAbilityAttackMissileRangeOptimal: 9600
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeDamageEM: 50000.0
-    FighterAbilityKamikazeDamageExp: 50000.0
-    FighterAbilityKamikazeDamageKin: 50000.0
-    FighterAbilityKamikazeDamageTherm: 50000.0
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityKamikazeResistanceID: 2433.0
-    FighterAbilityKamikazeSignatureRadius: 5000.0
-    FighterRefuelingTime: 6000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 7300.0
-    FighterSquadronRole: 4.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 60000.0
+    FighterAbilityKamikazeDamageEM: 50000
+    FighterAbilityKamikazeDamageExp: 50000
+    FighterAbilityKamikazeDamageKin: 50000
+    FighterAbilityKamikazeDamageTherm: 50000
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityKamikazeResistanceID: 2433
+    FighterAbilityKamikazeSignatureRadius: 5000
+    FighterRefuelingTime: 6000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 7300
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 60000
     MaxVelocity: 543.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanRadarStrength: 8.0
-    ScanResolution: 520.0
-    ShieldCapacity: 5500.0
+    ScanResolution: 520
+    ShieldCapacity: 5500
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Standup Ametat I:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Standup Ametat II:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Standup Antaeus I:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Standup Antaeus II:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Standup Cyclops I:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Standup Cyclops II:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Standup Gungnir I:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageExp: 239.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDuration: 8000.0
-    FighterAbilityAttackMissileExplosionRadius: 330.0
-    FighterAbilityAttackMissileExplosionVelocity: 110.0
-    FighterAbilityAttackMissileRangeFalloff: 16000.0
-    FighterAbilityAttackMissileRangeOptimal: 26000.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageExp: 239
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 16000
+    FighterAbilityAttackMissileRangeOptimal: 26000
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityLaunchBombDuration: 60000.0
-    FighterAbilityLaunchBombType: 41551.0
-    FighterAbilityMicroJumpDriveDistance: 100000.0
-    FighterAbilityMicroJumpDriveDuration: 10000.0
-    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsStandupHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 31500.0
-    FighterSquadronRole: 5.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 90000.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41551
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 10000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 31500
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 90000
     MaxVelocity: 582.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanLadarStrength: 7.0
-    ScanResolution: 430.0
-    ShieldCapacity: 3420.0
+    ScanResolution: 430
+    ShieldCapacity: 3420
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Standup Gungnir II:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Standup Malleus I:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Standup Malleus II:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Standup Mantis I:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageKin: 349.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDuration: 5000.0
-    FighterAbilityAttackMissileExplosionRadius: 3000.0
-    FighterAbilityAttackMissileExplosionVelocity: 40.0
-    FighterAbilityAttackMissileRangeFalloff: 5000.0
-    FighterAbilityAttackMissileRangeOptimal: 4000.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageKin: 349
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 5000
+    FighterAbilityAttackMissileRangeOptimal: 4000
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterAbilityMissilesDamageKin: 2793.0
-    FighterAbilityMissilesDamageMultiplier: 1.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageKin: 2793
+    FighterAbilityMissilesDamageMultiplier: 1
     FighterAbilityMissilesDamageReductionFactor: 5.5
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
-    FighterAbilityMissilesDuration: 40000.0
-    FighterAbilityMissilesExplosionRadius: 5000.0
-    FighterAbilityMissilesExplosionVelocity: 50.0
-    FighterAbilityMissilesRange: 10000.0
-    FighterAbilityMissilesResistanceID: 2244.0
-    FighterRefuelingTime: 10000.0
-    FighterSquadronIsStandupHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 4500.0
-    FighterSquadronRole: 4.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 45000.0
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 10000
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 4500
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
     MaxVelocity: 521.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanGravimetricStrength: 7.0
-    ScanResolution: 500.0
-    ShieldCapacity: 3650.0
+    ScanResolution: 500
+    ShieldCapacity: 3650
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110.0
+    SignatureRadius: 110
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Standup Mantis II:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Standup Shadow:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Standup Termite I:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Standup Termite II:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Standup Tyrfing I:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Standup Tyrfing II:
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 0.2
-    FighterAbilityKamikazeRange: 500.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityKamikazeRange: 500
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 3.0
   Termite I:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageKin: 279.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDuration: 8000.0
-    FighterAbilityAttackMissileExplosionRadius: 330.0
-    FighterAbilityAttackMissileExplosionVelocity: 110.0
-    FighterAbilityAttackMissileRangeFalloff: 12000.0
-    FighterAbilityAttackMissileRangeOptimal: 30000.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageKin: 279
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 12000
+    FighterAbilityAttackMissileRangeOptimal: 30000
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityLaunchBombDuration: 60000.0
-    FighterAbilityLaunchBombType: 41548.0
-    FighterAbilityMicroJumpDriveDistance: 100000.0
-    FighterAbilityMicroJumpDriveDuration: 10000.0
-    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 31500.0
-    FighterSquadronRole: 5.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 90000.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41548
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 10000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 31500
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 90000
     MaxVelocity: 502.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanGravimetricStrength: 7.0
-    ScanResolution: 430.0
-    ShieldCapacity: 3420.0
+    ScanResolution: 430
+    ShieldCapacity: 3420
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Termite II:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageKin: 309.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDuration: 8000.0
-    FighterAbilityAttackMissileExplosionRadius: 330.0
-    FighterAbilityAttackMissileExplosionVelocity: 110.0
-    FighterAbilityAttackMissileRangeFalloff: 12000.0
-    FighterAbilityAttackMissileRangeOptimal: 36000.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageKin: 309
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 12000
+    FighterAbilityAttackMissileRangeOptimal: 36000
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityLaunchBombDuration: 60000.0
-    FighterAbilityLaunchBombType: 41548.0
-    FighterAbilityMicroJumpDriveDistance: 100000.0
-    FighterAbilityMicroJumpDriveDuration: 8000.0
-    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150.0
-    FighterRefuelingTime: 2000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 36000.0
-    FighterSquadronRole: 5.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 100000.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41548
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 8000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 36000
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 100000
     MaxVelocity: 523.0
-    MetaLevel: 5.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 4
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 5
     ScanGravimetricStrength: 8.0
-    ScanResolution: 450.0
-    ShieldCapacity: 3780.0
+    ScanResolution: 450
+    ShieldCapacity: 3780
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 0.8500000238418579
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.699999988079071
     ShieldUniformity: 1.0
-    SignatureRadius: 120.0
+    SignatureRadius: 120
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     WarpSpeedMultiplier: 1.5
   Tyrfing I:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageExp: 299.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDuration: 5000.0
-    FighterAbilityAttackMissileExplosionRadius: 3000.0
-    FighterAbilityAttackMissileExplosionVelocity: 40.0
-    FighterAbilityAttackMissileRangeFalloff: 10000.0
-    FighterAbilityAttackMissileRangeOptimal: 4000.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageExp: 299
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 10000
+    FighterAbilityAttackMissileRangeOptimal: 4000
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterAbilityMissilesDamageExp: 2394.0
-    FighterAbilityMissilesDamageMultiplier: 1.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageExp: 2394
+    FighterAbilityMissilesDamageMultiplier: 1
     FighterAbilityMissilesDamageReductionFactor: 5.5
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
-    FighterAbilityMissilesDuration: 40000.0
-    FighterAbilityMissilesExplosionRadius: 5000.0
-    FighterAbilityMissilesExplosionVelocity: 50.0
-    FighterAbilityMissilesRange: 10000.0
-    FighterAbilityMissilesResistanceID: 2244.0
-    FighterRefuelingTime: 10000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 7000.0
-    FighterSquadronRole: 4.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 45000.0
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 10000
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 7000
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
     MaxVelocity: 604.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 1
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 1
     ScanLadarStrength: 7.0
-    ScanResolution: 500.0
-    ShieldCapacity: 3650.0
+    ScanResolution: 500
+    ShieldCapacity: 3650
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
-    SignatureRadius: 110.0
+    SignatureRadius: 110
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 1.5
   Tyrfing II:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100.0
-    FighterAbilityAntiFighterMissileResistance: 1.0
-    FighterAbilityAttackMissileDamageExp: 331.0
-    FighterAbilityAttackMissileDamageMultiplier: 1.0
-    FighterAbilityAttackMissileDuration: 5000.0
-    FighterAbilityAttackMissileExplosionRadius: 3000.0
-    FighterAbilityAttackMissileExplosionVelocity: 40.0
-    FighterAbilityAttackMissileRangeFalloff: 10000.0
-    FighterAbilityAttackMissileRangeOptimal: 4800.0
+    FighterAbilityAfterburnerSpeedBonus: 100
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageExp: 331
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 10000
+    FighterAbilityAttackMissileRangeOptimal: 4800
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500.0
-    FighterAbilityMicroWarpDriveDuration: 20000.0
-    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500.0
-    FighterAbilityMicroWarpDriveSpeedBonus: 500.0
-    FighterAbilityMissilesDamageExp: 2646.0
-    FighterAbilityMissilesDamageMultiplier: 1.0
+    FighterAbilityKamikazeRange: 500
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageExp: 2646
+    FighterAbilityMissilesDamageMultiplier: 1
     FighterAbilityMissilesDamageReductionFactor: 5.5
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
-    FighterAbilityMissilesDuration: 40000.0
-    FighterAbilityMissilesExplosionRadius: 5000.0
-    FighterAbilityMissilesExplosionVelocity: 50.0
-    FighterAbilityMissilesRange: 12000.0
-    FighterAbilityMissilesResistanceID: 2244.0
-    FighterRefuelingTime: 10000.0
-    FighterSquadronIsHeavy: 1.0
-    FighterSquadronMaxSize: 6.0
-    FighterSquadronOrbitRange: 7400.0
-    FighterSquadronRole: 4.0
-    Hp: 100.0
-    MaxLockedTargets: 6.0
-    MaxTargetRange: 54000.0
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 12000
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 7400
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
     MaxVelocity: 628.0
-    MetaLevel: 5.0
-    RequiredSkill1: 32339.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 23069.0
-    RequiredSkill2Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 32339
+    RequiredSkill1Level: 4
+    RequiredSkill2: 23069
+    RequiredSkill2Level: 5
     ScanLadarStrength: 8.0
-    ScanResolution: 520.0
-    ShieldCapacity: 4030.0
+    ScanResolution: 520
+    ShieldCapacity: 4030
     ShieldEmDamageResonance: 0.699999988079071
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 0.8500000238418579
     ShieldUniformity: 1.0
-    SignatureRadius: 110.0
+    SignatureRadius: 110
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     WarpSpeedMultiplier: 1.5

@@ -1,463 +1,445 @@
 items:
   Banshee Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamage: 225.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 360.0
+    Hp: 360
     KineticDamage: 225.0
     KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 508.0
+    LauncherGroup: 508
     MaxVelocity: 1500.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
   Caldari Navy Inferno Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360.0
+    Hp: 360
     KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    MetaGroupID: 4.0
-    MetaLevel: 2.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    MetaGroupID: 4
+    MetaLevel: 2
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamage: 517.0
     ThermalDamageResonance: 0.800000011920929
   Caldari Navy Mjolnir Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 517.0
     EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360.0
+    Hp: 360
     KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    MetaGroupID: 4.0
-    MetaLevel: 2.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    MetaGroupID: 4
+    MetaLevel: 2
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
   Caldari Navy Nova Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamage: 517.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 360.0
+    Hp: 360
     KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    MetaGroupID: 4.0
-    MetaLevel: 2.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    MetaGroupID: 4
+    MetaLevel: 2
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
   Caldari Navy Scourge Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360.0
+    Hp: 360
     KineticDamage: 517.0
     KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    MetaGroupID: 4.0
-    MetaLevel: 2.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    MetaGroupID: 4
+    MetaLevel: 2
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
   Dread Guristas Inferno Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360.0
+    Hp: 360
     KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    MetaGroupID: 4.0
-    MetaLevel: 3.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    MetaGroupID: 4
+    MetaLevel: 3
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamage: 540.0
     ThermalDamageResonance: 0.800000011920929
   Dread Guristas Mjolnir Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 540.0
     EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360.0
+    Hp: 360
     KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    MetaGroupID: 4.0
-    MetaLevel: 3.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    MetaGroupID: 4
+    MetaLevel: 3
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
   Dread Guristas Nova Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamage: 540.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 360.0
+    Hp: 360
     KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    MetaGroupID: 4.0
-    MetaLevel: 3.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    MetaGroupID: 4
+    MetaLevel: 3
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
   Dread Guristas Scourge Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360.0
+    Hp: 360
     KineticDamage: 540.0
     KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    MetaGroupID: 4.0
-    MetaLevel: 3.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    MetaGroupID: 4
+    MetaLevel: 3
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
   Guristas Inferno Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 480.0
+    Hp: 480
     KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    MetaGroupID: 4.0
-    MetaLevel: 1.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    MetaGroupID: 4
+    MetaLevel: 1
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamage: 495.0
     ThermalDamageResonance: 0.800000011920929
   Guristas Mjolnir Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 495.0
     EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 480.0
+    Hp: 480
     KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    MetaGroupID: 4.0
-    MetaLevel: 1.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    MetaGroupID: 4
+    MetaLevel: 1
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
   Guristas Nova Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamage: 495.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 480.0
+    Hp: 480
     KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    MetaGroupID: 4.0
-    MetaLevel: 1.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    MetaGroupID: 4
+    MetaLevel: 1
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
   Guristas Scourge Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 480.0
+    Hp: 480
     KineticDamage: 495.0
     KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    MetaGroupID: 4.0
-    MetaLevel: 1.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    MetaGroupID: 4
+    MetaLevel: 1
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
   Inferno Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360.0
+    Hp: 360
     KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamage: 450.0
     ThermalDamageResonance: 0.800000011920929
   Mjolnir Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 450.0
     EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360.0
+    Hp: 360
     KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
   Nova Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamage: 450.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 360.0
+    Hp: 360
     KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
   Sansha Mjolnir Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 495.0
     EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360.0
+    Hp: 360
     KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
   Scourge Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360.0
+    Hp: 360
     KineticDamage: 450.0
     KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
   True Sansha Mjolnir Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AimedLaunch: 1
+    AoeCloudSize: 450
     AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 71.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 540.0
     EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 6000.0
+    ExplosionDelay: 6000
     ExplosiveDamageResonance: 1.0
-    Hp: 360.0
+    Hp: 360
     KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1500.0
-    RequiredSkill1: 3325.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 508
+    RequiredSkill1: 3325
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0

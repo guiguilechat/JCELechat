@@ -1,25 +1,24 @@
 items:
   Tracking Array:
-    AnchoringDelay: 300000.0
-    ArmorHP: 10000.0
+    AnchoringDelay: 300000
+    ArmorHP: 10000
     ArmorUniformity: 0.75
-    Cpu: 150.0
-    DisallowOffensiveModifiers: 1.0
+    DisallowOffensiveModifiers: 1
     Duration: 10000.0
-    Hp: 10000.0
+    Hp: 10000
     IncapacitationRatio: 0.75
-    MaxRangeBonus2: 10.0
-    OnliningDelay: 300000.0
-    Power: 25000.0
+    MaxRangeBonus2: 10
+    OnliningDelay: 300000
+    Power: 25000
     ScanGravimetricStrength: 200.0
     ScanLadarStrength: 200.0
     ScanMagnetometricStrength: 200.0
     ScanRadarStrength: 200.0
-    ShieldCapacity: 5000.0
+    ShieldCapacity: 5000
     ShieldRechargeRate: 200000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
+    SignatureRadius: 2000
     StructureUniformity: 1.0
     TrackingSpeedBonus: 5.0
-    UnanchoringDelay: 600000.0
+    UnanchoringDelay: 600000
     Uniformity: 1.0

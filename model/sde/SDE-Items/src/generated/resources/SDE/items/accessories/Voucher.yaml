@@ -4,19 +4,17 @@ items:
     StructureUniformity: 1.0
   Company Shares:
     Agility: 1000.0
-    AoeCloudSize: 150.0
-    AoeFalloff: 1500.0
-    AoeVelocity: 1000.0
+    AoeCloudSize: 150
+    AoeFalloff: 1500
     CapacitorRechargeRateMultiplier: 1.125
-    DetonationRange: 35.0
-    ExplosionDelay: 20000.0
+    DetonationRange: 35
+    ExplosionDelay: 20000
     ExplosiveDamage: 240.0
-    LauncherGroup: 506.0
-    MaxVelocity: 3750.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
+    LauncherGroup: 506
+    RequiredSkill1: 3326
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
     StructureUniformity: 1.0
   Loyalty Points:
     CapacitorRechargeRateMultiplier: 1.0
