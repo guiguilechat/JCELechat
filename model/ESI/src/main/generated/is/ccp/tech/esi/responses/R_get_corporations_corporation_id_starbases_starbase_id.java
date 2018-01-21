@@ -10,8 +10,8 @@ public class R_get_corporations_corporation_id_starbases_starbase_id {
     public boolean allow_corporation_members;
     public boolean allow_alliance_members;
     public boolean use_alliance_standings;
-    public double attack_standing_threshold;
-    public double attack_security_status_threshold;
+    public float attack_standing_threshold;
+    public float attack_security_status_threshold;
     public boolean attack_if_other_security_status_dropping;
     public boolean attack_if_at_war;
     public R_get_corporations_corporation_id_starbases_starbase_id_fuels[] fuels;

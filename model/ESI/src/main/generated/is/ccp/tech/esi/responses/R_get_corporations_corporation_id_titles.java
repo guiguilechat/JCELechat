@@ -1,7 +1,7 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_corporations_corporation_id_titles {
-    public long title_id;
+    public int title_id;
     public String name;
     public String[] roles;
     public String[] grantable_roles;

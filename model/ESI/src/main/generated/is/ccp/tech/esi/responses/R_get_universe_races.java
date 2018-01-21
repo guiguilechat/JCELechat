@@ -1,8 +1,8 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_universe_races {
-    public long race_id;
+    public int race_id;
     public String name;
     public String description;
-    public long alliance_id;
+    public int alliance_id;
 }

@@ -30,11 +30,11 @@ public class Character {
 		return getInfos().description;
 	}
 
-	public long corporation_id() {
+	public int corporation_id() {
 		return getInfos().corporation_id;
 	}
 
-	public long alliance_id() {
+	public int alliance_id() {
 		return getInfos().alliance_id;
 	}
 

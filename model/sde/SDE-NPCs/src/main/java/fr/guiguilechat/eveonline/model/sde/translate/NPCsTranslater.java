@@ -8,7 +8,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
-import java.util.stream.LongStream;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
@@ -81,10 +81,10 @@ public class NPCsTranslater {
 		ESIConnection esi = new ESIConnection(null, null);
 		Map<Integer, String> stationsByID = Station.loadById();
 		LinkedHashMap<String, Station> stations = Station.load();
-		Map<Long, R_get_corporations_corporation_id> corpNames = LongStream.of(esi.raw.get_corporations_npccorps())
+		Map<Integer, R_get_corporations_corporation_id> corpNames = IntStream.of(esi.raw.get_corporations_npccorps())
 				.parallel().mapToObj(l -> l).collect(Collectors.toMap(l -> l, esi.raw::get_corporations_corporation_id));
-		Map<Long, String> allianceNames = new HashMap<>();
-		corpNames.values().stream().mapToLong(corp -> corp.alliance_id).distinct().filter(l -> l > 0).forEachOrdered(l -> {
+		Map<Integer, String> allianceNames = new HashMap<>();
+		corpNames.values().stream().mapToInt(corp -> corp.alliance_id).distinct().filter(l -> l > 0).forEachOrdered(l -> {
 			R_get_alliances_alliance_id ally = esi.raw.get_alliances_alliance_id(l);
 			if (ally != null) {
 				allianceNames.put(l, ally.name);
@@ -95,7 +95,7 @@ public class NPCsTranslater {
 				.collect(Collectors.toMap(n -> ((Long) n.character_id), n -> n.character_name));
 		for (EagtAgents eagt : eagents) {
 			Agent agent = new Agent();
-			agent.corporation = corpNames.get((long) eagt.corporationID).name;
+			agent.corporation = corpNames.get(eagt.corporationID).name;
 			agent.id = eagt.agentID;
 			agent.isLocator = eagt.isLocator;
 			agent.level = eagt.level;
@@ -107,9 +107,9 @@ public class NPCsTranslater {
 			}
 			agents.put(agentNames.get((long) eagt.agentID), agent);
 		}
-		for (Entry<Long, R_get_corporations_corporation_id> e : corpNames.entrySet()) {
+		for (Entry<Integer, R_get_corporations_corporation_id> e : corpNames.entrySet()) {
 			Corporation add = new Corporation();
-			add.id = (int) (long) e.getKey();
+			add.id = e.getKey();
 			add.alliance = allianceNames.get(e.getValue().alliance_id);
 			corporations.put(e.getValue().name, add);
 		}
@@ -117,8 +117,8 @@ public class NPCsTranslater {
 			R_get_loyalty_stores_corporation_id_offers[] values = esi.raw.get_loyalty_stores_corporation_id_offers(c.id);
 			return values == null ? Stream.empty() : Stream.of(values);
 		}).forEachOrdered(o -> {
-			if (!offers.containsKey((int) o.offer_id)) {
-				offers.put((int) o.offer_id, makeOffer(o));
+			if (!offers.containsKey(o.offer_id)) {
+				offers.put(o.offer_id, makeOffer(o));
 			}
 		});
 		corporations.values().stream().parallel().forEach(c -> loadCorpOffers(c, esi.raw, offers));
@@ -130,32 +130,32 @@ public class NPCsTranslater {
 		LPOffer lpo = new LPOffer();
 		lpo.requirements.isk += o.isk_cost;
 		lpo.requirements.lp += o.lp_cost;
-		lpo.offer_name = typesbyID.get((int) o.type_id).enName();
-		lpo.id = (int) o.offer_id;
+		lpo.offer_name = typesbyID.get(o.type_id).enName();
+		lpo.id = o.offer_id;
 
 		for (R_get_loyalty_stores_corporation_id_offers_required_items ir : o.required_items) {
 			ItemRef translated = new ItemRef();
-			translated.quantity = (int) ir.quantity;
-			translated.item = typesbyID.get((int) ir.type_id).enName();
+			translated.quantity = ir.quantity;
+			translated.item = typesbyID.get(ir.type_id).enName();
 			lpo.requirements.items.add(translated);
 		}
 
-		Eblueprints bp = bps.get((int) o.type_id);
+		Eblueprints bp = bps.get(o.type_id);
 
 		if (bp != null) {// the lp offers a BPC
 			for (Material m : bp.activities.manufacturing.materials) {
 				ItemRef translated = new ItemRef();
-				translated.quantity = (int) (m.quantity * o.quantity);
+				translated.quantity = m.quantity * o.quantity;
 				translated.item = typesbyID.get(m.typeID).enName();
 				lpo.requirements.items.add(translated);
 			}
 			Material prod = bp.activities.manufacturing.products.get(0);
 			lpo.product.item = typesbyID.get(prod.typeID).enName();
-			lpo.product.quantity = (int) (prod.quantity * o.quantity);
+			lpo.product.quantity = prod.quantity * o.quantity;
 			lpo.offer_name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.item + "(BPC)";
 		} else {// the lp offers a non-bpc
-			lpo.product.quantity = (int) o.quantity;
-			lpo.product.item = typesbyID.get((int) o.type_id).enName();
+			lpo.product.quantity = o.quantity;
+			lpo.product.item = typesbyID.get(o.type_id).enName();
 			lpo.offer_name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.item;
 		}
 		return lpo;
@@ -165,7 +165,7 @@ public class NPCsTranslater {
 		R_get_loyalty_stores_corporation_id_offers[] offers = raw.get_loyalty_stores_corporation_id_offers(c.id);
 		if (offers != null) {
 			for (R_get_loyalty_stores_corporation_id_offers o : offers) {
-				c.lpoffers.add((int) o.offer_id);
+				c.lpoffers.add(o.offer_id);
 			}
 		}
 		Collections.sort(c.lpoffers);

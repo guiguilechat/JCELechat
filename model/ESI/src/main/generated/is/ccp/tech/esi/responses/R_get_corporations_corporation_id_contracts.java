@@ -1,11 +1,11 @@
 package is.ccp.tech.esi.responses;
 
 public class R_get_corporations_corporation_id_contracts {
-    public long contract_id;
-    public long issuer_id;
-    public long issuer_corporation_id;
-    public long assignee_id;
-    public long acceptor_id;
+    public int contract_id;
+    public int issuer_id;
+    public int issuer_corporation_id;
+    public int assignee_id;
+    public int acceptor_id;
     public long start_location_id;
     public long end_location_id;
     public String type;
@@ -16,7 +16,7 @@ public class R_get_corporations_corporation_id_contracts {
     public String date_issued;
     public String date_expired;
     public String date_accepted;
-    public long days_to_complete;
+    public int days_to_complete;
     public String date_completed;
     public double price;
     public double reward;

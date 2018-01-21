@@ -31,7 +31,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
