@@ -1,11 +1,11 @@
 items:
-  Rapid Repair Charge:
+  Armor Energizing Charge:
     LauncherGroup: 1770.0
     RequiredSkill1: 20494.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3348.0
     RequiredSkill2Level: 1.0
-    WarfareBuff1ID: 14.0
+    WarfareBuff1ID: 13.0
     WarfareBuff1Multiplier: -8.0
   Armor Reinforcement Charge:
     LauncherGroup: 1770.0
@@ -15,11 +15,11 @@ items:
     RequiredSkill2Level: 1.0
     WarfareBuff1ID: 15.0
     WarfareBuff1Multiplier: 8.0
-  Armor Energizing Charge:
+  Rapid Repair Charge:
     LauncherGroup: 1770.0
     RequiredSkill1: 20494.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3348.0
     RequiredSkill2Level: 1.0
-    WarfareBuff1ID: 13.0
+    WarfareBuff1ID: 14.0
     WarfareBuff1Multiplier: -8.0

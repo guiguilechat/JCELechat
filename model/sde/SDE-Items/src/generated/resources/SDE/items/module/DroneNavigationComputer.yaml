@@ -1,23 +1,11 @@
 items:
-  Unit F-435454's Modified Drone Navigation Computer:
-    Cpu: 27.0
+  Drone Navigation Computer I:
+    Cpu: 30.0
     Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
     Power: 1.0
     RequiredSkill1: 12305.0
     RequiredSkill1Level: 3.0
-    SpeedFactor: 36.0
-    TechLevel: 1.0
-  Federation Navy Drone Navigation Computer:
-    Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    Power: 1.0
-    RequiredSkill1: 12305.0
-    RequiredSkill1Level: 3.0
-    SpeedFactor: 32.0
+    SpeedFactor: 25.0
     TechLevel: 1.0
   Drone Navigation Computer II:
     Cpu: 35.0
@@ -28,33 +16,15 @@ items:
     RequiredSkill1Level: 5.0
     SpeedFactor: 30.0
     TechLevel: 2.0
-  Unit W-634's Modified Drone Navigation Computer:
-    Cpu: 33.0
+  Federation Navy Drone Navigation Computer:
+    Cpu: 20.0
     Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
     Power: 1.0
     RequiredSkill1: 12305.0
     RequiredSkill1Level: 3.0
-    SpeedFactor: 38.0
-    TechLevel: 1.0
-  Unit P-343554's Modified Drone Navigation Computer:
-    Cpu: 30.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    Power: 1.0
-    RequiredSkill1: 12305.0
-    RequiredSkill1Level: 3.0
-    SpeedFactor: 37.0
-    TechLevel: 1.0
-  Drone Navigation Computer I:
-    Cpu: 30.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 12305.0
-    RequiredSkill1Level: 3.0
-    SpeedFactor: 25.0
+    SpeedFactor: 32.0
     TechLevel: 1.0
   Sentient Drone Navigation Computer:
     Cpu: 20.0
@@ -75,4 +45,34 @@ items:
     RequiredSkill1: 12305.0
     RequiredSkill1Level: 3.0
     SpeedFactor: 35.0
+    TechLevel: 1.0
+  Unit F-435454's Modified Drone Navigation Computer:
+    Cpu: 27.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 12305.0
+    RequiredSkill1Level: 3.0
+    SpeedFactor: 36.0
+    TechLevel: 1.0
+  Unit P-343554's Modified Drone Navigation Computer:
+    Cpu: 30.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 12305.0
+    RequiredSkill1Level: 3.0
+    SpeedFactor: 37.0
+    TechLevel: 1.0
+  Unit W-634's Modified Drone Navigation Computer:
+    Cpu: 33.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    Power: 1.0
+    RequiredSkill1: 12305.0
+    RequiredSkill1Level: 3.0
+    SpeedFactor: 38.0
     TechLevel: 1.0

@@ -1,37 +1,9 @@
 items:
-  Flycatcher Blueprint:
-    IndustryBlueprintRank: 600.0
+  Algos Blueprint:
+    IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
-  Coercer Blood Raiders Edition Blueprint:
-    IndustryBlueprintRank: 30.0
-    TechLevel: 1.0
-  Thrasher Thukker Tribe Edition Blueprint:
-    IndustryBlueprintRank: 30.0
     TechLevel: 1.0
   Aliastra Catalyst Blueprint:
-    IndustryBlueprintRank: 30.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
-  Corax Blueprint:
-    IndustryBlueprintRank: 30.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
-  Heretic Blueprint:
-    IndustryBlueprintRank: 600.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
-  Sunesis Blueprint:
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
-  Coercer Blueprint:
-    IndustryBlueprintRank: 30.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
-  Cormorant Guristas Edition Blueprint:
-    IndustryBlueprintRank: 30.0
-    TechLevel: 1.0
-  Cormorant Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1.0
     TechLevel: 1.0
@@ -39,30 +11,44 @@ items:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1.0
     TechLevel: 1.0
-  Sabre Blueprint:
-    IndustryBlueprintRank: 600.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
-  Quafe Catalyst Blueprint:
-    IndustryBlueprintRank: 30.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
   Catalyst Serpentis Edition Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 1.0
-  Algos Blueprint:
-    IndustryBlueprintRank: 40.0
+  Coercer Blood Raiders Edition Blueprint:
+    IndustryBlueprintRank: 30.0
+    TechLevel: 1.0
+  Coercer Blueprint:
+    IndustryBlueprintRank: 30.0
+    IndustryJobCostMultiplier: 1.0
+    TechLevel: 1.0
+  Corax Blueprint:
+    IndustryBlueprintRank: 30.0
+    IndustryJobCostMultiplier: 1.0
+    TechLevel: 1.0
+  Cormorant Blueprint:
+    IndustryBlueprintRank: 30.0
+    IndustryJobCostMultiplier: 1.0
+    TechLevel: 1.0
+  Cormorant Guristas Edition Blueprint:
+    IndustryBlueprintRank: 30.0
+    TechLevel: 1.0
+  Dragoon Blueprint:
+    IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1.0
     TechLevel: 1.0
   Eris Blueprint:
     IndustryBlueprintRank: 600.0
     IndustryJobCostMultiplier: 1.0
     TechLevel: 2.0
-  InterBus Catalyst Blueprint:
-    IndustryBlueprintRank: 30.0
+  Flycatcher Blueprint:
+    IndustryBlueprintRank: 600.0
     IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
-  Talwar Blueprint:
+    TechLevel: 2.0
+  Heretic Blueprint:
+    IndustryBlueprintRank: 600.0
+    IndustryJobCostMultiplier: 1.0
+    TechLevel: 2.0
+  Inner Zone Shipping Catalyst Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1.0
     TechLevel: 1.0
@@ -70,15 +56,29 @@ items:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1.0
     TechLevel: 1.0
+  InterBus Catalyst Blueprint:
+    IndustryBlueprintRank: 30.0
+    IndustryJobCostMultiplier: 1.0
+    TechLevel: 1.0
+  Quafe Catalyst Blueprint:
+    IndustryBlueprintRank: 30.0
+    IndustryJobCostMultiplier: 1.0
+    TechLevel: 1.0
+  Sabre Blueprint:
+    IndustryBlueprintRank: 600.0
+    IndustryJobCostMultiplier: 1.0
+    TechLevel: 2.0
+  Sunesis Blueprint:
+    IndustryJobCostMultiplier: 1.0
+    TechLevel: 1.0
+  Talwar Blueprint:
+    IndustryBlueprintRank: 30.0
+    IndustryJobCostMultiplier: 1.0
+    TechLevel: 1.0
   Thrasher Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1.0
     TechLevel: 1.0
-  Inner Zone Shipping Catalyst Blueprint:
+  Thrasher Thukker Tribe Edition Blueprint:
     IndustryBlueprintRank: 30.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
-  Dragoon Blueprint:
-    IndustryBlueprintRank: 30.0
-    IndustryJobCostMultiplier: 1.0
     TechLevel: 1.0

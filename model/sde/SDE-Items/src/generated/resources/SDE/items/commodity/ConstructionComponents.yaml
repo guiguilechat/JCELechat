@@ -1,75 +1,75 @@
 items:
-  Linear Shield Emitter:
+  Antimatter Reactor Unit:
     MoonMiningAmount: 100.0
-  Nanoelectrical Microprocessor:
+  Crystalline Carbonide Armor Plate:
     MoonMiningAmount: 100.0
-  Graviton Reactor Unit:
-    MoonMiningAmount: 100.0
-  Particle Accelerator Unit:
+  Deflection Shield Emitter:
     MoonMiningAmount: 100.0
   EM Pulse Generator:
     MoonMiningAmount: 100.0
-  Spatial Attunement Unit:
-    MoonMiningAmount: 1.0
+  Electrolytic Capacitor Unit:
+    MoonMiningAmount: 100.0
+  Fernite Carbide Composite Armor Plate:
+    MoonMiningAmount: 100.0
   Fusion Reactor Unit:
+    MoonMiningAmount: 100.0
+  Fusion Thruster:
+    MoonMiningAmount: 100.0
+  Gravimetric Sensor Cluster:
+    MoonMiningAmount: 100.0
+  Graviton Pulse Generator:
+    MoonMiningAmount: 100.0
+  Graviton Reactor Unit:
+    MoonMiningAmount: 100.0
+  Ion Thruster:
+    MoonMiningAmount: 100.0
+  Ladar Sensor Cluster:
+    MoonMiningAmount: 100.0
+  Laser Focusing Crystals:
+    MoonMiningAmount: 100.0
+  Linear Shield Emitter:
+    MoonMiningAmount: 100.0
+  Magnetometric Sensor Cluster:
+    MoonMiningAmount: 100.0
+  Magpulse Thruster:
+    MoonMiningAmount: 100.0
+  Nanoelectrical Microprocessor:
+    MoonMiningAmount: 100.0
+  Nanomechanical Microprocessor:
     MoonMiningAmount: 100.0
   Nuclear Pulse Generator:
     MoonMiningAmount: 100.0
   Nuclear Reactor Unit:
     MoonMiningAmount: 100.0
-  Graviton Pulse Generator:
+  Oscillator Capacitor Unit:
     MoonMiningAmount: 100.0
-  Laser Focusing Crystals:
-    MoonMiningAmount: 100.0
-  Plasma Thruster:
-    MoonMiningAmount: 100.0
-  Ion Thruster:
-    MoonMiningAmount: 100.0
-  Fusion Thruster:
-    MoonMiningAmount: 100.0
-  Plasma Pulse Generator:
-    MoonMiningAmount: 100.0
-  Scalar Capacitor Unit:
-    MoonMiningAmount: 100.0
-  Pulse Shield Emitter:
-    MoonMiningAmount: 100.0
-  Fernite Carbide Composite Armor Plate:
-    MoonMiningAmount: 100.0
-  Magpulse Thruster:
-    MoonMiningAmount: 100.0
-  Electrolytic Capacitor Unit:
-    MoonMiningAmount: 100.0
-  Tesseract Capacitor Unit:
-    MoonMiningAmount: 100.0
-  Deflection Shield Emitter:
-    MoonMiningAmount: 100.0
-  Magnetometric Sensor Cluster:
-    MoonMiningAmount: 100.0
-  Quantum Microprocessor:
-    MoonMiningAmount: 100.0
-  Gravimetric Sensor Cluster:
-    MoonMiningAmount: 100.0
-  Tungsten Carbide Armor Plate:
-    MoonMiningAmount: 100.0
-  Nanomechanical Microprocessor:
-    MoonMiningAmount: 100.0
-  Thermonuclear Trigger Unit:
-    MoonMiningAmount: 100.0
-  Antimatter Reactor Unit:
+  Particle Accelerator Unit:
     MoonMiningAmount: 100.0
   Photon Microprocessor:
     MoonMiningAmount: 100.0
-  Superconductor Rails:
+  Plasma Pulse Generator:
     MoonMiningAmount: 100.0
-  Crystalline Carbonide Armor Plate:
+  Plasma Thruster:
     MoonMiningAmount: 100.0
-  Sustained Shield Emitter:
+  Pulse Shield Emitter:
     MoonMiningAmount: 100.0
-  Ladar Sensor Cluster:
+  Quantum Microprocessor:
     MoonMiningAmount: 100.0
   Radar Sensor Cluster:
     MoonMiningAmount: 100.0
+  Scalar Capacitor Unit:
+    MoonMiningAmount: 100.0
+  Spatial Attunement Unit:
+    MoonMiningAmount: 1.0
+  Superconductor Rails:
+    MoonMiningAmount: 100.0
+  Sustained Shield Emitter:
+    MoonMiningAmount: 100.0
+  Tesseract Capacitor Unit:
+    MoonMiningAmount: 100.0
+  Thermonuclear Trigger Unit:
+    MoonMiningAmount: 100.0
   Titanium Diborite Armor Plate:
     MoonMiningAmount: 100.0
-  Oscillator Capacitor Unit:
+  Tungsten Carbide Armor Plate:
     MoonMiningAmount: 100.0

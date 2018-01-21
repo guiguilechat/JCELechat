@@ -1,31 +1,5 @@
 items:
-  Guristas Scourge Rocket:
-    Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 20.0
-    AoeDamageReductionFactor: 0.6439999938011169
-    AoeFalloff: 1500.0
-    AoeVelocity: 150.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 120.0
-    KineticDamage: 35.599998474121094
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 507.0
-    MaxVelocity: 2250.0
-    MetaGroupID: 4.0
-    MetaLevel: 1.0
-    RequiredSkill1: 3320.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  Dread Guristas Scourge Rocket:
+  Caldari Navy Inferno Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1.0
     AoeCloudSize: 20.0
@@ -38,20 +12,20 @@ items:
     ExplosionDelay: 2000.0
     ExplosiveDamageResonance: 1.0
     Hp: 90.0
-    KineticDamage: 39.599998474121094
-    KineticDamageResonance: 0.800000011920929
+    KineticDamageResonance: 1.0
     LauncherGroup: 507.0
     MaxVelocity: 2250.0
     MetaGroupID: 4.0
-    MetaLevel: 3.0
+    MetaLevel: 2.0
     RequiredSkill1: 3320.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3319.0
     RequiredSkill2Level: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  Scourge Rocket:
+    ThermalDamage: 37.0
+    ThermalDamageResonance: 0.800000011920929
+  Caldari Navy Mjolnir Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1.0
     AoeCloudSize: 20.0
@@ -60,31 +34,7 @@ items:
     AoeVelocity: 150.0
     ArmorPiercingChance: 1.0
     DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 90.0
-    KineticDamage: 33.0
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 507.0
-    MaxVelocity: 2250.0
-    RequiredSkill1: 3320.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  Mjolnir Rocket:
-    Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 20.0
-    AoeDamageReductionFactor: 0.6439999938011169
-    AoeFalloff: 1500.0
-    AoeVelocity: 150.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    EmDamage: 33.0
+    EmDamage: 37.0
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 2000.0
     ExplosiveDamageResonance: 1.0
@@ -92,30 +42,8 @@ items:
     KineticDamageResonance: 1.0
     LauncherGroup: 507.0
     MaxVelocity: 2250.0
-    RequiredSkill1: 3320.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  Nova Rocket:
-    Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 20.0
-    AoeDamageReductionFactor: 0.6439999938011169
-    AoeFalloff: 1500.0
-    AoeVelocity: 150.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2000.0
-    ExplosiveDamage: 33.0
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 90.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 507.0
-    MaxVelocity: 2250.0
+    MetaGroupID: 4.0
+    MetaLevel: 2.0
     RequiredSkill1: 3320.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3319.0
@@ -175,7 +103,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1.0
     ThermalDamageResonance: 1.0
-  Inferno Rocket:
+  Dread Guristas Inferno Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1.0
     AoeCloudSize: 20.0
@@ -191,41 +119,17 @@ items:
     KineticDamageResonance: 1.0
     LauncherGroup: 507.0
     MaxVelocity: 2250.0
-    RequiredSkill1: 3320.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamage: 33.0
-    ThermalDamageResonance: 0.800000011920929
-  Guristas Mjolnir Rocket:
-    Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 20.0
-    AoeDamageReductionFactor: 0.6439999938011169
-    AoeFalloff: 1500.0
-    AoeVelocity: 150.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    EmDamage: 35.599998474121094
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 2000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 120.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 507.0
-    MaxVelocity: 2250.0
     MetaGroupID: 4.0
-    MetaLevel: 1.0
+    MetaLevel: 3.0
     RequiredSkill1: 3320.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3319.0
     RequiredSkill2Level: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  Sansha Mjolnir Rocket:
+    ThermalDamage: 39.599998474121094
+    ThermalDamageResonance: 0.800000011920929
+  Dread Guristas Mjolnir Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1.0
     AoeCloudSize: 20.0
@@ -234,7 +138,7 @@ items:
     AoeVelocity: 150.0
     ArmorPiercingChance: 1.0
     DetonationRange: 35.0
-    EmDamage: 35.599998474121094
+    EmDamage: 39.599998474121094
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 2000.0
     ExplosiveDamageResonance: 1.0
@@ -242,6 +146,60 @@ items:
     KineticDamageResonance: 1.0
     LauncherGroup: 507.0
     MaxVelocity: 2250.0
+    MetaGroupID: 4.0
+    MetaLevel: 3.0
+    RequiredSkill1: 3320.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  Dread Guristas Nova Rocket:
+    Agility: 5.220125675201416
+    AimedLaunch: 1.0
+    AoeCloudSize: 20.0
+    AoeDamageReductionFactor: 0.6439999938011169
+    AoeFalloff: 1500.0
+    AoeVelocity: 150.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 2000.0
+    ExplosiveDamage: 39.599998474121094
+    ExplosiveDamageResonance: 0.800000011920929
+    Hp: 90.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 507.0
+    MaxVelocity: 2250.0
+    MetaGroupID: 4.0
+    MetaLevel: 3.0
+    RequiredSkill1: 3320.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  Dread Guristas Scourge Rocket:
+    Agility: 5.220125675201416
+    AimedLaunch: 1.0
+    AoeCloudSize: 20.0
+    AoeDamageReductionFactor: 0.6439999938011169
+    AoeFalloff: 1500.0
+    AoeVelocity: 150.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 2000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 90.0
+    KineticDamage: 39.599998474121094
+    KineticDamageResonance: 0.800000011920929
+    LauncherGroup: 507.0
+    MaxVelocity: 2250.0
+    MetaGroupID: 4.0
+    MetaLevel: 3.0
     RequiredSkill1: 3320.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3319.0
@@ -275,7 +233,7 @@ items:
     TechLevel: 1.0
     ThermalDamage: 35.599998474121094
     ThermalDamageResonance: 0.800000011920929
-  Caldari Navy Inferno Rocket:
+  Guristas Mjolnir Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1.0
     AoeCloudSize: 20.0
@@ -284,66 +242,16 @@ items:
     AoeVelocity: 150.0
     ArmorPiercingChance: 1.0
     DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 90.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 507.0
-    MaxVelocity: 2250.0
-    MetaGroupID: 4.0
-    MetaLevel: 2.0
-    RequiredSkill1: 3320.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamage: 37.0
-    ThermalDamageResonance: 0.800000011920929
-  Dread Guristas Nova Rocket:
-    Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 20.0
-    AoeDamageReductionFactor: 0.6439999938011169
-    AoeFalloff: 1500.0
-    AoeVelocity: 150.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2000.0
-    ExplosiveDamage: 39.599998474121094
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 90.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 507.0
-    MaxVelocity: 2250.0
-    MetaGroupID: 4.0
-    MetaLevel: 3.0
-    RequiredSkill1: 3320.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  True Sansha Mjolnir Rocket:
-    Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 20.0
-    AoeDamageReductionFactor: 0.6439999938011169
-    AoeFalloff: 1500.0
-    AoeVelocity: 150.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    EmDamage: 39.599998474121094
+    EmDamage: 35.599998474121094
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 2000.0
     ExplosiveDamageResonance: 1.0
-    Hp: 90.0
+    Hp: 120.0
     KineticDamageResonance: 1.0
     LauncherGroup: 507.0
     MaxVelocity: 2250.0
+    MetaGroupID: 4.0
+    MetaLevel: 1.0
     RequiredSkill1: 3320.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3319.0
@@ -377,7 +285,33 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1.0
     ThermalDamageResonance: 1.0
-  Dread Guristas Inferno Rocket:
+  Guristas Scourge Rocket:
+    Agility: 5.220125675201416
+    AimedLaunch: 1.0
+    AoeCloudSize: 20.0
+    AoeDamageReductionFactor: 0.6439999938011169
+    AoeFalloff: 1500.0
+    AoeVelocity: 150.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 2000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 120.0
+    KineticDamage: 35.599998474121094
+    KineticDamageResonance: 0.800000011920929
+    LauncherGroup: 507.0
+    MaxVelocity: 2250.0
+    MetaGroupID: 4.0
+    MetaLevel: 1.0
+    RequiredSkill1: 3320.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  Inferno Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1.0
     AoeCloudSize: 20.0
@@ -393,17 +327,15 @@ items:
     KineticDamageResonance: 1.0
     LauncherGroup: 507.0
     MaxVelocity: 2250.0
-    MetaGroupID: 4.0
-    MetaLevel: 3.0
     RequiredSkill1: 3320.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3319.0
     RequiredSkill2Level: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-    ThermalDamage: 39.599998474121094
+    ThermalDamage: 33.0
     ThermalDamageResonance: 0.800000011920929
-  Caldari Navy Mjolnir Rocket:
+  Mjolnir Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1.0
     AoeCloudSize: 20.0
@@ -412,7 +344,7 @@ items:
     AoeVelocity: 150.0
     ArmorPiercingChance: 1.0
     DetonationRange: 35.0
-    EmDamage: 37.0
+    EmDamage: 33.0
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 2000.0
     ExplosiveDamageResonance: 1.0
@@ -420,8 +352,6 @@ items:
     KineticDamageResonance: 1.0
     LauncherGroup: 507.0
     MaxVelocity: 2250.0
-    MetaGroupID: 4.0
-    MetaLevel: 2.0
     RequiredSkill1: 3320.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3319.0
@@ -429,7 +359,79 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1.0
     ThermalDamageResonance: 1.0
-  Dread Guristas Mjolnir Rocket:
+  Nova Rocket:
+    Agility: 5.220125675201416
+    AimedLaunch: 1.0
+    AoeCloudSize: 20.0
+    AoeDamageReductionFactor: 0.6439999938011169
+    AoeFalloff: 1500.0
+    AoeVelocity: 150.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 2000.0
+    ExplosiveDamage: 33.0
+    ExplosiveDamageResonance: 0.800000011920929
+    Hp: 90.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 507.0
+    MaxVelocity: 2250.0
+    RequiredSkill1: 3320.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  Sansha Mjolnir Rocket:
+    Agility: 5.220125675201416
+    AimedLaunch: 1.0
+    AoeCloudSize: 20.0
+    AoeDamageReductionFactor: 0.6439999938011169
+    AoeFalloff: 1500.0
+    AoeVelocity: 150.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    EmDamage: 35.599998474121094
+    EmDamageResonance: 0.800000011920929
+    ExplosionDelay: 2000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 90.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 507.0
+    MaxVelocity: 2250.0
+    RequiredSkill1: 3320.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  Scourge Rocket:
+    Agility: 5.220125675201416
+    AimedLaunch: 1.0
+    AoeCloudSize: 20.0
+    AoeDamageReductionFactor: 0.6439999938011169
+    AoeFalloff: 1500.0
+    AoeVelocity: 150.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 2000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 90.0
+    KineticDamage: 33.0
+    KineticDamageResonance: 0.800000011920929
+    LauncherGroup: 507.0
+    MaxVelocity: 2250.0
+    RequiredSkill1: 3320.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  True Sansha Mjolnir Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1.0
     AoeCloudSize: 20.0
@@ -446,8 +448,6 @@ items:
     KineticDamageResonance: 1.0
     LauncherGroup: 507.0
     MaxVelocity: 2250.0
-    MetaGroupID: 4.0
-    MetaLevel: 3.0
     RequiredSkill1: 3320.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3319.0

@@ -1,11 +1,4 @@
 items:
-  Pedestal Upgrade Platform:
-    AnchoringDelay: 3600000.0
-    Hp: 1.0E8
-    RequiredSkill1: 3400.0
-    RequiredSkill1Level: 3.0
-    RequiresSovereigntyDisplayOnly: 1.0
-    StationTypeID: 28184.0
   Foundation Upgrade Platform:
     AnchoringDelay: 3600000.0
     Hp: 1.0E8
@@ -20,3 +13,10 @@ items:
     RequiredSkill1Level: 5.0
     RequiresSovereigntyDisplayOnly: 1.0
     StationTypeID: 28185.0
+  Pedestal Upgrade Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 3.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 28184.0

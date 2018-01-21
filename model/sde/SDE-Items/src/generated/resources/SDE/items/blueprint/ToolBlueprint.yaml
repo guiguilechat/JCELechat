@@ -1,83 +1,22 @@
 items:
-  R.Db - Boundless Creations Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 10.0
-    TechLevel: 1.0
-  R.Db - CreoDron Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 10.0
-    TechLevel: 1.0
-  R.A.M.- Robotics Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 20.0
-    TechLevel: 1.0
-  Hacker Deck - LXD-27 Blueprint:
-    Hp: 1.0
+  Basic Robotics Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1.0
-  R.A.M.- Pharmaceuticals Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 20.0
-    TechLevel: 1.0
-  Gold Sculpture Blueprint:
-    Hp: 1.0
+  Civilian Data Interface Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1.0
-  Perpetual Motion Unit I Blueprint:
+  Clay Pigeon Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1.0
-  R.A.M.- Armor/Hull Tech Blueprint:
+  Crude Sculpture Blueprint:
     Hp: 1.0
-    IndustryBlueprintRank: 20.0
-    TechLevel: 1.0
-  R.A.M.- Shield Tech Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 20.0
-    TechLevel: 1.0
-  Cryptic Ship Data Interface Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 30.0
+    IndustryBlueprintRank: 1.0
     TechLevel: 1.0
   Cryptic Data Interface Blueprint:
     Hp: 1.0
     IndustryBlueprintRank: 30.0
     TechLevel: 1.0
-  Civilian Data Interface Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  R.Db - Thukker Mix Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 10.0
-    TechLevel: 1.0
-  Esoteric Ship Data Interface Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 30.0
-    TechLevel: 1.0
-  R.A.M.- Cybernetics Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 20.0
-    TechLevel: 1.0
-  R.A.M.- Cruiser Tech Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 20.0
-    TechLevel: 1.0
-  Esoteric Tuner Data Interface Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 30.0
-    TechLevel: 1.0
-  R.A.M.- Energy Tech Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 20.0
-    TechLevel: 1.0
-  Incognito Ship Data Interface Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 30.0
-    TechLevel: 1.0
-  R.Db - Carthum Conglomerate Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 10.0
-    TechLevel: 1.0
-  Occult Data Interface Blueprint:
+  Cryptic Ship Data Interface Blueprint:
     Hp: 1.0
     IndustryBlueprintRank: 30.0
     TechLevel: 1.0
@@ -85,88 +24,101 @@ items:
     Hp: 1.0
     IndustryBlueprintRank: 30.0
     TechLevel: 1.0
-  R.A.M.- Weapon Tech Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 20.0
-    TechLevel: 1.0
-  Occult Tuner Data Interface Blueprint:
+  Esoteric Data Interface Blueprint:
     Hp: 1.0
     IndustryBlueprintRank: 30.0
+    TechLevel: 1.0
+  Esoteric Ship Data Interface Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 30.0
+    TechLevel: 1.0
+  Esoteric Tuner Data Interface Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 30.0
+    TechLevel: 1.0
+  Gold Sculpture Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 1.0
     TechLevel: 1.0
   Hacker Deck - Alpha Blueprint:
     Hp: 1.0
     IndustryBlueprintRank: 1.0
     TechLevel: 1.0
-  Perpetual Motion Unit II Blueprint:
-    IndustryBlueprintRank: 10.0
-    TechLevel: 2.0
-  R.A.M.- Battleship Tech Blueprint:
+  Hacker Deck - Codex Blueprint:
     Hp: 1.0
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
-  R.Db - Khanid Innovation Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 10.0
-    TechLevel: 1.0
-  R.A.M.- Starship Tech Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 20.0
-    TechLevel: 1.0
-  R.Db - Duvolle Labs Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 10.0
+    IndustryBlueprintRank: 1.0
     TechLevel: 1.0
   Hacker Deck - Hermes Blueprint:
     Hp: 1.0
     IndustryBlueprintRank: 1.0
     TechLevel: 1.0
-  R.A.M.- Industrial Tech Blueprint:
+  Hacker Deck - LXD-27 Blueprint:
     Hp: 1.0
-    IndustryBlueprintRank: 20.0
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Hacker Deck - Shaman Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Hyper Net Uplink Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Incognito Data Interface Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 30.0
+    TechLevel: 1.0
+  Incognito Ship Data Interface Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 30.0
+    TechLevel: 1.0
+  Incognito Tuner Data Interface Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 30.0
     TechLevel: 1.0
   Methros Enhanced Decoding Device Blueprint:
     Hp: 1.0
     IndustryBlueprintRank: 1.0
     TechLevel: 1.0
-  Basic Robotics Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  Esoteric Data Interface Blueprint:
+  Occult Data Interface Blueprint:
     Hp: 1.0
     IndustryBlueprintRank: 30.0
-    TechLevel: 1.0
-  R.Db.- Hybrid Technology Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  R.Db - Core Complexion Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 10.0
-    TechLevel: 1.0
-  Hacker Deck - Codex Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  Crude Sculpture Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  Terran Molecular Sequencer Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 10.0
     TechLevel: 1.0
   Occult Ship Data Interface Blueprint:
     Hp: 1.0
     IndustryBlueprintRank: 30.0
     TechLevel: 1.0
-  R.A.M.- Hypernet Tech Blueprint:
+  Occult Tuner Data Interface Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 30.0
+    TechLevel: 1.0
+  Perpetual Motion Unit I Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Perpetual Motion Unit II Blueprint:
+    IndustryBlueprintRank: 10.0
+    TechLevel: 2.0
+  R.A.M.- Ammunition Tech Blueprint:
     Hp: 1.0
     IndustryBlueprintRank: 20.0
     TechLevel: 1.0
-  R.Db - Kaalakiota Blueprint:
+  R.A.M.- Armor/Hull Tech Blueprint:
     Hp: 1.0
-    IndustryBlueprintRank: 10.0
+    IndustryBlueprintRank: 20.0
     TechLevel: 1.0
-  R.A.M.- Platform Tech Blueprint:
+  R.A.M.- Battlecruiser Tech Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 20.0
+    TechLevel: 1.0
+  R.A.M.- Battleship Tech Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1.0
+  R.A.M.- Cruiser Tech Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 20.0
+    TechLevel: 1.0
+  R.A.M.- Cybernetics Blueprint:
     Hp: 1.0
     IndustryBlueprintRank: 20.0
     TechLevel: 1.0
@@ -174,34 +126,71 @@ items:
     Hp: 1.0
     IndustryBlueprintRank: 20.0
     TechLevel: 1.0
-  R.Db - Viziam Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 10.0
-    TechLevel: 1.0
-  Incognito Tuner Data Interface Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 30.0
-    TechLevel: 1.0
-  Hyper Net Uplink Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  Clay Pigeon Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  R.Db - Roden Shipyards Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 10.0
-    TechLevel: 1.0
-  Hacker Deck - Shaman Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  R.A.M.- Ammunition Tech Blueprint:
+  R.A.M.- Energy Tech Blueprint:
     Hp: 1.0
     IndustryBlueprintRank: 20.0
     TechLevel: 1.0
+  R.A.M.- Hypernet Tech Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 20.0
+    TechLevel: 1.0
+  R.A.M.- Industrial Tech Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 20.0
+    TechLevel: 1.0
+  R.A.M.- Pharmaceuticals Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 20.0
+    TechLevel: 1.0
+  R.A.M.- Platform Tech Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 20.0
+    TechLevel: 1.0
+  R.A.M.- Robotics Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 20.0
+    TechLevel: 1.0
+  R.A.M.- Shield Tech Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 20.0
+    TechLevel: 1.0
+  R.A.M.- Starship Tech Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 20.0
+    TechLevel: 1.0
+  R.A.M.- Weapon Tech Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 20.0
+    TechLevel: 1.0
+  R.Db - Boundless Creations Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 10.0
+    TechLevel: 1.0
+  R.Db - Carthum Conglomerate Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 10.0
+    TechLevel: 1.0
+  R.Db - Core Complexion Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 10.0
+    TechLevel: 1.0
+  R.Db - CreoDron Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 10.0
+    TechLevel: 1.0
+  R.Db - Duvolle Labs Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 10.0
+    TechLevel: 1.0
   R.Db - Ishukone Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 10.0
+    TechLevel: 1.0
+  R.Db - Kaalakiota Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 10.0
+    TechLevel: 1.0
+  R.Db - Khanid Innovation Blueprint:
     Hp: 1.0
     IndustryBlueprintRank: 10.0
     TechLevel: 1.0
@@ -209,11 +198,22 @@ items:
     Hp: 1.0
     IndustryBlueprintRank: 10.0
     TechLevel: 1.0
-  R.A.M.- Battlecruiser Tech Blueprint:
+  R.Db - Roden Shipyards Blueprint:
     Hp: 1.0
-    IndustryBlueprintRank: 20.0
+    IndustryBlueprintRank: 10.0
     TechLevel: 1.0
-  Incognito Data Interface Blueprint:
+  R.Db - Thukker Mix Blueprint:
     Hp: 1.0
-    IndustryBlueprintRank: 30.0
+    IndustryBlueprintRank: 10.0
+    TechLevel: 1.0
+  R.Db - Viziam Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 10.0
+    TechLevel: 1.0
+  R.Db.- Hybrid Technology Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Terran Molecular Sequencer Blueprint:
+    Hp: 1.0
+    IndustryBlueprintRank: 10.0
     TechLevel: 1.0

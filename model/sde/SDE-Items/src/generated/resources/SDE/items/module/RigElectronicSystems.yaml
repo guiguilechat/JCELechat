@@ -1,38 +1,4 @@
 items:
-  Small Particle Dispersion Projector II:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RangeSkillBonus: 25.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Small Targeting Systems Stabilizer I:
-    CloakingTargetingDelayBonus: -10.0
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Medium Targeting Systems Stabilizer I:
-    CloakingTargetingDelayBonus: -10.0
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Medium Particle Dispersion Augmentor II:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    ScanSkillEwStrengthBonus: 15.0
-    TechLevel: 2.0
-    UpgradeCost: 300.0
   Capital Inverted Signal Field Projector I:
     Drawback: -10.0
     Hp: 40.0
@@ -41,14 +7,15 @@ items:
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1.0
     UpgradeCost: 200.0
-  Large Targeting Systems Stabilizer I:
-    CloakingTargetingDelayBonus: -10.0
+  Capital Inverted Signal Field Projector II:
     Drawback: -10.0
     Hp: 40.0
     MaxTargetRangeMultiplier: 1.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    ScanSkillEwStrengthBonus: 7.5
+    TechLevel: 2.0
+    UpgradeCost: 300.0
   Capital Particle Dispersion Augmentor I:
     Drawback: -10.0
     Hp: 40.0
@@ -57,64 +24,32 @@ items:
     ScanSkillEwStrengthBonus: 10.0
     TechLevel: 1.0
     UpgradeCost: 200.0
-  Medium Inverted Signal Field Projector I:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    RigSize: 2.0
-    ScanSkillEwStrengthBonus: 5.0
-    TechLevel: 1.0
-    UpgradeCost: 200.0
-  Large Tracking Diagnostic Subroutines II:
+  Capital Particle Dispersion Augmentor II:
     Drawback: -10.0
     Hp: 40.0
     MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5.0
-    RigSize: 3.0
-    ScanSkillEwStrengthBonus: 7.5
+    RigSize: 4.0
+    ScanSkillEwStrengthBonus: 15.0
     TechLevel: 2.0
     UpgradeCost: 300.0
-  Large Signal Disruption Amplifier II:
-    CapNeedBonus: -25.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Medium Particle Dispersion Projector I:
+  Capital Particle Dispersion Projector I:
     Drawback: -10.0
     Hp: 40.0
     MaxTargetRangeMultiplier: 1.0
     RangeSkillBonus: 20.0
-    RigSize: 2.0
+    RigSize: 4.0
     TechLevel: 1.0
     UpgradeCost: 100.0
-  Large Inverted Signal Field Projector I:
+  Capital Particle Dispersion Projector II:
     Drawback: -10.0
     Hp: 40.0
     MaxTargetRangeMultiplier: 1.0
-    RigSize: 3.0
-    ScanSkillEwStrengthBonus: 5.0
-    TechLevel: 1.0
-    UpgradeCost: 200.0
-  Medium Tracking Diagnostic Subroutines I:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    RigSize: 2.0
-    ScanSkillEwStrengthBonus: 5.0
-    TechLevel: 1.0
-    UpgradeCost: 200.0
-  Small Signal Disruption Amplifier I:
-    CapNeedBonus: -20.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    MetaLevel: 5.0
+    RangeSkillBonus: 25.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
   Capital Signal Disruption Amplifier I:
     CapNeedBonus: -20.0
     Drawback: 10.0
@@ -123,19 +58,54 @@ items:
     RigSize: 4.0
     TechLevel: 1.0
     UpgradeCost: 100.0
-  Small Particle Dispersion Augmentor I:
+  Capital Signal Disruption Amplifier II:
+    CapNeedBonus: -25.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Capital Targeting Systems Stabilizer I:
+    CloakingTargetingDelayBonus: -10.0
     Drawback: -10.0
     Hp: 40.0
     MaxTargetRangeMultiplier: 1.0
-    RigSize: 1.0
-    ScanSkillEwStrengthBonus: 10.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Capital Targeting Systems Stabilizer II:
+    CloakingTargetingDelayBonus: -15.0
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Capital Tracking Diagnostic Subroutines I:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RigSize: 4.0
+    ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1.0
     UpgradeCost: 200.0
-  Small Tracking Diagnostic Subroutines I:
+  Capital Tracking Diagnostic Subroutines II:
     Drawback: -10.0
     Hp: 40.0
     MaxTargetRangeMultiplier: 1.0
-    RigSize: 1.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    ScanSkillEwStrengthBonus: 7.5
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Large Inverted Signal Field Projector I:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RigSize: 3.0
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1.0
     UpgradeCost: 200.0
@@ -148,24 +118,31 @@ items:
     ScanSkillEwStrengthBonus: 7.5
     TechLevel: 2.0
     UpgradeCost: 300.0
-  Small Particle Dispersion Augmentor II:
+  Large Particle Dispersion Augmentor I:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RigSize: 3.0
+    ScanSkillEwStrengthBonus: 10.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Large Particle Dispersion Augmentor II:
     Drawback: -10.0
     Hp: 40.0
     MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5.0
-    RigSize: 1.0
+    RigSize: 3.0
     ScanSkillEwStrengthBonus: 15.0
     TechLevel: 2.0
     UpgradeCost: 300.0
-  Medium Targeting Systems Stabilizer II:
-    CloakingTargetingDelayBonus: -15.0
+  Large Particle Dispersion Projector I:
     Drawback: -10.0
     Hp: 40.0
     MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    RangeSkillBonus: 20.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
   Large Particle Dispersion Projector II:
     Drawback: -10.0
     Hp: 40.0
@@ -175,50 +152,6 @@ items:
     RigSize: 3.0
     TechLevel: 2.0
     UpgradeCost: 150.0
-  Capital Particle Dispersion Augmentor II:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    ScanSkillEwStrengthBonus: 15.0
-    TechLevel: 2.0
-    UpgradeCost: 300.0
-  Small Targeting Amplifier I:
-    AgilityMultiplier: -25.0
-    Drawback: -25.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.75
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Small Inverted Signal Field Projector II:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    ScanSkillEwStrengthBonus: 7.5
-    TechLevel: 2.0
-    UpgradeCost: 300.0
-  Capital Inverted Signal Field Projector II:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    ScanSkillEwStrengthBonus: 7.5
-    TechLevel: 2.0
-    UpgradeCost: 300.0
-  Capital Tracking Diagnostic Subroutines II:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    ScanSkillEwStrengthBonus: 7.5
-    TechLevel: 2.0
-    UpgradeCost: 300.0
   Large Signal Disruption Amplifier I:
     CapNeedBonus: -20.0
     Drawback: 10.0
@@ -227,117 +160,23 @@ items:
     RigSize: 3.0
     TechLevel: 1.0
     UpgradeCost: 100.0
-  Capital Tracking Diagnostic Subroutines I:
-    Drawback: -10.0
+  Large Signal Disruption Amplifier II:
+    CapNeedBonus: -25.0
+    Drawback: 10.0
     Hp: 40.0
     MaxTargetRangeMultiplier: 1.0
-    RigSize: 4.0
-    ScanSkillEwStrengthBonus: 5.0
-    TechLevel: 1.0
-    UpgradeCost: 200.0
-  Large Particle Dispersion Augmentor I:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
+    MetaLevel: 5.0
     RigSize: 3.0
-    ScanSkillEwStrengthBonus: 10.0
-    TechLevel: 1.0
-    UpgradeCost: 200.0
-  Capital Signal Disruption Amplifier II:
-    CapNeedBonus: -25.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 4.0
     TechLevel: 2.0
     UpgradeCost: 150.0
-  Small Targeting Systems Stabilizer II:
-    CloakingTargetingDelayBonus: -15.0
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Small Inverted Signal Field Projector I:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    RigSize: 1.0
-    ScanSkillEwStrengthBonus: 5.0
-    TechLevel: 1.0
-    UpgradeCost: 200.0
-  Capital Particle Dispersion Projector I:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    RangeSkillBonus: 20.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Capital Targeting Systems Stabilizer II:
-    CloakingTargetingDelayBonus: -15.0
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Sensor Strength Rig II:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    RigSize: 1.0
-    ScanGravimetricStrengthPercent: 120.0
-    ScanLadarStrengthPercent: 120.0
-    ScanMagnetometricStrengthPercent: 120.0
-    ScanRadarStrengthPercent: 120.0
-    TechLevel: 1.0
-    UpgradeCost: 150.0
-  Medium Signal Disruption Amplifier I:
-    CapNeedBonus: -20.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Small Signal Disruption Amplifier II:
-    CapNeedBonus: -25.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Medium Particle Dispersion Augmentor I:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    RigSize: 2.0
-    ScanSkillEwStrengthBonus: 10.0
-    TechLevel: 1.0
-    UpgradeCost: 200.0
-  Capital Targeting Systems Stabilizer I:
+  Large Targeting Systems Stabilizer I:
     CloakingTargetingDelayBonus: -10.0
     Drawback: -10.0
     Hp: 40.0
     MaxTargetRangeMultiplier: 1.0
-    RigSize: 4.0
+    RigSize: 3.0
     TechLevel: 1.0
     UpgradeCost: 50.0
-  Small Particle Dispersion Projector I:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    RangeSkillBonus: 20.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
   Large Targeting Systems Stabilizer II:
     CloakingTargetingDelayBonus: -15.0
     Drawback: -10.0
@@ -347,6 +186,125 @@ items:
     RigSize: 3.0
     TechLevel: 2.0
     UpgradeCost: 75.0
+  Large Tracking Diagnostic Subroutines I:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RigSize: 3.0
+    ScanSkillEwStrengthBonus: 5.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Large Tracking Diagnostic Subroutines II:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    ScanSkillEwStrengthBonus: 7.5
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Medium Inverted Signal Field Projector I:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RigSize: 2.0
+    ScanSkillEwStrengthBonus: 5.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Medium Inverted Signal Field Projector II:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    ScanSkillEwStrengthBonus: 7.5
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Medium Particle Dispersion Augmentor I:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RigSize: 2.0
+    ScanSkillEwStrengthBonus: 10.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Medium Particle Dispersion Augmentor II:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    ScanSkillEwStrengthBonus: 15.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Medium Particle Dispersion Projector I:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RangeSkillBonus: 20.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Medium Particle Dispersion Projector II:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RangeSkillBonus: 25.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Medium Signal Disruption Amplifier I:
+    CapNeedBonus: -20.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Medium Signal Disruption Amplifier II:
+    CapNeedBonus: -25.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Medium Targeting Systems Stabilizer I:
+    CloakingTargetingDelayBonus: -10.0
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Medium Targeting Systems Stabilizer II:
+    CloakingTargetingDelayBonus: -15.0
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Tracking Diagnostic Subroutines I:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RigSize: 2.0
+    ScanSkillEwStrengthBonus: 5.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Medium Tracking Diagnostic Subroutines II:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    ScanSkillEwStrengthBonus: 7.5
+    TechLevel: 2.0
+    UpgradeCost: 300.0
   Sensor Strength Rig I:
     Drawback: -10.0
     Hp: 40.0
@@ -358,68 +316,118 @@ items:
     ScanRadarStrengthPercent: 100.0
     TechLevel: 1.0
     UpgradeCost: 100.0
-  Medium Inverted Signal Field Projector II:
+  Sensor Strength Rig II:
     Drawback: -10.0
     Hp: 40.0
     MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    ScanSkillEwStrengthBonus: 7.5
-    TechLevel: 2.0
-    UpgradeCost: 300.0
-  Large Particle Dispersion Augmentor II:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    ScanSkillEwStrengthBonus: 15.0
-    TechLevel: 2.0
-    UpgradeCost: 300.0
-  Capital Particle Dispersion Projector II:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RangeSkillBonus: 25.0
-    RigSize: 4.0
-    TechLevel: 2.0
+    RigSize: 1.0
+    ScanGravimetricStrengthPercent: 120.0
+    ScanLadarStrengthPercent: 120.0
+    ScanMagnetometricStrengthPercent: 120.0
+    ScanRadarStrengthPercent: 120.0
+    TechLevel: 1.0
     UpgradeCost: 150.0
-  Medium Tracking Diagnostic Subroutines II:
+  Small Inverted Signal Field Projector I:
     Drawback: -10.0
     Hp: 40.0
     MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    ScanSkillEwStrengthBonus: 7.5
-    TechLevel: 2.0
-    UpgradeCost: 300.0
-  Medium Particle Dispersion Projector II:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RangeSkillBonus: 25.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Large Tracking Diagnostic Subroutines I:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    RigSize: 3.0
+    RigSize: 1.0
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1.0
     UpgradeCost: 200.0
-  Medium Signal Disruption Amplifier II:
+  Small Inverted Signal Field Projector II:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    ScanSkillEwStrengthBonus: 7.5
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Small Particle Dispersion Augmentor I:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RigSize: 1.0
+    ScanSkillEwStrengthBonus: 10.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Small Particle Dispersion Augmentor II:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    ScanSkillEwStrengthBonus: 15.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Small Particle Dispersion Projector I:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RangeSkillBonus: 20.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Small Particle Dispersion Projector II:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RangeSkillBonus: 25.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Small Signal Disruption Amplifier I:
+    CapNeedBonus: -20.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Small Signal Disruption Amplifier II:
     CapNeedBonus: -25.0
     Drawback: 10.0
     Hp: 40.0
     MaxTargetRangeMultiplier: 1.0
     MetaLevel: 5.0
-    RigSize: 2.0
+    RigSize: 1.0
     TechLevel: 2.0
     UpgradeCost: 150.0
+  Small Targeting Amplifier I:
+    AgilityMultiplier: -25.0
+    Drawback: -25.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.75
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Small Targeting Systems Stabilizer I:
+    CloakingTargetingDelayBonus: -10.0
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Targeting Systems Stabilizer II:
+    CloakingTargetingDelayBonus: -15.0
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small Tracking Diagnostic Subroutines I:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxTargetRangeMultiplier: 1.0
+    RigSize: 1.0
+    ScanSkillEwStrengthBonus: 5.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
   Small Tracking Diagnostic Subroutines II:
     Drawback: -10.0
     Hp: 40.0
@@ -429,11 +437,3 @@ items:
     ScanSkillEwStrengthBonus: 7.5
     TechLevel: 2.0
     UpgradeCost: 300.0
-  Large Particle Dispersion Projector I:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxTargetRangeMultiplier: 1.0
-    RangeSkillBonus: 20.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0

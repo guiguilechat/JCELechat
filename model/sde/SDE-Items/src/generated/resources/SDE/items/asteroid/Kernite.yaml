@@ -1,4 +1,46 @@
 items:
+  Compressed Fiery Kernite:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 3.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 20.0
+    ReprocessingSkillType: 12188.0
+    RequiredSkill1: 3386.0
+  Compressed Kernite:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 1.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 20.0
+    ReprocessingSkillType: 12188.0
+    RequiredSkill1: 3386.0
+  Compressed Luminous Kernite:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 2.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 20.0
+    ReprocessingSkillType: 12188.0
+    RequiredSkill1: 3386.0
+  Compressed Resplendant Kernite:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 4.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 46683.0
+    ReprocessingSkillType: 12188.0
+    RequiredSkill1: 3386.0
+  Fiery Kernite:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 3.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    CompressionQuantityNeeded: 100.0
+    CompressionTypeID: 28409.0
+    OreBasicType: 20.0
+    ReprocessingSkillType: 12188.0
+    RequiredSkill1: 3386.0
   Kernite:
     AsteroidMaxRadius: 16255.0
     AsteroidMetaLevel: 1.0
@@ -19,50 +61,6 @@ items:
     OreBasicType: 20.0
     ReprocessingSkillType: 12188.0
     RequiredSkill1: 3386.0
-  Resplendant Kernite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 4.0
-    AsteroidRadiusGrowthFactor: 0.18000000715255737
-    AsteroidRadiusUnitSize: 600.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 46699.0
-    OreBasicType: 46683.0
-    ReprocessingSkillType: 12188.0
-    RequiredSkill1: 3386.0
-  Compressed Luminous Kernite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 20.0
-    ReprocessingSkillType: 12188.0
-    RequiredSkill1: 3386.0
-  Compressed Fiery Kernite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 20.0
-    ReprocessingSkillType: 12188.0
-    RequiredSkill1: 3386.0
-  Fiery Kernite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28409.0
-    OreBasicType: 20.0
-    ReprocessingSkillType: 12188.0
-    RequiredSkill1: 3386.0
-  Compressed Kernite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 20.0
-    ReprocessingSkillType: 12188.0
-    RequiredSkill1: 3386.0
   Lyavite:
     AsteroidMaxRadius: 16255.0
     AsteroidRadiusGrowthFactor: 1.0
@@ -70,11 +68,13 @@ items:
     OreBasicType: 20.0
     ReprocessingSkillType: 12188.0
     RequiredSkill1: 3386.0
-  Compressed Resplendant Kernite:
-    AsteroidMaxRadius: 16255.0
+  Resplendant Kernite:
+    AsteroidMaxRadius: 5000.0
     AsteroidMetaLevel: 4.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
+    AsteroidRadiusGrowthFactor: 0.18000000715255737
+    AsteroidRadiusUnitSize: 600.0
+    CompressionQuantityNeeded: 100.0
+    CompressionTypeID: 46699.0
     OreBasicType: 46683.0
     ReprocessingSkillType: 12188.0
     RequiredSkill1: 3386.0

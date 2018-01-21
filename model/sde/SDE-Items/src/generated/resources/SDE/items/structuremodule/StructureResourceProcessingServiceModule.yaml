@@ -1,5 +1,5 @@
 items:
-  Standup Hybrid Reactor I:
+  Standup Biochemical Reactor I:
     CanFitShipGroup01: 1406.0
     Cpu: 1000.0
     DisallowInHighSec: 1.0
@@ -29,7 +29,7 @@ items:
     ServiceModuleFuelConsumptionGroup: 1136.0
     ServiceModuleFuelOnlineAmount: 864.0
     StructureItemVisualFlag: 1.0
-  Standup Biochemical Reactor I:
+  Standup Hybrid Reactor I:
     CanFitShipGroup01: 1406.0
     Cpu: 1000.0
     DisallowInHighSec: 1.0

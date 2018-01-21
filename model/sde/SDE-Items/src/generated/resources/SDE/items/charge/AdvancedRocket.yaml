@@ -1,31 +1,4 @@
 items:
-  Scourge Rage Rocket:
-    Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 34.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1000.0
-    AoeVelocity: 129.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 90.0
-    KineticDamage: 44.599998474121094
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 507.0
-    MaxVelocity: 1875.0
-    MetaLevel: 5.0
-    RequiredSkill1: 20209.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3320.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
-    StructureUniformity: 1.0
-    TechLevel: 2.0
-    ThermalDamageResonance: 1.0
   Inferno Javelin Rocket:
     Agility: 0.0019947297405451536
     AoeCloudSize: 20.0
@@ -52,6 +25,33 @@ items:
     TechLevel: 2.0
     ThermalDamage: 29.700000762939453
     ThermalDamageResonance: 0.800000011920929
+  Inferno Rage Rocket:
+    Agility: 5.220125675201416
+    AimedLaunch: 1.0
+    AoeCloudSize: 34.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1000.0
+    AoeVelocity: 129.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 2000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 90.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 507.0
+    MaxVelocity: 1875.0
+    MetaLevel: 5.0
+    RequiredSkill1: 20209.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3320.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3319.0
+    RequiredSkill3Level: 5.0
+    StructureUniformity: 1.0
+    TechLevel: 2.0
+    ThermalDamage: 44.599998474121094
+    ThermalDamageResonance: 0.800000011920929
   Mjolnir Javelin Rocket:
     Agility: 0.0019947297405451536
     AoeCloudSize: 20.0
@@ -64,32 +64,6 @@ items:
     EmDamageResonance: 0.800000011920929
     ExplosionDelay: 2000.0
     ExplosiveDamageResonance: 1.0
-    Hp: 90.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 507.0
-    MaxVelocity: 3375.0
-    MetaLevel: 5.0
-    RequiredSkill1: 20209.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3320.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
-    StructureUniformity: 1.0
-    TechLevel: 2.0
-    ThermalDamageResonance: 1.0
-  Nova Javelin Rocket:
-    Agility: 0.0019947297405451536
-    AoeCloudSize: 20.0
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 3000.0
-    AoeVelocity: 150.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2000.0
-    ExplosiveDamage: 29.700000762939453
-    ExplosiveDamageResonance: 0.800000011920929
     Hp: 90.0
     KineticDamageResonance: 1.0
     LauncherGroup: 507.0
@@ -131,34 +105,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2.0
     ThermalDamageResonance: 1.0
-  Inferno Rage Rocket:
-    Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 34.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1000.0
-    AoeVelocity: 129.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 90.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 507.0
-    MaxVelocity: 1875.0
-    MetaLevel: 5.0
-    RequiredSkill1: 20209.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3320.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
-    StructureUniformity: 1.0
-    TechLevel: 2.0
-    ThermalDamage: 44.599998474121094
-    ThermalDamageResonance: 0.800000011920929
-  Scourge Javelin Rocket:
+  Nova Javelin Rocket:
     Agility: 0.0019947297405451536
     AoeCloudSize: 20.0
     AoeDamageReductionFactor: 0.6819999814033508
@@ -168,10 +115,10 @@ items:
     DetonationRange: 35.0
     EmDamageResonance: 1.0
     ExplosionDelay: 2000.0
-    ExplosiveDamageResonance: 1.0
+    ExplosiveDamage: 29.700000762939453
+    ExplosiveDamageResonance: 0.800000011920929
     Hp: 90.0
-    KineticDamage: 29.700000762939453
-    KineticDamageResonance: 0.800000011920929
+    KineticDamageResonance: 1.0
     LauncherGroup: 507.0
     MaxVelocity: 3375.0
     MetaLevel: 5.0
@@ -199,6 +146,59 @@ items:
     ExplosiveDamageResonance: 0.800000011920929
     Hp: 90.0
     KineticDamageResonance: 1.0
+    LauncherGroup: 507.0
+    MaxVelocity: 1875.0
+    MetaLevel: 5.0
+    RequiredSkill1: 20209.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3320.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3319.0
+    RequiredSkill3Level: 5.0
+    StructureUniformity: 1.0
+    TechLevel: 2.0
+    ThermalDamageResonance: 1.0
+  Scourge Javelin Rocket:
+    Agility: 0.0019947297405451536
+    AoeCloudSize: 20.0
+    AoeDamageReductionFactor: 0.6819999814033508
+    AoeFalloff: 3000.0
+    AoeVelocity: 150.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 2000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 90.0
+    KineticDamage: 29.700000762939453
+    KineticDamageResonance: 0.800000011920929
+    LauncherGroup: 507.0
+    MaxVelocity: 3375.0
+    MetaLevel: 5.0
+    RequiredSkill1: 20209.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3320.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3319.0
+    RequiredSkill3Level: 5.0
+    StructureUniformity: 1.0
+    TechLevel: 2.0
+    ThermalDamageResonance: 1.0
+  Scourge Rage Rocket:
+    Agility: 5.220125675201416
+    AimedLaunch: 1.0
+    AoeCloudSize: 34.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1000.0
+    AoeVelocity: 129.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 2000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 90.0
+    KineticDamage: 44.599998474121094
+    KineticDamageResonance: 0.800000011920929
     LauncherGroup: 507.0
     MaxVelocity: 1875.0
     MetaLevel: 5.0

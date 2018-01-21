@@ -1,23 +1,4 @@
 items:
-  Medium Micro Jump Drive:
-    CanFitShipGroup02: 419.0
-    CanFitShipGroup03: 540.0
-    CanFitShipGroup04: 380.0
-    CapacitorNeed: 197.0
-    Cpu: 51.0
-    DisallowEarlyDeactivation: 1.0
-    DisallowRepeatingActivation: 1.0
-    Duration: 12000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MetaLevel: 1.0
-    ModuleReactivationDelay: 180000.0
-    Power: 165.0
-    RequiredSkill1: 4385.0
-    RequiredSkill1Level: 1.0
-    SignatureRadiusBonusPercent: 150.0
-    TechLevel: 1.0
   Large Micro Jump Drive:
     CanFitShipGroup01: 27.0
     CanFitShipGroup02: 898.0
@@ -33,6 +14,25 @@ items:
     MetaLevel: 1.0
     ModuleReactivationDelay: 180000.0
     Power: 1375.0
+    RequiredSkill1: 4385.0
+    RequiredSkill1Level: 1.0
+    SignatureRadiusBonusPercent: 150.0
+    TechLevel: 1.0
+  Medium Micro Jump Drive:
+    CanFitShipGroup02: 419.0
+    CanFitShipGroup03: 540.0
+    CanFitShipGroup04: 380.0
+    CapacitorNeed: 197.0
+    Cpu: 51.0
+    DisallowEarlyDeactivation: 1.0
+    DisallowRepeatingActivation: 1.0
+    Duration: 12000.0
+    Hp: 40.0
+    MaxGroupActive: 1.0
+    MaxGroupFitted: 1.0
+    MetaLevel: 1.0
+    ModuleReactivationDelay: 180000.0
+    Power: 165.0
     RequiredSkill1: 4385.0
     RequiredSkill1Level: 1.0
     SignatureRadiusBonusPercent: 150.0

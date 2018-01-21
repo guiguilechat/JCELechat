@@ -1,19 +1,16 @@
 items:
-  Genolution Core Augmentation CA-4:
-    AgilityBonus: -1.5
-    ArmorHpBonus2: 1.5
-    ImplantSetChristmas: 1.2000000476837158
-    Implantness: 2.0
-    MemoryBonus: 3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
   Cybernetic 'Source' Subprocessor:
     ImplantSetChristmas: 1.0
     Implantness: 4.0
     IntelligenceBonus: 4.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Genolution 'Auroral' AU-79:
+    FollowsJumpClones: 1.0
+    ImplantSetChristmas: 1.0
+    Implantness: 79.0
+    Nondestructible: 1.0
     TechLevel: 1.0
   Genolution Core Augmentation CA-1:
     CapacitorCapacityBonus: 1.5
@@ -24,18 +21,14 @@ items:
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 2.0
     TechLevel: 1.0
-  Neural 'Source' Boost:
-    ImplantSetChristmas: 1.0
-    Implantness: 3.0
+  Genolution Core Augmentation CA-2:
+    CapRechargeBonus: -1.5
+    CpuOutputBonus2: 1.5
+    ImplantSetChristmas: 1.399999976158142
+    Implantness: 4.0
+    IntelligenceBonus: 3.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 2.0
-    TechLevel: 1.0
-    WillpowerBonus: 4.0
-  Genolution 'Auroral' AU-79:
-    FollowsJumpClones: 1.0
-    ImplantSetChristmas: 1.0
-    Implantness: 79.0
-    Nondestructible: 1.0
     TechLevel: 1.0
   Genolution Core Augmentation CA-3:
     ImplantBonusVelocity: 1.5
@@ -46,12 +39,19 @@ items:
     ShieldCapacityBonus: 1.5
     TechLevel: 1.0
     WillpowerBonus: 3.0
-  Genolution Core Augmentation CA-2:
-    CapRechargeBonus: -1.5
-    CpuOutputBonus2: 1.5
-    ImplantSetChristmas: 1.399999976158142
-    Implantness: 4.0
-    IntelligenceBonus: 3.0
+  Genolution Core Augmentation CA-4:
+    AgilityBonus: -1.5
+    ArmorHpBonus2: 1.5
+    ImplantSetChristmas: 1.2000000476837158
+    Implantness: 2.0
+    MemoryBonus: 3.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 2.0
     TechLevel: 1.0
+  Neural 'Source' Boost:
+    ImplantSetChristmas: 1.0
+    Implantness: 3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+    WillpowerBonus: 4.0

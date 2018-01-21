@@ -37,13 +37,14 @@ items:
     TechLevel: 2.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
-  Storm S:
+  Barrage S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1.0
     CpuMultiplier: 1.0
-    EmDamage: 7.0
     EntityFlyRangeMultiplier: 1.0
-    FallofMultiplier: 1.0
+    ExplosiveDamage: 6.0
+    FallofMultiplier: 1.399999976158142
+    KineticDamage: 5.0
     LauncherGroup: 55.0
     MainColor: 1.1835778E7
     MaxVelocityModifier: 1.0
@@ -53,17 +54,16 @@ items:
     RequiredSkill1Level: 1.0
     SpeedMultiplier: 1.0
     TechLevel: 2.0
-    ThermalDamage: 5.0
-    TrackingSpeedMultiplier: 1.0
+    TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
-  Hail XL:
+  Barrage XL:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4.0
     CpuMultiplier: 1.0
-    EntityFlyRangeMultiplier: 0.5
-    ExplosiveDamage: 96.80000305175781
-    FallofMultiplier: 0.75
-    KineticDamage: 26.399999618530273
+    EntityFlyRangeMultiplier: 1.0
+    ExplosiveDamage: 48.0
+    FallofMultiplier: 1.399999976158142
+    KineticDamage: 40.0
     LauncherGroup: 55.0
     MainColor: 1.1835778E7
     MaxVelocityModifier: 1.0
@@ -73,22 +73,22 @@ items:
     RequiredSkill1Level: 1.0
     SpeedMultiplier: 1.0
     TechLevel: 2.0
-    TrackingSpeedMultiplier: 0.699999988079071
-    WeaponRangeMultiplier: 0.5
-  Hail S:
+    TrackingSpeedMultiplier: 0.75
+    WeaponRangeMultiplier: 1.0
+  Hail L:
     CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 1.0
+    ChargeSize: 3.0
     CpuMultiplier: 1.0
     EntityFlyRangeMultiplier: 0.5
-    ExplosiveDamage: 12.100000381469727
+    ExplosiveDamage: 48.400001525878906
     FallofMultiplier: 0.75
-    KineticDamage: 3.299999952316284
+    KineticDamage: 13.199999809265137
     LauncherGroup: 55.0
     MainColor: 1.1835778E7
     MaxVelocityModifier: 1.0
     MetaLevel: 5.0
     PowerNeedMultiplier: 1.0
-    RequiredSkill1: 11084.0
+    RequiredSkill1: 12209.0
     RequiredSkill1Level: 1.0
     SpeedMultiplier: 1.0
     TechLevel: 2.0
@@ -113,20 +113,39 @@ items:
     TechLevel: 2.0
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
-  Hail L:
+  Hail S:
     CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 3.0
+    ChargeSize: 1.0
     CpuMultiplier: 1.0
     EntityFlyRangeMultiplier: 0.5
-    ExplosiveDamage: 48.400001525878906
+    ExplosiveDamage: 12.100000381469727
     FallofMultiplier: 0.75
-    KineticDamage: 13.199999809265137
+    KineticDamage: 3.299999952316284
     LauncherGroup: 55.0
     MainColor: 1.1835778E7
     MaxVelocityModifier: 1.0
     MetaLevel: 5.0
     PowerNeedMultiplier: 1.0
-    RequiredSkill1: 12209.0
+    RequiredSkill1: 11084.0
+    RequiredSkill1Level: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 0.699999988079071
+    WeaponRangeMultiplier: 0.5
+  Hail XL:
+    CapacitorRechargeRateMultiplier: 1.0
+    ChargeSize: 4.0
+    CpuMultiplier: 1.0
+    EntityFlyRangeMultiplier: 0.5
+    ExplosiveDamage: 96.80000305175781
+    FallofMultiplier: 0.75
+    KineticDamage: 26.399999618530273
+    LauncherGroup: 55.0
+    MainColor: 1.1835778E7
+    MaxVelocityModifier: 1.0
+    MetaLevel: 5.0
+    PowerNeedMultiplier: 1.0
+    RequiredSkill1: 41403.0
     RequiredSkill1Level: 1.0
     SpeedMultiplier: 1.0
     TechLevel: 2.0
@@ -151,25 +170,6 @@ items:
     ThermalDamage: 20.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
-  Barrage XL:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 4.0
-    CpuMultiplier: 1.0
-    EntityFlyRangeMultiplier: 1.0
-    ExplosiveDamage: 48.0
-    FallofMultiplier: 1.399999976158142
-    KineticDamage: 40.0
-    LauncherGroup: 55.0
-    MainColor: 1.1835778E7
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5.0
-    PowerNeedMultiplier: 1.0
-    RequiredSkill1: 41403.0
-    RequiredSkill1Level: 1.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 1.0
   Storm M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2.0
@@ -189,14 +189,13 @@ items:
     ThermalDamage: 10.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
-  Barrage S:
+  Storm S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1.0
     CpuMultiplier: 1.0
+    EmDamage: 7.0
     EntityFlyRangeMultiplier: 1.0
-    ExplosiveDamage: 6.0
-    FallofMultiplier: 1.399999976158142
-    KineticDamage: 5.0
+    FallofMultiplier: 1.0
     LauncherGroup: 55.0
     MainColor: 1.1835778E7
     MaxVelocityModifier: 1.0
@@ -206,5 +205,6 @@ items:
     RequiredSkill1Level: 1.0
     SpeedMultiplier: 1.0
     TechLevel: 2.0
-    TrackingSpeedMultiplier: 0.75
+    ThermalDamage: 5.0
+    TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0

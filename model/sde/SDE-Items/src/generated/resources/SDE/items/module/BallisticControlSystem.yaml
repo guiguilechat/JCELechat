@@ -1,13 +1,24 @@
 items:
-  Muon Coil Bolt Array I:
-    Cpu: 39.0
+  '''Full Duplex'' Ballistic Control System':
+    Cpu: 22.0
     Hp: 40.0
-    MetaLevel: 2.0
-    MissileDamageMultiplierBonus: 1.0839999914169312
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    MissileDamageMultiplierBonus: 1.100000023841858
     Power: 1.0
     RequiredSkill1: 3318.0
     RequiredSkill1Level: 1.0
-    SpeedMultiplier: 0.9100000262260437
+    SpeedMultiplier: 0.8949999809265137
+    TechLevel: 1.0
+  '''Pandemonium'' Ballistic Enhancement':
+    Cpu: 42.0
+    Hp: 40.0
+    MetaLevel: 4.0
+    MissileDamageMultiplierBonus: 1.0980000495910645
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    SpeedMultiplier: 0.8949999809265137
     TechLevel: 1.0
   Ballistic 'Purge' Targeting System I:
     Cpu: 30.0
@@ -20,6 +31,36 @@ items:
     RequiredSkill1Level: 1.0
     SpeedMultiplier: 0.925000011920929
     TechLevel: 1.0
+  Ballistic Control System I:
+    Cpu: 35.0
+    Hp: 40.0
+    MissileDamageMultiplierBonus: 1.0700000524520874
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    SpeedMultiplier: 0.9200000166893005
+    TechLevel: 1.0
+  Ballistic Control System II:
+    Cpu: 40.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    MissileDamageMultiplierBonus: 1.100000023841858
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 4.0
+    SpeedMultiplier: 0.8949999809265137
+    TechLevel: 2.0
+  Caldari Navy Ballistic Control System:
+    Cpu: 24.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    MissileDamageMultiplierBonus: 1.1200000047683716
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1.0
   Crosslink Compact Ballistic Control System:
     Cpu: 31.0
     Hp: 40.0
@@ -30,7 +71,29 @@ items:
     RequiredSkill1Level: 1.0
     SpeedMultiplier: 0.9049999713897705
     TechLevel: 1.0
-  Tobias' Modified Ballistic Control System:
+  Domination Ballistic Control System:
+    Cpu: 24.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    MissileDamageMultiplierBonus: 1.1200000047683716
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1.0
+  Dread Guristas Ballistic Control System:
+    Cpu: 24.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    MissileDamageMultiplierBonus: 1.1200000047683716
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1.0
+  Estamel's Modified Ballistic Control System:
     Cpu: 34.0
     Hp: 40.0
     MetaGroupID: 5.0
@@ -52,6 +115,17 @@ items:
     RequiredSkill1Level: 1.0
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1.0
+  Hakim's Modified Ballistic Control System:
+    Cpu: 29.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    MissileDamageMultiplierBonus: 1.1349999904632568
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1.0
   Kaatara's Custom Ballistic Control System:
     Cpu: 38.0
     Hp: 40.0
@@ -63,7 +137,18 @@ items:
     RequiredSkill1Level: 1.0
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1.0
-  Domination Ballistic Control System:
+  Kaikka's Modified Ballistic Control System:
+    Cpu: 26.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    MissileDamageMultiplierBonus: 1.1299999952316284
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    SpeedMultiplier: 0.8899999856948853
+    TechLevel: 1.0
+  Khanid Navy Ballistic Control System:
     Cpu: 24.0
     Hp: 40.0
     MetaGroupID: 4.0
@@ -85,23 +170,32 @@ items:
     RequiredSkill1Level: 1.0
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1.0
-  Caldari Navy Ballistic Control System:
+  Multiphasic Bolt Array I:
+    Cpu: 40.0
+    Hp: 40.0
+    MetaLevel: 3.0
+    MissileDamageMultiplierBonus: 1.090999960899353
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    SpeedMultiplier: 0.9024999737739563
+    TechLevel: 1.0
+  Muon Coil Bolt Array I:
+    Cpu: 39.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    MissileDamageMultiplierBonus: 1.0839999914169312
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    SpeedMultiplier: 0.9100000262260437
+    TechLevel: 1.0
+  Republic Fleet Ballistic Control System:
     Cpu: 24.0
     Hp: 40.0
     MetaGroupID: 4.0
     MetaLevel: 8.0
     MissileDamageMultiplierBonus: 1.1200000047683716
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    SpeedMultiplier: 0.8899999856948853
-    TechLevel: 1.0
-  Hakim's Modified Ballistic Control System:
-    Cpu: 29.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    MissileDamageMultiplierBonus: 1.1349999904632568
     Power: 1.0
     RequiredSkill1: 3318.0
     RequiredSkill1Level: 1.0
@@ -118,49 +212,7 @@ items:
     RequiredSkill1Level: 1.0
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1.0
-  Khanid Navy Ballistic Control System:
-    Cpu: 24.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    MissileDamageMultiplierBonus: 1.1200000047683716
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    SpeedMultiplier: 0.8899999856948853
-    TechLevel: 1.0
-  Ballistic Control System I:
-    Cpu: 35.0
-    Hp: 40.0
-    MissileDamageMultiplierBonus: 1.0700000524520874
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    SpeedMultiplier: 0.9200000166893005
-    TechLevel: 1.0
-  Kaikka's Modified Ballistic Control System:
-    Cpu: 26.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    MissileDamageMultiplierBonus: 1.1299999952316284
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    SpeedMultiplier: 0.8899999856948853
-    TechLevel: 1.0
-  '''Full Duplex'' Ballistic Control System':
-    Cpu: 22.0
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    MissileDamageMultiplierBonus: 1.100000023841858
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    SpeedMultiplier: 0.8949999809265137
-    TechLevel: 1.0
-  Estamel's Modified Ballistic Control System:
+  Tobias' Modified Ballistic Control System:
     Cpu: 34.0
     Hp: 40.0
     MetaGroupID: 5.0
@@ -171,64 +223,12 @@ items:
     RequiredSkill1Level: 1.0
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1.0
-  Dread Guristas Ballistic Control System:
-    Cpu: 24.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    MissileDamageMultiplierBonus: 1.1200000047683716
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    SpeedMultiplier: 0.8899999856948853
-    TechLevel: 1.0
-  Ballistic Control System II:
-    Cpu: 40.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    MissileDamageMultiplierBonus: 1.100000023841858
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 4.0
-    SpeedMultiplier: 0.8949999809265137
-    TechLevel: 2.0
   Vepas' Modified Ballistic Control System:
     Cpu: 31.0
     Hp: 40.0
     MetaGroupID: 5.0
     MetaLevel: 15.0
     MissileDamageMultiplierBonus: 1.1399999856948853
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    SpeedMultiplier: 0.8899999856948853
-    TechLevel: 1.0
-  Multiphasic Bolt Array I:
-    Cpu: 40.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    MissileDamageMultiplierBonus: 1.090999960899353
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    SpeedMultiplier: 0.9024999737739563
-    TechLevel: 1.0
-  '''Pandemonium'' Ballistic Enhancement':
-    Cpu: 42.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    MissileDamageMultiplierBonus: 1.0980000495910645
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    SpeedMultiplier: 0.8949999809265137
-    TechLevel: 1.0
-  Republic Fleet Ballistic Control System:
-    Cpu: 24.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    MissileDamageMultiplierBonus: 1.1200000047683716
     Power: 1.0
     RequiredSkill1: 3318.0
     RequiredSkill1Level: 1.0

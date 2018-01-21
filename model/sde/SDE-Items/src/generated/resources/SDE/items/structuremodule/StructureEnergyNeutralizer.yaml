@@ -1,22 +1,4 @@
 items:
-  Standup XL Energy Neutralizer I:
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
-    CapacitorNeed: 4500.0
-    Cpu: 1500.0
-    Duration: 30000.0
-    EnergyNeutralizerAmount: 11000.0
-    EnergyNeutralizerSignatureResolution: 15000.0
-    EntityCapacitorLevelModifierLarge: 0.8999999761581421
-    EntityCapacitorLevelModifierMedium: 0.5799999833106995
-    EntityCapacitorLevelModifierSmall: 0.3499999940395355
-    FalloffEffectiveness: 100000.0
-    Hp: 40.0
-    MaxRange: 150000.0
-    Power: 150000.0
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
   Dark Blood Standup Heavy Energy Neutralizer:
     CanFitShipGroup01: 1657.0
     CanFitShipGroup02: 1404.0
@@ -51,5 +33,23 @@ items:
     Hp: 40.0
     MaxRange: 100000.0
     Power: 100000.0
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup XL Energy Neutralizer I:
+    CanFitShipGroup01: 1657.0
+    CanFitShipGroup02: 1404.0
+    CanFitShipGroup03: 1406.0
+    CapacitorNeed: 4500.0
+    Cpu: 1500.0
+    Duration: 30000.0
+    EnergyNeutralizerAmount: 11000.0
+    EnergyNeutralizerSignatureResolution: 15000.0
+    EntityCapacitorLevelModifierLarge: 0.8999999761581421
+    EntityCapacitorLevelModifierMedium: 0.5799999833106995
+    EntityCapacitorLevelModifierSmall: 0.3499999940395355
+    FalloffEffectiveness: 100000.0
+    Hp: 40.0
+    MaxRange: 150000.0
+    Power: 150000.0
     StructureItemVisualFlag: 1.0
     TechLevel: 1.0

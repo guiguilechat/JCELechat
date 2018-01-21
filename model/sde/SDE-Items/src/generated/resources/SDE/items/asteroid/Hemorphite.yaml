@@ -1,22 +1,26 @@
 items:
-  Hemorphite:
+  Compressed Hemorphite:
     AsteroidMaxRadius: 16255.0
     AsteroidMetaLevel: 1.0
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28403.0
     OreBasicType: 1231.0
     ReprocessingSkillType: 12186.0
     RequiredSkill1: 3386.0
-  Vivid Hemorphite:
+  Compressed Radiant Hemorphite:
     AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMetaLevel: 3.0
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28405.0
     OreBasicType: 1231.0
+    ReprocessingSkillType: 12186.0
+    RequiredSkill1: 3386.0
+  Compressed Scintillating Hemorphite:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 4.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 46681.0
     ReprocessingSkillType: 12186.0
     RequiredSkill1: 3386.0
   Compressed Vivid Hemorphite:
@@ -24,6 +28,16 @@ items:
     AsteroidMetaLevel: 2.0
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 1231.0
+    ReprocessingSkillType: 12186.0
+    RequiredSkill1: 3386.0
+  Hemorphite:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 1.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    CompressionQuantityNeeded: 100.0
+    CompressionTypeID: 28403.0
     OreBasicType: 1231.0
     ReprocessingSkillType: 12186.0
     RequiredSkill1: 3386.0
@@ -47,27 +61,13 @@ items:
     OreBasicType: 46681.0
     ReprocessingSkillType: 12186.0
     RequiredSkill1: 3386.0
-  Compressed Radiant Hemorphite:
+  Vivid Hemorphite:
     AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMetaLevel: 2.0
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1231.0
-    ReprocessingSkillType: 12186.0
-    RequiredSkill1: 3386.0
-  Compressed Scintillating Hemorphite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 4.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 46681.0
-    ReprocessingSkillType: 12186.0
-    RequiredSkill1: 3386.0
-  Compressed Hemorphite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
+    CompressionQuantityNeeded: 100.0
+    CompressionTypeID: 28405.0
     OreBasicType: 1231.0
     ReprocessingSkillType: 12186.0
     RequiredSkill1: 3386.0

@@ -14,39 +14,6 @@ items:
     RequiredSkill1: 24613.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Unit W-634's Modified Fighter Support Unit:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 659.0
-    CanFitShipType1: 45647.0
-    CanFitShipType2: 45649.0
-    Cpu: 50.0
-    FighterBonusROFPercent: 0.9240000247955322
-    FighterBonusShieldCapacityPercent: 1.0759999752044678
-    FighterBonusShieldRechargePercent: 0.9240000247955322
-    FighterBonusVelocityPercent: 1.0759999752044678
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    Power: 75000.0
-    RequiredSkill1: 24613.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Hermes Compact Fighter Support Unit:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 659.0
-    CanFitShipType1: 45647.0
-    CanFitShipType2: 45649.0
-    Cpu: 60.0
-    FighterBonusROFPercent: 0.9449999928474426
-    FighterBonusShieldCapacityPercent: 1.0549999475479126
-    FighterBonusShieldRechargePercent: 0.9449999928474426
-    FighterBonusVelocityPercent: 1.0549999475479126
-    Hp: 40.0
-    MetaLevel: 1.0
-    Power: 60000.0
-    RequiredSkill1: 24613.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
   Fighter Support Unit II:
     CanFitShipGroup01: 547.0
     CanFitShipGroup02: 659.0
@@ -63,6 +30,22 @@ items:
     RequiredSkill1: 24613.0
     RequiredSkill1Level: 4.0
     TechLevel: 2.0
+  Hermes Compact Fighter Support Unit:
+    CanFitShipGroup01: 547.0
+    CanFitShipGroup02: 659.0
+    CanFitShipType1: 45647.0
+    CanFitShipType2: 45649.0
+    Cpu: 60.0
+    FighterBonusROFPercent: 0.9449999928474426
+    FighterBonusShieldCapacityPercent: 1.0549999475479126
+    FighterBonusShieldRechargePercent: 0.9449999928474426
+    FighterBonusVelocityPercent: 1.0549999475479126
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 60000.0
+    RequiredSkill1: 24613.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
   Sentient Fighter Support Unit:
     CanFitShipGroup01: 547.0
     CanFitShipGroup02: 659.0
@@ -77,23 +60,6 @@ items:
     MetaGroupID: 4.0
     MetaLevel: 8.0
     Power: 80000.0
-    RequiredSkill1: 24613.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Unit P-343554's Modified Fighter Support Unit:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 659.0
-    CanFitShipType1: 45647.0
-    CanFitShipType2: 45649.0
-    Cpu: 53.0
-    FighterBonusROFPercent: 0.9259999990463257
-    FighterBonusShieldCapacityPercent: 1.0740000009536743
-    FighterBonusShieldRechargePercent: 0.9259999990463257
-    FighterBonusVelocityPercent: 1.0740000009536743
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    Power: 75000.0
     RequiredSkill1: 24613.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
@@ -127,6 +93,40 @@ items:
     Hp: 40.0
     MetaGroupID: 5.0
     MetaLevel: 12.0
+    Power: 75000.0
+    RequiredSkill1: 24613.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Unit P-343554's Modified Fighter Support Unit:
+    CanFitShipGroup01: 547.0
+    CanFitShipGroup02: 659.0
+    CanFitShipType1: 45647.0
+    CanFitShipType2: 45649.0
+    Cpu: 53.0
+    FighterBonusROFPercent: 0.9259999990463257
+    FighterBonusShieldCapacityPercent: 1.0740000009536743
+    FighterBonusShieldRechargePercent: 0.9259999990463257
+    FighterBonusVelocityPercent: 1.0740000009536743
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    Power: 75000.0
+    RequiredSkill1: 24613.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Unit W-634's Modified Fighter Support Unit:
+    CanFitShipGroup01: 547.0
+    CanFitShipGroup02: 659.0
+    CanFitShipType1: 45647.0
+    CanFitShipType2: 45649.0
+    Cpu: 50.0
+    FighterBonusROFPercent: 0.9240000247955322
+    FighterBonusShieldCapacityPercent: 1.0759999752044678
+    FighterBonusShieldRechargePercent: 0.9240000247955322
+    FighterBonusVelocityPercent: 1.0759999752044678
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
     Power: 75000.0
     RequiredSkill1: 24613.0
     RequiredSkill1Level: 1.0

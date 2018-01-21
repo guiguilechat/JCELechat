@@ -1,8 +1,8 @@
 items:
-  Porpoise Blueprint:
-    IndustryJobCostMultiplier: 1.0
   Orca Blueprint:
     IndustryBlueprintRank: 200.0
     IndustryJobCostMultiplier: 1.0
   Orca ORE Development Edition Blueprint:
     IndustryBlueprintRank: 200.0
+  Porpoise Blueprint:
+    IndustryJobCostMultiplier: 1.0

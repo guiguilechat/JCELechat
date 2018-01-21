@@ -1,24 +1,21 @@
 items:
-  Sentinel:
-    Agility: 4.25
-    ArmorEmDamageResonance: 0.5
-    ArmorExplosiveDamageResonance: 0.4000000059604645
-    ArmorHP: 425.0
-    ArmorKineticDamageResonance: 0.5625
-    ArmorThermalDamageResonance: 0.6499999761581421
+  Hyena:
+    Agility: 3.930000066757202
+    ArmorEmDamageResonance: 0.20000000298023224
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 375.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.48750001192092896
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1.0
-    CapacitorCapacity: 415.0
-    CpuOutput: 195.0
-    DroneBandwidth: 20.0
-    DroneCapacity: 60.0
-    EliteBonusElectronicAttackShip1: 80.0
-    EliteBonusElectronicAttackShip2: -5.0
-    EliteBonusElectronicAttackShip3: 40.0
+    CapacitorCapacity: 355.0
+    CpuOutput: 145.0
+    EliteBonusElectronicAttackShip1: 40.0
+    EliteBonusElectronicAttackShip2: -3.0
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50.0
-    GfxBoosterID: 394.0
+    GfxBoosterID: 397.0
     HeatAttenuationHi: 0.5
     HeatAttenuationLow: 0.5
     HeatAttenuationMed: 0.6299999952316284
@@ -30,50 +27,52 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     HiSlots: 3.0
-    Hp: 375.0
+    Hp: 325.0
     KineticDamageResonance: 0.6700000166893005
+    LauncherSlotsLeft: 2.0
     LowSlots: 3.0
     MainColor: 1.6777215E7
     MaxDirectionalVelocity: 3000.0
     MaxLockedTargets: 7.0
-    MaxPassengers: 15.0
-    MaxTargetRange: 64000.0
-    MaxVelocity: 340.0
+    MaxPassengers: 2.0
+    MaxTargetRange: 65000.0
+    MaxVelocity: 375.0
     MedSlots: 4.0
     MetaLevel: 5.0
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    PowerOutput: 40.0
+    PowerOutput: 36.0
     PowerToSpeed: 1.0
-    PropulsionGraphicID: 394.0
-    RechargeRate: 190000.0
-    RequiredSkill1: 3331.0
+    PropulsionGraphicID: 397.0
+    RechargeRate: 175000.0
+    RequiredSkill1: 3329.0
     RequiredSkill1Level: 5.0
     RequiredSkill2: 28615.0
     RequiredSkill2Level: 1.0
     RigSize: 1.0
     RigSlots: 2.0
-    ScanRadarStrength: 21.0
-    ScanResolution: 575.0
-    ScanSpeed: 2000.0
-    ShieldCapacity: 300.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 0.25
-    ShieldKineticDamageResonance: 0.44999998807907104
+    ScanLadarStrength: 21.0
+    ScanResolution: 600.0
+    ScanSpeed: 1500.0
+    ShieldCapacity: 375.0
+    ShieldEmDamageResonance: 0.5
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 625000.0
-    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldThermalDamageResonance: 0.6000000238418579
     ShieldUniformity: 0.75
-    ShipBonus2AF: 7.5
-    ShipBonusAF: 20.0
-    SignatureRadius: 41.0
+    ShipBonus2AF: 5.0
+    ShipBonusMF: 10.0
+    ShipBonusMF2: 10.0
+    SignatureRadius: 39.0
     StructureUniformity: 1.0
     TechLevel: 2.0
     ThermalDamageResonance: 0.6700000166893005
     TurretSlotsLeft: 2.0
-    TypeColorScheme: 11338.0
+    TypeColorScheme: 11419.0
     Uniformity: 1.0
     UpgradeCapacity: 400.0
     UpgradeSlotsLeft: 2.0
-    WarpCapacitorNeed: 1.6699999605407356E-6
+    WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.5
   Keres:
     Agility: 4.099999904632568
@@ -226,23 +225,26 @@ items:
     UpgradeSlotsLeft: 2.0
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.5
-  Hyena:
-    Agility: 3.930000066757202
-    ArmorEmDamageResonance: 0.20000000298023224
-    ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 375.0
-    ArmorKineticDamageResonance: 0.75
-    ArmorThermalDamageResonance: 0.48750001192092896
+  Sentinel:
+    Agility: 4.25
+    ArmorEmDamageResonance: 0.5
+    ArmorExplosiveDamageResonance: 0.4000000059604645
+    ArmorHP: 425.0
+    ArmorKineticDamageResonance: 0.5625
+    ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1.0
-    CapacitorCapacity: 355.0
-    CpuOutput: 145.0
-    EliteBonusElectronicAttackShip1: 40.0
-    EliteBonusElectronicAttackShip2: -3.0
+    CapacitorCapacity: 415.0
+    CpuOutput: 195.0
+    DroneBandwidth: 20.0
+    DroneCapacity: 60.0
+    EliteBonusElectronicAttackShip1: 80.0
+    EliteBonusElectronicAttackShip2: -5.0
+    EliteBonusElectronicAttackShip3: 40.0
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50.0
-    GfxBoosterID: 397.0
+    GfxBoosterID: 394.0
     HeatAttenuationHi: 0.5
     HeatAttenuationLow: 0.5
     HeatAttenuationMed: 0.6299999952316284
@@ -254,50 +256,48 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     HiSlots: 3.0
-    Hp: 325.0
+    Hp: 375.0
     KineticDamageResonance: 0.6700000166893005
-    LauncherSlotsLeft: 2.0
     LowSlots: 3.0
     MainColor: 1.6777215E7
     MaxDirectionalVelocity: 3000.0
     MaxLockedTargets: 7.0
-    MaxPassengers: 2.0
-    MaxTargetRange: 65000.0
-    MaxVelocity: 375.0
+    MaxPassengers: 15.0
+    MaxTargetRange: 64000.0
+    MaxVelocity: 340.0
     MedSlots: 4.0
     MetaLevel: 5.0
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    PowerOutput: 36.0
+    PowerOutput: 40.0
     PowerToSpeed: 1.0
-    PropulsionGraphicID: 397.0
-    RechargeRate: 175000.0
-    RequiredSkill1: 3329.0
+    PropulsionGraphicID: 394.0
+    RechargeRate: 190000.0
+    RequiredSkill1: 3331.0
     RequiredSkill1Level: 5.0
     RequiredSkill2: 28615.0
     RequiredSkill2Level: 1.0
     RigSize: 1.0
     RigSlots: 2.0
-    ScanLadarStrength: 21.0
-    ScanResolution: 600.0
-    ScanSpeed: 1500.0
-    ShieldCapacity: 375.0
-    ShieldEmDamageResonance: 0.5
-    ShieldExplosiveDamageResonance: 0.5
-    ShieldKineticDamageResonance: 0.6000000238418579
+    ScanRadarStrength: 21.0
+    ScanResolution: 575.0
+    ScanSpeed: 2000.0
+    ShieldCapacity: 300.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.25
+    ShieldKineticDamageResonance: 0.44999998807907104
     ShieldRechargeRate: 625000.0
-    ShieldThermalDamageResonance: 0.6000000238418579
+    ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    ShipBonus2AF: 5.0
-    ShipBonusMF: 10.0
-    ShipBonusMF2: 10.0
-    SignatureRadius: 39.0
+    ShipBonus2AF: 7.5
+    ShipBonusAF: 20.0
+    SignatureRadius: 41.0
     StructureUniformity: 1.0
     TechLevel: 2.0
     ThermalDamageResonance: 0.6700000166893005
     TurretSlotsLeft: 2.0
-    TypeColorScheme: 11419.0
+    TypeColorScheme: 11338.0
     Uniformity: 1.0
     UpgradeCapacity: 400.0
     UpgradeSlotsLeft: 2.0
-    WarpCapacitorNeed: 2.2399999579647556E-6
+    WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.5

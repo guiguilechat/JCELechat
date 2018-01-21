@@ -1,39 +1,45 @@
 items:
-  Capital Ghoul Compact Energy Nosferatu Blueprint:
-    IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
   Ammatar Navy Heavy Energy Nosferatu Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1.0
-  Capital Energy Nosferatu II Blueprint:
-    IndustryBlueprintRank: 300.0
-    TechLevel: 2.0
-  Small Energy Nosferatu II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
   Ammatar Navy Medium Energy Nosferatu Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1.0
   Ammatar Navy Small Energy Nosferatu Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
-  Imperial Navy Medium Energy Nosferatu Blueprint:
-    IndustryBlueprintRank: 6.0
+  Capital Energy Nosferatu I Blueprint:
+    IndustryBlueprintRank: 150.0
     TechLevel: 1.0
-  Medium Energy Nosferatu II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
+  Capital Energy Nosferatu II Blueprint:
+    IndustryBlueprintRank: 300.0
     TechLevel: 2.0
+  Capital Ghoul Compact Energy Nosferatu Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  Capital Knave Scoped Energy Nosferatu Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
   Dark Blood Capital Energy Nosferatu Blueprint:
     IndustryBlueprintRank: 400.0
+    TechLevel: 1.0
+  Heavy 'Vrykolakas' Energy Nosferatu Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Heavy Energy Nosferatu I Blueprint:
+    IndustryBlueprintRank: 9.0
     TechLevel: 1.0
   Heavy Energy Nosferatu II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2.0
-  Heavy Energy Nosferatu I Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
   Imperial Navy Heavy Energy Nosferatu Blueprint:
     IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Imperial Navy Medium Energy Nosferatu Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Imperial Navy Small Energy Nosferatu Blueprint:
+    IndustryBlueprintRank: 3.0
     TechLevel: 1.0
   Medium 'Strigoi' Energy Nosferatu Blueprint:
     IndustryBlueprintRank: 6.0
@@ -41,24 +47,18 @@ items:
   Medium Energy Nosferatu I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1.0
-  Small Energy Nosferatu I Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Heavy 'Vrykolakas' Energy Nosferatu Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
-  Capital Knave Scoped Energy Nosferatu Blueprint:
-    IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
-  Capital Energy Nosferatu I Blueprint:
-    IndustryBlueprintRank: 150.0
-    TechLevel: 1.0
-  True Sansha Capital Energy Nosferatu Blueprint:
-    IndustryBlueprintRank: 400.0
-    TechLevel: 1.0
+  Medium Energy Nosferatu II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
   Small 'Upir' Energy Nosferatu Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
-  Imperial Navy Small Energy Nosferatu Blueprint:
+  Small Energy Nosferatu I Blueprint:
     IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Small Energy Nosferatu II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  True Sansha Capital Energy Nosferatu Blueprint:
+    IndustryBlueprintRank: 400.0
     TechLevel: 1.0

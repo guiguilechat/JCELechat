@@ -1,8 +1,5 @@
 items:
-  ORE Deep Core Mining Laser Blueprint:
-    IndustryBlueprintRank: 7.0
-    TechLevel: 1.0
-  Syndicate Gas Cloud Harvester Blueprint:
+  '''Crop'' Gas Cloud Harvester Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
   '''Habitat'' Miner I Blueprint':
@@ -11,27 +8,11 @@ items:
   '''Plow'' Gas Cloud Harvester Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
-  Ice Mining Laser II Blueprint:
-    TechLevel: 1.0
-  Miner II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
-  '''Crop'' Gas Cloud Harvester Blueprint':
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Miner I Blueprint:
+  '''Wild'' Miner I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
   Civilian Miner Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Gas Cloud Harvester II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
-  '''Wild'' Miner I Blueprint':
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Ice Mining Laser I Blueprint:
     TechLevel: 1.0
   Deep Core Mining Laser I Blueprint:
     IndustryBlueprintRank: 7.0
@@ -39,9 +20,28 @@ items:
   Gas Cloud Harvester I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
-  ORE Miner Blueprint:
+  Gas Cloud Harvester II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Ice Mining Laser I Blueprint:
+    TechLevel: 1.0
+  Ice Mining Laser II Blueprint:
+    TechLevel: 1.0
+  Miner I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
+  Miner II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
   Modulated Deep Core Miner II Blueprint:
     IndustryBlueprintRank: 18.200000762939453
     TechLevel: 2.0
+  ORE Deep Core Mining Laser Blueprint:
+    IndustryBlueprintRank: 7.0
+    TechLevel: 1.0
+  ORE Miner Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Syndicate Gas Cloud Harvester Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0

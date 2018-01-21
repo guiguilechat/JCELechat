@@ -1,17 +1,5 @@
 items:
-  Self-Harmonizing Power Core:
-    ExportTaxMultiplier: 1200000.0
-    ImportTaxMultiplier: 1200000.0
-  Organic Mortar Applicators:
-    ExportTaxMultiplier: 1200000.0
-    ImportTaxMultiplier: 1200000.0
   Broadcast Node:
-    ExportTaxMultiplier: 1200000.0
-    ImportTaxMultiplier: 1200000.0
-  Wetware Mainframe:
-    ExportTaxMultiplier: 1200000.0
-    ImportTaxMultiplier: 1200000.0
-  Recursive Computing Module:
     ExportTaxMultiplier: 1200000.0
     ImportTaxMultiplier: 1200000.0
   Integrity Response Drones:
@@ -20,6 +8,18 @@ items:
   Nano-Factory:
     ExportTaxMultiplier: 1200000.0
     ImportTaxMultiplier: 1200000.0
+  Organic Mortar Applicators:
+    ExportTaxMultiplier: 1200000.0
+    ImportTaxMultiplier: 1200000.0
+  Recursive Computing Module:
+    ExportTaxMultiplier: 1200000.0
+    ImportTaxMultiplier: 1200000.0
+  Self-Harmonizing Power Core:
+    ExportTaxMultiplier: 1200000.0
+    ImportTaxMultiplier: 1200000.0
   Sterile Conduits:
+    ExportTaxMultiplier: 1200000.0
+    ImportTaxMultiplier: 1200000.0
+  Wetware Mainframe:
     ExportTaxMultiplier: 1200000.0
     ImportTaxMultiplier: 1200000.0

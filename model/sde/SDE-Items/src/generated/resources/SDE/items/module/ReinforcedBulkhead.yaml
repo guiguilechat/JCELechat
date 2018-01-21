@@ -1,34 +1,4 @@
 items:
-  Marked Modified SS Reinforced Bulkheads:
-    AgilityMultiplier: 5.0
-    CargoCapacityMultiplier: 0.949999988079071
-    Cpu: 19.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3392.0
-    RequiredSkill1Level: 1.0
-    StructureHPMultiplier: 1.059999942779541
-    TechLevel: 1.0
-  Beta Hull Mod Reinforced Bulkheads:
-    AgilityMultiplier: 1.0
-    CargoCapacityMultiplier: 0.9300000071525574
-    Cpu: 32.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 1.0
-    StructureHPMultiplier: 1.1799999475479126
-    TechLevel: 1.0
-  Ore compression thingie:
-    CargoCapacityMultiplier: 0.8999999761581421
-    Cpu: 40.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 1.0
-    StructureHPMultiplier: 0.8500000238418579
-    TechLevel: 1.0
   '''Basic'' Reinforced Bulkheads':
     AgilityMultiplier: 1.0
     CargoCapacityMultiplier: 0.949999988079071
@@ -41,17 +11,27 @@ items:
     RequiredSkill1Level: 1.0
     StructureHPMultiplier: 1.100000023841858
     TechLevel: 1.0
-  Reinforced Bulkheads II:
+  Alpha Hull Mod Reinforced Bulkheads:
     AgilityMultiplier: 5.0
-    CargoCapacityMultiplier: 0.8899999856948853
-    Cpu: 40.0
+    CargoCapacityMultiplier: 0.949999988079071
+    Cpu: 17.0
     Hp: 40.0
-    MetaLevel: 5.0
+    Power: 1.0
+    RequiredSkill1: 3392.0
+    RequiredSkill1Level: 1.0
+    StructureHPMultiplier: 1.0800000429153442
+    TechLevel: 1.0
+  Beta Hull Mod Reinforced Bulkheads:
+    AgilityMultiplier: 1.0
+    CargoCapacityMultiplier: 0.9300000071525574
+    Cpu: 32.0
+    Hp: 40.0
+    MetaLevel: 3.0
     Power: 1.0
     RequiredSkill1: 3394.0
-    RequiredSkill1Level: 2.0
-    StructureHPMultiplier: 1.25
-    TechLevel: 2.0
+    RequiredSkill1Level: 1.0
+    StructureHPMultiplier: 1.1799999475479126
+    TechLevel: 1.0
   Local Hull Conversion Reinforced Bulkheads I:
     AgilityMultiplier: 1.0
     CargoCapacityMultiplier: 0.9399999976158142
@@ -63,9 +43,30 @@ items:
     RequiredSkill1Level: 1.0
     StructureHPMultiplier: 1.190000057220459
     TechLevel: 1.0
-  Syndicate Reinforced Bulkheads:
-    AgilityMultiplier: 2.0
-    CargoCapacityMultiplier: 0.8999999761581421
+  Mark I Compact Reinforced Bulkheads:
+    AgilityMultiplier: 3.0
+    CargoCapacityMultiplier: 0.9300000071525574
+    Cpu: 25.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 1.0
+    StructureHPMultiplier: 1.1799999475479126
+    TechLevel: 1.0
+  Marked Modified SS Reinforced Bulkheads:
+    AgilityMultiplier: 5.0
+    CargoCapacityMultiplier: 0.949999988079071
+    Cpu: 19.0
+    Hp: 40.0
+    Power: 1.0
+    RequiredSkill1: 3392.0
+    RequiredSkill1Level: 1.0
+    StructureHPMultiplier: 1.059999942779541
+    TechLevel: 1.0
+  ORE Reinforced Bulkheads:
+    AgilityMultiplier: 4.0
+    CargoCapacityMultiplier: 0.9399999976158142
     Cpu: 35.0
     Hp: 40.0
     MetaGroupID: 4.0
@@ -74,6 +75,15 @@ items:
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 1.0
     StructureHPMultiplier: 1.2699999809265137
+    TechLevel: 1.0
+  Ore compression thingie:
+    CargoCapacityMultiplier: 0.8999999761581421
+    Cpu: 40.0
+    Hp: 40.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 1.0
+    StructureHPMultiplier: 0.8500000238418579
     TechLevel: 1.0
   Partial Hull Conversion Reinforced Bulkheads:
     AgilityMultiplier: 5.0
@@ -95,19 +105,20 @@ items:
     RequiredSkill1Level: 1.0
     StructureHPMultiplier: 1.149999976158142
     TechLevel: 1.0
-  Alpha Hull Mod Reinforced Bulkheads:
+  Reinforced Bulkheads II:
     AgilityMultiplier: 5.0
-    CargoCapacityMultiplier: 0.949999988079071
-    Cpu: 17.0
+    CargoCapacityMultiplier: 0.8899999856948853
+    Cpu: 40.0
     Hp: 40.0
+    MetaLevel: 5.0
     Power: 1.0
-    RequiredSkill1: 3392.0
-    RequiredSkill1Level: 1.0
-    StructureHPMultiplier: 1.0800000429153442
-    TechLevel: 1.0
-  ORE Reinforced Bulkheads:
-    AgilityMultiplier: 4.0
-    CargoCapacityMultiplier: 0.9399999976158142
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 2.0
+    StructureHPMultiplier: 1.25
+    TechLevel: 2.0
+  Syndicate Reinforced Bulkheads:
+    AgilityMultiplier: 2.0
+    CargoCapacityMultiplier: 0.8999999761581421
     Cpu: 35.0
     Hp: 40.0
     MetaGroupID: 4.0
@@ -116,27 +127,6 @@ items:
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 1.0
     StructureHPMultiplier: 1.2699999809265137
-    TechLevel: 1.0
-  Type-E Altered SS Reinforced Bulkheads:
-    AgilityMultiplier: 5.0
-    CargoCapacityMultiplier: 0.949999988079071
-    Cpu: 18.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3392.0
-    RequiredSkill1Level: 1.0
-    StructureHPMultiplier: 1.0700000524520874
-    TechLevel: 1.0
-  Type-D Restrained Reinforced Bulkheads:
-    AgilityMultiplier: 1.0
-    CargoCapacityMultiplier: 0.949999988079071
-    Cpu: 35.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 1.0
-    StructureHPMultiplier: 1.1799999475479126
     TechLevel: 1.0
   Synthetic Hull Conversion Reinforced Bulkheads:
     AgilityMultiplier: 3.0
@@ -150,14 +140,24 @@ items:
     RequiredSkill1Level: 1.0
     StructureHPMultiplier: 1.2000000476837158
     TechLevel: 1.0
-  Mark I Compact Reinforced Bulkheads:
-    AgilityMultiplier: 3.0
-    CargoCapacityMultiplier: 0.9300000071525574
-    Cpu: 25.0
+  Type-D Restrained Reinforced Bulkheads:
+    AgilityMultiplier: 1.0
+    CargoCapacityMultiplier: 0.949999988079071
+    Cpu: 35.0
     Hp: 40.0
     MetaLevel: 1.0
     Power: 1.0
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 1.0
     StructureHPMultiplier: 1.1799999475479126
+    TechLevel: 1.0
+  Type-E Altered SS Reinforced Bulkheads:
+    AgilityMultiplier: 5.0
+    CargoCapacityMultiplier: 0.949999988079071
+    Cpu: 18.0
+    Hp: 40.0
+    Power: 1.0
+    RequiredSkill1: 3392.0
+    RequiredSkill1Level: 1.0
+    StructureHPMultiplier: 1.0700000524520874
     TechLevel: 1.0

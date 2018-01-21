@@ -1,50 +1,4 @@
 items:
-  Large Ancillary Remote Armor Repairer:
-    ArmorDamageAmount: 290.0
-    CapacitorNeed: 330.0
-    ChargeGroup1: 916.0
-    ChargeRate: 8.0
-    ChargedArmorDamageMultiplier: 3.0
-    Cpu: 40.0
-    Duration: 6000.0
-    FalloffEffectiveness: 3500.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.0
-    Hp: 40.0
-    MaxGroupFitted: 1.0
-    MaxRange: 12000.0
-    MediumRemoteRepFittingMultiplier: 1.0
-    OverloadSelfDurationBonus: -15.0
-    Power: 600.0
-    ReloadTime: 60000.0
-    RemoteResistanceID: 2116.0
-    RequiredSkill1: 16069.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Small Ancillary Remote Armor Repairer:
-    ArmorDamageAmount: 37.0
-    CapacitorNeed: 38.0
-    ChargeGroup1: 916.0
-    ChargeRate: 1.0
-    ChargedArmorDamageMultiplier: 3.0
-    Cpu: 10.0
-    Duration: 3000.0
-    FalloffEffectiveness: 2500.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40.0
-    MaxGroupFitted: 1.0
-    MaxRange: 7000.0
-    MediumRemoteRepFittingMultiplier: 1.0
-    OverloadSelfDurationBonus: -15.0
-    Power: 6.0
-    ReloadTime: 60000.0
-    RemoteResistanceID: 2116.0
-    RequiredSkill1: 16069.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
   Capital Ancillary Remote Armor Repairer:
     ArmorDamageAmount: 530.0
     CapacitorNeed: 1770.0
@@ -70,6 +24,29 @@ items:
     RequiredSkill2Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
+  Large Ancillary Remote Armor Repairer:
+    ArmorDamageAmount: 290.0
+    CapacitorNeed: 330.0
+    ChargeGroup1: 916.0
+    ChargeRate: 8.0
+    ChargedArmorDamageMultiplier: 3.0
+    Cpu: 40.0
+    Duration: 6000.0
+    FalloffEffectiveness: 3500.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 2.0
+    Hp: 40.0
+    MaxGroupFitted: 1.0
+    MaxRange: 12000.0
+    MediumRemoteRepFittingMultiplier: 1.0
+    OverloadSelfDurationBonus: -15.0
+    Power: 600.0
+    ReloadTime: 60000.0
+    RemoteResistanceID: 2116.0
+    RequiredSkill1: 16069.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
   Medium Ancillary Remote Armor Repairer:
     ArmorDamageAmount: 145.0
     CapacitorNeed: 155.0
@@ -91,5 +68,28 @@ items:
     RemoteResistanceID: 2116.0
     RequiredSkill1: 16069.0
     RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Small Ancillary Remote Armor Repairer:
+    ArmorDamageAmount: 37.0
+    CapacitorNeed: 38.0
+    ChargeGroup1: 916.0
+    ChargeRate: 1.0
+    ChargedArmorDamageMultiplier: 3.0
+    Cpu: 10.0
+    Duration: 3000.0
+    FalloffEffectiveness: 2500.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.0
+    Hp: 40.0
+    MaxGroupFitted: 1.0
+    MaxRange: 7000.0
+    MediumRemoteRepFittingMultiplier: 1.0
+    OverloadSelfDurationBonus: -15.0
+    Power: 6.0
+    ReloadTime: 60000.0
+    RemoteResistanceID: 2116.0
+    RequiredSkill1: 16069.0
+    RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0

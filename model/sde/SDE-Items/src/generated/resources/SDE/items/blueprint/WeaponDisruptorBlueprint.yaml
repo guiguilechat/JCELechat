@@ -1,17 +1,17 @@
 items:
-  Tracking Disruptor I Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  Guidance Disruptor II Blueprint:
-    TechLevel: 2.0
-  Guidance Disruptor I Blueprint:
-    TechLevel: 1.0
-  Tracking Disruptor II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
   '''Distributor'' Guidance Disruptor Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1.0
   '''Investor'' Tracking Disruptor I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1.0
+  Guidance Disruptor I Blueprint:
+    TechLevel: 1.0
+  Guidance Disruptor II Blueprint:
+    TechLevel: 2.0
+  Tracking Disruptor I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Tracking Disruptor II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0

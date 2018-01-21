@@ -1,41 +1,41 @@
 items:
-  Locust I Blueprint:
+  BakerBlueprint_PLACEHOLDER:
     TechLevel: 1.0
   CharlieBlueprint_PLACEHOLDER:
-    TechLevel: 1.0
-  Satyr II Blueprint:
-    TechLevel: 2.0
-  Einherji II Blueprint:
-    TechLevel: 2.0
-  Firbolg II Blueprint:
-    TechLevel: 2.0
-  Firbolg I Blueprint:
-    IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
-  Einherji I Blueprint:
-    IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
-  Templar I Blueprint:
-    IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
-  Locust II Blueprint:
-    TechLevel: 2.0
-  Equite II Blueprint:
-    TechLevel: 2.0
-  Equite I Blueprint:
-    TechLevel: 1.0
-  Dragonfly II Blueprint:
-    TechLevel: 2.0
-  Satyr I Blueprint:
-    TechLevel: 1.0
-  Gram II Blueprint:
-    TechLevel: 2.0
-  BakerBlueprint_PLACEHOLDER:
     TechLevel: 1.0
   Dragonfly I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1.0
-  Templar II Blueprint:
+  Dragonfly II Blueprint:
+    TechLevel: 2.0
+  Einherji I Blueprint:
+    IndustryBlueprintRank: 40.0
+    TechLevel: 1.0
+  Einherji II Blueprint:
+    TechLevel: 2.0
+  Equite I Blueprint:
+    TechLevel: 1.0
+  Equite II Blueprint:
+    TechLevel: 2.0
+  Firbolg I Blueprint:
+    IndustryBlueprintRank: 40.0
+    TechLevel: 1.0
+  Firbolg II Blueprint:
     TechLevel: 2.0
   Gram I Blueprint:
     TechLevel: 1.0
+  Gram II Blueprint:
+    TechLevel: 2.0
+  Locust I Blueprint:
+    TechLevel: 1.0
+  Locust II Blueprint:
+    TechLevel: 2.0
+  Satyr I Blueprint:
+    TechLevel: 1.0
+  Satyr II Blueprint:
+    TechLevel: 2.0
+  Templar I Blueprint:
+    IndustryBlueprintRank: 40.0
+    TechLevel: 1.0
+  Templar II Blueprint:
+    TechLevel: 2.0

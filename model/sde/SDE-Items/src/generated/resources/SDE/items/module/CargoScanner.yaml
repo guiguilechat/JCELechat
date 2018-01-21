@@ -22,12 +22,24 @@ items:
     RequiredSkill1: 3426.0
     RequiredSkill1Level: 2.0
     TechLevel: 2.0
-  Type-E Enduring Cargo Scanner:
-    CapacitorNeed: 3.0
-    CargoScanRange: 55000.0
+  Interior Type-E Cargo Identifier:
+    CapacitorNeed: 4.0
+    CargoScanRange: 65000.0
     Cpu: 4.0
     DisallowRepeatingActivation: 1.0
     Duration: 3500.0
+    Hp: 40.0
+    MetaLevel: 3.0
+    Power: 1.0
+    RequiredSkill1: 3426.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  PL-0 Scoped Cargo Scanner:
+    CapacitorNeed: 4.0
+    CargoScanRange: 65000.0
+    Cpu: 4.0
+    DisallowRepeatingActivation: 1.0
+    Duration: 4000.0
     Hp: 40.0
     MetaLevel: 1.0
     Power: 1.0
@@ -46,26 +58,14 @@ items:
     RequiredSkill1: 3426.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  PL-0 Scoped Cargo Scanner:
-    CapacitorNeed: 4.0
-    CargoScanRange: 65000.0
-    Cpu: 4.0
-    DisallowRepeatingActivation: 1.0
-    Duration: 4000.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Interior Type-E Cargo Identifier:
-    CapacitorNeed: 4.0
-    CargoScanRange: 65000.0
+  Type-E Enduring Cargo Scanner:
+    CapacitorNeed: 3.0
+    CargoScanRange: 55000.0
     Cpu: 4.0
     DisallowRepeatingActivation: 1.0
     Duration: 3500.0
     Hp: 40.0
-    MetaLevel: 3.0
+    MetaLevel: 1.0
     Power: 1.0
     RequiredSkill1: 3426.0
     RequiredSkill1Level: 1.0

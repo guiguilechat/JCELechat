@@ -1,32 +1,4 @@
 items:
-  Structure Kinetic Resistance Script:
-    ArmorEmDamageResonancePostAssignment: 1.0
-    ArmorExplosiveDamageResonancePostAssignment: 1.0
-    ArmorKineticDamageResonancePostAssignment: 0.20000000298023224
-    ArmorThermalDamageResonancePostAssignment: 1.0
-    ChargeSize: 1.0
-    EmDamageResonancePostAssignment: 1.0
-    ExplosiveDamageResonancePostAssignment: 1.0
-    KineticDamageResonancePostAssignment: 0.20000000298023224
-    ShieldEmDamageResonancePostAssignment: 1.0
-    ShieldExplosiveDamageResonancePostAssignment: 1.0
-    ShieldKineticDamageResonancePostAssignment: 0.20000000298023224
-    ShieldThermalDamageResonancePostAssignment: 1.0
-    ThermalDamageResonancePostAssignment: 1.0
-  Structure Thermal Resistance Script:
-    ArmorEmDamageResonancePostAssignment: 1.0
-    ArmorExplosiveDamageResonancePostAssignment: 1.0
-    ArmorKineticDamageResonancePostAssignment: 1.0
-    ArmorThermalDamageResonancePostAssignment: 0.20000000298023224
-    ChargeSize: 1.0
-    EmDamageResonancePostAssignment: 1.0
-    ExplosiveDamageResonancePostAssignment: 1.0
-    KineticDamageResonancePostAssignment: 1.0
-    ShieldEmDamageResonancePostAssignment: 1.0
-    ShieldExplosiveDamageResonancePostAssignment: 1.0
-    ShieldKineticDamageResonancePostAssignment: 1.0
-    ShieldThermalDamageResonancePostAssignment: 0.20000000298023224
-    ThermalDamageResonancePostAssignment: 0.20000000298023224
   Structure EM Hardener Script:
     ArmorEmDamageResonancePostAssignment: 0.20000000298023224
     ArmorExplosiveDamageResonancePostAssignment: 1.0
@@ -55,3 +27,31 @@ items:
     ShieldKineticDamageResonancePostAssignment: 1.0
     ShieldThermalDamageResonancePostAssignment: 1.0
     ThermalDamageResonancePostAssignment: 1.0
+  Structure Kinetic Resistance Script:
+    ArmorEmDamageResonancePostAssignment: 1.0
+    ArmorExplosiveDamageResonancePostAssignment: 1.0
+    ArmorKineticDamageResonancePostAssignment: 0.20000000298023224
+    ArmorThermalDamageResonancePostAssignment: 1.0
+    ChargeSize: 1.0
+    EmDamageResonancePostAssignment: 1.0
+    ExplosiveDamageResonancePostAssignment: 1.0
+    KineticDamageResonancePostAssignment: 0.20000000298023224
+    ShieldEmDamageResonancePostAssignment: 1.0
+    ShieldExplosiveDamageResonancePostAssignment: 1.0
+    ShieldKineticDamageResonancePostAssignment: 0.20000000298023224
+    ShieldThermalDamageResonancePostAssignment: 1.0
+    ThermalDamageResonancePostAssignment: 1.0
+  Structure Thermal Resistance Script:
+    ArmorEmDamageResonancePostAssignment: 1.0
+    ArmorExplosiveDamageResonancePostAssignment: 1.0
+    ArmorKineticDamageResonancePostAssignment: 1.0
+    ArmorThermalDamageResonancePostAssignment: 0.20000000298023224
+    ChargeSize: 1.0
+    EmDamageResonancePostAssignment: 1.0
+    ExplosiveDamageResonancePostAssignment: 1.0
+    KineticDamageResonancePostAssignment: 1.0
+    ShieldEmDamageResonancePostAssignment: 1.0
+    ShieldExplosiveDamageResonancePostAssignment: 1.0
+    ShieldKineticDamageResonancePostAssignment: 1.0
+    ShieldThermalDamageResonancePostAssignment: 0.20000000298023224
+    ThermalDamageResonancePostAssignment: 0.20000000298023224

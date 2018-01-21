@@ -1,131 +1,14 @@
 items:
-  Surgical Strike:
-    DamageMultiplierBonus: 3.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3300.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 4.0
-  Sharpshooter:
-    PrimaryAttribute: 167.0
-    RangeSkillBonus: 5.0
-    RequiredSkill1: 3300.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 2.0
-  Small Railgun Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3311.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3301.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 3.0
-  Capital Beam Laser Specialization:
+  Capital Artillery Specialization:
     CanNotBeTrainedOnTrial: 1.0
     DamageMultiplierBonus: 2.0
     PrimaryAttribute: 167.0
     RequiredSkill1: 3311.0
     RequiredSkill1Level: 5.0
-    RequiredSkill2: 20327.0
+    RequiredSkill2: 21667.0
     RequiredSkill2Level: 5.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 10.0
-  Motion Prediction:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3300.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 2.0
-    TrackingSpeedBonus: 5.0
-  Small Beam Laser Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3311.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3303.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 3.0
-  Medium Blaster Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3312.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3304.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 5.0
-  Capital Projectile Turret:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 5.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3300.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3308.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 7.0
-  Large Energy Turret:
-    DamageMultiplierBonus: 5.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3300.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3306.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 5.0
-  Small Blaster Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3312.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3301.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 3.0
-  Large Artillery Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3311.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3308.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 8.0
-  Small Projectile Turret:
-    DamageMultiplierBonus: 5.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3300.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 1.0
-  Large Pulse Laser Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3312.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3309.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 8.0
-  Medium Beam Laser Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3311.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3306.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 5.0
   Capital Autocannon Specialization:
     CanNotBeTrainedOnTrial: 1.0
     DamageMultiplierBonus: 2.0
@@ -136,32 +19,56 @@ items:
     RequiredSkill2Level: 5.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 10.0
-  Small Energy Turret:
-    DamageMultiplierBonus: 5.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3300.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 1.0
-  Medium Energy Turret:
-    DamageMultiplierBonus: 5.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3300.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3303.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 3.0
-  Capital Railgun Specialization:
+  Capital Beam Laser Specialization:
     CanNotBeTrainedOnTrial: 1.0
     DamageMultiplierBonus: 2.0
     PrimaryAttribute: 167.0
     RequiredSkill1: 3311.0
     RequiredSkill1Level: 5.0
+    RequiredSkill2: 20327.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 10.0
+  Capital Blaster Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3312.0
+    RequiredSkill1Level: 5.0
     RequiredSkill2: 21666.0
     RequiredSkill2Level: 5.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 10.0
+  Capital Energy Turret:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 5.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3300.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3309.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 7.0
+  Capital Hybrid Turret:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 5.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3300.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3307.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 7.0
+  Capital Projectile Turret:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 5.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3300.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3308.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 7.0
   Capital Pulse Laser Specialization:
     CanNotBeTrainedOnTrial: 1.0
     DamageMultiplierBonus: 2.0
@@ -172,11 +79,95 @@ items:
     RequiredSkill2Level: 5.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 10.0
-  Trajectory Analysis:
-    FalloffBonus: 5.0
+  Capital Railgun Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3311.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 21666.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 10.0
+  Controlled Bursts:
+    CapNeedBonus: -5.0
     PrimaryAttribute: 167.0
     RequiredSkill1: 3300.0
-    RequiredSkill1Level: 4.0
+    RequiredSkill1Level: 2.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 2.0
+  Doomsday Operation:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 10.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3402.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3421.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 11207.0
+    RequiredSkill3Level: 5.0
+    SecondaryAttribute: 165.0
+    SkillTimeConstant: 14.0
+  Doomsday Rapid Firing:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 24563.0
+    RequiredSkill1Level: 2.0
+    RofBonus: -4.0
+    SecondaryAttribute: 165.0
+    SkillTimeConstant: 14.0
+  Gunnery:
+    PrimaryAttribute: 167.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 1.0
+    TurretSpeeBonus: -2.0
+  Large Artillery Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3311.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3308.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 8.0
+  Large Autocannon Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3312.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3308.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 8.0
+  Large Beam Laser Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3311.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3309.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 8.0
+  Large Blaster Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3312.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3307.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 8.0
+  Large Energy Turret:
+    DamageMultiplierBonus: 5.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3300.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3306.0
+    RequiredSkill2Level: 3.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 5.0
   Large Hybrid Turret:
@@ -188,101 +179,23 @@ items:
     RequiredSkill2Level: 3.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 5.0
-  Medium Pulse Laser Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3312.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3306.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 5.0
-  Tactical Strike:
-    DamageMultiplierBonus: 5.0
-    PrimaryAttribute: 167.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 1.0
-  Capital Blaster Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3312.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 21666.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 10.0
-  Medium Railgun Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3311.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3304.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 5.0
-  Capital Hybrid Turret:
-    CanNotBeTrainedOnTrial: 1.0
+  Large Projectile Turret:
     DamageMultiplierBonus: 5.0
     PrimaryAttribute: 167.0
     RequiredSkill1: 3300.0
     RequiredSkill1Level: 5.0
-    RequiredSkill2: 3307.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 7.0
-  Gunnery:
-    PrimaryAttribute: 167.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 1.0
-    TurretSpeeBonus: -2.0
-  Small Artillery Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3311.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3302.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 3.0
-  Medium Projectile Turret:
-    DamageMultiplierBonus: 5.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3300.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3302.0
+    RequiredSkill2: 3305.0
     RequiredSkill2Level: 3.0
     SecondaryAttribute: 168.0
-    SkillTimeConstant: 3.0
-  Small Autocannon Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3312.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3302.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 3.0
-  Large Autocannon Specialization:
+    SkillTimeConstant: 5.0
+  Large Pulse Laser Specialization:
     CanNotBeTrainedOnTrial: 1.0
     DamageMultiplierBonus: 2.0
     PrimaryAttribute: 167.0
     RequiredSkill1: 3312.0
     RequiredSkill1Level: 5.0
-    RequiredSkill2: 3308.0
+    RequiredSkill2: 3309.0
     RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 8.0
-  Tactical Weapon Reconfiguration:
-    CanNotBeTrainedOnTrial: 1.0
-    ConsumptionQuantityBonus: 25.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 11207.0
-    RequiredSkill1Level: 5.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 8.0
   Large Railgun Specialization:
@@ -292,46 +205,6 @@ items:
     RequiredSkill1: 3311.0
     RequiredSkill1Level: 5.0
     RequiredSkill2: 3307.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 8.0
-  Capital Energy Turret:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 5.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3300.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3309.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 7.0
-  Medium Autocannon Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3312.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3305.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 5.0
-  Small Pulse Laser Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3312.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3303.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 3.0
-  Large Beam Laser Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3311.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3309.0
     RequiredSkill2Level: 5.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 8.0
@@ -345,40 +218,45 @@ items:
     RequiredSkill2Level: 5.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 5.0
-  Capital Artillery Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3311.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 21667.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 10.0
-  Large Blaster Specialization:
+  Medium Autocannon Specialization:
     CanNotBeTrainedOnTrial: 1.0
     DamageMultiplierBonus: 2.0
     PrimaryAttribute: 167.0
     RequiredSkill1: 3312.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3307.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 3305.0
     RequiredSkill2Level: 5.0
     SecondaryAttribute: 168.0
-    SkillTimeConstant: 8.0
-  Controlled Bursts:
-    CapNeedBonus: -5.0
+    SkillTimeConstant: 5.0
+  Medium Beam Laser Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
     PrimaryAttribute: 167.0
-    RequiredSkill1: 3300.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3311.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 3306.0
+    RequiredSkill2Level: 5.0
     SecondaryAttribute: 168.0
-    SkillTimeConstant: 2.0
-  Small Hybrid Turret:
+    SkillTimeConstant: 5.0
+  Medium Blaster Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3312.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 3304.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 5.0
+  Medium Energy Turret:
     DamageMultiplierBonus: 5.0
     PrimaryAttribute: 167.0
     RequiredSkill1: 3300.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3303.0
+    RequiredSkill2Level: 3.0
     SecondaryAttribute: 168.0
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 3.0
   Medium Hybrid Turret:
     DamageMultiplierBonus: 5.0
     PrimaryAttribute: 167.0
@@ -388,15 +266,42 @@ items:
     RequiredSkill2Level: 3.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 3.0
-  Large Projectile Turret:
+  Medium Projectile Turret:
     DamageMultiplierBonus: 5.0
     PrimaryAttribute: 167.0
     RequiredSkill1: 3300.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3305.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3302.0
     RequiredSkill2Level: 3.0
     SecondaryAttribute: 168.0
+    SkillTimeConstant: 3.0
+  Medium Pulse Laser Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3312.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 3306.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
     SkillTimeConstant: 5.0
+  Medium Railgun Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3311.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 3304.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 5.0
+  Motion Prediction:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3300.0
+    RequiredSkill1Level: 2.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 2.0
+    TrackingSpeedBonus: 5.0
   Rapid Firing:
     PrimaryAttribute: 167.0
     RequiredSkill1: 3300.0
@@ -404,23 +309,118 @@ items:
     RofBonus: -4.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 2.0
-  Doomsday Rapid Firing:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 24563.0
+  Sharpshooter:
+    PrimaryAttribute: 167.0
+    RangeSkillBonus: 5.0
+    RequiredSkill1: 3300.0
     RequiredSkill1Level: 2.0
-    RofBonus: -4.0
-    SecondaryAttribute: 165.0
-    SkillTimeConstant: 14.0
-  Doomsday Operation:
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 2.0
+  Small Artillery Specialization:
     CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 10.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3402.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3421.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3311.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3302.0
     RequiredSkill2Level: 5.0
-    RequiredSkill3: 11207.0
-    RequiredSkill3Level: 5.0
-    SecondaryAttribute: 165.0
-    SkillTimeConstant: 14.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 3.0
+  Small Autocannon Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3312.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3302.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 3.0
+  Small Beam Laser Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3311.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3303.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 3.0
+  Small Blaster Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3312.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3301.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 3.0
+  Small Energy Turret:
+    DamageMultiplierBonus: 5.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3300.0
+    RequiredSkill1Level: 1.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 1.0
+  Small Hybrid Turret:
+    DamageMultiplierBonus: 5.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3300.0
+    RequiredSkill1Level: 1.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 1.0
+  Small Projectile Turret:
+    DamageMultiplierBonus: 5.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3300.0
+    RequiredSkill1Level: 1.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 1.0
+  Small Pulse Laser Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3312.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3303.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 3.0
+  Small Railgun Specialization:
+    CanNotBeTrainedOnTrial: 1.0
+    DamageMultiplierBonus: 2.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3311.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3301.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 3.0
+  Surgical Strike:
+    DamageMultiplierBonus: 3.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3300.0
+    RequiredSkill1Level: 4.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 4.0
+  Tactical Strike:
+    DamageMultiplierBonus: 5.0
+    PrimaryAttribute: 167.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 1.0
+  Tactical Weapon Reconfiguration:
+    CanNotBeTrainedOnTrial: 1.0
+    ConsumptionQuantityBonus: 25.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 11207.0
+    RequiredSkill1Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 8.0
+  Trajectory Analysis:
+    FalloffBonus: 5.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3300.0
+    RequiredSkill1Level: 4.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 5.0

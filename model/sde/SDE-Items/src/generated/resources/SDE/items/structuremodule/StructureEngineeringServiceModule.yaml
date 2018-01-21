@@ -1,40 +1,4 @@
 items:
-  Standup Supercapital Shipyard I:
-    CanFitShipType1: 35827.0
-    Cpu: 5000.0
-    DisallowInEmpireSpace: 1.0
-    MaxTypeFitted: 1.0
-    OnlineMaxSecurityClass: 1.0
-    Power: 800000.0
-    RequiresSovUpgrade1: 2009.0
-    ServiceModuleFuelAmount: 36.0
-    ServiceModuleFuelConsumptionGroup: 1136.0
-    ServiceModuleFuelOnlineAmount: 2592.0
-    StructureItemVisualFlag: 1.0
-  Standup Research Lab I:
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
-    Cpu: 3000.0
-    MaxTypeFitted: 1.0
-    OnlineMaxSecurityClass: 2.0
-    Power: 150000.0
-    ServiceModuleFuelAmount: 12.0
-    ServiceModuleFuelConsumptionGroup: 1136.0
-    ServiceModuleFuelOnlineAmount: 864.0
-    StructureItemVisualFlag: 1.0
-  Standup Invention Lab I:
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
-    Cpu: 3500.0
-    MaxTypeFitted: 1.0
-    OnlineMaxSecurityClass: 2.0
-    Power: 150000.0
-    ServiceModuleFuelAmount: 12.0
-    ServiceModuleFuelConsumptionGroup: 1136.0
-    ServiceModuleFuelOnlineAmount: 864.0
-    StructureItemVisualFlag: 1.0
   Standup Capital Shipyard I:
     CanFitShipType1: 35827.0
     CanFitShipType2: 35826.0
@@ -63,6 +27,18 @@ items:
     ServiceModuleFuelConsumptionGroup: 1136.0
     ServiceModuleFuelOnlineAmount: 720.0
     StructureItemVisualFlag: 1.0
+  Standup Invention Lab I:
+    CanFitShipGroup01: 1657.0
+    CanFitShipGroup02: 1404.0
+    CanFitShipGroup03: 1406.0
+    Cpu: 3500.0
+    MaxTypeFitted: 1.0
+    OnlineMaxSecurityClass: 2.0
+    Power: 150000.0
+    ServiceModuleFuelAmount: 12.0
+    ServiceModuleFuelConsumptionGroup: 1136.0
+    ServiceModuleFuelOnlineAmount: 864.0
+    StructureItemVisualFlag: 1.0
   Standup Manufacturing Plant I:
     CanFitShipGroup01: 1657.0
     CanFitShipGroup02: 1404.0
@@ -74,4 +50,28 @@ items:
     ServiceModuleFuelAmount: 12.0
     ServiceModuleFuelConsumptionGroup: 1136.0
     ServiceModuleFuelOnlineAmount: 864.0
+    StructureItemVisualFlag: 1.0
+  Standup Research Lab I:
+    CanFitShipGroup01: 1657.0
+    CanFitShipGroup02: 1404.0
+    CanFitShipGroup03: 1406.0
+    Cpu: 3000.0
+    MaxTypeFitted: 1.0
+    OnlineMaxSecurityClass: 2.0
+    Power: 150000.0
+    ServiceModuleFuelAmount: 12.0
+    ServiceModuleFuelConsumptionGroup: 1136.0
+    ServiceModuleFuelOnlineAmount: 864.0
+    StructureItemVisualFlag: 1.0
+  Standup Supercapital Shipyard I:
+    CanFitShipType1: 35827.0
+    Cpu: 5000.0
+    DisallowInEmpireSpace: 1.0
+    MaxTypeFitted: 1.0
+    OnlineMaxSecurityClass: 1.0
+    Power: 800000.0
+    RequiresSovUpgrade1: 2009.0
+    ServiceModuleFuelAmount: 36.0
+    ServiceModuleFuelConsumptionGroup: 1136.0
+    ServiceModuleFuelOnlineAmount: 2592.0
     StructureItemVisualFlag: 1.0

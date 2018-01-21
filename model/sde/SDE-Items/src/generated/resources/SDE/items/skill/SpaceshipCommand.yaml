@@ -1,127 +1,12 @@
 items:
-  Battlecruisers:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 6.0
-  Interdictors:
+  Advanced Spaceship Command:
+    AgilityBonus: -5.0
     CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 11446.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 3435.0
-    RequiredSkill3Level: 5.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 5.0
-  Caldari Destroyer:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3330.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 2.0
-  Omnipotent:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 19430.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 9955.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 42.0
-  Amarr Freighter:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20342.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3343.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 10.0
-  Minmatar Destroyer:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3329.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 2.0
-  Gallente Strategic Cruiser:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3332.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 5.0
-  ORE Industrial:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 4.0
-  Minmatar Frigate:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 2.0
-  Jove Frigate:
     PrimaryAttribute: 167.0
     RequiredSkill1: 3327.0
     RequiredSkill1Level: 5.0
     SecondaryAttribute: 168.0
-    SkillTimeConstant: 12.0
-  Gallente Battleship:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 33097.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 8.0
-  Heavy Assault Cruisers:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3318.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3327.0
-    RequiredSkill3Level: 5.0
-    RequiredSkill4: 3418.0
-    RequiredSkill4Level: 4.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 6.0
-  Command Ships:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3354.0
-    RequiredSkill2Level: 4.0
-    RequiredSkill3: 11574.0
-    RequiredSkill3Level: 4.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 8.0
-  Jove Battleship:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3758.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 8.0
-  Black Ops:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 11579.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 21611.0
-    RequiredSkill2Level: 4.0
-    RequiredSkill3: 3327.0
-    RequiredSkill3Level: 5.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 10.0
+    SkillTimeConstant: 5.0
   Amarr Battlecruiser:
     PrimaryAttribute: 167.0
     RequiredSkill1: 3327.0
@@ -131,98 +16,20 @@ items:
     SecondaryAttribute: 168.0
     SkillTimeConstant: 6.0
     SubSystemSlot: 125.0
-  Gallente Battlecruiser:
+  Amarr Battleship:
     PrimaryAttribute: 167.0
     RequiredSkill1: 3327.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3332.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 6.0
-  Destroyers:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 2.0
-  Gallente Tactical Destroyer:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 33093.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 3.0
-  Caldari Freighter:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20342.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3342.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 10.0
-  Minmatar Strategic Cruiser:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3333.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 5.0
-  Recon Ships:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 11579.0
     RequiredSkill1Level: 4.0
-    RequiredSkill2: 3431.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3327.0
-    RequiredSkill3Level: 5.0
-    RequiredSkill4: 3432.0
-    RequiredSkill4Level: 5.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 6.0
-  Electronic Attack Ships:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3428.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 4.0
-  Logistics Cruisers:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3431.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3428.0
-    RequiredSkill3Level: 5.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 6.0
-  Jump Freighters:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3380.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 20342.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 14.0
-  Amarr Tactical Destroyer:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 33091.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill2: 33095.0
+    RequiredSkill2Level: 3.0
     SecondaryAttribute: 168.0
-    SkillTimeConstant: 3.0
-  Caldari Carrier:
+    SkillTimeConstant: 8.0
+  Amarr Carrier:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 167.0
     RequiredSkill1: 20533.0
     RequiredSkill1Level: 4.0
-    RequiredSkill2: 3338.0
+    RequiredSkill2: 3339.0
     RequiredSkill2Level: 3.0
     RequiredSkill3: 3442.0
     RequiredSkill3Level: 5.0
@@ -232,186 +39,21 @@ items:
     RequiredSkill5Level: 3.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 14.0
-  Caldari Dreadnought:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20533.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3338.0
-    RequiredSkill2Level: 3.0
-    RequiredSkill3: 22043.0
-    RequiredSkill3Level: 1.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 12.0
-  Capital Ships:
-    AgilityBonus: -5.0
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20342.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 14.0
-  Logistics Frigates:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3431.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3428.0
-    RequiredSkill3Level: 4.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 4.0
-  Minmatar Force Auxiliary:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20533.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3337.0
-    RequiredSkill2Level: 3.0
-    RequiredSkill3: 27906.0
-    RequiredSkill3Level: 1.0
-    RequiredSkill4: 21610.0
-    RequiredSkill4Level: 4.0
-    RequiredSkill5: 21611.0
-    RequiredSkill5Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillIsObsolete: 1.0
-    SkillTimeConstant: 14.0
-  Caldari Strategic Cruiser:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3334.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 5.0
-  Caldari Industrial:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 4.0
-  Amarr Battleship:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 33095.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 8.0
-  Capital Industrial Ships:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20342.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 29637.0
-    RequiredSkill2Level: 3.0
-    RequiredSkill3: 20533.0
-    RequiredSkill3Level: 2.0
-    RequiredSkill4: 28585.0
-    RequiredSkill4Level: 1.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 12.0
-  Minmatar Dreadnought:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20533.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3337.0
-    RequiredSkill2Level: 3.0
-    RequiredSkill3: 22043.0
-    RequiredSkill3Level: 1.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 12.0
-  ORE Freighter:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20342.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3184.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 9.0
-  Interceptors:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3453.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 4.0
-  Expedition Frigates:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3432.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3380.0
-    RequiredSkill3Level: 5.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 4.0
-  Polaris:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 9955.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 0.5
-  Gallente Freighter:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20342.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3340.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 10.0
-  Caldari Battleship:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 33096.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 8.0
-  Caldari Titan:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20533.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3338.0
-    RequiredSkill2Level: 3.0
-    RequiredSkill3: 3348.0
-    RequiredSkill3Level: 5.0
-    RequiredSkill4: 24562.0
-    RequiredSkill4Level: 1.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 16.0
-  Jove Cruiser:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3330.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 12.0
-  Caldari Cruiser:
+  Amarr Cruiser:
     PrimaryAttribute: 167.0
     RequiredSkill1: 3327.0
     RequiredSkill1Level: 2.0
-    RequiredSkill2: 33092.0
+    RequiredSkill2: 33091.0
     RequiredSkill2Level: 3.0
     SecondaryAttribute: 168.0
+    ShipPowerBonus: 2.0
     SkillTimeConstant: 5.0
-  Minmatar Industrial:
+  Amarr Destroyer:
     PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
+    RequiredSkill1: 3331.0
     RequiredSkill1Level: 3.0
     SecondaryAttribute: 168.0
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 2.0
   Amarr Dreadnought:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 167.0
@@ -423,80 +65,6 @@ items:
     RequiredSkill3Level: 1.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 12.0
-  Exhumers:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3380.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3410.0
-    RequiredSkill3Level: 5.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 5.0
-  Minmatar Battlecruiser:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3333.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 6.0
-  Amarr Strategic Cruiser:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3335.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 5.0
-  Gallente Destroyer:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3328.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 2.0
-  Minmatar Battleship:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 33098.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 8.0
-  Mining Barge:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3410.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3380.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 32918.0
-    RequiredSkill3Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 4.0
-  Minmatar Carrier:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20533.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3337.0
-    RequiredSkill2Level: 3.0
-    RequiredSkill3: 3442.0
-    RequiredSkill3Level: 5.0
-    RequiredSkill4: 21610.0
-    RequiredSkill4Level: 4.0
-    RequiredSkill5: 21611.0
-    RequiredSkill5Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 14.0
-  Caldari Battlecruiser:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3334.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 6.0
   Amarr Force Auxiliary:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 167.0
@@ -513,48 +81,41 @@ items:
     SecondaryAttribute: 168.0
     SkillIsObsolete: 1.0
     SkillTimeConstant: 14.0
-  Assault Frigates:
+  Amarr Freighter:
     CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3413.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3392.0
-    RequiredSkill3Level: 5.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 4.0
-  Covert Ops:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3432.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 4.0
-  Gallente Frigate:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 20342.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3343.0
+    RequiredSkill2Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 10.0
+  Amarr Frigate:
     PrimaryAttribute: 167.0
     RequiredSkill1: 3327.0
     RequiredSkill1Level: 1.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 2.0
-  Advanced Spaceship Command:
-    AgilityBonus: -5.0
-    CanNotBeTrainedOnTrial: 1.0
+  Amarr Industrial:
     PrimaryAttribute: 167.0
     RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 4.0
+  Amarr Strategic Cruiser:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3335.0
     RequiredSkill1Level: 5.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 5.0
-  Minmatar Cruiser:
+  Amarr Tactical Destroyer:
+    CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 2.0
-    RequiredSkill2: 33094.0
-    RequiredSkill2Level: 3.0
+    RequiredSkill1: 33091.0
+    RequiredSkill1Level: 5.0
     SecondaryAttribute: 168.0
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 3.0
   Amarr Titan:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 167.0
@@ -568,67 +129,90 @@ items:
     RequiredSkill4Level: 1.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 16.0
-  Amarr Cruiser:
+  Assault Frigates:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3413.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3392.0
+    RequiredSkill3Level: 5.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 4.0
+  Battlecruisers:
     PrimaryAttribute: 167.0
     RequiredSkill1: 3327.0
-    RequiredSkill1Level: 2.0
-    RequiredSkill2: 33091.0
+    RequiredSkill1Level: 4.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 6.0
+  Black Ops:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 11579.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 21611.0
+    RequiredSkill2Level: 4.0
+    RequiredSkill3: 3327.0
+    RequiredSkill3Level: 5.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 10.0
+  Caldari Battlecruiser:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3334.0
     RequiredSkill2Level: 3.0
     SecondaryAttribute: 168.0
-    ShipPowerBonus: 2.0
-    SkillTimeConstant: 5.0
-  Caldari Tactical Destroyer:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 33092.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 3.0
-  Mining Frigate:
+    SkillTimeConstant: 6.0
+  Caldari Battleship:
     PrimaryAttribute: 167.0
     RequiredSkill1: 3327.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 33096.0
+    RequiredSkill2Level: 3.0
     SecondaryAttribute: 168.0
-    SkillTimeConstant: 2.0
-  Gallente Titan:
+    SkillTimeConstant: 8.0
+  Caldari Carrier:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 167.0
     RequiredSkill1: 20533.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3336.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 3338.0
     RequiredSkill2Level: 3.0
-    RequiredSkill3: 3348.0
+    RequiredSkill3: 3442.0
     RequiredSkill3Level: 5.0
-    RequiredSkill4: 24562.0
-    RequiredSkill4Level: 1.0
+    RequiredSkill4: 21610.0
+    RequiredSkill4Level: 4.0
+    RequiredSkill5: 21611.0
+    RequiredSkill5Level: 3.0
     SecondaryAttribute: 168.0
-    SkillTimeConstant: 16.0
-  Jove Industrial:
+    SkillTimeConstant: 14.0
+  Caldari Cruiser:
     PrimaryAttribute: 167.0
     RequiredSkill1: 3327.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3755.0
-    RequiredSkill2Level: 4.0
+    RequiredSkill1Level: 2.0
+    RequiredSkill2: 33092.0
+    RequiredSkill2Level: 3.0
     SecondaryAttribute: 168.0
-    SkillTimeConstant: 6.0
-  Amarr Industrial:
+    SkillTimeConstant: 5.0
+  Caldari Destroyer:
     PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
+    RequiredSkill1: 3330.0
     RequiredSkill1Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 4.0
-  Caldari Frigate:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 1.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 2.0
-  Gallente Industrial:
+  Caldari Dreadnought:
+    CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
+    RequiredSkill1: 20533.0
     RequiredSkill1Level: 3.0
+    RequiredSkill2: 3338.0
+    RequiredSkill2Level: 3.0
+    RequiredSkill3: 22043.0
+    RequiredSkill3Level: 1.0
     SecondaryAttribute: 168.0
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 12.0
   Caldari Force Auxiliary:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 167.0
@@ -645,17 +229,75 @@ items:
     SecondaryAttribute: 168.0
     SkillIsObsolete: 1.0
     SkillTimeConstant: 14.0
-  Heavy Interdiction Cruisers:
+  Caldari Freighter:
     CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3435.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 20342.0
     RequiredSkill1Level: 5.0
-    RequiredSkill2: 11446.0
-    RequiredSkill2Level: 4.0
-    RequiredSkill3: 3327.0
+    RequiredSkill2: 3342.0
+    RequiredSkill2Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 10.0
+  Caldari Frigate:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 1.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 2.0
+  Caldari Industrial:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 4.0
+  Caldari Strategic Cruiser:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3334.0
+    RequiredSkill1Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 5.0
+  Caldari Tactical Destroyer:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 33092.0
+    RequiredSkill1Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 3.0
+  Caldari Titan:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 20533.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3338.0
+    RequiredSkill2Level: 3.0
+    RequiredSkill3: 3348.0
     RequiredSkill3Level: 5.0
-    SecondaryAttribute: 167.0
-    SkillTimeConstant: 6.0
+    RequiredSkill4: 24562.0
+    RequiredSkill4Level: 1.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 16.0
+  Capital Industrial Ships:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 20342.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 29637.0
+    RequiredSkill2Level: 3.0
+    RequiredSkill3: 20533.0
+    RequiredSkill3Level: 2.0
+    RequiredSkill4: 28585.0
+    RequiredSkill4Level: 1.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 12.0
+  Capital Ships:
+    AgilityBonus: -5.0
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 20342.0
+    RequiredSkill1Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 14.0
   Command Destroyers:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 168.0
@@ -665,30 +307,17 @@ items:
     RequiredSkill2Level: 4.0
     SecondaryAttribute: 167.0
     SkillTimeConstant: 6.0
-  Marauders:
+  Command Ships:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 168.0
-    RequiredSkill1: 3424.0
+    RequiredSkill1: 3327.0
     RequiredSkill1Level: 5.0
-    RequiredSkill2: 11207.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3327.0
-    RequiredSkill3Level: 5.0
+    RequiredSkill2: 3354.0
+    RequiredSkill2Level: 4.0
+    RequiredSkill3: 11574.0
+    RequiredSkill3Level: 4.0
     SecondaryAttribute: 167.0
-    SkillTimeConstant: 10.0
-  Minmatar Titan:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20533.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3337.0
-    RequiredSkill2Level: 3.0
-    RequiredSkill3: 3348.0
-    RequiredSkill3Level: 5.0
-    RequiredSkill4: 24562.0
-    RequiredSkill4Level: 1.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 16.0
+    SkillTimeConstant: 8.0
   Concord:
     PrimaryAttribute: 167.0
     RequiredSkill1: 3327.0
@@ -697,78 +326,68 @@ items:
     RequiredSkill2Level: 5.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 12.0
-  Industrial Command Ships:
+  Covert Ops:
     CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3432.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 4.0
+  Destroyers:
     PrimaryAttribute: 167.0
     RequiredSkill1: 3327.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3184.0
+    RequiredSkill1Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 2.0
+  Electronic Attack Ships:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3428.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 4.0
+  Exhumers:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 3380.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3410.0
+    RequiredSkill3Level: 5.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 5.0
+  Expedition Frigates:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3432.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3380.0
+    RequiredSkill3Level: 5.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 4.0
+  Gallente Battlecruiser:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3332.0
     RequiredSkill2Level: 3.0
-    RequiredSkill3: 22552.0
-    RequiredSkill3Level: 1.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 6.0
+  Gallente Battleship:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 33097.0
+    RequiredSkill2Level: 3.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 8.0
-  Spaceship Command:
-    AgilityBonus: -2.0
-    MaxAttackTargets: 1.0
-    PrimaryAttribute: 167.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 1.0
-  Amarr Frigate:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 2.0
-  Amarr Carrier:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20533.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3339.0
-    RequiredSkill2Level: 3.0
-    RequiredSkill3: 3442.0
-    RequiredSkill3Level: 5.0
-    RequiredSkill4: 21610.0
-    RequiredSkill4Level: 4.0
-    RequiredSkill5: 21611.0
-    RequiredSkill5Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 14.0
-  Minmatar Freighter:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20342.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3341.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 10.0
-  Gallente Dreadnought:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 20533.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3336.0
-    RequiredSkill2Level: 3.0
-    RequiredSkill3: 22043.0
-    RequiredSkill3Level: 1.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 12.0
-  Gallente Cruiser:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3327.0
-    RequiredSkill1Level: 2.0
-    RequiredSkill2: 33093.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 5.0
-  Amarr Destroyer:
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3331.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 2.0
   Gallente Carrier:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 167.0
@@ -784,13 +403,31 @@ items:
     RequiredSkill5Level: 3.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 14.0
-  Minmatar Tactical Destroyer:
+  Gallente Cruiser:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 2.0
+    RequiredSkill2: 33093.0
+    RequiredSkill2Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 5.0
+  Gallente Destroyer:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3328.0
+    RequiredSkill1Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 2.0
+  Gallente Dreadnought:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 167.0
-    RequiredSkill1: 33094.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1: 20533.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3336.0
+    RequiredSkill2Level: 3.0
+    RequiredSkill3: 22043.0
+    RequiredSkill3Level: 1.0
     SecondaryAttribute: 168.0
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 12.0
   Gallente Force Auxiliary:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 167.0
@@ -807,6 +444,369 @@ items:
     SecondaryAttribute: 168.0
     SkillIsObsolete: 1.0
     SkillTimeConstant: 14.0
+  Gallente Freighter:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 20342.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3340.0
+    RequiredSkill2Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 10.0
+  Gallente Frigate:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 1.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 2.0
+  Gallente Industrial:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 4.0
+  Gallente Strategic Cruiser:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3332.0
+    RequiredSkill1Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 5.0
+  Gallente Tactical Destroyer:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 33093.0
+    RequiredSkill1Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 3.0
+  Gallente Titan:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 20533.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3336.0
+    RequiredSkill2Level: 3.0
+    RequiredSkill3: 3348.0
+    RequiredSkill3Level: 5.0
+    RequiredSkill4: 24562.0
+    RequiredSkill4Level: 1.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 16.0
+  Heavy Assault Cruisers:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3318.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3327.0
+    RequiredSkill3Level: 5.0
+    RequiredSkill4: 3418.0
+    RequiredSkill4Level: 4.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 6.0
+  Heavy Interdiction Cruisers:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3435.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 11446.0
+    RequiredSkill2Level: 4.0
+    RequiredSkill3: 3327.0
+    RequiredSkill3Level: 5.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 6.0
+  Industrial Command Ships:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3184.0
+    RequiredSkill2Level: 3.0
+    RequiredSkill3: 22552.0
+    RequiredSkill3Level: 1.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 8.0
+  Interceptors:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3453.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 4.0
+  Interdictors:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 11446.0
+    RequiredSkill2Level: 1.0
+    RequiredSkill3: 3435.0
+    RequiredSkill3Level: 5.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 5.0
+  Jove Battleship:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3758.0
+    RequiredSkill2Level: 4.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 8.0
+  Jove Cruiser:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3330.0
+    RequiredSkill2Level: 4.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 12.0
+  Jove Frigate:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 12.0
+  Jove Industrial:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3755.0
+    RequiredSkill2Level: 4.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 6.0
+  Jump Freighters:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3380.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 20342.0
+    RequiredSkill2Level: 4.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 14.0
+  Logistics Cruisers:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3431.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3428.0
+    RequiredSkill3Level: 5.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 6.0
+  Logistics Frigates:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3431.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3428.0
+    RequiredSkill3Level: 4.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 4.0
+  Marauders:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 11207.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3327.0
+    RequiredSkill3Level: 5.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 10.0
+  Mining Barge:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3410.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3380.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 32918.0
+    RequiredSkill3Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 4.0
+  Mining Frigate:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 1.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 2.0
+  Minmatar Battlecruiser:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3333.0
+    RequiredSkill2Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 6.0
+  Minmatar Battleship:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 33098.0
+    RequiredSkill2Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 8.0
+  Minmatar Carrier:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 20533.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 3337.0
+    RequiredSkill2Level: 3.0
+    RequiredSkill3: 3442.0
+    RequiredSkill3Level: 5.0
+    RequiredSkill4: 21610.0
+    RequiredSkill4Level: 4.0
+    RequiredSkill5: 21611.0
+    RequiredSkill5Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 14.0
+  Minmatar Cruiser:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 2.0
+    RequiredSkill2: 33094.0
+    RequiredSkill2Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 5.0
+  Minmatar Destroyer:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3329.0
+    RequiredSkill1Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 2.0
+  Minmatar Dreadnought:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 20533.0
+    RequiredSkill1Level: 3.0
+    RequiredSkill2: 3337.0
+    RequiredSkill2Level: 3.0
+    RequiredSkill3: 22043.0
+    RequiredSkill3Level: 1.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 12.0
+  Minmatar Force Auxiliary:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 20533.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 3337.0
+    RequiredSkill2Level: 3.0
+    RequiredSkill3: 27906.0
+    RequiredSkill3Level: 1.0
+    RequiredSkill4: 21610.0
+    RequiredSkill4Level: 4.0
+    RequiredSkill5: 21611.0
+    RequiredSkill5Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillIsObsolete: 1.0
+    SkillTimeConstant: 14.0
+  Minmatar Freighter:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 20342.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3341.0
+    RequiredSkill2Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 10.0
+  Minmatar Frigate:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 1.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 2.0
+  Minmatar Industrial:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 4.0
+  Minmatar Strategic Cruiser:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3333.0
+    RequiredSkill1Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 5.0
+  Minmatar Tactical Destroyer:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 33094.0
+    RequiredSkill1Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 3.0
+  Minmatar Titan:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 20533.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3337.0
+    RequiredSkill2Level: 3.0
+    RequiredSkill3: 3348.0
+    RequiredSkill3Level: 5.0
+    RequiredSkill4: 24562.0
+    RequiredSkill4Level: 1.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 16.0
+  ORE Freighter:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 20342.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3184.0
+    RequiredSkill2Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 9.0
+  ORE Industrial:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 3.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 4.0
+  Omnipotent:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 19430.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 9955.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 42.0
+  Polaris:
+    PrimaryAttribute: 167.0
+    RequiredSkill1: 3327.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 9955.0
+    RequiredSkill2Level: 5.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 0.5
+  Recon Ships:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 11579.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 3431.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3327.0
+    RequiredSkill3Level: 5.0
+    RequiredSkill4: 3432.0
+    RequiredSkill4Level: 5.0
+    SecondaryAttribute: 167.0
+    SkillTimeConstant: 6.0
+  Spaceship Command:
+    AgilityBonus: -2.0
+    MaxAttackTargets: 1.0
+    PrimaryAttribute: 167.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 1.0
   Transport Ships:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 168.0

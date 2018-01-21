@@ -1,21 +1,21 @@
 items:
+  Core Admiral: {}
+  Core Baron: {}
+  Core Commodore: {}
+  Core Flotilla Admiral: {}
   Core Grand Admiral: {}
-  Shadow Core Commodore: {}
+  Core High Admiral: {}
   Core Lord Admiral: {}
-  Shadow Core High Admiral: {}
-  Shadow Core Flotilla Admiral: {}
+  Core Port Admiral: {}
   Core Rear Admiral: {}
   Core Vice Admiral: {}
-  Shadow Core Port Admiral: {}
-  Core Flotilla Admiral: {}
-  Shadow Core Baron: {}
-  Core Admiral: {}
-  Shadow Core Lord Admiral: {}
-  Core High Admiral: {}
-  Core Baron: {}
-  Shadow Core Rear Admiral: {}
-  Shadow Core Grand Admiral: {}
-  Core Commodore: {}
-  Core Port Admiral: {}
-  Shadow Core Vice Admiral: {}
   Shadow Core Admiral: {}
+  Shadow Core Baron: {}
+  Shadow Core Commodore: {}
+  Shadow Core Flotilla Admiral: {}
+  Shadow Core Grand Admiral: {}
+  Shadow Core High Admiral: {}
+  Shadow Core Lord Admiral: {}
+  Shadow Core Port Admiral: {}
+  Shadow Core Rear Admiral: {}
+  Shadow Core Vice Admiral: {}

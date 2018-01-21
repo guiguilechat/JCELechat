@@ -1,17 +1,9 @@
 items:
-  Optimized Occult Augmentation:
+  Occult Accelerant:
     InventionMEModifier: 2.0
-    InventionMaxRunModifier: 7.0
-    InventionPropabilityMultiplier: 0.8999999761581421
-  Occult Process:
-    InventionMEModifier: 3.0
-    InventionPropabilityMultiplier: 1.100000023841858
-    InventionTEModifier: 6.0
-  Occult Symmetry:
-    InventionMEModifier: 1.0
-    InventionMaxRunModifier: 2.0
-    InventionPropabilityMultiplier: 1.0
-    InventionTEModifier: 8.0
+    InventionMaxRunModifier: 1.0
+    InventionPropabilityMultiplier: 1.2000000476837158
+    InventionTEModifier: 10.0
   Occult Attainment:
     InventionMEModifier: -1.0
     InventionMaxRunModifier: 4.0
@@ -22,18 +14,26 @@ items:
     InventionMaxRunModifier: 9.0
     InventionPropabilityMultiplier: 0.6000000238418579
     InventionTEModifier: 2.0
-  Occult Accelerant:
-    InventionMEModifier: 2.0
-    InventionMaxRunModifier: 1.0
-    InventionPropabilityMultiplier: 1.2000000476837158
-    InventionTEModifier: 10.0
   Occult Parity:
     InventionMEModifier: 1.0
     InventionMaxRunModifier: 3.0
     InventionPropabilityMultiplier: 1.5
     InventionTEModifier: -2.0
+  Occult Process:
+    InventionMEModifier: 3.0
+    InventionPropabilityMultiplier: 1.100000023841858
+    InventionTEModifier: 6.0
+  Occult Symmetry:
+    InventionMEModifier: 1.0
+    InventionMaxRunModifier: 2.0
+    InventionPropabilityMultiplier: 1.0
+    InventionTEModifier: 8.0
   Optimized Occult Attainment:
     InventionMEModifier: 1.0
     InventionMaxRunModifier: 2.0
     InventionPropabilityMultiplier: 1.899999976158142
     InventionTEModifier: -2.0
+  Optimized Occult Augmentation:
+    InventionMEModifier: 2.0
+    InventionMaxRunModifier: 7.0
+    InventionPropabilityMultiplier: 0.8999999761581421

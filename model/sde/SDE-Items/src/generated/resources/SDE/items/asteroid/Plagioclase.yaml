@@ -1,27 +1,11 @@
 items:
-  Sparkling Plagioclase:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 4.0
-    AsteroidRadiusGrowthFactor: 0.052000001072883606
-    AsteroidRadiusUnitSize: 600.0
+  Azure Plagioclase:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 2.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
     CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 46701.0
-    OreBasicType: 46685.0
-    ReprocessingSkillType: 12191.0
-    RequiredSkill1: 3386.0
-  Compressed Sparkling Plagioclase:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 4.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 46685.0
-    ReprocessingSkillType: 12191.0
-    RequiredSkill1: 3386.0
-  Compressed Rich Plagioclase:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
+    CompressionTypeID: 28421.0
     OreBasicType: 18.0
     ReprocessingSkillType: 12191.0
     RequiredSkill1: 3386.0
@@ -39,6 +23,22 @@ items:
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90.0
     OreBasicType: 18.0
+    ReprocessingSkillType: 12191.0
+    RequiredSkill1: 3386.0
+  Compressed Rich Plagioclase:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 3.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 18.0
+    ReprocessingSkillType: 12191.0
+    RequiredSkill1: 3386.0
+  Compressed Sparkling Plagioclase:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 4.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 46685.0
     ReprocessingSkillType: 12191.0
     RequiredSkill1: 3386.0
   Plagioclase:
@@ -61,13 +61,13 @@ items:
     OreBasicType: 18.0
     ReprocessingSkillType: 12191.0
     RequiredSkill1: 3386.0
-  Azure Plagioclase:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
+  Sparkling Plagioclase:
+    AsteroidMaxRadius: 5000.0
+    AsteroidMetaLevel: 4.0
+    AsteroidRadiusGrowthFactor: 0.052000001072883606
+    AsteroidRadiusUnitSize: 600.0
     CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28421.0
-    OreBasicType: 18.0
+    CompressionTypeID: 46701.0
+    OreBasicType: 46685.0
     ReprocessingSkillType: 12191.0
     RequiredSkill1: 3386.0

@@ -25,6 +25,57 @@ items:
     TechLevel: 2.0
     ThermalDamage: 405.0
     ThermalDamageResonance: 0.800000011920929
+  Inferno Rage Torpedo:
+    Agility: 5.220125675201416
+    AoeCloudSize: 774.0
+    AoeDamageReductionFactor: 0.9670000076293945
+    AoeFalloff: 750.0
+    AoeVelocity: 61.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 6000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 360.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 508.0
+    MaxVelocity: 1250.0
+    MetaLevel: 5.0
+    RequiredSkill1: 20213.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3325.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3319.0
+    RequiredSkill3Level: 5.0
+    StructureUniformity: 1.0
+    TechLevel: 2.0
+    ThermalDamage: 608.0
+    ThermalDamageResonance: 0.800000011920929
+  Mjolnir Javelin Torpedo:
+    Agility: 5.220125675201416
+    AimedLaunch: 1.0
+    AoeCloudSize: 450.0
+    AoeDamageReductionFactor: 0.9670000076293945
+    AoeFalloff: 1500.0
+    AoeVelocity: 71.0
+    DetonationRange: 35.0
+    EmDamage: 405.0
+    EmDamageResonance: 0.800000011920929
+    ExplosionDelay: 6000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 360.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 508.0
+    MaxVelocity: 2250.0
+    MetaLevel: 5.0
+    RequiredSkill1: 20213.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3325.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3319.0
+    RequiredSkill3Level: 5.0
+    StructureUniformity: 1.0
+    TechLevel: 2.0
+    ThermalDamageResonance: 1.0
   Mjolnir Rage Torpedo:
     Agility: 5.220125675201416
     AoeCloudSize: 774.0
@@ -50,21 +101,22 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2.0
     ThermalDamageResonance: 1.0
-  Scourge Rage Torpedo:
+  Nova Javelin Torpedo:
     Agility: 5.220125675201416
-    AoeCloudSize: 774.0
+    AimedLaunch: 1.0
+    AoeCloudSize: 450.0
     AoeDamageReductionFactor: 0.9670000076293945
-    AoeFalloff: 750.0
-    AoeVelocity: 61.0
+    AoeFalloff: 1500.0
+    AoeVelocity: 71.0
     DetonationRange: 35.0
     EmDamageResonance: 1.0
     ExplosionDelay: 6000.0
-    ExplosiveDamageResonance: 1.0
+    ExplosiveDamage: 405.0
+    ExplosiveDamageResonance: 0.800000011920929
     Hp: 360.0
-    KineticDamage: 608.0
-    KineticDamageResonance: 0.800000011920929
+    KineticDamageResonance: 1.0
     LauncherGroup: 508.0
-    MaxVelocity: 1250.0
+    MaxVelocity: 2250.0
     MetaLevel: 5.0
     RequiredSkill1: 20213.0
     RequiredSkill1Level: 1.0
@@ -100,57 +152,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2.0
     ThermalDamageResonance: 1.0
-  Mjolnir Javelin Torpedo:
-    Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
-    AoeDamageReductionFactor: 0.9670000076293945
-    AoeFalloff: 1500.0
-    AoeVelocity: 71.0
-    DetonationRange: 35.0
-    EmDamage: 405.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 6000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 360.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 2250.0
-    MetaLevel: 5.0
-    RequiredSkill1: 20213.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3325.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
-    StructureUniformity: 1.0
-    TechLevel: 2.0
-    ThermalDamageResonance: 1.0
-  Inferno Rage Torpedo:
-    Agility: 5.220125675201416
-    AoeCloudSize: 774.0
-    AoeDamageReductionFactor: 0.9670000076293945
-    AoeFalloff: 750.0
-    AoeVelocity: 61.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 6000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 360.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 508.0
-    MaxVelocity: 1250.0
-    MetaLevel: 5.0
-    RequiredSkill1: 20213.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3325.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
-    StructureUniformity: 1.0
-    TechLevel: 2.0
-    ThermalDamage: 608.0
-    ThermalDamageResonance: 0.800000011920929
   Scourge Javelin Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1.0
@@ -177,22 +178,21 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2.0
     ThermalDamageResonance: 1.0
-  Nova Javelin Torpedo:
+  Scourge Rage Torpedo:
     Agility: 5.220125675201416
-    AimedLaunch: 1.0
-    AoeCloudSize: 450.0
+    AoeCloudSize: 774.0
     AoeDamageReductionFactor: 0.9670000076293945
-    AoeFalloff: 1500.0
-    AoeVelocity: 71.0
+    AoeFalloff: 750.0
+    AoeVelocity: 61.0
     DetonationRange: 35.0
     EmDamageResonance: 1.0
     ExplosionDelay: 6000.0
-    ExplosiveDamage: 405.0
-    ExplosiveDamageResonance: 0.800000011920929
+    ExplosiveDamageResonance: 1.0
     Hp: 360.0
-    KineticDamageResonance: 1.0
+    KineticDamage: 608.0
+    KineticDamageResonance: 0.800000011920929
     LauncherGroup: 508.0
-    MaxVelocity: 2250.0
+    MaxVelocity: 1250.0
     MetaLevel: 5.0
     RequiredSkill1: 20213.0
     RequiredSkill1Level: 1.0

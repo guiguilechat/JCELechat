@@ -1,4 +1,36 @@
 items:
+  '''Crop'' Gas Cloud Harvester':
+    CapacitorNeed: 10.0
+    Cpu: 48.0
+    DisallowEarlyDeactivation: 1.0
+    Duration: 30000.0
+    Hp: 40.0
+    MaxRange: 1500.0
+    MetaLevel: 1.0
+    MiningAmount: 10.0
+    Power: 2.0
+    RequiredSkill1: 25544.0
+    RequiredSkill1Level: 1.0
+    Slots: 1.0
+    TargetGroup: 711.0
+    TechLevel: 1.0
+    TypeColorScheme: 11346.0
+  '''Plow'' Gas Cloud Harvester':
+    CapacitorNeed: 10.0
+    Cpu: 30.0
+    DisallowEarlyDeactivation: 1.0
+    Duration: 30000.0
+    Hp: 40.0
+    MaxRange: 1500.0
+    MetaLevel: 1.0
+    MiningAmount: 10.0
+    Power: 2.0
+    RequiredSkill1: 25544.0
+    RequiredSkill1Level: 1.0
+    Slots: 1.0
+    TargetGroup: 711.0
+    TechLevel: 1.0
+    TypeColorScheme: 11346.0
   Gas Cloud Harvester I:
     CapacitorNeed: 10.0
     Cpu: 60.0
@@ -47,35 +79,3 @@ items:
     TargetGroup: 711.0
     TechLevel: 1.0
     TypeColorScheme: 11353.0
-  '''Plow'' Gas Cloud Harvester':
-    CapacitorNeed: 10.0
-    Cpu: 30.0
-    DisallowEarlyDeactivation: 1.0
-    Duration: 30000.0
-    Hp: 40.0
-    MaxRange: 1500.0
-    MetaLevel: 1.0
-    MiningAmount: 10.0
-    Power: 2.0
-    RequiredSkill1: 25544.0
-    RequiredSkill1Level: 1.0
-    Slots: 1.0
-    TargetGroup: 711.0
-    TechLevel: 1.0
-    TypeColorScheme: 11346.0
-  '''Crop'' Gas Cloud Harvester':
-    CapacitorNeed: 10.0
-    Cpu: 48.0
-    DisallowEarlyDeactivation: 1.0
-    Duration: 30000.0
-    Hp: 40.0
-    MaxRange: 1500.0
-    MetaLevel: 1.0
-    MiningAmount: 10.0
-    Power: 2.0
-    RequiredSkill1: 25544.0
-    RequiredSkill1Level: 1.0
-    Slots: 1.0
-    TargetGroup: 711.0
-    TechLevel: 1.0
-    TypeColorScheme: 11346.0

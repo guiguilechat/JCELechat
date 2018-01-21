@@ -1,5 +1,5 @@
 items:
-  Scourge XL Torpedo:
+  Guristas Inferno XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1.0
     AoeCloudSize: 10000.0
@@ -9,9 +9,53 @@ items:
     DetonationRange: 35.0
     ExplosionDelay: 7500.0
     Hp: 1920.0
-    KineticDamage: 5350.0
     LauncherGroup: 524.0
     MaxVelocity: 2900.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    RequiredSkill1: 21668.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamage: 5885.0
+  Guristas Mjolnir XL Torpedo:
+    Agility: 148.0471954345703
+    AimedLaunch: 1.0
+    AoeCloudSize: 10000.0
+    AoeDamageReductionFactor: 1.0
+    AoeFalloff: 1500.0
+    AoeVelocity: 35.0
+    DetonationRange: 35.0
+    EmDamage: 5885.0
+    ExplosionDelay: 7500.0
+    Hp: 1920.0
+    LauncherGroup: 524.0
+    MaxVelocity: 2900.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    RequiredSkill1: 21668.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+  Guristas Nova XL Torpedo:
+    Agility: 148.0471954345703
+    AimedLaunch: 1.0
+    AoeCloudSize: 10000.0
+    AoeDamageReductionFactor: 1.0
+    AoeFalloff: 1500.0
+    AoeVelocity: 35.0
+    DetonationRange: 35.0
+    ExplosionDelay: 7500.0
+    ExplosiveDamage: 5885.0
+    Hp: 1920.0
+    LauncherGroup: 524.0
+    MaxVelocity: 2900.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
     RequiredSkill1: 21668.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3319.0
@@ -29,27 +73,6 @@ items:
     ExplosionDelay: 7500.0
     Hp: 1920.0
     KineticDamage: 5885.0
-    LauncherGroup: 524.0
-    MaxVelocity: 2900.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    RequiredSkill1: 21668.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-  Guristas Mjolnir XL Torpedo:
-    Agility: 148.0471954345703
-    AimedLaunch: 1.0
-    AoeCloudSize: 10000.0
-    AoeDamageReductionFactor: 1.0
-    AoeFalloff: 1500.0
-    AoeVelocity: 35.0
-    DetonationRange: 35.0
-    EmDamage: 5885.0
-    ExplosionDelay: 7500.0
-    Hp: 1920.0
     LauncherGroup: 524.0
     MaxVelocity: 2900.0
     MetaGroupID: 4.0
@@ -98,48 +121,6 @@ items:
     RequiredSkill2Level: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-  Guristas Nova XL Torpedo:
-    Agility: 148.0471954345703
-    AimedLaunch: 1.0
-    AoeCloudSize: 10000.0
-    AoeDamageReductionFactor: 1.0
-    AoeFalloff: 1500.0
-    AoeVelocity: 35.0
-    DetonationRange: 35.0
-    ExplosionDelay: 7500.0
-    ExplosiveDamage: 5885.0
-    Hp: 1920.0
-    LauncherGroup: 524.0
-    MaxVelocity: 2900.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    RequiredSkill1: 21668.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-  Guristas Inferno XL Torpedo:
-    Agility: 148.0471954345703
-    AimedLaunch: 1.0
-    AoeCloudSize: 10000.0
-    AoeDamageReductionFactor: 1.0
-    AoeFalloff: 1500.0
-    AoeVelocity: 35.0
-    DetonationRange: 35.0
-    ExplosionDelay: 7500.0
-    Hp: 1920.0
-    LauncherGroup: 524.0
-    MaxVelocity: 2900.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    RequiredSkill1: 21668.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamage: 5885.0
   Nova XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1.0
@@ -151,6 +132,25 @@ items:
     ExplosionDelay: 7500.0
     ExplosiveDamage: 5350.0
     Hp: 1920.0
+    LauncherGroup: 524.0
+    MaxVelocity: 2900.0
+    RequiredSkill1: 21668.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+  Scourge XL Torpedo:
+    Agility: 148.0471954345703
+    AimedLaunch: 1.0
+    AoeCloudSize: 10000.0
+    AoeDamageReductionFactor: 1.0
+    AoeFalloff: 1500.0
+    AoeVelocity: 35.0
+    DetonationRange: 35.0
+    ExplosionDelay: 7500.0
+    Hp: 1920.0
+    KineticDamage: 5350.0
     LauncherGroup: 524.0
     MaxVelocity: 2900.0
     RequiredSkill1: 21668.0

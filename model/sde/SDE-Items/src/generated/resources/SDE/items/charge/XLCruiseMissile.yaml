@@ -1,5 +1,5 @@
 items:
-  Inferno XL Cruise Missile:
+  Guristas Inferno XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1.0
     AoeCloudSize: 6000.0
@@ -11,14 +11,16 @@ items:
     Hp: 1920.0
     LauncherGroup: 524.0
     MaxVelocity: 7000.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
     RequiredSkill1: 32435.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3319.0
     RequiredSkill2Level: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-    ThermalDamage: 4750.0
-  Nova XL Cruise Missile:
+    ThermalDamage: 5225.0
+  Guristas Mjolnir XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1.0
     AoeCloudSize: 6000.0
@@ -26,28 +28,9 @@ items:
     AoeFalloff: 1500.0
     AoeVelocity: 40.0
     DetonationRange: 35.0
-    ExplosionDelay: 15000.0
-    ExplosiveDamage: 4750.0
-    Hp: 1920.0
-    LauncherGroup: 524.0
-    MaxVelocity: 7000.0
-    RequiredSkill1: 32435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-  Guristas Scourge XL Cruise Missile:
-    Agility: 4.363462267065188E-6
-    AimedLaunch: 1.0
-    AoeCloudSize: 6000.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 40.0
-    DetonationRange: 35.0
+    EmDamage: 5225.0
     ExplosionDelay: 15000.0
     Hp: 1920.0
-    KineticDamage: 5225.0
     LauncherGroup: 524.0
     MaxVelocity: 7000.0
     MetaGroupID: 4.0
@@ -79,7 +62,7 @@ items:
     RequiredSkill2Level: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-  Guristas Mjolnir XL Cruise Missile:
+  Guristas Scourge XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1.0
     AoeCloudSize: 6000.0
@@ -87,9 +70,9 @@ items:
     AoeFalloff: 1500.0
     AoeVelocity: 40.0
     DetonationRange: 35.0
-    EmDamage: 5225.0
     ExplosionDelay: 15000.0
     Hp: 1920.0
+    KineticDamage: 5225.0
     LauncherGroup: 524.0
     MaxVelocity: 7000.0
     MetaGroupID: 4.0
@@ -100,7 +83,7 @@ items:
     RequiredSkill2Level: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-  Guristas Inferno XL Cruise Missile:
+  Inferno XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1.0
     AoeCloudSize: 6000.0
@@ -112,34 +95,13 @@ items:
     Hp: 1920.0
     LauncherGroup: 524.0
     MaxVelocity: 7000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
     RequiredSkill1: 32435.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3319.0
     RequiredSkill2Level: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-    ThermalDamage: 5225.0
-  Scourge XL Cruise Missile:
-    Agility: 4.363462267065188E-6
-    AimedLaunch: 1.0
-    AoeCloudSize: 6000.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 40.0
-    DetonationRange: 35.0
-    ExplosionDelay: 15000.0
-    Hp: 1920.0
-    KineticDamage: 4750.0
-    LauncherGroup: 524.0
-    MaxVelocity: 7000.0
-    RequiredSkill1: 32435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
+    ThermalDamage: 4750.0
   Mjolnir XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1.0
@@ -151,6 +113,44 @@ items:
     EmDamage: 4750.0
     ExplosionDelay: 15000.0
     Hp: 1920.0
+    LauncherGroup: 524.0
+    MaxVelocity: 7000.0
+    RequiredSkill1: 32435.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+  Nova XL Cruise Missile:
+    Agility: 4.363462267065188E-6
+    AimedLaunch: 1.0
+    AoeCloudSize: 6000.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 40.0
+    DetonationRange: 35.0
+    ExplosionDelay: 15000.0
+    ExplosiveDamage: 4750.0
+    Hp: 1920.0
+    LauncherGroup: 524.0
+    MaxVelocity: 7000.0
+    RequiredSkill1: 32435.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+  Scourge XL Cruise Missile:
+    Agility: 4.363462267065188E-6
+    AimedLaunch: 1.0
+    AoeCloudSize: 6000.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 40.0
+    DetonationRange: 35.0
+    ExplosionDelay: 15000.0
+    Hp: 1920.0
+    KineticDamage: 4750.0
     LauncherGroup: 524.0
     MaxVelocity: 7000.0
     RequiredSkill1: 32435.0

@@ -1,42 +1,42 @@
 items:
-  '''Boss'' Remote Sensor Booster I Blueprint':
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  Federation Navy Sensor Booster Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  Remote Sensor Booster II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
-  '''Executive'' Remote Sensor Dampener Blueprint':
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  Remote Sensor Booster I Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  Sensor Booster II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
   '''Bootleg'' Remote Sensor Booster Blueprint':
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  '''Boss'' Remote Sensor Booster I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1.0
   '''Broker'' Remote Sensor Dampener I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1.0
-  Remote Sensor Dampener II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
   '''Entrepreneur'' Remote Sensor Booster I Blueprint':
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  '''Executive'' Remote Sensor Dampener Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1.0
   '''Shady'' Sensor Booster Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1.0
-  Remote Sensor Dampener I Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  Sensor Booster I Blueprint:
+  Federation Navy Sensor Booster Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1.0
   Networked Sensor Array Blueprint:
     TechLevel: 1.0
+  Remote Sensor Booster I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Remote Sensor Booster II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  Remote Sensor Dampener I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Remote Sensor Dampener II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  Sensor Booster I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Sensor Booster II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0

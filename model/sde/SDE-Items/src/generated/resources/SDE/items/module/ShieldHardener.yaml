@@ -1,30 +1,13 @@
 items:
-  Pith C-Type EM Ward Field:
+  '''Desert Heat'' Thermal Dissipation Field':
     CapacitorNeed: 20.0
-    Cpu: 33.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Gist B-Type Thermal Dissipation Field:
-    CapacitorNeed: 17.0
     Cpu: 34.0
-    Duration: 12000.0
+    Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
+    HeatDamage: 3.4000000953674316
     Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
@@ -32,67 +15,17 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-    ThermalDamageResistanceBonus: -57.25
-  Limited Thermal Dissipation Field I:
+    ThermalDamageResistanceBonus: -52.5
+  '''Nugget'' Kinetic Deflection Field':
     CapacitorNeed: 20.0
-    Cpu: 38.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -50.0
-  Domination Thermal Dissipation Field:
-    CapacitorNeed: 10.0
-    Cpu: 38.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -50.0
-  Pith A-Type Explosive Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 39.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -61.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Domination Explosive Deflection Field:
-    CapacitorNeed: 10.0
     Cpu: 34.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -50.0
+    Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
+    HeatDamage: 3.4000000953674316
     Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    KineticDamageResistanceBonus: -52.5
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
@@ -100,146 +33,16 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Domination Adaptive Invulnerability Field:
-    CapacitorNeed: 16.0
-    Cpu: 34.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -25.0
-    ExplosiveDamageResistanceBonus: -25.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -25.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -25.0
-  Domination Kinetic Deflection Field:
-    CapacitorNeed: 10.0
-    Cpu: 36.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -50.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Gist B-Type EM Ward Field:
-    CapacitorNeed: 17.0
-    Cpu: 34.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Pithum B-Type Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 32.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -43.75
-    ExplosiveDamageResistanceBonus: -43.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -43.75
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -43.75
-  Vepas's Modified Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 35.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -46.875
-    ExplosiveDamageResistanceBonus: -46.875
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -46.875
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -46.875
-  Naiyon's Modified Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 32.0
-    Duration: 12800.0
-    EmDamageResistanceBonus: -43.75
-    ExplosiveDamageResistanceBonus: -43.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.199999809265137
-    Hp: 40.0
-    KineticDamageResistanceBonus: -43.75
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -43.75
-  Vepas's Modified EM Ward Field:
+  '''Poacher'' EM Ward Field':
     CapacitorNeed: 20.0
-    Cpu: 39.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -61.75
+    Cpu: 34.0
+    Duration: 10000.0
+    EmDamageResistanceBonus: -52.5
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
+    HeatDamage: 3.4000000953674316
     Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Caldari Navy Explosive Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 30.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
@@ -267,9 +70,584 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -27.5
-  Pith A-Type Thermal Dissipation Field:
+  '''Snake Eyes'' Explosive Deflection Field':
     CapacitorNeed: 20.0
-    Cpu: 39.0
+    Cpu: 34.0
+    Duration: 10000.0
+    ExplosiveDamageResistanceBonus: -52.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Adaptive Invulnerability Field I:
+    CapacitorNeed: 40.0
+    Cpu: 40.0
+    Duration: 10000.0
+    EmDamageResistanceBonus: -25.0
+    ExplosiveDamageResistanceBonus: -25.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    KineticDamageResistanceBonus: -25.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -25.0
+  Adaptive Invulnerability Field II:
+    CapacitorNeed: 32.0
+    Cpu: 44.0
+    Duration: 10000.0
+    EmDamageResistanceBonus: -30.0
+    ExplosiveDamageResistanceBonus: -30.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    KineticDamageResistanceBonus: -30.0
+    MetaLevel: 5.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 4.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 2.0
+    ThermalDamageResistanceBonus: -30.0
+  Caldari Navy Adaptive Invulnerability Field:
+    CapacitorNeed: 40.0
+    Cpu: 27.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -37.5
+    ExplosiveDamageResistanceBonus: -37.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -37.5
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -37.5
+  Caldari Navy EM Ward Field:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Caldari Navy Explosive Deflection Field:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Caldari Navy Kinetic Deflection Field:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -55.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Caldari Navy Thermal Dissipation Field:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -55.0
+  Civilian EM Ward Field:
+    CapacitorNeed: 25.0
+    Cpu: 40.0
+    Duration: 10000.0
+    EmDamageResistanceBonus: -35.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Civilian Explosive Deflection Field:
+    CapacitorNeed: 25.0
+    Cpu: 40.0
+    Duration: 10000.0
+    ExplosiveDamageResistanceBonus: -35.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Civilian Kinetic Deflection Field:
+    CapacitorNeed: 25.0
+    Cpu: 40.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    KineticDamageResistanceBonus: -35.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Civilian Thermal Dissipation Field:
+    CapacitorNeed: 25.0
+    Cpu: 40.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -35.0
+  Domination Adaptive Invulnerability Field:
+    CapacitorNeed: 16.0
+    Cpu: 34.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -25.0
+    ExplosiveDamageResistanceBonus: -25.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -25.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -25.0
+  Domination EM Ward Field:
+    CapacitorNeed: 10.0
+    Cpu: 32.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Domination Explosive Deflection Field:
+    CapacitorNeed: 10.0
+    Cpu: 34.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Domination Kinetic Deflection Field:
+    CapacitorNeed: 10.0
+    Cpu: 36.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -50.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Domination Thermal Dissipation Field:
+    CapacitorNeed: 10.0
+    Cpu: 38.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -50.0
+  Dread Guristas Adaptive Invulnerability Field:
+    CapacitorNeed: 40.0
+    Cpu: 27.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -37.5
+    ExplosiveDamageResistanceBonus: -37.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -37.5
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -37.5
+  Dread Guristas EM Ward Field:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Dread Guristas Explosive Deflection Field:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Dread Guristas Kinetic Deflection Field:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -55.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Dread Guristas Thermal Dissipation Field:
+    CapacitorNeed: 20.0
+    Cpu: 30.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -55.0
+  EM Ward Field I:
+    CapacitorNeed: 20.0
+    Cpu: 40.0
+    Duration: 10000.0
+    EmDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  EM Ward Field II:
+    CapacitorNeed: 20.0
+    Cpu: 44.0
+    Duration: 10000.0
+    EmDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MetaLevel: 5.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 4.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 2.0
+  Estamel's Modified Adaptive Invulnerability Field:
+    CapacitorNeed: 40.0
+    Cpu: 37.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -50.0
+    ExplosiveDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -50.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -50.0
+  Estamel's Modified EM Ward Field:
+    CapacitorNeed: 20.0
+    Cpu: 42.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -64.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Estamel's Modified Explosive Deflection Field:
+    CapacitorNeed: 20.0
+    Cpu: 42.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -64.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Estamel's Modified Kinetic Deflection Field:
+    CapacitorNeed: 20.0
+    Cpu: 42.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -64.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Estamel's Modified Thermal Dissipation Field:
+    CapacitorNeed: 20.0
+    Cpu: 42.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -64.0
+  Explosive Deflection Field I:
+    CapacitorNeed: 20.0
+    Cpu: 40.0
+    Duration: 10000.0
+    ExplosiveDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Explosive Deflection Field II:
+    CapacitorNeed: 20.0
+    Cpu: 44.0
+    Duration: 10000.0
+    ExplosiveDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MetaLevel: 5.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 4.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 2.0
+  Gist A-Type EM Ward Field:
+    CapacitorNeed: 18.0
+    Cpu: 37.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -59.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Gist A-Type Explosive Deflection Field:
+    CapacitorNeed: 18.0
+    Cpu: 37.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -59.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Gist A-Type Kinetic Deflection Field:
+    CapacitorNeed: 18.0
+    Cpu: 37.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -59.5
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Gist A-Type Thermal Dissipation Field:
+    CapacitorNeed: 18.0
+    Cpu: 37.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
@@ -283,16 +661,537 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-    ThermalDamageResistanceBonus: -61.75
-  Vepas's Modified Kinetic Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 39.0
+    ThermalDamageResistanceBonus: -59.5
+  Gist B-Type EM Ward Field:
+    CapacitorNeed: 17.0
+    Cpu: 34.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Gist B-Type Explosive Deflection Field:
+    CapacitorNeed: 17.0
+    Cpu: 34.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Gist B-Type Kinetic Deflection Field:
+    CapacitorNeed: 17.0
+    Cpu: 34.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -57.25
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Gist B-Type Thermal Dissipation Field:
+    CapacitorNeed: 17.0
+    Cpu: 34.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -57.25
+  Gist C-Type EM Ward Field:
+    CapacitorNeed: 16.0
+    Cpu: 31.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -54.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Gist C-Type Explosive Deflection Field:
+    CapacitorNeed: 16.0
+    Cpu: 31.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -54.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Gist C-Type Kinetic Deflection Field:
+    CapacitorNeed: 16.0
+    Cpu: 31.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -54.5
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Gist C-Type Thermal Dissipation Field:
+    CapacitorNeed: 16.0
+    Cpu: 31.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -54.5
+  Gist X-Type EM Ward Field:
+    CapacitorNeed: 19.0
+    Cpu: 40.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -61.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Gist X-Type Explosive Deflection Field:
+    CapacitorNeed: 19.0
+    Cpu: 40.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -61.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Gist X-Type Kinetic Deflection Field:
+    CapacitorNeed: 19.0
+    Cpu: 40.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
     Hp: 40.0
     KineticDamageResistanceBonus: -61.75
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Gist X-Type Thermal Dissipation Field:
+    CapacitorNeed: 19.0
+    Cpu: 40.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -61.75
+  Gistum A-Type Adaptive Invulnerability Field:
+    CapacitorNeed: 36.0
+    Cpu: 33.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -43.75
+    ExplosiveDamageResistanceBonus: -43.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -43.75
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -43.75
+  Gistum B-Type Adaptive Invulnerability Field:
+    CapacitorNeed: 34.0
+    Cpu: 30.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -40.625
+    ExplosiveDamageResistanceBonus: -40.625
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -40.625
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -40.625
+  Gistum C-Type Adaptive Invulnerability Field:
+    CapacitorNeed: 32.0
+    Cpu: 27.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -37.5
+    ExplosiveDamageResistanceBonus: -37.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -37.5
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -37.5
+  Kaikka's Modified Adaptive Invulnerability Field:
+    CapacitorNeed: 40.0
+    Cpu: 29.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -40.625
+    ExplosiveDamageResistanceBonus: -40.625
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -40.625
     MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -40.625
+  Kaikka's Modified EM Ward Field:
+    CapacitorNeed: 20.0
+    Cpu: 33.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Kaikka's Modified Explosive Deflection Field:
+    CapacitorNeed: 20.0
+    Cpu: 33.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Kaikka's Modified Kinetic Deflection Field:
+    CapacitorNeed: 20.0
+    Cpu: 33.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -57.25
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Kaikka's Modified Thermal Dissipation Field:
+    CapacitorNeed: 20.0
+    Cpu: 33.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -57.25
+  Kinetic Deflection Field I:
+    CapacitorNeed: 20.0
+    Cpu: 40.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    KineticDamageResistanceBonus: -50.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Kinetic Deflection Field II:
+    CapacitorNeed: 20.0
+    Cpu: 44.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    KineticDamageResistanceBonus: -55.0
+    MetaLevel: 5.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 4.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 2.0
+  Limited 'Anointed' EM Ward Field:
+    CapacitorNeed: 20.0
+    Cpu: 32.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Limited Adaptive Invulnerability Field I:
+    CapacitorNeed: 40.0
+    Cpu: 34.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -25.0
+    ExplosiveDamageResistanceBonus: -25.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -25.0
+    MetaLevel: 2.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -25.0
+  Limited Explosive Deflection Field I:
+    CapacitorNeed: 20.0
+    Cpu: 34.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Limited Kinetic Deflection Field I:
+    CapacitorNeed: 20.0
+    Cpu: 36.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -50.0
+    MetaLevel: 2.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Limited Thermal Dissipation Field I:
+    CapacitorNeed: 20.0
+    Cpu: 38.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -50.0
+  Luther Veron's Modified Adaptive Invulnerability Field:
+    CapacitorNeed: 40.0
+    Cpu: 33.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -44.75
+    ExplosiveDamageResistanceBonus: -44.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -44.75
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -44.75
+  Naiyon's Modified Adaptive Invulnerability Field:
+    CapacitorNeed: 40.0
+    Cpu: 32.0
+    Duration: 12800.0
+    EmDamageResistanceBonus: -43.75
+    ExplosiveDamageResistanceBonus: -43.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.199999809265137
+    Hp: 40.0
+    KineticDamageResistanceBonus: -43.75
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -43.75
+  Pith A-Type EM Ward Field:
+    CapacitorNeed: 20.0
+    Cpu: 39.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -61.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Pith A-Type Explosive Deflection Field:
+    CapacitorNeed: 20.0
+    Cpu: 39.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -61.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 6.0
     MetaLevel: 13.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
@@ -318,52 +1217,15 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Dread Guristas Explosive Deflection Field:
+  Pith A-Type Thermal Dissipation Field:
     CapacitorNeed: 20.0
-    Cpu: 30.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Adaptive Invulnerability Field II:
-    CapacitorNeed: 32.0
-    Cpu: 44.0
-    Duration: 10000.0
-    EmDamageResistanceBonus: -30.0
-    ExplosiveDamageResistanceBonus: -30.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    KineticDamageResistanceBonus: -30.0
-    MetaLevel: 5.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
-    ThermalDamageResistanceBonus: -30.0
-  Gist B-Type Kinetic Deflection Field:
-    CapacitorNeed: 17.0
-    Cpu: 34.0
+    Cpu: 39.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
     Hp: 40.0
-    KineticDamageResistanceBonus: -57.25
     MetaGroupID: 6.0
-    MetaLevel: 12.0
+    MetaLevel: 13.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
@@ -371,129 +1233,7 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Thon's Modified Thermal Dissipation Field:
-    CapacitorNeed: 20.0
-    Cpu: 36.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -59.5
-  Explosive Deflection Field I:
-    CapacitorNeed: 20.0
-    Cpu: 40.0
-    Duration: 10000.0
-    ExplosiveDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Estamel's Modified Thermal Dissipation Field:
-    CapacitorNeed: 20.0
-    Cpu: 42.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -64.0
-  Pithum C-Type Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 29.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -40.625
-    ExplosiveDamageResistanceBonus: -40.625
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -40.625
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -40.625
-  Kaikka's Modified Kinetic Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 33.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -57.25
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Pith X-Type Kinetic Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 42.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -64.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Caldari Navy Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 27.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -37.5
-    ExplosiveDamageResistanceBonus: -37.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -37.5
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -37.5
+    ThermalDamageResistanceBonus: -61.75
   Pith B-Type EM Ward Field:
     CapacitorNeed: 20.0
     Cpu: 36.0
@@ -528,16 +1268,16 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Pith X-Type Explosive Deflection Field:
+  Pith B-Type Kinetic Deflection Field:
     CapacitorNeed: 20.0
-    Cpu: 42.0
+    Cpu: 36.0
     Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -64.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
     Hp: 40.0
+    KineticDamageResistanceBonus: -59.5
     MetaGroupID: 6.0
-    MetaLevel: 14.0
+    MetaLevel: 12.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
@@ -545,32 +1285,33 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Civilian Thermal Dissipation Field:
-    CapacitorNeed: 25.0
-    Cpu: 40.0
-    Duration: 10000.0
+  Pith B-Type Thermal Dissipation Field:
+    CapacitorNeed: 20.0
+    Cpu: 36.0
+    Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
+    HeatDamage: 4.0
     Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
-    RequiredSkill1: 3413.0
+    RequiredSkill1: 3420.0
     RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-    ThermalDamageResistanceBonus: -35.0
-  Gistum A-Type Adaptive Invulnerability Field:
-    CapacitorNeed: 36.0
+    ThermalDamageResistanceBonus: -59.5
+  Pith C-Type EM Ward Field:
+    CapacitorNeed: 20.0
     Cpu: 33.0
     Duration: 12000.0
-    EmDamageResistanceBonus: -43.75
-    ExplosiveDamageResistanceBonus: -43.75
+    EmDamageResistanceBonus: -57.25
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
     Hp: 40.0
-    KineticDamageResistanceBonus: -43.75
     MetaGroupID: 6.0
-    MetaLevel: 13.0
+    MetaLevel: 11.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
@@ -578,15 +1319,31 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-    ThermalDamageResistanceBonus: -43.75
-  Gist C-Type Kinetic Deflection Field:
-    CapacitorNeed: 16.0
-    Cpu: 31.0
+  Pith C-Type Explosive Deflection Field:
+    CapacitorNeed: 20.0
+    Cpu: 33.0
+    Duration: 12000.0
+    ExplosiveDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Pith C-Type Kinetic Deflection Field:
+    CapacitorNeed: 20.0
+    Cpu: 33.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
     Hp: 40.0
-    KineticDamageResistanceBonus: -54.5
+    KineticDamageResistanceBonus: -57.25
     MetaGroupID: 6.0
     MetaLevel: 11.0
     OverloadHardeningBonus: 20.0
@@ -613,32 +1370,15 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -57.25
-  '''Poacher'' EM Ward Field':
-    CapacitorNeed: 20.0
-    Cpu: 34.0
-    Duration: 10000.0
-    EmDamageResistanceBonus: -52.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Estamel's Modified Explosive Deflection Field:
+  Pith X-Type EM Ward Field:
     CapacitorNeed: 20.0
     Cpu: 42.0
     Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -64.0
+    EmDamageResistanceBonus: -64.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
     Hp: 40.0
-    MetaGroupID: 5.0
+    MetaGroupID: 6.0
     MetaLevel: 14.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
@@ -647,81 +1387,16 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Thon's Modified EM Ward Field:
+  Pith X-Type Explosive Deflection Field:
     CapacitorNeed: 20.0
-    Cpu: 36.0
+    Cpu: 42.0
     Duration: 12000.0
-    EmDamageResistanceBonus: -59.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Limited Explosive Deflection Field I:
-    CapacitorNeed: 20.0
-    Cpu: 34.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Kaikka's Modified EM Ward Field:
-    CapacitorNeed: 20.0
-    Cpu: 33.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Thermal Dissipation Field I:
-    CapacitorNeed: 20.0
-    Cpu: 40.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -50.0
-  Pith C-Type Explosive Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 33.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -57.25
+    ExplosiveDamageResistanceBonus: -64.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
     Hp: 40.0
     MetaGroupID: 6.0
-    MetaLevel: 11.0
+    MetaLevel: 14.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
@@ -729,16 +1404,16 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Dread Guristas Kinetic Deflection Field:
+  Pith X-Type Kinetic Deflection Field:
     CapacitorNeed: 20.0
-    Cpu: 30.0
+    Cpu: 42.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
     Hp: 40.0
-    KineticDamageResistanceBonus: -55.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
+    KineticDamageResistanceBonus: -64.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
@@ -763,16 +1438,18 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -64.0
-  Gist X-Type Explosive Deflection Field:
-    CapacitorNeed: 19.0
-    Cpu: 40.0
+  Pithum A-Type Adaptive Invulnerability Field:
+    CapacitorNeed: 40.0
+    Cpu: 35.0
     Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -61.75
+    EmDamageResistanceBonus: -46.875
+    ExplosiveDamageResistanceBonus: -46.875
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
     Hp: 40.0
+    KineticDamageResistanceBonus: -46.875
     MetaGroupID: 6.0
-    MetaLevel: 14.0
+    MetaLevel: 13.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
@@ -780,7 +1457,28 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Kaikka's Modified Adaptive Invulnerability Field:
+    ThermalDamageResistanceBonus: -46.875
+  Pithum B-Type Adaptive Invulnerability Field:
+    CapacitorNeed: 40.0
+    Cpu: 32.0
+    Duration: 12000.0
+    EmDamageResistanceBonus: -43.75
+    ExplosiveDamageResistanceBonus: -43.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -43.75
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -43.75
+  Pithum C-Type Adaptive Invulnerability Field:
     CapacitorNeed: 40.0
     Cpu: 29.0
     Duration: 12000.0
@@ -790,7 +1488,7 @@ items:
     HeatDamage: 4.0
     Hp: 40.0
     KineticDamageResistanceBonus: -40.625
-    MetaGroupID: 5.0
+    MetaGroupID: 6.0
     MetaLevel: 11.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
@@ -800,397 +1498,13 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -40.625
-  Estamel's Modified Kinetic Deflection Field:
+  Thermal Dissipation Field I:
     CapacitorNeed: 20.0
-    Cpu: 42.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -64.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Kaikka's Modified Thermal Dissipation Field:
-    CapacitorNeed: 20.0
-    Cpu: 33.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -57.25
-  Gistum B-Type Adaptive Invulnerability Field:
-    CapacitorNeed: 34.0
-    Cpu: 30.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -40.625
-    ExplosiveDamageResistanceBonus: -40.625
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -40.625
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -40.625
-  Kaikka's Modified Explosive Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 33.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Caldari Navy Thermal Dissipation Field:
-    CapacitorNeed: 20.0
-    Cpu: 30.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -55.0
-  Gist X-Type Thermal Dissipation Field:
-    CapacitorNeed: 19.0
-    Cpu: 40.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -61.75
-  Dread Guristas Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 27.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -37.5
-    ExplosiveDamageResistanceBonus: -37.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -37.5
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -37.5
-  Domination EM Ward Field:
-    CapacitorNeed: 10.0
-    Cpu: 32.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Civilian Kinetic Deflection Field:
-    CapacitorNeed: 25.0
     Cpu: 40.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
     Hp: 40.0
-    KineticDamageResistanceBonus: -35.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Limited Adaptive Invulnerability Field I:
-    CapacitorNeed: 40.0
-    Cpu: 34.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -25.0
-    ExplosiveDamageResistanceBonus: -25.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -25.0
-    MetaLevel: 2.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -25.0
-  Pith C-Type Kinetic Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 33.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -57.25
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Gistum C-Type Adaptive Invulnerability Field:
-    CapacitorNeed: 32.0
-    Cpu: 27.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -37.5
-    ExplosiveDamageResistanceBonus: -37.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -37.5
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -37.5
-  Pith X-Type EM Ward Field:
-    CapacitorNeed: 20.0
-    Cpu: 42.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -64.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Pith A-Type EM Ward Field:
-    CapacitorNeed: 20.0
-    Cpu: 39.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -61.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Gist X-Type Kinetic Deflection Field:
-    CapacitorNeed: 19.0
-    Cpu: 40.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -61.75
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Adaptive Invulnerability Field I:
-    CapacitorNeed: 40.0
-    Cpu: 40.0
-    Duration: 10000.0
-    EmDamageResistanceBonus: -25.0
-    ExplosiveDamageResistanceBonus: -25.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    KineticDamageResistanceBonus: -25.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -25.0
-  Caldari Navy Kinetic Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 30.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -55.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Gist C-Type Explosive Deflection Field:
-    CapacitorNeed: 16.0
-    Cpu: 31.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -54.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Dread Guristas Thermal Dissipation Field:
-    CapacitorNeed: 20.0
-    Cpu: 30.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -55.0
-  Pith B-Type Thermal Dissipation Field:
-    CapacitorNeed: 20.0
-    Cpu: 36.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -59.5
-  Kinetic Deflection Field II:
-    CapacitorNeed: 20.0
-    Cpu: 44.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    KineticDamageResistanceBonus: -55.0
-    MetaLevel: 5.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
-  Civilian Explosive Deflection Field:
-    CapacitorNeed: 25.0
-    Cpu: 40.0
-    Duration: 10000.0
-    ExplosiveDamageResistanceBonus: -35.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Estamel's Modified Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 37.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -50.0
-    ExplosiveDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -50.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
@@ -1199,124 +1513,22 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -50.0
-  Gist B-Type Explosive Deflection Field:
-    CapacitorNeed: 17.0
-    Cpu: 34.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Vepas's Modified Explosive Deflection Field:
+  Thermal Dissipation Field II:
     CapacitorNeed: 20.0
-    Cpu: 39.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -61.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Limited Kinetic Deflection Field I:
-    CapacitorNeed: 20.0
-    Cpu: 36.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -50.0
-    MetaLevel: 2.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  '''Desert Heat'' Thermal Dissipation Field':
-    CapacitorNeed: 20.0
-    Cpu: 34.0
+    Cpu: 44.0
     Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.4000000953674316
     Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
+    MetaLevel: 5.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
     RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1Level: 4.0
     RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -52.5
-  Estamel's Modified EM Ward Field:
-    CapacitorNeed: 20.0
-    Cpu: 42.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -64.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Gist C-Type Thermal Dissipation Field:
-    CapacitorNeed: 16.0
-    Cpu: 31.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -54.5
-  Gist C-Type EM Ward Field:
-    CapacitorNeed: 16.0
-    Cpu: 31.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -54.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
+    TechLevel: 2.0
+    ThermalDamageResistanceBonus: -55.0
   Thon's Modified Adaptive Invulnerability Field:
     CapacitorNeed: 40.0
     Cpu: 32.0
@@ -1337,128 +1549,16 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -43.75
-  Explosive Deflection Field II:
+  Thon's Modified EM Ward Field:
     CapacitorNeed: 20.0
-    Cpu: 44.0
-    Duration: 10000.0
-    ExplosiveDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
-  EM Ward Field I:
-    CapacitorNeed: 20.0
-    Cpu: 40.0
-    Duration: 10000.0
-    EmDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Gist X-Type EM Ward Field:
-    CapacitorNeed: 19.0
-    Cpu: 40.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -61.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Gist A-Type EM Ward Field:
-    CapacitorNeed: 18.0
-    Cpu: 37.0
+    Cpu: 36.0
     Duration: 12000.0
     EmDamageResistanceBonus: -59.5
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
     Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Civilian EM Ward Field:
-    CapacitorNeed: 25.0
-    Cpu: 40.0
-    Duration: 10000.0
-    EmDamageResistanceBonus: -35.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Pith B-Type Kinetic Deflection Field:
-    CapacitorNeed: 20.0
-    Cpu: 36.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -59.5
-    MetaGroupID: 6.0
+    MetaGroupID: 5.0
     MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  EM Ward Field II:
-    CapacitorNeed: 20.0
-    Cpu: 44.0
-    Duration: 10000.0
-    EmDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
-  Dread Guristas EM Ward Field:
-    CapacitorNeed: 20.0
-    Cpu: 30.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
@@ -1483,40 +1583,6 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Vepas's Modified Thermal Dissipation Field:
-    CapacitorNeed: 20.0
-    Cpu: 39.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -61.75
-  Gist A-Type Thermal Dissipation Field:
-    CapacitorNeed: 18.0
-    Cpu: 37.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -59.5
   Thon's Modified Kinetic Deflection Field:
     CapacitorNeed: 20.0
     Cpu: 36.0
@@ -1534,81 +1600,15 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Kinetic Deflection Field I:
+  Thon's Modified Thermal Dissipation Field:
     CapacitorNeed: 20.0
-    Cpu: 40.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    KineticDamageResistanceBonus: -50.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  '''Nugget'' Kinetic Deflection Field':
-    CapacitorNeed: 20.0
-    Cpu: 34.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    KineticDamageResistanceBonus: -52.5
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Gist A-Type Explosive Deflection Field:
-    CapacitorNeed: 18.0
-    Cpu: 37.0
-    Duration: 12000.0
-    ExplosiveDamageResistanceBonus: -59.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Limited 'Anointed' EM Ward Field:
-    CapacitorNeed: 20.0
-    Cpu: 32.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Gist A-Type Kinetic Deflection Field:
-    CapacitorNeed: 18.0
-    Cpu: 37.0
+    Cpu: 36.0
     Duration: 12000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
     Hp: 40.0
-    KineticDamageResistanceBonus: -59.5
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
@@ -1616,40 +1616,8 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  '''Snake Eyes'' Explosive Deflection Field':
-    CapacitorNeed: 20.0
-    Cpu: 34.0
-    Duration: 10000.0
-    ExplosiveDamageResistanceBonus: -52.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Thermal Dissipation Field II:
-    CapacitorNeed: 20.0
-    Cpu: 44.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadHardeningBonus: 20.0
-    PassiveExplosiveDamageResonanceMultiplier: 1.0
-    Power: 1.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
-    ThermalDamageResistanceBonus: -55.0
-  Pithum A-Type Adaptive Invulnerability Field:
+    ThermalDamageResistanceBonus: -59.5
+  Vepas's Modified Adaptive Invulnerability Field:
     CapacitorNeed: 40.0
     Cpu: 35.0
     Duration: 12000.0
@@ -1659,7 +1627,7 @@ items:
     HeatDamage: 4.0
     Hp: 40.0
     KineticDamageResistanceBonus: -46.875
-    MetaGroupID: 6.0
+    MetaGroupID: 5.0
     MetaLevel: 13.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
@@ -1669,16 +1637,15 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -46.875
-  Luther Veron's Modified Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Cpu: 33.0
+  Vepas's Modified EM Ward Field:
+    CapacitorNeed: 20.0
+    Cpu: 39.0
     Duration: 12000.0
-    EmDamageResistanceBonus: -44.75
-    ExplosiveDamageResistanceBonus: -44.75
+    EmDamageResistanceBonus: -61.75
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
     Hp: 40.0
-    KineticDamageResistanceBonus: -44.75
+    MetaGroupID: 5.0
     MetaLevel: 13.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
@@ -1687,17 +1654,16 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-    ThermalDamageResistanceBonus: -44.75
-  Caldari Navy EM Ward Field:
+  Vepas's Modified Explosive Deflection Field:
     CapacitorNeed: 20.0
-    Cpu: 30.0
+    Cpu: 39.0
     Duration: 12000.0
-    EmDamageResistanceBonus: -55.0
+    ExplosiveDamageResistanceBonus: -61.75
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
     Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
     OverloadHardeningBonus: 20.0
     PassiveExplosiveDamageResonanceMultiplier: 1.0
     Power: 1.0
@@ -1705,3 +1671,37 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
+  Vepas's Modified Kinetic Deflection Field:
+    CapacitorNeed: 20.0
+    Cpu: 39.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -61.75
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Vepas's Modified Thermal Dissipation Field:
+    CapacitorNeed: 20.0
+    Cpu: 39.0
+    Duration: 12000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 4.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    PassiveExplosiveDamageResonanceMultiplier: 1.0
+    Power: 1.0
+    RequiredSkill1: 3420.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -61.75

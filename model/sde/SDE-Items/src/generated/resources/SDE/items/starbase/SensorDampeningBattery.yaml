@@ -1,4 +1,49 @@
 items:
+  Sensor Dampening Battery:
+    AnchoringDelay: 5000.0
+    ArmorHP: 1500000.0
+    ArmorUniformity: 0.75
+    ControlTowerMinimumDistance: 5000.0
+    Cpu: 25.0
+    DisallowOffensiveModifiers: 1.0
+    Duration: 10000.0
+    EmDamageResonance: 1.0
+    EntityAttackDelayMax: 30000.0
+    EntityAttackDelayMin: 7500.0
+    EntityFlyRange: 300000.0
+    EntityReactionFactor: 0.5
+    ExplosiveDamageResonance: 1.0
+    FalloffEffectiveness: 150000.0
+    FighterAbilityAntiCapitalMissileResistance: 1.0
+    Hp: 100000.0
+    IncapacitationRatio: 0.0010000000474974513
+    KineticDamageResonance: 1.0
+    MaxLockedTargets: 1.0
+    MaxRange: 150000.0
+    MaxTargetRange: 500000.0
+    MaxTargetRangeBonus: -50.0
+    OnliningDelay: 120000.0
+    PosPlayerControlStructure: 1.0
+    Power: 12500.0
+    ProximityRange: 300000.0
+    RemoteResistanceID: 2112.0
+    RequiredSkill1: 11584.0
+    RequiredSkill1Level: 1.0
+    ScanGravimetricStrength: 200.0
+    ScanLadarStrength: 200.0
+    ScanMagnetometricStrength: 200.0
+    ScanRadarStrength: 200.0
+    ScanResolution: 10.0
+    ScanResolutionBonus: -50.0
+    ShieldCapacity: 100000.0
+    ShieldRechargeRate: 1.0E7
+    ShieldUniformity: 0.75
+    SignatureRadius: 8000.0
+    StructureUniformity: 1.0
+    TargetSwitchDelay: 30000.0
+    ThermalDamageResonance: 1.0
+    UnanchoringDelay: 5000.0
+    Uniformity: 1.0
   Serpentis Sensor Dampening Battery:
     AnchoringDelay: 5000.0
     ArmorHP: 2250000.0
@@ -37,51 +82,6 @@ items:
     ScanResolution: 15.0
     ScanResolutionBonus: -55.0
     ShieldCapacity: 150000.0
-    ShieldRechargeRate: 1.0E7
-    ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
-    StructureUniformity: 1.0
-    TargetSwitchDelay: 30000.0
-    ThermalDamageResonance: 1.0
-    UnanchoringDelay: 5000.0
-    Uniformity: 1.0
-  Sensor Dampening Battery:
-    AnchoringDelay: 5000.0
-    ArmorHP: 1500000.0
-    ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 5000.0
-    Cpu: 25.0
-    DisallowOffensiveModifiers: 1.0
-    Duration: 10000.0
-    EmDamageResonance: 1.0
-    EntityAttackDelayMax: 30000.0
-    EntityAttackDelayMin: 7500.0
-    EntityFlyRange: 300000.0
-    EntityReactionFactor: 0.5
-    ExplosiveDamageResonance: 1.0
-    FalloffEffectiveness: 150000.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 100000.0
-    IncapacitationRatio: 0.0010000000474974513
-    KineticDamageResonance: 1.0
-    MaxLockedTargets: 1.0
-    MaxRange: 150000.0
-    MaxTargetRange: 500000.0
-    MaxTargetRangeBonus: -50.0
-    OnliningDelay: 120000.0
-    PosPlayerControlStructure: 1.0
-    Power: 12500.0
-    ProximityRange: 300000.0
-    RemoteResistanceID: 2112.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ScanResolution: 10.0
-    ScanResolutionBonus: -50.0
-    ShieldCapacity: 100000.0
     ShieldRechargeRate: 1.0E7
     ShieldUniformity: 0.75
     SignatureRadius: 8000.0

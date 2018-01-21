@@ -1,4 +1,17 @@
 items:
+  '''Dart'' Servitor':
+    ChargeSize: 1.0
+    Cpu: 50.0
+    Hp: 1.0
+    LauncherGroup: 317.0
+    MainColor: 5215864.0
+    Rechargeratebonus: -90.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3432.0
+    SkillLevel: 1.0
+    TechLevel: 5.0
+    VelocityBonus: 50.0
   '''Longbow'' Servitor':
     ChargeSize: 1.0
     Cpu: 50.0
@@ -10,6 +23,28 @@ items:
     RequiredSkill1Level: 5.0
     TechLevel: 1.0
     TurretSpeeBonus: -50.0
+  '''Phase'' Servitor':
+    ChargeSize: 1.0
+    Cpu: 50.0
+    Hp: 1.0
+    LauncherGroup: 317.0
+    MainColor: 5215864.0
+    RequiredSkill1: 19430.0
+    RequiredSkill1Level: 5.0
+    ShieldCapacityBonus: 25.0
+    TechLevel: 1.0
+    VelocityBonus: -90.0
+  Independent Shielding:
+    ChargeSize: 1.0
+    Cpu: 50.0
+    HardeningBonus: 0.5
+    Hp: 1.0
+    LauncherGroup: 317.0
+    MainColor: 5215864.0
+    RequiredSkill1: 13281.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3432.0
+    TechLevel: 5.0
   Regular Mercenary Navigator:
     CapacitorBonus: -50.0
     ChargeSize: 1.0
@@ -39,38 +74,3 @@ items:
     TechLevel: 1.0
     TurretSpeeBonus: -75.0
     VelocityBonus: -99.0
-  '''Dart'' Servitor':
-    ChargeSize: 1.0
-    Cpu: 50.0
-    Hp: 1.0
-    LauncherGroup: 317.0
-    MainColor: 5215864.0
-    Rechargeratebonus: -90.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3432.0
-    SkillLevel: 1.0
-    TechLevel: 5.0
-    VelocityBonus: 50.0
-  Independent Shielding:
-    ChargeSize: 1.0
-    Cpu: 50.0
-    HardeningBonus: 0.5
-    Hp: 1.0
-    LauncherGroup: 317.0
-    MainColor: 5215864.0
-    RequiredSkill1: 13281.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3432.0
-    TechLevel: 5.0
-  '''Phase'' Servitor':
-    ChargeSize: 1.0
-    Cpu: 50.0
-    Hp: 1.0
-    LauncherGroup: 317.0
-    MainColor: 5215864.0
-    RequiredSkill1: 19430.0
-    RequiredSkill1Level: 5.0
-    ShieldCapacityBonus: 25.0
-    TechLevel: 1.0
-    VelocityBonus: -90.0

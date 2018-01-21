@@ -1,25 +1,25 @@
 items:
-  Occator Blueprint:
-    IndustryBlueprintRank: 800.0
-    TechLevel: 2.0
   Bustard Blueprint:
-    IndustryBlueprintRank: 800.0
-    TechLevel: 2.0
-  Prorator Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2.0
   Crane Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2.0
-  Viator Blueprint:
+  Impel Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2.0
   Mastodon Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2.0
+  Occator Blueprint:
+    IndustryBlueprintRank: 800.0
+    TechLevel: 2.0
+  Prorator Blueprint:
+    IndustryBlueprintRank: 800.0
+    TechLevel: 2.0
   Prowler Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2.0
-  Impel Blueprint:
+  Viator Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2.0

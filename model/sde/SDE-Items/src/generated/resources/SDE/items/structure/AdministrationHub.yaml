@@ -1,5 +1,5 @@
 items:
-  X-Large Administration Hub:
+  Large Administration Hub:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
     ArmorKineticDamageResonance: 1.0
@@ -45,7 +45,7 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
-  Large Administration Hub:
+  X-Large Administration Hub:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
     ArmorKineticDamageResonance: 1.0

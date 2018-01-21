@@ -1,4 +1,25 @@
 items:
+  '''Arbalest'' Heavy Missile Launcher':
+    ChargeGroup1: 385.0
+    ChargeGroup2: 395.0
+    ChargeRate: 1.0
+    Cpu: 43.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.7999999523162842
+    Hp: 40.0
+    MetaLevel: 4.0
+    OverloadRofBonus: -15.0
+    Power: 100.0
+    ReloadTime: 10000.0
+    RequiredSkill1: 3324.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    Slots: 1.0
+    Speed: 12000.0
+    TechLevel: 1.0
+    TypeColorScheme: 20113.0
   '''Malkuth'' Heavy Missile Launcher I':
     ChargeGroup1: 385.0
     ChargeGroup2: 395.0
@@ -42,37 +63,15 @@ items:
     Speed: 13500.0
     TechLevel: 1.0
     TypeColorScheme: 20118.0
-  Heavy Missile Launcher II:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeGroup4: 655.0
-    ChargeRate: 1.0
-    Cpu: 55.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 1.7999999523162842
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadRofBonus: -15.0
-    Power: 105.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3319.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 20211.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 12000.0
-    TechLevel: 2.0
-    TypeColorScheme: 11325.0
-  '''Arbalest'' Heavy Missile Launcher':
+  Advanced 'Limos' Heavy Missile Bay I:
     ChargeGroup1: 385.0
     ChargeGroup2: 395.0
     ChargeRate: 1.0
-    Cpu: 43.0
+    Cpu: 45.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.7999999523162842
+    HeatDamage: 2.0
     Hp: 40.0
-    MetaLevel: 4.0
+    MetaLevel: 2.0
     OverloadRofBonus: -15.0
     Power: 100.0
     ReloadTime: 10000.0
@@ -82,29 +81,9 @@ items:
     RequiredSkill2Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     Slots: 1.0
-    Speed: 12000.0
+    Speed: 13500.0
     TechLevel: 1.0
-    TypeColorScheme: 20113.0
-  Heavy Missile Launcher I:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
-    Cpu: 50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.299999952316284
-    Hp: 40.0
-    OverloadRofBonus: -15.0
-    Power: 100.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 15000.0
-    TechLevel: 1.0
-    TypeColorScheme: 11324.0
+    TypeColorScheme: 20115.0
   CONCORD Heavy Missile Launcher:
     ChargeGroup1: 385.0
     ChargeGroup2: 395.0
@@ -125,27 +104,6 @@ items:
     Speed: 10500.0
     TechLevel: 1.0
     TypeColorScheme: 20111.0
-  XR-3200 Heavy Missile Bay:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
-    Cpu: 48.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadRofBonus: -15.0
-    Power: 100.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 12750.0
-    TechLevel: 1.0
-    TypeColorScheme: 20116.0
   Caldari Navy Heavy Missile Launcher:
     ChargeGroup1: 385.0
     ChargeGroup2: 395.0
@@ -190,71 +148,6 @@ items:
     Speed: 11625.0
     TechLevel: 1.0
     TypeColorScheme: 11318.0
-  True Sansha Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
-    Cpu: 40.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 7.0
-    OverloadRofBonus: -15.0
-    Power: 100.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 11625.0
-    TechLevel: 1.0
-    TypeColorScheme: 11349.0
-  Advanced 'Limos' Heavy Missile Bay I:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
-    Cpu: 45.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadRofBonus: -15.0
-    Power: 100.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 13500.0
-    TechLevel: 1.0
-    TypeColorScheme: 20115.0
-  Republic Fleet Heavy Missile Launcher:
-    ChargeGroup1: 385.0
-    ChargeGroup2: 395.0
-    ChargeRate: 1.0
-    Cpu: 40.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 7.0
-    OverloadRofBonus: -15.0
-    Power: 100.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3324.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 11625.0
-    TechLevel: 1.0
-    TypeColorScheme: 11339.0
   Dread Guristas Heavy Missile Launcher:
     ChargeGroup1: 385.0
     ChargeGroup2: 395.0
@@ -277,3 +170,110 @@ items:
     Speed: 10500.0
     TechLevel: 1.0
     TypeColorScheme: 11335.0
+  Heavy Missile Launcher I:
+    ChargeGroup1: 385.0
+    ChargeGroup2: 395.0
+    ChargeRate: 1.0
+    Cpu: 50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 2.299999952316284
+    Hp: 40.0
+    OverloadRofBonus: -15.0
+    Power: 100.0
+    ReloadTime: 10000.0
+    RequiredSkill1: 3324.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    Slots: 1.0
+    Speed: 15000.0
+    TechLevel: 1.0
+    TypeColorScheme: 11324.0
+  Heavy Missile Launcher II:
+    ChargeGroup1: 385.0
+    ChargeGroup2: 395.0
+    ChargeGroup4: 655.0
+    ChargeRate: 1.0
+    Cpu: 55.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 1.7999999523162842
+    Hp: 40.0
+    MetaLevel: 5.0
+    OverloadRofBonus: -15.0
+    Power: 105.0
+    ReloadTime: 10000.0
+    RequiredSkill1: 3319.0
+    RequiredSkill1Level: 4.0
+    RequiredSkill2: 20211.0
+    RequiredSkill2Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    Slots: 1.0
+    Speed: 12000.0
+    TechLevel: 2.0
+    TypeColorScheme: 11325.0
+  Republic Fleet Heavy Missile Launcher:
+    ChargeGroup1: 385.0
+    ChargeGroup2: 395.0
+    ChargeRate: 1.0
+    Cpu: 40.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.7000000476837158
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 7.0
+    OverloadRofBonus: -15.0
+    Power: 100.0
+    ReloadTime: 10000.0
+    RequiredSkill1: 3324.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    Slots: 1.0
+    Speed: 11625.0
+    TechLevel: 1.0
+    TypeColorScheme: 11339.0
+  True Sansha Heavy Missile Launcher:
+    ChargeGroup1: 385.0
+    ChargeGroup2: 395.0
+    ChargeRate: 1.0
+    Cpu: 40.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.7000000476837158
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 7.0
+    OverloadRofBonus: -15.0
+    Power: 100.0
+    ReloadTime: 10000.0
+    RequiredSkill1: 3324.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    Slots: 1.0
+    Speed: 11625.0
+    TechLevel: 1.0
+    TypeColorScheme: 11349.0
+  XR-3200 Heavy Missile Bay:
+    ChargeGroup1: 385.0
+    ChargeGroup2: 395.0
+    ChargeRate: 1.0
+    Cpu: 48.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.899999976158142
+    Hp: 40.0
+    MetaLevel: 3.0
+    OverloadRofBonus: -15.0
+    Power: 100.0
+    ReloadTime: 10000.0
+    RequiredSkill1: 3324.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    Slots: 1.0
+    Speed: 12750.0
+    TechLevel: 1.0
+    TypeColorScheme: 20116.0

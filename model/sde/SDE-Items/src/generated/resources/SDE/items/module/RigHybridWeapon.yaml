@@ -1,23 +1,4 @@
 items:
-  Medium Hybrid Burst Aerator II:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    SpeedMultiplier: 0.8500000238418579
-    TechLevel: 2.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 300.0
-  Capital Hybrid Ambit Extension I:
-    Drawback: 10.0
-    FalloffBonus: 15.0
-    Hp: 40.0
-    RigSize: 4.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
   Capital Algid Hybrid Administrations Unit I:
     CpuNeedBonus: -10.0
     Drawback: 10.0
@@ -26,39 +7,23 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1.0
     UpgradeCost: 50.0
-  Medium Hybrid Ambit Extension II:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    FalloffBonus: 20.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
-  Capital Hybrid Discharge Elutriation II:
-    CapNeedBonus: -25.0
+  Capital Algid Hybrid Administrations Unit II:
+    CpuNeedBonus: -15.0
     Drawback: 10.0
     Hp: 40.0
     MetaLevel: 5.0
     RigSize: 4.0
     SpeedMultiplier: 1.0
     TechLevel: 2.0
-    UpgradeCost: 150.0
-  Medium Hybrid Metastasis Adjuster II:
-    DamageMultiplier: 1.0
+    UpgradeCost: 75.0
+  Capital Hybrid Ambit Extension I:
     Drawback: 10.0
+    FalloffBonus: 15.0
     Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 2.0
+    RigSize: 4.0
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    TrackingSpeedBonus: 20.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
   Capital Hybrid Ambit Extension II:
     Drawback: 10.0
     FalloffBonus: 20.0
@@ -68,17 +33,54 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2.0
     UpgradeCost: 150.0
-  Large Hybrid Metastasis Adjuster II:
-    DamageMultiplier: 1.0
+  Capital Hybrid Burst Aerator I:
     Drawback: 10.0
     Hp: 40.0
-    MaxRangeMultiplier: 1.0
+    RigSize: 4.0
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Capital Hybrid Burst Aerator II:
+    Drawback: 10.0
+    Hp: 40.0
     MetaLevel: 5.0
-    RigSize: 3.0
+    RigSize: 4.0
+    SpeedMultiplier: 0.8500000238418579
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Capital Hybrid Collision Accelerator I:
+    DamageMultiplier: 1.100000023841858
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Capital Hybrid Collision Accelerator II:
+    DamageMultiplier: 1.149999976158142
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
     SpeedMultiplier: 1.0
     TechLevel: 2.0
-    TrackingSpeedBonus: 20.0
-    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0
+  Capital Hybrid Discharge Elutriation I:
+    CapNeedBonus: -20.0
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Capital Hybrid Discharge Elutriation II:
+    CapNeedBonus: -25.0
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
     UpgradeCost: 150.0
   Capital Hybrid Locus Coordinator I:
     Drawback: 10.0
@@ -89,58 +91,16 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1.0
     UpgradeCost: 100.0
-  Large Hybrid Locus Coordinator I:
-    DamageMultiplier: 1.0
+  Capital Hybrid Locus Coordinator II:
     Drawback: 10.0
     Hp: 40.0
-    MaxRangeBonus: 15.0
+    MaxRangeBonus: 20.0
     MaxRangeMultiplier: 1.0
-    RigSize: 3.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
-  Large Hybrid Discharge Elutriation I:
-    CapNeedBonus: -20.0
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 3.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
-  Large Hybrid Burst Aerator I:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 3.0
-    SpeedMultiplier: 0.8999999761581421
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 200.0
-  Small Algid Hybrid Administrations Unit II:
-    CpuNeedBonus: -15.0
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 75.0
-  Capital Hybrid Burst Aerator II:
-    Drawback: 10.0
-    Hp: 40.0
     MetaLevel: 5.0
     RigSize: 4.0
-    SpeedMultiplier: 0.8500000238418579
+    SpeedMultiplier: 1.0
     TechLevel: 2.0
-    UpgradeCost: 300.0
+    UpgradeCost: 150.0
   Capital Hybrid Metastasis Adjuster I:
     Drawback: 10.0
     Hp: 40.0
@@ -150,44 +110,16 @@ items:
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100.0
-  Capital Hybrid Collision Accelerator I:
-    DamageMultiplier: 1.100000023841858
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 4.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 200.0
-  Large Hybrid Metastasis Adjuster I:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 3.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: 15.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
-  Capital Hybrid Collision Accelerator II:
-    DamageMultiplier: 1.149999976158142
+  Capital Hybrid Metastasis Adjuster II:
     Drawback: 10.0
     Hp: 40.0
     MetaLevel: 5.0
     RigSize: 4.0
     SpeedMultiplier: 1.0
     TechLevel: 2.0
-    UpgradeCost: 300.0
-  Small Hybrid Burst Aerator I:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 1.0
-    SpeedMultiplier: 0.8999999761581421
-    TechLevel: 1.0
+    TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 200.0
+    UpgradeCost: 150.0
   Large Algid Hybrid Administrations Unit I:
     CpuNeedBonus: -10.0
     DamageMultiplier: 1.0
@@ -199,230 +131,6 @@ items:
     TechLevel: 1.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 50.0
-  Medium Hybrid Metastasis Adjuster I:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 2.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: 15.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
-  Medium Hybrid Locus Coordinator I:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeBonus: 15.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 2.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
-  Large Hybrid Collision Accelerator I:
-    DamageMultiplier: 1.100000023841858
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 3.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 200.0
-  Medium Hybrid Discharge Elutriation I:
-    CapNeedBonus: -20.0
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 2.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
-  Medium Hybrid Ambit Extension I:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    FalloffBonus: 15.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 2.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
-  Large Hybrid Ambit Extension I:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    FalloffBonus: 15.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 3.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
-  Small Hybrid Discharge Elutriation II:
-    CapNeedBonus: -25.0
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
-  Small Hybrid Collision Accelerator I:
-    DamageMultiplier: 1.100000023841858
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 1.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 200.0
-  Large Hybrid Burst Aerator II:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    SpeedMultiplier: 0.8500000238418579
-    TechLevel: 2.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 300.0
-  Capital Hybrid Locus Coordinator II:
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeBonus: 20.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Large Hybrid Discharge Elutriation II:
-    CapNeedBonus: -25.0
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
-  Medium Algid Hybrid Administrations Unit I:
-    CpuNeedBonus: -10.0
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 2.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 50.0
-  Small Algid Hybrid Administrations Unit I:
-    CpuNeedBonus: -10.0
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 1.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 50.0
-  Capital Hybrid Discharge Elutriation I:
-    CapNeedBonus: -20.0
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 4.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Small Hybrid Ambit Extension II:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    FalloffBonus: 20.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
-  Large Hybrid Collision Accelerator II:
-    DamageMultiplier: 1.149999976158142
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 300.0
-  Capital Hybrid Burst Aerator I:
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 4.0
-    SpeedMultiplier: 0.8999999761581421
-    TechLevel: 1.0
-    UpgradeCost: 200.0
-  Small Hybrid Discharge Elutriation I:
-    CapNeedBonus: -20.0
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 1.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
-  Medium Hybrid Locus Coordinator II:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeBonus: 20.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
-  Small Hybrid Metastasis Adjuster I:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 1.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: 15.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
-  Medium Hybrid Burst Aerator I:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 2.0
-    SpeedMultiplier: 0.8999999761581421
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 200.0
   Large Algid Hybrid Administrations Unit II:
     CpuNeedBonus: -15.0
     DamageMultiplier: 1.0
@@ -435,111 +143,13 @@ items:
     TechLevel: 2.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 75.0
-  Medium Hybrid Collision Accelerator II:
-    DamageMultiplier: 1.149999976158142
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 300.0
-  Medium Hybrid Collision Accelerator I:
-    DamageMultiplier: 1.100000023841858
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 2.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 200.0
-  Small Hybrid Locus Coordinator I:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeBonus: 15.0
-    MaxRangeMultiplier: 1.0
-    RigSize: 1.0
-    SpeedMultiplier: 1.0
-    TechLevel: 1.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 100.0
-  Small Hybrid Burst Aerator II:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    SpeedMultiplier: 0.8500000238418579
-    TechLevel: 2.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 300.0
-  Capital Hybrid Metastasis Adjuster II:
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    TrackingSpeedBonus: 20.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
-  Medium Algid Hybrid Administrations Unit II:
-    CpuNeedBonus: -15.0
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 75.0
-  Medium Hybrid Discharge Elutriation II:
-    CapNeedBonus: -25.0
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
-  Small Hybrid Metastasis Adjuster II:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    TrackingSpeedBonus: 20.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 150.0
-  Capital Algid Hybrid Administrations Unit II:
-    CpuNeedBonus: -15.0
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Small Hybrid Ambit Extension I:
+  Large Hybrid Ambit Extension I:
     DamageMultiplier: 1.0
     Drawback: 10.0
     FalloffBonus: 15.0
     Hp: 40.0
     MaxRangeMultiplier: 1.0
-    RigSize: 1.0
+    RigSize: 3.0
     SpeedMultiplier: 1.0
     TechLevel: 1.0
     TrackingSpeedMultiplier: 1.0
@@ -556,6 +166,396 @@ items:
     TechLevel: 2.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150.0
+  Large Hybrid Burst Aerator I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 3.0
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 200.0
+  Large Hybrid Burst Aerator II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedMultiplier: 0.8500000238418579
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0
+  Large Hybrid Collision Accelerator I:
+    DamageMultiplier: 1.100000023841858
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 200.0
+  Large Hybrid Collision Accelerator II:
+    DamageMultiplier: 1.149999976158142
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0
+  Large Hybrid Discharge Elutriation I:
+    CapNeedBonus: -20.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Large Hybrid Discharge Elutriation II:
+    CapNeedBonus: -25.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Large Hybrid Locus Coordinator I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeBonus: 15.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Large Hybrid Locus Coordinator II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeBonus: 20.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Large Hybrid Metastasis Adjuster I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 15.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Large Hybrid Metastasis Adjuster II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedBonus: 20.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Medium Algid Hybrid Administrations Unit I:
+    CpuNeedBonus: -10.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 50.0
+  Medium Algid Hybrid Administrations Unit II:
+    CpuNeedBonus: -15.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 75.0
+  Medium Hybrid Ambit Extension I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    FalloffBonus: 15.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Medium Hybrid Ambit Extension II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    FalloffBonus: 20.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Medium Hybrid Burst Aerator I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 2.0
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 200.0
+  Medium Hybrid Burst Aerator II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedMultiplier: 0.8500000238418579
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0
+  Medium Hybrid Collision Accelerator I:
+    DamageMultiplier: 1.100000023841858
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 200.0
+  Medium Hybrid Collision Accelerator II:
+    DamageMultiplier: 1.149999976158142
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0
+  Medium Hybrid Discharge Elutriation I:
+    CapNeedBonus: -20.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Medium Hybrid Discharge Elutriation II:
+    CapNeedBonus: -25.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Medium Hybrid Locus Coordinator I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeBonus: 15.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Medium Hybrid Locus Coordinator II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeBonus: 20.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Medium Hybrid Metastasis Adjuster I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 15.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Medium Hybrid Metastasis Adjuster II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedBonus: 20.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Small Algid Hybrid Administrations Unit I:
+    CpuNeedBonus: -10.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 50.0
+  Small Algid Hybrid Administrations Unit II:
+    CpuNeedBonus: -15.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 75.0
+  Small Hybrid Ambit Extension I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    FalloffBonus: 15.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Small Hybrid Ambit Extension II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    FalloffBonus: 20.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Small Hybrid Burst Aerator I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 1.0
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 200.0
+  Small Hybrid Burst Aerator II:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedMultiplier: 0.8500000238418579
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0
+  Small Hybrid Collision Accelerator I:
+    DamageMultiplier: 1.100000023841858
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 200.0
+  Small Hybrid Collision Accelerator II:
+    DamageMultiplier: 1.149999976158142
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 300.0
+  Small Hybrid Discharge Elutriation I:
+    CapNeedBonus: -20.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Small Hybrid Discharge Elutriation II:
+    CapNeedBonus: -25.0
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 150.0
+  Small Hybrid Locus Coordinator I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeBonus: 15.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
   Small Hybrid Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10.0
@@ -568,8 +568,19 @@ items:
     TechLevel: 2.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150.0
-  Small Hybrid Collision Accelerator II:
-    DamageMultiplier: 1.149999976158142
+  Small Hybrid Metastasis Adjuster I:
+    DamageMultiplier: 1.0
+    Drawback: 10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 1.0
+    RigSize: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 15.0
+    TrackingSpeedMultiplier: 1.0
+    UpgradeCost: 100.0
+  Small Hybrid Metastasis Adjuster II:
+    DamageMultiplier: 1.0
     Drawback: 10.0
     Hp: 40.0
     MaxRangeMultiplier: 1.0
@@ -577,17 +588,6 @@ items:
     RigSize: 1.0
     SpeedMultiplier: 1.0
     TechLevel: 2.0
-    TrackingSpeedMultiplier: 1.0
-    UpgradeCost: 300.0
-  Large Hybrid Locus Coordinator II:
-    DamageMultiplier: 1.0
-    Drawback: 10.0
-    Hp: 40.0
-    MaxRangeBonus: 20.0
-    MaxRangeMultiplier: 1.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150.0

@@ -1,35 +1,35 @@
 items:
-  Modified Fluid Router:
-    Hp: 20.0
-  Heuristic Selfassemblers:
-    Hp: 20.0
-  Electromechanical Hull Sheeting:
-    Hp: 20.0
-  Synthetic Aperture Ladar Receiver: {}
-  Jump Drive Control Nexus:
-    Hp: 20.0
-  Central System Controller:
-    Hp: 20.0
-  Emergent Combat Analyzer:
-    Hp: 20.0
-  Powdered C-540 Graphite:
-    Hp: 20.0
-  Fused Nanomechanical Engines:
-    Hp: 20.0
-  Neurovisual Input Matrix:
-    Hp: 20.0
-  Emergent Combat Intelligence:
-    Hp: 20.0
-  Scorched Microgravimeter: {}
-  Resonance Calibration Matrix:
-    Hp: 20.0
   Ancient Radar Decorrelator: {}
   Cartesian Temporal Coordinator:
     Hp: 20.0
-  Thermoelectric Catalysts:
+  Central System Controller:
+    Hp: 20.0
+  Defensive Control Node:
+    Hp: 20.0
+  Electromechanical Hull Sheeting:
+    Hp: 20.0
+  Emergent Combat Analyzer:
+    Hp: 20.0
+  Emergent Combat Intelligence:
+    Hp: 20.0
+  Faraday Force Magnetometer: {}
+  Fused Nanomechanical Engines:
+    Hp: 20.0
+  Heuristic Selfassemblers:
+    Hp: 20.0
+  Jump Drive Control Nexus:
     Hp: 20.0
   Melted Nanoribbons:
     Hp: 20.0
-  Faraday Force Magnetometer: {}
-  Defensive Control Node:
+  Modified Fluid Router:
+    Hp: 20.0
+  Neurovisual Input Matrix:
+    Hp: 20.0
+  Powdered C-540 Graphite:
+    Hp: 20.0
+  Resonance Calibration Matrix:
+    Hp: 20.0
+  Scorched Microgravimeter: {}
+  Synthetic Aperture Ladar Receiver: {}
+  Thermoelectric Catalysts:
     Hp: 20.0

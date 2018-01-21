@@ -14,21 +14,22 @@ items:
     TargetGroup: 11.0
     TechLevel: 1.0
     TypeColorScheme: 11346.0
-  Strip Miner I:
+  Ice Harvester II:
     CanFitShipGroup01: 463.0
     CanFitShipGroup02: 543.0
-    CapacitorNeed: 90.0
-    Cpu: 60.0
-    Duration: 180000.0
+    CapacitorNeed: 12.0
+    Cpu: 66.0
+    Duration: 200000.0
     Hp: 40.0
-    MaxRange: 15000.0
-    MiningAmount: 675.0
+    MaxRange: 10000.0
+    MetaLevel: 5.0
+    MiningAmount: 1000.0
     Power: 10.0
-    RequiredSkill1: 3386.0
-    RequiredSkill1Level: 4.0
+    RequiredSkill1: 16281.0
+    RequiredSkill1Level: 5.0
     TargetGroup: 11.0
-    TechLevel: 1.0
-    TypeColorScheme: 11346.0
+    TechLevel: 2.0
+    TypeColorScheme: 11347.0
   ORE Ice Harvester:
     CanFitShipGroup01: 463.0
     CanFitShipGroup02: 543.0
@@ -63,19 +64,18 @@ items:
     TargetGroup: 11.0
     TechLevel: 1.0
     TypeColorScheme: 11346.0
-  Ice Harvester II:
+  Strip Miner I:
     CanFitShipGroup01: 463.0
     CanFitShipGroup02: 543.0
-    CapacitorNeed: 12.0
-    Cpu: 66.0
-    Duration: 200000.0
+    CapacitorNeed: 90.0
+    Cpu: 60.0
+    Duration: 180000.0
     Hp: 40.0
-    MaxRange: 10000.0
-    MetaLevel: 5.0
-    MiningAmount: 1000.0
+    MaxRange: 15000.0
+    MiningAmount: 675.0
     Power: 10.0
-    RequiredSkill1: 16281.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1: 3386.0
+    RequiredSkill1Level: 4.0
     TargetGroup: 11.0
-    TechLevel: 2.0
-    TypeColorScheme: 11347.0
+    TechLevel: 1.0
+    TypeColorScheme: 11346.0

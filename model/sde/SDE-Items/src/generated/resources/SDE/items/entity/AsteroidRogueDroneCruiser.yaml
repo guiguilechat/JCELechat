@@ -1,21 +1,21 @@
 items:
-  Strain Destructor Drone: {}
-  Strain Violator Drone: {}
+  Annihilator Drone: {}
+  Atomizer Drone: {}
+  Bomber Drone: {}
   Destructor Drone: {}
-  Strain Atomizer Drone: {}
-  Strain Nuker Drone: {}
-  Strain Disintegrator Drone: {}
+  Devastator Drone: {}
   Disintegrator Drone: {}
   Nuker Drone: {}
-  Strain Devastator Drone: {}
-  Strain Viral Infector Drone: {}
-  Violator Drone: {}
-  Strain Wrecker Drone: {}
-  Strain Bomber Drone: {}
-  Devastator Drone: {}
   Strain Annihilator Drone: {}
-  Atomizer Drone: {}
-  Wrecker Drone: {}
-  Bomber Drone: {}
-  Annihilator Drone: {}
+  Strain Atomizer Drone: {}
+  Strain Bomber Drone: {}
+  Strain Destructor Drone: {}
+  Strain Devastator Drone: {}
+  Strain Disintegrator Drone: {}
+  Strain Nuker Drone: {}
+  Strain Violator Drone: {}
+  Strain Viral Infector Drone: {}
+  Strain Wrecker Drone: {}
+  Violator Drone: {}
   Viral Infector Drone: {}
+  Wrecker Drone: {}

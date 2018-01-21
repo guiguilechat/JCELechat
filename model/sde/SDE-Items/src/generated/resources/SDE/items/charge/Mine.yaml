@@ -1,13 +1,4 @@
 items:
-  Cobra Mine:
-    ExplosionRange: 500.0
-    Hp: 100.0
-    IncapacitationRatio: 0.75
-    KineticDamage: 30.0
-    ProximityRange: 500.0
-    RequiredSkill1: 3319.0
-    RequiredSkill1Level: 1.0
-    StructureUniformity: 1.0
   Anaconda Mine:
     ExplosionRange: 500.0
     Hp: 100.0
@@ -22,6 +13,15 @@ items:
     ExplosiveDamage: 30.0
     Hp: 100.0
     IncapacitationRatio: 0.75
+    ProximityRange: 500.0
+    RequiredSkill1: 3319.0
+    RequiredSkill1Level: 1.0
+    StructureUniformity: 1.0
+  Cobra Mine:
+    ExplosionRange: 500.0
+    Hp: 100.0
+    IncapacitationRatio: 0.75
+    KineticDamage: 30.0
     ProximityRange: 500.0
     RequiredSkill1: 3319.0
     RequiredSkill1Level: 1.0

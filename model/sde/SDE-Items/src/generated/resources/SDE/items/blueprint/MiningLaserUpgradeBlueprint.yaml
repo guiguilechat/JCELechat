@@ -1,10 +1,10 @@
 items:
-  Ice Harvester Upgrade II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
   Ice Harvester Upgrade I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
+  Ice Harvester Upgrade II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
   Mining Laser Upgrade I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0

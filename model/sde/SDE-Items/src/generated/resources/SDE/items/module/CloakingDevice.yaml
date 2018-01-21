@@ -1,15 +1,4 @@
 items:
-  Prototype Cloaking Device I:
-    CloakingTargetingDelay: 30000.0
-    Cpu: 30.0
-    Hp: 40.0
-    MaxVelocityModifier: 0.10000000149011612
-    ModuleReactivationDelay: 30000.0
-    Power: 1.0
-    RequiredSkill1: 11579.0
-    RequiredSkill1Level: 1.0
-    ScanResolutionMultiplier: 0.5
-    TechLevel: 1.0
   '''Smokescreen'' Covert Ops Cloaking Device II':
     CanFitShipGroup01: 963.0
     CanFitShipGroup02: 830.0
@@ -34,6 +23,32 @@ items:
     RequiredSkill1: 11579.0
     RequiredSkill1Level: 4.0
     TechLevel: 2.0
+  CONCORD Modified Cloaking Device:
+    CloakingTargetingDelay: 22500.0
+    Cpu: 84.0
+    Hp: 40.0
+    MaxVelocityModifier: 0.30250000953674316
+    MetaGroupID: 4.0
+    MetaLevel: 12.0
+    ModuleReactivationDelay: 30000.0
+    Power: 1.0
+    RequiredSkill1: 11579.0
+    RequiredSkill1Level: 5.0
+    ScanResolutionMultiplier: 0.7149999737739563
+    TechLevel: 1.0
+  Caldari Navy Cloaking Device:
+    CloakingTargetingDelay: 25000.0
+    Cpu: 60.0
+    Hp: 40.0
+    MaxVelocityModifier: 0.2750000059604645
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    ModuleReactivationDelay: 30000.0
+    Power: 1.0
+    RequiredSkill1: 11579.0
+    RequiredSkill1Level: 1.0
+    ScanResolutionMultiplier: 0.6499999761581421
+    TechLevel: 1.0
   Covert Ops Cloaking Device II:
     CanFitShipGroup01: 963.0
     CanFitShipGroup02: 830.0
@@ -57,43 +72,18 @@ items:
     RequiredSkill1: 11579.0
     RequiredSkill1Level: 4.0
     TechLevel: 2.0
-  Kaikka's Modified Cloaking Device:
-    CloakingTargetingDelay: 23750.0
-    Cpu: 72.0
-    Hp: 40.0
-    MaxVelocityModifier: 0.2887499928474426
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    ModuleReactivationDelay: 30000.0
-    Power: 1.0
-    RequiredSkill1: 11579.0
-    RequiredSkill1Level: 1.0
-    ScanResolutionMultiplier: 0.6825000047683716
-    TechLevel: 1.0
-  Improved Cloaking Device II:
-    CloakingTargetingDelay: 20000.0
+  Dread Guristas Cloaking Device:
+    CloakingTargetingDelay: 25000.0
     Cpu: 60.0
     Hp: 40.0
-    MaxVelocityModifier: 0.25
-    MetaLevel: 5.0
-    ModuleReactivationDelay: 30000.0
-    Power: 1.0
-    RequiredSkill1: 11579.0
-    RequiredSkill1Level: 3.0
-    ScanResolutionMultiplier: 0.6000000238418579
-    TechLevel: 2.0
-  Thon's Modified Cloaking Device:
-    CloakingTargetingDelay: 22500.0
-    Cpu: 84.0
-    Hp: 40.0
-    MaxVelocityModifier: 0.30250000953674316
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
+    MaxVelocityModifier: 0.2750000059604645
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
     ModuleReactivationDelay: 30000.0
     Power: 1.0
     RequiredSkill1: 11579.0
     RequiredSkill1Level: 1.0
-    ScanResolutionMultiplier: 0.7149999737739563
+    ScanResolutionMultiplier: 0.6499999761581421
     TechLevel: 1.0
   Estamel's Modified Cloaking Device:
     CloakingTargetingDelay: 20000.0
@@ -108,58 +98,6 @@ items:
     RequiredSkill1Level: 1.0
     ScanResolutionMultiplier: 0.7799999713897705
     TechLevel: 1.0
-  Vepas' Modified Cloaking Device:
-    CloakingTargetingDelay: 21250.0
-    Cpu: 96.0
-    Hp: 40.0
-    MaxVelocityModifier: 0.3162499964237213
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    ModuleReactivationDelay: 30000.0
-    Power: 1.0
-    RequiredSkill1: 11579.0
-    RequiredSkill1Level: 1.0
-    ScanResolutionMultiplier: 0.7475000023841858
-    TechLevel: 1.0
-  Dread Guristas Cloaking Device:
-    CloakingTargetingDelay: 25000.0
-    Cpu: 60.0
-    Hp: 40.0
-    MaxVelocityModifier: 0.2750000059604645
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    ModuleReactivationDelay: 30000.0
-    Power: 1.0
-    RequiredSkill1: 11579.0
-    RequiredSkill1Level: 1.0
-    ScanResolutionMultiplier: 0.6499999761581421
-    TechLevel: 1.0
-  Caldari Navy Cloaking Device:
-    CloakingTargetingDelay: 25000.0
-    Cpu: 60.0
-    Hp: 40.0
-    MaxVelocityModifier: 0.2750000059604645
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    ModuleReactivationDelay: 30000.0
-    Power: 1.0
-    RequiredSkill1: 11579.0
-    RequiredSkill1Level: 1.0
-    ScanResolutionMultiplier: 0.6499999761581421
-    TechLevel: 1.0
-  CONCORD Modified Cloaking Device:
-    CloakingTargetingDelay: 22500.0
-    Cpu: 84.0
-    Hp: 40.0
-    MaxVelocityModifier: 0.30250000953674316
-    MetaGroupID: 4.0
-    MetaLevel: 12.0
-    ModuleReactivationDelay: 30000.0
-    Power: 1.0
-    RequiredSkill1: 11579.0
-    RequiredSkill1Level: 5.0
-    ScanResolutionMultiplier: 0.7149999737739563
-    TechLevel: 1.0
   Improved 'Guise' Cloaking Device II:
     CloakingTargetingDelay: 19000.0
     Cpu: 51.0
@@ -173,6 +111,31 @@ items:
     RequiredSkill1Level: 3.0
     ScanResolutionMultiplier: 0.6499999761581421
     TechLevel: 2.0
+  Improved Cloaking Device II:
+    CloakingTargetingDelay: 20000.0
+    Cpu: 60.0
+    Hp: 40.0
+    MaxVelocityModifier: 0.25
+    MetaLevel: 5.0
+    ModuleReactivationDelay: 30000.0
+    Power: 1.0
+    RequiredSkill1: 11579.0
+    RequiredSkill1Level: 3.0
+    ScanResolutionMultiplier: 0.6000000238418579
+    TechLevel: 2.0
+  Kaikka's Modified Cloaking Device:
+    CloakingTargetingDelay: 23750.0
+    Cpu: 72.0
+    Hp: 40.0
+    MaxVelocityModifier: 0.2887499928474426
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    ModuleReactivationDelay: 30000.0
+    Power: 1.0
+    RequiredSkill1: 11579.0
+    RequiredSkill1Level: 1.0
+    ScanResolutionMultiplier: 0.6825000047683716
+    TechLevel: 1.0
   Prototype 'Poncho' Cloaking Device I:
     CloakingTargetingDelay: 29000.0
     Cpu: 26.0
@@ -186,6 +149,17 @@ items:
     RequiredSkill1Level: 1.0
     ScanResolutionMultiplier: 0.550000011920929
     TechLevel: 1.0
+  Prototype Cloaking Device I:
+    CloakingTargetingDelay: 30000.0
+    Cpu: 30.0
+    Hp: 40.0
+    MaxVelocityModifier: 0.10000000149011612
+    ModuleReactivationDelay: 30000.0
+    Power: 1.0
+    RequiredSkill1: 11579.0
+    RequiredSkill1Level: 1.0
+    ScanResolutionMultiplier: 0.5
+    TechLevel: 1.0
   Syndicate Cloaking Device:
     CloakingTargetingDelay: 18000.0
     Cpu: 75.0
@@ -198,4 +172,30 @@ items:
     RequiredSkill1: 11579.0
     RequiredSkill1Level: 1.0
     ScanResolutionMultiplier: 0.699999988079071
+    TechLevel: 1.0
+  Thon's Modified Cloaking Device:
+    CloakingTargetingDelay: 22500.0
+    Cpu: 84.0
+    Hp: 40.0
+    MaxVelocityModifier: 0.30250000953674316
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    ModuleReactivationDelay: 30000.0
+    Power: 1.0
+    RequiredSkill1: 11579.0
+    RequiredSkill1Level: 1.0
+    ScanResolutionMultiplier: 0.7149999737739563
+    TechLevel: 1.0
+  Vepas' Modified Cloaking Device:
+    CloakingTargetingDelay: 21250.0
+    Cpu: 96.0
+    Hp: 40.0
+    MaxVelocityModifier: 0.3162499964237213
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    ModuleReactivationDelay: 30000.0
+    Power: 1.0
+    RequiredSkill1: 11579.0
+    RequiredSkill1Level: 1.0
+    ScanResolutionMultiplier: 0.7475000023841858
     TechLevel: 1.0

@@ -1,25 +1,25 @@
 items:
-  Retailer: {}
+  Auctioneer: {}
   Bursar: {}
+  Caravan: {}
+  Carrier: {}
+  Chafferer: {}
+  Chandler: {}
+  Column: {}
+  Courier: {}
+  Flotilla: {}
+  Hauler: {}
+  Hawker: {}
+  Huckster: {}
+  Marketeer: {}
+  Merchant: {}
+  Patronager: {}
+  Peddler: {}
+  Purveyor: {}
+  Retailer: {}
   Trader: {}
   Tradesman: {}
-  Vendor: {}
-  Caravan: {}
-  Chafferer: {}
-  Purveyor: {}
-  Trailer: {}
-  Hawker: {}
-  Flotilla: {}
-  Merchant: {}
-  Huckster: {}
-  Patronager: {}
-  Column: {}
-  Hauler: {}
-  Peddler: {}
-  Vanguard: {}
-  Carrier: {}
-  Courier: {}
-  Chandler: {}
   Trafficker: {}
-  Auctioneer: {}
-  Marketeer: {}
+  Trailer: {}
+  Vanguard: {}
+  Vendor: {}

@@ -1,13 +1,9 @@
 items:
-  Incognito Process:
-    InventionMEModifier: 3.0
-    InventionPropabilityMultiplier: 1.100000023841858
-    InventionTEModifier: 6.0
-  Incognito Symmetry:
-    InventionMEModifier: 1.0
-    InventionMaxRunModifier: 2.0
-    InventionPropabilityMultiplier: 1.0
-    InventionTEModifier: 8.0
+  Incognito Accelerant:
+    InventionMEModifier: 2.0
+    InventionMaxRunModifier: 1.0
+    InventionPropabilityMultiplier: 1.2000000476837158
+    InventionTEModifier: 10.0
   Incognito Attainment:
     InventionMEModifier: -1.0
     InventionMaxRunModifier: 4.0
@@ -18,11 +14,20 @@ items:
     InventionMaxRunModifier: 9.0
     InventionPropabilityMultiplier: 0.6000000238418579
     InventionTEModifier: 2.0
-  Incognito Accelerant:
-    InventionMEModifier: 2.0
-    InventionMaxRunModifier: 1.0
-    InventionPropabilityMultiplier: 1.2000000476837158
-    InventionTEModifier: 10.0
+  Incognito Parity:
+    InventionMEModifier: 1.0
+    InventionMaxRunModifier: 3.0
+    InventionPropabilityMultiplier: 1.5
+    InventionTEModifier: -2.0
+  Incognito Process:
+    InventionMEModifier: 3.0
+    InventionPropabilityMultiplier: 1.100000023841858
+    InventionTEModifier: 6.0
+  Incognito Symmetry:
+    InventionMEModifier: 1.0
+    InventionMaxRunModifier: 2.0
+    InventionPropabilityMultiplier: 1.0
+    InventionTEModifier: 8.0
   Optimized Incognito Attainment:
     InventionMEModifier: 1.0
     InventionMaxRunModifier: 2.0
@@ -32,8 +37,3 @@ items:
     InventionMEModifier: 2.0
     InventionMaxRunModifier: 7.0
     InventionPropabilityMultiplier: 0.8999999761581421
-  Incognito Parity:
-    InventionMEModifier: 1.0
-    InventionMaxRunModifier: 3.0
-    InventionPropabilityMultiplier: 1.5
-    InventionTEModifier: -2.0

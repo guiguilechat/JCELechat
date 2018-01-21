@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
@@ -43,7 +45,7 @@ public class ItemsTranslater {
 		DynamicClassLoader cl = new DynamicClassLoader(getClass().getClassLoader()).withCode(cm);
 		// filepath->item name -> object
 		// eg mycategory/mygroup.yaml -> item1-> new MyGroup()
-		HashMap<String, HashMap<String, Object>> exportItems = new HashMap<>();
+		HashMap<String, LinkedHashMap<String, Object>> exportItems = new HashMap<>();
 		HashMap<Integer, Object> builtItems = new HashMap<>();
 
 		LinkedHashMap<Integer, EtypeIDs> typeids = EtypeIDs.load();
@@ -54,9 +56,9 @@ public class ItemsTranslater {
 			String fileName = item.getClass().getSuperclass().getSimpleName().toLowerCase() + "/"
 					+ item.getClass().getSimpleName()
 					+ ".yaml";
-			HashMap<String, Object> m = exportItems.get(fileName);
+			LinkedHashMap<String, Object> m = exportItems.get(fileName);
 			if (m == null) {
-				m = new HashMap<>();
+				m = new LinkedHashMap<>();
 				exportItems.put(fileName, m);
 				// also add a static final field into the class.
 				JDefinedClass clazz = cm._getClass(className);
@@ -117,7 +119,14 @@ public class ItemsTranslater {
 		}
 		// now we write the map exportItems
 		destFolder.mkdirs();
-		for (Entry<String, HashMap<String, Object>> e : exportItems.entrySet()) {
+		for (Entry<String, LinkedHashMap<String, Object>> e : exportItems.entrySet()) {
+			LinkedHashMap<String, Object> map = e.getValue();
+			ArrayList<Entry<String, Object>> sortingList = new ArrayList<>(map.entrySet());
+			Collections.sort(sortingList, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
+			map.clear();
+			for (Entry<String, Object> e2 : sortingList) {
+				map.put(e2.getKey(), e2.getValue());
+			}
 			File out = new File(destFolder, e.getKey());
 			out.mkdirs();
 			out.delete();
@@ -127,7 +136,7 @@ public class ItemsTranslater {
 				Yaml yaml = new Yaml(new CleanRepresenter(), options);
 				yaml.dump(new Object() {
 					@SuppressWarnings("unused")
-					public HashMap<String, Object> items = e.getValue();
+					public LinkedHashMap<String, Object> items = map;
 				}, new FileWriter(out));
 			} catch (IOException e1) {
 				throw new UnsupportedOperationException("catch this", e1);

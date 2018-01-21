@@ -6,6 +6,13 @@ items:
     RequiredSkill1Level: 1.0
     RequiresSovereigntyDisplayOnly: 1.0
     StationTypeID: 21644.0
+  Caldari Research Outpost Platform:
+    AnchoringDelay: 3600000.0
+    Hp: 1.0E8
+    RequiredSkill1: 3400.0
+    RequiredSkill1Level: 1.0
+    RequiresSovereigntyDisplayOnly: 1.0
+    StationTypeID: 21642.0
   Gallente Administrative Outpost Platform:
     AnchoringDelay: 3600000.0
     Hp: 1.0E8
@@ -20,10 +27,3 @@ items:
     RequiredSkill1Level: 1.0
     RequiresSovereigntyDisplayOnly: 1.0
     StationTypeID: 21646.0
-  Caldari Research Outpost Platform:
-    AnchoringDelay: 3600000.0
-    Hp: 1.0E8
-    RequiredSkill1: 3400.0
-    RequiredSkill1Level: 1.0
-    RequiresSovereigntyDisplayOnly: 1.0
-    StationTypeID: 21642.0

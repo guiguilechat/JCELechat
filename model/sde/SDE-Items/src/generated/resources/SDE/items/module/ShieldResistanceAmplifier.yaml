@@ -1,98 +1,40 @@
 items:
-  Hakim's Modified EM Ward Amplifier:
-    Cpu: 27.0
-    EmDamageResistanceBonus: -42.20000076293945
+  '''Cactus'' Modified Kinetic Deflection Amplifier':
+    Cpu: 20.0
     Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
+    KineticDamageResistanceBonus: -37.5
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Pithum A-Type Thermal Dissipation Amplifier:
-    Cpu: 36.0
+  '''High Noon'' Thermal Dissipation Amplifier':
+    Cpu: 20.0
     Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-    ThermalDamageResistanceBonus: -45.099998474121094
-  Republic Fleet EM Ward Amplifier:
-    Cpu: 26.0
+    ThermalDamageResistanceBonus: -37.5
+  '''Prospector'' EM Ward Amplifier':
+    Cpu: 20.0
     EmDamageResistanceBonus: -37.5
     Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Gistum C-Type Explosive Deflection Amplifier:
-    Cpu: 25.0
-    ExplosiveDamageResistanceBonus: -40.29999923706055
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Dread Guristas Kinetic Deflection Amplifier:
-    Cpu: 28.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -39.400001525878906
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Explosive Deflection Amplifier II:
-    Cpu: 30.0
+  '''Whiskey'' Explosive Deflection Amplifier':
+    Cpu: 20.0
     ExplosiveDamageResistanceBonus: -37.5
     Hp: 40.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 2.0
-  EM Ward Amplifier II:
-    Cpu: 30.0
-    EmDamageResistanceBonus: -37.5
-    Hp: 40.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 2.0
-  Gistum B-Type EM Ward Amplifier:
-    Cpu: 27.0
-    EmDamageResistanceBonus: -42.20000076293945
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Thon's Modified Kinetic Deflection Amplifier:
-    Cpu: 34.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -44.099998474121094
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Kaikka's Modified EM Ward Amplifier:
-    Cpu: 30.0
-    EmDamageResistanceBonus: -41.29999923706055
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
@@ -104,8 +46,30 @@ items:
     RequiredSkill1: 3413.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Dread Guristas Thermal Dissipation Amplifier:
+  Basic Explosive Deflection Amplifier:
+    Cpu: 10.0
+    ExplosiveDamageResistanceBonus: -25.0
+    Hp: 40.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Basic Kinetic Deflection Amplifier:
+    Cpu: 10.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -25.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Basic Thermal Dissipation Amplifier:
+    Cpu: 10.0
+    Hp: 40.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -25.0
+  Caldari Navy EM Ward Amplifier:
     Cpu: 28.0
+    EmDamageResistanceBonus: -39.400001525878906
     Hp: 40.0
     MetaGroupID: 4.0
     MetaLevel: 9.0
@@ -113,33 +77,22 @@ items:
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-    ThermalDamageResistanceBonus: -39.400001525878906
-  Domination Kinetic Deflection Amplifier:
-    Cpu: 17.0
+  Caldari Navy Explosive Deflection Amplifier:
+    Cpu: 28.0
+    ExplosiveDamageResistanceBonus: -39.400001525878906
     Hp: 40.0
-    KineticDamageResistanceBonus: -37.5
     MetaGroupID: 4.0
-    MetaLevel: 8.0
+    MetaLevel: 9.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Gistum B-Type Kinetic Deflection Amplifier:
-    Cpu: 27.0
+  Caldari Navy Kinetic Deflection Amplifier:
+    Cpu: 28.0
     Hp: 40.0
-    KineticDamageResistanceBonus: -42.20000076293945
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  '''Cactus'' Modified Kinetic Deflection Amplifier':
-    Cpu: 20.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -37.5
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
+    KineticDamageResistanceBonus: -39.400001525878906
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
@@ -154,6 +107,16 @@ items:
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -39.400001525878906
+  Domination EM Ward Amplifier:
+    Cpu: 17.0
+    EmDamageResistanceBonus: -37.5
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
   Domination Explosive Deflection Amplifier:
     Cpu: 17.0
     ExplosiveDamageResistanceBonus: -37.5
@@ -164,11 +127,266 @@ items:
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Upgraded Explosive Deflection Amplifier I:
-    Cpu: 23.0
+  Domination Kinetic Deflection Amplifier:
+    Cpu: 17.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -37.5
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Domination Thermal Dissipation Amplifier:
+    Cpu: 17.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -37.5
+  Dread Guristas EM Ward Amplifier:
+    Cpu: 28.0
+    EmDamageResistanceBonus: -39.400001525878906
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Dread Guristas Explosive Deflection Amplifier:
+    Cpu: 28.0
+    ExplosiveDamageResistanceBonus: -39.400001525878906
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Dread Guristas Kinetic Deflection Amplifier:
+    Cpu: 28.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -39.400001525878906
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Dread Guristas Thermal Dissipation Amplifier:
+    Cpu: 28.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -39.400001525878906
+  EM Ward Amplifier I:
+    Cpu: 25.0
+    EmDamageResistanceBonus: -32.5
+    Hp: 40.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  EM Ward Amplifier II:
+    Cpu: 30.0
+    EmDamageResistanceBonus: -37.5
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 2.0
+  Estamel's Modified EM Ward Amplifier:
+    Cpu: 38.0
+    EmDamageResistanceBonus: -46.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Estamel's Modified Explosive Deflection Amplifier:
+    Cpu: 38.0
+    ExplosiveDamageResistanceBonus: -46.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Estamel's Modified Kinetic Deflection Amplifier:
+    Cpu: 38.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -46.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Estamel's Modified Thermal Dissipation Amplifier:
+    Cpu: 38.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -46.0
+  Explosive Deflection Amplifier I:
+    Cpu: 25.0
     ExplosiveDamageResistanceBonus: -32.5
     Hp: 40.0
-    MetaLevel: 1.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Explosive Deflection Amplifier II:
+    Cpu: 30.0
+    ExplosiveDamageResistanceBonus: -37.5
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 2.0
+  Gistum A-Type EM Ward Amplifier:
+    Cpu: 29.0
+    EmDamageResistanceBonus: -43.20000076293945
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Gistum A-Type Explosive Deflection Amplifier:
+    Cpu: 29.0
+    ExplosiveDamageResistanceBonus: -43.20000076293945
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Gistum A-Type Kinetic Deflection Amplifier:
+    Cpu: 29.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -43.20000076293945
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Gistum A-Type Thermal Dissipation Amplifier:
+    Cpu: 29.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -43.20000076293945
+  Gistum B-Type EM Ward Amplifier:
+    Cpu: 27.0
+    EmDamageResistanceBonus: -42.20000076293945
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Gistum B-Type Explosive Deflection Amplifier:
+    Cpu: 27.0
+    ExplosiveDamageResistanceBonus: -42.20000076293945
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Gistum B-Type Kinetic Deflection Amplifier:
+    Cpu: 27.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -42.20000076293945
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Gistum B-Type Thermal Dissipation Amplifier:
+    Cpu: 27.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -42.20000076293945
+  Gistum C-Type EM Ward Amplifier:
+    Cpu: 25.0
+    EmDamageResistanceBonus: -40.29999923706055
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Gistum C-Type Explosive Deflection Amplifier:
+    Cpu: 25.0
+    ExplosiveDamageResistanceBonus: -40.29999923706055
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Gistum C-Type Kinetic Deflection Amplifier:
+    Cpu: 25.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -40.29999923706055
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Gistum C-Type Thermal Dissipation Amplifier:
+    Cpu: 25.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -40.29999923706055
+  Hakim's Modified EM Ward Amplifier:
+    Cpu: 27.0
+    EmDamageResistanceBonus: -42.20000076293945
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
@@ -178,6 +396,133 @@ items:
     ExplosiveDamageResistanceBonus: -42.20000076293945
     Hp: 40.0
     MetaGroupID: 5.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Hakim's Modified Kinetic Deflection Amplifier:
+    Cpu: 27.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -42.20000076293945
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Hakim's Modified Thermal Dissipation Amplifier:
+    Cpu: 27.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -42.20000076293945
+  Kaikka's Modified EM Ward Amplifier:
+    Cpu: 30.0
+    EmDamageResistanceBonus: -41.29999923706055
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Kaikka's Modified Explosive Deflection Amplifier:
+    Cpu: 30.0
+    ExplosiveDamageResistanceBonus: -41.29999923706055
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Kaikka's Modified Kinetic Deflection Amplifier:
+    Cpu: 30.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -41.29999923706055
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Kaikka's Modified Thermal Dissipation Amplifier:
+    Cpu: 30.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -41.29999923706055
+  Kinetic Deflection Amplifier I:
+    Cpu: 25.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -32.5
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Kinetic Deflection Amplifier II:
+    Cpu: 30.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -37.5
+    MetaLevel: 5.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 2.0
+  Pithum A-Type EM Ward Amplifier:
+    Cpu: 36.0
+    EmDamageResistanceBonus: -45.099998474121094
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Pithum A-Type Explosive Deflection Amplifier:
+    Cpu: 36.0
+    ExplosiveDamageResistanceBonus: -45.099998474121094
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Pithum A-Type Kinetic Deflection Amplifier:
+    Cpu: 36.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -45.099998474121094
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Pithum A-Type Thermal Dissipation Amplifier:
+    Cpu: 36.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -45.099998474121094
+  Pithum B-Type EM Ward Amplifier:
+    Cpu: 34.0
+    EmDamageResistanceBonus: -44.099998474121094
+    Hp: 40.0
+    MetaGroupID: 6.0
     MetaLevel: 12.0
     Power: 1.0
     RequiredSkill1: 3425.0
@@ -193,195 +538,6 @@ items:
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Tobias' Modified EM Ward Amplifier:
-    Cpu: 29.0
-    EmDamageResistanceBonus: -44.099998474121094
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Thermal Dissipation Amplifier II:
-    Cpu: 30.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 2.0
-    ThermalDamageResistanceBonus: -37.5
-  Pithum A-Type Kinetic Deflection Amplifier:
-    Cpu: 36.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -45.099998474121094
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Estamel's Modified Explosive Deflection Amplifier:
-    Cpu: 38.0
-    ExplosiveDamageResistanceBonus: -46.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Gistum C-Type Thermal Dissipation Amplifier:
-    Cpu: 25.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -40.29999923706055
-  Estamel's Modified Kinetic Deflection Amplifier:
-    Cpu: 38.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -46.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Basic Thermal Dissipation Amplifier:
-    Cpu: 10.0
-    Hp: 40.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -25.0
-  Gistum C-Type EM Ward Amplifier:
-    Cpu: 25.0
-    EmDamageResistanceBonus: -40.29999923706055
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Supplemental Thermal Dissipation Amplifier:
-    Cpu: 9.0
-    Hp: 40.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -25.0
-  EM Ward Amplifier I:
-    Cpu: 25.0
-    EmDamageResistanceBonus: -32.5
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Gistum A-Type Kinetic Deflection Amplifier:
-    Cpu: 29.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -43.20000076293945
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Pithum C-Type EM Ward Amplifier:
-    Cpu: 30.0
-    EmDamageResistanceBonus: -41.29999923706055
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Thon's Modified EM Ward Amplifier:
-    Cpu: 34.0
-    EmDamageResistanceBonus: -44.099998474121094
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Caldari Navy EM Ward Amplifier:
-    Cpu: 28.0
-    EmDamageResistanceBonus: -39.400001525878906
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Kaikka's Modified Kinetic Deflection Amplifier:
-    Cpu: 30.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -41.29999923706055
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Thermal Dissipation Amplifier I:
-    Cpu: 25.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -32.5
-  Vepas' Modified Kinetic Deflection Amplifier:
-    Cpu: 36.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -45.099998474121094
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Caldari Navy Kinetic Deflection Amplifier:
-    Cpu: 28.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -39.400001525878906
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  '''Whiskey'' Explosive Deflection Amplifier':
-    Cpu: 20.0
-    ExplosiveDamageResistanceBonus: -37.5
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Dread Guristas EM Ward Amplifier:
-    Cpu: 28.0
-    EmDamageResistanceBonus: -39.400001525878906
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
   Pithum B-Type Kinetic Deflection Amplifier:
     Cpu: 34.0
     Hp: 40.0
@@ -392,41 +548,42 @@ items:
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Upgraded Kinetic Deflection Amplifier I:
-    Cpu: 21.0
+  Pithum B-Type Thermal Dissipation Amplifier:
+    Cpu: 34.0
     Hp: 40.0
-    KineticDamageResistanceBonus: -32.5
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Vepas' Modified Thermal Dissipation Amplifier:
-    Cpu: 36.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -45.099998474121094
-  Tobias' Modified Thermal Dissipation Amplifier:
-    Cpu: 29.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -44.099998474121094
-  Thon's Modified Explosive Deflection Amplifier:
-    Cpu: 34.0
-    ExplosiveDamageResistanceBonus: -44.099998474121094
+  Pithum C-Type EM Ward Amplifier:
+    Cpu: 30.0
+    EmDamageResistanceBonus: -41.29999923706055
     Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Pithum C-Type Explosive Deflection Amplifier:
+    Cpu: 30.0
+    ExplosiveDamageResistanceBonus: -41.29999923706055
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Pithum C-Type Kinetic Deflection Amplifier:
+    Cpu: 30.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -41.29999923706055
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
@@ -441,125 +598,8 @@ items:
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -41.29999923706055
-  Caldari Navy Explosive Deflection Amplifier:
-    Cpu: 28.0
-    ExplosiveDamageResistanceBonus: -39.400001525878906
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Gistum B-Type Thermal Dissipation Amplifier:
-    Cpu: 27.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -42.20000076293945
-  Pithum C-Type Explosive Deflection Amplifier:
-    Cpu: 30.0
-    ExplosiveDamageResistanceBonus: -41.29999923706055
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Estamel's Modified Thermal Dissipation Amplifier:
-    Cpu: 38.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -46.0
-  Kinetic Deflection Amplifier I:
-    Cpu: 25.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -32.5
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Domination Thermal Dissipation Amplifier:
-    Cpu: 17.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -37.5
-  Pithum B-Type EM Ward Amplifier:
-    Cpu: 34.0
-    EmDamageResistanceBonus: -44.099998474121094
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Gistum A-Type Explosive Deflection Amplifier:
-    Cpu: 29.0
-    ExplosiveDamageResistanceBonus: -43.20000076293945
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Vepas' Modified EM Ward Amplifier:
-    Cpu: 36.0
-    EmDamageResistanceBonus: -45.099998474121094
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Republic Fleet Kinetic Deflection Amplifier:
+  Republic Fleet EM Ward Amplifier:
     Cpu: 26.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -37.5
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Upgraded EM Ward Amplifier I:
-    Cpu: 20.0
-    EmDamageResistanceBonus: -32.5
-    Hp: 40.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Vepas' Modified Explosive Deflection Amplifier:
-    Cpu: 36.0
-    ExplosiveDamageResistanceBonus: -45.099998474121094
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Domination EM Ward Amplifier:
-    Cpu: 17.0
     EmDamageResistanceBonus: -37.5
     Hp: 40.0
     MetaGroupID: 4.0
@@ -578,15 +618,101 @@ items:
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Upgraded Thermal Dissipation Amplifier I:
-    Cpu: 24.0
+  Republic Fleet Kinetic Deflection Amplifier:
+    Cpu: 26.0
     Hp: 40.0
-    MetaLevel: 1.0
+    KineticDamageResistanceBonus: -37.5
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Republic Fleet Thermal Dissipation Amplifier:
+    Cpu: 26.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -37.5
+  Supplemental EM Ward Amplifier:
+    Cpu: 6.0
+    EmDamageResistanceBonus: -25.0
+    Hp: 40.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Supplemental Explosive Deflection Amplifier:
+    Cpu: 8.0
+    ExplosiveDamageResistanceBonus: -25.0
+    Hp: 40.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Supplemental Kinetic Deflection Amplifier:
+    Cpu: 7.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -25.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Supplemental Thermal Dissipation Amplifier:
+    Cpu: 9.0
+    Hp: 40.0
+    RequiredSkill1: 3413.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -25.0
+  Thermal Dissipation Amplifier I:
+    Cpu: 25.0
+    Hp: 40.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -32.5
+  Thermal Dissipation Amplifier II:
+    Cpu: 30.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 2.0
+    ThermalDamageResistanceBonus: -37.5
+  Thon's Modified EM Ward Amplifier:
+    Cpu: 34.0
+    EmDamageResistanceBonus: -44.099998474121094
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Thon's Modified Explosive Deflection Amplifier:
+    Cpu: 34.0
+    ExplosiveDamageResistanceBonus: -44.099998474121094
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Thon's Modified Kinetic Deflection Amplifier:
+    Cpu: 34.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -44.099998474121094
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
   Thon's Modified Thermal Dissipation Amplifier:
     Cpu: 34.0
     Hp: 40.0
@@ -597,39 +723,12 @@ items:
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -44.099998474121094
-  Kaikka's Modified Thermal Dissipation Amplifier:
-    Cpu: 30.0
+  Tobias' Modified EM Ward Amplifier:
+    Cpu: 29.0
+    EmDamageResistanceBonus: -44.099998474121094
     Hp: 40.0
     MetaGroupID: 5.0
-    MetaLevel: 11.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -41.29999923706055
-  Gistum C-Type Kinetic Deflection Amplifier:
-    Cpu: 25.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -40.29999923706055
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Basic Kinetic Deflection Amplifier:
-    Cpu: 10.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -25.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  '''Prospector'' EM Ward Amplifier':
-    Cpu: 20.0
-    EmDamageResistanceBonus: -37.5
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
+    MetaLevel: 14.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
@@ -644,53 +743,6 @@ items:
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  '''High Noon'' Thermal Dissipation Amplifier':
-    Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -37.5
-  Supplemental EM Ward Amplifier:
-    Cpu: 6.0
-    EmDamageResistanceBonus: -25.0
-    Hp: 40.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Kaikka's Modified Explosive Deflection Amplifier:
-    Cpu: 30.0
-    ExplosiveDamageResistanceBonus: -41.29999923706055
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Pithum B-Type Thermal Dissipation Amplifier:
-    Cpu: 34.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -44.099998474121094
-  Gistum B-Type Explosive Deflection Amplifier:
-    Cpu: 27.0
-    ExplosiveDamageResistanceBonus: -42.20000076293945
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
   Tobias' Modified Kinetic Deflection Amplifier:
     Cpu: 29.0
     Hp: 40.0
@@ -701,97 +753,8 @@ items:
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Basic Explosive Deflection Amplifier:
-    Cpu: 10.0
-    ExplosiveDamageResistanceBonus: -25.0
-    Hp: 40.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Supplemental Kinetic Deflection Amplifier:
-    Cpu: 7.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -25.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Gistum A-Type Thermal Dissipation Amplifier:
+  Tobias' Modified Thermal Dissipation Amplifier:
     Cpu: 29.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -43.20000076293945
-  Dread Guristas Explosive Deflection Amplifier:
-    Cpu: 28.0
-    ExplosiveDamageResistanceBonus: -39.400001525878906
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Gistum A-Type EM Ward Amplifier:
-    Cpu: 29.0
-    EmDamageResistanceBonus: -43.20000076293945
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Supplemental Explosive Deflection Amplifier:
-    Cpu: 8.0
-    ExplosiveDamageResistanceBonus: -25.0
-    Hp: 40.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Republic Fleet Thermal Dissipation Amplifier:
-    Cpu: 26.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -37.5
-  Pithum A-Type EM Ward Amplifier:
-    Cpu: 36.0
-    EmDamageResistanceBonus: -45.099998474121094
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Kinetic Deflection Amplifier II:
-    Cpu: 30.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -37.5
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 2.0
-  Explosive Deflection Amplifier I:
-    Cpu: 25.0
-    ExplosiveDamageResistanceBonus: -32.5
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Estamel's Modified EM Ward Amplifier:
-    Cpu: 38.0
-    EmDamageResistanceBonus: -46.0
     Hp: 40.0
     MetaGroupID: 5.0
     MetaLevel: 14.0
@@ -799,43 +762,80 @@ items:
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Pithum C-Type Kinetic Deflection Amplifier:
-    Cpu: 30.0
+    ThermalDamageResistanceBonus: -44.099998474121094
+  Upgraded EM Ward Amplifier I:
+    Cpu: 20.0
+    EmDamageResistanceBonus: -32.5
     Hp: 40.0
-    KineticDamageResistanceBonus: -41.29999923706055
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
+    MetaLevel: 1.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Hakim's Modified Thermal Dissipation Amplifier:
-    Cpu: 27.0
+  Upgraded Explosive Deflection Amplifier I:
+    Cpu: 23.0
+    ExplosiveDamageResistanceBonus: -32.5
     Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
+    MetaLevel: 1.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-    ThermalDamageResistanceBonus: -42.20000076293945
-  Hakim's Modified Kinetic Deflection Amplifier:
-    Cpu: 27.0
+  Upgraded Kinetic Deflection Amplifier I:
+    Cpu: 21.0
     Hp: 40.0
-    KineticDamageResistanceBonus: -42.20000076293945
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
+    KineticDamageResistanceBonus: -32.5
+    MetaLevel: 1.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Pithum A-Type Explosive Deflection Amplifier:
+  Upgraded Thermal Dissipation Amplifier I:
+    Cpu: 24.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -32.5
+  Vepas' Modified EM Ward Amplifier:
     Cpu: 36.0
-    ExplosiveDamageResistanceBonus: -45.099998474121094
+    EmDamageResistanceBonus: -45.099998474121094
     Hp: 40.0
-    MetaGroupID: 6.0
+    MetaGroupID: 5.0
     MetaLevel: 13.0
     Power: 1.0
     RequiredSkill1: 3425.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
+  Vepas' Modified Explosive Deflection Amplifier:
+    Cpu: 36.0
+    ExplosiveDamageResistanceBonus: -45.099998474121094
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Vepas' Modified Kinetic Deflection Amplifier:
+    Cpu: 36.0
+    Hp: 40.0
+    KineticDamageResistanceBonus: -45.099998474121094
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Vepas' Modified Thermal Dissipation Amplifier:
+    Cpu: 36.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3425.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -45.099998474121094

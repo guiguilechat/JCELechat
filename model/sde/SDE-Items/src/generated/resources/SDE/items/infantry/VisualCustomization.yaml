@@ -1,44 +1,44 @@
 items:
-  APEX 'Paladin' Commando: {}
-  APEX 'Nomad' Assault: {}
-  APEX 'Hawk' Scout: {}
-  Republic 'Warlord' Sentinel: {}
-  APEX 'Rasetsu' Assault: {}
-  Republic 'Shaman' Logistics: {}
-  APEX 'Atlas' Sentinel vX.1: {}
-  State 'Hawk' Scout: {}
-  APEX 'Seraph' Logistics: {}
-  State 'Shogun' Sentinel: {}
-  APEX 'Spartan' Assault: {}
-  APEX 'Dragon' Scout vX.1: {}
-  Federation 'Serpent' Scout: {}
-  Imperial 'Dominus' Sentinel: {}
-  State 'Samurai' Commando: {}
-  APEX 'Shaman' Logistics: {}
-  Imperial 'Dragon' Scout: {}
-  Imperial 'Paladin' Commando: {}
-  Imperial 'Seraph' Logistics: {}
-  Federation 'Chiron' Logistics: {}
-  Imperial 'Opus' Assault: {}
-  Republic 'Renegade' Commando: {}
-  APEX 'Nomad' Assault vX.1: {}
-  Republic 'Nomad' Assault: {}
-  APEX 'Shogun' Sentinel: {}
-  Federation 'Atlas' Sentinel: {}
-  APEX 'Serpent' Scout: {}
-  APEX 'Dominus' Sentinel: {}
-  APEX 'Kampo' Logistics: {}
-  State 'Rasetsu' Assault: {}
   APEX 'Atlas' Sentinel: {}
-  APEX 'Renegade' Commando: {}
-  APEX 'Tiger' Scout: {}
+  APEX 'Atlas' Sentinel vX.1: {}
   APEX 'Centurion' Commando: {}
   APEX 'Chiron' Logistics: {}
-  APEX 'Samurai' Commando: {}
-  APEX 'Opus' Assault: {}
-  Federation 'Spartan' Assault: {}
-  APEX 'Warlord' Sentinel: {}
-  Republic 'Tiger' Scout: {}
-  State 'Kampo' Logistics: {}
+  APEX 'Dominus' Sentinel: {}
   APEX 'Dragon' Scout: {}
+  APEX 'Dragon' Scout vX.1: {}
+  APEX 'Hawk' Scout: {}
+  APEX 'Kampo' Logistics: {}
+  APEX 'Nomad' Assault: {}
+  APEX 'Nomad' Assault vX.1: {}
+  APEX 'Opus' Assault: {}
+  APEX 'Paladin' Commando: {}
+  APEX 'Rasetsu' Assault: {}
+  APEX 'Renegade' Commando: {}
+  APEX 'Samurai' Commando: {}
+  APEX 'Seraph' Logistics: {}
+  APEX 'Serpent' Scout: {}
+  APEX 'Shaman' Logistics: {}
+  APEX 'Shogun' Sentinel: {}
+  APEX 'Spartan' Assault: {}
+  APEX 'Tiger' Scout: {}
+  APEX 'Warlord' Sentinel: {}
+  Federation 'Atlas' Sentinel: {}
   Federation 'Centurion' Commando: {}
+  Federation 'Chiron' Logistics: {}
+  Federation 'Serpent' Scout: {}
+  Federation 'Spartan' Assault: {}
+  Imperial 'Dominus' Sentinel: {}
+  Imperial 'Dragon' Scout: {}
+  Imperial 'Opus' Assault: {}
+  Imperial 'Paladin' Commando: {}
+  Imperial 'Seraph' Logistics: {}
+  Republic 'Nomad' Assault: {}
+  Republic 'Renegade' Commando: {}
+  Republic 'Shaman' Logistics: {}
+  Republic 'Tiger' Scout: {}
+  Republic 'Warlord' Sentinel: {}
+  State 'Hawk' Scout: {}
+  State 'Kampo' Logistics: {}
+  State 'Rasetsu' Assault: {}
+  State 'Samurai' Commando: {}
+  State 'Shogun' Sentinel: {}

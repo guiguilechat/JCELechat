@@ -1,76 +1,33 @@
 items:
-  R.Db - Boundless Creations:
-    Hp: 100.0
-    TechLevel: 1.0
-  Hacker Deck - LXD-27:
-    Hp: 100.0
-    TechLevel: 1.0
-  R.A.M.- Cruiser Tech:
-    Hp: 100.0
-    TechLevel: 1.0
-  R.Db - Duvolle Labs:
-    Hp: 100.0
-    TechLevel: 1.0
-  R.Db - Lai Dai:
-    Hp: 100.0
-    TechLevel: 1.0
-  R.A.M.- Platform Tech:
-    Hp: 100.0
-    TechLevel: 1.0
-  R.Db - Viziam:
-    Hp: 100.0
-    TechLevel: 1.0
-  R.Db - Khanid Innovation:
-    Hp: 100.0
-    TechLevel: 1.0
-  Hyper Net Uplink:
-    Hp: 100.0
-    TechLevel: 1.0
-  R.A.M.- Robotics:
-    Hp: 100.0
-    TechLevel: 1.0
-  R.Db - Ishukone:
-    Hp: 100.0
-    TechLevel: 1.0
-  R.Db - Thukker Mix:
-    Hp: 100.0
-    TechLevel: 1.0
   Data Interface - Talocan Weapon Systems:
     TechLevel: 1.0
-  Hacker Deck - Shaman:
+  Hacker Deck - Alpha:
+    Hp: 110.0
+    TechLevel: 1.0
+  Hacker Deck - Codex:
     Hp: 100.0
     TechLevel: 1.0
   Hacker Deck - Hermes:
     Hp: 100.0
     TechLevel: 1.0
-  R.Db - Carthum Conglomerate:
+  Hacker Deck - LXD-27:
     Hp: 100.0
     TechLevel: 1.0
-  R.Db - Kaalakiota:
+  Hacker Deck - Shaman:
     Hp: 100.0
     TechLevel: 1.0
-  R.A.M.- Shield Tech:
+  Hyper Net Uplink:
     Hp: 100.0
     TechLevel: 1.0
-  Hacker Deck - Alpha:
-    Hp: 110.0
+  Perpetual Motion Unit I:
     TechLevel: 1.0
-  Terran Molecular Sequencer:
-    Hp: 100.0
-    TechLevel: 1.0
-  R.Db - Roden Shipyards:
-    Hp: 100.0
-    TechLevel: 1.0
-  R.A.M.- Starship Tech:
-    Hp: 100.0
-    TechLevel: 1.0
+  Perpetual Motion Unit II:
+    MetaLevel: 5.0
+    TechLevel: 2.0
   R.A.M.- Ammunition Tech:
     Hp: 100.0
     TechLevel: 1.0
-  R.A.M.- Pharmaceuticals:
-    Hp: 100.0
-    TechLevel: 1.0
-  R.A.M.- Hypernet Tech:
+  R.A.M.- Armor/Hull Tech:
     Hp: 100.0
     TechLevel: 1.0
   R.A.M.- Battlecruiser Tech:
@@ -79,35 +36,78 @@ items:
   R.A.M.- Battleship Tech:
     Hp: 100.0
     TechLevel: 1.0
-  R.A.M.- Energy Tech:
-    Hp: 100.0
-    TechLevel: 1.0
-  R.Db - Core Complexion:
-    Hp: 100.0
-    TechLevel: 1.0
-  Hacker Deck - Codex:
+  R.A.M.- Cruiser Tech:
     Hp: 100.0
     TechLevel: 1.0
   R.A.M.- Cybernetics:
     Hp: 100.0
     TechLevel: 1.0
+  R.A.M.- Electronics:
+    Hp: 100.0
+    TechLevel: 1.0
+  R.A.M.- Energy Tech:
+    Hp: 100.0
+    TechLevel: 1.0
+  R.A.M.- Hypernet Tech:
+    Hp: 100.0
+    TechLevel: 1.0
   R.A.M.- Industrial Tech:
     Hp: 100.0
     TechLevel: 1.0
-  R.A.M.- Electronics:
+  R.A.M.- Pharmaceuticals:
+    Hp: 100.0
+    TechLevel: 1.0
+  R.A.M.- Platform Tech:
+    Hp: 100.0
+    TechLevel: 1.0
+  R.A.M.- Robotics:
+    Hp: 100.0
+    TechLevel: 1.0
+  R.A.M.- Shield Tech:
+    Hp: 100.0
+    TechLevel: 1.0
+  R.A.M.- Starship Tech:
     Hp: 100.0
     TechLevel: 1.0
   R.A.M.- Weapon Tech:
     Hp: 100.0
     TechLevel: 1.0
+  R.Db - Boundless Creations:
+    Hp: 100.0
+    TechLevel: 1.0
+  R.Db - Carthum Conglomerate:
+    Hp: 100.0
+    TechLevel: 1.0
+  R.Db - Core Complexion:
+    Hp: 100.0
+    TechLevel: 1.0
   R.Db - CreoDron:
     Hp: 100.0
     TechLevel: 1.0
-  Perpetual Motion Unit I:
+  R.Db - Duvolle Labs:
+    Hp: 100.0
     TechLevel: 1.0
-  Perpetual Motion Unit II:
-    MetaLevel: 5.0
-    TechLevel: 2.0
-  R.A.M.- Armor/Hull Tech:
+  R.Db - Ishukone:
+    Hp: 100.0
+    TechLevel: 1.0
+  R.Db - Kaalakiota:
+    Hp: 100.0
+    TechLevel: 1.0
+  R.Db - Khanid Innovation:
+    Hp: 100.0
+    TechLevel: 1.0
+  R.Db - Lai Dai:
+    Hp: 100.0
+    TechLevel: 1.0
+  R.Db - Roden Shipyards:
+    Hp: 100.0
+    TechLevel: 1.0
+  R.Db - Thukker Mix:
+    Hp: 100.0
+    TechLevel: 1.0
+  R.Db - Viziam:
+    Hp: 100.0
+    TechLevel: 1.0
+  Terran Molecular Sequencer:
     Hp: 100.0
     TechLevel: 1.0

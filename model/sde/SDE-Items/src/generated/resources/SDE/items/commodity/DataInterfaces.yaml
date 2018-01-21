@@ -1,10 +1,20 @@
 items:
-  Occult Data Interface:
-    DecryptorID: 728.0
+  Civilian Data Interface:
+    DecryptorID: 729.0
     Hp: 100.0
-    RequiredSkill1: 23087.0
+    RequiredSkill1: 3402.0
+    RequiredSkill1Level: 1.0
+  Cryptic Data Interface:
+    DecryptorID: 729.0
+    Hp: 100.0
+    RequiredSkill1: 21791.0
     RequiredSkill1Level: 1.0
   Cryptic Ship Data Interface:
+    DecryptorID: 729.0
+    Hp: 100.0
+    RequiredSkill1: 21791.0
+    RequiredSkill1Level: 1.0
+  Cryptic Tuner Data Interface:
     DecryptorID: 729.0
     Hp: 100.0
     RequiredSkill1: 21791.0
@@ -14,27 +24,22 @@ items:
     Hp: 100.0
     RequiredSkill1: 3410.0
     RequiredSkill1Level: 1.0
+  Esoteric Data Interface:
+    DecryptorID: 731.0
+    Hp: 100.0
+    RequiredSkill1: 21790.0
+    RequiredSkill1Level: 1.0
   Esoteric Ship Data Interface:
     DecryptorID: 731.0
     Hp: 100.0
     RequiredSkill1: 21790.0
     RequiredSkill1Level: 1.0
-  Cryptic Tuner Data Interface:
-    DecryptorID: 729.0
+  Esoteric Tuner Data Interface:
+    DecryptorID: 731.0
     Hp: 100.0
-    RequiredSkill1: 21791.0
+    RequiredSkill1: 21790.0
     RequiredSkill1Level: 1.0
-  R.Db.- Hybrid Technology:
-    DecryptorID: 979.0
-    Hp: 100.0
-    RequiredSkill1: 3408.0
-    RequiredSkill1Level: 1.0
-  Occult Tuner Data Interface:
-    DecryptorID: 728.0
-    Hp: 100.0
-    RequiredSkill1: 23087.0
-    RequiredSkill1Level: 1.0
-  Incognito Tuner Data Interface:
+  Incognito Data Interface:
     DecryptorID: 730.0
     Hp: 100.0
     RequiredSkill1: 23121.0
@@ -44,33 +49,28 @@ items:
     Hp: 100.0
     RequiredSkill1: 23121.0
     RequiredSkill1Level: 1.0
-  Civilian Data Interface:
-    DecryptorID: 729.0
-    Hp: 100.0
-    RequiredSkill1: 3402.0
-    RequiredSkill1Level: 1.0
-  Incognito Data Interface:
+  Incognito Tuner Data Interface:
     DecryptorID: 730.0
     Hp: 100.0
     RequiredSkill1: 23121.0
     RequiredSkill1Level: 1.0
-  Cryptic Data Interface:
-    DecryptorID: 729.0
+  Occult Data Interface:
+    DecryptorID: 728.0
     Hp: 100.0
-    RequiredSkill1: 21791.0
-    RequiredSkill1Level: 1.0
-  Esoteric Tuner Data Interface:
-    DecryptorID: 731.0
-    Hp: 100.0
-    RequiredSkill1: 21790.0
+    RequiredSkill1: 23087.0
     RequiredSkill1Level: 1.0
   Occult Ship Data Interface:
     DecryptorID: 728.0
     Hp: 100.0
     RequiredSkill1: 23087.0
     RequiredSkill1Level: 1.0
-  Esoteric Data Interface:
-    DecryptorID: 731.0
+  Occult Tuner Data Interface:
+    DecryptorID: 728.0
     Hp: 100.0
-    RequiredSkill1: 21790.0
+    RequiredSkill1: 23087.0
+    RequiredSkill1Level: 1.0
+  R.Db.- Hybrid Technology:
+    DecryptorID: 979.0
+    Hp: 100.0
+    RequiredSkill1: 3408.0
     RequiredSkill1Level: 1.0

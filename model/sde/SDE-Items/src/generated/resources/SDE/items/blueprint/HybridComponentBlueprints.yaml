@@ -1,28 +1,28 @@
 items:
-  Superconducting Gravimetric Amplifier Blueprint: {}
-  Superconducting Ladar Amplifier Blueprint: {}
-  Warfare Computation Core Blueprint:
-    IndustryBlueprintRank: 1.0
   Electromechanical Interface Nexus Blueprint:
-    IndustryBlueprintRank: 1.0
-  Fulleroferrocene Power Conduits Blueprint:
-    IndustryBlueprintRank: 1.0
-  Reconfigured Subspace Calibrator Blueprint:
-    IndustryBlueprintRank: 1.0
-  Fullerene Intercalated Sheets Blueprint:
-    IndustryBlueprintRank: 1.0
-  Optimized Nano-Engines Blueprint:
-    IndustryBlueprintRank: 1.0
-  Superconducting Magnetometric Amplifier Blueprint: {}
-  Reinforced Metallofullerene Alloys Blueprint:
-    IndustryBlueprintRank: 1.0
-  Self-Assembling Nanolattice Blueprint: {}
-  Nanowire Composites Blueprint:
-    IndustryBlueprintRank: 1.0
-  Metallofullerene Plating Blueprint:
     IndustryBlueprintRank: 1.0
   Emergent Neurovisual Interface Blueprint:
     IndustryBlueprintRank: 1.0
+  Fullerene Intercalated Sheets Blueprint:
+    IndustryBlueprintRank: 1.0
+  Fulleroferrocene Power Conduits Blueprint:
+    IndustryBlueprintRank: 1.0
+  Metallofullerene Plating Blueprint:
+    IndustryBlueprintRank: 1.0
+  Nanowire Composites Blueprint:
+    IndustryBlueprintRank: 1.0
   Neurovisual Output Analyzer Blueprint:
     IndustryBlueprintRank: 1.0
+  Optimized Nano-Engines Blueprint:
+    IndustryBlueprintRank: 1.0
+  Reconfigured Subspace Calibrator Blueprint:
+    IndustryBlueprintRank: 1.0
+  Reinforced Metallofullerene Alloys Blueprint:
+    IndustryBlueprintRank: 1.0
+  Self-Assembling Nanolattice Blueprint: {}
+  Superconducting Gravimetric Amplifier Blueprint: {}
+  Superconducting Ladar Amplifier Blueprint: {}
+  Superconducting Magnetometric Amplifier Blueprint: {}
   Superconducting Radar Amplifier Blueprint: {}
+  Warfare Computation Core Blueprint:
+    IndustryBlueprintRank: 1.0

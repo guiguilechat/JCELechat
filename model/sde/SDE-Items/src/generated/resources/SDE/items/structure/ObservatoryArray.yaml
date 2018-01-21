@@ -1,4 +1,27 @@
 items:
+  Large Observatory Array:
+    ArmorEmDamageResonance: 1.0
+    ArmorExplosiveDamageResonance: 1.0
+    ArmorKineticDamageResonance: 1.0
+    ArmorThermalDamageResonance: 1.0
+    ECMResistance: 1.0
+    EmDamageResonance: 1.0
+    EnergyWarfareResistance: 1.0
+    ExplosiveDamageResonance: 1.0
+    FighterAbilityAntiCapitalMissileResistance: 0.1
+    KineticDamageResonance: 1.0
+    RemoteAssistanceImpedance: 1.0
+    RemoteRepairImpedance: 1.0
+    SensorDampenerResistance: 1.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldThermalDamageResonance: 1.0
+    SignatureRadius: 100.0
+    StasisWebifierResistance: 1.0
+    TargetPainterResistance: 1.0
+    ThermalDamageResonance: 1.0
+    WeaponDisruptionResistance: 1.0
   Medium Observatory Array:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -23,29 +46,6 @@ items:
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
   X-Large Observatory Array:
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
-    ECMResistance: 1.0
-    EmDamageResonance: 1.0
-    EnergyWarfareResistance: 1.0
-    ExplosiveDamageResonance: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 0.1
-    KineticDamageResonance: 1.0
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    SensorDampenerResistance: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100.0
-    StasisWebifierResistance: 1.0
-    TargetPainterResistance: 1.0
-    ThermalDamageResonance: 1.0
-    WeaponDisruptionResistance: 1.0
-  Large Observatory Array:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
     ArmorKineticDamageResonance: 1.0

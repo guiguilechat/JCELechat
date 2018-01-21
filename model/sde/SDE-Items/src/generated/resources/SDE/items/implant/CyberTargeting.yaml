@@ -11,35 +11,11 @@ items:
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Zainou 'Gypsy' Signature Analysis SA-705:
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    ScanResolutionBonus: 5.0
-    TechLevel: 1.0
-  Zainou 'Gypsy' Signature Analysis SA-704:
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    ScanResolutionBonus: 4.0
-    TechLevel: 1.0
-  Zainou 'Gypsy' Signature Analysis SA-706:
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    ScanResolutionBonus: 6.0
-    TechLevel: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-803:
     Implantness: 8.0
     MaxTargetRangeBonus: 3.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 2.0
-    TechLevel: 1.0
-  Zainou 'Gypsy' Signature Analysis SA-701:
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    ScanResolutionBonus: 1.0
     TechLevel: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-804:
     Implantness: 8.0
@@ -47,17 +23,23 @@ items:
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 3.0
     TechLevel: 1.0
-  Zainou 'Gypsy' Signature Analysis SA-703:
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    ScanResolutionBonus: 3.0
-    TechLevel: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-805:
     Implantness: 8.0
     MaxTargetRangeBonus: 5.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Long Range Targeting LT-806:
+    Implantness: 8.0
+    MaxTargetRangeBonus: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Signature Analysis SA-701:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    ScanResolutionBonus: 1.0
     TechLevel: 1.0
   Zainou 'Gypsy' Signature Analysis SA-702:
     Implantness: 7.0
@@ -65,9 +47,27 @@ items:
     RequiredSkill1Level: 1.0
     ScanResolutionBonus: 2.0
     TechLevel: 1.0
-  Zainou 'Gypsy' Long Range Targeting LT-806:
-    Implantness: 8.0
-    MaxTargetRangeBonus: 6.0
+  Zainou 'Gypsy' Signature Analysis SA-703:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    ScanResolutionBonus: 3.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Signature Analysis SA-704:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    ScanResolutionBonus: 4.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Signature Analysis SA-705:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    ScanResolutionBonus: 5.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Signature Analysis SA-706:
+    Implantness: 7.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 5.0
+    ScanResolutionBonus: 6.0
     TechLevel: 1.0

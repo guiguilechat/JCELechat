@@ -1,26 +1,4 @@
 items:
-  Baker Nunn Enduring Tracking Disruptor I:
-    CapacitorNeed: 12.0
-    ChargeGroup1: 909.0
-    ChargeSize: 1.0
-    Cpu: 40.0
-    Duration: 10000.0
-    FalloffBonus: -16.239999771118164
-    FalloffEffectiveness: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 40000.0
-    MaxRangeBonus: -16.239999771118164
-    MetaLevel: 1.0
-    OverloadTrackingModuleStrengthBonus: 20.0
-    Power: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: -16.239999771118164
   '''Distributor'' Guidance Disruptor':
     AoeCloudSizeBonus: 12.0
     AoeVelocityBonus: -12.0
@@ -68,51 +46,6 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
     TrackingSpeedBonus: -17.190000534057617
-  Guidance Disruptor I:
-    AoeCloudSizeBonus: 10.0
-    AoeVelocityBonus: -10.0
-    CapacitorNeed: 15.0
-    ChargeGroup1: 1569.0
-    ChargeSize: 1.0
-    Cpu: 40.0
-    Duration: 10000.0
-    ExplosionDelayBonus: -8.0
-    FalloffEffectiveness: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 40000.0
-    MissileVelocityBonus: -8.0
-    OverloadTrackingModuleStrengthBonus: 20.0
-    Power: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  C-IR Compact Guidance Disruptor:
-    AoeCloudSizeBonus: 11.0
-    AoeVelocityBonus: -11.0
-    CapacitorNeed: 15.0
-    ChargeGroup1: 1569.0
-    ChargeSize: 1.0
-    Cpu: 32.0
-    Duration: 10000.0
-    ExplosionDelayBonus: -8.5
-    FalloffEffectiveness: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 40000.0
-    MetaLevel: 1.0
-    MissileVelocityBonus: -8.5
-    OverloadTrackingModuleStrengthBonus: 20.0
-    Power: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
   A-211 Enduring Guidance Disruptor:
     AoeCloudSizeBonus: 11.0
     AoeVelocityBonus: -11.0
@@ -136,19 +69,20 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Tracking Disruptor I:
-    CapacitorNeed: 15.0
+  Baker Nunn Enduring Tracking Disruptor I:
+    CapacitorNeed: 12.0
     ChargeGroup1: 909.0
     ChargeSize: 1.0
     Cpu: 40.0
     Duration: 10000.0
-    FalloffBonus: -15.300000190734863
+    FalloffBonus: -16.239999771118164
     FalloffEffectiveness: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
     Hp: 40.0
     MaxRange: 40000.0
-    MaxRangeBonus: -15.300000190734863
+    MaxRangeBonus: -16.239999771118164
+    MetaLevel: 1.0
     OverloadTrackingModuleStrengthBonus: 20.0
     Power: 1.0
     ReloadTime: 0.009999999776482582
@@ -156,7 +90,117 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-    TrackingSpeedBonus: -15.300000190734863
+    TrackingSpeedBonus: -16.239999771118164
+  Balmer Series Compact Tracking Disruptor I:
+    CapacitorNeed: 15.0
+    ChargeGroup1: 909.0
+    ChargeSize: 1.0
+    Cpu: 32.0
+    Duration: 10000.0
+    FalloffBonus: -16.239999771118164
+    FalloffEffectiveness: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxRange: 40000.0
+    MaxRangeBonus: -16.239999771118164
+    MetaLevel: 1.0
+    OverloadTrackingModuleStrengthBonus: 20.0
+    Power: 1.0
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3434.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: -16.239999771118164
+  C-IR Compact Guidance Disruptor:
+    AoeCloudSizeBonus: 11.0
+    AoeVelocityBonus: -11.0
+    CapacitorNeed: 15.0
+    ChargeGroup1: 1569.0
+    ChargeSize: 1.0
+    Cpu: 32.0
+    Duration: 10000.0
+    ExplosionDelayBonus: -8.5
+    FalloffEffectiveness: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxRange: 40000.0
+    MetaLevel: 1.0
+    MissileVelocityBonus: -8.5
+    OverloadTrackingModuleStrengthBonus: 20.0
+    Power: 1.0
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3434.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  DDO Scoped Tracking Disruptor I:
+    CapacitorNeed: 15.0
+    ChargeGroup1: 909.0
+    ChargeSize: 1.0
+    Cpu: 40.0
+    Duration: 10000.0
+    FalloffBonus: -16.239999771118164
+    FalloffEffectiveness: 22000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxRange: 44000.0
+    MaxRangeBonus: -16.239999771118164
+    MetaLevel: 1.0
+    OverloadTrackingModuleStrengthBonus: 20.0
+    Power: 1.0
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3434.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: -16.239999771118164
+  Dark Blood Tracking Disruptor:
+    CapacitorNeed: 14.0
+    ChargeGroup1: 909.0
+    ChargeSize: 1.0
+    Cpu: 32.0
+    Duration: 10000.0
+    FalloffBonus: -18.809999465942383
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxRange: 48000.0
+    MaxRangeBonus: -18.809999465942383
+    MetaLevel: 9.0
+    OverloadTrackingModuleStrengthBonus: 20.0
+    Power: 1.0
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3434.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: -18.809999465942383
+  Guidance Disruptor I:
+    AoeCloudSizeBonus: 10.0
+    AoeVelocityBonus: -10.0
+    CapacitorNeed: 15.0
+    ChargeGroup1: 1569.0
+    ChargeSize: 1.0
+    Cpu: 40.0
+    Duration: 10000.0
+    ExplosionDelayBonus: -8.0
+    FalloffEffectiveness: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxRange: 40000.0
+    MissileVelocityBonus: -8.0
+    OverloadTrackingModuleStrengthBonus: 20.0
+    Power: 1.0
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3434.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
   Guidance Disruptor II:
     AoeCloudSizeBonus: 12.0
     AoeVelocityBonus: -12.0
@@ -203,63 +247,19 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Dark Blood Tracking Disruptor:
-    CapacitorNeed: 14.0
-    ChargeGroup1: 909.0
-    ChargeSize: 1.0
-    Cpu: 32.0
-    Duration: 10000.0
-    FalloffBonus: -18.809999465942383
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 48000.0
-    MaxRangeBonus: -18.809999465942383
-    MetaLevel: 9.0
-    OverloadTrackingModuleStrengthBonus: 20.0
-    Power: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: -18.809999465942383
-  DDO Scoped Tracking Disruptor I:
+  Tracking Disruptor I:
     CapacitorNeed: 15.0
     ChargeGroup1: 909.0
     ChargeSize: 1.0
     Cpu: 40.0
     Duration: 10000.0
-    FalloffBonus: -16.239999771118164
-    FalloffEffectiveness: 22000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 44000.0
-    MaxRangeBonus: -16.239999771118164
-    MetaLevel: 1.0
-    OverloadTrackingModuleStrengthBonus: 20.0
-    Power: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: -16.239999771118164
-  Balmer Series Compact Tracking Disruptor I:
-    CapacitorNeed: 15.0
-    ChargeGroup1: 909.0
-    ChargeSize: 1.0
-    Cpu: 32.0
-    Duration: 10000.0
-    FalloffBonus: -16.239999771118164
+    FalloffBonus: -15.300000190734863
     FalloffEffectiveness: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
     Hp: 40.0
     MaxRange: 40000.0
-    MaxRangeBonus: -16.239999771118164
-    MetaLevel: 1.0
+    MaxRangeBonus: -15.300000190734863
     OverloadTrackingModuleStrengthBonus: 20.0
     Power: 1.0
     ReloadTime: 0.009999999776482582
@@ -267,28 +267,7 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-    TrackingSpeedBonus: -16.239999771118164
-  True Sansha Tracking Disruptor:
-    CapacitorNeed: 14.0
-    ChargeGroup1: 909.0
-    ChargeSize: 1.0
-    Cpu: 32.0
-    Duration: 10000.0
-    FalloffBonus: -18.809999465942383
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 48000.0
-    MaxRangeBonus: -18.809999465942383
-    MetaLevel: 9.0
-    OverloadTrackingModuleStrengthBonus: 20.0
-    Power: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: -18.809999465942383
+    TrackingSpeedBonus: -15.300000190734863
   Tracking Disruptor II:
     CapacitorNeed: 18.0
     ChargeGroup1: 909.0
@@ -311,3 +290,24 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 2.0
     TrackingSpeedBonus: -17.190000534057617
+  True Sansha Tracking Disruptor:
+    CapacitorNeed: 14.0
+    ChargeGroup1: 909.0
+    ChargeSize: 1.0
+    Cpu: 32.0
+    Duration: 10000.0
+    FalloffBonus: -18.809999465942383
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxRange: 48000.0
+    MaxRangeBonus: -18.809999465942383
+    MetaLevel: 9.0
+    OverloadTrackingModuleStrengthBonus: 20.0
+    Power: 1.0
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3434.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: -18.809999465942383

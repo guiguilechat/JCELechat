@@ -1,52 +1,210 @@
 items:
-  Tuvan's Modified Sensor Booster:
-    CapacitorNeed: 10.0
+  '''Shady'' Sensor Booster':
+    CapacitorNeed: 5.0
     ChargeGroup1: 910.0
     ChargeSize: 1.0
-    Cpu: 18.0
+    Cpu: 9.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
     Hp: 40.0
-    MaxTargetRangeBonus: 36.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
+    MaxTargetRangeBonus: 30.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
     OverloadSensorModuleStrengthBonus: 15.0
     Power: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3428.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 56.0
-    ScanLadarStrengthPercent: 56.0
-    ScanMagnetometricStrengthPercent: 56.0
-    ScanRadarStrengthPercent: 56.0
-    ScanResolutionBonus: 36.0
+    ScanGravimetricStrengthPercent: 48.0
+    ScanLadarStrengthPercent: 48.0
+    ScanMagnetometricStrengthPercent: 48.0
+    ScanRadarStrengthPercent: 48.0
+    ScanResolutionBonus: 30.0
     TechLevel: 1.0
-  Unit F-435454's Modified Sensor Booster:
-    CapacitorNeed: 10.0
+  Alumel-Wired Enduring Sensor Booster:
+    CapacitorNeed: 6.0
     ChargeGroup1: 910.0
     ChargeSize: 1.0
-    Cpu: 18.0
+    Cpu: 12.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
     Hp: 40.0
-    MaxTargetRangeBonus: 36.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
+    MaxTargetRangeBonus: 27.5
+    MetaLevel: 1.0
     OverloadSensorModuleStrengthBonus: 15.0
     Power: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3428.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 56.0
-    ScanLadarStrengthPercent: 56.0
-    ScanMagnetometricStrengthPercent: 56.0
-    ScanRadarStrengthPercent: 56.0
-    ScanResolutionBonus: 36.0
+    ScanGravimetricStrengthPercent: 44.0
+    ScanLadarStrengthPercent: 44.0
+    ScanMagnetometricStrengthPercent: 44.0
+    ScanRadarStrengthPercent: 44.0
+    ScanResolutionBonus: 27.5
     TechLevel: 1.0
+  Brynn's Modified Sensor Booster:
+    CapacitorNeed: 10.0
+    ChargeGroup1: 910.0
+    ChargeSize: 1.0
+    Cpu: 16.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxTargetRangeBonus: 34.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadSensorModuleStrengthBonus: 15.0
+    Power: 1.0
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3428.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthPercent: 54.0
+    ScanLadarStrengthPercent: 54.0
+    ScanMagnetometricStrengthPercent: 54.0
+    ScanRadarStrengthPercent: 54.0
+    ScanResolutionBonus: 34.0
+    TechLevel: 1.0
+  Cormack's Modified Sensor Booster:
+    CapacitorNeed: 10.0
+    ChargeGroup1: 910.0
+    ChargeSize: 1.0
+    Cpu: 22.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxTargetRangeBonus: 39.0
+    MetaGroupID: 5.0
+    MetaLevel: 17.0
+    OverloadSensorModuleStrengthBonus: 15.0
+    Power: 1.0
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3428.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthPercent: 60.0
+    ScanLadarStrengthPercent: 60.0
+    ScanMagnetometricStrengthPercent: 60.0
+    ScanRadarStrengthPercent: 60.0
+    ScanResolutionBonus: 39.0
+    TechLevel: 1.0
+  F-90 Compact Sensor Booster:
+    CapacitorNeed: 10.0
+    ChargeGroup1: 910.0
+    ChargeSize: 1.0
+    Cpu: 10.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxTargetRangeBonus: 27.5
+    MetaLevel: 1.0
+    OverloadSensorModuleStrengthBonus: 15.0
+    Power: 1.0
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3428.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthPercent: 44.0
+    ScanLadarStrengthPercent: 44.0
+    ScanMagnetometricStrengthPercent: 44.0
+    ScanRadarStrengthPercent: 44.0
+    ScanResolutionBonus: 27.5
+    TechLevel: 1.0
+  Federation Navy Sensor Booster:
+    CapacitorNeed: 9.0
+    ChargeGroup1: 910.0
+    ChargeSize: 1.0
+    Cpu: 9.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxTargetRangeBonus: 32.5
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadSensorModuleStrengthBonus: 15.0
+    Power: 1.0
+    ReloadTime: 10000.0
+    RequiredSkill1: 3428.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthPercent: 50.0
+    ScanLadarStrengthPercent: 50.0
+    ScanMagnetometricStrengthPercent: 50.0
+    ScanRadarStrengthPercent: 50.0
+    ScanResolutionBonus: 32.5
+    TechLevel: 1.0
+  Prototype Sensor Booster:
+    CapacitorNeed: 10.0
+    ChargeGroup1: 910.0
+    ChargeSize: 1.0
+    Cpu: 8.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxTargetRangeBonus: 26.299999237060547
+    MetaLevel: 1.0
+    OverloadSensorModuleStrengthBonus: 15.0
+    Power: 1.0
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3428.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanResolutionBonus: 26.299999237060547
+    TechLevel: 1.0
+  Sensor Booster I:
+    CapacitorNeed: 10.0
+    ChargeGroup1: 910.0
+    ChargeSize: 1.0
+    Cpu: 12.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxTargetRangeBonus: 25.0
+    OverloadSensorModuleStrengthBonus: 15.0
+    Power: 1.0
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3428.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthPercent: 40.0
+    ScanLadarStrengthPercent: 40.0
+    ScanMagnetometricStrengthPercent: 40.0
+    ScanRadarStrengthPercent: 40.0
+    ScanResolutionBonus: 25.0
+    TechLevel: 1.0
+  Sensor Booster II:
+    CapacitorNeed: 12.0
+    ChargeGroup1: 910.0
+    ChargeSize: 1.0
+    Cpu: 16.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxTargetRangeBonus: 30.0
+    MetaLevel: 5.0
+    OverloadSensorModuleStrengthBonus: 15.0
+    Power: 1.0
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3428.0
+    RequiredSkill1Level: 4.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthPercent: 48.0
+    ScanLadarStrengthPercent: 48.0
+    ScanMagnetometricStrengthPercent: 48.0
+    ScanRadarStrengthPercent: 48.0
+    ScanResolutionBonus: 30.0
+    TechLevel: 2.0
   Sentient Sensor Booster:
     CapacitorNeed: 9.0
     ChargeGroup1: 910.0
@@ -71,74 +229,29 @@ items:
     ScanRadarStrengthPercent: 50.0
     ScanResolutionBonus: 32.5
     TechLevel: 1.0
-  Sensor Booster I:
+  Setele's Modified Sensor Booster:
     CapacitorNeed: 10.0
     ChargeGroup1: 910.0
     ChargeSize: 1.0
-    Cpu: 12.0
+    Cpu: 20.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
     Hp: 40.0
-    MaxTargetRangeBonus: 25.0
-    OverloadSensorModuleStrengthBonus: 15.0
-    Power: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3428.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 40.0
-    ScanLadarStrengthPercent: 40.0
-    ScanMagnetometricStrengthPercent: 40.0
-    ScanRadarStrengthPercent: 40.0
-    ScanResolutionBonus: 25.0
-    TechLevel: 1.0
-  Unit D-34343's Modified Sensor Booster:
-    CapacitorNeed: 10.0
-    ChargeGroup1: 910.0
-    ChargeSize: 1.0
-    Cpu: 16.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxTargetRangeBonus: 34.0
+    MaxTargetRangeBonus: 37.5
     MetaGroupID: 5.0
-    MetaLevel: 11.0
+    MetaLevel: 15.0
     OverloadSensorModuleStrengthBonus: 15.0
     Power: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3428.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 54.0
-    ScanLadarStrengthPercent: 54.0
-    ScanMagnetometricStrengthPercent: 54.0
-    ScanRadarStrengthPercent: 54.0
-    ScanResolutionBonus: 34.0
-    TechLevel: 1.0
-  Alumel-Wired Enduring Sensor Booster:
-    CapacitorNeed: 6.0
-    ChargeGroup1: 910.0
-    ChargeSize: 1.0
-    Cpu: 12.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxTargetRangeBonus: 27.5
-    MetaLevel: 1.0
-    OverloadSensorModuleStrengthBonus: 15.0
-    Power: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3428.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 44.0
-    ScanLadarStrengthPercent: 44.0
-    ScanMagnetometricStrengthPercent: 44.0
-    ScanRadarStrengthPercent: 44.0
-    ScanResolutionBonus: 27.5
+    ScanGravimetricStrengthPercent: 58.0
+    ScanLadarStrengthPercent: 58.0
+    ScanMagnetometricStrengthPercent: 58.0
+    ScanRadarStrengthPercent: 58.0
+    ScanResolutionBonus: 37.5
     TechLevel: 1.0
   Shadow Serpentis Sensor Booster:
     CapacitorNeed: 9.0
@@ -183,7 +296,31 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     ScanResolutionBonus: 27.5
     TechLevel: 1.0
-  Brynn's Modified Sensor Booster:
+  Tuvan's Modified Sensor Booster:
+    CapacitorNeed: 10.0
+    ChargeGroup1: 910.0
+    ChargeSize: 1.0
+    Cpu: 18.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.4000000953674316
+    Hp: 40.0
+    MaxTargetRangeBonus: 36.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    OverloadSensorModuleStrengthBonus: 15.0
+    Power: 1.0
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 3428.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthPercent: 56.0
+    ScanLadarStrengthPercent: 56.0
+    ScanMagnetometricStrengthPercent: 56.0
+    ScanRadarStrengthPercent: 56.0
+    ScanResolutionBonus: 36.0
+    TechLevel: 1.0
+  Unit D-34343's Modified Sensor Booster:
     CapacitorNeed: 10.0
     ChargeGroup1: 910.0
     ChargeSize: 1.0
@@ -207,28 +344,29 @@ items:
     ScanRadarStrengthPercent: 54.0
     ScanResolutionBonus: 34.0
     TechLevel: 1.0
-  F-90 Compact Sensor Booster:
+  Unit F-435454's Modified Sensor Booster:
     CapacitorNeed: 10.0
     ChargeGroup1: 910.0
     ChargeSize: 1.0
-    Cpu: 10.0
+    Cpu: 18.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
     Hp: 40.0
-    MaxTargetRangeBonus: 27.5
-    MetaLevel: 1.0
+    MaxTargetRangeBonus: 36.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
     OverloadSensorModuleStrengthBonus: 15.0
     Power: 1.0
     ReloadTime: 0.009999999776482582
     RequiredSkill1: 3428.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 44.0
-    ScanLadarStrengthPercent: 44.0
-    ScanMagnetometricStrengthPercent: 44.0
-    ScanRadarStrengthPercent: 44.0
-    ScanResolutionBonus: 27.5
+    ScanGravimetricStrengthPercent: 56.0
+    ScanLadarStrengthPercent: 56.0
+    ScanMagnetometricStrengthPercent: 56.0
+    ScanRadarStrengthPercent: 56.0
+    ScanResolutionBonus: 36.0
     TechLevel: 1.0
   Unit P-343554's Modified Sensor Booster:
     CapacitorNeed: 10.0
@@ -254,54 +392,6 @@ items:
     ScanRadarStrengthPercent: 58.0
     ScanResolutionBonus: 37.5
     TechLevel: 1.0
-  Federation Navy Sensor Booster:
-    CapacitorNeed: 9.0
-    ChargeGroup1: 910.0
-    ChargeSize: 1.0
-    Cpu: 9.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxTargetRangeBonus: 32.5
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSensorModuleStrengthBonus: 15.0
-    Power: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3428.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 50.0
-    ScanLadarStrengthPercent: 50.0
-    ScanMagnetometricStrengthPercent: 50.0
-    ScanRadarStrengthPercent: 50.0
-    ScanResolutionBonus: 32.5
-    TechLevel: 1.0
-  '''Shady'' Sensor Booster':
-    CapacitorNeed: 5.0
-    ChargeGroup1: 910.0
-    ChargeSize: 1.0
-    Cpu: 9.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxTargetRangeBonus: 30.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadSensorModuleStrengthBonus: 15.0
-    Power: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3428.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 48.0
-    ScanLadarStrengthPercent: 48.0
-    ScanMagnetometricStrengthPercent: 48.0
-    ScanRadarStrengthPercent: 48.0
-    ScanResolutionBonus: 30.0
-    TechLevel: 1.0
   Unit W-634's Modified Sensor Booster:
     CapacitorNeed: 10.0
     ChargeGroup1: 910.0
@@ -325,94 +415,4 @@ items:
     ScanMagnetometricStrengthPercent: 60.0
     ScanRadarStrengthPercent: 60.0
     ScanResolutionBonus: 39.0
-    TechLevel: 1.0
-  Setele's Modified Sensor Booster:
-    CapacitorNeed: 10.0
-    ChargeGroup1: 910.0
-    ChargeSize: 1.0
-    Cpu: 20.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxTargetRangeBonus: 37.5
-    MetaGroupID: 5.0
-    MetaLevel: 15.0
-    OverloadSensorModuleStrengthBonus: 15.0
-    Power: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3428.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 58.0
-    ScanLadarStrengthPercent: 58.0
-    ScanMagnetometricStrengthPercent: 58.0
-    ScanRadarStrengthPercent: 58.0
-    ScanResolutionBonus: 37.5
-    TechLevel: 1.0
-  Cormack's Modified Sensor Booster:
-    CapacitorNeed: 10.0
-    ChargeGroup1: 910.0
-    ChargeSize: 1.0
-    Cpu: 22.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxTargetRangeBonus: 39.0
-    MetaGroupID: 5.0
-    MetaLevel: 17.0
-    OverloadSensorModuleStrengthBonus: 15.0
-    Power: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3428.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 60.0
-    ScanLadarStrengthPercent: 60.0
-    ScanMagnetometricStrengthPercent: 60.0
-    ScanRadarStrengthPercent: 60.0
-    ScanResolutionBonus: 39.0
-    TechLevel: 1.0
-  Sensor Booster II:
-    CapacitorNeed: 12.0
-    ChargeGroup1: 910.0
-    ChargeSize: 1.0
-    Cpu: 16.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxTargetRangeBonus: 30.0
-    MetaLevel: 5.0
-    OverloadSensorModuleStrengthBonus: 15.0
-    Power: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3428.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthPercent: 48.0
-    ScanLadarStrengthPercent: 48.0
-    ScanMagnetometricStrengthPercent: 48.0
-    ScanRadarStrengthPercent: 48.0
-    ScanResolutionBonus: 30.0
-    TechLevel: 2.0
-  Prototype Sensor Booster:
-    CapacitorNeed: 10.0
-    ChargeGroup1: 910.0
-    ChargeSize: 1.0
-    Cpu: 8.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxTargetRangeBonus: 26.299999237060547
-    MetaLevel: 1.0
-    OverloadSensorModuleStrengthBonus: 15.0
-    Power: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3428.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanResolutionBonus: 26.299999237060547
     TechLevel: 1.0

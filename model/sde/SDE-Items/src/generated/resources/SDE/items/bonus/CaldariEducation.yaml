@@ -1,17 +1,17 @@
 items:
-  Caldari Military Academy Pilot Bonus:
-    CpuMultiplier: 1.0
-    PerceptionSkillTrainingTimeMultiplierBonus: -0.05000000074505806
-  Caldari Technical School Electronics Bonus:
-    CpuMultiplier: 0.949999988079071
   Caldari Business School Commerce Bonus:
     CharismaSkillTrainingTimeMultiplierBonus: -0.05000000074505806
     CpuMultiplier: 1.0
   Caldari Business School Industry Bonus:
     CpuMultiplier: 1.0
-  Caldari Technical School Engineering Bonus:
-    CpuMultiplier: 1.0
-    MemorySkillTrainingTimeMultiplierBonus: -0.05000000074505806
   Caldari Military Academy Gunner Bonus:
     CapacitorNeedMultiplier: 0.949999988079071
     CpuMultiplier: 1.0
+  Caldari Military Academy Pilot Bonus:
+    CpuMultiplier: 1.0
+    PerceptionSkillTrainingTimeMultiplierBonus: -0.05000000074505806
+  Caldari Technical School Electronics Bonus:
+    CpuMultiplier: 0.949999988079071
+  Caldari Technical School Engineering Bonus:
+    CpuMultiplier: 1.0
+    MemorySkillTrainingTimeMultiplierBonus: -0.05000000074505806

@@ -1,20 +1,4 @@
 items:
-  Mining Laser Range II:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 15.0
-    RequiredSkill1: 26254.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Mining Laser Range I:
-    Drawback: -10.0
-    Hp: 40.0
-    MaxRangeMultiplier: 10.0
-    RequiredSkill1: 26254.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
   Mining Laser Optimization I:
     Drawback: -10.0
     Hp: 40.0
@@ -34,3 +18,19 @@ items:
     RequiredSkill1Level: 4.0
     TechLevel: 2.0
     UpgradeCost: 200.0
+  Mining Laser Range I:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 10.0
+    RequiredSkill1: 26254.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Mining Laser Range II:
+    Drawback: -10.0
+    Hp: 40.0
+    MaxRangeMultiplier: 15.0
+    RequiredSkill1: 26254.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0

@@ -1,157 +1,13 @@
 items:
-  Limited Cybernetic Subprocessor - Beta:
-    Implantness: 4.0
-    IntelligenceBonus: 2.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Limited Neural Boost:
-    Implantness: 3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    WillpowerBonus: 1.0
-  Ocular Filter - Improved:
-    Implantness: 1.0
-    PerceptionBonus: 5.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-  Memory Augmentation - Standard:
-    Implantness: 2.0
-    MemoryBonus: 4.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
-  Ocular Filter - Advanced:
-    Implantness: 1.0
-    PerceptionBonus: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
-  Ocular Filter - Elite:
-    Implantness: 1.0
-    PerceptionBonus: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-  Limited Neural Boost - Beta:
-    Implantness: 3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    WillpowerBonus: 2.0
-  Ocular Filter - Standard:
-    Implantness: 1.0
-    PerceptionBonus: 4.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
-  Ocular Filter - Basic:
-    Implantness: 1.0
-    PerceptionBonus: 3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Neural Boost - Basic:
-    Implantness: 3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    WillpowerBonus: 3.0
-  Limited Cybernetic Subprocessor:
-    Implantness: 4.0
-    IntelligenceBonus: 1.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Social Adaptation Chip - Improved:
-    CharismaBonus: 5.0
-    Implantness: 5.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-  Cybernetic Subprocessor - Basic:
-    Implantness: 4.0
-    IntelligenceBonus: 3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Neural Boost - Standard:
-    Implantness: 3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
-    WillpowerBonus: 4.0
-  Memory Augmentation - Advanced:
-    Implantness: 2.0
-    MemoryBonus: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
   Cybernetic Subprocessor - Advanced:
     Implantness: 4.0
     IntelligenceBonus: 6.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 3.0
     TechLevel: 1.0
-  Social Adaptation Chip - Advanced:
-    CharismaBonus: 6.0
-    Implantness: 5.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
-  Memory Augmentation - Elite:
-    Implantness: 2.0
-    MemoryBonus: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-  Limited Memory Augmentation:
-    Implantness: 2.0
-    MemoryBonus: 1.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Limited Social Adaptation Chip - Beta:
-    CharismaBonus: 2.0
-    Implantness: 5.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Social Adaptation Chip - Standard:
-    CharismaBonus: 4.0
-    Implantness: 5.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
-  Cybernetic Subprocessor - Standard:
+  Cybernetic Subprocessor - Basic:
     Implantness: 4.0
-    IntelligenceBonus: 4.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
-  Limited Social Adaptation Chip:
-    CharismaBonus: 1.0
-    Implantness: 5.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Neural Boost - Improved:
-    Implantness: 3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-    WillpowerBonus: 5.0
-  Social Adaptation Chip - Basic:
-    CharismaBonus: 3.0
-    Implantness: 5.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Memory Augmentation - Basic:
-    Implantness: 2.0
-    MemoryBonus: 3.0
+    IntelligenceBonus: 3.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
@@ -161,18 +17,54 @@ items:
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 5.0
     TechLevel: 1.0
-  Neural Boost - Advanced:
-    Implantness: 3.0
+  Cybernetic Subprocessor - Improved:
+    Implantness: 4.0
+    IntelligenceBonus: 5.0
     RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
+    RequiredSkill1Level: 5.0
     TechLevel: 1.0
-    WillpowerBonus: 6.0
-  Neural Boost - Elite:
-    Implantness: 3.0
+  Cybernetic Subprocessor - Standard:
+    Implantness: 4.0
+    IntelligenceBonus: 4.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 4.0
     TechLevel: 1.0
-    WillpowerBonus: 7.0
+  Limited Cybernetic Subprocessor:
+    Implantness: 4.0
+    IntelligenceBonus: 1.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Limited Cybernetic Subprocessor - Beta:
+    Implantness: 4.0
+    IntelligenceBonus: 2.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Limited Memory Augmentation:
+    Implantness: 2.0
+    MemoryBonus: 1.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Limited Memory Augmentation - Beta:
+    Implantness: 2.0
+    MemoryBonus: 2.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Limited Neural Boost:
+    Implantness: 3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    WillpowerBonus: 1.0
+  Limited Neural Boost - Beta:
+    Implantness: 3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    WillpowerBonus: 2.0
   Limited Ocular Filter:
     Implantness: 1.0
     PerceptionBonus: 1.0
@@ -185,11 +77,35 @@ items:
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Limited Memory Augmentation - Beta:
-    Implantness: 2.0
-    MemoryBonus: 2.0
+  Limited Social Adaptation Chip:
+    CharismaBonus: 1.0
+    Implantness: 5.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Limited Social Adaptation Chip - Beta:
+    CharismaBonus: 2.0
+    Implantness: 5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Memory Augmentation - Advanced:
+    Implantness: 2.0
+    MemoryBonus: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Memory Augmentation - Basic:
+    Implantness: 2.0
+    MemoryBonus: 3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Memory Augmentation - Elite:
+    Implantness: 2.0
+    MemoryBonus: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
     TechLevel: 1.0
   Memory Augmentation - Improved:
     Implantness: 2.0
@@ -197,9 +113,93 @@ items:
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 5.0
     TechLevel: 1.0
-  Cybernetic Subprocessor - Improved:
-    Implantness: 4.0
-    IntelligenceBonus: 5.0
+  Memory Augmentation - Standard:
+    Implantness: 2.0
+    MemoryBonus: 4.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Neural Boost - Advanced:
+    Implantness: 3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+    WillpowerBonus: 6.0
+  Neural Boost - Basic:
+    Implantness: 3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    WillpowerBonus: 3.0
+  Neural Boost - Elite:
+    Implantness: 3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+    WillpowerBonus: 7.0
+  Neural Boost - Improved:
+    Implantness: 3.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+    WillpowerBonus: 5.0
+  Neural Boost - Standard:
+    Implantness: 3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+    WillpowerBonus: 4.0
+  Ocular Filter - Advanced:
+    Implantness: 1.0
+    PerceptionBonus: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Ocular Filter - Basic:
+    Implantness: 1.0
+    PerceptionBonus: 3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Ocular Filter - Elite:
+    Implantness: 1.0
+    PerceptionBonus: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Ocular Filter - Improved:
+    Implantness: 1.0
+    PerceptionBonus: 5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Ocular Filter - Standard:
+    Implantness: 1.0
+    PerceptionBonus: 4.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Social Adaptation Chip - Advanced:
+    CharismaBonus: 6.0
+    Implantness: 5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Social Adaptation Chip - Basic:
+    CharismaBonus: 3.0
+    Implantness: 5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Social Adaptation Chip - Improved:
+    CharismaBonus: 5.0
+    Implantness: 5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Social Adaptation Chip - Standard:
+    CharismaBonus: 4.0
+    Implantness: 5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
     TechLevel: 1.0

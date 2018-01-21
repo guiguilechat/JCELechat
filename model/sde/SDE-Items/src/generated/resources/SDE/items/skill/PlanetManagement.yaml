@@ -1,5 +1,16 @@
 items:
+  Advanced Planetology:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 165.0
+    RequiredSkill1: 2406.0
+    RequiredSkill1Level: 4.0
+    SecondaryAttribute: 166.0
+    SkillTimeConstant: 5.0
   Command Center Upgrades:
+    PrimaryAttribute: 164.0
+    SecondaryAttribute: 165.0
+    SkillTimeConstant: 4.0
+  Interplanetary Consolidation:
     PrimaryAttribute: 164.0
     SecondaryAttribute: 165.0
     SkillTimeConstant: 4.0
@@ -11,20 +22,9 @@ items:
     RequiredSkill2Level: 4.0
     SecondaryAttribute: 166.0
     SkillTimeConstant: 3.0
-  Interplanetary Consolidation:
-    PrimaryAttribute: 164.0
-    SecondaryAttribute: 165.0
-    SkillTimeConstant: 4.0
   Remote Sensing:
     PrimaryAttribute: 165.0
     RequiredSkill1: 3402.0
     RequiredSkill1Level: 3.0
     SecondaryAttribute: 166.0
     SkillTimeConstant: 1.0
-  Advanced Planetology:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 2406.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
-    SkillTimeConstant: 5.0

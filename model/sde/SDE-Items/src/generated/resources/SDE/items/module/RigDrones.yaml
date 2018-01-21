@@ -1,95 +1,19 @@
 items:
-  Capital Sentry Damage Augmentor II:
-    DamageMultiplierBonus: 15.0
+  Capital Drone Control Range Augmentor I:
     Drawback: -10.0
+    DroneRangeBonus: 15000.0
     Hp: 40.0
-    MetaLevel: 5.0
     RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 300.0
-  Medium Drone Control Range Augmentor II:
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Capital Drone Control Range Augmentor II:
     Drawback: -10.0
     DroneRangeBonus: 20000.0
     Hp: 40.0
     MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Small Drone Repair Augmentor II:
-    DamageHP: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Capital Drone Scope Chip II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RangeSkillBonus: 20.0
     RigSize: 4.0
     TechLevel: 2.0
-    UpgradeCost: 75.0
-  Capital Stasis Drone Augmentor I:
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-    WebSpeedFactorBonus: 15.0
-  Medium Drone Speed Augmentor I:
-    Drawback: -10.0
-    DroneMaxVelocityBonus: 10.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Small Stasis Drone Augmentor I:
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-    WebSpeedFactorBonus: 15.0
-  Small Stasis Drone Augmentor II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-    WebSpeedFactorBonus: 20.0
-  Small Drone Speed Augmentor I:
-    Drawback: -10.0
-    DroneMaxVelocityBonus: 10.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Large Drone Repair Augmentor I:
-    DamageHP: 10.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Medium Drone Mining Augmentor II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    MiningAmountBonus: 15.0
-    RigSize: 2.0
-    RofBonus: -15.0
-    TechLevel: 2.0
     UpgradeCost: 150.0
-  Small Drone Control Range Augmentor I:
-    Drawback: -10.0
-    DroneRangeBonus: 15000.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
   Capital Drone Durability Enhancer I:
     Drawback: -10.0
     Hp: 40.0
@@ -97,88 +21,6 @@ items:
     RigSize: 4.0
     TechLevel: 1.0
     UpgradeCost: 100.0
-  Large Drone Control Range Augmentor I:
-    Drawback: -10.0
-    DroneRangeBonus: 15000.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Small Drone Durability Enhancer I:
-    Drawback: -10.0
-    Hp: 40.0
-    HullHpBonus: 20.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Small Drone Control Range Augmentor II:
-    Drawback: -10.0
-    DroneRangeBonus: 20000.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Large Sentry Damage Augmentor II:
-    DamageMultiplierBonus: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 300.0
-  Large Drone Scope Chip II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RangeSkillBonus: 20.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Medium Sentry Damage Augmentor I:
-    DamageMultiplierBonus: 10.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 200.0
-  Medium Drone Control Range Augmentor I:
-    Drawback: -10.0
-    DroneRangeBonus: 15000.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Medium Drone Scope Chip II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RangeSkillBonus: 20.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Large Drone Scope Chip I:
-    Drawback: -10.0
-    Hp: 40.0
-    RangeSkillBonus: 15.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Medium Drone Durability Enhancer II:
-    Drawback: -10.0
-    Hp: 40.0
-    HullHpBonus: 25.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Large Sentry Damage Augmentor I:
-    DamageMultiplierBonus: 10.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 200.0
   Capital Drone Durability Enhancer II:
     Drawback: -10.0
     Hp: 40.0
@@ -187,31 +29,14 @@ items:
     RigSize: 4.0
     TechLevel: 2.0
     UpgradeCost: 150.0
-  Small Drone Mining Augmentor II:
+  Capital Drone Mining Augmentor I:
     Drawback: -10.0
     Hp: 40.0
-    MetaLevel: 5.0
-    MiningAmountBonus: 15.0
-    RigSize: 1.0
-    RofBonus: -15.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Capital Drone Speed Augmentor II:
-    Drawback: -10.0
-    DroneMaxVelocityBonus: 15.0
-    Hp: 40.0
-    MetaLevel: 5.0
+    MiningAmountBonus: 10.0
     RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Large Drone Durability Enhancer II:
-    Drawback: -10.0
-    Hp: 40.0
-    HullHpBonus: 25.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    RofBonus: -10.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
   Capital Drone Mining Augmentor II:
     Drawback: -10.0
     Hp: 40.0
@@ -221,74 +46,11 @@ items:
     RofBonus: -15.0
     TechLevel: 2.0
     UpgradeCost: 150.0
-  Medium Drone Repair Augmentor II:
-    DamageHP: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
   Capital Drone Repair Augmentor I:
     DamageHP: 10.0
     Drawback: -10.0
     Hp: 40.0
     RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Small Sentry Damage Augmentor II:
-    DamageMultiplierBonus: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 300.0
-  Capital Drone Mining Augmentor I:
-    Drawback: -10.0
-    Hp: 40.0
-    MiningAmountBonus: 10.0
-    RigSize: 4.0
-    RofBonus: -10.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Medium Stasis Drone Augmentor II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-    WebSpeedFactorBonus: 20.0
-  Large Stasis Drone Augmentor II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-    WebSpeedFactorBonus: 20.0
-  Large Drone Repair Augmentor II:
-    DamageHP: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Medium Drone Mining Augmentor I:
-    Drawback: -10.0
-    Hp: 40.0
-    MiningAmountBonus: 10.0
-    RigSize: 2.0
-    RofBonus: -10.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Small EW Drone Range Augmentor I:
-    Drawback: -10.0
-    DroneRangeBonus: 10000.0
-    Hp: 40.0
-    RigSize: 1.0
     TechLevel: 1.0
     UpgradeCost: 50.0
   Capital Drone Repair Augmentor II:
@@ -306,34 +68,86 @@ items:
     RigSize: 4.0
     TechLevel: 1.0
     UpgradeCost: 50.0
-  Small EW Drone Range Augmentor II:
+  Capital Drone Scope Chip II:
     Drawback: -10.0
-    DroneRangeBonus: 12000.0
     Hp: 40.0
     MetaLevel: 5.0
-    RigSize: 1.0
+    RangeSkillBonus: 20.0
+    RigSize: 4.0
     TechLevel: 2.0
-    UpgradeCost: 100.0
-  Large Drone Speed Augmentor I:
+    UpgradeCost: 75.0
+  Capital Drone Speed Augmentor I:
     Drawback: -10.0
     DroneMaxVelocityBonus: 10.0
     Hp: 40.0
-    RigSize: 3.0
+    RigSize: 4.0
     TechLevel: 1.0
     UpgradeCost: 50.0
-  Small Drone Repair Augmentor I:
-    DamageHP: 10.0
+  Capital Drone Speed Augmentor II:
+    Drawback: -10.0
+    DroneMaxVelocityBonus: 15.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Capital Sentry Damage Augmentor I:
+    DamageMultiplierBonus: 10.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Capital Sentry Damage Augmentor II:
+    DamageMultiplierBonus: 15.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Capital Stasis Drone Augmentor I:
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+    WebSpeedFactorBonus: 15.0
+  Capital Stasis Drone Augmentor II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+    WebSpeedFactorBonus: 20.0
+  Drone Damage Rig I:
+    DamageMultiplierBonus: 10.0
     Drawback: -10.0
     Hp: 40.0
     RigSize: 1.0
     TechLevel: 1.0
-    UpgradeCost: 50.0
-  Capital Drone Control Range Augmentor II:
+    UpgradeCost: 200.0
+  Drone Damage Rig II:
+    DamageMultiplierBonus: 15.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 300.0
+  Large Drone Control Range Augmentor I:
+    Drawback: -10.0
+    DroneRangeBonus: 15000.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Large Drone Control Range Augmentor II:
     Drawback: -10.0
     DroneRangeBonus: 20000.0
     Hp: 40.0
     MetaLevel: 5.0
-    RigSize: 4.0
+    RigSize: 3.0
     TechLevel: 2.0
     UpgradeCost: 150.0
   Large Drone Durability Enhancer I:
@@ -343,89 +157,14 @@ items:
     RigSize: 3.0
     TechLevel: 1.0
     UpgradeCost: 100.0
-  Small Drone Mining Augmentor I:
+  Large Drone Durability Enhancer II:
     Drawback: -10.0
     Hp: 40.0
-    MiningAmountBonus: 10.0
-    RigSize: 1.0
-    RofBonus: -10.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Small Drone Speed Augmentor II:
-    Drawback: -10.0
-    DroneMaxVelocityBonus: 15.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    SpeedFactorBonus: 20.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Medium Sentry Damage Augmentor II:
-    DamageMultiplierBonus: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 300.0
-  Capital Stasis Drone Augmentor II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-    WebSpeedFactorBonus: 20.0
-  Large EW Drone Range Augmentor II:
-    Drawback: -10.0
-    DroneRangeBonus: 12000.0
-    Hp: 40.0
+    HullHpBonus: 25.0
     MetaLevel: 5.0
     RigSize: 3.0
     TechLevel: 2.0
-    UpgradeCost: 100.0
-  Medium EW Drone Range Augmentor I:
-    Drawback: -10.0
-    DroneRangeBonus: 10000.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Large EW Drone Range Augmentor I:
-    Drawback: -10.0
-    DroneRangeBonus: 10000.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Small Drone Scope Chip I:
-    Drawback: -10.0
-    Hp: 40.0
-    RangeSkillBonus: 15.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Medium Drone Durability Enhancer I:
-    Drawback: -10.0
-    Hp: 40.0
-    HullHpBonus: 20.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Medium Drone Scope Chip I:
-    Drawback: -10.0
-    Hp: 40.0
-    RangeSkillBonus: 15.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Small Sentry Damage Augmentor I:
-    DamageMultiplierBonus: 10.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 200.0
+    UpgradeCost: 150.0
   Large Drone Mining Augmentor I:
     Drawback: -10.0
     Hp: 40.0
@@ -434,112 +173,6 @@ items:
     RofBonus: -10.0
     TechLevel: 1.0
     UpgradeCost: 100.0
-  Large Drone Speed Augmentor II:
-    Drawback: -10.0
-    DroneMaxVelocityBonus: 15.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    SpeedFactorBonus: 20.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Drone Damage Rig I:
-    DamageMultiplierBonus: 10.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 200.0
-  Medium Drone Repair Augmentor I:
-    DamageHP: 10.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Drone Damage Rig II:
-    DamageMultiplierBonus: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 300.0
-  Large Stasis Drone Augmentor I:
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-    WebSpeedFactorBonus: 15.0
-  Medium Stasis Drone Augmentor I:
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-    WebSpeedFactorBonus: 15.0
-  Large Drone Control Range Augmentor II:
-    Drawback: -10.0
-    DroneRangeBonus: 20000.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Small Drone Scope Chip II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RangeSkillBonus: 20.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Small Drone Durability Enhancer II:
-    Drawback: -10.0
-    Hp: 40.0
-    HullHpBonus: 25.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Medium EW Drone Range Augmentor II:
-    Drawback: -10.0
-    DroneRangeBonus: 12000.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 100.0
-  Capital Drone Control Range Augmentor I:
-    Drawback: -10.0
-    DroneRangeBonus: 15000.0
-    Hp: 40.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Capital Drone Speed Augmentor I:
-    Drawback: -10.0
-    DroneMaxVelocityBonus: 10.0
-    Hp: 40.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Capital Sentry Damage Augmentor I:
-    DamageMultiplierBonus: 10.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 200.0
-  Medium Drone Speed Augmentor II:
-    Drawback: -10.0
-    DroneMaxVelocityBonus: 15.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    SpeedFactorBonus: 20.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
   Large Drone Mining Augmentor II:
     Drawback: -10.0
     Hp: 40.0
@@ -549,3 +182,370 @@ items:
     RofBonus: -15.0
     TechLevel: 2.0
     UpgradeCost: 150.0
+  Large Drone Repair Augmentor I:
+    DamageHP: 10.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Drone Repair Augmentor II:
+    DamageHP: 15.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Large Drone Scope Chip I:
+    Drawback: -10.0
+    Hp: 40.0
+    RangeSkillBonus: 15.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Drone Scope Chip II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RangeSkillBonus: 20.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Large Drone Speed Augmentor I:
+    Drawback: -10.0
+    DroneMaxVelocityBonus: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Drone Speed Augmentor II:
+    Drawback: -10.0
+    DroneMaxVelocityBonus: 15.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    SpeedFactorBonus: 20.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Large EW Drone Range Augmentor I:
+    Drawback: -10.0
+    DroneRangeBonus: 10000.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large EW Drone Range Augmentor II:
+    Drawback: -10.0
+    DroneRangeBonus: 12000.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 100.0
+  Large Sentry Damage Augmentor I:
+    DamageMultiplierBonus: 10.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Large Sentry Damage Augmentor II:
+    DamageMultiplierBonus: 15.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Large Stasis Drone Augmentor I:
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+    WebSpeedFactorBonus: 15.0
+  Large Stasis Drone Augmentor II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+    WebSpeedFactorBonus: 20.0
+  Medium Drone Control Range Augmentor I:
+    Drawback: -10.0
+    DroneRangeBonus: 15000.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Medium Drone Control Range Augmentor II:
+    Drawback: -10.0
+    DroneRangeBonus: 20000.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Medium Drone Durability Enhancer I:
+    Drawback: -10.0
+    Hp: 40.0
+    HullHpBonus: 20.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Medium Drone Durability Enhancer II:
+    Drawback: -10.0
+    Hp: 40.0
+    HullHpBonus: 25.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Medium Drone Mining Augmentor I:
+    Drawback: -10.0
+    Hp: 40.0
+    MiningAmountBonus: 10.0
+    RigSize: 2.0
+    RofBonus: -10.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Medium Drone Mining Augmentor II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    MiningAmountBonus: 15.0
+    RigSize: 2.0
+    RofBonus: -15.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Medium Drone Repair Augmentor I:
+    DamageHP: 10.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Medium Drone Repair Augmentor II:
+    DamageHP: 15.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Drone Scope Chip I:
+    Drawback: -10.0
+    Hp: 40.0
+    RangeSkillBonus: 15.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Medium Drone Scope Chip II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RangeSkillBonus: 20.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Drone Speed Augmentor I:
+    Drawback: -10.0
+    DroneMaxVelocityBonus: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Medium Drone Speed Augmentor II:
+    Drawback: -10.0
+    DroneMaxVelocityBonus: 15.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    SpeedFactorBonus: 20.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium EW Drone Range Augmentor I:
+    Drawback: -10.0
+    DroneRangeBonus: 10000.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Medium EW Drone Range Augmentor II:
+    Drawback: -10.0
+    DroneRangeBonus: 12000.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 100.0
+  Medium Sentry Damage Augmentor I:
+    DamageMultiplierBonus: 10.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Medium Sentry Damage Augmentor II:
+    DamageMultiplierBonus: 15.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Medium Stasis Drone Augmentor I:
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+    WebSpeedFactorBonus: 15.0
+  Medium Stasis Drone Augmentor II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+    WebSpeedFactorBonus: 20.0
+  Small Drone Control Range Augmentor I:
+    Drawback: -10.0
+    DroneRangeBonus: 15000.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Small Drone Control Range Augmentor II:
+    Drawback: -10.0
+    DroneRangeBonus: 20000.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Small Drone Durability Enhancer I:
+    Drawback: -10.0
+    Hp: 40.0
+    HullHpBonus: 20.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Small Drone Durability Enhancer II:
+    Drawback: -10.0
+    Hp: 40.0
+    HullHpBonus: 25.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Small Drone Mining Augmentor I:
+    Drawback: -10.0
+    Hp: 40.0
+    MiningAmountBonus: 10.0
+    RigSize: 1.0
+    RofBonus: -10.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Small Drone Mining Augmentor II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    MiningAmountBonus: 15.0
+    RigSize: 1.0
+    RofBonus: -15.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Small Drone Repair Augmentor I:
+    DamageHP: 10.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Drone Repair Augmentor II:
+    DamageHP: 15.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small Drone Scope Chip I:
+    Drawback: -10.0
+    Hp: 40.0
+    RangeSkillBonus: 15.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Drone Scope Chip II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RangeSkillBonus: 20.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small Drone Speed Augmentor I:
+    Drawback: -10.0
+    DroneMaxVelocityBonus: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Drone Speed Augmentor II:
+    Drawback: -10.0
+    DroneMaxVelocityBonus: 15.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    SpeedFactorBonus: 20.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small EW Drone Range Augmentor I:
+    Drawback: -10.0
+    DroneRangeBonus: 10000.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small EW Drone Range Augmentor II:
+    Drawback: -10.0
+    DroneRangeBonus: 12000.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 100.0
+  Small Sentry Damage Augmentor I:
+    DamageMultiplierBonus: 10.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 200.0
+  Small Sentry Damage Augmentor II:
+    DamageMultiplierBonus: 15.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 300.0
+  Small Stasis Drone Augmentor I:
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+    WebSpeedFactorBonus: 15.0
+  Small Stasis Drone Augmentor II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+    WebSpeedFactorBonus: 20.0

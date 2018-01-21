@@ -1,37 +1,37 @@
 items:
-  Small Artillery Battery Blueprint:
-    IndustryBlueprintRank: 20.0
-  Domination Small Autocannon Battery Blueprint:
-    IndustryBlueprintRank: 20.0
-  Angel Small Artillery Battery Blueprint:
-    IndustryBlueprintRank: 20.0
-  Domination Medium Autocannon Battery Blueprint:
-    IndustryBlueprintRank: 30.0
-  Medium Artillery Battery Blueprint:
-    IndustryBlueprintRank: 30.0
-  Domination Large Autocannon Battery Blueprint:
-    IndustryBlueprintRank: 40.0
-  Large Artillery Battery Blueprint:
-    IndustryBlueprintRank: 40.0
   Angel Large Artillery Battery Blueprint:
     IndustryBlueprintRank: 40.0
-  Domination Large Artillery Battery Blueprint:
+  Angel Large Autocannon Battery Blueprint:
     IndustryBlueprintRank: 40.0
   Angel Medium Artillery Battery Blueprint:
     IndustryBlueprintRank: 30.0
+  Angel Medium Autocannon Battery Blueprint:
+    IndustryBlueprintRank: 30.0
+  Angel Small Artillery Battery Blueprint:
+    IndustryBlueprintRank: 20.0
+  Angel Small Autocannon Battery Blueprint:
+    IndustryBlueprintRank: 20.0
+  Domination Large Artillery Battery Blueprint:
+    IndustryBlueprintRank: 40.0
+  Domination Large Autocannon Battery Blueprint:
+    IndustryBlueprintRank: 40.0
+  Domination Medium Artillery Battery Blueprint:
+    IndustryBlueprintRank: 30.0
+  Domination Medium Autocannon Battery Blueprint:
+    IndustryBlueprintRank: 30.0
+  Domination Small Artillery Battery Blueprint:
+    IndustryBlueprintRank: 20.0
+  Domination Small Autocannon Battery Blueprint:
+    IndustryBlueprintRank: 20.0
+  Large Artillery Battery Blueprint:
+    IndustryBlueprintRank: 40.0
   Large AutoCannon Battery Blueprint:
     IndustryBlueprintRank: 40.0
-  Small AutoCannon Battery Blueprint:
-    IndustryBlueprintRank: 20.0
-  Angel Medium Autocannon Battery Blueprint:
+  Medium Artillery Battery Blueprint:
     IndustryBlueprintRank: 30.0
   Medium AutoCannon Battery Blueprint:
     IndustryBlueprintRank: 30.0
-  Domination Medium Artillery Battery Blueprint:
-    IndustryBlueprintRank: 30.0
-  Angel Large Autocannon Battery Blueprint:
-    IndustryBlueprintRank: 40.0
-  Angel Small Autocannon Battery Blueprint:
+  Small Artillery Battery Blueprint:
     IndustryBlueprintRank: 20.0
-  Domination Small Artillery Battery Blueprint:
+  Small AutoCannon Battery Blueprint:
     IndustryBlueprintRank: 20.0

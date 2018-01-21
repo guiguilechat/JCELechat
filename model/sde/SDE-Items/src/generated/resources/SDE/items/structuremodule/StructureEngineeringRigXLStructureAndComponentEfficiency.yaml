@@ -1,23 +1,4 @@
 items:
-  Standup XL-Set Thukker Structure and Component Manufacturing Efficiency:
-    AttributeEngRigMatBonus: -2.0
-    AttributeEngRigTimeBonus: -20.0
-    AttributeThukkerEngRigMatBonus: -3.700000047683716
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    HiSecModifier: 0.10000000149011612
-    Hp: 40.0
-    LowSecModifier: 1.899999976158142
-    MaxGroupFitted: 1.0
-    MetaGroupID: 4.0
-    NullSecModifier: 0.10000000149011612
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 1.0
-    RigSize: 4.0
-    SecurityModifier: 1.0
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
   Standup XL-Set Structure and Component Manufacturing Efficiency I:
     AttributeEngRigMatBonus: -2.0
     AttributeEngRigTimeBonus: -20.0
@@ -52,3 +33,22 @@ items:
     StructureItemVisualFlag: 1.0
     TechLevel: 2.0
     UpgradeCost: 150.0
+  Standup XL-Set Thukker Structure and Component Manufacturing Efficiency:
+    AttributeEngRigMatBonus: -2.0
+    AttributeEngRigTimeBonus: -20.0
+    AttributeThukkerEngRigMatBonus: -3.700000047683716
+    CanFitShipGroup01: 1657.0
+    CanFitShipGroup02: 1404.0
+    HiSecModifier: 0.10000000149011612
+    Hp: 40.0
+    LowSecModifier: 1.899999976158142
+    MaxGroupFitted: 1.0
+    MetaGroupID: 4.0
+    NullSecModifier: 0.10000000149011612
+    RequiredSkill1: 26252.0
+    RequiredSkill1Level: 1.0
+    RigSize: 4.0
+    SecurityModifier: 1.0
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0

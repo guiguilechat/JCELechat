@@ -1,14 +1,4 @@
 items:
-  Scordite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28429.0
-    OreBasicType: 1228.0
-    ReprocessingSkillType: 12193.0
-    RequiredSkill1: 3386.0
   Compressed Condensed Scordite:
     AsteroidMaxRadius: 16255.0
     AsteroidMetaLevel: 2.0
@@ -23,6 +13,14 @@ items:
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90.0
     OreBasicType: 46687.0
+    ReprocessingSkillType: 12193.0
+    RequiredSkill1: 3386.0
+  Compressed Massive Scordite:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 3.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 1228.0
     ReprocessingSkillType: 12193.0
     RequiredSkill1: 3386.0
   Compressed Scordite:
@@ -43,14 +41,6 @@ items:
     OreBasicType: 1228.0
     ReprocessingSkillType: 12193.0
     RequiredSkill1: 3386.0
-  Compressed Massive Scordite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1228.0
-    ReprocessingSkillType: 12193.0
-    RequiredSkill1: 3386.0
   Glossy Scordite:
     AsteroidMaxRadius: 5000.0
     AsteroidMetaLevel: 4.0
@@ -68,6 +58,16 @@ items:
     AsteroidRadiusUnitSize: 90.0
     CompressionQuantityNeeded: 100.0
     CompressionTypeID: 28428.0
+    OreBasicType: 1228.0
+    ReprocessingSkillType: 12193.0
+    RequiredSkill1: 3386.0
+  Scordite:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 1.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    CompressionQuantityNeeded: 100.0
+    CompressionTypeID: 28429.0
     OreBasicType: 1228.0
     ReprocessingSkillType: 12193.0
     RequiredSkill1: 3386.0

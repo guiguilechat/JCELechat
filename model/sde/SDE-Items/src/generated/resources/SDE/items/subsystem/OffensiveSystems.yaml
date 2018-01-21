@@ -18,81 +18,23 @@ items:
     SubsystemMMissileFittingReduction: -25.0
     TechLevel: 3.0
     WarfareLinkCPUPenalty: 10000.0
-  Loki Offensive - Projectile Scoping Array:
-    CpuOutput: 30.0
-    DroneBandwidth: 25.0
-    DroneCapacity: 25.0
-    FitsToShipType: 29990.0
+  Legion Offensive - Liquid Crystal Magnifiers:
+    CapacitorCapacity: 100.0
+    CpuOutput: 90.0
+    FitsToShipType: 29986.0
     HiSlotModifier: 7.0
     Hp: 40.0
-    LauncherHardPointModifier: 2.0
     MetaLevel: 1.0
-    PowerOutput: 300.0
-    RequiredSkill1: 30551.0
+    PowerOutput: 400.0
+    RequiredSkill1: 30537.0
     RequiredSkill1Level: 1.0
     SubSystemSlot: 127.0
-    SubsystemBonusMinmatarOffensive: 10.0
-    SubsystemBonusMinmatarOffensive2: 17.5
-    SubsystemBonusMinmatarOffensive3: 7.5
-    SubsystemMPTFittingReduction: -25.0
+    SubsystemBonusAmarrOffensive: 10.0
+    SubsystemBonusAmarrOffensive2: -10.0
+    SubsystemBonusAmarrOffensive3: 10.0
+    SubsystemMETFittingReduction: -25.0
     TechLevel: 3.0
-    TurretHardPointModifier: 5.0
-    WarfareLinkCPUPenalty: 10000.0
-  Tengu Offensive - Accelerated Ejection Bay:
-    CpuOutput: 160.0
-    FitsToShipType: 29984.0
-    HiSlotModifier: 7.0
-    Hp: 40.0
-    LauncherHardPointModifier: 6.0
-    MetaLevel: 1.0
-    PowerOutput: 190.0
-    RequiredSkill1: 30549.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 127.0
-    SubsystemBonusCaldariOffensive: -7.5
-    SubsystemBonusCaldariOffensive2: 5.0
-    SubsystemBonusCaldariOffensive3: 10.0
-    SubsystemMMissileFittingReduction: -25.0
-    TechLevel: 3.0
-    WarfareLinkCPUPenalty: 10000.0
-  Loki Offensive - Launcher Efficiency Configuration:
-    CpuOutput: 150.0
-    DroneBandwidth: 40.0
-    DroneCapacity: 40.0
-    FitsToShipType: 29990.0
-    HiSlotModifier: 7.0
-    Hp: 40.0
-    LauncherHardPointModifier: 5.0
-    MetaLevel: 1.0
-    PowerOutput: 150.0
-    RequiredSkill1: 30551.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 127.0
-    SubsystemBonusMinmatarOffensive: 5.0
-    SubsystemBonusMinmatarOffensive2: -10.0
-    SubsystemBonusMinmatarOffensive3: 5.0
-    SubsystemMMissileFittingReduction: -25.0
-    TechLevel: 3.0
-    TurretHardPointModifier: 2.0
-    WarfareLinkCPUPenalty: 10000.0
-  Proteus Offensive - Drone Synthesis Projector:
-    CpuOutput: 40.0
-    DroneBandwidth: 100.0
-    DroneCapacity: 250.0
-    FitsToShipType: 29988.0
-    HiSlotModifier: 6.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    PowerOutput: 130.0
-    RequiredSkill1: 30550.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 127.0
-    SubsystemBonusGallenteOffensive: 10.0
-    SubsystemBonusGallenteOffensive2: 5.0
-    SubsystemBonusGallenteOffensive3: 10.0
-    SubsystemMHTFittingReduction: -25.0
-    TechLevel: 3.0
-    TurretHardPointModifier: 5.0
+    TurretHardPointModifier: 6.0
     WarfareLinkCPUPenalty: 10000.0
   Legion Offensive - Support Processor:
     CapacitorCapacity: 100.0
@@ -116,62 +58,46 @@ items:
     SubsystemMRARFittingReduction: -75.0
     TechLevel: 3.0
     TurretHardPointModifier: 4.0
-  Tengu Offensive - Magnetic Infusion Basin:
-    CapacitorCapacity: 100.0
-    CpuOutput: 120.0
-    FitsToShipType: 29984.0
+  Loki Offensive - Launcher Efficiency Configuration:
+    CpuOutput: 150.0
+    DroneBandwidth: 40.0
+    DroneCapacity: 40.0
+    FitsToShipType: 29990.0
     HiSlotModifier: 7.0
     Hp: 40.0
+    LauncherHardPointModifier: 5.0
     MetaLevel: 1.0
-    PowerOutput: 420.0
-    RequiredSkill1: 30549.0
+    PowerOutput: 150.0
+    RequiredSkill1: 30551.0
     RequiredSkill1Level: 1.0
     SubSystemSlot: 127.0
-    SubsystemBonusCaldariOffensive: 20.0
-    SubsystemBonusCaldariOffensive2: 5.0
-    SubsystemMHTFittingReduction: -25.0
+    SubsystemBonusMinmatarOffensive: 5.0
+    SubsystemBonusMinmatarOffensive2: -10.0
+    SubsystemBonusMinmatarOffensive3: 5.0
+    SubsystemMMissileFittingReduction: -25.0
     TechLevel: 3.0
-    TurretHardPointModifier: 6.0
+    TurretHardPointModifier: 2.0
     WarfareLinkCPUPenalty: 10000.0
-  Legion Offensive - Liquid Crystal Magnifiers:
-    CapacitorCapacity: 100.0
-    CpuOutput: 90.0
-    FitsToShipType: 29986.0
-    HiSlotModifier: 7.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    PowerOutput: 400.0
-    RequiredSkill1: 30537.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 127.0
-    SubsystemBonusAmarrOffensive: 10.0
-    SubsystemBonusAmarrOffensive2: -10.0
-    SubsystemBonusAmarrOffensive3: 10.0
-    SubsystemMETFittingReduction: -25.0
-    TechLevel: 3.0
-    TurretHardPointModifier: 6.0
-    WarfareLinkCPUPenalty: 10000.0
-  Tengu Offensive - Support Processor:
-    CapacitorCapacity: 100.0
+  Loki Offensive - Projectile Scoping Array:
+    CpuOutput: 30.0
     DroneBandwidth: 25.0
-    DroneCapacity: 50.0
-    FitsToShipType: 29984.0
+    DroneCapacity: 25.0
+    FitsToShipType: 29990.0
     HiSlotModifier: 7.0
     Hp: 40.0
-    LauncherHardPointModifier: 4.0
-    MaxLockedTargetsBonus: 1.0
+    LauncherHardPointModifier: 2.0
     MetaLevel: 1.0
-    RemoteShieldBoosterFalloffBonus: 475.0
-    RequiredSkill1: 30549.0
+    PowerOutput: 300.0
+    RequiredSkill1: 30551.0
     RequiredSkill1Level: 1.0
-    RoleBonusCommandBurstAoERange: 50.0
     SubSystemSlot: 127.0
-    SubsystemBonusCaldariOffensive: 2.0
-    SubsystemBonusCaldariOffensive2: -5.0
-    SubsystemBonusCaldariOffensive3: 10.0
-    SubsystemCommandBurstFittingReduction: -95.0
-    SubsystemMRSBFittingReduction: -75.0
+    SubsystemBonusMinmatarOffensive: 10.0
+    SubsystemBonusMinmatarOffensive2: 17.5
+    SubsystemBonusMinmatarOffensive3: 7.5
+    SubsystemMPTFittingReduction: -25.0
     TechLevel: 3.0
+    TurretHardPointModifier: 5.0
+    WarfareLinkCPUPenalty: 10000.0
   Loki Offensive - Support Processor:
     CapacitorCapacity: 100.0
     DroneBandwidth: 25.0
@@ -196,6 +122,25 @@ items:
     SubsystemMRSBFittingReduction: -75.0
     TechLevel: 3.0
     TurretHardPointModifier: 4.0
+  Proteus Offensive - Drone Synthesis Projector:
+    CpuOutput: 40.0
+    DroneBandwidth: 100.0
+    DroneCapacity: 250.0
+    FitsToShipType: 29988.0
+    HiSlotModifier: 6.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    PowerOutput: 130.0
+    RequiredSkill1: 30550.0
+    RequiredSkill1Level: 1.0
+    SubSystemSlot: 127.0
+    SubsystemBonusGallenteOffensive: 10.0
+    SubsystemBonusGallenteOffensive2: 5.0
+    SubsystemBonusGallenteOffensive3: 10.0
+    SubsystemMHTFittingReduction: -25.0
+    TechLevel: 3.0
+    TurretHardPointModifier: 5.0
+    WarfareLinkCPUPenalty: 10000.0
   Proteus Offensive - Hybrid Encoding Platform:
     CapacitorCapacity: 100.0
     CpuOutput: 110.0
@@ -238,3 +183,58 @@ items:
     SubsystemMRARFittingReduction: -75.0
     TechLevel: 3.0
     TurretHardPointModifier: 4.0
+  Tengu Offensive - Accelerated Ejection Bay:
+    CpuOutput: 160.0
+    FitsToShipType: 29984.0
+    HiSlotModifier: 7.0
+    Hp: 40.0
+    LauncherHardPointModifier: 6.0
+    MetaLevel: 1.0
+    PowerOutput: 190.0
+    RequiredSkill1: 30549.0
+    RequiredSkill1Level: 1.0
+    SubSystemSlot: 127.0
+    SubsystemBonusCaldariOffensive: -7.5
+    SubsystemBonusCaldariOffensive2: 5.0
+    SubsystemBonusCaldariOffensive3: 10.0
+    SubsystemMMissileFittingReduction: -25.0
+    TechLevel: 3.0
+    WarfareLinkCPUPenalty: 10000.0
+  Tengu Offensive - Magnetic Infusion Basin:
+    CapacitorCapacity: 100.0
+    CpuOutput: 120.0
+    FitsToShipType: 29984.0
+    HiSlotModifier: 7.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    PowerOutput: 420.0
+    RequiredSkill1: 30549.0
+    RequiredSkill1Level: 1.0
+    SubSystemSlot: 127.0
+    SubsystemBonusCaldariOffensive: 20.0
+    SubsystemBonusCaldariOffensive2: 5.0
+    SubsystemMHTFittingReduction: -25.0
+    TechLevel: 3.0
+    TurretHardPointModifier: 6.0
+    WarfareLinkCPUPenalty: 10000.0
+  Tengu Offensive - Support Processor:
+    CapacitorCapacity: 100.0
+    DroneBandwidth: 25.0
+    DroneCapacity: 50.0
+    FitsToShipType: 29984.0
+    HiSlotModifier: 7.0
+    Hp: 40.0
+    LauncherHardPointModifier: 4.0
+    MaxLockedTargetsBonus: 1.0
+    MetaLevel: 1.0
+    RemoteShieldBoosterFalloffBonus: 475.0
+    RequiredSkill1: 30549.0
+    RequiredSkill1Level: 1.0
+    RoleBonusCommandBurstAoERange: 50.0
+    SubSystemSlot: 127.0
+    SubsystemBonusCaldariOffensive: 2.0
+    SubsystemBonusCaldariOffensive2: -5.0
+    SubsystemBonusCaldariOffensive3: 10.0
+    SubsystemCommandBurstFittingReduction: -95.0
+    SubsystemMRSBFittingReduction: -75.0
+    TechLevel: 3.0

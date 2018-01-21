@@ -1,345 +1,345 @@
 items:
-  Nova Auto-Targeting Light Missile I Blueprint:
+  Ghost Heavy Missile Blueprint:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1.0
+  Inferno Auto-Targeting Cruise Missile I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Inferno Auto-Targeting Heavy Missile I Blueprint:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1.0
+  Inferno Auto-Targeting Light Missile I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1.0
-  Mjolnir Heavy Assault Missile Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
-  Inferno XL Torpedo Blueprint:
-    IndustryBlueprintRank: 4.0
-    TechLevel: 1.0
-  Scourge Rage Torpedo Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Scourge Heavy Assault Missile Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
-  Mjolnir Rage Rocket Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
-  Inferno Precision XL Cruise Missile Blueprint:
-    TechLevel: 2.0
-  Scourge Rage XL Torpedo Blueprint:
-    TechLevel: 2.0
-  Mjolnir Auto-Targeting Heavy Missile I Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
-  Mjolnir Cruise Missile Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Scourge XL Cruise Missile Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Nova XL Cruise Missile Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Scourge XL Torpedo Blueprint:
-    IndustryBlueprintRank: 4.0
-    TechLevel: 1.0
-  Nova Auto-Targeting Cruise Missile I Blueprint:
+  Inferno Cruise Missile Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
   Inferno Fury Cruise Missile Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2.0
-  Scourge Precision XL Cruise Missile Blueprint:
-    TechLevel: 2.0
   Inferno Fury Heavy Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2.0
-  Inferno XL Cruise Missile Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Scourge Fury Light Missile Blueprint:
+  Inferno Fury Light Missile Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2.0
-  Nova Rocket Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  Mjolnir Precision Heavy Missile Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Nova Auto-Targeting Heavy Missile I Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
-  Mjolnir Heavy Missile Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
-  Inferno Rage XL Torpedo Blueprint:
-    TechLevel: 2.0
-  Mjolnir Auto-Targeting Cruise Missile I Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Ghost Heavy Missile Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
-  Nova Rage Rocket Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
-  Standup AS Guided Bomb Blueprint:
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-  Standup ASML-MD Missile Blueprint:
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-  Scourge Precision Heavy Missile Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Scourge Rocket Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  Scourge Heavy Missile Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
   Inferno Fury XL Cruise Missile Blueprint:
     TechLevel: 2.0
-  Mjolnir Fury Cruise Missile Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Inferno Rage Rocket Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
-  Standup AXL-C Missile Blueprint:
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-  Inferno Rage Torpedo Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Scourge Fury Cruise Missile Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Mjolnir Rage XL Torpedo Blueprint:
-    TechLevel: 2.0
-  Nova Fury XL Cruise Missile Blueprint:
-    TechLevel: 2.0
-  Mjolnir Javelin XL Torpedo Blueprint:
-    TechLevel: 2.0
-  Standup AXL-SR Missile Blueprint:
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-  Sansha Wrath Cruise Missile Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Scourge Javelin Rocket Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
-  Nova Precision XL Cruise Missile Blueprint:
-    TechLevel: 2.0
-  Scourge Fury Heavy Missile Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Inferno Torpedo Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Inferno Cruise Missile Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Mjolnir Precision Cruise Missile Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Scourge Javelin XL Torpedo Blueprint:
-    TechLevel: 2.0
-  Mjolnir Javelin Torpedo Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Standup AM Guided Bomb Blueprint:
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-  Mjolnir XL Cruise Missile Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
   Inferno Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1.0
-  Nova Fury Heavy Missile Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Nova Javelin Rocket Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
-  Scourge Rage Heavy Assault Missile Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Nova Precision Light Missile Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
-  Nova Torpedo Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Inferno Precision Cruise Missile Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Scourge Light Missile Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  Mjolnir Rocket Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  Nova XL Torpedo Blueprint:
-    IndustryBlueprintRank: 4.0
-    TechLevel: 1.0
-  Scourge Precision Light Missile Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
-  Inferno Javelin XL Torpedo Blueprint:
-    TechLevel: 2.0
-  Mjolnir Light Missile Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  Mjolnir Rage Torpedo Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Nova Precision Heavy Missile Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Scourge Auto-Targeting Light Missile I Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  Nova Heavy Missile Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
-  Inferno Auto-Targeting Heavy Missile I Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
-  Scourge Fury XL Cruise Missile Blueprint:
-    TechLevel: 2.0
-  Scourge Rage Rocket Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
-  Mjolnir Precision Light Missile Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
-  Scourge Javelin Heavy Assault Missile Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Nova Precision Cruise Missile Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Nova Javelin Torpedo Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Nova Fury Light Missile Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
-  Inferno Precision Heavy Missile Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Nova Javelin XL Torpedo Blueprint:
-    TechLevel: 2.0
-  Nova Rage Heavy Assault Missile Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Standup ASML-SD Missile Blueprint:
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-  Mjolnir Torpedo Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Standup ASML-LD Missile Blueprint:
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-  Mjolnir Precision XL Cruise Missile Blueprint:
-    TechLevel: 2.0
-  Nova Heavy Assault Missile Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
-  Inferno Javelin Rocket Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
   Inferno Heavy Missile Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
-  Scourge Cruise Missile Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Nova Light Missile Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  Mjolnir Fury Heavy Missile Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Mjolnir Auto-Targeting Light Missile I Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  Scourge Javelin Torpedo Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Nova Cruise Missile Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Standup Void Guided Bomb Blueprint:
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-  Mjolnir XL Torpedo Blueprint:
-    IndustryBlueprintRank: 4.0
-    TechLevel: 1.0
-  Nova Fury Cruise Missile Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Nova Rage XL Torpedo Blueprint:
-    TechLevel: 2.0
-  Inferno Auto-Targeting Cruise Missile I Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Inferno Rage Heavy Assault Missile Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Scourge Auto-Targeting Cruise Missile I Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Mjolnir Javelin Heavy Assault Missile Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Inferno Javelin Torpedo Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Inferno Rocket Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
-  Scourge Auto-Targeting Heavy Missile I Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1.0
   Inferno Javelin Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2.0
-  Inferno Auto-Targeting Light Missile I Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
+  Inferno Javelin Rocket Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Inferno Javelin Torpedo Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Inferno Javelin XL Torpedo Blueprint:
+    TechLevel: 2.0
   Inferno Light Missile Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1.0
+  Inferno Precision Cruise Missile Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Inferno Precision Heavy Missile Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
   Inferno Precision Light Missile Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2.0
-  Mjolnir Rage Heavy Assault Missile Blueprint:
+  Inferno Precision XL Cruise Missile Blueprint:
+    TechLevel: 2.0
+  Inferno Rage Heavy Assault Missile Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2.0
-  Scourge Torpedo Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Nova Javelin Heavy Assault Missile Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Sansha Juggernaut Torpedo Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Inferno Fury Light Missile Blueprint:
+  Inferno Rage Rocket Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2.0
-  Scourge Precision Cruise Missile Blueprint:
+  Inferno Rage Torpedo Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2.0
-  Standup AXL-S Missile Blueprint:
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-  Mjolnir Fury Light Missile Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
+  Inferno Rage XL Torpedo Blueprint:
     TechLevel: 2.0
-  Mjolnir Javelin Rocket Blueprint:
+  Inferno Rocket Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Inferno Torpedo Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Inferno XL Cruise Missile Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Inferno XL Torpedo Blueprint:
+    IndustryBlueprintRank: 4.0
+    TechLevel: 1.0
+  Mjolnir Auto-Targeting Cruise Missile I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Mjolnir Auto-Targeting Heavy Missile I Blueprint:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1.0
+  Mjolnir Auto-Targeting Light Missile I Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Mjolnir Cruise Missile Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Mjolnir Fury Cruise Missile Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Mjolnir Fury Heavy Missile Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Mjolnir Fury Light Missile Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2.0
   Mjolnir Fury XL Cruise Missile Blueprint:
     TechLevel: 2.0
+  Mjolnir Heavy Assault Missile Blueprint:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1.0
+  Mjolnir Heavy Missile Blueprint:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1.0
+  Mjolnir Javelin Heavy Assault Missile Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Mjolnir Javelin Rocket Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Mjolnir Javelin Torpedo Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Mjolnir Javelin XL Torpedo Blueprint:
+    TechLevel: 2.0
+  Mjolnir Light Missile Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Mjolnir Precision Cruise Missile Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Mjolnir Precision Heavy Missile Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Mjolnir Precision Light Missile Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Mjolnir Precision XL Cruise Missile Blueprint:
+    TechLevel: 2.0
+  Mjolnir Rage Heavy Assault Missile Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Mjolnir Rage Rocket Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Mjolnir Rage Torpedo Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Mjolnir Rage XL Torpedo Blueprint:
+    TechLevel: 2.0
+  Mjolnir Rocket Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Mjolnir Torpedo Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Mjolnir XL Cruise Missile Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Mjolnir XL Torpedo Blueprint:
+    IndustryBlueprintRank: 4.0
+    TechLevel: 1.0
+  Nova Auto-Targeting Cruise Missile I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Nova Auto-Targeting Heavy Missile I Blueprint:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1.0
+  Nova Auto-Targeting Light Missile I Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Nova Cruise Missile Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Nova Fury Cruise Missile Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Nova Fury Heavy Missile Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Nova Fury Light Missile Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Nova Fury XL Cruise Missile Blueprint:
+    TechLevel: 2.0
+  Nova Heavy Assault Missile Blueprint:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1.0
+  Nova Heavy Missile Blueprint:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1.0
+  Nova Javelin Heavy Assault Missile Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Nova Javelin Rocket Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Nova Javelin Torpedo Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Nova Javelin XL Torpedo Blueprint:
+    TechLevel: 2.0
+  Nova Light Missile Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Nova Precision Cruise Missile Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Nova Precision Heavy Missile Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Nova Precision Light Missile Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Nova Precision XL Cruise Missile Blueprint:
+    TechLevel: 2.0
+  Nova Rage Heavy Assault Missile Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Nova Rage Rocket Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
   Nova Rage Torpedo Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2.0
+  Nova Rage XL Torpedo Blueprint:
+    TechLevel: 2.0
+  Nova Rocket Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Nova Torpedo Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Nova XL Cruise Missile Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Nova XL Torpedo Blueprint:
+    IndustryBlueprintRank: 4.0
+    TechLevel: 1.0
+  Sansha Juggernaut Torpedo Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Sansha Wrath Cruise Missile Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Scourge Auto-Targeting Cruise Missile I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Scourge Auto-Targeting Heavy Missile I Blueprint:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1.0
+  Scourge Auto-Targeting Light Missile I Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Scourge Cruise Missile Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Scourge Fury Cruise Missile Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Scourge Fury Heavy Missile Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Scourge Fury Light Missile Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Scourge Fury XL Cruise Missile Blueprint:
+    TechLevel: 2.0
+  Scourge Heavy Assault Missile Blueprint:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1.0
+  Scourge Heavy Missile Blueprint:
+    IndustryBlueprintRank: 2.0
+    TechLevel: 1.0
+  Scourge Javelin Heavy Assault Missile Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Scourge Javelin Rocket Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Scourge Javelin Torpedo Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Scourge Javelin XL Torpedo Blueprint:
+    TechLevel: 2.0
+  Scourge Light Missile Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Scourge Precision Cruise Missile Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Scourge Precision Heavy Missile Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Scourge Precision Light Missile Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Scourge Precision XL Cruise Missile Blueprint:
+    TechLevel: 2.0
+  Scourge Rage Heavy Assault Missile Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Scourge Rage Rocket Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Scourge Rage Torpedo Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Scourge Rage XL Torpedo Blueprint:
+    TechLevel: 2.0
+  Scourge Rocket Blueprint:
+    IndustryBlueprintRank: 1.0
+    TechLevel: 1.0
+  Scourge Torpedo Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Scourge XL Cruise Missile Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Scourge XL Torpedo Blueprint:
+    IndustryBlueprintRank: 4.0
+    TechLevel: 1.0
+  Standup AM Guided Bomb Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup AS Guided Bomb Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup ASML-LD Missile Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup ASML-MD Missile Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup ASML-SD Missile Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup AXL-C Missile Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup AXL-S Missile Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup AXL-SR Missile Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0
+  Standup Void Guided Bomb Blueprint:
+    StructureItemVisualFlag: 1.0
+    TechLevel: 1.0

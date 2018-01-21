@@ -9,6 +9,20 @@ items:
     SecondaryAttribute: 166.0
     SkillTimeConstant: 3.0
     VirusCoherenceBonus: 10.0
+  Astrometric Acquisition:
+    DurationBonus: -5.0
+    PrimaryAttribute: 165.0
+    RequiredSkill1: 3412.0
+    RequiredSkill1Level: 3.0
+    SecondaryAttribute: 166.0
+    SkillTimeConstant: 5.0
+  Astrometric Pinpointing:
+    MaxScanDeviationModifier: -5.0
+    PrimaryAttribute: 165.0
+    RequiredSkill1: 3412.0
+    RequiredSkill1Level: 4.0
+    SecondaryAttribute: 166.0
+    SkillTimeConstant: 5.0
   Astrometric Rangefinding:
     PrimaryAttribute: 165.0
     RequiredSkill1: 3402.0
@@ -16,13 +30,6 @@ items:
     ScanStrengthBonus: 5.0
     SecondaryAttribute: 166.0
     SkillTimeConstant: 8.0
-  Survey:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanspeedBonus: -5.0
-    SecondaryAttribute: 166.0
-    SkillTimeConstant: 1.0
   Astrometrics:
     DurationBonus: -5.0
     MaxScanDeviationModifier: -5.0
@@ -32,13 +39,6 @@ items:
     ScanStrengthBonus: 5.0
     SecondaryAttribute: 166.0
     SkillTimeConstant: 3.0
-  Astrometric Pinpointing:
-    MaxScanDeviationModifier: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
-    SkillTimeConstant: 5.0
   Hacking:
     AccessDifficultyBonusAbsolutePercent: 1.0
     PrimaryAttribute: 165.0
@@ -49,10 +49,10 @@ items:
     SecondaryAttribute: 166.0
     SkillTimeConstant: 3.0
     VirusCoherenceBonus: 10.0
-  Astrometric Acquisition:
-    DurationBonus: -5.0
+  Survey:
     PrimaryAttribute: 165.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 3.0
+    RequiredSkill1: 3426.0
+    RequiredSkill1Level: 1.0
+    ScanspeedBonus: -5.0
     SecondaryAttribute: 166.0
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 1.0

@@ -1,12 +1,4 @@
 items:
-  Interdiction Maneuvers Charge:
-    LauncherGroup: 1770.0
-    RequiredSkill1: 3349.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3348.0
-    RequiredSkill2Level: 1.0
-    WarfareBuff1ID: 21.0
-    WarfareBuff1Multiplier: 12.0
   Evasive Maneuvers Charge:
     LauncherGroup: 1770.0
     RequiredSkill1: 3349.0
@@ -17,6 +9,14 @@ items:
     WarfareBuff1Multiplier: -6.0
     WarfareBuff2ID: 60.0
     WarfareBuff2Multiplier: -6.0
+  Interdiction Maneuvers Charge:
+    LauncherGroup: 1770.0
+    RequiredSkill1: 3349.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3348.0
+    RequiredSkill2Level: 1.0
+    WarfareBuff1ID: 21.0
+    WarfareBuff1Multiplier: 12.0
   Rapid Deployment Charge:
     LauncherGroup: 1770.0
     RequiredSkill1: 3349.0

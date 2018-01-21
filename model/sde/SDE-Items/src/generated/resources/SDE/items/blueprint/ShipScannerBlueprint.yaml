@@ -1,7 +1,7 @@
 items:
-  Ship Scanner II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
   Ship Scanner I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1.0
+  Ship Scanner II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0

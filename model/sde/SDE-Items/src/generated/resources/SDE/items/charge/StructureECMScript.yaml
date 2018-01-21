@@ -1,4 +1,20 @@
 items:
+  Standup Gravimetric ECM Script:
+    ChargeSize: 1.0
+    LauncherGroup: 1332.0
+    ScanGravimetricStrengthBonusBonus: 100.0
+    ScanLadarStrengthBonusBonus: -50.0
+    ScanMagnetometricStrengthBonusBonus: -50.0
+    ScanRadarStrengthBonusBonus: -50.0
+    StructureItemVisualFlag: 1.0
+  Standup Ladar ECM Script:
+    ChargeSize: 1.0
+    LauncherGroup: 1332.0
+    ScanGravimetricStrengthBonusBonus: -50.0
+    ScanLadarStrengthBonusBonus: 100.0
+    ScanMagnetometricStrengthBonusBonus: -50.0
+    ScanRadarStrengthBonusBonus: -50.0
+    StructureItemVisualFlag: 1.0
   Standup Magnetometric ECM Script:
     ChargeSize: 1.0
     LauncherGroup: 1332.0
@@ -14,20 +30,4 @@ items:
     ScanLadarStrengthBonusBonus: -50.0
     ScanMagnetometricStrengthBonusBonus: -50.0
     ScanRadarStrengthBonusBonus: 100.0
-    StructureItemVisualFlag: 1.0
-  Standup Ladar ECM Script:
-    ChargeSize: 1.0
-    LauncherGroup: 1332.0
-    ScanGravimetricStrengthBonusBonus: -50.0
-    ScanLadarStrengthBonusBonus: 100.0
-    ScanMagnetometricStrengthBonusBonus: -50.0
-    ScanRadarStrengthBonusBonus: -50.0
-    StructureItemVisualFlag: 1.0
-  Standup Gravimetric ECM Script:
-    ChargeSize: 1.0
-    LauncherGroup: 1332.0
-    ScanGravimetricStrengthBonusBonus: 100.0
-    ScanLadarStrengthBonusBonus: -50.0
-    ScanMagnetometricStrengthBonusBonus: -50.0
-    ScanRadarStrengthBonusBonus: -50.0
     StructureItemVisualFlag: 1.0

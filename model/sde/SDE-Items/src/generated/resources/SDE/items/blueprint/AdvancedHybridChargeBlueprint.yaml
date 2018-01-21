@@ -1,63 +1,63 @@
 items:
-  Spike L Blueprint:
+  Bolt L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2.0
-  Null S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
+  Bolt M Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2.0
-  Javelin S Blueprint:
+  Bolt S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2.0
   Desolation L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2.0
-  Spike XL Blueprint:
-    TechLevel: 2.0
-  Bolt M Blueprint:
+  Desolation M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Null L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Null XL Blueprint:
-    TechLevel: 2.0
-  Spike S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2.0
   Desolation S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2.0
-  Desolation M Blueprint:
+  Javelin L Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Javelin M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2.0
+  Javelin S Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Javelin XL Blueprint:
+    TechLevel: 2.0
+  Null L Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Null M Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Null S Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Null XL Blueprint:
+    TechLevel: 2.0
+  Spike L Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
   Spike M Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Spike S Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Spike XL Blueprint:
+    TechLevel: 2.0
+  Void L Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Void M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2.0
   Void S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2.0
-  Null M Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Void L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Javelin XL Blueprint:
-    TechLevel: 2.0
-  Bolt S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
-  Void M Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Javelin L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
   Void XL Blueprint:
-    TechLevel: 2.0
-  Javelin M Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Bolt L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2.0

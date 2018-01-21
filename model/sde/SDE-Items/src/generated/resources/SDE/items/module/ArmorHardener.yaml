@@ -1,1094 +1,4 @@
 items:
-  Imperial Navy Armor Thermal Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -55.0
-  Brokara's Modified Armor EM Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Core B-Type Armor Thermal Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -59.5
-  Republic Fleet Armor EM Hardener:
-    CapacitorNeed: 10.0
-    Cpu: 33.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Tairei's Modified Armor EM Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  True Sansha Armor Kinetic Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -55.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Experimental Armor EM Hardener I:
-    CapacitorNeed: 26.0
-    Cpu: 28.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Federation Navy Armor Thermal Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -55.0
-  Centus A-Type Armor Kinetic Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -61.75
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Setele's Modified Armor Thermal Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -61.75
-  True Sansha Armor Explosive Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Chelm's Modified Armor EM Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -64.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Corpus B-Type Armor EM Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -59.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Dark Blood Armor Kinetic Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -55.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Ammatar Navy Armor EM Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Core C-Type Armor EM Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Ahremen's Modified Armor Kinetic Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -61.75
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Brynn's Modified Armor Kinetic Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -57.25
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Vizan's Modified Armor Thermal Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -61.75
-  Core B-Type Armor Explosive Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -59.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Corpus X-Type Armor EM Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -64.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Brynn's Modified Armor EM Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  CONCORD Armor Explosive Hardener:
-    CapacitorNeed: 10.0
-    Cpu: 33.0
-    Duration: 23000.0
-    ExplosiveDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 7.599999904632568
-    Hp: 40.0
-    MetaLevel: 8.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Core C-Type Armor Kinetic Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -57.25
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Vizan's Modified Armor Explosive Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -61.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Cormack's Modified Armor EM Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -64.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Centus B-Type Armor EM Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -59.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Selynne's Modified Armor Thermal Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -59.5
-  Prototype Armor Explosive Hardener I:
-    CapacitorNeed: 24.0
-    Cpu: 26.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Khanid Navy Armor EM Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Tairei's Modified Armor Explosive Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Imperial Navy Armor EM Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Corpus X-Type Armor Thermal Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -64.0
-  Armor Explosive Hardener II:
-    CapacitorNeed: 30.0
-    Cpu: 36.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 5.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
-  Tairei's Modified Armor Kinetic Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -57.25
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Corpus B-Type Armor Thermal Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -59.5
-  Centus X-Type Armor EM Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -64.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Draclira's Modified Armor EM Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -64.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Shadow Serpentis Armor EM Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Corpus C-Type Armor EM Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Armor EM Hardener I:
-    CapacitorNeed: 30.0
-    Cpu: 33.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Corpus C-Type Armor Kinetic Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -57.25
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Armor Thermal Hardener II:
-    CapacitorNeed: 30.0
-    Cpu: 36.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 5.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
-    ThermalDamageResistanceBonus: -55.0
-  Core B-Type Armor EM Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -59.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Domination Armor Thermal Hardener:
-    CapacitorNeed: 10.0
-    Cpu: 33.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -50.0
-  Centus C-Type Armor EM Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Core X-Type Armor Thermal Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -64.0
-  Centus C-Type Armor Explosive Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Khanid Navy Armor Explosive Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Domination Armor EM Hardener:
-    CapacitorNeed: 10.0
-    Cpu: 33.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Federation Navy Armor Explosive Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Selynne's Modified Armor EM Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -59.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  CONCORD Armor Thermal Hardener:
-    CapacitorNeed: 10.0
-    Cpu: 33.0
-    Duration: 23000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 7.599999904632568
-    Hp: 40.0
-    MetaLevel: 8.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -50.0
-  Corpus B-Type Armor Explosive Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -59.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Republic Fleet Armor Kinetic Hardener:
-    CapacitorNeed: 10.0
-    Cpu: 33.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -50.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Armor Thermal Hardener I:
-    CapacitorNeed: 30.0
-    Cpu: 33.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -50.0
-  Armor Kinetic Hardener II:
-    CapacitorNeed: 30.0
-    Cpu: 36.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -55.0
-    MetaLevel: 5.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 5.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
-  Brokara's Modified Armor Thermal Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -57.25
-  Core C-Type Armor Thermal Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -57.25
-  Vizan's Modified Armor EM Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -61.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Chelm's Modified Armor Kinetic Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -64.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Tairei's Modified Armor Thermal Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -57.25
-  Centus B-Type Armor Kinetic Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -59.5
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Armor Kinetic Hardener I:
-    CapacitorNeed: 30.0
-    Cpu: 33.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -50.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Experimental Armor Explosive Hardener I:
-    CapacitorNeed: 26.0
-    Cpu: 28.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Brynn's Modified Armor Thermal Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -57.25
-  Centus B-Type Armor Explosive Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -59.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Tuvan's Modified Armor Thermal Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -59.5
-  Shadow Serpentis Armor Explosive Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
   Ahremen's Modified Armor EM Hardener:
     CapacitorNeed: 42.0
     Cpu: 21.0
@@ -1098,130 +8,6 @@ items:
     HeatDamage: 6.599999904632568
     Hp: 40.0
     MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Raysere's Modified Armor EM Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -59.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Brynn's Modified Armor Explosive Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  CONCORD Armor EM Hardener:
-    CapacitorNeed: 10.0
-    Cpu: 33.0
-    Duration: 23000.0
-    EmDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 7.599999904632568
-    Hp: 40.0
-    MetaLevel: 8.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Prototype Armor Thermal Hardener I:
-    CapacitorNeed: 24.0
-    Cpu: 26.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -50.0
-  Corpus C-Type Armor Explosive Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -57.25
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Prototype Armor EM Hardener I:
-    CapacitorNeed: 24.0
-    Cpu: 26.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Experimental Armor Kinetic Hardener I:
-    CapacitorNeed: 26.0
-    Cpu: 28.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -50.0
-    MetaLevel: 3.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Centus A-Type Armor EM Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -61.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
     MetaLevel: 13.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
@@ -1245,55 +31,39 @@ items:
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Shadow Serpentis Armor Thermal Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
+  Ahremen's Modified Armor Kinetic Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -55.0
-  Draclira's Modified Armor Kinetic Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -64.0
+    KineticDamageResistanceBonus: -61.75
     MetaGroupID: 5.0
-    MetaLevel: 14.0
+    MetaLevel: 13.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Selynne's Modified Armor Explosive Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
+  Ahremen's Modified Armor Thermal Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -59.5
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
     MetaGroupID: 5.0
-    MetaLevel: 12.0
+    MetaLevel: 13.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Dark Blood Armor EM Hardener:
+    ThermalDamageResistanceBonus: -61.75
+  Ammatar Navy Armor EM Hardener:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
@@ -1309,23 +79,7 @@ items:
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Corpus C-Type Armor Thermal Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -57.25
-  Dark Blood Armor Explosive Hardener:
+  Ammatar Navy Armor Explosive Hardener:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
@@ -1341,37 +95,7 @@ items:
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Prototype Armor Kinetic Hardener I:
-    CapacitorNeed: 24.0
-    Cpu: 26.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -50.0
-    MetaLevel: 4.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Experimental Armor Thermal Hardener I:
-    CapacitorNeed: 26.0
-    Cpu: 28.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -50.0
-  Khanid Navy Armor Kinetic Hardener:
+  Ammatar Navy Armor Kinetic Hardener:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
@@ -1387,126 +111,148 @@ items:
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Cormack's Modified Armor Thermal Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
+  Ammatar Navy Armor Thermal Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-    ThermalDamageResistanceBonus: -64.0
-  Chelm's Modified Armor Thermal Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -64.0
-  Centus B-Type Armor Thermal Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -59.5
-  Upgraded Armor Explosive Hardener I:
-    CapacitorNeed: 29.0
-    Cpu: 31.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Centus X-Type Armor Explosive Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -64.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Limited Armor EM Hardener I:
-    CapacitorNeed: 27.0
-    Cpu: 30.0
+    ThermalDamageResistanceBonus: -55.0
+  Armor EM Hardener I:
+    CapacitorNeed: 30.0
+    Cpu: 33.0
     Duration: 20000.0
     EmDamageResistanceBonus: -50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MetaLevel: 2.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Domination Armor Explosive Hardener:
-    CapacitorNeed: 10.0
+  Armor EM Hardener II:
+    CapacitorNeed: 30.0
+    Cpu: 36.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaLevel: 5.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 5.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 2.0
+  Armor Explosive Hardener I:
+    CapacitorNeed: 30.0
     Cpu: 33.0
     Duration: 20000.0
     ExplosiveDamageResistanceBonus: -50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Centus A-Type Armor Explosive Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
+  Armor Explosive Hardener II:
+    CapacitorNeed: 30.0
+    Cpu: 36.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -61.75
+    ExplosiveDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaLevel: 5.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 5.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 2.0
+  Armor Kinetic Hardener I:
+    CapacitorNeed: 30.0
+    Cpu: 33.0
+    Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
+    KineticDamageResistanceBonus: -50.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Armor Kinetic Hardener II:
+    CapacitorNeed: 30.0
+    Cpu: 36.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -55.0
+    MetaLevel: 5.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 5.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 2.0
+  Armor Thermal Hardener I:
+    CapacitorNeed: 30.0
+    Cpu: 33.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -50.0
+  Armor Thermal Hardener II:
+    CapacitorNeed: 30.0
+    Cpu: 36.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaLevel: 5.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 5.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 2.0
+    ThermalDamageResistanceBonus: -55.0
+  Brokara's Modified Armor EM Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
@@ -1529,52 +275,6 @@ items:
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Corpus A-Type Armor Kinetic Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -61.75
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Centus X-Type Armor Kinetic Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -64.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Armor Explosive Hardener I:
-    CapacitorNeed: 30.0
-    Cpu: 33.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
   Brokara's Modified Armor Kinetic Hardener:
     CapacitorNeed: 34.0
     Cpu: 18.0
@@ -1591,16 +291,110 @@ items:
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Cormack's Modified Armor Explosive Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
+  Brokara's Modified Armor Thermal Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -64.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
     MetaGroupID: 5.0
-    MetaLevel: 14.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -57.25
+  Brynn's Modified Armor EM Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Brynn's Modified Armor Explosive Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Brynn's Modified Armor Kinetic Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -57.25
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Brynn's Modified Armor Thermal Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -57.25
+  CONCORD Armor EM Hardener:
+    CapacitorNeed: 10.0
+    Cpu: 33.0
+    Duration: 23000.0
+    EmDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 7.599999904632568
+    Hp: 40.0
+    MetaLevel: 8.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  CONCORD Armor Explosive Hardener:
+    CapacitorNeed: 10.0
+    Cpu: 33.0
+    Duration: 23000.0
+    ExplosiveDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 7.599999904632568
+    Hp: 40.0
+    MetaLevel: 8.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
@@ -1622,126 +416,13 @@ items:
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Vizan's Modified Armor Kinetic Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -61.75
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Setele's Modified Armor EM Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -61.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Dark Blood Armor Thermal Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -55.0
-  Ammatar Navy Armor Thermal Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -55.0
-  Raysere's Modified Armor Kinetic Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -59.5
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Tuvan's Modified Armor Explosive Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -59.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Setele's Modified Armor Explosive Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -61.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Republic Fleet Armor Thermal Hardener:
+  CONCORD Armor Thermal Hardener:
     CapacitorNeed: 10.0
     Cpu: 33.0
-    Duration: 20000.0
+    Duration: 23000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
+    HeatDamage: 7.599999904632568
     Hp: 40.0
-    MetaGroupID: 4.0
     MetaLevel: 8.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
@@ -1750,79 +431,48 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -50.0
-  Centus C-Type Armor Kinetic Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
+  Centus A-Type Armor EM Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
     Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -57.25
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Core X-Type Armor Explosive Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -64.0
+    EmDamageResistanceBonus: -61.75
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
     MetaGroupID: 6.0
-    MetaLevel: 14.0
+    MetaLevel: 13.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Limited Armor Thermal Hardener I:
-    CapacitorNeed: 27.0
-    Cpu: 30.0
+  Centus A-Type Armor Explosive Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
     Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -50.0
-  Tuvan's Modified Armor Kinetic Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -59.5
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Core C-Type Armor Explosive Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -57.25
+    ExplosiveDamageResistanceBonus: -61.75
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
     MetaGroupID: 6.0
-    MetaLevel: 11.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Centus A-Type Armor Kinetic Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -61.75
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
@@ -1845,6 +495,1014 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -61.75
+  Centus B-Type Armor EM Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -59.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Centus B-Type Armor Explosive Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -59.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Centus B-Type Armor Kinetic Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -59.5
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Centus B-Type Armor Thermal Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -59.5
+  Centus C-Type Armor EM Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Centus C-Type Armor Explosive Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Centus C-Type Armor Kinetic Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -57.25
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Centus C-Type Armor Thermal Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -57.25
+  Centus X-Type Armor EM Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -64.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Centus X-Type Armor Explosive Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -64.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Centus X-Type Armor Kinetic Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -64.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Centus X-Type Armor Thermal Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -64.0
+  Chelm's Modified Armor EM Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -64.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Chelm's Modified Armor Explosive Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -64.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Chelm's Modified Armor Kinetic Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -64.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Chelm's Modified Armor Thermal Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -64.0
+  Core A-Type Armor EM Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -61.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Core A-Type Armor Explosive Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -61.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Core A-Type Armor Kinetic Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -61.75
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Core A-Type Armor Thermal Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -61.75
+  Core B-Type Armor EM Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -59.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Core B-Type Armor Explosive Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -59.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Core B-Type Armor Kinetic Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -59.5
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Core B-Type Armor Thermal Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -59.5
+  Core C-Type Armor EM Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Core C-Type Armor Explosive Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Core C-Type Armor Kinetic Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -57.25
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Core C-Type Armor Thermal Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -57.25
+  Core X-Type Armor EM Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -64.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Core X-Type Armor Explosive Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -64.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Core X-Type Armor Kinetic Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -64.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Core X-Type Armor Thermal Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -64.0
+  Cormack's Modified Armor EM Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -64.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Cormack's Modified Armor Explosive Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -64.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Cormack's Modified Armor Kinetic Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -64.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Cormack's Modified Armor Thermal Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -64.0
+  Corpus A-Type Armor EM Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -61.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Corpus A-Type Armor Explosive Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -61.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Corpus A-Type Armor Kinetic Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -61.75
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Corpus A-Type Armor Thermal Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -61.75
+  Corpus B-Type Armor EM Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -59.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Corpus B-Type Armor Explosive Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -59.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Corpus B-Type Armor Kinetic Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -59.5
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Corpus B-Type Armor Thermal Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -59.5
+  Corpus C-Type Armor EM Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Corpus C-Type Armor Explosive Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Corpus C-Type Armor Kinetic Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -57.25
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Corpus C-Type Armor Thermal Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -57.25
+  Corpus X-Type Armor EM Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -64.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Corpus X-Type Armor Explosive Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -64.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Corpus X-Type Armor Kinetic Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -64.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Corpus X-Type Armor Thermal Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -64.0
+  Dark Blood Armor EM Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Dark Blood Armor Explosive Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Dark Blood Armor Kinetic Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -55.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Dark Blood Armor Thermal Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -55.0
+  Domination Armor EM Hardener:
+    CapacitorNeed: 10.0
+    Cpu: 33.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Domination Armor Explosive Hardener:
+    CapacitorNeed: 10.0
+    Cpu: 33.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Domination Armor Kinetic Hardener:
+    CapacitorNeed: 10.0
+    Cpu: 33.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -50.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Domination Armor Thermal Hardener:
+    CapacitorNeed: 10.0
+    Cpu: 33.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -50.0
+  Draclira's Modified Armor EM Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -64.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Draclira's Modified Armor Explosive Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -64.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Draclira's Modified Armor Kinetic Hardener:
+    CapacitorNeed: 46.0
+    Cpu: 23.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -64.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
   Draclira's Modified Armor Thermal Hardener:
     CapacitorNeed: 46.0
     Cpu: 23.0
@@ -1861,7 +1519,115 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -64.0
-  True Sansha Armor Thermal Hardener:
+  Experimental Armor EM Hardener I:
+    CapacitorNeed: 26.0
+    Cpu: 28.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaLevel: 3.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Experimental Armor Explosive Hardener I:
+    CapacitorNeed: 26.0
+    Cpu: 28.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaLevel: 3.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Experimental Armor Kinetic Hardener I:
+    CapacitorNeed: 26.0
+    Cpu: 28.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -50.0
+    MetaLevel: 3.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Experimental Armor Thermal Hardener I:
+    CapacitorNeed: 26.0
+    Cpu: 28.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaLevel: 3.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -50.0
+  Federation Navy Armor EM Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Federation Navy Armor Explosive Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Federation Navy Armor Kinetic Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -55.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Federation Navy Armor Thermal Hardener:
     CapacitorNeed: 30.0
     Cpu: 16.0
     Duration: 20000.0
@@ -1877,6 +1643,149 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -55.0
+  Imperial Navy Armor EM Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Imperial Navy Armor Explosive Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Imperial Navy Armor Kinetic Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -55.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Imperial Navy Armor Thermal Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -55.0
+  Khanid Navy Armor EM Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Khanid Navy Armor Explosive Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Khanid Navy Armor Kinetic Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -55.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Khanid Navy Armor Thermal Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -55.0
+  Limited Armor EM Hardener I:
+    CapacitorNeed: 27.0
+    Cpu: 30.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaLevel: 2.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
   Limited Armor Explosive Hardener I:
     CapacitorNeed: 27.0
     Cpu: 30.0
@@ -1907,94 +1816,89 @@ items:
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Core A-Type Armor Kinetic Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
+  Limited Armor Thermal Hardener I:
+    CapacitorNeed: 27.0
+    Cpu: 30.0
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    KineticDamageResistanceBonus: -61.75
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
+    MetaLevel: 2.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Core A-Type Armor Explosive Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
+    ThermalDamageResistanceBonus: -50.0
+  Prototype Armor EM Hardener I:
+    CapacitorNeed: 24.0
+    Cpu: 26.0
     Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -61.75
+    EmDamageResistanceBonus: -50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
+    MetaLevel: 4.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Federation Navy Armor EM Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
+  Prototype Armor Explosive Hardener I:
+    CapacitorNeed: 24.0
+    Cpu: 26.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
+    ExplosiveDamageResistanceBonus: -50.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
+    MetaLevel: 4.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Core X-Type Armor EM Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
+  Prototype Armor Kinetic Hardener I:
+    CapacitorNeed: 24.0
+    Cpu: 26.0
     Duration: 20000.0
-    EmDamageResistanceBonus: -64.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
+    KineticDamageResistanceBonus: -50.0
+    MetaLevel: 4.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Shadow Serpentis Armor Kinetic Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
+  Prototype Armor Thermal Hardener I:
+    CapacitorNeed: 24.0
+    Cpu: 26.0
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    KineticDamageResistanceBonus: -55.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
+    MetaLevel: 4.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Selynne's Modified Armor Kinetic Hardener:
+    ThermalDamageResistanceBonus: -50.0
+  Raysere's Modified Armor EM Hardener:
     CapacitorNeed: 38.0
     Cpu: 20.0
     Duration: 20000.0
+    EmDamageResistanceBonus: -59.5
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    KineticDamageResistanceBonus: -59.5
     MetaGroupID: 5.0
     MetaLevel: 12.0
     OverloadHardeningBonus: 20.0
@@ -2019,23 +1923,7 @@ items:
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
-  Centus X-Type Armor Thermal Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -64.0
-  Core B-Type Armor Kinetic Hardener:
+  Raysere's Modified Armor Kinetic Hardener:
     CapacitorNeed: 38.0
     Cpu: 20.0
     Duration: 20000.0
@@ -2043,468 +1931,8 @@ items:
     HeatDamage: 6.599999904632568
     Hp: 40.0
     KineticDamageResistanceBonus: -59.5
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Armor EM Hardener II:
-    CapacitorNeed: 30.0
-    Cpu: 36.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 5.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
-  Imperial Navy Armor Kinetic Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -55.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Cormack's Modified Armor Kinetic Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -64.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Corpus X-Type Armor Explosive Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -64.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Republic Fleet Armor Explosive Hardener:
-    CapacitorNeed: 10.0
-    Cpu: 33.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Centus C-Type Armor Thermal Hardener:
-    CapacitorNeed: 34.0
-    Cpu: 18.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -57.25
-  Khanid Navy Armor Thermal Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -55.0
-  Core A-Type Armor EM Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -61.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Ahremen's Modified Armor Thermal Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -61.75
-  Imperial Navy Armor Explosive Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Corpus A-Type Armor Thermal Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -61.75
-  Corpus B-Type Armor Kinetic Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -59.5
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Corpus A-Type Armor Explosive Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -61.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Tuvan's Modified Armor EM Hardener:
-    CapacitorNeed: 38.0
-    Cpu: 20.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -59.5
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
     MetaGroupID: 5.0
     MetaLevel: 12.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Upgraded Armor Kinetic Hardener I:
-    CapacitorNeed: 29.0
-    Cpu: 31.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -50.0
-    MetaLevel: 1.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Ammatar Navy Armor Kinetic Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -55.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  True Sansha Armor EM Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Domination Armor Kinetic Hardener:
-    CapacitorNeed: 10.0
-    Cpu: 33.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -50.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Setele's Modified Armor Kinetic Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -61.75
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Corpus X-Type Armor Kinetic Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -64.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Draclira's Modified Armor Explosive Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -64.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Core A-Type Armor Thermal Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -61.75
-  Upgraded Armor EM Hardener I:
-    CapacitorNeed: 29.0
-    Cpu: 31.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -50.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Upgraded Armor Thermal Hardener I:
-    CapacitorNeed: 29.0
-    Cpu: 31.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonus: -50.0
-  Ammatar Navy Armor Explosive Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -55.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Core X-Type Armor Kinetic Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -64.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Corpus A-Type Armor EM Hardener:
-    CapacitorNeed: 42.0
-    Cpu: 21.0
-    Duration: 20000.0
-    EmDamageResistanceBonus: -61.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Federation Navy Armor Kinetic Hardener:
-    CapacitorNeed: 30.0
-    Cpu: 16.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    KineticDamageResistanceBonus: -55.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadHardeningBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-  Chelm's Modified Armor Explosive Hardener:
-    CapacitorNeed: 46.0
-    Cpu: 23.0
-    Duration: 20000.0
-    ExplosiveDamageResistanceBonus: -64.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
     OverloadHardeningBonus: 20.0
     Power: 1.0
     RequiredSkill1: 3394.0
@@ -2527,3 +1955,575 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
     ThermalDamageResistanceBonus: -59.5
+  Republic Fleet Armor EM Hardener:
+    CapacitorNeed: 10.0
+    Cpu: 33.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Republic Fleet Armor Explosive Hardener:
+    CapacitorNeed: 10.0
+    Cpu: 33.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Republic Fleet Armor Kinetic Hardener:
+    CapacitorNeed: 10.0
+    Cpu: 33.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -50.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Republic Fleet Armor Thermal Hardener:
+    CapacitorNeed: 10.0
+    Cpu: 33.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -50.0
+  Selynne's Modified Armor EM Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -59.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Selynne's Modified Armor Explosive Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -59.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Selynne's Modified Armor Kinetic Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -59.5
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Selynne's Modified Armor Thermal Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -59.5
+  Setele's Modified Armor EM Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -61.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Setele's Modified Armor Explosive Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -61.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Setele's Modified Armor Kinetic Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -61.75
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Setele's Modified Armor Thermal Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -61.75
+  Shadow Serpentis Armor EM Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Shadow Serpentis Armor Explosive Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Shadow Serpentis Armor Kinetic Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -55.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Shadow Serpentis Armor Thermal Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -55.0
+  Tairei's Modified Armor EM Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Tairei's Modified Armor Explosive Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -57.25
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Tairei's Modified Armor Kinetic Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -57.25
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Tairei's Modified Armor Thermal Hardener:
+    CapacitorNeed: 34.0
+    Cpu: 18.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -57.25
+  True Sansha Armor EM Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  True Sansha Armor Explosive Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -55.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  True Sansha Armor Kinetic Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -55.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  True Sansha Armor Thermal Hardener:
+    CapacitorNeed: 30.0
+    Cpu: 16.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -55.0
+  Tuvan's Modified Armor EM Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -59.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Tuvan's Modified Armor Explosive Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -59.5
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Tuvan's Modified Armor Kinetic Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -59.5
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Tuvan's Modified Armor Thermal Hardener:
+    CapacitorNeed: 38.0
+    Cpu: 20.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -59.5
+  Upgraded Armor EM Hardener I:
+    CapacitorNeed: 29.0
+    Cpu: 31.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaLevel: 1.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Upgraded Armor Explosive Hardener I:
+    CapacitorNeed: 29.0
+    Cpu: 31.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -50.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaLevel: 1.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Upgraded Armor Kinetic Hardener I:
+    CapacitorNeed: 29.0
+    Cpu: 31.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -50.0
+    MetaLevel: 1.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Upgraded Armor Thermal Hardener I:
+    CapacitorNeed: 29.0
+    Cpu: 31.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaLevel: 1.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -50.0
+  Vizan's Modified Armor EM Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    EmDamageResistanceBonus: -61.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Vizan's Modified Armor Explosive Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    ExplosiveDamageResistanceBonus: -61.75
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Vizan's Modified Armor Kinetic Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    KineticDamageResistanceBonus: -61.75
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+  Vizan's Modified Armor Thermal Hardener:
+    CapacitorNeed: 42.0
+    Cpu: 21.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    OverloadHardeningBonus: 20.0
+    Power: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonus: -61.75
