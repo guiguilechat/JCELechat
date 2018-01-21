@@ -36,6 +36,7 @@ import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
+import fr.guiguilechat.eveonline.model.sde.translate.ItemsTranslater;
 
 /** Compile the sde tables into java classes */
 public class SDECompiler {
@@ -59,7 +60,7 @@ public class SDECompiler {
 	protected JCodeModel cm;
 
 	protected JPackage rootPackage() {
-		return cm._package("fr.guiguilechat.eveonline.model.sde.compiled");
+		return cm._package("fr.guiguilechat.eveonline.model.sde.items");
 	}
 
 	protected JPackage annotationsPackage() {
@@ -67,7 +68,7 @@ public class SDECompiler {
 	}
 
 	protected JPackage itemPackage() {
-		return rootPackage().subPackage("items");
+		return rootPackage().subPackage("types");
 	}
 
 	LinkedHashMap<Integer, EcategoryIDs> catids;
@@ -105,7 +106,7 @@ public class SDECompiler {
 		Stream<Runnable> r = Stream.of(this::loadAttributes, this::loadAttTypes, this::loadCatIDs, this::loadgroupIDs,
 				this::loadTypeIDs);
 		r.parallel().forEach(Runnable::run);
-		logger.info("loaded in " + (System.currentTimeMillis() - beginTime) / 1000 + "s");
+		logger.info("preloaded tables in " + (System.currentTimeMillis() - beginTime) / 1000 + "s");
 	}
 
 	public static class CompiledClassesData {
@@ -177,7 +178,7 @@ public class SDECompiler {
 
 		JDefinedClass typeClass;
 		try {
-			typeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "EveItem");
+			typeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "Item");
 			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getCategoryId");
 			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.ref(Class.class).narrow(cm.wildcard()), "getCategory");
 			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getGroupId");
@@ -353,11 +354,11 @@ public class SDECompiler {
 	 *          Typically, src/generated/java src/generated/resources/SDE SDE/
 	 * @throws IOException
 	 */
-	public static void main(String[] args) throws IOException {
+	public static void main(String... args) throws IOException {
 		File target = new File(args[0]);
 		target.mkdirs();
 		CompiledClassesData data = new SDECompiler().compile();
-		new SDETranslater().translate(data, new File(args[1]), args[2]);
+		new ItemsTranslater().translate(data, new File(args[1]), args[2]);
 		data.model.build(target, (PrintStream) null);
 	}
 
