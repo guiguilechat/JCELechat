@@ -1,97 +1,97 @@
 items:
   Chromite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45501.0
-    ReprocessingSkillType: 46154.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45501
+    ReprocessingSkillType: 46154
+    RequiredSkill1: 3386
   Lavish Chromite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45501.0
-    ReprocessingSkillType: 46154.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45501
+    ReprocessingSkillType: 46154
+    RequiredSkill1: 3386
   Lavish Otavite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45498.0
-    ReprocessingSkillType: 46154.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45498
+    ReprocessingSkillType: 46154
+    RequiredSkill1: 3386
   Lavish Sperrylite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45499.0
-    ReprocessingSkillType: 46154.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45499
+    ReprocessingSkillType: 46154
+    RequiredSkill1: 3386
   Lavish Vanadinite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45500.0
-    ReprocessingSkillType: 46154.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45500
+    ReprocessingSkillType: 46154
+    RequiredSkill1: 3386
   Otavite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45498.0
-    ReprocessingSkillType: 46154.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45498
+    ReprocessingSkillType: 46154
+    RequiredSkill1: 3386
   Shimmering Chromite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 5.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45501.0
-    ReprocessingSkillType: 46154.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45501
+    ReprocessingSkillType: 46154
+    RequiredSkill1: 3386
   Shimmering Otavite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 5.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45498.0
-    ReprocessingSkillType: 46154.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45498
+    ReprocessingSkillType: 46154
+    RequiredSkill1: 3386
   Shimmering Sperrylite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 5.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45499.0
-    ReprocessingSkillType: 46154.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45499
+    ReprocessingSkillType: 46154
+    RequiredSkill1: 3386
   Shimmering Vanadinite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 5.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45500.0
-    ReprocessingSkillType: 46154.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45500
+    ReprocessingSkillType: 46154
+    RequiredSkill1: 3386
   Sperrylite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45499.0
-    ReprocessingSkillType: 46154.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45499
+    ReprocessingSkillType: 46154
+    RequiredSkill1: 3386
   Vanadinite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45500.0
-    ReprocessingSkillType: 46154.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45500
+    ReprocessingSkillType: 46154
+    RequiredSkill1: 3386

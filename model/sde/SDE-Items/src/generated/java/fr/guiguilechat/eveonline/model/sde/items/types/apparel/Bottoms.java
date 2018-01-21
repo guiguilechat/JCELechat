@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.apparel;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Apparel;
@@ -19,16 +19,16 @@ public class Bottoms
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ClothingRemovesCategory;
+    @DefaultIntValue(0)
+    public int ClothingRemovesCategory;
     /**
      * This item of clothing covers multiple areas of the body, so the category of clothes specified by this attribute is no longer mandatory
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ClothingAlsoCoversCategory;
+    @DefaultIntValue(0)
+    public int ClothingAlsoCoversCategory;
     public final static String RESOURCE_PATH = "SDE/items/apparel/Bottoms.yaml";
     private static LinkedHashMap<String, Bottoms> cache = (null);
 

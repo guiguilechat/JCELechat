@@ -1,48 +1,48 @@
 items:
   Anchoring:
-    PrimaryAttribute: 166.0
-    SecondaryAttribute: 164.0
+    PrimaryAttribute: 166
+    SecondaryAttribute: 164
     SkillTimeConstant: 3.0
   Starbase Defense Management:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 164.0
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 166
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 164
     SkillTimeConstant: 7.0
   Structure Doomsday Operation:
-    DurationBonus: -2.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3402.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 11584.0
-    RequiredSkill2Level: 1.0
-    SecondaryAttribute: 168.0
+    DurationBonus: -2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    RequiredSkill2: 11584
+    RequiredSkill2Level: 1
+    SecondaryAttribute: 168
     SkillTimeConstant: 2.0
   Structure Electronic Systems:
-    CapNeedBonus: -3.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 11584.0
-    RequiredSkill2Level: 1.0
-    SecondaryAttribute: 168.0
+    CapNeedBonus: -3
+    PrimaryAttribute: 166
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    RequiredSkill2: 11584
+    RequiredSkill2Level: 1
+    SecondaryAttribute: 168
     SkillTimeConstant: 2.0
   Structure Engineering Systems:
-    CapNeedBonus: -2.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 11584.0
-    RequiredSkill2Level: 1.0
-    SecondaryAttribute: 168.0
+    CapNeedBonus: -2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 1
+    RequiredSkill2: 11584
+    RequiredSkill2Level: 1
+    SecondaryAttribute: 168
     SkillTimeConstant: 2.0
   Structure Missile Systems:
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3319.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 11584.0
-    RequiredSkill2Level: 1.0
-    SecondaryAttribute: 168.0
+    DamageMultiplierBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3319
+    RequiredSkill1Level: 1
+    RequiredSkill2: 11584
+    RequiredSkill2Level: 1
+    SecondaryAttribute: 168
     SkillTimeConstant: 2.0

@@ -3,79 +3,79 @@ items:
     Agility: 1000.0
     BaseMaxScanDeviation: 0.25
     BaseScanRange: 0.5
-    BaseSensorStrength: 20.0
-    ExplosionDelay: 4000000.0
-    Hp: 240.0
-    LauncherGroup: 481.0
+    BaseSensorStrength: 20
+    ExplosionDelay: 4000000
+    Hp: 240
+    LauncherGroup: 481
     MaxVelocity: 5000.0
-    ProbeCanScanShips: 1.0
-    RangeFactor: 2.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 2.0
+    ProbeCanScanShips: 1
+    RangeFactor: 2
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 2
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 22.5
   Core Scanner Probe I:
     Agility: 1000.0
     BaseMaxScanDeviation: 0.125
     BaseScanRange: 0.25
-    BaseSensorStrength: 40.0
-    ExplosionDelay: 4000000.0
-    Hp: 240.0
-    LauncherGroup: 481.0
+    BaseSensorStrength: 40
+    ExplosionDelay: 4000000
+    Hp: 240
+    LauncherGroup: 481
     MaxVelocity: 3000.0
-    RangeFactor: 2.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 1.0
+    RangeFactor: 2
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 15.0
   RSS Core Scanner Probe:
     Agility: 1000.0
     BaseMaxScanDeviation: 0.125
     BaseScanRange: 0.25
-    BaseSensorStrength: 45.0
-    ExplosionDelay: 1000000.0
-    Hp: 500.0
-    LauncherGroup: 481.0
+    BaseSensorStrength: 45
+    ExplosionDelay: 1000000
+    Hp: 500
+    LauncherGroup: 481
     MaxVelocity: 3000.0
-    MetaGroupID: 3.0
-    RangeFactor: 2.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 1.0
+    MetaGroupID: 3
+    RangeFactor: 2
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 15.0
   Sisters Combat Scanner Probe:
     Agility: 1000.0
     BaseMaxScanDeviation: 0.25
     BaseScanRange: 0.5
-    BaseSensorStrength: 22.0
-    ExplosionDelay: 4000000.0
-    Hp: 500.0
-    LauncherGroup: 481.0
+    BaseSensorStrength: 22
+    ExplosionDelay: 4000000
+    Hp: 500
+    LauncherGroup: 481
     MaxVelocity: 5000.0
-    MetaGroupID: 4.0
-    ProbeCanScanShips: 1.0
-    RangeFactor: 2.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 2.0
+    MetaGroupID: 4
+    ProbeCanScanShips: 1
+    RangeFactor: 2
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 2
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 22.5
   Sisters Core Scanner Probe:
     Agility: 1000.0
     BaseMaxScanDeviation: 0.125
     BaseScanRange: 0.25
-    BaseSensorStrength: 44.0
-    ExplosionDelay: 4000000.0
-    Hp: 500.0
-    LauncherGroup: 481.0
+    BaseSensorStrength: 44
+    ExplosionDelay: 4000000
+    Hp: 500
+    LauncherGroup: 481
     MaxVelocity: 3000.0
-    MetaGroupID: 4.0
-    RangeFactor: 2.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 1.0
+    MetaGroupID: 4
+    RangeFactor: 2
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 1
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     WarpSpeedMultiplier: 15.0

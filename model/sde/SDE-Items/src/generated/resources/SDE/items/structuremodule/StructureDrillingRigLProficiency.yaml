@@ -1,31 +1,31 @@
 items:
   Standup L-Set Moon Drilling Proficiency I:
-    CanFitShipGroup03: 1406.0
-    DisallowInHighSec: 1.0
-    Hp: 40.0
-    MaxGroupFitted: 1.0
-    MoonRigAsteroidDecayBonus: 50.0
-    MoonRigFractureDelayBonus: 20.0
-    MoonRigSpewRadiusBonus: -20.0
+    CanFitShipGroup03: 1406
+    DisallowInHighSec: 1
+    Hp: 40
+    MaxGroupFitted: 1
+    MoonRigAsteroidDecayBonus: 50
+    MoonRigFractureDelayBonus: 20
+    MoonRigSpewRadiusBonus: -20
     MoonRigSpewVolumeBonus: 2.0
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 1.0
-    RigSize: 3.0
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 3
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    UpgradeCost: 100
   Standup L-Set Moon Drilling Proficiency II:
-    CanFitShipGroup03: 1406.0
-    DisallowInHighSec: 1.0
-    Hp: 40.0
-    MaxGroupFitted: 1.0
-    MoonRigAsteroidDecayBonus: 100.0
-    MoonRigFractureDelayBonus: 24.0
-    MoonRigSpewRadiusBonus: -24.0
+    CanFitShipGroup03: 1406
+    DisallowInHighSec: 1
+    Hp: 40
+    MaxGroupFitted: 1
+    MoonRigAsteroidDecayBonus: 100
+    MoonRigFractureDelayBonus: 24
+    MoonRigSpewRadiusBonus: -24
     MoonRigSpewVolumeBonus: 2.4000000953674316
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 1.0
-    RigSize: 3.0
-    StructureItemVisualFlag: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 3
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    UpgradeCost: 150

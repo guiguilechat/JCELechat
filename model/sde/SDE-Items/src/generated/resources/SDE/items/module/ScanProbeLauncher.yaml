@@ -1,166 +1,162 @@
 items:
   Core Probe Launcher I:
-    ChargeGroup1: 479.0
+    ChargeGroup1: 479
     Cpu: 15.0
-    DisallowRepeatingActivation: 1.0
+    DisallowRepeatingActivation: 1
     Duration: 10000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    Power: 1.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    Power: 1
     ReloadTime: 10000.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 1.0
-    Slots: 1.0
-    Speed: 2000.0
-    TechLevel: 1.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 1
+    Slots: 1
+    Speed: 2000
+    TechLevel: 1
   Core Probe Launcher II:
-    ChargeGroup1: 479.0
+    ChargeGroup1: 479
     Cpu: 20.0
-    DisallowRepeatingActivation: 1.0
+    DisallowRepeatingActivation: 1
     Duration: 10000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MetaLevel: 5.0
-    Power: 1.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaLevel: 5
+    Power: 1
     ReloadTime: 10000.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 5.0
-    ScanStrengthBonus: 5.0
-    Slots: 1.0
-    Speed: 1500.0
-    TechLevel: 2.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 5
+    ScanStrengthBonus: 5
+    Slots: 1
+    Speed: 1500
+    TechLevel: 2
   Expanded Probe Launcher I:
-    ChargeGroup1: 479.0
-    Cpu: 220.0
-    DisallowRepeatingActivation: 1.0
+    ChargeGroup1: 479
+    DisallowRepeatingActivation: 1
     Duration: 10000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    Power: 1.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    Power: 1
     ReloadTime: 10000.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 2.0
-    Slots: 1.0
-    Speed: 2000.0
-    TechLevel: 1.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 2
+    Slots: 1
+    Speed: 2000
+    TechLevel: 1
   Expanded Probe Launcher II:
-    ChargeGroup1: 479.0
+    ChargeGroup1: 479
     Cpu: 242.0
-    DisallowRepeatingActivation: 1.0
+    DisallowRepeatingActivation: 1
     Duration: 10000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MetaLevel: 5.0
-    Power: 1.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaLevel: 5
+    Power: 1
     ReloadTime: 10000.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 5.0
-    ScanStrengthBonus: 5.0
-    Slots: 1.0
-    Speed: 2000.0
-    TechLevel: 2.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 5
+    ScanStrengthBonus: 5
+    Slots: 1
+    Speed: 2000
+    TechLevel: 2
   Prototype Iris Probe Launcher:
-    CanFitShipGroup01: 1022.0
-    ChargeGroup1: 479.0
-    DisallowRepeatingActivation: 1.0
+    CanFitShipGroup01: 1022
+    ChargeGroup1: 479
+    DisallowRepeatingActivation: 1
     Duration: 10000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MetaLevel: 4.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaLevel: 4
     ReloadTime: 10000.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 1.0
-    Slots: 1.0
-    Speed: 2000.0
-    TechLevel: 1.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 1
+    Slots: 1
+    Speed: 2000
+    TechLevel: 1
   QA Probe Launcher:
-    ChargeGroup1: 479.0
-    ChargeGroup2: 492.0
-    DisallowRepeatingActivation: 1.0
+    ChargeGroup1: 479
+    ChargeGroup2: 492
+    DisallowRepeatingActivation: 1
     Duration: 5000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
     ReloadTime: 10000.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 2.0
-    RequiredSkill2: 9955.0
-    RequiredSkill2Level: 5.0
-    Slots: 1.0
-    Speed: 2500.0
-    TechLevel: 1.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 2
+    RequiredSkill2: 9955
+    RequiredSkill2Level: 5
+    Slots: 1
+    Speed: 2500
+    TechLevel: 1
   Recon Probe Launcher II:
-    ChargeGroup1: 479.0
-    ChargeGroup2: 492.0
-    Cpu: 242.0
-    DisallowRepeatingActivation: 1.0
+    ChargeGroup1: 479
+    ChargeGroup2: 492
+    DisallowRepeatingActivation: 1
     Duration: 96000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MetaLevel: 5.0
-    Power: 3.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaLevel: 5
+    Power: 3
     ReloadTime: 10000.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 5.0
-    Slots: 1.0
-    Speed: 1875.0
-    TechLevel: 2.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 5
+    Slots: 1
+    Speed: 1875
+    TechLevel: 2
   Scan Probe Launcher II:
-    ChargeGroup1: 479.0
-    ChargeGroup2: 492.0
-    Cpu: 242.0
-    DisallowRepeatingActivation: 1.0
+    ChargeGroup1: 479
+    ChargeGroup2: 492
+    DisallowRepeatingActivation: 1
     Duration: 450000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MetaLevel: 5.0
-    Power: 2.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaLevel: 5
+    Power: 2
     ReloadTime: 10000.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 4.0
-    Slots: 1.0
-    Speed: 12000.0
-    TechLevel: 1.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 4
+    Slots: 1
+    Speed: 12000
+    TechLevel: 1
   Sisters Core Probe Launcher:
-    ChargeGroup1: 479.0
+    ChargeGroup1: 479
     Cpu: 10.0
-    DisallowRepeatingActivation: 1.0
+    DisallowRepeatingActivation: 1
     Duration: 10000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 6.0
-    Power: 1.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaGroupID: 4
+    MetaLevel: 6
+    Power: 1
     ReloadTime: 10000.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 1.0
-    ScanStrengthBonus: 10.0
-    Slots: 1.0
-    Speed: 1500.0
-    TechLevel: 1.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 1
+    ScanStrengthBonus: 10
+    Slots: 1
+    Speed: 1500
+    TechLevel: 1
   Sisters Expanded Probe Launcher:
-    ChargeGroup1: 479.0
-    Cpu: 210.0
-    DisallowRepeatingActivation: 1.0
+    ChargeGroup1: 479
+    DisallowRepeatingActivation: 1
     Duration: 10000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 6.0
-    Power: 1.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaGroupID: 4
+    MetaLevel: 6
+    Power: 1
     ReloadTime: 10000.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 2.0
-    ScanStrengthBonus: 10.0
-    Slots: 1.0
-    Speed: 1500.0
-    TechLevel: 1.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 2
+    ScanStrengthBonus: 10
+    Slots: 1
+    Speed: 1500
+    TechLevel: 1

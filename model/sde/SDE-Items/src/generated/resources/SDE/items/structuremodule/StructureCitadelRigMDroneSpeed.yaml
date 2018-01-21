@@ -1,19 +1,19 @@
 items:
   Standup M-Set Fighter Navigation I:
-    CanFitShipGroup01: 1657.0
-    DroneMaxVelocityBonus: 30.0
-    Hp: 40.0
-    MaxGroupFitted: 1.0
-    RigSize: 2.0
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    CanFitShipGroup01: 1657
+    DroneMaxVelocityBonus: 30
+    Hp: 40
+    MaxGroupFitted: 1
+    RigSize: 2
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    UpgradeCost: 50
   Standup M-Set Fighter Navigation II:
-    CanFitShipGroup01: 1657.0
-    DroneMaxVelocityBonus: 35.0
-    Hp: 40.0
-    MaxGroupFitted: 1.0
-    RigSize: 2.0
-    StructureItemVisualFlag: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 100.0
+    CanFitShipGroup01: 1657
+    DroneMaxVelocityBonus: 35
+    Hp: 40
+    MaxGroupFitted: 1
+    RigSize: 2
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    UpgradeCost: 100

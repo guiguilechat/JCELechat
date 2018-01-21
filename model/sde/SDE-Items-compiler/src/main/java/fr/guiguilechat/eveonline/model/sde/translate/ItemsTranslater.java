@@ -12,6 +12,8 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.Yaml;
 
@@ -40,7 +42,10 @@ import fr.guiguilechat.eveonline.model.sde.yaml.CleanRepresenter;
  */
 public class ItemsTranslater {
 
+	private static final Logger logger = LoggerFactory.getLogger(ItemsTranslater.class);
+
 	public void translate(CompiledClassesData classes, File destFolder, String resFolder) {
+		long startTime = System.currentTimeMillis();
 		JCodeModel cm = classes.model;
 		DynamicClassLoader cl = new DynamicClassLoader(getClass().getClassLoader()).withCode(cm);
 		// filepath->item name -> object
@@ -107,17 +112,23 @@ public class ItemsTranslater {
 					String fieldName = classes.attID2FieldName.get(c.getKey());
 					Field f = built.getClass().getField(fieldName);
 					f.setAccessible(true);
-					if (c.getValue().valueFloat != 0) {
+					if (f.getType() == double.class) {
 						f.set(built, c.getValue().valueFloat);
 					} else {
-						f.set(built, c.getValue().valueInt);
+						if (c.getValue().valueFloat != 0) {
+							f.set(built, (int)c.getValue().valueFloat);
+						} else {
+							f.set(built, c.getValue().valueInt);
+						}
 					}
 				}
 			} catch (Exception ex) {
 				throw new UnsupportedOperationException(ex);
 			}
 		}
-		// now we write the map exportItems
+
+		// write the items
+
 		destFolder.mkdirs();
 		for (Entry<String, LinkedHashMap<String, Object>> e : exportItems.entrySet()) {
 			LinkedHashMap<String, Object> map = e.getValue();
@@ -142,7 +153,7 @@ public class ItemsTranslater {
 				throw new UnsupportedOperationException("catch this", e1);
 			}
 		}
-
+		logger.info("translated items in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 	}
 
 	protected Object makeObjectDefault(String string, DynamicClassLoader cl) {

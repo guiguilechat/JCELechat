@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Celestial;
@@ -19,48 +19,48 @@ public class ConstructionPlatform
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * The type of station this platform can be used to build.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double StationTypeID;
+    @DefaultIntValue(0)
+    public int StationTypeID;
     /**
      * The maximum hitpoints of an object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * How long it takes to anchor or unanchor this object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(60000.0D)
-    public double AnchoringDelay;
+    @DefaultIntValue(60000)
+    public int AnchoringDelay;
     /**
      * This is a display-only attribute for showinfo
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiresSovereigntyDisplayOnly;
+    @DefaultIntValue(0)
+    public int RequiresSovereigntyDisplayOnly;
     public final static String RESOURCE_PATH = "SDE/items/celestial/ConstructionPlatform.yaml";
     private static LinkedHashMap<String, ConstructionPlatform> cache = (null);
 

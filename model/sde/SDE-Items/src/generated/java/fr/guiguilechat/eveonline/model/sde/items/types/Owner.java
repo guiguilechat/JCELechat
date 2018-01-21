@@ -2,7 +2,8 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
 import fr.guiguilechat.eveonline.model.sde.items.Item;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 
@@ -16,55 +17,55 @@ public abstract class Owner
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double ManufacturingTimeResearchSpeed;
+    @DefaultIntValue(1)
+    public int ManufacturingTimeResearchSpeed;
     /**
      * Blueprint copying speed
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double CopySpeedPercent;
+    @DefaultIntValue(1)
+    public int CopySpeedPercent;
     /**
      * The % of Frigate assembly cost a player has to pay to assemble a frigate
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(100.0D)
-    public double FrigateConstructionCost;
+    @DefaultIntValue(100)
+    public int FrigateConstructionCost;
     /**
      * The % of cruiser assembly cost a player has to pay to assemble a cruiser
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CruiserConstructionCost;
+    @DefaultIntValue(0)
+    public int CruiserConstructionCost;
     /**
      * The % of industrial assembly cost a player has to pay to assemble a industrial
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double IndustrialConstructionCost;
+    @DefaultIntValue(0)
+    public int IndustrialConstructionCost;
     /**
      * The % of battleship assembly cost a player has to pay to assemble a battleship
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double BattleshipConstructionCost;
+    @DefaultIntValue(0)
+    public int BattleshipConstructionCost;
     /**
      * %chance of new asteroid releasing damage cloud each mining turn.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double DamageCloudChance;
     /**
      * Titan construction time
@@ -72,224 +73,224 @@ public abstract class Owner
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(100.0D)
-    public double TitanConstructionTime;
+    @DefaultIntValue(100)
+    public int TitanConstructionTime;
     /**
      * Station construction time
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(100.0D)
-    public double StationConstructionTime;
+    @DefaultIntValue(100)
+    public int StationConstructionTime;
     /**
      * Repair cost percent
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(100.0D)
-    public double RepairCostPercent;
+    @DefaultIntValue(100)
+    public int RepairCostPercent;
     /**
      * Chance of making a research breakthrough when researching a higher tech level of a blueprint
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ReverseEngineeringChance;
+    @DefaultIntValue(0)
+    public int ReverseEngineeringChance;
     /**
      * speed bonus when researching blueprint mineral need
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double MineralNeedResearchSpeed;
+    @DefaultIntValue(1)
+    public int MineralNeedResearchSpeed;
     /**
      * Chance of upgrading a module to next tech level 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DuplicatingChance;
+    @DefaultIntValue(0)
+    public int DuplicatingChance;
     /**
      * Missiles velocity multiplier
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(100.0D)
-    public double MissileStandardVelocityPecent;
+    @DefaultIntValue(100)
+    public int MissileStandardVelocityPecent;
     /**
      * Damage Bonus for Cruise Missiles
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CruiseMissileVelocityPercent;
+    @DefaultIntValue(0)
+    public int CruiseMissileVelocityPercent;
     /**
      * Heavy missile speed percent
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HeavyMissileSpeedPercent;
+    @DefaultIntValue(0)
+    public int HeavyMissileSpeedPercent;
     /**
      * Torpedo velocity percent
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double TorpedoVelocityPercent;
+    @DefaultIntValue(0)
+    public int TorpedoVelocityPercent;
     /**
      * Missile FOF velocity percent
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(100.0D)
-    public double MissileFOFVelocityPercent;
+    @DefaultIntValue(100)
+    public int MissileFOFVelocityPercent;
     /**
      * Max non  race corporationMembers
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxNonRaceCorporationMembers;
+    @DefaultIntValue(0)
+    public int MaxNonRaceCorporationMembers;
     /**
      * The charisma of a character.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Charisma;
+    @DefaultIntValue(0)
+    public int Charisma;
     /**
      * The intelligence of a character.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Intelligence;
+    @DefaultIntValue(0)
+    public int Intelligence;
     /**
      * The memory of a character.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Memory;
+    @DefaultIntValue(0)
+    public int Memory;
     /**
      * The perception of a character.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Perception;
+    @DefaultIntValue(0)
+    public int Perception;
     /**
      * Speed bonus when doing invention or reverse engineering
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double InventionReverseEngineeringResearchSpeed;
+    @DefaultIntValue(1)
+    public int InventionReverseEngineeringResearchSpeed;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double RocketVelocityPercent;
+    @DefaultIntValue(1)
+    public int RocketVelocityPercent;
     /**
      * The willpower of a character.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Willpower;
+    @DefaultIntValue(0)
+    public int Willpower;
     /**
      * Bonus to the charisma of a character specified by the player in character creation.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CustomCharismaBonus;
+    @DefaultIntValue(0)
+    public int CustomCharismaBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double HeavyDroneDamagePercent;
+    @DefaultIntValue(1)
+    public int HeavyDroneDamagePercent;
     /**
      * Bonus to the willpower of a character specified by the player in character creation.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CustomWillpowerBonus;
+    @DefaultIntValue(0)
+    public int CustomWillpowerBonus;
     /**
      * Mining drone speed percent
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(100.0D)
-    public double MiningDroneAmountPercent;
+    @DefaultIntValue(100)
+    public int MiningDroneAmountPercent;
     /**
      * Bonus to the perception of a character specified by the player in character creation.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CustomPerceptionBonus;
+    @DefaultIntValue(0)
+    public int CustomPerceptionBonus;
     /**
      * Bonus to the memory of a character specified by the player in character creation.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CustomMemoryBonus;
+    @DefaultIntValue(0)
+    public int CustomMemoryBonus;
     /**
      * Bonus to the intelligence of a character specified by the player in character creation.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CustomIntelligenceBonus;
+    @DefaultIntValue(0)
+    public int CustomIntelligenceBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(3.0D)
-    public double MaxGangModules;
+    @DefaultIntValue(3)
+    public int MaxGangModules;
     /**
      * skill discount when selling to npc corps
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double BarterDiscount;
+    @DefaultIntValue(0)
+    public int BarterDiscount;
     /**
      * price bonus when selling to npc corps
      * 
@@ -297,15 +298,15 @@ public abstract class Owner
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double TradePremium;
+    @DefaultIntValue(0)
+    public int TradePremium;
     /**
      * Multiplier to adjust the cost of repairs.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double RepairCostMultiplier;
     /**
      * Chance of being caught selling contraband on market. 
@@ -313,7 +314,7 @@ public abstract class Owner
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ContrabandFencingChance;
     /**
      * Chance of being caught Transporting contraband. 
@@ -321,7 +322,7 @@ public abstract class Owner
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SmugglingChance;
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
@@ -329,31 +330,31 @@ public abstract class Owner
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxLockedTargets;
+    @DefaultIntValue(0)
+    public int MaxLockedTargets;
     /**
      * The maximum amount of manufacture slots that can be used at a time.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ManufactureSlotLimit;
+    @DefaultIntValue(0)
+    public int ManufactureSlotLimit;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(20000.0D)
-    public double DroneControlDistance;
+    @DefaultIntValue(20000)
+    public int DroneControlDistance;
     /**
      * The chance that the customs official has of detecting contraband on board a scanned vessel
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ContrabandDetectionChance;
     /**
      * 
@@ -361,15 +362,15 @@ public abstract class Owner
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double MaxLaborotorySlots;
+    @DefaultIntValue(1)
+    public int MaxLaborotorySlots;
     /**
      * The characters missile use efficiency, scales the damage missiles do.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double MissileDamageMultiplier;
     /**
      * Scales the time it takes to manufacture something.
@@ -377,119 +378,119 @@ public abstract class Owner
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double ManufactureTimeMultiplier;
+    @DefaultIntValue(1)
+    public int ManufactureTimeMultiplier;
     /**
      * Percentage of pay from agent 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double NegotiationPercentage;
+    @DefaultIntValue(1)
+    public int NegotiationPercentage;
     /**
      * Bonus to Effective Standing towards Hostile NPC
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DiplomacyBonus;
+    @DefaultIntValue(0)
+    public int DiplomacyBonus;
     /**
      * a percentage multiplyer to sec status recovery
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(100.0D)
-    public double FastTalkPercentage;
+    @DefaultIntValue(100)
+    public int FastTalkPercentage;
     /**
      * Maximum amount of Reactions slots that can be used at a time
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ReactionSlotLimit;
+    @DefaultIntValue(0)
+    public int ReactionSlotLimit;
     /**
      * Bonus to standing towards Friendly npcs
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ConnectionsBonus;
+    @DefaultIntValue(0)
+    public int ConnectionsBonus;
     /**
      * a bonus to standing towards npc with negativa security status
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CriminalConnectionsBonus;
+    @DefaultIntValue(0)
+    public int CriminalConnectionsBonus;
     /**
      * Bonus To standing gain towards non CONCORD npcs  
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(100.0D)
-    public double SocialBonus;
+    @DefaultIntValue(100)
+    public int SocialBonus;
     /**
      * Refining speed percentage
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(100.0D)
-    public double RefiningTimePercentage;
+    @DefaultIntValue(100)
+    public int RefiningTimePercentage;
     /**
      * Manufacturing cost multiplyer
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double ManufactureCostMultiplier;
+    @DefaultIntValue(1)
+    public int ManufactureCostMultiplier;
     /**
      * Flat Bonus To NPC Bountys
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double BountyBonus;
+    @DefaultIntValue(0)
+    public int BountyBonus;
     /**
      * Npc Bounty Multiplier
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double BountyMultiplier;
+    @DefaultIntValue(1)
+    public int BountyMultiplier;
     /**
      * dictates how many hitpoints you can repair per minute
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(10.0D)
-    public double ModuleRepairRate;
+    @DefaultIntValue(10)
+    public int ModuleRepairRate;
     /**
      * Refining yield percentage
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RefiningYieldPercentage;
+    @DefaultIntValue(0)
+    public int RefiningYieldPercentage;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.5D)
+    @DefaultDoubleValue(0.5D)
     public double ShipBrokenModuleRepairCostMultiplier;
     /**
      * 
@@ -497,16 +498,16 @@ public abstract class Owner
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(15000.0D)
-    public double WarpAccuracyMaxRange;
+    @DefaultIntValue(15000)
+    public int WarpAccuracyMaxRange;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double WarpAccuracyFactor;
+    @DefaultIntValue(1)
+    public int WarpAccuracyFactor;
 
     @Override
     public int getCategoryId() {

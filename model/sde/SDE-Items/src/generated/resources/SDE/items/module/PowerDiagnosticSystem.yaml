@@ -3,398 +3,376 @@ items:
     CapacitorCapacityMultiplier: 1.0199999809265137
     CapacitorRechargeRateMultiplier: 0.949999988079071
     Cpu: 8.0
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
     PowerOutputMultiplier: 1.024999976158142
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0199999809265137
     ShieldRechargeRateMultiplier: 0.949999988079071
-    TechLevel: 1.0
+    TechLevel: 1
   '''Cartel'' Power Diagnostic System I':
     CapacitorCapacityMultiplier: 1.0499999523162842
     CapacitorRechargeRateMultiplier: 0.9150000214576721
     Cpu: 10.0
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
     PowerOutputMultiplier: 1.0549999475479126
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0499999523162842
     ShieldRechargeRateMultiplier: 0.9150000214576721
-    TechLevel: 1.0
+    TechLevel: 1
   Ahremen's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0674999952316284
     CapacitorRechargeRateMultiplier: 0.8463749885559082
-    Cpu: 22.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 13
     PowerOutputMultiplier: 1.0862499475479126
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0674999952316284
     ShieldRechargeRateMultiplier: 0.8463749885559082
-    TechLevel: 1.0
+    TechLevel: 1
   'Alpha Reactor Control: Diagnostic System':
     CapacitorCapacityMultiplier: 1.0199999809265137
     CapacitorRechargeRateMultiplier: 0.949999988079071
-    Cpu: 8.0
-    Hp: 40.0
+    Hp: 40
     PowerOutputMultiplier: 1.024999976158142
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0199999809265137
     ShieldRechargeRateMultiplier: 0.949999988079071
-    TechLevel: 1.0
+    TechLevel: 1
   Ammatar Navy Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.059999942779541
     CapacitorRechargeRateMultiplier: 0.9120000004768372
-    Cpu: 16.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
     PowerOutputMultiplier: 1.0750000476837158
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0499999523162842
     ShieldRechargeRateMultiplier: 0.9150000214576721
-    TechLevel: 1.0
+    TechLevel: 1
   'Beta Reactor Control: Diagnostic System I':
     CapacitorCapacityMultiplier: 1.0479999780654907
     CapacitorRechargeRateMultiplier: 0.9169999957084656
-    Cpu: 16.0
-    Hp: 40.0
-    MetaLevel: 4.0
+    Hp: 40
+    MetaLevel: 4
     PowerOutputMultiplier: 1.0499999523162842
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0479999780654907
     ShieldRechargeRateMultiplier: 0.9169999957084656
-    TechLevel: 1.0
+    TechLevel: 1
   Brokara's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0625
     CapacitorRechargeRateMultiplier: 0.8921250104904175
-    Cpu: 18.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 11
     PowerOutputMultiplier: 1.0787500143051147
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0625
     ShieldRechargeRateMultiplier: 0.8921250104904175
-    TechLevel: 1.0
+    TechLevel: 1
   Brynn's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0625
     CapacitorRechargeRateMultiplier: 0.8921250104904175
     Cpu: 18.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 11
     PowerOutputMultiplier: 1.0787500143051147
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0625
     ShieldRechargeRateMultiplier: 0.8921250104904175
-    TechLevel: 1.0
+    TechLevel: 1
   Caldari Navy Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0499999523162842
     CapacitorRechargeRateMultiplier: 0.9150000214576721
     Cpu: 16.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
     PowerOutputMultiplier: 1.0750000476837158
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.059999942779541
     ShieldRechargeRateMultiplier: 0.9120000004768372
-    TechLevel: 1.0
+    TechLevel: 1
   Chelm's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0700000524520874
     CapacitorRechargeRateMultiplier: 0.8234999775886536
-    Cpu: 24.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 14
     PowerOutputMultiplier: 1.090000033378601
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0700000524520874
     ShieldRechargeRateMultiplier: 0.8234999775886536
-    TechLevel: 1.0
+    TechLevel: 1
   Cormack's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0700000524520874
     CapacitorRechargeRateMultiplier: 0.8234999775886536
     Cpu: 24.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 14
     PowerOutputMultiplier: 1.090000033378601
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0700000524520874
     ShieldRechargeRateMultiplier: 0.8234999775886536
-    TechLevel: 1.0
+    TechLevel: 1
   Dark Blood Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.059999942779541
     CapacitorRechargeRateMultiplier: 0.9120000004768372
-    Cpu: 16.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
     PowerOutputMultiplier: 1.0750000476837158
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0499999523162842
     ShieldRechargeRateMultiplier: 0.9150000214576721
-    TechLevel: 1.0
+    TechLevel: 1
   Draclira's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0700000524520874
     CapacitorRechargeRateMultiplier: 0.8234999775886536
-    Cpu: 24.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 14
     PowerOutputMultiplier: 1.090000033378601
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0700000524520874
     ShieldRechargeRateMultiplier: 0.8234999775886536
-    TechLevel: 1.0
+    TechLevel: 1
   'Local Power Plant Manager: Diagnostic System I':
     CapacitorCapacityMultiplier: 1.0440000295639038
     CapacitorRechargeRateMultiplier: 0.9210000038146973
-    Cpu: 18.0
-    Hp: 40.0
-    MetaLevel: 2.0
+    Hp: 40
+    MetaLevel: 2
     PowerOutputMultiplier: 1.0499999523162842
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0440000295639038
     ShieldRechargeRateMultiplier: 0.9210000038146973
-    TechLevel: 1.0
+    TechLevel: 1
   Makur's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0575000047683716
     CapacitorRechargeRateMultiplier: 0.8463749885559082
-    Cpu: 22.0
-    Hp: 40.0
-    MetaLevel: 13.0
+    Hp: 40
+    MetaLevel: 13
     PowerOutputMultiplier: 1.096250057220459
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0700000524520874
     ShieldRechargeRateMultiplier: 0.9150000214576721
-    TechLevel: 1.0
+    TechLevel: 1
   Mark I Compact Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0449999570846558
     CapacitorRechargeRateMultiplier: 0.9200000166893005
-    Cpu: 17.0
-    Hp: 40.0
-    MetaLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
     PowerOutputMultiplier: 1.0549999475479126
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0449999570846558
     ShieldRechargeRateMultiplier: 0.9200000166893005
-    TechLevel: 1.0
+    TechLevel: 1
   'Marked Generator Refitting: Diagnostic System':
     CapacitorCapacityMultiplier: 1.0199999809265137
     CapacitorRechargeRateMultiplier: 0.949999988079071
-    Cpu: 8.0
-    Hp: 40.0
-    MetaLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
     PowerOutputMultiplier: 1.024999976158142
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0199999809265137
     ShieldRechargeRateMultiplier: 0.949999988079071
-    TechLevel: 1.0
+    TechLevel: 1
   'Partial Power Plant Manager: Diagnostic System':
     CapacitorCapacityMultiplier: 1.0199999809265137
     CapacitorRechargeRateMultiplier: 0.949999988079071
-    Cpu: 9.0
-    Hp: 40.0
+    Hp: 40
     PowerOutputMultiplier: 1.024999976158142
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0199999809265137
     ShieldRechargeRateMultiplier: 0.949999988079071
-    TechLevel: 1.0
+    TechLevel: 1
   Power Diagnostic System I:
     CapacitorCapacityMultiplier: 1.0399999618530273
     CapacitorRechargeRateMultiplier: 0.925000011920929
-    Cpu: 20.0
-    Hp: 40.0
+    Hp: 40
     PowerOutputMultiplier: 1.0499999523162842
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0399999618530273
     ShieldRechargeRateMultiplier: 0.925000011920929
-    TechLevel: 1.0
+    TechLevel: 1
   Power Diagnostic System II:
     CapacitorCapacityMultiplier: 1.0499999523162842
     CapacitorRechargeRateMultiplier: 0.9150000214576721
     Cpu: 22.0
-    Hp: 40.0
-    MetaLevel: 5.0
+    Hp: 40
+    MetaLevel: 5
     PowerOutputMultiplier: 1.059999942779541
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 4.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 4
     ShieldCapacityMultiplier: 1.0499999523162842
     ShieldRechargeRateMultiplier: 0.9150000214576721
-    TechLevel: 2.0
+    TechLevel: 2
   Raysere's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.065000057220459
     CapacitorRechargeRateMultiplier: 0.8692499995231628
-    Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 12
     PowerOutputMultiplier: 1.0824999809265137
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.065000057220459
     ShieldRechargeRateMultiplier: 0.8692499995231628
-    TechLevel: 1.0
+    TechLevel: 1
   Selynne's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.065000057220459
     CapacitorRechargeRateMultiplier: 0.8692499995231628
-    Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 12
     PowerOutputMultiplier: 1.0824999809265137
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.065000057220459
     ShieldRechargeRateMultiplier: 0.8692499995231628
-    TechLevel: 1.0
+    TechLevel: 1
   Setele's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0674999952316284
     CapacitorRechargeRateMultiplier: 0.8463749885559082
     Cpu: 22.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 13
     PowerOutputMultiplier: 1.0862499475479126
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0674999952316284
     ShieldRechargeRateMultiplier: 0.8463749885559082
-    TechLevel: 1.0
+    TechLevel: 1
   Shadow Serpentis Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.059999942779541
     CapacitorRechargeRateMultiplier: 0.9120000004768372
     Cpu: 16.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
     PowerOutputMultiplier: 1.0750000476837158
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0499999523162842
     ShieldRechargeRateMultiplier: 0.9150000214576721
-    TechLevel: 1.0
+    TechLevel: 1
   Tairei's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0625
     CapacitorRechargeRateMultiplier: 0.8921250104904175
-    Cpu: 18.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 11
     PowerOutputMultiplier: 1.0787500143051147
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0625
     ShieldRechargeRateMultiplier: 0.8921250104904175
-    TechLevel: 1.0
+    TechLevel: 1
   Thukker Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0499999523162842
     CapacitorRechargeRateMultiplier: 0.9150000214576721
     Cpu: 16.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
     PowerOutputMultiplier: 1.0750000476837158
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.059999942779541
     ShieldRechargeRateMultiplier: 0.9120000004768372
-    TechLevel: 1.0
+    TechLevel: 1
   True Sansha Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.059999942779541
     CapacitorRechargeRateMultiplier: 0.9120000004768372
-    Cpu: 16.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
     PowerOutputMultiplier: 1.0750000476837158
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0499999523162842
     ShieldRechargeRateMultiplier: 0.9150000214576721
-    TechLevel: 1.0
+    TechLevel: 1
   Tuvan's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.065000057220459
     CapacitorRechargeRateMultiplier: 0.8692499995231628
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 12
     PowerOutputMultiplier: 1.0824999809265137
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.065000057220459
     ShieldRechargeRateMultiplier: 0.8692499995231628
-    TechLevel: 1.0
+    TechLevel: 1
   'Type-D Power Core Modification: Diagnostic System':
     CapacitorCapacityMultiplier: 1.0420000553131104
     CapacitorRechargeRateMultiplier: 0.9229999780654907
-    Cpu: 19.0
-    Hp: 40.0
-    MetaLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
     PowerOutputMultiplier: 1.0499999523162842
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0420000553131104
     ShieldRechargeRateMultiplier: 0.9229999780654907
-    TechLevel: 1.0
+    TechLevel: 1
   'Type-E Power Core Modification: Diagnostic System':
     CapacitorCapacityMultiplier: 1.0199999809265137
     CapacitorRechargeRateMultiplier: 0.949999988079071
-    Cpu: 9.0
-    Hp: 40.0
+    Hp: 40
     PowerOutputMultiplier: 1.024999976158142
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0199999809265137
     ShieldRechargeRateMultiplier: 0.949999988079071
-    TechLevel: 1.0
+    TechLevel: 1
   'Type-E Power Core Modification: Reaction Control':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 9.0
-    Hp: 40.0
+    Hp: 40
     PowerOutputMultiplier: 1.0499999523162842
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Vizan's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0674999952316284
     CapacitorRechargeRateMultiplier: 0.8463749885559082
-    Cpu: 22.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 13
     PowerOutputMultiplier: 1.0862499475479126
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0674999952316284
     ShieldRechargeRateMultiplier: 0.8463749885559082
-    TechLevel: 1.0
+    TechLevel: 1

@@ -1,72 +1,72 @@
 items:
   Connections:
     ConnectionBonusMutator: 0.4000000059604645
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3355.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 164
+    RequiredSkill1: 3355
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 3.0
   Criminal Connections:
     CriminalConnectionsMutator: 0.4000000059604645
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3355.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 164
+    RequiredSkill1: 3355
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 3.0
   DED Connections:
-    BountySkillBonus: 1500.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3355.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 165.0
+    BountySkillBonus: 1500
+    PrimaryAttribute: 164
+    RequiredSkill1: 3355
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 165
     SkillTimeConstant: 1.0
   Diplomacy:
     DiplomacyMutator: 0.4000000059604645
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3355.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 164
+    RequiredSkill1: 3355
+    RequiredSkill1Level: 2
+    SecondaryAttribute: 165
     SkillTimeConstant: 1.0
   Distribution Connections:
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3443.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3355.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 164
+    RequiredSkill1: 3443
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3355
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Fast Talk:
-    FastTalkMutator: 5.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3355.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 165.0
+    FastTalkMutator: 5
+    PrimaryAttribute: 164
+    RequiredSkill1: 3355
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 165
     SkillTimeConstant: 4.0
   Mining Connections:
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3380.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3355.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 164
+    RequiredSkill1: 3380
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3355
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Negotiation:
-    NegotiationBonus: 5.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3355.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 165.0
+    NegotiationBonus: 5
+    PrimaryAttribute: 164
+    RequiredSkill1: 3355
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Security Connections:
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3355.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3348.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 164
+    RequiredSkill1: 3355
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3348
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 165
     SkillTimeConstant: 2.0
   Social:
-    PrimaryAttribute: 164.0
-    SecondaryAttribute: 165.0
+    PrimaryAttribute: 164
+    SecondaryAttribute: 165
     SkillTimeConstant: 1.0
-    SocialMutator: 5.0
+    SocialMutator: 5

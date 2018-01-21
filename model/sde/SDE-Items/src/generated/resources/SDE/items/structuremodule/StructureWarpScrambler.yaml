@@ -1,16 +1,16 @@
 items:
   Standup Warp Scrambler I:
-    ActivationBlockedStrenght: 1.0
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
+    ActivationBlockedStrenght: 1
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
     CapacitorNeed: 400.0
     Cpu: 2000.0
-    DisallowWhenInvulnerable: 1.0
+    DisallowWhenInvulnerable: 1
     Duration: 5000.0
-    Hp: 40.0
-    MaxRange: 250000.0
+    Hp: 40
+    MaxRange: 250000
     MaxVelocityMultiplier: 1.0
-    Power: 50000.0
-    StructureItemVisualFlag: 1.0
-    WarpScrambleStrength: 10.0
+    Power: 50000
+    StructureItemVisualFlag: 1
+    WarpScrambleStrength: 10

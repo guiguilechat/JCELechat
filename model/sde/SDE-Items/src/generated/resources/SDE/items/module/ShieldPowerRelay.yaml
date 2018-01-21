@@ -2,141 +2,133 @@ items:
   '''Basic'' Shield Power Relay':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
-    Cpu: 10.0
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
     PowerOutputMultiplier: 1.0
-    Rechargeratebonus: -15.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    Rechargeratebonus: -15
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Alpha Reactor Shield Power Relay:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
-    Cpu: 10.0
-    Hp: 40.0
+    Hp: 40
     PowerOutputMultiplier: 1.0
-    Rechargeratebonus: -10.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    Rechargeratebonus: -10
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   'Beta Reactor Control: Shield Power Relay I':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.350000023841858
-    Cpu: 16.0
-    Hp: 40.0
-    MetaLevel: 4.0
+    Hp: 40
+    MetaLevel: 4
     PowerOutputMultiplier: 1.0
-    Rechargeratebonus: -24.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    Rechargeratebonus: -24
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Caldari Navy Shield Power Relay:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2999999523162842
     Cpu: 25.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
     PowerOutputMultiplier: 1.0
-    Rechargeratebonus: -26.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    Rechargeratebonus: -26
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   'Local Power Plant Manager: Reaction Shield Power Relay I':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.350000023841858
-    Cpu: 18.0
-    Hp: 40.0
-    MetaLevel: 2.0
+    Hp: 40
+    MetaLevel: 2
     PowerOutputMultiplier: 1.0
-    Rechargeratebonus: -22.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    Rechargeratebonus: -22
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Mark I Compact Shield Power Relay:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2999999523162842
     Cpu: 15.0
-    Hp: 40.0
-    MetaLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
     PowerOutputMultiplier: 1.0
-    Rechargeratebonus: -22.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    Rechargeratebonus: -22
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   'Marked Generator Refitting: Shield Power Relay':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
-    Cpu: 10.0
-    Hp: 40.0
+    Hp: 40
     PowerOutputMultiplier: 1.0
-    Rechargeratebonus: -10.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    Rechargeratebonus: -10
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   'Partial Power Plant Manager: Shield Power Relay':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
-    Cpu: 10.0
-    Hp: 40.0
+    Hp: 40
     PowerOutputMultiplier: 1.0
-    Rechargeratebonus: -10.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    Rechargeratebonus: -10
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Shield Power Relay I:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2999999523162842
-    Cpu: 20.0
-    Hp: 40.0
+    Hp: 40
     PowerOutputMultiplier: 1.0
-    Rechargeratebonus: -20.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    Rechargeratebonus: -20
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Shield Power Relay II:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.350000023841858
     Cpu: 25.0
-    Hp: 40.0
-    MetaLevel: 5.0
+    Hp: 40
+    MetaLevel: 5
     PowerOutputMultiplier: 1.0
-    Rechargeratebonus: -25.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 4.0
+    Rechargeratebonus: -25
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 4
     ShieldCapacityMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
   Type-D Restrained Shield Power Relay:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
     Cpu: 20.0
-    Hp: 40.0
-    MetaLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
     PowerOutputMultiplier: 1.0
-    Rechargeratebonus: -22.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    Rechargeratebonus: -22
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   'Type-E Power Core Modification: Shield Power Relay':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
-    Cpu: 10.0
-    Hp: 40.0
+    Hp: 40
     PowerOutputMultiplier: 1.0
-    Rechargeratebonus: -10.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    Rechargeratebonus: -10
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1

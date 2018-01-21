@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Celestial;
@@ -19,15 +20,15 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DurationBonus;
+    @DefaultIntValue(0)
+    public int DurationBonus;
     /**
      * Multiplys the damage multiplier
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double DamageMultiplierMultiplier;
     /**
      * Multiplier to missiles ability to hit fast targets
@@ -35,7 +36,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double AoeVelocityMultiplier;
     /**
      * 
@@ -43,7 +44,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SignatureRadiusMultiplier;
     /**
      * Damage multiplier for heat
@@ -51,7 +52,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double HeatDamageMultiplier;
     /**
      * Multiplier to all overload bonuses
@@ -59,7 +60,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double OverloadBonusMultiplier;
     /**
      * Smart bomb range multiplier
@@ -67,7 +68,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double EmpFieldRangeMultiplier;
     /**
      * Damage multiplier for smart bombs
@@ -75,7 +76,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SmartbombDamageMultiplier;
     /**
      * EM resistance bonus for shields
@@ -83,23 +84,23 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldEmDamageResistanceBonus;
+    @DefaultIntValue(0)
+    public int ShieldEmDamageResistanceBonus;
     /**
      * Explosive resistance bonus for shields
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldExplosiveDamageResistanceBonus;
+    @DefaultIntValue(0)
+    public int ShieldExplosiveDamageResistanceBonus;
     /**
      * Multiplier to the capacity of a shield.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldCapacityMultiplier;
     /**
      * Kinetic resistance bonus for shields
@@ -107,23 +108,23 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldKineticDamageResistanceBonus;
+    @DefaultIntValue(0)
+    public int ShieldKineticDamageResistanceBonus;
     /**
      * Thermal resistance bonus for shields
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldThermalDamageResistanceBonus;
+    @DefaultIntValue(0)
+    public int ShieldThermalDamageResistanceBonus;
     /**
      * Multiplier to the HP of a ships armor module.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorHPMultiplier;
     /**
      * Factor by which topspeed increases.
@@ -131,7 +132,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double SpeedFactor;
     /**
      * Damage multiplier for small weapons
@@ -139,7 +140,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SmallWeaponDamageMultiplier;
     /**
      * Damage reduction for system effects
@@ -147,15 +148,15 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SystemEffectDamageReduction;
+    @DefaultIntValue(0)
+    public int SystemEffectDamageReduction;
     /**
      * Armor repair amount multiplier
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ArmorDamageAmountMultiplier;
     /**
      * Shield transfer amount multiplier
@@ -163,7 +164,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldBonusMultiplier;
     /**
      * Shield repair multiplier for remote repair
@@ -171,7 +172,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldBonusMultiplierRemote;
     /**
      * Repair amount multiplier for remote repairers
@@ -179,7 +180,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ArmorDamageAmountMultiplierRemote;
     /**
      * Capacitor capacity multiplier
@@ -187,7 +188,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorCapacityMultiplierSystem;
     /**
      * Capacitor recharge rate multiplier
@@ -195,7 +196,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double RechargeRateMultiplier;
     /**
      * Multiplier to the agility of an object.
@@ -203,7 +204,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double AgilityMultiplier;
     /**
      * Scales the max target range of a ships electronics.
@@ -211,7 +212,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double MaxTargetRangeMultiplier;
     /**
      * 
@@ -219,7 +220,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double EnergyWarfareStrengthMultiplier;
     /**
      * 
@@ -227,7 +228,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double AoeCloudSizeMultiplier;
     /**
      * 
@@ -235,7 +236,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double EnergyTransferAmountBonus;
     /**
      * 
@@ -243,7 +244,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double TargetPainterStrengthMultiplier;
     /**
      * 
@@ -251,7 +252,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double StasisWebStrengthMultiplier;
     /**
      * Autogenerated skill attribute, mMaxVelocityBonus
@@ -259,7 +260,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double MaxVelocityModifier;
     /**
      * Scale the tracking speed of a weapon.
@@ -267,7 +268,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double TrackingSpeedMultiplier;
     /**
      * Bonus to Max Targeting Range
@@ -275,7 +276,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxTargetRangeBonus;
     /**
      * EM damage resistance bonus for armor
@@ -283,39 +284,39 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorEmDamageResistanceBonus;
+    @DefaultIntValue(0)
+    public int ArmorEmDamageResistanceBonus;
     /**
      * Kinetic damage resistance bonus for armor
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorKineticDamageResistanceBonus;
+    @DefaultIntValue(0)
+    public int ArmorKineticDamageResistanceBonus;
     /**
      * Thermal damage resistance bonus for armor
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorThermalDamageResistanceBonus;
+    @DefaultIntValue(0)
+    public int ArmorThermalDamageResistanceBonus;
     /**
      * Explosive damage resistance bonus for armor
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorExplosiveDamageResistanceBonus;
+    @DefaultIntValue(0)
+    public int ArmorExplosiveDamageResistanceBonus;
     /**
      * Velocity multiplier for missiles
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MissileVelocityMultiplier;
     /**
      * Maximum velocity multiplier
@@ -323,7 +324,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxVelocityMultiplier;
     /**
      * Tracking Speed Bonus
@@ -331,7 +332,7 @@ public class EffectBeacon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double TrackingSpeedBonus;
     public final static String RESOURCE_PATH = "SDE/items/celestial/EffectBeacon.yaml";
     private static LinkedHashMap<String, EffectBeacon> cache = (null);

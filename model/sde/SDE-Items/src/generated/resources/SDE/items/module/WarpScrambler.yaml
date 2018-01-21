@@ -1,1080 +1,1074 @@
 items:
   '''Delineative'' Warp Scrambler':
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 2.0
     Cpu: 18.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 9000.0
+    Hp: 40
+    MaxRange: 9000
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 2.0
+    MetaGroupID: 3
+    MetaLevel: 6
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 2
   '''Interruptive'' Warp Disruptor':
     CapacitorNeed: 16.0
     Cpu: 20.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 24000.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 24000
+    MetaGroupID: 3
+    MetaLevel: 6
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   CONCORD Modified Warp Scrambler:
     CapacitorNeed: 30.0
-    Cpu: 14.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 24800.0
-    MetaLevel: 14.0
-    OverloadRangeBonus: 20.0
-    Power: 4000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 5.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    Hp: 40
+    MaxRange: 24800
+    MetaLevel: 14
+    OverloadRangeBonus: 20
+    Power: 4000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 5
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Caldari Navy Warp Disruptor:
     CapacitorNeed: 20.0
     Cpu: 23.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 26000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 26000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   Caldari Navy Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 4.0
     Cpu: 22.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 10000.0
+    Hp: 40
+    MaxRange: 10000
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Civilian Warp Disruptor:
     CapacitorNeed: 25.0
     Cpu: 20.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    Hp: 40.0
-    MaxRange: 20000.0
-    Power: 1.0
-    TechLevel: 1.0
+    Hp: 40
+    MaxRange: 20000
+    Power: 1
+    TechLevel: 1
   Dark Blood Warp Disruptor:
     CapacitorNeed: 28.0
     Cpu: 38.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 30000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 30000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   Dark Blood Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 6.0
     Cpu: 30.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 11250.0
+    Hp: 40
+    MaxRange: 11250
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Domination Heavy Warp Disruptor:
     CapacitorNeed: 225.0
     Cpu: 63.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 30000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 5000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 4.0
+    Hp: 40
+    MaxRange: 30000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 5000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 4
   Domination Heavy Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 45.0
     Cpu: 50.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 12250.0
+    Hp: 40
+    MaxRange: 12250
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 5000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 8.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 5000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 8
   Domination Warp Disruptor:
     CapacitorNeed: 28.0
     Cpu: 38.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 30000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 30000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   Domination Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 6.0
     Cpu: 30.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 11250.0
+    Hp: 40
+    MaxRange: 11250
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Dread Guristas Warp Disruptor:
     CapacitorNeed: 20.0
     Cpu: 23.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 26000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 26000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   Dread Guristas Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 4.0
     Cpu: 22.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 10000.0
+    Hp: 40
+    MaxRange: 10000
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Faint Epsilon Scoped Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 5.0
     Cpu: 30.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 8250.0
+    Hp: 40
+    MaxRange: 8250
     MaxVelocityMultiplier: 1.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 2.0
+    MetaLevel: 1
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 2
   Faint Scoped Warp Disruptor:
     CapacitorNeed: 25.0
     Cpu: 40.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 22000.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 22000
+    MetaLevel: 1
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   Federation Navy Warp Disruptor:
     CapacitorNeed: 25.0
     Cpu: 30.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 28000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 28000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   Federation Navy Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 5.0
     Cpu: 26.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 10500.0
+    Hp: 40
+    MaxRange: 10500
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Fleeting Progressive Warp Scrambler I:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 4.0
     Cpu: 29.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 8250.0
+    Hp: 40
+    MaxRange: 8250
     MaxVelocityMultiplier: 1.0
-    MetaLevel: 2.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 2.0
+    MetaLevel: 2
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 2
   Fleeting Warp Disruptor I:
     CapacitorNeed: 20.0
-    Cpu: 36.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 20000.0
-    MetaLevel: 2.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 20000
+    MetaLevel: 2
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   Gotan's Modified Heavy Warp Disruptor:
     CapacitorNeed: 70.0
     Cpu: 50.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 37000.0
-    MetaGroupID: 5.0
-    MetaLevel: 15.0
-    OverloadRangeBonus: 20.0
-    Power: 3500.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 5.0
+    Hp: 40
+    MaxRange: 37000
+    MetaGroupID: 5
+    MetaLevel: 15
+    OverloadRangeBonus: 20
+    Power: 3500
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 5
   Gotan's Modified Heavy Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 30.0
     Cpu: 34.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 14250.0
+    Hp: 40
+    MaxRange: 14250
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 15.0
-    OverloadRangeBonus: 20.0
-    Power: 2800.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 10.0
+    MetaGroupID: 5
+    MetaLevel: 15
+    OverloadRangeBonus: 20
+    Power: 2800
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 10
   Hakim's Modified Heavy Warp Disruptor:
     CapacitorNeed: 60.0
     Cpu: 48.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 34000.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadRangeBonus: 20.0
-    Power: 3000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 5.0
+    Hp: 40
+    MaxRange: 34000
+    MetaGroupID: 5
+    MetaLevel: 13
+    OverloadRangeBonus: 20
+    Power: 3000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 5
   Hakim's Modified Heavy Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 30.0
     Cpu: 32.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 13500.0
+    Hp: 40
+    MaxRange: 13500
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadRangeBonus: 20.0
-    Power: 2650.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 10.0
+    MetaGroupID: 5
+    MetaLevel: 13
+    OverloadRangeBonus: 20
+    Power: 2650
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 10
   Heavy Faint Epsilon Scoped Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 40.0
     Cpu: 50.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 9250.0
+    Hp: 40
+    MaxRange: 9250
     MaxVelocityMultiplier: 1.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 20.0
-    Power: 5000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 6.0
+    MetaLevel: 1
+    OverloadRangeBonus: 20
+    Power: 5000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 6
   Heavy Faint Scoped Warp Disruptor:
     CapacitorNeed: 200.0
     Cpu: 63.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 24000.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 20.0
-    Power: 5000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    Hp: 40
+    MaxRange: 24000
+    MetaLevel: 1
+    OverloadRangeBonus: 20
+    Power: 5000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Heavy Fleeting Compact Warp Disruptor:
     CapacitorNeed: 200.0
     Cpu: 50.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 22000.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 20.0
-    Power: 4000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    Hp: 40
+    MaxRange: 22000
+    MetaLevel: 1
+    OverloadRangeBonus: 20
+    Power: 4000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Heavy Initiated Compact Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 40.0
     Cpu: 40.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 8500.0
+    Hp: 40
+    MaxRange: 8500
     MaxVelocityMultiplier: 1.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 20.0
-    Power: 4000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 6.0
+    MetaLevel: 1
+    OverloadRangeBonus: 20
+    Power: 4000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 6
   Heavy J5 Enduring Warp Disruptor:
     CapacitorNeed: 150.0
     Cpu: 63.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 22000.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 20.0
-    Power: 5000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    Hp: 40
+    MaxRange: 22000
+    MetaLevel: 1
+    OverloadRangeBonus: 20
+    Power: 5000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Heavy J5b Enduring Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 16.0
     Cpu: 50.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 8500.0
+    Hp: 40
+    MaxRange: 8500
     MaxVelocityMultiplier: 1.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 20.0
-    Power: 5000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 6.0
+    MetaLevel: 1
+    OverloadRangeBonus: 20
+    Power: 5000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 6
   Heavy Warp Disruptor I:
     CapacitorNeed: 200.0
     Cpu: 63.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 22000.0
-    OverloadRangeBonus: 20.0
-    Power: 5000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    Hp: 40
+    MaxRange: 22000
+    OverloadRangeBonus: 20
+    Power: 5000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Heavy Warp Disruptor II:
     CapacitorNeed: 225.0
     Cpu: 75.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 26000.0
-    MetaLevel: 5.0
-    OverloadRangeBonus: 20.0
-    Power: 6000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 5.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
-    WarpScrambleStrength: 3.0
+    Hp: 40
+    MaxRange: 26000
+    MetaLevel: 5
+    OverloadRangeBonus: 20
+    Power: 6000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 5
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 2
+    WarpScrambleStrength: 3
   Heavy Warp Scrambler I:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 40.0
     Cpu: 50.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 8500.0
+    Hp: 40
+    MaxRange: 8500
     MaxVelocityMultiplier: 1.0
-    OverloadRangeBonus: 20.0
-    Power: 5000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 6.0
+    OverloadRangeBonus: 20
+    Power: 5000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 6
   Heavy Warp Scrambler II:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 45.0
     Cpu: 60.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 10000.0
+    Hp: 40
+    MaxRange: 10000
     MaxVelocityMultiplier: 1.0
-    MetaLevel: 5.0
-    OverloadRangeBonus: 20.0
-    Power: 6000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 5.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
-    WarpScrambleStrength: 6.0
+    MetaLevel: 5
+    OverloadRangeBonus: 20
+    Power: 6000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 5
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 2
+    WarpScrambleStrength: 6
   Initiated Compact Warp Disruptor:
     CapacitorNeed: 25.0
     Cpu: 32.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 20000.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 20000
+    MetaLevel: 1
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   Initiated Compact Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 5.0
     Cpu: 26.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 7500.0
+    Hp: 40
+    MaxRange: 7500
     MaxVelocityMultiplier: 1.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 2.0
+    MetaLevel: 1
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 2
   J5 Enduring Warp Disruptor:
     CapacitorNeed: 16.0
     Cpu: 40.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 20000.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 20000
+    MetaLevel: 1
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   J5b Enduring Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 2.0
     Cpu: 30.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 7500.0
+    Hp: 40
+    MaxRange: 7500
     MaxVelocityMultiplier: 1.0
-    MetaLevel: 1.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 2.0
+    MetaLevel: 1
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 2
   Khanid Navy Warp Disruptor:
     CapacitorNeed: 20.0
     Cpu: 23.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 26000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 26000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   Khanid Navy Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 4.0
     Cpu: 22.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 10000.0
+    Hp: 40
+    MaxRange: 10000
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Makur's Modified Warp Disruptor:
     CapacitorNeed: 70.0
-    Cpu: 19.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 36000.0
-    MetaLevel: 13.0
-    OverloadRangeBonus: 20.0
-    Power: 3500.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 2.0
+    Hp: 40
+    MaxRange: 36000
+    MetaLevel: 13
+    OverloadRangeBonus: 20
+    Power: 3500
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 2
   Makur's Modified Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 10.0
     Cpu: 30.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 14250.0
+    Hp: 40
+    MaxRange: 14250
     MaxVelocityMultiplier: 1.0
-    MetaLevel: 13.0
-    OverloadRangeBonus: 20.0
-    Power: 2000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    MetaLevel: 13
+    OverloadRangeBonus: 20
+    Power: 2000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Mizuro's Modified Heavy Warp Disruptor:
     CapacitorNeed: 50.0
     Cpu: 46.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 31000.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadRangeBonus: 20.0
-    Power: 2500.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 5.0
+    Hp: 40
+    MaxRange: 31000
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadRangeBonus: 20
+    Power: 2500
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 5
   Mizuro's Modified Heavy Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 30.0
     Cpu: 30.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 12750.0
+    Hp: 40
+    MaxRange: 12750
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadRangeBonus: 20.0
-    Power: 2500.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 10.0
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadRangeBonus: 20
+    Power: 2500
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 10
   Republic Fleet Warp Disruptor:
     CapacitorNeed: 28.0
     Cpu: 38.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 30000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 30000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   Republic Fleet Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 6.0
     Cpu: 30.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 11250.0
+    Hp: 40
+    MaxRange: 11250
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Shadow Serpentis Heavy Warp Disruptor:
     CapacitorNeed: 175.0
     Cpu: 50.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 28000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 4000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 4.0
+    Hp: 40
+    MaxRange: 28000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 4000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 4
   Shadow Serpentis Heavy Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 35.0
     Cpu: 40.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 11250.0
+    Hp: 40
+    MaxRange: 11250
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 4000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 8.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 4000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 4
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 8
   Shadow Serpentis Warp Disruptor:
     CapacitorNeed: 25.0
     Cpu: 30.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 28000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 28000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   Shadow Serpentis Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 5.0
     Cpu: 26.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 10500.0
+    Hp: 40
+    MaxRange: 10500
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Tobias' Modified Heavy Warp Disruptor:
     CapacitorNeed: 80.0
     Cpu: 52.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 40000.0
-    MetaGroupID: 5.0
-    MetaLevel: 17.0
-    OverloadRangeBonus: 20.0
-    Power: 4000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 5.0
+    Hp: 40
+    MaxRange: 40000
+    MetaGroupID: 5
+    MetaLevel: 17
+    OverloadRangeBonus: 20
+    Power: 4000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 5
   Tobias' Modified Heavy Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 30.0
     Cpu: 36.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 15000.0
+    Hp: 40
+    MaxRange: 15000
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 17.0
-    OverloadRangeBonus: 20.0
-    Power: 3000.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 10.0
+    MetaGroupID: 5
+    MetaLevel: 17
+    OverloadRangeBonus: 20
+    Power: 3000
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 10
   True Sansha Warp Disruptor:
     CapacitorNeed: 28.0
     Cpu: 38.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 30000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 30000
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   True Sansha Warp Scrambler:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 6.0
     Cpu: 30.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 11250.0
+    Hp: 40
+    MaxRange: 11250
     MaxVelocityMultiplier: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 3.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 3
   Warp Disruptor I:
     CapacitorNeed: 25.0
-    Cpu: 40.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 20000.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 20000
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   Warp Disruptor II:
     CapacitorNeed: 30.0
-    Cpu: 44.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 24000.0
-    MetaLevel: 5.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 24000
+    MetaLevel: 5
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 2
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 2
+    WarpScrambleStrength: 1
   Warp Prohibitor I:
     CapacitorNeed: 50.0
-    Cpu: 2000.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 75000.0
-    MinRange: 20000.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 12098.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 1.0
+    Hp: 40
+    MaxRange: 75000
+    MinRange: 20000
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 5
+    RequiredSkill2: 12098
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 1
   Warp Scrambler I:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 5.0
     Cpu: 30.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 7500.0
+    Hp: 40
+    MaxRange: 7500
     MaxVelocityMultiplier: 1.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0
-    WarpScrambleStrength: 2.0
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 1
+    WarpScrambleStrength: 2
   Warp Scrambler II:
-    ActivationBlockedStrenght: 1.0
+    ActivationBlockedStrenght: 1
     CapacitorNeed: 6.0
     Cpu: 36.0
     Duration: 5000.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 5.0
-    Hp: 40.0
-    MaxRange: 9000.0
+    Hp: 40
+    MaxRange: 9000
     MaxVelocityMultiplier: 1.0
-    MetaLevel: 5.0
-    OverloadRangeBonus: 20.0
-    Power: 1.0
-    RequiredSkill1: 3435.0
-    RequiredSkill1Level: 2.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 2.0
-    WarpScrambleStrength: 2.0
+    MetaLevel: 5
+    OverloadRangeBonus: 20
+    Power: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 2
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    TechLevel: 2
+    WarpScrambleStrength: 2

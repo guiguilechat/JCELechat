@@ -1,118 +1,118 @@
 items:
   Absolution Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Astarte Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Brutix Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Brutix Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Brutix Serpentis Edition Blueprint:
     IndustryBlueprintRank: 50.0
-    TechLevel: 1.0
+    TechLevel: 1
   Claymore Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Cyclone Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Cyclone Thukker Tribe Edition Blueprint:
     IndustryBlueprintRank: 50.0
-    TechLevel: 1.0
+    TechLevel: 1
   Damnation Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Drake Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Drake Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Eos Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Ferox Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Ferox Guristas Edition Blueprint:
     IndustryBlueprintRank: 50.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gnosis Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Harbinger Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Harbinger Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Hurricane Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Hurricane Fleet Issue Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Myrmidon Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Naga Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Nighthawk Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Oracle Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Prophecy Blood Raiders Edition Blueprint:
     IndustryBlueprintRank: 50.0
-    TechLevel: 1.0
+    TechLevel: 1
   Prophecy Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Prototype Seven Blueprint:
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Sleipnir Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Talos Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Tornado Blueprint:
     IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Vulture Blueprint:
     IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   幼龙级YC117年特别版蓝图:
-    TechLevel: 1.0
+    TechLevel: 1

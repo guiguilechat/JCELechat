@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.sovereigntystructures;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.SovereigntyStructures;
@@ -19,8 +19,8 @@ public class InfrastructureHub
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(100000.0D)
-    public double PlanetAnchorDistance;
+    @DefaultIntValue(100000)
+    public int PlanetAnchorDistance;
     public final static String RESOURCE_PATH = "SDE/items/sovereigntystructures/InfrastructureHub.yaml";
     private static LinkedHashMap<String, InfrastructureHub> cache = (null);
 

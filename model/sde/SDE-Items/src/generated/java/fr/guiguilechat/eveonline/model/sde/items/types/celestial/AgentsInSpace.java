@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Celestial;
@@ -19,87 +20,87 @@ public class AgentsInSpace
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EntityKillBounty;
+    @DefaultIntValue(0)
+    public int EntityKillBounty;
     /**
      * Amount of maximum shield HP on the item.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldCapacity;
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * agentID to use when initiating NPC communications with this type.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AgentID;
+    @DefaultIntValue(0)
+    public int AgentID;
     /**
      * Signature Radius is used for turret tracking and scanning.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(100.0D)
-    public double SignatureRadius;
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EntityEquipmentMin;
+    @DefaultIntValue(0)
+    public int EntityEquipmentMin;
     /**
      * The range of the agent's communication sphere
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(100000.0D)
-    public double AgentCommRange;
+    @DefaultIntValue(100000)
+    public int AgentCommRange;
     /**
      * The number of hit points on the entities armor.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorHP;
+    @DefaultIntValue(0)
+    public int ArmorHP;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EntityEquipmentMax;
+    @DefaultIntValue(0)
+    public int EntityEquipmentMax;
     /**
      * The maximum hitpoints of an object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * If the player comes within this range of this agent-in-space, an automatic communication window popup will occur.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(5000.0D)
-    public double AgentAutoPopupRange;
+    @DefaultIntValue(5000)
+    public int AgentAutoPopupRange;
     /**
      * DO NOT MESS WITH
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StructureUniformity;
     /**
      * Deprecated. The minimum number of pieces of loot dropped by this entity.
@@ -107,16 +108,16 @@ public class AgentsInSpace
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EntityLootCountMin;
+    @DefaultIntValue(0)
+    public int EntityLootCountMin;
     /**
      * The maximum number of pieces of loot dropped by this entity.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EntityLootCountMax;
+    @DefaultIntValue(0)
+    public int EntityLootCountMax;
     /**
      * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
      * Value is a % movement of the character's current security towards the upper/lower limit.
@@ -124,23 +125,23 @@ public class AgentsInSpace
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EntitySecurityStatusKillBonus;
+    @DefaultIntValue(0)
+    public int EntitySecurityStatusKillBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FactionID;
+    @DefaultIntValue(0)
+    public int FactionID;
     /**
      * Amount of time taken to fully recharge the shield.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldRechargeRate;
     public final static String RESOURCE_PATH = "SDE/items/celestial/AgentsInSpace.yaml";
     private static LinkedHashMap<String, AgentsInSpace> cache = (null);

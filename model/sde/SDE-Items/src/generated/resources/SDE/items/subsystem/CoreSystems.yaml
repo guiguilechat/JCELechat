@@ -1,167 +1,167 @@
 items:
   Legion Core - Augmented Antimatter Reactor:
     CapacitorCapacity: 50.0
-    FitsToShipType: 29986.0
-    Hp: 40.0
-    LowSlotModifier: 3.0
-    MedSlotModifier: 1.0
-    MetaLevel: 1.0
+    FitsToShipType: 29986
+    Hp: 40
+    LowSlotModifier: 3
+    MedSlotModifier: 1
+    MetaLevel: 1
     PowerEngineeringOutputBonus: 20.0
-    RequiredSkill1: 30539.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 125.0
-    SubsystemBonusAmarrCore: 5.0
-    SubsystemBonusAmarrCore2: -3.0
-    TechLevel: 3.0
+    RequiredSkill1: 30539
+    RequiredSkill1Level: 1
+    SubSystemSlot: 125
+    SubsystemBonusAmarrCore: 5
+    SubsystemBonusAmarrCore2: -3
+    TechLevel: 3
   Legion Core - Dissolution Sequencer:
-    FitsToShipType: 29986.0
-    Hp: 40.0
-    LowSlotModifier: 2.0
-    MaxLockedTargetsBonus: 1.0
-    MedSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30539.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 125.0
-    SubsystemBonusAmarrCore: 15.0
-    SubsystemBonusAmarrCore2: 5.0
-    SubsystemBonusAmarrCore3: 15.0
-    TechLevel: 3.0
+    FitsToShipType: 29986
+    Hp: 40
+    LowSlotModifier: 2
+    MaxLockedTargetsBonus: 1
+    MedSlotModifier: 2
+    MetaLevel: 1
+    RequiredSkill1: 30539
+    RequiredSkill1Level: 1
+    SubSystemSlot: 125
+    SubsystemBonusAmarrCore: 15
+    SubsystemBonusAmarrCore2: 5
+    SubsystemBonusAmarrCore3: 15
+    TechLevel: 3
   Legion Core - Energy Parasitic Complex:
     CapacitorCapacity: 50.0
-    FitsToShipType: 29986.0
-    Hp: 40.0
-    LowSlotModifier: 2.0
-    MedSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30539.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 125.0
-    SubsystemBonusAmarrCore: -5.0
-    SubsystemBonusAmarrCore2: 10.0
-    SubsystemBonusAmarrCore3: 10.0
-    SubsystemEnergyNeutFittingReduction: -50.0
-    TechLevel: 3.0
+    FitsToShipType: 29986
+    Hp: 40
+    LowSlotModifier: 2
+    MedSlotModifier: 2
+    MetaLevel: 1
+    RequiredSkill1: 30539
+    RequiredSkill1Level: 1
+    SubSystemSlot: 125
+    SubsystemBonusAmarrCore: -5
+    SubsystemBonusAmarrCore2: 10
+    SubsystemBonusAmarrCore3: 10
+    SubsystemEnergyNeutFittingReduction: -50
+    TechLevel: 3
   Loki Core - Augmented Nuclear Reactor:
     CapacitorCapacity: 50.0
-    FitsToShipType: 29990.0
-    Hp: 40.0
-    LowSlotModifier: 3.0
-    MedSlotModifier: 1.0
-    MetaLevel: 1.0
+    FitsToShipType: 29990
+    Hp: 40
+    LowSlotModifier: 3
+    MedSlotModifier: 1
+    MetaLevel: 1
     PowerEngineeringOutputBonus: 20.0
-    RequiredSkill1: 30547.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 125.0
-    SubsystemBonusMinmatarCore: -5.0
-    SubsystemBonusMinmatarCore2: -3.0
-    TechLevel: 3.0
+    RequiredSkill1: 30547
+    RequiredSkill1Level: 1
+    SubSystemSlot: 125
+    SubsystemBonusMinmatarCore: -5
+    SubsystemBonusMinmatarCore2: -3
+    TechLevel: 3
   Loki Core - Dissolution Sequencer:
-    FitsToShipType: 29990.0
-    Hp: 40.0
-    LowSlotModifier: 2.0
-    MaxLockedTargetsBonus: 1.0
-    MedSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30547.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 125.0
-    SubsystemBonusMinmatarCore: 15.0
-    SubsystemBonusMinmatarCore2: 5.0
-    SubsystemBonusMinmatarCore3: 15.0
-    TechLevel: 3.0
+    FitsToShipType: 29990
+    Hp: 40
+    LowSlotModifier: 2
+    MaxLockedTargetsBonus: 1
+    MedSlotModifier: 2
+    MetaLevel: 1
+    RequiredSkill1: 30547
+    RequiredSkill1Level: 1
+    SubSystemSlot: 125
+    SubsystemBonusMinmatarCore: 15
+    SubsystemBonusMinmatarCore2: 5
+    SubsystemBonusMinmatarCore3: 15
+    TechLevel: 3
   Loki Core - Immobility Drivers:
-    FitsToShipType: 29990.0
-    Hp: 40.0
-    LowSlotModifier: 1.0
-    MedSlotModifier: 3.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30547.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 125.0
-    SubsystemBonusMinmatarCore: -5.0
-    SubsystemBonusMinmatarCore2: 25.0
-    SubsystemBonusMinmatarCore3: 10.0
-    TechLevel: 3.0
+    FitsToShipType: 29990
+    Hp: 40
+    LowSlotModifier: 1
+    MedSlotModifier: 3
+    MetaLevel: 1
+    RequiredSkill1: 30547
+    RequiredSkill1Level: 1
+    SubSystemSlot: 125
+    SubsystemBonusMinmatarCore: -5
+    SubsystemBonusMinmatarCore2: 25
+    SubsystemBonusMinmatarCore3: 10
+    TechLevel: 3
   Proteus Core - Augmented Fusion Reactor:
     CapacitorCapacity: 50.0
-    FitsToShipType: 29988.0
-    Hp: 40.0
-    LowSlotModifier: 2.0
-    MedSlotModifier: 2.0
-    MetaLevel: 1.0
+    FitsToShipType: 29988
+    Hp: 40
+    LowSlotModifier: 2
+    MedSlotModifier: 2
+    MetaLevel: 1
     PowerEngineeringOutputBonus: 20.0
-    RequiredSkill1: 30546.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 125.0
+    RequiredSkill1: 30546
+    RequiredSkill1Level: 1
+    SubSystemSlot: 125
     SubsystemBonusGallenteCore: -5.0
     SubsystemBonusGallenteCore2: -3.0
-    TechLevel: 3.0
+    TechLevel: 3
   Proteus Core - Electronic Efficiency Gate:
     CpuOutputBonus2: 25.0
-    FitsToShipType: 29988.0
-    Hp: 40.0
-    LowSlotModifier: 2.0
-    MaxLockedTargetsBonus: 1.0
-    MedSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30546.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 125.0
+    FitsToShipType: 29988
+    Hp: 40
+    LowSlotModifier: 2
+    MaxLockedTargetsBonus: 1
+    MedSlotModifier: 2
+    MetaLevel: 1
+    RequiredSkill1: 30546
+    RequiredSkill1Level: 1
+    SubSystemSlot: 125
     SubsystemBonusGallenteCore: 15.0
     SubsystemBonusGallenteCore2: 5.0
-    TechLevel: 3.0
+    TechLevel: 3
   Proteus Core - Friction Extension Processor:
-    FitsToShipType: 29988.0
-    Hp: 40.0
-    LowSlotModifier: 2.0
-    MedSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30546.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 125.0
+    FitsToShipType: 29988
+    Hp: 40
+    LowSlotModifier: 2
+    MedSlotModifier: 2
+    MetaLevel: 1
+    RequiredSkill1: 30546
+    RequiredSkill1Level: 1
+    SubSystemSlot: 125
     SubsystemBonusGallenteCore: -5.0
     SubsystemBonusGallenteCore2: 7.5
-    SubsystemBonusGallenteCore3: 15.0
-    TechLevel: 3.0
+    SubsystemBonusGallenteCore3: 15
+    TechLevel: 3
   Tengu Core - Augmented Graviton Reactor:
     CapacitorCapacity: 50.0
-    FitsToShipType: 29984.0
-    Hp: 40.0
-    LowSlotModifier: 2.0
-    MedSlotModifier: 2.0
-    MetaLevel: 1.0
+    FitsToShipType: 29984
+    Hp: 40
+    LowSlotModifier: 2
+    MedSlotModifier: 2
+    MetaLevel: 1
     PowerEngineeringOutputBonus: 20.0
-    RequiredSkill1: 30548.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 125.0
-    SubsystemBonusCaldariCore: 5.0
-    SubsystemBonusCaldariCore2: -3.0
-    TechLevel: 3.0
+    RequiredSkill1: 30548
+    RequiredSkill1Level: 1
+    SubSystemSlot: 125
+    SubsystemBonusCaldariCore: 5
+    SubsystemBonusCaldariCore2: -3
+    TechLevel: 3
   Tengu Core - Electronic Efficiency Gate:
     CpuOutputBonus2: 25.0
-    FitsToShipType: 29984.0
-    Hp: 40.0
-    LowSlotModifier: 1.0
-    MaxLockedTargetsBonus: 1.0
-    MedSlotModifier: 3.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30548.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 125.0
-    SubsystemBonusCaldariCore: 15.0
-    SubsystemBonusCaldariCore2: 5.0
-    TechLevel: 3.0
+    FitsToShipType: 29984
+    Hp: 40
+    LowSlotModifier: 1
+    MaxLockedTargetsBonus: 1
+    MedSlotModifier: 3
+    MetaLevel: 1
+    RequiredSkill1: 30548
+    RequiredSkill1Level: 1
+    SubSystemSlot: 125
+    SubsystemBonusCaldariCore: 15
+    SubsystemBonusCaldariCore2: 5
+    TechLevel: 3
   Tengu Core - Obfuscation Manifold:
-    FitsToShipType: 29984.0
-    Hp: 40.0
-    LowSlotModifier: 1.0
-    MedSlotModifier: 3.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30548.0
-    RequiredSkill1Level: 1.0
-    SubSystemSlot: 125.0
-    SubsystemBonusCaldariCore: -5.0
-    SubsystemBonusCaldariCore2: 10.0
-    SubsystemBonusCaldariCore3: 15.0
-    TechLevel: 3.0
+    FitsToShipType: 29984
+    Hp: 40
+    LowSlotModifier: 1
+    MedSlotModifier: 3
+    MetaLevel: 1
+    RequiredSkill1: 30548
+    RequiredSkill1Level: 1
+    SubSystemSlot: 125
+    SubsystemBonusCaldariCore: -5
+    SubsystemBonusCaldariCore2: 10
+    SubsystemBonusCaldariCore3: 15
+    TechLevel: 3

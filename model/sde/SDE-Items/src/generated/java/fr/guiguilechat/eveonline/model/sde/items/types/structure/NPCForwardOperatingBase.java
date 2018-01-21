@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Structure;
@@ -19,15 +20,15 @@ public class NPCForwardOperatingBase
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(300000.0D)
-    public double MaximumRangeCap;
+    @DefaultIntValue(300000)
+    public int MaximumRangeCap;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double NpcStructureStasisWebificationBonus;
     /**
      * 
@@ -35,7 +36,7 @@ public class NPCForwardOperatingBase
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double NpcStructureEnergyWarfareBonus;
     /**
      * Number of hours of vulnerability each week required. Applies only to categoryStructure.
@@ -43,8 +44,8 @@ public class NPCForwardOperatingBase
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double VulnerabilityRequired;
+    @DefaultIntValue(0)
+    public int VulnerabilityRequired;
     public final static String RESOURCE_PATH = "SDE/items/structure/NPCForwardOperatingBase.yaml";
     private static LinkedHashMap<String, NPCForwardOperatingBase> cache = (null);
 

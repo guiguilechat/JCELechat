@@ -1,301 +1,301 @@
 items:
   Adrestia Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Arazu Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Arbitrator Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Ashimmu Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Augoror Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Augoror Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Basilisk Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Bellicose Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Blackbird Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Broadsword Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Caracal Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Caracal Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Caracal Nugoeihuvi Edition Blueprint:
     IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
+    TechLevel: 1
   Caracal Wiyrkomi Edition Blueprint:
     IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
+    TechLevel: 1
   Celestis Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Cerberus Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Chameleon Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Curse Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Cynabal Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Deimos Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Devoter Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Eagle Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Enforcer Blueprint:
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Etana Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Exequror Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Exequror Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Falcon Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Fiend Blueprint:
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Gila Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Guardian Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Guardian-Vexor Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Huginn Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Ishtar Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Lachesis Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Maller Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Mimir Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Moa Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Moracha Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Muninn Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Omen Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Omen Kador Edition Blueprint:
     IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
+    TechLevel: 1
   Omen Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Omen Tash-Murkon Edition Blueprint:
     IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
+    TechLevel: 1
   Oneiros Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Onyx Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Orthrus Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Osprey Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Osprey Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Phantasm Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Phobos Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Pilgrim Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Rabisu Blueprint:
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Rapier Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Rook Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Rupture Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Sacrilege Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Scimitar Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Scythe Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Scythe Fleet Issue Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Stabber Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Stabber Fleet Issue Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Stabber Krusual Edition Blueprint:
     IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
+    TechLevel: 1
   Stabber Nefantar Edition Blueprint:
     IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
+    TechLevel: 1
   Stratios Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Stratios Emergency Responder Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Thorax Aliastra Edition Blueprint:
     IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
+    TechLevel: 1
   Thorax Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Thorax Inner Zone Shipping Edition Blueprint:
     IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
+    TechLevel: 1
   Vagabond Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Vangel Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Vexor Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Vexor Navy Issue Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Vexor Quafe Edition Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Victor Blueprint:
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Victorieux Luxury Yacht Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Vigilant Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Zealot Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   伊什塔级YC117年特别版蓝图:
-    TechLevel: 1.0
+    TechLevel: 1
   毒蜥级YC117年特别版蓝图:
-    TechLevel: 1.0
+    TechLevel: 1
   银鹰级YC117年特别版蓝图:
-    TechLevel: 1.0
+    TechLevel: 1

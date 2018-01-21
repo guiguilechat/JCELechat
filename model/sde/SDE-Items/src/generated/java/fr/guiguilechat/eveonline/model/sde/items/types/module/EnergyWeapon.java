@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Module;
@@ -19,7 +20,7 @@ public class EnergyWeapon
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double DamageMultiplier;
     /**
      * The size of the charges that can fit in the turret/whatever.
@@ -27,15 +28,15 @@ public class EnergyWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ChargeSize;
+    @DefaultIntValue(0)
+    public int ChargeSize;
     /**
      * reload time (ms)
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(10000.0D)
+    @DefaultDoubleValue(10000.0D)
     public double ReloadTime;
     /**
      * The amount of charge used from the capacitor for a module activation.
@@ -43,7 +44,7 @@ public class EnergyWeapon
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorNeed;
     /**
      * Required skill level for skill 1
@@ -51,39 +52,39 @@ public class EnergyWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * Required skill level for skill 2
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * Required skill level for skill 3
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill3Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill3Level;
     /**
      * One of the groups of charge this launcher can be loaded with.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ChargeGroup1;
+    @DefaultIntValue(0)
+    public int ChargeGroup1;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double HeatAbsorbtionRateModifier;
     /**
      * meta group of type
@@ -91,39 +92,39 @@ public class EnergyWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MetaGroupID;
+    @DefaultIntValue(0)
+    public int MetaGroupID;
     /**
      * One of the groups of charge this launcher can be loaded with.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ChargeGroup2;
+    @DefaultIntValue(0)
+    public int ChargeGroup2;
     /**
      * current power need
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * distance from maximum range at which accuracy has fallen by half
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(1.0D)
-    public double Falloff;
+    @DefaultIntValue(1)
+    public int Falloff;
     /**
      * Weapon accuracy
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double TrackingSpeed;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
@@ -131,31 +132,31 @@ public class EnergyWeapon
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double TypeColorScheme;
+    @DefaultIntValue(0)
+    public int TypeColorScheme;
     /**
      * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1000.0D)
-    public double OptimalSigRadius;
+    @DefaultIntValue(1000)
+    public int OptimalSigRadius;
     /**
      * The number of slots this module requires.  Only used for launchers, bays and turrets.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double Slots;
+    @DefaultIntValue(1)
+    public int Slots;
     /**
      * CPU need of module
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * EM damage done.
@@ -163,7 +164,7 @@ public class EnergyWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double EmDamage;
     /**
      * Time in milliseconds between possible activations
@@ -171,15 +172,15 @@ public class EnergyWeapon
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double Speed;
+    @DefaultIntValue(0)
+    public int Speed;
     /**
      * Explosive damage done.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ExplosiveDamage;
     /**
      * 
@@ -187,15 +188,15 @@ public class EnergyWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double OverloadRofBonus;
+    @DefaultIntValue(0)
+    public int OverloadRofBonus;
     /**
      * Kinetic damage done.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double KineticDamage;
     /**
      * Distance below which range does not affect the to-hit equation.
@@ -203,23 +204,23 @@ public class EnergyWeapon
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double MaxRange;
+    @DefaultIntValue(0)
+    public int MaxRange;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Thermal damage done.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ThermalDamage;
     /**
      * The type ID of the skill that is required.
@@ -227,23 +228,23 @@ public class EnergyWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2;
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill3;
+    @DefaultIntValue(0)
+    public int RequiredSkill3;
     /**
      * Tanking modifier applied to drones if their owner is tanking. 1.0 is no modifier
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.7D)
+    @DefaultDoubleValue(0.7D)
     public double AITankingModifierDrone;
     /**
      * 
@@ -251,23 +252,23 @@ public class EnergyWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double OverloadDamageModifier;
+    @DefaultIntValue(0)
+    public int OverloadDamageModifier;
     /**
      * Display name is misleading, this attribute is used only for Shield and Armor, but for convenience sake only this one is used.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ResistanceKiller;
+    @DefaultIntValue(0)
+    public int ResistanceKiller;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double HeatDamage;
     /**
      * 
@@ -275,40 +276,40 @@ public class EnergyWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ResistanceKillerHull;
+    @DefaultIntValue(0)
+    public int ResistanceKillerHull;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredThermoDynamicsSkill;
+    @DefaultIntValue(0)
+    public int RequiredThermoDynamicsSkill;
     /**
      * GroupID of module targeted by this weapon
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double TargetModule;
+    @DefaultIntValue(0)
+    public int TargetModule;
     /**
      * A temporary attribute for projectile/hybrid weapons to indicate which charges they have loaded when created in newbie ships ala ammo.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AmmoLoaded;
+    @DefaultIntValue(0)
+    public int AmmoLoaded;
     /**
      * NPC'S with this attribute wont shoot drones with signature radius less than this value.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AIIgnoreDronesBelowSignatureRadius;
+    @DefaultIntValue(0)
+    public int AIIgnoreDronesBelowSignatureRadius;
     public final static String RESOURCE_PATH = "SDE/items/module/EnergyWeapon.yaml";
     private static LinkedHashMap<String, EnergyWeapon> cache = (null);
 

@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Asteroid;
@@ -19,7 +20,7 @@ public class EmpireAsteroids
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StasisWebifierResistance;
     /**
      * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
@@ -27,8 +28,8 @@ public class EmpireAsteroids
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double OreBasicType;
+    @DefaultIntValue(0)
+    public int OreBasicType;
     /**
      *  0: Mission/NPE Ore
      *  1: Standard Ore/Ice
@@ -40,16 +41,16 @@ public class EmpireAsteroids
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AsteroidMetaLevel;
+    @DefaultIntValue(0)
+    public int AsteroidMetaLevel;
     /**
      * Sets the radius of the asteroid ball when it has a quantity of 1 unit
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(90.0D)
-    public double AsteroidRadiusUnitSize;
+    @DefaultIntValue(90)
+    public int AsteroidRadiusUnitSize;
     public final static String RESOURCE_PATH = "SDE/items/asteroid/EmpireAsteroids.yaml";
     private static LinkedHashMap<String, EmpireAsteroids> cache = (null);
 

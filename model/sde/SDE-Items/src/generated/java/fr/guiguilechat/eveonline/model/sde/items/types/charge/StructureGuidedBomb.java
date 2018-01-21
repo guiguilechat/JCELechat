@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Charge;
@@ -19,31 +20,31 @@ public class StructureGuidedBomb
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EnergyNeutralizerAmount;
+    @DefaultIntValue(0)
+    public int EnergyNeutralizerAmount;
     /**
      * Range of broadcasted EMP field.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double EmpFieldRange;
+    @DefaultIntValue(0)
+    public int EmpFieldRange;
     /**
      * Determines wether a missile launches aligned with the ship (0) or directly at the target (1).
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AimedLaunch;
+    @DefaultIntValue(0)
+    public int AimedLaunch;
     /**
      * Maximum velocity of ship
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxVelocity;
     /**
      * The agility of the object.
@@ -51,7 +52,7 @@ public class StructureGuidedBomb
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Agility;
     /**
      * Missile Damage Modifier. Smaller is better (Don't use less than 0.5)
@@ -59,7 +60,7 @@ public class StructureGuidedBomb
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double AoeDamageReductionFactor;
     /**
      * One of the groups of launcher this charge can be loaded into.
@@ -67,39 +68,39 @@ public class StructureGuidedBomb
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LauncherGroup;
+    @DefaultIntValue(0)
+    public int LauncherGroup;
     /**
      * The maximum hitpoints of an object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * Range in meters of explosion effect area.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ExplosionRange;
+    @DefaultIntValue(0)
+    public int ExplosionRange;
     /**
      * the range in meters for an object to trigger detonation of missile. (own ship excluded)
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DetonationRange;
+    @DefaultIntValue(0)
+    public int DetonationRange;
     /**
      * Velocity of the damage cloud created on impact.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double AoeVelocity;
     /**
      * DO NOT MESS WITH
@@ -107,7 +108,7 @@ public class StructureGuidedBomb
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StructureUniformity;
     /**
      * Size of the damage cloud caused by impact.
@@ -115,15 +116,15 @@ public class StructureGuidedBomb
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double AoeCloudSize;
+    @DefaultIntValue(0)
+    public int AoeCloudSize;
     /**
      * EM damage done.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double EmDamage;
     /**
      * Explosive damage done.
@@ -131,7 +132,7 @@ public class StructureGuidedBomb
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ExplosiveDamage;
     /**
      * Kinetic damage done.
@@ -139,7 +140,7 @@ public class StructureGuidedBomb
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double KineticDamage;
     /**
      * Thermal damage done.
@@ -147,7 +148,7 @@ public class StructureGuidedBomb
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ThermalDamage;
     /**
      * The amount of milliseconds before the object explodes.
@@ -155,24 +156,24 @@ public class StructureGuidedBomb
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ExplosionDelay;
+    @DefaultIntValue(0)
+    public int ExplosionDelay;
     /**
      * Attribute ID of the resistance type v's this Ewar module.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RemoteResistanceID;
+    @DefaultIntValue(0)
+    public int RemoteResistanceID;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double StructureItemVisualFlag;
+    @DefaultIntValue(0)
+    public int StructureItemVisualFlag;
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureGuidedBomb.yaml";
     private static LinkedHashMap<String, StructureGuidedBomb> cache = (null);
 

@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.accessories;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Accessories;
@@ -19,16 +19,16 @@ public class LegacyCurrency
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AurumConversionRate;
+    @DefaultIntValue(0)
+    public int AurumConversionRate;
     /**
      * Number of days that this PLEX adds to your account
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double NumDays;
+    @DefaultIntValue(0)
+    public int NumDays;
     public final static String RESOURCE_PATH = "SDE/items/accessories/LegacyCurrency.yaml";
     private static LinkedHashMap<String, LegacyCurrency> cache = (null);
 

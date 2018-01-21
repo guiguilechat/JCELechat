@@ -1,14 +1,14 @@
 items:
   Ion Cannon:
     AccessDifficulty: -10.0
-    AnchoringDelay: 10000.0
-    ArmorHP: 5000.0
+    AnchoringDelay: 10000
+    ArmorHP: 5000
     ArmorUniformity: 1.0
-    Hp: 5000.0
-    OnliningDelay: 10000.0
-    ShieldCapacity: 5000.0
+    Hp: 5000
+    OnliningDelay: 10000
+    ShieldCapacity: 5000
     ShieldRechargeRate: 3600000.0
     ShieldUniformity: 1.0
     StructureUniformity: 1.0
-    UnanchoringDelay: 10000.0
+    UnanchoringDelay: 10000
     Uniformity: 1.0

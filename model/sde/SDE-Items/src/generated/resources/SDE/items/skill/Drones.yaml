@@ -1,228 +1,226 @@
 items:
   Advanced Drone Avionics:
-    DroneRangeBonus: 3000.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3427.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 167.0
+    DroneRangeBonus: 3000
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3427
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Amarr Drone Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 167.0
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Caldari Drone Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 167.0
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Drone Avionics:
-    DroneRangeBonus: 5000.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 167.0
+    DroneRangeBonus: 5000
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 167
     SkillTimeConstant: 1.0
   Drone Durability:
-    ArmorHpBonus: 5.0
-    HullHpBonus: 5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 167.0
-    ShieldCapacityBonus: 5.0
+    ArmorHpBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Drone Interfacing:
-    DamageMultiplierBonus: 10.0
-    MiningAmountBonus: 10.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 167.0
+    DamageMultiplierBonus: 10
+    MiningAmountBonus: 10
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Drone Navigation:
-    MaxVelocityBonus: 5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 167.0
+    MaxVelocityBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 167
     SkillTimeConstant: 1.0
   Drone Sharpshooting:
-    PrimaryAttribute: 166.0
-    RangeSkillBonus: 5.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 167.0
+    PrimaryAttribute: 166
+    RangeSkillBonus: 5
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
     SkillTimeConstant: 1.0
   Drones:
-    MaxActiveDroneBonus: 1.0
-    PrimaryAttribute: 166.0
-    SecondaryAttribute: 167.0
+    MaxActiveDroneBonus: 1
+    PrimaryAttribute: 166
+    SecondaryAttribute: 167
     SkillTimeConstant: 1.0
   Fighter Hangar Management:
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 23069.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 167.0
-    SkillBonusFighterHangarSize: 5.0
+    PrimaryAttribute: 166
+    RequiredSkill1: 23069
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 167
+    SkillBonusFighterHangarSize: 5
     SkillTimeConstant: 8.0
   Fighters:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3442.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3348.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 167.0
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3442
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3348
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 167
     SkillTimeConstant: 12.0
   Gallente Drone Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 167.0
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Heavy Drone Operation:
-    DamageMultiplierBonus: 5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 167.0
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Heavy Fighters:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 23069.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 167.0
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 23069
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 167
     SkillTimeConstant: 12.0
   Ice Harvesting Drone Operation:
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 16281.0
-    RequiredSkill2Level: 2.0
-    RofBonus: -5.0
-    SecondaryAttribute: 167.0
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 1
+    RequiredSkill2: 16281
+    RequiredSkill2Level: 2
+    RofBonus: -5
+    SecondaryAttribute: 167
     SkillTimeConstant: 2.0
   Ice Harvesting Drone Specialization:
-    MaxVelocityBonus: 2.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 43702.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 16281.0
-    RequiredSkill2Level: 4.0
-    RofBonus: -2.0
-    SecondaryAttribute: 167.0
+    MaxVelocityBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 43702
+    RequiredSkill1Level: 5
+    RequiredSkill2: 16281
+    RequiredSkill2Level: 4
+    RofBonus: -2
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Light Drone Operation:
-    DamageMultiplierBonus: 5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 167.0
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 167
     SkillTimeConstant: 1.0
   Light Fighters:
-    CanNotBeTrainedOnTrial: 1.0
-    MaxVelocityBonus: 5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 23069.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 167.0
+    CanNotBeTrainedOnTrial: 1
+    MaxVelocityBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 23069
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 167
     SkillTimeConstant: 12.0
   Medium Drone Operation:
-    DamageMultiplierBonus: 5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 167.0
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 167
     SkillTimeConstant: 2.0
   Mining Drone Operation:
-    MiningAmountBonus: 5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 2.0
-    SecondaryAttribute: 167.0
+    MiningAmountBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 2
+    SecondaryAttribute: 167
     SkillTimeConstant: 2.0
   Mining Drone Specialization:
-    MaxVelocityBonus: 2.0
-    MiningAmountBonus: 2.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3438.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 167.0
+    MaxVelocityBonus: 2
+    MiningAmountBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3438
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Minmatar Drone Specialization:
-    CanNotBeTrainedOnTrial: 1.0
-    DamageMultiplierBonus: 2.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 167.0
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Propulsion Jamming Drone Interfacing:
-    PrimaryAttribute: 166.0
-    PropulsionSkillPropulsionStrengthBonus: 5.0
-    RequiredSkill1: 3442.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 12305.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 167.0
+    PrimaryAttribute: 166
+    PropulsionSkillPropulsionStrengthBonus: 5
+    RequiredSkill1: 3442
+    RequiredSkill1Level: 4
+    RequiredSkill2: 12305
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Repair Drone Operation:
-    DamageHP: 5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 23618.0
-    RequiredSkill2Level: 1.0
-    SecondaryAttribute: 167.0
+    DamageHP: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    RequiredSkill2: 23618
+    RequiredSkill2Level: 1
+    SecondaryAttribute: 167
     SkillTimeConstant: 3.0
   Salvage Drone Operation:
-    AccessDifficultyBonus: 2.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 25863.0
-    RequiredSkill2Level: 2.0
-    SecondaryAttribute: 167.0
+    AccessDifficultyBonus: 2
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 4
+    RequiredSkill2: 25863
+    RequiredSkill2Level: 2
+    SecondaryAttribute: 167
     SkillTimeConstant: 4.0
   Sentry Drone Interfacing:
-    DamageMultiplierBonus: 5.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3442.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 23606.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 167.0
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 166
+    RequiredSkill1: 3442
+    RequiredSkill1Level: 4
+    RequiredSkill2: 23606
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0
   Support Fighters:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 23069.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 167.0
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 166
+    RequiredSkill1: 23069
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 167
     ShieldBonus: 5.0
-    SkillLevel: 1.0
+    SkillLevel: 1
     SkillTimeConstant: 12.0
   TEST Drone Skill:
-    PrimaryAttribute: 166.0
-    RequiredSkill1: 3436.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 167.0
+    PrimaryAttribute: 166
+    RequiredSkill1: 3436
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 167
     SkillTimeConstant: 5.0

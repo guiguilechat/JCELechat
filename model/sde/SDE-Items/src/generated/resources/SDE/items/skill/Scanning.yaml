@@ -1,58 +1,58 @@
 items:
   Archaeology:
-    AccessDifficultyBonusAbsolutePercent: 1.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3402.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3551.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 166.0
+    AccessDifficultyBonusAbsolutePercent: 1
+    PrimaryAttribute: 165
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3551
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
-    VirusCoherenceBonus: 10.0
+    VirusCoherenceBonus: 10
   Astrometric Acquisition:
-    DurationBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 166.0
+    DurationBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 5.0
   Astrometric Pinpointing:
-    MaxScanDeviationModifier: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
+    MaxScanDeviationModifier: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
     SkillTimeConstant: 5.0
   Astrometric Rangefinding:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3402.0
-    RequiredSkill1Level: 3.0
-    ScanStrengthBonus: 5.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 3
+    ScanStrengthBonus: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 8.0
   Astrometrics:
-    DurationBonus: -5.0
-    MaxScanDeviationModifier: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3402.0
-    RequiredSkill1Level: 3.0
-    ScanStrengthBonus: 5.0
-    SecondaryAttribute: 166.0
+    DurationBonus: -5
+    MaxScanDeviationModifier: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 3
+    ScanStrengthBonus: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Hacking:
-    AccessDifficultyBonusAbsolutePercent: 1.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3402.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3432.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 166.0
+    AccessDifficultyBonusAbsolutePercent: 1
+    PrimaryAttribute: 165
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3432
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
-    VirusCoherenceBonus: 10.0
+    VirusCoherenceBonus: 10
   Survey:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanspeedBonus: -5.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanspeedBonus: -5
+    SecondaryAttribute: 166
     SkillTimeConstant: 1.0

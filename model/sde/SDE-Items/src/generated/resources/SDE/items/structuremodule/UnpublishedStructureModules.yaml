@@ -1,402 +1,402 @@
 items:
   Corporation Offices:
-    CanFitShipGroup01: 1657.0
-    Falloff: 1.0
+    CanFitShipGroup01: 1657
+    Falloff: 1
     ReloadTime: 10000.0
     SpeedFactor: 1.0
   Standup CSP Tractor Beam I:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 100.0
     Cpu: 1000.0
     Duration: 10000.0
-    Falloff: 1.0
-    Hp: 40.0
-    MaxRange: 250000.0
-    MaxTractorVelocity: 2000.0
-    Power: 100000.0
+    Falloff: 1
+    Hp: 40
+    MaxRange: 250000
+    MaxTractorVelocity: 2000
+    Power: 100000
     ReloadTime: 10000.0
-    RequiredSkill1: 37798.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37798
+    RequiredSkill1Level: 1
     SpeedFactor: 1.0
-    StructureItemVisualFlag: 1.0
+    StructureItemVisualFlag: 1
   Standup Drug Lab I:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     Cpu: 2000.0
-    Falloff: 1.0
-    MaxTypeFitted: 1.0
-    Power: 200000.0
+    Falloff: 1
+    MaxTypeFitted: 1
+    Power: 200000
     ReloadTime: 10000.0
-    ServiceModuleFuelAmount: 5.0
-    ServiceModuleFuelConsumptionGroup: 1136.0
-    ServiceModuleFuelOnlineAmount: 360.0
+    ServiceModuleFuelAmount: 5
+    ServiceModuleFuelConsumptionGroup: 1136
+    ServiceModuleFuelOnlineAmount: 360
     SpeedFactor: 1.0
-    StructureItemVisualFlag: 1.0
+    StructureItemVisualFlag: 1
   Standup Fighter Damage Amplifier I:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     Cpu: 1500.0
     DroneDamageBonus: 15.0
-    Falloff: 1.0
-    Hp: 40.0
-    Power: 50000.0
+    Falloff: 1
+    Hp: 40
+    Power: 50000
     ReloadTime: 10000.0
-    RequiredSkill1: 37798.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37798
+    RequiredSkill1Level: 1
     SpeedFactor: 1.0
-    StructureItemVisualFlag: 1.0
+    StructureItemVisualFlag: 1
   Standup Fighter Tracking Enhancer I:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     Cpu: 1000.0
-    Falloff: 1.0
+    Falloff: 1
     FalloffBonus: 13.399999618530273
-    Hp: 40.0
+    Hp: 40
     MaxRangeBonus: 6.699999809265137
-    Power: 50000.0
+    Power: 50000
     ReloadTime: 10000.0
-    RequiredSkill1: 37798.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37798
+    RequiredSkill1Level: 1
     SpeedFactor: 1.0
-    StructureItemVisualFlag: 1.0
+    StructureItemVisualFlag: 1
     TrackingSpeedBonus: 7.0
   Standup Repulsor Field Projector I:
-    BumpingStrength: 1.0
-    CanFitShipGroup01: 1657.0
+    BumpingStrength: 1
+    CanFitShipGroup01: 1657
     CapacitorNeed: 60000.0
     Cpu: 3000.0
     Duration: 10000.0
-    Falloff: 1.0
-    Hp: 40.0
-    MaxRange: 250000.0
-    Power: 50000.0
+    Falloff: 1
+    Hp: 40
+    MaxRange: 250000
+    Power: 50000
     ReloadTime: 10000.0
-    RequiredSkill1: 37799.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37799
+    RequiredSkill1Level: 1
     SpeedFactor: 1.0
-    StructureItemVisualFlag: 1.0
+    StructureItemVisualFlag: 1
   Structure Armored Targeted Link:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 500.0
     CommandBonus: -4.800000190734863
     Cpu: 1500.0
     Duration: 10000.0
-    Falloff: 1.0
-    Hp: 40.0
-    MaxRange: 50000.0
-    Power: 200000.0
+    Falloff: 1
+    Hp: 40
+    MaxRange: 50000
+    Power: 200000
     ReloadTime: 10000.0
     SpeedFactor: 1.0
   Structure Compression Plant:
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
     Cpu: 1000.0
-    Falloff: 1.0
-    Power: 200000.0
+    Falloff: 1
+    Power: 200000
     ReloadTime: 10000.0
-    ServiceModuleFuelAmount: 5.0
-    ServiceModuleFuelConsumptionGroup: 1136.0
-    ServiceModuleFuelOnlineAmount: 360.0
+    ServiceModuleFuelAmount: 5
+    ServiceModuleFuelConsumptionGroup: 1136
+    ServiceModuleFuelOnlineAmount: 360
     SpeedFactor: 1.0
   Structure Corporation Insurance:
-    CanFitShipGroup01: 1657.0
-    Falloff: 1.0
+    CanFitShipGroup01: 1657
+    Falloff: 1
     ReloadTime: 10000.0
-    ServiceModuleFuelConsumptionGroup: 1136.0
+    ServiceModuleFuelConsumptionGroup: 1136
     SpeedFactor: 1.0
   Structure Customs Office:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     Cpu: 1500.0
-    Falloff: 1.0
-    Power: 200000.0
+    Falloff: 1
+    Power: 200000
     ReloadTime: 10000.0
-    ServiceModuleFuelConsumptionGroup: 1136.0
+    ServiceModuleFuelConsumptionGroup: 1136
     SpeedFactor: 1.0
   Structure Drone Link Augmentor:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     Cpu: 1000.0
-    DroneRangeBonus: 20000.0
+    DroneRangeBonus: 20000
     Duration: 10000.0
-    Falloff: 1.0
-    Hp: 40.0
-    Power: 100000.0
+    Falloff: 1
+    Hp: 40
+    Power: 100000
     ReloadTime: 10000.0
-    RequiredSkill1: 37796.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37796
+    RequiredSkill1Level: 1
     SpeedFactor: 1.0
   Structure Drone Navigation Computer:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 200.0
     Cpu: 1500.0
     Duration: 10000.0
-    Falloff: 1.0
-    Hp: 40.0
-    Power: 50000.0
+    Falloff: 1
+    Hp: 40
+    Power: 50000
     ReloadTime: 10000.0
-    RequiredSkill1: 37798.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37798
+    RequiredSkill1Level: 1
     SpeedFactor: 25.0
   Structure ECCM Projector:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 200.0
     Cpu: 1000.0
     Duration: 10000.0
-    Falloff: 100000.0
-    Hp: 40.0
-    MaxRange: 100000.0
-    Power: 50000.0
+    Falloff: 100000
+    Hp: 40
+    MaxRange: 100000
+    Power: 50000
     ReloadTime: 10000.0
-    RequiredSkill1: 37798.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 100.0
-    ScanLadarStrengthPercent: 100.0
-    ScanMagnetometricStrengthPercent: 100.0
-    ScanRadarStrengthPercent: 100.0
+    RequiredSkill1: 37798
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 100
+    ScanLadarStrengthPercent: 100
+    ScanMagnetometricStrengthPercent: 100
+    ScanRadarStrengthPercent: 100
     SpeedFactor: 1.0
   Structure Information Targeted Link:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 500.0
     CommandBonus: -4.800000190734863
     Cpu: 1500.0
     Duration: 10000.0
-    Falloff: 1.0
-    Hp: 40.0
-    MaxRange: 50000.0
-    Power: 200000.0
+    Falloff: 1
+    Hp: 40
+    MaxRange: 50000
+    Power: 200000
     ReloadTime: 10000.0
     SpeedFactor: 1.0
   Structure Interbus Transport Service:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     Cpu: 6000.0
-    Falloff: 1.0
-    Power: 600000.0
+    Falloff: 1
+    Power: 600000
     ReloadTime: 10000.0
-    ServiceModuleFuelConsumptionGroup: 1136.0
+    ServiceModuleFuelConsumptionGroup: 1136
     SpeedFactor: 1.0
   Structure Loyalty Point Store:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     Cpu: 1000.0
-    Falloff: 1.0
-    Power: 150000.0
+    Falloff: 1
+    Power: 150000
     ReloadTime: 10000.0
-    ServiceModuleFuelConsumptionGroup: 1136.0
+    ServiceModuleFuelConsumptionGroup: 1136
     SpeedFactor: 1.0
   Structure Mining Targeted Link:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 500.0
     CommandBonus: -4.800000190734863
     Cpu: 1500.0
     Duration: 10000.0
-    Falloff: 1.0
-    Hp: 40.0
-    MaxRange: 50000.0
-    Power: 200000.0
+    Falloff: 1
+    Hp: 40
+    MaxRange: 50000
+    Power: 200000
     ReloadTime: 10000.0
     SpeedFactor: 1.0
   Structure Missile Guidance Computer:
     AoeCloudSizeBonus: -5.0
     AoeVelocityBonus: 5.0
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 200.0
-    ChargeGroup1: 1400.0
-    ChargeSize: 1.0
+    ChargeGroup1: 1400
+    ChargeSize: 1
     Cpu: 1500.0
     Duration: 10000.0
     ExplosionDelayBonus: 4.0
-    Falloff: 1.0
-    Hp: 40.0
+    Falloff: 1
+    Hp: 40
     MissileVelocityBonus: 4.0
-    Power: 50000.0
+    Power: 50000
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 37798.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37798
+    RequiredSkill1Level: 1
     SpeedFactor: 1.0
   Structure Moon Drilling:
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
     Cpu: 3000.0
-    Falloff: 1.0
-    Power: 450000.0
+    Falloff: 1
+    Power: 450000
     ReloadTime: 10000.0
     SpeedFactor: 1.0
   Structure Planetoid Drilling:
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
     Cpu: 4000.0
-    Falloff: 1.0
-    Power: 800000.0
+    Falloff: 1
+    Power: 800000
     ReloadTime: 10000.0
     SpeedFactor: 1.0
   Structure Remote Armor Repairer:
-    ArmorDamageAmount: 500.0
-    CanFitShipGroup01: 1657.0
+    ArmorDamageAmount: 500
+    CanFitShipGroup01: 1657
     CapacitorNeed: 300.0
     Cpu: 1000.0
     Duration: 10000.0
-    Falloff: 1.0
-    FalloffEffectiveness: 25000.0
-    Hp: 40.0
-    MaxRange: 50000.0
-    Power: 275000.0
+    Falloff: 1
+    FalloffEffectiveness: 25000
+    Hp: 40
+    MaxRange: 50000
+    Power: 275000
     ReloadTime: 10000.0
-    RequiredSkill1: 37797.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37797
+    RequiredSkill1Level: 1
     SpeedFactor: 1.0
   Structure Remote Capacitor Transmitter:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 500.0
     Cpu: 1500.0
     Duration: 10000.0
-    Falloff: 1.0
-    Hp: 40.0
-    MaxRange: 7500.0
-    Power: 200000.0
-    PowerTransferAmount: 300.0
+    Falloff: 1
+    Hp: 40
+    MaxRange: 7500
+    Power: 200000
+    PowerTransferAmount: 300
     ReloadTime: 10000.0
-    RequiredSkill1: 37799.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37799
+    RequiredSkill1Level: 1
     SpeedFactor: 1.0
   Structure Remote Hull Repairer:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 300.0
     Cpu: 1500.0
     Duration: 10000.0
-    Falloff: 1.0
-    FalloffEffectiveness: 25000.0
-    Hp: 40.0
-    MaxRange: 50000.0
-    Power: 200000.0
+    Falloff: 1
+    FalloffEffectiveness: 25000
+    Hp: 40
+    MaxRange: 50000
+    Power: 200000
     ReloadTime: 10000.0
-    RequiredSkill1: 37797.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37797
+    RequiredSkill1Level: 1
     SpeedFactor: 1.0
-    StructureDamageAmount: 500.0
+    StructureDamageAmount: 500
   Structure Remote Missile Guidance Computer:
     AoeCloudSizeBonus: -5.0
     AoeVelocityBonus: 5.0
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 200.0
-    ChargeGroup1: 1400.0
-    ChargeSize: 1.0
+    ChargeGroup1: 1400
+    ChargeSize: 1
     Cpu: 1000.0
     Duration: 10000.0
     ExplosionDelayBonus: 4.0
-    Falloff: 50000.0
-    Hp: 40.0
-    MaxRange: 100000.0
+    Falloff: 50000
+    Hp: 40
+    MaxRange: 100000
     MissileVelocityBonus: 4.0
-    Power: 50000.0
+    Power: 50000
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 37798.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37798
+    RequiredSkill1Level: 1
     SpeedFactor: 1.0
   Structure Remote Sensor Booster:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 200.0
-    ChargeGroup1: 910.0
-    ChargeSize: 1.0
+    ChargeGroup1: 910
+    ChargeSize: 1
     Cpu: 1000.0
     Duration: 10000.0
-    Falloff: 100000.0
-    Hp: 40.0
-    MaxRange: 100000.0
+    Falloff: 100000
+    Hp: 40
+    MaxRange: 100000
     MaxTargetRangeBonus: 33.79999923706055
-    Power: 50000.0
+    Power: 50000
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 37798.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37798
+    RequiredSkill1Level: 1
     ScanResolutionBonus: 28.0
     SpeedFactor: 1.0
   Structure Remote Shield Booster:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 400.0
     Cpu: 2000.0
     Duration: 10000.0
-    Falloff: 1.0
-    FalloffEffectiveness: 25000.0
-    Hp: 40.0
-    Power: 150000.0
+    Falloff: 1
+    FalloffEffectiveness: 25000
+    Hp: 40
+    Power: 150000
     ReloadTime: 10000.0
-    RequiredSkill1: 37797.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37797
+    RequiredSkill1Level: 1
     ShieldBonus: 40.0
-    ShieldTransferRange: 4000.0
+    ShieldTransferRange: 4000
     SpeedFactor: 1.0
   Structure Remote Tracking Computer:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 200.0
-    ChargeGroup1: 907.0
-    ChargeSize: 1.0
+    ChargeGroup1: 907
+    ChargeSize: 1
     Cpu: 1000.0
     Duration: 10000.0
-    Falloff: 1.0
+    Falloff: 1
     FalloffBonus: 10.0
-    Hp: 40.0
-    MaxRange: 100000.0
+    Hp: 40
+    MaxRange: 100000
     MaxRangeBonus: 5.0
-    Power: 50000.0
+    Power: 50000
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 37798.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37798
+    RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TrackingSpeedBonus: 10.0
   Structure Resistance Switcher:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 100000.0
-    ChargeGroup1: 1559.0
-    ChargeSize: 1.0
+    ChargeGroup1: 1559
+    ChargeSize: 1
     Cpu: 1000.0
     Duration: 1000.0
-    Falloff: 1.0
-    Hp: 40.0
-    Power: 100000.0
+    Falloff: 1
+    Hp: 40
+    Power: 100000
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 37797.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37797
+    RequiredSkill1Level: 1
     SpeedFactor: 1.0
   Structure Scan Resolution Booster:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 200.0
-    ChargeGroup1: 910.0
-    ChargeSize: 1.0
+    ChargeGroup1: 910
+    ChargeSize: 1
     Cpu: 1500.0
     Duration: 10000.0
-    Falloff: 1.0
-    Hp: 40.0
-    Power: 50000.0
+    Falloff: 1
+    Hp: 40
+    Power: 50000
     ReloadTime: 0.009999999776482582
-    RequiredSkill1: 37798.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 37798
+    RequiredSkill1Level: 1
     ScanResolutionBonus: 30.0
     SpeedFactor: 1.0
   Structure Siege Targeted Link:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 500.0
     CommandBonus: -4.800000190734863
     Cpu: 1500.0
     Duration: 10000.0
-    Falloff: 1.0
-    Hp: 40.0
-    MaxRange: 50000.0
-    Power: 200000.0
+    Falloff: 1
+    Hp: 40
+    MaxRange: 50000
+    Power: 200000
     ReloadTime: 10000.0
     SpeedFactor: 1.0
   Structure Skirmish Targeted Link:
-    CanFitShipGroup01: 1657.0
+    CanFitShipGroup01: 1657
     CapacitorNeed: 500.0
     CommandBonus: -4.800000190734863
     Cpu: 1500.0
     Duration: 10000.0
-    Falloff: 1.0
-    Hp: 40.0
-    MaxRange: 50000.0
-    Power: 200000.0
+    Falloff: 1
+    Hp: 40
+    MaxRange: 50000
+    Power: 200000
     ReloadTime: 10000.0
     SpeedFactor: 1.0
   Structure Tracking Enhancer:
-    CanFitShipGroup01: 1657.0
-    Falloff: 1.0
+    CanFitShipGroup01: 1657
+    Falloff: 1
     ReloadTime: 10000.0
     SpeedFactor: 1.0
   Structure Warp Scrambler Generator:
-    CanFitShipGroup01: 1657.0
-    Falloff: 1.0
+    CanFitShipGroup01: 1657
+    Falloff: 1
     ReloadTime: 10000.0
     SpeedFactor: 1.0

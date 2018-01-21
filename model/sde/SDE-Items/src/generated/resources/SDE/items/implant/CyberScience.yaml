@@ -1,75 +1,75 @@
 items:
   Hardwiring - Poteque Pharmaceuticals 'Draftsman' GI-1:
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
   Hardwiring - Poteque Pharmaceuticals 'Draftsman' GI-2:
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Hardwiring - Zainou 'Beancounter' CI-1:
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
   Hardwiring - Zainou 'Beancounter' CI-2:
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Zainou 'Beancounter' Metallurgy MY-701:
-    Implantness: 7.0
-    MineralNeedResearchBonus: -1.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    Implantness: 7
+    MineralNeedResearchBonus: -1
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Zainou 'Beancounter' Metallurgy MY-703:
-    Implantness: 7.0
-    MineralNeedResearchBonus: -3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    Implantness: 7
+    MineralNeedResearchBonus: -3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Zainou 'Beancounter' Metallurgy MY-705:
-    Implantness: 7.0
-    MineralNeedResearchBonus: -5.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    Implantness: 7
+    MineralNeedResearchBonus: -5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Zainou 'Beancounter' Research RR-601:
-    BlueprintmanufactureTimeBonus: -1.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    BlueprintmanufactureTimeBonus: -1
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Zainou 'Beancounter' Research RR-603:
-    BlueprintmanufactureTimeBonus: -3.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    BlueprintmanufactureTimeBonus: -3
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Zainou 'Beancounter' Research RR-605:
-    BlueprintmanufactureTimeBonus: -5.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    BlueprintmanufactureTimeBonus: -5
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Zainou 'Beancounter' Science SC-801:
-    CopySpeedBonus: -1.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    CopySpeedBonus: -1
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Zainou 'Beancounter' Science SC-803:
-    CopySpeedBonus: -3.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    CopySpeedBonus: -3
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Zainou 'Beancounter' Science SC-805:
-    CopySpeedBonus: -5.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    CopySpeedBonus: -5
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1

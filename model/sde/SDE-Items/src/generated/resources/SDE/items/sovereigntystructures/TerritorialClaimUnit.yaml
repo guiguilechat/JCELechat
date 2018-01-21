@@ -4,10 +4,10 @@ items:
     ScanLadarStrength: 2000.0
     ScanMagnetometricStrength: 2000.0
     ScanRadarStrength: 2000.0
-    SignatureRadius: 4000.0
+    SignatureRadius: 4000
   Territorial Claim Unit:
     ScanGravimetricStrength: 400.0
     ScanLadarStrength: 400.0
     ScanMagnetometricStrength: 400.0
     ScanRadarStrength: 400.0
-    SignatureRadius: 4000.0
+    SignatureRadius: 4000

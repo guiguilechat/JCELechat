@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Asteroid;
@@ -19,15 +20,15 @@ public class Mercoxit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DamageCloudType;
+    @DefaultIntValue(0)
+    public int DamageCloudType;
     /**
      * Resistance against Stasis Webifiers
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StasisWebifierResistance;
     /**
      * What type this type can be compressed into
@@ -35,47 +36,47 @@ public class Mercoxit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CompressionTypeID;
+    @DefaultIntValue(0)
+    public int CompressionTypeID;
     /**
      * Number of items needed to be able to compress it
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CompressionQuantityNeeded;
+    @DefaultIntValue(0)
+    public int CompressionQuantityNeeded;
     /**
      * The skill required to reprocess this ore type.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ReprocessingSkillType;
+    @DefaultIntValue(0)
+    public int ReprocessingSkillType;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double OreBasicType;
+    @DefaultIntValue(0)
+    public int OreBasicType;
     /**
      * %chance of new asteroid releasing damage cloud each mining turn.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double DamageCloudChance;
     /**
      *  0: Mission/NPE Ore
@@ -88,15 +89,15 @@ public class Mercoxit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AsteroidMetaLevel;
+    @DefaultIntValue(0)
+    public int AsteroidMetaLevel;
     /**
      * Controls how quickly an asteroid radius increases as its quantity grows.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double AsteroidRadiusGrowthFactor;
     /**
      * Sets the radius of the asteroid ball when it has a quantity of 1 unit
@@ -104,8 +105,8 @@ public class Mercoxit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(90.0D)
-    public double AsteroidRadiusUnitSize;
+    @DefaultIntValue(90)
+    public int AsteroidRadiusUnitSize;
     public final static String RESOURCE_PATH = "SDE/items/asteroid/Mercoxit.yaml";
     private static LinkedHashMap<String, Mercoxit> cache = (null);
 

@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Commodity;
@@ -19,55 +20,55 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WarpBubbleImmuneModifier;
+    @DefaultIntValue(0)
+    public int WarpBubbleImmuneModifier;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double JumpHarmonicsModifier;
+    @DefaultIntValue(0)
+    public int JumpHarmonicsModifier;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ArmorHPBonusAdd;
+    @DefaultIntValue(0)
+    public int ArmorHPBonusAdd;
     /**
      * Amount of maximum shield HP on the item.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShieldCapacity;
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * Indicates that a module or subsystem has been phased out. Primarily used by saved fittings.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ModuleIsObsolete;
+    @DefaultIntValue(0)
+    public int ModuleIsObsolete;
     /**
      * The maximum hitpoints of an object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CloakingCpuNeedBonus;
     /**
      * 
@@ -75,7 +76,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double PassiveArmorEmDamageResonance;
     /**
      * 
@@ -83,23 +84,23 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(30000.0D)
-    public double CovertOpsAndReconOpsCloakModuleDelay;
+    @DefaultIntValue(30000)
+    public int CovertOpsAndReconOpsCloakModuleDelay;
     /**
      * power output of power core
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double PowerOutput;
+    @DefaultIntValue(0)
+    public int PowerOutput;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double PassiveArmorThermalDamageResonance;
     /**
      * 
@@ -107,7 +108,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double PassiveArmorKineticDamageResonance;
     /**
      * 
@@ -115,7 +116,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double PassiveArmorExplosiveDamageResonance;
     /**
      * 
@@ -123,7 +124,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double PassiveShieldExplosiveDamageResonance;
     /**
      * 
@@ -131,15 +132,15 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RoleBonusCommandBurstAoERange;
+    @DefaultIntValue(0)
+    public int RoleBonusCommandBurstAoERange;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double PassiveShieldEmDamageResonance;
     /**
      * 
@@ -147,7 +148,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double PassiveShieldKineticDamageResonance;
     /**
      * 
@@ -155,7 +156,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double PassiveShieldThermalDamageResonance;
     /**
      * Required skill level for skill 1
@@ -163,39 +164,39 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LightColor;
+    @DefaultIntValue(0)
+    public int LightColor;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusAmarrCore;
+    @DefaultIntValue(0)
+    public int SubsystemBonusAmarrCore;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusAmarrElectronic;
+    @DefaultIntValue(0)
+    public int SubsystemBonusAmarrElectronic;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusAmarrDefensive;
     /**
      * 
@@ -203,31 +204,31 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusAmarrOffensive;
+    @DefaultIntValue(0)
+    public int SubsystemBonusAmarrOffensive;
     /**
      * This defines the total capacity of drones allowed in the drone bay of the ship
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DroneCapacity;
+    @DefaultIntValue(0)
+    public int DroneCapacity;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusAmarrPropulsion;
+    @DefaultIntValue(0)
+    public int SubsystemBonusAmarrPropulsion;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusGallenteCore;
     /**
      * 
@@ -235,15 +236,15 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusGallenteElectronic;
+    @DefaultIntValue(0)
+    public int SubsystemBonusGallenteElectronic;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusGallenteDefensive;
     /**
      * 
@@ -251,7 +252,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusGallenteOffensive;
     /**
      * 
@@ -259,7 +260,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusGallentePropulsion;
     /**
      * 
@@ -267,15 +268,15 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusCaldariCore;
+    @DefaultIntValue(0)
+    public int SubsystemBonusCaldariCore;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusCaldariElectronic;
     /**
      * 
@@ -283,7 +284,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusCaldariDefensive;
     /**
      * 
@@ -291,7 +292,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusCaldariOffensive;
     /**
      * Maximum velocity of ship
@@ -299,7 +300,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxVelocity;
     /**
      * 
@@ -307,7 +308,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusCaldariPropulsion;
     /**
      * Tech level of an item
@@ -315,39 +316,39 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double TechLevel;
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusMinmatarCore;
+    @DefaultIntValue(0)
+    public int SubsystemBonusMinmatarCore;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusMinmatarElectronic;
+    @DefaultIntValue(0)
+    public int SubsystemBonusMinmatarElectronic;
     /**
      * Signature Radius is used for turret tracking and scanning.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(100.0D)
-    public double SignatureRadius;
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusMinmatarDefensive;
     /**
      * 
@@ -355,7 +356,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusMinmatarOffensive;
     /**
      * 
@@ -363,47 +364,47 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusMinmatarPropulsion;
+    @DefaultIntValue(0)
+    public int SubsystemBonusMinmatarPropulsion;
     /**
      * CPU output of ship
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CpuOutput;
+    @DefaultIntValue(0)
+    public int CpuOutput;
     /**
      * The resolution that the vessel can target other objects at.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ScanResolution;
+    @DefaultIntValue(0)
+    public int ScanResolution;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Autogenerated skill attribute, cpuNeedBonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CpuNeedBonus;
+    @DefaultIntValue(0)
+    public int CpuNeedBonus;
     /**
      * Amount of time taken to fully recharge the capacitor.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double RechargeRate;
     /**
      * The agility of the object.
@@ -411,7 +412,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Agility;
     /**
      * Maximum range at which the scanner can lock a target.
@@ -419,23 +420,23 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double MaxTargetRange;
+    @DefaultIntValue(0)
+    public int MaxTargetRange;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CovertCloakCPUPenalty;
+    @DefaultIntValue(0)
+    public int CovertCloakCPUPenalty;
     /**
      * Radar strength.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanRadarStrength;
     /**
      * Ladar strength.
@@ -443,7 +444,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanLadarStrength;
     /**
      * Magnetometric strength.
@@ -451,7 +452,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanMagnetometricStrength;
     /**
      * Gravimetric strength.
@@ -459,7 +460,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ScanGravimetricStrength;
     /**
      * 
@@ -467,55 +468,55 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubSystemSlot;
+    @DefaultIntValue(0)
+    public int SubSystemSlot;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double TurretHardPointModifier;
+    @DefaultIntValue(0)
+    public int TurretHardPointModifier;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LauncherHardPointModifier;
+    @DefaultIntValue(0)
+    public int LauncherHardPointModifier;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double WarfareLinkCPUPenalty;
+    @DefaultIntValue(0)
+    public int WarfareLinkCPUPenalty;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HiSlotModifier;
+    @DefaultIntValue(0)
+    public int HiSlotModifier;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MedSlotModifier;
+    @DefaultIntValue(0)
+    public int MedSlotModifier;
     /**
      * Amount of time taken to fully recharge the shield.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShieldRechargeRate;
     /**
      * 
@@ -523,15 +524,15 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LowSlotModifier;
+    @DefaultIntValue(0)
+    public int LowSlotModifier;
     /**
      * Capacitor capacity
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorCapacity;
     /**
      * 
@@ -539,47 +540,47 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusAmarrDefensive2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusAmarrDefensive2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FitsToShipType;
+    @DefaultIntValue(0)
+    public int FitsToShipType;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusAmarrElectronic2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusAmarrElectronic2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusCaldariOffensive2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusCaldariOffensive2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusAmarrOffensive2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusAmarrOffensive2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusCaldariPropulsion2;
     /**
      * 
@@ -587,39 +588,39 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusCaldariElectronic2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusCaldariElectronic2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusCaldariDefensive2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusCaldariDefensive2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusGallenteDefensive2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusGallenteDefensive2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusGallenteElectronic2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusGallenteElectronic2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusGallenteCore2;
     /**
      * 
@@ -627,7 +628,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusGallentePropulsion2;
     /**
      * 
@@ -635,15 +636,15 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusGallenteOffensive2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusGallenteOffensive2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusMinmatarOffensive2;
     /**
      * 
@@ -651,39 +652,39 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusMinmatarElectronic2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusMinmatarElectronic2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusMinmatarDefensive2;
+    @DefaultIntValue(0)
+    public int SubsystemBonusMinmatarDefensive2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DroneBandwidth;
+    @DefaultIntValue(0)
+    public int DroneBandwidth;
     /**
      * The ranking of the module within its tech level
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MetaLevel;
+    @DefaultIntValue(0)
+    public int MetaLevel;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusAmarrOffensive3;
     /**
      * 
@@ -691,7 +692,7 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusGallenteOffensive3;
     /**
      * 
@@ -699,23 +700,23 @@ public class DepricatedSubsystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SubsystemBonusCaldariOffensive3;
+    @DefaultIntValue(0)
+    public int SubsystemBonusCaldariOffensive3;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double VirusStrengthBonus;
+    @DefaultIntValue(0)
+    public int VirusStrengthBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double SubsystemBonusMinmatarOffensive3;
     public final static String RESOURCE_PATH = "SDE/items/commodity/DepricatedSubsystems.yaml";
     private static LinkedHashMap<String, DepricatedSubsystems> cache = (null);

@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Ship;
@@ -19,167 +20,167 @@ public class IndustrialCommandShip
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RigSize;
+    @DefaultIntValue(0)
+    public int RigSize;
     /**
      * The number of low power slots on the ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LowSlots;
+    @DefaultIntValue(0)
+    public int LowSlots;
     /**
      * tbd
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MedSlots;
+    @DefaultIntValue(0)
+    public int MedSlots;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RoleBonusCommandBurstAoERange;
+    @DefaultIntValue(0)
+    public int RoleBonusCommandBurstAoERange;
     /**
      * tbd
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HiSlots;
+    @DefaultIntValue(0)
+    public int HiSlots;
     /**
      * role bonus for command destroyers
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RoleBonusCD;
+    @DefaultIntValue(0)
+    public int RoleBonusCD;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusICS5;
+    @DefaultIntValue(0)
+    public int ShipBonusICS5;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RoleBonusDroneMiningYield;
+    @DefaultIntValue(0)
+    public int RoleBonusDroneMiningYield;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RoleBonusDroneIceHarvestingSpeed;
+    @DefaultIntValue(0)
+    public int RoleBonusDroneIceHarvestingSpeed;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FwLpKill;
+    @DefaultIntValue(0)
+    public int FwLpKill;
     /**
      * Capacity of ore-only hold
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SpecialOreHoldCapacity;
+    @DefaultIntValue(0)
+    public int SpecialOreHoldCapacity;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double IndustrialBonusDroneDamage;
+    @DefaultIntValue(0)
+    public int IndustrialBonusDroneDamage;
     /**
      * Required skill level for skill 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * The resolution that the vessel can target other objects at.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ScanResolution;
+    @DefaultIntValue(0)
+    public int ScanResolution;
     /**
      * bonus to range of tractor beams
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RoleBonusTractorBeamRange;
+    @DefaultIntValue(0)
+    public int RoleBonusTractorBeamRange;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusICS1;
+    @DefaultIntValue(0)
+    public int ShipBonusICS1;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RoleBonusTractorBeamVelocity;
+    @DefaultIntValue(0)
+    public int RoleBonusTractorBeamVelocity;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusICS2;
+    @DefaultIntValue(0)
+    public int ShipBonusICS2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RoleBonusSurveyScannerRange;
+    @DefaultIntValue(0)
+    public int RoleBonusSurveyScannerRange;
     /**
      * scanning speed in milliseconds
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ScanSpeed;
+    @DefaultIntValue(0)
+    public int ScanSpeed;
     /**
      * Autogenerated skill attribute, maxRangeBonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MaxRangeBonus;
     /**
      * Tells if this type (ship) can be placed in the maintenance bay of a capital industrial ship.
@@ -187,103 +188,103 @@ public class IndustrialCommandShip
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AllowedInCapIndustrialMaintenanceBay;
+    @DefaultIntValue(0)
+    public int AllowedInCapIndustrialMaintenanceBay;
     /**
      * Attribute on ships used for ship upgrades
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double UpgradeCapacity;
+    @DefaultIntValue(0)
+    public int UpgradeCapacity;
     /**
      * The number of rig slots on the ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RigSlots;
+    @DefaultIntValue(0)
+    public int RigSlots;
     /**
      * The main color of a ship type.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MainColor;
+    @DefaultIntValue(0)
+    public int MainColor;
     /**
      * How many upgrades can by fitted to this ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double UpgradeSlotsLeft;
+    @DefaultIntValue(0)
+    public int UpgradeSlotsLeft;
     /**
      * Indicates whether a ship type has a ship maintenance bay.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HasShipMaintenanceBay;
+    @DefaultIntValue(0)
+    public int HasShipMaintenanceBay;
     /**
      * The capacity of the hangar in a ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipMaintenanceBayCapacity;
+    @DefaultIntValue(0)
+    public int ShipMaintenanceBayCapacity;
     /**
      * Whether this ship has fleet hangars.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HasFleetHangars;
+    @DefaultIntValue(0)
+    public int HasFleetHangars;
     /**
      * The capacity of the fleet hangar.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FleetHangarCapacity;
+    @DefaultIntValue(0)
+    public int FleetHangarCapacity;
     /**
      * Tells if this type (ship) can be affected by the Rorqual Invulnerability Module
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double AffectedByIndustrialInvulnModule;
+    @DefaultIntValue(0)
+    public int AffectedByIndustrialInvulnModule;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusICS3;
+    @DefaultIntValue(0)
+    public int ShipBonusICS3;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusICS4;
+    @DefaultIntValue(0)
+    public int ShipBonusICS4;
     /**
      * Multiplier for jump fatigue distance
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double JumpFatigueMultiplier;
     /**
      * 
@@ -291,47 +292,47 @@ public class IndustrialCommandShip
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(3.0D)
-    public double MaxGangModules;
+    @DefaultIntValue(3)
+    public int MaxGangModules;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * The maximum distance at which the object can be used.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxOperationalDistance;
+    @DefaultIntValue(0)
+    public int MaxOperationalDistance;
     /**
      * The maximum number of users that can be present within the operational range of the structure for it to be capable of operation.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxOperationalUsers;
+    @DefaultIntValue(0)
+    public int MaxOperationalUsers;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double TypeColorScheme;
+    @DefaultIntValue(0)
+    public int TypeColorScheme;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationHi;
     /**
      * 
@@ -339,7 +340,7 @@ public class IndustrialCommandShip
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationMed;
     /**
      * 
@@ -347,7 +348,7 @@ public class IndustrialCommandShip
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationLow;
     public final static String RESOURCE_PATH = "SDE/items/ship/IndustrialCommandShip.yaml";
     private static LinkedHashMap<String, IndustrialCommandShip> cache = (null);

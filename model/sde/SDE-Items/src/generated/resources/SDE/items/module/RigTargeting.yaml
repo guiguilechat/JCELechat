@@ -1,121 +1,121 @@
 items:
   Capital Ionic Field Projector I:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     MaxTargetRangeBonus: 25.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    RigSize: 4
+    TechLevel: 1
+    UpgradeCost: 50
   Capital Ionic Field Projector II:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     MaxTargetRangeBonus: 30.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    MetaLevel: 5
+    RigSize: 4
+    TechLevel: 2
+    UpgradeCost: 75
   Capital Targeting System Subcontroller I:
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 4.0
+    Drawback: -10
+    Hp: 40
+    RigSize: 4
     ScanResolutionBonus: 20.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Capital Targeting System Subcontroller II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 4
     ScanResolutionBonus: 25.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Large Ionic Field Projector I:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     MaxTargetRangeBonus: 25.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    RigSize: 3
+    TechLevel: 1
+    UpgradeCost: 50
   Large Ionic Field Projector II:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     MaxTargetRangeBonus: 30.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    MetaLevel: 5
+    RigSize: 3
+    TechLevel: 2
+    UpgradeCost: 75
   Large Targeting System Subcontroller I:
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 3.0
+    Drawback: -10
+    Hp: 40
+    RigSize: 3
     ScanResolutionBonus: 20.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Large Targeting System Subcontroller II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 3
     ScanResolutionBonus: 25.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Medium Ionic Field Projector I:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     MaxTargetRangeBonus: 25.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    RigSize: 2
+    TechLevel: 1
+    UpgradeCost: 50
   Medium Ionic Field Projector II:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     MaxTargetRangeBonus: 30.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    MetaLevel: 5
+    RigSize: 2
+    TechLevel: 2
+    UpgradeCost: 75
   Medium Targeting System Subcontroller I:
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 2.0
+    Drawback: -10
+    Hp: 40
+    RigSize: 2
     ScanResolutionBonus: 20.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Medium Targeting System Subcontroller II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 2
     ScanResolutionBonus: 25.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Small Ionic Field Projector I:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     MaxTargetRangeBonus: 25.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    RigSize: 1
+    TechLevel: 1
+    UpgradeCost: 50
   Small Ionic Field Projector II:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     MaxTargetRangeBonus: 30.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    MetaLevel: 5
+    RigSize: 1
+    TechLevel: 2
+    UpgradeCost: 75
   Small Targeting System Subcontroller I:
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 1.0
+    Drawback: -10
+    Hp: 40
+    RigSize: 1
     ScanResolutionBonus: 20.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Small Targeting System Subcontroller II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 1
     ScanResolutionBonus: 25.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150

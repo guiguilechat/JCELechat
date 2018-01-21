@@ -1,73 +1,73 @@
 items:
   Azure Plagioclase:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28421.0
-    OreBasicType: 18.0
-    ReprocessingSkillType: 12191.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28421
+    OreBasicType: 18
+    ReprocessingSkillType: 12191
+    RequiredSkill1: 3386
   Compressed Azure Plagioclase:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 18.0
-    ReprocessingSkillType: 12191.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 18
+    ReprocessingSkillType: 12191
+    RequiredSkill1: 3386
   Compressed Plagioclase:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 18.0
-    ReprocessingSkillType: 12191.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 18
+    ReprocessingSkillType: 12191
+    RequiredSkill1: 3386
   Compressed Rich Plagioclase:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 18.0
-    ReprocessingSkillType: 12191.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 18
+    ReprocessingSkillType: 12191
+    RequiredSkill1: 3386
   Compressed Sparkling Plagioclase:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 4.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 46685.0
-    ReprocessingSkillType: 12191.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 46685
+    ReprocessingSkillType: 12191
+    RequiredSkill1: 3386
   Plagioclase:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28422.0
-    OreBasicType: 18.0
-    ReprocessingSkillType: 12191.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28422
+    OreBasicType: 18
+    ReprocessingSkillType: 12191
+    RequiredSkill1: 3386
   Rich Plagioclase:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28423.0
-    OreBasicType: 18.0
-    ReprocessingSkillType: 12191.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28423
+    OreBasicType: 18
+    ReprocessingSkillType: 12191
+    RequiredSkill1: 3386
   Sparkling Plagioclase:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 4.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 0.052000001072883606
-    AsteroidRadiusUnitSize: 600.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 46701.0
-    OreBasicType: 46685.0
-    ReprocessingSkillType: 12191.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 46701
+    OreBasicType: 46685
+    ReprocessingSkillType: 12191
+    RequiredSkill1: 3386

@@ -2,7 +2,7 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
 import fr.guiguilechat.eveonline.model.sde.items.Item;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 
@@ -16,16 +16,16 @@ public abstract class PlanetaryResources
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double ImportTaxMultiplier;
+    @DefaultIntValue(1)
+    public int ImportTaxMultiplier;
     /**
      * Export tax multiplier when exporting this commodity off a planet.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double ExportTaxMultiplier;
+    @DefaultIntValue(1)
+    public int ExportTaxMultiplier;
 
     @Override
     public int getCategoryId() {

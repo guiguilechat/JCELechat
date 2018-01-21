@@ -1,14 +1,14 @@
 items:
   Standup ASML Missile Launcher I:
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
-    ChargeGroup1: 1547.0
-    ChargeRate: 1.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    ChargeGroup1: 1547
+    ChargeRate: 1
     Cpu: 1000.0
-    Hp: 40.0
-    Power: 100000.0
+    Hp: 40
+    Power: 100000
     ReloadTime: 0.009999999776482582
-    Slots: 1.0
-    Speed: 3000.0
-    StructureItemVisualFlag: 1.0
+    Slots: 1
+    Speed: 3000
+    StructureItemVisualFlag: 1

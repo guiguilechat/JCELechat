@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Charge;
@@ -19,31 +20,31 @@ public class AdvancedBlasterCharge
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ChargeSize;
+    @DefaultIntValue(0)
+    public int ChargeSize;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double PowerNeedMultiplier;
+    @DefaultIntValue(1)
+    public int PowerNeedMultiplier;
     /**
      * Just for the UI to display base damage on shield.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double BaseShieldDamage;
+    @DefaultIntValue(0)
+    public int BaseShieldDamage;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double FallofMultiplier;
     /**
      * Just for the UI to display base damage on armor.
@@ -51,31 +52,31 @@ public class AdvancedBlasterCharge
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double BaseArmorDamage;
+    @DefaultIntValue(0)
+    public int BaseArmorDamage;
     /**
      * Tech level of an item
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double TechLevel;
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * One of the groups of launcher this charge can be loaded into.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LauncherGroup;
+    @DefaultIntValue(0)
+    public int LauncherGroup;
     /**
      * For charges, hidden attribute used by sentry guns to modify target pick range.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double EntityFlyRangeMultiplier;
     /**
      * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
@@ -83,7 +84,7 @@ public class AdvancedBlasterCharge
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double SpeedMultiplier;
     /**
      * Multiplier to the capacitors recharge rate.
@@ -91,7 +92,7 @@ public class AdvancedBlasterCharge
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double CapacitorRechargeRateMultiplier;
     /**
      * EM damage done.
@@ -99,7 +100,7 @@ public class AdvancedBlasterCharge
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double EmDamage;
     /**
      * Scale the tracking speed of a weapon.
@@ -107,7 +108,7 @@ public class AdvancedBlasterCharge
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double TrackingSpeedMultiplier;
     /**
      * Explosive damage done.
@@ -115,7 +116,7 @@ public class AdvancedBlasterCharge
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ExplosiveDamage;
     /**
      * Kinetic damage done.
@@ -123,7 +124,7 @@ public class AdvancedBlasterCharge
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double KineticDamage;
     /**
      * Required skill level for skill 1
@@ -131,15 +132,15 @@ public class AdvancedBlasterCharge
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * Thermal damage done.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ThermalDamage;
     /**
      * The type ID of the skill that is required.
@@ -147,15 +148,15 @@ public class AdvancedBlasterCharge
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Multiplier of range the relevant weapon.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double WeaponRangeMultiplier;
     /**
      * The ranking of the module within its tech level
@@ -163,24 +164,24 @@ public class AdvancedBlasterCharge
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MetaLevel;
+    @DefaultIntValue(0)
+    public int MetaLevel;
     /**
      * The main color of a ship type.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MainColor;
+    @DefaultIntValue(0)
+    public int MainColor;
     /**
      * Autogenerated skill attribute, capNeedBonus
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CapNeedBonus;
+    @DefaultIntValue(0)
+    public int CapNeedBonus;
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedBlasterCharge.yaml";
     private static LinkedHashMap<String, AdvancedBlasterCharge> cache = (null);
 

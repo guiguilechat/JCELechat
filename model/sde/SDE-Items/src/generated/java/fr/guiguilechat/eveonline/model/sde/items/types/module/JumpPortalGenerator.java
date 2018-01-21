@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Module;
@@ -19,15 +20,15 @@ public class JumpPortalGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double JumpHarmonics;
+    @DefaultIntValue(0)
+    public int JumpHarmonics;
     /**
      * The amount of charge used from the capacitor for a module activation.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorNeed;
     /**
      * If this module is in use and this attribute is 1, then offensive modules cannot be used on the ship if they apply modifiers for the duration of their effect. If this is put on a ship or NPC with value of 1, then the ship or NPC are immune to offensive modifiers (target jamming, tracking disruption etc.)
@@ -35,15 +36,15 @@ public class JumpPortalGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DisallowOffensiveModifiers;
+    @DefaultIntValue(0)
+    public int DisallowOffensiveModifiers;
     /**
      * Multiplier used to calculate amount of quantity used for jumping via portals based on mass of ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double JumpPortalConsumptionMassFactor;
     /**
      * Length of activation time.
@@ -51,7 +52,7 @@ public class JumpPortalGenerator
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Duration;
     /**
      * The type of resource needed to be consumed for each activation cycle of this structure.
@@ -59,55 +60,55 @@ public class JumpPortalGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ConsumptionType;
+    @DefaultIntValue(0)
+    public int ConsumptionType;
     /**
      * Signifies that this module if activated, will prevent ejection from the ship it is fitted to and extend the log out ship removal timer.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DisallowEarlyDeactivation;
+    @DefaultIntValue(0)
+    public int DisallowEarlyDeactivation;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(300000.0D)
-    public double JumpPortalDuration;
+    @DefaultIntValue(300000)
+    public int JumpPortalDuration;
     /**
      * The amount of the given resource type needed to be consumed for each activation cycle of this structure.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ConsumptionQuantity;
+    @DefaultIntValue(0)
+    public int ConsumptionQuantity;
     /**
      * Amount to increase the maximum speed by.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SpeedBonus;
+    @DefaultIntValue(0)
+    public int SpeedBonus;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanFitShipGroup01;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup01;
     /**
      * CPU need of module
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double Cpu;
     /**
      * 
@@ -115,15 +116,15 @@ public class JumpPortalGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SiegeModeWarpStatus;
+    @DefaultIntValue(0)
+    public int SiegeModeWarpStatus;
     /**
      * Factor by which topspeed increases.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double SpeedFactor;
     /**
      * Required skill level for skill 1
@@ -131,48 +132,48 @@ public class JumpPortalGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * If set, this module cannot be activated and made to autorepeat.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DisallowRepeatingActivation;
+    @DefaultIntValue(0)
+    public int DisallowRepeatingActivation;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DisallowAssistance;
+    @DefaultIntValue(0)
+    public int DisallowAssistance;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxGroupActive;
+    @DefaultIntValue(0)
+    public int MaxGroupActive;
     /**
      * current power need
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Power;
+    @DefaultIntValue(0)
+    public int Power;
     public final static String RESOURCE_PATH = "SDE/items/module/JumpPortalGenerator.yaml";
     private static LinkedHashMap<String, JumpPortalGenerator> cache = (null);
 

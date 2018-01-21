@@ -1,16 +1,16 @@
 items:
   Autotrophs:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
   Carbon Compounds:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
   Complex Organisms:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
   Microorganisms:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5
   Planktic Colonies:
-    ExportTaxMultiplier: 5.0
-    ImportTaxMultiplier: 5.0
+    ExportTaxMultiplier: 5
+    ImportTaxMultiplier: 5

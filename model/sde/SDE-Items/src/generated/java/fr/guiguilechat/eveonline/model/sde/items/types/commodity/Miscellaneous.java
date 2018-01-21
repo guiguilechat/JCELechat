@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Commodity;
@@ -19,24 +19,24 @@ public class Miscellaneous
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double ImportTaxMultiplier;
+    @DefaultIntValue(1)
+    public int ImportTaxMultiplier;
     /**
      * Export tax multiplier when exporting this commodity off a planet.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double ExportTaxMultiplier;
+    @DefaultIntValue(1)
+    public int ExportTaxMultiplier;
     /**
      * The maximum hitpoints of an object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     public final static String RESOURCE_PATH = "SDE/items/commodity/Miscellaneous.yaml";
     private static LinkedHashMap<String, Miscellaneous> cache = (null);
 

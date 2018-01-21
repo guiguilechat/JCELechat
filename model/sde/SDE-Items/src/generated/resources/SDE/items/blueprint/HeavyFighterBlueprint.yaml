@@ -1,44 +1,44 @@
 items:
   Ametat I Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Ametat II Blueprint:
-    TechLevel: 2.0
+    TechLevel: 2
   Antaeus I Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Antaeus II Blueprint:
-    TechLevel: 2.0
+    TechLevel: 2
   Cyclops I Blueprint:
     IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
+    TechLevel: 1
   Cyclops II Blueprint:
-    TechLevel: 2.0
+    TechLevel: 2
   DogBlueprint_PLACEHOLDER:
-    TechLevel: 1.0
+    TechLevel: 1
   EasyBlueprint_PLACEHOLDER:
-    TechLevel: 1.0
+    TechLevel: 1
   Gungnir I Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Gungnir II Blueprint:
-    TechLevel: 2.0
+    TechLevel: 2
   Malleus I Blueprint:
     IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
+    TechLevel: 1
   Malleus II Blueprint:
-    TechLevel: 2.0
+    TechLevel: 2
   Mantis I Blueprint:
     IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
+    TechLevel: 1
   Mantis II Blueprint:
-    TechLevel: 2.0
+    TechLevel: 2
   Shadow Blueprint:
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    MetaGroupID: 4
+    TechLevel: 1
   Termite I Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Termite II Blueprint:
-    TechLevel: 2.0
+    TechLevel: 2
   Tyrfing I Blueprint:
     IndustryBlueprintRank: 40.0
-    TechLevel: 1.0
+    TechLevel: 1
   Tyrfing II Blueprint:
-    TechLevel: 2.0
+    TechLevel: 2

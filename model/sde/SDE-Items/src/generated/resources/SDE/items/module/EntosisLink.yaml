@@ -1,127 +1,127 @@
 items:
   Affirmative. Modified Entosis Link:
     CapacitorNeed: 20.0
-    ConsumptionQuantity: 1.0
-    ConsumptionType: 16275.0
+    ConsumptionQuantity: 1
+    ConsumptionType: 16275
     Cpu: 1.0
-    DisallowAssistance: 1.0
+    DisallowAssistance: 1
     Duration: 300000.0
-    Hp: 9999999.0
-    MaxGroupFitted: 1.0
-    MaxRange: 25000.0
-    MetaLevel: 1.0
-    Power: 10.0
-    RequiredSkill1: 24242.0
-    RequiredSkill1Level: 2.0
-    SiegeModeWarpStatus: 100.0
-    Slots: 1.0
-    SpeedLimit: 4000.0
-    TechLevel: 1.0
+    Hp: 9999999
+    MaxGroupFitted: 1
+    MaxRange: 25000
+    MetaLevel: 1
+    Power: 10
+    RequiredSkill1: 24242
+    RequiredSkill1Level: 2
+    SiegeModeWarpStatus: 100
+    Slots: 1
+    SpeedLimit: 4000
+    TechLevel: 1
   Entosis Link I:
     CapacitorNeed: 50.0
-    ConsumptionQuantity: 1.0
-    ConsumptionType: 16275.0
+    ConsumptionQuantity: 1
+    ConsumptionType: 16275
     Cpu: 1.0
-    DisallowAssistance: 1.0
+    DisallowAssistance: 1
     Duration: 300000.0
-    Hp: 9999999.0
-    MaxGroupFitted: 1.0
-    MaxRange: 25000.0
-    Power: 10.0
-    RequiredSkill1: 24242.0
-    RequiredSkill1Level: 2.0
-    SiegeModeWarpStatus: 100.0
-    Slots: 1.0
-    SpeedLimit: 4000.0
-    TechLevel: 1.0
+    Hp: 9999999
+    MaxGroupFitted: 1
+    MaxRange: 25000
+    Power: 10
+    RequiredSkill1: 24242
+    RequiredSkill1Level: 2
+    SiegeModeWarpStatus: 100
+    Slots: 1
+    SpeedLimit: 4000
+    TechLevel: 1
   Entosis Link II:
     CapacitorNeed: 500.0
-    ConsumptionQuantity: 1.0
-    ConsumptionType: 16275.0
+    ConsumptionQuantity: 1
+    ConsumptionType: 16275
     Cpu: 10.0
-    DisallowAssistance: 1.0
+    DisallowAssistance: 1
     Duration: 120000.0
-    Hp: 9999999.0
-    MaxGroupFitted: 1.0
-    MaxRange: 250000.0
-    MetaLevel: 5.0
-    Power: 100.0
-    RequiredSkill1: 24242.0
-    RequiredSkill1Level: 4.0
-    SiegeModeWarpStatus: 100.0
-    Slots: 1.0
-    SpeedLimit: 4000.0
-    TechLevel: 2.0
+    Hp: 9999999
+    MaxGroupFitted: 1
+    MaxRange: 250000
+    MetaLevel: 5
+    Power: 100
+    RequiredSkill1: 24242
+    RequiredSkill1Level: 4
+    SiegeModeWarpStatus: 100
+    Slots: 1
+    SpeedLimit: 4000
+    TechLevel: 2
   Noir. Modified Entosis Link:
     CapacitorNeed: 50.0
-    ConsumptionQuantity: 1.0
-    ConsumptionType: 16275.0
+    ConsumptionQuantity: 1
+    ConsumptionType: 16275
     Cpu: 1.0
-    DisallowAssistance: 1.0
+    DisallowAssistance: 1
     Duration: 300000.0
-    Hp: 9999999.0
-    MaxGroupFitted: 1.0
-    MaxRange: 25000.0
-    MetaLevel: 1.0
-    Power: 10.0
-    RequiredSkill1: 24242.0
-    RequiredSkill1Level: 2.0
-    SiegeModeWarpStatus: 100.0
-    Slots: 1.0
-    SpeedLimit: 4200.0
-    TechLevel: 1.0
+    Hp: 9999999
+    MaxGroupFitted: 1
+    MaxRange: 25000
+    MetaLevel: 1
+    Power: 10
+    RequiredSkill1: 24242
+    RequiredSkill1Level: 2
+    SiegeModeWarpStatus: 100
+    Slots: 1
+    SpeedLimit: 4200
+    TechLevel: 1
   Pandemic SPHERE Modified Entosis Link:
     CapacitorNeed: 50.0
-    ConsumptionQuantity: 1.0
-    ConsumptionType: 16275.0
+    ConsumptionQuantity: 1
+    ConsumptionType: 16275
     Cpu: 1.0
-    DisallowAssistance: 1.0
+    DisallowAssistance: 1
     Duration: 300000.0
-    Hp: 9999999.0
-    MaxGroupFitted: 1.0
-    MaxRange: 30000.0
-    MetaLevel: 1.0
-    Power: 10.0
-    RequiredSkill1: 24242.0
-    RequiredSkill1Level: 2.0
-    SiegeModeWarpStatus: 100.0
-    Slots: 1.0
-    SpeedLimit: 4000.0
-    TechLevel: 1.0
+    Hp: 9999999
+    MaxGroupFitted: 1
+    MaxRange: 30000
+    MetaLevel: 1
+    Power: 10
+    RequiredSkill1: 24242
+    RequiredSkill1Level: 2
+    SiegeModeWarpStatus: 100
+    Slots: 1
+    SpeedLimit: 4000
+    TechLevel: 1
   QA Entosis Link:
     CapacitorNeed: 10.0
-    ConsumptionQuantity: 1.0
-    ConsumptionType: 16275.0
+    ConsumptionQuantity: 1
+    ConsumptionType: 16275
     Cpu: 1.0
-    DisallowAssistance: 1.0
+    DisallowAssistance: 1
     Duration: 20000.0
-    Hp: 9999999.0
-    MaxGroupFitted: 1.0
-    MaxRange: 250000.0
-    Power: 1.0
-    RequiredSkill1: 24242.0
-    RequiredSkill1Level: 2.0
-    RequiredSkill2: 9955.0
-    RequiredSkill2Level: 1.0
-    SiegeModeWarpStatus: 100.0
-    Slots: 1.0
-    SpeedLimit: 4000.0
-    TechLevel: 1.0
+    Hp: 9999999
+    MaxGroupFitted: 1
+    MaxRange: 250000
+    Power: 1
+    RequiredSkill1: 24242
+    RequiredSkill1Level: 2
+    RequiredSkill2: 9955
+    RequiredSkill2Level: 1
+    SiegeModeWarpStatus: 100
+    Slots: 1
+    SpeedLimit: 4000
+    TechLevel: 1
   Spectre Fleet's Modified Entosis Link:
     CapacitorNeed: 50.0
-    ConsumptionQuantity: 1.0
-    ConsumptionType: 16275.0
+    ConsumptionQuantity: 1
+    ConsumptionType: 16275
     Cpu: 1.0
-    DisallowAssistance: 1.0
+    DisallowAssistance: 1
     Duration: 300000.0
-    Hp: 9999999.0
-    MaxGroupFitted: 1.0
-    MaxRange: 25000.0
-    MetaLevel: 1.0
-    Power: 7.0
-    RequiredSkill1: 24242.0
-    RequiredSkill1Level: 2.0
-    SiegeModeWarpStatus: 100.0
-    Slots: 1.0
-    SpeedLimit: 4000.0
-    TechLevel: 1.0
+    Hp: 9999999
+    MaxGroupFitted: 1
+    MaxRange: 25000
+    MetaLevel: 1
+    Power: 7
+    RequiredSkill1: 24242
+    RequiredSkill1Level: 2
+    SiegeModeWarpStatus: 100
+    Slots: 1
+    SpeedLimit: 4000
+    TechLevel: 1

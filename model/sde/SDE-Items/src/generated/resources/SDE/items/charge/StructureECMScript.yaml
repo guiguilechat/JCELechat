@@ -1,33 +1,33 @@
 items:
   Standup Gravimetric ECM Script:
-    ChargeSize: 1.0
-    LauncherGroup: 1332.0
-    ScanGravimetricStrengthBonusBonus: 100.0
-    ScanLadarStrengthBonusBonus: -50.0
-    ScanMagnetometricStrengthBonusBonus: -50.0
-    ScanRadarStrengthBonusBonus: -50.0
-    StructureItemVisualFlag: 1.0
+    ChargeSize: 1
+    LauncherGroup: 1332
+    ScanGravimetricStrengthBonusBonus: 100
+    ScanLadarStrengthBonusBonus: -50
+    ScanMagnetometricStrengthBonusBonus: -50
+    ScanRadarStrengthBonusBonus: -50
+    StructureItemVisualFlag: 1
   Standup Ladar ECM Script:
-    ChargeSize: 1.0
-    LauncherGroup: 1332.0
-    ScanGravimetricStrengthBonusBonus: -50.0
-    ScanLadarStrengthBonusBonus: 100.0
-    ScanMagnetometricStrengthBonusBonus: -50.0
-    ScanRadarStrengthBonusBonus: -50.0
-    StructureItemVisualFlag: 1.0
+    ChargeSize: 1
+    LauncherGroup: 1332
+    ScanGravimetricStrengthBonusBonus: -50
+    ScanLadarStrengthBonusBonus: 100
+    ScanMagnetometricStrengthBonusBonus: -50
+    ScanRadarStrengthBonusBonus: -50
+    StructureItemVisualFlag: 1
   Standup Magnetometric ECM Script:
-    ChargeSize: 1.0
-    LauncherGroup: 1332.0
-    ScanGravimetricStrengthBonusBonus: -50.0
-    ScanLadarStrengthBonusBonus: -50.0
-    ScanMagnetometricStrengthBonusBonus: 100.0
-    ScanRadarStrengthBonusBonus: -50.0
-    StructureItemVisualFlag: 1.0
+    ChargeSize: 1
+    LauncherGroup: 1332
+    ScanGravimetricStrengthBonusBonus: -50
+    ScanLadarStrengthBonusBonus: -50
+    ScanMagnetometricStrengthBonusBonus: 100
+    ScanRadarStrengthBonusBonus: -50
+    StructureItemVisualFlag: 1
   Standup Radar ECM Script:
-    ChargeSize: 1.0
-    LauncherGroup: 1332.0
-    ScanGravimetricStrengthBonusBonus: -50.0
-    ScanLadarStrengthBonusBonus: -50.0
-    ScanMagnetometricStrengthBonusBonus: -50.0
-    ScanRadarStrengthBonusBonus: 100.0
-    StructureItemVisualFlag: 1.0
+    ChargeSize: 1
+    LauncherGroup: 1332
+    ScanGravimetricStrengthBonusBonus: -50
+    ScanLadarStrengthBonusBonus: -50
+    ScanMagnetometricStrengthBonusBonus: -50
+    ScanRadarStrengthBonusBonus: 100
+    StructureItemVisualFlag: 1

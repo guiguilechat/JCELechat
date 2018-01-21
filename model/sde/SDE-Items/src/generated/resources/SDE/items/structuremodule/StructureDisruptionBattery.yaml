@@ -1,49 +1,49 @@
 items:
   Standup Remote Sensor Dampener I:
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
     CapacitorNeed: 400.0
     Cpu: 1500.0
     Duration: 5000.0
-    FalloffEffectiveness: 150000.0
-    Hp: 40.0
-    MaxRange: 75000.0
+    FalloffEffectiveness: 150000
+    Hp: 40
+    MaxRange: 75000
     MaxTargetRangeBonus: -55.0
-    Power: 50000.0
-    RemoteResistanceID: 2112.0
+    Power: 50000
+    RemoteResistanceID: 2112
     ScanResolutionBonus: -55.0
-    StructureItemVisualFlag: 1.0
+    StructureItemVisualFlag: 1
   Standup Target Painter I:
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
     CapacitorNeed: 1000.0
     Cpu: 1500.0
     Duration: 10000.0
-    FalloffEffectiveness: 150000.0
-    Hp: 40.0
-    MaxRange: 75000.0
-    Power: 50000.0
-    RemoteResistanceID: 2114.0
+    FalloffEffectiveness: 150000
+    Hp: 40
+    MaxRange: 75000
+    Power: 50000
+    RemoteResistanceID: 2114
     SignatureRadiusBonus: 65.0
-    StructureItemVisualFlag: 1.0
+    StructureItemVisualFlag: 1
   Standup Weapon Disruptor I:
     AoeCloudSizeBonus: 50.0
     AoeVelocityBonus: -50.0
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
     CapacitorNeed: 400.0
     Cpu: 1500.0
     Duration: 5000.0
     ExplosionDelayBonus: -30.0
     FalloffBonus: -60.0
-    FalloffEffectiveness: 75000.0
-    Hp: 40.0
-    MaxRange: 150000.0
+    FalloffEffectiveness: 75000
+    Hp: 40
+    MaxRange: 150000
     MaxRangeBonus: -60.0
     MissileVelocityBonus: -37.0
-    Power: 50000.0
-    StructureItemVisualFlag: 1.0
+    Power: 50000
+    StructureItemVisualFlag: 1
     TrackingSpeedBonus: -60.0

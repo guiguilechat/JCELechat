@@ -1,69 +1,69 @@
 items:
   Compressed Magma Mercoxit:
-    AsteroidMetaLevel: 2.0
+    AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
+    AsteroidRadiusUnitSize: 90
     DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546.0
-    OreBasicType: 11396.0
-    ReprocessingSkillType: 12189.0
-    RequiredSkill1: 11395.0
+    DamageCloudType: 11546
+    OreBasicType: 11396
+    ReprocessingSkillType: 12189
+    RequiredSkill1: 11395
   Compressed Mercoxit:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
+    AsteroidRadiusUnitSize: 90
     DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546.0
-    OreBasicType: 11396.0
-    ReprocessingSkillType: 12189.0
-    RequiredSkill1: 11395.0
+    DamageCloudType: 11546
+    OreBasicType: 11396
+    ReprocessingSkillType: 12189
+    RequiredSkill1: 11395
   Compressed Vitreous Mercoxit:
-    AsteroidMetaLevel: 3.0
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
+    AsteroidRadiusUnitSize: 90
     DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546.0
-    OreBasicType: 11396.0
-    ReprocessingSkillType: 12189.0
-    RequiredSkill1: 11395.0
+    DamageCloudType: 11546
+    OreBasicType: 11396
+    ReprocessingSkillType: 12189
+    RequiredSkill1: 11395
   Magma Mercoxit:
-    AsteroidMetaLevel: 2.0
+    AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28412.0
+    AsteroidRadiusUnitSize: 600
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28412
     DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546.0
-    OreBasicType: 11396.0
-    ReprocessingSkillType: 12189.0
-    RequiredSkill1: 11395.0
+    DamageCloudType: 11546
+    OreBasicType: 11396
+    ReprocessingSkillType: 12189
+    RequiredSkill1: 11395
   Mercoxit:
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28413.0
+    AsteroidRadiusUnitSize: 600
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28413
     DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546.0
-    OreBasicType: 11396.0
-    ReprocessingSkillType: 12189.0
-    RequiredSkill1: 11395.0
+    DamageCloudType: 11546
+    OreBasicType: 11396
+    ReprocessingSkillType: 12189
+    RequiredSkill1: 11395
   Vitreous Mercoxit:
-    AsteroidMetaLevel: 3.0
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28414.0
+    AsteroidRadiusUnitSize: 600
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28414
     DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546.0
-    OreBasicType: 11396.0
-    ReprocessingSkillType: 12189.0
-    RequiredSkill1: 11395.0
+    DamageCloudType: 11546
+    OreBasicType: 11396
+    ReprocessingSkillType: 12189
+    RequiredSkill1: 11395
   Zuthrine:
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
+    AsteroidRadiusUnitSize: 90
     DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546.0
-    OreBasicType: 11396.0
-    ReprocessingSkillType: 12189.0
-    RequiredSkill1: 11395.0
+    DamageCloudType: 11546
+    OreBasicType: 11396
+    ReprocessingSkillType: 12189
+    RequiredSkill1: 11395

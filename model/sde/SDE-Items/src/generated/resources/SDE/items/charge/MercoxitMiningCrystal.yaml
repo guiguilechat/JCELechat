@@ -1,36 +1,36 @@
 items:
   Mercoxit Mining Crystal I:
-    CapNeedBonus: 100.0
-    ChargeSize: 1.0
+    CapNeedBonus: 100
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12189.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 468.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12189
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 468
     SpecialisationAsteroidYieldMultiplier: 1.25
-    TechLevel: 1.0
-    UnfitCapCost: 80.0
+    TechLevel: 1
+    UnfitCapCost: 80
   Mercoxit Mining Crystal II:
-    CapNeedBonus: 100.0
-    ChargeSize: 1.0
+    CapNeedBonus: 100
+    ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
     CrystalVolatilityDamage: 0.05000000074505806
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12189.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 468.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    MetaLevel: 5
+    RequiredSkill1: 12189
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 468
     SpecialisationAsteroidYieldMultiplier: 1.375
-    TechLevel: 2.0
-    UnfitCapCost: 80.0
+    TechLevel: 2
+    UnfitCapCost: 80

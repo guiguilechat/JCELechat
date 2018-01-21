@@ -1,55 +1,55 @@
 items:
   Heavy Armor Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Heavy Armor Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 15.0
-    TechLevel: 2.0
+    TechLevel: 2
   Heavy Hull Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Heavy Hull Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 15.0
-    TechLevel: 2.0
+    TechLevel: 2
   Heavy Shield Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Heavy Shield Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 15.0
-    TechLevel: 2.0
+    TechLevel: 2
   Light Armor Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Light Armor Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 5.0
-    TechLevel: 2.0
+    TechLevel: 2
   Light Hull Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Light Hull Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 5.0
-    TechLevel: 2.0
+    TechLevel: 2
   Light Shield Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Light Shield Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 5.0
-    TechLevel: 2.0
+    TechLevel: 2
   Medium Armor Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
+    TechLevel: 1
   Medium Armor Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 10.0
-    TechLevel: 2.0
+    TechLevel: 2
   Medium Hull Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
+    TechLevel: 1
   Medium Hull Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 10.0
-    TechLevel: 2.0
+    TechLevel: 2
   Medium Shield Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 2.0
-    TechLevel: 1.0
+    TechLevel: 1
   Medium Shield Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 10.0
-    TechLevel: 2.0
+    TechLevel: 2

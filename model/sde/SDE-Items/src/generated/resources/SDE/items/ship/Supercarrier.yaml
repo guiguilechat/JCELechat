@@ -1,83 +1,83 @@
 items:
   Aeon:
-    AdvancedAgility: 1.0
-    AdvancedCapitalAgility: 1.0
+    AdvancedAgility: 1
+    AdvancedCapitalAgility: 1
     Agility: 0.03500000014901161
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 490000.0
+    ArmorHP: 490000
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
-    BaseWarpSpeed: 1.0
-    CanJump: 1.0
+    BaseWarpSpeed: 1
+    CanJump: 1
     CapacitorCapacity: 90000.0
-    CpuOutput: 725.0
-    DisallowInHighSec: 1.0
+    CpuOutput: 725
+    DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
     EnergyWarfareResistance: 1.0
-    EntosisDurationMultiplier: 5.0
+    EntosisDurationMultiplier: 5
     ExplosiveDamageResonance: 0.6700000166893005
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    FighterAbilityKamikazeResistance: 1.0
-    FighterCapacity: 90000.0
-    FighterHeavySlots: 3.0
-    FighterLightSlots: 3.0
-    FighterSupportSlots: 2.0
-    FighterTubes: 5.0
-    FleetHangarCapacity: 50000.0
-    FwLpKill: 7000.0
-    GfxBoosterID: 394.0
-    HasFleetHangars: 1.0
-    HasShipMaintenanceBay: 1.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 90000
+    FighterHeavySlots: 3
+    FighterLightSlots: 3
+    FighterSupportSlots: 2
+    FighterTubes: 5
+    FleetHangarCapacity: 50000
+    FwLpKill: 7000
+    GfxBoosterID: 394
+    HasFleetHangars: 1
+    HasShipMaintenanceBay: 1
     HeatAttenuationHi: 0.7599999904632568
     HeatAttenuationLow: 0.8199999928474426
     HeatAttenuationMed: 0.6299999952316284
-    HeatCapacityHi: 100.0
-    HeatCapacityLow: 100.0
-    HeatCapacityMed: 100.0
+    HeatCapacityHi: 100
+    HeatCapacityLow: 100
+    HeatCapacityMed: 100
     HeatDissipationRateHi: 0.009999999776482582
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.3499999940395355
-    HiSlots: 6.0
-    Hp: 270000.0
-    IsCapitalSize: 1.0
+    HiSlots: 6
+    Hp: 270000
+    IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
-    JumpDriveConsumptionAmount: 3000.0
-    JumpDriveConsumptionType: 16274.0
-    JumpDriveDuration: 300000.0
+    JumpDriveConsumptionAmount: 3000
+    JumpDriveConsumptionType: 16274
+    JumpDriveDuration: 300000
     JumpDriveRange: 3.0
-    JumpHarmonics: -5.0
+    JumpHarmonics: -5
     KineticDamageResonance: 0.6700000166893005
-    LowSlots: 8.0
-    MainColor: 1.6777215E7
-    MaxLockedTargets: 14.0
-    MaxOperationalDistance: 5000.0
-    MaxOperationalUsers: 10.0
-    MaxPassengers: 150.0
-    MaxTargetRange: 5000000.0
+    LowSlots: 8
+    MainColor: 16777215
+    MaxLockedTargets: 14
+    MaxOperationalDistance: 5000
+    MaxOperationalUsers: 10
+    MaxPassengers: 150
+    MaxTargetRange: 5000000
     MaxVelocity: 80.0
-    MaximumRangeCap: 1.0E9
-    MedSlots: 4.0
-    PowerOutput: 925000.0
-    PowerToSpeed: 1.0
-    PropulsionGraphicID: 394.0
+    MaximumRangeCap: 1000000000
+    MedSlots: 4
+    PowerOutput: 925000
+    PowerToSpeed: 1
+    PropulsionGraphicID: 394
     RechargeRate: 5630000.0
     RemoteAssistanceImpedance: 0.5
     RemoteRepairImpedance: 1.0
-    RequiredSkill1: 20533.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 24311.0
-    RequiredSkill2Level: 1.0
-    RigSize: 4.0
-    RigSlots: 3.0
-    RoleBonusCommandBurstAoERange: 200.0
+    RequiredSkill1: 20533
+    RequiredSkill1Level: 1
+    RequiredSkill2: 24311
+    RequiredSkill2Level: 1
+    RigSize: 4
+    RigSlots: 3
+    RoleBonusCommandBurstAoERange: 200
     ScanRadarStrength: 154.0
-    ScanResolution: 65.0
-    ScanSpeed: 6750.0
+    ScanResolution: 65
+    ScanSpeed: 6750
     SensorDampenerResistance: 0.5
-    ShieldCapacity: 230000.0
+    ShieldCapacity: 230000
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -85,106 +85,106 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusRole1: 1.0
-    ShipBonusRole2: 400.0
-    ShipBonusSupercarrierA1: 5.0
-    ShipBonusSupercarrierA2: -4.0
-    ShipBonusSupercarrierA3: -5.0
-    ShipBonusSupercarrierA4: -5.0
-    ShipBonusSupercarrierA5: 1.0
-    ShipMaintenanceBayCapacity: 2500000.0
-    SignatureRadius: 18870.0
-    SpecialFuelBayCapacity: 5000.0
+    ShipBonusRole2: 400
+    ShipBonusSupercarrierA1: 5
+    ShipBonusSupercarrierA2: -4
+    ShipBonusSupercarrierA3: -5
+    ShipBonusSupercarrierA4: -5
+    ShipBonusSupercarrierA5: 1
+    ShipMaintenanceBayCapacity: 2500000
+    SignatureRadius: 18870
+    SpecialFuelBayCapacity: 5000
     StasisWebifierResistance: 0.5
     StructureUniformity: 1.0
     TargetPainterResistance: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
-    TypeColorScheme: 11313.0
+    TypeColorScheme: 11313
     Uniformity: 1.0
-    UpgradeCapacity: 400.0
-    UpgradeSlotsLeft: 3.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
   Hel:
-    AdvancedAgility: 1.0
-    AdvancedCapitalAgility: 1.0
+    AdvancedAgility: 1
+    AdvancedCapitalAgility: 1
     Agility: 0.03500000014901161
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 300000.0
+    ArmorHP: 300000
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
-    BaseWarpSpeed: 1.0
-    CanJump: 1.0
+    BaseWarpSpeed: 1
+    CanJump: 1
     CapacitorCapacity: 78000.0
-    CpuOutput: 950.0
-    DisallowInHighSec: 1.0
+    CpuOutput: 950
+    DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
     EnergyWarfareResistance: 1.0
-    EntosisDurationMultiplier: 5.0
+    EntosisDurationMultiplier: 5
     ExplosiveDamageResonance: 0.6700000166893005
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    FighterAbilityKamikazeResistance: 1.0
-    FighterCapacity: 110000.0
-    FighterHeavySlots: 3.0
-    FighterLightSlots: 3.0
-    FighterSupportSlots: 2.0
-    FighterTubes: 5.0
-    FleetHangarCapacity: 50000.0
-    FwLpKill: 7000.0
-    GfxBoosterID: 397.0
-    HasFleetHangars: 1.0
-    HasShipMaintenanceBay: 1.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 110000
+    FighterHeavySlots: 3
+    FighterLightSlots: 3
+    FighterSupportSlots: 2
+    FighterTubes: 5
+    FleetHangarCapacity: 50000
+    FwLpKill: 7000
+    GfxBoosterID: 397
+    HasFleetHangars: 1
+    HasShipMaintenanceBay: 1
     HeatAttenuationHi: 0.7599999904632568
     HeatAttenuationLow: 0.7099999785423279
     HeatAttenuationMed: 0.7900000214576721
-    HeatCapacityHi: 100.0
-    HeatCapacityLow: 100.0
-    HeatCapacityMed: 100.0
+    HeatCapacityHi: 100
+    HeatCapacityLow: 100
+    HeatCapacityMed: 100
     HeatDissipationRateHi: 0.009999999776482582
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.3499999940395355
-    HiSlots: 6.0
-    Hp: 220000.0
-    IsCapitalSize: 1.0
+    HiSlots: 6
+    Hp: 220000
+    IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
-    JumpDriveConsumptionAmount: 3000.0
-    JumpDriveConsumptionType: 17889.0
-    JumpDriveDuration: 300000.0
+    JumpDriveConsumptionAmount: 3000
+    JumpDriveConsumptionType: 17889
+    JumpDriveDuration: 300000
     JumpDriveRange: 3.0
-    JumpHarmonics: -5.0
+    JumpHarmonics: -5
     KineticDamageResonance: 0.6700000166893005
-    LowSlots: 5.0
-    MainColor: 1.6777215E7
-    MaxLockedTargets: 14.0
-    MaxOperationalDistance: 5000.0
-    MaxOperationalUsers: 10.0
-    MaxPassengers: 150.0
-    MaxTargetRange: 4750000.0
+    LowSlots: 5
+    MainColor: 16777215
+    MaxLockedTargets: 14
+    MaxOperationalDistance: 5000
+    MaxOperationalUsers: 10
+    MaxPassengers: 150
+    MaxTargetRange: 4750000
     MaxVelocity: 85.0
-    MaximumRangeCap: 1.0E9
-    MedSlots: 7.0
-    PowerOutput: 650000.0
-    PowerToSpeed: 1.0
-    PropulsionGraphicID: 397.0
+    MaximumRangeCap: 1000000000
+    MedSlots: 7
+    PowerOutput: 650000
+    PowerToSpeed: 1
+    PropulsionGraphicID: 397
     RechargeRate: 4880000.0
     RemoteAssistanceImpedance: 0.5
     RemoteRepairImpedance: 1.0
-    RequiredSkill1: 20533.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 24314.0
-    RequiredSkill2Level: 1.0
-    RigSize: 4.0
-    RigSlots: 3.0
-    RoleBonusCommandBurstAoERange: 200.0
+    RequiredSkill1: 20533
+    RequiredSkill1Level: 1
+    RequiredSkill2: 24314
+    RequiredSkill2Level: 1
+    RigSize: 4
+    RigSlots: 3
+    RoleBonusCommandBurstAoERange: 200
     ScanLadarStrength: 146.0
-    ScanResolution: 70.0
-    ScanSpeed: 6750.0
+    ScanResolution: 70
+    ScanSpeed: 6750
     SensorDampenerResistance: 0.5
-    ShieldCapacity: 490000.0
+    ShieldCapacity: 490000
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -192,146 +192,145 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusRole1: 1.0
-    ShipBonusRole2: 400.0
+    ShipBonusRole2: 400
     ShipBonusRole7: 100.0
-    ShipBonusSupercarrierM1: 10.0
-    ShipBonusSupercarrierM2: 5.0
-    ShipBonusSupercarrierM3: -5.0
-    ShipBonusSupercarrierM4: -5.0
-    ShipBonusSupercarrierM5: 1.0
-    ShipMaintenanceBayCapacity: 2500000.0
-    SignatureRadius: 18640.0
-    SpecialFuelBayCapacity: 5000.0
+    ShipBonusSupercarrierM1: 10
+    ShipBonusSupercarrierM2: 5
+    ShipBonusSupercarrierM3: -5
+    ShipBonusSupercarrierM4: -5
+    ShipBonusSupercarrierM5: 1
+    ShipMaintenanceBayCapacity: 2500000
+    SignatureRadius: 18640
+    SpecialFuelBayCapacity: 5000
     StasisWebifierResistance: 0.5
     StructureUniformity: 1.0
     TargetPainterResistance: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
-    TypeColorScheme: 11342.0
+    TypeColorScheme: 11342
     Uniformity: 1.0
-    UpgradeCapacity: 400.0
-    UpgradeSlotsLeft: 3.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
   Nation:
-    AdvancedAgility: 1.0
-    AdvancedCapitalAgility: 1.0
+    AdvancedAgility: 1
+    AdvancedCapitalAgility: 1
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
     ArmorKineticDamageResonance: 1.0
     ArmorThermalDamageResonance: 1.0
     EmDamageResonance: 1.0
     EnergyWarfareResistance: 1.0
-    EntosisDurationMultiplier: 1.0
+    EntosisDurationMultiplier: 1
     ExplosiveDamageResonance: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 0.1
-    FighterAbilityKamikazeResistance: 1.0
-    GateScrambleStatus: -1000.0
+    FighterAbilityKamikazeResistance: 1
+    GateScrambleStatus: -1000
     HeatAttenuationHi: 1.0
     HeatAttenuationLow: 1.0
     HeatAttenuationMed: 1.0
     HeatGenerationMultiplier: 1.0
     JumpDriveCapacitorNeed: 1.0
-    JumpDriveDuration: 300000.0
+    JumpDriveDuration: 300000
     KineticDamageResonance: 1.0
-    MaximumRangeCap: 300000.0
+    MaximumRangeCap: 300000
     RemoteAssistanceImpedance: 1.0
     RemoteRepairImpedance: 1.0
-    RoleBonusCommandBurstAoERange: 200.0
+    RoleBonusCommandBurstAoERange: 200
     SensorDampenerResistance: 1.0
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
     ShipBonusRole1: 1.0
-    SignatureRadius: 100.0
+    SignatureRadius: 100
     StasisWebifierResistance: 1.0
     StructureUniformity: 1.0
     TargetPainterResistance: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 1.0
     WarpSpeedMultiplier: 3.0
     WeaponDisruptionResistance: 1.0
   Nyx:
-    AdvancedAgility: 1.0
-    AdvancedCapitalAgility: 1.0
+    AdvancedAgility: 1
+    AdvancedCapitalAgility: 1
     Agility: 0.035999998450279236
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 470000.0
+    ArmorHP: 470000
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
-    BaseWarpSpeed: 1.0
-    CanJump: 1.0
+    BaseWarpSpeed: 1
+    CanJump: 1
     CapacitorCapacity: 81000.0
-    CpuOutput: 800.0
-    DisallowInHighSec: 1.0
+    CpuOutput: 800
+    DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
     EnergyWarfareResistance: 1.0
-    EntosisDurationMultiplier: 5.0
+    EntosisDurationMultiplier: 5
     ExplosiveDamageResonance: 0.6700000166893005
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    FighterAbilityKamikazeResistance: 1.0
-    FighterCapacity: 110000.0
-    FighterHeavySlots: 3.0
-    FighterLightSlots: 3.0
-    FighterSupportSlots: 2.0
-    FighterTubes: 5.0
-    FleetHangarCapacity: 50000.0
-    FwLpKill: 7000.0
-    GfxBoosterID: 394.0
-    HasFleetHangars: 1.0
-    HasShipMaintenanceBay: 1.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 110000
+    FighterHeavySlots: 3
+    FighterLightSlots: 3
+    FighterSupportSlots: 2
+    FighterTubes: 5
+    FleetHangarCapacity: 50000
+    FwLpKill: 7000
+    GfxBoosterID: 394
+    HasFleetHangars: 1
+    HasShipMaintenanceBay: 1
     HeatAttenuationHi: 0.7599999904632568
     HeatAttenuationLow: 0.7900000214576721
     HeatAttenuationMed: 0.7099999785423279
-    HeatCapacityHi: 100.0
-    HeatCapacityLow: 100.0
-    HeatCapacityMed: 100.0
+    HeatCapacityHi: 100
+    HeatCapacityLow: 100
+    HeatCapacityMed: 100
     HeatDissipationRateHi: 0.009999999776482582
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.3499999940395355
-    HiSlots: 6.0
-    Hp: 280000.0
-    IsCapitalSize: 1.0
+    HiSlots: 6
+    Hp: 280000
+    IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
-    JumpDriveConsumptionAmount: 3000.0
-    JumpDriveConsumptionType: 17887.0
-    JumpDriveDuration: 300000.0
+    JumpDriveConsumptionAmount: 3000
+    JumpDriveConsumptionType: 17887
+    JumpDriveDuration: 300000
     JumpDriveRange: 3.0
-    JumpHarmonics: -5.0
+    JumpHarmonics: -5
     KineticDamageResonance: 0.6700000166893005
-    LowSlots: 7.0
-    MainColor: 1.6777215E7
-    MaxLockedTargets: 14.0
-    MaxOperationalDistance: 5000.0
-    MaxOperationalUsers: 10.0
-    MaxPassengers: 150.0
-    MaxTargetRange: 4600000.0
+    LowSlots: 7
+    MainColor: 16777215
+    MaxLockedTargets: 14
+    MaxOperationalDistance: 5000
+    MaxOperationalUsers: 10
+    MaxPassengers: 150
+    MaxTargetRange: 4600000
     MaxVelocity: 80.0
-    MaximumRangeCap: 1.0E9
-    MedSlots: 5.0
-    PowerOutput: 825000.0
-    PowerToSpeed: 1.0
-    PropulsionGraphicID: 394.0
+    MaximumRangeCap: 1000000000
+    MedSlots: 5
+    PowerOutput: 825000
+    PowerToSpeed: 1
+    PropulsionGraphicID: 394
     RechargeRate: 5060000.0
     RemoteAssistanceImpedance: 0.5
     RemoteRepairImpedance: 1.0
-    RequiredSkill1: 20533.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 24313.0
-    RequiredSkill2Level: 1.0
-    RigSize: 4.0
-    RigSlots: 3.0
-    RoleBonusCommandBurstAoERange: 200.0
+    RequiredSkill1: 20533
+    RequiredSkill1Level: 1
+    RequiredSkill2: 24313
+    RequiredSkill2Level: 1
+    RigSize: 4
+    RigSlots: 3
+    RoleBonusCommandBurstAoERange: 200
     ScanMagnetometricStrength: 162.0
-    ScanResolution: 60.0
-    ScanSpeed: 6750.0
+    ScanResolution: 60
+    ScanSpeed: 6750
     SensorDampenerResistance: 0.5
-    ShieldCapacity: 240000.0
+    ShieldCapacity: 240000
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -339,110 +338,110 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusRole1: 1.0
-    ShipBonusRole2: 400.0
-    ShipBonusSupercarrierG1: 10.0
-    ShipBonusSupercarrierG2: 5.0
-    ShipBonusSupercarrierG3: -5.0
-    ShipBonusSupercarrierG4: -5.0
-    ShipBonusSupercarrierG5: 1.0
-    ShipMaintenanceBayCapacity: 2500000.0
-    SignatureRadius: 19010.0
-    SpecialFuelBayCapacity: 5000.0
+    ShipBonusRole2: 400
+    ShipBonusSupercarrierG1: 10
+    ShipBonusSupercarrierG2: 5
+    ShipBonusSupercarrierG3: -5
+    ShipBonusSupercarrierG4: -5
+    ShipBonusSupercarrierG5: 1
+    ShipMaintenanceBayCapacity: 2500000
+    SignatureRadius: 19010
+    SpecialFuelBayCapacity: 5000
     StasisWebifierResistance: 0.5
     StructureUniformity: 1.0
     TargetPainterResistance: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
-    TypeColorScheme: 11331.0
+    TypeColorScheme: 11331
     Uniformity: 1.0
-    UpgradeCapacity: 400.0
-    UpgradeSlotsLeft: 3.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
   Revenant:
-    AdvancedAgility: 1.0
-    AdvancedCapitalAgility: 1.0
+    AdvancedAgility: 1
+    AdvancedCapitalAgility: 1
     Agility: 0.03500000014901161
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 330000.0
+    ArmorHP: 330000
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
-    BaseWarpSpeed: 1.0
-    CanJump: 1.0
+    BaseWarpSpeed: 1
+    CanJump: 1
     CapacitorCapacity: 90000.0
-    CpuOutput: 950.0
-    DisallowInHighSec: 1.0
+    CpuOutput: 950
+    DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
     EnergyWarfareResistance: 1.0
-    EntosisDurationMultiplier: 5.0
+    EntosisDurationMultiplier: 5
     ExplosiveDamageResonance: 0.6700000166893005
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    FighterAbilityKamikazeResistance: 1.0
-    FighterCapacity: 100000.0
-    FighterHeavySlots: 3.0
-    FighterLightSlots: 3.0
-    FighterSupportSlots: 2.0
-    FighterTubes: 5.0
-    FleetHangarCapacity: 50000.0
-    FwLpKill: 7000.0
-    GfxBoosterID: 394.0
-    HasFleetHangars: 1.0
-    HasShipMaintenanceBay: 1.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 100000
+    FighterHeavySlots: 3
+    FighterLightSlots: 3
+    FighterSupportSlots: 2
+    FighterTubes: 5
+    FleetHangarCapacity: 50000
+    FwLpKill: 7000
+    GfxBoosterID: 394
+    HasFleetHangars: 1
+    HasShipMaintenanceBay: 1
     HeatAttenuationHi: 0.7599999904632568
     HeatAttenuationLow: 0.7599999904632568
     HeatAttenuationMed: 0.7900000214576721
-    HeatCapacityHi: 100.0
-    HeatCapacityLow: 100.0
-    HeatCapacityMed: 100.0
+    HeatCapacityHi: 100
+    HeatCapacityLow: 100
+    HeatCapacityMed: 100
     HeatDissipationRateHi: 0.009999999776482582
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.3499999940395355
-    HiSlots: 6.0
-    Hp: 405000.0
-    IsCapitalSize: 1.0
+    HiSlots: 6
+    Hp: 405000
+    IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
-    JumpDriveConsumptionAmount: 3000.0
-    JumpDriveConsumptionType: 16274.0
-    JumpDriveDuration: 300000.0
+    JumpDriveConsumptionAmount: 3000
+    JumpDriveConsumptionType: 16274
+    JumpDriveDuration: 300000
     JumpDriveRange: 3.0
-    JumpHarmonics: -5.0
+    JumpHarmonics: -5
     KineticDamageResonance: 0.6700000166893005
-    LowSlots: 6.0
-    MainColor: 1.6777215E7
-    MaxLockedTargets: 14.0
-    MaxOperationalDistance: 5000.0
-    MaxOperationalUsers: 10.0
-    MaxPassengers: 150.0
-    MaxTargetRange: 5800000.0
+    LowSlots: 6
+    MainColor: 16777215
+    MaxLockedTargets: 14
+    MaxOperationalDistance: 5000
+    MaxOperationalUsers: 10
+    MaxPassengers: 150
+    MaxTargetRange: 5800000
     MaxVelocity: 80.0
-    MaximumRangeCap: 1.0E9
-    MedSlots: 7.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    PowerOutput: 625000.0
-    PowerToSpeed: 1.0
-    PropulsionGraphicID: 394.0
+    MaximumRangeCap: 1000000000
+    MedSlots: 7
+    MetaGroupID: 4
+    MetaLevel: 8
+    PowerOutput: 625000
+    PowerToSpeed: 1
+    PropulsionGraphicID: 394
     RechargeRate: 5630000.0
     RemoteAssistanceImpedance: 0.5
     RemoteRepairImpedance: 1.0
-    RequiredSkill1: 20533.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 24311.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 24312.0
-    RequiredSkill3Level: 1.0
-    RigSize: 4.0
-    RigSlots: 3.0
-    RoleBonusCommandBurstAoERange: 200.0
+    RequiredSkill1: 20533
+    RequiredSkill1Level: 1
+    RequiredSkill2: 24311
+    RequiredSkill2Level: 1
+    RequiredSkill3: 24312
+    RequiredSkill3Level: 1
+    RigSize: 4
+    RigSlots: 3
+    RoleBonusCommandBurstAoERange: 200
     ScanRadarStrength: 175.0
-    ScanResolution: 75.0
-    ScanSpeed: 6750.0
+    ScanResolution: 75
+    ScanSpeed: 6750
     SensorDampenerResistance: 0.5
-    ShieldCapacity: 750000.0
+    ShieldCapacity: 750000
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -450,112 +449,112 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusRole1: 1.0
-    ShipBonusRole2: 400.0
-    ShipBonusSupercarrierA1: 5.0
-    ShipBonusSupercarrierA2: 5.0
-    ShipBonusSupercarrierA3: -3.0
-    ShipBonusSupercarrierA4: -5.0
-    ShipBonusSupercarrierC1: 5.0
-    ShipBonusSupercarrierC2: 20.0
-    ShipBonusSupercarrierC3: -3.0
-    ShipMaintenanceBayCapacity: 2500000.0
-    SignatureRadius: 18870.0
-    SpecialFuelBayCapacity: 5000.0
+    ShipBonusRole2: 400
+    ShipBonusSupercarrierA1: 5
+    ShipBonusSupercarrierA2: 5
+    ShipBonusSupercarrierA3: -3
+    ShipBonusSupercarrierA4: -5
+    ShipBonusSupercarrierC1: 5
+    ShipBonusSupercarrierC2: 20
+    ShipBonusSupercarrierC3: -3
+    ShipMaintenanceBayCapacity: 2500000
+    SignatureRadius: 18870
+    SpecialFuelBayCapacity: 5000
     StasisWebifierResistance: 0.5
     StructureUniformity: 1.0
     TargetPainterResistance: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
-    TypeColorScheme: 11349.0
+    TypeColorScheme: 11349
     Uniformity: 1.0
-    UpgradeCapacity: 350.0
-    UpgradeSlotsLeft: 3.0
+    UpgradeCapacity: 350
+    UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
   Vendetta:
-    AdvancedAgility: 1.0
-    AdvancedCapitalAgility: 1.0
+    AdvancedAgility: 1
+    AdvancedCapitalAgility: 1
     Agility: 0.03099999949336052
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 705000.0
+    ArmorHP: 705000
     ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
-    BaseWarpSpeed: 1.0
-    CanJump: 1.0
+    BaseWarpSpeed: 1
+    CanJump: 1
     CapacitorCapacity: 85900.0
-    CpuOutput: 880.0
-    DisallowInHighSec: 1.0
+    CpuOutput: 880
+    DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
     EnergyWarfareResistance: 1.0
-    EntosisDurationMultiplier: 5.0
+    EntosisDurationMultiplier: 5
     ExplosiveDamageResonance: 0.6700000166893005
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    FighterAbilityKamikazeResistance: 1.0
-    FighterCapacity: 110000.0
-    FighterHeavySlots: 3.0
-    FighterLightSlots: 3.0
-    FighterSupportSlots: 2.0
-    FighterTubes: 5.0
-    FleetHangarCapacity: 50000.0
-    FwLpKill: 7000.0
-    GfxBoosterID: 394.0
-    HasFleetHangars: 1.0
-    HasShipMaintenanceBay: 1.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 110000
+    FighterHeavySlots: 3
+    FighterLightSlots: 3
+    FighterSupportSlots: 2
+    FighterTubes: 5
+    FleetHangarCapacity: 50000
+    FwLpKill: 7000
+    GfxBoosterID: 394
+    HasFleetHangars: 1
+    HasShipMaintenanceBay: 1
     HeatAttenuationHi: 0.7599999904632568
     HeatAttenuationLow: 0.7900000214576721
     HeatAttenuationMed: 0.7099999785423279
-    HeatCapacityHi: 100.0
-    HeatCapacityLow: 100.0
-    HeatCapacityMed: 100.0
+    HeatCapacityHi: 100
+    HeatCapacityLow: 100
+    HeatCapacityMed: 100
     HeatDissipationRateHi: 0.009999999776482582
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.3499999940395355
-    HiSlots: 7.0
-    Hp: 420000.0
-    IsCapitalSize: 1.0
+    HiSlots: 7
+    Hp: 420000
+    IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
-    JumpDriveConsumptionAmount: 3000.0
-    JumpDriveConsumptionType: 17887.0
-    JumpDriveDuration: 300000.0
+    JumpDriveConsumptionAmount: 3000
+    JumpDriveConsumptionType: 17887
+    JumpDriveDuration: 300000
     JumpDriveRange: 3.0
-    JumpHarmonics: -5.0
+    JumpHarmonics: -5
     KineticDamageResonance: 0.6700000166893005
-    LowSlots: 7.0
-    MainColor: 1.6777215E7
-    MaxLockedTargets: 14.0
-    MaxOperationalDistance: 5000.0
-    MaxOperationalUsers: 10.0
-    MaxPassengers: 150.0
-    MaxTargetRange: 4750000.0
+    LowSlots: 7
+    MainColor: 16777215
+    MaxLockedTargets: 14
+    MaxOperationalDistance: 5000
+    MaxOperationalUsers: 10
+    MaxPassengers: 150
+    MaxTargetRange: 4750000
     MaxVelocity: 85.0
-    MaximumRangeCap: 1.0E9
-    MedSlots: 5.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    PowerOutput: 907500.0
-    PowerToSpeed: 1.0
-    PropulsionGraphicID: 394.0
+    MaximumRangeCap: 1000000000
+    MedSlots: 5
+    MetaGroupID: 4
+    MetaLevel: 8
+    PowerOutput: 907500
+    PowerToSpeed: 1
+    PropulsionGraphicID: 394
     RechargeRate: 5080000.0
     RemoteAssistanceImpedance: 0.5
     RemoteRepairImpedance: 1.0
-    RequiredSkill1: 20533.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 24313.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 24314.0
-    RequiredSkill3Level: 1.0
-    RigSize: 4.0
-    RigSlots: 3.0
-    RoleBonusCommandBurstAoERange: 200.0
+    RequiredSkill1: 20533
+    RequiredSkill1Level: 1
+    RequiredSkill2: 24313
+    RequiredSkill2Level: 1
+    RequiredSkill3: 24314
+    RequiredSkill3Level: 1
+    RigSize: 4
+    RigSlots: 3
+    RoleBonusCommandBurstAoERange: 200
     ScanMagnetometricStrength: 210.0
-    ScanResolution: 65.0
-    ScanSpeed: 6750.0
+    ScanResolution: 65
+    ScanSpeed: 6750
     SensorDampenerResistance: 0.5
-    ShieldCapacity: 360000.0
+    ShieldCapacity: 360000
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -563,107 +562,107 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusRole1: 1.0
-    ShipBonusRole2: 400.0
-    ShipBonusSupercarrierG1: 10.0
-    ShipBonusSupercarrierG2: 5.0
-    ShipBonusSupercarrierG3: -3.0
-    ShipBonusSupercarrierM1: 10.0
-    ShipBonusSupercarrierM2: 5.0
-    ShipBonusSupercarrierM3: -3.0
-    ShipMaintenanceBayCapacity: 2500000.0
-    SignatureRadius: 20300.0
-    SpecialFuelBayCapacity: 5000.0
+    ShipBonusRole2: 400
+    ShipBonusSupercarrierG1: 10
+    ShipBonusSupercarrierG2: 5
+    ShipBonusSupercarrierG3: -3
+    ShipBonusSupercarrierM1: 10
+    ShipBonusSupercarrierM2: 5
+    ShipBonusSupercarrierM3: -3
+    ShipMaintenanceBayCapacity: 2500000
+    SignatureRadius: 20300
+    SpecialFuelBayCapacity: 5000
     StasisWebifierResistance: 0.5
     StructureUniformity: 1.0
     TargetPainterResistance: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
-    TypeColorScheme: 11331.0
+    TypeColorScheme: 11331
     Uniformity: 1.0
-    UpgradeCapacity: 350.0
-    UpgradeSlotsLeft: 3.0
+    UpgradeCapacity: 350
+    UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
   Wyvern:
-    AdvancedAgility: 1.0
-    AdvancedCapitalAgility: 1.0
+    AdvancedAgility: 1
+    AdvancedCapitalAgility: 1
     Agility: 0.035999998450279236
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 260000.0
+    ArmorHP: 260000
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.550000011920929
     ArmorUniformity: 0.75
-    BaseWarpSpeed: 1.0
-    CanJump: 1.0
+    BaseWarpSpeed: 1
+    CanJump: 1
     CapacitorCapacity: 80000.0
-    CpuOutput: 975.0
-    DisallowInHighSec: 1.0
+    CpuOutput: 975
+    DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
     EnergyWarfareResistance: 1.0
-    EntosisDurationMultiplier: 5.0
+    EntosisDurationMultiplier: 5
     ExplosiveDamageResonance: 0.6700000166893005
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    FighterAbilityKamikazeResistance: 1.0
-    FighterCapacity: 90000.0
-    FighterHeavySlots: 3.0
-    FighterLightSlots: 3.0
-    FighterSupportSlots: 2.0
-    FighterTubes: 5.0
-    FleetHangarCapacity: 50000.0
-    FwLpKill: 7000.0
-    GfxBoosterID: 395.0
-    HasFleetHangars: 1.0
-    HasShipMaintenanceBay: 1.0
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 90000
+    FighterHeavySlots: 3
+    FighterLightSlots: 3
+    FighterSupportSlots: 2
+    FighterTubes: 5
+    FleetHangarCapacity: 50000
+    FwLpKill: 7000
+    GfxBoosterID: 395
+    HasFleetHangars: 1
+    HasShipMaintenanceBay: 1
     HeatAttenuationHi: 0.7599999904632568
     HeatAttenuationLow: 0.6299999952316284
     HeatAttenuationMed: 0.8199999928474426
-    HeatCapacityHi: 100.0
-    HeatCapacityLow: 100.0
-    HeatCapacityMed: 100.0
+    HeatCapacityHi: 100
+    HeatCapacityLow: 100
+    HeatCapacityMed: 100
     HeatDissipationRateHi: 0.009999999776482582
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.3499999940395355
-    HiSlots: 6.0
-    Hp: 250000.0
-    IsCapitalSize: 1.0
+    HiSlots: 6
+    Hp: 250000
+    IsCapitalSize: 1
     JumpDriveCapacitorNeed: 0.949999988079071
-    JumpDriveConsumptionAmount: 3000.0
-    JumpDriveConsumptionType: 17888.0
-    JumpDriveDuration: 300000.0
+    JumpDriveConsumptionAmount: 3000
+    JumpDriveConsumptionType: 17888
+    JumpDriveDuration: 300000
     JumpDriveRange: 3.0
-    JumpHarmonics: -5.0
+    JumpHarmonics: -5
     KineticDamageResonance: 0.6700000166893005
-    LowSlots: 4.0
-    MainColor: 1.6777215E7
-    MaxLockedTargets: 14.0
-    MaxOperationalDistance: 5000.0
-    MaxOperationalUsers: 10.0
-    MaxPassengers: 150.0
-    MaxTargetRange: 5800000.0
+    LowSlots: 4
+    MainColor: 16777215
+    MaxLockedTargets: 14
+    MaxOperationalDistance: 5000
+    MaxOperationalUsers: 10
+    MaxPassengers: 150
+    MaxTargetRange: 5800000
     MaxVelocity: 75.0
-    MaximumRangeCap: 1.0E9
-    MedSlots: 8.0
-    PowerOutput: 550000.0
-    PowerToSpeed: 1.0
-    PropulsionGraphicID: 395.0
+    MaximumRangeCap: 1000000000
+    MedSlots: 8
+    PowerOutput: 550000
+    PowerToSpeed: 1
+    PropulsionGraphicID: 395
     RechargeRate: 5000000.0
     RemoteAssistanceImpedance: 0.5
     RemoteRepairImpedance: 1.0
-    RequiredSkill1: 20533.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 24312.0
-    RequiredSkill2Level: 1.0
-    RigSize: 4.0
-    RigSlots: 3.0
-    RoleBonusCommandBurstAoERange: 200.0
+    RequiredSkill1: 20533
+    RequiredSkill1Level: 1
+    RequiredSkill2: 24312
+    RequiredSkill2Level: 1
+    RigSize: 4
+    RigSlots: 3
+    RoleBonusCommandBurstAoERange: 200
     ScanGravimetricStrength: 170.0
-    ScanResolution: 55.0
-    ScanSpeed: 6750.0
+    ScanResolution: 55
+    ScanSpeed: 6750
     SensorDampenerResistance: 0.5
-    ShieldCapacity: 500000.0
+    ShieldCapacity: 500000
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
@@ -671,24 +670,24 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusRole1: 1.0
-    ShipBonusRole2: 400.0
-    ShipBonusSupercarrierC1: 5.0
-    ShipBonusSupercarrierC2: -4.0
-    ShipBonusSupercarrierC3: -5.0
-    ShipBonusSupercarrierC4: -5.0
-    ShipBonusSupercarrierC5: 1.0
-    ShipMaintenanceBayCapacity: 2500000.0
-    SignatureRadius: 19470.0
-    SpecialFuelBayCapacity: 5000.0
+    ShipBonusRole2: 400
+    ShipBonusSupercarrierC1: 5
+    ShipBonusSupercarrierC2: -4
+    ShipBonusSupercarrierC3: -5
+    ShipBonusSupercarrierC4: -5
+    ShipBonusSupercarrierC5: 1
+    ShipMaintenanceBayCapacity: 2500000
+    SignatureRadius: 19470
+    SpecialFuelBayCapacity: 5000
     StasisWebifierResistance: 0.5
     StructureUniformity: 1.0
     TargetPainterResistance: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
-    TypeColorScheme: 11324.0
+    TypeColorScheme: 11324
     Uniformity: 1.0
-    UpgradeCapacity: 400.0
-    UpgradeSlotsLeft: 3.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0

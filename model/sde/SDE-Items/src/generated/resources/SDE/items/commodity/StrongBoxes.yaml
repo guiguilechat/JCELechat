@@ -10,7 +10,7 @@ items:
   Blood Raider Molok Blueprint Armored Cache: {}
   Blood Raider Standup Module Blueprint Armored Cache: {}
   Blood Raider Strong Box:
-    MetaGroupID: 4.0
+    MetaGroupID: 4
   Brutix Federal Strategic Materiel Pack: {}
   Caracal State Military Stockpile Pack: {}
   Catalyst Destroyer Battle Pack: {}
@@ -29,7 +29,7 @@ items:
   Guristas Komodo Blueprint Armored Cache: {}
   Guristas Loggerhead Blueprint Armored Cache: {}
   Guristas Production Strong Box:
-    MetaGroupID: 4.0
+    MetaGroupID: 4
   Guristas Standup Module Blueprint Armored Cache: {}
   HZO Refinery Strong Box: {}
   Harbinger Imperial War Reserves Pack: {}
@@ -55,7 +55,7 @@ items:
   Rifter Republic Fleet Ordnance Pack: {}
   Rupture Republic Fleet Ordnance Pack: {}
   Salvation Angels Strong Box:
-    MetaGroupID: 4.0
+    MetaGroupID: 4
   State Military Stockpile Package 10: {}
   State Military Stockpile Package 5: {}
   State Military Stockpile Package 6: {}
@@ -67,6 +67,6 @@ items:
   Thrasher Destroyer Battle Pack: {}
   Thukker Mix Strong Box: {}
   True Creations Strong Box:
-    MetaGroupID: 4.0
+    MetaGroupID: 4
   Venture Mining Pack: {}
   Vherokior Tribe Strong Box: {}

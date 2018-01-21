@@ -1,541 +1,541 @@
 items:
   Capital Anti-EM Pump I:
-    Drawback: -10.0
+    Drawback: -10
     EmDamageResistanceBonus: -30.0
-    Hp: 40.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    Hp: 40
+    RigSize: 4
+    TechLevel: 1
+    UpgradeCost: 50
   Capital Anti-EM Pump II:
-    Drawback: -10.0
+    Drawback: -10
     EmDamageResistanceBonus: -35.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 4
+    TechLevel: 2
+    UpgradeCost: 75
   Capital Anti-Explosive Pump I:
-    Drawback: -10.0
+    Drawback: -10
     ExplosiveDamageResistanceBonus: -30.0
-    Hp: 40.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    Hp: 40
+    RigSize: 4
+    TechLevel: 1
+    UpgradeCost: 50
   Capital Anti-Explosive Pump II:
-    Drawback: -10.0
+    Drawback: -10
     ExplosiveDamageResistanceBonus: -35.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 4
+    TechLevel: 2
+    UpgradeCost: 75
   Capital Anti-Kinetic Pump I:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     KineticDamageResistanceBonus: -30.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    RigSize: 4
+    TechLevel: 1
+    UpgradeCost: 50
   Capital Anti-Kinetic Pump II:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     KineticDamageResistanceBonus: -35.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    MetaLevel: 5
+    RigSize: 4
+    TechLevel: 2
+    UpgradeCost: 75
   Capital Anti-Thermal Pump I:
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 4.0
-    TechLevel: 1.0
+    Drawback: -10
+    Hp: 40
+    RigSize: 4
+    TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
-    UpgradeCost: 50.0
+    UpgradeCost: 50
   Capital Anti-Thermal Pump II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 4
+    TechLevel: 2
     ThermalDamageResistanceBonus: -35.0
-    UpgradeCost: 75.0
+    UpgradeCost: 75
   Capital Auxiliary Nano Pump I:
-    Drawback: 10.0
-    Hp: 40.0
-    RepairBonus: 15.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    Drawback: 10
+    Hp: 40
+    RepairBonus: 15
+    RigSize: 4
+    TechLevel: 1
+    UpgradeCost: 100
   Capital Auxiliary Nano Pump II:
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RepairBonus: 20.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RepairBonus: 20
+    RigSize: 4
+    TechLevel: 2
+    UpgradeCost: 150
   Capital Nanobot Accelerator I:
-    Drawback: 10.0
-    DurationSkillBonus: -15.0
-    Hp: 40.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    Drawback: 10
+    DurationSkillBonus: -15
+    Hp: 40
+    RigSize: 4
+    TechLevel: 1
+    UpgradeCost: 100
   Capital Nanobot Accelerator II:
-    Drawback: 10.0
-    DurationSkillBonus: -20.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    Drawback: 10
+    DurationSkillBonus: -20
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 4
+    TechLevel: 2
+    UpgradeCost: 150
   Capital Remote Repair Augmentor I:
-    CapNeedBonus: -20.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    CapNeedBonus: -20
+    Drawback: -10
+    Hp: 40
+    RigSize: 4
+    TechLevel: 1
+    UpgradeCost: 50
   Capital Remote Repair Augmentor II:
-    CapNeedBonus: -25.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    CapNeedBonus: -25
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 4
+    TechLevel: 2
+    UpgradeCost: 75
   Capital Transverse Bulkhead I:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     HullHpBonus: 20.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    RigSize: 4
+    TechLevel: 1
+    UpgradeCost: 50
   Capital Transverse Bulkhead II:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     HullHpBonus: 25.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    MetaLevel: 5
+    RigSize: 4
+    TechLevel: 2
+    UpgradeCost: 75
   Capital Trimark Armor Pump I:
-    ArmorHpBonus: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    ArmorHpBonus: 15
+    Drawback: -10
+    Hp: 40
+    RigSize: 4
+    TechLevel: 1
+    UpgradeCost: 50
   Capital Trimark Armor Pump II:
-    ArmorHpBonus: 20.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    ArmorHpBonus: 20
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 4
+    TechLevel: 2
+    UpgradeCost: 75
   Large Anti-EM Pump I:
-    Drawback: -10.0
+    Drawback: -10
     EmDamageResistanceBonus: -30.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    Hp: 40
+    RigSize: 3
+    TechLevel: 1
+    UpgradeCost: 50
   Large Anti-EM Pump II:
-    Drawback: -10.0
+    Drawback: -10
     EmDamageResistanceBonus: -35.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 3
+    TechLevel: 2
+    UpgradeCost: 75
   Large Anti-Explosive Pump I:
-    Drawback: -10.0
+    Drawback: -10
     ExplosiveDamageResistanceBonus: -30.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    Hp: 40
+    RigSize: 3
+    TechLevel: 1
+    UpgradeCost: 50
   Large Anti-Explosive Pump II:
-    Drawback: -10.0
+    Drawback: -10
     ExplosiveDamageResistanceBonus: -35.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 3
+    TechLevel: 2
+    UpgradeCost: 75
   Large Anti-Kinetic Pump I:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     KineticDamageResistanceBonus: -30.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    RigSize: 3
+    TechLevel: 1
+    UpgradeCost: 50
   Large Anti-Kinetic Pump II:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     KineticDamageResistanceBonus: -35.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    MetaLevel: 5
+    RigSize: 3
+    TechLevel: 2
+    UpgradeCost: 75
   Large Anti-Thermal Pump I:
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
+    Drawback: -10
+    Hp: 40
+    RigSize: 3
+    TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
-    UpgradeCost: 50.0
+    UpgradeCost: 50
   Large Anti-Thermal Pump II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 3
+    TechLevel: 2
     ThermalDamageResistanceBonus: -35.0
-    UpgradeCost: 75.0
+    UpgradeCost: 75
   Large Auxiliary Nano Pump I:
-    Drawback: 10.0
-    Hp: 40.0
-    RepairBonus: 15.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    Drawback: 10
+    Hp: 40
+    RepairBonus: 15
+    RigSize: 3
+    TechLevel: 1
+    UpgradeCost: 100
   Large Auxiliary Nano Pump II:
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RepairBonus: 20.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RepairBonus: 20
+    RigSize: 3
+    TechLevel: 2
+    UpgradeCost: 150
   Large Nanobot Accelerator I:
-    Drawback: 10.0
-    DurationSkillBonus: -15.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    Drawback: 10
+    DurationSkillBonus: -15
+    Hp: 40
+    RigSize: 3
+    TechLevel: 1
+    UpgradeCost: 100
   Large Nanobot Accelerator II:
-    Drawback: 10.0
-    DurationSkillBonus: -20.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    Drawback: 10
+    DurationSkillBonus: -20
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 3
+    TechLevel: 2
+    UpgradeCost: 150
   Large Remote Repair Augmentor I:
-    CapNeedBonus: -20.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    CapNeedBonus: -20
+    Drawback: -10
+    Hp: 40
+    RigSize: 3
+    TechLevel: 1
+    UpgradeCost: 50
   Large Remote Repair Augmentor II:
-    CapNeedBonus: -25.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    CapNeedBonus: -25
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 3
+    TechLevel: 2
+    UpgradeCost: 75
   Large Transverse Bulkhead I:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     HullHpBonus: 20.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    RigSize: 3
+    TechLevel: 1
+    UpgradeCost: 50
   Large Transverse Bulkhead II:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     HullHpBonus: 25.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    MetaLevel: 5
+    RigSize: 3
+    TechLevel: 2
+    UpgradeCost: 75
   Large Trimark Armor Pump I:
-    ArmorHpBonus: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    ArmorHpBonus: 15
+    Drawback: -10
+    Hp: 40
+    RigSize: 3
+    TechLevel: 1
+    UpgradeCost: 50
   Large Trimark Armor Pump II:
-    ArmorHpBonus: 20.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    ArmorHpBonus: 20
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 3
+    TechLevel: 2
+    UpgradeCost: 75
   Medium Anti-EM Pump I:
-    Drawback: -10.0
+    Drawback: -10
     EmDamageResistanceBonus: -30.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    Hp: 40
+    RigSize: 2
+    TechLevel: 1
+    UpgradeCost: 50
   Medium Anti-EM Pump II:
-    Drawback: -10.0
+    Drawback: -10
     EmDamageResistanceBonus: -35.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 2
+    TechLevel: 2
+    UpgradeCost: 75
   Medium Anti-Explosive Pump I:
-    Drawback: -10.0
+    Drawback: -10
     ExplosiveDamageResistanceBonus: -30.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    Hp: 40
+    RigSize: 2
+    TechLevel: 1
+    UpgradeCost: 50
   Medium Anti-Explosive Pump II:
-    Drawback: -10.0
+    Drawback: -10
     ExplosiveDamageResistanceBonus: -35.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 2
+    TechLevel: 2
+    UpgradeCost: 75
   Medium Anti-Kinetic Pump I:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     KineticDamageResistanceBonus: -30.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    RigSize: 2
+    TechLevel: 1
+    UpgradeCost: 50
   Medium Anti-Kinetic Pump II:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     KineticDamageResistanceBonus: -35.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    MetaLevel: 5
+    RigSize: 2
+    TechLevel: 2
+    UpgradeCost: 75
   Medium Anti-Thermal Pump I:
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
+    Drawback: -10
+    Hp: 40
+    RigSize: 2
+    TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
-    UpgradeCost: 50.0
+    UpgradeCost: 50
   Medium Anti-Thermal Pump II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 2
+    TechLevel: 2
     ThermalDamageResistanceBonus: -35.0
-    UpgradeCost: 75.0
+    UpgradeCost: 75
   Medium Auxiliary Nano Pump I:
-    Drawback: 10.0
-    Hp: 40.0
-    RepairBonus: 15.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    Drawback: 10
+    Hp: 40
+    RepairBonus: 15
+    RigSize: 2
+    TechLevel: 1
+    UpgradeCost: 100
   Medium Auxiliary Nano Pump II:
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RepairBonus: 20.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RepairBonus: 20
+    RigSize: 2
+    TechLevel: 2
+    UpgradeCost: 150
   Medium Nanobot Accelerator I:
-    Drawback: 10.0
-    DurationSkillBonus: -15.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    Drawback: 10
+    DurationSkillBonus: -15
+    Hp: 40
+    RigSize: 2
+    TechLevel: 1
+    UpgradeCost: 100
   Medium Nanobot Accelerator II:
-    Drawback: 10.0
-    DurationSkillBonus: -20.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    Drawback: 10
+    DurationSkillBonus: -20
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 2
+    TechLevel: 2
+    UpgradeCost: 150
   Medium Remote Repair Augmentor I:
-    CapNeedBonus: -20.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    CapNeedBonus: -20
+    Drawback: -10
+    Hp: 40
+    RigSize: 2
+    TechLevel: 1
+    UpgradeCost: 50
   Medium Remote Repair Augmentor II:
-    CapNeedBonus: -25.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    CapNeedBonus: -25
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 2
+    TechLevel: 2
+    UpgradeCost: 75
   Medium Transverse Bulkhead I:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     HullHpBonus: 20.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    RigSize: 2
+    TechLevel: 1
+    UpgradeCost: 50
   Medium Transverse Bulkhead II:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     HullHpBonus: 25.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    MetaLevel: 5
+    RigSize: 2
+    TechLevel: 2
+    UpgradeCost: 75
   Medium Trimark Armor Pump I:
-    ArmorHpBonus: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    ArmorHpBonus: 15
+    Drawback: -10
+    Hp: 40
+    RigSize: 2
+    TechLevel: 1
+    UpgradeCost: 50
   Medium Trimark Armor Pump II:
-    ArmorHpBonus: 20.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    ArmorHpBonus: 20
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 2
+    TechLevel: 2
+    UpgradeCost: 75
   Small Anti-EM Pump I:
-    Drawback: -10.0
+    Drawback: -10
     EmDamageResistanceBonus: -30.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    Hp: 40
+    RigSize: 1
+    TechLevel: 1
+    UpgradeCost: 50
   Small Anti-EM Pump II:
-    Drawback: -10.0
+    Drawback: -10
     EmDamageResistanceBonus: -35.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 1
+    TechLevel: 2
+    UpgradeCost: 75
   Small Anti-Explosive Pump I:
-    Drawback: -10.0
+    Drawback: -10
     ExplosiveDamageResistanceBonus: -30.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    Hp: 40
+    RigSize: 1
+    TechLevel: 1
+    UpgradeCost: 50
   Small Anti-Explosive Pump II:
-    Drawback: -10.0
+    Drawback: -10
     ExplosiveDamageResistanceBonus: -35.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 1
+    TechLevel: 2
+    UpgradeCost: 75
   Small Anti-Kinetic Pump I:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     KineticDamageResistanceBonus: -30.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    RigSize: 1
+    TechLevel: 1
+    UpgradeCost: 50
   Small Anti-Kinetic Pump II:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     KineticDamageResistanceBonus: -35.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    MetaLevel: 5
+    RigSize: 1
+    TechLevel: 2
+    UpgradeCost: 75
   Small Anti-Thermal Pump I:
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
+    Drawback: -10
+    Hp: 40
+    RigSize: 1
+    TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
-    UpgradeCost: 50.0
+    UpgradeCost: 50
   Small Anti-Thermal Pump II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 1
+    TechLevel: 2
     ThermalDamageResistanceBonus: -35.0
-    UpgradeCost: 75.0
+    UpgradeCost: 75
   Small Auxiliary Nano Pump I:
-    Drawback: 10.0
-    Hp: 40.0
-    RepairBonus: 15.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    Drawback: 10
+    Hp: 40
+    RepairBonus: 15
+    RigSize: 1
+    TechLevel: 1
+    UpgradeCost: 100
   Small Auxiliary Nano Pump II:
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RepairBonus: 20.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    Drawback: 10
+    Hp: 40
+    MetaLevel: 5
+    RepairBonus: 20
+    RigSize: 1
+    TechLevel: 2
+    UpgradeCost: 150
   Small Nanobot Accelerator I:
-    Drawback: 10.0
-    DurationSkillBonus: -15.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    Drawback: 10
+    DurationSkillBonus: -15
+    Hp: 40
+    RigSize: 1
+    TechLevel: 1
+    UpgradeCost: 100
   Small Nanobot Accelerator II:
-    Drawback: 10.0
-    DurationSkillBonus: -20.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    Drawback: 10
+    DurationSkillBonus: -20
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 1
+    TechLevel: 2
+    UpgradeCost: 150
   Small Remote Repair Augmentor I:
-    CapNeedBonus: -20.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    CapNeedBonus: -20
+    Drawback: -10
+    Hp: 40
+    RigSize: 1
+    TechLevel: 1
+    UpgradeCost: 50
   Small Remote Repair Augmentor II:
-    CapNeedBonus: -25.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    CapNeedBonus: -25
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 1
+    TechLevel: 2
+    UpgradeCost: 75
   Small Transverse Bulkhead I:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     HullHpBonus: 20.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    RigSize: 1
+    TechLevel: 1
+    UpgradeCost: 50
   Small Transverse Bulkhead II:
-    Drawback: -10.0
-    Hp: 40.0
+    Drawback: -10
+    Hp: 40
     HullHpBonus: 25.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    MetaLevel: 5
+    RigSize: 1
+    TechLevel: 2
+    UpgradeCost: 75
   Small Trimark Armor Pump I:
-    ArmorHpBonus: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    ArmorHpBonus: 15
+    Drawback: -10
+    Hp: 40
+    RigSize: 1
+    TechLevel: 1
+    UpgradeCost: 50
   Small Trimark Armor Pump II:
-    ArmorHpBonus: 20.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    ArmorHpBonus: 20
+    Drawback: -10
+    Hp: 40
+    MetaLevel: 5
+    RigSize: 1
+    TechLevel: 2
+    UpgradeCost: 75

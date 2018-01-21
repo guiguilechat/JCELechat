@@ -1,103 +1,103 @@
 items:
   10000MN Afterburner I:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 485.0
-    CanFitShipGroup03: 1538.0
-    CanFitShipGroup04: 659.0
-    CanFitShipGroup05: 30.0
-    CanFitShipGroup06: 883.0
+    CanFitShipGroup01: 547
+    CanFitShipGroup02: 485
+    CanFitShipGroup03: 1538
+    CanFitShipGroup04: 659
+    CanFitShipGroup05: 30
+    CanFitShipGroup06: 883
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 8000.0
     Cpu: 75.0
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MassAddition: 5.0E8
-    MaxGroupActive: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 35000.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E9
+    Hp: 40
+    MassAddition: 500000000
+    MaxGroupActive: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 35000
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000000
     SpeedFactor: 115.0
-    TechLevel: 1.0
+    TechLevel: 1
   10000MN Afterburner II:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 485.0
-    CanFitShipGroup03: 1538.0
-    CanFitShipGroup04: 659.0
-    CanFitShipGroup05: 30.0
-    CanFitShipGroup06: 883.0
+    CanFitShipGroup01: 547
+    CanFitShipGroup02: 485
+    CanFitShipGroup03: 1538
+    CanFitShipGroup04: 659
+    CanFitShipGroup05: 30
+    CanFitShipGroup06: 883
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 8000.0
     Cpu: 75.0
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MassAddition: 5.0E8
-    MaxGroupActive: 1.0
-    MetaLevel: 5.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 40000.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E9
+    Hp: 40
+    MassAddition: 500000000
+    MaxGroupActive: 1
+    MetaLevel: 5
+    OverloadSpeedFactorBonus: 50
+    Power: 40000
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000000
     SpeedFactor: 135.0
-    TechLevel: 2.0
+    TechLevel: 2
   10000MN Monopropellant Enduring Afterburner:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 485.0
-    CanFitShipGroup03: 1538.0
-    CanFitShipGroup04: 659.0
-    CanFitShipGroup05: 30.0
-    CanFitShipGroup06: 883.0
+    CanFitShipGroup01: 547
+    CanFitShipGroup02: 485
+    CanFitShipGroup03: 1538
+    CanFitShipGroup04: 659
+    CanFitShipGroup05: 30
+    CanFitShipGroup06: 883
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 7200.0
     Cpu: 43.0
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MassAddition: 5.0E8
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 35000.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E9
+    Hp: 40
+    MassAddition: 500000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 35000
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000000
     SpeedFactor: 125.0
-    TechLevel: 1.0
+    TechLevel: 1
   10000MN Y-S8 Compact Afterburner:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 485.0
-    CanFitShipGroup03: 1538.0
-    CanFitShipGroup04: 659.0
-    CanFitShipGroup05: 30.0
-    CanFitShipGroup06: 883.0
+    CanFitShipGroup01: 547
+    CanFitShipGroup02: 485
+    CanFitShipGroup03: 1538
+    CanFitShipGroup04: 659
+    CanFitShipGroup05: 30
+    CanFitShipGroup06: 883
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 8000.0
     Cpu: 43.0
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MassAddition: 5.0E8
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 30000.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E9
+    Hp: 40
+    MassAddition: 500000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 30000
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000000
     SpeedFactor: 125.0
-    TechLevel: 1.0
+    TechLevel: 1
   100MN Afterburner I:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 320.0
@@ -105,17 +105,17 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 625.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 625
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 115.0
-    TechLevel: 1.0
+    TechLevel: 1
   100MN Afterburner II:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 350.0
@@ -123,18 +123,18 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaLevel: 5.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 688.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaLevel: 5
+    OverloadSpeedFactorBonus: 50
+    Power: 688
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 135.0
-    TechLevel: 2.0
+    TechLevel: 2
   100MN Analog Booster Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 250.0
@@ -142,19 +142,19 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 563.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 3
+    MetaLevel: 6
+    OverloadSpeedFactorBonus: 50
+    Power: 563
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 135.0
-    TechLevel: 1.0
+    TechLevel: 1
   100MN Monopropellant Enduring Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 250.0
@@ -162,18 +162,18 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 625.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 625
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 125.0
-    TechLevel: 1.0
+    TechLevel: 1
   100MN Y-S8 Compact Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 320.0
@@ -181,18 +181,18 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 563.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 563
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 125.0
-    TechLevel: 1.0
+    TechLevel: 1
   10MN Afterburner I:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 80.0
@@ -200,17 +200,17 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 50.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 50
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 115.0
-    TechLevel: 1.0
+    TechLevel: 1
   10MN Afterburner II:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 90.0
@@ -218,18 +218,18 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaLevel: 5.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 55.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaLevel: 5
+    OverloadSpeedFactorBonus: 50
+    Power: 55
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 135.0
-    TechLevel: 2.0
+    TechLevel: 2
   10MN Analog Booster Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 60.0
@@ -237,19 +237,19 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 45.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 3
+    MetaLevel: 6
+    OverloadSpeedFactorBonus: 50
+    Power: 45
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 135.0
-    TechLevel: 1.0
+    TechLevel: 1
   10MN Monopropellant Enduring Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 60.0
@@ -257,18 +257,18 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 50.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 50
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 125.0
-    TechLevel: 1.0
+    TechLevel: 1
   10MN Y-S8 Compact Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 80.0
@@ -276,18 +276,18 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 45.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 45
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 125.0
-    TechLevel: 1.0
+    TechLevel: 1
   1MN Afterburner I:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 20.0
@@ -295,17 +295,17 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 10.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 10
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 115.0
-    TechLevel: 1.0
+    TechLevel: 1
   1MN Afterburner II:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 22.0
@@ -313,18 +313,18 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaLevel: 5.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 11.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaLevel: 5
+    OverloadSpeedFactorBonus: 50
+    Power: 11
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 135.0
-    TechLevel: 2.0
+    TechLevel: 2
   1MN Analog Booster Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 15.0
@@ -332,19 +332,19 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 9.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 3
+    MetaLevel: 6
+    OverloadSpeedFactorBonus: 50
+    Power: 9
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 135.0
-    TechLevel: 1.0
+    TechLevel: 1
   1MN Civilian Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 5.0
@@ -352,16 +352,16 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 1
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 60.0
-    TechLevel: 1.0
+    TechLevel: 1
   1MN Monopropellant Enduring Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 15.0
@@ -369,18 +369,18 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 10.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 10
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 125.0
-    TechLevel: 1.0
+    TechLevel: 1
   1MN Y-S8 Compact Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 20.0
@@ -388,530 +388,518 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 9.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 9
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 125.0
-    TechLevel: 1.0
+    TechLevel: 1
   50000MN Cold-Gas Enduring Microwarpdrive:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 485.0
-    CanFitShipGroup03: 1538.0
-    CanFitShipGroup04: 659.0
-    CanFitShipGroup05: 30.0
-    CanFitShipGroup06: 883.0
+    CanFitShipGroup01: 547
+    CanFitShipGroup02: 485
+    CanFitShipGroup03: 1538
+    CanFitShipGroup04: 659
+    CanFitShipGroup05: 30
+    CanFitShipGroup06: 883
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 9000.0
     Cpu: 100.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 6.0
-    Hp: 40.0
-    MassAddition: 5.0E8
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 70000.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 70000
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1.5E9
+    SpeedBoostFactor: 1500000000
     SpeedFactor: 505.0
-    TechLevel: 1.0
+    TechLevel: 1
   50000MN Microwarpdrive I:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 485.0
-    CanFitShipGroup03: 1538.0
-    CanFitShipGroup04: 659.0
-    CanFitShipGroup05: 30.0
-    CanFitShipGroup06: 883.0
+    CanFitShipGroup01: 547
+    CanFitShipGroup02: 485
+    CanFitShipGroup03: 1538
+    CanFitShipGroup04: 659
+    CanFitShipGroup05: 30
+    CanFitShipGroup06: 883
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 10000.0
     Cpu: 100.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 6.0
-    Hp: 40.0
-    MassAddition: 5.0E8
-    MaxGroupActive: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 70000.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000000
+    MaxGroupActive: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 70000
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1.5E9
+    SpeedBoostFactor: 1500000000
     SpeedFactor: 500.0
-    TechLevel: 1.0
+    TechLevel: 1
   50000MN Microwarpdrive II:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 485.0
-    CanFitShipGroup03: 1538.0
-    CanFitShipGroup04: 659.0
-    CanFitShipGroup05: 30.0
-    CanFitShipGroup06: 883.0
+    CanFitShipGroup01: 547
+    CanFitShipGroup02: 485
+    CanFitShipGroup03: 1538
+    CanFitShipGroup04: 659
+    CanFitShipGroup05: 30
+    CanFitShipGroup06: 883
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 11000.0
     Cpu: 100.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 6.0
-    Hp: 40.0
-    MassAddition: 5.0E8
-    MaxGroupActive: 1.0
-    MetaLevel: 5.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 80000.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000000
+    MaxGroupActive: 1
+    MetaLevel: 5
+    OverloadSpeedFactorBonus: 50
+    Power: 80000
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1.5E9
+    SpeedBoostFactor: 1500000000
     SpeedFactor: 510.0
-    TechLevel: 2.0
+    TechLevel: 2
   50000MN Quad LiF Restrained Microwarpdrive:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 485.0
-    CanFitShipGroup03: 1538.0
-    CanFitShipGroup04: 659.0
-    CanFitShipGroup05: 30.0
-    CanFitShipGroup06: 883.0
+    CanFitShipGroup01: 547
+    CanFitShipGroup02: 485
+    CanFitShipGroup03: 1538
+    CanFitShipGroup04: 659
+    CanFitShipGroup05: 30
+    CanFitShipGroup06: 883
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 10000.0
     Cpu: 100.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 6.0
-    Hp: 40.0
-    MassAddition: 5.0E8
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 70000.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 70000
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1.5E9
+    SpeedBoostFactor: 1500000000
     SpeedFactor: 505.0
-    TechLevel: 1.0
+    TechLevel: 1
   50000MN Y-T8 Compact Microwarpdrive:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 485.0
-    CanFitShipGroup03: 1538.0
-    CanFitShipGroup04: 659.0
-    CanFitShipGroup05: 30.0
-    CanFitShipGroup06: 883.0
+    CanFitShipGroup01: 547
+    CanFitShipGroup02: 485
+    CanFitShipGroup03: 1538
+    CanFitShipGroup04: 659
+    CanFitShipGroup05: 30
+    CanFitShipGroup06: 883
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 10000.0
     Cpu: 85.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 6.0
-    Hp: 40.0
-    MassAddition: 5.0E8
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 60000.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 60000
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1.5E9
+    SpeedBoostFactor: 1500000000
     SpeedFactor: 505.0
-    TechLevel: 1.0
+    TechLevel: 1
   500MN Cold-Gas Enduring Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 280.0
-    Cpu: 75.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1250.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 1250
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 505.0
-    TechLevel: 1.0
+    TechLevel: 1
   500MN Digital Booster Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8500000238418579
     CapacitorNeed: 260.0
-    Cpu: 64.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1125.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 3
+    MetaLevel: 6
+    OverloadSpeedFactorBonus: 50
+    Power: 1125
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 510.0
-    TechLevel: 1.0
+    TechLevel: 1
   500MN Microwarpdrive I:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 320.0
-    Cpu: 75.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1250.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 1250
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 500.0
-    TechLevel: 1.0
+    TechLevel: 1
   500MN Microwarpdrive II:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 350.0
-    Cpu: 75.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaLevel: 5.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1375.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaLevel: 5
+    OverloadSpeedFactorBonus: 50
+    Power: 1375
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 510.0
-    TechLevel: 2.0
+    TechLevel: 2
   500MN Quad LiF Restrained Microwarpdrive:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 320.0
     Cpu: 75.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1250.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 1250
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 505.0
-    TechLevel: 1.0
+    TechLevel: 1
   500MN Y-T8 Compact Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 320.0
     Cpu: 64.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1125.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 1125
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 505.0
-    TechLevel: 1.0
+    TechLevel: 1
   50MN Cold-Gas Enduring Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 160.0
-    Cpu: 50.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 150.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 150
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 505.0
-    TechLevel: 1.0
+    TechLevel: 1
   50MN Digital Booster Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8500000238418579
     CapacitorNeed: 140.0
-    Cpu: 43.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 135.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 3
+    MetaLevel: 6
+    OverloadSpeedFactorBonus: 50
+    Power: 135
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 510.0
-    TechLevel: 1.0
+    TechLevel: 1
   50MN Microwarpdrive I:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 180.0
-    Cpu: 50.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 150.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 150
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 500.0
-    TechLevel: 1.0
+    TechLevel: 1
   50MN Microwarpdrive II:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 200.0
-    Cpu: 50.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaLevel: 5.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 165.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaLevel: 5
+    OverloadSpeedFactorBonus: 50
+    Power: 165
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 4
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 510.0
-    TechLevel: 2.0
+    TechLevel: 2
   50MN Quad LiF Restrained Microwarpdrive:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 180.0
     Cpu: 50.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 150.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 150
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 505.0
-    TechLevel: 1.0
+    TechLevel: 1
   50MN Y-T8 Compact Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 180.0
     Cpu: 43.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 135.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 135
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 505.0
-    TechLevel: 1.0
+    TechLevel: 1
   5MN Cold-Gas Enduring Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 35.0
-    Cpu: 25.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 15.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 15
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 505.0
-    TechLevel: 1.0
+    TechLevel: 1
   5MN Digital Booster Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8500000238418579
     CapacitorNeed: 35.0
-    Cpu: 21.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 14.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 3
+    MetaLevel: 6
+    OverloadSpeedFactorBonus: 50
+    Power: 14
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 510.0
-    TechLevel: 1.0
+    TechLevel: 1
   5MN Microwarpdrive I:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 45.0
-    Cpu: 25.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 15.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 15
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 500.0
-    TechLevel: 1.0
+    TechLevel: 1
   5MN Microwarpdrive II:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 50.0
-    Cpu: 25.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaLevel: 5.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 17.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaLevel: 5
+    OverloadSpeedFactorBonus: 50
+    Power: 17
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 3
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 510.0
-    TechLevel: 2.0
+    TechLevel: 2
   5MN Quad LiF Restrained Microwarpdrive:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 45.0
     Cpu: 25.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 15.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 15
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 505.0
-    TechLevel: 1.0
+    TechLevel: 1
   5MN Y-T8 Compact Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 45.0
     Cpu: 21.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaLevel: 1.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 14.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaLevel: 1
+    OverloadSpeedFactorBonus: 50
+    Power: 14
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 500.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 505.0
-    TechLevel: 1.0
+    TechLevel: 1
   Brynn's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -919,41 +907,41 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 563.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadSpeedFactorBonus: 60
+    Power: 563
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 150.0
-    TechLevel: 1.0
+    TechLevel: 1
   Brynn's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 280.0
     Cpu: 77.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 1125.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadSpeedFactorBonus: 60
+    Power: 1125
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 514.0
-    TechLevel: 1.0
+    TechLevel: 1
   Core A-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -961,41 +949,41 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 625.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadSpeedFactorBonus: 50
+    Power: 625
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 160.0
-    TechLevel: 1.0
+    TechLevel: 1
   Core A-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 280.0
     Cpu: 94.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1250.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadSpeedFactorBonus: 50
+    Power: 1250
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 410.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 518.0
-    TechLevel: 1.0
+    TechLevel: 1
   Core B-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1003,41 +991,41 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 625.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadSpeedFactorBonus: 50
+    Power: 625
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 155.0
-    TechLevel: 1.0
+    TechLevel: 1
   Core B-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 280.0
     Cpu: 90.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1250.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadSpeedFactorBonus: 50
+    Power: 1250
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 430.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 516.0
-    TechLevel: 1.0
+    TechLevel: 1
   Core C-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1045,41 +1033,41 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 10.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 625.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadSpeedFactorBonus: 50
+    Power: 625
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 150.0
-    TechLevel: 1.0
+    TechLevel: 1
   Core C-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 280.0
     Cpu: 86.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 10.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1250.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadSpeedFactorBonus: 50
+    Power: 1250
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 514.0
-    TechLevel: 1.0
+    TechLevel: 1
   Core X-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1087,41 +1075,41 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 16.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 625.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 16
+    OverloadSpeedFactorBonus: 50
+    Power: 625
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 165.0
-    TechLevel: 1.0
+    TechLevel: 1
   Core X-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 280.0
     Cpu: 98.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 16.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1250.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 16
+    OverloadSpeedFactorBonus: 50
+    Power: 1250
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 390.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 520.0
-    TechLevel: 1.0
+    TechLevel: 1
   Coreli A-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -1129,41 +1117,41 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 10.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadSpeedFactorBonus: 50
+    Power: 10
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 160.0
-    TechLevel: 1.0
+    TechLevel: 1
   Coreli A-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 40.0
     Cpu: 31.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 15.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadSpeedFactorBonus: 50
+    Power: 15
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 410.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 518.0
-    TechLevel: 1.0
+    TechLevel: 1
   Coreli B-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -1171,41 +1159,40 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 10.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadSpeedFactorBonus: 50
+    Power: 10
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 155.0
-    TechLevel: 1.0
+    TechLevel: 1
   Coreli B-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 40.0
-    Cpu: 30.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 15.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadSpeedFactorBonus: 50
+    Power: 15
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 430.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 516.0
-    TechLevel: 1.0
+    TechLevel: 1
   Coreli C-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -1213,41 +1200,40 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 10.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 10.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadSpeedFactorBonus: 50
+    Power: 10
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 150.0
-    TechLevel: 1.0
+    TechLevel: 1
   Coreli C-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 40.0
-    Cpu: 29.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 10.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 15.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadSpeedFactorBonus: 50
+    Power: 15
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 514.0
-    TechLevel: 1.0
+    TechLevel: 1
   Corelum A-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -1255,41 +1241,40 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 50.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadSpeedFactorBonus: 50
+    Power: 50
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 160.0
-    TechLevel: 1.0
+    TechLevel: 1
   Corelum A-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 160.0
-    Cpu: 63.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 150.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadSpeedFactorBonus: 50
+    Power: 150
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 410.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 518.0
-    TechLevel: 1.0
+    TechLevel: 1
   Corelum B-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -1297,41 +1282,41 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 50.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadSpeedFactorBonus: 50
+    Power: 50
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 155.0
-    TechLevel: 1.0
+    TechLevel: 1
   Corelum B-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 160.0
     Cpu: 60.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 150.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadSpeedFactorBonus: 50
+    Power: 150
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 430.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 516.0
-    TechLevel: 1.0
+    TechLevel: 1
   Corelum C-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -1339,41 +1324,40 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 10.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 50.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadSpeedFactorBonus: 50
+    Power: 50
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 150.0
-    TechLevel: 1.0
+    TechLevel: 1
   Corelum C-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 160.0
-    Cpu: 58.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 10.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 150.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadSpeedFactorBonus: 50
+    Power: 150
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 514.0
-    TechLevel: 1.0
+    TechLevel: 1
   Cormack's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1381,67 +1365,67 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 17.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 563.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 17
+    OverloadSpeedFactorBonus: 60
+    Power: 563
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 165.0
-    TechLevel: 1.0
+    TechLevel: 1
   Cormack's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 280.0
     Cpu: 88.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 17.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 1125.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 17
+    OverloadSpeedFactorBonus: 60
+    Power: 1125
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 390.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 520.0
-    TechLevel: 1.0
+    TechLevel: 1
   Domination 10000MN Afterburner:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 485.0
-    CanFitShipGroup03: 1538.0
-    CanFitShipGroup04: 659.0
-    CanFitShipGroup05: 30.0
-    CanFitShipGroup06: 883.0
+    CanFitShipGroup01: 547
+    CanFitShipGroup02: 485
+    CanFitShipGroup03: 1538
+    CanFitShipGroup04: 659
+    CanFitShipGroup05: 30
+    CanFitShipGroup06: 883
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 8000.0
     Cpu: 75.0
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MassAddition: 5.0E8
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 40000.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E9
+    Hp: 40
+    MassAddition: 500000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 40000
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000000
     SpeedFactor: 145.0
-    TechLevel: 1.0
+    TechLevel: 1
   Domination 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1449,19 +1433,19 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 688.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 688
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 145.0
-    TechLevel: 1.0
+    TechLevel: 1
   Domination 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -1469,19 +1453,19 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 55.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 55
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 145.0
-    TechLevel: 1.0
+    TechLevel: 1
   Domination 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -1489,113 +1473,110 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 11.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 11
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 145.0
-    TechLevel: 1.0
+    TechLevel: 1
   Domination 50000MN Microwarpdrive:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 485.0
-    CanFitShipGroup03: 1538.0
-    CanFitShipGroup04: 659.0
-    CanFitShipGroup05: 30.0
-    CanFitShipGroup06: 883.0
+    CanFitShipGroup01: 547
+    CanFitShipGroup02: 485
+    CanFitShipGroup03: 1538
+    CanFitShipGroup04: 659
+    CanFitShipGroup05: 30
+    CanFitShipGroup06: 883
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 10000.0
     Cpu: 100.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 6.0
-    Hp: 40.0
-    MassAddition: 5.0E8
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 80000.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 80000
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1.5E9
+    SpeedBoostFactor: 1500000000
     SpeedFactor: 512.0
-    TechLevel: 1.0
+    TechLevel: 1
   Domination 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 320.0
-    Cpu: 75.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1375.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 1375
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 512.0
-    TechLevel: 1.0
+    TechLevel: 1
   Domination 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 180.0
-    Cpu: 50.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 165.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 165
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 512.0
-    TechLevel: 1.0
+    TechLevel: 1
   Domination 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 45.0
-    Cpu: 25.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 17.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 17
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 512.0
-    TechLevel: 1.0
+    TechLevel: 1
   Federation Navy 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1603,19 +1584,19 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 625.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 625
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 145.0
-    TechLevel: 1.0
+    TechLevel: 1
   Federation Navy 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -1623,19 +1604,19 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 50.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 50
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 145.0
-    TechLevel: 1.0
+    TechLevel: 1
   Federation Navy 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -1643,85 +1624,82 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 10.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 10
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 145.0
-    TechLevel: 1.0
+    TechLevel: 1
   Federation Navy 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 280.0
-    Cpu: 83.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1250.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 1250
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 475.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 512.0
-    TechLevel: 1.0
+    TechLevel: 1
   Federation Navy 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 160.0
-    Cpu: 55.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 150.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 150
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 475.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 512.0
-    TechLevel: 1.0
+    TechLevel: 1
   Federation Navy 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 40.0
-    Cpu: 28.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 15.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 15
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 475.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 512.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gist A-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1729,41 +1707,40 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 781.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadSpeedFactorBonus: 50
+    Power: 781
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 160.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gist A-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 320.0
-    Cpu: 75.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1563.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadSpeedFactorBonus: 50
+    Power: 1563
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 390.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 518.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gist B-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1771,41 +1748,40 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 750.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadSpeedFactorBonus: 50
+    Power: 750
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 155.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gist B-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 320.0
-    Cpu: 75.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1500.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadSpeedFactorBonus: 50
+    Power: 1500
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 410.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 516.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gist C-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1813,41 +1789,40 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 10.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 719.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadSpeedFactorBonus: 50
+    Power: 719
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 150.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gist C-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 320.0
-    Cpu: 75.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 10.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1438.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadSpeedFactorBonus: 50
+    Power: 1438
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 430.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 514.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gist X-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1855,41 +1830,40 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 16.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 813.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 16
+    OverloadSpeedFactorBonus: 50
+    Power: 813
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 165.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gist X-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 320.0
-    Cpu: 75.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 16.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1625.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 16
+    OverloadSpeedFactorBonus: 50
+    Power: 1625
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 350.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 520.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gistii A-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -1897,41 +1871,40 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 13.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadSpeedFactorBonus: 50
+    Power: 13
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 160.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gistii A-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 45.0
-    Cpu: 25.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 19.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadSpeedFactorBonus: 50
+    Power: 19
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 390.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 518.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gistii B-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -1939,41 +1912,40 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 12.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadSpeedFactorBonus: 50
+    Power: 12
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 155.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gistii B-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 45.0
-    Cpu: 25.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 18.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadSpeedFactorBonus: 50
+    Power: 18
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 410.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 516.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gistii C-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -1981,41 +1953,40 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 10.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 12.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadSpeedFactorBonus: 50
+    Power: 12
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 150.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gistii C-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 45.0
-    Cpu: 25.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 10.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 17.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadSpeedFactorBonus: 50
+    Power: 17
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 430.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 514.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gistum A-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -2023,41 +1994,40 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 63.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadSpeedFactorBonus: 50
+    Power: 63
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 160.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gistum A-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 180.0
-    Cpu: 50.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 188.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 14
+    OverloadSpeedFactorBonus: 50
+    Power: 188
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 390.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 518.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gistum B-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -2065,41 +2035,40 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 60.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadSpeedFactorBonus: 50
+    Power: 60
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 155.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gistum B-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 180.0
-    Cpu: 50.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 180.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 12
+    OverloadSpeedFactorBonus: 50
+    Power: 180
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 410.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 516.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gistum C-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -2107,41 +2076,40 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 10.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 58.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadSpeedFactorBonus: 50
+    Power: 58
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 150.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gistum C-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 180.0
-    Cpu: 50.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 6.0
-    MetaLevel: 10.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 173.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 6
+    MetaLevel: 10
+    OverloadSpeedFactorBonus: 50
+    Power: 173
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 430.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 514.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gotan's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2149,41 +2117,41 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 15.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 703.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 15
+    OverloadSpeedFactorBonus: 60
+    Power: 703
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 160.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gotan's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 320.0
     Cpu: 68.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 15.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 1407.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 15
+    OverloadSpeedFactorBonus: 60
+    Power: 1407
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 390.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 518.0
-    TechLevel: 1.0
+    TechLevel: 1
   Hakim's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2191,41 +2159,41 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 675.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 13
+    OverloadSpeedFactorBonus: 60
+    Power: 675
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 155.0
-    TechLevel: 1.0
+    TechLevel: 1
   Hakim's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 320.0
     Cpu: 68.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 1350.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 13
+    OverloadSpeedFactorBonus: 60
+    Power: 1350
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 410.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 516.0
-    TechLevel: 1.0
+    TechLevel: 1
   Mizuro's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2233,41 +2201,41 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 647.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadSpeedFactorBonus: 60
+    Power: 647
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 150.0
-    TechLevel: 1.0
+    TechLevel: 1
   Mizuro's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 320.0
     Cpu: 68.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 1294.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 11
+    OverloadSpeedFactorBonus: 60
+    Power: 1294
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 430.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 514.0
-    TechLevel: 1.0
+    TechLevel: 1
   Republic Fleet 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2275,19 +2243,19 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 688.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 688
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 145.0
-    TechLevel: 1.0
+    TechLevel: 1
   Republic Fleet 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -2295,19 +2263,19 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 55.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 55
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 145.0
-    TechLevel: 1.0
+    TechLevel: 1
   Republic Fleet 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -2315,85 +2283,82 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 11.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 11
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 145.0
-    TechLevel: 1.0
+    TechLevel: 1
   Republic Fleet 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 320.0
-    Cpu: 75.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1375.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 1375
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 512.0
-    TechLevel: 1.0
+    TechLevel: 1
   Republic Fleet 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 180.0
-    Cpu: 50.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 165.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 165
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 512.0
-    TechLevel: 1.0
+    TechLevel: 1
   Republic Fleet 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 45.0
-    Cpu: 25.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 17.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 17
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 450.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 512.0
-    TechLevel: 1.0
+    TechLevel: 1
   Setele's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2401,67 +2366,67 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 15.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 563.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 15
+    OverloadSpeedFactorBonus: 60
+    Power: 563
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 160.0
-    TechLevel: 1.0
+    TechLevel: 1
   Setele's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 280.0
     Cpu: 85.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 15.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 1125.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 15
+    OverloadSpeedFactorBonus: 60
+    Power: 1125
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 410.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 518.0
-    TechLevel: 1.0
+    TechLevel: 1
   Shadow Serpentis 10000MN Afterburner:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 485.0
-    CanFitShipGroup03: 1538.0
-    CanFitShipGroup04: 659.0
-    CanFitShipGroup05: 30.0
-    CanFitShipGroup06: 883.0
+    CanFitShipGroup01: 547
+    CanFitShipGroup02: 485
+    CanFitShipGroup03: 1538
+    CanFitShipGroup04: 659
+    CanFitShipGroup05: 30
+    CanFitShipGroup06: 883
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 8000.0
     Cpu: 83.0
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MassAddition: 5.0E8
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 35000.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E9
+    Hp: 40
+    MassAddition: 500000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 35000
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000000
     SpeedFactor: 145.0
-    TechLevel: 1.0
+    TechLevel: 1
   Shadow Serpentis 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2469,19 +2434,19 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 625.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 625
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 145.0
-    TechLevel: 1.0
+    TechLevel: 1
   Shadow Serpentis 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -2489,19 +2454,19 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 5.699999809265137
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 50.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E7
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 50
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 15000000
     SpeedFactor: 145.0
-    TechLevel: 1.0
+    TechLevel: 1
   Shadow Serpentis 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -2509,113 +2474,110 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 9.600000381469727
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 10.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1500000.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 10
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 1500000
     SpeedFactor: 145.0
-    TechLevel: 1.0
+    TechLevel: 1
   Shadow Serpentis 50000MN Microwarpdrive:
-    CanFitShipGroup01: 547.0
-    CanFitShipGroup02: 485.0
-    CanFitShipGroup03: 1538.0
-    CanFitShipGroup04: 659.0
-    CanFitShipGroup05: 30.0
-    CanFitShipGroup06: 883.0
+    CanFitShipGroup01: 547
+    CanFitShipGroup02: 485
+    CanFitShipGroup03: 1538
+    CanFitShipGroup04: 659
+    CanFitShipGroup05: 30
+    CanFitShipGroup06: 883
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 10000.0
     Cpu: 110.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 6.0
-    Hp: 40.0
-    MassAddition: 5.0E8
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 70000.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 70000
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 475.0
-    SpeedBoostFactor: 1.5E9
+    SpeedBoostFactor: 1500000000
     SpeedFactor: 512.0
-    TechLevel: 1.0
+    TechLevel: 1
   Shadow Serpentis 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 280.0
-    Cpu: 83.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 1250.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 1250
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 475.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 512.0
-    TechLevel: 1.0
+    TechLevel: 1
   Shadow Serpentis 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 160.0
-    Cpu: 55.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 11.399999618530273
-    Hp: 40.0
-    MassAddition: 5000000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 150.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 5000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 150
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 475.0
-    SpeedBoostFactor: 1.5E7
+    SpeedBoostFactor: 15000000
     SpeedFactor: 512.0
-    TechLevel: 1.0
+    TechLevel: 1
   Shadow Serpentis 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 40.0
-    Cpu: 28.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 19.0
-    Hp: 40.0
-    MassAddition: 500000.0
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 15.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 500000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadSpeedFactorBonus: 50
+    Power: 15
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 475.0
-    SpeedBoostFactor: 1500000.0
+    SpeedBoostFactor: 1500000
     SpeedFactor: 512.0
-    TechLevel: 1.0
+    TechLevel: 1
   Thukker Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 241.0
@@ -2623,19 +2585,19 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 4.0
-    MetaLevel: 16.0
-    OverloadSpeedFactorBonus: 50.0
-    Power: 625.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 4
+    MetaLevel: 16
+    OverloadSpeedFactorBonus: 50
+    Power: 625
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 165.0
-    TechLevel: 1.0
+    TechLevel: 1
   Tobias' Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2643,41 +2605,41 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 17.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 732.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 17
+    OverloadSpeedFactorBonus: 60
+    Power: 732
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 165.0
-    TechLevel: 1.0
+    TechLevel: 1
   Tobias' Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 320.0
     Cpu: 68.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 17.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 1463.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 17
+    OverloadSpeedFactorBonus: 60
+    Power: 1463
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 350.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 520.0
-    TechLevel: 1.0
+    TechLevel: 1
   Tuvan's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2685,38 +2647,38 @@ items:
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 4.099999904632568
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 563.0
-    RequiredSkill1: 3450.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    SpeedBoostFactor: 1.5E8
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 13
+    OverloadSpeedFactorBonus: 60
+    Power: 563
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
+    SpeedBoostFactor: 150000000
     SpeedFactor: 155.0
-    TechLevel: 1.0
+    TechLevel: 1
   Tuvan's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 280.0
     Cpu: 81.0
-    DeadspaceUnsafe: 1.0
+    DeadspaceUnsafe: 1
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.03999999910593033
     HeatDamage: 8.199999809265137
-    Hp: 40.0
-    MassAddition: 5.0E7
-    MaxGroupActive: 1.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadSpeedFactorBonus: 60.0
-    Power: 1125.0
-    RequiredSkill1: 3454.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
+    Hp: 40
+    MassAddition: 50000000
+    MaxGroupActive: 1
+    MetaGroupID: 5
+    MetaLevel: 13
+    OverloadSpeedFactorBonus: 60
+    Power: 1125
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 430.0
-    SpeedBoostFactor: 1.5E8
+    SpeedBoostFactor: 150000000
     SpeedFactor: 516.0
-    TechLevel: 1.0
+    TechLevel: 1

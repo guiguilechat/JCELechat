@@ -1,152 +1,151 @@
 items:
   Advanced Sensor Upgrades:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3432.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3432
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 6.0
   Burst Projector Operation:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 165.0
-    ProjECMDurationBonus: -5.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 166.0
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 165
+    ProjECMDurationBonus: -5
+    RequiredSkill1: 3427
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 8.0
   Cloaking:
-    CanNotBeTrainedOnTrial: 1.0
-    CloakingTargetingDelayBonus: -10.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
+    CanNotBeTrainedOnTrial: 1
+    CloakingTargetingDelayBonus: -10
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
     SkillTimeConstant: 6.0
   Electronic Warfare:
-    CapNeedBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 166.0
+    CapNeedBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0
   Frequency Modulation:
-    FalloffBonus: 10.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3427.0
-    RequiredSkill2Level: 2.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3427
+    RequiredSkill2Level: 2
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Hypereuclidean Navigation:
-    DurationBonus: 5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3449.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 11579.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 166.0
+    DurationBonus: 5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3449
+    RequiredSkill1Level: 5
+    RequiredSkill2: 11579
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 6.0
   Imperial Navy Security Clearance:
-    PrimaryAttribute: 165.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    SecondaryAttribute: 166
     SkillTimeConstant: 1.0
   Long Distance Jamming:
-    PrimaryAttribute: 165.0
-    RangeSkillBonus: 10.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3427.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RangeSkillBonus: 10
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3427
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 4.0
   Propulsion Jamming:
-    CapNeedBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3449.0
-    RequiredSkill2Level: 2.0
-    SecondaryAttribute: 166.0
+    CapNeedBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 2
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Sensor Linking:
-    CapNeedBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 166.0
+    CapNeedBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Signal Dispersion:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3427.0
-    RequiredSkill2Level: 4.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3427
+    RequiredSkill2Level: 4
     ScanSkillEwStrengthBonus: 5.0
-    SecondaryAttribute: 166.0
+    SecondaryAttribute: 166
     SkillTimeConstant: 5.0
   Signal Suppression:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3433.0
-    RequiredSkill2Level: 4.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3433
+    RequiredSkill2Level: 4
     ScanSkillEwStrengthBonus: 5.0
-    SecondaryAttribute: 166.0
+    SecondaryAttribute: 166
     SkillTimeConstant: 5.0
   Signature Focusing:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 19921.0
-    RequiredSkill2Level: 4.0
-    ScanSkillTargetPaintStrengthBonus: 5.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 4
+    RequiredSkill2: 19921
+    RequiredSkill2Level: 4
+    ScanSkillTargetPaintStrengthBonus: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 5.0
   Tactical Logistics Reconfiguration:
-    CanNotBeTrainedOnTrial: 1.0
-    ConsumptionQuantityBonus: 25.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 12096.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 166.0
+    CanNotBeTrainedOnTrial: 1
+    ConsumptionQuantityBonus: 25
+    PrimaryAttribute: 165
+    RequiredSkill1: 12096
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 8.0
   Target Breaker Amplification:
-    CapNeedBonus: -5.0
-    DurationBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
+    CapNeedBonus: -5
+    DurationBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
     SkillTimeConstant: 5.0
   Target Painting:
-    CapNeedBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 166.0
+    CapNeedBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Tournament Observation:
-    MaxTargetBonus: 3.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 166.0
+    MaxTargetBonus: 3
+    PrimaryAttribute: 165
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Weapon Destabilization:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3434.0
-    RequiredSkill2Level: 4.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3434
+    RequiredSkill2Level: 4
     ScanSkillEwStrengthBonus: 5.0
-    SecondaryAttribute: 166.0
+    SecondaryAttribute: 166
     SkillTimeConstant: 5.0
   Weapon Disruption:
-    CapNeedBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 166.0
+    CapNeedBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0

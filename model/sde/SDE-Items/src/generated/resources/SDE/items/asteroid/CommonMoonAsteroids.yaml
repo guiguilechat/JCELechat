@@ -1,97 +1,97 @@
 items:
   Cobaltite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45494.0
-    ReprocessingSkillType: 46153.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45494
+    ReprocessingSkillType: 46153
+    RequiredSkill1: 3386
   Copious Cobaltite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45494.0
-    ReprocessingSkillType: 46153.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45494
+    ReprocessingSkillType: 46153
+    RequiredSkill1: 3386
   Copious Euxenite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45495.0
-    ReprocessingSkillType: 46153.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45495
+    ReprocessingSkillType: 46153
+    RequiredSkill1: 3386
   Copious Scheelite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45497.0
-    ReprocessingSkillType: 46153.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45497
+    ReprocessingSkillType: 46153
+    RequiredSkill1: 3386
   Copious Titanite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45496.0
-    ReprocessingSkillType: 46153.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45496
+    ReprocessingSkillType: 46153
+    RequiredSkill1: 3386
   Euxenite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45495.0
-    ReprocessingSkillType: 46153.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45495
+    ReprocessingSkillType: 46153
+    RequiredSkill1: 3386
   Scheelite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45497.0
-    ReprocessingSkillType: 46153.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45497
+    ReprocessingSkillType: 46153
+    RequiredSkill1: 3386
   Titanite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45496.0
-    ReprocessingSkillType: 46153.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45496
+    ReprocessingSkillType: 46153
+    RequiredSkill1: 3386
   Twinkling Cobaltite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 5.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45494.0
-    ReprocessingSkillType: 46153.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45494
+    ReprocessingSkillType: 46153
+    RequiredSkill1: 3386
   Twinkling Euxenite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 5.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45495.0
-    ReprocessingSkillType: 46153.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45495
+    ReprocessingSkillType: 46153
+    RequiredSkill1: 3386
   Twinkling Scheelite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 5.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45497.0
-    ReprocessingSkillType: 46153.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45497
+    ReprocessingSkillType: 46153
+    RequiredSkill1: 3386
   Twinkling Titanite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 5.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 5
     AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45496.0
-    ReprocessingSkillType: 46153.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    OreBasicType: 45496
+    ReprocessingSkillType: 46153
+    RequiredSkill1: 3386

@@ -1,114 +1,113 @@
 items:
   Advanced Shield Upgrades:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3425.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3425
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 166
     SkillTimeConstant: 6.0
   Capital Shield Emission Systems:
-    CanNotBeTrainedOnTrial: 1.0
-    CapNeedBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3422.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 166.0
+    CanNotBeTrainedOnTrial: 1
+    CapNeedBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3422
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 10.0
   Capital Shield Operation:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3419.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3416.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3413.0
-    RequiredSkill3Level: 5.0
-    SecondaryAttribute: 166.0
-    ShieldBoostCapacitorBonus: -2.0
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 165
+    RequiredSkill1: 3419
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3416
+    RequiredSkill2Level: 5
+    RequiredSkill3: 3413
+    RequiredSkill3Level: 5
+    SecondaryAttribute: 166
+    ShieldBoostCapacitorBonus: -2
     SkillTimeConstant: 8.0
   EM Shield Compensation:
     HardeningBonus: 5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3416
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0
   Explosive Shield Compensation:
     HardeningBonus: 5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3416
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0
   Invulnerability Core Operation:
-    DurationBonus: 10.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3420.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 24571.0
-    RequiredSkill2Level: 3.0
-    SecondaryAttribute: 166.0
+    DurationBonus: 10
+    PrimaryAttribute: 165
+    RequiredSkill1: 3420
+    RequiredSkill1Level: 5
+    RequiredSkill2: 24571
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 8.0
   Kinetic Shield Compensation:
     HardeningBonus: 5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3416
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0
   Shield Compensation:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 166.0
-    ShieldBoostCapacitorBonus: -2.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3416
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 166
+    ShieldBoostCapacitorBonus: -2
     SkillTimeConstant: 2.0
   Shield Emission Systems:
-    CapNeedBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 2.0
-    SecondaryAttribute: 166.0
+    CapNeedBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 2
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0
   Shield Management:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 166.0
-    ShieldCapacityBonus: 5.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Shield Operation:
-    PrimaryAttribute: 165.0
-    Rechargeratebonus: -5.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    Rechargeratebonus: -5
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 166
     SkillTimeConstant: 1.0
   Shield Upgrades:
-    PowerNeedBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 2.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 1.0
-    SecondaryAttribute: 166.0
+    PowerNeedBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 2
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 1
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0
   Tactical Shield Manipulation:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 4.0
     UniformityBonus: 0.05000000074505806
   Thermal Shield Compensation:
     HardeningBonus: 5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3416
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0

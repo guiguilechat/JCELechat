@@ -1,127 +1,123 @@
 items:
   Advanced Energy Grid Upgrades:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 166
     SkillTimeConstant: 6.0
   Advanced Weapon Upgrades:
-    CanNotBeTrainedOnTrial: 1.0
-    PowerNeedBonus: -2.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 168.0
+    CanNotBeTrainedOnTrial: 1
+    PowerNeedBonus: -2
+    PrimaryAttribute: 167
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 168
     SkillTimeConstant: 6.0
   CPU Management:
-    CpuOutputBonus2: 5.0
-    PrimaryAttribute: 165.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    SecondaryAttribute: 166
     SkillTimeConstant: 1.0
   Capacitor Emission Systems:
-    CapNeedBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 2.0
-    SecondaryAttribute: 166.0
+    CapNeedBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 2
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0
   Capacitor Management:
-    CapacitorCapacityBonus: 5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Capacitor Systems Operation:
-    CapRechargeBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 166
     SkillTimeConstant: 1.0
   Capital Capacitor Emission Systems:
-    CanNotBeTrainedOnTrial: 1.0
-    CapNeedBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3423.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 166.0
+    CanNotBeTrainedOnTrial: 1
+    CapNeedBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3423
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 166
     SkillTimeConstant: 10.0
   Electronics Upgrades:
-    CpuNeedBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 2.0
-    RequiredSkill2: 3413.0
-    RequiredSkill2Level: 2.0
-    SecondaryAttribute: 166.0
+    CpuNeedBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 2
+    RequiredSkill2: 3413
+    RequiredSkill2Level: 2
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0
   Energy Grid Upgrades:
-    CpuNeedBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 2.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 1.0
-    SecondaryAttribute: 166.0
+    CpuNeedBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 2
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 1
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0
   Energy Pulse Weapons:
-    DurationBonus: -5.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 2.0
-    RequiredSkill2: 3402.0
-    RequiredSkill2Level: 2.0
-    SecondaryAttribute: 166.0
+    DurationBonus: -5
+    PrimaryAttribute: 165
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 2
+    RequiredSkill2: 3402
+    RequiredSkill2Level: 2
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0
   Nanite Interfacing:
-    ModuleRepairRateBonus: 20.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 28879.0
-    RequiredSkill1Level: 3.0
-    SecondaryAttribute: 166.0
+    ModuleRepairRateBonus: 20
+    PrimaryAttribute: 165
+    RequiredSkill1: 28879
+    RequiredSkill1Level: 3
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Nanite Operation:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3392.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
-    ShipBrokenRepairCostMultiplierBonus: -5.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3392
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
+    ShipBrokenRepairCostMultiplierBonus: -5
     SkillTimeConstant: 2.0
   Power Grid Management:
-    PowerEngineeringOutputBonus: 5.0
-    PrimaryAttribute: 165.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    SecondaryAttribute: 166
     SkillTimeConstant: 1.0
   Resistance Phasing:
-    CapNeedBonus: -15.0
-    DurationBonus: -10.0
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
+    CapNeedBonus: -15
+    DurationBonus: -10
+    PrimaryAttribute: 165
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 4
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Thermodynamics:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3413.0
-    RequiredSkill1Level: 4.0
-    RequiredSkill2: 3418.0
-    RequiredSkill2Level: 3.0
-    RequiredSkill3: 3402.0
-    RequiredSkill3Level: 4.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3413
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3418
+    RequiredSkill2Level: 3
+    RequiredSkill3: 3402
+    RequiredSkill3Level: 4
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
-    ThermodynamicsHeatDamage: -5.0
+    ThermodynamicsHeatDamage: -5
   Weapon Upgrades:
-    CpuNeedBonus: -5.0
-    PrimaryAttribute: 167.0
-    RequiredSkill1: 3300.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 166.0
+    CpuNeedBonus: -5
+    PrimaryAttribute: 167
+    RequiredSkill1: 3300
+    RequiredSkill1Level: 2
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0

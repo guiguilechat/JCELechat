@@ -1,28 +1,28 @@
 items:
   Covetor Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Hulk Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Mackinaw Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2
   Mackinaw ORE Development Edition Blueprint:
     IndustryBlueprintRank: 800.0
-    TechLevel: 1.0
+    TechLevel: 1
   Procurer Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Retriever Blueprint:
     IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 1.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
   Skiff Blueprint:
     IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1.0
-    TechLevel: 2.0
+    IndustryJobCostMultiplier: 1
+    TechLevel: 2

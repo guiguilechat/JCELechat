@@ -1,200 +1,193 @@
 items:
   Imperial Navy Modified 'Noble' Implant:
     ArmorHpBonus2: 3.0
-    Implantness: 10.0
-    RepairBonus: 3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Implantness: 10
+    RepairBonus: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Inherent Implants 'Noble' Hull Upgrades HG-1001:
-    ArmorHpBonus2: 1.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    Implantness: 10
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Inherent Implants 'Noble' Hull Upgrades HG-1002:
     ArmorHpBonus2: 2.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    Implantness: 10
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Inherent Implants 'Noble' Hull Upgrades HG-1003:
-    ArmorHpBonus2: 3.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Implantness: 10
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Inherent Implants 'Noble' Hull Upgrades HG-1004:
     ArmorHpBonus2: 4.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    Implantness: 10
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Inherent Implants 'Noble' Hull Upgrades HG-1005:
-    ArmorHpBonus2: 5.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    Implantness: 10
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
   Inherent Implants 'Noble' Hull Upgrades HG-1006:
     ArmorHpBonus2: 6.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    Implantness: 10
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Inherent Implants 'Noble' Hull Upgrades HG-1008:
-    ArmorHpBonus2: 8.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    Implantness: 10
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Inherent Implants 'Noble' Mechanic MC-801:
-    HullHpBonus: 1.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Inherent Implants 'Noble' Mechanic MC-802:
     HullHpBonus: 2.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Inherent Implants 'Noble' Mechanic MC-803:
-    HullHpBonus: 3.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Inherent Implants 'Noble' Mechanic MC-804:
     HullHpBonus: 4.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Inherent Implants 'Noble' Mechanic MC-805:
-    HullHpBonus: 5.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
   Inherent Implants 'Noble' Mechanic MC-806:
     HullHpBonus: 6.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-701:
-    CapNeedBonus: -1.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    CapNeedBonus: -1
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-702:
-    CapNeedBonus: -2.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    CapNeedBonus: -2
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-703:
-    CapNeedBonus: -3.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    CapNeedBonus: -3
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-704:
-    CapNeedBonus: -4.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    CapNeedBonus: -4
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-705:
-    CapNeedBonus: -5.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    CapNeedBonus: -5
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-706:
-    CapNeedBonus: -6.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    CapNeedBonus: -6
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Inherent Implants 'Noble' Repair Proficiency RP-901:
-    Implantness: 9.0
-    RepairBonus: 1.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    Implantness: 9
+    RepairBonus: 1
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Inherent Implants 'Noble' Repair Proficiency RP-902:
-    Implantness: 9.0
-    RepairBonus: 2.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    Implantness: 9
+    RepairBonus: 2
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Inherent Implants 'Noble' Repair Proficiency RP-903:
-    Implantness: 9.0
-    RepairBonus: 3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Implantness: 9
+    RepairBonus: 3
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Inherent Implants 'Noble' Repair Proficiency RP-904:
-    Implantness: 9.0
-    RepairBonus: 4.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    Implantness: 9
+    RepairBonus: 4
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Inherent Implants 'Noble' Repair Proficiency RP-905:
-    Implantness: 9.0
-    RepairBonus: 5.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    Implantness: 9
+    RepairBonus: 5
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
   Inherent Implants 'Noble' Repair Proficiency RP-906:
-    Implantness: 9.0
-    RepairBonus: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    Implantness: 9
+    RepairBonus: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Inherent Implants 'Noble' Repair Systems RS-601:
-    DurationSkillBonus: -1.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    DurationSkillBonus: -1
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Inherent Implants 'Noble' Repair Systems RS-602:
-    DurationSkillBonus: -2.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    DurationSkillBonus: -2
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Inherent Implants 'Noble' Repair Systems RS-603:
-    DurationSkillBonus: -3.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    DurationSkillBonus: -3
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Inherent Implants 'Noble' Repair Systems RS-604:
-    DurationSkillBonus: -4.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    DurationSkillBonus: -4
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Inherent Implants 'Noble' Repair Systems RS-605:
-    DurationSkillBonus: -5.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    DurationSkillBonus: -5
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
   Inherent Implants 'Noble' Repair Systems RS-606:
-    DurationSkillBonus: -6.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    DurationSkillBonus: -6
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Numon Family Heirloom:
-    DurationSkillBonus: -7.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    DurationSkillBonus: -7
+    Implantness: 6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1

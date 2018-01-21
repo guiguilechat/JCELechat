@@ -1,214 +1,214 @@
 items:
   Blaze L:
-    ChargeSize: 3.0
+    ChargeSize: 3
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     DamageMultiplier: 1.100000023841858
     EmDamage: 8.0
     EntityFlyRangeMultiplier: 1.0
     ExplosiveDamage: 40.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12215.0
-    RequiredSkill1Level: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaLevel: 5
+    RequiredSkill1: 12215
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
   Blaze M:
-    ChargeSize: 2.0
+    ChargeSize: 2
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     DamageMultiplier: 1.0
     EmDamage: 4.0
     EntityFlyRangeMultiplier: 1.0
     ExplosiveDamage: 20.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12214.0
-    RequiredSkill1Level: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaLevel: 5
+    RequiredSkill1: 12214
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
   Blaze S:
-    ChargeSize: 1.0
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     DamageMultiplier: 1.0
     EmDamage: 2.0
     EntityFlyRangeMultiplier: 1.0
     ExplosiveDamage: 10.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12213.0
-    RequiredSkill1Level: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaLevel: 5
+    RequiredSkill1: 12213
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
   Conflagration L:
-    CapNeedBonus: 25.0
-    ChargeSize: 3.0
+    CapNeedBonus: 25
+    ChargeSize: 3
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     DamageMultiplier: 1.0
     EmDamage: 30.799999237060547
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12215.0
-    RequiredSkill1Level: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaLevel: 5
+    RequiredSkill1: 12215
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 30.799999237060547
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
   Conflagration M:
-    CapNeedBonus: 25.0
-    ChargeSize: 2.0
+    CapNeedBonus: 25
+    ChargeSize: 2
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     DamageMultiplier: 1.0
     EmDamage: 15.399999618530273
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12214.0
-    RequiredSkill1Level: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaLevel: 5
+    RequiredSkill1: 12214
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 15.399999618530273
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
   Conflagration S:
-    CapNeedBonus: 25.0
-    ChargeSize: 1.0
+    CapNeedBonus: 25
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     DamageMultiplier: 1.0
     EmDamage: 7.699999809265137
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12213.0
-    RequiredSkill1Level: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaLevel: 5
+    RequiredSkill1: 12213
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 7.699999809265137
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
   Conflagration XL:
-    CapNeedBonus: 25.0
-    ChargeSize: 4.0
+    CapNeedBonus: 25
+    ChargeSize: 4
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     DamageMultiplier: 1.0
     EmDamage: 61.599998474121094
     EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 41407.0
-    RequiredSkill1Level: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaLevel: 5
+    RequiredSkill1: 41407
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 61.599998474121094
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
   Scorch L:
-    ChargeSize: 3.0
+    ChargeSize: 3
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     DamageMultiplier: 1.0
     EmDamage: 36.0
     EntityFlyRangeMultiplier: 1.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12215.0
-    RequiredSkill1Level: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaLevel: 5
+    RequiredSkill1: 12215
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 8.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
   Scorch M:
-    ChargeSize: 2.0
+    ChargeSize: 2
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     DamageMultiplier: 1.0
     EmDamage: 18.0
     EntityFlyRangeMultiplier: 1.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12214.0
-    RequiredSkill1Level: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaLevel: 5
+    RequiredSkill1: 12214
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 4.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
   Scorch S:
-    ChargeSize: 1.0
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     DamageMultiplier: 1.0
     EmDamage: 9.0
     EntityFlyRangeMultiplier: 1.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12213.0
-    RequiredSkill1Level: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaLevel: 5
+    RequiredSkill1: 12213
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 2.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
   Scorch XL:
-    ChargeSize: 4.0
+    ChargeSize: 4
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1.0
+    CrystalsGetDamaged: 1
     DamageMultiplier: 1.0
     EmDamage: 72.0
     EntityFlyRangeMultiplier: 1.5
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 41407.0
-    RequiredSkill1Level: 1.0
+    Hp: 1
+    LauncherGroup: 53
+    MainColor: 2833864
+    MetaLevel: 5
+    RequiredSkill1: 41407
+    RequiredSkill1Level: 1
     SpeedMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 16.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142

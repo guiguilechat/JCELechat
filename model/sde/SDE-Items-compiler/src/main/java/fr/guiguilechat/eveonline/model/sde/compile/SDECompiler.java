@@ -16,6 +16,7 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.sun.codemodel.JBlock;
 import com.sun.codemodel.JClassAlreadyExistsException;
 import com.sun.codemodel.JCodeModel;
 import com.sun.codemodel.JConditional;
@@ -71,6 +72,8 @@ public class SDECompiler {
 		return rootPackage().subPackage("types");
 	}
 
+	// following allow parallel pre-caching
+
 	LinkedHashMap<Integer, EcategoryIDs> catids;
 
 	protected void loadCatIDs() {
@@ -109,6 +112,8 @@ public class SDECompiler {
 		logger.info("preloaded tables in " + (System.currentTimeMillis() - beginTime) / 1000 + "s");
 	}
 
+	//
+
 	public static class CompiledClassesData {
 		public JCodeModel model = new JCodeModel();
 		public HashMap<Integer, String> groupID2ClassName = new HashMap<>();
@@ -116,6 +121,7 @@ public class SDECompiler {
 	}
 
 	public CompiledClassesData compile() {
+		long startTime = System.currentTimeMillis();
 		load();
 		CompiledClassesData ret = new CompiledClassesData();
 		cm = ret.model;
@@ -124,11 +130,21 @@ public class SDECompiler {
 		HashMap<Integer, HashSet<Integer>> groupAttributes = new HashMap<>();
 		// we also add all the attributes to the category of the group
 		HashMap<Integer, HashSet<Integer>> catAttributes = new HashMap<>();
+		HashSet<Integer> attributesWithFloatValue = new HashSet<>();
 		for (EdgmTypeAttributes attribute : typeAttributes) {
 			int attId = attribute.attributeID;
 			int typeID = attribute.typeID;
+			EtypeIDs type = typeids.get(typeID);
+			int groupID = type.groupID;
+			if (attribute.valueFloat != 0 && Math.round(attribute.valueFloat) != attribute.valueFloat) {
+				if (attributesWithFloatValue.add(attribute.attributeID)) {
+					System.err.println("attribute " + attTypes.get(attId).attributeName + " has float value "
+							+ attribute.valueFloat + " for item " + type.enName());
+				}
+			}
+			if (attribute.valueInt != 0) {
 
-			int groupID = typeids.get(typeID).groupID;
+			}
 			HashSet<Integer> groupAttribute = groupAttributes.get(groupID);
 			if (groupAttribute == null) {
 				groupAttribute = new HashSet<>();
@@ -188,14 +204,21 @@ public class SDECompiler {
 
 			JMethod loadDefault = typeClass.method(JMod.PUBLIC, cm.VOID, "loadDefault");
 			JForEach fr = loadDefault.body().forEach(cm.ref(Field.class), "f", JExpr.direct("getClass().getFields()"));
-			JVar annot = fr.body().decl(getDefaultValueAnnotation(), "annot",
-					fr.var().invoke("getAnnotation").arg(getDefaultValueAnnotation().dotclass()));
-			JConditional ifblock = fr.body()._if(JOp.ne(annot, JExpr.direct("null")));
-			JTryBlock tryblock = ifblock._then()._try();
-			tryblock.body().directStatement("f.setAccessible(true);");
-			tryblock.body().directStatement("f.set(this, annot.value());");
+			JVar annotDouble = fr.body().decl(getDefaultDoubleValueAnnotation(), "annotDouble",
+					fr.var().invoke("getAnnotation").arg(getDefaultDoubleValueAnnotation().dotclass()));
+			JConditional ifDoubleBlock = fr.body()._if(JOp.ne(annotDouble, JExpr.direct("null")));
+			JTryBlock tryblock = ifDoubleBlock._then()._try();
+			tryblock.body().invoke(fr.var(), "setAccessible").arg(JExpr.lit(true));
+			tryblock.body().invoke(fr.var(), "set").arg(JExpr._this()).arg(JExpr.invoke(annotDouble, "value"));
 			tryblock._catch(cm.ref(Exception.class));
-
+			JBlock elseDoubleblock = ifDoubleBlock._else();
+			JVar annotLong = elseDoubleblock.decl(getDefaultIntValueAnnotation(), "annotLong",
+					fr.var().invoke("getAnnotation").arg(getDefaultIntValueAnnotation().dotclass()));
+			JConditional ifLongBlock = elseDoubleblock._if(JOp.ne(annotLong, JExpr.direct("null")));
+			tryblock = ifLongBlock._then()._try();
+			tryblock.body().invoke(fr.var(), "setAccessible").arg(JExpr.lit(true));
+			tryblock.body().invoke(fr.var(), "set").arg(JExpr._this()).arg(JExpr.invoke(annotLong, "value"));
+			tryblock._catch(cm.ref(Exception.class));
 		} catch (JClassAlreadyExistsException e2) {
 			throw new UnsupportedOperationException("catch this", e2);
 		}
@@ -209,7 +232,7 @@ public class SDECompiler {
 			try {
 				JDefinedClass catClass = itemPackage()._class(JMod.PUBLIC | JMod.ABSTRACT, newName);
 				catClass._extends(typeClass);
-				addAttributes(catClass, catAttributes.get(cate.getKey()));
+				addAttributes(catClass, catAttributes.get(cate.getKey()), attributesWithFloatValue);
 				JMethod catID = catClass.method(JMod.PUBLIC, cm.INT, "getCategoryId");
 				catID.body()._return(JExpr.lit(cate.getKey()));
 				catID.annotate(Override.class);
@@ -230,7 +253,7 @@ public class SDECompiler {
 			try {
 				JDefinedClass groupClass = itemPackage().subPackage(catClass.name().toLowerCase())._class(formatName(newName));
 				groupClass._extends(catClass);
-				addAttributes(groupClass, groupAttributes.get(groupe.getKey()));
+				addAttributes(groupClass, groupAttributes.get(groupe.getKey()), attributesWithFloatValue);
 				JMethod groupID = groupClass.method(JMod.PUBLIC, cm.INT, "getGroupId");
 				groupID.body()._return(JExpr.lit(groupe.getKey()));
 				groupID.annotate(Override.class);
@@ -250,8 +273,8 @@ public class SDECompiler {
 			ret.attID2FieldName.put(e.getKey(), formatName(e.getValue().attributeName));
 		}
 
+		logger.info("compiled items in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 		return ret;
-
 	}
 
 	protected JDefinedClass highIsGoodAnnotation;
@@ -286,32 +309,55 @@ public class SDECompiler {
 		return stackableAnnotation;
 	}
 
-	protected JDefinedClass defaultValueAnnotation;
+	protected JDefinedClass defaultDoubleValueAnnotation;
 
-	protected JDefinedClass getDefaultValueAnnotation() {
-		if (defaultValueAnnotation == null) {
+	protected JDefinedClass getDefaultDoubleValueAnnotation() {
+		if (defaultDoubleValueAnnotation == null) {
 			try {
-				defaultValueAnnotation = annotationsPackage()._annotationTypeDeclaration("DefaultValue");
-				defaultValueAnnotation.annotate(Retention.class).param("value",
+				defaultDoubleValueAnnotation = annotationsPackage()._annotationTypeDeclaration("DefaultDoubleValue");
+				defaultDoubleValueAnnotation.annotate(Retention.class).param("value",
 						cm.ref(RetentionPolicy.class).staticRef("RUNTIME"));
-				defaultValueAnnotation.method(JMod.PUBLIC, cm.DOUBLE, "value");
+				defaultDoubleValueAnnotation.method(JMod.PUBLIC, cm.DOUBLE, "value");
 			} catch (JClassAlreadyExistsException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}
 		}
-		return defaultValueAnnotation;
+		return defaultDoubleValueAnnotation;
 	}
 
-	protected void addAttributes(JDefinedClass cl, HashSet<Integer> attributeIDs) {
+	protected JDefinedClass defaulIntValueAnnotation;
+
+	protected JDefinedClass getDefaultIntValueAnnotation() {
+		if (defaulIntValueAnnotation == null) {
+			try {
+				defaulIntValueAnnotation = annotationsPackage()._annotationTypeDeclaration("DefaultIntValue");
+				defaulIntValueAnnotation.annotate(Retention.class).param("value",
+						cm.ref(RetentionPolicy.class).staticRef("RUNTIME"));
+				defaulIntValueAnnotation.method(JMod.PUBLIC, cm.INT, "value");
+			} catch (JClassAlreadyExistsException e) {
+				throw new UnsupportedOperationException("catch this", e);
+			}
+		}
+		return defaulIntValueAnnotation;
+	}
+
+	protected void addAttributes(JDefinedClass cl, HashSet<Integer> attributeIDs,
+			HashSet<Integer> attributesWithFloatValue) {
 		if (attributeIDs == null) {
 			return;
 		}
 		for (Integer attributeID : attributeIDs) {
 			EdgmAttributeTypes attr = attTypes.get(attributeID);
-			JFieldVar f = cl.field(JMod.PUBLIC, cm.DOUBLE, formatName(attr.attributeName));
+			boolean isDouble = attributesWithFloatValue.contains(attr.attributeID);
+			JFieldVar f = cl.field(JMod.PUBLIC, isDouble ? cm.DOUBLE : cm.INT,
+					formatName(attr.attributeName));
 			f.annotate(getHighIsGoodAnnotation()).param("value", attr.highIsGood);
 			f.annotate(getStackableAnnotation()).param("value", attr.stackable);
-			f.annotate(getDefaultValueAnnotation()).param("value", attr.defaultValue);
+			if (isDouble) {
+				f.annotate(getDefaultDoubleValueAnnotation()).param("value", attr.defaultValue);
+			} else {
+				f.annotate(getDefaultIntValueAnnotation()).param("value", (int) attr.defaultValue);
+			}
 			f.javadoc().add(attr.description);
 		}
 	}

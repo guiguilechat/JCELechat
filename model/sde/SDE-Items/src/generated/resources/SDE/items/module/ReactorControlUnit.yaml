@@ -3,350 +3,344 @@ items:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 16.0
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
     PowerOutputMultiplier: 1.149999976158142
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Ahremen's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 13
     PowerOutputMultiplier: 1.1782499551773071
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   'Alpha Reactor Control: Reaction Control':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 8.0
-    Hp: 40.0
+    Hp: 40
     PowerOutputMultiplier: 1.0499999523162842
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Ammatar Navy Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
     PowerOutputMultiplier: 1.1549999713897705
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Basic Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 8.0
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
     PowerOutputMultiplier: 1.0499999523162842
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   'Beta Reactor Control: Reaction Control I':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 16.0
-    Hp: 40.0
-    MetaLevel: 4.0
+    Hp: 40
+    MetaLevel: 4
     PowerOutputMultiplier: 1.100000023841858
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Brokara's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 11
     PowerOutputMultiplier: 1.162750005722046
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Brynn's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 11
     PowerOutputMultiplier: 1.162750005722046
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Chelm's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 14
     PowerOutputMultiplier: 1.1859999895095825
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Cormack's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 14
     PowerOutputMultiplier: 1.1859999895095825
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Dark Blood Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
     PowerOutputMultiplier: 1.1549999713897705
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Draclira's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 14
     PowerOutputMultiplier: 1.1859999895095825
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   'Local Power Plant Manager: Reaction Control I':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 18.0
-    Hp: 40.0
-    MetaLevel: 2.0
+    Hp: 40
+    MetaLevel: 2
     PowerOutputMultiplier: 1.100000023841858
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Mark I Compact Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 16.0
-    Hp: 40.0
-    MetaLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
     PowerOutputMultiplier: 1.1200000047683716
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   'Mark I Generator Refitting: Reaction Control':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 17.0
-    Hp: 40.0
-    MetaLevel: 3.0
+    Hp: 40
+    MetaLevel: 3
     PowerOutputMultiplier: 1.100000023841858
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   'Marked Generator Refitting: Reaction Control':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 8.0
-    Hp: 40.0
+    Hp: 40
     PowerOutputMultiplier: 1.0499999523162842
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   'Partial Power Plant Manager: Reaction Control':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 9.0
-    Hp: 40.0
+    Hp: 40
     PowerOutputMultiplier: 1.0499999523162842
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Raysere's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 12
     PowerOutputMultiplier: 1.1705000400543213
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Reactor Control Unit I:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
+    Hp: 40
     PowerOutputMultiplier: 1.100000023841858
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Reactor Control Unit II:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 22.0
-    Hp: 40.0
-    MetaLevel: 5.0
+    Hp: 40
+    MetaLevel: 5
     PowerOutputMultiplier: 1.149999976158142
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 5
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
   Selynne's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 12
     PowerOutputMultiplier: 1.1705000400543213
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Setele's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 13
     PowerOutputMultiplier: 1.1782499551773071
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Shadow Serpentis Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
     PowerOutputMultiplier: 1.1549999713897705
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Syndicate Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
     PowerOutputMultiplier: 1.1549999713897705
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Tairei's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 11
     PowerOutputMultiplier: 1.162750005722046
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   True Sansha Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
     PowerOutputMultiplier: 1.1549999713897705
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Tuvan's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 12
     PowerOutputMultiplier: 1.1705000400543213
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
   Vizan's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
     Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
+    Hp: 40
+    MetaGroupID: 5
+    MetaLevel: 13
     PowerOutputMultiplier: 1.1782499551773071
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1

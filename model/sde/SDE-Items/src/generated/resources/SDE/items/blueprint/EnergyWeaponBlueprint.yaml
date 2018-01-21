@@ -1,210 +1,210 @@
 items:
   '''Arquebus'' Heavy Beam Laser I Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Ballista'' Tachyon Beam Laser I Blueprint':
     IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Catapult'' Mega Beam Laser I Blueprint':
     IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Crossbow'' Focused Medium Beam Laser I Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Gauntlet'' Small Focused Beam Laser I Blueprint':
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Halberd'' Mega Pulse Laser I Blueprint':
     IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Joust'' Heavy Pulse Laser I Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Longbow'' Small Focused Pulse Laser I Blueprint':
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Mace'' Dual Light Beam Laser I Blueprint':
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Afocal Precise Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
+    TechLevel: 1
   Afocal Precise Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
+    TechLevel: 1
   Afocal Precise Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
+    TechLevel: 1
   Anode Scoped Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
+    TechLevel: 1
   Anode Scoped Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
+    TechLevel: 1
   Anode Scoped Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
+    TechLevel: 1
   CONCORD Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 120.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    MetaGroupID: 4
+    TechLevel: 1
   CONCORD Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 120.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    MetaGroupID: 4
+    TechLevel: 1
   Dark Blood Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 400.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    MetaGroupID: 4
+    TechLevel: 1
   Dark Blood Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 400.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    MetaGroupID: 4
+    TechLevel: 1
   Dark Blood Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 400.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    MetaGroupID: 4
+    TechLevel: 1
   Dual Giga Beam Laser I Blueprint:
     IndustryBlueprintRank: 120.0
-    TechLevel: 1.0
+    TechLevel: 1
   Dual Giga Beam Laser II Blueprint:
     IndustryBlueprintRank: 300.0
-    TechLevel: 2.0
+    TechLevel: 2
   Dual Giga Pulse Laser I Blueprint:
     IndustryBlueprintRank: 120.0
-    TechLevel: 1.0
+    TechLevel: 1
   Dual Giga Pulse Laser II Blueprint:
     IndustryBlueprintRank: 300.0
-    TechLevel: 2.0
+    TechLevel: 2
   Dual Heavy Beam Laser I Blueprint:
     IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
+    TechLevel: 1
   Dual Heavy Beam Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
-    TechLevel: 2.0
+    TechLevel: 2
   Dual Heavy Pulse Laser I Blueprint:
     IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
+    TechLevel: 1
   Dual Heavy Pulse Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
-    TechLevel: 2.0
+    TechLevel: 2
   Dual Light Beam Laser I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Dual Light Beam Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
+    TechLevel: 2
   Dual Light Pulse Laser I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Dual Light Pulse Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
+    TechLevel: 2
   Focused Medium Beam Laser I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Focused Medium Beam Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Focused Medium Pulse Laser I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Focused Medium Pulse Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Gatling Pulse Laser I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Gatling Pulse Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
+    TechLevel: 2
   Heavy Beam Laser I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Heavy Beam Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Heavy Pulse Laser I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Heavy Pulse Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Mega Beam Laser I Blueprint:
     IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
+    TechLevel: 1
   Mega Beam Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
-    TechLevel: 2.0
+    TechLevel: 2
   Mega Pulse Laser I Blueprint:
     IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
+    TechLevel: 1
   Mega Pulse Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
-    TechLevel: 2.0
+    TechLevel: 2
   Modal Enduring Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
+    TechLevel: 1
   Modal Enduring Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
+    TechLevel: 1
   Modal Enduring Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
+    TechLevel: 1
   Modulated Compact Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
+    TechLevel: 1
   Modulated Compact Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
+    TechLevel: 1
   Modulated Compact Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
+    TechLevel: 1
   Polarized Heavy Pulse Laser Blueprint:
-    TechLevel: 2.0
+    TechLevel: 2
   Polarized Mega Pulse Laser Blueprint:
-    TechLevel: 2.0
+    TechLevel: 2
   Polarized Small Focused Pulse Laser Blueprint:
-    TechLevel: 2.0
+    TechLevel: 2
   Quad Light Beam Laser I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Quad Light Beam Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Quad Mega Pulse Laser I Blueprint:
     IndustryBlueprintRank: 120.0
-    TechLevel: 1.0
+    TechLevel: 1
   Quad Mega Pulse Laser II Blueprint:
     IndustryBlueprintRank: 300.0
-    TechLevel: 2.0
+    TechLevel: 2
   Small Focused Beam Laser I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Small Focused Beam Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
+    TechLevel: 2
   Small Focused Pulse Laser I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Small Focused Pulse Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
+    TechLevel: 2
   Tachyon Beam Laser I Blueprint:
     IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
+    TechLevel: 1
   Tachyon Beam Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
-    TechLevel: 2.0
+    TechLevel: 2
   True Sansha Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 400.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    MetaGroupID: 4
+    TechLevel: 1
   True Sansha Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 400.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    MetaGroupID: 4
+    TechLevel: 1
   True Sansha Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 400.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
+    MetaGroupID: 4
+    TechLevel: 1

@@ -1,22 +1,22 @@
 items:
   Micro Jump Field Generator:
-    CanFitShipGroup02: 1534.0
+    CanFitShipGroup02: 1534
     CapacitorNeed: 85.0
     Cpu: 31.0
-    DisallowEarlyDeactivation: 1.0
-    DisallowInHighSec: 1.0
-    DisallowRepeatingActivation: 1.0
-    DisallowTethering: 1.0
+    DisallowEarlyDeactivation: 1
+    DisallowInHighSec: 1
+    DisallowRepeatingActivation: 1
+    DisallowTethering: 1
     Duration: 9000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MetaLevel: 1.0
-    MjdJumpRange: 100000.0
-    MjfgRadius: 6000.0
-    ModuleReactivationDelay: 160000.0
-    Power: 5.0
-    RequiredSkill1: 4385.0
-    RequiredSkill1Level: 1.0
-    SignatureRadiusBonusPercent: 150.0
-    TechLevel: 1.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaLevel: 1
+    MjdJumpRange: 100000
+    MjfgRadius: 6000
+    ModuleReactivationDelay: 160000
+    Power: 5
+    RequiredSkill1: 4385
+    RequiredSkill1Level: 1
+    SignatureRadiusBonusPercent: 150
+    TechLevel: 1

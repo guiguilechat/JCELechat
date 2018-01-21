@@ -1,80 +1,80 @@
 items:
   Compressed Fiery Kernite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 20.0
-    ReprocessingSkillType: 12188.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 20
+    ReprocessingSkillType: 12188
+    RequiredSkill1: 3386
   Compressed Kernite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 20.0
-    ReprocessingSkillType: 12188.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 20
+    ReprocessingSkillType: 12188
+    RequiredSkill1: 3386
   Compressed Luminous Kernite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 20.0
-    ReprocessingSkillType: 12188.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 20
+    ReprocessingSkillType: 12188
+    RequiredSkill1: 3386
   Compressed Resplendant Kernite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 4.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 46683.0
-    ReprocessingSkillType: 12188.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 46683
+    ReprocessingSkillType: 12188
+    RequiredSkill1: 3386
   Fiery Kernite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28409.0
-    OreBasicType: 20.0
-    ReprocessingSkillType: 12188.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28409
+    OreBasicType: 20
+    ReprocessingSkillType: 12188
+    RequiredSkill1: 3386
   Kernite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28410.0
-    OreBasicType: 20.0
-    ReprocessingSkillType: 12188.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28410
+    OreBasicType: 20
+    ReprocessingSkillType: 12188
+    RequiredSkill1: 3386
   Luminous Kernite:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28411.0
-    OreBasicType: 20.0
-    ReprocessingSkillType: 12188.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28411
+    OreBasicType: 20
+    ReprocessingSkillType: 12188
+    RequiredSkill1: 3386
   Lyavite:
-    AsteroidMaxRadius: 16255.0
+    AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 20.0
-    ReprocessingSkillType: 12188.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 20
+    ReprocessingSkillType: 12188
+    RequiredSkill1: 3386
   Resplendant Kernite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 4.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 0.18000000715255737
-    AsteroidRadiusUnitSize: 600.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 46699.0
-    OreBasicType: 46683.0
-    ReprocessingSkillType: 12188.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 46699
+    OreBasicType: 46683
+    ReprocessingSkillType: 12188
+    RequiredSkill1: 3386

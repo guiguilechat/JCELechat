@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.apparel;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Apparel;
@@ -19,40 +19,40 @@ public class Outer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ClothingRemovesCategory;
+    @DefaultIntValue(0)
+    public int ClothingRemovesCategory;
     /**
      * This item of clothing covers multiple areas of the body, so the category of clothes specified by this attribute is no longer mandatory
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ClothingAlsoCoversCategory;
+    @DefaultIntValue(0)
+    public int ClothingAlsoCoversCategory;
     /**
      * When evaluating if the character is dressed well enough, this item will be evaluated as it's not equiped
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ClothingRuleException;
+    @DefaultIntValue(0)
+    public int ClothingRuleException;
     /**
      * This item of clothing covers multiple areas of the body, so the category of clothes specified by this attribute is no longer mandatory
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ClothingAlsoCoversCategory2;
+    @DefaultIntValue(0)
+    public int ClothingAlsoCoversCategory2;
     /**
      * This item of clothing does not allow the category specified to be equipped with this item. It will be removed
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ClothingRemovesCategory2;
+    @DefaultIntValue(0)
+    public int ClothingRemovesCategory2;
     public final static String RESOURCE_PATH = "SDE/items/apparel/Outer.yaml";
     private static LinkedHashMap<String, Outer> cache = (null);
 

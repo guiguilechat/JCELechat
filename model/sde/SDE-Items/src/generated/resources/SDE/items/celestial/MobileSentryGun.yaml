@@ -2,339 +2,286 @@ items:
   BH Sentry Gun:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 7200.0
+    ArmorHP: 7200
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     CapacitorCapacity: 1000.0
     DamageMultiplier: 1.0
-    EmDamage: 28.0
-    ExplosiveDamage: 28.0
-    GfxTurretID: 364.0
-    Hp: 7200.0
-    KineticDamage: 28.0
-    MaxAttackTargets: 1.0
-    MaxLockedTargets: 8.0
-    MaxRange: 50000.0
-    MaxTargetRange: 55000.0
-    ProximityRange: 35000.0
+    GfxTurretID: 364
+    Hp: 7200
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 50000
+    MaxTargetRange: 55000
+    ProximityRange: 35000
     RechargeRate: 2500000.0
-    RequiredSkill1: 2597.0
-    ScanGravimetricStrength: 18.0
-    ScanLadarStrength: 18.0
-    ScanMagnetometricStrength: 18.0
-    ScanRadarStrength: 18.0
-    ShieldCapacity: 4800.0
+    RequiredSkill1: 2597
+    ShieldCapacity: 4800
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.5
-    Speed: 2000.0
+    Speed: 2000
     StructureUniformity: 1.0
-    ThermalDamage: 28.0
-    TypeColorScheme: 11320.0
+    TypeColorScheme: 11320
   Guardian Sentry Gun I:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 600.0
+    ArmorHP: 600
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     CapacitorCapacity: 1000.0
     DamageMultiplier: 1.0
-    ExplosiveDamage: 8.0
-    GfxTurretID: 369.0
-    Hp: 2500.0
-    KineticDamage: 8.0
-    MaxAttackTargets: 1.0
-    MaxLockedTargets: 8.0
-    MaxRange: 55000.0
-    MaxTargetRange: 55000.0
-    ProximityRange: 20000.0
+    GfxTurretID: 369
+    Hp: 2500
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 55000
+    MaxTargetRange: 55000
+    ProximityRange: 20000
     RechargeRate: 2500000.0
-    RequiredSkill1: 2597.0
-    ScanGravimetricStrength: 1.0
-    ScanLadarStrength: 1.0
-    ScanMagnetometricStrength: 1.0
-    ScanRadarStrength: 1.0
-    ShieldCapacity: 800.0
+    RequiredSkill1: 2597
+    ShieldCapacity: 800
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    Speed: 2000.0
+    Speed: 2000
     StructureUniformity: 1.0
-    ThermalDamage: 20.0
-    TypeColorScheme: 11324.0
+    TypeColorScheme: 11324
   Guardian Sentry Gun II:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 600.0
+    ArmorHP: 600
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     CapacitorCapacity: 1000.0
     DamageMultiplier: 1.0
-    ExplosiveDamage: 8.0
-    GfxTurretID: 368.0
-    Hp: 2500.0
-    KineticDamage: 8.0
-    MaxAttackTargets: 1.0
-    MaxLockedTargets: 8.0
-    MaxRange: 55000.0
-    MaxTargetRange: 55000.0
-    ProximityRange: 20000.0
+    GfxTurretID: 368
+    Hp: 2500
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 55000
+    MaxTargetRange: 55000
+    ProximityRange: 20000
     RechargeRate: 2500000.0
-    RequiredSkill1: 2597.0
-    ScanGravimetricStrength: 1.0
-    ScanLadarStrength: 1.0
-    ScanMagnetometricStrength: 1.0
-    ScanRadarStrength: 1.0
-    ShieldCapacity: 800.0
+    RequiredSkill1: 2597
+    ShieldCapacity: 800
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    Speed: 2000.0
+    Speed: 2000
     StructureUniformity: 1.0
-    ThermalDamage: 20.0
-    TypeColorScheme: 11324.0
+    TypeColorScheme: 11324
   Guardian Sentry Gun III:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 600.0
+    ArmorHP: 600
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     CapacitorCapacity: 1000.0
     DamageMultiplier: 1.0
-    ExplosiveDamage: 8.0
-    GfxTurretID: 367.0
-    Hp: 2500.0
-    KineticDamage: 8.0
-    MaxAttackTargets: 1.0
-    MaxLockedTargets: 8.0
-    MaxRange: 55000.0
-    MaxTargetRange: 55000.0
-    ProximityRange: 20000.0
+    GfxTurretID: 367
+    Hp: 2500
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 55000
+    MaxTargetRange: 55000
+    ProximityRange: 20000
     RechargeRate: 2500000.0
-    RequiredSkill1: 2597.0
-    ScanGravimetricStrength: 1.0
-    ScanLadarStrength: 1.0
-    ScanMagnetometricStrength: 1.0
-    ScanRadarStrength: 1.0
-    ShieldCapacity: 800.0
+    RequiredSkill1: 2597
+    ShieldCapacity: 800
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    Speed: 2000.0
+    Speed: 2000
     StructureUniformity: 1.0
-    ThermalDamage: 20.0
-    TypeColorScheme: 11324.0
+    TypeColorScheme: 11324
   Guardian Sentry Gun IV:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 600.0
+    ArmorHP: 600
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     CapacitorCapacity: 1000.0
     DamageMultiplier: 1.0
-    ExplosiveDamage: 8.0
-    GfxTurretID: 365.0
-    Hp: 2500.0
-    KineticDamage: 8.0
-    MaxAttackTargets: 1.0
-    MaxLockedTargets: 8.0
-    MaxRange: 55000.0
-    MaxTargetRange: 55000.0
-    ProximityRange: 20000.0
+    GfxTurretID: 365
+    Hp: 2500
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 55000
+    MaxTargetRange: 55000
+    ProximityRange: 20000
     RechargeRate: 2500000.0
-    RequiredSkill1: 2597.0
-    ScanGravimetricStrength: 1.0
-    ScanLadarStrength: 1.0
-    ScanMagnetometricStrength: 1.0
-    ScanRadarStrength: 1.0
-    ShieldCapacity: 800.0
+    RequiredSkill1: 2597
+    ShieldCapacity: 800
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    Speed: 2000.0
+    Speed: 2000
     StructureUniformity: 1.0
-    ThermalDamage: 20.0
-    TypeColorScheme: 11324.0
+    TypeColorScheme: 11324
   Guardian Sentry Gun V:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 600.0
+    ArmorHP: 600
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     CapacitorCapacity: 1000.0
     DamageMultiplier: 1.0
-    ExplosiveDamage: 8.0
-    GfxTurretID: 366.0
-    Hp: 2500.0
-    KineticDamage: 8.0
-    MaxAttackTargets: 1.0
-    MaxLockedTargets: 8.0
-    MaxRange: 55000.0
-    MaxTargetRange: 55000.0
-    ProximityRange: 20000.0
+    GfxTurretID: 366
+    Hp: 2500
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 55000
+    MaxTargetRange: 55000
+    ProximityRange: 20000
     RechargeRate: 2500000.0
-    RequiredSkill1: 2597.0
-    ScanGravimetricStrength: 1.0
-    ScanLadarStrength: 1.0
-    ScanMagnetometricStrength: 1.0
-    ScanRadarStrength: 1.0
-    ShieldCapacity: 800.0
+    RequiredSkill1: 2597
+    ShieldCapacity: 800
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    Speed: 2000.0
+    Speed: 2000
     StructureUniformity: 1.0
-    ThermalDamage: 20.0
-    TypeColorScheme: 11324.0
+    TypeColorScheme: 11324
   Sentinel Sentry Gun I:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 150.0
+    ArmorHP: 150
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     CapacitorCapacity: 1000.0
     DamageMultiplier: 1.0
-    GfxTurretID: 360.0
-    Hp: 100.0
-    MaxAttackTargets: 1.0
-    MaxLockedTargets: 8.0
-    MaxRange: 30000.0
-    MaxTargetRange: 55000.0
-    ProximityRange: 15000.0
+    GfxTurretID: 360
+    Hp: 100
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 30000
+    MaxTargetRange: 55000
+    ProximityRange: 15000
     RechargeRate: 2500000.0
-    RequiredSkill1: 2597.0
-    ScanRadarStrength: 6.0
-    ShieldCapacity: 150.0
+    RequiredSkill1: 2597
+    ShieldCapacity: 150
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.5
-    Speed: 7000.0
+    Speed: 7000
     StructureUniformity: 1.0
-    ThermalDamage: 20.0
-    TypeColorScheme: 11313.0
+    TypeColorScheme: 11313
   Sentinel Sentry Gun II:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 200.0
+    ArmorHP: 200
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     CapacitorCapacity: 1000.0
     DamageMultiplier: 1.0
-    GfxTurretID: 361.0
-    Hp: 150.0
-    MaxAttackTargets: 1.0
-    MaxLockedTargets: 8.0
-    MaxRange: 35000.0
-    MaxTargetRange: 55000.0
-    ProximityRange: 20000.0
+    GfxTurretID: 361
+    Hp: 150
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 35000
+    MaxTargetRange: 55000
+    ProximityRange: 20000
     RechargeRate: 2500000.0
-    RequiredSkill1: 2597.0
-    ScanRadarStrength: 9.0
-    ShieldCapacity: 200.0
+    RequiredSkill1: 2597
+    ShieldCapacity: 200
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.5
-    Speed: 7000.0
+    Speed: 7000
     StructureUniformity: 1.0
-    ThermalDamage: 25.0
-    TypeColorScheme: 11313.0
+    TypeColorScheme: 11313
   Sentinel Sentry Gun III:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 250.0
+    ArmorHP: 250
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     CapacitorCapacity: 1000.0
     DamageMultiplier: 1.0
-    GfxTurretID: 362.0
-    Hp: 200.0
-    MaxAttackTargets: 1.0
-    MaxLockedTargets: 8.0
-    MaxRange: 40000.0
-    MaxTargetRange: 55000.0
-    ProximityRange: 25000.0
+    GfxTurretID: 362
+    Hp: 200
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 40000
+    MaxTargetRange: 55000
+    ProximityRange: 25000
     RechargeRate: 2500000.0
-    RequiredSkill1: 2597.0
-    ScanRadarStrength: 12.0
-    ShieldCapacity: 250.0
+    RequiredSkill1: 2597
+    ShieldCapacity: 250
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.5
-    Speed: 7000.0
+    Speed: 7000
     StructureUniformity: 1.0
-    ThermalDamage: 30.0
-    TypeColorScheme: 11313.0
+    TypeColorScheme: 11313
   Sentinel Sentry Gun IV:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 300.0
+    ArmorHP: 300
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     CapacitorCapacity: 1000.0
     DamageMultiplier: 1.0
-    GfxTurretID: 363.0
-    Hp: 250.0
-    MaxAttackTargets: 1.0
-    MaxLockedTargets: 8.0
-    MaxRange: 45000.0
-    MaxTargetRange: 55000.0
-    ProximityRange: 30000.0
+    GfxTurretID: 363
+    Hp: 250
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 45000
+    MaxTargetRange: 55000
+    ProximityRange: 30000
     RechargeRate: 2500000.0
-    RequiredSkill1: 2597.0
-    ScanRadarStrength: 15.0
-    ShieldCapacity: 300.0
+    RequiredSkill1: 2597
+    ShieldCapacity: 300
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.5
-    Speed: 7000.0
+    Speed: 7000
     StructureUniformity: 1.0
-    ThermalDamage: 40.0
-    TypeColorScheme: 11313.0
+    TypeColorScheme: 11313
   Sentinel Sentry Gun V:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 350.0
+    ArmorHP: 350
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     CapacitorCapacity: 1000.0
     DamageMultiplier: 1.0
-    GfxTurretID: 364.0
-    Hp: 300.0
-    MaxAttackTargets: 1.0
-    MaxLockedTargets: 8.0
-    MaxRange: 50000.0
-    MaxTargetRange: 55000.0
-    ProximityRange: 35000.0
+    GfxTurretID: 364
+    Hp: 300
+    MaxAttackTargets: 1
+    MaxLockedTargets: 8
+    MaxRange: 50000
+    MaxTargetRange: 55000
+    ProximityRange: 35000
     RechargeRate: 2500000.0
-    RequiredSkill1: 2597.0
-    ScanRadarStrength: 18.0
-    ShieldCapacity: 350.0
+    RequiredSkill1: 2597
+    ShieldCapacity: 350
     ShieldExplosiveDamageResonance: 0.4000000059604645
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.5
-    Speed: 7000.0
+    Speed: 7000
     StructureUniformity: 1.0
-    ThermalDamage: 50.0
-    TypeColorScheme: 11313.0
+    TypeColorScheme: 11313

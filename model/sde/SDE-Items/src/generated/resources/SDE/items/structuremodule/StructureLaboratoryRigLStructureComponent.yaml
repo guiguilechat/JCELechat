@@ -1,15 +1,15 @@
 items:
   Large Structure Component Research I:
-    CanFitShipGroup01: 1657.0
-    Hp: 40.0
-    RigSize: 3.0
-    StructureRigBonus1: 32.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    CanFitShipGroup01: 1657
+    Hp: 40
+    RigSize: 3
+    StructureRigBonus1: 32
+    TechLevel: 1
+    UpgradeCost: 100
   Large Structure Component Research II:
-    CanFitShipGroup01: 1657.0
-    Hp: 40.0
-    RigSize: 3.0
-    StructureRigBonus1: 40.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    CanFitShipGroup01: 1657
+    Hp: 40
+    RigSize: 3
+    StructureRigBonus1: 40
+    TechLevel: 2
+    UpgradeCost: 150

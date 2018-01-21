@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Charge;
@@ -19,7 +20,7 @@ public class StructureResistanceSwitcherScript
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorExplosiveDamageResonancePostAssignment;
     /**
      * The size of the charges that can fit in the turret/whatever.
@@ -27,15 +28,15 @@ public class StructureResistanceSwitcherScript
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ChargeSize;
+    @DefaultIntValue(0)
+    public int ChargeSize;
     /**
      * Sets Kinetic damage taken by Armor. 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorKineticDamageResonancePostAssignment;
     /**
      * Sets Thermal damage taken by Armor. 
@@ -43,7 +44,7 @@ public class StructureResistanceSwitcherScript
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorThermalDamageResonancePostAssignment;
     /**
      * Sets Em damage taken by Shields. 
@@ -51,7 +52,7 @@ public class StructureResistanceSwitcherScript
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldEmDamageResonancePostAssignment;
     /**
      * Sets Explosive damage taken by shields. 
@@ -59,7 +60,7 @@ public class StructureResistanceSwitcherScript
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldExplosiveDamageResonancePostAssignment;
     /**
      * Sets kinetic damage taken by Shields. 
@@ -67,7 +68,7 @@ public class StructureResistanceSwitcherScript
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldKineticDamageResonancePostAssignment;
     /**
      * Sets Thermal damage taken by Shields. 
@@ -75,7 +76,7 @@ public class StructureResistanceSwitcherScript
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ShieldThermalDamageResonancePostAssignment;
     /**
      * Sets Em damage taken by Hull. 
@@ -83,7 +84,7 @@ public class StructureResistanceSwitcherScript
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double EmDamageResonancePostAssignment;
     /**
      * Sets Explosive damage taken by Hull. 
@@ -91,7 +92,7 @@ public class StructureResistanceSwitcherScript
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ExplosiveDamageResonancePostAssignment;
     /**
      * Sets Thermal damage taken by Hull. 
@@ -99,7 +100,7 @@ public class StructureResistanceSwitcherScript
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ThermalDamageResonancePostAssignment;
     /**
      * Sets Kinetic damage taken by Hull. 
@@ -107,7 +108,7 @@ public class StructureResistanceSwitcherScript
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double KineticDamageResonancePostAssignment;
     /**
      * Sets Em damage taken by Armor. 
@@ -115,7 +116,7 @@ public class StructureResistanceSwitcherScript
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double ArmorEmDamageResonancePostAssignment;
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureResistanceSwitcherScript.yaml";
     private static LinkedHashMap<String, StructureResistanceSwitcherScript> cache = (null);

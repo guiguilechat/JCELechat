@@ -1,53 +1,53 @@
 items:
   Standup M-Set Basic Capital Component Manufacturing Material Efficiency I:
     AttributeEngRigMatBonus: -2.0
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
     HiSecModifier: 1.0
-    Hp: 40.0
+    Hp: 40
     LowSecModifier: 1.899999976158142
-    MaxGroupFitted: 1.0
+    MaxGroupFitted: 1
     NullSecModifier: 2.0999999046325684
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 1.0
-    RigSize: 2.0
-    SecurityModifier: 1.0
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 2
+    SecurityModifier: 1
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    UpgradeCost: 100
   Standup M-Set Basic Capital Component Manufacturing Material Efficiency II:
     AttributeEngRigMatBonus: -2.4000000953674316
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
     HiSecModifier: 1.0
-    Hp: 40.0
+    Hp: 40
     LowSecModifier: 1.899999976158142
-    MaxGroupFitted: 1.0
+    MaxGroupFitted: 1
     NullSecModifier: 2.0999999046325684
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 1.0
-    RigSize: 2.0
-    SecurityModifier: 1.0
-    StructureItemVisualFlag: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 2
+    SecurityModifier: 1
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    UpgradeCost: 150
   Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency:
     AttributeThukkerEngRigMatBonus: -3.700000047683716
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
     HiSecModifier: 0.10000000149011612
-    Hp: 40.0
+    Hp: 40
     LowSecModifier: 1.899999976158142
-    MaxGroupFitted: 1.0
-    MetaGroupID: 4.0
+    MaxGroupFitted: 1
+    MetaGroupID: 4
     NullSecModifier: 0.10000000149011612
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 1.0
-    RigSize: 2.0
-    SecurityModifier: 1.0
-    StructureItemVisualFlag: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 1
+    RigSize: 2
+    SecurityModifier: 1
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    UpgradeCost: 100

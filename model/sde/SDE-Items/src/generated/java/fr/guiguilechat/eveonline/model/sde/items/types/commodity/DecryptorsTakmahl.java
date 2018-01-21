@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Commodity;
@@ -19,7 +19,7 @@ public class DecryptorsTakmahl
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double InventionMaxRunModifier;
     /**
      * Modifies base chance of successful invention
@@ -27,7 +27,7 @@ public class DecryptorsTakmahl
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double InventionPropabilityMultiplier;
     /**
      * Modifies the mineral efficiency of invented BPCs
@@ -35,7 +35,7 @@ public class DecryptorsTakmahl
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double InventionMEModifier;
     /**
      * Modifies the time efficiency of invented BPCs
@@ -43,7 +43,7 @@ public class DecryptorsTakmahl
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double InventionTEModifier;
     public final static String RESOURCE_PATH = "SDE/items/commodity/DecryptorsTakmahl.yaml";
     private static LinkedHashMap<String, DecryptorsTakmahl> cache = (null);

@@ -1,91 +1,91 @@
 items:
   Neural Lace 'Blackglass' Net Intrusion 920-40:
-    AccessDifficultyBonusModifier: 10.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-    VirusCoherenceBonus: -40.0
-    VirusStrengthBonus: 20.0
+    AccessDifficultyBonusModifier: 10
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    VirusCoherenceBonus: -40
+    VirusStrengthBonus: 20
   Poteque 'Prospector' Archaeology AC-905:
-    AccessDifficultyBonusModifier: 5.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
-    VirusCoherenceBonus: 5.0
+    AccessDifficultyBonusModifier: 5
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    VirusCoherenceBonus: 5
   Poteque 'Prospector' Astrometric Acquisition AQ-702:
-    DurationBonus: -2.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    DurationBonus: -2
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Poteque 'Prospector' Astrometric Acquisition AQ-706:
-    DurationBonus: -6.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    DurationBonus: -6
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Poteque 'Prospector' Astrometric Acquisition AQ-710:
-    DurationBonus: -10.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
+    DurationBonus: -10
+    Implantness: 7
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
   Poteque 'Prospector' Astrometric Pinpointing AP-602:
-    Implantness: 6.0
-    MaxScanDeviationModifier: -2.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
+    Implantness: 6
+    MaxScanDeviationModifier: -2
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    TechLevel: 1
   Poteque 'Prospector' Astrometric Pinpointing AP-606:
-    Implantness: 6.0
-    MaxScanDeviationModifier: -6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    Implantness: 6
+    MaxScanDeviationModifier: -6
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
   Poteque 'Prospector' Astrometric Pinpointing AP-610:
-    Implantness: 6.0
-    MaxScanDeviationModifier: -10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
+    Implantness: 6
+    MaxScanDeviationModifier: -10
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    TechLevel: 1
   Poteque 'Prospector' Astrometric Rangefinding AR-802:
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    ScanStrengthBonus: 2.0
-    TechLevel: 1.0
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    ScanStrengthBonus: 2
+    TechLevel: 1
   Poteque 'Prospector' Astrometric Rangefinding AR-806:
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    ScanStrengthBonus: 6.0
-    TechLevel: 1.0
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    ScanStrengthBonus: 6
+    TechLevel: 1
   Poteque 'Prospector' Astrometric Rangefinding AR-810:
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    ScanStrengthBonus: 10.0
-    TechLevel: 1.0
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 5
+    ScanStrengthBonus: 10
+    TechLevel: 1
   Poteque 'Prospector' Environmental Analysis EY-1005:
-    AccessDifficultyBonusModifier: 5.0
-    DurationBonus: -5.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
-    VirusCoherenceBonus: 5.0
+    AccessDifficultyBonusModifier: 5
+    DurationBonus: -5
+    Implantness: 10
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    VirusCoherenceBonus: 5
   Poteque 'Prospector' Hacking HC-905:
-    AccessDifficultyBonusModifier: 5.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
-    VirusCoherenceBonus: 5.0
+    AccessDifficultyBonusModifier: 5
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    VirusCoherenceBonus: 5
   Poteque 'Prospector' Salvaging SV-905:
-    AccessDifficultyBonus: 5.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
+    AccessDifficultyBonus: 5
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    TechLevel: 1

@@ -1,647 +1,647 @@
 items:
   Basic Gravimetric Backup Array:
     Cpu: 5.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 35.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 35
+    TechLevel: 1
   Basic Ladar Backup Array:
     Cpu: 5.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanLadarStrengthPercent: 35.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanLadarStrengthPercent: 35
+    TechLevel: 1
   Basic Magnetometric Backup Array:
     Cpu: 5.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanMagnetometricStrengthPercent: 35.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanMagnetometricStrengthPercent: 35
+    TechLevel: 1
   Basic Multi Sensor Backup Array:
     Cpu: 5.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 35.0
-    ScanLadarStrengthPercent: 35.0
-    ScanMagnetometricStrengthPercent: 35.0
-    ScanRadarStrengthPercent: 35.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 35
+    ScanLadarStrengthPercent: 35
+    ScanMagnetometricStrengthPercent: 35
+    ScanRadarStrengthPercent: 35
+    TechLevel: 1
   Basic RADAR Backup Array:
     Cpu: 5.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanRadarStrengthPercent: 35.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanRadarStrengthPercent: 35
+    TechLevel: 1
   Emergency Gravimetric Scanners:
     Cpu: 7.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 37.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 37
+    TechLevel: 1
   Emergency Ladar Scanners:
     Cpu: 7.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanLadarStrengthPercent: 37.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanLadarStrengthPercent: 37
+    TechLevel: 1
   Emergency Magnetometric Scanners:
     Cpu: 7.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanMagnetometricStrengthPercent: 37.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanMagnetometricStrengthPercent: 37
+    TechLevel: 1
   Emergency Multi-Frequency Scanners:
     Cpu: 7.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 37.0
-    ScanLadarStrengthPercent: 37.0
-    ScanMagnetometricStrengthPercent: 37.0
-    ScanRadarStrengthPercent: 37.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 37
+    ScanLadarStrengthPercent: 37
+    ScanMagnetometricStrengthPercent: 37
+    ScanRadarStrengthPercent: 37
+    TechLevel: 1
   Emergency RADAR Scanners:
     Cpu: 7.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanRadarStrengthPercent: 37.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanRadarStrengthPercent: 37
+    TechLevel: 1
   F-42 Reiterative Gravimetric Backup Sensors:
     Cpu: 8.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 38.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 38
+    TechLevel: 1
   F-42 Reiterative Ladar Backup Sensors:
     Cpu: 8.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanLadarStrengthPercent: 38.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanLadarStrengthPercent: 38
+    TechLevel: 1
   F-42 Reiterative Magnetometric Backup Sensors:
     Cpu: 8.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanMagnetometricStrengthPercent: 38.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanMagnetometricStrengthPercent: 38
+    TechLevel: 1
   F-42 Reiterative Multi-Frequency Backup Sensors:
     Cpu: 8.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 38.0
-    ScanLadarStrengthPercent: 38.0
-    ScanMagnetometricStrengthPercent: 38.0
-    ScanRadarStrengthPercent: 38.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 38
+    ScanLadarStrengthPercent: 38
+    ScanMagnetometricStrengthPercent: 38
+    ScanRadarStrengthPercent: 38
+    TechLevel: 1
   F-42 Reiterative RADAR Backup Sensors:
     Cpu: 8.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanRadarStrengthPercent: 38.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanRadarStrengthPercent: 38
+    TechLevel: 1
   F-43 Repetitive Gravimetric Backup Sensors:
     Cpu: 14.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 44.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 44
+    TechLevel: 1
   F-43 Repetitive Ladar Backup Sensors:
     Cpu: 14.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanLadarStrengthPercent: 44.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanLadarStrengthPercent: 44
+    TechLevel: 1
   F-43 Repetitive Magnetometric Backup Sensors:
     Cpu: 14.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanMagnetometricStrengthPercent: 44.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanMagnetometricStrengthPercent: 44
+    TechLevel: 1
   F-43 Repetitive Multi-Frequency Backup Sensors:
     Cpu: 14.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 44.0
-    ScanLadarStrengthPercent: 44.0
-    ScanMagnetometricStrengthPercent: 44.0
-    ScanRadarStrengthPercent: 44.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 44
+    ScanLadarStrengthPercent: 44
+    ScanMagnetometricStrengthPercent: 44
+    ScanRadarStrengthPercent: 44
+    TechLevel: 1
   F-43 Repetitive RADAR Backup Sensors:
     Cpu: 14.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanRadarStrengthPercent: 44.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanRadarStrengthPercent: 44
+    TechLevel: 1
   Gravimetric Backup Array I:
     Cpu: 10.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 40.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 40
+    TechLevel: 1
   Gravimetric Backup Array II:
     Cpu: 18.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 3.0
-    ScanGravimetricStrengthPercent: 48.0
-    TechLevel: 2.0
+    Hp: 40
+    MetaLevel: 5
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 3
+    ScanGravimetricStrengthPercent: 48
+    TechLevel: 2
   Gravimetric Firewall:
     Cpu: 10.0
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 48.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 48
+    TechLevel: 1
   Ladar Backup Array I:
     Cpu: 10.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanLadarStrengthPercent: 40.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanLadarStrengthPercent: 40
+    TechLevel: 1
   Ladar Backup Array II:
     Cpu: 18.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 3.0
-    ScanLadarStrengthPercent: 48.0
-    TechLevel: 2.0
+    Hp: 40
+    MetaLevel: 5
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 3
+    ScanLadarStrengthPercent: 48
+    TechLevel: 2
   Ladar Firewall:
     Cpu: 10.0
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanLadarStrengthPercent: 48.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanLadarStrengthPercent: 48
+    TechLevel: 1
   Magnetometric Backup Array I:
     Cpu: 10.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanMagnetometricStrengthPercent: 40.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanMagnetometricStrengthPercent: 40
+    TechLevel: 1
   Magnetometric Backup Array II:
     Cpu: 18.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 3.0
-    ScanMagnetometricStrengthPercent: 48.0
-    TechLevel: 2.0
+    Hp: 40
+    MetaLevel: 5
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 3
+    ScanMagnetometricStrengthPercent: 48
+    TechLevel: 2
   Magnetometric Firewall:
     Cpu: 10.0
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanMagnetometricStrengthPercent: 48.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanMagnetometricStrengthPercent: 48
+    TechLevel: 1
   Multi Sensor Backup Array I:
     Cpu: 10.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 40.0
-    ScanLadarStrengthPercent: 40.0
-    ScanMagnetometricStrengthPercent: 40.0
-    ScanRadarStrengthPercent: 40.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 40
+    ScanLadarStrengthPercent: 40
+    ScanMagnetometricStrengthPercent: 40
+    ScanRadarStrengthPercent: 40
+    TechLevel: 1
   Multi Sensor Backup Array II:
     Cpu: 18.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 3.0
-    ScanGravimetricStrengthPercent: 48.0
-    ScanLadarStrengthPercent: 48.0
-    ScanMagnetometricStrengthPercent: 48.0
-    ScanRadarStrengthPercent: 48.0
-    TechLevel: 2.0
+    Hp: 40
+    MetaLevel: 5
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 3
+    ScanGravimetricStrengthPercent: 48
+    ScanLadarStrengthPercent: 48
+    ScanMagnetometricStrengthPercent: 48
+    ScanRadarStrengthPercent: 48
+    TechLevel: 2
   Protected Gravimetric Backup Cluster I:
     Cpu: 11.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 41.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 41
+    TechLevel: 1
   Protected Ladar Backup Cluster I:
     Cpu: 11.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanLadarStrengthPercent: 41.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanLadarStrengthPercent: 41
+    TechLevel: 1
   Protected Magnetometric Backup Cluster I:
     Cpu: 11.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanMagnetometricStrengthPercent: 41.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanMagnetometricStrengthPercent: 41
+    TechLevel: 1
   Protected Multi-Frequency Backup Cluster I:
     Cpu: 11.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 41.0
-    ScanLadarStrengthPercent: 41.0
-    ScanMagnetometricStrengthPercent: 41.0
-    ScanRadarStrengthPercent: 41.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 41
+    ScanLadarStrengthPercent: 41
+    ScanMagnetometricStrengthPercent: 41
+    ScanRadarStrengthPercent: 41
+    TechLevel: 1
   Protected RADAR Backup Cluster I:
     Cpu: 11.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanRadarStrengthPercent: 41.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanRadarStrengthPercent: 41
+    TechLevel: 1
   RADAR Backup Array I:
     Cpu: 10.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanRadarStrengthPercent: 40.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanRadarStrengthPercent: 40
+    TechLevel: 1
   RADAR Backup Array II:
     Cpu: 18.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 3.0
-    ScanRadarStrengthPercent: 48.0
-    TechLevel: 2.0
+    Hp: 40
+    MetaLevel: 5
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 3
+    ScanRadarStrengthPercent: 48
+    TechLevel: 2
   RADAR Firewall:
     Cpu: 10.0
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanRadarStrengthPercent: 48.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanRadarStrengthPercent: 48
+    TechLevel: 1
   Reserve Gravimetric Scanners:
     Cpu: 12.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 42.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 42
+    TechLevel: 1
   Reserve Ladar Scanners:
     Cpu: 12.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanLadarStrengthPercent: 42.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanLadarStrengthPercent: 42
+    TechLevel: 1
   Reserve Magnetometric Scanners:
     Cpu: 12.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanMagnetometricStrengthPercent: 42.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanMagnetometricStrengthPercent: 42
+    TechLevel: 1
   Reserve Multi-Frequency Scanners:
     Cpu: 12.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 42.0
-    ScanLadarStrengthPercent: 42.0
-    ScanMagnetometricStrengthPercent: 42.0
-    ScanRadarStrengthPercent: 42.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 42
+    ScanLadarStrengthPercent: 42
+    ScanMagnetometricStrengthPercent: 42
+    ScanRadarStrengthPercent: 42
+    TechLevel: 1
   Reserve RADAR Scanners:
     Cpu: 12.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanRadarStrengthPercent: 42.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanRadarStrengthPercent: 42
+    TechLevel: 1
   Sealed Gravimetric Backup Cluster:
     Cpu: 9.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 39.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 39
+    TechLevel: 1
   Sealed Ladar Backup Cluster:
     Cpu: 9.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanLadarStrengthPercent: 39.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanLadarStrengthPercent: 39
+    TechLevel: 1
   Sealed Magnetometric Backup Cluster:
     Cpu: 9.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanMagnetometricStrengthPercent: 39.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanMagnetometricStrengthPercent: 39
+    TechLevel: 1
   Sealed Multi-Frequency Backup Cluster:
     Cpu: 9.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 39.0
-    ScanLadarStrengthPercent: 39.0
-    ScanMagnetometricStrengthPercent: 39.0
-    ScanRadarStrengthPercent: 39.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 39
+    ScanLadarStrengthPercent: 39
+    ScanMagnetometricStrengthPercent: 39
+    ScanRadarStrengthPercent: 39
+    TechLevel: 1
   Sealed RADAR Backup Cluster:
     Cpu: 9.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanRadarStrengthPercent: 39.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanRadarStrengthPercent: 39
+    TechLevel: 1
   Secure Gravimetric Backup Cluster I:
     Cpu: 13.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 43.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 43
+    TechLevel: 1
   Secure Ladar Backup Cluster I:
     Cpu: 13.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanLadarStrengthPercent: 43.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanLadarStrengthPercent: 43
+    TechLevel: 1
   Secure Magnetometric Backup Cluster I:
     Cpu: 13.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanMagnetometricStrengthPercent: 43.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanMagnetometricStrengthPercent: 43
+    TechLevel: 1
   Secure Radar Backup Cluster I:
     Cpu: 13.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanRadarStrengthPercent: 43.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanRadarStrengthPercent: 43
+    TechLevel: 1
   Shielded Gravimetric Backup Cluster I:
     Cpu: 15.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 45.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 45
+    TechLevel: 1
   Shielded Ladar Backup Cluster I:
     Cpu: 15.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanLadarStrengthPercent: 45.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanLadarStrengthPercent: 45
+    TechLevel: 1
   Shielded Magnetometric Backup Cluster I:
     Cpu: 15.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanMagnetometricStrengthPercent: 45.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanMagnetometricStrengthPercent: 45
+    TechLevel: 1
   Shielded Radar Backup Cluster I:
     Cpu: 15.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanRadarStrengthPercent: 45.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanRadarStrengthPercent: 45
+    TechLevel: 1
   Surplus Gravimetric Reserve Array:
     Cpu: 6.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 36.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 36
+    TechLevel: 1
   Surplus Ladar Reserve Array:
     Cpu: 6.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanLadarStrengthPercent: 36.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanLadarStrengthPercent: 36
+    TechLevel: 1
   Surplus Magnetometric Reserve Array:
     Cpu: 6.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanMagnetometricStrengthPercent: 36.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanMagnetometricStrengthPercent: 36
+    TechLevel: 1
   Surplus Multi-Frequency Reserve Array:
     Cpu: 6.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 36.0
-    ScanLadarStrengthPercent: 36.0
-    ScanMagnetometricStrengthPercent: 36.0
-    ScanRadarStrengthPercent: 36.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 36
+    ScanLadarStrengthPercent: 36
+    ScanMagnetometricStrengthPercent: 36
+    ScanRadarStrengthPercent: 36
+    TechLevel: 1
   Surplus RADAR Reserve Array:
     Cpu: 6.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 1.0
-    ScanRadarStrengthPercent: 36.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 3426
+    RequiredSkill1Level: 1
+    ScanRadarStrengthPercent: 36
+    TechLevel: 1
   Surrogate Gravimetric Reserve Array I:
     Cpu: 16.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 46.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 46
+    TechLevel: 1
   Surrogate Ladar Reserve Array I:
     Cpu: 16.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanLadarStrengthPercent: 46.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanLadarStrengthPercent: 46
+    TechLevel: 1
   Surrogate Magnetometric Reserve Array I:
     Cpu: 16.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanMagnetometricStrengthPercent: 46.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanMagnetometricStrengthPercent: 46
+    TechLevel: 1
   Surrogate Multi-Frequency Reserve Array I:
     Cpu: 16.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 46.0
-    ScanLadarStrengthPercent: 46.0
-    ScanMagnetometricStrengthPercent: 46.0
-    ScanRadarStrengthPercent: 46.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 46
+    ScanLadarStrengthPercent: 46
+    ScanMagnetometricStrengthPercent: 46
+    ScanRadarStrengthPercent: 46
+    TechLevel: 1
   Surrogate RADAR Reserve Array I:
     Cpu: 16.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanRadarStrengthPercent: 46.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanRadarStrengthPercent: 46
+    TechLevel: 1
   Warded Gravimetric Backup Cluster I:
     Cpu: 17.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthPercent: 47.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanGravimetricStrengthPercent: 47
+    TechLevel: 1
   Warded Ladar Backup Cluster I:
     Cpu: 17.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanLadarStrengthPercent: 47.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanLadarStrengthPercent: 47
+    TechLevel: 1
   Warded Magnetometric Backup Cluster I:
     Cpu: 17.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanMagnetometricStrengthPercent: 47.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanMagnetometricStrengthPercent: 47
+    TechLevel: 1
   Warded Radar Backup Cluster I:
     Cpu: 17.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    ScanRadarStrengthPercent: 47.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    Power: 1
+    RequiredSkill1: 3432
+    RequiredSkill1Level: 1
+    ScanRadarStrengthPercent: 47
+    TechLevel: 1

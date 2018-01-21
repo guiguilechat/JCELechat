@@ -1,12 +1,10 @@
 items:
   Low Cost Mercenary Assault Unit:
     Agility: 970.687744140625
-    DetonationRange: 100.0
-    EmDamage: 300.0
-    ExplosionDelay: 60000.0
-    Hp: 50.0
-    LauncherGroup: 56.0
-    MaxVelocity: 1000.0
+    DetonationRange: 100
+    ExplosionDelay: 60000
+    Hp: 50
+    LauncherGroup: 56
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1

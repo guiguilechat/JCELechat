@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.infrastructureupgrades;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.InfrastructureUpgrades;
@@ -19,88 +19,88 @@ public class IndustrialUpgrades
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DevIndexIndustrial;
+    @DefaultIntValue(0)
+    public int DevIndexIndustrial;
     /**
      * Distribution ID for sov upgrades in Serpentis space
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DistributionIDSerpentis01;
+    @DefaultIntValue(0)
+    public int DistributionIDSerpentis01;
     /**
      * Distribution ID for sov upgrades in Guristas space
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DistributionIDGurista01;
+    @DefaultIntValue(0)
+    public int DistributionIDGurista01;
     /**
      * Distribution ID for sov upgrades in Sansha space
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DistributionIDSansha01;
+    @DefaultIntValue(0)
+    public int DistributionIDSansha01;
     /**
      * Distribution ID for sov upgrades in Blood Raider space
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DistributionIDBlood01;
+    @DefaultIntValue(0)
+    public int DistributionIDBlood01;
     /**
      * Distribution ID for global sov upgrades
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DistributionID01;
+    @DefaultIntValue(0)
+    public int DistributionID01;
     /**
      * Distribution ID for global sov upgrades
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DistributionID02;
+    @DefaultIntValue(0)
+    public int DistributionID02;
     /**
      * Distribution ID for sov upgrades in Rogue Drone space
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DistributionIDRogueDrone01;
+    @DefaultIntValue(0)
+    public int DistributionIDRogueDrone01;
     /**
      * Distribution ID for global sov upgrades
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DistributionID03;
+    @DefaultIntValue(0)
+    public int DistributionID03;
     /**
      * The typeID of the upgrade that is required for this upgrade to be installed. 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SovUpgradeRequiredUpgradeID;
+    @DefaultIntValue(0)
+    public int SovUpgradeRequiredUpgradeID;
     /**
      * Distribution ID for sov upgrades in Angel space
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DistributionIDAngel01;
+    @DefaultIntValue(0)
+    public int DistributionIDAngel01;
     public final static String RESOURCE_PATH = "SDE/items/infrastructureupgrades/IndustrialUpgrades.yaml";
     private static LinkedHashMap<String, IndustrialUpgrades> cache = (null);
 

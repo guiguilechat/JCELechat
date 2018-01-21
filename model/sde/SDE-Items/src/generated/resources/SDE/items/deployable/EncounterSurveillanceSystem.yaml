@@ -1,81 +1,81 @@
 items:
   Amarr Encounter Surveillance System:
-    ArmorHP: 30000.0
+    ArmorHP: 30000
     ArmorUniformity: 0.75
-    Hp: 190000.0
-    MaxLockedTargets: 8.0
-    MaxTargetRange: 250000.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 2.0
+    Hp: 190000
+    MaxLockedTargets: 8
+    MaxTargetRange: 250000
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 2
     ScanGravimetricStrength: 50.0
     ScanLadarStrength: 50.0
     ScanMagnetometricStrength: 50.0
     ScanRadarStrength: 50.0
-    ShieldCapacity: 30000.0
+    ShieldCapacity: 30000
     ShieldRechargeRate: 2400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 500.0
+    SignatureRadius: 500
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     Uniformity: 1.0
-    WarpScrambleStrength: 100.0
+    WarpScrambleStrength: 100
   Caldari Encounter Surveillance System:
-    ArmorHP: 30000.0
+    ArmorHP: 30000
     ArmorUniformity: 0.75
-    Hp: 190000.0
-    MaxLockedTargets: 8.0
-    MaxTargetRange: 250000.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 2.0
+    Hp: 190000
+    MaxLockedTargets: 8
+    MaxTargetRange: 250000
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 2
     ScanGravimetricStrength: 50.0
     ScanLadarStrength: 50.0
     ScanMagnetometricStrength: 50.0
     ScanRadarStrength: 50.0
-    ShieldCapacity: 30000.0
+    ShieldCapacity: 30000
     ShieldRechargeRate: 2400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 500.0
+    SignatureRadius: 500
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     Uniformity: 1.0
-    WarpScrambleStrength: 100.0
+    WarpScrambleStrength: 100
   Gallente Encounter Surveillance System:
-    ArmorHP: 30000.0
+    ArmorHP: 30000
     ArmorUniformity: 0.75
-    Hp: 190000.0
-    MaxLockedTargets: 8.0
-    MaxTargetRange: 250000.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 2.0
+    Hp: 190000
+    MaxLockedTargets: 8
+    MaxTargetRange: 250000
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 2
     ScanGravimetricStrength: 50.0
     ScanLadarStrength: 50.0
     ScanMagnetometricStrength: 50.0
     ScanRadarStrength: 50.0
-    ShieldCapacity: 30000.0
+    ShieldCapacity: 30000
     ShieldRechargeRate: 2400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 500.0
+    SignatureRadius: 500
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     Uniformity: 1.0
-    WarpScrambleStrength: 100.0
+    WarpScrambleStrength: 100
   Minmatar Encounter Surveillance System:
-    ArmorHP: 30000.0
+    ArmorHP: 30000
     ArmorUniformity: 0.75
-    Hp: 190000.0
-    MaxLockedTargets: 8.0
-    MaxTargetRange: 250000.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 2.0
+    Hp: 190000
+    MaxLockedTargets: 8
+    MaxTargetRange: 250000
+    RequiredSkill1: 11584
+    RequiredSkill1Level: 2
     ScanGravimetricStrength: 50.0
     ScanLadarStrength: 50.0
     ScanMagnetometricStrength: 50.0
     ScanRadarStrength: 50.0
-    ShieldCapacity: 30000.0
+    ShieldCapacity: 30000
     ShieldRechargeRate: 2400000.0
     ShieldUniformity: 0.75
-    SignatureRadius: 500.0
+    SignatureRadius: 500
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     Uniformity: 1.0
-    WarpScrambleStrength: 100.0
+    WarpScrambleStrength: 100

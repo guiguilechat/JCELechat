@@ -1,49 +1,49 @@
 items:
   Barren Launchpad:
-    CpuLoad: 3600.0
-    ExportTax: 1.0
+    CpuLoad: 3600
+    ExportTax: 1
     ImportTax: 0.5
-    PlanetRestriction: 2016.0
-    PowerLoad: 700.0
+    PlanetRestriction: 2016
+    PowerLoad: 700
   Gas Launchpad:
-    CpuLoad: 3600.0
-    ExportTax: 1.0
+    CpuLoad: 3600
+    ExportTax: 1
     ImportTax: 0.5
-    PlanetRestriction: 13.0
-    PowerLoad: 700.0
+    PlanetRestriction: 13
+    PowerLoad: 700
   Ice Launchpad:
-    CpuLoad: 3600.0
-    ExportTax: 1.0
+    CpuLoad: 3600
+    ExportTax: 1
     ImportTax: 0.5
-    PlanetRestriction: 12.0
-    PowerLoad: 700.0
+    PlanetRestriction: 12
+    PowerLoad: 700
   Lava Launchpad:
-    CpuLoad: 3600.0
-    ExportTax: 1.0
+    CpuLoad: 3600
+    ExportTax: 1
     ImportTax: 0.5
-    PlanetRestriction: 2015.0
-    PowerLoad: 700.0
+    PlanetRestriction: 2015
+    PowerLoad: 700
   Oceanic Launchpad:
-    CpuLoad: 3600.0
-    ExportTax: 1.0
+    CpuLoad: 3600
+    ExportTax: 1
     ImportTax: 0.5
-    PlanetRestriction: 2014.0
-    PowerLoad: 700.0
+    PlanetRestriction: 2014
+    PowerLoad: 700
   Plasma Launchpad:
-    CpuLoad: 3600.0
-    ExportTax: 1.0
+    CpuLoad: 3600
+    ExportTax: 1
     ImportTax: 0.5
-    PlanetRestriction: 2063.0
-    PowerLoad: 700.0
+    PlanetRestriction: 2063
+    PowerLoad: 700
   Storm Launchpad:
-    CpuLoad: 3600.0
-    ExportTax: 1.0
+    CpuLoad: 3600
+    ExportTax: 1
     ImportTax: 0.5
-    PlanetRestriction: 2017.0
-    PowerLoad: 700.0
+    PlanetRestriction: 2017
+    PowerLoad: 700
   Temperate Launchpad:
-    CpuLoad: 3600.0
-    ExportTax: 1.0
+    CpuLoad: 3600
+    ExportTax: 1
     ImportTax: 0.5
-    PlanetRestriction: 11.0
-    PowerLoad: 700.0
+    PlanetRestriction: 11
+    PowerLoad: 700

@@ -1,44 +1,44 @@
 items:
   '''Censer'' Medium Cap Battery Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Crucible'' Small Cap Battery Blueprint':
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   '''Thurifer'' Large Cap Battery Blueprint':
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Capital Cap Battery I Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Capital Cap Battery II Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Capital Compact Pb-Acid Cap Battery Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Dark Blood Capital Cap Battery Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Domination Capital Cap Battery Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Large Cap Battery I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Large Cap Battery II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Medium Cap Battery I Blueprint:
     IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
+    TechLevel: 1
   Medium Cap Battery II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
+    TechLevel: 2
   Small Cap Battery I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Small Cap Battery II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
+    TechLevel: 2
   X-Large Capacitor Battery I Blueprint:
     IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
+    TechLevel: 1
   X-Large Capacitor Battery II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
-    TechLevel: 2.0
+    TechLevel: 2

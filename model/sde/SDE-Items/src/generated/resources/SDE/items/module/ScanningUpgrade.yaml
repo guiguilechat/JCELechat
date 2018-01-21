@@ -1,36 +1,36 @@
 items:
   Scan Pinpointing Array I:
     Cpu: 30.0
-    Hp: 40.0
-    MaxScanDeviationModifierModule: -10.0
-    Power: 1.0
-    RequiredSkill1: 25810.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Hp: 40
+    MaxScanDeviationModifierModule: -10
+    Power: 1
+    RequiredSkill1: 25810
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Scan Pinpointing Array II:
     Cpu: 30.0
-    Hp: 40.0
-    MaxScanDeviationModifierModule: -20.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 25810.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 2.0
+    Hp: 40
+    MaxScanDeviationModifierModule: -20
+    MetaLevel: 5
+    Power: 1
+    RequiredSkill1: 25810
+    RequiredSkill1Level: 5
+    TechLevel: 2
   Scan Rangefinding Array I:
     Cpu: 30.0
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 25739.0
-    RequiredSkill1Level: 2.0
-    ScanStrengthBonusModule: 5.0
-    TechLevel: 1.0
+    Hp: 40
+    Power: 1
+    RequiredSkill1: 25739
+    RequiredSkill1Level: 2
+    ScanStrengthBonusModule: 5
+    TechLevel: 1
   Scan Rangefinding Array II:
     Cpu: 30.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 25739.0
-    RequiredSkill1Level: 5.0
-    ScanStrengthBonus: 10.0
-    ScanStrengthBonusModule: 10.0
-    TechLevel: 2.0
+    Hp: 40
+    MetaLevel: 5
+    Power: 1
+    RequiredSkill1: 25739
+    RequiredSkill1Level: 5
+    ScanStrengthBonus: 10
+    ScanStrengthBonusModule: 10
+    TechLevel: 2

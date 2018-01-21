@@ -1,7 +1,7 @@
 items:
   Gas Cloud 1:
-    ReprocessingSkillType: 16280.0
-    RequiredSkill1: 16280.0
+    ReprocessingSkillType: 16280
+    RequiredSkill1: 16280
   Gas Cloud 2: {}
   Gas Cloud 3: {}
   Gas Cloud 4: {}

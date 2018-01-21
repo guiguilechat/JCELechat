@@ -1,18 +1,18 @@
 items:
   Planet Satellite:
-    CapNeedBonus: 100.0
-    ChargeSize: 1.0
+    CapNeedBonus: 100
+    ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1.0
-    Hp: 1.0
-    LauncherGroup: 483.0
-    MainColor: 5215864.0
-    RequiredSkill1: 12189.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 3386.0
-    RequiredSkill2Level: 1.0
-    SpecialisationAsteroidGroup: 462.0
+    CrystalsGetDamaged: 1
+    Hp: 1
+    LauncherGroup: 483
+    MainColor: 5215864
+    RequiredSkill1: 12189
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3386
+    RequiredSkill2Level: 1
+    SpecialisationAsteroidGroup: 462
     SpecialisationAsteroidYieldMultiplier: 5.0
-    TechLevel: 1.0
-    UnfitCapCost: 80.0
+    TechLevel: 1
+    UnfitCapCost: 80

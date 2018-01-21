@@ -79,7 +79,7 @@ items:
   Colelian Spider Spruce: {}
   ComLink Encoder/Decoder: {}
   Construction Tools:
-    Hp: 100.0
+    Hp: 100
   Corpse of Enlil Bel: {}
   Counterfeit Credits: {}
   Cracked Keycard: {}
@@ -353,16 +353,16 @@ items:
   Telligman's Stone: {}
   Terran Broken Datachips - Weaponry:
     DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546.0
-    ReprocessingSkillType: 12189.0
-    RequiredSkill1: 13281.0
-    RequiredSkill1Level: 3.0
+    DamageCloudType: 11546
+    ReprocessingSkillType: 12189
+    RequiredSkill1: 13281
+    RequiredSkill1Level: 3
   Test Bong: {}
   The Apocryphon: {}
   The Little Pirate That Could: {}
   Threaded Waypoint Map: {}
   Thukker Loot:
-    Hp: 100.0
+    Hp: 100
   Thyram Arachnan's Dossier: {}
   Tikui's Message: {}
   Transputer Orb: {}

@@ -1,505 +1,499 @@
 items:
   Capital Ancillary Current Router I:
-    Hp: 40.0
-    MaxGangModules: 3.0
+    Hp: 40
+    MaxGangModules: 3
     PowerEngineeringOutputBonus: 10.0
-    RigSize: 4.0
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Capital Ancillary Current Router II:
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
     PowerEngineeringOutputBonus: 15.0
-    RigSize: 4.0
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Capital Capacitor Control Circuit I:
     CapRechargeBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 4.0
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Capital Capacitor Control Circuit II:
     CapRechargeBonus: -20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 4.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Capital Command Processor I:
-    Hp: 40.0
-    MaxGangModules: 1.0
-    RigSize: 4.0
+    Hp: 40
+    MaxGangModules: 1
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 150.0
+    TechLevel: 1
+    UpgradeCost: 150
   Capital Egress Port Maximizer I:
-    CapNeedBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 4.0
+    CapNeedBonus: -15
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Capital Egress Port Maximizer II:
-    CapNeedBonus: -20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 4.0
+    CapNeedBonus: -20
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Capital Liquid Cooled Electronics I:
-    CpuNeedBonus: -10.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 4.0
+    CpuNeedBonus: -10
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Capital Liquid Cooled Electronics II:
-    CpuNeedBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 4.0
+    CpuNeedBonus: -15
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Capital Powergrid Subroutine Maximizer I:
-    CpuNeedBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 4.0
+    CpuNeedBonus: -15
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    TechLevel: 1
+    UpgradeCost: 50
   Capital Powergrid Subroutine Maximizer II:
-    CpuNeedBonus: -20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 4.0
+    CpuNeedBonus: -20
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    TechLevel: 2
+    UpgradeCost: 75
   Capital Processor Overclocking Unit I:
     CpuOutputBonus2: 7.099999904632568
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 4.0
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.0499999523162842
-    TechLevel: 1.0
-    UpgradeCost: 150.0
+    TechLevel: 1
+    UpgradeCost: 150
   Capital Processor Overclocking Unit II:
     CpuOutputBonus2: 9.600000381469727
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 4.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.100000023841858
-    TechLevel: 2.0
-    UpgradeCost: 300.0
+    TechLevel: 2
+    UpgradeCost: 300
   Capital Semiconductor Memory Cell I:
     CapacitorCapacityBonus: 15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 4.0
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Capital Semiconductor Memory Cell II:
     CapacitorCapacityBonus: 20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 4.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 4
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Large Ancillary Current Router I:
-    Hp: 40.0
-    MaxGangModules: 3.0
-    PowerEngineeringOutputBonus: 10.0
-    RigSize: 3.0
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Large Ancillary Current Router II:
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    PowerEngineeringOutputBonus: 15.0
-    RigSize: 3.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Large Capacitor Control Circuit I:
-    CapRechargeBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 3.0
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Large Capacitor Control Circuit II:
-    CapRechargeBonus: -20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 3.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Large Command Processor I:
-    Hp: 40.0
-    MaxGangModules: 1.0
-    RigSize: 3.0
+    Hp: 40
+    MaxGangModules: 1
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 150.0
+    TechLevel: 1
+    UpgradeCost: 150
   Large Egress Port Maximizer I:
-    CapNeedBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 3.0
+    CapNeedBonus: -15
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Large Egress Port Maximizer II:
-    CapNeedBonus: -20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 3.0
+    CapNeedBonus: -20
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Large Liquid Cooled Electronics I:
-    CpuNeedBonus: -10.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 3.0
+    CpuNeedBonus: -10
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Large Liquid Cooled Electronics II:
-    CpuNeedBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 3.0
+    CpuNeedBonus: -15
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Large Powergrid Subroutine Maximizer I:
-    CpuNeedBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 3.0
+    CpuNeedBonus: -15
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    TechLevel: 1
+    UpgradeCost: 50
   Large Powergrid Subroutine Maximizer II:
-    CpuNeedBonus: -20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 3.0
+    CpuNeedBonus: -20
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    TechLevel: 2
+    UpgradeCost: 75
   Large Processor Overclocking Unit I:
     CpuOutputBonus2: 7.099999904632568
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 3.0
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.0499999523162842
-    TechLevel: 1.0
-    UpgradeCost: 150.0
+    TechLevel: 1
+    UpgradeCost: 150
   Large Processor Overclocking Unit II:
     CpuOutputBonus2: 9.600000381469727
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 3.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.100000023841858
-    TechLevel: 2.0
-    UpgradeCost: 300.0
+    TechLevel: 2
+    UpgradeCost: 300
   Large Semiconductor Memory Cell I:
-    CapacitorCapacityBonus: 15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 3.0
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Large Semiconductor Memory Cell II:
-    CapacitorCapacityBonus: 20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 3.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 3
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Medium Ancillary Current Router I:
-    Hp: 40.0
-    MaxGangModules: 3.0
+    Hp: 40
+    MaxGangModules: 3
     PowerEngineeringOutputBonus: 10.0
-    RigSize: 2.0
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Medium Ancillary Current Router II:
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
     PowerEngineeringOutputBonus: 15.0
-    RigSize: 2.0
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Medium Capacitor Control Circuit I:
     CapRechargeBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 2.0
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Medium Capacitor Control Circuit II:
     CapRechargeBonus: -20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 2.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Medium Command Processor I:
-    Hp: 40.0
-    MaxGangModules: 1.0
-    RigSize: 2.0
+    Hp: 40
+    MaxGangModules: 1
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 150.0
+    TechLevel: 1
+    UpgradeCost: 150
   Medium Egress Port Maximizer I:
-    CapNeedBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 2.0
+    CapNeedBonus: -15
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Medium Egress Port Maximizer II:
-    CapNeedBonus: -20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 2.0
+    CapNeedBonus: -20
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Medium Liquid Cooled Electronics I:
-    CpuNeedBonus: -10.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 2.0
+    CpuNeedBonus: -10
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Medium Liquid Cooled Electronics II:
-    CpuNeedBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 2.0
+    CpuNeedBonus: -15
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Medium Powergrid Subroutine Maximizer I:
-    CpuNeedBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 2.0
+    CpuNeedBonus: -15
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    TechLevel: 1
+    UpgradeCost: 50
   Medium Powergrid Subroutine Maximizer II:
-    CpuNeedBonus: -20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 2.0
+    CpuNeedBonus: -20
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    TechLevel: 2
+    UpgradeCost: 75
   Medium Processor Overclocking Unit I:
     CpuOutputBonus2: 7.099999904632568
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 2.0
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.0499999523162842
-    TechLevel: 1.0
-    UpgradeCost: 150.0
+    TechLevel: 1
+    UpgradeCost: 150
   Medium Processor Overclocking Unit II:
     CpuOutputBonus2: 9.600000381469727
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 2.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.100000023841858
-    TechLevel: 2.0
-    UpgradeCost: 300.0
+    TechLevel: 2
+    UpgradeCost: 300
   Medium Semiconductor Memory Cell I:
     CapacitorCapacityBonus: 15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 2.0
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Medium Semiconductor Memory Cell II:
     CapacitorCapacityBonus: 20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 2.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 2
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Small Ancillary Current Router I:
-    Hp: 40.0
-    MaxGangModules: 3.0
+    Hp: 40
+    MaxGangModules: 3
     PowerEngineeringOutputBonus: 10.0
-    RigSize: 1.0
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Small Ancillary Current Router II:
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
     PowerEngineeringOutputBonus: 15.0
-    RigSize: 1.0
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Small Capacitor Control Circuit I:
     CapRechargeBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 1.0
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Small Capacitor Control Circuit II:
     CapRechargeBonus: -20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 1.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Small Command Processor I:
-    Hp: 40.0
-    MaxGangModules: 1.0
-    RigSize: 1.0
+    Hp: 40
+    MaxGangModules: 1
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 150.0
+    TechLevel: 1
+    UpgradeCost: 150
   Small Egress Port Maximizer I:
-    CapNeedBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 1.0
+    CapNeedBonus: -15
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Small Egress Port Maximizer II:
-    CapNeedBonus: -20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 1.0
+    CapNeedBonus: -20
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Small Liquid Cooled Electronics I:
-    CpuNeedBonus: -10.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 1.0
+    CpuNeedBonus: -10
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Small Liquid Cooled Electronics II:
-    CpuNeedBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 1.0
+    CpuNeedBonus: -15
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150
   Small Powergrid Subroutine Maximizer I:
-    CpuNeedBonus: -15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 1.0
+    CpuNeedBonus: -15
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
+    TechLevel: 1
+    UpgradeCost: 50
   Small Powergrid Subroutine Maximizer II:
-    CpuNeedBonus: -20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 1.0
+    CpuNeedBonus: -20
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
+    TechLevel: 2
+    UpgradeCost: 75
   Small Processor Overclocking Unit I:
     CpuOutputBonus2: 7.099999904632568
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 1.0
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.0499999523162842
-    TechLevel: 1.0
-    UpgradeCost: 150.0
+    TechLevel: 1
+    UpgradeCost: 150
   Small Processor Overclocking Unit II:
     CpuOutputBonus2: 9.600000381469727
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 1.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.100000023841858
-    TechLevel: 2.0
-    UpgradeCost: 300.0
+    TechLevel: 2
+    UpgradeCost: 300
   Small Semiconductor Memory Cell I:
     CapacitorCapacityBonus: 15.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    RigSize: 1.0
+    Hp: 40
+    MaxGangModules: 3
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
+    TechLevel: 1
+    UpgradeCost: 100
   Small Semiconductor Memory Cell II:
     CapacitorCapacityBonus: 20.0
-    Hp: 40.0
-    MaxGangModules: 3.0
-    MetaLevel: 5.0
-    RigSize: 1.0
+    Hp: 40
+    MaxGangModules: 3
+    MetaLevel: 5
+    RigSize: 1
     ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
+    TechLevel: 2
+    UpgradeCost: 150

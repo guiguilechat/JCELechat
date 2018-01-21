@@ -2,7 +2,8 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
 import fr.guiguilechat.eveonline.model.sde.items.Item;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 
@@ -16,15 +17,15 @@ public abstract class Starbase
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double Hp;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * DO NOT MESS WITH
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StructureUniformity;
     /**
      * How long it takes to anchor or unanchor this object.
@@ -32,32 +33,32 @@ public abstract class Starbase
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(60000.0D)
-    public double AnchoringDelay;
+    @DefaultIntValue(60000)
+    public int AnchoringDelay;
     /**
      * If this module is in use and this attribute is 1, then offensive modules cannot be used on the ship if they apply modifiers for the duration of their effect. If this is put on a ship or NPC with value of 1, then the ship or NPC are immune to offensive modifiers (target jamming, tracking disruption etc.)
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DisallowOffensiveModifiers;
+    @DefaultIntValue(0)
+    public int DisallowOffensiveModifiers;
     /**
      * How long it takes to unanchor this object.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(60000.0D)
-    public double UnanchoringDelay;
+    @DefaultIntValue(60000)
+    public int UnanchoringDelay;
     /**
      * How long it takes to bring this object online.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(60000.0D)
-    public double OnliningDelay;
+    @DefaultIntValue(60000)
+    public int OnliningDelay;
 
     @Override
     public int getCategoryId() {

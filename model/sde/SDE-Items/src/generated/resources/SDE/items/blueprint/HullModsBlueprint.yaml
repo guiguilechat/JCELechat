@@ -1,69 +1,69 @@
 items:
   Civilian Expanded Cargohold Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Expanded Cargohold I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Expanded Cargohold II Blueprint:
-    Hp: 1.0
+    Hp: 1
     IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
+    TechLevel: 2
   Experimental Hyperspatial Accelerator Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Experimental Jump Drive Economizer Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Inertial Stabilizers I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Inertial Stabilizers II Blueprint:
-    Hp: 1.0
+    Hp: 1
     IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
+    TechLevel: 2
   Limited Expanded 'Archiver' Cargo Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Limited Hyperspatial Accelerator Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Limited Jump Drive Economizer Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Nanofiber Internal Structure I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Nanofiber Internal Structure II Blueprint:
-    Hp: 1.0
+    Hp: 1
     IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
+    TechLevel: 2
   Overdrive Injector System I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Overdrive Injector System II Blueprint:
-    Hp: 1.0
+    Hp: 1
     IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
+    TechLevel: 2
   Prototype Hyperspatial Accelerator Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Prototype Jump Drive Economizer Blueprint:
-    TechLevel: 1.0
+    TechLevel: 1
   Reinforced Bulkheads I Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Reinforced Bulkheads II Blueprint:
-    Hp: 1.0
+    Hp: 1
     IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
+    TechLevel: 2
   Synthetic Hull Conversion Inertia Stabilizers Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Synthetic Hull Conversion Nanofiber Structure Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Synthetic Hull Conversion Overdrive Injector Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1
   Synthetic Hull Conversion Reinforced Bulkheads Blueprint:
     IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
+    TechLevel: 1

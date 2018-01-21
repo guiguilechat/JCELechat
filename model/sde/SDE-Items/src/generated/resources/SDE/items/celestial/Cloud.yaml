@@ -21,7 +21,7 @@ items:
   Default Citadel X-Large Placement State: {}
   Drifter Hive Explosion: {}
   Drone Beacon:
-    Hp: 1.0E8
+    Hp: 100000000
   Dust Cloud: {}
   Dust Storm Environment: {}
   Dust Streak: {}

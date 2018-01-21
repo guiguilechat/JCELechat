@@ -1,25 +1,25 @@
 items:
   Defender Launcher I:
-    CanFitShipGroup01: 420.0
-    CanFitShipGroup02: 541.0
-    CanFitShipGroup03: 1534.0
-    CanFitShipGroup04: 1305.0
+    CanFitShipGroup01: 420
+    CanFitShipGroup02: 541
+    CanFitShipGroup03: 1534
+    CanFitShipGroup04: 1305
     CapacitorNeed: 50.0
-    ChargeGroup1: 88.0
-    ChargeRate: 1.0
+    ChargeGroup1: 88
+    ChargeRate: 1
     Cpu: 10.0
-    DisallowActivateInForcefield: 1.0
-    DisallowInEmpireSpace: 1.0
-    DisallowRepeatingActivation: 1.0
+    DisallowActivateInForcefield: 1
+    DisallowInEmpireSpace: 1
+    DisallowRepeatingActivation: 1
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    Hp: 40.0
-    MaxGroupFitted: 1.0
-    ModuleReactivationDelay: 120000.0
-    Power: 2.0
+    Hp: 40
+    MaxGroupFitted: 1
+    ModuleReactivationDelay: 120000
+    Power: 2
     ReloadTime: 10000.0
-    RequiredSkill1: 3323.0
-    RequiredSkill1Level: 1.0
-    Slots: 1.0
-    Speed: 5000.0
-    TechLevel: 1.0
-    TypeColorScheme: 11324.0
+    RequiredSkill1: 3323
+    RequiredSkill1Level: 1
+    Slots: 1
+    Speed: 5000
+    TechLevel: 1
+    TypeColorScheme: 11324

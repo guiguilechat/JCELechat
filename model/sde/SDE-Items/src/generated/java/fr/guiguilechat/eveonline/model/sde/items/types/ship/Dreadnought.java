@@ -3,7 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Ship;
@@ -19,111 +20,111 @@ public class Dreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill4;
+    @DefaultIntValue(0)
+    public int RequiredSkill4;
     /**
      * Required skill level for skill 4
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill4Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill4Level;
     /**
      * This defines the total capacity of fighters allowed in the fighter bay of the ship
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterCapacity;
+    @DefaultIntValue(0)
+    public int FighterCapacity;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RigSize;
+    @DefaultIntValue(0)
+    public int RigSize;
     /**
      * The number of low power slots on the ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double LowSlots;
+    @DefaultIntValue(0)
+    public int LowSlots;
     /**
      * special fuel bay capacity
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double SpecialFuelBayCapacity;
+    @DefaultIntValue(0)
+    public int SpecialFuelBayCapacity;
     /**
      * tbd
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MedSlots;
+    @DefaultIntValue(0)
+    public int MedSlots;
     /**
      * tbd
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HiSlots;
+    @DefaultIntValue(0)
+    public int HiSlots;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FwLpKill;
+    @DefaultIntValue(0)
+    public int FwLpKill;
     /**
      * Required skill level for skill 1
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * Required skill level for skill 2
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * Required skill level for skill 3
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill3Level;
+    @DefaultIntValue(0)
+    public int RequiredSkill3Level;
     /**
      * The resolution that the vessel can target other objects at.
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ScanResolution;
+    @DefaultIntValue(0)
+    public int ScanResolution;
     /**
      * Resistance against Remote Sensor Dampeners.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double SensorDampenerResistance;
     /**
      * Resistance against Remote Weapon Disruptors.
@@ -131,7 +132,7 @@ public class Dreadnought
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double WeaponDisruptionResistance;
     /**
      * Resistance against Target Painters
@@ -139,7 +140,7 @@ public class Dreadnought
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double TargetPainterResistance;
     /**
      * Resistance against Stasis Webifiers
@@ -147,7 +148,7 @@ public class Dreadnought
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double StasisWebifierResistance;
     /**
      * Impedance against Remote Repair (shield, armor, hull and energy).
@@ -155,7 +156,7 @@ public class Dreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double RemoteRepairImpedance;
     /**
      * scanning speed in milliseconds
@@ -163,23 +164,23 @@ public class Dreadnought
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double ScanSpeed;
+    @DefaultIntValue(0)
+    public int ScanSpeed;
     /**
      * Attribute on ship to make advanced command affect only ships that we want.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double AdvancedAgility;
+    @DefaultIntValue(1)
+    public int AdvancedAgility;
     /**
      * Impedance against Remote assistance (sensor boosters, tracking computers and ECCM).
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double RemoteAssistanceImpedance;
     /**
      *  1 = ship can use jump drive
@@ -187,23 +188,23 @@ public class Dreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double CanJump;
+    @DefaultIntValue(0)
+    public int CanJump;
     /**
      * Type that is used for consumption from cargo hold when activating jump drive operation.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double JumpDriveConsumptionType;
+    @DefaultIntValue(0)
+    public int JumpDriveConsumptionType;
     /**
      * Range in light years the ship can maximum jump to.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double JumpDriveRange;
     /**
      * Number of units it consumes per light year.
@@ -211,63 +212,63 @@ public class Dreadnought
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double JumpDriveConsumptionAmount;
+    @DefaultIntValue(0)
+    public int JumpDriveConsumptionAmount;
     /**
      * The amount of time before the ship actually jumps.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(300000.0D)
-    public double JumpDriveDuration;
+    @DefaultIntValue(300000)
+    public int JumpDriveDuration;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double AdvancedCapitalAgility;
+    @DefaultIntValue(1)
+    public int AdvancedCapitalAgility;
     /**
      * Attribute on ships used for ship upgrades
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double UpgradeCapacity;
+    @DefaultIntValue(0)
+    public int UpgradeCapacity;
     /**
      * The number of rig slots on the ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RigSlots;
+    @DefaultIntValue(0)
+    public int RigSlots;
     /**
      * The main color of a ship type.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MainColor;
+    @DefaultIntValue(0)
+    public int MainColor;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterAbilityKamikazeResistance;
+    @DefaultIntValue(0)
+    public int FighterAbilityKamikazeResistance;
     /**
      * Minimum capacitor need for jump drive operation from full capacitor in modifier%.
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double JumpDriveCapacitorNeed;
     /**
      * How many upgrades can by fitted to this ship.
@@ -275,55 +276,55 @@ public class Dreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double UpgradeSlotsLeft;
+    @DefaultIntValue(0)
+    public int UpgradeSlotsLeft;
     /**
      * Indicates whether a ship type has a ship maintenance bay.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HasShipMaintenanceBay;
+    @DefaultIntValue(0)
+    public int HasShipMaintenanceBay;
     /**
      * The capacity of the hangar in a ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipMaintenanceBayCapacity;
+    @DefaultIntValue(0)
+    public int ShipMaintenanceBayCapacity;
     /**
      * Whether this ship has fleet hangars.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double HasFleetHangars;
+    @DefaultIntValue(0)
+    public int HasFleetHangars;
     /**
      * The capacity of the fleet hangar.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FleetHangarCapacity;
+    @DefaultIntValue(0)
+    public int FleetHangarCapacity;
     /**
      * Deprecated.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double MaxDirectionalVelocity;
+    @DefaultIntValue(1)
+    public int MaxDirectionalVelocity;
     /**
      * Deprecated.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double MinTargetVelDmgMultiplier;
     /**
      * NOS override allows a nosferatu module to drain the target capacitor below the current ships capacitor level.
@@ -331,127 +332,127 @@ public class Dreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double NosOverride;
+    @DefaultIntValue(0)
+    public int NosOverride;
     /**
      * meta group of type
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MetaGroupID;
+    @DefaultIntValue(0)
+    public int MetaGroupID;
     /**
      * special corpse hold capacity
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double SpecialCorpseHoldCapacity;
+    @DefaultIntValue(0)
+    public int SpecialCorpseHoldCapacity;
     /**
      * This defines the total number of fighter launch tubes on the ship.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterTubes;
+    @DefaultIntValue(0)
+    public int FighterTubes;
     /**
      * Number of Light Fighters the ship can launch.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double FighterLightSlots;
+    @DefaultIntValue(0)
+    public int FighterLightSlots;
     /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DisallowInHighSec;
+    @DefaultIntValue(0)
+    public int DisallowInHighSec;
     /**
      * If greater than zero than the ship cannot activate gates. Set this to 0 on a type if you want it to be gate scramble-able.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(-1000.0D)
-    public double GateScrambleStatus;
+    @DefaultIntValue(-1000)
+    public int GateScrambleStatus;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill1;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill2;
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
     /**
      * The type ID of the skill that is required.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double RequiredSkill3;
+    @DefaultIntValue(0)
+    public int RequiredSkill3;
     /**
      * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultValue(0.1D)
-    public double FighterAbilityAntiCapitalMissileResistance;
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiCapitalMissileResistance;
     /**
      * The maximum distance at which the object can be used.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double MaxOperationalDistance;
+    @DefaultIntValue(0)
+    public int MaxOperationalDistance;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
-    public double EntosisDurationMultiplier;
+    @DefaultIntValue(1)
+    public int EntosisDurationMultiplier;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double JumpHarmonics;
+    @DefaultIntValue(0)
+    public int JumpHarmonics;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(0.0D)
-    public double TypeColorScheme;
+    @DefaultIntValue(0)
+    public int TypeColorScheme;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationHi;
     /**
      * Multiplied by Amarr Dreadnought skill level
@@ -459,23 +460,23 @@ public class Dreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusDreadnoughtA1;
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtA1;
     /**
      * Multiplied by Amarr Dreadnought skill level
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusDreadnoughtA2;
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtA2;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationMed;
     /**
      * Multiplied by Amarr Dreadnought skill level
@@ -483,15 +484,15 @@ public class Dreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusDreadnoughtA3;
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtA3;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double HeatAttenuationLow;
     /**
      * Multiplied by Caldari Dreadnought skill level
@@ -499,87 +500,87 @@ public class Dreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusDreadnoughtC1;
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtC1;
     /**
      * Multiplied by Caldari Dreadnought skill level
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusDreadnoughtC2;
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtC2;
     /**
      * Multiplied by Caldari Dreadnought skill level
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusDreadnoughtC3;
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtC3;
     /**
      * Multiplied by Gallente Dreadnought skill level
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusDreadnoughtG1;
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtG1;
     /**
      * Multiplied by Gallente Dreadnought skill level
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusDreadnoughtG2;
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtG2;
     /**
      * Multiplied by Gallente Dreadnought skill level
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusDreadnoughtG3;
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtG3;
     /**
      * Multiplied by Minmatar Dreadnought skill level
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusDreadnoughtM1;
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtM1;
     /**
      * Multiplied by Minmatar Dreadnought skill level
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusDreadnoughtM2;
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtM2;
     /**
      * Multiplied by Minmatar Dreadnought skill level
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusDreadnoughtM3;
+    @DefaultIntValue(0)
+    public int ShipBonusDreadnoughtM3;
     /**
      * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double IsCapitalSize;
+    @DefaultIntValue(0)
+    public int IsCapitalSize;
     /**
      * Ship Role Bonus. Not multiplied by skills.
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double ShipBonusRole1;
     /**
      * Ship Role Bonus. Not multiplied by skills.
@@ -587,15 +588,15 @@ public class Dreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusRole3;
+    @DefaultIntValue(0)
+    public int ShipBonusRole3;
     /**
      * Resistance against Energy Neutralizing and Nosferatu
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double EnergyWarfareResistance;
     /**
      * Ship Role Bonus. Not multiplied by skills.
@@ -603,8 +604,8 @@ public class Dreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double ShipBonusRole4;
+    @DefaultIntValue(0)
+    public int ShipBonusRole4;
     public final static String RESOURCE_PATH = "SDE/items/ship/Dreadnought.yaml";
     private static LinkedHashMap<String, Dreadnought> cache = (null);
 

@@ -1,49 +1,49 @@
 items:
   Focused Void Bomb:
     Agility: 2.5109991838689893E-5
-    AimedLaunch: 1.0
-    AoeCloudSize: 5000.0
-    ArmorHP: 600.0
-    DetonationRange: 35.0
-    DisallowInEmpireSpace: 1.0
+    AimedLaunch: 1
+    AoeCloudSize: 5000
+    ArmorHP: 600
+    DetonationRange: 35
+    DisallowInEmpireSpace: 1
     EmDamage: 7.0
-    EmpFieldRange: 1.0
-    EnergyNeutralizerAmount: 15000.0
-    ExplosionDelay: 15000.0
-    ExplosionRange: 1.0
+    EmpFieldRange: 1
+    EnergyNeutralizerAmount: 15000
+    ExplosionDelay: 15000
+    ExplosionRange: 1
     ExplosiveDamage: 7.0
-    Hp: 50.0
+    Hp: 50
     KineticDamage: 7.0
-    LauncherGroup: 862.0
+    LauncherGroup: 862
     MaxVelocity: 2000.0
-    RemoteResistanceID: 2045.0
-    RequiredSkill1: 28073.0
-    RequiredSkill1Level: 4.0
-    SignatureRadius: 400.0
+    RemoteResistanceID: 2045
+    RequiredSkill1: 28073
+    RequiredSkill1Level: 4
+    SignatureRadius: 400
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamage: 7.0
   Void Bomb:
     Agility: 2.5109991838689893E-5
-    AimedLaunch: 1.0
-    AoeCloudSize: 400.0
-    ArmorHP: 240.0
-    DetonationRange: 35.0
-    DisallowInEmpireSpace: 1.0
+    AimedLaunch: 1
+    AoeCloudSize: 400
+    ArmorHP: 240
+    DetonationRange: 35
+    DisallowInEmpireSpace: 1
     EmDamage: 7.0
-    EmpFieldRange: 15000.0
-    EnergyNeutralizerAmount: 1800.0
-    ExplosionDelay: 7500.0
-    ExplosionRange: 15000.0
+    EmpFieldRange: 15000
+    EnergyNeutralizerAmount: 1800
+    ExplosionDelay: 7500
+    ExplosionRange: 15000
     ExplosiveDamage: 7.0
-    Hp: 50.0
+    Hp: 50
     KineticDamage: 7.0
-    LauncherGroup: 862.0
+    LauncherGroup: 862
     MaxVelocity: 4000.0
-    RemoteResistanceID: 2045.0
-    RequiredSkill1: 28073.0
-    RequiredSkill1Level: 4.0
-    SignatureRadius: 400.0
+    RemoteResistanceID: 2045
+    RequiredSkill1: 28073
+    RequiredSkill1Level: 4
+    SignatureRadius: 400
     StructureUniformity: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamage: 7.0

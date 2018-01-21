@@ -1,293 +1,293 @@
 items:
   '''Gallows'' Light Missile Launcher':
-    ChargeGroup1: 384.0
-    ChargeGroup2: 394.0
-    ChargeRate: 1.0
+    ChargeGroup1: 384
+    ChargeGroup2: 394
+    ChargeRate: 1
     Cpu: 14.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.200000047683716
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadRofBonus: -15.0
-    Power: 5.0
+    Hp: 40
+    MetaGroupID: 3
+    MetaLevel: 6
+    OverloadRofBonus: -15
+    Power: 5
     ReloadTime: 10000.0
-    RequiredSkill1: 3321.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 12800.0
-    TechLevel: 1.0
-    TypeColorScheme: 20122.0
+    RequiredSkill1: 3321
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 12800
+    TechLevel: 1
+    TypeColorScheme: 20122
   Arbalest Compact Light Missile Launcher:
-    ChargeGroup1: 384.0
-    ChargeGroup2: 394.0
-    ChargeRate: 1.0
+    ChargeGroup1: 384
+    ChargeGroup2: 394
+    ChargeRate: 1
     Cpu: 16.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadRofBonus: -15.0
-    Power: 6.0
+    Hp: 40
+    MetaLevel: 1
+    OverloadRofBonus: -15
+    Power: 6
     ReloadTime: 10000.0
-    RequiredSkill1: 3321.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 13600.0
-    TechLevel: 1.0
-    TypeColorScheme: 20123.0
+    RequiredSkill1: 3321
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 13600
+    TechLevel: 1
+    TypeColorScheme: 20123
   CONCORD Light Missile Launcher:
-    ChargeGroup1: 384.0
-    ChargeGroup2: 394.0
-    ChargeRate: 1.0
+    ChargeGroup1: 384
+    ChargeGroup2: 394
+    ChargeRate: 1
     Cpu: 24.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.5999999046325684
-    Hp: 40.0
-    MetaLevel: 8.0
-    OverloadRofBonus: -15.0
-    Power: 5.0
+    Hp: 40
+    MetaLevel: 8
+    OverloadRofBonus: -15
+    Power: 5
     ReloadTime: 10000.0
-    RequiredSkill1: 3321.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 10000.0
-    TechLevel: 1.0
-    TypeColorScheme: 20111.0
+    RequiredSkill1: 3321
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 10000
+    TechLevel: 1
+    TypeColorScheme: 20111
   Caldari Navy Light Missile Launcher:
-    ChargeGroup1: 384.0
-    ChargeGroup2: 394.0
-    ChargeRate: 1.0
+    ChargeGroup1: 384
+    ChargeGroup2: 394
+    ChargeRate: 1
     Cpu: 20.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRofBonus: -15.0
-    Power: 5.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRofBonus: -15
+    Power: 5
     ReloadTime: 10000.0
-    RequiredSkill1: 3321.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 11200.0
-    TechLevel: 1.0
-    TypeColorScheme: 11321.0
+    RequiredSkill1: 3321
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 11200
+    TechLevel: 1
+    TypeColorScheme: 11321
   Civilian Light Missile Launcher:
-    ChargeGroup1: 384.0
-    ChargeGroup2: 394.0
-    ChargeRate: 1.0
+    ChargeGroup1: 384
+    ChargeGroup2: 394
+    ChargeRate: 1
     Cpu: 21.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    Hp: 40.0
-    Power: 6.0
+    Hp: 40
+    Power: 6
     ReloadTime: 10000.0
-    Slots: 1.0
-    Speed: 21000.0
-    TechLevel: 1.0
-    TypeColorScheme: 11324.0
+    Slots: 1
+    Speed: 21000
+    TechLevel: 1
+    TypeColorScheme: 11324
   Domination Light Missile Launcher:
-    ChargeGroup1: 384.0
-    ChargeGroup2: 394.0
-    ChargeRate: 1.0
+    ChargeGroup1: 384
+    ChargeGroup2: 394
+    ChargeRate: 1
     Cpu: 16.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRofBonus: -15.0
-    Power: 6.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRofBonus: -15
+    Power: 6
     ReloadTime: 10000.0
-    RequiredSkill1: 3321.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 11200.0
-    TechLevel: 1.0
-    TypeColorScheme: 11318.0
+    RequiredSkill1: 3321
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 11200
+    TechLevel: 1
+    TypeColorScheme: 11318
   Dread Guristas Light Missile Launcher:
-    ChargeGroup1: 384.0
-    ChargeGroup2: 394.0
-    ChargeRate: 1.0
+    ChargeGroup1: 384
+    ChargeGroup2: 394
+    ChargeRate: 1
     Cpu: 20.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRofBonus: -15.0
-    Power: 5.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRofBonus: -15
+    Power: 5
     ReloadTime: 10000.0
-    RequiredSkill1: 3321.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 11200.0
-    TechLevel: 1.0
-    TypeColorScheme: 11335.0
+    RequiredSkill1: 3321
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 11200
+    TechLevel: 1
+    TypeColorScheme: 11335
   Experimental TE-2100 Light Missile Launcher:
-    ChargeGroup1: 384.0
-    ChargeGroup2: 394.0
-    ChargeRate: 1.0
+    ChargeGroup1: 384
+    ChargeGroup2: 394
+    ChargeRate: 1
     Cpu: 21.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadRofBonus: -15.0
-    Power: 6.0
+    Hp: 40
+    MetaLevel: 1
+    OverloadRofBonus: -15
+    Power: 6
     ReloadTime: 10000.0
-    RequiredSkill1: 3321.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 13600.0
-    TechLevel: 1.0
-    TypeColorScheme: 20116.0
+    RequiredSkill1: 3321
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 13600
+    TechLevel: 1
+    TypeColorScheme: 20116
   Light Missile Launcher I:
-    ChargeGroup1: 384.0
-    ChargeGroup2: 394.0
-    ChargeRate: 1.0
+    ChargeGroup1: 384
+    ChargeGroup2: 394
+    ChargeRate: 1
     Cpu: 21.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.0
-    Hp: 40.0
-    OverloadRofBonus: -15.0
-    Power: 6.0
+    Hp: 40
+    OverloadRofBonus: -15
+    Power: 6
     ReloadTime: 10000.0
-    RequiredSkill1: 3321.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 16000.0
-    TechLevel: 1.0
-    TypeColorScheme: 11324.0
+    RequiredSkill1: 3321
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 16000
+    TechLevel: 1
+    TypeColorScheme: 11324
   Light Missile Launcher II:
-    ChargeGroup1: 384.0
-    ChargeGroup2: 394.0
-    ChargeGroup4: 653.0
-    ChargeRate: 1.0
+    ChargeGroup1: 384
+    ChargeGroup2: 394
+    ChargeGroup4: 653
+    ChargeRate: 1
     Cpu: 24.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 3.200000047683716
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadRofBonus: -15.0
-    Power: 7.0
+    Hp: 40
+    MetaLevel: 5
+    OverloadRofBonus: -15
+    Power: 7
     ReloadTime: 10000.0
-    RequiredSkill1: 3319.0
-    RequiredSkill1Level: 3.0
-    RequiredSkill2: 20210.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 12800.0
-    TechLevel: 2.0
-    TypeColorScheme: 11325.0
+    RequiredSkill1: 3319
+    RequiredSkill1Level: 3
+    RequiredSkill2: 20210
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 12800
+    TechLevel: 2
+    TypeColorScheme: 11325
   Prototype 'Arbalest' Light Missile Launcher:
-    ChargeGroup1: 384.0
-    ChargeGroup2: 394.0
-    ChargeRate: 1.0
+    ChargeGroup1: 384
+    ChargeGroup2: 394
+    ChargeRate: 1
     Cpu: 17.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadRofBonus: -15.0
-    Power: 6.0
+    Hp: 40
+    MetaLevel: 4
+    OverloadRofBonus: -15
+    Power: 6
     ReloadTime: 10000.0
-    RequiredSkill1: 3321.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 12000.0
-    TechLevel: 1.0
-    TypeColorScheme: 20113.0
+    RequiredSkill1: 3321
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 12000
+    TechLevel: 1
+    TypeColorScheme: 20113
   Republic Fleet Light Missile Launcher:
-    ChargeGroup1: 384.0
-    ChargeGroup2: 394.0
-    ChargeRate: 1.0
+    ChargeGroup1: 384
+    ChargeGroup2: 394
+    ChargeRate: 1
     Cpu: 16.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRofBonus: -15.0
-    Power: 6.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRofBonus: -15
+    Power: 6
     ReloadTime: 10000.0
-    RequiredSkill1: 3321.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 11200.0
-    TechLevel: 1.0
-    TypeColorScheme: 11339.0
+    RequiredSkill1: 3321
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 11200
+    TechLevel: 1
+    TypeColorScheme: 11339
   TE-2100 Ample Light Missile Launcher:
-    ChargeGroup1: 384.0
-    ChargeGroup2: 394.0
-    ChargeRate: 1.0
+    ChargeGroup1: 384
+    ChargeGroup2: 394
+    ChargeRate: 1
     Cpu: 21.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadRofBonus: -15.0
-    Power: 6.0
+    Hp: 40
+    MetaLevel: 1
+    OverloadRofBonus: -15
+    Power: 6
     ReloadTime: 10000.0
-    RequiredSkill1: 3321.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 13600.0
-    TechLevel: 1.0
-    TypeColorScheme: 20115.0
+    RequiredSkill1: 3321
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 13600
+    TechLevel: 1
+    TypeColorScheme: 20115
   True Sansha Light Missile Launcher:
-    ChargeGroup1: 384.0
-    ChargeGroup2: 394.0
-    ChargeRate: 1.0
+    ChargeGroup1: 384
+    ChargeGroup2: 394
+    ChargeRate: 1
     Cpu: 16.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadRofBonus: -15.0
-    Power: 6.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    OverloadRofBonus: -15
+    Power: 6
     ReloadTime: 10000.0
-    RequiredSkill1: 3321.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    Slots: 1.0
-    Speed: 11200.0
-    TechLevel: 1.0
-    TypeColorScheme: 11349.0
+    RequiredSkill1: 3321
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3319
+    RequiredSkill2Level: 1
+    RequiredThermoDynamicsSkill: 1
+    Slots: 1
+    Speed: 11200
+    TechLevel: 1
+    TypeColorScheme: 11349

@@ -1,119 +1,119 @@
 items:
   Armored Command:
-    DurationBonus: 10.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 168.0
+    DurationBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 168
     SkillTimeConstant: 2.0
   Armored Command Specialist:
-    CommandStrengthBonus: 10.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 20494.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
+    CommandStrengthBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    RequiredSkill2: 20494
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 168
     SkillTimeConstant: 5.0
   Command Burst Specialist:
-    PrimaryAttribute: 164.0
-    ReloadTimeBonus: -10.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 168.0
+    PrimaryAttribute: 164
+    ReloadTimeBonus: -10
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 168
     SkillTimeConstant: 6.0
   Fleet Command:
-    AreaOfEffectBonus: 5.0
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 11574.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 168.0
+    AreaOfEffectBonus: 5
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 164
+    RequiredSkill1: 11574
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 168
     SkillTimeConstant: 12.0
   Information Command:
-    DurationBonus: 10.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 168.0
+    DurationBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 168
     SkillTimeConstant: 2.0
   Information Command Specialist:
-    CommandStrengthBonus: 10.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 20495.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
+    CommandStrengthBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    RequiredSkill2: 20495
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 168
     SkillTimeConstant: 5.0
   Leadership:
-    AreaOfEffectBonus: 7.0
-    PrimaryAttribute: 164.0
-    SecondaryAttribute: 168.0
+    AreaOfEffectBonus: 7
+    PrimaryAttribute: 164
+    SecondaryAttribute: 168
     SkillTimeConstant: 1.0
   Mining Director:
-    CommandStrengthBonus: 10.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 22536.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
+    CommandStrengthBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    RequiredSkill2: 22536
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 168
     SkillTimeConstant: 5.0
   Mining Foreman:
-    DurationBonus: 10.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 168.0
+    DurationBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 168
     SkillTimeConstant: 2.0
   Shield Command:
-    DurationBonus: 10.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 168.0
+    DurationBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 168
     SkillTimeConstant: 2.0
   Shield Command Specialist:
-    CommandStrengthBonus: 10.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3350.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
+    CommandStrengthBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3350
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 168
     SkillTimeConstant: 5.0
   Skirmish Command:
-    DurationBonus: 10.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 1.0
-    SecondaryAttribute: 168.0
+    DurationBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 168
     SkillTimeConstant: 2.0
   Skirmish Command Specialist:
-    CommandStrengthBonus: 10.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3349.0
-    RequiredSkill2Level: 5.0
-    SecondaryAttribute: 168.0
+    CommandStrengthBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3349
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 168
     SkillTimeConstant: 5.0
   Spatial Phenomena Generation:
-    CanNotBeTrainedOnTrial: 1.0
-    DurationBonus: 10.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 24764.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3354.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 168.0
+    CanNotBeTrainedOnTrial: 1
+    DurationBonus: 10
+    PrimaryAttribute: 164
+    RequiredSkill1: 24764
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3354
+    RequiredSkill2Level: 4
+    SecondaryAttribute: 168
     SkillTimeConstant: 10.0
   Wing Command:
-    AreaOfEffectBonus: 6.0
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 5.0
-    SecondaryAttribute: 168.0
+    AreaOfEffectBonus: 6
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 164
+    RequiredSkill1: 3348
+    RequiredSkill1Level: 5
+    SecondaryAttribute: 168
     SkillTimeConstant: 8.0

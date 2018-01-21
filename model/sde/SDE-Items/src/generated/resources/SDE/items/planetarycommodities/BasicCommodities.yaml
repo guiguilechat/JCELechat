@@ -1,46 +1,46 @@
 items:
   Bacteria:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400
   Biofuels:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400
   Biomass:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400
   Chiral Structures:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400
   Electrolytes:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400
   Industrial Fibers:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400
   Oxidizing Compound:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400
   Oxygen:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400
   Plasmoids:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400
   Precious Metals:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400
   Proteins:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400
   Reactive Metals:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400
   Silicon:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400
   Toxic Metals:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400
   Water:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
+    ExportTaxMultiplier: 400
+    ImportTaxMultiplier: 400

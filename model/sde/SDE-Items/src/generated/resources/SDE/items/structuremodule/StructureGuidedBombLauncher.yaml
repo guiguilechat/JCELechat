@@ -1,19 +1,19 @@
 items:
   Standup Guided Bomb Launcher I:
-    CanFitShipGroup01: 1657.0
-    CanFitShipGroup02: 1404.0
-    CanFitShipGroup03: 1406.0
-    ChargeGroup1: 1548.0
-    ChargeRate: 1.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    ChargeGroup1: 1548
+    ChargeRate: 1
     Cpu: 3000.0
-    DeadspaceUnsafe: 2.0
-    DisallowInHighSec: 1.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    OnlineMaxSecurityClass: 1.0
-    Power: 275000.0
+    DeadspaceUnsafe: 2
+    DisallowInHighSec: 1
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    OnlineMaxSecurityClass: 1
+    Power: 275000
     ReloadTime: 0.009999999776482582
-    Slots: 1.0
-    Speed: 40000.0
-    StructureItemVisualFlag: 1.0
+    Slots: 1
+    Speed: 40000
+    StructureItemVisualFlag: 1

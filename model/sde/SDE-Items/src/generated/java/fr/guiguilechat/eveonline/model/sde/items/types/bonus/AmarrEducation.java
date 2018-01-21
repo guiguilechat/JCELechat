@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.bonus;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Bonus;
@@ -19,7 +19,7 @@ public class AmarrEducation
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CharismaSkillTrainingTimeMultiplierBonus;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Memory as the primary attribute.
@@ -27,7 +27,7 @@ public class AmarrEducation
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double MemorySkillTrainingTimeMultiplierBonus;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Perception as the primary attribute.
@@ -35,7 +35,7 @@ public class AmarrEducation
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double PerceptionSkillTrainingTimeMultiplierBonus;
     /**
      * Scales the capacitor need for fitted modules.
@@ -43,7 +43,7 @@ public class AmarrEducation
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
+    @DefaultDoubleValue(0.0D)
     public double CapacitorNeedMultiplier;
     /**
      * Factor to adjust module cpu need by.
@@ -51,7 +51,7 @@ public class AmarrEducation
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(1.0D)
+    @DefaultDoubleValue(1.0D)
     public double CpuMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/bonus/AmarrEducation.yaml";
     private static LinkedHashMap<String, AmarrEducation> cache = (null);

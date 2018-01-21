@@ -1,66 +1,63 @@
 items:
   Micro 'Vigor' Core Augmentation:
-    Cpu: 19.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    PowerIncrease: 12.0
-    RequiredSkill1: 3418.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 4
+    PowerIncrease: 12
+    RequiredSkill1: 3418
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Micro Auxiliary Power Core I:
     Cpu: 15.0
-    Hp: 40.0
-    PowerIncrease: 10.0
-    RequiredSkill1: 3418.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Hp: 40
+    PowerIncrease: 10
+    RequiredSkill1: 3418
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Micro Auxiliary Power Core II:
     Cpu: 18.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    PowerIncrease: 12.0
-    RequiredSkill1: 3418.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 2.0
+    Hp: 40
+    MetaLevel: 5
+    PowerIncrease: 12
+    RequiredSkill1: 3418
+    RequiredSkill1Level: 5
+    TechLevel: 2
   Micro B88 Core Augmentation:
-    Cpu: 17.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    PowerIncrease: 11.0
-    RequiredSkill1: 3418.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 2
+    PowerIncrease: 11
+    RequiredSkill1: 3418
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Micro K-Exhaust Core Augmentation:
-    Cpu: 23.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    PowerIncrease: 12.0
-    RequiredSkill1: 3418.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 3
+    PowerIncrease: 12
+    RequiredSkill1: 3418
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Navy Micro Auxiliary Power Core:
     Cpu: 18.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    PowerIncrease: 13.0
-    RequiredSkill1: 3418.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    PowerIncrease: 13
+    RequiredSkill1: 3418
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Thukker Micro Auxiliary Power Core:
     Cpu: 12.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    PowerIncrease: 12.0
-    RequiredSkill1: 3418.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    PowerIncrease: 12
+    RequiredSkill1: 3418
+    RequiredSkill1Level: 2
+    TechLevel: 1
   Vigor Compact Micro Auxiliary Power Core:
     Cpu: 12.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    PowerIncrease: 11.0
-    RequiredSkill1: 3418.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
+    Hp: 40
+    MetaLevel: 1
+    PowerIncrease: 11
+    RequiredSkill1: 3418
+    RequiredSkill1Level: 2
+    TechLevel: 1

@@ -1,71 +1,71 @@
 items:
   Armor Rigging:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 3.0
-    RigDrawbackBonus: -10.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 3
+    RigDrawbackBonus: -10
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Astronautics Rigging:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 3.0
-    RigDrawbackBonus: -10.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 3
+    RigDrawbackBonus: -10
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Drones Rigging:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 3.0
-    RigDrawbackBonus: -10.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 3
+    RigDrawbackBonus: -10
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Electronic Superiority Rigging:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 3.0
-    RigDrawbackBonus: -10.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 3
+    RigDrawbackBonus: -10
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Energy Weapon Rigging:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 3.0
-    RigDrawbackBonus: -10.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 3
+    RigDrawbackBonus: -10
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Hybrid Weapon Rigging:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 3.0
-    RigDrawbackBonus: -10.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 3
+    RigDrawbackBonus: -10
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Jury Rigging:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3392.0
-    RequiredSkill1Level: 3.0
-    RigDrawbackBonus: 10.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 3392
+    RequiredSkill1Level: 3
+    RigDrawbackBonus: 10
+    SecondaryAttribute: 166
     SkillTimeConstant: 2.0
   Launcher Rigging:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 3.0
-    RigDrawbackBonus: -10.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 3
+    RigDrawbackBonus: -10
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Projectile Weapon Rigging:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 3.0
-    RigDrawbackBonus: -10.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 3
+    RigDrawbackBonus: -10
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0
   Shield Rigging:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 26252.0
-    RequiredSkill1Level: 3.0
-    RigDrawbackBonus: -10.0
-    SecondaryAttribute: 166.0
+    PrimaryAttribute: 165
+    RequiredSkill1: 26252
+    RequiredSkill1Level: 3
+    RigDrawbackBonus: -10
+    SecondaryAttribute: 166
     SkillTimeConstant: 3.0

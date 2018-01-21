@@ -9,21 +9,21 @@ items:
     DamageMultiplier: 1.0
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
     MaxTargetRangeMultiplier: 1.0
-    ModuleReactivationDelay: 1.0
+    ModuleReactivationDelay: 1
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 100.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
   QA Cross Protocol Analyzer:
-    AccessDifficultyBonus: 1.0
+    AccessDifficultyBonus: 1
     ArmorHPMultiplier: 1.0
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -33,26 +33,26 @@ items:
     Duration: 1000.0
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
-    MaxRange: 250000.0
+    MaxRange: 250000
     MaxTargetRangeMultiplier: 1.0
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 21718.0
-    RequiredSkill2Level: 1.0
-    RequiredSkill3: 13278.0
-    RequiredSkill3Level: 1.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
+    RequiredSkill2: 21718
+    RequiredSkill2Level: 1
+    RequiredSkill3: 13278
+    RequiredSkill3Level: 1
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
-    VirusCoherence: 500.0
-    VirusElementSlots: 3.0
-    VirusStrength: 500.0
+    VirusCoherence: 500
+    VirusElementSlots: 3
+    VirusStrength: 500
   QA Damage Module:
     ArmorHPMultiplier: 1.0
     CapacitorCapacityMultiplier: 1.0
@@ -64,21 +64,21 @@ items:
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
     FalloffBonus: 5000.0
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
-    MaxLockedTargetsBonus: 20.0
+    MaxLockedTargetsBonus: 20
     MaxRangeBonus: 5000.0
     MaxTargetRangeMultiplier: 5.0
     MissileDamageMultiplierBonus: 20.0
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
     ScanResolutionBonus: 5000.0
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
     TrackingSpeedBonus: 5000.0
   QA Drone Mega Module:
@@ -92,23 +92,23 @@ items:
     CpuMultiplier: 1.0
     DamageMultiplier: 1.0
     DroneDamageBonus: 200.0
-    DroneRangeBonus: 1000000.0
+    DroneRangeBonus: 1000000
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
     FalloffBonus: 100.0
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
     MaxRangeBonus: 100.0
     MaxTargetRangeMultiplier: 1.0
-    Power: 1.0
+    Power: 1
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 100.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
     TrackingSpeedBonus: 100.0
   QA ECCM:
@@ -121,22 +121,22 @@ items:
     Duration: 5000.0
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
     MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
+    MetaLevel: 5
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
-    ScanGravimetricStrengthPercent: 1.0E7
-    ScanLadarStrengthPercent: 1.0E7
-    ScanMagnetometricStrengthPercent: 1.0E7
-    ScanRadarStrengthPercent: 1.0E7
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
+    ScanGravimetricStrengthPercent: 10000000
+    ScanLadarStrengthPercent: 10000000
+    ScanMagnetometricStrengthPercent: 10000000
+    ScanRadarStrengthPercent: 10000000
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
   QA ECM Burst:
     ArmorHPMultiplier: 1.0
@@ -147,16 +147,16 @@ items:
     CpuMultiplier: 1.0
     DamageMultiplier: 1.0
     Duration: 1000.0
-    EcmBurstRange: 125000.0
+    EcmBurstRange: 125000
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
-    MaxGroupActive: 1.0
+    MaxGroupActive: 1
     MaxTargetRangeMultiplier: 1.0
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
     ScanGravimetricStrengthBonus: 1000.0
     ScanLadarStrengthBonus: 1000.0
     ScanMagnetometricStrengthBonus: 1000.0
@@ -165,7 +165,7 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
   QA Immunity Module:
     ArmorHPMultiplier: 1.0
@@ -175,33 +175,33 @@ items:
     CargoCapacityMultiplier: 1.0
     CpuMultiplier: 1.0
     DamageMultiplier: 1.0
-    DisallowOffensiveModifiers: 1.0
+    DisallowOffensiveModifiers: 1
     EmDamageResistanceBonus: -100.0
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -100.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 40.0
+    Hp: 40
     KineticDamageResistanceBonus: -100.0
     KineticDamageResonanceMultiplier: 1.0
     MaxTargetRangeMultiplier: 1.0
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResistanceBonus: -100.0
     ThermalDamageResonanceMultiplier: 1.0
   QA Mega Module:
     AgilityMultiplier: -15.0
-    ArmorHPBonusAdd: 1500.0
+    ArmorHPBonusAdd: 1500
     ArmorHPMultiplier: 1.0
-    CapacitorBonus: 1500.0
+    CapacitorBonus: 1500
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 0.8500000238418579
-    CapacityBonus: 1500.0
+    CapacityBonus: 1500
     CargoCapacityMultiplier: 1.149999976158142
     Cpu: 1.0
     CpuMultiplier: 1.149999976158142
@@ -210,29 +210,29 @@ items:
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -15.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 40.0
+    Hp: 40
     ImplantBonusVelocity: 15.0
     KineticDamageResistanceBonus: -15.0
     KineticDamageResonanceMultiplier: 1.0
-    MassAddition: 200000.0
-    MaxLockedTargetsBonus: 3.0
+    MassAddition: 200000
+    MaxLockedTargetsBonus: 3
     MaxTargetRangeBonus: 15.0
     MaxTargetRangeMultiplier: 1.0
-    Power: 1.0
+    Power: 1
     PowerOutputMultiplier: 1.149999976158142
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
-    ScanGravimetricStrengthPercent: 40.0
-    ScanLadarStrengthPercent: 40.0
-    ScanMagnetometricStrengthPercent: 40.0
-    ScanRadarStrengthPercent: 40.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
+    ScanGravimetricStrengthPercent: 40
+    ScanLadarStrengthPercent: 40
+    ScanMagnetometricStrengthPercent: 40
+    ScanRadarStrengthPercent: 40
     ScanResolutionBonus: 15.0
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 0.8500000238418579
-    SignatureRadiusAdd: 150.0
+    SignatureRadiusAdd: 150
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.149999976158142
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResistanceBonus: -15.0
     ThermalDamageResonanceMultiplier: 1.0
   QA Mining Laser Upgrade:
@@ -244,19 +244,19 @@ items:
     DamageMultiplier: 1.0
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
     MaxTargetRangeMultiplier: 1.0
-    MiningAmountBonus: 100.0
-    MiningAmountBonusBonus: 100.0
+    MiningAmountBonus: 100
+    MiningAmountBonusBonus: 100
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
   QA Multiship Module - 10 Players:
     ArmorHPMultiplier: 10.0
@@ -267,21 +267,21 @@ items:
     DamageMultiplier: 10.0
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
     MaxTargetRangeMultiplier: 1.0
     MissileDamageMultiplierBonus: 10.0
     PowerOutputMultiplier: 1.0
-    RepairBonus: 1000.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
+    RepairBonus: 1000
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
     ShieldBonusMultiplier: 1000.0
     ShieldCapacityBonus: 1000.0
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 10.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 10.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
   QA Multiship Module - 20 Players:
     ArmorHPMultiplier: 20.0
@@ -292,21 +292,21 @@ items:
     DamageMultiplier: 20.0
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
     MaxTargetRangeMultiplier: 1.0
     MissileDamageMultiplierBonus: 20.0
     PowerOutputMultiplier: 1.0
-    RepairBonus: 2000.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
+    RepairBonus: 2000
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
     ShieldBonusMultiplier: 2000.0
     ShieldCapacityBonus: 2000.0
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 20.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 20.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
   QA Multiship Module - 40 Players:
     ArmorHPMultiplier: 40.0
@@ -317,21 +317,21 @@ items:
     DamageMultiplier: 40.0
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
     MaxTargetRangeMultiplier: 1.0
     MissileDamageMultiplierBonus: 40.0
     PowerOutputMultiplier: 1.0
-    RepairBonus: 4000.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
+    RepairBonus: 4000
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
     ShieldBonusMultiplier: 4000.0
     ShieldCapacityBonus: 4000.0
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 40.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 40.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
   QA Multiship Module - 5 Players:
     ArmorHPMultiplier: 5.0
@@ -342,21 +342,21 @@ items:
     DamageMultiplier: 5.0
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
     MaxTargetRangeMultiplier: 1.0
     MissileDamageMultiplierBonus: 5.0
     PowerOutputMultiplier: 1.0
-    RepairBonus: 500.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
+    RepairBonus: 500
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
     ShieldBonusMultiplier: 500.0
     ShieldCapacityBonus: 500.0
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 5.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 5.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
   QA Pacifier Burst:
     ArmorHPMultiplier: 1.0
@@ -367,23 +367,23 @@ items:
     CpuMultiplier: 1.0
     DamageMultiplier: 1.0
     Duration: 10000.0
-    EcmBurstRange: 150000.0
+    EcmBurstRange: 150000
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
     MaxTargetRangeMultiplier: 1.0
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
   QA Remote Armor Repair System - 5 Players:
-    ArmorDamageAmount: 1920.0
+    ArmorDamageAmount: 1920
     ArmorHPMultiplier: 1.0
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 252.0
@@ -397,22 +397,22 @@ items:
     ExplosiveDamageResonanceMultiplier: 1.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.5
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
-    MaxRange: 8400.0
+    MaxRange: 8400
     MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
+    MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
-    Power: 660.0
+    Power: 660
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
-    RequiredThermoDynamicsSkill: 1.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
+    RequiredThermoDynamicsSkill: 1
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamageResonanceMultiplier: 1.0
   QA Resistance Eliminator:
     ArmorHPMultiplier: 1.0
@@ -430,7 +430,7 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
   QA Scanning Module:
     ArmorHPMultiplier: 1.0
@@ -441,47 +441,46 @@ items:
     DamageMultiplier: 1.0
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
-    MaxScanDeviationModifierModule: -1000.0
+    MaxScanDeviationModifierModule: -1000
     MaxTargetRangeMultiplier: 1.0
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 2.0
-    RequiredSkill2: 9955.0
-    RequiredSkill2Level: 5.0
-    ScanDurationBonus: -95.0
-    ScanStrengthBonus: 1000.0
-    ScanStrengthBonusModule: 1000.0
+    RequiredSkill1: 3412
+    RequiredSkill1Level: 2
+    RequiredSkill2: 9955
+    RequiredSkill2Level: 5
+    ScanDurationBonus: -95
+    ScanStrengthBonus: 1000
+    ScanStrengthBonusModule: 1000
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
   QA Shield Extender:
     ArmorHPMultiplier: 1.0
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
-    CapacityBonus: 1000000.0
+    CapacityBonus: 1000000
     CargoCapacityMultiplier: 1.0
-    Cpu: 1.0
     CpuMultiplier: 1.0
     DamageMultiplier: 1.0
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 99999.0
+    Hp: 99999
     KineticDamageResonanceMultiplier: 1.0
     MaxTargetRangeMultiplier: 1.0
-    Power: 1.0
+    Power: 1
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
   QA Shield Transporter - 5 Players:
     ArmorHPMultiplier: 1.0
@@ -497,23 +496,23 @@ items:
     ExplosiveDamageResonanceMultiplier: 1.0
     HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 0.8999999761581421
-    Hp: 40.0
+    Hp: 40
     KineticDamageResonanceMultiplier: 1.0
     MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 5.0
+    MetaLevel: 5
     OverloadSelfDurationBonus: -15.0
-    Power: 192.0
+    Power: 192
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
-    RequiredThermoDynamicsSkill: 1.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
+    RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1920.0
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
-    ShieldTransferRange: 8400.0
+    ShieldTransferRange: 8400
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamageResonanceMultiplier: 1.0
   QA Smartbomb:
     ArmorHPMultiplier: 1.0
@@ -526,21 +525,21 @@ items:
     Duration: 3000.0
     EmDamage: 5000.0
     EmDamageResonanceMultiplier: 1.0
-    EmpFieldRange: 250000.0
+    EmpFieldRange: 250000
     ExplosiveDamage: 5000.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 99999.0
+    Hp: 99999
     KineticDamage: 5000.0
     KineticDamageResonanceMultiplier: 1.0
     MaxTargetRangeMultiplier: 1.0
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamage: 5000.0
     ThermalDamageResonanceMultiplier: 1.0
   QA SpaceAnchor:
@@ -550,21 +549,21 @@ items:
     CargoCapacityMultiplier: 1.0
     CpuMultiplier: 1.0
     DamageMultiplier: 1.0
-    DoesNotEmergencyWarp: 1.0
+    DoesNotEmergencyWarp: 1
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 99999.0
+    Hp: 99999
     KineticDamageResonanceMultiplier: 1.0
     MaxTargetRangeMultiplier: 1.0
-    MetaLevel: 20.0
+    MetaLevel: 20
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
   QA Speed Limiter Module:
     AgilityMultiplier: 9.999999717180685E-10
@@ -576,18 +575,18 @@ items:
     DamageMultiplier: 1.0
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 99999.0
+    Hp: 99999
     KineticDamageResonanceMultiplier: 1.0
     MassLimit: 1.0E10
     MaxTargetRangeMultiplier: 1.0
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
   QA Tracking Enhancer:
     ArmorHPMultiplier: 1.0
@@ -600,21 +599,21 @@ items:
     EmDamageResonanceMultiplier: 1.0
     ExplosiveDamageResonanceMultiplier: 1.0
     FalloffBonus: 5000.0
-    Hp: 100.0
+    Hp: 100
     KineticDamageResonanceMultiplier: 1.0
     MaxRangeBonus: 5000.0
     MaxTargetRangeMultiplier: 1.0
-    Power: 1.0
+    Power: 1
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3318.0
-    RequiredSkill2Level: 1.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3318
+    RequiredSkill2Level: 1
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamageResonanceMultiplier: 1.0
     TrackingSpeedBonus: 5000.0
   Tournament Smartbomb:
@@ -628,20 +627,20 @@ items:
     Duration: 1000.0
     EmDamage: 25.0
     EmDamageResonanceMultiplier: 1.0
-    EmpFieldRange: 250000.0
+    EmpFieldRange: 250000
     ExplosiveDamage: 25.0
     ExplosiveDamageResonanceMultiplier: 1.0
-    Hp: 99999.0
+    Hp: 99999
     KineticDamage: 25.0
     KineticDamageResonanceMultiplier: 1.0
     MaxTargetRangeMultiplier: 1.0
     PowerOutputMultiplier: 1.0
-    RequiredSkill1: 9955.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1: 9955
+    RequiredSkill1Level: 5
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     SpeedFactor: 1.0
     StructureHPMultiplier: 1.0
-    TechLevel: 1.0
+    TechLevel: 1
     ThermalDamage: 25.0
     ThermalDamageResonanceMultiplier: 1.0

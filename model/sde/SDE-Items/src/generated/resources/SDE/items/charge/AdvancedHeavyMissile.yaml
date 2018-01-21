@@ -1,209 +1,209 @@
 items:
   Inferno Fury Heavy Missile:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 241.0
+    AimedLaunch: 1
+    AoeCloudSize: 241
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 68.0
-    DetonationRange: 300.0
+    DetonationRange: 300
     EmDamageResonance: 1.0
-    ExplosionDelay: 4875.0
+    ExplosionDelay: 4875
     ExplosiveDamageResonance: 1.0
-    Hp: 120.0
+    Hp: 120
     KineticDamageResonance: 1.0
-    LauncherGroup: 510.0
+    LauncherGroup: 510
     MaxVelocity: 4300.0
-    MetaLevel: 5.0
-    RequiredSkill1: 20211.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3324.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 20211
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3324
+    RequiredSkill2Level: 5
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 5
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 191.0
     ThermalDamageResonance: 0.800000011920929
   Inferno Precision Heavy Missile:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 125.0
+    AimedLaunch: 1
+    AoeCloudSize: 125
     AoeDamageReductionFactor: 0.5830000042915344
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 97.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 3250.0
+    ExplosionDelay: 3250
     ExplosiveDamageResonance: 1.0
-    Hp: 120.0
+    Hp: 120
     KineticDamageResonance: 1.0
-    LauncherGroup: 510.0
+    LauncherGroup: 510
     MaxVelocity: 4300.0
-    MetaLevel: 5.0
-    RequiredSkill1: 20211.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3324.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 20211
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3324
+    RequiredSkill2Level: 5
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 5
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamage: 142.0
     ThermalDamageResonance: 0.800000011920929
   Mjolnir Fury Heavy Missile:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 241.0
+    AimedLaunch: 1
+    AoeCloudSize: 241
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 68.0
-    DetonationRange: 300.0
+    DetonationRange: 300
     EmDamage: 191.0
     EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 4875.0
+    ExplosionDelay: 4875
     ExplosiveDamageResonance: 1.0
-    Hp: 120.0
+    Hp: 120
     KineticDamageResonance: 1.0
-    LauncherGroup: 510.0
+    LauncherGroup: 510
     MaxVelocity: 4300.0
-    MetaLevel: 5.0
-    RequiredSkill1: 20211.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3324.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 20211
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3324
+    RequiredSkill2Level: 5
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 5
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamageResonance: 1.0
   Mjolnir Precision Heavy Missile:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 125.0
+    AimedLaunch: 1
+    AoeCloudSize: 125
     AoeDamageReductionFactor: 0.5830000042915344
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 97.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamage: 142.0
     EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 3250.0
+    ExplosionDelay: 3250
     ExplosiveDamageResonance: 1.0
-    Hp: 120.0
+    Hp: 120
     KineticDamageResonance: 1.0
-    LauncherGroup: 510.0
+    LauncherGroup: 510
     MaxVelocity: 4300.0
-    MetaLevel: 5.0
-    RequiredSkill1: 20211.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3324.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 20211
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3324
+    RequiredSkill2Level: 5
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 5
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamageResonance: 1.0
   Nova Fury Heavy Missile:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 241.0
+    AimedLaunch: 1
+    AoeCloudSize: 241
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 68.0
-    DetonationRange: 300.0
+    DetonationRange: 300
     EmDamageResonance: 1.0
-    ExplosionDelay: 4875.0
+    ExplosionDelay: 4875
     ExplosiveDamage: 191.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 120.0
+    Hp: 120
     KineticDamageResonance: 1.0
-    LauncherGroup: 510.0
+    LauncherGroup: 510
     MaxVelocity: 4300.0
-    MetaLevel: 5.0
-    RequiredSkill1: 20211.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3324.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 20211
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3324
+    RequiredSkill2Level: 5
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 5
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamageResonance: 1.0
   Nova Precision Heavy Missile:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 125.0
+    AimedLaunch: 1
+    AoeCloudSize: 125
     AoeDamageReductionFactor: 0.5830000042915344
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 97.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 3250.0
+    ExplosionDelay: 3250
     ExplosiveDamage: 142.0
     ExplosiveDamageResonance: 0.800000011920929
-    Hp: 120.0
+    Hp: 120
     KineticDamageResonance: 1.0
-    LauncherGroup: 510.0
+    LauncherGroup: 510
     MaxVelocity: 4300.0
-    MetaLevel: 5.0
-    RequiredSkill1: 20211.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3324.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 20211
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3324
+    RequiredSkill2Level: 5
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 5
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamageResonance: 1.0
   Scourge Fury Heavy Missile:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 241.0
+    AimedLaunch: 1
+    AoeCloudSize: 241
     AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 68.0
-    DetonationRange: 300.0
+    DetonationRange: 300
     EmDamageResonance: 1.0
-    ExplosionDelay: 4875.0
+    ExplosionDelay: 4875
     ExplosiveDamageResonance: 1.0
-    Hp: 120.0
+    Hp: 120
     KineticDamage: 191.0
     KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 510.0
+    LauncherGroup: 510
     MaxVelocity: 4300.0
-    MetaLevel: 5.0
-    RequiredSkill1: 20211.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3324.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 20211
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3324
+    RequiredSkill2Level: 5
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 5
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamageResonance: 1.0
   Scourge Precision Heavy Missile:
     Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 125.0
+    AimedLaunch: 1
+    AoeCloudSize: 125
     AoeDamageReductionFactor: 0.5830000042915344
-    AoeFalloff: 1500.0
+    AoeFalloff: 1500
     AoeVelocity: 97.0
-    DetonationRange: 35.0
+    DetonationRange: 35
     EmDamageResonance: 1.0
-    ExplosionDelay: 3250.0
+    ExplosionDelay: 3250
     ExplosiveDamageResonance: 1.0
-    Hp: 120.0
+    Hp: 120
     KineticDamage: 142.0
     KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 510.0
+    LauncherGroup: 510
     MaxVelocity: 4300.0
-    MetaLevel: 5.0
-    RequiredSkill1: 20211.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3324.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
+    MetaLevel: 5
+    RequiredSkill1: 20211
+    RequiredSkill1Level: 1
+    RequiredSkill2: 3324
+    RequiredSkill2Level: 5
+    RequiredSkill3: 3319
+    RequiredSkill3Level: 5
     StructureUniformity: 1.0
-    TechLevel: 2.0
+    TechLevel: 2
     ThermalDamageResonance: 1.0

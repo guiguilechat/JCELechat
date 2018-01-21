@@ -1,80 +1,80 @@
 items:
   Augumene:
-    AsteroidMaxRadius: 16255.0
+    AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1224.0
-    ReprocessingSkillType: 12192.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 1224
+    ReprocessingSkillType: 12192
+    RequiredSkill1: 3386
   Compressed Opulent Pyroxeres:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 4.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 46686.0
-    ReprocessingSkillType: 12192.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 46686
+    ReprocessingSkillType: 12192
+    RequiredSkill1: 3386
   Compressed Pyroxeres:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1224.0
-    ReprocessingSkillType: 12192.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 1224
+    ReprocessingSkillType: 12192
+    RequiredSkill1: 3386
   Compressed Solid Pyroxeres:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1224.0
-    ReprocessingSkillType: 12192.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 1224
+    ReprocessingSkillType: 12192
+    RequiredSkill1: 3386
   Compressed Viscous Pyroxeres:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1224.0
-    ReprocessingSkillType: 12192.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    OreBasicType: 1224
+    ReprocessingSkillType: 12192
+    RequiredSkill1: 3386
   Opulent Pyroxeres:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 4.0
+    AsteroidMaxRadius: 5000
+    AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 0.04500000178813934
-    AsteroidRadiusUnitSize: 600.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 46702.0
-    OreBasicType: 46686.0
-    ReprocessingSkillType: 12192.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 600
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 46702
+    OreBasicType: 46686
+    ReprocessingSkillType: 12192
+    RequiredSkill1: 3386
   Pyroxeres:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28424.0
-    OreBasicType: 1224.0
-    ReprocessingSkillType: 12192.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28424
+    OreBasicType: 1224
+    ReprocessingSkillType: 12192
+    RequiredSkill1: 3386
   Solid Pyroxeres:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28425.0
-    OreBasicType: 1224.0
-    ReprocessingSkillType: 12192.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28425
+    OreBasicType: 1224
+    ReprocessingSkillType: 12192
+    RequiredSkill1: 3386
   Viscous Pyroxeres:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMaxRadius: 16255
+    AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28426.0
-    OreBasicType: 1224.0
-    ReprocessingSkillType: 12192.0
-    RequiredSkill1: 3386.0
+    AsteroidRadiusUnitSize: 90
+    CompressionQuantityNeeded: 100
+    CompressionTypeID: 28426
+    OreBasicType: 1224
+    ReprocessingSkillType: 12192
+    RequiredSkill1: 3386

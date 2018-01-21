@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.infrastructureupgrades;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.InfrastructureUpgrades;
@@ -19,16 +19,16 @@ public class StrategicUpgrades
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double SovBillSystemCost;
+    @DefaultIntValue(0)
+    public int SovBillSystemCost;
     /**
      * The minimum required sovereignty index level
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultValue(0.0D)
-    public double DevIndexSovereignty;
+    @DefaultIntValue(0)
+    public int DevIndexSovereignty;
     public final static String RESOURCE_PATH = "SDE/items/infrastructureupgrades/StrategicUpgrades.yaml";
     private static LinkedHashMap<String, StrategicUpgrades> cache = (null);
 
