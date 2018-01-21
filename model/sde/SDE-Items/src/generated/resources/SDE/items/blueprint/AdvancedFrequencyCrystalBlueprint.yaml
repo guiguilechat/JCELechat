@@ -1,14 +1,26 @@
 items:
-  Conflagration L Blueprint:
+  Aurora L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2.0
-  Gleam M Blueprint:
+  Aurora M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2.0
-  Lux M Blueprint:
+  Aurora S Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Aurora XL Blueprint:
+    TechLevel: 2.0
+  Blaze L Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Blaze M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2.0
-  Gleam XL Blueprint:
+  Blaze S Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Conflagration L Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2.0
   Conflagration M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
@@ -16,48 +28,36 @@ items:
   Conflagration S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2.0
-  Lux L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Aurora S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
-  Scorch M Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
-  Aurora XL Blueprint:
+  Conflagration XL Blueprint:
     TechLevel: 2.0
   Gleam L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2.0
-  Conflagration XL Blueprint:
+  Gleam M Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2.0
-  Aurora M Blueprint:
+  Gleam S Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Gleam XL Blueprint:
+    TechLevel: 2.0
+  Lux L Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Lux M Blueprint:
+    IndustryBlueprintRank: 3.200000047683716
+    TechLevel: 2.0
+  Lux S Blueprint:
+    IndustryBlueprintRank: 1.600000023841858
+    TechLevel: 2.0
+  Scorch L Blueprint:
+    IndustryBlueprintRank: 4.800000190734863
+    TechLevel: 2.0
+  Scorch M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2.0
   Scorch S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2.0
-  Blaze S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
-  Aurora L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Blaze L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Scorch L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2.0
-  Gleam S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2.0
-  Blaze M Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2.0
   Scorch XL Blueprint:
-    TechLevel: 2.0
-  Lux S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2.0

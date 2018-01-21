@@ -1,27 +1,9 @@
 items:
-  Dread Guristas Co-Processor:
-    CpuMultiplier: 1.1399999856948853
+  '''Deuce'' Co-Processor I':
+    CpuMultiplier: 1.1200000047683716
     Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Kaikka's Modified Co-Processor:
-    CpuMultiplier: 1.159999966621399
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Vepas' Modified Co-Processor:
-    CpuMultiplier: 1.1799999475479126
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
     Power: 1.0
     RequiredSkill1: 3432.0
     RequiredSkill1Level: 1.0
@@ -35,43 +17,14 @@ items:
     RequiredSkill1: 3432.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Co-Processor I:
-    CpuMultiplier: 1.0800000429153442
+  Basic Co-Processor:
+    CpuMultiplier: 1.0700000524520874
     Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Nanomechanical CPU Enhancer:
-    CpuMultiplier: 1.065999984741211
-    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
     Power: 1.0
     RequiredSkill1: 3426.0
     RequiredSkill1Level: 2.0
-    TechLevel: 1.0
-  Nanoelectrical Co-Processor:
-    CpuMultiplier: 1.062999963760376
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
-  Cormack's Modified Co-Processor:
-    CpuMultiplier: 1.190000057220459
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Photonic CPU Enhancer I:
-    CpuMultiplier: 1.0839999914169312
-    Hp: 40.0
-    MetaLevel: 4.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
     TechLevel: 1.0
   Brynn's Modified Co-Processor:
     CpuMultiplier: 1.159999966621399
@@ -91,6 +44,48 @@ items:
     RequiredSkill1: 3432.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
+  Co-Processor I:
+    CpuMultiplier: 1.0800000429153442
+    Hp: 40.0
+    Power: 1.0
+    RequiredSkill1: 3432.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Co-Processor II:
+    CpuMultiplier: 1.100000023841858
+    Hp: 40.0
+    MetaLevel: 5.0
+    Power: 1.0
+    RequiredSkill1: 3432.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 2.0
+  Cormack's Modified Co-Processor:
+    CpuMultiplier: 1.190000057220459
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    Power: 1.0
+    RequiredSkill1: 3432.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Dread Guristas Co-Processor:
+    CpuMultiplier: 1.1399999856948853
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 1.0
+    RequiredSkill1: 3432.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Estamel's Modified Co-Processor:
+    CpuMultiplier: 1.190000057220459
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    Power: 1.0
+    RequiredSkill1: 3432.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
   Federation Navy Co-Processor:
     CpuMultiplier: 1.1399999856948853
     Hp: 40.0
@@ -99,6 +94,47 @@ items:
     Power: 1.0
     RequiredSkill1: 3432.0
     RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Kaikka's Modified Co-Processor:
+    CpuMultiplier: 1.159999966621399
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3432.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Khanid Navy Co-Processor:
+    CpuMultiplier: 1.1399999856948853
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    Power: 1.0
+    RequiredSkill1: 3432.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Naiyon's Modified Co-Processor:
+    CpuMultiplier: 1.159999966621399
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3432.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Nanoelectrical Co-Processor:
+    CpuMultiplier: 1.062999963760376
+    Hp: 40.0
+    Power: 1.0
+    RequiredSkill1: 3426.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Nanomechanical CPU Enhancer:
+    CpuMultiplier: 1.065999984741211
+    Hp: 40.0
+    Power: 1.0
+    RequiredSkill1: 3426.0
+    RequiredSkill1Level: 2.0
     TechLevel: 1.0
   Nanomechanical CPU Enhancer I:
     CpuMultiplier: 1.0770000219345093
@@ -115,29 +151,10 @@ items:
     RequiredSkill1: 3426.0
     RequiredSkill1Level: 2.0
     TechLevel: 1.0
-  Basic Co-Processor:
-    CpuMultiplier: 1.0700000524520874
+  Photonic CPU Enhancer I:
+    CpuMultiplier: 1.0839999914169312
     Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
-  Setele's Modified Co-Processor:
-    CpuMultiplier: 1.1799999475479126
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Naiyon's Modified Co-Processor:
-    CpuMultiplier: 1.159999966621399
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 11.0
+    MetaLevel: 4.0
     Power: 1.0
     RequiredSkill1: 3432.0
     RequiredSkill1Level: 1.0
@@ -150,29 +167,26 @@ items:
     RequiredSkill1: 3432.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  '''Deuce'' Co-Processor I':
-    CpuMultiplier: 1.1200000047683716
+  Quantum Co-Processor:
+    CpuMultiplier: 1.069000005722046
     Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
+    Power: 1.0
+    RequiredSkill1: 3426.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Quantum Co-Processor I:
+    CpuMultiplier: 1.0805000066757202
+    Hp: 40.0
+    MetaLevel: 3.0
     Power: 1.0
     RequiredSkill1: 3432.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Tuvan's Modified Co-Processor:
-    CpuMultiplier: 1.1699999570846558
+  Setele's Modified Co-Processor:
+    CpuMultiplier: 1.1799999475479126
     Hp: 40.0
     MetaGroupID: 5.0
-    MetaLevel: 12.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Khanid Navy Co-Processor:
-    CpuMultiplier: 1.1399999856948853
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    MetaLevel: 13.0
     Power: 1.0
     RequiredSkill1: 3432.0
     RequiredSkill1Level: 1.0
@@ -195,35 +209,21 @@ items:
     RequiredSkill1: 3432.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Estamel's Modified Co-Processor:
-    CpuMultiplier: 1.190000057220459
+  Tuvan's Modified Co-Processor:
+    CpuMultiplier: 1.1699999570846558
     Hp: 40.0
     MetaGroupID: 5.0
-    MetaLevel: 14.0
+    MetaLevel: 12.0
     Power: 1.0
     RequiredSkill1: 3432.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Co-Processor II:
-    CpuMultiplier: 1.100000023841858
+  Vepas' Modified Co-Processor:
+    CpuMultiplier: 1.1799999475479126
     Hp: 40.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 3432.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 2.0
-  Quantum Co-Processor I:
-    CpuMultiplier: 1.0805000066757202
-    Hp: 40.0
-    MetaLevel: 3.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
     Power: 1.0
     RequiredSkill1: 3432.0
     RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Quantum Co-Processor:
-    CpuMultiplier: 1.069000005722046
-    Hp: 40.0
-    Power: 1.0
-    RequiredSkill1: 3426.0
-    RequiredSkill1Level: 2.0
     TechLevel: 1.0

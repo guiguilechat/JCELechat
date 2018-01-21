@@ -6,37 +6,36 @@ items:
     TechLevel: 1.0
     UpgradeCost: 100.0
     VelocityBonus: 7.25
-  Capital Warp Core Optimizer I:
-    Drawback: 10.0
+  Capital Auxiliary Thrusters II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+    VelocityBonus: 8.75
+  Capital Cargohold Optimization I:
+    CargoCapacityBonus: 15.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Capital Cargohold Optimization II:
+    CargoCapacityBonus: 20.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Capital Dynamic Fuel Valve I:
+    CapNeedBonus: -15.0
+    Drawback: -10.0
     Hp: 40.0
     RigSize: 4.0
     TechLevel: 1.0
     UpgradeCost: 50.0
-    WarpCapacitorNeedBonus: -40.0
-  Medium Polycarbon Engine Housing II:
-    AgilityMultiplier: -11.0
-    Drawback: -10.0
-    Hp: 40.0
-    ImplantBonusVelocity: 6.599999904632568
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Small Hyperspatial Velocity Optimizer I:
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-    WarpSBonus: 20.0
-  Medium Auxiliary Thrusters II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-    VelocityBonus: 8.75
   Capital Dynamic Fuel Valve II:
     CapNeedBonus: -20.0
     Drawback: -10.0
@@ -45,227 +44,11 @@ items:
     RigSize: 4.0
     TechLevel: 2.0
     UpgradeCost: 75.0
-  Medium Cargohold Optimization I:
-    CargoCapacityBonus: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Propellant Injection Vent II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    SpeedFBonus: 20.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Medium Dynamic Fuel Valve I:
-    CapNeedBonus: -15.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Propellant Injection Vent I:
-    Drawback: -10.0
-    Hp: 40.0
-    SpeedFBonus: 15.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Medium Hyperspatial Velocity Optimizer II:
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-    WarpSBonus: 25.0
   Capital Engine Thermal Shielding I:
     Drawback: -10.0
     DurationBonus: 20.0
     Hp: 40.0
     RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Small Low Friction Nozzle Joints I:
-    AgilityBonus: -11.699999809265137
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Large Dynamic Fuel Valve II:
-    CapNeedBonus: -20.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Large Auxiliary Thrusters I:
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-    VelocityBonus: 7.25
-  Capital Cargohold Optimization I:
-    CargoCapacityBonus: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Large Engine Thermal Shielding II:
-    Drawback: -10.0
-    DurationBonus: 25.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Small Polycarbon Engine Housing II:
-    AgilityMultiplier: -11.0
-    Drawback: -10.0
-    Hp: 40.0
-    ImplantBonusVelocity: 6.599999904632568
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Large Cargohold Optimization I:
-    CargoCapacityBonus: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Large Low Friction Nozzle Joints I:
-    AgilityBonus: -11.699999809265137
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Large Warp Core Optimizer II:
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-    WarpCapacitorNeedBonus: -50.0
-  Large Hyperspatial Velocity Optimizer I:
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-    WarpSBonus: 20.0
-  Medium Low Friction Nozzle Joints I:
-    AgilityBonus: -11.699999809265137
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Medium Cargohold Optimization II:
-    CargoCapacityBonus: 20.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Medium Warp Core Optimizer I:
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-    WarpCapacitorNeedBonus: -40.0
-  Capital Low Friction Nozzle Joints II:
-    AgilityBonus: -14.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Small Engine Thermal Shielding II:
-    Drawback: -10.0
-    DurationBonus: 25.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Small Low Friction Nozzle Joints II:
-    AgilityBonus: -14.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Large Auxiliary Thrusters II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-    VelocityBonus: 8.75
-  Large Low Friction Nozzle Joints II:
-    AgilityBonus: -14.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Capital Dynamic Fuel Valve I:
-    CapNeedBonus: -15.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Small Dynamic Fuel Valve II:
-    CapNeedBonus: -20.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Medium Engine Thermal Shielding I:
-    Drawback: -10.0
-    DurationBonus: 20.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Capital Polycarbon Engine Housing I:
-    AgilityMultiplier: -9.100000381469727
-    Drawback: -10.0
-    Hp: 40.0
-    ImplantBonusVelocity: 5.5
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Medium Hyperspatial Velocity Optimizer I:
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-    WarpSBonus: 20.0
-  Small Dynamic Fuel Valve I:
-    CapNeedBonus: -15.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 1.0
     TechLevel: 1.0
     UpgradeCost: 50.0
   Capital Engine Thermal Shielding II:
@@ -276,192 +59,6 @@ items:
     RigSize: 4.0
     TechLevel: 2.0
     UpgradeCost: 75.0
-  Small Warp Core Optimizer II:
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-    WarpCapacitorNeedBonus: -50.0
-  Large Cargohold Optimization II:
-    CargoCapacityBonus: 20.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Medium Polycarbon Engine Housing I:
-    AgilityMultiplier: -9.100000381469727
-    Drawback: -10.0
-    Hp: 40.0
-    ImplantBonusVelocity: 5.5
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Small Warp Core Optimizer I:
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-    WarpCapacitorNeedBonus: -40.0
-  Small Engine Thermal Shielding I:
-    Drawback: -10.0
-    DurationBonus: 20.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Medium Auxiliary Thrusters I:
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 2.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-    VelocityBonus: 7.25
-  Medium Engine Thermal Shielding II:
-    Drawback: -10.0
-    DurationBonus: 25.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Medium Dynamic Fuel Valve II:
-    CapNeedBonus: -20.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Large Engine Thermal Shielding I:
-    Drawback: -10.0
-    DurationBonus: 20.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Capital Low Friction Nozzle Joints I:
-    AgilityBonus: -11.699999809265137
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 4.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Large Dynamic Fuel Valve I:
-    CapNeedBonus: -15.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-  Capital Polycarbon Engine Housing II:
-    AgilityMultiplier: -11.0
-    Drawback: -10.0
-    Hp: 40.0
-    ImplantBonusVelocity: 6.599999904632568
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Capital Cargohold Optimization II:
-    CargoCapacityBonus: 20.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Large Hyperspatial Velocity Optimizer II:
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-    WarpSBonus: 25.0
-  Large Warp Core Optimizer I:
-    Drawback: 10.0
-    Hp: 40.0
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 50.0
-    WarpCapacitorNeedBonus: -40.0
-  Medium Low Friction Nozzle Joints II:
-    AgilityBonus: -14.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 2.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-  Large Polycarbon Engine Housing I:
-    AgilityMultiplier: -9.100000381469727
-    Drawback: -10.0
-    Hp: 40.0
-    ImplantBonusVelocity: 5.5
-    RigSize: 3.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Capital Auxiliary Thrusters II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 4.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-    VelocityBonus: 8.75
-  Small Cargohold Optimization II:
-    CargoCapacityBonus: 20.0
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Small Hyperspatial Velocity Optimizer II:
-    Drawback: 10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 75.0
-    WarpSBonus: 25.0
-  Small Polycarbon Engine Housing I:
-    AgilityMultiplier: -9.100000381469727
-    Drawback: -10.0
-    Hp: 40.0
-    ImplantBonusVelocity: 5.5
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Large Polycarbon Engine Housing II:
-    AgilityMultiplier: -11.0
-    Drawback: -10.0
-    Hp: 40.0
-    ImplantBonusVelocity: 6.599999904632568
-    MetaLevel: 5.0
-    RigSize: 3.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-  Small Cargohold Optimization I:
-    CargoCapacityBonus: 15.0
-    Drawback: -10.0
-    Hp: 40.0
-    RigSize: 1.0
-    TechLevel: 1.0
-    UpgradeCost: 100.0
-  Small Auxiliary Thrusters II:
-    Drawback: -10.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    RigSize: 1.0
-    TechLevel: 2.0
-    UpgradeCost: 150.0
-    VelocityBonus: 8.75
   Capital Hyperspatial Velocity Optimizer I:
     Drawback: 10.0
     Hp: 40.0
@@ -477,13 +74,289 @@ items:
     TechLevel: 2.0
     UpgradeCost: 75.0
     WarpSBonus: 25.0
-  Small Auxiliary Thrusters I:
+  Capital Low Friction Nozzle Joints I:
+    AgilityBonus: -11.699999809265137
     Drawback: -10.0
     Hp: 40.0
-    RigSize: 1.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Capital Low Friction Nozzle Joints II:
+    AgilityBonus: -14.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Capital Polycarbon Engine Housing I:
+    AgilityMultiplier: -9.100000381469727
+    Drawback: -10.0
+    Hp: 40.0
+    ImplantBonusVelocity: 5.5
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Capital Polycarbon Engine Housing II:
+    AgilityMultiplier: -11.0
+    Drawback: -10.0
+    Hp: 40.0
+    ImplantBonusVelocity: 6.599999904632568
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Capital Warp Core Optimizer I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 4.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+    WarpCapacitorNeedBonus: -40.0
+  Capital Warp Core Optimizer II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 4.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+    WarpCapacitorNeedBonus: -50.0
+  Large Auxiliary Thrusters I:
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 3.0
     TechLevel: 1.0
     UpgradeCost: 100.0
     VelocityBonus: 7.25
+  Large Auxiliary Thrusters II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+    VelocityBonus: 8.75
+  Large Cargohold Optimization I:
+    CargoCapacityBonus: 15.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Large Cargohold Optimization II:
+    CargoCapacityBonus: 20.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Large Dynamic Fuel Valve I:
+    CapNeedBonus: -15.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Dynamic Fuel Valve II:
+    CapNeedBonus: -20.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Large Engine Thermal Shielding I:
+    Drawback: -10.0
+    DurationBonus: 20.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Engine Thermal Shielding II:
+    Drawback: -10.0
+    DurationBonus: 25.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Large Hyperspatial Velocity Optimizer I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+    WarpSBonus: 20.0
+  Large Hyperspatial Velocity Optimizer II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+    WarpSBonus: 25.0
+  Large Low Friction Nozzle Joints I:
+    AgilityBonus: -11.699999809265137
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Large Low Friction Nozzle Joints II:
+    AgilityBonus: -14.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Large Polycarbon Engine Housing I:
+    AgilityMultiplier: -9.100000381469727
+    Drawback: -10.0
+    Hp: 40.0
+    ImplantBonusVelocity: 5.5
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Large Polycarbon Engine Housing II:
+    AgilityMultiplier: -11.0
+    Drawback: -10.0
+    Hp: 40.0
+    ImplantBonusVelocity: 6.599999904632568
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Large Warp Core Optimizer I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 3.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+    WarpCapacitorNeedBonus: -40.0
+  Large Warp Core Optimizer II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 3.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+    WarpCapacitorNeedBonus: -50.0
+  Medium Auxiliary Thrusters I:
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+    VelocityBonus: 7.25
+  Medium Auxiliary Thrusters II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+    VelocityBonus: 8.75
+  Medium Cargohold Optimization I:
+    CargoCapacityBonus: 15.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Medium Cargohold Optimization II:
+    CargoCapacityBonus: 20.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Medium Dynamic Fuel Valve I:
+    CapNeedBonus: -15.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Medium Dynamic Fuel Valve II:
+    CapNeedBonus: -20.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Engine Thermal Shielding I:
+    Drawback: -10.0
+    DurationBonus: 20.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Medium Engine Thermal Shielding II:
+    Drawback: -10.0
+    DurationBonus: 25.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Hyperspatial Velocity Optimizer I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+    WarpSBonus: 20.0
+  Medium Hyperspatial Velocity Optimizer II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+    WarpSBonus: 25.0
+  Medium Low Friction Nozzle Joints I:
+    AgilityBonus: -11.699999809265137
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Medium Low Friction Nozzle Joints II:
+    AgilityBonus: -14.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Medium Polycarbon Engine Housing I:
+    AgilityMultiplier: -9.100000381469727
+    Drawback: -10.0
+    Hp: 40.0
+    ImplantBonusVelocity: 5.5
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Medium Polycarbon Engine Housing II:
+    AgilityMultiplier: -11.0
+    Drawback: -10.0
+    Hp: 40.0
+    ImplantBonusVelocity: 6.599999904632568
+    MetaLevel: 5.0
+    RigSize: 2.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Medium Warp Core Optimizer I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 2.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+    WarpCapacitorNeedBonus: -40.0
   Medium Warp Core Optimizer II:
     Drawback: 10.0
     Hp: 40.0
@@ -492,11 +365,138 @@ items:
     TechLevel: 2.0
     UpgradeCost: 75.0
     WarpCapacitorNeedBonus: -50.0
-  Capital Warp Core Optimizer II:
+  Propellant Injection Vent I:
+    Drawback: -10.0
+    Hp: 40.0
+    SpeedFBonus: 15.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Propellant Injection Vent II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    SpeedFBonus: 20.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Small Auxiliary Thrusters I:
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+    VelocityBonus: 7.25
+  Small Auxiliary Thrusters II:
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+    VelocityBonus: 8.75
+  Small Cargohold Optimization I:
+    CargoCapacityBonus: 15.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Small Cargohold Optimization II:
+    CargoCapacityBonus: 20.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Small Dynamic Fuel Valve I:
+    CapNeedBonus: -15.0
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Dynamic Fuel Valve II:
+    CapNeedBonus: -20.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small Engine Thermal Shielding I:
+    Drawback: -10.0
+    DurationBonus: 20.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Engine Thermal Shielding II:
+    Drawback: -10.0
+    DurationBonus: 25.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small Hyperspatial Velocity Optimizer I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+    WarpSBonus: 20.0
+  Small Hyperspatial Velocity Optimizer II:
     Drawback: 10.0
     Hp: 40.0
     MetaLevel: 5.0
-    RigSize: 4.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+    WarpSBonus: 25.0
+  Small Low Friction Nozzle Joints I:
+    AgilityBonus: -11.699999809265137
+    Drawback: -10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+  Small Low Friction Nozzle Joints II:
+    AgilityBonus: -14.0
+    Drawback: -10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 75.0
+  Small Polycarbon Engine Housing I:
+    AgilityMultiplier: -9.100000381469727
+    Drawback: -10.0
+    Hp: 40.0
+    ImplantBonusVelocity: 5.5
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 100.0
+  Small Polycarbon Engine Housing II:
+    AgilityMultiplier: -11.0
+    Drawback: -10.0
+    Hp: 40.0
+    ImplantBonusVelocity: 6.599999904632568
+    MetaLevel: 5.0
+    RigSize: 1.0
+    TechLevel: 2.0
+    UpgradeCost: 150.0
+  Small Warp Core Optimizer I:
+    Drawback: 10.0
+    Hp: 40.0
+    RigSize: 1.0
+    TechLevel: 1.0
+    UpgradeCost: 50.0
+    WarpCapacitorNeedBonus: -40.0
+  Small Warp Core Optimizer II:
+    Drawback: 10.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    RigSize: 1.0
     TechLevel: 2.0
     UpgradeCost: 75.0
     WarpCapacitorNeedBonus: -50.0

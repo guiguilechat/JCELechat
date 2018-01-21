@@ -1,5 +1,5 @@
 items:
-  Shield Command Burst II:
+  Armor Command Burst I:
     BuffDuration: 60000.0
     CanFitShipGroup01: 1534.0
     CanFitShipGroup02: 963.0
@@ -12,83 +12,7 @@ items:
     CanFitShipGroup09: 659.0
     CanFitShipGroup10: 30.0
     CapacitorNeed: 25.0
-    ChargeGroup1: 1769.0
-    ChargeRate: 1.0
-    Cpu: 55.0
-    DisallowActivateInForcefield: 1.0
-    DisallowDocking: 1.0
-    DisallowTethering: 1.0
-    Duration: 60000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupOnline: 1.0
-    MaxRange: 15000.0
-    MetaLevel: 5.0
-    Power: 110.0
-    ReloadTime: 60000.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3350.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3351.0
-    RequiredSkill3Level: 1.0
-    TechLevel: 2.0
-    WarfareBuff1Value: 1.25
-    WarfareBuff2Value: 1.25
-    WarfareBuff3Value: 1.25
-    WarfareBuff4Value: 1.25
-  Skirmish Command Burst II:
-    BuffDuration: 60000.0
-    CanFitShipGroup01: 1534.0
-    CanFitShipGroup02: 963.0
-    CanFitShipGroup03: 419.0
-    CanFitShipGroup04: 540.0
-    CanFitShipGroup05: 941.0
-    CanFitShipGroup06: 883.0
-    CanFitShipGroup07: 547.0
-    CanFitShipGroup08: 1538.0
-    CanFitShipGroup09: 659.0
-    CanFitShipGroup10: 30.0
-    CapacitorNeed: 25.0
-    ChargeGroup1: 1772.0
-    ChargeRate: 1.0
-    Cpu: 55.0
-    DisallowActivateInForcefield: 1.0
-    DisallowDocking: 1.0
-    DisallowTethering: 1.0
-    Duration: 60000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupOnline: 1.0
-    MaxRange: 15000.0
-    MetaLevel: 5.0
-    Power: 110.0
-    ReloadTime: 60000.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 3349.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 11572.0
-    RequiredSkill3Level: 1.0
-    TechLevel: 2.0
-    WarfareBuff1Value: 1.25
-    WarfareBuff2Value: 1.25
-    WarfareBuff3Value: 1.25
-    WarfareBuff4Value: 1.25
-  Information Command Burst I:
-    BuffDuration: 60000.0
-    CanFitShipGroup01: 1534.0
-    CanFitShipGroup02: 963.0
-    CanFitShipGroup03: 419.0
-    CanFitShipGroup04: 540.0
-    CanFitShipGroup05: 941.0
-    CanFitShipGroup06: 883.0
-    CanFitShipGroup07: 547.0
-    CanFitShipGroup08: 1538.0
-    CanFitShipGroup09: 659.0
-    CanFitShipGroup10: 30.0
-    CapacitorNeed: 25.0
-    ChargeGroup1: 1773.0
+    ChargeGroup1: 1774.0
     ChargeRate: 1.0
     Cpu: 50.0
     DisallowActivateInForcefield: 1.0
@@ -103,7 +27,7 @@ items:
     ReloadTime: 60000.0
     RequiredSkill1: 3348.0
     RequiredSkill1Level: 1.0
-    RequiredSkill2: 20495.0
+    RequiredSkill2: 20494.0
     RequiredSkill2Level: 1.0
     TechLevel: 1.0
     WarfareBuff1Value: 1.0
@@ -148,7 +72,7 @@ items:
     WarfareBuff2Value: 1.25
     WarfareBuff3Value: 1.25
     WarfareBuff4Value: 1.25
-  Shield Command Burst I:
+  Information Command Burst I:
     BuffDuration: 60000.0
     CanFitShipGroup01: 1534.0
     CanFitShipGroup02: 963.0
@@ -161,7 +85,7 @@ items:
     CanFitShipGroup09: 659.0
     CanFitShipGroup10: 30.0
     CapacitorNeed: 25.0
-    ChargeGroup1: 1769.0
+    ChargeGroup1: 1773.0
     ChargeRate: 1.0
     Cpu: 50.0
     DisallowActivateInForcefield: 1.0
@@ -176,14 +100,14 @@ items:
     ReloadTime: 60000.0
     RequiredSkill1: 3348.0
     RequiredSkill1Level: 1.0
-    RequiredSkill2: 3350.0
+    RequiredSkill2: 20495.0
     RequiredSkill2Level: 1.0
     TechLevel: 1.0
     WarfareBuff1Value: 1.0
     WarfareBuff2Value: 1.0
     WarfareBuff3Value: 1.0
     WarfareBuff4Value: 1.0
-  Skirmish Command Burst I:
+  Information Command Burst II:
     BuffDuration: 60000.0
     CanFitShipGroup01: 1534.0
     CanFitShipGroup02: 963.0
@@ -196,9 +120,9 @@ items:
     CanFitShipGroup09: 659.0
     CanFitShipGroup10: 30.0
     CapacitorNeed: 25.0
-    ChargeGroup1: 1772.0
+    ChargeGroup1: 1773.0
     ChargeRate: 1.0
-    Cpu: 50.0
+    Cpu: 55.0
     DisallowActivateInForcefield: 1.0
     DisallowDocking: 1.0
     DisallowTethering: 1.0
@@ -207,17 +131,20 @@ items:
     MaxGroupActive: 1.0
     MaxGroupOnline: 1.0
     MaxRange: 15000.0
-    Power: 100.0
+    MetaLevel: 5.0
+    Power: 110.0
     ReloadTime: 60000.0
     RequiredSkill1: 3348.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3349.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
-    WarfareBuff1Value: 1.0
-    WarfareBuff2Value: 1.0
-    WarfareBuff3Value: 1.0
-    WarfareBuff4Value: 1.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 20495.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3352.0
+    RequiredSkill3Level: 1.0
+    TechLevel: 2.0
+    WarfareBuff1Value: 1.25
+    WarfareBuff2Value: 1.25
+    WarfareBuff3Value: 1.25
+    WarfareBuff4Value: 1.25
   Mining Foreman Burst I:
     BuffDuration: 60000.0
     CanFitShipGroup01: 1534.0
@@ -247,41 +174,6 @@ items:
     RequiredSkill1: 3348.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 22536.0
-    RequiredSkill2Level: 1.0
-    TechLevel: 1.0
-    WarfareBuff1Value: 1.0
-    WarfareBuff2Value: 1.0
-    WarfareBuff3Value: 1.0
-    WarfareBuff4Value: 1.0
-  Armor Command Burst I:
-    BuffDuration: 60000.0
-    CanFitShipGroup01: 1534.0
-    CanFitShipGroup02: 963.0
-    CanFitShipGroup03: 419.0
-    CanFitShipGroup04: 540.0
-    CanFitShipGroup05: 941.0
-    CanFitShipGroup06: 883.0
-    CanFitShipGroup07: 547.0
-    CanFitShipGroup08: 1538.0
-    CanFitShipGroup09: 659.0
-    CanFitShipGroup10: 30.0
-    CapacitorNeed: 25.0
-    ChargeGroup1: 1774.0
-    ChargeRate: 1.0
-    Cpu: 50.0
-    DisallowActivateInForcefield: 1.0
-    DisallowDocking: 1.0
-    DisallowTethering: 1.0
-    Duration: 60000.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupOnline: 1.0
-    MaxRange: 15000.0
-    Power: 100.0
-    ReloadTime: 60000.0
-    RequiredSkill1: 3348.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 20494.0
     RequiredSkill2Level: 1.0
     TechLevel: 1.0
     WarfareBuff1Value: 1.0
@@ -326,7 +218,7 @@ items:
     WarfareBuff2Value: 1.25
     WarfareBuff3Value: 1.25
     WarfareBuff4Value: 1.25
-  Information Command Burst II:
+  Shield Command Burst I:
     BuffDuration: 60000.0
     CanFitShipGroup01: 1534.0
     CanFitShipGroup02: 963.0
@@ -339,7 +231,42 @@ items:
     CanFitShipGroup09: 659.0
     CanFitShipGroup10: 30.0
     CapacitorNeed: 25.0
-    ChargeGroup1: 1773.0
+    ChargeGroup1: 1769.0
+    ChargeRate: 1.0
+    Cpu: 50.0
+    DisallowActivateInForcefield: 1.0
+    DisallowDocking: 1.0
+    DisallowTethering: 1.0
+    Duration: 60000.0
+    Hp: 40.0
+    MaxGroupActive: 1.0
+    MaxGroupOnline: 1.0
+    MaxRange: 15000.0
+    Power: 100.0
+    ReloadTime: 60000.0
+    RequiredSkill1: 3348.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3350.0
+    RequiredSkill2Level: 1.0
+    TechLevel: 1.0
+    WarfareBuff1Value: 1.0
+    WarfareBuff2Value: 1.0
+    WarfareBuff3Value: 1.0
+    WarfareBuff4Value: 1.0
+  Shield Command Burst II:
+    BuffDuration: 60000.0
+    CanFitShipGroup01: 1534.0
+    CanFitShipGroup02: 963.0
+    CanFitShipGroup03: 419.0
+    CanFitShipGroup04: 540.0
+    CanFitShipGroup05: 941.0
+    CanFitShipGroup06: 883.0
+    CanFitShipGroup07: 547.0
+    CanFitShipGroup08: 1538.0
+    CanFitShipGroup09: 659.0
+    CanFitShipGroup10: 30.0
+    CapacitorNeed: 25.0
+    ChargeGroup1: 1769.0
     ChargeRate: 1.0
     Cpu: 55.0
     DisallowActivateInForcefield: 1.0
@@ -355,9 +282,82 @@ items:
     ReloadTime: 60000.0
     RequiredSkill1: 3348.0
     RequiredSkill1Level: 5.0
-    RequiredSkill2: 20495.0
+    RequiredSkill2: 3350.0
     RequiredSkill2Level: 5.0
-    RequiredSkill3: 3352.0
+    RequiredSkill3: 3351.0
+    RequiredSkill3Level: 1.0
+    TechLevel: 2.0
+    WarfareBuff1Value: 1.25
+    WarfareBuff2Value: 1.25
+    WarfareBuff3Value: 1.25
+    WarfareBuff4Value: 1.25
+  Skirmish Command Burst I:
+    BuffDuration: 60000.0
+    CanFitShipGroup01: 1534.0
+    CanFitShipGroup02: 963.0
+    CanFitShipGroup03: 419.0
+    CanFitShipGroup04: 540.0
+    CanFitShipGroup05: 941.0
+    CanFitShipGroup06: 883.0
+    CanFitShipGroup07: 547.0
+    CanFitShipGroup08: 1538.0
+    CanFitShipGroup09: 659.0
+    CanFitShipGroup10: 30.0
+    CapacitorNeed: 25.0
+    ChargeGroup1: 1772.0
+    ChargeRate: 1.0
+    Cpu: 50.0
+    DisallowActivateInForcefield: 1.0
+    DisallowDocking: 1.0
+    DisallowTethering: 1.0
+    Duration: 60000.0
+    Hp: 40.0
+    MaxGroupActive: 1.0
+    MaxGroupOnline: 1.0
+    MaxRange: 15000.0
+    Power: 100.0
+    ReloadTime: 60000.0
+    RequiredSkill1: 3348.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3349.0
+    RequiredSkill2Level: 1.0
+    TechLevel: 1.0
+    WarfareBuff1Value: 1.0
+    WarfareBuff2Value: 1.0
+    WarfareBuff3Value: 1.0
+    WarfareBuff4Value: 1.0
+  Skirmish Command Burst II:
+    BuffDuration: 60000.0
+    CanFitShipGroup01: 1534.0
+    CanFitShipGroup02: 963.0
+    CanFitShipGroup03: 419.0
+    CanFitShipGroup04: 540.0
+    CanFitShipGroup05: 941.0
+    CanFitShipGroup06: 883.0
+    CanFitShipGroup07: 547.0
+    CanFitShipGroup08: 1538.0
+    CanFitShipGroup09: 659.0
+    CanFitShipGroup10: 30.0
+    CapacitorNeed: 25.0
+    ChargeGroup1: 1772.0
+    ChargeRate: 1.0
+    Cpu: 55.0
+    DisallowActivateInForcefield: 1.0
+    DisallowDocking: 1.0
+    DisallowTethering: 1.0
+    Duration: 60000.0
+    Hp: 40.0
+    MaxGroupActive: 1.0
+    MaxGroupOnline: 1.0
+    MaxRange: 15000.0
+    MetaLevel: 5.0
+    Power: 110.0
+    ReloadTime: 60000.0
+    RequiredSkill1: 3348.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 3349.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 11572.0
     RequiredSkill3Level: 1.0
     TechLevel: 2.0
     WarfareBuff1Value: 1.25

@@ -1,7 +1,7 @@
 items:
-  Corpse Male:
+  Corpse Female:
     Hp: 10.0
     SignatureRadius: 50.0
-  Corpse Female:
+  Corpse Male:
     Hp: 10.0
     SignatureRadius: 50.0

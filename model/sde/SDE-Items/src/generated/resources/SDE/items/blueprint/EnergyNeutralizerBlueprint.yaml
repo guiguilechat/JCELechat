@@ -1,48 +1,42 @@
 items:
-  Capital Gremlin Compact Energy Neutralizer Blueprint:
-    IndustryBlueprintRank: 200.0
+  Ammatar Navy Heavy Energy Neutralizer Blueprint:
+    IndustryBlueprintRank: 9.0
     TechLevel: 1.0
-  Imperial Navy Medium Energy Neutralizer Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  Capital Energy Neutralizer II Blueprint:
-    IndustryBlueprintRank: 300.0
-    TechLevel: 2.0
   Ammatar Navy Medium Energy Neutralizer Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  Dark Blood Capital Energy Neutralizer Blueprint:
-    IndustryBlueprintRank: 400.0
-    TechLevel: 1.0
-  Small Energy Neutralizer I Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Medium Energy Neutralizer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1.0
   Ammatar Navy Small Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
-  Ammatar Navy Heavy Energy Neutralizer Blueprint:
+  Capital Energy Neutralizer I Blueprint:
+    IndustryBlueprintRank: 150.0
+    TechLevel: 1.0
+  Capital Energy Neutralizer II Blueprint:
+    IndustryBlueprintRank: 300.0
+    TechLevel: 2.0
+  Capital Gremlin Compact Energy Neutralizer Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  Capital Infectious Scoped Energy Neutralizer Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  Dark Blood Capital Energy Neutralizer Blueprint:
+    IndustryBlueprintRank: 400.0
+    TechLevel: 1.0
+  Heavy 'Moat' Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1.0
-  Small 'Caltrop' Energy Neutralizer Blueprint:
-    IndustryBlueprintRank: 3.0
+  Heavy Energy Neutralizer I Blueprint:
+    IndustryBlueprintRank: 9.0
     TechLevel: 1.0
   Heavy Energy Neutralizer II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2.0
-  Heavy Energy Neutralizer I Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
-  Small Energy Neutralizer II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
   Imperial Navy Heavy Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1.0
-  True Sansha Capital Energy Neutralizer Blueprint:
-    IndustryBlueprintRank: 400.0
+  Imperial Navy Medium Energy Neutralizer Blueprint:
+    IndustryBlueprintRank: 6.0
     TechLevel: 1.0
   Imperial Navy Small Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 3.0
@@ -50,15 +44,21 @@ items:
   Medium 'Ditch' Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1.0
-  Heavy 'Moat' Energy Neutralizer Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
-  Capital Energy Neutralizer I Blueprint:
-    IndustryBlueprintRank: 150.0
+  Medium Energy Neutralizer I Blueprint:
+    IndustryBlueprintRank: 6.0
     TechLevel: 1.0
   Medium Energy Neutralizer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2.0
-  Capital Infectious Scoped Energy Neutralizer Blueprint:
-    IndustryBlueprintRank: 200.0
+  Small 'Caltrop' Energy Neutralizer Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Small Energy Neutralizer I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Small Energy Neutralizer II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  True Sansha Capital Energy Neutralizer Blueprint:
+    IndustryBlueprintRank: 400.0
     TechLevel: 1.0

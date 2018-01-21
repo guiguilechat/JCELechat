@@ -1,5 +1,5 @@
 items:
-  Melted Snowball CX:
+  Melted Snowball CVII:
     Agility: 3000.0
     AimedLaunch: 1.0
     ArmorPiercingChance: 1.0
@@ -15,7 +15,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1.0
     ThermalDamage: -10.0
-  Melted Snowball CVII:
+  Melted Snowball CX:
     Agility: 3000.0
     AimedLaunch: 1.0
     ArmorPiercingChance: 1.0

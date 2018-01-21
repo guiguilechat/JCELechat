@@ -1,4 +1,18 @@
 items:
+  Dread Guristas Omnidirectional Tracking Enhancer:
+    AoeCloudSizeBonus: -6.300000190734863
+    AoeVelocityBonus: 6.300000190734863
+    Cpu: 8.0
+    FalloffBonus: 20.0
+    Hp: 40.0
+    MaxRangeBonus: 10.0
+    MetaGroupID: 4.0
+    MetaLevel: 6.0
+    Power: 1.0
+    RequiredSkill1: 23606.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 10.0
   Imperial Navy Omnidirectional Tracking Enhancer:
     AoeCloudSizeBonus: -6.300000190734863
     AoeVelocityBonus: 6.300000190734863
@@ -13,6 +27,44 @@ items:
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
     TrackingSpeedBonus: 10.0
+  N-JM Compact Omnidirectional Tracking Enhancer:
+    AoeCloudSizeBonus: -5.5
+    AoeVelocityBonus: 5.5
+    Cpu: 8.0
+    FalloffBonus: 16.5
+    Hp: 40.0
+    MaxRangeBonus: 8.25
+    MetaLevel: 1.0
+    Power: 1.0
+    RequiredSkill1: 23606.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 8.0
+  Omnidirectional Tracking Enhancer I:
+    AoeCloudSizeBonus: -4.400000095367432
+    AoeVelocityBonus: 4.400000095367432
+    Cpu: 10.0
+    FalloffBonus: 13.399999618530273
+    Hp: 40.0
+    MaxRangeBonus: 6.699999809265137
+    Power: 1.0
+    RequiredSkill1: 23606.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 7.0
+  Omnidirectional Tracking Enhancer II:
+    AoeCloudSizeBonus: -6.0
+    AoeVelocityBonus: 6.0
+    Cpu: 15.0
+    FalloffBonus: 20.0
+    Hp: 40.0
+    MaxRangeBonus: 10.0
+    MetaLevel: 5.0
+    Power: 1.0
+    RequiredSkill1: 23606.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 2.0
+    TrackingSpeedBonus: 9.5
   Sentient Omnidirectional Tracking Enhancer:
     AoeCloudSizeBonus: -6.300000190734863
     AoeVelocityBonus: 6.300000190734863
@@ -27,58 +79,6 @@ items:
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
     TrackingSpeedBonus: 10.0
-  Unit P-343554's Modified Omnidirectional Tracking Enhancer:
-    AoeCloudSizeBonus: -11.024999618530273
-    AoeVelocityBonus: 11.024999618530273
-    Cpu: 16.0
-    FalloffBonus: 23.0
-    Hp: 40.0
-    MaxRangeBonus: 11.5
-    MetaGroupID: 5.0
-    MetaLevel: 15.0
-    Power: 1.0
-    RequiredSkill1: 23606.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: 17.5
-  N-JM Compact Omnidirectional Tracking Enhancer:
-    AoeCloudSizeBonus: -5.5
-    AoeVelocityBonus: 5.5
-    Cpu: 8.0
-    FalloffBonus: 16.5
-    Hp: 40.0
-    MaxRangeBonus: 8.25
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill1: 23606.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: 8.0
-  Omnidirectional Tracking Enhancer II:
-    AoeCloudSizeBonus: -6.0
-    AoeVelocityBonus: 6.0
-    Cpu: 15.0
-    FalloffBonus: 20.0
-    Hp: 40.0
-    MaxRangeBonus: 10.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 23606.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 2.0
-    TrackingSpeedBonus: 9.5
-  Omnidirectional Tracking Enhancer I:
-    AoeCloudSizeBonus: -4.400000095367432
-    AoeVelocityBonus: 4.400000095367432
-    Cpu: 10.0
-    FalloffBonus: 13.399999618530273
-    Hp: 40.0
-    MaxRangeBonus: 6.699999809265137
-    Power: 1.0
-    RequiredSkill1: 23606.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: 7.0
   Unit D-34343's Modified Omnidirectional Tracking Enhancer:
     AoeCloudSizeBonus: -7.875
     AoeVelocityBonus: 7.875
@@ -107,20 +107,20 @@ items:
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
     TrackingSpeedBonus: 15.0
-  Dread Guristas Omnidirectional Tracking Enhancer:
-    AoeCloudSizeBonus: -6.300000190734863
-    AoeVelocityBonus: 6.300000190734863
-    Cpu: 8.0
-    FalloffBonus: 20.0
+  Unit P-343554's Modified Omnidirectional Tracking Enhancer:
+    AoeCloudSizeBonus: -11.024999618530273
+    AoeVelocityBonus: 11.024999618530273
+    Cpu: 16.0
+    FalloffBonus: 23.0
     Hp: 40.0
-    MaxRangeBonus: 10.0
-    MetaGroupID: 4.0
-    MetaLevel: 6.0
+    MaxRangeBonus: 11.5
+    MetaGroupID: 5.0
+    MetaLevel: 15.0
     Power: 1.0
     RequiredSkill1: 23606.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-    TrackingSpeedBonus: 10.0
+    TrackingSpeedBonus: 17.5
   Unit W-634's Modified Omnidirectional Tracking Enhancer:
     AoeCloudSizeBonus: -12.600000381469727
     AoeVelocityBonus: 12.600000381469727

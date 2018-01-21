@@ -1,28 +1,28 @@
 items:
-  Serpentis Defender: {}
-  Guardian Protector: {}
-  Serpentis Agent: {}
-  Crook Patroller: {}
-  Serpentis Scout: {}
-  Guardian Scout: {}
-  Guardian Safeguard: {}
-  Guardian Watchman: {}
-  Crook Defender: {}
-  Serpentis Spy: {}
-  Guardian Guard: {}
-  Crook Safeguard: {}
-  Crook Guard: {}
-  Serpentis Patroller: {}
   Crook Agent: {}
-  Serpentis Initiate: {}
+  Crook Defender: {}
+  Crook Guard: {}
+  Crook Patroller: {}
+  Crook Protector: {}
+  Crook Safeguard: {}
+  Crook Spy: {}
+  Crook Watchman: {}
   Guardian Agent: {}
   Guardian Defender: {}
-  Crook Watchman: {}
-  Serpentis Safeguard: {}
-  Serpentis Watchman: {}
-  Serpentis Protector: {}
+  Guardian Guard: {}
   Guardian Initiate: {}
   Guardian Patroller: {}
+  Guardian Protector: {}
+  Guardian Safeguard: {}
+  Guardian Scout: {}
   Guardian Spy: {}
-  Crook Protector: {}
-  Crook Spy: {}
+  Guardian Watchman: {}
+  Serpentis Agent: {}
+  Serpentis Defender: {}
+  Serpentis Initiate: {}
+  Serpentis Patroller: {}
+  Serpentis Protector: {}
+  Serpentis Safeguard: {}
+  Serpentis Scout: {}
+  Serpentis Spy: {}
+  Serpentis Watchman: {}

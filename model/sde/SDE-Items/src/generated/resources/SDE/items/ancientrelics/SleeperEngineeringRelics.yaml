@@ -1,7 +1,7 @@
 items:
-  Wrecked Power Cores:
-    IndustryBlueprintRank: 2.0
   Intact Power Cores:
     IndustryBlueprintRank: 2.0
   Malfunctioning Power Cores:
+    IndustryBlueprintRank: 2.0
+  Wrecked Power Cores:
     IndustryBlueprintRank: 2.0

@@ -1,24 +1,16 @@
 items:
-  Armor Explosive Resistance Script:
-    ChargeSize: 1.0
-    EmDamageResistanceBonusBonus: -100.0
-    ExplosiveDamageResistanceBonusBonus: 200.0
-    KineticDamageResistanceBonusBonus: -100.0
-    LauncherGroup: 1699.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonusBonus: -100.0
-  Armor Thermal Resistance Script:
-    ChargeSize: 1.0
-    EmDamageResistanceBonusBonus: -100.0
-    ExplosiveDamageResistanceBonusBonus: -100.0
-    KineticDamageResistanceBonusBonus: -100.0
-    LauncherGroup: 1699.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonusBonus: 200.0
   Armor EM Resistance Script:
     ChargeSize: 1.0
     EmDamageResistanceBonusBonus: 200.0
     ExplosiveDamageResistanceBonusBonus: -100.0
+    KineticDamageResistanceBonusBonus: -100.0
+    LauncherGroup: 1699.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonusBonus: -100.0
+  Armor Explosive Resistance Script:
+    ChargeSize: 1.0
+    EmDamageResistanceBonusBonus: -100.0
+    ExplosiveDamageResistanceBonusBonus: 200.0
     KineticDamageResistanceBonusBonus: -100.0
     LauncherGroup: 1699.0
     TechLevel: 1.0
@@ -31,3 +23,11 @@ items:
     LauncherGroup: 1699.0
     TechLevel: 1.0
     ThermalDamageResistanceBonusBonus: -100.0
+  Armor Thermal Resistance Script:
+    ChargeSize: 1.0
+    EmDamageResistanceBonusBonus: -100.0
+    ExplosiveDamageResistanceBonusBonus: -100.0
+    KineticDamageResistanceBonusBonus: -100.0
+    LauncherGroup: 1699.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonusBonus: 200.0

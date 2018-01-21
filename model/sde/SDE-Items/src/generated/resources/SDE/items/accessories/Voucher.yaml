@@ -1,4 +1,7 @@
 items:
+  Bookmark:
+    CapacitorRechargeRateMultiplier: 1.0
+    StructureUniformity: 1.0
   Company Shares:
     Agility: 1000.0
     AoeCloudSize: 150.0
@@ -14,9 +17,6 @@ items:
     RequiredSkill1Level: 4.0
     RequiredSkill2: 3319.0
     RequiredSkill2Level: 1.0
-    StructureUniformity: 1.0
-  Bookmark:
-    CapacitorRechargeRateMultiplier: 1.0
     StructureUniformity: 1.0
   Loyalty Points:
     CapacitorRechargeRateMultiplier: 1.0

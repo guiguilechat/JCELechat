@@ -1,9 +1,39 @@
 items:
-  Thukker Micro Auxiliary Power Core:
-    Cpu: 12.0
+  Micro 'Vigor' Core Augmentation:
+    Cpu: 19.0
     Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    MetaLevel: 4.0
+    PowerIncrease: 12.0
+    RequiredSkill1: 3418.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Micro Auxiliary Power Core I:
+    Cpu: 15.0
+    Hp: 40.0
+    PowerIncrease: 10.0
+    RequiredSkill1: 3418.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Micro Auxiliary Power Core II:
+    Cpu: 18.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    PowerIncrease: 12.0
+    RequiredSkill1: 3418.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 2.0
+  Micro B88 Core Augmentation:
+    Cpu: 17.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    PowerIncrease: 11.0
+    RequiredSkill1: 3418.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Micro K-Exhaust Core Augmentation:
+    Cpu: 23.0
+    Hp: 40.0
+    MetaLevel: 3.0
     PowerIncrease: 12.0
     RequiredSkill1: 3418.0
     RequiredSkill1Level: 2.0
@@ -17,49 +47,19 @@ items:
     RequiredSkill1: 3418.0
     RequiredSkill1Level: 2.0
     TechLevel: 1.0
-  Micro Auxiliary Power Core II:
-    Cpu: 18.0
+  Thukker Micro Auxiliary Power Core:
+    Cpu: 12.0
     Hp: 40.0
-    MetaLevel: 5.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
     PowerIncrease: 12.0
     RequiredSkill1: 3418.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 2.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
   Vigor Compact Micro Auxiliary Power Core:
     Cpu: 12.0
     Hp: 40.0
     MetaLevel: 1.0
-    PowerIncrease: 11.0
-    RequiredSkill1: 3418.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
-  Micro Auxiliary Power Core I:
-    Cpu: 15.0
-    Hp: 40.0
-    PowerIncrease: 10.0
-    RequiredSkill1: 3418.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
-  Micro K-Exhaust Core Augmentation:
-    Cpu: 23.0
-    Hp: 40.0
-    MetaLevel: 3.0
-    PowerIncrease: 12.0
-    RequiredSkill1: 3418.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
-  Micro 'Vigor' Core Augmentation:
-    Cpu: 19.0
-    Hp: 40.0
-    MetaLevel: 4.0
-    PowerIncrease: 12.0
-    RequiredSkill1: 3418.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
-  Micro B88 Core Augmentation:
-    Cpu: 17.0
-    Hp: 40.0
-    MetaLevel: 2.0
     PowerIncrease: 11.0
     RequiredSkill1: 3418.0
     RequiredSkill1Level: 2.0

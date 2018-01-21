@@ -1,12 +1,10 @@
 items:
-  Jaspet:
+  Compressed Immaculate Jaspet:
     AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 4.0
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28406.0
-    OreBasicType: 1226.0
+    OreBasicType: 46682.0
     ReprocessingSkillType: 12187.0
     RequiredSkill1: 3386.0
   Compressed Jaspet:
@@ -17,27 +15,24 @@ items:
     OreBasicType: 1226.0
     ReprocessingSkillType: 12187.0
     RequiredSkill1: 3386.0
-  Pristine Jaspet:
+  Compressed Pristine Jaspet:
     AsteroidMaxRadius: 16255.0
     AsteroidMetaLevel: 3.0
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28407.0
     OreBasicType: 1226.0
-    ReprocessingSkillType: 12187.0
-    RequiredSkill1: 3386.0
-  Compressed Immaculate Jaspet:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 4.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 46682.0
     ReprocessingSkillType: 12187.0
     RequiredSkill1: 3386.0
   Compressed Pure Jaspet:
     AsteroidMaxRadius: 16255.0
     AsteroidMetaLevel: 2.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 1226.0
+    ReprocessingSkillType: 12187.0
+    RequiredSkill1: 3386.0
+  Flawed Jaspet:
+    AsteroidMaxRadius: 16255.0
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90.0
     OreBasicType: 1226.0
@@ -53,28 +48,13 @@ items:
     OreBasicType: 46682.0
     ReprocessingSkillType: 12187.0
     RequiredSkill1: 3386.0
-  Pure Jaspet:
+  Jaspet:
     AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMetaLevel: 1.0
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90.0
     CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28408.0
-    OreBasicType: 1226.0
-    ReprocessingSkillType: 12187.0
-    RequiredSkill1: 3386.0
-  Flawed Jaspet:
-    AsteroidMaxRadius: 16255.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1226.0
-    ReprocessingSkillType: 12187.0
-    RequiredSkill1: 3386.0
-  Compressed Pristine Jaspet:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
+    CompressionTypeID: 28406.0
     OreBasicType: 1226.0
     ReprocessingSkillType: 12187.0
     RequiredSkill1: 3386.0
@@ -82,6 +62,26 @@ items:
     AsteroidMaxRadius: 16255.0
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 1226.0
+    ReprocessingSkillType: 12187.0
+    RequiredSkill1: 3386.0
+  Pristine Jaspet:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 3.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    CompressionQuantityNeeded: 100.0
+    CompressionTypeID: 28407.0
+    OreBasicType: 1226.0
+    ReprocessingSkillType: 12187.0
+    RequiredSkill1: 3386.0
+  Pure Jaspet:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 2.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    CompressionQuantityNeeded: 100.0
+    CompressionTypeID: 28408.0
     OreBasicType: 1226.0
     ReprocessingSkillType: 12187.0
     RequiredSkill1: 3386.0

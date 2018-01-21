@@ -1,5 +1,5 @@
 items:
-  Inferno Cruise Missile:
+  Caldari Navy Inferno Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1.0
     AoeCloudSize: 330.0
@@ -14,6 +14,8 @@ items:
     KineticDamageResonance: 1.0
     LauncherGroup: 506.0
     MaxVelocity: 4700.0
+    MetaGroupID: 4.0
+    MetaLevel: 2.0
     RequiredSkill1: 3326.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3319.0
@@ -21,8 +23,60 @@ items:
     SpeedFactor: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-    ThermalDamage: 375.0
+    ThermalDamage: 431.0
     ThermalDamageResonance: 0.800000011920929
+  Caldari Navy Mjolnir Cruise Missile:
+    Agility: 1.4449800073634833E-4
+    AimedLaunch: 1.0
+    AoeCloudSize: 330.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 69.0
+    DetonationRange: 35.0
+    EmDamage: 431.0
+    EmDamageResonance: 0.800000011920929
+    ExplosionDelay: 14000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 240.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 506.0
+    MaxVelocity: 4700.0
+    MetaGroupID: 4.0
+    MetaLevel: 2.0
+    RequiredSkill1: 3326.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  Caldari Navy Nova Cruise Missile:
+    Agility: 1.4449800073634833E-4
+    AimedLaunch: 1.0
+    AoeCloudSize: 330.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 69.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 14000.0
+    ExplosiveDamage: 431.0
+    ExplosiveDamageResonance: 0.800000011920929
+    Hp: 240.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 506.0
+    MaxVelocity: 4700.0
+    MetaGroupID: 4.0
+    MetaLevel: 2.0
+    RequiredSkill1: 3326.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
   Caldari Navy Scourge Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1.0
@@ -49,6 +103,263 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1.0
     ThermalDamageResonance: 1.0
+  Dread Guristas Inferno Cruise Missile:
+    Agility: 1.4449800073634833E-4
+    AimedLaunch: 1.0
+    AoeCloudSize: 330.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 69.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 14000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 240.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 506.0
+    MaxVelocity: 4700.0
+    MetaGroupID: 4.0
+    MetaLevel: 3.0
+    RequiredSkill1: 3326.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamage: 450.0
+    ThermalDamageResonance: 0.800000011920929
+  Dread Guristas Mjolnir Cruise Missile:
+    Agility: 1.4449800073634833E-4
+    AimedLaunch: 1.0
+    AoeCloudSize: 330.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 69.0
+    DetonationRange: 35.0
+    EmDamage: 450.0
+    EmDamageResonance: 0.800000011920929
+    ExplosionDelay: 14000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 240.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 506.0
+    MaxVelocity: 4700.0
+    MetaGroupID: 4.0
+    MetaLevel: 3.0
+    RequiredSkill1: 3326.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  Dread Guristas Nova Cruise Missile:
+    Agility: 1.4449800073634833E-4
+    AimedLaunch: 1.0
+    AoeCloudSize: 330.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 69.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 14000.0
+    ExplosiveDamage: 450.0
+    ExplosiveDamageResonance: 0.800000011920929
+    Hp: 240.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 506.0
+    MaxVelocity: 4700.0
+    MetaGroupID: 4.0
+    MetaLevel: 3.0
+    RequiredSkill1: 3326.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  Dread Guristas Scourge Cruise Missile:
+    Agility: 1.4449800073634833E-4
+    AimedLaunch: 1.0
+    AoeCloudSize: 330.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 69.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 14000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 240.0
+    KineticDamage: 450.0
+    KineticDamageResonance: 0.800000011920929
+    LauncherGroup: 506.0
+    MaxVelocity: 4700.0
+    MetaGroupID: 4.0
+    MetaLevel: 3.0
+    RequiredSkill1: 3326.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  Guristas Inferno Cruise Missile:
+    Agility: 1.4449800073634833E-4
+    AimedLaunch: 1.0
+    AoeCloudSize: 330.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 69.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 14000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 320.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 506.0
+    MaxVelocity: 4700.0
+    MetaGroupID: 4.0
+    MetaLevel: 1.0
+    RequiredSkill1: 3326.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamage: 413.0
+    ThermalDamageResonance: 0.800000011920929
+  Guristas Mjolnir Cruise Missile:
+    Agility: 1.4449800073634833E-4
+    AimedLaunch: 1.0
+    AoeCloudSize: 330.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 69.0
+    DetonationRange: 35.0
+    EmDamage: 413.0
+    EmDamageResonance: 0.800000011920929
+    ExplosionDelay: 14000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 320.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 506.0
+    MaxVelocity: 4700.0
+    MetaGroupID: 4.0
+    MetaLevel: 1.0
+    RequiredSkill1: 3326.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  Guristas Nova Cruise Missile:
+    Agility: 1.4449800073634833E-4
+    AimedLaunch: 1.0
+    AoeCloudSize: 330.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 69.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 14000.0
+    ExplosiveDamage: 413.0
+    ExplosiveDamageResonance: 0.800000011920929
+    Hp: 320.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 506.0
+    MaxVelocity: 4700.0
+    MetaGroupID: 4.0
+    MetaLevel: 1.0
+    RequiredSkill1: 3326.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  Guristas Scourge Cruise Missile:
+    Agility: 1.4449800073634833E-4
+    AimedLaunch: 1.0
+    AoeCloudSize: 330.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 69.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 14000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 320.0
+    KineticDamage: 413.0
+    KineticDamageResonance: 0.800000011920929
+    LauncherGroup: 506.0
+    MaxVelocity: 4700.0
+    MetaGroupID: 4.0
+    MetaLevel: 1.0
+    RequiredSkill1: 3326.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  Haunter Cruise Missile:
+    Agility: 1.4449800073634833E-4
+    AimedLaunch: 1.0
+    AoeCloudSize: 330.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 69.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 14000.0
+    ExplosiveDamage: 188.0
+    ExplosiveDamageResonance: 0.800000011920929
+    Hp: 240.0
+    KineticDamage: 188.0
+    KineticDamageResonance: 0.800000011920929
+    LauncherGroup: 506.0
+    MaxVelocity: 4700.0
+    RequiredSkill1: 3326.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  Inferno Cruise Missile:
+    Agility: 1.4449800073634833E-4
+    AimedLaunch: 1.0
+    AoeCloudSize: 330.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 69.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 14000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 240.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 506.0
+    MaxVelocity: 4700.0
+    RequiredSkill1: 3326.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamage: 375.0
+    ThermalDamageResonance: 0.800000011920929
   Mjolnir Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1.0
@@ -97,261 +408,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1.0
     ThermalDamageResonance: 1.0
-  Dread Guristas Scourge Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 69.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 14000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 240.0
-    KineticDamage: 450.0
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 506.0
-    MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    MetaLevel: 3.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  Dread Guristas Inferno Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 69.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 14000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 240.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 506.0
-    MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    MetaLevel: 3.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamage: 450.0
-    ThermalDamageResonance: 0.800000011920929
-  Guristas Nova Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 69.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 14000.0
-    ExplosiveDamage: 413.0
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 320.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 506.0
-    MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    MetaLevel: 1.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  True Sansha Paradise Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 69.0
-    DetonationRange: 35.0
-    EmDamage: 450.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 14000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 240.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 506.0
-    MaxVelocity: 4700.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  Dread Guristas Mjolnir Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 69.0
-    DetonationRange: 35.0
-    EmDamage: 450.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 14000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 240.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 506.0
-    MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    MetaLevel: 3.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  Haunter Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 69.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 14000.0
-    ExplosiveDamage: 188.0
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 240.0
-    KineticDamage: 188.0
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 506.0
-    MaxVelocity: 4700.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  Guristas Mjolnir Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 69.0
-    DetonationRange: 35.0
-    EmDamage: 413.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 14000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 320.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 506.0
-    MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    MetaLevel: 1.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  Caldari Navy Inferno Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 69.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 14000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 240.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 506.0
-    MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    MetaLevel: 2.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamage: 431.0
-    ThermalDamageResonance: 0.800000011920929
-  Caldari Navy Nova Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 69.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 14000.0
-    ExplosiveDamage: 431.0
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 240.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 506.0
-    MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    MetaLevel: 2.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  Scourge Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 69.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 14000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 240.0
-    KineticDamage: 375.0
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 506.0
-    MaxVelocity: 4700.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 1.0
   Phantasmata Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1.0
@@ -369,58 +425,6 @@ items:
     KineticDamageResonance: 1.0
     LauncherGroup: 506.0
     MaxVelocity: 4700.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  Dread Guristas Nova Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 69.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 14000.0
-    ExplosiveDamage: 450.0
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 240.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 506.0
-    MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    MetaLevel: 3.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 1.0
-  Caldari Navy Mjolnir Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 69.0
-    DetonationRange: 35.0
-    EmDamage: 431.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 14000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 240.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 506.0
-    MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    MetaLevel: 2.0
     RequiredSkill1: 3326.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3319.0
@@ -453,32 +457,6 @@ items:
     TechLevel: 1.0
     ThermalDamage: 1000.0
     ThermalDamageResonance: 1.0
-  Guristas Inferno Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1.0
-    AoeCloudSize: 330.0
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500.0
-    AoeVelocity: 69.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 14000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 320.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 506.0
-    MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    MetaLevel: 1.0
-    RequiredSkill1: 3326.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 3319.0
-    RequiredSkill2Level: 1.0
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamage: 413.0
-    ThermalDamageResonance: 0.800000011920929
   Sansha Paradise Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1.0
@@ -504,7 +482,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1.0
     ThermalDamageResonance: 1.0
-  Guristas Scourge Cruise Missile:
+  Scourge Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1.0
     AoeCloudSize: 330.0
@@ -515,13 +493,35 @@ items:
     EmDamageResonance: 1.0
     ExplosionDelay: 14000.0
     ExplosiveDamageResonance: 1.0
-    Hp: 320.0
-    KineticDamage: 413.0
+    Hp: 240.0
+    KineticDamage: 375.0
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 506.0
     MaxVelocity: 4700.0
-    MetaGroupID: 4.0
-    MetaLevel: 1.0
+    RequiredSkill1: 3326.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 3319.0
+    RequiredSkill2Level: 1.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 1.0
+  True Sansha Paradise Cruise Missile:
+    Agility: 1.4449800073634833E-4
+    AimedLaunch: 1.0
+    AoeCloudSize: 330.0
+    AoeDamageReductionFactor: 0.8820000290870667
+    AoeFalloff: 1500.0
+    AoeVelocity: 69.0
+    DetonationRange: 35.0
+    EmDamage: 450.0
+    EmDamageResonance: 0.800000011920929
+    ExplosionDelay: 14000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 240.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 506.0
+    MaxVelocity: 4700.0
     RequiredSkill1: 3326.0
     RequiredSkill1Level: 1.0
     RequiredSkill2: 3319.0

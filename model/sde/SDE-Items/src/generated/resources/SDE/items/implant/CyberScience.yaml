@@ -9,6 +9,34 @@ items:
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 5.0
     TechLevel: 1.0
+  Hardwiring - Zainou 'Beancounter' CI-1:
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Hardwiring - Zainou 'Beancounter' CI-2:
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Zainou 'Beancounter' Metallurgy MY-701:
+    Implantness: 7.0
+    MineralNeedResearchBonus: -1.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Zainou 'Beancounter' Metallurgy MY-703:
+    Implantness: 7.0
+    MineralNeedResearchBonus: -3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Zainou 'Beancounter' Metallurgy MY-705:
+    Implantness: 7.0
+    MineralNeedResearchBonus: -5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
   Zainou 'Beancounter' Research RR-601:
     BlueprintmanufactureTimeBonus: -1.0
     Implantness: 6.0
@@ -27,17 +55,11 @@ items:
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 5.0
     TechLevel: 1.0
-  Zainou 'Beancounter' Metallurgy MY-701:
-    Implantness: 7.0
-    MineralNeedResearchBonus: -1.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Zainou 'Beancounter' Science SC-805:
-    CopySpeedBonus: -5.0
+  Zainou 'Beancounter' Science SC-801:
+    CopySpeedBonus: -1.0
     Implantness: 8.0
     RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1Level: 1.0
     TechLevel: 1.0
   Zainou 'Beancounter' Science SC-803:
     CopySpeedBonus: -3.0
@@ -45,31 +67,9 @@ items:
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 3.0
     TechLevel: 1.0
-  Hardwiring - Zainou 'Beancounter' CI-1:
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
-  Zainou 'Beancounter' Science SC-801:
-    CopySpeedBonus: -1.0
+  Zainou 'Beancounter' Science SC-805:
+    CopySpeedBonus: -5.0
     Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Hardwiring - Zainou 'Beancounter' CI-2:
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-  Zainou 'Beancounter' Metallurgy MY-703:
-    Implantness: 7.0
-    MineralNeedResearchBonus: -3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
-  Zainou 'Beancounter' Metallurgy MY-705:
-    Implantness: 7.0
-    MineralNeedResearchBonus: -5.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 5.0
     TechLevel: 1.0

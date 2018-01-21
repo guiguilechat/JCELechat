@@ -1,4 +1,31 @@
 items:
+  Compressed Magma Mercoxit:
+    AsteroidMetaLevel: 2.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    DamageCloudChance: 0.05000000074505806
+    DamageCloudType: 11546.0
+    OreBasicType: 11396.0
+    ReprocessingSkillType: 12189.0
+    RequiredSkill1: 11395.0
+  Compressed Mercoxit:
+    AsteroidMetaLevel: 1.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    DamageCloudChance: 0.05000000074505806
+    DamageCloudType: 11546.0
+    OreBasicType: 11396.0
+    ReprocessingSkillType: 12189.0
+    RequiredSkill1: 11395.0
+  Compressed Vitreous Mercoxit:
+    AsteroidMetaLevel: 3.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    DamageCloudChance: 0.05000000074505806
+    DamageCloudType: 11546.0
+    OreBasicType: 11396.0
+    ReprocessingSkillType: 12189.0
+    RequiredSkill1: 11395.0
   Magma Mercoxit:
     AsteroidMetaLevel: 2.0
     AsteroidRadiusGrowthFactor: 0.8500000238418579
@@ -16,33 +43,6 @@ items:
     AsteroidRadiusUnitSize: 600.0
     CompressionQuantityNeeded: 100.0
     CompressionTypeID: 28413.0
-    DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546.0
-    OreBasicType: 11396.0
-    ReprocessingSkillType: 12189.0
-    RequiredSkill1: 11395.0
-  Compressed Vitreous Mercoxit:
-    AsteroidMetaLevel: 3.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546.0
-    OreBasicType: 11396.0
-    ReprocessingSkillType: 12189.0
-    RequiredSkill1: 11395.0
-  Compressed Magma Mercoxit:
-    AsteroidMetaLevel: 2.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546.0
-    OreBasicType: 11396.0
-    ReprocessingSkillType: 12189.0
-    RequiredSkill1: 11395.0
-  Compressed Mercoxit:
-    AsteroidMetaLevel: 1.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
     DamageCloudChance: 0.05000000074505806
     DamageCloudType: 11546.0
     OreBasicType: 11396.0

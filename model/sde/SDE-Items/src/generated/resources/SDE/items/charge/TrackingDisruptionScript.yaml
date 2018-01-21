@@ -1,12 +1,4 @@
 items:
-  Tracking Speed Disruption Script:
-    ChargeSize: 1.0
-    FalloffBonusBonus: -100.0
-    LauncherGroup: 291.0
-    MainColor: 1.1646664E7
-    MaxRangeBonusBonus: -100.0
-    TechLevel: 1.0
-    TrackingSpeedBonusBonus: 100.0
   Optimal Range Disruption Script:
     ChargeSize: 1.0
     FalloffBonusBonus: 100.0
@@ -15,3 +7,11 @@ items:
     MaxRangeBonusBonus: 100.0
     TechLevel: 1.0
     TrackingSpeedBonusBonus: -100.0
+  Tracking Speed Disruption Script:
+    ChargeSize: 1.0
+    FalloffBonusBonus: -100.0
+    LauncherGroup: 291.0
+    MainColor: 1.1646664E7
+    MaxRangeBonusBonus: -100.0
+    TechLevel: 1.0
+    TrackingSpeedBonusBonus: 100.0

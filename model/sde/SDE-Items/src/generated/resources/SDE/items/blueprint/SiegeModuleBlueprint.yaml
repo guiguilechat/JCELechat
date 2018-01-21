@@ -2,19 +2,19 @@ items:
   Bastion Module I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1.0
-  Industrial Core II Blueprint:
+  Covert Jump Portal Generator I Blueprint:
+    IndustryBlueprintRank: 12.0
     TechLevel: 1.0
-  Siege Module I Blueprint:
+  Industrial Core I Blueprint:
     IndustryBlueprintRank: 180.0
+    TechLevel: 1.0
+  Industrial Core II Blueprint:
     TechLevel: 1.0
   Jump Portal Generator I Blueprint:
     IndustryBlueprintRank: 180.0
     TechLevel: 1.0
-  Triage Module II Blueprint:
-    IndustryBlueprintRank: 468.0
-    TechLevel: 2.0
-  Covert Jump Portal Generator I Blueprint:
-    IndustryBlueprintRank: 12.0
+  Siege Module I Blueprint:
+    IndustryBlueprintRank: 180.0
     TechLevel: 1.0
   Siege Module II Blueprint:
     IndustryBlueprintRank: 468.0
@@ -22,6 +22,6 @@ items:
   Triage Module I Blueprint:
     IndustryBlueprintRank: 180.0
     TechLevel: 1.0
-  Industrial Core I Blueprint:
-    IndustryBlueprintRank: 180.0
-    TechLevel: 1.0
+  Triage Module II Blueprint:
+    IndustryBlueprintRank: 468.0
+    TechLevel: 2.0

@@ -1,21 +1,21 @@
 items:
-  Stargate (Gallente Region): {}
-  Stargate (Amarr System): {}
-  Stargate (Caldari System): {}
-  Stargate (Gallente System): {}
-  Stargate (Minmatar Constellation): {}
-  Stargate (Caldari Unused): {}
-  Stargate (Caldari Border): {}
-  Stargate (Minmatar Border): {}
+  Smuggler route stargate: {}
   Stargate (Amarr Border): {}
-  Stargate (Minmatar Region): {}
+  Stargate (Amarr Constellation): {}
+  Stargate (Amarr Region): {}
+  Stargate (Amarr System): {}
+  Stargate (Caldari Border): {}
   Stargate (Caldari Constellation): {}
   Stargate (Caldari Region): {}
-  Stargate (Gallente Unused 2): {}
-  Stargate (Gallente Constellation): {}
+  Stargate (Caldari System): {}
+  Stargate (Caldari Unused): {}
   Stargate (Gallente Border): {}
+  Stargate (Gallente Constellation): {}
+  Stargate (Gallente Region): {}
+  Stargate (Gallente System): {}
   Stargate (Gallente Unused 1): {}
-  Stargate (Amarr Constellation): {}
-  Smuggler route stargate: {}
+  Stargate (Gallente Unused 2): {}
+  Stargate (Minmatar Border): {}
+  Stargate (Minmatar Constellation): {}
+  Stargate (Minmatar Region): {}
   Stargate (Minmatar System): {}
-  Stargate (Amarr Region): {}

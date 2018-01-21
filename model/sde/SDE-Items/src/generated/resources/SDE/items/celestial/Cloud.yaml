@@ -1,84 +1,84 @@
 items:
-  Medium Refinery Sieged State Default: {}
-  Micro Nebula: {}
-  Lightning Storm Environment: {}
-  Warp Disruption Bubble Effect: {}
-  Dust Cloud: {}
-  Large Industrial Array Placement State Default: {}
-  Dark Green Cloud: {}
-  Ethereal Environment: {}
-  Celestial Environment: {}
-  Amarr Prime Station Cloud: {}
-  Default Citadel Medium Placement State: {}
-  Medium Industrial Array Placement State Default: {}
-  Wispy Chlorine Cloud: {}
-  Medium Refinery Placement State Default: {}
-  Debris Cloud: {}
-  Radon Gas Environment: {}
-  Sulphuric Cloud: {}
-  Amber Cloud: {}
-  Assembly Site Audio Object: {}
-  TestAsset_01: {}
-  Dust Storm Environment: {}
-  TestAsset_02: {}
   Acidic Cloud: {}
-  Plasmic Gas Cloud: {}
-  Large Refinery Vulnerable State Default: {}
-  Icefield Environment: {}
-  Default Citadel X-Large Placement State: {}
+  Amarr Prime Station Cloud: {}
+  Amber Cloud: {}
+  Amber Cytoserocin 2: {}
   Argon Gas Environment: {}
-  Dust Streak: {}
-  Strange Beacon: {}
+  Assembly Site Audio Object: {}
+  Astrahus Lights On: {}
+  Celestial Environment: {}
+  Chlorine Cloud: {}
+  Cloud Rings: {}
+  Cyno Effect: {}
+  Dark Cloud: {}
+  Dark Gray Cloud: {}
   Dark Gray Turbulent Cloud: {}
-  Large Refinery Sieged State Default: {}
-  Soft Cloud: {}
-  Toxic Cloud Environment: {}
-  Invisible Warp Out Object (Except POD): {}
-  Krypton Gas Environment: {}
-  MidPoint Effect: {}
-  Invisible Cloud: {}
-  Rusty Cloud: {}
-  Spark Cloud: {}
-  Electric Cloud: {}
-  Medium Refinery Invulnerable State Default: {}
-  Ion Cloud: {}
+  Dark Green Cloud: {}
+  Debris Cloud: {}
+  Debris Cloud Flat: {}
+  Default Citadel Large Placement State: {}
+  Default Citadel Medium Placement State: {}
+  Default Citadel X-Large Placement State: {}
+  Drifter Hive Explosion: {}
   Drone Beacon:
     Hp: 1.0E8
-  Xenon Gas Environment: {}
-  Wispy Orange Cloud: {}
-  Astrahus Lights On: {}
-  Meteor Cloud: {}
-  Chlorine Cloud: {}
-  Keepstar Lights On: {}
-  Spawner10: {}
-  Amber Cytoserocin 2: {}
-  Invisible Warp Out Object: {}
-  Large Refinery Placement State Default: {}
-  Green Gas Cloud: {}
-  Debris Cloud Flat: {}
-  XLarge Industrial Array Placement State Default: {}
-  Dark Cloud: {}
-  Large Refinery Invulnerable State Default: {}
+  Dust Cloud: {}
+  Dust Storm Environment: {}
+  Dust Streak: {}
+  Electric Cloud: {}
+  Ethereal Environment: {}
+  Fire Cloud: {}
   Fortizar Lights On: {}
-  Drifter Hive Explosion: {}
+  Gaseous Cloud: {}
+  Green Gas Cloud: {}
+  Icefield Environment: {}
+  Infernal Environment: {}
+  Invisible Cloud: {}
+  Invisible Warp Out Object: {}
+  Invisible Warp Out Object (Except POD): {}
+  Ion Cloud: {}
+  Keepstar Lights On: {}
+  Krypton Gas Environment: {}
+  Large Industrial Array Placement State Default: {}
+  Large Refinery Invulnerable State Default: {}
+  Large Refinery Placement State Default: {}
+  Large Refinery Sieged State Default: {}
+  Large Refinery Vulnerable State Default: {}
+  Lightning Storm Environment: {}
+  Medium Industrial Array Placement State Default: {}
+  Medium Refinery Invulnerable State Default: {}
+  Medium Refinery Placement State Default: {}
+  Medium Refinery Sieged State Default: {}
+  Medium Refinery Vulnerable State Default: {}
+  Meteor Cloud: {}
+  Micro Nebula: {}
+  MidPoint Effect: {}
+  Nebulaic Cloud: {}
+  Plasma Cloud: {}
+  Plasmic Gas Cloud: {}
+  Radon Gas Environment: {}
+  Rusty Cloud: {}
+  Smugglers Den Audio Object: {}
+  Soft Cloud: {}
+  Spark Cloud: {}
+  Spawner1: {}
+  Spawner10: {}
   Spawner2: {}
   Spawner3: {}
-  Gaseous Cloud: {}
-  Spawner1: {}
+  Spawner4: {}
+  Spawner5: {}
   Spawner6: {}
   Spawner7: {}
-  Spawner4: {}
-  Default Citadel Large Placement State: {}
-  Spawner5: {}
-  Infernal Environment: {}
   Spawner8: {}
-  Turbulent Storm Environment: {}
-  Cloud Rings: {}
   Spawner9: {}
-  Fire Cloud: {}
-  Cyno Effect: {}
-  Smugglers Den Audio Object: {}
-  Nebulaic Cloud: {}
-  Medium Refinery Vulnerable State Default: {}
-  Dark Gray Cloud: {}
-  Plasma Cloud: {}
+  Strange Beacon: {}
+  Sulphuric Cloud: {}
+  TestAsset_01: {}
+  TestAsset_02: {}
+  Toxic Cloud Environment: {}
+  Turbulent Storm Environment: {}
+  Warp Disruption Bubble Effect: {}
+  Wispy Chlorine Cloud: {}
+  Wispy Orange Cloud: {}
+  XLarge Industrial Array Placement State Default: {}
+  Xenon Gas Environment: {}

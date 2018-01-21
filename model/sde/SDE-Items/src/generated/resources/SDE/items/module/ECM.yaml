@@ -21,130 +21,47 @@ items:
     ScanMagnetometricStrengthBonus: 1.149999976158142
     ScanRadarStrengthBonus: 1.149999976158142
     TechLevel: 1.0
-  Aergia Compact Magnetometric ECM:
-    CapacitorNeed: 48.0
-    Cpu: 32.0
+  '''Heist'' Radar ECM':
+    CapacitorNeed: 32.0
+    Cpu: 30.0
     Duration: 20000.0
-    FalloffEffectiveness: 27000.0
+    FalloffEffectiveness: 32400.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MaxRange: 24000.0
-    MetaLevel: 1.0
+    MaxRange: 28800.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
     OverloadECMStrengthBonus: 20.0
     Power: 1.0
     RemoteResistanceID: 2253.0
     RequiredSkill1: 3427.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 3.299999952316284
-    ScanRadarStrengthBonus: 1.100000023841858
+    ScanGravimetricStrengthBonus: 1.149999976158142
+    ScanLadarStrengthBonus: 1.149999976158142
+    ScanMagnetometricStrengthBonus: 1.149999976158142
+    ScanRadarStrengthBonus: 3.450000047683716
     TechLevel: 1.0
-  Multispectral ECM II:
-    CapacitorNeed: 87.0
-    Cpu: 60.0
+  '''Hypnos'' Multispectral ECM I':
+    CapacitorNeed: 57.0
+    Cpu: 40.0
     Duration: 20000.0
-    FalloffEffectiveness: 21600.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MaxRange: 19200.0
-    MetaLevel: 5.0
+    MaxRange: 19246.0
+    MetaLevel: 4.0
     OverloadECMStrengthBonus: 20.0
     Power: 1.0
     RemoteResistanceID: 2253.0
     RequiredSkill1: 3427.0
-    RequiredSkill1Level: 4.0
+    RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     ScanGravimetricStrengthBonus: 2.4000000953674316
     ScanLadarStrengthBonus: 2.4000000953674316
     ScanMagnetometricStrengthBonus: 2.4000000953674316
     ScanRadarStrengthBonus: 2.4000000953674316
-    TechLevel: 2.0
-  FZ-3a Enduring Gravimetric ECM:
-    CapacitorNeed: 38.0
-    Cpu: 40.0
-    Duration: 20000.0
-    FalloffEffectiveness: 27000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 24000.0
-    MetaLevel: 1.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 3.299999952316284
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 1.100000023841858
-    TechLevel: 1.0
-  Ladar ECM I:
-    CapacitorNeed: 48.0
-    Cpu: 40.0
-    Duration: 20000.0
-    FalloffEffectiveness: 27000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 24000.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.0
-    ScanLadarStrengthBonus: 3.0
-    ScanMagnetometricStrengthBonus: 1.0
-    ScanRadarStrengthBonus: 1.0
-    TechLevel: 1.0
-  Initiated Enduring Multispectral ECM:
-    CapacitorNeed: 57.0
-    Cpu: 50.0
-    Duration: 20000.0
-    FalloffEffectiveness: 18000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 16000.0
-    MetaLevel: 1.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 2.200000047683716
-    ScanLadarStrengthBonus: 2.200000047683716
-    ScanMagnetometricStrengthBonus: 2.200000047683716
-    ScanRadarStrengthBonus: 2.200000047683716
-    TechLevel: 1.0
-  Umbra Scoped Radar ECM:
-    CapacitorNeed: 48.0
-    Cpu: 40.0
-    Duration: 20000.0
-    FalloffEffectiveness: 29700.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 26400.0
-    MetaLevel: 1.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 3.299999952316284
     TechLevel: 1.0
   '''Marshall'' Magnetometric ECM':
     CapacitorNeed: 32.0
@@ -168,15 +85,120 @@ items:
     ScanMagnetometricStrengthBonus: 3.450000047683716
     ScanRadarStrengthBonus: 1.149999976158142
     TechLevel: 1.0
-  Induced Compact Multispectral ECM:
-    CapacitorNeed: 72.0
-    Cpu: 40.0
+  '''Penumbra'' White Noise ECM':
+    CapacitorNeed: 45.0
+    Cpu: 38.0
     Duration: 20000.0
-    FalloffEffectiveness: 18000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MaxRange: 16000.0
+    MaxRange: 25260.0
+    MetaLevel: 1.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 1.0499999523162842
+    ScanLadarStrengthBonus: 1.0499999523162842
+    ScanMagnetometricStrengthBonus: 1.0499999523162842
+    ScanRadarStrengthBonus: 3.1500000953674316
+    TechLevel: 1.0
+  '''Plunderer'' Gravimetric ECM':
+    CapacitorNeed: 32.0
+    Cpu: 30.0
+    Duration: 20000.0
+    FalloffEffectiveness: 32400.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 28800.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 3.450000047683716
+    ScanLadarStrengthBonus: 1.149999976158142
+    ScanMagnetometricStrengthBonus: 1.149999976158142
+    ScanRadarStrengthBonus: 1.149999976158142
+    TechLevel: 1.0
+  Aergia Compact Magnetometric ECM:
+    CapacitorNeed: 48.0
+    Cpu: 32.0
+    Duration: 20000.0
+    FalloffEffectiveness: 27000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 24000.0
+    MetaLevel: 1.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 1.100000023841858
+    ScanLadarStrengthBonus: 1.100000023841858
+    ScanMagnetometricStrengthBonus: 3.299999952316284
+    ScanRadarStrengthBonus: 1.100000023841858
+    TechLevel: 1.0
+  BZ-5 Scoped Gravimetric ECM:
+    CapacitorNeed: 48.0
+    Cpu: 40.0
+    Duration: 20000.0
+    FalloffEffectiveness: 29700.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 26400.0
+    MetaLevel: 1.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 3.299999952316284
+    ScanLadarStrengthBonus: 1.100000023841858
+    ScanMagnetometricStrengthBonus: 1.100000023841858
+    ScanRadarStrengthBonus: 1.100000023841858
+    TechLevel: 1.0
+  CZ-4 Compact Gravimetric ECM:
+    CapacitorNeed: 48.0
+    Cpu: 32.0
+    Duration: 20000.0
+    FalloffEffectiveness: 27000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 24000.0
+    MetaLevel: 1.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 3.299999952316284
+    ScanLadarStrengthBonus: 1.100000023841858
+    ScanMagnetometricStrengthBonus: 1.100000023841858
+    ScanRadarStrengthBonus: 1.100000023841858
+    TechLevel: 1.0
+  Compulsive Scoped Multispectral ECM:
+    CapacitorNeed: 72.0
+    Cpu: 50.0
+    Duration: 20000.0
+    FalloffEffectiveness: 19800.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 17600.0
     MetaLevel: 1.0
     OverloadECMStrengthBonus: 20.0
     Power: 1.0
@@ -189,27 +211,112 @@ items:
     ScanMagnetometricStrengthBonus: 2.200000047683716
     ScanRadarStrengthBonus: 2.200000047683716
     TechLevel: 1.0
-  Ladar ECM II:
-    CapacitorNeed: 58.0
-    Cpu: 48.0
+  Dread Guristas Multispectral ECM:
+    CapacitorNeed: 85.0
+    Cpu: 58.0
     Duration: 20000.0
-    FalloffEffectiveness: 32400.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
+    FalloffEffectiveness: 23400.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MaxRange: 28800.0
-    MetaLevel: 5.0
+    MaxRange: 20800.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
     OverloadECMStrengthBonus: 20.0
     Power: 1.0
     RemoteResistanceID: 2253.0
     RequiredSkill1: 3427.0
-    RequiredSkill1Level: 4.0
+    RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.2000000476837158
-    ScanLadarStrengthBonus: 3.5999999046325684
-    ScanMagnetometricStrengthBonus: 1.2000000476837158
-    ScanRadarStrengthBonus: 1.2000000476837158
-    TechLevel: 2.0
+    ScanGravimetricStrengthBonus: 2.5999999046325684
+    ScanLadarStrengthBonus: 2.5999999046325684
+    ScanMagnetometricStrengthBonus: 2.5999999046325684
+    ScanRadarStrengthBonus: 2.5999999046325684
+    TechLevel: 1.0
+  Enfeebling Scoped Ladar ECM:
+    CapacitorNeed: 48.0
+    Cpu: 40.0
+    Duration: 20000.0
+    FalloffEffectiveness: 29700.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 26400.0
+    MetaLevel: 1.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 1.100000023841858
+    ScanLadarStrengthBonus: 3.299999952316284
+    ScanMagnetometricStrengthBonus: 1.100000023841858
+    ScanRadarStrengthBonus: 1.100000023841858
+    TechLevel: 1.0
+  Estamel's Modified Multispectral ECM:
+    CapacitorNeed: 115.0
+    Cpu: 80.0
+    Duration: 20000.0
+    FalloffEffectiveness: 34200.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 30400.0
+    MetaGroupID: 5.0
+    MetaLevel: 17.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 3.200000047683716
+    ScanLadarStrengthBonus: 3.200000047683716
+    ScanMagnetometricStrengthBonus: 3.200000047683716
+    ScanRadarStrengthBonus: 3.200000047683716
+    TechLevel: 1.0
+  FZ-3 Subversive Spatial Destabilizer ECM:
+    CapacitorNeed: 45.0
+    Cpu: 38.0
+    Duration: 20000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 25260.0
+    MetaLevel: 1.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 3.1500000953674316
+    ScanLadarStrengthBonus: 1.0499999523162842
+    ScanMagnetometricStrengthBonus: 1.0499999523162842
+    ScanRadarStrengthBonus: 1.0499999523162842
+    TechLevel: 1.0
+  FZ-3a Enduring Gravimetric ECM:
+    CapacitorNeed: 38.0
+    Cpu: 40.0
+    Duration: 20000.0
+    FalloffEffectiveness: 27000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 24000.0
+    MetaLevel: 1.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 3.299999952316284
+    ScanLadarStrengthBonus: 1.100000023841858
+    ScanMagnetometricStrengthBonus: 1.100000023841858
+    ScanRadarStrengthBonus: 1.100000023841858
+    TechLevel: 1.0
   Faint Phase Inversion ECM I:
     CapacitorNeed: 45.0
     Cpu: 38.0
@@ -230,6 +337,68 @@ items:
     ScanMagnetometricStrengthBonus: 1.0499999523162842
     ScanRadarStrengthBonus: 1.0499999523162842
     TechLevel: 1.0
+  Gloom Enduring Radar ECM:
+    CapacitorNeed: 38.0
+    Cpu: 40.0
+    Duration: 20000.0
+    FalloffEffectiveness: 27000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 24000.0
+    MetaLevel: 1.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 1.100000023841858
+    ScanLadarStrengthBonus: 1.100000023841858
+    ScanMagnetometricStrengthBonus: 1.100000023841858
+    ScanRadarStrengthBonus: 3.299999952316284
+    TechLevel: 1.0
+  Gravimetric ECM I:
+    CapacitorNeed: 48.0
+    Cpu: 40.0
+    Duration: 20000.0
+    FalloffEffectiveness: 27000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 24000.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 3.0
+    ScanLadarStrengthBonus: 1.0
+    ScanMagnetometricStrengthBonus: 1.0
+    ScanRadarStrengthBonus: 1.0
+    TechLevel: 1.0
+  Gravimetric ECM II:
+    CapacitorNeed: 58.0
+    Cpu: 48.0
+    Duration: 20000.0
+    FalloffEffectiveness: 32400.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 28800.0
+    MetaLevel: 5.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 4.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 3.5999999046325684
+    ScanLadarStrengthBonus: 1.2000000476837158
+    ScanMagnetometricStrengthBonus: 1.2000000476837158
+    ScanRadarStrengthBonus: 1.2000000476837158
+    TechLevel: 2.0
   Halting Compact Ladar ECM:
     CapacitorNeed: 48.0
     Cpu: 32.0
@@ -272,8 +441,29 @@ items:
     ScanMagnetometricStrengthBonus: 3.299999952316284
     ScanRadarStrengthBonus: 1.100000023841858
     TechLevel: 1.0
-  Multispectral ECM I:
+  Induced Compact Multispectral ECM:
     CapacitorNeed: 72.0
+    Cpu: 40.0
+    Duration: 20000.0
+    FalloffEffectiveness: 18000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 16000.0
+    MetaLevel: 1.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 2.200000047683716
+    ScanLadarStrengthBonus: 2.200000047683716
+    ScanMagnetometricStrengthBonus: 2.200000047683716
+    ScanRadarStrengthBonus: 2.200000047683716
+    TechLevel: 1.0
+  Initiated Enduring Multispectral ECM:
+    CapacitorNeed: 57.0
     Cpu: 50.0
     Duration: 20000.0
     FalloffEffectiveness: 18000.0
@@ -281,26 +471,6 @@ items:
     HeatDamage: 6.599999904632568
     Hp: 40.0
     MaxRange: 16000.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 2.0
-    ScanLadarStrengthBonus: 2.0
-    ScanMagnetometricStrengthBonus: 2.0
-    ScanRadarStrengthBonus: 2.0
-    TechLevel: 1.0
-  Gloom Enduring Radar ECM:
-    CapacitorNeed: 38.0
-    Cpu: 40.0
-    Duration: 20000.0
-    FalloffEffectiveness: 27000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 24000.0
     MetaLevel: 1.0
     OverloadECMStrengthBonus: 20.0
     Power: 1.0
@@ -308,20 +478,19 @@ items:
     RequiredSkill1: 3427.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 3.299999952316284
+    ScanGravimetricStrengthBonus: 2.200000047683716
+    ScanLadarStrengthBonus: 2.200000047683716
+    ScanMagnetometricStrengthBonus: 2.200000047683716
+    ScanRadarStrengthBonus: 2.200000047683716
     TechLevel: 1.0
-  Morpheus Enduring Magnetometric ECM:
-    CapacitorNeed: 38.0
-    Cpu: 40.0
+  Initiated Ion Field ECM I:
+    CapacitorNeed: 45.0
+    Cpu: 38.0
     Duration: 20000.0
-    FalloffEffectiveness: 27000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MaxRange: 24000.0
+    MaxRange: 25260.0
     MetaLevel: 1.0
     OverloadECMStrengthBonus: 20.0
     Power: 1.0
@@ -329,32 +498,94 @@ items:
     RequiredSkill1: 3427.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 3.299999952316284
-    ScanRadarStrengthBonus: 1.100000023841858
+    ScanGravimetricStrengthBonus: 1.0499999523162842
+    ScanLadarStrengthBonus: 1.0499999523162842
+    ScanMagnetometricStrengthBonus: 3.1500000953674316
+    ScanRadarStrengthBonus: 1.0499999523162842
     TechLevel: 1.0
-  '''Plunderer'' Gravimetric ECM':
-    CapacitorNeed: 32.0
-    Cpu: 30.0
+  Kaikka's Modified Multispectral ECM:
+    CapacitorNeed: 93.0
+    Cpu: 65.0
+    Duration: 20000.0
+    FalloffEffectiveness: 26100.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 23200.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 2.799999952316284
+    ScanLadarStrengthBonus: 2.799999952316284
+    ScanMagnetometricStrengthBonus: 2.799999952316284
+    ScanRadarStrengthBonus: 2.799999952316284
+    TechLevel: 1.0
+  Ladar ECM I:
+    CapacitorNeed: 48.0
+    Cpu: 40.0
+    Duration: 20000.0
+    FalloffEffectiveness: 27000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 24000.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 1.0
+    ScanLadarStrengthBonus: 3.0
+    ScanMagnetometricStrengthBonus: 1.0
+    ScanRadarStrengthBonus: 1.0
+    TechLevel: 1.0
+  Ladar ECM II:
+    CapacitorNeed: 58.0
+    Cpu: 48.0
     Duration: 20000.0
     FalloffEffectiveness: 32400.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatAbsorbtionRateModifier: 0.019999999552965164
     HeatDamage: 6.599999904632568
     Hp: 40.0
     MaxRange: 28800.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
+    MetaLevel: 5.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 4.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 1.2000000476837158
+    ScanLadarStrengthBonus: 3.5999999046325684
+    ScanMagnetometricStrengthBonus: 1.2000000476837158
+    ScanRadarStrengthBonus: 1.2000000476837158
+    TechLevel: 2.0
+  Languid Enduring Ladar ECM:
+    CapacitorNeed: 38.0
+    Cpu: 40.0
+    Duration: 20000.0
+    FalloffEffectiveness: 27000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 24000.0
+    MetaLevel: 1.0
     OverloadECMStrengthBonus: 20.0
     Power: 1.0
     RemoteResistanceID: 2253.0
     RequiredSkill1: 3427.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 3.450000047683716
-    ScanLadarStrengthBonus: 1.149999976158142
-    ScanMagnetometricStrengthBonus: 1.149999976158142
-    ScanRadarStrengthBonus: 1.149999976158142
+    ScanGravimetricStrengthBonus: 1.100000023841858
+    ScanLadarStrengthBonus: 3.299999952316284
+    ScanMagnetometricStrengthBonus: 1.100000023841858
+    ScanRadarStrengthBonus: 1.100000023841858
     TechLevel: 1.0
   Legion Gravimetric ECM:
     CapacitorNeed: 50.0
@@ -378,70 +609,27 @@ items:
     ScanMagnetometricStrengthBonus: 1.2000000476837158
     ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 1.0
-  Magnetometric ECM II:
-    CapacitorNeed: 58.0
-    Cpu: 48.0
+  Legion Ladar ECM:
+    CapacitorNeed: 50.0
+    Cpu: 43.0
     Duration: 20000.0
-    FalloffEffectiveness: 32400.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
+    FalloffEffectiveness: 33750.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MaxRange: 28800.0
-    MetaLevel: 5.0
+    MaxRange: 30000.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
     OverloadECMStrengthBonus: 20.0
     Power: 1.0
     RemoteResistanceID: 2253.0
     RequiredSkill1: 3427.0
-    RequiredSkill1Level: 4.0
+    RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     ScanGravimetricStrengthBonus: 1.2000000476837158
-    ScanLadarStrengthBonus: 1.2000000476837158
-    ScanMagnetometricStrengthBonus: 3.5999999046325684
+    ScanLadarStrengthBonus: 3.700000047683716
+    ScanMagnetometricStrengthBonus: 1.2000000476837158
     ScanRadarStrengthBonus: 1.2000000476837158
-    TechLevel: 2.0
-  Kaikka's Modified Multispectral ECM:
-    CapacitorNeed: 93.0
-    Cpu: 65.0
-    Duration: 20000.0
-    FalloffEffectiveness: 26100.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 23200.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 2.799999952316284
-    ScanLadarStrengthBonus: 2.799999952316284
-    ScanMagnetometricStrengthBonus: 2.799999952316284
-    ScanRadarStrengthBonus: 2.799999952316284
-    TechLevel: 1.0
-  Thon's Modified Multispectral ECM:
-    CapacitorNeed: 100.0
-    Cpu: 70.0
-    Duration: 20000.0
-    FalloffEffectiveness: 28800.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 25600.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 2.9000000953674316
-    ScanLadarStrengthBonus: 2.9000000953674316
-    ScanMagnetometricStrengthBonus: 2.9000000953674316
-    ScanRadarStrengthBonus: 2.9000000953674316
     TechLevel: 1.0
   Legion Magnetometric ECM:
     CapacitorNeed: 50.0
@@ -465,28 +653,6 @@ items:
     ScanMagnetometricStrengthBonus: 3.700000047683716
     ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 1.0
-  Vepas' Modified Multispectral ECM:
-    CapacitorNeed: 108.0
-    Cpu: 75.0
-    Duration: 20000.0
-    FalloffEffectiveness: 31500.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 28000.0
-    MetaGroupID: 5.0
-    MetaLevel: 15.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 3.0999999046325684
-    ScanLadarStrengthBonus: 3.0999999046325684
-    ScanMagnetometricStrengthBonus: 3.0999999046325684
-    ScanRadarStrengthBonus: 3.0999999046325684
-    TechLevel: 1.0
   Legion Multispectral ECM:
     CapacitorNeed: 74.0
     Cpu: 50.0
@@ -508,256 +674,6 @@ items:
     ScanLadarStrengthBonus: 2.5
     ScanMagnetometricStrengthBonus: 2.5
     ScanRadarStrengthBonus: 2.5
-    TechLevel: 1.0
-  Gravimetric ECM I:
-    CapacitorNeed: 48.0
-    Cpu: 40.0
-    Duration: 20000.0
-    FalloffEffectiveness: 27000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 24000.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 3.0
-    ScanLadarStrengthBonus: 1.0
-    ScanMagnetometricStrengthBonus: 1.0
-    ScanRadarStrengthBonus: 1.0
-    TechLevel: 1.0
-  Initiated Ion Field ECM I:
-    CapacitorNeed: 45.0
-    Cpu: 38.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 25260.0
-    MetaLevel: 1.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.0499999523162842
-    ScanLadarStrengthBonus: 1.0499999523162842
-    ScanMagnetometricStrengthBonus: 3.1500000953674316
-    ScanRadarStrengthBonus: 1.0499999523162842
-    TechLevel: 1.0
-  Shade Compact Radar ECM:
-    CapacitorNeed: 48.0
-    Cpu: 32.0
-    Duration: 20000.0
-    FalloffEffectiveness: 27000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 24000.0
-    MetaLevel: 1.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 1.100000023841858
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 3.299999952316284
-    TechLevel: 1.0
-  Radar ECM II:
-    CapacitorNeed: 58.0
-    Cpu: 48.0
-    Duration: 20000.0
-    FalloffEffectiveness: 32400.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 28800.0
-    MetaLevel: 5.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.2000000476837158
-    ScanLadarStrengthBonus: 1.2000000476837158
-    ScanMagnetometricStrengthBonus: 1.2000000476837158
-    ScanRadarStrengthBonus: 3.5999999046325684
-    TechLevel: 2.0
-  Estamel's Modified Multispectral ECM:
-    CapacitorNeed: 115.0
-    Cpu: 80.0
-    Duration: 20000.0
-    FalloffEffectiveness: 34200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 30400.0
-    MetaGroupID: 5.0
-    MetaLevel: 17.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 3.200000047683716
-    ScanLadarStrengthBonus: 3.200000047683716
-    ScanMagnetometricStrengthBonus: 3.200000047683716
-    ScanRadarStrengthBonus: 3.200000047683716
-    TechLevel: 1.0
-  Legion Ladar ECM:
-    CapacitorNeed: 50.0
-    Cpu: 43.0
-    Duration: 20000.0
-    FalloffEffectiveness: 33750.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 30000.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.2000000476837158
-    ScanLadarStrengthBonus: 3.700000047683716
-    ScanMagnetometricStrengthBonus: 1.2000000476837158
-    ScanRadarStrengthBonus: 1.2000000476837158
-    TechLevel: 1.0
-  '''Hypnos'' Multispectral ECM I':
-    CapacitorNeed: 57.0
-    Cpu: 40.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 19246.0
-    MetaLevel: 4.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 2.4000000953674316
-    ScanLadarStrengthBonus: 2.4000000953674316
-    ScanMagnetometricStrengthBonus: 2.4000000953674316
-    ScanRadarStrengthBonus: 2.4000000953674316
-    TechLevel: 1.0
-  Languid Enduring Ladar ECM:
-    CapacitorNeed: 38.0
-    Cpu: 40.0
-    Duration: 20000.0
-    FalloffEffectiveness: 27000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 24000.0
-    MetaLevel: 1.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 3.299999952316284
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 1.100000023841858
-    TechLevel: 1.0
-  '''Heist'' Radar ECM':
-    CapacitorNeed: 32.0
-    Cpu: 30.0
-    Duration: 20000.0
-    FalloffEffectiveness: 32400.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 28800.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.149999976158142
-    ScanLadarStrengthBonus: 1.149999976158142
-    ScanMagnetometricStrengthBonus: 1.149999976158142
-    ScanRadarStrengthBonus: 3.450000047683716
-    TechLevel: 1.0
-  Radar ECM I:
-    CapacitorNeed: 48.0
-    Cpu: 40.0
-    Duration: 20000.0
-    FalloffEffectiveness: 27000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 24000.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.0
-    ScanLadarStrengthBonus: 1.0
-    ScanMagnetometricStrengthBonus: 1.0
-    ScanRadarStrengthBonus: 3.0
-    TechLevel: 1.0
-  FZ-3 Subversive Spatial Destabilizer ECM:
-    CapacitorNeed: 45.0
-    Cpu: 38.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 25260.0
-    MetaLevel: 1.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 3.1500000953674316
-    ScanLadarStrengthBonus: 1.0499999523162842
-    ScanMagnetometricStrengthBonus: 1.0499999523162842
-    ScanRadarStrengthBonus: 1.0499999523162842
-    TechLevel: 1.0
-  Compulsive Scoped Multispectral ECM:
-    CapacitorNeed: 72.0
-    Cpu: 50.0
-    Duration: 20000.0
-    FalloffEffectiveness: 19800.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 17600.0
-    MetaLevel: 1.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 2.200000047683716
-    ScanLadarStrengthBonus: 2.200000047683716
-    ScanMagnetometricStrengthBonus: 2.200000047683716
-    ScanRadarStrengthBonus: 2.200000047683716
     TechLevel: 1.0
   Legion Radar ECM:
     CapacitorNeed: 50.0
@@ -781,48 +697,6 @@ items:
     ScanMagnetometricStrengthBonus: 1.2000000476837158
     ScanRadarStrengthBonus: 3.700000047683716
     TechLevel: 1.0
-  Enfeebling Scoped Ladar ECM:
-    CapacitorNeed: 48.0
-    Cpu: 40.0
-    Duration: 20000.0
-    FalloffEffectiveness: 29700.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 26400.0
-    MetaLevel: 1.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.100000023841858
-    ScanLadarStrengthBonus: 3.299999952316284
-    ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 1.100000023841858
-    TechLevel: 1.0
-  Gravimetric ECM II:
-    CapacitorNeed: 58.0
-    Cpu: 48.0
-    Duration: 20000.0
-    FalloffEffectiveness: 32400.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 28800.0
-    MetaLevel: 5.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 3.5999999046325684
-    ScanLadarStrengthBonus: 1.2000000476837158
-    ScanMagnetometricStrengthBonus: 1.2000000476837158
-    ScanRadarStrengthBonus: 1.2000000476837158
-    TechLevel: 2.0
   Magnetometric ECM I:
     CapacitorNeed: 48.0
     Cpu: 40.0
@@ -843,7 +717,131 @@ items:
     ScanMagnetometricStrengthBonus: 3.0
     ScanRadarStrengthBonus: 1.0
     TechLevel: 1.0
-  CZ-4 Compact Gravimetric ECM:
+  Magnetometric ECM II:
+    CapacitorNeed: 58.0
+    Cpu: 48.0
+    Duration: 20000.0
+    FalloffEffectiveness: 32400.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 28800.0
+    MetaLevel: 5.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 4.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 1.2000000476837158
+    ScanLadarStrengthBonus: 1.2000000476837158
+    ScanMagnetometricStrengthBonus: 3.5999999046325684
+    ScanRadarStrengthBonus: 1.2000000476837158
+    TechLevel: 2.0
+  Morpheus Enduring Magnetometric ECM:
+    CapacitorNeed: 38.0
+    Cpu: 40.0
+    Duration: 20000.0
+    FalloffEffectiveness: 27000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 24000.0
+    MetaLevel: 1.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 1.100000023841858
+    ScanLadarStrengthBonus: 1.100000023841858
+    ScanMagnetometricStrengthBonus: 3.299999952316284
+    ScanRadarStrengthBonus: 1.100000023841858
+    TechLevel: 1.0
+  Multispectral ECM I:
+    CapacitorNeed: 72.0
+    Cpu: 50.0
+    Duration: 20000.0
+    FalloffEffectiveness: 18000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 16000.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 2.0
+    ScanLadarStrengthBonus: 2.0
+    ScanMagnetometricStrengthBonus: 2.0
+    ScanRadarStrengthBonus: 2.0
+    TechLevel: 1.0
+  Multispectral ECM II:
+    CapacitorNeed: 87.0
+    Cpu: 60.0
+    Duration: 20000.0
+    FalloffEffectiveness: 21600.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 19200.0
+    MetaLevel: 5.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 4.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 2.4000000953674316
+    ScanLadarStrengthBonus: 2.4000000953674316
+    ScanMagnetometricStrengthBonus: 2.4000000953674316
+    ScanRadarStrengthBonus: 2.4000000953674316
+    TechLevel: 2.0
+  Radar ECM I:
+    CapacitorNeed: 48.0
+    Cpu: 40.0
+    Duration: 20000.0
+    FalloffEffectiveness: 27000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 24000.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 1.0
+    ScanLadarStrengthBonus: 1.0
+    ScanMagnetometricStrengthBonus: 1.0
+    ScanRadarStrengthBonus: 3.0
+    TechLevel: 1.0
+  Radar ECM II:
+    CapacitorNeed: 58.0
+    Cpu: 48.0
+    Duration: 20000.0
+    FalloffEffectiveness: 32400.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 28800.0
+    MetaLevel: 5.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 4.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 1.2000000476837158
+    ScanLadarStrengthBonus: 1.2000000476837158
+    ScanMagnetometricStrengthBonus: 1.2000000476837158
+    ScanRadarStrengthBonus: 3.5999999046325684
+    TechLevel: 2.0
+  Shade Compact Radar ECM:
     CapacitorNeed: 48.0
     Cpu: 32.0
     Duration: 20000.0
@@ -859,12 +857,34 @@ items:
     RequiredSkill1: 3427.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 3.299999952316284
+    ScanGravimetricStrengthBonus: 1.100000023841858
     ScanLadarStrengthBonus: 1.100000023841858
     ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 1.100000023841858
+    ScanRadarStrengthBonus: 3.299999952316284
     TechLevel: 1.0
-  BZ-5 Scoped Gravimetric ECM:
+  Thon's Modified Multispectral ECM:
+    CapacitorNeed: 100.0
+    Cpu: 70.0
+    Duration: 20000.0
+    FalloffEffectiveness: 28800.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 6.599999904632568
+    Hp: 40.0
+    MaxRange: 25600.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    OverloadECMStrengthBonus: 20.0
+    Power: 1.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 3427.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ScanGravimetricStrengthBonus: 2.9000000953674316
+    ScanLadarStrengthBonus: 2.9000000953674316
+    ScanMagnetometricStrengthBonus: 2.9000000953674316
+    ScanRadarStrengthBonus: 2.9000000953674316
+    TechLevel: 1.0
+  Umbra Scoped Radar ECM:
     CapacitorNeed: 48.0
     Cpu: 40.0
     Duration: 20000.0
@@ -880,50 +900,30 @@ items:
     RequiredSkill1: 3427.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 3.299999952316284
+    ScanGravimetricStrengthBonus: 1.100000023841858
     ScanLadarStrengthBonus: 1.100000023841858
     ScanMagnetometricStrengthBonus: 1.100000023841858
-    ScanRadarStrengthBonus: 1.100000023841858
+    ScanRadarStrengthBonus: 3.299999952316284
     TechLevel: 1.0
-  Dread Guristas Multispectral ECM:
-    CapacitorNeed: 85.0
-    Cpu: 58.0
+  Vepas' Modified Multispectral ECM:
+    CapacitorNeed: 108.0
+    Cpu: 75.0
     Duration: 20000.0
-    FalloffEffectiveness: 23400.0
+    FalloffEffectiveness: 31500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 6.599999904632568
     Hp: 40.0
-    MaxRange: 20800.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    MaxRange: 28000.0
+    MetaGroupID: 5.0
+    MetaLevel: 15.0
     OverloadECMStrengthBonus: 20.0
     Power: 1.0
     RemoteResistanceID: 2253.0
     RequiredSkill1: 3427.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 2.5999999046325684
-    ScanLadarStrengthBonus: 2.5999999046325684
-    ScanMagnetometricStrengthBonus: 2.5999999046325684
-    ScanRadarStrengthBonus: 2.5999999046325684
-    TechLevel: 1.0
-  '''Penumbra'' White Noise ECM':
-    CapacitorNeed: 45.0
-    Cpu: 38.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40.0
-    MaxRange: 25260.0
-    MetaLevel: 1.0
-    OverloadECMStrengthBonus: 20.0
-    Power: 1.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 3427.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ScanGravimetricStrengthBonus: 1.0499999523162842
-    ScanLadarStrengthBonus: 1.0499999523162842
-    ScanMagnetometricStrengthBonus: 1.0499999523162842
-    ScanRadarStrengthBonus: 3.1500000953674316
+    ScanGravimetricStrengthBonus: 3.0999999046325684
+    ScanLadarStrengthBonus: 3.0999999046325684
+    ScanMagnetometricStrengthBonus: 3.0999999046325684
+    ScanRadarStrengthBonus: 3.0999999046325684
     TechLevel: 1.0

@@ -1,573 +1,7 @@
 items:
-  Domination Large Shield Booster:
-    CapacitorNeed: 128.0
-    Cpu: 85.0
-    Duration: 3200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 221.0
-    TechLevel: 1.0
-  Thon's Modified X-Large Shield Booster:
-    CapacitorNeed: 400.0
-    Cpu: 204.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 792.0
-    TechLevel: 1.0
-  Pith X-Type X-Large Shield Booster:
-    CapacitorNeed: 400.0
-    Cpu: 238.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 924.0
-    TechLevel: 1.0
-  Tobias' Modified Large Shield Booster:
-    CapacitorNeed: 102.0
-    Cpu: 85.0
-    Duration: 3200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 296.0
-    TechLevel: 1.0
-  X-Large 'Locomotive' Shield Booster:
-    CapacitorNeed: 400.0
-    Cpu: 170.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 450.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 552.0
-    TechLevel: 1.0
-  Gistum B-Type Medium Shield Booster:
-    CapacitorNeed: 35.0
-    Cpu: 43.0
-    Duration: 3000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 12.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 124.0
-    TechLevel: 1.0
-  Large Shield Booster II:
-    CapacitorNeed: 160.0
-    Cpu: 115.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 1.2999999523162842
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 165.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 276.0
-    TechLevel: 2.0
-  Republic Fleet Large Shield Booster:
-    CapacitorNeed: 128.0
-    Cpu: 85.0
-    Duration: 3200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 221.0
-    TechLevel: 1.0
-  Gistii C-Type Small Shield Booster:
-    CapacitorNeed: 11.0
-    Cpu: 21.0
-    Duration: 2000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 2.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 39.0
-    TechLevel: 1.0
-  Gist X-Type X-Large Shield Booster:
-    CapacitorNeed: 204.0
-    Cpu: 170.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 739.0
-    TechLevel: 1.0
-  Hakim's Modified Large Shield Booster:
-    CapacitorNeed: 94.0
-    Cpu: 85.0
-    Duration: 3200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 253.0
-    TechLevel: 1.0
-  Caldari Navy Medium Shield Booster:
-    CapacitorNeed: 60.0
-    Cpu: 42.0
-    Duration: 2400.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 12.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 95.0
-    TechLevel: 1.0
-  Capital Shield Booster I:
+  CONCORD Capital Shield Booster:
     CapacitorNeed: 2400.0
-    Cpu: 300.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.299999952316284
-    Hp: 40.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 75000.0
-    RequiredSkill1: 21802.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 7200.0
-    TechLevel: 1.0
-  Pithi A-Type Small Shield Booster:
-    CapacitorNeed: 20.0
-    Cpu: 28.0
-    Duration: 2000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 2.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 76.0
-    TechLevel: 1.0
-  Capital C-5L Compact Shield Booster:
-    CapacitorNeed: 2400.0
-    Cpu: 240.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.299999952316284
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 67500.0
-    RequiredSkill1: 21802.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 7920.0
-    TechLevel: 1.0
-  Medium Shield Booster I:
-    CapacitorNeed: 60.0
-    Cpu: 50.0
-    Duration: 3000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 12.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 78.0
-    TechLevel: 1.0
-  Gist A-Type X-Large Shield Booster:
-    CapacitorNeed: 196.0
-    Cpu: 170.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 682.0
-    TechLevel: 1.0
-  Pithi B-Type Small Shield Booster:
-    CapacitorNeed: 20.0
-    Cpu: 26.0
-    Duration: 2000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 2.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 65.0
-    TechLevel: 1.0
-  Capital Clarity Ward Enduring Shield Booster:
-    CapacitorNeed: 1920.0
-    Cpu: 300.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.299999952316284
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 75000.0
-    RequiredSkill1: 21802.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 7920.0
-    TechLevel: 1.0
-  Capital Shield Booster II:
-    CapacitorNeed: 2880.0
-    Cpu: 330.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.299999952316284
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 82500.0
-    RequiredSkill1: 21802.0
-    RequiredSkill1Level: 4.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 8640.0
-    TechLevel: 2.0
-  Estamel's Modified Large Shield Booster:
-    CapacitorNeed: 160.0
-    Cpu: 119.0
-    Duration: 3200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 370.0
-    TechLevel: 1.0
-  Caldari Navy X-Large Shield Booster:
-    CapacitorNeed: 400.0
-    Cpu: 170.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 630.0
-    TechLevel: 1.0
-  Gistii B-Type Small Shield Booster:
-    CapacitorNeed: 12.0
-    Cpu: 21.0
-    Duration: 2000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 2.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 41.0
-    TechLevel: 1.0
-  Gistum A-Type Medium Shield Booster:
-    CapacitorNeed: 38.0
-    Cpu: 43.0
-    Duration: 3000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 12.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 170.0
-    TechLevel: 1.0
-  Small Shield Booster II:
-    CapacitorNeed: 20.0
-    Cpu: 29.0
-    Duration: 2000.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 3.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 35.0
-    TechLevel: 2.0
-  Domination Medium Shield Booster:
-    CapacitorNeed: 48.0
-    Cpu: 42.0
-    Duration: 2400.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 12.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 83.0
-    TechLevel: 1.0
-  Small Converse Deflection Catalyzer:
-    CapacitorNeed: 20.0
-    Cpu: 23.0
-    Duration: 2000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 2.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 28.0
-    TechLevel: 1.0
-  X-Large Clarity Ward Booster I:
-    CapacitorNeed: 400.0
-    Cpu: 160.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.2000000476837158
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 596.0
-    TechLevel: 1.0
-  Republic Fleet X-Large Shield Booster:
-    CapacitorNeed: 320.0
-    Cpu: 170.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 552.0
-    TechLevel: 1.0
-  Gist X-Type Large Shield Booster:
-    CapacitorNeed: 102.0
-    Cpu: 85.0
-    Duration: 3200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 296.0
-    TechLevel: 1.0
-  Medium Clarity Ward Booster I:
-    CapacitorNeed: 60.0
-    Cpu: 40.0
-    Duration: 3000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.8999999761581421
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 12.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 90.0
-    TechLevel: 1.0
-  Pith A-Type X-Large Shield Booster:
-    CapacitorNeed: 400.0
-    Cpu: 221.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 858.0
-    TechLevel: 1.0
-  Medium 'Lone Ranger' Shield Booster:
-    CapacitorNeed: 60.0
-    Cpu: 43.0
-    Duration: 3000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 11.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 83.0
-    TechLevel: 1.0
-  Pithi C-Type Small Shield Booster:
-    CapacitorNeed: 20.0
-    Cpu: 24.0
-    Duration: 2000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 2.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 55.0
-    TechLevel: 1.0
-  Domination Capital Shield Booster:
-    CapacitorNeed: 1900.0
-    Cpu: 240.0
+    Cpu: 260.0
     Duration: 10000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 3.299999952316284
@@ -576,225 +10,11 @@ items:
     MetaLevel: 8.0
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10.0
-    Power: 67500.0
+    Power: 71250.0
     RequiredSkill1: 21802.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 9400.0
-    TechLevel: 1.0
-  Small C5-L Emergency Shield Overload I:
-    CapacitorNeed: 20.0
-    Cpu: 21.0
-    Duration: 2000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 2.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 31.0
-    TechLevel: 1.0
-  Large Clarity Ward Booster I:
-    CapacitorNeed: 160.0
-    Cpu: 80.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 238.0
-    TechLevel: 1.0
-  Vepas' Modified X-Large Shield Booster:
-    CapacitorNeed: 400.0
-    Cpu: 221.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 858.0
-    TechLevel: 1.0
-  Small 'Settler' Shield Booster:
-    CapacitorNeed: 20.0
-    Cpu: 21.0
-    Duration: 2000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 2.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 28.0
-    TechLevel: 1.0
-  Large Shield Booster I:
-    CapacitorNeed: 160.0
-    Cpu: 100.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.2999999523162842
-    Hp: 40.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 207.0
-    TechLevel: 1.0
-  Pithum A-Type Medium Shield Booster:
-    CapacitorNeed: 60.0
-    Cpu: 56.0
-    Duration: 3000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 12.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 228.0
-    TechLevel: 1.0
-  Pith C-Type Large Shield Booster:
-    CapacitorNeed: 160.0
-    Cpu: 94.0
-    Duration: 3200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 290.0
-    TechLevel: 1.0
-  Large 'Outlaw' Shield Booster:
-    CapacitorNeed: 160.0
-    Cpu: 85.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.2999999523162842
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 135.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 221.0
-    TechLevel: 1.0
-  Gist C-Type X-Large Shield Booster:
-    CapacitorNeed: 179.0
-    Cpu: 170.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 578.0
-    TechLevel: 1.0
-  X-Large Converse Deflection Catalyzer:
-    CapacitorNeed: 400.0
-    Cpu: 190.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.2999999523162842
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 544.0
-    TechLevel: 1.0
-  Tobias' Modified X-Large Shield Booster:
-    CapacitorNeed: 204.0
-    Cpu: 170.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 739.0
-    TechLevel: 1.0
-  Small Shield Booster I:
-    CapacitorNeed: 20.0
-    Cpu: 25.0
-    Duration: 2000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 2.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 26.0
-    TechLevel: 1.0
-  Dread Guristas Medium Shield Booster:
-    CapacitorNeed: 60.0
-    Cpu: 42.0
-    Duration: 2400.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 12.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 95.0
+    ShieldBonus: 9750.0
     TechLevel: 1.0
   Caldari Navy Large Shield Booster:
     CapacitorNeed: 160.0
@@ -813,89 +33,136 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     ShieldBonus: 252.0
     TechLevel: 1.0
-  Medium Converse Deflection Catalyzer:
+  Caldari Navy Medium Shield Booster:
     CapacitorNeed: 60.0
-    Cpu: 47.0
-    Duration: 3000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 12.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 82.0
-    TechLevel: 1.0
-  Republic Fleet Medium Shield Booster:
-    CapacitorNeed: 48.0
     Cpu: 42.0
     Duration: 2400.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40.0
     MetaGroupID: 4.0
-    MetaLevel: 8.0
+    MetaLevel: 9.0
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10.0
     Power: 12.0
     RequiredSkill1: 3416.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 83.0
+    ShieldBonus: 95.0
     TechLevel: 1.0
-  Large Neutron Saturation Injector I:
-    CapacitorNeed: 160.0
-    Cpu: 90.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.2000000476837158
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 228.0
-    TechLevel: 1.0
-  Medium C5-L Emergency Shield Overload I:
-    CapacitorNeed: 60.0
-    Cpu: 42.0
-    Duration: 3000.0
+  Caldari Navy Small Shield Booster:
+    CapacitorNeed: 20.0
+    Cpu: 21.0
+    Duration: 1600.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 0.800000011920929
     Hp: 40.0
-    MetaLevel: 4.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10.0
-    Power: 12.0
+    Power: 2.0
     RequiredSkill1: 3416.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 93.0
+    ShieldBonus: 32.0
     TechLevel: 1.0
-  Vepas' Modified Large Shield Booster:
-    CapacitorNeed: 160.0
-    Cpu: 111.0
-    Duration: 3200.0
+  Caldari Navy X-Large Shield Booster:
+    CapacitorNeed: 400.0
+    Cpu: 170.0
+    Duration: 4000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.100000023841858
     Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10.0
-    Power: 150.0
+    Power: 500.0
     RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
+    RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 343.0
+    ShieldBonus: 630.0
     TechLevel: 1.0
-  True Sansha Capital Shield Booster:
+  Capital C-5L Compact Shield Booster:
+    CapacitorNeed: 2400.0
+    Cpu: 240.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.299999952316284
+    Hp: 40.0
+    MetaLevel: 1.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 67500.0
+    RequiredSkill1: 21802.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 7920.0
+    TechLevel: 1.0
+  Capital Clarity Ward Enduring Shield Booster:
+    CapacitorNeed: 1920.0
+    Cpu: 300.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.299999952316284
+    Hp: 40.0
+    MetaLevel: 1.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 75000.0
+    RequiredSkill1: 21802.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 7920.0
+    TechLevel: 1.0
+  Capital Shield Booster I:
+    CapacitorNeed: 2400.0
+    Cpu: 300.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.299999952316284
+    Hp: 40.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 75000.0
+    RequiredSkill1: 21802.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 7200.0
+    TechLevel: 1.0
+  Capital Shield Booster II:
+    CapacitorNeed: 2880.0
+    Cpu: 330.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.299999952316284
+    Hp: 40.0
+    MetaLevel: 5.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 82500.0
+    RequiredSkill1: 21802.0
+    RequiredSkill1Level: 4.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 8640.0
+    TechLevel: 2.0
+  Civilian Shield Booster:
+    CapacitorNeed: 5.0
+    Cpu: 2.0
+    Duration: 3000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.399999976158142
+    Hp: 40.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 1.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 7.0
+    TechLevel: 1.0
+  Domination Capital Shield Booster:
     CapacitorNeed: 1900.0
     Cpu: 240.0
     Duration: 10000.0
@@ -912,272 +179,39 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     ShieldBonus: 9400.0
     TechLevel: 1.0
-  Gist B-Type X-Large Shield Booster:
-    CapacitorNeed: 187.0
-    Cpu: 170.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 634.0
-    TechLevel: 1.0
-  Pith A-Type Large Shield Booster:
-    CapacitorNeed: 160.0
-    Cpu: 111.0
-    Duration: 3200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 343.0
-    TechLevel: 1.0
-  X-Large Neutron Saturation Injector I:
-    CapacitorNeed: 400.0
-    Cpu: 180.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.2000000476837158
-    Hp: 40.0
-    MetaLevel: 2.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 569.0
-    TechLevel: 1.0
-  Dread Guristas Large Shield Booster:
-    CapacitorNeed: 160.0
+  Domination Large Shield Booster:
+    CapacitorNeed: 128.0
     Cpu: 85.0
     Duration: 3200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 252.0
-    TechLevel: 1.0
-  Large C5-L Emergency Shield Overload I:
-    CapacitorNeed: 160.0
-    Cpu: 85.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 248.0
-    TechLevel: 1.0
-  Small Clarity Ward Booster I:
-    CapacitorNeed: 20.0
-    Cpu: 20.0
-    Duration: 2000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaLevel: 3.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 2.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 30.0
-    TechLevel: 1.0
-  Hakim's Modified X-Large Shield Booster:
-    CapacitorNeed: 187.0
-    Cpu: 170.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 634.0
-    TechLevel: 1.0
-  Medium Shield Booster II:
-    CapacitorNeed: 60.0
-    Cpu: 58.0
-    Duration: 3000.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 1.0
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 13.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 104.0
-    TechLevel: 2.0
-  Large Converse Deflection Catalyzer:
-    CapacitorNeed: 160.0
-    Cpu: 95.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.2999999523162842
-    Hp: 40.0
-    MetaLevel: 1.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 217.0
-    TechLevel: 1.0
-  Thon's Modified Large Shield Booster:
-    CapacitorNeed: 160.0
-    Cpu: 102.0
-    Duration: 3200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 317.0
-    TechLevel: 1.0
-  Dread Guristas Capital Shield Booster:
-    CapacitorNeed: 2500.0
-    Cpu: 260.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.299999952316284
     Hp: 40.0
     MetaGroupID: 4.0
     MetaLevel: 8.0
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10.0
-    Power: 71250.0
-    RequiredSkill1: 21802.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 10000.0
-    TechLevel: 1.0
-  Pith B-Type X-Large Shield Booster:
-    CapacitorNeed: 400.0
-    Cpu: 204.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
+    Power: 150.0
     RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
+    RequiredSkill1Level: 2.0
     RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 792.0
+    ShieldBonus: 221.0
     TechLevel: 1.0
-  Pithum C-Type Medium Shield Booster:
-    CapacitorNeed: 60.0
-    Cpu: 47.0
-    Duration: 3000.0
+  Domination Medium Shield Booster:
+    CapacitorNeed: 48.0
+    Cpu: 42.0
+    Duration: 2400.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
+    HeatDamage: 0.800000011920929
     Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10.0
     Power: 12.0
     RequiredSkill1: 3416.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 163.0
-    TechLevel: 1.0
-  Pith B-Type Large Shield Booster:
-    CapacitorNeed: 160.0
-    Cpu: 102.0
-    Duration: 3200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 317.0
-    TechLevel: 1.0
-  Pith X-Type Large Shield Booster:
-    CapacitorNeed: 160.0
-    Cpu: 119.0
-    Duration: 3200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 14.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 370.0
-    TechLevel: 1.0
-  Gist C-Type Large Shield Booster:
-    CapacitorNeed: 90.0
-    Cpu: 85.0
-    Duration: 3200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 237.0
+    ShieldBonus: 83.0
     TechLevel: 1.0
   Domination Small Shield Booster:
     CapacitorNeed: 16.0
@@ -1196,37 +230,124 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     ShieldBonus: 28.0
     TechLevel: 1.0
-  Pithum B-Type Medium Shield Booster:
-    CapacitorNeed: 60.0
-    Cpu: 51.0
-    Duration: 3000.0
+  Domination X-Large Shield Booster:
+    CapacitorNeed: 320.0
+    Cpu: 170.0
+    Duration: 4000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
+    HeatDamage: 1.100000023841858
     Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 12.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 552.0
+    TechLevel: 1.0
+  Dread Guristas Capital Shield Booster:
+    CapacitorNeed: 2500.0
+    Cpu: 260.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.299999952316284
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 71250.0
+    RequiredSkill1: 21802.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 10000.0
+    TechLevel: 1.0
+  Dread Guristas Large Shield Booster:
+    CapacitorNeed: 160.0
+    Cpu: 85.0
+    Duration: 3200.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 252.0
+    TechLevel: 1.0
+  Dread Guristas Medium Shield Booster:
+    CapacitorNeed: 60.0
+    Cpu: 42.0
+    Duration: 2400.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10.0
     Power: 12.0
     RequiredSkill1: 3416.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 194.0
+    ShieldBonus: 95.0
     TechLevel: 1.0
-  Civilian Shield Booster:
-    CapacitorNeed: 5.0
-    Cpu: 2.0
-    Duration: 3000.0
+  Dread Guristas Small Shield Booster:
+    CapacitorNeed: 20.0
+    Cpu: 21.0
+    Duration: 1600.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.399999976158142
+    HeatDamage: 0.800000011920929
     Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10.0
-    Power: 1.0
+    Power: 2.0
     RequiredSkill1: 3416.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 7.0
+    ShieldBonus: 32.0
+    TechLevel: 1.0
+  Dread Guristas X-Large Shield Booster:
+    CapacitorNeed: 400.0
+    Cpu: 170.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 9.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 630.0
+    TechLevel: 1.0
+  Estamel's Modified Large Shield Booster:
+    CapacitorNeed: 160.0
+    Cpu: 119.0
+    Duration: 3200.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 370.0
     TechLevel: 1.0
   Estamel's Modified X-Large Shield Booster:
     CapacitorNeed: 400.0
@@ -1245,87 +366,39 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     ShieldBonus: 924.0
     TechLevel: 1.0
-  X-Large Shield Booster II:
-    CapacitorNeed: 400.0
-    Cpu: 230.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MetaLevel: 5.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 550.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 5.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 690.0
-    TechLevel: 2.0
-  Medium Neutron Saturation Injector I:
-    CapacitorNeed: 60.0
-    Cpu: 45.0
-    Duration: 3000.0
+  Gist A-Type Large Shield Booster:
+    CapacitorNeed: 98.0
+    Cpu: 85.0
+    Duration: 3200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.8999999761581421
+    HeatDamage: 1.100000023841858
     Hp: 40.0
-    MetaLevel: 2.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10.0
-    Power: 12.0
+    Power: 150.0
     RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1Level: 2.0
     RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 85.0
+    ShieldBonus: 270.0
     TechLevel: 1.0
-  Domination X-Large Shield Booster:
-    CapacitorNeed: 320.0
+  Gist A-Type X-Large Shield Booster:
+    CapacitorNeed: 196.0
     Cpu: 170.0
     Duration: 4000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.100000023841858
     Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10.0
     Power: 500.0
     RequiredSkill1: 3416.0
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 552.0
-    TechLevel: 1.0
-  X-Large C5-L Emergency Shield Overload I:
-    CapacitorNeed: 400.0
-    Cpu: 170.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaLevel: 4.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 621.0
-    TechLevel: 1.0
-  Kaikka's Modified X-Large Shield Booster:
-    CapacitorNeed: 400.0
-    Cpu: 187.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 500.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 726.0
+    ShieldBonus: 682.0
     TechLevel: 1.0
   Gist B-Type Large Shield Booster:
     CapacitorNeed: 94.0
@@ -1344,6 +417,757 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     ShieldBonus: 253.0
     TechLevel: 1.0
+  Gist B-Type X-Large Shield Booster:
+    CapacitorNeed: 187.0
+    Cpu: 170.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 634.0
+    TechLevel: 1.0
+  Gist C-Type Large Shield Booster:
+    CapacitorNeed: 90.0
+    Cpu: 85.0
+    Duration: 3200.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 237.0
+    TechLevel: 1.0
+  Gist C-Type X-Large Shield Booster:
+    CapacitorNeed: 179.0
+    Cpu: 170.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 578.0
+    TechLevel: 1.0
+  Gist X-Type Large Shield Booster:
+    CapacitorNeed: 102.0
+    Cpu: 85.0
+    Duration: 3200.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 296.0
+    TechLevel: 1.0
+  Gist X-Type X-Large Shield Booster:
+    CapacitorNeed: 204.0
+    Cpu: 170.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 739.0
+    TechLevel: 1.0
+  Gistii A-Type Small Shield Booster:
+    CapacitorNeed: 13.0
+    Cpu: 21.0
+    Duration: 2000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 2.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 57.0
+    TechLevel: 1.0
+  Gistii B-Type Small Shield Booster:
+    CapacitorNeed: 12.0
+    Cpu: 21.0
+    Duration: 2000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 2.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 41.0
+    TechLevel: 1.0
+  Gistii C-Type Small Shield Booster:
+    CapacitorNeed: 11.0
+    Cpu: 21.0
+    Duration: 2000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 2.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 39.0
+    TechLevel: 1.0
+  Gistum A-Type Medium Shield Booster:
+    CapacitorNeed: 38.0
+    Cpu: 43.0
+    Duration: 3000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 12.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 170.0
+    TechLevel: 1.0
+  Gistum B-Type Medium Shield Booster:
+    CapacitorNeed: 35.0
+    Cpu: 43.0
+    Duration: 3000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 12.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 124.0
+    TechLevel: 1.0
+  Gistum C-Type Medium Shield Booster:
+    CapacitorNeed: 32.0
+    Cpu: 43.0
+    Duration: 3000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 12.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 116.0
+    TechLevel: 1.0
+  Hakim's Modified Large Shield Booster:
+    CapacitorNeed: 94.0
+    Cpu: 85.0
+    Duration: 3200.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 253.0
+    TechLevel: 1.0
+  Hakim's Modified X-Large Shield Booster:
+    CapacitorNeed: 187.0
+    Cpu: 170.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 634.0
+    TechLevel: 1.0
+  Kaikka's Modified Large Shield Booster:
+    CapacitorNeed: 160.0
+    Cpu: 94.0
+    Duration: 3200.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 290.0
+    TechLevel: 1.0
+  Kaikka's Modified X-Large Shield Booster:
+    CapacitorNeed: 400.0
+    Cpu: 187.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 726.0
+    TechLevel: 1.0
+  Large 'Outlaw' Shield Booster:
+    CapacitorNeed: 160.0
+    Cpu: 85.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.2999999523162842
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 135.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 221.0
+    TechLevel: 1.0
+  Large C5-L Emergency Shield Overload I:
+    CapacitorNeed: 160.0
+    Cpu: 85.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaLevel: 4.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 248.0
+    TechLevel: 1.0
+  Large Clarity Ward Booster I:
+    CapacitorNeed: 160.0
+    Cpu: 80.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaLevel: 3.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 238.0
+    TechLevel: 1.0
+  Large Converse Deflection Catalyzer:
+    CapacitorNeed: 160.0
+    Cpu: 95.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.2999999523162842
+    Hp: 40.0
+    MetaLevel: 1.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 217.0
+    TechLevel: 1.0
+  Large Neutron Saturation Injector I:
+    CapacitorNeed: 160.0
+    Cpu: 90.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.2000000476837158
+    Hp: 40.0
+    MetaLevel: 2.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 228.0
+    TechLevel: 1.0
+  Large Shield Booster I:
+    CapacitorNeed: 160.0
+    Cpu: 100.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.2999999523162842
+    Hp: 40.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 207.0
+    TechLevel: 1.0
+  Large Shield Booster II:
+    CapacitorNeed: 160.0
+    Cpu: 115.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 1.2999999523162842
+    Hp: 40.0
+    MetaLevel: 5.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 165.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 4.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 276.0
+    TechLevel: 2.0
+  Medium 'Lone Ranger' Shield Booster:
+    CapacitorNeed: 60.0
+    Cpu: 43.0
+    Duration: 3000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 11.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 83.0
+    TechLevel: 1.0
+  Medium C5-L Emergency Shield Overload I:
+    CapacitorNeed: 60.0
+    Cpu: 42.0
+    Duration: 3000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    MetaLevel: 4.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 12.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 93.0
+    TechLevel: 1.0
+  Medium Clarity Ward Booster I:
+    CapacitorNeed: 60.0
+    Cpu: 40.0
+    Duration: 3000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.8999999761581421
+    Hp: 40.0
+    MetaLevel: 3.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 12.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 90.0
+    TechLevel: 1.0
+  Medium Converse Deflection Catalyzer:
+    CapacitorNeed: 60.0
+    Cpu: 47.0
+    Duration: 3000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 12.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 82.0
+    TechLevel: 1.0
+  Medium Neutron Saturation Injector I:
+    CapacitorNeed: 60.0
+    Cpu: 45.0
+    Duration: 3000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.8999999761581421
+    Hp: 40.0
+    MetaLevel: 2.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 12.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 85.0
+    TechLevel: 1.0
+  Medium Shield Booster I:
+    CapacitorNeed: 60.0
+    Cpu: 50.0
+    Duration: 3000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.0
+    Hp: 40.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 12.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 78.0
+    TechLevel: 1.0
+  Medium Shield Booster II:
+    CapacitorNeed: 60.0
+    Cpu: 58.0
+    Duration: 3000.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 1.0
+    Hp: 40.0
+    MetaLevel: 5.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 13.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 104.0
+    TechLevel: 2.0
+  Pith A-Type Large Shield Booster:
+    CapacitorNeed: 160.0
+    Cpu: 111.0
+    Duration: 3200.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 343.0
+    TechLevel: 1.0
+  Pith A-Type X-Large Shield Booster:
+    CapacitorNeed: 400.0
+    Cpu: 221.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 858.0
+    TechLevel: 1.0
+  Pith B-Type Large Shield Booster:
+    CapacitorNeed: 160.0
+    Cpu: 102.0
+    Duration: 3200.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 317.0
+    TechLevel: 1.0
+  Pith B-Type X-Large Shield Booster:
+    CapacitorNeed: 400.0
+    Cpu: 204.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 792.0
+    TechLevel: 1.0
+  Pith C-Type Large Shield Booster:
+    CapacitorNeed: 160.0
+    Cpu: 94.0
+    Duration: 3200.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 290.0
+    TechLevel: 1.0
+  Pith C-Type X-Large Shield Booster:
+    CapacitorNeed: 400.0
+    Cpu: 187.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 726.0
+    TechLevel: 1.0
+  Pith X-Type Large Shield Booster:
+    CapacitorNeed: 160.0
+    Cpu: 119.0
+    Duration: 3200.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 370.0
+    TechLevel: 1.0
+  Pith X-Type X-Large Shield Booster:
+    CapacitorNeed: 400.0
+    Cpu: 238.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 14.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 924.0
+    TechLevel: 1.0
+  Pithi A-Type Small Shield Booster:
+    CapacitorNeed: 20.0
+    Cpu: 28.0
+    Duration: 2000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 2.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 76.0
+    TechLevel: 1.0
+  Pithi B-Type Small Shield Booster:
+    CapacitorNeed: 20.0
+    Cpu: 26.0
+    Duration: 2000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 2.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 65.0
+    TechLevel: 1.0
+  Pithi C-Type Small Shield Booster:
+    CapacitorNeed: 20.0
+    Cpu: 24.0
+    Duration: 2000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 2.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 55.0
+    TechLevel: 1.0
+  Pithum A-Type Medium Shield Booster:
+    CapacitorNeed: 60.0
+    Cpu: 56.0
+    Duration: 3000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 13.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 12.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 228.0
+    TechLevel: 1.0
+  Pithum B-Type Medium Shield Booster:
+    CapacitorNeed: 60.0
+    Cpu: 51.0
+    Duration: 3000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 12.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 12.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 194.0
+    TechLevel: 1.0
+  Pithum C-Type Medium Shield Booster:
+    CapacitorNeed: 60.0
+    Cpu: 47.0
+    Duration: 3000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.0
+    Hp: 40.0
+    MetaGroupID: 6.0
+    MetaLevel: 11.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 12.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 163.0
+    TechLevel: 1.0
+  Republic Fleet Large Shield Booster:
+    CapacitorNeed: 128.0
+    Cpu: 85.0
+    Duration: 3200.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 221.0
+    TechLevel: 1.0
+  Republic Fleet Medium Shield Booster:
+    CapacitorNeed: 48.0
+    Cpu: 42.0
+    Duration: 2400.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 12.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 83.0
+    TechLevel: 1.0
   Republic Fleet Small Shield Booster:
     CapacitorNeed: 16.0
     Cpu: 21.0
@@ -1353,6 +1177,88 @@ items:
     Hp: 40.0
     MetaGroupID: 4.0
     MetaLevel: 8.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 2.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 28.0
+    TechLevel: 1.0
+  Republic Fleet X-Large Shield Booster:
+    CapacitorNeed: 320.0
+    Cpu: 170.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 552.0
+    TechLevel: 1.0
+  Small 'Settler' Shield Booster:
+    CapacitorNeed: 20.0
+    Cpu: 21.0
+    Duration: 2000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 2.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 28.0
+    TechLevel: 1.0
+  Small C5-L Emergency Shield Overload I:
+    CapacitorNeed: 20.0
+    Cpu: 21.0
+    Duration: 2000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    MetaLevel: 4.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 2.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 31.0
+    TechLevel: 1.0
+  Small Clarity Ward Booster I:
+    CapacitorNeed: 20.0
+    Cpu: 20.0
+    Duration: 2000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    MetaLevel: 3.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 2.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 30.0
+    TechLevel: 1.0
+  Small Converse Deflection Catalyzer:
+    CapacitorNeed: 20.0
+    Cpu: 23.0
+    Duration: 2000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    MetaLevel: 1.0
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10.0
     Power: 2.0
@@ -1377,39 +1283,236 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     ShieldBonus: 29.0
     TechLevel: 1.0
-  Dread Guristas X-Large Shield Booster:
+  Small Shield Booster I:
+    CapacitorNeed: 20.0
+    Cpu: 25.0
+    Duration: 2000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 2.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 26.0
+    TechLevel: 1.0
+  Small Shield Booster II:
+    CapacitorNeed: 20.0
+    Cpu: 29.0
+    Duration: 2000.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 0.800000011920929
+    Hp: 40.0
+    MetaLevel: 5.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 3.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 35.0
+    TechLevel: 2.0
+  Thon's Modified Large Shield Booster:
+    CapacitorNeed: 160.0
+    Cpu: 102.0
+    Duration: 3200.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 317.0
+    TechLevel: 1.0
+  Thon's Modified X-Large Shield Booster:
     CapacitorNeed: 400.0
-    Cpu: 170.0
+    Cpu: 204.0
     Duration: 4000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 1.100000023841858
     Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10.0
     Power: 500.0
     RequiredSkill1: 3416.0
     RequiredSkill1Level: 3.0
     RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 630.0
+    ShieldBonus: 792.0
     TechLevel: 1.0
-  Gistum C-Type Medium Shield Booster:
-    CapacitorNeed: 32.0
-    Cpu: 43.0
-    Duration: 3000.0
+  Tobias' Modified Large Shield Booster:
+    CapacitorNeed: 102.0
+    Cpu: 85.0
+    Duration: 3200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
+    HeatDamage: 1.100000023841858
     Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10.0
-    Power: 12.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 296.0
+    TechLevel: 1.0
+  Tobias' Modified X-Large Shield Booster:
+    CapacitorNeed: 204.0
+    Cpu: 170.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 739.0
+    TechLevel: 1.0
+  True Sansha Capital Shield Booster:
+    CapacitorNeed: 1900.0
+    Cpu: 240.0
+    Duration: 10000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.299999952316284
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 67500.0
+    RequiredSkill1: 21802.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 9400.0
+    TechLevel: 1.0
+  Vepas' Modified Large Shield Booster:
+    CapacitorNeed: 160.0
+    Cpu: 111.0
+    Duration: 3200.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 150.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 2.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 343.0
+    TechLevel: 1.0
+  Vepas' Modified X-Large Shield Booster:
+    CapacitorNeed: 400.0
+    Cpu: 221.0
+    Duration: 4000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 858.0
+    TechLevel: 1.0
+  X-Large 'Locomotive' Shield Booster:
+    CapacitorNeed: 400.0
+    Cpu: 170.0
+    Duration: 5000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.399999976158142
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 450.0
     RequiredSkill1: 3416.0
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 116.0
+    ShieldBonus: 552.0
+    TechLevel: 1.0
+  X-Large C5-L Emergency Shield Overload I:
+    CapacitorNeed: 400.0
+    Cpu: 170.0
+    Duration: 5000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.100000023841858
+    Hp: 40.0
+    MetaLevel: 4.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 621.0
+    TechLevel: 1.0
+  X-Large Clarity Ward Booster I:
+    CapacitorNeed: 400.0
+    Cpu: 160.0
+    Duration: 5000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.2000000476837158
+    Hp: 40.0
+    MetaLevel: 3.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 596.0
+    TechLevel: 1.0
+  X-Large Converse Deflection Catalyzer:
+    CapacitorNeed: 400.0
+    Cpu: 190.0
+    Duration: 5000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.2999999523162842
+    Hp: 40.0
+    MetaLevel: 1.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 544.0
+    TechLevel: 1.0
+  X-Large Neutron Saturation Injector I:
+    CapacitorNeed: 400.0
+    Cpu: 180.0
+    Duration: 5000.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 1.2000000476837158
+    Hp: 40.0
+    MetaLevel: 2.0
+    OverloadSelfDurationBonus: -15.0
+    OverloadShieldBonus: 10.0
+    Power: 500.0
+    RequiredSkill1: 3416.0
+    RequiredSkill1Level: 3.0
+    RequiredThermoDynamicsSkill: 1.0
+    ShieldBonus: 569.0
     TechLevel: 1.0
   X-Large Shield Booster I:
     CapacitorNeed: 400.0
@@ -1426,122 +1529,19 @@ items:
     RequiredThermoDynamicsSkill: 1.0
     ShieldBonus: 518.0
     TechLevel: 1.0
-  Dread Guristas Small Shield Booster:
-    CapacitorNeed: 20.0
-    Cpu: 21.0
-    Duration: 1600.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 2.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 32.0
-    TechLevel: 1.0
-  Gistii A-Type Small Shield Booster:
-    CapacitorNeed: 13.0
-    Cpu: 21.0
-    Duration: 2000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 2.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 57.0
-    TechLevel: 1.0
-  CONCORD Capital Shield Booster:
-    CapacitorNeed: 2400.0
-    Cpu: 260.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.299999952316284
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 71250.0
-    RequiredSkill1: 21802.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 9750.0
-    TechLevel: 1.0
-  Pith C-Type X-Large Shield Booster:
+  X-Large Shield Booster II:
     CapacitorNeed: 400.0
-    Cpu: 187.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
+    Cpu: 230.0
+    Duration: 5000.0
+    HeatAbsorbtionRateModifier: 0.019999999552965164
+    HeatDamage: 1.399999976158142
     Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 11.0
+    MetaLevel: 5.0
     OverloadSelfDurationBonus: -15.0
     OverloadShieldBonus: 10.0
-    Power: 500.0
+    Power: 550.0
     RequiredSkill1: 3416.0
-    RequiredSkill1Level: 3.0
+    RequiredSkill1Level: 5.0
     RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 726.0
-    TechLevel: 1.0
-  Caldari Navy Small Shield Booster:
-    CapacitorNeed: 20.0
-    Cpu: 21.0
-    Duration: 1600.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 9.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 2.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 32.0
-    TechLevel: 1.0
-  Gist A-Type Large Shield Booster:
-    CapacitorNeed: 98.0
-    Cpu: 85.0
-    Duration: 3200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 6.0
-    MetaLevel: 13.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 270.0
-    TechLevel: 1.0
-  Kaikka's Modified Large Shield Booster:
-    CapacitorNeed: 160.0
-    Cpu: 94.0
-    Duration: 3200.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10.0
-    Power: 150.0
-    RequiredSkill1: 3416.0
-    RequiredSkill1Level: 2.0
-    RequiredThermoDynamicsSkill: 1.0
-    ShieldBonus: 290.0
-    TechLevel: 1.0
+    ShieldBonus: 690.0
+    TechLevel: 2.0

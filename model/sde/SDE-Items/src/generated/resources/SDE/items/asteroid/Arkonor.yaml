@@ -1,12 +1,36 @@
 items:
-  Prime Arkonor:
+  Arkonor:
     AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
+    AsteroidMetaLevel: 1.0
     AsteroidRadiusGrowthFactor: 0.8500000238418579
     AsteroidRadiusUnitSize: 600.0
     CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28387.0
+    CompressionTypeID: 28367.0
     OreBasicType: 22.0
+    ReprocessingSkillType: 12180.0
+    RequiredSkill1: 3386.0
+  Compressed Arkonor:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 1.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 22.0
+    ReprocessingSkillType: 12180.0
+    RequiredSkill1: 3386.0
+  Compressed Crimson Arkonor:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 2.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 22.0
+    ReprocessingSkillType: 12180.0
+    RequiredSkill1: 3386.0
+  Compressed Flawless Arkonor:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 4.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 46678.0
     ReprocessingSkillType: 12180.0
     RequiredSkill1: 3386.0
   Compressed Prime Arkonor:
@@ -27,17 +51,8 @@ items:
     OreBasicType: 22.0
     ReprocessingSkillType: 12180.0
     RequiredSkill1: 3386.0
-  Compressed Arkonor:
+  Flawed Arkonor:
     AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 22.0
-    ReprocessingSkillType: 12180.0
-    RequiredSkill1: 3386.0
-  Compressed Crimson Arkonor:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90.0
     OreBasicType: 22.0
@@ -60,28 +75,13 @@ items:
     OreBasicType: 22.0
     ReprocessingSkillType: 12180.0
     RequiredSkill1: 3386.0
-  Arkonor:
+  Prime Arkonor:
     AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 3.0
     AsteroidRadiusGrowthFactor: 0.8500000238418579
     AsteroidRadiusUnitSize: 600.0
     CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28367.0
-    OreBasicType: 22.0
-    ReprocessingSkillType: 12180.0
-    RequiredSkill1: 3386.0
-  Compressed Flawless Arkonor:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 4.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 46678.0
-    ReprocessingSkillType: 12180.0
-    RequiredSkill1: 3386.0
-  Flawed Arkonor:
-    AsteroidMaxRadius: 16255.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
+    CompressionTypeID: 28387.0
     OreBasicType: 22.0
     ReprocessingSkillType: 12180.0
     RequiredSkill1: 3386.0

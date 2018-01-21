@@ -1,939 +1,44 @@
 items:
-  Crates of Rocket Fuel:
+  A Lot of Money:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Corrupted Trinary Relics:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Hauteker Memoirs:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'Manportable Electromagnetic Pulse Weapons ':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Zemnar:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Elena Gazky's DNA:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Spirits:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Synthetic Oil:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Platinum Medallion of Freedom:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Planetary Vehicles:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Neophite:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Soil:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Gallente Gamma Nexus Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Manportable Electromagnetic Pulse Weapons:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Nidupadian Yorak Eggs:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Y-Axis Calibration Coordinate:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Temple Stone:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Personal Information Data:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Covert Recording Device:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Ulamon's Data Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Zor's DNA:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Refurbished Mining Drones:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Pallet of Ditanium Metal Plates:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Broken Self-Harmonizing Power Core:
-    ExportTaxMultiplier: 250.0
-    ImportTaxMultiplier: 250.0
-  Victor Emblem:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Unidentified Ancient Technology:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Encoded Data Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Frozen Plant Seeds:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Amarr Training Certification Results:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Gallente Federation Transaction And Salary Logs:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Massive Sealed Cargo Containers:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Singing Staff:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  State Diplomatic Documents:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Encoded Lai Dai Reports:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Smuggler's Warning About Sister Alitura:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Letters of Bishop Dalamaid:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Ornamental Necklace:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Raggy Dolls:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Intermediate Medal:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Mordur's DNA:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Octomet Dog Tags:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Cryo-Stored Luminaire Skippers:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Foiritan Sculpture:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Amarr Religious Holoreels:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Viral Agent:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Salvaged Electronics:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Mizara's Doll:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Electronic Parts:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Special Forces Weapons and Equipment:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Holoreels:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Industrial-Grade Tritanium-Alloy Scraps:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Complex Fullerene Shard:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Pro-Trade Pamphlets:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Drive Cluster EDF-285:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Red:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Federation Emissary Medallion:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Minmatar UUB Nexus Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Small Warded Container:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Customs Patrol Schedule:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  The Fire in Our Hearts:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Guidance Systems:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Aidonis Honorary Fellow Medallion:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Quafe Unleashed formula:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Exclusive Simo Reshar Fitness Holoreels:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Boundless Creations Security Codes:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Contained Cerrocentite:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Portable Emergency Heating Units:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Quafe Ultra Special Edition:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Minmatar DNA:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Onyx Heart of Valor:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Vaccine Injectors:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Token of Submission:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Cipher Router:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Group of Angel Cartel VIPs:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Smurgleblaster:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  CONCORD MTAC:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Group of Civilian Workers and Dependents:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Dagger of Coricia:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Amarr TIL-1 Nexus Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Steel Order of the Cold:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Defiled Relics:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Demographic Analyses:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Empire Diplomatic Documents:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Counterfeit Minmatar Faction Ammo:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Deteis Family:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'Proof of Discovery: Ore Passkey':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Legends Medal:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Robotics:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Long-limb Roes:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Khumaak:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  S.I Formula Sheet:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Senatorial Silver Star:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Broken Sterile Conduits:
-    ExportTaxMultiplier: 250.0
-    ImportTaxMultiplier: 250.0
-  Ditanium Metal Plates:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Gallente Beta Nexus Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Sansha Data Sheets:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  PDW-09FX Tactical Subroutines:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Kennel of Hybrid Slaver Hounds:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Alliance Tournament Bronze Medal:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Unidentified Fibrous Compound:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Badge of Prophet Kuria:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Spear of Matar:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  X-Axis Calibration Coordinate:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Construction Blocks:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Cerebral Slice:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Liparer Cheese:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Transmitters:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Enriched Uranium:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Aerogel Counteragent:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Protein Delicacies:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Caldari CU-1 Nexus Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Brutor Tribe Roster:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Ottin Holoreels Case:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Olfei Medallion:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Fertilizer:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Defunct Drone Sensor Module:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Trinary Data:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Zemnar:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Fraudulent Pax Amarria:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Feille d'Marnne Champagne:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Central Data Core:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Alliance Tournament Gold Medal:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Unknown Dead:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Verification Key:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Olufami's DNA:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Target Painter Deflection Plating:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Barrels of Water:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Caldari Traitor's DNA:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Broken Integrity Response Drones:
-    ExportTaxMultiplier: 250.0
-    ImportTaxMultiplier: 250.0
-  Ralie Ardanne's Belongings:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Archaeological Lot GV87-426-E Artifacts:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Physical Samples:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Nugoeihuvi Data Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Corporations for the Rest of Us:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'Address #298 Audio Fragment':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Faulty Suntendi Virtu-Real Implant:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'Operation Stillwater: Synopsis':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Refined C-86 Epoxy Resin:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Enlightened Soul Silver Shield:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Federation Diplomatic Documents:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Nanoplastic Membrane Patch:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Mechanical Parts:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'Crate of Prototype Body Armor Fabric ':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Small Arms:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Star Charts:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Recovered Radioactive Materials:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Rogue Drone 42-X Nexus Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Foiritan Voucher:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Water:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Group of Angel Cartel VIPs:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Self-regulating Machine Gears:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Blaque Voucher:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Privateer Commander's Head:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Feille d'Marnne Champagne:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Tribal Sponsorship:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Drug Contact List:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Cartel Holovids:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Guristas ‘Dirty' Explosive System:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Broken Recursive Computing Module:
-    ExportTaxMultiplier: 250.0
-    ImportTaxMultiplier: 250.0
-  Crates of Harroule Dryweed:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Bootleg Holoreels:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Epidermis Sliver:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Cryo-Stored Luminaire Skippers:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Autrech Voucher:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Survivor:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Small Sealed Cargo Containers:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Improved Inertial Compensation Systems:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Frozen Plant Seeds:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Intravenous Oscillation Fluid:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Reports:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  DNA Sample:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Republic Diplomatic Documents:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Caldari Navy Overlay Transponder:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  X-Rated Holoreel:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'Report R:081-9568 ':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Vitoc:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Ishukone Corporate Records:
+  AIMEDs:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
   Acceleration Gate Authentication Matrix:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Sword of Pator:
+  Accounting Records:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Hive Mind CPU:
+  'Address #298 Audio Fragment':
     ExportTaxMultiplier: 1.0
-    Hp: 100.0
     ImportTaxMultiplier: 1.0
-  Mysterious Statuette:
+  Advisory Notes:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Freedom of Operation License:
+  Aerogel Counteragent:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Large Group of Mannar Textile Institute International Representatives:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Liberty Tattoo of the Minmatar Nation:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Garbage:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Drill Parts:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Phenod's DNA:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Rogue Drone 43-X Nexus Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Experimental ECM Hybrid Rounds:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Spintric Coin:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Drezin's DNA:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Standard Decoding Device:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Native Freshfood Special:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Strange Mechanical Device:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Riot Interdiction Team:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  High-Tech Scanner:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Synthetic Coffee:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'CPF.HYA LogInt Facility POI-26: Data Cache':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Giant Sealed Cargo Containers:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Protein Delicacies:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Galeptos Medicine:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Cryogenic Stasis Capsule:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Industrial-Grade Tritanium-Alloy Scraps:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Coolant:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Counterfeit Voluval Tattoo Chemicals:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Criminal DNA:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large 'Fortizar' Citadel BPC Token:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Environmentally-friendly Mining Equipment:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Listening Post Recordings:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Suspicious Holoreels:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Tobacco:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Pax Ammaria:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Alliance Tournament Cup:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Holoreel – Torture Log I15B:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Research Component:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Harroule Dryweed:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Water:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Battery Cartridge:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Group of The Hooded Men:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Special Delivery:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Gallentean Planetary Vehicles:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Medical Supplies:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Harvester Components:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Guristas Research Data:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Environmentally-friendly Mining Equipment:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Intaki Clackers:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Kruul's DNA:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Broken Organic Mortar Applicators:
-    ExportTaxMultiplier: 250.0
-    ImportTaxMultiplier: 250.0
-  Crates of Drill Parts:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Insorum Booster Prototype:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Electronic Parts:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Insta-Lock:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Aerogel Counteragent:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Liver Bile:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Riot Interdiction Teams:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Broken Mining Equipment:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Angel Cartel Plans:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Neurowave Pattern Scanner:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Altered Datacore - Mechanical Engineering:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Vitoc:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Unidentified Fibrous Compound:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Guristas War Plans:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Minmatar UUC Nexus Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Confiscated Vitoc:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Ardorele Heirloom:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  SARO Emblem:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Research Tools:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Frozen Food:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Missile Guidance Systems:
+  Aidonis Honorary Fellow Medallion:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
   Air Show Entrance Badge:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Blue Paradise:
+  Alliance Tournament Bronze Medal:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Test Dummies:
+  Alliance Tournament Cup:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Router Encryption Key:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  True Slave Decryption Node:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Wildfire Khumaak:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Holoreels:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Portable Emergency Heating Units:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  DisX Stash:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Radio Ray Modulate Disc:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'Holoreel: Wanted for Love':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Strange Datacore:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Decoy Prototype Cloaking Devices:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Criminal Dog Tag:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Odd Data Crystals:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Certification Results:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Report R:081-9560:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Primordial Biomass:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Clearance Documents:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Hyasyoda Captain:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Antique Vheriokor Statue:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Decoy Prototype Cloaking Devices:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Manchura's Logs:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Rogue Drone 46-X Nexus Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Spools of Quantrium Wiring:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Farming Supplies:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Hybrid Slaver Hounds:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Sealed Cargo Containers:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Covert Research Tools:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Incriminating Evidence:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Whelan Machorin's Head:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Drill Parts:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Ancient Amarrian Relic:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Pax Amarria:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Refurbished Mining Drones:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Bronze Sculpture:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Book of St. Arzad:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  New Eden Open Silver Medal:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Small Arms:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Galeptos Medicine:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Spirits:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Arms Cache:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'Special Forces Weapons and Equipment ':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Custom Circuitry:
+  Alliance Tournament Gold Medal:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
   Alliance Tournament Silver Medal:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Gold Sculpture:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Obsidian Datacore:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Caldari BY-1 Nexus Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Clearance Papers:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  A Lot of Money:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Federal Star of Justice:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Encrypted Data Fragment:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Ishukone Operational Reports:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Hidden Data Sheets:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Consumer Electronics:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Unassembled Energy Weapons:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Hand of Arzad:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Long-limb Roes:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Traditional Board Game:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  PDW-09FX Data Shell:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'Proof of Discovery: Ore':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Research Data Fragment:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Ekala's Design Documents:
+  Altered Datacore - Mechanical Engineering:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
   Amarr Empire Transaction And Salary Logs:
@@ -942,433 +47,40 @@ items:
   Amarr KIU-1 Nexus Chip:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Runaway Daughter:
+  Amarr MIY-1 Nexus Chip:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  'Proof of Discovery: Gas':
+  Amarr Religious Holoreels:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Silver Sculpture:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Sacred Bricks:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Communications Logs:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  New Eden Genome Amalgam:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Corrupted Drone Components:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Sareko's Capsule:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Star of the Sefrim:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Tobacco:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Heap-Load of Garbage:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Amphere 9:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  The Benevolent:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Defense of Caldari Prime Ribbon:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Experimental ECM Hybrid Rounds:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Design Documents:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Command Reports:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Badly Mangled Components:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Medium 'Astrahus' Citadel BPC Token:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Religious Artifact:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Rogue Drone A.I. Core:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Broken Broadcast Node:
-    ExportTaxMultiplier: 250.0
-    ImportTaxMultiplier: 250.0
-  Large Special Delivery:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  The Education of the Starkmanir:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Soil:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Fertilizer:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Repair Parts:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Mono-Cell Batteries:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Top-Secret Design Documents:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Group of Coriault Couture Collective Display Employees:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Empire Emissary Medallion:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Havatiah's Ship Database:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Recovered Data Core:
-    ExportTaxMultiplier: 50.0
-    ImportTaxMultiplier: 50.0
-  Ancient Painblade:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Bronze Order of the Mountain:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Ammatar Transaction and salary logs:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Encrypted Data Crystals:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Engraved Blood Obsidian tablet:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Mechanical Parts:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Quantrium Wiring:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Training Certificate:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Novice Medal:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of High-Tech Small Arms:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Data Sheets:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Spiced Wine:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Luther Veron's Head:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  New Eden Open Bronze Medal:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Contained Mesarchonite:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Assault on Caldari Prime Ribbon:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Minmatar Training Certification Results:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Construction Blocks:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Exclusive Simo Reshar Fitness Holoreels:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  High-Tech Data Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Construction Materials:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Cross of the Sacred Throne Order:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Frozen Food:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Republic Emissary Medallion:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Civilian Workers and Dependents:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Bone Splinter:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Gamma Ray Modulate Disc:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Group of Haakar's Striking Hawks:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Colossal Sealed Cargo Containers:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Heart Stone:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Sealed Research Cache:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Classified Report - Station Defenses:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Blood Obsidian Orb:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Iron Order of the Storm:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Tattered Doll:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'Proof of Discovery: Relic':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Splinter Bodyguard:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Message from the Governor:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'Prototype Body Armor Fabric ':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Gallente 106 Election Holoreel:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Quantum Entanglement:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Questionable Cargo:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Biomechanical Interface Data:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Corporate Documents:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Rocket Fuel:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Caldari AZ-1 Nexus Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Transmitters:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Oxygen:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Gallentean Viral Agent:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Mono-Cell Batteries:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Sansha Command Signal Receiver:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'Proof of Discovery: Data':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Broken Wetware Mainframe:
-    ExportTaxMultiplier: 250.0
-    ImportTaxMultiplier: 250.0
-  Enigmatic Reports:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of OP Insecticide:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Number Box:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Raggy Dolls:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Talocan Station Life-Support Cores:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Korim Kor-Azor:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Ultra! Promotional Holoreel:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Recovered Navigation Telemetry:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Kidnapping Evidence:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Gold Medallion of Liberty:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Broken Nano-Factory:
-    ExportTaxMultiplier: 250.0
-    ImportTaxMultiplier: 250.0
-  Federation Court Logs:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Spintrixiate Rewards Coin:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Synthetic Oil:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Old Map:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crate of Architectural-Quality Plagioclase Paneling:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Subcompact TEBS Interface:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Wolf Burgan's DNA:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Z-Axis Calibration Coordinate:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Data Sheets:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Amarrian Wheat:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Replacement Parts:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Blood Drop:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Correspondence Log KL-513:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Caldari State Transaction And Salary Logs:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Barrels of Soil:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Minmatar UUA Nexus Chip:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Virgin Forest Pulp:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Transaction And Salary Logs:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Infrared Ray Modulate Disc:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Insorum:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Architectural-Quality Plagioclase Paneling:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Encrypted Transmission:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Jovian Delegates:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Damning Evidence:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Amarr Scripture Educational Study Packages (Matari translation):
+  Amarr TIL-1 Nexus Chip:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
   'Amarr TIL-1A Nexus Chips ':
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  New Eden Open Gold Medal:
+  Amarr Training Certification Results:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Minmatar Republic Transaction And Salary Logs:
+  Amarrian Wheat:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Modified G-67 Nexus Chip:
+  Ammatar Transaction and salary logs:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Honorary Federal Harbormaster Pennon:
+  Amphere 9:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  AIMEDs:
+  Ancient Amarrian Relic:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Network Decryption Analyzer:
+  Ancient Painblade:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  State Emissary Medallion:
+  Angel Cartel Plans:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Signed Copy of Pax Amarria:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Guidance Systems:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Cargo Manifest:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Wolf Burgan's Body Double:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Silicon:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Accounting Records:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Blue Paradise:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Advisory Notes:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Planetary Vehicles:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Major Effects:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Capital Ship Design – “Dictator”:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Honorary Fabricator-General Baton:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Komni History (2 of 2):
+  Antique Vheriokor Statue:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
   Antiviral Drugs:
@@ -1377,155 +89,1443 @@ items:
   Archives Passkey:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Crates of Reports:
+  Ardorele Heirloom:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Crates of Liparer Cheese:
+  Arms Cache:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Korrani's DNA:
+  Assault on Caldari Prime Ribbon:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Honorary Fleet Architect Badge:
+  Autrech Voucher:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Food-Borne Toxin:
+  Badge of Prophet Kuria:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Large Crates of Polytextiles:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Rebellion Cache:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Archaeological Lot GV87-426-D Artifacts:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'Proof of Discovery: Gas Passkey':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Dr. Castille's Data Core (Property of CreoDron):
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Oxygen:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  'Mangled Sansha Data Analyzer ':
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Strange Coded Document:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Target Painter Deflection Plating:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Folkloric Painting:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Garbage:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Dem's Galactical Botanical:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  New Eden Open Fourth Place Medal:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Foundation Stone:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Drone Tracking Data:
+  Badly Mangled Components:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
   Barrels of Fertilizer:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Encoded Message:
+  Barrels of Soil:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Gallente Alpha Nexus Chip:
+  Barrels of Water:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Komni History (1 of 2):
+  Battery Cartridge:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Honorary Brigadier of Engineers Insignia:
+  Biomechanical Interface Data:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Blaque Voucher:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Blood Drop:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Blood Obsidian Orb:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Blue Paradise:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Bone Splinter:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Book of St. Arzad:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Boundless Creations Security Codes:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Broken Broadcast Node:
+    ExportTaxMultiplier: 250.0
+    ImportTaxMultiplier: 250.0
+  Broken Integrity Response Drones:
+    ExportTaxMultiplier: 250.0
+    ImportTaxMultiplier: 250.0
+  Broken Mining Equipment:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Broken Nano-Factory:
+    ExportTaxMultiplier: 250.0
+    ImportTaxMultiplier: 250.0
+  Broken Organic Mortar Applicators:
+    ExportTaxMultiplier: 250.0
+    ImportTaxMultiplier: 250.0
+  Broken Recursive Computing Module:
+    ExportTaxMultiplier: 250.0
+    ImportTaxMultiplier: 250.0
+  Broken Self-Harmonizing Power Core:
+    ExportTaxMultiplier: 250.0
+    ImportTaxMultiplier: 250.0
+  Broken Sterile Conduits:
+    ExportTaxMultiplier: 250.0
+    ImportTaxMultiplier: 250.0
+  Broken Wetware Mainframe:
+    ExportTaxMultiplier: 250.0
+    ImportTaxMultiplier: 250.0
+  Bronze Order of the Mountain:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Bronze Sculpture:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Brutor Tribe Roster:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  CONCORD MTAC:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'CPF.HYA LogInt Facility POI-26: Data Cache':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Caldari AZ-1 Nexus Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Caldari BY-1 Nexus Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Caldari CU-1 Nexus Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Caldari Navy Overlay Transponder:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Caldari State Transaction And Salary Logs:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Caldari Traitor's DNA:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Capital Ship Design – “Dictator”:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Cargo Manifest:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Cartel Holovids:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Central Data Core:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Cerebral Slice:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Certification Results:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Cipher Router:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Civilian Workers and Dependents:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Classified Report - Station Defenses:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Clearance Documents:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Clearance Papers:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Colossal Sealed Cargo Containers:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Communications Logs:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Complex Fullerene Shard:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Confiscated Vitoc:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
   Consolidated Holdings Commander Access Key:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
+  Construction Materials:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Corporations for the Rest of Us:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Correspondence Log KL-513:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Corrupted Drone Components:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Corrupted Trinary Relics:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Counterfeit Minmatar Faction Ammo:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Counterfeit Voluval Tattoo Chemicals:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Covert Recording Device:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Covert Research Tools:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Aerogel Counteragent:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Amarr Religious Holoreels:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Amarr Scripture Educational Study Packages (Matari translation):
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Amarr TIL-1A Nexus Chips:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Archaeological Lot GV87-426-D Artifacts:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Architectural-Quality Plagioclase Paneling:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Blue Paradise:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Bootleg Holoreels:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Contained Cerrocentite:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Cryo-Stored Luminaire Skippers:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Decoy Prototype Cloaking Devices:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Environmentally-friendly Mining Equipment:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Exclusive Simo Reshar Fitness Holoreels:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Experimental ECM Hybrid Rounds:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Feille d'Marnne Champagne:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Harvester Components:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Industrial-Grade Tritanium-Alloy Scraps:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Manportable Electromagnetic Pulse Weapons:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Portable Emergency Heating Units:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'Crate of Prototype Body Armor Fabric ':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Refined C-86 Epoxy Resin:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Refurbished Mining Drones:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Special Forces Weapons and Equipment:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Target Painter Deflection Plating:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Unidentified Ancient Technology:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crate of Unidentified Fibrous Compound:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Clothing:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Command Reports:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Construction Blocks:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Consumer Electronics:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Coolant:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Corporate Documents:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Data Sheets:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Drill Parts:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Electronic Parts:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Enriched Uranium:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Fertilizer:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Frozen Food:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Frozen Plant Seeds:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Garbage:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Guidance Systems:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Harroule Dryweed:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of High-Tech Small Arms:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Holoreels:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Liparer Cheese:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Listening Post Recordings:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Long-limb Roes:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Mechanical Parts:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Missile Guidance Systems:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Mono-Cell Batteries:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of OP Insecticide:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Odd Data Crystals:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Oxygen:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Planetary Vehicles:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Protein Delicacies:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Raggy Dolls:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Repair Parts:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Replacement Parts:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Reports:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Robotics:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Rocket Fuel:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Silicate Glass:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Silicon:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Small Arms:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Soil:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Spiced Wine:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Spirits:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Synthetic Oil:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Tobacco:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Transmitters:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Vaccine Injectors:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Viral Agent:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Vitoc:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Water:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Crates of Zemnar:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Criminal DNA:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Criminal Dog Tag:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Cross of the Sacred Throne Order:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Cryogenic Stasis Capsule:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Custom Circuitry:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Customs Patrol Schedule:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  DNA Sample:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Dagger of Coricia:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Damning Evidence:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Decoy Prototype Cloaking Devices:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Defense of Caldari Prime Ribbon:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Defiled Relics:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Defunct Drone Sensor Module:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Dem's Galactical Botanical:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Demographic Analyses:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Design Documents:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Deteis Family:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  DisX Stash:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Ditanium Metal Plates:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Dossier – Author Unknown:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Dr. Castille's Data Core (Property of CreoDron):
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Drezin's DNA:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Drill Parts:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Drive Cluster EDF-285:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Drone Tracking Data:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Drug Contact List:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Dysfunctional Fluid Router:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Ekala's Design Documents:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Elena Gazky's DNA:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Empire Diplomatic Documents:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Empire Emissary Medallion:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Encoded Data Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Encoded Lai Dai Reports:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Encoded Message:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Encrypted Data Crystals:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Encrypted Data Fragment:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Encrypted Transmission:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Engraved Blood Obsidian tablet:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Enigmatic Reports:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Enlightened Soul Silver Shield:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Environmentally-friendly Mining Equipment:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Epidermis Sliver:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Farming Supplies:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Faulty Suntendi Virtu-Real Implant:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Federal Star of Justice:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Federation Court Logs:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Federation Diplomatic Documents:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Federation Emissary Medallion:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Foiritan Sculpture:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Foiritan Voucher:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Folkloric Painting:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Food-Borne Toxin:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Foundation Stone:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Fraudulent Pax Amarria:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Freedom of Operation License:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Galeptos Medicine:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Gallente 106 Election Holoreel:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Gallente Alpha Nexus Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Gallente Beta Nexus Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Gallente Federation Transaction And Salary Logs:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Gallente Gamma Nexus Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Gallentean Planetary Vehicles:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Gallentean Viral Agent:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Gamma Ray Modulate Disc:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Giant Sealed Cargo Containers:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Gold Medallion of Liberty:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Gold Sculpture:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Group of Angel Cartel VIPs:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Group of Coriault Couture Collective Display Employees:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Group of Haakar's Striking Hawks:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Guristas Research Data:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Guristas War Plans:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Guristas ‘Dirty' Explosive System:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Hand of Arzad:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Hauteker Memoirs:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Havatiah's Ship Database:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Heap-Load of Garbage:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Heart Stone:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Hidden Data Sheets:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  High-Tech Data Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  High-Tech Manufacturing Tools:
+    ExportTaxMultiplier: 1.0
+    Hp: 100.0
+    ImportTaxMultiplier: 1.0
+  High-Tech Scanner:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
   High-Tech Small Arms:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Hive Mind CPU:
+    ExportTaxMultiplier: 1.0
+    Hp: 100.0
+    ImportTaxMultiplier: 1.0
+  Holoreel – Torture Log I15B:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'Holoreel: Wanted for Love':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Honorary Brigadier of Engineers Insignia:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Honorary Fabricator-General Baton:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Honorary Federal Harbormaster Pennon:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Honorary Fleet Architect Badge:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Hyasyoda Captain:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Hybrid Slaver Hounds:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Incriminating Evidence:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Infrared Ray Modulate Disc:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Inquest Drone:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Insorum:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Insorum Booster Prototype:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Insta-Lock:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Intaki Clackers:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Intermediate Medal:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Intravenous Oscillation Fluid:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Iron Order of the Storm:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Ishukone Corporate Records:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Ishukone Operational Reports:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Jovian Delegates:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Kennel of Hybrid Slaver Hounds:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Keron's Head:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Khumaak:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Kidnapping Evidence:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Komni History (1 of 2):
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Komni History (2 of 2):
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Korim Kor-Azor:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Korrani's DNA:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Kruul's DNA:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large 'Fortizar' Citadel BPC Token:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Amarr Scripture Educational Study Packages (Matari translation):
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Archaeological Lot GV87-426-E Artifacts:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Architectural-Quality Plagioclase Paneling:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Contained Mesarchonite:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Cryo-Stored Luminaire Skippers:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Exclusive Simo Reshar Fitness Holoreels:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Experimental ECM Hybrid Rounds:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Feille d'Marnne Champagne:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Harvester Components:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Improved Inertial Compensation Systems:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Industrial-Grade Tritanium-Alloy Scraps:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Portable Emergency Heating Units:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Refurbished Mining Drones:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Suspicious Holoreels:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Talocan Station Life-Support Cores:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Target Painter Deflection Plating:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crate of Unidentified Fibrous Compound:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Construction Blocks:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Coolant:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Data Sheets:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Drill Parts:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Electronic Parts:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Fertilizer:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Frozen Food:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Frozen Plant Seeds:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Galeptos Medicine:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Garbage:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Guidance Systems:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Harroule Dryweed:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Holoreels:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Liparer Cheese:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Long-limb Roes:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Mechanical Parts:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Mono-Cell Batteries:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Oxygen:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Planetary Vehicles:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Polytextiles:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Protein Delicacies:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Raggy Dolls:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Reports:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Rocket Fuel:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Small Arms:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Soil:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Spirits:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Synthetic Oil:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Tobacco:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Transmitters:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Viral Agent:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Vitoc:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Crates of Water:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Group of Angel Cartel VIPs:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Group of Civilian Workers and Dependents:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Group of Mannar Textile Institute International Representatives:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Group of The Hooded Men:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Sealed Cargo Containers:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Large Special Delivery:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Legends Medal:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Letters of Bishop Dalamaid:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Liberty Tattoo of the Minmatar Nation:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Liver Bile:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Luther Veron's Head:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Major Effects:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Manchura's Logs:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'Mangled Sansha Data Analyzer ':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'Manportable Electromagnetic Pulse Weapons ':
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
   Manufacturing Tools:
     ExportTaxMultiplier: 1.0
     Hp: 100.0
     ImportTaxMultiplier: 1.0
-  High-Tech Manufacturing Tools:
-    ExportTaxMultiplier: 1.0
-    Hp: 100.0
-    ImportTaxMultiplier: 1.0
-  Crate of Amarr Religious Holoreels:
+  Massive Sealed Cargo Containers:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Crates of Coolant:
+  Medical Supplies:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Large Crate of Harvester Components:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Zazzmatazz:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Keron's Head:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Singed Datapad:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  St. Arzad:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crate of Amarr TIL-1A Nexus Chips:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Survivors:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Dysfunctional Fluid Router:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Inquest Drone:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Crates of Silicate Glass:
-    ExportTaxMultiplier: 1.0
-    ImportTaxMultiplier: 1.0
-  Large Crates of Viral Agent:
+  Medium 'Astrahus' Citadel BPC Token:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
   Medium Sized Sealed Cargo Containers:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
+  Message from the Governor:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Minmatar DNA:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Minmatar Republic Transaction And Salary Logs:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Minmatar Training Certification Results:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Minmatar UUA Nexus Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Minmatar UUB Nexus Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Minmatar UUC Nexus Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Mizara's Doll:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Modified Augumene Antidote:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Modified G-67 Nexus Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Mordur's DNA:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Mysterious Statuette:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Nanoplastic Membrane Patch:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Native Freshfood Special:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Neophite:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Network Decryption Analyzer:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Neurowave Pattern Scanner:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  New Eden Genome Amalgam:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  New Eden Open Bronze Medal:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  New Eden Open Fourth Place Medal:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  New Eden Open Gold Medal:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  New Eden Open Silver Medal:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Nidupadian Yorak Eggs:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Novice Medal:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Nugoeihuvi Data Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Number Box:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Obsidian Datacore:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Octomet Dog Tags:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Old Map:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Olfei Medallion:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Olufami's DNA:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Onyx Heart of Valor:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'Operation Stillwater: Synopsis':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Ornamental Necklace:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Ottin Holoreels Case:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  PDW-09FX Data Shell:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  PDW-09FX Tactical Subroutines:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Pallet of Ditanium Metal Plates:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Pax Amarria:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Pax Ammaria:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Personal Information Data:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Phenod's DNA:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Physical Samples:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Platinum Medallion of Freedom:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Primordial Biomass:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Privateer Commander's Head:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Pro-Trade Pamphlets:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
   'Proof of Discovery: Anomalies':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'Proof of Discovery: Data':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'Proof of Discovery: Gas':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'Proof of Discovery: Gas Passkey':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'Proof of Discovery: Ore':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'Proof of Discovery: Ore Passkey':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'Proof of Discovery: Relic':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'Prototype Body Armor Fabric ':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Quafe Ultra Special Edition:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Quafe Unleashed formula:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Quantrium Wiring:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Quantum Entanglement:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Questionable Cargo:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Radio Ray Modulate Disc:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Ralie Ardanne's Belongings:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Rebellion Cache:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Recovered Data Core:
+    ExportTaxMultiplier: 50.0
+    ImportTaxMultiplier: 50.0
+  Recovered Navigation Telemetry:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Recovered Radioactive Materials:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Red:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Religious Artifact:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Report R:081-9560:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'Report R:081-9568 ':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Republic Diplomatic Documents:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Republic Emissary Medallion:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Research Component:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Research Data Fragment:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Research Tools:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Riot Interdiction Team:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Riot Interdiction Teams:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Rogue Drone 42-X Nexus Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Rogue Drone 43-X Nexus Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Rogue Drone 46-X Nexus Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Rogue Drone A.I. Core:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Router Encryption Key:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Runaway Daughter:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  S.I Formula Sheet:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  SARO Emblem:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Sacred Bricks:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Salvaged Electronics:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Sansha Command Signal Receiver:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Sansha Data Sheets:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Sareko's Capsule:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Sealed Research Cache:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Self-regulating Machine Gears:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Senatorial Silver Star:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
   Shiez Kuzaks Ship Database:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Dossier – Author Unknown:
+  Signed Copy of Pax Amarria:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Crates of Clothing:
+  Silver Sculpture:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Amarr MIY-1 Nexus Chip:
+  Singed Datapad:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Large Crate of Amarr Scripture Educational Study Packages (Matari translation):
+  Singing Staff:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0
-  Modified Augumene Antidote:
+  Small Sealed Cargo Containers:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Small Warded Container:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Smuggler's Warning About Sister Alitura:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Smurgleblaster:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Spear of Matar:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Special Delivery:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  'Special Forces Weapons and Equipment ':
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Spintric Coin:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Spintrixiate Rewards Coin:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Splinter Bodyguard:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Spools of Quantrium Wiring:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  St. Arzad:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Standard Decoding Device:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Star Charts:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Star of the Sefrim:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  State Diplomatic Documents:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  State Emissary Medallion:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Steel Order of the Cold:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Strange Coded Document:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Strange Datacore:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Strange Mechanical Device:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Subcompact TEBS Interface:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Survivor:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Survivors:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Sword of Pator:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Synthetic Coffee:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Tattered Doll:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Temple Stone:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Test Dummies:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  The Benevolent:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  The Education of the Starkmanir:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  The Fire in Our Hearts:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Token of Submission:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Top-Secret Design Documents:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Traditional Board Game:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Training Certificate:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Transaction And Salary Logs:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Tribal Sponsorship:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Trinary Data:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  True Slave Decryption Node:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Ulamon's Data Chip:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Ultra! Promotional Holoreel:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Unassembled Energy Weapons:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Unknown Dead:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Verification Key:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Victor Emblem:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Virgin Forest Pulp:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Whelan Machorin's Head:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Wildfire Khumaak:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Wolf Burgan's Body Double:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Wolf Burgan's DNA:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  X-Axis Calibration Coordinate:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  X-Rated Holoreel:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Y-Axis Calibration Coordinate:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Z-Axis Calibration Coordinate:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Zazzmatazz:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Zemnar:
+    ExportTaxMultiplier: 1.0
+    ImportTaxMultiplier: 1.0
+  Zor's DNA:
     ExportTaxMultiplier: 1.0
     ImportTaxMultiplier: 1.0

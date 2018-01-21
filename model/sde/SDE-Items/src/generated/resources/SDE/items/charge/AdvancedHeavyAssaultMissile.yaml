@@ -1,4 +1,82 @@
 items:
+  Inferno Javelin Heavy Assault Missile:
+    Agility: 0.0019947297405451536
+    AimedLaunch: 1.0
+    AoeCloudSize: 125.0
+    AoeDamageReductionFactor: 0.8949999809265137
+    AoeFalloff: 1500.0
+    AoeVelocity: 101.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 4000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 60.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 771.0
+    MaxVelocity: 3375.0
+    MetaLevel: 5.0
+    RequiredSkill1: 25718.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 25719.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3319.0
+    RequiredSkill3Level: 5.0
+    StructureUniformity: 1.0
+    TechLevel: 2.0
+    ThermalDamage: 90.0
+    ThermalDamageResonance: 0.800000011920929
+  Inferno Rage Heavy Assault Missile:
+    Agility: 67.54669189453125
+    AimedLaunch: 1.0
+    AoeCloudSize: 215.0
+    AoeDamageReductionFactor: 0.9200000166893005
+    AoeFalloff: 1500.0
+    AoeVelocity: 87.0
+    DetonationRange: 35.0
+    EmDamageResonance: 1.0
+    ExplosionDelay: 4000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 180.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 771.0
+    MaxVelocity: 1875.0
+    MetaLevel: 5.0
+    RequiredSkill1: 25718.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 25719.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3319.0
+    RequiredSkill3Level: 5.0
+    StructureUniformity: 1.0
+    TechLevel: 2.0
+    ThermalDamage: 135.0
+    ThermalDamageResonance: 0.800000011920929
+  Mjolnir Javelin Heavy Assault Missile:
+    Agility: 0.0019947297405451536
+    AimedLaunch: 1.0
+    AoeCloudSize: 125.0
+    AoeDamageReductionFactor: 0.8949999809265137
+    AoeFalloff: 1500.0
+    AoeVelocity: 101.0
+    DetonationRange: 35.0
+    EmDamage: 90.0
+    EmDamageResonance: 0.800000011920929
+    ExplosionDelay: 4000.0
+    ExplosiveDamageResonance: 1.0
+    Hp: 60.0
+    KineticDamageResonance: 1.0
+    LauncherGroup: 771.0
+    MaxVelocity: 3375.0
+    MetaLevel: 5.0
+    RequiredSkill1: 25718.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 25719.0
+    RequiredSkill2Level: 5.0
+    RequiredSkill3: 3319.0
+    RequiredSkill3Level: 5.0
+    StructureUniformity: 1.0
+    TechLevel: 2.0
+    ThermalDamageResonance: 1.0
   Mjolnir Rage Heavy Assault Missile:
     Agility: 67.54669189453125
     AimedLaunch: 1.0
@@ -15,32 +93,6 @@ items:
     KineticDamageResonance: 1.0
     LauncherGroup: 771.0
     MaxVelocity: 1875.0
-    MetaLevel: 5.0
-    RequiredSkill1: 25718.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 25719.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
-    StructureUniformity: 1.0
-    TechLevel: 2.0
-    ThermalDamageResonance: 1.0
-  Scourge Javelin Heavy Assault Missile:
-    Agility: 0.0019947297405451536
-    AimedLaunch: 1.0
-    AoeCloudSize: 125.0
-    AoeDamageReductionFactor: 0.8949999809265137
-    AoeFalloff: 1500.0
-    AoeVelocity: 101.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 4000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 60.0
-    KineticDamage: 90.0
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 771.0
-    MaxVelocity: 3375.0
     MetaLevel: 5.0
     RequiredSkill1: 25718.0
     RequiredSkill1Level: 1.0
@@ -103,7 +155,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2.0
     ThermalDamageResonance: 1.0
-  Inferno Javelin Heavy Assault Missile:
+  Scourge Javelin Heavy Assault Missile:
     Agility: 0.0019947297405451536
     AimedLaunch: 1.0
     AoeCloudSize: 125.0
@@ -115,7 +167,8 @@ items:
     ExplosionDelay: 4000.0
     ExplosiveDamageResonance: 1.0
     Hp: 60.0
-    KineticDamageResonance: 1.0
+    KineticDamage: 90.0
+    KineticDamageResonance: 0.800000011920929
     LauncherGroup: 771.0
     MaxVelocity: 3375.0
     MetaLevel: 5.0
@@ -127,8 +180,7 @@ items:
     RequiredSkill3Level: 5.0
     StructureUniformity: 1.0
     TechLevel: 2.0
-    ThermalDamage: 90.0
-    ThermalDamageResonance: 0.800000011920929
+    ThermalDamageResonance: 1.0
   Scourge Rage Heavy Assault Missile:
     Agility: 67.54669189453125
     AimedLaunch: 1.0
@@ -145,58 +197,6 @@ items:
     KineticDamageResonance: 0.800000011920929
     LauncherGroup: 771.0
     MaxVelocity: 1875.0
-    MetaLevel: 5.0
-    RequiredSkill1: 25718.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 25719.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
-    StructureUniformity: 1.0
-    TechLevel: 2.0
-    ThermalDamageResonance: 1.0
-  Inferno Rage Heavy Assault Missile:
-    Agility: 67.54669189453125
-    AimedLaunch: 1.0
-    AoeCloudSize: 215.0
-    AoeDamageReductionFactor: 0.9200000166893005
-    AoeFalloff: 1500.0
-    AoeVelocity: 87.0
-    DetonationRange: 35.0
-    EmDamageResonance: 1.0
-    ExplosionDelay: 4000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 180.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 771.0
-    MaxVelocity: 1875.0
-    MetaLevel: 5.0
-    RequiredSkill1: 25718.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 25719.0
-    RequiredSkill2Level: 5.0
-    RequiredSkill3: 3319.0
-    RequiredSkill3Level: 5.0
-    StructureUniformity: 1.0
-    TechLevel: 2.0
-    ThermalDamage: 135.0
-    ThermalDamageResonance: 0.800000011920929
-  Mjolnir Javelin Heavy Assault Missile:
-    Agility: 0.0019947297405451536
-    AimedLaunch: 1.0
-    AoeCloudSize: 125.0
-    AoeDamageReductionFactor: 0.8949999809265137
-    AoeFalloff: 1500.0
-    AoeVelocity: 101.0
-    DetonationRange: 35.0
-    EmDamage: 90.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 4000.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 60.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 771.0
-    MaxVelocity: 3375.0
     MetaLevel: 5.0
     RequiredSkill1: 25718.0
     RequiredSkill1Level: 1.0

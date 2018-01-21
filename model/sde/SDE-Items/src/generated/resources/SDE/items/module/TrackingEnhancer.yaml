@@ -1,35 +1,16 @@
 items:
-  Tracking Enhancer II:
-    Cpu: 15.0
-    FalloffBonus: 20.0
-    Hp: 40.0
-    MaxRangeBonus: 10.0
-    MetaLevel: 5.0
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 2.0
-    TrackingSpeedBonus: 9.5
-  Beam Parallax Tracking Program:
+  '''Basic'' Tracking Enhancer':
     Cpu: 4.0
-    FalloffBonus: 8.0
+    FalloffBonus: 10.0
     Hp: 40.0
-    MaxRangeBonus: 4.0
+    MaxRangeBonus: 5.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
     Power: 1.0
     RequiredSkill1: 3318.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
     TrackingSpeedBonus: 6.0
-  Beta-Nought Tracking Mode:
-    Cpu: 4.0
-    FalloffBonus: 7.0
-    Hp: 40.0
-    MaxRangeBonus: 3.5
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: 5.25
   Auto-Gain Control Tracking Enhancer I:
     Cpu: 9.0
     FalloffBonus: 14.600000381469727
@@ -51,85 +32,26 @@ items:
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
     TrackingSpeedBonus: 5.5
-  Tracking Enhancer I:
-    Cpu: 10.0
-    FalloffBonus: 14.5
-    Hp: 40.0
-    MaxRangeBonus: 7.25
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: 7.0
-  Hakim's Modified Tracking Enhancer:
-    Cpu: 14.0
-    FalloffBonus: 23.0
-    Hp: 40.0
-    MaxRangeBonus: 11.5
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: 15.0
-  Gotan's Modified Tracking Enhancer:
-    Cpu: 16.0
-    FalloffBonus: 24.0
-    Hp: 40.0
-    MaxRangeBonus: 12.0
-    MetaGroupID: 5.0
-    MetaLevel: 15.0
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: 17.5
-  F-AQ Delay-Line Scan Tracking Subroutines:
+  Beam Parallax Tracking Program:
     Cpu: 4.0
-    FalloffBonus: 7.599999904632568
+    FalloffBonus: 8.0
     Hp: 40.0
-    MaxRangeBonus: 3.799999952316284
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: 5.75
-  Mizuro's Modified Tracking Enhancer:
-    Cpu: 12.0
-    FalloffBonus: 22.0
-    Hp: 40.0
-    MaxRangeBonus: 11.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: 12.5
-  Sigma-Nought Tracking Mode I:
-    Cpu: 8.0
-    FalloffBonus: 14.0
-    Hp: 40.0
-    MaxRangeBonus: 7.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill1: 3318.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    TrackingSpeedBonus: 7.349999904632568
-  '''Basic'' Tracking Enhancer':
-    Cpu: 4.0
-    FalloffBonus: 10.0
-    Hp: 40.0
-    MaxRangeBonus: 5.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
+    MaxRangeBonus: 4.0
     Power: 1.0
     RequiredSkill1: 3318.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
     TrackingSpeedBonus: 6.0
+  Beta-Nought Tracking Mode:
+    Cpu: 4.0
+    FalloffBonus: 7.0
+    Hp: 40.0
+    MaxRangeBonus: 3.5
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 5.25
   Domination Tracking Enhancer:
     Cpu: 8.0
     FalloffBonus: 21.0
@@ -142,6 +64,16 @@ items:
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
     TrackingSpeedBonus: 10.0
+  F-AQ Delay-Line Scan Tracking Subroutines:
+    Cpu: 4.0
+    FalloffBonus: 7.599999904632568
+    Hp: 40.0
+    MaxRangeBonus: 3.799999952316284
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 5.75
   F-aQ Phase Code Tracking Subroutines:
     Cpu: 8.0
     FalloffBonus: 15.399999618530273
@@ -164,18 +96,42 @@ items:
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
     TrackingSpeedBonus: 8.0
-  Tobias' Modified Tracking Enhancer:
-    Cpu: 18.0
-    FalloffBonus: 25.0
+  Gotan's Modified Tracking Enhancer:
+    Cpu: 16.0
+    FalloffBonus: 24.0
     Hp: 40.0
-    MaxRangeBonus: 12.5
+    MaxRangeBonus: 12.0
     MetaGroupID: 5.0
-    MetaLevel: 17.0
+    MetaLevel: 15.0
     Power: 1.0
     RequiredSkill1: 3318.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-    TrackingSpeedBonus: 20.0
+    TrackingSpeedBonus: 17.5
+  Hakim's Modified Tracking Enhancer:
+    Cpu: 14.0
+    FalloffBonus: 23.0
+    Hp: 40.0
+    MaxRangeBonus: 11.5
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 15.0
+  Mizuro's Modified Tracking Enhancer:
+    Cpu: 12.0
+    FalloffBonus: 22.0
+    Hp: 40.0
+    MaxRangeBonus: 11.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 12.5
   Republic Fleet Tracking Enhancer:
     Cpu: 8.0
     FalloffBonus: 21.0
@@ -188,3 +144,47 @@ items:
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
     TrackingSpeedBonus: 10.0
+  Sigma-Nought Tracking Mode I:
+    Cpu: 8.0
+    FalloffBonus: 14.0
+    Hp: 40.0
+    MaxRangeBonus: 7.0
+    MetaLevel: 1.0
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 7.349999904632568
+  Tobias' Modified Tracking Enhancer:
+    Cpu: 18.0
+    FalloffBonus: 25.0
+    Hp: 40.0
+    MaxRangeBonus: 12.5
+    MetaGroupID: 5.0
+    MetaLevel: 17.0
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 20.0
+  Tracking Enhancer I:
+    Cpu: 10.0
+    FalloffBonus: 14.5
+    Hp: 40.0
+    MaxRangeBonus: 7.25
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    TrackingSpeedBonus: 7.0
+  Tracking Enhancer II:
+    Cpu: 15.0
+    FalloffBonus: 20.0
+    Hp: 40.0
+    MaxRangeBonus: 10.0
+    MetaLevel: 5.0
+    Power: 1.0
+    RequiredSkill1: 3318.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 2.0
+    TrackingSpeedBonus: 9.5

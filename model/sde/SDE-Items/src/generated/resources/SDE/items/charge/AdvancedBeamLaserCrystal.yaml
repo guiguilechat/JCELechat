@@ -1,23 +1,4 @@
 items:
-  Aurora M:
-    ChargeSize: 2.0
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1.0
-    EmDamage: 10.0
-    EntityFlyRangeMultiplier: 1.7999999523162842
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 12204.0
-    RequiredSkill1Level: 1.0
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    ThermalDamage: 6.0
-    TrackingSpeedMultiplier: 0.25
-    WeaponRangeMultiplier: 1.7999999523162842
   Aurora L:
     ChargeSize: 3.0
     CrystalVolatilityChance: 0.10000000149011612
@@ -37,37 +18,13 @@ items:
     ThermalDamage: 12.0
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
-  Lux S:
-    CapNeedBonus: 25.0
-    ChargeSize: 1.0
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1.0
-    EmDamage: 4.0
-    EntityFlyRangeMultiplier: 0.75
-    ExplosiveDamage: 16.0
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 11083.0
-    RequiredSkill1Level: 1.0
-    ShieldCapacityMultiplier: 1.0
-    SignatureRadiusMultiplier: 1.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    ThermalDamage: 4.0
-    TrackingSpeedMultiplier: 1.0
-    WeaponRangeMultiplier: 0.75
-  Lux M:
-    CapNeedBonus: 25.0
+  Aurora M:
     ChargeSize: 2.0
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
     CrystalsGetDamaged: 1.0
-    EmDamage: 4.0
-    EntityFlyRangeMultiplier: 0.75
-    ExplosiveDamage: 16.0
+    EmDamage: 10.0
+    EntityFlyRangeMultiplier: 1.7999999523162842
     Hp: 1.0
     LauncherGroup: 53.0
     MainColor: 2833864.0
@@ -75,12 +32,30 @@ items:
     RequiredSkill1: 12204.0
     RequiredSkill1Level: 1.0
     ShieldCapacityMultiplier: 1.0
-    SignatureRadiusMultiplier: 1.0
     SpeedMultiplier: 1.0
     TechLevel: 2.0
-    ThermalDamage: 4.0
-    TrackingSpeedMultiplier: 1.0
-    WeaponRangeMultiplier: 0.75
+    ThermalDamage: 6.0
+    TrackingSpeedMultiplier: 0.25
+    WeaponRangeMultiplier: 1.7999999523162842
+  Aurora S:
+    ChargeSize: 1.0
+    CrystalVolatilityChance: 0.10000000149011612
+    CrystalVolatilityDamage: 0.009999999776482582
+    CrystalsGetDamaged: 1.0
+    EmDamage: 5.0
+    EntityFlyRangeMultiplier: 1.7999999523162842
+    Hp: 1.0
+    LauncherGroup: 53.0
+    MainColor: 2833864.0
+    MetaLevel: 5.0
+    RequiredSkill1: 11083.0
+    RequiredSkill1Level: 1.0
+    ShieldCapacityMultiplier: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    ThermalDamage: 3.0
+    TrackingSpeedMultiplier: 0.25
+    WeaponRangeMultiplier: 1.7999999523162842
   Aurora XL:
     ChargeSize: 4.0
     CrystalVolatilityChance: 0.10000000149011612
@@ -138,25 +113,6 @@ items:
     ThermalDamage: 14.0
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
-  Aurora S:
-    ChargeSize: 1.0
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1.0
-    EmDamage: 5.0
-    EntityFlyRangeMultiplier: 1.7999999523162842
-    Hp: 1.0
-    LauncherGroup: 53.0
-    MainColor: 2833864.0
-    MetaLevel: 5.0
-    RequiredSkill1: 11083.0
-    RequiredSkill1Level: 1.0
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
-    TechLevel: 2.0
-    ThermalDamage: 3.0
-    TrackingSpeedMultiplier: 0.25
-    WeaponRangeMultiplier: 1.7999999523162842
   Gleam S:
     ChargeSize: 1.0
     CrystalVolatilityChance: 0.10000000149011612
@@ -174,6 +130,25 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2.0
     ThermalDamage: 7.0
+    TrackingSpeedMultiplier: 1.25
+    WeaponRangeMultiplier: 0.25
+  Gleam XL:
+    ChargeSize: 4.0
+    CrystalVolatilityChance: 0.10000000149011612
+    CrystalVolatilityDamage: 0.009999999776482582
+    CrystalsGetDamaged: 1.0
+    EmDamage: 56.0
+    EntityFlyRangeMultiplier: 0.25
+    Hp: 1.0
+    LauncherGroup: 53.0
+    MainColor: 2833864.0
+    MetaLevel: 5.0
+    RequiredSkill1: 41408.0
+    RequiredSkill1Level: 1.0
+    ShieldCapacityMultiplier: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    ThermalDamage: 56.0
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
   Lux L:
@@ -198,22 +173,47 @@ items:
     ThermalDamage: 8.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.75
-  Gleam XL:
-    ChargeSize: 4.0
+  Lux M:
+    CapNeedBonus: 25.0
+    ChargeSize: 2.0
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
     CrystalsGetDamaged: 1.0
-    EmDamage: 56.0
-    EntityFlyRangeMultiplier: 0.25
+    EmDamage: 4.0
+    EntityFlyRangeMultiplier: 0.75
+    ExplosiveDamage: 16.0
     Hp: 1.0
     LauncherGroup: 53.0
     MainColor: 2833864.0
     MetaLevel: 5.0
-    RequiredSkill1: 41408.0
+    RequiredSkill1: 12204.0
     RequiredSkill1Level: 1.0
     ShieldCapacityMultiplier: 1.0
+    SignatureRadiusMultiplier: 1.0
     SpeedMultiplier: 1.0
     TechLevel: 2.0
-    ThermalDamage: 56.0
-    TrackingSpeedMultiplier: 1.25
-    WeaponRangeMultiplier: 0.25
+    ThermalDamage: 4.0
+    TrackingSpeedMultiplier: 1.0
+    WeaponRangeMultiplier: 0.75
+  Lux S:
+    CapNeedBonus: 25.0
+    ChargeSize: 1.0
+    CrystalVolatilityChance: 0.10000000149011612
+    CrystalVolatilityDamage: 0.009999999776482582
+    CrystalsGetDamaged: 1.0
+    EmDamage: 4.0
+    EntityFlyRangeMultiplier: 0.75
+    ExplosiveDamage: 16.0
+    Hp: 1.0
+    LauncherGroup: 53.0
+    MainColor: 2833864.0
+    MetaLevel: 5.0
+    RequiredSkill1: 11083.0
+    RequiredSkill1Level: 1.0
+    ShieldCapacityMultiplier: 1.0
+    SignatureRadiusMultiplier: 1.0
+    SpeedMultiplier: 1.0
+    TechLevel: 2.0
+    ThermalDamage: 4.0
+    TrackingSpeedMultiplier: 1.0
+    WeaponRangeMultiplier: 0.75

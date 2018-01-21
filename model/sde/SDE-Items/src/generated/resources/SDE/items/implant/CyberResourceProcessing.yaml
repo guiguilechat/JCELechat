@@ -1,9 +1,15 @@
 items:
-  Inherent Implants 'Yeti' Ice Harvesting IH-1001:
-    IceHarvestCycleBonus: -1.0
-    Implantness: 10.0
+  Eifyr and Co. 'Alchemist' Gas Harvesting GH-801:
+    DurationBonus: -1.0
+    Implantness: 8.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Eifyr and Co. 'Alchemist' Gas Harvesting GH-803:
+    DurationBonus: -3.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
     TechLevel: 1.0
   Eifyr and Co. 'Alchemist' Gas Harvesting GH-805:
     DurationBonus: -5.0
@@ -11,23 +17,11 @@ items:
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 5.0
     TechLevel: 1.0
-  Inherent Implants 'Highwall' Mining MX-1005:
+  Inherent Implants 'Highwall' Mining MX-1001:
     Implantness: 10.0
-    MiningAmountBonus: 5.0
+    MiningAmountBonus: 1.0
     RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-  Inherent Implants 'Highwall' Mining Upgrades MU-1003:
-    Implantness: 10.0
-    MiningUpgradeCPUReductionBonus: -3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
-  Michi's Excavation Augmentor:
-    Implantness: 7.0
-    MiningAmountBonus: 5.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1Level: 1.0
     TechLevel: 1.0
   Inherent Implants 'Highwall' Mining MX-1003:
     Implantness: 10.0
@@ -35,9 +29,51 @@ items:
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 3.0
     TechLevel: 1.0
+  Inherent Implants 'Highwall' Mining MX-1005:
+    Implantness: 10.0
+    MiningAmountBonus: 5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Inherent Implants 'Highwall' Mining Upgrades MU-1001:
+    Implantness: 10.0
+    MiningUpgradeCPUReductionBonus: -3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Highwall' Mining Upgrades MU-1003:
+    Implantness: 10.0
+    MiningUpgradeCPUReductionBonus: -3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
   Inherent Implants 'Highwall' Mining Upgrades MU-1005:
     Implantness: 10.0
     MiningUpgradeCPUReductionBonus: -5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Inherent Implants 'Yeti' Ice Harvesting IH-1001:
+    IceHarvestCycleBonus: -1.0
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Inherent Implants 'Yeti' Ice Harvesting IH-1003:
+    IceHarvestCycleBonus: -3.0
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Inherent Implants 'Yeti' Ice Harvesting IH-1005:
+    IceHarvestCycleBonus: -5.0
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Michi's Excavation Augmentor:
+    Implantness: 7.0
+    MiningAmountBonus: 5.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 5.0
     TechLevel: 1.0
@@ -58,40 +94,4 @@ items:
     RefiningYieldMutator: 4.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-  Inherent Implants 'Highwall' Mining MX-1001:
-    Implantness: 10.0
-    MiningAmountBonus: 1.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Inherent Implants 'Highwall' Mining Upgrades MU-1001:
-    Implantness: 10.0
-    MiningUpgradeCPUReductionBonus: -3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Inherent Implants 'Yeti' Ice Harvesting IH-1003:
-    IceHarvestCycleBonus: -3.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
-  Eifyr and Co. 'Alchemist' Gas Harvesting GH-803:
-    DurationBonus: -3.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
-  Inherent Implants 'Yeti' Ice Harvesting IH-1005:
-    IceHarvestCycleBonus: -5.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-  Eifyr and Co. 'Alchemist' Gas Harvesting GH-801:
-    DurationBonus: -1.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
     TechLevel: 1.0

@@ -1,4 +1,42 @@
 items:
+  '''Basic'' Capacitor Power Relay':
+    CapacitorRechargeRateMultiplier: 0.8999999761581421
+    Cpu: 1.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: -5.0
+    TechLevel: 1.0
+  '''Motte'' Capacitor Power Relay I':
+    CapacitorRechargeRateMultiplier: 0.75
+    Cpu: 2.0
+    Hp: 40.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    ShieldBoostMultiplier: -7.0
+    TechLevel: 1.0
+  Ahremen's Modified Capacitor Power Relay:
+    CapacitorRechargeRateMultiplier: 0.6937500238418579
+    Cpu: 16.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 13.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    ShieldBoostMultiplier: -11.5
+    TechLevel: 1.0
+  'Alpha Reactor Control: Capacitor Power Relay':
+    CapacitorRechargeRateMultiplier: 0.8999999761581421
+    Cpu: 1.0
+    Hp: 40.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: -5.0
+    TechLevel: 1.0
   Ammatar Navy Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
     Cpu: 4.0
@@ -9,15 +47,14 @@ items:
     RequiredSkill1Level: 2.0
     ShieldBoostMultiplier: -8.0
     TechLevel: 1.0
-  Imperial Navy Capacitor Power Relay:
-    CapacitorRechargeRateMultiplier: 0.75
-    Cpu: 4.0
+  'Beta Reactor Control: Capacitor Power Relay I':
+    CapacitorRechargeRateMultiplier: 0.7599999904632568
+    Cpu: 3.0
     Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
+    MetaLevel: 4.0
     RequiredSkill1: 3424.0
     RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -8.0
+    ShieldBoostMultiplier: -10.0
     TechLevel: 1.0
   Brokara's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.731249988079071
@@ -29,22 +66,81 @@ items:
     RequiredSkill1Level: 2.0
     ShieldBoostMultiplier: -10.5
     TechLevel: 1.0
-  'Beta Reactor Control: Capacitor Power Relay I':
-    CapacitorRechargeRateMultiplier: 0.7599999904632568
-    Cpu: 3.0
+  Capacitor Power Relay I:
+    CapacitorRechargeRateMultiplier: 0.800000011920929
+    Cpu: 4.0
     Hp: 40.0
-    MetaLevel: 4.0
     RequiredSkill1: 3424.0
     RequiredSkill1Level: 2.0
     ShieldBoostMultiplier: -10.0
     TechLevel: 1.0
-  'Alpha Reactor Control: Capacitor Power Relay':
-    CapacitorRechargeRateMultiplier: 0.8999999761581421
-    Cpu: 1.0
+  Capacitor Power Relay II:
+    CapacitorRechargeRateMultiplier: 0.7599999904632568
+    Cpu: 8.0
     Hp: 40.0
+    MetaLevel: 5.0
     RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
-    ShieldBoostMultiplier: -5.0
+    RequiredSkill1Level: 4.0
+    ShieldBoostMultiplier: -11.0
+    TechLevel: 2.0
+  Chelm's Modified Capacitor Power Relay:
+    CapacitorRechargeRateMultiplier: 0.675000011920929
+    Cpu: 20.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    ShieldBoostMultiplier: -12.0
+    TechLevel: 1.0
+  Dark Blood Capacitor Power Relay:
+    CapacitorRechargeRateMultiplier: 0.75
+    Cpu: 4.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    ShieldBoostMultiplier: -8.0
+    TechLevel: 1.0
+  Draclira's Modified Capacitor Power Relay:
+    CapacitorRechargeRateMultiplier: 0.675000011920929
+    Cpu: 20.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 14.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    ShieldBoostMultiplier: -12.0
+    TechLevel: 1.0
+  Imperial Navy Capacitor Power Relay:
+    CapacitorRechargeRateMultiplier: 0.75
+    Cpu: 4.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    ShieldBoostMultiplier: -8.0
+    TechLevel: 1.0
+  Khanid Navy Capacitor Power Relay:
+    CapacitorRechargeRateMultiplier: 0.75
+    Cpu: 4.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    ShieldBoostMultiplier: -8.0
+    TechLevel: 1.0
+  'Local Power Plant Manager: Capacity Power Relay I':
+    CapacitorRechargeRateMultiplier: 0.7799999713897705
+    Cpu: 3.0
+    Hp: 40.0
+    MetaLevel: 2.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    ShieldBoostMultiplier: -10.0
     TechLevel: 1.0
   Makur's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579
@@ -56,15 +152,80 @@ items:
     RequiredSkill1Level: 2.0
     ShieldBoostMultiplier: -10.5
     TechLevel: 1.0
-  Capacitor Power Relay II:
-    CapacitorRechargeRateMultiplier: 0.7599999904632568
+  Mark I Compact Capacitor Power Relay:
+    CapacitorRechargeRateMultiplier: 0.7799999713897705
+    Cpu: 2.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    ShieldBoostMultiplier: -10.0
+    TechLevel: 1.0
+  'Marked Generator Refitting: Capacitor Power Relay':
+    CapacitorRechargeRateMultiplier: 0.8999999761581421
+    Cpu: 1.0
+    Hp: 40.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: -5.0
+    TechLevel: 1.0
+  'Partial Power Plant Manager: Capacity Power Relay':
+    CapacitorRechargeRateMultiplier: 0.8999999761581421
+    Cpu: 1.0
+    Hp: 40.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 1.0
+    ShieldBoostMultiplier: -5.0
+    TechLevel: 1.0
+  Raysere's Modified Capacitor Power Relay:
+    CapacitorRechargeRateMultiplier: 0.7124999761581421
+    Cpu: 12.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    ShieldBoostMultiplier: -11.0
+    TechLevel: 1.0
+  Selynne's Modified Capacitor Power Relay:
+    CapacitorRechargeRateMultiplier: 0.7124999761581421
+    Cpu: 12.0
+    Hp: 40.0
+    MetaGroupID: 5.0
+    MetaLevel: 12.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    ShieldBoostMultiplier: -11.0
+    TechLevel: 1.0
+  Tairei's Modified Capacitor Power Relay:
+    CapacitorRechargeRateMultiplier: 0.731249988079071
     Cpu: 8.0
     Hp: 40.0
-    MetaLevel: 5.0
+    MetaGroupID: 5.0
+    MetaLevel: 11.0
     RequiredSkill1: 3424.0
-    RequiredSkill1Level: 4.0
-    ShieldBoostMultiplier: -11.0
-    TechLevel: 2.0
+    RequiredSkill1Level: 2.0
+    ShieldBoostMultiplier: -10.5
+    TechLevel: 1.0
+  True Sansha Capacitor Power Relay:
+    CapacitorRechargeRateMultiplier: 0.75
+    Cpu: 4.0
+    Hp: 40.0
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    ShieldBoostMultiplier: -8.0
+    TechLevel: 1.0
+  Type-D Restrained Capacitor Power Relay:
+    CapacitorRechargeRateMultiplier: 0.7799999713897705
+    Cpu: 4.0
+    Hp: 40.0
+    MetaLevel: 1.0
+    RequiredSkill1: 3424.0
+    RequiredSkill1Level: 2.0
+    ShieldBoostMultiplier: -8.0
+    TechLevel: 1.0
   'Type-E Power Core Modification: Capacitor Power Relay':
     CapacitorRechargeRateMultiplier: 0.8999999761581421
     Cpu: 1.0
@@ -82,165 +243,4 @@ items:
     RequiredSkill1: 3424.0
     RequiredSkill1Level: 2.0
     ShieldBoostMultiplier: -11.5
-    TechLevel: 1.0
-  Chelm's Modified Capacitor Power Relay:
-    CapacitorRechargeRateMultiplier: 0.675000011920929
-    Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -12.0
-    TechLevel: 1.0
-  Mark I Compact Capacitor Power Relay:
-    CapacitorRechargeRateMultiplier: 0.7799999713897705
-    Cpu: 2.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -10.0
-    TechLevel: 1.0
-  Selynne's Modified Capacitor Power Relay:
-    CapacitorRechargeRateMultiplier: 0.7124999761581421
-    Cpu: 12.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -11.0
-    TechLevel: 1.0
-  'Marked Generator Refitting: Capacitor Power Relay':
-    CapacitorRechargeRateMultiplier: 0.8999999761581421
-    Cpu: 1.0
-    Hp: 40.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
-    ShieldBoostMultiplier: -5.0
-    TechLevel: 1.0
-  Tairei's Modified Capacitor Power Relay:
-    CapacitorRechargeRateMultiplier: 0.731249988079071
-    Cpu: 8.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 11.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -10.5
-    TechLevel: 1.0
-  '''Motte'' Capacitor Power Relay I':
-    CapacitorRechargeRateMultiplier: 0.75
-    Cpu: 2.0
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -7.0
-    TechLevel: 1.0
-  Draclira's Modified Capacitor Power Relay:
-    CapacitorRechargeRateMultiplier: 0.675000011920929
-    Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 14.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -12.0
-    TechLevel: 1.0
-  True Sansha Capacitor Power Relay:
-    CapacitorRechargeRateMultiplier: 0.75
-    Cpu: 4.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -8.0
-    TechLevel: 1.0
-  '''Basic'' Capacitor Power Relay':
-    CapacitorRechargeRateMultiplier: 0.8999999761581421
-    Cpu: 1.0
-    Hp: 40.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
-    ShieldBoostMultiplier: -5.0
-    TechLevel: 1.0
-  Khanid Navy Capacitor Power Relay:
-    CapacitorRechargeRateMultiplier: 0.75
-    Cpu: 4.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -8.0
-    TechLevel: 1.0
-  Dark Blood Capacitor Power Relay:
-    CapacitorRechargeRateMultiplier: 0.75
-    Cpu: 4.0
-    Hp: 40.0
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -8.0
-    TechLevel: 1.0
-  'Partial Power Plant Manager: Capacity Power Relay':
-    CapacitorRechargeRateMultiplier: 0.8999999761581421
-    Cpu: 1.0
-    Hp: 40.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 1.0
-    ShieldBoostMultiplier: -5.0
-    TechLevel: 1.0
-  'Local Power Plant Manager: Capacity Power Relay I':
-    CapacitorRechargeRateMultiplier: 0.7799999713897705
-    Cpu: 3.0
-    Hp: 40.0
-    MetaLevel: 2.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -10.0
-    TechLevel: 1.0
-  Ahremen's Modified Capacitor Power Relay:
-    CapacitorRechargeRateMultiplier: 0.6937500238418579
-    Cpu: 16.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 13.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -11.5
-    TechLevel: 1.0
-  Raysere's Modified Capacitor Power Relay:
-    CapacitorRechargeRateMultiplier: 0.7124999761581421
-    Cpu: 12.0
-    Hp: 40.0
-    MetaGroupID: 5.0
-    MetaLevel: 12.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -11.0
-    TechLevel: 1.0
-  Capacitor Power Relay I:
-    CapacitorRechargeRateMultiplier: 0.800000011920929
-    Cpu: 4.0
-    Hp: 40.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -10.0
-    TechLevel: 1.0
-  Type-D Restrained Capacitor Power Relay:
-    CapacitorRechargeRateMultiplier: 0.7799999713897705
-    Cpu: 4.0
-    Hp: 40.0
-    MetaLevel: 1.0
-    RequiredSkill1: 3424.0
-    RequiredSkill1Level: 2.0
-    ShieldBoostMultiplier: -8.0
     TechLevel: 1.0

@@ -1,41 +1,16 @@
 items:
-  Polymer Reactor Array:
-    AnchoringDelay: 5000.0
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Cpu: 1500.0
-    DisallowOffensiveModifiers: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 10000.0
-    OnliningDelay: 3000.0
-    Power: 125000.0
-    ReactionGroup1: 977.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 2.0
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000.0
-    Uniformity: 1.0
-  Vitoc Injection Center:
+  Academy:
     AnchoringDelay: 600000.0
     AnchoringSecurityLevelMax: 0.4000000059604645
     ArmorHP: 20000.0
     ArmorUniformity: 0.75
-    Cpu: 750.0
+    Cpu: 1250.0
     DisallowOffensiveModifiers: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1.0
     Hp: 10000.0
     OnliningDelay: 180000.0
     Power: 250000.0
-    ReactionGroup1: 882.0
+    ReactionGroup1: 436.0
     RequiredSkill1: 11584.0
     RequiredSkill1Level: 2.0
     ScanGravimetricStrength: 200.0
@@ -48,6 +23,31 @@ items:
     SignatureRadius: 2000.0
     StructureUniformity: 1.0
     UnanchoringDelay: 1200000.0
+    Uniformity: 1.0
+  Biochemical Reactor Array:
+    AnchoringDelay: 5000.0
+    AnchoringSecurityLevelMax: 0.4000000059604645
+    ArmorHP: 20000.0
+    ArmorUniformity: 0.75
+    Cpu: 1250.0
+    DisallowOffensiveModifiers: 1.0
+    FighterAbilityAntiCapitalMissileResistance: 1.0
+    Hp: 10000.0
+    OnliningDelay: 3000.0
+    Power: 250000.0
+    ReactionGroup1: 662.0
+    RequiredSkill1: 11584.0
+    RequiredSkill1Level: 2.0
+    ScanGravimetricStrength: 200.0
+    ScanLadarStrength: 200.0
+    ScanMagnetometricStrength: 200.0
+    ScanRadarStrength: 200.0
+    ShieldCapacity: 20000.0
+    ShieldRechargeRate: 800000.0
+    ShieldUniformity: 0.75
+    SignatureRadius: 2000.0
+    StructureUniformity: 1.0
+    UnanchoringDelay: 5000.0
     Uniformity: 1.0
   Complex Reactor Array:
     AnchoringDelay: 5000.0
@@ -62,6 +62,56 @@ items:
     Power: 250000.0
     ReactionGroup1: 436.0
     ReactionGroup2: 484.0
+    RequiredSkill1: 11584.0
+    RequiredSkill1Level: 2.0
+    ScanGravimetricStrength: 200.0
+    ScanLadarStrength: 200.0
+    ScanMagnetometricStrength: 200.0
+    ScanRadarStrength: 200.0
+    ShieldCapacity: 20000.0
+    ShieldRechargeRate: 800000.0
+    ShieldUniformity: 0.75
+    SignatureRadius: 2000.0
+    StructureUniformity: 1.0
+    UnanchoringDelay: 5000.0
+    Uniformity: 1.0
+  Medium Biochemical Reactor Array:
+    AnchoringDelay: 5000.0
+    AnchoringSecurityLevelMax: 0.4000000059604645
+    ArmorHP: 20000.0
+    ArmorUniformity: 0.75
+    Cpu: 750.0
+    DisallowOffensiveModifiers: 1.0
+    FighterAbilityAntiCapitalMissileResistance: 1.0
+    Hp: 10000.0
+    OnliningDelay: 3000.0
+    Power: 250000.0
+    ReactionGroup1: 661.0
+    RequiredSkill1: 11584.0
+    RequiredSkill1Level: 2.0
+    ScanGravimetricStrength: 200.0
+    ScanLadarStrength: 200.0
+    ScanMagnetometricStrength: 200.0
+    ScanRadarStrength: 200.0
+    ShieldCapacity: 20000.0
+    ShieldRechargeRate: 800000.0
+    ShieldUniformity: 0.75
+    SignatureRadius: 2000.0
+    StructureUniformity: 1.0
+    UnanchoringDelay: 5000.0
+    Uniformity: 1.0
+  Polymer Reactor Array:
+    AnchoringDelay: 5000.0
+    AnchoringSecurityLevelMax: 0.4000000059604645
+    ArmorHP: 20000.0
+    ArmorUniformity: 0.75
+    Cpu: 1500.0
+    DisallowOffensiveModifiers: 1.0
+    FighterAbilityAntiCapitalMissileResistance: 1.0
+    Hp: 10000.0
+    OnliningDelay: 3000.0
+    Power: 125000.0
+    ReactionGroup1: 977.0
     RequiredSkill1: 11584.0
     RequiredSkill1Level: 2.0
     ScanGravimetricStrength: 200.0
@@ -100,31 +150,6 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000.0
     Uniformity: 1.0
-  Academy:
-    AnchoringDelay: 600000.0
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Cpu: 1250.0
-    DisallowOffensiveModifiers: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 10000.0
-    OnliningDelay: 180000.0
-    Power: 250000.0
-    ReactionGroup1: 436.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 2.0
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 1200000.0
-    Uniformity: 1.0
   Trauma Treatment Facility:
     AnchoringDelay: 600000.0
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -150,8 +175,8 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1200000.0
     Uniformity: 1.0
-  Medium Biochemical Reactor Array:
-    AnchoringDelay: 5000.0
+  Vitoc Injection Center:
+    AnchoringDelay: 600000.0
     AnchoringSecurityLevelMax: 0.4000000059604645
     ArmorHP: 20000.0
     ArmorUniformity: 0.75
@@ -159,9 +184,9 @@ items:
     DisallowOffensiveModifiers: 1.0
     FighterAbilityAntiCapitalMissileResistance: 1.0
     Hp: 10000.0
-    OnliningDelay: 3000.0
+    OnliningDelay: 180000.0
     Power: 250000.0
-    ReactionGroup1: 661.0
+    ReactionGroup1: 882.0
     RequiredSkill1: 11584.0
     RequiredSkill1Level: 2.0
     ScanGravimetricStrength: 200.0
@@ -173,30 +198,5 @@ items:
     ShieldUniformity: 0.75
     SignatureRadius: 2000.0
     StructureUniformity: 1.0
-    UnanchoringDelay: 5000.0
-    Uniformity: 1.0
-  Biochemical Reactor Array:
-    AnchoringDelay: 5000.0
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Cpu: 1250.0
-    DisallowOffensiveModifiers: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    Hp: 10000.0
-    OnliningDelay: 3000.0
-    Power: 250000.0
-    ReactionGroup1: 662.0
-    RequiredSkill1: 11584.0
-    RequiredSkill1Level: 2.0
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000.0
+    UnanchoringDelay: 1200000.0
     Uniformity: 1.0

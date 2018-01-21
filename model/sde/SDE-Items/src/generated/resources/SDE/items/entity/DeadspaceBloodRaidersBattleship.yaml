@@ -1,22 +1,22 @@
 items:
-  Corpus Archbishop: {}
-  Corpus Harbinger: {}
-  Dark Corpus Archon: {}
-  Corpus Pope: {}
-  Corpus Monsignor: {}
-  Dark Corpus Archbishop: {}
-  Dark Corpus Patriarch: {}
-  Dark Corpus Oracle: {}
-  Dark Corpus Harbinger: {}
-  Dark Corpus Pope: {}
-  Dark Corpus Cardinal: {}
-  Dark Corpus Prophet: {}
-  Corpus Archon: {}
-  Corpus Oracle: {}
-  Corpus Cardinal: {}
-  Corpus Prophet: {}
-  Dark Corpus Monsignor: {}
   Corpus Apostle: {}
+  Corpus Archbishop: {}
+  Corpus Archon: {}
+  Corpus Cardinal: {}
+  Corpus Harbinger: {}
   Corpus Messiah: {}
-  Dark Corpus Apostle: {}
+  Corpus Monsignor: {}
+  Corpus Oracle: {}
   Corpus Patriarch: {}
+  Corpus Pope: {}
+  Corpus Prophet: {}
+  Dark Corpus Apostle: {}
+  Dark Corpus Archbishop: {}
+  Dark Corpus Archon: {}
+  Dark Corpus Cardinal: {}
+  Dark Corpus Harbinger: {}
+  Dark Corpus Monsignor: {}
+  Dark Corpus Oracle: {}
+  Dark Corpus Patriarch: {}
+  Dark Corpus Pope: {}
+  Dark Corpus Prophet: {}

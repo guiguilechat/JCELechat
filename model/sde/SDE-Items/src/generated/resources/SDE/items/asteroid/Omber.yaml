@@ -1,19 +1,9 @@
 items:
-  Compressed Silvery Omber:
+  Compressed Golden Omber:
     AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
+    AsteroidMetaLevel: 3.0
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1227.0
-    ReprocessingSkillType: 12190.0
-    RequiredSkill1: 3386.0
-  Silvery Omber:
-    AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 2.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 28417.0
     OreBasicType: 1227.0
     ReprocessingSkillType: 12190.0
     RequiredSkill1: 3386.0
@@ -25,29 +15,20 @@ items:
     OreBasicType: 1227.0
     ReprocessingSkillType: 12190.0
     RequiredSkill1: 3386.0
-  Compressed Golden Omber:
+  Compressed Platinoid Omber:
     AsteroidMaxRadius: 16255.0
-    AsteroidMetaLevel: 3.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1227.0
-    ReprocessingSkillType: 12190.0
-    RequiredSkill1: 3386.0
-  Mercium:
-    AsteroidMaxRadius: 16255.0
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 1227.0
-    ReprocessingSkillType: 12190.0
-    RequiredSkill1: 3386.0
-  Platinoid Omber:
-    AsteroidMaxRadius: 5000.0
     AsteroidMetaLevel: 4.0
-    AsteroidRadiusGrowthFactor: 0.09000000357627869
-    AsteroidRadiusUnitSize: 600.0
-    CompressionQuantityNeeded: 100.0
-    CompressionTypeID: 46700.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
     OreBasicType: 46684.0
+    ReprocessingSkillType: 12190.0
+    RequiredSkill1: 3386.0
+  Compressed Silvery Omber:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 2.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
+    OreBasicType: 1227.0
     ReprocessingSkillType: 12190.0
     RequiredSkill1: 3386.0
   Golden Omber:
@@ -57,6 +38,13 @@ items:
     AsteroidRadiusUnitSize: 90.0
     CompressionQuantityNeeded: 100.0
     CompressionTypeID: 28415.0
+    OreBasicType: 1227.0
+    ReprocessingSkillType: 12190.0
+    RequiredSkill1: 3386.0
+  Mercium:
+    AsteroidMaxRadius: 16255.0
+    AsteroidRadiusGrowthFactor: 1.0
+    AsteroidRadiusUnitSize: 90.0
     OreBasicType: 1227.0
     ReprocessingSkillType: 12190.0
     RequiredSkill1: 3386.0
@@ -70,11 +58,23 @@ items:
     OreBasicType: 1227.0
     ReprocessingSkillType: 12190.0
     RequiredSkill1: 3386.0
-  Compressed Platinoid Omber:
-    AsteroidMaxRadius: 16255.0
+  Platinoid Omber:
+    AsteroidMaxRadius: 5000.0
     AsteroidMetaLevel: 4.0
+    AsteroidRadiusGrowthFactor: 0.09000000357627869
+    AsteroidRadiusUnitSize: 600.0
+    CompressionQuantityNeeded: 100.0
+    CompressionTypeID: 46700.0
+    OreBasicType: 46684.0
+    ReprocessingSkillType: 12190.0
+    RequiredSkill1: 3386.0
+  Silvery Omber:
+    AsteroidMaxRadius: 16255.0
+    AsteroidMetaLevel: 2.0
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90.0
-    OreBasicType: 46684.0
+    CompressionQuantityNeeded: 100.0
+    CompressionTypeID: 28417.0
+    OreBasicType: 1227.0
     ReprocessingSkillType: 12190.0
     RequiredSkill1: 3386.0

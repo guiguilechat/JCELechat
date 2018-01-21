@@ -1,4 +1,14 @@
 items:
+  Scan Acquisition Array I:
+    Cpu: 30.0
+    Hp: 40.0
+    MaxGroupActive: 1.0
+    MaxGroupFitted: 1.0
+    Power: 1.0
+    RequiredSkill1: 25811.0
+    RequiredSkill1Level: 2.0
+    ScanDurationBonus: -10.0
+    TechLevel: 1.0
   Scan Acquisition Array II:
     Cpu: 30.0
     Hp: 40.0
@@ -10,13 +20,3 @@ items:
     RequiredSkill1Level: 5.0
     ScanDurationBonus: -20.0
     TechLevel: 2.0
-  Scan Acquisition Array I:
-    Cpu: 30.0
-    Hp: 40.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    Power: 1.0
-    RequiredSkill1: 25811.0
-    RequiredSkill1Level: 2.0
-    ScanDurationBonus: -10.0
-    TechLevel: 1.0

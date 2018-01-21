@@ -1,13 +1,13 @@
 items:
-  '''Halcyon'' Core Equalizer I':
-    Cpu: 24.0
+  '''Accord'' Core Compensation':
+    Cpu: 29.0
     Hp: 40.0
-    MaxTargetRangeBonus: -42.0
-    MetaLevel: 4.0
+    MaxTargetRangeBonus: -48.0
+    MetaLevel: 1.0
     Power: 1.0
     RequiredSkill1: 3455.0
     RequiredSkill1Level: 1.0
-    ScanResolutionMultiplier: 0.5799999833106995
+    ScanResolutionMultiplier: 0.5199999809265137
     TechLevel: 1.0
     WarpScrambleStrength: -1.0
   '''Aura'' Warp Core Stabilizer I':
@@ -22,6 +22,17 @@ items:
     ScanResolutionMultiplier: 0.5600000023841858
     TechLevel: 1.0
     WarpScrambleStrength: -1.0
+  '''Halcyon'' Core Equalizer I':
+    Cpu: 24.0
+    Hp: 40.0
+    MaxTargetRangeBonus: -42.0
+    MetaLevel: 4.0
+    Power: 1.0
+    RequiredSkill1: 3455.0
+    RequiredSkill1Level: 1.0
+    ScanResolutionMultiplier: 0.5799999833106995
+    TechLevel: 1.0
+    WarpScrambleStrength: -1.0
   '''Natura'' Warp Core Stabilizer I':
     Cpu: 20.0
     Hp: 40.0
@@ -34,16 +45,16 @@ items:
     ScanResolutionMultiplier: 0.6000000238418579
     TechLevel: 1.0
     WarpScrambleStrength: -1.0
-  Warp Core Stabilizer II:
-    Cpu: 35.0
+  '''Repose'' Core Compensation':
+    Cpu: 27.0
     Hp: 40.0
-    MaxTargetRangeBonus: -40.0
-    MetaLevel: 5.0
+    MaxTargetRangeBonus: -46.0
+    MetaLevel: 2.0
     Power: 1.0
     RequiredSkill1: 3455.0
-    RequiredSkill1Level: 4.0
-    ScanResolutionMultiplier: 0.6000000238418579
-    TechLevel: 2.0
+    RequiredSkill1Level: 1.0
+    ScanResolutionMultiplier: 0.5400000214576721
+    TechLevel: 1.0
     WarpScrambleStrength: -1.0
   '''Stoic'' Core Equalizer I':
     Cpu: 26.0
@@ -56,17 +67,6 @@ items:
     ScanResolutionMultiplier: 0.5600000023841858
     TechLevel: 1.0
     WarpScrambleStrength: -1.0
-  '''Accord'' Core Compensation':
-    Cpu: 29.0
-    Hp: 40.0
-    MaxTargetRangeBonus: -48.0
-    MetaLevel: 1.0
-    Power: 1.0
-    RequiredSkill1: 3455.0
-    RequiredSkill1Level: 1.0
-    ScanResolutionMultiplier: 0.5199999809265137
-    TechLevel: 1.0
-    WarpScrambleStrength: -1.0
   Warp Core Stabilizer I:
     Cpu: 30.0
     Hp: 40.0
@@ -77,14 +77,14 @@ items:
     ScanResolutionMultiplier: 0.5
     TechLevel: 1.0
     WarpScrambleStrength: -1.0
-  '''Repose'' Core Compensation':
-    Cpu: 27.0
+  Warp Core Stabilizer II:
+    Cpu: 35.0
     Hp: 40.0
-    MaxTargetRangeBonus: -46.0
-    MetaLevel: 2.0
+    MaxTargetRangeBonus: -40.0
+    MetaLevel: 5.0
     Power: 1.0
     RequiredSkill1: 3455.0
-    RequiredSkill1Level: 1.0
-    ScanResolutionMultiplier: 0.5400000214576721
-    TechLevel: 1.0
+    RequiredSkill1Level: 4.0
+    ScanResolutionMultiplier: 0.6000000238418579
+    TechLevel: 2.0
     WarpScrambleStrength: -1.0

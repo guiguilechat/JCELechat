@@ -1,39 +1,15 @@
 items:
-  Shining Xenotime:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 5.0
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45510.0
-    ReprocessingSkillType: 46156.0
-    RequiredSkill1: 3386.0
-  Shining Loparite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 5.0
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45512.0
-    ReprocessingSkillType: 46156.0
-    RequiredSkill1: 3386.0
-  Loparite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45512.0
-    ReprocessingSkillType: 46156.0
-    RequiredSkill1: 3386.0
-  Bountiful Ytterbite:
+  Bountiful Loparite:
     AsteroidMaxRadius: 5000.0
     AsteroidMetaLevel: 3.0
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45513.0
+    OreBasicType: 45512.0
     ReprocessingSkillType: 46156.0
     RequiredSkill1: 3386.0
-  Monazite:
+  Bountiful Monazite:
     AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 3.0
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600.0
     OreBasicType: 45511.0
@@ -47,9 +23,33 @@ items:
     OreBasicType: 45510.0
     ReprocessingSkillType: 46156.0
     RequiredSkill1: 3386.0
-  Bountiful Loparite:
+  Bountiful Ytterbite:
     AsteroidMaxRadius: 5000.0
     AsteroidMetaLevel: 3.0
+    AsteroidRadiusGrowthFactor: 1.5
+    AsteroidRadiusUnitSize: 600.0
+    OreBasicType: 45513.0
+    ReprocessingSkillType: 46156.0
+    RequiredSkill1: 3386.0
+  Loparite:
+    AsteroidMaxRadius: 5000.0
+    AsteroidMetaLevel: 1.0
+    AsteroidRadiusGrowthFactor: 1.5
+    AsteroidRadiusUnitSize: 600.0
+    OreBasicType: 45512.0
+    ReprocessingSkillType: 46156.0
+    RequiredSkill1: 3386.0
+  Monazite:
+    AsteroidMaxRadius: 5000.0
+    AsteroidMetaLevel: 1.0
+    AsteroidRadiusGrowthFactor: 1.5
+    AsteroidRadiusUnitSize: 600.0
+    OreBasicType: 45511.0
+    ReprocessingSkillType: 46156.0
+    RequiredSkill1: 3386.0
+  Shining Loparite:
+    AsteroidMaxRadius: 5000.0
+    AsteroidMetaLevel: 5.0
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600.0
     OreBasicType: 45512.0
@@ -63,20 +63,12 @@ items:
     OreBasicType: 45511.0
     ReprocessingSkillType: 46156.0
     RequiredSkill1: 3386.0
-  Ytterbite:
+  Shining Xenotime:
     AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 1.0
+    AsteroidMetaLevel: 5.0
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45513.0
-    ReprocessingSkillType: 46156.0
-    RequiredSkill1: 3386.0
-  Bountiful Monazite:
-    AsteroidMaxRadius: 5000.0
-    AsteroidMetaLevel: 3.0
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600.0
-    OreBasicType: 45511.0
+    OreBasicType: 45510.0
     ReprocessingSkillType: 46156.0
     RequiredSkill1: 3386.0
   Shining Ytterbite:
@@ -93,5 +85,13 @@ items:
     AsteroidRadiusGrowthFactor: 1.5
     AsteroidRadiusUnitSize: 600.0
     OreBasicType: 45510.0
+    ReprocessingSkillType: 46156.0
+    RequiredSkill1: 3386.0
+  Ytterbite:
+    AsteroidMaxRadius: 5000.0
+    AsteroidMetaLevel: 1.0
+    AsteroidRadiusGrowthFactor: 1.5
+    AsteroidRadiusUnitSize: 600.0
+    OreBasicType: 45513.0
     ReprocessingSkillType: 46156.0
     RequiredSkill1: 3386.0

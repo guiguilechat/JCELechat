@@ -1,51 +1,20 @@
 items:
+  Angels Arisen Firework:
+    Agility: 3000.0
+    AimedLaunch: 1.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    ExplosionDelay: 100000.0
+    Hp: 10.0
+    LauncherGroup: 56.0
+    MaxVelocity: 1000.0
+    MissileNeverDoesDamage: 1.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2Level: 1.0
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
   Barium Firework:
-    Agility: 3000.0
-    AimedLaunch: 1.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    ExplosionDelay: 100000.0
-    Hp: 10.0
-    LauncherGroup: 56.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2Level: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-  Copper Firework:
-    Agility: 3000.0
-    AimedLaunch: 1.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    ExplosionDelay: 100000.0
-    Hp: 10.0
-    LauncherGroup: 56.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2Level: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-  SnowballNewEffect:
-    Agility: 3000.0
-    AimedLaunch: 1.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    ExplosionDelay: 100000.0
-    Hp: 10.0
-    LauncherGroup: 56.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2Level: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamage: -10.0
-  Yoiul Festival Firework:
     Agility: 3000.0
     AimedLaunch: 1.0
     ArmorPiercingChance: 1.0
@@ -75,36 +44,6 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-  Wings of Victory Firework:
-    Agility: 3000.0
-    AimedLaunch: 1.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    ExplosionDelay: 100000.0
-    Hp: 10.0
-    LauncherGroup: 56.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2Level: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-  Crown Imperial Firework:
-    Agility: 3000.0
-    AimedLaunch: 1.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    ExplosionDelay: 100000.0
-    Hp: 10.0
-    LauncherGroup: 56.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2Level: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
   Blood Dagger Firework:
     Agility: 3000.0
     AimedLaunch: 1.0
@@ -120,7 +59,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-  Pulsar Flare Firework:
+  Copper Firework:
     Agility: 3000.0
     AimedLaunch: 1.0
     ArmorPiercingChance: 1.0
@@ -135,22 +74,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-  Fangs of the Serpent Firework:
-    Agility: 3000.0
-    AimedLaunch: 1.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    ExplosionDelay: 100000.0
-    Hp: 10.0
-    LauncherGroup: 56.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2Level: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-  Sodium Firework:
+  Copper Firework CXIV:
     Agility: 3000.0
     AimedLaunch: 1.0
     ArmorPiercingChance: 1.0
@@ -180,7 +104,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-  Spacetime Singularity Firework:
+  Crown Imperial Firework:
     Agility: 3000.0
     AimedLaunch: 1.0
     ArmorPiercingChance: 1.0
@@ -195,7 +119,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-  Snowball CXIV:
+  Fangs of the Serpent Firework:
     Agility: 3000.0
     AimedLaunch: 1.0
     ArmorPiercingChance: 1.0
@@ -210,23 +134,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-    ThermalDamage: -10.0
-  Sodium Firework CXIV:
-    Agility: 3000.0
-    AimedLaunch: 1.0
-    ArmorPiercingChance: 1.0
-    DetonationRange: 35.0
-    ExplosionDelay: 100000.0
-    Hp: 10.0
-    LauncherGroup: 56.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2Level: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-  Angels Arisen Firework:
+  Flames of the Rebellion Firework:
     Agility: 3000.0
     AimedLaunch: 1.0
     ArmorPiercingChance: 1.0
@@ -242,6 +150,51 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1.0
   Four Freedoms Firework:
+    Agility: 3000.0
+    AimedLaunch: 1.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    ExplosionDelay: 100000.0
+    Hp: 10.0
+    LauncherGroup: 56.0
+    MaxVelocity: 1000.0
+    MissileNeverDoesDamage: 1.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2Level: 1.0
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+  Nation Uplifts Firework:
+    Agility: 3000.0
+    AimedLaunch: 1.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    ExplosionDelay: 100000.0
+    Hp: 10.0
+    LauncherGroup: 56.0
+    MaxVelocity: 1000.0
+    MissileNeverDoesDamage: 1.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2Level: 1.0
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+  Naughty People Firework:
+    Agility: 3000.0
+    AimedLaunch: 1.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    ExplosionDelay: 100000.0
+    Hp: 10.0
+    LauncherGroup: 56.0
+    MaxVelocity: 1000.0
+    MissileNeverDoesDamage: 1.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2Level: 1.0
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+  Pulsar Flare Firework:
     Agility: 3000.0
     AimedLaunch: 1.0
     ArmorPiercingChance: 1.0
@@ -272,7 +225,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1.0
     ThermalDamage: -10.0
-  Naughty People Firework:
+  Snowball CXIV:
     Agility: 3000.0
     AimedLaunch: 1.0
     ArmorPiercingChance: 1.0
@@ -287,7 +240,8 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-  Flames of the Rebellion Firework:
+    ThermalDamage: -10.0
+  SnowballNewEffect:
     Agility: 3000.0
     AimedLaunch: 1.0
     ArmorPiercingChance: 1.0
@@ -302,7 +256,38 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-  Nation Uplifts Firework:
+    ThermalDamage: -10.0
+  Sodium Firework:
+    Agility: 3000.0
+    AimedLaunch: 1.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    ExplosionDelay: 100000.0
+    Hp: 10.0
+    LauncherGroup: 56.0
+    MaxVelocity: 1000.0
+    MissileNeverDoesDamage: 1.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2Level: 1.0
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+  Sodium Firework CXIV:
+    Agility: 3000.0
+    AimedLaunch: 1.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    ExplosionDelay: 100000.0
+    Hp: 10.0
+    LauncherGroup: 56.0
+    MaxVelocity: 1000.0
+    MissileNeverDoesDamage: 1.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2Level: 1.0
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+  Spacetime Singularity Firework:
     Agility: 3000.0
     AimedLaunch: 1.0
     ArmorPiercingChance: 1.0
@@ -332,7 +317,22 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1.0
-  Copper Firework CXIV:
+  Wings of Victory Firework:
+    Agility: 3000.0
+    AimedLaunch: 1.0
+    ArmorPiercingChance: 1.0
+    DetonationRange: 35.0
+    ExplosionDelay: 100000.0
+    Hp: 10.0
+    LauncherGroup: 56.0
+    MaxVelocity: 1000.0
+    MissileNeverDoesDamage: 1.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2Level: 1.0
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+  Yoiul Festival Firework:
     Agility: 3000.0
     AimedLaunch: 1.0
     ArmorPiercingChance: 1.0

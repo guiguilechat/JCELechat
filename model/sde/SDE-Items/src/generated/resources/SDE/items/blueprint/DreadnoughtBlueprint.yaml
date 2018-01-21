@@ -1,23 +1,23 @@
 items:
-  Revelation Sarum Edition Blueprint: {}
-  Revelation Blueprint:
-    IndustryBlueprintRank: 200.0
-    IndustryJobCostMultiplier: 1.0
-  Moros Interbus Edition Blueprint: {}
   Caiman Blueprint:
     IndustryJobCostMultiplier: 1.0
-  Vehement Blueprint:
-    IndustryJobCostMultiplier: 1.0
   Chemosh Blueprint:
-    IndustryJobCostMultiplier: 1.0
-  Naglfar Justice Edition Blueprint: {}
-  Naglfar Blueprint:
-    IndustryBlueprintRank: 200.0
     IndustryJobCostMultiplier: 1.0
   Moros Blueprint:
     IndustryBlueprintRank: 200.0
     IndustryJobCostMultiplier: 1.0
+  Moros Interbus Edition Blueprint: {}
+  Naglfar Blueprint:
+    IndustryBlueprintRank: 200.0
+    IndustryJobCostMultiplier: 1.0
+  Naglfar Justice Edition Blueprint: {}
   Phoenix Blueprint:
     IndustryBlueprintRank: 200.0
     IndustryJobCostMultiplier: 1.0
   Phoenix Wiyrkomi Edition Blueprint: {}
+  Revelation Blueprint:
+    IndustryBlueprintRank: 200.0
+    IndustryJobCostMultiplier: 1.0
+  Revelation Sarum Edition Blueprint: {}
+  Vehement Blueprint:
+    IndustryJobCostMultiplier: 1.0

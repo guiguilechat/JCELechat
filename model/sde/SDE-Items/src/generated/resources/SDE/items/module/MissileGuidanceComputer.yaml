@@ -20,6 +20,26 @@ items:
     RequiredSkill1Level: 1.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 1.0
+  Missile Guidance Computer I:
+    AoeCloudSizeBonus: -5.5
+    AoeVelocityBonus: 5.5
+    CapacitorNeed: 7.0
+    ChargeGroup1: 1400.0
+    ChargeSize: 1.0
+    Cpu: 28.0
+    Duration: 10000.0
+    ExplosionDelayBonus: 4.0
+    HeatAbsorbtionRateModifier: 0.009999999776482582
+    HeatDamage: 3.299999952316284
+    Hp: 40.0
+    MissileVelocityBonus: 4.0
+    OverloadTrackingModuleStrengthBonus: 15.0
+    Power: 1.0
+    ReloadTime: 0.009999999776482582
+    RequiredSkill1: 12441.0
+    RequiredSkill1Level: 1.0
+    RequiredThermoDynamicsSkill: 1.0
+    TechLevel: 1.0
   Missile Guidance Computer II:
     AoeCloudSizeBonus: -8.25
     AoeVelocityBonus: 8.25
@@ -41,23 +61,3 @@ items:
     RequiredSkill1Level: 4.0
     RequiredThermoDynamicsSkill: 1.0
     TechLevel: 2.0
-  Missile Guidance Computer I:
-    AoeCloudSizeBonus: -5.5
-    AoeVelocityBonus: 5.5
-    CapacitorNeed: 7.0
-    ChargeGroup1: 1400.0
-    ChargeSize: 1.0
-    Cpu: 28.0
-    Duration: 10000.0
-    ExplosionDelayBonus: 4.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.299999952316284
-    Hp: 40.0
-    MissileVelocityBonus: 4.0
-    OverloadTrackingModuleStrengthBonus: 15.0
-    Power: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 12441.0
-    RequiredSkill1Level: 1.0
-    RequiredThermoDynamicsSkill: 1.0
-    TechLevel: 1.0

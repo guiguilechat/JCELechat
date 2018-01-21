@@ -1,80 +1,8 @@
 items:
-  Raw Material Freight:
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3443.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 164.0
-    SkillTimeConstant: 4.0
   Accounting:
     PrimaryAttribute: 164.0
     RequiredSkill1: 3443.0
     RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
-    SkillTimeConstant: 3.0
-  Corporation Contracting:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 25235.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 3.0
-  Mineral Freight:
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3443.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 164.0
-    SkillTimeConstant: 4.0
-  Marketing:
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3443.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 166.0
-    SkillTimeConstant: 3.0
-  Trade:
-    PrimaryAttribute: 168.0
-    SecondaryAttribute: 164.0
-    SkillTimeConstant: 1.0
-    TradePremiumBonus: -5.0
-  Retail:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3443.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 164.0
-    SkillTimeConstant: 2.0
-  Test:
-    PrimaryAttribute: 164.0
-    SecondaryAttribute: 168.0
-    SkillTimeConstant: 0.009999999776482582
-  Daytrading:
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 3443.0
-    RequiredSkill1Level: 4.0
-    SecondaryAttribute: 166.0
-    SkillTimeConstant: 1.0
-  Tycoon:
-    CanNotBeTrainedOnTrial: 1.0
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 16596.0
-    RequiredSkill1Level: 5.0
-    RequiredSkill2: 16598.0
-    RequiredSkill2Level: 4.0
-    SecondaryAttribute: 166.0
-    SkillTimeConstant: 6.0
-  Tax Evasion:
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3443.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 164.0
-    SkillTimeConstant: 2.0
-  General Freight:
-    PrimaryAttribute: 166.0
-    SecondaryAttribute: 165.0
-    SkillTimeConstant: 3.0
-  Procurement:
-    PrimaryAttribute: 164.0
-    RequiredSkill1: 16598.0
-    RequiredSkill1Level: 2.0
     SecondaryAttribute: 166.0
     SkillTimeConstant: 3.0
   Black Market Trading:
@@ -92,6 +20,12 @@ items:
     RequiredSkill1Level: 2.0
     SecondaryAttribute: 164.0
     SkillTimeConstant: 2.0
+  Consumable Freight:
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3443.0
+    RequiredSkill1Level: 2.0
+    SecondaryAttribute: 164.0
+    SkillTimeConstant: 4.0
   Contracting:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 164.0
@@ -99,18 +33,13 @@ items:
     RequiredSkill1Level: 1.0
     SecondaryAttribute: 168.0
     SkillTimeConstant: 1.0
-  Munitions Freight:
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3443.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 164.0
-    SkillTimeConstant: 4.0
-  Hazardous Material Freight:
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3443.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 164.0
-    SkillTimeConstant: 4.0
+  Corporation Contracting:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 164.0
+    RequiredSkill1: 25235.0
+    RequiredSkill1Level: 4.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 3.0
   Customs Code Expertise:
     PiTaxReductionModifer: -10.0
     PrimaryAttribute: 164.0
@@ -118,6 +47,28 @@ items:
     RequiredSkill1Level: 4.0
     SecondaryAttribute: 166.0
     SkillTimeConstant: 2.0
+  Daytrading:
+    PrimaryAttribute: 164.0
+    RequiredSkill1: 3443.0
+    RequiredSkill1Level: 4.0
+    SecondaryAttribute: 166.0
+    SkillTimeConstant: 1.0
+  Drone Freight:
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3443.0
+    RequiredSkill1Level: 2.0
+    SecondaryAttribute: 164.0
+    SkillTimeConstant: 4.0
+  General Freight:
+    PrimaryAttribute: 166.0
+    SecondaryAttribute: 165.0
+    SkillTimeConstant: 3.0
+  Hazardous Material Freight:
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3443.0
+    RequiredSkill1Level: 2.0
+    SecondaryAttribute: 164.0
+    SkillTimeConstant: 4.0
   Margin Trading:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 164.0
@@ -125,24 +76,43 @@ items:
     RequiredSkill1Level: 4.0
     SecondaryAttribute: 166.0
     SkillTimeConstant: 3.0
-  Consumable Freight:
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3443.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 164.0
-    SkillTimeConstant: 4.0
-  Starship Freight:
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3443.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 164.0
-    SkillTimeConstant: 4.0
-  Visibility:
+  Marketing:
     PrimaryAttribute: 164.0
-    RequiredSkill1: 16594.0
-    RequiredSkill1Level: 4.0
+    RequiredSkill1: 3443.0
+    RequiredSkill1Level: 2.0
     SecondaryAttribute: 166.0
     SkillTimeConstant: 3.0
+  Mineral Freight:
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3443.0
+    RequiredSkill1Level: 2.0
+    SecondaryAttribute: 164.0
+    SkillTimeConstant: 4.0
+  Munitions Freight:
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3443.0
+    RequiredSkill1Level: 2.0
+    SecondaryAttribute: 164.0
+    SkillTimeConstant: 4.0
+  Procurement:
+    PrimaryAttribute: 164.0
+    RequiredSkill1: 16598.0
+    RequiredSkill1Level: 2.0
+    SecondaryAttribute: 166.0
+    SkillTimeConstant: 3.0
+  Raw Material Freight:
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3443.0
+    RequiredSkill1Level: 2.0
+    SecondaryAttribute: 164.0
+    SkillTimeConstant: 4.0
+  Retail:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3443.0
+    RequiredSkill1Level: 2.0
+    SecondaryAttribute: 164.0
+    SkillTimeConstant: 2.0
   Smuggling:
     PrimaryAttribute: 168.0
     RequiredSkill1: 3445.0
@@ -150,6 +120,42 @@ items:
     SecondaryAttribute: 164.0
     SkillTimeConstant: 4.0
     SmugglingChanceBonus: 0.10000000149011612
+  Starship Freight:
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3443.0
+    RequiredSkill1Level: 2.0
+    SecondaryAttribute: 164.0
+    SkillTimeConstant: 4.0
+  Tax Evasion:
+    PrimaryAttribute: 168.0
+    RequiredSkill1: 3443.0
+    RequiredSkill1Level: 2.0
+    SecondaryAttribute: 164.0
+    SkillTimeConstant: 2.0
+  Test:
+    PrimaryAttribute: 164.0
+    SecondaryAttribute: 168.0
+    SkillTimeConstant: 0.009999999776482582
+  Trade:
+    PrimaryAttribute: 168.0
+    SecondaryAttribute: 164.0
+    SkillTimeConstant: 1.0
+    TradePremiumBonus: -5.0
+  Tycoon:
+    CanNotBeTrainedOnTrial: 1.0
+    PrimaryAttribute: 164.0
+    RequiredSkill1: 16596.0
+    RequiredSkill1Level: 5.0
+    RequiredSkill2: 16598.0
+    RequiredSkill2Level: 4.0
+    SecondaryAttribute: 166.0
+    SkillTimeConstant: 6.0
+  Visibility:
+    PrimaryAttribute: 164.0
+    RequiredSkill1: 16594.0
+    RequiredSkill1Level: 4.0
+    SecondaryAttribute: 166.0
+    SkillTimeConstant: 3.0
   Wholesale:
     CanNotBeTrainedOnTrial: 1.0
     PrimaryAttribute: 164.0
@@ -158,10 +164,4 @@ items:
     RequiredSkill2: 16598.0
     RequiredSkill2Level: 2.0
     SecondaryAttribute: 166.0
-    SkillTimeConstant: 4.0
-  Drone Freight:
-    PrimaryAttribute: 168.0
-    RequiredSkill1: 3443.0
-    RequiredSkill1Level: 2.0
-    SecondaryAttribute: 164.0
     SkillTimeConstant: 4.0

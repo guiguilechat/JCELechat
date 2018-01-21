@@ -1,46 +1,46 @@
 items:
-  Water:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
-  Oxygen:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
-  Reactive Metals:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
-  Chiral Structures:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
-  Plasmoids:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
-  Oxidizing Compound:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
-  Biomass:
+  Bacteria:
     ExportTaxMultiplier: 400.0
     ImportTaxMultiplier: 400.0
   Biofuels:
     ExportTaxMultiplier: 400.0
     ImportTaxMultiplier: 400.0
-  Toxic Metals:
+  Biomass:
     ExportTaxMultiplier: 400.0
     ImportTaxMultiplier: 400.0
-  Proteins:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
-  Industrial Fibers:
-    ExportTaxMultiplier: 400.0
-    ImportTaxMultiplier: 400.0
-  Precious Metals:
+  Chiral Structures:
     ExportTaxMultiplier: 400.0
     ImportTaxMultiplier: 400.0
   Electrolytes:
     ExportTaxMultiplier: 400.0
     ImportTaxMultiplier: 400.0
-  Bacteria:
+  Industrial Fibers:
+    ExportTaxMultiplier: 400.0
+    ImportTaxMultiplier: 400.0
+  Oxidizing Compound:
+    ExportTaxMultiplier: 400.0
+    ImportTaxMultiplier: 400.0
+  Oxygen:
+    ExportTaxMultiplier: 400.0
+    ImportTaxMultiplier: 400.0
+  Plasmoids:
+    ExportTaxMultiplier: 400.0
+    ImportTaxMultiplier: 400.0
+  Precious Metals:
+    ExportTaxMultiplier: 400.0
+    ImportTaxMultiplier: 400.0
+  Proteins:
+    ExportTaxMultiplier: 400.0
+    ImportTaxMultiplier: 400.0
+  Reactive Metals:
     ExportTaxMultiplier: 400.0
     ImportTaxMultiplier: 400.0
   Silicon:
+    ExportTaxMultiplier: 400.0
+    ImportTaxMultiplier: 400.0
+  Toxic Metals:
+    ExportTaxMultiplier: 400.0
+    ImportTaxMultiplier: 400.0
+  Water:
     ExportTaxMultiplier: 400.0
     ImportTaxMultiplier: 400.0

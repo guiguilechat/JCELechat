@@ -1,55 +1,17 @@
 items:
-  Republic Fleet Overdrive Injector:
-    CargoCapacityMultiplier: 0.949999988079071
+  '''Basic'' Overdrive Injector System':
+    CargoCapacityMultiplier: 0.9900000095367432
     Hp: 40.0
-    ImplantBonusVelocity: 12.5
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Overdrive Injector System II:
-    CargoCapacityMultiplier: 0.800000011920929
-    Hp: 40.0
-    ImplantBonusVelocity: 12.5
-    MetaLevel: 5.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 2.0
-  Type-E Altered SS Overdrive Injector:
-    CargoCapacityMultiplier: 0.8999999761581421
-    Hp: 40.0
-    ImplantBonusVelocity: 7.599999904632568
+    ImplantBonusVelocity: 6.0
+    MetaGroupID: 3.0
+    MetaLevel: 6.0
     RequiredSkill1: 3392.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Overdrive Injector System I:
-    CargoCapacityMultiplier: 0.8500000238418579
-    Hp: 40.0
-    ImplantBonusVelocity: 10.5
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Partial Hull Conversion Overdrive Injector:
+  Alpha Hull Mod Overdrive Injector:
     CargoCapacityMultiplier: 0.8999999761581421
     Hp: 40.0
-    ImplantBonusVelocity: 8.300000190734863
-    RequiredSkill1: 3392.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Domination Overdrive Injector:
-    CargoCapacityMultiplier: 0.949999988079071
-    Hp: 40.0
-    ImplantBonusVelocity: 12.5
-    MetaGroupID: 4.0
-    MetaLevel: 8.0
-    RequiredSkill1: 3394.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Marked Modified SS Overdrive Injector:
-    CargoCapacityMultiplier: 0.8999999761581421
-    Hp: 40.0
-    ImplantBonusVelocity: 7.300000190734863
+    ImplantBonusVelocity: 8.0
     RequiredSkill1: 3392.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
@@ -61,11 +23,66 @@ items:
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
+  Domination Overdrive Injector:
+    CargoCapacityMultiplier: 0.949999988079071
+    Hp: 40.0
+    ImplantBonusVelocity: 12.5
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Local Hull Conversion Overdrive Injector I:
+    CargoCapacityMultiplier: 0.8500000238418579
+    Hp: 40.0
+    ImplantBonusVelocity: 11.800000190734863
+    MetaLevel: 4.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
   Mark I Modified SS Overdrive Injector:
     CargoCapacityMultiplier: 0.8500000238418579
     Hp: 40.0
     ImplantBonusVelocity: 10.800000190734863
     MetaLevel: 1.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Marked Modified SS Overdrive Injector:
+    CargoCapacityMultiplier: 0.8999999761581421
+    Hp: 40.0
+    ImplantBonusVelocity: 7.300000190734863
+    RequiredSkill1: 3392.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Overdrive Injector System I:
+    CargoCapacityMultiplier: 0.8500000238418579
+    Hp: 40.0
+    ImplantBonusVelocity: 10.5
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Overdrive Injector System II:
+    CargoCapacityMultiplier: 0.800000011920929
+    Hp: 40.0
+    ImplantBonusVelocity: 12.5
+    MetaLevel: 5.0
+    RequiredSkill1: 3394.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 2.0
+  Partial Hull Conversion Overdrive Injector:
+    CargoCapacityMultiplier: 0.8999999761581421
+    Hp: 40.0
+    ImplantBonusVelocity: 8.300000190734863
+    RequiredSkill1: 3392.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Republic Fleet Overdrive Injector:
+    CargoCapacityMultiplier: 0.949999988079071
+    Hp: 40.0
+    ImplantBonusVelocity: 12.5
+    MetaGroupID: 4.0
+    MetaLevel: 8.0
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
@@ -78,15 +95,6 @@ items:
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  '''Basic'' Overdrive Injector System':
-    CargoCapacityMultiplier: 0.9900000095367432
-    Hp: 40.0
-    ImplantBonusVelocity: 6.0
-    MetaGroupID: 3.0
-    MetaLevel: 6.0
-    RequiredSkill1: 3392.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
   Type-D Restrained Overdrive Injector:
     CargoCapacityMultiplier: 0.8999999761581421
     Hp: 40.0
@@ -95,18 +103,10 @@ items:
     RequiredSkill1: 3394.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Alpha Hull Mod Overdrive Injector:
+  Type-E Altered SS Overdrive Injector:
     CargoCapacityMultiplier: 0.8999999761581421
     Hp: 40.0
-    ImplantBonusVelocity: 8.0
+    ImplantBonusVelocity: 7.599999904632568
     RequiredSkill1: 3392.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Local Hull Conversion Overdrive Injector I:
-    CargoCapacityMultiplier: 0.8500000238418579
-    Hp: 40.0
-    ImplantBonusVelocity: 11.800000190734863
-    MetaLevel: 4.0
-    RequiredSkill1: 3394.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0

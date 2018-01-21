@@ -1,9 +1,75 @@
 items:
-  Zainou 'Gypsy' Target Painting TG-903:
+  Zainou 'Gypsy' Electronic Warfare EW-901:
+    CapNeedBonus: -1.0
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Electronic Warfare EW-902:
+    CapNeedBonus: -2.0
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Electronic Warfare EW-903:
     CapNeedBonus: -3.0
     Implantness: 9.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Electronic Warfare EW-904:
+    CapNeedBonus: -4.0
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Electronic Warfare EW-905:
+    CapNeedBonus: -5.0
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Electronic Warfare EW-906:
+    CapNeedBonus: -6.0
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Propulsion Jamming PJ-801:
+    CapNeedBonus: -1.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Propulsion Jamming PJ-802:
+    CapNeedBonus: -2.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Propulsion Jamming PJ-803:
+    CapNeedBonus: -3.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Propulsion Jamming PJ-804:
+    CapNeedBonus: -4.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Propulsion Jamming PJ-805:
+    CapNeedBonus: -5.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Propulsion Jamming PJ-806:
+    CapNeedBonus: -6.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
     TechLevel: 1.0
   Zainou 'Gypsy' Sensor Linking SL-901:
     CapNeedBonus: -1.0
@@ -17,23 +83,11 @@ items:
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Zainou 'Gypsy' Target Painting TG-902:
-    CapNeedBonus: -2.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
   Zainou 'Gypsy' Sensor Linking SL-903:
     CapNeedBonus: -3.0
     Implantness: 9.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 2.0
-    TechLevel: 1.0
-  Zainou 'Gypsy' Target Painting TG-901:
-    CapNeedBonus: -1.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
     TechLevel: 1.0
   Zainou 'Gypsy' Sensor Linking SL-904:
     CapNeedBonus: -4.0
@@ -53,17 +107,23 @@ items:
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 5.0
     TechLevel: 1.0
-  Zainou 'Gypsy' Target Painting TG-906:
-    CapNeedBonus: -6.0
+  Zainou 'Gypsy' Target Painting TG-901:
+    CapNeedBonus: -1.0
     Implantness: 9.0
     RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
+    RequiredSkill1Level: 1.0
     TechLevel: 1.0
-  Zainou 'Gypsy' Target Painting TG-905:
-    CapNeedBonus: -5.0
+  Zainou 'Gypsy' Target Painting TG-902:
+    CapNeedBonus: -2.0
     Implantness: 9.0
     RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+  Zainou 'Gypsy' Target Painting TG-903:
+    CapNeedBonus: -3.0
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
     TechLevel: 1.0
   Zainou 'Gypsy' Target Painting TG-904:
     CapNeedBonus: -4.0
@@ -71,77 +131,17 @@ items:
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 3.0
     TechLevel: 1.0
-  Zainou 'Gypsy' Electronic Warfare EW-903:
-    CapNeedBonus: -3.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
-  Zainou 'Gypsy' Electronic Warfare EW-902:
-    CapNeedBonus: -2.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Zainou 'Gypsy' Propulsion Jamming PJ-806:
-    CapNeedBonus: -6.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-  Zainou 'Gypsy' Electronic Warfare EW-901:
-    CapNeedBonus: -1.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Zainou 'Gypsy' Propulsion Jamming PJ-805:
-    CapNeedBonus: -5.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    TechLevel: 1.0
-  Zainou 'Gypsy' Propulsion Jamming PJ-804:
-    CapNeedBonus: -4.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
-  Zainou 'Gypsy' Electronic Warfare EW-906:
-    CapNeedBonus: -6.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    TechLevel: 1.0
-  Zainou 'Gypsy' Propulsion Jamming PJ-803:
-    CapNeedBonus: -3.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    TechLevel: 1.0
-  Zainou 'Gypsy' Propulsion Jamming PJ-802:
-    CapNeedBonus: -2.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-  Zainou 'Gypsy' Electronic Warfare EW-905:
+  Zainou 'Gypsy' Target Painting TG-905:
     CapNeedBonus: -5.0
     Implantness: 9.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 4.0
     TechLevel: 1.0
-  Zainou 'Gypsy' Electronic Warfare EW-904:
-    CapNeedBonus: -4.0
+  Zainou 'Gypsy' Target Painting TG-906:
+    CapNeedBonus: -6.0
     Implantness: 9.0
     RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    TechLevel: 1.0
-  Zainou 'Gypsy' Propulsion Jamming PJ-801:
-    CapNeedBonus: -1.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1Level: 5.0
     TechLevel: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-901:
     CapNeedBonus: -1.0

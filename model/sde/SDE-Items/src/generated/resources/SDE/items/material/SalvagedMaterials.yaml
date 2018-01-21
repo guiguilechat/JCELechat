@@ -1,77 +1,77 @@
 items:
-  Trigger Unit:
-    Hp: 20.0
-  Interface Circuit:
-    Hp: 20.0
-  Melted Capacitor Console:
-    Hp: 20.0
-  Burned Logic Circuit:
-    Hp: 20.0
-  Charred Micro Circuit:
-    Hp: 20.0
-  Conductive Thermoplastic:
-    Hp: 20.0
-  Scorched Telemetry Processor:
+  Alloyed Tritanium Bar:
     Hp: 20.0
   Armor Plates:
     Hp: 20.0
-  Power Circuit:
+  Artificial Neural Network:
+    Hp: 20.0
+  Broken Drone Transceiver:
+    Hp: 20.0
+  Burned Logic Circuit:
+    Hp: 20.0
+  Capacitor Console:
+    Hp: 20.0
+  Charred Micro Circuit:
+    Hp: 20.0
+  Conductive Polymer:
+    Hp: 20.0
+  Conductive Thermoplastic:
+    Hp: 20.0
+  Contaminated Lorentz Fluid:
     Hp: 20.0
   Contaminated Nanite Compound:
     Hp: 20.0
-  Smashed Trigger Unit:
-    Hp: 20.0
-  Alloyed Tritanium Bar:
-    Hp: 20.0
-  Tangled Power Conduit:
-    Hp: 20.0
-  Conductive Polymer:
+  Current Pump:
     Hp: 20.0
   Damaged Artificial Neural Network:
     Hp: 20.0
   Defective Current Pump:
     Hp: 20.0
-  Broken Drone Transceiver:
-    Hp: 20.0
-  Single-crystal Superalloy I-beam:
-    Hp: 20.0
-  Nanite Compound:
-    Hp: 20.0
-  Contaminated Lorentz Fluid:
-    Hp: 20.0
-  Tripped Power Circuit:
-    Hp: 20.0
-  Thruster Console:
-    Hp: 20.0
-  Telemetry Processor:
-    Hp: 20.0
-  Lorentz Fluid:
-    Hp: 20.0
-  Capacitor Console:
-    Hp: 20.0
-  Intact Shield Emitter:
-    Hp: 20.0
   Drone Transceiver:
-    Hp: 20.0
-  Power Conduit:
-    Hp: 20.0
-  Intact Armor Plates:
-    Hp: 20.0
-  Micro Circuit:
-    Hp: 20.0
-  Artificial Neural Network:
     Hp: 20.0
   Enhanced Ward Console:
     Hp: 20.0
-  Logic Circuit:
-    Hp: 20.0
-  Malfunctioning Shield Emitter:
-    Hp: 20.0
-  Ward Console:
+  Fried Interface Circuit:
     Hp: 20.0
   Impetus Console:
     Hp: 20.0
-  Fried Interface Circuit:
+  Intact Armor Plates:
     Hp: 20.0
-  Current Pump:
+  Intact Shield Emitter:
+    Hp: 20.0
+  Interface Circuit:
+    Hp: 20.0
+  Logic Circuit:
+    Hp: 20.0
+  Lorentz Fluid:
+    Hp: 20.0
+  Malfunctioning Shield Emitter:
+    Hp: 20.0
+  Melted Capacitor Console:
+    Hp: 20.0
+  Micro Circuit:
+    Hp: 20.0
+  Nanite Compound:
+    Hp: 20.0
+  Power Circuit:
+    Hp: 20.0
+  Power Conduit:
+    Hp: 20.0
+  Scorched Telemetry Processor:
+    Hp: 20.0
+  Single-crystal Superalloy I-beam:
+    Hp: 20.0
+  Smashed Trigger Unit:
+    Hp: 20.0
+  Tangled Power Conduit:
+    Hp: 20.0
+  Telemetry Processor:
+    Hp: 20.0
+  Thruster Console:
+    Hp: 20.0
+  Trigger Unit:
+    Hp: 20.0
+  Tripped Power Circuit:
+    Hp: 20.0
+  Ward Console:
     Hp: 20.0

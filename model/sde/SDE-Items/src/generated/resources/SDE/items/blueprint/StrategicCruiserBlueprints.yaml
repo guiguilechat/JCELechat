@@ -1,13 +1,13 @@
 items:
-  Tengu Blueprint:
+  Legion Blueprint:
+    IndustryBlueprintRank: 800.0
+    TechLevel: 3.0
+  Loki Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 3.0
   Proteus Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 3.0
-  Legion Blueprint:
-    IndustryBlueprintRank: 800.0
-    TechLevel: 3.0
-  Loki Blueprint:
+  Tengu Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 3.0

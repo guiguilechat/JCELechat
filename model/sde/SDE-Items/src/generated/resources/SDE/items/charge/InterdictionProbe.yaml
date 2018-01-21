@@ -1,17 +1,4 @@
 items:
-  Warp Disrupt Probe:
-    Agility: 1000.0
-    DisallowInEmpireSpace: 1.0
-    ExplosionDelay: 120000.0
-    Hp: 1000.0
-    LauncherGroup: 589.0
-    RequiredSkill1: 3412.0
-    RequiredSkill1Level: 3.0
-    SignatureRadius: 90.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    WarpScrambleRange: 20000.0
   Phobetor Warp Disrupt Probe:
     SignatureRadius: 100.0
     SpeedMultiplier: 1.0
@@ -30,3 +17,16 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1.0
     WarpScrambleRange: 10000.0
+  Warp Disrupt Probe:
+    Agility: 1000.0
+    DisallowInEmpireSpace: 1.0
+    ExplosionDelay: 120000.0
+    Hp: 1000.0
+    LauncherGroup: 589.0
+    RequiredSkill1: 3412.0
+    RequiredSkill1Level: 3.0
+    SignatureRadius: 90.0
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    WarpScrambleRange: 20000.0

@@ -1,41 +1,41 @@
 items:
-  Cadmium:
-    MoonMiningAmount: 100.0
-  Neodymium:
-    MoonMiningAmount: 100.0
-  Vanadium:
-    MoonMiningAmount: 100.0
-  Hydrocarbons:
-    MoonMiningAmount: 100.0
-  Technetium:
-    MoonMiningAmount: 100.0
-  Silicates:
-    MoonMiningAmount: 100.0
-  Dysprosium:
-    MoonMiningAmount: 100.0
-  Promethium:
-    MoonMiningAmount: 100.0
-  Cobalt:
-    MoonMiningAmount: 100.0
-  Thulium:
-    MoonMiningAmount: 100.0
   Atmospheric Gases:
     MoonMiningAmount: 100.0
-  Platinum:
-    MoonMiningAmount: 100.0
-  Tungsten:
-    MoonMiningAmount: 100.0
-  Scandium:
-    MoonMiningAmount: 100.0
-  Hafnium:
-    MoonMiningAmount: 100.0
-  Titanium:
-    MoonMiningAmount: 100.0
-  Chromium:
+  Cadmium:
     MoonMiningAmount: 100.0
   Caesium:
     MoonMiningAmount: 100.0
-  Mercury:
+  Chromium:
+    MoonMiningAmount: 100.0
+  Cobalt:
+    MoonMiningAmount: 100.0
+  Dysprosium:
     MoonMiningAmount: 100.0
   Evaporite Deposits:
+    MoonMiningAmount: 100.0
+  Hafnium:
+    MoonMiningAmount: 100.0
+  Hydrocarbons:
+    MoonMiningAmount: 100.0
+  Mercury:
+    MoonMiningAmount: 100.0
+  Neodymium:
+    MoonMiningAmount: 100.0
+  Platinum:
+    MoonMiningAmount: 100.0
+  Promethium:
+    MoonMiningAmount: 100.0
+  Scandium:
+    MoonMiningAmount: 100.0
+  Silicates:
+    MoonMiningAmount: 100.0
+  Technetium:
+    MoonMiningAmount: 100.0
+  Thulium:
+    MoonMiningAmount: 100.0
+  Titanium:
+    MoonMiningAmount: 100.0
+  Tungsten:
+    MoonMiningAmount: 100.0
+  Vanadium:
     MoonMiningAmount: 100.0

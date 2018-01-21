@@ -1,41 +1,17 @@
 items:
-  Imperial Navy Armor Kinetic Hardener Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Republic Fleet Armor Thermal Hardener Blueprint:
+  Ammatar Navy Armor EM Hardener Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
   Ammatar Navy Armor Explosive Hardener Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
-  Armor Thermal Hardener I Blueprint:
+  Ammatar Navy Armor Kinetic Hardener Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
   Ammatar Navy Armor Thermal Hardener Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
-  Armor Thermal Hardener II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
-  Armor Kinetic Hardener I Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Khanid Navy Armor Kinetic Hardener Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Republic Fleet Armor EM Hardener Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Federation Navy Armor Explosive Hardener Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Imperial Navy Armor Explosive Hardener Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Federation Navy Armor Thermal Hardener Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Ammatar Navy Armor Kinetic Hardener Blueprint:
+  Armor EM Hardener I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
   Armor EM Hardener II Blueprint:
@@ -44,22 +20,40 @@ items:
   Armor Explosive Hardener I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
-  Armor EM Hardener I Blueprint:
+  Armor Explosive Hardener II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Armor Kinetic Hardener I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
-  Khanid Navy Armor Thermal Hardener Blueprint:
+  Armor Kinetic Hardener II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Armor Thermal Hardener I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Armor Thermal Hardener II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Federation Navy Armor EM Hardener Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Federation Navy Armor Explosive Hardener Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Federation Navy Armor Kinetic Hardener Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Federation Navy Armor Thermal Hardener Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
   Imperial Navy Armor EM Hardener Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
-  Armor Explosive Hardener II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
-  Ammatar Navy Armor EM Hardener Blueprint:
+  Imperial Navy Armor Explosive Hardener Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
-  Khanid Navy Armor Explosive Hardener Blueprint:
+  Imperial Navy Armor Kinetic Hardener Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
   Imperial Navy Armor Thermal Hardener Blueprint:
@@ -68,18 +62,24 @@ items:
   Khanid Navy Armor EM Hardener Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
-  Federation Navy Armor EM Hardener Blueprint:
+  Khanid Navy Armor Explosive Hardener Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Khanid Navy Armor Kinetic Hardener Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Khanid Navy Armor Thermal Hardener Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Republic Fleet Armor EM Hardener Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
   Republic Fleet Armor Explosive Hardener Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
-  Federation Navy Armor Kinetic Hardener Blueprint:
+  Republic Fleet Armor Kinetic Hardener Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0
-  Armor Kinetic Hardener II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
-  Republic Fleet Armor Kinetic Hardener Blueprint:
+  Republic Fleet Armor Thermal Hardener Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1.0

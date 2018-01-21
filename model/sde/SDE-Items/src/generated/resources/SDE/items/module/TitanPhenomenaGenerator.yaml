@@ -1,4 +1,32 @@
 items:
+  Amarr Phenomena Generator:
+    BuffDuration: 300000.0
+    CanFitShipType1: 11567.0
+    CanFitShipType2: 42241.0
+    CapacitorNeed: 25000.0
+    ConsumptionQuantity: 40000.0
+    ConsumptionType: 16274.0
+    Cpu: 100.0
+    DisallowActivateInForcefield: 1.0
+    DisallowDocking: 1.0
+    DisallowTethering: 1.0
+    Duration: 300000.0
+    Hp: 99999.0
+    MaxGroupActive: 1.0
+    MaxGroupFitted: 1.0
+    MaxRange: 2.0E7
+    Power: 100000.0
+    RequiredSkill1: 43728.0
+    RequiredSkill1Level: 1.0
+    TechLevel: 1.0
+    WarfareBuff1ID: 39.0
+    WarfareBuff1Value: -30.0
+    WarfareBuff2ID: 40.0
+    WarfareBuff2Value: -10.0
+    WarfareBuff3ID: 41.0
+    WarfareBuff3Value: 15.0
+    WarfareBuff4ID: 51.0
+    WarfareBuff4Value: -10.0
   Caldari Phenomena Generator:
     BuffDuration: 300000.0
     CanFitShipType1: 3764.0
@@ -55,34 +83,6 @@ items:
     WarfareBuff3ID: 44.0
     WarfareBuff3Value: 15.0
     WarfareBuff4ID: 52.0
-    WarfareBuff4Value: -10.0
-  Amarr Phenomena Generator:
-    BuffDuration: 300000.0
-    CanFitShipType1: 11567.0
-    CanFitShipType2: 42241.0
-    CapacitorNeed: 25000.0
-    ConsumptionQuantity: 40000.0
-    ConsumptionType: 16274.0
-    Cpu: 100.0
-    DisallowActivateInForcefield: 1.0
-    DisallowDocking: 1.0
-    DisallowTethering: 1.0
-    Duration: 300000.0
-    Hp: 99999.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MaxRange: 2.0E7
-    Power: 100000.0
-    RequiredSkill1: 43728.0
-    RequiredSkill1Level: 1.0
-    TechLevel: 1.0
-    WarfareBuff1ID: 39.0
-    WarfareBuff1Value: -30.0
-    WarfareBuff2ID: 40.0
-    WarfareBuff2Value: -10.0
-    WarfareBuff3ID: 41.0
-    WarfareBuff3Value: 15.0
-    WarfareBuff4ID: 51.0
     WarfareBuff4Value: -10.0
   Minmatar Phenomena Generator:
     BuffDuration: 300000.0

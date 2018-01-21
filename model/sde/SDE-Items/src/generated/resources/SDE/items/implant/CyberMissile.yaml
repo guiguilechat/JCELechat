@@ -1,4 +1,467 @@
 items:
+  Hardwiring - Zainou 'Sharpshooter' ZMX10:
+    DamageMultiplierBonus: 1.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Hardwiring - Zainou 'Sharpshooter' ZMX100:
+    DamageMultiplierBonus: 3.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Hardwiring - Zainou 'Sharpshooter' ZMX1000:
+    DamageMultiplierBonus: 5.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Hardwiring - Zainou 'Sharpshooter' ZMX11:
+    DamageMultiplierBonus: 2.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Hardwiring - Zainou 'Sharpshooter' ZMX110:
+    DamageMultiplierBonus: 4.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Hardwiring - Zainou 'Sharpshooter' ZMX1100:
+    DamageMultiplierBonus: 6.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Whelan Machorin's Ballistic Smartlink:
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    RofBonus: -5.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Guided Missile Precision GP-801:
+    AoeCloudSizeBonus: -1.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Guided Missile Precision GP-802:
+    AoeCloudSizeBonus: -2.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Guided Missile Precision GP-803:
+    AoeCloudSizeBonus: -3.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Guided Missile Precision GP-804:
+    AoeCloudSizeBonus: -4.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Guided Missile Precision GP-805:
+    AoeCloudSizeBonus: -5.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Guided Missile Precision GP-806:
+    AoeCloudSizeBonus: -6.0
+    Implantness: 8.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Missile Bombardment MB-701:
+    Implantness: 7.0
+    MaxFlightTimeBonus: 1.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Missile Bombardment MB-702:
+    Implantness: 7.0
+    MaxFlightTimeBonus: 2.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Missile Bombardment MB-703:
+    Implantness: 7.0
+    MaxFlightTimeBonus: 3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Missile Bombardment MB-704:
+    Implantness: 7.0
+    MaxFlightTimeBonus: 4.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Missile Bombardment MB-705:
+    Implantness: 7.0
+    MaxFlightTimeBonus: 5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Missile Bombardment MB-706:
+    Implantness: 7.0
+    MaxFlightTimeBonus: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Missile Projection MP-701:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Missile Projection MP-702:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 2.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Missile Projection MP-703:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SpeedFactor: 3.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Missile Projection MP-704:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    SpeedFactor: 4.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Missile Projection MP-705:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SpeedFactor: 5.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Missile Projection MP-706:
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    SpeedFactor: 6.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Rapid Launch RL-1001:
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    RofBonus: -1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Rapid Launch RL-1002:
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    RofBonus: -2.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Rapid Launch RL-1003:
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    RofBonus: -3.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Rapid Launch RL-1004:
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    RofBonus: -4.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Rapid Launch RL-1005:
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    RofBonus: -5.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Rapid Launch RL-1006:
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    RofBonus: -6.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Target Navigation Prediction TN-901:
+    AoeVelocityBonus: 1.0
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Target Navigation Prediction TN-902:
+    AoeVelocityBonus: 2.0
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Target Navigation Prediction TN-903:
+    AoeVelocityBonus: 3.0
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Target Navigation Prediction TN-904:
+    AoeVelocityBonus: 4.0
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Target Navigation Prediction TN-905:
+    AoeVelocityBonus: 5.0
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Deadeye' Target Navigation Prediction TN-906:
+    AoeVelocityBonus: 6.0
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Launcher CPU Efficiency LE-601:
+    CpuNeedBonus: -1.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Launcher CPU Efficiency LE-602:
+    CpuNeedBonus: -2.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Launcher CPU Efficiency LE-603:
+    CpuNeedBonus: -3.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Launcher CPU Efficiency LE-604:
+    CpuNeedBonus: -4.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Launcher CPU Efficiency LE-605:
+    CpuNeedBonus: -5.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Gnome' Launcher CPU Efficiency LE-606:
+    CpuNeedBonus: -6.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001:
+    AoeCloudSizeBonus: -1.0
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002:
+    AoeCloudSizeBonus: -2.0
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003:
+    AoeCloudSizeBonus: -3.0
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004:
+    AoeCloudSizeBonus: -4.0
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005:
+    AoeCloudSizeBonus: -5.0
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006:
+    AoeCloudSizeBonus: -6.0
+    Implantness: 10.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Cruise Missiles CM-601:
+    DamageMultiplierBonus: 1.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Cruise Missiles CM-602:
+    DamageMultiplierBonus: 2.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Cruise Missiles CM-603:
+    DamageMultiplierBonus: 3.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Cruise Missiles CM-604:
+    DamageMultiplierBonus: 4.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Cruise Missiles CM-605:
+    DamageMultiplierBonus: 5.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Cruise Missiles CM-606:
+    DamageMultiplierBonus: 6.0
+    Implantness: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Defender Missiles DM-801:
+    Implantness: 8.0
+    MissileVelocityBonus: 1.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Defender Missiles DM-802:
+    Implantness: 8.0
+    MissileVelocityBonus: 2.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Defender Missiles DM-803:
+    Implantness: 8.0
+    MissileVelocityBonus: 3.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Defender Missiles DM-804:
+    Implantness: 8.0
+    MissileVelocityBonus: 4.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Defender Missiles DM-805:
+    Implantness: 8.0
+    MissileVelocityBonus: 5.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Defender Missiles DM-806:
+    Implantness: 8.0
+    MissileVelocityBonus: 6.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Heavy Assault Missiles AM-701:
+    DamageMultiplierBonus: 1.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Heavy Assault Missiles AM-702:
+    DamageMultiplierBonus: 2.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 1.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Heavy Assault Missiles AM-703:
+    DamageMultiplierBonus: 3.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 2.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Heavy Assault Missiles AM-704:
+    DamageMultiplierBonus: 4.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 3.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Heavy Assault Missiles AM-705:
+    DamageMultiplierBonus: 5.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 4.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Heavy Assault Missiles AM-706:
+    DamageMultiplierBonus: 6.0
+    Implantness: 7.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-701:
     DamageMultiplierBonus: 1.0
     Implantness: 7.0
@@ -11,13 +474,6 @@ items:
     Implantness: 7.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Torpedoes TD-606:
-    DamageMultiplierBonus: 6.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
     SpeedFactor: 1.0
     TechLevel: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-703:
@@ -48,131 +504,18 @@ items:
     RequiredSkill1Level: 5.0
     SpeedFactor: 1.0
     TechLevel: 1.0
-  Zainou 'Deadeye' Rapid Launch RL-1001:
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    RofBonus: -1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Rapid Launch RL-1002:
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    RofBonus: -2.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Torpedoes TD-604:
-    DamageMultiplierBonus: 4.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Rapid Launch RL-1003:
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    RofBonus: -3.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Torpedoes TD-605:
-    DamageMultiplierBonus: 5.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Rapid Launch RL-1004:
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    RofBonus: -4.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Torpedoes TD-602:
-    DamageMultiplierBonus: 2.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Missile Projection MP-705:
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    SpeedFactor: 5.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Missile Projection MP-706:
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    SpeedFactor: 6.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Torpedoes TD-603:
-    DamageMultiplierBonus: 3.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Rapid Launch RL-1005:
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    RofBonus: -5.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Rapid Launch RL-1006:
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    RofBonus: -6.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Missile Projection MP-703:
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    SpeedFactor: 3.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Missile Projection MP-704:
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    SpeedFactor: 4.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Torpedoes TD-601:
+  Zainou 'Snapshot' Light Missiles LM-901:
     DamageMultiplierBonus: 1.0
-    Implantness: 6.0
+    Implantness: 9.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 1.0
     SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Missile Projection MP-701:
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Missile Projection MP-702:
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 2.0
     TechLevel: 1.0
   Zainou 'Snapshot' Light Missiles LM-902:
     DamageMultiplierBonus: 2.0
     Implantness: 9.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Defender Missiles DM-806:
-    Implantness: 8.0
-    MissileVelocityBonus: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
     SpeedFactor: 1.0
     TechLevel: 1.0
   Zainou 'Snapshot' Light Missiles LM-903:
@@ -182,60 +525,11 @@ items:
     RequiredSkill1Level: 2.0
     SpeedFactor: 1.0
     TechLevel: 1.0
-  Zainou 'Snapshot' Defender Missiles DM-805:
-    Implantness: 8.0
-    MissileVelocityBonus: 5.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Defender Missiles DM-804:
-    Implantness: 8.0
-    MissileVelocityBonus: 4.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Light Missiles LM-901:
-    DamageMultiplierBonus: 1.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Light Missiles LM-906:
-    DamageMultiplierBonus: 6.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Defender Missiles DM-803:
-    Implantness: 8.0
-    MissileVelocityBonus: 3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Defender Missiles DM-802:
-    Implantness: 8.0
-    MissileVelocityBonus: 2.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
   Zainou 'Snapshot' Light Missiles LM-904:
     DamageMultiplierBonus: 4.0
     Implantness: 9.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 3.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Defender Missiles DM-801:
-    Implantness: 8.0
-    MissileVelocityBonus: 1.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
     SpeedFactor: 1.0
     TechLevel: 1.0
   Zainou 'Snapshot' Light Missiles LM-905:
@@ -245,85 +539,22 @@ items:
     RequiredSkill1Level: 4.0
     SpeedFactor: 1.0
     TechLevel: 1.0
-  Zainou 'Gnome' Launcher CPU Efficiency LE-601:
-    CpuNeedBonus: -1.0
-    Implantness: 6.0
+  Zainou 'Snapshot' Light Missiles LM-906:
+    DamageMultiplierBonus: 6.0
+    Implantness: 9.0
+    RequiredSkill1: 3411.0
+    RequiredSkill1Level: 5.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Zainou 'Snapshot' Rockets RD-901:
+    DamageMultiplierBonus: 1.0
+    Implantness: 9.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 1.0
     SpeedFactor: 1.0
     TechLevel: 1.0
-  Zainou 'Gnome' Launcher CPU Efficiency LE-602:
-    CpuNeedBonus: -2.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Target Navigation Prediction TN-906:
-    AoeVelocityBonus: 6.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Whelan Machorin's Ballistic Smartlink:
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    RofBonus: -5.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Gnome' Launcher CPU Efficiency LE-605:
-    CpuNeedBonus: -5.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Gnome' Launcher CPU Efficiency LE-606:
-    CpuNeedBonus: -6.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Target Navigation Prediction TN-905:
-    AoeVelocityBonus: 5.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Target Navigation Prediction TN-904:
-    AoeVelocityBonus: 4.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Gnome' Launcher CPU Efficiency LE-603:
-    CpuNeedBonus: -3.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Gnome' Launcher CPU Efficiency LE-604:
-    CpuNeedBonus: -4.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Target Navigation Prediction TN-903:
-    AoeVelocityBonus: 3.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Target Navigation Prediction TN-902:
-    AoeVelocityBonus: 2.0
+  Zainou 'Snapshot' Rockets RD-902:
+    DamageMultiplierBonus: 2.0
     Implantness: 9.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 1.0
@@ -343,13 +574,6 @@ items:
     RequiredSkill1Level: 3.0
     SpeedFactor: 1.0
     TechLevel: 1.0
-  Zainou 'Deadeye' Target Navigation Prediction TN-901:
-    AoeVelocityBonus: 1.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
   Zainou 'Snapshot' Rockets RD-905:
     DamageMultiplierBonus: 5.0
     Implantness: 9.0
@@ -364,269 +588,45 @@ items:
     RequiredSkill1Level: 5.0
     SpeedFactor: 1.0
     TechLevel: 1.0
-  Hardwiring - Zainou 'Sharpshooter' ZMX1100:
-    DamageMultiplierBonus: 6.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Hardwiring - Zainou 'Sharpshooter' ZMX10:
+  Zainou 'Snapshot' Torpedoes TD-601:
     DamageMultiplierBonus: 1.0
     Implantness: 6.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 1.0
     SpeedFactor: 1.0
     TechLevel: 1.0
-  Hardwiring - Zainou 'Sharpshooter' ZMX11:
+  Zainou 'Snapshot' Torpedoes TD-602:
     DamageMultiplierBonus: 2.0
     Implantness: 6.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 1.0
     SpeedFactor: 1.0
     TechLevel: 1.0
-  Zainou 'Snapshot' Rockets RD-901:
-    DamageMultiplierBonus: 1.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Rockets RD-902:
-    DamageMultiplierBonus: 2.0
-    Implantness: 9.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Guided Missile Precision GP-802:
-    AoeCloudSizeBonus: -2.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Guided Missile Precision GP-801:
-    AoeCloudSizeBonus: -1.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Guided Missile Precision GP-804:
-    AoeCloudSizeBonus: -4.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Guided Missile Precision GP-803:
-    AoeCloudSizeBonus: -3.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Cruise Missiles CM-605:
-    DamageMultiplierBonus: 5.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Cruise Missiles CM-606:
-    DamageMultiplierBonus: 6.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Cruise Missiles CM-603:
+  Zainou 'Snapshot' Torpedoes TD-603:
     DamageMultiplierBonus: 3.0
     Implantness: 6.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 2.0
     SpeedFactor: 1.0
     TechLevel: 1.0
-  Zainou 'Snapshot' Cruise Missiles CM-604:
+  Zainou 'Snapshot' Torpedoes TD-604:
     DamageMultiplierBonus: 4.0
     Implantness: 6.0
     RequiredSkill1: 3411.0
     RequiredSkill1Level: 3.0
     SpeedFactor: 1.0
     TechLevel: 1.0
-  Zainou 'Snapshot' Cruise Missiles CM-601:
-    DamageMultiplierBonus: 1.0
+  Zainou 'Snapshot' Torpedoes TD-605:
+    DamageMultiplierBonus: 5.0
     Implantness: 6.0
     RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
+    RequiredSkill1Level: 4.0
     SpeedFactor: 1.0
     TechLevel: 1.0
-  Hardwiring - Zainou 'Sharpshooter' ZMX110:
-    DamageMultiplierBonus: 4.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Cruise Missiles CM-602:
-    DamageMultiplierBonus: 2.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001:
-    AoeCloudSizeBonus: -1.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002:
-    AoeCloudSizeBonus: -2.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003:
-    AoeCloudSizeBonus: -3.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Heavy Assault Missiles AM-702:
-    DamageMultiplierBonus: 2.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Heavy Assault Missiles AM-701:
-    DamageMultiplierBonus: 1.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Heavy Assault Missiles AM-704:
-    DamageMultiplierBonus: 4.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Heavy Assault Missiles AM-703:
-    DamageMultiplierBonus: 3.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Heavy Assault Missiles AM-706:
+  Zainou 'Snapshot' Torpedoes TD-606:
     DamageMultiplierBonus: 6.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004:
-    AoeCloudSizeBonus: -4.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Heavy Assault Missiles AM-705:
-    DamageMultiplierBonus: 5.0
-    Implantness: 7.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005:
-    AoeCloudSizeBonus: -5.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006:
-    AoeCloudSizeBonus: -6.0
-    Implantness: 10.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Missile Bombardment MB-702:
-    Implantness: 7.0
-    MaxFlightTimeBonus: 2.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Missile Bombardment MB-701:
-    Implantness: 7.0
-    MaxFlightTimeBonus: 1.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 1.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Missile Bombardment MB-704:
-    Implantness: 7.0
-    MaxFlightTimeBonus: 4.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 3.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Missile Bombardment MB-703:
-    Implantness: 7.0
-    MaxFlightTimeBonus: 3.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 2.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Missile Bombardment MB-706:
-    Implantness: 7.0
-    MaxFlightTimeBonus: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 5.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Missile Bombardment MB-705:
-    Implantness: 7.0
-    MaxFlightTimeBonus: 5.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Hardwiring - Zainou 'Sharpshooter' ZMX100:
-    DamageMultiplierBonus: 3.0
     Implantness: 6.0
     RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Hardwiring - Zainou 'Sharpshooter' ZMX1000:
-    DamageMultiplierBonus: 5.0
-    Implantness: 6.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Guided Missile Precision GP-806:
-    AoeCloudSizeBonus: -6.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
     RequiredSkill1Level: 5.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Zainou 'Deadeye' Guided Missile Precision GP-805:
-    AoeCloudSizeBonus: -5.0
-    Implantness: 8.0
-    RequiredSkill1: 3411.0
-    RequiredSkill1Level: 4.0
     SpeedFactor: 1.0
     TechLevel: 1.0

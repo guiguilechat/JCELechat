@@ -1,76 +1,6 @@
 items:
-  1MN Afterburner II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
-  Federation Navy 100MN Afterburner Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
-  50000MN Quad LiF Restrained Microwarpdrive Blueprint:
-    IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
-  Republic Fleet 10MN Afterburner Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  Republic Fleet 100MN Afterburner Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
-  Federation Navy 50MN Microwarpdrive Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  1MN Afterburner I Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Republic Fleet 50MN Microwarpdrive Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  1MN Civilian Afterburner Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  5MN Microwarpdrive I Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
   10000MN Afterburner I Blueprint:
     IndustryBlueprintRank: 120.0
-    TechLevel: 1.0
-  50MN Microwarpdrive II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
-  5MN Digital Booster Microwarpdrive Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Republic Fleet 5MN Microwarpdrive Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  500MN Digital Booster Microwarpdrive Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
-  Domination 10000MN Afterburner Blueprint:
-    IndustryBlueprintRank: 400.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
-  100MN Analog Booster Afterburner Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
-  Republic Fleet 1MN Afterburner Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  Federation Navy 5MN Microwarpdrive Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  50MN Digital Booster Microwarpdrive Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  50000MN Y-T8 Compact Microwarpdrive Blueprint:
-    IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
-  10MN Afterburner II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    TechLevel: 2.0
-  1MN Analog Booster Afterburner Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
-  500MN Microwarpdrive I Blueprint:
-    IndustryBlueprintRank: 9.0
     TechLevel: 1.0
   10000MN Afterburner II Blueprint:
     IndustryBlueprintRank: 300.0
@@ -78,60 +8,130 @@ items:
   10000MN Monopropellant Enduring Afterburner Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1.0
-  500MN Microwarpdrive II Blueprint:
-    IndustryBlueprintRank: 23.399999618530273
-    TechLevel: 2.0
-  50000MN Cold-Gas Enduring Microwarpdrive Blueprint:
-    IndustryBlueprintRank: 200.0
-    TechLevel: 1.0
-  Federation Navy 1MN Afterburner Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1.0
   10000MN Y-S8 Compact Afterburner Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1.0
-  Shadow Serpentis 50000MN Microwarpdrive Blueprint:
-    IndustryBlueprintRank: 400.0
-    MetaGroupID: 4.0
-    TechLevel: 1.0
-  10MN Analog Booster Afterburner Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  Federation Navy 500MN Microwarpdrive Blueprint:
+  100MN Afterburner I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1.0
-  50MN Microwarpdrive I Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1.0
-  Federation Navy 10MN Afterburner Blueprint:
-    IndustryBlueprintRank: 6.0
+  100MN Afterburner II Blueprint:
+    IndustryBlueprintRank: 23.399999618530273
+    TechLevel: 2.0
+  100MN Analog Booster Afterburner Blueprint:
+    IndustryBlueprintRank: 9.0
     TechLevel: 1.0
   10MN Afterburner I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1.0
+  10MN Afterburner II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  10MN Analog Booster Afterburner Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  1MN Afterburner I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  1MN Afterburner II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  1MN Analog Booster Afterburner Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  1MN Civilian Afterburner Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  50000MN Cold-Gas Enduring Microwarpdrive Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
   50000MN Microwarpdrive I Blueprint:
     IndustryBlueprintRank: 120.0
+    TechLevel: 1.0
+  50000MN Microwarpdrive II Blueprint:
+    IndustryBlueprintRank: 300.0
+    TechLevel: 2.0
+  50000MN Quad LiF Restrained Microwarpdrive Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  50000MN Y-T8 Compact Microwarpdrive Blueprint:
+    IndustryBlueprintRank: 200.0
+    TechLevel: 1.0
+  500MN Digital Booster Microwarpdrive Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  500MN Microwarpdrive I Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  500MN Microwarpdrive II Blueprint:
+    IndustryBlueprintRank: 23.399999618530273
+    TechLevel: 2.0
+  50MN Digital Booster Microwarpdrive Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  50MN Microwarpdrive I Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  50MN Microwarpdrive II Blueprint:
+    IndustryBlueprintRank: 15.600000381469727
+    TechLevel: 2.0
+  5MN Digital Booster Microwarpdrive Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  5MN Microwarpdrive I Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  5MN Microwarpdrive II Blueprint:
+    IndustryBlueprintRank: 7.800000190734863
+    TechLevel: 2.0
+  Domination 10000MN Afterburner Blueprint:
+    IndustryBlueprintRank: 400.0
+    MetaGroupID: 4.0
+    TechLevel: 1.0
+  Domination 50000MN Microwarpdrive Blueprint:
+    IndustryBlueprintRank: 400.0
+    MetaGroupID: 4.0
+    TechLevel: 1.0
+  Federation Navy 100MN Afterburner Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Federation Navy 10MN Afterburner Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Federation Navy 1MN Afterburner Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Federation Navy 500MN Microwarpdrive Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Federation Navy 50MN Microwarpdrive Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Federation Navy 5MN Microwarpdrive Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Republic Fleet 100MN Afterburner Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Republic Fleet 10MN Afterburner Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Republic Fleet 1MN Afterburner Blueprint:
+    IndustryBlueprintRank: 3.0
+    TechLevel: 1.0
+  Republic Fleet 500MN Microwarpdrive Blueprint:
+    IndustryBlueprintRank: 9.0
+    TechLevel: 1.0
+  Republic Fleet 50MN Microwarpdrive Blueprint:
+    IndustryBlueprintRank: 6.0
+    TechLevel: 1.0
+  Republic Fleet 5MN Microwarpdrive Blueprint:
+    IndustryBlueprintRank: 3.0
     TechLevel: 1.0
   Shadow Serpentis 10000MN Afterburner Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4.0
     TechLevel: 1.0
-  50000MN Microwarpdrive II Blueprint:
-    IndustryBlueprintRank: 300.0
-    TechLevel: 2.0
-  Republic Fleet 500MN Microwarpdrive Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
-  100MN Afterburner I Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1.0
-  5MN Microwarpdrive II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2.0
-  100MN Afterburner II Blueprint:
-    IndustryBlueprintRank: 23.399999618530273
-    TechLevel: 2.0
-  Domination 50000MN Microwarpdrive Blueprint:
+  Shadow Serpentis 50000MN Microwarpdrive Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4.0
     TechLevel: 1.0

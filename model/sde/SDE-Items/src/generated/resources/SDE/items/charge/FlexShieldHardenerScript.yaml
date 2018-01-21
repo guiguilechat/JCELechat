@@ -1,4 +1,12 @@
 items:
+  Shield EM Resistance Script:
+    ChargeSize: 1.0
+    EmDamageResistanceBonusBonus: 200.0
+    ExplosiveDamageResistanceBonusBonus: -100.0
+    KineticDamageResistanceBonusBonus: -100.0
+    LauncherGroup: 1700.0
+    TechLevel: 1.0
+    ThermalDamageResistanceBonusBonus: -100.0
   Shield Explosive Resistance Script:
     ChargeSize: 1.0
     EmDamageResistanceBonusBonus: -100.0
@@ -7,11 +15,11 @@ items:
     LauncherGroup: 1700.0
     TechLevel: 1.0
     ThermalDamageResistanceBonusBonus: -100.0
-  Shield EM Resistance Script:
+  Shield Kinetic Resistance Script:
     ChargeSize: 1.0
-    EmDamageResistanceBonusBonus: 200.0
+    EmDamageResistanceBonusBonus: -100.0
     ExplosiveDamageResistanceBonusBonus: -100.0
-    KineticDamageResistanceBonusBonus: -100.0
+    KineticDamageResistanceBonusBonus: 200.0
     LauncherGroup: 1700.0
     TechLevel: 1.0
     ThermalDamageResistanceBonusBonus: -100.0
@@ -23,11 +31,3 @@ items:
     LauncherGroup: 1700.0
     TechLevel: 1.0
     ThermalDamageResistanceBonusBonus: 200.0
-  Shield Kinetic Resistance Script:
-    ChargeSize: 1.0
-    EmDamageResistanceBonusBonus: -100.0
-    ExplosiveDamageResistanceBonusBonus: -100.0
-    KineticDamageResistanceBonusBonus: 200.0
-    LauncherGroup: 1700.0
-    TechLevel: 1.0
-    ThermalDamageResistanceBonusBonus: -100.0

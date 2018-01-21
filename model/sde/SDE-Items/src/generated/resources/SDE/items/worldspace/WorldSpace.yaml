@@ -1,15 +1,15 @@
 items:
-  pipeline testing: {}
+  Amarr Captains Quarters: {}
+  Amarr Establishment: {}
+  Caldari Captains Quarters: {}
   Caldari Establishment: {}
-  TempPublish_01: {}
+  Gallente Captains Quarters: {}
+  Gallente Establishment: {}
+  Minmatar Captains Quarters: {}
   Minmatar Establishment: {}
+  TempPublish_01: {}
+  WreckPrototyping: {}
+  pipeline testing: {}
+  resource harvesting and combat prototype: {}
   swarren: {}
   wrecktest: {}
-  Amarr Establishment: {}
-  Minmatar Captains Quarters: {}
-  Gallente Establishment: {}
-  Caldari Captains Quarters: {}
-  WreckPrototyping: {}
-  Gallente Captains Quarters: {}
-  resource harvesting and combat prototype: {}
-  Amarr Captains Quarters: {}

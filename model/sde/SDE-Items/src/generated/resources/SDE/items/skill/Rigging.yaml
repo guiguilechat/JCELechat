@@ -1,4 +1,11 @@
 items:
+  Armor Rigging:
+    PrimaryAttribute: 165.0
+    RequiredSkill1: 26252.0
+    RequiredSkill1Level: 3.0
+    RigDrawbackBonus: -10.0
+    SecondaryAttribute: 166.0
+    SkillTimeConstant: 3.0
   Astronautics Rigging:
     PrimaryAttribute: 165.0
     RequiredSkill1: 26252.0
@@ -6,13 +13,6 @@ items:
     RigDrawbackBonus: -10.0
     SecondaryAttribute: 166.0
     SkillTimeConstant: 3.0
-  Jury Rigging:
-    PrimaryAttribute: 165.0
-    RequiredSkill1: 3392.0
-    RequiredSkill1Level: 3.0
-    RigDrawbackBonus: 10.0
-    SecondaryAttribute: 166.0
-    SkillTimeConstant: 2.0
   Drones Rigging:
     PrimaryAttribute: 165.0
     RequiredSkill1: 26252.0
@@ -20,7 +20,7 @@ items:
     RigDrawbackBonus: -10.0
     SecondaryAttribute: 166.0
     SkillTimeConstant: 3.0
-  Armor Rigging:
+  Electronic Superiority Rigging:
     PrimaryAttribute: 165.0
     RequiredSkill1: 26252.0
     RequiredSkill1Level: 3.0
@@ -41,14 +41,14 @@ items:
     RigDrawbackBonus: -10.0
     SecondaryAttribute: 166.0
     SkillTimeConstant: 3.0
-  Electronic Superiority Rigging:
+  Jury Rigging:
     PrimaryAttribute: 165.0
-    RequiredSkill1: 26252.0
+    RequiredSkill1: 3392.0
     RequiredSkill1Level: 3.0
-    RigDrawbackBonus: -10.0
+    RigDrawbackBonus: 10.0
     SecondaryAttribute: 166.0
-    SkillTimeConstant: 3.0
-  Shield Rigging:
+    SkillTimeConstant: 2.0
+  Launcher Rigging:
     PrimaryAttribute: 165.0
     RequiredSkill1: 26252.0
     RequiredSkill1Level: 3.0
@@ -62,7 +62,7 @@ items:
     RigDrawbackBonus: -10.0
     SecondaryAttribute: 166.0
     SkillTimeConstant: 3.0
-  Launcher Rigging:
+  Shield Rigging:
     PrimaryAttribute: 165.0
     RequiredSkill1: 26252.0
     RequiredSkill1Level: 3.0

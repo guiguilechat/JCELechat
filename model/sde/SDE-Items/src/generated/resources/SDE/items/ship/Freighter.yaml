@@ -1,66 +1,4 @@
 items:
-  Providence:
-    AdvancedAgility: 1.0
-    Agility: 0.0625
-    ArmorEmDamageResonance: 0.5
-    ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 46000.0
-    ArmorKineticDamageResonance: 0.75
-    ArmorThermalDamageResonance: 0.6499999761581421
-    ArmorUniformity: 0.75
-    BaseWarpSpeed: 1.0
-    CapacitorCapacity: 3750.0
-    CpuNeedBonus: -100.0
-    CpuOutput: 1.0
-    EmDamageResonance: 0.6700000166893005
-    ExplosiveDamageResonance: 0.6700000166893005
-    FighterAbilityAntiCapitalMissileResistance: 1.0
-    FreighterBonusA1: 5.0
-    FreighterBonusA2: 5.0
-    FwLpKill: 2000.0
-    GfxBoosterID: 394.0
-    HeatAttenuationLow: 0.5
-    HeatCapacityHi: 100.0
-    HeatCapacityLow: 100.0
-    HeatCapacityMed: 100.0
-    HeatDissipationRateHi: 0.009999999776482582
-    HeatDissipationRateLow: 0.009999999776482582
-    HeatDissipationRateMed: 0.009999999776482582
-    HeatGenerationMultiplier: 0.75
-    Hp: 100000.0
-    IsCapitalSize: 1.0
-    JumpFatigueMultiplier: 0.10000000149011612
-    KineticDamageResonance: 0.6700000166893005
-    LowSlots: 3.0
-    MainColor: 1.6777215E7
-    MaxPassengers: 150.0
-    MaxVelocity: 70.0
-    PowerOutput: 3.0
-    PowerToSpeed: 1.0
-    PropulsionGraphicID: 394.0
-    RechargeRate: 230975.0
-    RequiredSkill1: 20342.0
-    RequiredSkill1Level: 1.0
-    RequiredSkill2: 20524.0
-    RequiredSkill2Level: 1.0
-    RigSize: 4.0
-    ScanRadarStrength: 86.0
-    ScanSpeed: 6750.0
-    ShieldCapacity: 10000.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 0.5
-    ShieldKineticDamageResonance: 0.6000000238418579
-    ShieldRechargeRate: 6000000.0
-    ShieldThermalDamageResonance: 0.800000011920929
-    ShieldUniformity: 0.75
-    SignatureRadius: 10515.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
-    ThermalDamageResonance: 0.6700000166893005
-    TypeColorScheme: 11313.0
-    Uniformity: 1.0
-    WarpCapacitorNeed: 1.38000002536387E-8
-    WarpSpeedMultiplier: 1.3700000047683716
   Bowhead:
     AdvancedAgility: 1.0
     Agility: 0.1080000028014183
@@ -316,6 +254,68 @@ items:
     TechLevel: 1.0
     ThermalDamageResonance: 0.6700000166893005
     TypeColorScheme: 11331.0
+    Uniformity: 1.0
+    WarpCapacitorNeed: 1.38000002536387E-8
+    WarpSpeedMultiplier: 1.3700000047683716
+  Providence:
+    AdvancedAgility: 1.0
+    Agility: 0.0625
+    ArmorEmDamageResonance: 0.5
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 46000.0
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    ArmorUniformity: 0.75
+    BaseWarpSpeed: 1.0
+    CapacitorCapacity: 3750.0
+    CpuNeedBonus: -100.0
+    CpuOutput: 1.0
+    EmDamageResonance: 0.6700000166893005
+    ExplosiveDamageResonance: 0.6700000166893005
+    FighterAbilityAntiCapitalMissileResistance: 1.0
+    FreighterBonusA1: 5.0
+    FreighterBonusA2: 5.0
+    FwLpKill: 2000.0
+    GfxBoosterID: 394.0
+    HeatAttenuationLow: 0.5
+    HeatCapacityHi: 100.0
+    HeatCapacityLow: 100.0
+    HeatCapacityMed: 100.0
+    HeatDissipationRateHi: 0.009999999776482582
+    HeatDissipationRateLow: 0.009999999776482582
+    HeatDissipationRateMed: 0.009999999776482582
+    HeatGenerationMultiplier: 0.75
+    Hp: 100000.0
+    IsCapitalSize: 1.0
+    JumpFatigueMultiplier: 0.10000000149011612
+    KineticDamageResonance: 0.6700000166893005
+    LowSlots: 3.0
+    MainColor: 1.6777215E7
+    MaxPassengers: 150.0
+    MaxVelocity: 70.0
+    PowerOutput: 3.0
+    PowerToSpeed: 1.0
+    PropulsionGraphicID: 394.0
+    RechargeRate: 230975.0
+    RequiredSkill1: 20342.0
+    RequiredSkill1Level: 1.0
+    RequiredSkill2: 20524.0
+    RequiredSkill2Level: 1.0
+    RigSize: 4.0
+    ScanRadarStrength: 86.0
+    ScanSpeed: 6750.0
+    ShieldCapacity: 10000.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 6000000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    SignatureRadius: 10515.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+    ThermalDamageResonance: 0.6700000166893005
+    TypeColorScheme: 11313.0
     Uniformity: 1.0
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.3700000047683716

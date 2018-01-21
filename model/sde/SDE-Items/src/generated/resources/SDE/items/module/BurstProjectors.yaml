@@ -1,31 +1,4 @@
 items:
-  Stasis Webification Burst Projector:
-    CanCloak: 1.0
-    CanFitShipGroup01: 659.0
-    CapacitorNeed: 8250.0
-    ConsumptionQuantity: 250.0
-    ConsumptionType: 16272.0
-    Cpu: 100.0
-    DisallowDocking: 1.0
-    DisallowEarlyDeactivation: 1.0
-    DisallowRepeatingActivation: 1.0
-    DoomsdayAOEDuration: 40000.0
-    DoomsdayAOERange: 10000.0
-    DoomsdayAOEShape: 4.0
-    DoomsdayWarningDuration: 10000.0
-    Duration: 480000.0
-    Hp: 99999.0
-    IsPointTargeted: 1.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MaxRange: 200000.0
-    Power: 100000.0
-    RemoteResistanceID: 2115.0
-    RequiredSkill1: 27911.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 100.0
-    SpeedFactor: -55.0
-    TechLevel: 1.0
   ECM Jammer Burst Projector:
     CanFitShipGroup01: 659.0
     CapacitorNeed: 8250.0
@@ -54,6 +27,34 @@ items:
     ScanMagnetometricStrengthBonus: 5.0
     ScanRadarStrengthBonus: 5.0
     SiegeModeWarpStatus: 100.0
+    SignatureRadius: 100.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Energy Neutralization Burst Projector:
+    CanCloak: 1.0
+    CanFitShipGroup01: 659.0
+    CapacitorNeed: 8250.0
+    ConsumptionQuantity: 250.0
+    ConsumptionType: 16272.0
+    Cpu: 100.0
+    DisallowDocking: 1.0
+    DisallowEarlyDeactivation: 1.0
+    DisallowRepeatingActivation: 1.0
+    DoomsdayAOERange: 10000.0
+    DoomsdayAOEShape: 4.0
+    DoomsdayAOESignatureRadius: 500.0
+    DoomsdayWarningDuration: 10000.0
+    Duration: 480000.0
+    EnergyNeutralizerAmount: 3000.0
+    Hp: 99999.0
+    IsPointTargeted: 1.0
+    MaxGroupActive: 1.0
+    MaxGroupFitted: 1.0
+    MaxRange: 200000.0
+    Power: 100000.0
+    RemoteResistanceID: 2045.0
+    RequiredSkill1: 27911.0
+    RequiredSkill1Level: 1.0
     SignatureRadius: 100.0
     SpeedFactor: 1.0
     TechLevel: 1.0
@@ -86,7 +87,7 @@ items:
     SignatureRadius: 100.0
     SpeedFactor: 1.0
     TechLevel: 1.0
-  Warp Disruption Burst Projector:
+  Stasis Webification Burst Projector:
     CanCloak: 1.0
     CanFitShipGroup01: 659.0
     CapacitorNeed: 8250.0
@@ -95,7 +96,6 @@ items:
     Cpu: 100.0
     DisallowDocking: 1.0
     DisallowEarlyDeactivation: 1.0
-    DisallowInEmpireSpace: 1.0
     DisallowRepeatingActivation: 1.0
     DoomsdayAOEDuration: 40000.0
     DoomsdayAOERange: 10000.0
@@ -106,11 +106,71 @@ items:
     IsPointTargeted: 1.0
     MaxGroupActive: 1.0
     MaxGroupFitted: 1.0
-    MaxRange: 500000.0
+    MaxRange: 200000.0
     Power: 100000.0
+    RemoteResistanceID: 2115.0
     RequiredSkill1: 27911.0
     RequiredSkill1Level: 1.0
     SignatureRadius: 100.0
+    SpeedFactor: -55.0
+    TechLevel: 1.0
+  Superweapon_AOEECM:
+    CanFitShipGroup01: 659.0
+    CapacitorNeed: 1000.0
+    ConsumptionType: 17888.0
+    Cpu: 100.0
+    DisallowDocking: 1.0
+    DisallowEarlyDeactivation: 1.0
+    DisallowRepeatingActivation: 1.0
+    DoomsdayAOEDuration: 10000.0
+    DoomsdayAOERange: 10000.0
+    DoomsdayWarningDuration: 10000.0
+    DurationECMJammerBurstProjector: 300000.0
+    Hp: 99999.0
+    IsPointTargeted: 1.0
+    MaxGroupActive: 1.0
+    MaxGroupFitted: 1.0
+    MaxRange: 200000.0
+    Power: 100000.0
+    RemoteResistanceID: 2253.0
+    RequiredSkill1: 27911.0
+    RequiredSkill1Level: 1.0
+    ScanGravimetricStrengthBonus: 10.0
+    ScanLadarStrengthBonus: 10.0
+    ScanMagnetometricStrengthBonus: 10.0
+    ScanRadarStrengthBonus: 10.0
+    SiegeModeWarpStatus: 100.0
+    SignatureRadius: 100.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Superweapon_AOEGuide:
+    AoeCloudSizeBonus: 10.0
+    AoeVelocityBonus: -10.0
+    CanCloak: 1.0
+    CanFitShipGroup01: 659.0
+    CapacitorNeed: 1000.0
+    ConsumptionType: 17888.0
+    Cpu: 100.0
+    DisallowDocking: 1.0
+    DisallowEarlyDeactivation: 1.0
+    DisallowRepeatingActivation: 1.0
+    DoomsdayAOEDuration: 10000.0
+    DoomsdayAOERange: 10000.0
+    DoomsdayAOEShape: 4.0
+    DoomsdayWarningDuration: 10000.0
+    Duration: 300000.0
+    ExplosionDelayBonus: -10.0
+    Hp: 99999.0
+    IsPointTargeted: 1.0
+    MaxGroupActive: 1.0
+    MaxGroupFitted: 1.0
+    MaxRange: 200000.0
+    MissileVelocityBonus: -10.0
+    Power: 100000.0
+    RemoteResistanceID: 2113.0
+    RequiredSkill1: 27911.0
+    RequiredSkill1Level: 1.0
+    SignatureRadius: 50.0
     SpeedFactor: 1.0
     TechLevel: 1.0
   Target Illumination Burst Projector:
@@ -139,6 +199,33 @@ items:
     RequiredSkill1Level: 1.0
     SignatureRadius: 100.0
     SignatureRadiusBonus: 35.0
+    SpeedFactor: 1.0
+    TechLevel: 1.0
+  Warp Disruption Burst Projector:
+    CanCloak: 1.0
+    CanFitShipGroup01: 659.0
+    CapacitorNeed: 8250.0
+    ConsumptionQuantity: 250.0
+    ConsumptionType: 16272.0
+    Cpu: 100.0
+    DisallowDocking: 1.0
+    DisallowEarlyDeactivation: 1.0
+    DisallowInEmpireSpace: 1.0
+    DisallowRepeatingActivation: 1.0
+    DoomsdayAOEDuration: 40000.0
+    DoomsdayAOERange: 10000.0
+    DoomsdayAOEShape: 4.0
+    DoomsdayWarningDuration: 10000.0
+    Duration: 480000.0
+    Hp: 99999.0
+    IsPointTargeted: 1.0
+    MaxGroupActive: 1.0
+    MaxGroupFitted: 1.0
+    MaxRange: 500000.0
+    Power: 100000.0
+    RequiredSkill1: 27911.0
+    RequiredSkill1Level: 1.0
+    SignatureRadius: 100.0
     SpeedFactor: 1.0
     TechLevel: 1.0
   Weapon Disruption Burst Projector:
@@ -175,90 +262,3 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1.0
     TrackingSpeedBonus: -20.0
-  Superweapon_AOEGuide:
-    AoeCloudSizeBonus: 10.0
-    AoeVelocityBonus: -10.0
-    CanCloak: 1.0
-    CanFitShipGroup01: 659.0
-    CapacitorNeed: 1000.0
-    ConsumptionType: 17888.0
-    Cpu: 100.0
-    DisallowDocking: 1.0
-    DisallowEarlyDeactivation: 1.0
-    DisallowRepeatingActivation: 1.0
-    DoomsdayAOEDuration: 10000.0
-    DoomsdayAOERange: 10000.0
-    DoomsdayAOEShape: 4.0
-    DoomsdayWarningDuration: 10000.0
-    Duration: 300000.0
-    ExplosionDelayBonus: -10.0
-    Hp: 99999.0
-    IsPointTargeted: 1.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MaxRange: 200000.0
-    MissileVelocityBonus: -10.0
-    Power: 100000.0
-    RemoteResistanceID: 2113.0
-    RequiredSkill1: 27911.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 50.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Superweapon_AOEECM:
-    CanFitShipGroup01: 659.0
-    CapacitorNeed: 1000.0
-    ConsumptionType: 17888.0
-    Cpu: 100.0
-    DisallowDocking: 1.0
-    DisallowEarlyDeactivation: 1.0
-    DisallowRepeatingActivation: 1.0
-    DoomsdayAOEDuration: 10000.0
-    DoomsdayAOERange: 10000.0
-    DoomsdayWarningDuration: 10000.0
-    DurationECMJammerBurstProjector: 300000.0
-    Hp: 99999.0
-    IsPointTargeted: 1.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MaxRange: 200000.0
-    Power: 100000.0
-    RemoteResistanceID: 2253.0
-    RequiredSkill1: 27911.0
-    RequiredSkill1Level: 1.0
-    ScanGravimetricStrengthBonus: 10.0
-    ScanLadarStrengthBonus: 10.0
-    ScanMagnetometricStrengthBonus: 10.0
-    ScanRadarStrengthBonus: 10.0
-    SiegeModeWarpStatus: 100.0
-    SignatureRadius: 100.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0
-  Energy Neutralization Burst Projector:
-    CanCloak: 1.0
-    CanFitShipGroup01: 659.0
-    CapacitorNeed: 8250.0
-    ConsumptionQuantity: 250.0
-    ConsumptionType: 16272.0
-    Cpu: 100.0
-    DisallowDocking: 1.0
-    DisallowEarlyDeactivation: 1.0
-    DisallowRepeatingActivation: 1.0
-    DoomsdayAOERange: 10000.0
-    DoomsdayAOEShape: 4.0
-    DoomsdayAOESignatureRadius: 500.0
-    DoomsdayWarningDuration: 10000.0
-    Duration: 480000.0
-    EnergyNeutralizerAmount: 3000.0
-    Hp: 99999.0
-    IsPointTargeted: 1.0
-    MaxGroupActive: 1.0
-    MaxGroupFitted: 1.0
-    MaxRange: 200000.0
-    Power: 100000.0
-    RemoteResistanceID: 2045.0
-    RequiredSkill1: 27911.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 100.0
-    SpeedFactor: 1.0
-    TechLevel: 1.0

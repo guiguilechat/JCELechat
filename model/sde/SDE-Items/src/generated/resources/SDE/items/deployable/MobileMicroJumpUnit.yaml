@@ -1,24 +1,4 @@
 items:
-  Tournament Micro Jump Unit:
-    ArmorHP: 1000.0
-    ArmorUniformity: 0.75
-    Hp: 3000.0
-    MetaLevel: 1.0
-    ScanGravimetricStrength: 5.0
-    ScanLadarStrength: 5.0
-    ScanMagnetometricStrength: 5.0
-    ScanRadarStrength: 5.0
-    ShieldCapacity: 10000.0
-    ShieldEmDamageResonance: 0.009999999776482582
-    ShieldExplosiveDamageResonance: 0.009999999776482582
-    ShieldKineticDamageResonance: 0.009999999776482582
-    ShieldRechargeRate: 1000.0
-    ShieldThermalDamageResonance: 0.009999999776482582
-    ShieldUniformity: 0.75
-    SignatureRadius: 50.0
-    SignatureRadiusBonusPercent: 150.0
-    StructureUniformity: 1.0
-    TechLevel: 1.0
   Mobile Micro Jump Unit:
     ArmorHP: 1000.0
     ArmorUniformity: 0.75
@@ -36,6 +16,26 @@ items:
     ShieldKineticDamageResonance: 1.0
     ShieldRechargeRate: 3200000.0
     ShieldThermalDamageResonance: 1.0
+    ShieldUniformity: 0.75
+    SignatureRadius: 50.0
+    SignatureRadiusBonusPercent: 150.0
+    StructureUniformity: 1.0
+    TechLevel: 1.0
+  Tournament Micro Jump Unit:
+    ArmorHP: 1000.0
+    ArmorUniformity: 0.75
+    Hp: 3000.0
+    MetaLevel: 1.0
+    ScanGravimetricStrength: 5.0
+    ScanLadarStrength: 5.0
+    ScanMagnetometricStrength: 5.0
+    ScanRadarStrength: 5.0
+    ShieldCapacity: 10000.0
+    ShieldEmDamageResonance: 0.009999999776482582
+    ShieldExplosiveDamageResonance: 0.009999999776482582
+    ShieldKineticDamageResonance: 0.009999999776482582
+    ShieldRechargeRate: 1000.0
+    ShieldThermalDamageResonance: 0.009999999776482582
     ShieldUniformity: 0.75
     SignatureRadius: 50.0
     SignatureRadiusBonusPercent: 150.0

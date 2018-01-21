@@ -1,115 +1,19 @@
 items:
-  Loki Defensive - Covert Reconfiguration:
-    CapacitorCapacity: 200.0
-    CargoCapacityAdd: 30.0
-    CovertOpsAndReconOpsCloakModuleDelay: 5000.0
-    FitsToShipType: 29990.0
-    HiSlotModifier: 1.0
-    Hp: 40.0
-    JumpHarmonicsModifier: 5.0
-    LowSlotModifier: 1.0
-    MedSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30545.0
-    RequiredSkill1Level: 1.0
-    SignatureRadius: 5.0
-    StructureHPBonusAdd: 1000.0
-    SubSystemSlot: 126.0
-    SubsystemBonusMinmatarDefensive: 7.5
-    SubsystemBonusMinmatarDefensive2: 10.0
-    SubsystemBonusMinmatarDefensive3: 7.5
-    TechLevel: 3.0
-    VirusStrengthBonus: 10.0
-  Tengu Defensive - Amplification Node:
-    ArmorHPBonusAdd: 100.0
-    CapacitorCapacity: 300.0
-    CovertCloakCPUPenalty: 10000.0
-    CovertOpsAndReconOpsCloakModuleDelay: 30000.0
-    FitsToShipType: 29984.0
-    Hp: 40.0
-    LowSlotModifier: 1.0
-    MedSlotModifier: 3.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30544.0
-    RequiredSkill1Level: 1.0
-    ShieldCapacity: 500.0
-    SignatureRadius: 100.0
-    SubSystemSlot: 126.0
-    SubsystemBonusCaldariDefensive: 10.0
-    SubsystemBonusCaldariDefensive3: 10.0
-    TechLevel: 3.0
-  Legion Defensive - Nanobot Injector:
-    ArmorHPBonusAdd: 500.0
-    CapacitorCapacity: 300.0
+  Legion Defensive - Augmented Plating:
+    ArmorHPBonusAdd: 1000.0
     CovertCloakCPUPenalty: 10000.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000.0
     FitsToShipType: 29986.0
     Hp: 40.0
-    LowSlotModifier: 2.0
-    MedSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30532.0
-    RequiredSkill1Level: 1.0
-    ShieldCapacity: 100.0
-    SignatureRadius: 100.0
-    SubSystemSlot: 126.0
-    SubsystemBonusAmarrDefensive: 10.0
-    SubsystemBonusAmarrDefensive3: 10.0
-    TechLevel: 3.0
-  Loki Defensive - Augmented Durability:
-    ArmorHPBonusAdd: 600.0
-    CovertCloakCPUPenalty: 10000.0
-    CovertOpsAndReconOpsCloakModuleDelay: 30000.0
-    FitsToShipType: 29990.0
-    Hp: 40.0
-    LowSlotModifier: 2.0
-    MedSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30545.0
-    RequiredSkill1Level: 1.0
-    ShieldCapacity: 600.0
-    SignatureRadius: 10.0
-    SubSystemSlot: 126.0
-    SubsystemBonusMinmatarDefensive: 5.0
-    SubsystemBonusMinmatarDefensive2: 5.0
-    TechLevel: 3.0
-  Proteus Defensive - Covert Reconfiguration:
-    CapacitorCapacity: 200.0
-    CargoCapacityAdd: 30.0
-    CovertOpsAndReconOpsCloakModuleDelay: 5000.0
-    FitsToShipType: 29988.0
-    HiSlotModifier: 1.0
-    Hp: 40.0
-    JumpHarmonicsModifier: 5.0
-    LowSlotModifier: 2.0
-    MedSlotModifier: 1.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30540.0
-    RequiredSkill1Level: 1.0
-    ShieldCapacity: 500.0
-    SignatureRadius: 5.0
-    StructureHPBonusAdd: 600.0
-    SubSystemSlot: 126.0
-    SubsystemBonusGallenteDefensive: 7.5
-    SubsystemBonusGallenteDefensive2: 10.0
-    SubsystemBonusGallenteDefensive3: 7.5
-    TechLevel: 3.0
-    VirusStrengthBonus: 10.0
-  Proteus Defensive - Augmented Plating:
-    ArmorHPBonusAdd: 1000.0
-    CovertCloakCPUPenalty: 10000.0
-    CovertOpsAndReconOpsCloakModuleDelay: 30000.0
-    FitsToShipType: 29988.0
-    Hp: 40.0
     LowSlotModifier: 3.0
     MedSlotModifier: 1.0
     MetaLevel: 1.0
-    RequiredSkill1: 30540.0
+    RequiredSkill1: 30532.0
     RequiredSkill1Level: 1.0
     SignatureRadius: 10.0
     SubSystemSlot: 126.0
-    SubsystemBonusGallenteDefensive: 5.0
-    SubsystemBonusGallenteDefensive2: 5.0
+    SubsystemBonusAmarrDefensive: 5.0
+    SubsystemBonusAmarrDefensive2: 5.0
     TechLevel: 3.0
   Legion Defensive - Covert Reconfiguration:
     CapacitorCapacity: 200.0
@@ -133,21 +37,155 @@ items:
     SubsystemBonusAmarrDefensive3: 7.5
     TechLevel: 3.0
     VirusStrengthBonus: 10.0
-  Tengu Defensive - Supplemental Screening:
+  Legion Defensive - Nanobot Injector:
+    ArmorHPBonusAdd: 500.0
+    CapacitorCapacity: 300.0
     CovertCloakCPUPenalty: 10000.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000.0
-    FitsToShipType: 29984.0
+    FitsToShipType: 29986.0
     Hp: 40.0
     LowSlotModifier: 2.0
     MedSlotModifier: 2.0
     MetaLevel: 1.0
-    RequiredSkill1: 30544.0
+    RequiredSkill1: 30532.0
     RequiredSkill1Level: 1.0
-    ShieldCapacity: 1000.0
+    ShieldCapacity: 100.0
+    SignatureRadius: 100.0
+    SubSystemSlot: 126.0
+    SubsystemBonusAmarrDefensive: 10.0
+    SubsystemBonusAmarrDefensive3: 10.0
+    TechLevel: 3.0
+  Loki Defensive - Adaptive Defense Node:
+    ArmorHPBonusAdd: 300.0
+    CapacitorCapacity: 300.0
+    CovertCloakCPUPenalty: 10000.0
+    CovertOpsAndReconOpsCloakModuleDelay: 30000.0
+    FitsToShipType: 29990.0
+    Hp: 40.0
+    LowSlotModifier: 2.0
+    MedSlotModifier: 2.0
+    MetaLevel: 1.0
+    RequiredSkill1: 30545.0
+    RequiredSkill1Level: 1.0
+    ShieldCapacity: 300.0
+    SignatureRadius: 100.0
+    StructureHPBonusAdd: 100.0
+    SubSystemSlot: 126.0
+    SubsystemBonusMinmatarDefensive: 10.0
+    SubsystemBonusMinmatarDefensive2: 10.0
+    SubsystemBonusMinmatarDefensive3: 10.0
+    TechLevel: 3.0
+  Loki Defensive - Augmented Durability:
+    ArmorHPBonusAdd: 600.0
+    CovertCloakCPUPenalty: 10000.0
+    CovertOpsAndReconOpsCloakModuleDelay: 30000.0
+    FitsToShipType: 29990.0
+    Hp: 40.0
+    LowSlotModifier: 2.0
+    MedSlotModifier: 2.0
+    MetaLevel: 1.0
+    RequiredSkill1: 30545.0
+    RequiredSkill1Level: 1.0
+    ShieldCapacity: 600.0
     SignatureRadius: 10.0
     SubSystemSlot: 126.0
-    SubsystemBonusCaldariDefensive: 5.0
-    SubsystemBonusCaldariDefensive2: 5.0
+    SubsystemBonusMinmatarDefensive: 5.0
+    SubsystemBonusMinmatarDefensive2: 5.0
+    TechLevel: 3.0
+  Loki Defensive - Covert Reconfiguration:
+    CapacitorCapacity: 200.0
+    CargoCapacityAdd: 30.0
+    CovertOpsAndReconOpsCloakModuleDelay: 5000.0
+    FitsToShipType: 29990.0
+    HiSlotModifier: 1.0
+    Hp: 40.0
+    JumpHarmonicsModifier: 5.0
+    LowSlotModifier: 1.0
+    MedSlotModifier: 2.0
+    MetaLevel: 1.0
+    RequiredSkill1: 30545.0
+    RequiredSkill1Level: 1.0
+    SignatureRadius: 5.0
+    StructureHPBonusAdd: 1000.0
+    SubSystemSlot: 126.0
+    SubsystemBonusMinmatarDefensive: 7.5
+    SubsystemBonusMinmatarDefensive2: 10.0
+    SubsystemBonusMinmatarDefensive3: 7.5
+    TechLevel: 3.0
+    VirusStrengthBonus: 10.0
+  Proteus Defensive - Augmented Plating:
+    ArmorHPBonusAdd: 1000.0
+    CovertCloakCPUPenalty: 10000.0
+    CovertOpsAndReconOpsCloakModuleDelay: 30000.0
+    FitsToShipType: 29988.0
+    Hp: 40.0
+    LowSlotModifier: 3.0
+    MedSlotModifier: 1.0
+    MetaLevel: 1.0
+    RequiredSkill1: 30540.0
+    RequiredSkill1Level: 1.0
+    SignatureRadius: 10.0
+    SubSystemSlot: 126.0
+    SubsystemBonusGallenteDefensive: 5.0
+    SubsystemBonusGallenteDefensive2: 5.0
+    TechLevel: 3.0
+  Proteus Defensive - Covert Reconfiguration:
+    CapacitorCapacity: 200.0
+    CargoCapacityAdd: 30.0
+    CovertOpsAndReconOpsCloakModuleDelay: 5000.0
+    FitsToShipType: 29988.0
+    HiSlotModifier: 1.0
+    Hp: 40.0
+    JumpHarmonicsModifier: 5.0
+    LowSlotModifier: 2.0
+    MedSlotModifier: 1.0
+    MetaLevel: 1.0
+    RequiredSkill1: 30540.0
+    RequiredSkill1Level: 1.0
+    ShieldCapacity: 500.0
+    SignatureRadius: 5.0
+    StructureHPBonusAdd: 600.0
+    SubSystemSlot: 126.0
+    SubsystemBonusGallenteDefensive: 7.5
+    SubsystemBonusGallenteDefensive2: 10.0
+    SubsystemBonusGallenteDefensive3: 7.5
+    TechLevel: 3.0
+    VirusStrengthBonus: 10.0
+  Proteus Defensive - Nanobot Injector:
+    ArmorHPBonusAdd: 500.0
+    CapacitorCapacity: 300.0
+    CovertCloakCPUPenalty: 10000.0
+    CovertOpsAndReconOpsCloakModuleDelay: 30000.0
+    FitsToShipType: 29988.0
+    Hp: 40.0
+    LowSlotModifier: 2.0
+    MedSlotModifier: 2.0
+    MetaLevel: 1.0
+    RequiredSkill1: 30540.0
+    RequiredSkill1Level: 1.0
+    ShieldCapacity: 100.0
+    SignatureRadius: 100.0
+    SubSystemSlot: 126.0
+    SubsystemBonusGallenteDefensive: 10.0
+    SubsystemBonusGallenteDefensive3: 10.0
+    TechLevel: 3.0
+  Tengu Defensive - Amplification Node:
+    ArmorHPBonusAdd: 100.0
+    CapacitorCapacity: 300.0
+    CovertCloakCPUPenalty: 10000.0
+    CovertOpsAndReconOpsCloakModuleDelay: 30000.0
+    FitsToShipType: 29984.0
+    Hp: 40.0
+    LowSlotModifier: 1.0
+    MedSlotModifier: 3.0
+    MetaLevel: 1.0
+    RequiredSkill1: 30544.0
+    RequiredSkill1Level: 1.0
+    ShieldCapacity: 500.0
+    SignatureRadius: 100.0
+    SubSystemSlot: 126.0
+    SubsystemBonusCaldariDefensive: 10.0
+    SubsystemBonusCaldariDefensive3: 10.0
     TechLevel: 3.0
   Tengu Defensive - Covert Reconfiguration:
     ArmorHPBonusAdd: 300.0
@@ -170,57 +208,19 @@ items:
     SubsystemBonusCaldariDefensive3: 7.5
     TechLevel: 3.0
     VirusStrengthBonus: 10.0
-  Legion Defensive - Augmented Plating:
-    ArmorHPBonusAdd: 1000.0
+  Tengu Defensive - Supplemental Screening:
     CovertCloakCPUPenalty: 10000.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000.0
-    FitsToShipType: 29986.0
+    FitsToShipType: 29984.0
     Hp: 40.0
-    LowSlotModifier: 3.0
-    MedSlotModifier: 1.0
+    LowSlotModifier: 2.0
+    MedSlotModifier: 2.0
     MetaLevel: 1.0
-    RequiredSkill1: 30532.0
+    RequiredSkill1: 30544.0
     RequiredSkill1Level: 1.0
+    ShieldCapacity: 1000.0
     SignatureRadius: 10.0
     SubSystemSlot: 126.0
-    SubsystemBonusAmarrDefensive: 5.0
-    SubsystemBonusAmarrDefensive2: 5.0
-    TechLevel: 3.0
-  Loki Defensive - Adaptive Defense Node:
-    ArmorHPBonusAdd: 300.0
-    CapacitorCapacity: 300.0
-    CovertCloakCPUPenalty: 10000.0
-    CovertOpsAndReconOpsCloakModuleDelay: 30000.0
-    FitsToShipType: 29990.0
-    Hp: 40.0
-    LowSlotModifier: 2.0
-    MedSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30545.0
-    RequiredSkill1Level: 1.0
-    ShieldCapacity: 300.0
-    SignatureRadius: 100.0
-    StructureHPBonusAdd: 100.0
-    SubSystemSlot: 126.0
-    SubsystemBonusMinmatarDefensive: 10.0
-    SubsystemBonusMinmatarDefensive2: 10.0
-    SubsystemBonusMinmatarDefensive3: 10.0
-    TechLevel: 3.0
-  Proteus Defensive - Nanobot Injector:
-    ArmorHPBonusAdd: 500.0
-    CapacitorCapacity: 300.0
-    CovertCloakCPUPenalty: 10000.0
-    CovertOpsAndReconOpsCloakModuleDelay: 30000.0
-    FitsToShipType: 29988.0
-    Hp: 40.0
-    LowSlotModifier: 2.0
-    MedSlotModifier: 2.0
-    MetaLevel: 1.0
-    RequiredSkill1: 30540.0
-    RequiredSkill1Level: 1.0
-    ShieldCapacity: 100.0
-    SignatureRadius: 100.0
-    SubSystemSlot: 126.0
-    SubsystemBonusGallenteDefensive: 10.0
-    SubsystemBonusGallenteDefensive3: 10.0
+    SubsystemBonusCaldariDefensive: 5.0
+    SubsystemBonusCaldariDefensive2: 5.0
     TechLevel: 3.0
