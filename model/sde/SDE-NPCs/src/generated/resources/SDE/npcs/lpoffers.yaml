@@ -24256,6 +24256,42 @@ offers:
     requirements:
       isk: 175000000
       lp: 30000
+  16306:
+    id: 16306
+    offer_name: Rifter Republic Fleet Ordnance Pack
+    product:
+      item: Rifter Republic Fleet Ordnance Pack
+      quantity: 1
+    requirements:
+      isk: 1500000
+      lp: 1000
+  16307:
+    id: 16307
+    offer_name: Rupture Republic Fleet Ordnance Pack
+    product:
+      item: Rupture Republic Fleet Ordnance Pack
+      quantity: 1
+    requirements:
+      isk: 15000000
+      lp: 5000
+  16308:
+    id: 16308
+    offer_name: Hurricane Republic Fleet Ordnance Pack
+    product:
+      item: Hurricane Republic Fleet Ordnance Pack
+      quantity: 1
+    requirements:
+      isk: 50000000
+      lp: 15000
+  16309:
+    id: 16309
+    offer_name: Tempest Republic Fleet Ordnance Pack
+    product:
+      item: Tempest Republic Fleet Ordnance Pack
+      quantity: 1
+    requirements:
+      isk: 175000000
+      lp: 30000
   16316:
     id: 16316
     offer_name: Venture Mining Pack
@@ -24297,6 +24333,15 @@ offers:
     offer_name: Catalyst Destroyer Battle Pack
     product:
       item: Catalyst Destroyer Battle Pack
+      quantity: 1
+    requirements:
+      isk: 2000000
+      lp: 2000
+  16321:
+    id: 16321
+    offer_name: Thrasher Destroyer Battle Pack
+    product:
+      item: Thrasher Destroyer Battle Pack
       quantity: 1
     requirements:
       isk: 2000000
@@ -24405,6 +24450,42 @@ offers:
     offer_name: Women's Gallente Federation Command Jacket
     product:
       item: Women's Gallente Federation Command Jacket
+      quantity: 1
+    requirements:
+      isk: 100000000
+      lp: 500
+  16334:
+    id: 16334
+    offer_name: Men's Minmatar Republic Officer Jacket
+    product:
+      item: Men's Minmatar Republic Officer Jacket
+      quantity: 1
+    requirements:
+      isk: 100000000
+      lp: 500
+  16335:
+    id: 16335
+    offer_name: Men's Republic Fleet Ordnance Jacket
+    product:
+      item: Men's Republic Fleet Ordnance Jacket
+      quantity: 1
+    requirements:
+      isk: 100000000
+      lp: 500
+  16336:
+    id: 16336
+    offer_name: Women's Republic Fleet Ordnance Jacket
+    product:
+      item: Women's Republic Fleet Ordnance Jacket
+      quantity: 1
+    requirements:
+      isk: 100000000
+      lp: 500
+  16337:
+    id: 16337
+    offer_name: Women's Minmatar Republic Officer Jacket
+    product:
+      item: Women's Minmatar Republic Officer Jacket
       quantity: 1
     requirements:
       isk: 100000000
