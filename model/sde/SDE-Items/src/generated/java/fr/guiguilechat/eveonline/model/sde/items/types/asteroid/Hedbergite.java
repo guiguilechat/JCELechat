@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
@@ -13,18 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 public class Hedbergite
     extends Asteroid
 {
-
     /**
      * Resistance against Stasis Webifiers
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StasisWebifierResistance;
     /**
      * What type this type can be compressed into
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,7 +28,6 @@ public class Hedbergite
     public int CompressionTypeID;
     /**
      * Number of items needed to be able to compress it
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class Hedbergite
     public int CompressionQuantityNeeded;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class Hedbergite
     public int RequiredSkill1;
     /**
      * The skill required to reprocess this ore type.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,7 +49,6 @@ public class Hedbergite
     public int ReprocessingSkillType;
     /**
      * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -64,7 +56,6 @@ public class Hedbergite
     public int OreBasicType;
     /**
      * max visual size for asteroids to fit moon chunk
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -77,7 +68,6 @@ public class Hedbergite
      *  3: +10% Ore
      *  4: High Quality Ice or Extracted Ore
      *  5: Jackpot Moon Ore
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -85,15 +75,13 @@ public class Hedbergite
     public int AsteroidMetaLevel;
     /**
      * Controls how quickly an asteroid radius increases as its quantity grows.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double AsteroidRadiusGrowthFactor;
     /**
      * Sets the radius of the asteroid ball when it has a quantity of 1 unit
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -113,10 +101,10 @@ public class Hedbergite
     }
 
     public static LinkedHashMap<String, Hedbergite> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Hedbergite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -124,9 +112,6 @@ public class Hedbergite
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Hedbergite> items;
-
     }
-
 }

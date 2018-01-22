@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.entity;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class MissionThukkerFrigate
     extends Entity
 {
-
     public final static String RESOURCE_PATH = "SDE/items/entity/MissionThukkerFrigate.yaml";
     private static LinkedHashMap<String, MissionThukkerFrigate> cache = (null);
 
@@ -24,10 +22,10 @@ public class MissionThukkerFrigate
     }
 
     public static LinkedHashMap<String, MissionThukkerFrigate> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionThukkerFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class MissionThukkerFrigate
     }
 
     private static class Container {
-
         public LinkedHashMap<String, MissionThukkerFrigate> items;
-
     }
-
 }

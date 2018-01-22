@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.trading;
 
 import java.io.InputStreamReader;
@@ -8,7 +7,6 @@ import org.yaml.snakeyaml.Yaml;
 public class Trading
     extends fr.guiguilechat.eveonline.model.sde.items.types.Trading
 {
-
     public final static String RESOURCE_PATH = "SDE/items/trading/Trading.yaml";
     private static LinkedHashMap<String, Trading> cache = (null);
 
@@ -23,10 +21,10 @@ public class Trading
     }
 
     public static LinkedHashMap<String, Trading> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Trading.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -34,9 +32,6 @@ public class Trading
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Trading> items;
-
     }
-
 }

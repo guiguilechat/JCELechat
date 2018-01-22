@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class CapitalIndustrialShipBlueprint
     extends Blueprint
 {
-
     /**
      * Multiplies the job cost for this blueprint type by the specified value
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,11 +21,10 @@ public class CapitalIndustrialShipBlueprint
     public int IndustryJobCostMultiplier;
     /**
      * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/CapitalIndustrialShipBlueprint.yaml";
     private static LinkedHashMap<String, CapitalIndustrialShipBlueprint> cache = (null);
@@ -44,10 +40,10 @@ public class CapitalIndustrialShipBlueprint
     }
 
     public static LinkedHashMap<String, CapitalIndustrialShipBlueprint> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CapitalIndustrialShipBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -55,9 +51,6 @@ public class CapitalIndustrialShipBlueprint
     }
 
     private static class Container {
-
         public LinkedHashMap<String, CapitalIndustrialShipBlueprint> items;
-
     }
-
 }

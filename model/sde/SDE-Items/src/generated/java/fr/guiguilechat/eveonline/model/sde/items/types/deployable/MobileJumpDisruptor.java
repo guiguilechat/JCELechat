@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class MobileJumpDisruptor
     extends Deployable
 {
-
     /**
      * Maximum range objects can be warp scrambled from.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class MobileJumpDisruptor
     public int WarpScrambleRange;
     /**
      * How long it takes to anchor or unanchor this object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -31,7 +27,6 @@ public class MobileJumpDisruptor
     public int AnchoringDelay;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -39,7 +34,6 @@ public class MobileJumpDisruptor
     public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -47,7 +41,6 @@ public class MobileJumpDisruptor
     public int RequiredSkill1;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -55,7 +48,6 @@ public class MobileJumpDisruptor
     public int RequiredSkill2Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -63,7 +55,6 @@ public class MobileJumpDisruptor
     public int RequiredSkill2;
     /**
      * Required skill level for skill 3
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -71,7 +62,6 @@ public class MobileJumpDisruptor
     public int RequiredSkill3Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -79,7 +69,6 @@ public class MobileJumpDisruptor
     public int RequiredSkill3;
     /**
      * The ranking of the module within its tech level
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -99,10 +88,10 @@ public class MobileJumpDisruptor
     }
 
     public static LinkedHashMap<String, MobileJumpDisruptor> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileJumpDisruptor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -110,9 +99,6 @@ public class MobileJumpDisruptor
     }
 
     private static class Container {
-
         public LinkedHashMap<String, MobileJumpDisruptor> items;
-
     }
-
 }

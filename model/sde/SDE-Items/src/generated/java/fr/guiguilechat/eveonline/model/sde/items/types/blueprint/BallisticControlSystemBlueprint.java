@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
@@ -13,18 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 public class BallisticControlSystemBlueprint
     extends Blueprint
 {
-
     /**
      * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -44,10 +40,10 @@ public class BallisticControlSystemBlueprint
     }
 
     public static LinkedHashMap<String, BallisticControlSystemBlueprint> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BallisticControlSystemBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -55,9 +51,6 @@ public class BallisticControlSystemBlueprint
     }
 
     private static class Container {
-
         public LinkedHashMap<String, BallisticControlSystemBlueprint> items;
-
     }
-
 }

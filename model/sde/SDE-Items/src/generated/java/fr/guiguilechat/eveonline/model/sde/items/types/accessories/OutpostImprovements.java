@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.accessories;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class OutpostImprovements
     extends Accessories
 {
-
     public final static String RESOURCE_PATH = "SDE/items/accessories/OutpostImprovements.yaml";
     private static LinkedHashMap<String, OutpostImprovements> cache = (null);
 
@@ -24,10 +22,10 @@ public class OutpostImprovements
     }
 
     public static LinkedHashMap<String, OutpostImprovements> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OutpostImprovements.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class OutpostImprovements
     }
 
     private static class Container {
-
         public LinkedHashMap<String, OutpostImprovements> items;
-
     }
-
 }

@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
@@ -13,18 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 public class EnergyWeaponBlueprint
     extends Blueprint
 {
-
     /**
      * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,7 +28,6 @@ public class EnergyWeaponBlueprint
     public int TechLevel;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -52,10 +47,10 @@ public class EnergyWeaponBlueprint
     }
 
     public static LinkedHashMap<String, EnergyWeaponBlueprint> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EnergyWeaponBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -63,9 +58,6 @@ public class EnergyWeaponBlueprint
     }
 
     private static class Container {
-
         public LinkedHashMap<String, EnergyWeaponBlueprint> items;
-
     }
-
 }

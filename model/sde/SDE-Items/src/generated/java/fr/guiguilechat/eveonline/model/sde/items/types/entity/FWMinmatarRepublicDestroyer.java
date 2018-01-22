@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.entity;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class FWMinmatarRepublicDestroyer
     extends Entity
 {
-
     public final static String RESOURCE_PATH = "SDE/items/entity/FWMinmatarRepublicDestroyer.yaml";
     private static LinkedHashMap<String, FWMinmatarRepublicDestroyer> cache = (null);
 
@@ -24,10 +22,10 @@ public class FWMinmatarRepublicDestroyer
     }
 
     public static LinkedHashMap<String, FWMinmatarRepublicDestroyer> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FWMinmatarRepublicDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class FWMinmatarRepublicDestroyer
     }
 
     private static class Container {
-
         public LinkedHashMap<String, FWMinmatarRepublicDestroyer> items;
-
     }
-
 }

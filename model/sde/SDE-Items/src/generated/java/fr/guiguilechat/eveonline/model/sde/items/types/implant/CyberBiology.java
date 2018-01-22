@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
@@ -12,17 +11,14 @@ import org.yaml.snakeyaml.Yaml;
 public class CyberBiology
     extends Implant
 {
-
     /**
      * Bonus to duration.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int DurationBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -31,14 +27,12 @@ public class CyberBiology
     public int BoosterChanceBonus;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -47,7 +41,6 @@ public class CyberBiology
     public int BoosterAttributeModifier;
     /**
      * Whether an item is an implant or not
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -67,10 +60,10 @@ public class CyberBiology
     }
 
     public static LinkedHashMap<String, CyberBiology> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberBiology.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -78,9 +71,6 @@ public class CyberBiology
     }
 
     private static class Container {
-
         public LinkedHashMap<String, CyberBiology> items;
-
     }
-
 }

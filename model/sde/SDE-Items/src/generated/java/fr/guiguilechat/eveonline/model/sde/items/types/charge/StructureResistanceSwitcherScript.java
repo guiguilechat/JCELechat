@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
@@ -13,18 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureResistanceSwitcherScript
     extends Charge
 {
-
     /**
      * Sets Explosive damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorExplosiveDamageResonancePostAssignment;
     /**
      * The size of the charges that can fit in the turret/whatever.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,91 +28,80 @@ public class StructureResistanceSwitcherScript
     public int ChargeSize;
     /**
      * Sets Kinetic damage taken by Armor. 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorKineticDamageResonancePostAssignment;
     /**
      * Sets Thermal damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorThermalDamageResonancePostAssignment;
     /**
      * Sets Em damage taken by Shields. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldEmDamageResonancePostAssignment;
     /**
      * Sets Explosive damage taken by shields. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldExplosiveDamageResonancePostAssignment;
     /**
      * Sets kinetic damage taken by Shields. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldKineticDamageResonancePostAssignment;
     /**
      * Sets Thermal damage taken by Shields. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonancePostAssignment;
     /**
      * Sets Em damage taken by Hull. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double EmDamageResonancePostAssignment;
     /**
      * Sets Explosive damage taken by Hull. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ExplosiveDamageResonancePostAssignment;
     /**
      * Sets Thermal damage taken by Hull. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ThermalDamageResonancePostAssignment;
     /**
      * Sets Kinetic damage taken by Hull. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double KineticDamageResonancePostAssignment;
     /**
      * Sets Em damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorEmDamageResonancePostAssignment;
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureResistanceSwitcherScript.yaml";
     private static LinkedHashMap<String, StructureResistanceSwitcherScript> cache = (null);
@@ -132,10 +117,10 @@ public class StructureResistanceSwitcherScript
     }
 
     public static LinkedHashMap<String, StructureResistanceSwitcherScript> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureResistanceSwitcherScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -143,9 +128,6 @@ public class StructureResistanceSwitcherScript
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureResistanceSwitcherScript> items;
-
     }
-
 }

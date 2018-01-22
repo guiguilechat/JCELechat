@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class SiegeModule
     extends Module
 {
-
     /**
      * Torpedo Velocity Bonus Percentage
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,7 +21,6 @@ public class SiegeModule
     public int SiegeTorpedoVelocityBonus;
     /**
      * XL Launcher ROF Bonus Percentage
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,7 +28,6 @@ public class SiegeModule
     public int SiegeLauncherROFBonus;
     /**
      * Missile Damage Bonus Percentage
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,14 +35,12 @@ public class SiegeModule
     public int SiegeMissileDamageBonus;
     /**
      * Turret Damage Bonus Percentage
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int SiegeTurretDamageBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,14 +49,12 @@ public class SiegeModule
     public int ScanGravimetricStrengthPercent;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ScanLadarStrengthPercent;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -72,14 +63,12 @@ public class SiegeModule
     public int ScanMagnetometricStrengthPercent;
     /**
      * The amount of charge used from the capacitor for a module activation.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -88,7 +77,6 @@ public class SiegeModule
     public int ScanRadarStrengthPercent;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,7 +84,6 @@ public class SiegeModule
     public int MaxGroupFitted;
     /**
      * Signifies that this module if activated, will prevent ejection from the ship it is fitted to and extend the log out ship removal timer.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,39 +91,34 @@ public class SiegeModule
     public int DisallowEarlyDeactivation;
     /**
      * Multiplies EM damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorEmDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorExplosiveDamageResonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorKineticDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorThermalDamageResonance;
     /**
      * If module is offensive should it deactivate on disconnect. Default to 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -144,30 +126,26 @@ public class SiegeModule
     public int DeactivateIfOffensive;
     /**
      * Multiplies EM damage taken by shield
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldEmDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldExplosiveDamageResonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldKineticDamageResonance;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -176,23 +154,20 @@ public class SiegeModule
     public int CanFitShipGroup01;
     /**
      * Multiplies THERMAL damage taken by Shield. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
     /**
      * Factor by which topspeed increases.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double SpeedFactor;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -200,14 +175,12 @@ public class SiegeModule
     public int RequiredSkill1Level;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -216,14 +189,12 @@ public class SiegeModule
     public int IndustrialCoreBonusDroneDamageHP;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int IndustrialCoreBonusDroneVelocity;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -232,14 +203,12 @@ public class SiegeModule
     public int IndustrialCoreBonusDroneMining;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int IndustrialCoreBonusDroneIceHarvesting;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -248,7 +217,6 @@ public class SiegeModule
     public int IndustrialCoreBonusMiningBurstStrength;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -256,7 +224,6 @@ public class SiegeModule
     public int IndustrialCoreBonusCommandBurstRange;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -264,31 +231,27 @@ public class SiegeModule
     public int Power;
     /**
      * Autogenerated skill attribute, missileVelocityBonus 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double MissileVelocityBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldBoostMultiplier;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double RemoteRepairImpedanceBonus;
     /**
      * Bonus attribute for capacitor need of EW and propulsion jamming.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -296,14 +259,12 @@ public class SiegeModule
     public int EwCapacitorNeedBonus;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from activating the structure tethering.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int DisallowTethering;
     /**
-     * 
      * 
      */
     @HighIsGood(false)
@@ -312,7 +273,6 @@ public class SiegeModule
     public int SiegeRemoteLogisticsDurationBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -320,7 +280,6 @@ public class SiegeModule
     public int SiegeRemoteLogisticsAmountBonus;
     /**
      * Armor Repairer / Shield Booster Duration Bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -328,14 +287,12 @@ public class SiegeModule
     public int SiegeLocalLogisticsDurationBonus;
     /**
      * Armor Repairer / Shield Booster Amount Bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int SiegeLocalLogisticsAmountBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -344,14 +301,12 @@ public class SiegeModule
     public int SiegeRemoteLogisticsRangeBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int IndustrialCoreRemoteLogisticsRangeBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(false)
@@ -360,14 +315,12 @@ public class SiegeModule
     public int IndustrialCoreRemoteLogisticsDurationBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int IndustrialCoreLocalLogisticsDurationBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -376,14 +329,12 @@ public class SiegeModule
     public int SensorDampenerResistanceBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int IndustrialCoreLocalLogisticsAmountBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -392,15 +343,13 @@ public class SiegeModule
     public int RemoteAssistanceImpedanceBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double WeaponDisruptionResistanceBonus;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -408,23 +357,20 @@ public class SiegeModule
     public int DisallowDocking;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * Improves the targeting time of ships by boosting the Scan Resolution.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanResolutionMultiplier;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -432,7 +378,6 @@ public class SiegeModule
     public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -440,7 +385,6 @@ public class SiegeModule
     public int RequiredSkill2;
     /**
      * Mass multiplier
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -448,14 +392,12 @@ public class SiegeModule
     public int SiegeMassMultiplier;
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MaxLockedTargets;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -464,15 +406,13 @@ public class SiegeModule
     public int ActivationBlockedStrenght;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
      * The type of resource needed to be consumed for each activation cycle of this structure.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -480,7 +420,6 @@ public class SiegeModule
     public int ConsumptionType;
     /**
      * The amount of the given resource type needed to be consumed for each activation cycle of this structure.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -488,31 +427,27 @@ public class SiegeModule
     public int ConsumptionQuantity;
     /**
      * Resistance to ECM. 0 gives Immunity.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ECMResistance;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullEmDamageResonance;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullExplosiveDamageResonance;
     /**
      * Amount to increase the maximum speed by.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -520,22 +455,19 @@ public class SiegeModule
     public int SpeedBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullKineticDamageResonance;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullThermalDamageResonance;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -544,7 +476,6 @@ public class SiegeModule
     public int SiegeModeWarpStatus;
     /**
      * commandBonusEffectiveAdd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -552,7 +483,6 @@ public class SiegeModule
     public int CommandBonusEffectiveAdd;
     /**
      * Stops the module from being activated if the ship is aligning to warp.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -560,31 +490,27 @@ public class SiegeModule
     public int DisallowActivateOnWarp;
     /**
      * Autogenerated skill attribute, falloffBonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double FalloffBonus;
     /**
      * Autogenerated skill attribute, maxRangeBonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double MaxRangeBonus;
     /**
      * droneDamageBonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double DroneDamageBonus;
     /**
      * If this module is in use and this attribute is 1, then offensive modules cannot be used on the ship if they apply modifiers for the duration of their effect. If this is put on a ship or NPC with value of 1, then the ship or NPC are immune to offensive modifiers (target jamming, tracking disruption etc.)
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -592,14 +518,12 @@ public class SiegeModule
     public int DisallowOffensiveModifiers;
     /**
      * Additional amount of locked targets that can be handled.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MaxLockedTargetsBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -608,7 +532,6 @@ public class SiegeModule
     public int TargetPainterResistanceBonus;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -616,7 +539,6 @@ public class SiegeModule
     public int MaxGroupActive;
     /**
      * Bonus attribute for armor repair amount.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -636,10 +558,10 @@ public class SiegeModule
     }
 
     public static LinkedHashMap<String, SiegeModule> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SiegeModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -647,9 +569,6 @@ public class SiegeModule
     }
 
     private static class Container {
-
         public LinkedHashMap<String, SiegeModule> items;
-
     }
-
 }

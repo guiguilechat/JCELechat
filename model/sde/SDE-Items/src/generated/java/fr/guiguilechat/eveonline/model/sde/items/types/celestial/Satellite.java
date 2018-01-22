@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class Satellite
     extends Celestial
 {
-
     /**
      * Attribute to disallow targetting.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class Satellite
     public int Untargetable;
     /**
      * The distance at which to react when relevant objects come within range.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -43,10 +39,10 @@ public class Satellite
     }
 
     public static LinkedHashMap<String, Satellite> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Satellite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -54,9 +50,6 @@ public class Satellite
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Satellite> items;
-
     }
-
 }

@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,26 +12,22 @@ import org.yaml.snakeyaml.Yaml;
 public class HeatSink
     extends Module
 {
-
     /**
      * Damage multiplier.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double DamageMultiplier;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class HeatSink
     public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,15 +42,13 @@ public class HeatSink
     public int RequiredSkill1;
     /**
      * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,7 +56,6 @@ public class HeatSink
     public int MetaGroupID;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -84,10 +75,10 @@ public class HeatSink
     }
 
     public static LinkedHashMap<String, HeatSink> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HeatSink.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -95,9 +86,6 @@ public class HeatSink
     }
 
     private static class Container {
-
         public LinkedHashMap<String, HeatSink> items;
-
     }
-
 }

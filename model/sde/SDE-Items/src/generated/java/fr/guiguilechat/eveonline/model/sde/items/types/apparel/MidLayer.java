@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.apparel;
 
 import fr.guiguilechat.eveonline.model.sde.items.types.Apparel;
@@ -6,7 +5,6 @@ import fr.guiguilechat.eveonline.model.sde.items.types.Apparel;
 public class MidLayer
     extends Apparel
 {
-
 
     @Override
     public int getGroupId() {
@@ -17,5 +15,4 @@ public class MidLayer
     public Class<?> getGroup() {
         return MidLayer.class;
     }
-
 }

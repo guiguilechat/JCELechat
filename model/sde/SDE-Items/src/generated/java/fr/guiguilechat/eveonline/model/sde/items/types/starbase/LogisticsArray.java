@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import fr.guiguilechat.eveonline.model.sde.items.types.Starbase;
@@ -6,7 +5,6 @@ import fr.guiguilechat.eveonline.model.sde.items.types.Starbase;
 public class LogisticsArray
     extends Starbase
 {
-
 
     @Override
     public int getGroupId() {
@@ -17,5 +15,4 @@ public class LogisticsArray
     public Class<?> getGroup() {
         return LogisticsArray.class;
     }
-
 }

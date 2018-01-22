@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class ForceField
     extends Celestial
 {
-
     public final static String RESOURCE_PATH = "SDE/items/celestial/ForceField.yaml";
     private static LinkedHashMap<String, ForceField> cache = (null);
 
@@ -24,10 +22,10 @@ public class ForceField
     }
 
     public static LinkedHashMap<String, ForceField> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ForceField.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class ForceField
     }
 
     private static class Container {
-
         public LinkedHashMap<String, ForceField> items;
-
     }
-
 }

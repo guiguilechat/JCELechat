@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class Tool
     extends Commodity
 {
-
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class Tool
     public int TechLevel;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -31,7 +27,6 @@ public class Tool
     public int Hp;
     /**
      * The ranking of the module within its tech level
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -51,10 +46,10 @@ public class Tool
     }
 
     public static LinkedHashMap<String, Tool> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Tool.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -62,9 +57,6 @@ public class Tool
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Tool> items;
-
     }
-
 }

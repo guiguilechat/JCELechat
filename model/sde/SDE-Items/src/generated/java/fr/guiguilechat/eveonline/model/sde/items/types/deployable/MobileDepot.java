@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
@@ -13,58 +12,50 @@ import org.yaml.snakeyaml.Yaml;
 public class MobileDepot
     extends Deployable
 {
-
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
      * Radar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanRadarStrength;
     /**
      * Magnetometric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
      * Gravimetric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanGravimetricStrength;
     /**
      * The ranking of the module within its tech level
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -84,10 +75,10 @@ public class MobileDepot
     }
 
     public static LinkedHashMap<String, MobileDepot> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileDepot.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -95,9 +86,6 @@ public class MobileDepot
     }
 
     private static class Container {
-
         public LinkedHashMap<String, MobileDepot> items;
-
     }
-
 }

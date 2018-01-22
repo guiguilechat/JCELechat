@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
@@ -12,9 +11,7 @@ import org.yaml.snakeyaml.Yaml;
 public class AdvancedCapitalConstructionComponents
     extends Commodity
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -35,10 +32,10 @@ public class AdvancedCapitalConstructionComponents
     }
 
     public static LinkedHashMap<String, AdvancedCapitalConstructionComponents> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedCapitalConstructionComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -46,9 +43,6 @@ public class AdvancedCapitalConstructionComponents
     }
 
     private static class Container {
-
         public LinkedHashMap<String, AdvancedCapitalConstructionComponents> items;
-
     }
-
 }

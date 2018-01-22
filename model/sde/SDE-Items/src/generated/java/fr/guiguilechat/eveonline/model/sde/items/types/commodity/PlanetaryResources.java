@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import fr.guiguilechat.eveonline.model.sde.items.types.Commodity;
@@ -6,7 +5,6 @@ import fr.guiguilechat.eveonline.model.sde.items.types.Commodity;
 public class PlanetaryResources
     extends Commodity
 {
-
 
     @Override
     public int getGroupId() {
@@ -17,5 +15,4 @@ public class PlanetaryResources
     public Class<?> getGroup() {
         return PlanetaryResources.class;
     }
-
 }

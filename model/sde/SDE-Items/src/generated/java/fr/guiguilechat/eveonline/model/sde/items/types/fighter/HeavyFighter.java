@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.fighter;
 
 import java.io.InputStreamReader;
@@ -13,9 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class HeavyFighter
     extends Fighter
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -24,14 +21,12 @@ public class HeavyFighter
     public int FighterAbilityKamikazeResistanceID;
     /**
      * Rate of fire
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int FighterAbilityMissilesDuration;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,14 +35,12 @@ public class HeavyFighter
     public int FighterAbilityLaunchBombType;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
     public int FighterAbilityKamikazeDamageEM;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,14 +49,12 @@ public class HeavyFighter
     public int FighterAbilityKamikazeDamageTherm;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
     public int FighterAbilityKamikazeDamageKin;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -72,7 +63,6 @@ public class HeavyFighter
     public int FighterAbilityKamikazeDamageExp;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -80,7 +70,6 @@ public class HeavyFighter
     public int FighterAbilityKamikazeSignatureRadius;
     /**
      * Range at which the fighters Explode from the target
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,14 +77,12 @@ public class HeavyFighter
     public int FighterAbilityKamikazeRange;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -104,7 +91,6 @@ public class HeavyFighter
     public int FighterSquadronIsHeavy;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -112,7 +98,6 @@ public class HeavyFighter
     public int FighterAbilityLaunchBombDuration;
     /**
      * Damage Multiplier
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -120,7 +105,6 @@ public class HeavyFighter
     public int FighterAbilityAttackMissileDamageMultiplier;
     /**
      * EM Damage
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -128,7 +112,6 @@ public class HeavyFighter
     public int FighterAbilityAttackMissileDamageEM;
     /**
      * Thermal Damage
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -136,7 +119,6 @@ public class HeavyFighter
     public int FighterAbilityAttackMissileDamageTherm;
     /**
      * Kinetic Damage
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -144,14 +126,12 @@ public class HeavyFighter
     public int FighterAbilityAttackMissileDamageKin;
     /**
      * Explosive Damage
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
     public int FighterAbilityAttackMissileDamageExp;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -160,23 +140,20 @@ public class HeavyFighter
     public int FighterSquadronIsStandupHeavy;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double FighterAbilityAttackMissileReductionFactor;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double FighterAbilityAttackMissileReductionSensitivity;
     /**
      * Rate of fire
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -184,7 +161,6 @@ public class HeavyFighter
     public int FighterAbilityAttackMissileDuration;
     /**
      * Explosion Radius
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -192,7 +168,6 @@ public class HeavyFighter
     public int FighterAbilityAttackMissileExplosionRadius;
     /**
      * Explosion Velocity
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -200,7 +175,6 @@ public class HeavyFighter
     public int FighterAbilityAttackMissileExplosionVelocity;
     /**
      * Optimal Range
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -208,7 +182,6 @@ public class HeavyFighter
     public int FighterAbilityAttackMissileRangeOptimal;
     /**
      * Accuracy Falloff
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -216,7 +189,6 @@ public class HeavyFighter
     public int FighterAbilityAttackMissileRangeFalloff;
     /**
      * Explosion Radius
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -224,7 +196,6 @@ public class HeavyFighter
     public int FighterAbilityMissilesExplosionRadius;
     /**
      * Explosion Velocity
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -232,23 +203,20 @@ public class HeavyFighter
     public int FighterAbilityMissilesExplosionVelocity;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double FighterAbilityMissilesDamageReductionFactor;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double FighterAbilityMissilesDamageReductionSensitivity;
     /**
      * Damage Multiplier
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -256,7 +224,6 @@ public class HeavyFighter
     public int FighterAbilityMissilesDamageMultiplier;
     /**
      * EM Damage
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -264,7 +231,6 @@ public class HeavyFighter
     public int FighterAbilityMissilesDamageEM;
     /**
      * Thermal Damage
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -272,7 +238,6 @@ public class HeavyFighter
     public int FighterAbilityMissilesDamageTherm;
     /**
      * Kinetic Damage
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -280,7 +245,6 @@ public class HeavyFighter
     public int FighterAbilityMissilesDamageKin;
     /**
      * Explosive Damage
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -288,7 +252,6 @@ public class HeavyFighter
     public int FighterAbilityMissilesDamageExp;
     /**
      * Optimal Range
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -296,7 +259,6 @@ public class HeavyFighter
     public int FighterAbilityMissilesRange;
     /**
      * Maximum Velocity Bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -304,7 +266,6 @@ public class HeavyFighter
     public int FighterAbilityAfterburnerSpeedBonus;
     /**
      * Jump Range
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -312,7 +273,6 @@ public class HeavyFighter
     public int FighterAbilityMicroJumpDriveDistance;
     /**
      * Duration
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -320,7 +280,6 @@ public class HeavyFighter
     public int FighterAbilityMicroJumpDriveDuration;
     /**
      * Signature Radius Bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -328,14 +287,12 @@ public class HeavyFighter
     public int FighterAbilityMicroJumpDriveSignatureRadiusBonus;
     /**
      * Duration
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
     public int FighterAbilityAfterburnerDuration;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -356,10 +313,10 @@ public class HeavyFighter
     }
 
     public static LinkedHashMap<String, HeavyFighter> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HeavyFighter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -367,9 +324,6 @@ public class HeavyFighter
     }
 
     private static class Container {
-
         public LinkedHashMap<String, HeavyFighter> items;
-
     }
-
 }

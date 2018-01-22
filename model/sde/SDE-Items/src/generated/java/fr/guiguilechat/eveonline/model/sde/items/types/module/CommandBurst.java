@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class CommandBurst
     extends Module
 {
-
     /**
      * If set to True on a module, the module will not be allowed to activate whilst the ship is inside a starbase forcefield
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,38 +21,33 @@ public class CommandBurst
     public int DisallowActivateInForcefield;
     /**
      * reload time (ms)
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(10000.0D)
+    @DefaultDoubleValue(10000.0)
     public double ReloadTime;
     /**
      * The amount of charge used from the capacitor for a module activation.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
      * Can be fitted to
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup05;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -64,14 +56,12 @@ public class CommandBurst
     public int CanFitShipGroup09;
     /**
      * Maximum modules of same group that can be onlined at same time, 0 = no limit, 1 = 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MaxGroupOnline;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -80,14 +70,12 @@ public class CommandBurst
     public int CanFitShipGroup01;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup02;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -96,14 +84,12 @@ public class CommandBurst
     public int CanFitShipGroup03;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -112,7 +98,6 @@ public class CommandBurst
     public int CanFitShipGroup04;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,7 +105,6 @@ public class CommandBurst
     public int RequiredSkill2Level;
     /**
      * Can be fitted to
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -128,14 +112,12 @@ public class CommandBurst
     public int CanFitShipGroup06;
     /**
      * Required skill level for skill 3
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill3Level;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -144,14 +126,12 @@ public class CommandBurst
     public int CanFitShipGroup07;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup08;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -160,7 +140,6 @@ public class CommandBurst
     public int WarfareLinkCPUAdd;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -168,7 +147,6 @@ public class CommandBurst
     public int CanFitShipGroup10;
     /**
      * One of the groups of charge this launcher can be loaded with.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -176,7 +154,6 @@ public class CommandBurst
     public int ChargeGroup1;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -184,23 +161,20 @@ public class CommandBurst
     public int Power;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double WarfareBuff1Value;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double WarfareBuff2Value;
     /**
      * Applied modifier duration
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -208,7 +182,6 @@ public class CommandBurst
     public int BuffDuration;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from activating the structure tethering.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -216,23 +189,20 @@ public class CommandBurst
     public int DisallowTethering;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double WarfareBuff3Value;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double WarfareBuff4Value;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -240,15 +210,13 @@ public class CommandBurst
     public int DisallowDocking;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * Distance below which range does not affect the to-hit equation.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -256,7 +224,6 @@ public class CommandBurst
     public int MaxRange;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -264,7 +231,6 @@ public class CommandBurst
     public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -272,7 +238,6 @@ public class CommandBurst
     public int RequiredSkill2;
     /**
      * Number of charges consumed per activation
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -280,7 +245,6 @@ public class CommandBurst
     public int ChargeRate;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -288,7 +252,6 @@ public class CommandBurst
     public int RequiredSkill3;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -308,10 +271,10 @@ public class CommandBurst
     }
 
     public static LinkedHashMap<String, CommandBurst> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CommandBurst.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -319,9 +282,6 @@ public class CommandBurst
     }
 
     private static class Container {
-
         public LinkedHashMap<String, CommandBurst> items;
-
     }
-
 }

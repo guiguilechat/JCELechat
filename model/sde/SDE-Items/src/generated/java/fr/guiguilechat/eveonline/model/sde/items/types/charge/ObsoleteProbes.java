@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
@@ -13,26 +12,22 @@ import org.yaml.snakeyaml.Yaml;
 public class ObsoleteProbes
     extends Charge
 {
-
     /**
      * Maximum velocity of ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double MaxVelocity;
     /**
      * The agility of the object.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Agility;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class ObsoleteProbes
     public int TechLevel;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class ObsoleteProbes
     public int Hp;
     /**
      * One of the groups of launcher this charge can be loaded into.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,7 +49,6 @@ public class ObsoleteProbes
     public int LauncherGroup;
     /**
      * Range in meters of explosion effect area.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,47 +56,41 @@ public class ObsoleteProbes
     public int ExplosionRange;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
      * Radar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanRadarStrength;
     /**
      * Ladar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanLadarStrength;
     /**
      * Magnetometric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
      * Gravimetric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanGravimetricStrength;
     /**
      * Minimum scanning error
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,15 +98,13 @@ public class ObsoleteProbes
     public int MinScanDeviation;
     /**
      * Maximum scan error
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double MaxScanDeviation;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -128,7 +112,6 @@ public class ObsoleteProbes
     public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -136,7 +119,6 @@ public class ObsoleteProbes
     public int RequiredSkill1;
     /**
      * The amount of milliseconds before the object explodes.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -144,7 +126,6 @@ public class ObsoleteProbes
     public int ExplosionDelay;
     /**
      * Number of probes to analyze
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -152,7 +133,6 @@ public class ObsoleteProbes
     public int ProbesInGroup;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -160,7 +140,6 @@ public class ObsoleteProbes
     public int MetaGroupID;
     /**
      * Effective range of scanner in multiples of AUs
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -180,10 +159,10 @@ public class ObsoleteProbes
     }
 
     public static LinkedHashMap<String, ObsoleteProbes> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ObsoleteProbes.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -191,9 +170,6 @@ public class ObsoleteProbes
     }
 
     private static class Container {
-
         public LinkedHashMap<String, ObsoleteProbes> items;
-
     }
-
 }

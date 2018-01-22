@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class Refinery
     extends Structure
 {
-
     /**
      * How many upgrades can by fitted to this ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,14 +21,12 @@ public class Refinery
     public int UpgradeSlotsLeft;
     /**
      * This defines the total capacity of fighters allowed in the fighter bay of the ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int FighterCapacity;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,14 +35,12 @@ public class Refinery
     public int ServiceSlots;
     /**
      * Delay for exploding moon mining chunk into asteroid field
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(10800)
     public int AutoFractureDelay;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,7 +49,6 @@ public class Refinery
     public int RigSize;
     /**
      * Decay time for asteroid created from moon spew
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,7 +56,6 @@ public class Refinery
     public int MoonAsteroidDecayTimeMultiplier;
     /**
      * The maximum possible target range.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -72,14 +63,12 @@ public class Refinery
     public int MaximumRangeCap;
     /**
      * Time bonus for Refinery Structures
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StrReactionTimeMultiplier;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -88,7 +77,6 @@ public class Refinery
     public int StrRefiningYieldBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,7 +84,6 @@ public class Refinery
     public int StructureServiceRoleBonus;
     /**
      * This defines the total number of fighter launch tubes on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,7 +91,6 @@ public class Refinery
     public int FighterTubes;
     /**
      * This attribute doesn't directly impact the asteroid decay, but is used to expose the decay time to the show-info window
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,7 +98,6 @@ public class Refinery
     public int MoonAsteroidDecayDisplayValue;
     /**
      * Number of Light Fighters the ship can launch.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,7 +105,6 @@ public class Refinery
     public int FighterLightSlots;
     /**
      * Number of Support Fighters the ship can launch.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -128,7 +112,6 @@ public class Refinery
     public int FighterSupportSlots;
     /**
      * Number of Heavy Fighters the ship can launch.Heavy 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -136,7 +119,6 @@ public class Refinery
     public int FighterHeavySlots;
     /**
      * Number of hours of vulnerability each week required. Applies only to categoryStructure.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -144,7 +126,6 @@ public class Refinery
     public int VulnerabilityRequired;
     /**
      * Distance which tethering will engage / disengage piloted ships.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -152,7 +133,6 @@ public class Refinery
     public int TetheringRange;
     /**
      * The number of remaining unused launcher slots.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -160,7 +140,6 @@ public class Refinery
     public int LauncherSlotsLeft;
     /**
      * Attribute on ships used for ship upgrades
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -168,7 +147,6 @@ public class Refinery
     public int UpgradeCapacity;
     /**
      * The number of rig slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -188,10 +166,10 @@ public class Refinery
     }
 
     public static LinkedHashMap<String, Refinery> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Refinery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -199,9 +177,6 @@ public class Refinery
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Refinery> items;
-
     }
-
 }

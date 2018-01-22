@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
@@ -13,9 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Citadel
     extends Structure
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(false)
@@ -24,7 +21,6 @@ public class Citadel
     public int FighterAbilityKamikazeResistance;
     /**
      * How many upgrades can by fitted to this ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,14 +28,12 @@ public class Citadel
     public int UpgradeSlotsLeft;
     /**
      * This defines the total capacity of fighters allowed in the fighter bay of the ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int FighterCapacity;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -48,7 +42,6 @@ public class Citadel
     public int ServiceSlots;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,15 +49,13 @@ public class Citadel
     public int RigSize;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -72,14 +63,12 @@ public class Citadel
     public int MetaGroupID;
     /**
      * The maximum possible target range.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(300000)
     public int MaximumRangeCap;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -88,7 +77,6 @@ public class Citadel
     public int StructureRoleBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,7 +84,6 @@ public class Citadel
     public int StructureServiceRoleBonus;
     /**
      * This defines the total number of fighter launch tubes on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,7 +91,6 @@ public class Citadel
     public int FighterTubes;
     /**
      * Number of Light Fighters the ship can launch.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,7 +98,6 @@ public class Citadel
     public int FighterLightSlots;
     /**
      * Number of Support Fighters the ship can launch.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,7 +105,6 @@ public class Citadel
     public int FighterSupportSlots;
     /**
      * Number of Heavy Fighters the ship can launch.Heavy 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -128,7 +112,6 @@ public class Citadel
     public int FighterHeavySlots;
     /**
      * Number of hours of vulnerability each week required. Applies only to categoryStructure.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -136,7 +119,6 @@ public class Citadel
     public int VulnerabilityRequired;
     /**
      * scanning speed in milliseconds
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -144,7 +126,6 @@ public class Citadel
     public int ScanSpeed;
     /**
      * Distance which tethering will engage / disengage piloted ships.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -152,7 +133,6 @@ public class Citadel
     public int TetheringRange;
     /**
      * The number of remaining unused launcher slots.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -160,7 +140,6 @@ public class Citadel
     public int LauncherSlotsLeft;
     /**
      * Attribute on ships used for ship upgrades
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -168,7 +147,6 @@ public class Citadel
     public int UpgradeCapacity;
     /**
      * The number of rig slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -176,7 +154,6 @@ public class Citadel
     public int RigSlots;
     /**
      * The ranking of the module within its tech level
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -196,10 +173,10 @@ public class Citadel
     }
 
     public static LinkedHashMap<String, Citadel> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Citadel.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -207,9 +184,6 @@ public class Citadel
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Citadel> items;
-
     }
-
 }

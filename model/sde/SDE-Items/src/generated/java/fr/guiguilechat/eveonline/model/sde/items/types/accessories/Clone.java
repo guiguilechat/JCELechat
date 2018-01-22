@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.accessories;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class Clone
     extends Accessories
 {
-
     /**
      * Amount of skill points saved by clone
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -35,10 +32,10 @@ public class Clone
     }
 
     public static LinkedHashMap<String, Clone> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Clone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -46,9 +43,6 @@ public class Clone
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Clone> items;
-
     }
-
 }

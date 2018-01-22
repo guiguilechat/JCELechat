@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,18 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 public class StripMiner
     extends Module
 {
-
     /**
      * The amount of charge used from the capacitor for a module activation.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -32,15 +28,13 @@ public class StripMiner
     public int TypeColorScheme;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
      * How much ore gets mined
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,14 +42,12 @@ public class StripMiner
     public int MiningAmount;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -64,7 +56,6 @@ public class StripMiner
     public int CanFitShipGroup01;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -72,7 +63,6 @@ public class StripMiner
     public int CanFitShipGroup02;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -80,7 +70,6 @@ public class StripMiner
     public int RequiredSkill1Level;
     /**
      * Distance below which range does not affect the to-hit equation.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -88,7 +77,6 @@ public class StripMiner
     public int MaxRange;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,7 +84,6 @@ public class StripMiner
     public int RequiredSkill1;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,7 +91,6 @@ public class StripMiner
     public int MetaGroupID;
     /**
      * Restrict activation to this one module group.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,7 +98,6 @@ public class StripMiner
     public int TargetGroup;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -132,10 +117,10 @@ public class StripMiner
     }
 
     public static LinkedHashMap<String, StripMiner> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StripMiner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -143,9 +128,6 @@ public class StripMiner
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StripMiner> items;
-
     }
-
 }

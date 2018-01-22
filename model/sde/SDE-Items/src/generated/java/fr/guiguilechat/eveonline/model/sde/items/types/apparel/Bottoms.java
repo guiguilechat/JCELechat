@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.apparel;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class Bottoms
     extends Apparel
 {
-
     /**
      * This item of clothing does not allow the category specified to be equipped with this item. It will be removed
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class Bottoms
     public int ClothingRemovesCategory;
     /**
      * This item of clothing covers multiple areas of the body, so the category of clothes specified by this attribute is no longer mandatory
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -43,10 +39,10 @@ public class Bottoms
     }
 
     public static LinkedHashMap<String, Bottoms> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Bottoms.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -54,9 +50,6 @@ public class Bottoms
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Bottoms> items;
-
     }
-
 }

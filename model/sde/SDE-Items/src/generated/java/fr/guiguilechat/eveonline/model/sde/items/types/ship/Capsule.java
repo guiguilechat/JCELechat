@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class Capsule
     extends Ship
 {
-
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class Capsule
     public int MetaGroupID;
     /**
      * scanning speed in milliseconds
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -43,10 +39,10 @@ public class Capsule
     }
 
     public static LinkedHashMap<String, Capsule> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Capsule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -54,9 +50,6 @@ public class Capsule
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Capsule> items;
-
     }
-
 }

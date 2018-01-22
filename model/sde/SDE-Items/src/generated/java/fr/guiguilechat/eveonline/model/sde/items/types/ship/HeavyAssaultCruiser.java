@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class HeavyAssaultCruiser
     extends Ship
 {
-
     /**
      * How many upgrades can by fitted to this ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,14 +21,12 @@ public class HeavyAssaultCruiser
     public int UpgradeSlotsLeft;
     /**
      * reduction in MicroWarp Drive signature
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MWDSignatureRadiusBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,7 +35,6 @@ public class HeavyAssaultCruiser
     public int RigSize;
     /**
      * The number of low power slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class HeavyAssaultCruiser
     public int LowSlots;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,7 +49,6 @@ public class HeavyAssaultCruiser
     public int MedSlots;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,30 +56,26 @@ public class HeavyAssaultCruiser
     public int HiSlots;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusAC2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusCC2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusGC2;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -96,15 +84,13 @@ public class HeavyAssaultCruiser
     public int FwLpKill;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusMC2;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,7 +98,6 @@ public class HeavyAssaultCruiser
     public int RequiredSkill1Level;
     /**
      * Deprecated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,7 +105,6 @@ public class HeavyAssaultCruiser
     public int MaxDirectionalVelocity;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -128,14 +112,12 @@ public class HeavyAssaultCruiser
     public int RequiredSkill2Level;
     /**
      * Deprecated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double MinTargetVelDmgMultiplier;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -144,7 +126,6 @@ public class HeavyAssaultCruiser
     public int ShipBonusAC3;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -152,7 +133,6 @@ public class HeavyAssaultCruiser
     public int MetaGroupID;
     /**
      * Alliance Tournament Ship Bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -160,14 +140,12 @@ public class HeavyAssaultCruiser
     public int ShipBonusATC1;
     /**
      * Alliance Tournament Ship Bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ShipBonusATC2;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -176,7 +154,6 @@ public class HeavyAssaultCruiser
     public int EliteBonusHeavyGunship1;
     /**
      * The resolution that the vessel can target other objects at.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -184,15 +161,13 @@ public class HeavyAssaultCruiser
     public int ScanResolution;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double EliteBonusHeavyGunship2;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -200,7 +175,6 @@ public class HeavyAssaultCruiser
     public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -208,14 +182,12 @@ public class HeavyAssaultCruiser
     public int RequiredSkill2;
     /**
      * scanning speed in milliseconds
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int ScanSpeed;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -224,22 +196,19 @@ public class HeavyAssaultCruiser
     public int ShipBonusGC3;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusAC;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(5.0D)
+    @DefaultDoubleValue(5.0)
     public double ShipBonusGC;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -248,7 +217,6 @@ public class HeavyAssaultCruiser
     public int ShipBonusCC;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -256,23 +224,20 @@ public class HeavyAssaultCruiser
     public int TypeColorScheme;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusMC;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationHi;
     /**
      * Attribute on ships used for ship upgrades
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -280,23 +245,20 @@ public class HeavyAssaultCruiser
     public int UpgradeCapacity;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationMed;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationLow;
     /**
      * The number of rig slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -304,7 +266,6 @@ public class HeavyAssaultCruiser
     public int RigSlots;
     /**
      * The main color of a ship type.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -324,10 +285,10 @@ public class HeavyAssaultCruiser
     }
 
     public static LinkedHashMap<String, HeavyAssaultCruiser> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HeavyAssaultCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -335,9 +296,6 @@ public class HeavyAssaultCruiser
     }
 
     private static class Container {
-
         public LinkedHashMap<String, HeavyAssaultCruiser> items;
-
     }
-
 }

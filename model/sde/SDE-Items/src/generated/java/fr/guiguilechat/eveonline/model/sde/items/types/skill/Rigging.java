@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
@@ -13,17 +12,14 @@ import org.yaml.snakeyaml.Yaml;
 public class Rigging
     extends Skill
 {
-
     /**
      * Time constant for skill training
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SkillTimeConstant;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -32,7 +28,6 @@ public class Rigging
     public int RigDrawbackBonus;
     /**
      * Only refers to another dogma attribute.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class Rigging
     public int PrimaryAttribute;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class Rigging
     public int RequiredSkill1Level;
     /**
      * Only refers to another dogma attribute.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,7 +49,6 @@ public class Rigging
     public int SecondaryAttribute;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -76,10 +68,10 @@ public class Rigging
     }
 
     public static LinkedHashMap<String, Rigging> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Rigging.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -87,9 +79,6 @@ public class Rigging
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Rigging> items;
-
     }
-
 }

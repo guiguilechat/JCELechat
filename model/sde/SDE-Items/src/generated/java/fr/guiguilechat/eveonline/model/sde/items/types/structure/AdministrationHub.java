@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class AdministrationHub
     extends Structure
 {
-
     public final static String RESOURCE_PATH = "SDE/items/structure/AdministrationHub.yaml";
     private static LinkedHashMap<String, AdministrationHub> cache = (null);
 
@@ -24,10 +22,10 @@ public class AdministrationHub
     }
 
     public static LinkedHashMap<String, AdministrationHub> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdministrationHub.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class AdministrationHub
     }
 
     private static class Container {
-
         public LinkedHashMap<String, AdministrationHub> items;
-
     }
-
 }

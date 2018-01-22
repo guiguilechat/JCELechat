@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -13,17 +12,14 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureASMLMissileLauncher
     extends StructureModule
 {
-
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -32,7 +28,6 @@ public class StructureASMLMissileLauncher
     public int CanFitShipGroup01;
     /**
      * Time in milliseconds between possible activations
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -40,14 +35,12 @@ public class StructureASMLMissileLauncher
     public int Speed;
     /**
      * reload time (ms)
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(10000.0D)
+    @DefaultDoubleValue(10000.0)
     public double ReloadTime;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,7 +49,6 @@ public class StructureASMLMissileLauncher
     public int CanFitShipGroup02;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,7 +56,6 @@ public class StructureASMLMissileLauncher
     public int CanFitShipGroup03;
     /**
      * Number of charges consumed per activation
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -72,7 +63,6 @@ public class StructureASMLMissileLauncher
     public int ChargeRate;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -80,7 +70,6 @@ public class StructureASMLMissileLauncher
     public int Hp;
     /**
      * One of the groups of charge this launcher can be loaded with.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,7 +77,6 @@ public class StructureASMLMissileLauncher
     public int ChargeGroup1;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -96,7 +84,6 @@ public class StructureASMLMissileLauncher
     public int Power;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,7 +91,6 @@ public class StructureASMLMissileLauncher
     public int StructureItemVisualFlag;
     /**
      * The number of slots this module requires.  Only used for launchers, bays and turrets.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -124,10 +110,10 @@ public class StructureASMLMissileLauncher
     }
 
     public static LinkedHashMap<String, StructureASMLMissileLauncher> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureASMLMissileLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -135,9 +121,6 @@ public class StructureASMLMissileLauncher
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureASMLMissileLauncher> items;
-
     }
-
 }

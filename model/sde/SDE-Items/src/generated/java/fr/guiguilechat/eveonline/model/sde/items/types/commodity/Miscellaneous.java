@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class Miscellaneous
     extends Commodity
 {
-
     /**
      * Cost multiplier per m3 volume of this commodity when importing to a planet
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class Miscellaneous
     public int ImportTaxMultiplier;
     /**
      * Export tax multiplier when exporting this commodity off a planet.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -31,7 +27,6 @@ public class Miscellaneous
     public int ExportTaxMultiplier;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -51,10 +46,10 @@ public class Miscellaneous
     }
 
     public static LinkedHashMap<String, Miscellaneous> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Miscellaneous.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -62,9 +57,6 @@ public class Miscellaneous
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Miscellaneous> items;
-
     }
-
 }

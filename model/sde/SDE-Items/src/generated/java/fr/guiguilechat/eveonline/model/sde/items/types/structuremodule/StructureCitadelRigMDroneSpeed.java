@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -12,17 +11,14 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureCitadelRigMDroneSpeed
     extends StructureModule
 {
-
     /**
      * How much of the upgrade capacity is used when this is fitted to a ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -31,14 +27,12 @@ public class StructureCitadelRigMDroneSpeed
     public int CanFitShipGroup01;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -47,14 +41,12 @@ public class StructureCitadelRigMDroneSpeed
     public int MaxGroupFitted;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -63,7 +55,6 @@ public class StructureCitadelRigMDroneSpeed
     public int RigSize;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -71,7 +62,6 @@ public class StructureCitadelRigMDroneSpeed
     public int StructureItemVisualFlag;
     /**
      * Increases max velocity of all drone types.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -91,10 +81,10 @@ public class StructureCitadelRigMDroneSpeed
     }
 
     public static LinkedHashMap<String, StructureCitadelRigMDroneSpeed> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCitadelRigMDroneSpeed.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -102,9 +92,6 @@ public class StructureCitadelRigMDroneSpeed
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureCitadelRigMDroneSpeed> items;
-
     }
-
 }

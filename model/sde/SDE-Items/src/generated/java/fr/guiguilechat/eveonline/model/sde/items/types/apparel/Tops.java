@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.apparel;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class Tops
     extends Apparel
 {
-
     public final static String RESOURCE_PATH = "SDE/items/apparel/Tops.yaml";
     private static LinkedHashMap<String, Tops> cache = (null);
 
@@ -24,10 +22,10 @@ public class Tops
     }
 
     public static LinkedHashMap<String, Tops> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Tops.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class Tops
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Tops> items;
-
     }
-
 }

@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class MobileTractorUnit
     extends Deployable
 {
-
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,23 +21,20 @@ public class MobileTractorUnit
     public int MaxLockedTargets;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
      * Maximum range at which the scanner can lock a target.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -48,47 +42,41 @@ public class MobileTractorUnit
     public int MaxTargetRange;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
      * Radar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanRadarStrength;
     /**
      * Magnetometric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
      * Gravimetric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanGravimetricStrength;
     /**
      * The maximum speed that the tractor beam draws objects closer at.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,7 +84,6 @@ public class MobileTractorUnit
     public int MaxTractorVelocity;
     /**
      * Distance below which range does not affect the to-hit equation.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -104,7 +91,6 @@ public class MobileTractorUnit
     public int MaxRange;
     /**
      * The ranking of the module within its tech level
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -124,10 +110,10 @@ public class MobileTractorUnit
     }
 
     public static LinkedHashMap<String, MobileTractorUnit> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileTractorUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -135,9 +121,6 @@ public class MobileTractorUnit
     }
 
     private static class Container {
-
         public LinkedHashMap<String, MobileTractorUnit> items;
-
     }
-
 }

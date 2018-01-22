@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,17 +12,14 @@ import org.yaml.snakeyaml.Yaml;
 public class MicroJumpDrive
     extends Module
 {
-
     /**
      * The amount of charge used from the capacitor for a module activation.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -32,22 +28,19 @@ public class MicroJumpDrive
     public int MaxGroupFitted;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
      * Signifies that this module if activated, will prevent ejection from the ship it is fitted to and extend the log out ship removal timer.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int DisallowEarlyDeactivation;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,7 +49,6 @@ public class MicroJumpDrive
     public int SignatureRadiusBonusPercent;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,14 +56,12 @@ public class MicroJumpDrive
     public int CanFitShipGroup01;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -80,7 +70,6 @@ public class MicroJumpDrive
     public int CanFitShipGroup02;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,14 +77,12 @@ public class MicroJumpDrive
     public int CanFitShipGroup03;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -104,7 +91,6 @@ public class MicroJumpDrive
     public int CanFitShipGroup04;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,7 +98,6 @@ public class MicroJumpDrive
     public int RequiredSkill1;
     /**
      * If set, this module cannot be activated and made to autorepeat.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,7 +105,6 @@ public class MicroJumpDrive
     public int DisallowRepeatingActivation;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -128,7 +112,6 @@ public class MicroJumpDrive
     public int MaxGroupActive;
     /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -136,7 +119,6 @@ public class MicroJumpDrive
     public int ModuleReactivationDelay;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -156,10 +138,10 @@ public class MicroJumpDrive
     }
 
     public static LinkedHashMap<String, MicroJumpDrive> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MicroJumpDrive.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -167,9 +149,6 @@ public class MicroJumpDrive
     }
 
     private static class Container {
-
         public LinkedHashMap<String, MicroJumpDrive> items;
-
     }
-
 }

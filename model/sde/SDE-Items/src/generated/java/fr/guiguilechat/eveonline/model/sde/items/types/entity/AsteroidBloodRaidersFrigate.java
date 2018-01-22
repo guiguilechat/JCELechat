@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.entity;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class AsteroidBloodRaidersFrigate
     extends Entity
 {
-
     public final static String RESOURCE_PATH = "SDE/items/entity/AsteroidBloodRaidersFrigate.yaml";
     private static LinkedHashMap<String, AsteroidBloodRaidersFrigate> cache = (null);
 
@@ -24,10 +22,10 @@ public class AsteroidBloodRaidersFrigate
     }
 
     public static LinkedHashMap<String, AsteroidBloodRaidersFrigate> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidBloodRaidersFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class AsteroidBloodRaidersFrigate
     }
 
     private static class Container {
-
         public LinkedHashMap<String, AsteroidBloodRaidersFrigate> items;
-
     }
-
 }

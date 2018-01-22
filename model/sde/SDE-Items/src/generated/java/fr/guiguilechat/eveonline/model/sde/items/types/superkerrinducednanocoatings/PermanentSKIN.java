@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.superkerrinducednanocoatings;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class PermanentSKIN
     extends SuperKerrInducedNanocoatings
 {
-
     public final static String RESOURCE_PATH = "SDE/items/superkerrinducednanocoatings/PermanentSKIN.yaml";
     private static LinkedHashMap<String, PermanentSKIN> cache = (null);
 
@@ -24,10 +22,10 @@ public class PermanentSKIN
     }
 
     public static LinkedHashMap<String, PermanentSKIN> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PermanentSKIN.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class PermanentSKIN
     }
 
     private static class Container {
-
         public LinkedHashMap<String, PermanentSKIN> items;
-
     }
-
 }

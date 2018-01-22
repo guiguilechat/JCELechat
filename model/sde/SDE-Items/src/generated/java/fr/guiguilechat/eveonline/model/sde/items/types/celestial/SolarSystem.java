@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class SolarSystem
     extends Celestial
 {
-
     public final static String RESOURCE_PATH = "SDE/items/celestial/SolarSystem.yaml";
     private static LinkedHashMap<String, SolarSystem> cache = (null);
 
@@ -24,10 +22,10 @@ public class SolarSystem
     }
 
     public static LinkedHashMap<String, SolarSystem> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SolarSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class SolarSystem
     }
 
     private static class Container {
-
         public LinkedHashMap<String, SolarSystem> items;
-
     }
-
 }

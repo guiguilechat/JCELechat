@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
@@ -13,18 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 public class MiningDrone
     extends Drone
 {
-
     /**
      * Damage multiplier.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double DamageMultiplier;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,7 +28,6 @@ public class MiningDrone
     public int RequiredSkill4;
     /**
      * Required skill level for skill 4
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class MiningDrone
     public int RequiredSkill4Level;
     /**
      * Amount of maximum shield HP on the item.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class MiningDrone
     public int ShieldCapacity;
     /**
      * The number of hit points on the entities armor.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,38 +49,33 @@ public class MiningDrone
     public int ArmorHP;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
      * Multiplies EM damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorEmDamageResonance;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorExplosiveDamageResonance;
     /**
-     * 
      * 
      */
     @HighIsGood(false)
@@ -96,7 +84,6 @@ public class MiningDrone
     public int FighterAbilityAntiFighterMissileResistance;
     /**
      * How much ore gets mined
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,55 +91,48 @@ public class MiningDrone
     public int MiningAmount;
     /**
      * Multiplies KINETIC damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorKineticDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorThermalDamageResonance;
     /**
      * Multiplies EM damage taken by shield
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldEmDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldExplosiveDamageResonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldKineticDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Shield. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -160,7 +140,6 @@ public class MiningDrone
     public int RequiredSkill2Level;
     /**
      * Required skill level for skill 3
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -168,7 +147,6 @@ public class MiningDrone
     public int RequiredSkill3Level;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -176,7 +154,6 @@ public class MiningDrone
     public int MetaGroupID;
     /**
      * The range at which this thing does it thing.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -184,23 +161,20 @@ public class MiningDrone
     public int OrbitRange;
     /**
      * Amount of time taken to fully recharge the shield.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldRechargeRate;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -208,7 +182,6 @@ public class MiningDrone
     public int TechLevel;
     /**
      * Signature Radius is used for turret tracking and scanning.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -216,7 +189,6 @@ public class MiningDrone
     public int SignatureRadius;
     /**
      * Distance below which range does not affect the to-hit equation.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -224,7 +196,6 @@ public class MiningDrone
     public int MaxRange;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -232,7 +203,6 @@ public class MiningDrone
     public int RequiredSkill2;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -240,7 +210,6 @@ public class MiningDrone
     public int RequiredSkill3;
     /**
      * The ranking of the module within its tech level
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -260,10 +229,10 @@ public class MiningDrone
     }
 
     public static LinkedHashMap<String, MiningDrone> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MiningDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -271,9 +240,6 @@ public class MiningDrone
     }
 
     private static class Container {
-
         public LinkedHashMap<String, MiningDrone> items;
-
     }
-
 }

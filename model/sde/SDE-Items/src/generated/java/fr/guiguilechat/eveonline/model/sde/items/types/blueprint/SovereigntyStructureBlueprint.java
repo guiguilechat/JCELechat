@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
@@ -12,14 +11,12 @@ import org.yaml.snakeyaml.Yaml;
 public class SovereigntyStructureBlueprint
     extends Blueprint
 {
-
     /**
      * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/SovereigntyStructureBlueprint.yaml";
     private static LinkedHashMap<String, SovereigntyStructureBlueprint> cache = (null);
@@ -35,10 +32,10 @@ public class SovereigntyStructureBlueprint
     }
 
     public static LinkedHashMap<String, SovereigntyStructureBlueprint> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SovereigntyStructureBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -46,9 +43,6 @@ public class SovereigntyStructureBlueprint
     }
 
     private static class Container {
-
         public LinkedHashMap<String, SovereigntyStructureBlueprint> items;
-
     }
-
 }

@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class CommandCenters
     extends PlanetaryInteraction
 {
-
     /**
      * This type can only be found/used/created on a planet matching this type ID.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class CommandCenters
     public int PlanetRestriction;
     /**
      * CPU output of ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -31,7 +27,6 @@ public class CommandCenters
     public int CpuOutput;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -39,7 +34,6 @@ public class CommandCenters
     public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -47,7 +41,6 @@ public class CommandCenters
     public int RequiredSkill1;
     /**
      * Base export tax (ISK per m3 of volume) on commodities exported from a planet via this pin.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -55,7 +48,6 @@ public class CommandCenters
     public int ExportTax;
     /**
      * The ranking of the module within its tech level
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -63,7 +55,6 @@ public class CommandCenters
     public int MetaLevel;
     /**
      * power output of power core
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -83,10 +74,10 @@ public class CommandCenters
     }
 
     public static LinkedHashMap<String, CommandCenters> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CommandCenters.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -94,9 +85,6 @@ public class CommandCenters
     }
 
     private static class Container {
-
         public LinkedHashMap<String, CommandCenters> items;
-
     }
-
 }

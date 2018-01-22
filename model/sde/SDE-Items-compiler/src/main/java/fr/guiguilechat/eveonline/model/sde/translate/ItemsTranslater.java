@@ -14,26 +14,27 @@ import java.util.Map.Entry;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.Yaml;
 
-import com.sun.codemodel.JBlock;
-import com.sun.codemodel.JCatchBlock;
-import com.sun.codemodel.JClass;
-import com.sun.codemodel.JClassAlreadyExistsException;
-import com.sun.codemodel.JCodeModel;
-import com.sun.codemodel.JDefinedClass;
-import com.sun.codemodel.JExpr;
-import com.sun.codemodel.JMethod;
-import com.sun.codemodel.JMod;
-import com.sun.codemodel.JTryBlock;
-import com.sun.codemodel.JVar;
+import com.helger.jcodemodel.AbstractJClass;
+import com.helger.jcodemodel.IJExpression;
+import com.helger.jcodemodel.JBlock;
+import com.helger.jcodemodel.JCatchBlock;
+import com.helger.jcodemodel.JClassAlreadyExistsException;
+import com.helger.jcodemodel.JCodeModel;
+import com.helger.jcodemodel.JDefinedClass;
+import com.helger.jcodemodel.JExpr;
+import com.helger.jcodemodel.JMethod;
+import com.helger.jcodemodel.JMod;
+import com.helger.jcodemodel.JTryBlock;
+import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.eveonline.model.sde.compile.SDECompiler.CompiledClassesData;
 import fr.guiguilechat.eveonline.model.sde.compile.inmemory.DynamicClassLoader;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.eveonline.model.sde.yaml.CleanRepresenter;
+import fr.guiguilechat.eveonline.model.sde.yaml.Tools;
 
 /**
  * translates sde into yaml files using compiled data. Also modifies the
@@ -52,6 +53,9 @@ public class ItemsTranslater {
 		// eg mycategory/mygroup.yaml -> item1-> new MyGroup()
 		HashMap<String, LinkedHashMap<String, Object>> exportItems = new HashMap<>();
 		HashMap<Integer, Object> builtItems = new HashMap<>();
+		// metainf
+		LinkedHashMap<String, String> name2group = new LinkedHashMap<>();
+		LinkedHashMap<String, String> group2class = new LinkedHashMap<>();
 
 		LinkedHashMap<Integer, EtypeIDs> typeids = EtypeIDs.load();
 		for (Entry<Integer, EtypeIDs> e : typeids.entrySet()) {
@@ -65,44 +69,19 @@ public class ItemsTranslater {
 			if (m == null) {
 				m = new LinkedHashMap<>();
 				exportItems.put(fileName, m);
-				// also add a static final field into the class.
-				JDefinedClass clazz = cm._getClass(className);
-				clazz.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String.class), "RESOURCE_PATH")
-				.init(JExpr.lit(resFolder + fileName));
-
-				// create a Container class that contains only a field
-				// LinkedHashMap<String, thisclass>
-				// this allows to have snakeyaml parse a text file into a hahsmap
-				try {
-					clazz._class(JMod.PRIVATE | JMod.STATIC, "Container").field(JMod.PUBLIC,
-							cm.ref(LinkedHashMap.class).narrow(cm.ref(String.class), clazz), "items");
-				} catch (JClassAlreadyExistsException e1) {
-					throw new UnsupportedOperationException("catch this", e1);
-				}
-
-				// create the load method
-				JClass retType = cm.ref(LinkedHashMap.class).narrow(cm.ref(String.class), clazz);
-				// the cache of the load
-				JVar cache = clazz
-						.field(JMod.PRIVATE | JMod.STATIC, retType, "cache")
-						.init(JExpr.direct("null"));
-				// body method for load
-				JMethod load = clazz.method(JMod.PUBLIC | JMod.STATIC, retType, "load");
-				JBlock ifblock = load.body()._if(JExpr.direct("cache==null"))._then();
-				JTryBlock tryblock = ifblock._try();
-				tryblock.body().assign(cache, JExpr._new(cm.ref(Yaml.class)).invoke("loadAs")
-						.arg(JExpr._new(cm.ref(InputStreamReader.class)).arg(clazz.dotclass().invoke("getClassLoader")
-								.invoke("getResourceAsStream").arg(JExpr.direct("RESOURCE_PATH"))))
-						.arg(JExpr.direct("Container.class"))
-						.ref("items"));
-				JCatchBlock catchblk = tryblock._catch(cm.ref(Exception.class));
-				catchblk.body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)).arg(JExpr.lit("catch this"))
-						.arg(catchblk.param("exception")));
-				load.body()._return(JExpr.direct("cache"));
-
+				makeLoadMethod(cm._getClass(className), cm, resFolder + fileName, true);
 			}
 			m.put(type.enName(), item);
 			builtItems.put(e.getKey(), item);
+
+			// add metainf
+
+			String packageName = item.getClass().getSuperclass().getSimpleName().toLowerCase() + "/"
+					+ item.getClass().getSimpleName();
+			name2group.put(type.enName(), packageName);
+			if (!group2class.containsKey(packageName)) {
+				group2class.put(packageName, item.getClass().getName());
+			}
 		}
 		for (Entry<Integer, HashMap<Integer, EdgmTypeAttributes>> e : EdgmTypeAttributes.loadByTypeIDAttributeID()
 				.entrySet()) {
@@ -142,9 +121,7 @@ public class ItemsTranslater {
 			out.mkdirs();
 			out.delete();
 			try {
-				DumperOptions options = new DumperOptions();
-				options.setDefaultFlowStyle(DumperOptions.FlowStyle.BLOCK);
-				Yaml yaml = new Yaml(new CleanRepresenter(), options);
+				Yaml yaml = new Yaml(new CleanRepresenter(), Tools.blockDumper());
 				yaml.dump(new Object() {
 					@SuppressWarnings("unused")
 					public LinkedHashMap<String, Object> items = map;
@@ -153,6 +130,44 @@ public class ItemsTranslater {
 				throw new UnsupportedOperationException("catch this", e1);
 			}
 		}
+
+		//write metadata
+		// meta informations. we need to be able to find an item name, and its
+		// class, from its id.
+		LinkedHashMap<Integer, String> id2Name = new LinkedHashMap<>();
+		typeids.keySet().stream().mapToInt(i -> i).sorted().forEach(i -> id2Name.put(i, typeids.get(i).enName()));
+
+		ArrayList<String> sortedNames = new ArrayList<>(name2group.keySet());
+		Collections.sort(sortedNames);
+		LinkedHashMap<String, String> sortedName2Group = new LinkedHashMap<>();
+		for (String s : sortedNames) {
+			sortedName2Group.put(s, name2group.get(s));
+		}
+
+		ArrayList<String> sortedGroups = new ArrayList<>(group2class.keySet());
+		Collections.sort(sortedGroups);
+		LinkedHashMap<String, String> sortedGroup2Class = new LinkedHashMap<>();
+		for (String s : sortedGroups) {
+			sortedGroup2Class.put(s, group2class.get(s));
+		}
+
+		try {
+			Yaml yaml = new Yaml(new CleanRepresenter(), Tools.blockDumper());
+			yaml.dump(new Object() {
+				@SuppressWarnings("unused")
+				public LinkedHashMap<Integer, String> id2name = id2Name;
+				@SuppressWarnings("unused")
+				public LinkedHashMap<String, String> name2group = sortedName2Group;
+				@SuppressWarnings("unused")
+				public LinkedHashMap<String, String> group2class = sortedGroup2Class;
+			}, new FileWriter(new File(destFolder, "metainf.yaml")));
+		} catch (IOException e1) {
+			throw new UnsupportedOperationException("catch this", e1);
+		}
+
+		makeLoadMethod(classes.metaInfClass, cm, "SDE/items/metainf.yaml", false);
+
+
 		logger.info("translated items in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 	}
 
@@ -167,5 +182,47 @@ public class ItemsTranslater {
 				| SecurityException | IllegalArgumentException | InvocationTargetException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
+	}
+
+	protected void makeLoadMethod(JDefinedClass clazz, JCodeModel cm, String resPath, boolean container) {
+		clazz.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String.class), "RESOURCE_PATH")
+		.init(JExpr.lit(resPath));
+
+		if (container) {
+			// create a Container class that contains only a field
+			// LinkedHashMap<String, thisclass>
+			// this allows to have snakeyaml parse a text file into a hahsmap
+			try {
+				clazz._class(JMod.PRIVATE | JMod.STATIC, "Container").field(JMod.PUBLIC,
+						cm.ref(LinkedHashMap.class).narrow(cm.ref(String.class), clazz), "items");
+			} catch (JClassAlreadyExistsException e1) {
+				throw new UnsupportedOperationException("catch this", e1);
+			}
+		}
+
+		// create the load method
+		AbstractJClass retType = container ? cm.ref(LinkedHashMap.class).narrow(cm.ref(String.class), clazz) : clazz;
+		// the cache of the load
+		JVar cache = clazz
+				.field(JMod.PRIVATE | JMod.STATIC, retType, "cache")
+				.init(JExpr.direct("null"));
+		// body method for load
+		JMethod load = clazz.method(JMod.PUBLIC | JMod.STATIC, retType, "load");
+		JBlock ifblock = load.body()._if(cache.eq(JExpr._null()))._then();
+		JTryBlock tryblock = ifblock._try();
+		IJExpression class2cast = container ? JExpr.direct("Container.class") : clazz.dotclass();
+		IJExpression assign = JExpr._new(cm.ref(Yaml.class)).invoke("loadAs")
+				.arg(JExpr._new(cm.ref(InputStreamReader.class)).arg(clazz.dotclass().invoke("getClassLoader")
+						.invoke("getResourceAsStream").arg(JExpr.direct("RESOURCE_PATH"))))
+				.arg(class2cast);
+		if (container) {
+			assign = assign.ref("items");
+		}
+		tryblock.body().assign(cache, assign);
+		JCatchBlock catchblk = tryblock._catch(cm.ref(Exception.class));
+		catchblk.body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)).arg(JExpr.lit("catch this"))
+				.arg(catchblk.param("exception")));
+		load.body()._return(JExpr.direct("cache"));
+
 	}
 }

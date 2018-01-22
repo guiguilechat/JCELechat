@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.entity;
 
 import fr.guiguilechat.eveonline.model.sde.items.types.Entity;
@@ -6,7 +5,6 @@ import fr.guiguilechat.eveonline.model.sde.items.types.Entity;
 public class MissionKhanidDestroyer
     extends Entity
 {
-
 
     @Override
     public int getGroupId() {
@@ -17,5 +15,4 @@ public class MissionKhanidDestroyer
     public Class<?> getGroup() {
         return MissionKhanidDestroyer.class;
     }
-
 }

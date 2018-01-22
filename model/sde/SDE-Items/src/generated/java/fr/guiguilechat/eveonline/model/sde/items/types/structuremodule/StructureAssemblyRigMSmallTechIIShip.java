@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import fr.guiguilechat.eveonline.model.sde.items.types.StructureModule;
@@ -6,7 +5,6 @@ import fr.guiguilechat.eveonline.model.sde.items.types.StructureModule;
 public class StructureAssemblyRigMSmallTechIIShip
     extends StructureModule
 {
-
 
     @Override
     public int getGroupId() {
@@ -17,5 +15,4 @@ public class StructureAssemblyRigMSmallTechIIShip
     public Class<?> getGroup() {
         return StructureAssemblyRigMSmallTechIIShip.class;
     }
-
 }

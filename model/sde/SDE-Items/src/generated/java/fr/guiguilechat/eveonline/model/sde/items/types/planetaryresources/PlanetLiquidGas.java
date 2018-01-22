@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.planetaryresources;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class PlanetLiquidGas
     extends PlanetaryResources
 {
-
     public final static String RESOURCE_PATH = "SDE/items/planetaryresources/PlanetLiquidGas.yaml";
     private static LinkedHashMap<String, PlanetLiquidGas> cache = (null);
 
@@ -24,10 +22,10 @@ public class PlanetLiquidGas
     }
 
     public static LinkedHashMap<String, PlanetLiquidGas> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PlanetLiquidGas.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class PlanetLiquidGas
     }
 
     private static class Container {
-
         public LinkedHashMap<String, PlanetLiquidGas> items;
-
     }
-
 }

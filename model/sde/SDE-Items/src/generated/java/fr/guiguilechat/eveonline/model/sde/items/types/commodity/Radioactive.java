@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class Radioactive
     extends Commodity
 {
-
     public final static String RESOURCE_PATH = "SDE/items/commodity/Radioactive.yaml";
     private static LinkedHashMap<String, Radioactive> cache = (null);
 
@@ -24,10 +22,10 @@ public class Radioactive
     }
 
     public static LinkedHashMap<String, Radioactive> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Radioactive.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class Radioactive
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Radioactive> items;
-
     }
-
 }

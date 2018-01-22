@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,25 +12,21 @@ import org.yaml.snakeyaml.Yaml;
 public class ECM
     extends Module
 {
-
     /**
      * The amount of charge used from the capacitor for a module activation.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,47 +35,41 @@ public class ECM
     public int OverloadECMStrengthBonus;
     /**
      * +/- modifier to the gravimetric strength of an electronic system.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanGravimetricStrengthBonus;
     /**
      * +/- modifier to the ladar strength of an electronic system.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanLadarStrengthBonus;
     /**
      * +/- modifier to the magnetometric strength of an electronic system.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrengthBonus;
     /**
      * +/- modifier to the radar strength of an electronic system.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanRadarStrengthBonus;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,7 +77,6 @@ public class ECM
     public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,7 +84,6 @@ public class ECM
     public int RequiredSkill1;
     /**
      * Distance below which range does not affect the to-hit equation.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -104,7 +91,6 @@ public class ECM
     public int MaxRange;
     /**
      * Attribute ID of the resistance type v's this Ewar module.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,15 +98,13 @@ public class ECM
     public int RemoteResistanceID;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double HeatDamage;
     /**
      * distance from maximum range at which effectiveness has fallen by half
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -128,14 +112,12 @@ public class ECM
     public int FalloffEffectiveness;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double HeatAbsorbtionRateModifier;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -144,7 +126,6 @@ public class ECM
     public int RequiredThermoDynamicsSkill;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -152,7 +133,6 @@ public class ECM
     public int MetaGroupID;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -160,7 +140,6 @@ public class ECM
     public int Power;
     /**
      * Used for target jam effects to reduce max locked targets of victem to a negative value to ensure the victem looses its targets, use extreme value
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -180,10 +159,10 @@ public class ECM
     }
 
     public static LinkedHashMap<String, ECM> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ECM.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -191,9 +170,6 @@ public class ECM
     }
 
     private static class Container {
-
         public LinkedHashMap<String, ECM> items;
-
     }
-
 }

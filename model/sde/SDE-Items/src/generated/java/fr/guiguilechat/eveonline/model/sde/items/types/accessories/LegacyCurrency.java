@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.accessories;
 
 import java.io.InputStreamReader;
@@ -12,9 +11,7 @@ import org.yaml.snakeyaml.Yaml;
 public class LegacyCurrency
     extends Accessories
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -23,7 +20,6 @@ public class LegacyCurrency
     public int AurumConversionRate;
     /**
      * Number of days that this PLEX adds to your account
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -43,10 +39,10 @@ public class LegacyCurrency
     }
 
     public static LinkedHashMap<String, LegacyCurrency> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(LegacyCurrency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -54,9 +50,6 @@ public class LegacyCurrency
     }
 
     private static class Container {
-
         public LinkedHashMap<String, LegacyCurrency> items;
-
     }
-
 }

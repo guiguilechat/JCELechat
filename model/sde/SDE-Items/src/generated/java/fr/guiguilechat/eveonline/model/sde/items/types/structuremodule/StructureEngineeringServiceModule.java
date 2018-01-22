@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -13,9 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureEngineeringServiceModule
     extends StructureModule
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -24,15 +21,13 @@ public class StructureEngineeringServiceModule
     public int CanFitShipGroup01;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * If set on a charge or module type, will prevent it from being activated in empire space.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class StructureEngineeringServiceModule
     public int DisallowInEmpireSpace;
     /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,14 +42,12 @@ public class StructureEngineeringServiceModule
     public int DisallowInHighSec;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup02;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -68,14 +60,12 @@ public class StructureEngineeringServiceModule
      *  0=Nullsec
      *  1=Lowsec
      *  2=Highsec
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(2)
     public int OnlineMaxSecurityClass;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -84,14 +74,12 @@ public class StructureEngineeringServiceModule
     public int CanFitShipType1;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipType2;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -100,14 +88,12 @@ public class StructureEngineeringServiceModule
     public int CanFitShipType3;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipType5;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -116,7 +102,6 @@ public class StructureEngineeringServiceModule
     public int CanFitShipType4;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -124,7 +109,6 @@ public class StructureEngineeringServiceModule
     public int RequiresSovUpgrade1;
     /**
      * Fuel consumed by the structure service module
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -132,7 +116,6 @@ public class StructureEngineeringServiceModule
     public int ServiceModuleFuelConsumptionGroup;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -140,7 +123,6 @@ public class StructureEngineeringServiceModule
     public int MetaGroupID;
     /**
      * Fuel consumed at the beginning of each hour to keep a service module online.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -148,7 +130,6 @@ public class StructureEngineeringServiceModule
     public int ServiceModuleFuelAmount;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -156,7 +137,6 @@ public class StructureEngineeringServiceModule
     public int Power;
     /**
      * Fuel consumed to online the service module.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -164,14 +144,12 @@ public class StructureEngineeringServiceModule
     public int ServiceModuleFuelOnlineAmount;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -192,10 +170,10 @@ public class StructureEngineeringServiceModule
     }
 
     public static LinkedHashMap<String, StructureEngineeringServiceModule> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -203,9 +181,6 @@ public class StructureEngineeringServiceModule
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureEngineeringServiceModule> items;
-
     }
-
 }

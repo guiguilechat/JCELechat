@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
@@ -13,9 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class OffensiveSystems
     extends Subsystem
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -24,14 +21,12 @@ public class OffensiveSystems
     public int SubsystemCommandBurstFittingReduction;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RemoteShieldBoosterFalloffBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,7 +35,6 @@ public class OffensiveSystems
     public int RemoteArmorRepairerFalloffBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,14 +42,12 @@ public class OffensiveSystems
     public int RemoteArmorRepairerOptimalBonus;
     /**
      * power output of power core
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int PowerOutput;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -64,14 +56,12 @@ public class OffensiveSystems
     public int RoleBonusCommandBurstAoERange;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int TurretHardPointModifier;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -80,7 +70,6 @@ public class OffensiveSystems
     public int LauncherHardPointModifier;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,14 +77,12 @@ public class OffensiveSystems
     public int SubsystemBonusAmarrOffensive;
     /**
      * This defines the total capacity of drones allowed in the drone bay of the ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int DroneCapacity;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -104,30 +91,26 @@ public class OffensiveSystems
     public int WarfareLinkCPUPenalty;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusGallenteOffensive;
     /**
      * Capacitor capacity
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorCapacity;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusCaldariOffensive;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -136,7 +119,6 @@ public class OffensiveSystems
     public int SubsystemBonusCaldariOffensive2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -144,14 +126,12 @@ public class OffensiveSystems
     public int SubsystemBonusAmarrOffensive2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusMinmatarOffensive;
     /**
-     * 
      * 
      */
     @HighIsGood(false)
@@ -160,14 +140,12 @@ public class OffensiveSystems
     public int SubsystemMHTFittingReduction;
     /**
      * Additional amount of locked targets that can be handled.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MaxLockedTargetsBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(false)
@@ -176,14 +154,12 @@ public class OffensiveSystems
     public int SubsystemMPTFittingReduction;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int SubsystemMETFittingReduction;
     /**
-     * 
      * 
      */
     @HighIsGood(false)
@@ -192,14 +168,12 @@ public class OffensiveSystems
     public int SubsystemMMissileFittingReduction;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int SubsystemMRSBFittingReduction;
     /**
-     * 
      * 
      */
     @HighIsGood(false)
@@ -208,14 +182,12 @@ public class OffensiveSystems
     public int SubsystemMRARFittingReduction;
     /**
      * CPU output of ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CpuOutput;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -224,14 +196,12 @@ public class OffensiveSystems
     public int SubsystemBonusGallenteOffensive2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusMinmatarOffensive2;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -240,22 +210,19 @@ public class OffensiveSystems
     public int DroneBandwidth;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusAmarrOffensive3;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusGallenteOffensive3;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -264,11 +231,10 @@ public class OffensiveSystems
     public int SubsystemBonusCaldariOffensive3;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusMinmatarOffensive3;
     public final static String RESOURCE_PATH = "SDE/items/subsystem/OffensiveSystems.yaml";
     private static LinkedHashMap<String, OffensiveSystems> cache = (null);
@@ -284,10 +250,10 @@ public class OffensiveSystems
     }
 
     public static LinkedHashMap<String, OffensiveSystems> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OffensiveSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -295,9 +261,6 @@ public class OffensiveSystems
     }
 
     private static class Container {
-
         public LinkedHashMap<String, OffensiveSystems> items;
-
     }
-
 }

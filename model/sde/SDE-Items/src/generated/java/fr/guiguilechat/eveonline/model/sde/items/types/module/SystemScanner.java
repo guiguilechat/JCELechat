@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,34 +12,29 @@ import org.yaml.snakeyaml.Yaml;
 public class SystemScanner
     extends Module
 {
-
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * The amount of charge used from the capacitor for a module activation.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class SystemScanner
     public int MaxGroupActive;
     /**
      * Effective range of scanner in multiples of AUs
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,7 +49,6 @@ public class SystemScanner
     public int ScanRange;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -76,10 +68,10 @@ public class SystemScanner
     }
 
     public static LinkedHashMap<String, SystemScanner> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SystemScanner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -87,9 +79,6 @@ public class SystemScanner
     }
 
     private static class Container {
-
         public LinkedHashMap<String, SystemScanner> items;
-
     }
-
 }

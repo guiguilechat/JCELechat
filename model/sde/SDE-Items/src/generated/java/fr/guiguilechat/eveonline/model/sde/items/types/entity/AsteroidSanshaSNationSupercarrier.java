@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.entity;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class AsteroidSanshaSNationSupercarrier
     extends Entity
 {
-
     public final static String RESOURCE_PATH = "SDE/items/entity/AsteroidSanshaSNationSupercarrier.yaml";
     private static LinkedHashMap<String, AsteroidSanshaSNationSupercarrier> cache = (null);
 
@@ -24,10 +22,10 @@ public class AsteroidSanshaSNationSupercarrier
     }
 
     public static LinkedHashMap<String, AsteroidSanshaSNationSupercarrier> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidSanshaSNationSupercarrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class AsteroidSanshaSNationSupercarrier
     }
 
     private static class Container {
-
         public LinkedHashMap<String, AsteroidSanshaSNationSupercarrier> items;
-
     }
-
 }

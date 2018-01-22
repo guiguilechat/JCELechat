@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class RemoteSensorBooster
     extends Module
 {
-
     /**
      * The size of the charges that can fit in the turret/whatever.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,14 +21,12 @@ public class RemoteSensorBooster
     public int ChargeSize;
     /**
      * reload time (ms)
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(10000.0D)
+    @DefaultDoubleValue(10000.0)
     public double ReloadTime;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,14 +35,12 @@ public class RemoteSensorBooster
     public int ScanGravimetricStrengthPercent;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ScanLadarStrengthPercent;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,7 +49,6 @@ public class RemoteSensorBooster
     public int ScanMagnetometricStrengthPercent;
     /**
      * When set to non-zero on a module with an assistance effect, the module cannot be activated against a target that has a positive disallowOffensiveModifiers attribute
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -64,14 +56,12 @@ public class RemoteSensorBooster
     public int DisallowAgainstEwImmuneTarget;
     /**
      * The amount of charge used from the capacitor for a module activation.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -80,14 +70,12 @@ public class RemoteSensorBooster
     public int ScanRadarStrengthPercent;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -96,7 +84,6 @@ public class RemoteSensorBooster
     public int OverloadSensorModuleStrengthBonus;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,7 +91,6 @@ public class RemoteSensorBooster
     public int RequiredSkill1Level;
     /**
      * Attribute ID of the resistance type v's this Ewar module.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,15 +98,13 @@ public class RemoteSensorBooster
     public int RemoteResistanceID;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double HeatAbsorbtionRateModifier;
     /**
      * One of the groups of charge this launcher can be loaded with.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -128,7 +112,6 @@ public class RemoteSensorBooster
     public int ChargeGroup1;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -136,7 +119,6 @@ public class RemoteSensorBooster
     public int MetaGroupID;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -144,23 +126,20 @@ public class RemoteSensorBooster
     public int Power;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * Bonus to Max Targeting Range
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double MaxTargetRangeBonus;
     /**
      * Distance below which range does not affect the to-hit equation.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -168,7 +147,6 @@ public class RemoteSensorBooster
     public int MaxRange;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -176,22 +154,19 @@ public class RemoteSensorBooster
     public int RequiredSkill1;
     /**
      * Bonus for scan resolution
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double HeatDamage;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -200,7 +175,6 @@ public class RemoteSensorBooster
     public int RequiredThermoDynamicsSkill;
     /**
      * distance from maximum range at which effectiveness has fallen by half
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -220,10 +194,10 @@ public class RemoteSensorBooster
     }
 
     public static LinkedHashMap<String, RemoteSensorBooster> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RemoteSensorBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -231,9 +205,6 @@ public class RemoteSensorBooster
     }
 
     private static class Container {
-
         public LinkedHashMap<String, RemoteSensorBooster> items;
-
     }
-
 }

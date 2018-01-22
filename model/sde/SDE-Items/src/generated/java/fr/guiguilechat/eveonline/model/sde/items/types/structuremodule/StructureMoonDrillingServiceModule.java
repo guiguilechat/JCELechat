@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -13,9 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureMoonDrillingServiceModule
     extends StructureModule
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -24,15 +21,13 @@ public class StructureMoonDrillingServiceModule
     public int CanFitShipGroup01;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -44,7 +39,6 @@ public class StructureMoonDrillingServiceModule
      *  0=Nullsec
      *  1=Lowsec
      *  2=Highsec
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -52,7 +46,6 @@ public class StructureMoonDrillingServiceModule
     public int OnlineMaxSecurityClass;
     /**
      * Fuel consumed by the structure service module
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -60,7 +53,6 @@ public class StructureMoonDrillingServiceModule
     public int ServiceModuleFuelConsumptionGroup;
     /**
      * Fuel consumed at the beginning of each hour to keep a service module online.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -68,7 +60,6 @@ public class StructureMoonDrillingServiceModule
     public int ServiceModuleFuelAmount;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -76,7 +67,6 @@ public class StructureMoonDrillingServiceModule
     public int Power;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -84,14 +74,12 @@ public class StructureMoonDrillingServiceModule
     public int StructureItemVisualFlag;
     /**
      * Fuel consumed to online the service module.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ServiceModuleFuelOnlineAmount;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -112,10 +100,10 @@ public class StructureMoonDrillingServiceModule
     }
 
     public static LinkedHashMap<String, StructureMoonDrillingServiceModule> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureMoonDrillingServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -123,9 +111,6 @@ public class StructureMoonDrillingServiceModule
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureMoonDrillingServiceModule> items;
-
     }
-
 }

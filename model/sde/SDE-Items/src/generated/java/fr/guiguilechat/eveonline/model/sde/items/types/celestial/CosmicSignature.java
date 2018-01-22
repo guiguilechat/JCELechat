@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
@@ -13,42 +12,36 @@ import org.yaml.snakeyaml.Yaml;
 public class CosmicSignature
     extends Celestial
 {
-
     /**
      * Radar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanRadarStrength;
     /**
      * Ladar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanLadarStrength;
     /**
      * Magnetometric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
      * Gravimetric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanGravimetricStrength;
     /**
      * Signature Radius is used for turret tracking and scanning.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -68,10 +61,10 @@ public class CosmicSignature
     }
 
     public static LinkedHashMap<String, CosmicSignature> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CosmicSignature.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -79,9 +72,6 @@ public class CosmicSignature
     }
 
     private static class Container {
-
         public LinkedHashMap<String, CosmicSignature> items;
-
     }
-
 }

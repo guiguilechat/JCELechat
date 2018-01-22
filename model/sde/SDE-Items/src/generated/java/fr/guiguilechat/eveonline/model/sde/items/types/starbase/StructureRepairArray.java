@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
@@ -13,18 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureRepairArray
     extends Starbase
 {
-
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
     /**
      * Amount of maximum shield HP on the item.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,15 +28,13 @@ public class StructureRepairArray
     public int ShieldCapacity;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Uniformity;
     /**
      * Signature Radius is used for turret tracking and scanning.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -48,7 +42,6 @@ public class StructureRepairArray
     public int SignatureRadius;
     /**
      * The number of hit points on the entities armor.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,15 +49,13 @@ public class StructureRepairArray
     public int ArmorHP;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
      * Minimum distance where a starbase structure can be anchored at from the control tower shield extremity in meters.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -72,39 +63,34 @@ public class StructureRepairArray
     public int ControlTowerMinimumDistance;
     /**
      * Radar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanRadarStrength;
     /**
      * Ladar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanLadarStrength;
     /**
      * Magnetometric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * Amount of armor healed by structure repair effects
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,15 +98,13 @@ public class StructureRepairArray
     public int StructureArmorRepairAmount;
     /**
      * Gravimetric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanGravimetricStrength;
     /**
      * Amount of shield healed by structure repair effects
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -128,7 +112,6 @@ public class StructureRepairArray
     public int StructureShieldRepairAmount;
     /**
      * Distance below which range does not affect the to-hit equation.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -136,15 +119,13 @@ public class StructureRepairArray
     public int MaxRange;
     /**
      * The hull damage proportion at which an entity becomes incapacitated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double IncapacitationRatio;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -152,11 +133,10 @@ public class StructureRepairArray
     public int Power;
     /**
      * Amount of time taken to fully recharge the shield.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldRechargeRate;
     public final static String RESOURCE_PATH = "SDE/items/starbase/StructureRepairArray.yaml";
     private static LinkedHashMap<String, StructureRepairArray> cache = (null);
@@ -172,10 +152,10 @@ public class StructureRepairArray
     }
 
     public static LinkedHashMap<String, StructureRepairArray> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureRepairArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -183,9 +163,6 @@ public class StructureRepairArray
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureRepairArray> items;
-
     }
-
 }

@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class Extractors
     extends PlanetaryInteraction
 {
-
     /**
      * This type can only be found/used/created on a planet matching this type ID.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class Extractors
     public int PlanetRestriction;
     /**
      * CPU load of ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -31,7 +27,6 @@ public class Extractors
     public int CpuLoad;
     /**
      * The type of material harvested.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -39,7 +34,6 @@ public class Extractors
     public int HarvesterType;
     /**
      * Base amount (in units) of commodities extracted by an extractor pin.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -47,7 +41,6 @@ public class Extractors
     public int PinExtractionQuantity;
     /**
      * Base cycle time (in seconds) of an extractor pin.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -55,7 +48,6 @@ public class Extractors
     public int PinCycleTime;
     /**
      * This is the radius that the depletion at this pin effects
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -63,7 +55,6 @@ public class Extractors
     public int ExtractorDepletionRange;
     /**
      * This is the amount that is added to the depletion of a resource on a planet
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -71,7 +62,6 @@ public class Extractors
     public int ExtractorDepletionRate;
     /**
      * Current load of power core
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -91,10 +81,10 @@ public class Extractors
     }
 
     public static LinkedHashMap<String, Extractors> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Extractors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -102,9 +92,6 @@ public class Extractors
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Extractors> items;
-
     }
-
 }

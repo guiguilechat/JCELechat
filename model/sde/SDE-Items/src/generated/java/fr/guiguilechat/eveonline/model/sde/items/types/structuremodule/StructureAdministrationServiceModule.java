@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -13,9 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureAdministrationServiceModule
     extends StructureModule
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -24,15 +21,13 @@ public class StructureAdministrationServiceModule
     public int CanFitShipGroup01;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -52,10 +47,10 @@ public class StructureAdministrationServiceModule
     }
 
     public static LinkedHashMap<String, StructureAdministrationServiceModule> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureAdministrationServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -63,9 +58,6 @@ public class StructureAdministrationServiceModule
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureAdministrationServiceModule> items;
-
     }
-
 }

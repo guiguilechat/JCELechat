@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.planetaryinteraction;
 
 import fr.guiguilechat.eveonline.model.sde.items.types.PlanetaryInteraction;
@@ -6,7 +5,6 @@ import fr.guiguilechat.eveonline.model.sde.items.types.PlanetaryInteraction;
 public class MercenaryBases
     extends PlanetaryInteraction
 {
-
 
     @Override
     public int getGroupId() {
@@ -17,5 +15,4 @@ public class MercenaryBases
     public Class<?> getGroup() {
         return MercenaryBases.class;
     }
-
 }

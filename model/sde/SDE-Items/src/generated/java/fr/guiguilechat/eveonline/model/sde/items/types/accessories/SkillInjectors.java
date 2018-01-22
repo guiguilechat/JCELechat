@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.accessories;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class SkillInjectors
     extends Accessories
 {
-
     /**
      * The maximum amount of skill points that the character can have before the item is unusable
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class SkillInjectors
     public int MaxCharacterSkillPointLimit;
     /**
      * The amount of skill points contained in this item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -43,10 +39,10 @@ public class SkillInjectors
     }
 
     public static LinkedHashMap<String, SkillInjectors> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SkillInjectors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -54,9 +50,6 @@ public class SkillInjectors
     }
 
     private static class Container {
-
         public LinkedHashMap<String, SkillInjectors> items;
-
     }
-
 }

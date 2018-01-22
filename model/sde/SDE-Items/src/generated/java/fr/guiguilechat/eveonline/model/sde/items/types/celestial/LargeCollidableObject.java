@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
@@ -13,18 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 public class LargeCollidableObject
     extends Celestial
 {
-
     /**
      * The difficulty in opening this object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double AccessDifficulty;
     /**
      * Amount of maximum shield HP on the item.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,7 +28,6 @@ public class LargeCollidableObject
     public int ShieldCapacity;
     /**
      * Whether a spawn container should refill itself when there are no guards assigned to it.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,14 +35,12 @@ public class LargeCollidableObject
     public int SpawnWithoutGuardsToo;
     /**
      * Defines whether an entity can be hacked or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hackable;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,14 +49,12 @@ public class LargeCollidableObject
     public int EntityEquipmentMin;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -72,7 +63,6 @@ public class LargeCollidableObject
     public int EntityEquipmentMax;
     /**
      * The number of hit points on the entities armor.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -80,23 +70,20 @@ public class LargeCollidableObject
     public int ArmorHP;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
      * The skill required to reprocess this ore type.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,7 +91,6 @@ public class LargeCollidableObject
     public int ReprocessingSkillType;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,7 +98,6 @@ public class LargeCollidableObject
     public int DisallowAssistance;
     /**
      * The distance outside of which the entity activates their MWD equivalent.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,7 +105,6 @@ public class LargeCollidableObject
     public int EntityChaseMaxDistance;
     /**
      * distance from maximum range at which accuracy has fallen by half
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -130,7 +114,6 @@ public class LargeCollidableObject
      *  0: white (default)
      *  1: red (hostile NPC)
      *  2: blue (Neutral NPC)
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -138,31 +121,27 @@ public class LargeCollidableObject
     public int EntityBracketColour;
     /**
      * Amount of time taken to fully recharge the shield.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldRechargeRate;
     /**
      * The distance at which the entity orbits, follows.. and more.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(500.0D)
+    @DefaultDoubleValue(500.0)
     public double EntityFlyRange;
     /**
      * Weapon accuracy
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double TrackingSpeed;
     /**
      * Reward for destroying this entity.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -170,15 +149,13 @@ public class LargeCollidableObject
     public int EntityKillBounty;
     /**
      * Capacitor capacity
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorCapacity;
     /**
      * Signature Radius is used for turret tracking and scanning.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -186,7 +163,6 @@ public class LargeCollidableObject
     public int SignatureRadius;
     /**
      * Distance below which range does not affect the to-hit equation.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -194,7 +170,6 @@ public class LargeCollidableObject
     public int MaxRange;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -202,7 +177,6 @@ public class LargeCollidableObject
     public int RequiredSkill1;
     /**
      * The distance from a target an entity starts using its weapons.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -210,7 +184,6 @@ public class LargeCollidableObject
     public int EntityAttackRange;
     /**
      * Deprecated. The minimum number of pieces of loot dropped by this entity.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -218,7 +191,6 @@ public class LargeCollidableObject
     public int EntityLootCountMin;
     /**
      * The maximum number of pieces of loot dropped by this entity.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -227,14 +199,12 @@ public class LargeCollidableObject
     /**
      * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
      * Value is a % movement of the character's current security towards the upper/lower limit.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int EntitySecurityStatusKillBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -255,10 +225,10 @@ public class LargeCollidableObject
     }
 
     public static LinkedHashMap<String, LargeCollidableObject> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(LargeCollidableObject.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -266,9 +236,6 @@ public class LargeCollidableObject
     }
 
     private static class Container {
-
         public LinkedHashMap<String, LargeCollidableObject> items;
-
     }
-
 }

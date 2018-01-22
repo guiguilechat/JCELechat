@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,17 +12,14 @@ import org.yaml.snakeyaml.Yaml;
 public class SurveyProbeLauncher
     extends Module
 {
-
     /**
      * reload time (ms)
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(10000.0D)
+    @DefaultDoubleValue(10000.0)
     public double ReloadTime;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -32,7 +28,6 @@ public class SurveyProbeLauncher
     public int MaxGroupFitted;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class SurveyProbeLauncher
     public int SurveyProbeDurationBonus;
     /**
      * The number of slots this module requires.  Only used for launchers, bays and turrets.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,15 +42,13 @@ public class SurveyProbeLauncher
     public int Slots;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * Time in milliseconds between possible activations
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -64,7 +56,6 @@ public class SurveyProbeLauncher
     public int Speed;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -72,7 +63,6 @@ public class SurveyProbeLauncher
     public int RequiredSkill1Level;
     /**
      * If set, this module cannot be activated and made to autorepeat.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -80,7 +70,6 @@ public class SurveyProbeLauncher
     public int DisallowRepeatingActivation;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,7 +77,6 @@ public class SurveyProbeLauncher
     public int RequiredSkill1;
     /**
      * Number of charges consumed per activation
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,7 +84,6 @@ public class SurveyProbeLauncher
     public int ChargeRate;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,7 +91,6 @@ public class SurveyProbeLauncher
     public int MaxGroupActive;
     /**
      * One of the groups of charge this launcher can be loaded with.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,7 +98,6 @@ public class SurveyProbeLauncher
     public int ChargeGroup2;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -132,10 +117,10 @@ public class SurveyProbeLauncher
     }
 
     public static LinkedHashMap<String, SurveyProbeLauncher> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SurveyProbeLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -143,9 +128,6 @@ public class SurveyProbeLauncher
     }
 
     private static class Container {
-
         public LinkedHashMap<String, SurveyProbeLauncher> items;
-
     }
-
 }

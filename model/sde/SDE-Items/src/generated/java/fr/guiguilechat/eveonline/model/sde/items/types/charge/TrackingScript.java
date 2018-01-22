@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class TrackingScript
     extends Charge
 {
-
     /**
      * The size of the charges that can fit in the turret/whatever.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,14 +20,12 @@ public class TrackingScript
     public int ChargeSize;
     /**
      * Bonus to maxRangeBonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MaxRangeBonusBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -39,7 +34,6 @@ public class TrackingScript
     public int FalloffBonusBonus;
     /**
      * Bonus to trackingSpeedBonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -47,14 +41,12 @@ public class TrackingScript
     public int TrackingSpeedBonusBonus;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -63,7 +55,6 @@ public class TrackingScript
     public int AoeCloudSizeBonusBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -71,7 +62,6 @@ public class TrackingScript
     public int AoeVelocityBonusBonus;
     /**
      * One of the groups of launcher this charge can be loaded into.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -79,7 +69,6 @@ public class TrackingScript
     public int LauncherGroup;
     /**
      * One of the groups of launcher this charge can be loaded into.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -87,7 +76,6 @@ public class TrackingScript
     public int LauncherGroup2;
     /**
      * One of the groups of launcher this charge can be loaded into.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -95,7 +83,6 @@ public class TrackingScript
     public int LauncherGroup3;
     /**
      * The main color of a ship type.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -115,10 +102,10 @@ public class TrackingScript
     }
 
     public static LinkedHashMap<String, TrackingScript> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TrackingScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -126,9 +113,6 @@ public class TrackingScript
     }
 
     private static class Container {
-
         public LinkedHashMap<String, TrackingScript> items;
-
     }
-
 }

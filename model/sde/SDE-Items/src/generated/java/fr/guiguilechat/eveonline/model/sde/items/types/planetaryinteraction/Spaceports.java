@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class Spaceports
     extends PlanetaryInteraction
 {
-
     /**
      * This type can only be found/used/created on a planet matching this type ID.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,7 +21,6 @@ public class Spaceports
     public int PlanetRestriction;
     /**
      * CPU load of ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,15 +28,13 @@ public class Spaceports
     public int CpuLoad;
     /**
      * Base importation tax (ISK per m3 of volume) for commodities imported to pin.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ImportTax;
     /**
      * Base export tax (ISK per m3 of volume) on commodities exported from a planet via this pin.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class Spaceports
     public int ExportTax;
     /**
      * Current load of power core
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -68,10 +61,10 @@ public class Spaceports
     }
 
     public static LinkedHashMap<String, Spaceports> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Spaceports.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -79,9 +72,6 @@ public class Spaceports
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Spaceports> items;
-
     }
-
 }

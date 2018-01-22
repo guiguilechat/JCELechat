@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.owner;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class Character
     extends Owner
 {
-
     public final static String RESOURCE_PATH = "SDE/items/owner/Character.yaml";
     private static LinkedHashMap<String, Character> cache = (null);
 
@@ -24,10 +22,10 @@ public class Character
     }
 
     public static LinkedHashMap<String, Character> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Character.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class Character
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Character> items;
-
     }
-
 }

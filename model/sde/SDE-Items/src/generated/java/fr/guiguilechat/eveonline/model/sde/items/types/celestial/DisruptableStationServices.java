@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class DisruptableStationServices
     extends Celestial
 {
-
     /**
      * Signature Radius is used for turret tracking and scanning.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -23,7 +20,6 @@ public class DisruptableStationServices
     public int SignatureRadius;
     /**
      * Whether a station type is player ownable.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -43,10 +39,10 @@ public class DisruptableStationServices
     }
 
     public static LinkedHashMap<String, DisruptableStationServices> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DisruptableStationServices.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -54,9 +50,6 @@ public class DisruptableStationServices
     }
 
     private static class Container {
-
         public LinkedHashMap<String, DisruptableStationServices> items;
-
     }
-
 }

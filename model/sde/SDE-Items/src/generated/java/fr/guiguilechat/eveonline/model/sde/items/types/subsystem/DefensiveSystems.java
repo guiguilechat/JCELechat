@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
@@ -13,9 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class DefensiveSystems
     extends Subsystem
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -24,14 +21,12 @@ public class DefensiveSystems
     public int StructureHPBonusAdd;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CargoCapacityAdd;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,14 +35,12 @@ public class DefensiveSystems
     public int JumpHarmonicsModifier;
     /**
      * Amount of maximum shield HP on the item.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ShieldCapacity;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,14 +49,12 @@ public class DefensiveSystems
     public int ArmorHPBonusAdd;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CloakingCpuNeedBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -72,7 +63,6 @@ public class DefensiveSystems
     public int CovertOpsAndReconOpsCloakModuleDelay;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -80,30 +70,26 @@ public class DefensiveSystems
     public int CovertCloakCPUPenalty;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusAmarrDefensive;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusGallenteDefensive;
     /**
      * Capacitor capacity
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorCapacity;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -112,15 +98,13 @@ public class DefensiveSystems
     public int SubsystemBonusAmarrDefensive2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusCaldariDefensive;
     /**
      * Signature Radius is used for turret tracking and scanning.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -128,14 +112,12 @@ public class DefensiveSystems
     public int SignatureRadius;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusMinmatarDefensive;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -144,14 +126,12 @@ public class DefensiveSystems
     public int SubsystemBonusCaldariDefensive2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int SubsystemBonusGallenteDefensive2;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -160,30 +140,26 @@ public class DefensiveSystems
     public int SubsystemBonusMinmatarDefensive2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusAmarrDefensive3;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusCaldariDefensive3;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusGallenteDefensive3;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -192,11 +168,10 @@ public class DefensiveSystems
     public int VirusStrengthBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusMinmatarDefensive3;
     public final static String RESOURCE_PATH = "SDE/items/subsystem/DefensiveSystems.yaml";
     private static LinkedHashMap<String, DefensiveSystems> cache = (null);
@@ -212,10 +187,10 @@ public class DefensiveSystems
     }
 
     public static LinkedHashMap<String, DefensiveSystems> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DefensiveSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -223,9 +198,6 @@ public class DefensiveSystems
     }
 
     private static class Container {
-
         public LinkedHashMap<String, DefensiveSystems> items;
-
     }
-
 }

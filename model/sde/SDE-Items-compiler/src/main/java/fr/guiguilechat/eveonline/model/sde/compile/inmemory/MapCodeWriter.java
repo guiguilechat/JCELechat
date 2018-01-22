@@ -3,12 +3,13 @@ package fr.guiguilechat.eveonline.model.sde.compile.inmemory;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.nio.charset.Charset;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.sun.codemodel.CodeWriter;
-import com.sun.codemodel.JPackage;
+import com.helger.jcodemodel.AbstractCodeWriter;
+import com.helger.jcodemodel.JPackage;
 
 /**
  * received code and store it in maps of binary data.
@@ -19,7 +20,11 @@ import com.sun.codemodel.JPackage;
  * </p>
  *
  */
-public class MapCodeWriter extends CodeWriter {
+public class MapCodeWriter extends AbstractCodeWriter {
+
+	protected MapCodeWriter() {
+		super(Charset.defaultCharset(), System.lineSeparator());
+	}
 
 	private HashMap<String, ByteArrayOutputStream> binaries = new HashMap<>();
 

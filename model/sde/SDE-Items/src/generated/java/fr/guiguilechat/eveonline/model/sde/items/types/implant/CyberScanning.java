@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
@@ -12,17 +11,14 @@ import org.yaml.snakeyaml.Yaml;
 public class CyberScanning
     extends Implant
 {
-
     /**
      * Bonus to duration.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int DurationBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -31,7 +27,6 @@ public class CyberScanning
     public int MaxScanDeviationModifier;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -39,14 +34,12 @@ public class CyberScanning
     public int TechLevel;
     /**
      * Bonus to chance of opening a container.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int AccessDifficultyBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -55,7 +48,6 @@ public class CyberScanning
     public int AccessDifficultyBonusModifier;
     /**
      * Whether an item is an implant or not
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -63,7 +55,6 @@ public class CyberScanning
     public int Implantness;
     /**
      * Adds to the virus coherence of profession modules
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -71,14 +62,12 @@ public class CyberScanning
     public int VirusCoherenceBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ScanStrengthBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -99,10 +88,10 @@ public class CyberScanning
     }
 
     public static LinkedHashMap<String, CyberScanning> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberScanning.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -110,9 +99,6 @@ public class CyberScanning
     }
 
     private static class Container {
-
         public LinkedHashMap<String, CyberScanning> items;
-
     }
-
 }

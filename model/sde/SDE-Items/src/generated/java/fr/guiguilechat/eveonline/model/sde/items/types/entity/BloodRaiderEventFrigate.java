@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.entity;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class BloodRaiderEventFrigate
     extends Entity
 {
-
     public final static String RESOURCE_PATH = "SDE/items/entity/BloodRaiderEventFrigate.yaml";
     private static LinkedHashMap<String, BloodRaiderEventFrigate> cache = (null);
 
@@ -24,10 +22,10 @@ public class BloodRaiderEventFrigate
     }
 
     public static LinkedHashMap<String, BloodRaiderEventFrigate> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BloodRaiderEventFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class BloodRaiderEventFrigate
     }
 
     private static class Container {
-
         public LinkedHashMap<String, BloodRaiderEventFrigate> items;
-
     }
-
 }

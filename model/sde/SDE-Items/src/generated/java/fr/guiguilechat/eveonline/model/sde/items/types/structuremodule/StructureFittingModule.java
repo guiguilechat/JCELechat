@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -13,17 +12,14 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureFittingModule
     extends StructureModule
 {
-
     /**
      * Multipier to power core output.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double PowerOutputMultiplier;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -32,14 +28,12 @@ public class StructureFittingModule
     public int CanFitShipGroup01;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -48,7 +42,6 @@ public class StructureFittingModule
     public int CanFitShipGroup02;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,7 +49,6 @@ public class StructureFittingModule
     public int CanFitShipGroup03;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,15 +56,13 @@ public class StructureFittingModule
     public int Hp;
     /**
      * Factor to adjust module cpu need by.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double CpuMultiplier;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -80,7 +70,6 @@ public class StructureFittingModule
     public int StructureItemVisualFlag;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -100,10 +89,10 @@ public class StructureFittingModule
     }
 
     public static LinkedHashMap<String, StructureFittingModule> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureFittingModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -111,9 +100,6 @@ public class StructureFittingModule
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureFittingModule> items;
-
     }
-
 }

@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureEngineeringRigLAdvancedComponentEfficiency
     extends StructureModule
 {
-
     /**
      * How much of the upgrade capacity is used when this is fitted to a ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,7 +21,6 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     public int UpgradeCost;
     /**
      * Bonus on Time decrease for engineering rigs
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -32,15 +28,13 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     public int AttributeEngRigTimeBonus;
     /**
      * Bonus on Material decrease for engineering rigs
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double AttributeEngRigMatBonus;
     /**
      * Bonus on Cost decrease for engineering rigs
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -48,14 +42,12 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     public int AttributeEngRigCostBonus;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -64,14 +56,12 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     public int MaxGroupFitted;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -80,7 +70,6 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     public int RigSize;
     /**
      * High-sec bonus on structure rigs.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,14 +77,12 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     public int StructureRigBonus1;
     /**
      * High-sec bonus on structure rigs.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double StructureRigBonus2;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -104,7 +91,6 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     public int CanFitShipGroup01;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,22 +98,19 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     public int CanFitShipGroup02;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HiSecModifier;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double LowSecModifier;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -136,7 +119,6 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     public int CanFitShipGroup03;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -144,22 +126,19 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     public int RequiredSkill1Level;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double NullSecModifier;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -168,7 +147,6 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     public int SecurityModifier;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -176,15 +154,13 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     public int MetaGroupID;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double AttributeThukkerEngRigMatBonus;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -204,10 +180,10 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     }
 
     public static LinkedHashMap<String, StructureEngineeringRigLAdvancedComponentEfficiency> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigLAdvancedComponentEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -215,9 +191,6 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureEngineeringRigLAdvancedComponentEfficiency> items;
-
     }
-
 }

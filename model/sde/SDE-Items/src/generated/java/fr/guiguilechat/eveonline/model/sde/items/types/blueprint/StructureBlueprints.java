@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureBlueprints
     extends Blueprint
 {
-
     public final static String RESOURCE_PATH = "SDE/items/blueprint/StructureBlueprints.yaml";
     private static LinkedHashMap<String, StructureBlueprints> cache = (null);
 
@@ -24,10 +22,10 @@ public class StructureBlueprints
     }
 
     public static LinkedHashMap<String, StructureBlueprints> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class StructureBlueprints
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureBlueprints> items;
-
     }
-
 }

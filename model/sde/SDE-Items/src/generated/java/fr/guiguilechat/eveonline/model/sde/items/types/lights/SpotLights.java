@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.lights;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class SpotLights
     extends Lights
 {
-
     public final static String RESOURCE_PATH = "SDE/items/lights/SpotLights.yaml";
     private static LinkedHashMap<String, SpotLights> cache = (null);
 
@@ -24,10 +22,10 @@ public class SpotLights
     }
 
     public static LinkedHashMap<String, SpotLights> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SpotLights.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class SpotLights
     }
 
     private static class Container {
-
         public LinkedHashMap<String, SpotLights> items;
-
     }
-
 }

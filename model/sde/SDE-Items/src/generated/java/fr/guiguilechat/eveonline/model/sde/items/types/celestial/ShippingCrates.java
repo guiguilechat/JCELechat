@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class ShippingCrates
     extends Celestial
 {
-
     /**
      * The cargo group that can be loaded into this container
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,7 +21,6 @@ public class ShippingCrates
     public int CargoGroup;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,11 +28,10 @@ public class ShippingCrates
     public int Hp;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     public final static String RESOURCE_PATH = "SDE/items/celestial/ShippingCrates.yaml";
     private static LinkedHashMap<String, ShippingCrates> cache = (null);
@@ -52,10 +47,10 @@ public class ShippingCrates
     }
 
     public static LinkedHashMap<String, ShippingCrates> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShippingCrates.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -63,9 +58,6 @@ public class ShippingCrates
     }
 
     private static class Container {
-
         public LinkedHashMap<String, ShippingCrates> items;
-
     }
-
 }

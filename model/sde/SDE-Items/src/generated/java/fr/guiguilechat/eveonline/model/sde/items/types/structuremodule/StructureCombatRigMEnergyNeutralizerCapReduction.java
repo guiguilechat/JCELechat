@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureCombatRigMEnergyNeutralizerCapReduction
     extends StructureModule
 {
-
     /**
      * How much of the upgrade capacity is used when this is fitted to a ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,14 +21,12 @@ public class StructureCombatRigMEnergyNeutralizerCapReduction
     public int UpgradeCost;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,14 +35,12 @@ public class StructureCombatRigMEnergyNeutralizerCapReduction
     public int MaxGroupFitted;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,14 +49,12 @@ public class StructureCombatRigMEnergyNeutralizerCapReduction
     public int StructureRigEwarCapUseBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RigSize;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -72,7 +63,6 @@ public class StructureCombatRigMEnergyNeutralizerCapReduction
     public int CanFitShipGroup01;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -80,14 +70,12 @@ public class StructureCombatRigMEnergyNeutralizerCapReduction
     public int CanFitShipGroup02;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HiSecModifier;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -96,15 +84,13 @@ public class StructureCombatRigMEnergyNeutralizerCapReduction
     public int CanFitShipGroup03;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double LowSecModifier;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,14 +98,12 @@ public class StructureCombatRigMEnergyNeutralizerCapReduction
     public int RequiredSkill1Level;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double NullSecModifier;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -128,7 +112,6 @@ public class StructureCombatRigMEnergyNeutralizerCapReduction
     public int SecurityModifier;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -136,7 +119,6 @@ public class StructureCombatRigMEnergyNeutralizerCapReduction
     public int RequiredSkill1;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -156,10 +138,10 @@ public class StructureCombatRigMEnergyNeutralizerCapReduction
     }
 
     public static LinkedHashMap<String, StructureCombatRigMEnergyNeutralizerCapReduction> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigMEnergyNeutralizerCapReduction.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -167,9 +149,6 @@ public class StructureCombatRigMEnergyNeutralizerCapReduction
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureCombatRigMEnergyNeutralizerCapReduction> items;
-
     }
-
 }

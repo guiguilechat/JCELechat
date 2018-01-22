@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
@@ -12,9 +11,7 @@ import org.yaml.snakeyaml.Yaml;
 public class CyberLeadership
     extends Implant
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -23,7 +20,6 @@ public class CyberLeadership
     public int MindlinkBonus;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -31,7 +27,6 @@ public class CyberLeadership
     public int RequiredSkill2Level;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -39,7 +34,6 @@ public class CyberLeadership
     public int TechLevel;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -47,7 +41,6 @@ public class CyberLeadership
     public int RequiredSkill2;
     /**
      * Required skill level for skill 3
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -55,7 +48,6 @@ public class CyberLeadership
     public int RequiredSkill3Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -63,7 +55,6 @@ public class CyberLeadership
     public int RequiredSkill3;
     /**
      * Whether an item is an implant or not
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -71,7 +62,6 @@ public class CyberLeadership
     public int Implantness;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -91,10 +81,10 @@ public class CyberLeadership
     }
 
     public static LinkedHashMap<String, CyberLeadership> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberLeadership.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -102,9 +92,6 @@ public class CyberLeadership
     }
 
     private static class Container {
-
         public LinkedHashMap<String, CyberLeadership> items;
-
     }
-
 }

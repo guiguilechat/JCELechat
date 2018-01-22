@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.accessories;
 
 import java.io.InputStreamReader;
@@ -13,26 +12,22 @@ import org.yaml.snakeyaml.Yaml;
 public class Voucher
     extends Accessories
 {
-
     /**
      * Maximum velocity of ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double MaxVelocity;
     /**
      * The agility of the object.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Agility;
     /**
      * One of the groups of launcher this charge can be loaded into.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class Voucher
     public int LauncherGroup;
     /**
      * the range in meters for an object to trigger detonation of missile. (own ship excluded)
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,30 +42,26 @@ public class Voucher
     public int DetonationRange;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
      * Velocity of the damage cloud created on impact.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double AoeVelocity;
     /**
      * Size of the damage cloud caused by impact.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int AoeCloudSize;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -80,39 +70,34 @@ public class Voucher
     public int AoeFalloff;
     /**
      * Multiplier to the capacitors recharge rate.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double CapacitorRechargeRateMultiplier;
     /**
      * EM damage done.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double EmDamage;
     /**
      * Explosive damage done.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ExplosiveDamage;
     /**
      * Kinetic damage done.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double KineticDamage;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,15 +105,13 @@ public class Voucher
     public int RequiredSkill1Level;
     /**
      * Thermal damage done.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ThermalDamage;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -136,7 +119,6 @@ public class Voucher
     public int RequiredSkill1;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -144,7 +126,6 @@ public class Voucher
     public int RequiredSkill2Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -152,7 +133,6 @@ public class Voucher
     public int RequiredSkill2;
     /**
      * The amount of milliseconds before the object explodes.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -172,10 +152,10 @@ public class Voucher
     }
 
     public static LinkedHashMap<String, Voucher> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Voucher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -183,9 +163,6 @@ public class Voucher
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Voucher> items;
-
     }
-
 }

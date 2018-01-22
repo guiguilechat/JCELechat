@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.ancientrelics;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class SleeperPropulsionRelics
     extends AncientRelics
 {
-
     public final static String RESOURCE_PATH = "SDE/items/ancientrelics/SleeperPropulsionRelics.yaml";
     private static LinkedHashMap<String, SleeperPropulsionRelics> cache = (null);
 
@@ -24,10 +22,10 @@ public class SleeperPropulsionRelics
     }
 
     public static LinkedHashMap<String, SleeperPropulsionRelics> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SleeperPropulsionRelics.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class SleeperPropulsionRelics
     }
 
     private static class Container {
-
         public LinkedHashMap<String, SleeperPropulsionRelics> items;
-
     }
-
 }

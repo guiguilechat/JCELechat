@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import fr.guiguilechat.eveonline.model.sde.items.types.Charge;
@@ -6,7 +5,6 @@ import fr.guiguilechat.eveonline.model.sde.items.types.Charge;
 public class Fuel
     extends Charge
 {
-
 
     @Override
     public int getGroupId() {
@@ -17,5 +15,4 @@ public class Fuel
     public Class<?> getGroup() {
         return Fuel.class;
     }
-
 }

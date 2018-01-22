@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.material;
 
 import java.io.InputStreamReader;
@@ -12,9 +11,7 @@ import org.yaml.snakeyaml.Yaml;
 public class WormholeMinerals
     extends Material
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -23,7 +20,6 @@ public class WormholeMinerals
     public int MoonMiningAmount;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -43,10 +39,10 @@ public class WormholeMinerals
     }
 
     public static LinkedHashMap<String, WormholeMinerals> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WormholeMinerals.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -54,9 +50,6 @@ public class WormholeMinerals
     }
 
     private static class Container {
-
         public LinkedHashMap<String, WormholeMinerals> items;
-
     }
-
 }

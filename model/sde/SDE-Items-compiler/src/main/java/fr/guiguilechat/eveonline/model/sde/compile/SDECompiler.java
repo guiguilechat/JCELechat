@@ -16,20 +16,21 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.sun.codemodel.JBlock;
-import com.sun.codemodel.JClassAlreadyExistsException;
-import com.sun.codemodel.JCodeModel;
-import com.sun.codemodel.JConditional;
-import com.sun.codemodel.JDefinedClass;
-import com.sun.codemodel.JExpr;
-import com.sun.codemodel.JFieldVar;
-import com.sun.codemodel.JForEach;
-import com.sun.codemodel.JMethod;
-import com.sun.codemodel.JMod;
-import com.sun.codemodel.JOp;
-import com.sun.codemodel.JPackage;
-import com.sun.codemodel.JTryBlock;
-import com.sun.codemodel.JVar;
+import com.helger.jcodemodel.AbstractJClass;
+import com.helger.jcodemodel.JBlock;
+import com.helger.jcodemodel.JClassAlreadyExistsException;
+import com.helger.jcodemodel.JCodeModel;
+import com.helger.jcodemodel.JConditional;
+import com.helger.jcodemodel.JDefinedClass;
+import com.helger.jcodemodel.JExpr;
+import com.helger.jcodemodel.JFieldVar;
+import com.helger.jcodemodel.JForEach;
+import com.helger.jcodemodel.JMethod;
+import com.helger.jcodemodel.JMod;
+import com.helger.jcodemodel.JOp;
+import com.helger.jcodemodel.JPackage;
+import com.helger.jcodemodel.JTryBlock;
+import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmAttributeTypes;
@@ -118,6 +119,7 @@ public class SDECompiler {
 		public JCodeModel model = new JCodeModel();
 		public HashMap<Integer, String> groupID2ClassName = new HashMap<>();
 		public HashMap<Integer, String> attID2FieldName = new HashMap<>();
+		public JDefinedClass metaInfClass;
 	}
 
 	public CompiledClassesData compile() {
@@ -138,8 +140,9 @@ public class SDECompiler {
 			int groupID = type.groupID;
 			if (attribute.valueFloat != 0 && Math.round(attribute.valueFloat) != attribute.valueFloat) {
 				if (attributesWithFloatValue.add(attribute.attributeID)) {
-					System.err.println("attribute " + attTypes.get(attId).attributeName + " has float value "
-							+ attribute.valueFloat + " for item " + type.enName());
+					// System.err.println("attribute " + attTypes.get(attId).attributeName
+					// + " has float value "
+					// + attribute.valueFloat + " for item " + type.enName());
 				}
 			}
 			if (attribute.valueInt != 0) {
@@ -273,6 +276,21 @@ public class SDECompiler {
 			ret.attID2FieldName.put(e.getKey(), formatName(e.getValue().attributeName));
 		}
 
+		// create the metainf class
+
+		try {
+			ret.metaInfClass = rootPackage()._class("MetaInf");
+			AbstractJClass str = cm.ref(String.class);
+			ret.metaInfClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(cm.ref(Integer.class), str), "id2name")
+			.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
+			ret.metaInfClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(str, str), "name2group")
+			.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
+			ret.metaInfClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(str, str), "group2class")
+			.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
+		} catch (JClassAlreadyExistsException e1) {
+			throw new UnsupportedOperationException("catch this", e1);
+		}
+
 		logger.info("compiled items in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 		return ret;
 	}
@@ -349,8 +367,7 @@ public class SDECompiler {
 		for (Integer attributeID : attributeIDs) {
 			EdgmAttributeTypes attr = attTypes.get(attributeID);
 			boolean isDouble = attributesWithFloatValue.contains(attr.attributeID);
-			JFieldVar f = cl.field(JMod.PUBLIC, isDouble ? cm.DOUBLE : cm.INT,
-					formatName(attr.attributeName));
+			JFieldVar f = cl.field(JMod.PUBLIC, isDouble ? cm.DOUBLE : cm.INT, formatName(attr.attributeName));
 			f.annotate(getHighIsGoodAnnotation()).param("value", attr.highIsGood);
 			f.annotate(getStackableAnnotation()).param("value", attr.stackable);
 			if (isDouble) {

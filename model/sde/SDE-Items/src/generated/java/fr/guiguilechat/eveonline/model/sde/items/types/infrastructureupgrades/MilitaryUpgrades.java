@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.infrastructureupgrades;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class MilitaryUpgrades
     extends InfrastructureUpgrades
 {
-
     /**
      * Distribution ID for sov upgrades in Rogue Drone space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class MilitaryUpgrades
     public int DistributionIDRogueDrone04;
     /**
      * Distribution ID for sov upgrades in Rogue Drone space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -31,7 +27,6 @@ public class MilitaryUpgrades
     public int DistributionIDRogueDrone05;
     /**
      * Distribution ID for sov upgrades in Sansha space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -39,7 +34,6 @@ public class MilitaryUpgrades
     public int DistributionIDSansha01;
     /**
      * Distribution ID for sov upgrades in Sansha space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -47,7 +41,6 @@ public class MilitaryUpgrades
     public int DistributionIDSansha02;
     /**
      * Distribution ID for sov upgrades in Sansha space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -55,7 +48,6 @@ public class MilitaryUpgrades
     public int DistributionIDSansha03;
     /**
      * Distribution ID for sov upgrades in Sansha space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -63,7 +55,6 @@ public class MilitaryUpgrades
     public int DistributionIDSansha04;
     /**
      * Distribution ID for sov upgrades in Sansha space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -71,7 +62,6 @@ public class MilitaryUpgrades
     public int DistributionIDSansha05;
     /**
      * Distribution ID for sov upgrades in Serpentis space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -79,7 +69,6 @@ public class MilitaryUpgrades
     public int DistributionIDSerpentis01;
     /**
      * Distribution ID for sov upgrades in Serpentis space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -87,7 +76,6 @@ public class MilitaryUpgrades
     public int DistributionIDSerpentis02;
     /**
      * Distribution ID for sov upgrades in Serpentis space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -95,7 +83,6 @@ public class MilitaryUpgrades
     public int DistributionIDSerpentis03;
     /**
      * Distribution ID for sov upgrades in Serpentis space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -103,7 +90,6 @@ public class MilitaryUpgrades
     public int DistributionIDSerpentis04;
     /**
      * Distribution ID for sov upgrades in Serpentis space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -111,7 +97,6 @@ public class MilitaryUpgrades
     public int DistributionIDSerpentis05;
     /**
      * Distribution ID for global sov upgrades
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -119,7 +104,6 @@ public class MilitaryUpgrades
     public int DistributionID01;
     /**
      * Distribution ID for sov upgrades in Angel space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -127,7 +111,6 @@ public class MilitaryUpgrades
     public int DistributionIDAngel01;
     /**
      * Distribution ID for sov upgrades in Angel space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -135,7 +118,6 @@ public class MilitaryUpgrades
     public int DistributionIDAngel02;
     /**
      * Distribution ID for sov upgrades in Angel space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -143,7 +125,6 @@ public class MilitaryUpgrades
     public int DistributionIDAngel03;
     /**
      * Distribution ID for sov upgrades in Angel space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -151,7 +132,6 @@ public class MilitaryUpgrades
     public int DistributionIDAngel04;
     /**
      * Distribution ID for sov upgrades in Angel space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -159,7 +139,6 @@ public class MilitaryUpgrades
     public int DistributionIDAngel05;
     /**
      * Distribution ID for sov upgrades in Blood Raider space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -167,7 +146,6 @@ public class MilitaryUpgrades
     public int DistributionIDBlood01;
     /**
      * Distribution ID for sov upgrades in Blood Raider space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -175,7 +153,6 @@ public class MilitaryUpgrades
     public int DistributionIDBlood02;
     /**
      * Distribution ID for sov upgrades in Blood Raider space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -183,7 +160,6 @@ public class MilitaryUpgrades
     public int DistributionIDBlood03;
     /**
      * Distribution ID for sov upgrades in Blood Raider space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -191,7 +167,6 @@ public class MilitaryUpgrades
     public int DistributionIDBlood04;
     /**
      * Distribution ID for sov upgrades in Blood Raider space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -199,7 +174,6 @@ public class MilitaryUpgrades
     public int DistributionIDBlood05;
     /**
      * The required minimum military development index level
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -207,7 +181,6 @@ public class MilitaryUpgrades
     public int DevIndexMilitary;
     /**
      * Distribution ID for sov upgrades in Guristas space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -215,7 +188,6 @@ public class MilitaryUpgrades
     public int DistributionIDGurista01;
     /**
      * Distribution ID for sov upgrades in Guristas space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -223,7 +195,6 @@ public class MilitaryUpgrades
     public int DistributionIDGurista02;
     /**
      * Distribution ID for sov upgrades in Guristas space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -231,7 +202,6 @@ public class MilitaryUpgrades
     public int DistributionIDGurista03;
     /**
      * Distribution ID for sov upgrades in Guristas space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -239,7 +209,6 @@ public class MilitaryUpgrades
     public int DistributionIDGurista04;
     /**
      * Distribution ID for sov upgrades in Guristas space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -247,7 +216,6 @@ public class MilitaryUpgrades
     public int DistributionIDGurista05;
     /**
      * Distribution ID for sov upgrades in Rogue Drone space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -255,7 +223,6 @@ public class MilitaryUpgrades
     public int DistributionIDRogueDrone01;
     /**
      * Distribution ID for sov upgrades in Rogue Drone space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -263,7 +230,6 @@ public class MilitaryUpgrades
     public int DistributionIDRogueDrone02;
     /**
      * The typeID of the upgrade that is required for this upgrade to be installed. 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -271,7 +237,6 @@ public class MilitaryUpgrades
     public int SovUpgradeRequiredUpgradeID;
     /**
      * Distribution ID for sov upgrades in Rogue Drone space
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -291,10 +256,10 @@ public class MilitaryUpgrades
     }
 
     public static LinkedHashMap<String, MilitaryUpgrades> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MilitaryUpgrades.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -302,9 +267,6 @@ public class MilitaryUpgrades
     }
 
     private static class Container {
-
         public LinkedHashMap<String, MilitaryUpgrades> items;
-
     }
-
 }

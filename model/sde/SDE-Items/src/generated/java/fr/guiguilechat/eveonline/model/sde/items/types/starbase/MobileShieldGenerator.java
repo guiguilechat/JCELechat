@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
@@ -13,26 +12,22 @@ import org.yaml.snakeyaml.Yaml;
 public class MobileShieldGenerator
     extends Starbase
 {
-
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * The hull damage proportion at which an entity becomes incapacitated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double IncapacitationRatio;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -52,10 +47,10 @@ public class MobileShieldGenerator
     }
 
     public static LinkedHashMap<String, MobileShieldGenerator> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileShieldGenerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -63,9 +58,6 @@ public class MobileShieldGenerator
     }
 
     private static class Container {
-
         public LinkedHashMap<String, MobileShieldGenerator> items;
-
     }
-
 }

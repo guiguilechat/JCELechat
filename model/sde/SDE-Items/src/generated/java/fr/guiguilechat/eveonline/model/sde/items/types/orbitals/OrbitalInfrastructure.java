@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.orbitals;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class OrbitalInfrastructure
     extends Orbitals
 {
-
     /**
      * Signature Radius is used for turret tracking and scanning.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -24,7 +21,6 @@ public class OrbitalInfrastructure
     public int SignatureRadius;
     /**
      * Capacity of material bay
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,7 +28,6 @@ public class OrbitalInfrastructure
     public int SpecialMaterialBayCapacity;
     /**
      * The number of seconds that the structure will be in reinforcement time
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class OrbitalInfrastructure
     public int ReinforcementDuration;
     /**
      * The number of seconds that the reinforcement exit time will be adjusted by. exitTime +- attribute
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,14 +42,12 @@ public class OrbitalInfrastructure
     public int ReinforcementVariance;
     /**
      * If set on a charge or module type, will prevent it from being activated in empire space.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int DisallowInEmpireSpace;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -64,11 +56,10 @@ public class OrbitalInfrastructure
     public int EntityFactionLoss;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.1D)
+    @DefaultDoubleValue(0.1)
     public double NpcCustomsOfficeTaxRate;
     public final static String RESOURCE_PATH = "SDE/items/orbitals/OrbitalInfrastructure.yaml";
     private static LinkedHashMap<String, OrbitalInfrastructure> cache = (null);
@@ -84,10 +75,10 @@ public class OrbitalInfrastructure
     }
 
     public static LinkedHashMap<String, OrbitalInfrastructure> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OrbitalInfrastructure.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -95,9 +86,6 @@ public class OrbitalInfrastructure
     }
 
     private static class Container {
-
         public LinkedHashMap<String, OrbitalInfrastructure> items;
-
     }
-
 }

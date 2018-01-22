@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.entity;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class SleeperEventFrigate
     extends Entity
 {
-
     public final static String RESOURCE_PATH = "SDE/items/entity/SleeperEventFrigate.yaml";
     private static LinkedHashMap<String, SleeperEventFrigate> cache = (null);
 
@@ -24,10 +22,10 @@ public class SleeperEventFrigate
     }
 
     public static LinkedHashMap<String, SleeperEventFrigate> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SleeperEventFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class SleeperEventFrigate
     }
 
     private static class Container {
-
         public LinkedHashMap<String, SleeperEventFrigate> items;
-
     }
-
 }

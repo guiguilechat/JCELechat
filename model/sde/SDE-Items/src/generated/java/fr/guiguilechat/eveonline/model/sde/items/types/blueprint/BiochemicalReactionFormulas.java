@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class BiochemicalReactionFormulas
     extends Blueprint
 {
-
     public final static String RESOURCE_PATH = "SDE/items/blueprint/BiochemicalReactionFormulas.yaml";
     private static LinkedHashMap<String, BiochemicalReactionFormulas> cache = (null);
 
@@ -24,10 +22,10 @@ public class BiochemicalReactionFormulas
     }
 
     public static LinkedHashMap<String, BiochemicalReactionFormulas> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BiochemicalReactionFormulas.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class BiochemicalReactionFormulas
     }
 
     private static class Container {
-
         public LinkedHashMap<String, BiochemicalReactionFormulas> items;
-
     }
-
 }

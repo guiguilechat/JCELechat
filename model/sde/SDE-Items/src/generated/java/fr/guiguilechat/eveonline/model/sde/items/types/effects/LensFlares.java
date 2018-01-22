@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.effects;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class LensFlares
     extends Effects
 {
-
     public final static String RESOURCE_PATH = "SDE/items/effects/LensFlares.yaml";
     private static LinkedHashMap<String, LensFlares> cache = (null);
 
@@ -24,10 +22,10 @@ public class LensFlares
     }
 
     public static LinkedHashMap<String, LensFlares> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(LensFlares.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class LensFlares
     }
 
     private static class Container {
-
         public LinkedHashMap<String, LensFlares> items;
-
     }
-
 }

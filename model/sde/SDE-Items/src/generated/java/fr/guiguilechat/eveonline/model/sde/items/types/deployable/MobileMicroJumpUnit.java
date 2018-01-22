@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
@@ -13,33 +12,28 @@ import org.yaml.snakeyaml.Yaml;
 public class MobileMicroJumpUnit
     extends Deployable
 {
-
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -48,63 +42,55 @@ public class MobileMicroJumpUnit
     public int SignatureRadiusBonusPercent;
     /**
      * Multiplies EM damage taken by shield
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldEmDamageResonance;
     /**
      * Radar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanRadarStrength;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldExplosiveDamageResonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldKineticDamageResonance;
     /**
      * Magnetometric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
      * Multiplies THERMAL damage taken by Shield. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
     /**
      * Gravimetric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanGravimetricStrength;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,7 +98,6 @@ public class MobileMicroJumpUnit
     public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,7 +105,6 @@ public class MobileMicroJumpUnit
     public int RequiredSkill1;
     /**
      * The ranking of the module within its tech level
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -140,10 +124,10 @@ public class MobileMicroJumpUnit
     }
 
     public static LinkedHashMap<String, MobileMicroJumpUnit> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileMicroJumpUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -151,9 +135,6 @@ public class MobileMicroJumpUnit
     }
 
     private static class Container {
-
         public LinkedHashMap<String, MobileMicroJumpUnit> items;
-
     }
-
 }

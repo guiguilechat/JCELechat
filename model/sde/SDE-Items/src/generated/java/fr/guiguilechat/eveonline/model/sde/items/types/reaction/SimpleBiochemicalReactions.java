@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.reaction;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class SimpleBiochemicalReactions
     extends Reaction
 {
-
     public final static String RESOURCE_PATH = "SDE/items/reaction/SimpleBiochemicalReactions.yaml";
     private static LinkedHashMap<String, SimpleBiochemicalReactions> cache = (null);
 
@@ -24,10 +22,10 @@ public class SimpleBiochemicalReactions
     }
 
     public static LinkedHashMap<String, SimpleBiochemicalReactions> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SimpleBiochemicalReactions.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class SimpleBiochemicalReactions
     }
 
     private static class Container {
-
         public LinkedHashMap<String, SimpleBiochemicalReactions> items;
-
     }
-
 }

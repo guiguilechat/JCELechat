@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.entity;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class HiddenZenithCaldariFrigate
     extends Entity
 {
-
     public final static String RESOURCE_PATH = "SDE/items/entity/HiddenZenithCaldariFrigate.yaml";
     private static LinkedHashMap<String, HiddenZenithCaldariFrigate> cache = (null);
 
@@ -24,10 +22,10 @@ public class HiddenZenithCaldariFrigate
     }
 
     public static LinkedHashMap<String, HiddenZenithCaldariFrigate> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HiddenZenithCaldariFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class HiddenZenithCaldariFrigate
     }
 
     private static class Container {
-
         public LinkedHashMap<String, HiddenZenithCaldariFrigate> items;
-
     }
-
 }

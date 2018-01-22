@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
@@ -13,17 +12,14 @@ import org.yaml.snakeyaml.Yaml;
 public class Interdictor
     extends Ship
 {
-
     /**
      * How many upgrades can by fitted to this ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -32,7 +28,6 @@ public class Interdictor
     public int RigSize;
     /**
      * The number of low power slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class Interdictor
     public int LowSlots;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,14 +42,12 @@ public class Interdictor
     public int MedSlots;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int HiSlots;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -64,7 +56,6 @@ public class Interdictor
     public int FwLpKill;
     /**
      * Deprecated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -72,7 +63,6 @@ public class Interdictor
     public int MaxDirectionalVelocity;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -80,7 +70,6 @@ public class Interdictor
     public int RequiredSkill1Level;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,15 +77,13 @@ public class Interdictor
     public int RequiredSkill2Level;
     /**
      * Deprecated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double MinTargetVelDmgMultiplier;
     /**
      * The resolution that the vessel can target other objects at.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -104,7 +91,6 @@ public class Interdictor
     public int ScanResolution;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,7 +98,6 @@ public class Interdictor
     public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,15 +105,13 @@ public class Interdictor
     public int RequiredSkill2;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullEmDamageResonance;
     /**
      * scanning speed in milliseconds
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -136,38 +119,33 @@ public class Interdictor
     public int ScanSpeed;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullExplosiveDamageResonance;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullKineticDamageResonance;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullThermalDamageResonance;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double DestroyerROFpenality;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -176,14 +154,12 @@ public class Interdictor
     public int ShipBonusMD1;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ShipBonusCD1;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -192,14 +168,12 @@ public class Interdictor
     public int ShipBonusAD1;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ShipBonusCD2;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -208,14 +182,12 @@ public class Interdictor
     public int ShipBonusAD2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ShipBonusGD1;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -224,7 +196,6 @@ public class Interdictor
     public int ShipBonusGD2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -232,7 +203,6 @@ public class Interdictor
     public int ShipBonusMD2;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -240,15 +210,13 @@ public class Interdictor
     public int TypeColorScheme;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationHi;
     /**
      * Attribute on ships used for ship upgrades
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -256,23 +224,20 @@ public class Interdictor
     public int UpgradeCapacity;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationMed;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationLow;
     /**
      * The number of rig slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -280,7 +245,6 @@ public class Interdictor
     public int RigSlots;
     /**
      * eliteBonusInterdictors1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -288,7 +252,6 @@ public class Interdictor
     public int EliteBonusInterdictors1;
     /**
      * eliteBonusInterdictors2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -296,7 +259,6 @@ public class Interdictor
     public int EliteBonusInterdictors2;
     /**
      * The main color of a ship type.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -316,10 +278,10 @@ public class Interdictor
     }
 
     public static LinkedHashMap<String, Interdictor> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Interdictor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -327,9 +289,6 @@ public class Interdictor
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Interdictor> items;
-
     }
-
 }

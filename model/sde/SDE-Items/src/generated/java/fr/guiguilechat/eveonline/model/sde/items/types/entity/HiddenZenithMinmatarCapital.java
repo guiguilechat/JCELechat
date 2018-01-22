@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.entity;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class HiddenZenithMinmatarCapital
     extends Entity
 {
-
     public final static String RESOURCE_PATH = "SDE/items/entity/HiddenZenithMinmatarCapital.yaml";
     private static LinkedHashMap<String, HiddenZenithMinmatarCapital> cache = (null);
 
@@ -24,10 +22,10 @@ public class HiddenZenithMinmatarCapital
     }
 
     public static LinkedHashMap<String, HiddenZenithMinmatarCapital> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HiddenZenithMinmatarCapital.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class HiddenZenithMinmatarCapital
     }
 
     private static class Container {
-
         public LinkedHashMap<String, HiddenZenithMinmatarCapital> items;
-
     }
-
 }
