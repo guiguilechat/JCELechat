@@ -50,6 +50,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     WarpScrambleDuration: 8000
+    name: 10mn webscramblifying Drone
   Warp Scrambling Drone:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -103,3 +104,4 @@ items:
     WarpScrambleDuration: 5000
     WarpScrambleRange: 10000
     WarpScrambleStrength: 10
+    name: Warp Scrambling Drone

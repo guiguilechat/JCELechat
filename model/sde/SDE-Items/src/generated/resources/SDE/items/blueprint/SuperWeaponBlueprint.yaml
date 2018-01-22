@@ -1,21 +1,37 @@
 items:
   '''Aurora Ominae'' Thermal Doomsday Blueprint':
     IndustryBlueprintRank: 240.0
+    name: '''Aurora Ominae'' Thermal Doomsday Blueprint'
   '''Gjallarhorn'' Explosive Doomsday Blueprint':
     IndustryBlueprintRank: 240.0
+    name: '''Gjallarhorn'' Explosive Doomsday Blueprint'
   '''Judgment'' Electromagnetic Doomsday Blueprint':
     IndustryBlueprintRank: 240.0
+    name: '''Judgment'' Electromagnetic Doomsday Blueprint'
   '''Oblivion'' Kinetic Doomsday Blueprint':
     IndustryBlueprintRank: 240.0
-  Bosonic Field Generator Blueprint: {}
-  Gravitational Transportation Field Oscillator Blueprint: {}
-  Pulse Activated Nexus Invulnerability Core Blueprint: {}
-  Superweapon_AOEECM Blueprint: {}
-  ‘Cold Wind’ Kinetic Reaper Blueprint: {}
-  ‘Divine Harvest’ Electromagnetic Reaper Blueprint: {}
-  ‘Geiravor’ Explosive Lance Blueprint: {}
-  ‘Guillotine’ Thermal Reaper Blueprint: {}
-  ‘Holy Destiny’ Electromagnetic Lance Blueprint: {}
-  ‘Iron Pike’ Kinetic Lance Blueprint: {}
-  ‘Jormungandr’ Explosive Reaper Blueprint: {}
-  ‘Phalarica’ Thermal Lance Blueprint: {}
+    name: '''Oblivion'' Kinetic Doomsday Blueprint'
+  Bosonic Field Generator Blueprint:
+    name: Bosonic Field Generator Blueprint
+  Gravitational Transportation Field Oscillator Blueprint:
+    name: Gravitational Transportation Field Oscillator Blueprint
+  Pulse Activated Nexus Invulnerability Core Blueprint:
+    name: Pulse Activated Nexus Invulnerability Core Blueprint
+  Superweapon_AOEECM Blueprint:
+    name: Superweapon_AOEECM Blueprint
+  ‘Cold Wind’ Kinetic Reaper Blueprint:
+    name: ‘Cold Wind’ Kinetic Reaper Blueprint
+  ‘Divine Harvest’ Electromagnetic Reaper Blueprint:
+    name: ‘Divine Harvest’ Electromagnetic Reaper Blueprint
+  ‘Geiravor’ Explosive Lance Blueprint:
+    name: ‘Geiravor’ Explosive Lance Blueprint
+  ‘Guillotine’ Thermal Reaper Blueprint:
+    name: ‘Guillotine’ Thermal Reaper Blueprint
+  ‘Holy Destiny’ Electromagnetic Lance Blueprint:
+    name: ‘Holy Destiny’ Electromagnetic Lance Blueprint
+  ‘Iron Pike’ Kinetic Lance Blueprint:
+    name: ‘Iron Pike’ Kinetic Lance Blueprint
+  ‘Jormungandr’ Explosive Reaper Blueprint:
+    name: ‘Jormungandr’ Explosive Reaper Blueprint
+  ‘Phalarica’ Thermal Lance Blueprint:
+    name: ‘Phalarica’ Thermal Lance Blueprint

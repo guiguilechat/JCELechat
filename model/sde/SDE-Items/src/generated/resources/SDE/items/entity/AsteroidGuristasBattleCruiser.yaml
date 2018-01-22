@@ -1,7 +1,13 @@
 items:
-  Guristas Assassin: {}
-  Guristas Assaulter: {}
-  Guristas Death Dealer: {}
-  Guristas Enforcer: {}
-  Guristas Executor: {}
-  Guristas Revolter: {}
+  Guristas Assassin:
+    name: Guristas Assassin
+  Guristas Assaulter:
+    name: Guristas Assaulter
+  Guristas Death Dealer:
+    name: Guristas Death Dealer
+  Guristas Enforcer:
+    name: Guristas Enforcer
+  Guristas Executor:
+    name: Guristas Executor
+  Guristas Revolter:
+    name: Guristas Revolter

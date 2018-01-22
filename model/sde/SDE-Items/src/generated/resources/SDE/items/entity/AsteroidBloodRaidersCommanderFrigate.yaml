@@ -1,17 +1,33 @@
 items:
-  Dark Blood Collector: {}
-  Dark Blood Diviner: {}
-  Dark Blood Engraver: {}
-  Dark Blood Follower: {}
-  Dark Blood Herald: {}
-  Dark Blood Raider: {}
-  Dark Blood Reaver: {}
-  Dark Blood Seeker: {}
-  Dark Blood Upholder: {}
-  Dark Blood Worshipper: {}
-  Sellsword Collector: {}
-  Sellsword Diviner: {}
-  Sellsword Engraver: {}
-  Sellsword Raider: {}
-  Sellsword Reaver: {}
-  Sellsword Seeker: {}
+  Dark Blood Collector:
+    name: Dark Blood Collector
+  Dark Blood Diviner:
+    name: Dark Blood Diviner
+  Dark Blood Engraver:
+    name: Dark Blood Engraver
+  Dark Blood Follower:
+    name: Dark Blood Follower
+  Dark Blood Herald:
+    name: Dark Blood Herald
+  Dark Blood Raider:
+    name: Dark Blood Raider
+  Dark Blood Reaver:
+    name: Dark Blood Reaver
+  Dark Blood Seeker:
+    name: Dark Blood Seeker
+  Dark Blood Upholder:
+    name: Dark Blood Upholder
+  Dark Blood Worshipper:
+    name: Dark Blood Worshipper
+  Sellsword Collector:
+    name: Sellsword Collector
+  Sellsword Diviner:
+    name: Sellsword Diviner
+  Sellsword Engraver:
+    name: Sellsword Engraver
+  Sellsword Raider:
+    name: Sellsword Raider
+  Sellsword Reaver:
+    name: Sellsword Reaver
+  Sellsword Seeker:
+    name: Sellsword Seeker

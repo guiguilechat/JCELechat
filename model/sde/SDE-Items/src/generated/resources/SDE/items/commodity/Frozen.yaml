@@ -1,10 +1,19 @@
 items:
-  Dairy Products: {}
-  Frozen Food: {}
-  Frozen Plant Seeds: {}
-  Ghalen Dumplings: {}
-  Ghalen Pastries: {}
-  Long-limb Roes: {}
-  Milk: {}
-  Protein Delicacies: {}
-  Starcakes: {}
+  Dairy Products:
+    name: Dairy Products
+  Frozen Food:
+    name: Frozen Food
+  Frozen Plant Seeds:
+    name: Frozen Plant Seeds
+  Ghalen Dumplings:
+    name: Ghalen Dumplings
+  Ghalen Pastries:
+    name: Ghalen Pastries
+  Long-limb Roes:
+    name: Long-limb Roes
+  Milk:
+    name: Milk
+  Protein Delicacies:
+    name: Protein Delicacies
+  Starcakes:
+    name: Starcakes

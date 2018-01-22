@@ -1,3 +1,5 @@
 items:
-  Amarr Navy Apocalypse: {}
-  Amarr Navy Armageddon: {}
+  Amarr Navy Apocalypse:
+    name: Amarr Navy Apocalypse
+  Amarr Navy Armageddon:
+    name: Amarr Navy Armageddon

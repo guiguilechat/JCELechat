@@ -16,6 +16,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    name: Standup M-Set Basic Medium Ship Manufacturing Time Efficiency I
   Standup M-Set Basic Medium Ship Manufacturing Time Efficiency II:
     AttributeEngRigTimeBonus: -24
     CanFitShipGroup01: 1657
@@ -35,3 +36,4 @@ items:
     StructureRigBonus2: 4.0
     TechLevel: 2
     UpgradeCost: 150
+    name: Standup M-Set Basic Medium Ship Manufacturing Time Efficiency II

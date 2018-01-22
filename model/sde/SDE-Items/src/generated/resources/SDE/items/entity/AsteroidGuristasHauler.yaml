@@ -1,18 +1,35 @@
 items:
-  Bandit Courier: {}
-  Bandit Ferrier: {}
-  Bandit Gatherer: {}
-  Bandit Harvester: {}
-  Bandit Loader: {}
-  Guristas Bulker: {}
-  Guristas Carrier: {}
-  Guristas Convoy: {}
-  Guristas Courier: {}
-  Guristas Ferrier: {}
-  Guristas Gatherer: {}
-  Guristas Harvester: {}
-  Guristas Hauler: {}
-  Guristas Loader: {}
-  Guristas Trailer: {}
-  Guristas Transporter: {}
-  Guristas Trucker: {}
+  Bandit Courier:
+    name: Bandit Courier
+  Bandit Ferrier:
+    name: Bandit Ferrier
+  Bandit Gatherer:
+    name: Bandit Gatherer
+  Bandit Harvester:
+    name: Bandit Harvester
+  Bandit Loader:
+    name: Bandit Loader
+  Guristas Bulker:
+    name: Guristas Bulker
+  Guristas Carrier:
+    name: Guristas Carrier
+  Guristas Convoy:
+    name: Guristas Convoy
+  Guristas Courier:
+    name: Guristas Courier
+  Guristas Ferrier:
+    name: Guristas Ferrier
+  Guristas Gatherer:
+    name: Guristas Gatherer
+  Guristas Harvester:
+    name: Guristas Harvester
+  Guristas Hauler:
+    name: Guristas Hauler
+  Guristas Loader:
+    name: Guristas Loader
+  Guristas Trailer:
+    name: Guristas Trailer
+  Guristas Transporter:
+    name: Guristas Transporter
+  Guristas Trucker:
+    name: Guristas Trucker

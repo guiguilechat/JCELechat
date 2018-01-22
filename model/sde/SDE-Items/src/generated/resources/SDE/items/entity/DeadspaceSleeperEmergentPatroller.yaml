@@ -1,4 +1,7 @@
 items:
-  Emergent Escort: {}
-  Emergent Patroller: {}
-  Emergent Watchman: {}
+  Emergent Escort:
+    name: Emergent Escort
+  Emergent Patroller:
+    name: Emergent Patroller
+  Emergent Watchman:
+    name: Emergent Watchman

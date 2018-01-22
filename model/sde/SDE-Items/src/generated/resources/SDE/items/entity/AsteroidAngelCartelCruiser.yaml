@@ -1,25 +1,49 @@
 items:
-  Angel Breaker: {}
-  Angel Centurion: {}
-  Angel Clone Soldier Negotiator: {}
-  Angel Clone Soldier Recruiter: {}
-  'Angel Clone Soldier Trainer ': {}
-  Angel Clone Soldier Transporter: {}
-  Angel Crusher: {}
-  Angel Defeater: {}
-  Angel Depredator: {}
-  Angel Liquidator: {}
-  Angel Marauder: {}
-  Angel Phalanx: {}
-  Angel Predator: {}
-  Angel Smasher: {}
-  Arch Angel Breaker: {}
-  Arch Angel Centurion: {}
-  Arch Angel Crusher: {}
-  Arch Angel Defeater: {}
-  Arch Angel Depredator: {}
-  Arch Angel Liquidator: {}
-  Arch Angel Marauder: {}
-  Arch Angel Phalanx: {}
-  Arch Angel Predator: {}
-  Arch Angel Smasher: {}
+  Angel Breaker:
+    name: Angel Breaker
+  Angel Centurion:
+    name: Angel Centurion
+  Angel Clone Soldier Negotiator:
+    name: Angel Clone Soldier Negotiator
+  Angel Clone Soldier Recruiter:
+    name: Angel Clone Soldier Recruiter
+  'Angel Clone Soldier Trainer ':
+    name: 'Angel Clone Soldier Trainer '
+  Angel Clone Soldier Transporter:
+    name: Angel Clone Soldier Transporter
+  Angel Crusher:
+    name: Angel Crusher
+  Angel Defeater:
+    name: Angel Defeater
+  Angel Depredator:
+    name: Angel Depredator
+  Angel Liquidator:
+    name: Angel Liquidator
+  Angel Marauder:
+    name: Angel Marauder
+  Angel Phalanx:
+    name: Angel Phalanx
+  Angel Predator:
+    name: Angel Predator
+  Angel Smasher:
+    name: Angel Smasher
+  Arch Angel Breaker:
+    name: Arch Angel Breaker
+  Arch Angel Centurion:
+    name: Arch Angel Centurion
+  Arch Angel Crusher:
+    name: Arch Angel Crusher
+  Arch Angel Defeater:
+    name: Arch Angel Defeater
+  Arch Angel Depredator:
+    name: Arch Angel Depredator
+  Arch Angel Liquidator:
+    name: Arch Angel Liquidator
+  Arch Angel Marauder:
+    name: Arch Angel Marauder
+  Arch Angel Phalanx:
+    name: Arch Angel Phalanx
+  Arch Angel Predator:
+    name: Arch Angel Predator
+  Arch Angel Smasher:
+    name: Arch Angel Smasher

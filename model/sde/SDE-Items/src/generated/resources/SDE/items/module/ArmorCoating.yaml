@@ -8,6 +8,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Aegis'' Explosive Plating I'
   '''Collateral'' Adaptive Nano Plating I':
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -13.520000457763672
@@ -20,6 +21,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -13.520000457763672
+    name: '''Collateral'' Adaptive Nano Plating I'
   '''Contour'' EM Plating I':
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -24.799999237060547
@@ -29,6 +31,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Contour'' EM Plating I'
   '''Element'' Kinetic Plating I':
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -38,6 +41,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Element'' Kinetic Plating I'
   '''Grail'' Layered Plating I':
     ArmorHPMultiplier: 1.0720000267028809
     Hp: 40
@@ -46,6 +50,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Grail'' Layered Plating I'
   '''Refuge'' Adaptive Nano Plating I':
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -15.359999656677246
@@ -58,6 +63,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -15.359999656677246
+    name: '''Refuge'' Adaptive Nano Plating I'
   '''Scarab'' Layered Plating I':
     ArmorHPMultiplier: 1.069000005722046
     Hp: 40
@@ -66,6 +72,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Scarab'' Layered Plating I'
   '''Spiegel'' EM Plating I':
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -26.399999618530273
@@ -75,6 +82,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Spiegel'' EM Plating I'
   Adaptive Nano Plating I:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -8.0
@@ -86,6 +94,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -8.0
+    name: Adaptive Nano Plating I
   Adaptive Nano Plating II:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -15.359999656677246
@@ -98,6 +107,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     ThermalDamageResistanceBonus: -15.359999656677246
+    name: Adaptive Nano Plating II
   Ahremen's Modified Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -23.6875
@@ -111,6 +121,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -23.6875
+    name: Ahremen's Modified Adaptive Nano Plating
   Ahremen's Modified EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -35.25
@@ -121,6 +132,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Ahremen's Modified EM Plating
   Ahremen's Modified Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -35.25
@@ -131,6 +143,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Ahremen's Modified Explosive Plating
   Ahremen's Modified Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -141,6 +154,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Ahremen's Modified Kinetic Plating
   Ahremen's Modified Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -151,6 +165,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -35.25
+    name: Ahremen's Modified Thermal Plating
   Ammatar Navy Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -17.5
@@ -164,6 +179,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -17.5
+    name: Ammatar Navy Adaptive Nano Plating
   Ammatar Navy EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -30.0
@@ -174,6 +190,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Ammatar Navy EM Plating
   Ammatar Navy Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -30.0
@@ -184,6 +201,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Ammatar Navy Explosive Plating
   Ammatar Navy Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -194,6 +212,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Ammatar Navy Kinetic Plating
   Ammatar Navy Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -204,6 +223,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
+    name: Ammatar Navy Thermal Plating
   Basic Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -7.0
@@ -215,6 +235,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     ThermalDamageResistanceBonus: -7.0
+    name: Basic Adaptive Nano Plating
   Basic EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -15.0
@@ -223,6 +244,7 @@ items:
     RequiredSkill1: 3392
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Basic EM Plating
   Basic Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -15.0
@@ -231,6 +253,7 @@ items:
     RequiredSkill1: 3392
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Basic Explosive Plating
   Basic Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -239,6 +262,7 @@ items:
     RequiredSkill1: 3392
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Basic Kinetic Plating
   Basic Layered Plating:
     ArmorHPMultiplier: 1.0499999523162842
     Hp: 40
@@ -246,6 +270,7 @@ items:
     RequiredSkill1: 3392
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Basic Layered Plating
   Basic Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -254,6 +279,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -15.0
+    name: Basic Thermal Plating
   Brokara's Modified Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -19.5625
@@ -267,6 +293,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -19.5625
+    name: Brokara's Modified Adaptive Nano Plating
   Brokara's Modified EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -31.75
@@ -277,6 +304,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Brokara's Modified EM Plating
   Brokara's Modified Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -31.75
@@ -287,6 +315,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Brokara's Modified Explosive Plating
   Brokara's Modified Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -297,6 +326,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Brokara's Modified Kinetic Plating
   Brokara's Modified Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -307,6 +337,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -31.75
+    name: Brokara's Modified Thermal Plating
   Brynn's Modified Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -19.5625
@@ -320,6 +351,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -19.5625
+    name: Brynn's Modified Adaptive Nano Plating
   Brynn's Modified EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -31.75
@@ -330,6 +362,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Brynn's Modified EM Plating
   Brynn's Modified Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -31.75
@@ -340,6 +373,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Brynn's Modified Explosive Plating
   Brynn's Modified Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -350,6 +384,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Brynn's Modified Kinetic Plating
   Brynn's Modified Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -360,6 +395,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -31.75
+    name: Brynn's Modified Thermal Plating
   Centii A-Type Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -23.6875
@@ -373,6 +409,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -23.6875
+    name: Centii A-Type Adaptive Nano Plating
   Centii A-Type EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -35.25
@@ -383,6 +420,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Centii A-Type EM Plating
   Centii A-Type Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -35.25
@@ -393,6 +431,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Centii A-Type Explosive Plating
   Centii A-Type Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -403,6 +442,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Centii A-Type Kinetic Plating
   Centii A-Type Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -413,6 +453,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -35.25
+    name: Centii A-Type Thermal Plating
   Centii B-Type Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -21.625
@@ -426,6 +467,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -21.625
+    name: Centii B-Type Adaptive Nano Plating
   Centii B-Type EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -33.5
@@ -436,6 +478,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Centii B-Type EM Plating
   Centii B-Type Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -33.5
@@ -446,6 +489,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Centii B-Type Explosive Plating
   Centii B-Type Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -456,6 +500,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Centii B-Type Kinetic Plating
   Centii B-Type Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -466,6 +511,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -33.5
+    name: Centii B-Type Thermal Plating
   Centii C-Type Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -19.5625
@@ -479,6 +525,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -19.5625
+    name: Centii C-Type Adaptive Nano Plating
   Centii C-Type EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -31.75
@@ -489,6 +536,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Centii C-Type EM Plating
   Centii C-Type Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -31.75
@@ -499,6 +547,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Centii C-Type Explosive Plating
   Centii C-Type Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -509,6 +558,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Centii C-Type Kinetic Plating
   Centii C-Type Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -519,6 +569,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -31.75
+    name: Centii C-Type Thermal Plating
   Chelm's Modified Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -25.75
@@ -532,6 +583,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -25.75
+    name: Chelm's Modified Adaptive Nano Plating
   Chelm's Modified EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -37.0
@@ -542,6 +594,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Chelm's Modified EM Plating
   Chelm's Modified Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -37.0
@@ -552,6 +605,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Chelm's Modified Explosive Plating
   Chelm's Modified Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -562,6 +616,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Chelm's Modified Kinetic Plating
   Chelm's Modified Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -572,6 +627,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -37.0
+    name: Chelm's Modified Thermal Plating
   Coreli A-Type Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -23.6875
@@ -585,6 +641,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -23.6875
+    name: Coreli A-Type Adaptive Nano Plating
   Coreli A-Type EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -35.25
@@ -595,6 +652,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Coreli A-Type EM Plating
   Coreli A-Type Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -35.25
@@ -605,6 +663,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Coreli A-Type Explosive Plating
   Coreli A-Type Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -615,6 +674,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Coreli A-Type Kinetic Plating
   Coreli A-Type Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -625,6 +685,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -35.25
+    name: Coreli A-Type Thermal Plating
   Coreli B-Type Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -21.625
@@ -638,6 +699,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -21.625
+    name: Coreli B-Type Adaptive Nano Plating
   Coreli B-Type EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -33.5
@@ -648,6 +710,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Coreli B-Type EM Plating
   Coreli B-Type Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -33.5
@@ -658,6 +721,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Coreli B-Type Explosive Plating
   Coreli B-Type Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -668,6 +732,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Coreli B-Type Kinetic Plating
   Coreli B-Type Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -678,6 +743,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -33.5
+    name: Coreli B-Type Thermal Plating
   Coreli C-Type Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -19.5625
@@ -691,6 +757,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -19.5625
+    name: Coreli C-Type Adaptive Nano Plating
   Coreli C-Type EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -31.75
@@ -701,6 +768,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Coreli C-Type EM Plating
   Coreli C-Type Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -31.75
@@ -711,6 +779,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Coreli C-Type Explosive Plating
   Coreli C-Type Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -721,6 +790,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Coreli C-Type Kinetic Plating
   Coreli C-Type Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -731,6 +801,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -31.75
+    name: Coreli C-Type Thermal Plating
   Cormack's Modified Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -25.75
@@ -744,6 +815,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -25.75
+    name: Cormack's Modified Adaptive Nano Plating
   Cormack's Modified EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -37.0
@@ -754,6 +826,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Cormack's Modified EM Plating
   Cormack's Modified Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -37.0
@@ -764,6 +837,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Cormack's Modified Explosive Plating
   Cormack's Modified Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -774,6 +848,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Cormack's Modified Kinetic Plating
   Cormack's Modified Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -784,6 +859,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -37.0
+    name: Cormack's Modified Thermal Plating
   Corpii A-Type Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -23.6875
@@ -797,6 +873,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -23.6875
+    name: Corpii A-Type Adaptive Nano Plating
   Corpii A-Type EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -35.25
@@ -807,6 +884,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Corpii A-Type EM Plating
   Corpii A-Type Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -35.25
@@ -817,6 +895,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Corpii A-Type Explosive Plating
   Corpii A-Type Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -827,6 +906,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Corpii A-Type Kinetic Plating
   Corpii A-Type Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -837,6 +917,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -35.25
+    name: Corpii A-Type Thermal Plating
   Corpii B-Type Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -21.625
@@ -850,6 +931,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -21.625
+    name: Corpii B-Type Adaptive Nano Plating
   Corpii B-Type EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -33.5
@@ -860,6 +942,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Corpii B-Type EM Plating
   Corpii B-Type Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -33.5
@@ -870,6 +953,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Corpii B-Type Explosive Plating
   Corpii B-Type Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -880,6 +964,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Corpii B-Type Kinetic Plating
   Corpii B-Type Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -890,6 +975,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -33.5
+    name: Corpii B-Type Thermal Plating
   Corpii C-Type Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -19.5625
@@ -903,6 +989,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -19.5625
+    name: Corpii C-Type Adaptive Nano Plating
   Corpii C-Type EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -31.75
@@ -913,6 +1000,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Corpii C-Type EM Plating
   Corpii C-Type Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -31.75
@@ -923,6 +1011,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Corpii C-Type Explosive Plating
   Corpii C-Type Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -933,6 +1022,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Corpii C-Type Kinetic Plating
   Corpii C-Type Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -943,6 +1033,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -31.75
+    name: Corpii C-Type Thermal Plating
   Dark Blood Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -17.5
@@ -956,6 +1047,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -17.5
+    name: Dark Blood Adaptive Nano Plating
   Dark Blood EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -30.0
@@ -966,6 +1058,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Dark Blood EM Plating
   Dark Blood Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -30.0
@@ -976,6 +1069,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Dark Blood Explosive Plating
   Dark Blood Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -986,6 +1080,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Dark Blood Kinetic Plating
   Dark Blood Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -996,6 +1091,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
+    name: Dark Blood Thermal Plating
   Domination Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -15.359999656677246
@@ -1009,6 +1105,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -15.359999656677246
+    name: Domination Adaptive Nano Plating
   Domination EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -26.399999618530273
@@ -1019,6 +1116,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Domination EM Plating
   Domination Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -26.399999618530273
@@ -1029,6 +1127,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Domination Explosive Plating
   Domination Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1039,6 +1138,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Domination Kinetic Plating
   Domination Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1049,6 +1149,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -26.399999618530273
+    name: Domination Thermal Plating
   Draclira's Modified Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -25.75
@@ -1062,6 +1163,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -25.75
+    name: Draclira's Modified Adaptive Nano Plating
   Draclira's Modified EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -37.0
@@ -1072,6 +1174,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Draclira's Modified EM Plating
   Draclira's Modified Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -37.0
@@ -1082,6 +1185,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Draclira's Modified Explosive Plating
   Draclira's Modified Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1092,6 +1196,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Draclira's Modified Kinetic Plating
   Draclira's Modified Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1102,6 +1207,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -37.0
+    name: Draclira's Modified Thermal Plating
   EM Plating I:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -20.0
@@ -1110,6 +1216,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: EM Plating I
   EM Plating II:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -26.399999618530273
@@ -1119,6 +1226,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: EM Plating II
   Experimental Explosive Plating I:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -24.799999237060547
@@ -1128,6 +1236,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Experimental Explosive Plating I
   Experimental Kinetic Plating I:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1137,6 +1246,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Experimental Kinetic Plating I
   Experimental Thermal Plating I:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1146,6 +1256,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -24.799999237060547
+    name: Experimental Thermal Plating I
   Explosive Plating I:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -20.0
@@ -1154,6 +1265,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Explosive Plating I
   Explosive Plating II:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -26.399999618530273
@@ -1163,6 +1275,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: Explosive Plating II
   Federation Navy Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -15.359999656677246
@@ -1176,6 +1289,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -15.359999656677246
+    name: Federation Navy Adaptive Nano Plating
   Federation Navy EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -26.399999618530273
@@ -1186,6 +1300,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Federation Navy EM Plating
   Federation Navy Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -26.399999618530273
@@ -1196,6 +1311,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Federation Navy Explosive Plating
   Federation Navy Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1206,6 +1322,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Federation Navy Kinetic Plating
   Federation Navy Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1216,6 +1333,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -26.399999618530273
+    name: Federation Navy Thermal Plating
   Gotan's Modified Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -23.6875
@@ -1229,6 +1347,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -23.6875
+    name: Gotan's Modified Adaptive Nano Plating
   Gotan's Modified EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -35.25
@@ -1239,6 +1358,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Gotan's Modified EM Plating
   Gotan's Modified Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -35.25
@@ -1249,6 +1369,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Gotan's Modified Explosive Plating
   Gotan's Modified Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1259,6 +1380,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Gotan's Modified Kinetic Plating
   Gotan's Modified Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1269,6 +1391,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -35.25
+    name: Gotan's Modified Thermal Plating
   Imperial Navy Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -17.5
@@ -1282,6 +1405,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -17.5
+    name: Imperial Navy Adaptive Nano Plating
   Imperial Navy EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -30.0
@@ -1292,6 +1416,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Imperial Navy EM Plating
   Imperial Navy Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -30.0
@@ -1302,6 +1427,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Imperial Navy Explosive Plating
   Imperial Navy Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1312,6 +1438,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Imperial Navy Kinetic Plating
   Imperial Navy Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1322,6 +1449,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
+    name: Imperial Navy Thermal Plating
   Khanid Navy Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -17.5
@@ -1335,6 +1463,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -17.5
+    name: Khanid Navy Adaptive Nano Plating
   Khanid Navy EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -30.0
@@ -1345,6 +1474,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Khanid Navy EM Plating
   Khanid Navy Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -30.0
@@ -1355,6 +1485,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Khanid Navy Explosive Plating
   Khanid Navy Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1365,6 +1496,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Khanid Navy Kinetic Plating
   Khanid Navy Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1375,6 +1507,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
+    name: Khanid Navy Thermal Plating
   Kinetic Plating I:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1383,6 +1516,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Kinetic Plating I
   Kinetic Plating II:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1392,6 +1526,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: Kinetic Plating II
   Layered Plating I:
     ArmorHPMultiplier: 1.059999942779541
     Hp: 40
@@ -1399,6 +1534,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Layered Plating I
   Layered Plating II:
     ArmorHPMultiplier: 1.0800000429153442
     Hp: 40
@@ -1407,6 +1543,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: Layered Plating II
   Limited Adaptive Nano Plating I:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -11.680000305175781
@@ -1419,6 +1556,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -11.680000305175781
+    name: Limited Adaptive Nano Plating I
   Limited EM Plating I:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -23.200000762939453
@@ -1428,6 +1566,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Limited EM Plating I
   Limited Explosive Plating I:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -23.200000762939453
@@ -1437,6 +1576,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Limited Explosive Plating I
   Limited Kinetic Plating I:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1446,6 +1586,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Limited Kinetic Plating I
   Limited Layered Plating I:
     ArmorHPMultiplier: 1.065999984741211
     Hp: 40
@@ -1454,6 +1595,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Limited Layered Plating I
   Limited Thermal Plating I:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1463,6 +1605,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -23.200000762939453
+    name: Limited Thermal Plating I
   Mizuro's Modified Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -19.5625
@@ -1476,6 +1619,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -19.5625
+    name: Mizuro's Modified Adaptive Nano Plating
   Mizuro's Modified EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -31.75
@@ -1486,6 +1630,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Mizuro's Modified EM Plating
   Mizuro's Modified Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -31.75
@@ -1496,6 +1641,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Mizuro's Modified Explosive Plating
   Mizuro's Modified Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1506,6 +1652,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Mizuro's Modified Kinetic Plating
   Mizuro's Modified Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1516,6 +1663,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -31.75
+    name: Mizuro's Modified Thermal Plating
   Prototype Thermal Plating I:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1525,6 +1673,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -26.399999618530273
+    name: Prototype Thermal Plating I
   Raysere's Modified Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -21.625
@@ -1538,6 +1687,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -21.625
+    name: Raysere's Modified Adaptive Nano Plating
   Raysere's Modified EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -33.5
@@ -1548,6 +1698,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Raysere's Modified EM Plating
   Raysere's Modified Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -33.5
@@ -1558,6 +1709,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Raysere's Modified Explosive Plating
   Raysere's Modified Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1568,6 +1720,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Raysere's Modified Kinetic Plating
   Raysere's Modified Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1578,6 +1731,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -33.5
+    name: Raysere's Modified Thermal Plating
   Republic Fleet Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -15.359999656677246
@@ -1591,6 +1745,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -15.359999656677246
+    name: Republic Fleet Adaptive Nano Plating
   Republic Fleet EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -26.399999618530273
@@ -1601,6 +1756,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Republic Fleet EM Plating
   Republic Fleet Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -26.399999618530273
@@ -1611,6 +1767,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Republic Fleet Explosive Plating
   Republic Fleet Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1621,6 +1778,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Republic Fleet Kinetic Plating
   Republic Fleet Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1631,6 +1789,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -26.399999618530273
+    name: Republic Fleet Thermal Plating
   Selynne's Modified Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -21.625
@@ -1644,6 +1803,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -21.625
+    name: Selynne's Modified Adaptive Nano Plating
   Selynne's Modified EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -33.5
@@ -1654,6 +1814,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Selynne's Modified EM Plating
   Selynne's Modified Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -33.5
@@ -1664,6 +1825,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Selynne's Modified Explosive Plating
   Selynne's Modified Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1674,6 +1836,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Selynne's Modified Kinetic Plating
   Selynne's Modified Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1684,6 +1847,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -33.5
+    name: Selynne's Modified Thermal Plating
   Setele's Modified Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -23.6875
@@ -1697,6 +1861,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -23.6875
+    name: Setele's Modified Adaptive Nano Plating
   Setele's Modified EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -35.25
@@ -1707,6 +1872,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Setele's Modified EM Plating
   Setele's Modified Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -35.25
@@ -1717,6 +1883,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Setele's Modified Explosive Plating
   Setele's Modified Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1727,6 +1894,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Setele's Modified Kinetic Plating
   Setele's Modified Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1737,6 +1905,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -35.25
+    name: Setele's Modified Thermal Plating
   Shadow Serpentis Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -15.359999656677246
@@ -1750,6 +1919,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -15.359999656677246
+    name: Shadow Serpentis Adaptive Nano Plating
   Shadow Serpentis EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -26.399999618530273
@@ -1760,6 +1930,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Shadow Serpentis EM Plating
   Shadow Serpentis Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -26.399999618530273
@@ -1770,6 +1941,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Shadow Serpentis Explosive Plating
   Shadow Serpentis Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1780,6 +1952,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Shadow Serpentis Kinetic Plating
   Shadow Serpentis Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1790,6 +1963,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -26.399999618530273
+    name: Shadow Serpentis Thermal Plating
   Tairei's Modified Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -19.5625
@@ -1803,6 +1977,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -19.5625
+    name: Tairei's Modified Adaptive Nano Plating
   Tairei's Modified EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -31.75
@@ -1813,6 +1988,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Tairei's Modified EM Plating
   Tairei's Modified Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -31.75
@@ -1823,6 +1999,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Tairei's Modified Explosive Plating
   Tairei's Modified Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1833,6 +2010,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Tairei's Modified Kinetic Plating
   Tairei's Modified Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1843,6 +2021,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -31.75
+    name: Tairei's Modified Thermal Plating
   Thermal Plating I:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1851,6 +2030,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -20.0
+    name: Thermal Plating I
   Thermal Plating II:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1860,6 +2040,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     ThermalDamageResistanceBonus: -26.399999618530273
+    name: Thermal Plating II
   True Sansha Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -17.5
@@ -1873,6 +2054,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -17.5
+    name: True Sansha Adaptive Nano Plating
   True Sansha EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -30.0
@@ -1883,6 +2065,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: True Sansha EM Plating
   True Sansha Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -30.0
@@ -1893,6 +2076,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: True Sansha Explosive Plating
   True Sansha Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1903,6 +2087,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: True Sansha Kinetic Plating
   True Sansha Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1913,6 +2098,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
+    name: True Sansha Thermal Plating
   Tuvan's Modified Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -21.625
@@ -1926,6 +2112,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -21.625
+    name: Tuvan's Modified Adaptive Nano Plating
   Tuvan's Modified EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -33.5
@@ -1936,6 +2123,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Tuvan's Modified EM Plating
   Tuvan's Modified Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -33.5
@@ -1946,6 +2134,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Tuvan's Modified Explosive Plating
   Tuvan's Modified Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1956,6 +2145,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Tuvan's Modified Kinetic Plating
   Tuvan's Modified Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -1966,6 +2156,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -33.5
+    name: Tuvan's Modified Thermal Plating
   Upgraded Adaptive Nano Plating I:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -9.84000015258789
@@ -1978,6 +2169,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -9.84000015258789
+    name: Upgraded Adaptive Nano Plating I
   Upgraded EM Plating I:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -21.600000381469727
@@ -1987,6 +2179,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Upgraded EM Plating I
   Upgraded Explosive Plating I:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -21.600000381469727
@@ -1996,6 +2189,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Upgraded Explosive Plating I
   Upgraded Kinetic Plating I:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -2005,6 +2199,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Upgraded Kinetic Plating I
   Upgraded Layered Plating I:
     ArmorHPMultiplier: 1.062999963760376
     Hp: 40
@@ -2013,6 +2208,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Upgraded Layered Plating I
   Upgraded Thermal Plating I:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -2022,6 +2218,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -21.600000381469727
+    name: Upgraded Thermal Plating I
   Vizan's Modified Adaptive Nano Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -23.6875
@@ -2035,6 +2232,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -23.6875
+    name: Vizan's Modified Adaptive Nano Plating
   Vizan's Modified EM Plating:
     ArmorHPMultiplier: 1.0
     EmDamageResistanceBonus: -35.25
@@ -2045,6 +2243,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Vizan's Modified EM Plating
   Vizan's Modified Explosive Plating:
     ArmorHPMultiplier: 1.0
     ExplosiveDamageResistanceBonus: -35.25
@@ -2055,6 +2254,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Vizan's Modified Explosive Plating
   Vizan's Modified Kinetic Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -2065,6 +2265,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Vizan's Modified Kinetic Plating
   Vizan's Modified Thermal Plating:
     ArmorHPMultiplier: 1.0
     Hp: 40
@@ -2075,3 +2276,4 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -35.25
+    name: Vizan's Modified Thermal Plating

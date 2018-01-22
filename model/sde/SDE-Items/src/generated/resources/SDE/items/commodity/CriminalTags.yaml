@@ -1,139 +1,277 @@
 items:
-  Ahremen Arkah's Tag: {}
-  Angel Brass Tag: {}
-  Angel Bronze Tag: {}
-  Angel Copper Tag: {}
-  Angel Crystal Tag: {}
-  Angel Diamond Tag: {}
-  Angel Electrum Tag: {}
-  Angel Gold Tag: {}
-  Angel Palladium Tag: {}
-  Angel Platinum Tag: {}
-  Angel Silver Tag: {}
-  Blood Brass Tag: {}
-  Blood Bronze Tag: {}
-  Blood Copper Tag: {}
-  Blood Crystal Tag: {}
-  Blood Diamond Tag: {}
-  Blood Electrum Tag: {}
-  Blood Gold Tag: {}
-  Blood Grunt Tag: {}
-  Blood Lower-Tier Tag: {}
-  Blood Palladium Tag: {}
-  Blood Platinum Tag: {}
-  Blood Silver Tag: {}
-  Blood Upper-Tier Tag: {}
-  Brokara Ryver's Tag: {}
-  Brynn Jerdola's Tag: {}
-  Chelm Soran's Tag: {}
-  Cormack Vaaja's Tag: {}
-  Corpum Commander Medallion: {}
-  Dark Blood Brass Tag: {}
-  Dark Blood Bronze Tag: {}
-  Dark Blood Copper Tag: {}
-  Dark Blood Crystal Tag: {}
-  Dark Blood Diamond Tag: {}
-  Dark Blood Electrum Tag: {}
-  Dark Blood Gold Tag: {}
-  Dark Blood Palladium Tag: {}
-  Dark Blood Platinum Tag: {}
-  Dark Blood Silver Tag: {}
-  Domination Brass Tag: {}
-  Domination Bronze Tag: {}
-  Domination Copper Tag: {}
-  Domination Crystal Tag: {}
-  Domination Diamond Tag: {}
-  Domination Electrum Tag: {}
-  Domination Gold Tag: {}
-  Domination Palladium Tag: {}
-  Domination Platinum Tag: {}
-  Domination Silver Tag: {}
-  Draclira Merlonne's Tag: {}
-  Dread Guristas Brass Tag: {}
-  Dread Guristas Bronze Tag: {}
-  Dread Guristas Copper Tag: {}
-  Dread Guristas Crystal Tag: {}
-  Dread Guristas Diamond Tag: {}
-  Dread Guristas Electrum Tag: {}
-  Dread Guristas Gold Tag: {}
-  Dread Guristas Palladium Tag: {}
-  Dread Guristas Platinum Tag: {}
-  Dread Guristas Silver Tag: {}
-  Estamel Tharchon's Tag: {}
-  Faramon's Tag: {}
-  Gotan Kreiss's Tag: {}
-  Guristas Brass Tag: {}
-  Guristas Bronze Tag: {}
-  Guristas Copper Tag: {}
-  Guristas Crystal Tag: {}
-  Guristas Diamond Tag: {}
-  Guristas Electrum Tag: {}
-  Guristas Gold Tag: {}
-  Guristas Palladium Tag: {}
-  Guristas Platinum Tag: {}
-  Guristas Silver Tag: {}
-  Hakim Stormare's Tag: {}
-  Imai Kenon's Tag: {}
-  Jakon's Tag: {}
-  Jarkon Puman's Tag: {}
-  Jenmei's Tag: {}
-  Kaikka Peunato's Tag: {}
-  Kalorr Makur's Tag: {}
-  Lazarus's Tag: {}
-  Makele's Tag: {}
-  Manchura's Tag: {}
-  Mizuro Cybon's Tag: {}
-  Propel Dynamics Dogtag: {}
-  Raelek's Tag: {}
-  Raysere Giant's Tag: {}
-  Sansha Brass Tag: {}
-  Sansha Bronze Tag: {}
-  Sansha Copper Tag: {}
-  Sansha Crystal Tag: {}
-  Sansha Diamond Tag: {}
-  Sansha Electrum Tag: {}
-  Sansha Gold Tag: {}
-  Sansha Infiltrator Tag: {}
-  Sansha Palladium Tag: {}
-  Sansha Platinum Tag: {}
-  Sansha Silver Tag: {}
-  Selynne Mardakar's Tag: {}
-  Serpentis Brass Tag: {}
-  Serpentis Bronze Tag: {}
-  Serpentis Copper Tag: {}
-  Serpentis Crystal Tag: {}
-  Serpentis Diamond Tag: {}
-  Serpentis Electrum Tag: {}
-  Serpentis Gold Tag: {}
-  Serpentis Palladium Tag: {}
-  Serpentis Platinum Tag: {}
-  Serpentis Silver Tag: {}
-  Setele Schellan's Tag: {}
-  Shadow Serpentis Brass Tag: {}
-  Shadow Serpentis Bronze Tag: {}
-  Shadow Serpentis Copper Tag: {}
-  Shadow Serpentis Crystal Tag: {}
-  Shadow Serpentis Diamond Tag: {}
-  Shadow Serpentis Electrum Tag: {}
-  Shadow Serpentis Gold Tag: {}
-  Shadow Serpentis Palladium Tag: {}
-  Shadow Serpentis Platinum Tag: {}
-  Shadow Serpentis Silver Tag: {}
-  Tairei Namazoth's Tag: {}
-  Thon Eney's Tag: {}
-  Tobias Kruzhor's Tag: {}
-  True Sansha Brass Tag: {}
-  True Sansha Bronze Tag: {}
-  True Sansha Copper Tag: {}
-  True Sansha Crystal Tag: {}
-  True Sansha Diamond Tag: {}
-  True Sansha Electrum Tag: {}
-  True Sansha Gold Tag: {}
-  True Sansha Palladium Tag: {}
-  True Sansha Platinum Tag: {}
-  True Sansha Silver Tag: {}
-  Tuvan Orth's Tag: {}
-  Uleen Bloodsworn's Tag: {}
-  Vepas Minimala's Tag: {}
-  Vizan Ankonin's Tag: {}
-  Zelfarios Kashnostramus's Tag: {}
+  Ahremen Arkah's Tag:
+    name: Ahremen Arkah's Tag
+  Angel Brass Tag:
+    name: Angel Brass Tag
+  Angel Bronze Tag:
+    name: Angel Bronze Tag
+  Angel Copper Tag:
+    name: Angel Copper Tag
+  Angel Crystal Tag:
+    name: Angel Crystal Tag
+  Angel Diamond Tag:
+    name: Angel Diamond Tag
+  Angel Electrum Tag:
+    name: Angel Electrum Tag
+  Angel Gold Tag:
+    name: Angel Gold Tag
+  Angel Palladium Tag:
+    name: Angel Palladium Tag
+  Angel Platinum Tag:
+    name: Angel Platinum Tag
+  Angel Silver Tag:
+    name: Angel Silver Tag
+  Blood Brass Tag:
+    name: Blood Brass Tag
+  Blood Bronze Tag:
+    name: Blood Bronze Tag
+  Blood Copper Tag:
+    name: Blood Copper Tag
+  Blood Crystal Tag:
+    name: Blood Crystal Tag
+  Blood Diamond Tag:
+    name: Blood Diamond Tag
+  Blood Electrum Tag:
+    name: Blood Electrum Tag
+  Blood Gold Tag:
+    name: Blood Gold Tag
+  Blood Grunt Tag:
+    name: Blood Grunt Tag
+  Blood Lower-Tier Tag:
+    name: Blood Lower-Tier Tag
+  Blood Palladium Tag:
+    name: Blood Palladium Tag
+  Blood Platinum Tag:
+    name: Blood Platinum Tag
+  Blood Silver Tag:
+    name: Blood Silver Tag
+  Blood Upper-Tier Tag:
+    name: Blood Upper-Tier Tag
+  Brokara Ryver's Tag:
+    name: Brokara Ryver's Tag
+  Brynn Jerdola's Tag:
+    name: Brynn Jerdola's Tag
+  Chelm Soran's Tag:
+    name: Chelm Soran's Tag
+  Cormack Vaaja's Tag:
+    name: Cormack Vaaja's Tag
+  Corpum Commander Medallion:
+    name: Corpum Commander Medallion
+  Dark Blood Brass Tag:
+    name: Dark Blood Brass Tag
+  Dark Blood Bronze Tag:
+    name: Dark Blood Bronze Tag
+  Dark Blood Copper Tag:
+    name: Dark Blood Copper Tag
+  Dark Blood Crystal Tag:
+    name: Dark Blood Crystal Tag
+  Dark Blood Diamond Tag:
+    name: Dark Blood Diamond Tag
+  Dark Blood Electrum Tag:
+    name: Dark Blood Electrum Tag
+  Dark Blood Gold Tag:
+    name: Dark Blood Gold Tag
+  Dark Blood Palladium Tag:
+    name: Dark Blood Palladium Tag
+  Dark Blood Platinum Tag:
+    name: Dark Blood Platinum Tag
+  Dark Blood Silver Tag:
+    name: Dark Blood Silver Tag
+  Domination Brass Tag:
+    name: Domination Brass Tag
+  Domination Bronze Tag:
+    name: Domination Bronze Tag
+  Domination Copper Tag:
+    name: Domination Copper Tag
+  Domination Crystal Tag:
+    name: Domination Crystal Tag
+  Domination Diamond Tag:
+    name: Domination Diamond Tag
+  Domination Electrum Tag:
+    name: Domination Electrum Tag
+  Domination Gold Tag:
+    name: Domination Gold Tag
+  Domination Palladium Tag:
+    name: Domination Palladium Tag
+  Domination Platinum Tag:
+    name: Domination Platinum Tag
+  Domination Silver Tag:
+    name: Domination Silver Tag
+  Draclira Merlonne's Tag:
+    name: Draclira Merlonne's Tag
+  Dread Guristas Brass Tag:
+    name: Dread Guristas Brass Tag
+  Dread Guristas Bronze Tag:
+    name: Dread Guristas Bronze Tag
+  Dread Guristas Copper Tag:
+    name: Dread Guristas Copper Tag
+  Dread Guristas Crystal Tag:
+    name: Dread Guristas Crystal Tag
+  Dread Guristas Diamond Tag:
+    name: Dread Guristas Diamond Tag
+  Dread Guristas Electrum Tag:
+    name: Dread Guristas Electrum Tag
+  Dread Guristas Gold Tag:
+    name: Dread Guristas Gold Tag
+  Dread Guristas Palladium Tag:
+    name: Dread Guristas Palladium Tag
+  Dread Guristas Platinum Tag:
+    name: Dread Guristas Platinum Tag
+  Dread Guristas Silver Tag:
+    name: Dread Guristas Silver Tag
+  Estamel Tharchon's Tag:
+    name: Estamel Tharchon's Tag
+  Faramon's Tag:
+    name: Faramon's Tag
+  Gotan Kreiss's Tag:
+    name: Gotan Kreiss's Tag
+  Guristas Brass Tag:
+    name: Guristas Brass Tag
+  Guristas Bronze Tag:
+    name: Guristas Bronze Tag
+  Guristas Copper Tag:
+    name: Guristas Copper Tag
+  Guristas Crystal Tag:
+    name: Guristas Crystal Tag
+  Guristas Diamond Tag:
+    name: Guristas Diamond Tag
+  Guristas Electrum Tag:
+    name: Guristas Electrum Tag
+  Guristas Gold Tag:
+    name: Guristas Gold Tag
+  Guristas Palladium Tag:
+    name: Guristas Palladium Tag
+  Guristas Platinum Tag:
+    name: Guristas Platinum Tag
+  Guristas Silver Tag:
+    name: Guristas Silver Tag
+  Hakim Stormare's Tag:
+    name: Hakim Stormare's Tag
+  Imai Kenon's Tag:
+    name: Imai Kenon's Tag
+  Jakon's Tag:
+    name: Jakon's Tag
+  Jarkon Puman's Tag:
+    name: Jarkon Puman's Tag
+  Jenmei's Tag:
+    name: Jenmei's Tag
+  Kaikka Peunato's Tag:
+    name: Kaikka Peunato's Tag
+  Kalorr Makur's Tag:
+    name: Kalorr Makur's Tag
+  Lazarus's Tag:
+    name: Lazarus's Tag
+  Makele's Tag:
+    name: Makele's Tag
+  Manchura's Tag:
+    name: Manchura's Tag
+  Mizuro Cybon's Tag:
+    name: Mizuro Cybon's Tag
+  Propel Dynamics Dogtag:
+    name: Propel Dynamics Dogtag
+  Raelek's Tag:
+    name: Raelek's Tag
+  Raysere Giant's Tag:
+    name: Raysere Giant's Tag
+  Sansha Brass Tag:
+    name: Sansha Brass Tag
+  Sansha Bronze Tag:
+    name: Sansha Bronze Tag
+  Sansha Copper Tag:
+    name: Sansha Copper Tag
+  Sansha Crystal Tag:
+    name: Sansha Crystal Tag
+  Sansha Diamond Tag:
+    name: Sansha Diamond Tag
+  Sansha Electrum Tag:
+    name: Sansha Electrum Tag
+  Sansha Gold Tag:
+    name: Sansha Gold Tag
+  Sansha Infiltrator Tag:
+    name: Sansha Infiltrator Tag
+  Sansha Palladium Tag:
+    name: Sansha Palladium Tag
+  Sansha Platinum Tag:
+    name: Sansha Platinum Tag
+  Sansha Silver Tag:
+    name: Sansha Silver Tag
+  Selynne Mardakar's Tag:
+    name: Selynne Mardakar's Tag
+  Serpentis Brass Tag:
+    name: Serpentis Brass Tag
+  Serpentis Bronze Tag:
+    name: Serpentis Bronze Tag
+  Serpentis Copper Tag:
+    name: Serpentis Copper Tag
+  Serpentis Crystal Tag:
+    name: Serpentis Crystal Tag
+  Serpentis Diamond Tag:
+    name: Serpentis Diamond Tag
+  Serpentis Electrum Tag:
+    name: Serpentis Electrum Tag
+  Serpentis Gold Tag:
+    name: Serpentis Gold Tag
+  Serpentis Palladium Tag:
+    name: Serpentis Palladium Tag
+  Serpentis Platinum Tag:
+    name: Serpentis Platinum Tag
+  Serpentis Silver Tag:
+    name: Serpentis Silver Tag
+  Setele Schellan's Tag:
+    name: Setele Schellan's Tag
+  Shadow Serpentis Brass Tag:
+    name: Shadow Serpentis Brass Tag
+  Shadow Serpentis Bronze Tag:
+    name: Shadow Serpentis Bronze Tag
+  Shadow Serpentis Copper Tag:
+    name: Shadow Serpentis Copper Tag
+  Shadow Serpentis Crystal Tag:
+    name: Shadow Serpentis Crystal Tag
+  Shadow Serpentis Diamond Tag:
+    name: Shadow Serpentis Diamond Tag
+  Shadow Serpentis Electrum Tag:
+    name: Shadow Serpentis Electrum Tag
+  Shadow Serpentis Gold Tag:
+    name: Shadow Serpentis Gold Tag
+  Shadow Serpentis Palladium Tag:
+    name: Shadow Serpentis Palladium Tag
+  Shadow Serpentis Platinum Tag:
+    name: Shadow Serpentis Platinum Tag
+  Shadow Serpentis Silver Tag:
+    name: Shadow Serpentis Silver Tag
+  Tairei Namazoth's Tag:
+    name: Tairei Namazoth's Tag
+  Thon Eney's Tag:
+    name: Thon Eney's Tag
+  Tobias Kruzhor's Tag:
+    name: Tobias Kruzhor's Tag
+  True Sansha Brass Tag:
+    name: True Sansha Brass Tag
+  True Sansha Bronze Tag:
+    name: True Sansha Bronze Tag
+  True Sansha Copper Tag:
+    name: True Sansha Copper Tag
+  True Sansha Crystal Tag:
+    name: True Sansha Crystal Tag
+  True Sansha Diamond Tag:
+    name: True Sansha Diamond Tag
+  True Sansha Electrum Tag:
+    name: True Sansha Electrum Tag
+  True Sansha Gold Tag:
+    name: True Sansha Gold Tag
+  True Sansha Palladium Tag:
+    name: True Sansha Palladium Tag
+  True Sansha Platinum Tag:
+    name: True Sansha Platinum Tag
+  True Sansha Silver Tag:
+    name: True Sansha Silver Tag
+  Tuvan Orth's Tag:
+    name: Tuvan Orth's Tag
+  Uleen Bloodsworn's Tag:
+    name: Uleen Bloodsworn's Tag
+  Vepas Minimala's Tag:
+    name: Vepas Minimala's Tag
+  Vizan Ankonin's Tag:
+    name: Vizan Ankonin's Tag
+  Zelfarios Kashnostramus's Tag:
+    name: Zelfarios Kashnostramus's Tag

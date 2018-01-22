@@ -1,5 +1,9 @@
 items:
-  Sleepless Guardian: {}
-  Sleepless Keeper: {}
-  Sleepless Sentinel: {}
-  Sleepless Warden: {}
+  Sleepless Guardian:
+    name: Sleepless Guardian
+  Sleepless Keeper:
+    name: Sleepless Keeper
+  Sleepless Sentinel:
+    name: Sleepless Sentinel
+  Sleepless Warden:
+    name: Sleepless Warden

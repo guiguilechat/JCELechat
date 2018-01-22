@@ -13,6 +13,7 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    name: '''Alpha'' Data Analyzer I'
   '''Codex'' Data Analyzer I':
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -27,6 +28,7 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    name: '''Codex'' Data Analyzer I'
   '''Daemon'' Data Analyzer I':
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -41,6 +43,7 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    name: '''Daemon'' Data Analyzer I'
   '''Libram'' Data Analyzer I':
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -55,6 +58,7 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    name: '''Libram'' Data Analyzer I'
   Civilian Data Analyzer:
     AccessDifficultyBonus: 2
     CapacitorNeed: 1.0
@@ -67,6 +71,7 @@ items:
     VirusCoherence: 25
     VirusElementSlots: 3
     VirusStrength: 10
+    name: Civilian Data Analyzer
   Civilian Relic Analyzer:
     AccessDifficultyBonus: 2
     CapacitorNeed: 1.0
@@ -79,6 +84,7 @@ items:
     VirusCoherence: 25
     VirusElementSlots: 3
     VirusStrength: 10
+    name: Civilian Relic Analyzer
   Data Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -92,6 +98,7 @@ items:
     VirusCoherence: 40
     VirusElementSlots: 3
     VirusStrength: 20
+    name: Data Analyzer I
   Data Analyzer II:
     AccessDifficultyBonus: 7
     CapacitorNeed: 20.0
@@ -107,6 +114,7 @@ items:
     VirusCoherence: 60
     VirusElementSlots: 3
     VirusStrength: 30
+    name: Data Analyzer II
   Data Subverter I:
     AccessDifficultyBonus: 15
     CapacitorNeed: 20.0
@@ -118,6 +126,7 @@ items:
     RequiredSkill2: 21718
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Data Subverter I
   Ligature Integrated Analyzer:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -136,6 +145,7 @@ items:
     VirusCoherence: 20
     VirusElementSlots: 1
     VirusStrength: 20
+    name: Ligature Integrated Analyzer
   Purloined Sansha Data Analyzer:
     AccessDifficultyBonus: 5
     CanFitShipType1: 3532
@@ -150,6 +160,7 @@ items:
     VirusCoherence: 80
     VirusElementSlots: 3
     VirusStrength: 40
+    name: Purloined Sansha Data Analyzer
   Relic Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -163,6 +174,7 @@ items:
     VirusCoherence: 40
     VirusElementSlots: 3
     VirusStrength: 20
+    name: Relic Analyzer I
   Relic Analyzer II:
     AccessDifficultyBonus: 7
     CapacitorNeed: 20.0
@@ -178,6 +190,7 @@ items:
     VirusCoherence: 60
     VirusElementSlots: 3
     VirusStrength: 30
+    name: Relic Analyzer II
   Sleeper Data Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -192,6 +205,7 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    name: Sleeper Data Analyzer I
   Talocan Data Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -206,6 +220,7 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    name: Talocan Data Analyzer I
   Terran Data Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -220,6 +235,7 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    name: Terran Data Analyzer I
   Tetrimon Data Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -234,6 +250,7 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    name: Tetrimon Data Analyzer I
   Zeugma Integrated Analyzer:
     AccessDifficultyBonus: 7
     CapacitorNeed: 20.0
@@ -252,3 +269,4 @@ items:
     VirusCoherence: 30
     VirusElementSlots: 1
     VirusStrength: 30
+    name: Zeugma Integrated Analyzer

@@ -1,4 +1,7 @@
 items:
-  Multiple Pilot Training Certificate: {}
-  Pilot's Body Resculpt Certificate: {}
-  Skill Extractor: {}
+  Multiple Pilot Training Certificate:
+    name: Multiple Pilot Training Certificate
+  Pilot's Body Resculpt Certificate:
+    name: Pilot's Body Resculpt Certificate
+  Skill Extractor:
+    name: Skill Extractor

@@ -15,6 +15,7 @@ items:
     ScanRange: 1000
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Observator Deep Space Probe I
   Radar Quest Probe:
     Agility: 1000.0
     ExplosionDelay: 4000000
@@ -31,6 +32,7 @@ items:
     ScanRange: 4
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Radar Quest Probe
   Sisters Observator Deep Space Probe:
     Agility: 1000.0
     ExplosionDelay: 4800000
@@ -48,6 +50,7 @@ items:
     ScanRange: 1000
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Sisters Observator Deep Space Probe
   Sisters Radar Quest Probe:
     Agility: 1000.0
     ExplosionDelay: 4000000
@@ -65,3 +68,4 @@ items:
     ScanRange: 4
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Sisters Radar Quest Probe

@@ -1,5 +1,9 @@
 items:
-  Serpentis Lookout: {}
-  Serpentis Sentry: {}
-  Serpentis Warden: {}
-  Serpentis Watcher: {}
+  Serpentis Lookout:
+    name: Serpentis Lookout
+  Serpentis Sentry:
+    name: Serpentis Sentry
+  Serpentis Warden:
+    name: Serpentis Warden
+  Serpentis Watcher:
+    name: Serpentis Watcher

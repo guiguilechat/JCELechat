@@ -1,28 +1,55 @@
 items:
-  Amber Cytoserocin: {}
-  Amber Mykoserocin: {}
-  Azure Cytoserocin: {}
-  Azure Mykoserocin: {}
-  Celadon Cytoserocin: {}
-  Celadon Mykoserocin: {}
-  Chartreuse Cytoserocin: {}
-  Fullerite-C28: {}
-  Fullerite-C32: {}
-  Fullerite-C320: {}
-  Fullerite-C50: {}
-  Fullerite-C540: {}
-  Fullerite-C60: {}
-  Fullerite-C70: {}
-  Fullerite-C72: {}
-  Fullerite-C84: {}
-  Gamboge Cytoserocin: {}
-  Golden Cytoserocin: {}
-  Golden Mykoserocin: {}
-  Lime Cytoserocin: {}
-  Lime Mykoserocin: {}
-  Malachite Cytoserocin: {}
-  Malachite Mykoserocin: {}
-  Vermillion Cytoserocin: {}
-  Vermillion Mykoserocin: {}
-  Viridian Cytoserocin: {}
-  Viridian Mykoserocin: {}
+  Amber Cytoserocin:
+    name: Amber Cytoserocin
+  Amber Mykoserocin:
+    name: Amber Mykoserocin
+  Azure Cytoserocin:
+    name: Azure Cytoserocin
+  Azure Mykoserocin:
+    name: Azure Mykoserocin
+  Celadon Cytoserocin:
+    name: Celadon Cytoserocin
+  Celadon Mykoserocin:
+    name: Celadon Mykoserocin
+  Chartreuse Cytoserocin:
+    name: Chartreuse Cytoserocin
+  Fullerite-C28:
+    name: Fullerite-C28
+  Fullerite-C32:
+    name: Fullerite-C32
+  Fullerite-C320:
+    name: Fullerite-C320
+  Fullerite-C50:
+    name: Fullerite-C50
+  Fullerite-C540:
+    name: Fullerite-C540
+  Fullerite-C60:
+    name: Fullerite-C60
+  Fullerite-C70:
+    name: Fullerite-C70
+  Fullerite-C72:
+    name: Fullerite-C72
+  Fullerite-C84:
+    name: Fullerite-C84
+  Gamboge Cytoserocin:
+    name: Gamboge Cytoserocin
+  Golden Cytoserocin:
+    name: Golden Cytoserocin
+  Golden Mykoserocin:
+    name: Golden Mykoserocin
+  Lime Cytoserocin:
+    name: Lime Cytoserocin
+  Lime Mykoserocin:
+    name: Lime Mykoserocin
+  Malachite Cytoserocin:
+    name: Malachite Cytoserocin
+  Malachite Mykoserocin:
+    name: Malachite Mykoserocin
+  Vermillion Cytoserocin:
+    name: Vermillion Cytoserocin
+  Vermillion Mykoserocin:
+    name: Vermillion Mykoserocin
+  Viridian Cytoserocin:
+    name: Viridian Cytoserocin
+  Viridian Mykoserocin:
+    name: Viridian Mykoserocin

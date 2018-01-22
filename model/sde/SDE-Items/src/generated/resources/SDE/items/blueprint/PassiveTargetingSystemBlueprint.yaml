@@ -2,6 +2,8 @@ items:
   Passive Targeter I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Passive Targeter I Blueprint
   Passive Targeter II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Passive Targeter II Blueprint

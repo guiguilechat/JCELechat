@@ -2,6 +2,8 @@ items:
   Auto Targeting System I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Auto Targeting System I Blueprint
   Auto Targeting System II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Auto Targeting System II Blueprint

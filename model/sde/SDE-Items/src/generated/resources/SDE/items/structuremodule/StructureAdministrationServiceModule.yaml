@@ -1,11 +1,16 @@
 items:
   Structure Agent Distribution Unit:
     CanFitShipGroup01: 1657
+    name: Structure Agent Distribution Unit
   Structure Factional Reserve Unit:
     CanFitShipGroup01: 1657
+    name: Structure Factional Reserve Unit
   Structure Security Force Array:
     CanFitShipGroup01: 1657
+    name: Structure Security Force Array
   Structure Security Status Claim Unit:
     CanFitShipGroup01: 1657
+    name: Structure Security Status Claim Unit
   Structure Sovereignty Unit:
     CanFitShipGroup01: 1657
+    name: Structure Sovereignty Unit

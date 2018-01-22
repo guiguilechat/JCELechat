@@ -1,2 +1,3 @@
 items:
-  map Landmark: {}
+  map Landmark:
+    name: map Landmark

@@ -45,6 +45,7 @@ items:
     TradePremium: 1
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterAchura
   CharacterAmarr:
     BarterDiscount: 1
     BattleshipConstructionCost: 100
@@ -91,6 +92,7 @@ items:
     TradePremium: 1
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterAmarr
   CharacterBrutor:
     BarterDiscount: 1
     BattleshipConstructionCost: 100
@@ -137,6 +139,7 @@ items:
     TradePremium: 1
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterBrutor
   CharacterCivire:
     BarterDiscount: 1
     BattleshipConstructionCost: 100
@@ -183,6 +186,7 @@ items:
     TradePremium: 1
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterCivire
   CharacterDeteis:
     BarterDiscount: 1
     BattleshipConstructionCost: 100
@@ -229,6 +233,7 @@ items:
     TradePremium: 1
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterDeteis
   CharacterDrifter:
     BountyMultiplier: 1
     CopySpeedPercent: 1
@@ -259,6 +264,7 @@ items:
     TitanConstructionTime: 100
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterDrifter
   CharacterGallente:
     BarterDiscount: 1
     BattleshipConstructionCost: 100
@@ -305,6 +311,7 @@ items:
     TradePremium: 1
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterGallente
   CharacterIntaki:
     BarterDiscount: 1
     BattleshipConstructionCost: 100
@@ -351,6 +358,7 @@ items:
     TradePremium: 1
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterIntaki
   CharacterJinMei:
     BarterDiscount: 1
     BattleshipConstructionCost: 100
@@ -397,6 +405,7 @@ items:
     TradePremium: 1
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterJinMei
   CharacterKhanid:
     BarterDiscount: 1
     BattleshipConstructionCost: 100
@@ -443,6 +452,7 @@ items:
     TradePremium: 1
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterKhanid
   CharacterModifier:
     BarterDiscount: 1
     BattleshipConstructionCost: 100
@@ -489,6 +499,7 @@ items:
     TradePremium: 1
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterModifier
   CharacterNiKunni:
     BarterDiscount: 1
     BattleshipConstructionCost: 100
@@ -535,6 +546,7 @@ items:
     TradePremium: 1
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterNiKunni
   CharacterSebiestor:
     BarterDiscount: 1
     BattleshipConstructionCost: 100
@@ -581,6 +593,7 @@ items:
     TradePremium: 1
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterSebiestor
   CharacterStatic:
     BarterDiscount: 1
     BattleshipConstructionCost: 100
@@ -627,6 +640,7 @@ items:
     TradePremium: 1
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterStatic
   CharacterVherokior:
     BarterDiscount: 1
     BattleshipConstructionCost: 100
@@ -673,3 +687,4 @@ items:
     TradePremium: 1
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    name: CharacterVherokior

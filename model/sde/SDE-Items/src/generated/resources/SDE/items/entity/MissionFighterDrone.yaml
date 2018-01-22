@@ -1,9 +1,17 @@
 items:
-  Burner Dragonfly: {}
-  Burner Mantis: {}
-  Federation Fighter: {}
-  Gallente Federation Civilians: {}
-  Imperial Fighter: {}
-  Outpost Defender: {}
-  Republic Fighter: {}
-  State Fighter: {}
+  Burner Dragonfly:
+    name: Burner Dragonfly
+  Burner Mantis:
+    name: Burner Mantis
+  Federation Fighter:
+    name: Federation Fighter
+  Gallente Federation Civilians:
+    name: Gallente Federation Civilians
+  Imperial Fighter:
+    name: Imperial Fighter
+  Outpost Defender:
+    name: Outpost Defender
+  Republic Fighter:
+    name: Republic Fighter
+  State Fighter:
+    name: State Fighter

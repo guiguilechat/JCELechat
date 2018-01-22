@@ -27,6 +27,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11312
+    name: '''Arquebus'' Heavy Beam Laser I'
   '''Ballista'' Tachyon Beam Laser I':
     AITankingModifierDrone: 0.7
     CapacitorNeed: 76.0
@@ -54,6 +55,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11312
+    name: '''Ballista'' Tachyon Beam Laser I'
   '''Catapult'' Mega Beam Laser I':
     AITankingModifierDrone: 0.7
     CapacitorNeed: 52.0
@@ -81,6 +83,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11312
+    name: '''Catapult'' Mega Beam Laser I'
   '''Crossbow'' Focused Medium Beam Laser I':
     AITankingModifierDrone: 0.7
     CapacitorNeed: 11.670000076293945
@@ -109,6 +112,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11312
+    name: '''Crossbow'' Focused Medium Beam Laser I'
   '''Gauntlet'' Small Focused Beam Laser I':
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.024999618530273
@@ -137,6 +141,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 90.0
     TypeColorScheme: 11312
+    name: '''Gauntlet'' Small Focused Beam Laser I'
   '''Halberd'' Mega Pulse Laser I':
     AITankingModifierDrone: 0.7
     CapacitorNeed: 36.0
@@ -163,6 +168,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.375
     TypeColorScheme: 11312
+    name: '''Halberd'' Mega Pulse Laser I'
   '''Joust'' Heavy Pulse Laser I':
     AITankingModifierDrone: 0.7
     CapacitorNeed: 13.329999923706055
@@ -190,6 +196,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 26.0
     TypeColorScheme: 11312
+    name: '''Joust'' Heavy Pulse Laser I'
   '''Longbow'' Small Focused Pulse Laser I':
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.440000057220459
@@ -218,6 +225,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 246.25
     TypeColorScheme: 11312
+    name: '''Longbow'' Small Focused Pulse Laser I'
   '''Mace'' Dual Light Beam Laser I':
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.862500190734863
@@ -246,6 +254,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 117.0
     TypeColorScheme: 11312
+    name: '''Mace'' Dual Light Beam Laser I'
   Afocal Precise Dual Giga Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 520.0
@@ -273,6 +282,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.022911325097084045
     TypeColorScheme: 11313
+    name: Afocal Precise Dual Giga Beam Laser
   Afocal Precise Dual Giga Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 320.0
@@ -300,6 +310,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.04041071981191635
     TypeColorScheme: 11313
+    name: Afocal Precise Dual Giga Pulse Laser
   Afocal Precise Quad Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 180.0
@@ -327,6 +338,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.5750000476837158
     TypeColorScheme: 11313
+    name: Afocal Precise Quad Mega Pulse Laser
   Ahremen's Modified Dual Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 18.0
@@ -354,6 +366,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.75
     TypeColorScheme: 11311
+    name: Ahremen's Modified Dual Heavy Pulse Laser
   Ahremen's Modified Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 28.799999237060547
@@ -381,6 +394,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.375
     TypeColorScheme: 11311
+    name: Ahremen's Modified Mega Pulse Laser
   Ammatar Navy Dual Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.0
@@ -408,6 +422,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.75
     TypeColorScheme: 11317
+    name: Ammatar Navy Dual Heavy Beam Laser
   Ammatar Navy Dual Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.899999618530273
@@ -435,6 +450,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.75
     TypeColorScheme: 11317
+    name: Ammatar Navy Dual Heavy Pulse Laser
   Ammatar Navy Dual Light Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.6468749046325684
@@ -463,6 +479,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 117.0
     TypeColorScheme: 11317
+    name: Ammatar Navy Dual Light Beam Laser
   Ammatar Navy Dual Light Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 2.002500057220459
@@ -490,6 +507,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 273.75
     TypeColorScheme: 11317
+    name: Ammatar Navy Dual Light Pulse Laser
   Ammatar Navy Focused Medium Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 8.7524995803833
@@ -518,6 +536,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11317
+    name: Ammatar Navy Focused Medium Beam Laser
   Ammatar Navy Focused Medium Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.0
@@ -545,6 +564,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11317
+    name: Ammatar Navy Focused Medium Pulse Laser
   Ammatar Navy Gatling Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 1.3650000095367432
@@ -572,6 +592,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 308.125
     TypeColorScheme: 11317
+    name: Ammatar Navy Gatling Pulse Laser
   Ammatar Navy Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.252500534057617
@@ -600,6 +621,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11317
+    name: Ammatar Navy Heavy Beam Laser
   Ammatar Navy Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.9975004196167
@@ -627,6 +649,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 26.0
     TypeColorScheme: 11317
+    name: Ammatar Navy Heavy Pulse Laser
   Ammatar Navy Mega Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 39.0
@@ -654,6 +677,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11317
+    name: Ammatar Navy Mega Beam Laser
   Ammatar Navy Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 27.0
@@ -681,6 +705,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.375
     TypeColorScheme: 11317
+    name: Ammatar Navy Mega Pulse Laser
   Ammatar Navy Quad Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.087500095367432
@@ -709,6 +734,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11317
+    name: Ammatar Navy Quad Beam Laser
   Ammatar Navy Small Focused Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.768750190734863
@@ -737,6 +763,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 90.0
     TypeColorScheme: 11317
+    name: Ammatar Navy Small Focused Beam Laser
   Ammatar Navy Small Focused Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.3299999237060547
@@ -765,6 +792,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 246.25
     TypeColorScheme: 11317
+    name: Ammatar Navy Small Focused Pulse Laser
   Ammatar Navy Tachyon Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 57.0
@@ -792,6 +820,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11317
+    name: Ammatar Navy Tachyon Beam Laser
   Anode Scoped Dual Giga Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 520.0
@@ -819,6 +848,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.0218203105032444
     TypeColorScheme: 11313
+    name: Anode Scoped Dual Giga Beam Laser
   Anode Scoped Dual Giga Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 320.0
@@ -846,6 +876,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.03848639875650406
     TypeColorScheme: 11313
+    name: Anode Scoped Dual Giga Pulse Laser
   Anode Scoped Quad Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 180.0
@@ -873,6 +904,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.5
     TypeColorScheme: 11313
+    name: Anode Scoped Quad Mega Pulse Laser
   Brokara's Modified Dual Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.899999618530273
@@ -900,6 +932,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.75
     TypeColorScheme: 11311
+    name: Brokara's Modified Dual Heavy Pulse Laser
   Brokara's Modified Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 27.0
@@ -927,6 +960,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.375
     TypeColorScheme: 11311
+    name: Brokara's Modified Mega Pulse Laser
   CONCORD Dual Giga Beam Laser:
     AIIgnoreDronesBelowSignatureRadius: 100
     AITankingModifierDrone: 0.699999988079071
@@ -957,6 +991,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.022911325097084045
     TypeColorScheme: 11313
+    name: CONCORD Dual Giga Beam Laser
   CONCORD Dual Giga Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 288.0
@@ -986,6 +1021,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.04041071981191635
     TypeColorScheme: 11313
+    name: CONCORD Dual Giga Pulse Laser
   CONCORD Dual Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     DamageMultiplier: 1.0
@@ -994,6 +1030,7 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    name: CONCORD Dual Heavy Pulse Laser
   CONCORD Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     DamageMultiplier: 1.0
@@ -1002,6 +1039,7 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    name: CONCORD Heavy Pulse Laser
   CONCORD Medium Pulse Laser:
     AITankingModifierDrone: 0.7
     DamageMultiplier: 1.0
@@ -1010,6 +1048,7 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    name: CONCORD Medium Pulse Laser
   Chelm's Modified Dual Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 22.399999618530273
@@ -1037,6 +1076,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.75
     TypeColorScheme: 11311
+    name: Chelm's Modified Dual Heavy Beam Laser
   Chelm's Modified Mega Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 41.599998474121094
@@ -1064,6 +1104,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11311
+    name: Chelm's Modified Mega Beam Laser
   Chelm's Modified Tachyon Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 60.79999923706055
@@ -1091,6 +1132,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11311
+    name: Chelm's Modified Tachyon Beam Laser
   Civilian Gatling Autocannon:
     AITankingModifierDrone: 0.7
     AmmoLoaded: 20130
@@ -1114,6 +1156,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 650.0
     TypeColorScheme: 11342
+    name: Civilian Gatling Autocannon
   Civilian Gatling Pulse Laser:
     AITankingModifierDrone: 0.7
     AmmoLoaded: 20128
@@ -1137,6 +1180,7 @@ items:
     ThermalDamage: 2.0
     TrackingSpeed: 625.0
     TypeColorScheme: 11313
+    name: Civilian Gatling Pulse Laser
   Civilian Gatling Railgun:
     AITankingModifierDrone: 0.7
     AmmoLoaded: 20132
@@ -1160,6 +1204,7 @@ items:
     ThermalDamage: 2.0
     TrackingSpeed: 500.0
     TypeColorScheme: 11324
+    name: Civilian Gatling Railgun
   Civilian Light Electron Blaster:
     AITankingModifierDrone: 0.7
     AmmoLoaded: 20134
@@ -1185,6 +1230,7 @@ items:
     ThermalDamage: 3.0
     TrackingSpeed: 700.0
     TypeColorScheme: 11331
+    name: Civilian Light Electron Blaster
   Dark Blood Dual Giga Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 468.0
@@ -1214,6 +1260,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.022911325097084045
     TypeColorScheme: 11313
+    name: Dark Blood Dual Giga Beam Laser
   Dark Blood Dual Giga Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 288.0
@@ -1243,6 +1290,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.04041071981191635
     TypeColorScheme: 11313
+    name: Dark Blood Dual Giga Pulse Laser
   Dark Blood Dual Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.0
@@ -1270,6 +1318,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.75
     TypeColorScheme: 11320
+    name: Dark Blood Dual Heavy Beam Laser
   Dark Blood Dual Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.899999618530273
@@ -1297,6 +1346,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.75
     TypeColorScheme: 11320
+    name: Dark Blood Dual Heavy Pulse Laser
   Dark Blood Dual Light Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.6468749046325684
@@ -1325,6 +1375,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 117.0
     TypeColorScheme: 11320
+    name: Dark Blood Dual Light Beam Laser
   Dark Blood Dual Light Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 2.002500057220459
@@ -1352,6 +1403,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 273.75
     TypeColorScheme: 11320
+    name: Dark Blood Dual Light Pulse Laser
   Dark Blood Focused Medium Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 8.7524995803833
@@ -1380,6 +1432,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11320
+    name: Dark Blood Focused Medium Beam Laser
   Dark Blood Focused Medium Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.0
@@ -1407,6 +1460,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11320
+    name: Dark Blood Focused Medium Pulse Laser
   Dark Blood Gatling Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 1.3650000095367432
@@ -1434,6 +1488,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 308.125
     TypeColorScheme: 11320
+    name: Dark Blood Gatling Pulse Laser
   Dark Blood Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.252500534057617
@@ -1462,6 +1517,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11320
+    name: Dark Blood Heavy Beam Laser
   Dark Blood Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.9975004196167
@@ -1489,6 +1545,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 26.0
     TypeColorScheme: 11320
+    name: Dark Blood Heavy Pulse Laser
   Dark Blood Mega Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 39.0
@@ -1516,6 +1573,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11320
+    name: Dark Blood Mega Beam Laser
   Dark Blood Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 27.0
@@ -1543,6 +1601,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.375
     TypeColorScheme: 11320
+    name: Dark Blood Mega Pulse Laser
   Dark Blood Quad Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.087500095367432
@@ -1571,6 +1630,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11320
+    name: Dark Blood Quad Beam Laser
   Dark Blood Quad Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 180.0
@@ -1600,6 +1660,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.5750000476837158
     TypeColorScheme: 11313
+    name: Dark Blood Quad Mega Pulse Laser
   Dark Blood Small Focused Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.768750190734863
@@ -1628,6 +1689,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 90.0
     TypeColorScheme: 11320
+    name: Dark Blood Small Focused Beam Laser
   Dark Blood Small Focused Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.3299999237060547
@@ -1656,6 +1718,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 246.25
     TypeColorScheme: 11320
+    name: Dark Blood Small Focused Pulse Laser
   Dark Blood Tachyon Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 57.0
@@ -1683,6 +1746,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11320
+    name: Dark Blood Tachyon Beam Laser
   Draclira's Modified Dual Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 22.399999618530273
@@ -1710,6 +1774,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.75
     TypeColorScheme: 11311
+    name: Draclira's Modified Dual Heavy Beam Laser
   Draclira's Modified Mega Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 41.599998474121094
@@ -1737,6 +1802,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11311
+    name: Draclira's Modified Mega Beam Laser
   Draclira's Modified Tachyon Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 60.79999923706055
@@ -1764,6 +1830,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11311
+    name: Draclira's Modified Tachyon Beam Laser
   Dual Afocal Heavy Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 26.600000381469727
@@ -1790,6 +1857,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.75
     TypeColorScheme: 11313
+    name: Dual Afocal Heavy Maser I
   Dual Afocal Light Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.619375228881836
@@ -1817,6 +1885,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 117.0
     TypeColorScheme: 11313
+    name: Dual Afocal Light Maser I
   Dual Afocal Pulse Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 2.5364999771118164
@@ -1843,6 +1912,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 273.75
     TypeColorScheme: 11313
+    name: Dual Afocal Pulse Maser I
   Dual Anode Heavy Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 23.799999237060547
@@ -1869,6 +1939,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.75
     TypeColorScheme: 11313
+    name: Dual Anode Heavy Particle Stream I
   Dual Anode Light Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.133124828338623
@@ -1896,6 +1967,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 117.0
     TypeColorScheme: 11313
+    name: Dual Anode Light Particle Stream I
   Dual Anode Pulse Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 2.2695000171661377
@@ -1922,6 +1994,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 273.75
     TypeColorScheme: 11313
+    name: Dual Anode Pulse Particle Stream I
   Dual Giga Beam Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 520.0
@@ -1948,6 +2021,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.0218203105032444
     TypeColorScheme: 11313
+    name: Dual Giga Beam Laser I
   Dual Giga Beam Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 520.0
@@ -1978,6 +2052,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 0.0218203105032444
     TypeColorScheme: 11313
+    name: Dual Giga Beam Laser II
   Dual Giga Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 240.0
@@ -2004,6 +2079,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.03848639875650406
     TypeColorScheme: 11313
+    name: Dual Giga Pulse Laser I
   Dual Giga Pulse Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 320.0
@@ -2034,6 +2110,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 0.03848639875650406
     TypeColorScheme: 11313
+    name: Dual Giga Pulse Laser II
   Dual Heavy Afocal Pulse Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.399999618530273
@@ -2060,6 +2137,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.75
     TypeColorScheme: 11313
+    name: Dual Heavy Afocal Pulse Maser I
   Dual Heavy Anode Pulse Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 19.100000381469727
@@ -2086,6 +2164,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.75
     TypeColorScheme: 11313
+    name: Dual Heavy Anode Pulse Particle Stream I
   Dual Heavy Beam Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 28.0
@@ -2111,6 +2190,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.75
     TypeColorScheme: 11313
+    name: Dual Heavy Beam Laser I
   Dual Heavy Beam Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 28.0
@@ -2140,6 +2220,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 1.75
     TypeColorScheme: 11314
+    name: Dual Heavy Beam Laser II
   Dual Heavy Modal Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 20.299999237060547
@@ -2166,6 +2247,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.75
     TypeColorScheme: 11313
+    name: Dual Heavy Modal Pulse Laser I
   Dual Heavy Modulated Pulse Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 18.0
@@ -2192,6 +2274,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.75
     TypeColorScheme: 11313
+    name: Dual Heavy Modulated Pulse Energy Beam I
   Dual Heavy Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 22.5
@@ -2217,6 +2300,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.75
     TypeColorScheme: 11313
+    name: Dual Heavy Pulse Laser I
   Dual Heavy Pulse Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 22.5
@@ -2246,6 +2330,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 3.75
     TypeColorScheme: 11314
+    name: Dual Heavy Pulse Laser II
   Dual Light Beam Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.862500190734863
@@ -2272,6 +2357,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 117.0
     TypeColorScheme: 11313
+    name: Dual Light Beam Laser I
   Dual Light Beam Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.862500190734863
@@ -2302,6 +2388,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 117.0
     TypeColorScheme: 11314
+    name: Dual Light Beam Laser II
   Dual Light Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 2.6700000762939453
@@ -2327,6 +2414,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 273.75
     TypeColorScheme: 11313
+    name: Dual Light Pulse Laser I
   Dual Light Pulse Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 2.6700000762939453
@@ -2356,6 +2444,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 273.75
     TypeColorScheme: 11314
+    name: Dual Light Pulse Laser II
   Dual Modal Heavy Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 25.200000762939453
@@ -2382,6 +2471,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.75
     TypeColorScheme: 11313
+    name: Dual Modal Heavy Laser I
   Dual Modal Light Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.37624979019165
@@ -2409,6 +2499,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 117.0
     TypeColorScheme: 11313
+    name: Dual Modal Light Laser I
   Dual Modal Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 2.4030001163482666
@@ -2435,6 +2526,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 273.75
     TypeColorScheme: 11313
+    name: Dual Modal Pulse Laser I
   Dual Modulated Heavy Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 22.399999618530273
@@ -2461,6 +2553,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.75
     TypeColorScheme: 11313
+    name: Dual Modulated Heavy Energy Beam I
   Dual Modulated Light Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.890000104904175
@@ -2487,6 +2580,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 117.0
     TypeColorScheme: 11313
+    name: Dual Modulated Light Energy Beam I
   Dual Modulated Pulse Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 2.135999917984009
@@ -2513,6 +2607,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 273.75
     TypeColorScheme: 11313
+    name: Dual Modulated Pulse Energy Beam I
   Focused Afocal Medium Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 11.08650016784668
@@ -2540,6 +2635,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11313
+    name: Focused Afocal Medium Maser I
   Focused Afocal Pulse Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 7.599999904632568
@@ -2566,6 +2662,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11313
+    name: Focused Afocal Pulse Maser I
   Focused Anode Medium Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.919500350952148
@@ -2593,6 +2690,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11313
+    name: Focused Anode Medium Particle Stream I
   Focused Anode Pulse Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.800000190734863
@@ -2619,6 +2717,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11313
+    name: Focused Anode Pulse Particle Stream I
   Focused Medium Beam Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 11.670000076293945
@@ -2645,6 +2744,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11313
+    name: Focused Medium Beam Laser I
   Focused Medium Beam Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 11.670000076293945
@@ -2675,6 +2775,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11314
+    name: Focused Medium Beam Laser II
   Focused Medium Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 8.0
@@ -2700,6 +2801,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11313
+    name: Focused Medium Pulse Laser I
   Focused Medium Pulse Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 8.0
@@ -2729,6 +2831,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11314
+    name: Focused Medium Pulse Laser II
   Focused Modal Medium Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 10.503000259399414
@@ -2756,6 +2859,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11313
+    name: Focused Modal Medium Laser I
   Focused Modal Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 7.199999809265137
@@ -2782,6 +2886,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11313
+    name: Focused Modal Pulse Laser I
   Focused Modulated Medium Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.336000442504883
@@ -2809,6 +2914,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11313
+    name: Focused Modulated Medium Energy Beam I
   Focused Modulated Pulse Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.400000095367432
@@ -2835,6 +2941,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11313
+    name: Focused Modulated Pulse Energy Beam I
   Gatling Afocal Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 1.7289999723434448
@@ -2861,6 +2968,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 308.125
     TypeColorScheme: 11313
+    name: Gatling Afocal Maser I
   Gatling Anode Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 1.5470000505447388
@@ -2887,6 +2995,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 308.125
     TypeColorScheme: 11313
+    name: Gatling Anode Particle Stream I
   Gatling Modal Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 1.6380000114440918
@@ -2913,6 +3022,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 308.125
     TypeColorScheme: 11313
+    name: Gatling Modal Laser I
   Gatling Modulated Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 1.4559999704360962
@@ -2939,6 +3049,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 308.125
     TypeColorScheme: 11313
+    name: Gatling Modulated Energy Beam I
   Gatling Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 1.8200000524520874
@@ -2964,6 +3075,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 308.125
     TypeColorScheme: 11313
+    name: Gatling Pulse Laser I
   Gatling Pulse Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 1.8200000524520874
@@ -2993,6 +3105,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 308.125
     TypeColorScheme: 11314
+    name: Gatling Pulse Laser II
   Heavy Afocal Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 20.58650016784668
@@ -3020,6 +3133,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11313
+    name: Heavy Afocal Maser I
   Heavy Afocal Pulse Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 12.66349983215332
@@ -3046,6 +3160,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 26.0
     TypeColorScheme: 11313
+    name: Heavy Afocal Pulse Maser I
   Heavy Anode Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 18.41950035095215
@@ -3073,6 +3188,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11313
+    name: Heavy Anode Particle Stream I
   Heavy Anode Pulse Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 11.330499649047852
@@ -3099,6 +3215,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 26.0
     TypeColorScheme: 11313
+    name: Heavy Anode Pulse Particle Stream I
   Heavy Beam Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.670000076293945
@@ -3125,6 +3242,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11313
+    name: Heavy Beam Laser I
   Heavy Beam Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.670000076293945
@@ -3155,6 +3273,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11314
+    name: Heavy Beam Laser II
   Heavy Modal Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 19.503000259399414
@@ -3182,6 +3301,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11313
+    name: Heavy Modal Laser I
   Heavy Modal Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 11.996999740600586
@@ -3208,6 +3328,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 26.0
     TypeColorScheme: 11313
+    name: Heavy Modal Pulse Laser I
   Heavy Modulated Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 17.336000442504883
@@ -3235,6 +3356,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11313
+    name: Heavy Modulated Energy Beam I
   Heavy Modulated Pulse Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 10.663999557495117
@@ -3261,6 +3383,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 26.0
     TypeColorScheme: 11313
+    name: Heavy Modulated Pulse Energy Beam I
   Heavy Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 13.329999923706055
@@ -3286,6 +3409,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 26.0
     TypeColorScheme: 11313
+    name: Heavy Pulse Laser I
   Heavy Pulse Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 13.329999923706055
@@ -3315,6 +3439,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 26.0
     TypeColorScheme: 11314
+    name: Heavy Pulse Laser II
   Imperial Navy Dual Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.0
@@ -3342,6 +3467,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.75
     TypeColorScheme: 11310
+    name: Imperial Navy Dual Heavy Beam Laser
   Imperial Navy Dual Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.899999618530273
@@ -3369,6 +3495,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.75
     TypeColorScheme: 11310
+    name: Imperial Navy Dual Heavy Pulse Laser
   Imperial Navy Dual Light Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.6468749046325684
@@ -3397,6 +3524,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 117.0
     TypeColorScheme: 11310
+    name: Imperial Navy Dual Light Beam Laser
   Imperial Navy Dual Light Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 2.002500057220459
@@ -3424,6 +3552,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 273.75
     TypeColorScheme: 11310
+    name: Imperial Navy Dual Light Pulse Laser
   Imperial Navy Focused Medium Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 8.7524995803833
@@ -3452,6 +3581,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11310
+    name: Imperial Navy Focused Medium Beam Laser
   Imperial Navy Focused Medium Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.0
@@ -3479,6 +3609,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11310
+    name: Imperial Navy Focused Medium Pulse Laser
   Imperial Navy Gatling Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 1.3650000095367432
@@ -3506,6 +3637,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 308.125
     TypeColorScheme: 11310
+    name: Imperial Navy Gatling Pulse Laser
   Imperial Navy Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.252500534057617
@@ -3534,6 +3666,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11310
+    name: Imperial Navy Heavy Beam Laser
   Imperial Navy Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.9975004196167
@@ -3561,6 +3694,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 26.0
     TypeColorScheme: 11310
+    name: Imperial Navy Heavy Pulse Laser
   Imperial Navy Mega Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 39.0
@@ -3588,6 +3722,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11310
+    name: Imperial Navy Mega Beam Laser
   Imperial Navy Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 27.0
@@ -3615,6 +3750,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.375
     TypeColorScheme: 11310
+    name: Imperial Navy Mega Pulse Laser
   Imperial Navy Quad Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.087500095367432
@@ -3643,6 +3779,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11310
+    name: Imperial Navy Quad Beam Laser
   Imperial Navy Small Focused Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.768750190734863
@@ -3671,6 +3808,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 90.0
     TypeColorScheme: 11310
+    name: Imperial Navy Small Focused Beam Laser
   Imperial Navy Small Focused Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.3299999237060547
@@ -3699,6 +3837,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 246.25
     TypeColorScheme: 11310
+    name: Imperial Navy Small Focused Pulse Laser
   Imperial Navy Tachyon Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 57.0
@@ -3726,6 +3865,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11310
+    name: Imperial Navy Tachyon Beam Laser
   Luther Veron's Modified Dual Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 22.399999618530273
@@ -3753,6 +3893,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.75
     TypeColorScheme: 11312
+    name: Luther Veron's Modified Dual Heavy Beam Laser
   Luther Veron's Modified Mega Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 41.599998474121094
@@ -3780,6 +3921,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11312
+    name: Luther Veron's Modified Mega Beam Laser
   Luther Veron's Modified Tachyon Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 59.20000076293945
@@ -3807,6 +3949,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11312
+    name: Luther Veron's Modified Tachyon Beam Laser
   Lux Kontos:
     AITankingModifierDrone: 0.7
     DamageMultiplier: 1.0
@@ -3815,6 +3958,7 @@ items:
     ReloadTime: 0.009999999776482582
     Slots: 1
     TechLevel: 1
+    name: Lux Kontos
   Makur's Modified Dual Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     DamageMultiplier: 1.0
@@ -3823,6 +3967,7 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    name: Makur's Modified Dual Heavy Beam Laser
   Makur's Modified Mega Beam Laser:
     AITankingModifierDrone: 0.7
     DamageMultiplier: 1.0
@@ -3831,6 +3976,7 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    name: Makur's Modified Mega Beam Laser
   Mega Afocal Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 49.400001525878906
@@ -3857,6 +4003,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11313
+    name: Mega Afocal Maser I
   Mega Afocal Pulse Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 34.20000076293945
@@ -3883,6 +4030,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.375
     TypeColorScheme: 11313
+    name: Mega Afocal Pulse Maser I
   Mega Anode Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 44.20000076293945
@@ -3909,6 +4057,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11313
+    name: Mega Anode Particle Stream I
   Mega Anode Pulse Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 30.600000381469727
@@ -3935,6 +4084,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.375
     TypeColorScheme: 11313
+    name: Mega Anode Pulse Particle Stream I
   Mega Beam Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 52.0
@@ -3960,6 +4110,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11313
+    name: Mega Beam Laser I
   Mega Beam Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 52.0
@@ -3989,6 +4140,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 1.53125
     TypeColorScheme: 11314
+    name: Mega Beam Laser II
   Mega Modal Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 46.79999923706055
@@ -4015,6 +4167,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11313
+    name: Mega Modal Laser I
   Mega Modal Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 32.400001525878906
@@ -4041,6 +4194,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.375
     TypeColorScheme: 11313
+    name: Mega Modal Pulse Laser I
   Mega Modulated Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 41.599998474121094
@@ -4067,6 +4221,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11313
+    name: Mega Modulated Energy Beam I
   Mega Modulated Pulse Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 28.799999237060547
@@ -4093,6 +4248,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.375
     TypeColorScheme: 11313
+    name: Mega Modulated Pulse Energy Beam I
   Mega Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 36.0
@@ -4118,6 +4274,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.375
     TypeColorScheme: 11313
+    name: Mega Pulse Laser I
   Mega Pulse Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 36.0
@@ -4147,6 +4304,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 3.375
     TypeColorScheme: 11314
+    name: Mega Pulse Laser II
   Modal Enduring Dual Giga Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 468.0
@@ -4174,6 +4332,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.0218203105032444
     TypeColorScheme: 11313
+    name: Modal Enduring Dual Giga Beam Laser
   Modal Enduring Dual Giga Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 288.0
@@ -4201,6 +4360,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.03848639875650406
     TypeColorScheme: 11313
+    name: Modal Enduring Dual Giga Pulse Laser
   Modal Enduring Quad Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 162.0
@@ -4228,6 +4388,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.5
     TypeColorScheme: 11313
+    name: Modal Enduring Quad Mega Pulse Laser
   Modulated Compact Dual Giga Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 520.0
@@ -4255,6 +4416,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.0218203105032444
     TypeColorScheme: 11313
+    name: Modulated Compact Dual Giga Beam Laser
   Modulated Compact Dual Giga Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 320.0
@@ -4282,6 +4444,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.03848639875650406
     TypeColorScheme: 11313
+    name: Modulated Compact Dual Giga Pulse Laser
   Modulated Compact Quad Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 180.0
@@ -4309,6 +4472,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.5
     TypeColorScheme: 11313
+    name: Modulated Compact Quad Mega Pulse Laser
   Polarized Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.9975004196167
@@ -4341,6 +4505,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 29.90015983581543
     TypeColorScheme: 11461
+    name: Polarized Heavy Pulse Laser
   Polarized Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 27.0
@@ -4373,6 +4538,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 3.8812999725341797
     TypeColorScheme: 11461
+    name: Polarized Mega Pulse Laser
   Polarized Small Focused Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.3299999237060547
@@ -4405,6 +4571,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 283.18798828125
     TypeColorScheme: 11461
+    name: Polarized Small Focused Pulse Laser
   Quad Afocal Light Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 5.177499771118164
@@ -4432,6 +4599,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11313
+    name: Quad Afocal Light Maser I
   Quad Anode Light Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.632500171661377
@@ -4459,6 +4627,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11313
+    name: Quad Anode Light Particle Stream I
   Quad Light Beam Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 5.449999809265137
@@ -4485,6 +4654,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11313
+    name: Quad Light Beam Laser I
   Quad Light Beam Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 5.449999809265137
@@ -4515,6 +4685,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11314
+    name: Quad Light Beam Laser II
   Quad Mega Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 180.0
@@ -4541,6 +4712,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.5
     TypeColorScheme: 11313
+    name: Quad Mega Pulse Laser I
   Quad Mega Pulse Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 180.0
@@ -4571,6 +4743,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 1.5
     TypeColorScheme: 11313
+    name: Quad Mega Pulse Laser II
   Quad Modal Light Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.90500020980835
@@ -4598,6 +4771,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11313
+    name: Quad Modal Light Laser I
   Quad Modulated Light Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.360000133514404
@@ -4625,6 +4799,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11313
+    name: Quad Modulated Light Energy Beam I
   Raysere's Modified Dual Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.0
@@ -4652,6 +4827,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.75
     TypeColorScheme: 11311
+    name: Raysere's Modified Dual Heavy Beam Laser
   Raysere's Modified Mega Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 39.0
@@ -4679,6 +4855,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11311
+    name: Raysere's Modified Mega Beam Laser
   Raysere's Modified Tachyon Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 57.0
@@ -4705,6 +4882,7 @@ items:
     Speed: 12500
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
+    name: Raysere's Modified Tachyon Beam Laser
   Selynne's Modified Dual Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.0
@@ -4732,6 +4910,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.75
     TypeColorScheme: 11311
+    name: Selynne's Modified Dual Heavy Beam Laser
   Selynne's Modified Mega Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 39.0
@@ -4759,6 +4938,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11311
+    name: Selynne's Modified Mega Beam Laser
   Selynne's Modified Tachyon Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 57.0
@@ -4786,6 +4966,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11311
+    name: Selynne's Modified Tachyon Beam Laser
   Sleeper Turret Large:
     AITankingModifierDrone: 0.7
     DamageMultiplier: 1.0
@@ -4794,6 +4975,7 @@ items:
     ReloadTime: 0.009999999776482582
     Slots: 1
     TechLevel: 1
+    name: Sleeper Turret Large
   Sleeper Turret Medium:
     AITankingModifierDrone: 0.7
     DamageMultiplier: 1.0
@@ -4802,6 +4984,7 @@ items:
     ReloadTime: 0.009999999776482582
     Slots: 1
     TechLevel: 1
+    name: Sleeper Turret Medium
   Sleeper Turret Small:
     AITankingModifierDrone: 0.7
     DamageMultiplier: 1.0
@@ -4810,6 +4993,7 @@ items:
     ReloadTime: 0.009999999776482582
     Slots: 1
     TechLevel: 1
+    name: Sleeper Turret Small
   Small Focused Afocal Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 8.573749542236328
@@ -4837,6 +5021,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 90.0
     TypeColorScheme: 11313
+    name: Small Focused Afocal Maser I
   Small Focused Afocal Pulse Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.2179999351501465
@@ -4864,6 +5049,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 246.25
     TypeColorScheme: 11313
+    name: Small Focused Afocal Pulse Maser I
   Small Focused Anode Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 7.671249866485596
@@ -4891,6 +5077,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 90.0
     TypeColorScheme: 11313
+    name: Small Focused Anode Particle Stream I
   Small Focused Anode Pulse Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.7739999294281006
@@ -4918,6 +5105,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 246.25
     TypeColorScheme: 11313
+    name: Small Focused Anode Pulse Particle Stream I
   Small Focused Beam Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.024999618530273
@@ -4944,6 +5132,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 90.0
     TypeColorScheme: 11313
+    name: Small Focused Beam Laser I
   Small Focused Beam Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.024999618530273
@@ -4974,6 +5163,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 90.0
     TypeColorScheme: 11314
+    name: Small Focused Beam Laser II
   Small Focused Modal Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 8.1225004196167
@@ -5001,6 +5191,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 90.0
     TypeColorScheme: 11313
+    name: Small Focused Modal Laser I
   Small Focused Modal Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.996000051498413
@@ -5028,6 +5219,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 246.25
     TypeColorScheme: 11313
+    name: Small Focused Modal Pulse Laser I
   Small Focused Modulated Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 7.21999979019165
@@ -5055,6 +5247,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 90.0
     TypeColorScheme: 11313
+    name: Small Focused Modulated Energy Beam I
   Small Focused Modulated Pulse Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.552000045776367
@@ -5082,6 +5275,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 246.25
     TypeColorScheme: 11313
+    name: Small Focused Modulated Pulse Energy Beam I
   Small Focused Pulse Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.440000057220459
@@ -5108,6 +5302,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 246.25
     TypeColorScheme: 11313
+    name: Small Focused Pulse Laser I
   Small Focused Pulse Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.440000057220459
@@ -5138,6 +5333,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 246.25
     TypeColorScheme: 11314
+    name: Small Focused Pulse Laser II
   Tachyon Afocal Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 72.19999694824219
@@ -5164,6 +5360,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11313
+    name: Tachyon Afocal Maser I
   Tachyon Anode Particle Stream I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 64.5999984741211
@@ -5190,6 +5387,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11313
+    name: Tachyon Anode Particle Stream I
   Tachyon Beam Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 76.0
@@ -5215,6 +5413,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11313
+    name: Tachyon Beam Laser I
   Tachyon Beam Laser II:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 76.0
@@ -5244,6 +5443,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11314
+    name: Tachyon Beam Laser II
   Tachyon Modal Laser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 68.4000015258789
@@ -5270,6 +5470,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11313
+    name: Tachyon Modal Laser I
   Tachyon Modulated Energy Beam I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 60.79999923706055
@@ -5296,6 +5497,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11313
+    name: Tachyon Modulated Energy Beam I
   Tairei's Modified Dual Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.899999618530273
@@ -5323,6 +5525,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.75
     TypeColorScheme: 11311
+    name: Tairei's Modified Dual Heavy Pulse Laser
   Tairei's Modified Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 27.0
@@ -5350,6 +5553,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.375
     TypeColorScheme: 11311
+    name: Tairei's Modified Mega Pulse Laser
   Test Resistance Small Laser 2:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.3299999237060547
@@ -5376,6 +5580,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 246.25
     TypeColorScheme: 11320
+    name: Test Resistance Small Laser 2
   True Sansha Dual Giga Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 468.0
@@ -5405,6 +5610,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.022911325097084045
     TypeColorScheme: 11313
+    name: True Sansha Dual Giga Beam Laser
   True Sansha Dual Giga Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 288.0
@@ -5434,6 +5640,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.04041071981191635
     TypeColorScheme: 11313
+    name: True Sansha Dual Giga Pulse Laser
   True Sansha Dual Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 21.0
@@ -5461,6 +5668,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.75
     TypeColorScheme: 11349
+    name: True Sansha Dual Heavy Beam Laser
   True Sansha Dual Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.899999618530273
@@ -5488,6 +5696,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.75
     TypeColorScheme: 11349
+    name: True Sansha Dual Heavy Pulse Laser
   True Sansha Dual Light Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.6468749046325684
@@ -5516,6 +5725,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 117.0
     TypeColorScheme: 11349
+    name: True Sansha Dual Light Beam Laser
   True Sansha Dual Light Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 2.002500057220459
@@ -5543,6 +5753,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 273.75
     TypeColorScheme: 11349
+    name: True Sansha Dual Light Pulse Laser
   True Sansha Focused Medium Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 8.7524995803833
@@ -5571,6 +5782,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11349
+    name: True Sansha Focused Medium Beam Laser
   True Sansha Focused Medium Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.0
@@ -5598,6 +5810,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11349
+    name: True Sansha Focused Medium Pulse Laser
   True Sansha Gatling Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 1.3650000095367432
@@ -5625,6 +5838,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 308.125
     TypeColorScheme: 11349
+    name: True Sansha Gatling Pulse Laser
   True Sansha Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 16.252500534057617
@@ -5653,6 +5867,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11349
+    name: True Sansha Heavy Beam Laser
   True Sansha Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 9.9975004196167
@@ -5680,6 +5895,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 26.0
     TypeColorScheme: 11349
+    name: True Sansha Heavy Pulse Laser
   True Sansha Mega Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 39.0
@@ -5707,6 +5923,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.53125
     TypeColorScheme: 11349
+    name: True Sansha Mega Beam Laser
   True Sansha Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 27.0
@@ -5734,6 +5951,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.375
     TypeColorScheme: 11349
+    name: True Sansha Mega Pulse Laser
   True Sansha Quad Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 4.087500095367432
@@ -5762,6 +5980,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11349
+    name: True Sansha Quad Beam Laser
   True Sansha Quad Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 180.0
@@ -5791,6 +6010,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.5750000476837158
     TypeColorScheme: 11313
+    name: True Sansha Quad Mega Pulse Laser
   True Sansha Small Focused Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 6.768750190734863
@@ -5819,6 +6039,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 90.0
     TypeColorScheme: 11349
+    name: True Sansha Small Focused Beam Laser
   True Sansha Small Focused Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 3.3299999237060547
@@ -5847,6 +6068,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 246.25
     TypeColorScheme: 11349
+    name: True Sansha Small Focused Pulse Laser
   True Sansha Tachyon Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 57.0
@@ -5874,6 +6096,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11349
+    name: True Sansha Tachyon Beam Laser
   Vizan's Modified Dual Heavy Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 18.0
@@ -5901,6 +6124,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.75
     TypeColorScheme: 11311
+    name: Vizan's Modified Dual Heavy Pulse Laser
   Vizan's Modified Mega Pulse Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 28.799999237060547
@@ -5928,3 +6152,4 @@ items:
     TechLevel: 1
     TrackingSpeed: 3.375
     TypeColorScheme: 11311
+    name: Vizan's Modified Mega Pulse Laser

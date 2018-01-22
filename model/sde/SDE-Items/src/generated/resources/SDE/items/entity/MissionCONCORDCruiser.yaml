@@ -1,7 +1,13 @@
 items:
-  DED Captain: {}
-  DED Officer 1st Class: {}
-  DED Officer 1st Class Vessel: {}
-  DED Officer 2nd Class: {}
-  DED Officer 3rd Class: {}
-  DED Special Ops Raptor: {}
+  DED Captain:
+    name: DED Captain
+  DED Officer 1st Class:
+    name: DED Officer 1st Class
+  DED Officer 1st Class Vessel:
+    name: DED Officer 1st Class Vessel
+  DED Officer 2nd Class:
+    name: DED Officer 2nd Class
+  DED Officer 3rd Class:
+    name: DED Officer 3rd Class
+  DED Special Ops Raptor:
+    name: DED Special Ops Raptor

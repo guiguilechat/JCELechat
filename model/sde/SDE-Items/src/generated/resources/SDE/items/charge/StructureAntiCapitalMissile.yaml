@@ -17,6 +17,7 @@ items:
     StructureItemVisualFlag: 1
     StructureUniformity: 0.75
     ThermalDamage: 20000.0
+    name: Standup AXL-C Missile
   Standup AXL-S Missile:
     Agility: 1000.0
     AimedLaunch: 1
@@ -35,6 +36,7 @@ items:
     StructureItemVisualFlag: 1
     StructureUniformity: 0.75
     ThermalDamage: 30000.0
+    name: Standup AXL-S Missile
   Standup AXL-SR Missile:
     Agility: 1000.0
     AimedLaunch: 1
@@ -52,3 +54,4 @@ items:
     StructureItemVisualFlag: 1
     StructureUniformity: 0.75
     ThermalDamage: 23000.0
+    name: Standup AXL-SR Missile

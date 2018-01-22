@@ -51,6 +51,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Heavy Armor Maintenance Bot I
   Heavy Armor Maintenance Bot II:
     Agility: 100.0
     ArmorDamageAmount: 72
@@ -104,6 +105,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Heavy Armor Maintenance Bot II
   Heavy Hull Maintenance Bot I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -157,6 +159,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Heavy Hull Maintenance Bot I
   Heavy Hull Maintenance Bot II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -211,6 +214,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Heavy Hull Maintenance Bot II
   Heavy Shield Maintenance Bot I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -263,6 +267,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Heavy Shield Maintenance Bot I
   Heavy Shield Maintenance Bot II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -316,6 +321,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Heavy Shield Maintenance Bot II
   Light Armor Maintenance Bot I:
     Agility: 100.0
     ArmorDamageAmount: 12
@@ -368,6 +374,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Light Armor Maintenance Bot I
   Light Armor Maintenance Bot II:
     Agility: 100.0
     ArmorDamageAmount: 14
@@ -421,6 +428,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Light Armor Maintenance Bot II
   Light Hull Maintenance Bot I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -474,6 +482,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Light Hull Maintenance Bot I
   Light Hull Maintenance Bot II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -528,6 +537,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Light Hull Maintenance Bot II
   Light Shield Maintenance Bot I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -580,6 +590,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Light Shield Maintenance Bot I
   Light Shield Maintenance Bot II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -633,6 +644,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Light Shield Maintenance Bot II
   Medium Armor Maintenance Bot I:
     Agility: 100.0
     ArmorDamageAmount: 24
@@ -685,6 +697,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Medium Armor Maintenance Bot I
   Medium Armor Maintenance Bot II:
     Agility: 100.0
     ArmorDamageAmount: 28
@@ -738,6 +751,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Medium Armor Maintenance Bot II
   Medium Hull Maintenance Bot I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -791,6 +805,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Medium Hull Maintenance Bot I
   Medium Hull Maintenance Bot II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -845,6 +860,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Medium Hull Maintenance Bot II
   Medium Shield Maintenance Bot I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -897,6 +913,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Medium Shield Maintenance Bot I
   Medium Shield Maintenance Bot II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -950,3 +967,4 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Medium Shield Maintenance Bot II

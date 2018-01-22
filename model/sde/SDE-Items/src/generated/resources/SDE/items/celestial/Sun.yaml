@@ -1,15 +1,29 @@
 items:
-  Sun A0 (Blue Small): {}
-  Sun A0IV (Turbulent Blue Subgiant): {}
-  Sun B0 (Blue): {}
-  Sun B5 (White Dwarf): {}
-  Sun F0 (White): {}
-  Sun G3 (Pink Small): {}
-  Sun G5 (Pink): {}
-  Sun G5 (Yellow): {}
-  Sun K3 (Yellow Small): {}
-  Sun K5 (Orange Bright): {}
-  Sun K5 (Red Giant): {}
-  Sun K7 (Orange): {}
-  Sun M0 (Orange radiant): {}
-  Sun O1 (Blue Bright): {}
+  Sun A0 (Blue Small):
+    name: Sun A0 (Blue Small)
+  Sun A0IV (Turbulent Blue Subgiant):
+    name: Sun A0IV (Turbulent Blue Subgiant)
+  Sun B0 (Blue):
+    name: Sun B0 (Blue)
+  Sun B5 (White Dwarf):
+    name: Sun B5 (White Dwarf)
+  Sun F0 (White):
+    name: Sun F0 (White)
+  Sun G3 (Pink Small):
+    name: Sun G3 (Pink Small)
+  Sun G5 (Pink):
+    name: Sun G5 (Pink)
+  Sun G5 (Yellow):
+    name: Sun G5 (Yellow)
+  Sun K3 (Yellow Small):
+    name: Sun K3 (Yellow Small)
+  Sun K5 (Orange Bright):
+    name: Sun K5 (Orange Bright)
+  Sun K5 (Red Giant):
+    name: Sun K5 (Red Giant)
+  Sun K7 (Orange):
+    name: Sun K7 (Orange)
+  Sun M0 (Orange radiant):
+    name: Sun M0 (Orange radiant)
+  Sun O1 (Blue Bright):
+    name: Sun O1 (Blue Bright)

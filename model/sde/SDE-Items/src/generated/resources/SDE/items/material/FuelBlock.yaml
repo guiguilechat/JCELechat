@@ -1,6 +1,11 @@
 items:
-  Generic Fuel Block: {}
-  Helium Fuel Block: {}
-  Hydrogen Fuel Block: {}
-  Nitrogen Fuel Block: {}
-  Oxygen Fuel Block: {}
+  Generic Fuel Block:
+    name: Generic Fuel Block
+  Helium Fuel Block:
+    name: Helium Fuel Block
+  Hydrogen Fuel Block:
+    name: Hydrogen Fuel Block
+  Nitrogen Fuel Block:
+    name: Nitrogen Fuel Block
+  Oxygen Fuel Block:
+    name: Oxygen Fuel Block

@@ -20,3 +20,4 @@ items:
     RequiredThermoDynamicsSkill: 1
     ResistanceShiftAmount: 6
     TechLevel: 1
+    name: Reactive Armor Hardener

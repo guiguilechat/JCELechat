@@ -6,6 +6,7 @@ items:
     StructureRigBonus1: 32
     TechLevel: 1
     UpgradeCost: 100
+    name: Large Tech II Component Research I
   Large Tech II Component Research II:
     CanFitShipGroup01: 1657
     Hp: 40
@@ -13,3 +14,4 @@ items:
     StructureRigBonus1: 40
     TechLevel: 2
     UpgradeCost: 150
+    name: Large Tech II Component Research II

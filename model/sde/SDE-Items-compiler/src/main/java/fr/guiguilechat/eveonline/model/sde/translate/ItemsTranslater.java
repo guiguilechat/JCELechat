@@ -48,6 +48,7 @@ public class ItemsTranslater {
 	public void translate(CompiledClassesData classes, File destFolder, String resFolder) {
 		long startTime = System.currentTimeMillis();
 		JCodeModel cm = classes.model;
+		makeLoadMethod(classes.metaInfClass, cm, "SDE/items/metainf.yaml", false);
 		DynamicClassLoader cl = new DynamicClassLoader(getClass().getClassLoader()).withCode(cm);
 		// filepath->item name -> object
 		// eg mycategory/mygroup.yaml -> item1-> new MyGroup()
@@ -71,7 +72,7 @@ public class ItemsTranslater {
 				nameField.setAccessible(true);
 				nameField.set(item, type.enName());
 			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e1) {
-				throw new UnsupportedOperationException("catch this", e1);
+				throw new UnsupportedOperationException("for class " + item.getClass(), e1);
 			}
 			LinkedHashMap<String, Object> m = exportItems.get(fileName);
 			if (m == null) {
@@ -173,8 +174,6 @@ public class ItemsTranslater {
 			throw new UnsupportedOperationException("catch this", e1);
 		}
 
-		makeLoadMethod(classes.metaInfClass, cm, "SDE/items/metainf.yaml", false);
-
 
 		logger.info("translated items in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 	}
@@ -183,7 +182,6 @@ public class ItemsTranslater {
 		try {
 			Class<?> clazz = cl.loadClass(string);
 			Object ret = clazz.newInstance();
-
 			ret.getClass().getMethod("loadDefault").invoke(ret);
 			return ret;
 		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException | NoSuchMethodException

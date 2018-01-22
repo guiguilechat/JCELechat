@@ -35,6 +35,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: QA Salvage Drone
   Salvage Drone I:
     AccessDifficultyBonus: 3
     ArmorHP: 20
@@ -69,3 +70,4 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Salvage Drone I

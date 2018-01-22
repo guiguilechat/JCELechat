@@ -2,113 +2,153 @@ items:
   '''Abatis'' 100mm Steel Plates I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Abatis'' 100mm Steel Plates I Blueprint'
   '''Bailey'' 1600mm Steel Plates Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: '''Bailey'' 1600mm Steel Plates Blueprint'
   '''Barbican'' 800mm Steel Plates Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Barbican'' 800mm Steel Plates Blueprint'
   '''Bastion'' 400mm Steel Plates Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Bastion'' 400mm Steel Plates Blueprint'
   '''Chainmail'' 200mm Steel Plates Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Chainmail'' 200mm Steel Plates Blueprint'
   '''Citadella'' 100mm Steel Plates Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Citadella'' 100mm Steel Plates Blueprint'
   100mm Steel Plates I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: 100mm Steel Plates I Blueprint
   100mm Steel Plates II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: 100mm Steel Plates II Blueprint
   1600mm Steel Plates I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: 1600mm Steel Plates I Blueprint
   1600mm Steel Plates II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: 1600mm Steel Plates II Blueprint
   200mm Steel Plates I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: 200mm Steel Plates I Blueprint
   200mm Steel Plates II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: 200mm Steel Plates II Blueprint
   25000mm Crystalline Carbonide Restrained Plates Blueprint:
     TechLevel: 1
+    name: 25000mm Crystalline Carbonide Restrained Plates Blueprint
   25000mm Rolled Tungsten Compact Plates Blueprint:
     TechLevel: 1
+    name: 25000mm Rolled Tungsten Compact Plates Blueprint
   25000mm Steel Plates I Blueprint:
     TechLevel: 1
+    name: 25000mm Steel Plates I Blueprint
   25000mm Steel Plates II Blueprint:
     TechLevel: 1
+    name: 25000mm Steel Plates II Blueprint
   400mm Steel Plates I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: 400mm Steel Plates I Blueprint
   400mm Steel Plates II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: 400mm Steel Plates II Blueprint
   50mm Steel Plates I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: 50mm Steel Plates I Blueprint
   50mm Steel Plates II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: 50mm Steel Plates II Blueprint
   800mm Steel Plates I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: 800mm Steel Plates I Blueprint
   800mm Steel Plates II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: 800mm Steel Plates II Blueprint
   CONCORD 25000mm Steel Plates Blueprint:
     TechLevel: 1
+    name: CONCORD 25000mm Steel Plates Blueprint
   Dark Blood 25000mm Steel Plates Blueprint:
     TechLevel: 1
+    name: Dark Blood 25000mm Steel Plates Blueprint
   Federation Navy 100mm Steel Plates Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy 100mm Steel Plates Blueprint
   Federation Navy 1600mm Steel Plates Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Federation Navy 1600mm Steel Plates Blueprint
   Federation Navy 200mm Steel Plates Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy 200mm Steel Plates Blueprint
   Federation Navy 400mm Steel Plates Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy 400mm Steel Plates Blueprint
   Federation Navy 800mm Steel Plates Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Federation Navy 800mm Steel Plates Blueprint
   Imperial Navy 100mm Steel Plates Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy 100mm Steel Plates Blueprint
   Imperial Navy 1600mm Steel Plates Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Imperial Navy 1600mm Steel Plates Blueprint
   Imperial Navy 200mm Steel Plates Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy 200mm Steel Plates Blueprint
   Imperial Navy 400mm Steel Plates Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy 400mm Steel Plates Blueprint
   Imperial Navy 800mm Steel Plates Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Imperial Navy 800mm Steel Plates Blueprint
   Shadow Serpentis 25000mm Steel Plates Blueprint:
     TechLevel: 1
+    name: Shadow Serpentis 25000mm Steel Plates Blueprint
   Syndicate 100mm Steel Plates Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Syndicate 100mm Steel Plates Blueprint
   Syndicate 1600mm Steel Plates Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Syndicate 1600mm Steel Plates Blueprint
   Syndicate 200mm Steel Plates Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Syndicate 200mm Steel Plates Blueprint
   Syndicate 400mm Steel Plates Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Syndicate 400mm Steel Plates Blueprint
   Syndicate 800mm Steel Plates Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Syndicate 800mm Steel Plates Blueprint

@@ -14,6 +14,7 @@ locations:
     hasHub: true
     id: 20000042
     isWormhole: false
+    name: 0-8MWQ
     systems:
     - LS9B-9
     - ZLZ-1Z
@@ -32,6 +33,7 @@ locations:
     hasHub: true
     id: 20000117
     isWormhole: false
+    name: 0-YMZM
     systems:
     - EUU-4N
     - 0-VG7A
@@ -57,6 +59,7 @@ locations:
     hasHub: true
     id: 20000103
     isWormhole: false
+    name: 02QH-A
     systems:
     - JLO-Z3
     - LQ-OAI
@@ -75,6 +78,7 @@ locations:
     hasHub: true
     id: 20000130
     isWormhole: false
+    name: 03C-SU
     systems:
     - V7-FB4
     - W-UQA5
@@ -101,6 +105,7 @@ locations:
     hasHub: true
     id: 20000550
     isWormhole: false
+    name: 04-H4M
     systems:
     - R3-K7K
     - 8B-VLX
@@ -121,6 +126,7 @@ locations:
     hasHub: true
     id: 20000472
     isWormhole: false
+    name: 04-LOF
     systems:
     - FJ-GUR
     - RF-X7V
@@ -135,6 +141,7 @@ locations:
     hasHub: true
     id: 20000215
     isWormhole: false
+    name: 05-1B6
     systems:
     - E2AX-5
     - HPE-KP
@@ -153,6 +160,7 @@ locations:
     hasHub: true
     id: 20000382
     isWormhole: false
+    name: 05M-I1
     systems:
     - A1BK-A
     - UK-SHL
@@ -178,6 +186,7 @@ locations:
     hasHub: true
     id: 20000527
     isWormhole: false
+    name: 09-4XW
     systems:
     - ZXA-V6
     - 1QH-0K
@@ -200,6 +209,7 @@ locations:
     hasHub: true
     id: 20000301
     isWormhole: false
+    name: 0A-73B
     systems:
     - H1-J33
     - 7D-0SQ
@@ -232,6 +242,7 @@ locations:
     hasHub: true
     id: 20000633
     isWormhole: false
+    name: 0C-PZ4
     systems:
     - BKG-Q2
     - JRZ-B9
@@ -258,6 +269,7 @@ locations:
     hasHub: true
     id: 20000116
     isWormhole: false
+    name: 0EA3-8
     systems:
     - GK5Z-T
     - A24L-V
@@ -282,6 +294,7 @@ locations:
     hasHub: true
     id: 20000077
     isWormhole: false
+    name: 0FC-ZX
     systems:
     - W-QN5X
     - YHEN-G
@@ -313,6 +326,7 @@ locations:
     hasHub: true
     id: 20000196
     isWormhole: false
+    name: 0HD-6C
     systems:
     - G9D-XW
     - 42XJ-N
@@ -331,6 +345,7 @@ locations:
     hasHub: true
     id: 20000197
     isWormhole: false
+    name: 0KTC-R
     systems:
     - VG-QW1
     - YJ3-UT
@@ -355,6 +370,7 @@ locations:
     hasHub: true
     id: 20000467
     isWormhole: false
+    name: 0PS-L5
     systems:
     - GTQ-C9
     - GGMF-J
@@ -370,6 +386,7 @@ locations:
     hasHub: true
     id: 20000062
     isWormhole: false
+    name: 0VFS-G
     systems:
     - 3C-26I
     - L-SDU7
@@ -399,6 +416,7 @@ locations:
     hasHub: true
     id: 20000115
     isWormhole: false
+    name: 0YMH-Q
     systems:
     - 74-VZA
     - I-1QKL
@@ -417,6 +435,7 @@ locations:
     hasHub: true
     id: 20000700
     isWormhole: false
+    name: 1-A81R
     systems:
     - F-9PXR
     - 31X-RE
@@ -431,6 +450,7 @@ locations:
     hasHub: true
     id: 20000213
     isWormhole: false
+    name: 1-Z95W
     systems:
     - SQ-2XA
     - Z-FYJR
@@ -455,6 +475,7 @@ locations:
     hasHub: true
     id: 20000682
     isWormhole: false
+    name: 17K-QM
     systems:
     - JI-K5H
     - O-MCZR
@@ -473,6 +494,7 @@ locations:
     hasHub: true
     id: 20000381
     isWormhole: false
+    name: 1A-WYQ
     systems:
     - DY-40Z
     - M-9V5D
@@ -499,6 +521,7 @@ locations:
     hasHub: true
     id: 20000644
     isWormhole: false
+    name: 1ANT-J
     systems:
     - 3-YX2D
     - CFLF-P
@@ -523,6 +546,7 @@ locations:
     hasHub: true
     id: 20000534
     isWormhole: false
+    name: 1D-65L
     systems:
     - V7-MID
     - Q1U-IU
@@ -548,6 +572,7 @@ locations:
     hasHub: true
     id: 20000184
     isWormhole: false
+    name: 1G-8KY
     systems:
     - Y-W1Q3
     - Y6-HPG
@@ -578,6 +603,7 @@ locations:
     hasHub: true
     id: 20000156
     isWormhole: false
+    name: 1M4-FN
     systems:
     - NBO-O0
     - O8W-5O
@@ -600,6 +626,7 @@ locations:
     hasHub: true
     id: 20000124
     isWormhole: false
+    name: 1P-VL2
     systems:
     - J-GAMP
     - V0DF-2
@@ -624,6 +651,7 @@ locations:
     hasHub: true
     id: 20000069
     isWormhole: false
+    name: 1RG-GU
     systems:
     - OFVH-Y
     - A-C5TC
@@ -652,6 +680,7 @@ locations:
     hasHub: true
     id: 20000348
     isWormhole: false
+    name: 1VN-XC
     systems:
     - WPV-JN
     - M9-LAN
@@ -684,6 +713,7 @@ locations:
     hasHub: true
     id: 20000479
     isWormhole: false
+    name: 2-M6DE
     systems:
     - JH-M2W
     - EZA-FM
@@ -709,6 +739,7 @@ locations:
     hasHub: true
     id: 20000532
     isWormhole: false
+    name: 2-ZRM0
     systems:
     - A1RR-M
     - SF-XJS
@@ -731,6 +762,7 @@ locations:
     hasHub: true
     id: 20000168
     isWormhole: false
+    name: 2747-4
     systems:
     - FO9-FZ
     - T-8GWA
@@ -753,6 +785,7 @@ locations:
     hasHub: true
     id: 20000424
     isWormhole: false
+    name: 29V-1R
     systems:
     - 4U90-Z
     - R8S-1K
@@ -777,6 +810,7 @@ locations:
     hasHub: true
     id: 20000267
     isWormhole: false
+    name: 2FYX-H
     systems:
     - SN-Q1T
     - 8RL-OG
@@ -804,6 +838,7 @@ locations:
     hasHub: true
     id: 20000416
     isWormhole: false
+    name: 2O-VY7
     systems:
     - SG-3HY
     - AU2V-J
@@ -822,6 +857,7 @@ locations:
     hasHub: true
     id: 20000423
     isWormhole: false
+    name: 2Q-8WA
     systems:
     - S-LHPJ
     - O5-YNW
@@ -838,6 +874,7 @@ locations:
     hasHub: true
     id: 20000223
     isWormhole: false
+    name: 2RX9-6
     systems:
     - W-WQM5
     - KF1-DU
@@ -860,6 +897,7 @@ locations:
     hasHub: true
     id: 20000655
     isWormhole: false
+    name: 3-PC31
     systems:
     - D4-2XN
     - OBK-K8
@@ -884,6 +922,7 @@ locations:
     hasHub: true
     id: 20000650
     isWormhole: false
+    name: 3-U491
     systems:
     - VVO-R6
     - 5-LCI7
@@ -905,6 +944,7 @@ locations:
     hasHub: true
     id: 20000632
     isWormhole: false
+    name: 304-QS
     systems:
     - B-GC1T
     - JTAU-5
@@ -927,6 +967,7 @@ locations:
     hasHub: true
     id: 20000297
     isWormhole: false
+    name: 304Z-R
     systems:
     - S-MDYI
     - FWA-4V
@@ -960,6 +1001,7 @@ locations:
     hasHub: true
     id: 20000291
     isWormhole: false
+    name: 38G6-L
     systems:
     - CL6-ZG
     - KLY-C0
@@ -975,6 +1017,7 @@ locations:
     hasHub: true
     id: 20000224
     isWormhole: false
+    name: 3A-CND
     systems:
     - 0M-M64
     - H7OL-I
@@ -999,6 +1042,7 @@ locations:
     hasHub: true
     id: 20000586
     isWormhole: false
+    name: 3B-IWE
     systems:
     - L-FVHR
     - 4-2UXV
@@ -1024,6 +1068,7 @@ locations:
     hasHub: true
     id: 20000228
     isWormhole: false
+    name: 3D-ROC
     systems:
     - N-PS2Y
     - 0J-MQW
@@ -1052,6 +1097,7 @@ locations:
     hasHub: true
     id: 20000081
     isWormhole: false
+    name: 3GK-WS
     systems:
     - F-3FOY
     - R0-DMM
@@ -1075,6 +1121,7 @@ locations:
     hasHub: true
     id: 20000417
     isWormhole: false
+    name: 3NA-Z1
     systems:
     - Q-GICU
     - EPCD-D
@@ -1098,6 +1145,7 @@ locations:
     hasHub: true
     id: 20000072
     isWormhole: false
+    name: 3R-BJL
     systems:
     - XW2H-V
     - F2W-C6
@@ -1120,6 +1168,7 @@ locations:
     hasHub: true
     id: 20000470
     isWormhole: false
+    name: 3RU-10
     systems:
     - QE2-FS
     - 7-UVMT
@@ -1147,6 +1196,7 @@ locations:
     hasHub: true
     id: 20000158
     isWormhole: false
+    name: 3TS-12
     systems:
     - 9F-ERQ
     - LY-WRW
@@ -1167,6 +1217,7 @@ locations:
     hasHub: true
     id: 20000458
     isWormhole: false
+    name: 3WN-1T
     systems:
     - 6EK-BV
     - P-3XVV
@@ -1188,6 +1239,7 @@ locations:
     hasHub: true
     id: 20000229
     isWormhole: false
+    name: 4-0VL9
     systems:
     - L7-BLT
     - JLH-FN
@@ -1213,6 +1265,7 @@ locations:
     hasHub: true
     id: 20000087
     isWormhole: false
+    name: 4-QV2L
     systems:
     - TZE-UB
     - LKZ-CY
@@ -1233,6 +1286,7 @@ locations:
     hasHub: true
     id: 20000272
     isWormhole: false
+    name: 41JS-R
     systems:
     - TG-Z23
     - 32-GI9
@@ -1258,6 +1312,7 @@ locations:
     hasHub: true
     id: 20000654
     isWormhole: false
+    name: 42-WDG
     systems:
     - D6SK-L
     - 0OYZ-G
@@ -1279,6 +1334,7 @@ locations:
     hasHub: false
     id: 20000186
     isWormhole: false
+    name: 48R-PS
     systems:
     - K3JR-J
     - MQFX-Q
@@ -1303,6 +1359,7 @@ locations:
     hasHub: true
     id: 20000485
     isWormhole: false
+    name: 49A-BZ
     systems:
     - RF-GGF
     - 0LTQ-C
@@ -1334,6 +1391,7 @@ locations:
     hasHub: true
     id: 20000541
     isWormhole: false
+    name: 4BZ-R3
     systems:
     - T-RPFU
     - FX-7EM
@@ -1350,6 +1408,7 @@ locations:
     hasHub: true
     id: 20000219
     isWormhole: false
+    name: 4I-WP1
     systems:
     - R-G1SF
     - N-FKXV
@@ -1368,6 +1427,7 @@ locations:
     hasHub: true
     id: 20000750
     isWormhole: false
+    name: 4LEZ-6
     systems:
     - D-QJR9
     - U4-V3J
@@ -1400,6 +1460,7 @@ locations:
     hasHub: true
     id: 20000335
     isWormhole: false
+    name: 4M6-GJ
     systems:
     - J7M-3W
     - 9F-3CR
@@ -1418,6 +1479,7 @@ locations:
     hasHub: true
     id: 20000316
     isWormhole: false
+    name: 4MY-AB
     systems:
     - JKWP-U
     - F76-8Q
@@ -1444,6 +1506,7 @@ locations:
     hasHub: true
     id: 20000588
     isWormhole: false
+    name: 4QZ-2M
     systems:
     - B-7DFU
     - YQX-7U
@@ -1470,6 +1533,7 @@ locations:
     hasHub: true
     id: 20000154
     isWormhole: false
+    name: 4R-HUN
     systems:
     - TD-4XL
     - 8AB-Q4
@@ -1494,6 +1558,7 @@ locations:
     hasHub: true
     id: 20000074
     isWormhole: false
+    name: 4SRW-B
     systems:
     - 62O-UE
     - RT-9WL
@@ -1528,6 +1593,7 @@ locations:
     hasHub: true
     id: 20000097
     isWormhole: false
+    name: 4YFT-F
     systems:
     - F-5FDA
     - GN-PDU
@@ -1550,6 +1616,7 @@ locations:
     hasHub: true
     id: 20000477
     isWormhole: false
+    name: 4ZXC-8
     systems:
     - Y-BIPM
     - PND-SI
@@ -1573,6 +1640,7 @@ locations:
     hasHub: true
     id: 20000547
     isWormhole: false
+    name: 5-88B9
     systems:
     - YQB-22
     - 3GXF-U
@@ -1593,6 +1661,7 @@ locations:
     hasHub: true
     id: 20000709
     isWormhole: false
+    name: 50-5UD
     systems:
     - A-REKV
     - 16AM-3
@@ -1630,6 +1699,7 @@ locations:
     hasHub: true
     id: 20000096
     isWormhole: false
+    name: 51ZT-6
     systems:
     - DE-A7P
     - S-E6ES
@@ -1662,6 +1732,7 @@ locations:
     hasHub: true
     id: 20000127
     isWormhole: false
+    name: 52-JKU
     systems:
     - SH1-6P
     - D7-ZAC
@@ -1684,6 +1755,7 @@ locations:
     hasHub: true
     id: 20000487
     isWormhole: false
+    name: 59H-0G
     systems:
     - Y-W6GF
     - KLYN-8
@@ -1714,6 +1786,7 @@ locations:
     hasHub: true
     id: 20000066
     isWormhole: false
+    name: 5F8-PZ
     systems:
     - U-OVFR
     - 9N-0HF
@@ -1741,6 +1814,7 @@ locations:
     hasHub: true
     id: 20000091
     isWormhole: false
+    name: 5HN-S5
     systems:
     - O-5TN1
     - 8-SPNN
@@ -1766,6 +1840,7 @@ locations:
     hasHub: false
     id: 20000379
     isWormhole: false
+    name: 5J-SSP
     systems:
     - 4OIV-X
     - 3-UCBF
@@ -1787,6 +1862,7 @@ locations:
     hasHub: true
     id: 20000068
     isWormhole: false
+    name: 5P4-QA
     systems:
     - XA5-TY
     - 5OJ-G2
@@ -1811,6 +1887,7 @@ locations:
     hasHub: true
     id: 20000271
     isWormhole: false
+    name: 5VN-B7
     systems:
     - MB4D-4
     - E-C0SR
@@ -1834,6 +1911,7 @@ locations:
     hasHub: true
     id: 20000085
     isWormhole: false
+    name: 5Y1E-3
     systems:
     - HPBE-D
     - TP7-KE
@@ -1858,6 +1936,7 @@ locations:
     hasHub: true
     id: 20000037
     isWormhole: false
+    name: 5YHF-H
     systems:
     - AZBR-2
     - V-NL3K
@@ -1877,6 +1956,7 @@ locations:
     hasHub: true
     id: 20000717
     isWormhole: false
+    name: 5Z0Y-S
     systems:
     - Y-MSJN
     - M9-FIB
@@ -1895,6 +1975,7 @@ locations:
     hasHub: true
     id: 20000617
     isWormhole: false
+    name: 5ZAB-N
     systems:
     - J-QOKQ
     - 4GSZ-1
@@ -1920,6 +2001,7 @@ locations:
     hasHub: true
     id: 20000082
     isWormhole: false
+    name: 5ZR-29
     systems:
     - G9NE-B
     - 0RI-OV
@@ -1945,6 +2027,7 @@ locations:
     hasHub: true
     id: 20000414
     isWormhole: false
+    name: 6-CBBM
     systems:
     - UDVW-O
     - UJXC-B
@@ -1968,6 +2051,7 @@ locations:
     hasHub: true
     id: 20000690
     isWormhole: false
+    name: 6-UCYU
     systems:
     - I3Q-II
     - 319-3D
@@ -1988,6 +2072,7 @@ locations:
     hasHub: true
     id: 20000489
     isWormhole: false
+    name: 6-V49K
     systems:
     - D-B7YK
     - EF-F36
@@ -2013,6 +2098,7 @@ locations:
     hasHub: true
     id: 20000266
     isWormhole: false
+    name: 6GU-AT
     systems:
     - G-HE0N
     - 9S-GPT
@@ -2034,6 +2120,7 @@ locations:
     hasHub: false
     id: 20000713
     isWormhole: false
+    name: 6I-3VX
     systems:
     - T-AKQZ
     - B-6STA
@@ -2048,6 +2135,7 @@ locations:
     hasHub: true
     id: 20000239
     isWormhole: false
+    name: 6I-9Y2
     systems:
     - E-RPGP
     - NSE-U1
@@ -2069,6 +2157,7 @@ locations:
     hasHub: true
     id: 20000181
     isWormhole: false
+    name: 6JCS-4
     systems:
     - KB-U56
     - BUZ-DB
@@ -2093,6 +2182,7 @@ locations:
     hasHub: true
     id: 20000725
     isWormhole: false
+    name: 6KFH-X
     systems:
     - OY0-2T
     - HIX4-H
@@ -2111,6 +2201,7 @@ locations:
     hasHub: true
     id: 20000341
     isWormhole: false
+    name: 6TT8-Z
     systems:
     - GTY-FW
     - JTA2-2
@@ -2133,6 +2224,7 @@ locations:
     hasHub: true
     id: 20000265
     isWormhole: false
+    name: 7-ZDOK
     systems:
     - JX-SOA
     - KGCF-5
@@ -2160,6 +2252,7 @@ locations:
     hasHub: true
     id: 20000132
     isWormhole: false
+    name: 730-KH
     systems:
     - E02-IK
     - NIH-02
@@ -2178,6 +2271,7 @@ locations:
     hasHub: true
     id: 20000366
     isWormhole: false
+    name: 74IL-O
     systems:
     - UER-TH
     - O2O-2X
@@ -2201,6 +2295,7 @@ locations:
     hasHub: true
     id: 20000086
     isWormhole: false
+    name: 760-9C
     systems:
     - DUO-51
     - GPD5-0
@@ -2219,6 +2314,7 @@ locations:
     hasHub: true
     id: 20000415
     isWormhole: false
+    name: 78-6RI
     systems:
     - QX-4HO
     - LS3-HP
@@ -2233,6 +2329,7 @@ locations:
     hasHub: true
     id: 20000050
     isWormhole: false
+    name: 7PUP-K
     systems:
     - KX-P5C
     - 2-4ZT5
@@ -2255,6 +2352,7 @@ locations:
     hasHub: true
     id: 20000161
     isWormhole: false
+    name: 7UNX-J
     systems:
     - Z-EKCY
     - 5-A0PX
@@ -2276,6 +2374,7 @@ locations:
     hasHub: true
     id: 20000102
     isWormhole: false
+    name: 7VJ-7M
     systems:
     - 8Q-T7B
     - ZNF-OK
@@ -2298,6 +2397,7 @@ locations:
     hasHub: true
     id: 20000538
     isWormhole: false
+    name: 7X-X1Y
     systems:
     - YKSC-A
     - WQY-IQ
@@ -2317,6 +2417,7 @@ locations:
     hasHub: true
     id: 20000459
     isWormhole: false
+    name: 7ZRW-G
     systems:
     - 111-F1
     - H-T40Z
@@ -2352,6 +2453,7 @@ locations:
     hasHub: true
     id: 20000111
     isWormhole: false
+    name: 8-4EFQ
     systems:
     - SN9-3Z
     - I3CR-F
@@ -2376,6 +2478,7 @@ locations:
     hasHub: true
     id: 20000631
     isWormhole: false
+    name: 8-IL7S
     systems:
     - C-HCGU
     - Q-FEEJ
@@ -2390,6 +2493,7 @@ locations:
     hasHub: true
     id: 20000238
     isWormhole: false
+    name: 826-A5
     systems:
     - 2RV-06
     - 8U-RZH
@@ -2412,6 +2516,7 @@ locations:
     hasHub: true
     id: 20000046
     isWormhole: false
+    name: 88G-M4
     systems:
     - 7G-H7D
     - MGAM-4
@@ -2439,6 +2544,7 @@ locations:
     hasHub: true
     id: 20000345
     isWormhole: false
+    name: 8AO-5V
     systems:
     - O-LJOO
     - 43-1TL
@@ -2463,6 +2569,7 @@ locations:
     hasHub: true
     id: 20000581
     isWormhole: false
+    name: 8BO-IH
     systems:
     - NDII-Q
     - 9CG6-H
@@ -2481,6 +2588,7 @@ locations:
     hasHub: true
     id: 20000584
     isWormhole: false
+    name: 8ET-D1
     systems:
     - K-YI1L
     - ZAU-JW
@@ -2504,6 +2612,7 @@ locations:
     hasHub: true
     id: 20000339
     isWormhole: false
+    name: 8G-JN6
     systems:
     - CYB-BZ
     - 89JS-J
@@ -2526,6 +2635,7 @@ locations:
     hasHub: true
     id: 20000359
     isWormhole: false
+    name: 8K-CHA
     systems:
     - SV-K8J
     - 39-DGG
@@ -2549,6 +2659,7 @@ locations:
     hasHub: true
     id: 20000718
     isWormhole: false
+    name: 8MJO-4
     systems:
     - X-EHHD
     - QSF-EJ
@@ -2576,6 +2687,7 @@ locations:
     hasHub: true
     id: 20000454
     isWormhole: false
+    name: 8T-OLH
     systems:
     - 5-9UXZ
     - Q0OH-V
@@ -2602,6 +2714,7 @@ locations:
     hasHub: true
     id: 20000420
     isWormhole: false
+    name: 8UD2-J
     systems:
     - 1S-SU1
     - LEM-I1
@@ -2631,6 +2744,7 @@ locations:
     hasHub: true
     id: 20000748
     isWormhole: false
+    name: 9BGY-6
     systems:
     - 5T-A3D
     - EH2I-P
@@ -2653,6 +2767,7 @@ locations:
     hasHub: true
     id: 20000463
     isWormhole: false
+    name: 9D1V-O
     systems:
     - 29YH-V
     - X-HISR
@@ -2680,6 +2795,7 @@ locations:
     hasHub: true
     id: 20000175
     isWormhole: false
+    name: 9HXQ-G
     systems:
     - 3-OKDA
     - 4M-HGL
@@ -2706,6 +2822,7 @@ locations:
     hasHub: true
     id: 20000045
     isWormhole: false
+    name: 9KX-M0
     systems:
     - PX5-LR
     - WMBZ-U
@@ -2724,6 +2841,7 @@ locations:
     hasHub: true
     id: 20000580
     isWormhole: false
+    name: 9NP-KR
     systems:
     - LNVW-K
     - A-5F4A
@@ -2750,6 +2868,7 @@ locations:
     hasHub: true
     id: 20000528
     isWormhole: false
+    name: 9P57-V
     systems:
     - RKE-CP
     - U1TX-A
@@ -2764,6 +2883,7 @@ locations:
     hasHub: false
     id: 20000054
     isWormhole: false
+    name: 9RW5-Z
     systems:
     - 1S-1V7
     - Polaris
@@ -2778,6 +2898,7 @@ locations:
     hasHub: false
     id: 21000001
     isWormhole: true
+    name: A-C00001
     systems:
     - J122659
     - J120734
@@ -2797,6 +2918,7 @@ locations:
     hasHub: false
     id: 21000002
     isWormhole: true
+    name: A-C00002
     systems:
     - J110108
     - J213555
@@ -2817,6 +2939,7 @@ locations:
     hasHub: false
     id: 21000003
     isWormhole: true
+    name: A-C00003
     systems:
     - J204503
     - J153530
@@ -2836,6 +2959,7 @@ locations:
     hasHub: false
     id: 21000004
     isWormhole: true
+    name: A-C00004
     systems:
     - J133613
     - J144632
@@ -2856,6 +2980,7 @@ locations:
     hasHub: false
     id: 21000005
     isWormhole: true
+    name: A-C00005
     systems:
     - J150818
     - J112250
@@ -2873,6 +2998,7 @@ locations:
     hasHub: false
     id: 21000006
     isWormhole: true
+    name: A-C00006
     systems:
     - J101817
     - J132216
@@ -2891,6 +3017,7 @@ locations:
     hasHub: false
     id: 21000007
     isWormhole: true
+    name: A-C00007
     systems:
     - J115200
     - J152014
@@ -2909,6 +3036,7 @@ locations:
     hasHub: false
     id: 21000008
     isWormhole: true
+    name: A-C00008
     systems:
     - J130322
     - J130542
@@ -2929,6 +3057,7 @@ locations:
     hasHub: false
     id: 21000009
     isWormhole: true
+    name: A-C00009
     systems:
     - J143133
     - J141150
@@ -2949,6 +3078,7 @@ locations:
     hasHub: false
     id: 21000010
     isWormhole: true
+    name: A-C00010
     systems:
     - J124051
     - J123748
@@ -2969,6 +3099,7 @@ locations:
     hasHub: false
     id: 21000011
     isWormhole: true
+    name: A-C00011
     systems:
     - J160307
     - J122712
@@ -2987,6 +3118,7 @@ locations:
     hasHub: false
     id: 21000012
     isWormhole: true
+    name: A-C00012
     systems:
     - J215754
     - J235001
@@ -3005,6 +3137,7 @@ locations:
     hasHub: false
     id: 21000013
     isWormhole: true
+    name: A-C00013
     systems:
     - J223650
     - J133128
@@ -3024,6 +3157,7 @@ locations:
     hasHub: false
     id: 21000014
     isWormhole: true
+    name: A-C00014
     systems:
     - J102918
     - J143421
@@ -3043,6 +3177,7 @@ locations:
     hasHub: false
     id: 21000015
     isWormhole: true
+    name: A-C00015
     systems:
     - J103341
     - J142114
@@ -3063,6 +3198,7 @@ locations:
     hasHub: false
     id: 21000016
     isWormhole: true
+    name: A-C00016
     systems:
     - J152353
     - J171805
@@ -3080,6 +3216,7 @@ locations:
     hasHub: false
     id: 21000017
     isWormhole: true
+    name: A-C00017
     systems:
     - J155203
     - J105013
@@ -3097,6 +3234,7 @@ locations:
     hasHub: false
     id: 21000018
     isWormhole: true
+    name: A-C00018
     systems:
     - J134833
     - J121941
@@ -3116,6 +3254,7 @@ locations:
     hasHub: false
     id: 21000019
     isWormhole: true
+    name: A-C00019
     systems:
     - J151332
     - J111811
@@ -3133,6 +3272,7 @@ locations:
     hasHub: false
     id: 21000020
     isWormhole: true
+    name: A-C00020
     systems:
     - J115808
     - J131702
@@ -3153,6 +3293,7 @@ locations:
     hasHub: false
     id: 21000311
     isWormhole: true
+    name: A-C00311
     systems:
     - J105443
     - J160837
@@ -3167,6 +3308,7 @@ locations:
     hasHub: false
     id: 21000312
     isWormhole: true
+    name: A-C00312
     systems:
     - J121358
     - J222914
@@ -3187,6 +3329,7 @@ locations:
     hasHub: false
     id: 21000313
     isWormhole: true
+    name: A-C00313
     systems:
     - J101729
     - J112628
@@ -3205,6 +3348,7 @@ locations:
     hasHub: false
     id: 21000314
     isWormhole: true
+    name: A-C00314
     systems:
     - J131854
     - J144530
@@ -3223,6 +3367,7 @@ locations:
     hasHub: false
     id: 21000315
     isWormhole: true
+    name: A-C00315
     systems:
     - J150131
     - J145406
@@ -3240,6 +3385,7 @@ locations:
     hasHub: false
     id: 21000316
     isWormhole: true
+    name: A-C00316
     systems:
     - J233828
     - J232605
@@ -3257,6 +3403,7 @@ locations:
     hasHub: false
     id: 21000317
     isWormhole: true
+    name: A-C00317
     systems:
     - J225555
     - J100250
@@ -3274,6 +3421,7 @@ locations:
     hasHub: false
     id: 21000318
     isWormhole: true
+    name: A-C00318
     systems:
     - J144303
     - J140121
@@ -3294,6 +3442,7 @@ locations:
     hasHub: false
     id: 21000319
     isWormhole: true
+    name: A-C00319
     systems:
     - J100040
     - J143202
@@ -3311,6 +3460,7 @@ locations:
     hasHub: false
     id: 21000320
     isWormhole: true
+    name: A-C00320
     systems:
     - J214534
     - J101408
@@ -3331,6 +3481,7 @@ locations:
     hasHub: false
     id: 21000321
     isWormhole: true
+    name: A-C00321
     systems:
     - J224442
     - J215117
@@ -3351,6 +3502,7 @@ locations:
     hasHub: false
     id: 21000322
     isWormhole: true
+    name: A-C00322
     systems:
     - J164550
     - J114905
@@ -3370,6 +3522,7 @@ locations:
     hasHub: false
     id: 21000323
     isWormhole: true
+    name: A-C00323
     systems:
     - J163804
     - J215900
@@ -3390,6 +3543,7 @@ locations:
     hasHub: false
     id: 21000325
     isWormhole: true
+    name: A-C00325
     systems:
     - J002757
     - J012402
@@ -3415,6 +3569,7 @@ locations:
     hasHub: true
     id: 20000178
     isWormhole: false
+    name: A-JI5E
     systems:
     - 8B-2YA
     - V2-VC2
@@ -3438,6 +3593,7 @@ locations:
     hasHub: false
     id: 20000579
     isWormhole: false
+    name: A-Z7C9
     systems:
     - GOP-GE
     - MKD-O8
@@ -3458,6 +3614,7 @@ locations:
     hasHub: true
     id: 20000430
     isWormhole: false
+    name: A21H-Z
     systems:
     - AGG-NR
     - 0V0R-R
@@ -3482,6 +3639,7 @@ locations:
     hasHub: true
     id: 20000040
     isWormhole: false
+    name: A3-T8B
     systems:
     - E-SCTX
     - 7-PO3P
@@ -3512,6 +3670,7 @@ locations:
     hasHub: true
     id: 20000078
     isWormhole: false
+    name: AC-RON
     systems:
     - 8-OZU1
     - 0TYR-T
@@ -3535,6 +3694,7 @@ locations:
     hasHub: true
     id: 20000261
     isWormhole: false
+    name: AGI1-F
     systems:
     - Q7E-DU
     - K4UV-G
@@ -3553,6 +3713,7 @@ locations:
     hasHub: true
     id: 20000461
     isWormhole: false
+    name: AJG-MV
     systems:
     - DIBH-Q
     - G-4H4C
@@ -3576,6 +3737,7 @@ locations:
     hasHub: true
     id: 20000139
     isWormhole: false
+    name: AP-S8F
     systems:
     - M-YWAL
     - P1T-LP
@@ -3601,6 +3763,7 @@ locations:
     hasHub: true
     id: 20000704
     isWormhole: false
+    name: AU-S0B
     systems:
     - 78R-PI
     - QRBN-M
@@ -3619,6 +3782,7 @@ locations:
     hasHub: true
     id: 20000645
     isWormhole: false
+    name: AV-SCL
     systems:
     - F-8Y13
     - J-TPTA
@@ -3644,6 +3808,7 @@ locations:
     hasHub: true
     id: 20000542
     isWormhole: false
+    name: AZBG-H
     systems:
     - U-HYMT
     - OXIY-V
@@ -3667,6 +3832,7 @@ locations:
     hasHub: true
     id: 20000439
     isWormhole: false
+    name: Abthi
     systems:
     - UpperDebyl
     - Naeel
@@ -3690,6 +3856,7 @@ locations:
     hasHub: true
     id: 20000398
     isWormhole: false
+    name: Aeman
     systems:
     - Miroitem
     - Rorsins
@@ -3716,6 +3883,7 @@ locations:
     hasHub: true
     id: 20000620
     isWormhole: false
+    name: Afinoo
     systems:
     - Kenahehab
     - Gens
@@ -3750,6 +3918,7 @@ locations:
     hasHub: true
     id: 20000396
     isWormhole: false
+    name: Agiesseson
     systems:
     - Oirtlair
     - Olelon
@@ -3770,6 +3939,7 @@ locations:
     hasHub: true
     id: 20000013
     isWormhole: false
+    name: Aguh
     systems:
     - Eshwil
     - Ishkad
@@ -3794,6 +3964,7 @@ locations:
     hasHub: true
     id: 20000604
     isWormhole: false
+    name: Ahrnot
     systems:
     - Hilmar
     - Yooh
@@ -3826,6 +3997,7 @@ locations:
     hasHub: true
     id: 20000780
     isWormhole: false
+    name: Aideron
     systems:
     - Arraron
     - Stou
@@ -3847,6 +4019,7 @@ locations:
     hasHub: true
     id: 20000255
     isWormhole: false
+    name: Ajah
     systems:
     - Sizamod
     - Rand
@@ -3876,6 +4049,7 @@ locations:
     hasHub: true
     id: 20000572
     isWormhole: false
+    name: Akar
     systems:
     - Baratar
     - Nahrneder
@@ -3907,6 +4081,7 @@ locations:
     hasHub: true
     id: 20000374
     isWormhole: false
+    name: Akimamur
     systems:
     - Roniko
     - Wiskeber
@@ -3934,6 +4109,7 @@ locations:
     hasHub: true
     id: 20000304
     isWormhole: false
+    name: Aldodan
     systems:
     - Helgatild
     - Lasleinur
@@ -3962,6 +4138,7 @@ locations:
     hasHub: true
     id: 20000392
     isWormhole: false
+    name: Algintal
     systems:
     - Alsottobier
     - Parchanier
@@ -3983,6 +4160,7 @@ locations:
     hasHub: true
     id: 20000353
     isWormhole: false
+    name: Almur
     systems:
     - Hedaleolfarber
     - Half
@@ -4005,6 +4183,7 @@ locations:
     hasHub: true
     id: 20000575
     isWormhole: false
+    name: Alpakian
     systems:
     - Rafeme
     - Fanathor
@@ -4027,6 +4206,7 @@ locations:
     hasHub: true
     id: 20000555
     isWormhole: false
+    name: Alselbosier
     systems:
     - Aunsou
     - Alperaute
@@ -4051,6 +4231,7 @@ locations:
     hasHub: true
     id: 20000400
     isWormhole: false
+    name: Ambrye
     systems:
     - Fricoure
     - Pucherie
@@ -4076,6 +4257,7 @@ locations:
     hasHub: true
     id: 20000566
     isWormhole: false
+    name: Amdimmah
     systems:
     - Gidali
     - Moniyyuku
@@ -4105,6 +4287,7 @@ locations:
     hasHub: true
     id: 20000561
     isWormhole: false
+    name: Amevync
     systems:
     - Evaulon
     - Aldranette
@@ -4131,6 +4314,7 @@ locations:
     hasHub: true
     id: 20000619
     isWormhole: false
+    name: Anama
     systems:
     - Van
     - Shirshocin
@@ -4151,6 +4335,7 @@ locations:
     hasHub: true
     id: 20000007
     isWormhole: false
+    name: Ananah
     systems:
     - Camal
     - Ihal
@@ -4184,6 +4369,7 @@ locations:
     hasHub: true
     id: 20000002
     isWormhole: false
+    name: Anares
     systems:
     - Nazhgete
     - Sooma
@@ -4212,6 +4398,7 @@ locations:
     hasHub: true
     id: 20000779
     isWormhole: false
+    name: Ancbeu
     systems:
     - Claulenne
     - Annelle
@@ -4237,6 +4424,7 @@ locations:
     hasHub: true
     id: 20000309
     isWormhole: false
+    name: Angils
     systems:
     - Gukarla
     - Egmar
@@ -4255,6 +4443,7 @@ locations:
     hasHub: true
     id: 20000305
     isWormhole: false
+    name: Ani
     systems:
     - Tvink
     - Inder
@@ -4275,6 +4464,7 @@ locations:
     hasHub: true
     id: 20000254
     isWormhole: false
+    name: Anidaza
     systems:
     - Goni
     - Sagain
@@ -4303,6 +4493,7 @@ locations:
     hasHub: true
     id: 20000494
     isWormhole: false
+    name: Ankard
     systems:
     - Fildar
     - Eygfe
@@ -4330,6 +4521,7 @@ locations:
     hasHub: true
     id: 20000018
     isWormhole: false
+    name: Anttanen
     systems:
     - Uitra
     - Nomaa
@@ -4364,6 +4556,7 @@ locations:
     hasHub: true
     id: 20000776
     isWormhole: false
+    name: Anwyns
     systems:
     - Alenia
     - Vaere
@@ -4393,6 +4586,7 @@ locations:
     hasHub: false
     id: 20000784
     isWormhole: false
+    name: Aokinen
     systems:
     - Tsuruma
     - Astoh
@@ -4414,6 +4608,7 @@ locations:
     hasHub: true
     id: 20000498
     isWormhole: false
+    name: Aptetter
     systems:
     - Aldrat
     - Erstur
@@ -4434,6 +4629,7 @@ locations:
     hasHub: true
     id: 20000733
     isWormhole: false
+    name: Arand
     systems:
     - Allebin
     - Haine
@@ -4456,6 +4652,7 @@ locations:
     hasHub: true
     id: 20000603
     isWormhole: false
+    name: Araz
     systems:
     - Chanoun
     - Zimse
@@ -4496,6 +4693,7 @@ locations:
     hasHub: true
     id: 20000403
     isWormhole: false
+    name: Arekin
     systems:
     - Kausaaja
     - Oiniken
@@ -4514,6 +4712,7 @@ locations:
     hasHub: true
     id: 20000504
     isWormhole: false
+    name: Argeir
     systems:
     - Klaevik
     - Ridoner
@@ -4532,6 +4731,7 @@ locations:
     hasHub: true
     id: 20000328
     isWormhole: false
+    name: Armi
     systems:
     - Sobenah
     - Milal
@@ -4552,6 +4752,7 @@ locations:
     hasHub: true
     id: 20000571
     isWormhole: false
+    name: Arniri
     systems:
     - Aurejet
     - Danera
@@ -4587,6 +4788,7 @@ locations:
     hasHub: true
     id: 20000247
     isWormhole: false
+    name: Arvachah
     systems:
     - Pimebeka
     - Hilaban
@@ -4610,6 +4812,7 @@ locations:
     hasHub: false
     id: 20000209
     isWormhole: false
+    name: Asalola
     systems:
     - Yoma
     - Isinokka
@@ -4635,6 +4838,7 @@ locations:
     hasHub: true
     id: 20000762
     isWormhole: false
+    name: Ashela
     systems:
     - Makhwasan
     - Nardiarang
@@ -4660,6 +4864,7 @@ locations:
     hasHub: true
     id: 20000594
     isWormhole: false
+    name: Assilot
     systems:
     - 5S-KNL
     - 00TY-J
@@ -4684,6 +4889,7 @@ locations:
     hasHub: true
     id: 20000026
     isWormhole: false
+    name: Aulari
     systems:
     - Uminas
     - Osmon
@@ -4712,6 +4918,7 @@ locations:
     hasHub: true
     id: 20000771
     isWormhole: false
+    name: Aven
     systems:
     - Olin
     - Shapisin
@@ -4736,6 +4943,7 @@ locations:
     hasHub: true
     id: 20000332
     isWormhole: false
+    name: Avib
     systems:
     - Azizora
     - Jarshitsan
@@ -4750,6 +4958,7 @@ locations:
     hasHub: false
     id: 21000021
     isWormhole: true
+    name: B-C00021
     systems:
     - J141156
     - J104253
@@ -4767,6 +4976,7 @@ locations:
     hasHub: false
     id: 21000022
     isWormhole: true
+    name: B-C00022
     systems:
     - J125956
     - J114835
@@ -4786,6 +4996,7 @@ locations:
     hasHub: false
     id: 21000023
     isWormhole: true
+    name: B-C00023
     systems:
     - J153532
     - J124219
@@ -4805,6 +5016,7 @@ locations:
     hasHub: false
     id: 21000024
     isWormhole: true
+    name: B-C00024
     systems:
     - J122821
     - J145715
@@ -4825,6 +5037,7 @@ locations:
     hasHub: false
     id: 21000025
     isWormhole: true
+    name: B-C00025
     systems:
     - J154212
     - J130256
@@ -4843,6 +5056,7 @@ locations:
     hasHub: false
     id: 21000026
     isWormhole: true
+    name: B-C00026
     systems:
     - J160715
     - J151231
@@ -4861,6 +5075,7 @@ locations:
     hasHub: false
     id: 21000027
     isWormhole: true
+    name: B-C00027
     systems:
     - J103839
     - J103948
@@ -4878,6 +5093,7 @@ locations:
     hasHub: false
     id: 21000028
     isWormhole: true
+    name: B-C00028
     systems:
     - J231837
     - J164235
@@ -4895,6 +5111,7 @@ locations:
     hasHub: false
     id: 21000029
     isWormhole: true
+    name: B-C00029
     systems:
     - J131204
     - J110656
@@ -4915,6 +5132,7 @@ locations:
     hasHub: false
     id: 21000030
     isWormhole: true
+    name: B-C00030
     systems:
     - J140012
     - J171518
@@ -4934,6 +5152,7 @@ locations:
     hasHub: false
     id: 21000031
     isWormhole: true
+    name: B-C00031
     systems:
     - J141332
     - J130222
@@ -4951,6 +5170,7 @@ locations:
     hasHub: false
     id: 21000032
     isWormhole: true
+    name: B-C00032
     systems:
     - J110823
     - J105321
@@ -4970,6 +5190,7 @@ locations:
     hasHub: false
     id: 21000033
     isWormhole: true
+    name: B-C00033
     systems:
     - J131107
     - J123450
@@ -4989,6 +5210,7 @@ locations:
     hasHub: false
     id: 21000034
     isWormhole: true
+    name: B-C00034
     systems:
     - J213058
     - J231517
@@ -5006,6 +5228,7 @@ locations:
     hasHub: false
     id: 21000035
     isWormhole: true
+    name: B-C00035
     systems:
     - J110316
     - J164130
@@ -5023,6 +5246,7 @@ locations:
     hasHub: false
     id: 21000036
     isWormhole: true
+    name: B-C00036
     systems:
     - J140112
     - J135703
@@ -5042,6 +5266,7 @@ locations:
     hasHub: false
     id: 21000037
     isWormhole: true
+    name: B-C00037
     systems:
     - J230207
     - J132559
@@ -5061,6 +5286,7 @@ locations:
     hasHub: false
     id: 21000038
     isWormhole: true
+    name: B-C00038
     systems:
     - J150341
     - J112614
@@ -5078,6 +5304,7 @@ locations:
     hasHub: false
     id: 21000039
     isWormhole: true
+    name: B-C00039
     systems:
     - J145316
     - J105000
@@ -5097,6 +5324,7 @@ locations:
     hasHub: false
     id: 21000040
     isWormhole: true
+    name: B-C00040
     systems:
     - J211908
     - J133557
@@ -5116,6 +5344,7 @@ locations:
     hasHub: false
     id: 21000041
     isWormhole: true
+    name: B-C00041
     systems:
     - J125927
     - J150807
@@ -5134,6 +5363,7 @@ locations:
     hasHub: false
     id: 21000042
     isWormhole: true
+    name: B-C00042
     systems:
     - J170558
     - J134107
@@ -5151,6 +5381,7 @@ locations:
     hasHub: false
     id: 21000043
     isWormhole: true
+    name: B-C00043
     systems:
     - J223853
     - J114749
@@ -5170,6 +5401,7 @@ locations:
     hasHub: false
     id: 21000044
     isWormhole: true
+    name: B-C00044
     systems:
     - J103351
     - J152322
@@ -5189,6 +5421,7 @@ locations:
     hasHub: false
     id: 21000045
     isWormhole: true
+    name: B-C00045
     systems:
     - J232305
     - J144057
@@ -5209,6 +5442,7 @@ locations:
     hasHub: false
     id: 21000046
     isWormhole: true
+    name: B-C00046
     systems:
     - J103144
     - J132458
@@ -5226,6 +5460,7 @@ locations:
     hasHub: false
     id: 21000047
     isWormhole: true
+    name: B-C00047
     systems:
     - J115530
     - J104718
@@ -5243,6 +5478,7 @@ locations:
     hasHub: false
     id: 21000048
     isWormhole: true
+    name: B-C00048
     systems:
     - J140816
     - J172350
@@ -5260,6 +5496,7 @@ locations:
     hasHub: false
     id: 21000049
     isWormhole: true
+    name: B-C00049
     systems:
     - J131753
     - J134349
@@ -5277,6 +5514,7 @@ locations:
     hasHub: false
     id: 21000050
     isWormhole: true
+    name: B-C00050
     systems:
     - J121658
     - J143320
@@ -5294,6 +5532,7 @@ locations:
     hasHub: false
     id: 21000051
     isWormhole: true
+    name: B-C00051
     systems:
     - J214725
     - J155035
@@ -5312,6 +5551,7 @@ locations:
     hasHub: false
     id: 21000052
     isWormhole: true
+    name: B-C00052
     systems:
     - J100509
     - J142055
@@ -5332,6 +5572,7 @@ locations:
     hasHub: false
     id: 21000053
     isWormhole: true
+    name: B-C00053
     systems:
     - J143455
     - J112916
@@ -5352,6 +5593,7 @@ locations:
     hasHub: false
     id: 21000054
     isWormhole: true
+    name: B-C00054
     systems:
     - J121952
     - J115310
@@ -5369,6 +5611,7 @@ locations:
     hasHub: false
     id: 21000055
     isWormhole: true
+    name: B-C00055
     systems:
     - J211000
     - J121745
@@ -5387,6 +5630,7 @@ locations:
     hasHub: false
     id: 21000056
     isWormhole: true
+    name: B-C00056
     systems:
     - J112309
     - J165157
@@ -5404,6 +5648,7 @@ locations:
     hasHub: false
     id: 21000057
     isWormhole: true
+    name: B-C00057
     systems:
     - J134735
     - J140750
@@ -5424,6 +5669,7 @@ locations:
     hasHub: false
     id: 21000058
     isWormhole: true
+    name: B-C00058
     systems:
     - J122524
     - J143234
@@ -5441,6 +5687,7 @@ locations:
     hasHub: false
     id: 21000059
     isWormhole: true
+    name: B-C00059
     systems:
     - J104321
     - J131744
@@ -5459,6 +5706,7 @@ locations:
     hasHub: false
     id: 21000060
     isWormhole: true
+    name: B-C00060
     systems:
     - J124749
     - J102739
@@ -5477,6 +5725,7 @@ locations:
     hasHub: false
     id: 21000061
     isWormhole: true
+    name: B-C00061
     systems:
     - J233839
     - J131315
@@ -5495,6 +5744,7 @@ locations:
     hasHub: false
     id: 21000062
     isWormhole: true
+    name: B-C00062
     systems:
     - J224145
     - J105123
@@ -5514,6 +5764,7 @@ locations:
     hasHub: false
     id: 21000063
     isWormhole: true
+    name: B-C00063
     systems:
     - J134405
     - J144004
@@ -5531,6 +5782,7 @@ locations:
     hasHub: false
     id: 21000064
     isWormhole: true
+    name: B-C00064
     systems:
     - J105244
     - J122118
@@ -5549,6 +5801,7 @@ locations:
     hasHub: false
     id: 21000065
     isWormhole: true
+    name: B-C00065
     systems:
     - J131852
     - J105311
@@ -5566,6 +5819,7 @@ locations:
     hasHub: false
     id: 21000066
     isWormhole: true
+    name: B-C00066
     systems:
     - J145426
     - J112617
@@ -5586,6 +5840,7 @@ locations:
     hasHub: false
     id: 21000067
     isWormhole: true
+    name: B-C00067
     systems:
     - J144203
     - J162518
@@ -5606,6 +5861,7 @@ locations:
     hasHub: false
     id: 21000068
     isWormhole: true
+    name: B-C00068
     systems:
     - J161628
     - J134306
@@ -5625,6 +5881,7 @@ locations:
     hasHub: false
     id: 21000069
     isWormhole: true
+    name: B-C00069
     systems:
     - J124449
     - J124253
@@ -5644,6 +5901,7 @@ locations:
     hasHub: false
     id: 21000070
     isWormhole: true
+    name: B-C00070
     systems:
     - J165014
     - J103619
@@ -5664,6 +5922,7 @@ locations:
     hasHub: false
     id: 21000071
     isWormhole: true
+    name: B-C00071
     systems:
     - J125350
     - J162042
@@ -5679,6 +5938,7 @@ locations:
     hasHub: false
     id: 21000072
     isWormhole: true
+    name: B-C00072
     systems:
     - J223029
   B-C00073:
@@ -5688,6 +5948,7 @@ locations:
     hasHub: false
     id: 21000073
     isWormhole: true
+    name: B-C00073
     systems:
     - J234810
   B-C00074:
@@ -5697,6 +5958,7 @@ locations:
     hasHub: false
     id: 21000074
     isWormhole: true
+    name: B-C00074
     systems:
     - J135230
   B-C00075:
@@ -5706,6 +5968,7 @@ locations:
     hasHub: false
     id: 21000075
     isWormhole: true
+    name: B-C00075
     systems:
     - J111038
   B-C00326:
@@ -5715,6 +5978,7 @@ locations:
     hasHub: false
     id: 21000326
     isWormhole: true
+    name: B-C00326
     systems:
     - J005482
     - J013070
@@ -5748,6 +6012,7 @@ locations:
     hasHub: true
     id: 20000258
     isWormhole: false
+    name: B-D245
     systems:
     - JUE-DX
     - M1-PX9
@@ -5762,6 +6027,7 @@ locations:
     hasHub: true
     id: 20000061
     isWormhole: false
+    name: B-HLOG
     systems:
     - PU-1Z8
     - B-DXO9
@@ -5788,6 +6054,7 @@ locations:
     hasHub: true
     id: 20000747
     isWormhole: false
+    name: B-MQ0Y
     systems:
     - E-WMT7
     - 0FG-KS
@@ -5802,6 +6069,7 @@ locations:
     hasHub: true
     id: 20000053
     isWormhole: false
+    name: B-PHYN
     systems:
     - 6BN-K9
     - WLE-PY
@@ -5830,6 +6098,7 @@ locations:
     hasHub: true
     id: 20000689
     isWormhole: false
+    name: B4H-9W
     systems:
     - QX-LIJ
     - O-IOAI
@@ -5844,6 +6113,7 @@ locations:
     hasHub: true
     id: 20000240
     isWormhole: false
+    name: B9J-NT
     systems:
     - M9-OS2
     - 8-UWFS
@@ -5865,6 +6135,7 @@ locations:
     hasHub: true
     id: 20000613
     isWormhole: false
+    name: BB-48X
     systems:
     - 5ED-4E
     - JE-VLG
@@ -5885,6 +6156,7 @@ locations:
     hasHub: true
     id: 20000136
     isWormhole: false
+    name: BB8E-G
     systems:
     - F-MKH3
     - W-RFUO
@@ -5908,6 +6180,7 @@ locations:
     hasHub: true
     id: 20000639
     isWormhole: false
+    name: BI-NFW
     systems:
     - KMQ4-V
     - C-LBQS
@@ -5931,6 +6204,7 @@ locations:
     hasHub: true
     id: 20000183
     isWormhole: false
+    name: BRP2-K
     systems:
     - FAT-6P
     - Y-PNRL
@@ -5946,6 +6220,7 @@ locations:
     hasHub: true
     id: 20000217
     isWormhole: false
+    name: BS8-ZQ
     systems:
     - REZ-YZ
     - VYX2-I
@@ -5964,6 +6239,7 @@ locations:
     hasHub: true
     id: 20000031
     isWormhole: false
+    name: BUG6-X
     systems:
     - FS-RFL
     - 7-UH4Z
@@ -5987,6 +6263,7 @@ locations:
     hasHub: true
     id: 20000089
     isWormhole: false
+    name: BVA-YH
     systems:
     - 8-BIE3
     - D-6H64
@@ -6005,6 +6282,7 @@ locations:
     hasHub: true
     id: 20000752
     isWormhole: false
+    name: BXT7-V
     systems:
     - M-SG47
     - W-KXEX
@@ -6029,6 +6307,7 @@ locations:
     hasHub: true
     id: 20000636
     isWormhole: false
+    name: BZ-10K
     systems:
     - X7R-JW
     - QXQ-BA
@@ -6055,6 +6334,7 @@ locations:
     hasHub: true
     id: 20000712
     isWormhole: false
+    name: BZZ-1U
     systems:
     - T6GY-Y
     - NR8S-Y
@@ -6079,6 +6359,7 @@ locations:
     hasHub: true
     id: 20000591
     isWormhole: false
+    name: Balenne
     systems:
     - 1-NW2G
     - TN-T7T
@@ -6108,6 +6389,7 @@ locations:
     hasHub: true
     id: 20000730
     isWormhole: false
+    name: Balrille
     systems:
     - Annages
     - Onne
@@ -6144,6 +6426,7 @@ locations:
     hasHub: true
     id: 20000302
     isWormhole: false
+    name: Barvigrard
     systems:
     - Ragnarg
     - Bei
@@ -6166,6 +6449,7 @@ locations:
     hasHub: true
     id: 20000681
     isWormhole: false
+    name: Basilisk
     systems:
     - WMH-SO
     - 4HS-CR
@@ -6193,6 +6477,7 @@ locations:
     hasHub: true
     id: 20000010
     isWormhole: false
+    name: Bedaleya
     systems:
     - Jangar
     - Assah
@@ -6213,6 +6498,7 @@ locations:
     hasHub: true
     id: 20000658
     isWormhole: false
+    name: Belt
     systems:
     - M-NKZM
     - J1H-R4
@@ -6235,6 +6521,7 @@ locations:
     hasHub: true
     id: 20000378
     isWormhole: false
+    name: Benurad
     systems:
     - Sotrenzur
     - Otraren
@@ -6257,6 +6544,7 @@ locations:
     hasHub: true
     id: 20000352
     isWormhole: false
+    name: Besateoden
     systems:
     - Orien
     - Horaka
@@ -6284,6 +6572,7 @@ locations:
     hasHub: true
     id: 20000560
     isWormhole: false
+    name: Beyt
     systems:
     - Chardalane
     - Adacyne
@@ -6310,6 +6599,7 @@ locations:
     hasHub: true
     id: 20000520
     isWormhole: false
+    name: Braille
     systems:
     - Aimoguier
     - Cadelanne
@@ -6334,6 +6624,7 @@ locations:
     hasHub: true
     id: 20000500
     isWormhole: false
+    name: Brazinget
     systems:
     - Tratokard
     - Hilfhurmur
@@ -6352,6 +6643,7 @@ locations:
     hasHub: true
     id: 20000574
     isWormhole: false
+    name: Budar
     systems:
     - Ibani
     - Cabeki
@@ -6366,6 +6658,7 @@ locations:
     hasHub: false
     id: 21000076
     isWormhole: true
+    name: C-C00076
     systems:
     - J113629
     - J114342
@@ -6380,6 +6673,7 @@ locations:
     hasHub: false
     id: 21000077
     isWormhole: true
+    name: C-C00077
     systems:
     - J105002
     - J111634
@@ -6394,6 +6688,7 @@ locations:
     hasHub: false
     id: 21000078
     isWormhole: true
+    name: C-C00078
     systems:
     - J124329
     - J205027
@@ -6409,6 +6704,7 @@ locations:
     hasHub: false
     id: 21000079
     isWormhole: true
+    name: C-C00079
     systems:
     - J110448
     - J144621
@@ -6423,6 +6719,7 @@ locations:
     hasHub: false
     id: 21000080
     isWormhole: true
+    name: C-C00080
     systems:
     - J123230
     - J115706
@@ -6438,6 +6735,7 @@ locations:
     hasHub: false
     id: 21000081
     isWormhole: true
+    name: C-C00081
     systems:
     - J165803
     - J153528
@@ -6452,6 +6750,7 @@ locations:
     hasHub: false
     id: 21000082
     isWormhole: true
+    name: C-C00082
     systems:
     - J112608
     - J111805
@@ -6466,6 +6765,7 @@ locations:
     hasHub: false
     id: 21000083
     isWormhole: true
+    name: C-C00083
     systems:
     - J113451
     - J111619
@@ -6480,6 +6780,7 @@ locations:
     hasHub: false
     id: 21000084
     isWormhole: true
+    name: C-C00084
     systems:
     - J105102
     - J124630
@@ -6494,6 +6795,7 @@ locations:
     hasHub: false
     id: 21000085
     isWormhole: true
+    name: C-C00085
     systems:
     - J165302
     - J221414
@@ -6508,6 +6810,7 @@ locations:
     hasHub: false
     id: 21000086
     isWormhole: true
+    name: C-C00086
     systems:
     - J140341
     - J151341
@@ -6523,6 +6826,7 @@ locations:
     hasHub: false
     id: 21000087
     isWormhole: true
+    name: C-C00087
     systems:
     - J160847
     - J102143
@@ -6537,6 +6841,7 @@ locations:
     hasHub: false
     id: 21000088
     isWormhole: true
+    name: C-C00088
     systems:
     - J125949
     - J112905
@@ -6552,6 +6857,7 @@ locations:
     hasHub: false
     id: 21000089
     isWormhole: true
+    name: C-C00089
     systems:
     - J132525
     - J154642
@@ -6566,6 +6872,7 @@ locations:
     hasHub: false
     id: 21000090
     isWormhole: true
+    name: C-C00090
     systems:
     - J113619
     - J214654
@@ -6580,6 +6887,7 @@ locations:
     hasHub: false
     id: 21000091
     isWormhole: true
+    name: C-C00091
     systems:
     - J135526
     - J151429
@@ -6594,6 +6902,7 @@ locations:
     hasHub: false
     id: 21000092
     isWormhole: true
+    name: C-C00092
     systems:
     - J125938
     - J165806
@@ -6609,6 +6918,7 @@ locations:
     hasHub: false
     id: 21000093
     isWormhole: true
+    name: C-C00093
     systems:
     - J152143
     - J173230
@@ -6624,6 +6934,7 @@ locations:
     hasHub: false
     id: 21000094
     isWormhole: true
+    name: C-C00094
     systems:
     - J142520
     - J115253
@@ -6639,6 +6950,7 @@ locations:
     hasHub: false
     id: 21000095
     isWormhole: true
+    name: C-C00095
     systems:
     - J225524
     - J150704
@@ -6653,6 +6965,7 @@ locations:
     hasHub: false
     id: 21000096
     isWormhole: true
+    name: C-C00096
     systems:
     - J220838
     - J121628
@@ -6668,6 +6981,7 @@ locations:
     hasHub: false
     id: 21000097
     isWormhole: true
+    name: C-C00097
     systems:
     - J104351
     - J221117
@@ -6682,6 +6996,7 @@ locations:
     hasHub: false
     id: 21000098
     isWormhole: true
+    name: C-C00098
     systems:
     - J142026
     - J111031
@@ -6696,6 +7011,7 @@ locations:
     hasHub: false
     id: 21000099
     isWormhole: true
+    name: C-C00099
     systems:
     - J111309
     - J123405
@@ -6711,6 +7027,7 @@ locations:
     hasHub: false
     id: 21000100
     isWormhole: true
+    name: C-C00100
     systems:
     - J171549
     - J114627
@@ -6726,6 +7043,7 @@ locations:
     hasHub: false
     id: 21000101
     isWormhole: true
+    name: C-C00101
     systems:
     - J154530
     - J100728
@@ -6740,6 +7058,7 @@ locations:
     hasHub: false
     id: 21000102
     isWormhole: true
+    name: C-C00102
     systems:
     - J152146
     - J104905
@@ -6754,6 +7073,7 @@ locations:
     hasHub: false
     id: 21000103
     isWormhole: true
+    name: C-C00103
     systems:
     - J124715
     - J124813
@@ -6769,6 +7089,7 @@ locations:
     hasHub: false
     id: 21000104
     isWormhole: true
+    name: C-C00104
     systems:
     - J120945
     - J155541
@@ -6784,6 +7105,7 @@ locations:
     hasHub: false
     id: 21000105
     isWormhole: true
+    name: C-C00105
     systems:
     - J155852
     - J112854
@@ -6799,6 +7121,7 @@ locations:
     hasHub: false
     id: 21000106
     isWormhole: true
+    name: C-C00106
     systems:
     - J203753
     - J121856
@@ -6814,6 +7137,7 @@ locations:
     hasHub: false
     id: 21000107
     isWormhole: true
+    name: C-C00107
     systems:
     - J171813
     - J154145
@@ -6829,6 +7153,7 @@ locations:
     hasHub: false
     id: 21000108
     isWormhole: true
+    name: C-C00108
     systems:
     - J155124
     - J133207
@@ -6843,6 +7168,7 @@ locations:
     hasHub: false
     id: 21000109
     isWormhole: true
+    name: C-C00109
     systems:
     - J205412
     - J132737
@@ -6857,6 +7183,7 @@ locations:
     hasHub: false
     id: 21000110
     isWormhole: true
+    name: C-C00110
     systems:
     - J233739
     - J101736
@@ -6872,6 +7199,7 @@ locations:
     hasHub: false
     id: 21000111
     isWormhole: true
+    name: C-C00111
     systems:
     - J145615
     - J141451
@@ -6887,6 +7215,7 @@ locations:
     hasHub: false
     id: 21000112
     isWormhole: true
+    name: C-C00112
     systems:
     - J132721
     - J103353
@@ -6902,6 +7231,7 @@ locations:
     hasHub: false
     id: 21000113
     isWormhole: true
+    name: C-C00113
     systems:
     - J165153
     - J110924
@@ -6917,6 +7247,7 @@ locations:
     hasHub: false
     id: 21000114
     isWormhole: true
+    name: C-C00114
     systems:
     - J163529
     - J131559
@@ -6932,6 +7263,7 @@ locations:
     hasHub: false
     id: 21000115
     isWormhole: true
+    name: C-C00115
     systems:
     - J172052
     - J143918
@@ -6946,6 +7278,7 @@ locations:
     hasHub: false
     id: 21000116
     isWormhole: true
+    name: C-C00116
     systems:
     - J232826
     - J120357
@@ -6960,6 +7293,7 @@ locations:
     hasHub: false
     id: 21000117
     isWormhole: true
+    name: C-C00117
     systems:
     - J142400
     - J114916
@@ -6974,6 +7308,7 @@ locations:
     hasHub: false
     id: 21000118
     isWormhole: true
+    name: C-C00118
     systems:
     - J152044
     - J220438
@@ -6988,6 +7323,7 @@ locations:
     hasHub: false
     id: 21000119
     isWormhole: true
+    name: C-C00119
     systems:
     - J142443
     - J125243
@@ -7003,6 +7339,7 @@ locations:
     hasHub: false
     id: 21000120
     isWormhole: true
+    name: C-C00120
     systems:
     - J113143
     - J110425
@@ -7017,6 +7354,7 @@ locations:
     hasHub: false
     id: 21000121
     isWormhole: true
+    name: C-C00121
     systems:
     - J222120
     - J121603
@@ -7032,6 +7370,7 @@ locations:
     hasHub: false
     id: 21000122
     isWormhole: true
+    name: C-C00122
     systems:
     - J144751
     - J214744
@@ -7046,6 +7385,7 @@ locations:
     hasHub: false
     id: 21000123
     isWormhole: true
+    name: C-C00123
     systems:
     - J161051
     - J103529
@@ -7060,6 +7400,7 @@ locations:
     hasHub: false
     id: 21000124
     isWormhole: true
+    name: C-C00124
     systems:
     - J121706
     - J222732
@@ -7074,6 +7415,7 @@ locations:
     hasHub: false
     id: 21000125
     isWormhole: true
+    name: C-C00125
     systems:
     - J103032
     - J212159
@@ -7088,6 +7430,7 @@ locations:
     hasHub: false
     id: 21000126
     isWormhole: true
+    name: C-C00126
     systems:
     - J122041
     - J134629
@@ -7102,6 +7445,7 @@ locations:
     hasHub: false
     id: 21000127
     isWormhole: true
+    name: C-C00127
     systems:
     - J204039
     - J104903
@@ -7116,6 +7460,7 @@ locations:
     hasHub: false
     id: 21000128
     isWormhole: true
+    name: C-C00128
     systems:
     - J204842
     - J131716
@@ -7131,6 +7476,7 @@ locations:
     hasHub: false
     id: 21000129
     isWormhole: true
+    name: C-C00129
     systems:
     - J121921
     - J144103
@@ -7145,6 +7491,7 @@ locations:
     hasHub: false
     id: 21000130
     isWormhole: true
+    name: C-C00130
     systems:
     - J224401
     - J114506
@@ -7159,6 +7506,7 @@ locations:
     hasHub: false
     id: 21000131
     isWormhole: true
+    name: C-C00131
     systems:
     - J214600
     - J151045
@@ -7174,6 +7522,7 @@ locations:
     hasHub: false
     id: 21000132
     isWormhole: true
+    name: C-C00132
     systems:
     - J114010
     - J173330
@@ -7189,6 +7538,7 @@ locations:
     hasHub: false
     id: 21000133
     isWormhole: true
+    name: C-C00133
     systems:
     - J141046
     - J214009
@@ -7204,6 +7554,7 @@ locations:
     hasHub: false
     id: 21000134
     isWormhole: true
+    name: C-C00134
     systems:
     - J131656
     - J132746
@@ -7218,6 +7569,7 @@ locations:
     hasHub: false
     id: 21000135
     isWormhole: true
+    name: C-C00135
     systems:
     - J113647
     - J104835
@@ -7233,6 +7585,7 @@ locations:
     hasHub: false
     id: 21000136
     isWormhole: true
+    name: C-C00136
     systems:
     - J131324
     - J134118
@@ -7247,6 +7600,7 @@ locations:
     hasHub: false
     id: 21000137
     isWormhole: true
+    name: C-C00137
     systems:
     - J151242
     - J213423
@@ -7261,6 +7615,7 @@ locations:
     hasHub: false
     id: 21000138
     isWormhole: true
+    name: C-C00138
     systems:
     - J112954
     - J101323
@@ -7275,6 +7630,7 @@ locations:
     hasHub: false
     id: 21000139
     isWormhole: true
+    name: C-C00139
     systems:
     - J155545
     - J161441
@@ -7290,6 +7646,7 @@ locations:
     hasHub: false
     id: 21000140
     isWormhole: true
+    name: C-C00140
     systems:
     - J235330
     - J112948
@@ -7305,6 +7662,7 @@ locations:
     hasHub: false
     id: 21000141
     isWormhole: true
+    name: C-C00141
     systems:
     - J132226
     - J151645
@@ -7319,6 +7677,7 @@ locations:
     hasHub: false
     id: 21000142
     isWormhole: true
+    name: C-C00142
     systems:
     - J233628
     - J111823
@@ -7333,6 +7692,7 @@ locations:
     hasHub: false
     id: 21000143
     isWormhole: true
+    name: C-C00143
     systems:
     - J110738
     - J104815
@@ -7347,6 +7707,7 @@ locations:
     hasHub: false
     id: 21000144
     isWormhole: true
+    name: C-C00144
     systems:
     - J153034
     - J220338
@@ -7361,6 +7722,7 @@ locations:
     hasHub: false
     id: 21000145
     isWormhole: true
+    name: C-C00145
     systems:
     - J165224
     - J140739
@@ -7375,6 +7737,7 @@ locations:
     hasHub: false
     id: 21000146
     isWormhole: true
+    name: C-C00146
     systems:
     - J104330
     - J110226
@@ -7389,6 +7752,7 @@ locations:
     hasHub: false
     id: 21000147
     isWormhole: true
+    name: C-C00147
     systems:
     - J124207
     - J144024
@@ -7404,6 +7768,7 @@ locations:
     hasHub: false
     id: 21000148
     isWormhole: true
+    name: C-C00148
     systems:
     - J215326
     - J120742
@@ -7419,6 +7784,7 @@ locations:
     hasHub: false
     id: 21000149
     isWormhole: true
+    name: C-C00149
     systems:
     - J105201
     - J121700
@@ -7434,6 +7800,7 @@ locations:
     hasHub: false
     id: 21000150
     isWormhole: true
+    name: C-C00150
     systems:
     - J205900
     - J143345
@@ -7448,6 +7815,7 @@ locations:
     hasHub: false
     id: 21000151
     isWormhole: true
+    name: C-C00151
     systems:
     - J104001
     - J141848
@@ -7462,6 +7830,7 @@ locations:
     hasHub: false
     id: 21000152
     isWormhole: true
+    name: C-C00152
     systems:
     - J115909
     - J131304
@@ -7477,6 +7846,7 @@ locations:
     hasHub: false
     id: 21000327
     isWormhole: true
+    name: C-C00327
     systems:
     - J001348
     - J004283
@@ -7504,6 +7874,7 @@ locations:
     hasHub: true
     id: 20000637
     isWormhole: false
+    name: C-ULS4
     systems:
     - ZIU-EP
     - CS-ZGD
@@ -7529,6 +7900,7 @@ locations:
     hasHub: true
     id: 20000647
     isWormhole: false
+    name: C45-9Y
     systems:
     - VF-FN6
     - I5Q2-S
@@ -7554,6 +7926,7 @@ locations:
     hasHub: true
     id: 20000314
     isWormhole: false
+    name: C73-U5
     systems:
     - Z4-QLD
     - R-ZUOL
@@ -7577,6 +7950,7 @@ locations:
     hasHub: true
     id: 20000269
     isWormhole: false
+    name: C9XB-L
     systems:
     - NQ-M6W
     - P-8PDJ
@@ -7602,6 +7976,7 @@ locations:
     hasHub: true
     id: 20000705
     isWormhole: false
+    name: CL-QB2
     systems:
     - ZMV9-A
     - C-FD0D
@@ -7627,6 +8002,7 @@ locations:
     hasHub: true
     id: 20000107
     isWormhole: false
+    name: CN5-F2
     systems:
     - 1-7HVI
     - 4-43BW
@@ -7653,6 +8029,7 @@ locations:
     hasHub: true
     id: 20000468
     isWormhole: false
+    name: CZ-06R
     systems:
     - W5-VBR
     - LQQH-J
@@ -7683,6 +8060,7 @@ locations:
     hasHub: true
     id: 20000405
     isWormhole: false
+    name: CaldariBorderZone
     systems:
     - Tennen
     - Sivala
@@ -7705,6 +8083,7 @@ locations:
     hasHub: true
     id: 20000669
     isWormhole: false
+    name: Centaur
     systems:
     - 7X-02R
     - Z9PP-H
@@ -7725,6 +8104,7 @@ locations:
     hasHub: true
     id: 20000768
     isWormhole: false
+    name: Charak
     systems:
     - Anzalaisio
     - Abhan
@@ -7747,6 +8127,7 @@ locations:
     hasHub: true
     id: 20000513
     isWormhole: false
+    name: Chardu
     systems:
     - Pedel
     - Etav
@@ -7775,6 +8156,7 @@ locations:
     hasHub: true
     id: 20000442
     isWormhole: false
+    name: Chasnaye
     systems:
     - Mya
     - Gerper
@@ -7794,6 +8176,7 @@ locations:
     hasHub: true
     id: 20000673
     isWormhole: false
+    name: Chimera
     systems:
     - 15U-JY
     - 7BX-6F
@@ -7823,6 +8206,7 @@ locations:
     hasHub: true
     id: 20000743
     isWormhole: false
+    name: Comadu
     systems:
     - Shokal
     - Piri
@@ -7856,6 +8240,7 @@ locations:
     hasHub: true
     id: 20000389
     isWormhole: false
+    name: Coriault
     systems:
     - Dodixie
     - Agrallarier
@@ -7886,6 +8271,7 @@ locations:
     hasHub: true
     id: 20000656
     isWormhole: false
+    name: Crown
     systems:
     - ZJQH-S
     - E9G-MT
@@ -7923,6 +8309,7 @@ locations:
     hasHub: true
     id: 20000727
     isWormhole: false
+    name: Crux
     systems:
     - Duripant
     - Renyn
@@ -7948,6 +8335,7 @@ locations:
     hasHub: true
     id: 20000071
     isWormhole: false
+    name: D-95MV
     systems:
     - J-L9MA
     - U-MFTL
@@ -7973,6 +8361,7 @@ locations:
     hasHub: true
     id: 20000432
     isWormhole: false
+    name: D-AWFI
     systems:
     - UJY-HE
     - UEJX-G
@@ -7987,6 +8376,7 @@ locations:
     hasHub: false
     id: 21000153
     isWormhole: true
+    name: D-C00153
     systems:
     - J142200
     - J113925
@@ -8002,6 +8392,7 @@ locations:
     hasHub: false
     id: 21000154
     isWormhole: true
+    name: D-C00154
     systems:
     - J133458
     - J165839
@@ -8017,6 +8408,7 @@ locations:
     hasHub: false
     id: 21000155
     isWormhole: true
+    name: D-C00155
     systems:
     - J160419
     - J221859
@@ -8032,6 +8424,7 @@ locations:
     hasHub: false
     id: 21000156
     isWormhole: true
+    name: D-C00156
     systems:
     - J124837
     - J123726
@@ -8047,6 +8440,7 @@ locations:
     hasHub: false
     id: 21000157
     isWormhole: true
+    name: D-C00157
     systems:
     - J121845
     - J153202
@@ -8062,6 +8456,7 @@ locations:
     hasHub: false
     id: 21000158
     isWormhole: true
+    name: D-C00158
     systems:
     - J145129
     - J101507
@@ -8077,6 +8472,7 @@ locations:
     hasHub: false
     id: 21000159
     isWormhole: true
+    name: D-C00159
     systems:
     - J123528
     - J132611
@@ -8091,6 +8487,7 @@ locations:
     hasHub: false
     id: 21000160
     isWormhole: true
+    name: D-C00160
     systems:
     - J100150
     - J152255
@@ -8105,6 +8502,7 @@ locations:
     hasHub: false
     id: 21000161
     isWormhole: true
+    name: D-C00161
     systems:
     - J132754
     - J211027
@@ -8119,6 +8517,7 @@ locations:
     hasHub: false
     id: 21000162
     isWormhole: true
+    name: D-C00162
     systems:
     - J103110
     - J100806
@@ -8133,6 +8532,7 @@ locations:
     hasHub: false
     id: 21000163
     isWormhole: true
+    name: D-C00163
     systems:
     - J122656
     - J134716
@@ -8148,6 +8548,7 @@ locations:
     hasHub: false
     id: 21000164
     isWormhole: true
+    name: D-C00164
     systems:
     - J154631
     - J111404
@@ -8162,6 +8563,7 @@ locations:
     hasHub: false
     id: 21000165
     isWormhole: true
+    name: D-C00165
     systems:
     - J111758
     - J105726
@@ -8176,6 +8578,7 @@ locations:
     hasHub: false
     id: 21000166
     isWormhole: true
+    name: D-C00166
     systems:
     - J165020
     - J213820
@@ -8190,6 +8593,7 @@ locations:
     hasHub: false
     id: 21000167
     isWormhole: true
+    name: D-C00167
     systems:
     - J204635
     - J143841
@@ -8204,6 +8608,7 @@ locations:
     hasHub: false
     id: 21000168
     isWormhole: true
+    name: D-C00168
     systems:
     - J132149
     - J152443
@@ -8219,6 +8624,7 @@ locations:
     hasHub: false
     id: 21000169
     isWormhole: true
+    name: D-C00169
     systems:
     - J125031
     - J115552
@@ -8234,6 +8640,7 @@ locations:
     hasHub: false
     id: 21000170
     isWormhole: true
+    name: D-C00170
     systems:
     - J165423
     - J155521
@@ -8249,6 +8656,7 @@ locations:
     hasHub: false
     id: 21000171
     isWormhole: true
+    name: D-C00171
     systems:
     - J203952
     - J163641
@@ -8264,6 +8672,7 @@ locations:
     hasHub: false
     id: 21000172
     isWormhole: true
+    name: D-C00172
     systems:
     - J142355
     - J120643
@@ -8278,6 +8687,7 @@ locations:
     hasHub: false
     id: 21000173
     isWormhole: true
+    name: D-C00173
     systems:
     - J144732
     - J145452
@@ -8293,6 +8703,7 @@ locations:
     hasHub: false
     id: 21000174
     isWormhole: true
+    name: D-C00174
     systems:
     - J151353
     - J235219
@@ -8308,6 +8719,7 @@ locations:
     hasHub: false
     id: 21000175
     isWormhole: true
+    name: D-C00175
     systems:
     - J135836
     - J141322
@@ -8323,6 +8735,7 @@ locations:
     hasHub: false
     id: 21000176
     isWormhole: true
+    name: D-C00176
     systems:
     - J1226-0
     - J130332
@@ -8337,6 +8750,7 @@ locations:
     hasHub: false
     id: 21000177
     isWormhole: true
+    name: D-C00177
     systems:
     - J161815
     - J103242
@@ -8352,6 +8766,7 @@ locations:
     hasHub: false
     id: 21000178
     isWormhole: true
+    name: D-C00178
     systems:
     - J131712
     - J102439
@@ -8367,6 +8782,7 @@ locations:
     hasHub: false
     id: 21000179
     isWormhole: true
+    name: D-C00179
     systems:
     - J154541
     - J140244
@@ -8381,6 +8797,7 @@ locations:
     hasHub: false
     id: 21000180
     isWormhole: true
+    name: D-C00180
     systems:
     - J124727
     - J162251
@@ -8396,6 +8813,7 @@ locations:
     hasHub: false
     id: 21000181
     isWormhole: true
+    name: D-C00181
     systems:
     - J212851
     - J145604
@@ -8410,6 +8828,7 @@ locations:
     hasHub: false
     id: 21000182
     isWormhole: true
+    name: D-C00182
     systems:
     - J165532
     - J130828
@@ -8425,6 +8844,7 @@ locations:
     hasHub: false
     id: 21000183
     isWormhole: true
+    name: D-C00183
     systems:
     - J122934
     - J124109
@@ -8440,6 +8860,7 @@ locations:
     hasHub: false
     id: 21000184
     isWormhole: true
+    name: D-C00184
     systems:
     - J130343
     - J145757
@@ -8454,6 +8875,7 @@ locations:
     hasHub: false
     id: 21000185
     isWormhole: true
+    name: D-C00185
     systems:
     - J213139
     - J213615
@@ -8469,6 +8891,7 @@ locations:
     hasHub: false
     id: 21000186
     isWormhole: true
+    name: D-C00186
     systems:
     - J102409
     - J121116
@@ -8484,6 +8907,7 @@ locations:
     hasHub: false
     id: 21000187
     isWormhole: true
+    name: D-C00187
     systems:
     - J155313
     - J124306
@@ -8498,6 +8922,7 @@ locations:
     hasHub: false
     id: 21000188
     isWormhole: true
+    name: D-C00188
     systems:
     - J112150
     - J204506
@@ -8512,6 +8937,7 @@ locations:
     hasHub: false
     id: 21000189
     isWormhole: true
+    name: D-C00189
     systems:
     - J133936
     - J143140
@@ -8527,6 +8953,7 @@ locations:
     hasHub: false
     id: 21000190
     isWormhole: true
+    name: D-C00190
     systems:
     - J152421
     - J150320
@@ -8541,6 +8968,7 @@ locations:
     hasHub: false
     id: 21000191
     isWormhole: true
+    name: D-C00191
     systems:
     - J145944
     - J150044
@@ -8555,6 +8983,7 @@ locations:
     hasHub: false
     id: 21000192
     isWormhole: true
+    name: D-C00192
     systems:
     - J225234
     - J212028
@@ -8570,6 +8999,7 @@ locations:
     hasHub: false
     id: 21000193
     isWormhole: true
+    name: D-C00193
     systems:
     - J121558
     - J141220
@@ -8584,6 +9014,7 @@ locations:
     hasHub: false
     id: 21000194
     isWormhole: true
+    name: D-C00194
     systems:
     - J154102
     - J104624
@@ -8598,6 +9029,7 @@ locations:
     hasHub: false
     id: 21000195
     isWormhole: true
+    name: D-C00195
     systems:
     - J101042
     - J145848
@@ -8613,6 +9045,7 @@ locations:
     hasHub: false
     id: 21000196
     isWormhole: true
+    name: D-C00196
     systems:
     - J215743
     - J125929
@@ -8627,6 +9060,7 @@ locations:
     hasHub: false
     id: 21000197
     isWormhole: true
+    name: D-C00197
     systems:
     - J103141
     - J141001
@@ -8642,6 +9076,7 @@ locations:
     hasHub: false
     id: 21000198
     isWormhole: true
+    name: D-C00198
     systems:
     - J111458
     - J162831
@@ -8657,6 +9092,7 @@ locations:
     hasHub: false
     id: 21000199
     isWormhole: true
+    name: D-C00199
     systems:
     - J155214
     - J123352
@@ -8671,6 +9107,7 @@ locations:
     hasHub: false
     id: 21000200
     isWormhole: true
+    name: D-C00200
     systems:
     - J100937
     - J100107
@@ -8685,6 +9122,7 @@ locations:
     hasHub: false
     id: 21000201
     isWormhole: true
+    name: D-C00201
     systems:
     - J170305
     - J162816
@@ -8699,6 +9137,7 @@ locations:
     hasHub: false
     id: 21000202
     isWormhole: true
+    name: D-C00202
     systems:
     - J151021
     - J114133
@@ -8713,6 +9152,7 @@ locations:
     hasHub: false
     id: 21000203
     isWormhole: true
+    name: D-C00203
     systems:
     - J121847
     - J150805
@@ -8727,6 +9167,7 @@ locations:
     hasHub: false
     id: 21000204
     isWormhole: true
+    name: D-C00204
     systems:
     - J205922
     - J121006
@@ -8741,6 +9182,7 @@ locations:
     hasHub: false
     id: 21000205
     isWormhole: true
+    name: D-C00205
     systems:
     - J164031
     - J164025
@@ -8756,6 +9198,7 @@ locations:
     hasHub: false
     id: 21000206
     isWormhole: true
+    name: D-C00206
     systems:
     - J123746
     - J112404
@@ -8771,6 +9214,7 @@ locations:
     hasHub: false
     id: 21000207
     isWormhole: true
+    name: D-C00207
     systems:
     - J144743
     - J140154
@@ -8786,6 +9230,7 @@ locations:
     hasHub: false
     id: 21000208
     isWormhole: true
+    name: D-C00208
     systems:
     - J204853
     - J110417
@@ -8800,6 +9245,7 @@ locations:
     hasHub: false
     id: 21000209
     isWormhole: true
+    name: D-C00209
     systems:
     - J102055
     - J105835
@@ -8814,6 +9260,7 @@ locations:
     hasHub: false
     id: 21000210
     isWormhole: true
+    name: D-C00210
     systems:
     - J113508
     - J130451
@@ -8829,6 +9276,7 @@ locations:
     hasHub: false
     id: 21000211
     isWormhole: true
+    name: D-C00211
     systems:
     - J155831
     - J132735
@@ -8843,6 +9291,7 @@ locations:
     hasHub: false
     id: 21000212
     isWormhole: true
+    name: D-C00212
     systems:
     - J141740
     - J135807
@@ -8857,6 +9306,7 @@ locations:
     hasHub: false
     id: 21000213
     isWormhole: true
+    name: D-C00213
     systems:
     - J154321
     - J110915
@@ -8871,6 +9321,7 @@ locations:
     hasHub: false
     id: 21000214
     isWormhole: true
+    name: D-C00214
     systems:
     - J155959
     - J140823
@@ -8885,6 +9336,7 @@ locations:
     hasHub: false
     id: 21000215
     isWormhole: true
+    name: D-C00215
     systems:
     - J173638
     - J165058
@@ -8899,6 +9351,7 @@ locations:
     hasHub: false
     id: 21000216
     isWormhole: true
+    name: D-C00216
     systems:
     - J133931
     - J130330
@@ -8913,6 +9366,7 @@ locations:
     hasHub: false
     id: 21000217
     isWormhole: true
+    name: D-C00217
     systems:
     - J113152
     - J100846
@@ -8927,6 +9381,7 @@ locations:
     hasHub: false
     id: 21000218
     isWormhole: true
+    name: D-C00218
     systems:
     - J103538
     - J150656
@@ -8941,6 +9396,7 @@ locations:
     hasHub: false
     id: 21000219
     isWormhole: true
+    name: D-C00219
     systems:
     - J215455
     - J103120
@@ -8955,6 +9411,7 @@ locations:
     hasHub: false
     id: 21000220
     isWormhole: true
+    name: D-C00220
     systems:
     - J111617
     - J144038
@@ -8970,6 +9427,7 @@ locations:
     hasHub: false
     id: 21000221
     isWormhole: true
+    name: D-C00221
     systems:
     - J101142
     - J130001
@@ -8984,6 +9442,7 @@ locations:
     hasHub: false
     id: 21000222
     isWormhole: true
+    name: D-C00222
     systems:
     - J122706
     - J115031
@@ -8998,6 +9457,7 @@ locations:
     hasHub: false
     id: 21000223
     isWormhole: true
+    name: D-C00223
     systems:
     - J114318
     - J160929
@@ -9013,6 +9473,7 @@ locations:
     hasHub: false
     id: 21000224
     isWormhole: true
+    name: D-C00224
     systems:
     - J114031
     - J120316
@@ -9028,6 +9489,7 @@ locations:
     hasHub: false
     id: 21000225
     isWormhole: true
+    name: D-C00225
     systems:
     - J103907
     - J120844
@@ -9042,6 +9504,7 @@ locations:
     hasHub: false
     id: 21000226
     isWormhole: true
+    name: D-C00226
     systems:
     - J224558
     - J154824
@@ -9056,6 +9519,7 @@ locations:
     hasHub: false
     id: 21000227
     isWormhole: true
+    name: D-C00227
     systems:
     - J220215
     - J154407
@@ -9070,6 +9534,7 @@ locations:
     hasHub: false
     id: 21000228
     isWormhole: true
+    name: D-C00228
     systems:
     - J101957
     - J141647
@@ -9084,6 +9549,7 @@ locations:
     hasHub: false
     id: 21000229
     isWormhole: true
+    name: D-C00229
     systems:
     - J162828
     - J125629
@@ -9099,6 +9565,7 @@ locations:
     hasHub: false
     id: 21000230
     isWormhole: true
+    name: D-C00230
     systems:
     - J215615
     - J162255
@@ -9113,6 +9580,7 @@ locations:
     hasHub: false
     id: 21000231
     isWormhole: true
+    name: D-C00231
     systems:
     - J134459
     - J131624
@@ -9124,6 +9592,7 @@ locations:
     hasHub: false
     id: 21000328
     isWormhole: true
+    name: D-C00328
     systems:
     - J002625
     - J001769
@@ -9161,6 +9630,7 @@ locations:
     hasHub: true
     id: 20000336
     isWormhole: false
+    name: D-GU3R
     systems:
     - 5J-62N
     - AID-9T
@@ -9184,6 +9654,7 @@ locations:
     hasHub: true
     id: 20000162
     isWormhole: false
+    name: D-YKXH
     systems:
     - 5B-YDD
     - PWPY-4
@@ -9198,6 +9669,7 @@ locations:
     hasHub: true
     id: 20000222
     isWormhole: false
+    name: D-YMGR
     systems:
     - LH-J8H
     - VR3-PS
@@ -9218,6 +9690,7 @@ locations:
     hasHub: true
     id: 20000474
     isWormhole: false
+    name: D4J-PP
     systems:
     - X-9ZZR
     - HO4E-Q
@@ -9241,6 +9714,7 @@ locations:
     hasHub: true
     id: 20000694
     isWormhole: false
+    name: D5-SOW
     systems:
     - LUA5-L
     - QC-YX6
@@ -9263,6 +9737,7 @@ locations:
     hasHub: true
     id: 20000475
     isWormhole: false
+    name: D61-WV
     systems:
     - 9G5J-1
     - 0PU2-R
@@ -9281,6 +9756,7 @@ locations:
     hasHub: true
     id: 20000687
     isWormhole: false
+    name: D9DM-O
     systems:
     - LD-2VL
     - ZDYA-G
@@ -9299,6 +9775,7 @@ locations:
     hasHub: true
     id: 20000616
     isWormhole: false
+    name: DA0V-R
     systems:
     - E0DR-G
     - CHP-76
@@ -9320,6 +9797,7 @@ locations:
     hasHub: true
     id: 20000041
     isWormhole: false
+    name: DILJ-7
     systems:
     - XF-PWO
     - 2DWM-2
@@ -9345,6 +9823,7 @@ locations:
     hasHub: true
     id: 20000105
     isWormhole: false
+    name: DITJ-X
     systems:
     - ZDB-HT
     - 4-CM8I
@@ -9379,6 +9858,7 @@ locations:
     hasHub: true
     id: 20000080
     isWormhole: false
+    name: DJ-XCW
     systems:
     - U104-3
     - GGE-5Q
@@ -9397,6 +9877,7 @@ locations:
     hasHub: true
     id: 20000033
     isWormhole: false
+    name: DMXN-3
     systems:
     - MY-T2P
     - 3HX-DL
@@ -9424,6 +9905,7 @@ locations:
     hasHub: true
     id: 20000471
     isWormhole: false
+    name: DOCS-O
     systems:
     - SON-TW
     - 5JEZ-I
@@ -9446,6 +9928,7 @@ locations:
     hasHub: true
     id: 20000481
     isWormhole: false
+    name: DS-M4Q
     systems:
     - AAS-8R
     - PFP-GU
@@ -9467,6 +9950,7 @@ locations:
     hasHub: true
     id: 20000142
     isWormhole: false
+    name: DYK-G8
     systems:
     - O-RXCZ
     - H7O-JZ
@@ -9497,6 +9981,7 @@ locations:
     hasHub: true
     id: 20000250
     isWormhole: false
+    name: Damadil
     systems:
     - Onazel
     - Asesamy
@@ -9530,6 +10015,7 @@ locations:
     hasHub: true
     id: 20000438
     isWormhole: false
+    name: Daredan
     systems:
     - Riavayed
     - Nakatre
@@ -9569,6 +10055,7 @@ locations:
     hasHub: true
     id: 20000386
     isWormhole: false
+    name: Disier
     systems:
     - Aufay
     - Grinacanne
@@ -9595,6 +10082,7 @@ locations:
     hasHub: true
     id: 20000635
     isWormhole: false
+    name: E-312G
     systems:
     - YG-82V
     - 5LJ-MD
@@ -9619,6 +10107,7 @@ locations:
     hasHub: true
     id: 20000535
     isWormhole: false
+    name: E-72A3
     systems:
     - T-K10W
     - C-XNUA
@@ -9645,6 +10134,7 @@ locations:
     hasHub: true
     id: 20000044
     isWormhole: false
+    name: E-8CSQ
     systems:
     - Y5J-EU
     - B-E3KQ
@@ -9666,6 +10156,7 @@ locations:
     hasHub: true
     id: 20000110
     isWormhole: false
+    name: E-95ID
     systems:
     - V-QXXK
     - XQP-9C
@@ -9680,6 +10171,7 @@ locations:
     hasHub: false
     id: 21000232
     isWormhole: true
+    name: E-C00232
     systems:
     - J122515
     - J103251
@@ -9697,6 +10189,7 @@ locations:
     hasHub: false
     id: 21000233
     isWormhole: true
+    name: E-C00233
     systems:
     - J132823
     - J133119
@@ -9715,6 +10208,7 @@ locations:
     hasHub: false
     id: 21000234
     isWormhole: true
+    name: E-C00234
     systems:
     - J205659
     - J135449
@@ -9732,6 +10226,7 @@ locations:
     hasHub: false
     id: 21000235
     isWormhole: true
+    name: E-C00235
     systems:
     - J213245
     - J151057
@@ -9747,6 +10242,7 @@ locations:
     hasHub: false
     id: 21000236
     isWormhole: true
+    name: E-C00236
     systems:
     - J153144
     - J161032
@@ -9761,6 +10257,7 @@ locations:
     hasHub: false
     id: 21000237
     isWormhole: true
+    name: E-C00237
     systems:
     - J151035
     - J140717
@@ -9776,6 +10273,7 @@ locations:
     hasHub: false
     id: 21000238
     isWormhole: true
+    name: E-C00238
     systems:
     - J105441
     - J132814
@@ -9792,6 +10290,7 @@ locations:
     hasHub: false
     id: 21000239
     isWormhole: true
+    name: E-C00239
     systems:
     - J114353
     - J143123
@@ -9810,6 +10309,7 @@ locations:
     hasHub: false
     id: 21000240
     isWormhole: true
+    name: E-C00240
     systems:
     - J155600
     - J125023
@@ -9827,6 +10327,7 @@ locations:
     hasHub: false
     id: 21000241
     isWormhole: true
+    name: E-C00241
     systems:
     - J132601
     - J135559
@@ -9844,6 +10345,7 @@ locations:
     hasHub: false
     id: 21000242
     isWormhole: true
+    name: E-C00242
     systems:
     - J131401
     - J144115
@@ -9859,6 +10361,7 @@ locations:
     hasHub: false
     id: 21000243
     isWormhole: true
+    name: E-C00243
     systems:
     - J133525
     - J143740
@@ -9873,6 +10376,7 @@ locations:
     hasHub: false
     id: 21000244
     isWormhole: true
+    name: E-C00244
     systems:
     - J110117
     - J214318
@@ -9891,6 +10395,7 @@ locations:
     hasHub: false
     id: 21000245
     isWormhole: true
+    name: E-C00245
     systems:
     - J112844
     - J130818
@@ -9908,6 +10413,7 @@ locations:
     hasHub: false
     id: 21000246
     isWormhole: true
+    name: E-C00246
     systems:
     - J165340
     - J124409
@@ -9923,6 +10429,7 @@ locations:
     hasHub: false
     id: 21000247
     isWormhole: true
+    name: E-C00247
     systems:
     - J234252
     - J212224
@@ -9940,6 +10447,7 @@ locations:
     hasHub: false
     id: 21000248
     isWormhole: true
+    name: E-C00248
     systems:
     - J114809
     - J145208
@@ -9956,6 +10464,7 @@ locations:
     hasHub: false
     id: 21000249
     isWormhole: true
+    name: E-C00249
     systems:
     - J123602
     - J100549
@@ -9971,6 +10480,7 @@ locations:
     hasHub: false
     id: 21000250
     isWormhole: true
+    name: E-C00250
     systems:
     - J100858
     - J110018
@@ -9986,6 +10496,7 @@ locations:
     hasHub: false
     id: 21000251
     isWormhole: true
+    name: E-C00251
     systems:
     - J234928
     - J213642
@@ -10002,6 +10513,7 @@ locations:
     hasHub: false
     id: 21000252
     isWormhole: true
+    name: E-C00252
     systems:
     - J220924
     - J100425
@@ -10018,6 +10530,7 @@ locations:
     hasHub: false
     id: 21000253
     isWormhole: true
+    name: E-C00253
     systems:
     - J142234
     - J151319
@@ -10033,6 +10546,7 @@ locations:
     hasHub: false
     id: 21000254
     isWormhole: true
+    name: E-C00254
     systems:
     - J121842
     - J132427
@@ -10049,6 +10563,7 @@ locations:
     hasHub: false
     id: 21000255
     isWormhole: true
+    name: E-C00255
     systems:
     - J125990
     - J114518
@@ -10063,6 +10578,7 @@ locations:
     hasHub: false
     id: 21000256
     isWormhole: true
+    name: E-C00256
     systems:
     - J145844
     - J121959
@@ -10079,6 +10595,7 @@ locations:
     hasHub: false
     id: 21000257
     isWormhole: true
+    name: E-C00257
     systems:
     - J111150
     - J154906
@@ -10093,6 +10610,7 @@ locations:
     hasHub: false
     id: 21000258
     isWormhole: true
+    name: E-C00258
     systems:
     - J111935
     - J145735
@@ -10111,6 +10629,7 @@ locations:
     hasHub: false
     id: 21000259
     isWormhole: true
+    name: E-C00259
     systems:
     - J215215
     - J143718
@@ -10127,6 +10646,7 @@ locations:
     hasHub: false
     id: 21000260
     isWormhole: true
+    name: E-C00260
     systems:
     - J170327
     - J142631
@@ -10143,6 +10663,7 @@ locations:
     hasHub: false
     id: 21000261
     isWormhole: true
+    name: E-C00261
     systems:
     - J133833
     - J113907
@@ -10160,6 +10681,7 @@ locations:
     hasHub: false
     id: 21000262
     isWormhole: true
+    name: E-C00262
     systems:
     - J141615
     - J133222
@@ -10175,6 +10697,7 @@ locations:
     hasHub: false
     id: 21000263
     isWormhole: true
+    name: E-C00263
     systems:
     - J152111
     - J121416
@@ -10189,6 +10712,7 @@ locations:
     hasHub: false
     id: 21000264
     isWormhole: true
+    name: E-C00264
     systems:
     - J163408
     - J141043
@@ -10203,6 +10727,7 @@ locations:
     hasHub: false
     id: 21000265
     isWormhole: true
+    name: E-C00265
     systems:
     - J153919
     - J120437
@@ -10220,6 +10745,7 @@ locations:
     hasHub: false
     id: 21000266
     isWormhole: true
+    name: E-C00266
     systems:
     - J205517
     - J133529
@@ -10234,6 +10760,7 @@ locations:
     hasHub: false
     id: 21000267
     isWormhole: true
+    name: E-C00267
     systems:
     - J122757
     - J172937
@@ -10248,6 +10775,7 @@ locations:
     hasHub: false
     id: 21000268
     isWormhole: true
+    name: E-C00268
     systems:
     - J152034
     - J100759
@@ -10266,6 +10794,7 @@ locations:
     hasHub: false
     id: 21000269
     isWormhole: true
+    name: E-C00269
     systems:
     - J112042
     - J161737
@@ -10284,6 +10813,7 @@ locations:
     hasHub: false
     id: 21000270
     isWormhole: true
+    name: E-C00270
     systems:
     - J105135
     - J140418
@@ -10299,6 +10829,7 @@ locations:
     hasHub: false
     id: 21000271
     isWormhole: true
+    name: E-C00271
     systems:
     - J212203
     - J131747
@@ -10314,6 +10845,7 @@ locations:
     hasHub: false
     id: 21000272
     isWormhole: true
+    name: E-C00272
     systems:
     - J214006
     - J101912
@@ -10330,6 +10862,7 @@ locations:
     hasHub: false
     id: 21000273
     isWormhole: true
+    name: E-C00273
     systems:
     - J100616
     - J124538
@@ -10346,6 +10879,7 @@ locations:
     hasHub: false
     id: 21000274
     isWormhole: true
+    name: E-C00274
     systems:
     - J121459
     - J144543
@@ -10363,6 +10897,7 @@ locations:
     hasHub: false
     id: 21000275
     isWormhole: true
+    name: E-C00275
     systems:
     - J123658
     - J161747
@@ -10378,6 +10913,7 @@ locations:
     hasHub: false
     id: 21000276
     isWormhole: true
+    name: E-C00276
     systems:
     - J120546
     - J210750
@@ -10392,6 +10928,7 @@ locations:
     hasHub: false
     id: 21000277
     isWormhole: true
+    name: E-C00277
     systems:
     - J173506
     - J143245
@@ -10409,6 +10946,7 @@ locations:
     hasHub: false
     id: 21000278
     isWormhole: true
+    name: E-C00278
     systems:
     - J165520
     - J165940
@@ -10424,6 +10962,7 @@ locations:
     hasHub: false
     id: 21000279
     isWormhole: true
+    name: E-C00279
     systems:
     - J134702
     - J234152
@@ -10440,6 +10979,7 @@ locations:
     hasHub: false
     id: 21000280
     isWormhole: true
+    name: E-C00280
     systems:
     - J145825
     - J115907
@@ -10454,6 +10994,7 @@ locations:
     hasHub: false
     id: 21000281
     isWormhole: true
+    name: E-C00281
     systems:
     - J145349
     - J111518
@@ -10469,6 +11010,7 @@ locations:
     hasHub: false
     id: 21000282
     isWormhole: true
+    name: E-C00282
     systems:
     - J161838
     - J215554
@@ -10486,6 +11028,7 @@ locations:
     hasHub: false
     id: 21000283
     isWormhole: true
+    name: E-C00283
     systems:
     - J153222
     - J144434
@@ -10502,6 +11045,7 @@ locations:
     hasHub: false
     id: 21000284
     isWormhole: true
+    name: E-C00284
     systems:
     - J110634
     - J151909
@@ -10517,6 +11061,7 @@ locations:
     hasHub: false
     id: 21000285
     isWormhole: true
+    name: E-C00285
     systems:
     - J114100
     - J152827
@@ -10534,6 +11079,7 @@ locations:
     hasHub: false
     id: 21000286
     isWormhole: true
+    name: E-C00286
     systems:
     - J214212
     - J234722
@@ -10549,6 +11095,7 @@ locations:
     hasHub: false
     id: 21000287
     isWormhole: true
+    name: E-C00287
     systems:
     - J133513
     - J165312
@@ -10563,6 +11110,7 @@ locations:
     hasHub: false
     id: 21000288
     isWormhole: true
+    name: E-C00288
     systems:
     - J233917
     - J140343
@@ -10578,6 +11126,7 @@ locations:
     hasHub: false
     id: 21000289
     isWormhole: true
+    name: E-C00289
     systems:
     - J132546
     - J142653
@@ -10595,6 +11144,7 @@ locations:
     hasHub: false
     id: 21000290
     isWormhole: true
+    name: E-C00290
     systems:
     - J135825
     - J111613
@@ -10613,6 +11163,7 @@ locations:
     hasHub: false
     id: 21000291
     isWormhole: true
+    name: E-C00291
     systems:
     - J222408
     - J173550
@@ -10631,6 +11182,7 @@ locations:
     hasHub: false
     id: 21000292
     isWormhole: true
+    name: E-C00292
     systems:
     - J170736
     - J133923
@@ -10649,6 +11201,7 @@ locations:
     hasHub: false
     id: 21000293
     isWormhole: true
+    name: E-C00293
     systems:
     - J212302
     - J233517
@@ -10665,6 +11218,7 @@ locations:
     hasHub: false
     id: 21000294
     isWormhole: true
+    name: E-C00294
     systems:
     - J135705
     - J104809
@@ -10681,6 +11235,7 @@ locations:
     hasHub: false
     id: 21000295
     isWormhole: true
+    name: E-C00295
     systems:
     - J105531
     - J215304
@@ -10695,6 +11250,7 @@ locations:
     hasHub: false
     id: 21000296
     isWormhole: true
+    name: E-C00296
     systems:
     - J213344
     - J232959
@@ -10712,6 +11268,7 @@ locations:
     hasHub: false
     id: 21000329
     isWormhole: true
+    name: E-C00329
     systems:
     - J013146
     - J005070
@@ -10743,6 +11300,7 @@ locations:
     hasHub: true
     id: 20000189
     isWormhole: false
+    name: E-I1JW
     systems:
     - O-TVTD
     - E-7U8U
@@ -10763,6 +11321,7 @@ locations:
     hasHub: true
     id: 20000706
     isWormhole: false
+    name: E-IFSA
     systems:
     - PDF-3Z
     - C3-0YD
@@ -10794,6 +11353,7 @@ locations:
     hasHub: true
     id: 20000460
     isWormhole: false
+    name: E-ILCH
     systems:
     - 02V-BK
     - R-ARKN
@@ -10825,6 +11385,7 @@ locations:
     hasHub: true
     id: 20000230
     isWormhole: false
+    name: E-UBWI
     systems:
     - Q-UVY6
     - QQGH-G
@@ -10859,6 +11420,7 @@ locations:
     hasHub: true
     id: 20000231
     isWormhole: false
+    name: E1L-UY
     systems:
     - G-VFVB
     - EU-WFW
@@ -10877,6 +11439,7 @@ locations:
     hasHub: true
     id: 20000128
     isWormhole: false
+    name: E3-NLE
     systems:
     - 9GI-FB
     - DBT-GB
@@ -10900,6 +11463,7 @@ locations:
     hasHub: true
     id: 20000234
     isWormhole: false
+    name: E65-47
     systems:
     - KS8G-M
     - 7-QOYS
@@ -10922,6 +11486,7 @@ locations:
     hasHub: true
     id: 20000159
     isWormhole: false
+    name: E6EO-H
     systems:
     - RIU-GC
     - V3P-AZ
@@ -10942,6 +11507,7 @@ locations:
     hasHub: true
     id: 20000711
     isWormhole: false
+    name: EIX-HK
     systems:
     - NZW-ZO
     - 8-BEW8
@@ -10961,6 +11527,7 @@ locations:
     hasHub: true
     id: 20000383
     isWormhole: false
+    name: EK-NQ2
     systems:
     - Z-N9IP
     - 9ZFH-Z
@@ -10989,6 +11556,7 @@ locations:
     hasHub: true
     id: 20000318
     isWormhole: false
+    name: EL8Z-M
     systems:
     - AC-7LZ
     - 9-XN3F
@@ -11013,6 +11581,7 @@ locations:
     hasHub: true
     id: 20000171
     isWormhole: false
+    name: EM-L3K
     systems:
     - WLAR-J
     - F4R2-Q
@@ -11048,6 +11617,7 @@ locations:
     hasHub: true
     id: 20000099
     isWormhole: false
+    name: ENP-SH
     systems:
     - 2-KPW6
     - OAQY-M
@@ -11067,6 +11637,7 @@ locations:
     hasHub: true
     id: 20000773
     isWormhole: false
+    name: EVE
     systems:
     - DeadEnd
     - NewEden
@@ -11091,6 +11662,7 @@ locations:
     hasHub: true
     id: 20000763
     isWormhole: false
+    name: Ekrin
     systems:
     - Apanake
     - Keseya
@@ -11118,6 +11690,7 @@ locations:
     hasHub: true
     id: 20000446
     isWormhole: false
+    name: Elalan
     systems:
     - Muer
     - Odixie
@@ -11149,6 +11722,7 @@ locations:
     hasHub: true
     id: 20000524
     isWormhole: false
+    name: Elerelle
     systems:
     - Agaullores
     - Heluene
@@ -11175,6 +11749,7 @@ locations:
     hasHub: true
     id: 20000355
     isWormhole: false
+    name: Elfrard
     systems:
     - Hegfunden
     - Kadlina
@@ -11200,6 +11775,7 @@ locations:
     hasHub: true
     id: 20000521
     isWormhole: false
+    name: Elose
     systems:
     - Maire
     - Pertnineere
@@ -11233,6 +11809,7 @@ locations:
     hasHub: true
     id: 20000149
     isWormhole: false
+    name: Elysium
     systems:
     - RA-NXN
     - HLW-HP
@@ -11257,6 +11834,7 @@ locations:
     hasHub: true
     id: 20000246
     isWormhole: false
+    name: Emsek
     systems:
     - Pera
     - Nuzair
@@ -11276,6 +11854,7 @@ locations:
     hasHub: true
     id: 20000440
     isWormhole: false
+    name: Enka
     systems:
     - Arveyil
     - Faktun
@@ -11306,6 +11885,7 @@ locations:
     hasHub: true
     id: 20000354
     isWormhole: false
+    name: Eoldulf
     systems:
     - Ennur
     - Mimiror
@@ -11337,6 +11917,7 @@ locations:
     hasHub: true
     id: 20000377
     isWormhole: false
+    name: Erada
     systems:
     - Magiko
     - Vullat
@@ -11360,6 +11941,7 @@ locations:
     hasHub: true
     id: 20000499
     isWormhole: false
+    name: Ergruk
     systems:
     - Anstard
     - Wirdalen
@@ -11383,6 +11965,7 @@ locations:
     hasHub: true
     id: 20000308
     isWormhole: false
+    name: Essin
     systems:
     - Frerstorn
     - Ontorn
@@ -11407,6 +11990,7 @@ locations:
     hasHub: true
     id: 20000027
     isWormhole: false
+    name: Etsala
     systems:
     - Otanuomi
     - Vasala
@@ -11433,6 +12017,7 @@ locations:
     hasHub: true
     id: 20000307
     isWormhole: false
+    name: Eugidi
     systems:
     - Eytjangard
     - Uisper
@@ -11460,6 +12045,7 @@ locations:
     hasHub: true
     id: 20000735
     isWormhole: false
+    name: Eustron
     systems:
     - Ommare
     - Hecarrin
@@ -11490,6 +12076,7 @@ locations:
     hasHub: true
     id: 20000375
     isWormhole: false
+    name: Evannater
     systems:
     - Gultratren
     - Endrulf
@@ -11505,6 +12092,7 @@ locations:
     hasHub: true
     id: 20000242
     isWormhole: false
+    name: F-0CTG
     systems:
     - 7BA-TK
     - 0IRK-R
@@ -11520,6 +12108,7 @@ locations:
     hasHub: true
     id: 20000221
     isWormhole: false
+    name: F-8DMX
     systems:
     - DVAR-P
     - J-JS0D
@@ -11534,6 +12123,7 @@ locations:
     hasHub: false
     id: 21000297
     isWormhole: true
+    name: F-C00297
     systems:
     - J135504
     - J104859
@@ -11549,6 +12139,7 @@ locations:
     hasHub: false
     id: 21000298
     isWormhole: true
+    name: F-C00298
     systems:
     - J150020
     - J142528
@@ -11564,6 +12155,7 @@ locations:
     hasHub: false
     id: 21000299
     isWormhole: true
+    name: F-C00299
     systems:
     - J215930
     - J152550
@@ -11583,6 +12175,7 @@ locations:
     hasHub: false
     id: 21000300
     isWormhole: true
+    name: F-C00300
     systems:
     - J120512
     - J230049
@@ -11599,6 +12192,7 @@ locations:
     hasHub: false
     id: 21000301
     isWormhole: true
+    name: F-C00301
     systems:
     - J155311
     - J151920
@@ -11613,6 +12207,7 @@ locations:
     hasHub: false
     id: 21000302
     isWormhole: true
+    name: F-C00302
     systems:
     - J110834
     - J170118
@@ -11629,6 +12224,7 @@ locations:
     hasHub: false
     id: 21000303
     isWormhole: true
+    name: F-C00303
     systems:
     - J165641
     - J124504
@@ -11644,6 +12240,7 @@ locations:
     hasHub: false
     id: 21000304
     isWormhole: true
+    name: F-C00304
     systems:
     - J213753
     - J122249
@@ -11661,6 +12258,7 @@ locations:
     hasHub: false
     id: 21000305
     isWormhole: true
+    name: F-C00305
     systems:
     - J140918
     - J100409
@@ -11678,6 +12276,7 @@ locations:
     hasHub: false
     id: 21000306
     isWormhole: true
+    name: F-C00306
     systems:
     - J105023
     - J114430
@@ -11694,6 +12293,7 @@ locations:
     hasHub: false
     id: 21000307
     isWormhole: true
+    name: F-C00307
     systems:
     - J230559
     - J112417
@@ -11710,6 +12310,7 @@ locations:
     hasHub: false
     id: 21000308
     isWormhole: true
+    name: F-C00308
     systems:
     - J211353
     - J140200
@@ -11726,6 +12327,7 @@ locations:
     hasHub: false
     id: 21000309
     isWormhole: true
+    name: F-C00309
     systems:
     - J101708
     - J125111
@@ -11742,6 +12344,7 @@ locations:
     hasHub: false
     id: 21000310
     isWormhole: true
+    name: F-C00310
     systems:
     - J170845
     - J132106
@@ -11759,6 +12362,7 @@ locations:
     hasHub: false
     id: 21000330
     isWormhole: true
+    name: F-C00330
     systems:
     - J010366
     - J012686
@@ -11776,6 +12380,7 @@ locations:
     hasHub: true
     id: 20000701
     isWormhole: false
+    name: F-I56R
     systems:
     - M-SRKS
     - KBAK-I
@@ -11796,6 +12401,7 @@ locations:
     hasHub: true
     id: 20000583
     isWormhole: false
+    name: F-RA63
     systems:
     - YW-SYT
     - BX2-ZX
@@ -11818,6 +12424,7 @@ locations:
     hasHub: true
     id: 20000043
     isWormhole: false
+    name: F-V9QW
     systems:
     - C-FP70
     - G96R-F
@@ -11842,6 +12449,7 @@ locations:
     hasHub: true
     id: 20000469
     isWormhole: false
+    name: F-W6B4
     systems:
     - 1-HDQ4
     - 6U-MFQ
@@ -11870,6 +12478,7 @@ locations:
     hasHub: true
     id: 20000363
     isWormhole: false
+    name: F-ZNNG
     systems:
     - E-91FV
     - UBX-CC
@@ -11894,6 +12503,7 @@ locations:
     hasHub: true
     id: 20000710
     isWormhole: false
+    name: F5-O9O
     systems:
     - QCDG-H
     - R-XDKM
@@ -11917,6 +12527,7 @@ locations:
     hasHub: true
     id: 20000121
     isWormhole: false
+    name: FD-7Y4
     systems:
     - W-MF6J
     - 74L2-U
@@ -11938,6 +12549,7 @@ locations:
     hasHub: true
     id: 20000176
     isWormhole: false
+    name: FDR-EQ
     systems:
     - CBL-XP
     - 3-SFWG
@@ -11954,6 +12566,7 @@ locations:
     hasHub: true
     id: 20000060
     isWormhole: false
+    name: FL-TD4
     systems:
     - FI-449
     - UA7-U4
@@ -11979,6 +12592,7 @@ locations:
     hasHub: true
     id: 20000094
     isWormhole: false
+    name: FQ-COP
     systems:
     - U93O-A
     - 8-VC6H
@@ -11999,6 +12613,7 @@ locations:
     hasHub: true
     id: 20000464
     isWormhole: false
+    name: FY6-NK
     systems:
     - 2R-KLH
     - 6SB-BN
@@ -12024,6 +12639,7 @@ locations:
     hasHub: true
     id: 20000628
     isWormhole: false
+    name: Fabai
     systems:
     - Tisot
     - Efu
@@ -12053,6 +12669,7 @@ locations:
     hasHub: true
     id: 20000774
     isWormhole: false
+    name: Fabas
     systems:
     - Doza
     - Ebasez
@@ -12078,6 +12695,7 @@ locations:
     hasHub: true
     id: 20000602
     isWormhole: false
+    name: Favo
     systems:
     - Menri
     - Iaokit
@@ -12113,6 +12731,7 @@ locations:
     hasHub: true
     id: 20000598
     isWormhole: false
+    name: Febihkin
     systems:
     - Murini
     - Dantan
@@ -12134,6 +12753,7 @@ locations:
     hasHub: true
     id: 20000570
     isWormhole: false
+    name: Fekhoya
     systems:
     - Parses
     - Col
@@ -12158,6 +12778,7 @@ locations:
     hasHub: true
     id: 20000565
     isWormhole: false
+    name: Finaka
     systems:
     - Geztic
     - Hishai
@@ -12181,6 +12802,7 @@ locations:
     hasHub: true
     id: 20000740
     isWormhole: false
+    name: Finena
     systems:
     - Ordion
     - Neesher
@@ -12205,6 +12827,7 @@ locations:
     hasHub: true
     id: 20000390
     isWormhole: false
+    name: Firille
     systems:
     - Pulin
     - Foves
@@ -12231,6 +12854,7 @@ locations:
     hasHub: true
     id: 20000554
     isWormhole: false
+    name: Fislipesnes
     systems:
     - Covryn
     - Stacmon
@@ -12259,6 +12883,7 @@ locations:
     hasHub: true
     id: 20000350
     isWormhole: false
+    name: Fittakan
     systems:
     - Atlar
     - Aeddin
@@ -12278,6 +12903,7 @@ locations:
     hasHub: true
     id: 20000501
     isWormhole: false
+    name: Frar
     systems:
     - Ansher
     - Aderkan
@@ -12297,6 +12923,7 @@ locations:
     hasHub: true
     id: 20000306
     isWormhole: false
+    name: Fribrodi
     systems:
     - Krirald
     - Arwa
@@ -12324,6 +12951,7 @@ locations:
     hasHub: true
     id: 20000507
     isWormhole: false
+    name: Fua
     systems:
     - Fahruni
     - Akila
@@ -12340,6 +12968,7 @@ locations:
     hasHub: false
     id: 21000324
     isWormhole: true
+    name: G-C00311
     systems:
     - Thera
   G-HISF:
@@ -12360,6 +12989,7 @@ locations:
     hasHub: true
     id: 20000163
     isWormhole: false
+    name: G-HISF
     systems:
     - APES-G
     - 2Z-HPQ
@@ -12393,6 +13023,7 @@ locations:
     hasHub: true
     id: 20000540
     isWormhole: false
+    name: G2E-RJ
     systems:
     - 9-F0B2
     - G-5EN2
@@ -12411,6 +13042,7 @@ locations:
     hasHub: true
     id: 20000612
     isWormhole: false
+    name: G3-MU3
     systems:
     - MK-YNM
     - 4A-6NI
@@ -12436,6 +13068,7 @@ locations:
     hasHub: true
     id: 20000708
     isWormhole: false
+    name: G3IP-E
     systems:
     - 0VK-43
     - JI1-SY
@@ -12460,6 +13093,7 @@ locations:
     hasHub: true
     id: 20000296
     isWormhole: false
+    name: G8-D09
     systems:
     - B8EN-S
     - R-LW2I
@@ -12478,6 +13112,7 @@ locations:
     hasHub: true
     id: 20000164
     isWormhole: false
+    name: GDBW-2
     systems:
     - 06-70G
     - NBW-GD
@@ -12503,6 +13138,7 @@ locations:
     hasHub: true
     id: 20000686
     isWormhole: false
+    name: GEP-XF
     systems:
     - 2I-520
     - GQ2S-8
@@ -12523,6 +13159,7 @@ locations:
     hasHub: true
     id: 20000531
     isWormhole: false
+    name: GFE-SS
     systems:
     - DCJ-ZT
     - HE5T-A
@@ -12545,6 +13182,7 @@ locations:
     hasHub: true
     id: 20000063
     isWormhole: false
+    name: GJH-1C
     systems:
     - PQRE-W
     - SK42-F
@@ -12564,6 +13202,7 @@ locations:
     hasHub: true
     id: 20000486
     isWormhole: false
+    name: GN-ACS
     systems:
     - 9GYL-O
     - S-GKKR
@@ -12582,6 +13221,7 @@ locations:
     hasHub: true
     id: 20000129
     isWormhole: false
+    name: GORV-P
     systems:
     - 9SL-K9
     - YLS8-J
@@ -12603,6 +13243,7 @@ locations:
     hasHub: true
     id: 20000634
     isWormhole: false
+    name: GP-GIU
     systems:
     - R4O-I6
     - Q-NJZ4
@@ -12623,6 +13264,7 @@ locations:
     hasHub: true
     id: 20000088
     isWormhole: false
+    name: GU-JZ1
     systems:
     - OR-7N5
     - B-WQDP
@@ -12647,6 +13289,7 @@ locations:
     hasHub: true
     id: 20000387
     isWormhole: false
+    name: GallenteBorderZone
     systems:
     - Ambeke
     - Faurent
@@ -12669,6 +13312,7 @@ locations:
     hasHub: true
     id: 20000558
     isWormhole: false
+    name: Ganoure
     systems:
     - Barleguet
     - Ausmaert
@@ -12704,6 +13348,7 @@ locations:
     hasHub: true
     id: 20000737
     isWormhole: false
+    name: Gebem
     systems:
     - Leva
     - Nishah
@@ -12731,6 +13376,7 @@ locations:
     hasHub: true
     id: 20000492
     isWormhole: false
+    name: Gedur
     systems:
     - Stirht
     - Arlulf
@@ -12761,6 +13407,7 @@ locations:
     hasHub: true
     id: 20000445
     isWormhole: false
+    name: Giatole
     systems:
     - Elarel
     - Colcer
@@ -12782,6 +13429,7 @@ locations:
     hasHub: true
     id: 20000523
     isWormhole: false
+    name: Goins
     systems:
     - Stoure
     - Arasare
@@ -12800,6 +13448,7 @@ locations:
     hasHub: true
     id: 20000676
     isWormhole: false
+    name: Griffin
     systems:
     - 7BIX-A
     - M-KXEH
@@ -12822,6 +13471,7 @@ locations:
     hasHub: true
     id: 20000576
     isWormhole: false
+    name: H-6HGD
     systems:
     - 7V-KHW
     - O3L-95
@@ -12836,6 +13486,7 @@ locations:
     hasHub: false
     id: 21000331
     isWormhole: true
+    name: H-C00331
     systems:
     - J000551
     - J000487
@@ -12848,6 +13499,7 @@ locations:
     hasHub: false
     id: 21000332
     isWormhole: true
+    name: H-C00332
     systems:
     - J000304
     - J000965
@@ -12867,6 +13519,7 @@ locations:
     hasHub: false
     id: 21000333
     isWormhole: true
+    name: H-C00333
     systems:
     - J000844
     - J000427
@@ -12889,6 +13542,7 @@ locations:
     hasHub: true
     id: 20000551
     isWormhole: false
+    name: H-KW4A
     systems:
     - H9-J8N
     - GA9P-0
@@ -12912,6 +13566,7 @@ locations:
     hasHub: true
     id: 20000277
     isWormhole: false
+    name: H-QXM7
     systems:
     - 8ZO-CK
     - NZG-LF
@@ -12931,6 +13586,7 @@ locations:
     hasHub: true
     id: 20000273
     isWormhole: false
+    name: H26A-B
     systems:
     - G-ME2K
     - WNS-7J
@@ -12955,6 +13611,7 @@ locations:
     hasHub: true
     id: 20000347
     isWormhole: false
+    name: H7Q-DG
     systems:
     - D-OJEZ
     - Z-FET0
@@ -12969,6 +13626,7 @@ locations:
     hasHub: true
     id: 20000057
     isWormhole: false
+    name: HN5-RL
     systems:
     - N-9EOQ
     - FRW3-2
@@ -13000,6 +13658,7 @@ locations:
     hasHub: true
     id: 20000610
     isWormhole: false
+    name: HNZF-Z
     systems:
     - Y-RAW3
     - 9KE-IT
@@ -13026,6 +13685,7 @@ locations:
     hasHub: true
     id: 20000075
     isWormhole: false
+    name: HOV-VI
     systems:
     - KE-0FB
     - U0W-DR
@@ -13049,6 +13709,7 @@ locations:
     hasHub: false
     id: 20000144
     isWormhole: false
+    name: HRJG-D
     systems:
     - BRT-OP
     - OJOS-T
@@ -13071,6 +13732,7 @@ locations:
     hasHub: true
     id: 20000546
     isWormhole: false
+    name: HS7W-T
     systems:
     - AY-YCU
     - 6-OQJV
@@ -13090,6 +13752,7 @@ locations:
     hasHub: true
     id: 20000152
     isWormhole: false
+    name: Hale
     systems:
     - CL-1JE
     - K88X-J
@@ -13120,6 +13783,7 @@ locations:
     hasHub: true
     id: 20000200
     isWormhole: false
+    name: Haurala
     systems:
     - Erenta
     - Sotrentaira
@@ -13144,6 +13808,7 @@ locations:
     hasHub: true
     id: 20000657
     isWormhole: false
+    name: Heart
     systems:
     - LGUZ-1
     - 4C-B7X
@@ -13170,6 +13835,7 @@ locations:
     hasHub: true
     id: 20000153
     isWormhole: false
+    name: Heaven
     systems:
     - Hemin
     - Litom
@@ -13205,6 +13871,7 @@ locations:
     hasHub: true
     id: 20000372
     isWormhole: false
+    name: Hed
     systems:
     - Auga
     - Lantorn
@@ -13223,6 +13890,7 @@ locations:
     hasHub: true
     id: 20000625
     isWormhole: false
+    name: Helab
     systems:
     - Ajna
     - Ahraghen
@@ -13246,6 +13914,7 @@ locations:
     hasHub: true
     id: 20000600
     isWormhole: false
+    name: Heti
     systems:
     - Ansasos
     - Dehrokh
@@ -13270,6 +13939,7 @@ locations:
     hasHub: true
     id: 20000005
     isWormhole: false
+    name: Hevaka
     systems:
     - Yishinoon
     - Alkez
@@ -13291,6 +13961,7 @@ locations:
     hasHub: true
     id: 20000573
     isWormhole: false
+    name: Homroon
     systems:
     - Neda
     - Kuhri
@@ -13318,6 +13989,7 @@ locations:
     hasHub: true
     id: 20000512
     isWormhole: false
+    name: Hoosa
     systems:
     - Somouh
     - Sayartchen
@@ -13341,6 +14013,7 @@ locations:
     hasHub: true
     id: 20000506
     isWormhole: false
+    name: Hulf
     systems:
     - Frulegur
     - Hodrold
@@ -13365,6 +14038,7 @@ locations:
     hasHub: true
     id: 20000368
     isWormhole: false
+    name: Huvilma
     systems:
     - Olfeim
     - Gulmorogod
@@ -13389,6 +14063,7 @@ locations:
     hasHub: true
     id: 20000677
     isWormhole: false
+    name: Hydra
     systems:
     - I-CUVX
     - 87XQ-0
@@ -13418,6 +14093,7 @@ locations:
     hasHub: true
     id: 20000646
     isWormhole: false
+    name: I-3ODK
     systems:
     - BLC-X0
     - BJD4-E
@@ -13439,6 +14115,7 @@ locations:
     hasHub: true
     id: 20000684
     isWormhole: false
+    name: I-CCEI
     systems:
     - S-KU8B
     - JK-GLL
@@ -13464,6 +14141,7 @@ locations:
     hasHub: true
     id: 20000614
     isWormhole: false
+    name: I-WRVM
     systems:
     - QT-EBC
     - CUT-0V
@@ -13492,6 +14170,7 @@ locations:
     hasHub: true
     id: 20000146
     isWormhole: false
+    name: I3-2J0
     systems:
     - UD-AOK
     - K-IYNW
@@ -13506,6 +14185,7 @@ locations:
     hasHub: true
     id: 20000218
     isWormhole: false
+    name: I4-DK8
     systems:
     - 9-ERCP
     - HD3-JK
@@ -13529,6 +14209,7 @@ locations:
     hasHub: true
     id: 20000034
     isWormhole: false
+    name: I89-EP
     systems:
     - 8TPX-N
     - PM-DWE
@@ -13551,6 +14232,7 @@ locations:
     hasHub: true
     id: 20000543
     isWormhole: false
+    name: I9B-8X
     systems:
     - Y-MPWL
     - D-6WS1
@@ -13573,6 +14255,7 @@ locations:
     hasHub: true
     id: 20000343
     isWormhole: false
+    name: ICH-B6
     systems:
     - 9QS5-C
     - ALC-JM
@@ -13599,6 +14282,7 @@ locations:
     hasHub: true
     id: 20000321
     isWormhole: false
+    name: IJE6-J
     systems:
     - QN-6J2
     - O7-VJ5
@@ -13620,6 +14304,7 @@ locations:
     hasHub: true
     id: 20000264
     isWormhole: false
+    name: IM-8S5
     systems:
     - QOK-SX
     - 24I-FE
@@ -13642,6 +14327,7 @@ locations:
     hasHub: true
     id: 20000358
     isWormhole: false
+    name: IPS-QB
     systems:
     - BND-16
     - IOO-7O
@@ -13662,6 +14348,7 @@ locations:
     hasHub: true
     id: 20000108
     isWormhole: false
+    name: IV-LWJ
     systems:
     - PT-21C
     - KD-KPR
@@ -13687,6 +14374,7 @@ locations:
     hasHub: true
     id: 20000137
     isWormhole: false
+    name: IYOO-M
     systems:
     - 0R-GZQ
     - QM-20X
@@ -13711,6 +14399,7 @@ locations:
     hasHub: true
     id: 20000685
     isWormhole: false
+    name: IZ-FBT
     systems:
     - LG-WA9
     - ZWV-GD
@@ -13733,6 +14422,7 @@ locations:
     hasHub: true
     id: 20000450
     isWormhole: false
+    name: Ichida
     systems:
     - Hatori
     - Junsen
@@ -13758,6 +14448,7 @@ locations:
     hasHub: true
     id: 20000404
     isWormhole: false
+    name: Ieyama
     systems:
     - Ishomilken
     - Hasama
@@ -13780,6 +14471,7 @@ locations:
     hasHub: true
     id: 20000023
     isWormhole: false
+    name: Ihatalo
     systems:
     - Maila
     - Akora
@@ -13803,6 +14495,7 @@ locations:
     hasHub: true
     id: 20000019
     isWormhole: false
+    name: Ihilakken
     systems:
     - Ohmahailen
     - Outuni
@@ -13824,6 +14517,7 @@ locations:
     hasHub: true
     id: 20000401
     isWormhole: false
+    name: Imurukka
     systems:
     - Erila
     - Konola
@@ -13851,6 +14545,7 @@ locations:
     hasHub: true
     id: 20000502
     isWormhole: false
+    name: Inkelm
     systems:
     - Iluin
     - Ofage
@@ -13880,6 +14575,7 @@ locations:
     hasHub: false
     id: 20000783
     isWormhole: false
+    name: Inolari
     systems:
     - Raihbaka
     - Pavanakka
@@ -13907,6 +14603,7 @@ locations:
     hasHub: false
     id: 20000785
     isWormhole: false
+    name: Ishaga
     systems:
     - Nennamaila
     - Aivonen
@@ -13939,6 +14636,7 @@ locations:
     hasHub: true
     id: 20000412
     isWormhole: false
+    name: Isoma
     systems:
     - Eranakko
     - Onatoh
@@ -13955,6 +14653,7 @@ locations:
     hasHub: true
     id: 20000048
     isWormhole: false
+    name: J-4QD7
     systems:
     - WXNC-N
     - 1Q-BBM
@@ -13977,6 +14676,7 @@ locations:
     hasHub: true
     id: 20000346
     isWormhole: false
+    name: J-78ZG
     systems:
     - UAV-1E
     - ZZ5X-M
@@ -13997,6 +14697,7 @@ locations:
     hasHub: true
     id: 20000083
     isWormhole: false
+    name: J-9M7D
     systems:
     - EIH-IU
     - F-QQ5N
@@ -14022,6 +14723,7 @@ locations:
     hasHub: true
     id: 20000227
     isWormhole: false
+    name: J0-59Y
     systems:
     - K-XJJT
     - Y4OK-W
@@ -14043,6 +14745,7 @@ locations:
     hasHub: true
     id: 20000260
     isWormhole: false
+    name: J33-JR
     systems:
     - YQM-P1
     - WIO-OL
@@ -14062,6 +14765,7 @@ locations:
     hasHub: true
     id: 20000723
     isWormhole: false
+    name: J8-G8K
     systems:
     - 8KR9-5
     - EIMJ-M
@@ -14087,6 +14791,7 @@ locations:
     hasHub: true
     id: 20000630
     isWormhole: false
+    name: JE7-F2
     systems:
     - VL3I-M
     - PKG4-7
@@ -14106,6 +14811,7 @@ locations:
     hasHub: true
     id: 20000282
     isWormhole: false
+    name: JG-ZLG
     systems:
     - X5O1-L
     - 6Y-0TW
@@ -14124,6 +14830,7 @@ locations:
     hasHub: true
     id: 20000649
     isWormhole: false
+    name: JQA8-6
     systems:
     - H-P4LB
     - M-CMLV
@@ -14143,6 +14850,7 @@ locations:
     hasHub: true
     id: 20000491
     isWormhole: false
+    name: JQV5-9
     systems:
     - S-U8A4
     - 2G38-I
@@ -14161,6 +14869,7 @@ locations:
     hasHub: true
     id: 20000456
     isWormhole: false
+    name: JSZ-X6
     systems:
     - 16P-PX
     - BZ-0GW
@@ -14179,6 +14888,7 @@ locations:
     hasHub: true
     id: 20000173
     isWormhole: false
+    name: JZV-O6
     systems:
     - 6-MM99
     - G-7WUF
@@ -14204,6 +14914,7 @@ locations:
     hasHub: true
     id: 20000519
     isWormhole: false
+    name: Jakemhih
     systems:
     - Rephirib
     - Mamet
@@ -14233,6 +14944,7 @@ locations:
     hasHub: true
     id: 20000736
     isWormhole: false
+    name: Jatari
     systems:
     - Khabara
     - Jeni
@@ -14259,6 +14971,7 @@ locations:
     hasHub: true
     id: 20000436
     isWormhole: false
+    name: Jayai
     systems:
     - Sosan
     - Arayar
@@ -14290,6 +15003,7 @@ locations:
     hasHub: true
     id: 20000729
     isWormhole: false
+    name: Jeon
     systems:
     - Actee
     - Deven
@@ -14321,6 +15035,7 @@ locations:
     hasHub: true
     id: 20000016
     isWormhole: false
+    name: Joas
     systems:
     - Astabih
     - Arnola
@@ -14342,6 +15057,7 @@ locations:
     hasHub: true
     id: 20000495
     isWormhole: false
+    name: Jonar
     systems:
     - Vorsk
     - Anbald
@@ -14368,6 +15084,7 @@ locations:
     hasHub: true
     id: 20000391
     isWormhole: false
+    name: Jonenor
     systems:
     - Stayme
     - Nausschie
@@ -14392,6 +15109,7 @@ locations:
     hasHub: true
     id: 20000556
     isWormhole: false
+    name: Josmaert
     systems:
     - Dour
     - Pelille
@@ -14406,6 +15124,7 @@ locations:
     hasHub: false
     id: 21000334
     isWormhole: true
+    name: K-C00334
     systems:
     - J174618
     - J055520
@@ -14430,6 +15149,7 @@ locations:
     hasHub: true
     id: 20000134
     isWormhole: false
+    name: K-DLD2
     systems:
     - NE-3GR
     - N-6Z8B
@@ -14448,6 +15168,7 @@ locations:
     hasHub: true
     id: 20000582
     isWormhole: false
+    name: K-JO26
     systems:
     - IGE-NE
     - UVHO-F
@@ -14470,6 +15191,7 @@ locations:
     hasHub: true
     id: 20000315
     isWormhole: false
+    name: K-N3MD
     systems:
     - 4-GB14
     - B-KDOZ
@@ -14489,6 +15211,7 @@ locations:
     hasHub: true
     id: 20000298
     isWormhole: false
+    name: K-QUVW
     systems:
     - KDV-DE
     - 6GWE-A
@@ -14509,6 +15232,7 @@ locations:
     hasHub: true
     id: 20000311
     isWormhole: false
+    name: K-ZKBM
     systems:
     - LN-56V
     - Y2-QUV
@@ -14525,6 +15249,7 @@ locations:
     hasHub: true
     id: 20000059
     isWormhole: false
+    name: KCR-1E
     systems:
     - Q8T-MC
     - 9XI-0X
@@ -14545,6 +15270,7 @@ locations:
     hasHub: true
     id: 20000270
     isWormhole: false
+    name: KPU3-3
     systems:
     - NEU-UD
     - RQNF-9
@@ -14567,6 +15293,7 @@ locations:
     hasHub: true
     id: 20000364
     isWormhole: false
+    name: KR-XF4
     systems:
     - 8-KZXQ
     - Atioth
@@ -14597,6 +15324,7 @@ locations:
     hasHub: true
     id: 20000453
     isWormhole: false
+    name: KUSW-P
     systems:
     - RBW-8G
     - A-CJGE
@@ -14616,6 +15344,7 @@ locations:
     hasHub: true
     id: 20000641
     isWormhole: false
+    name: KWCZ-A
     systems:
     - Q-4DEC
     - J9-5MQ
@@ -14642,6 +15371,7 @@ locations:
     hasHub: true
     id: 20000202
     isWormhole: false
+    name: Kaala
     systems:
     - Akonoinen
     - Vaajaita
@@ -14666,6 +15396,7 @@ locations:
     hasHub: true
     id: 20000437
     isWormhole: false
+    name: Kabo
     systems:
     - Soosat
     - Ussad
@@ -14687,6 +15418,7 @@ locations:
     hasHub: true
     id: 20000207
     isWormhole: false
+    name: Kainokai
     systems:
     - Ajanen
     - Autama
@@ -14711,6 +15443,7 @@ locations:
     hasHub: true
     id: 20000597
     isWormhole: false
+    name: Kakol
     systems:
     - Neburab
     - Joamma
@@ -14734,6 +15467,7 @@ locations:
     hasHub: true
     id: 20000004
     isWormhole: false
+    name: Kalangin
     systems:
     - Psasa
     - Kasrasi
@@ -14763,6 +15497,7 @@ locations:
     hasHub: true
     id: 20000406
     isWormhole: false
+    name: Kantanen
     systems:
     - Huttaken
     - Rairomon
@@ -14785,6 +15520,7 @@ locations:
     hasHub: true
     id: 20000206
     isWormhole: false
+    name: Karnola
     systems:
     - Todaki
     - Umokka
@@ -14816,6 +15552,7 @@ locations:
     hasHub: true
     id: 20000508
     isWormhole: false
+    name: Kashag
     systems:
     - Valmu
     - Andabiar
@@ -14842,6 +15579,7 @@ locations:
     hasHub: true
     id: 20000331
     isWormhole: false
+    name: Kehina
     systems:
     - Sahdil
     - Nalu
@@ -14869,6 +15607,7 @@ locations:
     hasHub: true
     id: 20000326
     isWormhole: false
+    name: Kekah
     systems:
     - Harva
     - Patzcha
@@ -14891,6 +15630,7 @@ locations:
     hasHub: true
     id: 20000777
     isWormhole: false
+    name: Kiartanne
     systems:
     - Scheenins
     - Ellmay
@@ -14912,6 +15652,7 @@ locations:
     hasHub: true
     id: 20000772
     isWormhole: false
+    name: Kihkounad
     systems:
     - Seshi
     - Sharza
@@ -14957,6 +15698,7 @@ locations:
     hasHub: true
     id: 20000020
     isWormhole: false
+    name: Kimotoro
     systems:
     - Perimeter
     - NewCaldari
@@ -14985,6 +15727,7 @@ locations:
     hasHub: true
     id: 20000435
     isWormhole: false
+    name: Kisana
     systems:
     - Gheth
     - Sasoutikh
@@ -15022,6 +15765,7 @@ locations:
     hasHub: true
     id: 20000199
     isWormhole: false
+    name: Koichi
     systems:
     - Veisto
     - Sobaseki
@@ -15045,6 +15789,7 @@ locations:
     hasHub: true
     id: 20000672
     isWormhole: false
+    name: Kraken
     systems:
     - ESC-RI
     - UAYL-F
@@ -15069,6 +15814,7 @@ locations:
     hasHub: false
     id: 20000786
     isWormhole: false
+    name: Kurala
     systems:
     - Ikoskio
     - Mushikegi
@@ -15089,6 +15835,7 @@ locations:
     hasHub: true
     id: 20000195
     isWormhole: false
+    name: L-1T22
     systems:
     - 6UQ-4U
     - OJ-CT4
@@ -15110,6 +15857,7 @@ locations:
     hasHub: true
     id: 20000648
     isWormhole: false
+    name: L-H07K
     systems:
     - U-JJEW
     - NW2S-A
@@ -15135,6 +15883,7 @@ locations:
     hasHub: true
     id: 20000143
     isWormhole: false
+    name: L-TEVM
     systems:
     - P7UZ-T
     - PUZ-IO
@@ -15149,6 +15898,7 @@ locations:
     hasHub: true
     id: 20000047
     isWormhole: false
+    name: L5-H1O
     systems:
     - WF-1LM
     - 74-YTJ
@@ -15175,6 +15925,7 @@ locations:
     hasHub: true
     id: 20000753
     isWormhole: false
+    name: L7-RDZ
     systems:
     - 7MMJ-3
     - 9-EXU9
@@ -15190,6 +15941,7 @@ locations:
     hasHub: true
     id: 20000049
     isWormhole: false
+    name: LC-AQD
     systems:
     - 3-HXHQ
     - VIG-VR
@@ -15215,6 +15967,7 @@ locations:
     hasHub: true
     id: 20000587
     isWormhole: false
+    name: LI-BA0
     systems:
     - LS-V29
     - 9SBB-9
@@ -15237,6 +15990,7 @@ locations:
     hasHub: true
     id: 20000642
     isWormhole: false
+    name: LIB-F9
     systems:
     - 1IX-C0
     - Y-1918
@@ -15266,6 +16020,7 @@ locations:
     hasHub: true
     id: 20000126
     isWormhole: false
+    name: LLAP-1
     systems:
     - C2X-M5
     - MSHD-4
@@ -15290,6 +16045,7 @@ locations:
     hasHub: true
     id: 20000299
     isWormhole: false
+    name: LN-L8L
     systems:
     - P-2TTL
     - B-9C24
@@ -15312,6 +16068,7 @@ locations:
     hasHub: true
     id: 20000699
     isWormhole: false
+    name: LSC-4P
     systems:
     - 8F-TK3
     - N8D9-Z
@@ -15337,6 +16094,7 @@ locations:
     hasHub: true
     id: 20000757
     isWormhole: false
+    name: LWMW-6
     systems:
     - L5Y4-M
     - XY-ZCI
@@ -15357,6 +16115,7 @@ locations:
     hasHub: true
     id: 20000294
     isWormhole: false
+    name: LY-FY6
     systems:
     - M-YCD4
     - Q-5211
@@ -15379,6 +16138,7 @@ locations:
     hasHub: true
     id: 20000626
     isWormhole: false
+    name: Leseasesh
     systems:
     - Zazamye
     - Jerhesh
@@ -15401,6 +16161,7 @@ locations:
     hasHub: true
     id: 20000333
     isWormhole: false
+    name: Liela
     systems:
     - Tastela
     - Ebo
@@ -15425,6 +16186,7 @@ locations:
     hasHub: true
     id: 20000393
     isWormhole: false
+    name: Lolbrerie
     systems:
     - Artisine
     - Chainelant
@@ -15448,6 +16210,7 @@ locations:
     hasHub: true
     id: 20000493
     isWormhole: false
+    name: Lorundio
     systems:
     - Todrir
     - Eust
@@ -15477,6 +16240,7 @@ locations:
     hasHub: true
     id: 20000526
     isWormhole: false
+    name: M-J57M
     systems:
     - 3DR-CR
     - RLTG-3
@@ -15502,6 +16266,7 @@ locations:
     hasHub: true
     id: 20000340
     isWormhole: false
+    name: M9-AN3
     systems:
     - 1ACJ-6
     - BNX-AS
@@ -15528,6 +16293,7 @@ locations:
     hasHub: true
     id: 20000289
     isWormhole: false
+    name: MDM8-J
     systems:
     - KQK1-2
     - X47L-Q
@@ -15548,6 +16314,7 @@ locations:
     hasHub: true
     id: 20000483
     isWormhole: false
+    name: MK7-AO
     systems:
     - 35-RK9
     - A-3ES3
@@ -15580,6 +16347,7 @@ locations:
     hasHub: true
     id: 20000585
     isWormhole: false
+    name: MPJW-6
     systems:
     - N-M1A3
     - W-IIYI
@@ -15611,6 +16379,7 @@ locations:
     hasHub: true
     id: 20000095
     isWormhole: false
+    name: MRC-29
     systems:
     - K85Y-6
     - 8OYE-Z
@@ -15633,6 +16402,7 @@ locations:
     hasHub: true
     id: 20000166
     isWormhole: false
+    name: MW49-U
     systems:
     - RSE-PT
     - ZO-YJZ
@@ -15659,6 +16429,7 @@ locations:
     hasHub: true
     id: 20000235
     isWormhole: false
+    name: MY-HQD
     systems:
     - JL-ZUQ
     - L-EUY2
@@ -15690,6 +16461,7 @@ locations:
     hasHub: true
     id: 20000312
     isWormhole: false
+    name: MY-QQI
     systems:
     - Z8-81T
     - XD-JW7
@@ -15714,6 +16486,7 @@ locations:
     hasHub: true
     id: 20000065
     isWormhole: false
+    name: MZ-PA2
     systems:
     - 3-LJW3
     - P7MI-T
@@ -15736,6 +16509,7 @@ locations:
     hasHub: true
     id: 20000627
     isWormhole: false
+    name: Maal
     systems:
     - Vaini
     - Anohel
@@ -15773,6 +16547,7 @@ locations:
     hasHub: true
     id: 20000514
     isWormhole: false
+    name: Maddam
     systems:
     - Chesoh
     - Alkabsi
@@ -15802,6 +16577,7 @@ locations:
     hasHub: true
     id: 20000769
     isWormhole: false
+    name: Makh
     systems:
     - Keri
     - Korridi
@@ -15837,6 +16613,7 @@ locations:
     hasHub: true
     id: 20000203
     isWormhole: false
+    name: Makiriemi
     systems:
     - Pakkonen
     - Isanamo
@@ -15859,6 +16636,7 @@ locations:
     hasHub: true
     id: 20000014
     isWormhole: false
+    name: Mal
     systems:
     - Timeor
     - Serad
@@ -15886,6 +16664,7 @@ locations:
     hasHub: true
     id: 20000210
     isWormhole: false
+    name: Malariya
     systems:
     - Oishami
     - Ohbochi
@@ -15909,6 +16688,7 @@ locations:
     hasHub: true
     id: 20000562
     isWormhole: false
+    name: Mallugier
     systems:
     - Gallusiene
     - Avaux
@@ -15928,6 +16708,7 @@ locations:
     hasHub: true
     id: 20000003
     isWormhole: false
+    name: Mamouna
     systems:
     - Futzchag
     - Kuharah
@@ -15948,6 +16729,7 @@ locations:
     hasHub: true
     id: 20000667
     isWormhole: false
+    name: Manticore
     systems:
     - Q-XEB3
     - 9R4-EJ
@@ -15970,6 +16752,7 @@ locations:
     hasHub: true
     id: 20000621
     isWormhole: false
+    name: Mareerieh
     systems:
     - Marmeha
     - Udianoor
@@ -15994,6 +16777,7 @@ locations:
     hasHub: true
     id: 20000447
     isWormhole: false
+    name: Marele
     systems:
     - Olide
     - Groothese
@@ -16019,6 +16803,7 @@ locations:
     hasHub: true
     id: 20000517
     isWormhole: false
+    name: Maseend
     systems:
     - Yuhelia
     - Hamse
@@ -16039,6 +16824,7 @@ locations:
     hasHub: true
     id: 20000622
     isWormhole: false
+    name: Mayonhen
     systems:
     - Avada
     - Bazadod
@@ -16068,6 +16854,7 @@ locations:
     hasHub: true
     id: 20000325
     isWormhole: false
+    name: Mazake
     systems:
     - Hiramu
     - Joppaya
@@ -16107,6 +16894,7 @@ locations:
     hasHub: true
     id: 20000596
     isWormhole: false
+    name: Megeh
     systems:
     - Gensela
     - Aharalel
@@ -16138,6 +16926,7 @@ locations:
     hasHub: true
     id: 20000497
     isWormhole: false
+    name: Meinigefur
     systems:
     - Embod
     - Leurtmar
@@ -16164,6 +16953,7 @@ locations:
     hasHub: true
     id: 20000009
     isWormhole: false
+    name: Mekashtad
     systems:
     - Agha
     - Janus
@@ -16200,6 +16990,7 @@ locations:
     hasHub: true
     id: 20000766
     isWormhole: false
+    name: Meli
     systems:
     - Petidu
     - Menai
@@ -16219,6 +17010,7 @@ locations:
     hasHub: true
     id: 20000680
     isWormhole: false
+    name: Mermaid
     systems:
     - XUW-3X
     - 006-L3
@@ -16239,6 +17031,7 @@ locations:
     hasHub: true
     id: 20000595
     isWormhole: false
+    name: Miennue
     systems:
     - CX7-70
     - P5-KCC
@@ -16268,6 +17061,7 @@ locations:
     hasHub: true
     id: 20000764
     isWormhole: false
+    name: Mih
     systems:
     - Iderion
     - Dom-Aphis
@@ -16298,6 +17092,7 @@ locations:
     hasHub: true
     id: 20000248
     isWormhole: false
+    name: Mimishia
     systems:
     - Sacalan
     - Hoona
@@ -16327,6 +17122,7 @@ locations:
     hasHub: true
     id: 20000205
     isWormhole: false
+    name: Minnen
     systems:
     - Aunenen
     - Passari
@@ -16345,6 +17141,7 @@ locations:
     hasHub: true
     id: 20000678
     isWormhole: false
+    name: Minotaur
     systems:
     - 9DQW-W
     - R-BGSU
@@ -16366,6 +17163,7 @@ locations:
     hasHub: true
     id: 20000245
     isWormhole: false
+    name: Mise
     systems:
     - Seil
     - Dabrid
@@ -16393,6 +17191,7 @@ locations:
     hasHub: true
     id: 20000212
     isWormhole: false
+    name: Mito
     systems:
     - Hakonen
     - Otsasai
@@ -16423,6 +17222,7 @@ locations:
     hasHub: true
     id: 20000028
     isWormhole: false
+    name: Mivora
     systems:
     - Uemon
     - Otosela
@@ -16452,6 +17252,7 @@ locations:
     hasHub: true
     id: 20000323
     isWormhole: false
+    name: Mobit
     systems:
     - Akhragan
     - Ziona
@@ -16471,6 +17272,7 @@ locations:
     hasHub: true
     id: 20000525
     isWormhole: false
+    name: Mobrault
     systems:
     - Eggheron
     - Ondree
@@ -16491,6 +17293,7 @@ locations:
     hasHub: true
     id: 20000516
     isWormhole: false
+    name: Mofa
     systems:
     - Galeh
     - Sirkahri
@@ -16520,6 +17323,7 @@ locations:
     hasHub: true
     id: 20000607
     isWormhole: false
+    name: Moghiz
     systems:
     - Jennim
     - Ustnia
@@ -16543,6 +17347,7 @@ locations:
     hasHub: true
     id: 20000770
     isWormhole: false
+    name: Monalaz
     systems:
     - Angur
     - Hangond
@@ -16563,6 +17368,7 @@ locations:
     hasHub: true
     id: 20000008
     isWormhole: false
+    name: Mossas
     systems:
     - Shala
     - Ibaria
@@ -16583,6 +17389,7 @@ locations:
     hasHub: true
     id: 20000329
     isWormhole: false
+    name: Mulata
     systems:
     - Hai
     - Hizhara
@@ -16612,6 +17419,7 @@ locations:
     hasHub: true
     id: 20000722
     isWormhole: false
+    name: N-39FI
     systems:
     - UR-E46
     - VYO-68
@@ -16638,6 +17446,7 @@ locations:
     hasHub: true
     id: 20000337
     isWormhole: false
+    name: N-APJ8
     systems:
     - SAH-AD
     - G-QTSD
@@ -16666,6 +17475,7 @@ locations:
     hasHub: true
     id: 20000356
     isWormhole: false
+    name: N-K4Q0
     systems:
     - SR-KBB
     - 2E-ZR5
@@ -16687,6 +17497,7 @@ locations:
     hasHub: true
     id: 20000119
     isWormhole: false
+    name: N-LY4R
     systems:
     - LVL-GZ
     - FN0-QS
@@ -16715,6 +17526,7 @@ locations:
     hasHub: true
     id: 20000170
     isWormhole: false
+    name: N-OGI1
     systems:
     - QBQ-RF
     - KDF-GY
@@ -16738,6 +17550,7 @@ locations:
     hasHub: true
     id: 20000428
     isWormhole: false
+    name: N-U2LX
     systems:
     - X-Z4DA
     - DKUK-G
@@ -16760,6 +17573,7 @@ locations:
     hasHub: true
     id: 20000187
     isWormhole: false
+    name: N32Z-Z
     systems:
     - OZ-VAE
     - AA-YRK
@@ -16782,6 +17596,7 @@ locations:
     hasHub: true
     id: 20000618
     isWormhole: false
+    name: N4TD-6
     systems:
     - VY-866
     - MO-YDG
@@ -16802,6 +17617,7 @@ locations:
     hasHub: true
     id: 20000118
     isWormhole: false
+    name: N5V-Y0
     systems:
     - MJ-LGH
     - KS-1TS
@@ -16824,6 +17640,7 @@ locations:
     hasHub: true
     id: 20000698
     isWormhole: false
+    name: NJU-QV
     systems:
     - S-6HHN
     - M2-XFE
@@ -16846,6 +17663,7 @@ locations:
     hasHub: true
     id: 20000361
     isWormhole: false
+    name: NK-AOZ
     systems:
     - O-VWPB
     - U-L4KS
@@ -16877,6 +17695,7 @@ locations:
     hasHub: true
     id: 20000180
     isWormhole: false
+    name: NNLX-K
     systems:
     - UL-7I8
     - S25C-K
@@ -16899,6 +17718,7 @@ locations:
     hasHub: true
     id: 20000268
     isWormhole: false
+    name: NOB-HD
     systems:
     - GA58-7
     - 90-A1P
@@ -16920,6 +17740,7 @@ locations:
     hasHub: true
     id: 20000724
     isWormhole: false
+    name: NOK-FZ
     systems:
     - JZL-VB
     - 48I1-X
@@ -16948,6 +17769,7 @@ locations:
     hasHub: true
     id: 20000263
     isWormhole: false
+    name: NPL-WH
     systems:
     - 0-4VQL
     - JBUH-H
@@ -16965,6 +17787,7 @@ locations:
     hasHub: true
     id: 20000220
     isWormhole: false
+    name: NSM-6F
     systems:
     - CZ-CED
     - JS3-RS
@@ -16995,6 +17818,7 @@ locations:
     hasHub: true
     id: 20000745
     isWormhole: false
+    name: NT1-5Q
     systems:
     - OJT-J3
     - TDP-T3
@@ -17017,6 +17841,7 @@ locations:
     hasHub: true
     id: 20000076
     isWormhole: false
+    name: NZU8-G
     systems:
     - U69-YC
     - E51-JE
@@ -17047,6 +17872,7 @@ locations:
     hasHub: true
     id: 20000399
     isWormhole: false
+    name: Nadire
     systems:
     - Raeghoscon
     - Aetree
@@ -17068,6 +17894,7 @@ locations:
     hasHub: true
     id: 20000402
     isWormhole: false
+    name: Nagaslaiken
     systems:
     - Auviken
     - Oijamon
@@ -17092,6 +17919,7 @@ locations:
     hasHub: true
     id: 20000518
     isWormhole: false
+    name: Nakid
     systems:
     - Bittanshal
     - Madimal
@@ -17110,6 +17938,7 @@ locations:
     hasHub: false
     id: 20000606
     isWormhole: false
+    name: Naloran
     systems:
     - Hikansog
     - Yebouz
@@ -17130,6 +17959,7 @@ locations:
     hasHub: true
     id: 20000330
     isWormhole: false
+    name: Nashar
     systems:
     - Miyeli
     - Bika
@@ -17155,6 +17985,7 @@ locations:
     hasHub: true
     id: 20000252
     isWormhole: false
+    name: Nasorin
     systems:
     - Nafrivik
     - Azhgabid
@@ -17183,6 +18014,7 @@ locations:
     hasHub: true
     id: 20000760
     isWormhole: false
+    name: Nazdirer
     systems:
     - Cleyd
     - Vecamia
@@ -17213,6 +18045,7 @@ locations:
     hasHub: true
     id: 20000397
     isWormhole: false
+    name: Nexus
     systems:
     - Pozirblant
     - Alillere
@@ -17240,6 +18073,7 @@ locations:
     hasHub: true
     id: 20000738
     isWormhole: false
+    name: Nimedaz
     systems:
     - Andrub
     - Jinkah
@@ -17268,6 +18102,7 @@ locations:
     hasHub: true
     id: 20000564
     isWormhole: false
+    name: Nohshayess
     systems:
     - Sazre
     - Neyi
@@ -17302,6 +18137,7 @@ locations:
     hasHub: true
     id: 20000334
     isWormhole: false
+    name: Norgoh
     systems:
     - Artoun
     - Safizon
@@ -17318,6 +18154,7 @@ locations:
     hasHub: true
     id: 20000236
     isWormhole: false
+    name: O-BSIB
     systems:
     - 6-HFD6
     - 9-BUSQ
@@ -17340,6 +18177,7 @@ locations:
     hasHub: true
     id: 20000696
     isWormhole: false
+    name: O-EIMK
     systems:
     - 8WA-Z6
     - N-8YET
@@ -17363,6 +18201,7 @@ locations:
     hasHub: true
     id: 20000533
     isWormhole: false
+    name: O-EOI9
     systems:
     - MZPH-W
     - ZK-YQ3
@@ -17385,6 +18224,7 @@ locations:
     hasHub: true
     id: 20000462
     isWormhole: false
+    name: O-PQU0
     systems:
     - C-PEWN
     - L-M6JK
@@ -17406,6 +18246,7 @@ locations:
     hasHub: true
     id: 20000691
     isWormhole: false
+    name: O5K-Y6
     systems:
     - 1B-VKF
     - IP6V-X
@@ -17435,6 +18276,7 @@ locations:
     hasHub: true
     id: 20000746
     isWormhole: false
+    name: O5PO-O
     systems:
     - AK-L0Z
     - 2V-ZHM
@@ -17457,6 +18299,7 @@ locations:
     hasHub: true
     id: 20000715
     isWormhole: false
+    name: O5QG-M
     systems:
     - LS-QLX
     - C-WPWH
@@ -17475,6 +18318,7 @@ locations:
     hasHub: true
     id: 20000384
     isWormhole: false
+    name: O6W-QE
     systems:
     - 6E-MOW
     - 6B-GKA
@@ -17501,6 +18345,7 @@ locations:
     hasHub: true
     id: 20000473
     isWormhole: false
+    name: O9X-CV
     systems:
     - 21M1-B
     - IAMJ-Q
@@ -17530,6 +18375,7 @@ locations:
     hasHub: true
     id: 20000226
     isWormhole: false
+    name: OC-TTA
     systems:
     - ETO-OT
     - AG-SYG
@@ -17552,6 +18398,7 @@ locations:
     hasHub: true
     id: 20000651
     isWormhole: false
+    name: OFQ-HG
     systems:
     - JO-32L
     - J94-MU
@@ -17566,6 +18413,7 @@ locations:
     hasHub: true
     id: 20000214
     isWormhole: false
+    name: OG-DJD
     systems:
     - ZA6-9N
     - 0RZ5-2
@@ -17593,6 +18441,7 @@ locations:
     hasHub: true
     id: 20000702
     isWormhole: false
+    name: OK-FEM
     systems:
     - M0O-JG
     - LWX-93
@@ -17622,6 +18471,7 @@ locations:
     hasHub: true
     id: 20000032
     isWormhole: false
+    name: OSJ7-I
     systems:
     - 7-K5EL
     - FH-TTC
@@ -17647,6 +18497,7 @@ locations:
     hasHub: true
     id: 20000233
     isWormhole: false
+    name: OWT3-6
     systems:
     - Z19-B8
     - XR-ZL7
@@ -17665,6 +18516,7 @@ locations:
     hasHub: true
     id: 20000726
     isWormhole: false
+    name: OY3-DM
     systems:
     - G-Q5JU
     - MVUO-F
@@ -17691,6 +18543,7 @@ locations:
     hasHub: true
     id: 20000778
     isWormhole: false
+    name: Obray
     systems:
     - Ekuenbiron
     - Jovainnon
@@ -17723,6 +18576,7 @@ locations:
     hasHub: true
     id: 20000370
     isWormhole: false
+    name: Odengsolf
     systems:
     - Illinfrik
     - Balginia
@@ -17755,6 +18609,7 @@ locations:
     hasHub: true
     id: 20000444
     isWormhole: false
+    name: Odilis
     systems:
     - Meves
     - Ethernity
@@ -17774,6 +18629,7 @@ locations:
     hasHub: true
     id: 20000452
     isWormhole: false
+    name: Ohvarainen
     systems:
     - Kurmaru
     - Furskeshin
@@ -17801,6 +18657,7 @@ locations:
     hasHub: false
     id: 20000782
     isWormhole: false
+    name: Okakuola
     systems:
     - Hirri
     - Nisuwa
@@ -17844,6 +18701,7 @@ locations:
     hasHub: true
     id: 20000201
     isWormhole: false
+    name: Okela
     systems:
     - Ekura
     - Iidoken
@@ -17867,6 +18725,7 @@ locations:
     hasHub: true
     id: 20000024
     isWormhole: false
+    name: Okkelen
     systems:
     - Sakkikainen
     - Ishisomo
@@ -17891,6 +18750,7 @@ locations:
     hasHub: true
     id: 20000021
     isWormhole: false
+    name: Okomon
     systems:
     - Jakanerva
     - Abagawa
@@ -17914,6 +18774,7 @@ locations:
     hasHub: true
     id: 20000198
     isWormhole: false
+    name: Okunda
     systems:
     - Kiskoken
     - Aurohunen
@@ -17932,6 +18793,7 @@ locations:
     hasHub: true
     id: 20000623
     isWormhole: false
+    name: Ombil
     systems:
     - Yekh
     - Balas
@@ -17963,6 +18825,7 @@ locations:
     hasHub: true
     id: 20000022
     isWormhole: false
+    name: Onirvura
     systems:
     - Liekuri
     - Olo
@@ -17986,6 +18849,7 @@ locations:
     hasHub: true
     id: 20000012
     isWormhole: false
+    name: Oraron
     systems:
     - Akeva
     - Ejahi
@@ -18013,6 +18877,7 @@ locations:
     hasHub: true
     id: 20000029
     isWormhole: false
+    name: Orpana
     systems:
     - Uchoshi
     - Osaa
@@ -18032,6 +18897,7 @@ locations:
     hasHub: true
     id: 20000011
     isWormhole: false
+    name: Orshed
     systems:
     - Milu
     - Yadi
@@ -18067,6 +18933,7 @@ locations:
     hasHub: true
     id: 20000367
     isWormhole: false
+    name: Ortner
     systems:
     - Abudban
     - Ameinaka
@@ -18093,6 +18960,7 @@ locations:
     hasHub: true
     id: 20000742
     isWormhole: false
+    name: Orus
     systems:
     - Pananan
     - Latari
@@ -18112,6 +18980,7 @@ locations:
     hasHub: true
     id: 20000522
     isWormhole: false
+    name: Orvanne
     systems:
     - Gererique
     - Postouvin
@@ -18140,6 +19009,7 @@ locations:
     hasHub: true
     id: 20000441
     isWormhole: false
+    name: Osnins
     systems:
     - Jurlesel
     - Junsoraert
@@ -18166,6 +19036,7 @@ locations:
     hasHub: true
     id: 20000369
     isWormhole: false
+    name: Osta
     systems:
     - Sist
     - Austraka
@@ -18192,6 +19063,7 @@ locations:
     hasHub: true
     id: 20000410
     isWormhole: false
+    name: Otawasa
     systems:
     - Oshaima
     - Oisio
@@ -18212,6 +19084,7 @@ locations:
     hasHub: true
     id: 20000025
     isWormhole: false
+    name: Otsabaira
     systems:
     - Ukkalen
     - Soshin
@@ -18236,6 +19109,7 @@ locations:
     hasHub: true
     id: 20000407
     isWormhole: false
+    name: Outartoh
     systems:
     - Annaro
     - Ono
@@ -18258,6 +19132,7 @@ locations:
     hasHub: true
     id: 20000422
     isWormhole: false
+    name: P-B2NE
     systems:
     - R1O-GN
     - RQOO-U
@@ -18277,6 +19152,7 @@ locations:
     hasHub: true
     id: 20000232
     isWormhole: false
+    name: P-FL48
     systems:
     - 6W-6O9
     - OSW-0P
@@ -18295,6 +19171,7 @@ locations:
     hasHub: true
     id: 20000098
     isWormhole: false
+    name: P-I9PF
     systems:
     - RNM-Y6
     - V-KDY2
@@ -18313,6 +19190,7 @@ locations:
     hasHub: true
     id: 20000549
     isWormhole: false
+    name: P6N8-J
     systems:
     - DNR-7M
     - O-Y5JQ
@@ -18335,6 +19213,7 @@ locations:
     hasHub: true
     id: 20000160
     isWormhole: false
+    name: PFL-QY
     systems:
     - NRD-5Q
     - 63-7Q6
@@ -18357,6 +19236,7 @@ locations:
     hasHub: true
     id: 20000349
     isWormhole: false
+    name: PG-RWX
     systems:
     - V-OL61
     - F69O-M
@@ -18385,6 +19265,7 @@ locations:
     hasHub: true
     id: 20000338
     isWormhole: false
+    name: PGPJ-8
     systems:
     - 3G-LFX
     - BY-7PY
@@ -18408,6 +19289,7 @@ locations:
     hasHub: true
     id: 20000067
     isWormhole: false
+    name: PR-ACX
     systems:
     - GC-LTF
     - L8-WNE
@@ -18436,6 +19318,7 @@ locations:
     hasHub: true
     id: 20000577
     isWormhole: false
+    name: PUB-0R
     systems:
     - 7GCD-P
     - K7D-II
@@ -18456,6 +19339,7 @@ locations:
     hasHub: true
     id: 20000167
     isWormhole: false
+    name: PX0-P4
     systems:
     - RWML-A
     - S5W-1Z
@@ -18475,6 +19359,7 @@ locations:
     hasHub: true
     id: 20000503
     isWormhole: false
+    name: Panorad
     systems:
     - Dantbeinn
     - Oraekja
@@ -18502,6 +19387,7 @@ locations:
     hasHub: true
     id: 20000739
     isWormhole: false
+    name: Panoumid
     systems:
     - Kulu
     - Soumi
@@ -18524,6 +19410,7 @@ locations:
     hasHub: true
     id: 20000148
     isWormhole: false
+    name: Paradise
     systems:
     - PO4F-3
     - JWJ-P1
@@ -18551,6 +19438,7 @@ locations:
     hasHub: true
     id: 20000601
     isWormhole: false
+    name: Parrosa
     systems:
     - Yarebap
     - Mandoo
@@ -18584,6 +19472,7 @@ locations:
     hasHub: true
     id: 20000509
     isWormhole: false
+    name: Parud
     systems:
     - Orkashu
     - Khopa
@@ -18620,6 +19509,7 @@ locations:
     hasHub: true
     id: 20000728
     isWormhole: false
+    name: Patrie
     systems:
     - Jolevier
     - Pemene
@@ -18650,6 +19540,7 @@ locations:
     hasHub: true
     id: 20000732
     isWormhole: false
+    name: Peccanouette
     systems:
     - Lisbaetanne
     - Arnon
@@ -18680,6 +19571,7 @@ locations:
     hasHub: true
     id: 20000665
     isWormhole: false
+    name: Pegasus
     systems:
     - YZS5-4
     - A8-XBW
@@ -18705,6 +19597,7 @@ locations:
     hasHub: true
     id: 20000559
     isWormhole: false
+    name: Pegeler
     systems:
     - Moclinamaud
     - Archavoinet
@@ -18727,6 +19620,7 @@ locations:
     hasHub: true
     id: 20000257
     isWormhole: false
+    name: Peges
     systems:
     - Arakor
     - Judra
@@ -18753,6 +19647,7 @@ locations:
     hasHub: true
     id: 20000605
     isWormhole: false
+    name: Pezarba
     systems:
     - Hiremir
     - Mod
@@ -18777,6 +19672,7 @@ locations:
     hasHub: true
     id: 20000674
     isWormhole: false
+    name: Phoenix
     systems:
     - 75FA-Z
     - A-1CON
@@ -18800,6 +19696,7 @@ locations:
     hasHub: true
     id: 20000208
     isWormhole: false
+    name: Pietanen
     systems:
     - Rauntaka
     - Atai
@@ -18826,6 +19723,7 @@ locations:
     hasHub: true
     id: 20000593
     isWormhole: false
+    name: Prelle
     systems:
     - MJYW-3
     - G8AD-C
@@ -18846,6 +19744,7 @@ locations:
     hasHub: true
     id: 20000455
     isWormhole: false
+    name: Q-2BI6
     systems:
     - D-FVI7
     - 0-O6XF
@@ -18868,6 +19767,7 @@ locations:
     hasHub: true
     id: 20000552
     isWormhole: false
+    name: Q-6LG1
     systems:
     - I-MGAB
     - Z-RFE3
@@ -18888,6 +19788,7 @@ locations:
     hasHub: true
     id: 20000310
     isWormhole: false
+    name: Q-IPAA
     systems:
     - NS2L-4
     - B-A587
@@ -18912,6 +19813,7 @@ locations:
     hasHub: true
     id: 20000138
     isWormhole: false
+    name: Q-PVMK
     systems:
     - U3K-4A
     - Q2FL-T
@@ -18933,6 +19835,7 @@ locations:
     hasHub: true
     id: 20000756
     isWormhole: false
+    name: Q0-4FU
     systems:
     - VWES-Y
     - NGM-OK
@@ -18955,6 +19858,7 @@ locations:
     hasHub: true
     id: 20000281
     isWormhole: false
+    name: Q4IG-S
     systems:
     - RLDS-R
     - KP-FQ1
@@ -18977,6 +19881,7 @@ locations:
     hasHub: true
     id: 20000638
     isWormhole: false
+    name: Q5KW-Z
     systems:
     - 9F-7PZ
     - WO-AIJ
@@ -19010,6 +19915,7 @@ locations:
     hasHub: true
     id: 20000113
     isWormhole: false
+    name: QA-P7J
     systems:
     - 8-WYQZ
     - MSG-BZ
@@ -19029,6 +19935,7 @@ locations:
     hasHub: true
     id: 20000101
     isWormhole: false
+    name: QI1M-Q
     systems:
     - AH8-Q7
     - SD4A-2
@@ -19054,6 +19961,7 @@ locations:
     hasHub: true
     id: 20000609
     isWormhole: false
+    name: QJ2-0M
     systems:
     - BI0Y-X
     - SK7-G6
@@ -19074,6 +19982,7 @@ locations:
     hasHub: true
     id: 20000279
     isWormhole: false
+    name: QO-17V
     systems:
     - 8KQR-O
     - F9SX-1
@@ -19101,6 +20010,7 @@ locations:
     hasHub: true
     id: 20000703
     isWormhole: false
+    name: QP6B-I
     systems:
     - Y-ORBJ
     - 3L3N-X
@@ -19123,6 +20033,7 @@ locations:
     hasHub: true
     id: 20000488
     isWormhole: false
+    name: QS-FVH
     systems:
     - 0T-AMZ
     - UFXF-C
@@ -19141,6 +20052,7 @@ locations:
     hasHub: true
     id: 20000385
     isWormhole: false
+    name: QZJ-FL
     systems:
     - DDI-B7
     - GU-9F4
@@ -19159,6 +20071,7 @@ locations:
     hasHub: true
     id: 20000608
     isWormhole: false
+    name: Qermi
     systems:
     - Ithar
     - Telang
@@ -19179,6 +20092,7 @@ locations:
     hasHub: true
     id: 20000515
     isWormhole: false
+    name: Qeti
     systems:
     - Hisoufad
     - Uzigh
@@ -19209,6 +20123,7 @@ locations:
     hasHub: true
     id: 20000123
     isWormhole: false
+    name: R-CL2W
     systems:
     - 5C-RPA
     - J-ZYSZ
@@ -19229,6 +20144,7 @@ locations:
     hasHub: true
     id: 20000288
     isWormhole: false
+    name: R-IZDC
     systems:
     - Z-6YQC
     - DK6W-I
@@ -19257,6 +20173,7 @@ locations:
     hasHub: true
     id: 20000084
     isWormhole: false
+    name: R-M719
     systems:
     - XQS-GZ
     - F-EM4Q
@@ -19284,6 +20201,7 @@ locations:
     hasHub: true
     id: 20000457
     isWormhole: false
+    name: R2-BT6
     systems:
     - VUAC-Y
     - R-FM0G
@@ -19310,6 +20228,7 @@ locations:
     hasHub: true
     id: 20000342
     isWormhole: false
+    name: RDD-E6
     systems:
     - IS-OBW
     - 1GH-48
@@ -19330,6 +20249,7 @@ locations:
     hasHub: true
     id: 20000079
     isWormhole: false
+    name: RF9-ZU
     systems:
     - H-HHTH
     - ZH-GKG
@@ -19356,6 +20276,7 @@ locations:
     hasHub: true
     id: 20000064
     isWormhole: false
+    name: RFQ-8Y
     systems:
     - 5J4K-9
     - DG-8VJ
@@ -19376,6 +20297,7 @@ locations:
     hasHub: true
     id: 20000431
     isWormhole: false
+    name: RFY-QB
     systems:
     - VPLL-N
     - J1AU-9
@@ -19401,6 +20323,7 @@ locations:
     hasHub: true
     id: 20000653
     isWormhole: false
+    name: RHG-4O
     systems:
     - GHZ-SJ
     - R4K-8L
@@ -19420,6 +20343,7 @@ locations:
     hasHub: true
     id: 20000365
     isWormhole: false
+    name: RJ-1R7
     systems:
     - W-3BSU
     - 4K0N-J
@@ -19445,6 +20369,7 @@ locations:
     hasHub: true
     id: 20000720
     isWormhole: false
+    name: RL36-K
     systems:
     - OKEO-X
     - 7-8EOE
@@ -19460,6 +20385,7 @@ locations:
     hasHub: true
     id: 20000058
     isWormhole: false
+    name: RO-AZT
     systems:
     - N-4G5L
     - RB-2EA
@@ -19478,6 +20404,7 @@ locations:
     hasHub: true
     id: 20000313
     isWormhole: false
+    name: RTCU-5
     systems:
     - GXK-7F
     - EA-HSA
@@ -19502,6 +20429,7 @@ locations:
     hasHub: true
     id: 20000151
     isWormhole: false
+    name: Rapture
     systems:
     - S1DP-Y
     - Y-DW5K
@@ -19525,6 +20453,7 @@ locations:
     hasHub: true
     id: 20000741
     isWormhole: false
+    name: Ravin
     systems:
     - Schmaeel
     - Oguser
@@ -19546,6 +20475,7 @@ locations:
     hasHub: true
     id: 20000661
     isWormhole: false
+    name: Regalia
     systems:
     - CT7-5V
     - T-Z6J2
@@ -19576,6 +20506,7 @@ locations:
     hasHub: true
     id: 20000767
     isWormhole: false
+    name: Reya
     systems:
     - Madomi
     - Gergish
@@ -19602,6 +20533,7 @@ locations:
     hasHub: true
     id: 20000251
     isWormhole: false
+    name: Rifenda
     systems:
     - Siyi
     - Gaknem
@@ -19632,6 +20564,7 @@ locations:
     hasHub: true
     id: 20000505
     isWormhole: false
+    name: Rollera
     systems:
     - Tabbetzur
     - Eurgrana
@@ -19652,6 +20585,7 @@ locations:
     hasHub: true
     id: 20000017
     isWormhole: false
+    name: Ruomo
     systems:
     - Mitsolen
     - Itamo
@@ -19682,6 +20616,7 @@ locations:
     hasHub: true
     id: 20000434
     isWormhole: false
+    name: Ryra
     systems:
     - Thasinaz
     - Esescama
@@ -19706,6 +20641,7 @@ locations:
     hasHub: true
     id: 20000429
     isWormhole: false
+    name: S-B1E4
     systems:
     - 85-B52
     - E-FIC0
@@ -19729,6 +20665,7 @@ locations:
     hasHub: true
     id: 20000476
     isWormhole: false
+    name: S-Q02B
     systems:
     - LA2-KV
     - 1-BK1Q
@@ -19753,6 +20690,7 @@ locations:
     hasHub: true
     id: 20000758
     isWormhole: false
+    name: S0X-O4
     systems:
     - F-HQWV
     - 9IZ-HU
@@ -19775,6 +20713,7 @@ locations:
     hasHub: true
     id: 20000300
     isWormhole: false
+    name: S4GH-I
     systems:
     - D2-HOS
     - RQH-MY
@@ -19809,6 +20748,7 @@ locations:
     hasHub: true
     id: 20000418
     isWormhole: false
+    name: S4S-SD
     systems:
     - 0S1-GI
     - M3-H2Y
@@ -19828,6 +20768,7 @@ locations:
     hasHub: true
     id: 20000285
     isWormhole: false
+    name: SB3-IH
     systems:
     - I-3FET
     - QCKK-T
@@ -19846,6 +20787,7 @@ locations:
     hasHub: true
     id: 20000697
     isWormhole: false
+    name: SG-CTQ
     systems:
     - 8RQJ-2
     - NIDJ-K
@@ -19867,6 +20809,7 @@ locations:
     hasHub: true
     id: 20000611
     isWormhole: false
+    name: SI1-CF
     systems:
     - A-0IIQ
     - H23-B5
@@ -19887,6 +20830,7 @@ locations:
     hasHub: true
     id: 20000490
     isWormhole: false
+    name: SKX-PL
     systems:
     - DCHR-L
     - EU0I-T
@@ -19910,6 +20854,7 @@ locations:
     hasHub: true
     id: 20000344
     isWormhole: false
+    name: SLYP-5
     systems:
     - 4-QDIX
     - E8-432
@@ -19932,6 +20877,7 @@ locations:
     hasHub: true
     id: 20000692
     isWormhole: false
+    name: SPNZ-Z
     systems:
     - 4X0-8B
     - 23G-XC
@@ -19959,6 +20905,7 @@ locations:
     hasHub: true
     id: 20000185
     isWormhole: false
+    name: ST-0EZ
     systems:
     - P-FSQE
     - H-PA29
@@ -19994,6 +20941,7 @@ locations:
     hasHub: true
     id: 20000001
     isWormhole: false
+    name: SanMatar
     systems:
     - Yuzier
     - Jark
@@ -20026,6 +20974,7 @@ locations:
     hasHub: true
     id: 20000243
     isWormhole: false
+    name: Sanair
     systems:
     - Ahrosseas
     - Tendhyes
@@ -20077,6 +21026,7 @@ locations:
     hasHub: true
     id: 20000761
     isWormhole: false
+    name: Sanctum
     systems:
     - Tekaima
     - Emsar
@@ -20100,6 +21050,7 @@ locations:
     hasHub: true
     id: 20000413
     isWormhole: false
+    name: Santenpaa
     systems:
     - Motsu
     - Komo
@@ -20136,6 +21087,7 @@ locations:
     hasHub: true
     id: 20000448
     isWormhole: false
+    name: Sasen
     systems:
     - Kourmonen
     - Tuomuta
@@ -20157,6 +21109,7 @@ locations:
     hasHub: true
     id: 20000671
     isWormhole: false
+    name: Satyr
     systems:
     - CHA2-Q
     - C1XD-X
@@ -20177,6 +21130,7 @@ locations:
     hasHub: true
     id: 20000006
     isWormhole: false
+    name: Sazdih
     systems:
     - Sari
     - Bairshir
@@ -20199,6 +21153,7 @@ locations:
     hasHub: true
     id: 20000662
     isWormhole: false
+    name: Scepter
     systems:
     - IZ-AOB
     - G5-EN3
@@ -20219,6 +21174,7 @@ locations:
     hasHub: true
     id: 20000569
     isWormhole: false
+    name: Seevadin
     systems:
     - Ham
     - Hemouner
@@ -20248,6 +21204,7 @@ locations:
     hasHub: true
     id: 20000204
     isWormhole: false
+    name: Sela
     systems:
     - Isseras
     - Malkalen
@@ -20270,6 +21227,7 @@ locations:
     hasHub: true
     id: 20000629
     isWormhole: false
+    name: Selonat
     systems:
     - Huna
     - Hophib
@@ -20298,6 +21256,7 @@ locations:
     hasHub: true
     id: 20000433
     isWormhole: false
+    name: Semou
     systems:
     - Tzvi
     - Raa
@@ -20322,6 +21281,7 @@ locations:
     hasHub: true
     id: 20000563
     isWormhole: false
+    name: Serthoulde
     systems:
     - Mantenault
     - Alamel
@@ -20346,6 +21306,7 @@ locations:
     hasHub: true
     id: 20000568
     isWormhole: false
+    name: Sib
     systems:
     - Sabusi
     - Efa
@@ -20366,6 +21327,7 @@ locations:
     hasHub: true
     id: 20000679
     isWormhole: false
+    name: Skaven
     systems:
     - ATQ-QS
     - 1-5GBW
@@ -20384,6 +21346,7 @@ locations:
     hasHub: true
     id: 20000664
     isWormhole: false
+    name: Sole
     systems:
     - VJ0-81
     - E-GCX0
@@ -20421,6 +21384,7 @@ locations:
     hasHub: true
     id: 20000244
     isWormhole: false
+    name: Somi
     systems:
     - Imeshasa
     - Matyas
@@ -20448,6 +21412,7 @@ locations:
     hasHub: true
     id: 20000327
     isWormhole: false
+    name: Sosarir
     systems:
     - Vashkah
     - Nererut
@@ -20472,6 +21437,7 @@ locations:
     hasHub: true
     id: 20000150
     isWormhole: false
+    name: Sound
     systems:
     - MDD-79
     - AAM-1A
@@ -20502,6 +21468,7 @@ locations:
     hasHub: true
     id: 20000388
     isWormhole: false
+    name: Spaen
     systems:
     - Fasse
     - Ney
@@ -20525,6 +21492,7 @@ locations:
     hasHub: true
     id: 20000668
     isWormhole: false
+    name: Sphinx
     systems:
     - OW-TPO
     - 5-D82P
@@ -20550,6 +21518,7 @@ locations:
     hasHub: true
     id: 20000496
     isWormhole: false
+    name: Stadakorn
     systems:
     - Datulen
     - Totkubad
@@ -20581,6 +21550,7 @@ locations:
     hasHub: true
     id: 20000394
     isWormhole: false
+    name: Stion
     systems:
     - Jel
     - Egghelende
@@ -20606,6 +21576,7 @@ locations:
     hasHub: true
     id: 20000256
     isWormhole: false
+    name: Subhatoub
     systems:
     - Sinid
     - Zehru
@@ -20629,6 +21600,7 @@ locations:
     hasHub: true
     id: 20000015
     isWormhole: false
+    name: Subi
     systems:
     - Hothomouh
     - Nieril
@@ -20647,6 +21619,7 @@ locations:
     hasHub: true
     id: 20000249
     isWormhole: false
+    name: Sukanan
     systems:
     - Teshkat
     - Tirbam
@@ -20677,6 +21650,7 @@ locations:
     hasHub: true
     id: 20000409
     isWormhole: false
+    name: Suon
     systems:
     - Waskisen
     - Kaaputenen
@@ -20705,6 +21679,7 @@ locations:
     hasHub: true
     id: 20000373
     isWormhole: false
+    name: Sveipar
     systems:
     - Pator
     - Lustrevik
@@ -20728,6 +21703,7 @@ locations:
     hasHub: true
     id: 20000660
     isWormhole: false
+    name: Sword
     systems:
     - GA-2V7
     - R-OCBA
@@ -20750,6 +21726,7 @@ locations:
     hasHub: true
     id: 20000177
     isWormhole: false
+    name: T-1WDH
     systems:
     - MUXX-4
     - E1-4YH
@@ -20780,6 +21757,7 @@ locations:
     hasHub: true
     id: 20000466
     isWormhole: false
+    name: T-4ACL
     systems:
     - T-HMWP
     - DYS-CG
@@ -20804,6 +21782,7 @@ locations:
     hasHub: true
     id: 20000179
     isWormhole: false
+    name: T-HHHT
     systems:
     - J6QB-P
     - ZQ-Z3Y
@@ -20822,6 +21801,7 @@ locations:
     hasHub: true
     id: 20000278
     isWormhole: false
+    name: T-L301
     systems:
     - 7-X3RN
     - 9O-ZTS
@@ -20845,6 +21825,7 @@ locations:
     hasHub: true
     id: 20000643
     isWormhole: false
+    name: T-RQ7S
     systems:
     - CH9L-K
     - 3KNA-N
@@ -20866,6 +21847,7 @@ locations:
     hasHub: true
     id: 20000140
     isWormhole: false
+    name: T-W4L3
     systems:
     - H9S-WC
     - B-ROFP
@@ -20882,6 +21864,7 @@ locations:
     hasHub: true
     id: 20000052
     isWormhole: false
+    name: T7B-VB
     systems:
     - P-MVFP
     - A-VWK9
@@ -20902,6 +21885,7 @@ locations:
     hasHub: true
     id: 20000073
     isWormhole: false
+    name: T875-C
     systems:
     - S-51XG
     - BOZ1-O
@@ -20928,6 +21912,7 @@ locations:
     hasHub: true
     id: 20000482
     isWormhole: false
+    name: TA-A7V
     systems:
     - A-ZLHX
     - UTKS-5
@@ -20952,6 +21937,7 @@ locations:
     hasHub: true
     id: 20000683
     isWormhole: false
+    name: TCC-ZV
     systems:
     - 5AQ-5H
     - 4Y-OBL
@@ -20972,6 +21958,7 @@ locations:
     hasHub: true
     id: 20000529
     isWormhole: false
+    name: TJ10-O
     systems:
     - KW-1MV
     - J1-KJP
@@ -20997,6 +21984,7 @@ locations:
     hasHub: true
     id: 20000122
     isWormhole: false
+    name: TL-FDN
     systems:
     - O-9G5Y
     - 1ZF-PJ
@@ -21023,6 +22011,7 @@ locations:
     hasHub: true
     id: 20000759
     isWormhole: false
+    name: TPB-KG
     systems:
     - C3I-D5
     - 01B-88
@@ -21047,6 +22036,7 @@ locations:
     hasHub: true
     id: 20000754
     isWormhole: false
+    name: TY0-Q2
     systems:
     - U-3FKL
     - 5V-Q1R
@@ -21076,6 +22066,7 @@ locations:
     hasHub: true
     id: 20000451
     isWormhole: false
+    name: Tandoiras
     systems:
     - Oyonata
     - Tannakan
@@ -21100,6 +22091,7 @@ locations:
     hasHub: true
     id: 20000351
     isWormhole: false
+    name: Tartatven
     systems:
     - Aedald
     - Heild
@@ -21126,6 +22118,7 @@ locations:
     hasHub: true
     id: 20000411
     isWormhole: false
+    name: Tasen
     systems:
     - Anttiri
     - Haatomo
@@ -21148,6 +22141,7 @@ locations:
     hasHub: true
     id: 20000675
     isWormhole: false
+    name: Taurus
     systems:
     - 3ZTV-V
     - L-A5XP
@@ -21168,6 +22162,7 @@ locations:
     hasHub: true
     id: 20000744
     isWormhole: false
+    name: Tendrara
     systems:
     - Jedandan
     - Enal
@@ -21198,6 +22193,7 @@ locations:
     hasHub: true
     id: 20000734
     isWormhole: false
+    name: Thoulde
     systems:
     - Henebene
     - Yona
@@ -21238,6 +22234,7 @@ locations:
     hasHub: true
     id: 20000322
     isWormhole: false
+    name: ThroneWorlds
     systems:
     - Irnin
     - Ebidan
@@ -21266,6 +22263,7 @@ locations:
     hasHub: true
     id: 20000303
     isWormhole: false
+    name: Tiat
     systems:
     - Amo
     - Hadozeko
@@ -21288,6 +22286,7 @@ locations:
     hasHub: true
     id: 20000624
     isWormhole: false
+    name: Tid
     systems:
     - Shenda
     - Afrah
@@ -21312,6 +22311,7 @@ locations:
     hasHub: true
     id: 20000592
     isWormhole: false
+    name: Tinnimerci
     systems:
     - Q-UA3C
     - 8R-RTB
@@ -21336,6 +22336,7 @@ locations:
     hasHub: true
     id: 20000147
     isWormhole: false
+    name: Tranquillity
     systems:
     - K-MGJ7
     - G-G78S
@@ -21361,6 +22362,7 @@ locations:
     hasHub: true
     id: 20000599
     isWormhole: false
+    name: Trigentia
     systems:
     - Suner
     - Sonama
@@ -21383,6 +22385,7 @@ locations:
     hasHub: true
     id: 20000253
     isWormhole: false
+    name: Tsemshatel
     systems:
     - Yeder
     - Asezai
@@ -21407,6 +22410,7 @@ locations:
     hasHub: true
     id: 20000133
     isWormhole: false
+    name: U-3HAO
     systems:
     - 56D-TC
     - FVXK-D
@@ -21428,6 +22432,7 @@ locations:
     hasHub: true
     id: 20000295
     isWormhole: false
+    name: U-7RBK
     systems:
     - OE-9UF
     - 2-6TGQ
@@ -21446,6 +22451,7 @@ locations:
     hasHub: true
     id: 20000109
     isWormhole: false
+    name: U-EUG7
     systems:
     - WF4C-8
     - 4DS-OI
@@ -21469,6 +22475,7 @@ locations:
     hasHub: true
     id: 20000419
     isWormhole: false
+    name: U-HSM3
     systems:
     - WNM-V0
     - H7S-5I
@@ -21497,6 +22504,7 @@ locations:
     hasHub: true
     id: 20000262
     isWormhole: false
+    name: U-IOR1
     systems:
     - RT64-C
     - EZWQ-X
@@ -21519,6 +22527,7 @@ locations:
     hasHub: true
     id: 20000182
     isWormhole: false
+    name: U-JTBT
     systems:
     - 4NBN-9
     - Q-U96U
@@ -21545,6 +22554,7 @@ locations:
     hasHub: true
     id: 20000030
     isWormhole: false
+    name: U29-0S
     systems:
     - LZ-6SU
     - G-LOIT
@@ -21564,6 +22574,7 @@ locations:
     hasHub: true
     id: 20000719
     isWormhole: false
+    name: U7-GIV
     systems:
     - H90-C9
     - NZPK-G
@@ -21593,6 +22604,7 @@ locations:
     hasHub: true
     id: 20000275
     isWormhole: false
+    name: U7L-MQ
     systems:
     - ZG8Q-N
     - Z2-QQP
@@ -21619,6 +22631,7 @@ locations:
     hasHub: true
     id: 20000290
     isWormhole: false
+    name: U8-CWA
     systems:
     - BDV3-T
     - N-H32Y
@@ -21643,6 +22656,7 @@ locations:
     hasHub: true
     id: 20000357
     isWormhole: false
+    name: UBPU-9
     systems:
     - L-HV5C
     - V-MZW0
@@ -21669,6 +22683,7 @@ locations:
     hasHub: true
     id: 20000548
     isWormhole: false
+    name: UD-ZJ3
     systems:
     - AY-24I
     - K1I1-J
@@ -21687,6 +22702,7 @@ locations:
     hasHub: true
     id: 20000038
     isWormhole: false
+    name: UK-MI6
     systems:
     - MA-XAP
     - C-J7CR
@@ -21709,6 +22725,7 @@ locations:
     hasHub: true
     id: 20000157
     isWormhole: false
+    name: UL8-RD
     systems:
     - ZT-L3S
     - LH-PLU
@@ -21723,6 +22740,7 @@ locations:
     hasHub: true
     id: 20000241
     isWormhole: false
+    name: UN2H-D
     systems:
     - DLY-RG
     - F-KBNV
@@ -21751,6 +22769,7 @@ locations:
     hasHub: true
     id: 20000114
     isWormhole: false
+    name: UR-HG4
     systems:
     - X5-0EM
     - SHBF-V
@@ -21771,6 +22790,7 @@ locations:
     hasHub: true
     id: 20000427
     isWormhole: false
+    name: UTQ-BO
     systems:
     - S-DN5M
     - ZZZR-5
@@ -21792,6 +22812,7 @@ locations:
     hasHub: true
     id: 20000188
     isWormhole: false
+    name: UTZ-7B
     systems:
     - SS-GED
     - BV-1JG
@@ -21821,6 +22842,7 @@ locations:
     hasHub: true
     id: 20000537
     isWormhole: false
+    name: UWRZ-2
     systems:
     - L-C3O7
     - O-CNPR
@@ -21856,6 +22878,7 @@ locations:
     hasHub: true
     id: 20000169
     isWormhole: false
+    name: UX3-N2
     systems:
     - 36N-HZ
     - WD-VTV
@@ -21884,6 +22907,7 @@ locations:
     hasHub: true
     id: 20000765
     isWormhole: false
+    name: Ubar
     systems:
     - Beke
     - Pashanai
@@ -21910,6 +22934,7 @@ locations:
     hasHub: true
     id: 20000211
     isWormhole: false
+    name: Umamon
     systems:
     - Karjataimon
     - Saranen
@@ -21930,6 +22955,7 @@ locations:
     hasHub: true
     id: 20000670
     isWormhole: false
+    name: Unicorn
     systems:
     - B17O-R
     - U-SOH2
@@ -21948,6 +22974,7 @@ locations:
     hasHub: true
     id: 20000557
     isWormhole: false
+    name: Unour
     systems:
     - Ommaerrer
     - Mollin
@@ -21973,6 +23000,7 @@ locations:
     hasHub: false
     id: 20000781
     isWormhole: false
+    name: Urpiken
     systems:
     - Villasen
     - Hykanima
@@ -21993,6 +23021,7 @@ locations:
     hasHub: true
     id: 20000376
     isWormhole: false
+    name: Urtfer
     systems:
     - Appen
     - Egmur
@@ -22024,6 +23053,7 @@ locations:
     hasHub: true
     id: 20000408
     isWormhole: false
+    name: Uusasai
     systems:
     - Ikao
     - Kamio
@@ -22047,6 +23077,7 @@ locations:
     hasHub: true
     id: 20000141
     isWormhole: false
+    name: V-4QJC
     systems:
     - L1S-G1
     - SL-YBS
@@ -22066,6 +23097,7 @@ locations:
     hasHub: true
     id: 20000283
     isWormhole: false
+    name: V-H3V0
     systems:
     - MMR-LZ
     - S-BWWQ
@@ -22105,6 +23137,7 @@ locations:
     hasHub: true
     id: 20000135
     isWormhole: false
+    name: V-LQBF
     systems:
     - VXO-OM
     - 7-IDWY
@@ -22133,6 +23166,7 @@ locations:
     hasHub: true
     id: 20000362
     isWormhole: false
+    name: V1G-63
     systems:
     - Q-TBHW
     - 4D9-66
@@ -22159,6 +23193,7 @@ locations:
     hasHub: true
     id: 20000120
     isWormhole: false
+    name: V2S-RH
     systems:
     - B-II34
     - EJ48-O
@@ -22177,6 +23212,7 @@ locations:
     hasHub: true
     id: 20000051
     isWormhole: false
+    name: V8UW-M
     systems:
     - X0LN-U
     - 7O-POM
@@ -22200,6 +23236,7 @@ locations:
     hasHub: true
     id: 20000280
     isWormhole: false
+    name: VH1-NS
     systems:
     - S-DLKC
     - A4UG-O
@@ -22214,6 +23251,7 @@ locations:
     hasHub: true
     id: 20000055
     isWormhole: false
+    name: VL-OGL
     systems:
     - S-QNXH
     - RF-342
@@ -22233,6 +23271,7 @@ locations:
     hasHub: true
     id: 20000539
     isWormhole: false
+    name: VNX-P0
     systems:
     - I-UUI5
     - C4C-Z4
@@ -22257,6 +23296,7 @@ locations:
     hasHub: true
     id: 20000090
     isWormhole: false
+    name: VS-8P0
     systems:
     - YE1-9S
     - IVP-KA
@@ -22280,6 +23320,7 @@ locations:
     hasHub: true
     id: 20000093
     isWormhole: false
+    name: VSC-W9
     systems:
     - P7-45V
     - NIF-JE
@@ -22302,6 +23343,7 @@ locations:
     hasHub: true
     id: 20000751
     isWormhole: false
+    name: VT-LHB
     systems:
     - 972C-1
     - 7M4-4C
@@ -22320,6 +23362,7 @@ locations:
     hasHub: true
     id: 20000056
     isWormhole: false
+    name: VW-JMB
     systems:
     - S94-X8
     - J-YQEC
@@ -22346,6 +23389,7 @@ locations:
     hasHub: true
     id: 20000426
     isWormhole: false
+    name: VW7-YN
     systems:
     - 2R-CRW
     - VFK-IV
@@ -22375,6 +23419,7 @@ locations:
     hasHub: true
     id: 20000449
     isWormhole: false
+    name: Vaarma
     systems:
     - Gammel
     - Uusanen
@@ -22399,6 +23444,7 @@ locations:
     hasHub: false
     id: 20000663
     isWormhole: false
+    name: Velvet
     systems:
     - Z-40CG
     - W2F-ZH
@@ -22432,6 +23478,7 @@ locations:
     hasHub: true
     id: 20000731
     isWormhole: false
+    name: Vieres
     systems:
     - Ladistier
     - Parts
@@ -22466,6 +23513,7 @@ locations:
     hasHub: true
     id: 20000553
     isWormhole: false
+    name: Viriette
     systems:
     - Agoze
     - Annancale
@@ -22492,6 +23540,7 @@ locations:
     hasHub: true
     id: 20000714
     isWormhole: false
+    name: W-3E44
     systems:
     - 9-980U
     - EMIG-F
@@ -22513,6 +23562,7 @@ locations:
     hasHub: true
     id: 20000145
     isWormhole: false
+    name: W-3Y6D
     systems:
     - 5FCV-A
     - O-OVOQ
@@ -22535,6 +23585,7 @@ locations:
     hasHub: true
     id: 20000695
     isWormhole: false
+    name: W-4U1E
     systems:
     - J-LPX7
     - K-6K16
@@ -22562,6 +23613,7 @@ locations:
     hasHub: true
     id: 20000284
     isWormhole: false
+    name: W-ULNA
     systems:
     - Z-XMUC
     - L6B-0N
@@ -22591,6 +23643,7 @@ locations:
     hasHub: true
     id: 20000131
     isWormhole: false
+    name: W-XBGF
     systems:
     - QFF-O6
     - NJ4X-S
@@ -22605,6 +23658,7 @@ locations:
     hasHub: true
     id: 20000237
     isWormhole: false
+    name: W1-F3U
     systems:
     - G-N6MC
     - 7-8XK0
@@ -22633,6 +23687,7 @@ locations:
     hasHub: true
     id: 20000190
     isWormhole: false
+    name: W9MQ-1
     systems:
     - VG-6CH
     - S-1ZXZ
@@ -22663,6 +23718,7 @@ locations:
     hasHub: true
     id: 20000465
     isWormhole: false
+    name: WE-WLQ
     systems:
     - KH-EWC
     - QB-AE6
@@ -22685,6 +23741,7 @@ locations:
     hasHub: true
     id: 20000287
     isWormhole: false
+    name: WF-OP4
     systems:
     - JVJ2-N
     - LGL-SD
@@ -22709,6 +23766,7 @@ locations:
     hasHub: true
     id: 20000293
     isWormhole: false
+    name: WMP-OF
     systems:
     - ZJET-E
     - ION-FG
@@ -22732,6 +23790,7 @@ locations:
     hasHub: true
     id: 20000104
     isWormhole: false
+    name: WQZ8-4
     systems:
     - KZFV-4
     - 28Y9-P
@@ -22754,6 +23813,7 @@ locations:
     hasHub: true
     id: 20000165
     isWormhole: false
+    name: WS5L-X
     systems:
     - DOA-YU
     - N6NK-J
@@ -22768,6 +23828,7 @@ locations:
     hasHub: true
     id: 20000216
     isWormhole: false
+    name: WSC-AL
     systems:
     - BJC4-8
     - CW-R71
@@ -22786,6 +23847,7 @@ locations:
     hasHub: true
     id: 20000320
     isWormhole: false
+    name: WTE-CK
     systems:
     - W4E-IT
     - J-QA7I
@@ -22808,6 +23870,7 @@ locations:
     hasHub: true
     id: 20000755
     isWormhole: false
+    name: WXB-RY
     systems:
     - JM0A-4
     - 4F6-VZ
@@ -22834,6 +23897,7 @@ locations:
     hasHub: true
     id: 20000371
     isWormhole: false
+    name: Wiedadur
     systems:
     - Gerbold
     - Ebodold
@@ -22854,6 +23918,7 @@ locations:
     hasHub: true
     id: 20000659
     isWormhole: false
+    name: Wield
     systems:
     - NM-OEA
     - JKJ-VJ
@@ -22883,6 +23948,7 @@ locations:
     hasHub: true
     id: 20000775
     isWormhole: false
+    name: Woenckee
     systems:
     - Ouelletta
     - Muetralle
@@ -22908,6 +23974,7 @@ locations:
     hasHub: true
     id: 20000395
     isWormhole: false
+    name: Wyllequet
     systems:
     - Adrallezoen
     - Brapelille
@@ -22929,6 +23996,7 @@ locations:
     hasHub: true
     id: 20000666
     isWormhole: false
+    name: Wyvern
     systems:
     - R3W-XU
     - CL-BWB
@@ -22951,6 +24019,7 @@ locations:
     hasHub: true
     id: 20000530
     isWormhole: false
+    name: X-FHU3
     systems:
     - U-O2DA
     - 6-AOLS
@@ -22982,6 +24051,7 @@ locations:
     hasHub: true
     id: 20000125
     isWormhole: false
+    name: X-VN63
     systems:
     - AW1-2I
     - GKP-YT
@@ -23010,6 +24080,7 @@ locations:
     hasHub: true
     id: 20000259
     isWormhole: false
+    name: X5O9-E
     systems:
     - I-HRX3
     - O-O2GN
@@ -23033,6 +24104,7 @@ locations:
     hasHub: true
     id: 20000749
     isWormhole: false
+    name: X7-FTR
     systems:
     - PE-SAM
     - H-FOYG
@@ -23061,6 +24133,7 @@ locations:
     hasHub: true
     id: 20000536
     isWormhole: false
+    name: XFLN-F
     systems:
     - P-33KR
     - C8-CHY
@@ -23088,6 +24161,7 @@ locations:
     hasHub: true
     id: 20000615
     isWormhole: false
+    name: XHL-TZ
     systems:
     - L-Z9NB
     - 4LNE-M
@@ -23114,6 +24188,7 @@ locations:
     hasHub: true
     id: 20000191
     isWormhole: false
+    name: XHYS-O
     systems:
     - N-5476
     - W3KK-R
@@ -23138,6 +24213,7 @@ locations:
     hasHub: true
     id: 20000155
     isWormhole: false
+    name: XI0-X2
     systems:
     - X-PQEX
     - 7-YHRX
@@ -23160,6 +24236,7 @@ locations:
     hasHub: true
     id: 20000276
     isWormhole: false
+    name: XJ-0RG
     systems:
     - 40GX-P
     - WBLF-0
@@ -23178,6 +24255,7 @@ locations:
     hasHub: true
     id: 20000589
     isWormhole: false
+    name: XLL-Z7
     systems:
     - 3D5K-R
     - F-NXLQ
@@ -23200,6 +24278,7 @@ locations:
     hasHub: true
     id: 20000194
     isWormhole: false
+    name: XMNF-7
     systems:
     - E1F-E5
     - H-AJ27
@@ -23227,6 +24306,7 @@ locations:
     hasHub: true
     id: 20000721
     isWormhole: false
+    name: XOV7-5
     systems:
     - XZ-SKZ
     - L-YMYU
@@ -23248,6 +24328,7 @@ locations:
     hasHub: true
     id: 20000640
     isWormhole: false
+    name: XPBM-F
     systems:
     - XW-JHT
     - C-4ZOS
@@ -23268,6 +24349,7 @@ locations:
     hasHub: true
     id: 20000421
     isWormhole: false
+    name: XPG-HE
     systems:
     - K95-9I
     - K76A-3
@@ -23296,6 +24378,7 @@ locations:
     hasHub: true
     id: 20000688
     isWormhole: false
+    name: XPJ1-6
     systems:
     - UHKL-N
     - 1DH-SX
@@ -23320,6 +24403,7 @@ locations:
     hasHub: true
     id: 20000174
     isWormhole: false
+    name: XR9-LP
     systems:
     - I-8D0G
     - OGL8-Q
@@ -23348,6 +24432,7 @@ locations:
     hasHub: true
     id: 20000544
     isWormhole: false
+    name: XV7L-S
     systems:
     - E-YCML
     - B-WPLZ
@@ -23368,6 +24453,7 @@ locations:
     hasHub: false
     id: 20000274
     isWormhole: false
+    name: Y-2D6Q
     systems:
     - JS-E8E
     - UF-KKH
@@ -23390,6 +24476,7 @@ locations:
     hasHub: true
     id: 20000092
     isWormhole: false
+    name: Y-JSM8
     systems:
     - M53-1V
     - K-RMI5
@@ -23413,6 +24500,7 @@ locations:
     hasHub: true
     id: 20000716
     isWormhole: false
+    name: Y-LRWI
     systems:
     - VULA-I
     - XPUM-L
@@ -23437,6 +24525,7 @@ locations:
     hasHub: true
     id: 20000100
     isWormhole: false
+    name: Y-M7ML
     systems:
     - ZFJH-T
     - I-1B7X
@@ -23455,6 +24544,7 @@ locations:
     hasHub: true
     id: 20000317
     isWormhole: false
+    name: Y46-EN
     systems:
     - XS-K1O
     - 7-ZT1Y
@@ -23473,6 +24563,7 @@ locations:
     hasHub: true
     id: 20000480
     isWormhole: false
+    name: Y4Y7-Q
     systems:
     - AK-QBU
     - X-PYH5
@@ -23495,6 +24586,7 @@ locations:
     hasHub: true
     id: 20000192
     isWormhole: false
+    name: Y8-HHZ
     systems:
     - RQ9-OZ
     - 65V-RH
@@ -23520,6 +24612,7 @@ locations:
     hasHub: true
     id: 20000193
     isWormhole: false
+    name: Y8HB-U
     systems:
     - Q-7SUI
     - P-VYVL
@@ -23541,6 +24634,7 @@ locations:
     hasHub: true
     id: 20000578
     isWormhole: false
+    name: YB7B-8
     systems:
     - 60M-TG
     - VT-G2P
@@ -23567,6 +24661,7 @@ locations:
     hasHub: true
     id: 20000106
     isWormhole: false
+    name: YCM-AI
     systems:
     - 9M-M0P
     - 71-UTX
@@ -23588,6 +24683,7 @@ locations:
     hasHub: true
     id: 20000039
     isWormhole: false
+    name: YDS0-Y
     systems:
     - C-DHON
     - XSQ-TF
@@ -23608,6 +24704,7 @@ locations:
     hasHub: true
     id: 20000319
     isWormhole: false
+    name: YENX-U
     systems:
     - 08-N7Q
     - 8X6T-8
@@ -23636,6 +24733,7 @@ locations:
     hasHub: true
     id: 20000484
     isWormhole: false
+    name: YFN-UN
     systems:
     - 3MOG-V
     - XYY-IA
@@ -23665,6 +24763,7 @@ locations:
     hasHub: true
     id: 20000292
     isWormhole: false
+    name: YS-GOP
     systems:
     - EWOK-K
     - 93PI-4
@@ -23684,6 +24783,7 @@ locations:
     hasHub: true
     id: 20000036
     isWormhole: false
+    name: YUT3-U
     systems:
     - E-D0VZ
     - S-NJBB
@@ -23709,6 +24809,7 @@ locations:
     hasHub: true
     id: 20000693
     isWormhole: false
+    name: YX-LYK
     systems:
     - Q-HESZ
     - RCI-VL
@@ -23728,6 +24829,7 @@ locations:
     hasHub: true
     id: 20000652
     isWormhole: false
+    name: YZKE-Q
     systems:
     - DB1R-4
     - GPUS-A
@@ -23757,6 +24859,7 @@ locations:
     hasHub: true
     id: 20000511
     isWormhole: false
+    name: Yekti
     systems:
     - Madirmilire
     - Bahromab
@@ -23786,6 +24889,7 @@ locations:
     hasHub: true
     id: 20000324
     isWormhole: false
+    name: Yestadan
     systems:
     - Uchat
     - Gaha
@@ -23815,6 +24919,7 @@ locations:
     hasHub: true
     id: 20000567
     isWormhole: false
+    name: Youledian
     systems:
     - Arzanni
     - Lansez
@@ -23845,6 +24950,7 @@ locations:
     hasHub: true
     id: 20000590
     isWormhole: false
+    name: Yrton
     systems:
     - DY-F70
     - B-DBYQ
@@ -23880,6 +24986,7 @@ locations:
     hasHub: true
     id: 20000443
     isWormhole: false
+    name: Ysiette
     systems:
     - Ardallabier
     - Aclan
@@ -23917,6 +25024,7 @@ locations:
     hasHub: true
     id: 20000478
     isWormhole: false
+    name: Z-6NQ6
     systems:
     - K5-JRD
     - F67E-Q
@@ -23943,6 +25051,7 @@ locations:
     hasHub: true
     id: 20000425
     isWormhole: false
+    name: Z-D6K5
     systems:
     - XCF-8N
     - TXME-A
@@ -23975,6 +25084,7 @@ locations:
     hasHub: true
     id: 20000035
     isWormhole: false
+    name: Z-DO53
     systems:
     - 49-0LI
     - 9OO-LH
@@ -23999,6 +25109,7 @@ locations:
     hasHub: true
     id: 20000112
     isWormhole: false
+    name: Z-ONUI
     systems:
     - 1TG7-W
     - A-TJ0G
@@ -24017,6 +25128,7 @@ locations:
     hasHub: true
     id: 20000286
     isWormhole: false
+    name: Z01V-Z
     systems:
     - W-Q233
     - O-FTHE
@@ -24045,6 +25157,7 @@ locations:
     hasHub: true
     id: 20000225
     isWormhole: false
+    name: Z6T6-B
     systems:
     - L-WG68
     - E-BFLT
@@ -24070,6 +25183,7 @@ locations:
     hasHub: true
     id: 20000070
     isWormhole: false
+    name: ZPI-2E
     systems:
     - FMH-OV
     - SLVP-D
@@ -24088,6 +25202,7 @@ locations:
     hasHub: true
     id: 20000545
     isWormhole: false
+    name: ZQ2-CF
     systems:
     - GN7-XY
     - PI5-39
@@ -24108,6 +25223,7 @@ locations:
     hasHub: true
     id: 20000707
     isWormhole: false
+    name: ZQ7-QS
     systems:
     - KW-OAM
     - U2U5-A
@@ -24130,6 +25246,7 @@ locations:
     hasHub: false
     id: 20000172
     isWormhole: false
+    name: ZW-BY5
     systems:
     - EX-0LQ
     - S-U2VD
@@ -24148,6 +25265,7 @@ locations:
     hasHub: true
     id: 20000360
     isWormhole: false
+    name: ZYL-FT
     systems:
     - AP9-LV
     - 2H-TSE
@@ -24180,6 +25298,7 @@ locations:
     hasHub: true
     id: 20000380
     isWormhole: false
+    name: ZYR-NF
     systems:
     - YALR-F
     - H-64KI
@@ -24210,6 +25329,7 @@ locations:
     hasHub: true
     id: 20000510
     isWormhole: false
+    name: Zemont
     systems:
     - Ekid
     - Raravoss

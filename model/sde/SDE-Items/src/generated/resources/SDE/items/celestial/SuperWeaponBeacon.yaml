@@ -1,12 +1,23 @@
 items:
-  ECM Jammer Burst: {}
-  Energy Neutralizer Burst: {}
-  Gravitational Transportation Field Beacon: {}
-  Guidance Disruptor Burst: {}
-  Modular Effect Beacon: {}
-  Sensor Dampener Burst: {}
-  Stasis Webifier Burst: {}
-  Target Painter Burst: {}
-  Tracking Disruption Burst: {}
-  Unlit Modular Effect Beacon: {}
-  Warp Disrupt Burst: {}
+  ECM Jammer Burst:
+    name: ECM Jammer Burst
+  Energy Neutralizer Burst:
+    name: Energy Neutralizer Burst
+  Gravitational Transportation Field Beacon:
+    name: Gravitational Transportation Field Beacon
+  Guidance Disruptor Burst:
+    name: Guidance Disruptor Burst
+  Modular Effect Beacon:
+    name: Modular Effect Beacon
+  Sensor Dampener Burst:
+    name: Sensor Dampener Burst
+  Stasis Webifier Burst:
+    name: Stasis Webifier Burst
+  Target Painter Burst:
+    name: Target Painter Burst
+  Tracking Disruption Burst:
+    name: Tracking Disruption Burst
+  Unlit Modular Effect Beacon:
+    name: Unlit Modular Effect Beacon
+  Warp Disrupt Burst:
+    name: Warp Disrupt Burst

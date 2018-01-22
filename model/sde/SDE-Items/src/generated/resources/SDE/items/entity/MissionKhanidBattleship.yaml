@@ -1,6 +1,11 @@
 items:
-  Khanid High Commander: {}
-  Khanid Kazmaar: {}
-  Khanid Kazmaar_2: {}
-  Khanid Mashtori: {}
-  Khanid Personnel Transport: {}
+  Khanid High Commander:
+    name: Khanid High Commander
+  Khanid Kazmaar:
+    name: Khanid Kazmaar
+  Khanid Kazmaar_2:
+    name: Khanid Kazmaar_2
+  Khanid Mashtori:
+    name: Khanid Mashtori
+  Khanid Personnel Transport:
+    name: Khanid Personnel Transport

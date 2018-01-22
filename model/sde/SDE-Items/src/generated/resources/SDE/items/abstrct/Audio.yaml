@@ -1,2 +1,3 @@
 items:
-  genericAudioEmitter: {}
+  genericAudioEmitter:
+    name: genericAudioEmitter

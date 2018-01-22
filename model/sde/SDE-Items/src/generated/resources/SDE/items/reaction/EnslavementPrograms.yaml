@@ -1,8 +1,15 @@
 items:
-  defunct reaction 1: {}
-  defunct reaction 2: {}
-  defunct reaction 3: {}
-  defunct reaction 4: {}
-  defunct reaction 5: {}
-  defunct reaction 6: {}
-  defunct reaction 7: {}
+  defunct reaction 1:
+    name: defunct reaction 1
+  defunct reaction 2:
+    name: defunct reaction 2
+  defunct reaction 3:
+    name: defunct reaction 3
+  defunct reaction 4:
+    name: defunct reaction 4
+  defunct reaction 5:
+    name: defunct reaction 5
+  defunct reaction 6:
+    name: defunct reaction 6
+  defunct reaction 7:
+    name: defunct reaction 7

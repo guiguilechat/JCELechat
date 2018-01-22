@@ -1,7 +1,13 @@
 items:
-  Angel Legatus: {}
-  Angel Legionnaire: {}
-  Angel Praefectus: {}
-  Angel Primus: {}
-  Angel Tribuni: {}
-  Angel Tribunus: {}
+  Angel Legatus:
+    name: Angel Legatus
+  Angel Legionnaire:
+    name: Angel Legionnaire
+  Angel Praefectus:
+    name: Angel Praefectus
+  Angel Primus:
+    name: Angel Primus
+  Angel Tribuni:
+    name: Angel Tribuni
+  Angel Tribunus:
+    name: Angel Tribunus

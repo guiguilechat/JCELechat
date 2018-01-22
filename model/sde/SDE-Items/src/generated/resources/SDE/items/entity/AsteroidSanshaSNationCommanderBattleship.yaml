@@ -1,11 +1,21 @@
 items:
-  True Sansha's Beast Lord: {}
-  True Sansha's Dark Lord: {}
-  True Sansha's Dread Lord: {}
-  True Sansha's Lord: {}
-  True Sansha's Mutant Lord: {}
-  True Sansha's Overlord: {}
-  True Sansha's Plague Lord: {}
-  True Sansha's Savage Lord: {}
-  True Sansha's Slave Lord: {}
-  True Sansha's Tyrant: {}
+  True Sansha's Beast Lord:
+    name: True Sansha's Beast Lord
+  True Sansha's Dark Lord:
+    name: True Sansha's Dark Lord
+  True Sansha's Dread Lord:
+    name: True Sansha's Dread Lord
+  True Sansha's Lord:
+    name: True Sansha's Lord
+  True Sansha's Mutant Lord:
+    name: True Sansha's Mutant Lord
+  True Sansha's Overlord:
+    name: True Sansha's Overlord
+  True Sansha's Plague Lord:
+    name: True Sansha's Plague Lord
+  True Sansha's Savage Lord:
+    name: True Sansha's Savage Lord
+  True Sansha's Slave Lord:
+    name: True Sansha's Slave Lord
+  True Sansha's Tyrant:
+    name: True Sansha's Tyrant

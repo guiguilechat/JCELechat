@@ -7,6 +7,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 6.0
+    name: Advanced Energy Grid Upgrades
   Advanced Weapon Upgrades:
     CanNotBeTrainedOnTrial: 1
     PowerNeedBonus: -2
@@ -15,10 +16,12 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
+    name: Advanced Weapon Upgrades
   CPU Management:
     PrimaryAttribute: 165
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: CPU Management
   Capacitor Emission Systems:
     CapNeedBonus: -5
     PrimaryAttribute: 165
@@ -28,18 +31,21 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    name: Capacitor Emission Systems
   Capacitor Management:
     PrimaryAttribute: 165
     RequiredSkill1: 3413
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    name: Capacitor Management
   Capacitor Systems Operation:
     PrimaryAttribute: 165
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Capacitor Systems Operation
   Capital Capacitor Emission Systems:
     CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -5
@@ -50,6 +56,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 10.0
+    name: Capital Capacitor Emission Systems
   Electronics Upgrades:
     CpuNeedBonus: -5
     PrimaryAttribute: 165
@@ -59,6 +66,7 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    name: Electronics Upgrades
   Energy Grid Upgrades:
     CpuNeedBonus: -5
     PrimaryAttribute: 165
@@ -68,6 +76,7 @@ items:
     RequiredSkill2Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    name: Energy Grid Upgrades
   Energy Pulse Weapons:
     DurationBonus: -5
     PrimaryAttribute: 165
@@ -77,6 +86,7 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    name: Energy Pulse Weapons
   Nanite Interfacing:
     ModuleRepairRateBonus: 20
     PrimaryAttribute: 165
@@ -84,6 +94,7 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    name: Nanite Interfacing
   Nanite Operation:
     PrimaryAttribute: 165
     RequiredSkill1: 3392
@@ -91,10 +102,12 @@ items:
     SecondaryAttribute: 166
     ShipBrokenRepairCostMultiplierBonus: -5
     SkillTimeConstant: 2.0
+    name: Nanite Operation
   Power Grid Management:
     PrimaryAttribute: 165
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Power Grid Management
   Resistance Phasing:
     CapNeedBonus: -15
     DurationBonus: -10
@@ -103,6 +116,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    name: Resistance Phasing
   Thermodynamics:
     PrimaryAttribute: 165
     RequiredSkill1: 3413
@@ -114,6 +128,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     ThermodynamicsHeatDamage: -5
+    name: Thermodynamics
   Weapon Upgrades:
     CpuNeedBonus: -5
     PrimaryAttribute: 167
@@ -121,3 +136,4 @@ items:
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    name: Weapon Upgrades

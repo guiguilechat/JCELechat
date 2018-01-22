@@ -2,21 +2,28 @@ items:
   Enormous Freight Container:
     Hp: 10
     StructureUniformity: 1.0
+    name: Enormous Freight Container
   Giant Freight Container:
     Hp: 10
     StructureUniformity: 1.0
+    name: Giant Freight Container
   Huge Freight Container:
     Hp: 10
     StructureUniformity: 1.0
+    name: Huge Freight Container
   Large Freight Container:
     Hp: 10
     StructureUniformity: 1.0
+    name: Large Freight Container
   Medium Freight Container:
     Hp: 10
     StructureUniformity: 1.0
+    name: Medium Freight Container
   Plastic Wrap:
     Hp: 10
     StructureUniformity: 1.0
+    name: Plastic Wrap
   Small Freight Container:
     Hp: 10
     StructureUniformity: 1.0
+    name: Small Freight Container

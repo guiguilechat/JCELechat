@@ -15,6 +15,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: '''Lance'' Medium EMP Smartbomb I'
   '''Pike'' Small EMP Smartbomb I':
     CapacitorNeed: 30.0
     Duration: 10000.0
@@ -31,6 +32,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: '''Pike'' Small EMP Smartbomb I'
   '''Warhammer'' Large EMP Smartbomb I':
     CapacitorNeed: 200.0
     Duration: 10000.0
@@ -47,6 +49,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: '''Warhammer'' Large EMP Smartbomb I'
   Ahremen's Modified Large EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 9750
@@ -61,6 +64,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Ahremen's Modified Large EMP Smartbomb
   Ammatar Navy Large EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 7500
@@ -75,6 +79,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Ammatar Navy Large EMP Smartbomb
   Ammatar Navy Medium EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 6000
@@ -89,6 +94,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Ammatar Navy Medium EMP Smartbomb
   Ammatar Navy Micro EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 3000
@@ -103,6 +109,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Ammatar Navy Micro EMP Smartbomb
   Ammatar Navy Small EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 4500
@@ -117,6 +124,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Ammatar Navy Small EMP Smartbomb
   Brokara's Modified Large EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 8250
@@ -131,6 +139,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Brokara's Modified Large EMP Smartbomb
   Brynn's Modified Large Plasma Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 7425
@@ -145,6 +154,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Brynn's Modified Large Plasma Smartbomb
   Caldari Navy Large Graviton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 6250
@@ -159,6 +169,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Caldari Navy Large Graviton Smartbomb
   Caldari Navy Medium Graviton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 5000
@@ -173,6 +184,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Caldari Navy Medium Graviton Smartbomb
   Caldari Navy Micro Graviton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 2500
@@ -187,6 +199,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Caldari Navy Micro Graviton Smartbomb
   Caldari Navy Small Graviton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 3750
@@ -201,6 +214,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Caldari Navy Small Graviton Smartbomb
   Chelm's Modified Large EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 10500
@@ -215,6 +229,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Chelm's Modified Large EMP Smartbomb
   Cormack's Modified Large Plasma Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 9450
@@ -229,6 +244,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Cormack's Modified Large Plasma Smartbomb
   Dark Blood Large EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 7500
@@ -243,6 +259,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dark Blood Large EMP Smartbomb
   Dark Blood Medium EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 6000
@@ -257,6 +274,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dark Blood Medium EMP Smartbomb
   Dark Blood Micro EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 3000
@@ -271,6 +289,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dark Blood Micro EMP Smartbomb
   Dark Blood Small EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 4500
@@ -285,6 +304,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dark Blood Small EMP Smartbomb
   Domination Large Proton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 6500
@@ -299,6 +319,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Domination Large Proton Smartbomb
   Domination Medium Proton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 5200
@@ -313,6 +334,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Domination Medium Proton Smartbomb
   Domination Micro Proton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 2600
@@ -327,6 +349,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Domination Micro Proton Smartbomb
   Domination Small Proton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 3900
@@ -341,6 +364,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Domination Small Proton Smartbomb
   Draclira's Modified Large EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 10500
@@ -355,6 +379,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Draclira's Modified Large EMP Smartbomb
   Dread Guristas Large Graviton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 6250
@@ -369,6 +394,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dread Guristas Large Graviton Smartbomb
   Dread Guristas Medium Graviton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 5000
@@ -383,6 +409,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dread Guristas Medium Graviton Smartbomb
   Dread Guristas Micro Graviton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 2500
@@ -397,6 +424,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dread Guristas Micro Graviton Smartbomb
   Dread Guristas Small Graviton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 3750
@@ -411,6 +439,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dread Guristas Small Graviton Smartbomb
   Estamel's Modified Large Graviton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 8750
@@ -425,6 +454,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Estamel's Modified Large Graviton Smartbomb
   Federation Navy Large Plasma Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 6750
@@ -439,6 +469,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Federation Navy Large Plasma Smartbomb
   Federation Navy Medium Plasma Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 5400
@@ -453,6 +484,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Federation Navy Medium Plasma Smartbomb
   Federation Navy Micro Plasma Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 2700
@@ -467,6 +499,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Federation Navy Micro Plasma Smartbomb
   Federation Navy Small Plasma Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 4050
@@ -481,6 +514,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Federation Navy Small Plasma Smartbomb
   Gotan's Modified Large Proton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 8450
@@ -495,6 +529,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Gotan's Modified Large Proton Smartbomb
   Hakim's Modified Large Proton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 7800
@@ -509,6 +544,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Hakim's Modified Large Proton Smartbomb
   Imperial Navy Large EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 7500
@@ -523,6 +559,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Imperial Navy Large EMP Smartbomb
   Imperial Navy Medium EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 6000
@@ -537,6 +574,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Imperial Navy Medium EMP Smartbomb
   Imperial Navy Micro EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 3000
@@ -551,6 +589,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Imperial Navy Micro EMP Smartbomb
   Imperial Navy Small EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 4500
@@ -565,6 +604,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Imperial Navy Small EMP Smartbomb
   Kaikka's Modified Large Graviton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 6875
@@ -579,6 +619,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Kaikka's Modified Large Graviton Smartbomb
   Khanid Navy Large EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 7500
@@ -593,6 +634,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Khanid Navy Large EMP Smartbomb
   Khanid Navy Medium EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 6000
@@ -607,6 +649,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Khanid Navy Medium EMP Smartbomb
   Khanid Navy Small EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 4500
@@ -621,6 +664,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Khanid Navy Small EMP Smartbomb
   Large 'Notos' Explosive Charge I:
     Duration: 10000.0
     EmpFieldRange: 5000
@@ -634,6 +678,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Large 'Notos' Explosive Charge I
   Large 'Vehemence' Shockwave Charge:
     Duration: 10000.0
     EmpFieldRange: 5000
@@ -647,6 +692,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Large 'Vehemence' Shockwave Charge
   Large Degenerative Concussion Bomb I:
     CapacitorNeed: 200.0
     Duration: 10000.0
@@ -663,6 +709,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Large Degenerative Concussion Bomb I
   Large EMP Smartbomb I:
     CapacitorNeed: 200.0
     Duration: 10000.0
@@ -676,6 +723,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Large EMP Smartbomb I
   Large EMP Smartbomb II:
     CapacitorNeed: 220.0
     Duration: 10000.0
@@ -691,6 +739,7 @@ items:
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Large EMP Smartbomb II
   Large Graviton Smartbomb I:
     CapacitorNeed: 200.0
     Duration: 10000.0
@@ -704,6 +753,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Large Graviton Smartbomb I
   Large Graviton Smartbomb II:
     CapacitorNeed: 220.0
     Duration: 10000.0
@@ -719,6 +769,7 @@ items:
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Large Graviton Smartbomb II
   Large Plasma Smartbomb I:
     CapacitorNeed: 200.0
     Duration: 10000.0
@@ -732,6 +783,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Large Plasma Smartbomb I
   Large Plasma Smartbomb II:
     CapacitorNeed: 220.0
     Duration: 10000.0
@@ -747,6 +799,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     ThermalDamage: 300.0
+    name: Large Plasma Smartbomb II
   Large Proton Smartbomb I:
     CapacitorNeed: 200.0
     Duration: 10000.0
@@ -761,6 +814,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Large Proton Smartbomb I
   Large Proton Smartbomb II:
     CapacitorNeed: 220.0
     Duration: 10000.0
@@ -776,6 +830,7 @@ items:
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Large Proton Smartbomb II
   Large Rudimentary Concussion Bomb I:
     Duration: 10000.0
     EmpFieldRange: 5000
@@ -789,6 +844,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Large Rudimentary Concussion Bomb I
   Large YF-12a Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 5000
@@ -802,6 +858,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Large YF-12a Smartbomb
   Luther Veron's Modified Large EMP Smartbomb:
     CapacitorNeed: 115.0
     Duration: 10000.0
@@ -816,6 +873,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Luther Veron's Modified Large EMP Smartbomb
   Medium 'Notos' Explosive Charge I:
     Duration: 10000.0
     EmpFieldRange: 4000
@@ -829,6 +887,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium 'Notos' Explosive Charge I
   Medium 'Vehemence' Shockwave Charge:
     Duration: 10000.0
     EmpFieldRange: 4000
@@ -842,6 +901,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium 'Vehemence' Shockwave Charge
   Medium Degenerative Concussion Bomb I:
     CapacitorNeed: 75.0
     Duration: 10000.0
@@ -858,6 +918,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium Degenerative Concussion Bomb I
   Medium EMP Smartbomb I:
     CapacitorNeed: 75.0
     Duration: 10000.0
@@ -871,6 +932,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium EMP Smartbomb I
   Medium EMP Smartbomb II:
     CapacitorNeed: 75.0
     Duration: 10000.0
@@ -885,6 +947,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Medium EMP Smartbomb II
   Medium Graviton Smartbomb I:
     CapacitorNeed: 75.0
     Duration: 10000.0
@@ -898,6 +961,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium Graviton Smartbomb I
   Medium Graviton Smartbomb II:
     CapacitorNeed: 75.0
     Duration: 10000.0
@@ -912,6 +976,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Medium Graviton Smartbomb II
   Medium Plasma Smartbomb I:
     CapacitorNeed: 75.0
     Duration: 10000.0
@@ -925,6 +990,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium Plasma Smartbomb I
   Medium Plasma Smartbomb II:
     CapacitorNeed: 75.0
     Duration: 10000.0
@@ -939,6 +1005,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Medium Plasma Smartbomb II
   Medium Proton Smartbomb I:
     CapacitorNeed: 75.0
     Duration: 10000.0
@@ -953,6 +1020,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium Proton Smartbomb I
   Medium Proton Smartbomb II:
     CapacitorNeed: 75.0
     Duration: 10000.0
@@ -968,6 +1036,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Medium Proton Smartbomb II
   Medium Rudimentary Concussion Bomb I:
     Duration: 10000.0
     EmpFieldRange: 4000
@@ -981,6 +1050,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium Rudimentary Concussion Bomb I
   Medium YF-12a Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 4000
@@ -994,6 +1064,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium YF-12a Smartbomb
   Micro 'Notos' Explosive Charge I:
     Duration: 10000.0
     EmpFieldRange: 2000
@@ -1007,6 +1078,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Micro 'Notos' Explosive Charge I
   Micro 'Vehemence' Shockwave Charge:
     Duration: 10000.0
     EmpFieldRange: 2000
@@ -1020,6 +1092,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Micro 'Vehemence' Shockwave Charge
   Micro Degenerative Concussion Bomb I:
     CapacitorNeed: 30.0
     Duration: 10000.0
@@ -1036,6 +1109,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Micro Degenerative Concussion Bomb I
   Micro EMP Smartbomb I:
     CapacitorNeed: 15.0
     Duration: 10000.0
@@ -1049,6 +1123,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Micro EMP Smartbomb I
   Micro EMP Smartbomb II:
     CapacitorNeed: 15.0
     Duration: 10000.0
@@ -1063,6 +1138,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Micro EMP Smartbomb II
   Micro Graviton Smartbomb I:
     CapacitorNeed: 15.0
     Duration: 10000.0
@@ -1076,6 +1152,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Micro Graviton Smartbomb I
   Micro Graviton Smartbomb II:
     CapacitorNeed: 15.0
     Duration: 10000.0
@@ -1090,6 +1167,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Micro Graviton Smartbomb II
   Micro Plasma Smartbomb I:
     CapacitorNeed: 15.0
     Duration: 10000.0
@@ -1103,6 +1181,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Micro Plasma Smartbomb I
   Micro Plasma Smartbomb II:
     CapacitorNeed: 15.0
     Duration: 10000.0
@@ -1117,6 +1196,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Micro Plasma Smartbomb II
   Micro Proton Smartbomb I:
     CapacitorNeed: 15.0
     Duration: 10000.0
@@ -1131,6 +1211,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Micro Proton Smartbomb I
   Micro Proton Smartbomb II:
     CapacitorNeed: 15.0
     Duration: 10000.0
@@ -1146,6 +1227,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Micro Proton Smartbomb II
   Micro Rudimentary Concussion Bomb I:
     Duration: 10000.0
     EmpFieldRange: 2000
@@ -1159,6 +1241,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Micro Rudimentary Concussion Bomb I
   Micro YF-12a Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 2000
@@ -1172,6 +1255,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Micro YF-12a Smartbomb
   Mizuro's Modified Large Proton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 7150
@@ -1186,6 +1270,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Mizuro's Modified Large Proton Smartbomb
   Raysere's Modified Large EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 9000
@@ -1200,6 +1285,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Raysere's Modified Large EMP Smartbomb
   Republic Fleet Large Proton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 6500
@@ -1214,6 +1300,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Republic Fleet Large Proton Smartbomb
   Republic Fleet Medium Proton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 5200
@@ -1228,6 +1315,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Republic Fleet Medium Proton Smartbomb
   Republic Fleet Micro Proton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 2600
@@ -1242,6 +1330,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Republic Fleet Micro Proton Smartbomb
   Republic Fleet Small Proton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 3900
@@ -1256,6 +1345,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Republic Fleet Small Proton Smartbomb
   Selynne's Modified Large EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 9000
@@ -1270,6 +1360,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Selynne's Modified Large EMP Smartbomb
   Setele's Modified Large Plasma Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 8775
@@ -1284,6 +1375,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Setele's Modified Large Plasma Smartbomb
   Shadow Serpentis Large Plasma Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 6750
@@ -1298,6 +1390,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Shadow Serpentis Large Plasma Smartbomb
   Shadow Serpentis Medium Plasma Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 5400
@@ -1312,6 +1405,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Shadow Serpentis Medium Plasma Smartbomb
   Shadow Serpentis Micro Plasma Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 2700
@@ -1326,6 +1420,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Shadow Serpentis Micro Plasma Smartbomb
   Shadow Serpentis Small Plasma Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 4050
@@ -1340,6 +1435,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Shadow Serpentis Small Plasma Smartbomb
   Small 'Notos' Explosive Charge I:
     Duration: 10000.0
     EmpFieldRange: 3000
@@ -1353,6 +1449,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small 'Notos' Explosive Charge I
   Small 'Vehemence' Shockwave Charge:
     Duration: 10000.0
     EmpFieldRange: 3000
@@ -1366,6 +1463,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small 'Vehemence' Shockwave Charge
   Small Degenerative Concussion Bomb I:
     CapacitorNeed: 15.0
     Duration: 10000.0
@@ -1382,6 +1480,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small Degenerative Concussion Bomb I
   Small EMP Smartbomb I:
     CapacitorNeed: 30.0
     Duration: 10000.0
@@ -1395,6 +1494,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small EMP Smartbomb I
   Small EMP Smartbomb II:
     CapacitorNeed: 30.0
     Duration: 10000.0
@@ -1409,6 +1509,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Small EMP Smartbomb II
   Small Graviton Smartbomb I:
     CapacitorNeed: 30.0
     Duration: 10000.0
@@ -1422,6 +1523,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small Graviton Smartbomb I
   Small Graviton Smartbomb II:
     CapacitorNeed: 30.0
     Duration: 10000.0
@@ -1436,6 +1538,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Small Graviton Smartbomb II
   Small Plasma Smartbomb I:
     CapacitorNeed: 30.0
     Duration: 10000.0
@@ -1449,6 +1552,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small Plasma Smartbomb I
   Small Plasma Smartbomb II:
     CapacitorNeed: 30.0
     Duration: 10000.0
@@ -1463,6 +1567,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Small Plasma Smartbomb II
   Small Proton Smartbomb I:
     CapacitorNeed: 30.0
     Duration: 10000.0
@@ -1477,6 +1582,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small Proton Smartbomb I
   Small Proton Smartbomb II:
     CapacitorNeed: 30.0
     Duration: 10000.0
@@ -1492,6 +1598,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Small Proton Smartbomb II
   Small Rudimentary Concussion Bomb I:
     Duration: 10000.0
     EmpFieldRange: 3000
@@ -1505,6 +1612,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small Rudimentary Concussion Bomb I
   Small YF-12a Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 3000
@@ -1518,6 +1626,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small YF-12a Smartbomb
   Tairei's Modified Large EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 8250
@@ -1532,6 +1641,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Tairei's Modified Large EMP Smartbomb
   Thon's Modified Large Graviton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 7500
@@ -1546,6 +1656,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Thon's Modified Large Graviton Smartbomb
   Tobias' Modified Large Proton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 9100
@@ -1560,6 +1671,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Tobias' Modified Large Proton Smartbomb
   True Sansha Large EMP Smartbomb:
     CapacitorNeed: 130.0
     Duration: 10000.0
@@ -1575,6 +1687,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: True Sansha Large EMP Smartbomb
   True Sansha Medium EMP Smartbomb:
     CapacitorNeed: 49.0
     Duration: 10000.0
@@ -1590,6 +1703,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: True Sansha Medium EMP Smartbomb
   True Sansha Micro EMP Smartbomb:
     CapacitorNeed: 10.0
     Duration: 10000.0
@@ -1605,6 +1719,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: True Sansha Micro EMP Smartbomb
   True Sansha Small EMP Smartbomb:
     CapacitorNeed: 20.0
     Duration: 10000.0
@@ -1620,6 +1735,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: True Sansha Small EMP Smartbomb
   Tuvan's Modified Large Plasma Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 8100
@@ -1634,6 +1750,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Tuvan's Modified Large Plasma Smartbomb
   Vepas' Modified Large Graviton Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 8125
@@ -1648,6 +1765,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Vepas' Modified Large Graviton Smartbomb
   Vizan's Modified Large EMP Smartbomb:
     Duration: 10000.0
     EmpFieldRange: 9750
@@ -1662,3 +1780,4 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Vizan's Modified Large EMP Smartbomb

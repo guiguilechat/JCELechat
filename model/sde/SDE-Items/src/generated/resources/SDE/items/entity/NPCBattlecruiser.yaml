@@ -1,5 +1,9 @@
 items:
-  ♦ Brutix: {}
-  ♦ Drake: {}
-  ♦ Harbinger: {}
-  ♦ Hurricane: {}
+  ♦ Brutix:
+    name: ♦ Brutix
+  ♦ Drake:
+    name: ♦ Drake
+  ♦ Harbinger:
+    name: ♦ Harbinger
+  ♦ Hurricane:
+    name: ♦ Hurricane

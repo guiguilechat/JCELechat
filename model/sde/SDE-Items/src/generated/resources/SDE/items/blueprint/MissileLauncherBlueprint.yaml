@@ -2,187 +2,249 @@ items:
   '''Balefire'' Rocket Launcher Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Balefire'' Rocket Launcher Blueprint'
   '''Barrage'' Torpedo Launcher Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: '''Barrage'' Torpedo Launcher Blueprint'
   '''Gallows'' Light Missile Launcher Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Gallows'' Light Missile Launcher Blueprint'
   '''Noose'' Cruise Missile Launcher Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: '''Noose'' Cruise Missile Launcher Blueprint'
   '''Pickaxe'' Rapid Light Missile Launcher Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Pickaxe'' Rapid Light Missile Launcher Blueprint'
   '''Undertaker'' Heavy Missile Launcher Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Undertaker'' Heavy Missile Launcher Blueprint'
   Arbalest Compact Rapid Torpedo Launcher Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Arbalest Compact Rapid Torpedo Launcher Blueprint
   Arbalest Compact XL Cruise Missile Launcher Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Arbalest Compact XL Cruise Missile Launcher Blueprint
   Arbalest Compact XL Torpedo Launcher Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Arbalest Compact XL Torpedo Launcher Blueprint
   Bomb Launcher I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Bomb Launcher I Blueprint
   Bomb Launcher II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Bomb Launcher II Blueprint
   CONCORD XL Cruise Missile Launcher Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: CONCORD XL Cruise Missile Launcher Blueprint
   CONCORD XL Torpedo Launcher Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: CONCORD XL Torpedo Launcher Blueprint
   Caldari Navy Cruise Missile Launcher Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Caldari Navy Cruise Missile Launcher Blueprint
   Caldari Navy Heavy Assault Missile Launcher Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Caldari Navy Heavy Assault Missile Launcher Blueprint
   Caldari Navy Rapid Heavy Missile Launcher Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Caldari Navy Rapid Heavy Missile Launcher Blueprint
   Caldari Navy Rocket Launcher Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Caldari Navy Rocket Launcher Blueprint
   Countermeasure Launcher I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Countermeasure Launcher I Blueprint
   Cruise Missile Launcher I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Cruise Missile Launcher I Blueprint
   Cruise Missile Launcher II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Cruise Missile Launcher II Blueprint
   Defender Launcher I Blueprint:
     TechLevel: 1
+    name: Defender Launcher I Blueprint
   Demo Probe Launcher Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Demo Probe Launcher Blueprint
   Domination Heavy Assault Missile Launcher Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Domination Heavy Assault Missile Launcher Blueprint
   Dread Guristas Heavy Assault Missile Launcher Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Dread Guristas Heavy Assault Missile Launcher Blueprint
   Dread Guristas Rapid Torpedo Launcher Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: Dread Guristas Rapid Torpedo Launcher Blueprint
   Dread Guristas XL Cruise Missile Launcher Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: Dread Guristas XL Cruise Missile Launcher Blueprint
   Dread Guristas XL Torpedo Launcher Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: Dread Guristas XL Torpedo Launcher Blueprint
   Heavy Assault Missile Launcher I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Heavy Assault Missile Launcher I Blueprint
   Heavy Assault Missile Launcher II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Heavy Assault Missile Launcher II Blueprint
   Heavy Missile Launcher I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Heavy Missile Launcher I Blueprint
   Heavy Missile Launcher II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Heavy Missile Launcher II Blueprint
   Interdiction Sphere Launcher I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Interdiction Sphere Launcher I Blueprint
   Khanid Navy Heavy Assault Missile Launcher Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Khanid Navy Heavy Assault Missile Launcher Blueprint
   Khanid Navy Rocket Launcher Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Khanid Navy Rocket Launcher Blueprint
   Light Missile Launcher I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Light Missile Launcher I Blueprint
   Light Missile Launcher II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Light Missile Launcher II Blueprint
   N-1 Neon Type Rocket Bay Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: N-1 Neon Type Rocket Bay Blueprint
   Polarized Heavy Assault Missile Launcher Blueprint:
     TechLevel: 2
+    name: Polarized Heavy Assault Missile Launcher Blueprint
   Polarized Rocket Launcher Blueprint:
     TechLevel: 2
+    name: Polarized Rocket Launcher Blueprint
   Polarized Torpedo Launcher Blueprint:
     TechLevel: 2
+    name: Polarized Torpedo Launcher Blueprint
   Rapid Heavy Missile Launcher I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Rapid Heavy Missile Launcher I Blueprint
   Rapid Heavy Missile Launcher II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Rapid Heavy Missile Launcher II Blueprint
   Rapid Light Missile Launcher I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Rapid Light Missile Launcher I Blueprint
   Rapid Light Missile Launcher II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Rapid Light Missile Launcher II Blueprint
   Rapid Torpedo Launcher I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: Rapid Torpedo Launcher I Blueprint
   Rapid Torpedo Launcher II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
+    name: Rapid Torpedo Launcher II Blueprint
   Republic Fleet Cruise Missile Launcher Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Republic Fleet Cruise Missile Launcher Blueprint
   Republic Fleet Heavy Assault Missile Launcher Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Republic Fleet Heavy Assault Missile Launcher Blueprint
   Republic Fleet Rapid Heavy Missile Launcher Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Republic Fleet Rapid Heavy Missile Launcher Blueprint
   Republic Fleet Rocket Launcher Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Republic Fleet Rocket Launcher Blueprint
   Rocket Launcher I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Rocket Launcher I Blueprint
   Rocket Launcher II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Rocket Launcher II Blueprint
   TE-2100 Ample Rapid Torpedo Launcher Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: TE-2100 Ample Rapid Torpedo Launcher Blueprint
   TE-2100 Ample XL Cruise Missile Launcher Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: TE-2100 Ample XL Cruise Missile Launcher Blueprint
   TE-2100 Ample XL Torpedo Launcher Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: TE-2100 Ample XL Torpedo Launcher Blueprint
   Torpedo Launcher I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Torpedo Launcher I Blueprint
   Torpedo Launcher II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Torpedo Launcher II Blueprint
   True Sansha Heavy Assault Missile Launcher Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: True Sansha Heavy Assault Missile Launcher Blueprint
   XL Cruise Missile Launcher I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: XL Cruise Missile Launcher I Blueprint
   XL Cruise Missile Launcher II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
+    name: XL Cruise Missile Launcher II Blueprint
   XL Torpedo Launcher I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: XL Torpedo Launcher I Blueprint
   XL Torpedo Launcher II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
+    name: XL Torpedo Launcher II Blueprint

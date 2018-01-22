@@ -19,6 +19,7 @@ items:
     Speed: 122113
     TechLevel: 1
     TypeColorScheme: 11324
+    name: Arbalest Compact XL Torpedo Launcher
   CONCORD XL Torpedo Launcher:
     ChargeGroup1: 476
     ChargeGroup2: 1677
@@ -41,6 +42,7 @@ items:
     Speed: 111496
     TechLevel: 1
     TypeColorScheme: 20115
+    name: CONCORD XL Torpedo Launcher
   Dread Guristas XL Torpedo Launcher:
     ChargeGroup1: 476
     ChargeGroup2: 1677
@@ -63,6 +65,7 @@ items:
     Speed: 111496
     TechLevel: 1
     TypeColorScheme: 11324
+    name: Dread Guristas XL Torpedo Launcher
   TE-2100 Ample XL Torpedo Launcher:
     ChargeGroup1: 476
     ChargeRate: 1
@@ -83,6 +86,7 @@ items:
     Speed: 122113
     TechLevel: 1
     TypeColorScheme: 11324
+    name: TE-2100 Ample XL Torpedo Launcher
   XL Torpedo Launcher I:
     ChargeGroup1: 476
     ChargeRate: 1
@@ -101,6 +105,7 @@ items:
     Speed: 128230
     TechLevel: 1
     TypeColorScheme: 11324
+    name: XL Torpedo Launcher I
   XL Torpedo Launcher II:
     ChargeGroup1: 476
     ChargeGroup2: 1677
@@ -124,3 +129,4 @@ items:
     Speed: 116561
     TechLevel: 2
     TypeColorScheme: 11324
+    name: XL Torpedo Launcher II

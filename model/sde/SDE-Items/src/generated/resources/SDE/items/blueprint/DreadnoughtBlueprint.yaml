@@ -1,23 +1,34 @@
 items:
   Caiman Blueprint:
     IndustryJobCostMultiplier: 1
+    name: Caiman Blueprint
   Chemosh Blueprint:
     IndustryJobCostMultiplier: 1
+    name: Chemosh Blueprint
   Moros Blueprint:
     IndustryBlueprintRank: 200.0
     IndustryJobCostMultiplier: 1
-  Moros Interbus Edition Blueprint: {}
+    name: Moros Blueprint
+  Moros Interbus Edition Blueprint:
+    name: Moros Interbus Edition Blueprint
   Naglfar Blueprint:
     IndustryBlueprintRank: 200.0
     IndustryJobCostMultiplier: 1
-  Naglfar Justice Edition Blueprint: {}
+    name: Naglfar Blueprint
+  Naglfar Justice Edition Blueprint:
+    name: Naglfar Justice Edition Blueprint
   Phoenix Blueprint:
     IndustryBlueprintRank: 200.0
     IndustryJobCostMultiplier: 1
-  Phoenix Wiyrkomi Edition Blueprint: {}
+    name: Phoenix Blueprint
+  Phoenix Wiyrkomi Edition Blueprint:
+    name: Phoenix Wiyrkomi Edition Blueprint
   Revelation Blueprint:
     IndustryBlueprintRank: 200.0
     IndustryJobCostMultiplier: 1
-  Revelation Sarum Edition Blueprint: {}
+    name: Revelation Blueprint
+  Revelation Sarum Edition Blueprint:
+    name: Revelation Sarum Edition Blueprint
   Vehement Blueprint:
     IndustryJobCostMultiplier: 1
+    name: Vehement Blueprint

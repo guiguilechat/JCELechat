@@ -1,9 +1,17 @@
 items:
-  ♦ Badger: {}
-  ♦ Bestower: {}
-  ♦ Bustard: {}
-  ♦ Impel: {}
-  ♦ Iteron Mark V: {}
-  ♦ Mammoth: {}
-  ♦ Mastodon: {}
-  ♦ Occator: {}
+  ♦ Badger:
+    name: ♦ Badger
+  ♦ Bestower:
+    name: ♦ Bestower
+  ♦ Bustard:
+    name: ♦ Bustard
+  ♦ Impel:
+    name: ♦ Impel
+  ♦ Iteron Mark V:
+    name: ♦ Iteron Mark V
+  ♦ Mammoth:
+    name: ♦ Mammoth
+  ♦ Mastodon:
+    name: ♦ Mastodon
+  ♦ Occator:
+    name: ♦ Occator

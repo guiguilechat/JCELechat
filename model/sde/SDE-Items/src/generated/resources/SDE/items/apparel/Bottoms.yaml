@@ -1,263 +1,388 @@
 items:
   Men's 'Commando' Pants (black wax):
     Gender: 1
+    name: Men's 'Commando' Pants (black wax)
   Men's 'Commando' Pants (black):
     Gender: 1
+    name: Men's 'Commando' Pants (black)
   Men's 'Commando' Pants (blue):
     Gender: 1
+    name: Men's 'Commando' Pants (blue)
   Men's 'Commando' Pants (brown camo):
     Gender: 1
+    name: Men's 'Commando' Pants (brown camo)
   Men's 'Commando' Pants (gold/black):
     Gender: 1
+    name: Men's 'Commando' Pants (gold/black)
   Men's 'Commando' Pants (gray/black):
     Gender: 1
+    name: Men's 'Commando' Pants (gray/black)
   Men's 'Commando' Pants (green camo):
     Gender: 1
+    name: Men's 'Commando' Pants (green camo)
   Men's 'Commando' Pants (red/black):
     Gender: 1
+    name: Men's 'Commando' Pants (red/black)
   Men's 'Hephaestus' Pants (blue):
     Gender: 1
+    name: Men's 'Hephaestus' Pants (blue)
   Men's 'Hephaestus' Pants (cyan):
     Gender: 1
+    name: Men's 'Hephaestus' Pants (cyan)
   Men's 'Hephaestus' Pants (desert):
     Gender: 1
+    name: Men's 'Hephaestus' Pants (desert)
   Men's 'Hephaestus' Pants (gray/orange):
     Gender: 1
+    name: Men's 'Hephaestus' Pants (gray/orange)
   Men's 'Hephaestus' Pants (green):
     Gender: 1
+    name: Men's 'Hephaestus' Pants (green)
   Men's 'Hephaestus' Pants (white/red):
     Gender: 1
+    name: Men's 'Hephaestus' Pants (white/red)
   Men's 'Mirelle' Pants (Upwell):
     Gender: 1
+    name: Men's 'Mirelle' Pants (Upwell)
   Men's 'Outlaw' Pants (Blood Raiders):
     Gender: 1
+    name: Men's 'Outlaw' Pants (Blood Raiders)
   Men's 'Outlaw' Pants (Guristas):
     Gender: 1
+    name: Men's 'Outlaw' Pants (Guristas)
   Men's 'Outlaw' Pants (Sansha's Nation):
     Gender: 1
+    name: Men's 'Outlaw' Pants (Sansha's Nation)
   Men's 'Rider' Pants (black silver):
     Gender: 1
+    name: Men's 'Rider' Pants (black silver)
   Men's 'Rider' Pants (red gold):
     Gender: 1
+    name: Men's 'Rider' Pants (red gold)
   Men's 'Rider' Pants (reflective blue):
     Gender: 1
+    name: Men's 'Rider' Pants (reflective blue)
   Men's 'Rider' Pants (royal gold):
     Gender: 1
+    name: Men's 'Rider' Pants (royal gold)
   Men's 'Rider' Pants (white gold):
     Gender: 1
+    name: Men's 'Rider' Pants (white gold)
   Men's 'Strider' Pants (black):
     Gender: 1
+    name: Men's 'Strider' Pants (black)
   Men's 'Strider' Pants (dark red):
     Gender: 1
+    name: Men's 'Strider' Pants (dark red)
   Men's 'Strider' Pants (graphite):
     Gender: 1
+    name: Men's 'Strider' Pants (graphite)
   Men's 'Strider' Pants (green camo):
     Gender: 1
+    name: Men's 'Strider' Pants (green camo)
   Men's 'Strider' Pants (monochrome):
     Gender: 1
+    name: Men's 'Strider' Pants (monochrome)
   Men's YC119 Yoiul Festival Pants:
     Gender: 2
+    name: Men's YC119 Yoiul Festival Pants
   Women's 'Eternity' Suit (Black/Gold):
     ClothingAlsoCoversCategory: 26
     Gender: 3
+    name: Women's 'Eternity' Suit (Black/Gold)
   Women's 'Eternity' Suit (Black/Red):
     ClothingAlsoCoversCategory: 26
     Gender: 3
+    name: Women's 'Eternity' Suit (Black/Red)
   Women's 'Eternity' Suit (Olive):
     ClothingAlsoCoversCategory: 26
     Gender: 3
+    name: Women's 'Eternity' Suit (Olive)
   Women's 'Eternity' Suit (White):
     ClothingAlsoCoversCategory: 26
     Gender: 3
+    name: Women's 'Eternity' Suit (White)
   Women's 'Eternity' Suit (Yellow):
     ClothingAlsoCoversCategory: 26
     Gender: 3
+    name: Women's 'Eternity' Suit (Yellow)
   Women's 'Excursion' Pants (Blood Raider):
     Gender: 3
+    name: Women's 'Excursion' Pants (Blood Raider)
   Women's 'Excursion' Pants (black):
     Gender: 3
+    name: Women's 'Excursion' Pants (black)
   Women's 'Excursion' Pants (black/blue/gold):
     Gender: 3
+    name: Women's 'Excursion' Pants (black/blue/gold)
   Women's 'Excursion' Pants (black/gold line):
     Gender: 3
+    name: Women's 'Excursion' Pants (black/gold line)
   Women's 'Excursion' Pants (black/gold):
     Gender: 3
+    name: Women's 'Excursion' Pants (black/gold)
   Women's 'Excursion' Pants (black/gray):
     Gender: 3
+    name: Women's 'Excursion' Pants (black/gray)
   Women's 'Excursion' Pants (black/red/gold):
     Gender: 3
+    name: Women's 'Excursion' Pants (black/red/gold)
   Women's 'Excursion' Pants (black/silver):
     Gender: 3
+    name: Women's 'Excursion' Pants (black/silver)
   Women's 'Excursion' Pants (gold):
     Gender: 3
+    name: Women's 'Excursion' Pants (gold)
   Women's 'Excursion' Pants (matte blue):
     Gender: 3
+    name: Women's 'Excursion' Pants (matte blue)
   Women's 'Excursion' Pants (matte green):
     Gender: 3
+    name: Women's 'Excursion' Pants (matte green)
   Women's 'Excursion' Pants (matte red):
     Gender: 3
+    name: Women's 'Excursion' Pants (matte red)
   Women's 'Excursion' Pants (silver):
     Gender: 3
+    name: Women's 'Excursion' Pants (silver)
   Women's 'Hephaestus' Pants (blue):
     Gender: 3
+    name: Women's 'Hephaestus' Pants (blue)
   Women's 'Hephaestus' Pants (cyan):
     Gender: 3
+    name: Women's 'Hephaestus' Pants (cyan)
   Women's 'Hephaestus' Pants (desert):
     Gender: 3
+    name: Women's 'Hephaestus' Pants (desert)
   Women's 'Hephaestus' Pants (gray/orange):
     Gender: 3
+    name: Women's 'Hephaestus' Pants (gray/orange)
   Women's 'Hephaestus' Pants (green):
     Gender: 3
+    name: Women's 'Hephaestus' Pants (green)
   Women's 'Hephaestus' Pants (white/red):
     Gender: 3
+    name: Women's 'Hephaestus' Pants (white/red)
   Women's 'Hover' Tights (black):
     Gender: 3
+    name: Women's 'Hover' Tights (black)
   Women's 'Hover' Tights (light):
     Gender: 3
+    name: Women's 'Hover' Tights (light)
   Women's 'Hover' Tights (matte black):
     Gender: 3
+    name: Women's 'Hover' Tights (matte black)
   Women's 'Hover' Tights (opaque black):
     Gender: 3
+    name: Women's 'Hover' Tights (opaque black)
   Women's 'Hover' Tights (opaque blue):
     Gender: 3
+    name: Women's 'Hover' Tights (opaque blue)
   Women's 'Hover' Tights (opaque gray):
     Gender: 3
+    name: Women's 'Hover' Tights (opaque gray)
   Women's 'Hover' Tights (opaque purple):
     Gender: 3
+    name: Women's 'Hover' Tights (opaque purple)
   Women's 'Hover' Tights (orange):
     Gender: 3
+    name: Women's 'Hover' Tights (orange)
   Women's 'Hover' Tights (pink):
     Gender: 3
+    name: Women's 'Hover' Tights (pink)
   Women's 'Hover' Tights (red):
     Gender: 3
+    name: Women's 'Hover' Tights (red)
   Women's 'Hover' Tights (white):
     Gender: 3
+    name: Women's 'Hover' Tights (white)
   Women's 'Hover' Tights (yellow):
     Gender: 3
+    name: Women's 'Hover' Tights (yellow)
   Women's 'Impress' Skirt (black leather):
     Gender: 3
+    name: Women's 'Impress' Skirt (black leather)
   Women's 'Impress' Skirt (black wax):
     Gender: 3
+    name: Women's 'Impress' Skirt (black wax)
   Women's 'Impress' Skirt (brown leather):
     Gender: 3
+    name: Women's 'Impress' Skirt (brown leather)
   Women's 'Impress' Skirt (graphite):
     Gender: 3
+    name: Women's 'Impress' Skirt (graphite)
   Women's 'Impress' Skirt (gray):
     Gender: 3
+    name: Women's 'Impress' Skirt (gray)
   Women's 'Impress' Skirt (green/gold):
     Gender: 3
+    name: Women's 'Impress' Skirt (green/gold)
   Women's 'Impress' Skirt (marine):
     Gender: 3
+    name: Women's 'Impress' Skirt (marine)
   Women's 'Impress' Skirt (matte black):
     Gender: 3
+    name: Women's 'Impress' Skirt (matte black)
   Women's 'Impress' Skirt (matte blue):
     Gender: 3
+    name: Women's 'Impress' Skirt (matte blue)
   Women's 'Impress' Skirt (matte red):
     Gender: 3
+    name: Women's 'Impress' Skirt (matte red)
   Women's 'Impress' Skirt (red gold):
     Gender: 3
+    name: Women's 'Impress' Skirt (red gold)
   Women's 'Impress' Skirt (silver):
     Gender: 3
+    name: Women's 'Impress' Skirt (silver)
   Women's 'Impress' Skirt (white):
     Gender: 3
+    name: Women's 'Impress' Skirt (white)
   Women's 'Mirelle' Pants (Upwell):
     Gender: 3
+    name: Women's 'Mirelle' Pants (Upwell)
   Women's 'Outlaw' Pants (Blood Raiders):
     Gender: 3
+    name: Women's 'Outlaw' Pants (Blood Raiders)
   Women's 'Outlaw' Pants (Guristas):
     Gender: 3
+    name: Women's 'Outlaw' Pants (Guristas)
   Women's 'Outlaw' Pants (Sansha's Nation):
     Gender: 3
+    name: Women's 'Outlaw' Pants (Sansha's Nation)
   Women's 'Poise' Pants (beige swirl):
     Gender: 3
+    name: Women's 'Poise' Pants (beige swirl)
   Women's 'Poise' Pants (black):
     Gender: 3
+    name: Women's 'Poise' Pants (black)
   Women's 'Poise' Pants (blue):
     Gender: 3
+    name: Women's 'Poise' Pants (blue)
   Women's 'Poise' Pants (cream):
     Gender: 3
+    name: Women's 'Poise' Pants (cream)
   Women's 'Poise' Pants (dark green):
     Gender: 3
+    name: Women's 'Poise' Pants (dark green)
   Women's 'Poise' Pants (dark swirl):
     Gender: 3
+    name: Women's 'Poise' Pants (dark swirl)
   Women's 'Poise' Pants (glossy black):
     Gender: 3
+    name: Women's 'Poise' Pants (glossy black)
   Women's 'Poise' Pants (glossy bronze):
     Gender: 3
+    name: Women's 'Poise' Pants (glossy bronze)
   Women's 'Poise' Pants (glossy red):
     Gender: 3
+    name: Women's 'Poise' Pants (glossy red)
   Women's 'Poise' Pants (red):
     Gender: 3
+    name: Women's 'Poise' Pants (red)
   Women's 'Structure' Skirt (black):
     Gender: 3
+    name: Women's 'Structure' Skirt (black)
   Women's 'Structure' Skirt (black/red):
     Gender: 3
+    name: Women's 'Structure' Skirt (black/red)
   Women's 'Structure' Skirt (black/white):
     Gender: 3
+    name: Women's 'Structure' Skirt (black/white)
   Women's 'Structure' Skirt (blue):
     Gender: 3
+    name: Women's 'Structure' Skirt (blue)
   Women's 'Structure' Skirt (camouflage):
     Gender: 3
+    name: Women's 'Structure' Skirt (camouflage)
   Women's 'Structure' Skirt (graphite):
     Gender: 3
+    name: Women's 'Structure' Skirt (graphite)
   Women's 'Structure' Skirt (gray stripes):
     Gender: 3
+    name: Women's 'Structure' Skirt (gray stripes)
   Women's 'Structure' Skirt (gray):
     Gender: 3
+    name: Women's 'Structure' Skirt (gray)
   Women's 'Structure' Skirt (green stripes):
     Gender: 3
+    name: Women's 'Structure' Skirt (green stripes)
   Women's 'Structure' Skirt (green):
     Gender: 3
+    name: Women's 'Structure' Skirt (green)
   Women's 'Structure' Skirt (green/black):
     Gender: 3
+    name: Women's 'Structure' Skirt (green/black)
   Women's 'Structure' Skirt (khaki):
     Gender: 3
+    name: Women's 'Structure' Skirt (khaki)
   Women's 'Structure' Skirt (marine):
     Gender: 3
+    name: Women's 'Structure' Skirt (marine)
   Women's 'Structure' Skirt (matte black):
     Gender: 3
+    name: Women's 'Structure' Skirt (matte black)
   Women's 'Structure' Skirt (red leather):
     Gender: 3
+    name: Women's 'Structure' Skirt (red leather)
   Women's 'Structure' Skirt (red stripes):
     Gender: 3
+    name: Women's 'Structure' Skirt (red stripes)
   Women's 'Structure' Skirt (red):
     Gender: 3
+    name: Women's 'Structure' Skirt (red)
   Women's 'Structure' Skirt (white stripes):
     Gender: 3
+    name: Women's 'Structure' Skirt (white stripes)
   Women's 'Strut' Pants (black):
     Gender: 3
+    name: Women's 'Strut' Pants (black)
   Women's 'Strut' Pants (blue):
     Gender: 3
+    name: Women's 'Strut' Pants (blue)
   Women's 'Strut' Pants (camo):
     Gender: 3
+    name: Women's 'Strut' Pants (camo)
   Women's 'Strut' Pants (matte gray):
     Gender: 3
+    name: Women's 'Strut' Pants (matte gray)
   Women's 'Strut' Pants (orange):
     Gender: 3
+    name: Women's 'Strut' Pants (orange)
   Women's 'Strut' Pants (red gloss):
     Gender: 3
+    name: Women's 'Strut' Pants (red gloss)
   Women's 'Strut' Pants (red):
     Gender: 3
+    name: Women's 'Strut' Pants (red)
   Women's 'Strut' Pants (yellow gloss):
     Gender: 3
+    name: Women's 'Strut' Pants (yellow gloss)
   Women's YC119 Yoiul Festival Pants:
     Gender: 2
+    name: Women's YC119 Yoiul Festival Pants
   bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_black.type:
     ClothingAlsoCoversCategory: 26
     Gender: 3
+    name: bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_black.type
   bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_blue.type:
     ClothingAlsoCoversCategory: 26
     Gender: 3
+    name: bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_blue.type
   bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_brown.type:
     ClothingAlsoCoversCategory: 26
     Gender: 3
+    name: bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_brown.type
   bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_orange.type:
     ClothingAlsoCoversCategory: 26
     ClothingRemovesCategory: 26
     Gender: 3
+    name: bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_orange.type
   bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_red.type:
     ClothingAlsoCoversCategory: 26
     Gender: 3
+    name: bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_red.type
   bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_stealth.type:
     ClothingAlsoCoversCategory: 26
     Gender: 3
+    name: bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_stealth.type

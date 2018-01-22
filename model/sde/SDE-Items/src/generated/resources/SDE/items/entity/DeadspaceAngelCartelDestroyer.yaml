@@ -1,13 +1,25 @@
 items:
-  Gistior Defacer: {}
-  Gistior Defiler: {}
-  Gistior Domination Defacer: {}
-  Gistior Domination Defiler: {}
-  Gistior Domination Haunter: {}
-  Gistior Domination Seizer: {}
-  Gistior Domination Shatterer: {}
-  Gistior Domination Trasher: {}
-  Gistior Haunter: {}
-  Gistior Seizer: {}
-  Gistior Shatterer: {}
-  Gistior Trasher: {}
+  Gistior Defacer:
+    name: Gistior Defacer
+  Gistior Defiler:
+    name: Gistior Defiler
+  Gistior Domination Defacer:
+    name: Gistior Domination Defacer
+  Gistior Domination Defiler:
+    name: Gistior Domination Defiler
+  Gistior Domination Haunter:
+    name: Gistior Domination Haunter
+  Gistior Domination Seizer:
+    name: Gistior Domination Seizer
+  Gistior Domination Shatterer:
+    name: Gistior Domination Shatterer
+  Gistior Domination Trasher:
+    name: Gistior Domination Trasher
+  Gistior Haunter:
+    name: Gistior Haunter
+  Gistior Seizer:
+    name: Gistior Seizer
+  Gistior Shatterer:
+    name: Gistior Shatterer
+  Gistior Trasher:
+    name: Gistior Trasher

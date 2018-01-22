@@ -17,6 +17,7 @@ items:
     StructureRigPDRangeBonus: 500
     TechLevel: 1
     UpgradeCost: 100
+    name: Standup L-Set Point Defense Battery Control I
   Standup L-Set Point Defense Battery Control II:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -35,3 +36,4 @@ items:
     StructureRigPDRangeBonus: 600
     TechLevel: 2
     UpgradeCost: 150
+    name: Standup L-Set Point Defense Battery Control II

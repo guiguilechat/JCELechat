@@ -1,28 +1,55 @@
 items:
-  Antibiotics: {}
-  Audio Log Backup – 115/11/11 A-0477: {}
-  Audio Log Backup – 117/07/01 G-6640: {}
-  Carbon: {}
-  Convoy Hawk 6 Escort Roster: {}
-  Data Sheets: {}
-  Electronic Parts: {}
-  Garbage: {}
-  Gleaned Information: {}
-  Hardware: {}
-  Holoreel GRS-81A: {}
-  Holoreels: {}
-  Hydrogen Batteries: {}
-  Large Crates of Quafe: {}
-  Manifest – Cargo 118/01/06 – CLEARENCE 1B: {}
-  Medical Report 0401A – 117/01/19: {}
-  Progress Report 0466B – 117/02/28: {}
-  Quafe: {}
-  Quafe Ultra: {}
-  Reports: {}
-  Secure Comms Uplink ALPHA-6: {}
-  Small Arms: {}
-  Soil: {}
-  Spiced Wine: {}
-  Spirits: {}
-  Tobacco: {}
-  Wheat: {}
+  Antibiotics:
+    name: Antibiotics
+  Audio Log Backup – 115/11/11 A-0477:
+    name: Audio Log Backup – 115/11/11 A-0477
+  Audio Log Backup – 117/07/01 G-6640:
+    name: Audio Log Backup – 117/07/01 G-6640
+  Carbon:
+    name: Carbon
+  Convoy Hawk 6 Escort Roster:
+    name: Convoy Hawk 6 Escort Roster
+  Data Sheets:
+    name: Data Sheets
+  Electronic Parts:
+    name: Electronic Parts
+  Garbage:
+    name: Garbage
+  Gleaned Information:
+    name: Gleaned Information
+  Hardware:
+    name: Hardware
+  Holoreel GRS-81A:
+    name: Holoreel GRS-81A
+  Holoreels:
+    name: Holoreels
+  Hydrogen Batteries:
+    name: Hydrogen Batteries
+  Large Crates of Quafe:
+    name: Large Crates of Quafe
+  Manifest – Cargo 118/01/06 – CLEARENCE 1B:
+    name: Manifest – Cargo 118/01/06 – CLEARENCE 1B
+  Medical Report 0401A – 117/01/19:
+    name: Medical Report 0401A – 117/01/19
+  Progress Report 0466B – 117/02/28:
+    name: Progress Report 0466B – 117/02/28
+  Quafe:
+    name: Quafe
+  Quafe Ultra:
+    name: Quafe Ultra
+  Reports:
+    name: Reports
+  Secure Comms Uplink ALPHA-6:
+    name: Secure Comms Uplink ALPHA-6
+  Small Arms:
+    name: Small Arms
+  Soil:
+    name: Soil
+  Spiced Wine:
+    name: Spiced Wine
+  Spirits:
+    name: Spirits
+  Tobacco:
+    name: Tobacco
+  Wheat:
+    name: Wheat

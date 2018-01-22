@@ -1,36 +1,71 @@
 items:
-  5/10 DED Angel Big Boss: {}
-  Colony Captain: {}
-  Control Headquarters: {}
-  Corpus Crimson Commander: {}
-  Dark Corpum Believer: {}
-  Domination Excavator: {}
-  Dread Pithum Vindicator: {}
-  'Exsanguinator ': {}
-  Gistum Domination Racer: {}
-  Gurista Special Acquirement Captain: {}
-  Guristas Distributor: {}
-  Guristas Harlot Procurer: {}
-  Guristas Scout Officer: {}
-  Hive Logistic Captain: {}
-  Hive Overseer: {}
-  Intoxicated Commander: {}
-  Mul-Zatah Gatekeeper: {}
-  Pithatis Speaker: {}
-  Republic Fleet Keeper: {}
-  Rogue Drone Logistic Overseer: {}
-  Rogue Production Captain: {}
-  Sansha Infiltrator: {}
-  Sarpati Family Enforcer: {}
-  Security Coordinator: {}
-  Serpentis Chief of Security: {}
-  Serpentis Drug Carrier: {}
-  Serpentis Refinery Headmaster: {}
-  Shadow Corelum Infantry: {}
-  Slave Ation09: {}
-  TestNPC001: {}
-  The Negotiator: {}
-  Thukker Informant: {}
-  True Centum General: {}
-  True Sansha Foreman: {}
-  Wiyrkomi Head Engineer: {}
+  5/10 DED Angel Big Boss:
+    name: 5/10 DED Angel Big Boss
+  Colony Captain:
+    name: Colony Captain
+  Control Headquarters:
+    name: Control Headquarters
+  Corpus Crimson Commander:
+    name: Corpus Crimson Commander
+  Dark Corpum Believer:
+    name: Dark Corpum Believer
+  Domination Excavator:
+    name: Domination Excavator
+  Dread Pithum Vindicator:
+    name: Dread Pithum Vindicator
+  'Exsanguinator ':
+    name: 'Exsanguinator '
+  Gistum Domination Racer:
+    name: Gistum Domination Racer
+  Gurista Special Acquirement Captain:
+    name: Gurista Special Acquirement Captain
+  Guristas Distributor:
+    name: Guristas Distributor
+  Guristas Harlot Procurer:
+    name: Guristas Harlot Procurer
+  Guristas Scout Officer:
+    name: Guristas Scout Officer
+  Hive Logistic Captain:
+    name: Hive Logistic Captain
+  Hive Overseer:
+    name: Hive Overseer
+  Intoxicated Commander:
+    name: Intoxicated Commander
+  Mul-Zatah Gatekeeper:
+    name: Mul-Zatah Gatekeeper
+  Pithatis Speaker:
+    name: Pithatis Speaker
+  Republic Fleet Keeper:
+    name: Republic Fleet Keeper
+  Rogue Drone Logistic Overseer:
+    name: Rogue Drone Logistic Overseer
+  Rogue Production Captain:
+    name: Rogue Production Captain
+  Sansha Infiltrator:
+    name: Sansha Infiltrator
+  Sarpati Family Enforcer:
+    name: Sarpati Family Enforcer
+  Security Coordinator:
+    name: Security Coordinator
+  Serpentis Chief of Security:
+    name: Serpentis Chief of Security
+  Serpentis Drug Carrier:
+    name: Serpentis Drug Carrier
+  Serpentis Refinery Headmaster:
+    name: Serpentis Refinery Headmaster
+  Shadow Corelum Infantry:
+    name: Shadow Corelum Infantry
+  Slave Ation09:
+    name: Slave Ation09
+  TestNPC001:
+    name: TestNPC001
+  The Negotiator:
+    name: The Negotiator
+  Thukker Informant:
+    name: Thukker Informant
+  True Centum General:
+    name: True Centum General
+  True Sansha Foreman:
+    name: True Sansha Foreman
+  Wiyrkomi Head Engineer:
+    name: Wiyrkomi Head Engineer

@@ -3,23 +3,29 @@ items:
     Hp: 500
     SignatureRadius: 5000
     StructureUniformity: 1.0
+    name: Cargo Container
   Hangar Container:
     Hp: 500000
     SignatureRadius: 5000
     StructureUniformity: 1.0
+    name: Hangar Container
   Large Standard Container:
     Hp: 10
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Large Standard Container
   Medium Standard Container:
     Hp: 10
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Medium Standard Container
   Planetary Launch Container:
     Hp: 500
     SignatureRadius: 5000
     StructureUniformity: 1.0
+    name: Planetary Launch Container
   Small Standard Container:
     Hp: 10
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Small Standard Container

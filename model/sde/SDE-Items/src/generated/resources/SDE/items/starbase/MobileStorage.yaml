@@ -10,6 +10,7 @@ items:
     RequiredSkill1Level: 1
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
+    name: Medium Storage Array
   Small Storage Array:
     AnchoringDelay: 30000
     DisallowOffensiveModifiers: 1
@@ -21,3 +22,4 @@ items:
     RequiredSkill1Level: 1
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
+    name: Small Storage Array

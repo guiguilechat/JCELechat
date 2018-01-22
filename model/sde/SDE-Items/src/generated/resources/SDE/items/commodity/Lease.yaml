@@ -1,7 +1,13 @@
 items:
-  Amarr Empire Starbase Charter: {}
-  Ammatar Mandate Starbase Charter: {}
-  Caldari State Starbase Charter: {}
-  Gallente Federation Starbase Charter: {}
-  Khanid Kingdom Starbase Charter: {}
-  Minmatar Republic Starbase Charter: {}
+  Amarr Empire Starbase Charter:
+    name: Amarr Empire Starbase Charter
+  Ammatar Mandate Starbase Charter:
+    name: Ammatar Mandate Starbase Charter
+  Caldari State Starbase Charter:
+    name: Caldari State Starbase Charter
+  Gallente Federation Starbase Charter:
+    name: Gallente Federation Starbase Charter
+  Khanid Kingdom Starbase Charter:
+    name: Khanid Kingdom Starbase Charter
+  Minmatar Republic Starbase Charter:
+    name: Minmatar Republic Starbase Charter

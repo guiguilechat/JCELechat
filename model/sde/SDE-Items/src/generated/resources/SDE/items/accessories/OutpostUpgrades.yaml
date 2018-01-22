@@ -1,4 +1,7 @@
 items:
-  Rank 1 Upgrade: {}
-  Rank 2 Upgrade: {}
-  Rank 3 Upgrade: {}
+  Rank 1 Upgrade:
+    name: Rank 1 Upgrade
+  Rank 2 Upgrade:
+    name: Rank 2 Upgrade
+  Rank 3 Upgrade:
+    name: Rank 3 Upgrade

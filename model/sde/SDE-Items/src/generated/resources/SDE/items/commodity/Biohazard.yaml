@@ -1,8 +1,15 @@
 items:
-  Barrels Of Viral Agent: {}
-  Confiscated Viral Agent: {}
-  Ectoplasm: {}
-  Hydrochloric Acid: {}
-  Large Crates of Ectoplasm: {}
-  OP Insecticide: {}
-  Potent Viral Agent: {}
+  Barrels Of Viral Agent:
+    name: Barrels Of Viral Agent
+  Confiscated Viral Agent:
+    name: Confiscated Viral Agent
+  Ectoplasm:
+    name: Ectoplasm
+  Hydrochloric Acid:
+    name: Hydrochloric Acid
+  Large Crates of Ectoplasm:
+    name: Large Crates of Ectoplasm
+  OP Insecticide:
+    name: OP Insecticide
+  Potent Viral Agent:
+    name: Potent Viral Agent

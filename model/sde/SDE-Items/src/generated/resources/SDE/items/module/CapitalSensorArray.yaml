@@ -22,3 +22,4 @@ items:
     ScanRadarStrengthPercent: 50
     ScanResolutionBonus: 500.0
     TechLevel: 1
+    name: Networked Sensor Array

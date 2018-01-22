@@ -1,5 +1,9 @@
 items:
-  Basic Decryptor2: {}
-  Complex Decryptor_test: {}
-  Enhanced Decryptor1: {}
-  Hacked Decryptor Key: {}
+  Basic Decryptor2:
+    name: Basic Decryptor2
+  Complex Decryptor_test:
+    name: Complex Decryptor_test
+  Enhanced Decryptor1:
+    name: Enhanced Decryptor1
+  Hacked Decryptor Key:
+    name: Hacked Decryptor Key

@@ -1,6 +1,11 @@
 items:
-  Mordus Fleet Commander: {}
-  Mordus Gigamar: {}
-  Mordus Mammoth: {}
-  Mordus Phanti: {}
-  Mordus Sequestor: {}
+  Mordus Fleet Commander:
+    name: Mordus Fleet Commander
+  Mordus Gigamar:
+    name: Mordus Gigamar
+  Mordus Mammoth:
+    name: Mordus Mammoth
+  Mordus Phanti:
+    name: Mordus Phanti
+  Mordus Sequestor:
+    name: Mordus Sequestor

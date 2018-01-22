@@ -2,15 +2,20 @@ items:
   Base Metals:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Base Metals
   Felsic Magma:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Felsic Magma
   Heavy Metals:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Heavy Metals
   Noble Metals:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Noble Metals
   Non-CS Crystals:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Non-CS Crystals

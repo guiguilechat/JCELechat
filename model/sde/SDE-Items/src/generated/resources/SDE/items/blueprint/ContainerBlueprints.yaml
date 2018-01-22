@@ -1,41 +1,61 @@
 items:
   Enormous Freight Container Blueprint:
     IndustryBlueprintRank: 5.0
+    name: Enormous Freight Container Blueprint
   Giant Freight Container Blueprint:
     IndustryBlueprintRank: 4.0
+    name: Giant Freight Container Blueprint
   Giant Secure Container Blueprint:
     IndustryBlueprintRank: 4.0
+    name: Giant Secure Container Blueprint
   Huge Freight Container Blueprint:
     IndustryBlueprintRank: 4.0
+    name: Huge Freight Container Blueprint
   Huge Secure Container Blueprint:
     IndustryBlueprintRank: 5.0
+    name: Huge Secure Container Blueprint
   Large Audit Log Secure Container Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Large Audit Log Secure Container Blueprint
   Large Freight Container Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Large Freight Container Blueprint
   Large Secure Container Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Large Secure Container Blueprint
   Large Standard Container Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Large Standard Container Blueprint
   Medium Audit Log Secure Container Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Medium Audit Log Secure Container Blueprint
   Medium Freight Container Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Medium Freight Container Blueprint
   Medium Secure Container Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Medium Secure Container Blueprint
   Medium Standard Container Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Medium Standard Container Blueprint
   Small Audit Log Secure Container Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Small Audit Log Secure Container Blueprint
   Small Freight Container Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Small Freight Container Blueprint
   Small Secure Container Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Small Secure Container Blueprint
   Small Standard Container Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Small Standard Container Blueprint
   Station Container Blueprint:
     IndustryBlueprintRank: 5.0
+    name: Station Container Blueprint
   Station Vault Container Blueprint:
     IndustryBlueprintRank: 5.0
+    name: Station Vault Container Blueprint
   Station Warehouse Container Blueprint:
     IndustryBlueprintRank: 5.0
+    name: Station Warehouse Container Blueprint

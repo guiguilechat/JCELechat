@@ -1,3 +1,5 @@
 items:
-  Hyasyoda Research Lab Technical Data Chip: {}
-  Thukker Capital Component Manufacturing Technical Data Chip: {}
+  Hyasyoda Research Lab Technical Data Chip:
+    name: Hyasyoda Research Lab Technical Data Chip
+  Thukker Capital Component Manufacturing Technical Data Chip:
+    name: Thukker Capital Component Manufacturing Technical Data Chip

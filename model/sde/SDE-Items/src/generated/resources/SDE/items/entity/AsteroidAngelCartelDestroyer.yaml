@@ -1,7 +1,13 @@
 items:
-  Angel Defacer: {}
-  Angel Defiler: {}
-  Angel Haunter: {}
-  Angel Seizer: {}
-  Angel Shatterer: {}
-  Angel Trasher: {}
+  Angel Defacer:
+    name: Angel Defacer
+  Angel Defiler:
+    name: Angel Defiler
+  Angel Haunter:
+    name: Angel Haunter
+  Angel Seizer:
+    name: Angel Seizer
+  Angel Shatterer:
+    name: Angel Shatterer
+  Angel Trasher:
+    name: Angel Trasher

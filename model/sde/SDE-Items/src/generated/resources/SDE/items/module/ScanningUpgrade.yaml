@@ -7,6 +7,7 @@ items:
     RequiredSkill1: 25810
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Scan Pinpointing Array I
   Scan Pinpointing Array II:
     Cpu: 30.0
     Hp: 40
@@ -16,6 +17,7 @@ items:
     RequiredSkill1: 25810
     RequiredSkill1Level: 5
     TechLevel: 2
+    name: Scan Pinpointing Array II
   Scan Rangefinding Array I:
     Cpu: 30.0
     Hp: 40
@@ -24,6 +26,7 @@ items:
     RequiredSkill1Level: 2
     ScanStrengthBonusModule: 5
     TechLevel: 1
+    name: Scan Rangefinding Array I
   Scan Rangefinding Array II:
     Cpu: 30.0
     Hp: 40
@@ -34,3 +37,4 @@ items:
     ScanStrengthBonus: 10
     ScanStrengthBonusModule: 10
     TechLevel: 2
+    name: Scan Rangefinding Array II

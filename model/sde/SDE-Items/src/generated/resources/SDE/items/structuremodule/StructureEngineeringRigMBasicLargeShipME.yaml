@@ -16,6 +16,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    name: Standup M-Set Basic Large Ship Manufacturing Material Efficiency I
   Standup M-Set Basic Large Ship Manufacturing Material Efficiency II:
     AttributeEngRigMatBonus: -2.4000000953674316
     CanFitShipGroup01: 1657
@@ -35,3 +36,4 @@ items:
     StructureRigBonus2: 3.200000047683716
     TechLevel: 2
     UpgradeCost: 150
+    name: Standup M-Set Basic Large Ship Manufacturing Material Efficiency II

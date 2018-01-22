@@ -1,93 +1,185 @@
 items:
-  QA Wormhole A: {}
-  QA Wormhole B: {}
-  Wormhole A009: {}
-  Wormhole A239: {}
-  Wormhole A641: {}
-  Wormhole A982: {}
-  Wormhole B041: {}
-  Wormhole B274: {}
-  Wormhole B449: {}
-  Wormhole B520: {}
-  Wormhole B735: {}
-  Wormhole C008: {}
-  Wormhole C125: {}
-  Wormhole C140: {}
-  Wormhole C247: {}
-  Wormhole C248: {}
-  Wormhole C391: {}
-  Wormhole C414: {}
-  Wormhole D364: {}
-  Wormhole D382: {}
-  Wormhole D792: {}
-  Wormhole D845: {}
-  Wormhole E004: {}
-  Wormhole E175: {}
-  Wormhole E545: {}
-  Wormhole E587: {}
-  Wormhole F135: {}
-  Wormhole F353: {}
-  Wormhole G008: {}
-  Wormhole G024: {}
-  Wormhole H121: {}
-  Wormhole H296: {}
-  Wormhole H900: {}
-  Wormhole I182: {}
-  Wormhole J244: {}
-  Wormhole K162: {}
-  Wormhole K329: {}
-  Wormhole K346: {}
-  Wormhole L005: {}
-  Wormhole L031: {}
-  Wormhole L477: {}
-  Wormhole L614: {}
-  Wormhole M001: {}
-  Wormhole M164: {}
-  Wormhole M267: {}
-  Wormhole M555: {}
-  Wormhole M609: {}
-  Wormhole N062: {}
-  Wormhole N110: {}
-  Wormhole N290: {}
-  Wormhole N432: {}
-  Wormhole N766: {}
-  Wormhole N770: {}
-  Wormhole N944: {}
-  Wormhole N968: {}
-  Wormhole O128: {}
-  Wormhole O477: {}
-  Wormhole O883: {}
-  Wormhole P060: {}
-  Wormhole Q003: {}
-  Wormhole Q063: {}
-  Wormhole Q317: {}
-  Wormhole R051: {}
-  Wormhole R259: {}
-  Wormhole R474: {}
-  Wormhole R943: {}
-  Wormhole S047: {}
-  Wormhole S199: {}
-  Wormhole S804: {}
-  Wormhole S877: {}
-  Wormhole T405: {}
-  Wormhole T458: {}
-  Wormhole U210: {}
-  Wormhole U319: {}
-  Wormhole U574: {}
-  Wormhole V283: {}
-  Wormhole V301: {}
-  Wormhole V753: {}
-  Wormhole V898: {}
-  Wormhole V911: {}
-  Wormhole V928: {}
-  Wormhole W237: {}
-  Wormhole X702: {}
-  Wormhole X877: {}
-  Wormhole Y683: {}
-  Wormhole Y790: {}
-  Wormhole Z006: {}
-  Wormhole Z060: {}
-  Wormhole Z142: {}
-  Wormhole Z457: {}
-  Wormhole Z647: {}
-  Wormhole Z971: {}
+  QA Wormhole A:
+    name: QA Wormhole A
+  QA Wormhole B:
+    name: QA Wormhole B
+  Wormhole A009:
+    name: Wormhole A009
+  Wormhole A239:
+    name: Wormhole A239
+  Wormhole A641:
+    name: Wormhole A641
+  Wormhole A982:
+    name: Wormhole A982
+  Wormhole B041:
+    name: Wormhole B041
+  Wormhole B274:
+    name: Wormhole B274
+  Wormhole B449:
+    name: Wormhole B449
+  Wormhole B520:
+    name: Wormhole B520
+  Wormhole B735:
+    name: Wormhole B735
+  Wormhole C008:
+    name: Wormhole C008
+  Wormhole C125:
+    name: Wormhole C125
+  Wormhole C140:
+    name: Wormhole C140
+  Wormhole C247:
+    name: Wormhole C247
+  Wormhole C248:
+    name: Wormhole C248
+  Wormhole C391:
+    name: Wormhole C391
+  Wormhole C414:
+    name: Wormhole C414
+  Wormhole D364:
+    name: Wormhole D364
+  Wormhole D382:
+    name: Wormhole D382
+  Wormhole D792:
+    name: Wormhole D792
+  Wormhole D845:
+    name: Wormhole D845
+  Wormhole E004:
+    name: Wormhole E004
+  Wormhole E175:
+    name: Wormhole E175
+  Wormhole E545:
+    name: Wormhole E545
+  Wormhole E587:
+    name: Wormhole E587
+  Wormhole F135:
+    name: Wormhole F135
+  Wormhole F353:
+    name: Wormhole F353
+  Wormhole G008:
+    name: Wormhole G008
+  Wormhole G024:
+    name: Wormhole G024
+  Wormhole H121:
+    name: Wormhole H121
+  Wormhole H296:
+    name: Wormhole H296
+  Wormhole H900:
+    name: Wormhole H900
+  Wormhole I182:
+    name: Wormhole I182
+  Wormhole J244:
+    name: Wormhole J244
+  Wormhole K162:
+    name: Wormhole K162
+  Wormhole K329:
+    name: Wormhole K329
+  Wormhole K346:
+    name: Wormhole K346
+  Wormhole L005:
+    name: Wormhole L005
+  Wormhole L031:
+    name: Wormhole L031
+  Wormhole L477:
+    name: Wormhole L477
+  Wormhole L614:
+    name: Wormhole L614
+  Wormhole M001:
+    name: Wormhole M001
+  Wormhole M164:
+    name: Wormhole M164
+  Wormhole M267:
+    name: Wormhole M267
+  Wormhole M555:
+    name: Wormhole M555
+  Wormhole M609:
+    name: Wormhole M609
+  Wormhole N062:
+    name: Wormhole N062
+  Wormhole N110:
+    name: Wormhole N110
+  Wormhole N290:
+    name: Wormhole N290
+  Wormhole N432:
+    name: Wormhole N432
+  Wormhole N766:
+    name: Wormhole N766
+  Wormhole N770:
+    name: Wormhole N770
+  Wormhole N944:
+    name: Wormhole N944
+  Wormhole N968:
+    name: Wormhole N968
+  Wormhole O128:
+    name: Wormhole O128
+  Wormhole O477:
+    name: Wormhole O477
+  Wormhole O883:
+    name: Wormhole O883
+  Wormhole P060:
+    name: Wormhole P060
+  Wormhole Q003:
+    name: Wormhole Q003
+  Wormhole Q063:
+    name: Wormhole Q063
+  Wormhole Q317:
+    name: Wormhole Q317
+  Wormhole R051:
+    name: Wormhole R051
+  Wormhole R259:
+    name: Wormhole R259
+  Wormhole R474:
+    name: Wormhole R474
+  Wormhole R943:
+    name: Wormhole R943
+  Wormhole S047:
+    name: Wormhole S047
+  Wormhole S199:
+    name: Wormhole S199
+  Wormhole S804:
+    name: Wormhole S804
+  Wormhole S877:
+    name: Wormhole S877
+  Wormhole T405:
+    name: Wormhole T405
+  Wormhole T458:
+    name: Wormhole T458
+  Wormhole U210:
+    name: Wormhole U210
+  Wormhole U319:
+    name: Wormhole U319
+  Wormhole U574:
+    name: Wormhole U574
+  Wormhole V283:
+    name: Wormhole V283
+  Wormhole V301:
+    name: Wormhole V301
+  Wormhole V753:
+    name: Wormhole V753
+  Wormhole V898:
+    name: Wormhole V898
+  Wormhole V911:
+    name: Wormhole V911
+  Wormhole V928:
+    name: Wormhole V928
+  Wormhole W237:
+    name: Wormhole W237
+  Wormhole X702:
+    name: Wormhole X702
+  Wormhole X877:
+    name: Wormhole X877
+  Wormhole Y683:
+    name: Wormhole Y683
+  Wormhole Y790:
+    name: Wormhole Y790
+  Wormhole Z006:
+    name: Wormhole Z006
+  Wormhole Z060:
+    name: Wormhole Z060
+  Wormhole Z142:
+    name: Wormhole Z142
+  Wormhole Z457:
+    name: Wormhole Z457
+  Wormhole Z647:
+    name: Wormhole Z647
+  Wormhole Z971:
+    name: Wormhole Z971

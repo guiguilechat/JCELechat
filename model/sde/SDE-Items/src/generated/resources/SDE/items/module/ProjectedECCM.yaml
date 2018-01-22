@@ -17,6 +17,7 @@ items:
     ScanMagnetometricStrengthPercent: 100
     ScanRadarStrengthPercent: 100
     TechLevel: 1
+    name: ECCM Projector I
   ECCM Projector II:
     CapacitorNeed: 22.0
     Duration: 10000.0
@@ -36,6 +37,7 @@ items:
     ScanMagnetometricStrengthPercent: 120
     ScanRadarStrengthPercent: 120
     TechLevel: 2
+    name: ECCM Projector II
   Phased Muon ECCM Caster I:
     CapacitorNeed: 16.0
     Duration: 10000.0
@@ -55,6 +57,7 @@ items:
     ScanMagnetometricStrengthPercent: 120
     ScanRadarStrengthPercent: 120
     TechLevel: 1
+    name: Phased Muon ECCM Caster I
   Piercing ECCM Emitter I:
     CapacitorNeed: 18.0
     Duration: 10000.0
@@ -74,6 +77,7 @@ items:
     ScanMagnetometricStrengthPercent: 110
     ScanRadarStrengthPercent: 110
     TechLevel: 1
+    name: Piercing ECCM Emitter I
   Scattering ECCM Projector I:
     CapacitorNeed: 19.0
     Duration: 10000.0
@@ -93,6 +97,7 @@ items:
     ScanMagnetometricStrengthPercent: 105
     ScanRadarStrengthPercent: 105
     TechLevel: 1
+    name: Scattering ECCM Projector I
   Spot Pulsing ECCM I:
     CapacitorNeed: 17.0
     Duration: 10000.0
@@ -112,3 +117,4 @@ items:
     ScanMagnetometricStrengthPercent: 115
     ScanRadarStrengthPercent: 115
     TechLevel: 1
+    name: Spot Pulsing ECCM I

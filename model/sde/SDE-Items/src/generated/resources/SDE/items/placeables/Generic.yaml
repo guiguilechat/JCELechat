@@ -1,3 +1,5 @@
 items:
-  Dummy Ship Lookat Object: {}
-  Station Logo: {}
+  Dummy Ship Lookat Object:
+    name: Dummy Ship Lookat Object
+  Station Logo:
+    name: Station Logo

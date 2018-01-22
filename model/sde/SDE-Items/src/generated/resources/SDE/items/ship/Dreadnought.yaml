@@ -106,6 +106,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    name: Caiman
   Chemosh:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -212,6 +213,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    name: Chemosh
   Moros:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -312,6 +314,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    name: Moros
   Moros Interbus Edition:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -348,6 +351,7 @@ items:
     ThermalDamageResonance: 1.0
     WarpSpeedMultiplier: 3.0
     WeaponDisruptionResistance: 1.0
+    name: Moros Interbus Edition
   Naglfar:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -448,6 +452,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    name: Naglfar
   Naglfar Justice Edition:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -484,6 +489,7 @@ items:
     ThermalDamageResonance: 1.0
     WarpSpeedMultiplier: 3.0
     WeaponDisruptionResistance: 1.0
+    name: Naglfar Justice Edition
   Phoenix:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -584,6 +590,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    name: Phoenix
   Phoenix Wiyrkomi Edition:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -620,6 +627,7 @@ items:
     ThermalDamageResonance: 1.0
     WarpSpeedMultiplier: 3.0
     WeaponDisruptionResistance: 1.0
+    name: Phoenix Wiyrkomi Edition
   Revelation:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -720,6 +728,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    name: Revelation
   Revelation Sarum Edition:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -756,6 +765,7 @@ items:
     ThermalDamageResonance: 1.0
     WarpSpeedMultiplier: 3.0
     WeaponDisruptionResistance: 1.0
+    name: Revelation Sarum Edition
   Vehement:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -860,3 +870,4 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    name: Vehement

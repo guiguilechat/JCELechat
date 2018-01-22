@@ -1,546 +1,1091 @@
 items:
-  '''Agema'' Basic-M gk.0': {}
-  '''Alcyon'' Basic-H G/I+': {}
-  '''Anasoma'' Sentinel A-I': {}
-  '''Anasoma'' Sentinel A/1-Series': {}
-  '''Anasoma'' Sentinel ak.0': {}
-  '''Aoide'' Basic-L G/I': {}
-  '''Aventail'' Basic-H A-I': {}
-  '''Basilo'' Basic-H M-I': {}
-  '''Behemoth'' Sentinel A-I+': {}
-  '''Black Eagle'' Scout G/1-Series': {}
-  '''Brutor'' Commando M-I': {}
-  '''Brutor'' Logistics M-I': {}
-  '''CQC'' Scout G-I': {}
-  '''Calliope'' Basic-L gk.0': {}
-  '''Carbon'' Assault C-I': {}
-  '''Carbon'' Assault C/1-Series': {}
-  '''Carbon'' Assault ck.0': {}
-  '''Celeus'' Assault gk.0': {}
-  '''Colossus'' Sentinel A-I': {}
-  '''Colossus'' Sentinel A/1-Series': {}
-  '''Colossus'' Sentinel ak.0': {}
-  '''Covenant'' Assault C-I': {}
-  '''Cuirass'' Basic-H ak.0': {}
-  '''Dorudon'' Basic-H M/I': {}
-  '''Dragonfly'' Assault [nSv]': {}
-  '''Dragonfly'' Scout [nSv]': {}
-  '''Dren'' Assault C-I': {}
-  '''Dren'' Logistics M-I': {}
-  '''Dren'' Scout G-I': {}
-  '''Dren'' Sentinel A-I': {}
-  '''Egil'' Basic-M mk.0': {}
-  '''Enkidu'' Sentinel G-I+': {}
-  '''Eon'' Militia Amarr Heavy Frame': {}
-  '''Eon'' Sentinel A-I': {}
-  '''Federal Marine'' Assault G/1-Series': {}
-  '''Federal Marine'' Assault gk.0': {}
-  '''Firebrand'' Assault C-I': {}
-  '''Firebrand'' Assault C/1-Series': {}
-  '''Firebrand'' Assault ck.0': {}
-  '''Flying Scotsman'' Assault ck.0': {}
-  '''Forseti'' Assault mk.0': {}
-  '''Fossil'' Logistics M-I': {}
-  '''Fossil'' Militia Minmatar Medium Frame': {}
-  '''Foxfour'' Assault G-I': {}
-  '''Grettir'' Basic-M M-I': {}
-  '''Guruwa'' Basic-H C-I': {}
-  '''Halberd'' Basic-L A-I': {}
-  '''Harbinger'' Amarr Medium Frame A-I': {}
-  '''Hastati'' Basic-M A-I': {}
-  '''Hazard'' Logistics M-I': {}
-  '''Hazard'' Logistics M/1-Series': {}
-  '''Hazard'' Logistics mk.0': {}
-  '''Hecaton'' Basic-H G-I': {}
-  '''Hellmar'' Sentinel ak.0': {}
-  '''Hermod'' Assault mk.0+': {}
-  '''Hunter'' Scout G-I': {}
-  '''Imperial Guard'' Assault A/1-Series': {}
-  '''Imperial Guard'' Assault ak.0': {}
-  '''Izanami'' Sentinel C-I+': {}
-  '''Jokul'' Basic-M M-I': {}
-  '''Jord'' Basic-L M/I': {}
-  '''Jotunn'' Sentinel M-I+': {}
-  '''Kaalakiota'' Assault C-I': {}
-  '''Kaalakiota'' Scout C-I': {}
-  '''Kakali'' Basic-M mk.0+': {}
-  '''Kari'' Basic-M M/I': {}
-  '''Kindred'' Scout G-I': {}
-  '''Kindred'' Scout G/1-Series': {}
-  '''Kindred'' Scout gk.0': {}
-  '''Kote'' Basic-H C/I': {}
-  '''Kullervo'' Basic-M C-I': {}
-  '''Legio'' Basic-M ak.0': {}
-  '''Lempo'' Basic-L C/I': {}
-  '''Loceros'' Basic-H mk.0': {}
-  '''Logicloop'' Scout M-I': {}
-  '''Magni'' Assault M-I+': {}
-  '''Malik'' Assault ak.0+': {}
-  '''Marras'' Basic-M ck.0': {}
-  '''Mauler'' Sentinel A-I': {}
-  '''Melete'' Basic-L G-I': {}
-  '''Memnon'' Assault G-I+': {}
-  '''Menpo'' Basic-H ck.0': {}
-  '''Mimas'' Basic-H G/I': {}
-  '''Modi'' Assault M/I+': {}
-  '''Nakir'' Assault ak.0': {}
-  '''Neo'' Assault A-I': {}
-  '''Neo'' Assault A/1-Series': {}
-  '''Neo'' Assault C-I': {}
-  '''Neo'' Assault C/1-Series': {}
-  '''Neo'' Assault G-I': {}
-  '''Neo'' Assault G/1-Series': {}
-  '''Neo'' Assault M-I': {}
-  '''Neo'' Assault M/1-Series': {}
-  '''Neo'' Assault ak.0': {}
-  '''Neo'' Assault ck.0': {}
-  '''Neo'' Assault gk.0': {}
-  '''Neo'' Assault mk.0': {}
-  '''Neo'' Commando A-I': {}
-  '''Neo'' Commando A/1-Series': {}
-  '''Neo'' Commando C-I': {}
-  '''Neo'' Commando C/1-Series': {}
-  '''Neo'' Commando G-I': {}
-  '''Neo'' Commando G/1-Series': {}
-  '''Neo'' Commando M-I': {}
-  '''Neo'' Commando M/1-Series': {}
-  '''Neo'' Commando ak.0': {}
-  '''Neo'' Commando ck.0': {}
-  '''Neo'' Commando gk.0': {}
-  '''Neo'' Commando mk.0': {}
-  '''Neo'' Logistics A-I': {}
-  '''Neo'' Logistics A/1-Series': {}
-  '''Neo'' Logistics C-I': {}
-  '''Neo'' Logistics C/1-Series': {}
-  '''Neo'' Logistics G-I': {}
-  '''Neo'' Logistics G/1-Series': {}
-  '''Neo'' Logistics M-I': {}
-  '''Neo'' Logistics M/1-Series': {}
-  '''Neo'' Logistics ak.0': {}
-  '''Neo'' Logistics ck.0': {}
-  '''Neo'' Logistics gk.0': {}
-  '''Neo'' Logistics mk.0': {}
-  '''Neo'' Pilot G-I': {}
-  '''Neo'' Pilot G/1-Series': {}
-  '''Neo'' Pilot M-I': {}
-  '''Neo'' Pilot M/1-Series': {}
-  '''Neo'' Pilot gk.0': {}
-  '''Neo'' Pilot mk.0': {}
-  '''Neo'' Scout A-I': {}
-  '''Neo'' Scout A/1-Series': {}
-  '''Neo'' Scout C-I': {}
-  '''Neo'' Scout C/1-Series': {}
-  '''Neo'' Scout G-I': {}
-  '''Neo'' Scout G/1-Series': {}
-  '''Neo'' Scout M-I': {}
-  '''Neo'' Scout M/1-Series': {}
-  '''Neo'' Scout ak.0': {}
-  '''Neo'' Scout ck.0': {}
-  '''Neo'' Scout gk.0': {}
-  '''Neo'' Scout mk.0': {}
-  '''Neo'' Sentinel A-I': {}
-  '''Neo'' Sentinel A/1-Series': {}
-  '''Neo'' Sentinel C-I': {}
-  '''Neo'' Sentinel C/1-Series': {}
-  '''Neo'' Sentinel G-I': {}
-  '''Neo'' Sentinel G/1-Series': {}
-  '''Neo'' Sentinel M-I': {}
-  '''Neo'' Sentinel M/1-Series': {}
-  '''Neo'' Sentinel ak.0': {}
-  '''Neo'' Sentinel ck.0': {}
-  '''Neo'' Sentinel gk.0': {}
-  '''Neo'' Sentinel mk.0': {}
-  '''Numeri'' Basic-M A-I': {}
-  '''Oblivion'' Logistics M-I': {}
-  '''Oblivion'' Logistics M/1-Series': {}
-  '''Oblivion'' Logistics mk.0': {}
-  '''Orchid'' Assault C-I': {}
-  '''Origin'' Assault C-I': {}
-  '''Origin'' Logistics M-I': {}
-  '''Partisan'' Basic-L A/I': {}
-  '''Perkele'' Basic-L ck.0': {}
-  '''Phalanx'' Basic-M G/I': {}
-  '''Piru'' Basic-L C-I': {}
-  '''Primordial'' Assault C-I': {}
-  '''Primordial'' Militia Caldari Medium Frame': {}
-  '''Principe'' Basic-M A/I': {}
-  '''Pyrus'' Assault A-I': {}
-  '''Pyrus'' Assault A/1-Series': {}
-  '''Pyrus'' Assault C-I': {}
-  '''Pyrus'' Assault C/1-Series': {}
-  '''Pyrus'' Assault G-I': {}
-  '''Pyrus'' Assault G/1-Series': {}
-  '''Pyrus'' Assault M-I': {}
-  '''Pyrus'' Assault M/1-Series': {}
-  '''Pyrus'' Assault ak.0': {}
-  '''Pyrus'' Assault ck.0': {}
-  '''Pyrus'' Assault gk.0': {}
-  '''Pyrus'' Assault mk.0': {}
-  '''Pyrus'' Commando A-I': {}
-  '''Pyrus'' Commando A/1-Series': {}
-  '''Pyrus'' Commando ak.0': {}
-  '''Pyrus'' Logistics A-I': {}
-  '''Pyrus'' Logistics A/1-Series': {}
-  '''Pyrus'' Logistics C-I': {}
-  '''Pyrus'' Logistics C/1-Series': {}
-  '''Pyrus'' Logistics G-I': {}
-  '''Pyrus'' Logistics G/1-Series': {}
-  '''Pyrus'' Logistics M-I': {}
-  '''Pyrus'' Logistics M/1-Series': {}
-  '''Pyrus'' Logistics ak.0': {}
-  '''Pyrus'' Logistics ck.0': {}
-  '''Pyrus'' Logistics gk.0': {}
-  '''Pyrus'' Logistics mk.0': {}
-  '''Pyrus'' Scout G-I': {}
-  '''Pyrus'' Scout G/1-Series': {}
-  '''Pyrus'' Scout M-I': {}
-  '''Pyrus'' Scout M/1-Series': {}
-  '''Pyrus'' Scout gk.0': {}
-  '''Pyrus'' Scout mk.0': {}
-  '''Pyrus'' Sentinel A-I': {}
-  '''Pyrus'' Sentinel A/1-Series': {}
-  '''Pyrus'' Sentinel ak.0': {}
-  '''Quafe'' Assault A-I': {}
-  '''Quafe'' Assault C-I': {}
-  '''Quafe'' Assault C/1-Series': {}
-  '''Quafe'' Assault G-I': {}
-  '''Quafe'' Assault M-I': {}
-  '''Quafe'' Assault ck.0': {}
-  '''Quafe'' Commando A-I': {}
-  '''Quafe'' Commando C-I': {}
-  '''Quafe'' Commando G-I': {}
-  '''Quafe'' Commando M-I': {}
-  '''Quafe'' Logistics A-I': {}
-  '''Quafe'' Logistics C-I': {}
-  '''Quafe'' Logistics G-I': {}
-  '''Quafe'' Logistics M-I': {}
-  '''Quafe'' Scout A-I': {}
-  '''Quafe'' Scout C-I': {}
-  '''Quafe'' Scout G-I': {}
-  '''Quafe'' Scout M-I': {}
-  '''Quafe'' Scout gk.0': {}
-  '''Quafe'' Sentinel A-I': {}
-  '''Quafe'' Sentinel C-I': {}
-  '''Quafe'' Sentinel G-I': {}
-  '''Quafe'' Sentinel M-I': {}
-  '''Raider'' Scout G-I': {}
-  '''Ranseur'' Basic-L ak.0': {}
-  '''Rattati'' Assault G/1-Series': {}
-  '''Raven'' Assault C-I': {}
-  '''Raven'' Logistics M-I': {}
-  '''Raven'' Scout G-I': {}
-  '''Raven'' Sentinel A-I': {}
-  '''Relic'' Assault C-I': {}
-  '''Relic'' Assault C/1-Series': {}
-  '''Relic'' Assault ck.0': {}
-  '''Remnant IX'' Logistics mk.0': {}
-  '''Republic Command'' Assault M/1-Series': {}
-  '''Republic Command'' Assault mk.0': {}
-  '''Roden'' Commando G-I': {}
-  '''Roden'' Scout G-I': {}
-  '''Sarak'' Assault A-I+': {}
-  '''Sever'' Assault C-I': {}
-  '''Sever'' Logistics M-I': {}
-  '''Sever'' Scout G-I': {}
-  '''Sever'' Sentinel A-I': {}
-  '''Skadi'' Basic-L M-I': {}
-  '''Skinweave'' Militia Amarr Heavy Frame': {}
-  '''Skinweave'' Militia Caldari Medium Frame': {}
-  '''Skinweave'' Militia Gallente Light Frame': {}
-  '''Skinweave'' Militia Minmatar Medium Frame': {}
-  '''Sol'' Basic-L mk.0': {}
-  '''Solstice'' Scout G-I': {}
-  '''Solstice'' Scout G/1-Series': {}
-  '''Solstice'' Scout gk.0': {}
-  '''Stahl'' Assault C-I': {}
-  '''Stallo'' Assault ck.0+': {}
-  '''Starkad'' Basic-M M/I+': {}
-  '''State Peacekeeper'' Assault C/1-Series': {}
-  '''State Peacekeeper'' Assault ck.0': {}
-  '''Tarapitha'' Basic-M C/I': {}
-  '''Tash Murkon'' Logistics A-I': {}
-  '''Tash Murkon'' Sentinel A-I': {}
-  '''Templar'' Assault A-I': {}
-  '''Templar'' Logistics A-I': {}
-  '''Templar'' Sentinel A-I': {}
-  '''Thale'' Militia Gallente Light Frame': {}
-  '''Thale'' Scout G-I': {}
-  '''Theseus'' Assault gk.0+': {}
-  '''Thrud'' Assault M-I': {}
-  '''Tigris'' Sentinel A-I': {}
-  '''Toxotai'' Basic-M G-I': {}
-  '''Triari'' Basic-M ak.0': {}
-  '''Tuoni'' Assault ck.0': {}
-  '''Ukko'' Assault C-I+': {}
-  '''Valor'' Assault C-I': {}
-  '''Valor'' Logistics M-I': {}
-  '''Valor'' Scout G-I': {}
-  '''Valor'' Sentinel A-I': {}
-  '''Vambrace'' Basic-H A/I': {}
-  '''Venom'' Militia Amarr Heavy Frame': {}
-  '''Venom'' Sentinel A-I': {}
-  '''Vexillatio'' Basic-M A/I': {}
-  '''Vidir'' Assault M/I': {}
-  '''Wolfman'' Assault A/1-Series': {}
-  Amarr Heavy Frame A-I: {}
-  Amarr Heavy Frame A/1-Series: {}
-  Amarr Heavy Frame ak.0: {}
-  Amarr Light Frame A-I: {}
-  Amarr Light Frame A/1-Series: {}
-  Amarr Light Frame ak.0: {}
-  Amarr Medium Frame A-I: {}
-  Amarr Medium Frame A/1-Series: {}
-  Amarr Medium Frame ak.0: {}
-  Arbiter: {}
-  Archduke's Modified Sentinel mk.0: {}
-  Archduke's Modified Sentinel mk.0 (Master): {}
-  Armor AV - AM: {}
-  Armor AV - CA: {}
-  Armor AV - GA: {}
-  Armor AV - MN: {}
-  Artificer: {}
-  Assault A-I: {}
-  Assault A/1-Series: {}
-  Assault B-Series: {}
-  Assault C-I: {}
-  Assault C/1-Series: {}
-  Assault G-I: {}
-  Assault G/1-Series: {}
-  Assault M-I: {}
-  Assault M/1-Series: {}
-  Assault Type-II: {}
-  Assault ak.0: {}
-  Assault ck.0: {}
-  Assault gk.0: {}
-  Assault mk.0: {}
-  Assault vk.1: {}
-  Balac's Modified Assault ck.0: {}
-  Caldari Heavy Frame C-I: {}
-  Caldari Heavy Frame C/1-Series: {}
-  Caldari Heavy Frame ck.0: {}
-  Caldari Light Frame C-I: {}
-  Caldari Light Frame C/1-Series: {}
-  Caldari Light Frame ck.0: {}
-  Caldari Medium Frame C-I: {}
-  Caldari Medium Frame C/1-Series: {}
-  Caldari Medium Frame ck.0: {}
-  Coming Soon: {}
-  Commando A-I: {}
-  Commando A/1-Series: {}
-  Commando C-I: {}
-  Commando C/1-Series: {}
-  Commando G-I: {}
-  Commando G/1-Series: {}
-  Commando M-I: {}
-  Commando M/1-Series: {}
-  Commando ak.0: {}
-  Commando ck.0: {}
-  Commando gk.0: {}
-  Commando mk.0: {}
-  Dire Sentinel: {}
-  Dropsuit Enforcer: {}
-  Federal Defense Union Scout G-I: {}
-  Federation Assault G-I: {}
-  Federation Assault G/1-Series: {}
-  Federation Assault gk.0: {}
-  Federation Commando G-I: {}
-  Federation Commando G/1-Series: {}
-  Federation Commando gk.0: {}
-  Federation Logistics G-I: {}
-  Federation Logistics G/1-Series: {}
-  Federation Logistics gk.0: {}
-  Federation Scout G-I: {}
-  Federation Scout G/1-Series: {}
-  Federation Scout gk.0: {}
-  Federation Sentinel G-I: {}
-  Federation Sentinel G/1-Series: {}
-  Federation Sentinel gk.0: {}
-  Frame's Modified Assault ck.0: {}
-  Frame's Modified Assault ck.0 (Master): {}
-  Frontline - AM: {}
-  Frontline - CA: {}
-  Frontline - GA: {}
-  Frontline - MN: {}
-  Gallente Heavy Frame G-I: {}
-  Gallente Heavy Frame G/1-Series: {}
-  Gallente Heavy Frame gk.0: {}
-  Gallente Light Frame G-I: {}
-  Gallente Light Frame G/1-Series: {}
-  Gallente Light Frame gk.0: {}
-  Gallente Medium Frame G-I: {}
-  Gallente Medium Frame G/1-Series: {}
-  Gallente Medium Frame gk.0: {}
-  Heavy B-Series: {}
-  Heavy Type-II: {}
-  Heavy vk.1: {}
-  Imperial Assault A-I: {}
-  Imperial Assault A/1-Series: {}
-  Imperial Assault ak.0: {}
-  Imperial Commando A-I: {}
-  Imperial Commando A/1-Series: {}
-  Imperial Commando ak.0: {}
-  Imperial Logistics A-I: {}
-  Imperial Logistics A/1-Series: {}
-  Imperial Logistics ak.0: {}
-  Imperial Scout A-I: {}
-  Imperial Scout A/1-Series: {}
-  Imperial Scout ak.0: {}
-  Imperial Sentinel A-I: {}
-  Imperial Sentinel A/1-Series: {}
-  Imperial Sentinel ak.0: {}
-  Logibro's Modified Logistics mk.0: {}
-  Logibro's Modified Logistics mk.0 (Master): {}
-  Logistics A-I: {}
-  Logistics A/1-Series: {}
-  Logistics B-Series: {}
-  Logistics C-I: {}
-  Logistics C/1-Series: {}
-  Logistics G-I: {}
-  Logistics G/1-Series: {}
-  Logistics M-I: {}
-  Logistics M/1-Series: {}
-  Logistics Type-II: {}
-  Logistics ak.0: {}
-  Logistics ck.0: {}
-  Logistics gk.0: {}
-  Logistics mk.0: {}
-  Logistics vk.1: {}
-  Master Recruiter Assault C-II: {}
-  Medic - AM: {}
-  Medic - CA: {}
-  Medic - GA: {}
-  Medic - MN: {}
-  Militia Amarr Heavy Frame: {}
-  Militia Amarr Light Frame: {}
-  Militia Amarr Medium Frame: {}
-  Militia Caldari Heavy Frame: {}
-  Militia Caldari Light Frame: {}
-  Militia Caldari Medium Frame: {}
-  Militia Gallente Heavy Frame: {}
-  Militia Gallente Light Frame: {}
-  Militia Gallente Medium Frame: {}
-  Militia Minmatar Heavy Frame: {}
-  Militia Minmatar Light Frame: {}
-  Militia Minmatar Medium Frame: {}
-  Militia Pilot Dropsuit: {}
-  Minmatar Heavy Frame M-I: {}
-  Minmatar Heavy Frame M/1-Series: {}
-  Minmatar Heavy Frame mk.0: {}
-  Minmatar Light Frame M-I: {}
-  Minmatar Light Frame M/1-Series: {}
-  Minmatar Light Frame mk.0: {}
-  Minmatar Medium Frame M-I: {}
-  Minmatar Medium Frame M/1-Series: {}
-  Minmatar Medium Frame mk.0: {}
-  Pilot G-I: {}
-  Pilot G/1-Series: {}
-  Pilot M-I: {}
-  Pilot M/1-Series: {}
-  Pilot gk.0: {}
-  Pilot mk.0: {}
-  QA God Suit: {}
-  Rattati's Modified Assault gk.0: {}
-  Rattati's Modified Assault gk.0 (Master): {}
-  Recon - AM: {}
-  Recon - CA: {}
-  Recon - GA: {}
-  Recon - MN: {}
-  Recruit Militia Frame: {}
-  Republic Assault M-I: {}
-  Republic Assault M/1-Series: {}
-  Republic Assault mk.0: {}
-  Republic Commando M-I: {}
-  Republic Commando M/1-Series: {}
-  Republic Commando mk.0: {}
-  Republic Logistics M-I: {}
-  Republic Logistics M/1-Series: {}
-  Republic Logistics mk.0: {}
-  Republic Scout M-I: {}
-  Republic Scout M/1-Series: {}
-  Republic Scout mk.0: {}
-  Republic Sentinel M-I: {}
-  Republic Sentinel M/1-Series: {}
-  Republic Sentinel mk.0: {}
-  Scotsman's Modified Scout gk.0: {}
-  Scotsman's Modified Scout gk.0 (Master): {}
-  Scout A-I: {}
-  Scout A/1-Series: {}
-  Scout B-Series: {}
-  Scout C-I: {}
-  Scout C/1-Series: {}
-  Scout G-I: {}
-  Scout G/1-Series: {}
-  Scout M-I: {}
-  Scout M/1-Series: {}
-  Scout Type-II: {}
-  Scout ak.0: {}
-  Scout ck.0: {}
-  Scout gk.0: {}
-  Scout mk.0: {}
-  Scout vk.1: {}
-  Senior Recruiter Assault C-I: {}
-  Sentinel A-I: {}
-  Sentinel A/1-Series: {}
-  Sentinel C-I: {}
-  Sentinel C/1-Series: {}
-  Sentinel G-I: {}
-  Sentinel G/1-Series: {}
-  Sentinel M-I: {}
-  Sentinel M/1-Series: {}
-  Sentinel ak.0: {}
-  Sentinel ck.0: {}
-  Sentinel gk.0: {}
-  Sentinel mk.0: {}
-  Shield AV - AM: {}
-  Shield AV - CA: {}
-  Shield AV - GA: {}
-  Shield AV - MN: {}
-  Shock Assault: {}
-  Sniper - AM: {}
-  Sniper - CA: {}
-  Sniper - GA: {}
-  Sniper - MN: {}
-  Staff Recruiter Militia Frame: {}
-  Standard Assault A-I: {}
-  Standard Assault C-I: {}
-  Standard Assault G-I: {}
-  Standard Assault M-I: {}
-  Standard Commando A-I: {}
-  Standard Commando C-I: {}
-  Standard Commando G-I: {}
-  Standard Commando M-I: {}
-  Standard Logistics A-I: {}
-  Standard Logistics C-I: {}
-  Standard Logistics G-I: {}
-  Standard Logistics M-I: {}
-  Standard Scout A-I: {}
-  Standard Scout C-I: {}
-  Standard Scout G-I: {}
-  Standard Scout M-I: {}
-  Standard Sentinel A-I: {}
-  Standard Sentinel C-I: {}
-  Standard Sentinel G-I: {}
-  Standard Sentinel M-I: {}
-  State Assault C-I: {}
-  State Assault C/1-Series: {}
-  State Assault ck.0: {}
-  State Commando C-I: {}
-  State Commando C/1-Series: {}
-  State Commando ck.0: {}
-  State Logistics C-I: {}
-  State Logistics C/1-Series: {}
-  State Logistics ck.0: {}
-  State Protectorate Assault C-I: {}
-  State Scout C-I: {}
-  State Scout C/1-Series: {}
-  State Scout ck.0: {}
-  State Sentinel C-I: {}
-  State Sentinel C/1-Series: {}
-  State Sentinel ck.0: {}
-  Storm Raider's Modified Commando ak.0: {}
-  Storm Raider's Modified Commando ak.0 (Master): {}
-  Test Suit: {}
-  '[DEV] Amarr Crusader Dropsuit': {}
-  '[DEV] Offline Dropsuit': {}
-  '[TEST] Dropsuit missing CATMA data': {}
-  '[TEST] QA Dropsuit': {}
+  '''Agema'' Basic-M gk.0':
+    name: '''Agema'' Basic-M gk.0'
+  '''Alcyon'' Basic-H G/I+':
+    name: '''Alcyon'' Basic-H G/I+'
+  '''Anasoma'' Sentinel A-I':
+    name: '''Anasoma'' Sentinel A-I'
+  '''Anasoma'' Sentinel A/1-Series':
+    name: '''Anasoma'' Sentinel A/1-Series'
+  '''Anasoma'' Sentinel ak.0':
+    name: '''Anasoma'' Sentinel ak.0'
+  '''Aoide'' Basic-L G/I':
+    name: '''Aoide'' Basic-L G/I'
+  '''Aventail'' Basic-H A-I':
+    name: '''Aventail'' Basic-H A-I'
+  '''Basilo'' Basic-H M-I':
+    name: '''Basilo'' Basic-H M-I'
+  '''Behemoth'' Sentinel A-I+':
+    name: '''Behemoth'' Sentinel A-I+'
+  '''Black Eagle'' Scout G/1-Series':
+    name: '''Black Eagle'' Scout G/1-Series'
+  '''Brutor'' Commando M-I':
+    name: '''Brutor'' Commando M-I'
+  '''Brutor'' Logistics M-I':
+    name: '''Brutor'' Logistics M-I'
+  '''CQC'' Scout G-I':
+    name: '''CQC'' Scout G-I'
+  '''Calliope'' Basic-L gk.0':
+    name: '''Calliope'' Basic-L gk.0'
+  '''Carbon'' Assault C-I':
+    name: '''Carbon'' Assault C-I'
+  '''Carbon'' Assault C/1-Series':
+    name: '''Carbon'' Assault C/1-Series'
+  '''Carbon'' Assault ck.0':
+    name: '''Carbon'' Assault ck.0'
+  '''Celeus'' Assault gk.0':
+    name: '''Celeus'' Assault gk.0'
+  '''Colossus'' Sentinel A-I':
+    name: '''Colossus'' Sentinel A-I'
+  '''Colossus'' Sentinel A/1-Series':
+    name: '''Colossus'' Sentinel A/1-Series'
+  '''Colossus'' Sentinel ak.0':
+    name: '''Colossus'' Sentinel ak.0'
+  '''Covenant'' Assault C-I':
+    name: '''Covenant'' Assault C-I'
+  '''Cuirass'' Basic-H ak.0':
+    name: '''Cuirass'' Basic-H ak.0'
+  '''Dorudon'' Basic-H M/I':
+    name: '''Dorudon'' Basic-H M/I'
+  '''Dragonfly'' Assault [nSv]':
+    name: '''Dragonfly'' Assault [nSv]'
+  '''Dragonfly'' Scout [nSv]':
+    name: '''Dragonfly'' Scout [nSv]'
+  '''Dren'' Assault C-I':
+    name: '''Dren'' Assault C-I'
+  '''Dren'' Logistics M-I':
+    name: '''Dren'' Logistics M-I'
+  '''Dren'' Scout G-I':
+    name: '''Dren'' Scout G-I'
+  '''Dren'' Sentinel A-I':
+    name: '''Dren'' Sentinel A-I'
+  '''Egil'' Basic-M mk.0':
+    name: '''Egil'' Basic-M mk.0'
+  '''Enkidu'' Sentinel G-I+':
+    name: '''Enkidu'' Sentinel G-I+'
+  '''Eon'' Militia Amarr Heavy Frame':
+    name: '''Eon'' Militia Amarr Heavy Frame'
+  '''Eon'' Sentinel A-I':
+    name: '''Eon'' Sentinel A-I'
+  '''Federal Marine'' Assault G/1-Series':
+    name: '''Federal Marine'' Assault G/1-Series'
+  '''Federal Marine'' Assault gk.0':
+    name: '''Federal Marine'' Assault gk.0'
+  '''Firebrand'' Assault C-I':
+    name: '''Firebrand'' Assault C-I'
+  '''Firebrand'' Assault C/1-Series':
+    name: '''Firebrand'' Assault C/1-Series'
+  '''Firebrand'' Assault ck.0':
+    name: '''Firebrand'' Assault ck.0'
+  '''Flying Scotsman'' Assault ck.0':
+    name: '''Flying Scotsman'' Assault ck.0'
+  '''Forseti'' Assault mk.0':
+    name: '''Forseti'' Assault mk.0'
+  '''Fossil'' Logistics M-I':
+    name: '''Fossil'' Logistics M-I'
+  '''Fossil'' Militia Minmatar Medium Frame':
+    name: '''Fossil'' Militia Minmatar Medium Frame'
+  '''Foxfour'' Assault G-I':
+    name: '''Foxfour'' Assault G-I'
+  '''Grettir'' Basic-M M-I':
+    name: '''Grettir'' Basic-M M-I'
+  '''Guruwa'' Basic-H C-I':
+    name: '''Guruwa'' Basic-H C-I'
+  '''Halberd'' Basic-L A-I':
+    name: '''Halberd'' Basic-L A-I'
+  '''Harbinger'' Amarr Medium Frame A-I':
+    name: '''Harbinger'' Amarr Medium Frame A-I'
+  '''Hastati'' Basic-M A-I':
+    name: '''Hastati'' Basic-M A-I'
+  '''Hazard'' Logistics M-I':
+    name: '''Hazard'' Logistics M-I'
+  '''Hazard'' Logistics M/1-Series':
+    name: '''Hazard'' Logistics M/1-Series'
+  '''Hazard'' Logistics mk.0':
+    name: '''Hazard'' Logistics mk.0'
+  '''Hecaton'' Basic-H G-I':
+    name: '''Hecaton'' Basic-H G-I'
+  '''Hellmar'' Sentinel ak.0':
+    name: '''Hellmar'' Sentinel ak.0'
+  '''Hermod'' Assault mk.0+':
+    name: '''Hermod'' Assault mk.0+'
+  '''Hunter'' Scout G-I':
+    name: '''Hunter'' Scout G-I'
+  '''Imperial Guard'' Assault A/1-Series':
+    name: '''Imperial Guard'' Assault A/1-Series'
+  '''Imperial Guard'' Assault ak.0':
+    name: '''Imperial Guard'' Assault ak.0'
+  '''Izanami'' Sentinel C-I+':
+    name: '''Izanami'' Sentinel C-I+'
+  '''Jokul'' Basic-M M-I':
+    name: '''Jokul'' Basic-M M-I'
+  '''Jord'' Basic-L M/I':
+    name: '''Jord'' Basic-L M/I'
+  '''Jotunn'' Sentinel M-I+':
+    name: '''Jotunn'' Sentinel M-I+'
+  '''Kaalakiota'' Assault C-I':
+    name: '''Kaalakiota'' Assault C-I'
+  '''Kaalakiota'' Scout C-I':
+    name: '''Kaalakiota'' Scout C-I'
+  '''Kakali'' Basic-M mk.0+':
+    name: '''Kakali'' Basic-M mk.0+'
+  '''Kari'' Basic-M M/I':
+    name: '''Kari'' Basic-M M/I'
+  '''Kindred'' Scout G-I':
+    name: '''Kindred'' Scout G-I'
+  '''Kindred'' Scout G/1-Series':
+    name: '''Kindred'' Scout G/1-Series'
+  '''Kindred'' Scout gk.0':
+    name: '''Kindred'' Scout gk.0'
+  '''Kote'' Basic-H C/I':
+    name: '''Kote'' Basic-H C/I'
+  '''Kullervo'' Basic-M C-I':
+    name: '''Kullervo'' Basic-M C-I'
+  '''Legio'' Basic-M ak.0':
+    name: '''Legio'' Basic-M ak.0'
+  '''Lempo'' Basic-L C/I':
+    name: '''Lempo'' Basic-L C/I'
+  '''Loceros'' Basic-H mk.0':
+    name: '''Loceros'' Basic-H mk.0'
+  '''Logicloop'' Scout M-I':
+    name: '''Logicloop'' Scout M-I'
+  '''Magni'' Assault M-I+':
+    name: '''Magni'' Assault M-I+'
+  '''Malik'' Assault ak.0+':
+    name: '''Malik'' Assault ak.0+'
+  '''Marras'' Basic-M ck.0':
+    name: '''Marras'' Basic-M ck.0'
+  '''Mauler'' Sentinel A-I':
+    name: '''Mauler'' Sentinel A-I'
+  '''Melete'' Basic-L G-I':
+    name: '''Melete'' Basic-L G-I'
+  '''Memnon'' Assault G-I+':
+    name: '''Memnon'' Assault G-I+'
+  '''Menpo'' Basic-H ck.0':
+    name: '''Menpo'' Basic-H ck.0'
+  '''Mimas'' Basic-H G/I':
+    name: '''Mimas'' Basic-H G/I'
+  '''Modi'' Assault M/I+':
+    name: '''Modi'' Assault M/I+'
+  '''Nakir'' Assault ak.0':
+    name: '''Nakir'' Assault ak.0'
+  '''Neo'' Assault A-I':
+    name: '''Neo'' Assault A-I'
+  '''Neo'' Assault A/1-Series':
+    name: '''Neo'' Assault A/1-Series'
+  '''Neo'' Assault C-I':
+    name: '''Neo'' Assault C-I'
+  '''Neo'' Assault C/1-Series':
+    name: '''Neo'' Assault C/1-Series'
+  '''Neo'' Assault G-I':
+    name: '''Neo'' Assault G-I'
+  '''Neo'' Assault G/1-Series':
+    name: '''Neo'' Assault G/1-Series'
+  '''Neo'' Assault M-I':
+    name: '''Neo'' Assault M-I'
+  '''Neo'' Assault M/1-Series':
+    name: '''Neo'' Assault M/1-Series'
+  '''Neo'' Assault ak.0':
+    name: '''Neo'' Assault ak.0'
+  '''Neo'' Assault ck.0':
+    name: '''Neo'' Assault ck.0'
+  '''Neo'' Assault gk.0':
+    name: '''Neo'' Assault gk.0'
+  '''Neo'' Assault mk.0':
+    name: '''Neo'' Assault mk.0'
+  '''Neo'' Commando A-I':
+    name: '''Neo'' Commando A-I'
+  '''Neo'' Commando A/1-Series':
+    name: '''Neo'' Commando A/1-Series'
+  '''Neo'' Commando C-I':
+    name: '''Neo'' Commando C-I'
+  '''Neo'' Commando C/1-Series':
+    name: '''Neo'' Commando C/1-Series'
+  '''Neo'' Commando G-I':
+    name: '''Neo'' Commando G-I'
+  '''Neo'' Commando G/1-Series':
+    name: '''Neo'' Commando G/1-Series'
+  '''Neo'' Commando M-I':
+    name: '''Neo'' Commando M-I'
+  '''Neo'' Commando M/1-Series':
+    name: '''Neo'' Commando M/1-Series'
+  '''Neo'' Commando ak.0':
+    name: '''Neo'' Commando ak.0'
+  '''Neo'' Commando ck.0':
+    name: '''Neo'' Commando ck.0'
+  '''Neo'' Commando gk.0':
+    name: '''Neo'' Commando gk.0'
+  '''Neo'' Commando mk.0':
+    name: '''Neo'' Commando mk.0'
+  '''Neo'' Logistics A-I':
+    name: '''Neo'' Logistics A-I'
+  '''Neo'' Logistics A/1-Series':
+    name: '''Neo'' Logistics A/1-Series'
+  '''Neo'' Logistics C-I':
+    name: '''Neo'' Logistics C-I'
+  '''Neo'' Logistics C/1-Series':
+    name: '''Neo'' Logistics C/1-Series'
+  '''Neo'' Logistics G-I':
+    name: '''Neo'' Logistics G-I'
+  '''Neo'' Logistics G/1-Series':
+    name: '''Neo'' Logistics G/1-Series'
+  '''Neo'' Logistics M-I':
+    name: '''Neo'' Logistics M-I'
+  '''Neo'' Logistics M/1-Series':
+    name: '''Neo'' Logistics M/1-Series'
+  '''Neo'' Logistics ak.0':
+    name: '''Neo'' Logistics ak.0'
+  '''Neo'' Logistics ck.0':
+    name: '''Neo'' Logistics ck.0'
+  '''Neo'' Logistics gk.0':
+    name: '''Neo'' Logistics gk.0'
+  '''Neo'' Logistics mk.0':
+    name: '''Neo'' Logistics mk.0'
+  '''Neo'' Pilot G-I':
+    name: '''Neo'' Pilot G-I'
+  '''Neo'' Pilot G/1-Series':
+    name: '''Neo'' Pilot G/1-Series'
+  '''Neo'' Pilot M-I':
+    name: '''Neo'' Pilot M-I'
+  '''Neo'' Pilot M/1-Series':
+    name: '''Neo'' Pilot M/1-Series'
+  '''Neo'' Pilot gk.0':
+    name: '''Neo'' Pilot gk.0'
+  '''Neo'' Pilot mk.0':
+    name: '''Neo'' Pilot mk.0'
+  '''Neo'' Scout A-I':
+    name: '''Neo'' Scout A-I'
+  '''Neo'' Scout A/1-Series':
+    name: '''Neo'' Scout A/1-Series'
+  '''Neo'' Scout C-I':
+    name: '''Neo'' Scout C-I'
+  '''Neo'' Scout C/1-Series':
+    name: '''Neo'' Scout C/1-Series'
+  '''Neo'' Scout G-I':
+    name: '''Neo'' Scout G-I'
+  '''Neo'' Scout G/1-Series':
+    name: '''Neo'' Scout G/1-Series'
+  '''Neo'' Scout M-I':
+    name: '''Neo'' Scout M-I'
+  '''Neo'' Scout M/1-Series':
+    name: '''Neo'' Scout M/1-Series'
+  '''Neo'' Scout ak.0':
+    name: '''Neo'' Scout ak.0'
+  '''Neo'' Scout ck.0':
+    name: '''Neo'' Scout ck.0'
+  '''Neo'' Scout gk.0':
+    name: '''Neo'' Scout gk.0'
+  '''Neo'' Scout mk.0':
+    name: '''Neo'' Scout mk.0'
+  '''Neo'' Sentinel A-I':
+    name: '''Neo'' Sentinel A-I'
+  '''Neo'' Sentinel A/1-Series':
+    name: '''Neo'' Sentinel A/1-Series'
+  '''Neo'' Sentinel C-I':
+    name: '''Neo'' Sentinel C-I'
+  '''Neo'' Sentinel C/1-Series':
+    name: '''Neo'' Sentinel C/1-Series'
+  '''Neo'' Sentinel G-I':
+    name: '''Neo'' Sentinel G-I'
+  '''Neo'' Sentinel G/1-Series':
+    name: '''Neo'' Sentinel G/1-Series'
+  '''Neo'' Sentinel M-I':
+    name: '''Neo'' Sentinel M-I'
+  '''Neo'' Sentinel M/1-Series':
+    name: '''Neo'' Sentinel M/1-Series'
+  '''Neo'' Sentinel ak.0':
+    name: '''Neo'' Sentinel ak.0'
+  '''Neo'' Sentinel ck.0':
+    name: '''Neo'' Sentinel ck.0'
+  '''Neo'' Sentinel gk.0':
+    name: '''Neo'' Sentinel gk.0'
+  '''Neo'' Sentinel mk.0':
+    name: '''Neo'' Sentinel mk.0'
+  '''Numeri'' Basic-M A-I':
+    name: '''Numeri'' Basic-M A-I'
+  '''Oblivion'' Logistics M-I':
+    name: '''Oblivion'' Logistics M-I'
+  '''Oblivion'' Logistics M/1-Series':
+    name: '''Oblivion'' Logistics M/1-Series'
+  '''Oblivion'' Logistics mk.0':
+    name: '''Oblivion'' Logistics mk.0'
+  '''Orchid'' Assault C-I':
+    name: '''Orchid'' Assault C-I'
+  '''Origin'' Assault C-I':
+    name: '''Origin'' Assault C-I'
+  '''Origin'' Logistics M-I':
+    name: '''Origin'' Logistics M-I'
+  '''Partisan'' Basic-L A/I':
+    name: '''Partisan'' Basic-L A/I'
+  '''Perkele'' Basic-L ck.0':
+    name: '''Perkele'' Basic-L ck.0'
+  '''Phalanx'' Basic-M G/I':
+    name: '''Phalanx'' Basic-M G/I'
+  '''Piru'' Basic-L C-I':
+    name: '''Piru'' Basic-L C-I'
+  '''Primordial'' Assault C-I':
+    name: '''Primordial'' Assault C-I'
+  '''Primordial'' Militia Caldari Medium Frame':
+    name: '''Primordial'' Militia Caldari Medium Frame'
+  '''Principe'' Basic-M A/I':
+    name: '''Principe'' Basic-M A/I'
+  '''Pyrus'' Assault A-I':
+    name: '''Pyrus'' Assault A-I'
+  '''Pyrus'' Assault A/1-Series':
+    name: '''Pyrus'' Assault A/1-Series'
+  '''Pyrus'' Assault C-I':
+    name: '''Pyrus'' Assault C-I'
+  '''Pyrus'' Assault C/1-Series':
+    name: '''Pyrus'' Assault C/1-Series'
+  '''Pyrus'' Assault G-I':
+    name: '''Pyrus'' Assault G-I'
+  '''Pyrus'' Assault G/1-Series':
+    name: '''Pyrus'' Assault G/1-Series'
+  '''Pyrus'' Assault M-I':
+    name: '''Pyrus'' Assault M-I'
+  '''Pyrus'' Assault M/1-Series':
+    name: '''Pyrus'' Assault M/1-Series'
+  '''Pyrus'' Assault ak.0':
+    name: '''Pyrus'' Assault ak.0'
+  '''Pyrus'' Assault ck.0':
+    name: '''Pyrus'' Assault ck.0'
+  '''Pyrus'' Assault gk.0':
+    name: '''Pyrus'' Assault gk.0'
+  '''Pyrus'' Assault mk.0':
+    name: '''Pyrus'' Assault mk.0'
+  '''Pyrus'' Commando A-I':
+    name: '''Pyrus'' Commando A-I'
+  '''Pyrus'' Commando A/1-Series':
+    name: '''Pyrus'' Commando A/1-Series'
+  '''Pyrus'' Commando ak.0':
+    name: '''Pyrus'' Commando ak.0'
+  '''Pyrus'' Logistics A-I':
+    name: '''Pyrus'' Logistics A-I'
+  '''Pyrus'' Logistics A/1-Series':
+    name: '''Pyrus'' Logistics A/1-Series'
+  '''Pyrus'' Logistics C-I':
+    name: '''Pyrus'' Logistics C-I'
+  '''Pyrus'' Logistics C/1-Series':
+    name: '''Pyrus'' Logistics C/1-Series'
+  '''Pyrus'' Logistics G-I':
+    name: '''Pyrus'' Logistics G-I'
+  '''Pyrus'' Logistics G/1-Series':
+    name: '''Pyrus'' Logistics G/1-Series'
+  '''Pyrus'' Logistics M-I':
+    name: '''Pyrus'' Logistics M-I'
+  '''Pyrus'' Logistics M/1-Series':
+    name: '''Pyrus'' Logistics M/1-Series'
+  '''Pyrus'' Logistics ak.0':
+    name: '''Pyrus'' Logistics ak.0'
+  '''Pyrus'' Logistics ck.0':
+    name: '''Pyrus'' Logistics ck.0'
+  '''Pyrus'' Logistics gk.0':
+    name: '''Pyrus'' Logistics gk.0'
+  '''Pyrus'' Logistics mk.0':
+    name: '''Pyrus'' Logistics mk.0'
+  '''Pyrus'' Scout G-I':
+    name: '''Pyrus'' Scout G-I'
+  '''Pyrus'' Scout G/1-Series':
+    name: '''Pyrus'' Scout G/1-Series'
+  '''Pyrus'' Scout M-I':
+    name: '''Pyrus'' Scout M-I'
+  '''Pyrus'' Scout M/1-Series':
+    name: '''Pyrus'' Scout M/1-Series'
+  '''Pyrus'' Scout gk.0':
+    name: '''Pyrus'' Scout gk.0'
+  '''Pyrus'' Scout mk.0':
+    name: '''Pyrus'' Scout mk.0'
+  '''Pyrus'' Sentinel A-I':
+    name: '''Pyrus'' Sentinel A-I'
+  '''Pyrus'' Sentinel A/1-Series':
+    name: '''Pyrus'' Sentinel A/1-Series'
+  '''Pyrus'' Sentinel ak.0':
+    name: '''Pyrus'' Sentinel ak.0'
+  '''Quafe'' Assault A-I':
+    name: '''Quafe'' Assault A-I'
+  '''Quafe'' Assault C-I':
+    name: '''Quafe'' Assault C-I'
+  '''Quafe'' Assault C/1-Series':
+    name: '''Quafe'' Assault C/1-Series'
+  '''Quafe'' Assault G-I':
+    name: '''Quafe'' Assault G-I'
+  '''Quafe'' Assault M-I':
+    name: '''Quafe'' Assault M-I'
+  '''Quafe'' Assault ck.0':
+    name: '''Quafe'' Assault ck.0'
+  '''Quafe'' Commando A-I':
+    name: '''Quafe'' Commando A-I'
+  '''Quafe'' Commando C-I':
+    name: '''Quafe'' Commando C-I'
+  '''Quafe'' Commando G-I':
+    name: '''Quafe'' Commando G-I'
+  '''Quafe'' Commando M-I':
+    name: '''Quafe'' Commando M-I'
+  '''Quafe'' Logistics A-I':
+    name: '''Quafe'' Logistics A-I'
+  '''Quafe'' Logistics C-I':
+    name: '''Quafe'' Logistics C-I'
+  '''Quafe'' Logistics G-I':
+    name: '''Quafe'' Logistics G-I'
+  '''Quafe'' Logistics M-I':
+    name: '''Quafe'' Logistics M-I'
+  '''Quafe'' Scout A-I':
+    name: '''Quafe'' Scout A-I'
+  '''Quafe'' Scout C-I':
+    name: '''Quafe'' Scout C-I'
+  '''Quafe'' Scout G-I':
+    name: '''Quafe'' Scout G-I'
+  '''Quafe'' Scout M-I':
+    name: '''Quafe'' Scout M-I'
+  '''Quafe'' Scout gk.0':
+    name: '''Quafe'' Scout gk.0'
+  '''Quafe'' Sentinel A-I':
+    name: '''Quafe'' Sentinel A-I'
+  '''Quafe'' Sentinel C-I':
+    name: '''Quafe'' Sentinel C-I'
+  '''Quafe'' Sentinel G-I':
+    name: '''Quafe'' Sentinel G-I'
+  '''Quafe'' Sentinel M-I':
+    name: '''Quafe'' Sentinel M-I'
+  '''Raider'' Scout G-I':
+    name: '''Raider'' Scout G-I'
+  '''Ranseur'' Basic-L ak.0':
+    name: '''Ranseur'' Basic-L ak.0'
+  '''Rattati'' Assault G/1-Series':
+    name: '''Rattati'' Assault G/1-Series'
+  '''Raven'' Assault C-I':
+    name: '''Raven'' Assault C-I'
+  '''Raven'' Logistics M-I':
+    name: '''Raven'' Logistics M-I'
+  '''Raven'' Scout G-I':
+    name: '''Raven'' Scout G-I'
+  '''Raven'' Sentinel A-I':
+    name: '''Raven'' Sentinel A-I'
+  '''Relic'' Assault C-I':
+    name: '''Relic'' Assault C-I'
+  '''Relic'' Assault C/1-Series':
+    name: '''Relic'' Assault C/1-Series'
+  '''Relic'' Assault ck.0':
+    name: '''Relic'' Assault ck.0'
+  '''Remnant IX'' Logistics mk.0':
+    name: '''Remnant IX'' Logistics mk.0'
+  '''Republic Command'' Assault M/1-Series':
+    name: '''Republic Command'' Assault M/1-Series'
+  '''Republic Command'' Assault mk.0':
+    name: '''Republic Command'' Assault mk.0'
+  '''Roden'' Commando G-I':
+    name: '''Roden'' Commando G-I'
+  '''Roden'' Scout G-I':
+    name: '''Roden'' Scout G-I'
+  '''Sarak'' Assault A-I+':
+    name: '''Sarak'' Assault A-I+'
+  '''Sever'' Assault C-I':
+    name: '''Sever'' Assault C-I'
+  '''Sever'' Logistics M-I':
+    name: '''Sever'' Logistics M-I'
+  '''Sever'' Scout G-I':
+    name: '''Sever'' Scout G-I'
+  '''Sever'' Sentinel A-I':
+    name: '''Sever'' Sentinel A-I'
+  '''Skadi'' Basic-L M-I':
+    name: '''Skadi'' Basic-L M-I'
+  '''Skinweave'' Militia Amarr Heavy Frame':
+    name: '''Skinweave'' Militia Amarr Heavy Frame'
+  '''Skinweave'' Militia Caldari Medium Frame':
+    name: '''Skinweave'' Militia Caldari Medium Frame'
+  '''Skinweave'' Militia Gallente Light Frame':
+    name: '''Skinweave'' Militia Gallente Light Frame'
+  '''Skinweave'' Militia Minmatar Medium Frame':
+    name: '''Skinweave'' Militia Minmatar Medium Frame'
+  '''Sol'' Basic-L mk.0':
+    name: '''Sol'' Basic-L mk.0'
+  '''Solstice'' Scout G-I':
+    name: '''Solstice'' Scout G-I'
+  '''Solstice'' Scout G/1-Series':
+    name: '''Solstice'' Scout G/1-Series'
+  '''Solstice'' Scout gk.0':
+    name: '''Solstice'' Scout gk.0'
+  '''Stahl'' Assault C-I':
+    name: '''Stahl'' Assault C-I'
+  '''Stallo'' Assault ck.0+':
+    name: '''Stallo'' Assault ck.0+'
+  '''Starkad'' Basic-M M/I+':
+    name: '''Starkad'' Basic-M M/I+'
+  '''State Peacekeeper'' Assault C/1-Series':
+    name: '''State Peacekeeper'' Assault C/1-Series'
+  '''State Peacekeeper'' Assault ck.0':
+    name: '''State Peacekeeper'' Assault ck.0'
+  '''Tarapitha'' Basic-M C/I':
+    name: '''Tarapitha'' Basic-M C/I'
+  '''Tash Murkon'' Logistics A-I':
+    name: '''Tash Murkon'' Logistics A-I'
+  '''Tash Murkon'' Sentinel A-I':
+    name: '''Tash Murkon'' Sentinel A-I'
+  '''Templar'' Assault A-I':
+    name: '''Templar'' Assault A-I'
+  '''Templar'' Logistics A-I':
+    name: '''Templar'' Logistics A-I'
+  '''Templar'' Sentinel A-I':
+    name: '''Templar'' Sentinel A-I'
+  '''Thale'' Militia Gallente Light Frame':
+    name: '''Thale'' Militia Gallente Light Frame'
+  '''Thale'' Scout G-I':
+    name: '''Thale'' Scout G-I'
+  '''Theseus'' Assault gk.0+':
+    name: '''Theseus'' Assault gk.0+'
+  '''Thrud'' Assault M-I':
+    name: '''Thrud'' Assault M-I'
+  '''Tigris'' Sentinel A-I':
+    name: '''Tigris'' Sentinel A-I'
+  '''Toxotai'' Basic-M G-I':
+    name: '''Toxotai'' Basic-M G-I'
+  '''Triari'' Basic-M ak.0':
+    name: '''Triari'' Basic-M ak.0'
+  '''Tuoni'' Assault ck.0':
+    name: '''Tuoni'' Assault ck.0'
+  '''Ukko'' Assault C-I+':
+    name: '''Ukko'' Assault C-I+'
+  '''Valor'' Assault C-I':
+    name: '''Valor'' Assault C-I'
+  '''Valor'' Logistics M-I':
+    name: '''Valor'' Logistics M-I'
+  '''Valor'' Scout G-I':
+    name: '''Valor'' Scout G-I'
+  '''Valor'' Sentinel A-I':
+    name: '''Valor'' Sentinel A-I'
+  '''Vambrace'' Basic-H A/I':
+    name: '''Vambrace'' Basic-H A/I'
+  '''Venom'' Militia Amarr Heavy Frame':
+    name: '''Venom'' Militia Amarr Heavy Frame'
+  '''Venom'' Sentinel A-I':
+    name: '''Venom'' Sentinel A-I'
+  '''Vexillatio'' Basic-M A/I':
+    name: '''Vexillatio'' Basic-M A/I'
+  '''Vidir'' Assault M/I':
+    name: '''Vidir'' Assault M/I'
+  '''Wolfman'' Assault A/1-Series':
+    name: '''Wolfman'' Assault A/1-Series'
+  Amarr Heavy Frame A-I:
+    name: Amarr Heavy Frame A-I
+  Amarr Heavy Frame A/1-Series:
+    name: Amarr Heavy Frame A/1-Series
+  Amarr Heavy Frame ak.0:
+    name: Amarr Heavy Frame ak.0
+  Amarr Light Frame A-I:
+    name: Amarr Light Frame A-I
+  Amarr Light Frame A/1-Series:
+    name: Amarr Light Frame A/1-Series
+  Amarr Light Frame ak.0:
+    name: Amarr Light Frame ak.0
+  Amarr Medium Frame A-I:
+    name: Amarr Medium Frame A-I
+  Amarr Medium Frame A/1-Series:
+    name: Amarr Medium Frame A/1-Series
+  Amarr Medium Frame ak.0:
+    name: Amarr Medium Frame ak.0
+  Arbiter:
+    name: Arbiter
+  Archduke's Modified Sentinel mk.0:
+    name: Archduke's Modified Sentinel mk.0
+  Archduke's Modified Sentinel mk.0 (Master):
+    name: Archduke's Modified Sentinel mk.0 (Master)
+  Armor AV - AM:
+    name: Armor AV - AM
+  Armor AV - CA:
+    name: Armor AV - CA
+  Armor AV - GA:
+    name: Armor AV - GA
+  Armor AV - MN:
+    name: Armor AV - MN
+  Artificer:
+    name: Artificer
+  Assault A-I:
+    name: Assault A-I
+  Assault A/1-Series:
+    name: Assault A/1-Series
+  Assault B-Series:
+    name: Assault B-Series
+  Assault C-I:
+    name: Assault C-I
+  Assault C/1-Series:
+    name: Assault C/1-Series
+  Assault G-I:
+    name: Assault G-I
+  Assault G/1-Series:
+    name: Assault G/1-Series
+  Assault M-I:
+    name: Assault M-I
+  Assault M/1-Series:
+    name: Assault M/1-Series
+  Assault Type-II:
+    name: Assault Type-II
+  Assault ak.0:
+    name: Assault ak.0
+  Assault ck.0:
+    name: Assault ck.0
+  Assault gk.0:
+    name: Assault gk.0
+  Assault mk.0:
+    name: Assault mk.0
+  Assault vk.1:
+    name: Assault vk.1
+  Balac's Modified Assault ck.0:
+    name: Balac's Modified Assault ck.0
+  Caldari Heavy Frame C-I:
+    name: Caldari Heavy Frame C-I
+  Caldari Heavy Frame C/1-Series:
+    name: Caldari Heavy Frame C/1-Series
+  Caldari Heavy Frame ck.0:
+    name: Caldari Heavy Frame ck.0
+  Caldari Light Frame C-I:
+    name: Caldari Light Frame C-I
+  Caldari Light Frame C/1-Series:
+    name: Caldari Light Frame C/1-Series
+  Caldari Light Frame ck.0:
+    name: Caldari Light Frame ck.0
+  Caldari Medium Frame C-I:
+    name: Caldari Medium Frame C-I
+  Caldari Medium Frame C/1-Series:
+    name: Caldari Medium Frame C/1-Series
+  Caldari Medium Frame ck.0:
+    name: Caldari Medium Frame ck.0
+  Coming Soon:
+    name: Coming Soon
+  Commando A-I:
+    name: Commando A-I
+  Commando A/1-Series:
+    name: Commando A/1-Series
+  Commando C-I:
+    name: Commando C-I
+  Commando C/1-Series:
+    name: Commando C/1-Series
+  Commando G-I:
+    name: Commando G-I
+  Commando G/1-Series:
+    name: Commando G/1-Series
+  Commando M-I:
+    name: Commando M-I
+  Commando M/1-Series:
+    name: Commando M/1-Series
+  Commando ak.0:
+    name: Commando ak.0
+  Commando ck.0:
+    name: Commando ck.0
+  Commando gk.0:
+    name: Commando gk.0
+  Commando mk.0:
+    name: Commando mk.0
+  Dire Sentinel:
+    name: Dire Sentinel
+  Dropsuit Enforcer:
+    name: Dropsuit Enforcer
+  Federal Defense Union Scout G-I:
+    name: Federal Defense Union Scout G-I
+  Federation Assault G-I:
+    name: Federation Assault G-I
+  Federation Assault G/1-Series:
+    name: Federation Assault G/1-Series
+  Federation Assault gk.0:
+    name: Federation Assault gk.0
+  Federation Commando G-I:
+    name: Federation Commando G-I
+  Federation Commando G/1-Series:
+    name: Federation Commando G/1-Series
+  Federation Commando gk.0:
+    name: Federation Commando gk.0
+  Federation Logistics G-I:
+    name: Federation Logistics G-I
+  Federation Logistics G/1-Series:
+    name: Federation Logistics G/1-Series
+  Federation Logistics gk.0:
+    name: Federation Logistics gk.0
+  Federation Scout G-I:
+    name: Federation Scout G-I
+  Federation Scout G/1-Series:
+    name: Federation Scout G/1-Series
+  Federation Scout gk.0:
+    name: Federation Scout gk.0
+  Federation Sentinel G-I:
+    name: Federation Sentinel G-I
+  Federation Sentinel G/1-Series:
+    name: Federation Sentinel G/1-Series
+  Federation Sentinel gk.0:
+    name: Federation Sentinel gk.0
+  Frame's Modified Assault ck.0:
+    name: Frame's Modified Assault ck.0
+  Frame's Modified Assault ck.0 (Master):
+    name: Frame's Modified Assault ck.0 (Master)
+  Frontline - AM:
+    name: Frontline - AM
+  Frontline - CA:
+    name: Frontline - CA
+  Frontline - GA:
+    name: Frontline - GA
+  Frontline - MN:
+    name: Frontline - MN
+  Gallente Heavy Frame G-I:
+    name: Gallente Heavy Frame G-I
+  Gallente Heavy Frame G/1-Series:
+    name: Gallente Heavy Frame G/1-Series
+  Gallente Heavy Frame gk.0:
+    name: Gallente Heavy Frame gk.0
+  Gallente Light Frame G-I:
+    name: Gallente Light Frame G-I
+  Gallente Light Frame G/1-Series:
+    name: Gallente Light Frame G/1-Series
+  Gallente Light Frame gk.0:
+    name: Gallente Light Frame gk.0
+  Gallente Medium Frame G-I:
+    name: Gallente Medium Frame G-I
+  Gallente Medium Frame G/1-Series:
+    name: Gallente Medium Frame G/1-Series
+  Gallente Medium Frame gk.0:
+    name: Gallente Medium Frame gk.0
+  Heavy B-Series:
+    name: Heavy B-Series
+  Heavy Type-II:
+    name: Heavy Type-II
+  Heavy vk.1:
+    name: Heavy vk.1
+  Imperial Assault A-I:
+    name: Imperial Assault A-I
+  Imperial Assault A/1-Series:
+    name: Imperial Assault A/1-Series
+  Imperial Assault ak.0:
+    name: Imperial Assault ak.0
+  Imperial Commando A-I:
+    name: Imperial Commando A-I
+  Imperial Commando A/1-Series:
+    name: Imperial Commando A/1-Series
+  Imperial Commando ak.0:
+    name: Imperial Commando ak.0
+  Imperial Logistics A-I:
+    name: Imperial Logistics A-I
+  Imperial Logistics A/1-Series:
+    name: Imperial Logistics A/1-Series
+  Imperial Logistics ak.0:
+    name: Imperial Logistics ak.0
+  Imperial Scout A-I:
+    name: Imperial Scout A-I
+  Imperial Scout A/1-Series:
+    name: Imperial Scout A/1-Series
+  Imperial Scout ak.0:
+    name: Imperial Scout ak.0
+  Imperial Sentinel A-I:
+    name: Imperial Sentinel A-I
+  Imperial Sentinel A/1-Series:
+    name: Imperial Sentinel A/1-Series
+  Imperial Sentinel ak.0:
+    name: Imperial Sentinel ak.0
+  Logibro's Modified Logistics mk.0:
+    name: Logibro's Modified Logistics mk.0
+  Logibro's Modified Logistics mk.0 (Master):
+    name: Logibro's Modified Logistics mk.0 (Master)
+  Logistics A-I:
+    name: Logistics A-I
+  Logistics A/1-Series:
+    name: Logistics A/1-Series
+  Logistics B-Series:
+    name: Logistics B-Series
+  Logistics C-I:
+    name: Logistics C-I
+  Logistics C/1-Series:
+    name: Logistics C/1-Series
+  Logistics G-I:
+    name: Logistics G-I
+  Logistics G/1-Series:
+    name: Logistics G/1-Series
+  Logistics M-I:
+    name: Logistics M-I
+  Logistics M/1-Series:
+    name: Logistics M/1-Series
+  Logistics Type-II:
+    name: Logistics Type-II
+  Logistics ak.0:
+    name: Logistics ak.0
+  Logistics ck.0:
+    name: Logistics ck.0
+  Logistics gk.0:
+    name: Logistics gk.0
+  Logistics mk.0:
+    name: Logistics mk.0
+  Logistics vk.1:
+    name: Logistics vk.1
+  Master Recruiter Assault C-II:
+    name: Master Recruiter Assault C-II
+  Medic - AM:
+    name: Medic - AM
+  Medic - CA:
+    name: Medic - CA
+  Medic - GA:
+    name: Medic - GA
+  Medic - MN:
+    name: Medic - MN
+  Militia Amarr Heavy Frame:
+    name: Militia Amarr Heavy Frame
+  Militia Amarr Light Frame:
+    name: Militia Amarr Light Frame
+  Militia Amarr Medium Frame:
+    name: Militia Amarr Medium Frame
+  Militia Caldari Heavy Frame:
+    name: Militia Caldari Heavy Frame
+  Militia Caldari Light Frame:
+    name: Militia Caldari Light Frame
+  Militia Caldari Medium Frame:
+    name: Militia Caldari Medium Frame
+  Militia Gallente Heavy Frame:
+    name: Militia Gallente Heavy Frame
+  Militia Gallente Light Frame:
+    name: Militia Gallente Light Frame
+  Militia Gallente Medium Frame:
+    name: Militia Gallente Medium Frame
+  Militia Minmatar Heavy Frame:
+    name: Militia Minmatar Heavy Frame
+  Militia Minmatar Light Frame:
+    name: Militia Minmatar Light Frame
+  Militia Minmatar Medium Frame:
+    name: Militia Minmatar Medium Frame
+  Militia Pilot Dropsuit:
+    name: Militia Pilot Dropsuit
+  Minmatar Heavy Frame M-I:
+    name: Minmatar Heavy Frame M-I
+  Minmatar Heavy Frame M/1-Series:
+    name: Minmatar Heavy Frame M/1-Series
+  Minmatar Heavy Frame mk.0:
+    name: Minmatar Heavy Frame mk.0
+  Minmatar Light Frame M-I:
+    name: Minmatar Light Frame M-I
+  Minmatar Light Frame M/1-Series:
+    name: Minmatar Light Frame M/1-Series
+  Minmatar Light Frame mk.0:
+    name: Minmatar Light Frame mk.0
+  Minmatar Medium Frame M-I:
+    name: Minmatar Medium Frame M-I
+  Minmatar Medium Frame M/1-Series:
+    name: Minmatar Medium Frame M/1-Series
+  Minmatar Medium Frame mk.0:
+    name: Minmatar Medium Frame mk.0
+  Pilot G-I:
+    name: Pilot G-I
+  Pilot G/1-Series:
+    name: Pilot G/1-Series
+  Pilot M-I:
+    name: Pilot M-I
+  Pilot M/1-Series:
+    name: Pilot M/1-Series
+  Pilot gk.0:
+    name: Pilot gk.0
+  Pilot mk.0:
+    name: Pilot mk.0
+  QA God Suit:
+    name: QA God Suit
+  Rattati's Modified Assault gk.0:
+    name: Rattati's Modified Assault gk.0
+  Rattati's Modified Assault gk.0 (Master):
+    name: Rattati's Modified Assault gk.0 (Master)
+  Recon - AM:
+    name: Recon - AM
+  Recon - CA:
+    name: Recon - CA
+  Recon - GA:
+    name: Recon - GA
+  Recon - MN:
+    name: Recon - MN
+  Recruit Militia Frame:
+    name: Recruit Militia Frame
+  Republic Assault M-I:
+    name: Republic Assault M-I
+  Republic Assault M/1-Series:
+    name: Republic Assault M/1-Series
+  Republic Assault mk.0:
+    name: Republic Assault mk.0
+  Republic Commando M-I:
+    name: Republic Commando M-I
+  Republic Commando M/1-Series:
+    name: Republic Commando M/1-Series
+  Republic Commando mk.0:
+    name: Republic Commando mk.0
+  Republic Logistics M-I:
+    name: Republic Logistics M-I
+  Republic Logistics M/1-Series:
+    name: Republic Logistics M/1-Series
+  Republic Logistics mk.0:
+    name: Republic Logistics mk.0
+  Republic Scout M-I:
+    name: Republic Scout M-I
+  Republic Scout M/1-Series:
+    name: Republic Scout M/1-Series
+  Republic Scout mk.0:
+    name: Republic Scout mk.0
+  Republic Sentinel M-I:
+    name: Republic Sentinel M-I
+  Republic Sentinel M/1-Series:
+    name: Republic Sentinel M/1-Series
+  Republic Sentinel mk.0:
+    name: Republic Sentinel mk.0
+  Scotsman's Modified Scout gk.0:
+    name: Scotsman's Modified Scout gk.0
+  Scotsman's Modified Scout gk.0 (Master):
+    name: Scotsman's Modified Scout gk.0 (Master)
+  Scout A-I:
+    name: Scout A-I
+  Scout A/1-Series:
+    name: Scout A/1-Series
+  Scout B-Series:
+    name: Scout B-Series
+  Scout C-I:
+    name: Scout C-I
+  Scout C/1-Series:
+    name: Scout C/1-Series
+  Scout G-I:
+    name: Scout G-I
+  Scout G/1-Series:
+    name: Scout G/1-Series
+  Scout M-I:
+    name: Scout M-I
+  Scout M/1-Series:
+    name: Scout M/1-Series
+  Scout Type-II:
+    name: Scout Type-II
+  Scout ak.0:
+    name: Scout ak.0
+  Scout ck.0:
+    name: Scout ck.0
+  Scout gk.0:
+    name: Scout gk.0
+  Scout mk.0:
+    name: Scout mk.0
+  Scout vk.1:
+    name: Scout vk.1
+  Senior Recruiter Assault C-I:
+    name: Senior Recruiter Assault C-I
+  Sentinel A-I:
+    name: Sentinel A-I
+  Sentinel A/1-Series:
+    name: Sentinel A/1-Series
+  Sentinel C-I:
+    name: Sentinel C-I
+  Sentinel C/1-Series:
+    name: Sentinel C/1-Series
+  Sentinel G-I:
+    name: Sentinel G-I
+  Sentinel G/1-Series:
+    name: Sentinel G/1-Series
+  Sentinel M-I:
+    name: Sentinel M-I
+  Sentinel M/1-Series:
+    name: Sentinel M/1-Series
+  Sentinel ak.0:
+    name: Sentinel ak.0
+  Sentinel ck.0:
+    name: Sentinel ck.0
+  Sentinel gk.0:
+    name: Sentinel gk.0
+  Sentinel mk.0:
+    name: Sentinel mk.0
+  Shield AV - AM:
+    name: Shield AV - AM
+  Shield AV - CA:
+    name: Shield AV - CA
+  Shield AV - GA:
+    name: Shield AV - GA
+  Shield AV - MN:
+    name: Shield AV - MN
+  Shock Assault:
+    name: Shock Assault
+  Sniper - AM:
+    name: Sniper - AM
+  Sniper - CA:
+    name: Sniper - CA
+  Sniper - GA:
+    name: Sniper - GA
+  Sniper - MN:
+    name: Sniper - MN
+  Staff Recruiter Militia Frame:
+    name: Staff Recruiter Militia Frame
+  Standard Assault A-I:
+    name: Standard Assault A-I
+  Standard Assault C-I:
+    name: Standard Assault C-I
+  Standard Assault G-I:
+    name: Standard Assault G-I
+  Standard Assault M-I:
+    name: Standard Assault M-I
+  Standard Commando A-I:
+    name: Standard Commando A-I
+  Standard Commando C-I:
+    name: Standard Commando C-I
+  Standard Commando G-I:
+    name: Standard Commando G-I
+  Standard Commando M-I:
+    name: Standard Commando M-I
+  Standard Logistics A-I:
+    name: Standard Logistics A-I
+  Standard Logistics C-I:
+    name: Standard Logistics C-I
+  Standard Logistics G-I:
+    name: Standard Logistics G-I
+  Standard Logistics M-I:
+    name: Standard Logistics M-I
+  Standard Scout A-I:
+    name: Standard Scout A-I
+  Standard Scout C-I:
+    name: Standard Scout C-I
+  Standard Scout G-I:
+    name: Standard Scout G-I
+  Standard Scout M-I:
+    name: Standard Scout M-I
+  Standard Sentinel A-I:
+    name: Standard Sentinel A-I
+  Standard Sentinel C-I:
+    name: Standard Sentinel C-I
+  Standard Sentinel G-I:
+    name: Standard Sentinel G-I
+  Standard Sentinel M-I:
+    name: Standard Sentinel M-I
+  State Assault C-I:
+    name: State Assault C-I
+  State Assault C/1-Series:
+    name: State Assault C/1-Series
+  State Assault ck.0:
+    name: State Assault ck.0
+  State Commando C-I:
+    name: State Commando C-I
+  State Commando C/1-Series:
+    name: State Commando C/1-Series
+  State Commando ck.0:
+    name: State Commando ck.0
+  State Logistics C-I:
+    name: State Logistics C-I
+  State Logistics C/1-Series:
+    name: State Logistics C/1-Series
+  State Logistics ck.0:
+    name: State Logistics ck.0
+  State Protectorate Assault C-I:
+    name: State Protectorate Assault C-I
+  State Scout C-I:
+    name: State Scout C-I
+  State Scout C/1-Series:
+    name: State Scout C/1-Series
+  State Scout ck.0:
+    name: State Scout ck.0
+  State Sentinel C-I:
+    name: State Sentinel C-I
+  State Sentinel C/1-Series:
+    name: State Sentinel C/1-Series
+  State Sentinel ck.0:
+    name: State Sentinel ck.0
+  Storm Raider's Modified Commando ak.0:
+    name: Storm Raider's Modified Commando ak.0
+  Storm Raider's Modified Commando ak.0 (Master):
+    name: Storm Raider's Modified Commando ak.0 (Master)
+  Test Suit:
+    name: Test Suit
+  '[DEV] Amarr Crusader Dropsuit':
+    name: '[DEV] Amarr Crusader Dropsuit'
+  '[DEV] Offline Dropsuit':
+    name: '[DEV] Offline Dropsuit'
+  '[TEST] Dropsuit missing CATMA data':
+    name: '[TEST] Dropsuit missing CATMA data'
+  '[TEST] QA Dropsuit':
+    name: '[TEST] QA Dropsuit'

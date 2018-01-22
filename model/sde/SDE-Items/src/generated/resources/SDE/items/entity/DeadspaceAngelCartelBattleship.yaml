@@ -1,25 +1,49 @@
 items:
-  Angel Battleship Vessel: {}
-  Arch Angel Raelek: {}
-  Gist Cherubim: {}
-  Gist Commander: {}
-  Gist Domination Cherubim: {}
-  Gist Domination Commander: {}
-  Gist Domination General: {}
-  Gist Domination Malakim: {}
-  Gist Domination Nephilim: {}
-  Gist Domination Saint: {}
-  Gist Domination Seraphim: {}
-  Gist Domination Throne: {}
-  Gist Domination War General: {}
-  Gist Domination Warlord: {}
-  Gist General: {}
-  Gist Malakim: {}
-  Gist Nephilim: {}
-  Gist Saint: {}
-  Gist Seraphim: {}
-  Gist Throne: {}
-  Gist War General: {}
-  Gist Warlord: {}
-  Gist_Defender Battleship: {}
-  Karkoti Rend: {}
+  Angel Battleship Vessel:
+    name: Angel Battleship Vessel
+  Arch Angel Raelek:
+    name: Arch Angel Raelek
+  Gist Cherubim:
+    name: Gist Cherubim
+  Gist Commander:
+    name: Gist Commander
+  Gist Domination Cherubim:
+    name: Gist Domination Cherubim
+  Gist Domination Commander:
+    name: Gist Domination Commander
+  Gist Domination General:
+    name: Gist Domination General
+  Gist Domination Malakim:
+    name: Gist Domination Malakim
+  Gist Domination Nephilim:
+    name: Gist Domination Nephilim
+  Gist Domination Saint:
+    name: Gist Domination Saint
+  Gist Domination Seraphim:
+    name: Gist Domination Seraphim
+  Gist Domination Throne:
+    name: Gist Domination Throne
+  Gist Domination War General:
+    name: Gist Domination War General
+  Gist Domination Warlord:
+    name: Gist Domination Warlord
+  Gist General:
+    name: Gist General
+  Gist Malakim:
+    name: Gist Malakim
+  Gist Nephilim:
+    name: Gist Nephilim
+  Gist Saint:
+    name: Gist Saint
+  Gist Seraphim:
+    name: Gist Seraphim
+  Gist Throne:
+    name: Gist Throne
+  Gist War General:
+    name: Gist War General
+  Gist Warlord:
+    name: Gist Warlord
+  Gist_Defender Battleship:
+    name: Gist_Defender Battleship
+  Karkoti Rend:
+    name: Karkoti Rend

@@ -80,6 +80,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpScrambleStatus: -2
     WarpSpeedMultiplier: 3.299999952316284
+    name: Bustard
   Impel:
     AffectedByIndustrialInvulnModule: 1
     Agility: 1.0
@@ -161,6 +162,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpScrambleStatus: -2
     WarpSpeedMultiplier: 3.299999952316284
+    name: Impel
   Mastodon:
     AffectedByIndustrialInvulnModule: 1
     Agility: 1.0
@@ -242,6 +244,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpScrambleStatus: -2
     WarpSpeedMultiplier: 3.299999952316284
+    name: Mastodon
   Occator:
     AffectedByIndustrialInvulnModule: 1
     Agility: 1.0
@@ -323,3 +326,4 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpScrambleStatus: -2
     WarpSpeedMultiplier: 3.299999952316284
+    name: Occator

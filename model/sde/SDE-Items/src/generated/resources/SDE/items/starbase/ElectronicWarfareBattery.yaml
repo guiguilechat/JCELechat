@@ -45,6 +45,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Dread Guristas Ion Field Projection Battery
   Dread Guristas Phase Inversion Battery:
     AnchoringDelay: 5000
     ArmorHP: 3000000
@@ -91,6 +92,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Dread Guristas Phase Inversion Battery
   Dread Guristas Spatial Destabilization Battery:
     AnchoringDelay: 5000
     ArmorHP: 3000000
@@ -137,6 +139,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Dread Guristas Spatial Destabilization Battery
   Dread Guristas White Noise Generation Battery:
     AnchoringDelay: 5000
     ArmorHP: 3000000
@@ -183,6 +186,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Dread Guristas White Noise Generation Battery
   Guristas Ion Field Projection Battery:
     AnchoringDelay: 5000
     ArmorHP: 2250000
@@ -229,6 +233,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Guristas Ion Field Projection Battery
   Guristas Phase Inversion Battery:
     AnchoringDelay: 5000
     ArmorHP: 2250000
@@ -275,6 +280,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Guristas Phase Inversion Battery
   Guristas Spatial Destabilization Battery:
     AnchoringDelay: 5000
     ArmorHP: 2250000
@@ -321,6 +327,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Guristas Spatial Destabilization Battery
   Guristas White Noise Generation Battery:
     AnchoringDelay: 5000
     ArmorHP: 2250000
@@ -367,6 +374,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Guristas White Noise Generation Battery
   Ion Field Projection Battery:
     AnchoringDelay: 5000
     ArmorHP: 1500000
@@ -412,6 +420,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Ion Field Projection Battery
   Phase Inversion Battery:
     AnchoringDelay: 5000
     ArmorHP: 1500000
@@ -457,6 +466,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Phase Inversion Battery
   Spatial Destabilization Battery:
     AnchoringDelay: 5000
     ArmorHP: 1500000
@@ -502,6 +512,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Spatial Destabilization Battery
   White Noise Generation Battery:
     AnchoringDelay: 5000
     ArmorHP: 1500000
@@ -547,3 +558,4 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: White Noise Generation Battery

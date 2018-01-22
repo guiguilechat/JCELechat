@@ -1,8 +1,15 @@
 items:
-  Heavy Water: {}
-  Helium Isotopes: {}
-  Hydrogen Isotopes: {}
-  Liquid Ozone: {}
-  Nitrogen Isotopes: {}
-  Oxygen Isotopes: {}
-  Strontium Clathrates: {}
+  Heavy Water:
+    name: Heavy Water
+  Helium Isotopes:
+    name: Helium Isotopes
+  Hydrogen Isotopes:
+    name: Hydrogen Isotopes
+  Liquid Ozone:
+    name: Liquid Ozone
+  Nitrogen Isotopes:
+    name: Nitrogen Isotopes
+  Oxygen Isotopes:
+    name: Oxygen Isotopes
+  Strontium Clathrates:
+    name: Strontium Clathrates

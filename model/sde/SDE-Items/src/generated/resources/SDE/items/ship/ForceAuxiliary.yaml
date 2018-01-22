@@ -103,6 +103,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    name: Apostle
   Dagon:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -214,6 +215,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    name: Dagon
   Lif:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -318,6 +320,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    name: Lif
   Loggerhead:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -424,6 +427,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    name: Loggerhead
   Minokawa:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -528,6 +532,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    name: Minokawa
   Ninazu:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -632,6 +637,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    name: Ninazu
   Venerable:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -734,3 +740,4 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    name: Venerable

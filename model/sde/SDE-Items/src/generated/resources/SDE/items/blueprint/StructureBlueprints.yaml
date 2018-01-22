@@ -1,26 +1,51 @@
 items:
-  Astrahus Blueprint: {}
-  Athanor Blueprint: {}
-  Azbel Blueprint: {}
-  Fortizar Blueprint: {}
-  Keepstar Blueprint: {}
-  Large Administration Hub Blueprint: {}
-  Large Advertisement Center Blueprint: {}
-  Large Laboratory Blueprint: {}
-  Large Observatory Array Blueprint: {}
-  Large Stargate Blueprint: {}
-  Medium Administration Hub Blueprint: {}
-  Medium Advertisement Center Blueprint: {}
-  Medium Laboratory Blueprint: {}
-  Medium Observatory Array Blueprint: {}
-  Medium Stargate blueprint: {}
-  Raitaru Blueprint: {}
-  Sotiyo Blueprint: {}
-  Tatara Blueprint: {}
-  Upwell Palatine Keepstar Blueprint: {}
-  X-Large Administration Hub Blueprint: {}
-  X-Large Advertisement Center Blueprint: {}
-  X-Large Drilling Platform Blueprint: {}
-  X-Large Laboratory Blueprint: {}
-  X-Large Observatory Array Blueprint: {}
-  X-Large Stargate Blueprint: {}
+  Astrahus Blueprint:
+    name: Astrahus Blueprint
+  Athanor Blueprint:
+    name: Athanor Blueprint
+  Azbel Blueprint:
+    name: Azbel Blueprint
+  Fortizar Blueprint:
+    name: Fortizar Blueprint
+  Keepstar Blueprint:
+    name: Keepstar Blueprint
+  Large Administration Hub Blueprint:
+    name: Large Administration Hub Blueprint
+  Large Advertisement Center Blueprint:
+    name: Large Advertisement Center Blueprint
+  Large Laboratory Blueprint:
+    name: Large Laboratory Blueprint
+  Large Observatory Array Blueprint:
+    name: Large Observatory Array Blueprint
+  Large Stargate Blueprint:
+    name: Large Stargate Blueprint
+  Medium Administration Hub Blueprint:
+    name: Medium Administration Hub Blueprint
+  Medium Advertisement Center Blueprint:
+    name: Medium Advertisement Center Blueprint
+  Medium Laboratory Blueprint:
+    name: Medium Laboratory Blueprint
+  Medium Observatory Array Blueprint:
+    name: Medium Observatory Array Blueprint
+  Medium Stargate blueprint:
+    name: Medium Stargate blueprint
+  Raitaru Blueprint:
+    name: Raitaru Blueprint
+  Sotiyo Blueprint:
+    name: Sotiyo Blueprint
+  Tatara Blueprint:
+    name: Tatara Blueprint
+  Upwell Palatine Keepstar Blueprint:
+    name: Upwell Palatine Keepstar Blueprint
+  X-Large Administration Hub Blueprint:
+    name: X-Large Administration Hub Blueprint
+  X-Large Advertisement Center Blueprint:
+    name: X-Large Advertisement Center Blueprint
+  X-Large Drilling Platform Blueprint:
+    name: X-Large Drilling Platform Blueprint
+  X-Large Laboratory Blueprint:
+    name: X-Large Laboratory Blueprint
+  X-Large Observatory Array Blueprint:
+    name: X-Large Observatory Array Blueprint
+  X-Large Stargate Blueprint:
+    name: X-Large Stargate Blueprint

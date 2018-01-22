@@ -23,6 +23,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: '''Distributor'' Guidance Disruptor'
   '''Investor'' Tracking Disruptor I':
     CapacitorNeed: 10.0
     ChargeGroup1: 909
@@ -46,6 +47,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: -17.190000534057617
+    name: '''Investor'' Tracking Disruptor I'
   A-211 Enduring Guidance Disruptor:
     AoeCloudSizeBonus: 11.0
     AoeVelocityBonus: -11.0
@@ -69,6 +71,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: A-211 Enduring Guidance Disruptor
   Baker Nunn Enduring Tracking Disruptor I:
     CapacitorNeed: 12.0
     ChargeGroup1: 909
@@ -91,6 +94,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: -16.239999771118164
+    name: Baker Nunn Enduring Tracking Disruptor I
   Balmer Series Compact Tracking Disruptor I:
     CapacitorNeed: 15.0
     ChargeGroup1: 909
@@ -112,6 +116,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: -16.239999771118164
+    name: Balmer Series Compact Tracking Disruptor I
   C-IR Compact Guidance Disruptor:
     AoeCloudSizeBonus: 11.0
     AoeVelocityBonus: -11.0
@@ -135,6 +140,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: C-IR Compact Guidance Disruptor
   DDO Scoped Tracking Disruptor I:
     CapacitorNeed: 15.0
     ChargeGroup1: 909
@@ -157,6 +163,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: -16.239999771118164
+    name: DDO Scoped Tracking Disruptor I
   Dark Blood Tracking Disruptor:
     CapacitorNeed: 14.0
     ChargeGroup1: 909
@@ -178,6 +185,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: -18.809999465942383
+    name: Dark Blood Tracking Disruptor
   Guidance Disruptor I:
     AoeCloudSizeBonus: 10.0
     AoeVelocityBonus: -10.0
@@ -200,6 +208,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Guidance Disruptor I
   Guidance Disruptor II:
     AoeCloudSizeBonus: 12.0
     AoeVelocityBonus: -12.0
@@ -223,6 +232,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Guidance Disruptor II
   Highstroke Scoped Guidance Disruptor:
     AoeCloudSizeBonus: 11.0
     AoeVelocityBonus: -11.0
@@ -246,6 +256,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Highstroke Scoped Guidance Disruptor
   Tracking Disruptor I:
     CapacitorNeed: 15.0
     ChargeGroup1: 909
@@ -266,6 +277,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: -15.300000190734863
+    name: Tracking Disruptor I
   Tracking Disruptor II:
     CapacitorNeed: 18.0
     ChargeGroup1: 909
@@ -287,6 +299,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     TrackingSpeedBonus: -17.190000534057617
+    name: Tracking Disruptor II
   True Sansha Tracking Disruptor:
     CapacitorNeed: 14.0
     ChargeGroup1: 909
@@ -308,3 +321,4 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: -18.809999465942383
+    name: True Sansha Tracking Disruptor

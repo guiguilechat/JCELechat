@@ -6,6 +6,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    name: Advanced Target Management
   Gravimetric Sensor Compensation:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
@@ -13,6 +14,7 @@ items:
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
     SkillTimeConstant: 2.0
+    name: Gravimetric Sensor Compensation
   Ladar Sensor Compensation:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
@@ -20,12 +22,14 @@ items:
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
     SkillTimeConstant: 2.0
+    name: Ladar Sensor Compensation
   Long Range Targeting:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    name: Long Range Targeting
   Magnetometric Sensor Compensation:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
@@ -33,6 +37,7 @@ items:
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
     SkillTimeConstant: 2.0
+    name: Magnetometric Sensor Compensation
   Radar Sensor Compensation:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
@@ -40,12 +45,14 @@ items:
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
     SkillTimeConstant: 2.0
+    name: Radar Sensor Compensation
   Signature Analysis:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Signature Analysis
   Target Management:
     MaxTargetBonus: 1
     PrimaryAttribute: 165
@@ -53,3 +60,4 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Target Management

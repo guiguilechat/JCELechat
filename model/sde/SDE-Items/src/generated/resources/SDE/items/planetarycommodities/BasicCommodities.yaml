@@ -2,45 +2,60 @@ items:
   Bacteria:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Bacteria
   Biofuels:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Biofuels
   Biomass:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Biomass
   Chiral Structures:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Chiral Structures
   Electrolytes:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Electrolytes
   Industrial Fibers:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Industrial Fibers
   Oxidizing Compound:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Oxidizing Compound
   Oxygen:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Oxygen
   Plasmoids:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Plasmoids
   Precious Metals:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Precious Metals
   Proteins:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Proteins
   Reactive Metals:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Reactive Metals
   Silicon:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Silicon
   Toxic Metals:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Toxic Metals
   Water:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    name: Water

@@ -1,5 +1,7 @@
 items:
   Missile Guidance Enhancer I Blueprint:
     TechLevel: 1
+    name: Missile Guidance Enhancer I Blueprint
   Missile Guidance Enhancer II Blueprint:
     TechLevel: 2
+    name: Missile Guidance Enhancer II Blueprint

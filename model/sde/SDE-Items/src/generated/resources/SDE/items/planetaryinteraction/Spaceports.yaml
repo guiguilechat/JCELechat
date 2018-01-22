@@ -5,45 +5,53 @@ items:
     ImportTax: 0.5
     PlanetRestriction: 2016
     PowerLoad: 700
+    name: Barren Launchpad
   Gas Launchpad:
     CpuLoad: 3600
     ExportTax: 1
     ImportTax: 0.5
     PlanetRestriction: 13
     PowerLoad: 700
+    name: Gas Launchpad
   Ice Launchpad:
     CpuLoad: 3600
     ExportTax: 1
     ImportTax: 0.5
     PlanetRestriction: 12
     PowerLoad: 700
+    name: Ice Launchpad
   Lava Launchpad:
     CpuLoad: 3600
     ExportTax: 1
     ImportTax: 0.5
     PlanetRestriction: 2015
     PowerLoad: 700
+    name: Lava Launchpad
   Oceanic Launchpad:
     CpuLoad: 3600
     ExportTax: 1
     ImportTax: 0.5
     PlanetRestriction: 2014
     PowerLoad: 700
+    name: Oceanic Launchpad
   Plasma Launchpad:
     CpuLoad: 3600
     ExportTax: 1
     ImportTax: 0.5
     PlanetRestriction: 2063
     PowerLoad: 700
+    name: Plasma Launchpad
   Storm Launchpad:
     CpuLoad: 3600
     ExportTax: 1
     ImportTax: 0.5
     PlanetRestriction: 2017
     PowerLoad: 700
+    name: Storm Launchpad
   Temperate Launchpad:
     CpuLoad: 3600
     ExportTax: 1
     ImportTax: 0.5
     PlanetRestriction: 11
     PowerLoad: 700
+    name: Temperate Launchpad

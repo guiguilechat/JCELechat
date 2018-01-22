@@ -1,7 +1,13 @@
 items:
-  Sentient Crippler Alvatis: {}
-  Sentient Defeater Alvatis: {}
-  Sentient Enforcer Alvatis: {}
-  Sentient Exterminator Alvatis: {}
-  Sentient Siege Alvatis: {}
-  Sentient Striker Alvatis: {}
+  Sentient Crippler Alvatis:
+    name: Sentient Crippler Alvatis
+  Sentient Defeater Alvatis:
+    name: Sentient Defeater Alvatis
+  Sentient Enforcer Alvatis:
+    name: Sentient Enforcer Alvatis
+  Sentient Exterminator Alvatis:
+    name: Sentient Exterminator Alvatis
+  Sentient Siege Alvatis:
+    name: Sentient Siege Alvatis
+  Sentient Striker Alvatis:
+    name: Sentient Striker Alvatis

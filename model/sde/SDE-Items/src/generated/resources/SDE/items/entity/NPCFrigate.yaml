@@ -1,38 +1,75 @@
 items:
-  Atomizer Drone: {}
-  Barracuda Drone: {}
-  Infester Drone: {}
-  Splinter Drone: {}
-  Sunder Drone: {}
-  ♦ Atron: {}
-  ♦ Bantam: {}
-  ♦ Breacher: {}
-  ♦ Burst: {}
-  ♦ Condor: {}
-  ♦ Crucifier: {}
-  ♦ Cruor: {}
-  ♦ Daredevil: {}
-  ♦ Dramiel: {}
-  ♦ Executioner: {}
-  ♦ Fury: {}
-  ♦ Griffin: {}
-  ♦ Imp: {}
-  ♦ Incursus: {}
-  ♦ Inquisitor: {}
-  ♦ Kestrel: {}
-  ♦ Lynx: {}
-  ♦ Maulus: {}
-  ♦ Medusa: {}
-  ♦ Merlin: {}
-  ♦ Navitas: {}
-  ♦ Punisher: {}
-  ♦ Purifier: {}
-  ♦ Ravener: {}
-  ♦ Rifter: {}
-  ♦ Slasher: {}
-  ♦ Succubus: {}
-  ♦ Swordspine: {}
-  ♦ Tormentor: {}
-  ♦ Tristan: {}
-  ♦ Vigil: {}
-  ♦ Worm: {}
+  Atomizer Drone:
+    name: Atomizer Drone
+  Barracuda Drone:
+    name: Barracuda Drone
+  Infester Drone:
+    name: Infester Drone
+  Splinter Drone:
+    name: Splinter Drone
+  Sunder Drone:
+    name: Sunder Drone
+  ♦ Atron:
+    name: ♦ Atron
+  ♦ Bantam:
+    name: ♦ Bantam
+  ♦ Breacher:
+    name: ♦ Breacher
+  ♦ Burst:
+    name: ♦ Burst
+  ♦ Condor:
+    name: ♦ Condor
+  ♦ Crucifier:
+    name: ♦ Crucifier
+  ♦ Cruor:
+    name: ♦ Cruor
+  ♦ Daredevil:
+    name: ♦ Daredevil
+  ♦ Dramiel:
+    name: ♦ Dramiel
+  ♦ Executioner:
+    name: ♦ Executioner
+  ♦ Fury:
+    name: ♦ Fury
+  ♦ Griffin:
+    name: ♦ Griffin
+  ♦ Imp:
+    name: ♦ Imp
+  ♦ Incursus:
+    name: ♦ Incursus
+  ♦ Inquisitor:
+    name: ♦ Inquisitor
+  ♦ Kestrel:
+    name: ♦ Kestrel
+  ♦ Lynx:
+    name: ♦ Lynx
+  ♦ Maulus:
+    name: ♦ Maulus
+  ♦ Medusa:
+    name: ♦ Medusa
+  ♦ Merlin:
+    name: ♦ Merlin
+  ♦ Navitas:
+    name: ♦ Navitas
+  ♦ Punisher:
+    name: ♦ Punisher
+  ♦ Purifier:
+    name: ♦ Purifier
+  ♦ Ravener:
+    name: ♦ Ravener
+  ♦ Rifter:
+    name: ♦ Rifter
+  ♦ Slasher:
+    name: ♦ Slasher
+  ♦ Succubus:
+    name: ♦ Succubus
+  ♦ Swordspine:
+    name: ♦ Swordspine
+  ♦ Tormentor:
+    name: ♦ Tormentor
+  ♦ Tristan:
+    name: ♦ Tristan
+  ♦ Vigil:
+    name: ♦ Vigil
+  ♦ Worm:
+    name: ♦ Worm

@@ -3,116 +3,147 @@ items:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Absolution Blueprint
   Astarte Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Astarte Blueprint
   Brutix Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Brutix Blueprint
   Brutix Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Brutix Navy Issue Blueprint
   Brutix Serpentis Edition Blueprint:
     IndustryBlueprintRank: 50.0
     TechLevel: 1
+    name: Brutix Serpentis Edition Blueprint
   Claymore Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Claymore Blueprint
   Cyclone Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Cyclone Blueprint
   Cyclone Thukker Tribe Edition Blueprint:
     IndustryBlueprintRank: 50.0
     TechLevel: 1
+    name: Cyclone Thukker Tribe Edition Blueprint
   Damnation Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Damnation Blueprint
   Drake Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Drake Blueprint
   Drake Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Drake Navy Issue Blueprint
   Eos Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Eos Blueprint
   Ferox Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Ferox Blueprint
   Ferox Guristas Edition Blueprint:
     IndustryBlueprintRank: 50.0
     TechLevel: 1
+    name: Ferox Guristas Edition Blueprint
   Gnosis Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Gnosis Blueprint
   Harbinger Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Harbinger Blueprint
   Harbinger Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Harbinger Navy Issue Blueprint
   Hurricane Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Hurricane Blueprint
   Hurricane Fleet Issue Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Hurricane Fleet Issue Blueprint
   Myrmidon Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Myrmidon Blueprint
   Naga Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Naga Blueprint
   Nighthawk Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Nighthawk Blueprint
   Oracle Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Oracle Blueprint
   Prophecy Blood Raiders Edition Blueprint:
     IndustryBlueprintRank: 50.0
     TechLevel: 1
+    name: Prophecy Blood Raiders Edition Blueprint
   Prophecy Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Prophecy Blueprint
   Prototype Seven Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Prototype Seven Blueprint
   Sleipnir Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Sleipnir Blueprint
   Talos Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Talos Blueprint
   Tornado Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Tornado Blueprint
   Vulture Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Vulture Blueprint
   幼龙级YC117年特别版蓝图:
     TechLevel: 1
+    name: 幼龙级YC117年特别版蓝图

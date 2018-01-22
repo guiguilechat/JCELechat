@@ -29338,7 +29338,7 @@ id2name:
   43558: ♦ Augoror
   43559: ♦ Arbitrator
   43560: ♦ Maller
-  43561: ♦ Apocalypse
+  43561: ��� Apocalypse
   43562: ♦ Armageddon
   43563: ♦ Kestrel
   43564: ♦ Bantam
@@ -29378,7 +29378,7 @@ id2name:
   43598: ♦ Executioner
   43599: ♦ Crucifier
   43600: ♦ Cruor
-  43601: ♦ Omen
+  43601: ��� Omen
   43602: ♦ Augoror
   43603: ♦ Arbitrator
   43604: ♦ Ashimmu
@@ -67910,6 +67910,7 @@ name2group:
   ♦ Caiman: entity/NPCDreadnought
   ♦ Caracal: entity/NPCCruiser
   ♦ Celestis: entity/NPCCruiser
+  ♦ Chemosh: entity/NPCDreadnought
   ♦ Condor: entity/NPCFrigate
   ♦ Crucifier: entity/NPCFrigate
   ♦ Cruor: entity/NPCFrigate
@@ -68006,6 +68007,5 @@ name2group:
   银鹰级YC117年特别版蓝图: blueprint/CruiserBlueprint
   马克瑞级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   马克瑞��YC117年特别版: ship/Battleship
-  �� Chemosh: entity/NPCDreadnought
-  ��� Caracal: entity/NPCCruiser
-  ��� Raven: entity/NPCBattleship
+  ��� Apocalypse: entity/NPCBattleship
+  ��� Omen: entity/NPCCruiser

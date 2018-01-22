@@ -17,6 +17,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    name: Standup L-Set Basic Capital Component Manufacturing Efficiency I
   Standup L-Set Basic Capital Component Manufacturing Efficiency II:
     AttributeEngRigMatBonus: -2.4000000953674316
     AttributeEngRigTimeBonus: -24
@@ -35,6 +36,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    name: Standup L-Set Basic Capital Component Manufacturing Efficiency II
   Standup L-Set Thukker Basic Capital Component Manufacturing Efficiency:
     AttributeEngRigTimeBonus: -20
     AttributeThukkerEngRigMatBonus: -3.700000047683716
@@ -54,3 +56,4 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    name: Standup L-Set Thukker Basic Capital Component Manufacturing Efficiency

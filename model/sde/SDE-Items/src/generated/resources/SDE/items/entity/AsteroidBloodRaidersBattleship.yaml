@@ -1,11 +1,21 @@
 items:
-  Blood Apostle: {}
-  Blood Archbishop: {}
-  Blood Archon: {}
-  Blood Cardinal: {}
-  Blood Harbinger: {}
-  Blood Monsignor: {}
-  Blood Oracle: {}
-  Blood Patriarch: {}
-  Blood Pope: {}
-  Blood Prophet: {}
+  Blood Apostle:
+    name: Blood Apostle
+  Blood Archbishop:
+    name: Blood Archbishop
+  Blood Archon:
+    name: Blood Archon
+  Blood Cardinal:
+    name: Blood Cardinal
+  Blood Harbinger:
+    name: Blood Harbinger
+  Blood Monsignor:
+    name: Blood Monsignor
+  Blood Oracle:
+    name: Blood Oracle
+  Blood Patriarch:
+    name: Blood Patriarch
+  Blood Pope:
+    name: Blood Pope
+  Blood Prophet:
+    name: Blood Prophet

@@ -9,6 +9,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Cactus'' Modified Kinetic Deflection Amplifier'
   '''High Noon'' Thermal Dissipation Amplifier':
     Cpu: 20.0
     Hp: 40
@@ -19,6 +20,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -37.5
+    name: '''High Noon'' Thermal Dissipation Amplifier'
   '''Prospector'' EM Ward Amplifier':
     Cpu: 20.0
     EmDamageResistanceBonus: -37.5
@@ -29,6 +31,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Prospector'' EM Ward Amplifier'
   '''Whiskey'' Explosive Deflection Amplifier':
     Cpu: 20.0
     ExplosiveDamageResistanceBonus: -37.5
@@ -39,30 +42,35 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Whiskey'' Explosive Deflection Amplifier'
   Basic EM Ward Amplifier:
     EmDamageResistanceBonus: -25.0
     Hp: 40
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Basic EM Ward Amplifier
   Basic Explosive Deflection Amplifier:
     ExplosiveDamageResistanceBonus: -25.0
     Hp: 40
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Basic Explosive Deflection Amplifier
   Basic Kinetic Deflection Amplifier:
     Hp: 40
     KineticDamageResistanceBonus: -25.0
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Basic Kinetic Deflection Amplifier
   Basic Thermal Dissipation Amplifier:
     Hp: 40
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -25.0
+    name: Basic Thermal Dissipation Amplifier
   Caldari Navy EM Ward Amplifier:
     Cpu: 28.0
     EmDamageResistanceBonus: -39.400001525878906
@@ -73,6 +81,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Caldari Navy EM Ward Amplifier
   Caldari Navy Explosive Deflection Amplifier:
     Cpu: 28.0
     ExplosiveDamageResistanceBonus: -39.400001525878906
@@ -83,6 +92,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Caldari Navy Explosive Deflection Amplifier
   Caldari Navy Kinetic Deflection Amplifier:
     Cpu: 28.0
     Hp: 40
@@ -93,6 +103,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Caldari Navy Kinetic Deflection Amplifier
   Caldari Navy Thermal Dissipation Amplifier:
     Cpu: 28.0
     Hp: 40
@@ -103,6 +114,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -39.400001525878906
+    name: Caldari Navy Thermal Dissipation Amplifier
   Domination EM Ward Amplifier:
     Cpu: 17.0
     EmDamageResistanceBonus: -37.5
@@ -113,6 +125,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Domination EM Ward Amplifier
   Domination Explosive Deflection Amplifier:
     Cpu: 17.0
     ExplosiveDamageResistanceBonus: -37.5
@@ -123,6 +136,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Domination Explosive Deflection Amplifier
   Domination Kinetic Deflection Amplifier:
     Cpu: 17.0
     Hp: 40
@@ -133,6 +147,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Domination Kinetic Deflection Amplifier
   Domination Thermal Dissipation Amplifier:
     Cpu: 17.0
     Hp: 40
@@ -143,6 +158,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -37.5
+    name: Domination Thermal Dissipation Amplifier
   Dread Guristas EM Ward Amplifier:
     Cpu: 28.0
     EmDamageResistanceBonus: -39.400001525878906
@@ -153,6 +169,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Dread Guristas EM Ward Amplifier
   Dread Guristas Explosive Deflection Amplifier:
     Cpu: 28.0
     ExplosiveDamageResistanceBonus: -39.400001525878906
@@ -163,6 +180,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Dread Guristas Explosive Deflection Amplifier
   Dread Guristas Kinetic Deflection Amplifier:
     Cpu: 28.0
     Hp: 40
@@ -173,6 +191,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Dread Guristas Kinetic Deflection Amplifier
   Dread Guristas Thermal Dissipation Amplifier:
     Cpu: 28.0
     Hp: 40
@@ -183,6 +202,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -39.400001525878906
+    name: Dread Guristas Thermal Dissipation Amplifier
   EM Ward Amplifier I:
     EmDamageResistanceBonus: -32.5
     Hp: 40
@@ -190,6 +210,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: EM Ward Amplifier I
   EM Ward Amplifier II:
     EmDamageResistanceBonus: -37.5
     Hp: 40
@@ -198,6 +219,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: EM Ward Amplifier II
   Estamel's Modified EM Ward Amplifier:
     Cpu: 38.0
     EmDamageResistanceBonus: -46.0
@@ -208,6 +230,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Estamel's Modified EM Ward Amplifier
   Estamel's Modified Explosive Deflection Amplifier:
     Cpu: 38.0
     ExplosiveDamageResistanceBonus: -46.0
@@ -218,6 +241,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Estamel's Modified Explosive Deflection Amplifier
   Estamel's Modified Kinetic Deflection Amplifier:
     Cpu: 38.0
     Hp: 40
@@ -228,6 +252,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Estamel's Modified Kinetic Deflection Amplifier
   Estamel's Modified Thermal Dissipation Amplifier:
     Cpu: 38.0
     Hp: 40
@@ -238,6 +263,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -46.0
+    name: Estamel's Modified Thermal Dissipation Amplifier
   Explosive Deflection Amplifier I:
     ExplosiveDamageResistanceBonus: -32.5
     Hp: 40
@@ -245,6 +271,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Explosive Deflection Amplifier I
   Explosive Deflection Amplifier II:
     ExplosiveDamageResistanceBonus: -37.5
     Hp: 40
@@ -253,6 +280,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: Explosive Deflection Amplifier II
   Gistum A-Type EM Ward Amplifier:
     Cpu: 29.0
     EmDamageResistanceBonus: -43.20000076293945
@@ -263,6 +291,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Gistum A-Type EM Ward Amplifier
   Gistum A-Type Explosive Deflection Amplifier:
     Cpu: 29.0
     ExplosiveDamageResistanceBonus: -43.20000076293945
@@ -273,6 +302,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Gistum A-Type Explosive Deflection Amplifier
   Gistum A-Type Kinetic Deflection Amplifier:
     Cpu: 29.0
     Hp: 40
@@ -283,6 +313,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Gistum A-Type Kinetic Deflection Amplifier
   Gistum A-Type Thermal Dissipation Amplifier:
     Cpu: 29.0
     Hp: 40
@@ -293,6 +324,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -43.20000076293945
+    name: Gistum A-Type Thermal Dissipation Amplifier
   Gistum B-Type EM Ward Amplifier:
     Cpu: 27.0
     EmDamageResistanceBonus: -42.20000076293945
@@ -303,6 +335,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Gistum B-Type EM Ward Amplifier
   Gistum B-Type Explosive Deflection Amplifier:
     Cpu: 27.0
     ExplosiveDamageResistanceBonus: -42.20000076293945
@@ -313,6 +346,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Gistum B-Type Explosive Deflection Amplifier
   Gistum B-Type Kinetic Deflection Amplifier:
     Cpu: 27.0
     Hp: 40
@@ -323,6 +357,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Gistum B-Type Kinetic Deflection Amplifier
   Gistum B-Type Thermal Dissipation Amplifier:
     Cpu: 27.0
     Hp: 40
@@ -333,6 +368,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -42.20000076293945
+    name: Gistum B-Type Thermal Dissipation Amplifier
   Gistum C-Type EM Ward Amplifier:
     Cpu: 25.0
     EmDamageResistanceBonus: -40.29999923706055
@@ -343,6 +379,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Gistum C-Type EM Ward Amplifier
   Gistum C-Type Explosive Deflection Amplifier:
     Cpu: 25.0
     ExplosiveDamageResistanceBonus: -40.29999923706055
@@ -353,6 +390,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Gistum C-Type Explosive Deflection Amplifier
   Gistum C-Type Kinetic Deflection Amplifier:
     Cpu: 25.0
     Hp: 40
@@ -363,6 +401,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Gistum C-Type Kinetic Deflection Amplifier
   Gistum C-Type Thermal Dissipation Amplifier:
     Cpu: 25.0
     Hp: 40
@@ -373,6 +412,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -40.29999923706055
+    name: Gistum C-Type Thermal Dissipation Amplifier
   Hakim's Modified EM Ward Amplifier:
     Cpu: 27.0
     EmDamageResistanceBonus: -42.20000076293945
@@ -383,6 +423,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Hakim's Modified EM Ward Amplifier
   Hakim's Modified Explosive Deflection Amplifier:
     Cpu: 27.0
     ExplosiveDamageResistanceBonus: -42.20000076293945
@@ -393,6 +434,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Hakim's Modified Explosive Deflection Amplifier
   Hakim's Modified Kinetic Deflection Amplifier:
     Cpu: 27.0
     Hp: 40
@@ -403,6 +445,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Hakim's Modified Kinetic Deflection Amplifier
   Hakim's Modified Thermal Dissipation Amplifier:
     Cpu: 27.0
     Hp: 40
@@ -413,6 +456,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -42.20000076293945
+    name: Hakim's Modified Thermal Dissipation Amplifier
   Kaikka's Modified EM Ward Amplifier:
     Cpu: 30.0
     EmDamageResistanceBonus: -41.29999923706055
@@ -423,6 +467,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Kaikka's Modified EM Ward Amplifier
   Kaikka's Modified Explosive Deflection Amplifier:
     Cpu: 30.0
     ExplosiveDamageResistanceBonus: -41.29999923706055
@@ -433,6 +478,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Kaikka's Modified Explosive Deflection Amplifier
   Kaikka's Modified Kinetic Deflection Amplifier:
     Cpu: 30.0
     Hp: 40
@@ -443,6 +489,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Kaikka's Modified Kinetic Deflection Amplifier
   Kaikka's Modified Thermal Dissipation Amplifier:
     Cpu: 30.0
     Hp: 40
@@ -453,6 +500,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -41.29999923706055
+    name: Kaikka's Modified Thermal Dissipation Amplifier
   Kinetic Deflection Amplifier I:
     Hp: 40
     KineticDamageResistanceBonus: -32.5
@@ -460,6 +508,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Kinetic Deflection Amplifier I
   Kinetic Deflection Amplifier II:
     Hp: 40
     KineticDamageResistanceBonus: -37.5
@@ -468,6 +517,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: Kinetic Deflection Amplifier II
   Pithum A-Type EM Ward Amplifier:
     Cpu: 36.0
     EmDamageResistanceBonus: -45.099998474121094
@@ -478,6 +528,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Pithum A-Type EM Ward Amplifier
   Pithum A-Type Explosive Deflection Amplifier:
     Cpu: 36.0
     ExplosiveDamageResistanceBonus: -45.099998474121094
@@ -488,6 +539,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Pithum A-Type Explosive Deflection Amplifier
   Pithum A-Type Kinetic Deflection Amplifier:
     Cpu: 36.0
     Hp: 40
@@ -498,6 +550,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Pithum A-Type Kinetic Deflection Amplifier
   Pithum A-Type Thermal Dissipation Amplifier:
     Cpu: 36.0
     Hp: 40
@@ -508,6 +561,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -45.099998474121094
+    name: Pithum A-Type Thermal Dissipation Amplifier
   Pithum B-Type EM Ward Amplifier:
     Cpu: 34.0
     EmDamageResistanceBonus: -44.099998474121094
@@ -518,6 +572,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Pithum B-Type EM Ward Amplifier
   Pithum B-Type Explosive Deflection Amplifier:
     Cpu: 34.0
     ExplosiveDamageResistanceBonus: -44.099998474121094
@@ -528,6 +583,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Pithum B-Type Explosive Deflection Amplifier
   Pithum B-Type Kinetic Deflection Amplifier:
     Cpu: 34.0
     Hp: 40
@@ -538,6 +594,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Pithum B-Type Kinetic Deflection Amplifier
   Pithum B-Type Thermal Dissipation Amplifier:
     Cpu: 34.0
     Hp: 40
@@ -548,6 +605,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -44.099998474121094
+    name: Pithum B-Type Thermal Dissipation Amplifier
   Pithum C-Type EM Ward Amplifier:
     Cpu: 30.0
     EmDamageResistanceBonus: -41.29999923706055
@@ -558,6 +616,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Pithum C-Type EM Ward Amplifier
   Pithum C-Type Explosive Deflection Amplifier:
     Cpu: 30.0
     ExplosiveDamageResistanceBonus: -41.29999923706055
@@ -568,6 +627,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Pithum C-Type Explosive Deflection Amplifier
   Pithum C-Type Kinetic Deflection Amplifier:
     Cpu: 30.0
     Hp: 40
@@ -578,6 +638,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Pithum C-Type Kinetic Deflection Amplifier
   Pithum C-Type Thermal Dissipation Amplifier:
     Cpu: 30.0
     Hp: 40
@@ -588,6 +649,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -41.29999923706055
+    name: Pithum C-Type Thermal Dissipation Amplifier
   Republic Fleet EM Ward Amplifier:
     Cpu: 26.0
     EmDamageResistanceBonus: -37.5
@@ -598,6 +660,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Republic Fleet EM Ward Amplifier
   Republic Fleet Explosive Deflection Amplifier:
     Cpu: 26.0
     ExplosiveDamageResistanceBonus: -37.5
@@ -608,6 +671,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Republic Fleet Explosive Deflection Amplifier
   Republic Fleet Kinetic Deflection Amplifier:
     Cpu: 26.0
     Hp: 40
@@ -618,6 +682,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Republic Fleet Kinetic Deflection Amplifier
   Republic Fleet Thermal Dissipation Amplifier:
     Cpu: 26.0
     Hp: 40
@@ -628,30 +693,35 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -37.5
+    name: Republic Fleet Thermal Dissipation Amplifier
   Supplemental EM Ward Amplifier:
     EmDamageResistanceBonus: -25.0
     Hp: 40
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Supplemental EM Ward Amplifier
   Supplemental Explosive Deflection Amplifier:
     ExplosiveDamageResistanceBonus: -25.0
     Hp: 40
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Supplemental Explosive Deflection Amplifier
   Supplemental Kinetic Deflection Amplifier:
     Hp: 40
     KineticDamageResistanceBonus: -25.0
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Supplemental Kinetic Deflection Amplifier
   Supplemental Thermal Dissipation Amplifier:
     Hp: 40
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -25.0
+    name: Supplemental Thermal Dissipation Amplifier
   Thermal Dissipation Amplifier I:
     Hp: 40
     Power: 1
@@ -659,6 +729,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -32.5
+    name: Thermal Dissipation Amplifier I
   Thermal Dissipation Amplifier II:
     Hp: 40
     MetaLevel: 5
@@ -667,6 +738,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     ThermalDamageResistanceBonus: -37.5
+    name: Thermal Dissipation Amplifier II
   Thon's Modified EM Ward Amplifier:
     Cpu: 34.0
     EmDamageResistanceBonus: -44.099998474121094
@@ -677,6 +749,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Thon's Modified EM Ward Amplifier
   Thon's Modified Explosive Deflection Amplifier:
     Cpu: 34.0
     ExplosiveDamageResistanceBonus: -44.099998474121094
@@ -687,6 +760,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Thon's Modified Explosive Deflection Amplifier
   Thon's Modified Kinetic Deflection Amplifier:
     Cpu: 34.0
     Hp: 40
@@ -697,6 +771,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Thon's Modified Kinetic Deflection Amplifier
   Thon's Modified Thermal Dissipation Amplifier:
     Cpu: 34.0
     Hp: 40
@@ -707,6 +782,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -44.099998474121094
+    name: Thon's Modified Thermal Dissipation Amplifier
   Tobias' Modified EM Ward Amplifier:
     Cpu: 29.0
     EmDamageResistanceBonus: -44.099998474121094
@@ -717,6 +793,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Tobias' Modified EM Ward Amplifier
   Tobias' Modified Explosive Deflection Amplifier:
     Cpu: 29.0
     ExplosiveDamageResistanceBonus: -44.099998474121094
@@ -727,6 +804,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Tobias' Modified Explosive Deflection Amplifier
   Tobias' Modified Kinetic Deflection Amplifier:
     Cpu: 29.0
     Hp: 40
@@ -737,6 +815,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Tobias' Modified Kinetic Deflection Amplifier
   Tobias' Modified Thermal Dissipation Amplifier:
     Cpu: 29.0
     Hp: 40
@@ -747,6 +826,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -44.099998474121094
+    name: Tobias' Modified Thermal Dissipation Amplifier
   Upgraded EM Ward Amplifier I:
     EmDamageResistanceBonus: -32.5
     Hp: 40
@@ -755,6 +835,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Upgraded EM Ward Amplifier I
   Upgraded Explosive Deflection Amplifier I:
     ExplosiveDamageResistanceBonus: -32.5
     Hp: 40
@@ -763,6 +844,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Upgraded Explosive Deflection Amplifier I
   Upgraded Kinetic Deflection Amplifier I:
     Hp: 40
     KineticDamageResistanceBonus: -32.5
@@ -771,6 +853,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Upgraded Kinetic Deflection Amplifier I
   Upgraded Thermal Dissipation Amplifier I:
     Hp: 40
     MetaLevel: 1
@@ -779,6 +862,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -32.5
+    name: Upgraded Thermal Dissipation Amplifier I
   Vepas' Modified EM Ward Amplifier:
     Cpu: 36.0
     EmDamageResistanceBonus: -45.099998474121094
@@ -789,6 +873,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Vepas' Modified EM Ward Amplifier
   Vepas' Modified Explosive Deflection Amplifier:
     Cpu: 36.0
     ExplosiveDamageResistanceBonus: -45.099998474121094
@@ -799,6 +884,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Vepas' Modified Explosive Deflection Amplifier
   Vepas' Modified Kinetic Deflection Amplifier:
     Cpu: 36.0
     Hp: 40
@@ -809,6 +895,7 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Vepas' Modified Kinetic Deflection Amplifier
   Vepas' Modified Thermal Dissipation Amplifier:
     Cpu: 36.0
     Hp: 40
@@ -819,3 +906,4 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -45.099998474121094
+    name: Vepas' Modified Thermal Dissipation Amplifier

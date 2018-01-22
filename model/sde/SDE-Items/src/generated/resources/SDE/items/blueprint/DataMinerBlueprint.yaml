@@ -2,45 +2,60 @@ items:
   '''Alpha'' Data Analyzer I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Alpha'' Data Analyzer I Blueprint'
   '''Codex'' Data Analyzer I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Codex'' Data Analyzer I Blueprint'
   '''Daemon'' Data Analyzer I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Daemon'' Data Analyzer I Blueprint'
   '''Libram'' Data Analyzer I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Libram'' Data Analyzer I Blueprint'
   Civilian Data Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Civilian Data Analyzer Blueprint
   Civilian Relic Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Civilian Relic Analyzer Blueprint
   Data Analyzer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Data Analyzer I Blueprint
   Data Analyzer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Data Analyzer II Blueprint
   Data Subverter I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Data Subverter I Blueprint
   Ligature Integrated Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Ligature Integrated Analyzer Blueprint
   Mangled Sansha Data Analyzer Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Mangled Sansha Data Analyzer Blueprint
   Purloined Sansha Data Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Purloined Sansha Data Analyzer Blueprint
   Relic Analyzer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Relic Analyzer I Blueprint
   Relic Analyzer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Relic Analyzer II Blueprint
   Zeugma Integrated Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Zeugma Integrated Analyzer Blueprint

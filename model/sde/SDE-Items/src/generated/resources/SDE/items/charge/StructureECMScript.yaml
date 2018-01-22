@@ -7,6 +7,7 @@ items:
     ScanMagnetometricStrengthBonusBonus: -50
     ScanRadarStrengthBonusBonus: -50
     StructureItemVisualFlag: 1
+    name: Standup Gravimetric ECM Script
   Standup Ladar ECM Script:
     ChargeSize: 1
     LauncherGroup: 1332
@@ -15,6 +16,7 @@ items:
     ScanMagnetometricStrengthBonusBonus: -50
     ScanRadarStrengthBonusBonus: -50
     StructureItemVisualFlag: 1
+    name: Standup Ladar ECM Script
   Standup Magnetometric ECM Script:
     ChargeSize: 1
     LauncherGroup: 1332
@@ -23,6 +25,7 @@ items:
     ScanMagnetometricStrengthBonusBonus: 100
     ScanRadarStrengthBonusBonus: -50
     StructureItemVisualFlag: 1
+    name: Standup Magnetometric ECM Script
   Standup Radar ECM Script:
     ChargeSize: 1
     LauncherGroup: 1332
@@ -31,3 +34,4 @@ items:
     ScanMagnetometricStrengthBonusBonus: -50
     ScanRadarStrengthBonusBonus: 100
     StructureItemVisualFlag: 1
+    name: Standup Radar ECM Script

@@ -1,7 +1,13 @@
 items:
-  Dismantler Drone: {}
-  Marauder Drone: {}
-  Predator Drone: {}
-  Ripper Drone: {}
-  Shatter Drone: {}
-  Shredder Drone: {}
+  Dismantler Drone:
+    name: Dismantler Drone
+  Marauder Drone:
+    name: Marauder Drone
+  Predator Drone:
+    name: Predator Drone
+  Ripper Drone:
+    name: Ripper Drone
+  Shatter Drone:
+    name: Shatter Drone
+  Shredder Drone:
+    name: Shredder Drone

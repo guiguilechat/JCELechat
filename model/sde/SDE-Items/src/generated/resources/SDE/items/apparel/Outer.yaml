@@ -1,567 +1,743 @@
 items:
   '''Silvershore'' Greatcoat':
     Gender: 1
+    name: '''Silvershore'' Greatcoat'
   ArmorSuitCF01_Copper.type:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 3
+    name: ArmorSuitCF01_Copper.type
   'ArmorSuitMM01_Copper.type ':
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 1
+    name: 'ArmorSuitMM01_Copper.type '
   JacketALM01_JinMeiOpera.type:
     Gender: 2
+    name: JacketALM01_JinMeiOpera.type
   JacketCLM01_Concord.type:
     Gender: 1
+    name: JacketCLM01_Concord.type
   JacketFBR01_concord.type:
     Gender: 3
+    name: JacketFBR01_concord.type
   JacketSLF_01_JinMeiOpera.type:
     Gender: 2
+    name: JacketSLF_01_JinMeiOpera.type
   LabCoatF01_Cyan.type:
     ClothingAlsoCoversCategory: 25
     Gender: 3
+    name: LabCoatF01_Cyan.type
   LabCoatF01_Green.type:
     ClothingAlsoCoversCategory: 25
     Gender: 3
+    name: LabCoatF01_Green.type
   LabCoatF01_Orange.type:
     ClothingAlsoCoversCategory: 25
     Gender: 3
+    name: LabCoatF01_Orange.type
   LabCoatM01_Cyan.type:
     Gender: 1
+    name: LabCoatM01_Cyan.type
   LabCoatM01_Green.type:
     Gender: 1
+    name: LabCoatM01_Green.type
   LabCoatM01_Orange:
     Gender: 1
+    name: LabCoatM01_Orange
   Men's 'Curate' Coat (black/silver):
     Gender: 1
+    name: Men's 'Curate' Coat (black/silver)
   Men's 'Curate' Coat (dark bronze):
     Gender: 1
+    name: Men's 'Curate' Coat (dark bronze)
   Men's 'Curate' Coat (festive):
     Gender: 1
+    name: Men's 'Curate' Coat (festive)
   Men's 'Curate' Coat (red/gold):
     Gender: 1
+    name: Men's 'Curate' Coat (red/gold)
   Men's 'Curate' Coat (royal gold):
     Gender: 1
+    name: Men's 'Curate' Coat (royal gold)
   Men's 'Curate' Coat (white gold):
     Gender: 1
+    name: Men's 'Curate' Coat (white gold)
   Men's 'Esquire' Coat:
     Gender: 1
+    name: Men's 'Esquire' Coat
   Men's 'Esquire' Coat (black):
     Gender: 1
+    name: Men's 'Esquire' Coat (black)
   Men's 'Esquire' Coat (green/gold):
     Gender: 1
+    name: Men's 'Esquire' Coat (green/gold)
   Men's 'Esquire' Coat (matte graphite):
     Gender: 1
+    name: Men's 'Esquire' Coat (matte graphite)
   Men's 'Esquire' Coat (matte gray):
     Gender: 1
+    name: Men's 'Esquire' Coat (matte gray)
   Men's 'Esquire' Coat (matte green):
     Gender: 1
+    name: Men's 'Esquire' Coat (matte green)
   Men's 'Esquire' Coat (red/gold):
     Gender: 1
+    name: Men's 'Esquire' Coat (red/gold)
   Men's 'Esquire' Coat (silver):
     Gender: 1
+    name: Men's 'Esquire' Coat (silver)
   Men's 'Field Marshal' Coat:
     Gender: 1
+    name: Men's 'Field Marshal' Coat
   Men's 'Field Marshal' Coat (green):
     Gender: 1
+    name: Men's 'Field Marshal' Coat (green)
   Men's 'Impact' Jacket (dark red):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Impact' Jacket (dark red)
   Men's 'Impact' Jacket (graphite):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Impact' Jacket (graphite)
   Men's 'Impact' Jacket (green camo):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Impact' Jacket (green camo)
   Men's 'Impact' Jacket (monochrome):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Impact' Jacket (monochrome)
   Men's 'Impact' Jacket (reflective blue):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Impact' Jacket (reflective blue)
   Men's 'Marshal' Jacket (Amarr):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Marshal' Jacket (Amarr)
   Men's 'Marshal' Jacket (Angel Cartel):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Marshal' Jacket (Angel Cartel)
   Men's 'Marshal' Jacket (Blood Raiders black/red):
     Gender: 1
+    name: Men's 'Marshal' Jacket (Blood Raiders black/red)
   Men's 'Marshal' Jacket (Blood Raiders):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Marshal' Jacket (Blood Raiders)
   Men's 'Marshal' Jacket (Caldari):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Marshal' Jacket (Caldari)
   Men's 'Marshal' Jacket (Gallente):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Marshal' Jacket (Gallente)
   Men's 'Marshal' Jacket (Guristas):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Marshal' Jacket (Guristas)
   Men's 'Marshal' Jacket (InterBus):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Marshal' Jacket (InterBus)
   Men's 'Marshal' Jacket (Minmatar):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Marshal' Jacket (Minmatar)
   Men's 'Marshal' Jacket (Mordu's Legion):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Marshal' Jacket (Mordu's Legion)
   Men's 'Marshal' Jacket (ORE):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Marshal' Jacket (ORE)
   Men's 'Marshal' Jacket (Sansha's Nation):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Marshal' Jacket (Sansha's Nation)
   Men's 'Marshal' Jacket (Serpentis):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Marshal' Jacket (Serpentis)
   Men's 'Marshal' Jacket (Sisters of EVE):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Marshal' Jacket (Sisters of EVE)
   Men's 'Mirelle' Upwell Executive Coat:
     Gender: 1
+    name: Men's 'Mirelle' Upwell Executive Coat
   Men's 'Outlaw' Jacket (Blood Raiders extra red):
     Gender: 1
+    name: Men's 'Outlaw' Jacket (Blood Raiders extra red)
   Men's 'Outlaw' Jacket (Blood Raiders):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Outlaw' Jacket (Blood Raiders)
   Men's 'Outlaw' Jacket (Burnt Orange):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Outlaw' Jacket (Burnt Orange)
   Men's 'Outlaw' Jacket (Guristas):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Outlaw' Jacket (Guristas)
   Men's 'Outlaw' Jacket (Sansha's Nation):
     ClothingRemovesCategory: 2
     Gender: 1
+    name: Men's 'Outlaw' Jacket (Sansha's Nation)
   Men's 'Source' Coat (black):
     Gender: 1
+    name: Men's 'Source' Coat (black)
   Men's 'Valkyrie' Flight Jacket:
     Gender: 2
+    name: Men's 'Valkyrie' Flight Jacket
   Men's Amarr Empire Command Jacket:
     Gender: 2
+    name: Men's Amarr Empire Command Jacket
   Men's Amarr Empire Exploration Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 1
+    name: Men's Amarr Empire Exploration Suit
   Men's CONCORD 'Solitaire' Survival Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 1
+    name: Men's CONCORD 'Solitaire' Survival Suit
   Men's Caldari State Exploration Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 1
+    name: Men's Caldari State Exploration Suit
   Men's Caldari State Officer Jacket:
     Gender: 2
+    name: Men's Caldari State Officer Jacket
   Men's Corporate Troubleshooter Gear:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 1
+    name: Men's Corporate Troubleshooter Gear
   Men's Exoplanets Data Analyst Lab Coat:
     Gender: 2
+    name: Men's Exoplanets Data Analyst Lab Coat
   Men's Exoplanets Hunter Mission Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 1
+    name: Men's Exoplanets Hunter Mission Suit
   Men's Exoplanets Program Director Coat:
     Gender: 2
+    name: Men's Exoplanets Program Director Coat
   Men's Federal Strategic Materiel Jacket:
     Gender: 2
+    name: Men's Federal Strategic Materiel Jacket
   Men's Gallente Federation Command Jacket:
     Gender: 2
+    name: Men's Gallente Federation Command Jacket
   Men's Gallente Federation Exploration Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 1
+    name: Men's Gallente Federation Exploration Suit
   Men's Genolution Combat Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 1
+    name: Men's Genolution Combat Suit
   Men's IGC Location Scout Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 1
+    name: Men's IGC Location Scout Suit
   Men's Imperial War Reserves Jacket:
     Gender: 2
+    name: Men's Imperial War Reserves Jacket
   Men's Minmatar Republic Exploration Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 1
+    name: Men's Minmatar Republic Exploration Suit
   Men's Minmatar Republic Officer Jacket:
     Gender: 2
+    name: Men's Minmatar Republic Officer Jacket
   Men's ORE Claim Surveyor Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 1
+    name: Men's ORE Claim Surveyor Suit
   Men's Republic Fleet Ordnance Jacket:
     Gender: 2
+    name: Men's Republic Fleet Ordnance Jacket
   Men's SOE Expeditionary Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 1
+    name: Men's SOE Expeditionary Suit
   Men's Scope Network Special Correspondent Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 1
+    name: Men's Scope Network Special Correspondent Suit
   Men's Sisters of EVE Advanced Combat Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 1
+    name: Men's Sisters of EVE Advanced Combat Suit
   Men's Sisters of EVE Analysis Coat:
     Gender: 1
+    name: Men's Sisters of EVE Analysis Coat
   Men's State Military Stockpile Jacket:
     Gender: 2
+    name: Men's State Military Stockpile Jacket
   Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_black.type:
     ClothingRemovesCategory: 2
     ClothingRuleException: 1
     Gender: 3
+    name: Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_black.type
   Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_blue.type:
     ClothingRemovesCategory: 2
     ClothingRuleException: 1
     Gender: 3
+    name: Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_blue.type
   Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_brown.type:
     ClothingRemovesCategory: 2
     ClothingRuleException: 1
     Gender: 3
+    name: Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_brown.type
   Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_orange.type:
     ClothingRemovesCategory: 2
     ClothingRuleException: 1
     Gender: 3
+    name: Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_orange.type
   Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_red.type:
     ClothingRemovesCategory: 2
     ClothingRuleException: 1
     Gender: 3
+    name: Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_red.type
   Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_stealth.type:
     ClothingRemovesCategory: 2
     ClothingRuleException: 1
     Gender: 3
+    name: Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_stealth.type
   Women's 'Eternity' Suit Top (Black/Gold):
     ClothingRemovesCategory: 2
     ClothingRuleException: 1
     Gender: 3
+    name: Women's 'Eternity' Suit Top (Black/Gold)
   Women's 'Eternity' Suit Top (Black/Red):
     ClothingRemovesCategory: 2
     ClothingRuleException: 1
     Gender: 3
+    name: Women's 'Eternity' Suit Top (Black/Red)
   Women's 'Eternity' Suit Top (Olive):
     ClothingRemovesCategory: 2
     ClothingRuleException: 1
     Gender: 3
+    name: Women's 'Eternity' Suit Top (Olive)
   Women's 'Eternity' Suit Top (White):
     ClothingRemovesCategory: 2
     ClothingRuleException: 1
     Gender: 3
+    name: Women's 'Eternity' Suit Top (White)
   Women's 'Eternity' Suit Top (Yellow):
     ClothingRemovesCategory: 2
     ClothingRuleException: 1
     Gender: 3
+    name: Women's 'Eternity' Suit Top (Yellow)
   Women's 'Executor' Coat:
     Gender: 3
+    name: Women's 'Executor' Coat
   Women's 'Executor' Coat (black):
     Gender: 3
+    name: Women's 'Executor' Coat (black)
   Women's 'Executor' Coat (graphite):
     Gender: 3
+    name: Women's 'Executor' Coat (graphite)
   Women's 'Executor' Coat (green/gold):
     Gender: 3
+    name: Women's 'Executor' Coat (green/gold)
   Women's 'Executor' Coat (matte blue):
     Gender: 3
+    name: Women's 'Executor' Coat (matte blue)
   Women's 'Executor' Coat (matte red):
     Gender: 3
+    name: Women's 'Executor' Coat (matte red)
   Women's 'Executor' Coat (red/gold):
     Gender: 3
+    name: Women's 'Executor' Coat (red/gold)
   Women's 'Executor' Coat (silver):
     Gender: 3
+    name: Women's 'Executor' Coat (silver)
   Women's 'Gunner' Jacket (Amarr):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Gunner' Jacket (Amarr)
   Women's 'Gunner' Jacket (Angel Cartel):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Gunner' Jacket (Angel Cartel)
   Women's 'Gunner' Jacket (Blood Raiders black):
     Gender: 3
+    name: Women's 'Gunner' Jacket (Blood Raiders black)
   Women's 'Gunner' Jacket (Blood Raiders):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Gunner' Jacket (Blood Raiders)
   Women's 'Gunner' Jacket (Caldari):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Gunner' Jacket (Caldari)
   Women's 'Gunner' Jacket (Gallente):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Gunner' Jacket (Gallente)
   Women's 'Gunner' Jacket (Guristas):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Gunner' Jacket (Guristas)
   Women's 'Gunner' Jacket (InterBus):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Gunner' Jacket (InterBus)
   Women's 'Gunner' Jacket (Minmatar):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Gunner' Jacket (Minmatar)
   Women's 'Gunner' Jacket (Mordu's Legion):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Gunner' Jacket (Mordu's Legion)
   Women's 'Gunner' Jacket (ORE):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Gunner' Jacket (ORE)
   Women's 'Gunner' Jacket (Sansha's Nation):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Gunner' Jacket (Sansha's Nation)
   Women's 'Gunner' Jacket (Serpentis):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Gunner' Jacket (Serpentis)
   Women's 'Gunner' Jacket (Sisters of EVE):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Gunner' Jacket (Sisters of EVE)
   Women's 'Mirelle' Upwell Executive Coat:
     Gender: 3
+    name: Women's 'Mirelle' Upwell Executive Coat
   Women's 'Outlaw' Coat (Blood Raiders extra red):
     Gender: 3
+    name: Women's 'Outlaw' Coat (Blood Raiders extra red)
   Women's 'Outlaw' Coat (Blood Raiders):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Outlaw' Coat (Blood Raiders)
   Women's 'Outlaw' Coat (Burnt Orange):
     Gender: 3
+    name: Women's 'Outlaw' Coat (Burnt Orange)
   Women's 'Outlaw' Coat (Guristas):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Outlaw' Coat (Guristas)
   Women's 'Outlaw' Coat (Sansha's Nation):
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Outlaw' Coat (Sansha's Nation)
   Women's 'Rocket' Dress (black):
     Gender: 3
+    name: Women's 'Rocket' Dress (black)
   Women's 'Rocket' Dress (blue):
     Gender: 3
+    name: Women's 'Rocket' Dress (blue)
   Women's 'Rocket' Dress (copper):
     Gender: 3
+    name: Women's 'Rocket' Dress (copper)
   Women's 'Rocket' Dress (dark grey):
     Gender: 3
+    name: Women's 'Rocket' Dress (dark grey)
   Women's 'Rocket' Dress (dark teal):
     Gender: 3
+    name: Women's 'Rocket' Dress (dark teal)
   Women's 'Rocket' Dress (festive):
     Gender: 3
+    name: Women's 'Rocket' Dress (festive)
   Women's 'Rocket' Dress (glossy black):
     Gender: 3
+    name: Women's 'Rocket' Dress (glossy black)
   Women's 'Rocket' Dress (green):
     Gender: 3
+    name: Women's 'Rocket' Dress (green)
   'Women''s ''Rocket'' Dress (metal) ':
     Gender: 3
+    name: 'Women''s ''Rocket'' Dress (metal) '
   Women's 'Rocket' Dress (purple):
     Gender: 3
+    name: Women's 'Rocket' Dress (purple)
   Women's 'Rocket' Dress (red):
     Gender: 3
+    name: Women's 'Rocket' Dress (red)
   Women's 'Rocket' Dress (white):
     Gender: 3
+    name: Women's 'Rocket' Dress (white)
   Women's 'Sanctity' Dress (black/gold):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Sanctity' Dress (black/gold)
   Women's 'Sanctity' Dress (blue/silver):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Sanctity' Dress (blue/silver)
   Women's 'Sanctity' Dress (brown/gold):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Sanctity' Dress (brown/gold)
   Women's 'Sanctity' Dress (cream/gold):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Sanctity' Dress (cream/gold)
   Women's 'Sanctity' Dress (green/gold):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Sanctity' Dress (green/gold)
   Women's 'Sanctity' Dress (olive/gold):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Sanctity' Dress (olive/gold)
   Women's 'Sanctity' Dress (red/gold):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Sanctity' Dress (red/gold)
   Women's 'Sanctity' Dress (red/silver):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 2
     Gender: 3
+    name: Women's 'Sanctity' Dress (red/silver)
   Women's 'Source' Coat (silver):
     Gender: 3
+    name: Women's 'Source' Coat (silver)
   Women's 'Structure' Dress (black):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 25
     Gender: 3
+    name: Women's 'Structure' Dress (black)
   Women's 'Structure' Dress (black/white):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 25
     Gender: 3
+    name: Women's 'Structure' Dress (black/white)
   Women's 'Structure' Dress (brown):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 25
     Gender: 3
+    name: Women's 'Structure' Dress (brown)
   Women's 'Structure' Dress (gold/black):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 25
     Gender: 3
+    name: Women's 'Structure' Dress (gold/black)
   Women's 'Structure' Dress (graphite):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 25
     Gender: 3
+    name: Women's 'Structure' Dress (graphite)
   Women's 'Structure' Dress (green):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 25
     Gender: 3
+    name: Women's 'Structure' Dress (green)
   Women's 'Structure' Dress (matte blue):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 25
     Gender: 3
+    name: Women's 'Structure' Dress (matte blue)
   Women's 'Structure' Dress (matte red):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 25
     Gender: 3
+    name: Women's 'Structure' Dress (matte red)
   Women's 'Structure' Dress (navy):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 25
     Gender: 3
+    name: Women's 'Structure' Dress (navy)
   Women's 'Structure' Dress (red):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 25
     Gender: 3
+    name: Women's 'Structure' Dress (red)
   Women's 'Structure' Dress (turquoise):
     ClothingAlsoCoversCategory: 25
     ClothingRemovesCategory: 25
     Gender: 3
+    name: Women's 'Structure' Dress (turquoise)
   Women's 'Valkyrie' Flight Jacket:
     Gender: 2
+    name: Women's 'Valkyrie' Flight Jacket
   Women's Amarr Empire Command Jacket:
     Gender: 2
+    name: Women's Amarr Empire Command Jacket
   Women's Amarr Empire Exploration Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 3
+    name: Women's Amarr Empire Exploration Suit
   Women's CONCORD 'Solitaire' Survival Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 3
+    name: Women's CONCORD 'Solitaire' Survival Suit
   Women's Caldari State Exploration Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 3
+    name: Women's Caldari State Exploration Suit
   Women's Caldari State Officer Jacket:
     Gender: 2
+    name: Women's Caldari State Officer Jacket
   Women's Corporate Troubleshooter Gear:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 3
+    name: Women's Corporate Troubleshooter Gear
   Women's Exoplanets Data Analyst Lab Coat:
     Gender: 2
+    name: Women's Exoplanets Data Analyst Lab Coat
   Women's Exoplanets Hunter Mission Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 3
+    name: Women's Exoplanets Hunter Mission Suit
   Women's Exoplanets Program Director Coat:
     Gender: 2
+    name: Women's Exoplanets Program Director Coat
   Women's Federal Strategic Materiel Jacket:
     Gender: 2
+    name: Women's Federal Strategic Materiel Jacket
   Women's Gallente Federation Command Jacket:
     Gender: 2
+    name: Women's Gallente Federation Command Jacket
   Women's Gallente Federation Exploration Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 3
+    name: Women's Gallente Federation Exploration Suit
   Women's Genolution Combat Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 3
+    name: Women's Genolution Combat Suit
   Women's IGC Location Scout Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 3
+    name: Women's IGC Location Scout Suit
   Women's Imperial War Reserves Jacket:
     Gender: 2
+    name: Women's Imperial War Reserves Jacket
   Women's Minmatar Republic Exploration Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 3
+    name: Women's Minmatar Republic Exploration Suit
   Women's Minmatar Republic Officer Jacket:
     Gender: 2
+    name: Women's Minmatar Republic Officer Jacket
   Women's ORE Claim Surveyor Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 3
+    name: Women's ORE Claim Surveyor Suit
   Women's Republic Fleet Ordnance Jacket:
     Gender: 2
+    name: Women's Republic Fleet Ordnance Jacket
   Women's SOE Expeditionary Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 3
+    name: Women's SOE Expeditionary Suit
   Women's Scope Network Special Correspondent Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 3
+    name: Women's Scope Network Special Correspondent Suit
   Women's Sisters of EVE Advanced Combat Suit:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
     ClothingRemovesCategory: 25
     ClothingRemovesCategory2: 22
     Gender: 3
+    name: Women's Sisters of EVE Advanced Combat Suit
   Women's Sisters of EVE Analysis Coat:
     ClothingAlsoCoversCategory: 25
     Gender: 3
+    name: Women's Sisters of EVE Analysis Coat
   Women's State Military Stockpile Jacket:
     Gender: 2
+    name: Women's State Military Stockpile Jacket

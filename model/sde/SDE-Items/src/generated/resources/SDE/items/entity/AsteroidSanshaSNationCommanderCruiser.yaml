@@ -1,11 +1,21 @@
 items:
-  True Sansha's Beast: {}
-  True Sansha's Execrator: {}
-  True Sansha's Fiend: {}
-  True Sansha's Hellhound: {}
-  True Sansha's Juggernaut: {}
-  True Sansha's Mutilator: {}
-  True Sansha's Ravager: {}
-  True Sansha's Ravisher: {}
-  True Sansha's Slaughterer: {}
-  True Sansha's Torturer: {}
+  True Sansha's Beast:
+    name: True Sansha's Beast
+  True Sansha's Execrator:
+    name: True Sansha's Execrator
+  True Sansha's Fiend:
+    name: True Sansha's Fiend
+  True Sansha's Hellhound:
+    name: True Sansha's Hellhound
+  True Sansha's Juggernaut:
+    name: True Sansha's Juggernaut
+  True Sansha's Mutilator:
+    name: True Sansha's Mutilator
+  True Sansha's Ravager:
+    name: True Sansha's Ravager
+  True Sansha's Ravisher:
+    name: True Sansha's Ravisher
+  True Sansha's Slaughterer:
+    name: True Sansha's Slaughterer
+  True Sansha's Torturer:
+    name: True Sansha's Torturer

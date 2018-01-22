@@ -1,51 +1,101 @@
 items:
-  Elite Federation Arcus: {}
-  Elite Federation Insidiator: {}
-  Elite Federation Libertus: {}
-  Elite Federation Lixa: {}
-  Elite Federation Lochos: {}
-  Elite Federation Machina: {}
-  Elite Federation Manica: {}
-  Elite Federation Matara: {}
-  Elite Federation Pelekus: {}
-  Elite Federation Phalarica: {}
-  Federation Clavis: {}
-  Federation Hastile: {}
-  Federation Hoplon: {}
-  Federation Insidiator: {}
-  Federation Kontos: {}
-  Federation Kopis: {}
-  Federation Libertus: {}
-  Federation Manica: {}
-  Federation Navy Atron: {}
-  Federation Navy Delta I Support Frigate: {}
-  Federation Navy Delta II Support Frigate: {}
-  Federation Navy Elite Soldier: {}
-  Federation Navy Gamma I Support Frigate: {}
-  Federation Navy Gamma II Support Frigate: {}
-  Federation Navy Maulus: {}
-  Federation Navy Officer: {}
-  Federation Navy Scout: {}
-  Federation Navy Soldier: {}
-  Federation Navy Squad Leader: {}
-  Federation Praktor Balra: {}
-  Federation Praktor Belos: {}
-  Federation Praktor Harpago: {}
-  Gallente CA Frigate: {}
-  Gallente Miner: {}
-  Gallente Spy Drone: {}
-  Independent Atron: {}
-  Independent Green-Crewed Atron: {}
-  Independent Green-Crewed Imicus: {}
-  Independent Green-Crewed Incursus: {}
-  Independent Green-Crewed Maulus: {}
-  Independent Green-Crewed Tristan: {}
-  Independent Imicus: {}
-  Independent Incursus: {}
-  Independent Maulus: {}
-  Independent Tristan: {}
-  Independent Veteran Atron: {}
-  Independent Veteran Imicus: {}
-  Independent Veteran Incursus: {}
-  Independent Veteran Maulus: {}
-  Independent Veteran Tristan: {}
+  Elite Federation Arcus:
+    name: Elite Federation Arcus
+  Elite Federation Insidiator:
+    name: Elite Federation Insidiator
+  Elite Federation Libertus:
+    name: Elite Federation Libertus
+  Elite Federation Lixa:
+    name: Elite Federation Lixa
+  Elite Federation Lochos:
+    name: Elite Federation Lochos
+  Elite Federation Machina:
+    name: Elite Federation Machina
+  Elite Federation Manica:
+    name: Elite Federation Manica
+  Elite Federation Matara:
+    name: Elite Federation Matara
+  Elite Federation Pelekus:
+    name: Elite Federation Pelekus
+  Elite Federation Phalarica:
+    name: Elite Federation Phalarica
+  Federation Clavis:
+    name: Federation Clavis
+  Federation Hastile:
+    name: Federation Hastile
+  Federation Hoplon:
+    name: Federation Hoplon
+  Federation Insidiator:
+    name: Federation Insidiator
+  Federation Kontos:
+    name: Federation Kontos
+  Federation Kopis:
+    name: Federation Kopis
+  Federation Libertus:
+    name: Federation Libertus
+  Federation Manica:
+    name: Federation Manica
+  Federation Navy Atron:
+    name: Federation Navy Atron
+  Federation Navy Delta I Support Frigate:
+    name: Federation Navy Delta I Support Frigate
+  Federation Navy Delta II Support Frigate:
+    name: Federation Navy Delta II Support Frigate
+  Federation Navy Elite Soldier:
+    name: Federation Navy Elite Soldier
+  Federation Navy Gamma I Support Frigate:
+    name: Federation Navy Gamma I Support Frigate
+  Federation Navy Gamma II Support Frigate:
+    name: Federation Navy Gamma II Support Frigate
+  Federation Navy Maulus:
+    name: Federation Navy Maulus
+  Federation Navy Officer:
+    name: Federation Navy Officer
+  Federation Navy Scout:
+    name: Federation Navy Scout
+  Federation Navy Soldier:
+    name: Federation Navy Soldier
+  Federation Navy Squad Leader:
+    name: Federation Navy Squad Leader
+  Federation Praktor Balra:
+    name: Federation Praktor Balra
+  Federation Praktor Belos:
+    name: Federation Praktor Belos
+  Federation Praktor Harpago:
+    name: Federation Praktor Harpago
+  Gallente CA Frigate:
+    name: Gallente CA Frigate
+  Gallente Miner:
+    name: Gallente Miner
+  Gallente Spy Drone:
+    name: Gallente Spy Drone
+  Independent Atron:
+    name: Independent Atron
+  Independent Green-Crewed Atron:
+    name: Independent Green-Crewed Atron
+  Independent Green-Crewed Imicus:
+    name: Independent Green-Crewed Imicus
+  Independent Green-Crewed Incursus:
+    name: Independent Green-Crewed Incursus
+  Independent Green-Crewed Maulus:
+    name: Independent Green-Crewed Maulus
+  Independent Green-Crewed Tristan:
+    name: Independent Green-Crewed Tristan
+  Independent Imicus:
+    name: Independent Imicus
+  Independent Incursus:
+    name: Independent Incursus
+  Independent Maulus:
+    name: Independent Maulus
+  Independent Tristan:
+    name: Independent Tristan
+  Independent Veteran Atron:
+    name: Independent Veteran Atron
+  Independent Veteran Imicus:
+    name: Independent Veteran Imicus
+  Independent Veteran Incursus:
+    name: Independent Veteran Incursus
+  Independent Veteran Maulus:
+    name: Independent Veteran Maulus
+  Independent Veteran Tristan:
+    name: Independent Veteran Tristan

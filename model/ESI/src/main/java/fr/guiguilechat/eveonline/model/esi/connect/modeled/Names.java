@@ -1,6 +1,7 @@
 package fr.guiguilechat.eveonline.model.esi.connect.modeled;
 
 import java.util.ArrayList;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.connect.ESIRawConnection;
@@ -24,13 +25,15 @@ public class Names {
 		if (ids == null || ids.length == 0) {
 			return new R_get_characters_names[0];
 		}
+		// have to work with long, because CCP bug.
+		long[] lids = IntStream.of(ids).mapToLong(i -> i).toArray();
 		ArrayList<R_get_characters_names> ret = new ArrayList<>();
 		long[] fullbuffer = new long[MAXIDPERREQUEST];
-		for (int start = 0; start < ids.length; start += MAXIDPERREQUEST) {
-			if (start + MAXIDPERREQUEST >= ids.length) {
-				fullbuffer = new long[ids.length - start];
+		for (int start = 0; start < lids.length; start += MAXIDPERREQUEST) {
+			if (start + MAXIDPERREQUEST >= lids.length) {
+				fullbuffer = new long[lids.length - start];
 			}
-			System.arraycopy(ids, start, fullbuffer, 0, fullbuffer.length);
+			System.arraycopy(lids, start, fullbuffer, 0, fullbuffer.length);
 			Stream.of(raw.get_characters_names(fullbuffer)).forEachOrdered(ret::add);
 		}
 		return ret.toArray(new R_get_characters_names[0]);

@@ -1,3 +1,5 @@
 items:
-  Caldari State Shuttle: {}
-  Mysterious Shuttle: {}
+  Caldari State Shuttle:
+    name: Caldari State Shuttle
+  Mysterious Shuttle:
+    name: Mysterious Shuttle

@@ -1,22 +1,43 @@
 items:
-  Domination Ambusher: {}
-  Domination Hijacker: {}
-  Domination Hunter: {}
-  Domination Impaler: {}
-  Domination Nomad: {}
-  Domination Outlaw: {}
-  Domination Raider: {}
-  Domination Rogue: {}
-  Domination Ruffian: {}
-  Domination Thug: {}
-  Domination Wang Chunger: {}
-  Psycho Ambusher: {}
-  Psycho Hijacker: {}
-  Psycho Hunter: {}
-  Psycho Impaler: {}
-  Psycho Nomad: {}
-  Psycho Outlaw: {}
-  Psycho Raider: {}
-  Psycho Rogue: {}
-  Psycho Ruffian: {}
-  Psycho Thug: {}
+  Domination Ambusher:
+    name: Domination Ambusher
+  Domination Hijacker:
+    name: Domination Hijacker
+  Domination Hunter:
+    name: Domination Hunter
+  Domination Impaler:
+    name: Domination Impaler
+  Domination Nomad:
+    name: Domination Nomad
+  Domination Outlaw:
+    name: Domination Outlaw
+  Domination Raider:
+    name: Domination Raider
+  Domination Rogue:
+    name: Domination Rogue
+  Domination Ruffian:
+    name: Domination Ruffian
+  Domination Thug:
+    name: Domination Thug
+  Domination Wang Chunger:
+    name: Domination Wang Chunger
+  Psycho Ambusher:
+    name: Psycho Ambusher
+  Psycho Hijacker:
+    name: Psycho Hijacker
+  Psycho Hunter:
+    name: Psycho Hunter
+  Psycho Impaler:
+    name: Psycho Impaler
+  Psycho Nomad:
+    name: Psycho Nomad
+  Psycho Outlaw:
+    name: Psycho Outlaw
+  Psycho Raider:
+    name: Psycho Raider
+  Psycho Rogue:
+    name: Psycho Rogue
+  Psycho Ruffian:
+    name: Psycho Ruffian
+  Psycho Thug:
+    name: Psycho Thug

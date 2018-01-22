@@ -1,21 +1,41 @@
 items:
-  'Alliance Tournament I: Band of Brothers': {}
-  'Alliance Tournament I: KAOS Empire': {}
-  'Alliance Tournament II: Band of Brothers': {}
-  'Alliance Tournament III: Band of Brothers': {}
-  'Alliance Tournament III: Cult of War': {}
-  'Alliance Tournament III: Interstellar Alcohol Conglomerate': {}
-  'Alliance Tournament IV: HUN Reloaded': {}
-  'Alliance Tournament IV: Pandemic Legion': {}
-  'Alliance Tournament IV: Star Fraction': {}
-  'Alliance Tournament IX: Darkside.': {}
-  'Alliance Tournament IX: HYDRA RELOADED and 0utbreak': {}
-  'Alliance Tournament V: Ev0ke': {}
-  'Alliance Tournament V: Triumvirate': {}
-  'Alliance Tournament VI: Pandemic Legion': {}
-  'Alliance Tournament VI: R.U.R.': {}
-  'Alliance Tournament VII: Pandemic Legion': {}
-  'Alliance Tournament VIII: HYDRA RELOADED': {}
-  'Alliance Tournament VIII: Pandemic Legion': {}
-  'Alliance Tournament X: HUN Reloaded': {}
-  'Alliance Tournament X: Verge of Collapse': {}
+  'Alliance Tournament I: Band of Brothers':
+    name: 'Alliance Tournament I: Band of Brothers'
+  'Alliance Tournament I: KAOS Empire':
+    name: 'Alliance Tournament I: KAOS Empire'
+  'Alliance Tournament II: Band of Brothers':
+    name: 'Alliance Tournament II: Band of Brothers'
+  'Alliance Tournament III: Band of Brothers':
+    name: 'Alliance Tournament III: Band of Brothers'
+  'Alliance Tournament III: Cult of War':
+    name: 'Alliance Tournament III: Cult of War'
+  'Alliance Tournament III: Interstellar Alcohol Conglomerate':
+    name: 'Alliance Tournament III: Interstellar Alcohol Conglomerate'
+  'Alliance Tournament IV: HUN Reloaded':
+    name: 'Alliance Tournament IV: HUN Reloaded'
+  'Alliance Tournament IV: Pandemic Legion':
+    name: 'Alliance Tournament IV: Pandemic Legion'
+  'Alliance Tournament IV: Star Fraction':
+    name: 'Alliance Tournament IV: Star Fraction'
+  'Alliance Tournament IX: Darkside.':
+    name: 'Alliance Tournament IX: Darkside.'
+  'Alliance Tournament IX: HYDRA RELOADED and 0utbreak':
+    name: 'Alliance Tournament IX: HYDRA RELOADED and 0utbreak'
+  'Alliance Tournament V: Ev0ke':
+    name: 'Alliance Tournament V: Ev0ke'
+  'Alliance Tournament V: Triumvirate':
+    name: 'Alliance Tournament V: Triumvirate'
+  'Alliance Tournament VI: Pandemic Legion':
+    name: 'Alliance Tournament VI: Pandemic Legion'
+  'Alliance Tournament VI: R.U.R.':
+    name: 'Alliance Tournament VI: R.U.R.'
+  'Alliance Tournament VII: Pandemic Legion':
+    name: 'Alliance Tournament VII: Pandemic Legion'
+  'Alliance Tournament VIII: HYDRA RELOADED':
+    name: 'Alliance Tournament VIII: HYDRA RELOADED'
+  'Alliance Tournament VIII: Pandemic Legion':
+    name: 'Alliance Tournament VIII: Pandemic Legion'
+  'Alliance Tournament X: HUN Reloaded':
+    name: 'Alliance Tournament X: HUN Reloaded'
+  'Alliance Tournament X: Verge of Collapse':
+    name: 'Alliance Tournament X: Verge of Collapse'

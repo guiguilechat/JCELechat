@@ -1,4 +1,7 @@
 items:
-  Plutonium: {}
-  Radioactive Waste: {}
-  Toxic Waste: {}
+  Plutonium:
+    name: Plutonium
+  Radioactive Waste:
+    name: Radioactive Waste
+  Toxic Waste:
+    name: Toxic Waste

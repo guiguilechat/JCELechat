@@ -23,6 +23,7 @@ items:
     RequiredSkill1: 11579
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: '''Smokescreen'' Covert Ops Cloaking Device II'
   CONCORD Modified Cloaking Device:
     CloakingTargetingDelay: 22500
     Hp: 40
@@ -35,6 +36,7 @@ items:
     RequiredSkill1Level: 5
     ScanResolutionMultiplier: 0.7149999737739563
     TechLevel: 1
+    name: CONCORD Modified Cloaking Device
   Caldari Navy Cloaking Device:
     CloakingTargetingDelay: 25000
     Hp: 40
@@ -47,6 +49,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.6499999761581421
     TechLevel: 1
+    name: Caldari Navy Cloaking Device
   Covert Ops Cloaking Device II:
     CanFitShipGroup01: 963
     CanFitShipGroup02: 830
@@ -70,6 +73,7 @@ items:
     RequiredSkill1: 11579
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: Covert Ops Cloaking Device II
   Dread Guristas Cloaking Device:
     CloakingTargetingDelay: 25000
     Hp: 40
@@ -82,6 +86,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.6499999761581421
     TechLevel: 1
+    name: Dread Guristas Cloaking Device
   Estamel's Modified Cloaking Device:
     CloakingTargetingDelay: 20000
     Hp: 40
@@ -94,6 +99,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.7799999713897705
     TechLevel: 1
+    name: Estamel's Modified Cloaking Device
   Improved 'Guise' Cloaking Device II:
     CloakingTargetingDelay: 19000
     Hp: 40
@@ -106,6 +112,7 @@ items:
     RequiredSkill1Level: 3
     ScanResolutionMultiplier: 0.6499999761581421
     TechLevel: 2
+    name: Improved 'Guise' Cloaking Device II
   Improved Cloaking Device II:
     CloakingTargetingDelay: 20000
     Hp: 40
@@ -117,6 +124,7 @@ items:
     RequiredSkill1Level: 3
     ScanResolutionMultiplier: 0.6000000238418579
     TechLevel: 2
+    name: Improved Cloaking Device II
   Kaikka's Modified Cloaking Device:
     CloakingTargetingDelay: 23750
     Hp: 40
@@ -129,6 +137,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.6825000047683716
     TechLevel: 1
+    name: Kaikka's Modified Cloaking Device
   Prototype 'Poncho' Cloaking Device I:
     CloakingTargetingDelay: 29000
     Hp: 40
@@ -141,6 +150,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.550000011920929
     TechLevel: 1
+    name: Prototype 'Poncho' Cloaking Device I
   Prototype Cloaking Device I:
     CloakingTargetingDelay: 30000
     Hp: 40
@@ -151,6 +161,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.5
     TechLevel: 1
+    name: Prototype Cloaking Device I
   Syndicate Cloaking Device:
     CloakingTargetingDelay: 18000
     Cpu: 75.0
@@ -164,6 +175,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.699999988079071
     TechLevel: 1
+    name: Syndicate Cloaking Device
   Thon's Modified Cloaking Device:
     CloakingTargetingDelay: 22500
     Hp: 40
@@ -176,6 +188,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.7149999737739563
     TechLevel: 1
+    name: Thon's Modified Cloaking Device
   Vepas' Modified Cloaking Device:
     CloakingTargetingDelay: 21250
     Hp: 40
@@ -188,3 +201,4 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionMultiplier: 0.7475000023841858
     TechLevel: 1
+    name: Vepas' Modified Cloaking Device

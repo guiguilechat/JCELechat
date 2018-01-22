@@ -1,21 +1,41 @@
 items:
-  Barracuda Drone: {}
-  Decimator Drone: {}
-  Devilfish Drone: {}
-  Hunter Drone: {}
-  Infester Drone: {}
-  Raider Drone: {}
-  Render Drone: {}
-  Silverfish Drone: {}
-  Splinter Drone: {}
-  Strain Barracuda Drone: {}
-  Strain Decimator Drone: {}
-  Strain Devilfish Drone: {}
-  Strain Hunter Drone: {}
-  Strain Infester Drone: {}
-  Strain Raider Drone: {}
-  Strain Render Drone: {}
-  Strain Silverfish Drone: {}
-  Strain Splinter Drone: {}
-  Strain Sunder Drone: {}
-  Sunder Drone: {}
+  Barracuda Drone:
+    name: Barracuda Drone
+  Decimator Drone:
+    name: Decimator Drone
+  Devilfish Drone:
+    name: Devilfish Drone
+  Hunter Drone:
+    name: Hunter Drone
+  Infester Drone:
+    name: Infester Drone
+  Raider Drone:
+    name: Raider Drone
+  Render Drone:
+    name: Render Drone
+  Silverfish Drone:
+    name: Silverfish Drone
+  Splinter Drone:
+    name: Splinter Drone
+  Strain Barracuda Drone:
+    name: Strain Barracuda Drone
+  Strain Decimator Drone:
+    name: Strain Decimator Drone
+  Strain Devilfish Drone:
+    name: Strain Devilfish Drone
+  Strain Hunter Drone:
+    name: Strain Hunter Drone
+  Strain Infester Drone:
+    name: Strain Infester Drone
+  Strain Raider Drone:
+    name: Strain Raider Drone
+  Strain Render Drone:
+    name: Strain Render Drone
+  Strain Silverfish Drone:
+    name: Strain Silverfish Drone
+  Strain Splinter Drone:
+    name: Strain Splinter Drone
+  Strain Sunder Drone:
+    name: Strain Sunder Drone
+  Sunder Drone:
+    name: Sunder Drone

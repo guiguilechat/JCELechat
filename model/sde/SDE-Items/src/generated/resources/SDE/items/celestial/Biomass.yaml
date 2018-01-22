@@ -2,6 +2,8 @@ items:
   Corpse Female:
     Hp: 10
     SignatureRadius: 50
+    name: Corpse Female
   Corpse Male:
     Hp: 10
     SignatureRadius: 50
+    name: Corpse Male

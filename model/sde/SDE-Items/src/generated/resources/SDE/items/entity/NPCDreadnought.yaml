@@ -1,3 +1,5 @@
 items:
-  ♦ Caiman: {}
-  ♦ Chemosh: {}
+  ♦ Caiman:
+    name: ♦ Caiman
+  ♦ Chemosh:
+    name: ♦ Chemosh

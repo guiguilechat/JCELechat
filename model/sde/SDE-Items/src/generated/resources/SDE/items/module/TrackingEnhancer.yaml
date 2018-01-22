@@ -11,6 +11,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 6.0
+    name: '''Basic'' Tracking Enhancer'
   Auto-Gain Control Tracking Enhancer I:
     FalloffBonus: 14.600000381469727
     Hp: 40
@@ -21,6 +22,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 7.699999809265137
+    name: Auto-Gain Control Tracking Enhancer I
   Azimuth Descalloping Tracking Enhancer:
     FalloffBonus: 7.400000095367432
     Hp: 40
@@ -30,6 +32,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 5.5
+    name: Azimuth Descalloping Tracking Enhancer
   Beam Parallax Tracking Program:
     FalloffBonus: 8.0
     Hp: 40
@@ -39,6 +42,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 6.0
+    name: Beam Parallax Tracking Program
   Beta-Nought Tracking Mode:
     FalloffBonus: 7.0
     Hp: 40
@@ -48,6 +52,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 5.25
+    name: Beta-Nought Tracking Mode
   Domination Tracking Enhancer:
     FalloffBonus: 21.0
     Hp: 40
@@ -59,6 +64,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 10.0
+    name: Domination Tracking Enhancer
   F-AQ Delay-Line Scan Tracking Subroutines:
     FalloffBonus: 7.599999904632568
     Hp: 40
@@ -68,6 +74,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 5.75
+    name: F-AQ Delay-Line Scan Tracking Subroutines
   F-aQ Phase Code Tracking Subroutines:
     FalloffBonus: 15.399999618530273
     Hp: 40
@@ -78,6 +85,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 8.050000190734863
+    name: F-aQ Phase Code Tracking Subroutines
   Fourier Compact Tracking Enhancer:
     Cpu: 8.0
     FalloffBonus: 16.5
@@ -89,6 +97,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 8.0
+    name: Fourier Compact Tracking Enhancer
   Gotan's Modified Tracking Enhancer:
     FalloffBonus: 24.0
     Hp: 40
@@ -100,6 +109,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 17.5
+    name: Gotan's Modified Tracking Enhancer
   Hakim's Modified Tracking Enhancer:
     FalloffBonus: 23.0
     Hp: 40
@@ -111,6 +121,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 15.0
+    name: Hakim's Modified Tracking Enhancer
   Mizuro's Modified Tracking Enhancer:
     FalloffBonus: 22.0
     Hp: 40
@@ -122,6 +133,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 12.5
+    name: Mizuro's Modified Tracking Enhancer
   Republic Fleet Tracking Enhancer:
     FalloffBonus: 21.0
     Hp: 40
@@ -133,6 +145,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 10.0
+    name: Republic Fleet Tracking Enhancer
   Sigma-Nought Tracking Mode I:
     FalloffBonus: 14.0
     Hp: 40
@@ -143,6 +156,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 7.349999904632568
+    name: Sigma-Nought Tracking Mode I
   Tobias' Modified Tracking Enhancer:
     FalloffBonus: 25.0
     Hp: 40
@@ -154,6 +168,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 20.0
+    name: Tobias' Modified Tracking Enhancer
   Tracking Enhancer I:
     FalloffBonus: 14.5
     Hp: 40
@@ -163,6 +178,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 7.0
+    name: Tracking Enhancer I
   Tracking Enhancer II:
     FalloffBonus: 20.0
     Hp: 40
@@ -173,3 +189,4 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedBonus: 9.5
+    name: Tracking Enhancer II

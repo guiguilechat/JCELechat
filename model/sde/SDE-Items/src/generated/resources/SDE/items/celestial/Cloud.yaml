@@ -1,84 +1,166 @@
 items:
-  Acidic Cloud: {}
-  Amarr Prime Station Cloud: {}
-  Amber Cloud: {}
-  Amber Cytoserocin 2: {}
-  Argon Gas Environment: {}
-  Assembly Site Audio Object: {}
-  Astrahus Lights On: {}
-  Celestial Environment: {}
-  Chlorine Cloud: {}
-  Cloud Rings: {}
-  Cyno Effect: {}
-  Dark Cloud: {}
-  Dark Gray Cloud: {}
-  Dark Gray Turbulent Cloud: {}
-  Dark Green Cloud: {}
-  Debris Cloud: {}
-  Debris Cloud Flat: {}
-  Default Citadel Large Placement State: {}
-  Default Citadel Medium Placement State: {}
-  Default Citadel X-Large Placement State: {}
-  Drifter Hive Explosion: {}
+  Acidic Cloud:
+    name: Acidic Cloud
+  Amarr Prime Station Cloud:
+    name: Amarr Prime Station Cloud
+  Amber Cloud:
+    name: Amber Cloud
+  Amber Cytoserocin 2:
+    name: Amber Cytoserocin 2
+  Argon Gas Environment:
+    name: Argon Gas Environment
+  Assembly Site Audio Object:
+    name: Assembly Site Audio Object
+  Astrahus Lights On:
+    name: Astrahus Lights On
+  Celestial Environment:
+    name: Celestial Environment
+  Chlorine Cloud:
+    name: Chlorine Cloud
+  Cloud Rings:
+    name: Cloud Rings
+  Cyno Effect:
+    name: Cyno Effect
+  Dark Cloud:
+    name: Dark Cloud
+  Dark Gray Cloud:
+    name: Dark Gray Cloud
+  Dark Gray Turbulent Cloud:
+    name: Dark Gray Turbulent Cloud
+  Dark Green Cloud:
+    name: Dark Green Cloud
+  Debris Cloud:
+    name: Debris Cloud
+  Debris Cloud Flat:
+    name: Debris Cloud Flat
+  Default Citadel Large Placement State:
+    name: Default Citadel Large Placement State
+  Default Citadel Medium Placement State:
+    name: Default Citadel Medium Placement State
+  Default Citadel X-Large Placement State:
+    name: Default Citadel X-Large Placement State
+  Drifter Hive Explosion:
+    name: Drifter Hive Explosion
   Drone Beacon:
     Hp: 100000000
-  Dust Cloud: {}
-  Dust Storm Environment: {}
-  Dust Streak: {}
-  Electric Cloud: {}
-  Ethereal Environment: {}
-  Fire Cloud: {}
-  Fortizar Lights On: {}
-  Gaseous Cloud: {}
-  Green Gas Cloud: {}
-  Icefield Environment: {}
-  Infernal Environment: {}
-  Invisible Cloud: {}
-  Invisible Warp Out Object: {}
-  Invisible Warp Out Object (Except POD): {}
-  Ion Cloud: {}
-  Keepstar Lights On: {}
-  Krypton Gas Environment: {}
-  Large Industrial Array Placement State Default: {}
-  Large Refinery Invulnerable State Default: {}
-  Large Refinery Placement State Default: {}
-  Large Refinery Sieged State Default: {}
-  Large Refinery Vulnerable State Default: {}
-  Lightning Storm Environment: {}
-  Medium Industrial Array Placement State Default: {}
-  Medium Refinery Invulnerable State Default: {}
-  Medium Refinery Placement State Default: {}
-  Medium Refinery Sieged State Default: {}
-  Medium Refinery Vulnerable State Default: {}
-  Meteor Cloud: {}
-  Micro Nebula: {}
-  MidPoint Effect: {}
-  Nebulaic Cloud: {}
-  Plasma Cloud: {}
-  Plasmic Gas Cloud: {}
-  Radon Gas Environment: {}
-  Rusty Cloud: {}
-  Smugglers Den Audio Object: {}
-  Soft Cloud: {}
-  Spark Cloud: {}
-  Spawner1: {}
-  Spawner10: {}
-  Spawner2: {}
-  Spawner3: {}
-  Spawner4: {}
-  Spawner5: {}
-  Spawner6: {}
-  Spawner7: {}
-  Spawner8: {}
-  Spawner9: {}
-  Strange Beacon: {}
-  Sulphuric Cloud: {}
-  TestAsset_01: {}
-  TestAsset_02: {}
-  Toxic Cloud Environment: {}
-  Turbulent Storm Environment: {}
-  Warp Disruption Bubble Effect: {}
-  Wispy Chlorine Cloud: {}
-  Wispy Orange Cloud: {}
-  XLarge Industrial Array Placement State Default: {}
-  Xenon Gas Environment: {}
+    name: Drone Beacon
+  Dust Cloud:
+    name: Dust Cloud
+  Dust Storm Environment:
+    name: Dust Storm Environment
+  Dust Streak:
+    name: Dust Streak
+  Electric Cloud:
+    name: Electric Cloud
+  Ethereal Environment:
+    name: Ethereal Environment
+  Fire Cloud:
+    name: Fire Cloud
+  Fortizar Lights On:
+    name: Fortizar Lights On
+  Gaseous Cloud:
+    name: Gaseous Cloud
+  Green Gas Cloud:
+    name: Green Gas Cloud
+  Icefield Environment:
+    name: Icefield Environment
+  Infernal Environment:
+    name: Infernal Environment
+  Invisible Cloud:
+    name: Invisible Cloud
+  Invisible Warp Out Object:
+    name: Invisible Warp Out Object
+  Invisible Warp Out Object (Except POD):
+    name: Invisible Warp Out Object (Except POD)
+  Ion Cloud:
+    name: Ion Cloud
+  Keepstar Lights On:
+    name: Keepstar Lights On
+  Krypton Gas Environment:
+    name: Krypton Gas Environment
+  Large Industrial Array Placement State Default:
+    name: Large Industrial Array Placement State Default
+  Large Refinery Invulnerable State Default:
+    name: Large Refinery Invulnerable State Default
+  Large Refinery Placement State Default:
+    name: Large Refinery Placement State Default
+  Large Refinery Sieged State Default:
+    name: Large Refinery Sieged State Default
+  Large Refinery Vulnerable State Default:
+    name: Large Refinery Vulnerable State Default
+  Lightning Storm Environment:
+    name: Lightning Storm Environment
+  Medium Industrial Array Placement State Default:
+    name: Medium Industrial Array Placement State Default
+  Medium Refinery Invulnerable State Default:
+    name: Medium Refinery Invulnerable State Default
+  Medium Refinery Placement State Default:
+    name: Medium Refinery Placement State Default
+  Medium Refinery Sieged State Default:
+    name: Medium Refinery Sieged State Default
+  Medium Refinery Vulnerable State Default:
+    name: Medium Refinery Vulnerable State Default
+  Meteor Cloud:
+    name: Meteor Cloud
+  Micro Nebula:
+    name: Micro Nebula
+  MidPoint Effect:
+    name: MidPoint Effect
+  Nebulaic Cloud:
+    name: Nebulaic Cloud
+  Plasma Cloud:
+    name: Plasma Cloud
+  Plasmic Gas Cloud:
+    name: Plasmic Gas Cloud
+  Radon Gas Environment:
+    name: Radon Gas Environment
+  Rusty Cloud:
+    name: Rusty Cloud
+  Smugglers Den Audio Object:
+    name: Smugglers Den Audio Object
+  Soft Cloud:
+    name: Soft Cloud
+  Spark Cloud:
+    name: Spark Cloud
+  Spawner1:
+    name: Spawner1
+  Spawner10:
+    name: Spawner10
+  Spawner2:
+    name: Spawner2
+  Spawner3:
+    name: Spawner3
+  Spawner4:
+    name: Spawner4
+  Spawner5:
+    name: Spawner5
+  Spawner6:
+    name: Spawner6
+  Spawner7:
+    name: Spawner7
+  Spawner8:
+    name: Spawner8
+  Spawner9:
+    name: Spawner9
+  Strange Beacon:
+    name: Strange Beacon
+  Sulphuric Cloud:
+    name: Sulphuric Cloud
+  TestAsset_01:
+    name: TestAsset_01
+  TestAsset_02:
+    name: TestAsset_02
+  Toxic Cloud Environment:
+    name: Toxic Cloud Environment
+  Turbulent Storm Environment:
+    name: Turbulent Storm Environment
+  Warp Disruption Bubble Effect:
+    name: Warp Disruption Bubble Effect
+  Wispy Chlorine Cloud:
+    name: Wispy Chlorine Cloud
+  Wispy Orange Cloud:
+    name: Wispy Orange Cloud
+  XLarge Industrial Array Placement State Default:
+    name: XLarge Industrial Array Placement State Default
+  Xenon Gas Environment:
+    name: Xenon Gas Environment

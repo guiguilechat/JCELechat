@@ -1,9 +1,17 @@
 items:
-  Amarr CA Destroyer: {}
-  Imperial Caius: {}
-  Imperial Crusader: {}
-  Imperial Deacon: {}
-  Imperial Exarp: {}
-  Imperial Templar Caius: {}
-  Imperial Templar Crusader: {}
-  Stolen Imperial Deacon: {}
+  Amarr CA Destroyer:
+    name: Amarr CA Destroyer
+  Imperial Caius:
+    name: Imperial Caius
+  Imperial Crusader:
+    name: Imperial Crusader
+  Imperial Deacon:
+    name: Imperial Deacon
+  Imperial Exarp:
+    name: Imperial Exarp
+  Imperial Templar Caius:
+    name: Imperial Templar Caius
+  Imperial Templar Crusader:
+    name: Imperial Templar Crusader
+  Stolen Imperial Deacon:
+    name: Stolen Imperial Deacon

@@ -1,25 +1,37 @@
 items:
   Men's 'Boneweld' Facial Augmentation:
     Gender: 1
+    name: Men's 'Boneweld' Facial Augmentation
   Men's 'Bridgestat' Facial Augmentation:
     Gender: 1
+    name: Men's 'Bridgestat' Facial Augmentation
   Men's 'Circuitrun' Facial Augmentation:
     Gender: 1
+    name: Men's 'Circuitrun' Facial Augmentation
   Men's 'Setcouple' Facial Augmentation:
     Gender: 1
+    name: Men's 'Setcouple' Facial Augmentation
   Men's 'Twinswitch' Facial Augmentation:
     Gender: 1
+    name: Men's 'Twinswitch' Facial Augmentation
   Men's 'Wirepoise' Facial Augmentation:
     Gender: 1
+    name: Men's 'Wirepoise' Facial Augmentation
   Women's 'Crossgrid' Facial Augmentation:
     Gender: 3
+    name: Women's 'Crossgrid' Facial Augmentation
   Women's 'Guidemask' Facial Augmentation:
     Gender: 3
+    name: Women's 'Guidemask' Facial Augmentation
   Women's 'Openyagi' Facial Augmentation:
     Gender: 3
+    name: Women's 'Openyagi' Facial Augmentation
   Women's 'Sparkgap' Facial Augmentation:
     Gender: 3
+    name: Women's 'Sparkgap' Facial Augmentation
   Women's 'Tripoint' Facial Augmentation:
     Gender: 3
+    name: Women's 'Tripoint' Facial Augmentation
   Women's 'Waveform' Facial Augmentation:
     Gender: 3
+    name: Women's 'Waveform' Facial Augmentation

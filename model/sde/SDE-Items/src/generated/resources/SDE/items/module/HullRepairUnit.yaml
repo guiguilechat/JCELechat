@@ -17,6 +17,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 1800
     TechLevel: 1
+    name: Capital Hull Repairer I
   Capital Hull Repairer II:
     CapacitorNeed: 864.0
     Cpu: 198.0
@@ -36,6 +37,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 2160
     TechLevel: 2
+    name: Capital Hull Repairer II
   Capital I-b Enduring Hull Repairer:
     CapacitorNeed: 576.0
     Cpu: 180.0
@@ -55,6 +57,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 1980
     TechLevel: 1
+    name: Capital I-b Enduring Hull Repairer
   Capital IEF Compact Hull Repairer:
     CapacitorNeed: 720.0
     Cpu: 144.0
@@ -74,6 +77,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 1980
     TechLevel: 1
+    name: Capital IEF Compact Hull Repairer
   Large 'Hope' Hull Reconstructor I:
     Duration: 25500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -89,6 +93,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 115
     TechLevel: 1
+    name: Large 'Hope' Hull Reconstructor I
   Large 'Integrative' Hull Repair Unit:
     CapacitorNeed: 120.0
     Duration: 20000.0
@@ -106,6 +111,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 180
     TechLevel: 1
+    name: Large 'Integrative' Hull Repair Unit
   Large Automated Structural Restoration:
     Duration: 28500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -121,6 +127,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 105
     TechLevel: 1
+    name: Large Automated Structural Restoration
   Large Hull Repairer I:
     CapacitorNeed: 120.0
     Duration: 30000.0
@@ -136,6 +143,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 100
     TechLevel: 1
+    name: Large Hull Repairer I
   Large Hull Repairer II:
     CapacitorNeed: 120.0
     Duration: 24000.0
@@ -152,6 +160,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 120
     TechLevel: 2
+    name: Large Hull Repairer II
   Large I-b Polarized Structural Regenerator:
     Duration: 27000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -167,6 +176,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 110
     TechLevel: 1
+    name: Large I-b Polarized Structural Regenerator
   Large Inefficient Hull Repair Unit:
     CapacitorNeed: 120.0
     Duration: 24000.0
@@ -183,6 +193,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 120
     TechLevel: 1
+    name: Large Inefficient Hull Repair Unit
   Medium 'Hope' Hull Reconstructor I:
     Duration: 25500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -198,6 +209,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 57
     TechLevel: 1
+    name: Medium 'Hope' Hull Reconstructor I
   Medium 'Integrative' Hull Repair Unit:
     CapacitorNeed: 60.0
     Duration: 20000.0
@@ -215,6 +227,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 90
     TechLevel: 1
+    name: Medium 'Integrative' Hull Repair Unit
   Medium Automated Structural Restoration:
     Duration: 28500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -230,6 +243,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 52
     TechLevel: 1
+    name: Medium Automated Structural Restoration
   Medium Hull Repairer I:
     CapacitorNeed: 60.0
     Duration: 30000.0
@@ -245,6 +259,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 50
     TechLevel: 1
+    name: Medium Hull Repairer I
   Medium Hull Repairer II:
     CapacitorNeed: 60.0
     Duration: 24000.0
@@ -261,6 +276,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 60
     TechLevel: 2
+    name: Medium Hull Repairer II
   Medium I-b Polarized Structural Regenerator:
     Duration: 27000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -276,6 +292,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 55
     TechLevel: 1
+    name: Medium I-b Polarized Structural Regenerator
   Medium Inefficient Hull Repair Unit:
     CapacitorNeed: 60.0
     Duration: 24000.0
@@ -292,6 +309,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 60
     TechLevel: 1
+    name: Medium Inefficient Hull Repair Unit
   Small 'Hope' Hull Reconstructor I:
     Duration: 25500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -307,6 +325,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 28
     TechLevel: 1
+    name: Small 'Hope' Hull Reconstructor I
   Small 'Integrative' Hull Repair Unit:
     CapacitorNeed: 30.0
     Duration: 20000.0
@@ -324,6 +343,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 45
     TechLevel: 1
+    name: Small 'Integrative' Hull Repair Unit
   Small Automated Structural Restoration:
     Duration: 28500.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -339,6 +359,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 26
     TechLevel: 1
+    name: Small Automated Structural Restoration
   Small Hull Repairer I:
     CapacitorNeed: 30.0
     Duration: 30000.0
@@ -354,6 +375,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 25
     TechLevel: 1
+    name: Small Hull Repairer I
   Small Hull Repairer II:
     CapacitorNeed: 30.0
     Duration: 24000.0
@@ -370,6 +392,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 30
     TechLevel: 2
+    name: Small Hull Repairer II
   Small I-b Polarized Structural Regenerator:
     Duration: 27000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -385,6 +408,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 27
     TechLevel: 1
+    name: Small I-b Polarized Structural Regenerator
   Small Inefficient Hull Repair Unit:
     CapacitorNeed: 30.0
     Duration: 24000.0
@@ -401,3 +425,4 @@ items:
     RequiredThermoDynamicsSkill: 1
     StructureDamageAmount: 30
     TechLevel: 1
+    name: Small Inefficient Hull Repair Unit

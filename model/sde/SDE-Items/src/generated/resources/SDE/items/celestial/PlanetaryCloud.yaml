@@ -1,15 +1,29 @@
 items:
-  Bitter edge: {}
-  Bllue faint: {}
-  Blue quarter: {}
-  Brown crescent: {}
-  Brown hemisphere: {}
-  Brown quarter: {}
-  Faint hemisphere: {}
-  Quarter shard: {}
-  Thick White: {}
-  Thin claw: {}
-  White Crescent: {}
-  White sharp hemisphere: {}
-  White solid: {}
-  White solid 2: {}
+  Bitter edge:
+    name: Bitter edge
+  Bllue faint:
+    name: Bllue faint
+  Blue quarter:
+    name: Blue quarter
+  Brown crescent:
+    name: Brown crescent
+  Brown hemisphere:
+    name: Brown hemisphere
+  Brown quarter:
+    name: Brown quarter
+  Faint hemisphere:
+    name: Faint hemisphere
+  Quarter shard:
+    name: Quarter shard
+  Thick White:
+    name: Thick White
+  Thin claw:
+    name: Thin claw
+  White Crescent:
+    name: White Crescent
+  White sharp hemisphere:
+    name: White sharp hemisphere
+  White solid:
+    name: White solid
+  White solid 2:
+    name: White solid 2

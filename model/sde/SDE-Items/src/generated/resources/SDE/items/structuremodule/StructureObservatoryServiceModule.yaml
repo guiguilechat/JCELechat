@@ -3,27 +3,34 @@ items:
     CanFitShipGroup01: 1657
     Cpu: 6000.0
     Power: 100000
+    name: Structure Capsuleer Tracking Array
   Structure Cloak Pinpoint Array:
     CanFitShipGroup01: 1657
     Cpu: 15000.0
     Power: 150000
+    name: Structure Cloak Pinpoint Array
   Structure Cynosural Jammer:
     CanFitShipGroup01: 1657
     Cpu: 4000.0
     Power: 50000
+    name: Structure Cynosural Jammer
   Structure Listening Post:
     CanFitShipGroup01: 1657
     Cpu: 4000.0
     Power: 50000
+    name: Structure Listening Post
   Structure Local Communications Array:
     CanFitShipGroup01: 1657
     Cpu: 15000.0
     Power: 150000
+    name: Structure Local Communications Array
   Structure Scanner Array:
     CanFitShipGroup01: 1657
     Cpu: 10000.0
     Power: 100000
+    name: Structure Scanner Array
   Structure Stellar Mapping Array:
     CanFitShipGroup01: 1657
     Cpu: 3000.0
     Power: 50000
+    name: Structure Stellar Mapping Array

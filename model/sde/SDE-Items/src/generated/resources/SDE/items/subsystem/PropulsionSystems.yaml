@@ -11,6 +11,7 @@ items:
     SubsystemBonusAmarrPropulsion: 5
     SubsystemBonusAmarrPropulsion2: -5
     TechLevel: 3
+    name: Legion Propulsion - Intercalated Nanofibers
   Legion Propulsion - Interdiction Nullifier:
     AgilityBonusAdd: 0.10000000149011612
     FitsToShipType: 29986
@@ -26,6 +27,7 @@ items:
     SubsystemBonusAmarrPropulsion2: 10
     TechLevel: 3
     WarpBubbleImmuneModifier: 1
+    name: Legion Propulsion - Interdiction Nullifier
   Legion Propulsion - Wake Limiter:
     FitsToShipType: 29986
     Hp: 40
@@ -39,6 +41,7 @@ items:
     SubsystemBonusAmarrPropulsion: 10
     SubsystemBonusAmarrPropulsion2: -10
     TechLevel: 3
+    name: Legion Propulsion - Wake Limiter
   Loki Propulsion - Intercalated Nanofibers:
     FitsToShipType: 29990
     Hp: 40
@@ -51,6 +54,7 @@ items:
     SubsystemBonusMinmatarPropulsion: 5
     SubsystemBonusMinmatarPropulsion2: -5
     TechLevel: 3
+    name: Loki Propulsion - Intercalated Nanofibers
   Loki Propulsion - Interdiction Nullifier:
     AgilityBonusAdd: 0.10000000149011612
     FitsToShipType: 29990
@@ -66,6 +70,7 @@ items:
     SubsystemBonusMinmatarPropulsion2: 10
     TechLevel: 3
     WarpBubbleImmuneModifier: 1
+    name: Loki Propulsion - Interdiction Nullifier
   Loki Propulsion - Wake Limiter:
     FitsToShipType: 29990
     Hp: 40
@@ -78,6 +83,7 @@ items:
     SubsystemBonusMinmatarPropulsion: 10
     SubsystemBonusMinmatarPropulsion2: -10
     TechLevel: 3
+    name: Loki Propulsion - Wake Limiter
   Proteus Propulsion - Hyperspatial Optimization:
     FitsToShipType: 29988
     Hp: 40
@@ -90,6 +96,7 @@ items:
     SubsystemBonusGallentePropulsion: 10.0
     SubsystemBonusGallentePropulsion2: -7.5
     TechLevel: 3
+    name: Proteus Propulsion - Hyperspatial Optimization
   Proteus Propulsion - Interdiction Nullifier:
     AgilityBonusAdd: 0.10000000149011612
     FitsToShipType: 29988
@@ -105,6 +112,7 @@ items:
     SubsystemBonusGallentePropulsion2: 10.0
     TechLevel: 3
     WarpBubbleImmuneModifier: 1
+    name: Proteus Propulsion - Interdiction Nullifier
   Proteus Propulsion - Localized Injectors:
     FitsToShipType: 29988
     Hp: 40
@@ -118,6 +126,7 @@ items:
     SubsystemBonusGallentePropulsion: -15.0
     SubsystemBonusGallentePropulsion2: 10.0
     TechLevel: 3
+    name: Proteus Propulsion - Localized Injectors
   Tengu Propulsion - Chassis Optimization:
     FitsToShipType: 29984
     Hp: 40
@@ -131,6 +140,7 @@ items:
     SubsystemBonusCaldariPropulsion: 3.0
     SubsystemBonusCaldariPropulsion2: -7.5
     TechLevel: 3
+    name: Tengu Propulsion - Chassis Optimization
   Tengu Propulsion - Fuel Catalyst:
     FitsToShipType: 29984
     Hp: 40
@@ -143,6 +153,7 @@ items:
     SubsystemBonusCaldariPropulsion: 10.0
     SubsystemBonusCaldariPropulsion2: 10.0
     TechLevel: 3
+    name: Tengu Propulsion - Fuel Catalyst
   Tengu Propulsion - Interdiction Nullifier:
     AgilityBonusAdd: 0.10000000149011612
     FitsToShipType: 29984
@@ -158,3 +169,4 @@ items:
     SubsystemBonusCaldariPropulsion2: 10.0
     TechLevel: 3
     WarpBubbleImmuneModifier: 1
+    name: Tengu Propulsion - Interdiction Nullifier

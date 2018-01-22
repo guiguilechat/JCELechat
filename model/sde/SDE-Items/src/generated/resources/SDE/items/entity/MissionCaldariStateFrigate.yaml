@@ -1,56 +1,111 @@
 items:
-  Caldari CA Frigate: {}
-  Caldari Navy Condor: {}
-  Caldari Navy Delta I Support Frigate: {}
-  Caldari Navy Delta II Support Frigate: {}
-  Caldari Navy Detective: {}
-  Caldari Navy Elite Soldier: {}
-  Caldari Navy Gamma I Support Frigate: {}
-  Caldari Navy Gamma II Support Frigate: {}
-  Caldari Navy Griffin: {}
-  Caldari Navy Officer: {}
-  Caldari Navy Scout: {}
-  Caldari Navy Soldier: {}
-  Caldari Navy Squad Leader: {}
-  Captured Caldari State Shuttle: {}
-  Civilian Caldari Frigate Condor: {}
-  Civilian Caldari Frigate Griffin: {}
-  Civilian Caldari Frigate Heron: {}
-  Civilian Caldari Frigate Kestrel: {}
-  Civilian Caldari Frigate Merlin: {}
-  Eroma Eralen: {}
-  Independent Condor: {}
-  Independent Green-Crewed Condor: {}
-  Independent Green-Crewed Griffin: {}
-  Independent Green-Crewed Heron: {}
-  Independent Green-Crewed Kestrel: {}
-  Independent Green-Crewed Merlin: {}
-  Independent Griffin: {}
-  Independent Heron: {}
-  Independent Kestrel: {}
-  Independent Merlin: {}
-  Independent Veteran Condor: {}
-  Independent Veteran Griffin: {}
-  Independent Veteran Heron: {}
-  Independent Veteran Kestrel: {}
-  Independent Veteran Merlin: {}
-  State Bo-Hi: {}
-  State Daito: {}
-  State Katana: {}
-  State Nagasa: {}
-  State Shinai: {}
-  State Showato: {}
-  State Shukuro Shinai: {}
-  State Shukuro Shuriken: {}
-  State Shuriken: {}
-  State Wakizashi: {}
-  Taibu State Daito: {}
-  Taibu State Katana: {}
-  Taibu State Nagasa: {}
-  Taibu State Shinai: {}
-  Taibu State Shirasaya: {}
-  Taibu State Shuriken: {}
-  Taibu State Suriage: {}
-  Taibu State Tachi: {}
-  Taibu State Wakizashi: {}
-  Taibu State Yari: {}
+  Caldari CA Frigate:
+    name: Caldari CA Frigate
+  Caldari Navy Condor:
+    name: Caldari Navy Condor
+  Caldari Navy Delta I Support Frigate:
+    name: Caldari Navy Delta I Support Frigate
+  Caldari Navy Delta II Support Frigate:
+    name: Caldari Navy Delta II Support Frigate
+  Caldari Navy Detective:
+    name: Caldari Navy Detective
+  Caldari Navy Elite Soldier:
+    name: Caldari Navy Elite Soldier
+  Caldari Navy Gamma I Support Frigate:
+    name: Caldari Navy Gamma I Support Frigate
+  Caldari Navy Gamma II Support Frigate:
+    name: Caldari Navy Gamma II Support Frigate
+  Caldari Navy Griffin:
+    name: Caldari Navy Griffin
+  Caldari Navy Officer:
+    name: Caldari Navy Officer
+  Caldari Navy Scout:
+    name: Caldari Navy Scout
+  Caldari Navy Soldier:
+    name: Caldari Navy Soldier
+  Caldari Navy Squad Leader:
+    name: Caldari Navy Squad Leader
+  Captured Caldari State Shuttle:
+    name: Captured Caldari State Shuttle
+  Civilian Caldari Frigate Condor:
+    name: Civilian Caldari Frigate Condor
+  Civilian Caldari Frigate Griffin:
+    name: Civilian Caldari Frigate Griffin
+  Civilian Caldari Frigate Heron:
+    name: Civilian Caldari Frigate Heron
+  Civilian Caldari Frigate Kestrel:
+    name: Civilian Caldari Frigate Kestrel
+  Civilian Caldari Frigate Merlin:
+    name: Civilian Caldari Frigate Merlin
+  Eroma Eralen:
+    name: Eroma Eralen
+  Independent Condor:
+    name: Independent Condor
+  Independent Green-Crewed Condor:
+    name: Independent Green-Crewed Condor
+  Independent Green-Crewed Griffin:
+    name: Independent Green-Crewed Griffin
+  Independent Green-Crewed Heron:
+    name: Independent Green-Crewed Heron
+  Independent Green-Crewed Kestrel:
+    name: Independent Green-Crewed Kestrel
+  Independent Green-Crewed Merlin:
+    name: Independent Green-Crewed Merlin
+  Independent Griffin:
+    name: Independent Griffin
+  Independent Heron:
+    name: Independent Heron
+  Independent Kestrel:
+    name: Independent Kestrel
+  Independent Merlin:
+    name: Independent Merlin
+  Independent Veteran Condor:
+    name: Independent Veteran Condor
+  Independent Veteran Griffin:
+    name: Independent Veteran Griffin
+  Independent Veteran Heron:
+    name: Independent Veteran Heron
+  Independent Veteran Kestrel:
+    name: Independent Veteran Kestrel
+  Independent Veteran Merlin:
+    name: Independent Veteran Merlin
+  State Bo-Hi:
+    name: State Bo-Hi
+  State Daito:
+    name: State Daito
+  State Katana:
+    name: State Katana
+  State Nagasa:
+    name: State Nagasa
+  State Shinai:
+    name: State Shinai
+  State Showato:
+    name: State Showato
+  State Shukuro Shinai:
+    name: State Shukuro Shinai
+  State Shukuro Shuriken:
+    name: State Shukuro Shuriken
+  State Shuriken:
+    name: State Shuriken
+  State Wakizashi:
+    name: State Wakizashi
+  Taibu State Daito:
+    name: Taibu State Daito
+  Taibu State Katana:
+    name: Taibu State Katana
+  Taibu State Nagasa:
+    name: Taibu State Nagasa
+  Taibu State Shinai:
+    name: Taibu State Shinai
+  Taibu State Shirasaya:
+    name: Taibu State Shirasaya
+  Taibu State Shuriken:
+    name: Taibu State Shuriken
+  Taibu State Suriage:
+    name: Taibu State Suriage
+  Taibu State Tachi:
+    name: Taibu State Tachi
+  Taibu State Wakizashi:
+    name: Taibu State Wakizashi
+  Taibu State Yari:
+    name: Taibu State Yari

@@ -1,37 +1,73 @@
 items:
-  COSMOS Amarr Arch Engraver: {}
-  COSMOS Amarr Arch Priest: {}
-  COSMOS Amarr Maller: {}
-  COSMOS Amarr Priest: {}
-  COSMOS Amarr Revenant: {}
-  COSMOS Caldari Annihilator: {}
-  COSMOS Caldari Ascriber: {}
-  COSMOS Caldari Eraser: {}
-  COSMOS Caldari Inferno: {}
-  COSMOS Caldari Mortifier: {}
-  COSMOS Caldari Nullifier: {}
-  COSMOS Caldari Silencer: {}
-  COSMOS Caldari Terrorist: {}
-  COSMOS Gallente Captain: {}
-  COSMOS Gallente Chief Protector: {}
-  COSMOS Gallente Drug Baron: {}
-  COSMOS Gallente Non-Pirate Cruiser: {}
-  COSMOS Gallente Sentry: {}
-  COSMOS Magye Eraser: {}
-  COSMOS Magye Silencer: {}
-  COSMOS Minmatar Angel: {}
-  COSMOS Minmatar Angel Centurion: {}
-  COSMOS Minmatar Angel Legionnaire: {}
-  COSMOS Minmatar Angel Scout: {}
-  COSMOS Minmatar Depredator: {}
-  COSMOS Minmatar Liquidator: {}
-  COSMOS Minmatar Marauder: {}
-  COSMOS Minmatar Non-Pirate Cruiser: {}
-  COSMOS Minmatar Predator: {}
-  COSMOS Mythos Transport Cruiser: {}
-  COSMOS Pleasure Cruiser: {}
-  Corpum Arch Sage_COSMOS: {}
-  Corpum Blood Duke: {}
-  Dark Corpum Arch Templar_COSMOS: {}
-  FON Cruiser 1: {}
-  FON Cruiser 2: {}
+  COSMOS Amarr Arch Engraver:
+    name: COSMOS Amarr Arch Engraver
+  COSMOS Amarr Arch Priest:
+    name: COSMOS Amarr Arch Priest
+  COSMOS Amarr Maller:
+    name: COSMOS Amarr Maller
+  COSMOS Amarr Priest:
+    name: COSMOS Amarr Priest
+  COSMOS Amarr Revenant:
+    name: COSMOS Amarr Revenant
+  COSMOS Caldari Annihilator:
+    name: COSMOS Caldari Annihilator
+  COSMOS Caldari Ascriber:
+    name: COSMOS Caldari Ascriber
+  COSMOS Caldari Eraser:
+    name: COSMOS Caldari Eraser
+  COSMOS Caldari Inferno:
+    name: COSMOS Caldari Inferno
+  COSMOS Caldari Mortifier:
+    name: COSMOS Caldari Mortifier
+  COSMOS Caldari Nullifier:
+    name: COSMOS Caldari Nullifier
+  COSMOS Caldari Silencer:
+    name: COSMOS Caldari Silencer
+  COSMOS Caldari Terrorist:
+    name: COSMOS Caldari Terrorist
+  COSMOS Gallente Captain:
+    name: COSMOS Gallente Captain
+  COSMOS Gallente Chief Protector:
+    name: COSMOS Gallente Chief Protector
+  COSMOS Gallente Drug Baron:
+    name: COSMOS Gallente Drug Baron
+  COSMOS Gallente Non-Pirate Cruiser:
+    name: COSMOS Gallente Non-Pirate Cruiser
+  COSMOS Gallente Sentry:
+    name: COSMOS Gallente Sentry
+  COSMOS Magye Eraser:
+    name: COSMOS Magye Eraser
+  COSMOS Magye Silencer:
+    name: COSMOS Magye Silencer
+  COSMOS Minmatar Angel:
+    name: COSMOS Minmatar Angel
+  COSMOS Minmatar Angel Centurion:
+    name: COSMOS Minmatar Angel Centurion
+  COSMOS Minmatar Angel Legionnaire:
+    name: COSMOS Minmatar Angel Legionnaire
+  COSMOS Minmatar Angel Scout:
+    name: COSMOS Minmatar Angel Scout
+  COSMOS Minmatar Depredator:
+    name: COSMOS Minmatar Depredator
+  COSMOS Minmatar Liquidator:
+    name: COSMOS Minmatar Liquidator
+  COSMOS Minmatar Marauder:
+    name: COSMOS Minmatar Marauder
+  COSMOS Minmatar Non-Pirate Cruiser:
+    name: COSMOS Minmatar Non-Pirate Cruiser
+  COSMOS Minmatar Predator:
+    name: COSMOS Minmatar Predator
+  COSMOS Mythos Transport Cruiser:
+    name: COSMOS Mythos Transport Cruiser
+  COSMOS Pleasure Cruiser:
+    name: COSMOS Pleasure Cruiser
+  Corpum Arch Sage_COSMOS:
+    name: Corpum Arch Sage_COSMOS
+  Corpum Blood Duke:
+    name: Corpum Blood Duke
+  Dark Corpum Arch Templar_COSMOS:
+    name: Dark Corpum Arch Templar_COSMOS
+  FON Cruiser 1:
+    name: FON Cruiser 1
+  FON Cruiser 2:
+    name: FON Cruiser 2

@@ -2,68 +2,90 @@ items:
   Civilian Expanded Cargohold Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Civilian Expanded Cargohold Blueprint
   Expanded Cargohold I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Expanded Cargohold I Blueprint
   Expanded Cargohold II Blueprint:
     Hp: 1
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Expanded Cargohold II Blueprint
   Experimental Hyperspatial Accelerator Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Experimental Hyperspatial Accelerator Blueprint
   Experimental Jump Drive Economizer Blueprint:
     TechLevel: 1
+    name: Experimental Jump Drive Economizer Blueprint
   Inertial Stabilizers I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Inertial Stabilizers I Blueprint
   Inertial Stabilizers II Blueprint:
     Hp: 1
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Inertial Stabilizers II Blueprint
   Limited Expanded 'Archiver' Cargo Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Limited Expanded 'Archiver' Cargo Blueprint
   Limited Hyperspatial Accelerator Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Limited Hyperspatial Accelerator Blueprint
   Limited Jump Drive Economizer Blueprint:
     TechLevel: 1
+    name: Limited Jump Drive Economizer Blueprint
   Nanofiber Internal Structure I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Nanofiber Internal Structure I Blueprint
   Nanofiber Internal Structure II Blueprint:
     Hp: 1
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Nanofiber Internal Structure II Blueprint
   Overdrive Injector System I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Overdrive Injector System I Blueprint
   Overdrive Injector System II Blueprint:
     Hp: 1
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Overdrive Injector System II Blueprint
   Prototype Hyperspatial Accelerator Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Prototype Hyperspatial Accelerator Blueprint
   Prototype Jump Drive Economizer Blueprint:
     TechLevel: 1
+    name: Prototype Jump Drive Economizer Blueprint
   Reinforced Bulkheads I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Reinforced Bulkheads I Blueprint
   Reinforced Bulkheads II Blueprint:
     Hp: 1
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Reinforced Bulkheads II Blueprint
   Synthetic Hull Conversion Inertia Stabilizers Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Synthetic Hull Conversion Inertia Stabilizers Blueprint
   Synthetic Hull Conversion Nanofiber Structure Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Synthetic Hull Conversion Nanofiber Structure Blueprint
   Synthetic Hull Conversion Overdrive Injector Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Synthetic Hull Conversion Overdrive Injector Blueprint
   Synthetic Hull Conversion Reinforced Bulkheads Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Synthetic Hull Conversion Reinforced Bulkheads Blueprint

@@ -1,12 +1,17 @@
 items:
   100 Aurum Token:
     AurumConversionRate: 100
+    name: 100 Aurum Token
   1000 Aurum Token:
     AurumConversionRate: 1000
+    name: 1000 Aurum Token
   30 Day Pilot's License Extension (PLEX):
     AurumConversionRate: 3500
     NumDays: 30
+    name: 30 Day Pilot's License Extension (PLEX)
   300 Aurum Token:
     AurumConversionRate: 300
+    name: 300 Aurum Token
   500 Aurum Token:
     AurumConversionRate: 500
+    name: 500 Aurum Token

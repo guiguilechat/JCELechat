@@ -1,7 +1,10 @@
 items:
   Infrastructure Hub Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Infrastructure Hub Blueprint
   Sovereignty Blockade Unit Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Sovereignty Blockade Unit Blueprint
   Territorial Claim Unit Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Territorial Claim Unit Blueprint

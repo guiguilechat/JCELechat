@@ -1,3 +1,5 @@
 items:
-  Dread Guristas Dreadnought: {}
-  Guristas Dreadnought: {}
+  Dread Guristas Dreadnought:
+    name: Dread Guristas Dreadnought
+  Guristas Dreadnought:
+    name: Guristas Dreadnought

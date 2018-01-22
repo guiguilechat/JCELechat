@@ -1,7 +1,10 @@
 items:
   Acolyte EV-300 Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Acolyte EV-300 Blueprint
   Infiltrator EV-600 Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Infiltrator EV-600 Blueprint
   Praetor EV-900 Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Praetor EV-900 Blueprint

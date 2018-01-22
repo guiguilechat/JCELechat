@@ -7,6 +7,7 @@ items:
     PowerOutput: 17000
     RequiredSkill1: 2505
     RequiredSkill1Level: 4
+    name: Advanced Barren Command Center
   Advanced Gas Command Center:
     CpuOutput: 21315
     ExportTax: 3
@@ -15,6 +16,7 @@ items:
     PowerOutput: 17000
     RequiredSkill1: 2505
     RequiredSkill1Level: 4
+    name: Advanced Gas Command Center
   Advanced Ice Command Center:
     CpuOutput: 21315
     ExportTax: 3
@@ -23,6 +25,7 @@ items:
     PowerOutput: 17000
     RequiredSkill1: 2505
     RequiredSkill1Level: 4
+    name: Advanced Ice Command Center
   Advanced Lava Command Center:
     CpuOutput: 21315
     ExportTax: 3
@@ -31,6 +34,7 @@ items:
     PowerOutput: 17000
     RequiredSkill1: 2505
     RequiredSkill1Level: 4
+    name: Advanced Lava Command Center
   Advanced Oceanic Command Center:
     CpuOutput: 21315
     ExportTax: 3
@@ -39,6 +43,7 @@ items:
     PowerOutput: 17000
     RequiredSkill1: 2505
     RequiredSkill1Level: 4
+    name: Advanced Oceanic Command Center
   Advanced Plasma Command Center:
     CpuOutput: 21315
     ExportTax: 3
@@ -47,6 +52,7 @@ items:
     PowerOutput: 17000
     RequiredSkill1: 2505
     RequiredSkill1Level: 4
+    name: Advanced Plasma Command Center
   Advanced Storm Command Center:
     CpuOutput: 21315
     ExportTax: 3
@@ -55,6 +61,7 @@ items:
     PowerOutput: 17000
     RequiredSkill1: 2505
     RequiredSkill1Level: 4
+    name: Advanced Storm Command Center
   Advanced Temperate Command Center:
     CpuOutput: 21315
     ExportTax: 3
@@ -63,11 +70,13 @@ items:
     PowerOutput: 17000
     RequiredSkill1: 2505
     RequiredSkill1Level: 4
+    name: Advanced Temperate Command Center
   Barren Command Center:
     CpuOutput: 1675
     ExportTax: 3
     PlanetRestriction: 2016
     PowerOutput: 6000
+    name: Barren Command Center
   Elite Barren Command Center:
     CpuOutput: 25415
     ExportTax: 3
@@ -76,6 +85,7 @@ items:
     PowerOutput: 19000
     RequiredSkill1: 2505
     RequiredSkill1Level: 5
+    name: Elite Barren Command Center
   Elite Gas Command Center:
     CpuOutput: 25415
     ExportTax: 3
@@ -84,6 +94,7 @@ items:
     PowerOutput: 19000
     RequiredSkill1: 2505
     RequiredSkill1Level: 5
+    name: Elite Gas Command Center
   Elite Ice Command Center:
     CpuOutput: 25415
     ExportTax: 3
@@ -92,6 +103,7 @@ items:
     PowerOutput: 19000
     RequiredSkill1: 2505
     RequiredSkill1Level: 5
+    name: Elite Ice Command Center
   Elite Lava Command Center:
     CpuOutput: 25415
     ExportTax: 3
@@ -100,6 +112,7 @@ items:
     PowerOutput: 19000
     RequiredSkill1: 2505
     RequiredSkill1Level: 5
+    name: Elite Lava Command Center
   Elite Oceanic Command Center:
     CpuOutput: 25415
     ExportTax: 3
@@ -108,6 +121,7 @@ items:
     PowerOutput: 19000
     RequiredSkill1: 2505
     RequiredSkill1Level: 5
+    name: Elite Oceanic Command Center
   Elite Plasma Command Center:
     CpuOutput: 25415
     ExportTax: 3
@@ -116,6 +130,7 @@ items:
     PowerOutput: 19000
     RequiredSkill1: 2505
     RequiredSkill1Level: 5
+    name: Elite Plasma Command Center
   Elite Storm Command Center:
     CpuOutput: 25415
     ExportTax: 3
@@ -124,6 +139,7 @@ items:
     PowerOutput: 19000
     RequiredSkill1: 2505
     RequiredSkill1Level: 5
+    name: Elite Storm Command Center
   Elite Temperate Command Center:
     CpuOutput: 25415
     ExportTax: 3
@@ -132,16 +148,19 @@ items:
     PowerOutput: 19000
     RequiredSkill1: 2505
     RequiredSkill1Level: 5
+    name: Elite Temperate Command Center
   Gas Command Center:
     CpuOutput: 1675
     ExportTax: 3
     PlanetRestriction: 13
     PowerOutput: 6000
+    name: Gas Command Center
   Ice Command Center:
     CpuOutput: 1675
     ExportTax: 3
     PlanetRestriction: 12
     PowerOutput: 6000
+    name: Ice Command Center
   Improved Barren Command Center:
     CpuOutput: 17215
     ExportTax: 3
@@ -150,6 +169,7 @@ items:
     PowerOutput: 15000
     RequiredSkill1: 2505
     RequiredSkill1Level: 3
+    name: Improved Barren Command Center
   Improved Gas Command Center:
     CpuOutput: 17215
     ExportTax: 3
@@ -158,6 +178,7 @@ items:
     PowerOutput: 15000
     RequiredSkill1: 2505
     RequiredSkill1Level: 3
+    name: Improved Gas Command Center
   Improved Ice Command Center:
     CpuOutput: 17215
     ExportTax: 3
@@ -166,6 +187,7 @@ items:
     PowerOutput: 15000
     RequiredSkill1: 2505
     RequiredSkill1Level: 3
+    name: Improved Ice Command Center
   Improved Lava Command Center:
     CpuOutput: 17215
     ExportTax: 3
@@ -174,6 +196,7 @@ items:
     PowerOutput: 15000
     RequiredSkill1: 2505
     RequiredSkill1Level: 3
+    name: Improved Lava Command Center
   Improved Oceanic Command Center:
     CpuOutput: 17215
     ExportTax: 3
@@ -182,6 +205,7 @@ items:
     PowerOutput: 15000
     RequiredSkill1: 2505
     RequiredSkill1Level: 3
+    name: Improved Oceanic Command Center
   Improved Plasma Command Center:
     CpuOutput: 17215
     ExportTax: 3
@@ -190,6 +214,7 @@ items:
     PowerOutput: 15000
     RequiredSkill1: 2505
     RequiredSkill1Level: 3
+    name: Improved Plasma Command Center
   Improved Storm Command Center:
     CpuOutput: 17215
     ExportTax: 3
@@ -198,6 +223,7 @@ items:
     PowerOutput: 15000
     RequiredSkill1: 2505
     RequiredSkill1Level: 3
+    name: Improved Storm Command Center
   Improved Temperate Command Center:
     CpuOutput: 17215
     ExportTax: 3
@@ -206,11 +232,13 @@ items:
     PowerOutput: 15000
     RequiredSkill1: 2505
     RequiredSkill1Level: 3
+    name: Improved Temperate Command Center
   Lava Command Center:
     CpuOutput: 1675
     ExportTax: 3
     PlanetRestriction: 2015
     PowerOutput: 6000
+    name: Lava Command Center
   Limited Barren Command Center:
     CpuOutput: 7057
     ExportTax: 3
@@ -219,6 +247,7 @@ items:
     PowerOutput: 9000
     RequiredSkill1: 2505
     RequiredSkill1Level: 1
+    name: Limited Barren Command Center
   Limited Gas Command Center:
     CpuOutput: 7057
     ExportTax: 3
@@ -227,6 +256,7 @@ items:
     PowerOutput: 9000
     RequiredSkill1: 2505
     RequiredSkill1Level: 1
+    name: Limited Gas Command Center
   Limited Ice Command Center:
     CpuOutput: 7057
     ExportTax: 3
@@ -235,6 +265,7 @@ items:
     PowerOutput: 9000
     RequiredSkill1: 2505
     RequiredSkill1Level: 1
+    name: Limited Ice Command Center
   Limited Lava Command Center:
     CpuOutput: 7057
     ExportTax: 3
@@ -243,6 +274,7 @@ items:
     PowerOutput: 9000
     RequiredSkill1: 2505
     RequiredSkill1Level: 1
+    name: Limited Lava Command Center
   Limited Oceanic Command Center:
     CpuOutput: 7057
     ExportTax: 3
@@ -251,6 +283,7 @@ items:
     PowerOutput: 9000
     RequiredSkill1: 2505
     RequiredSkill1Level: 1
+    name: Limited Oceanic Command Center
   Limited Plasma Command Center:
     CpuOutput: 7057
     ExportTax: 3
@@ -259,6 +292,7 @@ items:
     PowerOutput: 9000
     RequiredSkill1: 2505
     RequiredSkill1Level: 1
+    name: Limited Plasma Command Center
   Limited Storm Command Center:
     CpuOutput: 7057
     ExportTax: 3
@@ -267,6 +301,7 @@ items:
     PowerOutput: 9000
     RequiredSkill1: 2505
     RequiredSkill1Level: 1
+    name: Limited Storm Command Center
   Limited Temperate Command Center:
     CpuOutput: 7057
     ExportTax: 3
@@ -275,16 +310,19 @@ items:
     PowerOutput: 9000
     RequiredSkill1: 2505
     RequiredSkill1Level: 1
+    name: Limited Temperate Command Center
   Oceanic Command Center:
     CpuOutput: 1675
     ExportTax: 3
     PlanetRestriction: 2014
     PowerOutput: 6000
+    name: Oceanic Command Center
   Plasma Command Center:
     CpuOutput: 1675
     ExportTax: 3
     PlanetRestriction: 2063
     PowerOutput: 6000
+    name: Plasma Command Center
   Standard Barren Command Center:
     CpuOutput: 12136
     ExportTax: 3
@@ -293,6 +331,7 @@ items:
     PowerOutput: 12000
     RequiredSkill1: 2505
     RequiredSkill1Level: 2
+    name: Standard Barren Command Center
   Standard Gas Command Center:
     CpuOutput: 12136
     ExportTax: 3
@@ -301,6 +340,7 @@ items:
     PowerOutput: 12000
     RequiredSkill1: 2505
     RequiredSkill1Level: 2
+    name: Standard Gas Command Center
   Standard Ice Command Center:
     CpuOutput: 12136
     ExportTax: 3
@@ -309,6 +349,7 @@ items:
     PowerOutput: 12000
     RequiredSkill1: 2505
     RequiredSkill1Level: 2
+    name: Standard Ice Command Center
   Standard Lava Command Center:
     CpuOutput: 12136
     ExportTax: 3
@@ -317,6 +358,7 @@ items:
     PowerOutput: 12000
     RequiredSkill1: 2505
     RequiredSkill1Level: 2
+    name: Standard Lava Command Center
   Standard Oceanic Command Center:
     CpuOutput: 12136
     ExportTax: 3
@@ -325,6 +367,7 @@ items:
     PowerOutput: 12000
     RequiredSkill1: 2505
     RequiredSkill1Level: 2
+    name: Standard Oceanic Command Center
   Standard Plasma Command Center:
     CpuOutput: 12136
     ExportTax: 3
@@ -333,6 +376,7 @@ items:
     PowerOutput: 12000
     RequiredSkill1: 2505
     RequiredSkill1Level: 2
+    name: Standard Plasma Command Center
   Standard Storm Command Center:
     CpuOutput: 12136
     ExportTax: 3
@@ -341,6 +385,7 @@ items:
     PowerOutput: 12000
     RequiredSkill1: 2505
     RequiredSkill1Level: 2
+    name: Standard Storm Command Center
   Standard Temperate Command Center:
     CpuOutput: 12136
     ExportTax: 3
@@ -349,13 +394,16 @@ items:
     PowerOutput: 12000
     RequiredSkill1: 2505
     RequiredSkill1Level: 2
+    name: Standard Temperate Command Center
   Storm Command Center:
     CpuOutput: 1675
     ExportTax: 3
     PlanetRestriction: 2017
     PowerOutput: 6000
+    name: Storm Command Center
   Temperate Command Center:
     CpuOutput: 1675
     ExportTax: 3
     PlanetRestriction: 11
     PowerOutput: 6000
+    name: Temperate Command Center

@@ -1,35 +1,54 @@
 items:
-  Ancient Radar Decorrelator: {}
+  Ancient Radar Decorrelator:
+    name: Ancient Radar Decorrelator
   Cartesian Temporal Coordinator:
     Hp: 20
+    name: Cartesian Temporal Coordinator
   Central System Controller:
     Hp: 20
+    name: Central System Controller
   Defensive Control Node:
     Hp: 20
+    name: Defensive Control Node
   Electromechanical Hull Sheeting:
     Hp: 20
+    name: Electromechanical Hull Sheeting
   Emergent Combat Analyzer:
     Hp: 20
+    name: Emergent Combat Analyzer
   Emergent Combat Intelligence:
     Hp: 20
-  Faraday Force Magnetometer: {}
+    name: Emergent Combat Intelligence
+  Faraday Force Magnetometer:
+    name: Faraday Force Magnetometer
   Fused Nanomechanical Engines:
     Hp: 20
+    name: Fused Nanomechanical Engines
   Heuristic Selfassemblers:
     Hp: 20
+    name: Heuristic Selfassemblers
   Jump Drive Control Nexus:
     Hp: 20
+    name: Jump Drive Control Nexus
   Melted Nanoribbons:
     Hp: 20
+    name: Melted Nanoribbons
   Modified Fluid Router:
     Hp: 20
+    name: Modified Fluid Router
   Neurovisual Input Matrix:
     Hp: 20
+    name: Neurovisual Input Matrix
   Powdered C-540 Graphite:
     Hp: 20
+    name: Powdered C-540 Graphite
   Resonance Calibration Matrix:
     Hp: 20
-  Scorched Microgravimeter: {}
-  Synthetic Aperture Ladar Receiver: {}
+    name: Resonance Calibration Matrix
+  Scorched Microgravimeter:
+    name: Scorched Microgravimeter
+  Synthetic Aperture Ladar Receiver:
+    name: Synthetic Aperture Ladar Receiver
   Thermoelectric Catalysts:
     Hp: 20
+    name: Thermoelectric Catalysts

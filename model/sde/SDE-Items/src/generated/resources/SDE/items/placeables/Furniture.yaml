@@ -1,36 +1,71 @@
 items:
-  Amarr Balcony Ship Interface: {}
-  Amarr Character Recustomization: {}
-  Amarr Corporation Recruitment: {}
-  Amarr Main Screen: {}
-  Amarr Planetary Interaction: {}
-  Amarr Ship Interface: {}
-  Amarr Sofa: {}
-  Amarr Undock Button: {}
-  Caldari Balcony Ship Interface: {}
-  Caldari Character Recustomization: {}
-  Caldari Corporation Recruitment: {}
-  Caldari Main Screen: {}
-  Caldari Planetary Interaction: {}
-  Caldari Ship Interface: {}
-  Caldari Sofa: {}
-  Caldari Undock Button: {}
-  Gallente Balcony Ship Interface: {}
-  Gallente Character Recustomization: {}
-  Gallente Corporation Recruitment: {}
-  Gallente Main Screen: {}
-  Gallente Planetary Interaction: {}
-  Gallente Ship Interface: {}
-  Gallente Sofa: {}
-  Gallente Undock Button: {}
-  Minmatar Balcony Ship Interface: {}
-  Minmatar Character Recustomization: {}
-  Minmatar Corporation Recruitment: {}
-  Minmatar Main Screen: {}
-  Minmatar Planetary Interaction: {}
-  Minmatar Ship Interface: {}
-  Minmatar Sofa: {}
-  Minmatar Undock Button: {}
-  Universal Agent Finder: {}
-  Universal Station Door Button: {}
-  Universal Undock Button: {}
+  Amarr Balcony Ship Interface:
+    name: Amarr Balcony Ship Interface
+  Amarr Character Recustomization:
+    name: Amarr Character Recustomization
+  Amarr Corporation Recruitment:
+    name: Amarr Corporation Recruitment
+  Amarr Main Screen:
+    name: Amarr Main Screen
+  Amarr Planetary Interaction:
+    name: Amarr Planetary Interaction
+  Amarr Ship Interface:
+    name: Amarr Ship Interface
+  Amarr Sofa:
+    name: Amarr Sofa
+  Amarr Undock Button:
+    name: Amarr Undock Button
+  Caldari Balcony Ship Interface:
+    name: Caldari Balcony Ship Interface
+  Caldari Character Recustomization:
+    name: Caldari Character Recustomization
+  Caldari Corporation Recruitment:
+    name: Caldari Corporation Recruitment
+  Caldari Main Screen:
+    name: Caldari Main Screen
+  Caldari Planetary Interaction:
+    name: Caldari Planetary Interaction
+  Caldari Ship Interface:
+    name: Caldari Ship Interface
+  Caldari Sofa:
+    name: Caldari Sofa
+  Caldari Undock Button:
+    name: Caldari Undock Button
+  Gallente Balcony Ship Interface:
+    name: Gallente Balcony Ship Interface
+  Gallente Character Recustomization:
+    name: Gallente Character Recustomization
+  Gallente Corporation Recruitment:
+    name: Gallente Corporation Recruitment
+  Gallente Main Screen:
+    name: Gallente Main Screen
+  Gallente Planetary Interaction:
+    name: Gallente Planetary Interaction
+  Gallente Ship Interface:
+    name: Gallente Ship Interface
+  Gallente Sofa:
+    name: Gallente Sofa
+  Gallente Undock Button:
+    name: Gallente Undock Button
+  Minmatar Balcony Ship Interface:
+    name: Minmatar Balcony Ship Interface
+  Minmatar Character Recustomization:
+    name: Minmatar Character Recustomization
+  Minmatar Corporation Recruitment:
+    name: Minmatar Corporation Recruitment
+  Minmatar Main Screen:
+    name: Minmatar Main Screen
+  Minmatar Planetary Interaction:
+    name: Minmatar Planetary Interaction
+  Minmatar Ship Interface:
+    name: Minmatar Ship Interface
+  Minmatar Sofa:
+    name: Minmatar Sofa
+  Minmatar Undock Button:
+    name: Minmatar Undock Button
+  Universal Agent Finder:
+    name: Universal Agent Finder
+  Universal Station Door Button:
+    name: Universal Station Door Button
+  Universal Undock Button:
+    name: Universal Undock Button

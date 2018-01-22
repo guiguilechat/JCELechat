@@ -1,8 +1,15 @@
 items:
-  Amarr Cruiser Vessel: {}
-  Caldari Cruiser Vessel: {}
-  Gallente Cruiser Vessel: {}
-  Ishukone Escort: {}
-  Minmatar Cruiser Vessel: {}
-  Rohan Shadrak's Scythe: {}
-  Tolmak's Zealots: {}
+  Amarr Cruiser Vessel:
+    name: Amarr Cruiser Vessel
+  Caldari Cruiser Vessel:
+    name: Caldari Cruiser Vessel
+  Gallente Cruiser Vessel:
+    name: Gallente Cruiser Vessel
+  Ishukone Escort:
+    name: Ishukone Escort
+  Minmatar Cruiser Vessel:
+    name: Minmatar Cruiser Vessel
+  Rohan Shadrak's Scythe:
+    name: Rohan Shadrak's Scythe
+  Tolmak's Zealots:
+    name: Tolmak's Zealots

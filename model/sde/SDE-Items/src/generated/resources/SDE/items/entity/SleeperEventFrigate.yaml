@@ -1,3 +1,5 @@
 items:
-  Eosian Defender: {}
-  Eosian Preserver: {}
+  Eosian Defender:
+    name: Eosian Defender
+  Eosian Preserver:
+    name: Eosian Preserver

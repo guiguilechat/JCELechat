@@ -1,41 +1,61 @@
 items:
   Atmospheric Gases:
     MoonMiningAmount: 100
+    name: Atmospheric Gases
   Cadmium:
     MoonMiningAmount: 100
+    name: Cadmium
   Caesium:
     MoonMiningAmount: 100
+    name: Caesium
   Chromium:
     MoonMiningAmount: 100
+    name: Chromium
   Cobalt:
     MoonMiningAmount: 100
+    name: Cobalt
   Dysprosium:
     MoonMiningAmount: 100
+    name: Dysprosium
   Evaporite Deposits:
     MoonMiningAmount: 100
+    name: Evaporite Deposits
   Hafnium:
     MoonMiningAmount: 100
+    name: Hafnium
   Hydrocarbons:
     MoonMiningAmount: 100
+    name: Hydrocarbons
   Mercury:
     MoonMiningAmount: 100
+    name: Mercury
   Neodymium:
     MoonMiningAmount: 100
+    name: Neodymium
   Platinum:
     MoonMiningAmount: 100
+    name: Platinum
   Promethium:
     MoonMiningAmount: 100
+    name: Promethium
   Scandium:
     MoonMiningAmount: 100
+    name: Scandium
   Silicates:
     MoonMiningAmount: 100
+    name: Silicates
   Technetium:
     MoonMiningAmount: 100
+    name: Technetium
   Thulium:
     MoonMiningAmount: 100
+    name: Thulium
   Titanium:
     MoonMiningAmount: 100
+    name: Titanium
   Tungsten:
     MoonMiningAmount: 100
+    name: Tungsten
   Vanadium:
     MoonMiningAmount: 100
+    name: Vanadium

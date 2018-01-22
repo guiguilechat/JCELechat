@@ -1,48 +1,95 @@
 items:
-  Akkeshu Karuan_2: {}
-  Alarus Ekire: {}
-  Angel Courtesan: {}
-  Angel Inspector: {}
-  Arcana Patron: {}
-  Archpriest Hakram: {}
-  Arrak Nutan: {}
-  Bandit Arms Dealer: {}
-  Bandit Jailor: {}
-  Bazeri Palen: {}
-  Black Mask Bandit: {}
-  'COSMOS BOSS: Keron Vandafelt': {}
-  Choiji the Vanquisher: {}
-  Complex Supervisor: {}
-  Einhas Malak: {}
-  FON Contact: {}
-  Gatti Zhara: {}
-  Guristas Sloth: {}
-  Hakirim Grautur: {}
-  Haruo Wako: {}
-  Head Bouncer: {}
-  Illian Gara: {}
-  Kael Nutan: {}
-  Ketta Tommin: {}
-  Kurzon General: {}
-  Kyan Magdesh: {}
-  Loki Machedo: {}
-  Maschteri Markan: {}
-  Minmatar Republic Narcotics Deputy: {}
-  Minmatar Republic Narcotics Officer 3rd Rank: {}
-  New Breed Queen: {}
-  Norak Pakkul: {}
-  Okelle Alash_: {}
-  Oushii Torun: {}
-  Pansya's Bodyguard: {}
-  Pata Wakiro: {}
-  Payo Ming: {}
-  Quertah Bleu: {}
-  Ratah Niaga: {}
-  Red Hammer: {}
-  Republic Deserter: {}
-  Research Overseer: {}
-  Sanku Pansya: {}
-  Sansha Administrator: {}
-  Soul Keeper: {}
-  The Black Viper: {}
-  Thukker Nomad Chief: {}
+  Akkeshu Karuan_2:
+    name: Akkeshu Karuan_2
+  Alarus Ekire:
+    name: Alarus Ekire
+  Angel Courtesan:
+    name: Angel Courtesan
+  Angel Inspector:
+    name: Angel Inspector
+  Arcana Patron:
+    name: Arcana Patron
+  Archpriest Hakram:
+    name: Archpriest Hakram
+  Arrak Nutan:
+    name: Arrak Nutan
+  Bandit Arms Dealer:
+    name: Bandit Arms Dealer
+  Bandit Jailor:
+    name: Bandit Jailor
+  Bazeri Palen:
+    name: Bazeri Palen
+  Black Mask Bandit:
+    name: Black Mask Bandit
+  'COSMOS BOSS: Keron Vandafelt':
+    name: 'COSMOS BOSS: Keron Vandafelt'
+  Choiji the Vanquisher:
+    name: Choiji the Vanquisher
+  Complex Supervisor:
+    name: Complex Supervisor
+  Einhas Malak:
+    name: Einhas Malak
+  FON Contact:
+    name: FON Contact
+  Gatti Zhara:
+    name: Gatti Zhara
+  Guristas Sloth:
+    name: Guristas Sloth
+  Hakirim Grautur:
+    name: Hakirim Grautur
+  Haruo Wako:
+    name: Haruo Wako
+  Head Bouncer:
+    name: Head Bouncer
+  Illian Gara:
+    name: Illian Gara
+  Kael Nutan:
+    name: Kael Nutan
+  Ketta Tommin:
+    name: Ketta Tommin
+  Kurzon General:
+    name: Kurzon General
+  Kyan Magdesh:
+    name: Kyan Magdesh
+  Loki Machedo:
+    name: Loki Machedo
+  Maschteri Markan:
+    name: Maschteri Markan
+  Minmatar Republic Narcotics Deputy:
+    name: Minmatar Republic Narcotics Deputy
+  Minmatar Republic Narcotics Officer 3rd Rank:
+    name: Minmatar Republic Narcotics Officer 3rd Rank
+  New Breed Queen:
+    name: New Breed Queen
+  Norak Pakkul:
+    name: Norak Pakkul
+  Okelle Alash_:
+    name: Okelle Alash_
+  Oushii Torun:
+    name: Oushii Torun
+  Pansya's Bodyguard:
+    name: Pansya's Bodyguard
+  Pata Wakiro:
+    name: Pata Wakiro
+  Payo Ming:
+    name: Payo Ming
+  Quertah Bleu:
+    name: Quertah Bleu
+  Ratah Niaga:
+    name: Ratah Niaga
+  Red Hammer:
+    name: Red Hammer
+  Republic Deserter:
+    name: Republic Deserter
+  Research Overseer:
+    name: Research Overseer
+  Sanku Pansya:
+    name: Sanku Pansya
+  Sansha Administrator:
+    name: Sansha Administrator
+  Soul Keeper:
+    name: Soul Keeper
+  The Black Viper:
+    name: The Black Viper
+  Thukker Nomad Chief:
+    name: Thukker Nomad Chief

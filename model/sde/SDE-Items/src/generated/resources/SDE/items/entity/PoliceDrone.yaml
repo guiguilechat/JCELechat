@@ -1,35 +1,69 @@
 items:
-  Amarr Surveillance General Major: {}
-  Amarr Surveillance Officer: {}
-  Amarr Surveillance Sergeant: {}
-  Amarr Surveillance Sergeant Major: {}
-  Ammatar Surveillance General Major: {}
-  Ammatar Surveillance Officer: {}
-  Ammatar Surveillance Sergeant: {}
-  Ammatar Surveillance Sergeant Major: {}
-  CONCORD SWAT Captain: {}
-  CONCORD SWAT Commander: {}
-  CONCORD SWAT Officer: {}
-  Caldari Police 1st Lieutenant: {}
-  Caldari Police 2nd Lieutenant: {}
-  Caldari Police 3rd Lieutenant: {}
-  Caldari Police Commissioner: {}
-  Caldari Police Vice Commissioner: {}
-  Gallente Police Captain: {}
-  Gallente Police Major: {}
-  Gallente Police Master Sergeant: {}
-  Gallente Police Sergeant: {}
-  Khanid Surveillance General Major: {}
-  Khanid Surveillance Officer: {}
-  Khanid Surveillance Sergeant: {}
-  Khanid Surveillance Sergeant Major: {}
-  Minmatar Security High Captain: {}
-  Minmatar Security Officer 1st Rank: {}
-  Minmatar Security Officer 2nd Rank: {}
-  Minmatar Security Officer 3rd Rank: {}
-  Roden Police Major: {}
-  Roden Police Sergeant: {}
-  Sarum Surveillance General Major: {}
-  Sarum Surveillance Officer: {}
-  Sarum Surveillance Sergeant: {}
-  Sarum Surveillance Sergeant Major: {}
+  Amarr Surveillance General Major:
+    name: Amarr Surveillance General Major
+  Amarr Surveillance Officer:
+    name: Amarr Surveillance Officer
+  Amarr Surveillance Sergeant:
+    name: Amarr Surveillance Sergeant
+  Amarr Surveillance Sergeant Major:
+    name: Amarr Surveillance Sergeant Major
+  Ammatar Surveillance General Major:
+    name: Ammatar Surveillance General Major
+  Ammatar Surveillance Officer:
+    name: Ammatar Surveillance Officer
+  Ammatar Surveillance Sergeant:
+    name: Ammatar Surveillance Sergeant
+  Ammatar Surveillance Sergeant Major:
+    name: Ammatar Surveillance Sergeant Major
+  CONCORD SWAT Captain:
+    name: CONCORD SWAT Captain
+  CONCORD SWAT Commander:
+    name: CONCORD SWAT Commander
+  CONCORD SWAT Officer:
+    name: CONCORD SWAT Officer
+  Caldari Police 1st Lieutenant:
+    name: Caldari Police 1st Lieutenant
+  Caldari Police 2nd Lieutenant:
+    name: Caldari Police 2nd Lieutenant
+  Caldari Police 3rd Lieutenant:
+    name: Caldari Police 3rd Lieutenant
+  Caldari Police Commissioner:
+    name: Caldari Police Commissioner
+  Caldari Police Vice Commissioner:
+    name: Caldari Police Vice Commissioner
+  Gallente Police Captain:
+    name: Gallente Police Captain
+  Gallente Police Major:
+    name: Gallente Police Major
+  Gallente Police Master Sergeant:
+    name: Gallente Police Master Sergeant
+  Gallente Police Sergeant:
+    name: Gallente Police Sergeant
+  Khanid Surveillance General Major:
+    name: Khanid Surveillance General Major
+  Khanid Surveillance Officer:
+    name: Khanid Surveillance Officer
+  Khanid Surveillance Sergeant:
+    name: Khanid Surveillance Sergeant
+  Khanid Surveillance Sergeant Major:
+    name: Khanid Surveillance Sergeant Major
+  Minmatar Security High Captain:
+    name: Minmatar Security High Captain
+  Minmatar Security Officer 1st Rank:
+    name: Minmatar Security Officer 1st Rank
+  Minmatar Security Officer 2nd Rank:
+    name: Minmatar Security Officer 2nd Rank
+  Minmatar Security Officer 3rd Rank:
+    name: Minmatar Security Officer 3rd Rank
+  Roden Police Major:
+    name: Roden Police Major
+  Roden Police Sergeant:
+    name: Roden Police Sergeant
+  Sarum Surveillance General Major:
+    name: Sarum Surveillance General Major
+  Sarum Surveillance Officer:
+    name: Sarum Surveillance Officer
+  Sarum Surveillance Sergeant:
+    name: Sarum Surveillance Sergeant
+  Sarum Surveillance Sergeant Major:
+    name: Sarum Surveillance Sergeant Major

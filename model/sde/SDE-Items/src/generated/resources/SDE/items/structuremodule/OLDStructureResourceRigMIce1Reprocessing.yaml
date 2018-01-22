@@ -16,6 +16,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    name: OLD M-Set I1 Materials Reclamation I
   OLD M-Set I1 Materials Reclamation II:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -33,3 +34,4 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    name: OLD M-Set I1 Materials Reclamation II

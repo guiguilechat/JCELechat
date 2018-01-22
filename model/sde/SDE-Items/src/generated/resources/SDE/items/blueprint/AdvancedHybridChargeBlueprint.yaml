@@ -2,62 +2,84 @@ items:
   Bolt L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Bolt L Blueprint
   Bolt M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Bolt M Blueprint
   Bolt S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Bolt S Blueprint
   Desolation L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Desolation L Blueprint
   Desolation M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Desolation M Blueprint
   Desolation S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Desolation S Blueprint
   Javelin L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Javelin L Blueprint
   Javelin M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Javelin M Blueprint
   Javelin S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Javelin S Blueprint
   Javelin XL Blueprint:
     TechLevel: 2
+    name: Javelin XL Blueprint
   Null L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Null L Blueprint
   Null M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Null M Blueprint
   Null S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Null S Blueprint
   Null XL Blueprint:
     TechLevel: 2
+    name: Null XL Blueprint
   Spike L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Spike L Blueprint
   Spike M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Spike M Blueprint
   Spike S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Spike S Blueprint
   Spike XL Blueprint:
     TechLevel: 2
+    name: Spike XL Blueprint
   Void L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Void L Blueprint
   Void M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Void M Blueprint
   Void S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Void S Blueprint
   Void XL Blueprint:
     TechLevel: 2
+    name: Void XL Blueprint

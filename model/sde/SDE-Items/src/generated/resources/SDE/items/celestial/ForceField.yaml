@@ -1,2 +1,3 @@
 items:
-  Force Field: {}
+  Force Field:
+    name: Force Field

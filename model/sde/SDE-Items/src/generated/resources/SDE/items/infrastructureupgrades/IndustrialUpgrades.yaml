@@ -2,28 +2,33 @@ items:
   Ore Prospecting Array 1:
     DevIndexIndustrial: 1
     DistributionID01: 364
+    name: Ore Prospecting Array 1
   Ore Prospecting Array 2:
     DevIndexIndustrial: 2
     DistributionID01: 365
     SovUpgradeRequiredUpgradeID: 2040
+    name: Ore Prospecting Array 2
   Ore Prospecting Array 3:
     DevIndexIndustrial: 3
     DistributionID01: 366
     DistributionID02: 676
     DistributionID03: 680
     SovUpgradeRequiredUpgradeID: 2041
+    name: Ore Prospecting Array 3
   Ore Prospecting Array 4:
     DevIndexIndustrial: 4
     DistributionID01: 367
     DistributionID02: 678
     DistributionID03: 681
     SovUpgradeRequiredUpgradeID: 2042
+    name: Ore Prospecting Array 4
   Ore Prospecting Array 5:
     DevIndexIndustrial: 5
     DistributionID01: 368
     DistributionID02: 679
     DistributionID03: 682
     SovUpgradeRequiredUpgradeID: 2043
+    name: Ore Prospecting Array 5
   Survey Networks 1:
     DevIndexIndustrial: 1
     DistributionIDAngel01: 369
@@ -32,6 +37,7 @@ items:
     DistributionIDRogueDrone01: 394
     DistributionIDSansha01: 384
     DistributionIDSerpentis01: 389
+    name: Survey Networks 1
   Survey Networks 2:
     DevIndexIndustrial: 2
     DistributionIDAngel01: 370
@@ -41,6 +47,7 @@ items:
     DistributionIDSansha01: 385
     DistributionIDSerpentis01: 390
     SovUpgradeRequiredUpgradeID: 2053
+    name: Survey Networks 2
   Survey Networks 3:
     DevIndexIndustrial: 3
     DistributionIDAngel01: 371
@@ -50,6 +57,7 @@ items:
     DistributionIDSansha01: 386
     DistributionIDSerpentis01: 391
     SovUpgradeRequiredUpgradeID: 2054
+    name: Survey Networks 3
   Survey Networks 4:
     DevIndexIndustrial: 4
     DistributionIDAngel01: 372
@@ -59,6 +67,7 @@ items:
     DistributionIDSansha01: 387
     DistributionIDSerpentis01: 392
     SovUpgradeRequiredUpgradeID: 2055
+    name: Survey Networks 4
   Survey Networks 5:
     DevIndexIndustrial: 5
     DistributionIDAngel01: 373
@@ -68,3 +77,4 @@ items:
     DistributionIDSansha01: 388
     DistributionIDSerpentis01: 393
     SovUpgradeRequiredUpgradeID: 2056
+    name: Survey Networks 5

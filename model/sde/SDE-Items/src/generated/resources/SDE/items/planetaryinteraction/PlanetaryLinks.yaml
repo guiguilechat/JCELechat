@@ -7,3 +7,4 @@ items:
     PowerLoad: 10
     PowerLoadLevelModifier: 1.2000000476837158
     PowerLoadPerKm: 0.15000000596046448
+    name: Link

@@ -1,32 +1,63 @@
 items:
-  Amarr Luxury Yacht: {}
-  Ammatar Navy Apocalypse: {}
-  Ammatar Navy Armageddon: {}
-  Ammatar Navy Fleet Commander: {}
-  Harkan's Behemoth: {}
-  ISHAEKA Monalaz Commander: {}
-  Imperial Bataivah: {}
-  Imperial Dominator: {}
-  Imperial Martyr: {}
-  Imperial Navy Apocalypse: {}
-  Imperial Navy Armageddon: {}
-  Imperial Navy Fleet Commander: {}
-  Imperial Navy Jakar: {}
-  Imperial Origen: {}
-  Imperial Tanakh: {}
-  Imperial Templar Diviner: {}
-  Imperial Templar Dominator: {}
-  Imperial Templar Judgment: {}
-  Imperial Templar Martyr: {}
-  Imperial Templar Torah: {}
-  Imperial Templar Ultara: {}
-  Imperial Ultara: {}
-  Independent Abaddon: {}
-  'Independent Apocalypse ': {}
-  'Independent Armageddon ': {}
-  'Independent Green-Crewed Abaddon ': {}
-  Independent Green-Crewed Apocalypse: {}
-  Independent Green-Crewed Armageddon: {}
-  Independent Veteran Abaddon: {}
-  Independent Veteran Apocalypse: {}
-  Independent Veteran Armageddon: {}
+  Amarr Luxury Yacht:
+    name: Amarr Luxury Yacht
+  Ammatar Navy Apocalypse:
+    name: Ammatar Navy Apocalypse
+  Ammatar Navy Armageddon:
+    name: Ammatar Navy Armageddon
+  Ammatar Navy Fleet Commander:
+    name: Ammatar Navy Fleet Commander
+  Harkan's Behemoth:
+    name: Harkan's Behemoth
+  ISHAEKA Monalaz Commander:
+    name: ISHAEKA Monalaz Commander
+  Imperial Bataivah:
+    name: Imperial Bataivah
+  Imperial Dominator:
+    name: Imperial Dominator
+  Imperial Martyr:
+    name: Imperial Martyr
+  Imperial Navy Apocalypse:
+    name: Imperial Navy Apocalypse
+  Imperial Navy Armageddon:
+    name: Imperial Navy Armageddon
+  Imperial Navy Fleet Commander:
+    name: Imperial Navy Fleet Commander
+  Imperial Navy Jakar:
+    name: Imperial Navy Jakar
+  Imperial Origen:
+    name: Imperial Origen
+  Imperial Tanakh:
+    name: Imperial Tanakh
+  Imperial Templar Diviner:
+    name: Imperial Templar Diviner
+  Imperial Templar Dominator:
+    name: Imperial Templar Dominator
+  Imperial Templar Judgment:
+    name: Imperial Templar Judgment
+  Imperial Templar Martyr:
+    name: Imperial Templar Martyr
+  Imperial Templar Torah:
+    name: Imperial Templar Torah
+  Imperial Templar Ultara:
+    name: Imperial Templar Ultara
+  Imperial Ultara:
+    name: Imperial Ultara
+  Independent Abaddon:
+    name: Independent Abaddon
+  'Independent Apocalypse ':
+    name: 'Independent Apocalypse '
+  'Independent Armageddon ':
+    name: 'Independent Armageddon '
+  'Independent Green-Crewed Abaddon ':
+    name: 'Independent Green-Crewed Abaddon '
+  Independent Green-Crewed Apocalypse:
+    name: Independent Green-Crewed Apocalypse
+  Independent Green-Crewed Armageddon:
+    name: Independent Green-Crewed Armageddon
+  Independent Veteran Abaddon:
+    name: Independent Veteran Abaddon
+  Independent Veteran Apocalypse:
+    name: Independent Veteran Apocalypse
+  Independent Veteran Armageddon:
+    name: Independent Veteran Armageddon

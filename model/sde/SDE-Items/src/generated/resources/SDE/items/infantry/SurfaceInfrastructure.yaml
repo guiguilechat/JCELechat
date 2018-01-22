@@ -1,4 +1,7 @@
 items:
-  Cargo Hub: {}
-  Production Facility: {}
-  Surface Research Lab: {}
+  Cargo Hub:
+    name: Cargo Hub
+  Production Facility:
+    name: Production Facility
+  Surface Research Lab:
+    name: Surface Research Lab

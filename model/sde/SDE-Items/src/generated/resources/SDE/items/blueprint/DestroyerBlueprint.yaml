@@ -3,82 +3,104 @@ items:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Algos Blueprint
   Aliastra Catalyst Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Aliastra Catalyst Blueprint
   Catalyst Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Catalyst Blueprint
   Catalyst Serpentis Edition Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    name: Catalyst Serpentis Edition Blueprint
   Coercer Blood Raiders Edition Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    name: Coercer Blood Raiders Edition Blueprint
   Coercer Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Coercer Blueprint
   Corax Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Corax Blueprint
   Cormorant Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Cormorant Blueprint
   Cormorant Guristas Edition Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    name: Cormorant Guristas Edition Blueprint
   Dragoon Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Dragoon Blueprint
   Eris Blueprint:
     IndustryBlueprintRank: 600.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Eris Blueprint
   Flycatcher Blueprint:
     IndustryBlueprintRank: 600.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Flycatcher Blueprint
   Heretic Blueprint:
     IndustryBlueprintRank: 600.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Heretic Blueprint
   Inner Zone Shipping Catalyst Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Inner Zone Shipping Catalyst Blueprint
   Intaki Syndicate Catalyst Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Intaki Syndicate Catalyst Blueprint
   InterBus Catalyst Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: InterBus Catalyst Blueprint
   Quafe Catalyst Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Quafe Catalyst Blueprint
   Sabre Blueprint:
     IndustryBlueprintRank: 600.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Sabre Blueprint
   Sunesis Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Sunesis Blueprint
   Talwar Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Talwar Blueprint
   Thrasher Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Thrasher Blueprint
   Thrasher Thukker Tribe Edition Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    name: Thrasher Thukker Tribe Edition Blueprint

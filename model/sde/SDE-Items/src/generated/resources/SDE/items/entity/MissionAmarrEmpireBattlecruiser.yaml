@@ -1,11 +1,21 @@
 items:
-  Imperial Avenger: {}
-  Imperial Champion: {}
-  Imperial Equalizer: {}
-  Imperial Justicar: {}
-  Imperial Templar Champion: {}
-  Imperial Templar Justicar: {}
-  Imperial Templar Phalanx: {}
-  Imperial Templar Seer: {}
-  Independent Harbinger: {}
-  Independent Prophecy: {}
+  Imperial Avenger:
+    name: Imperial Avenger
+  Imperial Champion:
+    name: Imperial Champion
+  Imperial Equalizer:
+    name: Imperial Equalizer
+  Imperial Justicar:
+    name: Imperial Justicar
+  Imperial Templar Champion:
+    name: Imperial Templar Champion
+  Imperial Templar Justicar:
+    name: Imperial Templar Justicar
+  Imperial Templar Phalanx:
+    name: Imperial Templar Phalanx
+  Imperial Templar Seer:
+    name: Imperial Templar Seer
+  Independent Harbinger:
+    name: Independent Harbinger
+  Independent Prophecy:
+    name: Independent Prophecy

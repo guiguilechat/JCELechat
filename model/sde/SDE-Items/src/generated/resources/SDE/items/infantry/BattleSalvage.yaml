@@ -1,6 +1,11 @@
 items:
-  Broken Optronic Sight: {}
-  Crushed Magazine Housing: {}
-  Mangled Coil Assembly: {}
-  Melted Heat Sink: {}
-  Shattered Heat Shield: {}
+  Broken Optronic Sight:
+    name: Broken Optronic Sight
+  Crushed Magazine Housing:
+    name: Crushed Magazine Housing
+  Mangled Coil Assembly:
+    name: Mangled Coil Assembly
+  Melted Heat Sink:
+    name: Melted Heat Sink
+  Shattered Heat Shield:
+    name: Shattered Heat Shield

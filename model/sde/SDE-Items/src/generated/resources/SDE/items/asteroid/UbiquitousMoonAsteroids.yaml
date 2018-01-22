@@ -7,6 +7,7 @@ items:
     OreBasicType: 45492
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    name: Bitumens
   Brimful Bitumens:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -15,6 +16,7 @@ items:
     OreBasicType: 45492
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    name: Brimful Bitumens
   Brimful Coesite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -23,6 +25,7 @@ items:
     OreBasicType: 45493
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    name: Brimful Coesite
   Brimful Sylvite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -31,6 +34,7 @@ items:
     OreBasicType: 45491
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    name: Brimful Sylvite
   Brimful Zeolites:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -39,6 +43,7 @@ items:
     OreBasicType: 45490
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    name: Brimful Zeolites
   Coesite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -47,6 +52,7 @@ items:
     OreBasicType: 45493
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    name: Coesite
   Glistening Bitumens:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -55,6 +61,7 @@ items:
     OreBasicType: 45492
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    name: Glistening Bitumens
   Glistening Coesite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -63,6 +70,7 @@ items:
     OreBasicType: 45493
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    name: Glistening Coesite
   Glistening Sylvite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -71,6 +79,7 @@ items:
     OreBasicType: 45491
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    name: Glistening Sylvite
   Glistening Zeolites:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -79,6 +88,7 @@ items:
     OreBasicType: 45490
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    name: Glistening Zeolites
   Sylvite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -87,6 +97,7 @@ items:
     OreBasicType: 45491
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    name: Sylvite
   Zeolites:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -95,3 +106,4 @@ items:
     OreBasicType: 45490
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    name: Zeolites

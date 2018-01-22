@@ -7,6 +7,7 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    name: Compressed Golden Omber
   Compressed Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -15,6 +16,7 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    name: Compressed Omber
   Compressed Platinoid Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
@@ -23,6 +25,7 @@ items:
     OreBasicType: 46684
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    name: Compressed Platinoid Omber
   Compressed Silvery Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -31,6 +34,7 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    name: Compressed Silvery Omber
   Golden Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -41,6 +45,7 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    name: Golden Omber
   Mercium:
     AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
@@ -48,6 +53,7 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    name: Mercium
   Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -58,6 +64,7 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    name: Omber
   Platinoid Omber:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -68,6 +75,7 @@ items:
     OreBasicType: 46684
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    name: Platinoid Omber
   Silvery Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -78,3 +86,4 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    name: Silvery Omber

@@ -10,6 +10,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: '''Censer'' Medium Cap Battery'
   '''Crucible'' Small Cap Battery':
     CapacitorBonus: 150
     Cpu: 12.0
@@ -21,6 +22,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: '''Crucible'' Small Cap Battery'
   '''Micro'' Cap Battery':
     CapacitorBonus: 60
     Cpu: 8.0
@@ -32,6 +34,7 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Micro'' Cap Battery'
   '''Thurifer'' Large Cap Battery':
     CapacitorBonus: 1625
     Cpu: 30.0
@@ -43,6 +46,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: '''Thurifer'' Large Cap Battery'
   Capital Cap Battery I:
     CapacitorBonus: 14000
     Cpu: 55.0
@@ -52,6 +56,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Capital Cap Battery I
   Capital Cap Battery II:
     CapacitorBonus: 16800
     Cpu: 60.0
@@ -62,6 +67,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: Capital Cap Battery II
   Capital Compact Pb-Acid Cap Battery:
     CapacitorBonus: 15400
     Cpu: 44.0
@@ -72,6 +78,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Capital Compact Pb-Acid Cap Battery
   Dark Blood Capital Cap Battery:
     CapacitorBonus: 19600
     Cpu: 44.0
@@ -83,6 +90,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Dark Blood Capital Cap Battery
   Domination Capital Cap Battery:
     CapacitorBonus: 19600
     Cpu: 44.0
@@ -94,6 +102,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Domination Capital Cap Battery
   Domination Large Cap Battery:
     CapacitorBonus: 1820
     Cpu: 40.0
@@ -105,6 +114,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Domination Large Cap Battery
   Domination Medium Cap Battery:
     CapacitorBonus: 700
     Cpu: 28.0
@@ -116,6 +126,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Domination Medium Cap Battery
   Domination Small Cap Battery:
     CapacitorBonus: 168
     Cpu: 16.0
@@ -127,6 +138,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Domination Small Cap Battery
   Large Cap Battery I:
     CapacitorBonus: 1300
     Cpu: 50.0
@@ -136,6 +148,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Large Cap Battery I
   Large Cap Battery II:
     CapacitorBonus: 1625
     Cpu: 60.0
@@ -146,6 +159,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: Large Cap Battery II
   Large Compact Pb-Acid Cap Battery:
     CapacitorBonus: 1430
     Cpu: 40.0
@@ -156,6 +170,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Large Compact Pb-Acid Cap Battery
   Large F-4a Ld-Sulfate Capacitor Charge Unit:
     CapacitorBonus: 575
     Hp: 40
@@ -164,6 +179,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Large F-4a Ld-Sulfate Capacitor Charge Unit
   Large Ohm Capacitor Reserve I:
     CapacitorBonus: 550
     Hp: 40
@@ -172,6 +188,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Large Ohm Capacitor Reserve I
   Large Peroxide Capacitor Power Cell:
     CapacitorBonus: 600
     Hp: 40
@@ -180,6 +197,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Large Peroxide Capacitor Power Cell
   Medium Cap Battery I:
     CapacitorBonus: 500
     Cpu: 35.0
@@ -189,6 +207,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Medium Cap Battery I
   Medium Cap Battery II:
     CapacitorBonus: 625
     Cpu: 42.0
@@ -199,6 +218,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
     TechLevel: 2
+    name: Medium Cap Battery II
   Medium Compact Pb-Acid Cap Battery:
     CapacitorBonus: 550
     Cpu: 28.0
@@ -209,6 +229,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Medium Compact Pb-Acid Cap Battery
   Medium F-4a Ld-Sulfate Capacitor Charge Unit:
     CapacitorBonus: 345
     Hp: 40
@@ -217,6 +238,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Medium F-4a Ld-Sulfate Capacitor Charge Unit
   Medium Ohm Capacitor Reserve I:
     CapacitorBonus: 330
     Hp: 40
@@ -225,6 +247,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Medium Ohm Capacitor Reserve I
   Medium Peroxide Capacitor Power Cell:
     CapacitorBonus: 360
     Hp: 40
@@ -233,6 +256,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Medium Peroxide Capacitor Power Cell
   Micro Capacitor Battery II:
     CapacitorBonus: 53
     Hp: 40
@@ -241,6 +265,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 2
+    name: Micro Capacitor Battery II
   Micro F-4a Ld-Sulfate Capacitor Charge Unit:
     CapacitorBonus: 43
     Hp: 40
@@ -249,6 +274,7 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Micro F-4a Ld-Sulfate Capacitor Charge Unit
   Micro Ld-Acid Capacitor Battery I:
     CapacitorBonus: 39
     Hp: 40
@@ -257,6 +283,7 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Micro Ld-Acid Capacitor Battery I
   Micro Ohm Capacitor Reserve I:
     CapacitorBonus: 41
     Hp: 40
@@ -265,6 +292,7 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Micro Ohm Capacitor Reserve I
   Micro Peroxide Capacitor Power Cell:
     CapacitorBonus: 45
     Hp: 40
@@ -273,6 +301,7 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Micro Peroxide Capacitor Power Cell
   Republic Fleet Large Cap Battery:
     CapacitorBonus: 1820
     Cpu: 40.0
@@ -284,6 +313,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Republic Fleet Large Cap Battery
   Republic Fleet Medium Cap Battery:
     CapacitorBonus: 700
     Cpu: 28.0
@@ -295,6 +325,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Republic Fleet Medium Cap Battery
   Republic Fleet Small Cap Battery:
     CapacitorBonus: 168
     Cpu: 16.0
@@ -306,6 +337,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Republic Fleet Small Cap Battery
   Small Cap Battery I:
     CapacitorBonus: 120
     Cpu: 20.0
@@ -315,6 +347,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Small Cap Battery I
   Small Cap Battery II:
     CapacitorBonus: 150
     Cpu: 24.0
@@ -325,6 +358,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 2
+    name: Small Cap Battery II
   Small Compact Pb-Acid Cap Battery:
     CapacitorBonus: 132
     Cpu: 16.0
@@ -335,6 +369,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Small Compact Pb-Acid Cap Battery
   Small F-4a Ld-Sulfate Capacitor Charge Unit:
     CapacitorBonus: 86
     Hp: 40
@@ -343,6 +378,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Small F-4a Ld-Sulfate Capacitor Charge Unit
   Small Ohm Capacitor Reserve I:
     CapacitorBonus: 83
     Hp: 40
@@ -351,6 +387,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Small Ohm Capacitor Reserve I
   Small Peroxide Capacitor Power Cell:
     CapacitorBonus: 90
     Hp: 40
@@ -359,6 +396,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Small Peroxide Capacitor Power Cell
   Thukker Large Cap Battery:
     CapacitorBonus: 1755
     Cpu: 42.0
@@ -370,6 +408,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Thukker Large Cap Battery
   Thukker Medium Cap Battery:
     CapacitorBonus: 675
     Cpu: 29.0
@@ -381,6 +420,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Thukker Medium Cap Battery
   Thukker Small Cap Battery:
     CapacitorBonus: 162
     Cpu: 17.0
@@ -392,6 +432,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Thukker Small Cap Battery
   X-Large Capacitor Battery I:
     CapacitorBonus: 1250
     Hp: 40
@@ -399,6 +440,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: X-Large Capacitor Battery I
   X-Large Capacitor Battery II:
     CapacitorBonus: 1750
     Hp: 40
@@ -407,6 +449,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 5
     TechLevel: 2
+    name: X-Large Capacitor Battery II
   X-Large F-4a Ld-Sulfate Capacitor Charge Unit:
     CapacitorBonus: 1438
     Hp: 40
@@ -415,6 +458,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: X-Large F-4a Ld-Sulfate Capacitor Charge Unit
   X-Large Ld-Acid Capacitor Battery I:
     CapacitorBonus: 1313
     Hp: 40
@@ -423,6 +467,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: X-Large Ld-Acid Capacitor Battery I
   X-Large Ohm Capacitor Reserve I:
     CapacitorBonus: 1375
     Hp: 40
@@ -431,6 +476,7 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: X-Large Ohm Capacitor Reserve I
   X-Large Peroxide Capacitor Power Cell:
     CapacitorBonus: 1500
     Hp: 40
@@ -439,3 +485,4 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: X-Large Peroxide Capacitor Power Cell

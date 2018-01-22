@@ -1,5 +1,7 @@
 items:
   Recon System Scanner Blueprint:
     IndustryBlueprintRank: 6.0
+    name: Recon System Scanner Blueprint
   System Scanner I Blueprint:
     IndustryBlueprintRank: 6.0
+    name: System Scanner I Blueprint

@@ -16,6 +16,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 9750.0
     TechLevel: 1
+    name: CONCORD Capital Shield Booster
   Caldari Navy Large Shield Booster:
     Duration: 3200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -31,6 +32,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 252.0
     TechLevel: 1
+    name: Caldari Navy Large Shield Booster
   Caldari Navy Medium Shield Booster:
     Duration: 2400.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -46,6 +48,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 95.0
     TechLevel: 1
+    name: Caldari Navy Medium Shield Booster
   Caldari Navy Small Shield Booster:
     Duration: 1600.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -61,6 +64,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 32.0
     TechLevel: 1
+    name: Caldari Navy Small Shield Booster
   Caldari Navy X-Large Shield Booster:
     Duration: 4000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -76,6 +80,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 630.0
     TechLevel: 1
+    name: Caldari Navy X-Large Shield Booster
   Capital C-5L Compact Shield Booster:
     CapacitorNeed: 2400.0
     Cpu: 240.0
@@ -92,6 +97,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 7920.0
     TechLevel: 1
+    name: Capital C-5L Compact Shield Booster
   Capital Clarity Ward Enduring Shield Booster:
     CapacitorNeed: 1920.0
     Cpu: 300.0
@@ -108,6 +114,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 7920.0
     TechLevel: 1
+    name: Capital Clarity Ward Enduring Shield Booster
   Capital Shield Booster I:
     CapacitorNeed: 2400.0
     Duration: 10000.0
@@ -122,6 +129,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 7200.0
     TechLevel: 1
+    name: Capital Shield Booster I
   Capital Shield Booster II:
     CapacitorNeed: 2880.0
     Cpu: 330.0
@@ -138,6 +146,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 8640.0
     TechLevel: 2
+    name: Capital Shield Booster II
   Civilian Shield Booster:
     CapacitorNeed: 5.0
     Duration: 3000.0
@@ -152,6 +161,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 7.0
     TechLevel: 1
+    name: Civilian Shield Booster
   Domination Capital Shield Booster:
     CapacitorNeed: 1900.0
     Cpu: 240.0
@@ -169,6 +179,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 9400.0
     TechLevel: 1
+    name: Domination Capital Shield Booster
   Domination Large Shield Booster:
     Duration: 3200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -184,6 +195,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 221.0
     TechLevel: 1
+    name: Domination Large Shield Booster
   Domination Medium Shield Booster:
     Duration: 2400.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -199,6 +211,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 83.0
     TechLevel: 1
+    name: Domination Medium Shield Booster
   Domination Small Shield Booster:
     Duration: 1600.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -214,6 +227,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 28.0
     TechLevel: 1
+    name: Domination Small Shield Booster
   Domination X-Large Shield Booster:
     Duration: 4000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -229,6 +243,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 552.0
     TechLevel: 1
+    name: Domination X-Large Shield Booster
   Dread Guristas Capital Shield Booster:
     CapacitorNeed: 2500.0
     Cpu: 260.0
@@ -246,6 +261,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 10000.0
     TechLevel: 1
+    name: Dread Guristas Capital Shield Booster
   Dread Guristas Large Shield Booster:
     Duration: 3200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -261,6 +277,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 252.0
     TechLevel: 1
+    name: Dread Guristas Large Shield Booster
   Dread Guristas Medium Shield Booster:
     Duration: 2400.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -276,6 +293,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 95.0
     TechLevel: 1
+    name: Dread Guristas Medium Shield Booster
   Dread Guristas Small Shield Booster:
     Duration: 1600.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -291,6 +309,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 32.0
     TechLevel: 1
+    name: Dread Guristas Small Shield Booster
   Dread Guristas X-Large Shield Booster:
     Duration: 4000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -306,6 +325,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 630.0
     TechLevel: 1
+    name: Dread Guristas X-Large Shield Booster
   Estamel's Modified Large Shield Booster:
     Duration: 3200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -321,6 +341,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 370.0
     TechLevel: 1
+    name: Estamel's Modified Large Shield Booster
   Estamel's Modified X-Large Shield Booster:
     Duration: 4000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -336,6 +357,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 924.0
     TechLevel: 1
+    name: Estamel's Modified X-Large Shield Booster
   Gist A-Type Large Shield Booster:
     CapacitorNeed: 98.0
     Duration: 3200.0
@@ -352,6 +374,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 270.0
     TechLevel: 1
+    name: Gist A-Type Large Shield Booster
   Gist A-Type X-Large Shield Booster:
     CapacitorNeed: 196.0
     Duration: 4000.0
@@ -368,6 +391,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 682.0
     TechLevel: 1
+    name: Gist A-Type X-Large Shield Booster
   Gist B-Type Large Shield Booster:
     CapacitorNeed: 94.0
     Duration: 3200.0
@@ -384,6 +408,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 253.0
     TechLevel: 1
+    name: Gist B-Type Large Shield Booster
   Gist B-Type X-Large Shield Booster:
     CapacitorNeed: 187.0
     Duration: 4000.0
@@ -400,6 +425,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 634.0
     TechLevel: 1
+    name: Gist B-Type X-Large Shield Booster
   Gist C-Type Large Shield Booster:
     CapacitorNeed: 90.0
     Duration: 3200.0
@@ -416,6 +442,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 237.0
     TechLevel: 1
+    name: Gist C-Type Large Shield Booster
   Gist C-Type X-Large Shield Booster:
     CapacitorNeed: 179.0
     Duration: 4000.0
@@ -432,6 +459,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 578.0
     TechLevel: 1
+    name: Gist C-Type X-Large Shield Booster
   Gist X-Type Large Shield Booster:
     CapacitorNeed: 102.0
     Duration: 3200.0
@@ -448,6 +476,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 296.0
     TechLevel: 1
+    name: Gist X-Type Large Shield Booster
   Gist X-Type X-Large Shield Booster:
     CapacitorNeed: 204.0
     Duration: 4000.0
@@ -464,6 +493,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 739.0
     TechLevel: 1
+    name: Gist X-Type X-Large Shield Booster
   Gistii A-Type Small Shield Booster:
     CapacitorNeed: 13.0
     Duration: 2000.0
@@ -480,6 +510,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 57.0
     TechLevel: 1
+    name: Gistii A-Type Small Shield Booster
   Gistii B-Type Small Shield Booster:
     CapacitorNeed: 12.0
     Duration: 2000.0
@@ -496,6 +527,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 41.0
     TechLevel: 1
+    name: Gistii B-Type Small Shield Booster
   Gistii C-Type Small Shield Booster:
     CapacitorNeed: 11.0
     Duration: 2000.0
@@ -512,6 +544,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 39.0
     TechLevel: 1
+    name: Gistii C-Type Small Shield Booster
   Gistum A-Type Medium Shield Booster:
     CapacitorNeed: 38.0
     Duration: 3000.0
@@ -528,6 +561,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 170.0
     TechLevel: 1
+    name: Gistum A-Type Medium Shield Booster
   Gistum B-Type Medium Shield Booster:
     CapacitorNeed: 35.0
     Duration: 3000.0
@@ -544,6 +578,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 124.0
     TechLevel: 1
+    name: Gistum B-Type Medium Shield Booster
   Gistum C-Type Medium Shield Booster:
     CapacitorNeed: 32.0
     Duration: 3000.0
@@ -560,6 +595,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 116.0
     TechLevel: 1
+    name: Gistum C-Type Medium Shield Booster
   Hakim's Modified Large Shield Booster:
     CapacitorNeed: 94.0
     Duration: 3200.0
@@ -576,6 +612,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 253.0
     TechLevel: 1
+    name: Hakim's Modified Large Shield Booster
   Hakim's Modified X-Large Shield Booster:
     CapacitorNeed: 187.0
     Duration: 4000.0
@@ -592,6 +629,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 634.0
     TechLevel: 1
+    name: Hakim's Modified X-Large Shield Booster
   Kaikka's Modified Large Shield Booster:
     Duration: 3200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -607,6 +645,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 290.0
     TechLevel: 1
+    name: Kaikka's Modified Large Shield Booster
   Kaikka's Modified X-Large Shield Booster:
     Duration: 4000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -622,6 +661,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 726.0
     TechLevel: 1
+    name: Kaikka's Modified X-Large Shield Booster
   Large 'Outlaw' Shield Booster:
     CapacitorNeed: 160.0
     Duration: 4000.0
@@ -638,6 +678,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 221.0
     TechLevel: 1
+    name: Large 'Outlaw' Shield Booster
   Large C5-L Emergency Shield Overload I:
     CapacitorNeed: 160.0
     Duration: 4000.0
@@ -653,6 +694,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 248.0
     TechLevel: 1
+    name: Large C5-L Emergency Shield Overload I
   Large Clarity Ward Booster I:
     CapacitorNeed: 160.0
     Duration: 4000.0
@@ -668,6 +710,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 238.0
     TechLevel: 1
+    name: Large Clarity Ward Booster I
   Large Converse Deflection Catalyzer:
     CapacitorNeed: 160.0
     Duration: 4000.0
@@ -683,6 +726,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 217.0
     TechLevel: 1
+    name: Large Converse Deflection Catalyzer
   Large Neutron Saturation Injector I:
     CapacitorNeed: 160.0
     Duration: 4000.0
@@ -698,6 +742,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 228.0
     TechLevel: 1
+    name: Large Neutron Saturation Injector I
   Large Shield Booster I:
     CapacitorNeed: 160.0
     Duration: 4000.0
@@ -712,6 +757,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 207.0
     TechLevel: 1
+    name: Large Shield Booster I
   Large Shield Booster II:
     CapacitorNeed: 160.0
     Duration: 4000.0
@@ -727,6 +773,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 276.0
     TechLevel: 2
+    name: Large Shield Booster II
   Medium 'Lone Ranger' Shield Booster:
     CapacitorNeed: 60.0
     Duration: 3000.0
@@ -743,6 +790,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 83.0
     TechLevel: 1
+    name: Medium 'Lone Ranger' Shield Booster
   Medium C5-L Emergency Shield Overload I:
     CapacitorNeed: 60.0
     Duration: 3000.0
@@ -758,6 +806,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 93.0
     TechLevel: 1
+    name: Medium C5-L Emergency Shield Overload I
   Medium Clarity Ward Booster I:
     CapacitorNeed: 60.0
     Duration: 3000.0
@@ -773,6 +822,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 90.0
     TechLevel: 1
+    name: Medium Clarity Ward Booster I
   Medium Converse Deflection Catalyzer:
     CapacitorNeed: 60.0
     Duration: 3000.0
@@ -788,6 +838,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 82.0
     TechLevel: 1
+    name: Medium Converse Deflection Catalyzer
   Medium Neutron Saturation Injector I:
     CapacitorNeed: 60.0
     Duration: 3000.0
@@ -803,6 +854,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 85.0
     TechLevel: 1
+    name: Medium Neutron Saturation Injector I
   Medium Shield Booster I:
     CapacitorNeed: 60.0
     Duration: 3000.0
@@ -817,6 +869,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 78.0
     TechLevel: 1
+    name: Medium Shield Booster I
   Medium Shield Booster II:
     CapacitorNeed: 60.0
     Duration: 3000.0
@@ -832,6 +885,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 104.0
     TechLevel: 2
+    name: Medium Shield Booster II
   Pith A-Type Large Shield Booster:
     CapacitorNeed: 160.0
     Duration: 3200.0
@@ -848,6 +902,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 343.0
     TechLevel: 1
+    name: Pith A-Type Large Shield Booster
   Pith A-Type X-Large Shield Booster:
     CapacitorNeed: 400.0
     Duration: 4000.0
@@ -864,6 +919,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 858.0
     TechLevel: 1
+    name: Pith A-Type X-Large Shield Booster
   Pith B-Type Large Shield Booster:
     CapacitorNeed: 160.0
     Duration: 3200.0
@@ -880,6 +936,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 317.0
     TechLevel: 1
+    name: Pith B-Type Large Shield Booster
   Pith B-Type X-Large Shield Booster:
     CapacitorNeed: 400.0
     Duration: 4000.0
@@ -896,6 +953,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 792.0
     TechLevel: 1
+    name: Pith B-Type X-Large Shield Booster
   Pith C-Type Large Shield Booster:
     CapacitorNeed: 160.0
     Duration: 3200.0
@@ -912,6 +970,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 290.0
     TechLevel: 1
+    name: Pith C-Type Large Shield Booster
   Pith C-Type X-Large Shield Booster:
     CapacitorNeed: 400.0
     Duration: 4000.0
@@ -928,6 +987,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 726.0
     TechLevel: 1
+    name: Pith C-Type X-Large Shield Booster
   Pith X-Type Large Shield Booster:
     CapacitorNeed: 160.0
     Duration: 3200.0
@@ -944,6 +1004,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 370.0
     TechLevel: 1
+    name: Pith X-Type Large Shield Booster
   Pith X-Type X-Large Shield Booster:
     CapacitorNeed: 400.0
     Duration: 4000.0
@@ -960,6 +1021,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 924.0
     TechLevel: 1
+    name: Pith X-Type X-Large Shield Booster
   Pithi A-Type Small Shield Booster:
     CapacitorNeed: 20.0
     Duration: 2000.0
@@ -976,6 +1038,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 76.0
     TechLevel: 1
+    name: Pithi A-Type Small Shield Booster
   Pithi B-Type Small Shield Booster:
     CapacitorNeed: 20.0
     Duration: 2000.0
@@ -992,6 +1055,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 65.0
     TechLevel: 1
+    name: Pithi B-Type Small Shield Booster
   Pithi C-Type Small Shield Booster:
     CapacitorNeed: 20.0
     Duration: 2000.0
@@ -1008,6 +1072,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 55.0
     TechLevel: 1
+    name: Pithi C-Type Small Shield Booster
   Pithum A-Type Medium Shield Booster:
     CapacitorNeed: 60.0
     Duration: 3000.0
@@ -1024,6 +1089,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 228.0
     TechLevel: 1
+    name: Pithum A-Type Medium Shield Booster
   Pithum B-Type Medium Shield Booster:
     CapacitorNeed: 60.0
     Duration: 3000.0
@@ -1040,6 +1106,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 194.0
     TechLevel: 1
+    name: Pithum B-Type Medium Shield Booster
   Pithum C-Type Medium Shield Booster:
     CapacitorNeed: 60.0
     Duration: 3000.0
@@ -1056,6 +1123,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 163.0
     TechLevel: 1
+    name: Pithum C-Type Medium Shield Booster
   Republic Fleet Large Shield Booster:
     Duration: 3200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1071,6 +1139,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 221.0
     TechLevel: 1
+    name: Republic Fleet Large Shield Booster
   Republic Fleet Medium Shield Booster:
     Duration: 2400.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1086,6 +1155,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 83.0
     TechLevel: 1
+    name: Republic Fleet Medium Shield Booster
   Republic Fleet Small Shield Booster:
     Duration: 1600.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1101,6 +1171,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 28.0
     TechLevel: 1
+    name: Republic Fleet Small Shield Booster
   Republic Fleet X-Large Shield Booster:
     Duration: 4000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1116,6 +1187,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 552.0
     TechLevel: 1
+    name: Republic Fleet X-Large Shield Booster
   Small 'Settler' Shield Booster:
     CapacitorNeed: 20.0
     Duration: 2000.0
@@ -1132,6 +1204,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 28.0
     TechLevel: 1
+    name: Small 'Settler' Shield Booster
   Small C5-L Emergency Shield Overload I:
     CapacitorNeed: 20.0
     Duration: 2000.0
@@ -1147,6 +1220,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 31.0
     TechLevel: 1
+    name: Small C5-L Emergency Shield Overload I
   Small Clarity Ward Booster I:
     CapacitorNeed: 20.0
     Duration: 2000.0
@@ -1162,6 +1236,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 30.0
     TechLevel: 1
+    name: Small Clarity Ward Booster I
   Small Converse Deflection Catalyzer:
     CapacitorNeed: 20.0
     Duration: 2000.0
@@ -1177,6 +1252,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 28.0
     TechLevel: 1
+    name: Small Converse Deflection Catalyzer
   Small Neutron Saturation Injector I:
     CapacitorNeed: 20.0
     Duration: 2000.0
@@ -1192,6 +1268,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 29.0
     TechLevel: 1
+    name: Small Neutron Saturation Injector I
   Small Shield Booster I:
     CapacitorNeed: 20.0
     Duration: 2000.0
@@ -1206,6 +1283,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 26.0
     TechLevel: 1
+    name: Small Shield Booster I
   Small Shield Booster II:
     CapacitorNeed: 20.0
     Duration: 2000.0
@@ -1221,6 +1299,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 35.0
     TechLevel: 2
+    name: Small Shield Booster II
   Thon's Modified Large Shield Booster:
     Duration: 3200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1236,6 +1315,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 317.0
     TechLevel: 1
+    name: Thon's Modified Large Shield Booster
   Thon's Modified X-Large Shield Booster:
     Duration: 4000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1251,6 +1331,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 792.0
     TechLevel: 1
+    name: Thon's Modified X-Large Shield Booster
   Tobias' Modified Large Shield Booster:
     CapacitorNeed: 102.0
     Duration: 3200.0
@@ -1267,6 +1348,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 296.0
     TechLevel: 1
+    name: Tobias' Modified Large Shield Booster
   Tobias' Modified X-Large Shield Booster:
     CapacitorNeed: 204.0
     Duration: 4000.0
@@ -1283,6 +1365,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 739.0
     TechLevel: 1
+    name: Tobias' Modified X-Large Shield Booster
   True Sansha Capital Shield Booster:
     CapacitorNeed: 1900.0
     Cpu: 240.0
@@ -1300,6 +1383,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 9400.0
     TechLevel: 1
+    name: True Sansha Capital Shield Booster
   Vepas' Modified Large Shield Booster:
     Duration: 3200.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1315,6 +1399,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 343.0
     TechLevel: 1
+    name: Vepas' Modified Large Shield Booster
   Vepas' Modified X-Large Shield Booster:
     Duration: 4000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1330,6 +1415,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 858.0
     TechLevel: 1
+    name: Vepas' Modified X-Large Shield Booster
   X-Large 'Locomotive' Shield Booster:
     CapacitorNeed: 400.0
     Duration: 5000.0
@@ -1346,6 +1432,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 552.0
     TechLevel: 1
+    name: X-Large 'Locomotive' Shield Booster
   X-Large C5-L Emergency Shield Overload I:
     CapacitorNeed: 400.0
     Duration: 5000.0
@@ -1361,6 +1448,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 621.0
     TechLevel: 1
+    name: X-Large C5-L Emergency Shield Overload I
   X-Large Clarity Ward Booster I:
     CapacitorNeed: 400.0
     Duration: 5000.0
@@ -1376,6 +1464,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 596.0
     TechLevel: 1
+    name: X-Large Clarity Ward Booster I
   X-Large Converse Deflection Catalyzer:
     CapacitorNeed: 400.0
     Duration: 5000.0
@@ -1391,6 +1480,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 544.0
     TechLevel: 1
+    name: X-Large Converse Deflection Catalyzer
   X-Large Neutron Saturation Injector I:
     CapacitorNeed: 400.0
     Duration: 5000.0
@@ -1406,6 +1496,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 569.0
     TechLevel: 1
+    name: X-Large Neutron Saturation Injector I
   X-Large Shield Booster I:
     CapacitorNeed: 400.0
     Duration: 5000.0
@@ -1420,6 +1511,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 518.0
     TechLevel: 1
+    name: X-Large Shield Booster I
   X-Large Shield Booster II:
     CapacitorNeed: 400.0
     Duration: 5000.0
@@ -1435,3 +1527,4 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 690.0
     TechLevel: 2
+    name: X-Large Shield Booster II

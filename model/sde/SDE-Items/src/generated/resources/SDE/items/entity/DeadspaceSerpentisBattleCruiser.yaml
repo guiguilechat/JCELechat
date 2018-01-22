@@ -1,13 +1,25 @@
 items:
-  Corelatis Captain: {}
-  Corelatis Captain Sentry: {}
-  Corelatis High Captain: {}
-  Corelatis Platoon Leader: {}
-  Corelatis Squad Leader: {}
-  Corelatis Wing Leader: {}
-  Shadow Corelatis Captain: {}
-  Shadow Corelatis Captain Sentry: {}
-  Shadow Corelatis High Captain: {}
-  Shadow Corelatis Platoon Leader: {}
-  Shadow Corelatis Squad Leader: {}
-  Shadow Corelatis Wing Leader: {}
+  Corelatis Captain:
+    name: Corelatis Captain
+  Corelatis Captain Sentry:
+    name: Corelatis Captain Sentry
+  Corelatis High Captain:
+    name: Corelatis High Captain
+  Corelatis Platoon Leader:
+    name: Corelatis Platoon Leader
+  Corelatis Squad Leader:
+    name: Corelatis Squad Leader
+  Corelatis Wing Leader:
+    name: Corelatis Wing Leader
+  Shadow Corelatis Captain:
+    name: Shadow Corelatis Captain
+  Shadow Corelatis Captain Sentry:
+    name: Shadow Corelatis Captain Sentry
+  Shadow Corelatis High Captain:
+    name: Shadow Corelatis High Captain
+  Shadow Corelatis Platoon Leader:
+    name: Shadow Corelatis Platoon Leader
+  Shadow Corelatis Squad Leader:
+    name: Shadow Corelatis Squad Leader
+  Shadow Corelatis Wing Leader:
+    name: Shadow Corelatis Wing Leader

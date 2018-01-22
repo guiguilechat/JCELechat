@@ -18,6 +18,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
+    name: Barrage L
   Barrage M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
@@ -37,6 +38,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
+    name: Barrage M
   Barrage S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
@@ -56,6 +58,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
+    name: Barrage S
   Barrage XL:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
@@ -75,6 +78,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
+    name: Barrage XL
   Hail L:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 3
@@ -94,6 +98,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
+    name: Hail L
   Hail M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
@@ -113,6 +118,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
+    name: Hail M
   Hail S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
@@ -132,6 +138,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
+    name: Hail S
   Hail XL:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
@@ -151,6 +158,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
+    name: Hail XL
   Storm L:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 3
@@ -170,6 +178,7 @@ items:
     ThermalDamage: 20.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
+    name: Storm L
   Storm M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
@@ -189,6 +198,7 @@ items:
     ThermalDamage: 10.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
+    name: Storm M
   Storm S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
@@ -208,3 +218,4 @@ items:
     ThermalDamage: 5.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
+    name: Storm S

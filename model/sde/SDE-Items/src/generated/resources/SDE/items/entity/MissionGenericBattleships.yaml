@@ -1,53 +1,105 @@
 items:
-  Captain Amiette Barcier: {}
-  Captain Aneika Sareko: {}
-  Captain Appakir Tarvia: {}
-  Captain Artey Vinck: {}
-  Captain Isoryn Ardorele: {}
-  Captain Saira Katori: {}
-  Captain Scane Essyn: {}
-  Captain Tori Aanai: {}
-  Commander Dakin Gara: {}
-  Commander Genom Tara: {}
-  Commander Karzo Sarum: {}
-  Darkonnen Envoy: {}
-  Draben Kuvakei: {}
-  EoM Behemoth: {}
-  EoM Death Lord: {}
-  EoM Hydra: {}
-  EoM Ogre: {}
-  Faramon Mundan: {}
-  Faramon Zaccori: {}
-  Freedom Command Ship: {}
-  Freedom Liberty: {}
-  General 'Buck' Turgidson: {}
-  General Krayek Tsunomi: {}
-  Gregory Lerma: {}
-  High Priest Karmone Tizmer: {}
-  Hoborak Moon: {}
-  Hyan Vezzon: {}
-  Ioan Lafonte: {}
-  Jared Kalem: {}
-  Jerek Shapuir: {}
-  Kazar Numon: {}
-  Komni Envoy: {}
-  Korien Anieu: {}
-  Kurzon Destroyer: {}
-  Kyokan: {}
-  Markus Ikmani: {}
-  Maru Envoy: {}
-  Mercenary Overlord: {}
-  Odamian Envoy: {}
-  Paon Tay: {}
-  Rachen Mysuna: {}
-  Redtail Shark: {}
-  Rogue Pirate Leader: {}
-  Taisu Magdesh: {}
-  Tauron: {}
-  Tikui Makan: {}
-  Warlord Ixon Kruz: {}
-  Whelan Machorin: {}
-  Xevni Jipon: {}
-  Yaekun Ogdin: {}
-  Zelfarios Kashnostramus: {}
-  Zor: {}
+  Captain Amiette Barcier:
+    name: Captain Amiette Barcier
+  Captain Aneika Sareko:
+    name: Captain Aneika Sareko
+  Captain Appakir Tarvia:
+    name: Captain Appakir Tarvia
+  Captain Artey Vinck:
+    name: Captain Artey Vinck
+  Captain Isoryn Ardorele:
+    name: Captain Isoryn Ardorele
+  Captain Saira Katori:
+    name: Captain Saira Katori
+  Captain Scane Essyn:
+    name: Captain Scane Essyn
+  Captain Tori Aanai:
+    name: Captain Tori Aanai
+  Commander Dakin Gara:
+    name: Commander Dakin Gara
+  Commander Genom Tara:
+    name: Commander Genom Tara
+  Commander Karzo Sarum:
+    name: Commander Karzo Sarum
+  Darkonnen Envoy:
+    name: Darkonnen Envoy
+  Draben Kuvakei:
+    name: Draben Kuvakei
+  EoM Behemoth:
+    name: EoM Behemoth
+  EoM Death Lord:
+    name: EoM Death Lord
+  EoM Hydra:
+    name: EoM Hydra
+  EoM Ogre:
+    name: EoM Ogre
+  Faramon Mundan:
+    name: Faramon Mundan
+  Faramon Zaccori:
+    name: Faramon Zaccori
+  Freedom Command Ship:
+    name: Freedom Command Ship
+  Freedom Liberty:
+    name: Freedom Liberty
+  General 'Buck' Turgidson:
+    name: General 'Buck' Turgidson
+  General Krayek Tsunomi:
+    name: General Krayek Tsunomi
+  Gregory Lerma:
+    name: Gregory Lerma
+  High Priest Karmone Tizmer:
+    name: High Priest Karmone Tizmer
+  Hoborak Moon:
+    name: Hoborak Moon
+  Hyan Vezzon:
+    name: Hyan Vezzon
+  Ioan Lafonte:
+    name: Ioan Lafonte
+  Jared Kalem:
+    name: Jared Kalem
+  Jerek Shapuir:
+    name: Jerek Shapuir
+  Kazar Numon:
+    name: Kazar Numon
+  Komni Envoy:
+    name: Komni Envoy
+  Korien Anieu:
+    name: Korien Anieu
+  Kurzon Destroyer:
+    name: Kurzon Destroyer
+  Kyokan:
+    name: Kyokan
+  Markus Ikmani:
+    name: Markus Ikmani
+  Maru Envoy:
+    name: Maru Envoy
+  Mercenary Overlord:
+    name: Mercenary Overlord
+  Odamian Envoy:
+    name: Odamian Envoy
+  Paon Tay:
+    name: Paon Tay
+  Rachen Mysuna:
+    name: Rachen Mysuna
+  Redtail Shark:
+    name: Redtail Shark
+  Rogue Pirate Leader:
+    name: Rogue Pirate Leader
+  Taisu Magdesh:
+    name: Taisu Magdesh
+  Tauron:
+    name: Tauron
+  Tikui Makan:
+    name: Tikui Makan
+  Warlord Ixon Kruz:
+    name: Warlord Ixon Kruz
+  Whelan Machorin:
+    name: Whelan Machorin
+  Xevni Jipon:
+    name: Xevni Jipon
+  Yaekun Ogdin:
+    name: Yaekun Ogdin
+  Zelfarios Kashnostramus:
+    name: Zelfarios Kashnostramus
+  Zor:
+    name: Zor

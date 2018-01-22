@@ -1,7 +1,13 @@
 items:
-  Serpentis Captain: {}
-  Serpentis Captain Sentry: {}
-  Serpentis High Captain: {}
-  Serpentis Platoon Leader: {}
-  Serpentis Squad Leader: {}
-  Serpentis Wing Leader: {}
+  Serpentis Captain:
+    name: Serpentis Captain
+  Serpentis Captain Sentry:
+    name: Serpentis Captain Sentry
+  Serpentis High Captain:
+    name: Serpentis High Captain
+  Serpentis Platoon Leader:
+    name: Serpentis Platoon Leader
+  Serpentis Squad Leader:
+    name: Serpentis Squad Leader
+  Serpentis Wing Leader:
+    name: Serpentis Wing Leader

@@ -1,7 +1,13 @@
 items:
-  True Sansha's Behemoth: {}
-  True Sansha's Daemon: {}
-  True Sansha's Devil: {}
-  True Sansha's Phantasm: {}
-  True Sansha's Specter: {}
-  True Sansha's Wraith: {}
+  True Sansha's Behemoth:
+    name: True Sansha's Behemoth
+  True Sansha's Daemon:
+    name: True Sansha's Daemon
+  True Sansha's Devil:
+    name: True Sansha's Devil
+  True Sansha's Phantasm:
+    name: True Sansha's Phantasm
+  True Sansha's Specter:
+    name: True Sansha's Specter
+  True Sansha's Wraith:
+    name: True Sansha's Wraith

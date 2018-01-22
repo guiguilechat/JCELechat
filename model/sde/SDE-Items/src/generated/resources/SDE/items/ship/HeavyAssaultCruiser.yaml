@@ -75,6 +75,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Adrestia
   Cerberus:
     Agility: 0.46299999952316284
     ArmorEmDamageResonance: 0.5
@@ -152,6 +153,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Cerberus
   Deimos:
     Agility: 0.4749999940395355
     ArmorEmDamageResonance: 0.5
@@ -228,6 +230,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Deimos
   Eagle:
     Agility: 0.5759999752044678
     ArmorEmDamageResonance: 0.5
@@ -304,6 +307,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Eagle
   Ishtar:
     Agility: 0.5649999976158142
     ArmorEmDamageResonance: 0.5
@@ -382,6 +386,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Ishtar
   Mimir:
     Agility: 0.5099999904632568
     ArmorEmDamageResonance: 0.10000000149011612
@@ -461,6 +466,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Mimir
   Muninn:
     Agility: 0.5709999799728394
     ArmorEmDamageResonance: 0.10000000149011612
@@ -540,6 +546,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Muninn
   Sacrilege:
     Agility: 0.5669999718666077
     ArmorEmDamageResonance: 0.5
@@ -618,6 +625,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Sacrilege
   Vagabond:
     Agility: 0.5040000081062317
     ArmorEmDamageResonance: 0.10000000149011612
@@ -696,6 +704,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Vagabond
   Vangel:
     Agility: 0.5099999904632568
     ArmorEmDamageResonance: 0.5
@@ -775,6 +784,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Vangel
   Zealot:
     Agility: 0.5529999732971191
     ArmorEmDamageResonance: 0.5
@@ -850,6 +860,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Zealot
   伊什塔级YC117年特别版:
     Agility: 0.5649999976158142
     ArmorEmDamageResonance: 0.5
@@ -928,6 +939,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: 伊什塔级YC117年特别版
   银鹰级YC117年特别版:
     Agility: 0.5759999752044678
     ArmorEmDamageResonance: 0.5
@@ -1004,3 +1016,4 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: 银鹰级YC117年特别版

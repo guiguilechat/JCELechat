@@ -1,44 +1,63 @@
 items:
   Ametat I Blueprint:
     TechLevel: 1
+    name: Ametat I Blueprint
   Ametat II Blueprint:
     TechLevel: 2
+    name: Ametat II Blueprint
   Antaeus I Blueprint:
     TechLevel: 1
+    name: Antaeus I Blueprint
   Antaeus II Blueprint:
     TechLevel: 2
+    name: Antaeus II Blueprint
   Cyclops I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    name: Cyclops I Blueprint
   Cyclops II Blueprint:
     TechLevel: 2
+    name: Cyclops II Blueprint
   DogBlueprint_PLACEHOLDER:
     TechLevel: 1
+    name: DogBlueprint_PLACEHOLDER
   EasyBlueprint_PLACEHOLDER:
     TechLevel: 1
+    name: EasyBlueprint_PLACEHOLDER
   Gungnir I Blueprint:
     TechLevel: 1
+    name: Gungnir I Blueprint
   Gungnir II Blueprint:
     TechLevel: 2
+    name: Gungnir II Blueprint
   Malleus I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    name: Malleus I Blueprint
   Malleus II Blueprint:
     TechLevel: 2
+    name: Malleus II Blueprint
   Mantis I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    name: Mantis I Blueprint
   Mantis II Blueprint:
     TechLevel: 2
+    name: Mantis II Blueprint
   Shadow Blueprint:
     MetaGroupID: 4
     TechLevel: 1
+    name: Shadow Blueprint
   Termite I Blueprint:
     TechLevel: 1
+    name: Termite I Blueprint
   Termite II Blueprint:
     TechLevel: 2
+    name: Termite II Blueprint
   Tyrfing I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    name: Tyrfing I Blueprint
   Tyrfing II Blueprint:
     TechLevel: 2
+    name: Tyrfing II Blueprint

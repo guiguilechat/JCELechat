@@ -1,17 +1,33 @@
 items:
-  Mule Ferrier: {}
-  Mule Gatherer: {}
-  Mule Harvester: {}
-  Mule Loader: {}
-  Serpentis Bulker: {}
-  Serpentis Carrier: {}
-  Serpentis Convoy: {}
-  Serpentis Courier: {}
-  Serpentis Ferrier: {}
-  Serpentis Gatherer: {}
-  Serpentis Harvester: {}
-  Serpentis Hauler: {}
-  Serpentis Loader: {}
-  Serpentis Trailer: {}
-  Serpentis Transporter: {}
-  Serpentis Trucker: {}
+  Mule Ferrier:
+    name: Mule Ferrier
+  Mule Gatherer:
+    name: Mule Gatherer
+  Mule Harvester:
+    name: Mule Harvester
+  Mule Loader:
+    name: Mule Loader
+  Serpentis Bulker:
+    name: Serpentis Bulker
+  Serpentis Carrier:
+    name: Serpentis Carrier
+  Serpentis Convoy:
+    name: Serpentis Convoy
+  Serpentis Courier:
+    name: Serpentis Courier
+  Serpentis Ferrier:
+    name: Serpentis Ferrier
+  Serpentis Gatherer:
+    name: Serpentis Gatherer
+  Serpentis Harvester:
+    name: Serpentis Harvester
+  Serpentis Hauler:
+    name: Serpentis Hauler
+  Serpentis Loader:
+    name: Serpentis Loader
+  Serpentis Trailer:
+    name: Serpentis Trailer
+  Serpentis Transporter:
+    name: Serpentis Transporter
+  Serpentis Trucker:
+    name: Serpentis Trucker

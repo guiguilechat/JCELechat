@@ -1,3 +1,5 @@
 items:
-  Asset Safety Wrap: {}
-  SKIN: {}
+  Asset Safety Wrap:
+    name: Asset Safety Wrap
+  SKIN:
+    name: SKIN

@@ -1,15 +1,29 @@
 items:
-  Amarr Phenomena Generator Blueprint: {}
-  Armor Command Burst I Blueprint: {}
-  Armor Command Burst II Blueprint: {}
-  Caldari Phenomena Generator Blueprint: {}
-  Gallente Phenomena Generator Blueprint: {}
-  Information Command Burst I Blueprint: {}
-  Information Command Burst II Blueprint: {}
-  Mining Foreman Burst I Blueprint: {}
-  Mining Foreman Burst II Blueprint: {}
-  Minmatar Phenomena Generator Blueprint: {}
-  Shield Command Burst I Blueprint: {}
-  Shield Command Burst II Blueprint: {}
-  Skirmish Command Burst I Blueprint: {}
-  Skirmish Command Burst II Blueprint: {}
+  Amarr Phenomena Generator Blueprint:
+    name: Amarr Phenomena Generator Blueprint
+  Armor Command Burst I Blueprint:
+    name: Armor Command Burst I Blueprint
+  Armor Command Burst II Blueprint:
+    name: Armor Command Burst II Blueprint
+  Caldari Phenomena Generator Blueprint:
+    name: Caldari Phenomena Generator Blueprint
+  Gallente Phenomena Generator Blueprint:
+    name: Gallente Phenomena Generator Blueprint
+  Information Command Burst I Blueprint:
+    name: Information Command Burst I Blueprint
+  Information Command Burst II Blueprint:
+    name: Information Command Burst II Blueprint
+  Mining Foreman Burst I Blueprint:
+    name: Mining Foreman Burst I Blueprint
+  Mining Foreman Burst II Blueprint:
+    name: Mining Foreman Burst II Blueprint
+  Minmatar Phenomena Generator Blueprint:
+    name: Minmatar Phenomena Generator Blueprint
+  Shield Command Burst I Blueprint:
+    name: Shield Command Burst I Blueprint
+  Shield Command Burst II Blueprint:
+    name: Shield Command Burst II Blueprint
+  Skirmish Command Burst I Blueprint:
+    name: Skirmish Command Burst I Blueprint
+  Skirmish Command Burst II Blueprint:
+    name: Skirmish Command Burst II Blueprint

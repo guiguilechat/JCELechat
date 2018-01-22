@@ -1,13 +1,25 @@
 items:
-  Sansha's Bulker: {}
-  Sansha's Carrier: {}
-  Sansha's Convoy: {}
-  Sansha's Courier: {}
-  Sansha's Ferrier: {}
-  Sansha's Gatherer: {}
-  Sansha's Harvester: {}
-  Sansha's Hauler: {}
-  Sansha's Loader: {}
-  Sansha's Trailer: {}
-  Sansha's Transporter: {}
-  Sansha's Trucker: {}
+  Sansha's Bulker:
+    name: Sansha's Bulker
+  Sansha's Carrier:
+    name: Sansha's Carrier
+  Sansha's Convoy:
+    name: Sansha's Convoy
+  Sansha's Courier:
+    name: Sansha's Courier
+  Sansha's Ferrier:
+    name: Sansha's Ferrier
+  Sansha's Gatherer:
+    name: Sansha's Gatherer
+  Sansha's Harvester:
+    name: Sansha's Harvester
+  Sansha's Hauler:
+    name: Sansha's Hauler
+  Sansha's Loader:
+    name: Sansha's Loader
+  Sansha's Trailer:
+    name: Sansha's Trailer
+  Sansha's Transporter:
+    name: Sansha's Transporter
+  Sansha's Trucker:
+    name: Sansha's Trucker

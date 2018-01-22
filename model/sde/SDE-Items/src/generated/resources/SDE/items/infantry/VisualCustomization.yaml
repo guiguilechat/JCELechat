@@ -1,44 +1,87 @@
 items:
-  APEX 'Atlas' Sentinel: {}
-  APEX 'Atlas' Sentinel vX.1: {}
-  APEX 'Centurion' Commando: {}
-  APEX 'Chiron' Logistics: {}
-  APEX 'Dominus' Sentinel: {}
-  APEX 'Dragon' Scout: {}
-  APEX 'Dragon' Scout vX.1: {}
-  APEX 'Hawk' Scout: {}
-  APEX 'Kampo' Logistics: {}
-  APEX 'Nomad' Assault: {}
-  APEX 'Nomad' Assault vX.1: {}
-  APEX 'Opus' Assault: {}
-  APEX 'Paladin' Commando: {}
-  APEX 'Rasetsu' Assault: {}
-  APEX 'Renegade' Commando: {}
-  APEX 'Samurai' Commando: {}
-  APEX 'Seraph' Logistics: {}
-  APEX 'Serpent' Scout: {}
-  APEX 'Shaman' Logistics: {}
-  APEX 'Shogun' Sentinel: {}
-  APEX 'Spartan' Assault: {}
-  APEX 'Tiger' Scout: {}
-  APEX 'Warlord' Sentinel: {}
-  Federation 'Atlas' Sentinel: {}
-  Federation 'Centurion' Commando: {}
-  Federation 'Chiron' Logistics: {}
-  Federation 'Serpent' Scout: {}
-  Federation 'Spartan' Assault: {}
-  Imperial 'Dominus' Sentinel: {}
-  Imperial 'Dragon' Scout: {}
-  Imperial 'Opus' Assault: {}
-  Imperial 'Paladin' Commando: {}
-  Imperial 'Seraph' Logistics: {}
-  Republic 'Nomad' Assault: {}
-  Republic 'Renegade' Commando: {}
-  Republic 'Shaman' Logistics: {}
-  Republic 'Tiger' Scout: {}
-  Republic 'Warlord' Sentinel: {}
-  State 'Hawk' Scout: {}
-  State 'Kampo' Logistics: {}
-  State 'Rasetsu' Assault: {}
-  State 'Samurai' Commando: {}
-  State 'Shogun' Sentinel: {}
+  APEX 'Atlas' Sentinel:
+    name: APEX 'Atlas' Sentinel
+  APEX 'Atlas' Sentinel vX.1:
+    name: APEX 'Atlas' Sentinel vX.1
+  APEX 'Centurion' Commando:
+    name: APEX 'Centurion' Commando
+  APEX 'Chiron' Logistics:
+    name: APEX 'Chiron' Logistics
+  APEX 'Dominus' Sentinel:
+    name: APEX 'Dominus' Sentinel
+  APEX 'Dragon' Scout:
+    name: APEX 'Dragon' Scout
+  APEX 'Dragon' Scout vX.1:
+    name: APEX 'Dragon' Scout vX.1
+  APEX 'Hawk' Scout:
+    name: APEX 'Hawk' Scout
+  APEX 'Kampo' Logistics:
+    name: APEX 'Kampo' Logistics
+  APEX 'Nomad' Assault:
+    name: APEX 'Nomad' Assault
+  APEX 'Nomad' Assault vX.1:
+    name: APEX 'Nomad' Assault vX.1
+  APEX 'Opus' Assault:
+    name: APEX 'Opus' Assault
+  APEX 'Paladin' Commando:
+    name: APEX 'Paladin' Commando
+  APEX 'Rasetsu' Assault:
+    name: APEX 'Rasetsu' Assault
+  APEX 'Renegade' Commando:
+    name: APEX 'Renegade' Commando
+  APEX 'Samurai' Commando:
+    name: APEX 'Samurai' Commando
+  APEX 'Seraph' Logistics:
+    name: APEX 'Seraph' Logistics
+  APEX 'Serpent' Scout:
+    name: APEX 'Serpent' Scout
+  APEX 'Shaman' Logistics:
+    name: APEX 'Shaman' Logistics
+  APEX 'Shogun' Sentinel:
+    name: APEX 'Shogun' Sentinel
+  APEX 'Spartan' Assault:
+    name: APEX 'Spartan' Assault
+  APEX 'Tiger' Scout:
+    name: APEX 'Tiger' Scout
+  APEX 'Warlord' Sentinel:
+    name: APEX 'Warlord' Sentinel
+  Federation 'Atlas' Sentinel:
+    name: Federation 'Atlas' Sentinel
+  Federation 'Centurion' Commando:
+    name: Federation 'Centurion' Commando
+  Federation 'Chiron' Logistics:
+    name: Federation 'Chiron' Logistics
+  Federation 'Serpent' Scout:
+    name: Federation 'Serpent' Scout
+  Federation 'Spartan' Assault:
+    name: Federation 'Spartan' Assault
+  Imperial 'Dominus' Sentinel:
+    name: Imperial 'Dominus' Sentinel
+  Imperial 'Dragon' Scout:
+    name: Imperial 'Dragon' Scout
+  Imperial 'Opus' Assault:
+    name: Imperial 'Opus' Assault
+  Imperial 'Paladin' Commando:
+    name: Imperial 'Paladin' Commando
+  Imperial 'Seraph' Logistics:
+    name: Imperial 'Seraph' Logistics
+  Republic 'Nomad' Assault:
+    name: Republic 'Nomad' Assault
+  Republic 'Renegade' Commando:
+    name: Republic 'Renegade' Commando
+  Republic 'Shaman' Logistics:
+    name: Republic 'Shaman' Logistics
+  Republic 'Tiger' Scout:
+    name: Republic 'Tiger' Scout
+  Republic 'Warlord' Sentinel:
+    name: Republic 'Warlord' Sentinel
+  State 'Hawk' Scout:
+    name: State 'Hawk' Scout
+  State 'Kampo' Logistics:
+    name: State 'Kampo' Logistics
+  State 'Rasetsu' Assault:
+    name: State 'Rasetsu' Assault
+  State 'Samurai' Commando:
+    name: State 'Samurai' Commando
+  State 'Shogun' Sentinel:
+    name: State 'Shogun' Sentinel

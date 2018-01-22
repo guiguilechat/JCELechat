@@ -1,5 +1,9 @@
 items:
-  Brokara Ryver: {}
-  Chelm Soran: {}
-  Selynne Mardakar: {}
-  Vizan Ankonin: {}
+  Brokara Ryver:
+    name: Brokara Ryver
+  Chelm Soran:
+    name: Chelm Soran
+  Selynne Mardakar:
+    name: Selynne Mardakar
+  Vizan Ankonin:
+    name: Vizan Ankonin

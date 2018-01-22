@@ -14,6 +14,7 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.625
+    name: Blood Gamma L
   Blood Gamma M:
     CapNeedBonus: -15
     ChargeSize: 2
@@ -29,6 +30,7 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.625
+    name: Blood Gamma M
   Blood Gamma S:
     CapNeedBonus: -15
     ChargeSize: 1
@@ -44,6 +46,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.625
+    name: Blood Gamma S
   Blood Gamma XL:
     CapNeedBonus: -15
     ChargeSize: 4
@@ -59,6 +62,7 @@ items:
     TechLevel: 1
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.625
+    name: Blood Gamma XL
   Blood Infrared L:
     CapNeedBonus: -35
     ChargeSize: 3
@@ -74,6 +78,7 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Blood Infrared L
   Blood Infrared M:
     CapNeedBonus: -35
     ChargeSize: 2
@@ -89,6 +94,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Blood Infrared M
   Blood Infrared S:
     CapNeedBonus: -35
     ChargeSize: 1
@@ -104,6 +110,7 @@ items:
     TechLevel: 1
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Blood Infrared S
   Blood Infrared XL:
     CapNeedBonus: -35
     ChargeSize: 4
@@ -119,6 +126,7 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Blood Infrared XL
   Blood Microwave L:
     CapNeedBonus: -25
     ChargeSize: 3
@@ -134,6 +142,7 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
+    name: Blood Microwave L
   Blood Microwave M:
     CapNeedBonus: -25
     ChargeSize: 2
@@ -149,6 +158,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.399999976158142
+    name: Blood Microwave M
   Blood Microwave S:
     CapNeedBonus: -25
     ChargeSize: 1
@@ -164,6 +174,7 @@ items:
     TechLevel: 1
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.399999976158142
+    name: Blood Microwave S
   Blood Microwave XL:
     CapNeedBonus: -25
     ChargeSize: 4
@@ -179,6 +190,7 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
+    name: Blood Microwave XL
   Blood Multifrequency L:
     ChargeSize: 3
     CrystalVolatilityChance: 1.0
@@ -193,6 +205,7 @@ items:
     TechLevel: 1
     ThermalDamage: 22.0
     WeaponRangeMultiplier: 0.5
+    name: Blood Multifrequency L
   Blood Multifrequency M:
     ChargeSize: 2
     CrystalVolatilityChance: 1.0
@@ -207,6 +220,7 @@ items:
     TechLevel: 1
     ThermalDamage: 11.0
     WeaponRangeMultiplier: 0.5
+    name: Blood Multifrequency M
   Blood Multifrequency S:
     ChargeSize: 1
     CrystalVolatilityChance: 1.0
@@ -221,6 +235,7 @@ items:
     TechLevel: 1
     ThermalDamage: 5.5
     WeaponRangeMultiplier: 0.5
+    name: Blood Multifrequency S
   Blood Multifrequency XL:
     ChargeSize: 4
     CrystalVolatilityChance: 1.0
@@ -235,6 +250,7 @@ items:
     TechLevel: 1
     ThermalDamage: 44.0
     WeaponRangeMultiplier: 0.5
+    name: Blood Multifrequency XL
   Blood Radio L:
     CapNeedBonus: -15
     ChargeSize: 3
@@ -249,6 +265,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Blood Radio L
   Blood Radio M:
     CapNeedBonus: -15
     ChargeSize: 2
@@ -263,6 +280,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Blood Radio M
   Blood Radio S:
     CapNeedBonus: -15
     ChargeSize: 1
@@ -277,6 +295,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Blood Radio S
   Blood Radio XL:
     CapNeedBonus: -15
     ChargeSize: 4
@@ -291,6 +310,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Blood Radio XL
   Blood Standard L:
     CapNeedBonus: -45
     ChargeSize: 3
@@ -306,6 +326,7 @@ items:
     TechLevel: 1
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 1.0
+    name: Blood Standard L
   Blood Standard M:
     CapNeedBonus: -45
     ChargeSize: 2
@@ -321,6 +342,7 @@ items:
     TechLevel: 1
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 1.0
+    name: Blood Standard M
   Blood Standard S:
     CapNeedBonus: -45
     ChargeSize: 1
@@ -336,6 +358,7 @@ items:
     TechLevel: 1
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 1.0
+    name: Blood Standard S
   Blood Standard XL:
     CapNeedBonus: -45
     ChargeSize: 4
@@ -351,6 +374,7 @@ items:
     TechLevel: 1
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 1.0
+    name: Blood Standard XL
   Blood Ultraviolet L:
     CapNeedBonus: -35
     ChargeSize: 3
@@ -366,6 +390,7 @@ items:
     TechLevel: 1
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 0.875
+    name: Blood Ultraviolet L
   Blood Ultraviolet M:
     CapNeedBonus: -35
     ChargeSize: 2
@@ -381,6 +406,7 @@ items:
     TechLevel: 1
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 0.875
+    name: Blood Ultraviolet M
   Blood Ultraviolet S:
     CapNeedBonus: -35
     ChargeSize: 1
@@ -396,6 +422,7 @@ items:
     TechLevel: 1
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 0.875
+    name: Blood Ultraviolet S
   Blood Ultraviolet XL:
     CapNeedBonus: -35
     ChargeSize: 4
@@ -411,6 +438,7 @@ items:
     TechLevel: 1
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 0.875
+    name: Blood Ultraviolet XL
   Blood Xray L:
     CapNeedBonus: -25
     ChargeSize: 3
@@ -426,6 +454,7 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.75
+    name: Blood Xray L
   Blood Xray M:
     CapNeedBonus: -25
     ChargeSize: 2
@@ -441,6 +470,7 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.75
+    name: Blood Xray M
   Blood Xray S:
     CapNeedBonus: -25
     ChargeSize: 1
@@ -456,6 +486,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.75
+    name: Blood Xray S
   Blood Xray XL:
     CapNeedBonus: -25
     ChargeSize: 4
@@ -471,6 +502,7 @@ items:
     TechLevel: 1
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.75
+    name: Blood Xray XL
   Civilian Autocannon Ammo:
     ChargeSize: 1
     CrystalVolatilityChance: 1.0
@@ -481,6 +513,7 @@ items:
     MainColor: 5215864
     TechLevel: 1
     WeaponRangeMultiplier: 1.0
+    name: Civilian Autocannon Ammo
   Civilian Blaster Charge:
     ChargeSize: 1
     CrystalVolatilityChance: 1.0
@@ -491,6 +524,7 @@ items:
     MainColor: 5215864
     TechLevel: 1
     WeaponRangeMultiplier: 1.0
+    name: Civilian Blaster Charge
   Civilian Pulse Crystal:
     ChargeSize: 1
     CrystalVolatilityChance: 1.0
@@ -501,6 +535,7 @@ items:
     MainColor: 5215864
     TechLevel: 1
     WeaponRangeMultiplier: 1.0
+    name: Civilian Pulse Crystal
   Civilian Railgun Charge:
     ChargeSize: 1
     CrystalVolatilityChance: 1.0
@@ -511,6 +546,7 @@ items:
     MainColor: 5215864
     TechLevel: 1
     WeaponRangeMultiplier: 1.0
+    name: Civilian Railgun Charge
   Dark Blood Gamma L:
     CapNeedBonus: -15
     ChargeSize: 3
@@ -526,6 +562,7 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.625
+    name: Dark Blood Gamma L
   Dark Blood Gamma M:
     CapNeedBonus: -15
     ChargeSize: 2
@@ -541,6 +578,7 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.625
+    name: Dark Blood Gamma M
   Dark Blood Gamma S:
     CapNeedBonus: -15
     ChargeSize: 1
@@ -556,6 +594,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.625
+    name: Dark Blood Gamma S
   Dark Blood Gamma XL:
     CapNeedBonus: -15
     ChargeSize: 4
@@ -571,6 +610,7 @@ items:
     TechLevel: 1
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.625
+    name: Dark Blood Gamma XL
   Dark Blood Infrared L:
     CapNeedBonus: -35
     ChargeSize: 3
@@ -586,6 +626,7 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Dark Blood Infrared L
   Dark Blood Infrared M:
     CapNeedBonus: -35
     ChargeSize: 2
@@ -601,6 +642,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Dark Blood Infrared M
   Dark Blood Infrared S:
     CapNeedBonus: -35
     ChargeSize: 1
@@ -616,6 +658,7 @@ items:
     TechLevel: 1
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Dark Blood Infrared S
   Dark Blood Infrared XL:
     CapNeedBonus: -35
     ChargeSize: 4
@@ -631,6 +674,7 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Dark Blood Infrared XL
   Dark Blood Microwave L:
     CapNeedBonus: -25
     ChargeSize: 3
@@ -646,6 +690,7 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
+    name: Dark Blood Microwave L
   Dark Blood Microwave M:
     CapNeedBonus: -25
     ChargeSize: 2
@@ -661,6 +706,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
+    name: Dark Blood Microwave M
   Dark Blood Microwave S:
     CapNeedBonus: -25
     ChargeSize: 1
@@ -676,6 +722,7 @@ items:
     TechLevel: 1
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.399999976158142
+    name: Dark Blood Microwave S
   Dark Blood Microwave XL:
     CapNeedBonus: -25
     ChargeSize: 4
@@ -691,6 +738,7 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.399999976158142
+    name: Dark Blood Microwave XL
   Dark Blood Multifrequency L:
     ChargeSize: 3
     CrystalVolatilityChance: 1.0
@@ -705,6 +753,7 @@ items:
     TechLevel: 1
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 0.5
+    name: Dark Blood Multifrequency L
   Dark Blood Multifrequency M:
     ChargeSize: 2
     CrystalVolatilityChance: 1.0
@@ -719,6 +768,7 @@ items:
     TechLevel: 1
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 0.5
+    name: Dark Blood Multifrequency M
   Dark Blood Multifrequency S:
     ChargeSize: 1
     CrystalVolatilityChance: 1.0
@@ -733,6 +783,7 @@ items:
     TechLevel: 1
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 0.5
+    name: Dark Blood Multifrequency S
   Dark Blood Multifrequency XL:
     ChargeSize: 4
     CrystalVolatilityChance: 1.0
@@ -747,6 +798,7 @@ items:
     TechLevel: 1
     ThermalDamage: 48.0
     WeaponRangeMultiplier: 0.5
+    name: Dark Blood Multifrequency XL
   Dark Blood Radio L:
     CapNeedBonus: -15
     ChargeSize: 3
@@ -761,6 +813,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Dark Blood Radio L
   Dark Blood Radio M:
     CapNeedBonus: -15
     ChargeSize: 2
@@ -775,6 +828,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Dark Blood Radio M
   Dark Blood Radio S:
     CapNeedBonus: -15
     ChargeSize: 1
@@ -789,6 +843,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Dark Blood Radio S
   Dark Blood Radio XL:
     CapNeedBonus: -15
     ChargeSize: 4
@@ -803,6 +858,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Dark Blood Radio XL
   Dark Blood Standard L:
     CapNeedBonus: -45
     ChargeSize: 3
@@ -818,6 +874,7 @@ items:
     TechLevel: 1
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 1.0
+    name: Dark Blood Standard L
   Dark Blood Standard M:
     CapNeedBonus: -45
     ChargeSize: 2
@@ -833,6 +890,7 @@ items:
     TechLevel: 1
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 1.0
+    name: Dark Blood Standard M
   Dark Blood Standard S:
     CapNeedBonus: -45
     ChargeSize: 1
@@ -848,6 +906,7 @@ items:
     TechLevel: 1
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 1.0
+    name: Dark Blood Standard S
   Dark Blood Standard XL:
     CapNeedBonus: -45
     ChargeSize: 4
@@ -863,6 +922,7 @@ items:
     TechLevel: 1
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 1.0
+    name: Dark Blood Standard XL
   Dark Blood Ultraviolet L:
     CapNeedBonus: -35
     ChargeSize: 3
@@ -878,6 +938,7 @@ items:
     TechLevel: 1
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 0.875
+    name: Dark Blood Ultraviolet L
   Dark Blood Ultraviolet M:
     CapNeedBonus: -35
     ChargeSize: 2
@@ -893,6 +954,7 @@ items:
     TechLevel: 1
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 0.875
+    name: Dark Blood Ultraviolet M
   Dark Blood Ultraviolet S:
     CapNeedBonus: -35
     ChargeSize: 1
@@ -908,6 +970,7 @@ items:
     TechLevel: 1
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 0.875
+    name: Dark Blood Ultraviolet S
   Dark Blood Ultraviolet XL:
     CapNeedBonus: -35
     ChargeSize: 4
@@ -923,6 +986,7 @@ items:
     TechLevel: 1
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 0.875
+    name: Dark Blood Ultraviolet XL
   Dark Blood Xray L:
     CapNeedBonus: -25
     ChargeSize: 3
@@ -938,6 +1002,7 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.75
+    name: Dark Blood Xray L
   Dark Blood Xray M:
     CapNeedBonus: -25
     ChargeSize: 2
@@ -953,6 +1018,7 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.75
+    name: Dark Blood Xray M
   Dark Blood Xray S:
     CapNeedBonus: -25
     ChargeSize: 1
@@ -968,6 +1034,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.75
+    name: Dark Blood Xray S
   Dark Blood Xray XL:
     CapNeedBonus: -25
     ChargeSize: 4
@@ -983,6 +1050,7 @@ items:
     TechLevel: 1
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.75
+    name: Dark Blood Xray XL
   Gamma L:
     CapNeedBonus: -15
     ChargeSize: 3
@@ -996,6 +1064,7 @@ items:
     TechLevel: 1
     ThermalDamage: 16.0
     WeaponRangeMultiplier: 0.625
+    name: Gamma L
   Gamma M:
     CapNeedBonus: -15
     ChargeSize: 2
@@ -1009,6 +1078,7 @@ items:
     TechLevel: 1
     ThermalDamage: 8.0
     WeaponRangeMultiplier: 0.625
+    name: Gamma M
   Gamma S:
     CapNeedBonus: -15
     ChargeSize: 1
@@ -1022,6 +1092,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.0
     WeaponRangeMultiplier: 0.625
+    name: Gamma S
   Gamma XL:
     CapNeedBonus: -15
     ChargeSize: 4
@@ -1035,6 +1106,7 @@ items:
     TechLevel: 1
     ThermalDamage: 32.0
     WeaponRangeMultiplier: 0.625
+    name: Gamma XL
   Imperial Navy Gamma L:
     CapNeedBonus: -15
     ChargeSize: 3
@@ -1050,6 +1122,7 @@ items:
     TechLevel: 1
     ThermalDamage: 18.399999618530273
     WeaponRangeMultiplier: 0.625
+    name: Imperial Navy Gamma L
   Imperial Navy Gamma M:
     CapNeedBonus: -15
     ChargeSize: 2
@@ -1065,6 +1138,7 @@ items:
     TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 0.625
+    name: Imperial Navy Gamma M
   Imperial Navy Gamma S:
     CapNeedBonus: -15
     ChargeSize: 1
@@ -1080,6 +1154,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 0.625
+    name: Imperial Navy Gamma S
   Imperial Navy Infrared L:
     CapNeedBonus: -35
     ChargeSize: 3
@@ -1095,6 +1170,7 @@ items:
     TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Imperial Navy Infrared L
   Imperial Navy Infrared M:
     CapNeedBonus: -35
     ChargeSize: 2
@@ -1110,6 +1186,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Imperial Navy Infrared M
   Imperial Navy Infrared S:
     CapNeedBonus: -35
     ChargeSize: 1
@@ -1125,6 +1202,7 @@ items:
     TechLevel: 1
     ThermalDamage: 2.299999952316284
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Imperial Navy Infrared S
   Imperial Navy Microwave L:
     CapNeedBonus: -25
     ChargeSize: 3
@@ -1140,6 +1218,7 @@ items:
     TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 1.399999976158142
+    name: Imperial Navy Microwave L
   Imperial Navy Microwave M:
     CapNeedBonus: -25
     ChargeSize: 2
@@ -1155,6 +1234,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 1.399999976158142
+    name: Imperial Navy Microwave M
   Imperial Navy Microwave S:
     CapNeedBonus: -25
     ChargeSize: 1
@@ -1170,6 +1250,7 @@ items:
     TechLevel: 1
     ThermalDamage: 2.299999952316284
     WeaponRangeMultiplier: 1.399999976158142
+    name: Imperial Navy Microwave S
   Imperial Navy Multifrequency L:
     ChargeSize: 3
     CrystalVolatilityChance: 1.0
@@ -1184,6 +1265,7 @@ items:
     TechLevel: 1
     ThermalDamage: 23.0
     WeaponRangeMultiplier: 0.5
+    name: Imperial Navy Multifrequency L
   Imperial Navy Multifrequency M:
     ChargeSize: 2
     CrystalVolatilityChance: 1.0
@@ -1198,6 +1280,7 @@ items:
     TechLevel: 1
     ThermalDamage: 11.5
     WeaponRangeMultiplier: 0.5
+    name: Imperial Navy Multifrequency M
   Imperial Navy Multifrequency S:
     ChargeSize: 1
     CrystalVolatilityChance: 1.0
@@ -1212,6 +1295,7 @@ items:
     TechLevel: 1
     ThermalDamage: 5.75
     WeaponRangeMultiplier: 0.5
+    name: Imperial Navy Multifrequency S
   Imperial Navy Radio L:
     CapNeedBonus: -15
     ChargeSize: 3
@@ -1226,6 +1310,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Imperial Navy Radio L
   Imperial Navy Radio M:
     CapNeedBonus: -15
     ChargeSize: 2
@@ -1240,6 +1325,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Imperial Navy Radio M
   Imperial Navy Radio S:
     CapNeedBonus: -15
     ChargeSize: 1
@@ -1254,6 +1340,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Imperial Navy Radio S
   Imperial Navy Standard L:
     CapNeedBonus: -45
     ChargeSize: 3
@@ -1269,6 +1356,7 @@ items:
     TechLevel: 1
     ThermalDamage: 13.800000190734863
     WeaponRangeMultiplier: 1.0
+    name: Imperial Navy Standard L
   Imperial Navy Standard M:
     CapNeedBonus: -45
     ChargeSize: 2
@@ -1284,6 +1372,7 @@ items:
     TechLevel: 1
     ThermalDamage: 6.900000095367432
     WeaponRangeMultiplier: 1.0
+    name: Imperial Navy Standard M
   Imperial Navy Standard S:
     CapNeedBonus: -45
     ChargeSize: 1
@@ -1299,6 +1388,7 @@ items:
     TechLevel: 1
     ThermalDamage: 3.450000047683716
     WeaponRangeMultiplier: 1.0
+    name: Imperial Navy Standard S
   Imperial Navy Ultraviolet L:
     CapNeedBonus: -35
     ChargeSize: 3
@@ -1314,6 +1404,7 @@ items:
     TechLevel: 1
     ThermalDamage: 13.800000190734863
     WeaponRangeMultiplier: 0.875
+    name: Imperial Navy Ultraviolet L
   Imperial Navy Ultraviolet M:
     CapNeedBonus: -35
     ChargeSize: 2
@@ -1329,6 +1420,7 @@ items:
     TechLevel: 1
     ThermalDamage: 6.900000095367432
     WeaponRangeMultiplier: 0.875
+    name: Imperial Navy Ultraviolet M
   Imperial Navy Ultraviolet S:
     CapNeedBonus: -35
     ChargeSize: 1
@@ -1344,6 +1436,7 @@ items:
     TechLevel: 1
     ThermalDamage: 3.450000047683716
     WeaponRangeMultiplier: 0.875
+    name: Imperial Navy Ultraviolet S
   Imperial Navy Xray L:
     CapNeedBonus: -25
     ChargeSize: 3
@@ -1359,6 +1452,7 @@ items:
     TechLevel: 1
     ThermalDamage: 18.399999618530273
     WeaponRangeMultiplier: 0.75
+    name: Imperial Navy Xray L
   Imperial Navy Xray M:
     CapNeedBonus: -25
     ChargeSize: 2
@@ -1374,6 +1468,7 @@ items:
     TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 0.75
+    name: Imperial Navy Xray M
   Imperial Navy Xray S:
     CapNeedBonus: -25
     ChargeSize: 1
@@ -1389,6 +1484,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 0.75
+    name: Imperial Navy Xray S
   Infrared L:
     CapNeedBonus: -35
     ChargeSize: 3
@@ -1402,6 +1498,7 @@ items:
     TechLevel: 1
     ThermalDamage: 8.0
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Infrared L
   Infrared M:
     CapNeedBonus: -35
     ChargeSize: 2
@@ -1415,6 +1512,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.0
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Infrared M
   Infrared S:
     CapNeedBonus: -35
     ChargeSize: 1
@@ -1428,6 +1526,7 @@ items:
     TechLevel: 1
     ThermalDamage: 2.0
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Infrared S
   Infrared XL:
     CapNeedBonus: -35
     ChargeSize: 4
@@ -1441,6 +1540,7 @@ items:
     TechLevel: 1
     ThermalDamage: 16.0
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Infrared XL
   Microwave L:
     CapNeedBonus: -25
     ChargeSize: 3
@@ -1454,6 +1554,7 @@ items:
     TechLevel: 1
     ThermalDamage: 8.0
     WeaponRangeMultiplier: 1.399999976158142
+    name: Microwave L
   Microwave M:
     CapNeedBonus: -25
     ChargeSize: 2
@@ -1467,6 +1568,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.0
     WeaponRangeMultiplier: 1.399999976158142
+    name: Microwave M
   Microwave S:
     CapNeedBonus: -25
     ChargeSize: 1
@@ -1480,6 +1582,7 @@ items:
     TechLevel: 1
     ThermalDamage: 2.0
     WeaponRangeMultiplier: 1.399999976158142
+    name: Microwave S
   Microwave XL:
     CapNeedBonus: -25
     ChargeSize: 4
@@ -1493,6 +1596,7 @@ items:
     TechLevel: 1
     ThermalDamage: 16.0
     WeaponRangeMultiplier: 1.399999976158142
+    name: Microwave XL
   Multifrequency L:
     ChargeSize: 3
     CrystalVolatilityChance: 1.0
@@ -1505,6 +1609,7 @@ items:
     TechLevel: 1
     ThermalDamage: 20.0
     WeaponRangeMultiplier: 0.5
+    name: Multifrequency L
   Multifrequency M:
     ChargeSize: 2
     CrystalVolatilityChance: 1.0
@@ -1517,6 +1622,7 @@ items:
     TechLevel: 1
     ThermalDamage: 10.0
     WeaponRangeMultiplier: 0.5
+    name: Multifrequency M
   Multifrequency S:
     ChargeSize: 1
     CrystalVolatilityChance: 1.0
@@ -1529,6 +1635,7 @@ items:
     TechLevel: 1
     ThermalDamage: 5.0
     WeaponRangeMultiplier: 0.5
+    name: Multifrequency S
   Multifrequency XL:
     ChargeSize: 4
     CrystalVolatilityChance: 1.0
@@ -1541,6 +1648,7 @@ items:
     TechLevel: 1
     ThermalDamage: 40.0
     WeaponRangeMultiplier: 0.5
+    name: Multifrequency XL
   Orbital Laser S:
     CapNeedBonus: -45
     ChargeSize: 1
@@ -1552,6 +1660,7 @@ items:
     MainColor: 5215864
     TechLevel: 1
     WeaponRangeMultiplier: 1.0
+    name: Orbital Laser S
   Radio L:
     CapNeedBonus: -15
     ChargeSize: 3
@@ -1564,6 +1673,7 @@ items:
     MainColor: 2833864
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Radio L
   Radio M:
     CapNeedBonus: -15
     ChargeSize: 2
@@ -1576,6 +1686,7 @@ items:
     MainColor: 2833864
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Radio M
   Radio S:
     CapNeedBonus: -15
     ChargeSize: 1
@@ -1588,6 +1699,7 @@ items:
     MainColor: 2833864
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Radio S
   Radio XL:
     CapNeedBonus: -15
     ChargeSize: 4
@@ -1600,6 +1712,7 @@ items:
     MainColor: 2833864
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Radio XL
   Sanshas Gamma L:
     CapNeedBonus: -15
     ChargeSize: 3
@@ -1615,6 +1728,7 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.625
+    name: Sanshas Gamma L
   Sanshas Gamma M:
     CapNeedBonus: -15
     ChargeSize: 2
@@ -1630,6 +1744,7 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.625
+    name: Sanshas Gamma M
   Sanshas Gamma S:
     CapNeedBonus: -15
     ChargeSize: 1
@@ -1645,6 +1760,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.625
+    name: Sanshas Gamma S
   Sanshas Gamma XL:
     CapNeedBonus: -15
     ChargeSize: 4
@@ -1660,6 +1776,7 @@ items:
     TechLevel: 1
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.625
+    name: Sanshas Gamma XL
   Sanshas Infrared L:
     CapNeedBonus: -35
     ChargeSize: 3
@@ -1675,6 +1792,7 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Sanshas Infrared L
   Sanshas Infrared M:
     CapNeedBonus: -35
     ChargeSize: 2
@@ -1690,6 +1808,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Sanshas Infrared M
   Sanshas Infrared S:
     CapNeedBonus: -35
     ChargeSize: 1
@@ -1705,6 +1824,7 @@ items:
     TechLevel: 1
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Sanshas Infrared S
   Sanshas Infrared XL:
     CapNeedBonus: -35
     ChargeSize: 4
@@ -1720,6 +1840,7 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.2000000476837158
+    name: Sanshas Infrared XL
   Sanshas Microwave L:
     CapNeedBonus: -25
     ChargeSize: 3
@@ -1735,6 +1856,7 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
+    name: Sanshas Microwave L
   Sanshas Microwave M:
     CapNeedBonus: -25
     ChargeSize: 2
@@ -1750,6 +1872,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.399999976158142
+    name: Sanshas Microwave M
   Sanshas Microwave S:
     CapNeedBonus: -25
     ChargeSize: 1
@@ -1765,6 +1888,7 @@ items:
     TechLevel: 1
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.399999976158142
+    name: Sanshas Microwave S
   Sanshas Microwave XL:
     CapNeedBonus: -25
     ChargeSize: 4
@@ -1780,6 +1904,7 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
+    name: Sanshas Microwave XL
   Sanshas Multifrequency L:
     ChargeSize: 3
     CrystalVolatilityChance: 1.0
@@ -1794,6 +1919,7 @@ items:
     TechLevel: 1
     ThermalDamage: 22.0
     WeaponRangeMultiplier: 0.5
+    name: Sanshas Multifrequency L
   Sanshas Multifrequency M:
     ChargeSize: 2
     CrystalVolatilityChance: 1.0
@@ -1808,6 +1934,7 @@ items:
     TechLevel: 1
     ThermalDamage: 11.0
     WeaponRangeMultiplier: 0.5
+    name: Sanshas Multifrequency M
   Sanshas Multifrequency S:
     ChargeSize: 1
     CrystalVolatilityChance: 1.0
@@ -1822,6 +1949,7 @@ items:
     TechLevel: 1
     ThermalDamage: 5.5
     WeaponRangeMultiplier: 0.5
+    name: Sanshas Multifrequency S
   Sanshas Multifrequency XL:
     ChargeSize: 4
     CrystalVolatilityChance: 1.0
@@ -1836,6 +1964,7 @@ items:
     TechLevel: 1
     ThermalDamage: 44.0
     WeaponRangeMultiplier: 0.5
+    name: Sanshas Multifrequency XL
   Sanshas Radio L:
     CapNeedBonus: -15
     ChargeSize: 3
@@ -1850,6 +1979,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Sanshas Radio L
   Sanshas Radio M:
     CapNeedBonus: -15
     ChargeSize: 2
@@ -1864,6 +1994,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Sanshas Radio M
   Sanshas Radio S:
     CapNeedBonus: -15
     ChargeSize: 1
@@ -1878,6 +2009,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Sanshas Radio S
   Sanshas Radio XL:
     CapNeedBonus: -15
     ChargeSize: 4
@@ -1892,6 +2024,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: Sanshas Radio XL
   Sanshas Standard L:
     CapNeedBonus: -45
     ChargeSize: 3
@@ -1907,6 +2040,7 @@ items:
     TechLevel: 1
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 1.0
+    name: Sanshas Standard L
   Sanshas Standard M:
     CapNeedBonus: -45
     ChargeSize: 2
@@ -1922,6 +2056,7 @@ items:
     TechLevel: 1
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 1.0
+    name: Sanshas Standard M
   Sanshas Standard S:
     CapNeedBonus: -45
     ChargeSize: 1
@@ -1937,6 +2072,7 @@ items:
     TechLevel: 1
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 1.0
+    name: Sanshas Standard S
   Sanshas Standard XL:
     CapNeedBonus: -45
     ChargeSize: 4
@@ -1952,6 +2088,7 @@ items:
     TechLevel: 1
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 1.0
+    name: Sanshas Standard XL
   Sanshas Ultraviolet L:
     CapNeedBonus: -35
     ChargeSize: 3
@@ -1967,6 +2104,7 @@ items:
     TechLevel: 1
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 0.875
+    name: Sanshas Ultraviolet L
   Sanshas Ultraviolet M:
     CapNeedBonus: -35
     ChargeSize: 2
@@ -1982,6 +2120,7 @@ items:
     TechLevel: 1
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 0.875
+    name: Sanshas Ultraviolet M
   Sanshas Ultraviolet S:
     CapNeedBonus: -35
     ChargeSize: 1
@@ -1997,6 +2136,7 @@ items:
     TechLevel: 1
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 0.875
+    name: Sanshas Ultraviolet S
   Sanshas Ultraviolet XL:
     CapNeedBonus: -35
     ChargeSize: 4
@@ -2012,6 +2152,7 @@ items:
     TechLevel: 1
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 0.875
+    name: Sanshas Ultraviolet XL
   Sanshas Xray L:
     CapNeedBonus: -25
     ChargeSize: 3
@@ -2027,6 +2168,7 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.75
+    name: Sanshas Xray L
   Sanshas Xray M:
     CapNeedBonus: -25
     ChargeSize: 2
@@ -2042,6 +2184,7 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.75
+    name: Sanshas Xray M
   Sanshas Xray S:
     CapNeedBonus: -25
     ChargeSize: 1
@@ -2057,6 +2200,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.75
+    name: Sanshas Xray S
   Sanshas Xray XL:
     CapNeedBonus: -25
     ChargeSize: 4
@@ -2072,6 +2216,7 @@ items:
     TechLevel: 1
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.75
+    name: Sanshas Xray XL
   Standard L:
     CapNeedBonus: -45
     ChargeSize: 3
@@ -2085,6 +2230,7 @@ items:
     TechLevel: 1
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 1.0
+    name: Standard L
   Standard M:
     CapNeedBonus: -45
     ChargeSize: 2
@@ -2098,6 +2244,7 @@ items:
     TechLevel: 1
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 1.0
+    name: Standard M
   Standard S:
     CapNeedBonus: -45
     ChargeSize: 1
@@ -2111,6 +2258,7 @@ items:
     TechLevel: 1
     ThermalDamage: 3.0
     WeaponRangeMultiplier: 1.0
+    name: Standard S
   Standard XL:
     CapNeedBonus: -45
     ChargeSize: 4
@@ -2124,6 +2272,7 @@ items:
     TechLevel: 1
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 1.0
+    name: Standard XL
   True Sanshas Gamma L:
     CapNeedBonus: -15
     ChargeSize: 3
@@ -2139,6 +2288,7 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.625
+    name: True Sanshas Gamma L
   True Sanshas Gamma M:
     CapNeedBonus: -15
     ChargeSize: 2
@@ -2154,6 +2304,7 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.625
+    name: True Sanshas Gamma M
   True Sanshas Gamma S:
     CapNeedBonus: -15
     ChargeSize: 1
@@ -2169,6 +2320,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.625
+    name: True Sanshas Gamma S
   True Sanshas Gamma XL:
     CapNeedBonus: -15
     ChargeSize: 4
@@ -2184,6 +2336,7 @@ items:
     TechLevel: 1
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.625
+    name: True Sanshas Gamma XL
   True Sanshas Infrared L:
     CapNeedBonus: -35
     ChargeSize: 3
@@ -2199,6 +2352,7 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.2000000476837158
+    name: True Sanshas Infrared L
   True Sanshas Infrared M:
     CapNeedBonus: -35
     ChargeSize: 2
@@ -2214,6 +2368,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.2000000476837158
+    name: True Sanshas Infrared M
   True Sanshas Infrared S:
     CapNeedBonus: -35
     ChargeSize: 1
@@ -2229,6 +2384,7 @@ items:
     TechLevel: 1
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.2000000476837158
+    name: True Sanshas Infrared S
   True Sanshas Infrared XL:
     CapNeedBonus: -35
     ChargeSize: 4
@@ -2244,6 +2400,7 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.2000000476837158
+    name: True Sanshas Infrared XL
   True Sanshas Microwave L:
     CapNeedBonus: -25
     ChargeSize: 3
@@ -2259,6 +2416,7 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
+    name: True Sanshas Microwave L
   True Sanshas Microwave M:
     CapNeedBonus: -25
     ChargeSize: 2
@@ -2274,6 +2432,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
+    name: True Sanshas Microwave M
   True Sanshas Microwave S:
     CapNeedBonus: -25
     ChargeSize: 1
@@ -2289,6 +2448,7 @@ items:
     TechLevel: 1
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.399999976158142
+    name: True Sanshas Microwave S
   True Sanshas Microwave XL:
     CapNeedBonus: -25
     ChargeSize: 4
@@ -2304,6 +2464,7 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.399999976158142
+    name: True Sanshas Microwave XL
   True Sanshas Multifrequency L:
     ChargeSize: 3
     CrystalVolatilityChance: 1.0
@@ -2318,6 +2479,7 @@ items:
     TechLevel: 1
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 0.5
+    name: True Sanshas Multifrequency L
   True Sanshas Multifrequency M:
     ChargeSize: 2
     CrystalVolatilityChance: 1.0
@@ -2332,6 +2494,7 @@ items:
     TechLevel: 1
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 0.5
+    name: True Sanshas Multifrequency M
   True Sanshas Multifrequency S:
     ChargeSize: 1
     CrystalVolatilityChance: 1.0
@@ -2346,6 +2509,7 @@ items:
     TechLevel: 1
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 0.5
+    name: True Sanshas Multifrequency S
   True Sanshas Multifrequency XL:
     ChargeSize: 4
     CrystalVolatilityChance: 1.0
@@ -2360,6 +2524,7 @@ items:
     TechLevel: 1
     ThermalDamage: 48.0
     WeaponRangeMultiplier: 0.5
+    name: True Sanshas Multifrequency XL
   True Sanshas Radio L:
     CapNeedBonus: -15
     ChargeSize: 3
@@ -2374,6 +2539,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: True Sanshas Radio L
   True Sanshas Radio M:
     CapNeedBonus: -15
     ChargeSize: 2
@@ -2388,6 +2554,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: True Sanshas Radio M
   True Sanshas Radio S:
     CapNeedBonus: -15
     ChargeSize: 1
@@ -2402,6 +2569,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: True Sanshas Radio S
   True Sanshas Radio XL:
     CapNeedBonus: -15
     ChargeSize: 4
@@ -2416,6 +2584,7 @@ items:
     MetaGroupID: 4
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    name: True Sanshas Radio XL
   True Sanshas Standard L:
     CapNeedBonus: -45
     ChargeSize: 3
@@ -2431,6 +2600,7 @@ items:
     TechLevel: 1
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 1.0
+    name: True Sanshas Standard L
   True Sanshas Standard M:
     CapNeedBonus: -45
     ChargeSize: 2
@@ -2446,6 +2616,7 @@ items:
     TechLevel: 1
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 1.0
+    name: True Sanshas Standard M
   True Sanshas Standard S:
     CapNeedBonus: -45
     ChargeSize: 1
@@ -2461,6 +2632,7 @@ items:
     TechLevel: 1
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 1.0
+    name: True Sanshas Standard S
   True Sanshas Standard XL:
     CapNeedBonus: -45
     ChargeSize: 4
@@ -2476,6 +2648,7 @@ items:
     TechLevel: 1
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 1.0
+    name: True Sanshas Standard XL
   True Sanshas Ultraviolet L:
     CapNeedBonus: -35
     ChargeSize: 3
@@ -2491,6 +2664,7 @@ items:
     TechLevel: 1
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 0.875
+    name: True Sanshas Ultraviolet L
   True Sanshas Ultraviolet M:
     CapNeedBonus: -35
     ChargeSize: 2
@@ -2506,6 +2680,7 @@ items:
     TechLevel: 1
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 0.875
+    name: True Sanshas Ultraviolet M
   True Sanshas Ultraviolet S:
     CapNeedBonus: -35
     ChargeSize: 1
@@ -2521,6 +2696,7 @@ items:
     TechLevel: 1
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 0.875
+    name: True Sanshas Ultraviolet S
   True Sanshas Ultraviolet XL:
     CapNeedBonus: -35
     ChargeSize: 4
@@ -2536,6 +2712,7 @@ items:
     TechLevel: 1
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 0.875
+    name: True Sanshas Ultraviolet XL
   True Sanshas Xray L:
     CapNeedBonus: -25
     ChargeSize: 3
@@ -2551,6 +2728,7 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.75
+    name: True Sanshas Xray L
   True Sanshas Xray M:
     CapNeedBonus: -25
     ChargeSize: 2
@@ -2566,6 +2744,7 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.75
+    name: True Sanshas Xray M
   True Sanshas Xray S:
     CapNeedBonus: -25
     ChargeSize: 1
@@ -2581,6 +2760,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.75
+    name: True Sanshas Xray S
   True Sanshas Xray XL:
     CapNeedBonus: -25
     ChargeSize: 4
@@ -2596,6 +2776,7 @@ items:
     TechLevel: 1
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.75
+    name: True Sanshas Xray XL
   Ultraviolet L:
     CapNeedBonus: -35
     ChargeSize: 3
@@ -2609,6 +2790,7 @@ items:
     TechLevel: 1
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 0.875
+    name: Ultraviolet L
   Ultraviolet M:
     CapNeedBonus: -35
     ChargeSize: 2
@@ -2622,6 +2804,7 @@ items:
     TechLevel: 1
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 0.875
+    name: Ultraviolet M
   Ultraviolet S:
     CapNeedBonus: -35
     ChargeSize: 1
@@ -2635,6 +2818,7 @@ items:
     TechLevel: 1
     ThermalDamage: 3.0
     WeaponRangeMultiplier: 0.875
+    name: Ultraviolet S
   Ultraviolet XL:
     CapNeedBonus: -35
     ChargeSize: 4
@@ -2648,6 +2832,7 @@ items:
     TechLevel: 1
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 0.875
+    name: Ultraviolet XL
   Xray L:
     CapNeedBonus: -25
     ChargeSize: 3
@@ -2661,6 +2846,7 @@ items:
     TechLevel: 1
     ThermalDamage: 16.0
     WeaponRangeMultiplier: 0.75
+    name: Xray L
   Xray M:
     CapNeedBonus: -25
     ChargeSize: 2
@@ -2674,6 +2860,7 @@ items:
     TechLevel: 1
     ThermalDamage: 8.0
     WeaponRangeMultiplier: 0.75
+    name: Xray M
   Xray S:
     CapNeedBonus: -25
     ChargeSize: 1
@@ -2687,6 +2874,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4.0
     WeaponRangeMultiplier: 0.75
+    name: Xray S
   Xray XL:
     CapNeedBonus: -25
     ChargeSize: 4
@@ -2700,3 +2888,4 @@ items:
     TechLevel: 1
     ThermalDamage: 32.0
     WeaponRangeMultiplier: 0.75
+    name: Xray XL

@@ -1,12 +1,18 @@
 items:
   Aeon Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Aeon Blueprint
   Hel Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Hel Blueprint
   Nyx Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Nyx Blueprint
   Revenant Blueprint:
     IndustryBlueprintRank: 400.0
-  Vendetta Blueprint: {}
+    name: Revenant Blueprint
+  Vendetta Blueprint:
+    name: Vendetta Blueprint
   Wyvern Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Wyvern Blueprint

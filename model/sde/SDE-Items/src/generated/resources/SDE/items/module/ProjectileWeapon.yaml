@@ -24,6 +24,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11342
+    name: 1200mm Artillery Cannon I
   1200mm Artillery Cannon II:
     ChargeGroup1: 83
     ChargeGroup2: 376
@@ -53,6 +54,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 1.125
     TypeColorScheme: 11343
+    name: 1200mm Artillery Cannon II
   1200mm Heavy 'Jolt' Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -79,6 +81,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11341
+    name: 1200mm Heavy 'Jolt' Artillery I
   1200mm Heavy 'Scout' Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -105,6 +108,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11342
+    name: 1200mm Heavy 'Scout' Artillery I
   1200mm Heavy Carbine Howitzer I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -131,6 +135,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11342
+    name: 1200mm Heavy Carbine Howitzer I
   1200mm Heavy Gallium Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -157,6 +162,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11342
+    name: 1200mm Heavy Gallium Cannon
   1200mm Heavy Prototype Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -182,6 +188,7 @@ items:
     Speed: 21038
     TechLevel: 1
     TrackingSpeed: 1.125
+    name: 1200mm Heavy Prototype Artillery
   1200mm Heavy Prototype Siege Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -208,6 +215,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11342
+    name: 1200mm Heavy Prototype Siege Cannon
   125mm Gatling AutoCannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -233,6 +241,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 417.0
     TypeColorScheme: 11342
+    name: 125mm Gatling AutoCannon I
   125mm Gatling AutoCannon II:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -262,6 +271,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 417.0
     TypeColorScheme: 11343
+    name: 125mm Gatling AutoCannon II
   125mm Light 'Scout' Autocannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -288,6 +298,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 417.0
     TypeColorScheme: 11342
+    name: 125mm Light 'Scout' Autocannon I
   125mm Light Carbine Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -314,6 +325,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 417.0
     TypeColorScheme: 11342
+    name: 125mm Light Carbine Repeating Cannon I
   125mm Light Gallium Machine Gun:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -340,6 +352,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 417.0
     TypeColorScheme: 11342
+    name: 125mm Light Gallium Machine Gun
   125mm Light Prototype Automatic Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -366,6 +379,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 417.0
     TypeColorScheme: 11342
+    name: 125mm Light Prototype Automatic Cannon
   1400mm 'Jolt' Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -393,6 +407,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11341
+    name: 1400mm 'Jolt' Artillery I
   1400mm 'Scout' Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -419,6 +434,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11342
+    name: 1400mm 'Scout' Artillery I
   1400mm Carbine Howitzer I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -445,6 +461,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11342
+    name: 1400mm Carbine Howitzer I
   1400mm Gallium Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -471,6 +488,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11342
+    name: 1400mm Gallium Cannon
   1400mm Howitzer Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -496,6 +514,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11342
+    name: 1400mm Howitzer Artillery I
   1400mm Howitzer Artillery II:
     ChargeGroup1: 83
     ChargeGroup2: 376
@@ -525,6 +544,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11343
+    name: 1400mm Howitzer Artillery II
   1400mm Prototype Siege Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -551,6 +571,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11342
+    name: 1400mm Prototype Siege Cannon
   150mm Light 'Scout' Autocannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -577,6 +598,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 362.0
     TypeColorScheme: 11342
+    name: 150mm Light 'Scout' Autocannon I
   150mm Light AutoCannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -602,6 +624,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 362.0
     TypeColorScheme: 11342
+    name: 150mm Light AutoCannon I
   150mm Light AutoCannon II:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -631,6 +654,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 362.0
     TypeColorScheme: 11343
+    name: 150mm Light AutoCannon II
   150mm Light Carbine Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -657,6 +681,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 362.0
     TypeColorScheme: 11342
+    name: 150mm Light Carbine Repeating Cannon I
   150mm Light Gallium Machine Gun:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -683,6 +708,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 362.0
     TypeColorScheme: 11342
+    name: 150mm Light Gallium Machine Gun
   150mm Light Prototype Automatic Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -709,6 +735,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 362.0
     TypeColorScheme: 11342
+    name: 150mm Light Prototype Automatic Cannon
   200mm AutoCannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -734,6 +761,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11342
+    name: 200mm AutoCannon I
   200mm AutoCannon II:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -763,6 +791,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 315.0
     TypeColorScheme: 11343
+    name: 200mm AutoCannon II
   200mm Light 'Jolt' Autocannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -790,6 +819,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11341
+    name: 200mm Light 'Jolt' Autocannon I
   200mm Light 'Scout' Autocannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -816,6 +846,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11342
+    name: 200mm Light 'Scout' Autocannon I
   200mm Light Carbine Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -842,6 +873,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11342
+    name: 200mm Light Carbine Repeating Cannon I
   200mm Light Gallium Machine Gun:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -868,6 +900,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11342
+    name: 200mm Light Gallium Machine Gun
   200mm Light Prototype Automatic Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -894,6 +927,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11342
+    name: 200mm Light Prototype Automatic Cannon
   220mm Medium 'Scout' Autocannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -920,6 +954,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
+    name: 220mm Medium 'Scout' Autocannon I
   220mm Medium Carbine Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -946,6 +981,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
+    name: 220mm Medium Carbine Repeating Cannon I
   220mm Medium Gallium Machine Gun:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -972,6 +1008,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
+    name: 220mm Medium Gallium Machine Gun
   220mm Medium Prototype Automatic Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -998,6 +1035,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
+    name: 220mm Medium Prototype Automatic Cannon
   220mm Vulcan AutoCannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1023,6 +1061,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11342
+    name: 220mm Vulcan AutoCannon I
   220mm Vulcan AutoCannon II:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -1052,6 +1091,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11343
+    name: 220mm Vulcan AutoCannon II
   250mm Light 'Jolt' Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1079,6 +1119,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11341
+    name: 250mm Light 'Jolt' Artillery I
   250mm Light 'Scout' Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1105,6 +1146,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11342
+    name: 250mm Light 'Scout' Artillery I
   250mm Light Artillery Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1130,6 +1172,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11342
+    name: 250mm Light Artillery Cannon I
   250mm Light Artillery Cannon II:
     ChargeGroup1: 83
     ChargeGroup2: 376
@@ -1159,6 +1202,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 80.0
     TypeColorScheme: 11343
+    name: 250mm Light Artillery Cannon II
   250mm Light Carbine Howitzer I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1185,6 +1229,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11342
+    name: 250mm Light Carbine Howitzer I
   250mm Light Gallium Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1211,6 +1256,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11342
+    name: 250mm Light Gallium Cannon
   250mm Light Prototype Siege Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1237,6 +1283,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11342
+    name: 250mm Light Prototype Siege Cannon
   280mm 'Jolt' Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1264,6 +1311,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11341
+    name: 280mm 'Jolt' Artillery I
   280mm 'Scout' Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1290,6 +1338,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11342
+    name: 280mm 'Scout' Artillery I
   280mm Carbine Howitzer I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1316,6 +1365,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11342
+    name: 280mm Carbine Howitzer I
   280mm Gallium Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1342,6 +1392,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11342
+    name: 280mm Gallium Cannon
   280mm Howitzer Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1367,6 +1418,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11342
+    name: 280mm Howitzer Artillery I
   280mm Howitzer Artillery II:
     ChargeGroup1: 83
     ChargeGroup2: 376
@@ -1396,6 +1448,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 64.0
     TypeColorScheme: 11343
+    name: 280mm Howitzer Artillery II
   280mm Prototype Siege Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1422,6 +1475,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11342
+    name: 280mm Prototype Siege Cannon
   425mm AutoCannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1447,6 +1501,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
+    name: 425mm AutoCannon I
   425mm AutoCannon II:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -1476,6 +1531,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11343
+    name: 425mm AutoCannon II
   425mm Medium 'Jolt' Autocannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1503,6 +1559,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11341
+    name: 425mm Medium 'Jolt' Autocannon I
   425mm Medium 'Scout' Autocannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1529,6 +1586,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
+    name: 425mm Medium 'Scout' Autocannon I
   425mm Medium Carbine Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1555,6 +1613,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
+    name: 425mm Medium Carbine Repeating Cannon I
   425mm Medium Gallium Machine Gun:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1581,6 +1640,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
+    name: 425mm Medium Gallium Machine Gun
   425mm Medium Prototype Automatic Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1607,6 +1667,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11342
+    name: 425mm Medium Prototype Automatic Cannon
   650mm Artillery Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1632,6 +1693,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11342
+    name: 650mm Artillery Cannon I
   650mm Artillery Cannon II:
     ChargeGroup1: 83
     ChargeGroup2: 376
@@ -1661,6 +1723,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11343
+    name: 650mm Artillery Cannon II
   650mm Medium 'Jolt' Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1688,6 +1751,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11341
+    name: 650mm Medium 'Jolt' Artillery I
   650mm Medium 'Scout' Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1714,6 +1778,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11342
+    name: 650mm Medium 'Scout' Artillery I
   650mm Medium Carbine Howitzer I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1740,6 +1805,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11342
+    name: 650mm Medium Carbine Howitzer I
   650mm Medium Gallium Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1766,6 +1832,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11342
+    name: 650mm Medium Gallium Cannon
   650mm Medium Prototype Siege Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1792,6 +1859,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11342
+    name: 650mm Medium Prototype Siege Cannon
   720mm 'Jolt' Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1819,6 +1887,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11341
+    name: 720mm 'Jolt' Artillery I
   720mm 'Probe' Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1843,6 +1912,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 3.9000000953674316
     TypeColorScheme: 11342
+    name: 720mm 'Probe' Artillery I
   720mm 'Scout' Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1869,6 +1939,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11342
+    name: 720mm 'Scout' Artillery I
   720mm Carbine Howitzer I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1895,6 +1966,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11342
+    name: 720mm Carbine Howitzer I
   720mm Cordite Howitzer I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1919,6 +1991,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 3.9000000953674316
     TypeColorScheme: 11342
+    name: 720mm Cordite Howitzer I
   720mm Gallium Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1945,6 +2018,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11342
+    name: 720mm Gallium Cannon
   720mm Howitzer Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -1970,6 +2044,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11342
+    name: 720mm Howitzer Artillery I
   720mm Howitzer Artillery II:
     ChargeGroup1: 83
     ChargeGroup2: 376
@@ -1999,6 +2074,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11343
+    name: 720mm Howitzer Artillery II
   720mm Prototype Siege Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2025,6 +2101,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11342
+    name: 720mm Prototype Siege Cannon
   800mm Heavy 'Jolt' Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2052,6 +2129,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11341
+    name: 800mm Heavy 'Jolt' Repeating Cannon I
   800mm Heavy 'Scout' Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2078,6 +2156,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11342
+    name: 800mm Heavy 'Scout' Repeating Cannon I
   800mm Heavy Carbine Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2104,6 +2183,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11342
+    name: 800mm Heavy Carbine Repeating Cannon I
   800mm Heavy Gallium Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2130,6 +2210,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11342
+    name: 800mm Heavy Gallium Repeating Cannon
   800mm Heavy Prototype Automatic Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2156,6 +2237,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11342
+    name: 800mm Heavy Prototype Automatic Cannon
   800mm Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2181,6 +2263,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11342
+    name: 800mm Repeating Cannon I
   800mm Repeating Cannon II:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -2210,6 +2293,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11343
+    name: 800mm Repeating Cannon II
   Ample Gallium Quad 800mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2236,6 +2320,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.9199999570846558
     TypeColorScheme: 11342
+    name: Ample Gallium Quad 800mm Repeating Cannon
   CONCORD 1200mm Artillery:
     ChargeRate: 1
     DamageMultiplier: 1.0
@@ -2244,6 +2329,7 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    name: CONCORD 1200mm Artillery
   CONCORD 200mm Autocannon:
     ChargeRate: 1
     DamageMultiplier: 1.0
@@ -2252,6 +2338,7 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    name: CONCORD 200mm Autocannon
   CONCORD 650mm Artillery:
     ChargeRate: 1
     DamageMultiplier: 1.0
@@ -2260,6 +2347,7 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    name: CONCORD 650mm Artillery
   CONCORD Hexa 2500mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -2288,6 +2376,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.04359075054526329
     TypeColorScheme: 11342
+    name: CONCORD Hexa 2500mm Repeating Cannon
   CONCORD Quad 3500mm Siege Artillery:
     ChargeGroup1: 83
     ChargeGroup2: 376
@@ -2316,6 +2405,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.017954999580979347
     TypeColorScheme: 11342
+    name: CONCORD Quad 3500mm Siege Artillery
   Carbide Compact Quad 3500mm Siege Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2342,6 +2432,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.017100000753998756
     TypeColorScheme: 11342
+    name: Carbide Compact Quad 3500mm Siege Artillery
   Carbine Compact Hexa 2500mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2368,6 +2459,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.04151500016450882
     TypeColorScheme: 11342
+    name: Carbine Compact Hexa 2500mm Repeating Cannon
   Compact Carbine Quad 800mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2394,6 +2486,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.9199999570846558
     TypeColorScheme: 11342
+    name: Compact Carbine Quad 800mm Repeating Cannon
   Domination 1200mm Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2421,6 +2514,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11318
+    name: Domination 1200mm Artillery
   Domination 125mm Autocannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2448,6 +2542,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 417.0
     TypeColorScheme: 11318
+    name: Domination 125mm Autocannon
   Domination 1400mm Howitzer Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2475,6 +2570,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11318
+    name: Domination 1400mm Howitzer Artillery
   Domination 150mm Autocannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2502,6 +2598,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 362.0
     TypeColorScheme: 11318
+    name: Domination 150mm Autocannon
   Domination 200mm Autocannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2529,6 +2626,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11318
+    name: Domination 200mm Autocannon
   Domination 220mm Autocannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2556,6 +2654,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11318
+    name: Domination 220mm Autocannon
   Domination 250mm Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2583,6 +2682,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11318
+    name: Domination 250mm Artillery
   Domination 280mm Howitzer Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2610,6 +2710,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11318
+    name: Domination 280mm Howitzer Artillery
   Domination 425mm Autocannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2637,6 +2738,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11318
+    name: Domination 425mm Autocannon
   Domination 650mm Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2664,6 +2766,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11318
+    name: Domination 650mm Artillery
   Domination 720mm Howitzer Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2691,6 +2794,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11318
+    name: Domination 720mm Howitzer Artillery
   Domination 800mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2718,6 +2822,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11318
+    name: Domination 800mm Repeating Cannon
   Domination Dual 180mm Autocannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2745,6 +2850,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11318
+    name: Domination Dual 180mm Autocannon
   Domination Dual 425mm Autocannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2772,6 +2878,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11318
+    name: Domination Dual 425mm Autocannon
   Domination Dual 650mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2799,6 +2906,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11318
+    name: Domination Dual 650mm Repeating Cannon
   Domination Hexa 2500mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -2827,6 +2935,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.04359075054526329
     TypeColorScheme: 11342
+    name: Domination Hexa 2500mm Repeating Cannon
   Domination Quad 3500mm Siege Artillery:
     ChargeGroup1: 83
     ChargeGroup2: 376
@@ -2855,6 +2964,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.017954999580979347
     TypeColorScheme: 11342
+    name: Domination Quad 3500mm Siege Artillery
   Domination Quad 800mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -2883,6 +2993,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 2.0160000324249268
     TypeColorScheme: 11342
+    name: Domination Quad 800mm Repeating Cannon
   Dual 180mm 'Scout' Autocannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2909,6 +3020,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
+    name: Dual 180mm 'Scout' Autocannon I
   Dual 180mm AutoCannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2934,6 +3046,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
+    name: Dual 180mm AutoCannon I
   Dual 180mm AutoCannon II:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -2963,6 +3076,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11343
+    name: Dual 180mm AutoCannon II
   Dual 180mm Carbine Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2989,6 +3103,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
+    name: Dual 180mm Carbine Repeating Cannon I
   Dual 180mm Gallium Machine Gun:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3015,6 +3130,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
+    name: Dual 180mm Gallium Machine Gun
   Dual 180mm Prototype Automatic Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3041,6 +3157,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11342
+    name: Dual 180mm Prototype Automatic Cannon
   Dual 425mm 'Scout' Autocannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3067,6 +3184,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11342
+    name: Dual 425mm 'Scout' Autocannon I
   Dual 425mm AutoCannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3092,6 +3210,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11342
+    name: Dual 425mm AutoCannon I
   Dual 425mm AutoCannon II:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -3121,6 +3240,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11343
+    name: Dual 425mm AutoCannon II
   Dual 425mm Carbine Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3147,6 +3267,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11342
+    name: Dual 425mm Carbine Repeating Cannon I
   Dual 425mm Gallium Machine Gun:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3173,6 +3294,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11342
+    name: Dual 425mm Gallium Machine Gun
   Dual 425mm Prototype Automatic Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3199,6 +3321,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11342
+    name: Dual 425mm Prototype Automatic Cannon
   Dual 650mm 'Scout' Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3225,6 +3348,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11342
+    name: Dual 650mm 'Scout' Repeating Cannon I
   Dual 650mm Carbine Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3251,6 +3375,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11342
+    name: Dual 650mm Carbine Repeating Cannon I
   Dual 650mm Gallium Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3277,6 +3402,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11342
+    name: Dual 650mm Gallium Repeating Cannon
   Dual 650mm Prototype Automatic Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3303,6 +3429,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11342
+    name: Dual 650mm Prototype Automatic Cannon
   Dual 650mm Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3328,6 +3455,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11342
+    name: Dual 650mm Repeating Cannon I
   Dual 650mm Repeating Cannon II:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -3357,6 +3485,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11343
+    name: Dual 650mm Repeating Cannon II
   Gallium Ample Hexa 2500mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3383,6 +3512,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.04151500016450882
     TypeColorScheme: 11342
+    name: Gallium Ample Hexa 2500mm Repeating Cannon
   Gallium Ample Quad 3500mm Siege Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3409,6 +3539,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.017100000753998756
     TypeColorScheme: 11342
+    name: Gallium Ample Quad 3500mm Siege Artillery
   Gotan's Modified 800mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3436,6 +3567,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11340
+    name: Gotan's Modified 800mm Repeating Cannon
   Gotan's Modified Dual 425mm AutoCannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3463,6 +3595,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11340
+    name: Gotan's Modified Dual 425mm AutoCannon
   Gotan's Modified Dual 650mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3490,6 +3623,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11340
+    name: Gotan's Modified Dual 650mm Repeating Cannon
   Hakim's Modified 1200mm Artillery Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3517,6 +3651,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11340
+    name: Hakim's Modified 1200mm Artillery Cannon
   Hakim's Modified 1400mm Howitzer Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3544,6 +3679,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11340
+    name: Hakim's Modified 1400mm Howitzer Artillery
   Hexa 2500mm Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3569,6 +3705,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.04151500016450882
     TypeColorScheme: 11342
+    name: Hexa 2500mm Repeating Cannon I
   Hexa 2500mm Repeating Cannon II:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -3598,6 +3735,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 0.04151500016450882
     TypeColorScheme: 11342
+    name: Hexa 2500mm Repeating Cannon II
   Mizuro's Modified 800mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3625,6 +3763,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11340
+    name: Mizuro's Modified 800mm Repeating Cannon
   Mizuro's Modified Dual 425mm AutoCannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3652,6 +3791,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11340
+    name: Mizuro's Modified Dual 425mm AutoCannon
   Mizuro's Modified Dual 650mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3679,6 +3819,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11340
+    name: Mizuro's Modified Dual 650mm Repeating Cannon
   Polarized 200mm AutoCannon:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -3710,6 +3851,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 362.25
     TypeColorScheme: 11461
+    name: Polarized 200mm AutoCannon
   Polarized 425mm AutoCannon:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -3741,6 +3883,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11461
+    name: Polarized 425mm AutoCannon
   Polarized 800mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -3772,6 +3915,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11461
+    name: Polarized 800mm Repeating Cannon
   Prototype Precise Hexa 2500mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3798,6 +3942,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.04359075054526329
     TypeColorScheme: 11342
+    name: Prototype Precise Hexa 2500mm Repeating Cannon
   Prototype Precise Quad 3500mm Siege Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3824,6 +3969,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.017954999580979347
     TypeColorScheme: 11342
+    name: Prototype Precise Quad 3500mm Siege Artillery
   Prototype Precise Quad 800mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3850,6 +3996,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 2.0160000324249268
     TypeColorScheme: 11342
+    name: Prototype Precise Quad 800mm Repeating Cannon
   Quad 3500mm Siege Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3875,6 +4022,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.017100000753998756
     TypeColorScheme: 11342
+    name: Quad 3500mm Siege Artillery I
   Quad 3500mm Siege Artillery II:
     ChargeGroup1: 83
     ChargeGroup2: 376
@@ -3904,6 +4052,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 0.017100000753998756
     TypeColorScheme: 11342
+    name: Quad 3500mm Siege Artillery II
   Quad 800mm Repeating Cannon I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3929,6 +4078,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.9199999570846558
     TypeColorScheme: 11342
+    name: Quad 800mm Repeating Cannon I
   Quad 800mm Repeating Cannon II:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -3958,6 +4108,7 @@ items:
     TechLevel: 2
     TrackingSpeed: 1.9199999570846558
     TypeColorScheme: 11342
+    name: Quad 800mm Repeating Cannon II
   Republic Fleet 1200mm Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -3985,6 +4136,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11339
+    name: Republic Fleet 1200mm Artillery
   Republic Fleet 125mm Autocannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4012,6 +4164,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 417.0
     TypeColorScheme: 11339
+    name: Republic Fleet 125mm Autocannon
   Republic Fleet 1400mm Howitzer Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4039,6 +4192,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11339
+    name: Republic Fleet 1400mm Howitzer Artillery
   Republic Fleet 150mm Autocannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4066,6 +4220,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 362.0
     TypeColorScheme: 11339
+    name: Republic Fleet 150mm Autocannon
   Republic Fleet 200mm Autocannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4093,6 +4248,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 315.0
     TypeColorScheme: 11339
+    name: Republic Fleet 200mm Autocannon
   Republic Fleet 220mm Autocannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4120,6 +4276,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.860801696777344
     TypeColorScheme: 11339
+    name: Republic Fleet 220mm Autocannon
   Republic Fleet 250mm Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4147,6 +4304,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 80.0
     TypeColorScheme: 11339
+    name: Republic Fleet 250mm Artillery
   Republic Fleet 280mm Howitzer Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4174,6 +4332,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 64.0
     TypeColorScheme: 11339
+    name: Republic Fleet 280mm Howitzer Artillery
   Republic Fleet 425mm Autocannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4201,6 +4360,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 33.79199981689453
     TypeColorScheme: 11339
+    name: Republic Fleet 425mm Autocannon
   Republic Fleet 650mm Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4228,6 +4388,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.35200023651123
     TypeColorScheme: 11339
+    name: Republic Fleet 650mm Artillery
   Republic Fleet 720mm Howitzer Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4255,6 +4416,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.688000202178955
     TypeColorScheme: 11339
+    name: Republic Fleet 720mm Howitzer Artillery
   Republic Fleet 800mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4282,6 +4444,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.320000171661377
     TypeColorScheme: 11339
+    name: Republic Fleet 800mm Repeating Cannon
   Republic Fleet Dual 180mm Autocannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4309,6 +4472,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 44.689918518066406
     TypeColorScheme: 11339
+    name: Republic Fleet Dual 180mm Autocannon
   Republic Fleet Dual 425mm Autocannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4336,6 +4500,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.713200092315674
     TypeColorScheme: 11339
+    name: Republic Fleet Dual 425mm Autocannon
   Republic Fleet Dual 650mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4363,6 +4528,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 4.9679999351501465
     TypeColorScheme: 11339
+    name: Republic Fleet Dual 650mm Repeating Cannon
   Scout Scoped Hexa 2500mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4389,6 +4555,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.04151500016450882
     TypeColorScheme: 11342
+    name: Scout Scoped Hexa 2500mm Repeating Cannon
   Scout Scoped Quad 3500mm Siege Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4415,6 +4582,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.017100000753998756
     TypeColorScheme: 11342
+    name: Scout Scoped Quad 3500mm Siege Artillery
   Scout Scoped Quad 800mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4441,6 +4609,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.9199999570846558
     TypeColorScheme: 11342
+    name: Scout Scoped Quad 800mm Repeating Cannon
   Shaqil's Modified 1200mm Artillery Cannon:
     ChargeRate: 1
     DamageMultiplier: 1.0
@@ -4449,6 +4618,7 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    name: Shaqil's Modified 1200mm Artillery Cannon
   Shaqil's Modified 1400mm Howitzer Artillery:
     ChargeRate: 1
     DamageMultiplier: 1.0
@@ -4457,6 +4627,7 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    name: Shaqil's Modified 1400mm Howitzer Artillery
   Tobias' Modified 1200mm Artillery Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4484,6 +4655,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.125
     TypeColorScheme: 11340
+    name: Tobias' Modified 1200mm Artillery Cannon
   Tobias' Modified 1400mm Howitzer Artillery:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -4511,3 +4683,4 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.8999999761581421
     TypeColorScheme: 11340
+    name: Tobias' Modified 1400mm Howitzer Artillery

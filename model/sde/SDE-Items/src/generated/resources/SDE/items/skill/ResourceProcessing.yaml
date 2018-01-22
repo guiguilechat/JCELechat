@@ -7,6 +7,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 165
     SkillTimeConstant: 8.0
+    name: Advanced Mass Reactions
   Arkonor Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -16,6 +17,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
+    name: Arkonor Processing
   Astrogeology:
     MiningAmountBonus: 5
     PrimaryAttribute: 165
@@ -25,6 +27,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    name: Astrogeology
   Bistot Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -34,6 +37,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
+    name: Bistot Processing
   Common Moon Ore Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -43,6 +47,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 5.0
+    name: Common Moon Ore Processing
   Crokite Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -52,6 +57,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
+    name: Crokite Processing
   Dark Ochre Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -61,6 +67,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
+    name: Dark Ochre Processing
   Deep Core Mining:
     CanNotBeTrainedOnTrial: 1
     DamageCloudChanceReduction: -20
@@ -71,6 +78,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 165
     SkillTimeConstant: 6.0
+    name: Deep Core Mining
   Exceptional Moon Ore Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -80,12 +88,14 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 8.0
+    name: Exceptional Moon Ore Processing
   Gas Cloud Harvesting:
     PrimaryAttribute: 166
     RequiredSkill1: 3386
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
+    name: Gas Cloud Harvesting
   Gneiss Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -95,6 +105,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
+    name: Gneiss Processing
   Hedbergite Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -104,6 +115,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
+    name: Hedbergite Processing
   Hemorphite Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -113,6 +125,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    name: Hemorphite Processing
   Ice Harvesting:
     IceHarvestCycleBonus: -5.0
     PrimaryAttribute: 166
@@ -120,6 +133,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
+    name: Ice Harvesting
   Ice Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -129,6 +143,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 5.0
+    name: Ice Processing
   Industrial Reconfiguration:
     ConsumptionQuantityBonus: 50
     PrimaryAttribute: 166
@@ -136,6 +151,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 8.0
+    name: Industrial Reconfiguration
   Jaspet Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -145,6 +161,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    name: Jaspet Processing
   Kernite Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -154,6 +171,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    name: Kernite Processing
   Mass Reactions:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
@@ -162,6 +180,7 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    name: Mass Reactions
   Mercoxit Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -171,11 +190,13 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 5.0
+    name: Mercoxit Processing
   Mining:
     MiningAmountBonus: 5
     PrimaryAttribute: 166
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
+    name: Mining
   Mining Upgrades:
     MiningUpgradeCPUReductionBonus: -5
     PrimaryAttribute: 166
@@ -183,6 +204,7 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
+    name: Mining Upgrades
   Mobile Refinery Operation:
     PrimaryAttribute: 166
     RequiredSkill1: 3380
@@ -191,6 +213,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
+    name: Mobile Refinery Operation
   Omber Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -200,6 +223,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    name: Omber Processing
   Ore Compression:
     PrimaryAttribute: 165
     RequiredSkill1: 3380
@@ -210,6 +234,7 @@ items:
     RequiredSkill3Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
+    name: Ore Compression
   Plagioclase Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -219,6 +244,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
+    name: Plagioclase Processing
   Pyroxeres Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -228,6 +254,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
+    name: Pyroxeres Processing
   Rare Moon Ore Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -237,11 +264,13 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 7.0
+    name: Rare Moon Ore Processing
   Reactions:
     PrimaryAttribute: 166
     ReactionTimeBonus: -4
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
+    name: Reactions
   Remote Reactions:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
@@ -249,6 +278,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
+    name: Remote Reactions
   Reprocessing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 3
@@ -256,6 +286,7 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
+    name: Reprocessing
   Reprocessing Efficiency:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -263,6 +294,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
+    name: Reprocessing Efficiency
   Salvaging:
     AccessDifficultyBonusAbsolutePercent: 1
     PrimaryAttribute: 165
@@ -272,6 +304,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    name: Salvaging
   Scordite Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -281,6 +314,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
+    name: Scordite Processing
   Scrapmetal Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -290,6 +324,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 165
     SkillTimeConstant: 5.0
+    name: Scrapmetal Processing
   Spodumain Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -299,6 +334,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
+    name: Spodumain Processing
   Ubiquitous Moon Ore Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -308,6 +344,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
+    name: Ubiquitous Moon Ore Processing
   Uncommon Moon Ore Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -317,6 +354,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 6.0
+    name: Uncommon Moon Ore Processing
   Veldspar Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -326,3 +364,4 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
+    name: Veldspar Processing

@@ -1,41 +1,81 @@
 items:
-  Civilian Gallente Cruiser Celestis: {}
-  Civilian Gallente Cruiser Exequror: {}
-  Civilian Gallente Cruiser Thorax: {}
-  Civilian Gallente Cruiser Vexor: {}
-  Elite Federation Arx: {}
-  Elite Federation Auxilia: {}
-  Elite Federation Bearcus: {}
-  Elite Federation Calo: {}
-  Elite Federation Liburna: {}
-  Elite Federation Mentes: {}
-  Elite Federation Navis: {}
-  Elite Federation Quadrieris: {}
-  Federation Hastarius: {}
-  Federation Hastatus: {}
-  Federation Loras: {}
-  Federation Misthios: {}
-  Federation Nauclarius: {}
-  Federation Navy Detective: {}
-  Federation Navy Officer Vexor: {}
-  Federation Navy Thorax: {}
-  Federation Navy Vexor: {}
-  Federation Praktor Centurion: {}
-  Federation Praktor Hippeus: {}
-  Federation Praktor Legionarius: {}
-  Federation Praktor Optioon: {}
-  Federation Praktor Ouragos: {}
-  Gallente CA Cruiser: {}
-  Independent Celestis: {}
-  Independent Exequror: {}
-  Independent Green-Crewed Celestis: {}
-  Independent Green-Crewed Exequror: {}
-  'Independent Green-Crewed Thorax ': {}
-  Independent Green-Crewed Vexor: {}
-  Independent Thorax: {}
-  Independent Veteran Celestis: {}
-  Independent Veteran Exequror: {}
-  Independent Veteran Thorax: {}
-  Independent Veteran Vexor: {}
-  Independent Vexor: {}
-  Kristjan's Gallente Boss: {}
+  Civilian Gallente Cruiser Celestis:
+    name: Civilian Gallente Cruiser Celestis
+  Civilian Gallente Cruiser Exequror:
+    name: Civilian Gallente Cruiser Exequror
+  Civilian Gallente Cruiser Thorax:
+    name: Civilian Gallente Cruiser Thorax
+  Civilian Gallente Cruiser Vexor:
+    name: Civilian Gallente Cruiser Vexor
+  Elite Federation Arx:
+    name: Elite Federation Arx
+  Elite Federation Auxilia:
+    name: Elite Federation Auxilia
+  Elite Federation Bearcus:
+    name: Elite Federation Bearcus
+  Elite Federation Calo:
+    name: Elite Federation Calo
+  Elite Federation Liburna:
+    name: Elite Federation Liburna
+  Elite Federation Mentes:
+    name: Elite Federation Mentes
+  Elite Federation Navis:
+    name: Elite Federation Navis
+  Elite Federation Quadrieris:
+    name: Elite Federation Quadrieris
+  Federation Hastarius:
+    name: Federation Hastarius
+  Federation Hastatus:
+    name: Federation Hastatus
+  Federation Loras:
+    name: Federation Loras
+  Federation Misthios:
+    name: Federation Misthios
+  Federation Nauclarius:
+    name: Federation Nauclarius
+  Federation Navy Detective:
+    name: Federation Navy Detective
+  Federation Navy Officer Vexor:
+    name: Federation Navy Officer Vexor
+  Federation Navy Thorax:
+    name: Federation Navy Thorax
+  Federation Navy Vexor:
+    name: Federation Navy Vexor
+  Federation Praktor Centurion:
+    name: Federation Praktor Centurion
+  Federation Praktor Hippeus:
+    name: Federation Praktor Hippeus
+  Federation Praktor Legionarius:
+    name: Federation Praktor Legionarius
+  Federation Praktor Optioon:
+    name: Federation Praktor Optioon
+  Federation Praktor Ouragos:
+    name: Federation Praktor Ouragos
+  Gallente CA Cruiser:
+    name: Gallente CA Cruiser
+  Independent Celestis:
+    name: Independent Celestis
+  Independent Exequror:
+    name: Independent Exequror
+  Independent Green-Crewed Celestis:
+    name: Independent Green-Crewed Celestis
+  Independent Green-Crewed Exequror:
+    name: Independent Green-Crewed Exequror
+  'Independent Green-Crewed Thorax ':
+    name: 'Independent Green-Crewed Thorax '
+  Independent Green-Crewed Vexor:
+    name: Independent Green-Crewed Vexor
+  Independent Thorax:
+    name: Independent Thorax
+  Independent Veteran Celestis:
+    name: Independent Veteran Celestis
+  Independent Veteran Exequror:
+    name: Independent Veteran Exequror
+  Independent Veteran Thorax:
+    name: Independent Veteran Thorax
+  Independent Veteran Vexor:
+    name: Independent Veteran Vexor
+  Independent Vexor:
+    name: Independent Vexor
+  Kristjan's Gallente Boss:
+    name: Kristjan's Gallente Boss

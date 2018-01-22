@@ -1,7 +1,10 @@
 items:
   Design Laboratory Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Design Laboratory Blueprint
   Experimental Laboratory Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Experimental Laboratory Blueprint
   Research Laboratory Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Research Laboratory Blueprint

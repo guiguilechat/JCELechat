@@ -1,174 +1,347 @@
 items:
-  Amarr Cruise Missile Battery: {}
-  Amarr Energy Neutralizer Sentry I: {}
-  Amarr Energy Neutralizer Sentry II: {}
-  Amarr Energy Neutralizer Sentry III: {}
-  Amarr Heavy Missile Battery: {}
-  Amarr Light Missile Battery: {}
-  Amarr Point Defense Battery: {}
-  Amarr Stasis Tower: {}
-  Ammatar Cruise Missile Battery: {}
-  Ammatar Heavy Missile Battery: {}
-  Ammatar Light Missile Battery: {}
-  Ammatar Point Defense Battery: {}
-  Angel Basic Defense Battery: {}
-  Angel Cruise Missile Battery: {}
-  Angel Energy Neutralizer Sentry I: {}
-  Angel Energy Neutralizer Sentry II: {}
-  Angel Energy Neutralizer Sentry III: {}
-  Angel Heavy Missile Battery: {}
-  Angel Light Missile Battery: {}
-  Angel Point Defense Battery: {}
-  Angel Sentry Gun: {}
-  Angel Stasis Tower: {}
-  Archive Sentry Tower: {}
-  Blood Basic Defense Battery: {}
-  Blood Cruise Missile Battery: {}
-  Blood Energy Neutralizer Sentry I: {}
-  Blood Energy Neutralizer Sentry II: {}
-  Blood Energy Neutralizer Sentry III: {}
-  Blood Heavy Missile Battery: {}
-  Blood Light Missile Battery: {}
-  Blood Point Defense Battery: {}
-  Blood Raider Sentry Gun: {}
-  Blood Stasis Tower: {}
-  Caldari Cruise Missile Battery: {}
-  Caldari Energy Neutralizer Sentry I: {}
-  Caldari Energy Neutralizer Sentry II: {}
-  Caldari Energy Neutralizer Sentry III: {}
-  Caldari Heavy Missile Battery: {}
-  Caldari Light Missile Battery: {}
-  Caldari Point Defense Battery: {}
-  Caldari Stasis Tower: {}
-  Damaged Sentinel Angel: {}
-  Damaged Sentinel Bloodraider: {}
-  Damaged Sentinel Chimera Strain Mother: {}
-  Damaged Sentinel Sansha: {}
-  Damaged Sentinel Serpentis: {}
-  Deficient Tower Sentry Sansha II: {}
-  Drone Cruise Missile Battery: {}
-  Drone Energy Neutralizer Sentry I: {}
-  Drone Energy Neutralizer Sentry II: {}
-  Drone Energy Neutralizer Sentry III: {}
-  Drone Heavy Missile Battery: {}
-  Drone Light Missile Battery: {}
-  Drone Point Defense Battery: {}
-  Drone Stasis Tower: {}
-  Drone Wall Sentry Gun: {}
-  Gallente Cruise Missile Battery: {}
-  Gallente Energy Neutralizer Sentry I: {}
-  Gallente Energy Neutralizer Sentry II: {}
-  Gallente Energy Neutralizer Sentry III: {}
-  Gallente Heavy Missile Battery: {}
-  Gallente Light Missile Battery: {}
-  Gallente Point Defense Battery: {}
-  Gallente Sentry Gun - Training: {}
-  Gallente Stasis Tower: {}
-  Guristas Annihilation Missile Battery: {}
-  Guristas Annihilation Missile Battery_Uber: {}
-  Guristas Basic Defense Battery: {}
-  Guristas Cruise Missile Batteries: {}
-  Guristas Energy Neutralizer Sentry I: {}
-  Guristas Energy Neutralizer Sentry II: {}
-  Guristas Energy Neutralizer Sentry III: {}
-  Guristas Heavy Missile Battery: {}
-  Guristas Light Missile Battery: {}
-  Guristas Point Defense Battery: {}
-  Guristas Sentry Gun: {}
-  Guristas Stasis Tower: {}
-  H-2874 Defense Sentinel: {}
-  Hive mother: {}
-  Hive mother 2: {}
-  Impaired Archive Sentry Tower: {}
-  Inert Proximity-activated Autoturret: {}
-  Minmatar Cruise Missile Battery: {}
-  Minmatar Energy Neutralizer Sentry I: {}
-  Minmatar Energy Neutralizer Sentry II: {}
-  Minmatar Energy Neutralizer Sentry III: {}
-  Minmatar Heavy Missile Battery: {}
-  Minmatar Light Missile Battery: {}
-  Minmatar Point Defense Battery: {}
-  Minmatar Stasis Tower: {}
-  Minmatar Station Sentry: {}
-  Proximity-activated Autoturret: {}
-  Restless Sentry Tower: {}
-  Rewired Sentry Gun: {}
-  Sansha Cruise Missile Battery: {}
-  Sansha Energy Neutralizer Sentry I: {}
-  Sansha Energy Neutralizer Sentry II: {}
-  Sansha Energy Neutralizer Sentry III: {}
-  Sansha Heavy Missile Battery: {}
-  Sansha Light Missile Battery: {}
-  Sansha Point Defense Battery: {}
-  Sansha Sentry Gun: {}
-  Sansha Stasis Tower: {}
-  Secret Angel Facility: {}
-  Sentinel Angel: {}
-  Sentinel Bloodraider: {}
-  Sentinel Chimera Strain Mother: {}
-  Sentinel Gallente: {}
-  Sentinel Jormungand Strain Mother: {}
-  Sentinel Sansha: {}
-  Sentinel Serpentis: {}
-  Serpentis Crash Storage Platform: {}
-  Serpentis Cruise Missile Battery: {}
-  Serpentis Energy Neutralizer Sentry I: {}
-  Serpentis Energy Neutralizer Sentry II: {}
-  Serpentis Energy Neutralizer Sentry III: {}
-  Serpentis Exile Storage Platform: {}
-  Serpentis Heavy Missile Battery: {}
-  Serpentis Light Missile Battery: {}
-  Serpentis Mindflood Storage Platform: {}
-  Serpentis Point Defense Battery: {}
-  Serpentis Sentry Gun: {}
-  Serpentis Stasis Tower: {}
-  Siege Artillery Sentry: {}
-  Siege Autocannon Sentry: {}
-  Siege Beam Laser Sentry: {}
-  Siege Blaster Sentry: {}
-  Siege Pulse Laser Sentry: {}
-  Siege Railgun Sentry: {}
-  Station Sentry 9F: {}
-  TEST Cap Drain Sentry: {}
-  TEST ICON Amarr Carrier: {}
-  Tower Basic Sentry Angel: {}
-  Tower Basic Sentry Bloodraider: {}
-  Tower Basic Sentry Guristas: {}
-  Tower Basic Sentry Serpentis: {}
-  Tower Missile Battery Serpentis I: {}
-  Tower Sentry Amarr I: {}
-  Tower Sentry Amarr II: {}
-  Tower Sentry Amarr III: {}
-  Tower Sentry Ammatar I: {}
-  Tower Sentry Ammatar II: {}
-  Tower Sentry Ammatar III: {}
-  Tower Sentry Angel I: {}
-  Tower Sentry Angel II: {}
-  Tower Sentry Angel III: {}
-  Tower Sentry Bloodraider I: {}
-  Tower Sentry Bloodraider II: {}
-  Tower Sentry Bloodraider III: {}
-  Tower Sentry Caldari I: {}
-  Tower Sentry Caldari II: {}
-  Tower Sentry Caldari III: {}
-  Tower Sentry Drone I: {}
-  Tower Sentry Drone II: {}
-  Tower Sentry Drone III: {}
-  Tower Sentry Gallente I: {}
-  Tower Sentry Gallente II: {}
-  Tower Sentry Gallente III: {}
-  Tower Sentry Guristas I: {}
-  Tower Sentry Guristas II: {}
-  Tower Sentry Guristas III: {}
-  Tower Sentry Guristas III_buffed: {}
-  Tower Sentry Minmatar I: {}
-  Tower Sentry Minmatar II: {}
-  Tower Sentry Minmatar III: {}
-  Tower Sentry Sansha I: {}
-  Tower Sentry Sansha II: {}
-  Tower Sentry Sansha III: {}
-  Tower Sentry Serpentis I: {}
-  Tower Sentry Serpentis II: {}
-  Tower Sentry Serpentis III: {}
-  Vigilant Sentry Tower: {}
-  Wakeful Sentry Tower: {}
+  Amarr Cruise Missile Battery:
+    name: Amarr Cruise Missile Battery
+  Amarr Energy Neutralizer Sentry I:
+    name: Amarr Energy Neutralizer Sentry I
+  Amarr Energy Neutralizer Sentry II:
+    name: Amarr Energy Neutralizer Sentry II
+  Amarr Energy Neutralizer Sentry III:
+    name: Amarr Energy Neutralizer Sentry III
+  Amarr Heavy Missile Battery:
+    name: Amarr Heavy Missile Battery
+  Amarr Light Missile Battery:
+    name: Amarr Light Missile Battery
+  Amarr Point Defense Battery:
+    name: Amarr Point Defense Battery
+  Amarr Stasis Tower:
+    name: Amarr Stasis Tower
+  Ammatar Cruise Missile Battery:
+    name: Ammatar Cruise Missile Battery
+  Ammatar Heavy Missile Battery:
+    name: Ammatar Heavy Missile Battery
+  Ammatar Light Missile Battery:
+    name: Ammatar Light Missile Battery
+  Ammatar Point Defense Battery:
+    name: Ammatar Point Defense Battery
+  Angel Basic Defense Battery:
+    name: Angel Basic Defense Battery
+  Angel Cruise Missile Battery:
+    name: Angel Cruise Missile Battery
+  Angel Energy Neutralizer Sentry I:
+    name: Angel Energy Neutralizer Sentry I
+  Angel Energy Neutralizer Sentry II:
+    name: Angel Energy Neutralizer Sentry II
+  Angel Energy Neutralizer Sentry III:
+    name: Angel Energy Neutralizer Sentry III
+  Angel Heavy Missile Battery:
+    name: Angel Heavy Missile Battery
+  Angel Light Missile Battery:
+    name: Angel Light Missile Battery
+  Angel Point Defense Battery:
+    name: Angel Point Defense Battery
+  Angel Sentry Gun:
+    name: Angel Sentry Gun
+  Angel Stasis Tower:
+    name: Angel Stasis Tower
+  Archive Sentry Tower:
+    name: Archive Sentry Tower
+  Blood Basic Defense Battery:
+    name: Blood Basic Defense Battery
+  Blood Cruise Missile Battery:
+    name: Blood Cruise Missile Battery
+  Blood Energy Neutralizer Sentry I:
+    name: Blood Energy Neutralizer Sentry I
+  Blood Energy Neutralizer Sentry II:
+    name: Blood Energy Neutralizer Sentry II
+  Blood Energy Neutralizer Sentry III:
+    name: Blood Energy Neutralizer Sentry III
+  Blood Heavy Missile Battery:
+    name: Blood Heavy Missile Battery
+  Blood Light Missile Battery:
+    name: Blood Light Missile Battery
+  Blood Point Defense Battery:
+    name: Blood Point Defense Battery
+  Blood Raider Sentry Gun:
+    name: Blood Raider Sentry Gun
+  Blood Stasis Tower:
+    name: Blood Stasis Tower
+  Caldari Cruise Missile Battery:
+    name: Caldari Cruise Missile Battery
+  Caldari Energy Neutralizer Sentry I:
+    name: Caldari Energy Neutralizer Sentry I
+  Caldari Energy Neutralizer Sentry II:
+    name: Caldari Energy Neutralizer Sentry II
+  Caldari Energy Neutralizer Sentry III:
+    name: Caldari Energy Neutralizer Sentry III
+  Caldari Heavy Missile Battery:
+    name: Caldari Heavy Missile Battery
+  Caldari Light Missile Battery:
+    name: Caldari Light Missile Battery
+  Caldari Point Defense Battery:
+    name: Caldari Point Defense Battery
+  Caldari Stasis Tower:
+    name: Caldari Stasis Tower
+  Damaged Sentinel Angel:
+    name: Damaged Sentinel Angel
+  Damaged Sentinel Bloodraider:
+    name: Damaged Sentinel Bloodraider
+  Damaged Sentinel Chimera Strain Mother:
+    name: Damaged Sentinel Chimera Strain Mother
+  Damaged Sentinel Sansha:
+    name: Damaged Sentinel Sansha
+  Damaged Sentinel Serpentis:
+    name: Damaged Sentinel Serpentis
+  Deficient Tower Sentry Sansha II:
+    name: Deficient Tower Sentry Sansha II
+  Drone Cruise Missile Battery:
+    name: Drone Cruise Missile Battery
+  Drone Energy Neutralizer Sentry I:
+    name: Drone Energy Neutralizer Sentry I
+  Drone Energy Neutralizer Sentry II:
+    name: Drone Energy Neutralizer Sentry II
+  Drone Energy Neutralizer Sentry III:
+    name: Drone Energy Neutralizer Sentry III
+  Drone Heavy Missile Battery:
+    name: Drone Heavy Missile Battery
+  Drone Light Missile Battery:
+    name: Drone Light Missile Battery
+  Drone Point Defense Battery:
+    name: Drone Point Defense Battery
+  Drone Stasis Tower:
+    name: Drone Stasis Tower
+  Drone Wall Sentry Gun:
+    name: Drone Wall Sentry Gun
+  Gallente Cruise Missile Battery:
+    name: Gallente Cruise Missile Battery
+  Gallente Energy Neutralizer Sentry I:
+    name: Gallente Energy Neutralizer Sentry I
+  Gallente Energy Neutralizer Sentry II:
+    name: Gallente Energy Neutralizer Sentry II
+  Gallente Energy Neutralizer Sentry III:
+    name: Gallente Energy Neutralizer Sentry III
+  Gallente Heavy Missile Battery:
+    name: Gallente Heavy Missile Battery
+  Gallente Light Missile Battery:
+    name: Gallente Light Missile Battery
+  Gallente Point Defense Battery:
+    name: Gallente Point Defense Battery
+  Gallente Sentry Gun - Training:
+    name: Gallente Sentry Gun - Training
+  Gallente Stasis Tower:
+    name: Gallente Stasis Tower
+  Guristas Annihilation Missile Battery:
+    name: Guristas Annihilation Missile Battery
+  Guristas Annihilation Missile Battery_Uber:
+    name: Guristas Annihilation Missile Battery_Uber
+  Guristas Basic Defense Battery:
+    name: Guristas Basic Defense Battery
+  Guristas Cruise Missile Batteries:
+    name: Guristas Cruise Missile Batteries
+  Guristas Energy Neutralizer Sentry I:
+    name: Guristas Energy Neutralizer Sentry I
+  Guristas Energy Neutralizer Sentry II:
+    name: Guristas Energy Neutralizer Sentry II
+  Guristas Energy Neutralizer Sentry III:
+    name: Guristas Energy Neutralizer Sentry III
+  Guristas Heavy Missile Battery:
+    name: Guristas Heavy Missile Battery
+  Guristas Light Missile Battery:
+    name: Guristas Light Missile Battery
+  Guristas Point Defense Battery:
+    name: Guristas Point Defense Battery
+  Guristas Sentry Gun:
+    name: Guristas Sentry Gun
+  Guristas Stasis Tower:
+    name: Guristas Stasis Tower
+  H-2874 Defense Sentinel:
+    name: H-2874 Defense Sentinel
+  Hive mother:
+    name: Hive mother
+  Hive mother 2:
+    name: Hive mother 2
+  Impaired Archive Sentry Tower:
+    name: Impaired Archive Sentry Tower
+  Inert Proximity-activated Autoturret:
+    name: Inert Proximity-activated Autoturret
+  Minmatar Cruise Missile Battery:
+    name: Minmatar Cruise Missile Battery
+  Minmatar Energy Neutralizer Sentry I:
+    name: Minmatar Energy Neutralizer Sentry I
+  Minmatar Energy Neutralizer Sentry II:
+    name: Minmatar Energy Neutralizer Sentry II
+  Minmatar Energy Neutralizer Sentry III:
+    name: Minmatar Energy Neutralizer Sentry III
+  Minmatar Heavy Missile Battery:
+    name: Minmatar Heavy Missile Battery
+  Minmatar Light Missile Battery:
+    name: Minmatar Light Missile Battery
+  Minmatar Point Defense Battery:
+    name: Minmatar Point Defense Battery
+  Minmatar Stasis Tower:
+    name: Minmatar Stasis Tower
+  Minmatar Station Sentry:
+    name: Minmatar Station Sentry
+  Proximity-activated Autoturret:
+    name: Proximity-activated Autoturret
+  Restless Sentry Tower:
+    name: Restless Sentry Tower
+  Rewired Sentry Gun:
+    name: Rewired Sentry Gun
+  Sansha Cruise Missile Battery:
+    name: Sansha Cruise Missile Battery
+  Sansha Energy Neutralizer Sentry I:
+    name: Sansha Energy Neutralizer Sentry I
+  Sansha Energy Neutralizer Sentry II:
+    name: Sansha Energy Neutralizer Sentry II
+  Sansha Energy Neutralizer Sentry III:
+    name: Sansha Energy Neutralizer Sentry III
+  Sansha Heavy Missile Battery:
+    name: Sansha Heavy Missile Battery
+  Sansha Light Missile Battery:
+    name: Sansha Light Missile Battery
+  Sansha Point Defense Battery:
+    name: Sansha Point Defense Battery
+  Sansha Sentry Gun:
+    name: Sansha Sentry Gun
+  Sansha Stasis Tower:
+    name: Sansha Stasis Tower
+  Secret Angel Facility:
+    name: Secret Angel Facility
+  Sentinel Angel:
+    name: Sentinel Angel
+  Sentinel Bloodraider:
+    name: Sentinel Bloodraider
+  Sentinel Chimera Strain Mother:
+    name: Sentinel Chimera Strain Mother
+  Sentinel Gallente:
+    name: Sentinel Gallente
+  Sentinel Jormungand Strain Mother:
+    name: Sentinel Jormungand Strain Mother
+  Sentinel Sansha:
+    name: Sentinel Sansha
+  Sentinel Serpentis:
+    name: Sentinel Serpentis
+  Serpentis Crash Storage Platform:
+    name: Serpentis Crash Storage Platform
+  Serpentis Cruise Missile Battery:
+    name: Serpentis Cruise Missile Battery
+  Serpentis Energy Neutralizer Sentry I:
+    name: Serpentis Energy Neutralizer Sentry I
+  Serpentis Energy Neutralizer Sentry II:
+    name: Serpentis Energy Neutralizer Sentry II
+  Serpentis Energy Neutralizer Sentry III:
+    name: Serpentis Energy Neutralizer Sentry III
+  Serpentis Exile Storage Platform:
+    name: Serpentis Exile Storage Platform
+  Serpentis Heavy Missile Battery:
+    name: Serpentis Heavy Missile Battery
+  Serpentis Light Missile Battery:
+    name: Serpentis Light Missile Battery
+  Serpentis Mindflood Storage Platform:
+    name: Serpentis Mindflood Storage Platform
+  Serpentis Point Defense Battery:
+    name: Serpentis Point Defense Battery
+  Serpentis Sentry Gun:
+    name: Serpentis Sentry Gun
+  Serpentis Stasis Tower:
+    name: Serpentis Stasis Tower
+  Siege Artillery Sentry:
+    name: Siege Artillery Sentry
+  Siege Autocannon Sentry:
+    name: Siege Autocannon Sentry
+  Siege Beam Laser Sentry:
+    name: Siege Beam Laser Sentry
+  Siege Blaster Sentry:
+    name: Siege Blaster Sentry
+  Siege Pulse Laser Sentry:
+    name: Siege Pulse Laser Sentry
+  Siege Railgun Sentry:
+    name: Siege Railgun Sentry
+  Station Sentry 9F:
+    name: Station Sentry 9F
+  TEST Cap Drain Sentry:
+    name: TEST Cap Drain Sentry
+  TEST ICON Amarr Carrier:
+    name: TEST ICON Amarr Carrier
+  Tower Basic Sentry Angel:
+    name: Tower Basic Sentry Angel
+  Tower Basic Sentry Bloodraider:
+    name: Tower Basic Sentry Bloodraider
+  Tower Basic Sentry Guristas:
+    name: Tower Basic Sentry Guristas
+  Tower Basic Sentry Serpentis:
+    name: Tower Basic Sentry Serpentis
+  Tower Missile Battery Serpentis I:
+    name: Tower Missile Battery Serpentis I
+  Tower Sentry Amarr I:
+    name: Tower Sentry Amarr I
+  Tower Sentry Amarr II:
+    name: Tower Sentry Amarr II
+  Tower Sentry Amarr III:
+    name: Tower Sentry Amarr III
+  Tower Sentry Ammatar I:
+    name: Tower Sentry Ammatar I
+  Tower Sentry Ammatar II:
+    name: Tower Sentry Ammatar II
+  Tower Sentry Ammatar III:
+    name: Tower Sentry Ammatar III
+  Tower Sentry Angel I:
+    name: Tower Sentry Angel I
+  Tower Sentry Angel II:
+    name: Tower Sentry Angel II
+  Tower Sentry Angel III:
+    name: Tower Sentry Angel III
+  Tower Sentry Bloodraider I:
+    name: Tower Sentry Bloodraider I
+  Tower Sentry Bloodraider II:
+    name: Tower Sentry Bloodraider II
+  Tower Sentry Bloodraider III:
+    name: Tower Sentry Bloodraider III
+  Tower Sentry Caldari I:
+    name: Tower Sentry Caldari I
+  Tower Sentry Caldari II:
+    name: Tower Sentry Caldari II
+  Tower Sentry Caldari III:
+    name: Tower Sentry Caldari III
+  Tower Sentry Drone I:
+    name: Tower Sentry Drone I
+  Tower Sentry Drone II:
+    name: Tower Sentry Drone II
+  Tower Sentry Drone III:
+    name: Tower Sentry Drone III
+  Tower Sentry Gallente I:
+    name: Tower Sentry Gallente I
+  Tower Sentry Gallente II:
+    name: Tower Sentry Gallente II
+  Tower Sentry Gallente III:
+    name: Tower Sentry Gallente III
+  Tower Sentry Guristas I:
+    name: Tower Sentry Guristas I
+  Tower Sentry Guristas II:
+    name: Tower Sentry Guristas II
+  Tower Sentry Guristas III:
+    name: Tower Sentry Guristas III
+  Tower Sentry Guristas III_buffed:
+    name: Tower Sentry Guristas III_buffed
+  Tower Sentry Minmatar I:
+    name: Tower Sentry Minmatar I
+  Tower Sentry Minmatar II:
+    name: Tower Sentry Minmatar II
+  Tower Sentry Minmatar III:
+    name: Tower Sentry Minmatar III
+  Tower Sentry Sansha I:
+    name: Tower Sentry Sansha I
+  Tower Sentry Sansha II:
+    name: Tower Sentry Sansha II
+  Tower Sentry Sansha III:
+    name: Tower Sentry Sansha III
+  Tower Sentry Serpentis I:
+    name: Tower Sentry Serpentis I
+  Tower Sentry Serpentis II:
+    name: Tower Sentry Serpentis II
+  Tower Sentry Serpentis III:
+    name: Tower Sentry Serpentis III
+  Vigilant Sentry Tower:
+    name: Vigilant Sentry Tower
+  Wakeful Sentry Tower:
+    name: Wakeful Sentry Tower

@@ -2,6 +2,8 @@ items:
   Signal Distortion Amplifier I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Signal Distortion Amplifier I Blueprint
   Signal Distortion Amplifier II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Signal Distortion Amplifier II Blueprint

@@ -1,21 +1,41 @@
 items:
-  Collision: {}
-  Falling Vapor: {}
-  Large_Atmo_Cloud_01: {}
-  Left_Balcony_Mist_01_Min: {}
-  Left_Walkway_Steam_01: {}
-  Left_Walkway_Steam_02: {}
-  Left_Walkway_Steam_03: {}
-  Noise: {}
-  Pod_Smoke_01: {}
-  Pressure Steam: {}
-  PressureSteam02: {}
-  Right_Balcony_Mist_01_Min: {}
-  Right_Walkway_Steam_01: {}
-  Right_Walkway_Steam_02: {}
-  Right_Walkway_Steam_03: {}
-  Smoke_Atlas: {}
-  Soft Myst: {}
-  Sparks: {}
-  Test Steam: {}
-  Vapor: {}
+  Collision:
+    name: Collision
+  Falling Vapor:
+    name: Falling Vapor
+  Large_Atmo_Cloud_01:
+    name: Large_Atmo_Cloud_01
+  Left_Balcony_Mist_01_Min:
+    name: Left_Balcony_Mist_01_Min
+  Left_Walkway_Steam_01:
+    name: Left_Walkway_Steam_01
+  Left_Walkway_Steam_02:
+    name: Left_Walkway_Steam_02
+  Left_Walkway_Steam_03:
+    name: Left_Walkway_Steam_03
+  Noise:
+    name: Noise
+  Pod_Smoke_01:
+    name: Pod_Smoke_01
+  Pressure Steam:
+    name: Pressure Steam
+  PressureSteam02:
+    name: PressureSteam02
+  Right_Balcony_Mist_01_Min:
+    name: Right_Balcony_Mist_01_Min
+  Right_Walkway_Steam_01:
+    name: Right_Walkway_Steam_01
+  Right_Walkway_Steam_02:
+    name: Right_Walkway_Steam_02
+  Right_Walkway_Steam_03:
+    name: Right_Walkway_Steam_03
+  Smoke_Atlas:
+    name: Smoke_Atlas
+  Soft Myst:
+    name: Soft Myst
+  Sparks:
+    name: Sparks
+  Test Steam:
+    name: Test Steam
+  Vapor:
+    name: Vapor

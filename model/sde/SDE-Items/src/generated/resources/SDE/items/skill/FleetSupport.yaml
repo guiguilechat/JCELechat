@@ -6,6 +6,7 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    name: Armored Command
   Armored Command Specialist:
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
@@ -15,6 +16,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    name: Armored Command Specialist
   Command Burst Specialist:
     PrimaryAttribute: 164
     ReloadTimeBonus: -10
@@ -22,6 +24,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
+    name: Command Burst Specialist
   Fleet Command:
     AreaOfEffectBonus: 5
     CanNotBeTrainedOnTrial: 1
@@ -30,6 +33,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
+    name: Fleet Command
   Information Command:
     DurationBonus: 10
     PrimaryAttribute: 164
@@ -37,6 +41,7 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    name: Information Command
   Information Command Specialist:
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
@@ -46,11 +51,13 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    name: Information Command Specialist
   Leadership:
     AreaOfEffectBonus: 7
     PrimaryAttribute: 164
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    name: Leadership
   Mining Director:
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
@@ -60,6 +67,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    name: Mining Director
   Mining Foreman:
     DurationBonus: 10
     PrimaryAttribute: 164
@@ -67,6 +75,7 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    name: Mining Foreman
   Shield Command:
     DurationBonus: 10
     PrimaryAttribute: 164
@@ -74,6 +83,7 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    name: Shield Command
   Shield Command Specialist:
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
@@ -83,6 +93,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    name: Shield Command Specialist
   Skirmish Command:
     DurationBonus: 10
     PrimaryAttribute: 164
@@ -90,6 +101,7 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    name: Skirmish Command
   Skirmish Command Specialist:
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
@@ -99,6 +111,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    name: Skirmish Command Specialist
   Spatial Phenomena Generation:
     CanNotBeTrainedOnTrial: 1
     DurationBonus: 10
@@ -109,6 +122,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
+    name: Spatial Phenomena Generation
   Wing Command:
     AreaOfEffectBonus: 6
     CanNotBeTrainedOnTrial: 1
@@ -117,3 +131,4 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    name: Wing Command

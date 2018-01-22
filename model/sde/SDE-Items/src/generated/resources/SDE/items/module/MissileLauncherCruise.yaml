@@ -19,6 +19,7 @@ items:
     Speed: 16545
     TechLevel: 1
     TypeColorScheme: 20113
+    name: '''Arbalest'' Cruise Launcher I'
   '''Limos'' Cruise Launcher I':
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -39,6 +40,7 @@ items:
     Speed: 18610
     TechLevel: 1
     TypeColorScheme: 20115
+    name: '''Limos'' Cruise Launcher I'
   '''Malkuth'' Cruise Launcher I':
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -59,6 +61,7 @@ items:
     Speed: 19645
     TechLevel: 1
     TypeColorScheme: 20123
+    name: '''Malkuth'' Cruise Launcher I'
   '''Noose'' Cruise Missile Launcher':
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -80,6 +83,7 @@ items:
     Speed: 18610
     TechLevel: 1
     TypeColorScheme: 20117
+    name: '''Noose'' Cruise Missile Launcher'
   CONCORD Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -100,6 +104,7 @@ items:
     Speed: 14475
     TechLevel: 1
     TypeColorScheme: 20111
+    name: CONCORD Cruise Missile Launcher
   Caldari Navy Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -121,6 +126,7 @@ items:
     Speed: 14475
     TechLevel: 1
     TypeColorScheme: 11321
+    name: Caldari Navy Cruise Missile Launcher
   Cruise Missile Launcher I:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -140,6 +146,7 @@ items:
     Speed: 20680
     TechLevel: 1
     TypeColorScheme: 11324
+    name: Cruise Missile Launcher I
   Cruise Missile Launcher II:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -161,6 +168,7 @@ items:
     Speed: 16540
     TechLevel: 2
     TypeColorScheme: 11325
+    name: Cruise Missile Launcher II
   Domination Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -182,6 +190,7 @@ items:
     Speed: 16030
     TechLevel: 1
     TypeColorScheme: 11318
+    name: Domination Cruise Missile Launcher
   Dread Guristas Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -203,6 +212,7 @@ items:
     Speed: 14475
     TechLevel: 1
     TypeColorScheme: 11335
+    name: Dread Guristas Cruise Missile Launcher
   Estamel's Modified Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -224,6 +234,7 @@ items:
     Speed: 11580
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Estamel's Modified Cruise Missile Launcher
   Gotan's Modified Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -245,6 +256,7 @@ items:
     Speed: 14060
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Gotan's Modified Cruise Missile Launcher
   Hakim's Modified Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -266,6 +278,7 @@ items:
     Speed: 14890
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Hakim's Modified Cruise Missile Launcher
   Kaikka's Modified Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -287,6 +300,7 @@ items:
     Speed: 13750
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Kaikka's Modified Cruise Missile Launcher
   Mizuro's Modified Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -308,6 +322,7 @@ items:
     Speed: 15720
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Mizuro's Modified Cruise Missile Launcher
   Republic Fleet Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -329,6 +344,7 @@ items:
     Speed: 16030
     TechLevel: 1
     TypeColorScheme: 11339
+    name: Republic Fleet Cruise Missile Launcher
   Shaqil's Modified Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -349,6 +365,7 @@ items:
     Speed: 13235
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Shaqil's Modified Cruise Missile Launcher
   Thon's Modified Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -370,6 +387,7 @@ items:
     Speed: 13025
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Thon's Modified Cruise Missile Launcher
   Tobias' Modified Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -391,6 +409,7 @@ items:
     Speed: 13235
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Tobias' Modified Cruise Missile Launcher
   True Sansha Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -412,6 +431,7 @@ items:
     Speed: 16030
     TechLevel: 1
     TypeColorScheme: 11349
+    name: True Sansha Cruise Missile Launcher
   Vepas' Modified Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -433,6 +453,7 @@ items:
     Speed: 12300
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Vepas' Modified Cruise Missile Launcher
   XT-9000 Cruise Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -453,3 +474,4 @@ items:
     Speed: 17580
     TechLevel: 1
     TypeColorScheme: 20116
+    name: XT-9000 Cruise Launcher

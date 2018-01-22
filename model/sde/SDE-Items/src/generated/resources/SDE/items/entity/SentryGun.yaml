@@ -1,7 +1,13 @@
 items:
-  Amarr Sentry Gun: {}
-  Caldari Sentry Gun I: {}
-  Caldari Sentry Gun II: {}
-  Caldari Sentry Gun III: {}
-  Gallente Sentry Gun: {}
-  Minmatar Sentry Gun: {}
+  Amarr Sentry Gun:
+    name: Amarr Sentry Gun
+  Caldari Sentry Gun I:
+    name: Caldari Sentry Gun I
+  Caldari Sentry Gun II:
+    name: Caldari Sentry Gun II
+  Caldari Sentry Gun III:
+    name: Caldari Sentry Gun III
+  Gallente Sentry Gun:
+    name: Gallente Sentry Gun
+  Minmatar Sentry Gun:
+    name: Minmatar Sentry Gun

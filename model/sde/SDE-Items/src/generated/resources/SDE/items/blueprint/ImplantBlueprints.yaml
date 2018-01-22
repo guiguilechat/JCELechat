@@ -2,39 +2,52 @@ items:
   High-grade Ascendancy Alpha Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 2
+    name: High-grade Ascendancy Alpha Blueprint
   High-grade Ascendancy Beta Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 2
+    name: High-grade Ascendancy Beta Blueprint
   High-grade Ascendancy Delta Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 2
+    name: High-grade Ascendancy Delta Blueprint
   High-grade Ascendancy Epsilon Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 2
+    name: High-grade Ascendancy Epsilon Blueprint
   High-grade Ascendancy Gamma Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 2
+    name: High-grade Ascendancy Gamma Blueprint
   High-grade Ascendancy Omega Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 2
+    name: High-grade Ascendancy Omega Blueprint
   Mid-grade Ascendancy Alpha Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 2
+    name: Mid-grade Ascendancy Alpha Blueprint
   Mid-grade Ascendancy Beta Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 2
+    name: Mid-grade Ascendancy Beta Blueprint
   Mid-grade Ascendancy Delta Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 2
+    name: Mid-grade Ascendancy Delta Blueprint
   Mid-grade Ascendancy Epsilon Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 2
+    name: Mid-grade Ascendancy Epsilon Blueprint
   Mid-grade Ascendancy Gamma Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 2
+    name: Mid-grade Ascendancy Gamma Blueprint
   Mid-grade Ascendancy Omega Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 2
+    name: Mid-grade Ascendancy Omega Blueprint
   Talisman Alpha Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    name: Talisman Alpha Blueprint

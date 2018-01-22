@@ -10,6 +10,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    name: Able_PLACEHOLDER
   Cenobite I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -46,6 +47,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    name: Cenobite I
   Cenobite II:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -83,6 +85,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    name: Cenobite II
   Dromi I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -119,6 +122,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    name: Dromi I
   Dromi II:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -156,6 +160,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    name: Dromi II
   Scarab I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -195,6 +200,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    name: Scarab I
   Scarab II:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -235,6 +241,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    name: Scarab II
   Siren I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -270,6 +277,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    name: Siren I
   Siren II:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -306,6 +314,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    name: Siren II
   Standup Siren I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -341,3 +350,4 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    name: Standup Siren I

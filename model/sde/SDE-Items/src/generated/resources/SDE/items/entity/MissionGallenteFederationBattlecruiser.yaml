@@ -1,9 +1,17 @@
 items:
-  Federation Calo: {}
-  Federation Pezos: {}
-  Federation Praeco: {}
-  Federation Praktor Arx: {}
-  Federation Praktor Auxilia: {}
-  Federation Praktor Bearcus: {}
-  Federation Praktor Diablic: {}
-  Federation Praktor Erenus: {}
+  Federation Calo:
+    name: Federation Calo
+  Federation Pezos:
+    name: Federation Pezos
+  Federation Praeco:
+    name: Federation Praeco
+  Federation Praktor Arx:
+    name: Federation Praktor Arx
+  Federation Praktor Auxilia:
+    name: Federation Praktor Auxilia
+  Federation Praktor Bearcus:
+    name: Federation Praktor Bearcus
+  Federation Praktor Diablic:
+    name: Federation Praktor Diablic
+  Federation Praktor Erenus:
+    name: Federation Praktor Erenus

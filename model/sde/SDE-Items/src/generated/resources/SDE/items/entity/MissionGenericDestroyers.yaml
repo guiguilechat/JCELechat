@@ -1,5 +1,9 @@
 items:
-  Angel Resilient Destroyer: {}
-  Blood Resilient Destroyer: {}
-  Guristas Resilient Destroyer: {}
-  Serpentis Resilient Destroyer: {}
+  Angel Resilient Destroyer:
+    name: Angel Resilient Destroyer
+  Blood Resilient Destroyer:
+    name: Blood Resilient Destroyer
+  Guristas Resilient Destroyer:
+    name: Guristas Resilient Destroyer
+  Serpentis Resilient Destroyer:
+    name: Serpentis Resilient Destroyer

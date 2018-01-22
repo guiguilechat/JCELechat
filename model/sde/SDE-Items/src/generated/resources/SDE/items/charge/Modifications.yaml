@@ -10,6 +10,7 @@ items:
     RequiredSkill2: 3432
     SkillLevel: 1
     TechLevel: 5
+    name: '''Dart'' Servitor'
   '''Longbow'' Servitor':
     ChargeSize: 1
     Hp: 1
@@ -20,6 +21,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     TurretSpeeBonus: -50
+    name: '''Longbow'' Servitor'
   '''Phase'' Servitor':
     ChargeSize: 1
     Hp: 1
@@ -28,6 +30,7 @@ items:
     RequiredSkill1: 19430
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: '''Phase'' Servitor'
   Independent Shielding:
     ChargeSize: 1
     HardeningBonus: 0.5
@@ -38,6 +41,7 @@ items:
     RequiredSkill1Level: 1
     RequiredSkill2: 3432
     TechLevel: 5
+    name: Independent Shielding
   Regular Mercenary Navigator:
     CapacitorBonus: -50
     ChargeSize: 1
@@ -49,6 +53,7 @@ items:
     SpeedBonus: 50
     TechLevel: 1
     TurretSpeeBonus: 50
+    name: Regular Mercenary Navigator
   Regular Mercenary Scout:
     CapacitorBonus: 50
     ChargeSize: 1
@@ -60,3 +65,4 @@ items:
     SpeedBonus: -75
     TechLevel: 1
     TurretSpeeBonus: -75
+    name: Regular Mercenary Scout

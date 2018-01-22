@@ -1,11 +1,21 @@
 items:
-  Dark Blood Apostle: {}
-  Dark Blood Archbishop: {}
-  Dark Blood Archon: {}
-  Dark Blood Cardinal: {}
-  Dark Blood Harbinger: {}
-  Dark Blood Monsignor: {}
-  Dark Blood Oracle: {}
-  Dark Blood Patriarch: {}
-  Dark Blood Pope: {}
-  Dark Blood Prophet: {}
+  Dark Blood Apostle:
+    name: Dark Blood Apostle
+  Dark Blood Archbishop:
+    name: Dark Blood Archbishop
+  Dark Blood Archon:
+    name: Dark Blood Archon
+  Dark Blood Cardinal:
+    name: Dark Blood Cardinal
+  Dark Blood Harbinger:
+    name: Dark Blood Harbinger
+  Dark Blood Monsignor:
+    name: Dark Blood Monsignor
+  Dark Blood Oracle:
+    name: Dark Blood Oracle
+  Dark Blood Patriarch:
+    name: Dark Blood Patriarch
+  Dark Blood Pope:
+    name: Dark Blood Pope
+  Dark Blood Prophet:
+    name: Dark Blood Prophet

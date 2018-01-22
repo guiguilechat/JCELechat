@@ -9,6 +9,7 @@ items:
     RequiredSkill1Level: 5
     SignatureRadiusBonus: -160.0
     TechLevel: 1
+    name: Huge Active Stealth System I
   Large Active Stealth System I:
     CapacitorNeed: 400.0
     Duration: 24000.0
@@ -19,6 +20,7 @@ items:
     RequiredSkill1Level: 4
     SignatureRadiusBonus: -80.0
     TechLevel: 1
+    name: Large Active Stealth System I
   Medium Active Stealth System I:
     CapacitorNeed: 200.0
     Duration: 24000.0
@@ -29,6 +31,7 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -40.0
     TechLevel: 1
+    name: Medium Active Stealth System I
   Small Active Stealth System I:
     CapacitorNeed: 100.0
     Duration: 24000.0
@@ -39,6 +42,7 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -20.0
     TechLevel: 1
+    name: Small Active Stealth System I
   Smugglers Mask I:
     CapacitorNeed: 100.0
     ContrabandDetectionChanceBonus: 0.25
@@ -52,6 +56,7 @@ items:
     RequiredSkill2Level: 3
     SignatureRadiusBonus: -20.0
     TechLevel: 1
+    name: Smugglers Mask I
   Stealth System I:
     CapacitorNeed: 40.0
     Duration: 12000.0
@@ -62,3 +67,4 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonusPercent: -20
     TechLevel: 1
+    name: Stealth System I

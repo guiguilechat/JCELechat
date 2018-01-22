@@ -1,7 +1,10 @@
 items:
   Intact Electromechanical Component:
     IndustryBlueprintRank: 2.0
+    name: Intact Electromechanical Component
   Malfunctioning Electromechanical Component:
     IndustryBlueprintRank: 2.0
+    name: Malfunctioning Electromechanical Component
   Wrecked Electromechanical Component:
     IndustryBlueprintRank: 2.0
+    name: Wrecked Electromechanical Component

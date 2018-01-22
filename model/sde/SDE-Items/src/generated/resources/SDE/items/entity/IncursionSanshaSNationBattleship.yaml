@@ -1,11 +1,21 @@
 items:
-  Citizen Astur: {}
-  Deltole Tegmentum: {}
-  Intaki Colliculus: {}
-  Ostingele Tectum: {}
-  Outuni Mesen: {}
-  Slave 32152: {}
-  Slave Endoma01: {}
-  Slave Heavenbound02: {}
-  Slave Tama01: {}
-  Yulai Crus Cerebi: {}
+  Citizen Astur:
+    name: Citizen Astur
+  Deltole Tegmentum:
+    name: Deltole Tegmentum
+  Intaki Colliculus:
+    name: Intaki Colliculus
+  Ostingele Tectum:
+    name: Ostingele Tectum
+  Outuni Mesen:
+    name: Outuni Mesen
+  Slave 32152:
+    name: Slave 32152
+  Slave Endoma01:
+    name: Slave Endoma01
+  Slave Heavenbound02:
+    name: Slave Heavenbound02
+  Slave Tama01:
+    name: Slave Tama01
+  Yulai Crus Cerebi:
+    name: Yulai Crus Cerebi

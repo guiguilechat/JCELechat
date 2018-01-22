@@ -1,4 +1,7 @@
 items:
-  Awakened Defender: {}
-  Awakened Preserver: {}
-  Awakened Upholder: {}
+  Awakened Defender:
+    name: Awakened Defender
+  Awakened Preserver:
+    name: Awakened Preserver
+  Awakened Upholder:
+    name: Awakened Upholder

@@ -1,15 +1,29 @@
 items:
-  Angel Rookie: {}
-  Belter Hoodlum: {}
-  Blood Raider Rookie: {}
-  CloneJacker Punk: {}
-  Clonejacker Punk: {}
-  Damaged Vessel: {}
-  Guristas Rookie: {}
-  Insurance Teaching Drone: {}
-  Mercenary Trainee: {}
-  Narco Pusher: {}
-  Rebel Leader: {}
-  Runner Drone: {}
-  Serpentis Rookie: {}
-  Webber Drone: {}
+  Angel Rookie:
+    name: Angel Rookie
+  Belter Hoodlum:
+    name: Belter Hoodlum
+  Blood Raider Rookie:
+    name: Blood Raider Rookie
+  CloneJacker Punk:
+    name: CloneJacker Punk
+  Clonejacker Punk:
+    name: Clonejacker Punk
+  Damaged Vessel:
+    name: Damaged Vessel
+  Guristas Rookie:
+    name: Guristas Rookie
+  Insurance Teaching Drone:
+    name: Insurance Teaching Drone
+  Mercenary Trainee:
+    name: Mercenary Trainee
+  Narco Pusher:
+    name: Narco Pusher
+  Rebel Leader:
+    name: Rebel Leader
+  Runner Drone:
+    name: Runner Drone
+  Serpentis Rookie:
+    name: Serpentis Rookie
+  Webber Drone:
+    name: Webber Drone

@@ -19,6 +19,7 @@ items:
     Speed: 27093
     TechLevel: 1
     TypeColorScheme: 11324
+    name: Arbalest Compact Rapid Torpedo Launcher
   Dread Guristas Rapid Torpedo Launcher:
     ChargeGroup1: 89
     ChargeGroup2: 657
@@ -41,6 +42,7 @@ items:
     Speed: 24738
     TechLevel: 1
     TypeColorScheme: 11324
+    name: Dread Guristas Rapid Torpedo Launcher
   Rapid Torpedo Launcher I:
     ChargeGroup1: 89
     ChargeRate: 1
@@ -60,6 +62,7 @@ items:
     Speed: 28450
     TechLevel: 1
     TypeColorScheme: 11324
+    name: Rapid Torpedo Launcher I
   Rapid Torpedo Launcher II:
     ChargeGroup1: 89
     ChargeGroup2: 657
@@ -83,6 +86,7 @@ items:
     Speed: 25861
     TechLevel: 2
     TypeColorScheme: 11324
+    name: Rapid Torpedo Launcher II
   TE-2100 Ample Rapid Torpedo Launcher:
     ChargeGroup1: 89
     ChargeRate: 1
@@ -103,3 +107,4 @@ items:
     Speed: 27093
     TechLevel: 1
     TypeColorScheme: 11324
+    name: TE-2100 Ample Rapid Torpedo Launcher

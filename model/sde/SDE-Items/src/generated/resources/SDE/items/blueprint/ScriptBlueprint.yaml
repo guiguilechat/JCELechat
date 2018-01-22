@@ -1,51 +1,84 @@
 items:
-  Armor EM Resistance Script Blueprint: {}
-  Armor Explosive Resistance Script Blueprint: {}
-  Armor Kinetic Resistance Script Blueprint: {}
-  Armor Thermal Resistance Script Blueprint: {}
-  ECCM Script Blueprint: {}
+  Armor EM Resistance Script Blueprint:
+    name: Armor EM Resistance Script Blueprint
+  Armor Explosive Resistance Script Blueprint:
+    name: Armor Explosive Resistance Script Blueprint
+  Armor Kinetic Resistance Script Blueprint:
+    name: Armor Kinetic Resistance Script Blueprint
+  Armor Thermal Resistance Script Blueprint:
+    name: Armor Thermal Resistance Script Blueprint
+  ECCM Script Blueprint:
+    name: ECCM Script Blueprint
   Focused Warp Disruption Script Blueprint:
     IndustryBlueprintRank: 1.0
-  Focused Warp Scrambling Script Blueprint: {}
-  Missile Precision Disruption Script Blueprint: {}
+    name: Focused Warp Disruption Script Blueprint
+  Focused Warp Scrambling Script Blueprint:
+    name: Focused Warp Scrambling Script Blueprint
+  Missile Precision Disruption Script Blueprint:
+    name: Missile Precision Disruption Script Blueprint
   Missile Precision Script Blueprint:
     IndustryBlueprintRank: 1.0
-  Missile Range Disruption Script Blueprint: {}
+    name: Missile Precision Script Blueprint
+  Missile Range Disruption Script Blueprint:
+    name: Missile Range Disruption Script Blueprint
   Missile Range Script Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Missile Range Script Blueprint
   Nanite Repair Paste Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Nanite Repair Paste Blueprint
   Optimal Range Disruption Script Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Optimal Range Disruption Script Blueprint
   Optimal Range Script Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Optimal Range Script Blueprint
   Scan Resolution Dampening Script Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Scan Resolution Dampening Script Blueprint
   Scan Resolution Script Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Scan Resolution Script Blueprint
   Shield Booster Fuel Allocation Script Blueprint:
     IndustryBlueprintRank: 1.0
-  Shield EM Resistance Script Blueprint: {}
-  Shield Explosive Resistance Script Blueprint: {}
-  Shield Kinetic Resistance Script Blueprint: {}
-  Shield Thermal Resistance Script Blueprint: {}
+    name: Shield Booster Fuel Allocation Script Blueprint
+  Shield EM Resistance Script Blueprint:
+    name: Shield EM Resistance Script Blueprint
+  Shield Explosive Resistance Script Blueprint:
+    name: Shield Explosive Resistance Script Blueprint
+  Shield Kinetic Resistance Script Blueprint:
+    name: Shield Kinetic Resistance Script Blueprint
+  Shield Thermal Resistance Script Blueprint:
+    name: Shield Thermal Resistance Script Blueprint
   Standup Gravimetric ECM Script Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Gravimetric ECM Script Blueprint
   Standup Ladar ECM Script Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Ladar ECM Script Blueprint
   Standup Magnetometric ECM Script Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Magnetometric ECM Script Blueprint
   Standup Radar ECM Script Blueprint:
     StructureItemVisualFlag: 1
-  Structure EM Hardener Script Blueprint: {}
-  Structure Explosive Hardener Script Blueprint: {}
-  Structure Kinetic Resistance Script Blueprint: {}
-  Structure Thermal Resistance Script Blueprint: {}
+    name: Standup Radar ECM Script Blueprint
+  Structure EM Hardener Script Blueprint:
+    name: Structure EM Hardener Script Blueprint
+  Structure Explosive Hardener Script Blueprint:
+    name: Structure Explosive Hardener Script Blueprint
+  Structure Kinetic Resistance Script Blueprint:
+    name: Structure Kinetic Resistance Script Blueprint
+  Structure Thermal Resistance Script Blueprint:
+    name: Structure Thermal Resistance Script Blueprint
   Targeting Range Dampening Script Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Targeting Range Dampening Script Blueprint
   Targeting Range Script Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Targeting Range Script Blueprint
   Tracking Speed Disruption Script Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Tracking Speed Disruption Script Blueprint
   Tracking Speed Script Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Tracking Speed Script Blueprint

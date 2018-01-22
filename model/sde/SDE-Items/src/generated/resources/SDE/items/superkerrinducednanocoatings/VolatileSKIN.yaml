@@ -1,17 +1,33 @@
 items:
-  Apocalypse War Reserves Lieutenant SKIN (Volatile): {}
-  Brutix Strategic Materiel Defender SKIN (Volatile): {}
-  Caracal Military Stockpile Captain SKIN (Volatile): {}
-  Drake Military Stockpile Captain SKIN (Volatile): {}
-  Harbinger War Reserves Lieutenant SKIN (Volatile): {}
-  Hurricane Fleet Ordnance Spike SKIN (Volatile): {}
-  Incursus Strategic Materiel Defender SKIN (Volatile): {}
-  Megathron Strategic Materiel Defender SKIN (Volatile): {}
-  Merlin Military Stockpile Captain SKIN (Volatile): {}
-  Omen War Reserves Lieutenant SKIN (Volatile): {}
-  Punisher War Reserves Lieutenant SKIN (Volatile): {}
-  Raven Military Stockpile Captain SKIN (Volatile): {}
-  Rifter Fleet Ordnance Spike SKIN (Volatile): {}
-  Rupture Fleet Ordnance Spike SKIN (Volatile): {}
-  Tempest Fleet Ordnance Spike SKIN (Volatile): {}
-  Thorax Strategic Materiel Defender SKIN (Volatile): {}
+  Apocalypse War Reserves Lieutenant SKIN (Volatile):
+    name: Apocalypse War Reserves Lieutenant SKIN (Volatile)
+  Brutix Strategic Materiel Defender SKIN (Volatile):
+    name: Brutix Strategic Materiel Defender SKIN (Volatile)
+  Caracal Military Stockpile Captain SKIN (Volatile):
+    name: Caracal Military Stockpile Captain SKIN (Volatile)
+  Drake Military Stockpile Captain SKIN (Volatile):
+    name: Drake Military Stockpile Captain SKIN (Volatile)
+  Harbinger War Reserves Lieutenant SKIN (Volatile):
+    name: Harbinger War Reserves Lieutenant SKIN (Volatile)
+  Hurricane Fleet Ordnance Spike SKIN (Volatile):
+    name: Hurricane Fleet Ordnance Spike SKIN (Volatile)
+  Incursus Strategic Materiel Defender SKIN (Volatile):
+    name: Incursus Strategic Materiel Defender SKIN (Volatile)
+  Megathron Strategic Materiel Defender SKIN (Volatile):
+    name: Megathron Strategic Materiel Defender SKIN (Volatile)
+  Merlin Military Stockpile Captain SKIN (Volatile):
+    name: Merlin Military Stockpile Captain SKIN (Volatile)
+  Omen War Reserves Lieutenant SKIN (Volatile):
+    name: Omen War Reserves Lieutenant SKIN (Volatile)
+  Punisher War Reserves Lieutenant SKIN (Volatile):
+    name: Punisher War Reserves Lieutenant SKIN (Volatile)
+  Raven Military Stockpile Captain SKIN (Volatile):
+    name: Raven Military Stockpile Captain SKIN (Volatile)
+  Rifter Fleet Ordnance Spike SKIN (Volatile):
+    name: Rifter Fleet Ordnance Spike SKIN (Volatile)
+  Rupture Fleet Ordnance Spike SKIN (Volatile):
+    name: Rupture Fleet Ordnance Spike SKIN (Volatile)
+  Tempest Fleet Ordnance Spike SKIN (Volatile):
+    name: Tempest Fleet Ordnance Spike SKIN (Volatile)
+  Thorax Strategic Materiel Defender SKIN (Volatile):
+    name: Thorax Strategic Materiel Defender SKIN (Volatile)

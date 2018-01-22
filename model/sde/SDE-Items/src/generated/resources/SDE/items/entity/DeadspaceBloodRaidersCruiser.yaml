@@ -1,37 +1,73 @@
 items:
-  Blood Phantom - Ectoplasm: {}
-  Blood Raider Personnel Transport: {}
-  Blood Raider Slave Transport Ship: {}
-  Blood Raider Transport Ship: {}
-  Corpum Arch Engraver: {}
-  Corpum Arch Priest: {}
-  Corpum Arch Reaver: {}
-  Corpum Arch Sage: {}
-  Corpum Arch Templar: {}
-  Corpum Dark Priest: {}
-  Corpum Priest: {}
-  Corpum Revenant: {}
-  Corpum Sage: {}
-  Corpum Shadow Sage: {}
-  Dark Corpum Arch Engraver: {}
-  Dark Corpum Arch Priest: {}
-  Dark Corpum Arch Reaver: {}
-  Dark Corpum Arch Sage: {}
-  Dark Corpum Arch Templar: {}
-  Dark Corpum Dark Priest: {}
-  Dark Corpum Priest: {}
-  Dark Corpum Revenant: {}
-  Dark Corpum Sage: {}
-  Dark Corpum Shadow Sage: {}
-  Elder Corpum Arch Engraver: {}
-  Elder Corpum Arch Priest: {}
-  Elder Corpum Arch Reaver: {}
-  Elder Corpum Arch Sage: {}
-  Elder Corpum Arch Templar: {}
-  Elder Corpum Dark Priest: {}
-  Elder Corpum Priest: {}
-  Elder Corpum Revenant: {}
-  Elder Corpum Sage: {}
-  Elder Corpum Shadow Sage: {}
-  Gurista Guerilla Special Acquirement Division Captain: {}
-  Renegade Blood Raider: {}
+  Blood Phantom - Ectoplasm:
+    name: Blood Phantom - Ectoplasm
+  Blood Raider Personnel Transport:
+    name: Blood Raider Personnel Transport
+  Blood Raider Slave Transport Ship:
+    name: Blood Raider Slave Transport Ship
+  Blood Raider Transport Ship:
+    name: Blood Raider Transport Ship
+  Corpum Arch Engraver:
+    name: Corpum Arch Engraver
+  Corpum Arch Priest:
+    name: Corpum Arch Priest
+  Corpum Arch Reaver:
+    name: Corpum Arch Reaver
+  Corpum Arch Sage:
+    name: Corpum Arch Sage
+  Corpum Arch Templar:
+    name: Corpum Arch Templar
+  Corpum Dark Priest:
+    name: Corpum Dark Priest
+  Corpum Priest:
+    name: Corpum Priest
+  Corpum Revenant:
+    name: Corpum Revenant
+  Corpum Sage:
+    name: Corpum Sage
+  Corpum Shadow Sage:
+    name: Corpum Shadow Sage
+  Dark Corpum Arch Engraver:
+    name: Dark Corpum Arch Engraver
+  Dark Corpum Arch Priest:
+    name: Dark Corpum Arch Priest
+  Dark Corpum Arch Reaver:
+    name: Dark Corpum Arch Reaver
+  Dark Corpum Arch Sage:
+    name: Dark Corpum Arch Sage
+  Dark Corpum Arch Templar:
+    name: Dark Corpum Arch Templar
+  Dark Corpum Dark Priest:
+    name: Dark Corpum Dark Priest
+  Dark Corpum Priest:
+    name: Dark Corpum Priest
+  Dark Corpum Revenant:
+    name: Dark Corpum Revenant
+  Dark Corpum Sage:
+    name: Dark Corpum Sage
+  Dark Corpum Shadow Sage:
+    name: Dark Corpum Shadow Sage
+  Elder Corpum Arch Engraver:
+    name: Elder Corpum Arch Engraver
+  Elder Corpum Arch Priest:
+    name: Elder Corpum Arch Priest
+  Elder Corpum Arch Reaver:
+    name: Elder Corpum Arch Reaver
+  Elder Corpum Arch Sage:
+    name: Elder Corpum Arch Sage
+  Elder Corpum Arch Templar:
+    name: Elder Corpum Arch Templar
+  Elder Corpum Dark Priest:
+    name: Elder Corpum Dark Priest
+  Elder Corpum Priest:
+    name: Elder Corpum Priest
+  Elder Corpum Revenant:
+    name: Elder Corpum Revenant
+  Elder Corpum Sage:
+    name: Elder Corpum Sage
+  Elder Corpum Shadow Sage:
+    name: Elder Corpum Shadow Sage
+  Gurista Guerilla Special Acquirement Division Captain:
+    name: Gurista Guerilla Special Acquirement Division Captain
+  Renegade Blood Raider:
+    name: Renegade Blood Raider

@@ -17,6 +17,7 @@ items:
     StructureItemVisualFlag: 1
     StructureUniformity: 0.75
     ThermalDamage: 600.0
+    name: Standup ASML-LD Missile
   Standup ASML-MD Missile:
     Agility: 1000.0
     AimedLaunch: 1
@@ -35,6 +36,7 @@ items:
     StructureItemVisualFlag: 1
     StructureUniformity: 0.75
     ThermalDamage: 300.0
+    name: Standup ASML-MD Missile
   Standup ASML-SD Missile:
     Agility: 1000.0
     AimedLaunch: 1
@@ -53,3 +55,4 @@ items:
     StructureItemVisualFlag: 1
     StructureUniformity: 0.75
     ThermalDamage: 100.0
+    name: Standup ASML-SD Missile

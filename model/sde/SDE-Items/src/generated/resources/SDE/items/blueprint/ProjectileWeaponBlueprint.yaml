@@ -2,197 +2,262 @@ items:
   1200mm Artillery Cannon I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: 1200mm Artillery Cannon I Blueprint
   1200mm Artillery Cannon II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: 1200mm Artillery Cannon II Blueprint
   1200mm Heavy 'Jolt' Artillery I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: 1200mm Heavy 'Jolt' Artillery I Blueprint
   125mm Gatling AutoCannon I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: 125mm Gatling AutoCannon I Blueprint
   125mm Gatling AutoCannon II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: 125mm Gatling AutoCannon II Blueprint
   1400mm 'Jolt' Artillery I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: 1400mm 'Jolt' Artillery I Blueprint
   1400mm Howitzer Artillery I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: 1400mm Howitzer Artillery I Blueprint
   1400mm Howitzer Artillery II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: 1400mm Howitzer Artillery II Blueprint
   150mm Light AutoCannon I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: 150mm Light AutoCannon I Blueprint
   150mm Light AutoCannon II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: 150mm Light AutoCannon II Blueprint
   200mm AutoCannon I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: 200mm AutoCannon I Blueprint
   200mm AutoCannon II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: 200mm AutoCannon II Blueprint
   200mm Light 'Jolt' Autocannon I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: 200mm Light 'Jolt' Autocannon I Blueprint
   220mm Vulcan AutoCannon I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: 220mm Vulcan AutoCannon I Blueprint
   220mm Vulcan AutoCannon II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: 220mm Vulcan AutoCannon II Blueprint
   250mm Light 'Jolt' Artillery I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: 250mm Light 'Jolt' Artillery I Blueprint
   250mm Light Artillery Cannon I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: 250mm Light Artillery Cannon I Blueprint
   250mm Light Artillery Cannon II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: 250mm Light Artillery Cannon II Blueprint
   280mm 'Jolt' Artillery I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: 280mm 'Jolt' Artillery I Blueprint
   280mm Howitzer Artillery I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: 280mm Howitzer Artillery I Blueprint
   280mm Howitzer Artillery II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: 280mm Howitzer Artillery II Blueprint
   425mm AutoCannon I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: 425mm AutoCannon I Blueprint
   425mm AutoCannon II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: 425mm AutoCannon II Blueprint
   425mm Medium 'Jolt' Autocannon I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: 425mm Medium 'Jolt' Autocannon I Blueprint
   650mm Artillery Cannon I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: 650mm Artillery Cannon I Blueprint
   650mm Artillery Cannon II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: 650mm Artillery Cannon II Blueprint
   650mm Medium 'Jolt' Artillery I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: 650mm Medium 'Jolt' Artillery I Blueprint
   720mm 'Jolt' Artillery I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: 720mm 'Jolt' Artillery I Blueprint
   720mm Howitzer Artillery I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: 720mm Howitzer Artillery I Blueprint
   720mm Howitzer Artillery II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: 720mm Howitzer Artillery II Blueprint
   800mm Heavy 'Jolt' Repeating Cannon I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: 800mm Heavy 'Jolt' Repeating Cannon I Blueprint
   800mm Repeating Cannon I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: 800mm Repeating Cannon I Blueprint
   800mm Repeating Cannon II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: 800mm Repeating Cannon II Blueprint
   Ample Gallium Quad 800mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Ample Gallium Quad 800mm Repeating Cannon Blueprint
   CONCORD Hexa 2500mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: CONCORD Hexa 2500mm Repeating Cannon Blueprint
   CONCORD Quad 3500mm Siege Artillery Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: CONCORD Quad 3500mm Siege Artillery Blueprint
   Carbide Compact Quad 3500mm Siege Artillery Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Carbide Compact Quad 3500mm Siege Artillery Blueprint
   Carbine Compact Hexa 2500mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Carbine Compact Hexa 2500mm Repeating Cannon Blueprint
   Compact Carbine Quad 800mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Compact Carbine Quad 800mm Repeating Cannon Blueprint
   Domination Hexa 2500mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: Domination Hexa 2500mm Repeating Cannon Blueprint
   Domination Quad 3500mm Siege Artillery Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: Domination Quad 3500mm Siege Artillery Blueprint
   Domination Quad 800mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: Domination Quad 800mm Repeating Cannon Blueprint
   Dual 180mm AutoCannon I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Dual 180mm AutoCannon I Blueprint
   Dual 180mm AutoCannon II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Dual 180mm AutoCannon II Blueprint
   Dual 425mm AutoCannon I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Dual 425mm AutoCannon I Blueprint
   Dual 425mm AutoCannon II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Dual 425mm AutoCannon II Blueprint
   Dual 650mm Repeating Cannon I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Dual 650mm Repeating Cannon I Blueprint
   Dual 650mm Repeating Cannon II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Dual 650mm Repeating Cannon II Blueprint
   Gallium Ample Hexa 2500mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Gallium Ample Hexa 2500mm Repeating Cannon Blueprint
   Gallium Ample Quad 3500mm Siege Artillery Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Gallium Ample Quad 3500mm Siege Artillery Blueprint
   Hexa 2500mm Repeating Cannon I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: Hexa 2500mm Repeating Cannon I Blueprint
   Hexa 2500mm Repeating Cannon II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
+    name: Hexa 2500mm Repeating Cannon II Blueprint
   Polarized 200mm AutoCannon Blueprint:
     TechLevel: 2
+    name: Polarized 200mm AutoCannon Blueprint
   Polarized 425mm AutoCannon Blueprint:
     TechLevel: 2
+    name: Polarized 425mm AutoCannon Blueprint
   Polarized 800mm Repeating Cannon Blueprint:
     TechLevel: 2
+    name: Polarized 800mm Repeating Cannon Blueprint
   Prototype Precise Hexa 2500mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Prototype Precise Hexa 2500mm Repeating Cannon Blueprint
   Prototype Precise Quad 3500mm Siege Artillery Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Prototype Precise Quad 3500mm Siege Artillery Blueprint
   Prototype Precise Quad 800mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Prototype Precise Quad 800mm Repeating Cannon Blueprint
   Quad 3500mm Siege Artillery I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: Quad 3500mm Siege Artillery I Blueprint
   Quad 3500mm Siege Artillery II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
+    name: Quad 3500mm Siege Artillery II Blueprint
   Quad 800mm Repeating Cannon I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: Quad 800mm Repeating Cannon I Blueprint
   Quad 800mm Repeating Cannon II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
+    name: Quad 800mm Repeating Cannon II Blueprint
   Scout Scoped Hexa 2500mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Scout Scoped Hexa 2500mm Repeating Cannon Blueprint
   Scout Scoped Quad 3500mm Siege Artillery Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Scout Scoped Quad 3500mm Siege Artillery Blueprint
   Scout Scoped Quad 800mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Scout Scoped Quad 800mm Repeating Cannon Blueprint

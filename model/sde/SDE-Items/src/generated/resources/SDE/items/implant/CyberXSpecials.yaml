@@ -5,6 +5,7 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Imperial Special Ops Field Enhancer - Standard
   Republic Special Ops Field Enhancer - Gamma:
     Implantness: 3
     RequiredSkill1: 3411
@@ -12,3 +13,4 @@ items:
     TechLevel: 1
     VelocityBonus2: 5
     WillpowerBonus: 4
+    name: Republic Special Ops Field Enhancer - Gamma

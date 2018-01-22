@@ -1,3 +1,5 @@
 items:
-  Amarr Navy Augoror: {}
-  Amarr Navy Omen: {}
+  Amarr Navy Augoror:
+    name: Amarr Navy Augoror
+  Amarr Navy Omen:
+    name: Amarr Navy Omen

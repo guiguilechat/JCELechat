@@ -2,33 +2,44 @@ items:
   Mobile Large Jump Disruptor I Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 1
+    name: Mobile Large Jump Disruptor I Blueprint
   Mobile Large Warp Disruptor I Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 1
+    name: Mobile Large Warp Disruptor I Blueprint
   Mobile Large Warp Disruptor II Blueprint:
     IndustryBlueprintRank: 150.0
     TechLevel: 2
+    name: Mobile Large Warp Disruptor II Blueprint
   Mobile Medium Warp Disruptor I Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    name: Mobile Medium Warp Disruptor I Blueprint
   Mobile Medium Warp Disruptor II Blueprint:
     IndustryBlueprintRank: 100.0
     TechLevel: 2
+    name: Mobile Medium Warp Disruptor II Blueprint
   Mobile Small Warp Disruptor I Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 1
+    name: Mobile Small Warp Disruptor I Blueprint
   Mobile Small Warp Disruptor II Blueprint:
     IndustryBlueprintRank: 50.0
     TechLevel: 2
+    name: Mobile Small Warp Disruptor II Blueprint
   Syndicate Mobile Large Warp Disruptor Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 1
+    name: Syndicate Mobile Large Warp Disruptor Blueprint
   Syndicate Mobile Medium Warp Disruptor Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    name: Syndicate Mobile Medium Warp Disruptor Blueprint
   Syndicate Mobile Small Warp Disruptor Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 1
+    name: Syndicate Mobile Small Warp Disruptor Blueprint
   Tournament Bubble TEST Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Tournament Bubble TEST Blueprint

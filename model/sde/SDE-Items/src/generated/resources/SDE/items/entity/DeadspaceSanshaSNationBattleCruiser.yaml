@@ -1,13 +1,25 @@
 items:
-  Centatis Behemoth: {}
-  Centatis Daemon: {}
-  Centatis Devil: {}
-  Centatis Phantasm: {}
-  Centatis Specter: {}
-  Centatis Wraith: {}
-  True Centatis Behemoth: {}
-  True Centatis Daemon: {}
-  True Centatis Devil: {}
-  True Centatis Phantasm: {}
-  True Centatis Specter: {}
-  True Centatis Wraith: {}
+  Centatis Behemoth:
+    name: Centatis Behemoth
+  Centatis Daemon:
+    name: Centatis Daemon
+  Centatis Devil:
+    name: Centatis Devil
+  Centatis Phantasm:
+    name: Centatis Phantasm
+  Centatis Specter:
+    name: Centatis Specter
+  Centatis Wraith:
+    name: Centatis Wraith
+  True Centatis Behemoth:
+    name: True Centatis Behemoth
+  True Centatis Daemon:
+    name: True Centatis Daemon
+  True Centatis Devil:
+    name: True Centatis Devil
+  True Centatis Phantasm:
+    name: True Centatis Phantasm
+  True Centatis Specter:
+    name: True Centatis Specter
+  True Centatis Wraith:
+    name: True Centatis Wraith

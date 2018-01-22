@@ -8,6 +8,7 @@ items:
     Power: 50000
     PowerOutputMultiplier: 1.0
     StructureItemVisualFlag: 1
+    name: Standup Co-Processor Array I
   Standup Reactor Control Unit I:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -17,3 +18,4 @@ items:
     Hp: 40
     PowerOutputMultiplier: 1.100000023841858
     StructureItemVisualFlag: 1
+    name: Standup Reactor Control Unit I

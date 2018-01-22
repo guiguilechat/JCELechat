@@ -1,7 +1,13 @@
 items:
-  Sentient Dismantler Alvior: {}
-  Sentient Marauder Alvior: {}
-  Sentient Predator Alvior: {}
-  Sentient Ripper Alvior: {}
-  Sentient Shatter Alvior: {}
-  Sentient Shredder Alvior: {}
+  Sentient Dismantler Alvior:
+    name: Sentient Dismantler Alvior
+  Sentient Marauder Alvior:
+    name: Sentient Marauder Alvior
+  Sentient Predator Alvior:
+    name: Sentient Predator Alvior
+  Sentient Ripper Alvior:
+    name: Sentient Ripper Alvior
+  Sentient Shatter Alvior:
+    name: Sentient Shatter Alvior
+  Sentient Shredder Alvior:
+    name: Sentient Shredder Alvior

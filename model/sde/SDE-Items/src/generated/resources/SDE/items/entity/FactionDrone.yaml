@@ -1,67 +1,133 @@
 items:
-  Ammatar Navy Captain: {}
-  Ammatar Navy Colonel: {}
-  Ammatar Navy General: {}
-  Ammatar Navy Major: {}
-  Ammatar Navy Sergeant: {}
-  Ammatar Navy Sergeant Major: {}
-  Caldari Navy Captain 1st Rank: {}
-  Caldari Navy Captain 2nd Rank: {}
-  Caldari Navy Captain 3rd Rank: {}
-  Caldari Navy Commodore: {}
-  Caldari Navy Fleet Admiral: {}
-  Caldari Navy Vice Admiral: {}
-  DED Army Captain: {}
-  DED Army Commander: {}
-  DED Army Officer: {}
-  Federation Navy Command Sergeant Major: {}
-  Federation Navy First Sergeant: {}
-  Federation Navy Fleet Captain: {}
-  Federation Navy Fleet Colonel: {}
-  Federation Navy Fleet General: {}
-  Federation Navy Fleet Major: {}
-  Federation Navy Sergeant Major: {}
-  Imperial Navy Captain: {}
-  Imperial Navy Colonel: {}
-  Imperial Navy Fleet Marshall: {}
-  Imperial Navy General: {}
-  Imperial Navy Major: {}
-  Imperial Navy Sergeant: {}
-  Imperial Navy Sergeant Major: {}
-  Intaki Defense Command Sergeant Major: {}
-  Intaki Defense First Sergeant: {}
-  Intaki Defense Fleet Captain: {}
-  Intaki Defense Fleet Colonel: {}
-  Intaki Defense Fleet Major: {}
-  Intaki Defense Sergeant Major: {}
-  Khanid Navy Captain: {}
-  Khanid Navy Colonel: {}
-  Khanid Navy General: {}
-  Khanid Navy Major: {}
-  Khanid Navy Sergeant: {}
-  Khanid Navy Sergeant Major: {}
-  Mordu's Captain: {}
-  Mordu's Legion: {}
-  Mordu's Lieutenant: {}
-  Mordu's Lieutenant 1st Rank: {}
-  Mordu's Lieutenant 2nd Rank: {}
-  Mordu's Lieutenant 3rd Rank: {}
-  Republic Fleet Captain: {}
-  Republic Fleet Commander: {}
-  Republic Fleet High Captain: {}
-  Republic Fleet High Commander: {}
-  Republic Fleet Private 1st Rank: {}
-  Republic Fleet Private 2nd Rank: {}
-  Republic Fleet Private 3rd Rank: {}
-  Sarum Navy Captain: {}
-  Sarum Navy Colonel: {}
-  Sarum Navy General: {}
-  Sarum Navy Major: {}
-  Sarum Navy Sergeant: {}
-  Sarum Navy Sergeant Major: {}
-  Thukker Brute: {}
-  Thukker Tribal Lord: {}
-  Thukker Tribal Priest: {}
-  Thukker Tribalist: {}
-  Thukker Warrior: {}
-  Thukker Wingman: {}
+  Ammatar Navy Captain:
+    name: Ammatar Navy Captain
+  Ammatar Navy Colonel:
+    name: Ammatar Navy Colonel
+  Ammatar Navy General:
+    name: Ammatar Navy General
+  Ammatar Navy Major:
+    name: Ammatar Navy Major
+  Ammatar Navy Sergeant:
+    name: Ammatar Navy Sergeant
+  Ammatar Navy Sergeant Major:
+    name: Ammatar Navy Sergeant Major
+  Caldari Navy Captain 1st Rank:
+    name: Caldari Navy Captain 1st Rank
+  Caldari Navy Captain 2nd Rank:
+    name: Caldari Navy Captain 2nd Rank
+  Caldari Navy Captain 3rd Rank:
+    name: Caldari Navy Captain 3rd Rank
+  Caldari Navy Commodore:
+    name: Caldari Navy Commodore
+  Caldari Navy Fleet Admiral:
+    name: Caldari Navy Fleet Admiral
+  Caldari Navy Vice Admiral:
+    name: Caldari Navy Vice Admiral
+  DED Army Captain:
+    name: DED Army Captain
+  DED Army Commander:
+    name: DED Army Commander
+  DED Army Officer:
+    name: DED Army Officer
+  Federation Navy Command Sergeant Major:
+    name: Federation Navy Command Sergeant Major
+  Federation Navy First Sergeant:
+    name: Federation Navy First Sergeant
+  Federation Navy Fleet Captain:
+    name: Federation Navy Fleet Captain
+  Federation Navy Fleet Colonel:
+    name: Federation Navy Fleet Colonel
+  Federation Navy Fleet General:
+    name: Federation Navy Fleet General
+  Federation Navy Fleet Major:
+    name: Federation Navy Fleet Major
+  Federation Navy Sergeant Major:
+    name: Federation Navy Sergeant Major
+  Imperial Navy Captain:
+    name: Imperial Navy Captain
+  Imperial Navy Colonel:
+    name: Imperial Navy Colonel
+  Imperial Navy Fleet Marshall:
+    name: Imperial Navy Fleet Marshall
+  Imperial Navy General:
+    name: Imperial Navy General
+  Imperial Navy Major:
+    name: Imperial Navy Major
+  Imperial Navy Sergeant:
+    name: Imperial Navy Sergeant
+  Imperial Navy Sergeant Major:
+    name: Imperial Navy Sergeant Major
+  Intaki Defense Command Sergeant Major:
+    name: Intaki Defense Command Sergeant Major
+  Intaki Defense First Sergeant:
+    name: Intaki Defense First Sergeant
+  Intaki Defense Fleet Captain:
+    name: Intaki Defense Fleet Captain
+  Intaki Defense Fleet Colonel:
+    name: Intaki Defense Fleet Colonel
+  Intaki Defense Fleet Major:
+    name: Intaki Defense Fleet Major
+  Intaki Defense Sergeant Major:
+    name: Intaki Defense Sergeant Major
+  Khanid Navy Captain:
+    name: Khanid Navy Captain
+  Khanid Navy Colonel:
+    name: Khanid Navy Colonel
+  Khanid Navy General:
+    name: Khanid Navy General
+  Khanid Navy Major:
+    name: Khanid Navy Major
+  Khanid Navy Sergeant:
+    name: Khanid Navy Sergeant
+  Khanid Navy Sergeant Major:
+    name: Khanid Navy Sergeant Major
+  Mordu's Captain:
+    name: Mordu's Captain
+  Mordu's Legion:
+    name: Mordu's Legion
+  Mordu's Lieutenant:
+    name: Mordu's Lieutenant
+  Mordu's Lieutenant 1st Rank:
+    name: Mordu's Lieutenant 1st Rank
+  Mordu's Lieutenant 2nd Rank:
+    name: Mordu's Lieutenant 2nd Rank
+  Mordu's Lieutenant 3rd Rank:
+    name: Mordu's Lieutenant 3rd Rank
+  Republic Fleet Captain:
+    name: Republic Fleet Captain
+  Republic Fleet Commander:
+    name: Republic Fleet Commander
+  Republic Fleet High Captain:
+    name: Republic Fleet High Captain
+  Republic Fleet High Commander:
+    name: Republic Fleet High Commander
+  Republic Fleet Private 1st Rank:
+    name: Republic Fleet Private 1st Rank
+  Republic Fleet Private 2nd Rank:
+    name: Republic Fleet Private 2nd Rank
+  Republic Fleet Private 3rd Rank:
+    name: Republic Fleet Private 3rd Rank
+  Sarum Navy Captain:
+    name: Sarum Navy Captain
+  Sarum Navy Colonel:
+    name: Sarum Navy Colonel
+  Sarum Navy General:
+    name: Sarum Navy General
+  Sarum Navy Major:
+    name: Sarum Navy Major
+  Sarum Navy Sergeant:
+    name: Sarum Navy Sergeant
+  Sarum Navy Sergeant Major:
+    name: Sarum Navy Sergeant Major
+  Thukker Brute:
+    name: Thukker Brute
+  Thukker Tribal Lord:
+    name: Thukker Tribal Lord
+  Thukker Tribal Priest:
+    name: Thukker Tribal Priest
+  Thukker Tribalist:
+    name: Thukker Tribalist
+  Thukker Warrior:
+    name: Thukker Warrior
+  Thukker Wingman:
+    name: Thukker Wingman

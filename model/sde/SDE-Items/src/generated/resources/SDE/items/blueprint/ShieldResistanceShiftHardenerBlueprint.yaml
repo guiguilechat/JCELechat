@@ -1,6 +1,11 @@
 items:
-  Capital Flex Shield Hardener I Blueprint: {}
-  Capital Flex Shield Hardener II Blueprint: {}
-  Domination Capital Flex Shield Hardener Blueprint: {}
-  Dread Guristas Capital Flex Shield Hardener Blueprint: {}
-  True Sansha Capital Flex Shield Hardener Blueprint: {}
+  Capital Flex Shield Hardener I Blueprint:
+    name: Capital Flex Shield Hardener I Blueprint
+  Capital Flex Shield Hardener II Blueprint:
+    name: Capital Flex Shield Hardener II Blueprint
+  Domination Capital Flex Shield Hardener Blueprint:
+    name: Domination Capital Flex Shield Hardener Blueprint
+  Dread Guristas Capital Flex Shield Hardener Blueprint:
+    name: Dread Guristas Capital Flex Shield Hardener Blueprint
+  True Sansha Capital Flex Shield Hardener Blueprint:
+    name: True Sansha Capital Flex Shield Hardener Blueprint

@@ -20,6 +20,7 @@ items:
     Speed: 5185
     TechLevel: 1
     TypeColorScheme: 20113
+    name: '''Arbalest'' Rapid Heavy Missile Launcher I'
   '''Limos'' Rapid Heavy Missile Launcher I':
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -41,6 +42,7 @@ items:
     Speed: 5835
     TechLevel: 1
     TypeColorScheme: 20115
+    name: '''Limos'' Rapid Heavy Missile Launcher I'
   '''Malkuth'' Rapid Heavy Missile Launcher I':
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -62,6 +64,7 @@ items:
     Speed: 6160
     TechLevel: 1
     TypeColorScheme: 20123
+    name: '''Malkuth'' Rapid Heavy Missile Launcher I'
   Caldari Navy Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -84,6 +87,7 @@ items:
     Speed: 4540
     TechLevel: 1
     TypeColorScheme: 11321
+    name: Caldari Navy Rapid Heavy Missile Launcher
   Domination Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -106,6 +110,7 @@ items:
     Speed: 5030
     TechLevel: 1
     TypeColorScheme: 11318
+    name: Domination Rapid Heavy Missile Launcher
   Dread Guristas Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -128,6 +133,7 @@ items:
     Speed: 4540
     TechLevel: 1
     TypeColorScheme: 11335
+    name: Dread Guristas Rapid Heavy Missile Launcher
   Estamel's Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -150,6 +156,7 @@ items:
     Speed: 3630
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Estamel's Modified Rapid Heavy Missile Launcher
   Gotan's Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -172,6 +179,7 @@ items:
     Speed: 4405
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Gotan's Modified Rapid Heavy Missile Launcher
   Hakim's Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -194,6 +202,7 @@ items:
     Speed: 4670
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Hakim's Modified Rapid Heavy Missile Launcher
   Kaikka's Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -216,6 +225,7 @@ items:
     Speed: 4310
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Kaikka's Modified Rapid Heavy Missile Launcher
   Mizuro's Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -238,6 +248,7 @@ items:
     Speed: 4930
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Mizuro's Modified Rapid Heavy Missile Launcher
   Rapid Heavy Missile Launcher I:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -258,6 +269,7 @@ items:
     Speed: 6480
     TechLevel: 1
     TypeColorScheme: 11324
+    name: Rapid Heavy Missile Launcher I
   Rapid Heavy Missile Launcher II:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -280,6 +292,7 @@ items:
     Speed: 5185
     TechLevel: 2
     TypeColorScheme: 11325
+    name: Rapid Heavy Missile Launcher II
   Republic Fleet Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -302,6 +315,7 @@ items:
     Speed: 5030
     TechLevel: 1
     TypeColorScheme: 11339
+    name: Republic Fleet Rapid Heavy Missile Launcher
   Shaqil's Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -324,6 +338,7 @@ items:
     Speed: 4150
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Shaqil's Modified Rapid Heavy Missile Launcher
   Thon's Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -346,6 +361,7 @@ items:
     Speed: 4080
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Thon's Modified Rapid Heavy Missile Launcher
   Tobias' Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -368,6 +384,7 @@ items:
     Speed: 4150
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Tobias' Modified Rapid Heavy Missile Launcher
   True Sansha Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -390,6 +407,7 @@ items:
     Speed: 5030
     TechLevel: 1
     TypeColorScheme: 11349
+    name: True Sansha Rapid Heavy Missile Launcher
   Vepas' Modified Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -412,6 +430,7 @@ items:
     Speed: 3855
     TechLevel: 1
     TypeColorScheme: 11323
+    name: Vepas' Modified Rapid Heavy Missile Launcher
   YO-5000 Rapid Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -433,3 +452,4 @@ items:
     Speed: 5510
     TechLevel: 1
     TypeColorScheme: 20116
+    name: YO-5000 Rapid Heavy Missile Launcher

@@ -1,132 +1,263 @@
 items:
-  '''APEX'' Cloak Field': {}
-  '''Abyss'' Carthum Drop Uplink': {}
-  '''Acolyth'' A-86 Active Scanner': {}
-  '''Apparition'' Cloak Field': {}
-  '''Cannibal'' Nanite Injector': {}
-  '''Centrifuge'' Ishukone Nanohive': {}
-  '''Cirrus'' CreoDron Active Scanner': {}
-  '''Cistern'' K-17D Nanohive': {}
-  '''Dawnpyre'' R-9 Drop Uplink': {}
-  '''Eclipse'' Active Scanner': {}
-  '''Fractal'' A/7 Repair Tool': {}
-  '''Hateshard'' Remote Explosive': {}
-  '''Isotope'' Kaalakiota Nanohive': {}
-  '''Maelstrom'' R11-4 Flux Nanohive': {}
-  '''Necromancer'' KIN-012 Nanite Injector': {}
-  '''Phantasm'' ARN-18 Cloak Field': {}
-  '''Poltergeist'' Ishukone Cloak Field': {}
-  '''Proxy'' Viziam Drop Uplink': {}
-  '''Schizm'' Core Repair Tool': {}
-  '''Scrapflake'' F/45 Remote Explosive': {}
-  '''Skinjuice'' Boundless Remote Explosive': {}
-  '''Splinter'' Axis Boundless Repair Tool': {}
-  '''Talisman'' Wiyrkomi Nanite Injector': {}
-  '''Templar'' Drop Uplink': {}
-  '''Terminus'' Drop Uplink': {}
-  '''Torrent'' Nanohive': {}
-  '''Void'' Viziam Drop Uplink': {}
-  '''Whisper'' Repair Tool': {}
-  A-19 Stable Active Scanner: {}
-  A-45 Quantum Active Scanner: {}
-  A-86 Active Scanner: {}
-  A/7 Inert Repair Tool: {}
-  ARN-18 Cloak Field: {}
-  Active Scanner: {}
-  Allotek Nanohive (R): {}
-  BDR-2 Repair Tool: {}
-  BDR-5 Axis Repair Tool: {}
-  BDR-8 Triage Repair Tool: {}
-  Boundless Packed Remote Explosive: {}
-  Boundless Proximity Explosive: {}
-  Boundless Remote Explosive: {}
-  Cloak Field: {}
-  Compact Nanohive: {}
-  Core Focused Repair Tool: {}
-  Core Repair Tool: {}
-  Cortex: {}
-  Council's Modified Repair Tool: {}
-  CreoDron Active Scanner: {}
-  CreoDron Flux Active Scanner: {}
-  CreoDron Proximity Active Scanner: {}
-  Custom Repair Tool: {}
-  Drop Uplink: {}
-  Duvolle Focused Active Scanner: {}
-  Duvolle Quantum Active Scanner: {}
-  F/45 Packed Remote Explosive: {}
-  F/45 Remote Explosive: {}
-  F/49 Proximity Explosive: {}
-  Federation A-86 Active Scanner: {}
-  Federation Active Scanner: {}
-  Federation CreoDron Active Scanner: {}
-  Federation Duvolle Active Scanner: {}
-  Flux Active Scanner: {}
-  Flux Drop Uplink: {}
-  Flux Proximity Explosive: {}
-  Flux Repair Tool: {}
-  Gauged Drop Uplink: {}
-  Gauged Nanohive: {}
-  Hacked Drop Uplink: {}
-  Hacked Nanohive: {}
-  Imperial R-9 Drop Uplink: {}
-  Imperial Viziam Drop Uplink: {}
-  Inert Repair Tool: {}
-  Ishukone Cloak Field: {}
-  Ishukone Flux Nanohive: {}
-  Ishukone Gauged Nanohive: {}
-  Ishukone Nanohive: {}
-  K-2 Nanohive: {}
-  K-CR Triage Nanohive: {}
-  K17/D Nanohive (R): {}
-  KIN-012 Nanite Injector: {}
-  Lai Dai Flux Repair Tool: {}
-  Militia Drop Uplink: {}
-  Militia Drop Uplink Blueprint: {}
-  Militia Nanite Injector: {}
-  Militia Nanite Injector Blueprint: {}
-  Militia Nanohive: {}
-  Militia Nanohive Blueprint: {}
-  Militia Repair Tool: {}
-  Militia Repair Tool Blueprint: {}
-  N-11/A Flux Drop Uplink: {}
-  Nanite Injector: {}
-  Nanohive: {}
-  P-13 Quantum Drop Uplink: {}
-  Packed Remote Explosive: {}
-  Proximity Explosive: {}
-  Quantum Drop Uplink: {}
-  Quantum Nanohive: {}
-  R-9 Drop Uplink: {}
-  R11-4 Flux Nanohive: {}
-  Remote Explosive: {}
-  Repair Tool: {}
-  Republic A/7 Repair Tool: {}
-  Republic Boundless Remote Explosive: {}
-  Republic Boundless Repair Tool: {}
-  Republic Core Repair Tool: {}
-  Republic F/45 Remote Explosive: {}
-  Republic Remote Explosive: {}
-  Republic Repair Tool: {}
-  Six Kin Triage Repair Tool: {}
-  Stable Drop Uplink: {}
-  Stable Nanohive: {}
-  Stable Repair Tool: {}
-  State Ishukone Nanohive: {}
-  State Ishukone Quantum Nanohive: {}
-  State K-17D Nanohive: {}
-  State KIN-012 Nanite Injector: {}
-  State Kaalakiota Nanite Injector: {}
-  State Nanite Injector: {}
-  State Nanohive: {}
-  State Wiyrkomi Nanite Injector: {}
-  Triage Repair Tool: {}
-  Viziam Drop Uplink: {}
-  Viziam Flux Drop Uplink: {}
-  Viziam Gauged Drop Uplink: {}
-  Viziam Quantum Drop Uplink: {}
-  Viziam Stable Drop Uplink: {}
-  Wiyrkomi Nanite Injector: {}
-  Wiyrkomi Triage Nanohive: {}
-  X-3 Quantum Nanohive: {}
-  '[TEST] Shield Gen 1': {}
-  '[TEST] Shield Gen 2': {}
+  '''APEX'' Cloak Field':
+    name: '''APEX'' Cloak Field'
+  '''Abyss'' Carthum Drop Uplink':
+    name: '''Abyss'' Carthum Drop Uplink'
+  '''Acolyth'' A-86 Active Scanner':
+    name: '''Acolyth'' A-86 Active Scanner'
+  '''Apparition'' Cloak Field':
+    name: '''Apparition'' Cloak Field'
+  '''Cannibal'' Nanite Injector':
+    name: '''Cannibal'' Nanite Injector'
+  '''Centrifuge'' Ishukone Nanohive':
+    name: '''Centrifuge'' Ishukone Nanohive'
+  '''Cirrus'' CreoDron Active Scanner':
+    name: '''Cirrus'' CreoDron Active Scanner'
+  '''Cistern'' K-17D Nanohive':
+    name: '''Cistern'' K-17D Nanohive'
+  '''Dawnpyre'' R-9 Drop Uplink':
+    name: '''Dawnpyre'' R-9 Drop Uplink'
+  '''Eclipse'' Active Scanner':
+    name: '''Eclipse'' Active Scanner'
+  '''Fractal'' A/7 Repair Tool':
+    name: '''Fractal'' A/7 Repair Tool'
+  '''Hateshard'' Remote Explosive':
+    name: '''Hateshard'' Remote Explosive'
+  '''Isotope'' Kaalakiota Nanohive':
+    name: '''Isotope'' Kaalakiota Nanohive'
+  '''Maelstrom'' R11-4 Flux Nanohive':
+    name: '''Maelstrom'' R11-4 Flux Nanohive'
+  '''Necromancer'' KIN-012 Nanite Injector':
+    name: '''Necromancer'' KIN-012 Nanite Injector'
+  '''Phantasm'' ARN-18 Cloak Field':
+    name: '''Phantasm'' ARN-18 Cloak Field'
+  '''Poltergeist'' Ishukone Cloak Field':
+    name: '''Poltergeist'' Ishukone Cloak Field'
+  '''Proxy'' Viziam Drop Uplink':
+    name: '''Proxy'' Viziam Drop Uplink'
+  '''Schizm'' Core Repair Tool':
+    name: '''Schizm'' Core Repair Tool'
+  '''Scrapflake'' F/45 Remote Explosive':
+    name: '''Scrapflake'' F/45 Remote Explosive'
+  '''Skinjuice'' Boundless Remote Explosive':
+    name: '''Skinjuice'' Boundless Remote Explosive'
+  '''Splinter'' Axis Boundless Repair Tool':
+    name: '''Splinter'' Axis Boundless Repair Tool'
+  '''Talisman'' Wiyrkomi Nanite Injector':
+    name: '''Talisman'' Wiyrkomi Nanite Injector'
+  '''Templar'' Drop Uplink':
+    name: '''Templar'' Drop Uplink'
+  '''Terminus'' Drop Uplink':
+    name: '''Terminus'' Drop Uplink'
+  '''Torrent'' Nanohive':
+    name: '''Torrent'' Nanohive'
+  '''Void'' Viziam Drop Uplink':
+    name: '''Void'' Viziam Drop Uplink'
+  '''Whisper'' Repair Tool':
+    name: '''Whisper'' Repair Tool'
+  A-19 Stable Active Scanner:
+    name: A-19 Stable Active Scanner
+  A-45 Quantum Active Scanner:
+    name: A-45 Quantum Active Scanner
+  A-86 Active Scanner:
+    name: A-86 Active Scanner
+  A/7 Inert Repair Tool:
+    name: A/7 Inert Repair Tool
+  ARN-18 Cloak Field:
+    name: ARN-18 Cloak Field
+  Active Scanner:
+    name: Active Scanner
+  Allotek Nanohive (R):
+    name: Allotek Nanohive (R)
+  BDR-2 Repair Tool:
+    name: BDR-2 Repair Tool
+  BDR-5 Axis Repair Tool:
+    name: BDR-5 Axis Repair Tool
+  BDR-8 Triage Repair Tool:
+    name: BDR-8 Triage Repair Tool
+  Boundless Packed Remote Explosive:
+    name: Boundless Packed Remote Explosive
+  Boundless Proximity Explosive:
+    name: Boundless Proximity Explosive
+  Boundless Remote Explosive:
+    name: Boundless Remote Explosive
+  Cloak Field:
+    name: Cloak Field
+  Compact Nanohive:
+    name: Compact Nanohive
+  Core Focused Repair Tool:
+    name: Core Focused Repair Tool
+  Core Repair Tool:
+    name: Core Repair Tool
+  Cortex:
+    name: Cortex
+  Council's Modified Repair Tool:
+    name: Council's Modified Repair Tool
+  CreoDron Active Scanner:
+    name: CreoDron Active Scanner
+  CreoDron Flux Active Scanner:
+    name: CreoDron Flux Active Scanner
+  CreoDron Proximity Active Scanner:
+    name: CreoDron Proximity Active Scanner
+  Custom Repair Tool:
+    name: Custom Repair Tool
+  Drop Uplink:
+    name: Drop Uplink
+  Duvolle Focused Active Scanner:
+    name: Duvolle Focused Active Scanner
+  Duvolle Quantum Active Scanner:
+    name: Duvolle Quantum Active Scanner
+  F/45 Packed Remote Explosive:
+    name: F/45 Packed Remote Explosive
+  F/45 Remote Explosive:
+    name: F/45 Remote Explosive
+  F/49 Proximity Explosive:
+    name: F/49 Proximity Explosive
+  Federation A-86 Active Scanner:
+    name: Federation A-86 Active Scanner
+  Federation Active Scanner:
+    name: Federation Active Scanner
+  Federation CreoDron Active Scanner:
+    name: Federation CreoDron Active Scanner
+  Federation Duvolle Active Scanner:
+    name: Federation Duvolle Active Scanner
+  Flux Active Scanner:
+    name: Flux Active Scanner
+  Flux Drop Uplink:
+    name: Flux Drop Uplink
+  Flux Proximity Explosive:
+    name: Flux Proximity Explosive
+  Flux Repair Tool:
+    name: Flux Repair Tool
+  Gauged Drop Uplink:
+    name: Gauged Drop Uplink
+  Gauged Nanohive:
+    name: Gauged Nanohive
+  Hacked Drop Uplink:
+    name: Hacked Drop Uplink
+  Hacked Nanohive:
+    name: Hacked Nanohive
+  Imperial R-9 Drop Uplink:
+    name: Imperial R-9 Drop Uplink
+  Imperial Viziam Drop Uplink:
+    name: Imperial Viziam Drop Uplink
+  Inert Repair Tool:
+    name: Inert Repair Tool
+  Ishukone Cloak Field:
+    name: Ishukone Cloak Field
+  Ishukone Flux Nanohive:
+    name: Ishukone Flux Nanohive
+  Ishukone Gauged Nanohive:
+    name: Ishukone Gauged Nanohive
+  Ishukone Nanohive:
+    name: Ishukone Nanohive
+  K-2 Nanohive:
+    name: K-2 Nanohive
+  K-CR Triage Nanohive:
+    name: K-CR Triage Nanohive
+  K17/D Nanohive (R):
+    name: K17/D Nanohive (R)
+  KIN-012 Nanite Injector:
+    name: KIN-012 Nanite Injector
+  Lai Dai Flux Repair Tool:
+    name: Lai Dai Flux Repair Tool
+  Militia Drop Uplink:
+    name: Militia Drop Uplink
+  Militia Drop Uplink Blueprint:
+    name: Militia Drop Uplink Blueprint
+  Militia Nanite Injector:
+    name: Militia Nanite Injector
+  Militia Nanite Injector Blueprint:
+    name: Militia Nanite Injector Blueprint
+  Militia Nanohive:
+    name: Militia Nanohive
+  Militia Nanohive Blueprint:
+    name: Militia Nanohive Blueprint
+  Militia Repair Tool:
+    name: Militia Repair Tool
+  Militia Repair Tool Blueprint:
+    name: Militia Repair Tool Blueprint
+  N-11/A Flux Drop Uplink:
+    name: N-11/A Flux Drop Uplink
+  Nanite Injector:
+    name: Nanite Injector
+  Nanohive:
+    name: Nanohive
+  P-13 Quantum Drop Uplink:
+    name: P-13 Quantum Drop Uplink
+  Packed Remote Explosive:
+    name: Packed Remote Explosive
+  Proximity Explosive:
+    name: Proximity Explosive
+  Quantum Drop Uplink:
+    name: Quantum Drop Uplink
+  Quantum Nanohive:
+    name: Quantum Nanohive
+  R-9 Drop Uplink:
+    name: R-9 Drop Uplink
+  R11-4 Flux Nanohive:
+    name: R11-4 Flux Nanohive
+  Remote Explosive:
+    name: Remote Explosive
+  Repair Tool:
+    name: Repair Tool
+  Republic A/7 Repair Tool:
+    name: Republic A/7 Repair Tool
+  Republic Boundless Remote Explosive:
+    name: Republic Boundless Remote Explosive
+  Republic Boundless Repair Tool:
+    name: Republic Boundless Repair Tool
+  Republic Core Repair Tool:
+    name: Republic Core Repair Tool
+  Republic F/45 Remote Explosive:
+    name: Republic F/45 Remote Explosive
+  Republic Remote Explosive:
+    name: Republic Remote Explosive
+  Republic Repair Tool:
+    name: Republic Repair Tool
+  Six Kin Triage Repair Tool:
+    name: Six Kin Triage Repair Tool
+  Stable Drop Uplink:
+    name: Stable Drop Uplink
+  Stable Nanohive:
+    name: Stable Nanohive
+  Stable Repair Tool:
+    name: Stable Repair Tool
+  State Ishukone Nanohive:
+    name: State Ishukone Nanohive
+  State Ishukone Quantum Nanohive:
+    name: State Ishukone Quantum Nanohive
+  State K-17D Nanohive:
+    name: State K-17D Nanohive
+  State KIN-012 Nanite Injector:
+    name: State KIN-012 Nanite Injector
+  State Kaalakiota Nanite Injector:
+    name: State Kaalakiota Nanite Injector
+  State Nanite Injector:
+    name: State Nanite Injector
+  State Nanohive:
+    name: State Nanohive
+  State Wiyrkomi Nanite Injector:
+    name: State Wiyrkomi Nanite Injector
+  Triage Repair Tool:
+    name: Triage Repair Tool
+  Viziam Drop Uplink:
+    name: Viziam Drop Uplink
+  Viziam Flux Drop Uplink:
+    name: Viziam Flux Drop Uplink
+  Viziam Gauged Drop Uplink:
+    name: Viziam Gauged Drop Uplink
+  Viziam Quantum Drop Uplink:
+    name: Viziam Quantum Drop Uplink
+  Viziam Stable Drop Uplink:
+    name: Viziam Stable Drop Uplink
+  Wiyrkomi Nanite Injector:
+    name: Wiyrkomi Nanite Injector
+  Wiyrkomi Triage Nanohive:
+    name: Wiyrkomi Triage Nanohive
+  X-3 Quantum Nanohive:
+    name: X-3 Quantum Nanohive
+  '[TEST] Shield Gen 1':
+    name: '[TEST] Shield Gen 1'
+  '[TEST] Shield Gen 2':
+    name: '[TEST] Shield Gen 2'

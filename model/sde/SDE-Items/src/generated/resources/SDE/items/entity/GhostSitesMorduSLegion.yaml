@@ -1,4 +1,7 @@
 items:
-  Mordu's Legion Battleship: {}
-  Mordu's Legion Commander: {}
-  Mordu's Legion Cruiser: {}
+  Mordu's Legion Battleship:
+    name: Mordu's Legion Battleship
+  Mordu's Legion Commander:
+    name: Mordu's Legion Commander
+  Mordu's Legion Cruiser:
+    name: Mordu's Legion Cruiser

@@ -1,117 +1,233 @@
 items:
-  Akori: {}
-  Alena Karyn: {}
-  Borain Doleni: {}
-  Bounty Hunter Ikaruz: {}
-  Bounty Hunter Jason: {}
-  Bounty Hunter Obunga: {}
-  Bounty Hunter Okochyn: {}
-  Burner Ashimmu: {}
-  Burner Talos: {}
-  Captain Jerek Zuomi: {}
-  Captain Jerome Leman: {}
-  Captain Jym Muntoya: {}
-  Captain Kali Midez: {}
-  Captain Mizuma Gomi: {}
-  Captain Yeni Sarum: {}
-  Cathedral Carrier: {}
-  Darkonnen Gang Leader: {}
-  Darkonnen Overlord: {}
-  Drazin Jaruk: {}
-  Elena Gazky: {}
-  EoM Black Priest: {}
-  EoM Crusader: {}
-  EoM Death Knight: {}
-  EoM Priest: {}
-  EoM Prophet: {}
-  Ex-Elite Secret Agent: {}
-  Freedom Patriot: {}
-  Gaabu Moniq: {}
-  Grecko: {}
-  Hari Kaimo: {}
-  Hunter Malbreth: {}
-  Ibrahim: {}
-  Ixon Reaver: {}
-  Jabar Kurr: {}
-  Jaques Klemont: {}
-  Jarkon Puman: {}
-  Juddi Temu: {}
-  Kaltoh Kurzon: {}
-  Karbim Dula: {}
-  Karothas: {}
-  Keizo Veron: {}
-  Kimo Sekuta: {}
-  Komni Assassin: {}
-  Komni Honcho: {}
-  Korrani Salemo: {}
-  Kruul: {}
-  Kungizo Eladar: {}
-  Kuran 'Scarface' Lonan: {}
-  Kuzak Obliterator: {}
-  Lephny's Mining Boat: {}
-  Lieutenant Asitei Ohkunen: {}
-  Lieutenant Elois Ottin: {}
-  Lieutenant Kannen Sumas: {}
-  Lieutenant Kaura Triat: {}
-  Lieutenant Onuoto TS-08A: {}
-  Lieutenant Rayle Melania: {}
-  Lieutenant Sukkenen Fusura: {}
-  Lieutenant Thora Faband: {}
-  Lynk: {}
-  Maccen Aman: {}
-  Malad Dorsin: {}
-  Maru Harbinger: {}
-  Maru Raid Leader: {}
-  Maryk Ogun: {}
-  Maylan Falek: {}
-  Mercenary Commander: {}
-  Mercenary Corporal: {}
-  Mercenary Lieutenant: {}
-  Militia Guardian: {}
-  Mysterious Drone: {}
-  Nugoeihuvi Agent: {}
-  Odamian Master: {}
-  Odamian Veteran: {}
-  Olufami: {}
-  Opux Luxury Yacht - Level 1: {}
-  Pierre Turon: {}
-  Pirate Transport Ship: {}
-  Pleasure Cruiser: {}
-  Ratei Jezzor: {}
-  Rogue Mercenary Thorn: {}
-  Rogue Pirate: {}
-  Rogue Pirate Escort: {}
-  Rogue Pirate Raider: {}
-  Rogue Pirate Transport Ship: {}
-  Roland: {}
-  Sarrah: {}
-  Schmidt: {}
-  Scope Reporter: {}
-  Serpentis Burner Cruiser: {}
-  Seven Assassin: {}
-  Seven Bodyguard: {}
-  Seven Thug: {}
-  Shakyr Maruk: {}
-  Shiez Kuzak: {}
-  Shimon Jaen: {}
-  Shogon: {}
-  Smuggler Freight: {}
-  Sukuuvestaa Transport Ship: {}
-  Tehmi Anieu: {}
-  Telhia Hurst: {}
-  Terrens Glokuir: {}
-  Test_NONE: {}
-  Testgaur: {}
-  Thanok Kuggar: {}
-  Thoriam Delvar: {}
-  Tobi Lafonte: {}
-  Tsejani Kulvin: {}
-  Tukkito Usa: {}
-  UDI Mercenary: {}
-  Umeni Kurr: {}
-  University Escort Ship: {}
-  Utori Kumesh: {}
-  Zenin Mirae: {}
-  Zerak Cheryn: {}
-  Zerim Kurzon: {}
-  Zerone Anieu: {}
+  Akori:
+    name: Akori
+  Alena Karyn:
+    name: Alena Karyn
+  Borain Doleni:
+    name: Borain Doleni
+  Bounty Hunter Ikaruz:
+    name: Bounty Hunter Ikaruz
+  Bounty Hunter Jason:
+    name: Bounty Hunter Jason
+  Bounty Hunter Obunga:
+    name: Bounty Hunter Obunga
+  Bounty Hunter Okochyn:
+    name: Bounty Hunter Okochyn
+  Burner Ashimmu:
+    name: Burner Ashimmu
+  Burner Talos:
+    name: Burner Talos
+  Captain Jerek Zuomi:
+    name: Captain Jerek Zuomi
+  Captain Jerome Leman:
+    name: Captain Jerome Leman
+  Captain Jym Muntoya:
+    name: Captain Jym Muntoya
+  Captain Kali Midez:
+    name: Captain Kali Midez
+  Captain Mizuma Gomi:
+    name: Captain Mizuma Gomi
+  Captain Yeni Sarum:
+    name: Captain Yeni Sarum
+  Cathedral Carrier:
+    name: Cathedral Carrier
+  Darkonnen Gang Leader:
+    name: Darkonnen Gang Leader
+  Darkonnen Overlord:
+    name: Darkonnen Overlord
+  Drazin Jaruk:
+    name: Drazin Jaruk
+  Elena Gazky:
+    name: Elena Gazky
+  EoM Black Priest:
+    name: EoM Black Priest
+  EoM Crusader:
+    name: EoM Crusader
+  EoM Death Knight:
+    name: EoM Death Knight
+  EoM Priest:
+    name: EoM Priest
+  EoM Prophet:
+    name: EoM Prophet
+  Ex-Elite Secret Agent:
+    name: Ex-Elite Secret Agent
+  Freedom Patriot:
+    name: Freedom Patriot
+  Gaabu Moniq:
+    name: Gaabu Moniq
+  Grecko:
+    name: Grecko
+  Hari Kaimo:
+    name: Hari Kaimo
+  Hunter Malbreth:
+    name: Hunter Malbreth
+  Ibrahim:
+    name: Ibrahim
+  Ixon Reaver:
+    name: Ixon Reaver
+  Jabar Kurr:
+    name: Jabar Kurr
+  Jaques Klemont:
+    name: Jaques Klemont
+  Jarkon Puman:
+    name: Jarkon Puman
+  Juddi Temu:
+    name: Juddi Temu
+  Kaltoh Kurzon:
+    name: Kaltoh Kurzon
+  Karbim Dula:
+    name: Karbim Dula
+  Karothas:
+    name: Karothas
+  Keizo Veron:
+    name: Keizo Veron
+  Kimo Sekuta:
+    name: Kimo Sekuta
+  Komni Assassin:
+    name: Komni Assassin
+  Komni Honcho:
+    name: Komni Honcho
+  Korrani Salemo:
+    name: Korrani Salemo
+  Kruul:
+    name: Kruul
+  Kungizo Eladar:
+    name: Kungizo Eladar
+  Kuran 'Scarface' Lonan:
+    name: Kuran 'Scarface' Lonan
+  Kuzak Obliterator:
+    name: Kuzak Obliterator
+  Lephny's Mining Boat:
+    name: Lephny's Mining Boat
+  Lieutenant Asitei Ohkunen:
+    name: Lieutenant Asitei Ohkunen
+  Lieutenant Elois Ottin:
+    name: Lieutenant Elois Ottin
+  Lieutenant Kannen Sumas:
+    name: Lieutenant Kannen Sumas
+  Lieutenant Kaura Triat:
+    name: Lieutenant Kaura Triat
+  Lieutenant Onuoto TS-08A:
+    name: Lieutenant Onuoto TS-08A
+  Lieutenant Rayle Melania:
+    name: Lieutenant Rayle Melania
+  Lieutenant Sukkenen Fusura:
+    name: Lieutenant Sukkenen Fusura
+  Lieutenant Thora Faband:
+    name: Lieutenant Thora Faband
+  Lynk:
+    name: Lynk
+  Maccen Aman:
+    name: Maccen Aman
+  Malad Dorsin:
+    name: Malad Dorsin
+  Maru Harbinger:
+    name: Maru Harbinger
+  Maru Raid Leader:
+    name: Maru Raid Leader
+  Maryk Ogun:
+    name: Maryk Ogun
+  Maylan Falek:
+    name: Maylan Falek
+  Mercenary Commander:
+    name: Mercenary Commander
+  Mercenary Corporal:
+    name: Mercenary Corporal
+  Mercenary Lieutenant:
+    name: Mercenary Lieutenant
+  Militia Guardian:
+    name: Militia Guardian
+  Mysterious Drone:
+    name: Mysterious Drone
+  Nugoeihuvi Agent:
+    name: Nugoeihuvi Agent
+  Odamian Master:
+    name: Odamian Master
+  Odamian Veteran:
+    name: Odamian Veteran
+  Olufami:
+    name: Olufami
+  Opux Luxury Yacht - Level 1:
+    name: Opux Luxury Yacht - Level 1
+  Pierre Turon:
+    name: Pierre Turon
+  Pirate Transport Ship:
+    name: Pirate Transport Ship
+  Pleasure Cruiser:
+    name: Pleasure Cruiser
+  Ratei Jezzor:
+    name: Ratei Jezzor
+  Rogue Mercenary Thorn:
+    name: Rogue Mercenary Thorn
+  Rogue Pirate:
+    name: Rogue Pirate
+  Rogue Pirate Escort:
+    name: Rogue Pirate Escort
+  Rogue Pirate Raider:
+    name: Rogue Pirate Raider
+  Rogue Pirate Transport Ship:
+    name: Rogue Pirate Transport Ship
+  Roland:
+    name: Roland
+  Sarrah:
+    name: Sarrah
+  Schmidt:
+    name: Schmidt
+  Scope Reporter:
+    name: Scope Reporter
+  Serpentis Burner Cruiser:
+    name: Serpentis Burner Cruiser
+  Seven Assassin:
+    name: Seven Assassin
+  Seven Bodyguard:
+    name: Seven Bodyguard
+  Seven Thug:
+    name: Seven Thug
+  Shakyr Maruk:
+    name: Shakyr Maruk
+  Shiez Kuzak:
+    name: Shiez Kuzak
+  Shimon Jaen:
+    name: Shimon Jaen
+  Shogon:
+    name: Shogon
+  Smuggler Freight:
+    name: Smuggler Freight
+  Sukuuvestaa Transport Ship:
+    name: Sukuuvestaa Transport Ship
+  Tehmi Anieu:
+    name: Tehmi Anieu
+  Telhia Hurst:
+    name: Telhia Hurst
+  Terrens Glokuir:
+    name: Terrens Glokuir
+  Test_NONE:
+    name: Test_NONE
+  Testgaur:
+    name: Testgaur
+  Thanok Kuggar:
+    name: Thanok Kuggar
+  Thoriam Delvar:
+    name: Thoriam Delvar
+  Tobi Lafonte:
+    name: Tobi Lafonte
+  Tsejani Kulvin:
+    name: Tsejani Kulvin
+  Tukkito Usa:
+    name: Tukkito Usa
+  UDI Mercenary:
+    name: UDI Mercenary
+  Umeni Kurr:
+    name: Umeni Kurr
+  University Escort Ship:
+    name: University Escort Ship
+  Utori Kumesh:
+    name: Utori Kumesh
+  Zenin Mirae:
+    name: Zenin Mirae
+  Zerak Cheryn:
+    name: Zerak Cheryn
+  Zerim Kurzon:
+    name: Zerim Kurzon
+  Zerone Anieu:
+    name: Zerone Anieu

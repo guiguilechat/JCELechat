@@ -25,6 +25,7 @@ items:
     ThermalDamageResonanceMultiplier: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Ballistic Deflection Array
   Explosion Dampening Array:
     AnchoringDelay: 5000
     ArmorHP: 20000
@@ -51,6 +52,7 @@ items:
     ThermalDamageResonanceMultiplier: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Explosion Dampening Array
   Heat Dissipation Array:
     AnchoringDelay: 5000
     ArmorHP: 20000
@@ -77,6 +79,7 @@ items:
     ThermalDamageResonanceMultiplier: 0.75
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Heat Dissipation Array
   Photon Scattering Array:
     AnchoringDelay: 5000
     ArmorHP: 20000
@@ -103,3 +106,4 @@ items:
     ThermalDamageResonanceMultiplier: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Photon Scattering Array

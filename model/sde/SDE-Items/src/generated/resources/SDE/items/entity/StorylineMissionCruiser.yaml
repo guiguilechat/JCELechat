@@ -1,77 +1,153 @@
 items:
-  Angel Scavenger: {}
-  Angel Thief: {}
-  Apte Donie: {}
-  Aradim Arachnan: {}
-  Arms Dealer Incognito: {}
-  Bai Tarziiki: {}
-  Blood Raider Foreman: {}
-  Bounty Hunter Drukhar: {}
-  Corpse Harvester: {}
-  Cura Gigno: {}
-  Cybertron: {}
-  Daubs Louel: {}
-  Don Rico's Henchman: {}
-  Don Rico's Pleasure Yacht: {}
-  Eule Vitrauze: {}
-  Famon Gurch: {}
-  Garp Soolim: {}
-  Gerno Babalu: {}
-  Guristas Maniac: {}
-  Guristas Outlaw: {}
-  Guristas Robber: {}
-  Hodura Amaba: {}
-  Huriki Vunau: {}
-  Jakon Tooka: {}
-  Jerpam Hollek: {}
-  Jihar Okham: {}
-  Kaerleiks Bjorn: {}
-  Kazah Durn: {}
-  Ketta Tomin2: {}
-  Lagaster Malotoff: {}
-  Machul Mu'Shabba: {}
-  Makele Kordonii: {}
-  Malfunctioned Pleasure Cruiser: {}
-  Manchura Todaki: {}
-  Maqeri Camcen: {}
-  Marin Matola: {}
-  Minmatar Republic Narcotics Officer 2nd Rank: {}
-  Motani Ihura: {}
-  Motoh Olin: {}
-  Nefantar Pilgrim: {}
-  Nikmar Eitan: {}
-  Nugoeihuvi Excavator: {}
-  Nugoeihuvi Operative: {}
-  Nugoeihuvi Propagandist: {}
-  Okham's Cyber Thrall: {}
-  Ours De Soin: {}
-  Pakkul's Thugs: {}
-  Pourpas Aunten: {}
-  Propel Dynamics Excavator: {}
-  Propel Dynamics Propagandist: {}
-  Quao Kale: {}
-  REF Pilot: {}
-  RabaRaba ChooChoo: {}
-  Rekker Malkun: {}
-  Roaming Rebel: {}
-  Roark: {}
-  Ryoke Laika: {}
-  ST 59: {}
-  ST 60: {}
-  Serpentis Drug Runner: {}
-  Serpentis Surveyor: {}
-  Sheriff Togany_: {}
-  Sleeban Iratur: {}
-  Splinter Smuggler: {}
-  Suard Fish: {}
-  Tao Pai Motow: {}
-  Tara Buquet: {}
-  Teinei Kuma: {}
-  The Duke: {}
-  Thukker Scavenger: {}
-  Vanir Makono: {}
-  Wei Todaki_: {}
-  Wolf Skarkert: {}
-  Ytari Niaga: {}
-  Zaphiria Oddin: {}
-  Zvarin Karsha_: {}
+  Angel Scavenger:
+    name: Angel Scavenger
+  Angel Thief:
+    name: Angel Thief
+  Apte Donie:
+    name: Apte Donie
+  Aradim Arachnan:
+    name: Aradim Arachnan
+  Arms Dealer Incognito:
+    name: Arms Dealer Incognito
+  Bai Tarziiki:
+    name: Bai Tarziiki
+  Blood Raider Foreman:
+    name: Blood Raider Foreman
+  Bounty Hunter Drukhar:
+    name: Bounty Hunter Drukhar
+  Corpse Harvester:
+    name: Corpse Harvester
+  Cura Gigno:
+    name: Cura Gigno
+  Cybertron:
+    name: Cybertron
+  Daubs Louel:
+    name: Daubs Louel
+  Don Rico's Henchman:
+    name: Don Rico's Henchman
+  Don Rico's Pleasure Yacht:
+    name: Don Rico's Pleasure Yacht
+  Eule Vitrauze:
+    name: Eule Vitrauze
+  Famon Gurch:
+    name: Famon Gurch
+  Garp Soolim:
+    name: Garp Soolim
+  Gerno Babalu:
+    name: Gerno Babalu
+  Guristas Maniac:
+    name: Guristas Maniac
+  Guristas Outlaw:
+    name: Guristas Outlaw
+  Guristas Robber:
+    name: Guristas Robber
+  Hodura Amaba:
+    name: Hodura Amaba
+  Huriki Vunau:
+    name: Huriki Vunau
+  Jakon Tooka:
+    name: Jakon Tooka
+  Jerpam Hollek:
+    name: Jerpam Hollek
+  Jihar Okham:
+    name: Jihar Okham
+  Kaerleiks Bjorn:
+    name: Kaerleiks Bjorn
+  Kazah Durn:
+    name: Kazah Durn
+  Ketta Tomin2:
+    name: Ketta Tomin2
+  Lagaster Malotoff:
+    name: Lagaster Malotoff
+  Machul Mu'Shabba:
+    name: Machul Mu'Shabba
+  Makele Kordonii:
+    name: Makele Kordonii
+  Malfunctioned Pleasure Cruiser:
+    name: Malfunctioned Pleasure Cruiser
+  Manchura Todaki:
+    name: Manchura Todaki
+  Maqeri Camcen:
+    name: Maqeri Camcen
+  Marin Matola:
+    name: Marin Matola
+  Minmatar Republic Narcotics Officer 2nd Rank:
+    name: Minmatar Republic Narcotics Officer 2nd Rank
+  Motani Ihura:
+    name: Motani Ihura
+  Motoh Olin:
+    name: Motoh Olin
+  Nefantar Pilgrim:
+    name: Nefantar Pilgrim
+  Nikmar Eitan:
+    name: Nikmar Eitan
+  Nugoeihuvi Excavator:
+    name: Nugoeihuvi Excavator
+  Nugoeihuvi Operative:
+    name: Nugoeihuvi Operative
+  Nugoeihuvi Propagandist:
+    name: Nugoeihuvi Propagandist
+  Okham's Cyber Thrall:
+    name: Okham's Cyber Thrall
+  Ours De Soin:
+    name: Ours De Soin
+  Pakkul's Thugs:
+    name: Pakkul's Thugs
+  Pourpas Aunten:
+    name: Pourpas Aunten
+  Propel Dynamics Excavator:
+    name: Propel Dynamics Excavator
+  Propel Dynamics Propagandist:
+    name: Propel Dynamics Propagandist
+  Quao Kale:
+    name: Quao Kale
+  REF Pilot:
+    name: REF Pilot
+  RabaRaba ChooChoo:
+    name: RabaRaba ChooChoo
+  Rekker Malkun:
+    name: Rekker Malkun
+  Roaming Rebel:
+    name: Roaming Rebel
+  Roark:
+    name: Roark
+  Ryoke Laika:
+    name: Ryoke Laika
+  ST 59:
+    name: ST 59
+  ST 60:
+    name: ST 60
+  Serpentis Drug Runner:
+    name: Serpentis Drug Runner
+  Serpentis Surveyor:
+    name: Serpentis Surveyor
+  Sheriff Togany_:
+    name: Sheriff Togany_
+  Sleeban Iratur:
+    name: Sleeban Iratur
+  Splinter Smuggler:
+    name: Splinter Smuggler
+  Suard Fish:
+    name: Suard Fish
+  Tao Pai Motow:
+    name: Tao Pai Motow
+  Tara Buquet:
+    name: Tara Buquet
+  Teinei Kuma:
+    name: Teinei Kuma
+  The Duke:
+    name: The Duke
+  Thukker Scavenger:
+    name: Thukker Scavenger
+  Vanir Makono:
+    name: Vanir Makono
+  Wei Todaki_:
+    name: Wei Todaki_
+  Wolf Skarkert:
+    name: Wolf Skarkert
+  Ytari Niaga:
+    name: Ytari Niaga
+  Zaphiria Oddin:
+    name: Zaphiria Oddin
+  Zvarin Karsha_:
+    name: Zvarin Karsha_

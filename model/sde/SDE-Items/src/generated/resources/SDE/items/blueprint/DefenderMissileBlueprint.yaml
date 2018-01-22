@@ -1,4 +1,6 @@
 items:
   Defender Missile I Blueprint:
     IndustryBlueprintRank: 1.0
-  Heavy Defender Missile I Blueprint: {}
+    name: Defender Missile I Blueprint
+  Heavy Defender Missile I Blueprint:
+    name: Heavy Defender Missile I Blueprint

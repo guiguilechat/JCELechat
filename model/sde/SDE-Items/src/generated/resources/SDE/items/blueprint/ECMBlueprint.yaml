@@ -2,57 +2,76 @@ items:
   '''Gambler'' Ladar ECM Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Gambler'' Ladar ECM Blueprint'
   '''Heist'' Radar ECM Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Heist'' Radar ECM Blueprint'
   '''Marshall'' Magnetometric ECM Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Marshall'' Magnetometric ECM Blueprint'
   '''Plunderer'' Gravimetric ECM Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Plunderer'' Gravimetric ECM Blueprint'
   Gravimetric ECM I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Gravimetric ECM I Blueprint
   Gravimetric ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Gravimetric ECM II Blueprint
   Ladar ECM I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Ladar ECM I Blueprint
   Ladar ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Ladar ECM II Blueprint
   Legion Gravimetric ECM Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Legion Gravimetric ECM Blueprint
   Legion Ladar ECM Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Legion Ladar ECM Blueprint
   Legion Magnetometric ECM Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Legion Magnetometric ECM Blueprint
   Legion Multispectral ECM Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Legion Multispectral ECM Blueprint
   Legion Radar ECM Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Legion Radar ECM Blueprint
   Magnetometric ECM I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Magnetometric ECM I Blueprint
   Magnetometric ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Magnetometric ECM II Blueprint
   Multispectral ECM I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Multispectral ECM I Blueprint
   Multispectral ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Multispectral ECM II Blueprint
   Radar ECM I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Radar ECM I Blueprint
   Radar ECM II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Radar ECM II Blueprint

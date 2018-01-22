@@ -1,4 +1,7 @@
 items:
-  Awakened Keeper: {}
-  Awakened Sentinel: {}
-  Awakened Warden: {}
+  Awakened Keeper:
+    name: Awakened Keeper
+  Awakened Sentinel:
+    name: Awakened Sentinel
+  Awakened Warden:
+    name: Awakened Warden

@@ -1,13 +1,25 @@
 items:
-  Dread Pithior Anarchist: {}
-  Dread Pithior Guerilla: {}
-  Dread Pithior Nihilist: {}
-  Dread Pithior Renegade: {}
-  Dread Pithior Supremacist: {}
-  Dread Pithior Terrorist: {}
-  Pithior Anarchist: {}
-  Pithior Guerilla: {}
-  Pithior Nihilist: {}
-  Pithior Renegade: {}
-  Pithior Supremacist: {}
-  Pithior Terrorist: {}
+  Dread Pithior Anarchist:
+    name: Dread Pithior Anarchist
+  Dread Pithior Guerilla:
+    name: Dread Pithior Guerilla
+  Dread Pithior Nihilist:
+    name: Dread Pithior Nihilist
+  Dread Pithior Renegade:
+    name: Dread Pithior Renegade
+  Dread Pithior Supremacist:
+    name: Dread Pithior Supremacist
+  Dread Pithior Terrorist:
+    name: Dread Pithior Terrorist
+  Pithior Anarchist:
+    name: Pithior Anarchist
+  Pithior Guerilla:
+    name: Pithior Guerilla
+  Pithior Nihilist:
+    name: Pithior Nihilist
+  Pithior Renegade:
+    name: Pithior Renegade
+  Pithior Supremacist:
+    name: Pithior Supremacist
+  Pithior Terrorist:
+    name: Pithior Terrorist

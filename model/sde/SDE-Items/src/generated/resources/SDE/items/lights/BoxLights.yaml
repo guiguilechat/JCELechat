@@ -1,2 +1,3 @@
 items:
-  Default Box Light: {}
+  Default Box Light:
+    name: Default Box Light

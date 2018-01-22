@@ -2,47 +2,66 @@ items:
   CONCORD Capital Remote Shield Booster Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: CONCORD Capital Remote Shield Booster Blueprint
   Capital Ancillary Remote Shield Booster Blueprint:
     TechLevel: 1
+    name: Capital Ancillary Remote Shield Booster Blueprint
   Capital Asymmetric Enduring Remote Shield Booster Blueprint:
     TechLevel: 1
+    name: Capital Asymmetric Enduring Remote Shield Booster Blueprint
   Capital Murky Compact Remote Shield Booster Blueprint:
     TechLevel: 1
+    name: Capital Murky Compact Remote Shield Booster Blueprint
   Capital Remote Shield Booster I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: Capital Remote Shield Booster I Blueprint
   Capital Remote Shield Booster II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Capital Remote Shield Booster II Blueprint
   Capital S95a Scoped Remote Shield Booster Blueprint:
     TechLevel: 1
+    name: Capital S95a Scoped Remote Shield Booster Blueprint
   Domination Capital Remote Shield Booster Blueprint:
     TechLevel: 1
+    name: Domination Capital Remote Shield Booster Blueprint
   Dread Guristas Capital Remote Shield Booster Blueprint:
     TechLevel: 1
+    name: Dread Guristas Capital Remote Shield Booster Blueprint
   Large Ancillary Remote Shield Booster Blueprint:
     TechLevel: 1
+    name: Large Ancillary Remote Shield Booster Blueprint
   Large Remote Shield Booster I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Large Remote Shield Booster I Blueprint
   Large Remote Shield Booster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Large Remote Shield Booster II Blueprint
   Medium Ancillary Remote Shield Booster Blueprint:
     TechLevel: 1
+    name: Medium Ancillary Remote Shield Booster Blueprint
   Medium Remote Shield Booster I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium Remote Shield Booster I Blueprint
   Medium Remote Shield Booster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Medium Remote Shield Booster II Blueprint
   Small Ancillary Remote Shield Booster Blueprint:
     TechLevel: 1
+    name: Small Ancillary Remote Shield Booster Blueprint
   Small Remote Shield Booster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Remote Shield Booster I Blueprint
   Small Remote Shield Booster II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Remote Shield Booster II Blueprint
   True Sansha Capital Remote Shield Booster Blueprint:
     TechLevel: 1
+    name: True Sansha Capital Remote Shield Booster Blueprint

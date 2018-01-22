@@ -16,7 +16,9 @@ items:
     SignatureRadius: 500
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Mobile Scan Inhibitor
   Tournament Practice Unit:
     SignatureRadius: 100
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Tournament Practice Unit

@@ -1,59 +1,117 @@
 items:
-  COSMOS Amarr Archon: {}
-  COSMOS Amarr Collector: {}
-  COSMOS Amarr Engraver: {}
-  COSMOS Amarr Gamma II Support Frigate: {}
-  COSMOS Amarr Phantom: {}
-  COSMOS Amarr Seeker: {}
-  COSMOS Amarr Shade: {}
-  COSMOS Amarr Templar: {}
-  COSMOS Caldari Arrogator: {}
-  COSMOS Caldari Assassin: {}
-  COSMOS Caldari Death Dealer: {}
-  COSMOS Caldari Demolisher: {}
-  COSMOS Caldari Despoiler: {}
-  COSMOS Caldari Destructor: {}
-  COSMOS Caldari Eliminator: {}
-  COSMOS Caldari Imputor: {}
-  COSMOS Caldari Infiltrator: {}
-  COSMOS Caldari Invader: {}
-  COSMOS Caldari Nihilist: {}
-  COSMOS Caldari Non-Pirate Frigate Elite 4: {}
-  COSMOS Caldari Plunderer: {}
-  COSMOS Caldari Saboteur: {}
-  COSMOS Caldari Wrecker: {}
-  COSMOS Gallente Defender: {}
-  COSMOS Gallente Elite Frigate: {}
-  COSMOS Gallente Mercenary: {}
-  COSMOS Gallente Non-Pirate Elite Frigate: {}
-  COSMOS Gallente Patroller: {}
-  COSMOS Gallente Sentinel: {}
-  COSMOS Gallente Soldier: {}
-  COSMOS Magye Death Dealer: {}
-  COSMOS Magye Wrecker: {}
-  COSMOS Minmatar Arch Ambusher: {}
-  COSMOS Minmatar Arch Hunter: {}
-  COSMOS Minmatar Arch Impaler: {}
-  COSMOS Minmatar Arch Raider: {}
-  COSMOS Minmatar Hijacker: {}
-  COSMOS Minmatar Hunter: {}
-  COSMOS Minmatar Impaler: {}
-  COSMOS Minmatar Nomad: {}
-  COSMOS Minmatar Non-Pirate Elite Frigate: {}
-  COSMOS Minmatar Outlaw: {}
-  COSMOS Minmatar Raider: {}
-  COSMOS Minmatar Rogue: {}
-  COSMOS Minmatar Ruffian: {}
-  COSMOS Minmatar Thug: {}
-  Corpii Phantom_COSMOS: {}
-  Corpii Templar_COSMOS: {}
-  FON Frigate 1: {}
-  FON Frigate 2: {}
-  Kador Surveillance Sergeant: {}
-  Maphante Interceptor: {}
-  Mourmarie Mone's Covert Ops Frigate: {}
-  Scope Interceptor: {}
-  Serpentis Prankster: {}
-  Serpentis Prankster_2: {}
-  Temko Grunt: {}
-  Temko Interceptor: {}
+  COSMOS Amarr Archon:
+    name: COSMOS Amarr Archon
+  COSMOS Amarr Collector:
+    name: COSMOS Amarr Collector
+  COSMOS Amarr Engraver:
+    name: COSMOS Amarr Engraver
+  COSMOS Amarr Gamma II Support Frigate:
+    name: COSMOS Amarr Gamma II Support Frigate
+  COSMOS Amarr Phantom:
+    name: COSMOS Amarr Phantom
+  COSMOS Amarr Seeker:
+    name: COSMOS Amarr Seeker
+  COSMOS Amarr Shade:
+    name: COSMOS Amarr Shade
+  COSMOS Amarr Templar:
+    name: COSMOS Amarr Templar
+  COSMOS Caldari Arrogator:
+    name: COSMOS Caldari Arrogator
+  COSMOS Caldari Assassin:
+    name: COSMOS Caldari Assassin
+  COSMOS Caldari Death Dealer:
+    name: COSMOS Caldari Death Dealer
+  COSMOS Caldari Demolisher:
+    name: COSMOS Caldari Demolisher
+  COSMOS Caldari Despoiler:
+    name: COSMOS Caldari Despoiler
+  COSMOS Caldari Destructor:
+    name: COSMOS Caldari Destructor
+  COSMOS Caldari Eliminator:
+    name: COSMOS Caldari Eliminator
+  COSMOS Caldari Imputor:
+    name: COSMOS Caldari Imputor
+  COSMOS Caldari Infiltrator:
+    name: COSMOS Caldari Infiltrator
+  COSMOS Caldari Invader:
+    name: COSMOS Caldari Invader
+  COSMOS Caldari Nihilist:
+    name: COSMOS Caldari Nihilist
+  COSMOS Caldari Non-Pirate Frigate Elite 4:
+    name: COSMOS Caldari Non-Pirate Frigate Elite 4
+  COSMOS Caldari Plunderer:
+    name: COSMOS Caldari Plunderer
+  COSMOS Caldari Saboteur:
+    name: COSMOS Caldari Saboteur
+  COSMOS Caldari Wrecker:
+    name: COSMOS Caldari Wrecker
+  COSMOS Gallente Defender:
+    name: COSMOS Gallente Defender
+  COSMOS Gallente Elite Frigate:
+    name: COSMOS Gallente Elite Frigate
+  COSMOS Gallente Mercenary:
+    name: COSMOS Gallente Mercenary
+  COSMOS Gallente Non-Pirate Elite Frigate:
+    name: COSMOS Gallente Non-Pirate Elite Frigate
+  COSMOS Gallente Patroller:
+    name: COSMOS Gallente Patroller
+  COSMOS Gallente Sentinel:
+    name: COSMOS Gallente Sentinel
+  COSMOS Gallente Soldier:
+    name: COSMOS Gallente Soldier
+  COSMOS Magye Death Dealer:
+    name: COSMOS Magye Death Dealer
+  COSMOS Magye Wrecker:
+    name: COSMOS Magye Wrecker
+  COSMOS Minmatar Arch Ambusher:
+    name: COSMOS Minmatar Arch Ambusher
+  COSMOS Minmatar Arch Hunter:
+    name: COSMOS Minmatar Arch Hunter
+  COSMOS Minmatar Arch Impaler:
+    name: COSMOS Minmatar Arch Impaler
+  COSMOS Minmatar Arch Raider:
+    name: COSMOS Minmatar Arch Raider
+  COSMOS Minmatar Hijacker:
+    name: COSMOS Minmatar Hijacker
+  COSMOS Minmatar Hunter:
+    name: COSMOS Minmatar Hunter
+  COSMOS Minmatar Impaler:
+    name: COSMOS Minmatar Impaler
+  COSMOS Minmatar Nomad:
+    name: COSMOS Minmatar Nomad
+  COSMOS Minmatar Non-Pirate Elite Frigate:
+    name: COSMOS Minmatar Non-Pirate Elite Frigate
+  COSMOS Minmatar Outlaw:
+    name: COSMOS Minmatar Outlaw
+  COSMOS Minmatar Raider:
+    name: COSMOS Minmatar Raider
+  COSMOS Minmatar Rogue:
+    name: COSMOS Minmatar Rogue
+  COSMOS Minmatar Ruffian:
+    name: COSMOS Minmatar Ruffian
+  COSMOS Minmatar Thug:
+    name: COSMOS Minmatar Thug
+  Corpii Phantom_COSMOS:
+    name: Corpii Phantom_COSMOS
+  Corpii Templar_COSMOS:
+    name: Corpii Templar_COSMOS
+  FON Frigate 1:
+    name: FON Frigate 1
+  FON Frigate 2:
+    name: FON Frigate 2
+  Kador Surveillance Sergeant:
+    name: Kador Surveillance Sergeant
+  Maphante Interceptor:
+    name: Maphante Interceptor
+  Mourmarie Mone's Covert Ops Frigate:
+    name: Mourmarie Mone's Covert Ops Frigate
+  Scope Interceptor:
+    name: Scope Interceptor
+  Serpentis Prankster:
+    name: Serpentis Prankster
+  Serpentis Prankster_2:
+    name: Serpentis Prankster_2
+  Temko Grunt:
+    name: Temko Grunt
+  Temko Interceptor:
+    name: Temko Interceptor

@@ -8,6 +8,7 @@ items:
     ScanResolutionMultiplier: 0.5199999809265137
     TechLevel: 1
     WarpScrambleStrength: -1
+    name: '''Accord'' Core Compensation'
   '''Aura'' Warp Core Stabilizer I':
     Cpu: 22.0
     Hp: 40
@@ -19,6 +20,7 @@ items:
     ScanResolutionMultiplier: 0.5600000023841858
     TechLevel: 1
     WarpScrambleStrength: -1
+    name: '''Aura'' Warp Core Stabilizer I'
   '''Halcyon'' Core Equalizer I':
     Hp: 40
     MetaLevel: 4
@@ -28,6 +30,7 @@ items:
     ScanResolutionMultiplier: 0.5799999833106995
     TechLevel: 1
     WarpScrambleStrength: -1
+    name: '''Halcyon'' Core Equalizer I'
   '''Natura'' Warp Core Stabilizer I':
     Hp: 40
     MetaGroupID: 3
@@ -38,6 +41,7 @@ items:
     ScanResolutionMultiplier: 0.6000000238418579
     TechLevel: 1
     WarpScrambleStrength: -1
+    name: '''Natura'' Warp Core Stabilizer I'
   '''Repose'' Core Compensation':
     Hp: 40
     MetaLevel: 2
@@ -47,6 +51,7 @@ items:
     ScanResolutionMultiplier: 0.5400000214576721
     TechLevel: 1
     WarpScrambleStrength: -1
+    name: '''Repose'' Core Compensation'
   '''Stoic'' Core Equalizer I':
     Hp: 40
     MetaLevel: 3
@@ -56,6 +61,7 @@ items:
     ScanResolutionMultiplier: 0.5600000023841858
     TechLevel: 1
     WarpScrambleStrength: -1
+    name: '''Stoic'' Core Equalizer I'
   Warp Core Stabilizer I:
     Hp: 40
     Power: 1
@@ -64,6 +70,7 @@ items:
     ScanResolutionMultiplier: 0.5
     TechLevel: 1
     WarpScrambleStrength: -1
+    name: Warp Core Stabilizer I
   Warp Core Stabilizer II:
     Hp: 40
     MetaLevel: 5
@@ -73,3 +80,4 @@ items:
     ScanResolutionMultiplier: 0.6000000238418579
     TechLevel: 2
     WarpScrambleStrength: -1
+    name: Warp Core Stabilizer II

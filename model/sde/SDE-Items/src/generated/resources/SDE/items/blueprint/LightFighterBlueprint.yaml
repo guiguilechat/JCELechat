@@ -1,41 +1,59 @@
 items:
   BakerBlueprint_PLACEHOLDER:
     TechLevel: 1
+    name: BakerBlueprint_PLACEHOLDER
   CharlieBlueprint_PLACEHOLDER:
     TechLevel: 1
+    name: CharlieBlueprint_PLACEHOLDER
   Dragonfly I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    name: Dragonfly I Blueprint
   Dragonfly II Blueprint:
     TechLevel: 2
+    name: Dragonfly II Blueprint
   Einherji I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    name: Einherji I Blueprint
   Einherji II Blueprint:
     TechLevel: 2
+    name: Einherji II Blueprint
   Equite I Blueprint:
     TechLevel: 1
+    name: Equite I Blueprint
   Equite II Blueprint:
     TechLevel: 2
+    name: Equite II Blueprint
   Firbolg I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    name: Firbolg I Blueprint
   Firbolg II Blueprint:
     TechLevel: 2
+    name: Firbolg II Blueprint
   Gram I Blueprint:
     TechLevel: 1
+    name: Gram I Blueprint
   Gram II Blueprint:
     TechLevel: 2
+    name: Gram II Blueprint
   Locust I Blueprint:
     TechLevel: 1
+    name: Locust I Blueprint
   Locust II Blueprint:
     TechLevel: 2
+    name: Locust II Blueprint
   Satyr I Blueprint:
     TechLevel: 1
+    name: Satyr I Blueprint
   Satyr II Blueprint:
     TechLevel: 2
+    name: Satyr II Blueprint
   Templar I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    name: Templar I Blueprint
   Templar II Blueprint:
     TechLevel: 2
+    name: Templar II Blueprint

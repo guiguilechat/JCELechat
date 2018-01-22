@@ -1,3 +1,5 @@
 items:
-  Infested Carrier: {}
-  Sentient Infested Carrier: {}
+  Infested Carrier:
+    name: Infested Carrier
+  Sentient Infested Carrier:
+    name: Sentient Infested Carrier

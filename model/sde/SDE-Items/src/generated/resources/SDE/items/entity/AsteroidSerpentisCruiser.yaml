@@ -1,26 +1,51 @@
 items:
-  Guardian Chief Defender: {}
-  Guardian Chief Guard: {}
-  Guardian Chief Infantry: {}
-  Guardian Chief Patroller: {}
-  Guardian Chief Protector: {}
-  Guardian Chief Safeguard: {}
-  Guardian Chief Scout: {}
-  Guardian Chief Sentinel: {}
-  Guardian Chief Spy: {}
-  Guardian Chief Watchman: {}
-  Serpentis Chief Defender: {}
-  Serpentis Chief Guard: {}
-  Serpentis Chief Infantry: {}
-  Serpentis Chief Patroller: {}
-  Serpentis Chief Protector: {}
-  Serpentis Chief Safeguard: {}
-  Serpentis Chief Scout: {}
-  Serpentis Chief Sentinel: {}
-  Serpentis Chief Spy: {}
-  Serpentis Chief Watchman: {}
-  Serpentis Clone Soldier Negotiator: {}
-  'Serpentis Clone Soldier Recruiter ': {}
-  Serpentis Clone Soldier Trainer: {}
-  Serpentis Clone Soldier Transporter: {}
-  Serpentis Cruiser: {}
+  Guardian Chief Defender:
+    name: Guardian Chief Defender
+  Guardian Chief Guard:
+    name: Guardian Chief Guard
+  Guardian Chief Infantry:
+    name: Guardian Chief Infantry
+  Guardian Chief Patroller:
+    name: Guardian Chief Patroller
+  Guardian Chief Protector:
+    name: Guardian Chief Protector
+  Guardian Chief Safeguard:
+    name: Guardian Chief Safeguard
+  Guardian Chief Scout:
+    name: Guardian Chief Scout
+  Guardian Chief Sentinel:
+    name: Guardian Chief Sentinel
+  Guardian Chief Spy:
+    name: Guardian Chief Spy
+  Guardian Chief Watchman:
+    name: Guardian Chief Watchman
+  Serpentis Chief Defender:
+    name: Serpentis Chief Defender
+  Serpentis Chief Guard:
+    name: Serpentis Chief Guard
+  Serpentis Chief Infantry:
+    name: Serpentis Chief Infantry
+  Serpentis Chief Patroller:
+    name: Serpentis Chief Patroller
+  Serpentis Chief Protector:
+    name: Serpentis Chief Protector
+  Serpentis Chief Safeguard:
+    name: Serpentis Chief Safeguard
+  Serpentis Chief Scout:
+    name: Serpentis Chief Scout
+  Serpentis Chief Sentinel:
+    name: Serpentis Chief Sentinel
+  Serpentis Chief Spy:
+    name: Serpentis Chief Spy
+  Serpentis Chief Watchman:
+    name: Serpentis Chief Watchman
+  Serpentis Clone Soldier Negotiator:
+    name: Serpentis Clone Soldier Negotiator
+  'Serpentis Clone Soldier Recruiter ':
+    name: 'Serpentis Clone Soldier Recruiter '
+  Serpentis Clone Soldier Trainer:
+    name: Serpentis Clone Soldier Trainer
+  Serpentis Clone Soldier Transporter:
+    name: Serpentis Clone Soldier Transporter
+  Serpentis Cruiser:
+    name: Serpentis Cruiser

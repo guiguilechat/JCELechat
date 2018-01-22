@@ -1,29 +1,57 @@
 items:
-  Dire Guristas Abolisher: {}
-  Dire Guristas Annihilator: {}
-  Dire Guristas Ascriber: {}
-  Dire Guristas Eraser: {}
-  Dire Guristas Inferno: {}
-  Dire Guristas Killer: {}
-  Dire Guristas Mortifier: {}
-  Dire Guristas Murderer: {}
-  Dire Guristas Nullifier: {}
-  Dire Guristas Silencer: {}
-  Gunslinger Ascriber: {}
-  Gunslinger Killer: {}
-  Gunslinger Murderer: {}
-  Gunslinger Silencer: {}
-  Guristas Abolisher: {}
-  Guristas Annihilator: {}
-  Guristas Ascriber: {}
-  Guristas Clone Soldier Negotiator: {}
-  Guristas Clone Soldier Recruiter: {}
-  Guristas Clone Soldier Trainer: {}
-  Guristas Clone Soldier Transporter: {}
-  Guristas Eraser: {}
-  Guristas Inferno: {}
-  Guristas Killer: {}
-  Guristas Mortifier: {}
-  Guristas Murderer: {}
-  Guristas Nullifier: {}
-  Guristas Silencer: {}
+  Dire Guristas Abolisher:
+    name: Dire Guristas Abolisher
+  Dire Guristas Annihilator:
+    name: Dire Guristas Annihilator
+  Dire Guristas Ascriber:
+    name: Dire Guristas Ascriber
+  Dire Guristas Eraser:
+    name: Dire Guristas Eraser
+  Dire Guristas Inferno:
+    name: Dire Guristas Inferno
+  Dire Guristas Killer:
+    name: Dire Guristas Killer
+  Dire Guristas Mortifier:
+    name: Dire Guristas Mortifier
+  Dire Guristas Murderer:
+    name: Dire Guristas Murderer
+  Dire Guristas Nullifier:
+    name: Dire Guristas Nullifier
+  Dire Guristas Silencer:
+    name: Dire Guristas Silencer
+  Gunslinger Ascriber:
+    name: Gunslinger Ascriber
+  Gunslinger Killer:
+    name: Gunslinger Killer
+  Gunslinger Murderer:
+    name: Gunslinger Murderer
+  Gunslinger Silencer:
+    name: Gunslinger Silencer
+  Guristas Abolisher:
+    name: Guristas Abolisher
+  Guristas Annihilator:
+    name: Guristas Annihilator
+  Guristas Ascriber:
+    name: Guristas Ascriber
+  Guristas Clone Soldier Negotiator:
+    name: Guristas Clone Soldier Negotiator
+  Guristas Clone Soldier Recruiter:
+    name: Guristas Clone Soldier Recruiter
+  Guristas Clone Soldier Trainer:
+    name: Guristas Clone Soldier Trainer
+  Guristas Clone Soldier Transporter:
+    name: Guristas Clone Soldier Transporter
+  Guristas Eraser:
+    name: Guristas Eraser
+  Guristas Inferno:
+    name: Guristas Inferno
+  Guristas Killer:
+    name: Guristas Killer
+  Guristas Mortifier:
+    name: Guristas Mortifier
+  Guristas Murderer:
+    name: Guristas Murderer
+  Guristas Nullifier:
+    name: Guristas Nullifier
+  Guristas Silencer:
+    name: Guristas Silencer

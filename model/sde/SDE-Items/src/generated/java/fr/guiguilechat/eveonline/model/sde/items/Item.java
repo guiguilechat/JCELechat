@@ -7,6 +7,7 @@ import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 public abstract class Item {
     public int id;
     public double volume;
+    public String name;
 
     public abstract int getCategoryId();
 

@@ -1,11 +1,21 @@
 items:
-  Domination Breaker: {}
-  Domination Centurion: {}
-  Domination Crusher: {}
-  Domination Defeater: {}
-  Domination Depredator: {}
-  Domination Liquidator: {}
-  Domination Marauder: {}
-  Domination Phalanx: {}
-  Domination Predator: {}
-  Domination Smasher: {}
+  Domination Breaker:
+    name: Domination Breaker
+  Domination Centurion:
+    name: Domination Centurion
+  Domination Crusher:
+    name: Domination Crusher
+  Domination Defeater:
+    name: Domination Defeater
+  Domination Depredator:
+    name: Domination Depredator
+  Domination Liquidator:
+    name: Domination Liquidator
+  Domination Marauder:
+    name: Domination Marauder
+  Domination Phalanx:
+    name: Domination Phalanx
+  Domination Predator:
+    name: Domination Predator
+  Domination Smasher:
+    name: Domination Smasher

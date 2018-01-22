@@ -22,6 +22,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -16.0
+    name: Capital Flex Armor Hardener I
   Capital Flex Armor Hardener II:
     CapacitorNeed: 3600.0
     ChargeGroup1: 1701
@@ -46,6 +47,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     ThermalDamageResistanceBonus: -19.0
+    name: Capital Flex Armor Hardener II
   Dark Blood Capital Flex Armor Hardener:
     CapacitorNeed: 2400.0
     ChargeGroup1: 1701
@@ -71,6 +73,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -20.0
+    name: Dark Blood Capital Flex Armor Hardener
   Shadow Serpentis Capital Flex Armor Hardener:
     CapacitorNeed: 2400.0
     ChargeGroup1: 1701
@@ -96,3 +99,4 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -20.0
+    name: Shadow Serpentis Capital Flex Armor Hardener

@@ -1,7 +1,10 @@
 items:
   Intact Weapon Subroutines:
     IndustryBlueprintRank: 2.0
+    name: Intact Weapon Subroutines
   Malfunctioning Weapon Subroutines:
     IndustryBlueprintRank: 2.0
+    name: Malfunctioning Weapon Subroutines
   Wrecked Weapon Subroutines:
     IndustryBlueprintRank: 2.0
+    name: Wrecked Weapon Subroutines

@@ -1,9 +1,17 @@
 items:
-  Algiophobia Bonus: {}
-  Barophobia Bonus: {}
-  Cenophobia Bonus: {}
-  Claustrophobia Bonus: {}
-  Monophobia Bonus: {}
-  Mysophobia Bonus: {}
-  Taphephobia Bonus: {}
-  Xenophobia Bonus: {}
+  Algiophobia Bonus:
+    name: Algiophobia Bonus
+  Barophobia Bonus:
+    name: Barophobia Bonus
+  Cenophobia Bonus:
+    name: Cenophobia Bonus
+  Claustrophobia Bonus:
+    name: Claustrophobia Bonus
+  Monophobia Bonus:
+    name: Monophobia Bonus
+  Mysophobia Bonus:
+    name: Mysophobia Bonus
+  Taphephobia Bonus:
+    name: Taphephobia Bonus
+  Xenophobia Bonus:
+    name: Xenophobia Bonus

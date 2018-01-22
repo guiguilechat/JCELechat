@@ -1,17 +1,33 @@
 items:
-  Standard Blue Pill Booster Reaction: {}
-  Standard Crash Booster Reaction: {}
-  Standard Drop Booster Reaction: {}
-  Standard Exile Booster Reaction: {}
-  Standard Frentix Booster Reaction: {}
-  Standard Mindflood Booster Reaction: {}
-  Standard Sooth Sayer Booster Reaction: {}
-  Standard X-Instinct Booster Reaction: {}
-  Synth Blue Pill Booster Reaction: {}
-  Synth Crash Booster Reaction: {}
-  Synth Drop Booster Reaction: {}
-  Synth Exile Booster Reaction: {}
-  Synth Frentix Booster Reaction: {}
-  Synth Mindflood Booster Reaction: {}
-  Synth Sooth Sayer Booster Reaction: {}
-  Synth X-Instinct Booster Reaction: {}
+  Standard Blue Pill Booster Reaction:
+    name: Standard Blue Pill Booster Reaction
+  Standard Crash Booster Reaction:
+    name: Standard Crash Booster Reaction
+  Standard Drop Booster Reaction:
+    name: Standard Drop Booster Reaction
+  Standard Exile Booster Reaction:
+    name: Standard Exile Booster Reaction
+  Standard Frentix Booster Reaction:
+    name: Standard Frentix Booster Reaction
+  Standard Mindflood Booster Reaction:
+    name: Standard Mindflood Booster Reaction
+  Standard Sooth Sayer Booster Reaction:
+    name: Standard Sooth Sayer Booster Reaction
+  Standard X-Instinct Booster Reaction:
+    name: Standard X-Instinct Booster Reaction
+  Synth Blue Pill Booster Reaction:
+    name: Synth Blue Pill Booster Reaction
+  Synth Crash Booster Reaction:
+    name: Synth Crash Booster Reaction
+  Synth Drop Booster Reaction:
+    name: Synth Drop Booster Reaction
+  Synth Exile Booster Reaction:
+    name: Synth Exile Booster Reaction
+  Synth Frentix Booster Reaction:
+    name: Synth Frentix Booster Reaction
+  Synth Mindflood Booster Reaction:
+    name: Synth Mindflood Booster Reaction
+  Synth Sooth Sayer Booster Reaction:
+    name: Synth Sooth Sayer Booster Reaction
+  Synth X-Instinct Booster Reaction:
+    name: Synth X-Instinct Booster Reaction

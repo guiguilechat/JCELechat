@@ -2,56 +2,77 @@ items:
   Badger Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    name: Badger Blueprint
   Bestower Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    name: Bestower Blueprint
   Bestower Tash-Murkon Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Bestower Tash-Murkon Edition Blueprint
   Epithal Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    name: Epithal Blueprint
   Hoarder Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    name: Hoarder Blueprint
   Iteron Inner Zone Shipping Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Iteron Inner Zone Shipping Edition Blueprint
   Iteron Mark V Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    name: Iteron Mark V Blueprint
   Kryos Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    name: Kryos Blueprint
   Mammoth Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    name: Mammoth Blueprint
   Mammoth Nefantar Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Mammoth Nefantar Edition Blueprint
   Miasmos Amastris Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Miasmos Amastris Edition Blueprint
   Miasmos Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    name: Miasmos Blueprint
   Miasmos Quafe Ultra Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Miasmos Quafe Ultra Edition Blueprint
   Miasmos Quafe Ultramarine Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Miasmos Quafe Ultramarine Edition Blueprint
   Nereus Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    name: Nereus Blueprint
   Noctis Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    name: Noctis Blueprint
   Primae Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    name: Primae Blueprint
   Sigil Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    name: Sigil Blueprint
   Tayra Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    name: Tayra Blueprint
   Tayra Wiyrkomi Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Tayra Wiyrkomi Edition Blueprint
   Wreathe Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    name: Wreathe Blueprint

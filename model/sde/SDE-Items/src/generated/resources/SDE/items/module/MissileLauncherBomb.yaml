@@ -23,6 +23,7 @@ items:
     Speed: 10000
     TechLevel: 1
     TypeColorScheme: 11324
+    name: Bomb Launcher I
   Bomb Launcher II:
     CanFitShipGroup01: 834
     ChargeGroup1: 90
@@ -48,3 +49,4 @@ items:
     Speed: 10000
     TechLevel: 2
     TypeColorScheme: 11325
+    name: Bomb Launcher II

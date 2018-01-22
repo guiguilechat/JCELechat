@@ -1,5 +1,9 @@
 items:
-  Blood Lookout: {}
-  Blood Sentry: {}
-  Blood Warden: {}
-  Blood Watcher: {}
+  Blood Lookout:
+    name: Blood Lookout
+  Blood Sentry:
+    name: Blood Sentry
+  Blood Warden:
+    name: Blood Warden
+  Blood Watcher:
+    name: Blood Watcher

@@ -7,6 +7,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     SpeedFactor: 1.0
+    name: Auto-Targeting Missiles
   Bomb Deployment:
     PrimaryAttribute: 167
     RequiredSkill1: 12441
@@ -15,6 +16,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
     SpeedFactor: 1.0
+    name: Bomb Deployment
   Cruise Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -26,6 +28,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     SpeedFactor: 1.0
+    name: Cruise Missile Specialization
   Cruise Missiles:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -36,12 +39,14 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     SpeedFactor: 1.0
+    name: Cruise Missiles
   Defender Missiles:
     MissileVelocityBonus: 10.0
     PrimaryAttribute: 167
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     SpeedFactor: 1.0
+    name: Defender Missiles
   Guided Missile Precision:
     AoeCloudSizeBonus: -5.0
     PrimaryAttribute: 167
@@ -50,6 +55,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     SpeedFactor: 1.0
+    name: Guided Missile Precision
   Heavy Assault Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -61,6 +67,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     SpeedFactor: 1.0
+    name: Heavy Assault Missile Specialization
   Heavy Assault Missiles:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -71,6 +78,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     SpeedFactor: 1.0
+    name: Heavy Assault Missiles
   Heavy Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -82,6 +90,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     SpeedFactor: 1.0
+    name: Heavy Missile Specialization
   Heavy Missiles:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -92,6 +101,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     SpeedFactor: 1.0
+    name: Heavy Missiles
   Light Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -103,6 +113,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     SpeedFactor: 1.0
+    name: Light Missile Specialization
   Light Missiles:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -111,6 +122,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     SpeedFactor: 1.0
+    name: Light Missiles
   Missile Bombardment:
     MaxFlightTimeBonus: 10
     PrimaryAttribute: 167
@@ -119,12 +131,14 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     SpeedFactor: 1.0
+    name: Missile Bombardment
   Missile Launcher Operation:
     PrimaryAttribute: 167
     RofBonus: -2
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     SpeedFactor: 1.0
+    name: Missile Launcher Operation
   Missile Projection:
     PrimaryAttribute: 167
     RequiredSkill1: 3319
@@ -132,6 +146,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
     SpeedFactor: 10.0
+    name: Missile Projection
   Rapid Launch:
     PrimaryAttribute: 167
     RequiredSkill1: 3319
@@ -140,6 +155,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     SpeedFactor: 1.0
+    name: Rapid Launch
   Rocket Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -151,6 +167,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     SpeedFactor: 1.0
+    name: Rocket Specialization
   Rockets:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -159,6 +176,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     SpeedFactor: 1.0
+    name: Rockets
   Target Navigation Prediction:
     AoeVelocityBonus: 10.0
     PrimaryAttribute: 167
@@ -167,6 +185,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     SpeedFactor: 1.0
+    name: Target Navigation Prediction
   Torpedo Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -178,6 +197,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     SpeedFactor: 1.0
+    name: Torpedo Specialization
   Torpedoes:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -188,6 +208,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
     SpeedFactor: 1.0
+    name: Torpedoes
   Warhead Upgrades:
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
@@ -196,6 +217,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     SpeedFactor: 1.0
+    name: Warhead Upgrades
   XL Cruise Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -207,6 +229,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     SpeedFactor: 1.0
+    name: XL Cruise Missile Specialization
   XL Cruise Missiles:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
@@ -218,6 +241,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 7.0
     SpeedFactor: 1.0
+    name: XL Cruise Missiles
   XL Torpedo Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -229,6 +253,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     SpeedFactor: 1.0
+    name: XL Torpedo Specialization
   XL Torpedoes:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
@@ -240,3 +265,4 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 7.0
     SpeedFactor: 1.0
+    name: XL Torpedoes

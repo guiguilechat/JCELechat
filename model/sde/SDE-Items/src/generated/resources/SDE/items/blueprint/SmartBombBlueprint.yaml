@@ -2,150 +2,200 @@ items:
   '''Lance'' Medium EMP Smartbomb I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Lance'' Medium EMP Smartbomb I Blueprint'
   '''Pike'' Small EMP Smartbomb I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Pike'' Small EMP Smartbomb I Blueprint'
   '''Warhammer'' Large EMP Smartbomb I Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: '''Warhammer'' Large EMP Smartbomb I Blueprint'
   Ammatar Navy Large EMP Smartbomb Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Ammatar Navy Large EMP Smartbomb Blueprint
   Ammatar Navy Medium EMP Smartbomb Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Ammatar Navy Medium EMP Smartbomb Blueprint
   Ammatar Navy Small EMP Smartbomb Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Small EMP Smartbomb Blueprint
   Caldari Navy Large Graviton Smartbomb Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Caldari Navy Large Graviton Smartbomb Blueprint
   Caldari Navy Medium Graviton Smartbomb Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Caldari Navy Medium Graviton Smartbomb Blueprint
   Caldari Navy Micro Graviton Smartbomb Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Caldari Navy Micro Graviton Smartbomb Blueprint
   Caldari Navy Small Graviton Smartbomb Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Caldari Navy Small Graviton Smartbomb Blueprint
   Federation Navy Large Plasma Smartbomb Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Federation Navy Large Plasma Smartbomb Blueprint
   Federation Navy Medium Plasma Smartbomb Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Federation Navy Medium Plasma Smartbomb Blueprint
   Federation Navy Small Plasma Smartbomb Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy Small Plasma Smartbomb Blueprint
   Imperial Navy Large EMP Smartbomb Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Imperial Navy Large EMP Smartbomb Blueprint
   Imperial Navy Medium EMP Smartbomb Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Imperial Navy Medium EMP Smartbomb Blueprint
   Imperial Navy Micro EMP Smartbomb Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Micro EMP Smartbomb Blueprint
   Imperial Navy Small EMP Smartbomb Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Small EMP Smartbomb Blueprint
   Khanid Navy Large EMP Smartbomb Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Khanid Navy Large EMP Smartbomb Blueprint
   Khanid Navy Medium EMP Smartbomb Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Khanid Navy Medium EMP Smartbomb Blueprint
   Khanid Navy Small EMP Smartbomb Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Khanid Navy Small EMP Smartbomb Blueprint
   Large Degenerative Concussion Bomb I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Large Degenerative Concussion Bomb I Blueprint
   Large EMP Smartbomb I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Large EMP Smartbomb I Blueprint
   Large EMP Smartbomb II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Large EMP Smartbomb II Blueprint
   Large Graviton Smartbomb I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Large Graviton Smartbomb I Blueprint
   Large Graviton Smartbomb II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Large Graviton Smartbomb II Blueprint
   Large Plasma Smartbomb I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Large Plasma Smartbomb I Blueprint
   Large Plasma Smartbomb II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Large Plasma Smartbomb II Blueprint
   Large Proton Smartbomb I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Large Proton Smartbomb I Blueprint
   Large Proton Smartbomb II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Large Proton Smartbomb II Blueprint
   Medium Degenerative Concussion Bomb I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium Degenerative Concussion Bomb I Blueprint
   Medium EMP Smartbomb I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium EMP Smartbomb I Blueprint
   Medium EMP Smartbomb II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Medium EMP Smartbomb II Blueprint
   Medium Graviton Smartbomb I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium Graviton Smartbomb I Blueprint
   Medium Graviton Smartbomb II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Medium Graviton Smartbomb II Blueprint
   Medium Plasma Smartbomb I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium Plasma Smartbomb I Blueprint
   Medium Plasma Smartbomb II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Medium Plasma Smartbomb II Blueprint
   Medium Proton Smartbomb I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium Proton Smartbomb I Blueprint
   Medium Proton Smartbomb II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Medium Proton Smartbomb II Blueprint
   Republic Fleet Large Proton Smartbomb Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Republic Fleet Large Proton Smartbomb Blueprint
   Republic Fleet Medium Proton Smartbomb Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Republic Fleet Medium Proton Smartbomb Blueprint
   Republic Fleet Small Proton Smartbomb Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Republic Fleet Small Proton Smartbomb Blueprint
   Small Degenerative Concussion Bomb I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Degenerative Concussion Bomb I Blueprint
   Small EMP Smartbomb I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small EMP Smartbomb I Blueprint
   Small EMP Smartbomb II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small EMP Smartbomb II Blueprint
   Small Graviton Smartbomb I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Graviton Smartbomb I Blueprint
   Small Graviton Smartbomb II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Graviton Smartbomb II Blueprint
   Small Plasma Smartbomb I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Plasma Smartbomb I Blueprint
   Small Plasma Smartbomb II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Plasma Smartbomb II Blueprint
   Small Proton Smartbomb I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Proton Smartbomb I Blueprint
   Small Proton Smartbomb II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Proton Smartbomb II Blueprint

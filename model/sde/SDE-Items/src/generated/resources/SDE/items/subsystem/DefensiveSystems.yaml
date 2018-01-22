@@ -15,6 +15,7 @@ items:
     SubsystemBonusAmarrDefensive: 5.0
     SubsystemBonusAmarrDefensive2: 5
     TechLevel: 3
+    name: Legion Defensive - Augmented Plating
   Legion Defensive - Covert Reconfiguration:
     CapacitorCapacity: 200.0
     CargoCapacityAdd: 30
@@ -37,6 +38,7 @@ items:
     SubsystemBonusAmarrDefensive3: 7.5
     TechLevel: 3
     VirusStrengthBonus: 10
+    name: Legion Defensive - Covert Reconfiguration
   Legion Defensive - Nanobot Injector:
     ArmorHPBonusAdd: 500
     CapacitorCapacity: 300.0
@@ -55,6 +57,7 @@ items:
     SubsystemBonusAmarrDefensive: 10.0
     SubsystemBonusAmarrDefensive3: 10.0
     TechLevel: 3
+    name: Legion Defensive - Nanobot Injector
   Loki Defensive - Adaptive Defense Node:
     ArmorHPBonusAdd: 300
     CapacitorCapacity: 300.0
@@ -75,6 +78,7 @@ items:
     SubsystemBonusMinmatarDefensive2: 10
     SubsystemBonusMinmatarDefensive3: 10.0
     TechLevel: 3
+    name: Loki Defensive - Adaptive Defense Node
   Loki Defensive - Augmented Durability:
     ArmorHPBonusAdd: 600
     CovertCloakCPUPenalty: 10000
@@ -92,6 +96,7 @@ items:
     SubsystemBonusMinmatarDefensive: 5.0
     SubsystemBonusMinmatarDefensive2: 5
     TechLevel: 3
+    name: Loki Defensive - Augmented Durability
   Loki Defensive - Covert Reconfiguration:
     CapacitorCapacity: 200.0
     CargoCapacityAdd: 30
@@ -113,6 +118,7 @@ items:
     SubsystemBonusMinmatarDefensive3: 7.5
     TechLevel: 3
     VirusStrengthBonus: 10
+    name: Loki Defensive - Covert Reconfiguration
   Proteus Defensive - Augmented Plating:
     ArmorHPBonusAdd: 1000
     CovertCloakCPUPenalty: 10000
@@ -129,6 +135,7 @@ items:
     SubsystemBonusGallenteDefensive: 5.0
     SubsystemBonusGallenteDefensive2: 5
     TechLevel: 3
+    name: Proteus Defensive - Augmented Plating
   Proteus Defensive - Covert Reconfiguration:
     CapacitorCapacity: 200.0
     CargoCapacityAdd: 30
@@ -151,6 +158,7 @@ items:
     SubsystemBonusGallenteDefensive3: 7.5
     TechLevel: 3
     VirusStrengthBonus: 10
+    name: Proteus Defensive - Covert Reconfiguration
   Proteus Defensive - Nanobot Injector:
     ArmorHPBonusAdd: 500
     CapacitorCapacity: 300.0
@@ -169,6 +177,7 @@ items:
     SubsystemBonusGallenteDefensive: 10.0
     SubsystemBonusGallenteDefensive3: 10.0
     TechLevel: 3
+    name: Proteus Defensive - Nanobot Injector
   Tengu Defensive - Amplification Node:
     ArmorHPBonusAdd: 100
     CapacitorCapacity: 300.0
@@ -187,6 +196,7 @@ items:
     SubsystemBonusCaldariDefensive: 10.0
     SubsystemBonusCaldariDefensive3: 10.0
     TechLevel: 3
+    name: Tengu Defensive - Amplification Node
   Tengu Defensive - Covert Reconfiguration:
     ArmorHPBonusAdd: 300
     CapacitorCapacity: 200.0
@@ -208,6 +218,7 @@ items:
     SubsystemBonusCaldariDefensive3: 7.5
     TechLevel: 3
     VirusStrengthBonus: 10
+    name: Tengu Defensive - Covert Reconfiguration
   Tengu Defensive - Supplemental Screening:
     CovertCloakCPUPenalty: 10000
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -224,3 +235,4 @@ items:
     SubsystemBonusCaldariDefensive: 5.0
     SubsystemBonusCaldariDefensive2: 5
     TechLevel: 3
+    name: Tengu Defensive - Supplemental Screening

@@ -7,6 +7,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     WarpSpeedAdd: 0.25
+    name: Experimental Hyperspatial Accelerator
   Limited Hyperspatial Accelerator:
     Hp: 40
     MaxGroupFitted: 3
@@ -15,6 +16,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     WarpSpeedAdd: 0.20000000298023224
+    name: Limited Hyperspatial Accelerator
   Prototype Hyperspatial Accelerator:
     Hp: 40
     MaxGroupFitted: 3
@@ -23,3 +25,4 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     WarpSpeedAdd: 0.30000001192092896
+    name: Prototype Hyperspatial Accelerator

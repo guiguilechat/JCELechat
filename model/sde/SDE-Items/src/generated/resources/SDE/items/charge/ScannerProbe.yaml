@@ -15,6 +15,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 22.5
+    name: Combat Scanner Probe I
   Core Scanner Probe I:
     Agility: 1000.0
     BaseMaxScanDeviation: 0.125
@@ -30,6 +31,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 15.0
+    name: Core Scanner Probe I
   RSS Core Scanner Probe:
     Agility: 1000.0
     BaseMaxScanDeviation: 0.125
@@ -46,6 +48,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 15.0
+    name: RSS Core Scanner Probe
   Sisters Combat Scanner Probe:
     Agility: 1000.0
     BaseMaxScanDeviation: 0.25
@@ -63,6 +66,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 22.5
+    name: Sisters Combat Scanner Probe
   Sisters Core Scanner Probe:
     Agility: 1000.0
     BaseMaxScanDeviation: 0.125
@@ -79,3 +83,4 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 15.0
+    name: Sisters Core Scanner Probe

@@ -8,6 +8,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    name: Advanced Drone Avionics
   Amarr Drone Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -16,6 +17,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    name: Amarr Drone Specialization
   Caldari Drone Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -24,6 +26,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    name: Caldari Drone Specialization
   Drone Avionics:
     DroneRangeBonus: 5000
     PrimaryAttribute: 166
@@ -31,6 +34,7 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
+    name: Drone Avionics
   Drone Durability:
     ArmorHpBonus: 5
     PrimaryAttribute: 166
@@ -38,6 +42,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    name: Drone Durability
   Drone Interfacing:
     DamageMultiplierBonus: 10
     MiningAmountBonus: 10
@@ -46,6 +51,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    name: Drone Interfacing
   Drone Navigation:
     MaxVelocityBonus: 5
     PrimaryAttribute: 166
@@ -53,6 +59,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
+    name: Drone Navigation
   Drone Sharpshooting:
     PrimaryAttribute: 166
     RangeSkillBonus: 5
@@ -60,11 +67,13 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
+    name: Drone Sharpshooting
   Drones:
     MaxActiveDroneBonus: 1
     PrimaryAttribute: 166
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
+    name: Drones
   Fighter Hangar Management:
     PrimaryAttribute: 166
     RequiredSkill1: 23069
@@ -72,6 +81,7 @@ items:
     SecondaryAttribute: 167
     SkillBonusFighterHangarSize: 5
     SkillTimeConstant: 8.0
+    name: Fighter Hangar Management
   Fighters:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
@@ -82,6 +92,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 12.0
+    name: Fighters
   Gallente Drone Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -90,6 +101,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    name: Gallente Drone Specialization
   Heavy Drone Operation:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 166
@@ -97,6 +109,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    name: Heavy Drone Operation
   Heavy Fighters:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
@@ -105,6 +118,7 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
     SkillTimeConstant: 12.0
+    name: Heavy Fighters
   Ice Harvesting Drone Operation:
     PrimaryAttribute: 166
     RequiredSkill1: 3436
@@ -114,6 +128,7 @@ items:
     RofBonus: -5
     SecondaryAttribute: 167
     SkillTimeConstant: 2.0
+    name: Ice Harvesting Drone Operation
   Ice Harvesting Drone Specialization:
     MaxVelocityBonus: 2
     PrimaryAttribute: 166
@@ -124,6 +139,7 @@ items:
     RofBonus: -2
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    name: Ice Harvesting Drone Specialization
   Light Drone Operation:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 166
@@ -131,6 +147,7 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
+    name: Light Drone Operation
   Light Fighters:
     CanNotBeTrainedOnTrial: 1
     MaxVelocityBonus: 5
@@ -139,6 +156,7 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
     SkillTimeConstant: 12.0
+    name: Light Fighters
   Medium Drone Operation:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 166
@@ -146,6 +164,7 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 167
     SkillTimeConstant: 2.0
+    name: Medium Drone Operation
   Mining Drone Operation:
     MiningAmountBonus: 5
     PrimaryAttribute: 166
@@ -155,6 +174,7 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 167
     SkillTimeConstant: 2.0
+    name: Mining Drone Operation
   Mining Drone Specialization:
     MaxVelocityBonus: 2
     MiningAmountBonus: 2
@@ -165,6 +185,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    name: Mining Drone Specialization
   Minmatar Drone Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -173,6 +194,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    name: Minmatar Drone Specialization
   Propulsion Jamming Drone Interfacing:
     PrimaryAttribute: 166
     PropulsionSkillPropulsionStrengthBonus: 5
@@ -182,6 +204,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    name: Propulsion Jamming Drone Interfacing
   Repair Drone Operation:
     DamageHP: 5
     PrimaryAttribute: 166
@@ -191,6 +214,7 @@ items:
     RequiredSkill2Level: 1
     SecondaryAttribute: 167
     SkillTimeConstant: 3.0
+    name: Repair Drone Operation
   Salvage Drone Operation:
     AccessDifficultyBonus: 2
     PrimaryAttribute: 166
@@ -200,6 +224,7 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
+    name: Salvage Drone Operation
   Sentry Drone Interfacing:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 166
@@ -209,6 +234,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    name: Sentry Drone Interfacing
   Support Fighters:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
@@ -218,9 +244,11 @@ items:
     ShieldBonus: 5.0
     SkillLevel: 1
     SkillTimeConstant: 12.0
+    name: Support Fighters
   TEST Drone Skill:
     PrimaryAttribute: 166
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    name: TEST Drone Skill

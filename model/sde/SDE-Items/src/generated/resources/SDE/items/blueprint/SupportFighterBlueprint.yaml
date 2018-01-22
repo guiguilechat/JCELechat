@@ -1,19 +1,28 @@
 items:
   AbleBlueprint_PLACEHOLDER:
     TechLevel: 1
+    name: AbleBlueprint_PLACEHOLDER
   Cenobite I Blueprint:
     TechLevel: 1
+    name: Cenobite I Blueprint
   Cenobite II Blueprint:
     TechLevel: 2
+    name: Cenobite II Blueprint
   Dromi I Blueprint:
     TechLevel: 1
+    name: Dromi I Blueprint
   Dromi II Blueprint:
     TechLevel: 2
+    name: Dromi II Blueprint
   Scarab I Blueprint:
     TechLevel: 1
+    name: Scarab I Blueprint
   Scarab II Blueprint:
     TechLevel: 2
+    name: Scarab II Blueprint
   Siren I Blueprint:
     TechLevel: 1
+    name: Siren I Blueprint
   Siren II Blueprint:
     TechLevel: 2
+    name: Siren II Blueprint

@@ -1,32 +1,63 @@
 items:
-  Dire Guristas Arrogator: {}
-  Dire Guristas Demolisher: {}
-  Dire Guristas Despoiler: {}
-  Dire Guristas Destructor: {}
-  Dire Guristas Imputor: {}
-  Dire Guristas Infiltrator: {}
-  Dire Guristas Invader: {}
-  Dire Guristas Plunderer: {}
-  Dire Guristas Saboteur: {}
-  Dire Guristas Wrecker: {}
-  Guristas Arrogator: {}
-  Guristas Demolisher: {}
-  Guristas Despoiler: {}
-  Guristas Destructor: {}
-  Guristas Imputor: {}
-  Guristas Infiltrator: {}
-  Guristas Invader: {}
-  Guristas Plunderer: {}
-  Guristas Saboteur: {}
-  Guristas Wrecker: {}
-  Outlaw Arrogator: {}
-  Outlaw Demolisher: {}
-  Outlaw Despoiler: {}
-  Outlaw Destructor: {}
-  Outlaw Imputor: {}
-  Outlaw Infiltrator: {}
-  Outlaw Invader: {}
-  Outlaw Plunderer: {}
-  Outlaw Saboteur: {}
-  Outlaw Wrecker: {}
-  TEST ATTACKER: {}
+  Dire Guristas Arrogator:
+    name: Dire Guristas Arrogator
+  Dire Guristas Demolisher:
+    name: Dire Guristas Demolisher
+  Dire Guristas Despoiler:
+    name: Dire Guristas Despoiler
+  Dire Guristas Destructor:
+    name: Dire Guristas Destructor
+  Dire Guristas Imputor:
+    name: Dire Guristas Imputor
+  Dire Guristas Infiltrator:
+    name: Dire Guristas Infiltrator
+  Dire Guristas Invader:
+    name: Dire Guristas Invader
+  Dire Guristas Plunderer:
+    name: Dire Guristas Plunderer
+  Dire Guristas Saboteur:
+    name: Dire Guristas Saboteur
+  Dire Guristas Wrecker:
+    name: Dire Guristas Wrecker
+  Guristas Arrogator:
+    name: Guristas Arrogator
+  Guristas Demolisher:
+    name: Guristas Demolisher
+  Guristas Despoiler:
+    name: Guristas Despoiler
+  Guristas Destructor:
+    name: Guristas Destructor
+  Guristas Imputor:
+    name: Guristas Imputor
+  Guristas Infiltrator:
+    name: Guristas Infiltrator
+  Guristas Invader:
+    name: Guristas Invader
+  Guristas Plunderer:
+    name: Guristas Plunderer
+  Guristas Saboteur:
+    name: Guristas Saboteur
+  Guristas Wrecker:
+    name: Guristas Wrecker
+  Outlaw Arrogator:
+    name: Outlaw Arrogator
+  Outlaw Demolisher:
+    name: Outlaw Demolisher
+  Outlaw Despoiler:
+    name: Outlaw Despoiler
+  Outlaw Destructor:
+    name: Outlaw Destructor
+  Outlaw Imputor:
+    name: Outlaw Imputor
+  Outlaw Infiltrator:
+    name: Outlaw Infiltrator
+  Outlaw Invader:
+    name: Outlaw Invader
+  Outlaw Plunderer:
+    name: Outlaw Plunderer
+  Outlaw Saboteur:
+    name: Outlaw Saboteur
+  Outlaw Wrecker:
+    name: Outlaw Wrecker
+  TEST ATTACKER:
+    name: TEST ATTACKER

@@ -6,6 +6,7 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    name: Capital Ionic Field Projector I
   Capital Ionic Field Projector II:
     Drawback: -10
     Hp: 40
@@ -14,6 +15,7 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    name: Capital Ionic Field Projector II
   Capital Targeting System Subcontroller I:
     Drawback: -10
     Hp: 40
@@ -21,6 +23,7 @@ items:
     ScanResolutionBonus: 20.0
     TechLevel: 1
     UpgradeCost: 100
+    name: Capital Targeting System Subcontroller I
   Capital Targeting System Subcontroller II:
     Drawback: -10
     Hp: 40
@@ -29,6 +32,7 @@ items:
     ScanResolutionBonus: 25.0
     TechLevel: 2
     UpgradeCost: 150
+    name: Capital Targeting System Subcontroller II
   Large Ionic Field Projector I:
     Drawback: -10
     Hp: 40
@@ -36,6 +40,7 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    name: Large Ionic Field Projector I
   Large Ionic Field Projector II:
     Drawback: -10
     Hp: 40
@@ -44,6 +49,7 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    name: Large Ionic Field Projector II
   Large Targeting System Subcontroller I:
     Drawback: -10
     Hp: 40
@@ -51,6 +57,7 @@ items:
     ScanResolutionBonus: 20.0
     TechLevel: 1
     UpgradeCost: 100
+    name: Large Targeting System Subcontroller I
   Large Targeting System Subcontroller II:
     Drawback: -10
     Hp: 40
@@ -59,6 +66,7 @@ items:
     ScanResolutionBonus: 25.0
     TechLevel: 2
     UpgradeCost: 150
+    name: Large Targeting System Subcontroller II
   Medium Ionic Field Projector I:
     Drawback: -10
     Hp: 40
@@ -66,6 +74,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    name: Medium Ionic Field Projector I
   Medium Ionic Field Projector II:
     Drawback: -10
     Hp: 40
@@ -74,6 +83,7 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    name: Medium Ionic Field Projector II
   Medium Targeting System Subcontroller I:
     Drawback: -10
     Hp: 40
@@ -81,6 +91,7 @@ items:
     ScanResolutionBonus: 20.0
     TechLevel: 1
     UpgradeCost: 100
+    name: Medium Targeting System Subcontroller I
   Medium Targeting System Subcontroller II:
     Drawback: -10
     Hp: 40
@@ -89,6 +100,7 @@ items:
     ScanResolutionBonus: 25.0
     TechLevel: 2
     UpgradeCost: 150
+    name: Medium Targeting System Subcontroller II
   Small Ionic Field Projector I:
     Drawback: -10
     Hp: 40
@@ -96,6 +108,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    name: Small Ionic Field Projector I
   Small Ionic Field Projector II:
     Drawback: -10
     Hp: 40
@@ -104,6 +117,7 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    name: Small Ionic Field Projector II
   Small Targeting System Subcontroller I:
     Drawback: -10
     Hp: 40
@@ -111,6 +125,7 @@ items:
     ScanResolutionBonus: 20.0
     TechLevel: 1
     UpgradeCost: 100
+    name: Small Targeting System Subcontroller I
   Small Targeting System Subcontroller II:
     Drawback: -10
     Hp: 40
@@ -119,3 +134,4 @@ items:
     ScanResolutionBonus: 25.0
     TechLevel: 2
     UpgradeCost: 150
+    name: Small Targeting System Subcontroller II

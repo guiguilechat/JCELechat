@@ -1,12 +1,19 @@
 items:
   Avatar Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Avatar Blueprint
   Erebus Blueprint:
     IndustryBlueprintRank: 600.0
-  Komodo Blueprint: {}
+    name: Erebus Blueprint
+  Komodo Blueprint:
+    name: Komodo Blueprint
   Leviathan Blueprint:
     IndustryBlueprintRank: 600.0
-  Molok Blueprint: {}
+    name: Leviathan Blueprint
+  Molok Blueprint:
+    name: Molok Blueprint
   Ragnarok Blueprint:
     IndustryBlueprintRank: 600.0
-  Vanquisher Blueprint: {}
+    name: Ragnarok Blueprint
+  Vanquisher Blueprint:
+    name: Vanquisher Blueprint

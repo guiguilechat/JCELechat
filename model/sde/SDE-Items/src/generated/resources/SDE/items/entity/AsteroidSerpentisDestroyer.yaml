@@ -1,7 +1,13 @@
 items:
-  Serpentis Artillery: {}
-  Serpentis Cannoneer: {}
-  Serpentis Infantry: {}
-  Serpentis Sentinel: {}
-  Serpentis Soldier: {}
-  Serpentis Trooper: {}
+  Serpentis Artillery:
+    name: Serpentis Artillery
+  Serpentis Cannoneer:
+    name: Serpentis Cannoneer
+  Serpentis Infantry:
+    name: Serpentis Infantry
+  Serpentis Sentinel:
+    name: Serpentis Sentinel
+  Serpentis Soldier:
+    name: Serpentis Soldier
+  Serpentis Trooper:
+    name: Serpentis Trooper

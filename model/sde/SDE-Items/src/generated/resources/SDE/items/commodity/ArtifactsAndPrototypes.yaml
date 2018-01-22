@@ -1,42 +1,83 @@
 items:
-  Angel Advanced Trigger Mechanism: {}
-  Angel Dynamic Calibrator: {}
-  Angel Simple Trigger Mechanism: {}
-  Angel Spatial Analyzer: {}
-  Angel Standard Trigger Mechanism: {}
-  Blood Raider Extreme Ballistic Control: {}
-  Blood Raider Limited Ballistic Control: {}
-  Blood Raider Power Redistributor: {}
-  Blood Raider Regular Ballistic Control: {}
-  Blood Raider Weapon Integration Unit: {}
-  Guristas Graviton Hardening: {}
-  Guristas Gravity Focuser: {}
-  Guristas Heavy Weapon Console: {}
-  Guristas Light Weapon Console: {}
-  Guristas Medium Weapon Console: {}
-  Serpentis 3D Scanner Gamut: {}
-  Serpentis Basic Target Guider: {}
-  Serpentis Complex Target Guider: {}
-  Serpentis Modified Capital Microprocessor: {}
-  Serpentis Multi-tasking Processor: {}
-  Serpentis Plain Target Guider: {}
-  Sleeper Heat Nullifying Coil: {}
-  Sleeper Hyperbooster: {}
-  Sleeper Nanite Cluster: {}
-  Sleeper Reintegration Control: {}
-  Sleeper Thermal Regulator: {}
-  Takmahl Biodroid Controller: {}
-  Takmahl Dynamic Gauge: {}
-  Takmahl Gyro Ballast: {}
-  Takmahl Phrenic Appendix: {}
-  Takmahl Quantum Sphere: {}
-  Talocan Perpetual Clock: {}
-  Talocan Solid Atomizer: {}
-  Talocan Stasis Deflector: {}
-  Talocan Stasis Inverter: {}
-  Talocan System Interface Unit: {}
-  Yan Jung Crystal Cylinder: {}
-  Yan Jung Paradox Box: {}
-  Yan Jung Tachyon Stetoscope: {}
-  Yan Jung Thunder Kite: {}
-  Yan Jung Void Machine: {}
+  Angel Advanced Trigger Mechanism:
+    name: Angel Advanced Trigger Mechanism
+  Angel Dynamic Calibrator:
+    name: Angel Dynamic Calibrator
+  Angel Simple Trigger Mechanism:
+    name: Angel Simple Trigger Mechanism
+  Angel Spatial Analyzer:
+    name: Angel Spatial Analyzer
+  Angel Standard Trigger Mechanism:
+    name: Angel Standard Trigger Mechanism
+  Blood Raider Extreme Ballistic Control:
+    name: Blood Raider Extreme Ballistic Control
+  Blood Raider Limited Ballistic Control:
+    name: Blood Raider Limited Ballistic Control
+  Blood Raider Power Redistributor:
+    name: Blood Raider Power Redistributor
+  Blood Raider Regular Ballistic Control:
+    name: Blood Raider Regular Ballistic Control
+  Blood Raider Weapon Integration Unit:
+    name: Blood Raider Weapon Integration Unit
+  Guristas Graviton Hardening:
+    name: Guristas Graviton Hardening
+  Guristas Gravity Focuser:
+    name: Guristas Gravity Focuser
+  Guristas Heavy Weapon Console:
+    name: Guristas Heavy Weapon Console
+  Guristas Light Weapon Console:
+    name: Guristas Light Weapon Console
+  Guristas Medium Weapon Console:
+    name: Guristas Medium Weapon Console
+  Serpentis 3D Scanner Gamut:
+    name: Serpentis 3D Scanner Gamut
+  Serpentis Basic Target Guider:
+    name: Serpentis Basic Target Guider
+  Serpentis Complex Target Guider:
+    name: Serpentis Complex Target Guider
+  Serpentis Modified Capital Microprocessor:
+    name: Serpentis Modified Capital Microprocessor
+  Serpentis Multi-tasking Processor:
+    name: Serpentis Multi-tasking Processor
+  Serpentis Plain Target Guider:
+    name: Serpentis Plain Target Guider
+  Sleeper Heat Nullifying Coil:
+    name: Sleeper Heat Nullifying Coil
+  Sleeper Hyperbooster:
+    name: Sleeper Hyperbooster
+  Sleeper Nanite Cluster:
+    name: Sleeper Nanite Cluster
+  Sleeper Reintegration Control:
+    name: Sleeper Reintegration Control
+  Sleeper Thermal Regulator:
+    name: Sleeper Thermal Regulator
+  Takmahl Biodroid Controller:
+    name: Takmahl Biodroid Controller
+  Takmahl Dynamic Gauge:
+    name: Takmahl Dynamic Gauge
+  Takmahl Gyro Ballast:
+    name: Takmahl Gyro Ballast
+  Takmahl Phrenic Appendix:
+    name: Takmahl Phrenic Appendix
+  Takmahl Quantum Sphere:
+    name: Takmahl Quantum Sphere
+  Talocan Perpetual Clock:
+    name: Talocan Perpetual Clock
+  Talocan Solid Atomizer:
+    name: Talocan Solid Atomizer
+  Talocan Stasis Deflector:
+    name: Talocan Stasis Deflector
+  Talocan Stasis Inverter:
+    name: Talocan Stasis Inverter
+  Talocan System Interface Unit:
+    name: Talocan System Interface Unit
+  Yan Jung Crystal Cylinder:
+    name: Yan Jung Crystal Cylinder
+  Yan Jung Paradox Box:
+    name: Yan Jung Paradox Box
+  Yan Jung Tachyon Stetoscope:
+    name: Yan Jung Tachyon Stetoscope
+  Yan Jung Thunder Kite:
+    name: Yan Jung Thunder Kite
+  Yan Jung Void Machine:
+    name: Yan Jung Void Machine

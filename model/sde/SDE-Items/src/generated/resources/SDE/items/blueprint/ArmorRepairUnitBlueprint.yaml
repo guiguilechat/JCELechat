@@ -2,55 +2,75 @@ items:
   '''Gorget'' Small Armor Repairer I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Gorget'' Small Armor Repairer I Blueprint'
   '''Greaves'' Medium Armor Repairer I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Greaves'' Medium Armor Repairer I Blueprint'
   '''Harmony'' Small Armor Repairer I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Harmony'' Small Armor Repairer I Blueprint'
   '''Hauberk'' Large Armor Repairer I Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: '''Hauberk'' Large Armor Repairer I Blueprint'
   '''Meditation'' Medium Armor Repairer I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Meditation'' Medium Armor Repairer I Blueprint'
   '''Protest'' Large Armor Repairer I Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: '''Protest'' Large Armor Repairer I Blueprint'
   CONCORD Capital Armor Repairer Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: CONCORD Capital Armor Repairer Blueprint
   Capital ACM Compact Armor Repairer Blueprint:
     TechLevel: 1
+    name: Capital ACM Compact Armor Repairer Blueprint
   Capital Armor Repairer I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: Capital Armor Repairer I Blueprint
   Capital Armor Repairer II Blueprint:
     TechLevel: 1
+    name: Capital Armor Repairer II Blueprint
   Capital I-a Enduring Armor Repairer Blueprint:
     TechLevel: 1
+    name: Capital I-a Enduring Armor Repairer Blueprint
   Civilian Armor Repairer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Civilian Armor Repairer Blueprint
   Dark Blood Capital Armor Repairer Blueprint:
     TechLevel: 1
+    name: Dark Blood Capital Armor Repairer Blueprint
   Large Armor Repairer I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Large Armor Repairer I Blueprint
   Large Armor Repairer II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Large Armor Repairer II Blueprint
   Medium Armor Repairer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium Armor Repairer I Blueprint
   Medium Armor Repairer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Medium Armor Repairer II Blueprint
   Shadow Serpentis Capital Armor Repairer Blueprint:
     TechLevel: 1
+    name: Shadow Serpentis Capital Armor Repairer Blueprint
   Small Armor Repairer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Armor Repairer I Blueprint
   Small Armor Repairer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Armor Repairer II Blueprint

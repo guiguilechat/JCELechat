@@ -1,27 +1,53 @@
 items:
-  Blockade General Sade: {}
-  Centus Black Ops Commander: {}
-  Corpii Monk: {}
-  Dark Blood Alpha: {}
-  Dark Blood Keeper: {}
-  Domination Grigori: {}
-  Dread Guristas Irregular: {}
-  Dread Pithi Terminator: {}
-  Eha Hidaiki: {}
-  Elgur Erinn: {}
-  Gamat Hakoot: {}
-  Gistii Domination Scavenger: {}
-  Jols Eytur: {}
-  Outpost Security Officer: {}
-  Retired Mining Veteran: {}
-  Rogue Harvesting Vessel: {}
-  Sansha Black Ops Squad Leader: {}
-  Sansha Tenebrus: {}
-  Serpentis Drugstore Overseer: {}
-  Shadow Coreli Antagonist: {}
-  Shadow Serpentis Warden: {}
-  Supply Station Manager: {}
-  The Superintendent: {}
-  True Centii Revelator: {}
-  Vlye Cadille: {}
-  chantal testing thingy: {}
+  Blockade General Sade:
+    name: Blockade General Sade
+  Centus Black Ops Commander:
+    name: Centus Black Ops Commander
+  Corpii Monk:
+    name: Corpii Monk
+  Dark Blood Alpha:
+    name: Dark Blood Alpha
+  Dark Blood Keeper:
+    name: Dark Blood Keeper
+  Domination Grigori:
+    name: Domination Grigori
+  Dread Guristas Irregular:
+    name: Dread Guristas Irregular
+  Dread Pithi Terminator:
+    name: Dread Pithi Terminator
+  Eha Hidaiki:
+    name: Eha Hidaiki
+  Elgur Erinn:
+    name: Elgur Erinn
+  Gamat Hakoot:
+    name: Gamat Hakoot
+  Gistii Domination Scavenger:
+    name: Gistii Domination Scavenger
+  Jols Eytur:
+    name: Jols Eytur
+  Outpost Security Officer:
+    name: Outpost Security Officer
+  Retired Mining Veteran:
+    name: Retired Mining Veteran
+  Rogue Harvesting Vessel:
+    name: Rogue Harvesting Vessel
+  Sansha Black Ops Squad Leader:
+    name: Sansha Black Ops Squad Leader
+  Sansha Tenebrus:
+    name: Sansha Tenebrus
+  Serpentis Drugstore Overseer:
+    name: Serpentis Drugstore Overseer
+  Shadow Coreli Antagonist:
+    name: Shadow Coreli Antagonist
+  Shadow Serpentis Warden:
+    name: Shadow Serpentis Warden
+  Supply Station Manager:
+    name: Supply Station Manager
+  The Superintendent:
+    name: The Superintendent
+  True Centii Revelator:
+    name: True Centii Revelator
+  Vlye Cadille:
+    name: Vlye Cadille
+  chantal testing thingy:
+    name: chantal testing thingy

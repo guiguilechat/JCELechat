@@ -10,6 +10,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 1
+    name: '''Full Duplex'' Ballistic Control System'
   '''Pandemonium'' Ballistic Enhancement':
     Hp: 40
     MetaLevel: 4
@@ -19,6 +20,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 1
+    name: '''Pandemonium'' Ballistic Enhancement'
   Ballistic 'Purge' Targeting System I:
     Hp: 40
     MetaGroupID: 3
@@ -29,6 +31,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.925000011920929
     TechLevel: 1
+    name: Ballistic 'Purge' Targeting System I
   Ballistic Control System I:
     Hp: 40
     MissileDamageMultiplierBonus: 1.0700000524520874
@@ -37,6 +40,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9200000166893005
     TechLevel: 1
+    name: Ballistic Control System I
   Ballistic Control System II:
     Hp: 40
     MetaLevel: 5
@@ -46,6 +50,7 @@ items:
     RequiredSkill1Level: 4
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 2
+    name: Ballistic Control System II
   Caldari Navy Ballistic Control System:
     Hp: 40
     MetaGroupID: 4
@@ -56,6 +61,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Caldari Navy Ballistic Control System
   Crosslink Compact Ballistic Control System:
     Cpu: 31.0
     Hp: 40
@@ -66,6 +72,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9049999713897705
     TechLevel: 1
+    name: Crosslink Compact Ballistic Control System
   Domination Ballistic Control System:
     Cpu: 24.0
     Hp: 40
@@ -77,6 +84,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Domination Ballistic Control System
   Dread Guristas Ballistic Control System:
     Hp: 40
     MetaGroupID: 4
@@ -87,6 +95,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Dread Guristas Ballistic Control System
   Estamel's Modified Ballistic Control System:
     Hp: 40
     MetaGroupID: 5
@@ -97,6 +106,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Estamel's Modified Ballistic Control System
   Gotan's Modified Ballistic Control System:
     Cpu: 31.0
     Hp: 40
@@ -108,6 +118,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Gotan's Modified Ballistic Control System
   Hakim's Modified Ballistic Control System:
     Cpu: 29.0
     Hp: 40
@@ -119,6 +130,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Hakim's Modified Ballistic Control System
   Kaatara's Custom Ballistic Control System:
     Cpu: 38.0
     Hp: 40
@@ -130,6 +142,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
+    name: Kaatara's Custom Ballistic Control System
   Kaikka's Modified Ballistic Control System:
     Hp: 40
     MetaGroupID: 5
@@ -140,6 +153,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Kaikka's Modified Ballistic Control System
   Khanid Navy Ballistic Control System:
     Hp: 40
     MetaGroupID: 4
@@ -150,6 +164,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Khanid Navy Ballistic Control System
   Mizuro's Modified Ballistic Control System:
     Cpu: 26.0
     Hp: 40
@@ -161,6 +176,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Mizuro's Modified Ballistic Control System
   Multiphasic Bolt Array I:
     Hp: 40
     MetaLevel: 3
@@ -170,6 +186,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9024999737739563
     TechLevel: 1
+    name: Multiphasic Bolt Array I
   Muon Coil Bolt Array I:
     Hp: 40
     MetaLevel: 2
@@ -179,6 +196,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9100000262260437
     TechLevel: 1
+    name: Muon Coil Bolt Array I
   Republic Fleet Ballistic Control System:
     Cpu: 24.0
     Hp: 40
@@ -190,6 +208,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Republic Fleet Ballistic Control System
   Thon's Modified Ballistic Control System:
     Hp: 40
     MetaGroupID: 5
@@ -200,6 +219,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Thon's Modified Ballistic Control System
   Tobias' Modified Ballistic Control System:
     Cpu: 34.0
     Hp: 40
@@ -211,6 +231,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Tobias' Modified Ballistic Control System
   Vepas' Modified Ballistic Control System:
     Hp: 40
     MetaGroupID: 5
@@ -221,3 +242,4 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Vepas' Modified Ballistic Control System

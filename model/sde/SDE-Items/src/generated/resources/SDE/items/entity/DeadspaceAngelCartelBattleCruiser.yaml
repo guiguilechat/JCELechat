@@ -1,13 +1,25 @@
 items:
-  Gistatis Domination Legatus: {}
-  Gistatis Domination Legionnaire: {}
-  Gistatis Domination Praefectus: {}
-  Gistatis Domination Primus: {}
-  Gistatis Domination Tribuni: {}
-  Gistatis Domination Tribunus: {}
-  Gistatis Legatus: {}
-  Gistatis Legionnaire: {}
-  Gistatis Praefectus: {}
-  Gistatis Primus: {}
-  Gistatis Tribuni: {}
-  Gistatis Tribunus: {}
+  Gistatis Domination Legatus:
+    name: Gistatis Domination Legatus
+  Gistatis Domination Legionnaire:
+    name: Gistatis Domination Legionnaire
+  Gistatis Domination Praefectus:
+    name: Gistatis Domination Praefectus
+  Gistatis Domination Primus:
+    name: Gistatis Domination Primus
+  Gistatis Domination Tribuni:
+    name: Gistatis Domination Tribuni
+  Gistatis Domination Tribunus:
+    name: Gistatis Domination Tribunus
+  Gistatis Legatus:
+    name: Gistatis Legatus
+  Gistatis Legionnaire:
+    name: Gistatis Legionnaire
+  Gistatis Praefectus:
+    name: Gistatis Praefectus
+  Gistatis Primus:
+    name: Gistatis Primus
+  Gistatis Tribuni:
+    name: Gistatis Tribuni
+  Gistatis Tribunus:
+    name: Gistatis Tribunus

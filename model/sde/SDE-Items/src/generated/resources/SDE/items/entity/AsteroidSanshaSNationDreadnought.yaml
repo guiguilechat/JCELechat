@@ -1,3 +1,5 @@
 items:
-  Sansha's Dreadnought: {}
-  True Sansha's Dreadnought: {}
+  Sansha's Dreadnought:
+    name: Sansha's Dreadnought
+  True Sansha's Dreadnought:
+    name: True Sansha's Dreadnought

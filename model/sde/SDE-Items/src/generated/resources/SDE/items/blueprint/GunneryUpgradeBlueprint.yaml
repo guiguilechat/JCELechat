@@ -2,36 +2,49 @@ items:
   '''Capitalist'' Magnetic Field Stabilizer I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Capitalist'' Magnetic Field Stabilizer I Blueprint'
   '''Kindred'' Gyrostabilizer Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Kindred'' Gyrostabilizer Blueprint'
   '''Monopoly'' Magnetic Field Stabilizer Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Monopoly'' Magnetic Field Stabilizer Blueprint'
   Federation Navy Magnetic Field Stabilizer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy Magnetic Field Stabilizer Blueprint
   Gyrostabilizer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Gyrostabilizer I Blueprint
   Gyrostabilizer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Gyrostabilizer II Blueprint
   Kaatara's Custom Magnetic Field Stabilizer Blueprint:
     TechLevel: 1
+    name: Kaatara's Custom Magnetic Field Stabilizer Blueprint
   Magnetic Field Stabilizer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Magnetic Field Stabilizer I Blueprint
   Magnetic Field Stabilizer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Magnetic Field Stabilizer II Blueprint
   Monophonic Stabilization Actuator I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Monophonic Stabilization Actuator I Blueprint
   Republic Fleet Gyrostabilizer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Republic Fleet Gyrostabilizer Blueprint
   Torelle's Custom Magnetic Field Stabilizer Blueprint:
     TechLevel: 1
+    name: Torelle's Custom Magnetic Field Stabilizer Blueprint
   Vadari's Custom Gyrostabilizer Blueprint:
     TechLevel: 1
+    name: Vadari's Custom Gyrostabilizer Blueprint

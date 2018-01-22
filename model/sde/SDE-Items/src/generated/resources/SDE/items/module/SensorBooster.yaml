@@ -23,6 +23,7 @@ items:
     ScanRadarStrengthPercent: 48
     ScanResolutionBonus: 30.0
     TechLevel: 1
+    name: '''Shady'' Sensor Booster'
   Alumel-Wired Enduring Sensor Booster:
     CapacitorNeed: 6.0
     ChargeGroup1: 910
@@ -46,6 +47,7 @@ items:
     ScanRadarStrengthPercent: 44
     ScanResolutionBonus: 27.5
     TechLevel: 1
+    name: Alumel-Wired Enduring Sensor Booster
   Brynn's Modified Sensor Booster:
     CapacitorNeed: 10.0
     ChargeGroup1: 910
@@ -70,6 +72,7 @@ items:
     ScanRadarStrengthPercent: 54
     ScanResolutionBonus: 34.0
     TechLevel: 1
+    name: Brynn's Modified Sensor Booster
   Cormack's Modified Sensor Booster:
     CapacitorNeed: 10.0
     ChargeGroup1: 910
@@ -94,6 +97,7 @@ items:
     ScanRadarStrengthPercent: 60
     ScanResolutionBonus: 39.0
     TechLevel: 1
+    name: Cormack's Modified Sensor Booster
   F-90 Compact Sensor Booster:
     CapacitorNeed: 10.0
     ChargeGroup1: 910
@@ -117,6 +121,7 @@ items:
     ScanRadarStrengthPercent: 44
     ScanResolutionBonus: 27.5
     TechLevel: 1
+    name: F-90 Compact Sensor Booster
   Federation Navy Sensor Booster:
     CapacitorNeed: 9.0
     ChargeGroup1: 910
@@ -141,6 +146,7 @@ items:
     ScanRadarStrengthPercent: 50
     ScanResolutionBonus: 32.5
     TechLevel: 1
+    name: Federation Navy Sensor Booster
   Prototype Sensor Booster:
     CapacitorNeed: 10.0
     ChargeGroup1: 910
@@ -159,6 +165,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionBonus: 26.299999237060547
     TechLevel: 1
+    name: Prototype Sensor Booster
   Sensor Booster I:
     CapacitorNeed: 10.0
     ChargeGroup1: 910
@@ -181,6 +188,7 @@ items:
     ScanRadarStrengthPercent: 40
     ScanResolutionBonus: 25.0
     TechLevel: 1
+    name: Sensor Booster I
   Sensor Booster II:
     CapacitorNeed: 12.0
     ChargeGroup1: 910
@@ -204,6 +212,7 @@ items:
     ScanRadarStrengthPercent: 48
     ScanResolutionBonus: 30.0
     TechLevel: 2
+    name: Sensor Booster II
   Sentient Sensor Booster:
     CapacitorNeed: 9.0
     ChargeGroup1: 910
@@ -228,6 +237,7 @@ items:
     ScanRadarStrengthPercent: 50
     ScanResolutionBonus: 32.5
     TechLevel: 1
+    name: Sentient Sensor Booster
   Setele's Modified Sensor Booster:
     CapacitorNeed: 10.0
     ChargeGroup1: 910
@@ -251,6 +261,7 @@ items:
     ScanRadarStrengthPercent: 58
     ScanResolutionBonus: 37.5
     TechLevel: 1
+    name: Setele's Modified Sensor Booster
   Shadow Serpentis Sensor Booster:
     CapacitorNeed: 9.0
     ChargeGroup1: 910
@@ -275,6 +286,7 @@ items:
     ScanRadarStrengthPercent: 50
     ScanResolutionBonus: 32.5
     TechLevel: 1
+    name: Shadow Serpentis Sensor Booster
   Supplemental Scanning CPU I:
     CapacitorNeed: 9.0
     ChargeGroup1: 910
@@ -293,6 +305,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionBonus: 27.5
     TechLevel: 1
+    name: Supplemental Scanning CPU I
   Tuvan's Modified Sensor Booster:
     CapacitorNeed: 10.0
     ChargeGroup1: 910
@@ -316,6 +329,7 @@ items:
     ScanRadarStrengthPercent: 56
     ScanResolutionBonus: 36.0
     TechLevel: 1
+    name: Tuvan's Modified Sensor Booster
   Unit D-34343's Modified Sensor Booster:
     CapacitorNeed: 10.0
     ChargeGroup1: 910
@@ -340,6 +354,7 @@ items:
     ScanRadarStrengthPercent: 54
     ScanResolutionBonus: 34.0
     TechLevel: 1
+    name: Unit D-34343's Modified Sensor Booster
   Unit F-435454's Modified Sensor Booster:
     CapacitorNeed: 10.0
     ChargeGroup1: 910
@@ -364,6 +379,7 @@ items:
     ScanRadarStrengthPercent: 56
     ScanResolutionBonus: 36.0
     TechLevel: 1
+    name: Unit F-435454's Modified Sensor Booster
   Unit P-343554's Modified Sensor Booster:
     CapacitorNeed: 10.0
     ChargeGroup1: 910
@@ -388,6 +404,7 @@ items:
     ScanRadarStrengthPercent: 58
     ScanResolutionBonus: 37.5
     TechLevel: 1
+    name: Unit P-343554's Modified Sensor Booster
   Unit W-634's Modified Sensor Booster:
     CapacitorNeed: 10.0
     ChargeGroup1: 910
@@ -412,3 +429,4 @@ items:
     ScanRadarStrengthPercent: 60
     ScanResolutionBonus: 39.0
     TechLevel: 1
+    name: Unit W-634's Modified Sensor Booster

@@ -1,9 +1,13 @@
 items:
   Anaconda Mine Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Anaconda Mine Blueprint
   Asp Mine Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Asp Mine Blueprint
   Cobra Mine Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Cobra Mine Blueprint
   Python Mine Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Python Mine Blueprint

@@ -5,177 +5,207 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Gypsy' Electronic Warfare EW-901
   Zainou 'Gypsy' Electronic Warfare EW-902:
     CapNeedBonus: -2
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Gypsy' Electronic Warfare EW-902
   Zainou 'Gypsy' Electronic Warfare EW-903:
     CapNeedBonus: -3
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Zainou 'Gypsy' Electronic Warfare EW-903
   Zainou 'Gypsy' Electronic Warfare EW-904:
     CapNeedBonus: -4
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Gypsy' Electronic Warfare EW-904
   Zainou 'Gypsy' Electronic Warfare EW-905:
     CapNeedBonus: -5
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Zainou 'Gypsy' Electronic Warfare EW-905
   Zainou 'Gypsy' Electronic Warfare EW-906:
     CapNeedBonus: -6
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Zainou 'Gypsy' Electronic Warfare EW-906
   Zainou 'Gypsy' Propulsion Jamming PJ-801:
     CapNeedBonus: -1
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Gypsy' Propulsion Jamming PJ-801
   Zainou 'Gypsy' Propulsion Jamming PJ-802:
     CapNeedBonus: -2
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Gypsy' Propulsion Jamming PJ-802
   Zainou 'Gypsy' Propulsion Jamming PJ-803:
     CapNeedBonus: -3
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Zainou 'Gypsy' Propulsion Jamming PJ-803
   Zainou 'Gypsy' Propulsion Jamming PJ-804:
     CapNeedBonus: -4
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Gypsy' Propulsion Jamming PJ-804
   Zainou 'Gypsy' Propulsion Jamming PJ-805:
     CapNeedBonus: -5
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Zainou 'Gypsy' Propulsion Jamming PJ-805
   Zainou 'Gypsy' Propulsion Jamming PJ-806:
     CapNeedBonus: -6
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Zainou 'Gypsy' Propulsion Jamming PJ-806
   Zainou 'Gypsy' Sensor Linking SL-901:
     CapNeedBonus: -1
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Gypsy' Sensor Linking SL-901
   Zainou 'Gypsy' Sensor Linking SL-902:
     CapNeedBonus: -2
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Gypsy' Sensor Linking SL-902
   Zainou 'Gypsy' Sensor Linking SL-903:
     CapNeedBonus: -3
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Zainou 'Gypsy' Sensor Linking SL-903
   Zainou 'Gypsy' Sensor Linking SL-904:
     CapNeedBonus: -4
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Gypsy' Sensor Linking SL-904
   Zainou 'Gypsy' Sensor Linking SL-905:
     CapNeedBonus: -5
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Zainou 'Gypsy' Sensor Linking SL-905
   Zainou 'Gypsy' Sensor Linking SL-906:
     CapNeedBonus: -6
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Zainou 'Gypsy' Sensor Linking SL-906
   Zainou 'Gypsy' Target Painting TG-901:
     CapNeedBonus: -1
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Gypsy' Target Painting TG-901
   Zainou 'Gypsy' Target Painting TG-902:
     CapNeedBonus: -2
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Gypsy' Target Painting TG-902
   Zainou 'Gypsy' Target Painting TG-903:
     CapNeedBonus: -3
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Zainou 'Gypsy' Target Painting TG-903
   Zainou 'Gypsy' Target Painting TG-904:
     CapNeedBonus: -4
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Gypsy' Target Painting TG-904
   Zainou 'Gypsy' Target Painting TG-905:
     CapNeedBonus: -5
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Zainou 'Gypsy' Target Painting TG-905
   Zainou 'Gypsy' Target Painting TG-906:
     CapNeedBonus: -6
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Zainou 'Gypsy' Target Painting TG-906
   Zainou 'Gypsy' Weapon Disruption WD-901:
     CapNeedBonus: -1
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Gypsy' Weapon Disruption WD-901
   Zainou 'Gypsy' Weapon Disruption WD-902:
     CapNeedBonus: -2
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Gypsy' Weapon Disruption WD-902
   Zainou 'Gypsy' Weapon Disruption WD-903:
     CapNeedBonus: -3
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Zainou 'Gypsy' Weapon Disruption WD-903
   Zainou 'Gypsy' Weapon Disruption WD-904:
     CapNeedBonus: -4
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Gypsy' Weapon Disruption WD-904
   Zainou 'Gypsy' Weapon Disruption WD-905:
     CapNeedBonus: -5
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Zainou 'Gypsy' Weapon Disruption WD-905
   Zainou 'Gypsy' Weapon Disruption WD-906:
     CapNeedBonus: -6
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Zainou 'Gypsy' Weapon Disruption WD-906

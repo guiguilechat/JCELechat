@@ -1,8 +1,15 @@
 items:
-  Crippler Alvatis: {}
-  Defeater Alvatis: {}
-  Enforcer Alvatis: {}
-  Exterminator Alvatis: {}
-  Siege Alvatis: {}
-  Striker Alvatis: {}
-  Swarm Overmind Secundus: {}
+  Crippler Alvatis:
+    name: Crippler Alvatis
+  Defeater Alvatis:
+    name: Defeater Alvatis
+  Enforcer Alvatis:
+    name: Enforcer Alvatis
+  Exterminator Alvatis:
+    name: Exterminator Alvatis
+  Siege Alvatis:
+    name: Siege Alvatis
+  Striker Alvatis:
+    name: Striker Alvatis
+  Swarm Overmind Secundus:
+    name: Swarm Overmind Secundus

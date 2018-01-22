@@ -10,6 +10,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9300000071525574
     TechLevel: 1
+    name: '''Basic'' Heat Sink'
   '''Boreas'' Coolant System':
     DamageMultiplier: 1.065000057220459
     Hp: 40
@@ -18,6 +19,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9350000023841858
     TechLevel: 1
+    name: '''Boreas'' Coolant System'
   '''Mangonel'' Heat Sink I':
     DamageMultiplier: 1.0850000381469727
     Hp: 40
@@ -28,6 +30,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9049999713897705
     TechLevel: 1
+    name: '''Mangonel'' Heat Sink I'
   '''Skadi'' Coolant System I':
     DamageMultiplier: 1.090999960899353
     Hp: 40
@@ -37,6 +40,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9024999737739563
     TechLevel: 1
+    name: '''Skadi'' Coolant System I'
   '''Trebuchet'' Heat Sink I':
     Cpu: 18.0
     DamageMultiplier: 1.100000023841858
@@ -48,6 +52,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 1
+    name: '''Trebuchet'' Heat Sink I'
   Ahremen's Modified Heat Sink:
     DamageMultiplier: 1.1399999856948853
     Hp: 40
@@ -58,6 +63,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Ahremen's Modified Heat Sink
   Ammatar Navy Heat Sink:
     DamageMultiplier: 1.1200000047683716
     Hp: 40
@@ -68,6 +74,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Ammatar Navy Heat Sink
   Brokara's Modified Heat Sink:
     DamageMultiplier: 1.1299999952316284
     Hp: 40
@@ -78,6 +85,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Brokara's Modified Heat Sink
   C3S Convection Thermal Radiator:
     DamageMultiplier: 1.059999942779541
     Hp: 40
@@ -86,6 +94,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9399999976158142
     TechLevel: 1
+    name: C3S Convection Thermal Radiator
   C4S Coiled Circuit Thermal Radiator:
     DamageMultiplier: 1.0839999914169312
     Hp: 40
@@ -95,6 +104,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9100000262260437
     TechLevel: 1
+    name: C4S Coiled Circuit Thermal Radiator
   Chelm's Modified Heat Sink:
     DamageMultiplier: 1.1449999809265137
     Hp: 40
@@ -105,6 +115,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Chelm's Modified Heat Sink
   Dark Blood Heat Sink:
     DamageMultiplier: 1.1200000047683716
     Hp: 40
@@ -115,6 +126,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Dark Blood Heat Sink
   Draclira's Modified Heat Sink:
     DamageMultiplier: 1.1449999809265137
     Hp: 40
@@ -125,6 +137,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Draclira's Modified Heat Sink
   Extruded Compact Heat Sink:
     Cpu: 25.0
     DamageMultiplier: 1.0800000429153442
@@ -135,6 +148,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9049999713897705
     TechLevel: 1
+    name: Extruded Compact Heat Sink
   Heat Exhaust System:
     DamageMultiplier: 1.0549999475479126
     Hp: 40
@@ -143,6 +157,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9449999928474426
     TechLevel: 1
+    name: Heat Exhaust System
   Heat Sink I:
     Cpu: 27.0
     DamageMultiplier: 1.0700000524520874
@@ -152,6 +167,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9200000166893005
     TechLevel: 1
+    name: Heat Sink I
   Heat Sink II:
     DamageMultiplier: 1.100000023841858
     Hp: 40
@@ -161,6 +177,7 @@ items:
     RequiredSkill1Level: 4
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 2
+    name: Heat Sink II
   Imperial Navy Heat Sink:
     DamageMultiplier: 1.1200000047683716
     Hp: 40
@@ -171,6 +188,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Imperial Navy Heat Sink
   Luther Veron's Modified Heat Sink:
     DamageMultiplier: 1.149999976158142
     Hp: 40
@@ -181,6 +199,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 1
+    name: Luther Veron's Modified Heat Sink
   Makur's Modified Heat Sink:
     DamageMultiplier: 1.149999976158142
     Hp: 40
@@ -191,6 +210,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 1
+    name: Makur's Modified Heat Sink
   Raysere's Modified Heat Sink:
     DamageMultiplier: 1.1349999904632568
     Hp: 40
@@ -201,6 +221,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Raysere's Modified Heat Sink
   Selynne's Modified Heat Sink:
     DamageMultiplier: 1.1349999904632568
     Hp: 40
@@ -211,6 +232,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Selynne's Modified Heat Sink
   Stamped Heat Sink:
     DamageMultiplier: 1.0700000524520874
     Hp: 40
@@ -219,6 +241,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9300000071525574
     TechLevel: 1
+    name: Stamped Heat Sink
   Tahron's Custom Heat Sink:
     Cpu: 29.0
     DamageMultiplier: 1.100000023841858
@@ -230,6 +253,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
+    name: Tahron's Custom Heat Sink
   Tairei's Modified Heat Sink:
     DamageMultiplier: 1.1299999952316284
     Hp: 40
@@ -240,6 +264,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Tairei's Modified Heat Sink
   Thermal Exhaust System I:
     DamageMultiplier: 1.0770000219345093
     Hp: 40
@@ -249,6 +274,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9175000190734863
     TechLevel: 1
+    name: Thermal Exhaust System I
   True Sansha Heat Sink:
     DamageMultiplier: 1.1200000047683716
     Hp: 40
@@ -259,6 +285,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: True Sansha Heat Sink
   Vizan's Modified Heat Sink:
     DamageMultiplier: 1.1399999856948853
     Hp: 40
@@ -269,3 +296,4 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Vizan's Modified Heat Sink

@@ -48,6 +48,7 @@ items:
     TypeColorScheme: 11331
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Large Blaster Battery
   Large Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -97,6 +98,7 @@ items:
     TypeColorScheme: 11324
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Large Railgun Battery
   Medium Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -146,6 +148,7 @@ items:
     TypeColorScheme: 11331
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Medium Blaster Battery
   Medium Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -195,6 +198,7 @@ items:
     TypeColorScheme: 11324
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Medium Railgun Battery
   Serpentis Large Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -245,6 +249,7 @@ items:
     TypeColorScheme: 11351
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Serpentis Large Blaster Battery
   Serpentis Large Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -295,6 +300,7 @@ items:
     TypeColorScheme: 11351
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Serpentis Large Railgun Battery
   Serpentis Medium Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -345,6 +351,7 @@ items:
     TypeColorScheme: 11351
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Serpentis Medium Blaster Battery
   Serpentis Medium Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -395,6 +402,7 @@ items:
     TypeColorScheme: 11351
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Serpentis Medium Railgun Battery
   Serpentis Small Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -445,6 +453,7 @@ items:
     TypeColorScheme: 11351
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Serpentis Small Blaster Battery
   Serpentis Small Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -495,6 +504,7 @@ items:
     TypeColorScheme: 11351
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Serpentis Small Railgun Battery
   Shadow Large Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -545,6 +555,7 @@ items:
     TypeColorScheme: 11351
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Shadow Large Blaster Battery
   Shadow Large Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -595,6 +606,7 @@ items:
     TypeColorScheme: 11351
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Shadow Large Railgun Battery
   Shadow Medium Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -645,6 +657,7 @@ items:
     TypeColorScheme: 11351
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Shadow Medium Blaster Battery
   Shadow Medium Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -695,6 +708,7 @@ items:
     TypeColorScheme: 11351
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Shadow Medium Railgun Battery
   Shadow Small Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -745,6 +759,7 @@ items:
     TypeColorScheme: 11351
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Shadow Small Blaster Battery
   Shadow Small Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -795,6 +810,7 @@ items:
     TypeColorScheme: 11351
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Shadow Small Railgun Battery
   Small Blaster Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -844,6 +860,7 @@ items:
     TypeColorScheme: 11331
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Small Blaster Battery
   Small Railgun Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -893,3 +910,4 @@ items:
     TypeColorScheme: 11324
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Small Railgun Battery

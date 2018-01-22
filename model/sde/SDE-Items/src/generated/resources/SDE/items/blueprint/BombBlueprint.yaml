@@ -1,13 +1,19 @@
 items:
   Concussion Bomb Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Concussion Bomb Blueprint
   Electron Bomb Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Electron Bomb Blueprint
   Lockbreaker Bomb Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Lockbreaker Bomb Blueprint
   Scorch Bomb Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Scorch Bomb Blueprint
   Shrapnel Bomb Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Shrapnel Bomb Blueprint
   Void Bomb Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Void Bomb Blueprint

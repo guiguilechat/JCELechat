@@ -8,6 +8,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Deuce'' Co-Processor I'
   '''Dyad'' Co-Processor I':
     CpuMultiplier: 1.1100000143051147
     Hp: 40
@@ -17,6 +18,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Dyad'' Co-Processor I'
   Basic Co-Processor:
     CpuMultiplier: 1.0700000524520874
     Hp: 40
@@ -26,6 +28,7 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Basic Co-Processor
   Brynn's Modified Co-Processor:
     CpuMultiplier: 1.159999966621399
     Hp: 40
@@ -35,6 +38,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Brynn's Modified Co-Processor
   Caldari Navy Co-Processor:
     CpuMultiplier: 1.1399999856948853
     Hp: 40
@@ -44,6 +48,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Caldari Navy Co-Processor
   Co-Processor I:
     CpuMultiplier: 1.0800000429153442
     Hp: 40
@@ -51,6 +56,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Co-Processor I
   Co-Processor II:
     CpuMultiplier: 1.100000023841858
     Hp: 40
@@ -59,6 +65,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: Co-Processor II
   Cormack's Modified Co-Processor:
     CpuMultiplier: 1.190000057220459
     Hp: 40
@@ -68,6 +75,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Cormack's Modified Co-Processor
   Dread Guristas Co-Processor:
     CpuMultiplier: 1.1399999856948853
     Hp: 40
@@ -77,6 +85,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Dread Guristas Co-Processor
   Estamel's Modified Co-Processor:
     CpuMultiplier: 1.190000057220459
     Hp: 40
@@ -86,6 +95,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Estamel's Modified Co-Processor
   Federation Navy Co-Processor:
     CpuMultiplier: 1.1399999856948853
     Hp: 40
@@ -95,6 +105,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Federation Navy Co-Processor
   Kaikka's Modified Co-Processor:
     CpuMultiplier: 1.159999966621399
     Hp: 40
@@ -104,6 +115,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Kaikka's Modified Co-Processor
   Khanid Navy Co-Processor:
     CpuMultiplier: 1.1399999856948853
     Hp: 40
@@ -113,6 +125,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Khanid Navy Co-Processor
   Naiyon's Modified Co-Processor:
     CpuMultiplier: 1.159999966621399
     Hp: 40
@@ -122,6 +135,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Naiyon's Modified Co-Processor
   Nanoelectrical Co-Processor:
     CpuMultiplier: 1.062999963760376
     Hp: 40
@@ -129,6 +143,7 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Nanoelectrical Co-Processor
   Nanomechanical CPU Enhancer:
     CpuMultiplier: 1.065999984741211
     Hp: 40
@@ -136,6 +151,7 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Nanomechanical CPU Enhancer
   Nanomechanical CPU Enhancer I:
     CpuMultiplier: 1.0770000219345093
     Hp: 40
@@ -144,6 +160,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Nanomechanical CPU Enhancer I
   Photonic CPU Enhancer:
     CpuMultiplier: 1.0720000267028809
     Hp: 40
@@ -151,6 +168,7 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Photonic CPU Enhancer
   Photonic CPU Enhancer I:
     CpuMultiplier: 1.0839999914169312
     Hp: 40
@@ -159,6 +177,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Photonic CPU Enhancer I
   Photonic Upgraded Co-Processor:
     CpuMultiplier: 1.090000033378601
     Hp: 40
@@ -167,6 +186,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Photonic Upgraded Co-Processor
   Quantum Co-Processor:
     CpuMultiplier: 1.069000005722046
     Hp: 40
@@ -174,6 +194,7 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Quantum Co-Processor
   Quantum Co-Processor I:
     CpuMultiplier: 1.0805000066757202
     Hp: 40
@@ -182,6 +203,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Quantum Co-Processor I
   Setele's Modified Co-Processor:
     CpuMultiplier: 1.1799999475479126
     Hp: 40
@@ -191,6 +213,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Setele's Modified Co-Processor
   Shadow Serpentis Co-Processor:
     CpuMultiplier: 1.1399999856948853
     Hp: 40
@@ -200,6 +223,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Shadow Serpentis Co-Processor
   Thon's Modified Co-Processor:
     CpuMultiplier: 1.1699999570846558
     Hp: 40
@@ -209,6 +233,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Thon's Modified Co-Processor
   Tuvan's Modified Co-Processor:
     CpuMultiplier: 1.1699999570846558
     Hp: 40
@@ -218,6 +243,7 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Tuvan's Modified Co-Processor
   Vepas' Modified Co-Processor:
     CpuMultiplier: 1.1799999475479126
     Hp: 40
@@ -227,3 +253,4 @@ items:
     RequiredSkill1: 3432
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Vepas' Modified Co-Processor

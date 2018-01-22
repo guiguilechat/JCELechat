@@ -9,6 +9,7 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: -5.0
     TechLevel: 1
+    name: '''Basic'' Capacitor Power Relay'
   '''Motte'' Capacitor Power Relay I':
     CapacitorRechargeRateMultiplier: 0.75
     Cpu: 2.0
@@ -19,6 +20,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -7.0
     TechLevel: 1
+    name: '''Motte'' Capacitor Power Relay I'
   Ahremen's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579
     Hp: 40
@@ -28,6 +30,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -11.5
     TechLevel: 1
+    name: Ahremen's Modified Capacitor Power Relay
   'Alpha Reactor Control: Capacitor Power Relay':
     CapacitorRechargeRateMultiplier: 0.8999999761581421
     Hp: 40
@@ -35,6 +38,7 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: -5.0
     TechLevel: 1
+    name: 'Alpha Reactor Control: Capacitor Power Relay'
   Ammatar Navy Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
     Hp: 40
@@ -44,6 +48,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -8.0
     TechLevel: 1
+    name: Ammatar Navy Capacitor Power Relay
   'Beta Reactor Control: Capacitor Power Relay I':
     CapacitorRechargeRateMultiplier: 0.7599999904632568
     Hp: 40
@@ -52,6 +57,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -10.0
     TechLevel: 1
+    name: 'Beta Reactor Control: Capacitor Power Relay I'
   Brokara's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.731249988079071
     Hp: 40
@@ -61,6 +67,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -10.5
     TechLevel: 1
+    name: Brokara's Modified Capacitor Power Relay
   Capacitor Power Relay I:
     CapacitorRechargeRateMultiplier: 0.800000011920929
     Hp: 40
@@ -68,6 +75,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -10.0
     TechLevel: 1
+    name: Capacitor Power Relay I
   Capacitor Power Relay II:
     CapacitorRechargeRateMultiplier: 0.7599999904632568
     Hp: 40
@@ -76,6 +84,7 @@ items:
     RequiredSkill1Level: 4
     ShieldBoostMultiplier: -11.0
     TechLevel: 2
+    name: Capacitor Power Relay II
   Chelm's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.675000011920929
     Hp: 40
@@ -85,6 +94,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -12.0
     TechLevel: 1
+    name: Chelm's Modified Capacitor Power Relay
   Dark Blood Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
     Hp: 40
@@ -94,6 +104,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -8.0
     TechLevel: 1
+    name: Dark Blood Capacitor Power Relay
   Draclira's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.675000011920929
     Hp: 40
@@ -103,6 +114,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -12.0
     TechLevel: 1
+    name: Draclira's Modified Capacitor Power Relay
   Imperial Navy Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
     Hp: 40
@@ -112,6 +124,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -8.0
     TechLevel: 1
+    name: Imperial Navy Capacitor Power Relay
   Khanid Navy Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
     Hp: 40
@@ -121,6 +134,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -8.0
     TechLevel: 1
+    name: Khanid Navy Capacitor Power Relay
   'Local Power Plant Manager: Capacity Power Relay I':
     CapacitorRechargeRateMultiplier: 0.7799999713897705
     Hp: 40
@@ -129,6 +143,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -10.0
     TechLevel: 1
+    name: 'Local Power Plant Manager: Capacity Power Relay I'
   Makur's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579
     Hp: 40
@@ -138,6 +153,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -10.5
     TechLevel: 1
+    name: Makur's Modified Capacitor Power Relay
   Mark I Compact Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7799999713897705
     Cpu: 2.0
@@ -147,6 +163,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -10.0
     TechLevel: 1
+    name: Mark I Compact Capacitor Power Relay
   'Marked Generator Refitting: Capacitor Power Relay':
     CapacitorRechargeRateMultiplier: 0.8999999761581421
     Hp: 40
@@ -154,6 +171,7 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: -5.0
     TechLevel: 1
+    name: 'Marked Generator Refitting: Capacitor Power Relay'
   'Partial Power Plant Manager: Capacity Power Relay':
     CapacitorRechargeRateMultiplier: 0.8999999761581421
     Hp: 40
@@ -161,6 +179,7 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: -5.0
     TechLevel: 1
+    name: 'Partial Power Plant Manager: Capacity Power Relay'
   Raysere's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7124999761581421
     Hp: 40
@@ -170,6 +189,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -11.0
     TechLevel: 1
+    name: Raysere's Modified Capacitor Power Relay
   Selynne's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7124999761581421
     Hp: 40
@@ -179,6 +199,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -11.0
     TechLevel: 1
+    name: Selynne's Modified Capacitor Power Relay
   Tairei's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.731249988079071
     Hp: 40
@@ -188,6 +209,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -10.5
     TechLevel: 1
+    name: Tairei's Modified Capacitor Power Relay
   True Sansha Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
     Hp: 40
@@ -197,6 +219,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -8.0
     TechLevel: 1
+    name: True Sansha Capacitor Power Relay
   Type-D Restrained Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7799999713897705
     Cpu: 4.0
@@ -206,6 +229,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -8.0
     TechLevel: 1
+    name: Type-D Restrained Capacitor Power Relay
   'Type-E Power Core Modification: Capacitor Power Relay':
     CapacitorRechargeRateMultiplier: 0.8999999761581421
     Hp: 40
@@ -213,6 +237,7 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: -5.0
     TechLevel: 1
+    name: 'Type-E Power Core Modification: Capacitor Power Relay'
   Vizan's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579
     Hp: 40
@@ -222,3 +247,4 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: -11.5
     TechLevel: 1
+    name: Vizan's Modified Capacitor Power Relay

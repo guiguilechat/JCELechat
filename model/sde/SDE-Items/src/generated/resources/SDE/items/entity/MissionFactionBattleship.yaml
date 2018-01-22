@@ -1,6 +1,11 @@
 items:
-  Amarr Battleship Vessel: {}
-  Caldari Battleship Vessel: {}
-  Gallente Battleship Vessel: {}
-  Karsten Lundham's Typhoon: {}
-  Minmatar Battleship Vessel: {}
+  Amarr Battleship Vessel:
+    name: Amarr Battleship Vessel
+  Caldari Battleship Vessel:
+    name: Caldari Battleship Vessel
+  Gallente Battleship Vessel:
+    name: Gallente Battleship Vessel
+  Karsten Lundham's Typhoon:
+    name: Karsten Lundham's Typhoon
+  Minmatar Battleship Vessel:
+    name: Minmatar Battleship Vessel

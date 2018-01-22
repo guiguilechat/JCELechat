@@ -1,20 +1,39 @@
 items:
-  '''Analytical Mind''': {}
-  '''Clarity''': {}
-  '''Eidetic Memory''': {}
-  '''Empathy''': {}
-  '''Focus''': {}
-  '''Instant Recall''': {}
-  '''Iron Will''': {}
-  '''Learning''': {}
-  '''Logic''': {}
-  '''Presence''': {}
-  '''Spatial Awareness''': {}
-  Bureaucratic Connections: {}
-  Financial Connections: {}
-  Genetic Engineering: {}
-  High Tech Connections: {}
-  Labor Connections: {}
-  Military Connections: {}
-  Political Connections: {}
-  Trade Connections: {}
+  '''Analytical Mind''':
+    name: '''Analytical Mind'''
+  '''Clarity''':
+    name: '''Clarity'''
+  '''Eidetic Memory''':
+    name: '''Eidetic Memory'''
+  '''Empathy''':
+    name: '''Empathy'''
+  '''Focus''':
+    name: '''Focus'''
+  '''Instant Recall''':
+    name: '''Instant Recall'''
+  '''Iron Will''':
+    name: '''Iron Will'''
+  '''Learning''':
+    name: '''Learning'''
+  '''Logic''':
+    name: '''Logic'''
+  '''Presence''':
+    name: '''Presence'''
+  '''Spatial Awareness''':
+    name: '''Spatial Awareness'''
+  Bureaucratic Connections:
+    name: Bureaucratic Connections
+  Financial Connections:
+    name: Financial Connections
+  Genetic Engineering:
+    name: Genetic Engineering
+  High Tech Connections:
+    name: High Tech Connections
+  Labor Connections:
+    name: Labor Connections
+  Military Connections:
+    name: Military Connections
+  Political Connections:
+    name: Political Connections
+  Trade Connections:
+    name: Trade Connections

@@ -7,6 +7,7 @@ items:
     RequiredSkill2Level: 1
     WarfareBuff1ID: 11
     WarfareBuff1Multiplier: -8
+    name: Active Shielding Charge
   Shield Extension Charge:
     LauncherGroup: 1770
     RequiredSkill1: 3350
@@ -15,6 +16,7 @@ items:
     RequiredSkill2Level: 1
     WarfareBuff1ID: 12
     WarfareBuff1Multiplier: 8
+    name: Shield Extension Charge
   Shield Harmonizing Charge:
     LauncherGroup: 316
     RequiredSkill1: 3350
@@ -23,3 +25,4 @@ items:
     RequiredSkill2Level: 1
     WarfareBuff1ID: 10
     WarfareBuff1Multiplier: -8
+    name: Shield Harmonizing Charge

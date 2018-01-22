@@ -1,36 +1,71 @@
 items:
-  Dire Pithi Arrogator: {}
-  Dire Pithi Demolisher: {}
-  Dire Pithi Despoiler: {}
-  Dire Pithi Destructor: {}
-  Dire Pithi Imputor: {}
-  Dire Pithi Infiltrator: {}
-  Dire Pithi Invader: {}
-  Dire Pithi Plunderer: {}
-  Dire Pithi Saboteur: {}
-  Dire Pithi Wrecker: {}
-  Dread Pithi Arrogator: {}
-  Dread Pithi Demolisher: {}
-  Dread Pithi Despoiler: {}
-  Dread Pithi Destructor: {}
-  Dread Pithi Imputor: {}
-  Dread Pithi Infiltrator: {}
-  Dread Pithi Invader: {}
-  Dread Pithi Plunderer: {}
-  Dread Pithi Saboteur: {}
-  Dread Pithi Wrecker: {}
-  Guristas Kyoukan: {}
-  Guristas Webifier: {}
-  Pithi Arrogator: {}
-  Pithi Defender: {}
-  Pithi Demolisher: {}
-  Pithi Despoiler: {}
-  Pithi Destructor: {}
-  Pithi Fugitive: {}
-  Pithi Imputor: {}
-  Pithi Infiltrator: {}
-  Pithi Invader: {}
-  Pithi Plunderer: {}
-  Pithi Saboteur: {}
-  Pithi Wrecker: {}
-  Yukiro Demense: {}
+  Dire Pithi Arrogator:
+    name: Dire Pithi Arrogator
+  Dire Pithi Demolisher:
+    name: Dire Pithi Demolisher
+  Dire Pithi Despoiler:
+    name: Dire Pithi Despoiler
+  Dire Pithi Destructor:
+    name: Dire Pithi Destructor
+  Dire Pithi Imputor:
+    name: Dire Pithi Imputor
+  Dire Pithi Infiltrator:
+    name: Dire Pithi Infiltrator
+  Dire Pithi Invader:
+    name: Dire Pithi Invader
+  Dire Pithi Plunderer:
+    name: Dire Pithi Plunderer
+  Dire Pithi Saboteur:
+    name: Dire Pithi Saboteur
+  Dire Pithi Wrecker:
+    name: Dire Pithi Wrecker
+  Dread Pithi Arrogator:
+    name: Dread Pithi Arrogator
+  Dread Pithi Demolisher:
+    name: Dread Pithi Demolisher
+  Dread Pithi Despoiler:
+    name: Dread Pithi Despoiler
+  Dread Pithi Destructor:
+    name: Dread Pithi Destructor
+  Dread Pithi Imputor:
+    name: Dread Pithi Imputor
+  Dread Pithi Infiltrator:
+    name: Dread Pithi Infiltrator
+  Dread Pithi Invader:
+    name: Dread Pithi Invader
+  Dread Pithi Plunderer:
+    name: Dread Pithi Plunderer
+  Dread Pithi Saboteur:
+    name: Dread Pithi Saboteur
+  Dread Pithi Wrecker:
+    name: Dread Pithi Wrecker
+  Guristas Kyoukan:
+    name: Guristas Kyoukan
+  Guristas Webifier:
+    name: Guristas Webifier
+  Pithi Arrogator:
+    name: Pithi Arrogator
+  Pithi Defender:
+    name: Pithi Defender
+  Pithi Demolisher:
+    name: Pithi Demolisher
+  Pithi Despoiler:
+    name: Pithi Despoiler
+  Pithi Destructor:
+    name: Pithi Destructor
+  Pithi Fugitive:
+    name: Pithi Fugitive
+  Pithi Imputor:
+    name: Pithi Imputor
+  Pithi Infiltrator:
+    name: Pithi Infiltrator
+  Pithi Invader:
+    name: Pithi Invader
+  Pithi Plunderer:
+    name: Pithi Plunderer
+  Pithi Saboteur:
+    name: Pithi Saboteur
+  Pithi Wrecker:
+    name: Pithi Wrecker
+  Yukiro Demense:
+    name: Yukiro Demense

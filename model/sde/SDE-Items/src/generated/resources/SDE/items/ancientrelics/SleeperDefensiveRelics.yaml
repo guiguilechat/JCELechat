@@ -1,7 +1,10 @@
 items:
   Intact Armor Nanobot:
     IndustryBlueprintRank: 2.0
+    name: Intact Armor Nanobot
   Malfunctioning Armor Nanobot:
     IndustryBlueprintRank: 2.0
+    name: Malfunctioning Armor Nanobot
   Wrecked Armor Nanobot:
     IndustryBlueprintRank: 2.0
+    name: Wrecked Armor Nanobot

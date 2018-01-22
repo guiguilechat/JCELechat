@@ -1,35 +1,69 @@
 items:
-  Corelum Chief Defender: {}
-  Corelum Chief Guard: {}
-  Corelum Chief Infantry: {}
-  Corelum Chief Patroller: {}
-  Corelum Chief Protector: {}
-  Corelum Chief Safeguard: {}
-  Corelum Chief Scout: {}
-  Corelum Chief Sentinel: {}
-  Corelum Chief Spy: {}
-  Corelum Chief Watchman: {}
-  Corelum Guardian Chief Defender: {}
-  Corelum Guardian Chief Guard: {}
-  Corelum Guardian Chief Infantry: {}
-  Corelum Guardian Chief Patroller: {}
-  Corelum Guardian Chief Protector: {}
-  Corelum Guardian Chief SafeGuard: {}
-  Corelum Guardian Chief Scout: {}
-  Corelum Guardian Chief Sentinel: {}
-  Corelum Guardian Chief Spy: {}
-  Corelum Guardian Chief Watchman: {}
-  Renegade Serpentis Assassin: {}
-  Serpentis Personnel Transport: {}
-  Serpentis Transport Ship: {}
-  Shadow Corelum Chief Defender: {}
-  Shadow Corelum Chief Guard: {}
-  Shadow Corelum Chief Infantry: {}
-  Shadow Corelum Chief Patroller: {}
-  Shadow Corelum Chief Protector: {}
-  Shadow Corelum Chief Safeguard: {}
-  Shadow Corelum Chief Scout: {}
-  Shadow Corelum Chief Sentinel: {}
-  Shadow Corelum Chief Spy: {}
-  Shadow Corelum Chief Watchman: {}
-  Underground Circus Ringmaster: {}
+  Corelum Chief Defender:
+    name: Corelum Chief Defender
+  Corelum Chief Guard:
+    name: Corelum Chief Guard
+  Corelum Chief Infantry:
+    name: Corelum Chief Infantry
+  Corelum Chief Patroller:
+    name: Corelum Chief Patroller
+  Corelum Chief Protector:
+    name: Corelum Chief Protector
+  Corelum Chief Safeguard:
+    name: Corelum Chief Safeguard
+  Corelum Chief Scout:
+    name: Corelum Chief Scout
+  Corelum Chief Sentinel:
+    name: Corelum Chief Sentinel
+  Corelum Chief Spy:
+    name: Corelum Chief Spy
+  Corelum Chief Watchman:
+    name: Corelum Chief Watchman
+  Corelum Guardian Chief Defender:
+    name: Corelum Guardian Chief Defender
+  Corelum Guardian Chief Guard:
+    name: Corelum Guardian Chief Guard
+  Corelum Guardian Chief Infantry:
+    name: Corelum Guardian Chief Infantry
+  Corelum Guardian Chief Patroller:
+    name: Corelum Guardian Chief Patroller
+  Corelum Guardian Chief Protector:
+    name: Corelum Guardian Chief Protector
+  Corelum Guardian Chief SafeGuard:
+    name: Corelum Guardian Chief SafeGuard
+  Corelum Guardian Chief Scout:
+    name: Corelum Guardian Chief Scout
+  Corelum Guardian Chief Sentinel:
+    name: Corelum Guardian Chief Sentinel
+  Corelum Guardian Chief Spy:
+    name: Corelum Guardian Chief Spy
+  Corelum Guardian Chief Watchman:
+    name: Corelum Guardian Chief Watchman
+  Renegade Serpentis Assassin:
+    name: Renegade Serpentis Assassin
+  Serpentis Personnel Transport:
+    name: Serpentis Personnel Transport
+  Serpentis Transport Ship:
+    name: Serpentis Transport Ship
+  Shadow Corelum Chief Defender:
+    name: Shadow Corelum Chief Defender
+  Shadow Corelum Chief Guard:
+    name: Shadow Corelum Chief Guard
+  Shadow Corelum Chief Infantry:
+    name: Shadow Corelum Chief Infantry
+  Shadow Corelum Chief Patroller:
+    name: Shadow Corelum Chief Patroller
+  Shadow Corelum Chief Protector:
+    name: Shadow Corelum Chief Protector
+  Shadow Corelum Chief Safeguard:
+    name: Shadow Corelum Chief Safeguard
+  Shadow Corelum Chief Scout:
+    name: Shadow Corelum Chief Scout
+  Shadow Corelum Chief Sentinel:
+    name: Shadow Corelum Chief Sentinel
+  Shadow Corelum Chief Spy:
+    name: Shadow Corelum Chief Spy
+  Shadow Corelum Chief Watchman:
+    name: Shadow Corelum Chief Watchman
+  Underground Circus Ringmaster:
+    name: Underground Circus Ringmaster

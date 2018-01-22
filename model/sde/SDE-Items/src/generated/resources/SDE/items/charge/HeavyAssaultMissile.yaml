@@ -23,6 +23,7 @@ items:
     TechLevel: 1
     ThermalDamage: 115.0
     ThermalDamageResonance: 0.800000011920929
+    name: Caldari Navy Inferno Heavy Assault Missile
   Caldari Navy Mjolnir Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -47,6 +48,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Mjolnir Heavy Assault Missile
   Caldari Navy Nova Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -71,6 +73,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Nova Heavy Assault Missile
   Caldari Navy Scourge Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -95,6 +98,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Scourge Heavy Assault Missile
   Dread Guristas Inferno Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -119,6 +123,7 @@ items:
     TechLevel: 1
     ThermalDamage: 120.0
     ThermalDamageResonance: 0.800000011920929
+    name: Dread Guristas Inferno Heavy Assault Missile
   Dread Guristas Mjolnir Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -143,6 +148,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Mjolnir Heavy Assault Missile
   Dread Guristas Nova Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -167,6 +173,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Nova Heavy Assault Missile
   Dread Guristas Scourge Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -191,6 +198,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Scourge Heavy Assault Missile
   Guristas Inferno Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -215,6 +223,7 @@ items:
     TechLevel: 1
     ThermalDamage: 110.0
     ThermalDamageResonance: 0.800000011920929
+    name: Guristas Inferno Heavy Assault Missile
   Guristas Mjolnir Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -239,6 +248,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Mjolnir Heavy Assault Missile
   Guristas Nova Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -263,6 +273,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Nova Heavy Assault Missile
   Guristas Scourge Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -287,6 +298,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Scourge Heavy Assault Missile
   Inferno Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -309,6 +321,7 @@ items:
     TechLevel: 1
     ThermalDamage: 100.0
     ThermalDamageResonance: 0.800000011920929
+    name: Inferno Heavy Assault Missile
   Mjolnir Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -331,6 +344,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Mjolnir Heavy Assault Missile
   Nova Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -353,6 +367,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Nova Heavy Assault Missile
   Sansha Mjolnir Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -375,6 +390,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Sansha Mjolnir Assault Missile
   Scourge Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -397,6 +413,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Scourge Heavy Assault Missile
   True Sansha Mjolnir Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -419,3 +436,4 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: True Sansha Mjolnir Heavy Assault Missile

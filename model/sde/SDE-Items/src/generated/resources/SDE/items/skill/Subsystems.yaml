@@ -6,6 +6,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Amarr Core Systems
   Amarr Defensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -15,6 +16,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Amarr Defensive Systems
   Amarr Electronic Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -23,6 +25,7 @@ items:
     SecondaryAttribute: 166
     SkillIsObsolete: 1
     SkillTimeConstant: 1.0
+    name: Amarr Electronic Systems
   Amarr Offensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -32,6 +35,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    name: Amarr Offensive Systems
   Amarr Propulsion Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -39,6 +43,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    name: Amarr Propulsion Systems
   Caldari Core Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -46,6 +51,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Caldari Core Systems
   Caldari Defensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -55,6 +61,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Caldari Defensive Systems
   Caldari Electronic Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -63,6 +70,7 @@ items:
     SecondaryAttribute: 166
     SkillIsObsolete: 1
     SkillTimeConstant: 1.0
+    name: Caldari Electronic Systems
   Caldari Offensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -72,6 +80,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    name: Caldari Offensive Systems
   Caldari Propulsion Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -79,6 +88,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    name: Caldari Propulsion Systems
   Gallente Core Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -86,6 +96,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Gallente Core Systems
   Gallente Defensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -95,6 +106,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Gallente Defensive Systems
   Gallente Electronic Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -103,6 +115,7 @@ items:
     SecondaryAttribute: 166
     SkillIsObsolete: 1
     SkillTimeConstant: 1.0
+    name: Gallente Electronic Systems
   Gallente Offensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -112,6 +125,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    name: Gallente Offensive Systems
   Gallente Propulsion Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -119,6 +133,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    name: Gallente Propulsion Systems
   Minmatar Core Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -126,6 +141,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Minmatar Core Systems
   Minmatar Defensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -135,6 +151,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Minmatar Defensive Systems
   Minmatar Electronic Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -143,6 +160,7 @@ items:
     SecondaryAttribute: 166
     SkillIsObsolete: 1
     SkillTimeConstant: 1.0
+    name: Minmatar Electronic Systems
   Minmatar Offensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -152,6 +170,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    name: Minmatar Offensive Systems
   Minmatar Propulsion Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -159,3 +178,4 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    name: Minmatar Propulsion Systems

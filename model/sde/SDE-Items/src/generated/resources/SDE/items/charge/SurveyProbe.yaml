@@ -13,6 +13,7 @@ items:
     ScanRange: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Discovery Survey Probe I
   Gaze Survey Probe I:
     Agility: 1000.0
     ExplosionDelay: 150000
@@ -27,6 +28,7 @@ items:
     ScanRange: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Gaze Survey Probe I
   Quest Survey Probe I:
     Agility: 1000.0
     ExplosionDelay: 1200000
@@ -41,3 +43,4 @@ items:
     ScanRange: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Quest Survey Probe I

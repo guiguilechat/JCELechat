@@ -1,13 +1,19 @@
 items:
   Bounty Hunter Bonus:
     MemorySkillTrainingTimeMultiplierBonus: 0.05000000074505806
+    name: Bounty Hunter Bonus
   Corporate Magnate Bonus:
     WillpowerSkillTrainingTimeMultiplierBonus: 0.05000000074505806
+    name: Corporate Magnate Bonus
   Covert-op Bonus:
     IntelligenceSkillTrainingTimeMultiplierBonus: 0.05000000074505806
+    name: Covert-op Bonus
   Industrialist Bonus:
     PerceptionSkillTrainingTimeMultiplierBonus: 0.05000000074505806
+    name: Industrialist Bonus
   Navy Captain Bonus:
     CharismaSkillTrainingTimeMultiplierBonus: 0.05000000074505806
+    name: Navy Captain Bonus
   Scientist Bonus:
     PerceptionSkillTrainingTimeMultiplierBonus: 0.05000000074505806
+    name: Scientist Bonus

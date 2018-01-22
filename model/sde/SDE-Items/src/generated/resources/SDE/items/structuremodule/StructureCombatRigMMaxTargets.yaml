@@ -12,6 +12,7 @@ items:
     StructureRigMaxTargetBonus: 2
     TechLevel: 1
     UpgradeCost: 100
+    name: Standup M-Set Structure Target Multiplexing I
   Standup M-Set Structure Target Multiplexing II:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -25,3 +26,4 @@ items:
     StructureRigMaxTargetBonus: 5
     TechLevel: 2
     UpgradeCost: 150
+    name: Standup M-Set Structure Target Multiplexing II

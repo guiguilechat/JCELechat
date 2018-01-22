@@ -2,12 +2,16 @@ items:
   Bifrost Blueprint:
     IndustryBlueprintRank: 400.0
     TechLevel: 2
+    name: Bifrost Blueprint
   Magus Blueprint:
     IndustryBlueprintRank: 400.0
     TechLevel: 2
+    name: Magus Blueprint
   Pontifex Blueprint:
     IndustryBlueprintRank: 400.0
     TechLevel: 2
+    name: Pontifex Blueprint
   Stork Blueprint:
     IndustryBlueprintRank: 400.0
     TechLevel: 2
+    name: Stork Blueprint

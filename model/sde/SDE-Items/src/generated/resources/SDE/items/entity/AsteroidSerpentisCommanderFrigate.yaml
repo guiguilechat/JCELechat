@@ -1,19 +1,37 @@
 items:
-  Marauder Agent: {}
-  Marauder Defender: {}
-  Marauder Guard: {}
-  Marauder Patroller: {}
-  Marauder Protector: {}
-  Marauder Safeguard: {}
-  Marauder Spy: {}
-  Marauder Watchman: {}
-  Shadow Serpentis Agent: {}
-  Shadow Serpentis Defender: {}
-  Shadow Serpentis Guard: {}
-  Shadow Serpentis Initiate: {}
-  Shadow Serpentis Patroller: {}
-  Shadow Serpentis Protector: {}
-  Shadow Serpentis Safeguard: {}
-  Shadow Serpentis Scout: {}
-  Shadow Serpentis Spy: {}
-  Shadow Serpentis Watchman: {}
+  Marauder Agent:
+    name: Marauder Agent
+  Marauder Defender:
+    name: Marauder Defender
+  Marauder Guard:
+    name: Marauder Guard
+  Marauder Patroller:
+    name: Marauder Patroller
+  Marauder Protector:
+    name: Marauder Protector
+  Marauder Safeguard:
+    name: Marauder Safeguard
+  Marauder Spy:
+    name: Marauder Spy
+  Marauder Watchman:
+    name: Marauder Watchman
+  Shadow Serpentis Agent:
+    name: Shadow Serpentis Agent
+  Shadow Serpentis Defender:
+    name: Shadow Serpentis Defender
+  Shadow Serpentis Guard:
+    name: Shadow Serpentis Guard
+  Shadow Serpentis Initiate:
+    name: Shadow Serpentis Initiate
+  Shadow Serpentis Patroller:
+    name: Shadow Serpentis Patroller
+  Shadow Serpentis Protector:
+    name: Shadow Serpentis Protector
+  Shadow Serpentis Safeguard:
+    name: Shadow Serpentis Safeguard
+  Shadow Serpentis Scout:
+    name: Shadow Serpentis Scout
+  Shadow Serpentis Spy:
+    name: Shadow Serpentis Spy
+  Shadow Serpentis Watchman:
+    name: Shadow Serpentis Watchman

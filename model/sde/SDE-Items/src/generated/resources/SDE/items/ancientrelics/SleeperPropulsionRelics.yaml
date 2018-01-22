@@ -1,7 +1,10 @@
 items:
   Intact Thruster Sections:
     IndustryBlueprintRank: 2.0
+    name: Intact Thruster Sections
   Malfunctioning Thruster Sections:
     IndustryBlueprintRank: 2.0
+    name: Malfunctioning Thruster Sections
   Wrecked Thruster Sections:
     IndustryBlueprintRank: 2.0
+    name: Wrecked Thruster Sections

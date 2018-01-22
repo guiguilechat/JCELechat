@@ -2,6 +2,7 @@ items:
   Bookmark:
     CapacitorRechargeRateMultiplier: 1.0
     StructureUniformity: 1.0
+    name: Bookmark
   Company Shares:
     Agility: 1000.0
     AoeCloudSize: 150
@@ -16,9 +17,12 @@ items:
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
     StructureUniformity: 1.0
+    name: Company Shares
   Loyalty Points:
     CapacitorRechargeRateMultiplier: 1.0
     StructureUniformity: 1.0
+    name: Loyalty Points
   Player Kill:
     CapacitorRechargeRateMultiplier: 1.0
     StructureUniformity: 1.0
+    name: Player Kill

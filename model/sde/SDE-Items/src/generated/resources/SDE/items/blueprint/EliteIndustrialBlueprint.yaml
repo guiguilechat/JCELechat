@@ -2,24 +2,32 @@ items:
   Bustard Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    name: Bustard Blueprint
   Crane Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    name: Crane Blueprint
   Impel Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    name: Impel Blueprint
   Mastodon Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    name: Mastodon Blueprint
   Occator Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    name: Occator Blueprint
   Prorator Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    name: Prorator Blueprint
   Prowler Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    name: Prowler Blueprint
   Viator Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    name: Viator Blueprint

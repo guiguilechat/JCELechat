@@ -19,6 +19,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 44.0
     TechLevel: 1
+    name: '''Micro'' Remote Shield Booster'
   CONCORD Capital Remote Shield Booster:
     CapacitorNeed: 2200.0
     Cpu: 95.0
@@ -41,6 +42,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1250.0
     TechLevel: 1
+    name: CONCORD Capital Remote Shield Booster
   Capital Asymmetric Enduring Remote Shield Booster:
     CapacitorNeed: 1920.0
     Cpu: 112.0
@@ -62,6 +64,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1055.0
     TechLevel: 1
+    name: Capital Asymmetric Enduring Remote Shield Booster
   Capital Murky Compact Remote Shield Booster:
     CapacitorNeed: 2400.0
     Cpu: 90.0
@@ -83,6 +86,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1055.0
     TechLevel: 1
+    name: Capital Murky Compact Remote Shield Booster
   Capital Remote Shield Booster I:
     CapacitorNeed: 2400.0
     Cpu: 112.0
@@ -103,6 +107,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 960.0
     TechLevel: 1
+    name: Capital Remote Shield Booster I
   Capital Remote Shield Booster II:
     CapacitorNeed: 2640.0
     Cpu: 125.0
@@ -124,6 +129,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1150.0
     TechLevel: 2
+    name: Capital Remote Shield Booster II
   Capital S95a Scoped Remote Shield Booster:
     CapacitorNeed: 2400.0
     Cpu: 112.0
@@ -145,6 +151,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1055.0
     TechLevel: 1
+    name: Capital S95a Scoped Remote Shield Booster
   Civilian Small Remote Shield Booster:
     CapacitorNeed: 45.0
     Cpu: 56.0
@@ -161,6 +168,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 32.0
     TechLevel: 1
+    name: Civilian Small Remote Shield Booster
   Domination Capital Remote Shield Booster:
     CapacitorNeed: 1900.0
     Cpu: 90.0
@@ -183,6 +191,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1100.0
     TechLevel: 1
+    name: Domination Capital Remote Shield Booster
   Dread Guristas Capital Remote Shield Booster:
     CapacitorNeed: 2500.0
     Cpu: 95.0
@@ -205,6 +214,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1300.0
     TechLevel: 1
+    name: Dread Guristas Capital Remote Shield Booster
   Gistii A-Type Small Remote Shield Booster:
     CapacitorNeed: 52.0
     Cpu: 30.0
@@ -225,6 +235,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 102.0
     TechLevel: 1
+    name: Gistii A-Type Small Remote Shield Booster
   Gistii B-Type Small Remote Shield Booster:
     CapacitorNeed: 52.0
     Cpu: 30.0
@@ -245,6 +256,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 95.0
     TechLevel: 1
+    name: Gistii B-Type Small Remote Shield Booster
   Gistii C-Type Small Remote Shield Booster:
     CapacitorNeed: 52.0
     Cpu: 30.0
@@ -265,6 +277,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 86.0
     TechLevel: 1
+    name: Gistii C-Type Small Remote Shield Booster
   Gistum A-Type Medium Remote Shield Booster:
     CapacitorNeed: 208.0
     Cpu: 61.0
@@ -285,6 +298,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 408.0
     TechLevel: 1
+    name: Gistum A-Type Medium Remote Shield Booster
   Gistum B-Type Medium Remote Shield Booster:
     CapacitorNeed: 208.0
     Cpu: 61.0
@@ -305,6 +319,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 380.0
     TechLevel: 1
+    name: Gistum B-Type Medium Remote Shield Booster
   Gistum C-Type Medium Remote Shield Booster:
     CapacitorNeed: 208.0
     Cpu: 61.0
@@ -325,6 +340,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 344.0
     TechLevel: 1
+    name: Gistum C-Type Medium Remote Shield Booster
   Large 'Atonement' Remote Shield Booster:
     CapacitorNeed: 280.0
     Duration: 5000.0
@@ -341,6 +357,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 368.0
     TechLevel: 1
+    name: Large 'Atonement' Remote Shield Booster
   Large Asymmetric Enduring Remote Shield Booster:
     CapacitorNeed: 441.0
     Cpu: 112.0
@@ -360,6 +377,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 600.0
     TechLevel: 1
+    name: Large Asymmetric Enduring Remote Shield Booster
   Large Murky Compact Remote Shield Booster:
     CapacitorNeed: 492.0
     Cpu: 90.0
@@ -379,6 +397,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 600.0
     TechLevel: 1
+    name: Large Murky Compact Remote Shield Booster
   Large Remote Shield Booster I:
     CapacitorNeed: 492.0
     Cpu: 112.0
@@ -397,6 +416,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 520.0
     TechLevel: 1
+    name: Large Remote Shield Booster I
   Large Remote Shield Booster II:
     CapacitorNeed: 543.0
     Cpu: 123.0
@@ -416,6 +436,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 680.0
     TechLevel: 2
+    name: Large Remote Shield Booster II
   Large S95a Scoped Remote Shield Booster:
     CapacitorNeed: 492.0
     Cpu: 112.0
@@ -435,6 +456,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 600.0
     TechLevel: 1
+    name: Large S95a Scoped Remote Shield Booster
   Medium 'Atonement' Remote Shield Booster:
     CapacitorNeed: 132.0
     Cpu: 50.0
@@ -452,6 +474,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 184.0
     TechLevel: 1
+    name: Medium 'Atonement' Remote Shield Booster
   Medium Asymmetric Enduring Remote Shield Booster:
     CapacitorNeed: 208.0
     Cpu: 50.0
@@ -471,6 +494,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 300.0
     TechLevel: 1
+    name: Medium Asymmetric Enduring Remote Shield Booster
   Medium Murky Compact Remote Shield Booster:
     CapacitorNeed: 232.0
     Cpu: 40.0
@@ -490,6 +514,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 300.0
     TechLevel: 1
+    name: Medium Murky Compact Remote Shield Booster
   Medium Remote Shield Booster I:
     CapacitorNeed: 232.0
     Cpu: 50.0
@@ -508,6 +533,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 260.0
     TechLevel: 1
+    name: Medium Remote Shield Booster I
   Medium Remote Shield Booster II:
     CapacitorNeed: 256.0
     Cpu: 61.0
@@ -527,6 +553,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 340.0
     TechLevel: 2
+    name: Medium Remote Shield Booster II
   Medium S95a Scoped Remote Shield Booster:
     CapacitorNeed: 232.0
     Cpu: 50.0
@@ -546,6 +573,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 300.0
     TechLevel: 1
+    name: Medium S95a Scoped Remote Shield Booster
   Micro 'Atonement' Remote Shield Booster:
     CapacitorNeed: 33.0
     Duration: 5000.0
@@ -562,6 +590,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 46.0
     TechLevel: 1
+    name: Micro 'Atonement' Remote Shield Booster
   Micro Asymmetric Remote Shield Booster:
     CapacitorNeed: 33.0
     Duration: 5000.0
@@ -578,6 +607,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 42.0
     TechLevel: 1
+    name: Micro Asymmetric Remote Shield Booster
   Micro Murky Remote Shield Booster:
     CapacitorNeed: 33.0
     Duration: 5000.0
@@ -594,6 +624,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 44.0
     TechLevel: 1
+    name: Micro Murky Remote Shield Booster
   Micro Remote Shield Booster II:
     CapacitorNeed: 30.0
     Duration: 4500.0
@@ -610,6 +641,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 48.0
     TechLevel: 2
+    name: Micro Remote Shield Booster II
   Micro S95a Remote Shield Booster:
     CapacitorNeed: 33.0
     Duration: 5000.0
@@ -626,6 +658,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 48.0
     TechLevel: 1
+    name: Micro S95a Remote Shield Booster
   Pithi A-Type Small Remote Shield Booster:
     CapacitorNeed: 67.0
     Cpu: 42.0
@@ -646,6 +679,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 127.0
     TechLevel: 1
+    name: Pithi A-Type Small Remote Shield Booster
   Pithi B-Type Small Remote Shield Booster:
     CapacitorNeed: 67.0
     Cpu: 40.0
@@ -666,6 +700,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 117.0
     TechLevel: 1
+    name: Pithi B-Type Small Remote Shield Booster
   Pithi C-Type Small Remote Shield Booster:
     CapacitorNeed: 67.0
     Cpu: 38.0
@@ -686,6 +721,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 107.0
     TechLevel: 1
+    name: Pithi C-Type Small Remote Shield Booster
   Pithum A-Type Medium Remote Shield Booster:
     CapacitorNeed: 268.0
     Cpu: 83.0
@@ -706,6 +742,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 508.0
     TechLevel: 1
+    name: Pithum A-Type Medium Remote Shield Booster
   Pithum B-Type Medium Remote Shield Booster:
     CapacitorNeed: 268.0
     Cpu: 80.0
@@ -726,6 +763,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 468.0
     TechLevel: 1
+    name: Pithum B-Type Medium Remote Shield Booster
   Pithum C-Type Medium Remote Shield Booster:
     CapacitorNeed: 268.0
     Cpu: 78.0
@@ -746,6 +784,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 428.0
     TechLevel: 1
+    name: Pithum C-Type Medium Remote Shield Booster
   Small 'Atonement' Remote Shield Booster:
     CapacitorNeed: 33.0
     Cpu: 28.0
@@ -763,6 +802,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 46.0
     TechLevel: 1
+    name: Small 'Atonement' Remote Shield Booster
   Small Asymmetric Enduring Remote Shield Booster:
     CapacitorNeed: 52.0
     Cpu: 28.0
@@ -782,6 +822,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 75.0
     TechLevel: 1
+    name: Small Asymmetric Enduring Remote Shield Booster
   Small Murky Compact Remote Shield Booster:
     CapacitorNeed: 58.0
     Cpu: 22.0
@@ -801,6 +842,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 75.0
     TechLevel: 1
+    name: Small Murky Compact Remote Shield Booster
   Small Remote Shield Booster I:
     CapacitorNeed: 58.0
     Cpu: 28.0
@@ -819,6 +861,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 65.0
     TechLevel: 1
+    name: Small Remote Shield Booster I
   Small Remote Shield Booster II:
     CapacitorNeed: 64.0
     Cpu: 34.0
@@ -838,6 +881,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 85.0
     TechLevel: 2
+    name: Small Remote Shield Booster II
   Small S95a Scoped Remote Shield Booster:
     CapacitorNeed: 58.0
     Cpu: 28.0
@@ -857,6 +901,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 75.0
     TechLevel: 1
+    name: Small S95a Scoped Remote Shield Booster
   True Sansha Capital Remote Shield Booster:
     CapacitorNeed: 1900.0
     Cpu: 90.0
@@ -879,6 +924,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1100.0
     TechLevel: 1
+    name: True Sansha Capital Remote Shield Booster
   X-Large 'Atonement' Remote Shield Booster:
     CapacitorNeed: 528.0
     Duration: 5000.0
@@ -895,6 +941,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 736.0
     TechLevel: 1
+    name: X-Large 'Atonement' Remote Shield Booster
   X-Large Asymmetric Remote Shield Booster:
     CapacitorNeed: 528.0
     Duration: 5000.0
@@ -911,6 +958,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 672.0
     TechLevel: 1
+    name: X-Large Asymmetric Remote Shield Booster
   X-Large Murky Remote Shield Booster:
     CapacitorNeed: 528.0
     Duration: 5000.0
@@ -927,6 +975,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 704.0
     TechLevel: 1
+    name: X-Large Murky Remote Shield Booster
   X-Large S95a Remote Shield Booster:
     CapacitorNeed: 528.0
     Duration: 5000.0
@@ -943,3 +992,4 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 768.0
     TechLevel: 1
+    name: X-Large S95a Remote Shield Booster

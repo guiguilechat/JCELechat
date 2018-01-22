@@ -1,61 +1,121 @@
 items:
-  Amarr Advanced Outpost Factory: {}
-  Amarr Advanced Outpost Laboratory: {}
-  Amarr Advanced Outpost Office: {}
-  Amarr Advanced Outpost Plant: {}
-  Amarr Advanced Outpost Refinery: {}
-  Amarr Basic Outpost Factory: {}
-  Amarr Basic Outpost Laboratory: {}
-  Amarr Basic Outpost Office: {}
-  Amarr Basic Outpost Plant: {}
-  Amarr Basic Outpost Refinery: {}
-  Amarr Outpost Factory: {}
-  Amarr Outpost Laboratory: {}
-  Amarr Outpost Office: {}
-  Amarr Outpost Plant: {}
-  Amarr Outpost Refinery: {}
-  Caldari Advanced Outpost Factory: {}
-  Caldari Advanced Outpost Laboratory: {}
-  Caldari Advanced Outpost Office: {}
-  Caldari Advanced Outpost Refinery: {}
-  Caldari Advanced Outpost Research Facility: {}
-  Caldari Basic Outpost Factory: {}
-  Caldari Basic Outpost Laboratory: {}
-  Caldari Basic Outpost Office: {}
-  Caldari Basic Outpost Refinery: {}
-  Caldari Basic Outpost Research Facility: {}
-  Caldari Outpost Factory: {}
-  Caldari Outpost Laboratory: {}
-  Caldari Outpost Office: {}
-  Caldari Outpost Refinery: {}
-  Caldari Outpost Research Facility: {}
-  Gallente Advanced Outpost Factory: {}
-  Gallente Advanced Outpost Laboratory: {}
-  Gallente Advanced Outpost Office: {}
-  Gallente Advanced Outpost Plant: {}
-  Gallente Advanced Outpost Refinery: {}
-  Gallente Basic Outpost Factory: {}
-  Gallente Basic Outpost Laboratory: {}
-  Gallente Basic Outpost Office: {}
-  Gallente Basic Outpost Plant: {}
-  Gallente Basic Outpost Refinery: {}
-  Gallente Outpost Factory: {}
-  Gallente Outpost Laboratory: {}
-  Gallente Outpost Office: {}
-  Gallente Outpost Plant: {}
-  Gallente Outpost Refinery: {}
-  Minmatar Advanced Outpost Factory: {}
-  Minmatar Advanced Outpost Laboratory: {}
-  Minmatar Advanced Outpost Office: {}
-  Minmatar Advanced Outpost Plant: {}
-  Minmatar Advanced Outpost Refinery: {}
-  Minmatar Basic Outpost Factory: {}
-  Minmatar Basic Outpost Laboratory: {}
-  Minmatar Basic Outpost Office: {}
-  Minmatar Basic Outpost Plant: {}
-  Minmatar Basic Outpost Refinery: {}
-  Minmatar Outpost Factory: {}
-  Minmatar Outpost Laboratory: {}
-  Minmatar Outpost Office: {}
-  Minmatar Outpost Plant: {}
-  Minmatar Outpost Refinery: {}
+  Amarr Advanced Outpost Factory:
+    name: Amarr Advanced Outpost Factory
+  Amarr Advanced Outpost Laboratory:
+    name: Amarr Advanced Outpost Laboratory
+  Amarr Advanced Outpost Office:
+    name: Amarr Advanced Outpost Office
+  Amarr Advanced Outpost Plant:
+    name: Amarr Advanced Outpost Plant
+  Amarr Advanced Outpost Refinery:
+    name: Amarr Advanced Outpost Refinery
+  Amarr Basic Outpost Factory:
+    name: Amarr Basic Outpost Factory
+  Amarr Basic Outpost Laboratory:
+    name: Amarr Basic Outpost Laboratory
+  Amarr Basic Outpost Office:
+    name: Amarr Basic Outpost Office
+  Amarr Basic Outpost Plant:
+    name: Amarr Basic Outpost Plant
+  Amarr Basic Outpost Refinery:
+    name: Amarr Basic Outpost Refinery
+  Amarr Outpost Factory:
+    name: Amarr Outpost Factory
+  Amarr Outpost Laboratory:
+    name: Amarr Outpost Laboratory
+  Amarr Outpost Office:
+    name: Amarr Outpost Office
+  Amarr Outpost Plant:
+    name: Amarr Outpost Plant
+  Amarr Outpost Refinery:
+    name: Amarr Outpost Refinery
+  Caldari Advanced Outpost Factory:
+    name: Caldari Advanced Outpost Factory
+  Caldari Advanced Outpost Laboratory:
+    name: Caldari Advanced Outpost Laboratory
+  Caldari Advanced Outpost Office:
+    name: Caldari Advanced Outpost Office
+  Caldari Advanced Outpost Refinery:
+    name: Caldari Advanced Outpost Refinery
+  Caldari Advanced Outpost Research Facility:
+    name: Caldari Advanced Outpost Research Facility
+  Caldari Basic Outpost Factory:
+    name: Caldari Basic Outpost Factory
+  Caldari Basic Outpost Laboratory:
+    name: Caldari Basic Outpost Laboratory
+  Caldari Basic Outpost Office:
+    name: Caldari Basic Outpost Office
+  Caldari Basic Outpost Refinery:
+    name: Caldari Basic Outpost Refinery
+  Caldari Basic Outpost Research Facility:
+    name: Caldari Basic Outpost Research Facility
+  Caldari Outpost Factory:
+    name: Caldari Outpost Factory
+  Caldari Outpost Laboratory:
+    name: Caldari Outpost Laboratory
+  Caldari Outpost Office:
+    name: Caldari Outpost Office
+  Caldari Outpost Refinery:
+    name: Caldari Outpost Refinery
+  Caldari Outpost Research Facility:
+    name: Caldari Outpost Research Facility
+  Gallente Advanced Outpost Factory:
+    name: Gallente Advanced Outpost Factory
+  Gallente Advanced Outpost Laboratory:
+    name: Gallente Advanced Outpost Laboratory
+  Gallente Advanced Outpost Office:
+    name: Gallente Advanced Outpost Office
+  Gallente Advanced Outpost Plant:
+    name: Gallente Advanced Outpost Plant
+  Gallente Advanced Outpost Refinery:
+    name: Gallente Advanced Outpost Refinery
+  Gallente Basic Outpost Factory:
+    name: Gallente Basic Outpost Factory
+  Gallente Basic Outpost Laboratory:
+    name: Gallente Basic Outpost Laboratory
+  Gallente Basic Outpost Office:
+    name: Gallente Basic Outpost Office
+  Gallente Basic Outpost Plant:
+    name: Gallente Basic Outpost Plant
+  Gallente Basic Outpost Refinery:
+    name: Gallente Basic Outpost Refinery
+  Gallente Outpost Factory:
+    name: Gallente Outpost Factory
+  Gallente Outpost Laboratory:
+    name: Gallente Outpost Laboratory
+  Gallente Outpost Office:
+    name: Gallente Outpost Office
+  Gallente Outpost Plant:
+    name: Gallente Outpost Plant
+  Gallente Outpost Refinery:
+    name: Gallente Outpost Refinery
+  Minmatar Advanced Outpost Factory:
+    name: Minmatar Advanced Outpost Factory
+  Minmatar Advanced Outpost Laboratory:
+    name: Minmatar Advanced Outpost Laboratory
+  Minmatar Advanced Outpost Office:
+    name: Minmatar Advanced Outpost Office
+  Minmatar Advanced Outpost Plant:
+    name: Minmatar Advanced Outpost Plant
+  Minmatar Advanced Outpost Refinery:
+    name: Minmatar Advanced Outpost Refinery
+  Minmatar Basic Outpost Factory:
+    name: Minmatar Basic Outpost Factory
+  Minmatar Basic Outpost Laboratory:
+    name: Minmatar Basic Outpost Laboratory
+  Minmatar Basic Outpost Office:
+    name: Minmatar Basic Outpost Office
+  Minmatar Basic Outpost Plant:
+    name: Minmatar Basic Outpost Plant
+  Minmatar Basic Outpost Refinery:
+    name: Minmatar Basic Outpost Refinery
+  Minmatar Outpost Factory:
+    name: Minmatar Outpost Factory
+  Minmatar Outpost Laboratory:
+    name: Minmatar Outpost Laboratory
+  Minmatar Outpost Office:
+    name: Minmatar Outpost Office
+  Minmatar Outpost Plant:
+    name: Minmatar Outpost Plant
+  Minmatar Outpost Refinery:
+    name: Minmatar Outpost Refinery

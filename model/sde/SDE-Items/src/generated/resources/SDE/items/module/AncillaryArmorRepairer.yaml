@@ -22,6 +22,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Capital Ancillary Armor Repairer
   Large Ancillary Armor Repairer:
     ArmorDamageAmount: 518
     CapacitorNeed: 400.0
@@ -45,6 +46,7 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Large Ancillary Armor Repairer
   Medium Ancillary Armor Repairer:
     ArmorDamageAmount: 207
     CapacitorNeed: 160.0
@@ -68,6 +70,7 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium Ancillary Armor Repairer
   Small Ancillary Armor Repairer:
     ArmorDamageAmount: 52
     CapacitorNeed: 40.0
@@ -91,3 +94,4 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small Ancillary Armor Repairer

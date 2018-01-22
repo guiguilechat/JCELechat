@@ -1,9 +1,13 @@
 items:
   Helium Fuel Block Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Helium Fuel Block Blueprint
   Hydrogen Fuel Block Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Hydrogen Fuel Block Blueprint
   Nitrogen Fuel Block Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Nitrogen Fuel Block Blueprint
   Oxygen Fuel Block Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Oxygen Fuel Block Blueprint

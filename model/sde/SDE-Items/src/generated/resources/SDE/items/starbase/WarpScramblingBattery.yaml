@@ -42,6 +42,7 @@ items:
     WarpScrambleDuration: 15000
     WarpScrambleRange: 150000
     WarpScrambleStrength: 4
+    name: Serpentis Warp Disruption Battery
   Serpentis Warp Scrambling Battery:
     AnchoringDelay: 5000
     ArmorHP: 2250000
@@ -85,6 +86,7 @@ items:
     WarpScrambleDuration: 11000
     WarpScrambleRange: 82500
     WarpScrambleStrength: 6
+    name: Serpentis Warp Scrambling Battery
   Shadow Warp Disruption Battery:
     AnchoringDelay: 5000
     ArmorHP: 3000000
@@ -128,6 +130,7 @@ items:
     WarpScrambleDuration: 25000
     WarpScrambleRange: 150000
     WarpScrambleStrength: 5
+    name: Shadow Warp Disruption Battery
   Shadow Warp Scrambling Battery:
     AnchoringDelay: 5000
     ArmorHP: 3000000
@@ -171,6 +174,7 @@ items:
     WarpScrambleDuration: 13000
     WarpScrambleRange: 97500
     WarpScrambleStrength: 6
+    name: Shadow Warp Scrambling Battery
   Warp Disruption Battery:
     AnchoringDelay: 5000
     ArmorHP: 1500000
@@ -213,6 +217,7 @@ items:
     WarpScrambleDuration: 10000
     WarpScrambleRange: 150000
     WarpScrambleStrength: 3
+    name: Warp Disruption Battery
   Warp Scrambling Battery:
     AnchoringDelay: 5000
     ArmorHP: 1500000
@@ -255,3 +260,4 @@ items:
     WarpScrambleDuration: 10000
     WarpScrambleRange: 75000
     WarpScrambleStrength: 6
+    name: Warp Scrambling Battery

@@ -25,6 +25,7 @@ items:
     TechLevel: 1
     ThermalDamage: 431.0
     ThermalDamageResonance: 0.800000011920929
+    name: Caldari Navy Inferno Cruise Missile
   Caldari Navy Mjolnir Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -51,6 +52,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Mjolnir Cruise Missile
   Caldari Navy Nova Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -77,6 +79,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Nova Cruise Missile
   Caldari Navy Scourge Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -103,6 +106,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Scourge Cruise Missile
   Dread Guristas Inferno Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -129,6 +133,7 @@ items:
     TechLevel: 1
     ThermalDamage: 450.0
     ThermalDamageResonance: 0.800000011920929
+    name: Dread Guristas Inferno Cruise Missile
   Dread Guristas Mjolnir Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -155,6 +160,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Mjolnir Cruise Missile
   Dread Guristas Nova Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -181,6 +187,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Nova Cruise Missile
   Dread Guristas Scourge Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -207,6 +214,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Scourge Cruise Missile
   Guristas Inferno Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -233,6 +241,7 @@ items:
     TechLevel: 1
     ThermalDamage: 413.0
     ThermalDamageResonance: 0.800000011920929
+    name: Guristas Inferno Cruise Missile
   Guristas Mjolnir Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -259,6 +268,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Mjolnir Cruise Missile
   Guristas Nova Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -285,6 +295,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Nova Cruise Missile
   Guristas Scourge Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -311,6 +322,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Scourge Cruise Missile
   Haunter Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -336,6 +348,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Haunter Cruise Missile
   Inferno Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -360,6 +373,7 @@ items:
     TechLevel: 1
     ThermalDamage: 375.0
     ThermalDamageResonance: 0.800000011920929
+    name: Inferno Cruise Missile
   Mjolnir Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -384,6 +398,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Mjolnir Cruise Missile
   Nova Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -408,6 +423,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Nova Cruise Missile
   Phantasmata Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -433,6 +449,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Phantasmata Missile
   QA Cruise Missile:
     AimedLaunch: 1
     AoeCloudSize: 1
@@ -453,6 +470,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: QA Cruise Missile
   Sansha Paradise Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -478,6 +496,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Sansha Paradise Cruise Missile
   Scourge Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -502,6 +521,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Scourge Cruise Missile
   True Sansha Paradise Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -526,3 +546,4 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: True Sansha Paradise Cruise Missile

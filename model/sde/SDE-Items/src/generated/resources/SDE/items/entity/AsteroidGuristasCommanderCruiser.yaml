@@ -1,16 +1,31 @@
 items:
-  Deuce Ascriber: {}
-  Deuce Killer: {}
-  Deuce Murderer: {}
-  Deuce Silencer: {}
-  Dini Mator: {}
-  Dread Guristas Abolisher: {}
-  Dread Guristas Annihilator: {}
-  Dread Guristas Ascriber: {}
-  Dread Guristas Eraser: {}
-  Dread Guristas Inferno: {}
-  Dread Guristas Killer: {}
-  Dread Guristas Mortifier: {}
-  Dread Guristas Murderer: {}
-  Dread Guristas Nullifier: {}
-  Dread Guristas Silencer: {}
+  Deuce Ascriber:
+    name: Deuce Ascriber
+  Deuce Killer:
+    name: Deuce Killer
+  Deuce Murderer:
+    name: Deuce Murderer
+  Deuce Silencer:
+    name: Deuce Silencer
+  Dini Mator:
+    name: Dini Mator
+  Dread Guristas Abolisher:
+    name: Dread Guristas Abolisher
+  Dread Guristas Annihilator:
+    name: Dread Guristas Annihilator
+  Dread Guristas Ascriber:
+    name: Dread Guristas Ascriber
+  Dread Guristas Eraser:
+    name: Dread Guristas Eraser
+  Dread Guristas Inferno:
+    name: Dread Guristas Inferno
+  Dread Guristas Killer:
+    name: Dread Guristas Killer
+  Dread Guristas Mortifier:
+    name: Dread Guristas Mortifier
+  Dread Guristas Murderer:
+    name: Dread Guristas Murderer
+  Dread Guristas Nullifier:
+    name: Dread Guristas Nullifier
+  Dread Guristas Silencer:
+    name: Dread Guristas Silencer

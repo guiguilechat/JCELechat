@@ -1,8 +1,15 @@
 items:
-  Black Hole: {}
-  Cataclysmic Variable: {}
-  EVE Gate: {}
-  Magnetar: {}
-  Pulsar: {}
-  Red Giant: {}
-  Wolf-Rayet Star: {}
+  Black Hole:
+    name: Black Hole
+  Cataclysmic Variable:
+    name: Cataclysmic Variable
+  EVE Gate:
+    name: EVE Gate
+  Magnetar:
+    name: Magnetar
+  Pulsar:
+    name: Pulsar
+  Red Giant:
+    name: Red Giant
+  Wolf-Rayet Star:
+    name: Wolf-Rayet Star

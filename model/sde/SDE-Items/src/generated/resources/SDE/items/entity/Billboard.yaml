@@ -1,5 +1,9 @@
 items:
-  Concord Billboard: {}
-  Large CONCORD Billboard: {}
-  Medium CONCORD Billboard: {}
-  'Small CONCORD Billboard ': {}
+  Concord Billboard:
+    name: Concord Billboard
+  Large CONCORD Billboard:
+    name: Large CONCORD Billboard
+  Medium CONCORD Billboard:
+    name: Medium CONCORD Billboard
+  'Small CONCORD Billboard ':
+    name: 'Small CONCORD Billboard '

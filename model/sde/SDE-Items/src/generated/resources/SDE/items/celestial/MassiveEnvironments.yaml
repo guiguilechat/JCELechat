@@ -1,3 +1,5 @@
 items:
-  Effect NPE Vortex: {}
-  unnamed_gid21177_sid20220: {}
+  Effect NPE Vortex:
+    name: Effect NPE Vortex
+  unnamed_gid21177_sid20220:
+    name: unnamed_gid21177_sid20220

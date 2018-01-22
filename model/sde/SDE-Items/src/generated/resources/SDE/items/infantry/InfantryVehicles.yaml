@@ -1,96 +1,191 @@
 items:
-  '''AG-01'' Grimsnes': {}
-  '''AI-102'' Madrugar': {}
-  '''CD-41'' Myron': {}
-  '''Greyscale'' Saga': {}
-  '''HC-130'' Gunnlogi': {}
-  '''LC-217'' Saga': {}
-  '''LC-225'' Saga-II': {}
-  '''LG-88'' Methana': {}
-  '''Nullarbor'' Myron': {}
-  '''Praetorian VII'' Madrugar': {}
-  '''Quafe'' Grimsnes': {}
-  '''Quafe'' Gunnlogi': {}
-  '''Quafe'' Madrugar': {}
-  '''Quafe'' Methana': {}
-  '''Quafe'' Methana Blueprint': {}
-  '''Quafe'' Myron': {}
-  '''Quafe'' Saga': {}
-  '''Quafe'' Saga Blueprint': {}
-  Abron: {}
-  Amarok: {}
-  Angel Cartel Saga: {}
-  Baloch: {}
-  Baloch - Impact: {}
-  Baloch Blueprint: {}
-  Blood Raiders Saga: {}
-  Bolas: {}
-  Callisto: {}
-  Cestus: {}
-  'Cestus ': {}
-  Chakram: {}
-  Charron: {}
-  'Charron ': {}
-  Charybdis: {}
-  Colima: {}
-  CreoDron Breach HAV: {}
-  CreoDron Methana: {}
-  CreoDron Methana vX.1: {}
-  CreoDron Transport Dropship: {}
-  Crotalus: {}
-  Eryx: {}
-  Estoc: {}
-  Falchion: {}
-  Federation Grimsnes: {}
-  Federation Madrugar: {}
-  Federation Methana: {}
-  Gladius C-I: {}
-  Gladius C/1: {}
-  Gladius Cv.0: {}
-  Gorgon: {}
-  Gorgon - Hatch: {}
-  Gorgon Blueprint: {}
-  Grimsnes: {}
-  Gunnlogi C-I: {}
-  Gunnlogi C/1: {}
-  Gunnlogi Cv.0: {}
-  Guristas Saga: {}
-  HAV: {}
-  Incubus: {}
-  Ishukone Watch Saga: {}
-  Kaalakiota Recon Dropship: {}
-  Kaalakiota Tactical HAV: {}
-  Kubera: {}
-  Limbus: {}
-  Madrugar G-I: {}
-  Madrugar G/1: {}
-  Madrugar Gv.0: {}
-  Marduk G-I: {}
-  Marduk G/1: {}
-  Marduk Gv.0: {}
-  Methana: {}
-  Myron: {}
-  Onikuma: {}
-  Onikuma - Impact: {}
-  Onikuma Blueprint: {}
-  Prometheus: {}
-  Python: {}
-  Saga: {}
-  Saga-II: {}
-  Sagaris: {}
-  Senior Recruiter Light Assault Vehicle: {}
-  Sica: {}
-  Sica - Tension: {}
-  Sica Blueprint: {}
-  Soma: {}
-  Soma - Tension: {}
-  Soma Blueprint: {}
-  State Gunnlogi: {}
-  State Myron: {}
-  State Saga: {}
-  Surya: {}
-  Vayu: {}
-  Viper: {}
-  Viper - Hatch: {}
-  Viper Blueprint: {}
-  '[TEST] Onikuma Boost': {}
+  '''AG-01'' Grimsnes':
+    name: '''AG-01'' Grimsnes'
+  '''AI-102'' Madrugar':
+    name: '''AI-102'' Madrugar'
+  '''CD-41'' Myron':
+    name: '''CD-41'' Myron'
+  '''Greyscale'' Saga':
+    name: '''Greyscale'' Saga'
+  '''HC-130'' Gunnlogi':
+    name: '''HC-130'' Gunnlogi'
+  '''LC-217'' Saga':
+    name: '''LC-217'' Saga'
+  '''LC-225'' Saga-II':
+    name: '''LC-225'' Saga-II'
+  '''LG-88'' Methana':
+    name: '''LG-88'' Methana'
+  '''Nullarbor'' Myron':
+    name: '''Nullarbor'' Myron'
+  '''Praetorian VII'' Madrugar':
+    name: '''Praetorian VII'' Madrugar'
+  '''Quafe'' Grimsnes':
+    name: '''Quafe'' Grimsnes'
+  '''Quafe'' Gunnlogi':
+    name: '''Quafe'' Gunnlogi'
+  '''Quafe'' Madrugar':
+    name: '''Quafe'' Madrugar'
+  '''Quafe'' Methana':
+    name: '''Quafe'' Methana'
+  '''Quafe'' Methana Blueprint':
+    name: '''Quafe'' Methana Blueprint'
+  '''Quafe'' Myron':
+    name: '''Quafe'' Myron'
+  '''Quafe'' Saga':
+    name: '''Quafe'' Saga'
+  '''Quafe'' Saga Blueprint':
+    name: '''Quafe'' Saga Blueprint'
+  Abron:
+    name: Abron
+  Amarok:
+    name: Amarok
+  Angel Cartel Saga:
+    name: Angel Cartel Saga
+  Baloch:
+    name: Baloch
+  Baloch - Impact:
+    name: Baloch - Impact
+  Baloch Blueprint:
+    name: Baloch Blueprint
+  Blood Raiders Saga:
+    name: Blood Raiders Saga
+  Bolas:
+    name: Bolas
+  Callisto:
+    name: Callisto
+  Cestus:
+    name: Cestus
+  'Cestus ':
+    name: 'Cestus '
+  Chakram:
+    name: Chakram
+  Charron:
+    name: Charron
+  'Charron ':
+    name: 'Charron '
+  Charybdis:
+    name: Charybdis
+  Colima:
+    name: Colima
+  CreoDron Breach HAV:
+    name: CreoDron Breach HAV
+  CreoDron Methana:
+    name: CreoDron Methana
+  CreoDron Methana vX.1:
+    name: CreoDron Methana vX.1
+  CreoDron Transport Dropship:
+    name: CreoDron Transport Dropship
+  Crotalus:
+    name: Crotalus
+  Eryx:
+    name: Eryx
+  Estoc:
+    name: Estoc
+  Falchion:
+    name: Falchion
+  Federation Grimsnes:
+    name: Federation Grimsnes
+  Federation Madrugar:
+    name: Federation Madrugar
+  Federation Methana:
+    name: Federation Methana
+  Gladius C-I:
+    name: Gladius C-I
+  Gladius C/1:
+    name: Gladius C/1
+  Gladius Cv.0:
+    name: Gladius Cv.0
+  Gorgon:
+    name: Gorgon
+  Gorgon - Hatch:
+    name: Gorgon - Hatch
+  Gorgon Blueprint:
+    name: Gorgon Blueprint
+  Grimsnes:
+    name: Grimsnes
+  Gunnlogi C-I:
+    name: Gunnlogi C-I
+  Gunnlogi C/1:
+    name: Gunnlogi C/1
+  Gunnlogi Cv.0:
+    name: Gunnlogi Cv.0
+  Guristas Saga:
+    name: Guristas Saga
+  HAV:
+    name: HAV
+  Incubus:
+    name: Incubus
+  Ishukone Watch Saga:
+    name: Ishukone Watch Saga
+  Kaalakiota Recon Dropship:
+    name: Kaalakiota Recon Dropship
+  Kaalakiota Tactical HAV:
+    name: Kaalakiota Tactical HAV
+  Kubera:
+    name: Kubera
+  Limbus:
+    name: Limbus
+  Madrugar G-I:
+    name: Madrugar G-I
+  Madrugar G/1:
+    name: Madrugar G/1
+  Madrugar Gv.0:
+    name: Madrugar Gv.0
+  Marduk G-I:
+    name: Marduk G-I
+  Marduk G/1:
+    name: Marduk G/1
+  Marduk Gv.0:
+    name: Marduk Gv.0
+  Methana:
+    name: Methana
+  Myron:
+    name: Myron
+  Onikuma:
+    name: Onikuma
+  Onikuma - Impact:
+    name: Onikuma - Impact
+  Onikuma Blueprint:
+    name: Onikuma Blueprint
+  Prometheus:
+    name: Prometheus
+  Python:
+    name: Python
+  Saga:
+    name: Saga
+  Saga-II:
+    name: Saga-II
+  Sagaris:
+    name: Sagaris
+  Senior Recruiter Light Assault Vehicle:
+    name: Senior Recruiter Light Assault Vehicle
+  Sica:
+    name: Sica
+  Sica - Tension:
+    name: Sica - Tension
+  Sica Blueprint:
+    name: Sica Blueprint
+  Soma:
+    name: Soma
+  Soma - Tension:
+    name: Soma - Tension
+  Soma Blueprint:
+    name: Soma Blueprint
+  State Gunnlogi:
+    name: State Gunnlogi
+  State Myron:
+    name: State Myron
+  State Saga:
+    name: State Saga
+  Surya:
+    name: Surya
+  Vayu:
+    name: Vayu
+  Viper:
+    name: Viper
+  Viper - Hatch:
+    name: Viper - Hatch
+  Viper Blueprint:
+    name: Viper Blueprint
+  '[TEST] Onikuma Boost':
+    name: '[TEST] Onikuma Boost'

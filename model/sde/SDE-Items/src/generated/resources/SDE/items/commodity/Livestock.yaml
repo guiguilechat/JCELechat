@@ -1,199 +1,397 @@
 items:
-  A Really REALLY Clueless Tourist: {}
-  Activists: {}
-  'Admiral Meledier ': {}
-  Amarr Diplomat: {}
-  Amarr Forensic Investigative Deployment: {}
-  Amarr Forensic Investigative Team: {}
-  Amarr Light Marines: {}
-  Amarr Marine Counter-Boarding Company: {}
-  Amarr Marine Counter-Boarding Team: {}
-  Amarr Reporter: {}
-  Amarr Sympathizer: {}
-  Amarrian Agent: {}
-  Amarrian Double-Agent: {}
-  Amarrian Spy: {}
-  Ambassador Hugo Farin: {}
-  Angel Cartel Pilot: {}
-  Angel Cartel Prisoners: {}
-  Arctic Warfare Marine Squads: {}
-  Arctic Warfare Marines: {}
-  Artificial Miyan: {}
-  Black Jack's Underling: {}
-  Blood Raider Scientist: {}
-  Breeder Slave: {}
-  Brutor Workers: {}
-  CPF Security Personnel: {}
-  Caldari Light Marines: {}
-  Caldari Operative: {}
-  Caldari Prisoners of War: {}
-  Caldari Surveyor: {}
-  Captives: {}
-  Captured CEO: {}
-  Captured Civilians: {}
-  Cattle: {}
-  Chef Aubrei Azil: {}
-  Citizens: {}
-  Civilian SIGINT Contractors: {}
-  Civilians: {}
-  Cloned SOE officer: {}
-  Clones: {}
-  Comatose Alena Karyn: {}
-  Conditioned House Slaves: {}
-  Construction Workers: {}
-  Corin Risia: {}
-  Corporate Assassin: {}
-  Dagan: {}
-  Dalitat Dakpor's Clone: {}
-  Dari Akell: {}
-  Deep Cover Corporate Assassin: {}
-  Doctor Luija Elban: {}
-  Dread Guristas Strike Force: {}
-  Elite Slaves: {}
-  Engineer Tahaki Karin: {}
-  Exotic Dancers, Female: {}
-  Exotic Dancers, Male: {}
-  FR Personnel: {}
-  Fajah Ateshi: {}
-  Federal Intelligence Officer: {}
-  Former Slaves: {}
-  Freed Pet Slaves: {}
-  Freedom Fighters: {}
-  Fugitive Slaves: {}
-  Gallente Light Marines: {}
-  Gallente Politician: {}
-  Gallente Reporter: {}
-  Gang of Miners: {}
-  Geeral Tash-Murkon: {}
-  Govarde Alourtine: {}
-  Grace Tarsis: {}
-  Group of Army Recruits: {}
-  Group of Cattle: {}
-  Group of Civilian SIGINT Contractors: {}
-  Group of Elite Slaves: {}
-  Group of Exotic Dancers: {}
-  Group of Genetically Enhanced Livestock: {}
-  Group of Homeless: {}
-  Group of Janitors: {}
-  Group of Kameiras: {}
-  Group of Marines: {}
-  Group of Militants: {}
-  Group of Miners: {}
-  Group of Refugees: {}
-  Group of Science Graduates: {}
-  Group of Security Personnel: {}
-  Group of Slaves: {}
-  Group of Tourists: {}
-  Group of VIPs: {}
-  Harlots: {}
-  Harroken Ikero: {}
-  Heiress: {}
-  Hejilmar the Slave: {}
-  Herd of Conditioned House Slaves: {}
-  Homeless: {}
-  Hostages: {}
-  Infected Refugees: {}
-  Informant: {}
-  Injured Slaves: {}
-  Inspector Layna Whizon: {}
-  Jamiella Ortar: {}
-  Janitor: {}
-  Jark Makon: {}
-  Jorek Lephny: {}
-  Kameiras: {}
-  Kardimo Palettan: {}
-  Khanid Commander: {}
-  Khanid Marine: {}
-  Kidnapped Citizens: {}
-  Kritsan Parthus: {}
-  Large Group of Cattle: {}
-  Large Group of Civilians: {}
-  Large Group of Exotic Dancers: {}
-  Large Group of Genetically Enhanced Livestock: {}
-  Large Group of Homeless: {}
-  Large Group of Janitors: {}
-  Large Group of Kameiras: {}
-  Large Group of Marines: {}
-  Large Group of Militants: {}
-  Large Group of Miners: {}
-  Large Group of Refugees: {}
-  Large Group of Science Graduates: {}
-  Large Group of Slaves: {}
-  Large Group of Tourists: {}
-  Large Group of VIPs: {}
-  Lazron Kamon: {}
-  Lieutenant Kipo “Foxfire” Tekira: {}
-  Lieutenant Kirus: {}
-  Logut Akell: {}
-  Lord Arachnan: {}
-  Lucia Deep: {}
-  Major's Son: {}
-  Manel's Servant: {}
-  Marines: {}
-  Mercenary Pilot: {}
-  Militants: {}
-  Mina Darabi: {}
-  Minecore Harvester: {}
-  Minedrill – E518 Crew: {}
-  Miner: {}
-  Miniature Slaver: {}
-  Minmatar Civilians: {}
-  Minmatar Emissary: {}
-  Minmatar Light Marines: {}
-  Minmatar Reporter: {}
-  Nakyo Fukoren: {}
-  Nebben Centrien, Janitor: {}
-  Okelle Alash: {}
-  Oura Madusaari: {}
-  Pilgrims: {}
-  Political Envoy: {}
-  Port Rolette Residents: {}
-  Preacher: {}
-  Prisoner: {}
-  Prisoners: {}
-  Production Assistant: {}
-  Professor Kajurei Delainen: {}
-  Prop Comedian: {}
-  Prostitute: {}
-  Quao Kale: {}
-  Rahsa, Sansha Commander: {}
-  Ralie Ardanne: {}
-  Refugee: {}
-  Refugees: {}
-  Regiment of Marines: {}
-  Rogue Harvester: {}
-  Ryoke Laika: {}
-  Science Graduates: {}
-  Scientist: {}
-  Scope Journalist: {}
-  Serpentis Informant: {}
-  Sheriff Togany: {}
-  Ship's Crew: {}
-  Sidura Meisana: {}
-  Sisters of EVE Negotiator: {}
-  Slaver: {}
-  Slaver Hound: {}
-  Slaves: {}
-  Smugglers: {}
-  Spy: {}
-  Starkmanir Slave: {}
-  Stranded Pilot: {}
-  Survivor: {}
-  Tahaki Karin: {}
-  Tantima Areki: {}
-  Temko Mercenaries: {}
-  Thanok: {}
-  The Chief of Security: {}
-  The Damsel: {}
-  The Infiltrator: {}
-  The Militia Leader: {}
-  The Ringmaster: {}
-  Torin Tacs: {}
-  Tourists: {}
-  Troubled Miner: {}
-  VIPs: {}
-  Valkears: {}
-  Vira Mikano: {}
-  Wei Todaki: {}
-  Zarkona Mirei: {}
-  Zvarin Karsha: {}
+  A Really REALLY Clueless Tourist:
+    name: A Really REALLY Clueless Tourist
+  Activists:
+    name: Activists
+  'Admiral Meledier ':
+    name: 'Admiral Meledier '
+  Amarr Diplomat:
+    name: Amarr Diplomat
+  Amarr Forensic Investigative Deployment:
+    name: Amarr Forensic Investigative Deployment
+  Amarr Forensic Investigative Team:
+    name: Amarr Forensic Investigative Team
+  Amarr Light Marines:
+    name: Amarr Light Marines
+  Amarr Marine Counter-Boarding Company:
+    name: Amarr Marine Counter-Boarding Company
+  Amarr Marine Counter-Boarding Team:
+    name: Amarr Marine Counter-Boarding Team
+  Amarr Reporter:
+    name: Amarr Reporter
+  Amarr Sympathizer:
+    name: Amarr Sympathizer
+  Amarrian Agent:
+    name: Amarrian Agent
+  Amarrian Double-Agent:
+    name: Amarrian Double-Agent
+  Amarrian Spy:
+    name: Amarrian Spy
+  Ambassador Hugo Farin:
+    name: Ambassador Hugo Farin
+  Angel Cartel Pilot:
+    name: Angel Cartel Pilot
+  Angel Cartel Prisoners:
+    name: Angel Cartel Prisoners
+  Arctic Warfare Marine Squads:
+    name: Arctic Warfare Marine Squads
+  Arctic Warfare Marines:
+    name: Arctic Warfare Marines
+  Artificial Miyan:
+    name: Artificial Miyan
+  Black Jack's Underling:
+    name: Black Jack's Underling
+  Blood Raider Scientist:
+    name: Blood Raider Scientist
+  Breeder Slave:
+    name: Breeder Slave
+  Brutor Workers:
+    name: Brutor Workers
+  CPF Security Personnel:
+    name: CPF Security Personnel
+  Caldari Light Marines:
+    name: Caldari Light Marines
+  Caldari Operative:
+    name: Caldari Operative
+  Caldari Prisoners of War:
+    name: Caldari Prisoners of War
+  Caldari Surveyor:
+    name: Caldari Surveyor
+  Captives:
+    name: Captives
+  Captured CEO:
+    name: Captured CEO
+  Captured Civilians:
+    name: Captured Civilians
+  Cattle:
+    name: Cattle
+  Chef Aubrei Azil:
+    name: Chef Aubrei Azil
+  Citizens:
+    name: Citizens
+  Civilian SIGINT Contractors:
+    name: Civilian SIGINT Contractors
+  Civilians:
+    name: Civilians
+  Cloned SOE officer:
+    name: Cloned SOE officer
+  Clones:
+    name: Clones
+  Comatose Alena Karyn:
+    name: Comatose Alena Karyn
+  Conditioned House Slaves:
+    name: Conditioned House Slaves
+  Construction Workers:
+    name: Construction Workers
+  Corin Risia:
+    name: Corin Risia
+  Corporate Assassin:
+    name: Corporate Assassin
+  Dagan:
+    name: Dagan
+  Dalitat Dakpor's Clone:
+    name: Dalitat Dakpor's Clone
+  Dari Akell:
+    name: Dari Akell
+  Deep Cover Corporate Assassin:
+    name: Deep Cover Corporate Assassin
+  Doctor Luija Elban:
+    name: Doctor Luija Elban
+  Dread Guristas Strike Force:
+    name: Dread Guristas Strike Force
+  Elite Slaves:
+    name: Elite Slaves
+  Engineer Tahaki Karin:
+    name: Engineer Tahaki Karin
+  Exotic Dancers, Female:
+    name: Exotic Dancers, Female
+  Exotic Dancers, Male:
+    name: Exotic Dancers, Male
+  FR Personnel:
+    name: FR Personnel
+  Fajah Ateshi:
+    name: Fajah Ateshi
+  Federal Intelligence Officer:
+    name: Federal Intelligence Officer
+  Former Slaves:
+    name: Former Slaves
+  Freed Pet Slaves:
+    name: Freed Pet Slaves
+  Freedom Fighters:
+    name: Freedom Fighters
+  Fugitive Slaves:
+    name: Fugitive Slaves
+  Gallente Light Marines:
+    name: Gallente Light Marines
+  Gallente Politician:
+    name: Gallente Politician
+  Gallente Reporter:
+    name: Gallente Reporter
+  Gang of Miners:
+    name: Gang of Miners
+  Geeral Tash-Murkon:
+    name: Geeral Tash-Murkon
+  Govarde Alourtine:
+    name: Govarde Alourtine
+  Grace Tarsis:
+    name: Grace Tarsis
+  Group of Army Recruits:
+    name: Group of Army Recruits
+  Group of Cattle:
+    name: Group of Cattle
+  Group of Civilian SIGINT Contractors:
+    name: Group of Civilian SIGINT Contractors
+  Group of Elite Slaves:
+    name: Group of Elite Slaves
+  Group of Exotic Dancers:
+    name: Group of Exotic Dancers
+  Group of Genetically Enhanced Livestock:
+    name: Group of Genetically Enhanced Livestock
+  Group of Homeless:
+    name: Group of Homeless
+  Group of Janitors:
+    name: Group of Janitors
+  Group of Kameiras:
+    name: Group of Kameiras
+  Group of Marines:
+    name: Group of Marines
+  Group of Militants:
+    name: Group of Militants
+  Group of Miners:
+    name: Group of Miners
+  Group of Refugees:
+    name: Group of Refugees
+  Group of Science Graduates:
+    name: Group of Science Graduates
+  Group of Security Personnel:
+    name: Group of Security Personnel
+  Group of Slaves:
+    name: Group of Slaves
+  Group of Tourists:
+    name: Group of Tourists
+  Group of VIPs:
+    name: Group of VIPs
+  Harlots:
+    name: Harlots
+  Harroken Ikero:
+    name: Harroken Ikero
+  Heiress:
+    name: Heiress
+  Hejilmar the Slave:
+    name: Hejilmar the Slave
+  Herd of Conditioned House Slaves:
+    name: Herd of Conditioned House Slaves
+  Homeless:
+    name: Homeless
+  Hostages:
+    name: Hostages
+  Infected Refugees:
+    name: Infected Refugees
+  Informant:
+    name: Informant
+  Injured Slaves:
+    name: Injured Slaves
+  Inspector Layna Whizon:
+    name: Inspector Layna Whizon
+  Jamiella Ortar:
+    name: Jamiella Ortar
+  Janitor:
+    name: Janitor
+  Jark Makon:
+    name: Jark Makon
+  Jorek Lephny:
+    name: Jorek Lephny
+  Kameiras:
+    name: Kameiras
+  Kardimo Palettan:
+    name: Kardimo Palettan
+  Khanid Commander:
+    name: Khanid Commander
+  Khanid Marine:
+    name: Khanid Marine
+  Kidnapped Citizens:
+    name: Kidnapped Citizens
+  Kritsan Parthus:
+    name: Kritsan Parthus
+  Large Group of Cattle:
+    name: Large Group of Cattle
+  Large Group of Civilians:
+    name: Large Group of Civilians
+  Large Group of Exotic Dancers:
+    name: Large Group of Exotic Dancers
+  Large Group of Genetically Enhanced Livestock:
+    name: Large Group of Genetically Enhanced Livestock
+  Large Group of Homeless:
+    name: Large Group of Homeless
+  Large Group of Janitors:
+    name: Large Group of Janitors
+  Large Group of Kameiras:
+    name: Large Group of Kameiras
+  Large Group of Marines:
+    name: Large Group of Marines
+  Large Group of Militants:
+    name: Large Group of Militants
+  Large Group of Miners:
+    name: Large Group of Miners
+  Large Group of Refugees:
+    name: Large Group of Refugees
+  Large Group of Science Graduates:
+    name: Large Group of Science Graduates
+  Large Group of Slaves:
+    name: Large Group of Slaves
+  Large Group of Tourists:
+    name: Large Group of Tourists
+  Large Group of VIPs:
+    name: Large Group of VIPs
+  Lazron Kamon:
+    name: Lazron Kamon
+  Lieutenant Kipo “Foxfire” Tekira:
+    name: Lieutenant Kipo “Foxfire” Tekira
+  Lieutenant Kirus:
+    name: Lieutenant Kirus
+  Logut Akell:
+    name: Logut Akell
+  Lord Arachnan:
+    name: Lord Arachnan
+  Lucia Deep:
+    name: Lucia Deep
+  Major's Son:
+    name: Major's Son
+  Manel's Servant:
+    name: Manel's Servant
+  Marines:
+    name: Marines
+  Mercenary Pilot:
+    name: Mercenary Pilot
+  Militants:
+    name: Militants
+  Mina Darabi:
+    name: Mina Darabi
+  Minecore Harvester:
+    name: Minecore Harvester
+  Minedrill – E518 Crew:
+    name: Minedrill – E518 Crew
+  Miner:
+    name: Miner
+  Miniature Slaver:
+    name: Miniature Slaver
+  Minmatar Civilians:
+    name: Minmatar Civilians
+  Minmatar Emissary:
+    name: Minmatar Emissary
+  Minmatar Light Marines:
+    name: Minmatar Light Marines
+  Minmatar Reporter:
+    name: Minmatar Reporter
+  Nakyo Fukoren:
+    name: Nakyo Fukoren
+  Nebben Centrien, Janitor:
+    name: Nebben Centrien, Janitor
+  Okelle Alash:
+    name: Okelle Alash
+  Oura Madusaari:
+    name: Oura Madusaari
+  Pilgrims:
+    name: Pilgrims
+  Political Envoy:
+    name: Political Envoy
+  Port Rolette Residents:
+    name: Port Rolette Residents
+  Preacher:
+    name: Preacher
+  Prisoner:
+    name: Prisoner
+  Prisoners:
+    name: Prisoners
+  Production Assistant:
+    name: Production Assistant
+  Professor Kajurei Delainen:
+    name: Professor Kajurei Delainen
+  Prop Comedian:
+    name: Prop Comedian
+  Prostitute:
+    name: Prostitute
+  Quao Kale:
+    name: Quao Kale
+  Rahsa, Sansha Commander:
+    name: Rahsa, Sansha Commander
+  Ralie Ardanne:
+    name: Ralie Ardanne
+  Refugee:
+    name: Refugee
+  Refugees:
+    name: Refugees
+  Regiment of Marines:
+    name: Regiment of Marines
+  Rogue Harvester:
+    name: Rogue Harvester
+  Ryoke Laika:
+    name: Ryoke Laika
+  Science Graduates:
+    name: Science Graduates
+  Scientist:
+    name: Scientist
+  Scope Journalist:
+    name: Scope Journalist
+  Serpentis Informant:
+    name: Serpentis Informant
+  Sheriff Togany:
+    name: Sheriff Togany
+  Ship's Crew:
+    name: Ship's Crew
+  Sidura Meisana:
+    name: Sidura Meisana
+  Sisters of EVE Negotiator:
+    name: Sisters of EVE Negotiator
+  Slaver:
+    name: Slaver
+  Slaver Hound:
+    name: Slaver Hound
+  Slaves:
+    name: Slaves
+  Smugglers:
+    name: Smugglers
+  Spy:
+    name: Spy
+  Starkmanir Slave:
+    name: Starkmanir Slave
+  Stranded Pilot:
+    name: Stranded Pilot
+  Survivor:
+    name: Survivor
+  Tahaki Karin:
+    name: Tahaki Karin
+  Tantima Areki:
+    name: Tantima Areki
+  Temko Mercenaries:
+    name: Temko Mercenaries
+  Thanok:
+    name: Thanok
+  The Chief of Security:
+    name: The Chief of Security
+  The Damsel:
+    name: The Damsel
+  The Infiltrator:
+    name: The Infiltrator
+  The Militia Leader:
+    name: The Militia Leader
+  The Ringmaster:
+    name: The Ringmaster
+  Torin Tacs:
+    name: Torin Tacs
+  Tourists:
+    name: Tourists
+  Troubled Miner:
+    name: Troubled Miner
+  VIPs:
+    name: VIPs
+  Valkears:
+    name: Valkears
+  Vira Mikano:
+    name: Vira Mikano
+  Wei Todaki:
+    name: Wei Todaki
+  Zarkona Mirei:
+    name: Zarkona Mirei
+  Zvarin Karsha:
+    name: Zvarin Karsha

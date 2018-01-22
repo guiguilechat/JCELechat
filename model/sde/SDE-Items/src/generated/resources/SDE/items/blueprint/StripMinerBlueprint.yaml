@@ -2,21 +2,28 @@ items:
   Ice Harvester I Blueprint:
     IndustryBlueprintRank: 7.0
     TechLevel: 1
+    name: Ice Harvester I Blueprint
   Ice Harvester II Blueprint:
     IndustryBlueprintRank: 18.200000762939453
     TechLevel: 2
+    name: Ice Harvester II Blueprint
   Modulated Deep Core Strip Miner II Blueprint:
     IndustryBlueprintRank: 18.200000762939453
     TechLevel: 2
+    name: Modulated Deep Core Strip Miner II Blueprint
   Modulated Strip Miner II Blueprint:
     IndustryBlueprintRank: 18.200000762939453
     TechLevel: 2
+    name: Modulated Strip Miner II Blueprint
   ORE Ice Harvester Blueprint:
     IndustryBlueprintRank: 7.0
     TechLevel: 1
+    name: ORE Ice Harvester Blueprint
   ORE Strip Miner Blueprint:
     IndustryBlueprintRank: 7.0
     TechLevel: 1
+    name: ORE Strip Miner Blueprint
   Strip Miner I Blueprint:
     IndustryBlueprintRank: 7.0
     TechLevel: 1
+    name: Strip Miner I Blueprint

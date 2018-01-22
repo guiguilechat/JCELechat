@@ -2,6 +2,8 @@ items:
   Survey Scanner I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Survey Scanner I Blueprint
   Survey Scanner II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Survey Scanner II Blueprint

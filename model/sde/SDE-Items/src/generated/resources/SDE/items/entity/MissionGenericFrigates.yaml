@@ -1,115 +1,229 @@
 items:
-  Aiko Temura: {}
-  Andres Sikvatsen: {}
-  Bandit Saboteur: {}
-  Bounty Hunter Rookie: {}
-  Burner Bantam: {}
-  Burner Burst: {}
-  Burner Cruor: {}
-  Burner Daredevil: {}
-  Burner Dramiel: {}
-  Burner Enyo: {}
-  Burner Escort Dramiel: {}
-  Burner Hawk: {}
-  Burner Inquisitor: {}
-  Burner Jaguar: {}
-  Burner Navitas: {}
-  Burner Sentinel: {}
-  Burner Succubus: {}
-  Burner Vengeance: {}
-  Burner Worm: {}
-  COSMOS Caldari B1: {}
-  Captain Numek Kradin: {}
-  Claudius: {}
-  Criminal Saboteur: {}
-  DED Scout Drone: {}
-  Dari Akell's Maulus: {}
-  Darkonnen Grunt: {}
-  Darkonnen Veteran: {}
-  Drezins Capsule: {}
-  Durim: {}
-  EoM Demon: {}
-  EoM Fiend: {}
-  EoM Imp: {}
-  EoM Incubus: {}
-  EoM Saboteur: {}
-  EoM Succubus: {}
-  Ex-Secret Agent: {}
-  Guemo Kajinn: {}
-  Guerin Marduke: {}
-  Havatiah Kiin: {}
-  Horak Mane: {}
-  Imai Kenon: {}
-  Ivan Minelli: {}
-  Jade Lebache: {}
-  Javvyn Bloodsworn: {}
-  Jenai Taen: {}
-  Jenmai Hirokan: {}
-  Jhelom Marek: {}
-  Kaphyr: {}
-  Komni Grunt: {}
-  Komni Smuggler: {}
-  Kruul's Capsule: {}
-  Kruul's Henchman: {}
-  Kurzon Mercenary: {}
-  Kuzak Mercenary Fighter: {}
-  Kyani Torrin: {}
-  Lazarus Trezun: {}
-  Lemonn: {}
-  Lieutenant Anton Rideux: {}
-  Lieutenant Irrie Carlan: {}
-  Lieutenant Onoki Ekala: {}
-  Lieutenant Onuoto TS-08B: {}
-  Lieutenant Orien Hakk: {}
-  Lieutenant Raute Viriette: {}
-  Lieutenant Rodani Mihra: {}
-  Lieutenant Tolen Akochi: {}
-  Lori Tzen: {}
-  Maru Grunt: {}
-  Maru Raider: {}
-  Mercenary Elite Fighter: {}
-  Mercenary Fighter: {}
-  Mercenary Rookie: {}
-  Mercenary Wingman: {}
-  Militia Leader: {}
-  Militia Protector: {}
-  Mullok Bloodsworn: {}
-  Odamian Guard: {}
-  Odamian Privateer: {}
-  Oggenon Shafi: {}
-  Pirate Capsule: {}
-  Pirate Drone: {}
-  Pirate Saboteur: {}
-  Ralek Schult: {}
-  Rogue Agent: {}
-  Rogue Pirate Grunt: {}
-  Rogue Saboteur: {}
-  Saboteur Mercenary: {}
-  Sagacious Path Fighter: {}
-  Sami Kurzon: {}
-  Sangrel Minn: {}
-  Seven Death Dealer: {}
-  Seven Deathguard: {}
-  Seven Grunt: {}
-  Shakyr Personal Guard: {}
-  Shark Kurzon: {}
-  Shazzyr: {}
-  Tazmyr: {}
-  Tazmyr's Capsule: {}
-  Terror Bloodsworn: {}
-  The Ex-Employee: {}
-  The Thief: {}
-  Thomas Pulver: {}
-  Tom's Shuttle: {}
-  Torstan Kreoman: {}
-  Tudor Brem: {}
-  Uenia Khann: {}
-  Uleen Bloodsworn: {}
-  Velzion Drekin: {}
-  Veri Monnani: {}
-  Vivian Menure: {}
-  Wallekon Nezmar: {}
-  Xulan Anieu: {}
-  Yuki Tamaru: {}
-  Zack Mead: {}
-  Zidan Kloveni: {}
+  Aiko Temura:
+    name: Aiko Temura
+  Andres Sikvatsen:
+    name: Andres Sikvatsen
+  Bandit Saboteur:
+    name: Bandit Saboteur
+  Bounty Hunter Rookie:
+    name: Bounty Hunter Rookie
+  Burner Bantam:
+    name: Burner Bantam
+  Burner Burst:
+    name: Burner Burst
+  Burner Cruor:
+    name: Burner Cruor
+  Burner Daredevil:
+    name: Burner Daredevil
+  Burner Dramiel:
+    name: Burner Dramiel
+  Burner Enyo:
+    name: Burner Enyo
+  Burner Escort Dramiel:
+    name: Burner Escort Dramiel
+  Burner Hawk:
+    name: Burner Hawk
+  Burner Inquisitor:
+    name: Burner Inquisitor
+  Burner Jaguar:
+    name: Burner Jaguar
+  Burner Navitas:
+    name: Burner Navitas
+  Burner Sentinel:
+    name: Burner Sentinel
+  Burner Succubus:
+    name: Burner Succubus
+  Burner Vengeance:
+    name: Burner Vengeance
+  Burner Worm:
+    name: Burner Worm
+  COSMOS Caldari B1:
+    name: COSMOS Caldari B1
+  Captain Numek Kradin:
+    name: Captain Numek Kradin
+  Claudius:
+    name: Claudius
+  Criminal Saboteur:
+    name: Criminal Saboteur
+  DED Scout Drone:
+    name: DED Scout Drone
+  Dari Akell's Maulus:
+    name: Dari Akell's Maulus
+  Darkonnen Grunt:
+    name: Darkonnen Grunt
+  Darkonnen Veteran:
+    name: Darkonnen Veteran
+  Drezins Capsule:
+    name: Drezins Capsule
+  Durim:
+    name: Durim
+  EoM Demon:
+    name: EoM Demon
+  EoM Fiend:
+    name: EoM Fiend
+  EoM Imp:
+    name: EoM Imp
+  EoM Incubus:
+    name: EoM Incubus
+  EoM Saboteur:
+    name: EoM Saboteur
+  EoM Succubus:
+    name: EoM Succubus
+  Ex-Secret Agent:
+    name: Ex-Secret Agent
+  Guemo Kajinn:
+    name: Guemo Kajinn
+  Guerin Marduke:
+    name: Guerin Marduke
+  Havatiah Kiin:
+    name: Havatiah Kiin
+  Horak Mane:
+    name: Horak Mane
+  Imai Kenon:
+    name: Imai Kenon
+  Ivan Minelli:
+    name: Ivan Minelli
+  Jade Lebache:
+    name: Jade Lebache
+  Javvyn Bloodsworn:
+    name: Javvyn Bloodsworn
+  Jenai Taen:
+    name: Jenai Taen
+  Jenmai Hirokan:
+    name: Jenmai Hirokan
+  Jhelom Marek:
+    name: Jhelom Marek
+  Kaphyr:
+    name: Kaphyr
+  Komni Grunt:
+    name: Komni Grunt
+  Komni Smuggler:
+    name: Komni Smuggler
+  Kruul's Capsule:
+    name: Kruul's Capsule
+  Kruul's Henchman:
+    name: Kruul's Henchman
+  Kurzon Mercenary:
+    name: Kurzon Mercenary
+  Kuzak Mercenary Fighter:
+    name: Kuzak Mercenary Fighter
+  Kyani Torrin:
+    name: Kyani Torrin
+  Lazarus Trezun:
+    name: Lazarus Trezun
+  Lemonn:
+    name: Lemonn
+  Lieutenant Anton Rideux:
+    name: Lieutenant Anton Rideux
+  Lieutenant Irrie Carlan:
+    name: Lieutenant Irrie Carlan
+  Lieutenant Onoki Ekala:
+    name: Lieutenant Onoki Ekala
+  Lieutenant Onuoto TS-08B:
+    name: Lieutenant Onuoto TS-08B
+  Lieutenant Orien Hakk:
+    name: Lieutenant Orien Hakk
+  Lieutenant Raute Viriette:
+    name: Lieutenant Raute Viriette
+  Lieutenant Rodani Mihra:
+    name: Lieutenant Rodani Mihra
+  Lieutenant Tolen Akochi:
+    name: Lieutenant Tolen Akochi
+  Lori Tzen:
+    name: Lori Tzen
+  Maru Grunt:
+    name: Maru Grunt
+  Maru Raider:
+    name: Maru Raider
+  Mercenary Elite Fighter:
+    name: Mercenary Elite Fighter
+  Mercenary Fighter:
+    name: Mercenary Fighter
+  Mercenary Rookie:
+    name: Mercenary Rookie
+  Mercenary Wingman:
+    name: Mercenary Wingman
+  Militia Leader:
+    name: Militia Leader
+  Militia Protector:
+    name: Militia Protector
+  Mullok Bloodsworn:
+    name: Mullok Bloodsworn
+  Odamian Guard:
+    name: Odamian Guard
+  Odamian Privateer:
+    name: Odamian Privateer
+  Oggenon Shafi:
+    name: Oggenon Shafi
+  Pirate Capsule:
+    name: Pirate Capsule
+  Pirate Drone:
+    name: Pirate Drone
+  Pirate Saboteur:
+    name: Pirate Saboteur
+  Ralek Schult:
+    name: Ralek Schult
+  Rogue Agent:
+    name: Rogue Agent
+  Rogue Pirate Grunt:
+    name: Rogue Pirate Grunt
+  Rogue Saboteur:
+    name: Rogue Saboteur
+  Saboteur Mercenary:
+    name: Saboteur Mercenary
+  Sagacious Path Fighter:
+    name: Sagacious Path Fighter
+  Sami Kurzon:
+    name: Sami Kurzon
+  Sangrel Minn:
+    name: Sangrel Minn
+  Seven Death Dealer:
+    name: Seven Death Dealer
+  Seven Deathguard:
+    name: Seven Deathguard
+  Seven Grunt:
+    name: Seven Grunt
+  Shakyr Personal Guard:
+    name: Shakyr Personal Guard
+  Shark Kurzon:
+    name: Shark Kurzon
+  Shazzyr:
+    name: Shazzyr
+  Tazmyr:
+    name: Tazmyr
+  Tazmyr's Capsule:
+    name: Tazmyr's Capsule
+  Terror Bloodsworn:
+    name: Terror Bloodsworn
+  The Ex-Employee:
+    name: The Ex-Employee
+  The Thief:
+    name: The Thief
+  Thomas Pulver:
+    name: Thomas Pulver
+  Tom's Shuttle:
+    name: Tom's Shuttle
+  Torstan Kreoman:
+    name: Torstan Kreoman
+  Tudor Brem:
+    name: Tudor Brem
+  Uenia Khann:
+    name: Uenia Khann
+  Uleen Bloodsworn:
+    name: Uleen Bloodsworn
+  Velzion Drekin:
+    name: Velzion Drekin
+  Veri Monnani:
+    name: Veri Monnani
+  Vivian Menure:
+    name: Vivian Menure
+  Wallekon Nezmar:
+    name: Wallekon Nezmar
+  Xulan Anieu:
+    name: Xulan Anieu
+  Yuki Tamaru:
+    name: Yuki Tamaru
+  Zack Mead:
+    name: Zack Mead
+  Zidan Kloveni:
+    name: Zidan Kloveni

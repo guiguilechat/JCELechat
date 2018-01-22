@@ -7,6 +7,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     VirusCoherenceBonus: 10
+    name: Capital Emission Scope Sharpener I
   Capital Emission Scope Sharpener II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
@@ -16,6 +17,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     VirusCoherenceBonus: 20
+    name: Capital Emission Scope Sharpener II
   Capital Gravity Capacitor Upgrade I:
     Drawback: 10
     Hp: 40
@@ -23,6 +25,7 @@ items:
     ScanStrengthBonus: 10
     TechLevel: 1
     UpgradeCost: 200
+    name: Capital Gravity Capacitor Upgrade I
   Capital Gravity Capacitor Upgrade II:
     Drawback: 10
     Hp: 40
@@ -31,6 +34,7 @@ items:
     ScanStrengthBonus: 15
     TechLevel: 2
     UpgradeCost: 300
+    name: Capital Gravity Capacitor Upgrade II
   Capital Memetic Algorithm Bank I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
@@ -39,6 +43,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     VirusCoherenceBonus: 10
+    name: Capital Memetic Algorithm Bank I
   Capital Memetic Algorithm Bank II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
@@ -48,6 +53,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     VirusCoherenceBonus: 20
+    name: Capital Memetic Algorithm Bank II
   Capital Signal Focusing Kit I:
     Drawback: -10
     Hp: 40
@@ -55,6 +61,7 @@ items:
     ScanspeedBonus: -15
     TechLevel: 1
     UpgradeCost: 50
+    name: Capital Signal Focusing Kit I
   Capital Signal Focusing Kit II:
     Drawback: -10
     Hp: 40
@@ -63,6 +70,7 @@ items:
     ScanspeedBonus: -20
     TechLevel: 2
     UpgradeCost: 75
+    name: Capital Signal Focusing Kit II
   Large Emission Scope Sharpener I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
@@ -71,6 +79,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     VirusCoherenceBonus: 10
+    name: Large Emission Scope Sharpener I
   Large Emission Scope Sharpener II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
@@ -80,6 +89,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     VirusCoherenceBonus: 20
+    name: Large Emission Scope Sharpener II
   Large Gravity Capacitor Upgrade I:
     Drawback: 10
     Hp: 40
@@ -87,6 +97,7 @@ items:
     ScanStrengthBonus: 10
     TechLevel: 1
     UpgradeCost: 200
+    name: Large Gravity Capacitor Upgrade I
   Large Gravity Capacitor Upgrade II:
     Drawback: 10
     Hp: 40
@@ -95,6 +106,7 @@ items:
     ScanStrengthBonus: 15
     TechLevel: 2
     UpgradeCost: 300
+    name: Large Gravity Capacitor Upgrade II
   Large Memetic Algorithm Bank I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
@@ -103,6 +115,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     VirusCoherenceBonus: 10
+    name: Large Memetic Algorithm Bank I
   Large Memetic Algorithm Bank II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
@@ -112,6 +125,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     VirusCoherenceBonus: 20
+    name: Large Memetic Algorithm Bank II
   Large Signal Focusing Kit I:
     Drawback: -10
     Hp: 40
@@ -119,6 +133,7 @@ items:
     ScanspeedBonus: -15
     TechLevel: 1
     UpgradeCost: 50
+    name: Large Signal Focusing Kit I
   Large Signal Focusing Kit II:
     Drawback: -10
     Hp: 40
@@ -127,6 +142,7 @@ items:
     ScanspeedBonus: -20
     TechLevel: 2
     UpgradeCost: 75
+    name: Large Signal Focusing Kit II
   Medium Emission Scope Sharpener I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
@@ -135,6 +151,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     VirusCoherenceBonus: 10
+    name: Medium Emission Scope Sharpener I
   Medium Emission Scope Sharpener II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
@@ -144,6 +161,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     VirusCoherenceBonus: 20
+    name: Medium Emission Scope Sharpener II
   Medium Gravity Capacitor Upgrade I:
     Drawback: 10
     Hp: 40
@@ -151,6 +169,7 @@ items:
     ScanStrengthBonus: 10
     TechLevel: 1
     UpgradeCost: 200
+    name: Medium Gravity Capacitor Upgrade I
   Medium Gravity Capacitor Upgrade II:
     Drawback: 10
     Hp: 40
@@ -159,6 +178,7 @@ items:
     ScanStrengthBonus: 15
     TechLevel: 2
     UpgradeCost: 300
+    name: Medium Gravity Capacitor Upgrade II
   Medium Memetic Algorithm Bank I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
@@ -167,6 +187,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     VirusCoherenceBonus: 10
+    name: Medium Memetic Algorithm Bank I
   Medium Memetic Algorithm Bank II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
@@ -176,6 +197,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     VirusCoherenceBonus: 20
+    name: Medium Memetic Algorithm Bank II
   Medium Signal Focusing Kit I:
     Drawback: -10
     Hp: 40
@@ -183,6 +205,7 @@ items:
     ScanspeedBonus: -15
     TechLevel: 1
     UpgradeCost: 50
+    name: Medium Signal Focusing Kit I
   Medium Signal Focusing Kit II:
     Drawback: -10
     Hp: 40
@@ -191,6 +214,7 @@ items:
     ScanspeedBonus: -20
     TechLevel: 2
     UpgradeCost: 75
+    name: Medium Signal Focusing Kit II
   Small Emission Scope Sharpener I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
@@ -199,6 +223,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     VirusCoherenceBonus: 10
+    name: Small Emission Scope Sharpener I
   Small Emission Scope Sharpener II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
@@ -208,6 +233,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     VirusCoherenceBonus: 20
+    name: Small Emission Scope Sharpener II
   Small Gravity Capacitor Upgrade I:
     Drawback: 10
     Hp: 40
@@ -215,6 +241,7 @@ items:
     ScanStrengthBonus: 10
     TechLevel: 1
     UpgradeCost: 200
+    name: Small Gravity Capacitor Upgrade I
   Small Gravity Capacitor Upgrade II:
     Drawback: 10
     Hp: 40
@@ -223,6 +250,7 @@ items:
     ScanStrengthBonus: 15
     TechLevel: 2
     UpgradeCost: 300
+    name: Small Gravity Capacitor Upgrade II
   Small Memetic Algorithm Bank I:
     AccessDifficultyBonusModifier: 20
     Drawback: 10
@@ -231,6 +259,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     VirusCoherenceBonus: 10
+    name: Small Memetic Algorithm Bank I
   Small Memetic Algorithm Bank II:
     AccessDifficultyBonusModifier: 40
     Drawback: 10
@@ -240,6 +269,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     VirusCoherenceBonus: 20
+    name: Small Memetic Algorithm Bank II
   Small Signal Focusing Kit I:
     Drawback: -10
     Hp: 40
@@ -247,6 +277,7 @@ items:
     ScanspeedBonus: -15
     TechLevel: 1
     UpgradeCost: 50
+    name: Small Signal Focusing Kit I
   Small Signal Focusing Kit II:
     Drawback: -10
     Hp: 40
@@ -255,3 +286,4 @@ items:
     ScanspeedBonus: -20
     TechLevel: 2
     UpgradeCost: 75
+    name: Small Signal Focusing Kit II

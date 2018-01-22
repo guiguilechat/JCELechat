@@ -80,6 +80,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 5.5
+    name: Bifrost
   Magus:
     Agility: 3.200000047683716
     ArmorEmDamageResonance: 0.5
@@ -164,6 +165,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 5.5
+    name: Magus
   Pontifex:
     Agility: 3.4000000953674316
     ArmorEmDamageResonance: 0.5
@@ -248,6 +250,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 5.5
+    name: Pontifex
   Stork:
     Agility: 3.5999999046325684
     ArmorEmDamageResonance: 0.5
@@ -329,3 +332,4 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 5.5
+    name: Stork

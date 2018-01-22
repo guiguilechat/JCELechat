@@ -215,7 +215,8 @@ public class LocationsTranslater {
 		added.id = id;
 		added.solarSystem = solarSystemName;
 		added.services.addAll(operationServices().get(npcsta.operationID));
-		added.name = EtypeIDs.load().get(id).enName();
+		EtypeIDs type = EtypeIDs.load().get(id);
+		added.name = type == null ? "missing_" + id : type.enName();
 		stations.put(stationsByID().get(id).stationName, added);
 		return added;
 	}

@@ -2,5 +2,7 @@ items:
   Rorqual Blueprint:
     IndustryBlueprintRank: 200.0
     IndustryJobCostMultiplier: 1
+    name: Rorqual Blueprint
   Rorqual ORE Development Edition Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Rorqual ORE Development Edition Blueprint

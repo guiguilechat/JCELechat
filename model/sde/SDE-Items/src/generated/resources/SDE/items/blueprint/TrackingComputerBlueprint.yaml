@@ -2,15 +2,20 @@ items:
   '''Economist'' Tracking Computer I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Economist'' Tracking Computer I Blueprint'
   '''Marketeer'' Tracking Computer Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Marketeer'' Tracking Computer Blueprint'
   Federation Navy Tracking Computer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Federation Navy Tracking Computer Blueprint
   Tracking Computer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Tracking Computer I Blueprint
   Tracking Computer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Tracking Computer II Blueprint

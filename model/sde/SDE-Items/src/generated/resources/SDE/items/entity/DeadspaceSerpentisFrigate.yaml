@@ -1,34 +1,67 @@
 items:
-  Anakism: {}
-  Coreli Agent: {}
-  Coreli Defender: {}
-  Coreli Fugitive: {}
-  Coreli Guard: {}
-  Coreli Guardian Agent: {}
-  Coreli Guardian Defender: {}
-  Coreli Guardian Guard: {}
-  Coreli Guardian Initiate: {}
-  Coreli Guardian Patroller: {}
-  Coreli Guardian Protector: {}
-  Coreli Guardian Safeguard: {}
-  Coreli Guardian Scout: {}
-  Coreli Guardian Spy: {}
-  Coreli Guardian Watchman: {}
-  Coreli Initiate: {}
-  Coreli Patroller: {}
-  Coreli Protector: {}
-  Coreli Safeguard: {}
-  Coreli Scout: {}
-  Coreli Spy: {}
-  Coreli Watchman: {}
-  Guardian Veteran: {}
-  Shadow Coreli Agent: {}
-  Shadow Coreli Defender: {}
-  Shadow Coreli Guard: {}
-  Shadow Coreli Initiate: {}
-  Shadow Coreli Patroller: {}
-  Shadow Coreli Protector: {}
-  Shadow Coreli Safeguard: {}
-  Shadow Coreli Scout: {}
-  Shadow Coreli Spy: {}
-  Shadow Coreli Watchman: {}
+  Anakism:
+    name: Anakism
+  Coreli Agent:
+    name: Coreli Agent
+  Coreli Defender:
+    name: Coreli Defender
+  Coreli Fugitive:
+    name: Coreli Fugitive
+  Coreli Guard:
+    name: Coreli Guard
+  Coreli Guardian Agent:
+    name: Coreli Guardian Agent
+  Coreli Guardian Defender:
+    name: Coreli Guardian Defender
+  Coreli Guardian Guard:
+    name: Coreli Guardian Guard
+  Coreli Guardian Initiate:
+    name: Coreli Guardian Initiate
+  Coreli Guardian Patroller:
+    name: Coreli Guardian Patroller
+  Coreli Guardian Protector:
+    name: Coreli Guardian Protector
+  Coreli Guardian Safeguard:
+    name: Coreli Guardian Safeguard
+  Coreli Guardian Scout:
+    name: Coreli Guardian Scout
+  Coreli Guardian Spy:
+    name: Coreli Guardian Spy
+  Coreli Guardian Watchman:
+    name: Coreli Guardian Watchman
+  Coreli Initiate:
+    name: Coreli Initiate
+  Coreli Patroller:
+    name: Coreli Patroller
+  Coreli Protector:
+    name: Coreli Protector
+  Coreli Safeguard:
+    name: Coreli Safeguard
+  Coreli Scout:
+    name: Coreli Scout
+  Coreli Spy:
+    name: Coreli Spy
+  Coreli Watchman:
+    name: Coreli Watchman
+  Guardian Veteran:
+    name: Guardian Veteran
+  Shadow Coreli Agent:
+    name: Shadow Coreli Agent
+  Shadow Coreli Defender:
+    name: Shadow Coreli Defender
+  Shadow Coreli Guard:
+    name: Shadow Coreli Guard
+  Shadow Coreli Initiate:
+    name: Shadow Coreli Initiate
+  Shadow Coreli Patroller:
+    name: Shadow Coreli Patroller
+  Shadow Coreli Protector:
+    name: Shadow Coreli Protector
+  Shadow Coreli Safeguard:
+    name: Shadow Coreli Safeguard
+  Shadow Coreli Scout:
+    name: Shadow Coreli Scout
+  Shadow Coreli Spy:
+    name: Shadow Coreli Spy
+  Shadow Coreli Watchman:
+    name: Shadow Coreli Watchman

@@ -14,6 +14,7 @@ items:
     Slots: 1
     Speed: 2000
     TechLevel: 1
+    name: Core Probe Launcher I
   Core Probe Launcher II:
     ChargeGroup1: 479
     Cpu: 20.0
@@ -31,6 +32,7 @@ items:
     Slots: 1
     Speed: 1500
     TechLevel: 2
+    name: Core Probe Launcher II
   Expanded Probe Launcher I:
     ChargeGroup1: 479
     DisallowRepeatingActivation: 1
@@ -45,6 +47,7 @@ items:
     Slots: 1
     Speed: 2000
     TechLevel: 1
+    name: Expanded Probe Launcher I
   Expanded Probe Launcher II:
     ChargeGroup1: 479
     Cpu: 242.0
@@ -62,6 +65,7 @@ items:
     Slots: 1
     Speed: 2000
     TechLevel: 2
+    name: Expanded Probe Launcher II
   Prototype Iris Probe Launcher:
     CanFitShipGroup01: 1022
     ChargeGroup1: 479
@@ -77,6 +81,7 @@ items:
     Slots: 1
     Speed: 2000
     TechLevel: 1
+    name: Prototype Iris Probe Launcher
   QA Probe Launcher:
     ChargeGroup1: 479
     ChargeGroup2: 492
@@ -93,6 +98,7 @@ items:
     Slots: 1
     Speed: 2500
     TechLevel: 1
+    name: QA Probe Launcher
   Recon Probe Launcher II:
     ChargeGroup1: 479
     ChargeGroup2: 492
@@ -109,6 +115,7 @@ items:
     Slots: 1
     Speed: 1875
     TechLevel: 2
+    name: Recon Probe Launcher II
   Scan Probe Launcher II:
     ChargeGroup1: 479
     ChargeGroup2: 492
@@ -125,6 +132,7 @@ items:
     Slots: 1
     Speed: 12000
     TechLevel: 1
+    name: Scan Probe Launcher II
   Sisters Core Probe Launcher:
     ChargeGroup1: 479
     Cpu: 10.0
@@ -143,6 +151,7 @@ items:
     Slots: 1
     Speed: 1500
     TechLevel: 1
+    name: Sisters Core Probe Launcher
   Sisters Expanded Probe Launcher:
     ChargeGroup1: 479
     DisallowRepeatingActivation: 1
@@ -160,3 +169,4 @@ items:
     Slots: 1
     Speed: 1500
     TechLevel: 1
+    name: Sisters Expanded Probe Launcher

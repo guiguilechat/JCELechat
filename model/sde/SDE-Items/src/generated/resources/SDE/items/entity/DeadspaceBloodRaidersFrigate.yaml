@@ -1,34 +1,67 @@
 items:
-  Blood Disciple: {}
-  Blood Wraith: {}
-  Corpii Collector: {}
-  Corpii Diviner: {}
-  Corpii Engraver: {}
-  Corpii Follower: {}
-  Corpii Fugitive: {}
-  Corpii Herald: {}
-  Corpii Raider: {}
-  Corpii Reaver: {}
-  Corpii Seeker: {}
-  Corpii Upholder: {}
-  Corpii Worshipper: {}
-  Dark Corpii Collector: {}
-  Dark Corpii Diviner: {}
-  Dark Corpii Engraver: {}
-  Dark Corpii Follower: {}
-  Dark Corpii Herald: {}
-  Dark Corpii Raider: {}
-  Dark Corpii Reaver: {}
-  Dark Corpii Seeker: {}
-  Dark Corpii Upholder: {}
-  Dark Corpii Worshipper: {}
-  Elder Corpii Collector: {}
-  Elder Corpii Diviner: {}
-  Elder Corpii Engraver: {}
-  Elder Corpii Follower: {}
-  Elder Corpii Herald: {}
-  Elder Corpii Raider: {}
-  Elder Corpii Reaver: {}
-  Elder Corpii Seeker: {}
-  Elder Corpii Upholder: {}
-  Elder Corpii Worshiper: {}
+  Blood Disciple:
+    name: Blood Disciple
+  Blood Wraith:
+    name: Blood Wraith
+  Corpii Collector:
+    name: Corpii Collector
+  Corpii Diviner:
+    name: Corpii Diviner
+  Corpii Engraver:
+    name: Corpii Engraver
+  Corpii Follower:
+    name: Corpii Follower
+  Corpii Fugitive:
+    name: Corpii Fugitive
+  Corpii Herald:
+    name: Corpii Herald
+  Corpii Raider:
+    name: Corpii Raider
+  Corpii Reaver:
+    name: Corpii Reaver
+  Corpii Seeker:
+    name: Corpii Seeker
+  Corpii Upholder:
+    name: Corpii Upholder
+  Corpii Worshipper:
+    name: Corpii Worshipper
+  Dark Corpii Collector:
+    name: Dark Corpii Collector
+  Dark Corpii Diviner:
+    name: Dark Corpii Diviner
+  Dark Corpii Engraver:
+    name: Dark Corpii Engraver
+  Dark Corpii Follower:
+    name: Dark Corpii Follower
+  Dark Corpii Herald:
+    name: Dark Corpii Herald
+  Dark Corpii Raider:
+    name: Dark Corpii Raider
+  Dark Corpii Reaver:
+    name: Dark Corpii Reaver
+  Dark Corpii Seeker:
+    name: Dark Corpii Seeker
+  Dark Corpii Upholder:
+    name: Dark Corpii Upholder
+  Dark Corpii Worshipper:
+    name: Dark Corpii Worshipper
+  Elder Corpii Collector:
+    name: Elder Corpii Collector
+  Elder Corpii Diviner:
+    name: Elder Corpii Diviner
+  Elder Corpii Engraver:
+    name: Elder Corpii Engraver
+  Elder Corpii Follower:
+    name: Elder Corpii Follower
+  Elder Corpii Herald:
+    name: Elder Corpii Herald
+  Elder Corpii Raider:
+    name: Elder Corpii Raider
+  Elder Corpii Reaver:
+    name: Elder Corpii Reaver
+  Elder Corpii Seeker:
+    name: Elder Corpii Seeker
+  Elder Corpii Upholder:
+    name: Elder Corpii Upholder
+  Elder Corpii Worshiper:
+    name: Elder Corpii Worshiper

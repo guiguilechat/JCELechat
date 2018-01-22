@@ -1,31 +1,61 @@
 items:
-  Annihilator Alvum: {}
-  Atomizer Alvum: {}
-  Bomber Alvum: {}
-  COSMOS Strain Domination Drone: {}
-  COSMOS Strain Matriarch Drone: {}
-  COSMOS Strain Spearhead Drone: {}
-  COSMOS Viral Infector Drone: {}
-  Destructor Alvum: {}
-  Devastator Alvum: {}
-  Disintegrator Alvum: {}
-  Drone Perimeter Guard: {}
-  Drone Worker: {}
-  Elite Repair Drone: {}
-  Nuker Alvum: {}
-  Searcher Drone_MISSION Spawn: {}
-  Strain Annihilator Alvum: {}
-  Strain Atomizer Alvum: {}
-  Strain Bomber Alvum: {}
-  Strain Destructor Alvum: {}
-  Strain Devastator Alvum: {}
-  Strain Disintegrator Alvum: {}
-  Strain Domination Drone Replica: {}
-  Strain Nuker Alvum: {}
-  Strain Violator Alvum: {}
-  Strain Viral Infector Alvum: {}
-  Strain Wrecker Alvum: {}
-  Swarm Overmind Tertius: {}
-  Violator Alvum: {}
-  Viral Infector Alvum: {}
-  Wrecker Alvum: {}
+  Annihilator Alvum:
+    name: Annihilator Alvum
+  Atomizer Alvum:
+    name: Atomizer Alvum
+  Bomber Alvum:
+    name: Bomber Alvum
+  COSMOS Strain Domination Drone:
+    name: COSMOS Strain Domination Drone
+  COSMOS Strain Matriarch Drone:
+    name: COSMOS Strain Matriarch Drone
+  COSMOS Strain Spearhead Drone:
+    name: COSMOS Strain Spearhead Drone
+  COSMOS Viral Infector Drone:
+    name: COSMOS Viral Infector Drone
+  Destructor Alvum:
+    name: Destructor Alvum
+  Devastator Alvum:
+    name: Devastator Alvum
+  Disintegrator Alvum:
+    name: Disintegrator Alvum
+  Drone Perimeter Guard:
+    name: Drone Perimeter Guard
+  Drone Worker:
+    name: Drone Worker
+  Elite Repair Drone:
+    name: Elite Repair Drone
+  Nuker Alvum:
+    name: Nuker Alvum
+  Searcher Drone_MISSION Spawn:
+    name: Searcher Drone_MISSION Spawn
+  Strain Annihilator Alvum:
+    name: Strain Annihilator Alvum
+  Strain Atomizer Alvum:
+    name: Strain Atomizer Alvum
+  Strain Bomber Alvum:
+    name: Strain Bomber Alvum
+  Strain Destructor Alvum:
+    name: Strain Destructor Alvum
+  Strain Devastator Alvum:
+    name: Strain Devastator Alvum
+  Strain Disintegrator Alvum:
+    name: Strain Disintegrator Alvum
+  Strain Domination Drone Replica:
+    name: Strain Domination Drone Replica
+  Strain Nuker Alvum:
+    name: Strain Nuker Alvum
+  Strain Violator Alvum:
+    name: Strain Violator Alvum
+  Strain Viral Infector Alvum:
+    name: Strain Viral Infector Alvum
+  Strain Wrecker Alvum:
+    name: Strain Wrecker Alvum
+  Swarm Overmind Tertius:
+    name: Swarm Overmind Tertius
+  Violator Alvum:
+    name: Violator Alvum
+  Viral Infector Alvum:
+    name: Viral Infector Alvum
+  Wrecker Alvum:
+    name: Wrecker Alvum

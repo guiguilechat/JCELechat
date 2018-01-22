@@ -20,6 +20,7 @@ items:
     TargetGroup: 11
     TechLevel: 2
     TypeColorScheme: 11347
+    name: Modulated Deep Core Miner II
   Modulated Deep Core Strip Miner II:
     CanFitShipGroup01: 543
     CanFitShipGroup02: 463
@@ -44,6 +45,7 @@ items:
     TargetGroup: 11
     TechLevel: 2
     TypeColorScheme: 11347
+    name: Modulated Deep Core Strip Miner II
   Modulated Strip Miner II:
     CanFitShipGroup01: 543
     CanFitShipGroup02: 463
@@ -65,3 +67,4 @@ items:
     TargetGroup: 11
     TechLevel: 2
     TypeColorScheme: 11347
+    name: Modulated Strip Miner II

@@ -7,6 +7,7 @@ items:
     MaxRangeBonusBonus: 100
     TechLevel: 1
     TrackingSpeedBonusBonus: -100
+    name: Optimal Range Disruption Script
   Tracking Speed Disruption Script:
     ChargeSize: 1
     FalloffBonusBonus: -100
@@ -15,3 +16,4 @@ items:
     MaxRangeBonusBonus: -100
     TechLevel: 1
     TrackingSpeedBonusBonus: 100
+    name: Tracking Speed Disruption Script

@@ -13,6 +13,7 @@ items:
     SubsystemBonusAmarrCore: 5
     SubsystemBonusAmarrCore2: -3
     TechLevel: 3
+    name: Legion Core - Augmented Antimatter Reactor
   Legion Core - Dissolution Sequencer:
     FitsToShipType: 29986
     Hp: 40
@@ -27,6 +28,7 @@ items:
     SubsystemBonusAmarrCore2: 5
     SubsystemBonusAmarrCore3: 15
     TechLevel: 3
+    name: Legion Core - Dissolution Sequencer
   Legion Core - Energy Parasitic Complex:
     CapacitorCapacity: 50.0
     FitsToShipType: 29986
@@ -42,6 +44,7 @@ items:
     SubsystemBonusAmarrCore3: 10
     SubsystemEnergyNeutFittingReduction: -50
     TechLevel: 3
+    name: Legion Core - Energy Parasitic Complex
   Loki Core - Augmented Nuclear Reactor:
     CapacitorCapacity: 50.0
     FitsToShipType: 29990
@@ -56,6 +59,7 @@ items:
     SubsystemBonusMinmatarCore: -5
     SubsystemBonusMinmatarCore2: -3
     TechLevel: 3
+    name: Loki Core - Augmented Nuclear Reactor
   Loki Core - Dissolution Sequencer:
     FitsToShipType: 29990
     Hp: 40
@@ -70,6 +74,7 @@ items:
     SubsystemBonusMinmatarCore2: 5
     SubsystemBonusMinmatarCore3: 15
     TechLevel: 3
+    name: Loki Core - Dissolution Sequencer
   Loki Core - Immobility Drivers:
     FitsToShipType: 29990
     Hp: 40
@@ -83,6 +88,7 @@ items:
     SubsystemBonusMinmatarCore2: 25
     SubsystemBonusMinmatarCore3: 10
     TechLevel: 3
+    name: Loki Core - Immobility Drivers
   Proteus Core - Augmented Fusion Reactor:
     CapacitorCapacity: 50.0
     FitsToShipType: 29988
@@ -97,6 +103,7 @@ items:
     SubsystemBonusGallenteCore: -5.0
     SubsystemBonusGallenteCore2: -3.0
     TechLevel: 3
+    name: Proteus Core - Augmented Fusion Reactor
   Proteus Core - Electronic Efficiency Gate:
     CpuOutputBonus2: 25.0
     FitsToShipType: 29988
@@ -111,6 +118,7 @@ items:
     SubsystemBonusGallenteCore: 15.0
     SubsystemBonusGallenteCore2: 5.0
     TechLevel: 3
+    name: Proteus Core - Electronic Efficiency Gate
   Proteus Core - Friction Extension Processor:
     FitsToShipType: 29988
     Hp: 40
@@ -124,6 +132,7 @@ items:
     SubsystemBonusGallenteCore2: 7.5
     SubsystemBonusGallenteCore3: 15
     TechLevel: 3
+    name: Proteus Core - Friction Extension Processor
   Tengu Core - Augmented Graviton Reactor:
     CapacitorCapacity: 50.0
     FitsToShipType: 29984
@@ -138,6 +147,7 @@ items:
     SubsystemBonusCaldariCore: 5
     SubsystemBonusCaldariCore2: -3
     TechLevel: 3
+    name: Tengu Core - Augmented Graviton Reactor
   Tengu Core - Electronic Efficiency Gate:
     CpuOutputBonus2: 25.0
     FitsToShipType: 29984
@@ -152,6 +162,7 @@ items:
     SubsystemBonusCaldariCore: 15
     SubsystemBonusCaldariCore2: 5
     TechLevel: 3
+    name: Tengu Core - Electronic Efficiency Gate
   Tengu Core - Obfuscation Manifold:
     FitsToShipType: 29984
     Hp: 40
@@ -165,3 +176,4 @@ items:
     SubsystemBonusCaldariCore2: 10
     SubsystemBonusCaldariCore3: 15
     TechLevel: 3
+    name: Tengu Core - Obfuscation Manifold

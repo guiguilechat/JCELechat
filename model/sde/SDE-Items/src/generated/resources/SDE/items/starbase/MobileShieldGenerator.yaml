@@ -8,3 +8,4 @@ items:
     Power: 50
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
+    name: Shield Generation Array

@@ -1,11 +1,21 @@
 items:
-  Domination Drone: {}
-  Drone Controller: {}
-  Drone Creator: {}
-  Drone Queen: {}
-  Drone Ruler: {}
-  Matriarch Drone: {}
-  Patriarch Drone: {}
-  Spearhead Drone: {}
-  Supreme Drone Parasite: {}
-  Swarm Preserver Drone: {}
+  Domination Drone:
+    name: Domination Drone
+  Drone Controller:
+    name: Drone Controller
+  Drone Creator:
+    name: Drone Creator
+  Drone Queen:
+    name: Drone Queen
+  Drone Ruler:
+    name: Drone Ruler
+  Matriarch Drone:
+    name: Matriarch Drone
+  Patriarch Drone:
+    name: Patriarch Drone
+  Spearhead Drone:
+    name: Spearhead Drone
+  Supreme Drone Parasite:
+    name: Supreme Drone Parasite
+  Swarm Preserver Drone:
+    name: Swarm Preserver Drone

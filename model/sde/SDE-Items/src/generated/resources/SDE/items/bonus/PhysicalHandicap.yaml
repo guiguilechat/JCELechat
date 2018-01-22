@@ -1,16 +1,23 @@
 items:
   Epileptic Bonus:
     AccuracyMultiplier: 1.0
+    name: Epileptic Bonus
   Mechanical Inaptitude Bonus:
     AccuracyMultiplier: 1.0
+    name: Mechanical Inaptitude Bonus
   Short Attention Span Bonus:
     AccuracyMultiplier: 1.0
     CapacitorNeedMultiplier: 1.0499999523162842
+    name: Short Attention Span Bonus
   Strong Immunity System Bonus:
     AccuracyMultiplier: 1.0
+    name: Strong Immunity System Bonus
   Trigger-happy Bonus:
     AccuracyMultiplier: 0.949999988079071
+    name: Trigger-happy Bonus
   Wasteful Bonus:
     AccuracyMultiplier: 1.0
+    name: Wasteful Bonus
   Weak Double-helix Bond Bonus:
     AccuracyMultiplier: 1.0
+    name: Weak Double-helix Bond Bonus

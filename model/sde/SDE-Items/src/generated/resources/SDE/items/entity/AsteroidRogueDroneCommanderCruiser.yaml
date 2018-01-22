@@ -1,11 +1,21 @@
 items:
-  Sentient Annihilator Alvum: {}
-  Sentient Atomizer Alvum: {}
-  Sentient Bomber Alvum: {}
-  Sentient Destructor Alvum: {}
-  Sentient Devastator Alvum: {}
-  Sentient Disintegrator Alvum: {}
-  Sentient Nuker Alvum: {}
-  Sentient Violator Alvum: {}
-  Sentient Viral Infector Alvum: {}
-  Sentient Wrecker Alvum: {}
+  Sentient Annihilator Alvum:
+    name: Sentient Annihilator Alvum
+  Sentient Atomizer Alvum:
+    name: Sentient Atomizer Alvum
+  Sentient Bomber Alvum:
+    name: Sentient Bomber Alvum
+  Sentient Destructor Alvum:
+    name: Sentient Destructor Alvum
+  Sentient Devastator Alvum:
+    name: Sentient Devastator Alvum
+  Sentient Disintegrator Alvum:
+    name: Sentient Disintegrator Alvum
+  Sentient Nuker Alvum:
+    name: Sentient Nuker Alvum
+  Sentient Violator Alvum:
+    name: Sentient Violator Alvum
+  Sentient Viral Infector Alvum:
+    name: Sentient Viral Infector Alvum
+  Sentient Wrecker Alvum:
+    name: Sentient Wrecker Alvum

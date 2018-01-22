@@ -1,7 +1,13 @@
 items:
-  Sansha's Abomination: {}
-  Sansha's Cannibal: {}
-  Sansha's Devourer: {}
-  Sansha's Horror: {}
-  Sansha's Misshape: {}
-  Sansha's Monster: {}
+  Sansha's Abomination:
+    name: Sansha's Abomination
+  Sansha's Cannibal:
+    name: Sansha's Cannibal
+  Sansha's Devourer:
+    name: Sansha's Devourer
+  Sansha's Horror:
+    name: Sansha's Horror
+  Sansha's Misshape:
+    name: Sansha's Misshape
+  Sansha's Monster:
+    name: Sansha's Monster

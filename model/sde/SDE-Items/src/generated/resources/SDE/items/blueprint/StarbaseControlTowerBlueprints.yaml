@@ -1,85 +1,127 @@
 items:
   Amarr Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    name: Amarr Control Tower Blueprint
   Amarr Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Amarr Control Tower Medium Blueprint
   Amarr Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    name: Amarr Control Tower Small Blueprint
   Angel Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    name: Angel Control Tower Blueprint
   Angel Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Angel Control Tower Medium Blueprint
   Angel Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    name: Angel Control Tower Small Blueprint
   Blood Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    name: Blood Control Tower Blueprint
   Blood Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Blood Control Tower Medium Blueprint
   Blood Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    name: Blood Control Tower Small Blueprint
   Caldari Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    name: Caldari Control Tower Blueprint
   Caldari Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Caldari Control Tower Medium Blueprint
   Caldari Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    name: Caldari Control Tower Small Blueprint
   Dark Blood Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    name: Dark Blood Control Tower Blueprint
   Dark Blood Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Dark Blood Control Tower Medium Blueprint
   Dark Blood Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    name: Dark Blood Control Tower Small Blueprint
   Domination Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    name: Domination Control Tower Blueprint
   Domination Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Domination Control Tower Medium Blueprint
   Domination Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    name: Domination Control Tower Small Blueprint
   Dread Guristas Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    name: Dread Guristas Control Tower Blueprint
   Dread Guristas Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Dread Guristas Control Tower Medium Blueprint
   Dread Guristas Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    name: Dread Guristas Control Tower Small Blueprint
   Gallente Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    name: Gallente Control Tower Blueprint
   Gallente Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Gallente Control Tower Medium Blueprint
   Gallente Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    name: Gallente Control Tower Small Blueprint
   Guristas Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    name: Guristas Control Tower Blueprint
   Guristas Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Guristas Control Tower Medium Blueprint
   Guristas Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    name: Guristas Control Tower Small Blueprint
   Minmatar Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    name: Minmatar Control Tower Blueprint
   Minmatar Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Minmatar Control Tower Medium Blueprint
   Minmatar Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    name: Minmatar Control Tower Small Blueprint
   Sansha Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    name: Sansha Control Tower Blueprint
   Sansha Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Sansha Control Tower Medium Blueprint
   Sansha Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    name: Sansha Control Tower Small Blueprint
   Serpentis Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    name: Serpentis Control Tower Blueprint
   Serpentis Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Serpentis Control Tower Medium Blueprint
   Serpentis Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    name: Serpentis Control Tower Small Blueprint
   Shadow Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    name: Shadow Control Tower Blueprint
   Shadow Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Shadow Control Tower Medium Blueprint
   Shadow Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    name: Shadow Control Tower Small Blueprint
   True Sansha Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    name: True Sansha Control Tower Blueprint
   True Sansha Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    name: True Sansha Control Tower Medium Blueprint
   True Sansha Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    name: True Sansha Control Tower Small Blueprint

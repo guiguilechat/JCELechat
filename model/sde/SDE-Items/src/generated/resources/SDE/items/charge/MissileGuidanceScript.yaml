@@ -8,6 +8,7 @@ items:
     MainColor: 11646664
     MissileVelocityBonusBonus: -100
     TechLevel: 1
+    name: Missile Precision Script
   Missile Range Script:
     AoeCloudSizeBonusBonus: -100
     AoeVelocityBonusBonus: -100
@@ -17,3 +18,4 @@ items:
     MainColor: 11646664
     MissileVelocityBonusBonus: 100
     TechLevel: 1
+    name: Missile Range Script

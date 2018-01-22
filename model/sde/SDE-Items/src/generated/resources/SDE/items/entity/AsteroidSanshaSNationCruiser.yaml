@@ -1,25 +1,49 @@
 items:
-  Sansha Clone Soldier Negotiator: {}
-  Sansha Clone Soldier Recruiter: {}
-  Sansha Clone Soldier Trainer: {}
-  Sansha Clone Soldier Transporter: {}
-  Sansha's Beast: {}
-  Sansha's Execrator: {}
-  Sansha's Fiend: {}
-  Sansha's Hellhound: {}
-  Sansha's Juggernaut: {}
-  Sansha's Loyal Beast: {}
-  Sansha's Loyal Execrator: {}
-  Sansha's Loyal Fiend: {}
-  Sansha's Loyal Hellhound: {}
-  Sansha's Loyal Juggernaut: {}
-  Sansha's Loyal Mutilator: {}
-  Sansha's Loyal Ravager: {}
-  Sansha's Loyal Ravisher: {}
-  Sansha's Loyal Slaughterer: {}
-  Sansha's Loyal Torturer: {}
-  Sansha's Mutilator: {}
-  Sansha's Ravager: {}
-  Sansha's Ravisher: {}
-  Sansha's Slaughterer: {}
-  Sansha's Torturer: {}
+  Sansha Clone Soldier Negotiator:
+    name: Sansha Clone Soldier Negotiator
+  Sansha Clone Soldier Recruiter:
+    name: Sansha Clone Soldier Recruiter
+  Sansha Clone Soldier Trainer:
+    name: Sansha Clone Soldier Trainer
+  Sansha Clone Soldier Transporter:
+    name: Sansha Clone Soldier Transporter
+  Sansha's Beast:
+    name: Sansha's Beast
+  Sansha's Execrator:
+    name: Sansha's Execrator
+  Sansha's Fiend:
+    name: Sansha's Fiend
+  Sansha's Hellhound:
+    name: Sansha's Hellhound
+  Sansha's Juggernaut:
+    name: Sansha's Juggernaut
+  Sansha's Loyal Beast:
+    name: Sansha's Loyal Beast
+  Sansha's Loyal Execrator:
+    name: Sansha's Loyal Execrator
+  Sansha's Loyal Fiend:
+    name: Sansha's Loyal Fiend
+  Sansha's Loyal Hellhound:
+    name: Sansha's Loyal Hellhound
+  Sansha's Loyal Juggernaut:
+    name: Sansha's Loyal Juggernaut
+  Sansha's Loyal Mutilator:
+    name: Sansha's Loyal Mutilator
+  Sansha's Loyal Ravager:
+    name: Sansha's Loyal Ravager
+  Sansha's Loyal Ravisher:
+    name: Sansha's Loyal Ravisher
+  Sansha's Loyal Slaughterer:
+    name: Sansha's Loyal Slaughterer
+  Sansha's Loyal Torturer:
+    name: Sansha's Loyal Torturer
+  Sansha's Mutilator:
+    name: Sansha's Mutilator
+  Sansha's Ravager:
+    name: Sansha's Ravager
+  Sansha's Ravisher:
+    name: Sansha's Ravisher
+  Sansha's Slaughterer:
+    name: Sansha's Slaughterer
+  Sansha's Torturer:
+    name: Sansha's Torturer

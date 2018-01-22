@@ -1,28 +1,55 @@
 items:
-  Federation Covinus: {}
-  Federation Helepolis: {}
-  Federation Navis Longa: {}
-  Federation Navy Dominix: {}
-  Federation Navy Fleet Commander: {}
-  Federation Navy Megathron: {}
-  Federation Navy Orion: {}
-  Federation Navy Raid Leader: {}
-  Federation Praktor Dionia: {}
-  Federation Praktor Hexeris: {}
-  Federation Praktor Magister: {}
-  Federation Praktor Navis Praetoria: {}
-  Federation Praktor Phanix: {}
-  Federation Praktor Polemo: {}
-  Federation Praktor Praeses: {}
-  Federation Triarius: {}
-  Federation Xenan: {}
-  Gallentean Luxury Yacht: {}
-  Independent Dominix: {}
-  Independent Green-Crewed Dominix: {}
-  Independent Green-Crewed Hyperion: {}
-  Independent Green-Crewed Megathron: {}
-  Independent Hyperion: {}
-  Independent Megathron: {}
-  Independent Veteran Dominix: {}
-  Independent Veteran Hyperion: {}
-  Independent Veteran Megathron: {}
+  Federation Covinus:
+    name: Federation Covinus
+  Federation Helepolis:
+    name: Federation Helepolis
+  Federation Navis Longa:
+    name: Federation Navis Longa
+  Federation Navy Dominix:
+    name: Federation Navy Dominix
+  Federation Navy Fleet Commander:
+    name: Federation Navy Fleet Commander
+  Federation Navy Megathron:
+    name: Federation Navy Megathron
+  Federation Navy Orion:
+    name: Federation Navy Orion
+  Federation Navy Raid Leader:
+    name: Federation Navy Raid Leader
+  Federation Praktor Dionia:
+    name: Federation Praktor Dionia
+  Federation Praktor Hexeris:
+    name: Federation Praktor Hexeris
+  Federation Praktor Magister:
+    name: Federation Praktor Magister
+  Federation Praktor Navis Praetoria:
+    name: Federation Praktor Navis Praetoria
+  Federation Praktor Phanix:
+    name: Federation Praktor Phanix
+  Federation Praktor Polemo:
+    name: Federation Praktor Polemo
+  Federation Praktor Praeses:
+    name: Federation Praktor Praeses
+  Federation Triarius:
+    name: Federation Triarius
+  Federation Xenan:
+    name: Federation Xenan
+  Gallentean Luxury Yacht:
+    name: Gallentean Luxury Yacht
+  Independent Dominix:
+    name: Independent Dominix
+  Independent Green-Crewed Dominix:
+    name: Independent Green-Crewed Dominix
+  Independent Green-Crewed Hyperion:
+    name: Independent Green-Crewed Hyperion
+  Independent Green-Crewed Megathron:
+    name: Independent Green-Crewed Megathron
+  Independent Hyperion:
+    name: Independent Hyperion
+  Independent Megathron:
+    name: Independent Megathron
+  Independent Veteran Dominix:
+    name: Independent Veteran Dominix
+  Independent Veteran Hyperion:
+    name: Independent Veteran Hyperion
+  Independent Veteran Megathron:
+    name: Independent Veteran Megathron

@@ -1,35 +1,69 @@
 items:
-  Centum Beast: {}
-  Centum Execrator: {}
-  Centum Fiend: {}
-  Centum Hellhound: {}
-  Centum Juggernaut: {}
-  Centum Loyal Beast: {}
-  Centum Loyal Execrator: {}
-  Centum Loyal Fiend: {}
-  Centum Loyal Hellhound: {}
-  Centum Loyal Juggernaut: {}
-  Centum Loyal Mutilator: {}
-  Centum Loyal Ravager: {}
-  Centum Loyal Ravisher: {}
-  Centum Loyal Slaughterer: {}
-  Centum Loyal Torturer: {}
-  Centum Mutilator: {}
-  Centum Ravager: {}
-  Centum Ravisher: {}
-  Centum Slaughterer: {}
-  Centum Torturer: {}
-  Renegade Sanshas Slaver: {}
-  Sansha Miner: {}
-  Sanshas Personnel Transport: {}
-  Sanshas Transport Ship: {}
-  True Centum Beast: {}
-  True Centum Execrator: {}
-  True Centum Fiend: {}
-  True Centum Hellhound: {}
-  True Centum Juggernaut: {}
-  True Centum Mutilator: {}
-  True Centum Ravager: {}
-  True Centum Ravisher: {}
-  True Centum Slaughterer: {}
-  True Centum Torturer: {}
+  Centum Beast:
+    name: Centum Beast
+  Centum Execrator:
+    name: Centum Execrator
+  Centum Fiend:
+    name: Centum Fiend
+  Centum Hellhound:
+    name: Centum Hellhound
+  Centum Juggernaut:
+    name: Centum Juggernaut
+  Centum Loyal Beast:
+    name: Centum Loyal Beast
+  Centum Loyal Execrator:
+    name: Centum Loyal Execrator
+  Centum Loyal Fiend:
+    name: Centum Loyal Fiend
+  Centum Loyal Hellhound:
+    name: Centum Loyal Hellhound
+  Centum Loyal Juggernaut:
+    name: Centum Loyal Juggernaut
+  Centum Loyal Mutilator:
+    name: Centum Loyal Mutilator
+  Centum Loyal Ravager:
+    name: Centum Loyal Ravager
+  Centum Loyal Ravisher:
+    name: Centum Loyal Ravisher
+  Centum Loyal Slaughterer:
+    name: Centum Loyal Slaughterer
+  Centum Loyal Torturer:
+    name: Centum Loyal Torturer
+  Centum Mutilator:
+    name: Centum Mutilator
+  Centum Ravager:
+    name: Centum Ravager
+  Centum Ravisher:
+    name: Centum Ravisher
+  Centum Slaughterer:
+    name: Centum Slaughterer
+  Centum Torturer:
+    name: Centum Torturer
+  Renegade Sanshas Slaver:
+    name: Renegade Sanshas Slaver
+  Sansha Miner:
+    name: Sansha Miner
+  Sanshas Personnel Transport:
+    name: Sanshas Personnel Transport
+  Sanshas Transport Ship:
+    name: Sanshas Transport Ship
+  True Centum Beast:
+    name: True Centum Beast
+  True Centum Execrator:
+    name: True Centum Execrator
+  True Centum Fiend:
+    name: True Centum Fiend
+  True Centum Hellhound:
+    name: True Centum Hellhound
+  True Centum Juggernaut:
+    name: True Centum Juggernaut
+  True Centum Mutilator:
+    name: True Centum Mutilator
+  True Centum Ravager:
+    name: True Centum Ravager
+  True Centum Ravisher:
+    name: True Centum Ravisher
+  True Centum Slaughterer:
+    name: True Centum Slaughterer
+  True Centum Torturer:
+    name: True Centum Torturer

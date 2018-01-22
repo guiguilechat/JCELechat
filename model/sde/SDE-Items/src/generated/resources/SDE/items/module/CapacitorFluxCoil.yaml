@@ -12,6 +12,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: '''Basic'' Capacitor Flux Coil'
   '''Page'' Capacitor Flux Coil I':
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorRechargeRateMultiplier: 0.6100000143051147
@@ -25,6 +26,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: '''Page'' Capacitor Flux Coil I'
   'Alpha Reactor Control: Capacitor Flux':
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorRechargeRateMultiplier: 0.800000011920929
@@ -35,6 +37,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: 'Alpha Reactor Control: Capacitor Flux'
   Capacitor Flux Coil I:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorRechargeRateMultiplier: 0.6399999856948853
@@ -46,6 +49,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Capacitor Flux Coil I
   Capacitor Flux Coil II:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorRechargeRateMultiplier: 0.6100000143051147
@@ -58,6 +62,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
+    name: Capacitor Flux Coil II
   'Local Power Plant Manager: Capacitor Flux I':
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorRechargeRateMultiplier: 0.7699999809265137
@@ -69,6 +74,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: 'Local Power Plant Manager: Capacitor Flux I'
   Mark I Compact Capacitor Flux Coil:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorRechargeRateMultiplier: 0.6299999952316284
@@ -81,6 +87,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Mark I Compact Capacitor Flux Coil
   'Mark I Generator Refitting: Capacitor Flux':
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorRechargeRateMultiplier: 0.7599999904632568
@@ -92,6 +99,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: 'Mark I Generator Refitting: Capacitor Flux'
   'Marked Generator Refitting: Capacitor Flux':
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorRechargeRateMultiplier: 0.800000011920929
@@ -102,6 +110,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: 'Marked Generator Refitting: Capacitor Flux'
   'Partial Power Plant Manager: Capacitor Flux':
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorRechargeRateMultiplier: 0.800000011920929
@@ -112,6 +121,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: 'Partial Power Plant Manager: Capacitor Flux'
   Type-D Restrained Capacitor Flux Coil:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorRechargeRateMultiplier: 0.7200000286102295
@@ -124,6 +134,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Type-D Restrained Capacitor Flux Coil
   'Type-E Power Core Modification: Capacitor Flux':
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorRechargeRateMultiplier: 0.800000011920929
@@ -134,3 +145,4 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: 'Type-E Power Core Modification: Capacitor Flux'

@@ -1,26 +1,51 @@
 items:
-  Blood Raider Commander: {}
-  COSMOS Amarr Dark Priest: {}
-  COSMOS Amarr Harbinger: {}
-  COSMOS Amarr Jakar: {}
-  COSMOS Amarr NON-Pirate Battleship: {}
-  COSMOS Amarr Patriarch: {}
-  COSMOS Amarr Shadow Sage: {}
-  COSMOS Caldari Conquistador: {}
-  COSMOS Caldari Destroyer: {}
-  COSMOS Caldari Extinguisher: {}
-  COSMOS Caldari Non-Pirate Battleship 4: {}
-  COSMOS Caldari Usurper: {}
-  COSMOS Gallente Commodore: {}
-  COSMOS Gallente Enforcer: {}
-  COSMOS Gallente Non-Pirate Battleship: {}
-  COSMOS Minmatar Commander: {}
-  COSMOS Minmatar Gist General: {}
-  COSMOS Minmatar Gist Seraphim: {}
-  COSMOS Minmatar Non-Pirate Battleship: {}
-  COSMOS Minmatar Warlord: {}
-  FON Battleship: {}
-  FON Battleship_OLD: {}
-  Kador Surveillance General: {}
-  Maphante Guardian: {}
-  Temko Megathron: {}
+  Blood Raider Commander:
+    name: Blood Raider Commander
+  COSMOS Amarr Dark Priest:
+    name: COSMOS Amarr Dark Priest
+  COSMOS Amarr Harbinger:
+    name: COSMOS Amarr Harbinger
+  COSMOS Amarr Jakar:
+    name: COSMOS Amarr Jakar
+  COSMOS Amarr NON-Pirate Battleship:
+    name: COSMOS Amarr NON-Pirate Battleship
+  COSMOS Amarr Patriarch:
+    name: COSMOS Amarr Patriarch
+  COSMOS Amarr Shadow Sage:
+    name: COSMOS Amarr Shadow Sage
+  COSMOS Caldari Conquistador:
+    name: COSMOS Caldari Conquistador
+  COSMOS Caldari Destroyer:
+    name: COSMOS Caldari Destroyer
+  COSMOS Caldari Extinguisher:
+    name: COSMOS Caldari Extinguisher
+  COSMOS Caldari Non-Pirate Battleship 4:
+    name: COSMOS Caldari Non-Pirate Battleship 4
+  COSMOS Caldari Usurper:
+    name: COSMOS Caldari Usurper
+  COSMOS Gallente Commodore:
+    name: COSMOS Gallente Commodore
+  COSMOS Gallente Enforcer:
+    name: COSMOS Gallente Enforcer
+  COSMOS Gallente Non-Pirate Battleship:
+    name: COSMOS Gallente Non-Pirate Battleship
+  COSMOS Minmatar Commander:
+    name: COSMOS Minmatar Commander
+  COSMOS Minmatar Gist General:
+    name: COSMOS Minmatar Gist General
+  COSMOS Minmatar Gist Seraphim:
+    name: COSMOS Minmatar Gist Seraphim
+  COSMOS Minmatar Non-Pirate Battleship:
+    name: COSMOS Minmatar Non-Pirate Battleship
+  COSMOS Minmatar Warlord:
+    name: COSMOS Minmatar Warlord
+  FON Battleship:
+    name: FON Battleship
+  FON Battleship_OLD:
+    name: FON Battleship_OLD
+  Kador Surveillance General:
+    name: Kador Surveillance General
+  Maphante Guardian:
+    name: Maphante Guardian
+  Temko Megathron:
+    name: Temko Megathron

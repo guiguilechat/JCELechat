@@ -1,2 +1,3 @@
 items:
-  Default Spot Light: {}
+  Default Spot Light:
+    name: Default Spot Light

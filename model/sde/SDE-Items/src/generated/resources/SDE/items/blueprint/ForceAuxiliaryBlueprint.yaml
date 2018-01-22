@@ -1,12 +1,19 @@
 items:
   Apostle Blueprint:
     IndustryBlueprintRank: 200.0
-  Dagon Blueprint: {}
+    name: Apostle Blueprint
+  Dagon Blueprint:
+    name: Dagon Blueprint
   Lif Blueprint:
     IndustryBlueprintRank: 200.0
-  Loggerhead Blueprint: {}
+    name: Lif Blueprint
+  Loggerhead Blueprint:
+    name: Loggerhead Blueprint
   Minokawa Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Minokawa Blueprint
   Ninazu Blueprint:
     IndustryBlueprintRank: 200.0
-  Venerable Blueprint: {}
+    name: Ninazu Blueprint
+  Venerable Blueprint:
+    name: Venerable Blueprint

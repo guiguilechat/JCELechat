@@ -4,73 +4,88 @@ items:
     Hp: 100
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
+    name: Civilian Data Interface
   Cryptic Data Interface:
     DecryptorID: 729
     Hp: 100
     RequiredSkill1: 21791
     RequiredSkill1Level: 1
+    name: Cryptic Data Interface
   Cryptic Ship Data Interface:
     DecryptorID: 729
     Hp: 100
     RequiredSkill1: 21791
     RequiredSkill1Level: 1
+    name: Cryptic Ship Data Interface
   Cryptic Tuner Data Interface:
     DecryptorID: 729
     Hp: 100
     RequiredSkill1: 21791
     RequiredSkill1Level: 1
+    name: Cryptic Tuner Data Interface
   Data Interface - Basic:
     DecryptorID: 728
     Hp: 100
     RequiredSkill1: 3410
     RequiredSkill1Level: 1
+    name: Data Interface - Basic
   Esoteric Data Interface:
     DecryptorID: 731
     Hp: 100
     RequiredSkill1: 21790
     RequiredSkill1Level: 1
+    name: Esoteric Data Interface
   Esoteric Ship Data Interface:
     DecryptorID: 731
     Hp: 100
     RequiredSkill1: 21790
     RequiredSkill1Level: 1
+    name: Esoteric Ship Data Interface
   Esoteric Tuner Data Interface:
     DecryptorID: 731
     Hp: 100
     RequiredSkill1: 21790
     RequiredSkill1Level: 1
+    name: Esoteric Tuner Data Interface
   Incognito Data Interface:
     DecryptorID: 730
     Hp: 100
     RequiredSkill1: 23121
     RequiredSkill1Level: 1
+    name: Incognito Data Interface
   Incognito Ship Data Interface:
     DecryptorID: 730
     Hp: 100
     RequiredSkill1: 23121
     RequiredSkill1Level: 1
+    name: Incognito Ship Data Interface
   Incognito Tuner Data Interface:
     DecryptorID: 730
     Hp: 100
     RequiredSkill1: 23121
     RequiredSkill1Level: 1
+    name: Incognito Tuner Data Interface
   Occult Data Interface:
     DecryptorID: 728
     Hp: 100
     RequiredSkill1: 23087
     RequiredSkill1Level: 1
+    name: Occult Data Interface
   Occult Ship Data Interface:
     DecryptorID: 728
     Hp: 100
     RequiredSkill1: 23087
     RequiredSkill1Level: 1
+    name: Occult Ship Data Interface
   Occult Tuner Data Interface:
     DecryptorID: 728
     Hp: 100
     RequiredSkill1: 23087
     RequiredSkill1Level: 1
+    name: Occult Tuner Data Interface
   R.Db.- Hybrid Technology:
     DecryptorID: 979
     Hp: 100
     RequiredSkill1: 3408
     RequiredSkill1Level: 1
+    name: R.Db.- Hybrid Technology

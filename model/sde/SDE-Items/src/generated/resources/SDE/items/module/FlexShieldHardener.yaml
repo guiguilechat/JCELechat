@@ -22,6 +22,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -16.0
+    name: Capital Flex Shield Hardener I
   Capital Flex Shield Hardener II:
     CapacitorNeed: 3600.0
     ChargeGroup1: 1702
@@ -46,6 +47,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     ThermalDamageResistanceBonus: -19.0
+    name: Capital Flex Shield Hardener II
   Domination Capital Flex Shield Hardener:
     CapacitorNeed: 2400.0
     ChargeGroup1: 1702
@@ -71,6 +73,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -20.0
+    name: Domination Capital Flex Shield Hardener
   Dread Guristas Capital Flex Shield Hardener:
     CapacitorNeed: 2400.0
     ChargeGroup1: 1702
@@ -96,6 +99,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -20.0
+    name: Dread Guristas Capital Flex Shield Hardener
   True Sansha Capital Flex Shield Hardener:
     CapacitorNeed: 2400.0
     ChargeGroup1: 1702
@@ -121,3 +125,4 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -20.0
+    name: True Sansha Capital Flex Shield Hardener

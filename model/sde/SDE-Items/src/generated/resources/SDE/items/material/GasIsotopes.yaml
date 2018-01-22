@@ -1,9 +1,17 @@
 items:
-  Argon Gas: {}
-  Gaseous Bromine Isotopes: {}
-  Gaseous Chlorine Isotopes: {}
-  Gaseous Fluorine Isotopes: {}
-  Gaseous Iodine Isotopes: {}
-  Gaseous Krypton Isotopes: {}
-  Gaseous Neon Isotopes: {}
-  Xenon: {}
+  Argon Gas:
+    name: Argon Gas
+  Gaseous Bromine Isotopes:
+    name: Gaseous Bromine Isotopes
+  Gaseous Chlorine Isotopes:
+    name: Gaseous Chlorine Isotopes
+  Gaseous Fluorine Isotopes:
+    name: Gaseous Fluorine Isotopes
+  Gaseous Iodine Isotopes:
+    name: Gaseous Iodine Isotopes
+  Gaseous Krypton Isotopes:
+    name: Gaseous Krypton Isotopes
+  Gaseous Neon Isotopes:
+    name: Gaseous Neon Isotopes
+  Xenon:
+    name: Xenon

@@ -2,16 +2,22 @@ items:
   Amarr Business School Commerce Bonus:
     CharismaSkillTrainingTimeMultiplierBonus: -0.05000000074505806
     CpuMultiplier: 1.0
+    name: Amarr Business School Commerce Bonus
   Amarr Business School Industry Bonus:
     CpuMultiplier: 1.0
+    name: Amarr Business School Industry Bonus
   Amarr Military Academy Gunner Bonus:
     CapacitorNeedMultiplier: 0.949999988079071
     CpuMultiplier: 1.0
+    name: Amarr Military Academy Gunner Bonus
   Amarr Military Academy Pilot Bonus:
     CpuMultiplier: 1.0
     PerceptionSkillTrainingTimeMultiplierBonus: -0.05000000074505806
+    name: Amarr Military Academy Pilot Bonus
   Amarr Technical School Electronics Bonus:
     CpuMultiplier: 0.949999988079071
+    name: Amarr Technical School Electronics Bonus
   Amarr Technical School Engineering Bonus:
     CpuMultiplier: 1.0
     MemorySkillTrainingTimeMultiplierBonus: -0.05000000074505806
+    name: Amarr Technical School Engineering Bonus

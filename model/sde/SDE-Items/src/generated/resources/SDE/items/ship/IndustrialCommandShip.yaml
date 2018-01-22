@@ -87,6 +87,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 2.0
+    name: Orca
   Orca ORE Development Edition:
     Agility: 0.1599999964237213
     ArmorEmDamageResonance: 0.5
@@ -166,6 +167,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 2.0
+    name: Orca ORE Development Edition
   Porpoise:
     AffectedByIndustrialInvulnModule: 1
     Agility: 1.5
@@ -249,3 +251,4 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Porpoise

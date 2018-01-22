@@ -2,26 +2,36 @@ items:
   '''Gonzo'' Damage Control I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Gonzo'' Damage Control I Blueprint'
   '''Radical'' Damage Control Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Radical'' Damage Control Blueprint'
   Capital Emergency Hull Energizer I Blueprint:
     TechLevel: 1
+    name: Capital Emergency Hull Energizer I Blueprint
   Capital Emergency Hull Energizer II Blueprint:
     TechLevel: 2
+    name: Capital Emergency Hull Energizer II Blueprint
   Capital Implacable Compact Emergency Hull Energizer Blueprint:
     TechLevel: 1
+    name: Capital Implacable Compact Emergency Hull Energizer Blueprint
   Capital Indefatigable Enduring Emergency Hull Energizer Blueprint:
     TechLevel: 1
+    name: Capital Indefatigable Enduring Emergency Hull Energizer Blueprint
   Civilian Damage Control Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Civilian Damage Control Blueprint
   Damage Control I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Damage Control I Blueprint
   Damage Control II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Damage Control II Blueprint
   Sisters Capital Emergency Hull Energizer Blueprint:
     MetaGroupID: 4
     TechLevel: 1
+    name: Sisters Capital Emergency Hull Energizer Blueprint

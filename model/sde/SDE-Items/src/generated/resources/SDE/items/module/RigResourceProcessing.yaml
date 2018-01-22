@@ -6,6 +6,7 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    name: Capital Salvage Tackle I
   Capital Salvage Tackle II:
     AccessDifficultyBonus: 15
     Drawback: -10
@@ -14,6 +15,7 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    name: Capital Salvage Tackle II
   Large Salvage Tackle I:
     AccessDifficultyBonus: 10
     Drawback: -10
@@ -21,6 +23,7 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    name: Large Salvage Tackle I
   Large Salvage Tackle II:
     AccessDifficultyBonus: 15
     Drawback: -10
@@ -29,6 +32,7 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    name: Large Salvage Tackle II
   Medium Ice Harvester Accelerator I:
     Drawback: 10
     Hp: 40
@@ -36,6 +40,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 250
+    name: Medium Ice Harvester Accelerator I
   Medium Mercoxit Mining Crystal Optimization I:
     Drawback: 10
     Hp: 40
@@ -43,6 +48,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 250
+    name: Medium Mercoxit Mining Crystal Optimization I
   Medium Salvage Tackle I:
     AccessDifficultyBonus: 10
     Drawback: -10
@@ -50,6 +56,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    name: Medium Salvage Tackle I
   Medium Salvage Tackle II:
     AccessDifficultyBonus: 15
     Drawback: -10
@@ -58,6 +65,7 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    name: Medium Salvage Tackle II
   Small Salvage Tackle I:
     AccessDifficultyBonus: 10
     Drawback: -10
@@ -65,6 +73,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    name: Small Salvage Tackle I
   Small Salvage Tackle II:
     AccessDifficultyBonus: 15
     Drawback: -10
@@ -73,3 +82,4 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    name: Small Salvage Tackle II

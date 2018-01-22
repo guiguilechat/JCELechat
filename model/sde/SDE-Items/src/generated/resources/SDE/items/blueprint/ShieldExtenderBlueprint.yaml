@@ -1,74 +1,101 @@
 items:
   CONCORD Capital Shield Extender Blueprint:
     TechLevel: 1
+    name: CONCORD Capital Shield Extender Blueprint
   Caldari Navy Large Shield Extender Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Caldari Navy Large Shield Extender Blueprint
   Caldari Navy Medium Shield Extender Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Caldari Navy Medium Shield Extender Blueprint
   Caldari Navy Small Shield Extender Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Caldari Navy Small Shield Extender Blueprint
   Capital Azeotropic Restrained Shield Extender Blueprint:
     TechLevel: 1
+    name: Capital Azeotropic Restrained Shield Extender Blueprint
   Capital F-S9 Regolith Compact Shield Extender Blueprint:
     TechLevel: 1
+    name: Capital F-S9 Regolith Compact Shield Extender Blueprint
   Capital Shield Extender I Blueprint:
     TechLevel: 1
+    name: Capital Shield Extender I Blueprint
   Capital Shield Extender II Blueprint:
     TechLevel: 1
+    name: Capital Shield Extender II Blueprint
   Domination Capital Shield Extender Blueprint:
     TechLevel: 1
+    name: Domination Capital Shield Extender Blueprint
   Dread Guristas Capital Shield Extender Blueprint:
     TechLevel: 1
+    name: Dread Guristas Capital Shield Extender Blueprint
   Large 'Sheriff' Shield Extender Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Large 'Sheriff' Shield Extender Blueprint
   Large Shield Extender I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Large Shield Extender I Blueprint
   Large Shield Extender II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Large Shield Extender II Blueprint
   Medium 'Canyon' Shield Extender Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Medium 'Canyon' Shield Extender Blueprint
   Medium Shield Extender I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Medium Shield Extender I Blueprint
   Medium Shield Extender II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Medium Shield Extender II Blueprint
   Republic Fleet Large Shield Extender Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Republic Fleet Large Shield Extender Blueprint
   Republic Fleet Medium Shield Extender Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Republic Fleet Medium Shield Extender Blueprint
   Republic Fleet Small Shield Extender Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Republic Fleet Small Shield Extender Blueprint
   Small 'Trapper' Shield Extender Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Small 'Trapper' Shield Extender Blueprint
   Small 'Wolf' Shield Extender Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small 'Wolf' Shield Extender Blueprint
   Small Shield Extender I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Shield Extender I Blueprint
   Small Shield Extender II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Shield Extender II Blueprint
   Thukker Medium Shield Extender Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Thukker Medium Shield Extender Blueprint
   Thukker Shield Extender I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Thukker Shield Extender I Blueprint
   Thukker Small Shield Extender Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Thukker Small Shield Extender Blueprint
   True Sansha Capital Shield Extender Blueprint:
     TechLevel: 1
+    name: True Sansha Capital Shield Extender Blueprint

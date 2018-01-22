@@ -8,6 +8,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 50
+    name: Standup M-Set Fighter Navigation I
   Standup M-Set Fighter Navigation II:
     CanFitShipGroup01: 1657
     DroneMaxVelocityBonus: 35
@@ -17,3 +18,4 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 100
+    name: Standup M-Set Fighter Navigation II

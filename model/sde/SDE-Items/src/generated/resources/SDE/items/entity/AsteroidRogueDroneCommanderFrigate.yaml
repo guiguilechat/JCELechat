@@ -1,11 +1,21 @@
 items:
-  Sentient Barracuda Alvi: {}
-  Sentient Decimator Alvi: {}
-  Sentient Devilfish Alvi: {}
-  Sentient Hunter Alvi: {}
-  Sentient Infester Alvi: {}
-  Sentient Raider Alvi: {}
-  Sentient Render Alvi: {}
-  Sentient Silverfish Alvi: {}
-  Sentient Splinter Alvi: {}
-  Sentient Sunder Alvi: {}
+  Sentient Barracuda Alvi:
+    name: Sentient Barracuda Alvi
+  Sentient Decimator Alvi:
+    name: Sentient Decimator Alvi
+  Sentient Devilfish Alvi:
+    name: Sentient Devilfish Alvi
+  Sentient Hunter Alvi:
+    name: Sentient Hunter Alvi
+  Sentient Infester Alvi:
+    name: Sentient Infester Alvi
+  Sentient Raider Alvi:
+    name: Sentient Raider Alvi
+  Sentient Render Alvi:
+    name: Sentient Render Alvi
+  Sentient Silverfish Alvi:
+    name: Sentient Silverfish Alvi
+  Sentient Splinter Alvi:
+    name: Sentient Splinter Alvi
+  Sentient Sunder Alvi:
+    name: Sentient Sunder Alvi

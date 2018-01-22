@@ -1,10 +1,15 @@
 items:
-  Capital Ancillary Shield Booster Blueprint: {}
+  Capital Ancillary Shield Booster Blueprint:
+    name: Capital Ancillary Shield Booster Blueprint
   Large Ancillary Shield Booster Blueprint:
     IndustryBlueprintRank: 6.0
+    name: Large Ancillary Shield Booster Blueprint
   Medium Ancillary Shield Booster Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Medium Ancillary Shield Booster Blueprint
   Small Ancillary Shield Booster Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Small Ancillary Shield Booster Blueprint
   X-Large Ancillary Shield Booster Blueprint:
     IndustryBlueprintRank: 9.0
+    name: X-Large Ancillary Shield Booster Blueprint

@@ -2,12 +2,16 @@ items:
   '''Ghost'' Burst Jammer Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Ghost'' Burst Jammer Blueprint'
   Burst Jammer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Burst Jammer I Blueprint
   Burst Jammer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Burst Jammer II Blueprint
   Tournament ECM Burst Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Tournament ECM Burst Blueprint

@@ -1,10 +1,19 @@
 items:
-  Gath Renton: {}
-  State Kanpaku: {}
-  State Kerai: {}
-  State Oni: {}
-  State Ronin: {}
-  State Shukuro Bajo: {}
-  State Shukuro Gassin: {}
-  State Shukuro Samurai: {}
-  State Shukuro Seki: {}
+  Gath Renton:
+    name: Gath Renton
+  State Kanpaku:
+    name: State Kanpaku
+  State Kerai:
+    name: State Kerai
+  State Oni:
+    name: State Oni
+  State Ronin:
+    name: State Ronin
+  State Shukuro Bajo:
+    name: State Shukuro Bajo
+  State Shukuro Gassin:
+    name: State Shukuro Gassin
+  State Shukuro Samurai:
+    name: State Shukuro Samurai
+  State Shukuro Seki:
+    name: State Shukuro Seki

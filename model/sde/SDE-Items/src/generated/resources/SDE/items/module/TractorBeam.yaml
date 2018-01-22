@@ -13,6 +13,7 @@ items:
     Slots: 1
     TechLevel: 1
     TypeColorScheme: 11346
+    name: Capital Tractor Beam I
   Capital Tractor Beam II:
     CanFitShipGroup01: 883
     CapacitorNeed: 50.0
@@ -29,6 +30,7 @@ items:
     Slots: 1
     TechLevel: 2
     TypeColorScheme: 11346
+    name: Capital Tractor Beam II
   Large Tractor Beam I:
     CapacitorNeed: 5.0
     Duration: 20000.0
@@ -41,6 +43,7 @@ items:
     RequiredSkill1Level: 4
     Slots: 1
     TechLevel: 1
+    name: Large Tractor Beam I
   Medium Tractor Beam I:
     CapacitorNeed: 5.0
     Duration: 20000.0
@@ -53,6 +56,7 @@ items:
     RequiredSkill1Level: 2
     Slots: 1
     TechLevel: 1
+    name: Medium Tractor Beam I
   Small Tractor Beam I:
     CapacitorNeed: 5.0
     Duration: 5000.0
@@ -66,6 +70,7 @@ items:
     Slots: 1
     TechLevel: 1
     TypeColorScheme: 11346
+    name: Small Tractor Beam I
   Small Tractor Beam II:
     CapacitorNeed: 5.0
     Cpu: 25.0
@@ -81,3 +86,4 @@ items:
     Slots: 1
     TechLevel: 2
     TypeColorScheme: 11346
+    name: Small Tractor Beam II

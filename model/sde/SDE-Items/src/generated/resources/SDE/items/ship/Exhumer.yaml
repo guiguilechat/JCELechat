@@ -78,6 +78,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 3.330000026835478E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Hulk
   Mackinaw:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.6587499976158142
@@ -156,6 +157,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 3.330000026835478E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Mackinaw
   Mackinaw ORE Development Edition:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.6587499976158142
@@ -235,6 +237,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 3.330000026835478E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Mackinaw ORE Development Edition
   Skiff:
     AffectedByIndustrialInvulnModule: 1
     Agility: 1.0
@@ -315,3 +318,4 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 3.330000026835478E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Skiff

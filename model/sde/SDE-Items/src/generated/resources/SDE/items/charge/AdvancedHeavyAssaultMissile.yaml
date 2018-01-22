@@ -25,6 +25,7 @@ items:
     TechLevel: 2
     ThermalDamage: 90.0
     ThermalDamageResonance: 0.800000011920929
+    name: Inferno Javelin Heavy Assault Missile
   Inferno Rage Heavy Assault Missile:
     Agility: 67.54669189453125
     AimedLaunch: 1
@@ -51,6 +52,7 @@ items:
     TechLevel: 2
     ThermalDamage: 135.0
     ThermalDamageResonance: 0.800000011920929
+    name: Inferno Rage Heavy Assault Missile
   Mjolnir Javelin Heavy Assault Missile:
     Agility: 0.0019947297405451536
     AimedLaunch: 1
@@ -77,6 +79,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Mjolnir Javelin Heavy Assault Missile
   Mjolnir Rage Heavy Assault Missile:
     Agility: 67.54669189453125
     AimedLaunch: 1
@@ -103,6 +106,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Mjolnir Rage Heavy Assault Missile
   Nova Javelin Heavy Assault Missile:
     Agility: 0.0019947297405451536
     AimedLaunch: 1
@@ -129,6 +133,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Nova Javelin Heavy Assault Missile
   Nova Rage Heavy Assault Missile:
     Agility: 67.54669189453125
     AimedLaunch: 1
@@ -155,6 +160,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Nova Rage Heavy Assault Missile
   Scourge Javelin Heavy Assault Missile:
     Agility: 0.0019947297405451536
     AimedLaunch: 1
@@ -181,6 +187,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Scourge Javelin Heavy Assault Missile
   Scourge Rage Heavy Assault Missile:
     Agility: 67.54669189453125
     AimedLaunch: 1
@@ -207,3 +214,4 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Scourge Rage Heavy Assault Missile

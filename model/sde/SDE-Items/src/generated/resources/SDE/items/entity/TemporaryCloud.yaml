@@ -1,4 +1,7 @@
 items:
-  Argon Gas Environment_Damage: {}
-  Mining Pollution Cloud: {}
-  TEST Triggered Damage Cloud: {}
+  Argon Gas Environment_Damage:
+    name: Argon Gas Environment_Damage
+  Mining Pollution Cloud:
+    name: Mining Pollution Cloud
+  TEST Triggered Damage Cloud:
+    name: TEST Triggered Damage Cloud

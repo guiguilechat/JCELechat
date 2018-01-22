@@ -2,37 +2,50 @@ items:
   Drone Link Augmentor I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Drone Link Augmentor I Blueprint
   Drone Link Augmentor II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Drone Link Augmentor II Blueprint
   Drone Navigation Computer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Drone Navigation Computer I Blueprint
   Drone Navigation Computer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Drone Navigation Computer II Blueprint
   Federation Navy Omnidirectional Tracking Link Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Federation Navy Omnidirectional Tracking Link Blueprint
   Fighter Support Unit I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: Fighter Support Unit I Blueprint
   Fighter Support Unit II Blueprint:
     TechLevel: 2
+    name: Fighter Support Unit II Blueprint
   Hermes Compact Fighter Support Unit Blueprint:
     TechLevel: 1
+    name: Hermes Compact Fighter Support Unit Blueprint
   Omnidirectional Tracking Enhancer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Omnidirectional Tracking Enhancer I Blueprint
   Omnidirectional Tracking Enhancer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Omnidirectional Tracking Enhancer II Blueprint
   Omnidirectional Tracking Link I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Omnidirectional Tracking Link I Blueprint
   Omnidirectional Tracking Link II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Omnidirectional Tracking Link II Blueprint
   Sentient Fighter Support Unit Blueprint:
     MetaGroupID: 4
     TechLevel: 1
+    name: Sentient Fighter Support Unit Blueprint

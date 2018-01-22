@@ -1,135 +1,202 @@
 items:
   Amarr Advanced Outpost Factory Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Amarr Advanced Outpost Factory Platform Blueprint
   Amarr Advanced Outpost Laboratory Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Amarr Advanced Outpost Laboratory Platform Blueprint
   Amarr Advanced Outpost Office Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Amarr Advanced Outpost Office Platform Blueprint
   Amarr Advanced Outpost Plant Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Amarr Advanced Outpost Plant Platform Blueprint
   Amarr Advanced Outpost Refinery Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Amarr Advanced Outpost Refinery Platform Blueprint
   Amarr Basic Outpost Factory Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Amarr Basic Outpost Factory Platform Blueprint
   Amarr Basic Outpost Laboratory Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Amarr Basic Outpost Laboratory Platform Blueprint
   Amarr Basic Outpost Office Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Amarr Basic Outpost Office Platform Blueprint
   Amarr Basic Outpost Plant Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Amarr Basic Outpost Plant Platform Blueprint
   Amarr Basic Outpost Refinery Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Amarr Basic Outpost Refinery Platform Blueprint
   Amarr Factory Outpost Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Amarr Factory Outpost Platform Blueprint
   Amarr Outpost Factory Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Amarr Outpost Factory Platform Blueprint
   Amarr Outpost Laboratory Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Amarr Outpost Laboratory Platform Blueprint
   Amarr Outpost Office Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Amarr Outpost Office Platform Blueprint
   Amarr Outpost Plant Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Amarr Outpost Plant Platform Blueprint
   Amarr Outpost Refinery Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Amarr Outpost Refinery Platform Blueprint
   Caldari Advanced Outpost Factory Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Caldari Advanced Outpost Factory Platform Blueprint
   Caldari Advanced Outpost Laboratory Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Caldari Advanced Outpost Laboratory Platform Blueprint
   Caldari Advanced Outpost Office Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Caldari Advanced Outpost Office Platform Blueprint
   Caldari Advanced Outpost Refinery Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Caldari Advanced Outpost Refinery Platform Blueprint
   Caldari Advanced Outpost Research Facility Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Caldari Advanced Outpost Research Facility Platform Blueprint
   Caldari Basic Outpost Factory Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Caldari Basic Outpost Factory Platform Blueprint
   Caldari Basic Outpost Laboratory Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Caldari Basic Outpost Laboratory Platform Blueprint
   Caldari Basic Outpost Office Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Caldari Basic Outpost Office Platform Blueprint
   Caldari Basic Outpost Refinery Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Caldari Basic Outpost Refinery Platform Blueprint
   Caldari Basic Outpost Research Facility Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Caldari Basic Outpost Research Facility Platform Blueprint
   Caldari Outpost Factory Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Caldari Outpost Factory Platform Blueprint
   Caldari Outpost Laboratory Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Caldari Outpost Laboratory Platform Blueprint
   Caldari Outpost Office Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Caldari Outpost Office Platform Blueprint
   Caldari Outpost Refinery Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Caldari Outpost Refinery Platform Blueprint
   Caldari Outpost Research Facility Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Caldari Outpost Research Facility Platform Blueprint
   Caldari Research Outpost Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Caldari Research Outpost Platform Blueprint
   Foundation Upgrade Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Foundation Upgrade Platform Blueprint
   Gallente Administrative Outpost Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Gallente Administrative Outpost Platform Blueprint
   Gallente Advanced Outpost Factory Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Gallente Advanced Outpost Factory Platform Blueprint
   Gallente Advanced Outpost Laboratory Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Gallente Advanced Outpost Laboratory Platform Blueprint
   Gallente Advanced Outpost Office Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Gallente Advanced Outpost Office Platform Blueprint
   Gallente Advanced Outpost Plant Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Gallente Advanced Outpost Plant Platform Blueprint
   Gallente Advanced Outpost Refinery Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Gallente Advanced Outpost Refinery Platform Blueprint
   Gallente Basic Outpost Factory Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Gallente Basic Outpost Factory Platform Blueprint
   Gallente Basic Outpost Laboratory Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Gallente Basic Outpost Laboratory Platform Blueprint
   Gallente Basic Outpost Office Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Gallente Basic Outpost Office Platform Blueprint
   Gallente Basic Outpost Plant Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Gallente Basic Outpost Plant Platform Blueprint
   Gallente Basic Outpost Refinery Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Gallente Basic Outpost Refinery Platform Blueprint
   Gallente Outpost Factory Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Gallente Outpost Factory Platform Blueprint
   Gallente Outpost Laboratory Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Gallente Outpost Laboratory Platform Blueprint
   Gallente Outpost Office Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Gallente Outpost Office Platform Blueprint
   Gallente Outpost Plant Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Gallente Outpost Plant Platform Blueprint
   Gallente Outpost Refinery Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Gallente Outpost Refinery Platform Blueprint
   Minmatar Advanced Outpost Factory Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Minmatar Advanced Outpost Factory Platform Blueprint
   Minmatar Advanced Outpost Laboratory Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Minmatar Advanced Outpost Laboratory Platform Blueprint
   Minmatar Advanced Outpost Office Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Minmatar Advanced Outpost Office Platform Blueprint
   Minmatar Advanced Outpost Plant Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Minmatar Advanced Outpost Plant Platform Blueprint
   Minmatar Advanced Outpost Refinery Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Minmatar Advanced Outpost Refinery Platform Blueprint
   Minmatar Basic Outpost Factory Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Minmatar Basic Outpost Factory Platform Blueprint
   Minmatar Basic Outpost Laboratory Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Minmatar Basic Outpost Laboratory Platform Blueprint
   Minmatar Basic Outpost Office Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Minmatar Basic Outpost Office Platform Blueprint
   Minmatar Basic Outpost Plant Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Minmatar Basic Outpost Plant Platform Blueprint
   Minmatar Basic Outpost Refinery Platform Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Minmatar Basic Outpost Refinery Platform Blueprint
   Minmatar Outpost Factory Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Minmatar Outpost Factory Platform Blueprint
   Minmatar Outpost Laboratory Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Minmatar Outpost Laboratory Platform Blueprint
   Minmatar Outpost Office Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Minmatar Outpost Office Platform Blueprint
   Minmatar Outpost Plant Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Minmatar Outpost Plant Platform Blueprint
   Minmatar Outpost Refinery Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Minmatar Outpost Refinery Platform Blueprint
   Minmatar Service Outpost Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Minmatar Service Outpost Platform Blueprint
   Monument Upgrade Platform Blueprint:
     IndustryBlueprintRank: 600.0
+    name: Monument Upgrade Platform Blueprint
   Pedestal Upgrade Platform Blueprint:
     IndustryBlueprintRank: 400.0
+    name: Pedestal Upgrade Platform Blueprint

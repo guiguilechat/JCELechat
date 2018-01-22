@@ -1,2 +1,3 @@
 items:
-  State Battlecruiser: {}
+  State Battlecruiser:
+    name: State Battlecruiser

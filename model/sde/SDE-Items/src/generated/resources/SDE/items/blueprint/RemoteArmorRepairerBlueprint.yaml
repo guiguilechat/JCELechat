@@ -2,59 +2,82 @@ items:
   '''Beatnik'' Small Remote Armor Repairer Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Beatnik'' Small Remote Armor Repairer Blueprint'
   '''Brotherhood'' Small Remote Armor Repairer Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Brotherhood'' Small Remote Armor Repairer Blueprint'
   '''Love'' Medium Remote Armor Repairer Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Love'' Medium Remote Armor Repairer Blueprint'
   '''Pacifier'' Large Remote Armor Repairer Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: '''Pacifier'' Large Remote Armor Repairer Blueprint'
   '''Peace'' Large Remote Armor Repairer Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: '''Peace'' Large Remote Armor Repairer Blueprint'
   CONCORD Capital Remote Armor Repairer Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: CONCORD Capital Remote Armor Repairer Blueprint
   Capital Ancillary Remote Armor Repairer Blueprint:
     TechLevel: 1
+    name: Capital Ancillary Remote Armor Repairer Blueprint
   Capital Coaxial Compact Remote Armor Repairer Blueprint:
     TechLevel: 1
+    name: Capital Coaxial Compact Remote Armor Repairer Blueprint
   Capital I-ax Enduring Remote Armor Repairer Blueprint:
     TechLevel: 1
+    name: Capital I-ax Enduring Remote Armor Repairer Blueprint
   Capital Remote Armor Repairer I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: Capital Remote Armor Repairer I Blueprint
   Capital Remote Armor Repairer II Blueprint:
     TechLevel: 1
+    name: Capital Remote Armor Repairer II Blueprint
   Capital Solace Scoped Remote Armor Repairer Blueprint:
     TechLevel: 1
+    name: Capital Solace Scoped Remote Armor Repairer Blueprint
   Dark Blood Capital Remote Armor Repairer Blueprint:
     TechLevel: 1
+    name: Dark Blood Capital Remote Armor Repairer Blueprint
   Large Ancillary Remote Armor Repairer Blueprint:
     TechLevel: 1
+    name: Large Ancillary Remote Armor Repairer Blueprint
   Large Remote Armor Repairer I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Large Remote Armor Repairer I Blueprint
   Large Remote Armor Repairer II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Large Remote Armor Repairer II Blueprint
   Medium Ancillary Remote Armor Repairer Blueprint:
     TechLevel: 1
+    name: Medium Ancillary Remote Armor Repairer Blueprint
   Medium Remote Armor Repairer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium Remote Armor Repairer I Blueprint
   Medium Remote Armor Repairer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Medium Remote Armor Repairer II Blueprint
   Shadow Serpentis Capital Remote Armor Repairer Blueprint:
     TechLevel: 1
+    name: Shadow Serpentis Capital Remote Armor Repairer Blueprint
   Small Ancillary Remote Armor Repairer Blueprint:
     TechLevel: 1
+    name: Small Ancillary Remote Armor Repairer Blueprint
   Small Remote Armor Repairer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Remote Armor Repairer I Blueprint
   Small Remote Armor Repairer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Remote Armor Repairer II Blueprint

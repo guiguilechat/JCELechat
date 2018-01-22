@@ -2,225 +2,300 @@ items:
   '''Augmented'' Acolyte Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 2
+    name: '''Augmented'' Acolyte Blueprint'
   '''Augmented'' Berserker Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 2
+    name: '''Augmented'' Berserker Blueprint'
   '''Augmented'' Hammerhead Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 2
+    name: '''Augmented'' Hammerhead Blueprint'
   '''Augmented'' Hobgoblin Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 2
+    name: '''Augmented'' Hobgoblin Blueprint'
   '''Augmented'' Hornet Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 2
+    name: '''Augmented'' Hornet Blueprint'
   '''Augmented'' Infiltrator Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 2
+    name: '''Augmented'' Infiltrator Blueprint'
   '''Augmented'' Ogre Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 2
+    name: '''Augmented'' Ogre Blueprint'
   '''Augmented'' Praetor Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 2
+    name: '''Augmented'' Praetor Blueprint'
   '''Augmented'' Valkyrie Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 2
+    name: '''Augmented'' Valkyrie Blueprint'
   '''Augmented'' Vespa Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 2
+    name: '''Augmented'' Vespa Blueprint'
   '''Augmented'' Warrior Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 2
+    name: '''Augmented'' Warrior Blueprint'
   '''Augmented'' Wasp Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 2
+    name: '''Augmented'' Wasp Blueprint'
   '''Integrated'' Acolyte Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: '''Integrated'' Acolyte Blueprint'
   '''Integrated'' Berserker Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Integrated'' Berserker Blueprint'
   '''Integrated'' Hammerhead Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: '''Integrated'' Hammerhead Blueprint'
   '''Integrated'' Hobgoblin Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: '''Integrated'' Hobgoblin Blueprint'
   '''Integrated'' Hornet Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: '''Integrated'' Hornet Blueprint'
   '''Integrated'' Infiltrator Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: '''Integrated'' Infiltrator Blueprint'
   '''Integrated'' Ogre Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Integrated'' Ogre Blueprint'
   '''Integrated'' Praetor Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Integrated'' Praetor Blueprint'
   '''Integrated'' Valkyrie Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: '''Integrated'' Valkyrie Blueprint'
   '''Integrated'' Vespa Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: '''Integrated'' Vespa Blueprint'
   '''Integrated'' Warrior Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: '''Integrated'' Warrior Blueprint'
   '''Integrated'' Wasp Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Integrated'' Wasp Blueprint'
   Acolyte I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Acolyte I Blueprint
   Acolyte II Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 2
+    name: Acolyte II Blueprint
   Berserker I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Berserker I Blueprint
   Berserker II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    name: Berserker II Blueprint
   Bouncer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Bouncer I Blueprint
   Bouncer II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    name: Bouncer II Blueprint
   Caldari Navy Hornet Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Caldari Navy Hornet Blueprint
   Caldari Navy Vespa Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: Caldari Navy Vespa Blueprint
   Caldari Navy Warden Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Caldari Navy Warden Blueprint
   Caldari Navy Wasp Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Caldari Navy Wasp Blueprint
   Curator I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Curator I Blueprint
   Curator II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    name: Curator II Blueprint
   FA-14 Templar Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    name: FA-14 Templar Blueprint
   Federation Navy Garde Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy Garde Blueprint
   Federation Navy Hammerhead Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: Federation Navy Hammerhead Blueprint
   Federation Navy Hobgoblin Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Federation Navy Hobgoblin Blueprint
   Federation Navy Ogre Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy Ogre Blueprint
   Fighter Uno Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    name: Fighter Uno Blueprint
   Garde I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Garde I Blueprint
   Garde II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    name: Garde II Blueprint
   Gecko Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    name: Gecko Blueprint
   Hammerhead I Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: Hammerhead I Blueprint
   Hammerhead II Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 2
+    name: Hammerhead II Blueprint
   Hobgoblin I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Hobgoblin I Blueprint
   Hobgoblin II Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 2
+    name: Hobgoblin II Blueprint
   Hornet I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Hornet I Blueprint
   Hornet II Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 2
+    name: Hornet II Blueprint
   Imperial Navy Acolyte Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Imperial Navy Acolyte Blueprint
   Imperial Navy Curator Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Curator Blueprint
   Imperial Navy Infiltrator Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: Imperial Navy Infiltrator Blueprint
   Imperial Navy Praetor Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Praetor Blueprint
   Infiltrator I Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: Infiltrator I Blueprint
   Infiltrator II Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 2
+    name: Infiltrator II Blueprint
   Ogre I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ogre I Blueprint
   Ogre II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    name: Ogre II Blueprint
   Praetor I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Praetor I Blueprint
   Praetor II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    name: Praetor II Blueprint
   Republic Fleet Berserker Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Republic Fleet Berserker Blueprint
   Republic Fleet Bouncer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Republic Fleet Bouncer Blueprint
   Republic Fleet Valkyrie Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: Republic Fleet Valkyrie Blueprint
   Republic Fleet Warrior Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Republic Fleet Warrior Blueprint
   Valkyrie I Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: Valkyrie I Blueprint
   Valkyrie II Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 2
+    name: Valkyrie II Blueprint
   Vespa I Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: Vespa I Blueprint
   Vespa II Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 2
+    name: Vespa II Blueprint
   Warden I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Warden I Blueprint
   Warden II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    name: Warden II Blueprint
   Warrior I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Warrior I Blueprint
   Warrior II Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 2
+    name: Warrior II Blueprint
   Wasp I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Wasp I Blueprint
   Wasp II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    name: Wasp II Blueprint

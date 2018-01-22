@@ -1,46 +1,91 @@
 items:
-  Chief Republic Jarpur: {}
-  Chief Republic Klaki: {}
-  Chief Republic Manadis: {}
-  Chief Republic Orka: {}
-  Chief Republic Orsin: {}
-  Chief Republic Pafi: {}
-  Chief Republic Rodul: {}
-  Chief Republic Tenar: {}
-  Civilian Minmatar Cruiser Bellicose: {}
-  Civilian Minmatar Cruiser Rupture: {}
-  Civilian Minmatar Cruiser Scythe: {}
-  Civilian Minmatar Cruiser Stabber: {}
-  Independent Bellicose: {}
-  Independent Green-Crewed Bellicose: {}
-  Independent Green-Crewed Rupture: {}
-  Independent Green-Crewed Scythe: {}
-  Independent Green-Crewed Stabber: {}
-  Independent Rupture: {}
-  Independent Scythe: {}
-  Independent Stabber: {}
-  Independent Veteran Bellicose: {}
-  Independent Veteran Rupture: {}
-  Independent Veteran Scythe: {}
-  Independent Veteran Stabber: {}
-  Minmatar CA Cruiser: {}
-  Minmatar Harvester Ship: {}
-  Minmatar Mercenary Warship: {}
-  Minmatar Personnel Transport: {}
-  Minmatar Transport Ship: {}
-  Minmatar Transport Ship_2: {}
-  Republic Fleet Detective: {}
-  Republic Fleet Raid Leader: {}
-  Republic Fleet Rupture: {}
-  Republic Fleet Stabber: {}
-  Republic Jarpur: {}
-  Republic Manadis: {}
-  Republic Ormur: {}
-  Republic Rodul: {}
-  Republic Solon: {}
-  Republic Tribal Jarpur: {}
-  Republic Tribal Manadis: {}
-  Republic Tribal Ormur: {}
-  Republic Tribal Rodul: {}
-  Republic Tribal Solon: {}
-  The Elder: {}
+  Chief Republic Jarpur:
+    name: Chief Republic Jarpur
+  Chief Republic Klaki:
+    name: Chief Republic Klaki
+  Chief Republic Manadis:
+    name: Chief Republic Manadis
+  Chief Republic Orka:
+    name: Chief Republic Orka
+  Chief Republic Orsin:
+    name: Chief Republic Orsin
+  Chief Republic Pafi:
+    name: Chief Republic Pafi
+  Chief Republic Rodul:
+    name: Chief Republic Rodul
+  Chief Republic Tenar:
+    name: Chief Republic Tenar
+  Civilian Minmatar Cruiser Bellicose:
+    name: Civilian Minmatar Cruiser Bellicose
+  Civilian Minmatar Cruiser Rupture:
+    name: Civilian Minmatar Cruiser Rupture
+  Civilian Minmatar Cruiser Scythe:
+    name: Civilian Minmatar Cruiser Scythe
+  Civilian Minmatar Cruiser Stabber:
+    name: Civilian Minmatar Cruiser Stabber
+  Independent Bellicose:
+    name: Independent Bellicose
+  Independent Green-Crewed Bellicose:
+    name: Independent Green-Crewed Bellicose
+  Independent Green-Crewed Rupture:
+    name: Independent Green-Crewed Rupture
+  Independent Green-Crewed Scythe:
+    name: Independent Green-Crewed Scythe
+  Independent Green-Crewed Stabber:
+    name: Independent Green-Crewed Stabber
+  Independent Rupture:
+    name: Independent Rupture
+  Independent Scythe:
+    name: Independent Scythe
+  Independent Stabber:
+    name: Independent Stabber
+  Independent Veteran Bellicose:
+    name: Independent Veteran Bellicose
+  Independent Veteran Rupture:
+    name: Independent Veteran Rupture
+  Independent Veteran Scythe:
+    name: Independent Veteran Scythe
+  Independent Veteran Stabber:
+    name: Independent Veteran Stabber
+  Minmatar CA Cruiser:
+    name: Minmatar CA Cruiser
+  Minmatar Harvester Ship:
+    name: Minmatar Harvester Ship
+  Minmatar Mercenary Warship:
+    name: Minmatar Mercenary Warship
+  Minmatar Personnel Transport:
+    name: Minmatar Personnel Transport
+  Minmatar Transport Ship:
+    name: Minmatar Transport Ship
+  Minmatar Transport Ship_2:
+    name: Minmatar Transport Ship_2
+  Republic Fleet Detective:
+    name: Republic Fleet Detective
+  Republic Fleet Raid Leader:
+    name: Republic Fleet Raid Leader
+  Republic Fleet Rupture:
+    name: Republic Fleet Rupture
+  Republic Fleet Stabber:
+    name: Republic Fleet Stabber
+  Republic Jarpur:
+    name: Republic Jarpur
+  Republic Manadis:
+    name: Republic Manadis
+  Republic Ormur:
+    name: Republic Ormur
+  Republic Rodul:
+    name: Republic Rodul
+  Republic Solon:
+    name: Republic Solon
+  Republic Tribal Jarpur:
+    name: Republic Tribal Jarpur
+  Republic Tribal Manadis:
+    name: Republic Tribal Manadis
+  Republic Tribal Ormur:
+    name: Republic Tribal Ormur
+  Republic Tribal Rodul:
+    name: Republic Tribal Rodul
+  Republic Tribal Solon:
+    name: Republic Tribal Solon
+  The Elder:
+    name: The Elder

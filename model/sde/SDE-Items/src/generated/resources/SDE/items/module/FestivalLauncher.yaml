@@ -10,6 +10,7 @@ items:
     Speed: 20000
     TechLevel: 1
     TypeColorScheme: 11324
+    name: Display Launcher
   Festival Launcher:
     ChargeGroup1: 500
     ChargeRate: 1
@@ -20,3 +21,4 @@ items:
     Speed: 4000
     TechLevel: 1
     TypeColorScheme: 11324
+    name: Festival Launcher

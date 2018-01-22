@@ -23,6 +23,7 @@ items:
     TechLevel: 1
     ThermalDamage: 95.0
     ThermalDamageResonance: 0.800000011920929
+    name: Caldari Navy Inferno Light Missile
   Caldari Navy Mjolnir Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -47,6 +48,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Mjolnir Light Missile
   Caldari Navy Nova Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -71,6 +73,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Nova Light Missile
   Caldari Navy Scourge Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -95,6 +98,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Scourge Light Missile
   Civilian Scourge Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -114,6 +118,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Civilian Scourge Light Missile
   Decapitator Light Missile:
     Agility: 29.312231063842773
     AimedLaunch: 1
@@ -133,6 +138,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.800000011920929
+    name: Decapitator Light Missile
   Dread Guristas Inferno Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -157,6 +163,7 @@ items:
     TechLevel: 1
     ThermalDamage: 99.0
     ThermalDamageResonance: 0.800000011920929
+    name: Dread Guristas Inferno Light Missile
   Dread Guristas Mjolnir Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -181,6 +188,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Mjolnir Light Missile
   Dread Guristas Nova Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -205,6 +213,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Nova Light Missile
   Dread Guristas Scourge Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -229,6 +238,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Scourge Light Missile
   Guristas Inferno Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -253,6 +263,7 @@ items:
     TechLevel: 1
     ThermalDamage: 90.0
     ThermalDamageResonance: 0.800000011920929
+    name: Guristas Inferno Light Missile
   Guristas Mjolnir Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -277,6 +288,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Mjolnir Light Missile
   Guristas Nova Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -301,6 +313,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Nova Light Missile
   Guristas Scourge Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -325,6 +338,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Scourge Light Missile
   Inferno Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -347,6 +361,7 @@ items:
     TechLevel: 1
     ThermalDamage: 83.0
     ThermalDamageResonance: 0.800000011920929
+    name: Inferno Light Missile
   Mjolnir Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -369,6 +384,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Mjolnir Light Missile
   Nova Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -391,6 +407,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Nova Light Missile
   Oneiric Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -415,6 +432,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Oneiric Missile
   Sansha Sabretooth Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -437,6 +455,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Sansha Sabretooth Light Missile
   Scourge Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -459,6 +478,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Scourge Light Missile
   True Sansha Sabretooth Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -481,3 +501,4 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: True Sansha Sabretooth Light Missile

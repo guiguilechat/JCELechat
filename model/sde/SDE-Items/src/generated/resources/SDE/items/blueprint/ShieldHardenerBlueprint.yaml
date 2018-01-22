@@ -2,59 +2,79 @@ items:
   '''Desert Heat'' Thermal Dissipation Field Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Desert Heat'' Thermal Dissipation Field Blueprint'
   '''Nugget'' Kinetic Deflection Field Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Nugget'' Kinetic Deflection Field Blueprint'
   '''Poacher'' EM Ward Field Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Poacher'' EM Ward Field Blueprint'
   '''Posse'' Adaptive Invulnerability Field Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Posse'' Adaptive Invulnerability Field Blueprint'
   '''Snake Eyes'' Explosive Deflection Field Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Snake Eyes'' Explosive Deflection Field Blueprint'
   Adaptive Invulnerability Field I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Adaptive Invulnerability Field I Blueprint
   Adaptive Invulnerability Field II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Adaptive Invulnerability Field II Blueprint
   Civilian EM Ward Field Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Civilian EM Ward Field Blueprint
   Civilian Explosive Deflection Field Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Civilian Explosive Deflection Field Blueprint
   Civilian Kinetic Deflection Field Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Civilian Kinetic Deflection Field Blueprint
   Civilian Thermal Dissipation Field Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Civilian Thermal Dissipation Field Blueprint
   EM Ward Field I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: EM Ward Field I Blueprint
   EM Ward Field II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: EM Ward Field II Blueprint
   Explosive Deflection Field I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Explosive Deflection Field I Blueprint
   Explosive Deflection Field II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Explosive Deflection Field II Blueprint
   Kinetic Deflection Field I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Kinetic Deflection Field I Blueprint
   Kinetic Deflection Field II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Kinetic Deflection Field II Blueprint
   Thermal Dissipation Field I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Thermal Dissipation Field I Blueprint
   Thermal Dissipation Field II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Thermal Dissipation Field II Blueprint
   testShieldMod_Blueprint_PLACEHOLDER:
     TechLevel: 1
+    name: testShieldMod_Blueprint_PLACEHOLDER

@@ -8,6 +8,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionBonus: 5.25
     TechLevel: 1
+    name: '''Acolyth'' Signal Booster'
   '''Basic'' Signal Amplifier':
     Cpu: 8.0
     Hp: 40
@@ -24,6 +25,7 @@ items:
     ScanRadarStrengthPercent: 36
     ScanResolutionBonus: 6.0
     TechLevel: 1
+    name: '''Basic'' Signal Amplifier'
   '''Firewall'' Signal Amplifier':
     Cpu: 12.0
     Hp: 40
@@ -40,6 +42,7 @@ items:
     ScanRadarStrengthPercent: 48
     ScanResolutionBonus: 15.0
     TechLevel: 1
+    name: '''Firewall'' Signal Amplifier'
   '''Mendicant'' Signal Booster I':
     Hp: 40
     MaxLockedTargetsBonus: 1
@@ -50,6 +53,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionBonus: 10.5
     TechLevel: 1
+    name: '''Mendicant'' Signal Booster I'
   Amplitude Signal Enhancer:
     Hp: 40
     MaxLockedTargetsBonus: 1
@@ -59,6 +63,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionBonus: 5.5
     TechLevel: 1
+    name: Amplitude Signal Enhancer
   F-89 Compact Signal Amplifier:
     Cpu: 16.0
     Hp: 40
@@ -74,6 +79,7 @@ items:
     ScanRadarStrengthPercent: 44
     ScanResolutionBonus: 13.0
     TechLevel: 1
+    name: F-89 Compact Signal Amplifier
   F-90 Positional Signal Amplifier:
     Hp: 40
     MaxLockedTargetsBonus: 1
@@ -83,6 +89,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionBonus: 5.75
     TechLevel: 1
+    name: F-90 Positional Signal Amplifier
   Sentient Signal Amplifier:
     Cpu: 16.0
     Hp: 40
@@ -99,6 +106,7 @@ items:
     ScanRadarStrengthPercent: 52
     ScanResolutionBonus: 16.0
     TechLevel: 1
+    name: Sentient Signal Amplifier
   Signal Amplifier I:
     Hp: 40
     MaxLockedTargetsBonus: 1
@@ -112,6 +120,7 @@ items:
     ScanRadarStrengthPercent: 40
     ScanResolutionBonus: 12.0
     TechLevel: 1
+    name: Signal Amplifier I
   Signal Amplifier II:
     Cpu: 24.0
     Hp: 40
@@ -127,6 +136,7 @@ items:
     ScanRadarStrengthPercent: 48
     ScanResolutionBonus: 15.0
     TechLevel: 2
+    name: Signal Amplifier II
   Syndicate Signal Amplifier:
     Cpu: 16.0
     Hp: 40
@@ -143,6 +153,7 @@ items:
     ScanRadarStrengthPercent: 52
     ScanResolutionBonus: 16.0
     TechLevel: 1
+    name: Syndicate Signal Amplifier
   Type-D Attenuation Signal Augmentation:
     Hp: 40
     MaxLockedTargetsBonus: 1
@@ -153,6 +164,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionBonus: 12.0
     TechLevel: 1
+    name: Type-D Attenuation Signal Augmentation
   Type-E Discriminative Signal Augmentation:
     Hp: 40
     MaxLockedTargetsBonus: 1
@@ -162,6 +174,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionBonus: 6.0
     TechLevel: 1
+    name: Type-E Discriminative Signal Augmentation
   Wavelength Signal Enhancer I:
     Hp: 40
     MaxLockedTargetsBonus: 1
@@ -172,3 +185,4 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionBonus: 11.0
     TechLevel: 1
+    name: Wavelength Signal Enhancer I

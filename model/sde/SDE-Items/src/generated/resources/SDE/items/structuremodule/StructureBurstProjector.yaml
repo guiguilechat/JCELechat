@@ -1,10 +1,18 @@
 items:
-  Standup ECM Jammer Burst Projector: {}
+  Standup ECM Jammer Burst Projector:
+    name: Standup ECM Jammer Burst Projector
   Standup Energy Neutralization Burst Projector:
     CanFitShipGroup01: 1657
-  Standup Gravitational Transportation Field Oscillator: {}
-  Standup Sensor Dampening Burst Projector: {}
-  Standup Stasis Webification Burst Projector: {}
-  Standup Target Illumination Burst Projector: {}
-  Standup Warp Disruption Burst Projector: {}
-  Standup Weapon Disruption Burst Projector: {}
+    name: Standup Energy Neutralization Burst Projector
+  Standup Gravitational Transportation Field Oscillator:
+    name: Standup Gravitational Transportation Field Oscillator
+  Standup Sensor Dampening Burst Projector:
+    name: Standup Sensor Dampening Burst Projector
+  Standup Stasis Webification Burst Projector:
+    name: Standup Stasis Webification Burst Projector
+  Standup Target Illumination Burst Projector:
+    name: Standup Target Illumination Burst Projector
+  Standup Warp Disruption Burst Projector:
+    name: Standup Warp Disruption Burst Projector
+  Standup Weapon Disruption Burst Projector:
+    name: Standup Weapon Disruption Burst Projector

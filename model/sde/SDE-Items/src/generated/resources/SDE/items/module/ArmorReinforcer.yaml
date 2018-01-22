@@ -10,6 +10,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Abatis'' 100mm Steel Plates'
   '''Bailey'' 1600mm Steel Plates':
     ArmorHPBonusAdd: 4500
     Cpu: 27.0
@@ -21,6 +22,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: '''Bailey'' 1600mm Steel Plates'
   '''Barbican'' 800mm Steel Plates':
     ArmorHPBonusAdd: 2250
     Cpu: 22.0
@@ -32,6 +34,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: '''Barbican'' 800mm Steel Plates'
   '''Bastion'' 400mm Steel Plates':
     ArmorHPBonusAdd: 1150
     Cpu: 17.0
@@ -43,6 +46,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: '''Bastion'' 400mm Steel Plates'
   '''Chainmail'' 200mm Steel Plates':
     ArmorHPBonusAdd: 575
     Cpu: 11.0
@@ -54,6 +58,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: '''Chainmail'' 200mm Steel Plates'
   '''Citadella'' 100mm Steel Plates':
     ArmorHPBonusAdd: 175
     Hp: 40
@@ -64,6 +69,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Citadella'' 100mm Steel Plates'
   100mm Crystalline Carbonide Restrained Plates:
     ArmorHPBonusAdd: 250
     Cpu: 10.0
@@ -74,6 +80,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: 100mm Crystalline Carbonide Restrained Plates
   100mm Reinforced Nanofiber Plates I:
     ArmorHPBonusAdd: 206
     Hp: 40
@@ -83,6 +90,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: 100mm Reinforced Nanofiber Plates I
   100mm Reinforced Titanium Plates I:
     ArmorHPBonusAdd: 225
     Hp: 40
@@ -92,6 +100,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: 100mm Reinforced Titanium Plates I
   100mm Rolled Tungsten Compact Plates:
     ArmorHPBonusAdd: 250
     Hp: 40
@@ -101,6 +110,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: 100mm Rolled Tungsten Compact Plates
   100mm Steel Plates I:
     ArmorHPBonusAdd: 200
     Hp: 40
@@ -109,6 +119,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: 100mm Steel Plates I
   100mm Steel Plates II:
     ArmorHPBonusAdd: 300
     Cpu: 12.0
@@ -119,6 +130,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 2
+    name: 100mm Steel Plates II
   1600mm Crystalline Carbonide Restrained Plates:
     ArmorHPBonusAdd: 4000
     Cpu: 30.0
@@ -129,6 +141,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: 1600mm Crystalline Carbonide Restrained Plates
   1600mm Reinforced Nanofiber Plates I:
     ArmorHPBonusAdd: 3300
     Hp: 40
@@ -138,6 +151,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: 1600mm Reinforced Nanofiber Plates I
   1600mm Reinforced Titanium Plates I:
     ArmorHPBonusAdd: 3600
     Hp: 40
@@ -147,6 +161,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: 1600mm Reinforced Titanium Plates I
   1600mm Rolled Tungsten Compact Plates:
     ArmorHPBonusAdd: 4000
     Cpu: 27.0
@@ -157,6 +172,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: 1600mm Rolled Tungsten Compact Plates
   1600mm Steel Plates I:
     ArmorHPBonusAdd: 3500
     Hp: 40
@@ -165,6 +181,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: 1600mm Steel Plates I
   1600mm Steel Plates II:
     ArmorHPBonusAdd: 4800
     Cpu: 35.0
@@ -175,6 +192,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 5
     TechLevel: 2
+    name: 1600mm Steel Plates II
   200mm Crystalline Carbonide Restrained Plates:
     ArmorHPBonusAdd: 500
     Cpu: 15.0
@@ -185,6 +203,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: 200mm Crystalline Carbonide Restrained Plates
   200mm Reinforced Nanofiber Plates I:
     ArmorHPBonusAdd: 413
     Hp: 40
@@ -194,6 +213,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: 200mm Reinforced Nanofiber Plates I
   200mm Reinforced Titanium Plates I:
     ArmorHPBonusAdd: 450
     Hp: 40
@@ -203,6 +223,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: 200mm Reinforced Titanium Plates I
   200mm Rolled Tungsten Compact Plates:
     ArmorHPBonusAdd: 500
     Cpu: 11.0
@@ -213,6 +234,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: 200mm Rolled Tungsten Compact Plates
   200mm Steel Plates I:
     ArmorHPBonusAdd: 450
     Hp: 40
@@ -221,6 +243,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: 200mm Steel Plates I
   200mm Steel Plates II:
     ArmorHPBonusAdd: 600
     Cpu: 16.0
@@ -231,6 +254,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: 200mm Steel Plates II
   25000mm Crystalline Carbonide Restrained Plates:
     ArmorHPBonusAdd: 67500
     Cpu: 50.0
@@ -241,6 +265,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: 25000mm Crystalline Carbonide Restrained Plates
   25000mm Rolled Tungsten Compact Plates:
     ArmorHPBonusAdd: 67500
     Cpu: 40.0
@@ -251,6 +276,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: 25000mm Rolled Tungsten Compact Plates
   25000mm Steel Plates I:
     ArmorHPBonusAdd: 60000
     Cpu: 50.0
@@ -260,6 +286,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: 25000mm Steel Plates I
   25000mm Steel Plates II:
     ArmorHPBonusAdd: 75000
     Cpu: 55.0
@@ -270,6 +297,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 5
     TechLevel: 2
+    name: 25000mm Steel Plates II
   400mm Crystalline Carbonide Restrained Plates:
     ArmorHPBonusAdd: 1100
     Cpu: 20.0
@@ -280,6 +308,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: 400mm Crystalline Carbonide Restrained Plates
   400mm Reinforced Nanofiber Plates I:
     ArmorHPBonusAdd: 825
     Hp: 40
@@ -289,6 +318,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: 400mm Reinforced Nanofiber Plates I
   400mm Reinforced Titanium Plates I:
     ArmorHPBonusAdd: 900
     Hp: 40
@@ -298,6 +328,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: 400mm Reinforced Titanium Plates I
   400mm Rolled Tungsten Compact Plates:
     ArmorHPBonusAdd: 1100
     Cpu: 17.0
@@ -308,6 +339,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: 400mm Rolled Tungsten Compact Plates
   400mm Steel Plates I:
     ArmorHPBonusAdd: 900
     Hp: 40
@@ -316,6 +348,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: 400mm Steel Plates I
   400mm Steel Plates II:
     ArmorHPBonusAdd: 1200
     Hp: 40
@@ -325,6 +358,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 5
     TechLevel: 2
+    name: 400mm Steel Plates II
   50mm Reinforced Crystalline Carbonide Plates I:
     ArmorHPBonusAdd: 123
     Hp: 40
@@ -334,6 +368,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: 50mm Reinforced Crystalline Carbonide Plates I
   50mm Reinforced Nanofiber Plates I:
     ArmorHPBonusAdd: 104
     Hp: 40
@@ -343,6 +378,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: 50mm Reinforced Nanofiber Plates I
   50mm Reinforced Rolled Tungsten Plates I:
     ArmorHPBonusAdd: 131
     Hp: 40
@@ -352,6 +388,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: 50mm Reinforced Rolled Tungsten Plates I
   50mm Reinforced Titanium Plates I:
     ArmorHPBonusAdd: 113
     Hp: 40
@@ -361,6 +398,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: 50mm Reinforced Titanium Plates I
   50mm Steel Plates I:
     ArmorHPBonusAdd: 94
     Hp: 40
@@ -369,6 +407,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: 50mm Steel Plates I
   50mm Steel Plates II:
     ArmorHPBonusAdd: 150
     Hp: 40
@@ -378,6 +417,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 2
+    name: 50mm Steel Plates II
   800mm Crystalline Carbonide Restrained Plates:
     ArmorHPBonusAdd: 2000
     Cpu: 25.0
@@ -388,6 +428,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: 800mm Crystalline Carbonide Restrained Plates
   800mm Reinforced Nanofiber Plates I:
     ArmorHPBonusAdd: 1650
     Hp: 40
@@ -397,6 +438,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: 800mm Reinforced Nanofiber Plates I
   800mm Reinforced Titanium Plates I:
     ArmorHPBonusAdd: 1800
     Hp: 40
@@ -406,6 +448,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: 800mm Reinforced Titanium Plates I
   800mm Rolled Tungsten Compact Plates:
     ArmorHPBonusAdd: 2000
     Cpu: 22.0
@@ -416,6 +459,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: 800mm Rolled Tungsten Compact Plates
   800mm Steel Plates I:
     ArmorHPBonusAdd: 1750
     Hp: 40
@@ -424,6 +468,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: 800mm Steel Plates I
   800mm Steel Plates II:
     ArmorHPBonusAdd: 2400
     Hp: 40
@@ -433,6 +478,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 5
     TechLevel: 2
+    name: 800mm Steel Plates II
   CONCORD 25000mm Steel Plates:
     ArmorHPBonusAdd: 82500
     Cpu: 40.0
@@ -444,6 +490,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: CONCORD 25000mm Steel Plates
   Dark Blood 25000mm Steel Plates:
     ArmorHPBonusAdd: 82500
     Cpu: 40.0
@@ -455,6 +502,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Dark Blood 25000mm Steel Plates
   Federation Navy 100mm Steel Plates:
     ArmorHPBonusAdd: 350
     Cpu: 9.0
@@ -466,6 +514,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Federation Navy 100mm Steel Plates
   Federation Navy 1600mm Steel Plates:
     ArmorHPBonusAdd: 5000
     Cpu: 30.0
@@ -477,6 +526,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Federation Navy 1600mm Steel Plates
   Federation Navy 200mm Steel Plates:
     ArmorHPBonusAdd: 650
     Cpu: 13.0
@@ -488,6 +538,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Federation Navy 200mm Steel Plates
   Federation Navy 400mm Steel Plates:
     ArmorHPBonusAdd: 1300
     Cpu: 20.0
@@ -499,6 +550,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Federation Navy 400mm Steel Plates
   Federation Navy 800mm Steel Plates:
     ArmorHPBonusAdd: 2500
     Cpu: 25.0
@@ -510,6 +562,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Federation Navy 800mm Steel Plates
   Imperial Navy 100mm Steel Plates:
     ArmorHPBonusAdd: 375
     Cpu: 8.0
@@ -521,6 +574,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Imperial Navy 100mm Steel Plates
   Imperial Navy 1600mm Steel Plates:
     ArmorHPBonusAdd: 5250
     Cpu: 27.0
@@ -532,6 +586,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Imperial Navy 1600mm Steel Plates
   Imperial Navy 200mm Steel Plates:
     ArmorHPBonusAdd: 700
     Cpu: 12.0
@@ -543,6 +598,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Imperial Navy 200mm Steel Plates
   Imperial Navy 400mm Steel Plates:
     ArmorHPBonusAdd: 1375
     Cpu: 18.0
@@ -554,6 +610,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Imperial Navy 400mm Steel Plates
   Imperial Navy 800mm Steel Plates:
     ArmorHPBonusAdd: 2625
     Cpu: 23.0
@@ -565,6 +622,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Imperial Navy 800mm Steel Plates
   Shadow Serpentis 25000mm Steel Plates:
     ArmorHPBonusAdd: 82500
     Cpu: 40.0
@@ -576,6 +634,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Shadow Serpentis 25000mm Steel Plates
   Syndicate 100mm Steel Plates:
     ArmorHPBonusAdd: 350
     Cpu: 10.0
@@ -587,6 +646,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Syndicate 100mm Steel Plates
   Syndicate 1600mm Steel Plates:
     ArmorHPBonusAdd: 5000
     Cpu: 35.0
@@ -598,6 +658,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Syndicate 1600mm Steel Plates
   Syndicate 200mm Steel Plates:
     ArmorHPBonusAdd: 650
     Cpu: 14.0
@@ -609,6 +670,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Syndicate 200mm Steel Plates
   Syndicate 400mm Steel Plates:
     ArmorHPBonusAdd: 1300
     Cpu: 22.0
@@ -620,6 +682,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Syndicate 400mm Steel Plates
   Syndicate 800mm Steel Plates:
     ArmorHPBonusAdd: 2500
     Hp: 40
@@ -630,3 +693,4 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Syndicate 800mm Steel Plates

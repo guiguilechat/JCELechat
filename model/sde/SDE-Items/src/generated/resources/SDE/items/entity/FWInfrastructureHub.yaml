@@ -1,5 +1,9 @@
 items:
-  Amarr Infrastructure Hub: {}
-  Caldari Infrastructure Hub: {}
-  Gallente Infrastructure Hub: {}
-  Minmatar Infrastructure Hub: {}
+  Amarr Infrastructure Hub:
+    name: Amarr Infrastructure Hub
+  Caldari Infrastructure Hub:
+    name: Caldari Infrastructure Hub
+  Gallente Infrastructure Hub:
+    name: Gallente Infrastructure Hub
+  Minmatar Infrastructure Hub:
+    name: Minmatar Infrastructure Hub

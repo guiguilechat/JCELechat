@@ -1,31 +1,46 @@
 items:
   Structure Acceleration Coils:
     MoonMiningAmount: 1
+    name: Structure Acceleration Coils
   Structure Advertisement Nexus:
     MoonMiningAmount: 1
+    name: Structure Advertisement Nexus
   Structure Construction Parts:
     MoonMiningAmount: 100
+    name: Structure Construction Parts
   Structure Docking Bay:
     MoonMiningAmount: 100
+    name: Structure Docking Bay
   Structure Electromagnetic Sensor:
     MoonMiningAmount: 1
+    name: Structure Electromagnetic Sensor
   Structure Factory:
     MoonMiningAmount: 100
+    name: Structure Factory
   Structure Hangar Array:
     MoonMiningAmount: 100
+    name: Structure Hangar Array
   Structure Laboratory:
     MoonMiningAmount: 100
+    name: Structure Laboratory
   Structure Market Network:
     MoonMiningAmount: 100
+    name: Structure Market Network
   Structure Medical Center:
     MoonMiningAmount: 100
+    name: Structure Medical Center
   Structure Mission Network:
     MoonMiningAmount: 100
+    name: Structure Mission Network
   Structure Office Center:
     MoonMiningAmount: 100
+    name: Structure Office Center
   Structure Repair Facility:
     MoonMiningAmount: 100
+    name: Structure Repair Facility
   Structure Reprocessing Plant:
     MoonMiningAmount: 100
+    name: Structure Reprocessing Plant
   Structure Storage Bay:
     MoonMiningAmount: 100
+    name: Structure Storage Bay

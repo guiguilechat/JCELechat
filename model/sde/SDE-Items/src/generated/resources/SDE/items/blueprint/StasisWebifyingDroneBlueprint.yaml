@@ -1,7 +1,10 @@
 items:
   Berserker SW-900 Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Berserker SW-900 Blueprint
   Valkyrie SW-600 Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Valkyrie SW-600 Blueprint
   Warrior SW-300 Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Warrior SW-300 Blueprint

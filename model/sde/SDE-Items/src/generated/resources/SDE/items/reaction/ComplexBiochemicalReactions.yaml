@@ -1,17 +1,33 @@
 items:
-  Improved Blue Pill Booster Reaction: {}
-  Improved Crash Booster Reaction: {}
-  Improved Drop Booster Reaction: {}
-  Improved Exile Booster Reaction: {}
-  Improved Frentix Booster Reaction: {}
-  Improved Mindflood Booster Reaction: {}
-  Improved Sooth Sayer Booster Reaction: {}
-  Improved X-Instinct Booster Reaction: {}
-  Strong Blue Pill Booster Reaction: {}
-  Strong Crash Booster Reaction: {}
-  Strong Drop Booster Reaction: {}
-  Strong Exile Booster Reaction: {}
-  Strong Frentix Booster Reaction: {}
-  Strong Mindflood Booster Reaction: {}
-  Strong Sooth Sayer Booster Reaction: {}
-  Strong X-Instinct Booster Reaction: {}
+  Improved Blue Pill Booster Reaction:
+    name: Improved Blue Pill Booster Reaction
+  Improved Crash Booster Reaction:
+    name: Improved Crash Booster Reaction
+  Improved Drop Booster Reaction:
+    name: Improved Drop Booster Reaction
+  Improved Exile Booster Reaction:
+    name: Improved Exile Booster Reaction
+  Improved Frentix Booster Reaction:
+    name: Improved Frentix Booster Reaction
+  Improved Mindflood Booster Reaction:
+    name: Improved Mindflood Booster Reaction
+  Improved Sooth Sayer Booster Reaction:
+    name: Improved Sooth Sayer Booster Reaction
+  Improved X-Instinct Booster Reaction:
+    name: Improved X-Instinct Booster Reaction
+  Strong Blue Pill Booster Reaction:
+    name: Strong Blue Pill Booster Reaction
+  Strong Crash Booster Reaction:
+    name: Strong Crash Booster Reaction
+  Strong Drop Booster Reaction:
+    name: Strong Drop Booster Reaction
+  Strong Exile Booster Reaction:
+    name: Strong Exile Booster Reaction
+  Strong Frentix Booster Reaction:
+    name: Strong Frentix Booster Reaction
+  Strong Mindflood Booster Reaction:
+    name: Strong Mindflood Booster Reaction
+  Strong Sooth Sayer Booster Reaction:
+    name: Strong Sooth Sayer Booster Reaction
+  Strong X-Instinct Booster Reaction:
+    name: Strong X-Instinct Booster Reaction

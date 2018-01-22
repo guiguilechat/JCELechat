@@ -56,6 +56,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     Uniformity: 1.0
     UpgradeCapacity: 400
+    name: Large Laboratory
   Medium Laboratory:
     ArmorDamageLimit: 4000
     ArmorEmDamageResonance: 0.800000011920929
@@ -113,6 +114,7 @@ items:
     ThermalDamageResonance: 0.800000011920929
     Uniformity: 1.0
     UpgradeCapacity: 400
+    name: Medium Laboratory
   X-Large Laboratory:
     ArmorDamageLimit: 60000
     ArmorEmDamageResonance: 0.800000011920929
@@ -170,3 +172,4 @@ items:
     ThermalDamageResonance: 0.800000011920929
     Uniformity: 1.0
     UpgradeCapacity: 400
+    name: X-Large Laboratory

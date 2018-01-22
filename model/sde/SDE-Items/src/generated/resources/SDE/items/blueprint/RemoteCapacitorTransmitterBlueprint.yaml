@@ -2,49 +2,66 @@ items:
   '''Chivalry'' Large Remote Capacitor Transmitter Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Chivalry'' Large Remote Capacitor Transmitter Blueprint'
   '''Knight'' Medium Remote Capacitor Transmitter Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Knight'' Medium Remote Capacitor Transmitter Blueprint'
   '''Squire'' Small Remote Capacitor Transmitter Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Squire'' Small Remote Capacitor Transmitter Blueprint'
   CONCORD Capital Remote Capacitor Transmitter Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: CONCORD Capital Remote Capacitor Transmitter Blueprint
   Capital Inductive Compact Remote Capacitor Transmitter Blueprint:
     TechLevel: 1
+    name: Capital Inductive Compact Remote Capacitor Transmitter Blueprint
   Capital Radiative Scoped Remote Capacitor Transmitter Blueprint:
     TechLevel: 1
+    name: Capital Radiative Scoped Remote Capacitor Transmitter Blueprint
   Capital Remote Capacitor Transmitter I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: Capital Remote Capacitor Transmitter I Blueprint
   Capital Remote Capacitor Transmitter II Blueprint:
     IndustryBlueprintRank: 312.0
     TechLevel: 2
+    name: Capital Remote Capacitor Transmitter II Blueprint
   Imperial Navy Large Remote Capacitor Transmitter Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Imperial Navy Large Remote Capacitor Transmitter Blueprint
   Imperial Navy Medium Remote Capacitor Transmitter Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Imperial Navy Medium Remote Capacitor Transmitter Blueprint
   Imperial Navy Small Remote Capacitor Transmitter Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Small Remote Capacitor Transmitter Blueprint
   Large Remote Capacitor Transmitter I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Large Remote Capacitor Transmitter I Blueprint
   Large Remote Capacitor Transmitter II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Large Remote Capacitor Transmitter II Blueprint
   Medium Remote Capacitor Transmitter I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium Remote Capacitor Transmitter I Blueprint
   Medium Remote Capacitor Transmitter II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Medium Remote Capacitor Transmitter II Blueprint
   Small Remote Capacitor Transmitter I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Remote Capacitor Transmitter I Blueprint
   Small Remote Capacitor Transmitter II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Remote Capacitor Transmitter II Blueprint

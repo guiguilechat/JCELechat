@@ -2,240 +2,320 @@ items:
   OLD Legion Defensive - Adaptive Augmenter Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Defensive - Adaptive Augmenter Blueprint
   OLD Legion Defensive - Augmented Plating Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Defensive - Augmented Plating Blueprint
   OLD Legion Defensive - Nanobot Injector Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Defensive - Nanobot Injector Blueprint
   OLD Legion Defensive - Warfare Processor Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Defensive - Warfare Processor Blueprint
   OLD Legion Electronics - Dissolution Sequencer Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Electronics - Dissolution Sequencer Blueprint
   OLD Legion Electronics - Emergent Locus Analyzer Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Electronics - Emergent Locus Analyzer Blueprint
   OLD Legion Electronics - Energy Parasitic Complex Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Electronics - Energy Parasitic Complex Blueprint
   OLD Legion Electronics - Tactical Targeting Network Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Electronics - Tactical Targeting Network Blueprint
   OLD Legion Engineering - Augmented Capacitor Reservoir Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Engineering - Augmented Capacitor Reservoir Blueprint
   OLD Legion Engineering - Capacitor Regeneration Matrix Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Engineering - Capacitor Regeneration Matrix Blueprint
   OLD Legion Engineering - Power Core Multiplier Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Engineering - Power Core Multiplier Blueprint
   OLD Legion Engineering - Supplemental Coolant Injector Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Engineering - Supplemental Coolant Injector Blueprint
   OLD Legion Offensive - Assault Optimization Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Offensive - Assault Optimization Blueprint
   OLD Legion Offensive - Covert Reconfiguration Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Offensive - Covert Reconfiguration Blueprint
   OLD Legion Offensive - Drone Synthesis Projector Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Offensive - Drone Synthesis Projector Blueprint
   OLD Legion Offensive - Liquid Crystal Magnifiers Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Offensive - Liquid Crystal Magnifiers Blueprint
   OLD Legion Propulsion - Chassis Optimization Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Propulsion - Chassis Optimization Blueprint
   OLD Legion Propulsion - Fuel Catalyst Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Propulsion - Fuel Catalyst Blueprint
   OLD Legion Propulsion - Interdiction Nullifier Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Propulsion - Interdiction Nullifier Blueprint
   OLD Legion Propulsion - Wake Limiter Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Legion Propulsion - Wake Limiter Blueprint
   OLD Loki Defensive - Adaptive Augmenter Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Defensive - Adaptive Augmenter Blueprint
   OLD Loki Defensive - Adaptive Shielding Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Defensive - Adaptive Shielding Blueprint
   OLD Loki Defensive - Amplification Node Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Defensive - Amplification Node Blueprint
   OLD Loki Defensive - Warfare Processor Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Defensive - Warfare Processor Blueprint
   OLD Loki Electronics - Dissolution Sequencer Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Electronics - Dissolution Sequencer Blueprint
   OLD Loki Electronics - Emergent Locus Analyzer Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Electronics - Emergent Locus Analyzer Blueprint
   OLD Loki Electronics - Immobility Drivers Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Electronics - Immobility Drivers Blueprint
   OLD Loki Electronics - Tactical Targeting Network Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Electronics - Tactical Targeting Network Blueprint
   OLD Loki Engineering - Augmented Capacitor Reservoir Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Engineering - Augmented Capacitor Reservoir Blueprint
   OLD Loki Engineering - Capacitor Regeneration Matrix Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Engineering - Capacitor Regeneration Matrix Blueprint
   OLD Loki Engineering - Power Core Multiplier Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Engineering - Power Core Multiplier Blueprint
   OLD Loki Engineering - Supplemental Coolant Injector Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Engineering - Supplemental Coolant Injector Blueprint
   OLD Loki Offensive - Covert Reconfiguration Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Offensive - Covert Reconfiguration Blueprint
   OLD Loki Offensive - Hardpoint Efficiency Configuration Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Offensive - Hardpoint Efficiency Configuration Blueprint
   OLD Loki Offensive - Projectile Scoping Array Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Offensive - Projectile Scoping Array Blueprint
   OLD Loki Offensive - Turret Concurrence Registry Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Offensive - Turret Concurrence Registry Blueprint
   OLD Loki Propulsion - Chassis Optimization Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Propulsion - Chassis Optimization Blueprint
   OLD Loki Propulsion - Fuel Catalyst Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Propulsion - Fuel Catalyst Blueprint
   OLD Loki Propulsion - Intercalated Nanofibers Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Propulsion - Intercalated Nanofibers Blueprint
   OLD Loki Propulsion - Interdiction Nullifier Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Loki Propulsion - Interdiction Nullifier Blueprint
   OLD Proteus Defensive - Adaptive Augmenter Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Defensive - Adaptive Augmenter Blueprint
   OLD Proteus Defensive - Augmented Plating Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Defensive - Augmented Plating Blueprint
   OLD Proteus Defensive - Nanobot Injector Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Defensive - Nanobot Injector Blueprint
   OLD Proteus Defensive - Warfare Processor Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Defensive - Warfare Processor Blueprint
   OLD Proteus Electronics - CPU Efficiency Gate Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Electronics - CPU Efficiency Gate Blueprint
   OLD Proteus Electronics - Dissolution Sequencer Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Electronics - Dissolution Sequencer Blueprint
   OLD Proteus Electronics - Emergent Locus Analyzer Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Electronics - Emergent Locus Analyzer Blueprint
   OLD Proteus Electronics - Friction Extension Processor Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Electronics - Friction Extension Processor Blueprint
   OLD Proteus Engineering - Augmented Capacitor Reservoir Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Engineering - Augmented Capacitor Reservoir Blueprint
   OLD Proteus Engineering - Capacitor Regeneration Matrix Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Engineering - Capacitor Regeneration Matrix Blueprint
   OLD Proteus Engineering - Power Core Multiplier Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Engineering - Power Core Multiplier Blueprint
   OLD Proteus Engineering - Supplemental Coolant Injector Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Engineering - Supplemental Coolant Injector Blueprint
   OLD Proteus Offensive - Covert Reconfiguration Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Offensive - Covert Reconfiguration Blueprint
   OLD Proteus Offensive - Dissonic Encoding Platform Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Offensive - Dissonic Encoding Platform Blueprint
   OLD Proteus Offensive - Drone Synthesis Projector Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Offensive - Drone Synthesis Projector Blueprint
   OLD Proteus Offensive - Hybrid Propulsion Armature Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Offensive - Hybrid Propulsion Armature Blueprint
   OLD Proteus Propulsion - Gravitational Capacitor Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Propulsion - Gravitational Capacitor Blueprint
   OLD Proteus Propulsion - Interdiction Nullifier Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Propulsion - Interdiction Nullifier Blueprint
   OLD Proteus Propulsion - Localized Injectors Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Propulsion - Localized Injectors Blueprint
   OLD Proteus Propulsion - Wake Limiter Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Proteus Propulsion - Wake Limiter Blueprint
   OLD Tengu Defensive - Adaptive Shielding Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Defensive - Adaptive Shielding Blueprint
   OLD Tengu Defensive - Amplification Node Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Defensive - Amplification Node Blueprint
   OLD Tengu Defensive - Supplemental Screening Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Defensive - Supplemental Screening Blueprint
   OLD Tengu Defensive - Warfare Processor Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Defensive - Warfare Processor Blueprint
   OLD Tengu Electronics - CPU Efficiency Gate Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Electronics - CPU Efficiency Gate Blueprint
   OLD Tengu Electronics - Dissolution Sequencer Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Electronics - Dissolution Sequencer Blueprint
   OLD Tengu Electronics - Emergent Locus Analyzer Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Electronics - Emergent Locus Analyzer Blueprint
   OLD Tengu Electronics - Obfuscation Manifold Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Electronics - Obfuscation Manifold Blueprint
   OLD Tengu Engineering - Augmented Capacitor Reservoir Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Engineering - Augmented Capacitor Reservoir Blueprint
   OLD Tengu Engineering - Capacitor Regeneration Matrix Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Engineering - Capacitor Regeneration Matrix Blueprint
   OLD Tengu Engineering - Power Core Multiplier Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Engineering - Power Core Multiplier Blueprint
   OLD Tengu Engineering - Supplemental Coolant Injector Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Engineering - Supplemental Coolant Injector Blueprint
   OLD Tengu Offensive - Accelerated Ejection Bay Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Offensive - Accelerated Ejection Bay Blueprint
   OLD Tengu Offensive - Covert Reconfiguration Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Offensive - Covert Reconfiguration Blueprint
   OLD Tengu Offensive - Magnetic Infusion Basin Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Offensive - Magnetic Infusion Basin Blueprint
   OLD Tengu Offensive - Rifling Launcher Pattern Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Offensive - Rifling Launcher Pattern Blueprint
   OLD Tengu Propulsion - Fuel Catalyst Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Propulsion - Fuel Catalyst Blueprint
   OLD Tengu Propulsion - Gravitational Capacitor Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Propulsion - Gravitational Capacitor Blueprint
   OLD Tengu Propulsion - Intercalated Nanofibers Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Propulsion - Intercalated Nanofibers Blueprint
   OLD Tengu Propulsion - Interdiction Nullifier Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 3
+    name: OLD Tengu Propulsion - Interdiction Nullifier Blueprint

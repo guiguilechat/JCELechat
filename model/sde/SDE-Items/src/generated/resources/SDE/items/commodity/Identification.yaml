@@ -1,19 +1,37 @@
 items:
-  Angel Drug Addict Tag: {}
-  Bandit Spur: {}
-  Black Box: {}
-  Blood Raider Commander's Medalion: {}
-  Desperado Spur: {}
-  Drifter Spur: {}
-  Garp Soolim's ID Tag: {}
-  Gunslinger Spur: {}
-  Hacker ID Slice: {}
-  Marauder Spur: {}
-  Mikado ID Slice: {}
-  Minmatar Republic Narcotic Officer's Tag: {}
-  Ninja ID Slice: {}
-  Outlaw Spur: {}
-  Punk ID Slice: {}
-  Red Hammer's Personal Effects: {}
-  Sniper ID Slice: {}
-  Spy ID Slice: {}
+  Angel Drug Addict Tag:
+    name: Angel Drug Addict Tag
+  Bandit Spur:
+    name: Bandit Spur
+  Black Box:
+    name: Black Box
+  Blood Raider Commander's Medalion:
+    name: Blood Raider Commander's Medalion
+  Desperado Spur:
+    name: Desperado Spur
+  Drifter Spur:
+    name: Drifter Spur
+  Garp Soolim's ID Tag:
+    name: Garp Soolim's ID Tag
+  Gunslinger Spur:
+    name: Gunslinger Spur
+  Hacker ID Slice:
+    name: Hacker ID Slice
+  Marauder Spur:
+    name: Marauder Spur
+  Mikado ID Slice:
+    name: Mikado ID Slice
+  Minmatar Republic Narcotic Officer's Tag:
+    name: Minmatar Republic Narcotic Officer's Tag
+  Ninja ID Slice:
+    name: Ninja ID Slice
+  Outlaw Spur:
+    name: Outlaw Spur
+  Punk ID Slice:
+    name: Punk ID Slice
+  Red Hammer's Personal Effects:
+    name: Red Hammer's Personal Effects
+  Sniper ID Slice:
+    name: Sniper ID Slice
+  Spy ID Slice:
+    name: Spy ID Slice

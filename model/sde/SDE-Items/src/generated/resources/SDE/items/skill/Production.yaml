@@ -8,6 +8,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    name: Advanced Industrial Ship Construction
   Advanced Industry:
     AdvancedIndustrySkillIndustryJobTimeBonus: -3
     PrimaryAttribute: 166
@@ -15,6 +16,7 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
+    name: Advanced Industry
   Advanced Large Ship Construction:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -22,6 +24,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
+    name: Advanced Large Ship Construction
   Advanced Mass Production:
     CanNotBeTrainedOnTrial: 1
     ManufacturingSlotBonus: 1
@@ -30,6 +33,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 165
     SkillTimeConstant: 8.0
+    name: Advanced Mass Production
   Advanced Medium Ship Construction:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -39,6 +43,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Advanced Medium Ship Construction
   Advanced Small Ship Construction:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -48,6 +53,7 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    name: Advanced Small Ship Construction
   Amarr Tech:
     AmarrTechMutator: -5
     PrimaryAttribute: 166
@@ -55,6 +61,7 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    name: Amarr Tech
   Caldari Tech:
     CaldariTechMutator: -5
     PrimaryAttribute: 166
@@ -62,6 +69,7 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    name: Caldari Tech
   Capital Ship Construction:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -73,12 +81,14 @@ items:
     RequiredSkill3Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 14.0
+    name: Capital Ship Construction
   Drug Manufacturing:
     CanNotBeTrainedOnTrial: 1
     DurationSkillBonus: 1
     PrimaryAttribute: 166
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    name: Drug Manufacturing
   Gallente Tech:
     GallenteTechMutator: -5
     PrimaryAttribute: 166
@@ -86,11 +96,13 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    name: Gallente Tech
   Industry:
     ManufacturingTimeBonus: -4
     PrimaryAttribute: 166
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
+    name: Industry
   Mass Production:
     ManufacturingSlotBonus: 1
     PrimaryAttribute: 166
@@ -98,18 +110,21 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    name: Mass Production
   Minmatar Tech:
     PrimaryAttribute: 166
     RequiredSkill1: 3380
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    name: Minmatar Tech
   Mobile Factory Operation:
     PrimaryAttribute: 166
     RequiredSkill1: 3380
     RequiredSkill1Level: 5
     SecondaryAttribute: 165
     SkillTimeConstant: 5.0
+    name: Mobile Factory Operation
   Outpost Construction:
     PrimaryAttribute: 165
     RequiredSkill1: 3392
@@ -120,9 +135,11 @@ items:
     RequiredSkill3Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 16.0
+    name: Outpost Construction
   Supply Chain Management:
     PrimaryAttribute: 166
     RequiredSkill1: 3387
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
+    name: Supply Chain Management

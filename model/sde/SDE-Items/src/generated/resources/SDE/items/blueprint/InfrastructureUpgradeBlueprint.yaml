@@ -1,59 +1,88 @@
 items:
   Advanced Logistics Network Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Advanced Logistics Network Blueprint
   Cynosural Navigation Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Cynosural Navigation Blueprint
   Cynosural Suppression Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Cynosural Suppression Blueprint
   Entrapment Array 1 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Entrapment Array 1 Blueprint
   Entrapment Array 2 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Entrapment Array 2 Blueprint
   Entrapment Array 3 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Entrapment Array 3 Blueprint
   Entrapment Array 4 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Entrapment Array 4 Blueprint
   Entrapment Array 5 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Entrapment Array 5 Blueprint
   Ore Prospecting Array 1 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Ore Prospecting Array 1 Blueprint
   Ore Prospecting Array 2 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Ore Prospecting Array 2 Blueprint
   Ore Prospecting Array 3 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Ore Prospecting Array 3 Blueprint
   Ore Prospecting Array 4 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Ore Prospecting Array 4 Blueprint
   Ore Prospecting Array 5 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Ore Prospecting Array 5 Blueprint
   Pirate Detection Array 1 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Pirate Detection Array 1 Blueprint
   Pirate Detection Array 2 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Pirate Detection Array 2 Blueprint
   Pirate Detection Array 3 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Pirate Detection Array 3 Blueprint
   Pirate Detection Array 4 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Pirate Detection Array 4 Blueprint
   Pirate Detection Array 5 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Pirate Detection Array 5 Blueprint
   Quantum Flux Generator 1 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Quantum Flux Generator 1 Blueprint
   Quantum Flux Generator 2 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Quantum Flux Generator 2 Blueprint
   Quantum Flux Generator 3 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Quantum Flux Generator 3 Blueprint
   Quantum Flux Generator 4 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Quantum Flux Generator 4 Blueprint
   Quantum Flux Generator 5 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Quantum Flux Generator 5 Blueprint
   Supercapital Construction Facilities Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Supercapital Construction Facilities Blueprint
   Survey Networks 1 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Survey Networks 1 Blueprint
   Survey Networks 2 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Survey Networks 2 Blueprint
   Survey Networks 3 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Survey Networks 3 Blueprint
   Survey Networks 4 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Survey Networks 4 Blueprint
   Survey Networks 5 Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Survey Networks 5 Blueprint

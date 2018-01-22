@@ -1,7 +1,13 @@
 items:
-  Shadow Serpentis Artillery: {}
-  Shadow Serpentis Cannoneer: {}
-  Shadow Serpentis Infantry: {}
-  Shadow Serpentis Sentinel: {}
-  Shadow Serpentis Soldier: {}
-  Shadow Serpentis Trooper: {}
+  Shadow Serpentis Artillery:
+    name: Shadow Serpentis Artillery
+  Shadow Serpentis Cannoneer:
+    name: Shadow Serpentis Cannoneer
+  Shadow Serpentis Infantry:
+    name: Shadow Serpentis Infantry
+  Shadow Serpentis Sentinel:
+    name: Shadow Serpentis Sentinel
+  Shadow Serpentis Soldier:
+    name: Shadow Serpentis Soldier
+  Shadow Serpentis Trooper:
+    name: Shadow Serpentis Trooper

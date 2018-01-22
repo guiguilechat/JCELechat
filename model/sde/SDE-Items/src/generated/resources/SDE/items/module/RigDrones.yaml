@@ -6,6 +6,7 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
+    name: Capital Drone Control Range Augmentor I
   Capital Drone Control Range Augmentor II:
     Drawback: -10
     DroneRangeBonus: 20000
@@ -14,6 +15,7 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 150
+    name: Capital Drone Control Range Augmentor II
   Capital Drone Durability Enhancer I:
     Drawback: -10
     Hp: 40
@@ -21,6 +23,7 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
+    name: Capital Drone Durability Enhancer I
   Capital Drone Durability Enhancer II:
     Drawback: -10
     Hp: 40
@@ -29,6 +32,7 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 150
+    name: Capital Drone Durability Enhancer II
   Capital Drone Mining Augmentor I:
     Drawback: -10
     Hp: 40
@@ -37,6 +41,7 @@ items:
     RofBonus: -10
     TechLevel: 1
     UpgradeCost: 100
+    name: Capital Drone Mining Augmentor I
   Capital Drone Mining Augmentor II:
     Drawback: -10
     Hp: 40
@@ -46,6 +51,7 @@ items:
     RofBonus: -15
     TechLevel: 2
     UpgradeCost: 150
+    name: Capital Drone Mining Augmentor II
   Capital Drone Repair Augmentor I:
     DamageHP: 10
     Drawback: -10
@@ -53,6 +59,7 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    name: Capital Drone Repair Augmentor I
   Capital Drone Repair Augmentor II:
     DamageHP: 15
     Drawback: -10
@@ -61,6 +68,7 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    name: Capital Drone Repair Augmentor II
   Capital Drone Scope Chip I:
     Drawback: -10
     Hp: 40
@@ -68,6 +76,7 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    name: Capital Drone Scope Chip I
   Capital Drone Scope Chip II:
     Drawback: -10
     Hp: 40
@@ -76,6 +85,7 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    name: Capital Drone Scope Chip II
   Capital Drone Speed Augmentor I:
     Drawback: -10
     DroneMaxVelocityBonus: 10
@@ -83,6 +93,7 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    name: Capital Drone Speed Augmentor I
   Capital Drone Speed Augmentor II:
     Drawback: -10
     DroneMaxVelocityBonus: 15
@@ -91,6 +102,7 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    name: Capital Drone Speed Augmentor II
   Capital Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10
     Drawback: -10
@@ -98,6 +110,7 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 200
+    name: Capital Sentry Damage Augmentor I
   Capital Sentry Damage Augmentor II:
     DamageMultiplierBonus: 15
     Drawback: -10
@@ -106,6 +119,7 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 300
+    name: Capital Sentry Damage Augmentor II
   Capital Stasis Drone Augmentor I:
     Drawback: -10
     Hp: 40
@@ -113,6 +127,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     WebSpeedFactorBonus: 15
+    name: Capital Stasis Drone Augmentor I
   Capital Stasis Drone Augmentor II:
     Drawback: -10
     Hp: 40
@@ -121,6 +136,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     WebSpeedFactorBonus: 20
+    name: Capital Stasis Drone Augmentor II
   Drone Damage Rig I:
     DamageMultiplierBonus: 10
     Drawback: -10
@@ -128,6 +144,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 200
+    name: Drone Damage Rig I
   Drone Damage Rig II:
     DamageMultiplierBonus: 15
     Drawback: -10
@@ -135,6 +152,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 300
+    name: Drone Damage Rig II
   Large Drone Control Range Augmentor I:
     Drawback: -10
     DroneRangeBonus: 15000
@@ -142,6 +160,7 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
+    name: Large Drone Control Range Augmentor I
   Large Drone Control Range Augmentor II:
     Drawback: -10
     DroneRangeBonus: 20000
@@ -150,12 +169,14 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 150
+    name: Large Drone Control Range Augmentor II
   Large Drone Durability Enhancer I:
     Drawback: -10
     Hp: 40
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
+    name: Large Drone Durability Enhancer I
   Large Drone Durability Enhancer II:
     Drawback: -10
     Hp: 40
@@ -163,6 +184,7 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 150
+    name: Large Drone Durability Enhancer II
   Large Drone Mining Augmentor I:
     Drawback: -10
     Hp: 40
@@ -171,6 +193,7 @@ items:
     RofBonus: -10
     TechLevel: 1
     UpgradeCost: 100
+    name: Large Drone Mining Augmentor I
   Large Drone Mining Augmentor II:
     Drawback: -10
     Hp: 40
@@ -180,6 +203,7 @@ items:
     RofBonus: -15
     TechLevel: 2
     UpgradeCost: 150
+    name: Large Drone Mining Augmentor II
   Large Drone Repair Augmentor I:
     DamageHP: 10
     Drawback: -10
@@ -187,6 +211,7 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    name: Large Drone Repair Augmentor I
   Large Drone Repair Augmentor II:
     DamageHP: 15
     Drawback: -10
@@ -195,6 +220,7 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    name: Large Drone Repair Augmentor II
   Large Drone Scope Chip I:
     Drawback: -10
     Hp: 40
@@ -202,6 +228,7 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    name: Large Drone Scope Chip I
   Large Drone Scope Chip II:
     Drawback: -10
     Hp: 40
@@ -210,6 +237,7 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    name: Large Drone Scope Chip II
   Large Drone Speed Augmentor I:
     Drawback: -10
     DroneMaxVelocityBonus: 10
@@ -217,6 +245,7 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    name: Large Drone Speed Augmentor I
   Large Drone Speed Augmentor II:
     Drawback: -10
     DroneMaxVelocityBonus: 15
@@ -226,6 +255,7 @@ items:
     SpeedFactorBonus: 20
     TechLevel: 2
     UpgradeCost: 75
+    name: Large Drone Speed Augmentor II
   Large EW Drone Range Augmentor I:
     Drawback: -10
     DroneRangeBonus: 10000
@@ -233,6 +263,7 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    name: Large EW Drone Range Augmentor I
   Large EW Drone Range Augmentor II:
     Drawback: -10
     DroneRangeBonus: 12000
@@ -241,6 +272,7 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 100
+    name: Large EW Drone Range Augmentor II
   Large Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10
     Drawback: -10
@@ -248,6 +280,7 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 200
+    name: Large Sentry Damage Augmentor I
   Large Sentry Damage Augmentor II:
     DamageMultiplierBonus: 15
     Drawback: -10
@@ -256,6 +289,7 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 300
+    name: Large Sentry Damage Augmentor II
   Large Stasis Drone Augmentor I:
     Drawback: -10
     Hp: 40
@@ -263,6 +297,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     WebSpeedFactorBonus: 15
+    name: Large Stasis Drone Augmentor I
   Large Stasis Drone Augmentor II:
     Drawback: -10
     Hp: 40
@@ -271,6 +306,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     WebSpeedFactorBonus: 20
+    name: Large Stasis Drone Augmentor II
   Medium Drone Control Range Augmentor I:
     Drawback: -10
     DroneRangeBonus: 15000
@@ -278,6 +314,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
+    name: Medium Drone Control Range Augmentor I
   Medium Drone Control Range Augmentor II:
     Drawback: -10
     DroneRangeBonus: 20000
@@ -286,6 +323,7 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 150
+    name: Medium Drone Control Range Augmentor II
   Medium Drone Durability Enhancer I:
     Drawback: -10
     Hp: 40
@@ -293,6 +331,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
+    name: Medium Drone Durability Enhancer I
   Medium Drone Durability Enhancer II:
     Drawback: -10
     Hp: 40
@@ -301,6 +340,7 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 150
+    name: Medium Drone Durability Enhancer II
   Medium Drone Mining Augmentor I:
     Drawback: -10
     Hp: 40
@@ -309,6 +349,7 @@ items:
     RofBonus: -10
     TechLevel: 1
     UpgradeCost: 100
+    name: Medium Drone Mining Augmentor I
   Medium Drone Mining Augmentor II:
     Drawback: -10
     Hp: 40
@@ -318,6 +359,7 @@ items:
     RofBonus: -15
     TechLevel: 2
     UpgradeCost: 150
+    name: Medium Drone Mining Augmentor II
   Medium Drone Repair Augmentor I:
     DamageHP: 10
     Drawback: -10
@@ -325,6 +367,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    name: Medium Drone Repair Augmentor I
   Medium Drone Repair Augmentor II:
     DamageHP: 15
     Drawback: -10
@@ -333,6 +376,7 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    name: Medium Drone Repair Augmentor II
   Medium Drone Scope Chip I:
     Drawback: -10
     Hp: 40
@@ -340,6 +384,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    name: Medium Drone Scope Chip I
   Medium Drone Scope Chip II:
     Drawback: -10
     Hp: 40
@@ -348,6 +393,7 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    name: Medium Drone Scope Chip II
   Medium Drone Speed Augmentor I:
     Drawback: -10
     DroneMaxVelocityBonus: 10
@@ -355,6 +401,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    name: Medium Drone Speed Augmentor I
   Medium Drone Speed Augmentor II:
     Drawback: -10
     DroneMaxVelocityBonus: 15
@@ -364,6 +411,7 @@ items:
     SpeedFactorBonus: 20
     TechLevel: 2
     UpgradeCost: 75
+    name: Medium Drone Speed Augmentor II
   Medium EW Drone Range Augmentor I:
     Drawback: -10
     DroneRangeBonus: 10000
@@ -371,6 +419,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    name: Medium EW Drone Range Augmentor I
   Medium EW Drone Range Augmentor II:
     Drawback: -10
     DroneRangeBonus: 12000
@@ -379,6 +428,7 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 100
+    name: Medium EW Drone Range Augmentor II
   Medium Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10
     Drawback: -10
@@ -386,6 +436,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 200
+    name: Medium Sentry Damage Augmentor I
   Medium Sentry Damage Augmentor II:
     DamageMultiplierBonus: 15
     Drawback: -10
@@ -394,6 +445,7 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 300
+    name: Medium Sentry Damage Augmentor II
   Medium Stasis Drone Augmentor I:
     Drawback: -10
     Hp: 40
@@ -401,6 +453,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     WebSpeedFactorBonus: 15
+    name: Medium Stasis Drone Augmentor I
   Medium Stasis Drone Augmentor II:
     Drawback: -10
     Hp: 40
@@ -409,6 +462,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     WebSpeedFactorBonus: 20
+    name: Medium Stasis Drone Augmentor II
   Small Drone Control Range Augmentor I:
     Drawback: -10
     DroneRangeBonus: 15000
@@ -416,6 +470,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
+    name: Small Drone Control Range Augmentor I
   Small Drone Control Range Augmentor II:
     Drawback: -10
     DroneRangeBonus: 20000
@@ -424,6 +479,7 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 150
+    name: Small Drone Control Range Augmentor II
   Small Drone Durability Enhancer I:
     Drawback: -10
     Hp: 40
@@ -431,6 +487,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
+    name: Small Drone Durability Enhancer I
   Small Drone Durability Enhancer II:
     Drawback: -10
     Hp: 40
@@ -439,6 +496,7 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 150
+    name: Small Drone Durability Enhancer II
   Small Drone Mining Augmentor I:
     Drawback: -10
     Hp: 40
@@ -447,6 +505,7 @@ items:
     RofBonus: -10
     TechLevel: 1
     UpgradeCost: 100
+    name: Small Drone Mining Augmentor I
   Small Drone Mining Augmentor II:
     Drawback: -10
     Hp: 40
@@ -456,6 +515,7 @@ items:
     RofBonus: -15
     TechLevel: 2
     UpgradeCost: 150
+    name: Small Drone Mining Augmentor II
   Small Drone Repair Augmentor I:
     DamageHP: 10
     Drawback: -10
@@ -463,6 +523,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    name: Small Drone Repair Augmentor I
   Small Drone Repair Augmentor II:
     DamageHP: 15
     Drawback: -10
@@ -471,6 +532,7 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    name: Small Drone Repair Augmentor II
   Small Drone Scope Chip I:
     Drawback: -10
     Hp: 40
@@ -478,6 +540,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    name: Small Drone Scope Chip I
   Small Drone Scope Chip II:
     Drawback: -10
     Hp: 40
@@ -486,6 +549,7 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    name: Small Drone Scope Chip II
   Small Drone Speed Augmentor I:
     Drawback: -10
     DroneMaxVelocityBonus: 10
@@ -493,6 +557,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    name: Small Drone Speed Augmentor I
   Small Drone Speed Augmentor II:
     Drawback: -10
     DroneMaxVelocityBonus: 15
@@ -502,6 +567,7 @@ items:
     SpeedFactorBonus: 20
     TechLevel: 2
     UpgradeCost: 75
+    name: Small Drone Speed Augmentor II
   Small EW Drone Range Augmentor I:
     Drawback: -10
     DroneRangeBonus: 10000
@@ -509,6 +575,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    name: Small EW Drone Range Augmentor I
   Small EW Drone Range Augmentor II:
     Drawback: -10
     DroneRangeBonus: 12000
@@ -517,6 +584,7 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 100
+    name: Small EW Drone Range Augmentor II
   Small Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10
     Drawback: -10
@@ -524,6 +592,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 200
+    name: Small Sentry Damage Augmentor I
   Small Sentry Damage Augmentor II:
     DamageMultiplierBonus: 15
     Drawback: -10
@@ -532,6 +601,7 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 300
+    name: Small Sentry Damage Augmentor II
   Small Stasis Drone Augmentor I:
     Drawback: -10
     Hp: 40
@@ -539,6 +609,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     WebSpeedFactorBonus: 15
+    name: Small Stasis Drone Augmentor I
   Small Stasis Drone Augmentor II:
     Drawback: -10
     Hp: 40
@@ -547,3 +618,4 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     WebSpeedFactorBonus: 20
+    name: Small Stasis Drone Augmentor II

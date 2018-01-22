@@ -1,7 +1,13 @@
 items:
-  Dark Blood Bishop: {}
-  Dark Blood Exorcist: {}
-  Dark Blood Fanatic: {}
-  Dark Blood Phantom: {}
-  Dark Blood Seer: {}
-  Dark Blood Shade: {}
+  Dark Blood Bishop:
+    name: Dark Blood Bishop
+  Dark Blood Exorcist:
+    name: Dark Blood Exorcist
+  Dark Blood Fanatic:
+    name: Dark Blood Fanatic
+  Dark Blood Phantom:
+    name: Dark Blood Phantom
+  Dark Blood Seer:
+    name: Dark Blood Seer
+  Dark Blood Shade:
+    name: Dark Blood Shade

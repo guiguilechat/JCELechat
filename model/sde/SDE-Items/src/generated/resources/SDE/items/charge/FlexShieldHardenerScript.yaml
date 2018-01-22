@@ -7,6 +7,7 @@ items:
     LauncherGroup: 1700
     TechLevel: 1
     ThermalDamageResistanceBonusBonus: -100
+    name: Shield EM Resistance Script
   Shield Explosive Resistance Script:
     ChargeSize: 1
     EmDamageResistanceBonusBonus: -100
@@ -15,6 +16,7 @@ items:
     LauncherGroup: 1700
     TechLevel: 1
     ThermalDamageResistanceBonusBonus: -100
+    name: Shield Explosive Resistance Script
   Shield Kinetic Resistance Script:
     ChargeSize: 1
     EmDamageResistanceBonusBonus: -100
@@ -23,6 +25,7 @@ items:
     LauncherGroup: 1700
     TechLevel: 1
     ThermalDamageResistanceBonusBonus: -100
+    name: Shield Kinetic Resistance Script
   Shield Thermal Resistance Script:
     ChargeSize: 1
     EmDamageResistanceBonusBonus: -100
@@ -31,3 +34,4 @@ items:
     LauncherGroup: 1700
     TechLevel: 1
     ThermalDamageResistanceBonusBonus: 200
+    name: Shield Thermal Resistance Script

@@ -21,6 +21,7 @@ items:
     ShieldKineticDamageResonance: 0.949999988079071
     ShieldThermalDamageResonance: 0.949999988079071
     TechLevel: 1
+    name: '''Basic'' Damage Control'
   '''Gonzo'' Damage Control I':
     ArmorEmDamageResonance: 0.8700000047683716
     ArmorExplosiveDamageResonance: 0.8700000047683716
@@ -42,6 +43,7 @@ items:
     ShieldKineticDamageResonance: 0.8949999809265137
     ShieldThermalDamageResonance: 0.8949999809265137
     TechLevel: 1
+    name: '''Gonzo'' Damage Control I'
   '''Radical'' Damage Control':
     ArmorEmDamageResonance: 0.8500000238418579
     ArmorExplosiveDamageResonance: 0.8500000238418579
@@ -64,6 +66,7 @@ items:
     ShieldKineticDamageResonance: 0.875
     ShieldThermalDamageResonance: 0.875
     TechLevel: 1
+    name: '''Radical'' Damage Control'
   Brynn's Modified Damage Control:
     ArmorEmDamageResonance: 0.8100000023841858
     ArmorExplosiveDamageResonance: 0.8100000023841858
@@ -86,6 +89,7 @@ items:
     ShieldKineticDamageResonance: 0.8199999928474426
     ShieldThermalDamageResonance: 0.8199999928474426
     TechLevel: 1
+    name: Brynn's Modified Damage Control
   Capital Emergency Hull Energizer I:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -116,6 +120,7 @@ items:
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
     TechLevel: 1
+    name: Capital Emergency Hull Energizer I
   Capital Emergency Hull Energizer II:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -147,6 +152,7 @@ items:
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
     TechLevel: 2
+    name: Capital Emergency Hull Energizer II
   Capital Implacable Compact Emergency Hull Energizer:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -178,6 +184,7 @@ items:
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
     TechLevel: 1
+    name: Capital Implacable Compact Emergency Hull Energizer
   Capital Indefatigable Enduring Emergency Hull Energizer:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -209,6 +216,7 @@ items:
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
     TechLevel: 1
+    name: Capital Indefatigable Enduring Emergency Hull Energizer
   Civilian Damage Control:
     ArmorEmDamageResonance: 0.949999988079071
     ArmorExplosiveDamageResonance: 0.949999988079071
@@ -229,6 +237,7 @@ items:
     ShieldKineticDamageResonance: 0.9800000190734863
     ShieldThermalDamageResonance: 0.9800000190734863
     TechLevel: 1
+    name: Civilian Damage Control
   Cormack's Modified Damage Control:
     ArmorEmDamageResonance: 0.7799999713897705
     ArmorExplosiveDamageResonance: 0.7799999713897705
@@ -251,6 +260,7 @@ items:
     ShieldKineticDamageResonance: 0.7900000214576721
     ShieldThermalDamageResonance: 0.7900000214576721
     TechLevel: 1
+    name: Cormack's Modified Damage Control
   Damage Control I:
     ArmorEmDamageResonance: 0.8999999761581421
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -270,6 +280,7 @@ items:
     ShieldKineticDamageResonance: 0.925000011920929
     ShieldThermalDamageResonance: 0.925000011920929
     TechLevel: 1
+    name: Damage Control I
   Damage Control II:
     ArmorEmDamageResonance: 0.8500000238418579
     ArmorExplosiveDamageResonance: 0.8500000238418579
@@ -290,6 +301,7 @@ items:
     ShieldKineticDamageResonance: 0.875
     ShieldThermalDamageResonance: 0.875
     TechLevel: 2
+    name: Damage Control II
   Emergency Damage Control I:
     ArmorEmDamageResonance: 0.8899999856948853
     ArmorExplosiveDamageResonance: 0.8899999856948853
@@ -310,6 +322,7 @@ items:
     ShieldKineticDamageResonance: 0.9150000214576721
     ShieldThermalDamageResonance: 0.9150000214576721
     TechLevel: 1
+    name: Emergency Damage Control I
   F84 Local Damage System:
     ArmorEmDamageResonance: 0.925000011920929
     ArmorExplosiveDamageResonance: 0.925000011920929
@@ -329,6 +342,7 @@ items:
     ShieldKineticDamageResonance: 0.949999988079071
     ShieldThermalDamageResonance: 0.949999988079071
     TechLevel: 1
+    name: F84 Local Damage System
   F85 Peripheral Damage System I:
     ArmorEmDamageResonance: 0.8799999952316284
     ArmorExplosiveDamageResonance: 0.8799999952316284
@@ -349,6 +363,7 @@ items:
     ShieldKineticDamageResonance: 0.9049999713897705
     ShieldThermalDamageResonance: 0.9049999713897705
     TechLevel: 1
+    name: F85 Peripheral Damage System I
   GLFF Containment Field:
     ArmorEmDamageResonance: 0.925000011920929
     ArmorExplosiveDamageResonance: 0.925000011920929
@@ -368,6 +383,7 @@ items:
     ShieldKineticDamageResonance: 0.949999988079071
     ShieldThermalDamageResonance: 0.949999988079071
     TechLevel: 1
+    name: GLFF Containment Field
   IFFA Compact Damage Control:
     ArmorEmDamageResonance: 0.875
     ArmorExplosiveDamageResonance: 0.875
@@ -389,6 +405,7 @@ items:
     ShieldKineticDamageResonance: 0.8999999761581421
     ShieldThermalDamageResonance: 0.8999999761581421
     TechLevel: 1
+    name: IFFA Compact Damage Control
   Interior Force Field Array:
     ArmorEmDamageResonance: 0.925000011920929
     ArmorExplosiveDamageResonance: 0.925000011920929
@@ -408,6 +425,7 @@ items:
     ShieldKineticDamageResonance: 0.949999988079071
     ShieldThermalDamageResonance: 0.949999988079071
     TechLevel: 1
+    name: Interior Force Field Array
   Pseudoelectron Containment Field I:
     ArmorEmDamageResonance: 0.8700000047683716
     ArmorExplosiveDamageResonance: 0.8700000047683716
@@ -428,6 +446,7 @@ items:
     ShieldKineticDamageResonance: 0.8949999809265137
     ShieldThermalDamageResonance: 0.8949999809265137
     TechLevel: 1
+    name: Pseudoelectron Containment Field I
   Sentient Damage Control:
     ArmorEmDamageResonance: 0.8349999785423279
     ArmorExplosiveDamageResonance: 0.8349999785423279
@@ -450,6 +469,7 @@ items:
     ShieldKineticDamageResonance: 0.8600000143051147
     ShieldThermalDamageResonance: 0.8600000143051147
     TechLevel: 1
+    name: Sentient Damage Control
   Setele's Modified Damage Control:
     ArmorEmDamageResonance: 0.7900000214576721
     ArmorExplosiveDamageResonance: 0.7900000214576721
@@ -472,6 +492,7 @@ items:
     ShieldKineticDamageResonance: 0.800000011920929
     ShieldThermalDamageResonance: 0.800000011920929
     TechLevel: 1
+    name: Setele's Modified Damage Control
   Shadow Serpentis Damage Control:
     ArmorEmDamageResonance: 0.8349999785423279
     ArmorExplosiveDamageResonance: 0.8349999785423279
@@ -494,6 +515,7 @@ items:
     ShieldKineticDamageResonance: 0.8600000143051147
     ShieldThermalDamageResonance: 0.8600000143051147
     TechLevel: 1
+    name: Shadow Serpentis Damage Control
   Sisters Capital Emergency Hull Energizer:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -526,6 +548,7 @@ items:
     ShieldKineticDamageResonance: 1.0
     ShieldThermalDamageResonance: 1.0
     TechLevel: 1
+    name: Sisters Capital Emergency Hull Energizer
   Syndicate Damage Control:
     ArmorEmDamageResonance: 0.8349999785423279
     ArmorExplosiveDamageResonance: 0.8349999785423279
@@ -548,6 +571,7 @@ items:
     ShieldKineticDamageResonance: 0.8600000143051147
     ShieldThermalDamageResonance: 0.8600000143051147
     TechLevel: 1
+    name: Syndicate Damage Control
   Systematic Damage Control:
     ArmorEmDamageResonance: 0.925000011920929
     ArmorExplosiveDamageResonance: 0.925000011920929
@@ -567,6 +591,7 @@ items:
     ShieldKineticDamageResonance: 0.949999988079071
     ShieldThermalDamageResonance: 0.949999988079071
     TechLevel: 1
+    name: Systematic Damage Control
   Tuvan's Modified Damage Control:
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
@@ -589,6 +614,7 @@ items:
     ShieldKineticDamageResonance: 0.8100000023841858
     ShieldThermalDamageResonance: 0.8100000023841858
     TechLevel: 1
+    name: Tuvan's Modified Damage Control
   Unit D-34343's Modified Damage Control:
     ArmorEmDamageResonance: 0.8100000023841858
     ArmorExplosiveDamageResonance: 0.8100000023841858
@@ -611,6 +637,7 @@ items:
     ShieldKineticDamageResonance: 0.8199999928474426
     ShieldThermalDamageResonance: 0.8199999928474426
     TechLevel: 1
+    name: Unit D-34343's Modified Damage Control
   Unit F-435454's Modified Damage Control:
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
@@ -633,6 +660,7 @@ items:
     ShieldKineticDamageResonance: 0.8100000023841858
     ShieldThermalDamageResonance: 0.8100000023841858
     TechLevel: 1
+    name: Unit F-435454's Modified Damage Control
   Unit P-343554's Modified Damage Control:
     ArmorEmDamageResonance: 0.7900000214576721
     ArmorExplosiveDamageResonance: 0.7900000214576721
@@ -655,6 +683,7 @@ items:
     ShieldKineticDamageResonance: 0.800000011920929
     ShieldThermalDamageResonance: 0.800000011920929
     TechLevel: 1
+    name: Unit P-343554's Modified Damage Control
   Unit W-634's Modified Damage Control:
     ArmorEmDamageResonance: 0.7799999713897705
     ArmorExplosiveDamageResonance: 0.7799999713897705
@@ -677,3 +706,4 @@ items:
     ShieldKineticDamageResonance: 0.7900000214576721
     ShieldThermalDamageResonance: 0.7900000214576721
     TechLevel: 1
+    name: Unit W-634's Modified Damage Control
