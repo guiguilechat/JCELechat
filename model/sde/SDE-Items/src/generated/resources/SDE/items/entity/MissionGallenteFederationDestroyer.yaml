@@ -1,8 +1,15 @@
 items:
-  Federation Arcus: {}
-  Federation Machaira: {}
-  Federation Matara: {}
-  Federation Pelekus: {}
-  Federation Praktor Machina: {}
-  Federation Praktor Phalarica: {}
-  Gallente CA Destroyer: {}
+  Federation Arcus:
+    name: Federation Arcus
+  Federation Machaira:
+    name: Federation Machaira
+  Federation Matara:
+    name: Federation Matara
+  Federation Pelekus:
+    name: Federation Pelekus
+  Federation Praktor Machina:
+    name: Federation Praktor Machina
+  Federation Praktor Phalarica:
+    name: Federation Praktor Phalarica
+  Gallente CA Destroyer:
+    name: Gallente CA Destroyer

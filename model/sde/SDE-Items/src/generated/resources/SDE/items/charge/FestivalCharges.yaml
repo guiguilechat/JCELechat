@@ -14,6 +14,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Angels Arisen Firework
   Barium Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -29,6 +30,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Barium Firework
   Barium Firework CXIV:
     Agility: 3000.0
     AimedLaunch: 1
@@ -44,6 +46,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Barium Firework CXIV
   Blood Dagger Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -59,6 +62,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Blood Dagger Firework
   Copper Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -74,6 +78,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Copper Firework
   Copper Firework CXIV:
     Agility: 3000.0
     AimedLaunch: 1
@@ -89,6 +94,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Copper Firework CXIV
   Crimson Scythes Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -104,6 +110,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Crimson Scythes Firework
   Crown Imperial Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -119,6 +126,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Crown Imperial Firework
   Fangs of the Serpent Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -134,6 +142,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Fangs of the Serpent Firework
   Flames of the Rebellion Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -149,6 +158,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Flames of the Rebellion Firework
   Four Freedoms Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -164,6 +174,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Four Freedoms Firework
   Nation Uplifts Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -179,6 +190,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Nation Uplifts Firework
   Naughty People Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -194,6 +206,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Naughty People Firework
   Pulsar Flare Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -209,6 +222,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Pulsar Flare Firework
   Snowball:
     Agility: 3000.0
     AimedLaunch: 1
@@ -225,6 +239,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: -10.0
+    name: Snowball
   Snowball CXIV:
     Agility: 3000.0
     AimedLaunch: 1
@@ -241,6 +256,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: -10.0
+    name: Snowball CXIV
   SnowballNewEffect:
     Agility: 3000.0
     AimedLaunch: 1
@@ -255,6 +271,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: SnowballNewEffect
   Sodium Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -270,6 +287,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Sodium Firework
   Sodium Firework CXIV:
     Agility: 3000.0
     AimedLaunch: 1
@@ -285,6 +303,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Sodium Firework CXIV
   Spacetime Singularity Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -300,6 +319,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Spacetime Singularity Firework
   Wheel of Prosperity Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -315,6 +335,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Wheel of Prosperity Firework
   Wings of Victory Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -330,6 +351,7 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Wings of Victory Firework
   Yoiul Festival Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -345,3 +367,4 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Yoiul Festival Firework

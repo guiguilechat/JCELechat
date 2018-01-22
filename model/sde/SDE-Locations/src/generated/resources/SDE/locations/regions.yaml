@@ -17,6 +17,7 @@ locations:
     - A-C00318
     id: 11000001
     isWormhole: true
+    name: A-R00001
   A-R00002:
     constellations:
     - A-C00014
@@ -35,6 +36,7 @@ locations:
     - A-C00009
     id: 11000002
     isWormhole: true
+    name: A-R00002
   A-R00003:
     constellations:
     - A-C00020
@@ -45,6 +47,7 @@ locations:
     - A-C00017
     id: 11000003
     isWormhole: true
+    name: A-R00003
   A821-A:
     constellations:
     - O-BSIB
@@ -56,6 +59,7 @@ locations:
     - 826-A5
     id: 10000019
     isWormhole: false
+    name: A821-A
   Aridia:
     adjacentConstellations:
     - Panoumid
@@ -92,6 +96,7 @@ locations:
     - Anama
     id: 10000054
     isWormhole: false
+    name: Aridia
   B-R00004:
     constellations:
     - B-C00030
@@ -107,6 +112,7 @@ locations:
     - B-C00024
     id: 11000004
     isWormhole: true
+    name: B-R00004
   B-R00005:
     constellations:
     - B-C00040
@@ -121,6 +127,7 @@ locations:
     - B-C00035
     id: 11000005
     isWormhole: true
+    name: B-R00005
   B-R00006:
     constellations:
     - B-C00052
@@ -139,6 +146,7 @@ locations:
     - B-C00046
     id: 11000006
     isWormhole: true
+    name: B-R00006
   B-R00007:
     constellations:
     - B-C00059
@@ -148,6 +156,7 @@ locations:
     - B-C00057
     id: 11000007
     isWormhole: true
+    name: B-R00007
   B-R00008:
     constellations:
     - B-C00063
@@ -168,6 +177,7 @@ locations:
     - B-C00068
     id: 11000008
     isWormhole: true
+    name: B-R00008
   BlackRise:
     adjacentConstellations:
     - Amevync
@@ -203,6 +213,7 @@ locations:
     - Kurala
     id: 10000069
     isWormhole: false
+    name: BlackRise
   Branch:
     adjacentConstellations:
     - 1D-65L
@@ -240,6 +251,7 @@ locations:
     - 8-IL7S
     id: 10000055
     isWormhole: false
+    name: Branch
   C-R00009:
     constellations:
     - C-C00076
@@ -254,6 +266,7 @@ locations:
     - C-C00079
     id: 11000009
     isWormhole: true
+    name: C-R00009
   C-R00010:
     constellations:
     - C-C00087
@@ -266,6 +279,7 @@ locations:
     - C-C00089
     id: 11000010
     isWormhole: true
+    name: C-R00010
   C-R00011:
     constellations:
     - C-C00098
@@ -283,6 +297,7 @@ locations:
     - C-C00101
     id: 11000011
     isWormhole: true
+    name: C-R00011
   C-R00012:
     constellations:
     - C-C00120
@@ -303,6 +318,7 @@ locations:
     - C-C00109
     id: 11000012
     isWormhole: true
+    name: C-R00012
   C-R00013:
     constellations:
     - C-C00128
@@ -314,6 +330,7 @@ locations:
     - C-C00123
     id: 11000013
     isWormhole: true
+    name: C-R00013
   C-R00014:
     constellations:
     - C-C00131
@@ -333,6 +350,7 @@ locations:
     - C-C00134
     id: 11000014
     isWormhole: true
+    name: C-R00014
   C-R00015:
     constellations:
     - C-C00151
@@ -346,6 +364,7 @@ locations:
     - C-C00145
     id: 11000015
     isWormhole: true
+    name: C-R00015
   Cache:
     adjacentConstellations:
     - 6GU-AT
@@ -381,6 +400,7 @@ locations:
     - 5HN-S5
     id: 10000007
     isWormhole: false
+    name: Cache
   Catch:
     adjacentConstellations:
     - AZBG-H
@@ -437,6 +457,7 @@ locations:
     - ZW-BY5
     id: 10000014
     isWormhole: false
+    name: Catch
   CloudRing:
     adjacentConstellations:
     - 7X-X1Y
@@ -471,6 +492,7 @@ locations:
     - Balenne
     id: 10000051
     isWormhole: false
+    name: CloudRing
   CobaltEdge:
     adjacentConstellations:
     - 2-ZRM0
@@ -502,6 +524,7 @@ locations:
     - HNZF-Z
     id: 10000053
     isWormhole: false
+    name: CobaltEdge
   Curse:
     adjacentConstellations:
     - 51ZT-6
@@ -533,6 +556,7 @@ locations:
     - Paradise
     id: 10000012
     isWormhole: false
+    name: Curse
   D-R00016:
     constellations:
     - D-C00155
@@ -547,6 +571,7 @@ locations:
     - D-C00156
     id: 11000016
     isWormhole: true
+    name: D-R00016
   D-R00017:
     constellations:
     - D-C00165
@@ -555,6 +580,7 @@ locations:
     - D-C00162
     id: 11000017
     isWormhole: true
+    name: D-R00017
   D-R00018:
     constellations:
     - D-C00166
@@ -566,6 +592,7 @@ locations:
     - D-C00167
     id: 11000018
     isWormhole: true
+    name: D-R00018
   D-R00019:
     constellations:
     - D-C00178
@@ -584,6 +611,7 @@ locations:
     - D-C00180
     id: 11000019
     isWormhole: true
+    name: D-R00019
   D-R00020:
     constellations:
     - D-C00189
@@ -596,6 +624,7 @@ locations:
     - D-C00188
     id: 11000020
     isWormhole: true
+    name: D-R00020
   D-R00021:
     constellations:
     - D-C00211
@@ -618,6 +647,7 @@ locations:
     - D-C00209
     id: 11000021
     isWormhole: true
+    name: D-R00021
   D-R00022:
     constellations:
     - D-C00222
@@ -636,6 +666,7 @@ locations:
     - D-C00219
     id: 11000022
     isWormhole: true
+    name: D-R00022
   D-R00023:
     constellations:
     - D-C00227
@@ -645,6 +676,7 @@ locations:
     - D-C00231
     id: 11000023
     isWormhole: true
+    name: D-R00023
   Deklein:
     adjacentConstellations:
     - LIB-F9
@@ -674,6 +706,7 @@ locations:
     - UTQ-BO
     id: 10000035
     isWormhole: false
+    name: Deklein
   Delve:
     adjacentConstellations:
     - MPJW-6
@@ -717,6 +750,7 @@ locations:
     - YX-LYK
     id: 10000060
     isWormhole: false
+    name: Delve
   Derelik:
     adjacentConstellations:
     - Heaven
@@ -761,6 +795,7 @@ locations:
     - Hevaka
     id: 10000001
     isWormhole: false
+    name: Derelik
   Detorid:
     adjacentConstellations:
     - 4-QV2L
@@ -804,6 +839,7 @@ locations:
     - T875-C
     id: 10000005
     isWormhole: false
+    name: Detorid
   Devoid:
     adjacentConstellations:
     - Sasen
@@ -842,6 +878,7 @@ locations:
     - Enka
     id: 10000036
     isWormhole: false
+    name: Devoid
   Domain:
     adjacentConstellations:
     - Somi
@@ -925,6 +962,7 @@ locations:
     - Nashar
     id: 10000043
     isWormhole: false
+    name: Domain
   E-R00024:
     constellations:
     - E-C00235
@@ -941,6 +979,7 @@ locations:
     - E-C00232
     id: 11000024
     isWormhole: true
+    name: E-R00024
   E-R00025:
     constellations:
     - E-C00246
@@ -958,6 +997,7 @@ locations:
     - E-C00243
     id: 11000025
     isWormhole: true
+    name: E-R00025
   E-R00026:
     constellations:
     - E-C00257
@@ -971,6 +1011,7 @@ locations:
     - E-C00263
     id: 11000026
     isWormhole: true
+    name: E-R00026
   E-R00027:
     constellations:
     - E-C00268
@@ -984,6 +1025,7 @@ locations:
     - E-C00265
     id: 11000027
     isWormhole: true
+    name: E-R00027
   E-R00028:
     constellations:
     - E-C00279
@@ -1000,6 +1042,7 @@ locations:
     - E-C00276
     id: 11000028
     isWormhole: true
+    name: E-R00028
   E-R00029:
     constellations:
     - E-C00289
@@ -1015,6 +1058,7 @@ locations:
     - E-C00287
     id: 11000029
     isWormhole: true
+    name: E-R00029
   Esoteria:
     adjacentConstellations:
     - U7L-MQ
@@ -1048,6 +1092,7 @@ locations:
     - 8T-OLH
     id: 10000039
     isWormhole: false
+    name: Esoteria
   Essence:
     adjacentConstellations:
     - Jonenor
@@ -1105,6 +1150,7 @@ locations:
     - Arand
     id: 10000064
     isWormhole: false
+    name: Essence
   EtheriumReach:
     adjacentConstellations:
     - 2O-VY7
@@ -1161,6 +1207,7 @@ locations:
     - PG-RWX
     id: 10000027
     isWormhole: false
+    name: EtheriumReach
   Everyshore:
     adjacentConstellations:
     - Spaen
@@ -1205,6 +1252,7 @@ locations:
     - Giatole
     id: 10000037
     isWormhole: false
+    name: Everyshore
   F-R00030:
     constellations:
     - F-C00303
@@ -1224,6 +1272,7 @@ locations:
     - F-C00309
     id: 11000030
     isWormhole: true
+    name: F-R00030
   Fade:
     adjacentConstellations:
     - 38G6-L
@@ -1250,6 +1299,7 @@ locations:
     - 7X-X1Y
     id: 10000046
     isWormhole: false
+    name: Fade
   Feythabolis:
     adjacentConstellations:
     - O5QG-M
@@ -1285,6 +1335,7 @@ locations:
     - JQA8-6
     id: 10000056
     isWormhole: false
+    name: Feythabolis
   Fountain:
     adjacentConstellations:
     - Sword
@@ -1321,11 +1372,13 @@ locations:
     - Chimera
     id: 10000058
     isWormhole: false
+    name: Fountain
   G-R00031:
     constellations:
     - G-C00311
     id: 11000031
     isWormhole: true
+    name: G-R00031
   Geminate:
     adjacentConstellations:
     - OSJ7-I
@@ -1365,6 +1418,7 @@ locations:
     - UBPU-9
     id: 10000029
     isWormhole: false
+    name: Geminate
   Genesis:
     adjacentConstellations:
     - Peccanouette
@@ -1434,6 +1488,7 @@ locations:
     - Reya
     id: 10000067
     isWormhole: false
+    name: Genesis
   GreatWildlands:
     adjacentConstellations:
     - KR-XF4
@@ -1482,6 +1537,7 @@ locations:
     - V-4QJC
     id: 10000011
     isWormhole: false
+    name: GreatWildlands
   H-R00032:
     constellations:
     - H-C00332
@@ -1489,6 +1545,7 @@ locations:
     - H-C00331
     id: 11000032
     isWormhole: true
+    name: H-R00032
   Heimatar:
     adjacentConstellations:
     - Meinigefur
@@ -1547,6 +1604,7 @@ locations:
     - Wiedadur
     id: 10000030
     isWormhole: false
+    name: Heimatar
   Immensea:
     adjacentConstellations:
     - CL-QB2
@@ -1581,6 +1639,7 @@ locations:
     - YENX-U
     id: 10000025
     isWormhole: false
+    name: Immensea
   Impass:
     adjacentConstellations:
     - T-1WDH
@@ -1604,6 +1663,7 @@ locations:
     - QZJ-FL
     id: 10000031
     isWormhole: false
+    name: Impass
   Insmother:
     adjacentConstellations:
     - E-UBWI
@@ -1664,6 +1724,7 @@ locations:
     - U-EUG7
     id: 10000009
     isWormhole: false
+    name: Insmother
   J7HZ-F:
     constellations:
     - 2RX9-6
@@ -1680,11 +1741,13 @@ locations:
     - 1-Z95W
     id: 10000017
     isWormhole: false
+    name: J7HZ-F
   K-R00033:
     constellations:
     - K-C00334
     id: 11000033
     isWormhole: true
+    name: K-R00033
   Kador:
     adjacentConstellations:
     - Mih
@@ -1741,6 +1804,7 @@ locations:
     - Qermi
     id: 10000052
     isWormhole: false
+    name: Kador
   Khanid:
     adjacentConstellations:
     - Fabai
@@ -1782,6 +1846,7 @@ locations:
     - Sib
     id: 10000049
     isWormhole: false
+    name: Khanid
   Kor-Azor:
     adjacentConstellations:
     - Meli
@@ -1825,6 +1890,7 @@ locations:
     - Ravin
     id: 10000065
     isWormhole: false
+    name: Kor-Azor
   Lonetrek:
     adjacentConstellations:
     - Kimotoro
@@ -1883,6 +1949,7 @@ locations:
     - Makiriemi
     id: 10000016
     isWormhole: false
+    name: Lonetrek
   Malpais:
     adjacentConstellations:
     - S4S-SD
@@ -1932,6 +1999,7 @@ locations:
     - PFL-QY
     id: 10000013
     isWormhole: false
+    name: Malpais
   Metropolis:
     adjacentConstellations:
     - I3-2J0
@@ -2003,6 +2071,7 @@ locations:
     - Angils
     id: 10000042
     isWormhole: false
+    name: Metropolis
   MoldenHeath:
     adjacentConstellations:
     - Joas
@@ -2033,6 +2102,7 @@ locations:
     - Elfrard
     id: 10000028
     isWormhole: false
+    name: MoldenHeath
   Oasa:
     adjacentConstellations:
     - 3D-ROC
@@ -2081,6 +2151,7 @@ locations:
     - DOCS-O
     id: 10000040
     isWormhole: false
+    name: Oasa
   Omist:
     adjacentConstellations:
     - I-3ODK
@@ -2102,6 +2173,7 @@ locations:
     - RL36-K
     id: 10000062
     isWormhole: false
+    name: Omist
   OuterPassage:
     adjacentConstellations:
     - QJ2-0M
@@ -2141,6 +2213,7 @@ locations:
     - C9XB-L
     id: 10000021
     isWormhole: false
+    name: OuterPassage
   OuterRing:
     adjacentConstellations:
     - SKX-PL
@@ -2172,6 +2245,7 @@ locations:
     - Scepter
     id: 10000057
     isWormhole: false
+    name: OuterRing
   ParagonSoul:
     adjacentConstellations:
     - N-39FI
@@ -2194,6 +2268,7 @@ locations:
     - D9DM-O
     id: 10000059
     isWormhole: false
+    name: ParagonSoul
   PeriodBasis:
     adjacentConstellations:
     - GEP-XF
@@ -2217,6 +2292,7 @@ locations:
     - XOV7-5
     id: 10000063
     isWormhole: false
+    name: PeriodBasis
   PerrigenFalls:
     adjacentConstellations:
     - 3RU-10
@@ -2273,6 +2349,7 @@ locations:
     - WXB-RY
     id: 10000066
     isWormhole: false
+    name: PerrigenFalls
   Placid:
     adjacentConstellations:
     - S4GH-I
@@ -2316,6 +2393,7 @@ locations:
     - Ganoure
     id: 10000048
     isWormhole: false
+    name: Placid
   Providence:
     adjacentConstellations:
     - NNLX-K
@@ -2357,6 +2435,7 @@ locations:
     - P6N8-J
     id: 10000047
     isWormhole: false
+    name: Providence
   PureBlind:
     adjacentConstellations:
     - Umamon
@@ -2397,6 +2476,7 @@ locations:
     - LY-FY6
     id: 10000023
     isWormhole: false
+    name: PureBlind
   Querious:
     adjacentConstellations:
     - Youledian
@@ -2436,6 +2516,7 @@ locations:
     - MPJW-6
     id: 10000050
     isWormhole: false
+    name: Querious
   ScaldingPass:
     adjacentConstellations:
     - Elysium
@@ -2490,6 +2571,7 @@ locations:
     - 4YFT-F
     id: 10000008
     isWormhole: false
+    name: ScaldingPass
   SinqLaison:
     adjacentConstellations:
     - Ysiette
@@ -2563,6 +2645,7 @@ locations:
     - Coriault
     id: 10000032
     isWormhole: false
+    name: SinqLaison
   Solitude:
     adjacentConstellations:
     - TA-A7V
@@ -2584,6 +2667,7 @@ locations:
     - Goins
     id: 10000044
     isWormhole: false
+    name: Solitude
   Stain:
     adjacentConstellations:
     - 9HXQ-G
@@ -2618,6 +2702,7 @@ locations:
     - H26A-B
     id: 10000022
     isWormhole: false
+    name: Stain
   Syndicate:
     adjacentConstellations:
     - Braille
@@ -2665,6 +2750,7 @@ locations:
     - MK7-AO
     id: 10000041
     isWormhole: false
+    name: Syndicate
   Tash-Murkon:
     adjacentConstellations:
     - Kashag
@@ -2716,6 +2802,7 @@ locations:
     - Somi
     id: 10000020
     isWormhole: false
+    name: Tash-Murkon
   Tenal:
     adjacentConstellations:
     - N4TD-6
@@ -2749,6 +2836,7 @@ locations:
     - 09-4XW
     id: 10000045
     isWormhole: false
+    name: Tenal
   Tenerifis:
     adjacentConstellations:
     - IJE6-J
@@ -2790,6 +2878,7 @@ locations:
     - W-3E44
     id: 10000061
     isWormhole: false
+    name: Tenerifis
   TheBleakLands:
     adjacentConstellations:
     - Hed
@@ -2828,6 +2917,7 @@ locations:
     - Ohvarainen
     id: 10000038
     isWormhole: false
+    name: TheBleakLands
   TheCitadel:
     adjacentConstellations:
     - Makiriemi
@@ -2894,6 +2984,7 @@ locations:
     - Arekin
     id: 10000033
     isWormhole: false
+    name: TheCitadel
   TheForge:
     adjacentConstellations:
     - 8AO-5V
@@ -2952,6 +3043,7 @@ locations:
     - Anttanen
     id: 10000002
     isWormhole: false
+    name: TheForge
   TheKalevalaExpanse:
     adjacentConstellations:
     - V1G-63
@@ -2991,6 +3083,7 @@ locations:
     - 3NA-Z1
     id: 10000034
     isWormhole: false
+    name: TheKalevalaExpanse
   TheSpire:
     adjacentConstellations:
     - G-HISF
@@ -3041,6 +3134,7 @@ locations:
     - OWT3-6
     id: 10000018
     isWormhole: false
+    name: TheSpire
   Tribute:
     adjacentConstellations:
     - N32Z-Z
@@ -3078,6 +3172,7 @@ locations:
     - LLAP-1
     id: 10000010
     isWormhole: false
+    name: Tribute
   UUA-F4:
     constellations:
     - T7B-VB
@@ -3098,6 +3193,7 @@ locations:
     - B-HLOG
     id: 10000004
     isWormhole: false
+    name: UUA-F4
   ValeoftheSilent:
     adjacentConstellations:
     - W-XBGF
@@ -3143,6 +3239,7 @@ locations:
     - DILJ-7
     id: 10000003
     isWormhole: false
+    name: ValeoftheSilent
   Venal:
     adjacentConstellations:
     - Q5KW-Z
@@ -3189,6 +3286,7 @@ locations:
     - 0KTC-R
     id: 10000015
     isWormhole: false
+    name: Venal
   VergeVendor:
     adjacentConstellations:
     - Peccanouette
@@ -3233,6 +3331,7 @@ locations:
     - Ancbeu
     id: 10000068
     isWormhole: false
+    name: VergeVendor
   WickedCreek:
     adjacentConstellations:
     - DITJ-X
@@ -3277,3 +3376,4 @@ locations:
     - J-9M7D
     id: 10000006
     isWormhole: false
+    name: WickedCreek

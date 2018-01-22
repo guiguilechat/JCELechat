@@ -1,35 +1,69 @@
 items:
-  Centii Butcher: {}
-  Centii Enslaver: {}
-  Centii Fugitive: {}
-  Centii Loyal Butcher: {}
-  Centii Loyal Enslaver: {}
-  Centii Loyal Manslayer: {}
-  Centii Loyal Minion: {}
-  Centii Loyal Plague: {}
-  Centii Loyal Ravener: {}
-  Centii Loyal Savage: {}
-  Centii Loyal Scavenger: {}
-  Centii Loyal Servant: {}
-  Centii Loyal Slavehunter: {}
-  Centii Manslayer: {}
-  Centii Minion: {}
-  Centii Plague: {}
-  Centii Ravener: {}
-  Centii Savage: {}
-  Centii Scavenger: {}
-  Centii Servant: {}
-  Centii Slavehunter: {}
-  Sansha's Berserker: {}
-  Sansha's Demon: {}
-  TestScanRadar: {}
-  True Centii Butcher: {}
-  True Centii Enslaver: {}
-  True Centii Manslayer: {}
-  True Centii Minion: {}
-  True Centii Plague: {}
-  True Centii Ravener: {}
-  True Centii Savage: {}
-  True Centii Scavenger: {}
-  True Centii Servant: {}
-  True Centii Slavehunter: {}
+  Centii Butcher:
+    name: Centii Butcher
+  Centii Enslaver:
+    name: Centii Enslaver
+  Centii Fugitive:
+    name: Centii Fugitive
+  Centii Loyal Butcher:
+    name: Centii Loyal Butcher
+  Centii Loyal Enslaver:
+    name: Centii Loyal Enslaver
+  Centii Loyal Manslayer:
+    name: Centii Loyal Manslayer
+  Centii Loyal Minion:
+    name: Centii Loyal Minion
+  Centii Loyal Plague:
+    name: Centii Loyal Plague
+  Centii Loyal Ravener:
+    name: Centii Loyal Ravener
+  Centii Loyal Savage:
+    name: Centii Loyal Savage
+  Centii Loyal Scavenger:
+    name: Centii Loyal Scavenger
+  Centii Loyal Servant:
+    name: Centii Loyal Servant
+  Centii Loyal Slavehunter:
+    name: Centii Loyal Slavehunter
+  Centii Manslayer:
+    name: Centii Manslayer
+  Centii Minion:
+    name: Centii Minion
+  Centii Plague:
+    name: Centii Plague
+  Centii Ravener:
+    name: Centii Ravener
+  Centii Savage:
+    name: Centii Savage
+  Centii Scavenger:
+    name: Centii Scavenger
+  Centii Servant:
+    name: Centii Servant
+  Centii Slavehunter:
+    name: Centii Slavehunter
+  Sansha's Berserker:
+    name: Sansha's Berserker
+  Sansha's Demon:
+    name: Sansha's Demon
+  TestScanRadar:
+    name: TestScanRadar
+  True Centii Butcher:
+    name: True Centii Butcher
+  True Centii Enslaver:
+    name: True Centii Enslaver
+  True Centii Manslayer:
+    name: True Centii Manslayer
+  True Centii Minion:
+    name: True Centii Minion
+  True Centii Plague:
+    name: True Centii Plague
+  True Centii Ravener:
+    name: True Centii Ravener
+  True Centii Savage:
+    name: True Centii Savage
+  True Centii Scavenger:
+    name: True Centii Scavenger
+  True Centii Servant:
+    name: True Centii Servant
+  True Centii Slavehunter:
+    name: True Centii Slavehunter

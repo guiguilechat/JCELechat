@@ -3,6 +3,7 @@ items:
     PrimaryAttribute: 166
     SecondaryAttribute: 164
     SkillTimeConstant: 3.0
+    name: Anchoring
   Starbase Defense Management:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
@@ -10,6 +11,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 164
     SkillTimeConstant: 7.0
+    name: Starbase Defense Management
   Structure Doomsday Operation:
     DurationBonus: -2
     PrimaryAttribute: 166
@@ -19,6 +21,7 @@ items:
     RequiredSkill2Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    name: Structure Doomsday Operation
   Structure Electronic Systems:
     CapNeedBonus: -3
     PrimaryAttribute: 166
@@ -28,6 +31,7 @@ items:
     RequiredSkill2Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    name: Structure Electronic Systems
   Structure Engineering Systems:
     CapNeedBonus: -2
     PrimaryAttribute: 166
@@ -37,6 +41,7 @@ items:
     RequiredSkill2Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    name: Structure Engineering Systems
   Structure Missile Systems:
     DamageMultiplierBonus: 2
     PrimaryAttribute: 166
@@ -46,3 +51,4 @@ items:
     RequiredSkill2Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    name: Structure Missile Systems

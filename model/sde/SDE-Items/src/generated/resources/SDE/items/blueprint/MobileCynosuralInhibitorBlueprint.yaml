@@ -1,4 +1,6 @@
 items:
-  Mobile Competitive Vault Blueprint: {}
+  Mobile Competitive Vault Blueprint:
+    name: Mobile Competitive Vault Blueprint
   Mobile Cynosural Inhibitor Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Mobile Cynosural Inhibitor Blueprint

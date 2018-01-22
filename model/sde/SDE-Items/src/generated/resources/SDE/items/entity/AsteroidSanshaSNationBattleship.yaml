@@ -1,11 +1,21 @@
 items:
-  Sansha's Beast Lord: {}
-  Sansha's Dark Lord: {}
-  Sansha's Dread Lord: {}
-  Sansha's Lord: {}
-  Sansha's Mutant Lord: {}
-  Sansha's Overlord: {}
-  Sansha's Plague Lord: {}
-  Sansha's Savage Lord: {}
-  Sansha's Slave Lord: {}
-  Sansha's Tyrant: {}
+  Sansha's Beast Lord:
+    name: Sansha's Beast Lord
+  Sansha's Dark Lord:
+    name: Sansha's Dark Lord
+  Sansha's Dread Lord:
+    name: Sansha's Dread Lord
+  Sansha's Lord:
+    name: Sansha's Lord
+  Sansha's Mutant Lord:
+    name: Sansha's Mutant Lord
+  Sansha's Overlord:
+    name: Sansha's Overlord
+  Sansha's Plague Lord:
+    name: Sansha's Plague Lord
+  Sansha's Savage Lord:
+    name: Sansha's Savage Lord
+  Sansha's Slave Lord:
+    name: Sansha's Slave Lord
+  Sansha's Tyrant:
+    name: Sansha's Tyrant

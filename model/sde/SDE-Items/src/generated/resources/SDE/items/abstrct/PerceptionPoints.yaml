@@ -1,2 +1,3 @@
 items:
-  Ship Perception Point: {}
+  Ship Perception Point:
+    name: Ship Perception Point

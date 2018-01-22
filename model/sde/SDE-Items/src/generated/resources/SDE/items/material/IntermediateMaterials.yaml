@@ -1,79 +1,118 @@
 items:
   Black Morphite:
     MoonMiningAmount: 100
+    name: Black Morphite
   Caesarium Cadmide:
     MoonMiningAmount: 100
+    name: Caesarium Cadmide
   Carbon Polymers:
     MoonMiningAmount: 100
+    name: Carbon Polymers
   Ceramic Powder:
     MoonMiningAmount: 100
+    name: Ceramic Powder
   Crystallite Alloy:
     MoonMiningAmount: 100
+    name: Crystallite Alloy
   Dysporite:
     MoonMiningAmount: 100
+    name: Dysporite
   Fernite Alloy:
     MoonMiningAmount: 100
+    name: Fernite Alloy
   Ferrofluid:
     MoonMiningAmount: 100
+    name: Ferrofluid
   Fluxed Condensates:
     MoonMiningAmount: 100
+    name: Fluxed Condensates
   Hexite:
     MoonMiningAmount: 100
+    name: Hexite
   Hyperflurite:
     MoonMiningAmount: 100
+    name: Hyperflurite
   Neo Mercurite:
     MoonMiningAmount: 100
+    name: Neo Mercurite
   Platinum Technite:
     MoonMiningAmount: 100
+    name: Platinum Technite
   Promethium Mercurite:
     MoonMiningAmount: 100
+    name: Promethium Mercurite
   Prometium:
     MoonMiningAmount: 100
+    name: Prometium
   Rolled Tungsten Alloy:
     MoonMiningAmount: 100
+    name: Rolled Tungsten Alloy
   Silicon Diborite:
     MoonMiningAmount: 100
+    name: Silicon Diborite
   Solerium:
     MoonMiningAmount: 100
+    name: Solerium
   Sulfuric Acid:
     MoonMiningAmount: 100
+    name: Sulfuric Acid
   Thulium Hafnite:
     MoonMiningAmount: 100
+    name: Thulium Hafnite
   Titanium Chromide:
     MoonMiningAmount: 100
+    name: Titanium Chromide
   Unrefined Caesarium Cadmide:
     MoonMiningAmount: 1
+    name: Unrefined Caesarium Cadmide
   Unrefined Crystallite Alloy:
     MoonMiningAmount: 1
+    name: Unrefined Crystallite Alloy
   Unrefined Dysporite:
     MoonMiningAmount: 1
+    name: Unrefined Dysporite
   Unrefined Fernite Alloy:
     MoonMiningAmount: 1
+    name: Unrefined Fernite Alloy
   Unrefined Ferrofluid:
     MoonMiningAmount: 1
+    name: Unrefined Ferrofluid
   Unrefined Fluxed Condensates:
     MoonMiningAmount: 1
+    name: Unrefined Fluxed Condensates
   Unrefined Hexite:
     MoonMiningAmount: 1
+    name: Unrefined Hexite
   Unrefined Hyperflurite:
     MoonMiningAmount: 1
+    name: Unrefined Hyperflurite
   Unrefined Neo Mercurite:
     MoonMiningAmount: 1
+    name: Unrefined Neo Mercurite
   Unrefined Platinum Technite:
     MoonMiningAmount: 1
+    name: Unrefined Platinum Technite
   Unrefined Promethium Mercurite:
     MoonMiningAmount: 1
+    name: Unrefined Promethium Mercurite
   Unrefined Prometium:
     MoonMiningAmount: 1
+    name: Unrefined Prometium
   Unrefined Rolled Tungsten Alloy:
     MoonMiningAmount: 1
+    name: Unrefined Rolled Tungsten Alloy
   Unrefined Solerium:
     MoonMiningAmount: 1
+    name: Unrefined Solerium
   Unrefined Thulium Hafnite:
     MoonMiningAmount: 1
+    name: Unrefined Thulium Hafnite
   Unrefined Titanium Chromide:
     MoonMiningAmount: 1
+    name: Unrefined Titanium Chromide
   Unrefined Vanadium Hafnite:
     MoonMiningAmount: 1
+    name: Unrefined Vanadium Hafnite
   Vanadium Hafnite:
     MoonMiningAmount: 100
+    name: Vanadium Hafnite

@@ -1,7 +1,13 @@
 items:
-  CONCORD Police Captain: {}
-  CONCORD Police Commander: {}
-  CONCORD Police Officer: {}
-  DED Special Operation Captain: {}
-  DED Special Operation Commander: {}
-  DED Special Operation Officer: {}
+  CONCORD Police Captain:
+    name: CONCORD Police Captain
+  CONCORD Police Commander:
+    name: CONCORD Police Commander
+  CONCORD Police Officer:
+    name: CONCORD Police Officer
+  DED Special Operation Captain:
+    name: DED Special Operation Captain
+  DED Special Operation Commander:
+    name: DED Special Operation Commander
+  DED Special Operation Officer:
+    name: DED Special Operation Officer

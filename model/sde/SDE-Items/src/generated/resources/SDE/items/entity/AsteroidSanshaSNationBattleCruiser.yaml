@@ -1,7 +1,13 @@
 items:
-  Sansha's Behemoth: {}
-  Sansha's Daemon: {}
-  Sansha's Devil: {}
-  Sansha's Phantasm: {}
-  Sansha's Specter: {}
-  Sansha's Wraith: {}
+  Sansha's Behemoth:
+    name: Sansha's Behemoth
+  Sansha's Daemon:
+    name: Sansha's Daemon
+  Sansha's Devil:
+    name: Sansha's Devil
+  Sansha's Phantasm:
+    name: Sansha's Phantasm
+  Sansha's Specter:
+    name: Sansha's Specter
+  Sansha's Wraith:
+    name: Sansha's Wraith

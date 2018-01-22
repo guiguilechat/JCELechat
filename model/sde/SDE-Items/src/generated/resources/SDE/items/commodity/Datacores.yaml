@@ -2,93 +2,127 @@ items:
   'Datacore - Advanced Starship Engineering ':
     RequiredSkill1: 3397
     RequiredSkill1Level: 1
+    name: 'Datacore - Advanced Starship Engineering '
   Datacore - Amarrian Starship Engineering:
     RequiredSkill1: 11444
     RequiredSkill1Level: 1
+    name: Datacore - Amarrian Starship Engineering
   Datacore - Basic Civilian Tech:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
+    name: Datacore - Basic Civilian Tech
   Datacore - Caldari Starship Engineering:
     RequiredSkill1: 11454
     RequiredSkill1Level: 1
+    name: Datacore - Caldari Starship Engineering
   Datacore - Core Subsystems Engineering:
     RequiredSkill1: 30325
     RequiredSkill1Level: 1
+    name: Datacore - Core Subsystems Engineering
   Datacore - Defensive Subsystems Engineering:
     RequiredSkill1: 30324
     RequiredSkill1Level: 1
+    name: Datacore - Defensive Subsystems Engineering
   Datacore - Electromagnetic Physics:
     RequiredSkill1: 11448
     RequiredSkill1Level: 1
+    name: Datacore - Electromagnetic Physics
   Datacore - Electronic Engineering:
     RequiredSkill1: 11453
     RequiredSkill1Level: 1
+    name: Datacore - Electronic Engineering
   Datacore - Electronic Subsystems Engineering:
     RequiredSkill1: 30326
     RequiredSkill1Level: 1
+    name: Datacore - Electronic Subsystems Engineering
   Datacore - Elementary Civilian Tech:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
+    name: Datacore - Elementary Civilian Tech
   Datacore - Gallentean Starship Engineering:
     RequiredSkill1: 11450
     RequiredSkill1Level: 1
+    name: Datacore - Gallentean Starship Engineering
   Datacore - Graviton Physics:
     RequiredSkill1: 11446
     RequiredSkill1Level: 1
+    name: Datacore - Graviton Physics
   Datacore - High Energy Physics:
     RequiredSkill1: 11433
     RequiredSkill1Level: 1
+    name: Datacore - High Energy Physics
   Datacore - Hydromagnetic Physics:
     RequiredSkill1: 11443
     RequiredSkill1Level: 1
+    name: Datacore - Hydromagnetic Physics
   Datacore - Jove Tech 1:
     RequiredSkill1Level: 1
+    name: Datacore - Jove Tech 1
   Datacore - Laser Physics:
     RequiredSkill1: 11447
     RequiredSkill1Level: 1
+    name: Datacore - Laser Physics
   Datacore - Mechanical Engineering:
     RequiredSkill1: 11452
     RequiredSkill1Level: 1
+    name: Datacore - Mechanical Engineering
   Datacore - Minmatar Starship Engineering:
     RequiredSkill1: 11445
     RequiredSkill1Level: 1
+    name: Datacore - Minmatar Starship Engineering
   Datacore - Molecular Engineering:
     RequiredSkill1: 11529
     RequiredSkill1Level: 1
+    name: Datacore - Molecular Engineering
   Datacore - Nanite Engineering:
     RequiredSkill1: 11442
     RequiredSkill1Level: 1
+    name: Datacore - Nanite Engineering
   Datacore - Nuclear Physics:
     RequiredSkill1: 11451
     RequiredSkill1Level: 1
+    name: Datacore - Nuclear Physics
   Datacore - Offensive Subsystems Engineering:
     RequiredSkill1: 30327
     RequiredSkill1Level: 1
+    name: Datacore - Offensive Subsystems Engineering
   Datacore - Plasma Physics:
     RequiredSkill1: 11441
     RequiredSkill1Level: 1
+    name: Datacore - Plasma Physics
   Datacore - Propulsion Subsystems Engineering:
     RequiredSkill1: 30788
     RequiredSkill1Level: 1
+    name: Datacore - Propulsion Subsystems Engineering
   Datacore - Quantum Physics:
     RequiredSkill1: 11455
     RequiredSkill1Level: 1
+    name: Datacore - Quantum Physics
   Datacore - Rocket Science:
     RequiredSkill1: 11449
     RequiredSkill1Level: 1
+    name: Datacore - Rocket Science
   Datacore - Sleeper Tech 3:
     RequiredSkill1Level: 1
+    name: Datacore - Sleeper Tech 3
   Datacore - Sleeper Tech 4:
     RequiredSkill1Level: 1
+    name: Datacore - Sleeper Tech 4
   Datacore - Takmahl Tech 1:
     RequiredSkill1Level: 1
+    name: Datacore - Takmahl Tech 1
   Datacore - Takmahl Tech 2:
     RequiredSkill1Level: 1
+    name: Datacore - Takmahl Tech 2
   Datacore - Takmahl Tech 3:
     RequiredSkill1Level: 1
+    name: Datacore - Takmahl Tech 3
   Datacore - Talocan Tech 1:
     RequiredSkill1Level: 1
+    name: Datacore - Talocan Tech 1
   Datacore - Yan Jung Tech 3:
     RequiredSkill1Level: 1
+    name: Datacore - Yan Jung Tech 3
   Datacore - Yan Jung Tech 5:
     RequiredSkill1Level: 1
+    name: Datacore - Yan Jung Tech 5

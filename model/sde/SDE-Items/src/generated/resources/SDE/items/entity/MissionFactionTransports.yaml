@@ -1,13 +1,25 @@
 items:
-  Civilian Orca: {}
-  Federation Freighter: {}
-  Federation Freighter Vessel: {}
-  Hostile Orca: {}
-  Imperial Freighter: {}
-  Imperial Freighter Vessel: {}
-  Orca Civilian: {}
-  Republic Freighter: {}
-  Republic Freighter Vessels: {}
-  State Freighter: {}
-  State Freighter Vessel: {}
-  State Transport Freighter: {}
+  Civilian Orca:
+    name: Civilian Orca
+  Federation Freighter:
+    name: Federation Freighter
+  Federation Freighter Vessel:
+    name: Federation Freighter Vessel
+  Hostile Orca:
+    name: Hostile Orca
+  Imperial Freighter:
+    name: Imperial Freighter
+  Imperial Freighter Vessel:
+    name: Imperial Freighter Vessel
+  Orca Civilian:
+    name: Orca Civilian
+  Republic Freighter:
+    name: Republic Freighter
+  Republic Freighter Vessels:
+    name: Republic Freighter Vessels
+  State Freighter:
+    name: State Freighter
+  State Freighter Vessel:
+    name: State Freighter Vessel
+  State Transport Freighter:
+    name: State Transport Freighter

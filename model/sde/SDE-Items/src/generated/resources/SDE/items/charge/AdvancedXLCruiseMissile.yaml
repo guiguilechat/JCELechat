@@ -21,6 +21,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamage: 5700.0
+    name: Inferno Fury XL Cruise Missile
   Inferno Precision XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -43,6 +44,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamage: 4750.0
+    name: Inferno Precision XL Cruise Missile
   Mjolnir Fury XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -65,6 +67,7 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    name: Mjolnir Fury XL Cruise Missile
   Mjolnir Precision XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -87,6 +90,7 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    name: Mjolnir Precision XL Cruise Missile
   Nova Fury XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -109,6 +113,7 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    name: Nova Fury XL Cruise Missile
   Nova Precision XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -131,6 +136,7 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    name: Nova Precision XL Cruise Missile
   Scourge Fury XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -153,6 +159,7 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    name: Scourge Fury XL Cruise Missile
   Scourge Precision XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -175,3 +182,4 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    name: Scourge Precision XL Cruise Missile

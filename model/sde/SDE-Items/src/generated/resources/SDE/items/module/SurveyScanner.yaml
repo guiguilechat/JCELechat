@@ -11,6 +11,7 @@ items:
     SurveyScanRange: 18000
     TargetGroup: 11
     TechLevel: 1
+    name: '''Dactyl'' Type-E Asteroid Analyzer'
   ML-3 Amphilotite Mining Probe:
     CapacitorNeed: 5.0
     DisallowRepeatingActivation: 1
@@ -23,6 +24,7 @@ items:
     SurveyScanRange: 17250
     TargetGroup: 11
     TechLevel: 1
+    name: ML-3 Amphilotite Mining Probe
   ML-3 Scoped Survey Scanner:
     CapacitorNeed: 5.0
     DisallowRepeatingActivation: 1
@@ -35,6 +37,7 @@ items:
     SurveyScanRange: 20000
     TargetGroup: 11
     TechLevel: 1
+    name: ML-3 Scoped Survey Scanner
   Rock-Scanning Sensor Array I:
     CapacitorNeed: 5.0
     DisallowRepeatingActivation: 1
@@ -47,6 +50,7 @@ items:
     SurveyScanRange: 15750
     TargetGroup: 11
     TechLevel: 1
+    name: Rock-Scanning Sensor Array I
   Survey Scanner I:
     CapacitorNeed: 5.0
     Cpu: 5.0
@@ -59,6 +63,7 @@ items:
     SurveyScanRange: 15000
     TargetGroup: 11
     TechLevel: 1
+    name: Survey Scanner I
   Survey Scanner II:
     CapacitorNeed: 6.0
     DisallowRepeatingActivation: 1
@@ -71,3 +76,4 @@ items:
     SurveyScanRange: 22500
     TargetGroup: 11
     TechLevel: 2
+    name: Survey Scanner II

@@ -1,141 +1,281 @@
 items:
-  '''Buck'' Turgidson''s Insignia': {}
-  Akori's Insignia: {}
-  Amarr Empire Slave Trader Insignia: {}
-  Ammatar Navy Captain Insignia I: {}
-  Ammatar Navy Colonel Insignia I: {}
-  Ammatar Navy Colonel Insignia II: {}
-  Ammatar Navy Fleet Commander Insignia: {}
-  Ammatar Navy Major Insignia I: {}
-  Ammatar Navy Major Insignia II: {}
-  Ammatar Navy Midshipman Insignia I: {}
-  Ammatar Navy Midshipman Insignia II: {}
-  Ammatar Navy Midshipman Insignia III: {}
-  Ammatar Navy Raid Leader Insignia: {}
-  Ammatar Navy Sergeant Elite Insignia: {}
-  Ammatar Navy Sergeant Insignia I: {}
-  Ammatar Navy Sergeant Insignia II: {}
-  Ammatar Navy Sergeant Insignia III: {}
-  Ammatar Navy Sergeant Major Insignia I: {}
-  Ammatar Navy Squad Leader Insignia: {}
-  Ammatar Slave Trader Insignia: {}
-  CONCORD Captain Emblem: {}
-  CONCORD Colonel Emblem: {}
-  CONCORD General Emblem: {}
-  CONCORD Officer Emblem: {}
-  CONCORD Panther Emblem: {}
-  CONCORD Piranha Emblem: {}
-  CONCORD Raptor Emblem: {}
-  CONCORD Soldier Emblem: {}
-  CONCORD Star Emblem: {}
-  Caldari Navy Admiral Insignia I: {}
-  Caldari Navy Captain Elite Insignia: {}
-  Caldari Navy Captain Insignia I: {}
-  Caldari Navy Captain Insignia II: {}
-  Caldari Navy Captain Insignia III: {}
-  Caldari Navy Captain Insignia IV: {}
-  Caldari Navy Captain Insignia V: {}
-  Caldari Navy Commodore Insignia I: {}
-  Caldari Navy Commodore Insignia II: {}
-  Caldari Navy Fleet Commander Insignia: {}
-  Caldari Navy Fleet Rear-Admiral Insignia: {}
-  Caldari Navy Midshipman Insignia I: {}
-  Caldari Navy Midshipman Insignia II: {}
-  Caldari Navy Midshipman Insignia III: {}
-  Caldari Navy Raid Leader Insignia: {}
-  Caldari Navy Squad Leader Insignia: {}
-  Caldari Navy Vice Admiral Insignia I: {}
-  Dakin Gara's Insignia: {}
-  Federation Navy Command Sergeant Major Insignia I: {}
-  Federation Navy Fleet Captain Insignia I: {}
-  Federation Navy Fleet Colonel Insignia I: {}
-  Federation Navy Fleet Colonel Insignia II: {}
-  Federation Navy Fleet Commander Insignia: {}
-  Federation Navy Fleet Major Insignia I: {}
-  Federation Navy Fleet Rear-Admiral Insignia: {}
-  Federation Navy Midshipman Insignia I: {}
-  Federation Navy Midshipman Insignia II: {}
-  Federation Navy Midshipman Insignia III: {}
-  Federation Navy Raid Leader Insignia: {}
-  Federation Navy Sergeant Elite Insignia: {}
-  Federation Navy Sergeant Insignia I: {}
-  Federation Navy Sergeant Insignia II: {}
-  Federation Navy Sergeant Insignia III: {}
-  Federation Navy Sergeant Major Insignia I: {}
-  Federation Navy Squad Leader Insignia: {}
-  Genom Tara's Insignia: {}
-  Ibrahim's Insignia: {}
-  Imperial Navy Captain Insignia I: {}
-  Imperial Navy Colonel Insignia I: {}
-  Imperial Navy Fleet Commander Insignia: {}
-  Imperial Navy Fleet Rear-Admiral Insignia: {}
-  Imperial Navy General Insignia I: {}
-  Imperial Navy General Insignia II: {}
-  Imperial Navy Major Insignia I: {}
-  Imperial Navy Midshipman Insignia I: {}
-  Imperial Navy Midshipman Insignia II: {}
-  Imperial Navy Midshipman Insignia III: {}
-  Imperial Navy Raid Leader Insignia: {}
-  Imperial Navy Sergeant Elite Insignia: {}
-  Imperial Navy Sergeant Insignia I: {}
-  Imperial Navy Sergeant Insignia II: {}
-  Imperial Navy Sergeant Insignia III: {}
-  Imperial Navy Sergeant Major Insignia I: {}
-  Imperial Navy Squad Leader Insignia: {}
-  Ixon Kruz's Insignia: {}
-  Jerek Zuomi's Insignia: {}
-  Jerome Leman's Insignia: {}
-  Kali Midez's Insignia: {}
-  Karmone Tizmer's Insignia: {}
-  Karo Zulak's Insignia: {}
-  Karothas's Insignia: {}
-  Karzo Sarum's Insignia: {}
-  Khanid Eagle Insignia: {}
-  Khanid Elite Fighter Insignia: {}
-  Khanid Fighter Insignia: {}
-  Khanid Hawk Insignia: {}
-  Khanid High Commander Insignia: {}
-  Khanid Officer Insignia: {}
-  Khanid Rookie Insignia: {}
-  Khanid Royal Insignia: {}
-  Khanid Scout Insignia: {}
-  Khanid Slave Trader Insignia: {}
-  Khanid Sparrow Insignia: {}
-  Khanid Warbird Insignia: {}
-  Luther Veron's Insignia: {}
-  Markus's Insignia: {}
-  Maschteri Markan's Insignia: {}
-  Minmatar Freedom Fighter Insignia I: {}
-  Mizuma Gomi's Insignia: {}
-  Naiyon Tai's Insignia: {}
-  Olufami's Insignia: {}
-  Oronata Vion's Insignia: {}
-  Ratei's Insignia: {}
-  Republic Fleet Captain Insignia I: {}
-  Republic Fleet Commander Insignia I: {}
-  Republic Fleet Commander Insignia II: {}
-  Republic Fleet High Captain Insignia I: {}
-  Republic Fleet High Captain Insignia II: {}
-  Republic Fleet Midshipman Insignia I: {}
-  Republic Fleet Midshipman Insignia II: {}
-  Republic Fleet Midshipman Insignia III: {}
-  Republic Fleet Navy Commander Insignia: {}
-  Republic Fleet Navy Rear-Admiral Insignia: {}
-  Republic Fleet Private Elite Insignia: {}
-  Republic Fleet Private Insignia I: {}
-  Republic Fleet Private Insignia II: {}
-  Republic Fleet Private Insignia III: {}
-  Republic Fleet Private Insignia IV: {}
-  Republic Fleet Private Insignia V: {}
-  Republic Fleet Raid Leader Insignia: {}
-  Republic Fleet Squad Leader Insignia: {}
-  Shaqil Dragat's Insignia: {}
-  Shimon Jaen's Insignia: {}
-  Taisu Magdesh's Insignia: {}
-  Tara's Insignia: {}
-  Terachi Tash-Murkon's Insignia: {}
-  Tomi Hakiro's Insignia: {}
-  Whelan Machorin's Insignia: {}
-  Yeni Sarum's Insignia: {}
-  Zazzmatazz's Bodyguard Insignia: {}
-  Zerim Kurzon's Insignia: {}
+  '''Buck'' Turgidson''s Insignia':
+    name: '''Buck'' Turgidson''s Insignia'
+  Akori's Insignia:
+    name: Akori's Insignia
+  Amarr Empire Slave Trader Insignia:
+    name: Amarr Empire Slave Trader Insignia
+  Ammatar Navy Captain Insignia I:
+    name: Ammatar Navy Captain Insignia I
+  Ammatar Navy Colonel Insignia I:
+    name: Ammatar Navy Colonel Insignia I
+  Ammatar Navy Colonel Insignia II:
+    name: Ammatar Navy Colonel Insignia II
+  Ammatar Navy Fleet Commander Insignia:
+    name: Ammatar Navy Fleet Commander Insignia
+  Ammatar Navy Major Insignia I:
+    name: Ammatar Navy Major Insignia I
+  Ammatar Navy Major Insignia II:
+    name: Ammatar Navy Major Insignia II
+  Ammatar Navy Midshipman Insignia I:
+    name: Ammatar Navy Midshipman Insignia I
+  Ammatar Navy Midshipman Insignia II:
+    name: Ammatar Navy Midshipman Insignia II
+  Ammatar Navy Midshipman Insignia III:
+    name: Ammatar Navy Midshipman Insignia III
+  Ammatar Navy Raid Leader Insignia:
+    name: Ammatar Navy Raid Leader Insignia
+  Ammatar Navy Sergeant Elite Insignia:
+    name: Ammatar Navy Sergeant Elite Insignia
+  Ammatar Navy Sergeant Insignia I:
+    name: Ammatar Navy Sergeant Insignia I
+  Ammatar Navy Sergeant Insignia II:
+    name: Ammatar Navy Sergeant Insignia II
+  Ammatar Navy Sergeant Insignia III:
+    name: Ammatar Navy Sergeant Insignia III
+  Ammatar Navy Sergeant Major Insignia I:
+    name: Ammatar Navy Sergeant Major Insignia I
+  Ammatar Navy Squad Leader Insignia:
+    name: Ammatar Navy Squad Leader Insignia
+  Ammatar Slave Trader Insignia:
+    name: Ammatar Slave Trader Insignia
+  CONCORD Captain Emblem:
+    name: CONCORD Captain Emblem
+  CONCORD Colonel Emblem:
+    name: CONCORD Colonel Emblem
+  CONCORD General Emblem:
+    name: CONCORD General Emblem
+  CONCORD Officer Emblem:
+    name: CONCORD Officer Emblem
+  CONCORD Panther Emblem:
+    name: CONCORD Panther Emblem
+  CONCORD Piranha Emblem:
+    name: CONCORD Piranha Emblem
+  CONCORD Raptor Emblem:
+    name: CONCORD Raptor Emblem
+  CONCORD Soldier Emblem:
+    name: CONCORD Soldier Emblem
+  CONCORD Star Emblem:
+    name: CONCORD Star Emblem
+  Caldari Navy Admiral Insignia I:
+    name: Caldari Navy Admiral Insignia I
+  Caldari Navy Captain Elite Insignia:
+    name: Caldari Navy Captain Elite Insignia
+  Caldari Navy Captain Insignia I:
+    name: Caldari Navy Captain Insignia I
+  Caldari Navy Captain Insignia II:
+    name: Caldari Navy Captain Insignia II
+  Caldari Navy Captain Insignia III:
+    name: Caldari Navy Captain Insignia III
+  Caldari Navy Captain Insignia IV:
+    name: Caldari Navy Captain Insignia IV
+  Caldari Navy Captain Insignia V:
+    name: Caldari Navy Captain Insignia V
+  Caldari Navy Commodore Insignia I:
+    name: Caldari Navy Commodore Insignia I
+  Caldari Navy Commodore Insignia II:
+    name: Caldari Navy Commodore Insignia II
+  Caldari Navy Fleet Commander Insignia:
+    name: Caldari Navy Fleet Commander Insignia
+  Caldari Navy Fleet Rear-Admiral Insignia:
+    name: Caldari Navy Fleet Rear-Admiral Insignia
+  Caldari Navy Midshipman Insignia I:
+    name: Caldari Navy Midshipman Insignia I
+  Caldari Navy Midshipman Insignia II:
+    name: Caldari Navy Midshipman Insignia II
+  Caldari Navy Midshipman Insignia III:
+    name: Caldari Navy Midshipman Insignia III
+  Caldari Navy Raid Leader Insignia:
+    name: Caldari Navy Raid Leader Insignia
+  Caldari Navy Squad Leader Insignia:
+    name: Caldari Navy Squad Leader Insignia
+  Caldari Navy Vice Admiral Insignia I:
+    name: Caldari Navy Vice Admiral Insignia I
+  Dakin Gara's Insignia:
+    name: Dakin Gara's Insignia
+  Federation Navy Command Sergeant Major Insignia I:
+    name: Federation Navy Command Sergeant Major Insignia I
+  Federation Navy Fleet Captain Insignia I:
+    name: Federation Navy Fleet Captain Insignia I
+  Federation Navy Fleet Colonel Insignia I:
+    name: Federation Navy Fleet Colonel Insignia I
+  Federation Navy Fleet Colonel Insignia II:
+    name: Federation Navy Fleet Colonel Insignia II
+  Federation Navy Fleet Commander Insignia:
+    name: Federation Navy Fleet Commander Insignia
+  Federation Navy Fleet Major Insignia I:
+    name: Federation Navy Fleet Major Insignia I
+  Federation Navy Fleet Rear-Admiral Insignia:
+    name: Federation Navy Fleet Rear-Admiral Insignia
+  Federation Navy Midshipman Insignia I:
+    name: Federation Navy Midshipman Insignia I
+  Federation Navy Midshipman Insignia II:
+    name: Federation Navy Midshipman Insignia II
+  Federation Navy Midshipman Insignia III:
+    name: Federation Navy Midshipman Insignia III
+  Federation Navy Raid Leader Insignia:
+    name: Federation Navy Raid Leader Insignia
+  Federation Navy Sergeant Elite Insignia:
+    name: Federation Navy Sergeant Elite Insignia
+  Federation Navy Sergeant Insignia I:
+    name: Federation Navy Sergeant Insignia I
+  Federation Navy Sergeant Insignia II:
+    name: Federation Navy Sergeant Insignia II
+  Federation Navy Sergeant Insignia III:
+    name: Federation Navy Sergeant Insignia III
+  Federation Navy Sergeant Major Insignia I:
+    name: Federation Navy Sergeant Major Insignia I
+  Federation Navy Squad Leader Insignia:
+    name: Federation Navy Squad Leader Insignia
+  Genom Tara's Insignia:
+    name: Genom Tara's Insignia
+  Ibrahim's Insignia:
+    name: Ibrahim's Insignia
+  Imperial Navy Captain Insignia I:
+    name: Imperial Navy Captain Insignia I
+  Imperial Navy Colonel Insignia I:
+    name: Imperial Navy Colonel Insignia I
+  Imperial Navy Fleet Commander Insignia:
+    name: Imperial Navy Fleet Commander Insignia
+  Imperial Navy Fleet Rear-Admiral Insignia:
+    name: Imperial Navy Fleet Rear-Admiral Insignia
+  Imperial Navy General Insignia I:
+    name: Imperial Navy General Insignia I
+  Imperial Navy General Insignia II:
+    name: Imperial Navy General Insignia II
+  Imperial Navy Major Insignia I:
+    name: Imperial Navy Major Insignia I
+  Imperial Navy Midshipman Insignia I:
+    name: Imperial Navy Midshipman Insignia I
+  Imperial Navy Midshipman Insignia II:
+    name: Imperial Navy Midshipman Insignia II
+  Imperial Navy Midshipman Insignia III:
+    name: Imperial Navy Midshipman Insignia III
+  Imperial Navy Raid Leader Insignia:
+    name: Imperial Navy Raid Leader Insignia
+  Imperial Navy Sergeant Elite Insignia:
+    name: Imperial Navy Sergeant Elite Insignia
+  Imperial Navy Sergeant Insignia I:
+    name: Imperial Navy Sergeant Insignia I
+  Imperial Navy Sergeant Insignia II:
+    name: Imperial Navy Sergeant Insignia II
+  Imperial Navy Sergeant Insignia III:
+    name: Imperial Navy Sergeant Insignia III
+  Imperial Navy Sergeant Major Insignia I:
+    name: Imperial Navy Sergeant Major Insignia I
+  Imperial Navy Squad Leader Insignia:
+    name: Imperial Navy Squad Leader Insignia
+  Ixon Kruz's Insignia:
+    name: Ixon Kruz's Insignia
+  Jerek Zuomi's Insignia:
+    name: Jerek Zuomi's Insignia
+  Jerome Leman's Insignia:
+    name: Jerome Leman's Insignia
+  Kali Midez's Insignia:
+    name: Kali Midez's Insignia
+  Karmone Tizmer's Insignia:
+    name: Karmone Tizmer's Insignia
+  Karo Zulak's Insignia:
+    name: Karo Zulak's Insignia
+  Karothas's Insignia:
+    name: Karothas's Insignia
+  Karzo Sarum's Insignia:
+    name: Karzo Sarum's Insignia
+  Khanid Eagle Insignia:
+    name: Khanid Eagle Insignia
+  Khanid Elite Fighter Insignia:
+    name: Khanid Elite Fighter Insignia
+  Khanid Fighter Insignia:
+    name: Khanid Fighter Insignia
+  Khanid Hawk Insignia:
+    name: Khanid Hawk Insignia
+  Khanid High Commander Insignia:
+    name: Khanid High Commander Insignia
+  Khanid Officer Insignia:
+    name: Khanid Officer Insignia
+  Khanid Rookie Insignia:
+    name: Khanid Rookie Insignia
+  Khanid Royal Insignia:
+    name: Khanid Royal Insignia
+  Khanid Scout Insignia:
+    name: Khanid Scout Insignia
+  Khanid Slave Trader Insignia:
+    name: Khanid Slave Trader Insignia
+  Khanid Sparrow Insignia:
+    name: Khanid Sparrow Insignia
+  Khanid Warbird Insignia:
+    name: Khanid Warbird Insignia
+  Luther Veron's Insignia:
+    name: Luther Veron's Insignia
+  Markus's Insignia:
+    name: Markus's Insignia
+  Maschteri Markan's Insignia:
+    name: Maschteri Markan's Insignia
+  Minmatar Freedom Fighter Insignia I:
+    name: Minmatar Freedom Fighter Insignia I
+  Mizuma Gomi's Insignia:
+    name: Mizuma Gomi's Insignia
+  Naiyon Tai's Insignia:
+    name: Naiyon Tai's Insignia
+  Olufami's Insignia:
+    name: Olufami's Insignia
+  Oronata Vion's Insignia:
+    name: Oronata Vion's Insignia
+  Ratei's Insignia:
+    name: Ratei's Insignia
+  Republic Fleet Captain Insignia I:
+    name: Republic Fleet Captain Insignia I
+  Republic Fleet Commander Insignia I:
+    name: Republic Fleet Commander Insignia I
+  Republic Fleet Commander Insignia II:
+    name: Republic Fleet Commander Insignia II
+  Republic Fleet High Captain Insignia I:
+    name: Republic Fleet High Captain Insignia I
+  Republic Fleet High Captain Insignia II:
+    name: Republic Fleet High Captain Insignia II
+  Republic Fleet Midshipman Insignia I:
+    name: Republic Fleet Midshipman Insignia I
+  Republic Fleet Midshipman Insignia II:
+    name: Republic Fleet Midshipman Insignia II
+  Republic Fleet Midshipman Insignia III:
+    name: Republic Fleet Midshipman Insignia III
+  Republic Fleet Navy Commander Insignia:
+    name: Republic Fleet Navy Commander Insignia
+  Republic Fleet Navy Rear-Admiral Insignia:
+    name: Republic Fleet Navy Rear-Admiral Insignia
+  Republic Fleet Private Elite Insignia:
+    name: Republic Fleet Private Elite Insignia
+  Republic Fleet Private Insignia I:
+    name: Republic Fleet Private Insignia I
+  Republic Fleet Private Insignia II:
+    name: Republic Fleet Private Insignia II
+  Republic Fleet Private Insignia III:
+    name: Republic Fleet Private Insignia III
+  Republic Fleet Private Insignia IV:
+    name: Republic Fleet Private Insignia IV
+  Republic Fleet Private Insignia V:
+    name: Republic Fleet Private Insignia V
+  Republic Fleet Raid Leader Insignia:
+    name: Republic Fleet Raid Leader Insignia
+  Republic Fleet Squad Leader Insignia:
+    name: Republic Fleet Squad Leader Insignia
+  Shaqil Dragat's Insignia:
+    name: Shaqil Dragat's Insignia
+  Shimon Jaen's Insignia:
+    name: Shimon Jaen's Insignia
+  Taisu Magdesh's Insignia:
+    name: Taisu Magdesh's Insignia
+  Tara's Insignia:
+    name: Tara's Insignia
+  Terachi Tash-Murkon's Insignia:
+    name: Terachi Tash-Murkon's Insignia
+  Tomi Hakiro's Insignia:
+    name: Tomi Hakiro's Insignia
+  Whelan Machorin's Insignia:
+    name: Whelan Machorin's Insignia
+  Yeni Sarum's Insignia:
+    name: Yeni Sarum's Insignia
+  Zazzmatazz's Bodyguard Insignia:
+    name: Zazzmatazz's Bodyguard Insignia
+  Zerim Kurzon's Insignia:
+    name: Zerim Kurzon's Insignia

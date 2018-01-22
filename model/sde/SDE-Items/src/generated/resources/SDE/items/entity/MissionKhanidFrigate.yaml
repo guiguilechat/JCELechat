@@ -1,9 +1,17 @@
 items:
-  Athran Agent: {}
-  Athran Operative: {}
-  Khanid Elite Fighter: {}
-  Khanid Fighter: {}
-  Khanid Rookie: {}
-  Khanid Scout: {}
-  Khanid Sparrow: {}
-  Khanid Wingman: {}
+  Athran Agent:
+    name: Athran Agent
+  Athran Operative:
+    name: Athran Operative
+  Khanid Elite Fighter:
+    name: Khanid Elite Fighter
+  Khanid Fighter:
+    name: Khanid Fighter
+  Khanid Rookie:
+    name: Khanid Rookie
+  Khanid Scout:
+    name: Khanid Scout
+  Khanid Sparrow:
+    name: Khanid Sparrow
+  Khanid Wingman:
+    name: Khanid Wingman

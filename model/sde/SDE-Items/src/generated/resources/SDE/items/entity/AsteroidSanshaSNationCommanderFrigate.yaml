@@ -1,11 +1,21 @@
 items:
-  True Sansha's Butcher: {}
-  True Sansha's Enslaver: {}
-  True Sansha's Manslayer: {}
-  True Sansha's Minion: {}
-  True Sansha's Plague: {}
-  True Sansha's Ravener: {}
-  True Sansha's Savage: {}
-  True Sansha's Scavenger: {}
-  True Sansha's Servant: {}
-  True Sansha's Slavehunter: {}
+  True Sansha's Butcher:
+    name: True Sansha's Butcher
+  True Sansha's Enslaver:
+    name: True Sansha's Enslaver
+  True Sansha's Manslayer:
+    name: True Sansha's Manslayer
+  True Sansha's Minion:
+    name: True Sansha's Minion
+  True Sansha's Plague:
+    name: True Sansha's Plague
+  True Sansha's Ravener:
+    name: True Sansha's Ravener
+  True Sansha's Savage:
+    name: True Sansha's Savage
+  True Sansha's Scavenger:
+    name: True Sansha's Scavenger
+  True Sansha's Servant:
+    name: True Sansha's Servant
+  True Sansha's Slavehunter:
+    name: True Sansha's Slavehunter

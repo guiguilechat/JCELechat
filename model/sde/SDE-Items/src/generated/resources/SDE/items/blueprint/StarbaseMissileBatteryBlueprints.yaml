@@ -1,19 +1,28 @@
 items:
   Cruise Missile Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Cruise Missile Battery Blueprint
   Dread Guristas Cruise Missile Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Dread Guristas Cruise Missile Battery Blueprint
   Dread Guristas Torpedo Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Dread Guristas Torpedo Battery Blueprint
   Dread Guristas XL Torpedo Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Dread Guristas XL Torpedo Battery Blueprint
   Guristas Cruise Missile Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Guristas Cruise Missile Battery Blueprint
   Guristas Torpedo Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Guristas Torpedo Battery Blueprint
   Guristas XL Torpedo Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Guristas XL Torpedo Battery Blueprint
   Torpedo Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Torpedo Battery Blueprint
   XL Torpedo Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: XL Torpedo Battery Blueprint

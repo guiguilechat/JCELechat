@@ -2,236 +2,315 @@ items:
   '''Mafia'' Energized Kinetic Membrane I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Mafia'' Energized Kinetic Membrane I Blueprint'
   '''Moonshine'' Energized Thermal Membrane I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Moonshine'' Energized Thermal Membrane I Blueprint'
   '''Pilfer'' Energized Adaptive Nano Membrane I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Pilfer'' Energized Adaptive Nano Membrane I Blueprint'
   Adaptive Nano Plating I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Adaptive Nano Plating I Blueprint
   Adaptive Nano Plating II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Adaptive Nano Plating II Blueprint
   Ammatar Navy Adaptive Nano Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Adaptive Nano Plating Blueprint
   Ammatar Navy EM Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy EM Plating Blueprint
   Ammatar Navy Energized Adaptive Nano Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Energized Adaptive Nano Membrane Blueprint
   Ammatar Navy Energized EM Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Energized EM Membrane Blueprint
   Ammatar Navy Energized Explosive Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Energized Explosive Membrane Blueprint
   Ammatar Navy Energized Kinetic Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Energized Kinetic Membrane Blueprint
   Ammatar Navy Energized Thermal Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Energized Thermal Membrane Blueprint
   Ammatar Navy Explosive Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Explosive Plating Blueprint
   Ammatar Navy Kinetic Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Kinetic Plating Blueprint
   Ammatar Navy Thermal Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Thermal Plating Blueprint
   Basic Energized Adaptive Nano Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Basic Energized Adaptive Nano Membrane Blueprint
   Basic Energized Armor Layering Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Basic Energized Armor Layering Membrane Blueprint
   Basic Energized EM Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Basic Energized EM Membrane Blueprint
   Basic Energized Explosive Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Basic Energized Explosive Membrane Blueprint
   Basic Energized Kinetic Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Basic Energized Kinetic Membrane Blueprint
   Basic Energized Thermal Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Basic Energized Thermal Membrane Blueprint
   EM Plating I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: EM Plating I Blueprint
   EM Plating II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: EM Plating II Blueprint
   Energized Adaptive Nano Membrane I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Energized Adaptive Nano Membrane I Blueprint
   Energized Adaptive Nano Membrane II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Energized Adaptive Nano Membrane II Blueprint
   Energized Armor Layering Membrane I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Energized Armor Layering Membrane I Blueprint
   Energized Armor Layering Membrane II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Energized Armor Layering Membrane II Blueprint
   Energized EM Membrane I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Energized EM Membrane I Blueprint
   Energized EM Membrane II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Energized EM Membrane II Blueprint
   Energized Explosive Membrane I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Energized Explosive Membrane I Blueprint
   Energized Explosive Membrane II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Energized Explosive Membrane II Blueprint
   Energized Kinetic Membrane I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Energized Kinetic Membrane I Blueprint
   Energized Kinetic Membrane II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Energized Kinetic Membrane II Blueprint
   Energized Thermal Membrane I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Energized Thermal Membrane I Blueprint
   Energized Thermal Membrane II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Energized Thermal Membrane II Blueprint
   Explosive Plating I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Explosive Plating I Blueprint
   Explosive Plating II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Explosive Plating II Blueprint
   Federation Navy Adaptive Nano Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy Adaptive Nano Plating Blueprint
   Federation Navy EM Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy EM Plating Blueprint
   Federation Navy Energized Adaptive Nano Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy Energized Adaptive Nano Membrane Blueprint
   Federation Navy Energized EM Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy Energized EM Membrane Blueprint
   Federation Navy Energized Explosive Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy Energized Explosive Membrane Blueprint
   Federation Navy Energized Kinetic Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy Energized Kinetic Membrane Blueprint
   Federation Navy Energized Thermal Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy Energized Thermal Membrane Blueprint
   Federation Navy Explosive Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy Explosive Plating Blueprint
   Federation Navy Kinetic Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy Kinetic Plating Blueprint
   Federation Navy Thermal Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Federation Navy Thermal Plating Blueprint
   Imperial Navy Adaptive Nano Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Adaptive Nano Plating Blueprint
   Imperial Navy EM Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy EM Plating Blueprint
   Imperial Navy Energized Adaptive Nano Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Energized Adaptive Nano Membrane Blueprint
   Imperial Navy Energized EM Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Energized EM Membrane Blueprint
   Imperial Navy Energized Explosive Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Energized Explosive Membrane Blueprint
   Imperial Navy Energized Kinetic Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Energized Kinetic Membrane Blueprint
   Imperial Navy Energized Thermal Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Energized Thermal Membrane Blueprint
   Imperial Navy Explosive Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Explosive Plating Blueprint
   Imperial Navy Kinetic Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Kinetic Plating Blueprint
   Imperial Navy Thermal Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Thermal Plating Blueprint
   Khanid Navy Adaptive Nano Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Khanid Navy Adaptive Nano Plating Blueprint
   Khanid Navy EM Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Khanid Navy EM Plating Blueprint
   Khanid Navy Energized Adaptive Nano Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Khanid Navy Energized Adaptive Nano Membrane Blueprint
   Khanid Navy Energized EM Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Khanid Navy Energized EM Membrane Blueprint
   Khanid Navy Energized Explosive Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Khanid Navy Energized Explosive Membrane Blueprint
   Khanid Navy Energized Kinetic Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Khanid Navy Energized Kinetic Membrane Blueprint
   Khanid Navy Energized Thermal Membrane Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Khanid Navy Energized Thermal Membrane Blueprint
   Khanid Navy Explosive Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Khanid Navy Explosive Plating Blueprint
   Khanid Navy Kinetic Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Khanid Navy Kinetic Plating Blueprint
   Khanid Navy Thermal Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Khanid Navy Thermal Plating Blueprint
   Kinetic Plating I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Kinetic Plating I Blueprint
   Kinetic Plating II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Kinetic Plating II Blueprint
   Layered Plating I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Layered Plating I Blueprint
   Layered Plating II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Layered Plating II Blueprint
   Republic Fleet Adaptive Nano Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Republic Fleet Adaptive Nano Plating Blueprint
   Republic Fleet EM Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Republic Fleet EM Plating Blueprint
   Republic Fleet Explosive Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Republic Fleet Explosive Plating Blueprint
   Republic Fleet Kinetic Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Republic Fleet Kinetic Plating Blueprint
   Republic Fleet Thermal Plating Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Republic Fleet Thermal Plating Blueprint
   Thermal Plating I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Thermal Plating I Blueprint
   Thermal Plating II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Thermal Plating II Blueprint
   testArmorMod_Blueprint_PLACEHOLDER:
     TechLevel: 1
+    name: testArmorMod_Blueprint_PLACEHOLDER

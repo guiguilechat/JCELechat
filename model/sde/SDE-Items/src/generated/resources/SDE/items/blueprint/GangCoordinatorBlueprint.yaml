@@ -2,108 +2,144 @@ items:
   Armored Warfare Link - Damage Control I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Armored Warfare Link - Damage Control I Blueprint
   Armored Warfare Link - Damage Control II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Armored Warfare Link - Damage Control II Blueprint
   Armored Warfare Link - Passive Defense I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Armored Warfare Link - Passive Defense I Blueprint
   Armored Warfare Link - Passive Defense II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Armored Warfare Link - Passive Defense II Blueprint
   Armored Warfare Link - Rapid Repair I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Armored Warfare Link - Rapid Repair I Blueprint
   Armored Warfare Link - Rapid Repair II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Armored Warfare Link - Rapid Repair II Blueprint
   Clone Vat Bay I Blueprint:
     IndustryBlueprintRank: 180.0
     TechLevel: 1
+    name: Clone Vat Bay I Blueprint
   Command Processor I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Command Processor I Blueprint
   Covert Cynosural Field Generator I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Covert Cynosural Field Generator I Blueprint
   Covert Cynosural Field I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Covert Cynosural Field I Blueprint
   Cynosural Field Generator I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Cynosural Field Generator I Blueprint
   Cynosural Field I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Cynosural Field I Blueprint
   Information Warfare Link - Electronic Superiority I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Information Warfare Link - Electronic Superiority I Blueprint
   Information Warfare Link - Electronic Superiority II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Information Warfare Link - Electronic Superiority II Blueprint
   Information Warfare Link - Recon Operation I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Information Warfare Link - Recon Operation I Blueprint
   Information Warfare Link - Recon Operation II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Information Warfare Link - Recon Operation II Blueprint
   Information Warfare Link - Sensor Integrity I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Information Warfare Link - Sensor Integrity I Blueprint
   Information Warfare Link - Sensor Integrity II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Information Warfare Link - Sensor Integrity II Blueprint
   Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint
   Mining Foreman Link - Harvester Capacitor Efficiency II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Mining Foreman Link - Harvester Capacitor Efficiency II Blueprint
   Mining Foreman Link - Laser Optimization I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Mining Foreman Link - Laser Optimization I Blueprint
   Mining Foreman Link - Laser Optimization II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Mining Foreman Link - Laser Optimization II Blueprint
   Mining Foreman Link - Mining Laser Field Enhancement I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Mining Foreman Link - Mining Laser Field Enhancement I Blueprint
   Mining Foreman Link - Mining Laser Field Enhancement II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Mining Foreman Link - Mining Laser Field Enhancement II Blueprint
   Siege Warfare Link - Active Shielding I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Siege Warfare Link - Active Shielding I Blueprint
   Siege Warfare Link - Active Shielding II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Siege Warfare Link - Active Shielding II Blueprint
   Siege Warfare Link - Shield Efficiency I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Siege Warfare Link - Shield Efficiency I Blueprint
   Siege Warfare Link - Shield Efficiency II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Siege Warfare Link - Shield Efficiency II Blueprint
   Siege Warfare Link - Shield Harmonizing I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Siege Warfare Link - Shield Harmonizing I Blueprint
   Siege Warfare Link - Shield Harmonizing II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Siege Warfare Link - Shield Harmonizing II Blueprint
   Skirmish Warfare Link - Evasive Maneuvers I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Skirmish Warfare Link - Evasive Maneuvers I Blueprint
   Skirmish Warfare Link - Evasive Maneuvers II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Skirmish Warfare Link - Evasive Maneuvers II Blueprint
   Skirmish Warfare Link - Interdiction Maneuvers I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Skirmish Warfare Link - Interdiction Maneuvers I Blueprint
   Skirmish Warfare Link - Interdiction Maneuvers II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Skirmish Warfare Link - Interdiction Maneuvers II Blueprint
   Skirmish Warfare Link - Rapid Deployment I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    name: Skirmish Warfare Link - Rapid Deployment I Blueprint
   Skirmish Warfare Link - Rapid Deployment II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Skirmish Warfare Link - Rapid Deployment II Blueprint

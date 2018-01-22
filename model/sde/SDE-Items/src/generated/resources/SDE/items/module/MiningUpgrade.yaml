@@ -9,6 +9,7 @@ items:
     RequiredSkill1: 22578
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Anguis'' Ice Harvester Upgrade'
   '''Aoede'' Mining Laser Upgrade':
     Cpu: 40.0
     CpuPenaltyPercent: 8.0
@@ -20,6 +21,7 @@ items:
     RequiredSkill1: 22578
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Aoede'' Mining Laser Upgrade'
   '''Carpo'' Mining Laser Upgrade':
     CpuPenaltyPercent: 6.0
     Hp: 40
@@ -30,6 +32,7 @@ items:
     RequiredSkill1: 22578
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Carpo'' Mining Laser Upgrade'
   '''Ingenii'' Ice Harvester Upgrade':
     Cpu: 40.0
     CpuPenaltyPercent: 8.0
@@ -41,6 +44,7 @@ items:
     RequiredSkill1: 22578
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: '''Ingenii'' Ice Harvester Upgrade'
   Crisium Ice Harvester Upgrade:
     CpuPenaltyPercent: 9.0
     Hp: 40
@@ -50,6 +54,7 @@ items:
     RequiredSkill1: 22578
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Crisium Ice Harvester Upgrade
   Elara Restrained Mining Laser Upgrade:
     Cpu: 35.0
     CpuPenaltyPercent: 8.0
@@ -60,6 +65,7 @@ items:
     RequiredSkill1: 22578
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Elara Restrained Mining Laser Upgrade
   Erin Mining Laser Upgrade:
     CpuPenaltyPercent: 9.0
     Hp: 40
@@ -69,6 +75,7 @@ items:
     RequiredSkill1: 22578
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Erin Mining Laser Upgrade
   Frigoris Restrained Ice Harvester Upgrade:
     Cpu: 35.0
     CpuPenaltyPercent: 8.0
@@ -79,6 +86,7 @@ items:
     RequiredSkill1: 22578
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Frigoris Restrained Ice Harvester Upgrade
   Ice Harvester Upgrade I:
     CpuPenaltyPercent: 10.0
     Hp: 40
@@ -87,6 +95,7 @@ items:
     RequiredSkill1: 22578
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Ice Harvester Upgrade I
   Ice Harvester Upgrade II:
     CpuPenaltyPercent: 12.5
     Hp: 40
@@ -96,6 +105,7 @@ items:
     RequiredSkill1: 22578
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: Ice Harvester Upgrade II
   Mining Laser Upgrade I:
     CpuPenaltyPercent: 10.0
     Hp: 40
@@ -104,6 +114,7 @@ items:
     RequiredSkill1: 22578
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Mining Laser Upgrade I
   Mining Laser Upgrade II:
     CpuPenaltyPercent: 12.5
     Hp: 40
@@ -113,3 +124,4 @@ items:
     RequiredSkill1: 22578
     RequiredSkill1Level: 4
     TechLevel: 2
+    name: Mining Laser Upgrade II

@@ -1,10 +1,19 @@
 items:
-  C3-FTM Acid: {}
-  Carbon-86 Epoxy Resin: {}
-  Fullerene Intercalated Graphite: {}
-  Fulleroferrocene: {}
-  Graphene Nanoribbons: {}
-  Lanthanum Metallofullerene: {}
-  Methanofullerene: {}
-  PPD Fullerene Fibers: {}
-  Scandium Metallofullerene: {}
+  C3-FTM Acid:
+    name: C3-FTM Acid
+  Carbon-86 Epoxy Resin:
+    name: Carbon-86 Epoxy Resin
+  Fullerene Intercalated Graphite:
+    name: Fullerene Intercalated Graphite
+  Fulleroferrocene:
+    name: Fulleroferrocene
+  Graphene Nanoribbons:
+    name: Graphene Nanoribbons
+  Lanthanum Metallofullerene:
+    name: Lanthanum Metallofullerene
+  Methanofullerene:
+    name: Methanofullerene
+  PPD Fullerene Fibers:
+    name: PPD Fullerene Fibers
+  Scandium Metallofullerene:
+    name: Scandium Metallofullerene

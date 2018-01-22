@@ -2,15 +2,20 @@ items:
   Autotrophs:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Autotrophs
   Carbon Compounds:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Carbon Compounds
   Complex Organisms:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Complex Organisms
   Microorganisms:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Microorganisms
   Planktic Colonies:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Planktic Colonies

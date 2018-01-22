@@ -1,33 +1,65 @@
 items:
-  Admiral Aurobe Kois: {}
-  Caldari Navy Fleet Commander: {}
-  Caldari Navy Raven: {}
-  Caldari Navy Scorpion: {}
-  Caldari Navy Temura: {}
-  Civilian Caldari Battleship Raven: {}
-  Civilian Caldari Battleship Rokh: {}
-  Civilian Caldari Battleship Scorpion: {}
-  Independent Green-Crewed Raven: {}
-  Independent Green-Crewed Rokh: {}
-  Independent Green-Crewed Scorpion: {}
-  Independent Raven: {}
-  Independent Rokh: {}
-  Independent Scorpion: {}
-  Independent Veteran Raven: {}
-  Independent Veteran Rokh: {}
-  Independent Veteran Scorpion: {}
-  Ishukone Watch Commander: {}
-  Nugoeihuvi Caretaker: {}
-  State Oshiro: {}
-  State Shukuro Bishamon: {}
-  State Shukuro Daijo: {}
-  State Shukuro Nagashin: {}
-  State Shukuro Shogun: {}
-  State Shukuro Taisho: {}
-  State Shukuro Tenno: {}
-  State Shukuro Turushima: {}
-  State Tenkyu: {}
-  State Utaisho: {}
-  State Yojimbo: {}
-  State Zen: {}
-  Tantima Areki's Raven: {}
+  Admiral Aurobe Kois:
+    name: Admiral Aurobe Kois
+  Caldari Navy Fleet Commander:
+    name: Caldari Navy Fleet Commander
+  Caldari Navy Raven:
+    name: Caldari Navy Raven
+  Caldari Navy Scorpion:
+    name: Caldari Navy Scorpion
+  Caldari Navy Temura:
+    name: Caldari Navy Temura
+  Civilian Caldari Battleship Raven:
+    name: Civilian Caldari Battleship Raven
+  Civilian Caldari Battleship Rokh:
+    name: Civilian Caldari Battleship Rokh
+  Civilian Caldari Battleship Scorpion:
+    name: Civilian Caldari Battleship Scorpion
+  Independent Green-Crewed Raven:
+    name: Independent Green-Crewed Raven
+  Independent Green-Crewed Rokh:
+    name: Independent Green-Crewed Rokh
+  Independent Green-Crewed Scorpion:
+    name: Independent Green-Crewed Scorpion
+  Independent Raven:
+    name: Independent Raven
+  Independent Rokh:
+    name: Independent Rokh
+  Independent Scorpion:
+    name: Independent Scorpion
+  Independent Veteran Raven:
+    name: Independent Veteran Raven
+  Independent Veteran Rokh:
+    name: Independent Veteran Rokh
+  Independent Veteran Scorpion:
+    name: Independent Veteran Scorpion
+  Ishukone Watch Commander:
+    name: Ishukone Watch Commander
+  Nugoeihuvi Caretaker:
+    name: Nugoeihuvi Caretaker
+  State Oshiro:
+    name: State Oshiro
+  State Shukuro Bishamon:
+    name: State Shukuro Bishamon
+  State Shukuro Daijo:
+    name: State Shukuro Daijo
+  State Shukuro Nagashin:
+    name: State Shukuro Nagashin
+  State Shukuro Shogun:
+    name: State Shukuro Shogun
+  State Shukuro Taisho:
+    name: State Shukuro Taisho
+  State Shukuro Tenno:
+    name: State Shukuro Tenno
+  State Shukuro Turushima:
+    name: State Shukuro Turushima
+  State Tenkyu:
+    name: State Tenkyu
+  State Utaisho:
+    name: State Utaisho
+  State Yojimbo:
+    name: State Yojimbo
+  State Zen:
+    name: State Zen
+  Tantima Areki's Raven:
+    name: Tantima Areki's Raven

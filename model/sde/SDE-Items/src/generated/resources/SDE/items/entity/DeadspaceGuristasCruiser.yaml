@@ -1,35 +1,69 @@
 items:
-  Dire Pithum Abolisher: {}
-  Dire Pithum Annihilator: {}
-  Dire Pithum Ascriber: {}
-  Dire Pithum Eraser: {}
-  Dire Pithum Inferno: {}
-  Dire Pithum Killer: {}
-  Dire Pithum Mortifier: {}
-  Dire Pithum Murderer: {}
-  Dire Pithum Nullifier: {}
-  Dire Pithum Silencer: {}
-  Dread Pithum Abolisher: {}
-  Dread Pithum Annihilator: {}
-  Dread Pithum Ascriber: {}
-  Dread Pithum Eraser: {}
-  Dread Pithum Inferno: {}
-  Dread Pithum Killer: {}
-  Dread Pithum Mortifier: {}
-  Dread Pithum Murderer: {}
-  Dread Pithum Nullifier: {}
-  Dread Pithum Silencer: {}
-  Guristas Emissary: {}
-  Guristas Personnel Transport: {}
-  Guristas Transport Ship: {}
-  Pithum Abolisher: {}
-  Pithum Annihilator: {}
-  Pithum Ascriber: {}
-  Pithum Eraser: {}
-  Pithum Inferno: {}
-  Pithum Killer: {}
-  Pithum Mortifier: {}
-  Pithum Murderer: {}
-  Pithum Nullifier: {}
-  Pithum Silencer: {}
-  Renegade Guristas Pirate: {}
+  Dire Pithum Abolisher:
+    name: Dire Pithum Abolisher
+  Dire Pithum Annihilator:
+    name: Dire Pithum Annihilator
+  Dire Pithum Ascriber:
+    name: Dire Pithum Ascriber
+  Dire Pithum Eraser:
+    name: Dire Pithum Eraser
+  Dire Pithum Inferno:
+    name: Dire Pithum Inferno
+  Dire Pithum Killer:
+    name: Dire Pithum Killer
+  Dire Pithum Mortifier:
+    name: Dire Pithum Mortifier
+  Dire Pithum Murderer:
+    name: Dire Pithum Murderer
+  Dire Pithum Nullifier:
+    name: Dire Pithum Nullifier
+  Dire Pithum Silencer:
+    name: Dire Pithum Silencer
+  Dread Pithum Abolisher:
+    name: Dread Pithum Abolisher
+  Dread Pithum Annihilator:
+    name: Dread Pithum Annihilator
+  Dread Pithum Ascriber:
+    name: Dread Pithum Ascriber
+  Dread Pithum Eraser:
+    name: Dread Pithum Eraser
+  Dread Pithum Inferno:
+    name: Dread Pithum Inferno
+  Dread Pithum Killer:
+    name: Dread Pithum Killer
+  Dread Pithum Mortifier:
+    name: Dread Pithum Mortifier
+  Dread Pithum Murderer:
+    name: Dread Pithum Murderer
+  Dread Pithum Nullifier:
+    name: Dread Pithum Nullifier
+  Dread Pithum Silencer:
+    name: Dread Pithum Silencer
+  Guristas Emissary:
+    name: Guristas Emissary
+  Guristas Personnel Transport:
+    name: Guristas Personnel Transport
+  Guristas Transport Ship:
+    name: Guristas Transport Ship
+  Pithum Abolisher:
+    name: Pithum Abolisher
+  Pithum Annihilator:
+    name: Pithum Annihilator
+  Pithum Ascriber:
+    name: Pithum Ascriber
+  Pithum Eraser:
+    name: Pithum Eraser
+  Pithum Inferno:
+    name: Pithum Inferno
+  Pithum Killer:
+    name: Pithum Killer
+  Pithum Mortifier:
+    name: Pithum Mortifier
+  Pithum Murderer:
+    name: Pithum Murderer
+  Pithum Nullifier:
+    name: Pithum Nullifier
+  Pithum Silencer:
+    name: Pithum Silencer
+  Renegade Guristas Pirate:
+    name: Renegade Guristas Pirate

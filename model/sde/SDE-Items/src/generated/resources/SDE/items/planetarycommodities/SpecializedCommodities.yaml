@@ -2,63 +2,84 @@ items:
   Biotech Research Reports:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Biotech Research Reports
   Camera Drones:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Camera Drones
   Condensates:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Condensates
   Cryoprotectant Solution:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Cryoprotectant Solution
   Data Chips:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Data Chips
   Gel-Matrix Biopaste:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Gel-Matrix Biopaste
   Guidance Systems:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Guidance Systems
   Hazmat Detection Systems:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Hazmat Detection Systems
   Hermetic Membranes:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Hermetic Membranes
   High-Tech Transmitters:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: High-Tech Transmitters
   Industrial Explosives:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Industrial Explosives
   Neocoms:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Neocoms
   Nuclear Reactors:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Nuclear Reactors
   Planetary Vehicles:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Planetary Vehicles
   Robotics:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Robotics
   Smartfab Units:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Smartfab Units
   Supercomputers:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Supercomputers
   Synthetic Synapses:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Synthetic Synapses
   Transcranial Microcontrollers:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Transcranial Microcontrollers
   Ukomi Superconductors:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Ukomi Superconductors
   Vaccines:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    name: Vaccines

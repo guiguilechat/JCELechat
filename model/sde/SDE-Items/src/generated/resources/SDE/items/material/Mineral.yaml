@@ -1,10 +1,19 @@
 items:
-  Chalcopyrite: {}
-  Isogen: {}
-  Megacyte: {}
-  Mexallon: {}
-  Morphite: {}
-  Nocxium: {}
-  Pyerite: {}
-  Tritanium: {}
-  Zydrine: {}
+  Chalcopyrite:
+    name: Chalcopyrite
+  Isogen:
+    name: Isogen
+  Megacyte:
+    name: Megacyte
+  Mexallon:
+    name: Mexallon
+  Morphite:
+    name: Morphite
+  Nocxium:
+    name: Nocxium
+  Pyerite:
+    name: Pyerite
+  Tritanium:
+    name: Tritanium
+  Zydrine:
+    name: Zydrine

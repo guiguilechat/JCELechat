@@ -2,18 +2,24 @@ items:
   '''Palisade'' Cap Recharger I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Palisade'' Cap Recharger I Blueprint'
   Ammatar Navy Cap Recharger Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Ammatar Navy Cap Recharger Blueprint
   Cap Recharger I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Cap Recharger I Blueprint
   Cap Recharger II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Cap Recharger II Blueprint
   Imperial Navy Cap Recharger Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Imperial Navy Cap Recharger Blueprint
   Khanid Navy Cap Recharger Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Khanid Navy Cap Recharger Blueprint

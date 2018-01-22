@@ -23,6 +23,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Banshee Torpedo
   Caldari Navy Inferno Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -47,6 +48,7 @@ items:
     TechLevel: 1
     ThermalDamage: 517.0
     ThermalDamageResonance: 0.800000011920929
+    name: Caldari Navy Inferno Torpedo
   Caldari Navy Mjolnir Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -71,6 +73,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Mjolnir Torpedo
   Caldari Navy Nova Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -95,6 +98,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Nova Torpedo
   Caldari Navy Scourge Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -119,6 +123,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Scourge Torpedo
   Dread Guristas Inferno Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -143,6 +148,7 @@ items:
     TechLevel: 1
     ThermalDamage: 540.0
     ThermalDamageResonance: 0.800000011920929
+    name: Dread Guristas Inferno Torpedo
   Dread Guristas Mjolnir Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -167,6 +173,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Mjolnir Torpedo
   Dread Guristas Nova Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -191,6 +198,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Nova Torpedo
   Dread Guristas Scourge Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -215,6 +223,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Scourge Torpedo
   Guristas Inferno Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -239,6 +248,7 @@ items:
     TechLevel: 1
     ThermalDamage: 495.0
     ThermalDamageResonance: 0.800000011920929
+    name: Guristas Inferno Torpedo
   Guristas Mjolnir Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -263,6 +273,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Mjolnir Torpedo
   Guristas Nova Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -287,6 +298,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Nova Torpedo
   Guristas Scourge Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -311,6 +323,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Scourge Torpedo
   Inferno Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -333,6 +346,7 @@ items:
     TechLevel: 1
     ThermalDamage: 450.0
     ThermalDamageResonance: 0.800000011920929
+    name: Inferno Torpedo
   Mjolnir Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -355,6 +369,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Mjolnir Torpedo
   Nova Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -377,6 +392,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Nova Torpedo
   Sansha Mjolnir Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -399,6 +415,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Sansha Mjolnir Torpedo
   Scourge Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -421,6 +438,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Scourge Torpedo
   True Sansha Mjolnir Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -443,3 +461,4 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: True Sansha Mjolnir Torpedo

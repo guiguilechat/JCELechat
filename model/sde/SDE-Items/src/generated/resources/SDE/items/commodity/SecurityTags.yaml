@@ -1,9 +1,13 @@
 items:
   Clone Soldier Negotiator Tag:
     SecurityProcessingFee: 6000000
+    name: Clone Soldier Negotiator Tag
   Clone Soldier Recruiter Tag:
     SecurityProcessingFee: 4000000
+    name: Clone Soldier Recruiter Tag
   Clone Soldier Trainer Tag:
     SecurityProcessingFee: 3000000
+    name: Clone Soldier Trainer Tag
   Clone Soldier Transporter Tag:
     SecurityProcessingFee: 5000000
+    name: Clone Soldier Transporter Tag

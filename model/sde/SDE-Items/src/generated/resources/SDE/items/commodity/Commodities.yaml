@@ -1,392 +1,776 @@
 items:
-  17 Successful Torture Techniques: {}
-  250,000 Skill Points: {}
-  7th Fleet Data Fragment: {}
-  Abufyr Joek's Head: {}
-  Achuran White Song Birds: {}
-  Ader's Keycard: {}
-  Ader's Message: {}
-  Aether Hive Link: {}
-  Aggregated FON Data: {}
-  Airkio Yanjulen's Corpse: {}
-  Akkeshu Karuan's DNA: {}
-  Alarus Ekire's Insignia: {}
-  Altered Identity Records: {}
-  Amarr Corpse: {}
-  Amarr Graduation Certificate: {}
-  Amarr Graduation Certificate (signed): {}
-  Amolah Kesti's Data Fragment I: {}
-  Amolah Kesti's Data Fragment II: {}
-  Amolah Kesti's Data Fragment III: {}
-  Analyzed Blood Sample: {}
-  Ancestral Armor: {}
-  Ancient Nefantar Sculpture: {}
-  Ancient Treasure Map: {}
-  Ancient Vherokior Medallion: {}
-  Ancient Weapon: {}
-  Anema Bluechip: {}
-  Angel Cartel Computer Hardware: {}
-  Angel Cartel Dust: {}
-  Angel Cartel Scanner Data: {}
-  Antiseptic Biomass: {}
-  Aortal Purifier: {}
-  Aradim Arachnan's Head: {}
-  Arc of Revelation: {}
-  Archpriest Hakram's Head: {}
-  Ardillan's Dossier: {}
-  Armor of Rouvenor: {}
-  Assistant's Keychain: {}
-  Augmented Stem Cells: {}
-  Avrue's Token: {}
-  Azure Canyon Tourist Pass: {}
-  Bag of Counterfeit Credits: {}
-  Bai's Corpse: {}
-  Barbed Wire Scanner: {}
-  Bartezo's Message: {}
-  Basic Robotics: {}
-  Binary Transpositional Code: {}
-  Black Jack's DNA: {}
-  Black Mask: {}
-  Blood Fund: {}
-  Blood Raider Squad Leader's Head: {}
-  Blood Reel: {}
-  Blood Sample: {}
-  Blue Box: {}
-  Blueprint Documents for Naval Capsuleers: {}
-  Body Bag: {}
-  Bono Zakan Corpse: {}
-  Booster Pack: {}
-  Broken Bug Device: {}
-  Broken ComLink Scanner: {}
-  Broken Science Equipment: {}
-  Bug-Ridden Corpse: {}
-  Cache of Pistols: {}
-  Caldari Corpse: {}
-  Caldari Graduation Certificate: {}
-  Caldari Graduation Certificate (signed): {}
-  Caldari Navy Convoy Disposition File: {}
-  Caldari P.A. Keycard: {}
-  Caldari P.A. Keycard Replica: {}
-  'Cartography: The Art of Treasure Map Making': {}
-  Ceremonial Brush: {}
-  Chanounian Wine: {}
-  Cheri Mirei's DNA: {}
-  Choonka's Coordinates: {}
-  Christer Fuglesang's Medal: {}
-  Clay Pigeon: {}
-  Cognitive Hive Mind: {}
-  Cold Turkey: {}
-  Colelian Spider Spruce: {}
-  ComLink Encoder/Decoder: {}
+  17 Successful Torture Techniques:
+    name: 17 Successful Torture Techniques
+  250,000 Skill Points:
+    name: 250,000 Skill Points
+  7th Fleet Data Fragment:
+    name: 7th Fleet Data Fragment
+  Abufyr Joek's Head:
+    name: Abufyr Joek's Head
+  Achuran White Song Birds:
+    name: Achuran White Song Birds
+  Ader's Keycard:
+    name: Ader's Keycard
+  Ader's Message:
+    name: Ader's Message
+  Aether Hive Link:
+    name: Aether Hive Link
+  Aggregated FON Data:
+    name: Aggregated FON Data
+  Airkio Yanjulen's Corpse:
+    name: Airkio Yanjulen's Corpse
+  Akkeshu Karuan's DNA:
+    name: Akkeshu Karuan's DNA
+  Alarus Ekire's Insignia:
+    name: Alarus Ekire's Insignia
+  Altered Identity Records:
+    name: Altered Identity Records
+  Amarr Corpse:
+    name: Amarr Corpse
+  Amarr Graduation Certificate:
+    name: Amarr Graduation Certificate
+  Amarr Graduation Certificate (signed):
+    name: Amarr Graduation Certificate (signed)
+  Amolah Kesti's Data Fragment I:
+    name: Amolah Kesti's Data Fragment I
+  Amolah Kesti's Data Fragment II:
+    name: Amolah Kesti's Data Fragment II
+  Amolah Kesti's Data Fragment III:
+    name: Amolah Kesti's Data Fragment III
+  Analyzed Blood Sample:
+    name: Analyzed Blood Sample
+  Ancestral Armor:
+    name: Ancestral Armor
+  Ancient Nefantar Sculpture:
+    name: Ancient Nefantar Sculpture
+  Ancient Treasure Map:
+    name: Ancient Treasure Map
+  Ancient Vherokior Medallion:
+    name: Ancient Vherokior Medallion
+  Ancient Weapon:
+    name: Ancient Weapon
+  Anema Bluechip:
+    name: Anema Bluechip
+  Angel Cartel Computer Hardware:
+    name: Angel Cartel Computer Hardware
+  Angel Cartel Dust:
+    name: Angel Cartel Dust
+  Angel Cartel Scanner Data:
+    name: Angel Cartel Scanner Data
+  Antiseptic Biomass:
+    name: Antiseptic Biomass
+  Aortal Purifier:
+    name: Aortal Purifier
+  Aradim Arachnan's Head:
+    name: Aradim Arachnan's Head
+  Arc of Revelation:
+    name: Arc of Revelation
+  Archpriest Hakram's Head:
+    name: Archpriest Hakram's Head
+  Ardillan's Dossier:
+    name: Ardillan's Dossier
+  Armor of Rouvenor:
+    name: Armor of Rouvenor
+  Assistant's Keychain:
+    name: Assistant's Keychain
+  Augmented Stem Cells:
+    name: Augmented Stem Cells
+  Avrue's Token:
+    name: Avrue's Token
+  Azure Canyon Tourist Pass:
+    name: Azure Canyon Tourist Pass
+  Bag of Counterfeit Credits:
+    name: Bag of Counterfeit Credits
+  Bai's Corpse:
+    name: Bai's Corpse
+  Barbed Wire Scanner:
+    name: Barbed Wire Scanner
+  Bartezo's Message:
+    name: Bartezo's Message
+  Basic Robotics:
+    name: Basic Robotics
+  Binary Transpositional Code:
+    name: Binary Transpositional Code
+  Black Jack's DNA:
+    name: Black Jack's DNA
+  Black Mask:
+    name: Black Mask
+  Blood Fund:
+    name: Blood Fund
+  Blood Raider Squad Leader's Head:
+    name: Blood Raider Squad Leader's Head
+  Blood Reel:
+    name: Blood Reel
+  Blood Sample:
+    name: Blood Sample
+  Blue Box:
+    name: Blue Box
+  Blueprint Documents for Naval Capsuleers:
+    name: Blueprint Documents for Naval Capsuleers
+  Body Bag:
+    name: Body Bag
+  Bono Zakan Corpse:
+    name: Bono Zakan Corpse
+  Booster Pack:
+    name: Booster Pack
+  Broken Bug Device:
+    name: Broken Bug Device
+  Broken ComLink Scanner:
+    name: Broken ComLink Scanner
+  Broken Science Equipment:
+    name: Broken Science Equipment
+  Bug-Ridden Corpse:
+    name: Bug-Ridden Corpse
+  Cache of Pistols:
+    name: Cache of Pistols
+  Caldari Corpse:
+    name: Caldari Corpse
+  Caldari Graduation Certificate:
+    name: Caldari Graduation Certificate
+  Caldari Graduation Certificate (signed):
+    name: Caldari Graduation Certificate (signed)
+  Caldari Navy Convoy Disposition File:
+    name: Caldari Navy Convoy Disposition File
+  Caldari P.A. Keycard:
+    name: Caldari P.A. Keycard
+  Caldari P.A. Keycard Replica:
+    name: Caldari P.A. Keycard Replica
+  'Cartography: The Art of Treasure Map Making':
+    name: 'Cartography: The Art of Treasure Map Making'
+  Ceremonial Brush:
+    name: Ceremonial Brush
+  Chanounian Wine:
+    name: Chanounian Wine
+  Cheri Mirei's DNA:
+    name: Cheri Mirei's DNA
+  Choonka's Coordinates:
+    name: Choonka's Coordinates
+  Christer Fuglesang's Medal:
+    name: Christer Fuglesang's Medal
+  Clay Pigeon:
+    name: Clay Pigeon
+  Cognitive Hive Mind:
+    name: Cognitive Hive Mind
+  Cold Turkey:
+    name: Cold Turkey
+  Colelian Spider Spruce:
+    name: Colelian Spider Spruce
+  ComLink Encoder/Decoder:
+    name: ComLink Encoder/Decoder
   Construction Tools:
     Hp: 100
-  Corpse of Enlil Bel: {}
-  Counterfeit Credits: {}
-  Cracked Keycard: {}
-  Crash Ultra: {}
-  Crude Sculpture: {}
-  Custom-built Guidance System: {}
-  Custom-made Antenna: {}
-  DNA Samples of Republic Commandos: {}
-  Damaged Cloaking Device: {}
-  Data Chip Decoder: {}
-  Dead Pilgrim: {}
-  Destroyed ComLink Scanner: {}
-  Device: {}
-  Divine Opium: {}
-  Doctored Arrivals & Departures Logs: {}
-  Dolls: {}
-  Don Rico's Head: {}
-  Dorga Roes: {}
-  Drill: {}
-  Drone Mind Embryo: {}
-  Drone Observation Data: {}
-  Drug Delivery Package: {}
-  Dynamite Crate: {}
-  Dynasty Ring: {}
-  E.F.A. ID Card: {}
-  EMP Charge Components: {}
-  Edict of Ancestry: {}
-  Eilard's Corpse: {}
-  Elere Febre's Data Log: {}
-  Elite Laser Pistols: {}
-  Empty Data Chip: {}
-  Encoded Data Transmission: {}
-  Encoded Gurista Intelligence Dossier: {}
-  Encoded RSS Brief: {}
-  Encoding Matrix Component: {}
-  Encryption Code Book: {}
-  Enigma Cypher Book: {}
-  Enlistment (Amarr) for Naval Capsuleers: {}
-  Enlistment (Caldari) for Naval Capsuleers: {}
-  Enlistment (Gallente) for Naval Capsuleers: {}
-  Enlistment (Minmatar) for Naval Capsuleers: {}
-  Erakki's Voucher: {}
-  Eule Vitrauze's DNA: {}
-  Excavation Equipment: {}
-  Excavation Note: {}
-  Expeditionary Data: {}
-  FON Banner: {}
-  FON Contact DNA: {}
-  FON Strike Scene Evidence: {}
-  FON-Wiyrkomi Data Chip: {}
-  FedMart Reports: {}
-  Fedo: {}
-  Fedo Blood: {}
-  Finger Bone: {}
-  Firecrackers: {}
-  Firewater: {}
-  Flower Power Powder: {}
-  Foreman's Head: {}
-  Forged Waypoint Logs: {}
-  Formula for Septicemic Agent: {}
-  Free Sample: {}
-  Frozen Livers: {}
-  Gallente Admiral's Corpse: {}
-  Gallente Corpse: {}
-  Gallente Graduation Certificate: {}
-  Gallente Graduation Certificate (signed): {}
-  Gallente Intelligence Data Recorder: {}
-  Gatti's DNA: {}
-  Generator Debris: {}
-  Gist Database Codes: {}
-  Godun Sakt's Diamond Drill: {}
-  Godun Sakt's Questionable Holoreel: {}
-  Gue Mouey's Message: {}
-  Guristas Armory Codes: {}
-  Guristas Communications Logs: {}
-  Guristas Data Sequence: {}
-  Guristas Outlaw Dogtag: {}
-  Guristas Outlaw Leader Insignia: {}
-  Guristas Patrol Routes: {}
-  Hacker's Keycard: {}
-  Hakiro's Scanner Data: {}
-  Hakkuran Brother's Remains: {}
-  Hard Currency: {}
-  Head in a Jar: {}
-  Holy Statue: {}
-  Homemade Sansha Beacon: {}
-  House Arachnan Legal Documents: {}
-  House Methros Coat of Arms: {}
-  Hraldar's Sculpture: {}
-  Hybrid Weapon Assembly Instructions: {}
-  ID Card Generator: {}
-  Identity Data Chip: {}
-  Illian's Passcard: {}
-  Imperial Navy Gate Permit: {}
-  Imperial Navy Gate Permit Container: {}
-  Important Surveillance Data: {}
-  Impregnable Safe: {}
-  Insorum Components: {}
-  Inter-Galactic Media Report - The Audesder Incident (1 of 3): {}
-  Inter-Galactic Media Report - The Audesder Incident (2 of 3): {}
-  Inter-Galactic Media Report - The Audesder Incident (3 of 3): {}
-  Interview Transcripts: {}
-  Ison's Voucher: {}
-  Isone Flosin's DNA: {}
-  Isone Flosins's Corpse: {}
-  Jakon's Head: {}
-  Jedon Hekkiren's Belongings: {}
-  Jerpam Hollek's Head: {}
-  Kakala's Voucher: {}
-  Kelmiler's Transaction Documents 18992 D: {}
-  Kepheur's DNA: {}
-  Key To Lord Manel's Mansion: {}
-  Khanid Commander Keycard: {}
-  Khanid Ext Keycard: {}
-  Kois Entry Passcard: {}
-  Kuashi: {}
-  Kusan Niemenen's Missile Launcher: {}
-  Kutill's Data Chip: {}
-  Kyan Magdesh's DNA: {}
-  Lagaster Malotoff's Tag: {}
-  Latent Submission Tapes: {}
-  Letter of Recommendation: {}
-  Liberation Elixir: {}
-  Loki's DNA: {}
-  Lord Arachnan's Encrypted Data Burst: {}
-  Lord Arachnan's Medal: {}
-  Lord Manel's Message: {}
-  Lord Methros' Encrypted Data Burst: {}
-  Machul's Head: {}
-  Mamo's Message: {}
-  Mangled Corpses: {}
-  Maqeri Camcen's DNA: {}
-  Me, Myself and Plunder: {}
-  Medicinal Herbs: {}
-  Metal Scraps: {}
-  Methros Enhanced Decoding Device: {}
-  MicroLink Encoder/Decoder: {}
-  Military Intelligence Report: {}
-  Minas's Voucher: {}
-  Mind-Altering Drugs: {}
-  Mining Equipment: {}
-  Minmatar Bluechip: {}
-  Minmatar Graduation Certificate: {}
-  Minmatar Graduation Certificate (signed): {}
-  Minmatar Pilot's Corpse: {}
-  Moa Parts: {}
-  Modified Laser Rifles: {}
-  Motherload Bomb: {}
-  Myrkai's Data Chip: {}
-  Mysterious Portal Parts: {}
-  NOH Signal Operators: {}
-  Namian's Artifacts: {}
-  Nanom Basskel's Ship Logs: {}
-  Navigation for Dummies: {}
-  Navy Issue Amplifier: {}
-  Neural Bio Link: {}
-  Noble Remains: {}
-  Norak Pakkul's DNA: {}
-  Nossa Farad's Voucher: {}
-  Nugoeihuvi Dogtag: {}
-  Nugoeihuvi Rifles: {}
-  Nugoeihuvi Station Schematics: {}
-  Nugoeihuvi Transaction Logs: {}
-  Nugoeihuvi reports: {}
-  Nuomo's Scanner Data: {}
-  Nuomo's Voucher: {}
-  Odan Poun's Message: {}
-  Oduma's Voucher: {}
-  Oggiin Kalda's DNA: {}
-  Okelle's Encryption-Protected Hard Drive: {}
-  Okham's Head: {}
-  Onreun's Crash: {}
-  Otsalen Mano's Corpse: {}
-  Ovon Flac's Container: {}
-  Ovon Flac's Documents: {}
-  Pakkori's Hat: {}
-  Pansya's Head: {}
-  Parts of Printing Machine: {}
-  Pata Wakiro's DNA: {}
-  Patrenn's Stash: {}
-  Perpetual Chamber Warden: {}
-  Pillaging 101: {}
-  Pilot Certification Documents: {}
-  Pistols: {}
-  Plague Spores: {}
-  Plan to Crack Impregnable Safe: {}
-  Portable Power Generator: {}
-  Powdered Cubensis: {}
-  Preaux's Letter: {}
-  Propel Dynamics Reports: {}
-  Prophecy Virus: {}
-  Prototype Nuclear Small Arms: {}
-  Purple Haze: {}
-  R.S. Officer's Alpha Passcard: {}
-  R.S. Officer's Passcard: {}
-  REF Insignia: {}
-  Raid Drone Command Chip: {}
-  Raid Drone Navigation Chip: {}
-  Raytio Family Supplies: {}
-  Rebel Biomass: {}
-  Reclaimed Organics: {}
-  Recon Speeders: {}
-  Recruitment Center Data Log: {}
-  Reinforced Metal Scraps: {}
-  Rekker's Keycard: {}
-  Remains of Thukker Pest: {}
-  Replacement Laboratory Equipment: {}
-  Republic Fleet Deserter: {}
-  Republic Pilot: {}
-  Republic Repair Kit: {}
-  Rifles: {}
-  Ritual Texts: {}
-  Robikar's Recommendation: {}
-  Rotgut: {}
-  Ruined Hive Mind: {}
-  Runic Inscription: {}
-  Runic Tablet: {}
-  Ryoke Laika's Head: {}
-  ST 58 Memory Chip: {}
-  ST 59 Memory Chip: {}
-  ST 60 Memory Chip: {}
-  Sadry Damoklet's Head: {}
-  Safe-Deposit Box Owner List: {}
-  Saintly Shroud: {}
-  Salvaged Data Core: {}
-  Sample of Septicemic Agent: {}
-  Scanner Data I: {}
-  Scanner Data II: {}
-  Scanner Data III: {}
-  Sealed Case of GI Paradise Missiles: {}
-  Sealed Container: {}
-  Searcher Drone's Memory Chip: {}
-  Seasoned Dandruff: {}
-  Secret Documents: {}
-  Secret Garage Coordinates: {}
-  Secure Coded Package: {}
-  Serpentis Data Chip Decoder: {}
-  Serpentis Transaction Log: {}
-  Severed Head: {}
-  Shady Acres Deed: {}
-  Shady Goods: {}
-  Shattered Forgery Tools: {}
-  Shattered Villard Wheel: {}
-  Ship logs: {}
-  Sispur's Security Camera Logs: {}
-  Slave Manifests: {}
-  Slave Ownership Record: {}
-  Smuggler DNA: {}
-  Smuggler Signet: {}
-  Smuggler Tag: {}
-  Speedometer: {}
-  Spiked Quafe: {}
-  Spoiled Drugs: {}
-  Stolen Documents: {}
-  Stolen Goods: {}
-  Store Goods: {}
-  Strange Construction Blocks: {}
-  Strange DNA: {}
-  Strike Force Gear: {}
-  Suho Tatanal's Investigation Dossier: {}
-  Surveillance Recordings: {}
-  Sweet Leaves: {}
-  Swirling Color-cards: {}
-  TX-890 Polytextile Fabric: {}
-  Tactical Information I: {}
-  Tactical Information II: {}
-  Tactical Information III: {}
-  Tactical Information IV: {}
-  Tactical Response Transmitter: {}
-  Tampered Dolls: {}
-  Telligman's Stone: {}
+    name: Construction Tools
+  Corpse of Enlil Bel:
+    name: Corpse of Enlil Bel
+  Counterfeit Credits:
+    name: Counterfeit Credits
+  Cracked Keycard:
+    name: Cracked Keycard
+  Crash Ultra:
+    name: Crash Ultra
+  Crude Sculpture:
+    name: Crude Sculpture
+  Custom-built Guidance System:
+    name: Custom-built Guidance System
+  Custom-made Antenna:
+    name: Custom-made Antenna
+  DNA Samples of Republic Commandos:
+    name: DNA Samples of Republic Commandos
+  Damaged Cloaking Device:
+    name: Damaged Cloaking Device
+  Data Chip Decoder:
+    name: Data Chip Decoder
+  Dead Pilgrim:
+    name: Dead Pilgrim
+  Destroyed ComLink Scanner:
+    name: Destroyed ComLink Scanner
+  Device:
+    name: Device
+  Divine Opium:
+    name: Divine Opium
+  Doctored Arrivals & Departures Logs:
+    name: Doctored Arrivals & Departures Logs
+  Dolls:
+    name: Dolls
+  Don Rico's Head:
+    name: Don Rico's Head
+  Dorga Roes:
+    name: Dorga Roes
+  Drill:
+    name: Drill
+  Drone Mind Embryo:
+    name: Drone Mind Embryo
+  Drone Observation Data:
+    name: Drone Observation Data
+  Drug Delivery Package:
+    name: Drug Delivery Package
+  Dynamite Crate:
+    name: Dynamite Crate
+  Dynasty Ring:
+    name: Dynasty Ring
+  E.F.A. ID Card:
+    name: E.F.A. ID Card
+  EMP Charge Components:
+    name: EMP Charge Components
+  Edict of Ancestry:
+    name: Edict of Ancestry
+  Eilard's Corpse:
+    name: Eilard's Corpse
+  Elere Febre's Data Log:
+    name: Elere Febre's Data Log
+  Elite Laser Pistols:
+    name: Elite Laser Pistols
+  Empty Data Chip:
+    name: Empty Data Chip
+  Encoded Data Transmission:
+    name: Encoded Data Transmission
+  Encoded Gurista Intelligence Dossier:
+    name: Encoded Gurista Intelligence Dossier
+  Encoded RSS Brief:
+    name: Encoded RSS Brief
+  Encoding Matrix Component:
+    name: Encoding Matrix Component
+  Encryption Code Book:
+    name: Encryption Code Book
+  Enigma Cypher Book:
+    name: Enigma Cypher Book
+  Enlistment (Amarr) for Naval Capsuleers:
+    name: Enlistment (Amarr) for Naval Capsuleers
+  Enlistment (Caldari) for Naval Capsuleers:
+    name: Enlistment (Caldari) for Naval Capsuleers
+  Enlistment (Gallente) for Naval Capsuleers:
+    name: Enlistment (Gallente) for Naval Capsuleers
+  Enlistment (Minmatar) for Naval Capsuleers:
+    name: Enlistment (Minmatar) for Naval Capsuleers
+  Erakki's Voucher:
+    name: Erakki's Voucher
+  Eule Vitrauze's DNA:
+    name: Eule Vitrauze's DNA
+  Excavation Equipment:
+    name: Excavation Equipment
+  Excavation Note:
+    name: Excavation Note
+  Expeditionary Data:
+    name: Expeditionary Data
+  FON Banner:
+    name: FON Banner
+  FON Contact DNA:
+    name: FON Contact DNA
+  FON Strike Scene Evidence:
+    name: FON Strike Scene Evidence
+  FON-Wiyrkomi Data Chip:
+    name: FON-Wiyrkomi Data Chip
+  FedMart Reports:
+    name: FedMart Reports
+  Fedo:
+    name: Fedo
+  Fedo Blood:
+    name: Fedo Blood
+  Finger Bone:
+    name: Finger Bone
+  Firecrackers:
+    name: Firecrackers
+  Firewater:
+    name: Firewater
+  Flower Power Powder:
+    name: Flower Power Powder
+  Foreman's Head:
+    name: Foreman's Head
+  Forged Waypoint Logs:
+    name: Forged Waypoint Logs
+  Formula for Septicemic Agent:
+    name: Formula for Septicemic Agent
+  Free Sample:
+    name: Free Sample
+  Frozen Livers:
+    name: Frozen Livers
+  Gallente Admiral's Corpse:
+    name: Gallente Admiral's Corpse
+  Gallente Corpse:
+    name: Gallente Corpse
+  Gallente Graduation Certificate:
+    name: Gallente Graduation Certificate
+  Gallente Graduation Certificate (signed):
+    name: Gallente Graduation Certificate (signed)
+  Gallente Intelligence Data Recorder:
+    name: Gallente Intelligence Data Recorder
+  Gatti's DNA:
+    name: Gatti's DNA
+  Generator Debris:
+    name: Generator Debris
+  Gist Database Codes:
+    name: Gist Database Codes
+  Godun Sakt's Diamond Drill:
+    name: Godun Sakt's Diamond Drill
+  Godun Sakt's Questionable Holoreel:
+    name: Godun Sakt's Questionable Holoreel
+  Gue Mouey's Message:
+    name: Gue Mouey's Message
+  Guristas Armory Codes:
+    name: Guristas Armory Codes
+  Guristas Communications Logs:
+    name: Guristas Communications Logs
+  Guristas Data Sequence:
+    name: Guristas Data Sequence
+  Guristas Outlaw Dogtag:
+    name: Guristas Outlaw Dogtag
+  Guristas Outlaw Leader Insignia:
+    name: Guristas Outlaw Leader Insignia
+  Guristas Patrol Routes:
+    name: Guristas Patrol Routes
+  Hacker's Keycard:
+    name: Hacker's Keycard
+  Hakiro's Scanner Data:
+    name: Hakiro's Scanner Data
+  Hakkuran Brother's Remains:
+    name: Hakkuran Brother's Remains
+  Hard Currency:
+    name: Hard Currency
+  Head in a Jar:
+    name: Head in a Jar
+  Holy Statue:
+    name: Holy Statue
+  Homemade Sansha Beacon:
+    name: Homemade Sansha Beacon
+  House Arachnan Legal Documents:
+    name: House Arachnan Legal Documents
+  House Methros Coat of Arms:
+    name: House Methros Coat of Arms
+  Hraldar's Sculpture:
+    name: Hraldar's Sculpture
+  Hybrid Weapon Assembly Instructions:
+    name: Hybrid Weapon Assembly Instructions
+  ID Card Generator:
+    name: ID Card Generator
+  Identity Data Chip:
+    name: Identity Data Chip
+  Illian's Passcard:
+    name: Illian's Passcard
+  Imperial Navy Gate Permit:
+    name: Imperial Navy Gate Permit
+  Imperial Navy Gate Permit Container:
+    name: Imperial Navy Gate Permit Container
+  Important Surveillance Data:
+    name: Important Surveillance Data
+  Impregnable Safe:
+    name: Impregnable Safe
+  Insorum Components:
+    name: Insorum Components
+  Inter-Galactic Media Report - The Audesder Incident (1 of 3):
+    name: Inter-Galactic Media Report - The Audesder Incident (1 of 3)
+  Inter-Galactic Media Report - The Audesder Incident (2 of 3):
+    name: Inter-Galactic Media Report - The Audesder Incident (2 of 3)
+  Inter-Galactic Media Report - The Audesder Incident (3 of 3):
+    name: Inter-Galactic Media Report - The Audesder Incident (3 of 3)
+  Interview Transcripts:
+    name: Interview Transcripts
+  Ison's Voucher:
+    name: Ison's Voucher
+  Isone Flosin's DNA:
+    name: Isone Flosin's DNA
+  Isone Flosins's Corpse:
+    name: Isone Flosins's Corpse
+  Jakon's Head:
+    name: Jakon's Head
+  Jedon Hekkiren's Belongings:
+    name: Jedon Hekkiren's Belongings
+  Jerpam Hollek's Head:
+    name: Jerpam Hollek's Head
+  Kakala's Voucher:
+    name: Kakala's Voucher
+  Kelmiler's Transaction Documents 18992 D:
+    name: Kelmiler's Transaction Documents 18992 D
+  Kepheur's DNA:
+    name: Kepheur's DNA
+  Key To Lord Manel's Mansion:
+    name: Key To Lord Manel's Mansion
+  Khanid Commander Keycard:
+    name: Khanid Commander Keycard
+  Khanid Ext Keycard:
+    name: Khanid Ext Keycard
+  Kois Entry Passcard:
+    name: Kois Entry Passcard
+  Kuashi:
+    name: Kuashi
+  Kusan Niemenen's Missile Launcher:
+    name: Kusan Niemenen's Missile Launcher
+  Kutill's Data Chip:
+    name: Kutill's Data Chip
+  Kyan Magdesh's DNA:
+    name: Kyan Magdesh's DNA
+  Lagaster Malotoff's Tag:
+    name: Lagaster Malotoff's Tag
+  Latent Submission Tapes:
+    name: Latent Submission Tapes
+  Letter of Recommendation:
+    name: Letter of Recommendation
+  Liberation Elixir:
+    name: Liberation Elixir
+  Loki's DNA:
+    name: Loki's DNA
+  Lord Arachnan's Encrypted Data Burst:
+    name: Lord Arachnan's Encrypted Data Burst
+  Lord Arachnan's Medal:
+    name: Lord Arachnan's Medal
+  Lord Manel's Message:
+    name: Lord Manel's Message
+  Lord Methros' Encrypted Data Burst:
+    name: Lord Methros' Encrypted Data Burst
+  Machul's Head:
+    name: Machul's Head
+  Mamo's Message:
+    name: Mamo's Message
+  Mangled Corpses:
+    name: Mangled Corpses
+  Maqeri Camcen's DNA:
+    name: Maqeri Camcen's DNA
+  Me, Myself and Plunder:
+    name: Me, Myself and Plunder
+  Medicinal Herbs:
+    name: Medicinal Herbs
+  Metal Scraps:
+    name: Metal Scraps
+  Methros Enhanced Decoding Device:
+    name: Methros Enhanced Decoding Device
+  MicroLink Encoder/Decoder:
+    name: MicroLink Encoder/Decoder
+  Military Intelligence Report:
+    name: Military Intelligence Report
+  Minas's Voucher:
+    name: Minas's Voucher
+  Mind-Altering Drugs:
+    name: Mind-Altering Drugs
+  Mining Equipment:
+    name: Mining Equipment
+  Minmatar Bluechip:
+    name: Minmatar Bluechip
+  Minmatar Graduation Certificate:
+    name: Minmatar Graduation Certificate
+  Minmatar Graduation Certificate (signed):
+    name: Minmatar Graduation Certificate (signed)
+  Minmatar Pilot's Corpse:
+    name: Minmatar Pilot's Corpse
+  Moa Parts:
+    name: Moa Parts
+  Modified Laser Rifles:
+    name: Modified Laser Rifles
+  Motherload Bomb:
+    name: Motherload Bomb
+  Myrkai's Data Chip:
+    name: Myrkai's Data Chip
+  Mysterious Portal Parts:
+    name: Mysterious Portal Parts
+  NOH Signal Operators:
+    name: NOH Signal Operators
+  Namian's Artifacts:
+    name: Namian's Artifacts
+  Nanom Basskel's Ship Logs:
+    name: Nanom Basskel's Ship Logs
+  Navigation for Dummies:
+    name: Navigation for Dummies
+  Navy Issue Amplifier:
+    name: Navy Issue Amplifier
+  Neural Bio Link:
+    name: Neural Bio Link
+  Noble Remains:
+    name: Noble Remains
+  Norak Pakkul's DNA:
+    name: Norak Pakkul's DNA
+  Nossa Farad's Voucher:
+    name: Nossa Farad's Voucher
+  Nugoeihuvi Dogtag:
+    name: Nugoeihuvi Dogtag
+  Nugoeihuvi Rifles:
+    name: Nugoeihuvi Rifles
+  Nugoeihuvi Station Schematics:
+    name: Nugoeihuvi Station Schematics
+  Nugoeihuvi Transaction Logs:
+    name: Nugoeihuvi Transaction Logs
+  Nugoeihuvi reports:
+    name: Nugoeihuvi reports
+  Nuomo's Scanner Data:
+    name: Nuomo's Scanner Data
+  Nuomo's Voucher:
+    name: Nuomo's Voucher
+  Odan Poun's Message:
+    name: Odan Poun's Message
+  Oduma's Voucher:
+    name: Oduma's Voucher
+  Oggiin Kalda's DNA:
+    name: Oggiin Kalda's DNA
+  Okelle's Encryption-Protected Hard Drive:
+    name: Okelle's Encryption-Protected Hard Drive
+  Okham's Head:
+    name: Okham's Head
+  Onreun's Crash:
+    name: Onreun's Crash
+  Otsalen Mano's Corpse:
+    name: Otsalen Mano's Corpse
+  Ovon Flac's Container:
+    name: Ovon Flac's Container
+  Ovon Flac's Documents:
+    name: Ovon Flac's Documents
+  Pakkori's Hat:
+    name: Pakkori's Hat
+  Pansya's Head:
+    name: Pansya's Head
+  Parts of Printing Machine:
+    name: Parts of Printing Machine
+  Pata Wakiro's DNA:
+    name: Pata Wakiro's DNA
+  Patrenn's Stash:
+    name: Patrenn's Stash
+  Perpetual Chamber Warden:
+    name: Perpetual Chamber Warden
+  Pillaging 101:
+    name: Pillaging 101
+  Pilot Certification Documents:
+    name: Pilot Certification Documents
+  Pistols:
+    name: Pistols
+  Plague Spores:
+    name: Plague Spores
+  Plan to Crack Impregnable Safe:
+    name: Plan to Crack Impregnable Safe
+  Portable Power Generator:
+    name: Portable Power Generator
+  Powdered Cubensis:
+    name: Powdered Cubensis
+  Preaux's Letter:
+    name: Preaux's Letter
+  Propel Dynamics Reports:
+    name: Propel Dynamics Reports
+  Prophecy Virus:
+    name: Prophecy Virus
+  Prototype Nuclear Small Arms:
+    name: Prototype Nuclear Small Arms
+  Purple Haze:
+    name: Purple Haze
+  R.S. Officer's Alpha Passcard:
+    name: R.S. Officer's Alpha Passcard
+  R.S. Officer's Passcard:
+    name: R.S. Officer's Passcard
+  REF Insignia:
+    name: REF Insignia
+  Raid Drone Command Chip:
+    name: Raid Drone Command Chip
+  Raid Drone Navigation Chip:
+    name: Raid Drone Navigation Chip
+  Raytio Family Supplies:
+    name: Raytio Family Supplies
+  Rebel Biomass:
+    name: Rebel Biomass
+  Reclaimed Organics:
+    name: Reclaimed Organics
+  Recon Speeders:
+    name: Recon Speeders
+  Recruitment Center Data Log:
+    name: Recruitment Center Data Log
+  Reinforced Metal Scraps:
+    name: Reinforced Metal Scraps
+  Rekker's Keycard:
+    name: Rekker's Keycard
+  Remains of Thukker Pest:
+    name: Remains of Thukker Pest
+  Replacement Laboratory Equipment:
+    name: Replacement Laboratory Equipment
+  Republic Fleet Deserter:
+    name: Republic Fleet Deserter
+  Republic Pilot:
+    name: Republic Pilot
+  Republic Repair Kit:
+    name: Republic Repair Kit
+  Rifles:
+    name: Rifles
+  Ritual Texts:
+    name: Ritual Texts
+  Robikar's Recommendation:
+    name: Robikar's Recommendation
+  Rotgut:
+    name: Rotgut
+  Ruined Hive Mind:
+    name: Ruined Hive Mind
+  Runic Inscription:
+    name: Runic Inscription
+  Runic Tablet:
+    name: Runic Tablet
+  Ryoke Laika's Head:
+    name: Ryoke Laika's Head
+  ST 58 Memory Chip:
+    name: ST 58 Memory Chip
+  ST 59 Memory Chip:
+    name: ST 59 Memory Chip
+  ST 60 Memory Chip:
+    name: ST 60 Memory Chip
+  Sadry Damoklet's Head:
+    name: Sadry Damoklet's Head
+  Safe-Deposit Box Owner List:
+    name: Safe-Deposit Box Owner List
+  Saintly Shroud:
+    name: Saintly Shroud
+  Salvaged Data Core:
+    name: Salvaged Data Core
+  Sample of Septicemic Agent:
+    name: Sample of Septicemic Agent
+  Scanner Data I:
+    name: Scanner Data I
+  Scanner Data II:
+    name: Scanner Data II
+  Scanner Data III:
+    name: Scanner Data III
+  Sealed Case of GI Paradise Missiles:
+    name: Sealed Case of GI Paradise Missiles
+  Sealed Container:
+    name: Sealed Container
+  Searcher Drone's Memory Chip:
+    name: Searcher Drone's Memory Chip
+  Seasoned Dandruff:
+    name: Seasoned Dandruff
+  Secret Documents:
+    name: Secret Documents
+  Secret Garage Coordinates:
+    name: Secret Garage Coordinates
+  Secure Coded Package:
+    name: Secure Coded Package
+  Serpentis Data Chip Decoder:
+    name: Serpentis Data Chip Decoder
+  Serpentis Transaction Log:
+    name: Serpentis Transaction Log
+  Severed Head:
+    name: Severed Head
+  Shady Acres Deed:
+    name: Shady Acres Deed
+  Shady Goods:
+    name: Shady Goods
+  Shattered Forgery Tools:
+    name: Shattered Forgery Tools
+  Shattered Villard Wheel:
+    name: Shattered Villard Wheel
+  Ship logs:
+    name: Ship logs
+  Sispur's Security Camera Logs:
+    name: Sispur's Security Camera Logs
+  Slave Manifests:
+    name: Slave Manifests
+  Slave Ownership Record:
+    name: Slave Ownership Record
+  Smuggler DNA:
+    name: Smuggler DNA
+  Smuggler Signet:
+    name: Smuggler Signet
+  Smuggler Tag:
+    name: Smuggler Tag
+  Speedometer:
+    name: Speedometer
+  Spiked Quafe:
+    name: Spiked Quafe
+  Spoiled Drugs:
+    name: Spoiled Drugs
+  Stolen Documents:
+    name: Stolen Documents
+  Stolen Goods:
+    name: Stolen Goods
+  Store Goods:
+    name: Store Goods
+  Strange Construction Blocks:
+    name: Strange Construction Blocks
+  Strange DNA:
+    name: Strange DNA
+  Strike Force Gear:
+    name: Strike Force Gear
+  Suho Tatanal's Investigation Dossier:
+    name: Suho Tatanal's Investigation Dossier
+  Surveillance Recordings:
+    name: Surveillance Recordings
+  Sweet Leaves:
+    name: Sweet Leaves
+  Swirling Color-cards:
+    name: Swirling Color-cards
+  TX-890 Polytextile Fabric:
+    name: TX-890 Polytextile Fabric
+  Tactical Information I:
+    name: Tactical Information I
+  Tactical Information II:
+    name: Tactical Information II
+  Tactical Information III:
+    name: Tactical Information III
+  Tactical Information IV:
+    name: Tactical Information IV
+  Tactical Response Transmitter:
+    name: Tactical Response Transmitter
+  Tampered Dolls:
+    name: Tampered Dolls
+  Telligman's Stone:
+    name: Telligman's Stone
   Terran Broken Datachips - Weaponry:
     DamageCloudChance: 0.05000000074505806
     DamageCloudType: 11546
     ReprocessingSkillType: 12189
     RequiredSkill1: 13281
     RequiredSkill1Level: 3
-  Test Bong: {}
-  The Apocryphon: {}
-  The Little Pirate That Could: {}
-  Threaded Waypoint Map: {}
+    name: Terran Broken Datachips - Weaponry
+  Test Bong:
+    name: Test Bong
+  The Apocryphon:
+    name: The Apocryphon
+  The Little Pirate That Could:
+    name: The Little Pirate That Could
+  Threaded Waypoint Map:
+    name: Threaded Waypoint Map
   Thukker Loot:
     Hp: 100
-  Thyram Arachnan's Dossier: {}
-  Tikui's Message: {}
-  Transputer Orb: {}
-  Tri-Vitoc: {}
-  Trust Partners Business Card: {}
-  Truthteller: {}
-  Unassembled Drills: {}
-  Unassembled Hybrid Weapons: {}
-  Utrainen's Employment Voucher: {}
-  Utrainen's Reports: {}
-  Vanir Makono's DNA: {}
-  Vat of Aqua Regia Acid: {}
-  Veko Tallaja's Voucher: {}
-  Villard Wheel: {}
-  Warning Message: {}
-  Wiretap Plant: {}
-  Wiyrkomi Data Chip: {}
-  Wiyrkomi Rifles: {}
-  Wiyrkomi Scandal Holoreel: {}
-  Wiyrkomi Voucher: {}
-  Yamia Mida's Remains: {}
-  Yan Jung Micro Processor: {}
-  Yttora's Corpse: {}
-  Zach's Note: {}
-  Zydrine Burn: {}
-  Zydrine Wine: {}
-  unnamed_gid0_sid0: {}
+    name: Thukker Loot
+  Thyram Arachnan's Dossier:
+    name: Thyram Arachnan's Dossier
+  Tikui's Message:
+    name: Tikui's Message
+  Transputer Orb:
+    name: Transputer Orb
+  Tri-Vitoc:
+    name: Tri-Vitoc
+  Trust Partners Business Card:
+    name: Trust Partners Business Card
+  Truthteller:
+    name: Truthteller
+  Unassembled Drills:
+    name: Unassembled Drills
+  Unassembled Hybrid Weapons:
+    name: Unassembled Hybrid Weapons
+  Utrainen's Employment Voucher:
+    name: Utrainen's Employment Voucher
+  Utrainen's Reports:
+    name: Utrainen's Reports
+  Vanir Makono's DNA:
+    name: Vanir Makono's DNA
+  Vat of Aqua Regia Acid:
+    name: Vat of Aqua Regia Acid
+  Veko Tallaja's Voucher:
+    name: Veko Tallaja's Voucher
+  Villard Wheel:
+    name: Villard Wheel
+  Warning Message:
+    name: Warning Message
+  Wiretap Plant:
+    name: Wiretap Plant
+  Wiyrkomi Data Chip:
+    name: Wiyrkomi Data Chip
+  Wiyrkomi Rifles:
+    name: Wiyrkomi Rifles
+  Wiyrkomi Scandal Holoreel:
+    name: Wiyrkomi Scandal Holoreel
+  Wiyrkomi Voucher:
+    name: Wiyrkomi Voucher
+  Yamia Mida's Remains:
+    name: Yamia Mida's Remains
+  Yan Jung Micro Processor:
+    name: Yan Jung Micro Processor
+  Yttora's Corpse:
+    name: Yttora's Corpse
+  Zach's Note:
+    name: Zach's Note
+  Zydrine Burn:
+    name: Zydrine Burn
+  Zydrine Wine:
+    name: Zydrine Wine
+  unnamed_gid0_sid0:
+    name: unnamed_gid0_sid0

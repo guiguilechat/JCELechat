@@ -1,21 +1,41 @@
 items:
-  Annihilator Drone: {}
-  Atomizer Drone: {}
-  Bomber Drone: {}
-  Destructor Drone: {}
-  Devastator Drone: {}
-  Disintegrator Drone: {}
-  Nuker Drone: {}
-  Strain Annihilator Drone: {}
-  Strain Atomizer Drone: {}
-  Strain Bomber Drone: {}
-  Strain Destructor Drone: {}
-  Strain Devastator Drone: {}
-  Strain Disintegrator Drone: {}
-  Strain Nuker Drone: {}
-  Strain Violator Drone: {}
-  Strain Viral Infector Drone: {}
-  Strain Wrecker Drone: {}
-  Violator Drone: {}
-  Viral Infector Drone: {}
-  Wrecker Drone: {}
+  Annihilator Drone:
+    name: Annihilator Drone
+  Atomizer Drone:
+    name: Atomizer Drone
+  Bomber Drone:
+    name: Bomber Drone
+  Destructor Drone:
+    name: Destructor Drone
+  Devastator Drone:
+    name: Devastator Drone
+  Disintegrator Drone:
+    name: Disintegrator Drone
+  Nuker Drone:
+    name: Nuker Drone
+  Strain Annihilator Drone:
+    name: Strain Annihilator Drone
+  Strain Atomizer Drone:
+    name: Strain Atomizer Drone
+  Strain Bomber Drone:
+    name: Strain Bomber Drone
+  Strain Destructor Drone:
+    name: Strain Destructor Drone
+  Strain Devastator Drone:
+    name: Strain Devastator Drone
+  Strain Disintegrator Drone:
+    name: Strain Disintegrator Drone
+  Strain Nuker Drone:
+    name: Strain Nuker Drone
+  Strain Violator Drone:
+    name: Strain Violator Drone
+  Strain Viral Infector Drone:
+    name: Strain Viral Infector Drone
+  Strain Wrecker Drone:
+    name: Strain Wrecker Drone
+  Violator Drone:
+    name: Violator Drone
+  Viral Infector Drone:
+    name: Viral Infector Drone
+  Wrecker Drone:
+    name: Wrecker Drone

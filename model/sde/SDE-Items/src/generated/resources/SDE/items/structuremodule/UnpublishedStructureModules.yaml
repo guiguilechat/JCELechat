@@ -4,6 +4,7 @@ items:
     Falloff: 1
     ReloadTime: 10000.0
     SpeedFactor: 1.0
+    name: Corporation Offices
   Standup CSP Tractor Beam I:
     CanFitShipGroup01: 1657
     CapacitorNeed: 100.0
@@ -19,6 +20,7 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     StructureItemVisualFlag: 1
+    name: Standup CSP Tractor Beam I
   Standup Drug Lab I:
     CanFitShipGroup01: 1657
     Cpu: 2000.0
@@ -31,6 +33,7 @@ items:
     ServiceModuleFuelOnlineAmount: 360
     SpeedFactor: 1.0
     StructureItemVisualFlag: 1
+    name: Standup Drug Lab I
   Standup Fighter Damage Amplifier I:
     CanFitShipGroup01: 1657
     Cpu: 1500.0
@@ -43,6 +46,7 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     StructureItemVisualFlag: 1
+    name: Standup Fighter Damage Amplifier I
   Standup Fighter Tracking Enhancer I:
     CanFitShipGroup01: 1657
     Cpu: 1000.0
@@ -57,6 +61,7 @@ items:
     SpeedFactor: 1.0
     StructureItemVisualFlag: 1
     TrackingSpeedBonus: 7.0
+    name: Standup Fighter Tracking Enhancer I
   Standup Repulsor Field Projector I:
     BumpingStrength: 1
     CanFitShipGroup01: 1657
@@ -72,6 +77,7 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     StructureItemVisualFlag: 1
+    name: Standup Repulsor Field Projector I
   Structure Armored Targeted Link:
     CanFitShipGroup01: 1657
     CapacitorNeed: 500.0
@@ -84,6 +90,7 @@ items:
     Power: 200000
     ReloadTime: 10000.0
     SpeedFactor: 1.0
+    name: Structure Armored Targeted Link
   Structure Compression Plant:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -95,12 +102,14 @@ items:
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 360
     SpeedFactor: 1.0
+    name: Structure Compression Plant
   Structure Corporation Insurance:
     CanFitShipGroup01: 1657
     Falloff: 1
     ReloadTime: 10000.0
     ServiceModuleFuelConsumptionGroup: 1136
     SpeedFactor: 1.0
+    name: Structure Corporation Insurance
   Structure Customs Office:
     CanFitShipGroup01: 1657
     Cpu: 1500.0
@@ -109,6 +118,7 @@ items:
     ReloadTime: 10000.0
     ServiceModuleFuelConsumptionGroup: 1136
     SpeedFactor: 1.0
+    name: Structure Customs Office
   Structure Drone Link Augmentor:
     CanFitShipGroup01: 1657
     Cpu: 1000.0
@@ -121,6 +131,7 @@ items:
     RequiredSkill1: 37796
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
+    name: Structure Drone Link Augmentor
   Structure Drone Navigation Computer:
     CanFitShipGroup01: 1657
     CapacitorNeed: 200.0
@@ -133,6 +144,7 @@ items:
     RequiredSkill1: 37798
     RequiredSkill1Level: 1
     SpeedFactor: 25.0
+    name: Structure Drone Navigation Computer
   Structure ECCM Projector:
     CanFitShipGroup01: 1657
     CapacitorNeed: 200.0
@@ -150,6 +162,7 @@ items:
     ScanMagnetometricStrengthPercent: 100
     ScanRadarStrengthPercent: 100
     SpeedFactor: 1.0
+    name: Structure ECCM Projector
   Structure Information Targeted Link:
     CanFitShipGroup01: 1657
     CapacitorNeed: 500.0
@@ -162,6 +175,7 @@ items:
     Power: 200000
     ReloadTime: 10000.0
     SpeedFactor: 1.0
+    name: Structure Information Targeted Link
   Structure Interbus Transport Service:
     CanFitShipGroup01: 1657
     Cpu: 6000.0
@@ -170,6 +184,7 @@ items:
     ReloadTime: 10000.0
     ServiceModuleFuelConsumptionGroup: 1136
     SpeedFactor: 1.0
+    name: Structure Interbus Transport Service
   Structure Loyalty Point Store:
     CanFitShipGroup01: 1657
     Cpu: 1000.0
@@ -178,6 +193,7 @@ items:
     ReloadTime: 10000.0
     ServiceModuleFuelConsumptionGroup: 1136
     SpeedFactor: 1.0
+    name: Structure Loyalty Point Store
   Structure Mining Targeted Link:
     CanFitShipGroup01: 1657
     CapacitorNeed: 500.0
@@ -190,6 +206,7 @@ items:
     Power: 200000
     ReloadTime: 10000.0
     SpeedFactor: 1.0
+    name: Structure Mining Targeted Link
   Structure Missile Guidance Computer:
     AoeCloudSizeBonus: -5.0
     AoeVelocityBonus: 5.0
@@ -208,6 +225,7 @@ items:
     RequiredSkill1: 37798
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
+    name: Structure Missile Guidance Computer
   Structure Moon Drilling:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -216,6 +234,7 @@ items:
     Power: 450000
     ReloadTime: 10000.0
     SpeedFactor: 1.0
+    name: Structure Moon Drilling
   Structure Planetoid Drilling:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -224,6 +243,7 @@ items:
     Power: 800000
     ReloadTime: 10000.0
     SpeedFactor: 1.0
+    name: Structure Planetoid Drilling
   Structure Remote Armor Repairer:
     ArmorDamageAmount: 500
     CanFitShipGroup01: 1657
@@ -239,6 +259,7 @@ items:
     RequiredSkill1: 37797
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
+    name: Structure Remote Armor Repairer
   Structure Remote Capacitor Transmitter:
     CanFitShipGroup01: 1657
     CapacitorNeed: 500.0
@@ -253,6 +274,7 @@ items:
     RequiredSkill1: 37799
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
+    name: Structure Remote Capacitor Transmitter
   Structure Remote Hull Repairer:
     CanFitShipGroup01: 1657
     CapacitorNeed: 300.0
@@ -268,6 +290,7 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     StructureDamageAmount: 500
+    name: Structure Remote Hull Repairer
   Structure Remote Missile Guidance Computer:
     AoeCloudSizeBonus: -5.0
     AoeVelocityBonus: 5.0
@@ -287,6 +310,7 @@ items:
     RequiredSkill1: 37798
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
+    name: Structure Remote Missile Guidance Computer
   Structure Remote Sensor Booster:
     CanFitShipGroup01: 1657
     CapacitorNeed: 200.0
@@ -304,6 +328,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionBonus: 28.0
     SpeedFactor: 1.0
+    name: Structure Remote Sensor Booster
   Structure Remote Shield Booster:
     CanFitShipGroup01: 1657
     CapacitorNeed: 400.0
@@ -319,6 +344,7 @@ items:
     ShieldBonus: 40.0
     ShieldTransferRange: 4000
     SpeedFactor: 1.0
+    name: Structure Remote Shield Booster
   Structure Remote Tracking Computer:
     CanFitShipGroup01: 1657
     CapacitorNeed: 200.0
@@ -337,6 +363,7 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TrackingSpeedBonus: 10.0
+    name: Structure Remote Tracking Computer
   Structure Resistance Switcher:
     CanFitShipGroup01: 1657
     CapacitorNeed: 100000.0
@@ -351,6 +378,7 @@ items:
     RequiredSkill1: 37797
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
+    name: Structure Resistance Switcher
   Structure Scan Resolution Booster:
     CanFitShipGroup01: 1657
     CapacitorNeed: 200.0
@@ -366,6 +394,7 @@ items:
     RequiredSkill1Level: 1
     ScanResolutionBonus: 30.0
     SpeedFactor: 1.0
+    name: Structure Scan Resolution Booster
   Structure Siege Targeted Link:
     CanFitShipGroup01: 1657
     CapacitorNeed: 500.0
@@ -378,6 +407,7 @@ items:
     Power: 200000
     ReloadTime: 10000.0
     SpeedFactor: 1.0
+    name: Structure Siege Targeted Link
   Structure Skirmish Targeted Link:
     CanFitShipGroup01: 1657
     CapacitorNeed: 500.0
@@ -390,13 +420,16 @@ items:
     Power: 200000
     ReloadTime: 10000.0
     SpeedFactor: 1.0
+    name: Structure Skirmish Targeted Link
   Structure Tracking Enhancer:
     CanFitShipGroup01: 1657
     Falloff: 1
     ReloadTime: 10000.0
     SpeedFactor: 1.0
+    name: Structure Tracking Enhancer
   Structure Warp Scrambler Generator:
     CanFitShipGroup01: 1657
     Falloff: 1
     ReloadTime: 10000.0
     SpeedFactor: 1.0
+    name: Structure Warp Scrambler Generator

@@ -1,43 +1,64 @@
 items:
   Accessories/Glasses/Monocle_01/Types/MonocleM01_RightBlack.type:
     Gender: 2
+    name: Accessories/Glasses/Monocle_01/Types/MonocleM01_RightBlack.type
   Accessories/Glasses/Monocle_F_T02/Types/Monocle_F_T02_black_left.type:
     Gender: 2
+    name: Accessories/Glasses/Monocle_F_T02/Types/Monocle_F_T02_black_left.type
   GDN-9 "Nightstalker" Combat Goggles:
     Gender: 2
+    name: GDN-9 "Nightstalker" Combat Goggles
   Looking Glass Monocle Interface (left/gold):
     Gender: 2
+    name: Looking Glass Monocle Interface (left/gold)
   Looking Glass Monocle Interface (left/gray):
     Gender: 2
+    name: Looking Glass Monocle Interface (left/gray)
   Looking Glass Monocle Interface (right/gold):
     Gender: 2
+    name: Looking Glass Monocle Interface (right/gold)
   Looking Glass Monocle Interface (right/gray):
     Gender: 2
+    name: Looking Glass Monocle Interface (right/gray)
   Men's 'Farsight' Augmented Spectacles:
     Gender: 1
+    name: Men's 'Farsight' Augmented Spectacles
   Men's Genolution Tactical Goggles:
     Gender: 2
+    name: Men's Genolution Tactical Goggles
   Men's “Mirelle” Upwell Executive Spectacles:
     Gender: 1
+    name: Men's “Mirelle” Upwell Executive Spectacles
   Odin Synthetic Eye (left/dark):
     Gender: 2
+    name: Odin Synthetic Eye (left/dark)
   Odin Synthetic Eye (left/gold):
     Gender: 2
+    name: Odin Synthetic Eye (left/gold)
   Odin Synthetic Eye (left/gray):
     Gender: 2
+    name: Odin Synthetic Eye (left/gray)
   Odin Synthetic Eye (right/dark):
     Gender: 2
+    name: Odin Synthetic Eye (right/dark)
   Odin Synthetic Eye (right/gold):
     Gender: 2
+    name: Odin Synthetic Eye (right/gold)
   Odin Synthetic Eye (right/gray):
     Gender: 2
+    name: Odin Synthetic Eye (right/gray)
   SPZ-3 "Torch" Laser Sight Combat Ocular Enhancer (right/black):
     Gender: 2
+    name: SPZ-3 "Torch" Laser Sight Combat Ocular Enhancer (right/black)
   Test Item:
     Gender: 2
+    name: Test Item
   Women's 'Farsight' Augmented Spectacles:
     Gender: 3
+    name: Women's 'Farsight' Augmented Spectacles
   Women's Genolution Tactical Goggles:
     Gender: 2
+    name: Women's Genolution Tactical Goggles
   'Women''s “Mirelle” Upwell Executive Spectacles ':
     Gender: 3
+    name: 'Women''s “Mirelle” Upwell Executive Spectacles '

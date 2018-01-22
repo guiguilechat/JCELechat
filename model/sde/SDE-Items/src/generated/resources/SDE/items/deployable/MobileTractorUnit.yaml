@@ -19,6 +19,7 @@ items:
     SignatureRadius: 500
     StructureUniformity: 1.0
     TechLevel: 1
+    name: '''Magpie'' Mobile Tractor Unit'
   '''Packrat'' Mobile Tractor Unit':
     ArmorHP: 15000
     ArmorUniformity: 0.75
@@ -39,6 +40,7 @@ items:
     SignatureRadius: 500
     StructureUniformity: 1.0
     TechLevel: 1
+    name: '''Packrat'' Mobile Tractor Unit'
   Mobile Tractor Unit:
     ArmorHP: 10000
     ArmorUniformity: 0.75
@@ -59,3 +61,4 @@ items:
     SignatureRadius: 500
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Mobile Tractor Unit

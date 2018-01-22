@@ -1,373 +1,745 @@
 items:
-  7th Fleet Mobile Command Post: {}
-  Abandoned Sleeper Enclave: {}
-  Amarr Administration Complex: {}
-  Amarr Barricade: {}
-  Amarr Barrier: {}
-  Amarr Battery: {}
-  Amarr Battlestation 2: {}
-  Amarr Battlestation 3: {}
-  Amarr Battlestation_Event: {}
-  Amarr Bunker: {}
-  Amarr Cathedral: {}
-  Amarr Chapel: {}
-  Amarr Citadel: {}
-  Amarr Deadspace Refiner: {}
-  Amarr Deadspace Repair Unit: {}
-  Amarr Deadspace Tactical Unit: {}
-  Amarr Drone Mine: {}
-  Amarr Elevator: {}
-  Amarr Fence: {}
-  Amarr Junction: {}
-  Amarr Lookout: {}
-  Amarr Starbase Control Tower: {}
-  Amarr Starbase Control Tower Tough: {}
-  Amarr Starbase Control Tower_Tough_Good Loot: {}
-  Amarr Stargate: {}
-  Amarr Station 150k: {}
-  Amarr Tactical Command Post: {}
-  Amarr Tactical Relay: {}
-  Amarr Tactical Supply Station: {}
-  Amarr Tactical Support Center: {}
-  Amarr Trade Post: {}
-  Amarr Wall: {}
-  Amarrian Breeding Facility: {}
-  Ammatar Barricade: {}
-  Ammatar Battlestation: {}
-  Ammatar Cathedral: {}
-  Ammatar Deadspace Tactical Unit: {}
-  Angel Barricade: {}
-  Angel Barrier: {}
-  Angel Battery: {}
-  Angel Battlestation: {}
-  Angel Battlestation_event: {}
-  Angel Bunker: {}
-  Angel Control Tower: {}
-  Angel Elevator: {}
-  Angel Fence: {}
-  Angel Junction: {}
-  Angel Lookout: {}
-  Angel Wall: {}
-  AoE SmartBomb Test: {}
-  Asteroid Colony: {}
-  Asteroid Colony Minor: {}
-  Asteroid Colony Tower: {}
-  Asteroid Construct: {}
-  Asteroid Construct Minor: {}
-  Asteroid Deadspace Mining Colony: {}
-  Asteroid Deadspace Mining Post: {}
-  Asteroid Factory: {}
-  Asteroid Installation: {}
-  Asteroid Micro-Colony: {}
-  Asteroid Micro-Colony Minor: {}
-  Asteroid Prime Colony: {}
-  Asteroid Prime Colony_MISSION lvl 3: {}
-  Asteroid Secondary Colony: {}
-  Asteroid Slave Mine: {}
-  Asteroid Station - 1: {}
-  Asteroid Station - 1 - Strong HP: {}
-  Asteroid Structure: {}
-  AstroFarm: {}
-  Augmented Angel Battlestation: {}
-  Auxiliary Academic Campus: {}
-  Billboard: {}
-  Biodome: {}
-  Blasted Neon Sign: {}
-  Blood Raider Barricade: {}
-  Blood Raider Barrier: {}
-  Blood Raider Battery: {}
-  Blood Raider Battlestation: {}
-  Blood Raider Battlestation_event: {}
-  Blood Raider Bhaalgorn: {}
-  Blood Raider Bunker: {}
-  Blood Raider Cathedral: {}
-  Blood Raider Cathedral (weak): {}
-  Blood Raider Chapel: {}
-  Blood Raider Deadspace Tactical Unit: {}
-  Blood Raider Elevator: {}
-  Blood Raider Fence: {}
-  Blood Raider Junction: {}
-  Blood Raider Lookout: {}
-  Blood Raider Wall: {}
-  Bloodsport Arena: {}
-  Boundless Creations Data Center: {}
-  Broadcast Tower: {}
-  Broken Talocan Coupling Array: {}
-  Bursar: {}
-  Caldari Barricade: {}
-  Caldari Barrier: {}
-  Caldari Battery: {}
-  Caldari Bunker: {}
-  Caldari Deadspace Refining Outpost: {}
-  Caldari Deadspace Repair Outpost: {}
-  Caldari Deadspace Tactical Outpost: {}
-  Caldari Elevator: {}
-  Caldari Fence: {}
-  Caldari Junction: {}
-  Caldari Lookout: {}
-  Caldari Starbase Control Tower: {}
-  Caldari Starbase Control Tower_Tough_Good Loot: {}
-  Caldari Station 150k: {}
-  Caldari Station_event: {}
-  Caldari Tactical Command Post: {}
-  Caldari Tactical Relay: {}
-  Caldari Tactical Supply Station: {}
-  Caldari Tactical Support Center: {}
-  Caldari Wall: {}
-  Cargo Rig: {}
-  Circle Construct: {}
-  Collapsed Talocan Observation Dome: {}
-  Communications Tower: {}
-  Conquerable Station 1: {}
-  Conquerable Station 2: {}
-  Conquerable Station 3: {}
-  Crippled Sleeper Preservation Conduit: {}
-  Dark Shipyard: {}
-  Deactivated Acceleration Gate: {}
-  Deadspace Particle Accelerator: {}
-  Decrepit Talocan Outpost Core: {}
-  Dirty Shipyard: {}
-  Disjointed Talocan Outpost Conduit: {}
-  Disjointed Talocan Outpost Hub: {}
-  Disrupted Talocan Polestar: {}
-  Docked Bestower: {}
-  Drifter Hive: {}
-  Drone Barricade: {}
-  Drone Barrier: {}
-  Drone Battery: {}
-  Drone Bunker: {}
-  Drone Elevator: {}
-  Drone Fence: {}
-  Drone Junction: {}
-  Drone Lookout: {}
-  Drone Structure I: {}
-  Drone Structure II: {}
-  Drone Wall: {}
-  Drug Lab: {}
-  Drug Lab Crash: {}
-  Drug Lab Exile: {}
-  Drug Lab Mindflood: {}
-  Empty Station Battery: {}
-  Eroded Sleeper Thermoelectric Converter: {}
-  Exposed Sleeper Interlink Hub: {}
-  Extremely Powerful EM Forcefield: {}
-  Extremely Powerful EM Forcefield_2: {}
-  Fortified Drug Lab: {}
-  Fragmented Cathedral I: {}
-  Fragmented Cathedral II: {}
-  Fragmented Cathedral III: {}
-  Fragmented Cathedral IV: {}
-  Fragmented Cathedral I_Under Construction: {}
-  Fragmented Cathedral V: {}
-  Freight Pad: {}
-  Fuel Depot: {}
-  Fuel Fump_event: {}
-  Gallente Barricade: {}
-  Gallente Barrier: {}
-  Gallente Battery: {}
-  Gallente Bunker: {}
-  Gallente Bunker UDI: {}
-  Gallente Elevator: {}
-  Gallente Factory: {}
-  Gallente Fence: {}
-  Gallente Junction: {}
-  Gallente Lookout: {}
-  Gallente Starbase Control Tower: {}
-  Gallente Starbase Control Tower Tough: {}
-  Gallente Station 150k: {}
-  Gallente Station 4: {}
-  Gallente Station 7: {}
-  Gallente Station 8: {}
-  Gallente Station_event: {}
-  Gallente Tactical Command Post: {}
-  Gallente Tactical Relay: {}
-  Gallente Tactical Supply Station: {}
-  Gallente Tactical Support Center: {}
-  Gallente Wall: {}
-  Gallentean Deadspace Mansion: {}
-  Gallentean Deadspace Outpost: {}
-  Gallentean Laboratory w/scientists: {}
-  Gas/Storage Silo - Pirate Extravaganza lvl 3_ MISSION: {}
-  Guristas Barricade: {}
-  Guristas Barrier: {}
-  Guristas Battery: {}
-  Guristas Bunker: {}
-  Guristas Deadspace Tactical Outpost: {}
-  Guristas Elevator: {}
-  Guristas Fence: {}
-  Guristas Great Wall: {}
-  Guristas Junction: {}
-  Guristas Lookout: {}
-  Guristas Starbase Control Tower: {}
-  Guristas Starbase Control Tower_Tough: {}
-  Guristas Station_event: {}
-  Guristas Wall: {}
-  Guristas War Installation: {}
-  Habitation Module - Breeding Facility: {}
-  Habitation Module - Brothel: {}
-  Habitation Module - Casino: {}
-  Habitation Module - Narcotics supermarket: {}
-  Habitation Module - Pleasure hub: {}
-  Habitation Module - Police base: {}
-  Habitation Module - Prison: {}
-  Habitation Module - Residential: {}
-  Habitation Module - Roadhouse: {}
-  Hollow Talocan Extraction Silo: {}
-  HumanFarm: {}
-  Hydrochloric Acid Manufacturing Plant: {}
-  Imai Kenon's Corpse: {}
-  Inactive Drone Sentry: {}
-  Infested station ruins: {}
-  Inverted Talocan Exchange Depot: {}
-  Landing Pad: {}
-  Large Container of Explosives: {}
-  Large EM Forcefield: {}
-  Listening Post_event: {}
-  Low-Tech Deadspace Energy Harvester: {}
-  Magnetic Retainment Field: {}
-  Malfunctioning Sleeper Multiplex Forwarder: {}
-  Meat Popsicle: {}
-  Minas Iksan's Revelation_old: {}
-  Mining Outpost_event: {}
-  Minmatar Barricade: {}
-  Minmatar Barrier: {}
-  Minmatar Battery: {}
-  Minmatar Bunker: {}
-  Minmatar Deadspace Refining Outpost: {}
-  Minmatar Deadspace Repair Outpost: {}
-  Minmatar Deadspace Tactical Outpost: {}
-  Minmatar Elevator: {}
-  Minmatar Fence: {}
-  Minmatar Junction: {}
-  Minmatar Lookout: {}
-  Minmatar Mining Station: {}
-  Minmatar Starbase Control Tower: {}
-  Minmatar Starbase Control Tower_Tough_Good Loot: {}
-  Minmatar Starbase Control Tower_Tough_Good Loot_testing: {}
-  Minmatar Station 150k: {}
-  Minmatar Station_event: {}
-  Minmatar Tactical Command Post: {}
-  Minmatar Tactical Relay: {}
-  Minmatar Tactical Supply Station: {}
-  Minmatar Tactical Support Center: {}
-  Minmatar Wall: {}
-  Mobile Shipping Unit: {}
-  Occupied Amarr Bunker: {}
-  Offline Talocan Reactor Spire: {}
-  Partially constructed Megathron: {}
-  Patient Zero: {}
-  Pator 6 HQ: {}
-  Plasma Chamber: {}
-  Power Generator: {}
-  Power Generator 250k: {}
-  Powerful EM Forcefield: {}
-  Pressure Silo: {}
-  Prison_event: {}
-  Proximity Charge: {}
-  Pulsating Sensor: {}
-  Radio Telescope: {}
-  Radioactive Cargo Rig: {}
-  Rapid Pulse Sentry: {}
-  Reinforced Drone Bunker: {}
-  Reinforced Nation Outpost: {}
-  Remote Cloaking Array: {}
-  Rent-A-Dream Pleasure Gardens: {}
-  Repair Station: {}
-  Republic Fleet Naglfar - Under Construction: {}
-  Research Station: {}
-  Revelation - Under Construction: {}
-  Ruined Stargate: {}
-  Sansha Barricade: {}
-  Sansha Barrier: {}
-  Sansha Battery: {}
-  Sansha Battlestation_event: {}
-  Sansha Bunker: {}
-  Sansha Deadspace Outpost I: {}
-  Sansha Elevator: {}
-  Sansha Fence: {}
-  Sansha Junction: {}
-  Sansha Lookout: {}
-  Sansha Starbase Control Tower: {}
-  Sansha Wall: {}
-  Sansha's Battletower: {}
-  Scanner Post: {}
-  Scope Station: {}
-  Secured Drone Bunker: {}
-  Security Outpost: {}
-  Serpentis Barricade: {}
-  Serpentis Barrier: {}
-  Serpentis Battery: {}
-  Serpentis Bunker: {}
-  Serpentis Elevator: {}
-  Serpentis Fence: {}
-  Serpentis Junction: {}
-  Serpentis Lookout: {}
-  Serpentis Secure Hold: {}
-  Serpentis Stronghold: {}
-  Serpentis Wall: {}
-  Shipyard: {}
-  Shipyard Tough: {}
-  Sisters of EVE Aid Station: {}
-  Sleeper Archive Terminal: {}
-  Small Armory: {}
-  Smuggler Stargate: {}
-  Smuggler Stargate Strong: {}
-  Solar Harvester: {}
-  Stabber LCS: {}
-  Starbase Auxiliary Power Array: {}
-  Starbase Auxiliary Power Array I: {}
-  Starbase Auxiliary Power Array II: {}
-  Starbase Auxiliary Power Array III: {}
-  Starbase Capital Ship Maintenance Array: {}
-  Starbase Capital Shipyard: {}
-  Starbase Explosion Dampening Array: {}
-  Starbase Force Field Array: {}
-  Starbase Hangar: {}
-  Starbase Hangar Tough: {}
-  Starbase Ion Field Projection Battery: {}
-  Starbase Major Assembly Array: {}
-  Starbase Medium Refinery: {}
-  Starbase Minor Assembly Array: {}
-  Starbase Minor Refinery: {}
-  Starbase Mobile Factory: {}
-  Starbase Moon Harvester: {}
-  Starbase Moon Mining Silo: {}
-  Starbase Reactor Array: {}
-  Starbase Shield Generator: {}
-  Starbase Ship-Maintenance Array: {}
-  Starbase Silo: {}
-  Starbase Stealth Emitter Array: {}
-  Starbase Storage Facility: {}
-  Starbase Ultra-Fast Silo: {}
-  Stargate - Caldari 1: {}
-  Stargate Gallente 1: {}
-  Stargate Minmatar 1: {}
-  Static Caracal Navy Issue: {}
-  Station Caldari 1: {}
-  Station Caldari 2: {}
-  Station Caldari 3: {}
-  Station Caldari 4: {}
-  Station Caldari 5: {}
-  Station Caldari 6: {}
-  Station Caldari Research Outpost: {}
-  Stationary Bestower: {}
-  Stationary Iteron V: {}
-  Stationary Mammoth: {}
-  Stationary Pleasure Yacht: {}
-  Stationary Revelation: {}
-  Stationary Tayra: {}
-  Storage Facility - radioactive stuff and small arms: {}
-  Subspace Beacon: {}
-  Subspace Frequency Generator: {}
-  Supply Depot_event: {}
-  Tough Gallente Starbase Control Tower: {}
-  Tutorial Fuel Depot: {}
-  Unlicensed Mindclash Arena: {}
-  Unstable Signal Disruptor: {}
-  Visera Yanala: {}
-  Warp Core Hotel: {}
-  Warp Disruption Generator: {}
-  Weakened Sleeper Drone Hangar: {}
-  Weapon's Storage Facility: {}
-  Wiyrkomi Storage: {}
-  Worn Talocan Static Gate: {}
+  7th Fleet Mobile Command Post:
+    name: 7th Fleet Mobile Command Post
+  Abandoned Sleeper Enclave:
+    name: Abandoned Sleeper Enclave
+  Amarr Administration Complex:
+    name: Amarr Administration Complex
+  Amarr Barricade:
+    name: Amarr Barricade
+  Amarr Barrier:
+    name: Amarr Barrier
+  Amarr Battery:
+    name: Amarr Battery
+  Amarr Battlestation 2:
+    name: Amarr Battlestation 2
+  Amarr Battlestation 3:
+    name: Amarr Battlestation 3
+  Amarr Battlestation_Event:
+    name: Amarr Battlestation_Event
+  Amarr Bunker:
+    name: Amarr Bunker
+  Amarr Cathedral:
+    name: Amarr Cathedral
+  Amarr Chapel:
+    name: Amarr Chapel
+  Amarr Citadel:
+    name: Amarr Citadel
+  Amarr Deadspace Refiner:
+    name: Amarr Deadspace Refiner
+  Amarr Deadspace Repair Unit:
+    name: Amarr Deadspace Repair Unit
+  Amarr Deadspace Tactical Unit:
+    name: Amarr Deadspace Tactical Unit
+  Amarr Drone Mine:
+    name: Amarr Drone Mine
+  Amarr Elevator:
+    name: Amarr Elevator
+  Amarr Fence:
+    name: Amarr Fence
+  Amarr Junction:
+    name: Amarr Junction
+  Amarr Lookout:
+    name: Amarr Lookout
+  Amarr Starbase Control Tower:
+    name: Amarr Starbase Control Tower
+  Amarr Starbase Control Tower Tough:
+    name: Amarr Starbase Control Tower Tough
+  Amarr Starbase Control Tower_Tough_Good Loot:
+    name: Amarr Starbase Control Tower_Tough_Good Loot
+  Amarr Stargate:
+    name: Amarr Stargate
+  Amarr Station 150k:
+    name: Amarr Station 150k
+  Amarr Tactical Command Post:
+    name: Amarr Tactical Command Post
+  Amarr Tactical Relay:
+    name: Amarr Tactical Relay
+  Amarr Tactical Supply Station:
+    name: Amarr Tactical Supply Station
+  Amarr Tactical Support Center:
+    name: Amarr Tactical Support Center
+  Amarr Trade Post:
+    name: Amarr Trade Post
+  Amarr Wall:
+    name: Amarr Wall
+  Amarrian Breeding Facility:
+    name: Amarrian Breeding Facility
+  Ammatar Barricade:
+    name: Ammatar Barricade
+  Ammatar Battlestation:
+    name: Ammatar Battlestation
+  Ammatar Cathedral:
+    name: Ammatar Cathedral
+  Ammatar Deadspace Tactical Unit:
+    name: Ammatar Deadspace Tactical Unit
+  Angel Barricade:
+    name: Angel Barricade
+  Angel Barrier:
+    name: Angel Barrier
+  Angel Battery:
+    name: Angel Battery
+  Angel Battlestation:
+    name: Angel Battlestation
+  Angel Battlestation_event:
+    name: Angel Battlestation_event
+  Angel Bunker:
+    name: Angel Bunker
+  Angel Control Tower:
+    name: Angel Control Tower
+  Angel Elevator:
+    name: Angel Elevator
+  Angel Fence:
+    name: Angel Fence
+  Angel Junction:
+    name: Angel Junction
+  Angel Lookout:
+    name: Angel Lookout
+  Angel Wall:
+    name: Angel Wall
+  AoE SmartBomb Test:
+    name: AoE SmartBomb Test
+  Asteroid Colony:
+    name: Asteroid Colony
+  Asteroid Colony Minor:
+    name: Asteroid Colony Minor
+  Asteroid Colony Tower:
+    name: Asteroid Colony Tower
+  Asteroid Construct:
+    name: Asteroid Construct
+  Asteroid Construct Minor:
+    name: Asteroid Construct Minor
+  Asteroid Deadspace Mining Colony:
+    name: Asteroid Deadspace Mining Colony
+  Asteroid Deadspace Mining Post:
+    name: Asteroid Deadspace Mining Post
+  Asteroid Factory:
+    name: Asteroid Factory
+  Asteroid Installation:
+    name: Asteroid Installation
+  Asteroid Micro-Colony:
+    name: Asteroid Micro-Colony
+  Asteroid Micro-Colony Minor:
+    name: Asteroid Micro-Colony Minor
+  Asteroid Prime Colony:
+    name: Asteroid Prime Colony
+  Asteroid Prime Colony_MISSION lvl 3:
+    name: Asteroid Prime Colony_MISSION lvl 3
+  Asteroid Secondary Colony:
+    name: Asteroid Secondary Colony
+  Asteroid Slave Mine:
+    name: Asteroid Slave Mine
+  Asteroid Station - 1:
+    name: Asteroid Station - 1
+  Asteroid Station - 1 - Strong HP:
+    name: Asteroid Station - 1 - Strong HP
+  Asteroid Structure:
+    name: Asteroid Structure
+  AstroFarm:
+    name: AstroFarm
+  Augmented Angel Battlestation:
+    name: Augmented Angel Battlestation
+  Auxiliary Academic Campus:
+    name: Auxiliary Academic Campus
+  Billboard:
+    name: Billboard
+  Biodome:
+    name: Biodome
+  Blasted Neon Sign:
+    name: Blasted Neon Sign
+  Blood Raider Barricade:
+    name: Blood Raider Barricade
+  Blood Raider Barrier:
+    name: Blood Raider Barrier
+  Blood Raider Battery:
+    name: Blood Raider Battery
+  Blood Raider Battlestation:
+    name: Blood Raider Battlestation
+  Blood Raider Battlestation_event:
+    name: Blood Raider Battlestation_event
+  Blood Raider Bhaalgorn:
+    name: Blood Raider Bhaalgorn
+  Blood Raider Bunker:
+    name: Blood Raider Bunker
+  Blood Raider Cathedral:
+    name: Blood Raider Cathedral
+  Blood Raider Cathedral (weak):
+    name: Blood Raider Cathedral (weak)
+  Blood Raider Chapel:
+    name: Blood Raider Chapel
+  Blood Raider Deadspace Tactical Unit:
+    name: Blood Raider Deadspace Tactical Unit
+  Blood Raider Elevator:
+    name: Blood Raider Elevator
+  Blood Raider Fence:
+    name: Blood Raider Fence
+  Blood Raider Junction:
+    name: Blood Raider Junction
+  Blood Raider Lookout:
+    name: Blood Raider Lookout
+  Blood Raider Wall:
+    name: Blood Raider Wall
+  Bloodsport Arena:
+    name: Bloodsport Arena
+  Boundless Creations Data Center:
+    name: Boundless Creations Data Center
+  Broadcast Tower:
+    name: Broadcast Tower
+  Broken Talocan Coupling Array:
+    name: Broken Talocan Coupling Array
+  Bursar:
+    name: Bursar
+  Caldari Barricade:
+    name: Caldari Barricade
+  Caldari Barrier:
+    name: Caldari Barrier
+  Caldari Battery:
+    name: Caldari Battery
+  Caldari Bunker:
+    name: Caldari Bunker
+  Caldari Deadspace Refining Outpost:
+    name: Caldari Deadspace Refining Outpost
+  Caldari Deadspace Repair Outpost:
+    name: Caldari Deadspace Repair Outpost
+  Caldari Deadspace Tactical Outpost:
+    name: Caldari Deadspace Tactical Outpost
+  Caldari Elevator:
+    name: Caldari Elevator
+  Caldari Fence:
+    name: Caldari Fence
+  Caldari Junction:
+    name: Caldari Junction
+  Caldari Lookout:
+    name: Caldari Lookout
+  Caldari Starbase Control Tower:
+    name: Caldari Starbase Control Tower
+  Caldari Starbase Control Tower_Tough_Good Loot:
+    name: Caldari Starbase Control Tower_Tough_Good Loot
+  Caldari Station 150k:
+    name: Caldari Station 150k
+  Caldari Station_event:
+    name: Caldari Station_event
+  Caldari Tactical Command Post:
+    name: Caldari Tactical Command Post
+  Caldari Tactical Relay:
+    name: Caldari Tactical Relay
+  Caldari Tactical Supply Station:
+    name: Caldari Tactical Supply Station
+  Caldari Tactical Support Center:
+    name: Caldari Tactical Support Center
+  Caldari Wall:
+    name: Caldari Wall
+  Cargo Rig:
+    name: Cargo Rig
+  Circle Construct:
+    name: Circle Construct
+  Collapsed Talocan Observation Dome:
+    name: Collapsed Talocan Observation Dome
+  Communications Tower:
+    name: Communications Tower
+  Conquerable Station 1:
+    name: Conquerable Station 1
+  Conquerable Station 2:
+    name: Conquerable Station 2
+  Conquerable Station 3:
+    name: Conquerable Station 3
+  Crippled Sleeper Preservation Conduit:
+    name: Crippled Sleeper Preservation Conduit
+  Dark Shipyard:
+    name: Dark Shipyard
+  Deactivated Acceleration Gate:
+    name: Deactivated Acceleration Gate
+  Deadspace Particle Accelerator:
+    name: Deadspace Particle Accelerator
+  Decrepit Talocan Outpost Core:
+    name: Decrepit Talocan Outpost Core
+  Dirty Shipyard:
+    name: Dirty Shipyard
+  Disjointed Talocan Outpost Conduit:
+    name: Disjointed Talocan Outpost Conduit
+  Disjointed Talocan Outpost Hub:
+    name: Disjointed Talocan Outpost Hub
+  Disrupted Talocan Polestar:
+    name: Disrupted Talocan Polestar
+  Docked Bestower:
+    name: Docked Bestower
+  Drifter Hive:
+    name: Drifter Hive
+  Drone Barricade:
+    name: Drone Barricade
+  Drone Barrier:
+    name: Drone Barrier
+  Drone Battery:
+    name: Drone Battery
+  Drone Bunker:
+    name: Drone Bunker
+  Drone Elevator:
+    name: Drone Elevator
+  Drone Fence:
+    name: Drone Fence
+  Drone Junction:
+    name: Drone Junction
+  Drone Lookout:
+    name: Drone Lookout
+  Drone Structure I:
+    name: Drone Structure I
+  Drone Structure II:
+    name: Drone Structure II
+  Drone Wall:
+    name: Drone Wall
+  Drug Lab:
+    name: Drug Lab
+  Drug Lab Crash:
+    name: Drug Lab Crash
+  Drug Lab Exile:
+    name: Drug Lab Exile
+  Drug Lab Mindflood:
+    name: Drug Lab Mindflood
+  Empty Station Battery:
+    name: Empty Station Battery
+  Eroded Sleeper Thermoelectric Converter:
+    name: Eroded Sleeper Thermoelectric Converter
+  Exposed Sleeper Interlink Hub:
+    name: Exposed Sleeper Interlink Hub
+  Extremely Powerful EM Forcefield:
+    name: Extremely Powerful EM Forcefield
+  Extremely Powerful EM Forcefield_2:
+    name: Extremely Powerful EM Forcefield_2
+  Fortified Drug Lab:
+    name: Fortified Drug Lab
+  Fragmented Cathedral I:
+    name: Fragmented Cathedral I
+  Fragmented Cathedral II:
+    name: Fragmented Cathedral II
+  Fragmented Cathedral III:
+    name: Fragmented Cathedral III
+  Fragmented Cathedral IV:
+    name: Fragmented Cathedral IV
+  Fragmented Cathedral I_Under Construction:
+    name: Fragmented Cathedral I_Under Construction
+  Fragmented Cathedral V:
+    name: Fragmented Cathedral V
+  Freight Pad:
+    name: Freight Pad
+  Fuel Depot:
+    name: Fuel Depot
+  Fuel Fump_event:
+    name: Fuel Fump_event
+  Gallente Barricade:
+    name: Gallente Barricade
+  Gallente Barrier:
+    name: Gallente Barrier
+  Gallente Battery:
+    name: Gallente Battery
+  Gallente Bunker:
+    name: Gallente Bunker
+  Gallente Bunker UDI:
+    name: Gallente Bunker UDI
+  Gallente Elevator:
+    name: Gallente Elevator
+  Gallente Factory:
+    name: Gallente Factory
+  Gallente Fence:
+    name: Gallente Fence
+  Gallente Junction:
+    name: Gallente Junction
+  Gallente Lookout:
+    name: Gallente Lookout
+  Gallente Starbase Control Tower:
+    name: Gallente Starbase Control Tower
+  Gallente Starbase Control Tower Tough:
+    name: Gallente Starbase Control Tower Tough
+  Gallente Station 150k:
+    name: Gallente Station 150k
+  Gallente Station 4:
+    name: Gallente Station 4
+  Gallente Station 7:
+    name: Gallente Station 7
+  Gallente Station 8:
+    name: Gallente Station 8
+  Gallente Station_event:
+    name: Gallente Station_event
+  Gallente Tactical Command Post:
+    name: Gallente Tactical Command Post
+  Gallente Tactical Relay:
+    name: Gallente Tactical Relay
+  Gallente Tactical Supply Station:
+    name: Gallente Tactical Supply Station
+  Gallente Tactical Support Center:
+    name: Gallente Tactical Support Center
+  Gallente Wall:
+    name: Gallente Wall
+  Gallentean Deadspace Mansion:
+    name: Gallentean Deadspace Mansion
+  Gallentean Deadspace Outpost:
+    name: Gallentean Deadspace Outpost
+  Gallentean Laboratory w/scientists:
+    name: Gallentean Laboratory w/scientists
+  Gas/Storage Silo - Pirate Extravaganza lvl 3_ MISSION:
+    name: Gas/Storage Silo - Pirate Extravaganza lvl 3_ MISSION
+  Guristas Barricade:
+    name: Guristas Barricade
+  Guristas Barrier:
+    name: Guristas Barrier
+  Guristas Battery:
+    name: Guristas Battery
+  Guristas Bunker:
+    name: Guristas Bunker
+  Guristas Deadspace Tactical Outpost:
+    name: Guristas Deadspace Tactical Outpost
+  Guristas Elevator:
+    name: Guristas Elevator
+  Guristas Fence:
+    name: Guristas Fence
+  Guristas Great Wall:
+    name: Guristas Great Wall
+  Guristas Junction:
+    name: Guristas Junction
+  Guristas Lookout:
+    name: Guristas Lookout
+  Guristas Starbase Control Tower:
+    name: Guristas Starbase Control Tower
+  Guristas Starbase Control Tower_Tough:
+    name: Guristas Starbase Control Tower_Tough
+  Guristas Station_event:
+    name: Guristas Station_event
+  Guristas Wall:
+    name: Guristas Wall
+  Guristas War Installation:
+    name: Guristas War Installation
+  Habitation Module - Breeding Facility:
+    name: Habitation Module - Breeding Facility
+  Habitation Module - Brothel:
+    name: Habitation Module - Brothel
+  Habitation Module - Casino:
+    name: Habitation Module - Casino
+  Habitation Module - Narcotics supermarket:
+    name: Habitation Module - Narcotics supermarket
+  Habitation Module - Pleasure hub:
+    name: Habitation Module - Pleasure hub
+  Habitation Module - Police base:
+    name: Habitation Module - Police base
+  Habitation Module - Prison:
+    name: Habitation Module - Prison
+  Habitation Module - Residential:
+    name: Habitation Module - Residential
+  Habitation Module - Roadhouse:
+    name: Habitation Module - Roadhouse
+  Hollow Talocan Extraction Silo:
+    name: Hollow Talocan Extraction Silo
+  HumanFarm:
+    name: HumanFarm
+  Hydrochloric Acid Manufacturing Plant:
+    name: Hydrochloric Acid Manufacturing Plant
+  Imai Kenon's Corpse:
+    name: Imai Kenon's Corpse
+  Inactive Drone Sentry:
+    name: Inactive Drone Sentry
+  Infested station ruins:
+    name: Infested station ruins
+  Inverted Talocan Exchange Depot:
+    name: Inverted Talocan Exchange Depot
+  Landing Pad:
+    name: Landing Pad
+  Large Container of Explosives:
+    name: Large Container of Explosives
+  Large EM Forcefield:
+    name: Large EM Forcefield
+  Listening Post_event:
+    name: Listening Post_event
+  Low-Tech Deadspace Energy Harvester:
+    name: Low-Tech Deadspace Energy Harvester
+  Magnetic Retainment Field:
+    name: Magnetic Retainment Field
+  Malfunctioning Sleeper Multiplex Forwarder:
+    name: Malfunctioning Sleeper Multiplex Forwarder
+  Meat Popsicle:
+    name: Meat Popsicle
+  Minas Iksan's Revelation_old:
+    name: Minas Iksan's Revelation_old
+  Mining Outpost_event:
+    name: Mining Outpost_event
+  Minmatar Barricade:
+    name: Minmatar Barricade
+  Minmatar Barrier:
+    name: Minmatar Barrier
+  Minmatar Battery:
+    name: Minmatar Battery
+  Minmatar Bunker:
+    name: Minmatar Bunker
+  Minmatar Deadspace Refining Outpost:
+    name: Minmatar Deadspace Refining Outpost
+  Minmatar Deadspace Repair Outpost:
+    name: Minmatar Deadspace Repair Outpost
+  Minmatar Deadspace Tactical Outpost:
+    name: Minmatar Deadspace Tactical Outpost
+  Minmatar Elevator:
+    name: Minmatar Elevator
+  Minmatar Fence:
+    name: Minmatar Fence
+  Minmatar Junction:
+    name: Minmatar Junction
+  Minmatar Lookout:
+    name: Minmatar Lookout
+  Minmatar Mining Station:
+    name: Minmatar Mining Station
+  Minmatar Starbase Control Tower:
+    name: Minmatar Starbase Control Tower
+  Minmatar Starbase Control Tower_Tough_Good Loot:
+    name: Minmatar Starbase Control Tower_Tough_Good Loot
+  Minmatar Starbase Control Tower_Tough_Good Loot_testing:
+    name: Minmatar Starbase Control Tower_Tough_Good Loot_testing
+  Minmatar Station 150k:
+    name: Minmatar Station 150k
+  Minmatar Station_event:
+    name: Minmatar Station_event
+  Minmatar Tactical Command Post:
+    name: Minmatar Tactical Command Post
+  Minmatar Tactical Relay:
+    name: Minmatar Tactical Relay
+  Minmatar Tactical Supply Station:
+    name: Minmatar Tactical Supply Station
+  Minmatar Tactical Support Center:
+    name: Minmatar Tactical Support Center
+  Minmatar Wall:
+    name: Minmatar Wall
+  Mobile Shipping Unit:
+    name: Mobile Shipping Unit
+  Occupied Amarr Bunker:
+    name: Occupied Amarr Bunker
+  Offline Talocan Reactor Spire:
+    name: Offline Talocan Reactor Spire
+  Partially constructed Megathron:
+    name: Partially constructed Megathron
+  Patient Zero:
+    name: Patient Zero
+  Pator 6 HQ:
+    name: Pator 6 HQ
+  Plasma Chamber:
+    name: Plasma Chamber
+  Power Generator:
+    name: Power Generator
+  Power Generator 250k:
+    name: Power Generator 250k
+  Powerful EM Forcefield:
+    name: Powerful EM Forcefield
+  Pressure Silo:
+    name: Pressure Silo
+  Prison_event:
+    name: Prison_event
+  Proximity Charge:
+    name: Proximity Charge
+  Pulsating Sensor:
+    name: Pulsating Sensor
+  Radio Telescope:
+    name: Radio Telescope
+  Radioactive Cargo Rig:
+    name: Radioactive Cargo Rig
+  Rapid Pulse Sentry:
+    name: Rapid Pulse Sentry
+  Reinforced Drone Bunker:
+    name: Reinforced Drone Bunker
+  Reinforced Nation Outpost:
+    name: Reinforced Nation Outpost
+  Remote Cloaking Array:
+    name: Remote Cloaking Array
+  Rent-A-Dream Pleasure Gardens:
+    name: Rent-A-Dream Pleasure Gardens
+  Repair Station:
+    name: Repair Station
+  Republic Fleet Naglfar - Under Construction:
+    name: Republic Fleet Naglfar - Under Construction
+  Research Station:
+    name: Research Station
+  Revelation - Under Construction:
+    name: Revelation - Under Construction
+  Ruined Stargate:
+    name: Ruined Stargate
+  Sansha Barricade:
+    name: Sansha Barricade
+  Sansha Barrier:
+    name: Sansha Barrier
+  Sansha Battery:
+    name: Sansha Battery
+  Sansha Battlestation_event:
+    name: Sansha Battlestation_event
+  Sansha Bunker:
+    name: Sansha Bunker
+  Sansha Deadspace Outpost I:
+    name: Sansha Deadspace Outpost I
+  Sansha Elevator:
+    name: Sansha Elevator
+  Sansha Fence:
+    name: Sansha Fence
+  Sansha Junction:
+    name: Sansha Junction
+  Sansha Lookout:
+    name: Sansha Lookout
+  Sansha Starbase Control Tower:
+    name: Sansha Starbase Control Tower
+  Sansha Wall:
+    name: Sansha Wall
+  Sansha's Battletower:
+    name: Sansha's Battletower
+  Scanner Post:
+    name: Scanner Post
+  Scope Station:
+    name: Scope Station
+  Secured Drone Bunker:
+    name: Secured Drone Bunker
+  Security Outpost:
+    name: Security Outpost
+  Serpentis Barricade:
+    name: Serpentis Barricade
+  Serpentis Barrier:
+    name: Serpentis Barrier
+  Serpentis Battery:
+    name: Serpentis Battery
+  Serpentis Bunker:
+    name: Serpentis Bunker
+  Serpentis Elevator:
+    name: Serpentis Elevator
+  Serpentis Fence:
+    name: Serpentis Fence
+  Serpentis Junction:
+    name: Serpentis Junction
+  Serpentis Lookout:
+    name: Serpentis Lookout
+  Serpentis Secure Hold:
+    name: Serpentis Secure Hold
+  Serpentis Stronghold:
+    name: Serpentis Stronghold
+  Serpentis Wall:
+    name: Serpentis Wall
+  Shipyard:
+    name: Shipyard
+  Shipyard Tough:
+    name: Shipyard Tough
+  Sisters of EVE Aid Station:
+    name: Sisters of EVE Aid Station
+  Sleeper Archive Terminal:
+    name: Sleeper Archive Terminal
+  Small Armory:
+    name: Small Armory
+  Smuggler Stargate:
+    name: Smuggler Stargate
+  Smuggler Stargate Strong:
+    name: Smuggler Stargate Strong
+  Solar Harvester:
+    name: Solar Harvester
+  Stabber LCS:
+    name: Stabber LCS
+  Starbase Auxiliary Power Array:
+    name: Starbase Auxiliary Power Array
+  Starbase Auxiliary Power Array I:
+    name: Starbase Auxiliary Power Array I
+  Starbase Auxiliary Power Array II:
+    name: Starbase Auxiliary Power Array II
+  Starbase Auxiliary Power Array III:
+    name: Starbase Auxiliary Power Array III
+  Starbase Capital Ship Maintenance Array:
+    name: Starbase Capital Ship Maintenance Array
+  Starbase Capital Shipyard:
+    name: Starbase Capital Shipyard
+  Starbase Explosion Dampening Array:
+    name: Starbase Explosion Dampening Array
+  Starbase Force Field Array:
+    name: Starbase Force Field Array
+  Starbase Hangar:
+    name: Starbase Hangar
+  Starbase Hangar Tough:
+    name: Starbase Hangar Tough
+  Starbase Ion Field Projection Battery:
+    name: Starbase Ion Field Projection Battery
+  Starbase Major Assembly Array:
+    name: Starbase Major Assembly Array
+  Starbase Medium Refinery:
+    name: Starbase Medium Refinery
+  Starbase Minor Assembly Array:
+    name: Starbase Minor Assembly Array
+  Starbase Minor Refinery:
+    name: Starbase Minor Refinery
+  Starbase Mobile Factory:
+    name: Starbase Mobile Factory
+  Starbase Moon Harvester:
+    name: Starbase Moon Harvester
+  Starbase Moon Mining Silo:
+    name: Starbase Moon Mining Silo
+  Starbase Reactor Array:
+    name: Starbase Reactor Array
+  Starbase Shield Generator:
+    name: Starbase Shield Generator
+  Starbase Ship-Maintenance Array:
+    name: Starbase Ship-Maintenance Array
+  Starbase Silo:
+    name: Starbase Silo
+  Starbase Stealth Emitter Array:
+    name: Starbase Stealth Emitter Array
+  Starbase Storage Facility:
+    name: Starbase Storage Facility
+  Starbase Ultra-Fast Silo:
+    name: Starbase Ultra-Fast Silo
+  Stargate - Caldari 1:
+    name: Stargate - Caldari 1
+  Stargate Gallente 1:
+    name: Stargate Gallente 1
+  Stargate Minmatar 1:
+    name: Stargate Minmatar 1
+  Static Caracal Navy Issue:
+    name: Static Caracal Navy Issue
+  Station Caldari 1:
+    name: Station Caldari 1
+  Station Caldari 2:
+    name: Station Caldari 2
+  Station Caldari 3:
+    name: Station Caldari 3
+  Station Caldari 4:
+    name: Station Caldari 4
+  Station Caldari 5:
+    name: Station Caldari 5
+  Station Caldari 6:
+    name: Station Caldari 6
+  Station Caldari Research Outpost:
+    name: Station Caldari Research Outpost
+  Stationary Bestower:
+    name: Stationary Bestower
+  Stationary Iteron V:
+    name: Stationary Iteron V
+  Stationary Mammoth:
+    name: Stationary Mammoth
+  Stationary Pleasure Yacht:
+    name: Stationary Pleasure Yacht
+  Stationary Revelation:
+    name: Stationary Revelation
+  Stationary Tayra:
+    name: Stationary Tayra
+  Storage Facility - radioactive stuff and small arms:
+    name: Storage Facility - radioactive stuff and small arms
+  Subspace Beacon:
+    name: Subspace Beacon
+  Subspace Frequency Generator:
+    name: Subspace Frequency Generator
+  Supply Depot_event:
+    name: Supply Depot_event
+  Tough Gallente Starbase Control Tower:
+    name: Tough Gallente Starbase Control Tower
+  Tutorial Fuel Depot:
+    name: Tutorial Fuel Depot
+  Unlicensed Mindclash Arena:
+    name: Unlicensed Mindclash Arena
+  Unstable Signal Disruptor:
+    name: Unstable Signal Disruptor
+  Visera Yanala:
+    name: Visera Yanala
+  Warp Core Hotel:
+    name: Warp Core Hotel
+  Warp Disruption Generator:
+    name: Warp Disruption Generator
+  Weakened Sleeper Drone Hangar:
+    name: Weakened Sleeper Drone Hangar
+  Weapon's Storage Facility:
+    name: Weapon's Storage Facility
+  Wiyrkomi Storage:
+    name: Wiyrkomi Storage
+  Worn Talocan Static Gate:
+    name: Worn Talocan Static Gate

@@ -50,6 +50,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Amarr Media Shuttle
   Amarr Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -101,6 +102,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Amarr Shuttle
   Apotheosis:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -157,6 +159,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Apotheosis
   Caldari Media Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -208,6 +211,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Caldari Media Shuttle
   Caldari Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -259,6 +263,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Caldari Shuttle
   Civilian Amarr Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -309,6 +314,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Civilian Amarr Shuttle
   Civilian Caldari Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -359,6 +365,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Civilian Caldari Shuttle
   Civilian Gallente Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -409,6 +416,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Civilian Gallente Shuttle
   Civilian Minmatar Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -459,6 +467,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Civilian Minmatar Shuttle
   Council Diplomatic Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -514,6 +523,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Council Diplomatic Shuttle
   Gallente Media Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -565,6 +575,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Gallente Media Shuttle
   Gallente Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -616,6 +627,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Gallente Shuttle
   Goru's Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -668,6 +680,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Goru's Shuttle
   Guristas Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -720,6 +733,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Guristas Shuttle
   InterBus Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -772,6 +786,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: InterBus Shuttle
   Leopard:
     Agility: 1.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -824,6 +839,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 20.0
+    name: Leopard
   Minmatar Media Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -875,6 +891,7 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Minmatar Media Shuttle
   Minmatar Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -926,3 +943,4 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    name: Minmatar Shuttle

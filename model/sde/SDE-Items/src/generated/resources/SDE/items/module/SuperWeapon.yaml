@@ -29,6 +29,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     ThermalDamage: 1000000.0
+    name: '''Aurora Ominae'' Thermal Doomsday'
   '''Gjallarhorn'' Explosive Doomsday':
     CanCloak: 1
     CanFitShipType1: 23773
@@ -59,6 +60,7 @@ items:
     SignatureRadius: 100
     SpeedFactor: -100.0
     TechLevel: 1
+    name: '''Gjallarhorn'' Explosive Doomsday'
   '''Judgment'' Electromagnetic Doomsday':
     CanCloak: 1
     CanFitShipType1: 11567
@@ -88,6 +90,7 @@ items:
     SignatureRadius: 100
     SpeedFactor: -100.0
     TechLevel: 1
+    name: '''Judgment'' Electromagnetic Doomsday'
   '''Oblivion'' Kinetic Doomsday':
     CanCloak: 1
     CanFitShipType1: 3764
@@ -117,6 +120,7 @@ items:
     SignatureRadius: 100
     SpeedFactor: -100.0
     TechLevel: 1
+    name: '''Oblivion'' Kinetic Doomsday'
   Bosonic Field Generator:
     CanFitShipGroup01: 30
     CapacitorNeed: 30000.0
@@ -158,6 +162,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     ThermalDamage: 10000.0
+    name: Bosonic Field Generator
   Catmageddon:
     CapacitorNeed: 100.0
     Cpu: 100.0
@@ -180,6 +185,7 @@ items:
     SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
+    name: Catmageddon
   Gravitational Transportation Field Oscillator:
     CanFitShipGroup01: 30
     CapacitorNeed: 30000.0
@@ -214,6 +220,7 @@ items:
     SignatureRadius: 100
     SpeedFactor: -100.0
     TechLevel: 1
+    name: Gravitational Transportation Field Oscillator
   Pulse Activated Nexus Invulnerability Core:
     BuffDuration: 300000
     CanCloak: 1
@@ -235,6 +242,7 @@ items:
     SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
+    name: Pulse Activated Nexus Invulnerability Core
   ‘Cold Wind’ Kinetic Reaper:
     CanFitShipType1: 3764
     CanFitShipType2: 45649
@@ -275,6 +283,7 @@ items:
     SignatureRadius: 3500
     SpeedFactor: -100.0
     TechLevel: 1
+    name: ‘Cold Wind’ Kinetic Reaper
   ‘Divine Harvest’ Electromagnetic Reaper:
     CanFitShipType1: 11567
     CanFitShipType2: 42241
@@ -315,6 +324,7 @@ items:
     SignatureRadius: 3500
     SpeedFactor: -100.0
     TechLevel: 1
+    name: ‘Divine Harvest’ Electromagnetic Reaper
   ‘Geiravor’ Explosive Lance:
     CanFitShipType1: 23773
     CanFitShipType2: 42126
@@ -356,6 +366,7 @@ items:
     SignatureRadius: 5000
     SpeedFactor: -100.0
     TechLevel: 1
+    name: ‘Geiravor’ Explosive Lance
   ‘Guillotine’ Thermal Reaper:
     CanFitShipType1: 671
     CanFitShipType2: 42126
@@ -397,6 +408,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     ThermalDamage: 100000.0
+    name: ‘Guillotine’ Thermal Reaper
   ‘Holy Destiny’ Electromagnetic Lance:
     CanFitShipType1: 11567
     CanFitShipType2: 42241
@@ -437,6 +449,7 @@ items:
     SignatureRadius: 5000
     SpeedFactor: -100.0
     TechLevel: 1
+    name: ‘Holy Destiny’ Electromagnetic Lance
   ‘Iron Pike’ Kinetic Lance:
     CanFitShipType1: 3764
     CanFitShipType2: 45649
@@ -477,6 +490,7 @@ items:
     SignatureRadius: 5000
     SpeedFactor: -100.0
     TechLevel: 1
+    name: ‘Iron Pike’ Kinetic Lance
   ‘Jormungandr’ Explosive Reaper:
     CanFitShipType1: 23773
     CanFitShipType2: 42126
@@ -518,6 +532,7 @@ items:
     SignatureRadius: 3500
     SpeedFactor: -100.0
     TechLevel: 1
+    name: ‘Jormungandr’ Explosive Reaper
   ‘Phalarica’ Thermal Lance:
     CanFitShipType1: 671
     CanFitShipType2: 42126
@@ -559,3 +574,4 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     ThermalDamage: 50000.0
+    name: ‘Phalarica’ Thermal Lance

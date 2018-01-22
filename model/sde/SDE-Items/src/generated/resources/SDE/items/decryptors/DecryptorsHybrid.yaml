@@ -1,9 +1,13 @@
 items:
   Amarr Subsystems Data Interface:
     InventionPropabilityMultiplier: 1.0
+    name: Amarr Subsystems Data Interface
   Caldari Subsystems Data Interface:
     InventionPropabilityMultiplier: 1.0
+    name: Caldari Subsystems Data Interface
   Gallente Subsystems Data Interface:
     InventionPropabilityMultiplier: 1.0
+    name: Gallente Subsystems Data Interface
   Minmatar Subsystems Data Interface:
     InventionPropabilityMultiplier: 1.0
+    name: Minmatar Subsystems Data Interface

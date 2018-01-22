@@ -1,11 +1,21 @@
 items:
-  Shadow Serpentis Chief Defender: {}
-  Shadow Serpentis Chief Guard: {}
-  Shadow Serpentis Chief Infantry: {}
-  Shadow Serpentis Chief Patroller: {}
-  Shadow Serpentis Chief Protector: {}
-  Shadow Serpentis Chief Safeguard: {}
-  Shadow Serpentis Chief Scout: {}
-  Shadow Serpentis Chief Sentinel: {}
-  Shadow Serpentis Chief Spy: {}
-  Shadow Serpentis Chief Watchman: {}
+  Shadow Serpentis Chief Defender:
+    name: Shadow Serpentis Chief Defender
+  Shadow Serpentis Chief Guard:
+    name: Shadow Serpentis Chief Guard
+  Shadow Serpentis Chief Infantry:
+    name: Shadow Serpentis Chief Infantry
+  Shadow Serpentis Chief Patroller:
+    name: Shadow Serpentis Chief Patroller
+  Shadow Serpentis Chief Protector:
+    name: Shadow Serpentis Chief Protector
+  Shadow Serpentis Chief Safeguard:
+    name: Shadow Serpentis Chief Safeguard
+  Shadow Serpentis Chief Scout:
+    name: Shadow Serpentis Chief Scout
+  Shadow Serpentis Chief Sentinel:
+    name: Shadow Serpentis Chief Sentinel
+  Shadow Serpentis Chief Spy:
+    name: Shadow Serpentis Chief Spy
+  Shadow Serpentis Chief Watchman:
+    name: Shadow Serpentis Chief Watchman

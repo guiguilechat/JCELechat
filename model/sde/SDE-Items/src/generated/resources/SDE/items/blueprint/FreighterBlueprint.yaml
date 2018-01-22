@@ -2,26 +2,35 @@ items:
   Anshar Blueprint:
     IndustryBlueprintRank: 4000.0
     TechLevel: 2
+    name: Anshar Blueprint
   Ark Blueprint:
     IndustryBlueprintRank: 4000.0
     TechLevel: 2
+    name: Ark Blueprint
   Bowhead Blueprint:
     TechLevel: 1
+    name: Bowhead Blueprint
   Charon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Charon Blueprint
   Fenrir Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Fenrir Blueprint
   Nomad Blueprint:
     IndustryBlueprintRank: 4000.0
     TechLevel: 2
+    name: Nomad Blueprint
   Obelisk Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Obelisk Blueprint
   Providence Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Providence Blueprint
   Rhea Blueprint:
     IndustryBlueprintRank: 4000.0
     TechLevel: 2
+    name: Rhea Blueprint

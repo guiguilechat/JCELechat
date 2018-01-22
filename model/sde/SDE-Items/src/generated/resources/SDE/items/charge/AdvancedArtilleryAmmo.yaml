@@ -15,6 +15,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
+    name: Quake L
   Quake M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
@@ -31,6 +32,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
+    name: Quake M
   Quake S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
@@ -47,6 +49,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
+    name: Quake S
   Quake XL:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
@@ -63,6 +66,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
+    name: Quake XL
   Shock L:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 3
@@ -80,6 +84,7 @@ items:
     ThermalDamage: 20.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.8500000238418579
+    name: Shock L
   Shock M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
@@ -97,6 +102,7 @@ items:
     ThermalDamage: 10.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.8500000238418579
+    name: Shock M
   Shock S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
@@ -114,6 +120,7 @@ items:
     ThermalDamage: 5.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.8500000238418579
+    name: Shock S
   Tremor L:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 3
@@ -130,6 +137,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
+    name: Tremor L
   Tremor M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
@@ -146,6 +154,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
+    name: Tremor M
   Tremor S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
@@ -162,6 +171,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
+    name: Tremor S
   Tremor XL:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
@@ -178,3 +188,4 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
+    name: Tremor XL

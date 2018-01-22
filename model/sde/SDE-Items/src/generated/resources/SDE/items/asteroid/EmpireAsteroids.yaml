@@ -2,24 +2,32 @@ items:
   Adamantine Raspite:
     AsteroidRadiusUnitSize: 90
     OreBasicType: 46252
+    name: Adamantine Raspite
   Cubic Kangite:
     AsteroidRadiusUnitSize: 90
     OreBasicType: 46258
+    name: Cubic Kangite
   Diamond Moissanite:
     AsteroidRadiusUnitSize: 90
     OreBasicType: 46256
+    name: Diamond Moissanite
   Granitic Polycrase:
     AsteroidRadiusUnitSize: 90
     OreBasicType: 46254
+    name: Granitic Polycrase
   Kangite:
     AsteroidRadiusUnitSize: 2000
     OreBasicType: 46258
+    name: Kangite
   Moissanite:
     AsteroidRadiusUnitSize: 2000
     OreBasicType: 46256
+    name: Moissanite
   Polycrase:
     AsteroidRadiusUnitSize: 2000
     OreBasicType: 46254
+    name: Polycrase
   Raspite:
     AsteroidRadiusUnitSize: 2000
     OreBasicType: 46252
+    name: Raspite

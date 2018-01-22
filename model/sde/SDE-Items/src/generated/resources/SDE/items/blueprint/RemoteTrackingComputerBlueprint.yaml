@@ -2,15 +2,20 @@ items:
   '''Enterprise'' Remote Tracking Computer Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Enterprise'' Remote Tracking Computer Blueprint'
   '''Tycoon'' Remote Tracking Computer Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Tycoon'' Remote Tracking Computer Blueprint'
   Federation Navy Remote Tracking Computer  Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Federation Navy Remote Tracking Computer  Blueprint
   Remote Tracking Computer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Remote Tracking Computer I Blueprint
   Remote Tracking Computer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Remote Tracking Computer II Blueprint

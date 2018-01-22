@@ -1,35 +1,69 @@
 items:
-  Angel Frigate Vessel: {}
-  Arch Gistii Ambusher: {}
-  Arch Gistii Hijacker: {}
-  Arch Gistii Hunter: {}
-  Arch Gistii Impaler: {}
-  Arch Gistii Nomad: {}
-  Arch Gistii Outlaw: {}
-  Arch Gistii Raider: {}
-  Arch Gistii Rogue: {}
-  Arch Gistii Ruffian: {}
-  Arch Gistii Thug: {}
-  Gistii Ambusher: {}
-  Gistii Domination Ambusher: {}
-  Gistii Domination Hijacker: {}
-  Gistii Domination Hunter: {}
-  Gistii Domination Impaler: {}
-  Gistii Domination Nomad: {}
-  Gistii Domination Outlaw: {}
-  Gistii Domination Raider: {}
-  Gistii Domination Rogue: {}
-  Gistii Domination Ruffian: {}
-  Gistii Domination Thug: {}
-  Gistii Fugitive: {}
-  Gistii Hijacker: {}
-  Gistii Hunter: {}
-  Gistii Impaler: {}
-  Gistii Nomad: {}
-  Gistii Outlaw: {}
-  Gistii Raider: {}
-  Gistii Rogue: {}
-  Gistii Ruffian: {}
-  Gistii Thug: {}
-  Gistii_Defender_Frigate: {}
-  Terrorist Leader: {}
+  Angel Frigate Vessel:
+    name: Angel Frigate Vessel
+  Arch Gistii Ambusher:
+    name: Arch Gistii Ambusher
+  Arch Gistii Hijacker:
+    name: Arch Gistii Hijacker
+  Arch Gistii Hunter:
+    name: Arch Gistii Hunter
+  Arch Gistii Impaler:
+    name: Arch Gistii Impaler
+  Arch Gistii Nomad:
+    name: Arch Gistii Nomad
+  Arch Gistii Outlaw:
+    name: Arch Gistii Outlaw
+  Arch Gistii Raider:
+    name: Arch Gistii Raider
+  Arch Gistii Rogue:
+    name: Arch Gistii Rogue
+  Arch Gistii Ruffian:
+    name: Arch Gistii Ruffian
+  Arch Gistii Thug:
+    name: Arch Gistii Thug
+  Gistii Ambusher:
+    name: Gistii Ambusher
+  Gistii Domination Ambusher:
+    name: Gistii Domination Ambusher
+  Gistii Domination Hijacker:
+    name: Gistii Domination Hijacker
+  Gistii Domination Hunter:
+    name: Gistii Domination Hunter
+  Gistii Domination Impaler:
+    name: Gistii Domination Impaler
+  Gistii Domination Nomad:
+    name: Gistii Domination Nomad
+  Gistii Domination Outlaw:
+    name: Gistii Domination Outlaw
+  Gistii Domination Raider:
+    name: Gistii Domination Raider
+  Gistii Domination Rogue:
+    name: Gistii Domination Rogue
+  Gistii Domination Ruffian:
+    name: Gistii Domination Ruffian
+  Gistii Domination Thug:
+    name: Gistii Domination Thug
+  Gistii Fugitive:
+    name: Gistii Fugitive
+  Gistii Hijacker:
+    name: Gistii Hijacker
+  Gistii Hunter:
+    name: Gistii Hunter
+  Gistii Impaler:
+    name: Gistii Impaler
+  Gistii Nomad:
+    name: Gistii Nomad
+  Gistii Outlaw:
+    name: Gistii Outlaw
+  Gistii Raider:
+    name: Gistii Raider
+  Gistii Rogue:
+    name: Gistii Rogue
+  Gistii Ruffian:
+    name: Gistii Ruffian
+  Gistii Thug:
+    name: Gistii Thug
+  Gistii_Defender_Frigate:
+    name: Gistii_Defender_Frigate
+  Terrorist Leader:
+    name: Terrorist Leader

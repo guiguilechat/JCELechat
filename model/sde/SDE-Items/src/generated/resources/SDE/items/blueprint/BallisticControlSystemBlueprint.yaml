@@ -2,21 +2,28 @@ items:
   '''Full Duplex'' Ballistic Control System Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Full Duplex'' Ballistic Control System Blueprint'
   Ballistic 'Purge' Targeting System I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ballistic 'Purge' Targeting System I Blueprint
   Ballistic Control System I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ballistic Control System I Blueprint
   Ballistic Control System II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Ballistic Control System II Blueprint
   Caldari Navy Ballistic Control System Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Caldari Navy Ballistic Control System Blueprint
   Khanid Navy Ballistic Control System Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Khanid Navy Ballistic Control System Blueprint
   Republic Fleet Ballistic Control System Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Republic Fleet Ballistic Control System Blueprint

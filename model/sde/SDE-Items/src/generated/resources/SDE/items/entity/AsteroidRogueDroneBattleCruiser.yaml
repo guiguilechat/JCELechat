@@ -1,7 +1,13 @@
 items:
-  Crippler Drone: {}
-  Defeater Drone: {}
-  Enforcer Drone: {}
-  Exterminator Drone: {}
-  Siege Drone: {}
-  Striker Drone: {}
+  Crippler Drone:
+    name: Crippler Drone
+  Defeater Drone:
+    name: Defeater Drone
+  Enforcer Drone:
+    name: Enforcer Drone
+  Exterminator Drone:
+    name: Exterminator Drone
+  Siege Drone:
+    name: Siege Drone
+  Striker Drone:
+    name: Striker Drone

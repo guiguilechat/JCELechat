@@ -7,12 +7,14 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
+    name: Advanced Laboratory Operation
   Amarr Encryption Methods:
     PrimaryAttribute: 165
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Amarr Encryption Methods
   Amarr Starship Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -22,6 +24,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Amarr Starship Engineering
   Astronautic Engineering:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -31,12 +34,14 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Astronautic Engineering
   Caldari Encryption Methods:
     PrimaryAttribute: 165
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Caldari Encryption Methods
   Caldari Starship Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -46,6 +51,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Caldari Starship Engineering
   Core Subsystem Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 3403
@@ -54,6 +60,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Core Subsystem Technology
   Defensive Subsystem Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 3403
@@ -62,6 +69,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Defensive Subsystem Technology
   Electromagnetic Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -71,6 +79,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Electromagnetic Physics
   Electronic Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -80,6 +89,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Electronic Engineering
   Electronic Subsystem Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 3403
@@ -89,12 +99,14 @@ items:
     SecondaryAttribute: 166
     SkillIsObsolete: 1
     SkillTimeConstant: 5.0
+    name: Electronic Subsystem Technology
   Gallente Encryption Methods:
     PrimaryAttribute: 165
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Gallente Encryption Methods
   Gallente Starship Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -104,6 +116,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Gallente Starship Engineering
   Graviton Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -113,6 +126,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Graviton Physics
   High Energy Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -122,6 +136,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: High Energy Physics
   Hydromagnetic Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -131,6 +146,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Hydromagnetic Physics
   Hypernet Science:
     PrimaryAttribute: 165
     RequiredSkill1: 3402
@@ -139,6 +155,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Hypernet Science
   Laboratory Operation:
     CanNotBeTrainedOnTrial: 1
     LaboratorySlotsBonus: 1
@@ -147,6 +164,7 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Laboratory Operation
   Laser Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -156,6 +174,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Laser Physics
   Mechanical Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -165,6 +184,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Mechanical Engineering
   Metallurgy:
     MineralNeedResearchBonus: -5
     PrimaryAttribute: 165
@@ -172,12 +192,14 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    name: Metallurgy
   Minmatar Encryption Methods:
     PrimaryAttribute: 165
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Minmatar Encryption Methods
   Minmatar Starship Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -187,6 +209,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Minmatar Starship Engineering
   Molecular Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -196,6 +219,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Molecular Engineering
   Nanite Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -205,6 +229,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Nanite Engineering
   Nuclear Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -214,6 +239,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Nuclear Physics
   Offensive Subsystem Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 3403
@@ -222,6 +248,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Offensive Subsystem Technology
   Plasma Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -231,6 +258,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Plasma Physics
   Propulsion Subsystem Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 3403
@@ -239,6 +267,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Propulsion Subsystem Technology
   Quantum Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -248,6 +277,7 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Quantum Physics
   Research:
     BlueprintmanufactureTimeBonus: -5
     PrimaryAttribute: 165
@@ -255,6 +285,7 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Research
   Research Project Management:
     MaxAttackTargets: 1
     PrimaryAttribute: 166
@@ -265,6 +296,7 @@ items:
     ResearchGangSizeBonus: 5
     SecondaryAttribute: 164
     SkillTimeConstant: 8.0
+    name: Research Project Management
   Rocket Science:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -274,17 +306,20 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Rocket Science
   Science:
     CopySpeedBonus: -5
     PrimaryAttribute: 165
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Science
   Scientific Networking:
     PrimaryAttribute: 165
     RequiredSkill1: 3406
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    name: Scientific Networking
   Sleeper Encryption Methods:
     InventionBonus: 10
     PrimaryAttribute: 165
@@ -296,27 +331,32 @@ items:
     RequiredSkill3Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 4.0
+    name: Sleeper Encryption Methods
   Sleeper Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Sleeper Technology
   Takmahl Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Takmahl Technology
   Talocan Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Talocan Technology
   Yan Jung Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Yan Jung Technology

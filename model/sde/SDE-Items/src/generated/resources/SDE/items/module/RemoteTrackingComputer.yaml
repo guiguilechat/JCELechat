@@ -23,6 +23,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 15.0
+    name: '''Enterprise'' Remote Tracking Computer'
   '''Prayer'' Remote Tracking Computer':
     ChargeGroup1: 907
     ChargeSize: 1
@@ -43,6 +44,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 10.5
+    name: '''Prayer'' Remote Tracking Computer'
   '''Tycoon'' Remote Tracking Computer':
     ChargeGroup1: 907
     ChargeSize: 1
@@ -64,6 +66,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 13.5
+    name: '''Tycoon'' Remote Tracking Computer'
   Alfven Enduring Remote Tracking Computer:
     CapacitorNeed: 16.0
     ChargeGroup1: 907
@@ -87,6 +90,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 13.5
+    name: Alfven Enduring Remote Tracking Computer
   F-293 Scoped Remote Tracking Computer:
     ChargeGroup1: 907
     ChargeSize: 1
@@ -109,6 +113,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 13.5
+    name: F-293 Scoped Remote Tracking Computer
   Federation Navy Remote Tracking Computer:
     ChargeGroup1: 907
     ChargeSize: 1
@@ -131,6 +136,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 17.5
+    name: Federation Navy Remote Tracking Computer
   P-S Compact Remote Tracking Computer:
     ChargeGroup1: 907
     ChargeSize: 1
@@ -153,6 +159,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 13.5
+    name: P-S Compact Remote Tracking Computer
   Remote Tracking Computer I:
     ChargeGroup1: 907
     ChargeSize: 1
@@ -173,6 +180,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 12.0
+    name: Remote Tracking Computer I
   Remote Tracking Computer II:
     CapacitorNeed: 24.0
     ChargeGroup1: 907
@@ -196,6 +204,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     TrackingSpeedBonus: 15.0
+    name: Remote Tracking Computer II
   Shadow Serpentis Remote Tracking Computer:
     ChargeGroup1: 907
     ChargeSize: 1
@@ -218,3 +227,4 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 17.5
+    name: Shadow Serpentis Remote Tracking Computer

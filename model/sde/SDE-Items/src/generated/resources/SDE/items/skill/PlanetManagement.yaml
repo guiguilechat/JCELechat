@@ -6,14 +6,17 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    name: Advanced Planetology
   Command Center Upgrades:
     PrimaryAttribute: 164
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
+    name: Command Center Upgrades
   Interplanetary Consolidation:
     PrimaryAttribute: 164
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
+    name: Interplanetary Consolidation
   Planetology:
     PrimaryAttribute: 165
     RequiredSkill1: 13279
@@ -22,9 +25,11 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    name: Planetology
   Remote Sensing:
     PrimaryAttribute: 165
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Remote Sensing

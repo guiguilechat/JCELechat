@@ -2,69 +2,92 @@ items:
   '''Cartel'' Power Diagnostic System I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Cartel'' Power Diagnostic System I Blueprint'
   '''Motte'' Capacitor Power Relay I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Motte'' Capacitor Power Relay I Blueprint'
   '''Page'' Capacitor Flux Coil I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Page'' Capacitor Flux Coil I Blueprint'
   '''Portcullis'' Reactor Control Unit I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Portcullis'' Reactor Control Unit I Blueprint'
   Ammatar Navy Capacitor Power Relay Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Capacitor Power Relay Blueprint
   Ammatar Navy Power Diagnostic System Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Power Diagnostic System Blueprint
   Ammatar Navy Reactor Control Unit Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Reactor Control Unit Blueprint
   Caldari Navy Power Diagnostic System Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Caldari Navy Power Diagnostic System Blueprint
   Capacitor Flux Coil I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Capacitor Flux Coil I Blueprint
   Capacitor Flux Coil II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Capacitor Flux Coil II Blueprint
   Capacitor Power Relay I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Capacitor Power Relay I Blueprint
   Capacitor Power Relay II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Capacitor Power Relay II Blueprint
   Imperial Navy Capacitor Power Relay Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Capacitor Power Relay Blueprint
   Khanid Navy Capacitor Power Relay Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Khanid Navy Capacitor Power Relay Blueprint
   Power Diagnostic System I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Power Diagnostic System I Blueprint
   Power Diagnostic System II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Power Diagnostic System II Blueprint
   Reactor Control Unit I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Reactor Control Unit I Blueprint
   Reactor Control Unit II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Reactor Control Unit II Blueprint
   Shield Flux Coil I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Shield Flux Coil I Blueprint
   Shield Flux Coil II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Shield Flux Coil II Blueprint
   Shield Power Relay I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Shield Power Relay I Blueprint
   Shield Power Relay II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Shield Power Relay II Blueprint
   Syndicate Reactor Control Unit Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Syndicate Reactor Control Unit Blueprint

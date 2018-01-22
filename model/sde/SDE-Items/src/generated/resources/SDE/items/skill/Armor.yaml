@@ -6,6 +6,7 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    name: Armor Layering
   Capital Remote Armor Repair Systems:
     CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -5
@@ -14,6 +15,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 10.0
+    name: Capital Remote Armor Repair Systems
   Capital Remote Hull Repair Systems:
     CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -5
@@ -22,6 +24,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 10.0
+    name: Capital Remote Hull Repair Systems
   Capital Repair Systems:
     CanNotBeTrainedOnTrial: 1
     DurationSkillBonus: -5
@@ -34,6 +37,7 @@ items:
     RequiredSkill3Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
+    name: Capital Repair Systems
   EM Armor Compensation:
     HardeningBonus: 5.0
     PrimaryAttribute: 165
@@ -41,6 +45,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    name: EM Armor Compensation
   Explosive Armor Compensation:
     HardeningBonus: 5.0
     PrimaryAttribute: 165
@@ -48,6 +53,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    name: Explosive Armor Compensation
   Hull Upgrades:
     ArmorHpBonus: 5
     PrimaryAttribute: 165
@@ -55,6 +61,7 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    name: Hull Upgrades
   Kinetic Armor Compensation:
     HardeningBonus: 5.0
     PrimaryAttribute: 165
@@ -62,10 +69,12 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    name: Kinetic Armor Compensation
   Mechanics:
     PrimaryAttribute: 165
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Mechanics
   Remote Armor Repair Systems:
     CapNeedBonus: -5
     PrimaryAttribute: 165
@@ -75,6 +84,7 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    name: Remote Armor Repair Systems
   Remote Hull Repair Systems:
     CapNeedBonus: -5
     PrimaryAttribute: 165
@@ -82,6 +92,7 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    name: Remote Hull Repair Systems
   Repair Systems:
     DurationSkillBonus: -5
     PrimaryAttribute: 165
@@ -89,6 +100,7 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    name: Repair Systems
   Thermal Armor Compensation:
     HardeningBonus: 5.0
     PrimaryAttribute: 165
@@ -96,3 +108,4 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    name: Thermal Armor Compensation

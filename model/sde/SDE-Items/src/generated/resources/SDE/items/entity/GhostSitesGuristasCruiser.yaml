@@ -1,5 +1,9 @@
 items:
-  Guristas Lookout: {}
-  Guristas Sentry: {}
-  Guristas Warden: {}
-  Guristas Watcher: {}
+  Guristas Lookout:
+    name: Guristas Lookout
+  Guristas Sentry:
+    name: Guristas Sentry
+  Guristas Warden:
+    name: Guristas Warden
+  Guristas Watcher:
+    name: Guristas Watcher

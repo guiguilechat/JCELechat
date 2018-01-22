@@ -1,14 +1,27 @@
 items:
-  Assembled Container: {}
-  Black Drone Container: {}
-  Container with blast marks: {}
-  Crimson Hand Container: {}
-  Dented Cask: {}
-  Dewak's Dot: {}
-  Electronically Sealed Container: {}
-  Main Supply Storage: {}
-  Scratched Cask: {}
-  Special Products: {}
-  Storage Taxes: {}
-  Stuffed Container: {}
-  The Prize Container: {}
+  Assembled Container:
+    name: Assembled Container
+  Black Drone Container:
+    name: Black Drone Container
+  Container with blast marks:
+    name: Container with blast marks
+  Crimson Hand Container:
+    name: Crimson Hand Container
+  Dented Cask:
+    name: Dented Cask
+  Dewak's Dot:
+    name: Dewak's Dot
+  Electronically Sealed Container:
+    name: Electronically Sealed Container
+  Main Supply Storage:
+    name: Main Supply Storage
+  Scratched Cask:
+    name: Scratched Cask
+  Special Products:
+    name: Special Products
+  Storage Taxes:
+    name: Storage Taxes
+  Stuffed Container:
+    name: Stuffed Container
+  The Prize Container:
+    name: The Prize Container

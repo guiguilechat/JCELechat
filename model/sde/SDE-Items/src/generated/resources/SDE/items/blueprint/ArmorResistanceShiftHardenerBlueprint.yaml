@@ -1,7 +1,12 @@
 items:
-  Capital Flex Armor Hardener I Blueprint: {}
-  Capital Flex Armor Hardener II Blueprint: {}
-  Dark Blood Capital Flex Armor Hardener Blueprint: {}
+  Capital Flex Armor Hardener I Blueprint:
+    name: Capital Flex Armor Hardener I Blueprint
+  Capital Flex Armor Hardener II Blueprint:
+    name: Capital Flex Armor Hardener II Blueprint
+  Dark Blood Capital Flex Armor Hardener Blueprint:
+    name: Dark Blood Capital Flex Armor Hardener Blueprint
   Reactive Armor Hardener Blueprint:
     IndustryBlueprintRank: 3.0
-  Shadow Serpentis Capital Flex Armor Hardener Blueprint: {}
+    name: Reactive Armor Hardener Blueprint
+  Shadow Serpentis Capital Flex Armor Hardener Blueprint:
+    name: Shadow Serpentis Capital Flex Armor Hardener Blueprint

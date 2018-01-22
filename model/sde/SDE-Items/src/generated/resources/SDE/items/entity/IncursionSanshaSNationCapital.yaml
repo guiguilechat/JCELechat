@@ -1,3 +1,5 @@
 items:
-  The Kundalini Manifest: {}
-  Uroborus: {}
+  The Kundalini Manifest:
+    name: The Kundalini Manifest
+  Uroborus:
+    name: Uroborus

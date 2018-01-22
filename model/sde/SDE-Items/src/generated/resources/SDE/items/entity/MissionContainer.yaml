@@ -1,50 +1,99 @@
 items:
-  Amarr Frigate Container: {}
-  Barbican Repository: {}
-  Barbican Vault: {}
-  Business Associate: {}
-  CONCORD Collection Vessel: {}
-  Cargo Facility 7A-21: {}
-  Cargo Wreathe: {}
-  Central Archive Cerebrum: {}
-  Chapel Container: {}
-  Cilis Leglise's Headquarters: {}
-  Colonial Supply Depot: {}
-  Communications Array: {}
-  'Conference Center ': {}
-  Conflux Repository: {}
-  Conflux Vault: {}
-  Dead Drop: {}
-  Defiants Storage Facility: {}
-  Drone Infested Dominix: {}
-  Emergency Evacuation Freighter: {}
-  Generic Cargo Container: {}
-  Guard Post: {}
-  Josameto Verification Center: {}
-  Linked Broadcast Array Hub: {}
-  Luxury Spaceliner: {}
-  Manager's Station: {}
-  Mizara Family Hovel: {}
-  Nation Ore Refinery: {}
-  Orca Container: {}
-  Redoubt Repository: {}
-  Redoubt Vault: {}
-  Remote Calibration Device - High Power: {}
-  Remote Calibration Device - Low Power: {}
-  Safe House Ruins: {}
-  Sansha Control Relay: {}
-  Sansha Territorial Reclamation Outpost: {}
-  Senator Pillius Ardanne: {}
-  Sentinel Repository: {}
-  Sentinel Vault: {}
-  Serpentis Transport Hub: {}
-  Shield Transfer Control Tower: {}
-  Sisters of EVE Cold Storage Unit: {}
-  Solray Gamma Alignment Unit: {}
-  Solray Infrared Alignment Unit: {}
-  Solray Radio Alignment Unit: {}
-  Storage Warehouse Container: {}
-  The Quartermaster: {}
-  Vidette Repository: {}
-  Vidette Vault: {}
-  Wolf Burgan's Hideout: {}
+  Amarr Frigate Container:
+    name: Amarr Frigate Container
+  Barbican Repository:
+    name: Barbican Repository
+  Barbican Vault:
+    name: Barbican Vault
+  Business Associate:
+    name: Business Associate
+  CONCORD Collection Vessel:
+    name: CONCORD Collection Vessel
+  Cargo Facility 7A-21:
+    name: Cargo Facility 7A-21
+  Cargo Wreathe:
+    name: Cargo Wreathe
+  Central Archive Cerebrum:
+    name: Central Archive Cerebrum
+  Chapel Container:
+    name: Chapel Container
+  Cilis Leglise's Headquarters:
+    name: Cilis Leglise's Headquarters
+  Colonial Supply Depot:
+    name: Colonial Supply Depot
+  Communications Array:
+    name: Communications Array
+  'Conference Center ':
+    name: 'Conference Center '
+  Conflux Repository:
+    name: Conflux Repository
+  Conflux Vault:
+    name: Conflux Vault
+  Dead Drop:
+    name: Dead Drop
+  Defiants Storage Facility:
+    name: Defiants Storage Facility
+  Drone Infested Dominix:
+    name: Drone Infested Dominix
+  Emergency Evacuation Freighter:
+    name: Emergency Evacuation Freighter
+  Generic Cargo Container:
+    name: Generic Cargo Container
+  Guard Post:
+    name: Guard Post
+  Josameto Verification Center:
+    name: Josameto Verification Center
+  Linked Broadcast Array Hub:
+    name: Linked Broadcast Array Hub
+  Luxury Spaceliner:
+    name: Luxury Spaceliner
+  Manager's Station:
+    name: Manager's Station
+  Mizara Family Hovel:
+    name: Mizara Family Hovel
+  Nation Ore Refinery:
+    name: Nation Ore Refinery
+  Orca Container:
+    name: Orca Container
+  Redoubt Repository:
+    name: Redoubt Repository
+  Redoubt Vault:
+    name: Redoubt Vault
+  Remote Calibration Device - High Power:
+    name: Remote Calibration Device - High Power
+  Remote Calibration Device - Low Power:
+    name: Remote Calibration Device - Low Power
+  Safe House Ruins:
+    name: Safe House Ruins
+  Sansha Control Relay:
+    name: Sansha Control Relay
+  Sansha Territorial Reclamation Outpost:
+    name: Sansha Territorial Reclamation Outpost
+  Senator Pillius Ardanne:
+    name: Senator Pillius Ardanne
+  Sentinel Repository:
+    name: Sentinel Repository
+  Sentinel Vault:
+    name: Sentinel Vault
+  Serpentis Transport Hub:
+    name: Serpentis Transport Hub
+  Shield Transfer Control Tower:
+    name: Shield Transfer Control Tower
+  Sisters of EVE Cold Storage Unit:
+    name: Sisters of EVE Cold Storage Unit
+  Solray Gamma Alignment Unit:
+    name: Solray Gamma Alignment Unit
+  Solray Infrared Alignment Unit:
+    name: Solray Infrared Alignment Unit
+  Solray Radio Alignment Unit:
+    name: Solray Radio Alignment Unit
+  Storage Warehouse Container:
+    name: Storage Warehouse Container
+  The Quartermaster:
+    name: The Quartermaster
+  Vidette Repository:
+    name: Vidette Repository
+  Vidette Vault:
+    name: Vidette Vault
+  Wolf Burgan's Hideout:
+    name: Wolf Burgan's Hideout

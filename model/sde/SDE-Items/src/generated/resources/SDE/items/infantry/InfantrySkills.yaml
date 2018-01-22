@@ -1,288 +1,575 @@
 items:
-  Active Armor Enhancement: {}
-  Active Scanner Operation: {}
-  Active Shield Enhancement: {}
-  Amarr Assault Dropsuits: {}
-  Amarr Commando Dropsuits: {}
-  Amarr Heavy Dropsuits: {}
-  Amarr Light Dropsuits: {}
-  Amarr Logistics Dropsuits: {}
-  Amarr Medium Dropsuits: {}
-  Amarr Pilot Dropsuits: {}
-  Amarr Scout Dropsuits: {}
-  Amarr Sentinel Dropsuits: {}
-  Armor Fitting Optimization: {}
-  Armor Plating: {}
-  Armor Repair Systems: {}
-  Assault Dropships: {}
-  Assault Rifle Ammo Capacity: {}
-  Assault Rifle Fitting Optimization: {}
-  Assault Rifle Operation: {}
-  Assault Rifle Proficiency: {}
-  Assault Rifle Rapid Reload: {}
-  Assault Rifle Sharpshooter: {}
-  Bolt Pistol Ammo Capacity: {}
-  Bolt Pistol Fitting Optimization: {}
-  Bolt Pistol Operation: {}
-  Bolt Pistol Proficiency: {}
-  Bolt Pistol Rapid Reload: {}
-  Caldari Assault Dropship: {}
-  Caldari Assault Dropsuits: {}
-  Caldari Commando Dropsuits: {}
-  Caldari Enforcer HAV: {}
-  Caldari Heavy Dropsuits: {}
-  Caldari Light Dropsuits: {}
-  Caldari Logistics Dropship: {}
-  Caldari Logistics Dropsuits: {}
-  Caldari Logistics LAV: {}
-  Caldari Marauder: {}
-  Caldari Medium Dropsuits: {}
-  Caldari Pilot Dropsuits: {}
-  Caldari Scout Dropsuits: {}
-  Caldari Scout LAV: {}
-  Caldari Sentinel Dropsuits: {}
-  Cardiac Regulation: {}
-  Chassis Modification: {}
-  Cloak Field  Operation: {}
-  Combat Rifle Ammo Capacity: {}
-  Combat Rifle Fitting Optimization: {}
-  Combat Rifle Operation: {}
-  Combat Rifle Proficiency: {}
-  Combat Rifle Rapid Reload: {}
-  Combat Rifle Sharpshooter: {}
-  Core Grid Management: {}
-  Corporations: {}
-  Damage Amplifier Fitting Optimization: {}
-  Demolitions: {}
-  Drop Uplink Deployment: {}
-  Dropship Operation: {}
-  Dropsuit Armor Upgrades: {}
-  Dropsuit Biotic Upgrades: {}
-  Dropsuit Command: {}
-  Dropsuit Core Upgrades: {}
-  Dropsuit Electronics: {}
-  Dropsuit Engineering: {}
-  Dropsuit Shield Upgrades: {}
-  Dropsuit Upgrades: {}
-  Duplicate skill?: {}
-  Engine Core Calibration: {}
-  Explosives: {}
-  Flaylock Pistol Ammo Capacity: {}
-  Flaylock Pistol Fitting Optimization: {}
-  Flaylock Pistol Operation: {}
-  Flaylock Pistol Proficiency: {}
-  Flaylock Pistol Rapid Reload: {}
-  Flaylock Pistol Sharpshooter: {}
-  Forge Gun Ammo Capacity: {}
-  Forge Gun Fitting Optimization: {}
-  Forge Gun Operation: {}
-  Forge Gun Proficiency: {}
-  Forge Gun Rapid Reload: {}
-  Forge Gun Sharpshooter: {}
-  Gallente Assault Dropship: {}
-  Gallente Assault Dropsuits: {}
-  Gallente Commando Dropsuits: {}
-  Gallente Dropship: {}
-  Gallente Enforcer HAV: {}
-  Gallente HAV: {}
-  Gallente Heavy Dropsuits: {}
-  Gallente LAV: {}
-  Gallente Light Dropsuits: {}
-  Gallente Logistics Dropship: {}
-  Gallente Logistics Dropsuit: {}
-  Gallente Logistics LAV: {}
-  Gallente Marauder: {}
-  Gallente Medium Dropsuits: {}
-  Gallente Pilot Dropsuits: {}
-  Gallente Scout Dropsuits: {}
-  Gallente Scout LAV: {}
-  Gallente Sentinel Dropsuits: {}
-  Grenadier: {}
-  HAV Operation: {}
-  Hand-to-Hand Combat: {}
-  Handheld Weapon Upgrades: {}
-  Heavy Machine Gun Ammo Capacity: {}
-  Heavy Machine Gun Fitting Optimization: {}
-  Heavy Machine Gun Operation: {}
-  Heavy Machine Gun Proficiency: {}
-  Heavy Machine Gun Rapid Reload: {}
-  Heavy Machine Gun Sharpshooter: {}
-  Heavy Weapon Capacity: {}
-  Heavy Weapon Capacity Proficiency: {}
-  Heavy Weapon Operation: {}
-  Heavy Weapon Rapid Reload: {}
-  Heavy Weapon Rapid Reload Proficiency: {}
-  Heavy Weapon Sharpshooter: {}
-  Heavy Weapon Sharpshooting Proficiency: {}
-  Heavy Weapon Upgrade: {}
-  Heavy Weapon Upgrade Proficiency: {}
-  Infantry Skill Endurance: {}
-  Ion Pistol Ammo Capacity: {}
-  Ion Pistol Fitting Optimization: {}
-  Ion Pistol Operation: {}
-  Ion Pistol Proficiency: {}
-  Ion Pistol Rapid Reload: {}
-  Ion Pistol Sharpshooter: {}
-  Kinetic Catalyzation: {}
-  LAV Operation: {}
-  Large Blaster Ammo Capacity: {}
-  Large Blaster Fitting Optimization: {}
-  Large Blaster Operation: {}
-  Large Blaster Proficiency: {}
-  Large Blaster Reload Systems: {}
-  Large Missile Launcher Ammo Capacity: {}
-  Large Missile Launcher Fitting Optimization: {}
-  Large Missile Launcher Operation: {}
-  Large Missile Launcher Proficiency: {}
-  Large Missile Launcher Reload Systems: {}
-  Large Railgun Ammo Capacity: {}
-  Large Railgun Fitting Optimization: {}
-  Large Railgun Operation: {}
-  Large Railgun Proficiency: {}
-  Large Railgun Reload Systems: {}
-  Large Turret Operation: {}
-  Laser Rifle Ammo Capacity: {}
-  Laser Rifle Fitting Optimization: {}
-  Laser Rifle Operation: {}
-  Laser Rifle Proficiency: {}
-  Laser Rifle Rapid Reload: {}
-  Laser Rifle Sharpshooter: {}
-  Light Weapon Capacity: {}
-  Light Weapon Capacity Proficiency: {}
-  Light Weapon Operation: {}
-  Light Weapon Rapid Reload: {}
-  Light Weapon Rapid Reload Proficiency: {}
-  Light Weapon Sharpshooter: {}
-  Light Weapon Sharpshooter Proficiency: {}
-  Light Weapon Upgrade: {}
-  Light Weapon Upgrade Proficiency: {}
-  Long Range Scanning: {}
-  Magsec SMG Ammo Capacity: {}
-  Magsec SMG Fitting Optimization: {}
-  Magsec SMG Operation: {}
-  Magsec SMG Proficiency: {}
-  Magsec SMG Rapid Reload: {}
-  Magsec SMG Sharpshooter: {}
-  Mass Driver Ammo Capacity: {}
-  Mass Driver Fitting Optimization: {}
-  Mass Driver Operation: {}
-  Mass Driver Proficiency: {}
-  Mass Driver Rapid Reload: {}
-  Mass Driver Sharpshooter: {}
-  Megacorp Control: {}
-  Minmatar Assault Dropsuits: {}
-  Minmatar Commando Dropsuits: {}
-  Minmatar Heavy Dropsuits: {}
-  Minmatar Light Dropsuits: {}
-  Minmatar Logistics Dropsuit: {}
-  Minmatar Medium Dropsuits: {}
-  Minmatar Pilot Dropsuits: {}
-  Minmatar Scout Dropsuits: {}
-  Minmatar Sentinel Dropsuits: {}
-  Nanocircuitry: {}
-  Neural Trainer: {}
-  Nova Knife Fitting Optimization: {}
-  Nova Knife Operation: {}
-  Nova Knife Proficiency: {}
-  Piloting: {}
-  Plasma Cannon Ammo Capacity: {}
-  Plasma Cannon Fitting Optimization: {}
-  Plasma Cannon Operation: {}
-  Plasma Cannon Proficiency: {}
-  Plasma Cannon Rapid Reload: {}
-  Plasma Cannon Sharpshooter: {}
-  Precision Enhancement: {}
-  Profile Analysis: {}
-  Profile Dampening: {}
-  Rail Rifle Ammo Capacity: {}
-  Rail Rifle Fitting Optimization: {}
-  Rail Rifle Operation: {}
-  Rail Rifle Proficiency: {}
-  Rail Rifle Rapid Reload: {}
-  Range Amplification: {}
-  Remote Armor Repair: {}
-  Remote Shield Modulation: {}
-  Repair Tool Operation: {}
-  Scrambler Pistol Ammo Capacity: {}
-  Scrambler Pistol Fitting Optimization: {}
-  Scrambler Pistol Operation: {}
-  Scrambler Pistol Proficiency: {}
-  Scrambler Pistol Rapid Reload: {}
-  Scrambler Pistol Sharpshooter: {}
-  Scrambler Rifle Ammo Capacity: {}
-  Scrambler Rifle Fitting Optimization: {}
-  Scrambler Rifle Operation: {}
-  Scrambler Rifle Proficiency: {}
-  Scrambler Rifle Rapid Reload: {}
-  Scrambler Rifle Sharpshooter: {}
-  Sensor Upgrades: {}
-  Shield Boost Systems: {}
-  Shield Extension: {}
-  Shield Fitting Optimization: {}
-  Shield Recharging: {}
-  Shield Regulation: {}
-  Shotgun Ammo Capacity: {}
-  Shotgun Fitting Optimization: {}
-  Shotgun Operation: {}
-  Shotgun Proficiency: {}
-  Shotgun Rapid Reload: {}
-  Shotgun Sharpshooter: {}
-  Sidearm Operation: {}
-  Sidearm Weapon Capacity: {}
-  Sidearm Weapon Capacity Proficiency: {}
-  Sidearm Weapon Rapid Reload: {}
-  Sidearm Weapon Rapid Reload Proficiency: {}
-  Sidearm Weapon Sharpshooter: {}
-  Sidearm Weapon Sharpshooter Proficiency: {}
-  Sidearm Weapon Upgrade: {}
-  Sidearm Weapon Upgrade Proficiency: {}
-  Small Blaster Ammo Capacity: {}
-  Small Blaster Fitting Optimization: {}
-  Small Blaster Operation: {}
-  Small Blaster Proficiency: {}
-  Small Blaster Reload Systems: {}
-  Small Missile Launcher Ammo Capacity: {}
-  Small Missile Launcher Fitting Optimization: {}
-  Small Missile Launcher Operation: {}
-  Small Missile Launcher Proficiency: {}
-  Small Missile Launcher Reload Systems: {}
-  Small Railgun Ammo Capacity: {}
-  Small Railgun Fitting Optimization: {}
-  Small Railgun Operation: {}
-  Small Railgun Proficiency: {}
-  Small Railgun Reload Systems: {}
-  Small Turret Operation: {}
-  Sniper Rifle Ammo Capacity: {}
-  Sniper Rifle Fitting Optimization: {}
-  Sniper Rifle Operation: {}
-  Sniper Rifle Proficiency: {}
-  Sniper Rifle Rapid Reload: {}
-  Sniper Rifle Sharpshooter: {}
-  Submachine Gun Ammo Capacity: {}
-  Submachine Gun Fitting Optimization: {}
-  Submachine Gun Operation: {}
-  Submachine Gun Proficiency: {}
-  Submachine Gun Rapid Reload: {}
-  Submachine Gun Sharpshooter: {}
-  Swarm Launcher Ammo Capacity: {}
-  Swarm Launcher Fitting Optimization: {}
-  Swarm Launcher Operation: {}
-  Swarm Launcher Proficiency: {}
-  Swarm Launcher Rapid Reload: {}
-  Swarm Launcher Sharpshooter: {}
-  Systems Hacking: {}
-  Transstellar Empire Control: {}
-  Turret Operation: {}
-  Vehicle Active Hardening: {}
-  Vehicle Armor Composition: {}
-  Vehicle Armor Repair Systems: {}
-  Vehicle Armor Upgrades: {}
-  Vehicle Command: {}
-  Vehicle Core Upgrades: {}
-  Vehicle Electronics: {}
-  Vehicle Engineering: {}
-  Vehicle Shield Regeneration: {}
-  Vehicle Shield Upgrades: {}
-  Vehicle Turret Upgrades: {}
-  Vehicle Upgrades: {}
-  Weaponry: {}
+  Active Armor Enhancement:
+    name: Active Armor Enhancement
+  Active Scanner Operation:
+    name: Active Scanner Operation
+  Active Shield Enhancement:
+    name: Active Shield Enhancement
+  Amarr Assault Dropsuits:
+    name: Amarr Assault Dropsuits
+  Amarr Commando Dropsuits:
+    name: Amarr Commando Dropsuits
+  Amarr Heavy Dropsuits:
+    name: Amarr Heavy Dropsuits
+  Amarr Light Dropsuits:
+    name: Amarr Light Dropsuits
+  Amarr Logistics Dropsuits:
+    name: Amarr Logistics Dropsuits
+  Amarr Medium Dropsuits:
+    name: Amarr Medium Dropsuits
+  Amarr Pilot Dropsuits:
+    name: Amarr Pilot Dropsuits
+  Amarr Scout Dropsuits:
+    name: Amarr Scout Dropsuits
+  Amarr Sentinel Dropsuits:
+    name: Amarr Sentinel Dropsuits
+  Armor Fitting Optimization:
+    name: Armor Fitting Optimization
+  Armor Plating:
+    name: Armor Plating
+  Armor Repair Systems:
+    name: Armor Repair Systems
+  Assault Dropships:
+    name: Assault Dropships
+  Assault Rifle Ammo Capacity:
+    name: Assault Rifle Ammo Capacity
+  Assault Rifle Fitting Optimization:
+    name: Assault Rifle Fitting Optimization
+  Assault Rifle Operation:
+    name: Assault Rifle Operation
+  Assault Rifle Proficiency:
+    name: Assault Rifle Proficiency
+  Assault Rifle Rapid Reload:
+    name: Assault Rifle Rapid Reload
+  Assault Rifle Sharpshooter:
+    name: Assault Rifle Sharpshooter
+  Bolt Pistol Ammo Capacity:
+    name: Bolt Pistol Ammo Capacity
+  Bolt Pistol Fitting Optimization:
+    name: Bolt Pistol Fitting Optimization
+  Bolt Pistol Operation:
+    name: Bolt Pistol Operation
+  Bolt Pistol Proficiency:
+    name: Bolt Pistol Proficiency
+  Bolt Pistol Rapid Reload:
+    name: Bolt Pistol Rapid Reload
+  Caldari Assault Dropship:
+    name: Caldari Assault Dropship
+  Caldari Assault Dropsuits:
+    name: Caldari Assault Dropsuits
+  Caldari Commando Dropsuits:
+    name: Caldari Commando Dropsuits
+  Caldari Enforcer HAV:
+    name: Caldari Enforcer HAV
+  Caldari Heavy Dropsuits:
+    name: Caldari Heavy Dropsuits
+  Caldari Light Dropsuits:
+    name: Caldari Light Dropsuits
+  Caldari Logistics Dropship:
+    name: Caldari Logistics Dropship
+  Caldari Logistics Dropsuits:
+    name: Caldari Logistics Dropsuits
+  Caldari Logistics LAV:
+    name: Caldari Logistics LAV
+  Caldari Marauder:
+    name: Caldari Marauder
+  Caldari Medium Dropsuits:
+    name: Caldari Medium Dropsuits
+  Caldari Pilot Dropsuits:
+    name: Caldari Pilot Dropsuits
+  Caldari Scout Dropsuits:
+    name: Caldari Scout Dropsuits
+  Caldari Scout LAV:
+    name: Caldari Scout LAV
+  Caldari Sentinel Dropsuits:
+    name: Caldari Sentinel Dropsuits
+  Cardiac Regulation:
+    name: Cardiac Regulation
+  Chassis Modification:
+    name: Chassis Modification
+  Cloak Field  Operation:
+    name: Cloak Field  Operation
+  Combat Rifle Ammo Capacity:
+    name: Combat Rifle Ammo Capacity
+  Combat Rifle Fitting Optimization:
+    name: Combat Rifle Fitting Optimization
+  Combat Rifle Operation:
+    name: Combat Rifle Operation
+  Combat Rifle Proficiency:
+    name: Combat Rifle Proficiency
+  Combat Rifle Rapid Reload:
+    name: Combat Rifle Rapid Reload
+  Combat Rifle Sharpshooter:
+    name: Combat Rifle Sharpshooter
+  Core Grid Management:
+    name: Core Grid Management
+  Corporations:
+    name: Corporations
+  Damage Amplifier Fitting Optimization:
+    name: Damage Amplifier Fitting Optimization
+  Demolitions:
+    name: Demolitions
+  Drop Uplink Deployment:
+    name: Drop Uplink Deployment
+  Dropship Operation:
+    name: Dropship Operation
+  Dropsuit Armor Upgrades:
+    name: Dropsuit Armor Upgrades
+  Dropsuit Biotic Upgrades:
+    name: Dropsuit Biotic Upgrades
+  Dropsuit Command:
+    name: Dropsuit Command
+  Dropsuit Core Upgrades:
+    name: Dropsuit Core Upgrades
+  Dropsuit Electronics:
+    name: Dropsuit Electronics
+  Dropsuit Engineering:
+    name: Dropsuit Engineering
+  Dropsuit Shield Upgrades:
+    name: Dropsuit Shield Upgrades
+  Dropsuit Upgrades:
+    name: Dropsuit Upgrades
+  Duplicate skill?:
+    name: Duplicate skill?
+  Engine Core Calibration:
+    name: Engine Core Calibration
+  Explosives:
+    name: Explosives
+  Flaylock Pistol Ammo Capacity:
+    name: Flaylock Pistol Ammo Capacity
+  Flaylock Pistol Fitting Optimization:
+    name: Flaylock Pistol Fitting Optimization
+  Flaylock Pistol Operation:
+    name: Flaylock Pistol Operation
+  Flaylock Pistol Proficiency:
+    name: Flaylock Pistol Proficiency
+  Flaylock Pistol Rapid Reload:
+    name: Flaylock Pistol Rapid Reload
+  Flaylock Pistol Sharpshooter:
+    name: Flaylock Pistol Sharpshooter
+  Forge Gun Ammo Capacity:
+    name: Forge Gun Ammo Capacity
+  Forge Gun Fitting Optimization:
+    name: Forge Gun Fitting Optimization
+  Forge Gun Operation:
+    name: Forge Gun Operation
+  Forge Gun Proficiency:
+    name: Forge Gun Proficiency
+  Forge Gun Rapid Reload:
+    name: Forge Gun Rapid Reload
+  Forge Gun Sharpshooter:
+    name: Forge Gun Sharpshooter
+  Gallente Assault Dropship:
+    name: Gallente Assault Dropship
+  Gallente Assault Dropsuits:
+    name: Gallente Assault Dropsuits
+  Gallente Commando Dropsuits:
+    name: Gallente Commando Dropsuits
+  Gallente Dropship:
+    name: Gallente Dropship
+  Gallente Enforcer HAV:
+    name: Gallente Enforcer HAV
+  Gallente HAV:
+    name: Gallente HAV
+  Gallente Heavy Dropsuits:
+    name: Gallente Heavy Dropsuits
+  Gallente LAV:
+    name: Gallente LAV
+  Gallente Light Dropsuits:
+    name: Gallente Light Dropsuits
+  Gallente Logistics Dropship:
+    name: Gallente Logistics Dropship
+  Gallente Logistics Dropsuit:
+    name: Gallente Logistics Dropsuit
+  Gallente Logistics LAV:
+    name: Gallente Logistics LAV
+  Gallente Marauder:
+    name: Gallente Marauder
+  Gallente Medium Dropsuits:
+    name: Gallente Medium Dropsuits
+  Gallente Pilot Dropsuits:
+    name: Gallente Pilot Dropsuits
+  Gallente Scout Dropsuits:
+    name: Gallente Scout Dropsuits
+  Gallente Scout LAV:
+    name: Gallente Scout LAV
+  Gallente Sentinel Dropsuits:
+    name: Gallente Sentinel Dropsuits
+  Grenadier:
+    name: Grenadier
+  HAV Operation:
+    name: HAV Operation
+  Hand-to-Hand Combat:
+    name: Hand-to-Hand Combat
+  Handheld Weapon Upgrades:
+    name: Handheld Weapon Upgrades
+  Heavy Machine Gun Ammo Capacity:
+    name: Heavy Machine Gun Ammo Capacity
+  Heavy Machine Gun Fitting Optimization:
+    name: Heavy Machine Gun Fitting Optimization
+  Heavy Machine Gun Operation:
+    name: Heavy Machine Gun Operation
+  Heavy Machine Gun Proficiency:
+    name: Heavy Machine Gun Proficiency
+  Heavy Machine Gun Rapid Reload:
+    name: Heavy Machine Gun Rapid Reload
+  Heavy Machine Gun Sharpshooter:
+    name: Heavy Machine Gun Sharpshooter
+  Heavy Weapon Capacity:
+    name: Heavy Weapon Capacity
+  Heavy Weapon Capacity Proficiency:
+    name: Heavy Weapon Capacity Proficiency
+  Heavy Weapon Operation:
+    name: Heavy Weapon Operation
+  Heavy Weapon Rapid Reload:
+    name: Heavy Weapon Rapid Reload
+  Heavy Weapon Rapid Reload Proficiency:
+    name: Heavy Weapon Rapid Reload Proficiency
+  Heavy Weapon Sharpshooter:
+    name: Heavy Weapon Sharpshooter
+  Heavy Weapon Sharpshooting Proficiency:
+    name: Heavy Weapon Sharpshooting Proficiency
+  Heavy Weapon Upgrade:
+    name: Heavy Weapon Upgrade
+  Heavy Weapon Upgrade Proficiency:
+    name: Heavy Weapon Upgrade Proficiency
+  Infantry Skill Endurance:
+    name: Infantry Skill Endurance
+  Ion Pistol Ammo Capacity:
+    name: Ion Pistol Ammo Capacity
+  Ion Pistol Fitting Optimization:
+    name: Ion Pistol Fitting Optimization
+  Ion Pistol Operation:
+    name: Ion Pistol Operation
+  Ion Pistol Proficiency:
+    name: Ion Pistol Proficiency
+  Ion Pistol Rapid Reload:
+    name: Ion Pistol Rapid Reload
+  Ion Pistol Sharpshooter:
+    name: Ion Pistol Sharpshooter
+  Kinetic Catalyzation:
+    name: Kinetic Catalyzation
+  LAV Operation:
+    name: LAV Operation
+  Large Blaster Ammo Capacity:
+    name: Large Blaster Ammo Capacity
+  Large Blaster Fitting Optimization:
+    name: Large Blaster Fitting Optimization
+  Large Blaster Operation:
+    name: Large Blaster Operation
+  Large Blaster Proficiency:
+    name: Large Blaster Proficiency
+  Large Blaster Reload Systems:
+    name: Large Blaster Reload Systems
+  Large Missile Launcher Ammo Capacity:
+    name: Large Missile Launcher Ammo Capacity
+  Large Missile Launcher Fitting Optimization:
+    name: Large Missile Launcher Fitting Optimization
+  Large Missile Launcher Operation:
+    name: Large Missile Launcher Operation
+  Large Missile Launcher Proficiency:
+    name: Large Missile Launcher Proficiency
+  Large Missile Launcher Reload Systems:
+    name: Large Missile Launcher Reload Systems
+  Large Railgun Ammo Capacity:
+    name: Large Railgun Ammo Capacity
+  Large Railgun Fitting Optimization:
+    name: Large Railgun Fitting Optimization
+  Large Railgun Operation:
+    name: Large Railgun Operation
+  Large Railgun Proficiency:
+    name: Large Railgun Proficiency
+  Large Railgun Reload Systems:
+    name: Large Railgun Reload Systems
+  Large Turret Operation:
+    name: Large Turret Operation
+  Laser Rifle Ammo Capacity:
+    name: Laser Rifle Ammo Capacity
+  Laser Rifle Fitting Optimization:
+    name: Laser Rifle Fitting Optimization
+  Laser Rifle Operation:
+    name: Laser Rifle Operation
+  Laser Rifle Proficiency:
+    name: Laser Rifle Proficiency
+  Laser Rifle Rapid Reload:
+    name: Laser Rifle Rapid Reload
+  Laser Rifle Sharpshooter:
+    name: Laser Rifle Sharpshooter
+  Light Weapon Capacity:
+    name: Light Weapon Capacity
+  Light Weapon Capacity Proficiency:
+    name: Light Weapon Capacity Proficiency
+  Light Weapon Operation:
+    name: Light Weapon Operation
+  Light Weapon Rapid Reload:
+    name: Light Weapon Rapid Reload
+  Light Weapon Rapid Reload Proficiency:
+    name: Light Weapon Rapid Reload Proficiency
+  Light Weapon Sharpshooter:
+    name: Light Weapon Sharpshooter
+  Light Weapon Sharpshooter Proficiency:
+    name: Light Weapon Sharpshooter Proficiency
+  Light Weapon Upgrade:
+    name: Light Weapon Upgrade
+  Light Weapon Upgrade Proficiency:
+    name: Light Weapon Upgrade Proficiency
+  Long Range Scanning:
+    name: Long Range Scanning
+  Magsec SMG Ammo Capacity:
+    name: Magsec SMG Ammo Capacity
+  Magsec SMG Fitting Optimization:
+    name: Magsec SMG Fitting Optimization
+  Magsec SMG Operation:
+    name: Magsec SMG Operation
+  Magsec SMG Proficiency:
+    name: Magsec SMG Proficiency
+  Magsec SMG Rapid Reload:
+    name: Magsec SMG Rapid Reload
+  Magsec SMG Sharpshooter:
+    name: Magsec SMG Sharpshooter
+  Mass Driver Ammo Capacity:
+    name: Mass Driver Ammo Capacity
+  Mass Driver Fitting Optimization:
+    name: Mass Driver Fitting Optimization
+  Mass Driver Operation:
+    name: Mass Driver Operation
+  Mass Driver Proficiency:
+    name: Mass Driver Proficiency
+  Mass Driver Rapid Reload:
+    name: Mass Driver Rapid Reload
+  Mass Driver Sharpshooter:
+    name: Mass Driver Sharpshooter
+  Megacorp Control:
+    name: Megacorp Control
+  Minmatar Assault Dropsuits:
+    name: Minmatar Assault Dropsuits
+  Minmatar Commando Dropsuits:
+    name: Minmatar Commando Dropsuits
+  Minmatar Heavy Dropsuits:
+    name: Minmatar Heavy Dropsuits
+  Minmatar Light Dropsuits:
+    name: Minmatar Light Dropsuits
+  Minmatar Logistics Dropsuit:
+    name: Minmatar Logistics Dropsuit
+  Minmatar Medium Dropsuits:
+    name: Minmatar Medium Dropsuits
+  Minmatar Pilot Dropsuits:
+    name: Minmatar Pilot Dropsuits
+  Minmatar Scout Dropsuits:
+    name: Minmatar Scout Dropsuits
+  Minmatar Sentinel Dropsuits:
+    name: Minmatar Sentinel Dropsuits
+  Nanocircuitry:
+    name: Nanocircuitry
+  Neural Trainer:
+    name: Neural Trainer
+  Nova Knife Fitting Optimization:
+    name: Nova Knife Fitting Optimization
+  Nova Knife Operation:
+    name: Nova Knife Operation
+  Nova Knife Proficiency:
+    name: Nova Knife Proficiency
+  Piloting:
+    name: Piloting
+  Plasma Cannon Ammo Capacity:
+    name: Plasma Cannon Ammo Capacity
+  Plasma Cannon Fitting Optimization:
+    name: Plasma Cannon Fitting Optimization
+  Plasma Cannon Operation:
+    name: Plasma Cannon Operation
+  Plasma Cannon Proficiency:
+    name: Plasma Cannon Proficiency
+  Plasma Cannon Rapid Reload:
+    name: Plasma Cannon Rapid Reload
+  Plasma Cannon Sharpshooter:
+    name: Plasma Cannon Sharpshooter
+  Precision Enhancement:
+    name: Precision Enhancement
+  Profile Analysis:
+    name: Profile Analysis
+  Profile Dampening:
+    name: Profile Dampening
+  Rail Rifle Ammo Capacity:
+    name: Rail Rifle Ammo Capacity
+  Rail Rifle Fitting Optimization:
+    name: Rail Rifle Fitting Optimization
+  Rail Rifle Operation:
+    name: Rail Rifle Operation
+  Rail Rifle Proficiency:
+    name: Rail Rifle Proficiency
+  Rail Rifle Rapid Reload:
+    name: Rail Rifle Rapid Reload
+  Range Amplification:
+    name: Range Amplification
+  Remote Armor Repair:
+    name: Remote Armor Repair
+  Remote Shield Modulation:
+    name: Remote Shield Modulation
+  Repair Tool Operation:
+    name: Repair Tool Operation
+  Scrambler Pistol Ammo Capacity:
+    name: Scrambler Pistol Ammo Capacity
+  Scrambler Pistol Fitting Optimization:
+    name: Scrambler Pistol Fitting Optimization
+  Scrambler Pistol Operation:
+    name: Scrambler Pistol Operation
+  Scrambler Pistol Proficiency:
+    name: Scrambler Pistol Proficiency
+  Scrambler Pistol Rapid Reload:
+    name: Scrambler Pistol Rapid Reload
+  Scrambler Pistol Sharpshooter:
+    name: Scrambler Pistol Sharpshooter
+  Scrambler Rifle Ammo Capacity:
+    name: Scrambler Rifle Ammo Capacity
+  Scrambler Rifle Fitting Optimization:
+    name: Scrambler Rifle Fitting Optimization
+  Scrambler Rifle Operation:
+    name: Scrambler Rifle Operation
+  Scrambler Rifle Proficiency:
+    name: Scrambler Rifle Proficiency
+  Scrambler Rifle Rapid Reload:
+    name: Scrambler Rifle Rapid Reload
+  Scrambler Rifle Sharpshooter:
+    name: Scrambler Rifle Sharpshooter
+  Sensor Upgrades:
+    name: Sensor Upgrades
+  Shield Boost Systems:
+    name: Shield Boost Systems
+  Shield Extension:
+    name: Shield Extension
+  Shield Fitting Optimization:
+    name: Shield Fitting Optimization
+  Shield Recharging:
+    name: Shield Recharging
+  Shield Regulation:
+    name: Shield Regulation
+  Shotgun Ammo Capacity:
+    name: Shotgun Ammo Capacity
+  Shotgun Fitting Optimization:
+    name: Shotgun Fitting Optimization
+  Shotgun Operation:
+    name: Shotgun Operation
+  Shotgun Proficiency:
+    name: Shotgun Proficiency
+  Shotgun Rapid Reload:
+    name: Shotgun Rapid Reload
+  Shotgun Sharpshooter:
+    name: Shotgun Sharpshooter
+  Sidearm Operation:
+    name: Sidearm Operation
+  Sidearm Weapon Capacity:
+    name: Sidearm Weapon Capacity
+  Sidearm Weapon Capacity Proficiency:
+    name: Sidearm Weapon Capacity Proficiency
+  Sidearm Weapon Rapid Reload:
+    name: Sidearm Weapon Rapid Reload
+  Sidearm Weapon Rapid Reload Proficiency:
+    name: Sidearm Weapon Rapid Reload Proficiency
+  Sidearm Weapon Sharpshooter:
+    name: Sidearm Weapon Sharpshooter
+  Sidearm Weapon Sharpshooter Proficiency:
+    name: Sidearm Weapon Sharpshooter Proficiency
+  Sidearm Weapon Upgrade:
+    name: Sidearm Weapon Upgrade
+  Sidearm Weapon Upgrade Proficiency:
+    name: Sidearm Weapon Upgrade Proficiency
+  Small Blaster Ammo Capacity:
+    name: Small Blaster Ammo Capacity
+  Small Blaster Fitting Optimization:
+    name: Small Blaster Fitting Optimization
+  Small Blaster Operation:
+    name: Small Blaster Operation
+  Small Blaster Proficiency:
+    name: Small Blaster Proficiency
+  Small Blaster Reload Systems:
+    name: Small Blaster Reload Systems
+  Small Missile Launcher Ammo Capacity:
+    name: Small Missile Launcher Ammo Capacity
+  Small Missile Launcher Fitting Optimization:
+    name: Small Missile Launcher Fitting Optimization
+  Small Missile Launcher Operation:
+    name: Small Missile Launcher Operation
+  Small Missile Launcher Proficiency:
+    name: Small Missile Launcher Proficiency
+  Small Missile Launcher Reload Systems:
+    name: Small Missile Launcher Reload Systems
+  Small Railgun Ammo Capacity:
+    name: Small Railgun Ammo Capacity
+  Small Railgun Fitting Optimization:
+    name: Small Railgun Fitting Optimization
+  Small Railgun Operation:
+    name: Small Railgun Operation
+  Small Railgun Proficiency:
+    name: Small Railgun Proficiency
+  Small Railgun Reload Systems:
+    name: Small Railgun Reload Systems
+  Small Turret Operation:
+    name: Small Turret Operation
+  Sniper Rifle Ammo Capacity:
+    name: Sniper Rifle Ammo Capacity
+  Sniper Rifle Fitting Optimization:
+    name: Sniper Rifle Fitting Optimization
+  Sniper Rifle Operation:
+    name: Sniper Rifle Operation
+  Sniper Rifle Proficiency:
+    name: Sniper Rifle Proficiency
+  Sniper Rifle Rapid Reload:
+    name: Sniper Rifle Rapid Reload
+  Sniper Rifle Sharpshooter:
+    name: Sniper Rifle Sharpshooter
+  Submachine Gun Ammo Capacity:
+    name: Submachine Gun Ammo Capacity
+  Submachine Gun Fitting Optimization:
+    name: Submachine Gun Fitting Optimization
+  Submachine Gun Operation:
+    name: Submachine Gun Operation
+  Submachine Gun Proficiency:
+    name: Submachine Gun Proficiency
+  Submachine Gun Rapid Reload:
+    name: Submachine Gun Rapid Reload
+  Submachine Gun Sharpshooter:
+    name: Submachine Gun Sharpshooter
+  Swarm Launcher Ammo Capacity:
+    name: Swarm Launcher Ammo Capacity
+  Swarm Launcher Fitting Optimization:
+    name: Swarm Launcher Fitting Optimization
+  Swarm Launcher Operation:
+    name: Swarm Launcher Operation
+  Swarm Launcher Proficiency:
+    name: Swarm Launcher Proficiency
+  Swarm Launcher Rapid Reload:
+    name: Swarm Launcher Rapid Reload
+  Swarm Launcher Sharpshooter:
+    name: Swarm Launcher Sharpshooter
+  Systems Hacking:
+    name: Systems Hacking
+  Transstellar Empire Control:
+    name: Transstellar Empire Control
+  Turret Operation:
+    name: Turret Operation
+  Vehicle Active Hardening:
+    name: Vehicle Active Hardening
+  Vehicle Armor Composition:
+    name: Vehicle Armor Composition
+  Vehicle Armor Repair Systems:
+    name: Vehicle Armor Repair Systems
+  Vehicle Armor Upgrades:
+    name: Vehicle Armor Upgrades
+  Vehicle Command:
+    name: Vehicle Command
+  Vehicle Core Upgrades:
+    name: Vehicle Core Upgrades
+  Vehicle Electronics:
+    name: Vehicle Electronics
+  Vehicle Engineering:
+    name: Vehicle Engineering
+  Vehicle Shield Regeneration:
+    name: Vehicle Shield Regeneration
+  Vehicle Shield Upgrades:
+    name: Vehicle Shield Upgrades
+  Vehicle Turret Upgrades:
+    name: Vehicle Turret Upgrades
+  Vehicle Upgrades:
+    name: Vehicle Upgrades
+  Weaponry:
+    name: Weaponry

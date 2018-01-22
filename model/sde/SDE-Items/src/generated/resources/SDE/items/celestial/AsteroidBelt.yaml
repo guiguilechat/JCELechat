@@ -1,3 +1,5 @@
 items:
-  Asteroid Belt: {}
-  Ice Field: {}
+  Asteroid Belt:
+    name: Asteroid Belt
+  Ice Field:
+    name: Ice Field

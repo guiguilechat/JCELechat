@@ -1,49 +1,97 @@
 items:
-  Legion Core - Augmented Antimatter Reactor Blueprint: {}
-  Legion Core - Dissolution Sequencer Blueprint: {}
-  Legion Core - Energy Parasitic Complex Blueprint: {}
-  Legion Defensive - Augmented Plating Blueprint: {}
-  Legion Defensive - Covert Reconfiguration Blueprint: {}
-  Legion Defensive - Nanobot Injector Blueprint: {}
-  Legion Offensive - Assault Optimization Blueprint: {}
-  Legion Offensive - Liquid Crystal Magnifiers Blueprint: {}
-  Legion Offensive - Support Processor Blueprint: {}
-  Legion Propulsion - Intercalated Nanofibers Blueprint: {}
-  Legion Propulsion - Interdiction Nullifier Blueprint: {}
-  Legion Propulsion - Wake Limiter Blueprint: {}
-  Loki Core - Augmented Nuclear Reactor Blueprint: {}
-  Loki Core - Dissolution Sequencer Blueprint: {}
-  Loki Core - Immobility Drivers Blueprint: {}
-  Loki Defensive - Adaptive Defense Node Blueprint: {}
-  Loki Defensive - Augmented Durability Blueprint: {}
-  Loki Defensive - Covert Reconfiguration Blueprint: {}
-  Loki Offensive - Launcher Efficiency Configuration Blueprint: {}
-  Loki Offensive - Projectile Scoping Array Blueprint: {}
-  Loki Offensive - Support Processor Blueprint: {}
-  Loki Propulsion - Intercalated Nanofibers Blueprint: {}
-  Loki Propulsion - Interdiction Nullifier Blueprint: {}
-  Loki Propulsion - Wake Limiter Blueprint: {}
-  Proteus Core - Augmented Fusion Reactor Blueprint: {}
-  Proteus Core - Electronic Efficiency Gate Blueprint: {}
-  Proteus Core - Friction Extension Processor Blueprint: {}
-  Proteus Defensive - Augmented Plating Blueprint: {}
-  Proteus Defensive - Covert Reconfiguration Blueprint: {}
-  Proteus Defensive - Nanobot Injector Blueprint: {}
-  Proteus Offensive - Drone Synthesis Projector Blueprint: {}
-  Proteus Offensive - Hybrid Encoding Platform Blueprint: {}
-  Proteus Offensive - Support Processor Blueprint: {}
-  Proteus Propulsion - Hyperspatial Optimization Blueprint: {}
-  Proteus Propulsion - Interdiction Nullifier Blueprint: {}
-  Proteus Propulsion - Localized Injectors Blueprint: {}
-  Tengu Core - Augmented Graviton Reactor Blueprint: {}
-  Tengu Core - Electronic Efficiency Gate Blueprint: {}
-  Tengu Core - Obfuscation Manifold Blueprint: {}
-  Tengu Defensive - Amplification Node Blueprint: {}
-  Tengu Defensive - Covert Reconfiguration Blueprint: {}
-  Tengu Defensive - Supplemental Screening Blueprint: {}
-  Tengu Offensive - Accelerated Ejection Bay Blueprint: {}
-  Tengu Offensive - Magnetic Infusion Basin Blueprint: {}
-  Tengu Offensive - Support Processor Blueprint: {}
-  Tengu Propulsion - Chassis Optimization Blueprint: {}
-  Tengu Propulsion - Fuel Catalyst Blueprint: {}
-  Tengu Propulsion - Interdiction Nullifier Blueprint: {}
+  Legion Core - Augmented Antimatter Reactor Blueprint:
+    name: Legion Core - Augmented Antimatter Reactor Blueprint
+  Legion Core - Dissolution Sequencer Blueprint:
+    name: Legion Core - Dissolution Sequencer Blueprint
+  Legion Core - Energy Parasitic Complex Blueprint:
+    name: Legion Core - Energy Parasitic Complex Blueprint
+  Legion Defensive - Augmented Plating Blueprint:
+    name: Legion Defensive - Augmented Plating Blueprint
+  Legion Defensive - Covert Reconfiguration Blueprint:
+    name: Legion Defensive - Covert Reconfiguration Blueprint
+  Legion Defensive - Nanobot Injector Blueprint:
+    name: Legion Defensive - Nanobot Injector Blueprint
+  Legion Offensive - Assault Optimization Blueprint:
+    name: Legion Offensive - Assault Optimization Blueprint
+  Legion Offensive - Liquid Crystal Magnifiers Blueprint:
+    name: Legion Offensive - Liquid Crystal Magnifiers Blueprint
+  Legion Offensive - Support Processor Blueprint:
+    name: Legion Offensive - Support Processor Blueprint
+  Legion Propulsion - Intercalated Nanofibers Blueprint:
+    name: Legion Propulsion - Intercalated Nanofibers Blueprint
+  Legion Propulsion - Interdiction Nullifier Blueprint:
+    name: Legion Propulsion - Interdiction Nullifier Blueprint
+  Legion Propulsion - Wake Limiter Blueprint:
+    name: Legion Propulsion - Wake Limiter Blueprint
+  Loki Core - Augmented Nuclear Reactor Blueprint:
+    name: Loki Core - Augmented Nuclear Reactor Blueprint
+  Loki Core - Dissolution Sequencer Blueprint:
+    name: Loki Core - Dissolution Sequencer Blueprint
+  Loki Core - Immobility Drivers Blueprint:
+    name: Loki Core - Immobility Drivers Blueprint
+  Loki Defensive - Adaptive Defense Node Blueprint:
+    name: Loki Defensive - Adaptive Defense Node Blueprint
+  Loki Defensive - Augmented Durability Blueprint:
+    name: Loki Defensive - Augmented Durability Blueprint
+  Loki Defensive - Covert Reconfiguration Blueprint:
+    name: Loki Defensive - Covert Reconfiguration Blueprint
+  Loki Offensive - Launcher Efficiency Configuration Blueprint:
+    name: Loki Offensive - Launcher Efficiency Configuration Blueprint
+  Loki Offensive - Projectile Scoping Array Blueprint:
+    name: Loki Offensive - Projectile Scoping Array Blueprint
+  Loki Offensive - Support Processor Blueprint:
+    name: Loki Offensive - Support Processor Blueprint
+  Loki Propulsion - Intercalated Nanofibers Blueprint:
+    name: Loki Propulsion - Intercalated Nanofibers Blueprint
+  Loki Propulsion - Interdiction Nullifier Blueprint:
+    name: Loki Propulsion - Interdiction Nullifier Blueprint
+  Loki Propulsion - Wake Limiter Blueprint:
+    name: Loki Propulsion - Wake Limiter Blueprint
+  Proteus Core - Augmented Fusion Reactor Blueprint:
+    name: Proteus Core - Augmented Fusion Reactor Blueprint
+  Proteus Core - Electronic Efficiency Gate Blueprint:
+    name: Proteus Core - Electronic Efficiency Gate Blueprint
+  Proteus Core - Friction Extension Processor Blueprint:
+    name: Proteus Core - Friction Extension Processor Blueprint
+  Proteus Defensive - Augmented Plating Blueprint:
+    name: Proteus Defensive - Augmented Plating Blueprint
+  Proteus Defensive - Covert Reconfiguration Blueprint:
+    name: Proteus Defensive - Covert Reconfiguration Blueprint
+  Proteus Defensive - Nanobot Injector Blueprint:
+    name: Proteus Defensive - Nanobot Injector Blueprint
+  Proteus Offensive - Drone Synthesis Projector Blueprint:
+    name: Proteus Offensive - Drone Synthesis Projector Blueprint
+  Proteus Offensive - Hybrid Encoding Platform Blueprint:
+    name: Proteus Offensive - Hybrid Encoding Platform Blueprint
+  Proteus Offensive - Support Processor Blueprint:
+    name: Proteus Offensive - Support Processor Blueprint
+  Proteus Propulsion - Hyperspatial Optimization Blueprint:
+    name: Proteus Propulsion - Hyperspatial Optimization Blueprint
+  Proteus Propulsion - Interdiction Nullifier Blueprint:
+    name: Proteus Propulsion - Interdiction Nullifier Blueprint
+  Proteus Propulsion - Localized Injectors Blueprint:
+    name: Proteus Propulsion - Localized Injectors Blueprint
+  Tengu Core - Augmented Graviton Reactor Blueprint:
+    name: Tengu Core - Augmented Graviton Reactor Blueprint
+  Tengu Core - Electronic Efficiency Gate Blueprint:
+    name: Tengu Core - Electronic Efficiency Gate Blueprint
+  Tengu Core - Obfuscation Manifold Blueprint:
+    name: Tengu Core - Obfuscation Manifold Blueprint
+  Tengu Defensive - Amplification Node Blueprint:
+    name: Tengu Defensive - Amplification Node Blueprint
+  Tengu Defensive - Covert Reconfiguration Blueprint:
+    name: Tengu Defensive - Covert Reconfiguration Blueprint
+  Tengu Defensive - Supplemental Screening Blueprint:
+    name: Tengu Defensive - Supplemental Screening Blueprint
+  Tengu Offensive - Accelerated Ejection Bay Blueprint:
+    name: Tengu Offensive - Accelerated Ejection Bay Blueprint
+  Tengu Offensive - Magnetic Infusion Basin Blueprint:
+    name: Tengu Offensive - Magnetic Infusion Basin Blueprint
+  Tengu Offensive - Support Processor Blueprint:
+    name: Tengu Offensive - Support Processor Blueprint
+  Tengu Propulsion - Chassis Optimization Blueprint:
+    name: Tengu Propulsion - Chassis Optimization Blueprint
+  Tengu Propulsion - Fuel Catalyst Blueprint:
+    name: Tengu Propulsion - Fuel Catalyst Blueprint
+  Tengu Propulsion - Interdiction Nullifier Blueprint:
+    name: Tengu Propulsion - Interdiction Nullifier Blueprint

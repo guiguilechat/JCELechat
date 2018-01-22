@@ -1,5 +1,9 @@
 items:
-  Estamel Tharchon: {}
-  Kaikka Peunato: {}
-  Thon Eney: {}
-  Vepas Minimala: {}
+  Estamel Tharchon:
+    name: Estamel Tharchon
+  Kaikka Peunato:
+    name: Kaikka Peunato
+  Thon Eney:
+    name: Thon Eney
+  Vepas Minimala:
+    name: Vepas Minimala

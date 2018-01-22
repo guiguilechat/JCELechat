@@ -6,6 +6,7 @@ items:
     ScanMagnetometricStrength: 25.0
     ScanRadarStrength: 25.0
     SignatureRadius: 4000
+    name: Infrastructure Hub
   QA Infrastructure Hub:
     PlanetAnchorDistance: 100000
     ScanGravimetricStrength: 2000.0
@@ -13,3 +14,4 @@ items:
     ScanMagnetometricStrength: 2000.0
     ScanRadarStrength: 2000.0
     SignatureRadius: 4000
+    name: QA Infrastructure Hub

@@ -63,6 +63,7 @@ items:
     UpgradeSlotsLeft: 3
     VulnerabilityRequired: 14
     WeaponDisruptionResistance: 9.999999747378752E-6
+    name: Azbel
   Raitaru:
     ArmorDamageLimit: 5000
     ArmorEmDamageResonance: 0.800000011920929
@@ -123,6 +124,7 @@ items:
     UpgradeSlotsLeft: 3
     VulnerabilityRequired: 9
     WeaponDisruptionResistance: 9.999999747378752E-6
+    name: Raitaru
   Sotiyo:
     ArmorDamageLimit: 75000
     ArmorEmDamageResonance: 0.800000011920929
@@ -187,3 +189,4 @@ items:
     UpgradeSlotsLeft: 3
     VulnerabilityRequired: 26
     WeaponDisruptionResistance: 9.999999747378752E-6
+    name: Sotiyo

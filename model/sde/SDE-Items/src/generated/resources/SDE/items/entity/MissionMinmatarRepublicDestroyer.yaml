@@ -1,8 +1,15 @@
 items:
-  Minmatar CA Destroyer: {}
-  Republic Austri: {}
-  Republic Bormin: {}
-  Republic Faxi: {}
-  Republic Tribal Austri: {}
-  Republic Tribal Bormin: {}
-  Republic Tribal Faxi: {}
+  Minmatar CA Destroyer:
+    name: Minmatar CA Destroyer
+  Republic Austri:
+    name: Republic Austri
+  Republic Bormin:
+    name: Republic Bormin
+  Republic Faxi:
+    name: Republic Faxi
+  Republic Tribal Austri:
+    name: Republic Tribal Austri
+  Republic Tribal Bormin:
+    name: Republic Tribal Bormin
+  Republic Tribal Faxi:
+    name: Republic Tribal Faxi

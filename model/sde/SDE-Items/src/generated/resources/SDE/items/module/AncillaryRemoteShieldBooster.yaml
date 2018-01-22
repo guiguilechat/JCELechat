@@ -24,6 +24,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 1700.0
     TechLevel: 1
+    name: Capital Ancillary Remote Shield Booster
   Large Ancillary Remote Shield Booster:
     CapacitorNeed: 1475.0
     ChargeGroup1: 87
@@ -47,6 +48,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 950.0
     TechLevel: 1
+    name: Large Ancillary Remote Shield Booster
   Medium Ancillary Remote Shield Booster:
     CapacitorNeed: 700.0
     ChargeGroup1: 87
@@ -70,6 +72,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 475.0
     TechLevel: 1
+    name: Medium Ancillary Remote Shield Booster
   Small Ancillary Remote Shield Booster:
     CapacitorNeed: 135.0
     ChargeGroup1: 87
@@ -92,3 +95,4 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 125.0
     TechLevel: 1
+    name: Small Ancillary Remote Shield Booster

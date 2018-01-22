@@ -1,6 +1,11 @@
 items:
-  Certificate: {}
-  Medal: {}
-  Rank: {}
-  Ribbon: {}
-  Schematic: {}
+  Certificate:
+    name: Certificate
+  Medal:
+    name: Medal
+  Rank:
+    name: Rank
+  Ribbon:
+    name: Ribbon
+  Schematic:
+    name: Schematic

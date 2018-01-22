@@ -16,6 +16,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    name: Standup M-Set ME Research Accelerator I
   Standup M-Set ME Research Accelerator II:
     AttributeEngRigTimeBonus: -24
     CanFitShipGroup01: 1657
@@ -33,3 +34,4 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    name: Standup M-Set ME Research Accelerator II

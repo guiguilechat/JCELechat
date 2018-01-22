@@ -1,57 +1,113 @@
 items:
-  Angel Ship Log 109285473: {}
-  Angel Ship Log 137863054: {}
-  Angel Ship Log 141490454: {}
-  Angel Ship Log 165462566: {}
-  Angel Ship Log 174132231: {}
-  Angel Ship Log 303445882: {}
-  Angel Ship Log 343873495: {}
-  Angel Ship Log 349584483: {}
-  Angel Ship Log 516543793: {}
-  Angel Ship Log 523366291: {}
-  Angel Ship Log 583225679: {}
-  Blood Raider Log 114019732: {}
-  Blood Raider Log 118338758: {}
-  Blood Raider Log 137393941: {}
-  Blood Raider Log 167593883: {}
-  Blood Raider Log 189897223: {}
-  Blood Raider Log 335499422: {}
-  Blood Raider Log 389314943: {}
-  Blood Raider Log 397001231: {}
-  Blood Raider Log 518719843: {}
-  Blood Raider Log 533870654: {}
-  Blood Raider Log 534970023: {}
-  Encrypted Ship Log: {}
-  Guristas Ship Log 108634544: {}
-  Guristas Ship Log 119373337: {}
-  Guristas Ship Log 125792289: {}
-  Guristas Ship Log 175568934: {}
-  Guristas Ship Log 180983465: {}
-  Guristas Ship Log 312887432: {}
-  Guristas Ship Log 365764054: {}
-  Guristas Ship Log 398560763: {}
-  Guristas Ship Log 524785540: {}
-  Guristas Ship Log 534987422: {}
-  Guristas Ship Log 573652885: {}
-  Sansha Ship Log 104398459: {}
-  Sansha Ship Log 112457832: {}
-  Sansha Ship Log 136423760: {}
-  Sansha Ship Log 148920447: {}
-  Sansha Ship Log 187342874: {}
-  Sansha Ship Log 309832812: {}
-  Sansha Ship Log 322301875: {}
-  Sansha Ship Log 363587633: {}
-  Sansha Ship Log 500237688: {}
-  Sansha Ship Log 549327937: {}
-  Sansha Ship Log 566930267: {}
-  Serpentis Ship Log 103298223: {}
-  Serpentis Ship Log 12682884: {}
-  Serpentis Ship Log 144391348: {}
-  Serpentis Ship Log 166832001: {}
-  Serpentis Ship Log 187076356: {}
-  Serpentis Ship Log 303248612: {}
-  Serpentis Ship Log 378922371: {}
-  Serpentis Ship Log 381038422: {}
-  Serpentis Ship Log 501163556: {}
-  Serpentis Ship Log 534643764: {}
-  Serpentis Ship Log 598549355: {}
+  Angel Ship Log 109285473:
+    name: Angel Ship Log 109285473
+  Angel Ship Log 137863054:
+    name: Angel Ship Log 137863054
+  Angel Ship Log 141490454:
+    name: Angel Ship Log 141490454
+  Angel Ship Log 165462566:
+    name: Angel Ship Log 165462566
+  Angel Ship Log 174132231:
+    name: Angel Ship Log 174132231
+  Angel Ship Log 303445882:
+    name: Angel Ship Log 303445882
+  Angel Ship Log 343873495:
+    name: Angel Ship Log 343873495
+  Angel Ship Log 349584483:
+    name: Angel Ship Log 349584483
+  Angel Ship Log 516543793:
+    name: Angel Ship Log 516543793
+  Angel Ship Log 523366291:
+    name: Angel Ship Log 523366291
+  Angel Ship Log 583225679:
+    name: Angel Ship Log 583225679
+  Blood Raider Log 114019732:
+    name: Blood Raider Log 114019732
+  Blood Raider Log 118338758:
+    name: Blood Raider Log 118338758
+  Blood Raider Log 137393941:
+    name: Blood Raider Log 137393941
+  Blood Raider Log 167593883:
+    name: Blood Raider Log 167593883
+  Blood Raider Log 189897223:
+    name: Blood Raider Log 189897223
+  Blood Raider Log 335499422:
+    name: Blood Raider Log 335499422
+  Blood Raider Log 389314943:
+    name: Blood Raider Log 389314943
+  Blood Raider Log 397001231:
+    name: Blood Raider Log 397001231
+  Blood Raider Log 518719843:
+    name: Blood Raider Log 518719843
+  Blood Raider Log 533870654:
+    name: Blood Raider Log 533870654
+  Blood Raider Log 534970023:
+    name: Blood Raider Log 534970023
+  Encrypted Ship Log:
+    name: Encrypted Ship Log
+  Guristas Ship Log 108634544:
+    name: Guristas Ship Log 108634544
+  Guristas Ship Log 119373337:
+    name: Guristas Ship Log 119373337
+  Guristas Ship Log 125792289:
+    name: Guristas Ship Log 125792289
+  Guristas Ship Log 175568934:
+    name: Guristas Ship Log 175568934
+  Guristas Ship Log 180983465:
+    name: Guristas Ship Log 180983465
+  Guristas Ship Log 312887432:
+    name: Guristas Ship Log 312887432
+  Guristas Ship Log 365764054:
+    name: Guristas Ship Log 365764054
+  Guristas Ship Log 398560763:
+    name: Guristas Ship Log 398560763
+  Guristas Ship Log 524785540:
+    name: Guristas Ship Log 524785540
+  Guristas Ship Log 534987422:
+    name: Guristas Ship Log 534987422
+  Guristas Ship Log 573652885:
+    name: Guristas Ship Log 573652885
+  Sansha Ship Log 104398459:
+    name: Sansha Ship Log 104398459
+  Sansha Ship Log 112457832:
+    name: Sansha Ship Log 112457832
+  Sansha Ship Log 136423760:
+    name: Sansha Ship Log 136423760
+  Sansha Ship Log 148920447:
+    name: Sansha Ship Log 148920447
+  Sansha Ship Log 187342874:
+    name: Sansha Ship Log 187342874
+  Sansha Ship Log 309832812:
+    name: Sansha Ship Log 309832812
+  Sansha Ship Log 322301875:
+    name: Sansha Ship Log 322301875
+  Sansha Ship Log 363587633:
+    name: Sansha Ship Log 363587633
+  Sansha Ship Log 500237688:
+    name: Sansha Ship Log 500237688
+  Sansha Ship Log 549327937:
+    name: Sansha Ship Log 549327937
+  Sansha Ship Log 566930267:
+    name: Sansha Ship Log 566930267
+  Serpentis Ship Log 103298223:
+    name: Serpentis Ship Log 103298223
+  Serpentis Ship Log 12682884:
+    name: Serpentis Ship Log 12682884
+  Serpentis Ship Log 144391348:
+    name: Serpentis Ship Log 144391348
+  Serpentis Ship Log 166832001:
+    name: Serpentis Ship Log 166832001
+  Serpentis Ship Log 187076356:
+    name: Serpentis Ship Log 187076356
+  Serpentis Ship Log 303248612:
+    name: Serpentis Ship Log 303248612
+  Serpentis Ship Log 378922371:
+    name: Serpentis Ship Log 378922371
+  Serpentis Ship Log 381038422:
+    name: Serpentis Ship Log 381038422
+  Serpentis Ship Log 501163556:
+    name: Serpentis Ship Log 501163556
+  Serpentis Ship Log 534643764:
+    name: Serpentis Ship Log 534643764
+  Serpentis Ship Log 598549355:
+    name: Serpentis Ship Log 598549355

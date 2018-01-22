@@ -31,3 +31,4 @@ items:
     StructureUniformity: 1.0
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Repair Drone

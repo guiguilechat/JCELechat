@@ -1,13 +1,25 @@
 items:
-  Dread Pithatis Assassin: {}
-  Dread Pithatis Assaulter: {}
-  Dread Pithatis Death Dealer: {}
-  Dread Pithatis Enforcer: {}
-  Dread Pithatis Executor: {}
-  Dread Pithatis Revolter: {}
-  Pithatis Assassin: {}
-  Pithatis Assaulter: {}
-  Pithatis Death Dealer: {}
-  Pithatis Enforcer: {}
-  Pithatis Executor: {}
-  Pithatis Revolter: {}
+  Dread Pithatis Assassin:
+    name: Dread Pithatis Assassin
+  Dread Pithatis Assaulter:
+    name: Dread Pithatis Assaulter
+  Dread Pithatis Death Dealer:
+    name: Dread Pithatis Death Dealer
+  Dread Pithatis Enforcer:
+    name: Dread Pithatis Enforcer
+  Dread Pithatis Executor:
+    name: Dread Pithatis Executor
+  Dread Pithatis Revolter:
+    name: Dread Pithatis Revolter
+  Pithatis Assassin:
+    name: Pithatis Assassin
+  Pithatis Assaulter:
+    name: Pithatis Assaulter
+  Pithatis Death Dealer:
+    name: Pithatis Death Dealer
+  Pithatis Enforcer:
+    name: Pithatis Enforcer
+  Pithatis Executor:
+    name: Pithatis Executor
+  Pithatis Revolter:
+    name: Pithatis Revolter

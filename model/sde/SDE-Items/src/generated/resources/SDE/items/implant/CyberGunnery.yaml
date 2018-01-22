@@ -5,588 +5,687 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1001
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1002:
     DamageMultiplierBonus: 2
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1002
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003:
     DamageMultiplierBonus: 3
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1004:
     DamageMultiplierBonus: 4
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1004
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1005:
     DamageMultiplierBonus: 5
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1005
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1006:
     DamageMultiplierBonus: 6
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1006
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801:
     DamageMultiplierBonus: 1
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802:
     DamageMultiplierBonus: 2
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803:
     DamageMultiplierBonus: 3
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-804:
     DamageMultiplierBonus: 4
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-804
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-805:
     DamageMultiplierBonus: 5
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-805
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-806:
     DamageMultiplierBonus: 6
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-806
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-701:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 1.0
+    name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-701
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-702:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 2.0
+    name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-702
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-703:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
     TrackingSpeedBonus: 3.0
+    name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-703
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-704:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
     TrackingSpeedBonus: 4.0
+    name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-704
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-705:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
     TrackingSpeedBonus: 5.0
+    name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-705
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-706:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
     TrackingSpeedBonus: 6.0
+    name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-706
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601:
     DamageMultiplierBonus: 1
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-602:
     DamageMultiplierBonus: 2
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-602
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603:
     DamageMultiplierBonus: 3
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-604:
     DamageMultiplierBonus: 4
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-604
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-605:
     DamageMultiplierBonus: 5
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-605
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-606:
     DamageMultiplierBonus: 6
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-606
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-901:
     DamageMultiplierBonus: 1
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-901
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-902:
     DamageMultiplierBonus: 2
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-902
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-903:
     DamageMultiplierBonus: 3
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-903
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-904:
     DamageMultiplierBonus: 4
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-904
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-905:
     DamageMultiplierBonus: 5
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-905
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-906:
     DamageMultiplierBonus: 6
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-906
   Inherent Implants 'Lancer' Controlled Bursts CB-701:
     CapNeedBonus: -1
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Controlled Bursts CB-701
   Inherent Implants 'Lancer' Controlled Bursts CB-702:
     CapNeedBonus: -2
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Controlled Bursts CB-702
   Inherent Implants 'Lancer' Controlled Bursts CB-703:
     CapNeedBonus: -3
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Controlled Bursts CB-703
   Inherent Implants 'Lancer' Controlled Bursts CB-704:
     CapNeedBonus: -4
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Controlled Bursts CB-704
   Inherent Implants 'Lancer' Controlled Bursts CB-705:
     CapNeedBonus: -5
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Controlled Bursts CB-705
   Inherent Implants 'Lancer' Controlled Bursts CB-706:
     CapNeedBonus: -6
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Controlled Bursts CB-706
   Inherent Implants 'Lancer' Gunnery RF-901:
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
     TurretSpeeBonus: -1
+    name: Inherent Implants 'Lancer' Gunnery RF-901
   Inherent Implants 'Lancer' Gunnery RF-902:
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
     TurretSpeeBonus: -2
+    name: Inherent Implants 'Lancer' Gunnery RF-902
   Inherent Implants 'Lancer' Gunnery RF-903:
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
     TurretSpeeBonus: -3
+    name: Inherent Implants 'Lancer' Gunnery RF-903
   Inherent Implants 'Lancer' Gunnery RF-904:
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
     TurretSpeeBonus: -4
+    name: Inherent Implants 'Lancer' Gunnery RF-904
   Inherent Implants 'Lancer' Gunnery RF-905:
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
     TurretSpeeBonus: -5
+    name: Inherent Implants 'Lancer' Gunnery RF-905
   Inherent Implants 'Lancer' Gunnery RF-906:
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
     TurretSpeeBonus: -6
+    name: Inherent Implants 'Lancer' Gunnery RF-906
   Inherent Implants 'Lancer' Large Energy Turret LE-1001:
     DamageMultiplierBonus: 1
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Large Energy Turret LE-1001
   Inherent Implants 'Lancer' Large Energy Turret LE-1002:
     DamageMultiplierBonus: 2
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Large Energy Turret LE-1002
   Inherent Implants 'Lancer' Large Energy Turret LE-1003:
     DamageMultiplierBonus: 3
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Large Energy Turret LE-1003
   Inherent Implants 'Lancer' Large Energy Turret LE-1004:
     DamageMultiplierBonus: 4
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Large Energy Turret LE-1004
   Inherent Implants 'Lancer' Large Energy Turret LE-1005:
     DamageMultiplierBonus: 5
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Large Energy Turret LE-1005
   Inherent Implants 'Lancer' Large Energy Turret LE-1006:
     DamageMultiplierBonus: 6
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Large Energy Turret LE-1006
   Inherent Implants 'Lancer' Medium Energy Turret ME-801:
     DamageMultiplierBonus: 1
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Medium Energy Turret ME-801
   Inherent Implants 'Lancer' Medium Energy Turret ME-802:
     DamageMultiplierBonus: 2
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Medium Energy Turret ME-802
   Inherent Implants 'Lancer' Medium Energy Turret ME-803:
     DamageMultiplierBonus: 3
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Medium Energy Turret ME-803
   Inherent Implants 'Lancer' Medium Energy Turret ME-804:
     DamageMultiplierBonus: 4
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Medium Energy Turret ME-804
   Inherent Implants 'Lancer' Medium Energy Turret ME-805:
     DamageMultiplierBonus: 5
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Medium Energy Turret ME-805
   Inherent Implants 'Lancer' Medium Energy Turret ME-806:
     DamageMultiplierBonus: 6
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Medium Energy Turret ME-806
   Inherent Implants 'Lancer' Small Energy Turret SE-601:
     DamageMultiplierBonus: 1
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Small Energy Turret SE-601
   Inherent Implants 'Lancer' Small Energy Turret SE-602:
     DamageMultiplierBonus: 2
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Small Energy Turret SE-602
   Inherent Implants 'Lancer' Small Energy Turret SE-603:
     DamageMultiplierBonus: 3
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Small Energy Turret SE-603
   Inherent Implants 'Lancer' Small Energy Turret SE-604:
     DamageMultiplierBonus: 4
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Small Energy Turret SE-604
   Inherent Implants 'Lancer' Small Energy Turret SE-605:
     DamageMultiplierBonus: 5
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Small Energy Turret SE-605
   Inherent Implants 'Lancer' Small Energy Turret SE-606:
     DamageMultiplierBonus: 6
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Inherent Implants 'Lancer' Small Energy Turret SE-606
   Ogdin's Eye Coordination Enhancer:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
     TrackingSpeedBonus: 6.0
+    name: Ogdin's Eye Coordination Enhancer
   Pashan's Turret Customization Mindlink:
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
     TurretSpeeBonus: -7
+    name: Pashan's Turret Customization Mindlink
   Pashan's Turret Handling Mindlink:
     DamageMultiplierBonus: 7
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Pashan's Turret Handling Mindlink
   Zainou 'Deadeye' Large Hybrid Turret LH-1001:
     DamageMultiplierBonus: 1
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Deadeye' Large Hybrid Turret LH-1001
   Zainou 'Deadeye' Large Hybrid Turret LH-1002:
     DamageMultiplierBonus: 2
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Deadeye' Large Hybrid Turret LH-1002
   Zainou 'Deadeye' Large Hybrid Turret LH-1003:
     DamageMultiplierBonus: 3
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Deadeye' Large Hybrid Turret LH-1003
   Zainou 'Deadeye' Large Hybrid Turret LH-1004:
     DamageMultiplierBonus: 4
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Deadeye' Large Hybrid Turret LH-1004
   Zainou 'Deadeye' Large Hybrid Turret LH-1005:
     DamageMultiplierBonus: 5
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Zainou 'Deadeye' Large Hybrid Turret LH-1005
   Zainou 'Deadeye' Large Hybrid Turret LH-1006:
     DamageMultiplierBonus: 6
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Zainou 'Deadeye' Large Hybrid Turret LH-1006
   Zainou 'Deadeye' Medium Hybrid Turret MH-801:
     DamageMultiplierBonus: 1
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Deadeye' Medium Hybrid Turret MH-801
   Zainou 'Deadeye' Medium Hybrid Turret MH-802:
     DamageMultiplierBonus: 2
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Deadeye' Medium Hybrid Turret MH-802
   Zainou 'Deadeye' Medium Hybrid Turret MH-803:
     DamageMultiplierBonus: 3
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Zainou 'Deadeye' Medium Hybrid Turret MH-803
   Zainou 'Deadeye' Medium Hybrid Turret MH-804:
     DamageMultiplierBonus: 4
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Zainou 'Deadeye' Medium Hybrid Turret MH-804
   Zainou 'Deadeye' Medium Hybrid Turret MH-805:
     DamageMultiplierBonus: 5
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Zainou 'Deadeye' Medium Hybrid Turret MH-805
   Zainou 'Deadeye' Medium Hybrid Turret MH-806:
     DamageMultiplierBonus: 6
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Zainou 'Deadeye' Medium Hybrid Turret MH-806
   Zainou 'Deadeye' Sharpshooter ST-901:
     Implantness: 9
     RangeSkillBonus: 1
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Deadeye' Sharpshooter ST-901
   Zainou 'Deadeye' Sharpshooter ST-902:
     Implantness: 9
     RangeSkillBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Deadeye' Sharpshooter ST-902
   Zainou 'Deadeye' Sharpshooter ST-903:
     Implantness: 9
     RangeSkillBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Zainou 'Deadeye' Sharpshooter ST-903
   Zainou 'Deadeye' Sharpshooter ST-904:
     Implantness: 9
     RangeSkillBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Zainou 'Deadeye' Sharpshooter ST-904
   Zainou 'Deadeye' Sharpshooter ST-905:
     Implantness: 9
     RangeSkillBonus: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Zainou 'Deadeye' Sharpshooter ST-905
   Zainou 'Deadeye' Sharpshooter ST-906:
     Implantness: 9
     RangeSkillBonus: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Zainou 'Deadeye' Sharpshooter ST-906
   Zainou 'Deadeye' Small Hybrid Turret SH-601:
     DamageMultiplierBonus: 1
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Deadeye' Small Hybrid Turret SH-601
   Zainou 'Deadeye' Small Hybrid Turret SH-602:
     DamageMultiplierBonus: 2
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Deadeye' Small Hybrid Turret SH-602
   Zainou 'Deadeye' Small Hybrid Turret SH-603:
     DamageMultiplierBonus: 3
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Deadeye' Small Hybrid Turret SH-603
   Zainou 'Deadeye' Small Hybrid Turret SH-604:
     DamageMultiplierBonus: 4
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Deadeye' Small Hybrid Turret SH-604
   Zainou 'Deadeye' Small Hybrid Turret SH-605:
     DamageMultiplierBonus: 5
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Deadeye' Small Hybrid Turret SH-605
   Zainou 'Deadeye' Small Hybrid Turret SH-606:
     DamageMultiplierBonus: 6
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Deadeye' Small Hybrid Turret SH-606
   Zainou 'Deadeye' Trajectory Analysis TA-701:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Deadeye' Trajectory Analysis TA-701
   Zainou 'Deadeye' Trajectory Analysis TA-702:
     FalloffBonus: 2.0
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Deadeye' Trajectory Analysis TA-702
   Zainou 'Deadeye' Trajectory Analysis TA-703:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Deadeye' Trajectory Analysis TA-703
   Zainou 'Deadeye' Trajectory Analysis TA-704:
     FalloffBonus: 4.0
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Deadeye' Trajectory Analysis TA-704
   Zainou 'Deadeye' Trajectory Analysis TA-705:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Deadeye' Trajectory Analysis TA-705
   Zainou 'Deadeye' Trajectory Analysis TA-706:
     FalloffBonus: 6.0
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Deadeye' Trajectory Analysis TA-706
   Zainou 'Gnome' Weapon Upgrades WU-1001:
     CpuNeedBonus: -1
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Gnome' Weapon Upgrades WU-1001
   Zainou 'Gnome' Weapon Upgrades WU-1002:
     CpuNeedBonus: -2
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Gnome' Weapon Upgrades WU-1002
   Zainou 'Gnome' Weapon Upgrades WU-1003:
     CpuNeedBonus: -3
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Gnome' Weapon Upgrades WU-1003
   Zainou 'Gnome' Weapon Upgrades WU-1004:
     CpuNeedBonus: -4
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Gnome' Weapon Upgrades WU-1004
   Zainou 'Gnome' Weapon Upgrades WU-1005:
     CpuNeedBonus: -5
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Zainou 'Gnome' Weapon Upgrades WU-1005
   Zainou 'Gnome' Weapon Upgrades WU-1006:
     CpuNeedBonus: -6
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Zainou 'Gnome' Weapon Upgrades WU-1006

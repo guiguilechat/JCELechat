@@ -1,8 +1,11 @@
 items:
   Combat Scanner Probe I Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Combat Scanner Probe I Blueprint
   Core Scanner Probe I Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Core Scanner Probe I Blueprint
   Warp Disrupt Probe Blueprint:
     Hp: 1
     IndustryBlueprintRank: 2.0
+    name: Warp Disrupt Probe Blueprint

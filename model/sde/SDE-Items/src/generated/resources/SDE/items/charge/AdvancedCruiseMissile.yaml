@@ -25,6 +25,7 @@ items:
     TechLevel: 2
     ThermalDamage: 525.0
     ThermalDamageResonance: 0.800000011920929
+    name: Inferno Fury Cruise Missile
   Inferno Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -51,6 +52,7 @@ items:
     TechLevel: 2
     ThermalDamage: 375.0
     ThermalDamageResonance: 0.800000011920929
+    name: Inferno Precision Cruise Missile
   Mjolnir Fury Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -77,6 +79,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Mjolnir Fury Cruise Missile
   Mjolnir Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -103,6 +106,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Mjolnir Precision Cruise Missile
   Nova Fury Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -129,6 +133,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Nova Fury Cruise Missile
   Nova Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -155,6 +160,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Nova Precision Cruise Missile
   Scourge Fury Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -181,6 +187,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Scourge Fury Cruise Missile
   Scourge Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -207,3 +214,4 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Scourge Precision Cruise Missile

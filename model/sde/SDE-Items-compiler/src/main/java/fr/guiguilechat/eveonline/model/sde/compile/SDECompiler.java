@@ -7,9 +7,11 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Stream;
 
@@ -18,6 +20,7 @@ import org.slf4j.LoggerFactory;
 
 import com.helger.jcodemodel.AbstractJClass;
 import com.helger.jcodemodel.JBlock;
+import com.helger.jcodemodel.JCatchBlock;
 import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.JConditional;
@@ -27,6 +30,7 @@ import com.helger.jcodemodel.JFieldVar;
 import com.helger.jcodemodel.JForEach;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
+import com.helger.jcodemodel.JNarrowedClass;
 import com.helger.jcodemodel.JOp;
 import com.helger.jcodemodel.JPackage;
 import com.helger.jcodemodel.JTryBlock;
@@ -127,6 +131,7 @@ public class SDECompiler {
 		load();
 		CompiledClassesData ret = new CompiledClassesData();
 		cm = ret.model;
+		AbstractJClass strRef = cm.ref(String.class);
 
 		// for each group, list all the attributes
 		HashMap<Integer, HashSet<Integer>> groupAttributes = new HashMap<>();
@@ -204,7 +209,7 @@ public class SDECompiler {
 			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.ref(Class.class).narrow(cm.wildcard()), "getGroup");
 			typeClass.field(JMod.PUBLIC, cm.INT, "id");
 			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
-			typeClass.field(JMod.PUBLIC, cm.ref(String.class), "name");
+			typeClass.field(JMod.PUBLIC, strRef, "name");
 
 			// create a method to load the values of the fields in root class from the
 			// actual fields, when they are annotated
@@ -283,13 +288,53 @@ public class SDECompiler {
 
 		try {
 			ret.metaInfClass = rootPackage()._class("MetaInf");
-			AbstractJClass str = cm.ref(String.class);
-			ret.metaInfClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(cm.ref(Integer.class), str), "id2name")
+			ret.metaInfClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(cm.ref(Integer.class), strRef), "id2name")
 			.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
-			ret.metaInfClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(str, str), "name2group")
+			ret.metaInfClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(strRef, strRef), "name2group")
 			.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
-			ret.metaInfClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(str, str), "group2class")
+			ret.metaInfClass.field(JMod.PUBLIC, cm.ref(LinkedHashMap.class).narrow(strRef, strRef), "group2class")
 			.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
+
+			// method to load an item from its name.
+
+			// create a cache classname-> map<id, ? extends item>
+			JNarrowedClass cacheValueType = cm.ref(Map.class).narrow(strRef).narrow(typeClass.wildcardExtends());
+			JVar groupcache = ret.metaInfClass
+					.field(JMod.PRIVATE | JMod.STATIC, cm.ref(Map.class).narrow(strRef).narrow(cacheValueType), "groupcache")
+					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
+
+			// create the mthod that uses this cache
+			JMethod getItem = ret.metaInfClass.method(JMod.PUBLIC | JMod.STATIC, typeClass, "getItem");
+			getItem.annotate(SuppressWarnings.class).param("value", "unchecked");
+			JVar itemName = getItem.param(strRef, "name");
+			getItem.body()._if(itemName.eq(JExpr._null()))._then()._return(JExpr._null());
+			JVar grp = getItem.body().decl(strRef, "group")
+					.init(ret.metaInfClass.staticInvoke("load").ref("name2group").invoke("get").arg(itemName));
+			getItem.body()._if(grp.eq(JExpr._null()))._then()._return(JExpr._null());
+			JVar map = getItem.body().decl(cacheValueType, "map").init(groupcache.invoke("get").arg(grp));
+			JBlock createBlock = getItem.body()._if(map.eq(JExpr._null()))._then();
+
+			// try to load the class then call load() on it
+			JTryBlock tryblock = createBlock._try();
+			// convert the group to the classname
+			JVar className = tryblock.body().decl(strRef, "className")
+					.init(JExpr.lit(itemPackage().name() + ".")
+							.plus(grp.invoke("replaceAll").arg(JExpr.lit("/")).arg(JExpr.lit("."))));
+			JVar loadclass = tryblock.body().decl(cm.ref(Class.class).narrowAny(), "loadclass");
+			loadclass.init(ret.metaInfClass.dotclass().invoke("getClassLoader").invoke("loadClass").arg(className));
+			JBlock assinblock = tryblock.body()._if(loadclass.ne(JExpr._null()))._then();
+			assinblock.assign(map,
+					JExpr.cast(cacheValueType, loadclass.invoke("getMethod").arg("load").invoke("invoke").arg(JExpr._null())));
+
+			// if exception loading the class
+			JCatchBlock catchblock = tryblock._catch(cm.ref(Exception.class));
+			catchblock.body()
+			._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)).arg(catchblock.param("exception")));
+
+			// if map is still nul, assing it an empty map
+			createBlock._if(map.eq(JExpr._null()))._then().assign(map, cm.ref(Collections.class).staticInvoke("emptyMap"));
+			createBlock.invoke(groupcache, "put").arg(grp).arg(map);
+			getItem.body()._return(map.invoke("get").arg(itemName));
 		} catch (JClassAlreadyExistsException e1) {
 			throw new UnsupportedOperationException("catch this", e1);
 		}

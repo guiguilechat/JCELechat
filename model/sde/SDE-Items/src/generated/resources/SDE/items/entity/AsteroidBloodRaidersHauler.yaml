@@ -1,17 +1,33 @@
 items:
-  Barrow Ferrier: {}
-  Barrow Gatherer: {}
-  Barrow Harvester: {}
-  Barrow Loader: {}
-  Blood Bulker: {}
-  Blood Carrier: {}
-  Blood Convoy: {}
-  Blood Courier: {}
-  Blood Ferrier: {}
-  Blood Gatherer: {}
-  Blood Harvester: {}
-  Blood Hauler: {}
-  Blood Loader: {}
-  Blood Trailer: {}
-  Blood Transporter: {}
-  Blood Trucker: {}
+  Barrow Ferrier:
+    name: Barrow Ferrier
+  Barrow Gatherer:
+    name: Barrow Gatherer
+  Barrow Harvester:
+    name: Barrow Harvester
+  Barrow Loader:
+    name: Barrow Loader
+  Blood Bulker:
+    name: Blood Bulker
+  Blood Carrier:
+    name: Blood Carrier
+  Blood Convoy:
+    name: Blood Convoy
+  Blood Courier:
+    name: Blood Courier
+  Blood Ferrier:
+    name: Blood Ferrier
+  Blood Gatherer:
+    name: Blood Gatherer
+  Blood Harvester:
+    name: Blood Harvester
+  Blood Hauler:
+    name: Blood Hauler
+  Blood Loader:
+    name: Blood Loader
+  Blood Trailer:
+    name: Blood Trailer
+  Blood Transporter:
+    name: Blood Transporter
+  Blood Trucker:
+    name: Blood Trucker

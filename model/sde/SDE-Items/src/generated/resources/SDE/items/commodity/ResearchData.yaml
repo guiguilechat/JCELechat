@@ -1,30 +1,59 @@
 items:
-  'Arek''Jaalan: Mission Statement': {}
-  'Arek''Jaalan: Site One Contributions Listing': {}
-  Project Discovery DNA Reference (Amarr): {}
-  Project Discovery DNA Reference (Caldari): {}
-  Project Discovery DNA Reference (Gallente): {}
-  Project Discovery DNA Reference (Jove): {}
-  Project Discovery DNA Reference (Minmatar): {}
-  Project Discovery Phase One Elite 1K: {}
-  Project Discovery Phase One Elite 2K: {}
-  Project Discovery Phase One Elite 5K: {}
-  'Research Abstract: Project Algintal': {}
-  'Research Abstract: Project Astrosurvey': {}
-  'Research Abstract: Project Blueprint': {}
-  'Research Abstract: Project Catapult': {}
-  'Research Abstract: Project Common Ground': {}
-  'Research Abstract: Project Compass': {}
-  'Research Abstract: Project Enigma': {}
-  'Research Abstract: Project Huntress Green (1 of 3)': {}
-  'Research Abstract: Project Huntress Green (2 of 3)': {}
-  'Research Abstract: Project Huntress Green (3 of 3)': {}
-  'Research Abstract: Project Infernal Spade': {}
-  'Research Abstract: Project Omega': {}
-  'Research Abstract: Project Omicron': {}
-  'Research Abstract: Project Rho': {}
-  'Research Abstract: Project Slipstream': {}
-  'Research Abstract: Project Tesseract': {}
-  'Research Abstract: Project Theseus': {}
-  'Research Abstract: Project Theta': {}
-  'Research Abstract: Project Trinity': {}
+  'Arek''Jaalan: Mission Statement':
+    name: 'Arek''Jaalan: Mission Statement'
+  'Arek''Jaalan: Site One Contributions Listing':
+    name: 'Arek''Jaalan: Site One Contributions Listing'
+  Project Discovery DNA Reference (Amarr):
+    name: Project Discovery DNA Reference (Amarr)
+  Project Discovery DNA Reference (Caldari):
+    name: Project Discovery DNA Reference (Caldari)
+  Project Discovery DNA Reference (Gallente):
+    name: Project Discovery DNA Reference (Gallente)
+  Project Discovery DNA Reference (Jove):
+    name: Project Discovery DNA Reference (Jove)
+  Project Discovery DNA Reference (Minmatar):
+    name: Project Discovery DNA Reference (Minmatar)
+  Project Discovery Phase One Elite 1K:
+    name: Project Discovery Phase One Elite 1K
+  Project Discovery Phase One Elite 2K:
+    name: Project Discovery Phase One Elite 2K
+  Project Discovery Phase One Elite 5K:
+    name: Project Discovery Phase One Elite 5K
+  'Research Abstract: Project Algintal':
+    name: 'Research Abstract: Project Algintal'
+  'Research Abstract: Project Astrosurvey':
+    name: 'Research Abstract: Project Astrosurvey'
+  'Research Abstract: Project Blueprint':
+    name: 'Research Abstract: Project Blueprint'
+  'Research Abstract: Project Catapult':
+    name: 'Research Abstract: Project Catapult'
+  'Research Abstract: Project Common Ground':
+    name: 'Research Abstract: Project Common Ground'
+  'Research Abstract: Project Compass':
+    name: 'Research Abstract: Project Compass'
+  'Research Abstract: Project Enigma':
+    name: 'Research Abstract: Project Enigma'
+  'Research Abstract: Project Huntress Green (1 of 3)':
+    name: 'Research Abstract: Project Huntress Green (1 of 3)'
+  'Research Abstract: Project Huntress Green (2 of 3)':
+    name: 'Research Abstract: Project Huntress Green (2 of 3)'
+  'Research Abstract: Project Huntress Green (3 of 3)':
+    name: 'Research Abstract: Project Huntress Green (3 of 3)'
+  'Research Abstract: Project Infernal Spade':
+    name: 'Research Abstract: Project Infernal Spade'
+  'Research Abstract: Project Omega':
+    name: 'Research Abstract: Project Omega'
+  'Research Abstract: Project Omicron':
+    name: 'Research Abstract: Project Omicron'
+  'Research Abstract: Project Rho':
+    name: 'Research Abstract: Project Rho'
+  'Research Abstract: Project Slipstream':
+    name: 'Research Abstract: Project Slipstream'
+  'Research Abstract: Project Tesseract':
+    name: 'Research Abstract: Project Tesseract'
+  'Research Abstract: Project Theseus':
+    name: 'Research Abstract: Project Theseus'
+  'Research Abstract: Project Theta':
+    name: 'Research Abstract: Project Theta'
+  'Research Abstract: Project Trinity':
+    name: 'Research Abstract: Project Trinity'

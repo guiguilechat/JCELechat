@@ -1,5 +1,9 @@
 items:
-  Sleepless Escort: {}
-  Sleepless Outguard: {}
-  Sleepless Patroller: {}
-  Sleepless Watchman: {}
+  Sleepless Escort:
+    name: Sleepless Escort
+  Sleepless Outguard:
+    name: Sleepless Outguard
+  Sleepless Patroller:
+    name: Sleepless Patroller
+  Sleepless Watchman:
+    name: Sleepless Watchman

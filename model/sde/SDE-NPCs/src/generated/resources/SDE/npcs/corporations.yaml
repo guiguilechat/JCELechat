@@ -363,10 +363,13 @@ corporations:
     - 16076
     - 16173
     - 16243
+    name: 24th Imperial Crusade
   Academy of Aggressive Behaviour:
     id: 1000178
+    name: Academy of Aggressive Behaviour
   Algintal Core:
     id: 1000215
+    name: Algintal Core
   Aliastra:
     id: 1000111
     lpoffers:
@@ -511,6 +514,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Aliastra
   Allotek Industries:
     id: 1000103
     lpoffers:
@@ -672,6 +676,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Allotek Industries
   Amarr Certified News:
     id: 1000073
     lpoffers:
@@ -805,6 +810,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Amarr Certified News
   Amarr Civil Service:
     id: 1000079
     lpoffers:
@@ -938,6 +944,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Amarr Civil Service
   Amarr Constructions:
     id: 1000063
     lpoffers:
@@ -1114,6 +1121,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Amarr Constructions
   Amarr Navy:
     id: 1000084
     lpoffers:
@@ -1433,8 +1441,10 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Amarr Navy
   Amarr Templars:
     id: 1000205
+    name: Amarr Templars
   Amarr Trade Registry:
     id: 1000083
     lpoffers:
@@ -1568,8 +1578,10 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Amarr Trade Registry
   Ametat Security:
     id: 1000226
+    name: Ametat Security
   Ammatar Consulate:
     id: 1000126
     lpoffers:
@@ -1694,6 +1706,7 @@ corporations:
     - 4576
     - 4577
     - 15775
+    name: Ammatar Consulate
   Ammatar Fleet:
     id: 1000123
     lpoffers:
@@ -1997,6 +2010,7 @@ corporations:
     - 4378
     - 4379
     - 15775
+    name: Ammatar Fleet
   Archangels:
     id: 1000124
     lpoffers:
@@ -2271,6 +2285,7 @@ corporations:
     - 4382
     - 4797
     - 4798
+    name: Archangels
   Ardishapur Family:
     id: 1000090
     lpoffers:
@@ -2427,8 +2442,10 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Ardishapur Family
   Arkombine:
     id: 1000193
+    name: Arkombine
   Astral Mining Inc.:
     id: 1000098
     lpoffers:
@@ -2590,6 +2607,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Astral Mining Inc.
   Bank of Luminaire:
     id: 1000112
     lpoffers:
@@ -2734,6 +2752,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Bank of Luminaire
   Blood Raiders:
     id: 1000134
     lpoffers:
@@ -3007,6 +3026,7 @@ corporations:
     - 4384
     - 4385
     - 4795
+    name: Blood Raiders
   Boundless Creation:
     id: 1000057
     lpoffers:
@@ -3175,8 +3195,10 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Boundless Creation
   Bragian Order:
     id: 1000207
+    name: Bragian Order
   Brutor Tribe:
     id: 1000049
     lpoffers:
@@ -3509,8 +3531,10 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Brutor Tribe
   Brutor Vanguard:
     id: 1000251
+    name: Brutor Vanguard
   CBD Corporation:
     id: 1000002
     lpoffers:
@@ -3664,6 +3688,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: CBD Corporation
   CBD Sell Division:
     id: 1000024
     lpoffers:
@@ -3817,6 +3842,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: CBD Sell Division
   CONCORD:
     id: 1000125
     lpoffers:
@@ -4047,8 +4073,10 @@ corporations:
     - 16239
     - 16240
     - 16241
+    name: CONCORD
   CONCORD Aerospace:
     id: 1000280
+    name: CONCORD Aerospace
   Caldari Business Tribunal:
     id: 1000033
     lpoffers:
@@ -4202,6 +4230,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Caldari Business Tribunal
   Caldari Constructions:
     id: 1000026
     lpoffers:
@@ -4360,6 +4389,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Caldari Constructions
   Caldari Funds Unlimited:
     id: 1000028
     lpoffers:
@@ -4513,6 +4543,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Caldari Funds Unlimited
   Caldari Navy:
     id: 1000035
     lpoffers:
@@ -4848,6 +4879,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    name: Caldari Navy
   Caldari Provisions:
     id: 1000009
     lpoffers:
@@ -5006,6 +5038,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Caldari Provisions
   Caldari Steel:
     id: 1000015
     lpoffers:
@@ -5164,6 +5197,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Caldari Steel
   Carthum Conglomerate:
     id: 1000064
     lpoffers:
@@ -5320,6 +5354,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Carthum Conglomerate
   Center for Advanced Studies:
     id: 1000169
     lpoffers:
@@ -5481,8 +5516,10 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Center for Advanced Studies
   Chatelain Rapid Response:
     id: 1000247
+    name: Chatelain Rapid Response
   Chemal Tech:
     id: 1000108
     lpoffers:
@@ -5645,6 +5682,7 @@ corporations:
     - 16194
     - 16195
     - 16221
+    name: Chemal Tech
   Chief Executive Panel:
     id: 1000031
     lpoffers:
@@ -5798,8 +5836,10 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Chief Executive Panel
   Circle of Huskarl:
     id: 1000218
+    name: Circle of Huskarl
   Civic Court:
     id: 1000092
     lpoffers:
@@ -5933,6 +5973,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Civic Court
   Combined Harvest:
     id: 1000099
     lpoffers:
@@ -6094,12 +6135,16 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Combined Harvest
   Commando Perkone:
     id: 1000237
+    name: Commando Perkone
   Company of Marcher Lords:
     id: 1000227
+    name: Company of Marcher Lords
   Condotta Rouvenor:
     id: 1000250
+    name: Condotta Rouvenor
   Core Complexion Inc.:
     id: 1000056
     lpoffers:
@@ -6268,6 +6313,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Core Complexion Inc.
   Corporate Police Force:
     id: 1000043
     lpoffers:
@@ -6603,6 +6649,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    name: Corporate Police Force
   Court Chamberlain:
     id: 1000085
     lpoffers:
@@ -6736,6 +6783,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Court Chamberlain
   CreoDron:
     id: 1000101
     lpoffers:
@@ -6897,10 +6945,13 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: CreoDron
   Crux Special Tasks Group:
     id: 1000216
+    name: Crux Special Tasks Group
   DED:
     id: 1000137
+    name: DED
   Deep Core Mining Inc.:
     id: 1000006
     lpoffers:
@@ -7059,8 +7110,10 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Deep Core Mining Inc.
   Directive Intelligence Agency:
     id: 1000282
+    name: Directive Intelligence Agency
   Dominations:
     id: 1000138
     lpoffers:
@@ -7335,8 +7388,10 @@ corporations:
     - 4382
     - 4797
     - 4798
+    name: Dominations
   Doomheim:
     id: 1000001
+    name: Doomheim
   Ducia Foundry:
     id: 1000069
     lpoffers:
@@ -7494,6 +7549,7 @@ corporations:
     - 16076
     - 16172
     - 16221
+    name: Ducia Foundry
   Duvolle Laboratories:
     id: 1000109
     lpoffers:
@@ -7647,6 +7703,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Duvolle Laboratories
   Echelon Entertainment:
     id: 1000018
     lpoffers:
@@ -7800,8 +7857,10 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Echelon Entertainment
   Edimmu Warfighters:
     id: 1000248
+    name: Edimmu Warfighters
   Egonics Inc.:
     id: 1000106
     lpoffers:
@@ -7946,6 +8005,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Egonics Inc.
   Eifyr and Co.:
     id: 1000058
     lpoffers:
@@ -8115,6 +8175,7 @@ corporations:
     - 16200
     - 16202
     - 16221
+    name: Eifyr and Co.
   Emperor Family:
     id: 1000086
     lpoffers:
@@ -8248,6 +8309,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Emperor Family
   Expert Distribution:
     id: 1000023
     lpoffers:
@@ -8401,6 +8463,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Expert Distribution
   Expert Housing:
     id: 1000027
     lpoffers:
@@ -8554,10 +8617,13 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Expert Housing
   Expert Intervention:
     id: 1000233
+    name: Expert Intervention
   Eyniletti Rangers:
     id: 1000255
+    name: Eyniletti Rangers
   FedMart:
     id: 1000110
     lpoffers:
@@ -8702,6 +8768,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: FedMart
   Federal Administration:
     id: 1000119
     lpoffers:
@@ -8846,6 +8913,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Federal Administration
   Federal Defense Union:
     id: 1000181
     lpoffers:
@@ -9209,6 +9277,7 @@ corporations:
     - 16194
     - 16195
     - 16243
+    name: Federal Defense Union
   Federal Freight:
     id: 1000095
     lpoffers:
@@ -9353,6 +9422,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Federal Freight
   Federal Intelligence Office:
     id: 1000121
     lpoffers:
@@ -9673,8 +9743,10 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Federal Intelligence Office
   Federal Marines:
     id: 1000262
+    name: Federal Marines
   Federal Navy Academy:
     id: 1000168
     lpoffers:
@@ -9995,6 +10067,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Federal Navy Academy
   Federal Strategic Materiel:
     id: 1000285
     lpoffers:
@@ -10009,6 +10082,7 @@ corporations:
     - 16331
     - 16332
     - 16333
+    name: Federal Strategic Materiel
   Federation Customs:
     id: 1000122
     lpoffers:
@@ -10329,6 +10403,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Federation Customs
   Federation Navy:
     id: 1000120
     lpoffers:
@@ -10649,6 +10724,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Federation Navy
   Food Relief:
     id: 1000139
     lpoffers:
@@ -10725,10 +10801,13 @@ corporations:
     - 16069
     - 16070
     - 16242
+    name: Food Relief
   Forty-Nine Fedayeen:
     id: 1000257
+    name: Forty-Nine Fedayeen
   Fraternity of St. Venefice:
     id: 1000223
+    name: Fraternity of St. Venefice
   Freedom Extension:
     id: 1000061
     lpoffers:
@@ -10888,6 +10967,7 @@ corporations:
     - 16200
     - 16202
     - 16221
+    name: Freedom Extension
   Frostline Laboratories:
     id: 1000277
     lpoffers:
@@ -10907,6 +10987,7 @@ corporations:
     - 16272
     - 16273
     - 16274
+    name: Frostline Laboratories
   Further Foodstuffs:
     id: 1000076
     lpoffers:
@@ -11063,6 +11144,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Further Foodstuffs
   Garoun Investment Bank:
     id: 1000114
     lpoffers:
@@ -11207,8 +11289,10 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Garoun Investment Bank
   Genolution:
     id: 1000140
+    name: Genolution
   Guardian Angels:
     id: 1000136
     lpoffers:
@@ -11483,6 +11567,7 @@ corporations:
     - 4382
     - 4797
     - 4798
+    name: Guardian Angels
   Guristas:
     id: 1000127
     lpoffers:
@@ -11789,6 +11874,7 @@ corporations:
     - 15772
     - 15773
     - 15774
+    name: Guristas
   Guristas Production:
     id: 1000141
     lpoffers:
@@ -11926,6 +12012,7 @@ corporations:
     - 15772
     - 15773
     - 15774
+    name: Guristas Production
   HZO Refinery:
     id: 1000070
     lpoffers:
@@ -12082,6 +12169,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: HZO Refinery
   Hedion University:
     id: 1000165
     lpoffers:
@@ -12215,8 +12303,10 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Hedion University
   Holdfast Syndicate:
     id: 1000231
+    name: Holdfast Syndicate
   Home Guard:
     id: 1000039
     lpoffers:
@@ -12552,6 +12642,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    name: Home Guard
   House of Records:
     id: 1000034
     lpoffers:
@@ -12705,6 +12796,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: House of Records
   Hyasyoda Corporation:
     id: 1000005
     lpoffers:
@@ -12863,8 +12955,10 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Hyasyoda Corporation
   Ikomari-Onu Enforcement:
     id: 1000240
+    name: Ikomari-Onu Enforcement
   Imperial Academy:
     id: 1000166
     lpoffers:
@@ -13184,6 +13278,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Imperial Academy
   Imperial Armaments:
     id: 1000065
     lpoffers:
@@ -13340,6 +13435,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Imperial Armaments
   Imperial Chancellor:
     id: 1000078
     lpoffers:
@@ -13473,8 +13569,10 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Imperial Chancellor
   Imperial Guard:
     id: 1000198
+    name: Imperial Guard
   Imperial Shipment:
     id: 1000072
     lpoffers:
@@ -13608,6 +13706,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Imperial Shipment
   Imperial War Reserves:
     id: 1000283
     lpoffers:
@@ -13622,6 +13721,7 @@ corporations:
     - 16323
     - 16324
     - 16325
+    name: Imperial War Reserves
   Impetus:
     id: 1000105
     lpoffers:
@@ -13767,10 +13867,13 @@ corporations:
     - 16194
     - 16195
     - 16221
+    name: Impetus
   Impro:
     id: 1000142
+    name: Impro
   Independent Gaming Commission:
     id: 1000281
+    name: Independent Gaming Commission
   Inherent Implants:
     id: 1000071
     lpoffers:
@@ -13927,8 +14030,10 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Inherent Implants
   Inner Circle:
     id: 1000143
+    name: Inner Circle
   Inner Zone Shipping:
     id: 1000096
     lpoffers:
@@ -14073,6 +14178,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Inner Zone Shipping
   Intaki Bank:
     id: 1000144
     lpoffers:
@@ -14143,6 +14249,7 @@ corporations:
     - 16196
     - 16197
     - 16221
+    name: Intaki Bank
   Intaki Commerce:
     id: 1000145
     lpoffers:
@@ -14212,6 +14319,7 @@ corporations:
     - 16127
     - 16196
     - 16197
+    name: Intaki Commerce
   Intaki Space Police:
     id: 1000146
     lpoffers:
@@ -14455,6 +14563,7 @@ corporations:
     - 16127
     - 16196
     - 16197
+    name: Intaki Space Police
   Intaki Syndicate:
     id: 1000147
     lpoffers:
@@ -14698,10 +14807,13 @@ corporations:
     - 16127
     - 16196
     - 16197
+    name: Intaki Syndicate
   Intara Direct Action:
     id: 1000239
+    name: Intara Direct Action
   InterBus:
     id: 1000148
+    name: InterBus
   Internal Security:
     id: 1000036
     lpoffers:
@@ -15037,6 +15149,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    name: Internal Security
   Ishukone Corporation:
     id: 1000019
     lpoffers:
@@ -15195,6 +15308,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Ishukone Corporation
   Ishukone Watch:
     id: 1000038
     lpoffers:
@@ -15530,8 +15644,10 @@ corporations:
     - 15822
     - 16170
     - 16174
+    name: Ishukone Watch
   Isuuaya Tactical:
     id: 1000238
+    name: Isuuaya Tactical
   Joint Harvesting:
     id: 1000074
     lpoffers:
@@ -15688,10 +15804,13 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Joint Harvesting
   Jove Navy:
     id: 1000149
+    name: Jove Navy
   Jovian Directorate:
     id: 1000150
+    name: Jovian Directorate
   Kaalakiota Corporation:
     id: 1000010
     lpoffers:
@@ -15850,6 +15969,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Kaalakiota Corporation
   Kador Family:
     id: 1000087
     lpoffers:
@@ -15983,10 +16103,13 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Kador Family
   Kameira Lodge:
     id: 1000229
+    name: Kameira Lodge
   Kang Lo Directorate:
     id: 1000249
+    name: Kang Lo Directorate
   Khanid Innovation:
     id: 1000151
     lpoffers:
@@ -16081,6 +16204,7 @@ corporations:
     - 4613
     - 4614
     - 4615
+    name: Khanid Innovation
   Khanid Transport:
     id: 1000152
     lpoffers:
@@ -16167,6 +16291,7 @@ corporations:
     - 4613
     - 4614
     - 4615
+    name: Khanid Transport
   Khanid Works:
     id: 1000153
     lpoffers:
@@ -16261,10 +16386,13 @@ corporations:
     - 4613
     - 4614
     - 4615
+    name: Khanid Works
   Kinsho Swords:
     id: 1000232
+    name: Kinsho Swords
   Kirkinen Risk Control:
     id: 1000235
+    name: Kirkinen Risk Control
   Kor-Azor Family:
     id: 1000089
     lpoffers:
@@ -16398,10 +16526,13 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Kor-Azor Family
   Krullefor Organization:
     id: 1000253
+    name: Krullefor Organization
   Krusual Covert Operators:
     id: 1000259
+    name: Krusual Covert Operators
   Krusual Tribe:
     id: 1000047
     lpoffers:
@@ -16560,6 +16691,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Krusual Tribe
   Lai Dai Corporation:
     id: 1000020
     lpoffers:
@@ -16775,6 +16907,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Lai Dai Corporation
   Lai Dai Protection Service:
     id: 1000037
     lpoffers:
@@ -17053,8 +17186,10 @@ corporations:
     - 15822
     - 16170
     - 16174
+    name: Lai Dai Protection Service
   Mannar Focused Warfare:
     id: 1000244
+    name: Mannar Focused Warfare
   Material Acquisition:
     id: 1000097
     lpoffers:
@@ -17216,8 +17351,10 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Material Acquisition
   Material Institute:
     id: 1000177
+    name: Material Institute
   Mercantile Club:
     id: 1000032
     lpoffers:
@@ -17371,8 +17508,10 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Mercantile Club
   Mikramurka Shock Troop:
     id: 1000254
+    name: Mikramurka Shock Troop
   Minedrill:
     id: 1000008
     lpoffers:
@@ -17531,6 +17670,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Minedrill
   Ministry of Assessment:
     id: 1000081
     lpoffers:
@@ -17664,6 +17804,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Ministry of Assessment
   Ministry of Internal Order:
     id: 1000082
     lpoffers:
@@ -17983,6 +18124,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Ministry of Internal Order
   Ministry of War:
     id: 1000080
     lpoffers:
@@ -18302,6 +18444,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Ministry of War
   Minmatar Mining Corporation:
     id: 1000055
     lpoffers:
@@ -18470,6 +18613,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Minmatar Mining Corporation
   Modern Finances:
     id: 1000030
     lpoffers:
@@ -18623,6 +18767,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Modern Finances
   Mordu's Legion:
     id: 1000128
     lpoffers:
@@ -18866,8 +19011,10 @@ corporations:
     - 16084
     - 16085
     - 16221
+    name: Mordu's Legion
   Namtar Elite:
     id: 1000243
+    name: Namtar Elite
   Native Freshfood:
     id: 1000060
     lpoffers:
@@ -19036,6 +19183,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Native Freshfood
   Nefantar Miner Association:
     id: 1000154
     lpoffers:
@@ -19177,6 +19325,7 @@ corporations:
     - 4502
     - 4503
     - 15775
+    name: Nefantar Miner Association
   Noble Appliances:
     id: 1000068
     lpoffers:
@@ -19333,6 +19482,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Noble Appliances
   Nugoeihuvi Corporation:
     id: 1000017
     lpoffers:
@@ -19486,6 +19636,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Nugoeihuvi Corporation
   Nurtura:
     id: 1000075
     lpoffers:
@@ -19642,6 +19793,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Nurtura
   ORE Technologies:
     id: 1000276
     lpoffers:
@@ -19661,12 +19813,16 @@ corporations:
     - 16272
     - 16273
     - 16274
+    name: ORE Technologies
   Onikanabo Brigade:
     id: 1000234
+    name: Onikanabo Brigade
   Osmon Surveillance:
     id: 1000213
+    name: Osmon Surveillance
   Ostrakon Agency:
     id: 1000222
+    name: Ostrakon Agency
   Outer Ring Development:
     id: 1000270
     lpoffers:
@@ -19686,6 +19842,7 @@ corporations:
     - 16272
     - 16273
     - 16274
+    name: Outer Ring Development
   Outer Ring Excavations:
     id: 1000129
     lpoffers:
@@ -19734,6 +19891,7 @@ corporations:
     - 16272
     - 16273
     - 16274
+    name: Outer Ring Excavations
   Outer Ring Prospecting:
     id: 1000271
     lpoffers:
@@ -19753,10 +19911,13 @@ corporations:
     - 16272
     - 16273
     - 16274
+    name: Outer Ring Prospecting
   Paladin Survey Force:
     id: 1000225
+    name: Paladin Survey Force
   Pann's Peeps:
     id: 1000176
+    name: Pann's Peeps
   Pator Tech School:
     id: 1000172
     lpoffers:
@@ -19915,6 +20076,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Pator Tech School
   Peace and Order Unit:
     id: 1000040
     lpoffers:
@@ -20250,6 +20412,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    name: Peace and Order Unit
   Pend Insurance:
     id: 1000113
     lpoffers:
@@ -20402,6 +20565,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Pend Insurance
   Perkone:
     id: 1000014
     lpoffers:
@@ -20560,6 +20724,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Perkone
   Poksu Mineral Group:
     id: 1000007
     lpoffers:
@@ -20718,12 +20883,16 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Poksu Mineral Group
   Polaris Bug Hunters:
     id: 1000174
+    name: Polaris Bug Hunters
   Polaris Corporation:
     id: 1000173
+    name: Polaris Corporation
   Polaris Events:
     id: 1000175
+    name: Polaris Events
   Poteque Pharmaceuticals:
     id: 1000104
     lpoffers:
@@ -20885,6 +21054,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Poteque Pharmaceuticals
   President:
     id: 1000116
     lpoffers:
@@ -21029,8 +21199,10 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: President
   Project Discovery:
     id: 1000279
+    name: Project Discovery
   Prompt Delivery:
     id: 1000003
     lpoffers:
@@ -21184,6 +21356,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Prompt Delivery
   Propel Dynamics:
     id: 1000022
     lpoffers:
@@ -21343,8 +21516,10 @@ corporations:
     - 16170
     - 16174
     - 16221
+    name: Propel Dynamics
   Prosper:
     id: 1000155
+    name: Prosper
   Quafe Company:
     id: 1000100
     lpoffers:
@@ -21489,6 +21664,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Quafe Company
   Rapid Assembly:
     id: 1000013
     lpoffers:
@@ -21647,10 +21823,13 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Rapid Assembly
   Red and Silver Hand:
     id: 1000230
+    name: Red and Silver Hand
   Republic Command:
     id: 1000263
+    name: Republic Command
   Republic Fleet:
     id: 1000051
     lpoffers:
@@ -21983,6 +22162,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Republic Fleet
   Republic Fleet Ordnance:
     id: 1000286
     lpoffers:
@@ -21997,6 +22177,7 @@ corporations:
     - 16335
     - 16336
     - 16337
+    name: Republic Fleet Ordnance
   Republic Justice Department:
     id: 1000052
     lpoffers:
@@ -22329,6 +22510,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Republic Justice Department
   Republic Military School:
     id: 1000170
     lpoffers:
@@ -22661,6 +22843,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Republic Military School
   Republic Parliament:
     id: 1000050
     lpoffers:
@@ -22819,6 +23002,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Republic Parliament
   Republic Security Services:
     id: 1000054
     lpoffers:
@@ -23151,6 +23335,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Republic Security Services
   Republic University:
     id: 1000171
     lpoffers:
@@ -23319,8 +23504,10 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Republic University
   Resheph Interstellar Strategy:
     id: 1000245
+    name: Resheph Interstellar Strategy
   Roden Shipyards:
     id: 1000102
     lpoffers:
@@ -23482,6 +23669,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Roden Shipyards
   Royal Amarr Institute:
     id: 1000077
     lpoffers:
@@ -23638,6 +23826,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Royal Amarr Institute
   Royal Khanid Navy:
     id: 1000156
     lpoffers:
@@ -23898,8 +24087,10 @@ corporations:
     - 4613
     - 4614
     - 4615
+    name: Royal Khanid Navy
   Royal Uhlans:
     id: 1000206
+    name: Royal Uhlans
   Salvation Angels:
     id: 1000133
     lpoffers:
@@ -24005,8 +24196,10 @@ corporations:
     - 4426
     - 4797
     - 4798
+    name: Salvation Angels
   Sanmatar Kelkoons:
     id: 1000220
+    name: Sanmatar Kelkoons
   Sarum Family:
     id: 1000088
     lpoffers:
@@ -24326,6 +24519,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Sarum Family
   School of Applied Knowledge:
     id: 1000044
     lpoffers:
@@ -24484,6 +24678,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: School of Applied Knowledge
   Science and Trade Institute:
     id: 1000045
     lpoffers:
@@ -24637,8 +24832,10 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Science and Trade Institute
   Sebiestor Field Sappers:
     id: 1000256
+    name: Sebiestor Field Sappers
   Sebiestor Tribe:
     id: 1000046
     lpoffers:
@@ -24807,10 +25004,13 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Sebiestor Tribe
   Secure Commerce Commission:
     id: 1000132
+    name: Secure Commerce Commission
   Seituoda Taskforce Command:
     id: 1000214
+    name: Seituoda Taskforce Command
   Senate:
     id: 1000117
     lpoffers:
@@ -24955,6 +25155,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Senate
   Serpentis Corporation:
     id: 1000135
     lpoffers:
@@ -25256,6 +25457,7 @@ corporations:
     - 16269
     - 16270
     - 16271
+    name: Serpentis Corporation
   Serpentis Inquest:
     id: 1000157
     lpoffers:
@@ -25385,14 +25587,19 @@ corporations:
     - 16269
     - 16270
     - 16271
+    name: Serpentis Inquest
   Seykal Expeditionary Group:
     id: 1000258
+    name: Seykal Expeditionary Group
   Shapeset:
     id: 1000158
+    name: Shapeset
   Shining Flame:
     id: 1000224
+    name: Shining Flame
   Sinq Laison Gendarmes:
     id: 1000246
+    name: Sinq Laison Gendarmes
   Sisters of EVE:
     id: 1000130
     lpoffers:
@@ -25495,6 +25702,7 @@ corporations:
     - 16218
     - 16219
     - 16242
+    name: Sisters of EVE
   Six Kin Development:
     id: 1000059
     lpoffers:
@@ -25663,8 +25871,10 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Six Kin Development
   Society of Conscious Thought:
     id: 1000131
+    name: Society of Conscious Thought
   Spacelane Patrol:
     id: 1000041
     lpoffers:
@@ -26000,6 +26210,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    name: Spacelane Patrol
   State Military Stockpile:
     id: 1000284
     lpoffers:
@@ -26014,8 +26225,10 @@ corporations:
     - 16327
     - 16328
     - 16329
+    name: State Military Stockpile
   State Peacekeepers:
     id: 1000261
+    name: State Peacekeepers
   State Protectorate:
     id: 1000180
     lpoffers:
@@ -26392,6 +26605,7 @@ corporations:
     - 16170
     - 16175
     - 16243
+    name: State Protectorate
   State War Academy:
     id: 1000167
     lpoffers:
@@ -26727,6 +26941,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    name: State War Academy
   State and Region Bank:
     id: 1000029
     lpoffers:
@@ -26880,8 +27095,10 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: State and Region Bank
   Storm Wind Strikeforce:
     id: 1000236
+    name: Storm Wind Strikeforce
   Sukuuvestaa Corporation:
     id: 1000025
     lpoffers:
@@ -27040,6 +27257,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Sukuuvestaa Corporation
   Supreme Court:
     id: 1000118
     lpoffers:
@@ -27184,8 +27402,10 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: Supreme Court
   Tal-Romon Legion:
     id: 1000228
+    name: Tal-Romon Legion
   Tash-Murkon Family:
     id: 1000091
     lpoffers:
@@ -27319,8 +27539,10 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Tash-Murkon Family
   Templis Dragonaurs:
     id: 1000197
+    name: Templis Dragonaurs
   The Leisure Group:
     id: 1000062
     lpoffers:
@@ -27479,6 +27701,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: The Leisure Group
   The Sanctuary:
     id: 1000159
     lpoffers:
@@ -27555,6 +27778,7 @@ corporations:
     - 16069
     - 16070
     - 16242
+    name: The Sanctuary
   The Scope:
     id: 1000107
     lpoffers:
@@ -27699,6 +27923,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: The Scope
   Theology Council:
     id: 1000093
     lpoffers:
@@ -27832,6 +28057,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Theology Council
   Thukker Mix:
     id: 1000160
     lpoffers:
@@ -28096,6 +28322,7 @@ corporations:
     - 16199
     - 16201
     - 16203
+    name: Thukker Mix
   Top Down:
     id: 1000012
     lpoffers:
@@ -28254,6 +28481,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Top Down
   TransStellar Shipping:
     id: 1000094
     lpoffers:
@@ -28398,6 +28626,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: TransStellar Shipping
   Tribal Liberation Force:
     id: 1000182
     lpoffers:
@@ -28771,8 +29000,10 @@ corporations:
     - 16200
     - 16202
     - 16243
+    name: Tribal Liberation Force
   Tronhadar Free Guard:
     id: 1000219
+    name: Tronhadar Free Guard
   True Creations:
     id: 1000161
     lpoffers:
@@ -28877,6 +29108,7 @@ corporations:
     - 4425
     - 4426
     - 4796
+    name: True Creations
   True Power:
     id: 1000162
     lpoffers:
@@ -29150,6 +29382,7 @@ corporations:
     - 4390
     - 4391
     - 4796
+    name: True Power
   Trust Partners:
     id: 1000163
     lpoffers:
@@ -29187,6 +29420,7 @@ corporations:
     - 16199
     - 16201
     - 16203
+    name: Trust Partners
   University of Caille:
     id: 1000115
     lpoffers:
@@ -29331,6 +29565,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    name: University of Caille
   Urban Management:
     id: 1000053
     lpoffers:
@@ -29489,8 +29724,10 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Urban Management
   Vherokior Combat Logistics:
     id: 1000252
+    name: Vherokior Combat Logistics
   Vherokior Tribe:
     id: 1000048
     lpoffers:
@@ -29649,10 +29886,13 @@ corporations:
     - 16198
     - 16200
     - 16202
+    name: Vherokior Tribe
   Vigilant Tyrannos:
     id: 1000274
+    name: Vigilant Tyrannos
   Villore Sec Ops:
     id: 1000217
+    name: Villore Sec Ops
   Viziam:
     id: 1000066
     lpoffers:
@@ -29809,6 +30049,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    name: Viziam
   Wiyrkomi Corporation:
     id: 1000011
     lpoffers:
@@ -29967,6 +30208,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Wiyrkomi Corporation
   Wiyrkomi Peace Corps:
     id: 1000042
     lpoffers:
@@ -30302,8 +30544,10 @@ corporations:
     - 15822
     - 16170
     - 16174
+    name: Wiyrkomi Peace Corps
   X-Sense:
     id: 1000164
+    name: X-Sense
   Ytiri:
     id: 1000004
     lpoffers:
@@ -30458,6 +30702,7 @@ corporations:
     - 16170
     - 16174
     - 16221
+    name: Ytiri
   Zainou:
     id: 1000016
     lpoffers:
@@ -30616,6 +30861,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Zainou
   Zero-G Research Firm:
     id: 1000021
     lpoffers:
@@ -30774,6 +31020,7 @@ corporations:
     - 15821
     - 16170
     - 16174
+    name: Zero-G Research Firm
   Zoar and Sons:
     id: 1000067
     lpoffers:
@@ -30931,5 +31178,7 @@ corporations:
     - 16076
     - 16172
     - 16221
+    name: Zoar and Sons
   Zumari Force Projection:
     id: 1000208
+    name: Zumari Force Projection

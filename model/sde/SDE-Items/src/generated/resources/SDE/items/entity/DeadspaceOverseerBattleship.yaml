@@ -1,89 +1,177 @@
 items:
-  '''Screaming'' Dewak Humfry': {}
-  Abufyr Joek: {}
-  Akkeshu Karuan: {}
-  Angel Cartel Jailor: {}
-  Angel Colonel: {}
-  Baron Haztari Arkhi: {}
-  Black Caesar: {}
-  Black Jack: {}
-  Blood Factory Overseer: {}
-  Captain Blood Raven: {}
-  Captain Rouge: {}
-  Centus Colony General: {}
-  Colonial Master Diabolus Maytor: {}
-  Commander Terachi TashMurkon: {}
-  Crimson Lord: {}
-  Dark Blood Colonel: {}
-  Dark Blood Hunter: {}
-  Dark Corpus Preacher: {}
-  Dark Templar Uthius: {}
-  Dread Guristas Colonel: {}
-  Dread Guristas Commanding Officer: {}
-  Dread Pith Protagonist: {}
-  Drone Commandeered Battleship: {}
-  Drone Commandeered Battleship Deluxe: {}
-  Effotber's Transit Overseer: {}
-  Fleet Commander Naiyon Tai: {}
-  General Hixous Puxley: {}
-  General Luther Veron: {}
-  General Matar Pol: {}
-  Gist Domination Murderer: {}
-  Hashi Keptzh: {}
-  Hierarchy Hive Queen: {}
-  High Ritualist Padio Atour: {}
-  Independence Queen: {}
-  Jorun 'Red Legs' Greaves: {}
-  Kalorr Makur: {}
-  Lazron Kamon_: {}
-  Martokar Alash: {}
-  Mutated Drone Parasite: {}
-  Naberius Marquis: {}
-  Overseer Skomener Effotber: {}
-  Pashan's Battle-Commander: {}
-  Phi-Operation Protector: {}
-  Piran Ketoisa: {}
-  Privateer Admiral Heysus Sarpati: {}
-  Purple Particle Research Patrol: {}
-  Radiant Hive Mother: {}
-  Rogue Drone Liaisons Captain: {}
-  Rogue Drone Saboteur: {}
-  Rubin Sozar: {}
-  Sansha Corpse Collector: {}
-  Sansha Shipyard Foreman: {}
-  Sansha's Slave Master: {}
-  Security Maintenance Facility Overseer: {}
-  Security Mining Facility Overseer: {}
-  Security Overseer: {}
-  Sepentis Regional Baron Arain Percourt: {}
-  Serpentis Deadspace Sergeant: {}
-  Serpentis Executive Officer: {}
-  Serpentis Holder: {}
-  Serpentis Major: {}
-  Serpentis Procurer: {}
-  Serpentis Regional Baron - Arain Percourt: {}
-  Serpentis Shipyard Defender: {}
-  Serpentis Thief: {}
-  Serpentis Tournament Host: {}
-  Shadow Grand Admiral: {}
-  Shadow Serpentis Big Boss: {}
-  Shadow Serpentis Colonel: {}
-  Shadow Serpentis Thief: {}
-  Supply Headman: {}
-  Supreme Hive Defender: {}
-  Supreme Hive Defender Deluxe: {}
-  Swarm Parasite Worker: {}
-  Swarm Parasite Worker Deluxe: {}
-  Terrorist Overlord Inzi Kika: {}
-  TestProphetBlood: {}
-  The Antimatter Channeler: {}
-  The Battlestation Admiral: {}
-  The Stronghold General: {}
-  Tritan - The Underground Overseer: {}
-  True Centus Preacher: {}
-  True Creation's Park Overseer: {}
-  True Sansha Archduke: {}
-  True Sansha's Colonel: {}
-  Uehiro Katsen: {}
-  Warlord Shaqil Dragat: {}
-  Watch Officer: {}
+  '''Screaming'' Dewak Humfry':
+    name: '''Screaming'' Dewak Humfry'
+  Abufyr Joek:
+    name: Abufyr Joek
+  Akkeshu Karuan:
+    name: Akkeshu Karuan
+  Angel Cartel Jailor:
+    name: Angel Cartel Jailor
+  Angel Colonel:
+    name: Angel Colonel
+  Baron Haztari Arkhi:
+    name: Baron Haztari Arkhi
+  Black Caesar:
+    name: Black Caesar
+  Black Jack:
+    name: Black Jack
+  Blood Factory Overseer:
+    name: Blood Factory Overseer
+  Captain Blood Raven:
+    name: Captain Blood Raven
+  Captain Rouge:
+    name: Captain Rouge
+  Centus Colony General:
+    name: Centus Colony General
+  Colonial Master Diabolus Maytor:
+    name: Colonial Master Diabolus Maytor
+  Commander Terachi TashMurkon:
+    name: Commander Terachi TashMurkon
+  Crimson Lord:
+    name: Crimson Lord
+  Dark Blood Colonel:
+    name: Dark Blood Colonel
+  Dark Blood Hunter:
+    name: Dark Blood Hunter
+  Dark Corpus Preacher:
+    name: Dark Corpus Preacher
+  Dark Templar Uthius:
+    name: Dark Templar Uthius
+  Dread Guristas Colonel:
+    name: Dread Guristas Colonel
+  Dread Guristas Commanding Officer:
+    name: Dread Guristas Commanding Officer
+  Dread Pith Protagonist:
+    name: Dread Pith Protagonist
+  Drone Commandeered Battleship:
+    name: Drone Commandeered Battleship
+  Drone Commandeered Battleship Deluxe:
+    name: Drone Commandeered Battleship Deluxe
+  Effotber's Transit Overseer:
+    name: Effotber's Transit Overseer
+  Fleet Commander Naiyon Tai:
+    name: Fleet Commander Naiyon Tai
+  General Hixous Puxley:
+    name: General Hixous Puxley
+  General Luther Veron:
+    name: General Luther Veron
+  General Matar Pol:
+    name: General Matar Pol
+  Gist Domination Murderer:
+    name: Gist Domination Murderer
+  Hashi Keptzh:
+    name: Hashi Keptzh
+  Hierarchy Hive Queen:
+    name: Hierarchy Hive Queen
+  High Ritualist Padio Atour:
+    name: High Ritualist Padio Atour
+  Independence Queen:
+    name: Independence Queen
+  Jorun 'Red Legs' Greaves:
+    name: Jorun 'Red Legs' Greaves
+  Kalorr Makur:
+    name: Kalorr Makur
+  Lazron Kamon_:
+    name: Lazron Kamon_
+  Martokar Alash:
+    name: Martokar Alash
+  Mutated Drone Parasite:
+    name: Mutated Drone Parasite
+  Naberius Marquis:
+    name: Naberius Marquis
+  Overseer Skomener Effotber:
+    name: Overseer Skomener Effotber
+  Pashan's Battle-Commander:
+    name: Pashan's Battle-Commander
+  Phi-Operation Protector:
+    name: Phi-Operation Protector
+  Piran Ketoisa:
+    name: Piran Ketoisa
+  Privateer Admiral Heysus Sarpati:
+    name: Privateer Admiral Heysus Sarpati
+  Purple Particle Research Patrol:
+    name: Purple Particle Research Patrol
+  Radiant Hive Mother:
+    name: Radiant Hive Mother
+  Rogue Drone Liaisons Captain:
+    name: Rogue Drone Liaisons Captain
+  Rogue Drone Saboteur:
+    name: Rogue Drone Saboteur
+  Rubin Sozar:
+    name: Rubin Sozar
+  Sansha Corpse Collector:
+    name: Sansha Corpse Collector
+  Sansha Shipyard Foreman:
+    name: Sansha Shipyard Foreman
+  Sansha's Slave Master:
+    name: Sansha's Slave Master
+  Security Maintenance Facility Overseer:
+    name: Security Maintenance Facility Overseer
+  Security Mining Facility Overseer:
+    name: Security Mining Facility Overseer
+  Security Overseer:
+    name: Security Overseer
+  Sepentis Regional Baron Arain Percourt:
+    name: Sepentis Regional Baron Arain Percourt
+  Serpentis Deadspace Sergeant:
+    name: Serpentis Deadspace Sergeant
+  Serpentis Executive Officer:
+    name: Serpentis Executive Officer
+  Serpentis Holder:
+    name: Serpentis Holder
+  Serpentis Major:
+    name: Serpentis Major
+  Serpentis Procurer:
+    name: Serpentis Procurer
+  Serpentis Regional Baron - Arain Percourt:
+    name: Serpentis Regional Baron - Arain Percourt
+  Serpentis Shipyard Defender:
+    name: Serpentis Shipyard Defender
+  Serpentis Thief:
+    name: Serpentis Thief
+  Serpentis Tournament Host:
+    name: Serpentis Tournament Host
+  Shadow Grand Admiral:
+    name: Shadow Grand Admiral
+  Shadow Serpentis Big Boss:
+    name: Shadow Serpentis Big Boss
+  Shadow Serpentis Colonel:
+    name: Shadow Serpentis Colonel
+  Shadow Serpentis Thief:
+    name: Shadow Serpentis Thief
+  Supply Headman:
+    name: Supply Headman
+  Supreme Hive Defender:
+    name: Supreme Hive Defender
+  Supreme Hive Defender Deluxe:
+    name: Supreme Hive Defender Deluxe
+  Swarm Parasite Worker:
+    name: Swarm Parasite Worker
+  Swarm Parasite Worker Deluxe:
+    name: Swarm Parasite Worker Deluxe
+  Terrorist Overlord Inzi Kika:
+    name: Terrorist Overlord Inzi Kika
+  TestProphetBlood:
+    name: TestProphetBlood
+  The Antimatter Channeler:
+    name: The Antimatter Channeler
+  The Battlestation Admiral:
+    name: The Battlestation Admiral
+  The Stronghold General:
+    name: The Stronghold General
+  Tritan - The Underground Overseer:
+    name: Tritan - The Underground Overseer
+  True Centus Preacher:
+    name: True Centus Preacher
+  True Creation's Park Overseer:
+    name: True Creation's Park Overseer
+  True Sansha Archduke:
+    name: True Sansha Archduke
+  True Sansha's Colonel:
+    name: True Sansha's Colonel
+  Uehiro Katsen:
+    name: Uehiro Katsen
+  Warlord Shaqil Dragat:
+    name: Warlord Shaqil Dragat
+  Watch Officer:
+    name: Watch Officer

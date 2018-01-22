@@ -1,7 +1,10 @@
 items:
   Factory Folder:
     SignatureRadius: 100
+    name: Factory Folder
   Office:
     SignatureRadius: 100
+    name: Office
   Office Folder:
     SignatureRadius: 100
+    name: Office Folder

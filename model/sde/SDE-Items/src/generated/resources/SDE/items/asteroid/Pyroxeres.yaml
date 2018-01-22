@@ -6,6 +6,7 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    name: Augumene
   Compressed Opulent Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
@@ -14,6 +15,7 @@ items:
     OreBasicType: 46686
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    name: Compressed Opulent Pyroxeres
   Compressed Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -22,6 +24,7 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    name: Compressed Pyroxeres
   Compressed Solid Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -30,6 +33,7 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    name: Compressed Solid Pyroxeres
   Compressed Viscous Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -38,6 +42,7 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    name: Compressed Viscous Pyroxeres
   Opulent Pyroxeres:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -48,6 +53,7 @@ items:
     OreBasicType: 46686
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    name: Opulent Pyroxeres
   Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -58,6 +64,7 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    name: Pyroxeres
   Solid Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -68,6 +75,7 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    name: Solid Pyroxeres
   Viscous Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -78,3 +86,4 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    name: Viscous Pyroxeres

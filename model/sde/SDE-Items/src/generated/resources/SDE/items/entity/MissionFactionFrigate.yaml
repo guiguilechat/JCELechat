@@ -1,6 +1,11 @@
 items:
-  Amarr Frigate Vessel: {}
-  Caldari Frigate Vessel: {}
-  Gallente Frigate Vessel: {}
-  Minmatar Frigate Vessel: {}
-  Patrikia Noirild's Reaper: {}
+  Amarr Frigate Vessel:
+    name: Amarr Frigate Vessel
+  Caldari Frigate Vessel:
+    name: Caldari Frigate Vessel
+  Gallente Frigate Vessel:
+    name: Gallente Frigate Vessel
+  Minmatar Frigate Vessel:
+    name: Minmatar Frigate Vessel
+  Patrikia Noirild's Reaper:
+    name: Patrikia Noirild's Reaper

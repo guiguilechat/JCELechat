@@ -3,71 +3,88 @@ items:
     AccuracyMultiplier: 1.0
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
+    name: August Demeanor Bonus
   Booster Immunity Bonus:
     AccuracyMultiplier: 1.0
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
+    name: Booster Immunity Bonus
   Computer Empathy Bonus:
     AccuracyMultiplier: 1.0
     CpuMultiplier: 0.800000011920929
     MiningAmountMultiplier: 1.0
+    name: Computer Empathy Bonus
   Creative Bonus:
     AccuracyMultiplier: 1.0
     BlueprintResearchTimeMultiplierBonus: -0.05000000074505806
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
+    name: Creative Bonus
   Deft Hands Bonus:
     AccuracyMultiplier: 1.0
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
+    name: Deft Hands Bonus
   Doctrine Ingrained Bonus:
     AccuracyMultiplier: 1.0
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
+    name: Doctrine Ingrained Bonus
   Glib Tongue Bonus:
     AccuracyMultiplier: 1.0
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
+    name: Glib Tongue Bonus
   High-G Tolerance Bonus:
     AccuracyMultiplier: 1.0
     AgilityMultiplier: 1.0499999523162842
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
+    name: High-G Tolerance Bonus
   Killer Instinct Bonus:
     AccuracyMultiplier: 1.0
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
+    name: Killer Instinct Bonus
   Ordered Mind Bonus:
     AccuracyMultiplier: 1.0
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
+    name: Ordered Mind Bonus
   Standard DNA Pattern Bonus:
     AccuracyMultiplier: 1.0
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
+    name: Standard DNA Pattern Bonus
   Stratum Form Feel Bonus:
     AccuracyMultiplier: 1.0
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.100000023841858
+    name: Stratum Form Feel Bonus
   Structural Understanding Bonus:
     AccuracyMultiplier: 1.0
     BlueprintManufactureTimeMultiplierBonus: -0.05000000074505806
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
+    name: Structural Understanding Bonus
   Superior Motion Sense Bonus:
     AccuracyMultiplier: 1.0199999809265137
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
+    name: Superior Motion Sense Bonus
   Swift Neural Grafting Bonus:
     AccuracyMultiplier: 1.0
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
+    name: Swift Neural Grafting Bonus
   Three Dimensional Thinking Bonus:
     AccuracyMultiplier: 1.0
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
     MissileDamageMultiplierBonus: 0.05000000074505806
+    name: Three Dimensional Thinking Bonus
   Vector Reckoning Bonus:
     AccuracyMultiplier: 1.0
     CpuMultiplier: 1.0
     MiningAmountMultiplier: 1.0
+    name: Vector Reckoning Bonus

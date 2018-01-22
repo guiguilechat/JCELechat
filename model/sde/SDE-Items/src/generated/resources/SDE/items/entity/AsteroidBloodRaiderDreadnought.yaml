@@ -1,3 +1,5 @@
 items:
-  Blood Dreadnought: {}
-  Dark Blood Dreadnought: {}
+  Blood Dreadnought:
+    name: Blood Dreadnought
+  Dark Blood Dreadnought:
+    name: Dark Blood Dreadnought

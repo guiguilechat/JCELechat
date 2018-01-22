@@ -1,7 +1,13 @@
 items:
-  Domination Defacer: {}
-  Domination Defiler: {}
-  Domination Haunter: {}
-  Domination Seizer: {}
-  Domination Shatterer: {}
-  Domination Trasher: {}
+  Domination Defacer:
+    name: Domination Defacer
+  Domination Defiler:
+    name: Domination Defiler
+  Domination Haunter:
+    name: Domination Haunter
+  Domination Seizer:
+    name: Domination Seizer
+  Domination Shatterer:
+    name: Domination Shatterer
+  Domination Trasher:
+    name: Domination Trasher

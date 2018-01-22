@@ -30,6 +30,7 @@ items:
     SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
+    name: ECM Jammer Burst Projector
   Energy Neutralization Burst Projector:
     CanCloak: 1
     CanFitShipGroup01: 659
@@ -58,6 +59,7 @@ items:
     SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
+    name: Energy Neutralization Burst Projector
   Sensor Dampening Burst Projector:
     CanCloak: 1
     CanFitShipGroup01: 659
@@ -87,6 +89,7 @@ items:
     SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
+    name: Sensor Dampening Burst Projector
   Stasis Webification Burst Projector:
     CanCloak: 1
     CanFitShipGroup01: 659
@@ -114,6 +117,7 @@ items:
     SignatureRadius: 100
     SpeedFactor: -55.0
     TechLevel: 1
+    name: Stasis Webification Burst Projector
   Superweapon_AOEECM:
     CanFitShipGroup01: 659
     CapacitorNeed: 1000.0
@@ -143,6 +147,7 @@ items:
     SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
+    name: Superweapon_AOEECM
   Superweapon_AOEGuide:
     AoeCloudSizeBonus: 10.0
     AoeVelocityBonus: -10.0
@@ -173,6 +178,7 @@ items:
     SignatureRadius: 50
     SpeedFactor: 1.0
     TechLevel: 1
+    name: Superweapon_AOEGuide
   Target Illumination Burst Projector:
     CanCloak: 1
     CanFitShipGroup01: 659
@@ -201,6 +207,7 @@ items:
     SignatureRadiusBonus: 35.0
     SpeedFactor: 1.0
     TechLevel: 1
+    name: Target Illumination Burst Projector
   Warp Disruption Burst Projector:
     CanCloak: 1
     CanFitShipGroup01: 659
@@ -228,6 +235,7 @@ items:
     SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
+    name: Warp Disruption Burst Projector
   Weapon Disruption Burst Projector:
     AoeCloudSizeBonus: 14.0
     AoeVelocityBonus: -14.0
@@ -262,3 +270,4 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     TrackingSpeedBonus: -20.0
+    name: Weapon Disruption Burst Projector

@@ -22,3 +22,4 @@ items:
     TrackingSpeedBonus: 5.0
     UnanchoringDelay: 600000
     Uniformity: 1.0
+    name: Tracking Array

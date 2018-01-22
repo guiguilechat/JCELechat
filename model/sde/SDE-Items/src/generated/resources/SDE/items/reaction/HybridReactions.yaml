@@ -1,10 +1,19 @@
 items:
-  C3-FTM Acid Reaction: {}
-  Carbon-86 Epoxy Resin Reaction: {}
-  Fullerene Intercalated Graphite Reaction: {}
-  Fulleroferrocene Reaction: {}
-  Graphene Nanoribbons Reaction: {}
-  Lanthanum Metallofullerene Reaction: {}
-  Methanofullerene Reaction: {}
-  PPD Fullerene Fibers Reaction: {}
-  Scandium Metallofullerene Reaction: {}
+  C3-FTM Acid Reaction:
+    name: C3-FTM Acid Reaction
+  Carbon-86 Epoxy Resin Reaction:
+    name: Carbon-86 Epoxy Resin Reaction
+  Fullerene Intercalated Graphite Reaction:
+    name: Fullerene Intercalated Graphite Reaction
+  Fulleroferrocene Reaction:
+    name: Fulleroferrocene Reaction
+  Graphene Nanoribbons Reaction:
+    name: Graphene Nanoribbons Reaction
+  Lanthanum Metallofullerene Reaction:
+    name: Lanthanum Metallofullerene Reaction
+  Methanofullerene Reaction:
+    name: Methanofullerene Reaction
+  PPD Fullerene Fibers Reaction:
+    name: PPD Fullerene Fibers Reaction
+  Scandium Metallofullerene Reaction:
+    name: Scandium Metallofullerene Reaction

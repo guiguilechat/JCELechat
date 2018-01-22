@@ -1,21 +1,41 @@
 items:
-  Ace Arrogator: {}
-  Ace Demolisher: {}
-  Ace Despoiler: {}
-  Ace Destructor: {}
-  Ace Imputor: {}
-  Ace Infiltrator: {}
-  Ace Invader: {}
-  Ace Plunderer: {}
-  Ace Saboteur: {}
-  Ace Wrecker: {}
-  Dread Guristas Arrogator: {}
-  Dread Guristas Demolisher: {}
-  Dread Guristas Despoiler: {}
-  Dread Guristas Destructor: {}
-  Dread Guristas Imputor: {}
-  Dread Guristas Infiltrator: {}
-  Dread Guristas Invader: {}
-  Dread Guristas Plunderer: {}
-  Dread Guristas Saboteur: {}
-  Dread Guristas Wrecker: {}
+  Ace Arrogator:
+    name: Ace Arrogator
+  Ace Demolisher:
+    name: Ace Demolisher
+  Ace Despoiler:
+    name: Ace Despoiler
+  Ace Destructor:
+    name: Ace Destructor
+  Ace Imputor:
+    name: Ace Imputor
+  Ace Infiltrator:
+    name: Ace Infiltrator
+  Ace Invader:
+    name: Ace Invader
+  Ace Plunderer:
+    name: Ace Plunderer
+  Ace Saboteur:
+    name: Ace Saboteur
+  Ace Wrecker:
+    name: Ace Wrecker
+  Dread Guristas Arrogator:
+    name: Dread Guristas Arrogator
+  Dread Guristas Demolisher:
+    name: Dread Guristas Demolisher
+  Dread Guristas Despoiler:
+    name: Dread Guristas Despoiler
+  Dread Guristas Destructor:
+    name: Dread Guristas Destructor
+  Dread Guristas Imputor:
+    name: Dread Guristas Imputor
+  Dread Guristas Infiltrator:
+    name: Dread Guristas Infiltrator
+  Dread Guristas Invader:
+    name: Dread Guristas Invader
+  Dread Guristas Plunderer:
+    name: Dread Guristas Plunderer
+  Dread Guristas Saboteur:
+    name: Dread Guristas Saboteur
+  Dread Guristas Wrecker:
+    name: Dread Guristas Wrecker

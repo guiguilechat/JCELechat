@@ -1,22 +1,43 @@
 items:
-  Agent Rulie Isoryn: {}
-  Angel Recovery Team: {}
-  Civilian Hulk: {}
-  Federation Courier: {}
-  Federation Industrial: {}
-  Federation Industrial Vessel: {}
-  Gallente Personnel Transport: {}
-  Gallente Transport Ship: {}
-  Hostile Hulk: {}
-  Imperial Courier: {}
-  Imperial Industrial: {}
-  Imperial Industrial Vessel: {}
-  Ishukone Hauler: {}
-  Republic Courier: {}
-  Republic Industrial: {}
-  Republic Industrial Vessel: {}
-  State Courier: {}
-  State Industrial: {}
-  State Industrial Vessel: {}
-  State Transport: {}
-  The Incredible Hulk: {}
+  Agent Rulie Isoryn:
+    name: Agent Rulie Isoryn
+  Angel Recovery Team:
+    name: Angel Recovery Team
+  Civilian Hulk:
+    name: Civilian Hulk
+  Federation Courier:
+    name: Federation Courier
+  Federation Industrial:
+    name: Federation Industrial
+  Federation Industrial Vessel:
+    name: Federation Industrial Vessel
+  Gallente Personnel Transport:
+    name: Gallente Personnel Transport
+  Gallente Transport Ship:
+    name: Gallente Transport Ship
+  Hostile Hulk:
+    name: Hostile Hulk
+  Imperial Courier:
+    name: Imperial Courier
+  Imperial Industrial:
+    name: Imperial Industrial
+  Imperial Industrial Vessel:
+    name: Imperial Industrial Vessel
+  Ishukone Hauler:
+    name: Ishukone Hauler
+  Republic Courier:
+    name: Republic Courier
+  Republic Industrial:
+    name: Republic Industrial
+  Republic Industrial Vessel:
+    name: Republic Industrial Vessel
+  State Courier:
+    name: State Courier
+  State Industrial:
+    name: State Industrial
+  State Industrial Vessel:
+    name: State Industrial Vessel
+  State Transport:
+    name: State Transport
+  The Incredible Hulk:
+    name: The Incredible Hulk

@@ -4,23 +4,28 @@ items:
     InventionMaxRunModifier: 6.0
     InventionPropabilityMultiplier: 1.5
     InventionTEModifier: 1.0
+    name: Sleeper Data Crystals
   Sleeper Data Interface Protocol:
     InventionMEModifier: 1.0
     InventionMaxRunModifier: 1.0
     InventionPropabilityMultiplier: 2.5
     InventionTEModifier: 1.0
+    name: Sleeper Data Interface Protocol
   Sleeper Manuscripts:
     InventionMEModifier: 0.800000011920929
     InventionMaxRunModifier: 1.0
     InventionPropabilityMultiplier: 3.0
     InventionTEModifier: 0.800000011920929
+    name: Sleeper Manuscripts
   Sleeper Profound Research Notes:
     InventionMEModifier: 1.399999976158142
     InventionMaxRunModifier: 2.0
     InventionPropabilityMultiplier: 2.0
     InventionTEModifier: 2.0
+    name: Sleeper Profound Research Notes
   Sleeper Technical Schematics:
     InventionMEModifier: 0.5
     InventionMaxRunModifier: 1.0
     InventionPropabilityMultiplier: 5.0
     InventionTEModifier: 0.4000000059604645
+    name: Sleeper Technical Schematics

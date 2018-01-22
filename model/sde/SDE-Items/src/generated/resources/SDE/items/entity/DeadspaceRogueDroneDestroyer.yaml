@@ -1,8 +1,15 @@
 items:
-  Dismantler Alvior: {}
-  Marauder Alvior: {}
-  Predator Alvior: {}
-  Ripper Alvior: {}
-  Shatter Alvior: {}
-  Shredder Alvior: {}
-  Unidentified Spacecraft: {}
+  Dismantler Alvior:
+    name: Dismantler Alvior
+  Marauder Alvior:
+    name: Marauder Alvior
+  Predator Alvior:
+    name: Predator Alvior
+  Ripper Alvior:
+    name: Ripper Alvior
+  Shatter Alvior:
+    name: Shatter Alvior
+  Shredder Alvior:
+    name: Shredder Alvior
+  Unidentified Spacecraft:
+    name: Unidentified Spacecraft

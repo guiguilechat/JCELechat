@@ -6,6 +6,7 @@ items:
     RequiredSkill1: 3418
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Micro 'Vigor' Core Augmentation
   Micro Auxiliary Power Core I:
     Cpu: 15.0
     Hp: 40
@@ -13,6 +14,7 @@ items:
     RequiredSkill1: 3418
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Micro Auxiliary Power Core I
   Micro Auxiliary Power Core II:
     Cpu: 18.0
     Hp: 40
@@ -21,6 +23,7 @@ items:
     RequiredSkill1: 3418
     RequiredSkill1Level: 5
     TechLevel: 2
+    name: Micro Auxiliary Power Core II
   Micro B88 Core Augmentation:
     Hp: 40
     MetaLevel: 2
@@ -28,6 +31,7 @@ items:
     RequiredSkill1: 3418
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Micro B88 Core Augmentation
   Micro K-Exhaust Core Augmentation:
     Hp: 40
     MetaLevel: 3
@@ -35,6 +39,7 @@ items:
     RequiredSkill1: 3418
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Micro K-Exhaust Core Augmentation
   Navy Micro Auxiliary Power Core:
     Cpu: 18.0
     Hp: 40
@@ -44,6 +49,7 @@ items:
     RequiredSkill1: 3418
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Navy Micro Auxiliary Power Core
   Thukker Micro Auxiliary Power Core:
     Cpu: 12.0
     Hp: 40
@@ -53,6 +59,7 @@ items:
     RequiredSkill1: 3418
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Thukker Micro Auxiliary Power Core
   Vigor Compact Micro Auxiliary Power Core:
     Cpu: 12.0
     Hp: 40
@@ -61,3 +68,4 @@ items:
     RequiredSkill1: 3418
     RequiredSkill1Level: 2
     TechLevel: 1
+    name: Vigor Compact Micro Auxiliary Power Core

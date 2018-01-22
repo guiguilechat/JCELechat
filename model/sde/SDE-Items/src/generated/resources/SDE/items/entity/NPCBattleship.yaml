@@ -1,16 +1,31 @@
 items:
-  ♦ Apocalypse: {}
-  ♦ Armageddon: {}
-  ♦ Bhaalgorn: {}
-  ♦ Dominix: {}
-  ♦ Infested Dominix: {}
-  ♦ Machariel: {}
-  ♦ Megathron: {}
-  ♦ Nightmare: {}
-  ♦ Rattlesnake: {}
-  ♦ Raven: {}
-  ♦ Scorpion: {}
-  ♦ Tempest: {}
-  ♦ Typhoon: {}
-  ♦ Vindicator: {}
-  ��� Raven: {}
+  ♦ Apocalypse:
+    name: ♦ Apocalypse
+  ♦ Armageddon:
+    name: ♦ Armageddon
+  ♦ Bhaalgorn:
+    name: ♦ Bhaalgorn
+  ♦ Dominix:
+    name: ♦ Dominix
+  ♦ Infested Dominix:
+    name: ♦ Infested Dominix
+  ♦ Machariel:
+    name: ♦ Machariel
+  ♦ Megathron:
+    name: ♦ Megathron
+  ♦ Nightmare:
+    name: ♦ Nightmare
+  ♦ Rattlesnake:
+    name: ♦ Rattlesnake
+  ♦ Raven:
+    name: ♦ Raven
+  ♦ Scorpion:
+    name: ♦ Scorpion
+  ♦ Tempest:
+    name: ♦ Tempest
+  ♦ Typhoon:
+    name: ♦ Typhoon
+  ♦ Vindicator:
+    name: ♦ Vindicator
+  ��� Apocalypse:
+    name: ��� Apocalypse

@@ -2,67 +2,91 @@ items:
   '''Harness'' Medium Capacitor Booster I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Harness'' Medium Capacitor Booster I Blueprint'
   '''Plough'' Heavy Capacitor Booster I Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: '''Plough'' Heavy Capacitor Booster I Blueprint'
   '''Saddle'' Small Capacitor Booster I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Saddle'' Small Capacitor Booster I Blueprint'
   Ammatar Navy Heavy Capacitor Booster Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Ammatar Navy Heavy Capacitor Booster Blueprint
   Ammatar Navy Medium Capacitor Booster Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Ammatar Navy Medium Capacitor Booster Blueprint
   Ammatar Navy Small Capacitor Booster Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Small Capacitor Booster Blueprint
   Capital Capacitor Booster I Blueprint:
     TechLevel: 1
+    name: Capital Capacitor Booster I Blueprint
   Capital Capacitor Booster II Blueprint:
     TechLevel: 1
+    name: Capital Capacitor Booster II Blueprint
   Capital F-RX Compact Capacitor Booster Blueprint:
     TechLevel: 1
+    name: Capital F-RX Compact Capacitor Booster Blueprint
   Dark Blood Capital Capacitor Booster Blueprint:
     TechLevel: 1
+    name: Dark Blood Capital Capacitor Booster Blueprint
   Heavy 'Brave' Capacitor Booster Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Heavy 'Brave' Capacitor Booster Blueprint
   Heavy Capacitor Booster I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Heavy Capacitor Booster I Blueprint
   Heavy Capacitor Booster II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Heavy Capacitor Booster II Blueprint
   Imperial Navy Heavy Capacitor Booster Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Imperial Navy Heavy Capacitor Booster Blueprint
   Imperial Navy Medium Capacitor Booster Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Imperial Navy Medium Capacitor Booster Blueprint
   Imperial Navy Micro Capacitor Booster Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Micro Capacitor Booster Blueprint
   Imperial Navy Small Capacitor Booster Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Small Capacitor Booster Blueprint
   Medium 'Gattotte' Capacitor Booster Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium 'Gattotte' Capacitor Booster Blueprint
   Medium Capacitor Booster I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium Capacitor Booster I Blueprint
   Medium Capacitor Booster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Medium Capacitor Booster II Blueprint
   Small 'Siesta' Capacitor Booster Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small 'Siesta' Capacitor Booster Blueprint
   Small Capacitor Booster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Capacitor Booster I Blueprint
   Small Capacitor Booster II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Capacitor Booster II Blueprint
   True Sansha Capital Capacitor Booster Blueprint:
     TechLevel: 1
+    name: True Sansha Capital Capacitor Booster Blueprint

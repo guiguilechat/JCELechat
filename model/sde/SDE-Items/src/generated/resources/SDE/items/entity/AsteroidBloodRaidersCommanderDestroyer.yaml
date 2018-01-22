@@ -1,7 +1,13 @@
 items:
-  Dark Blood Cleric: {}
-  Dark Blood Converter: {}
-  Dark Blood Devoter: {}
-  Dark Blood Friar: {}
-  Dark Blood Templar: {}
-  Dark Blood Visionary: {}
+  Dark Blood Cleric:
+    name: Dark Blood Cleric
+  Dark Blood Converter:
+    name: Dark Blood Converter
+  Dark Blood Devoter:
+    name: Dark Blood Devoter
+  Dark Blood Friar:
+    name: Dark Blood Friar
+  Dark Blood Templar:
+    name: Dark Blood Templar
+  Dark Blood Visionary:
+    name: Dark Blood Visionary

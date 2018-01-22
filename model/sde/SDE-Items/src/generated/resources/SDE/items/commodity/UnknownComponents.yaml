@@ -1,25 +1,49 @@
 items:
-  Antikythera Element: {}
-  Barbican Element: {}
-  Barbican Index: {}
-  Barbican Sequence 0: {}
-  Barbican Sequence 1: {}
-  Coalesced Element: {}
-  Conflux Element: {}
-  Conflux Index: {}
-  Conflux Sequence 0: {}
-  Conflux Sequence 1: {}
-  Jovian DNA Strand: {}
-  Redoubt Element: {}
-  Redoubt Index: {}
-  Redoubt Sequence 0: {}
-  Redoubt Sequence 1: {}
-  Sentinel Element: {}
-  Sentinel Index: {}
-  Sentinel Sequence 0: {}
-  Sentinel Sequence 1: {}
-  Unknown Sequence: {}
-  Vidette Element: {}
-  Vidette Index: {}
-  Vidette Sequence 0: {}
-  Vidette Sequence 1: {}
+  Antikythera Element:
+    name: Antikythera Element
+  Barbican Element:
+    name: Barbican Element
+  Barbican Index:
+    name: Barbican Index
+  Barbican Sequence 0:
+    name: Barbican Sequence 0
+  Barbican Sequence 1:
+    name: Barbican Sequence 1
+  Coalesced Element:
+    name: Coalesced Element
+  Conflux Element:
+    name: Conflux Element
+  Conflux Index:
+    name: Conflux Index
+  Conflux Sequence 0:
+    name: Conflux Sequence 0
+  Conflux Sequence 1:
+    name: Conflux Sequence 1
+  Jovian DNA Strand:
+    name: Jovian DNA Strand
+  Redoubt Element:
+    name: Redoubt Element
+  Redoubt Index:
+    name: Redoubt Index
+  Redoubt Sequence 0:
+    name: Redoubt Sequence 0
+  Redoubt Sequence 1:
+    name: Redoubt Sequence 1
+  Sentinel Element:
+    name: Sentinel Element
+  Sentinel Index:
+    name: Sentinel Index
+  Sentinel Sequence 0:
+    name: Sentinel Sequence 0
+  Sentinel Sequence 1:
+    name: Sentinel Sequence 1
+  Unknown Sequence:
+    name: Unknown Sequence
+  Vidette Element:
+    name: Vidette Element
+  Vidette Index:
+    name: Vidette Index
+  Vidette Sequence 0:
+    name: Vidette Sequence 0
+  Vidette Sequence 1:
+    name: Vidette Sequence 1

@@ -50,6 +50,7 @@ items:
     Uniformity: 1.0
     VulnerabilityRequired: 168
     WeaponDisruptionResistance: 9.999999747378752E-6
+    name: Blood Raider Forward Operating Base
   Guristas Forward Operating Base:
     ArmorDamageLimit: 5000
     ArmorEmDamageResonance: 1.0
@@ -101,3 +102,4 @@ items:
     Uniformity: 1.0
     VulnerabilityRequired: 168
     WeaponDisruptionResistance: 9.999999747378752E-6
+    name: Guristas Forward Operating Base

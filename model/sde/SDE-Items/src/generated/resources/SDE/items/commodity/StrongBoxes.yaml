@@ -1,72 +1,139 @@
 items:
-  Agency Support Drop: {}
-  Allotek Industries Strong Box: {}
-  Apocalypse Imperial War Reserves Pack: {}
-  'Arms Race Battlecruiser Assembler ': {}
-  Arms Race Battleship Assembler: {}
-  Astral Mining Inc. Strong Box: {}
-  Blood Raider Chemosh Blueprint Armored Cache: {}
-  Blood Raider Dagon Blueprint Armored Cache: {}
-  Blood Raider Molok Blueprint Armored Cache: {}
-  Blood Raider Standup Module Blueprint Armored Cache: {}
+  Agency Support Drop:
+    name: Agency Support Drop
+  Allotek Industries Strong Box:
+    name: Allotek Industries Strong Box
+  Apocalypse Imperial War Reserves Pack:
+    name: Apocalypse Imperial War Reserves Pack
+  'Arms Race Battlecruiser Assembler ':
+    name: 'Arms Race Battlecruiser Assembler '
+  Arms Race Battleship Assembler:
+    name: Arms Race Battleship Assembler
+  Astral Mining Inc. Strong Box:
+    name: Astral Mining Inc. Strong Box
+  Blood Raider Chemosh Blueprint Armored Cache:
+    name: Blood Raider Chemosh Blueprint Armored Cache
+  Blood Raider Dagon Blueprint Armored Cache:
+    name: Blood Raider Dagon Blueprint Armored Cache
+  Blood Raider Molok Blueprint Armored Cache:
+    name: Blood Raider Molok Blueprint Armored Cache
+  Blood Raider Standup Module Blueprint Armored Cache:
+    name: Blood Raider Standup Module Blueprint Armored Cache
   Blood Raider Strong Box:
     MetaGroupID: 4
-  Brutix Federal Strategic Materiel Pack: {}
-  Caracal State Military Stockpile Pack: {}
-  Catalyst Destroyer Battle Pack: {}
-  Coercer Destroyer Battle Pack: {}
-  'Cormorant Destroyer Battle Pack ': {}
-  Deep Core Mining Inc. Strong Box: {}
-  Drake State Military Stockpile Pack: {}
-  Ducia Foundry Strong Box: {}
-  Federal Strategic Materiel Package 10: {}
-  Federal Strategic Materiel Package 5: {}
-  Federal Strategic Materiel Package 6: {}
-  Federal Strategic Materiel Package 7: {}
-  Federal Strategic Materiel Package 8: {}
-  Federal Strategic Materiel Package 9: {}
-  Guristas Caiman Blueprint Armored Cache: {}
-  Guristas Komodo Blueprint Armored Cache: {}
-  Guristas Loggerhead Blueprint Armored Cache: {}
+    name: Blood Raider Strong Box
+  Brutix Federal Strategic Materiel Pack:
+    name: Brutix Federal Strategic Materiel Pack
+  Caracal State Military Stockpile Pack:
+    name: Caracal State Military Stockpile Pack
+  Catalyst Destroyer Battle Pack:
+    name: Catalyst Destroyer Battle Pack
+  Coercer Destroyer Battle Pack:
+    name: Coercer Destroyer Battle Pack
+  'Cormorant Destroyer Battle Pack ':
+    name: 'Cormorant Destroyer Battle Pack '
+  Deep Core Mining Inc. Strong Box:
+    name: Deep Core Mining Inc. Strong Box
+  Drake State Military Stockpile Pack:
+    name: Drake State Military Stockpile Pack
+  Ducia Foundry Strong Box:
+    name: Ducia Foundry Strong Box
+  Federal Strategic Materiel Package 10:
+    name: Federal Strategic Materiel Package 10
+  Federal Strategic Materiel Package 5:
+    name: Federal Strategic Materiel Package 5
+  Federal Strategic Materiel Package 6:
+    name: Federal Strategic Materiel Package 6
+  Federal Strategic Materiel Package 7:
+    name: Federal Strategic Materiel Package 7
+  Federal Strategic Materiel Package 8:
+    name: Federal Strategic Materiel Package 8
+  Federal Strategic Materiel Package 9:
+    name: Federal Strategic Materiel Package 9
+  Guristas Caiman Blueprint Armored Cache:
+    name: Guristas Caiman Blueprint Armored Cache
+  Guristas Komodo Blueprint Armored Cache:
+    name: Guristas Komodo Blueprint Armored Cache
+  Guristas Loggerhead Blueprint Armored Cache:
+    name: Guristas Loggerhead Blueprint Armored Cache
   Guristas Production Strong Box:
     MetaGroupID: 4
-  Guristas Standup Module Blueprint Armored Cache: {}
-  HZO Refinery Strong Box: {}
-  Harbinger Imperial War Reserves Pack: {}
-  Hurricane Republic Fleet Ordnance Pack: {}
-  Incursus Federal Strategic Materiel Pack: {}
-  Joint Harvesting Strong Box: {}
-  Material Acquisition Strong Box: {}
-  Megathron Federal Strategic Materiel Pack: {}
-  Merlin State Military Stockpile Pack: {}
-  Minedrill Strong Box: {}
-  Minmatar Mining Corporation Strong Box: {}
-  Omen Imperial War Reserves Pack: {}
-  Poksu Mineral Group Strong Box: {}
-  Procurer Mining Barge Pack: {}
-  'Punisher Imperial War Reserves Pack ': {}
-  Raven State Military Stockpile Pack: {}
-  Republic Fleet Ordnance Package 10: {}
-  Republic Fleet Ordnance Package 5: {}
-  Republic Fleet Ordnance Package 6: {}
-  Republic Fleet Ordnance Package 7: {}
-  Republic Fleet Ordnance Package 8: {}
-  Republic Fleet Ordnance Package 9: {}
-  Rifter Republic Fleet Ordnance Pack: {}
-  Rupture Republic Fleet Ordnance Pack: {}
+    name: Guristas Production Strong Box
+  Guristas Standup Module Blueprint Armored Cache:
+    name: Guristas Standup Module Blueprint Armored Cache
+  HZO Refinery Strong Box:
+    name: HZO Refinery Strong Box
+  Harbinger Imperial War Reserves Pack:
+    name: Harbinger Imperial War Reserves Pack
+  Hurricane Republic Fleet Ordnance Pack:
+    name: Hurricane Republic Fleet Ordnance Pack
+  Incursus Federal Strategic Materiel Pack:
+    name: Incursus Federal Strategic Materiel Pack
+  Joint Harvesting Strong Box:
+    name: Joint Harvesting Strong Box
+  Material Acquisition Strong Box:
+    name: Material Acquisition Strong Box
+  Megathron Federal Strategic Materiel Pack:
+    name: Megathron Federal Strategic Materiel Pack
+  Merlin State Military Stockpile Pack:
+    name: Merlin State Military Stockpile Pack
+  Minedrill Strong Box:
+    name: Minedrill Strong Box
+  Minmatar Mining Corporation Strong Box:
+    name: Minmatar Mining Corporation Strong Box
+  Omen Imperial War Reserves Pack:
+    name: Omen Imperial War Reserves Pack
+  Poksu Mineral Group Strong Box:
+    name: Poksu Mineral Group Strong Box
+  Procurer Mining Barge Pack:
+    name: Procurer Mining Barge Pack
+  'Punisher Imperial War Reserves Pack ':
+    name: 'Punisher Imperial War Reserves Pack '
+  Raven State Military Stockpile Pack:
+    name: Raven State Military Stockpile Pack
+  Republic Fleet Ordnance Package 10:
+    name: Republic Fleet Ordnance Package 10
+  Republic Fleet Ordnance Package 5:
+    name: Republic Fleet Ordnance Package 5
+  Republic Fleet Ordnance Package 6:
+    name: Republic Fleet Ordnance Package 6
+  Republic Fleet Ordnance Package 7:
+    name: Republic Fleet Ordnance Package 7
+  Republic Fleet Ordnance Package 8:
+    name: Republic Fleet Ordnance Package 8
+  Republic Fleet Ordnance Package 9:
+    name: Republic Fleet Ordnance Package 9
+  Rifter Republic Fleet Ordnance Pack:
+    name: Rifter Republic Fleet Ordnance Pack
+  Rupture Republic Fleet Ordnance Pack:
+    name: Rupture Republic Fleet Ordnance Pack
   Salvation Angels Strong Box:
     MetaGroupID: 4
-  State Military Stockpile Package 10: {}
-  State Military Stockpile Package 5: {}
-  State Military Stockpile Package 6: {}
-  State Military Stockpile Package 7: {}
-  State Military Stockpile Package 8: {}
-  State Military Stockpile Package 9: {}
-  Tempest Republic Fleet Ordnance Pack: {}
-  Thorax Federal Strategic Materiel Pack: {}
-  Thrasher Destroyer Battle Pack: {}
-  Thukker Mix Strong Box: {}
+    name: Salvation Angels Strong Box
+  State Military Stockpile Package 10:
+    name: State Military Stockpile Package 10
+  State Military Stockpile Package 5:
+    name: State Military Stockpile Package 5
+  State Military Stockpile Package 6:
+    name: State Military Stockpile Package 6
+  State Military Stockpile Package 7:
+    name: State Military Stockpile Package 7
+  State Military Stockpile Package 8:
+    name: State Military Stockpile Package 8
+  State Military Stockpile Package 9:
+    name: State Military Stockpile Package 9
+  Tempest Republic Fleet Ordnance Pack:
+    name: Tempest Republic Fleet Ordnance Pack
+  Thorax Federal Strategic Materiel Pack:
+    name: Thorax Federal Strategic Materiel Pack
+  Thrasher Destroyer Battle Pack:
+    name: Thrasher Destroyer Battle Pack
+  Thukker Mix Strong Box:
+    name: Thukker Mix Strong Box
   True Creations Strong Box:
     MetaGroupID: 4
-  Venture Mining Pack: {}
-  Vherokior Tribe Strong Box: {}
+    name: True Creations Strong Box
+  Venture Mining Pack:
+    name: Venture Mining Pack
+  Vherokior Tribe Strong Box:
+    name: Vherokior Tribe Strong Box

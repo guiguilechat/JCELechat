@@ -1,31 +1,61 @@
 items:
-  Independent Green-Crewed Maelstrom: {}
-  Independent Green-Crewed Tempest: {}
-  Independent Green-Crewed Typhoon: {}
-  Independent Maelstrom: {}
-  Independent Tempest: {}
-  Independent Typhoon: {}
-  Independent Veteran Maelstrom: {}
-  Independent Veteran Tempest: {}
-  Independent Veteran Typhoon: {}
-  Republic Fleet Command Ship: {}
-  Republic Fleet Darkana: {}
-  Republic Fleet Darkana_Alpha: {}
-  Republic Fleet Darkana_Beta: {}
-  Republic Fleet Darkana_Gamma: {}
-  Republic Fleet Tempest: {}
-  Republic Fleet Typhoon: {}
-  Republic Jarl: {}
-  Republic Jotun: {}
-  Republic Pytara: {}
-  Republic Sigur: {}
-  'Republic Tribal Akila ': {}
-  Republic Tribal Jarl: {}
-  Republic Tribal Jotun: {}
-  Republic Tribal Kinai: {}
-  Republic Tribal Pytara: {}
-  Republic Tribal Sigur: {}
-  Republic Tribal Ymir: {}
-  Republic Ymir: {}
-  Rogue Minmatar: {}
-  Rosulf Fririk: {}
+  Independent Green-Crewed Maelstrom:
+    name: Independent Green-Crewed Maelstrom
+  Independent Green-Crewed Tempest:
+    name: Independent Green-Crewed Tempest
+  Independent Green-Crewed Typhoon:
+    name: Independent Green-Crewed Typhoon
+  Independent Maelstrom:
+    name: Independent Maelstrom
+  Independent Tempest:
+    name: Independent Tempest
+  Independent Typhoon:
+    name: Independent Typhoon
+  Independent Veteran Maelstrom:
+    name: Independent Veteran Maelstrom
+  Independent Veteran Tempest:
+    name: Independent Veteran Tempest
+  Independent Veteran Typhoon:
+    name: Independent Veteran Typhoon
+  Republic Fleet Command Ship:
+    name: Republic Fleet Command Ship
+  Republic Fleet Darkana:
+    name: Republic Fleet Darkana
+  Republic Fleet Darkana_Alpha:
+    name: Republic Fleet Darkana_Alpha
+  Republic Fleet Darkana_Beta:
+    name: Republic Fleet Darkana_Beta
+  Republic Fleet Darkana_Gamma:
+    name: Republic Fleet Darkana_Gamma
+  Republic Fleet Tempest:
+    name: Republic Fleet Tempest
+  Republic Fleet Typhoon:
+    name: Republic Fleet Typhoon
+  Republic Jarl:
+    name: Republic Jarl
+  Republic Jotun:
+    name: Republic Jotun
+  Republic Pytara:
+    name: Republic Pytara
+  Republic Sigur:
+    name: Republic Sigur
+  'Republic Tribal Akila ':
+    name: 'Republic Tribal Akila '
+  Republic Tribal Jarl:
+    name: Republic Tribal Jarl
+  Republic Tribal Jotun:
+    name: Republic Tribal Jotun
+  Republic Tribal Kinai:
+    name: Republic Tribal Kinai
+  Republic Tribal Pytara:
+    name: Republic Tribal Pytara
+  Republic Tribal Sigur:
+    name: Republic Tribal Sigur
+  Republic Tribal Ymir:
+    name: Republic Tribal Ymir
+  Republic Ymir:
+    name: Republic Ymir
+  Rogue Minmatar:
+    name: Rogue Minmatar
+  Rosulf Fririk:
+    name: Rosulf Fririk

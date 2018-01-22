@@ -2,18 +2,24 @@ items:
   Cloning Service:
     IsPlayerOwnable: 1
     SignatureRadius: 1000
+    name: Cloning Service
   Factory Service:
     IsPlayerOwnable: 1
     SignatureRadius: 1000
+    name: Factory Service
   Fitting Service:
     IsPlayerOwnable: 1
     SignatureRadius: 1000
+    name: Fitting Service
   Laboratory Service:
     IsPlayerOwnable: 1
     SignatureRadius: 1000
+    name: Laboratory Service
   Repair Service:
     IsPlayerOwnable: 1
     SignatureRadius: 1000
+    name: Repair Service
   Reprocessing Service:
     IsPlayerOwnable: 1
     SignatureRadius: 1000
+    name: Reprocessing Service

@@ -1,3 +1,5 @@
 items:
-  Eosian Safeguard: {}
-  Eosian Upholder: {}
+  Eosian Safeguard:
+    name: Eosian Safeguard
+  Eosian Upholder:
+    name: Eosian Upholder

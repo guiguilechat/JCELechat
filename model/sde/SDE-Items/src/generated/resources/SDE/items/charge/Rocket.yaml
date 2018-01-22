@@ -24,6 +24,7 @@ items:
     TechLevel: 1
     ThermalDamage: 37.0
     ThermalDamageResonance: 0.800000011920929
+    name: Caldari Navy Inferno Rocket
   Caldari Navy Mjolnir Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -49,6 +50,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Mjolnir Rocket
   Caldari Navy Nova Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -74,6 +76,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Nova Rocket
   Caldari Navy Scourge Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -99,6 +102,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Caldari Navy Scourge Rocket
   Dread Guristas Inferno Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -124,6 +128,7 @@ items:
     TechLevel: 1
     ThermalDamage: 39.599998474121094
     ThermalDamageResonance: 0.800000011920929
+    name: Dread Guristas Inferno Rocket
   Dread Guristas Mjolnir Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -149,6 +154,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Mjolnir Rocket
   Dread Guristas Nova Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -174,6 +180,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Nova Rocket
   Dread Guristas Scourge Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -199,6 +206,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Dread Guristas Scourge Rocket
   Guristas Inferno Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -224,6 +232,7 @@ items:
     TechLevel: 1
     ThermalDamage: 35.599998474121094
     ThermalDamageResonance: 0.800000011920929
+    name: Guristas Inferno Rocket
   Guristas Mjolnir Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -249,6 +258,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Mjolnir Rocket
   Guristas Nova Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -274,6 +284,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Nova Rocket
   Guristas Scourge Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -299,6 +310,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Guristas Scourge Rocket
   Inferno Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -322,6 +334,7 @@ items:
     TechLevel: 1
     ThermalDamage: 33.0
     ThermalDamageResonance: 0.800000011920929
+    name: Inferno Rocket
   Mjolnir Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -345,6 +358,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Mjolnir Rocket
   Nova Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -368,6 +382,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Nova Rocket
   Sansha Mjolnir Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -391,6 +406,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Sansha Mjolnir Rocket
   Scourge Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -414,6 +430,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: Scourge Rocket
   True Sansha Mjolnir Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -437,3 +454,4 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    name: True Sansha Mjolnir Rocket

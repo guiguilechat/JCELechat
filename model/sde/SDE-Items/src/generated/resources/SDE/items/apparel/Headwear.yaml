@@ -1,141 +1,211 @@
 items:
   Beret Female Concord:
     Gender: 2
+    name: Beret Female Concord
   Beret Male Concord:
     Gender: 2
+    name: Beret Male Concord
   Cap Female Amarr:
     Gender: 2
+    name: Cap Female Amarr
   Cap Female Black/White:
     Gender: 2
+    name: Cap Female Black/White
   Cap Female Caldari:
     Gender: 2
+    name: Cap Female Caldari
   Cap Female Concord:
     Gender: 2
+    name: Cap Female Concord
   Cap Female Gallente:
     Gender: 2
+    name: Cap Female Gallente
   Cap Female Green:
     Gender: 2
+    name: Cap Female Green
   Cap Female Guristas:
     Gender: 2
+    name: Cap Female Guristas
   Cap Female Minmatar:
     Gender: 2
+    name: Cap Female Minmatar
   Cap Female Orange:
     Gender: 2
+    name: Cap Female Orange
   Cap Male Amarr:
     Gender: 2
+    name: Cap Male Amarr
   Cap Male Caldari:
     Gender: 2
+    name: Cap Male Caldari
   Cap Male Green:
     Gender: 2
+    name: Cap Male Green
   Cap Male Guristas:
     Gender: 2
+    name: Cap Male Guristas
   Cap Male Minmatar:
     Gender: 2
+    name: Cap Male Minmatar
   Cap Male Orange:
     Gender: 2
+    name: Cap Male Orange
   Cap Male White/Black:
     Gender: 2
+    name: Cap Male White/Black
   Concord Cap Male:
     Gender: 2
+    name: Concord Cap Male
   Curly Shoulder Length:
     Gender: 3
+    name: Curly Shoulder Length
   Gallente Cap Male:
     Gender: 2
+    name: Gallente Cap Male
   Hair_Stubble_01:
     Gender: 1
+    name: Hair_Stubble_01
   Men's 'Boarder' Cap (Digital Camo):
     Gender: 1
+    name: Men's 'Boarder' Cap (Digital Camo)
   Men's 'Dread' Beret (Guristas):
     Gender: 1
+    name: Men's 'Dread' Beret (Guristas)
   Men's 'Nova' Headwear (black):
     Gender: 1
+    name: Men's 'Nova' Headwear (black)
   Men's 'Nova' Headwear (bronze):
     Gender: 1
+    name: Men's 'Nova' Headwear (bronze)
   Men's 'Nova' Headwear (gold):
     Gender: 1
+    name: Men's 'Nova' Headwear (gold)
   Men's 'Nova' Headwear (silver):
     Gender: 1
+    name: Men's 'Nova' Headwear (silver)
   Men's 'Pithum' Beret (Guristas):
     Gender: 1
+    name: Men's 'Pithum' Beret (Guristas)
   Men's 'Sable' Cap (Black):
     Gender: 2
+    name: Men's 'Sable' Cap (Black)
   Men's 'Tectonic' Headwear (matte black):
     Gender: 1
+    name: Men's 'Tectonic' Headwear (matte black)
   Men's 'Tectonic' Headwear (metal):
     Gender: 1
+    name: Men's 'Tectonic' Headwear (metal)
   Men's 'Tectonic' Headwear (shiny black):
     Gender: 1
+    name: Men's 'Tectonic' Headwear (shiny black)
   Men's 'Tectonic' Headwear (white):
     Gender: 1
+    name: Men's 'Tectonic' Headwear (white)
   Men's Beret (Blood Raiders):
     Gender: 1
+    name: Men's Beret (Blood Raiders)
   Men's Cap (Blood Raiders):
     Gender: 1
+    name: Men's Cap (Blood Raiders)
   Men's Exoplanets Hunter Cap:
     Gender: 2
+    name: Men's Exoplanets Hunter Cap
   Men's YC119 Yoiul Festival Cap:
     Gender: 2
+    name: Men's YC119 Yoiul Festival Cap
   Men's ‘Defender’ Beret (Gallente Federation):
     Gender: 1
+    name: Men's ‘Defender’ Beret (Gallente Federation)
   Men's ‘Liberator’ Beret (Minmatar Republic):
     Gender: 1
+    name: Men's ‘Liberator’ Beret (Minmatar Republic)
   Men's ‘Protector’ Beret (Caldari State):
     Gender: 1
+    name: Men's ‘Protector’ Beret (Caldari State)
   Men’s ‘Crusader’ Beret (Amarr Empire):
     Gender: 1
+    name: Men’s ‘Crusader’ Beret (Amarr Empire)
   Short Pixie Hair:
     Gender: 3
+    name: Short Pixie Hair
   Women's 'Aeriform' Headwear (black):
     Gender: 3
+    name: Women's 'Aeriform' Headwear (black)
   Women's 'Aeriform' Headwear (blue):
     Gender: 3
+    name: Women's 'Aeriform' Headwear (blue)
   Women's 'Aeriform' Headwear (clear):
     Gender: 3
+    name: Women's 'Aeriform' Headwear (clear)
   Women's 'Aeriform' Headwear (cyan):
     Gender: 3
+    name: Women's 'Aeriform' Headwear (cyan)
   Women's 'Aeriform' Headwear (orange):
     Gender: 3
+    name: Women's 'Aeriform' Headwear (orange)
   Women's 'Blades' Headwear (black):
     Gender: 3
+    name: Women's 'Blades' Headwear (black)
   Women's 'Blades' Headwear (gold):
     Gender: 3
+    name: Women's 'Blades' Headwear (gold)
   Women's 'Blades' Headwear (gunmetal):
     Gender: 3
+    name: Women's 'Blades' Headwear (gunmetal)
   Women's 'Blades' Headwear (jade):
     Gender: 3
+    name: Women's 'Blades' Headwear (jade)
   Women's 'Blades' Headwear (platinum):
     Gender: 3
+    name: Women's 'Blades' Headwear (platinum)
   Women's 'Boarder' Cap (Digital Camo):
     Gender: 3
+    name: Women's 'Boarder' Cap (Digital Camo)
   Women's 'Crusader' Beret (Amarr Empire):
     Gender: 3
+    name: Women's 'Crusader' Beret (Amarr Empire)
   Women's 'Dread' Beret (Guristas):
     Gender: 3
+    name: Women's 'Dread' Beret (Guristas)
   Women's 'Pithum' Beret (Guristas):
     Gender: 3
+    name: Women's 'Pithum' Beret (Guristas)
   Women's 'Sable' Cap (Black):
     Gender: 2
+    name: Women's 'Sable' Cap (Black)
   Women's 'Spiderweb' Headwear (black):
     Gender: 3
+    name: Women's 'Spiderweb' Headwear (black)
   Women's 'Spiderweb' Headwear (copper):
     Gender: 3
+    name: Women's 'Spiderweb' Headwear (copper)
   Women's 'Spiderweb' Headwear (golden):
     Gender: 3
+    name: Women's 'Spiderweb' Headwear (golden)
   Women's 'Spiderweb' Headwear (metallic):
     Gender: 3
+    name: Women's 'Spiderweb' Headwear (metallic)
   Women's Beret (Blood Raiders):
     Gender: 3
+    name: Women's Beret (Blood Raiders)
   Women's Cap (Blood Raiders):
     Gender: 3
+    name: Women's Cap (Blood Raiders)
   Women's Exoplanets Hunter Cap:
     Gender: 2
+    name: Women's Exoplanets Hunter Cap
   Women's YC119 Yoiul Festival Cap:
     Gender: 2
+    name: Women's YC119 Yoiul Festival Cap
   Women's ‘Defender’ Beret (Gallente Federation):
     Gender: 3
+    name: Women's ‘Defender’ Beret (Gallente Federation)
   Women's ‘Liberator’ Beret (Minmatar Republic):
     Gender: 3
+    name: Women's ‘Liberator’ Beret (Minmatar Republic)
   Women's ‘Protector’ Beret (Caldari State):
     Gender: 3
+    name: Women's ‘Protector’ Beret (Caldari State)
   hair/Hair_Medium_Hp_01/Types/Hair_Medium_Hp_01_Simple.type:
     Gender: 3
+    name: hair/Hair_Medium_Hp_01/Types/Hair_Medium_Hp_01_Simple.type

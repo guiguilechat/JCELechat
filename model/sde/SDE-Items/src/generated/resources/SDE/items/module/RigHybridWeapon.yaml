@@ -7,6 +7,7 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 50
+    name: Capital Algid Hybrid Administrations Unit I
   Capital Algid Hybrid Administrations Unit II:
     CpuNeedBonus: -15
     Drawback: 10
@@ -16,6 +17,7 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 75
+    name: Capital Algid Hybrid Administrations Unit II
   Capital Hybrid Ambit Extension I:
     Drawback: 10
     FalloffBonus: 15.0
@@ -24,6 +26,7 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    name: Capital Hybrid Ambit Extension I
   Capital Hybrid Ambit Extension II:
     Drawback: 10
     FalloffBonus: 20.0
@@ -33,6 +36,7 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    name: Capital Hybrid Ambit Extension II
   Capital Hybrid Burst Aerator I:
     Drawback: 10
     Hp: 40
@@ -40,6 +44,7 @@ items:
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
     UpgradeCost: 200
+    name: Capital Hybrid Burst Aerator I
   Capital Hybrid Burst Aerator II:
     Drawback: 10
     Hp: 40
@@ -48,6 +53,7 @@ items:
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
     UpgradeCost: 300
+    name: Capital Hybrid Burst Aerator II
   Capital Hybrid Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
@@ -56,6 +62,7 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 200
+    name: Capital Hybrid Collision Accelerator I
   Capital Hybrid Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
@@ -65,6 +72,7 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 300
+    name: Capital Hybrid Collision Accelerator II
   Capital Hybrid Discharge Elutriation I:
     CapNeedBonus: -20
     Drawback: 10
@@ -73,6 +81,7 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    name: Capital Hybrid Discharge Elutriation I
   Capital Hybrid Discharge Elutriation II:
     CapNeedBonus: -25
     Drawback: 10
@@ -82,6 +91,7 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    name: Capital Hybrid Discharge Elutriation II
   Capital Hybrid Locus Coordinator I:
     Drawback: 10
     Hp: 40
@@ -91,6 +101,7 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    name: Capital Hybrid Locus Coordinator I
   Capital Hybrid Locus Coordinator II:
     Drawback: 10
     Hp: 40
@@ -101,6 +112,7 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    name: Capital Hybrid Locus Coordinator II
   Capital Hybrid Metastasis Adjuster I:
     Drawback: 10
     Hp: 40
@@ -110,6 +122,7 @@ items:
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Capital Hybrid Metastasis Adjuster I
   Capital Hybrid Metastasis Adjuster II:
     Drawback: 10
     Hp: 40
@@ -120,6 +133,7 @@ items:
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Capital Hybrid Metastasis Adjuster II
   Large Algid Hybrid Administrations Unit I:
     CpuNeedBonus: -10
     DamageMultiplier: 1.0
@@ -131,6 +145,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 50
+    name: Large Algid Hybrid Administrations Unit I
   Large Algid Hybrid Administrations Unit II:
     CpuNeedBonus: -15
     DamageMultiplier: 1.0
@@ -143,6 +158,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 75
+    name: Large Algid Hybrid Administrations Unit II
   Large Hybrid Ambit Extension I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -153,6 +169,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Large Hybrid Ambit Extension I
   Large Hybrid Ambit Extension II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -164,6 +181,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Large Hybrid Ambit Extension II
   Large Hybrid Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -174,6 +192,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    name: Large Hybrid Burst Aerator I
   Large Hybrid Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -185,6 +204,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    name: Large Hybrid Burst Aerator II
   Large Hybrid Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
@@ -195,6 +215,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    name: Large Hybrid Collision Accelerator I
   Large Hybrid Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
@@ -206,6 +227,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    name: Large Hybrid Collision Accelerator II
   Large Hybrid Discharge Elutriation I:
     CapNeedBonus: -20
     DamageMultiplier: 1.0
@@ -217,6 +239,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Large Hybrid Discharge Elutriation I
   Large Hybrid Discharge Elutriation II:
     CapNeedBonus: -25
     DamageMultiplier: 1.0
@@ -229,6 +252,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Large Hybrid Discharge Elutriation II
   Large Hybrid Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -240,6 +264,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Large Hybrid Locus Coordinator I
   Large Hybrid Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -252,6 +277,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Large Hybrid Locus Coordinator II
   Large Hybrid Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -263,6 +289,7 @@ items:
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Large Hybrid Metastasis Adjuster I
   Large Hybrid Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -275,6 +302,7 @@ items:
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Large Hybrid Metastasis Adjuster II
   Medium Algid Hybrid Administrations Unit I:
     CpuNeedBonus: -10
     DamageMultiplier: 1.0
@@ -286,6 +314,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 50
+    name: Medium Algid Hybrid Administrations Unit I
   Medium Algid Hybrid Administrations Unit II:
     CpuNeedBonus: -15
     DamageMultiplier: 1.0
@@ -298,6 +327,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 75
+    name: Medium Algid Hybrid Administrations Unit II
   Medium Hybrid Ambit Extension I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -309,6 +339,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Medium Hybrid Ambit Extension I
   Medium Hybrid Ambit Extension II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -321,6 +352,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Medium Hybrid Ambit Extension II
   Medium Hybrid Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -331,6 +363,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    name: Medium Hybrid Burst Aerator I
   Medium Hybrid Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -342,6 +375,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    name: Medium Hybrid Burst Aerator II
   Medium Hybrid Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
@@ -352,6 +386,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    name: Medium Hybrid Collision Accelerator I
   Medium Hybrid Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
@@ -363,6 +398,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    name: Medium Hybrid Collision Accelerator II
   Medium Hybrid Discharge Elutriation I:
     CapNeedBonus: -20
     DamageMultiplier: 1.0
@@ -374,6 +410,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Medium Hybrid Discharge Elutriation I
   Medium Hybrid Discharge Elutriation II:
     CapNeedBonus: -25
     DamageMultiplier: 1.0
@@ -386,6 +423,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Medium Hybrid Discharge Elutriation II
   Medium Hybrid Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -397,6 +435,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Medium Hybrid Locus Coordinator I
   Medium Hybrid Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -409,6 +448,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Medium Hybrid Locus Coordinator II
   Medium Hybrid Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -420,6 +460,7 @@ items:
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Medium Hybrid Metastasis Adjuster I
   Medium Hybrid Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -432,6 +473,7 @@ items:
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Medium Hybrid Metastasis Adjuster II
   Small Algid Hybrid Administrations Unit I:
     CpuNeedBonus: -10
     DamageMultiplier: 1.0
@@ -443,6 +485,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 50
+    name: Small Algid Hybrid Administrations Unit I
   Small Algid Hybrid Administrations Unit II:
     CpuNeedBonus: -15
     DamageMultiplier: 1.0
@@ -455,6 +498,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 75
+    name: Small Algid Hybrid Administrations Unit II
   Small Hybrid Ambit Extension I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -466,6 +510,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Small Hybrid Ambit Extension I
   Small Hybrid Ambit Extension II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -478,6 +523,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Small Hybrid Ambit Extension II
   Small Hybrid Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -488,6 +534,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    name: Small Hybrid Burst Aerator I
   Small Hybrid Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -499,6 +546,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    name: Small Hybrid Burst Aerator II
   Small Hybrid Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
@@ -509,6 +557,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    name: Small Hybrid Collision Accelerator I
   Small Hybrid Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
@@ -520,6 +569,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    name: Small Hybrid Collision Accelerator II
   Small Hybrid Discharge Elutriation I:
     CapNeedBonus: -20
     DamageMultiplier: 1.0
@@ -531,6 +581,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Small Hybrid Discharge Elutriation I
   Small Hybrid Discharge Elutriation II:
     CapNeedBonus: -25
     DamageMultiplier: 1.0
@@ -543,6 +594,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Small Hybrid Discharge Elutriation II
   Small Hybrid Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -554,6 +606,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Small Hybrid Locus Coordinator I
   Small Hybrid Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -566,6 +619,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Small Hybrid Locus Coordinator II
   Small Hybrid Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -577,6 +631,7 @@ items:
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Small Hybrid Metastasis Adjuster I
   Small Hybrid Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -589,3 +644,4 @@ items:
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Small Hybrid Metastasis Adjuster II

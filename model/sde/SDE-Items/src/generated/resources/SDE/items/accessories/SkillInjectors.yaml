@@ -1,11 +1,16 @@
 items:
   Daily Alpha Injector:
     ContainedSkillPoints: 50000
-  Large Skill Injector: {}
+    name: Daily Alpha Injector
+  Large Skill Injector:
+    name: Large Skill Injector
   Mini Skill Injector:
     ContainedSkillPoints: 25000
     MaxCharacterSkillPointLimit: 1500000
+    name: Mini Skill Injector
   QA Skill Injector:
     ContainedSkillPoints: 150000
     MaxCharacterSkillPointLimit: 5000000
-  Small Skill Injector: {}
+    name: QA Skill Injector
+  Small Skill Injector:
+    name: Small Skill Injector

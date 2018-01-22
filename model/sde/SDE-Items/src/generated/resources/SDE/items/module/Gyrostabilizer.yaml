@@ -10,6 +10,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9300000071525574
     TechLevel: 1
+    name: '''Basic'' Gyrostabilizer'
   '''Kindred'' Gyrostabilizer':
     Cpu: 18.0
     DamageMultiplier: 1.100000023841858
@@ -21,6 +22,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 1
+    name: '''Kindred'' Gyrostabilizer'
   Counterbalanced Compact Gyrostabilizer:
     Cpu: 25.0
     DamageMultiplier: 1.0800000429153442
@@ -31,6 +33,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9049999713897705
     TechLevel: 1
+    name: Counterbalanced Compact Gyrostabilizer
   Cross-Lateral Gyrostabilizer I:
     DamageMultiplier: 1.0770000219345093
     Hp: 40
@@ -40,6 +43,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9175000190734863
     TechLevel: 1
+    name: Cross-Lateral Gyrostabilizer I
   Domination Gyrostabilizer:
     DamageMultiplier: 1.1200000047683716
     Hp: 40
@@ -50,6 +54,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Domination Gyrostabilizer
   F-M2 Weapon Inertial Suspensor:
     DamageMultiplier: 1.059999942779541
     Hp: 40
@@ -58,6 +63,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9399999976158142
     TechLevel: 1
+    name: F-M2 Weapon Inertial Suspensor
   F-M3 Munition Inertial Suspensor:
     DamageMultiplier: 1.0839999914169312
     Hp: 40
@@ -67,6 +73,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9100000262260437
     TechLevel: 1
+    name: F-M3 Munition Inertial Suspensor
   Gotan's Modified Gyrostabilizer:
     DamageMultiplier: 1.1399999856948853
     Hp: 40
@@ -77,6 +84,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Gotan's Modified Gyrostabilizer
   Gyrostabilizer I:
     Cpu: 27.0
     DamageMultiplier: 1.0700000524520874
@@ -86,6 +94,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9200000166893005
     TechLevel: 1
+    name: Gyrostabilizer I
   Gyrostabilizer II:
     DamageMultiplier: 1.100000023841858
     Hp: 40
@@ -95,6 +104,7 @@ items:
     RequiredSkill1Level: 4
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 2
+    name: Gyrostabilizer II
   Hakim's Modified Gyrostabilizer:
     DamageMultiplier: 1.1349999904632568
     Hp: 40
@@ -105,6 +115,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Hakim's Modified Gyrostabilizer
   Hydraulic Stabilization Actuator:
     DamageMultiplier: 1.065000057220459
     Hp: 40
@@ -113,6 +124,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9350000023841858
     TechLevel: 1
+    name: Hydraulic Stabilization Actuator
   Lateral Gyrostabilizer:
     DamageMultiplier: 1.0549999475479126
     Hp: 40
@@ -121,6 +133,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9449999928474426
     TechLevel: 1
+    name: Lateral Gyrostabilizer
   Mizuro's Modified Gyrostabilizer:
     DamageMultiplier: 1.1299999952316284
     Hp: 40
@@ -131,6 +144,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Mizuro's Modified Gyrostabilizer
   Monophonic Stabilization Actuator I:
     DamageMultiplier: 1.100000023841858
     Hp: 40
@@ -141,6 +155,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.925000011920929
     TechLevel: 1
+    name: Monophonic Stabilization Actuator I
   Pneumatic Stabilization Actuator I:
     DamageMultiplier: 1.090999960899353
     Hp: 40
@@ -150,6 +165,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9024999737739563
     TechLevel: 1
+    name: Pneumatic Stabilization Actuator I
   Republic Fleet Gyrostabilizer:
     DamageMultiplier: 1.1200000047683716
     Hp: 40
@@ -160,6 +176,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Republic Fleet Gyrostabilizer
   Shaqil's Modified Gyrostabilizer:
     DamageMultiplier: 1.149999976158142
     Hp: 40
@@ -170,6 +187,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 1
+    name: Shaqil's Modified Gyrostabilizer
   Stabilized Weapon Mounts:
     DamageMultiplier: 1.0700000524520874
     Hp: 40
@@ -178,6 +196,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9300000071525574
     TechLevel: 1
+    name: Stabilized Weapon Mounts
   Tobias' Modified Gyrostabilizer:
     DamageMultiplier: 1.1449999809265137
     Hp: 40
@@ -188,6 +207,7 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Tobias' Modified Gyrostabilizer
   Vadari's Custom Gyrostabilizer:
     Cpu: 29.0
     DamageMultiplier: 1.100000023841858
@@ -199,3 +219,4 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
+    name: Vadari's Custom Gyrostabilizer

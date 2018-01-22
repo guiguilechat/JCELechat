@@ -7,6 +7,7 @@ items:
     RequiredSkill1Level: 3
     ShieldRechargeRateMultiplier: 0.8849999904632568
     TechLevel: 1
+    name: '''Benefactor'' Ward Reconstructor'
   M51 Benefactor Compact Shield Recharger:
     Hp: 40
     MetaLevel: 1
@@ -15,6 +16,7 @@ items:
     RequiredSkill1Level: 3
     ShieldRechargeRateMultiplier: 0.875
     TechLevel: 1
+    name: M51 Benefactor Compact Shield Recharger
   Passive Barrier Compensator I:
     Hp: 40
     MetaLevel: 1
@@ -23,6 +25,7 @@ items:
     RequiredSkill1Level: 3
     ShieldRechargeRateMultiplier: 0.8949999809265137
     TechLevel: 1
+    name: Passive Barrier Compensator I
   Republic Fleet Shield Recharger:
     Cpu: 25.0
     Hp: 40
@@ -33,6 +36,7 @@ items:
     RequiredSkill1Level: 3
     ShieldRechargeRateMultiplier: 0.8399999737739563
     TechLevel: 1
+    name: Republic Fleet Shield Recharger
   Shield Recharger I:
     Hp: 40
     Power: 1
@@ -40,6 +44,7 @@ items:
     RequiredSkill1Level: 3
     ShieldRechargeRateMultiplier: 0.8999999761581421
     TechLevel: 1
+    name: Shield Recharger I
   Shield Recharger II:
     Hp: 40
     MetaLevel: 5
@@ -48,6 +53,7 @@ items:
     RequiredSkill1Level: 4
     ShieldRechargeRateMultiplier: 0.8500000238418579
     TechLevel: 2
+    name: Shield Recharger II
   Supplemental Screen Generator I:
     Hp: 40
     MetaLevel: 2
@@ -56,3 +62,4 @@ items:
     RequiredSkill1Level: 3
     ShieldRechargeRateMultiplier: 0.8899999856948853
     TechLevel: 1
+    name: Supplemental Screen Generator I

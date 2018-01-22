@@ -10,6 +10,7 @@ items:
     SpeedFactorBonusBonus: -100
     TechLevel: 1
     WarpScrambleRangeBonus: 50
+    name: Focused Warp Disruption Script
   Focused Warp Scrambling Script:
     CapNeedBonus: -60
     DurationBonus: -80
@@ -21,3 +22,4 @@ items:
     SpeedFactorBonusBonus: -100
     TechLevel: 1
     WarpScrambleRangeBonus: -20
+    name: Focused Warp Scrambling Script

@@ -7,6 +7,7 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    name: Compressed Fiery Kernite
   Compressed Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -15,6 +16,7 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    name: Compressed Kernite
   Compressed Luminous Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -23,6 +25,7 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    name: Compressed Luminous Kernite
   Compressed Resplendant Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
@@ -31,6 +34,7 @@ items:
     OreBasicType: 46683
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    name: Compressed Resplendant Kernite
   Fiery Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -41,6 +45,7 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    name: Fiery Kernite
   Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -51,6 +56,7 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    name: Kernite
   Luminous Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -61,6 +67,7 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    name: Luminous Kernite
   Lyavite:
     AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
@@ -68,6 +75,7 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    name: Lyavite
   Resplendant Kernite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -78,3 +86,4 @@ items:
     OreBasicType: 46683
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    name: Resplendant Kernite

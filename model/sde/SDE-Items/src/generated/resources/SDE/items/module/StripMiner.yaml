@@ -14,6 +14,7 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    name: Ice Harvester I
   Ice Harvester II:
     CanFitShipGroup01: 463
     CanFitShipGroup02: 543
@@ -30,6 +31,7 @@ items:
     TargetGroup: 11
     TechLevel: 2
     TypeColorScheme: 11347
+    name: Ice Harvester II
   ORE Ice Harvester:
     CanFitShipGroup01: 463
     CanFitShipGroup02: 543
@@ -47,6 +49,7 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    name: ORE Ice Harvester
   ORE Strip Miner:
     CanFitShipGroup01: 463
     CanFitShipGroup02: 543
@@ -64,6 +67,7 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    name: ORE Strip Miner
   Strip Miner I:
     CanFitShipGroup01: 463
     CanFitShipGroup02: 543
@@ -79,3 +83,4 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    name: Strip Miner I

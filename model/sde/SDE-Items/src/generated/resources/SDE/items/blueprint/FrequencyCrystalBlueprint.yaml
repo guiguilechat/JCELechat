@@ -1,69 +1,103 @@
 items:
   Gamma L Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Gamma L Blueprint
   Gamma M Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Gamma M Blueprint
   Gamma S Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Gamma S Blueprint
   Gamma XL Blueprint:
     IndustryBlueprintRank: 4.0
+    name: Gamma XL Blueprint
   Imperial Navy Multifrequency S Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Imperial Navy Multifrequency S Blueprint
   Infrared L Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Infrared L Blueprint
   Infrared M Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Infrared M Blueprint
   Infrared S Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Infrared S Blueprint
   Infrared XL Blueprint:
     IndustryBlueprintRank: 4.0
+    name: Infrared XL Blueprint
   Microwave L Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Microwave L Blueprint
   Microwave M Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Microwave M Blueprint
   Microwave S Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Microwave S Blueprint
   Microwave XL Blueprint:
     IndustryBlueprintRank: 4.0
+    name: Microwave XL Blueprint
   Multifrequency L Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Multifrequency L Blueprint
   Multifrequency M Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Multifrequency M Blueprint
   Multifrequency S Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Multifrequency S Blueprint
   Multifrequency XL Blueprint:
     IndustryBlueprintRank: 4.0
+    name: Multifrequency XL Blueprint
   Orbital Laser S Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Orbital Laser S Blueprint
   Radio L Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Radio L Blueprint
   Radio M Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Radio M Blueprint
   Radio S Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Radio S Blueprint
   Radio XL Blueprint:
     IndustryBlueprintRank: 4.0
+    name: Radio XL Blueprint
   Standard L Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Standard L Blueprint
   Standard M Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Standard M Blueprint
   Standard S Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Standard S Blueprint
   Standard XL Blueprint:
     IndustryBlueprintRank: 4.0
+    name: Standard XL Blueprint
   Ultraviolet L Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Ultraviolet L Blueprint
   Ultraviolet M Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Ultraviolet M Blueprint
   Ultraviolet S Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Ultraviolet S Blueprint
   Ultraviolet XL Blueprint:
     IndustryBlueprintRank: 4.0
+    name: Ultraviolet XL Blueprint
   Xray L Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Xray L Blueprint
   Xray M Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Xray M Blueprint
   Xray S Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Xray S Blueprint
   Xray XL Blueprint:
     IndustryBlueprintRank: 4.0
+    name: Xray XL Blueprint

@@ -1,23 +1,45 @@
 items:
-  Dread Pith Conquistador: {}
-  Dread Pith Destroyer: {}
-  Dread Pith Dismantler: {}
-  Dread Pith Eliminator: {}
-  Dread Pith Eradicator: {}
-  Dread Pith Exterminator: {}
-  Dread Pith Extinguisher: {}
-  Dread Pith Massacrer: {}
-  Dread Pith Obliterator: {}
-  Dread Pith Usurper: {}
-  Guristas Battleship Vessel: {}
-  Pith Conquistador: {}
-  Pith Defender: {}
-  Pith Destroyer: {}
-  Pith Dismantler: {}
-  Pith Eliminator: {}
-  Pith Eradicator: {}
-  Pith Exterminator: {}
-  Pith Extinguisher: {}
-  Pith Massacrer: {}
-  Pith Obliterator: {}
-  Pith Usurper: {}
+  Dread Pith Conquistador:
+    name: Dread Pith Conquistador
+  Dread Pith Destroyer:
+    name: Dread Pith Destroyer
+  Dread Pith Dismantler:
+    name: Dread Pith Dismantler
+  Dread Pith Eliminator:
+    name: Dread Pith Eliminator
+  Dread Pith Eradicator:
+    name: Dread Pith Eradicator
+  Dread Pith Exterminator:
+    name: Dread Pith Exterminator
+  Dread Pith Extinguisher:
+    name: Dread Pith Extinguisher
+  Dread Pith Massacrer:
+    name: Dread Pith Massacrer
+  Dread Pith Obliterator:
+    name: Dread Pith Obliterator
+  Dread Pith Usurper:
+    name: Dread Pith Usurper
+  Guristas Battleship Vessel:
+    name: Guristas Battleship Vessel
+  Pith Conquistador:
+    name: Pith Conquistador
+  Pith Defender:
+    name: Pith Defender
+  Pith Destroyer:
+    name: Pith Destroyer
+  Pith Dismantler:
+    name: Pith Dismantler
+  Pith Eliminator:
+    name: Pith Eliminator
+  Pith Eradicator:
+    name: Pith Eradicator
+  Pith Exterminator:
+    name: Pith Exterminator
+  Pith Extinguisher:
+    name: Pith Extinguisher
+  Pith Massacrer:
+    name: Pith Massacrer
+  Pith Obliterator:
+    name: Pith Obliterator
+  Pith Usurper:
+    name: Pith Usurper

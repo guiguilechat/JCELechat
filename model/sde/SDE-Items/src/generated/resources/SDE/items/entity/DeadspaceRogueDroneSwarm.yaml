@@ -1,13 +1,25 @@
 items:
-  Arachula Apis: {}
-  Asmodeus Apis: {}
-  Beelzebub Apis: {}
-  Belphegor Apis: {}
-  Dragonfly Apis: {}
-  Incubus Apis: {}
-  Malphas Apis: {}
-  Mammon Apis: {}
-  Moth Apis: {}
-  Scorpionfly Apis: {}
-  Tarantula Apis: {}
-  Termite Apis: {}
+  Arachula Apis:
+    name: Arachula Apis
+  Asmodeus Apis:
+    name: Asmodeus Apis
+  Beelzebub Apis:
+    name: Beelzebub Apis
+  Belphegor Apis:
+    name: Belphegor Apis
+  Dragonfly Apis:
+    name: Dragonfly Apis
+  Incubus Apis:
+    name: Incubus Apis
+  Malphas Apis:
+    name: Malphas Apis
+  Mammon Apis:
+    name: Mammon Apis
+  Moth Apis:
+    name: Moth Apis
+  Scorpionfly Apis:
+    name: Scorpionfly Apis
+  Tarantula Apis:
+    name: Tarantula Apis
+  Termite Apis:
+    name: Termite Apis

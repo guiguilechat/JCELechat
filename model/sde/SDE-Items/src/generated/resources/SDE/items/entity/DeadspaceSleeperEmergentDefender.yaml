@@ -1,4 +1,7 @@
 items:
-  Emergent Defender: {}
-  Emergent Preserver: {}
-  Emergent Upholder: {}
+  Emergent Defender:
+    name: Emergent Defender
+  Emergent Preserver:
+    name: Emergent Preserver
+  Emergent Upholder:
+    name: Emergent Upholder

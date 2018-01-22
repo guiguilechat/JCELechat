@@ -1,7 +1,10 @@
 items:
   Structure Ad Post:
     CanFitShipGroup01: 1657
+    name: Structure Ad Post
   Structure Billboard:
     CanFitShipGroup01: 1657
+    name: Structure Billboard
   Structure Monument:
     CanFitShipGroup01: 1657
+    name: Structure Monument

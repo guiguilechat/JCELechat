@@ -2,72 +2,96 @@ items:
   Biocells:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Biocells
   Construction Blocks:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Construction Blocks
   Consumer Electronics:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Consumer Electronics
   Coolant:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Coolant
   Enriched Uranium:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Enriched Uranium
   Fertilizer:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Fertilizer
   Genetically Enhanced Livestock:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Genetically Enhanced Livestock
   Livestock:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Livestock
   Mechanical Parts:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Mechanical Parts
   Microfiber Shielding:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Microfiber Shielding
   Miniature Electronics:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Miniature Electronics
   Nanites:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Nanites
   Oxides:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Oxides
   Polyaramids:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Polyaramids
   Polytextiles:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Polytextiles
   Rocket Fuel:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Rocket Fuel
   Silicate Glass:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Silicate Glass
   Superconductors:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Superconductors
   Supertensile Plastics:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Supertensile Plastics
   Synthetic Oil:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Synthetic Oil
   Test Cultures:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Test Cultures
   Transmitter:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Transmitter
   Viral Agent:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Viral Agent
   Water-Cooled CPU:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    name: Water-Cooled CPU

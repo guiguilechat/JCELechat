@@ -1,28 +1,55 @@
 items:
-  Crook Agent: {}
-  Crook Defender: {}
-  Crook Guard: {}
-  Crook Patroller: {}
-  Crook Protector: {}
-  Crook Safeguard: {}
-  Crook Spy: {}
-  Crook Watchman: {}
-  Guardian Agent: {}
-  Guardian Defender: {}
-  Guardian Guard: {}
-  Guardian Initiate: {}
-  Guardian Patroller: {}
-  Guardian Protector: {}
-  Guardian Safeguard: {}
-  Guardian Scout: {}
-  Guardian Spy: {}
-  Guardian Watchman: {}
-  Serpentis Agent: {}
-  Serpentis Defender: {}
-  Serpentis Initiate: {}
-  Serpentis Patroller: {}
-  Serpentis Protector: {}
-  Serpentis Safeguard: {}
-  Serpentis Scout: {}
-  Serpentis Spy: {}
-  Serpentis Watchman: {}
+  Crook Agent:
+    name: Crook Agent
+  Crook Defender:
+    name: Crook Defender
+  Crook Guard:
+    name: Crook Guard
+  Crook Patroller:
+    name: Crook Patroller
+  Crook Protector:
+    name: Crook Protector
+  Crook Safeguard:
+    name: Crook Safeguard
+  Crook Spy:
+    name: Crook Spy
+  Crook Watchman:
+    name: Crook Watchman
+  Guardian Agent:
+    name: Guardian Agent
+  Guardian Defender:
+    name: Guardian Defender
+  Guardian Guard:
+    name: Guardian Guard
+  Guardian Initiate:
+    name: Guardian Initiate
+  Guardian Patroller:
+    name: Guardian Patroller
+  Guardian Protector:
+    name: Guardian Protector
+  Guardian Safeguard:
+    name: Guardian Safeguard
+  Guardian Scout:
+    name: Guardian Scout
+  Guardian Spy:
+    name: Guardian Spy
+  Guardian Watchman:
+    name: Guardian Watchman
+  Serpentis Agent:
+    name: Serpentis Agent
+  Serpentis Defender:
+    name: Serpentis Defender
+  Serpentis Initiate:
+    name: Serpentis Initiate
+  Serpentis Patroller:
+    name: Serpentis Patroller
+  Serpentis Protector:
+    name: Serpentis Protector
+  Serpentis Safeguard:
+    name: Serpentis Safeguard
+  Serpentis Scout:
+    name: Serpentis Scout
+  Serpentis Spy:
+    name: Serpentis Spy
+  Serpentis Watchman:
+    name: Serpentis Watchman

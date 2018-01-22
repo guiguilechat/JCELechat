@@ -2,63 +2,84 @@ items:
   Ammatar Navy Heavy Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Ammatar Navy Heavy Energy Neutralizer Blueprint
   Ammatar Navy Medium Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Ammatar Navy Medium Energy Neutralizer Blueprint
   Ammatar Navy Small Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ammatar Navy Small Energy Neutralizer Blueprint
   Capital Energy Neutralizer I Blueprint:
     IndustryBlueprintRank: 150.0
     TechLevel: 1
+    name: Capital Energy Neutralizer I Blueprint
   Capital Energy Neutralizer II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
+    name: Capital Energy Neutralizer II Blueprint
   Capital Gremlin Compact Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Capital Gremlin Compact Energy Neutralizer Blueprint
   Capital Infectious Scoped Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Capital Infectious Scoped Energy Neutralizer Blueprint
   Dark Blood Capital Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 400.0
     TechLevel: 1
+    name: Dark Blood Capital Energy Neutralizer Blueprint
   Heavy 'Moat' Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Heavy 'Moat' Energy Neutralizer Blueprint
   Heavy Energy Neutralizer I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Heavy Energy Neutralizer I Blueprint
   Heavy Energy Neutralizer II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Heavy Energy Neutralizer II Blueprint
   Imperial Navy Heavy Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Imperial Navy Heavy Energy Neutralizer Blueprint
   Imperial Navy Medium Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Imperial Navy Medium Energy Neutralizer Blueprint
   Imperial Navy Small Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Imperial Navy Small Energy Neutralizer Blueprint
   Medium 'Ditch' Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium 'Ditch' Energy Neutralizer Blueprint
   Medium Energy Neutralizer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium Energy Neutralizer I Blueprint
   Medium Energy Neutralizer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Medium Energy Neutralizer II Blueprint
   Small 'Caltrop' Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small 'Caltrop' Energy Neutralizer Blueprint
   Small Energy Neutralizer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Energy Neutralizer I Blueprint
   Small Energy Neutralizer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Energy Neutralizer II Blueprint
   True Sansha Capital Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 400.0
     TechLevel: 1
+    name: True Sansha Capital Energy Neutralizer Blueprint

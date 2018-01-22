@@ -1,4 +1,7 @@
 items:
-  Enhanced Training Drone: {}
-  Rogue Drone: {}
-  Training Drone: {}
+  Enhanced Training Drone:
+    name: Enhanced Training Drone
+  Rogue Drone:
+    name: Rogue Drone
+  Training Drone:
+    name: Training Drone

@@ -9,6 +9,7 @@ items:
     OreBasicType: 18
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    name: Azure Plagioclase
   Compressed Azure Plagioclase:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -17,6 +18,7 @@ items:
     OreBasicType: 18
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    name: Compressed Azure Plagioclase
   Compressed Plagioclase:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -25,6 +27,7 @@ items:
     OreBasicType: 18
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    name: Compressed Plagioclase
   Compressed Rich Plagioclase:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -33,6 +36,7 @@ items:
     OreBasicType: 18
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    name: Compressed Rich Plagioclase
   Compressed Sparkling Plagioclase:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
@@ -41,6 +45,7 @@ items:
     OreBasicType: 46685
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    name: Compressed Sparkling Plagioclase
   Plagioclase:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -51,6 +56,7 @@ items:
     OreBasicType: 18
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    name: Plagioclase
   Rich Plagioclase:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -61,6 +67,7 @@ items:
     OreBasicType: 18
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    name: Rich Plagioclase
   Sparkling Plagioclase:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -71,3 +78,4 @@ items:
     OreBasicType: 46685
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
+    name: Sparkling Plagioclase

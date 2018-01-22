@@ -1,136 +1,271 @@
 items:
-  Akkeshu's Storage Facility: {}
-  Altar of the Blessed: {}
-  Amarr Battlestation: {}
-  Angel Battlestation: {}
-  Angel Control Center: {}
-  Angel Information Center: {}
-  Angel Radiating Telescope: {}
-  Angels Retirement Home: {}
-  Assembly Management HQ: {}
-  Asteroid Colony: {}
-  Asteroid Deadspace Mining Post: {}
-  Asteroid Station: {}
-  Barou Lardoss's Iteron: {}
-  Barricaded Warehouse: {}
-  Bastion Museum: {}
-  Biodome Gardens: {}
-  Blasted Neon Sign_mission: {}
-  Blood Kernel: {}
-  Blood Raider Chapel: {}
-  Blood Raider Control Center: {}
-  Blood Research Outpost: {}
-  Brothel: {}
-  COSMOS Storage Silo: {}
-  Caldari Broadcasting Unit: {}
-  Caldari Research Outpost: {}
-  Captive Fighting Arena: {}
-  Cartel Research Outpost: {}
-  Centus Reprocessing Station: {}
-  ComLink Scanner: {}
-  Core Serpentis Operational Headquarters: {}
-  Core Serpentis Sentry: {}
-  Cracked Hive Mind Cage: {}
-  CreoCorp Main Factory: {}
-  Damaged Portal: {}
-  Deadspace Control Station: {}
-  Deadspace Synchronization HQ: {}
-  Decloaked Transmission Relay: {}
-  Deserted Nefantar Bunker: {}
-  Deserted Starbase Storage Facility: {}
-  Dewak's First Officer's HQ: {}
-  Docked & Loaded Mammoth: {}
-  Drug Storage Facility: {}
-  Dry River Warehouse: {}
-  Dysfunctional Raid Drone: {}
-  Elere Febre's Habitation module: {}
-  Expeditionary Storage Facility: {}
-  FON Operation Station: {}
-  Flimsy Pirate Base: {}
-  Force Repeller Relic: {}
-  Gallente Miner: {}
-  Gardan's Fantasy Complex: {}
-  Gas/Storage Silo: {}
-  Gate Security: {}
-  General Lafema: {}
-  General Minas Iksan: {}
-  Generator Building: {}
-  Gisti Repair Station: {}
-  Guristas Bunker_MISSION: {}
-  Guristas Control Center: {}
-  Guristas Research Outpost: {}
-  Guristas Starbase Control Tower: {}
-  Guristas War Installation: {}
-  Guristas_Small Armory: {}
-  Habitation Module: {}
-  Habitation Module - Tsuna's Science Labs: {}
-  Hiding Hole: {}
-  Hive Under Construction: {}
-  Industrial Derelict: {}
-  Infested station ruins: {}
-  Inner Sanctum: {}
-  Kameira Quarters: {}
-  Kazka Brothel: {}
-  Lephny's Mining Post: {}
-  Low-Tech Deadspace Energy Harvester: {}
-  Megathron under frantic repair: {}
-  Metal Scraps In Storage: {}
-  Minmatar Command Post: {}
-  Minmatar Starbase Control Tower: {}
-  Non-Secured Asteroid Colony: {}
-  Officers Quarters: {}
-  Oggiin Kalda's Residence: {}
-  Okelle's Pleasure Hub: {}
-  Old Nefantar Bunker: {}
-  Oofus's Repair Shop: {}
-  Overseer's Stash: {}
-  Pagera Manton: {}
-  Pend Insurance Storage Bin: {}
-  Pirate Headquarters: {}
-  Radiating Telescope: {}
-  Radio Telescope: {}
-  Refitted Bestower: {}
-  Rent-A-Dream Pleasure Gardens: {}
-  Runner's Relay Station: {}
-  Sansha Control Center: {}
-  Sansha Deadspace Outpost: {}
-  Sansha Outpost Administration Building: {}
-  Sansha Research Outpost: {}
-  Scanner Post: {}
-  Scanner Tower: {}
-  Scramble Wave Generator: {}
-  Sentry Station Alpha/Beta: {}
-  Serpentis Bunker: {}
-  Serpentis Command Outpost: {}
-  Serpentis Control Center: {}
-  Serpentis Narcotics Storage: {}
-  Serpentis Repackaging Factory: {}
-  Serpentis Research Outpost: {}
-  Serpentis Stronghold: {}
-  Serpentis Supply Stronghold: {}
-  Shattered Hive Mind Cage: {}
-  Shielded Prison Facility: {}
-  Sispur Estate Control Tower: {}
-  Slaver Rig Control Tower: {}
-  Small Rebel Base: {}
-  Special Forces Command Post: {}
-  Staff Quarters: {}
-  Starbase Major Assembly Array: {}
-  Starbase Storage Facility: {}
-  Stargate under construction and repair: {}
-  Storage Silo: {}
-  Strain Operation Bunker: {}
-  Subspace Data Miner: {}
-  Supply Traffic Management: {}
-  Temple of the Revelation: {}
-  The Damsels Wimpy Brothel: {}
-  The Damsels Wimpy Prison: {}
-  Thorak's Biodome Garden: {}
-  Thukker Component Assembly Facility: {}
-  UNUSED_CargoRig_LCS_DL1_DCP1: {}
-  UNUSED_Gist_Battlestation_LCS_ID31_DL1_DCP1: {}
-  UNUSED_Gist_Bunker_LCS_ID104_DL5_DCP1: {}
-  UNUSED_HabMod_Residential_LCS: {}
-  Unstable Particle Acceleration Superstructure: {}
-  Wiyrkomi Surveillance Outpost: {}
-  Yan Jung Gargoyle: {}
+  Akkeshu's Storage Facility:
+    name: Akkeshu's Storage Facility
+  Altar of the Blessed:
+    name: Altar of the Blessed
+  Amarr Battlestation:
+    name: Amarr Battlestation
+  Angel Battlestation:
+    name: Angel Battlestation
+  Angel Control Center:
+    name: Angel Control Center
+  Angel Information Center:
+    name: Angel Information Center
+  Angel Radiating Telescope:
+    name: Angel Radiating Telescope
+  Angels Retirement Home:
+    name: Angels Retirement Home
+  Assembly Management HQ:
+    name: Assembly Management HQ
+  Asteroid Colony:
+    name: Asteroid Colony
+  Asteroid Deadspace Mining Post:
+    name: Asteroid Deadspace Mining Post
+  Asteroid Station:
+    name: Asteroid Station
+  Barou Lardoss's Iteron:
+    name: Barou Lardoss's Iteron
+  Barricaded Warehouse:
+    name: Barricaded Warehouse
+  Bastion Museum:
+    name: Bastion Museum
+  Biodome Gardens:
+    name: Biodome Gardens
+  Blasted Neon Sign_mission:
+    name: Blasted Neon Sign_mission
+  Blood Kernel:
+    name: Blood Kernel
+  Blood Raider Chapel:
+    name: Blood Raider Chapel
+  Blood Raider Control Center:
+    name: Blood Raider Control Center
+  Blood Research Outpost:
+    name: Blood Research Outpost
+  Brothel:
+    name: Brothel
+  COSMOS Storage Silo:
+    name: COSMOS Storage Silo
+  Caldari Broadcasting Unit:
+    name: Caldari Broadcasting Unit
+  Caldari Research Outpost:
+    name: Caldari Research Outpost
+  Captive Fighting Arena:
+    name: Captive Fighting Arena
+  Cartel Research Outpost:
+    name: Cartel Research Outpost
+  Centus Reprocessing Station:
+    name: Centus Reprocessing Station
+  ComLink Scanner:
+    name: ComLink Scanner
+  Core Serpentis Operational Headquarters:
+    name: Core Serpentis Operational Headquarters
+  Core Serpentis Sentry:
+    name: Core Serpentis Sentry
+  Cracked Hive Mind Cage:
+    name: Cracked Hive Mind Cage
+  CreoCorp Main Factory:
+    name: CreoCorp Main Factory
+  Damaged Portal:
+    name: Damaged Portal
+  Deadspace Control Station:
+    name: Deadspace Control Station
+  Deadspace Synchronization HQ:
+    name: Deadspace Synchronization HQ
+  Decloaked Transmission Relay:
+    name: Decloaked Transmission Relay
+  Deserted Nefantar Bunker:
+    name: Deserted Nefantar Bunker
+  Deserted Starbase Storage Facility:
+    name: Deserted Starbase Storage Facility
+  Dewak's First Officer's HQ:
+    name: Dewak's First Officer's HQ
+  Docked & Loaded Mammoth:
+    name: Docked & Loaded Mammoth
+  Drug Storage Facility:
+    name: Drug Storage Facility
+  Dry River Warehouse:
+    name: Dry River Warehouse
+  Dysfunctional Raid Drone:
+    name: Dysfunctional Raid Drone
+  Elere Febre's Habitation module:
+    name: Elere Febre's Habitation module
+  Expeditionary Storage Facility:
+    name: Expeditionary Storage Facility
+  FON Operation Station:
+    name: FON Operation Station
+  Flimsy Pirate Base:
+    name: Flimsy Pirate Base
+  Force Repeller Relic:
+    name: Force Repeller Relic
+  Gallente Miner:
+    name: Gallente Miner
+  Gardan's Fantasy Complex:
+    name: Gardan's Fantasy Complex
+  Gas/Storage Silo:
+    name: Gas/Storage Silo
+  Gate Security:
+    name: Gate Security
+  General Lafema:
+    name: General Lafema
+  General Minas Iksan:
+    name: General Minas Iksan
+  Generator Building:
+    name: Generator Building
+  Gisti Repair Station:
+    name: Gisti Repair Station
+  Guristas Bunker_MISSION:
+    name: Guristas Bunker_MISSION
+  Guristas Control Center:
+    name: Guristas Control Center
+  Guristas Research Outpost:
+    name: Guristas Research Outpost
+  Guristas Starbase Control Tower:
+    name: Guristas Starbase Control Tower
+  Guristas War Installation:
+    name: Guristas War Installation
+  Guristas_Small Armory:
+    name: Guristas_Small Armory
+  Habitation Module:
+    name: Habitation Module
+  Habitation Module - Tsuna's Science Labs:
+    name: Habitation Module - Tsuna's Science Labs
+  Hiding Hole:
+    name: Hiding Hole
+  Hive Under Construction:
+    name: Hive Under Construction
+  Industrial Derelict:
+    name: Industrial Derelict
+  Infested station ruins:
+    name: Infested station ruins
+  Inner Sanctum:
+    name: Inner Sanctum
+  Kameira Quarters:
+    name: Kameira Quarters
+  Kazka Brothel:
+    name: Kazka Brothel
+  Lephny's Mining Post:
+    name: Lephny's Mining Post
+  Low-Tech Deadspace Energy Harvester:
+    name: Low-Tech Deadspace Energy Harvester
+  Megathron under frantic repair:
+    name: Megathron under frantic repair
+  Metal Scraps In Storage:
+    name: Metal Scraps In Storage
+  Minmatar Command Post:
+    name: Minmatar Command Post
+  Minmatar Starbase Control Tower:
+    name: Minmatar Starbase Control Tower
+  Non-Secured Asteroid Colony:
+    name: Non-Secured Asteroid Colony
+  Officers Quarters:
+    name: Officers Quarters
+  Oggiin Kalda's Residence:
+    name: Oggiin Kalda's Residence
+  Okelle's Pleasure Hub:
+    name: Okelle's Pleasure Hub
+  Old Nefantar Bunker:
+    name: Old Nefantar Bunker
+  Oofus's Repair Shop:
+    name: Oofus's Repair Shop
+  Overseer's Stash:
+    name: Overseer's Stash
+  Pagera Manton:
+    name: Pagera Manton
+  Pend Insurance Storage Bin:
+    name: Pend Insurance Storage Bin
+  Pirate Headquarters:
+    name: Pirate Headquarters
+  Radiating Telescope:
+    name: Radiating Telescope
+  Radio Telescope:
+    name: Radio Telescope
+  Refitted Bestower:
+    name: Refitted Bestower
+  Rent-A-Dream Pleasure Gardens:
+    name: Rent-A-Dream Pleasure Gardens
+  Runner's Relay Station:
+    name: Runner's Relay Station
+  Sansha Control Center:
+    name: Sansha Control Center
+  Sansha Deadspace Outpost:
+    name: Sansha Deadspace Outpost
+  Sansha Outpost Administration Building:
+    name: Sansha Outpost Administration Building
+  Sansha Research Outpost:
+    name: Sansha Research Outpost
+  Scanner Post:
+    name: Scanner Post
+  Scanner Tower:
+    name: Scanner Tower
+  Scramble Wave Generator:
+    name: Scramble Wave Generator
+  Sentry Station Alpha/Beta:
+    name: Sentry Station Alpha/Beta
+  Serpentis Bunker:
+    name: Serpentis Bunker
+  Serpentis Command Outpost:
+    name: Serpentis Command Outpost
+  Serpentis Control Center:
+    name: Serpentis Control Center
+  Serpentis Narcotics Storage:
+    name: Serpentis Narcotics Storage
+  Serpentis Repackaging Factory:
+    name: Serpentis Repackaging Factory
+  Serpentis Research Outpost:
+    name: Serpentis Research Outpost
+  Serpentis Stronghold:
+    name: Serpentis Stronghold
+  Serpentis Supply Stronghold:
+    name: Serpentis Supply Stronghold
+  Shattered Hive Mind Cage:
+    name: Shattered Hive Mind Cage
+  Shielded Prison Facility:
+    name: Shielded Prison Facility
+  Sispur Estate Control Tower:
+    name: Sispur Estate Control Tower
+  Slaver Rig Control Tower:
+    name: Slaver Rig Control Tower
+  Small Rebel Base:
+    name: Small Rebel Base
+  Special Forces Command Post:
+    name: Special Forces Command Post
+  Staff Quarters:
+    name: Staff Quarters
+  Starbase Major Assembly Array:
+    name: Starbase Major Assembly Array
+  Starbase Storage Facility:
+    name: Starbase Storage Facility
+  Stargate under construction and repair:
+    name: Stargate under construction and repair
+  Storage Silo:
+    name: Storage Silo
+  Strain Operation Bunker:
+    name: Strain Operation Bunker
+  Subspace Data Miner:
+    name: Subspace Data Miner
+  Supply Traffic Management:
+    name: Supply Traffic Management
+  Temple of the Revelation:
+    name: Temple of the Revelation
+  The Damsels Wimpy Brothel:
+    name: The Damsels Wimpy Brothel
+  The Damsels Wimpy Prison:
+    name: The Damsels Wimpy Prison
+  Thorak's Biodome Garden:
+    name: Thorak's Biodome Garden
+  Thukker Component Assembly Facility:
+    name: Thukker Component Assembly Facility
+  UNUSED_CargoRig_LCS_DL1_DCP1:
+    name: UNUSED_CargoRig_LCS_DL1_DCP1
+  UNUSED_Gist_Battlestation_LCS_ID31_DL1_DCP1:
+    name: UNUSED_Gist_Battlestation_LCS_ID31_DL1_DCP1
+  UNUSED_Gist_Bunker_LCS_ID104_DL5_DCP1:
+    name: UNUSED_Gist_Bunker_LCS_ID104_DL5_DCP1
+  UNUSED_HabMod_Residential_LCS:
+    name: UNUSED_HabMod_Residential_LCS
+  Unstable Particle Acceleration Superstructure:
+    name: Unstable Particle Acceleration Superstructure
+  Wiyrkomi Surveillance Outpost:
+    name: Wiyrkomi Surveillance Outpost
+  Yan Jung Gargoyle:
+    name: Yan Jung Gargoyle

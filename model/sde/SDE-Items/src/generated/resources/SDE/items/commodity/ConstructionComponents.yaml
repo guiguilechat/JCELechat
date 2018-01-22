@@ -1,75 +1,112 @@
 items:
   Antimatter Reactor Unit:
     MoonMiningAmount: 100
+    name: Antimatter Reactor Unit
   Crystalline Carbonide Armor Plate:
     MoonMiningAmount: 100
+    name: Crystalline Carbonide Armor Plate
   Deflection Shield Emitter:
     MoonMiningAmount: 100
+    name: Deflection Shield Emitter
   EM Pulse Generator:
     MoonMiningAmount: 100
+    name: EM Pulse Generator
   Electrolytic Capacitor Unit:
     MoonMiningAmount: 100
+    name: Electrolytic Capacitor Unit
   Fernite Carbide Composite Armor Plate:
     MoonMiningAmount: 100
+    name: Fernite Carbide Composite Armor Plate
   Fusion Reactor Unit:
     MoonMiningAmount: 100
+    name: Fusion Reactor Unit
   Fusion Thruster:
     MoonMiningAmount: 100
+    name: Fusion Thruster
   Gravimetric Sensor Cluster:
     MoonMiningAmount: 100
+    name: Gravimetric Sensor Cluster
   Graviton Pulse Generator:
     MoonMiningAmount: 100
+    name: Graviton Pulse Generator
   Graviton Reactor Unit:
     MoonMiningAmount: 100
+    name: Graviton Reactor Unit
   Ion Thruster:
     MoonMiningAmount: 100
+    name: Ion Thruster
   Ladar Sensor Cluster:
     MoonMiningAmount: 100
+    name: Ladar Sensor Cluster
   Laser Focusing Crystals:
     MoonMiningAmount: 100
+    name: Laser Focusing Crystals
   Linear Shield Emitter:
     MoonMiningAmount: 100
+    name: Linear Shield Emitter
   Magnetometric Sensor Cluster:
     MoonMiningAmount: 100
+    name: Magnetometric Sensor Cluster
   Magpulse Thruster:
     MoonMiningAmount: 100
+    name: Magpulse Thruster
   Nanoelectrical Microprocessor:
     MoonMiningAmount: 100
+    name: Nanoelectrical Microprocessor
   Nanomechanical Microprocessor:
     MoonMiningAmount: 100
+    name: Nanomechanical Microprocessor
   Nuclear Pulse Generator:
     MoonMiningAmount: 100
+    name: Nuclear Pulse Generator
   Nuclear Reactor Unit:
     MoonMiningAmount: 100
+    name: Nuclear Reactor Unit
   Oscillator Capacitor Unit:
     MoonMiningAmount: 100
+    name: Oscillator Capacitor Unit
   Particle Accelerator Unit:
     MoonMiningAmount: 100
+    name: Particle Accelerator Unit
   Photon Microprocessor:
     MoonMiningAmount: 100
+    name: Photon Microprocessor
   Plasma Pulse Generator:
     MoonMiningAmount: 100
+    name: Plasma Pulse Generator
   Plasma Thruster:
     MoonMiningAmount: 100
+    name: Plasma Thruster
   Pulse Shield Emitter:
     MoonMiningAmount: 100
+    name: Pulse Shield Emitter
   Quantum Microprocessor:
     MoonMiningAmount: 100
+    name: Quantum Microprocessor
   Radar Sensor Cluster:
     MoonMiningAmount: 100
+    name: Radar Sensor Cluster
   Scalar Capacitor Unit:
     MoonMiningAmount: 100
+    name: Scalar Capacitor Unit
   Spatial Attunement Unit:
     MoonMiningAmount: 1
+    name: Spatial Attunement Unit
   Superconductor Rails:
     MoonMiningAmount: 100
+    name: Superconductor Rails
   Sustained Shield Emitter:
     MoonMiningAmount: 100
+    name: Sustained Shield Emitter
   Tesseract Capacitor Unit:
     MoonMiningAmount: 100
+    name: Tesseract Capacitor Unit
   Thermonuclear Trigger Unit:
     MoonMiningAmount: 100
+    name: Thermonuclear Trigger Unit
   Titanium Diborite Armor Plate:
     MoonMiningAmount: 100
+    name: Titanium Diborite Armor Plate
   Tungsten Carbide Armor Plate:
     MoonMiningAmount: 100
+    name: Tungsten Carbide Armor Plate

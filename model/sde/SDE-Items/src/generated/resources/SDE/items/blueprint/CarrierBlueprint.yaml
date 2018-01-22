@@ -1,10 +1,15 @@
 items:
   Archon Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Archon Blueprint
   Chimera Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Chimera Blueprint
   Nidhoggur Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Nidhoggur Blueprint
   Thanatos Blueprint:
     IndustryBlueprintRank: 200.0
-  Vanguard Blueprint: {}
+    name: Thanatos Blueprint
+  Vanguard Blueprint:
+    name: Vanguard Blueprint

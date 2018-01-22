@@ -2,75 +2,102 @@ items:
   CONCORD Capital Shield Booster Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: CONCORD Capital Shield Booster Blueprint
   Capital C-5L Compact Shield Booster Blueprint:
     TechLevel: 1
+    name: Capital C-5L Compact Shield Booster Blueprint
   Capital Clarity Ward Enduring Shield Booster Blueprint:
     TechLevel: 1
+    name: Capital Clarity Ward Enduring Shield Booster Blueprint
   Capital Shield Booster I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: Capital Shield Booster I Blueprint
   Capital Shield Booster II Blueprint:
     TechLevel: 1
+    name: Capital Shield Booster II Blueprint
   Civilian Shield Booster Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Civilian Shield Booster Blueprint
   Domination Capital Shield Booster Blueprint:
     TechLevel: 1
+    name: Domination Capital Shield Booster Blueprint
   Dread Guristas Capital Shield Booster Blueprint:
     TechLevel: 1
+    name: Dread Guristas Capital Shield Booster Blueprint
   Huge Active Stealth System I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Huge Active Stealth System I Blueprint
   Large 'Outlaw' Shield Booster Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Large 'Outlaw' Shield Booster Blueprint
   Large Active Stealth System I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Large Active Stealth System I Blueprint
   Large Shield Booster I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Large Shield Booster I Blueprint
   Large Shield Booster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Large Shield Booster II Blueprint
   Medium 'Lone Ranger' Shield Booster Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Medium 'Lone Ranger' Shield Booster Blueprint
   Medium Active Stealth System I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium Active Stealth System I Blueprint
   Medium Shield Booster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Medium Shield Booster I Blueprint
   Medium Shield Booster II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Medium Shield Booster II Blueprint
   Small 'Settler' Shield Booster Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small 'Settler' Shield Booster Blueprint
   Small Active Stealth System I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Active Stealth System I Blueprint
   Small Shield Booster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Shield Booster I Blueprint
   Small Shield Booster II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Shield Booster II Blueprint
   Smugglers Mask I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Smugglers Mask I Blueprint
   Stealth System I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Stealth System I Blueprint
   True Sansha Capital Shield Booster Blueprint:
     TechLevel: 1
+    name: True Sansha Capital Shield Booster Blueprint
   X-Large 'Locomotive' Shield Booster Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: X-Large 'Locomotive' Shield Booster Blueprint
   X-Large Shield Booster I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: X-Large Shield Booster I Blueprint
   X-Large Shield Booster II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: X-Large Shield Booster II Blueprint

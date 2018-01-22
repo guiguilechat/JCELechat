@@ -25,6 +25,7 @@ items:
     TechLevel: 2
     ThermalDamage: 116.0
     ThermalDamageResonance: 0.800000011920929
+    name: Inferno Fury Light Missile
   Inferno Precision Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -51,6 +52,7 @@ items:
     TechLevel: 2
     ThermalDamage: 83.0
     ThermalDamageResonance: 0.800000011920929
+    name: Inferno Precision Light Missile
   Mjolnir Fury Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -77,6 +79,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Mjolnir Fury Light Missile
   Mjolnir Precision Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -103,6 +106,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Mjolnir Precision Light Missile
   Nova Fury Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -129,6 +133,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Nova Fury Light Missile
   Nova Precision Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -155,6 +160,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Nova Precision Light Missile
   Scourge Fury Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -181,6 +187,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Scourge Fury Light Missile
   Scourge Precision Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -207,3 +214,4 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    name: Scourge Precision Light Missile

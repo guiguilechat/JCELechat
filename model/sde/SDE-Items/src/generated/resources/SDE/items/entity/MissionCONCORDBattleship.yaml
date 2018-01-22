@@ -1,7 +1,13 @@
 items:
-  CONCORD Starship: {}
-  CONCORD Starship Vessel: {}
-  CONCORD ship: {}
-  Concord Battleship: {}
-  DED Army Colonel: {}
-  DED Army General: {}
+  CONCORD Starship:
+    name: CONCORD Starship
+  CONCORD Starship Vessel:
+    name: CONCORD Starship Vessel
+  CONCORD ship:
+    name: CONCORD ship
+  Concord Battleship:
+    name: Concord Battleship
+  DED Army Colonel:
+    name: DED Army Colonel
+  DED Army General:
+    name: DED Army General

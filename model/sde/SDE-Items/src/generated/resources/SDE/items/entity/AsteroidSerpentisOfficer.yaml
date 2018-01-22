@@ -1,5 +1,9 @@
 items:
-  Brynn Jerdola: {}
-  Cormack Vaaja: {}
-  Setele Schellan: {}
-  Tuvan Orth: {}
+  Brynn Jerdola:
+    name: Brynn Jerdola
+  Cormack Vaaja:
+    name: Cormack Vaaja
+  Setele Schellan:
+    name: Setele Schellan
+  Tuvan Orth:
+    name: Tuvan Orth

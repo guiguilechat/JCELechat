@@ -1,13 +1,25 @@
 items:
-  Arachula Drone: {}
-  Asmodeus Drone: {}
-  Beelzebub Drone: {}
-  Belphegor Drone: {}
-  Dragonfly Drone: {}
-  Incubus Drone: {}
-  Malphas Drone: {}
-  Mammon Drone: {}
-  Moth Drone: {}
-  Scorpionfly Drone: {}
-  Tarantula Drone: {}
-  Termite Drone: {}
+  Arachula Drone:
+    name: Arachula Drone
+  Asmodeus Drone:
+    name: Asmodeus Drone
+  Beelzebub Drone:
+    name: Beelzebub Drone
+  Belphegor Drone:
+    name: Belphegor Drone
+  Dragonfly Drone:
+    name: Dragonfly Drone
+  Incubus Drone:
+    name: Incubus Drone
+  Malphas Drone:
+    name: Malphas Drone
+  Mammon Drone:
+    name: Mammon Drone
+  Moth Drone:
+    name: Moth Drone
+  Scorpionfly Drone:
+    name: Scorpionfly Drone
+  Tarantula Drone:
+    name: Tarantula Drone
+  Termite Drone:
+    name: Termite Drone

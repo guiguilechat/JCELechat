@@ -1,9 +1,13 @@
 items:
   Amarr Encounter Surveillance System Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Amarr Encounter Surveillance System Blueprint
   Caldari Encounter Surveillance System Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Caldari Encounter Surveillance System Blueprint
   Gallente Encounter Surveillance System Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Gallente Encounter Surveillance System Blueprint
   Minmatar Encounter Surveillance System Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Minmatar Encounter Surveillance System Blueprint

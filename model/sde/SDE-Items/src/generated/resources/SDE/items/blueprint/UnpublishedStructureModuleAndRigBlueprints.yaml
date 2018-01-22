@@ -1,242 +1,352 @@
 items:
   Large Market and Loyalty Point Store Tax I Blueprint:
     TechLevel: 1
+    name: Large Market and Loyalty Point Store Tax I Blueprint
   Large Market and Loyalty Point Store Tax II Blueprint:
     TechLevel: 1
+    name: Large Market and Loyalty Point Store Tax II Blueprint
   Large Office, Jump Clone Number and Tax I Blueprint:
     TechLevel: 1
+    name: Large Office, Jump Clone Number and Tax I Blueprint
   Large Office, Jump Clone Number and Tax II Blueprint:
     TechLevel: 1
+    name: Large Office, Jump Clone Number and Tax II Blueprint
   Large Planetary Production, Customs Office Tax Reduction I Blueprint:
     TechLevel: 1
+    name: Large Planetary Production, Customs Office Tax Reduction I Blueprint
   Large Planetary Production, Customs Office Tax Reduction II Blueprint:
     TechLevel: 1
+    name: Large Planetary Production, Customs Office Tax Reduction II Blueprint
   Large Tech I Capital Component Manufacturing I Blueprint:
     TechLevel: 1
+    name: Large Tech I Capital Component Manufacturing I Blueprint
   Large Tech I Capital Component Manufacturing II Blueprint:
     TechLevel: 2
+    name: Large Tech I Capital Component Manufacturing II Blueprint
   Large Tech I Subsystem Manufacturing I Blueprint:
     TechLevel: 1
+    name: Large Tech I Subsystem Manufacturing I Blueprint
   Large Tech I Subsystem Manufacturing II Blueprint:
     TechLevel: 2
+    name: Large Tech I Subsystem Manufacturing II Blueprint
   Medium Consumable Manufacturing I Blueprint:
     TechLevel: 1
+    name: Medium Consumable Manufacturing I Blueprint
   Medium Consumable Manufacturing II Blueprint:
     TechLevel: 2
+    name: Medium Consumable Manufacturing II Blueprint
   Medium Customs Office Tax Reduction I Blueprint:
     TechLevel: 1
+    name: Medium Customs Office Tax Reduction I Blueprint
   Medium Customs Office Tax Reduction II Blueprint:
     TechLevel: 1
+    name: Medium Customs Office Tax Reduction II Blueprint
   Medium Drone Manufacturing I Blueprint:
     TechLevel: 1
+    name: Medium Drone Manufacturing I Blueprint
   Medium Drone Manufacturing II Blueprint:
     TechLevel: 2
+    name: Medium Drone Manufacturing II Blueprint
   Medium Jump Clone Tax I Blueprint:
     TechLevel: 1
+    name: Medium Jump Clone Tax I Blueprint
   Medium Jump Clone Tax II Blueprint:
     TechLevel: 1
+    name: Medium Jump Clone Tax II Blueprint
   Medium Loyalty Point Store Reduction I Blueprint:
     TechLevel: 1
+    name: Medium Loyalty Point Store Reduction I Blueprint
   Medium Loyalty Point Store Reduction II Blueprint:
     TechLevel: 1
+    name: Medium Loyalty Point Store Reduction II Blueprint
   Medium Module Manufacturing I Blueprint:
     TechLevel: 1
+    name: Medium Module Manufacturing I Blueprint
   Medium Office Number I Blueprint:
     TechLevel: 1
+    name: Medium Office Number I Blueprint
   Medium Office Number II Blueprint:
     TechLevel: 1
+    name: Medium Office Number II Blueprint
   Medium Planetary Production Increase I Blueprint:
     TechLevel: 1
+    name: Medium Planetary Production Increase I Blueprint
   Medium Planetary Production Increase II Blueprint:
     TechLevel: 1
+    name: Medium Planetary Production Increase II Blueprint
   OLD L-Set Ice Grading Processor I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: OLD L-Set Ice Grading Processor I Blueprint
   OLD L-Set Ice Grading Processor II Blueprint:
     TechLevel: 1
+    name: OLD L-Set Ice Grading Processor II Blueprint
   OLD L-Set Ore Grading Processor I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: OLD L-Set Ore Grading Processor I Blueprint
   OLD L-Set Ore Grading Processor II Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 2
+    name: OLD L-Set Ore Grading Processor II Blueprint
   OLD M-Set HS Materials Reclamation I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: OLD M-Set HS Materials Reclamation I Blueprint
   OLD M-Set HS Materials Reclamation II Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 2
+    name: OLD M-Set HS Materials Reclamation II Blueprint
   OLD M-Set I1 Materials Reclamation I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: OLD M-Set I1 Materials Reclamation I Blueprint
   OLD M-Set I1 Materials Reclamation II Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: OLD M-Set I1 Materials Reclamation II Blueprint
   OLD M-Set I2 Materials Reclamation I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: OLD M-Set I2 Materials Reclamation I Blueprint
   OLD M-Set I2 Materials Reclamation II Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: OLD M-Set I2 Materials Reclamation II Blueprint
   OLD M-Set LNS Materials Reclamation I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: OLD M-Set LNS Materials Reclamation I Blueprint
   OLD M-Set LNS Materials Reclamation II Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: OLD M-Set LNS Materials Reclamation II Blueprint
   OLD XL-Set Reprocessing Monitor I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: OLD XL-Set Reprocessing Monitor I Blueprint
   OLD XL-Set Reprocessing Monitor II Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 2
+    name: OLD XL-Set Reprocessing Monitor II Blueprint
   Standup CSP Tractor Beam I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: Standup CSP Tractor Beam I Blueprint
   Standup Fighter Damage Amplifier I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: Standup Fighter Damage Amplifier I Blueprint
   Standup Fighter Tracking Enhancer I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: Standup Fighter Tracking Enhancer I Blueprint
   Standup L-Set Fighter Mission Control I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: Standup L-Set Fighter Mission Control I Blueprint
   Standup L-Set Fighter Mission Control II Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 2
+    name: Standup L-Set Fighter Mission Control II Blueprint
   Standup M-Set Fighter Navigation I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: Standup M-Set Fighter Navigation I Blueprint
   Standup M-Set Fighter Navigation II Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 2
+    name: Standup M-Set Fighter Navigation II Blueprint
   Standup M-Set Fighter Survival I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: Standup M-Set Fighter Survival I Blueprint
   Standup M-Set Fighter Survival II Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 2
+    name: Standup M-Set Fighter Survival II Blueprint
   Standup M-Set Jump Clone Bays I Blueprint:
     TechLevel: 1
+    name: Standup M-Set Jump Clone Bays I Blueprint
   Standup M-Set Jump Clone Bays II Blueprint:
     TechLevel: 1
+    name: Standup M-Set Jump Clone Bays II Blueprint
   Standup Repulsor Field Projector I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: Standup Repulsor Field Projector I Blueprint
   Standup XL-Set Integrated Fighter and PD Network I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
+    name: Standup XL-Set Integrated Fighter and PD Network I Blueprint
   Standup XL-Set Integrated Fighter and PD Network II Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 2
+    name: Standup XL-Set Integrated Fighter and PD Network II Blueprint
   Structure Ad Post Blueprint:
     TechLevel: 1
+    name: Structure Ad Post Blueprint
   Structure Agent Distribution Unit Blueprint:
     TechLevel: 1
+    name: Structure Agent Distribution Unit Blueprint
   Structure Armored Targeted Link Blueprint:
     TechLevel: 1
+    name: Structure Armored Targeted Link Blueprint
   Structure Billboard Blueprint:
     TechLevel: 1
+    name: Structure Billboard Blueprint
   Structure Capital Assembly Array Blueprint:
     TechLevel: 1
+    name: Structure Capital Assembly Array Blueprint
   Structure Capsuleer Tracking Array Blueprint:
     TechLevel: 1
+    name: Structure Capsuleer Tracking Array Blueprint
   Structure Cloak Pinpoint Array Blueprint:
     TechLevel: 1
+    name: Structure Cloak Pinpoint Array Blueprint
   Structure Component Assembly Array Blueprint:
     TechLevel: 1
+    name: Structure Component Assembly Array Blueprint
   Structure Compression Plant Blueprint:
     TechLevel: 1
+    name: Structure Compression Plant Blueprint
   Structure Copy Laboratory Blueprint:
     TechLevel: 1
+    name: Structure Copy Laboratory Blueprint
   Structure Corporation Insurance Blueprint:
     TechLevel: 1
+    name: Structure Corporation Insurance Blueprint
   Structure Customs Office Blueprint:
     TechLevel: 1
+    name: Structure Customs Office Blueprint
   Structure Cynosural Generator Array Blueprint:
     TechLevel: 1
+    name: Structure Cynosural Generator Array Blueprint
   Structure Cynosural Jammer Blueprint:
     TechLevel: 1
+    name: Structure Cynosural Jammer Blueprint
   Structure Datacore Field Research Blueprint:
     TechLevel: 1
+    name: Structure Datacore Field Research Blueprint
   Structure Drone Link Augmentor Blueprint:
     TechLevel: 1
+    name: Structure Drone Link Augmentor Blueprint
   Structure Drone Navigation Computer Blueprint:
     TechLevel: 1
+    name: Structure Drone Navigation Computer Blueprint
   Structure ECCM Projector Blueprint:
     TechLevel: 1
+    name: Structure ECCM Projector Blueprint
   Structure Equipment Assembly Array Blueprint:
     TechLevel: 1
+    name: Structure Equipment Assembly Array Blueprint
   Structure Factional Reserve Unit Blueprint:
     TechLevel: 1
+    name: Structure Factional Reserve Unit Blueprint
   Structure Information Targeted Link Blueprint:
     TechLevel: 1
+    name: Structure Information Targeted Link Blueprint
   Structure Interbus Transport Service Blueprint:
     TechLevel: 1
+    name: Structure Interbus Transport Service Blueprint
   Structure Invention Laboratory Blueprint:
     TechLevel: 1
+    name: Structure Invention Laboratory Blueprint
   Structure Listening Post Blueprint:
     TechLevel: 1
+    name: Structure Listening Post Blueprint
   Structure Local Communications Array Blueprint:
     TechLevel: 1
+    name: Structure Local Communications Array Blueprint
   Structure Loyalty Point Store Blueprint:
     TechLevel: 1
+    name: Structure Loyalty Point Store Blueprint
   Structure Material Efficiency Laboratory Blueprint:
     TechLevel: 1
+    name: Structure Material Efficiency Laboratory Blueprint
   Structure Mining Targeted Link Blueprint:
     TechLevel: 1
+    name: Structure Mining Targeted Link Blueprint
   Structure Missile Guidance Computer Blueprint:
     TechLevel: 1
+    name: Structure Missile Guidance Computer Blueprint
   Structure Monument Blueprint:
     TechLevel: 1
+    name: Structure Monument Blueprint
   Structure Planetoid Drilling Blueprint:
     TechLevel: 1
+    name: Structure Planetoid Drilling Blueprint
   Structure Remote Armor Repairer Blueprint:
     TechLevel: 1
+    name: Structure Remote Armor Repairer Blueprint
   Structure Remote Capacitor Transmitter Blueprint:
     TechLevel: 1
+    name: Structure Remote Capacitor Transmitter Blueprint
   Structure Remote Hull Repairer Blueprint:
     TechLevel: 1
+    name: Structure Remote Hull Repairer Blueprint
   Structure Remote Missile Guidance Computer Blueprint:
     TechLevel: 1
+    name: Structure Remote Missile Guidance Computer Blueprint
   Structure Remote Sensor Booster Blueprint:
     TechLevel: 1
+    name: Structure Remote Sensor Booster Blueprint
   Structure Remote Shield Booster Blueprint:
     TechLevel: 1
+    name: Structure Remote Shield Booster Blueprint
   Structure Remote Tracking Computer Blueprint:
     TechLevel: 1
+    name: Structure Remote Tracking Computer Blueprint
   Structure Resistance Switcher Blueprint:
     TechLevel: 1
+    name: Structure Resistance Switcher Blueprint
   Structure Scan Resolution Booster Blueprint:
     TechLevel: 1
+    name: Structure Scan Resolution Booster Blueprint
   Structure Scanner Array Blueprint:
     TechLevel: 1
+    name: Structure Scanner Array Blueprint
   Structure Security Force Array Blueprint:
     TechLevel: 1
+    name: Structure Security Force Array Blueprint
   Structure Security Status Claim Unit Blueprint:
     TechLevel: 1
+    name: Structure Security Status Claim Unit Blueprint
   Structure Ship Assembly Array Blueprint:
     TechLevel: 1
+    name: Structure Ship Assembly Array Blueprint
   Structure Siege Targeted Link Blueprint:
     TechLevel: 1
+    name: Structure Siege Targeted Link Blueprint
   Structure Skirmish Targeted Link Blueprint:
     TechLevel: 1
+    name: Structure Skirmish Targeted Link Blueprint
   Structure Sovereignty Unit Blueprint:
     TechLevel: 1
+    name: Structure Sovereignty Unit Blueprint
   Structure Stargate Connector Blueprint:
     TechLevel: 1
+    name: Structure Stargate Connector Blueprint
   Structure Stellar Mapping Array Blueprint:
     TechLevel: 1
+    name: Structure Stellar Mapping Array Blueprint
   Structure Time Efficiency Laboratory Blueprint:
     TechLevel: 1
+    name: Structure Time Efficiency Laboratory Blueprint
   Structure Warp Accelerant Blueprint:
     TechLevel: 1
+    name: Structure Warp Accelerant Blueprint
   Structure Wormhole Stabilizer Blueprint:
     TechLevel: 1
+    name: Structure Wormhole Stabilizer Blueprint
   Tracking Enhancer Blueprint:
     TechLevel: 1
+    name: Tracking Enhancer Blueprint
   X-Large Office, Jump Clone, Planetary, Customs Office and Market Improvement I Blueprint:
     TechLevel: 1
+    name: X-Large Office, Jump Clone, Planetary, Customs Office and Market Improvement
+      I Blueprint
   X-Large Office, Jump Clone, Planetary, Customs Office and Market Improvement II Blueprint:
     TechLevel: 1
+    name: X-Large Office, Jump Clone, Planetary, Customs Office and Market Improvement
+      II Blueprint

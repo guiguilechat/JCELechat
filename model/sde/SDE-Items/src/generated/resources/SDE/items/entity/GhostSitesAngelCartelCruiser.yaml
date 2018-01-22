@@ -1,5 +1,9 @@
 items:
-  Angel Lookout: {}
-  Angel Sentry: {}
-  Angel Warden: {}
-  Angel Watcher: {}
+  Angel Lookout:
+    name: Angel Lookout
+  Angel Sentry:
+    name: Angel Sentry
+  Angel Warden:
+    name: Angel Warden
+  Angel Watcher:
+    name: Angel Watcher

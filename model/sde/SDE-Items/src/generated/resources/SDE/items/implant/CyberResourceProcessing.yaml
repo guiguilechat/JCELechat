@@ -5,93 +5,109 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Eifyr and Co. 'Alchemist' Gas Harvesting GH-801
   Eifyr and Co. 'Alchemist' Gas Harvesting GH-803:
     DurationBonus: -3
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Eifyr and Co. 'Alchemist' Gas Harvesting GH-803
   Eifyr and Co. 'Alchemist' Gas Harvesting GH-805:
     DurationBonus: -5
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Eifyr and Co. 'Alchemist' Gas Harvesting GH-805
   Inherent Implants 'Highwall' Mining MX-1001:
     Implantness: 10
     MiningAmountBonus: 1
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Highwall' Mining MX-1001
   Inherent Implants 'Highwall' Mining MX-1003:
     Implantness: 10
     MiningAmountBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Inherent Implants 'Highwall' Mining MX-1003
   Inherent Implants 'Highwall' Mining MX-1005:
     Implantness: 10
     MiningAmountBonus: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Inherent Implants 'Highwall' Mining MX-1005
   Inherent Implants 'Highwall' Mining Upgrades MU-1001:
     Implantness: 10
     MiningUpgradeCPUReductionBonus: -3
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Highwall' Mining Upgrades MU-1001
   Inherent Implants 'Highwall' Mining Upgrades MU-1003:
     Implantness: 10
     MiningUpgradeCPUReductionBonus: -3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Inherent Implants 'Highwall' Mining Upgrades MU-1003
   Inherent Implants 'Highwall' Mining Upgrades MU-1005:
     Implantness: 10
     MiningUpgradeCPUReductionBonus: -5
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Inherent Implants 'Highwall' Mining Upgrades MU-1005
   Inherent Implants 'Yeti' Ice Harvesting IH-1001:
     IceHarvestCycleBonus: -1.0
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Inherent Implants 'Yeti' Ice Harvesting IH-1001
   Inherent Implants 'Yeti' Ice Harvesting IH-1003:
     IceHarvestCycleBonus: -3.0
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Inherent Implants 'Yeti' Ice Harvesting IH-1003
   Inherent Implants 'Yeti' Ice Harvesting IH-1005:
     IceHarvestCycleBonus: -5.0
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Inherent Implants 'Yeti' Ice Harvesting IH-1005
   Michi's Excavation Augmentor:
     Implantness: 7
     MiningAmountBonus: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Michi's Excavation Augmentor
   Zainou 'Beancounter' Reprocessing RX-801:
     Implantness: 8
     RefiningYieldMutator: 1
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Beancounter' Reprocessing RX-801
   Zainou 'Beancounter' Reprocessing RX-802:
     Implantness: 8
     RefiningYieldMutator: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Beancounter' Reprocessing RX-802
   Zainou 'Beancounter' Reprocessing RX-804:
     Implantness: 8
     RefiningYieldMutator: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Zainou 'Beancounter' Reprocessing RX-804

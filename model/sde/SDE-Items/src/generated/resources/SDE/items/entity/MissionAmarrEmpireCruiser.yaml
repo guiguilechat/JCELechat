@@ -1,53 +1,105 @@
 items:
-  Amarr CA Cruiser: {}
-  Amarr Personnel Transport: {}
-  Amarr Slave Trader: {}
-  Amarr Slave Transport Ship: {}
-  Amarr Slaver Ship: {}
-  Amarr Transport Ship: {}
-  Ammatar Navy Augoror: {}
-  Ammatar Navy Maller: {}
-  Ammatar Navy Raid Leader: {}
-  Ammatar Personnel Transport: {}
-  Ammatar Slave Trader: {}
-  Ammatar Transport Ship: {}
-  Civilian Amarr Cruiser Arbitrator: {}
-  Civilian Amarr Cruiser Augoror: {}
-  Civilian Amarr Cruiser Maller: {}
-  Civilian Amarr Cruiser Omen: {}
-  Divine Imperial Ambrose: {}
-  Divine Imperial Avenger: {}
-  Divine Imperial Basil: {}
-  Divine Imperial Champion: {}
-  Divine Imperial Equalizer: {}
-  Divine Imperial Justicar: {}
-  Divine Imperial Tamir: {}
-  Divine Imperial Wrath: {}
-  Imperial Agatho: {}
-  Imperial Donus: {}
-  Imperial Mathura: {}
-  Imperial Muzakir: {}
-  Imperial Navy Maller: {}
-  Imperial Navy Officer: {}
-  Imperial Navy Omen: {}
-  Imperial Navy Raid Leader: {}
-  Imperial Tamir: {}
-  Imperial Templar Agatho: {}
-  Imperial Templar Donus: {}
-  Imperial Templar Mathura: {}
-  Imperial Templar Muzakir: {}
-  Imperial Templar Tamir: {}
-  Independent Arbitrator: {}
-  Independent Augoror: {}
-  Independent Green-Crewed Arbitrator: {}
-  Independent Green-Crewed Augoror: {}
-  Independent Green-Crewed Maller: {}
-  Independent Green-Crewed Omen: {}
-  Independent Maller: {}
-  Independent Omen: {}
-  Independent Veteran Arbitrator: {}
-  Independent Veteran Augoror: {}
-  Independent Veteran Maller: {}
-  Independent Veteran Omen: {}
-  Lord Miyan: {}
-  Sarum Maller: {}
+  Amarr CA Cruiser:
+    name: Amarr CA Cruiser
+  Amarr Personnel Transport:
+    name: Amarr Personnel Transport
+  Amarr Slave Trader:
+    name: Amarr Slave Trader
+  Amarr Slave Transport Ship:
+    name: Amarr Slave Transport Ship
+  Amarr Slaver Ship:
+    name: Amarr Slaver Ship
+  Amarr Transport Ship:
+    name: Amarr Transport Ship
+  Ammatar Navy Augoror:
+    name: Ammatar Navy Augoror
+  Ammatar Navy Maller:
+    name: Ammatar Navy Maller
+  Ammatar Navy Raid Leader:
+    name: Ammatar Navy Raid Leader
+  Ammatar Personnel Transport:
+    name: Ammatar Personnel Transport
+  Ammatar Slave Trader:
+    name: Ammatar Slave Trader
+  Ammatar Transport Ship:
+    name: Ammatar Transport Ship
+  Civilian Amarr Cruiser Arbitrator:
+    name: Civilian Amarr Cruiser Arbitrator
+  Civilian Amarr Cruiser Augoror:
+    name: Civilian Amarr Cruiser Augoror
+  Civilian Amarr Cruiser Maller:
+    name: Civilian Amarr Cruiser Maller
+  Civilian Amarr Cruiser Omen:
+    name: Civilian Amarr Cruiser Omen
+  Divine Imperial Ambrose:
+    name: Divine Imperial Ambrose
+  Divine Imperial Avenger:
+    name: Divine Imperial Avenger
+  Divine Imperial Basil:
+    name: Divine Imperial Basil
+  Divine Imperial Champion:
+    name: Divine Imperial Champion
+  Divine Imperial Equalizer:
+    name: Divine Imperial Equalizer
+  Divine Imperial Justicar:
+    name: Divine Imperial Justicar
+  Divine Imperial Tamir:
+    name: Divine Imperial Tamir
+  Divine Imperial Wrath:
+    name: Divine Imperial Wrath
+  Imperial Agatho:
+    name: Imperial Agatho
+  Imperial Donus:
+    name: Imperial Donus
+  Imperial Mathura:
+    name: Imperial Mathura
+  Imperial Muzakir:
+    name: Imperial Muzakir
+  Imperial Navy Maller:
+    name: Imperial Navy Maller
+  Imperial Navy Officer:
+    name: Imperial Navy Officer
+  Imperial Navy Omen:
+    name: Imperial Navy Omen
+  Imperial Navy Raid Leader:
+    name: Imperial Navy Raid Leader
+  Imperial Tamir:
+    name: Imperial Tamir
+  Imperial Templar Agatho:
+    name: Imperial Templar Agatho
+  Imperial Templar Donus:
+    name: Imperial Templar Donus
+  Imperial Templar Mathura:
+    name: Imperial Templar Mathura
+  Imperial Templar Muzakir:
+    name: Imperial Templar Muzakir
+  Imperial Templar Tamir:
+    name: Imperial Templar Tamir
+  Independent Arbitrator:
+    name: Independent Arbitrator
+  Independent Augoror:
+    name: Independent Augoror
+  Independent Green-Crewed Arbitrator:
+    name: Independent Green-Crewed Arbitrator
+  Independent Green-Crewed Augoror:
+    name: Independent Green-Crewed Augoror
+  Independent Green-Crewed Maller:
+    name: Independent Green-Crewed Maller
+  Independent Green-Crewed Omen:
+    name: Independent Green-Crewed Omen
+  Independent Maller:
+    name: Independent Maller
+  Independent Omen:
+    name: Independent Omen
+  Independent Veteran Arbitrator:
+    name: Independent Veteran Arbitrator
+  Independent Veteran Augoror:
+    name: Independent Veteran Augoror
+  Independent Veteran Maller:
+    name: Independent Veteran Maller
+  Independent Veteran Omen:
+    name: Independent Veteran Omen
+  Lord Miyan:
+    name: Lord Miyan
+  Sarum Maller:
+    name: Sarum Maller

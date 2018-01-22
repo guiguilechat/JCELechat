@@ -1,7 +1,10 @@
 items:
   Discovery Survey Probe I Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Discovery Survey Probe I Blueprint
   Gaze Survey Probe I Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Gaze Survey Probe I Blueprint
   Quest Survey Probe I Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Quest Survey Probe I Blueprint

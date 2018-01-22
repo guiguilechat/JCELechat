@@ -2,15 +2,20 @@ items:
   Aqueous Liquids:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Aqueous Liquids
   Ionic Solutions:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Ionic Solutions
   Noble Gas:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Noble Gas
   Reactive Gas:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Reactive Gas
   Suspended Plasma:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    name: Suspended Plasma

@@ -7,6 +7,7 @@ items:
     OreBasicType: 45501
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
+    name: Chromite
   Lavish Chromite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -15,6 +16,7 @@ items:
     OreBasicType: 45501
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
+    name: Lavish Chromite
   Lavish Otavite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -23,6 +25,7 @@ items:
     OreBasicType: 45498
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
+    name: Lavish Otavite
   Lavish Sperrylite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -31,6 +34,7 @@ items:
     OreBasicType: 45499
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
+    name: Lavish Sperrylite
   Lavish Vanadinite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -39,6 +43,7 @@ items:
     OreBasicType: 45500
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
+    name: Lavish Vanadinite
   Otavite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -47,6 +52,7 @@ items:
     OreBasicType: 45498
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
+    name: Otavite
   Shimmering Chromite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -55,6 +61,7 @@ items:
     OreBasicType: 45501
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
+    name: Shimmering Chromite
   Shimmering Otavite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -63,6 +70,7 @@ items:
     OreBasicType: 45498
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
+    name: Shimmering Otavite
   Shimmering Sperrylite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -71,6 +79,7 @@ items:
     OreBasicType: 45499
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
+    name: Shimmering Sperrylite
   Shimmering Vanadinite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -79,6 +88,7 @@ items:
     OreBasicType: 45500
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
+    name: Shimmering Vanadinite
   Sperrylite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -87,6 +97,7 @@ items:
     OreBasicType: 45499
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
+    name: Sperrylite
   Vanadinite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -95,3 +106,4 @@ items:
     OreBasicType: 45500
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
+    name: Vanadinite

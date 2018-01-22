@@ -1,27 +1,53 @@
 items:
-  Blood Collector: {}
-  Blood Diviner: {}
-  Blood Engraver: {}
-  Blood Follower: {}
-  Blood Herald: {}
-  Blood Raider: {}
-  Blood Reaver: {}
-  Blood Seeker: {}
-  Blood Upholder: {}
-  Blood Worshipper: {}
-  Elder Blood Collector: {}
-  Elder Blood Diviner: {}
-  Elder Blood Engraver: {}
-  Elder Blood Follower: {}
-  Elder Blood Herald: {}
-  Elder Blood Raider: {}
-  Elder Blood Reaver: {}
-  Elder Blood Seeker: {}
-  Elder Blood Upholder: {}
-  Elder Blood Worshipper: {}
-  Warrior Collector: {}
-  Warrior Diviner: {}
-  Warrior Engraver: {}
-  Warrior Raider: {}
-  Warrior Reaver: {}
-  Warrior Seeker: {}
+  Blood Collector:
+    name: Blood Collector
+  Blood Diviner:
+    name: Blood Diviner
+  Blood Engraver:
+    name: Blood Engraver
+  Blood Follower:
+    name: Blood Follower
+  Blood Herald:
+    name: Blood Herald
+  Blood Raider:
+    name: Blood Raider
+  Blood Reaver:
+    name: Blood Reaver
+  Blood Seeker:
+    name: Blood Seeker
+  Blood Upholder:
+    name: Blood Upholder
+  Blood Worshipper:
+    name: Blood Worshipper
+  Elder Blood Collector:
+    name: Elder Blood Collector
+  Elder Blood Diviner:
+    name: Elder Blood Diviner
+  Elder Blood Engraver:
+    name: Elder Blood Engraver
+  Elder Blood Follower:
+    name: Elder Blood Follower
+  Elder Blood Herald:
+    name: Elder Blood Herald
+  Elder Blood Raider:
+    name: Elder Blood Raider
+  Elder Blood Reaver:
+    name: Elder Blood Reaver
+  Elder Blood Seeker:
+    name: Elder Blood Seeker
+  Elder Blood Upholder:
+    name: Elder Blood Upholder
+  Elder Blood Worshipper:
+    name: Elder Blood Worshipper
+  Warrior Collector:
+    name: Warrior Collector
+  Warrior Diviner:
+    name: Warrior Diviner
+  Warrior Engraver:
+    name: Warrior Engraver
+  Warrior Raider:
+    name: Warrior Raider
+  Warrior Reaver:
+    name: Warrior Reaver
+  Warrior Seeker:
+    name: Warrior Seeker

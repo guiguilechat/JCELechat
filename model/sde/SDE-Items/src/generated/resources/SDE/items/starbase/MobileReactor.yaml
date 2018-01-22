@@ -23,6 +23,7 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1200000
     Uniformity: 1.0
+    name: Academy
   Biochemical Reactor Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -47,6 +48,7 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Biochemical Reactor Array
   Complex Reactor Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -72,6 +74,7 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Complex Reactor Array
   Medium Biochemical Reactor Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -96,6 +99,7 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Medium Biochemical Reactor Array
   Polymer Reactor Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -121,6 +125,7 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Polymer Reactor Array
   Simple Reactor Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -145,6 +150,7 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Simple Reactor Array
   Trauma Treatment Facility:
     AnchoringDelay: 600000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -169,6 +175,7 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1200000
     Uniformity: 1.0
+    name: Trauma Treatment Facility
   Vitoc Injection Center:
     AnchoringDelay: 600000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -193,3 +200,4 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1200000
     Uniformity: 1.0
+    name: Vitoc Injection Center

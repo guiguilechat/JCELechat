@@ -1,16 +1,31 @@
 items:
-  Dorim Fatimar's Punisher: {}
-  Gue Mouey Vindicator: {}
-  Gue Mouey's Vindicator: {}
-  Isana Dagin's Machariel: {}
-  Karo Zulak's Bestower: {}
-  Knaaninn Aranuri's Rattlesnake: {}
-  Kushan Horeat's Arbitrator: {}
-  Kutill's Hoarder: {}
-  Nimpor Fatimar's Omen: {}
-  Oronata Vion's Caracal: {}
-  Ragot Parah's Maller: {}
-  Rakka's Rattlesnake: {}
-  Rattlesnake_Airkio Yanjulen: {}
-  Reqqa Bratesch's Vengeance: {}
-  Tomi_Hakiro Caracal: {}
+  Dorim Fatimar's Punisher:
+    name: Dorim Fatimar's Punisher
+  Gue Mouey Vindicator:
+    name: Gue Mouey Vindicator
+  Gue Mouey's Vindicator:
+    name: Gue Mouey's Vindicator
+  Isana Dagin's Machariel:
+    name: Isana Dagin's Machariel
+  Karo Zulak's Bestower:
+    name: Karo Zulak's Bestower
+  Knaaninn Aranuri's Rattlesnake:
+    name: Knaaninn Aranuri's Rattlesnake
+  Kushan Horeat's Arbitrator:
+    name: Kushan Horeat's Arbitrator
+  Kutill's Hoarder:
+    name: Kutill's Hoarder
+  Nimpor Fatimar's Omen:
+    name: Nimpor Fatimar's Omen
+  Oronata Vion's Caracal:
+    name: Oronata Vion's Caracal
+  Ragot Parah's Maller:
+    name: Ragot Parah's Maller
+  Rakka's Rattlesnake:
+    name: Rakka's Rattlesnake
+  Rattlesnake_Airkio Yanjulen:
+    name: Rattlesnake_Airkio Yanjulen
+  Reqqa Bratesch's Vengeance:
+    name: Reqqa Bratesch's Vengeance
+  Tomi_Hakiro Caracal:
+    name: Tomi_Hakiro Caracal

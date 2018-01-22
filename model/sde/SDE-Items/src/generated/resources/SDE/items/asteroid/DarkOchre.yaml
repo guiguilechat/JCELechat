@@ -7,6 +7,7 @@ items:
     OreBasicType: 1232
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
+    name: Compressed Dark Ochre
   Compressed Jet Ochre:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
@@ -15,6 +16,7 @@ items:
     OreBasicType: 46675
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
+    name: Compressed Jet Ochre
   Compressed Obsidian Ochre:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -23,6 +25,7 @@ items:
     OreBasicType: 1232
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
+    name: Compressed Obsidian Ochre
   Compressed Onyx Ochre:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -31,6 +34,7 @@ items:
     OreBasicType: 1232
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
+    name: Compressed Onyx Ochre
   Dark Ochre:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -41,6 +45,7 @@ items:
     OreBasicType: 1232
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
+    name: Dark Ochre
   Jet Ochre:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -51,6 +56,7 @@ items:
     OreBasicType: 46675
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
+    name: Jet Ochre
   Obsidian Ochre:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -61,6 +67,7 @@ items:
     OreBasicType: 1232
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
+    name: Obsidian Ochre
   Oeryl:
     AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
@@ -68,6 +75,7 @@ items:
     OreBasicType: 1232
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
+    name: Oeryl
   Onyx Ochre:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -78,3 +86,4 @@ items:
     OreBasicType: 1232
     ReprocessingSkillType: 12183
     RequiredSkill1: 3386
+    name: Onyx Ochre

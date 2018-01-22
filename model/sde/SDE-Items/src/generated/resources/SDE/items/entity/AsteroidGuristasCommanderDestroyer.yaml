@@ -1,9 +1,17 @@
 items:
-  Desperado Anarchist: {}
-  Desperado Nihilist: {}
-  Dread Guristas Anarchist: {}
-  Dread Guristas Guerilla: {}
-  Dread Guristas Nihilist: {}
-  Dread Guristas Renegade: {}
-  Dread Guristas Supremacist: {}
-  Dread Guristas Terrorist: {}
+  Desperado Anarchist:
+    name: Desperado Anarchist
+  Desperado Nihilist:
+    name: Desperado Nihilist
+  Dread Guristas Anarchist:
+    name: Dread Guristas Anarchist
+  Dread Guristas Guerilla:
+    name: Dread Guristas Guerilla
+  Dread Guristas Nihilist:
+    name: Dread Guristas Nihilist
+  Dread Guristas Renegade:
+    name: Dread Guristas Renegade
+  Dread Guristas Supremacist:
+    name: Dread Guristas Supremacist
+  Dread Guristas Terrorist:
+    name: Dread Guristas Terrorist

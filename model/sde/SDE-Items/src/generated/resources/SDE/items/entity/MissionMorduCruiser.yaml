@@ -1,8 +1,15 @@
 items:
-  Mordus Bobcat: {}
-  Mordus Cheetah: {}
-  Mordus Escort: {}
-  Mordus Leopard: {}
-  Mordus Lion: {}
-  Mordus Puma: {}
-  Mordus Raid Leader: {}
+  Mordus Bobcat:
+    name: Mordus Bobcat
+  Mordus Cheetah:
+    name: Mordus Cheetah
+  Mordus Escort:
+    name: Mordus Escort
+  Mordus Leopard:
+    name: Mordus Leopard
+  Mordus Lion:
+    name: Mordus Lion
+  Mordus Puma:
+    name: Mordus Puma
+  Mordus Raid Leader:
+    name: Mordus Raid Leader

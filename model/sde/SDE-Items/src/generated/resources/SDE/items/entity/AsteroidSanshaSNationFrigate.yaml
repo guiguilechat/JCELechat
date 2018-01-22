@@ -1,20 +1,39 @@
 items:
-  Sansha's Butcher: {}
-  Sansha's Enslaver: {}
-  Sansha's Loyal Butcher: {}
-  Sansha's Loyal Enslaver: {}
-  Sansha's Loyal Manslayer: {}
-  Sansha's Loyal Minion: {}
-  Sansha's Loyal Plague: {}
-  Sansha's Loyal Ravener: {}
-  Sansha's Loyal Savage: {}
-  Sansha's Loyal Scavanger: {}
-  Sansha's Loyal Servant: {}
-  Sansha's Loyal Slavehunter: {}
-  Sansha's Minion: {}
-  Sansha's Plague: {}
-  Sansha's Ravener: {}
-  Sansha's Savage: {}
-  Sansha's Scavenger: {}
-  Sansha's Servant: {}
-  Sansha's Slavehunter: {}
+  Sansha's Butcher:
+    name: Sansha's Butcher
+  Sansha's Enslaver:
+    name: Sansha's Enslaver
+  Sansha's Loyal Butcher:
+    name: Sansha's Loyal Butcher
+  Sansha's Loyal Enslaver:
+    name: Sansha's Loyal Enslaver
+  Sansha's Loyal Manslayer:
+    name: Sansha's Loyal Manslayer
+  Sansha's Loyal Minion:
+    name: Sansha's Loyal Minion
+  Sansha's Loyal Plague:
+    name: Sansha's Loyal Plague
+  Sansha's Loyal Ravener:
+    name: Sansha's Loyal Ravener
+  Sansha's Loyal Savage:
+    name: Sansha's Loyal Savage
+  Sansha's Loyal Scavanger:
+    name: Sansha's Loyal Scavanger
+  Sansha's Loyal Servant:
+    name: Sansha's Loyal Servant
+  Sansha's Loyal Slavehunter:
+    name: Sansha's Loyal Slavehunter
+  Sansha's Minion:
+    name: Sansha's Minion
+  Sansha's Plague:
+    name: Sansha's Plague
+  Sansha's Ravener:
+    name: Sansha's Ravener
+  Sansha's Savage:
+    name: Sansha's Savage
+  Sansha's Scavenger:
+    name: Sansha's Scavenger
+  Sansha's Servant:
+    name: Sansha's Servant
+  Sansha's Slavehunter:
+    name: Sansha's Slavehunter

@@ -2,22 +2,30 @@ items:
   Caldari Navy Stasis Webifier Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Caldari Navy Stasis Webifier Blueprint
   Civilian Stasis Webifier Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Civilian Stasis Webifier Blueprint
   Federation Navy Stasis Webifier Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Federation Navy Stasis Webifier Blueprint
   Heavy Stasis Grappler I Blueprint:
     TechLevel: 1
+    name: Heavy Stasis Grappler I Blueprint
   Heavy Stasis Grappler II Blueprint:
     TechLevel: 1
+    name: Heavy Stasis Grappler II Blueprint
   Khanid Navy Stasis Webifier Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Khanid Navy Stasis Webifier Blueprint
   Stasis Webifier I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Stasis Webifier I Blueprint
   Stasis Webifier II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Stasis Webifier II Blueprint

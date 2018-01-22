@@ -11,6 +11,7 @@ items:
     ShieldUniformity: 0.75
     SignatureRadius: 4500
     StructureUniformity: 1.0
+    name: Customs Office
   InterBus Customs Office:
     ArmorHP: 2500000
     ArmorUniformity: 0.75
@@ -23,6 +24,7 @@ items:
     ShieldUniformity: 0.75
     SignatureRadius: 4500
     StructureUniformity: 1.0
+    name: InterBus Customs Office
   Orbital Command Center:
     ArmorHP: 10000
     DisallowInEmpireSpace: 1
@@ -35,3 +37,4 @@ items:
     SignatureRadius: 100
     SpecialMaterialBayCapacity: 5000000
     StructureUniformity: 1.0
+    name: Orbital Command Center

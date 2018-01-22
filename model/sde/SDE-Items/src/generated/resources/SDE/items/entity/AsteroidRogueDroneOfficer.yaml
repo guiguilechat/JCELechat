@@ -1,5 +1,9 @@
 items:
-  Unit D-34343: {}
-  Unit F-435454: {}
-  Unit P-343554: {}
-  Unit W-634: {}
+  Unit D-34343:
+    name: Unit D-34343
+  Unit F-435454:
+    name: Unit F-435454
+  Unit P-343554:
+    name: Unit P-343554
+  Unit W-634:
+    name: Unit W-634

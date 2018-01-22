@@ -21,6 +21,7 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
     Uniformity: 1.0
+    name: Capital Shipyard
   Corporate Hangar Array:
     AnchoringDelay: 5000
     ArmorHP: 20000
@@ -43,3 +44,4 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Corporate Hangar Array

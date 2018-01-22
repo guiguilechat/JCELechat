@@ -4,6 +4,7 @@ items:
     Cpu: 15000.0
     Power: 450000
     ServiceModuleFuelConsumptionGroup: 1136
+    name: Structure Datacore Field Research
   Structure Material Efficiency Laboratory:
     CanFitShipGroup01: 1657
     Cpu: 3000.0
@@ -11,6 +12,7 @@ items:
     ServiceModuleFuelAmount: 10
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 720
+    name: Structure Material Efficiency Laboratory
   Structure Time Efficiency Laboratory:
     CanFitShipGroup01: 1657
     Cpu: 1500.0
@@ -18,3 +20,4 @@ items:
     ServiceModuleFuelAmount: 5
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 360
+    name: Structure Time Efficiency Laboratory

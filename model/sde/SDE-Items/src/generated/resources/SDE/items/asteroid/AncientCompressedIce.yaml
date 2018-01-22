@@ -2,36 +2,48 @@ items:
   Ancient Compressed Blue Ice:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    name: Ancient Compressed Blue Ice
   Ancient Compressed Clear Icicle:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    name: Ancient Compressed Clear Icicle
   Ancient Compressed Dark Glitter:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    name: Ancient Compressed Dark Glitter
   Ancient Compressed Enriched Clear Icicle:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    name: Ancient Compressed Enriched Clear Icicle
   Ancient Compressed Gelidus:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    name: Ancient Compressed Gelidus
   Ancient Compressed Glacial Mass:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    name: Ancient Compressed Glacial Mass
   Ancient Compressed Glare Crust:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    name: Ancient Compressed Glare Crust
   Ancient Compressed Krystallos:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    name: Ancient Compressed Krystallos
   Ancient Compressed Pristine White Glaze:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    name: Ancient Compressed Pristine White Glaze
   Ancient Compressed Smooth Glacial Mass:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    name: Ancient Compressed Smooth Glacial Mass
   Ancient Compressed Thick Blue Ice:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    name: Ancient Compressed Thick Blue Ice
   Ancient Compressed White Glaze:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    name: Ancient Compressed White Glaze

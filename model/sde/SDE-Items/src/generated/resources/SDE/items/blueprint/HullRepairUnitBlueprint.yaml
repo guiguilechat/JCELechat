@@ -1,36 +1,49 @@
 items:
   Capital Hull Repairer I Blueprint:
     TechLevel: 1
+    name: Capital Hull Repairer I Blueprint
   Capital Hull Repairer II Blueprint:
     TechLevel: 1
+    name: Capital Hull Repairer II Blueprint
   Capital I-b Enduring Hull Repairer Blueprint:
     TechLevel: 1
+    name: Capital I-b Enduring Hull Repairer Blueprint
   Capital IEF Compact Hull Repairer Blueprint:
     TechLevel: 1
+    name: Capital IEF Compact Hull Repairer Blueprint
   Large 'Integrative' Hull Repair Unit Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Large 'Integrative' Hull Repair Unit Blueprint
   Large Hull Repairer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Large Hull Repairer I Blueprint
   Large Hull Repairer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Large Hull Repairer II Blueprint
   Medium 'Integrative' Hull Repair Unit Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium 'Integrative' Hull Repair Unit Blueprint
   Medium Hull Repairer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium Hull Repairer I Blueprint
   Medium Hull Repairer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Medium Hull Repairer II Blueprint
   Small 'Integrative' Hull Repair Unit Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small 'Integrative' Hull Repair Unit Blueprint
   Small Hull Repairer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Hull Repairer I Blueprint
   Small Hull Repairer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Hull Repairer II Blueprint

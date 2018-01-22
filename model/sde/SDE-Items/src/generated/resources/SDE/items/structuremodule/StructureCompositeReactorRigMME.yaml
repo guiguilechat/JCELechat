@@ -14,6 +14,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    name: Standup M-Set Composite Reactor Material Efficiency I
   Standup M-Set Composite Reactor Material Efficiency II:
     CanFitShipGroup03: 1406
     DisallowInHighSec: 1
@@ -29,3 +30,4 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    name: Standup M-Set Composite Reactor Material Efficiency II

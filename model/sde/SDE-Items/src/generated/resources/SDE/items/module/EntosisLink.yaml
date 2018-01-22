@@ -17,6 +17,7 @@ items:
     Slots: 1
     SpeedLimit: 4000
     TechLevel: 1
+    name: Affirmative. Modified Entosis Link
   Entosis Link I:
     CapacitorNeed: 50.0
     ConsumptionQuantity: 1
@@ -34,6 +35,7 @@ items:
     Slots: 1
     SpeedLimit: 4000
     TechLevel: 1
+    name: Entosis Link I
   Entosis Link II:
     CapacitorNeed: 500.0
     ConsumptionQuantity: 1
@@ -52,6 +54,7 @@ items:
     Slots: 1
     SpeedLimit: 4000
     TechLevel: 2
+    name: Entosis Link II
   Noir. Modified Entosis Link:
     CapacitorNeed: 50.0
     ConsumptionQuantity: 1
@@ -70,6 +73,7 @@ items:
     Slots: 1
     SpeedLimit: 4200
     TechLevel: 1
+    name: Noir. Modified Entosis Link
   Pandemic SPHERE Modified Entosis Link:
     CapacitorNeed: 50.0
     ConsumptionQuantity: 1
@@ -88,6 +92,7 @@ items:
     Slots: 1
     SpeedLimit: 4000
     TechLevel: 1
+    name: Pandemic SPHERE Modified Entosis Link
   QA Entosis Link:
     CapacitorNeed: 10.0
     ConsumptionQuantity: 1
@@ -107,6 +112,7 @@ items:
     Slots: 1
     SpeedLimit: 4000
     TechLevel: 1
+    name: QA Entosis Link
   Spectre Fleet's Modified Entosis Link:
     CapacitorNeed: 50.0
     ConsumptionQuantity: 1
@@ -125,3 +131,4 @@ items:
     Slots: 1
     SpeedLimit: 4000
     TechLevel: 1
+    name: Spectre Fleet's Modified Entosis Link

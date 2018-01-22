@@ -1,11 +1,21 @@
 items:
-  Domination Cherubim: {}
-  Domination Commander: {}
-  Domination General: {}
-  Domination Malakim: {}
-  Domination Nephilim: {}
-  Domination Saint: {}
-  Domination Seraphim: {}
-  Domination Throne: {}
-  Domination War General: {}
-  Domination Warlord: {}
+  Domination Cherubim:
+    name: Domination Cherubim
+  Domination Commander:
+    name: Domination Commander
+  Domination General:
+    name: Domination General
+  Domination Malakim:
+    name: Domination Malakim
+  Domination Nephilim:
+    name: Domination Nephilim
+  Domination Saint:
+    name: Domination Saint
+  Domination Seraphim:
+    name: Domination Seraphim
+  Domination Throne:
+    name: Domination Throne
+  Domination War General:
+    name: Domination War General
+  Domination Warlord:
+    name: Domination Warlord

@@ -2,3 +2,4 @@ items:
   District Satellite:
     ProximityRange: 10000
     Untargetable: 1
+    name: District Satellite

@@ -1,21 +1,41 @@
 items:
-  Core Admiral: {}
-  Core Baron: {}
-  Core Commodore: {}
-  Core Flotilla Admiral: {}
-  Core Grand Admiral: {}
-  Core High Admiral: {}
-  Core Lord Admiral: {}
-  Core Port Admiral: {}
-  Core Rear Admiral: {}
-  Core Vice Admiral: {}
-  Shadow Core Admiral: {}
-  Shadow Core Baron: {}
-  Shadow Core Commodore: {}
-  Shadow Core Flotilla Admiral: {}
-  Shadow Core Grand Admiral: {}
-  Shadow Core High Admiral: {}
-  Shadow Core Lord Admiral: {}
-  Shadow Core Port Admiral: {}
-  Shadow Core Rear Admiral: {}
-  Shadow Core Vice Admiral: {}
+  Core Admiral:
+    name: Core Admiral
+  Core Baron:
+    name: Core Baron
+  Core Commodore:
+    name: Core Commodore
+  Core Flotilla Admiral:
+    name: Core Flotilla Admiral
+  Core Grand Admiral:
+    name: Core Grand Admiral
+  Core High Admiral:
+    name: Core High Admiral
+  Core Lord Admiral:
+    name: Core Lord Admiral
+  Core Port Admiral:
+    name: Core Port Admiral
+  Core Rear Admiral:
+    name: Core Rear Admiral
+  Core Vice Admiral:
+    name: Core Vice Admiral
+  Shadow Core Admiral:
+    name: Shadow Core Admiral
+  Shadow Core Baron:
+    name: Shadow Core Baron
+  Shadow Core Commodore:
+    name: Shadow Core Commodore
+  Shadow Core Flotilla Admiral:
+    name: Shadow Core Flotilla Admiral
+  Shadow Core Grand Admiral:
+    name: Shadow Core Grand Admiral
+  Shadow Core High Admiral:
+    name: Shadow Core High Admiral
+  Shadow Core Lord Admiral:
+    name: Shadow Core Lord Admiral
+  Shadow Core Port Admiral:
+    name: Shadow Core Port Admiral
+  Shadow Core Rear Admiral:
+    name: Shadow Core Rear Admiral
+  Shadow Core Vice Admiral:
+    name: Shadow Core Vice Admiral

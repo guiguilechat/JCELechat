@@ -2,62 +2,84 @@ items:
   Aurora L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Aurora L Blueprint
   Aurora M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Aurora M Blueprint
   Aurora S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Aurora S Blueprint
   Aurora XL Blueprint:
     TechLevel: 2
+    name: Aurora XL Blueprint
   Blaze L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Blaze L Blueprint
   Blaze M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Blaze M Blueprint
   Blaze S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Blaze S Blueprint
   Conflagration L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Conflagration L Blueprint
   Conflagration M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Conflagration M Blueprint
   Conflagration S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Conflagration S Blueprint
   Conflagration XL Blueprint:
     TechLevel: 2
+    name: Conflagration XL Blueprint
   Gleam L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Gleam L Blueprint
   Gleam M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Gleam M Blueprint
   Gleam S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Gleam S Blueprint
   Gleam XL Blueprint:
     TechLevel: 2
+    name: Gleam XL Blueprint
   Lux L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Lux L Blueprint
   Lux M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Lux M Blueprint
   Lux S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Lux S Blueprint
   Scorch L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Scorch L Blueprint
   Scorch M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Scorch M Blueprint
   Scorch S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Scorch S Blueprint
   Scorch XL Blueprint:
     TechLevel: 2
+    name: Scorch XL Blueprint

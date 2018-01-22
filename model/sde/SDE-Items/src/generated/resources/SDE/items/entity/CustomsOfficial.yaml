@@ -1,18 +1,35 @@
 items:
-  Amarr Customs Captain: {}
-  Amarr Customs General: {}
-  Amarr Customs Surveillance Officer: {}
-  Ammatar Customs General: {}
-  Ammatar Customs Surveillance Officer: {}
-  CONCORD Customs Commander: {}
-  CONCORD Customs Official: {}
-  Caldari Customs Agent: {}
-  Caldari Customs Commissioner: {}
-  Gallente Customs Major: {}
-  Gallente Customs Official: {}
-  Khanid Customs General Major: {}
-  Khanid Customs Surveillance Officer: {}
-  Minmatar Customs Commander: {}
-  Minmatar Customs Patroller: {}
-  Sarum Customs General: {}
-  Sarum Customs Surveillance Officer: {}
+  Amarr Customs Captain:
+    name: Amarr Customs Captain
+  Amarr Customs General:
+    name: Amarr Customs General
+  Amarr Customs Surveillance Officer:
+    name: Amarr Customs Surveillance Officer
+  Ammatar Customs General:
+    name: Ammatar Customs General
+  Ammatar Customs Surveillance Officer:
+    name: Ammatar Customs Surveillance Officer
+  CONCORD Customs Commander:
+    name: CONCORD Customs Commander
+  CONCORD Customs Official:
+    name: CONCORD Customs Official
+  Caldari Customs Agent:
+    name: Caldari Customs Agent
+  Caldari Customs Commissioner:
+    name: Caldari Customs Commissioner
+  Gallente Customs Major:
+    name: Gallente Customs Major
+  Gallente Customs Official:
+    name: Gallente Customs Official
+  Khanid Customs General Major:
+    name: Khanid Customs General Major
+  Khanid Customs Surveillance Officer:
+    name: Khanid Customs Surveillance Officer
+  Minmatar Customs Commander:
+    name: Minmatar Customs Commander
+  Minmatar Customs Patroller:
+    name: Minmatar Customs Patroller
+  Sarum Customs General:
+    name: Sarum Customs General
+  Sarum Customs Surveillance Officer:
+    name: Sarum Customs Surveillance Officer

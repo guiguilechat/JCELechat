@@ -20,6 +20,7 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Arch Angel Nova F.O.F. Heavy Missile I
   Blood Mjolnir F.O.F. Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -41,6 +42,7 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Blood Mjolnir F.O.F. Heavy Missile I
   Caldari Navy Scourge Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -63,6 +65,7 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Caldari Navy Scourge Auto-Targeting Heavy Missile I
   Dark Blood Mjolnir F.O.F. Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -84,6 +87,7 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Dark Blood Mjolnir F.O.F. Heavy Missile I
   Domination Nova F.O.F. Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -105,6 +109,7 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Domination Nova F.O.F. Heavy Missile I
   Dread Guristas Scourge F.O.F. Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -126,6 +131,7 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Dread Guristas Scourge F.O.F. Heavy Missile I
   Federation Navy Inferno Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -148,6 +154,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 122.0
+    name: Federation Navy Inferno Auto-Targeting Heavy Missile I
   Guardian Inferno F.O.F. Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -169,6 +176,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 142.0
+    name: Guardian Inferno F.O.F. Heavy Missile I
   Guristas Scourge F.O.F. Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -190,6 +198,7 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Guristas Scourge F.O.F. Heavy Missile I
   Imperial Navy Mjolnir Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -212,6 +221,7 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Imperial Navy Mjolnir Auto-Targeting Heavy Missile I
   Inferno Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -233,6 +243,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 107.0
+    name: Inferno Auto-Targeting Heavy Missile I
   Mjolnir Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -254,6 +265,7 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Mjolnir Auto-Targeting Heavy Missile I
   Nova Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -275,6 +287,7 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Nova Auto-Targeting Heavy Missile I
   Republic Fleet Nova Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -297,6 +310,7 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Republic Fleet Nova Auto-Targeting Heavy Missile I
   Scourge Auto-Targeting Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -318,6 +332,7 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Scourge Auto-Targeting Heavy Missile I
   Shadow Inferno F.O.F. Heavy Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -339,3 +354,4 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 130.0
+    name: Shadow Inferno F.O.F. Heavy Missile I

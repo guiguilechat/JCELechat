@@ -19,6 +19,7 @@ items:
     StructureRigBonus2: 3.200000047683716
     TechLevel: 1
     UpgradeCost: 100
+    name: Standup L-Set Basic Large Ship Manufacturing Efficiency I
   Standup L-Set Basic Large Ship Manufacturing Efficiency II:
     AttributeEngRigMatBonus: -2.4000000953674316
     AttributeEngRigTimeBonus: -24
@@ -39,3 +40,4 @@ items:
     StructureRigBonus2: 4.0
     TechLevel: 2
     UpgradeCost: 150
+    name: Standup L-Set Basic Large Ship Manufacturing Efficiency II

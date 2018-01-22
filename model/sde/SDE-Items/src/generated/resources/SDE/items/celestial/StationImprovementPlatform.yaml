@@ -6,6 +6,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28076
+    name: Amarr Advanced Outpost Factory Platform
   Amarr Advanced Outpost Laboratory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -13,6 +14,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28078
+    name: Amarr Advanced Outpost Laboratory Platform
   Amarr Advanced Outpost Office Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -20,6 +22,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28079
+    name: Amarr Advanced Outpost Office Platform
   Amarr Advanced Outpost Plant Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -27,6 +30,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28077
+    name: Amarr Advanced Outpost Plant Platform
   Amarr Advanced Outpost Refinery Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -35,6 +39,7 @@ items:
     RequiresSovereigntyDisplayOnly: 1
     StationOreRefiningBonus: 0.07000000029802322
     StationTypeID: 28080
+    name: Amarr Advanced Outpost Refinery Platform
   Amarr Basic Outpost Factory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -42,6 +47,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28081
+    name: Amarr Basic Outpost Factory Platform
   Amarr Basic Outpost Laboratory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -49,6 +55,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28083
+    name: Amarr Basic Outpost Laboratory Platform
   Amarr Basic Outpost Office Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -56,6 +63,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28084
+    name: Amarr Basic Outpost Office Platform
   Amarr Basic Outpost Plant Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -63,6 +71,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28082
+    name: Amarr Basic Outpost Plant Platform
   Amarr Basic Outpost Refinery Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -71,6 +80,7 @@ items:
     RequiresSovereigntyDisplayOnly: 1
     StationOreRefiningBonus: 0.019999999552965164
     StationTypeID: 28085
+    name: Amarr Basic Outpost Refinery Platform
   Amarr Outpost Factory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -78,6 +88,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28086
+    name: Amarr Outpost Factory Platform
   Amarr Outpost Laboratory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -85,6 +96,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28088
+    name: Amarr Outpost Laboratory Platform
   Amarr Outpost Office Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -92,6 +104,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28089
+    name: Amarr Outpost Office Platform
   Amarr Outpost Plant Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -99,6 +112,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28087
+    name: Amarr Outpost Plant Platform
   Amarr Outpost Refinery Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -107,6 +121,7 @@ items:
     RequiresSovereigntyDisplayOnly: 1
     StationOreRefiningBonus: 0.03999999910593033
     StationTypeID: 28090
+    name: Amarr Outpost Refinery Platform
   Caldari Advanced Outpost Factory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -114,6 +129,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28091
+    name: Caldari Advanced Outpost Factory Platform
   Caldari Advanced Outpost Laboratory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -121,6 +137,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28092
+    name: Caldari Advanced Outpost Laboratory Platform
   Caldari Advanced Outpost Office Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -128,6 +145,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28094
+    name: Caldari Advanced Outpost Office Platform
   Caldari Advanced Outpost Refinery Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -136,6 +154,7 @@ items:
     RequiresSovereigntyDisplayOnly: 1
     StationOreRefiningBonus: 0.07000000029802322
     StationTypeID: 28095
+    name: Caldari Advanced Outpost Refinery Platform
   Caldari Advanced Outpost Research Facility Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -143,6 +162,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28093
+    name: Caldari Advanced Outpost Research Facility Platform
   Caldari Basic Outpost Factory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -150,6 +170,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28096
+    name: Caldari Basic Outpost Factory Platform
   Caldari Basic Outpost Laboratory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -157,6 +178,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28097
+    name: Caldari Basic Outpost Laboratory Platform
   Caldari Basic Outpost Office Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -164,6 +186,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28099
+    name: Caldari Basic Outpost Office Platform
   Caldari Basic Outpost Refinery Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -172,6 +195,7 @@ items:
     RequiresSovereigntyDisplayOnly: 1
     StationOreRefiningBonus: 0.019999999552965164
     StationTypeID: 28100
+    name: Caldari Basic Outpost Refinery Platform
   Caldari Basic Outpost Research Facility Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -179,6 +203,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28098
+    name: Caldari Basic Outpost Research Facility Platform
   Caldari Outpost Factory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -186,6 +211,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28101
+    name: Caldari Outpost Factory Platform
   Caldari Outpost Laboratory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -193,6 +219,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28102
+    name: Caldari Outpost Laboratory Platform
   Caldari Outpost Office Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -200,6 +227,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28104
+    name: Caldari Outpost Office Platform
   Caldari Outpost Refinery Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -208,6 +236,7 @@ items:
     RequiresSovereigntyDisplayOnly: 1
     StationOreRefiningBonus: 0.03999999910593033
     StationTypeID: 28105
+    name: Caldari Outpost Refinery Platform
   Caldari Outpost Research Facility Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -215,6 +244,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28103
+    name: Caldari Outpost Research Facility Platform
   Gallente Advanced Outpost Factory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -222,6 +252,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28106
+    name: Gallente Advanced Outpost Factory Platform
   Gallente Advanced Outpost Laboratory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -229,6 +260,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28108
+    name: Gallente Advanced Outpost Laboratory Platform
   Gallente Advanced Outpost Office Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -236,6 +268,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28109
+    name: Gallente Advanced Outpost Office Platform
   Gallente Advanced Outpost Plant Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -243,6 +276,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28107
+    name: Gallente Advanced Outpost Plant Platform
   Gallente Advanced Outpost Refinery Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -251,6 +285,7 @@ items:
     RequiresSovereigntyDisplayOnly: 1
     StationOreRefiningBonus: 0.07000000029802322
     StationTypeID: 28110
+    name: Gallente Advanced Outpost Refinery Platform
   Gallente Basic Outpost Factory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -258,6 +293,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28111
+    name: Gallente Basic Outpost Factory Platform
   Gallente Basic Outpost Laboratory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -265,6 +301,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28113
+    name: Gallente Basic Outpost Laboratory Platform
   Gallente Basic Outpost Office Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -272,6 +309,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28114
+    name: Gallente Basic Outpost Office Platform
   Gallente Basic Outpost Plant Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -279,6 +317,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28112
+    name: Gallente Basic Outpost Plant Platform
   Gallente Basic Outpost Refinery Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -287,6 +326,7 @@ items:
     RequiresSovereigntyDisplayOnly: 1
     StationOreRefiningBonus: 0.019999999552965164
     StationTypeID: 28115
+    name: Gallente Basic Outpost Refinery Platform
   Gallente Outpost Factory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -294,6 +334,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28116
+    name: Gallente Outpost Factory Platform
   Gallente Outpost Laboratory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -301,6 +342,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28118
+    name: Gallente Outpost Laboratory Platform
   Gallente Outpost Office Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -308,6 +350,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28119
+    name: Gallente Outpost Office Platform
   Gallente Outpost Plant Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -315,6 +358,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28117
+    name: Gallente Outpost Plant Platform
   Gallente Outpost Refinery Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -323,6 +367,7 @@ items:
     RequiresSovereigntyDisplayOnly: 1
     StationOreRefiningBonus: 0.03999999910593033
     StationTypeID: 28120
+    name: Gallente Outpost Refinery Platform
   Minmatar Advanced Outpost Factory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -330,6 +375,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28121
+    name: Minmatar Advanced Outpost Factory Platform
   Minmatar Advanced Outpost Laboratory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -337,6 +383,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28123
+    name: Minmatar Advanced Outpost Laboratory Platform
   Minmatar Advanced Outpost Office Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -344,6 +391,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28124
+    name: Minmatar Advanced Outpost Office Platform
   Minmatar Advanced Outpost Plant Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -351,6 +399,7 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28122
+    name: Minmatar Advanced Outpost Plant Platform
   Minmatar Advanced Outpost Refinery Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -359,6 +408,7 @@ items:
     RequiresSovereigntyDisplayOnly: 1
     StationOreRefiningBonus: 0.07999999821186066
     StationTypeID: 28125
+    name: Minmatar Advanced Outpost Refinery Platform
   Minmatar Basic Outpost Factory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -366,6 +416,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28126
+    name: Minmatar Basic Outpost Factory Platform
   Minmatar Basic Outpost Laboratory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -373,6 +424,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28128
+    name: Minmatar Basic Outpost Laboratory Platform
   Minmatar Basic Outpost Office Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -380,6 +432,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28129
+    name: Minmatar Basic Outpost Office Platform
   Minmatar Basic Outpost Plant Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -387,6 +440,7 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28127
+    name: Minmatar Basic Outpost Plant Platform
   Minmatar Basic Outpost Refinery Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -395,6 +449,7 @@ items:
     RequiresSovereigntyDisplayOnly: 1
     StationOreRefiningBonus: 0.019999999552965164
     StationTypeID: 28130
+    name: Minmatar Basic Outpost Refinery Platform
   Minmatar Outpost Factory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -402,6 +457,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28131
+    name: Minmatar Outpost Factory Platform
   Minmatar Outpost Laboratory Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -409,6 +465,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28133
+    name: Minmatar Outpost Laboratory Platform
   Minmatar Outpost Office Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -416,6 +473,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28134
+    name: Minmatar Outpost Office Platform
   Minmatar Outpost Plant Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -423,6 +481,7 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28132
+    name: Minmatar Outpost Plant Platform
   Minmatar Outpost Refinery Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -431,3 +490,4 @@ items:
     RequiresSovereigntyDisplayOnly: 1
     StationOreRefiningBonus: 0.05000000074505806
     StationTypeID: 28135
+    name: Minmatar Outpost Refinery Platform

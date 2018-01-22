@@ -2,60 +2,80 @@ items:
   '''Cactus'' Modified Kinetic Deflection Amplifier Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Cactus'' Modified Kinetic Deflection Amplifier Blueprint'
   '''High Noon'' Thermal Dissipation Amplifier Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''High Noon'' Thermal Dissipation Amplifier Blueprint'
   '''Prospector'' EM Ward Amplifier Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Prospector'' EM Ward Amplifier Blueprint'
   '''Whiskey'' Explosive Deflection Amplifier Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Whiskey'' Explosive Deflection Amplifier Blueprint'
   Caldari Navy EM Ward Amplifier Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Caldari Navy EM Ward Amplifier Blueprint
   Caldari Navy Explosive Deflection Amplifier Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Caldari Navy Explosive Deflection Amplifier Blueprint
   Caldari Navy Kinetic Deflection Amplifier Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Caldari Navy Kinetic Deflection Amplifier Blueprint
   Caldari Navy Thermal Dissipation Amplifier Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Caldari Navy Thermal Dissipation Amplifier Blueprint
   EM Ward Amplifier I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: EM Ward Amplifier I Blueprint
   EM Ward Amplifier II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: EM Ward Amplifier II Blueprint
   Explosive Deflection Amplifier I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Explosive Deflection Amplifier I Blueprint
   Explosive Deflection Amplifier II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Explosive Deflection Amplifier II Blueprint
   Kinetic Deflection Amplifier I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Kinetic Deflection Amplifier I Blueprint
   Kinetic Deflection Amplifier II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Kinetic Deflection Amplifier II Blueprint
   Republic Fleet EM Ward Amplifier Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Republic Fleet EM Ward Amplifier Blueprint
   Republic Fleet Explosive Deflection Amplifier Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Republic Fleet Explosive Deflection Amplifier Blueprint
   Republic Fleet Kinetic Deflection Amplifier Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Republic Fleet Kinetic Deflection Amplifier Blueprint
   Republic Fleet Thermal Dissipation Amplifier Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Republic Fleet Thermal Dissipation Amplifier Blueprint
   Thermal Dissipation Amplifier I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Thermal Dissipation Amplifier I Blueprint
   Thermal Dissipation Amplifier II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Thermal Dissipation Amplifier II Blueprint

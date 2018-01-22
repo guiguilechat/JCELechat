@@ -1,2 +1,3 @@
 items:
-  Default Physical Portal: {}
+  Default Physical Portal:
+    name: Default Physical Portal

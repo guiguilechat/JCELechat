@@ -3,31 +3,39 @@ items:
     CpuLoad: 500
     PlanetRestriction: 2016
     PowerLoad: 700
+    name: Barren Storage Facility
   Gas Storage Facility:
     CpuLoad: 500
     PlanetRestriction: 13
     PowerLoad: 700
+    name: Gas Storage Facility
   Ice Storage Facility:
     CpuLoad: 500
     PlanetRestriction: 12
     PowerLoad: 700
+    name: Ice Storage Facility
   Lava Storage Facility:
     CpuLoad: 500
     PlanetRestriction: 2015
     PowerLoad: 700
+    name: Lava Storage Facility
   Oceanic Storage Facility:
     CpuLoad: 500
     PlanetRestriction: 2014
     PowerLoad: 700
+    name: Oceanic Storage Facility
   Plasma Storage Facility:
     CpuLoad: 500
     PlanetRestriction: 2063
     PowerLoad: 700
+    name: Plasma Storage Facility
   Storm Storage Facility:
     CpuLoad: 500
     PlanetRestriction: 2017
     PowerLoad: 700
+    name: Storm Storage Facility
   Temperate Storage Facility:
     CpuLoad: 500
     PlanetRestriction: 11
     PowerLoad: 700
+    name: Temperate Storage Facility

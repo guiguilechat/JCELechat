@@ -9,6 +9,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2016
     PowerLoad: 2600
+    name: Barren Extractor Control Unit
   Gas Extractor Control Unit:
     CpuLoad: 400
     EcuExtractorHeadCPU: 110
@@ -19,6 +20,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 13
     PowerLoad: 2600
+    name: Gas Extractor Control Unit
   Ice Extractor Control Unit:
     CpuLoad: 400
     EcuExtractorHeadCPU: 110
@@ -29,6 +31,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 12
     PowerLoad: 2600
+    name: Ice Extractor Control Unit
   Lava Extractor Control Unit:
     CpuLoad: 400
     EcuExtractorHeadCPU: 110
@@ -39,6 +42,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2015
     PowerLoad: 2600
+    name: Lava Extractor Control Unit
   Oceanic Extractor Control Unit:
     CpuLoad: 400
     EcuExtractorHeadCPU: 110
@@ -49,6 +53,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2014
     PowerLoad: 2600
+    name: Oceanic Extractor Control Unit
   Plasma Extractor Control Unit:
     CpuLoad: 400
     EcuExtractorHeadCPU: 110
@@ -59,6 +64,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2063
     PowerLoad: 2600
+    name: Plasma Extractor Control Unit
   Storm Extractor Control Unit:
     CpuLoad: 400
     EcuExtractorHeadCPU: 110
@@ -69,6 +75,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2017
     PowerLoad: 2600
+    name: Storm Extractor Control Unit
   Temperate Extractor Control Unit:
     CpuLoad: 400
     EcuExtractorHeadCPU: 110
@@ -79,3 +86,4 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 11
     PowerLoad: 2600
+    name: Temperate Extractor Control Unit

@@ -1,31 +1,46 @@
 items:
   Crystalline Carbonide:
     MoonMiningAmount: 10000
+    name: Crystalline Carbonide
   Fermionic Condensates:
     MoonMiningAmount: 200
+    name: Fermionic Condensates
   Fernite Carbide:
     MoonMiningAmount: 10000
+    name: Fernite Carbide
   Ferrogel:
     MoonMiningAmount: 400
+    name: Ferrogel
   Fullerides:
     MoonMiningAmount: 3000
+    name: Fullerides
   Hypersynaptic Fibers:
     MoonMiningAmount: 750
+    name: Hypersynaptic Fibers
   Nanotransistors:
     MoonMiningAmount: 1500
+    name: Nanotransistors
   Nonlinear Metamaterials:
     MoonMiningAmount: 300
+    name: Nonlinear Metamaterials
   Phenolic Composites:
     MoonMiningAmount: 2200
+    name: Phenolic Composites
   Photonic Metamaterials:
     MoonMiningAmount: 300
+    name: Photonic Metamaterials
   Plasmonic Metamaterials:
     MoonMiningAmount: 300
+    name: Plasmonic Metamaterials
   Sylramic Fibers:
     MoonMiningAmount: 6000
+    name: Sylramic Fibers
   Terahertz Metamaterials:
     MoonMiningAmount: 300
+    name: Terahertz Metamaterials
   Titanium Carbide:
     MoonMiningAmount: 10000
+    name: Titanium Carbide
   Tungsten Carbide:
     MoonMiningAmount: 10000
+    name: Tungsten Carbide

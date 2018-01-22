@@ -21,6 +21,7 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    name: Large Advertisement Center
   Medium Advertisement Center:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -43,6 +44,7 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    name: Medium Advertisement Center
   X-Large Advertisement Center:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -65,3 +67,4 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    name: X-Large Advertisement Center

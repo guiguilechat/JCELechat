@@ -8,6 +8,7 @@ items:
     RequiredSkill1: 21610
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Experimental Jump Drive Economizer
   Limited Jump Drive Economizer:
     CanFitShipGroup01: 902
     CanFitShipGroup02: 883
@@ -17,6 +18,7 @@ items:
     RequiredSkill1: 21610
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Limited Jump Drive Economizer
   Prototype Jump Drive Economizer:
     CanFitShipGroup01: 902
     CanFitShipGroup02: 883
@@ -26,3 +28,4 @@ items:
     RequiredSkill1: 21610
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Prototype Jump Drive Economizer

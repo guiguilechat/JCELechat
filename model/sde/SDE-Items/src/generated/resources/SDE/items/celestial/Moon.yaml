@@ -1,2 +1,3 @@
 items:
-  Moon: {}
+  Moon:
+    name: Moon

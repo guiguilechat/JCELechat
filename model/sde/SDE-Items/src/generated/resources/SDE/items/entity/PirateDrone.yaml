@@ -1,13 +1,25 @@
 items:
-  Angel Fugitive: {}
-  Apocalypse 125ms 2500m: {}
-  Automated Centii Keyholder: {}
-  Automated Centii Training Vessel: {}
-  Automated Coreli Training Vessel: {}
-  Automated Corpii Training Vessel: {}
-  Automated Gisti Training Vessel: {}
-  Automated Pithi Training Vessel: {}
-  Blood Fugitive: {}
-  Petty Thief: {}
-  Sansha's Fugitive: {}
-  Serpentis Fugitive: {}
+  Angel Fugitive:
+    name: Angel Fugitive
+  Apocalypse 125ms 2500m:
+    name: Apocalypse 125ms 2500m
+  Automated Centii Keyholder:
+    name: Automated Centii Keyholder
+  Automated Centii Training Vessel:
+    name: Automated Centii Training Vessel
+  Automated Coreli Training Vessel:
+    name: Automated Coreli Training Vessel
+  Automated Corpii Training Vessel:
+    name: Automated Corpii Training Vessel
+  Automated Gisti Training Vessel:
+    name: Automated Gisti Training Vessel
+  Automated Pithi Training Vessel:
+    name: Automated Pithi Training Vessel
+  Blood Fugitive:
+    name: Blood Fugitive
+  Petty Thief:
+    name: Petty Thief
+  Sansha's Fugitive:
+    name: Sansha's Fugitive
+  Serpentis Fugitive:
+    name: Serpentis Fugitive

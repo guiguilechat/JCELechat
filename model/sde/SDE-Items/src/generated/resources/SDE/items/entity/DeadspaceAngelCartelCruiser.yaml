@@ -1,37 +1,73 @@
 items:
-  Angel Cartel Personnel Transport: {}
-  Angel Cartel Transport Ship: {}
-  Angel Cruiser Vessel: {}
-  Angel Transport: {}
-  Arch Gistum Breaker: {}
-  Arch Gistum Centurion: {}
-  Arch Gistum Crusher: {}
-  Arch Gistum Defeater: {}
-  Arch Gistum Depredator: {}
-  Arch Gistum Liquidator: {}
-  Arch Gistum Marauder: {}
-  Arch Gistum Phalanx: {}
-  Arch Gistum Predator: {}
-  Arch Gistum Smasher: {}
-  Gistum Breaker: {}
-  Gistum Centurion: {}
-  Gistum Crusher: {}
-  Gistum Defeater: {}
-  Gistum Depredator: {}
-  Gistum Domination Breaker: {}
-  Gistum Domination Centurion: {}
-  Gistum Domination Crusher: {}
-  Gistum Domination Defeater: {}
-  Gistum Domination Depredator: {}
-  Gistum Domination Liquidator: {}
-  Gistum Domination Marauder: {}
-  Gistum Domination Phalanx: {}
-  Gistum Domination Predator: {}
-  Gistum Domination Smasher: {}
-  Gistum Liquidator: {}
-  Gistum Marauder: {}
-  Gistum Phalanx: {}
-  Gistum Predator: {}
-  Gistum Smasher: {}
-  Renegade Angel Goon: {}
-  Society of Conscious Thought Cruiser: {}
+  Angel Cartel Personnel Transport:
+    name: Angel Cartel Personnel Transport
+  Angel Cartel Transport Ship:
+    name: Angel Cartel Transport Ship
+  Angel Cruiser Vessel:
+    name: Angel Cruiser Vessel
+  Angel Transport:
+    name: Angel Transport
+  Arch Gistum Breaker:
+    name: Arch Gistum Breaker
+  Arch Gistum Centurion:
+    name: Arch Gistum Centurion
+  Arch Gistum Crusher:
+    name: Arch Gistum Crusher
+  Arch Gistum Defeater:
+    name: Arch Gistum Defeater
+  Arch Gistum Depredator:
+    name: Arch Gistum Depredator
+  Arch Gistum Liquidator:
+    name: Arch Gistum Liquidator
+  Arch Gistum Marauder:
+    name: Arch Gistum Marauder
+  Arch Gistum Phalanx:
+    name: Arch Gistum Phalanx
+  Arch Gistum Predator:
+    name: Arch Gistum Predator
+  Arch Gistum Smasher:
+    name: Arch Gistum Smasher
+  Gistum Breaker:
+    name: Gistum Breaker
+  Gistum Centurion:
+    name: Gistum Centurion
+  Gistum Crusher:
+    name: Gistum Crusher
+  Gistum Defeater:
+    name: Gistum Defeater
+  Gistum Depredator:
+    name: Gistum Depredator
+  Gistum Domination Breaker:
+    name: Gistum Domination Breaker
+  Gistum Domination Centurion:
+    name: Gistum Domination Centurion
+  Gistum Domination Crusher:
+    name: Gistum Domination Crusher
+  Gistum Domination Defeater:
+    name: Gistum Domination Defeater
+  Gistum Domination Depredator:
+    name: Gistum Domination Depredator
+  Gistum Domination Liquidator:
+    name: Gistum Domination Liquidator
+  Gistum Domination Marauder:
+    name: Gistum Domination Marauder
+  Gistum Domination Phalanx:
+    name: Gistum Domination Phalanx
+  Gistum Domination Predator:
+    name: Gistum Domination Predator
+  Gistum Domination Smasher:
+    name: Gistum Domination Smasher
+  Gistum Liquidator:
+    name: Gistum Liquidator
+  Gistum Marauder:
+    name: Gistum Marauder
+  Gistum Phalanx:
+    name: Gistum Phalanx
+  Gistum Predator:
+    name: Gistum Predator
+  Gistum Smasher:
+    name: Gistum Smasher
+  Renegade Angel Goon:
+    name: Renegade Angel Goon
+  Society of Conscious Thought Cruiser:
+    name: Society of Conscious Thought Cruiser

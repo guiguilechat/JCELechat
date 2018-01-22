@@ -1,8 +1,15 @@
 items:
-  Caldari CA Destroyer: {}
-  State Kai Gunto: {}
-  State Kissaki: {}
-  State Shukuro Choji: {}
-  State Shukuro Kamikazi: {}
-  State Tsuba: {}
-  State Yumi: {}
+  Caldari CA Destroyer:
+    name: Caldari CA Destroyer
+  State Kai Gunto:
+    name: State Kai Gunto
+  State Kissaki:
+    name: State Kissaki
+  State Shukuro Choji:
+    name: State Shukuro Choji
+  State Shukuro Kamikazi:
+    name: State Shukuro Kamikazi
+  State Tsuba:
+    name: State Tsuba
+  State Yumi:
+    name: State Yumi

@@ -6,6 +6,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     VelocityBonus: 7.25
+    name: Capital Auxiliary Thrusters I
   Capital Auxiliary Thrusters II:
     Drawback: -10
     Hp: 40
@@ -14,6 +15,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     VelocityBonus: 8.75
+    name: Capital Auxiliary Thrusters II
   Capital Cargohold Optimization I:
     CargoCapacityBonus: 15
     Drawback: -10
@@ -21,6 +23,7 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
+    name: Capital Cargohold Optimization I
   Capital Cargohold Optimization II:
     CargoCapacityBonus: 20
     Drawback: -10
@@ -29,6 +32,7 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 150
+    name: Capital Cargohold Optimization II
   Capital Dynamic Fuel Valve I:
     CapNeedBonus: -15
     Drawback: -10
@@ -36,6 +40,7 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    name: Capital Dynamic Fuel Valve I
   Capital Dynamic Fuel Valve II:
     CapNeedBonus: -20
     Drawback: -10
@@ -44,6 +49,7 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    name: Capital Dynamic Fuel Valve II
   Capital Engine Thermal Shielding I:
     Drawback: -10
     DurationBonus: 20
@@ -51,6 +57,7 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    name: Capital Engine Thermal Shielding I
   Capital Engine Thermal Shielding II:
     Drawback: -10
     DurationBonus: 25
@@ -59,6 +66,7 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    name: Capital Engine Thermal Shielding II
   Capital Hyperspatial Velocity Optimizer I:
     Drawback: 10
     Hp: 40
@@ -66,6 +74,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     WarpSBonus: 20
+    name: Capital Hyperspatial Velocity Optimizer I
   Capital Hyperspatial Velocity Optimizer II:
     Drawback: 10
     Hp: 40
@@ -74,6 +83,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     WarpSBonus: 25
+    name: Capital Hyperspatial Velocity Optimizer II
   Capital Low Friction Nozzle Joints I:
     AgilityBonus: -11.699999809265137
     Drawback: -10
@@ -81,6 +91,7 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    name: Capital Low Friction Nozzle Joints I
   Capital Low Friction Nozzle Joints II:
     AgilityBonus: -14.0
     Drawback: -10
@@ -89,6 +100,7 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    name: Capital Low Friction Nozzle Joints II
   Capital Polycarbon Engine Housing I:
     AgilityMultiplier: -9.100000381469727
     Drawback: -10
@@ -97,6 +109,7 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
+    name: Capital Polycarbon Engine Housing I
   Capital Polycarbon Engine Housing II:
     AgilityMultiplier: -11.0
     Drawback: -10
@@ -106,6 +119,7 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 150
+    name: Capital Polycarbon Engine Housing II
   Capital Warp Core Optimizer I:
     Drawback: 10
     Hp: 40
@@ -113,6 +127,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     WarpCapacitorNeedBonus: -40
+    name: Capital Warp Core Optimizer I
   Capital Warp Core Optimizer II:
     Drawback: 10
     Hp: 40
@@ -121,6 +136,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     WarpCapacitorNeedBonus: -50
+    name: Capital Warp Core Optimizer II
   Large Auxiliary Thrusters I:
     Drawback: -10
     Hp: 40
@@ -128,6 +144,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     VelocityBonus: 7.25
+    name: Large Auxiliary Thrusters I
   Large Auxiliary Thrusters II:
     Drawback: -10
     Hp: 40
@@ -136,6 +153,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     VelocityBonus: 8.75
+    name: Large Auxiliary Thrusters II
   Large Cargohold Optimization I:
     CargoCapacityBonus: 15
     Drawback: -10
@@ -143,6 +161,7 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
+    name: Large Cargohold Optimization I
   Large Cargohold Optimization II:
     CargoCapacityBonus: 20
     Drawback: -10
@@ -151,6 +170,7 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 150
+    name: Large Cargohold Optimization II
   Large Dynamic Fuel Valve I:
     CapNeedBonus: -15
     Drawback: -10
@@ -158,6 +178,7 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    name: Large Dynamic Fuel Valve I
   Large Dynamic Fuel Valve II:
     CapNeedBonus: -20
     Drawback: -10
@@ -166,6 +187,7 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    name: Large Dynamic Fuel Valve II
   Large Engine Thermal Shielding I:
     Drawback: -10
     DurationBonus: 20
@@ -173,6 +195,7 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    name: Large Engine Thermal Shielding I
   Large Engine Thermal Shielding II:
     Drawback: -10
     DurationBonus: 25
@@ -181,6 +204,7 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    name: Large Engine Thermal Shielding II
   Large Hyperspatial Velocity Optimizer I:
     Drawback: 10
     Hp: 40
@@ -188,6 +212,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     WarpSBonus: 20
+    name: Large Hyperspatial Velocity Optimizer I
   Large Hyperspatial Velocity Optimizer II:
     Drawback: 10
     Hp: 40
@@ -196,6 +221,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     WarpSBonus: 25
+    name: Large Hyperspatial Velocity Optimizer II
   Large Low Friction Nozzle Joints I:
     AgilityBonus: -11.699999809265137
     Drawback: -10
@@ -203,6 +229,7 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    name: Large Low Friction Nozzle Joints I
   Large Low Friction Nozzle Joints II:
     AgilityBonus: -14.0
     Drawback: -10
@@ -211,6 +238,7 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    name: Large Low Friction Nozzle Joints II
   Large Polycarbon Engine Housing I:
     AgilityMultiplier: -9.100000381469727
     Drawback: -10
@@ -219,6 +247,7 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
+    name: Large Polycarbon Engine Housing I
   Large Polycarbon Engine Housing II:
     AgilityMultiplier: -11.0
     Drawback: -10
@@ -228,6 +257,7 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 150
+    name: Large Polycarbon Engine Housing II
   Large Warp Core Optimizer I:
     Drawback: 10
     Hp: 40
@@ -235,6 +265,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     WarpCapacitorNeedBonus: -40
+    name: Large Warp Core Optimizer I
   Large Warp Core Optimizer II:
     Drawback: 10
     Hp: 40
@@ -243,6 +274,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     WarpCapacitorNeedBonus: -50
+    name: Large Warp Core Optimizer II
   Medium Auxiliary Thrusters I:
     Drawback: -10
     Hp: 40
@@ -250,6 +282,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     VelocityBonus: 7.25
+    name: Medium Auxiliary Thrusters I
   Medium Auxiliary Thrusters II:
     Drawback: -10
     Hp: 40
@@ -258,6 +291,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     VelocityBonus: 8.75
+    name: Medium Auxiliary Thrusters II
   Medium Cargohold Optimization I:
     CargoCapacityBonus: 15
     Drawback: -10
@@ -265,6 +299,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
+    name: Medium Cargohold Optimization I
   Medium Cargohold Optimization II:
     CargoCapacityBonus: 20
     Drawback: -10
@@ -273,6 +308,7 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 150
+    name: Medium Cargohold Optimization II
   Medium Dynamic Fuel Valve I:
     CapNeedBonus: -15
     Drawback: -10
@@ -280,6 +316,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    name: Medium Dynamic Fuel Valve I
   Medium Dynamic Fuel Valve II:
     CapNeedBonus: -20
     Drawback: -10
@@ -288,6 +325,7 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    name: Medium Dynamic Fuel Valve II
   Medium Engine Thermal Shielding I:
     Drawback: -10
     DurationBonus: 20
@@ -295,6 +333,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    name: Medium Engine Thermal Shielding I
   Medium Engine Thermal Shielding II:
     Drawback: -10
     DurationBonus: 25
@@ -303,6 +342,7 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    name: Medium Engine Thermal Shielding II
   Medium Hyperspatial Velocity Optimizer I:
     Drawback: 10
     Hp: 40
@@ -310,6 +350,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     WarpSBonus: 20
+    name: Medium Hyperspatial Velocity Optimizer I
   Medium Hyperspatial Velocity Optimizer II:
     Drawback: 10
     Hp: 40
@@ -318,6 +359,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     WarpSBonus: 25
+    name: Medium Hyperspatial Velocity Optimizer II
   Medium Low Friction Nozzle Joints I:
     AgilityBonus: -11.699999809265137
     Drawback: -10
@@ -325,6 +367,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    name: Medium Low Friction Nozzle Joints I
   Medium Low Friction Nozzle Joints II:
     AgilityBonus: -14.0
     Drawback: -10
@@ -333,6 +376,7 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    name: Medium Low Friction Nozzle Joints II
   Medium Polycarbon Engine Housing I:
     AgilityMultiplier: -9.100000381469727
     Drawback: -10
@@ -341,6 +385,7 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
+    name: Medium Polycarbon Engine Housing I
   Medium Polycarbon Engine Housing II:
     AgilityMultiplier: -11.0
     Drawback: -10
@@ -350,6 +395,7 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 150
+    name: Medium Polycarbon Engine Housing II
   Medium Warp Core Optimizer I:
     Drawback: 10
     Hp: 40
@@ -357,6 +403,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     WarpCapacitorNeedBonus: -40
+    name: Medium Warp Core Optimizer I
   Medium Warp Core Optimizer II:
     Drawback: 10
     Hp: 40
@@ -365,12 +412,14 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     WarpCapacitorNeedBonus: -50
+    name: Medium Warp Core Optimizer II
   Propellant Injection Vent I:
     Drawback: -10
     Hp: 40
     SpeedFBonus: 15
     TechLevel: 1
     UpgradeCost: 100
+    name: Propellant Injection Vent I
   Propellant Injection Vent II:
     Drawback: -10
     Hp: 40
@@ -378,6 +427,7 @@ items:
     SpeedFBonus: 20
     TechLevel: 2
     UpgradeCost: 150
+    name: Propellant Injection Vent II
   Small Auxiliary Thrusters I:
     Drawback: -10
     Hp: 40
@@ -385,6 +435,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     VelocityBonus: 7.25
+    name: Small Auxiliary Thrusters I
   Small Auxiliary Thrusters II:
     Drawback: -10
     Hp: 40
@@ -393,6 +444,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     VelocityBonus: 8.75
+    name: Small Auxiliary Thrusters II
   Small Cargohold Optimization I:
     CargoCapacityBonus: 15
     Drawback: -10
@@ -400,6 +452,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
+    name: Small Cargohold Optimization I
   Small Cargohold Optimization II:
     CargoCapacityBonus: 20
     Drawback: -10
@@ -408,6 +461,7 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 150
+    name: Small Cargohold Optimization II
   Small Dynamic Fuel Valve I:
     CapNeedBonus: -15
     Drawback: -10
@@ -415,6 +469,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    name: Small Dynamic Fuel Valve I
   Small Dynamic Fuel Valve II:
     CapNeedBonus: -20
     Drawback: -10
@@ -423,6 +478,7 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    name: Small Dynamic Fuel Valve II
   Small Engine Thermal Shielding I:
     Drawback: -10
     DurationBonus: 20
@@ -430,6 +486,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    name: Small Engine Thermal Shielding I
   Small Engine Thermal Shielding II:
     Drawback: -10
     DurationBonus: 25
@@ -438,6 +495,7 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    name: Small Engine Thermal Shielding II
   Small Hyperspatial Velocity Optimizer I:
     Drawback: 10
     Hp: 40
@@ -445,6 +503,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     WarpSBonus: 20
+    name: Small Hyperspatial Velocity Optimizer I
   Small Hyperspatial Velocity Optimizer II:
     Drawback: 10
     Hp: 40
@@ -453,6 +512,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     WarpSBonus: 25
+    name: Small Hyperspatial Velocity Optimizer II
   Small Low Friction Nozzle Joints I:
     AgilityBonus: -11.699999809265137
     Drawback: -10
@@ -460,6 +520,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    name: Small Low Friction Nozzle Joints I
   Small Low Friction Nozzle Joints II:
     AgilityBonus: -14.0
     Drawback: -10
@@ -468,6 +529,7 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    name: Small Low Friction Nozzle Joints II
   Small Polycarbon Engine Housing I:
     AgilityMultiplier: -9.100000381469727
     Drawback: -10
@@ -476,6 +538,7 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
+    name: Small Polycarbon Engine Housing I
   Small Polycarbon Engine Housing II:
     AgilityMultiplier: -11.0
     Drawback: -10
@@ -485,6 +548,7 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 150
+    name: Small Polycarbon Engine Housing II
   Small Warp Core Optimizer I:
     Drawback: 10
     Hp: 40
@@ -492,6 +556,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     WarpCapacitorNeedBonus: -40
+    name: Small Warp Core Optimizer I
   Small Warp Core Optimizer II:
     Drawback: 10
     Hp: 40
@@ -500,3 +565,4 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     WarpCapacitorNeedBonus: -50
+    name: Small Warp Core Optimizer II

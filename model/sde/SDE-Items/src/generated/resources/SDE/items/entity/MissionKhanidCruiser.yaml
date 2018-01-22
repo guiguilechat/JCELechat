@@ -1,6 +1,11 @@
 items:
-  Khanid Eagle: {}
-  Khanid Hawk: {}
-  Khanid Officer: {}
-  Khanid Slave Trader: {}
-  Khanid Warbird: {}
+  Khanid Eagle:
+    name: Khanid Eagle
+  Khanid Hawk:
+    name: Khanid Hawk
+  Khanid Officer:
+    name: Khanid Officer
+  Khanid Slave Trader:
+    name: Khanid Slave Trader
+  Khanid Warbird:
+    name: Khanid Warbird

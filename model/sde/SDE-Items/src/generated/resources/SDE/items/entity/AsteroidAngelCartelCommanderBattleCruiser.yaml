@@ -1,7 +1,13 @@
 items:
-  Domination Legatus: {}
-  Domination Legionnaire: {}
-  Domination Praefectus: {}
-  Domination Primus: {}
-  Domination Tribuni: {}
-  Domination Tribunus: {}
+  Domination Legatus:
+    name: Domination Legatus
+  Domination Legionnaire:
+    name: Domination Legionnaire
+  Domination Praefectus:
+    name: Domination Praefectus
+  Domination Primus:
+    name: Domination Primus
+  Domination Tribuni:
+    name: Domination Tribuni
+  Domination Tribunus:
+    name: Domination Tribunus

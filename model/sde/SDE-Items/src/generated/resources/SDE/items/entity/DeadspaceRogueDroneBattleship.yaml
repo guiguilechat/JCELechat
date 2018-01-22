@@ -1,15 +1,29 @@
 items:
-  Alvus Controller: {}
-  Alvus Creator: {}
-  Alvus Queen: {}
-  Alvus Ruler: {}
-  Anti-Stabilizer Drone: {}
-  Domination Alvus: {}
-  Drone Battleship Boss lvl5: {}
-  Elite Drone Parasite: {}
-  Matriarch Alvus: {}
-  Patriarch Alvus: {}
-  Spearhead Alvus: {}
-  Supreme Alvus Parasite: {}
-  Swarm Overmind Primus: {}
-  Swarm Preserver Alvus: {}
+  Alvus Controller:
+    name: Alvus Controller
+  Alvus Creator:
+    name: Alvus Creator
+  Alvus Queen:
+    name: Alvus Queen
+  Alvus Ruler:
+    name: Alvus Ruler
+  Anti-Stabilizer Drone:
+    name: Anti-Stabilizer Drone
+  Domination Alvus:
+    name: Domination Alvus
+  Drone Battleship Boss lvl5:
+    name: Drone Battleship Boss lvl5
+  Elite Drone Parasite:
+    name: Elite Drone Parasite
+  Matriarch Alvus:
+    name: Matriarch Alvus
+  Patriarch Alvus:
+    name: Patriarch Alvus
+  Spearhead Alvus:
+    name: Spearhead Alvus
+  Supreme Alvus Parasite:
+    name: Supreme Alvus Parasite
+  Swarm Overmind Primus:
+    name: Swarm Overmind Primus
+  Swarm Preserver Alvus:
+    name: Swarm Preserver Alvus

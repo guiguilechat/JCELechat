@@ -1,35 +1,69 @@
 items:
-  Anti-MCC Turret Console: {}
-  Clone Reanimation Unit: {}
-  'Clone Reanimation Unit ': {}
-  Command Node: {}
-  'Command Node ': {}
-  Defense Relay: {}
-  'Defense Relay ': {}
-  Drone Hive: {}
-  Drone Hive - Lvl.1: {}
-  Drone Hive - Lvl.2: {}
-  Drone Hive - Lvl.3: {}
-  Drone Hive - Lvl.4: {}
-  Large Blaster Installation: {}
-  Large CA Railgun Installation: {}
-  Large GA Railgun Installation: {}
-  Large Missile Installation: {}
-  Null Cannon: {}
-  Primary Console: {}
-  QA Drone Hive 1: {}
-  QA Drone Hive 2: {}
-  QA Drone Hive 3: {}
-  Security Console: {}
-  Small Blaster Installation: {}
-  'Small Blaster Installation ': {}
-  Small CA Railgun Installation: {}
-  'Small CA Railgun Installation ': {}
-  'Small GA Railgun Installation ': {}
-  Small Missile Installation: {}
-  'Small Missile Installation ': {}
-  Supply Depot: {}
-  'Supply Depot ': {}
-  '[DEMO] Drone Hive': {}
-  '[TEST] Drone Hive': {}
-  '[TEST] Drone Hive 2': {}
+  Anti-MCC Turret Console:
+    name: Anti-MCC Turret Console
+  Clone Reanimation Unit:
+    name: Clone Reanimation Unit
+  'Clone Reanimation Unit ':
+    name: 'Clone Reanimation Unit '
+  Command Node:
+    name: Command Node
+  'Command Node ':
+    name: 'Command Node '
+  Defense Relay:
+    name: Defense Relay
+  'Defense Relay ':
+    name: 'Defense Relay '
+  Drone Hive:
+    name: Drone Hive
+  Drone Hive - Lvl.1:
+    name: Drone Hive - Lvl.1
+  Drone Hive - Lvl.2:
+    name: Drone Hive - Lvl.2
+  Drone Hive - Lvl.3:
+    name: Drone Hive - Lvl.3
+  Drone Hive - Lvl.4:
+    name: Drone Hive - Lvl.4
+  Large Blaster Installation:
+    name: Large Blaster Installation
+  Large CA Railgun Installation:
+    name: Large CA Railgun Installation
+  Large GA Railgun Installation:
+    name: Large GA Railgun Installation
+  Large Missile Installation:
+    name: Large Missile Installation
+  Null Cannon:
+    name: Null Cannon
+  Primary Console:
+    name: Primary Console
+  QA Drone Hive 1:
+    name: QA Drone Hive 1
+  QA Drone Hive 2:
+    name: QA Drone Hive 2
+  QA Drone Hive 3:
+    name: QA Drone Hive 3
+  Security Console:
+    name: Security Console
+  Small Blaster Installation:
+    name: Small Blaster Installation
+  'Small Blaster Installation ':
+    name: 'Small Blaster Installation '
+  Small CA Railgun Installation:
+    name: Small CA Railgun Installation
+  'Small CA Railgun Installation ':
+    name: 'Small CA Railgun Installation '
+  'Small GA Railgun Installation ':
+    name: 'Small GA Railgun Installation '
+  Small Missile Installation:
+    name: Small Missile Installation
+  'Small Missile Installation ':
+    name: 'Small Missile Installation '
+  Supply Depot:
+    name: Supply Depot
+  'Supply Depot ':
+    name: 'Supply Depot '
+  '[DEMO] Drone Hive':
+    name: '[DEMO] Drone Hive'
+  '[TEST] Drone Hive':
+    name: '[TEST] Drone Hive'
+  '[TEST] Drone Hive 2':
+    name: '[TEST] Drone Hive 2'

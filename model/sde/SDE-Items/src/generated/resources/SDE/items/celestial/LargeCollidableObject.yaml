@@ -7,6 +7,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Abaddon Wreck
   Abandoned Drill - Ruined:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -15,6 +16,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Abandoned Drill - Ruined
   Amarr Abaddon Battleship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -22,6 +24,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Abaddon Battleship
   Amarr Aeon Carrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -30,6 +33,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Aeon Carrier
   Amarr Apocalypse Battleship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -37,6 +41,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Apocalypse Battleship
   Amarr Apostle Force Auxiliary:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -44,6 +49,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Apostle Force Auxiliary
   Amarr Arbitrator Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -52,6 +58,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Arbitrator Cruiser
   Amarr Archon Carrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -60,6 +67,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Archon Carrier
   Amarr Armageddon Battleship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -67,6 +75,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Armageddon Battleship
   Amarr Augoror Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -75,6 +84,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Augoror Cruiser
   Amarr Avatar Titan:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -82,6 +92,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Avatar Titan
   Amarr Battleship Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -90,6 +101,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Battleship Wreck
   Amarr Battlestation Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -98,6 +110,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Battlestation Ruins
   Amarr Bestower Industrial Ship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -106,6 +119,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Bestower Industrial Ship
   Amarr Carrier Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -114,6 +128,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Carrier Wreckage
   Amarr Coercer Destroyer:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -122,6 +137,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Coercer Destroyer
   Amarr Commercial Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -130,6 +146,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Commercial Station Ruins
   Amarr Crucifier Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -138,6 +155,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Crucifier Frigate
   Amarr Dreadnought Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -146,6 +164,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Dreadnought Wreckage
   Amarr Executioner Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -154,6 +173,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Executioner Frigate
   Amarr Factory Outpost:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -166,6 +186,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Amarr Factory Outpost
   Amarr Force Auxiliary Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -173,6 +194,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Force Auxiliary Wreck
   Amarr Freighter Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -181,6 +203,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Freighter Wreckage
   Amarr Harbinger Battlecruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -189,6 +212,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Harbinger Battlecruiser
   Amarr Inquisitor Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -197,6 +221,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Inquisitor Frigate
   Amarr Magnate Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -205,6 +230,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Magnate Frigate
   Amarr Maller Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -213,6 +239,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Maller Cruiser
   Amarr Military Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -221,6 +248,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Military Station Ruins
   Amarr Mining Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -229,6 +257,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Mining Station Ruins
   Amarr Omen Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -237,6 +266,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Omen Cruiser
   Amarr Prophecy Battlecruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -245,6 +275,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Prophecy Battlecruiser
   Amarr Prorator Industrial:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -253,6 +284,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Prorator Industrial
   Amarr Providence Freighter:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -260,6 +292,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Providence Freighter
   Amarr Punisher Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -268,6 +301,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Punisher Frigate
   Amarr Refining Outpost:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -276,6 +310,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Refining Outpost
   Amarr Repair Outpost:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -284,6 +319,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Repair Outpost
   Amarr Research Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -292,6 +328,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Research Station Ruins
   Amarr Revelation Dreadnaught:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -299,6 +336,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Revelation Dreadnaught
   Amarr Revelation Dreadnought:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -311,6 +349,7 @@ items:
     ShieldRechargeRate: 8640000.0
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Amarr Revelation Dreadnought
   Amarr Sigil Industrial Ship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -319,6 +358,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Sigil Industrial Ship
   Amarr Starbase Control Tower:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -327,6 +367,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Starbase Control Tower
   Amarr Supercarrier Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -335,6 +376,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Supercarrier Wreckage
   Amarr Tactical Outpost:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -343,6 +385,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Tactical Outpost
   Amarr Titan Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -351,6 +394,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Titan Wreckage
   Amarr Tormentor Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -359,6 +403,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Tormentor Frigate
   Amarr Trade Post:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -366,6 +411,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Trade Post
   Amarr Trade Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -374,6 +420,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Amarr Trade Station Ruins
   Ammatar Holy Dome:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -382,6 +429,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Ammatar Holy Dome
   Angel Fence:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -390,6 +438,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Angel Fence
   Apocalypse Bow:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -398,6 +447,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Apocalypse Bow
   Apocalypse Stern:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -406,6 +456,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Apocalypse Stern
   Apocalypse Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -414,6 +465,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Apocalypse Wreck
   Arena:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -422,6 +474,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Arena
   Arena_AM_CenterFX01:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -429,6 +482,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Arena_AM_CenterFX01
   Arena_AM_CenterPiece01:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -436,6 +490,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Arena_AM_CenterPiece01
   Arena_AM_MainStructure01:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -443,6 +498,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Arena_AM_MainStructure01
   Arena_AM_SmallStructure01:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -450,6 +506,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Arena_AM_SmallStructure01
   Arena_GA_CenterFX01:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -457,6 +514,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Arena_GA_CenterFX01
   Arena_GA_CenterPiece01:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -464,6 +522,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Arena_GA_CenterPiece01
   Arena_GA_MainStructure01:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -471,6 +530,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Arena_GA_MainStructure01
   Arena_GA_SmallStructure01:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -478,6 +538,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Arena_GA_SmallStructure01
   Arena_MM_CenterPiece01:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -485,6 +546,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Arena_MM_CenterPiece01
   Arena_MM_MainStructure01:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -492,6 +554,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Arena_MM_MainStructure01
   Arena_MM_SmallStructure01:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -499,6 +562,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Arena_MM_SmallStructure01
   Armageddon Bow:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -507,6 +571,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Armageddon Bow
   Armageddon Stern:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -515,6 +580,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Armageddon Stern
   Armageddon Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -523,6 +589,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Armageddon Wreck
   Asteroid Colony - Factory:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -531,6 +598,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Asteroid Colony - Factory
   Asteroid Colony - Flat Hulk:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -539,6 +607,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Asteroid Colony - Flat Hulk
   Asteroid Colony - High & Massive:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -547,6 +616,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Asteroid Colony - High & Massive
   Asteroid Colony - High & Medium Size:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -555,6 +625,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Asteroid Colony - High & Medium Size
   Asteroid Colony - Medium Size:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -563,6 +634,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Asteroid Colony - Medium Size
   Asteroid Colony - Refinery:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -571,6 +643,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Asteroid Colony - Refinery
   Asteroid Colony - Small & Flat:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -579,6 +652,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Asteroid Colony - Small & Flat
   Asteroid Colony - Small Tower:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -587,6 +661,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Asteroid Colony - Small Tower
   Asteroid Colony - Wedge Shape:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -595,6 +670,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Asteroid Colony - Wedge Shape
   Asteroid Mining Post:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -603,6 +679,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Asteroid Mining Post
   Asteroid Station - Dark and Spiky:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -611,6 +688,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Asteroid Station - Dark and Spiky
   Astrahus Citadel:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -618,6 +696,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Astrahus Citadel
   Astrahus Construction:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -625,6 +704,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Astrahus Construction
   Astrahus Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -632,6 +712,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Astrahus Wreck
   Astro Farm:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -640,6 +721,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Astro Farm
   Avatar Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -648,6 +730,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Avatar Wreck
   Barbican Hive:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -660,6 +743,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Barbican Hive
   Barghest Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -668,6 +752,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Barghest Wreck
   Barren Asteroid:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -676,6 +761,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Barren Asteroid
   Beacon:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -684,6 +770,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Beacon
   Bioinformatics Processing Cells:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -696,6 +783,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Bioinformatics Processing Cells
   Black Monolith:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -704,6 +792,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Black Monolith
   Blood Raider Fortress:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -712,6 +801,7 @@ items:
     Hp: 200000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Blood Raider Fortress
   Broken Blue Crystal Asteroid:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -720,6 +810,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Broken Blue Crystal Asteroid
   Broken Metallic Crystal Asteroid:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -728,6 +819,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Broken Metallic Crystal Asteroid
   Broken Orange Crystal Asteroid:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -736,6 +828,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Broken Orange Crystal Asteroid
   CONCORD Battleship Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -744,6 +837,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: CONCORD Battleship Wreck
   Caldari Arena CenterPiece:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -751,6 +845,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Arena CenterPiece
   Caldari Arena MainStructure:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -758,6 +853,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Arena MainStructure
   Caldari Arena SmallStructure:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -765,6 +861,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Arena SmallStructure
   Caldari Badger Industrial Ship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -773,6 +870,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Badger Industrial Ship
   Caldari Bantam Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -781,6 +879,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Bantam Frigate
   Caldari Battleship Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -789,6 +888,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Battleship Wreck
   Caldari Blackbird Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -797,6 +897,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Blackbird Cruiser
   Caldari Caracal Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -805,6 +906,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Caracal Cruiser
   Caldari Carrier Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -813,6 +915,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Carrier Wreckage
   Caldari Charon Freighter:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -821,6 +924,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Charon Freighter
   Caldari Chimera Carrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -829,6 +933,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Chimera Carrier
   Caldari Condor Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -837,6 +942,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Condor Frigate
   Caldari Cormorant Destroyer:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -845,6 +951,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Cormorant Destroyer
   Caldari Crane Industrial:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -853,6 +960,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Crane Industrial
   Caldari Drake Battlecruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -861,6 +969,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Drake Battlecruiser
   Caldari Dreadnought Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -869,6 +978,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Dreadnought Wreckage
   Caldari Ferox Battlecruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -877,6 +987,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Ferox Battlecruiser
   Caldari Force Auxiliary Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -884,6 +995,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Force Auxiliary Wreck
   Caldari Freighter Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -892,6 +1004,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Freighter Wreckage
   Caldari Griffin Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -900,6 +1013,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Griffin Frigate
   Caldari Heron Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -908,6 +1022,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Heron Frigate
   Caldari Kestrel Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -915,6 +1030,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Kestrel Frigate
   Caldari Leviathan Titan:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -923,6 +1039,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Leviathan Titan
   Caldari Merlin Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -931,6 +1048,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Merlin Frigate
   Caldari Minokawa Force Auxiliary:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -938,6 +1056,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Minokawa Force Auxiliary
   Caldari Moa Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -946,6 +1065,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Moa Cruiser
   Caldari Osprey Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -954,6 +1074,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Osprey Cruiser
   Caldari Phoenix Dreadnought:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -962,6 +1083,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Phoenix Dreadnought
   Caldari Prime Station (Under Construction):
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -970,6 +1092,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Prime Station (Under Construction)
   Caldari Raven Battleship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -977,6 +1100,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Raven Battleship
   Caldari Refining Outpost:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -985,6 +1109,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Refining Outpost
   Caldari Repair Outpost:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -993,6 +1118,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Repair Outpost
   Caldari Research Outpost:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1001,6 +1127,7 @@ items:
     Hp: 200
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Research Outpost
   Caldari Rokh Battleship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1009,6 +1136,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Rokh Battleship
   'Caldari Scorpion Battleship ':
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1017,6 +1145,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: 'Caldari Scorpion Battleship '
   Caldari Starbase Control Tower:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1025,6 +1154,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Starbase Control Tower
   Caldari Station Ruins - Flat Hulk:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1033,6 +1163,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Station Ruins - Flat Hulk
   Caldari Station Ruins - Hook Shaped:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1041,6 +1172,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Station Ruins - Hook Shaped
   Caldari Station Ruins - Huge & Sprawling:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1049,6 +1181,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Station Ruins - Huge & Sprawling
   Caldari Station Ruins - Industry Drill:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1057,6 +1190,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Station Ruins - Industry Drill
   Caldari Station Ruins - Massive:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1065,6 +1199,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Station Ruins - Massive
   Caldari Supercarrier Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1073,6 +1208,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Supercarrier Wreckage
   Caldari Tactical Outpost:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1081,6 +1217,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Tactical Outpost
   Caldari Tayra Industrial Ship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1089,6 +1226,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Tayra Industrial Ship
   Caldari Titan Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1097,6 +1235,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Caldari Titan Wreckage
   'Caldari Wyvern Carrier ':
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1105,6 +1244,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: 'Caldari Wyvern Carrier '
   China Monument:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1113,6 +1253,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: China Monument
   Circular Construction:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1121,6 +1262,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Circular Construction
   Cloven Grey Asteroid:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1129,6 +1271,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Cloven Grey Asteroid
   Cloven Red Asteroid:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1137,6 +1280,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Cloven Red Asteroid
   Comet - Dark Comet Copy:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1144,6 +1288,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Comet - Dark Comet Copy
   Comet - Fire Comet Copy:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1151,6 +1296,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Comet - Fire Comet Copy
   Comet - Gold Comet Copy:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1158,6 +1304,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Comet - Gold Comet Copy
   Comet - Toxic Comet Copy:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1165,6 +1312,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Comet - Toxic Comet Copy
   Commercial Billboard:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1173,6 +1321,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Commercial Billboard
   Communication Relay:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1181,6 +1330,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Communication Relay
   Conflux Hive:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -1193,6 +1343,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Conflux Hive
   Coral Rock Formation:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1201,6 +1352,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Coral Rock Formation
   Damaged Spatial Concealment Chamber:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -1213,6 +1365,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Damaged Spatial Concealment Chamber
   Debris - Broken Drive Unit:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1221,6 +1374,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Debris - Broken Drive Unit
   Debris - Broken Engine:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1229,6 +1383,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Debris - Broken Engine
   Debris - Crumpled Metal:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1237,6 +1392,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Debris - Crumpled Metal
   Debris - Power Conduit:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1245,6 +1401,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Debris - Power Conduit
   Debris - Power Feed:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1253,6 +1410,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Debris - Power Feed
   Debris - Twisted Metal:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1261,6 +1419,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Debris - Twisted Metal
   Depleted Asteroid Field:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1268,6 +1427,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Depleted Asteroid Field
   Depleted Station Battery:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1276,6 +1436,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Depleted Station Battery
   Dirty Bandit Shipyard:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1284,6 +1445,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Dirty Bandit Shipyard
   Docked Mammoth:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1292,6 +1454,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Docked Mammoth
   Dominix (Roden):
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1299,6 +1462,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Dominix (Roden)
   Dominix Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1307,6 +1471,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Dominix Wreck
   Drifter Battleship:
     EntityAttackRange: 15000
     EntityBracketColour: 1
@@ -1315,6 +1480,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Drifter Battleship
   Drifter Battleship Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1322,6 +1488,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Drifter Battleship Wreck
   Dysfunctional Solar Harvester:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1330,6 +1497,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Dysfunctional Solar Harvester
   Elder War Monument:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1337,6 +1505,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Elder War Monument
   Elemental Base:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1345,6 +1514,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Elemental Base
   Enclave Debris:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1353,6 +1523,7 @@ items:
     Hp: 10
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Enclave Debris
   Exotic Specimen Warehouse Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1361,6 +1532,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Exotic Specimen Warehouse Wreck
   Expedition Command Outpost Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1369,6 +1541,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Expedition Command Outpost Wreck
   Exploration Monument:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1376,6 +1549,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Exploration Monument
   Federation Administrative Outpost:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1384,6 +1558,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Federation Administrative Outpost
   Floating Stonehenge:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1392,6 +1567,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Floating Stonehenge
   Forlorn Hope:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1400,6 +1576,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Forlorn Hope
   Fortified Amarr Barricade:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1408,6 +1585,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Barricade
   Fortified Amarr Barrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1416,6 +1594,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Barrier
   Fortified Amarr Battery:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1424,6 +1603,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Battery
   Fortified Amarr Bunker:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1432,6 +1612,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Bunker
   Fortified Amarr Cathedral:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1440,6 +1621,7 @@ items:
     Hp: 40000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Cathedral
   Fortified Amarr Chapel:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1448,6 +1630,7 @@ items:
     Hp: 5000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Chapel
   Fortified Amarr Commercial Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1456,6 +1639,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Commercial Station Ruins
   Fortified Amarr Elevator:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1464,6 +1648,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Elevator
   Fortified Amarr Fence:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1472,6 +1657,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Fence
   Fortified Amarr Industrial Station:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1480,6 +1666,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Industrial Station
   Fortified Amarr Junction:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1488,6 +1675,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Junction
   Fortified Amarr Lookout:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1496,6 +1684,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Lookout
   Fortified Amarr Mining Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1504,6 +1693,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Mining Station Ruins
   Fortified Amarr Research Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1512,6 +1702,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Research Station Ruins
   Fortified Amarr Wall:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1520,6 +1711,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Amarr Wall
   Fortified Angel Barricade:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1528,6 +1720,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Angel Barricade
   Fortified Angel Barrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1536,6 +1729,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Angel Barrier
   Fortified Angel Battery:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1544,6 +1738,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Angel Battery
   Fortified Angel Bunker:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1552,6 +1747,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Angel Bunker
   Fortified Angel Elevator:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1560,6 +1756,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Angel Elevator
   Fortified Angel Fence:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1568,6 +1765,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Angel Fence
   Fortified Angel Junction:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1576,6 +1774,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Angel Junction
   Fortified Angel Lookout:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1584,6 +1783,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Angel Lookout
   Fortified Angel Wall:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1592,6 +1792,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Angel Wall
   Fortified Archon:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1599,6 +1800,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Archon
   Fortified Asteroid Colony:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1607,6 +1809,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Asteroid Colony
   Fortified Billboard:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1615,6 +1818,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Billboard
   Fortified Blood Raider Barricade:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1623,6 +1827,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Blood Raider Barricade
   Fortified Blood Raider Barrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1631,6 +1836,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Blood Raider Barrier
   Fortified Blood Raider Battery:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1639,6 +1845,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Blood Raider Battery
   Fortified Blood Raider Bunker:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1647,6 +1854,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Blood Raider Bunker
   Fortified Blood Raider Elevator:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1655,6 +1863,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Blood Raider Elevator
   Fortified Blood Raider Fence:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1663,6 +1872,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Blood Raider Fence
   Fortified Blood Raider Junction:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1671,6 +1881,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Blood Raider Junction
   Fortified Blood Raider Lookout:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1679,6 +1890,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Blood Raider Lookout
   Fortified Blood Raider Wall:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1687,6 +1899,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Blood Raider Wall
   Fortified Bursar:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1695,6 +1908,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Bursar
   Fortified Caldari Barricade:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1703,6 +1917,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Caldari Barricade
   Fortified Caldari Barrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1711,6 +1926,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Caldari Barrier
   Fortified Caldari Battery:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1719,6 +1935,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Caldari Battery
   Fortified Caldari Bunker:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1727,6 +1944,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Caldari Bunker
   Fortified Caldari Elevator:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1735,6 +1953,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Caldari Elevator
   Fortified Caldari Fence:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1743,6 +1962,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Caldari Fence
   Fortified Caldari Junction:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1751,6 +1971,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Caldari Junction
   Fortified Caldari Lookout:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1759,6 +1980,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Caldari Lookout
   Fortified Caldari Station Ruins - Flat Hulk:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1767,6 +1989,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Caldari Station Ruins - Flat Hulk
   Fortified Caldari Station Ruins - Huge & Sprawling:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1775,6 +1998,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Caldari Station Ruins - Huge & Sprawling
   Fortified Caldari Wall:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1783,6 +2007,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Caldari Wall
   Fortified Cargo Rig:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1791,6 +2016,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Cargo Rig
   Fortified Deadspace Particle Accelerator:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1799,6 +2025,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Deadspace Particle Accelerator
   Fortified Drone Barricade:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1807,6 +2034,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Drone Barricade
   Fortified Drone Barrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1815,6 +2043,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Drone Barrier
   Fortified Drone Battery:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1823,6 +2052,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Drone Battery
   Fortified Drone Bunker:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1831,6 +2061,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Drone Bunker
   Fortified Drone Elevator:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1839,6 +2070,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Drone Elevator
   Fortified Drone Fence:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1847,6 +2079,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Drone Fence
   Fortified Drone Junction:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1855,6 +2088,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Drone Junction
   Fortified Drone Lookout:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1863,6 +2097,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Drone Lookout
   Fortified Drone Structure I:
     ArmorHP: 5000
     ArmorUniformity: 1.0
@@ -1875,6 +2110,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Fortified Drone Structure I
   Fortified Drone Structure II:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1883,6 +2119,7 @@ items:
     Hp: 10000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Drone Structure II
   Fortified Drone Wall:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1891,6 +2128,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Drone Wall
   Fortified Gallente Barricade:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1899,6 +2137,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Gallente Barricade
   Fortified Gallente Barrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1907,6 +2146,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Gallente Barrier
   Fortified Gallente Battery:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1915,6 +2155,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Gallente Battery
   Fortified Gallente Bunker:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1923,6 +2164,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Gallente Bunker
   Fortified Gallente Elevator:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1931,6 +2173,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Gallente Elevator
   Fortified Gallente Fence:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1939,6 +2182,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Gallente Fence
   Fortified Gallente Industrial Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1947,6 +2191,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Gallente Industrial Station Ruins
   Fortified Gallente Junction:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1955,6 +2200,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Gallente Junction
   Fortified Gallente Lookout:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1963,6 +2209,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Gallente Lookout
   Fortified Gallente Outpost:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1971,6 +2218,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Gallente Outpost
   Fortified Gallente Station Ruins - Military:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1979,6 +2227,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Gallente Station Ruins - Military
   Fortified Gallente Wall:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1987,6 +2236,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Gallente Wall
   Fortified Guristas Barricade:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -1995,6 +2245,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Guristas Barricade
   Fortified Guristas Barrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2003,6 +2254,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Guristas Barrier
   Fortified Guristas Battery:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2011,6 +2263,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Guristas Battery
   Fortified Guristas Bunker:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2019,6 +2272,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Guristas Bunker
   Fortified Guristas Control Tower:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2027,6 +2281,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Guristas Control Tower
   Fortified Guristas Elevator:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2035,6 +2290,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Guristas Elevator
   Fortified Guristas Fence:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2043,6 +2299,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Guristas Fence
   Fortified Guristas Junction:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2051,6 +2308,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Guristas Junction
   'Fortified Guristas Lookout ':
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2059,6 +2317,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: 'Fortified Guristas Lookout '
   Fortified Guristas Wall:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2067,6 +2326,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Guristas Wall
   Fortified Hulk:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2075,6 +2335,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Hulk
   Fortified Large EM Forcefield:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2083,6 +2344,7 @@ items:
     Hp: 1000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Large EM Forcefield
   Fortified Minmatar Barricade:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2091,6 +2353,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Minmatar Barricade
   Fortified Minmatar Barrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2099,6 +2362,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Minmatar Barrier
   Fortified Minmatar Battery:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2107,6 +2371,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Minmatar Battery
   Fortified Minmatar Bunker:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2115,6 +2380,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Minmatar Bunker
   Fortified Minmatar Commercial Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2123,6 +2389,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Minmatar Commercial Station Ruins
   Fortified Minmatar Elevator:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2131,6 +2398,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Minmatar Elevator
   Fortified Minmatar Fence:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2139,6 +2407,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Minmatar Fence
   Fortified Minmatar Junction:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2147,6 +2416,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Minmatar Junction
   Fortified Minmatar Lookout:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2155,6 +2425,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Minmatar Lookout
   Fortified Minmatar Mining Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2163,6 +2434,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Minmatar Mining Station Ruins
   Fortified Minmatar Station:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2171,6 +2443,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Minmatar Station
   Fortified Minmatar Trade Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2179,6 +2452,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Minmatar Trade Station Ruins
   Fortified Minmatar Wall:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2187,6 +2461,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Minmatar Wall
   Fortified Orca:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2194,6 +2469,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Orca
   Fortified Partially Constructed Megathron:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2202,6 +2478,7 @@ items:
     Hp: 2500
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Partially Constructed Megathron
   Fortified Sansha Barricade:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2210,6 +2487,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Sansha Barricade
   Fortified Sansha Barrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2218,6 +2496,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Sansha Barrier
   Fortified Sansha Battery:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2226,6 +2505,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Sansha Battery
   Fortified Sansha Bunker:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2234,6 +2514,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Sansha Bunker
   Fortified Sansha Deadspace Outpost I:
     ArmorHP: 5000
     ArmorUniformity: 1.0
@@ -2246,6 +2527,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Fortified Sansha Deadspace Outpost I
   Fortified Sansha Elevator:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2254,6 +2536,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Sansha Elevator
   Fortified Sansha Fence:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2262,6 +2545,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Sansha Fence
   Fortified Sansha Junction:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2270,6 +2554,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Sansha Junction
   Fortified Sansha Lookout:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2278,6 +2563,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Sansha Lookout
   Fortified Sansha Wall:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2286,6 +2572,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Sansha Wall
   Fortified Serpentis Barricade:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2294,6 +2581,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Serpentis Barricade
   Fortified Serpentis Barrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2302,6 +2590,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Serpentis Barrier
   Fortified Serpentis Battery:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2310,6 +2599,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Serpentis Battery
   Fortified Serpentis Bunker:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2318,6 +2608,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Serpentis Bunker
   Fortified Serpentis Elevator:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2326,6 +2617,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Serpentis Elevator
   Fortified Serpentis Fence:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2334,6 +2626,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Serpentis Fence
   Fortified Serpentis Junction:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2342,6 +2635,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Serpentis Junction
   Fortified Serpentis Lookout:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2350,6 +2644,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Serpentis Lookout
   Fortified Serpentis Wall:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2358,6 +2653,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Serpentis Wall
   Fortified Shipyard:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2366,6 +2662,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Shipyard
   Fortified Smuggler Stargate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2374,6 +2671,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Smuggler Stargate
   Fortified Spatial Rift:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2382,6 +2680,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Spatial Rift
   Fortified Starbase Auxiliary Power Array:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2390,6 +2689,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Starbase Auxiliary Power Array
   Fortified Starbase Capital Shipyard:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2398,6 +2698,7 @@ items:
     Hp: 700
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Starbase Capital Shipyard
   Fortified Starbase Explosion Dampening Array:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2406,6 +2707,7 @@ items:
     Hp: 1000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Starbase Explosion Dampening Array
   Fortified Starbase Hangar:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2414,6 +2716,7 @@ items:
     Hp: 700
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Starbase Hangar
   Fortified Starbase Shield Generator:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2422,6 +2725,7 @@ items:
     Hp: 700
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortified Starbase Shield Generator
   Fortizar Citadel:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2429,6 +2733,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortizar Citadel
   Fortizar Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2436,6 +2741,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Fortizar Wreck
   Frozen Corpse:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2444,6 +2750,7 @@ items:
     Hp: 10
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Frozen Corpse
   Gallente Atron Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2452,6 +2759,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Atron Frigate
   Gallente Battleship Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2460,6 +2768,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Battleship Wreck
   Gallente Biodome Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2468,6 +2777,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Biodome Station Ruins
   Gallente Brutix Battlecruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2476,6 +2786,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Brutix Battlecruiser
   Gallente Carrier Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2484,6 +2795,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Carrier Wreckage
   Gallente Catalyst Destroyer:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2492,6 +2804,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Catalyst Destroyer
   Gallente Celestis Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2500,6 +2813,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Celestis Cruiser
   Gallente Commercial Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2508,6 +2822,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Commercial Station Ruins
   Gallente Disc Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2516,6 +2831,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Disc Station Ruins
   Gallente Dominix Battleship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2523,6 +2839,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Dominix Battleship
   Gallente Dreadnought Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2531,6 +2848,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Dreadnought Wreckage
   Gallente Erebus Titan:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2539,6 +2857,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Erebus Titan
   Gallente Exequror Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2547,6 +2866,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Exequror Cruiser
   Gallente Fathom Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2555,6 +2875,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Fathom Station Ruins
   Gallente Force Auxiliary Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2562,6 +2883,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Force Auxiliary Wreck
   Gallente Freighter Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2570,6 +2892,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Freighter Wreckage
   Gallente Hyperion Battleship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2578,6 +2901,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Hyperion Battleship
   Gallente Imicus Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2586,6 +2910,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Imicus Frigate
   Gallente Incursus Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2593,6 +2918,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Incursus Frigate
   Gallente Industrial Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2601,6 +2927,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Industrial Station Ruins
   Gallente Iteron Mark I Industrial Ship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2609,6 +2936,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Iteron Mark I Industrial Ship
   Gallente Iteron Mark II Industrial Ship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2617,6 +2945,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Iteron Mark II Industrial Ship
   Gallente Iteron Mark III Industrial Ship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2625,6 +2954,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Iteron Mark III Industrial Ship
   Gallente Iteron Mark IV Industrial Ship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2633,6 +2963,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Iteron Mark IV Industrial Ship
   Gallente Iteron Mark V Industrial Ship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2641,6 +2972,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Iteron Mark V Industrial Ship
   Gallente Logistics Station:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2649,6 +2981,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Logistics Station
   Gallente Maulus Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2657,6 +2990,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Maulus Frigate
   Gallente Megathron Battleship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2664,6 +2998,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Megathron Battleship
   Gallente Military Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2672,6 +3007,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Military Station Ruins
   Gallente Moros Dreadnought:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2680,6 +3016,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Moros Dreadnought
   Gallente Myrmidon Battlecruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2688,6 +3025,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Myrmidon Battlecruiser
   Gallente Navitas Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2696,6 +3034,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Navitas Frigate
   Gallente Ninazu Force Auxiliary:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2703,6 +3042,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Ninazu Force Auxiliary
   Gallente Nyx Carrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2711,6 +3051,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Nyx Carrier
   Gallente Obelisk Freighter:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2719,6 +3060,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Obelisk Freighter
   Gallente Occator Industrial:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2726,6 +3068,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Occator Industrial
   Gallente Outpost:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2734,6 +3077,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Outpost
   Gallente Passenger Liner Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2742,6 +3086,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Passenger Liner Wreckage
   Gallente Research Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2750,6 +3095,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Research Station Ruins
   Gallente Starbase Control Tower:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2758,6 +3104,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Starbase Control Tower
   Gallente Stargate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2766,6 +3113,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Stargate
   Gallente Station Factory Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2774,6 +3122,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Station Factory Ruins
   Gallente Supercarrier Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2782,6 +3131,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Supercarrier Wreckage
   Gallente Thanatos Carrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2790,6 +3140,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Thanatos Carrier
   Gallente Thorax Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2797,6 +3148,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Thorax Cruiser
   Gallente Titan Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2805,6 +3157,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Titan Wreckage
   Gallente Tristan Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2813,6 +3166,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Tristan Frigate
   Gallente Vexor Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2821,6 +3175,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Vexor Cruiser
   Gallente Viator Industrial:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2829,6 +3184,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gallente Viator Industrial
   Gas Cloud 1 Copy:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2838,6 +3194,7 @@ items:
     RequiredSkill1: 16280
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gas Cloud 1 Copy
   Gas/Storage Silo:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2846,6 +3203,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Gas/Storage Silo
   Ghost Ship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2854,6 +3212,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Ghost Ship
   Giant Snake-Shaped Asteroid:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2862,6 +3221,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Giant Snake-Shaped Asteroid
   H4-RP4 Kyonoke Memorial Research Facility:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2869,6 +3229,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: H4-RP4 Kyonoke Memorial Research Facility
   Habitation Brothel:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2877,6 +3238,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Habitation Brothel
   Habitation Casino:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2885,6 +3247,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Habitation Casino
   Habitation Drughouse:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2893,6 +3256,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Habitation Drughouse
   Habitation Pleasure Hub:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2901,6 +3265,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Habitation Pleasure Hub
   Habitation Police Dpt:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2909,6 +3274,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Habitation Police Dpt
   Habitation Prison:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2917,6 +3283,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Habitation Prison
   Habitation Roadhouse:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2925,6 +3292,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Habitation Roadhouse
   Hillside Gambling Hall:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2933,6 +3301,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Hillside Gambling Hall
   Hollow Asteroid:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2941,6 +3310,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Hollow Asteroid
   Huge Silvery White Stalagmite:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2949,6 +3319,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Huge Silvery White Stalagmite
   Human Farm:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2957,6 +3328,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Human Farm
   Hyperion Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2965,6 +3337,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Hyperion Wreck
   Immobile Tractor Beam:
     AccessDifficulty: 20.0
     CapacitorCapacity: 2700.0
@@ -2978,6 +3351,7 @@ items:
     SpawnWithoutGuardsToo: 1
     StructureUniformity: 1.0
     TierDifficulty: 4
+    name: Immobile Tractor Beam
   Impenetrable Storage Depot:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2985,6 +3359,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Impenetrable Storage Depot
   Inactive Sentry Gun:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -2993,6 +3368,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Inactive Sentry Gun
   Indestructible Acceleration Gate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3001,6 +3377,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Indestructible Acceleration Gate
   Indestructible Freight Pad:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3009,6 +3386,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Indestructible Freight Pad
   Indestructible Landing Pad:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3017,6 +3395,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Indestructible Landing Pad
   Indestructible Minmatar Starbase:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3025,6 +3404,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Indestructible Minmatar Starbase
   Indestructible Radio Telescope:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3033,6 +3413,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Indestructible Radio Telescope
   Infested Lookout Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3040,6 +3421,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Infested Lookout Ruins
   Jove Corpse:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3048,6 +3430,7 @@ items:
     Hp: 10
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Jove Corpse
   Jove Observatory:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3056,6 +3439,7 @@ items:
     Hp: 100000000
     SignatureRadius: 50000
     StructureUniformity: 1.0
+    name: Jove Observatory
   Keepstar Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3063,6 +3447,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Keepstar Wreck
   Leviathan Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3071,6 +3456,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Leviathan Wreck
   Low-Tech Solar Harvester:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3079,6 +3465,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Low-Tech Solar Harvester
   Machariel Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3087,6 +3474,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Machariel Wreck
   Maelstrom Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3095,6 +3483,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Maelstrom Wreck
   Magnetic Double-Capped Bubble:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3103,6 +3492,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Magnetic Double-Capped Bubble
   Massive Debris:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3110,6 +3500,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Massive Debris
   Matyrhan Lakat-Hro:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3118,6 +3509,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Matyrhan Lakat-Hro
   Megathron (Roden):
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3125,6 +3517,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Megathron (Roden)
   Megathron Bow:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3133,6 +3526,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Megathron Bow
   Megathron Hull:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3141,6 +3535,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Megathron Hull
   Megathron Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3149,6 +3544,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Megathron Wreck
   Miniball hax:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3157,6 +3553,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Miniball hax
   Minmatar Battleship Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3165,6 +3562,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Battleship Wreck
   Minmatar Bellicose Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3173,6 +3571,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Bellicose Cruiser
   Minmatar Breacher Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3181,6 +3580,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Breacher Frigate
   Minmatar Burst Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3189,6 +3589,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Burst Frigate
   Minmatar Carrier Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3196,6 +3597,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Carrier Wreck
   Minmatar Carrier Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3204,6 +3606,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Carrier Wreckage
   Minmatar Commercial Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3212,6 +3615,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Commercial Station Ruins
   Minmatar Cyclone Battlecruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3220,6 +3624,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Cyclone Battlecruiser
   Minmatar Dreadnought Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3228,6 +3633,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Dreadnought Wreckage
   Minmatar Fenrir Freighter:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3236,6 +3642,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Fenrir Freighter
   Minmatar Force Auxiliary Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3243,6 +3650,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Force Auxiliary Wreck
   Minmatar Freighter Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3251,6 +3659,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Freighter Wreckage
   Minmatar General Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3259,6 +3668,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar General Station Ruins
   Minmatar Hel Carrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3267,6 +3677,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Hel Carrier
   Minmatar Hoarder Industrial Ship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3275,6 +3686,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Hoarder Industrial Ship
   Minmatar Hurricane Battlecruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3283,6 +3695,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Hurricane Battlecruiser
   Minmatar Industry Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3291,6 +3704,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Industry Station Ruins
   Minmatar Lif Force Auxiliary:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3298,6 +3712,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Lif Force Auxiliary
   Minmatar Maelstrom Battleship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3306,6 +3721,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Maelstrom Battleship
   Minmatar Mammoth Industrial Ship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3314,6 +3730,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Mammoth Industrial Ship
   Minmatar Military Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3322,6 +3739,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Military Station Ruins
   Minmatar Mining Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3330,6 +3748,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Mining Station Ruins
   Minmatar Naglfar Dreadnought:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3338,6 +3757,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Naglfar Dreadnought
   Minmatar Nidhoggur Carrier:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3346,6 +3766,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Nidhoggur Carrier
   Minmatar Probe Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3354,6 +3775,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Probe Frigate
   Minmatar Ragnarok Titan:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3362,6 +3784,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Ragnarok Titan
   Minmatar Refining Outpost:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3370,6 +3793,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Refining Outpost
   Minmatar Repair Outpost:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3378,6 +3802,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Repair Outpost
   Minmatar Research Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3386,6 +3811,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Research Station Ruins
   Minmatar Rifter Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3394,6 +3820,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Rifter Frigate
   Minmatar Rupture Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3402,6 +3829,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Rupture Cruiser
   Minmatar Scythe Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3410,6 +3838,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Scythe Cruiser
   Minmatar Service Outpost Structure:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3418,6 +3847,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Service Outpost Structure
   Minmatar Slasher Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3426,6 +3856,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Slasher Frigate
   Minmatar Stabber Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3434,6 +3865,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Stabber Cruiser
   Minmatar Supercarrier Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3442,6 +3874,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Supercarrier Wreckage
   Minmatar Tactical Outpost:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3450,6 +3883,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Tactical Outpost
   Minmatar Tempest Battleship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3457,6 +3891,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Tempest Battleship
   Minmatar Thrasher Destroyer:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3465,6 +3900,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Thrasher Destroyer
   Minmatar Titan Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3473,6 +3909,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Titan Wreckage
   Minmatar Trade Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3481,6 +3918,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Trade Station Ruins
   Minmatar Trade Station Ruins - Large:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3489,6 +3927,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Trade Station Ruins - Large
   Minmatar Typhoon Battleship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3497,6 +3936,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Typhoon Battleship
   Minmatar Vigil  Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3505,6 +3945,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Vigil  Frigate
   Minmatar Wreathe Industrial Ship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3513,6 +3954,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Wreathe Industrial Ship
   Minmatar Wreathe industrial:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3520,6 +3962,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Minmatar Wreathe industrial
   Mobile Shipping Unit:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3528,6 +3971,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Mobile Shipping Unit
   Multi-purpose Pad:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3536,6 +3980,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Multi-purpose Pad
   Mysterious Probe:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3544,6 +3989,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Mysterious Probe
   Naglfar Upper Half:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3552,6 +3998,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Naglfar Upper Half
   Naglfar Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3560,6 +4007,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Naglfar Wreck
   Nestor Battleship Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3567,6 +4015,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Nestor Battleship Wreck
   Nestor Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3575,6 +4024,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Nestor Wreck
   Nightmare Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3583,6 +4033,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Nightmare Wreck
   Noctis Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3591,6 +4042,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Noctis Wreck
   Osnirdottir Memorial:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3599,6 +4051,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Osnirdottir Memorial
   Outpost/Disc - Spiky & Pulsating:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3607,6 +4060,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Outpost/Disc - Spiky & Pulsating
   Pandemic Legion - Winners of Alliance Tournament VI:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3615,6 +4069,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Pandemic Legion - Winners of Alliance Tournament VI
   Particle Acceleration Superstructure:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3623,6 +4078,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Particle Acceleration Superstructure
   Pashanai Bombing Monument:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3630,6 +4086,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Pashanai Bombing Monument
   Planetary Colonization Office Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3638,6 +4095,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Planetary Colonization Office Wreck
   Plasma Chamber Debris:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3646,6 +4104,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Plasma Chamber Debris
   Pleasure Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3654,6 +4113,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Pleasure Cruiser
   Pleasure Hub:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3662,6 +4122,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Pleasure Hub
   Primae Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3670,6 +4131,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Primae Wreck
   Project Discovery Phase One Monument:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3677,6 +4139,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Project Discovery Phase One Monument
   Protest Monument:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3685,6 +4148,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Protest Monument
   Pulsating Power Generator:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3693,6 +4157,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Pulsating Power Generator
   Pulsating Sensor:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3701,6 +4166,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Pulsating Sensor
   Raven Hull:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3709,6 +4175,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Raven Hull
   Raven Wing:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3717,6 +4184,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Raven Wing
   Raven Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3725,6 +4193,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Raven Wreck
   RedCloud:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3732,6 +4201,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: RedCloud
   Redoubt Hive:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -3744,6 +4214,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Redoubt Hive
   Residential Habitation Module:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3752,6 +4223,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Residential Habitation Module
   Revenant Wreckage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3760,6 +4232,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Revenant Wreckage
   Ripped Superstructure:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3768,6 +4241,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Ripped Superstructure
   Rock - Infested by Rogue Drones:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3776,6 +4250,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Rock - Infested by Rogue Drones
   Rock Formation - Branched & Twisted:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3784,6 +4259,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Rock Formation - Branched & Twisted
   Roden Station:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3791,6 +4267,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Roden Station
   Rohk Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3799,6 +4276,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Rohk Wreck
   Ruined Monument:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3807,6 +4285,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Ruined Monument
   Ruined Neon Sign:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3815,6 +4294,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Ruined Neon Sign
   SITE 1:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3822,6 +4302,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: SITE 1
   SITE 2:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3829,6 +4310,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: SITE 2
   SITE 3:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3836,6 +4318,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: SITE 3
   SITE 4:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3843,6 +4326,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: SITE 4
   SITE 5:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3850,6 +4334,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: SITE 5
   SITE 6:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3857,6 +4342,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: SITE 6
   Sail Charger:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3864,6 +4350,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Sail Charger
   Sansha Cynosural Field:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3872,6 +4359,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Sansha Cynosural Field
   Sansha Logistics Control Array:
     ArmorHP: 5000
     ArmorUniformity: 1.0
@@ -3884,6 +4372,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Sansha Logistics Control Array
   Sansha Remote Logistics Station:
     ArmorHP: 150000
     ArmorUniformity: 1.0
@@ -3896,6 +4385,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Sansha Remote Logistics Station
   Sansha Starbase Control Tower:
     ArmorHP: 2000
     ArmorUniformity: 1.0
@@ -3908,6 +4398,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Sansha Starbase Control Tower
   Sansha Station Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3916,6 +4407,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Sansha Station Ruins
   Sansha's Battletower:
     ArmorHP: 150000
     ArmorUniformity: 1.0
@@ -3928,6 +4420,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Sansha's Battletower
   Scanner Sentry - Rapid Pulse:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3936,6 +4429,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Scanner Sentry - Rapid Pulse
   Scorpion Lower Hull:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3944,6 +4438,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Scorpion Lower Hull
   Scorpion Masthead:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3952,6 +4447,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Scorpion Masthead
   Scorpion Upper Hull:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3960,6 +4456,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Scorpion Upper Hull
   Scorpion Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3968,6 +4465,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Scorpion Wreck
   Secure Databank Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3975,6 +4473,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Secure Databank Wreck
   Secure Info Shard Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3982,6 +4481,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Secure Info Shard Wreck
   Sentinel Hive:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -3994,6 +4494,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Sentinel Hive
   Serpentis Fortress:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4002,6 +4503,7 @@ items:
     Hp: 200000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Serpentis Fortress
   Serpentis Research Facility:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4010,6 +4512,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Serpentis Research Facility
   Serpentis Slave Transport:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4018,6 +4521,7 @@ items:
     Hp: 60000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Serpentis Slave Transport
   Serpentis Station:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4030,6 +4534,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Serpentis Station
   Serpentis Stronghold:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4042,6 +4547,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Serpentis Stronghold
   Sharded Rock:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4050,6 +4556,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Sharded Rock
   Sheared Rock Formation:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4058,6 +4565,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Sheared Rock Formation
   Sisters of EVE Astero:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4065,6 +4573,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Sisters of EVE Astero
   Sisters of EVE Nestor:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4072,6 +4581,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Sisters of EVE Nestor
   Sisters of EVE Stratios:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4079,6 +4589,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Sisters of EVE Stratios
   Sleeper Canopic:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4087,6 +4598,7 @@ items:
     Hp: 10
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Sleeper Canopic
   Sleeper Drone Hangar:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4099,6 +4611,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Sleeper Drone Hangar
   Sleeper Enclave:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4111,6 +4624,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Sleeper Enclave
   Sleeper Engineering Station:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4123,6 +4637,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Sleeper Engineering Station
   Sleeper Interlink Hub:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4135,6 +4650,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Sleeper Interlink Hub
   Sleeper Multiplex Forwarder:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4147,6 +4663,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Sleeper Multiplex Forwarder
   Sleeper Preservation Conduit:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4159,6 +4676,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Sleeper Preservation Conduit
   Sleeper Thermoelectric Converter:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4171,6 +4689,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Sleeper Thermoelectric Converter
   Sleeper Vessel:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4179,6 +4698,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Sleeper Vessel
   Sleeper linkage structure:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4191,6 +4711,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Sleeper linkage structure
   Small Armory:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4199,6 +4720,7 @@ items:
     Hp: 200
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Small Armory
   Small Asteroid w/Drone-tech:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4207,6 +4729,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Small Asteroid w/Drone-tech
   Small Rock:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4215,6 +4738,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Small Rock
   Small and Sharded Rock:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4223,6 +4747,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Small and Sharded Rock
   Smoldering Archive Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4230,6 +4755,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Smoldering Archive Ruins
   Snake Shaped Asteroid:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4238,6 +4764,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Snake Shaped Asteroid
   Solray Aligned Power Terminal:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4246,6 +4773,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Solray Aligned Power Terminal
   Solray Unaligned Power Terminal:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4254,6 +4782,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Solray Unaligned Power Terminal
   Spaceshuttle Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4262,6 +4791,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Spaceshuttle Wreck
   Spatial Rift:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4270,6 +4800,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Spatial Rift
   Stable Wormhole:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4278,6 +4809,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Stable Wormhole
   'Stargate - Caldari ':
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4286,6 +4818,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: 'Stargate - Caldari '
   Stargate - Gallente:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4294,6 +4827,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Stargate - Gallente
   Stargate - Minmatar:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4302,6 +4836,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Stargate - Minmatar
   Statehood Incarnate Monument:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4310,6 +4845,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Statehood Incarnate Monument
   Station - Caldari:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4322,6 +4858,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Station - Caldari
   Storage Warehouse:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4330,6 +4867,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Storage Warehouse
   TEST Beacon:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4338,6 +4876,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: TEST Beacon
   Talocan Coupling Array:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4350,6 +4889,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Talocan Coupling Array
   Talocan Disruption Tower:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4362,6 +4902,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Talocan Disruption Tower
   Talocan Embarkment Destroyer:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4374,6 +4915,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Talocan Embarkment Destroyer
   Talocan Engineering Station:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4386,6 +4928,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Talocan Engineering Station
   Talocan Exchange Depot:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4398,6 +4941,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Talocan Exchange Depot
   Talocan Extraction Silo:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4410,6 +4954,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Talocan Extraction Silo
   Talocan Observation Dome:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4422,6 +4967,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Talocan Observation Dome
   Talocan Outpost Conduit:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4434,6 +4980,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Talocan Outpost Conduit
   Talocan Outpost Core:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4446,6 +4993,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Talocan Outpost Core
   Talocan Outpost Hub:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4458,6 +5006,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Talocan Outpost Hub
   Talocan Polestar:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4470,6 +5019,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Talocan Polestar
   Talocan Reactor Spire:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4482,6 +5032,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Talocan Reactor Spire
   Talocan Static Gate:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4494,6 +5045,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Talocan Static Gate
   Talocan Wreckage:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4506,6 +5058,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Talocan Wreckage
   Tempest Lower Sail:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4514,6 +5067,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Tempest Lower Sail
   Tempest Midsection:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4522,6 +5076,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Tempest Midsection
   Tempest Stern:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4530,6 +5085,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Tempest Stern
   Tempest Upper Sail:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4538,6 +5094,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Tempest Upper Sail
   Tempest Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4546,6 +5103,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Tempest Wreck
   Test Asteroid 1:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4553,6 +5111,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Test Asteroid 1
   Test Asteroid 2:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4560,6 +5119,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Test Asteroid 2
   Testing Facilities Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4568,6 +5128,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Testing Facilities Wreck
   The Solitaire:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4576,6 +5137,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: The Solitaire
   The Terminus Stream:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4584,6 +5146,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: The Terminus Stream
   Theology Council Listening Post:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4591,6 +5154,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Theology Council Listening Post
   Tiny Rock:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4599,6 +5163,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Tiny Rock
   Titanomachy Monument:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4607,6 +5172,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Titanomachy Monument
   Typhoon Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4615,6 +5181,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Typhoon Wreck
   Unidentified Sleeper Device:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4622,6 +5189,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Unidentified Sleeper Device
   Unidentified Structure:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4630,6 +5198,7 @@ items:
     Hp: 100000000
     SignatureRadius: 50000
     StructureUniformity: 1.0
+    name: Unidentified Structure
   Unidentified Wormhole:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4642,6 +5211,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Unidentified Wormhole
   Unidentified Wreckage:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4654,6 +5224,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Unidentified Wreckage
   Unknown object:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4661,6 +5232,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Unknown object
   Unstable Wormhole:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4669,6 +5241,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Unstable Wormhole
   Vidette Hive:
     ArmorHP: 100000
     ArmorUniformity: 1.0
@@ -4681,6 +5254,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    name: Vidette Hive
   Violent Wormhole:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4689,6 +5263,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Violent Wormhole
   Walkway Debris:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4697,6 +5272,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Walkway Debris
   Warning Sign:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4705,6 +5281,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Warning Sign
   Wrecked Amarr Structure:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4712,6 +5289,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Wrecked Amarr Structure
   Wrecked Archon:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4720,6 +5298,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Wrecked Archon
   Wrecked Battleship:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4728,6 +5307,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Wrecked Battleship
   Wrecked Caldari Structure:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4735,6 +5315,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Wrecked Caldari Structure
   Wrecked Cruiser:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4743,6 +5324,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Wrecked Cruiser
   Wrecked Frigate:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4751,6 +5333,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Wrecked Frigate
   Wrecked Gallente Structure:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4758,6 +5341,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Wrecked Gallente Structure
   Wrecked Minmatar Structure:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4765,6 +5349,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Wrecked Minmatar Structure
   Wrecked Revelation:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4773,6 +5358,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Wrecked Revelation
   Wrecked Storage Depot:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4780,6 +5366,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: Wrecked Storage Depot
   mobilestorage:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4787,6 +5374,7 @@ items:
     Falloff: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: mobilestorage
   泰坦会战纪念碑:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4795,3 +5383,4 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    name: 泰坦会战纪念碑

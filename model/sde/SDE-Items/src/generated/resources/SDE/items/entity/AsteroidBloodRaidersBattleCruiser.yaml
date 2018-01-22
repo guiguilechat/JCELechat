@@ -1,7 +1,13 @@
 items:
-  Blood Bishop: {}
-  Blood Exorcist: {}
-  Blood Fanatic: {}
-  Blood Phantom: {}
-  Blood Seer: {}
-  Blood Shade: {}
+  Blood Bishop:
+    name: Blood Bishop
+  Blood Exorcist:
+    name: Blood Exorcist
+  Blood Fanatic:
+    name: Blood Fanatic
+  Blood Phantom:
+    name: Blood Phantom
+  Blood Seer:
+    name: Blood Seer
+  Blood Shade:
+    name: Blood Shade

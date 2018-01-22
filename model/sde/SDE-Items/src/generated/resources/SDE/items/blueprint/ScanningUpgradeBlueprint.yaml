@@ -2,12 +2,16 @@ items:
   Scan Pinpointing Array I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Scan Pinpointing Array I Blueprint
   Scan Pinpointing Array II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Scan Pinpointing Array II Blueprint
   Scan Rangefinding Array I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Scan Rangefinding Array I Blueprint
   Scan Rangefinding Array II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Scan Rangefinding Array II Blueprint

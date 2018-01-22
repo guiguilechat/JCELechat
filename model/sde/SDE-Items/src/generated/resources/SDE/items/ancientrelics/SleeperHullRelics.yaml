@@ -1,13 +1,19 @@
 items:
   Intact Hull Section:
     IndustryBlueprintRank: 2.0
+    name: Intact Hull Section
   Malfunctioning Hull Section:
     IndustryBlueprintRank: 2.0
+    name: Malfunctioning Hull Section
   Small Intact Hull Section:
     IndustryBlueprintRank: 2.0
+    name: Small Intact Hull Section
   Small Malfunctioning Hull Section:
     IndustryBlueprintRank: 2.0
+    name: Small Malfunctioning Hull Section
   Small Wrecked Hull Section:
     IndustryBlueprintRank: 2.0
+    name: Small Wrecked Hull Section
   Wrecked Hull Section:
     IndustryBlueprintRank: 2.0
+    name: Wrecked Hull Section

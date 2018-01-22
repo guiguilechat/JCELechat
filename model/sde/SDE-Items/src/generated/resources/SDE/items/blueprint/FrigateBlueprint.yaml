@@ -3,481 +3,606 @@ items:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Amarr Police Frigate Blueprint
   Anathema Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Anathema Blueprint
   Ares Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Ares Blueprint
   Astero Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Astero Blueprint
   Atron Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Atron Blueprint
   Bantam Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Bantam Blueprint
   Blade Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Blade Blueprint
   Breacher Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Breacher Blueprint
   Burst Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Burst Blueprint
   Buzzard Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Buzzard Blueprint
   Caedes Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Caedes Blueprint
   Caldari Navy Hookbill Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Caldari Navy Hookbill Blueprint
   Cambion Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Cambion Blueprint
   Cheetah Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Cheetah Blueprint
   Chremoas Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Chremoas Blueprint
   Claw Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Claw Blueprint
   Condor Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Condor Blueprint
   Crow Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Crow Blueprint
   Crucifier Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Crucifier Blueprint
   Crucifier Navy Issue Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Crucifier Navy Issue Blueprint
   Cruor Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Cruor Blueprint
   Crusader Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Crusader Blueprint
   Dagger Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Dagger Blueprint
   Daredevil Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Daredevil Blueprint
   Deacon Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Deacon Blueprint
   Devourer Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Devourer Blueprint
   Dramiel Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Dramiel Blueprint
   Echelon Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Echelon Blueprint
   Echo Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Echo Blueprint
   Endurance Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Endurance Blueprint
   Enyo Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Enyo Blueprint
   Erinye Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Erinye Blueprint
   Executioner Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Executioner Blueprint
   Federation Navy Comet Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Federation Navy Comet Blueprint
   Freki Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Freki Blueprint
   Fury Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Fury Blueprint
   Garmur Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Garmur Blueprint
   Gatherer Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Gatherer Blueprint
   Griffin Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Griffin Blueprint
   Griffin Navy Issue Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Griffin Navy Issue Blueprint
   Harpy Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Harpy Blueprint
   Hawk Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Hawk Blueprint
   Helios Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Helios Blueprint
   Hematos Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Hematos Blueprint
   Heron Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Heron Blueprint
   Hound Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Hound Blueprint
   Hyena Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Hyena Blueprint
   Ibis Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Ibis Blueprint
   Imicus Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Imicus Blueprint
   Immolator Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Immolator Blueprint
   Imp Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Imp Blueprint
   Impairor Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Impairor Blueprint
   Imperial Navy Slicer Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Imperial Navy Slicer Blueprint
   Incursus Aliastra Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    name: Incursus Aliastra Edition Blueprint
   Incursus Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Incursus Blueprint
   Incursus Inner Zone Shipping Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    name: Incursus Inner Zone Shipping Edition Blueprint
   Inner Zone Shipping Imicus Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Inner Zone Shipping Imicus Blueprint
   Inquisitor Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Inquisitor Blueprint
   Ishkur Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Ishkur Blueprint
   Jaguar Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Jaguar Blueprint
   Keres Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Keres Blueprint
   Kestrel Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Kestrel Blueprint
   Khanid Navy Frigate Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Khanid Navy Frigate Blueprint
   Kirin Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Kirin Blueprint
   Kishar Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Kishar Blueprint
   Kitsune Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Kitsune Blueprint
   Lynx Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Lynx Blueprint
   Magnate Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Magnate Blueprint
   Malediction Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Malediction Blueprint
   Malice Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Malice Blueprint
   Manticore Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Manticore Blueprint
   Maulus Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Maulus Blueprint
   Maulus Navy Issue Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Maulus Navy Issue Blueprint
   Medusa Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Medusa Blueprint
   Merlin Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Merlin Blueprint
   Merlin Nugoeihuvi Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    name: Merlin Nugoeihuvi Edition Blueprint
   Merlin Wiyrkomi Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    name: Merlin Wiyrkomi Edition Blueprint
   Minmatar Peacekeeper Ship Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Minmatar Peacekeeper Ship Blueprint
   Mordus Frigate Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Mordus Frigate Blueprint
   Navitas Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Navitas Blueprint
   Nemesis Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Nemesis Blueprint
   Pacifier Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Pacifier Blueprint
   Police Pursuit Comet Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    name: Police Pursuit Comet Blueprint
   Probe Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Probe Blueprint
   Prospect Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Prospect Blueprint
   Punisher Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Punisher Blueprint
   Punisher Kador Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    name: Punisher Kador Edition Blueprint
   Punisher Tash-Murkon Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    name: Punisher Tash-Murkon Edition Blueprint
   Purifier Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Purifier Blueprint
   Raptor Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Raptor Blueprint
   Reaper Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Reaper Blueprint
   Republic Fleet Firetail Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Republic Fleet Firetail Blueprint
   Retribution Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Retribution Blueprint
   Rifter Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Rifter Blueprint
   Rifter Krusual Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    name: Rifter Krusual Edition Blueprint
   Rifter Nefantar Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    name: Rifter Nefantar Edition Blueprint
   SOCT 1 Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: SOCT 1 Blueprint
   SOCT 2 Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: SOCT 2 Blueprint
   Sarum Magnate Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Sarum Magnate Blueprint
   Scalpel Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Scalpel Blueprint
   Sentinel Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Sentinel Blueprint
   Slasher Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Slasher Blueprint
   Stiletto Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Stiletto Blueprint
   Succubus Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Succubus Blueprint
   Sukuuvestaa Heron Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Sukuuvestaa Heron Blueprint
   Swordspine Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Swordspine Blueprint
   Taipan Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Taipan Blueprint
   Taranis Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Taranis Blueprint
   Tash-Murkon Magnate Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Tash-Murkon Magnate Blueprint
   Thalia Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Thalia Blueprint
   Tormentor Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Tormentor Blueprint
   Tristan Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Tristan Blueprint
   Tristan Quafe Edition Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Tristan Quafe Edition Blueprint
   Utu Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Utu Blueprint
   Velator Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Velator Blueprint
   Vengeance Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Vengeance Blueprint
   Venture Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Venture Blueprint
   Vherokior Probe Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Vherokior Probe Blueprint
   Vigil Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Vigil Blueprint
   Vigil Fleet Issue Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Vigil Fleet Issue Blueprint
   Violator Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Violator Blueprint
   Virtuoso Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Virtuoso Blueprint
   Whiptail Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Whiptail Blueprint
   Wolf Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Wolf Blueprint
   Worm Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Worm Blueprint

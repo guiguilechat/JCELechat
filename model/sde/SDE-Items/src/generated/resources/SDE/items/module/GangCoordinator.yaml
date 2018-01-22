@@ -26,6 +26,7 @@ items:
     RequiredSkill2: 11569
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Armored Warfare Link - Damage Control I
   Armored Warfare Link - Damage Control II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -54,6 +55,7 @@ items:
     RequiredSkill2: 11569
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Armored Warfare Link - Damage Control II
   Armored Warfare Link - Passive Defense I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -81,6 +83,7 @@ items:
     RequiredSkill2: 11569
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Armored Warfare Link - Passive Defense I
   Armored Warfare Link - Passive Defense II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -109,6 +112,7 @@ items:
     RequiredSkill2: 11569
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Armored Warfare Link - Passive Defense II
   Armored Warfare Link - Rapid Repair I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -136,6 +140,7 @@ items:
     RequiredSkill2: 11569
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Armored Warfare Link - Rapid Repair I
   Armored Warfare Link - Rapid Repair II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -164,6 +169,7 @@ items:
     RequiredSkill2: 11569
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Armored Warfare Link - Rapid Repair II
   Command Processor I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -181,6 +187,7 @@ items:
     RequiredSkill1: 3354
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Command Processor I
   Information Warfare Link - Electronic Superiority I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -212,6 +219,7 @@ items:
     RequiredSkill2: 3352
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Information Warfare Link - Electronic Superiority I
   Information Warfare Link - Electronic Superiority II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -244,6 +252,7 @@ items:
     RequiredSkill2: 3352
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Information Warfare Link - Electronic Superiority II
   Information Warfare Link - Recon Operation I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -271,6 +280,7 @@ items:
     RequiredSkill2: 3352
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Information Warfare Link - Recon Operation I
   Information Warfare Link - Recon Operation II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -299,6 +309,7 @@ items:
     RequiredSkill2: 3352
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Information Warfare Link - Recon Operation II
   Information Warfare Link - Sensor Integrity I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -326,6 +337,7 @@ items:
     RequiredSkill2: 3352
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Information Warfare Link - Sensor Integrity I
   Information Warfare Link - Sensor Integrity II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -354,6 +366,7 @@ items:
     RequiredSkill2: 3352
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Information Warfare Link - Sensor Integrity II
   Mining Foreman Link - Harvester Capacitor Efficiency I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -379,6 +392,7 @@ items:
     RequiredSkill2: 22552
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Mining Foreman Link - Harvester Capacitor Efficiency I
   Mining Foreman Link - Harvester Capacitor Efficiency II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -405,6 +419,7 @@ items:
     RequiredSkill2: 22552
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Mining Foreman Link - Harvester Capacitor Efficiency II
   Mining Foreman Link - Laser Optimization I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -430,6 +445,7 @@ items:
     RequiredSkill2: 22552
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Mining Foreman Link - Laser Optimization I
   Mining Foreman Link - Laser Optimization II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -456,6 +472,7 @@ items:
     RequiredSkill2: 22552
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Mining Foreman Link - Laser Optimization II
   Mining Foreman Link - Mining Laser Field Enhancement I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -481,6 +498,7 @@ items:
     RequiredSkill2: 22552
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Mining Foreman Link - Mining Laser Field Enhancement I
   Mining Foreman Link - Mining Laser Field Enhancement II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -507,6 +525,7 @@ items:
     RequiredSkill2: 22552
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Mining Foreman Link - Mining Laser Field Enhancement II
   Siege Warfare Link - Active Shielding I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -534,6 +553,7 @@ items:
     RequiredSkill2: 3351
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Siege Warfare Link - Active Shielding I
   Siege Warfare Link - Active Shielding II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -562,6 +582,7 @@ items:
     RequiredSkill2: 3351
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Siege Warfare Link - Active Shielding II
   Siege Warfare Link - Shield Efficiency I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -589,6 +610,7 @@ items:
     RequiredSkill2: 3351
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Siege Warfare Link - Shield Efficiency I
   Siege Warfare Link - Shield Efficiency II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -617,6 +639,7 @@ items:
     RequiredSkill2: 3351
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Siege Warfare Link - Shield Efficiency II
   Siege Warfare Link - Shield Harmonizing I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -644,6 +667,7 @@ items:
     RequiredSkill2: 3351
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Siege Warfare Link - Shield Harmonizing I
   Siege Warfare Link - Shield Harmonizing II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -672,6 +696,7 @@ items:
     RequiredSkill2: 3351
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Siege Warfare Link - Shield Harmonizing II
   Skirmish Warfare Link - Evasive Maneuvers I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -699,6 +724,7 @@ items:
     RequiredSkill2: 11572
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Skirmish Warfare Link - Evasive Maneuvers I
   Skirmish Warfare Link - Evasive Maneuvers II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -727,6 +753,7 @@ items:
     RequiredSkill2: 11572
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Skirmish Warfare Link - Evasive Maneuvers II
   Skirmish Warfare Link - Interdiction Maneuvers I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -754,6 +781,7 @@ items:
     RequiredSkill2: 11572
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Skirmish Warfare Link - Interdiction Maneuvers I
   Skirmish Warfare Link - Interdiction Maneuvers II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -782,6 +810,7 @@ items:
     RequiredSkill2: 11572
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Skirmish Warfare Link - Interdiction Maneuvers II
   Skirmish Warfare Link - Rapid Deployment I:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -809,6 +838,7 @@ items:
     RequiredSkill2: 11572
     RequiredSkill2Level: 1
     TechLevel: 1
+    name: Skirmish Warfare Link - Rapid Deployment I
   Skirmish Warfare Link - Rapid Deployment II:
     CanFitShipGroup01: 1534
     CanFitShipGroup02: 963
@@ -837,3 +867,4 @@ items:
     RequiredSkill2: 11572
     RequiredSkill2Level: 5
     TechLevel: 2
+    name: Skirmish Warfare Link - Rapid Deployment II

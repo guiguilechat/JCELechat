@@ -1,18 +1,35 @@
 items:
-  Angel Bulker: {}
-  Angel Carrier: {}
-  Angel Convoy: {}
-  Angel Courier: {}
-  Angel Ferrier: {}
-  Angel Gatherer: {}
-  Angel Harvester: {}
-  Angel Hauler: {}
-  Angel Loader: {}
-  Angel Trailer: {}
-  Angel Transporter: {}
-  Angel Trucker: {}
-  Burner Clone Soldier Transport: {}
-  Degenerate Ferrier: {}
-  Degenerate Gatherer: {}
-  Degenerate Harvester: {}
-  Degenerate Loader: {}
+  Angel Bulker:
+    name: Angel Bulker
+  Angel Carrier:
+    name: Angel Carrier
+  Angel Convoy:
+    name: Angel Convoy
+  Angel Courier:
+    name: Angel Courier
+  Angel Ferrier:
+    name: Angel Ferrier
+  Angel Gatherer:
+    name: Angel Gatherer
+  Angel Harvester:
+    name: Angel Harvester
+  Angel Hauler:
+    name: Angel Hauler
+  Angel Loader:
+    name: Angel Loader
+  Angel Trailer:
+    name: Angel Trailer
+  Angel Transporter:
+    name: Angel Transporter
+  Angel Trucker:
+    name: Angel Trucker
+  Burner Clone Soldier Transport:
+    name: Burner Clone Soldier Transport
+  Degenerate Ferrier:
+    name: Degenerate Ferrier
+  Degenerate Gatherer:
+    name: Degenerate Gatherer
+  Degenerate Harvester:
+    name: Degenerate Harvester
+  Degenerate Loader:
+    name: Degenerate Loader

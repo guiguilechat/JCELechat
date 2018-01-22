@@ -71,6 +71,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Brutix
   Brutix Navy Issue:
     Agility: 0.6299999952316284
     ArmorEmDamageResonance: 0.5
@@ -145,6 +146,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Brutix Navy Issue
   Brutix Serpentis Edition:
     Agility: 0.7039999961853027
     ArmorEmDamageResonance: 0.5
@@ -216,6 +218,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Brutix Serpentis Edition
   Cyclone:
     Agility: 0.6800000071525574
     ArmorEmDamageResonance: 0.4000000059604645
@@ -289,6 +292,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Cyclone
   Cyclone Thukker Tribe Edition:
     Agility: 0.7039999961853027
     ArmorEmDamageResonance: 0.4000000059604645
@@ -361,6 +365,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Cyclone Thukker Tribe Edition
   Drake:
     Agility: 0.6499999761581421
     ArmorEmDamageResonance: 0.5
@@ -433,6 +438,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Drake
   Drake Navy Issue:
     Agility: 0.5299999713897705
     ArmorEmDamageResonance: 0.5
@@ -507,6 +513,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Drake Navy Issue
   Ferox:
     Agility: 0.6299999952316284
     ArmorEmDamageResonance: 0.5
@@ -579,6 +586,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Ferox
   Ferox Guristas Edition:
     Agility: 0.6600000262260437
     ArmorEmDamageResonance: 0.5
@@ -650,6 +658,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Ferox Guristas Edition
   Gnosis:
     Agility: 0.44999998807907104
     ArmorEmDamageResonance: 0.675000011920929
@@ -721,6 +730,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Gnosis
   Harbinger:
     Agility: 0.5699999928474426
     ArmorEmDamageResonance: 0.5
@@ -793,6 +803,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Harbinger
   Harbinger Navy Issue:
     Agility: 0.5199999809265137
     ArmorEmDamageResonance: 0.5
@@ -867,6 +878,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Harbinger Navy Issue
   Hurricane:
     Agility: 0.6700000166893005
     ArmorEmDamageResonance: 0.4000000059604645
@@ -940,6 +952,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Hurricane
   Hurricane Fleet Issue:
     Agility: 0.6100000143051147
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1015,6 +1028,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Hurricane Fleet Issue
   Myrmidon:
     Agility: 0.699999988079071
     ArmorEmDamageResonance: 0.5
@@ -1087,6 +1101,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Myrmidon
   Prophecy:
     Agility: 0.5699999928474426
     ArmorEmDamageResonance: 0.5
@@ -1160,6 +1175,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Prophecy
   Prophecy Blood Raiders Edition:
     Agility: 0.7039999961853027
     ArmorEmDamageResonance: 0.5
@@ -1232,6 +1248,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Prophecy Blood Raiders Edition
   幼龙级YC117年特别版:
     Agility: 0.6499999761581421
     ArmorEmDamageResonance: 0.5
@@ -1304,3 +1321,4 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: 幼龙级YC117年特别版

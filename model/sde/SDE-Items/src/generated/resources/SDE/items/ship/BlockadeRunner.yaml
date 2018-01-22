@@ -78,6 +78,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.089999983605594E-7
     WarpSpeedMultiplier: 6.0
+    name: Crane
   Prorator:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.5199999809265137
@@ -158,6 +159,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.089999983605594E-7
     WarpSpeedMultiplier: 6.0
+    name: Prorator
   Prowler:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.48500001430511475
@@ -239,6 +241,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.089999983605594E-7
     WarpSpeedMultiplier: 6.0
+    name: Prowler
   Viator:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.5400000214576721
@@ -319,3 +322,4 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.089999983605594E-7
     WarpSpeedMultiplier: 6.0
+    name: Viator

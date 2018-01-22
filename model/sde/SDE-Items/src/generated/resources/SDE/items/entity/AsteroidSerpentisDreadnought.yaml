@@ -1,3 +1,5 @@
 items:
-  Serpentis Dreadnought: {}
-  Shadow Serpentis Dreadnought: {}
+  Serpentis Dreadnought:
+    name: Serpentis Dreadnought
+  Shadow Serpentis Dreadnought:
+    name: Shadow Serpentis Dreadnought

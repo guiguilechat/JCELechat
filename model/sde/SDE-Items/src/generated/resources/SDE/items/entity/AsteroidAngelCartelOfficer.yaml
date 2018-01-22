@@ -1,5 +1,9 @@
 items:
-  Gotan Kreiss: {}
-  Hakim Stormare: {}
-  Mizuro Cybon: {}
-  Tobias Kruzhor: {}
+  Gotan Kreiss:
+    name: Gotan Kreiss
+  Hakim Stormare:
+    name: Hakim Stormare
+  Mizuro Cybon:
+    name: Mizuro Cybon
+  Tobias Kruzhor:
+    name: Tobias Kruzhor

@@ -1,33 +1,65 @@
 items:
-  Angel Ambusher: {}
-  Angel Hijacker: {}
-  Angel Hunter: {}
-  Angel Impaler: {}
-  Angel Nomad: {}
-  Angel Outlaw: {}
-  Angel Raider: {}
-  Angel Rogue: {}
-  Angel Ruffian: {}
-  Angel Thug: {}
-  Angel Viper: {}
-  Angel Webifier: {}
-  Arch Angel Ambusher: {}
-  Arch Angel Hijacker: {}
-  Arch Angel Hunter: {}
-  Arch Angel Impaler: {}
-  Arch Angel Nomad: {}
-  Arch Angel Outlaw: {}
-  Arch Angel Raider: {}
-  Arch Angel Rogue: {}
-  Arch Angel Ruffian: {}
-  Arch Angel Thug: {}
-  Cyber Ambusher: {}
-  Cyber Hijacker: {}
-  Cyber Hunter: {}
-  Cyber Impaler: {}
-  Cyber Nomad: {}
-  Cyber Outlaw: {}
-  Cyber Raider: {}
-  Cyber Rogue: {}
-  Cyber Ruffian: {}
-  Cyber Thug: {}
+  Angel Ambusher:
+    name: Angel Ambusher
+  Angel Hijacker:
+    name: Angel Hijacker
+  Angel Hunter:
+    name: Angel Hunter
+  Angel Impaler:
+    name: Angel Impaler
+  Angel Nomad:
+    name: Angel Nomad
+  Angel Outlaw:
+    name: Angel Outlaw
+  Angel Raider:
+    name: Angel Raider
+  Angel Rogue:
+    name: Angel Rogue
+  Angel Ruffian:
+    name: Angel Ruffian
+  Angel Thug:
+    name: Angel Thug
+  Angel Viper:
+    name: Angel Viper
+  Angel Webifier:
+    name: Angel Webifier
+  Arch Angel Ambusher:
+    name: Arch Angel Ambusher
+  Arch Angel Hijacker:
+    name: Arch Angel Hijacker
+  Arch Angel Hunter:
+    name: Arch Angel Hunter
+  Arch Angel Impaler:
+    name: Arch Angel Impaler
+  Arch Angel Nomad:
+    name: Arch Angel Nomad
+  Arch Angel Outlaw:
+    name: Arch Angel Outlaw
+  Arch Angel Raider:
+    name: Arch Angel Raider
+  Arch Angel Rogue:
+    name: Arch Angel Rogue
+  Arch Angel Ruffian:
+    name: Arch Angel Ruffian
+  Arch Angel Thug:
+    name: Arch Angel Thug
+  Cyber Ambusher:
+    name: Cyber Ambusher
+  Cyber Hijacker:
+    name: Cyber Hijacker
+  Cyber Hunter:
+    name: Cyber Hunter
+  Cyber Impaler:
+    name: Cyber Impaler
+  Cyber Nomad:
+    name: Cyber Nomad
+  Cyber Outlaw:
+    name: Cyber Outlaw
+  Cyber Raider:
+    name: Cyber Raider
+  Cyber Rogue:
+    name: Cyber Rogue
+  Cyber Ruffian:
+    name: Cyber Ruffian
+  Cyber Thug:
+    name: Cyber Thug

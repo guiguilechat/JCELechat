@@ -1,16 +1,31 @@
 items:
-  Crystalline Carbonide Reaction: {}
-  Fermionic Condensates Reaction: {}
-  Fernite Carbide Reaction: {}
-  Ferrogel Reaction: {}
-  Fulleride Reaction: {}
-  Hypersynaptic Fibers Reaction: {}
-  Nanotransistors Reaction: {}
-  Nonlinear Metamaterials Reaction: {}
-  Phenolic Composites Reaction: {}
-  Photonic Metamaterials Reaction: {}
-  Plasmonic Metamaterials Reaction: {}
-  Sylramic Fibers Reaction: {}
-  Terahertz Metamaterials Reaction: {}
-  Titanium Carbide Reaction: {}
-  Tungsten Carbide Reaction: {}
+  Crystalline Carbonide Reaction:
+    name: Crystalline Carbonide Reaction
+  Fermionic Condensates Reaction:
+    name: Fermionic Condensates Reaction
+  Fernite Carbide Reaction:
+    name: Fernite Carbide Reaction
+  Ferrogel Reaction:
+    name: Ferrogel Reaction
+  Fulleride Reaction:
+    name: Fulleride Reaction
+  Hypersynaptic Fibers Reaction:
+    name: Hypersynaptic Fibers Reaction
+  Nanotransistors Reaction:
+    name: Nanotransistors Reaction
+  Nonlinear Metamaterials Reaction:
+    name: Nonlinear Metamaterials Reaction
+  Phenolic Composites Reaction:
+    name: Phenolic Composites Reaction
+  Photonic Metamaterials Reaction:
+    name: Photonic Metamaterials Reaction
+  Plasmonic Metamaterials Reaction:
+    name: Plasmonic Metamaterials Reaction
+  Sylramic Fibers Reaction:
+    name: Sylramic Fibers Reaction
+  Terahertz Metamaterials Reaction:
+    name: Terahertz Metamaterials Reaction
+  Titanium Carbide Reaction:
+    name: Titanium Carbide Reaction
+  Tungsten Carbide Reaction:
+    name: Tungsten Carbide Reaction

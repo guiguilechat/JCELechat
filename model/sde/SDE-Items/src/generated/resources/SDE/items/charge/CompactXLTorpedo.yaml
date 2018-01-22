@@ -15,6 +15,7 @@ items:
     RequiredSkill1Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Compact Doom Torpedo I
   Compact Purgatory Torpedo I:
     Agility: 0.15843622386455536
     AimedLaunch: 1
@@ -31,6 +32,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 3000.0
+    name: Compact Purgatory Torpedo I
   Compact Rift Torpedo I:
     Agility: 0.15843622386455536
     AimedLaunch: 1
@@ -46,6 +48,7 @@ items:
     RequiredSkill1: 32339
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Compact Rift Torpedo I
   Compact Shade Torpedo:
     Agility: 0.15843622386455536
     AimedLaunch: 1
@@ -62,6 +65,7 @@ items:
     RequiredSkill1: 32339
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Compact Shade Torpedo
   Compact Thor Torpedo I:
     Agility: 0.15843622386455536
     AimedLaunch: 1
@@ -78,3 +82,4 @@ items:
     RequiredSkill1Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Compact Thor Torpedo I

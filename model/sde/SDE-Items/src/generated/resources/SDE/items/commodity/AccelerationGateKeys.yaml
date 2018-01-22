@@ -1,94 +1,187 @@
 items:
-  '''True Creations'' Manufacture Passcard': {}
-  9D Logic Keycard: {}
-  Administrative Key: {}
-  Alpha Keycard: {}
-  Ancient Ciphering Totem: {}
-  Armorer Keycard: {}
-  Bastion Master Key: {}
-  Battlement Accesscard: {}
-  Beta Keycard: {}
-  Black Market Entry Keycard: {}
-  Blood Raider Shipyard Keycard: {}
-  Carry On Token: {}
-  Coded Research Zone Key: {}
-  Command Relay Key: {}
-  Creations Central Pass: {}
-  Creo-Synchronization Pass: {}
-  Crimson Hand Level 1 Passcard: {}
-  Crimson Hand Level 2 Passcard: {}
-  Crimson Hand Level 3 Passcard: {}
-  Crimson Hand Level 4 Passcard: {}
-  Dented Cipher: {}
-  Destablizer Datacore: {}
-  Dewak's Level 1 Decoder: {}
-  Dewak's Level 2 Decoder: {}
-  Dewak's Level 3 Decoder: {}
-  Drazin's Keycard: {}
-  Drone Modified Passcard: {}
-  Drugdealer Passcard to Storage Area: {}
-  Dusty Keycard: {}
-  Factory Gatekey: {}
-  FedNav F.O.F Identifier Tag AC-106V:FNSBR: {}
-  Freebooter's Key Alpha: {}
-  Freebooter's Key Beta: {}
-  Freebooter's Key Gamma: {}
-  Gamma Keycard: {}
-  Gardan's Private Key: {}
-  Gargoyle Passkey: {}
-  Gate Key: {}
-  Headmaster Administration Keycard: {}
-  High Roller's Passcard: {}
-  Inner Sanctum Passcard: {}
-  Kepheur's Keycard: {}
-  Key of the Arcane: {}
-  Key to the Labyrinth: {}
-  Logut's Keycard: {}
-  Master Key: {}
-  Museum Arcana Guest Pass: {}
-  Outgrowth Hive Entrance Code: {}
-  Outgrowth Rogue Drone Hive Pass Key: {}
-  Packaging Center Passkey: {}
-  Passkey to Yan Jung Relic Site: {}
-  Perimeter Descramble Code: {}
-  Pith Guristas Spa-Card: {}
-  Prison Area Pass: {}
-  Private Citizen Tsuna's Passcard: {}
-  Privileged Guest Pass: {}
-  Product Park Passcard: {}
-  Puxley's 9D Pass: {}
-  Rahsa's Security Card: {}
-  Rakogh Officer Gate Key: {}
-  Repaired Keycard: {}
-  Repository Descramble Code: {}
-  Research Tower Key: {}
-  Ruined Stargate Cipher: {}
-  Sade's Pass: {}
-  Sansha Outpost Securitycard: {}
-  Sansha Supply Pit Passcard: {}
-  Scratched and Dented Keycard: {}
-  Security Corridor Pass: {}
-  Security Cypher for Angel Prison: {}
-  Serpentis Sentry Station Gate Crystal: {}
-  Serpentis Shipyard Cipher: {}
-  Serpentis Staff Passcard: {}
-  Shanty Town Gate Clearance: {}
-  Shiny Sentry Key: {}
-  Shipyard Code Part (One half): {}
-  Sispur Estate Keycard: {}
-  Smuggler Knot Lock: {}
-  Soran's Passkey: {}
-  Stolen Passkey: {}
-  Supply Ship Pass: {}
-  TestMeetingKeycard: {}
-  The Red Card: {}
-  The Repairer's Keycard: {}
-  Think Tank Security Pad: {}
-  Thorak's Private Key: {}
-  Traffic Management Passkey: {}
-  Training Complex Passkey: {}
-  Tritan's Forked Key: {}
-  Uni-Dimensional Algorithm Code: {}
-  VIP Pass: {}
-  Weekend Pass for Sin Boulevard: {}
-  Zbikoki's Hacker Card: {}
+  '''True Creations'' Manufacture Passcard':
+    name: '''True Creations'' Manufacture Passcard'
+  9D Logic Keycard:
+    name: 9D Logic Keycard
+  Administrative Key:
+    name: Administrative Key
+  Alpha Keycard:
+    name: Alpha Keycard
+  Ancient Ciphering Totem:
+    name: Ancient Ciphering Totem
+  Armorer Keycard:
+    name: Armorer Keycard
+  Bastion Master Key:
+    name: Bastion Master Key
+  Battlement Accesscard:
+    name: Battlement Accesscard
+  Beta Keycard:
+    name: Beta Keycard
+  Black Market Entry Keycard:
+    name: Black Market Entry Keycard
+  Blood Raider Shipyard Keycard:
+    name: Blood Raider Shipyard Keycard
+  Carry On Token:
+    name: Carry On Token
+  Coded Research Zone Key:
+    name: Coded Research Zone Key
+  Command Relay Key:
+    name: Command Relay Key
+  Creations Central Pass:
+    name: Creations Central Pass
+  Creo-Synchronization Pass:
+    name: Creo-Synchronization Pass
+  Crimson Hand Level 1 Passcard:
+    name: Crimson Hand Level 1 Passcard
+  Crimson Hand Level 2 Passcard:
+    name: Crimson Hand Level 2 Passcard
+  Crimson Hand Level 3 Passcard:
+    name: Crimson Hand Level 3 Passcard
+  Crimson Hand Level 4 Passcard:
+    name: Crimson Hand Level 4 Passcard
+  Dented Cipher:
+    name: Dented Cipher
+  Destablizer Datacore:
+    name: Destablizer Datacore
+  Dewak's Level 1 Decoder:
+    name: Dewak's Level 1 Decoder
+  Dewak's Level 2 Decoder:
+    name: Dewak's Level 2 Decoder
+  Dewak's Level 3 Decoder:
+    name: Dewak's Level 3 Decoder
+  Drazin's Keycard:
+    name: Drazin's Keycard
+  Drone Modified Passcard:
+    name: Drone Modified Passcard
+  Drugdealer Passcard to Storage Area:
+    name: Drugdealer Passcard to Storage Area
+  Dusty Keycard:
+    name: Dusty Keycard
+  Factory Gatekey:
+    name: Factory Gatekey
+  FedNav F.O.F Identifier Tag AC-106V:FNSBR:
+    name: FedNav F.O.F Identifier Tag AC-106V:FNSBR
+  Freebooter's Key Alpha:
+    name: Freebooter's Key Alpha
+  Freebooter's Key Beta:
+    name: Freebooter's Key Beta
+  Freebooter's Key Gamma:
+    name: Freebooter's Key Gamma
+  Gamma Keycard:
+    name: Gamma Keycard
+  Gardan's Private Key:
+    name: Gardan's Private Key
+  Gargoyle Passkey:
+    name: Gargoyle Passkey
+  Gate Key:
+    name: Gate Key
+  Headmaster Administration Keycard:
+    name: Headmaster Administration Keycard
+  High Roller's Passcard:
+    name: High Roller's Passcard
+  Inner Sanctum Passcard:
+    name: Inner Sanctum Passcard
+  Kepheur's Keycard:
+    name: Kepheur's Keycard
+  Key of the Arcane:
+    name: Key of the Arcane
+  Key to the Labyrinth:
+    name: Key to the Labyrinth
+  Logut's Keycard:
+    name: Logut's Keycard
+  Master Key:
+    name: Master Key
+  Museum Arcana Guest Pass:
+    name: Museum Arcana Guest Pass
+  Outgrowth Hive Entrance Code:
+    name: Outgrowth Hive Entrance Code
+  Outgrowth Rogue Drone Hive Pass Key:
+    name: Outgrowth Rogue Drone Hive Pass Key
+  Packaging Center Passkey:
+    name: Packaging Center Passkey
+  Passkey to Yan Jung Relic Site:
+    name: Passkey to Yan Jung Relic Site
+  Perimeter Descramble Code:
+    name: Perimeter Descramble Code
+  Pith Guristas Spa-Card:
+    name: Pith Guristas Spa-Card
+  Prison Area Pass:
+    name: Prison Area Pass
+  Private Citizen Tsuna's Passcard:
+    name: Private Citizen Tsuna's Passcard
+  Privileged Guest Pass:
+    name: Privileged Guest Pass
+  Product Park Passcard:
+    name: Product Park Passcard
+  Puxley's 9D Pass:
+    name: Puxley's 9D Pass
+  Rahsa's Security Card:
+    name: Rahsa's Security Card
+  Rakogh Officer Gate Key:
+    name: Rakogh Officer Gate Key
+  Repaired Keycard:
+    name: Repaired Keycard
+  Repository Descramble Code:
+    name: Repository Descramble Code
+  Research Tower Key:
+    name: Research Tower Key
+  Ruined Stargate Cipher:
+    name: Ruined Stargate Cipher
+  Sade's Pass:
+    name: Sade's Pass
+  Sansha Outpost Securitycard:
+    name: Sansha Outpost Securitycard
+  Sansha Supply Pit Passcard:
+    name: Sansha Supply Pit Passcard
+  Scratched and Dented Keycard:
+    name: Scratched and Dented Keycard
+  Security Corridor Pass:
+    name: Security Corridor Pass
+  Security Cypher for Angel Prison:
+    name: Security Cypher for Angel Prison
+  Serpentis Sentry Station Gate Crystal:
+    name: Serpentis Sentry Station Gate Crystal
+  Serpentis Shipyard Cipher:
+    name: Serpentis Shipyard Cipher
+  Serpentis Staff Passcard:
+    name: Serpentis Staff Passcard
+  Shanty Town Gate Clearance:
+    name: Shanty Town Gate Clearance
+  Shiny Sentry Key:
+    name: Shiny Sentry Key
+  Shipyard Code Part (One half):
+    name: Shipyard Code Part (One half)
+  Sispur Estate Keycard:
+    name: Sispur Estate Keycard
+  Smuggler Knot Lock:
+    name: Smuggler Knot Lock
+  Soran's Passkey:
+    name: Soran's Passkey
+  Stolen Passkey:
+    name: Stolen Passkey
+  Supply Ship Pass:
+    name: Supply Ship Pass
+  TestMeetingKeycard:
+    name: TestMeetingKeycard
+  The Red Card:
+    name: The Red Card
+  The Repairer's Keycard:
+    name: The Repairer's Keycard
+  Think Tank Security Pad:
+    name: Think Tank Security Pad
+  Thorak's Private Key:
+    name: Thorak's Private Key
+  Traffic Management Passkey:
+    name: Traffic Management Passkey
+  Training Complex Passkey:
+    name: Training Complex Passkey
+  Tritan's Forked Key:
+    name: Tritan's Forked Key
+  Uni-Dimensional Algorithm Code:
+    name: Uni-Dimensional Algorithm Code
+  VIP Pass:
+    name: VIP Pass
+  Weekend Pass for Sin Boulevard:
+    name: Weekend Pass for Sin Boulevard
+  Zbikoki's Hacker Card:
+    name: Zbikoki's Hacker Card

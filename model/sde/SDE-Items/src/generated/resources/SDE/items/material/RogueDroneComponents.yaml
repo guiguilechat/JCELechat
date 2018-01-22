@@ -1,8 +1,15 @@
 items:
-  Drone Capillary Fluid: {}
-  Drone Cerebral Fragment: {}
-  Drone Coronary Unit: {}
-  Drone Epidermal Shielding Chunk: {}
-  Drone Synaptic Relay Wiring: {}
-  Drone Tactical Limb: {}
-  Elite Drone AI: {}
+  Drone Capillary Fluid:
+    name: Drone Capillary Fluid
+  Drone Cerebral Fragment:
+    name: Drone Cerebral Fragment
+  Drone Coronary Unit:
+    name: Drone Coronary Unit
+  Drone Epidermal Shielding Chunk:
+    name: Drone Epidermal Shielding Chunk
+  Drone Synaptic Relay Wiring:
+    name: Drone Synaptic Relay Wiring
+  Drone Tactical Limb:
+    name: Drone Tactical Limb
+  Elite Drone AI:
+    name: Elite Drone AI

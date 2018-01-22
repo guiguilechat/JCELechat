@@ -1,25 +1,37 @@
 items:
   Acolyte TD-300 Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Acolyte TD-300 Blueprint
   Berserker TP-900 Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Berserker TP-900 Blueprint
   Hammerhead SD-600 Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Hammerhead SD-600 Blueprint
   Hobgoblin SD-300 Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Hobgoblin SD-300 Blueprint
   Hornet EC-300 Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Hornet EC-300 Blueprint
   Infiltrator TD-600 Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Infiltrator TD-600 Blueprint
   Ogre SD-900 Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Ogre SD-900 Blueprint
   Praetor TD-900 Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Praetor TD-900 Blueprint
   Valkyrie TP-600 Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Valkyrie TP-600 Blueprint
   Vespa EC-600 Blueprint:
     IndustryBlueprintRank: 2.0
+    name: Vespa EC-600 Blueprint
   Warrior TP-300 Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Warrior TP-300 Blueprint
   Wasp EC-900 Blueprint:
     IndustryBlueprintRank: 3.0
+    name: Wasp EC-900 Blueprint

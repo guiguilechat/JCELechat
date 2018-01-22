@@ -2,12 +2,16 @@ items:
   '''Aura'' Warp Core Stabilizer I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Aura'' Warp Core Stabilizer I Blueprint'
   '''Natura'' Warp Core Stabilizer I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Natura'' Warp Core Stabilizer I Blueprint'
   Warp Core Stabilizer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Warp Core Stabilizer I Blueprint
   Warp Core Stabilizer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Warp Core Stabilizer II Blueprint

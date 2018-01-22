@@ -17,6 +17,7 @@ items:
     StructureRigEwarOptimalBonus: 30
     TechLevel: 1
     UpgradeCost: 100
+    name: Standup M-Set Energy Neutralizer Projection I
   Standup M-Set Energy Neutralizer Projection II:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -35,3 +36,4 @@ items:
     StructureRigEwarOptimalBonus: 35
     TechLevel: 2
     UpgradeCost: 150
+    name: Standup M-Set Energy Neutralizer Projection II

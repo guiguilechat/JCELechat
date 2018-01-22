@@ -1,11 +1,21 @@
 items:
-  Angel Cherubim: {}
-  Angel Commander: {}
-  Angel General: {}
-  Angel Malakim: {}
-  Angel Nephilim: {}
-  Angel Saint: {}
-  Angel Seraphim: {}
-  Angel Throne: {}
-  Angel War General: {}
-  Angel Warlord: {}
+  Angel Cherubim:
+    name: Angel Cherubim
+  Angel Commander:
+    name: Angel Commander
+  Angel General:
+    name: Angel General
+  Angel Malakim:
+    name: Angel Malakim
+  Angel Nephilim:
+    name: Angel Nephilim
+  Angel Saint:
+    name: Angel Saint
+  Angel Seraphim:
+    name: Angel Seraphim
+  Angel Throne:
+    name: Angel Throne
+  Angel War General:
+    name: Angel War General
+  Angel Warlord:
+    name: Angel Warlord

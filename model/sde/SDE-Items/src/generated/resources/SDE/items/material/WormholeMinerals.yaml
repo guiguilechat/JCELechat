@@ -1,92 +1,127 @@
 items:
   Fullero-Ferrocene:
     MoonMiningAmount: 1
+    name: Fullero-Ferrocene
   Generic Hull Salvage 4:
     Hp: 20
     MoonMiningAmount: 1
+    name: Generic Hull Salvage 4
   Generic Hull Salvage 5:
     Hp: 20
     MoonMiningAmount: 1
+    name: Generic Hull Salvage 5
   Intact Coolant Regulator:
     Hp: 20
     MoonMiningAmount: 1
+    name: Intact Coolant Regulator
   Intact Field Harmonic Regulator:
     Hp: 20
     MoonMiningAmount: 1
+    name: Intact Field Harmonic Regulator
   Intact Particle Emitter:
     Hp: 20
     MoonMiningAmount: 1
+    name: Intact Particle Emitter
   Intact Plasma Conduit:
     Hp: 20
     MoonMiningAmount: 1
+    name: Intact Plasma Conduit
   Intact Secondary Power Couples:
     Hp: 20
     MoonMiningAmount: 1
+    name: Intact Secondary Power Couples
   Intact Sleeper AI Control Core:
     Hp: 20
     MoonMiningAmount: 1
+    name: Intact Sleeper AI Control Core
   Isogen V:
     MoonMiningAmount: 1
+    name: Isogen V
   Nanoassembler Ligaments:
     Hp: 20
     MoonMiningAmount: 1
+    name: Nanoassembler Ligaments
   Nanobud Polymers:
     MoonMiningAmount: 1
+    name: Nanobud Polymers
   Nanoelectromechanical Sheets:
     Hp: 20
     MoonMiningAmount: 1
+    name: Nanoelectromechanical Sheets
   Nanotori Polymers:
     MoonMiningAmount: 1
+    name: Nanotori Polymers
   Neuroprotectant Injector Array:
     MoonMiningAmount: 100
+    name: Neuroprotectant Injector Array
   Nozzle Reinforcements:
     Hp: 20
     MoonMiningAmount: 1
+    name: Nozzle Reinforcements
   Plutonium Metallofullerene:
     MoonMiningAmount: 1
+    name: Plutonium Metallofullerene
   Polyfullerene Condensate:
     MoonMiningAmount: 1
+    name: Polyfullerene Condensate
   Polymer 17:
     MoonMiningAmount: 1
+    name: Polymer 17
   Polymer 18:
     MoonMiningAmount: 1
+    name: Polymer 18
   Polymer 19:
     MoonMiningAmount: 1
+    name: Polymer 19
   Polymer 20:
     MoonMiningAmount: 1
+    name: Polymer 20
   Ruined Scraps 3:
     Hp: 20
     MoonMiningAmount: 1
+    name: Ruined Scraps 3
   Ruined Scraps 4:
     Hp: 20
     MoonMiningAmount: 1
+    name: Ruined Scraps 4
   Sleeper Ward Console:
     Hp: 20
     MoonMiningAmount: 1
+    name: Sleeper Ward Console
   Standalone Warfare Processor:
     Hp: 20
     MoonMiningAmount: 1
+    name: Standalone Warfare Processor
   Thermal Diffusion Film:
     Hp: 20
     MoonMiningAmount: 1
+    name: Thermal Diffusion Film
   Thermoelectric Power Core:
     Hp: 20
     MoonMiningAmount: 1
+    name: Thermoelectric Power Core
   Thermophased Metallofullerenes:
     Hp: 20
     MoonMiningAmount: 1
+    name: Thermophased Metallofullerenes
   Thruster Mounts:
     Hp: 20
     MoonMiningAmount: 1
+    name: Thruster Mounts
   defunct item 8:
     MoonMiningAmount: 100
+    name: defunct item 8
   generic item 4:
     MoonMiningAmount: 1
+    name: generic item 4
   generic item 40:
     Hp: 20
     MoonMiningAmount: 1
+    name: generic item 40
   generic item 5:
     Hp: 20
     MoonMiningAmount: 1
+    name: generic item 5
   generic item 6:
     MoonMiningAmount: 1
+    name: generic item 6

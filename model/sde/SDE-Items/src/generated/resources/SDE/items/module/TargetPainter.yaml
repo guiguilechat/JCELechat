@@ -18,6 +18,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 30.0
     TechLevel: 1
+    name: '''Inception'' Target Painter'
   Domination Target Painter:
     CapacitorNeed: 10.0
     Cpu: 20.0
@@ -37,6 +38,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 33.0
     TechLevel: 1
+    name: Domination Target Painter
   Parallel Enduring Target Painter:
     CapacitorNeed: 6.0
     Cpu: 20.0
@@ -55,6 +57,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 27.5
     TechLevel: 1
+    name: Parallel Enduring Target Painter
   Partial Weapon Navigation:
     CapacitorNeed: 10.0
     Duration: 5000.0
@@ -72,6 +75,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 26.25
     TechLevel: 1
+    name: Partial Weapon Navigation
   Peripheral Compact Target Painter:
     CapacitorNeed: 10.0
     Cpu: 16.0
@@ -90,6 +94,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 27.5
     TechLevel: 1
+    name: Peripheral Compact Target Painter
   Phased Scoped Target Painter:
     CapacitorNeed: 10.0
     Cpu: 20.0
@@ -108,6 +113,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 27.5
     TechLevel: 1
+    name: Phased Scoped Target Painter
   Republic Fleet Target Painter:
     CapacitorNeed: 10.0
     Cpu: 20.0
@@ -127,6 +133,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 33.0
     TechLevel: 1
+    name: Republic Fleet Target Painter
   Target Painter I:
     CapacitorNeed: 10.0
     Duration: 5000.0
@@ -143,6 +150,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 25.0
     TechLevel: 1
+    name: Target Painter I
   Target Painter II:
     CapacitorNeed: 12.0
     Duration: 5000.0
@@ -160,3 +168,4 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 30.0
     TechLevel: 2
+    name: Target Painter II

@@ -2,9 +2,12 @@ items:
   Micro Auxiliary Power Core I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Micro Auxiliary Power Core I Blueprint
   Micro Auxiliary Power Core II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Micro Auxiliary Power Core II Blueprint
   Thukker Micro Auxiliary Power Core Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Thukker Micro Auxiliary Power Core Blueprint

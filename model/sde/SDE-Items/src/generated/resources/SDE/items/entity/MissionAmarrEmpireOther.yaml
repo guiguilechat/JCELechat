@@ -1,3 +1,5 @@
 items:
-  Civilian Amarr Bestower: {}
-  Jamur Fatimar: {}
+  Civilian Amarr Bestower:
+    name: Civilian Amarr Bestower
+  Jamur Fatimar:
+    name: Jamur Fatimar

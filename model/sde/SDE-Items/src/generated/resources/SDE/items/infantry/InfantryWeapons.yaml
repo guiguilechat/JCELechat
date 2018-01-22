@@ -1,680 +1,1359 @@
 items:
-  '''Angerstar'' Rail Rifle': {}
-  '''Arcflare'' DAU-2/A Forge Gun': {}
-  '''Arson'' AT-1 Missile Launcher': {}
-  '''Ashborne'' Scrambler Rifle': {}
-  '''Avalanche'' Freedom Mass Driver': {}
-  '''Backscatter'' Freedom Forge Gun': {}
-  '''Banshee'' C-7 Flux Grenade': {}
-  '''Bedlam'' M512-A Submachine Gun': {}
-  '''Black Eagle'' Assault Rifle': {}
-  '''Black Eagle'' Shotgun': {}
-  '''Blackprey'' ZN-28 Nova Knives': {}
-  '''Blastwave'' 9K330 Forge Gun': {}
-  '''Bleakanchor'' SL-4 Assault Rail Rifle': {}
-  '''Blindfire'' Assault Rifle': {}
-  '''Blisterrain'' Six Kin Assault Combat Rifle': {}
-  '''Bloodgrail'' Viziam Scrambler Rifle': {}
-  '''Brimstone'' ST-1 Missile Launcher': {}
-  '''Broadside'' MH-82 Heavy Machine Gun': {}
-  '''Burnscar'' Khanid Scrambler Pistol': {}
-  '''Burnstalk'' Laser Rifle': {}
-  '''Calisto'' 20GJ Neutron Blaster': {}
-  '''Carnifax'' Locus Grenade': {}
-  '''Cavity'' M2 Contact Locus Grenade': {}
-  '''Cerberus'' CRG-3 Shotgun': {}
-  '''Charstone'' Plasma Cannon': {}
-  '''Chimera'' Shotgun': {}
-  '''Chokegrin'' Kaalakiota Magsec SMG': {}
-  '''Cinder'' XT-1 Missile Launcher': {}
-  '''Codewish'' Duvolle Tactical Assault Rifle': {}
-  '''Construct'' Allotek Plasma Cannon': {}
-  '''Construct'' Boundless Heavy Machine Gun': {}
-  '''Construct'' Core Flaylock Pistol': {}
-  '''Construct'' CreoDron Shotgun': {}
-  '''Construct'' Duvolle Assault Rifle': {}
-  '''Construct'' Freedom Mass Driver': {}
-  '''Construct'' Imperial Scrambler Rifle': {}
-  '''Construct'' Ishukone Nova Knives': {}
-  '''Construct'' Ishukone Sniper Rifle': {}
-  '''Construct'' Kaalakiota Forge Gun': {}
-  '''Construct'' Six Kin Submachine Gun': {}
-  '''Construct'' Viziam Laser Rifle': {}
-  '''Construct'' Viziam Scrambler Pistol': {}
-  '''Construct'' Wiyrkomi Swarm Launcher': {}
-  '''Corona'' Ishukone Sniper Rifle': {}
-  '''Covenant'' Sniper Rifle': {}
-  '''Crawtide'' Ishukone Assault Rail Rifle': {}
-  '''Cyclone'' EXO-5 Mass Driver': {}
-  '''Daemon'' Shotgun': {}
-  '''Darkside'' CBR7 Swarm Launcher': {}
-  '''Darkvein'' Seeker Flaylock': {}
-  '''Deadflood'' Allotek Plasma Cannon': {}
-  '''Deathchorus'' ELM-7 Laser Rifle': {}
-  '''Doomcradle'' BK-42 Assault Combat Rifle': {}
-  '''Downwind'' C15-A Tactical Sniper Rifle': {}
-  '''Dren'' Assault Rifle': {}
-  '''Dren'' Scrambler Pistol': {}
-  '''Dren'' Shotgun': {}
-  '''Dren'' Swarm Launcher': {}
-  '''Exile'' Assault Rifle': {}
-  '''Farsight'' Sniper Rifle': {}
-  '''Fearcrop'' Boundless Combat Rifle': {}
-  '''Flashbow'' CAR-9 Burst Scrambler Pistol': {}
-  '''Fleshriver'' Ishukone Nova Knives': {}
-  '''Gargoyle'' Freedom Burst Submachine Gun': {}
-  '''Genesis'' NT-511 Sniper Rifle': {}
-  '''Golem'' Heavy Machine Gun': {}
-  '''Gomorrah'' 80GJ Particle Cannon': {}
-  '''Gorewreck'' GK-13 Burst Assault Rifle': {}
-  '''Gravepin'' N7-A Magsec SMG': {}
-  '''Grimcell'' SB-39 Rail Rifle': {}
-  '''Grimlock'' Guristas Assault Forge Gun': {}
-  '''Grimoire'' 20GJ Blaster': {}
-  '''Grindfell'' Imperial Scrambler Pistol': {}
-  '''Guardwire'' Bolt Pistol': {}
-  '''Harbinger'' ST-201 Missile Launcher': {}
-  '''Haywire'' Wiyrkomi Swarm Launcher': {}
-  '''Haze'' Locus Grenade': {}
-  '''Hazemoon'' IA5 Tactical Scrambler Pistol': {}
-  '''Hollow'' EX-0 AV Grenade': {}
-  '''Hollowsight'' Carthum Assault Rifle': {}
-  '''Horizon'' Kaalakiota Sniper Rifle': {}
-  '''Howlcage'' Core Flaylock Pistol': {}
-  '''Husk'' AV Grenade': {}
-  '''Husk'' Phase-synched Railgun (L)': {}
-  '''Hydra'' CreoDron Shotgun': {}
-  '''Imperial Guard''  VZN-20 Forge Gun': {}
-  '''Imperial Guard'' Viziam Forge Gun': {}
-  '''Killswitch'' GEK-38 Assault Rifle': {}
-  '''Klaxon'' Allotek Flux Grenade': {}
-  '''Leadgrave'' RS-90 Combat Rifle': {}
-  '''Lycan'' 20GJ Railgun': {}
-  '''Maimharvest'' VN-30 Seeker Flaylock': {}
-  '''Martyr'' 20GJ Particle Cannon': {}
-  '''Mashgrill'' CreoDron Submachine Gun': {}
-  '''Mimicry'' CreoDron Tactical Swarm Launcher': {}
-  '''Minddrive'' SK9M Breach Submachine Gun': {}
-  '''Mortis'' 80GJ Particle Accelerator': {}
-  '''Nodeasylum'' Kaalakiota Bolt Pistol': {}
-  '''Omen'' AT-201 Missile Launcher': {}
-  '''Oracle'' 80GJ Neutron Blaster': {}
-  '''Paradox'' Graded Particle Cannon (S)': {}
-  '''Pariah'' 80GJ Railgun': {}
-  '''Phantasm'' 20GJ Ion Cannon': {}
-  '''Prodigy'' XT-201 Missile Launcher': {}
-  '''Pyrus'' ATK-05 Submachine Gun': {}
-  '''Pyrus'' ATK-108 Heavy Machine Gun': {}
-  '''Pyrus'' ATK-11 Nova Knives': {}
-  '''Pyrus'' ATK-17 Scrambler Pistol': {}
-  '''Pyrus'' ATK-21 Assault Rifle': {}
-  '''Pyrus'' ATK-30 Scrambler Rifle': {}
-  '''Pyrus'' ATK-32 Swarm Launcher': {}
-  '''Pyrus'' ATK-43 Mass Driver': {}
-  '''Pyrus'' ATK-44 Shotgun': {}
-  '''Pyrus'' ATK-50 Laser Rifle': {}
-  '''Pyrus'' ATK-58 Sniper Rifle': {}
-  '''Pyrus'' ATK-73 Plasma Cannon': {}
-  '''Pyrus'' ATK-9 Flaylock Pistol': {}
-  '''Pyrus'' ATK-90 Forge Gun': {}
-  '''Pyrus'' Allotek Assault Rifle': {}
-  '''Pyrus'' Allotek Flaylock Pistol': {}
-  '''Pyrus'' Allotek Forge Gun': {}
-  '''Pyrus'' Allotek Heavy Machine Gun': {}
-  '''Pyrus'' Allotek Laser Rifle': {}
-  '''Pyrus'' Allotek Mass Driver': {}
-  '''Pyrus'' Allotek Nova Knives': {}
-  '''Pyrus'' Allotek Plasma Cannon': {}
-  '''Pyrus'' Allotek Scrambler Pistol': {}
-  '''Pyrus'' Allotek Scrambler Rifle': {}
-  '''Pyrus'' Allotek Shotgun': {}
-  '''Pyrus'' Allotek Sniper Rifle': {}
-  '''Pyrus'' Allotek Submachine Gun': {}
-  '''Pyrus'' Allotek Swarm Launcher': {}
-  '''Pyrus'' Assault Rifle': {}
-  '''Pyrus'' Flaylock Pistol': {}
-  '''Pyrus'' Forge Gun': {}
-  '''Pyrus'' Heavy Machine Gun': {}
-  '''Pyrus'' Laser Rifle': {}
-  '''Pyrus'' Mass Driver': {}
-  '''Pyrus'' Nova Knives': {}
-  '''Pyrus'' Plasma Cannon': {}
-  '''Pyrus'' Scrambler Pistol': {}
-  '''Pyrus'' Scrambler Rifle': {}
-  '''Pyrus'' Shotgun': {}
-  '''Pyrus'' Sniper Rifle': {}
-  '''Pyrus'' Submachine Gun': {}
-  '''Pyrus'' Swarm Launcher': {}
-  '''Quafe'' 20GJ Blaster': {}
-  '''Quafe'' 20GJ Railgun': {}
-  '''Quafe'' 80GJ Blaster': {}
-  '''Quafe'' 80GJ Railgun': {}
-  '''Quafe'' Assault Rifle': {}
-  '''Quafe'' Combat Rifle': {}
-  '''Quafe'' Forge Gun': {}
-  '''Quafe'' Heavy Machine Gun': {}
-  '''Quafe'' Laser Rifle': {}
-  '''Quafe'' Mass Driver': {}
-  '''Quafe'' Nova Knives': {}
-  '''Quafe'' Plasma Cannon': {}
-  '''Quafe'' Rail Rifle': {}
-  '''Quafe'' ST-1 Missile Launcher': {}
-  '''Quafe'' ST-201 Missile Launcher': {}
-  '''Quafe'' Scrambler Rifle': {}
-  '''Quafe'' Shotgun': {}
-  '''Quafe'' Sniper Rifle': {}
-  '''Quafe'' Swarm Launcher': {}
-  '''Rawspark'' Viziam Laser Rifle': {}
-  '''Ripshade'' KLA-90 Plasma Cannon': {}
-  '''Rustmorgue'' GN-13 Flaylock Pistol': {}
-  '''Scattermind'' Swarm Launcher': {}
-  '''Scattershin'' T-12 Ion Pistol': {}
-  '''Scorchtalon'' Nova Knives': {}
-  '''Scramkit'' CBR-112 Breach Swarm Launcher': {}
-  '''Shiftrisk'' SR-25 Bolt Pistol': {}
-  '''Shrinesong'' CRW-04 Scrambler Rifle': {}
-  '''Shroud'' M1 Locus Grenade': {}
-  '''Sigil'' Wiyrkomi AV Grenade': {}
-  '''Singetear'' Viziam Scrambler Pistol': {}
-  '''Sinwarden'' CRD-9 Assault Scrambler Rifle': {}
-  '''Siren'' Flux Grenade': {}
-  '''Skinbore'' Core Seeker Flaylock': {}
-  '''Skyglitch'' Magsec SMG': {}
-  '''Slashvent'' Submachine Gun': {}
-  '''Sodom'' 80GJ Ion Cannon': {}
-  '''Spartan'' 20GJ Particle Accelerator': {}
-  '''Spitfire'' Six Kin Submachine Gun': {}
-  '''Splashbone'' Flaylock Pistol': {}
-  '''Steelmine'' Boundless Heavy Machine Gun': {}
-  '''Stormside'' Roden Assault Rifle': {}
-  '''Stormvein'' Carthum Assault Scrambler Rifle': {}
-  '''Strumborne'' Forge Gun': {}
-  '''Surgepoint'' Six Kin Sniper Rifle': {}
-  '''Surgewick'' Scrambler Pistol': {}
-  '''Syndicate'' Submachine Gun': {}
-  '''Templar'' Laser Rifle': {}
-  '''Templar'' Scrambler Pistol': {}
-  '''Templar'' Scrambler Rifle': {}
-  '''Torchflare'' Kaalakiota Forge Gun': {}
-  '''Toxin'' Assault Rifle': {}
-  '''Toxin'' ICD-9 Submachine Gun': {}
-  '''Tsunami'' Mass Driver': {}
-  '''Vapor'' Core Locus Grenade': {}
-  '''Vaporlaw'' CreoDron Ion Pistol': {}
-  '''Void'' Kaalakiota AV Grenade': {}
-  '''Weavewind'' Roden Swarm Launcher': {}
-  '''Wildlight'' Ion Pistol': {}
-  '''Woundriot'' Combat Rifle': {}
-  '''Wraith'' 80GJ Blaster': {}
-  '''Zerofrost'' Kaalakiota Rail Rifle': {}
-  20GJ Blaster: {}
-  20GJ Compressed Blaster: {}
-  20GJ Compressed Ion Cannon: {}
-  20GJ Compressed Neutron Blaster: {}
-  20GJ Compressed Particle Accelerator: {}
-  20GJ Compressed Particle Cannon: {}
-  20GJ Compressed Railgun: {}
-  20GJ Ion Cannon: {}
-  20GJ Neutron Blaster: {}
-  20GJ Particle Accelerator: {}
-  20GJ Particle Cannon: {}
-  20GJ Railgun: {}
-  20GJ Regulated Particle Accelerator: {}
-  20GJ Regulated Particle Cannon: {}
-  20GJ Regulated Railgun: {}
-  20GJ Scattered Blaster: {}
-  20GJ Scattered Ion Cannon: {}
-  20GJ Scattered Neutron Blaster: {}
-  20GJ Stabilized Blaster: {}
-  20GJ Stabilized Ion Cannon: {}
-  20GJ Stabilized Neutron Blaster: {}
-  20GJ Stabilized Particle Accelerator: {}
-  20GJ Stabilized Particle Cannon: {}
-  20GJ Stabilized Railgun: {}
-  80GJ Blaster: {}
-  80GJ Compressed Blaster: {}
-  80GJ Compressed Ion Cannon: {}
-  80GJ Compressed Neutron Blaster: {}
-  80GJ Compressed Particle Accelerator: {}
-  80GJ Compressed Particle Cannon: {}
-  80GJ Compressed Railgun: {}
-  80GJ Ion Cannon: {}
-  80GJ Neutron Blaster: {}
-  80GJ Particle Accelerator: {}
-  80GJ Particle Cannon: {}
-  80GJ Railgun: {}
-  80GJ Regulated Particle Accelerator: {}
-  80GJ Regulated Particle Cannon: {}
-  80GJ Regulated Railgun: {}
-  80GJ Scattered Blaster: {}
-  80GJ Scattered Ion Cannon: {}
-  80GJ Scattered Neutron Blaster: {}
-  80GJ Stabilized Blaster: {}
-  80GJ Stabilized Ion Cannon: {}
-  80GJ Stabilized Neutron Blaster: {}
-  80GJ Stabilized Particle Accelerator: {}
-  80GJ Stabilized Particle Cannon: {}
-  80GJ Stabilized Railgun: {}
-  9K330 Forge Gun: {}
-  ACOG Test Tactical Assault Rifle: {}
-  ADV Drone Assault Rifle: {}
-  ADV Drone Forge Gun: {}
-  ADV Drone HMG: {}
-  ADV Drone Laser Rifle: {}
-  ADV Drone Mass Driver: {}
-  ADV Drone Shotgun: {}
-  ADV Drone Sniper Rifle: {}
-  ADV Drone Swarm Launcher: {}
-  AT-1 Accelerated Missile Launcher: {}
-  AT-1 Cycled Missile Launcher: {}
-  AT-1 Fragmented Missile Launcher: {}
-  AT-1 Missile Launcher: {}
-  AT-201 Accelerated Missile Launcher: {}
-  AT-201 Cycled Missile Launcher: {}
-  AT-201 Fragmented Missile Launcher: {}
-  AT-201 Missile Launcher: {}
-  AV Grenade: {}
-  Agimus' Modified AGO-56 Mass Driver: {}
-  Alex's Modified VC-107 SMG: {}
-  Alex's Modified ZX-030 Heavy Machine Gun: {}
-  Alldin's IMP-10 Forge Gun: {}
-  Allotek Breach Shotgun: {}
-  Allotek Burst Assault Rifle: {}
-  Allotek Flux Grenade: {}
-  Allotek Plasma Cannon: {}
-  Anti-MCC Turret: {}
-  AntiMCC Railgun: {}
-  Assault Combat Rifle: {}
-  Assault Forge Gun: {}
-  Assault Heavy Machine Gun: {}
-  Assault Mass Driver: {}
-  Assault Rail Rifle: {}
-  Assault Rifle: {}
-  Assault Scrambler Pistol: {}
-  Assault Scrambler Rifle: {}
-  Assault Submachine Gun: {}
-  Assault Swarm Launcher: {}
-  BK-42 Assault Combat Rifle: {}
-  Balac's GAR-21 Assault Rifle: {}
-  Balac's MRN-30 Submachine Gun: {}
-  Balac's N-17 Sniper Rifle: {}
-  Beacon’s ELI-74 Swarm Launcher: {}
-  Blaster: {}
-  Blaster Installation: {}
-  Bolt Pistol: {}
-  Bons' SIN-7 Shotgun: {}
-  Boundless Assault Mass Driver: {}
-  Boundless Breach Submachine Gun: {}
-  Boundless Combat Rifle: {}
-  Boundless Heavy Machine Gun: {}
-  Breach Assault Rifle: {}
-  Breach Flaylock Pistol: {}
-  Breach Forge Gun: {}
-  Breach Mass Driver: {}
-  Breach Scrambler Pistol: {}
-  Breach Shotgun: {}
-  Breach Submachine Gun: {}
-  Burst Assault Rifle: {}
-  Burst Flaylock Pistol: {}
-  Burst Heavy Machine Gun: {}
-  Burst Scrambler Pistol: {}
-  C-7 Flux Grenade: {}
-  C15-A Tactical Sniper Rifle: {}
-  C27-N Specialist Sniper Rifle: {}
-  CAR-9 Burst Scrambler Pistol: {}
-  CBR-112 Specialist Swarm Launcher: {}
-  CBR7 Swarm Launcher: {}
-  CFG-129 Assault Swarm Launcher: {}
-  CRD-9 Assault Scrambler Rifle: {}
-  CRG-3 Shotgun: {}
-  CRW-04 Scrambler Rifle: {}
-  Cala's MK-33 Submachine Gun: {}
-  Capped Locus Grenade: {}
-  Carthum Assault Scrambler Pistol: {}
-  Carthum Assault Scrambler Rifle: {}
-  Charge Sniper Rifle: {}
-  Combat Rifle: {}
-  Contact Grenade: {}
-  Core Breach Mass Driver: {}
-  Core Flaylock Pistol: {}
-  Core Locus Grenade: {}
-  Core Seeker Flaylock: {}
-  Core Specialist Seeker Flaylock: {}
-  Core Tactical Seeker Flaylock: {}
-  CreoDron Breach Assault Rifle: {}
-  CreoDron Ion Pistol: {}
-  CreoDron Shotgun: {}
-  D-9 Contact Grenade: {}
-  DAU-2/A Assault Forge Gun: {}
-  DCMA-5 Breach Forge Gun: {}
-  Darth's GIO-66 Scrambler Rifle: {}
-  Drone Assault Rifle: {}
-  Drone Forge Gun: {}
-  Drone HMG: {}
-  Drone Laser Rifle: {}
-  Drone Mass Driver: {}
-  Drone Shotgun: {}
-  Drone Sniper Rifle: {}
-  Drone Swarm Launcher: {}
-  Duvolle Assault Rifle: {}
-  Duvolle Specialist Shotgun: {}
-  Duvolle Tactical Assault Rifle: {}
-  EC-3 Assault Mass Driver: {}
-  EK-A2 Breach Mass Driver: {}
-  ELM-7 Laser Rifle: {}
-  EX-0 AV Grenade: {}
-  EX-11 Packed AV Grenade: {}
-  EX-3 Sleek AV Grenade: {}
-  EXO-5 Mass Driver: {}
-  Experimental Assault Combat Rifle: {}
-  Experimental Assault Rail Rifle: {}
-  Experimental Assault Rifle: {}
-  Experimental Assault Scrambler Rifle: {}
-  Experimental Breach Assault Rifle: {}
-  Experimental Burst Assault Rifle: {}
-  Experimental Combat Rifle: {}
-  Experimental Forge Gun: {}
-  Experimental Heavy Machine Gun: {}
-  Experimental Laser Rifle: {}
-  Experimental Mass Driver: {}
-  Experimental Plasma Cannon: {}
-  Experimental Rail Rifle: {}
-  Experimental Scrambler Rifle: {}
-  Experimental Shotgun: {}
-  Experimental Sniper Rifle: {}
-  Experimental Swarm Launcher: {}
-  Experimental Tactical Assault Rifle: {}
-  Federation 20GJ Blaster: {}
-  Federation 20GJ Ion Cannon: {}
-  Federation 20GJ Neutron Blaster: {}
-  Federation 80GJ Blaster: {}
-  Federation 80GJ Ion Cannon: {}
-  Federation 80GJ Neutron Blaster: {}
-  Federation Allotek Plasma Cannon: {}
-  Federation Allotek Specialist Plasma Cannon: {}
-  Federation Assault Rifle: {}
-  Federation Breach Assault Rifle: {}
-  Federation Burst Assault Rifle: {}
-  Federation CRG-3 Shotgun: {}
-  Federation CreoDron Shotgun: {}
-  Federation CreoDron Specialist Shotgun: {}
-  Federation Duvolle Specialist Assault Rifle: {}
-  Federation Duvolle Tactical Assault Rifle: {}
-  Federation GEK-38 Assault Rifle: {}
-  Federation GK-13 Burst Assault Rifle: {}
-  Federation KLA-90 Plasma Cannon: {}
-  Federation Plasma Cannon: {}
-  Federation Shotgun: {}
-  Flaylock Pistol: {}
-  Flux Grenade: {}
-  Forge Gun: {}
-  Freedom Assault Heavy Machine Gun: {}
-  Freedom Burst Submachine Gun: {}
-  Freedom Mass Driver: {}
-  Freedom Sleek Locus Grenade: {}
-  Fused Locus Grenade: {}
-  G7-M Compact Assault Rifle: {}
-  GB-9 Breach Assault Rifle: {}
-  GEK-38 Assault Rifle: {}
-  GK-13 Burst Assault Rifle: {}
-  GLU-5 Tactical Assault Rifle: {}
-  GN-13 Flaylock Pistol: {}
-  GN-20 Specialist Flaylock Pistol: {}
-  Gastun's BRN-50 Forge Gun: {}
-  Gastun's MIN-7 HMG: {}
-  Ghalag's Modified MRT-17 Rail Rifle: {}
-  Ghalag's OCT-91 Bolt Pistol: {}
-  HK-2 Scrambler Pistol: {}
-  HK4M Shotgun: {}
-  Hacked EX-0 AV Grenade: {}
-  Handheld weapon needs a name: {}
-  Heavy Machine Gun: {}
-  IA5 Tactical Scrambler Pistol: {}
-  Imperial Armaments Forge Gun: {}
-  Imperial Assault Scrambler Rifle: {}
-  Imperial Breach Scrambler Pistol: {}
-  Imperial Burst Scrambler Pistol: {}
-  Imperial CAR-9 Burst Scrambler Pistol: {}
-  Imperial CRD-9 Assault Scrambler Rifle: {}
-  Imperial CRW-04 Scrambler Rifle: {}
-  Imperial Carthum Assault Scrambler Rifle: {}
-  Imperial ELM-7 Laser Rifle: {}
-  Imperial Laser Rifle: {}
-  Imperial Scrambler Pistol: {}
-  Imperial Scrambler Rifle: {}
-  Imperial Viziam Laser Rifle: {}
-  Imperial Viziam Scrambler Pistol: {}
-  Imperial Viziam Scrambler Rifle: {}
-  Imperial Viziam Specialist Laser Rifle: {}
-  Imperial Viziam Specialist Scrambler Rifle: {}
-  Ion Pistol: {}
-  Ironsight Test Assault Rifle: {}
-  Ishukone Assault Forge Gun: {}
-  Ishukone Assault Rail Rifle: {}
-  Ishukone Assault Submachine Gun: {}
-  Ishukone Assault Swarm Launcher: {}
-  Ishukone Nova Knives: {}
-  Ishukone Scrambler Pistol: {}
-  Ishukone Sniper Rifle: {}
-  K5 Specialist Shotgun: {}
-  KLA-90 Plasma Cannon: {}
-  KLO-1 Scrambler Pistol: {}
-  KR-17 Breach Shotgun: {}
-  Kaalakiota Bolt Pistol: {}
-  Kaalakiota Forge Gun: {}
-  Kaalakiota Magsec SMG: {}
-  Kaalakiota Rail Rifle: {}
-  Kaalakiota Tactical Sniper Rifle: {}
-  Kalante's RXS-05 Assault Rifle: {}
-  Krin's SIN-11 Assault Rifle: {}
-  Kubo's PE-165 Ion Pistol: {}
-  Kubo's PX-6 Scrambler Pistol: {}
-  Kubo’s GMK-16 Plasma Cannon: {}
-  Lai Dai Compact Sniper Rifle: {}
-  Lai Dai Packed AV Grenade: {}
-  Lai Dai Sleek AV Grenade: {}
-  Laser Rifle: {}
-  Locus Grenade: {}
-  Luis' Modified VC-107 Combat Rifle: {}
-  M1 Locus Grenade: {}
-  M209 Assault Submachine Gun: {}
-  M512-A Submachine Gun: {}
-  M8 Packed Locus Grenade: {}
-  MH-82 Heavy Machine Gun: {}
-  MLR-A Burst Heavy Machine Gun: {}
-  MO-4 Assault Heavy Machine Gun: {}
-  Magsec SMG: {}
-  Mass Driver: {}
-  Miasma Grenade: {}
-  Militia 20GJ Blaster: {}
-  Militia 20GJ Railgun: {}
-  Militia 80GJ Blaster: {}
-  Militia 80GJ Railgun: {}
-  Militia AV Grenade: {}
-  Militia AV Grenade Blueprint: {}
-  Militia Assault Combat Rifle: {}
-  Militia Assault Rail Rifle: {}
-  Militia Assault Rifle: {}
-  Militia Assault Rifle Blueprint: {}
-  Militia Assault Scrambler Rifle: {}
-  Militia Bolt Pistol: {}
-  Militia Bolt Pistol Blueprint: {}
-  Militia Combat Rifle: {}
-  Militia Combat Rifle Blueprint: {}
-  Militia Flaylock Pistol: {}
-  Militia Flaylock Pistol Blueprint: {}
-  Militia Flux Grenade: {}
-  Militia Flux Grenade Blueprint: {}
-  Militia Forge Gun: {}
-  Militia Forge Gun Blueprint: {}
-  Militia Heavy Machine Gun: {}
-  Militia Heavy Machine Gun Blueprint: {}
-  Militia Ion Pistol: {}
-  Militia Ion Pistol Blueprint: {}
-  Militia Laser Rifle: {}
-  Militia Laser Rifle Blueprint: {}
-  Militia Locus Grenade: {}
-  Militia Locus Grenade Blueprint: {}
-  Militia MT-1 Missile Launcher: {}
-  Militia Magsec SMG: {}
-  Militia Magsec SMG Blueprint: {}
-  Militia Mass Driver: {}
-  Militia Mass Driver Blueprint: {}
-  Militia Nova Knife Blueprint: {}
-  Militia Nova Knives: {}
-  Militia Plasma Cannon: {}
-  Militia Plasma Cannon Blueprint: {}
-  Militia Rail Rifle: {}
-  Militia Rail Rifle Blueprint: {}
-  Militia Scrambler Pistol: {}
-  Militia Scrambler Pistol Blueprint: {}
-  Militia Scrambler Rifle: {}
-  Militia Scrambler Rifle Blueprint: {}
-  Militia Shotgun: {}
-  Militia Shotgun Blueprint: {}
-  Militia Sniper Rifle: {}
-  Militia Sniper Rifle Blueprint: {}
-  Militia Submachine Gun: {}
-  Militia Submachine Gun Blueprint: {}
-  Militia Swarm Launcher: {}
-  Militia Swarm Launcher Blueprint: {}
-  Missile Installation: {}
-  Missile Launcher: {}
-  N7-A Magsec SMG: {}
-  NT-511 Sniper Rifle: {}
-  Nanaki's LORB-7 Magsec SMG: {}
-  Nothi's NOS-47 Nova Knives: {}
-  Nova Knives: {}
-  PRO Drone Assault Rifle: {}
-  PRO Drone Forge Gun: {}
-  PRO Drone HMG: {}
-  PRO Drone Laser Rifle: {}
-  PRO Drone Mass Driver: {}
-  PRO Drone Shotgun: {}
-  PRO Drone Sniper Rifle: {}
-  PRO Drone Swarm Launcher: {}
-  Packed AV Grenade: {}
-  Passenger Position: {}
-  Plasma Cannon: {}
-  RS-90 Combat Rifle: {}
-  Rail Rifle: {}
-  Railgun Installation: {}
-  Recruit Assault Rifle: {}
-  Recruit Submachine Gun: {}
-  Red Dot Test Burst Assault Rifle: {}
-  Republic Assault Combat Rifle: {}
-  Republic Boundless Heavy Machine Gun: {}
-  Republic Boundless Specialist Combat Rifle: {}
-  Republic Core Flaylock Pistol: {}
-  Republic EXO-5 Mass Driver: {}
-  Republic Flaylock Pistol: {}
-  Republic Freedom Mass Driver: {}
-  Republic Freedom Specialist Mass Driver: {}
-  Republic GN-13 Flaylock Pistol: {}
-  Republic Heavy Machine Gun: {}
-  Republic M512-A Submachine Gun: {}
-  Republic MH-82 Heavy Machine Gun: {}
-  Republic Mass Driver: {}
-  Republic SK9M Breach Submachine Gun: {}
-  Republic Six Kin Submachine Gun: {}
-  Republic Submachine Gun: {}
-  Roden Sniper Rifle: {}
-  SB-39 Rail Rifle: {}
-  SK9M Breach Submachine Gun: {}
-  SL-4 Assault Rail Rifle: {}
-  SR-25 Bolt Pistol: {}
-  ST-1 Accelerated Missile Launcher: {}
-  ST-1 Cycled Missile Launcher: {}
-  ST-1 Fragmented Missile Launcher: {}
-  ST-1 Missile Launcher: {}
-  ST-201 Accelerated Missile Launcher: {}
-  ST-201 Cycled Missile Launcher: {}
-  ST-201 Fragmented Missile Launcher: {}
-  ST-201 Missile Launcher: {}
-  Scrambler Pistol: {}
-  Scrambler Rifle: {}
-  Seeker Flaylock: {}
-  Shotgun: {}
-  Six Kin Assault Combat Rifle: {}
-  Six Kin Burst Heavy Machine Gun: {}
-  Six Kin Submachine Gun: {}
-  Sleek AV Grenade: {}
-  Sleek Locus Grenade: {}
-  'Small Blaster Installation ': {}
-  'Small CA Railgun Installation ': {}
-  Small Rocket Installation: {}
-  Sniper Rifle: {}
-  Sniper Rifle [Experimental]: {}
-  Solar's PAR-8 Flaylock Pistol: {}
-  Specialist Scrambler Pistol: {}
-  Specialist Shotgun: {}
-  Specialist Swarm Launcher: {}
-  Staff Recruiter Assault Rifle: {}
-  Staff Recruiter Laser Rifle: {}
-  Staff Recruiter Scrambler Pistol: {}
-  Staff Recruiter Sniper Rifle: {}
-  State 20GJ Particle Accelerator: {}
-  State 20GJ Particle Cannon: {}
-  State 20GJ Railgun: {}
-  State 80GJ Particle Accelerator: {}
-  State 80GJ Particle Cannon: {}
-  State 80GJ Railgun: {}
-  State AT-1 Missile Launcher: {}
-  State AT-201 Missile Launcher: {}
-  State Assault Rail Rifle: {}
-  State C15-A Tactical Sniper Rifle: {}
-  State CBR7 Swarm Launcher: {}
-  State Ishukone Assault Rail Rifle: {}
-  State Ishukone Specialist Sniper Rifle: {}
-  State Kaalakiota Rail Rifle: {}
-  State Kaalakiota Sniper Rifle: {}
-  State Kaalakiota Specialist Rail Rifle: {}
-  State NT-511 Sniper Rifle: {}
-  State Rail Rifle: {}
-  State SB-39 Rail Rifle: {}
-  State SL-4 Assault Rail Rifle: {}
-  State ST-1 Missile Launcher: {}
-  State ST-201 Missile Launcher: {}
-  State Sniper Rifle: {}
-  State Swarm Launcher: {}
-  State Wiyrkomi Specialist Swarm Launcher: {}
-  State Wiyrkomi Swarm Launcher: {}
-  State XT-1 Missile Launcher: {}
-  State XT-201 Missile Launcher: {}
-  Submachine Gun: {}
-  Swarm Launcher: {}
-  Symb's FORK-5 Sniper Rifle: {}
-  Synch AV Grenade: {}
-  T-12 Ion Pistol: {}
-  TT-3 Assault Scrambler Pistol: {}
-  TY-5 Breach Scrambler Pistol: {}
-  Tactical Assault Rifle: {}
-  Tactical Sniper Rifle: {}
-  Thale's TAR-07 Sniper Rifle: {}
-  Thukker Contact Locus Grenade: {}
-  VN-30 Seeker Flaylock: {}
-  VN-35 Tactical Seeker Flaylock: {}
-  Viktor’s NEG-1 Laser Rifle: {}
-  Viziam Contact Grenade: {}
-  Viziam Laser Rifle: {}
-  Viziam Scrambler Pistol: {}
-  Viziam Scrambler Rifle: {}
-  Volatile Locus Grenade: {}
-  Wiyrkomi AV Grenade: {}
-  Wiyrkomi Breach Forge Gun: {}
-  Wiyrkomi Specialist Swarm Launcher: {}
-  Wiyrkomi Swarm Launcher: {}
-  Wolfman's PCP-30 Scrambler Pistol: {}
-  X-MS Snowball Launcher: {}
-  X-MS15 Snowball Launcher: {}
-  X-MS16 Snowball Launcher: {}
-  XT-1 Accelerated Missile Launcher: {}
-  XT-1 Cycled Missile Launcher: {}
-  XT-1 Fragmented Missile Launcher: {}
-  XT-1 Missile Launcher: {}
-  XT-201 Accelerated Missile Launcher: {}
-  XT-201 Cycled Missile Launcher: {}
-  XT-201 Fragmented Missile Launcher: {}
-  XT-201 Missile Launcher: {}
-  ZN-28 Nova Knives: {}
-  '[TEST] Swarm Launcher': {}
+  '''Angerstar'' Rail Rifle':
+    name: '''Angerstar'' Rail Rifle'
+  '''Arcflare'' DAU-2/A Forge Gun':
+    name: '''Arcflare'' DAU-2/A Forge Gun'
+  '''Arson'' AT-1 Missile Launcher':
+    name: '''Arson'' AT-1 Missile Launcher'
+  '''Ashborne'' Scrambler Rifle':
+    name: '''Ashborne'' Scrambler Rifle'
+  '''Avalanche'' Freedom Mass Driver':
+    name: '''Avalanche'' Freedom Mass Driver'
+  '''Backscatter'' Freedom Forge Gun':
+    name: '''Backscatter'' Freedom Forge Gun'
+  '''Banshee'' C-7 Flux Grenade':
+    name: '''Banshee'' C-7 Flux Grenade'
+  '''Bedlam'' M512-A Submachine Gun':
+    name: '''Bedlam'' M512-A Submachine Gun'
+  '''Black Eagle'' Assault Rifle':
+    name: '''Black Eagle'' Assault Rifle'
+  '''Black Eagle'' Shotgun':
+    name: '''Black Eagle'' Shotgun'
+  '''Blackprey'' ZN-28 Nova Knives':
+    name: '''Blackprey'' ZN-28 Nova Knives'
+  '''Blastwave'' 9K330 Forge Gun':
+    name: '''Blastwave'' 9K330 Forge Gun'
+  '''Bleakanchor'' SL-4 Assault Rail Rifle':
+    name: '''Bleakanchor'' SL-4 Assault Rail Rifle'
+  '''Blindfire'' Assault Rifle':
+    name: '''Blindfire'' Assault Rifle'
+  '''Blisterrain'' Six Kin Assault Combat Rifle':
+    name: '''Blisterrain'' Six Kin Assault Combat Rifle'
+  '''Bloodgrail'' Viziam Scrambler Rifle':
+    name: '''Bloodgrail'' Viziam Scrambler Rifle'
+  '''Brimstone'' ST-1 Missile Launcher':
+    name: '''Brimstone'' ST-1 Missile Launcher'
+  '''Broadside'' MH-82 Heavy Machine Gun':
+    name: '''Broadside'' MH-82 Heavy Machine Gun'
+  '''Burnscar'' Khanid Scrambler Pistol':
+    name: '''Burnscar'' Khanid Scrambler Pistol'
+  '''Burnstalk'' Laser Rifle':
+    name: '''Burnstalk'' Laser Rifle'
+  '''Calisto'' 20GJ Neutron Blaster':
+    name: '''Calisto'' 20GJ Neutron Blaster'
+  '''Carnifax'' Locus Grenade':
+    name: '''Carnifax'' Locus Grenade'
+  '''Cavity'' M2 Contact Locus Grenade':
+    name: '''Cavity'' M2 Contact Locus Grenade'
+  '''Cerberus'' CRG-3 Shotgun':
+    name: '''Cerberus'' CRG-3 Shotgun'
+  '''Charstone'' Plasma Cannon':
+    name: '''Charstone'' Plasma Cannon'
+  '''Chimera'' Shotgun':
+    name: '''Chimera'' Shotgun'
+  '''Chokegrin'' Kaalakiota Magsec SMG':
+    name: '''Chokegrin'' Kaalakiota Magsec SMG'
+  '''Cinder'' XT-1 Missile Launcher':
+    name: '''Cinder'' XT-1 Missile Launcher'
+  '''Codewish'' Duvolle Tactical Assault Rifle':
+    name: '''Codewish'' Duvolle Tactical Assault Rifle'
+  '''Construct'' Allotek Plasma Cannon':
+    name: '''Construct'' Allotek Plasma Cannon'
+  '''Construct'' Boundless Heavy Machine Gun':
+    name: '''Construct'' Boundless Heavy Machine Gun'
+  '''Construct'' Core Flaylock Pistol':
+    name: '''Construct'' Core Flaylock Pistol'
+  '''Construct'' CreoDron Shotgun':
+    name: '''Construct'' CreoDron Shotgun'
+  '''Construct'' Duvolle Assault Rifle':
+    name: '''Construct'' Duvolle Assault Rifle'
+  '''Construct'' Freedom Mass Driver':
+    name: '''Construct'' Freedom Mass Driver'
+  '''Construct'' Imperial Scrambler Rifle':
+    name: '''Construct'' Imperial Scrambler Rifle'
+  '''Construct'' Ishukone Nova Knives':
+    name: '''Construct'' Ishukone Nova Knives'
+  '''Construct'' Ishukone Sniper Rifle':
+    name: '''Construct'' Ishukone Sniper Rifle'
+  '''Construct'' Kaalakiota Forge Gun':
+    name: '''Construct'' Kaalakiota Forge Gun'
+  '''Construct'' Six Kin Submachine Gun':
+    name: '''Construct'' Six Kin Submachine Gun'
+  '''Construct'' Viziam Laser Rifle':
+    name: '''Construct'' Viziam Laser Rifle'
+  '''Construct'' Viziam Scrambler Pistol':
+    name: '''Construct'' Viziam Scrambler Pistol'
+  '''Construct'' Wiyrkomi Swarm Launcher':
+    name: '''Construct'' Wiyrkomi Swarm Launcher'
+  '''Corona'' Ishukone Sniper Rifle':
+    name: '''Corona'' Ishukone Sniper Rifle'
+  '''Covenant'' Sniper Rifle':
+    name: '''Covenant'' Sniper Rifle'
+  '''Crawtide'' Ishukone Assault Rail Rifle':
+    name: '''Crawtide'' Ishukone Assault Rail Rifle'
+  '''Cyclone'' EXO-5 Mass Driver':
+    name: '''Cyclone'' EXO-5 Mass Driver'
+  '''Daemon'' Shotgun':
+    name: '''Daemon'' Shotgun'
+  '''Darkside'' CBR7 Swarm Launcher':
+    name: '''Darkside'' CBR7 Swarm Launcher'
+  '''Darkvein'' Seeker Flaylock':
+    name: '''Darkvein'' Seeker Flaylock'
+  '''Deadflood'' Allotek Plasma Cannon':
+    name: '''Deadflood'' Allotek Plasma Cannon'
+  '''Deathchorus'' ELM-7 Laser Rifle':
+    name: '''Deathchorus'' ELM-7 Laser Rifle'
+  '''Doomcradle'' BK-42 Assault Combat Rifle':
+    name: '''Doomcradle'' BK-42 Assault Combat Rifle'
+  '''Downwind'' C15-A Tactical Sniper Rifle':
+    name: '''Downwind'' C15-A Tactical Sniper Rifle'
+  '''Dren'' Assault Rifle':
+    name: '''Dren'' Assault Rifle'
+  '''Dren'' Scrambler Pistol':
+    name: '''Dren'' Scrambler Pistol'
+  '''Dren'' Shotgun':
+    name: '''Dren'' Shotgun'
+  '''Dren'' Swarm Launcher':
+    name: '''Dren'' Swarm Launcher'
+  '''Exile'' Assault Rifle':
+    name: '''Exile'' Assault Rifle'
+  '''Farsight'' Sniper Rifle':
+    name: '''Farsight'' Sniper Rifle'
+  '''Fearcrop'' Boundless Combat Rifle':
+    name: '''Fearcrop'' Boundless Combat Rifle'
+  '''Flashbow'' CAR-9 Burst Scrambler Pistol':
+    name: '''Flashbow'' CAR-9 Burst Scrambler Pistol'
+  '''Fleshriver'' Ishukone Nova Knives':
+    name: '''Fleshriver'' Ishukone Nova Knives'
+  '''Gargoyle'' Freedom Burst Submachine Gun':
+    name: '''Gargoyle'' Freedom Burst Submachine Gun'
+  '''Genesis'' NT-511 Sniper Rifle':
+    name: '''Genesis'' NT-511 Sniper Rifle'
+  '''Golem'' Heavy Machine Gun':
+    name: '''Golem'' Heavy Machine Gun'
+  '''Gomorrah'' 80GJ Particle Cannon':
+    name: '''Gomorrah'' 80GJ Particle Cannon'
+  '''Gorewreck'' GK-13 Burst Assault Rifle':
+    name: '''Gorewreck'' GK-13 Burst Assault Rifle'
+  '''Gravepin'' N7-A Magsec SMG':
+    name: '''Gravepin'' N7-A Magsec SMG'
+  '''Grimcell'' SB-39 Rail Rifle':
+    name: '''Grimcell'' SB-39 Rail Rifle'
+  '''Grimlock'' Guristas Assault Forge Gun':
+    name: '''Grimlock'' Guristas Assault Forge Gun'
+  '''Grimoire'' 20GJ Blaster':
+    name: '''Grimoire'' 20GJ Blaster'
+  '''Grindfell'' Imperial Scrambler Pistol':
+    name: '''Grindfell'' Imperial Scrambler Pistol'
+  '''Guardwire'' Bolt Pistol':
+    name: '''Guardwire'' Bolt Pistol'
+  '''Harbinger'' ST-201 Missile Launcher':
+    name: '''Harbinger'' ST-201 Missile Launcher'
+  '''Haywire'' Wiyrkomi Swarm Launcher':
+    name: '''Haywire'' Wiyrkomi Swarm Launcher'
+  '''Haze'' Locus Grenade':
+    name: '''Haze'' Locus Grenade'
+  '''Hazemoon'' IA5 Tactical Scrambler Pistol':
+    name: '''Hazemoon'' IA5 Tactical Scrambler Pistol'
+  '''Hollow'' EX-0 AV Grenade':
+    name: '''Hollow'' EX-0 AV Grenade'
+  '''Hollowsight'' Carthum Assault Rifle':
+    name: '''Hollowsight'' Carthum Assault Rifle'
+  '''Horizon'' Kaalakiota Sniper Rifle':
+    name: '''Horizon'' Kaalakiota Sniper Rifle'
+  '''Howlcage'' Core Flaylock Pistol':
+    name: '''Howlcage'' Core Flaylock Pistol'
+  '''Husk'' AV Grenade':
+    name: '''Husk'' AV Grenade'
+  '''Husk'' Phase-synched Railgun (L)':
+    name: '''Husk'' Phase-synched Railgun (L)'
+  '''Hydra'' CreoDron Shotgun':
+    name: '''Hydra'' CreoDron Shotgun'
+  '''Imperial Guard''  VZN-20 Forge Gun':
+    name: '''Imperial Guard''  VZN-20 Forge Gun'
+  '''Imperial Guard'' Viziam Forge Gun':
+    name: '''Imperial Guard'' Viziam Forge Gun'
+  '''Killswitch'' GEK-38 Assault Rifle':
+    name: '''Killswitch'' GEK-38 Assault Rifle'
+  '''Klaxon'' Allotek Flux Grenade':
+    name: '''Klaxon'' Allotek Flux Grenade'
+  '''Leadgrave'' RS-90 Combat Rifle':
+    name: '''Leadgrave'' RS-90 Combat Rifle'
+  '''Lycan'' 20GJ Railgun':
+    name: '''Lycan'' 20GJ Railgun'
+  '''Maimharvest'' VN-30 Seeker Flaylock':
+    name: '''Maimharvest'' VN-30 Seeker Flaylock'
+  '''Martyr'' 20GJ Particle Cannon':
+    name: '''Martyr'' 20GJ Particle Cannon'
+  '''Mashgrill'' CreoDron Submachine Gun':
+    name: '''Mashgrill'' CreoDron Submachine Gun'
+  '''Mimicry'' CreoDron Tactical Swarm Launcher':
+    name: '''Mimicry'' CreoDron Tactical Swarm Launcher'
+  '''Minddrive'' SK9M Breach Submachine Gun':
+    name: '''Minddrive'' SK9M Breach Submachine Gun'
+  '''Mortis'' 80GJ Particle Accelerator':
+    name: '''Mortis'' 80GJ Particle Accelerator'
+  '''Nodeasylum'' Kaalakiota Bolt Pistol':
+    name: '''Nodeasylum'' Kaalakiota Bolt Pistol'
+  '''Omen'' AT-201 Missile Launcher':
+    name: '''Omen'' AT-201 Missile Launcher'
+  '''Oracle'' 80GJ Neutron Blaster':
+    name: '''Oracle'' 80GJ Neutron Blaster'
+  '''Paradox'' Graded Particle Cannon (S)':
+    name: '''Paradox'' Graded Particle Cannon (S)'
+  '''Pariah'' 80GJ Railgun':
+    name: '''Pariah'' 80GJ Railgun'
+  '''Phantasm'' 20GJ Ion Cannon':
+    name: '''Phantasm'' 20GJ Ion Cannon'
+  '''Prodigy'' XT-201 Missile Launcher':
+    name: '''Prodigy'' XT-201 Missile Launcher'
+  '''Pyrus'' ATK-05 Submachine Gun':
+    name: '''Pyrus'' ATK-05 Submachine Gun'
+  '''Pyrus'' ATK-108 Heavy Machine Gun':
+    name: '''Pyrus'' ATK-108 Heavy Machine Gun'
+  '''Pyrus'' ATK-11 Nova Knives':
+    name: '''Pyrus'' ATK-11 Nova Knives'
+  '''Pyrus'' ATK-17 Scrambler Pistol':
+    name: '''Pyrus'' ATK-17 Scrambler Pistol'
+  '''Pyrus'' ATK-21 Assault Rifle':
+    name: '''Pyrus'' ATK-21 Assault Rifle'
+  '''Pyrus'' ATK-30 Scrambler Rifle':
+    name: '''Pyrus'' ATK-30 Scrambler Rifle'
+  '''Pyrus'' ATK-32 Swarm Launcher':
+    name: '''Pyrus'' ATK-32 Swarm Launcher'
+  '''Pyrus'' ATK-43 Mass Driver':
+    name: '''Pyrus'' ATK-43 Mass Driver'
+  '''Pyrus'' ATK-44 Shotgun':
+    name: '''Pyrus'' ATK-44 Shotgun'
+  '''Pyrus'' ATK-50 Laser Rifle':
+    name: '''Pyrus'' ATK-50 Laser Rifle'
+  '''Pyrus'' ATK-58 Sniper Rifle':
+    name: '''Pyrus'' ATK-58 Sniper Rifle'
+  '''Pyrus'' ATK-73 Plasma Cannon':
+    name: '''Pyrus'' ATK-73 Plasma Cannon'
+  '''Pyrus'' ATK-9 Flaylock Pistol':
+    name: '''Pyrus'' ATK-9 Flaylock Pistol'
+  '''Pyrus'' ATK-90 Forge Gun':
+    name: '''Pyrus'' ATK-90 Forge Gun'
+  '''Pyrus'' Allotek Assault Rifle':
+    name: '''Pyrus'' Allotek Assault Rifle'
+  '''Pyrus'' Allotek Flaylock Pistol':
+    name: '''Pyrus'' Allotek Flaylock Pistol'
+  '''Pyrus'' Allotek Forge Gun':
+    name: '''Pyrus'' Allotek Forge Gun'
+  '''Pyrus'' Allotek Heavy Machine Gun':
+    name: '''Pyrus'' Allotek Heavy Machine Gun'
+  '''Pyrus'' Allotek Laser Rifle':
+    name: '''Pyrus'' Allotek Laser Rifle'
+  '''Pyrus'' Allotek Mass Driver':
+    name: '''Pyrus'' Allotek Mass Driver'
+  '''Pyrus'' Allotek Nova Knives':
+    name: '''Pyrus'' Allotek Nova Knives'
+  '''Pyrus'' Allotek Plasma Cannon':
+    name: '''Pyrus'' Allotek Plasma Cannon'
+  '''Pyrus'' Allotek Scrambler Pistol':
+    name: '''Pyrus'' Allotek Scrambler Pistol'
+  '''Pyrus'' Allotek Scrambler Rifle':
+    name: '''Pyrus'' Allotek Scrambler Rifle'
+  '''Pyrus'' Allotek Shotgun':
+    name: '''Pyrus'' Allotek Shotgun'
+  '''Pyrus'' Allotek Sniper Rifle':
+    name: '''Pyrus'' Allotek Sniper Rifle'
+  '''Pyrus'' Allotek Submachine Gun':
+    name: '''Pyrus'' Allotek Submachine Gun'
+  '''Pyrus'' Allotek Swarm Launcher':
+    name: '''Pyrus'' Allotek Swarm Launcher'
+  '''Pyrus'' Assault Rifle':
+    name: '''Pyrus'' Assault Rifle'
+  '''Pyrus'' Flaylock Pistol':
+    name: '''Pyrus'' Flaylock Pistol'
+  '''Pyrus'' Forge Gun':
+    name: '''Pyrus'' Forge Gun'
+  '''Pyrus'' Heavy Machine Gun':
+    name: '''Pyrus'' Heavy Machine Gun'
+  '''Pyrus'' Laser Rifle':
+    name: '''Pyrus'' Laser Rifle'
+  '''Pyrus'' Mass Driver':
+    name: '''Pyrus'' Mass Driver'
+  '''Pyrus'' Nova Knives':
+    name: '''Pyrus'' Nova Knives'
+  '''Pyrus'' Plasma Cannon':
+    name: '''Pyrus'' Plasma Cannon'
+  '''Pyrus'' Scrambler Pistol':
+    name: '''Pyrus'' Scrambler Pistol'
+  '''Pyrus'' Scrambler Rifle':
+    name: '''Pyrus'' Scrambler Rifle'
+  '''Pyrus'' Shotgun':
+    name: '''Pyrus'' Shotgun'
+  '''Pyrus'' Sniper Rifle':
+    name: '''Pyrus'' Sniper Rifle'
+  '''Pyrus'' Submachine Gun':
+    name: '''Pyrus'' Submachine Gun'
+  '''Pyrus'' Swarm Launcher':
+    name: '''Pyrus'' Swarm Launcher'
+  '''Quafe'' 20GJ Blaster':
+    name: '''Quafe'' 20GJ Blaster'
+  '''Quafe'' 20GJ Railgun':
+    name: '''Quafe'' 20GJ Railgun'
+  '''Quafe'' 80GJ Blaster':
+    name: '''Quafe'' 80GJ Blaster'
+  '''Quafe'' 80GJ Railgun':
+    name: '''Quafe'' 80GJ Railgun'
+  '''Quafe'' Assault Rifle':
+    name: '''Quafe'' Assault Rifle'
+  '''Quafe'' Combat Rifle':
+    name: '''Quafe'' Combat Rifle'
+  '''Quafe'' Forge Gun':
+    name: '''Quafe'' Forge Gun'
+  '''Quafe'' Heavy Machine Gun':
+    name: '''Quafe'' Heavy Machine Gun'
+  '''Quafe'' Laser Rifle':
+    name: '''Quafe'' Laser Rifle'
+  '''Quafe'' Mass Driver':
+    name: '''Quafe'' Mass Driver'
+  '''Quafe'' Nova Knives':
+    name: '''Quafe'' Nova Knives'
+  '''Quafe'' Plasma Cannon':
+    name: '''Quafe'' Plasma Cannon'
+  '''Quafe'' Rail Rifle':
+    name: '''Quafe'' Rail Rifle'
+  '''Quafe'' ST-1 Missile Launcher':
+    name: '''Quafe'' ST-1 Missile Launcher'
+  '''Quafe'' ST-201 Missile Launcher':
+    name: '''Quafe'' ST-201 Missile Launcher'
+  '''Quafe'' Scrambler Rifle':
+    name: '''Quafe'' Scrambler Rifle'
+  '''Quafe'' Shotgun':
+    name: '''Quafe'' Shotgun'
+  '''Quafe'' Sniper Rifle':
+    name: '''Quafe'' Sniper Rifle'
+  '''Quafe'' Swarm Launcher':
+    name: '''Quafe'' Swarm Launcher'
+  '''Rawspark'' Viziam Laser Rifle':
+    name: '''Rawspark'' Viziam Laser Rifle'
+  '''Ripshade'' KLA-90 Plasma Cannon':
+    name: '''Ripshade'' KLA-90 Plasma Cannon'
+  '''Rustmorgue'' GN-13 Flaylock Pistol':
+    name: '''Rustmorgue'' GN-13 Flaylock Pistol'
+  '''Scattermind'' Swarm Launcher':
+    name: '''Scattermind'' Swarm Launcher'
+  '''Scattershin'' T-12 Ion Pistol':
+    name: '''Scattershin'' T-12 Ion Pistol'
+  '''Scorchtalon'' Nova Knives':
+    name: '''Scorchtalon'' Nova Knives'
+  '''Scramkit'' CBR-112 Breach Swarm Launcher':
+    name: '''Scramkit'' CBR-112 Breach Swarm Launcher'
+  '''Shiftrisk'' SR-25 Bolt Pistol':
+    name: '''Shiftrisk'' SR-25 Bolt Pistol'
+  '''Shrinesong'' CRW-04 Scrambler Rifle':
+    name: '''Shrinesong'' CRW-04 Scrambler Rifle'
+  '''Shroud'' M1 Locus Grenade':
+    name: '''Shroud'' M1 Locus Grenade'
+  '''Sigil'' Wiyrkomi AV Grenade':
+    name: '''Sigil'' Wiyrkomi AV Grenade'
+  '''Singetear'' Viziam Scrambler Pistol':
+    name: '''Singetear'' Viziam Scrambler Pistol'
+  '''Sinwarden'' CRD-9 Assault Scrambler Rifle':
+    name: '''Sinwarden'' CRD-9 Assault Scrambler Rifle'
+  '''Siren'' Flux Grenade':
+    name: '''Siren'' Flux Grenade'
+  '''Skinbore'' Core Seeker Flaylock':
+    name: '''Skinbore'' Core Seeker Flaylock'
+  '''Skyglitch'' Magsec SMG':
+    name: '''Skyglitch'' Magsec SMG'
+  '''Slashvent'' Submachine Gun':
+    name: '''Slashvent'' Submachine Gun'
+  '''Sodom'' 80GJ Ion Cannon':
+    name: '''Sodom'' 80GJ Ion Cannon'
+  '''Spartan'' 20GJ Particle Accelerator':
+    name: '''Spartan'' 20GJ Particle Accelerator'
+  '''Spitfire'' Six Kin Submachine Gun':
+    name: '''Spitfire'' Six Kin Submachine Gun'
+  '''Splashbone'' Flaylock Pistol':
+    name: '''Splashbone'' Flaylock Pistol'
+  '''Steelmine'' Boundless Heavy Machine Gun':
+    name: '''Steelmine'' Boundless Heavy Machine Gun'
+  '''Stormside'' Roden Assault Rifle':
+    name: '''Stormside'' Roden Assault Rifle'
+  '''Stormvein'' Carthum Assault Scrambler Rifle':
+    name: '''Stormvein'' Carthum Assault Scrambler Rifle'
+  '''Strumborne'' Forge Gun':
+    name: '''Strumborne'' Forge Gun'
+  '''Surgepoint'' Six Kin Sniper Rifle':
+    name: '''Surgepoint'' Six Kin Sniper Rifle'
+  '''Surgewick'' Scrambler Pistol':
+    name: '''Surgewick'' Scrambler Pistol'
+  '''Syndicate'' Submachine Gun':
+    name: '''Syndicate'' Submachine Gun'
+  '''Templar'' Laser Rifle':
+    name: '''Templar'' Laser Rifle'
+  '''Templar'' Scrambler Pistol':
+    name: '''Templar'' Scrambler Pistol'
+  '''Templar'' Scrambler Rifle':
+    name: '''Templar'' Scrambler Rifle'
+  '''Torchflare'' Kaalakiota Forge Gun':
+    name: '''Torchflare'' Kaalakiota Forge Gun'
+  '''Toxin'' Assault Rifle':
+    name: '''Toxin'' Assault Rifle'
+  '''Toxin'' ICD-9 Submachine Gun':
+    name: '''Toxin'' ICD-9 Submachine Gun'
+  '''Tsunami'' Mass Driver':
+    name: '''Tsunami'' Mass Driver'
+  '''Vapor'' Core Locus Grenade':
+    name: '''Vapor'' Core Locus Grenade'
+  '''Vaporlaw'' CreoDron Ion Pistol':
+    name: '''Vaporlaw'' CreoDron Ion Pistol'
+  '''Void'' Kaalakiota AV Grenade':
+    name: '''Void'' Kaalakiota AV Grenade'
+  '''Weavewind'' Roden Swarm Launcher':
+    name: '''Weavewind'' Roden Swarm Launcher'
+  '''Wildlight'' Ion Pistol':
+    name: '''Wildlight'' Ion Pistol'
+  '''Woundriot'' Combat Rifle':
+    name: '''Woundriot'' Combat Rifle'
+  '''Wraith'' 80GJ Blaster':
+    name: '''Wraith'' 80GJ Blaster'
+  '''Zerofrost'' Kaalakiota Rail Rifle':
+    name: '''Zerofrost'' Kaalakiota Rail Rifle'
+  20GJ Blaster:
+    name: 20GJ Blaster
+  20GJ Compressed Blaster:
+    name: 20GJ Compressed Blaster
+  20GJ Compressed Ion Cannon:
+    name: 20GJ Compressed Ion Cannon
+  20GJ Compressed Neutron Blaster:
+    name: 20GJ Compressed Neutron Blaster
+  20GJ Compressed Particle Accelerator:
+    name: 20GJ Compressed Particle Accelerator
+  20GJ Compressed Particle Cannon:
+    name: 20GJ Compressed Particle Cannon
+  20GJ Compressed Railgun:
+    name: 20GJ Compressed Railgun
+  20GJ Ion Cannon:
+    name: 20GJ Ion Cannon
+  20GJ Neutron Blaster:
+    name: 20GJ Neutron Blaster
+  20GJ Particle Accelerator:
+    name: 20GJ Particle Accelerator
+  20GJ Particle Cannon:
+    name: 20GJ Particle Cannon
+  20GJ Railgun:
+    name: 20GJ Railgun
+  20GJ Regulated Particle Accelerator:
+    name: 20GJ Regulated Particle Accelerator
+  20GJ Regulated Particle Cannon:
+    name: 20GJ Regulated Particle Cannon
+  20GJ Regulated Railgun:
+    name: 20GJ Regulated Railgun
+  20GJ Scattered Blaster:
+    name: 20GJ Scattered Blaster
+  20GJ Scattered Ion Cannon:
+    name: 20GJ Scattered Ion Cannon
+  20GJ Scattered Neutron Blaster:
+    name: 20GJ Scattered Neutron Blaster
+  20GJ Stabilized Blaster:
+    name: 20GJ Stabilized Blaster
+  20GJ Stabilized Ion Cannon:
+    name: 20GJ Stabilized Ion Cannon
+  20GJ Stabilized Neutron Blaster:
+    name: 20GJ Stabilized Neutron Blaster
+  20GJ Stabilized Particle Accelerator:
+    name: 20GJ Stabilized Particle Accelerator
+  20GJ Stabilized Particle Cannon:
+    name: 20GJ Stabilized Particle Cannon
+  20GJ Stabilized Railgun:
+    name: 20GJ Stabilized Railgun
+  80GJ Blaster:
+    name: 80GJ Blaster
+  80GJ Compressed Blaster:
+    name: 80GJ Compressed Blaster
+  80GJ Compressed Ion Cannon:
+    name: 80GJ Compressed Ion Cannon
+  80GJ Compressed Neutron Blaster:
+    name: 80GJ Compressed Neutron Blaster
+  80GJ Compressed Particle Accelerator:
+    name: 80GJ Compressed Particle Accelerator
+  80GJ Compressed Particle Cannon:
+    name: 80GJ Compressed Particle Cannon
+  80GJ Compressed Railgun:
+    name: 80GJ Compressed Railgun
+  80GJ Ion Cannon:
+    name: 80GJ Ion Cannon
+  80GJ Neutron Blaster:
+    name: 80GJ Neutron Blaster
+  80GJ Particle Accelerator:
+    name: 80GJ Particle Accelerator
+  80GJ Particle Cannon:
+    name: 80GJ Particle Cannon
+  80GJ Railgun:
+    name: 80GJ Railgun
+  80GJ Regulated Particle Accelerator:
+    name: 80GJ Regulated Particle Accelerator
+  80GJ Regulated Particle Cannon:
+    name: 80GJ Regulated Particle Cannon
+  80GJ Regulated Railgun:
+    name: 80GJ Regulated Railgun
+  80GJ Scattered Blaster:
+    name: 80GJ Scattered Blaster
+  80GJ Scattered Ion Cannon:
+    name: 80GJ Scattered Ion Cannon
+  80GJ Scattered Neutron Blaster:
+    name: 80GJ Scattered Neutron Blaster
+  80GJ Stabilized Blaster:
+    name: 80GJ Stabilized Blaster
+  80GJ Stabilized Ion Cannon:
+    name: 80GJ Stabilized Ion Cannon
+  80GJ Stabilized Neutron Blaster:
+    name: 80GJ Stabilized Neutron Blaster
+  80GJ Stabilized Particle Accelerator:
+    name: 80GJ Stabilized Particle Accelerator
+  80GJ Stabilized Particle Cannon:
+    name: 80GJ Stabilized Particle Cannon
+  80GJ Stabilized Railgun:
+    name: 80GJ Stabilized Railgun
+  9K330 Forge Gun:
+    name: 9K330 Forge Gun
+  ACOG Test Tactical Assault Rifle:
+    name: ACOG Test Tactical Assault Rifle
+  ADV Drone Assault Rifle:
+    name: ADV Drone Assault Rifle
+  ADV Drone Forge Gun:
+    name: ADV Drone Forge Gun
+  ADV Drone HMG:
+    name: ADV Drone HMG
+  ADV Drone Laser Rifle:
+    name: ADV Drone Laser Rifle
+  ADV Drone Mass Driver:
+    name: ADV Drone Mass Driver
+  ADV Drone Shotgun:
+    name: ADV Drone Shotgun
+  ADV Drone Sniper Rifle:
+    name: ADV Drone Sniper Rifle
+  ADV Drone Swarm Launcher:
+    name: ADV Drone Swarm Launcher
+  AT-1 Accelerated Missile Launcher:
+    name: AT-1 Accelerated Missile Launcher
+  AT-1 Cycled Missile Launcher:
+    name: AT-1 Cycled Missile Launcher
+  AT-1 Fragmented Missile Launcher:
+    name: AT-1 Fragmented Missile Launcher
+  AT-1 Missile Launcher:
+    name: AT-1 Missile Launcher
+  AT-201 Accelerated Missile Launcher:
+    name: AT-201 Accelerated Missile Launcher
+  AT-201 Cycled Missile Launcher:
+    name: AT-201 Cycled Missile Launcher
+  AT-201 Fragmented Missile Launcher:
+    name: AT-201 Fragmented Missile Launcher
+  AT-201 Missile Launcher:
+    name: AT-201 Missile Launcher
+  AV Grenade:
+    name: AV Grenade
+  Agimus' Modified AGO-56 Mass Driver:
+    name: Agimus' Modified AGO-56 Mass Driver
+  Alex's Modified VC-107 SMG:
+    name: Alex's Modified VC-107 SMG
+  Alex's Modified ZX-030 Heavy Machine Gun:
+    name: Alex's Modified ZX-030 Heavy Machine Gun
+  Alldin's IMP-10 Forge Gun:
+    name: Alldin's IMP-10 Forge Gun
+  Allotek Breach Shotgun:
+    name: Allotek Breach Shotgun
+  Allotek Burst Assault Rifle:
+    name: Allotek Burst Assault Rifle
+  Allotek Flux Grenade:
+    name: Allotek Flux Grenade
+  Allotek Plasma Cannon:
+    name: Allotek Plasma Cannon
+  Anti-MCC Turret:
+    name: Anti-MCC Turret
+  AntiMCC Railgun:
+    name: AntiMCC Railgun
+  Assault Combat Rifle:
+    name: Assault Combat Rifle
+  Assault Forge Gun:
+    name: Assault Forge Gun
+  Assault Heavy Machine Gun:
+    name: Assault Heavy Machine Gun
+  Assault Mass Driver:
+    name: Assault Mass Driver
+  Assault Rail Rifle:
+    name: Assault Rail Rifle
+  Assault Rifle:
+    name: Assault Rifle
+  Assault Scrambler Pistol:
+    name: Assault Scrambler Pistol
+  Assault Scrambler Rifle:
+    name: Assault Scrambler Rifle
+  Assault Submachine Gun:
+    name: Assault Submachine Gun
+  Assault Swarm Launcher:
+    name: Assault Swarm Launcher
+  BK-42 Assault Combat Rifle:
+    name: BK-42 Assault Combat Rifle
+  Balac's GAR-21 Assault Rifle:
+    name: Balac's GAR-21 Assault Rifle
+  Balac's MRN-30 Submachine Gun:
+    name: Balac's MRN-30 Submachine Gun
+  Balac's N-17 Sniper Rifle:
+    name: Balac's N-17 Sniper Rifle
+  Beacon’s ELI-74 Swarm Launcher:
+    name: Beacon’s ELI-74 Swarm Launcher
+  Blaster:
+    name: Blaster
+  Blaster Installation:
+    name: Blaster Installation
+  Bolt Pistol:
+    name: Bolt Pistol
+  Bons' SIN-7 Shotgun:
+    name: Bons' SIN-7 Shotgun
+  Boundless Assault Mass Driver:
+    name: Boundless Assault Mass Driver
+  Boundless Breach Submachine Gun:
+    name: Boundless Breach Submachine Gun
+  Boundless Combat Rifle:
+    name: Boundless Combat Rifle
+  Boundless Heavy Machine Gun:
+    name: Boundless Heavy Machine Gun
+  Breach Assault Rifle:
+    name: Breach Assault Rifle
+  Breach Flaylock Pistol:
+    name: Breach Flaylock Pistol
+  Breach Forge Gun:
+    name: Breach Forge Gun
+  Breach Mass Driver:
+    name: Breach Mass Driver
+  Breach Scrambler Pistol:
+    name: Breach Scrambler Pistol
+  Breach Shotgun:
+    name: Breach Shotgun
+  Breach Submachine Gun:
+    name: Breach Submachine Gun
+  Burst Assault Rifle:
+    name: Burst Assault Rifle
+  Burst Flaylock Pistol:
+    name: Burst Flaylock Pistol
+  Burst Heavy Machine Gun:
+    name: Burst Heavy Machine Gun
+  Burst Scrambler Pistol:
+    name: Burst Scrambler Pistol
+  C-7 Flux Grenade:
+    name: C-7 Flux Grenade
+  C15-A Tactical Sniper Rifle:
+    name: C15-A Tactical Sniper Rifle
+  C27-N Specialist Sniper Rifle:
+    name: C27-N Specialist Sniper Rifle
+  CAR-9 Burst Scrambler Pistol:
+    name: CAR-9 Burst Scrambler Pistol
+  CBR-112 Specialist Swarm Launcher:
+    name: CBR-112 Specialist Swarm Launcher
+  CBR7 Swarm Launcher:
+    name: CBR7 Swarm Launcher
+  CFG-129 Assault Swarm Launcher:
+    name: CFG-129 Assault Swarm Launcher
+  CRD-9 Assault Scrambler Rifle:
+    name: CRD-9 Assault Scrambler Rifle
+  CRG-3 Shotgun:
+    name: CRG-3 Shotgun
+  CRW-04 Scrambler Rifle:
+    name: CRW-04 Scrambler Rifle
+  Cala's MK-33 Submachine Gun:
+    name: Cala's MK-33 Submachine Gun
+  Capped Locus Grenade:
+    name: Capped Locus Grenade
+  Carthum Assault Scrambler Pistol:
+    name: Carthum Assault Scrambler Pistol
+  Carthum Assault Scrambler Rifle:
+    name: Carthum Assault Scrambler Rifle
+  Charge Sniper Rifle:
+    name: Charge Sniper Rifle
+  Combat Rifle:
+    name: Combat Rifle
+  Contact Grenade:
+    name: Contact Grenade
+  Core Breach Mass Driver:
+    name: Core Breach Mass Driver
+  Core Flaylock Pistol:
+    name: Core Flaylock Pistol
+  Core Locus Grenade:
+    name: Core Locus Grenade
+  Core Seeker Flaylock:
+    name: Core Seeker Flaylock
+  Core Specialist Seeker Flaylock:
+    name: Core Specialist Seeker Flaylock
+  Core Tactical Seeker Flaylock:
+    name: Core Tactical Seeker Flaylock
+  CreoDron Breach Assault Rifle:
+    name: CreoDron Breach Assault Rifle
+  CreoDron Ion Pistol:
+    name: CreoDron Ion Pistol
+  CreoDron Shotgun:
+    name: CreoDron Shotgun
+  D-9 Contact Grenade:
+    name: D-9 Contact Grenade
+  DAU-2/A Assault Forge Gun:
+    name: DAU-2/A Assault Forge Gun
+  DCMA-5 Breach Forge Gun:
+    name: DCMA-5 Breach Forge Gun
+  Darth's GIO-66 Scrambler Rifle:
+    name: Darth's GIO-66 Scrambler Rifle
+  Drone Assault Rifle:
+    name: Drone Assault Rifle
+  Drone Forge Gun:
+    name: Drone Forge Gun
+  Drone HMG:
+    name: Drone HMG
+  Drone Laser Rifle:
+    name: Drone Laser Rifle
+  Drone Mass Driver:
+    name: Drone Mass Driver
+  Drone Shotgun:
+    name: Drone Shotgun
+  Drone Sniper Rifle:
+    name: Drone Sniper Rifle
+  Drone Swarm Launcher:
+    name: Drone Swarm Launcher
+  Duvolle Assault Rifle:
+    name: Duvolle Assault Rifle
+  Duvolle Specialist Shotgun:
+    name: Duvolle Specialist Shotgun
+  Duvolle Tactical Assault Rifle:
+    name: Duvolle Tactical Assault Rifle
+  EC-3 Assault Mass Driver:
+    name: EC-3 Assault Mass Driver
+  EK-A2 Breach Mass Driver:
+    name: EK-A2 Breach Mass Driver
+  ELM-7 Laser Rifle:
+    name: ELM-7 Laser Rifle
+  EX-0 AV Grenade:
+    name: EX-0 AV Grenade
+  EX-11 Packed AV Grenade:
+    name: EX-11 Packed AV Grenade
+  EX-3 Sleek AV Grenade:
+    name: EX-3 Sleek AV Grenade
+  EXO-5 Mass Driver:
+    name: EXO-5 Mass Driver
+  Experimental Assault Combat Rifle:
+    name: Experimental Assault Combat Rifle
+  Experimental Assault Rail Rifle:
+    name: Experimental Assault Rail Rifle
+  Experimental Assault Rifle:
+    name: Experimental Assault Rifle
+  Experimental Assault Scrambler Rifle:
+    name: Experimental Assault Scrambler Rifle
+  Experimental Breach Assault Rifle:
+    name: Experimental Breach Assault Rifle
+  Experimental Burst Assault Rifle:
+    name: Experimental Burst Assault Rifle
+  Experimental Combat Rifle:
+    name: Experimental Combat Rifle
+  Experimental Forge Gun:
+    name: Experimental Forge Gun
+  Experimental Heavy Machine Gun:
+    name: Experimental Heavy Machine Gun
+  Experimental Laser Rifle:
+    name: Experimental Laser Rifle
+  Experimental Mass Driver:
+    name: Experimental Mass Driver
+  Experimental Plasma Cannon:
+    name: Experimental Plasma Cannon
+  Experimental Rail Rifle:
+    name: Experimental Rail Rifle
+  Experimental Scrambler Rifle:
+    name: Experimental Scrambler Rifle
+  Experimental Shotgun:
+    name: Experimental Shotgun
+  Experimental Sniper Rifle:
+    name: Experimental Sniper Rifle
+  Experimental Swarm Launcher:
+    name: Experimental Swarm Launcher
+  Experimental Tactical Assault Rifle:
+    name: Experimental Tactical Assault Rifle
+  Federation 20GJ Blaster:
+    name: Federation 20GJ Blaster
+  Federation 20GJ Ion Cannon:
+    name: Federation 20GJ Ion Cannon
+  Federation 20GJ Neutron Blaster:
+    name: Federation 20GJ Neutron Blaster
+  Federation 80GJ Blaster:
+    name: Federation 80GJ Blaster
+  Federation 80GJ Ion Cannon:
+    name: Federation 80GJ Ion Cannon
+  Federation 80GJ Neutron Blaster:
+    name: Federation 80GJ Neutron Blaster
+  Federation Allotek Plasma Cannon:
+    name: Federation Allotek Plasma Cannon
+  Federation Allotek Specialist Plasma Cannon:
+    name: Federation Allotek Specialist Plasma Cannon
+  Federation Assault Rifle:
+    name: Federation Assault Rifle
+  Federation Breach Assault Rifle:
+    name: Federation Breach Assault Rifle
+  Federation Burst Assault Rifle:
+    name: Federation Burst Assault Rifle
+  Federation CRG-3 Shotgun:
+    name: Federation CRG-3 Shotgun
+  Federation CreoDron Shotgun:
+    name: Federation CreoDron Shotgun
+  Federation CreoDron Specialist Shotgun:
+    name: Federation CreoDron Specialist Shotgun
+  Federation Duvolle Specialist Assault Rifle:
+    name: Federation Duvolle Specialist Assault Rifle
+  Federation Duvolle Tactical Assault Rifle:
+    name: Federation Duvolle Tactical Assault Rifle
+  Federation GEK-38 Assault Rifle:
+    name: Federation GEK-38 Assault Rifle
+  Federation GK-13 Burst Assault Rifle:
+    name: Federation GK-13 Burst Assault Rifle
+  Federation KLA-90 Plasma Cannon:
+    name: Federation KLA-90 Plasma Cannon
+  Federation Plasma Cannon:
+    name: Federation Plasma Cannon
+  Federation Shotgun:
+    name: Federation Shotgun
+  Flaylock Pistol:
+    name: Flaylock Pistol
+  Flux Grenade:
+    name: Flux Grenade
+  Forge Gun:
+    name: Forge Gun
+  Freedom Assault Heavy Machine Gun:
+    name: Freedom Assault Heavy Machine Gun
+  Freedom Burst Submachine Gun:
+    name: Freedom Burst Submachine Gun
+  Freedom Mass Driver:
+    name: Freedom Mass Driver
+  Freedom Sleek Locus Grenade:
+    name: Freedom Sleek Locus Grenade
+  Fused Locus Grenade:
+    name: Fused Locus Grenade
+  G7-M Compact Assault Rifle:
+    name: G7-M Compact Assault Rifle
+  GB-9 Breach Assault Rifle:
+    name: GB-9 Breach Assault Rifle
+  GEK-38 Assault Rifle:
+    name: GEK-38 Assault Rifle
+  GK-13 Burst Assault Rifle:
+    name: GK-13 Burst Assault Rifle
+  GLU-5 Tactical Assault Rifle:
+    name: GLU-5 Tactical Assault Rifle
+  GN-13 Flaylock Pistol:
+    name: GN-13 Flaylock Pistol
+  GN-20 Specialist Flaylock Pistol:
+    name: GN-20 Specialist Flaylock Pistol
+  Gastun's BRN-50 Forge Gun:
+    name: Gastun's BRN-50 Forge Gun
+  Gastun's MIN-7 HMG:
+    name: Gastun's MIN-7 HMG
+  Ghalag's Modified MRT-17 Rail Rifle:
+    name: Ghalag's Modified MRT-17 Rail Rifle
+  Ghalag's OCT-91 Bolt Pistol:
+    name: Ghalag's OCT-91 Bolt Pistol
+  HK-2 Scrambler Pistol:
+    name: HK-2 Scrambler Pistol
+  HK4M Shotgun:
+    name: HK4M Shotgun
+  Hacked EX-0 AV Grenade:
+    name: Hacked EX-0 AV Grenade
+  Handheld weapon needs a name:
+    name: Handheld weapon needs a name
+  Heavy Machine Gun:
+    name: Heavy Machine Gun
+  IA5 Tactical Scrambler Pistol:
+    name: IA5 Tactical Scrambler Pistol
+  Imperial Armaments Forge Gun:
+    name: Imperial Armaments Forge Gun
+  Imperial Assault Scrambler Rifle:
+    name: Imperial Assault Scrambler Rifle
+  Imperial Breach Scrambler Pistol:
+    name: Imperial Breach Scrambler Pistol
+  Imperial Burst Scrambler Pistol:
+    name: Imperial Burst Scrambler Pistol
+  Imperial CAR-9 Burst Scrambler Pistol:
+    name: Imperial CAR-9 Burst Scrambler Pistol
+  Imperial CRD-9 Assault Scrambler Rifle:
+    name: Imperial CRD-9 Assault Scrambler Rifle
+  Imperial CRW-04 Scrambler Rifle:
+    name: Imperial CRW-04 Scrambler Rifle
+  Imperial Carthum Assault Scrambler Rifle:
+    name: Imperial Carthum Assault Scrambler Rifle
+  Imperial ELM-7 Laser Rifle:
+    name: Imperial ELM-7 Laser Rifle
+  Imperial Laser Rifle:
+    name: Imperial Laser Rifle
+  Imperial Scrambler Pistol:
+    name: Imperial Scrambler Pistol
+  Imperial Scrambler Rifle:
+    name: Imperial Scrambler Rifle
+  Imperial Viziam Laser Rifle:
+    name: Imperial Viziam Laser Rifle
+  Imperial Viziam Scrambler Pistol:
+    name: Imperial Viziam Scrambler Pistol
+  Imperial Viziam Scrambler Rifle:
+    name: Imperial Viziam Scrambler Rifle
+  Imperial Viziam Specialist Laser Rifle:
+    name: Imperial Viziam Specialist Laser Rifle
+  Imperial Viziam Specialist Scrambler Rifle:
+    name: Imperial Viziam Specialist Scrambler Rifle
+  Ion Pistol:
+    name: Ion Pistol
+  Ironsight Test Assault Rifle:
+    name: Ironsight Test Assault Rifle
+  Ishukone Assault Forge Gun:
+    name: Ishukone Assault Forge Gun
+  Ishukone Assault Rail Rifle:
+    name: Ishukone Assault Rail Rifle
+  Ishukone Assault Submachine Gun:
+    name: Ishukone Assault Submachine Gun
+  Ishukone Assault Swarm Launcher:
+    name: Ishukone Assault Swarm Launcher
+  Ishukone Nova Knives:
+    name: Ishukone Nova Knives
+  Ishukone Scrambler Pistol:
+    name: Ishukone Scrambler Pistol
+  Ishukone Sniper Rifle:
+    name: Ishukone Sniper Rifle
+  K5 Specialist Shotgun:
+    name: K5 Specialist Shotgun
+  KLA-90 Plasma Cannon:
+    name: KLA-90 Plasma Cannon
+  KLO-1 Scrambler Pistol:
+    name: KLO-1 Scrambler Pistol
+  KR-17 Breach Shotgun:
+    name: KR-17 Breach Shotgun
+  Kaalakiota Bolt Pistol:
+    name: Kaalakiota Bolt Pistol
+  Kaalakiota Forge Gun:
+    name: Kaalakiota Forge Gun
+  Kaalakiota Magsec SMG:
+    name: Kaalakiota Magsec SMG
+  Kaalakiota Rail Rifle:
+    name: Kaalakiota Rail Rifle
+  Kaalakiota Tactical Sniper Rifle:
+    name: Kaalakiota Tactical Sniper Rifle
+  Kalante's RXS-05 Assault Rifle:
+    name: Kalante's RXS-05 Assault Rifle
+  Krin's SIN-11 Assault Rifle:
+    name: Krin's SIN-11 Assault Rifle
+  Kubo's PE-165 Ion Pistol:
+    name: Kubo's PE-165 Ion Pistol
+  Kubo's PX-6 Scrambler Pistol:
+    name: Kubo's PX-6 Scrambler Pistol
+  Kubo’s GMK-16 Plasma Cannon:
+    name: Kubo’s GMK-16 Plasma Cannon
+  Lai Dai Compact Sniper Rifle:
+    name: Lai Dai Compact Sniper Rifle
+  Lai Dai Packed AV Grenade:
+    name: Lai Dai Packed AV Grenade
+  Lai Dai Sleek AV Grenade:
+    name: Lai Dai Sleek AV Grenade
+  Laser Rifle:
+    name: Laser Rifle
+  Locus Grenade:
+    name: Locus Grenade
+  Luis' Modified VC-107 Combat Rifle:
+    name: Luis' Modified VC-107 Combat Rifle
+  M1 Locus Grenade:
+    name: M1 Locus Grenade
+  M209 Assault Submachine Gun:
+    name: M209 Assault Submachine Gun
+  M512-A Submachine Gun:
+    name: M512-A Submachine Gun
+  M8 Packed Locus Grenade:
+    name: M8 Packed Locus Grenade
+  MH-82 Heavy Machine Gun:
+    name: MH-82 Heavy Machine Gun
+  MLR-A Burst Heavy Machine Gun:
+    name: MLR-A Burst Heavy Machine Gun
+  MO-4 Assault Heavy Machine Gun:
+    name: MO-4 Assault Heavy Machine Gun
+  Magsec SMG:
+    name: Magsec SMG
+  Mass Driver:
+    name: Mass Driver
+  Miasma Grenade:
+    name: Miasma Grenade
+  Militia 20GJ Blaster:
+    name: Militia 20GJ Blaster
+  Militia 20GJ Railgun:
+    name: Militia 20GJ Railgun
+  Militia 80GJ Blaster:
+    name: Militia 80GJ Blaster
+  Militia 80GJ Railgun:
+    name: Militia 80GJ Railgun
+  Militia AV Grenade:
+    name: Militia AV Grenade
+  Militia AV Grenade Blueprint:
+    name: Militia AV Grenade Blueprint
+  Militia Assault Combat Rifle:
+    name: Militia Assault Combat Rifle
+  Militia Assault Rail Rifle:
+    name: Militia Assault Rail Rifle
+  Militia Assault Rifle:
+    name: Militia Assault Rifle
+  Militia Assault Rifle Blueprint:
+    name: Militia Assault Rifle Blueprint
+  Militia Assault Scrambler Rifle:
+    name: Militia Assault Scrambler Rifle
+  Militia Bolt Pistol:
+    name: Militia Bolt Pistol
+  Militia Bolt Pistol Blueprint:
+    name: Militia Bolt Pistol Blueprint
+  Militia Combat Rifle:
+    name: Militia Combat Rifle
+  Militia Combat Rifle Blueprint:
+    name: Militia Combat Rifle Blueprint
+  Militia Flaylock Pistol:
+    name: Militia Flaylock Pistol
+  Militia Flaylock Pistol Blueprint:
+    name: Militia Flaylock Pistol Blueprint
+  Militia Flux Grenade:
+    name: Militia Flux Grenade
+  Militia Flux Grenade Blueprint:
+    name: Militia Flux Grenade Blueprint
+  Militia Forge Gun:
+    name: Militia Forge Gun
+  Militia Forge Gun Blueprint:
+    name: Militia Forge Gun Blueprint
+  Militia Heavy Machine Gun:
+    name: Militia Heavy Machine Gun
+  Militia Heavy Machine Gun Blueprint:
+    name: Militia Heavy Machine Gun Blueprint
+  Militia Ion Pistol:
+    name: Militia Ion Pistol
+  Militia Ion Pistol Blueprint:
+    name: Militia Ion Pistol Blueprint
+  Militia Laser Rifle:
+    name: Militia Laser Rifle
+  Militia Laser Rifle Blueprint:
+    name: Militia Laser Rifle Blueprint
+  Militia Locus Grenade:
+    name: Militia Locus Grenade
+  Militia Locus Grenade Blueprint:
+    name: Militia Locus Grenade Blueprint
+  Militia MT-1 Missile Launcher:
+    name: Militia MT-1 Missile Launcher
+  Militia Magsec SMG:
+    name: Militia Magsec SMG
+  Militia Magsec SMG Blueprint:
+    name: Militia Magsec SMG Blueprint
+  Militia Mass Driver:
+    name: Militia Mass Driver
+  Militia Mass Driver Blueprint:
+    name: Militia Mass Driver Blueprint
+  Militia Nova Knife Blueprint:
+    name: Militia Nova Knife Blueprint
+  Militia Nova Knives:
+    name: Militia Nova Knives
+  Militia Plasma Cannon:
+    name: Militia Plasma Cannon
+  Militia Plasma Cannon Blueprint:
+    name: Militia Plasma Cannon Blueprint
+  Militia Rail Rifle:
+    name: Militia Rail Rifle
+  Militia Rail Rifle Blueprint:
+    name: Militia Rail Rifle Blueprint
+  Militia Scrambler Pistol:
+    name: Militia Scrambler Pistol
+  Militia Scrambler Pistol Blueprint:
+    name: Militia Scrambler Pistol Blueprint
+  Militia Scrambler Rifle:
+    name: Militia Scrambler Rifle
+  Militia Scrambler Rifle Blueprint:
+    name: Militia Scrambler Rifle Blueprint
+  Militia Shotgun:
+    name: Militia Shotgun
+  Militia Shotgun Blueprint:
+    name: Militia Shotgun Blueprint
+  Militia Sniper Rifle:
+    name: Militia Sniper Rifle
+  Militia Sniper Rifle Blueprint:
+    name: Militia Sniper Rifle Blueprint
+  Militia Submachine Gun:
+    name: Militia Submachine Gun
+  Militia Submachine Gun Blueprint:
+    name: Militia Submachine Gun Blueprint
+  Militia Swarm Launcher:
+    name: Militia Swarm Launcher
+  Militia Swarm Launcher Blueprint:
+    name: Militia Swarm Launcher Blueprint
+  Missile Installation:
+    name: Missile Installation
+  Missile Launcher:
+    name: Missile Launcher
+  N7-A Magsec SMG:
+    name: N7-A Magsec SMG
+  NT-511 Sniper Rifle:
+    name: NT-511 Sniper Rifle
+  Nanaki's LORB-7 Magsec SMG:
+    name: Nanaki's LORB-7 Magsec SMG
+  Nothi's NOS-47 Nova Knives:
+    name: Nothi's NOS-47 Nova Knives
+  Nova Knives:
+    name: Nova Knives
+  PRO Drone Assault Rifle:
+    name: PRO Drone Assault Rifle
+  PRO Drone Forge Gun:
+    name: PRO Drone Forge Gun
+  PRO Drone HMG:
+    name: PRO Drone HMG
+  PRO Drone Laser Rifle:
+    name: PRO Drone Laser Rifle
+  PRO Drone Mass Driver:
+    name: PRO Drone Mass Driver
+  PRO Drone Shotgun:
+    name: PRO Drone Shotgun
+  PRO Drone Sniper Rifle:
+    name: PRO Drone Sniper Rifle
+  PRO Drone Swarm Launcher:
+    name: PRO Drone Swarm Launcher
+  Packed AV Grenade:
+    name: Packed AV Grenade
+  Passenger Position:
+    name: Passenger Position
+  Plasma Cannon:
+    name: Plasma Cannon
+  RS-90 Combat Rifle:
+    name: RS-90 Combat Rifle
+  Rail Rifle:
+    name: Rail Rifle
+  Railgun Installation:
+    name: Railgun Installation
+  Recruit Assault Rifle:
+    name: Recruit Assault Rifle
+  Recruit Submachine Gun:
+    name: Recruit Submachine Gun
+  Red Dot Test Burst Assault Rifle:
+    name: Red Dot Test Burst Assault Rifle
+  Republic Assault Combat Rifle:
+    name: Republic Assault Combat Rifle
+  Republic Boundless Heavy Machine Gun:
+    name: Republic Boundless Heavy Machine Gun
+  Republic Boundless Specialist Combat Rifle:
+    name: Republic Boundless Specialist Combat Rifle
+  Republic Core Flaylock Pistol:
+    name: Republic Core Flaylock Pistol
+  Republic EXO-5 Mass Driver:
+    name: Republic EXO-5 Mass Driver
+  Republic Flaylock Pistol:
+    name: Republic Flaylock Pistol
+  Republic Freedom Mass Driver:
+    name: Republic Freedom Mass Driver
+  Republic Freedom Specialist Mass Driver:
+    name: Republic Freedom Specialist Mass Driver
+  Republic GN-13 Flaylock Pistol:
+    name: Republic GN-13 Flaylock Pistol
+  Republic Heavy Machine Gun:
+    name: Republic Heavy Machine Gun
+  Republic M512-A Submachine Gun:
+    name: Republic M512-A Submachine Gun
+  Republic MH-82 Heavy Machine Gun:
+    name: Republic MH-82 Heavy Machine Gun
+  Republic Mass Driver:
+    name: Republic Mass Driver
+  Republic SK9M Breach Submachine Gun:
+    name: Republic SK9M Breach Submachine Gun
+  Republic Six Kin Submachine Gun:
+    name: Republic Six Kin Submachine Gun
+  Republic Submachine Gun:
+    name: Republic Submachine Gun
+  Roden Sniper Rifle:
+    name: Roden Sniper Rifle
+  SB-39 Rail Rifle:
+    name: SB-39 Rail Rifle
+  SK9M Breach Submachine Gun:
+    name: SK9M Breach Submachine Gun
+  SL-4 Assault Rail Rifle:
+    name: SL-4 Assault Rail Rifle
+  SR-25 Bolt Pistol:
+    name: SR-25 Bolt Pistol
+  ST-1 Accelerated Missile Launcher:
+    name: ST-1 Accelerated Missile Launcher
+  ST-1 Cycled Missile Launcher:
+    name: ST-1 Cycled Missile Launcher
+  ST-1 Fragmented Missile Launcher:
+    name: ST-1 Fragmented Missile Launcher
+  ST-1 Missile Launcher:
+    name: ST-1 Missile Launcher
+  ST-201 Accelerated Missile Launcher:
+    name: ST-201 Accelerated Missile Launcher
+  ST-201 Cycled Missile Launcher:
+    name: ST-201 Cycled Missile Launcher
+  ST-201 Fragmented Missile Launcher:
+    name: ST-201 Fragmented Missile Launcher
+  ST-201 Missile Launcher:
+    name: ST-201 Missile Launcher
+  Scrambler Pistol:
+    name: Scrambler Pistol
+  Scrambler Rifle:
+    name: Scrambler Rifle
+  Seeker Flaylock:
+    name: Seeker Flaylock
+  Shotgun:
+    name: Shotgun
+  Six Kin Assault Combat Rifle:
+    name: Six Kin Assault Combat Rifle
+  Six Kin Burst Heavy Machine Gun:
+    name: Six Kin Burst Heavy Machine Gun
+  Six Kin Submachine Gun:
+    name: Six Kin Submachine Gun
+  Sleek AV Grenade:
+    name: Sleek AV Grenade
+  Sleek Locus Grenade:
+    name: Sleek Locus Grenade
+  'Small Blaster Installation ':
+    name: 'Small Blaster Installation '
+  'Small CA Railgun Installation ':
+    name: 'Small CA Railgun Installation '
+  Small Rocket Installation:
+    name: Small Rocket Installation
+  Sniper Rifle:
+    name: Sniper Rifle
+  Sniper Rifle [Experimental]:
+    name: Sniper Rifle [Experimental]
+  Solar's PAR-8 Flaylock Pistol:
+    name: Solar's PAR-8 Flaylock Pistol
+  Specialist Scrambler Pistol:
+    name: Specialist Scrambler Pistol
+  Specialist Shotgun:
+    name: Specialist Shotgun
+  Specialist Swarm Launcher:
+    name: Specialist Swarm Launcher
+  Staff Recruiter Assault Rifle:
+    name: Staff Recruiter Assault Rifle
+  Staff Recruiter Laser Rifle:
+    name: Staff Recruiter Laser Rifle
+  Staff Recruiter Scrambler Pistol:
+    name: Staff Recruiter Scrambler Pistol
+  Staff Recruiter Sniper Rifle:
+    name: Staff Recruiter Sniper Rifle
+  State 20GJ Particle Accelerator:
+    name: State 20GJ Particle Accelerator
+  State 20GJ Particle Cannon:
+    name: State 20GJ Particle Cannon
+  State 20GJ Railgun:
+    name: State 20GJ Railgun
+  State 80GJ Particle Accelerator:
+    name: State 80GJ Particle Accelerator
+  State 80GJ Particle Cannon:
+    name: State 80GJ Particle Cannon
+  State 80GJ Railgun:
+    name: State 80GJ Railgun
+  State AT-1 Missile Launcher:
+    name: State AT-1 Missile Launcher
+  State AT-201 Missile Launcher:
+    name: State AT-201 Missile Launcher
+  State Assault Rail Rifle:
+    name: State Assault Rail Rifle
+  State C15-A Tactical Sniper Rifle:
+    name: State C15-A Tactical Sniper Rifle
+  State CBR7 Swarm Launcher:
+    name: State CBR7 Swarm Launcher
+  State Ishukone Assault Rail Rifle:
+    name: State Ishukone Assault Rail Rifle
+  State Ishukone Specialist Sniper Rifle:
+    name: State Ishukone Specialist Sniper Rifle
+  State Kaalakiota Rail Rifle:
+    name: State Kaalakiota Rail Rifle
+  State Kaalakiota Sniper Rifle:
+    name: State Kaalakiota Sniper Rifle
+  State Kaalakiota Specialist Rail Rifle:
+    name: State Kaalakiota Specialist Rail Rifle
+  State NT-511 Sniper Rifle:
+    name: State NT-511 Sniper Rifle
+  State Rail Rifle:
+    name: State Rail Rifle
+  State SB-39 Rail Rifle:
+    name: State SB-39 Rail Rifle
+  State SL-4 Assault Rail Rifle:
+    name: State SL-4 Assault Rail Rifle
+  State ST-1 Missile Launcher:
+    name: State ST-1 Missile Launcher
+  State ST-201 Missile Launcher:
+    name: State ST-201 Missile Launcher
+  State Sniper Rifle:
+    name: State Sniper Rifle
+  State Swarm Launcher:
+    name: State Swarm Launcher
+  State Wiyrkomi Specialist Swarm Launcher:
+    name: State Wiyrkomi Specialist Swarm Launcher
+  State Wiyrkomi Swarm Launcher:
+    name: State Wiyrkomi Swarm Launcher
+  State XT-1 Missile Launcher:
+    name: State XT-1 Missile Launcher
+  State XT-201 Missile Launcher:
+    name: State XT-201 Missile Launcher
+  Submachine Gun:
+    name: Submachine Gun
+  Swarm Launcher:
+    name: Swarm Launcher
+  Symb's FORK-5 Sniper Rifle:
+    name: Symb's FORK-5 Sniper Rifle
+  Synch AV Grenade:
+    name: Synch AV Grenade
+  T-12 Ion Pistol:
+    name: T-12 Ion Pistol
+  TT-3 Assault Scrambler Pistol:
+    name: TT-3 Assault Scrambler Pistol
+  TY-5 Breach Scrambler Pistol:
+    name: TY-5 Breach Scrambler Pistol
+  Tactical Assault Rifle:
+    name: Tactical Assault Rifle
+  Tactical Sniper Rifle:
+    name: Tactical Sniper Rifle
+  Thale's TAR-07 Sniper Rifle:
+    name: Thale's TAR-07 Sniper Rifle
+  Thukker Contact Locus Grenade:
+    name: Thukker Contact Locus Grenade
+  VN-30 Seeker Flaylock:
+    name: VN-30 Seeker Flaylock
+  VN-35 Tactical Seeker Flaylock:
+    name: VN-35 Tactical Seeker Flaylock
+  Viktor’s NEG-1 Laser Rifle:
+    name: Viktor’s NEG-1 Laser Rifle
+  Viziam Contact Grenade:
+    name: Viziam Contact Grenade
+  Viziam Laser Rifle:
+    name: Viziam Laser Rifle
+  Viziam Scrambler Pistol:
+    name: Viziam Scrambler Pistol
+  Viziam Scrambler Rifle:
+    name: Viziam Scrambler Rifle
+  Volatile Locus Grenade:
+    name: Volatile Locus Grenade
+  Wiyrkomi AV Grenade:
+    name: Wiyrkomi AV Grenade
+  Wiyrkomi Breach Forge Gun:
+    name: Wiyrkomi Breach Forge Gun
+  Wiyrkomi Specialist Swarm Launcher:
+    name: Wiyrkomi Specialist Swarm Launcher
+  Wiyrkomi Swarm Launcher:
+    name: Wiyrkomi Swarm Launcher
+  Wolfman's PCP-30 Scrambler Pistol:
+    name: Wolfman's PCP-30 Scrambler Pistol
+  X-MS Snowball Launcher:
+    name: X-MS Snowball Launcher
+  X-MS15 Snowball Launcher:
+    name: X-MS15 Snowball Launcher
+  X-MS16 Snowball Launcher:
+    name: X-MS16 Snowball Launcher
+  XT-1 Accelerated Missile Launcher:
+    name: XT-1 Accelerated Missile Launcher
+  XT-1 Cycled Missile Launcher:
+    name: XT-1 Cycled Missile Launcher
+  XT-1 Fragmented Missile Launcher:
+    name: XT-1 Fragmented Missile Launcher
+  XT-1 Missile Launcher:
+    name: XT-1 Missile Launcher
+  XT-201 Accelerated Missile Launcher:
+    name: XT-201 Accelerated Missile Launcher
+  XT-201 Cycled Missile Launcher:
+    name: XT-201 Cycled Missile Launcher
+  XT-201 Fragmented Missile Launcher:
+    name: XT-201 Fragmented Missile Launcher
+  XT-201 Missile Launcher:
+    name: XT-201 Missile Launcher
+  ZN-28 Nova Knives:
+    name: ZN-28 Nova Knives
+  '[TEST] Swarm Launcher':
+    name: '[TEST] Swarm Launcher'

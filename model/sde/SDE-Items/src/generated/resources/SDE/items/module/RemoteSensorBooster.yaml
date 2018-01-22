@@ -27,6 +27,7 @@ items:
     ScanRadarStrengthPercent: 60
     ScanResolutionBonus: 33.0
     TechLevel: 1
+    name: '''Bootleg'' Remote Sensor Booster'
   '''Boss'' Remote Sensor Booster':
     CapacitorNeed: 1.0
     ChargeGroup1: 910
@@ -49,6 +50,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionBonus: 33.0
     TechLevel: 1
+    name: '''Boss'' Remote Sensor Booster'
   '''Entrepreneur'' Remote Sensor Booster':
     CapacitorNeed: 1.0
     ChargeGroup1: 910
@@ -71,6 +73,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionBonus: 33.0
     TechLevel: 1
+    name: '''Entrepreneur'' Remote Sensor Booster'
   Coadjunct Scoped Remote Sensor Booster:
     CapacitorNeed: 20.0
     ChargeGroup1: 910
@@ -98,6 +101,7 @@ items:
     ScanRadarStrengthPercent: 55
     ScanResolutionBonus: 30.0
     TechLevel: 1
+    name: Coadjunct Scoped Remote Sensor Booster
   Connected Remote Sensor Booster:
     CapacitorNeed: 1.0
     ChargeGroup1: 910
@@ -119,6 +123,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionBonus: 31.0
     TechLevel: 1
+    name: Connected Remote Sensor Booster
   F-23 Compact Remote Sensor Booster:
     CapacitorNeed: 20.0
     ChargeGroup1: 910
@@ -146,6 +151,7 @@ items:
     ScanRadarStrengthPercent: 55
     ScanResolutionBonus: 30.0
     TechLevel: 1
+    name: F-23 Compact Remote Sensor Booster
   Linked Enduring Remote Sensor Booster:
     CapacitorNeed: 16.0
     ChargeGroup1: 910
@@ -173,6 +179,7 @@ items:
     ScanRadarStrengthPercent: 55
     ScanResolutionBonus: 30.0
     TechLevel: 1
+    name: Linked Enduring Remote Sensor Booster
   Remote Sensor Booster I:
     CapacitorNeed: 20.0
     ChargeGroup1: 910
@@ -199,6 +206,7 @@ items:
     ScanRadarStrengthPercent: 50
     ScanResolutionBonus: 28.0
     TechLevel: 1
+    name: Remote Sensor Booster I
   Remote Sensor Booster II:
     CapacitorNeed: 24.0
     ChargeGroup1: 910
@@ -226,6 +234,7 @@ items:
     ScanRadarStrengthPercent: 60
     ScanResolutionBonus: 33.0
     TechLevel: 2
+    name: Remote Sensor Booster II
   Sentient Remote Sensor Booster:
     CapacitorNeed: 16.0
     ChargeGroup1: 910
@@ -254,6 +263,7 @@ items:
     ScanRadarStrengthPercent: 65
     ScanResolutionBonus: 34.0
     TechLevel: 1
+    name: Sentient Remote Sensor Booster
   Shadow Serpentis Remote Sensor Booster:
     CapacitorNeed: 16.0
     ChargeGroup1: 910
@@ -282,3 +292,4 @@ items:
     ScanRadarStrengthPercent: 65
     ScanResolutionBonus: 34.0
     TechLevel: 1
+    name: Shadow Serpentis Remote Sensor Booster

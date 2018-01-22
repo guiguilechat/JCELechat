@@ -65,6 +65,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Blade
   Cambion:
     Agility: 3.5
     ArmorEmDamageResonance: 0.5
@@ -144,6 +145,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.369999949929479E-6
     WarpSpeedMultiplier: 5.5
+    name: Cambion
   Dagger:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.30000001192092896
@@ -213,6 +215,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Dagger
   Enyo:
     Agility: 3.921600103378296
     ArmorEmDamageResonance: 0.5
@@ -292,6 +295,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Enyo
   Erinye:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.4000000059604645
@@ -358,6 +362,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Erinye
   Freki:
     Agility: 3.055999994277954
     ArmorEmDamageResonance: 0.10000000149011612
@@ -435,6 +440,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Freki
   Gatherer:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.4000000059604645
@@ -501,6 +507,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Gatherer
   Harpy:
     Agility: 3.6328001022338867
     ArmorEmDamageResonance: 0.5
@@ -579,6 +586,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Harpy
   Hawk:
     Agility: 3.7679998874664307
     ArmorEmDamageResonance: 0.5
@@ -657,6 +665,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Hawk
   Ishkur:
     Agility: 3.8684000968933105
     ArmorEmDamageResonance: 0.5
@@ -736,6 +745,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Ishkur
   Jaguar:
     Agility: 3.1760001182556152
     ArmorEmDamageResonance: 0.10000000149011612
@@ -813,6 +823,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Jaguar
   Kishar:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.4000000059604645
@@ -882,6 +893,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Kishar
   Malice:
     Agility: 2.430000066757202
     ArmorEmDamageResonance: 0.5
@@ -957,6 +969,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Malice
   Retribution:
     Agility: 4.127999782562256
     ArmorEmDamageResonance: 0.5
@@ -1032,6 +1045,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Retribution
   Utu:
     Agility: 3.4674999713897705
     ArmorEmDamageResonance: 0.5
@@ -1108,6 +1122,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 5.5
+    name: Utu
   Vengeance:
     Agility: 4.263999938964844
     ArmorEmDamageResonance: 0.5
@@ -1184,6 +1199,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Vengeance
   Wolf:
     Agility: 3.4560000896453857
     ArmorEmDamageResonance: 0.10000000149011612
@@ -1261,3 +1277,4 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
+    name: Wolf

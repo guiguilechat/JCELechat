@@ -17,6 +17,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    name: Standup L-Set TE Research Optimization I
   Standup L-Set TE Research Optimization II:
     AttributeEngRigCostBonus: -12
     AttributeEngRigTimeBonus: -24
@@ -35,3 +36,4 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    name: Standup L-Set TE Research Optimization II

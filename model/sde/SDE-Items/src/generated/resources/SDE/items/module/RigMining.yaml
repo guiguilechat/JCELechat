@@ -8,6 +8,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     UpgradeCost: 100
+    name: Mining Laser Optimization I
   Mining Laser Optimization II:
     Drawback: -10
     Hp: 40
@@ -18,6 +19,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     UpgradeCost: 200
+    name: Mining Laser Optimization II
   Mining Laser Range I:
     Drawback: -10
     Hp: 40
@@ -26,6 +28,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     UpgradeCost: 100
+    name: Mining Laser Range I
   Mining Laser Range II:
     Drawback: -10
     Hp: 40
@@ -34,3 +37,4 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     UpgradeCost: 150
+    name: Mining Laser Range II

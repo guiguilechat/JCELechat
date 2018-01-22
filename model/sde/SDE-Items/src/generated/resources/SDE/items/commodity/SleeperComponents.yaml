@@ -1,5 +1,9 @@
 items:
-  Ancient Coordinates Database: {}
-  Neural Network Analyzer: {}
-  Sleeper Data Library: {}
-  Sleeper Drone AI Nexus: {}
+  Ancient Coordinates Database:
+    name: Ancient Coordinates Database
+  Neural Network Analyzer:
+    name: Neural Network Analyzer
+  Sleeper Data Library:
+    name: Sleeper Data Library
+  Sleeper Drone AI Nexus:
+    name: Sleeper Drone AI Nexus

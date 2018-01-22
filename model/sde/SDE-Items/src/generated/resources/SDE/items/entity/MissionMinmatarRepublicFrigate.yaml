@@ -1,51 +1,101 @@
 items:
-  Chief Republic Baldur: {}
-  Chief Republic Gleeda: {}
-  Chief Republic Hrakt: {}
-  Chief Republic Iflin: {}
-  Chief Republic Isak: {}
-  Chief Republic Ivan: {}
-  Chief Republic Kvarm: {}
-  Chief Republic Magni: {}
-  Chief Republic Ofeg: {}
-  Chief Republic Takan: {}
-  Independent Breacher: {}
-  Independent Green-Crewed Breacher: {}
-  Independent Green-Crewed Probe: {}
-  Independent Green-Crewed Rifter: {}
-  Independent Green-Crewed Slasher: {}
-  Independent Green-Crewed Vigil: {}
-  Independent Probe: {}
-  Independent Rifter: {}
-  Independent Slasher: {}
-  Independent Veteran Breacher: {}
-  Independent Veteran Probe: {}
-  Independent Veteran Rifter: {}
-  Independent Veteran Slasher: {}
-  Independent Veteran Vigil: {}
-  Independent Vigil: {}
-  Minmatar CA Frigate: {}
-  Minmatar Freedom Fighter: {}
-  Minmatar Mercenary Fighter: {}
-  Minmatar Miner: {}
-  Republic Baldur: {}
-  Republic Fleet C-1 Support Frigate: {}
-  Republic Fleet C-2 Support Frigate: {}
-  Republic Fleet D-1 Support Frigate: {}
-  Republic Fleet D-2 Support Frigate: {}
-  Republic Fleet Elite Soldier: {}
-  Republic Fleet Officer: {}
-  Republic Fleet Scout: {}
-  Republic Fleet Slasher: {}
-  Republic Fleet Soldier: {}
-  Republic Fleet Squad Leader: {}
-  Republic Fleet Vigil: {}
-  Republic Gleeda: {}
-  Republic Kvarm: {}
-  Republic Otur: {}
-  Republic Radur: {}
-  Republic Skani: {}
-  Republic Takan: {}
-  Republic Tribal Baldur: {}
-  Republic Tribal Gleeda: {}
-  Republic Tribal Takan: {}
+  Chief Republic Baldur:
+    name: Chief Republic Baldur
+  Chief Republic Gleeda:
+    name: Chief Republic Gleeda
+  Chief Republic Hrakt:
+    name: Chief Republic Hrakt
+  Chief Republic Iflin:
+    name: Chief Republic Iflin
+  Chief Republic Isak:
+    name: Chief Republic Isak
+  Chief Republic Ivan:
+    name: Chief Republic Ivan
+  Chief Republic Kvarm:
+    name: Chief Republic Kvarm
+  Chief Republic Magni:
+    name: Chief Republic Magni
+  Chief Republic Ofeg:
+    name: Chief Republic Ofeg
+  Chief Republic Takan:
+    name: Chief Republic Takan
+  Independent Breacher:
+    name: Independent Breacher
+  Independent Green-Crewed Breacher:
+    name: Independent Green-Crewed Breacher
+  Independent Green-Crewed Probe:
+    name: Independent Green-Crewed Probe
+  Independent Green-Crewed Rifter:
+    name: Independent Green-Crewed Rifter
+  Independent Green-Crewed Slasher:
+    name: Independent Green-Crewed Slasher
+  Independent Green-Crewed Vigil:
+    name: Independent Green-Crewed Vigil
+  Independent Probe:
+    name: Independent Probe
+  Independent Rifter:
+    name: Independent Rifter
+  Independent Slasher:
+    name: Independent Slasher
+  Independent Veteran Breacher:
+    name: Independent Veteran Breacher
+  Independent Veteran Probe:
+    name: Independent Veteran Probe
+  Independent Veteran Rifter:
+    name: Independent Veteran Rifter
+  Independent Veteran Slasher:
+    name: Independent Veteran Slasher
+  Independent Veteran Vigil:
+    name: Independent Veteran Vigil
+  Independent Vigil:
+    name: Independent Vigil
+  Minmatar CA Frigate:
+    name: Minmatar CA Frigate
+  Minmatar Freedom Fighter:
+    name: Minmatar Freedom Fighter
+  Minmatar Mercenary Fighter:
+    name: Minmatar Mercenary Fighter
+  Minmatar Miner:
+    name: Minmatar Miner
+  Republic Baldur:
+    name: Republic Baldur
+  Republic Fleet C-1 Support Frigate:
+    name: Republic Fleet C-1 Support Frigate
+  Republic Fleet C-2 Support Frigate:
+    name: Republic Fleet C-2 Support Frigate
+  Republic Fleet D-1 Support Frigate:
+    name: Republic Fleet D-1 Support Frigate
+  Republic Fleet D-2 Support Frigate:
+    name: Republic Fleet D-2 Support Frigate
+  Republic Fleet Elite Soldier:
+    name: Republic Fleet Elite Soldier
+  Republic Fleet Officer:
+    name: Republic Fleet Officer
+  Republic Fleet Scout:
+    name: Republic Fleet Scout
+  Republic Fleet Slasher:
+    name: Republic Fleet Slasher
+  Republic Fleet Soldier:
+    name: Republic Fleet Soldier
+  Republic Fleet Squad Leader:
+    name: Republic Fleet Squad Leader
+  Republic Fleet Vigil:
+    name: Republic Fleet Vigil
+  Republic Gleeda:
+    name: Republic Gleeda
+  Republic Kvarm:
+    name: Republic Kvarm
+  Republic Otur:
+    name: Republic Otur
+  Republic Radur:
+    name: Republic Radur
+  Republic Skani:
+    name: Republic Skani
+  Republic Takan:
+    name: Republic Takan
+  Republic Tribal Baldur:
+    name: Republic Tribal Baldur
+  Republic Tribal Gleeda:
+    name: Republic Tribal Gleeda
+  Republic Tribal Takan:
+    name: Republic Tribal Takan

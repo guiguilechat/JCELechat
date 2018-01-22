@@ -2,87 +2,116 @@ items:
   '''Firewall'' Signal Amplifier Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Firewall'' Signal Amplifier Blueprint'
   Gravimetric Backup Array I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Gravimetric Backup Array I Blueprint
   Gravimetric Backup Array II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Gravimetric Backup Array II Blueprint
   Gravimetric Firewall Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Gravimetric Firewall Blueprint
   Ladar Backup Array I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ladar Backup Array I Blueprint
   Ladar Backup Array II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Ladar Backup Array II Blueprint
   Ladar Firewall Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Ladar Firewall Blueprint
   Magnetometric Backup Array I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Magnetometric Backup Array I Blueprint
   Magnetometric Backup Array II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Magnetometric Backup Array II Blueprint
   Magnetometric Firewall Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Magnetometric Firewall Blueprint
   Multi Sensor Backup Array I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Multi Sensor Backup Array I Blueprint
   Multi Sensor Backup Array II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Multi Sensor Backup Array II Blueprint
   RADAR Backup Array I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: RADAR Backup Array I Blueprint
   RADAR Backup Array II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: RADAR Backup Array II Blueprint
   RADAR Firewall Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: RADAR Firewall Blueprint
   Secure Gravimetric Backup Cluster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Secure Gravimetric Backup Cluster I Blueprint
   Secure Ladar Backup Cluster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Secure Ladar Backup Cluster I Blueprint
   Secure Magnetometric Backup Cluster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Secure Magnetometric Backup Cluster I Blueprint
   Secure Radar Backup Cluster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Secure Radar Backup Cluster I Blueprint
   Shielded Gravimetric Backup Cluster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Shielded Gravimetric Backup Cluster I Blueprint
   Shielded Ladar Backup Cluster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Shielded Ladar Backup Cluster I Blueprint
   Shielded Magnetometric Backup Cluster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Shielded Magnetometric Backup Cluster I Blueprint
   Shielded Radar Backup Cluster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Shielded Radar Backup Cluster I Blueprint
   Signal Amplifier I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Signal Amplifier I Blueprint
   Signal Amplifier II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Signal Amplifier II Blueprint
   Warded Gravimetric Backup Cluster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Warded Gravimetric Backup Cluster I Blueprint
   Warded Ladar Backup Cluster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Warded Ladar Backup Cluster I Blueprint
   Warded Magnetometric Backup Cluster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Warded Magnetometric Backup Cluster I Blueprint
   Warded Radar Backup Cluster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Warded Radar Backup Cluster I Blueprint

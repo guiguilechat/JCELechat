@@ -2,7 +2,10 @@ items:
   Orca Blueprint:
     IndustryBlueprintRank: 200.0
     IndustryJobCostMultiplier: 1
+    name: Orca Blueprint
   Orca ORE Development Edition Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Orca ORE Development Edition Blueprint
   Porpoise Blueprint:
     IndustryJobCostMultiplier: 1
+    name: Porpoise Blueprint

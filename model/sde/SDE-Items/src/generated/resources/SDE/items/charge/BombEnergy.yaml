@@ -23,6 +23,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 7.0
+    name: Focused Void Bomb
   Void Bomb:
     Agility: 2.5109991838689893E-5
     AimedLaunch: 1
@@ -47,3 +48,4 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 7.0
+    name: Void Bomb

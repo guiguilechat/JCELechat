@@ -1,11 +1,21 @@
 items:
-  Shadow Serpentis Admiral: {}
-  Shadow Serpentis Baron: {}
-  Shadow Serpentis Commodore: {}
-  Shadow Serpentis Flotilla Admiral: {}
-  Shadow Serpentis Grand Admiral: {}
-  Shadow Serpentis High Admiral: {}
-  Shadow Serpentis Lord Admiral: {}
-  Shadow Serpentis Port Admiral: {}
-  Shadow Serpentis Rear Admiral: {}
-  Shadow Serpentis Vice Admiral: {}
+  Shadow Serpentis Admiral:
+    name: Shadow Serpentis Admiral
+  Shadow Serpentis Baron:
+    name: Shadow Serpentis Baron
+  Shadow Serpentis Commodore:
+    name: Shadow Serpentis Commodore
+  Shadow Serpentis Flotilla Admiral:
+    name: Shadow Serpentis Flotilla Admiral
+  Shadow Serpentis Grand Admiral:
+    name: Shadow Serpentis Grand Admiral
+  Shadow Serpentis High Admiral:
+    name: Shadow Serpentis High Admiral
+  Shadow Serpentis Lord Admiral:
+    name: Shadow Serpentis Lord Admiral
+  Shadow Serpentis Port Admiral:
+    name: Shadow Serpentis Port Admiral
+  Shadow Serpentis Rear Admiral:
+    name: Shadow Serpentis Rear Admiral
+  Shadow Serpentis Vice Admiral:
+    name: Shadow Serpentis Vice Admiral

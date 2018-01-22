@@ -1,9 +1,17 @@
 items:
-  Guristas Anarchist: {}
-  Guristas Guerilla: {}
-  Guristas Nihilist: {}
-  Guristas Renegade: {}
-  Guristas Supremacist: {}
-  Guristas Terrorist: {}
-  Vagrant Anarchist: {}
-  Vagrant Nihilist: {}
+  Guristas Anarchist:
+    name: Guristas Anarchist
+  Guristas Guerilla:
+    name: Guristas Guerilla
+  Guristas Nihilist:
+    name: Guristas Nihilist
+  Guristas Renegade:
+    name: Guristas Renegade
+  Guristas Supremacist:
+    name: Guristas Supremacist
+  Guristas Terrorist:
+    name: Guristas Terrorist
+  Vagrant Anarchist:
+    name: Vagrant Anarchist
+  Vagrant Nihilist:
+    name: Vagrant Nihilist

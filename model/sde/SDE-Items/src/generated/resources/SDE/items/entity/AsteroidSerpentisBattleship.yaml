@@ -1,11 +1,21 @@
 items:
-  Serpentis Admiral: {}
-  Serpentis Baron: {}
-  Serpentis Commodore: {}
-  Serpentis Flotilla Admiral: {}
-  Serpentis Grand Admiral: {}
-  Serpentis High Admiral: {}
-  Serpentis Lord Admiral: {}
-  Serpentis Port Admiral: {}
-  Serpentis Rear Admiral: {}
-  Serpentis Vice Admiral: {}
+  Serpentis Admiral:
+    name: Serpentis Admiral
+  Serpentis Baron:
+    name: Serpentis Baron
+  Serpentis Commodore:
+    name: Serpentis Commodore
+  Serpentis Flotilla Admiral:
+    name: Serpentis Flotilla Admiral
+  Serpentis Grand Admiral:
+    name: Serpentis Grand Admiral
+  Serpentis High Admiral:
+    name: Serpentis High Admiral
+  Serpentis Lord Admiral:
+    name: Serpentis Lord Admiral
+  Serpentis Port Admiral:
+    name: Serpentis Port Admiral
+  Serpentis Rear Admiral:
+    name: Serpentis Rear Admiral
+  Serpentis Vice Admiral:
+    name: Serpentis Vice Admiral

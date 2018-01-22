@@ -8,6 +8,7 @@ items:
     DistributionIDSansha01: 414
     DistributionIDSerpentis01: 419
     SovUpgradeRequiredUpgradeID: 2028
+    name: Entrapment Array 1
   Entrapment Array 2:
     DevIndexMilitary: 3
     DistributionIDAngel01: 400
@@ -17,6 +18,7 @@ items:
     DistributionIDSansha01: 415
     DistributionIDSerpentis01: 420
     SovUpgradeRequiredUpgradeID: 2031
+    name: Entrapment Array 2
   Entrapment Array 3:
     DevIndexMilitary: 4
     DistributionIDAngel01: 401
@@ -26,6 +28,7 @@ items:
     DistributionIDSansha01: 416
     DistributionIDSerpentis01: 421
     SovUpgradeRequiredUpgradeID: 2034
+    name: Entrapment Array 3
   Entrapment Array 4:
     DevIndexMilitary: 4
     DistributionIDAngel01: 402
@@ -35,6 +38,7 @@ items:
     DistributionIDSansha01: 417
     DistributionIDSerpentis01: 422
     SovUpgradeRequiredUpgradeID: 2035
+    name: Entrapment Array 4
   Entrapment Array 5:
     DevIndexMilitary: 5
     DistributionIDAngel01: 403
@@ -44,6 +48,7 @@ items:
     DistributionIDSansha01: 418
     DistributionIDSerpentis01: 423
     SovUpgradeRequiredUpgradeID: 2036
+    name: Entrapment Array 5
   Pirate Detection Array 1:
     DevIndexMilitary: 1
     DistributionIDAngel01: 466
@@ -76,6 +81,7 @@ items:
     DistributionIDSerpentis03: 568
     DistributionIDSerpentis04: 569
     DistributionIDSerpentis05: 570
+    name: Pirate Detection Array 1
   Pirate Detection Array 2:
     DevIndexMilitary: 2
     DistributionIDAngel01: 471
@@ -109,6 +115,7 @@ items:
     DistributionIDSerpentis04: 574
     DistributionIDSerpentis05: 575
     SovUpgradeRequiredUpgradeID: 2026
+    name: Pirate Detection Array 2
   Pirate Detection Array 3:
     DevIndexMilitary: 3
     DistributionIDAngel01: 476
@@ -142,6 +149,7 @@ items:
     DistributionIDSerpentis04: 579
     DistributionIDSerpentis05: 580
     SovUpgradeRequiredUpgradeID: 2027
+    name: Pirate Detection Array 3
   Pirate Detection Array 4:
     DevIndexMilitary: 4
     DistributionIDAngel01: 481
@@ -175,6 +183,7 @@ items:
     DistributionIDSerpentis04: 584
     DistributionIDSerpentis05: 585
     SovUpgradeRequiredUpgradeID: 2028
+    name: Pirate Detection Array 4
   Pirate Detection Array 5:
     DevIndexMilitary: 5
     DistributionIDAngel01: 486
@@ -208,22 +217,28 @@ items:
     DistributionIDSerpentis04: 589
     DistributionIDSerpentis05: 590
     SovUpgradeRequiredUpgradeID: 2029
+    name: Pirate Detection Array 5
   Quantum Flux Generator 1:
     DevIndexMilitary: 2
     DistributionID01: 429
+    name: Quantum Flux Generator 1
   Quantum Flux Generator 2:
     DevIndexMilitary: 3
     DistributionID01: 430
     SovUpgradeRequiredUpgradeID: 2058
+    name: Quantum Flux Generator 2
   Quantum Flux Generator 3:
     DevIndexMilitary: 3
     DistributionID01: 431
     SovUpgradeRequiredUpgradeID: 2059
+    name: Quantum Flux Generator 3
   Quantum Flux Generator 4:
     DevIndexMilitary: 4
     DistributionID01: 432
     SovUpgradeRequiredUpgradeID: 2060
+    name: Quantum Flux Generator 4
   Quantum Flux Generator 5:
     DevIndexMilitary: 4
     DistributionID01: 433
     SovUpgradeRequiredUpgradeID: 2061
+    name: Quantum Flux Generator 5

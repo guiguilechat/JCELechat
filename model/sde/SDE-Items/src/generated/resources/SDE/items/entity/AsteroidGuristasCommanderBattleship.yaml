@@ -1,11 +1,21 @@
 items:
-  Dread Guristas Conquistador: {}
-  Dread Guristas Destroyer: {}
-  Dread Guristas Dismantler: {}
-  Dread Guristas Eliminator: {}
-  Dread Guristas Eradicator: {}
-  Dread Guristas Exterminator: {}
-  Dread Guristas Extinguisher: {}
-  Dread Guristas Massacrer: {}
-  Dread Guristas Obliterator: {}
-  Dread Guristas Usurper: {}
+  Dread Guristas Conquistador:
+    name: Dread Guristas Conquistador
+  Dread Guristas Destroyer:
+    name: Dread Guristas Destroyer
+  Dread Guristas Dismantler:
+    name: Dread Guristas Dismantler
+  Dread Guristas Eliminator:
+    name: Dread Guristas Eliminator
+  Dread Guristas Eradicator:
+    name: Dread Guristas Eradicator
+  Dread Guristas Exterminator:
+    name: Dread Guristas Exterminator
+  Dread Guristas Extinguisher:
+    name: Dread Guristas Extinguisher
+  Dread Guristas Massacrer:
+    name: Dread Guristas Massacrer
+  Dread Guristas Obliterator:
+    name: Dread Guristas Obliterator
+  Dread Guristas Usurper:
+    name: Dread Guristas Usurper

@@ -1,7 +1,10 @@
 items:
   '''Magpie'' Mobile Tractor Unit Blueprint':
     IndustryBlueprintRank: 20.0
+    name: '''Magpie'' Mobile Tractor Unit Blueprint'
   '''Packrat'' Mobile Tractor Unit Blueprint':
     IndustryBlueprintRank: 20.0
+    name: '''Packrat'' Mobile Tractor Unit Blueprint'
   Mobile Tractor Unit Blueprint:
     IndustryBlueprintRank: 20.0
+    name: Mobile Tractor Unit Blueprint

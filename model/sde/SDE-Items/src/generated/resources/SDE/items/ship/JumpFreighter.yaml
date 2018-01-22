@@ -74,6 +74,7 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
+    name: Anshar
   Ark:
     AdvancedAgility: 1
     Agility: 0.054999999701976776
@@ -149,6 +150,7 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
+    name: Ark
   Nomad:
     AdvancedAgility: 1
     Agility: 0.054999999701976776
@@ -224,6 +226,7 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
+    name: Nomad
   Rhea:
     AdvancedAgility: 1
     Agility: 0.054999999701976776
@@ -299,3 +302,4 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
+    name: Rhea

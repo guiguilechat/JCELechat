@@ -7,6 +7,7 @@ items:
     RequiredSkill2Level: 1
     WarfareBuff1ID: 25
     WarfareBuff1Multiplier: -15
+    name: Mining Equipment Preservation Charge
   Mining Laser Field Enhancement Charge:
     LauncherGroup: 1770
     RequiredSkill1: 22536
@@ -15,6 +16,7 @@ items:
     RequiredSkill2Level: 1
     WarfareBuff1ID: 23
     WarfareBuff1Multiplier: 40
+    name: Mining Laser Field Enhancement Charge
   Mining Laser Optimization Charge:
     LauncherGroup: 1770
     RequiredSkill1: 22536
@@ -23,3 +25,4 @@ items:
     RequiredSkill2Level: 1
     WarfareBuff1ID: 24
     WarfareBuff1Multiplier: -15
+    name: Mining Laser Optimization Charge

@@ -1,6 +1,11 @@
 items:
-  Convoy Escort: {}
-  Convoy Guard: {}
-  Convoy Protector: {}
-  Convoy Sentry: {}
-  Loiterer I: {}
+  Convoy Escort:
+    name: Convoy Escort
+  Convoy Guard:
+    name: Convoy Guard
+  Convoy Protector:
+    name: Convoy Protector
+  Convoy Sentry:
+    name: Convoy Sentry
+  Loiterer I:
+    name: Loiterer I

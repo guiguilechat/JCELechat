@@ -1,13 +1,25 @@
 items:
-  Centior Abomination: {}
-  Centior Cannibal: {}
-  Centior Devourer: {}
-  Centior Horror: {}
-  Centior Misshape: {}
-  Centior Monster: {}
-  True Centior Abomination: {}
-  True Centior Cannibal: {}
-  True Centior Devourer: {}
-  True Centior Horror: {}
-  True Centior Misshape: {}
-  True Centior Monster: {}
+  Centior Abomination:
+    name: Centior Abomination
+  Centior Cannibal:
+    name: Centior Cannibal
+  Centior Devourer:
+    name: Centior Devourer
+  Centior Horror:
+    name: Centior Horror
+  Centior Misshape:
+    name: Centior Misshape
+  Centior Monster:
+    name: Centior Monster
+  True Centior Abomination:
+    name: True Centior Abomination
+  True Centior Cannibal:
+    name: True Centior Cannibal
+  True Centior Devourer:
+    name: True Centior Devourer
+  True Centior Horror:
+    name: True Centior Horror
+  True Centior Misshape:
+    name: True Centior Misshape
+  True Centior Monster:
+    name: True Centior Monster

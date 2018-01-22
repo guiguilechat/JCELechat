@@ -7,6 +7,7 @@ items:
     OreBasicType: 1231
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    name: Compressed Hemorphite
   Compressed Radiant Hemorphite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -15,6 +16,7 @@ items:
     OreBasicType: 1231
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    name: Compressed Radiant Hemorphite
   Compressed Scintillating Hemorphite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
@@ -23,6 +25,7 @@ items:
     OreBasicType: 46681
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    name: Compressed Scintillating Hemorphite
   Compressed Vivid Hemorphite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -31,6 +34,7 @@ items:
     OreBasicType: 1231
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    name: Compressed Vivid Hemorphite
   Hemorphite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -41,6 +45,7 @@ items:
     OreBasicType: 1231
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    name: Hemorphite
   Radiant Hemorphite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -51,6 +56,7 @@ items:
     OreBasicType: 1231
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    name: Radiant Hemorphite
   Scintillating Hemorphite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -61,6 +67,7 @@ items:
     OreBasicType: 46681
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    name: Scintillating Hemorphite
   Vivid Hemorphite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -71,3 +78,4 @@ items:
     OreBasicType: 1231
     ReprocessingSkillType: 12186
     RequiredSkill1: 3386
+    name: Vivid Hemorphite

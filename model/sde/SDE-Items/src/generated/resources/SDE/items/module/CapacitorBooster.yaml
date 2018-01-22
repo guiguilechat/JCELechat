@@ -15,6 +15,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: '''Harness'' Medium Capacitor Booster I'
   '''Plough'' Heavy Capacitor Booster I':
     ChargeGroup1: 87
     ChargeRate: 1
@@ -31,6 +32,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: '''Plough'' Heavy Capacitor Booster I'
   '''Saddle'' Small Capacitor Booster I':
     ChargeGroup1: 87
     ChargeRate: 1
@@ -47,6 +49,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: '''Saddle'' Small Capacitor Booster I'
   Ahremen's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -63,6 +66,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Ahremen's Modified Heavy Capacitor Booster
   Ammatar Navy Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -79,6 +83,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Ammatar Navy Heavy Capacitor Booster
   Ammatar Navy Medium Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -95,6 +100,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Ammatar Navy Medium Capacitor Booster
   Ammatar Navy Micro Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -111,6 +117,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Ammatar Navy Micro Capacitor Booster
   Ammatar Navy Small Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -127,6 +134,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Ammatar Navy Small Capacitor Booster
   Brokara's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -143,6 +151,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Brokara's Modified Heavy Capacitor Booster
   Capital Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -158,6 +167,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Capital Capacitor Booster I
   Capital Capacitor Booster II:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -174,6 +184,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Capital Capacitor Booster II
   Capital F-RX Compact Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -190,6 +201,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Capital F-RX Compact Capacitor Booster
   Chelm's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -206,6 +218,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Chelm's Modified Heavy Capacitor Booster
   Dark Blood Capital Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -223,6 +236,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dark Blood Capital Capacitor Booster
   Dark Blood Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -239,6 +253,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dark Blood Heavy Capacitor Booster
   Dark Blood Medium Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -255,6 +270,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dark Blood Medium Capacitor Booster
   Dark Blood Micro Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -271,6 +287,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dark Blood Micro Capacitor Booster
   Dark Blood Small Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -287,6 +304,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dark Blood Small Capacitor Booster
   Draclira's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -303,6 +321,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Draclira's Modified Heavy Capacitor Booster
   Heavy 'Brave' Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -319,6 +338,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Heavy 'Brave' Capacitor Booster
   Heavy Brief Capacitor Overcharge I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -334,6 +354,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Heavy Brief Capacitor Overcharge I
   Heavy Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -348,6 +369,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Heavy Capacitor Booster I
   Heavy Capacitor Booster II:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -363,6 +385,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Heavy Capacitor Booster II
   Heavy Electrochemical Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -378,6 +401,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Heavy Electrochemical Capacitor Booster I
   Heavy F-RX Prototype Capacitor Boost:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -393,6 +417,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Heavy F-RX Prototype Capacitor Boost
   Heavy Tapered Capacitor Infusion I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -408,6 +433,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Heavy Tapered Capacitor Infusion I
   Imperial Navy Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -424,6 +450,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Imperial Navy Heavy Capacitor Booster
   Imperial Navy Medium Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -440,6 +467,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Imperial Navy Medium Capacitor Booster
   Imperial Navy Micro Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -456,6 +484,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Imperial Navy Micro Capacitor Booster
   Imperial Navy Small Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -472,6 +501,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Imperial Navy Small Capacitor Booster
   Medium 'Gattotte' Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -488,6 +518,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium 'Gattotte' Capacitor Booster
   Medium Brief Capacitor Overcharge I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -503,6 +534,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium Brief Capacitor Overcharge I
   Medium Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -517,6 +549,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium Capacitor Booster I
   Medium Capacitor Booster II:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -532,6 +565,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Medium Capacitor Booster II
   Medium Electrochemical Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -547,6 +581,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium Electrochemical Capacitor Booster I
   Medium F-RX Prototype Capacitor Boost:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -562,6 +597,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium F-RX Prototype Capacitor Boost
   Medium Tapered Capacitor Infusion I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -577,6 +613,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium Tapered Capacitor Infusion I
   Micro Brief Capacitor Overcharge I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -592,6 +629,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Micro Brief Capacitor Overcharge I
   Micro Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -606,6 +644,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Micro Capacitor Booster I
   Micro Capacitor Booster II:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -621,6 +660,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Micro Capacitor Booster II
   Micro Electrochemical Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -636,6 +676,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Micro Electrochemical Capacitor Booster I
   Micro F-RX Prototype Capacitor Boost:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -651,6 +692,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Micro F-RX Prototype Capacitor Boost
   Micro Tapered Capacitor Infusion I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -666,6 +708,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Micro Tapered Capacitor Infusion I
   Raysere's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -682,6 +725,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Raysere's Modified Heavy Capacitor Booster
   Selynne's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -698,6 +742,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Selynne's Modified Heavy Capacitor Booster
   Small 'Siesta' Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -714,6 +759,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small 'Siesta' Capacitor Booster
   Small Brief Capacitor Overcharge I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -729,6 +775,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small Brief Capacitor Overcharge I
   Small Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -743,6 +790,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small Capacitor Booster I
   Small Capacitor Booster II:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -758,6 +806,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Small Capacitor Booster II
   Small Electrochemical Capacitor Booster I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -773,6 +822,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small Electrochemical Capacitor Booster I
   Small F-RX Prototype Capacitor Boost:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -788,6 +838,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small F-RX Prototype Capacitor Boost
   Small Perishable Capacitor Overcharge II:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -803,6 +854,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Small Perishable Capacitor Overcharge II
   Small Tapered Capacitor Infusion I:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -818,6 +870,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small Tapered Capacitor Infusion I
   Tairei's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -834,6 +887,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Tairei's Modified Heavy Capacitor Booster
   True Sansha Capital Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -851,6 +905,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: True Sansha Capital Capacitor Booster
   True Sansha Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -867,6 +922,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: True Sansha Heavy Capacitor Booster
   True Sansha Medium Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -883,6 +939,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: True Sansha Medium Capacitor Booster
   True Sansha Micro Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -899,6 +956,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: True Sansha Micro Capacitor Booster
   True Sansha Small Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -915,6 +973,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: True Sansha Small Capacitor Booster
   Vizan's Modified Heavy Capacitor Booster:
     ChargeGroup1: 87
     ChargeRate: 1
@@ -931,3 +990,4 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Vizan's Modified Heavy Capacitor Booster

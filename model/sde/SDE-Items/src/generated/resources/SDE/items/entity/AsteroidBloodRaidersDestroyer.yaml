@@ -1,7 +1,13 @@
 items:
-  Blood Cleric: {}
-  Blood Converter: {}
-  Blood Devoter: {}
-  Blood Friar: {}
-  Blood Templar: {}
-  Blood Visionary: {}
+  Blood Cleric:
+    name: Blood Cleric
+  Blood Converter:
+    name: Blood Converter
+  Blood Devoter:
+    name: Blood Devoter
+  Blood Friar:
+    name: Blood Friar
+  Blood Templar:
+    name: Blood Templar
+  Blood Visionary:
+    name: Blood Visionary

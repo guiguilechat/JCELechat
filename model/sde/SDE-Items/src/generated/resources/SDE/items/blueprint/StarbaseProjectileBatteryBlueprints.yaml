@@ -1,37 +1,55 @@
 items:
   Angel Large Artillery Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Angel Large Artillery Battery Blueprint
   Angel Large Autocannon Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Angel Large Autocannon Battery Blueprint
   Angel Medium Artillery Battery Blueprint:
     IndustryBlueprintRank: 30.0
+    name: Angel Medium Artillery Battery Blueprint
   Angel Medium Autocannon Battery Blueprint:
     IndustryBlueprintRank: 30.0
+    name: Angel Medium Autocannon Battery Blueprint
   Angel Small Artillery Battery Blueprint:
     IndustryBlueprintRank: 20.0
+    name: Angel Small Artillery Battery Blueprint
   Angel Small Autocannon Battery Blueprint:
     IndustryBlueprintRank: 20.0
+    name: Angel Small Autocannon Battery Blueprint
   Domination Large Artillery Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Domination Large Artillery Battery Blueprint
   Domination Large Autocannon Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Domination Large Autocannon Battery Blueprint
   Domination Medium Artillery Battery Blueprint:
     IndustryBlueprintRank: 30.0
+    name: Domination Medium Artillery Battery Blueprint
   Domination Medium Autocannon Battery Blueprint:
     IndustryBlueprintRank: 30.0
+    name: Domination Medium Autocannon Battery Blueprint
   Domination Small Artillery Battery Blueprint:
     IndustryBlueprintRank: 20.0
+    name: Domination Small Artillery Battery Blueprint
   Domination Small Autocannon Battery Blueprint:
     IndustryBlueprintRank: 20.0
+    name: Domination Small Autocannon Battery Blueprint
   Large Artillery Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Large Artillery Battery Blueprint
   Large AutoCannon Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Large AutoCannon Battery Blueprint
   Medium Artillery Battery Blueprint:
     IndustryBlueprintRank: 30.0
+    name: Medium Artillery Battery Blueprint
   Medium AutoCannon Battery Blueprint:
     IndustryBlueprintRank: 30.0
+    name: Medium AutoCannon Battery Blueprint
   Small Artillery Battery Blueprint:
     IndustryBlueprintRank: 20.0
+    name: Small Artillery Battery Blueprint
   Small AutoCannon Battery Blueprint:
     IndustryBlueprintRank: 20.0
+    name: Small AutoCannon Battery Blueprint

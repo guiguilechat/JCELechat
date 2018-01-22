@@ -1,11 +1,21 @@
 items:
-  Eystur Rhomben: {}
-  Jel Rhomben: {}
-  Niarja Myelen: {}
-  Orkashu Myelen: {}
-  Orkashu Pontine: {}
-  Renyn Meten: {}
-  Sansha's Nation Commander: {}
-  Schmaeel Medulla: {}
-  Tama Cerebellum: {}
-  Youl Meten: {}
+  Eystur Rhomben:
+    name: Eystur Rhomben
+  Jel Rhomben:
+    name: Jel Rhomben
+  Niarja Myelen:
+    name: Niarja Myelen
+  Orkashu Myelen:
+    name: Orkashu Myelen
+  Orkashu Pontine:
+    name: Orkashu Pontine
+  Renyn Meten:
+    name: Renyn Meten
+  Sansha's Nation Commander:
+    name: Sansha's Nation Commander
+  Schmaeel Medulla:
+    name: Schmaeel Medulla
+  Tama Cerebellum:
+    name: Tama Cerebellum
+  Youl Meten:
+    name: Youl Meten

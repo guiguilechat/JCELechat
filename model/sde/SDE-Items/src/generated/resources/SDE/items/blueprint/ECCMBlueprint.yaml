@@ -2,51 +2,68 @@ items:
   '''Forger'' ECCM - Magnetometric I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Forger'' ECCM - Magnetometric I Blueprint'
   Conjunctive Gravimetric ECCM Scanning Array I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Conjunctive Gravimetric ECCM Scanning Array I Blueprint
   Conjunctive Ladar ECCM Scanning Array I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Conjunctive Ladar ECCM Scanning Array I Blueprint
   Conjunctive Magnetometric ECCM Scanning Array I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Conjunctive Magnetometric ECCM Scanning Array I Blueprint
   Conjunctive Radar ECCM Scanning Array I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Conjunctive Radar ECCM Scanning Array I Blueprint
   ECCM - Gravimetric I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: ECCM - Gravimetric I Blueprint
   ECCM - Gravimetric II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: ECCM - Gravimetric II Blueprint
   ECCM - Ladar I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: ECCM - Ladar I Blueprint
   ECCM - Ladar II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: ECCM - Ladar II Blueprint
   ECCM - Magnetometric I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: ECCM - Magnetometric I Blueprint
   ECCM - Magnetometric II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: ECCM - Magnetometric II Blueprint
   ECCM - Omni I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: ECCM - Omni I Blueprint
   ECCM - Omni II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: ECCM - Omni II Blueprint
   ECCM - Radar I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: ECCM - Radar I Blueprint
   ECCM - Radar II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: ECCM - Radar II Blueprint
   ECCM Projector I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: ECCM Projector I Blueprint
   ECCM Projector II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: ECCM Projector II Blueprint

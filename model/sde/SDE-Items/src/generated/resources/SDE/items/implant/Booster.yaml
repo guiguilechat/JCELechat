@@ -11,76 +11,92 @@ items:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     WillpowerBonus: 17
+    name: Advanced Cerebral Accelerator
   Agency 'Hardshell' TB3 Dose I:
     BoosterDuration: 1800000
     Boosterness: 11
     RepairBonus: 3
     ShieldBoostMultiplier: 3.0
+    name: Agency 'Hardshell' TB3 Dose I
   Agency 'Hardshell' TB5 Dose II:
     BoosterDuration: 1800000
     Boosterness: 11
     RepairBonus: 5
     ShieldBoostMultiplier: 5.0
+    name: Agency 'Hardshell' TB5 Dose II
   Agency 'Hardshell' TB7 Dose III:
     BoosterDuration: 1800000
     Boosterness: 11
     RepairBonus: 7
     ShieldBoostMultiplier: 7.0
+    name: Agency 'Hardshell' TB7 Dose III
   Agency 'Overclocker' SB3 Dose I:
     BoosterDuration: 1800000
     Boosterness: 11
     VelocityBonus: 3.0
+    name: Agency 'Overclocker' SB3 Dose I
   Agency 'Overclocker' SB5 Dose II:
     BoosterDuration: 1800000
     Boosterness: 11
     VelocityBonus: 5.0
+    name: Agency 'Overclocker' SB5 Dose II
   Agency 'Overclocker' SB7 Dose III:
     BoosterDuration: 1800000
     Boosterness: 11
     VelocityBonus: 7.0
+    name: Agency 'Overclocker' SB7 Dose III
   Agency 'Pyrolancea' DB3 Dose I:
     BoosterDuration: 1800000
     Boosterness: 11
     DamageMultiplierBonus: 3
+    name: Agency 'Pyrolancea' DB3 Dose I
   Agency 'Pyrolancea' DB5 Dose II:
     BoosterDuration: 1800000
     Boosterness: 11
     DamageMultiplierBonus: 5
+    name: Agency 'Pyrolancea' DB5 Dose II
   Agency 'Pyrolancea' DB7 Dose III:
     BoosterDuration: 1800000
     Boosterness: 11
     DamageMultiplierBonus: 7
-  Agency Standard Booster: {}
+    name: Agency 'Pyrolancea' DB7 Dose III
+  Agency Standard Booster:
+    name: Agency Standard Booster
   Antipharmakon Aeolis:
     BoosterDuration: 1800000
     Boosterness: 1
     CapacitorCapacityBonus: 8.0
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
+    name: Antipharmakon Aeolis
   Antipharmakon Iokira:
     BoosterDuration: 1800000
     Boosterness: 2
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     TrackingSpeedBonus: 8.0
+    name: Antipharmakon Iokira
   Antipharmakon Kosybo:
     ArmorDamageAmountBonus: 8
     BoosterDuration: 1800000
     Boosterness: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
+    name: Antipharmakon Kosybo
   Antipharmakon Thureo:
     BoosterDuration: 1800000
     Boosterness: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 8.0
+    name: Antipharmakon Thureo
   Antipharmakon Toxot:
     BoosterDuration: 1800000
     Boosterness: 3
     MaxFlightTimeBonus: 8
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
+    name: Antipharmakon Toxot
   Crimson Harvest Cerebral Accelerator:
     BoosterDuration: 86400000
     BoosterLastInjectionDatetime: 17498.0
@@ -94,6 +110,7 @@ items:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     WillpowerBonus: 10
+    name: Crimson Harvest Cerebral Accelerator
   Expired Cerebral Accelerator:
     BoosterDuration: 86400000
     BoosterLastInjectionDatetime: 17463.0
@@ -107,6 +124,7 @@ items:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     WillpowerBonus: 10
+    name: Expired Cerebral Accelerator
   Improved Blue Pill Booster:
     BoosterAOEVelocityPenalty: -25
     BoosterCapacitorCapacityPenalty: -25
@@ -122,6 +140,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 25.0
+    name: Improved Blue Pill Booster
   Improved Crash Booster:
     AoeCloudSizeBonus: -25.0
     BoosterArmorHPPenalty: -25
@@ -137,6 +156,7 @@ items:
     Boosterness: 3
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
+    name: Improved Crash Booster
   Improved Drop Booster:
     BoosterArmorRepairAmountPenalty: -25
     BoosterDuration: 1800000
@@ -152,6 +172,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     TrackingSpeedBonus: 31.25
+    name: Improved Drop Booster
   Improved Exile Booster:
     ArmorDamageAmountBonus: 25
     BoosterArmorHPPenalty: -25
@@ -167,6 +188,7 @@ items:
     Boosterness: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
+    name: Improved Exile Booster
   Improved Frentix Booster:
     BoosterArmorHPPenalty: -25
     BoosterDuration: 1800000
@@ -182,6 +204,7 @@ items:
     RangeSkillBonus: 15
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
+    name: Improved Frentix Booster
   Improved Mindflood Booster:
     BoosterArmorRepairAmountPenalty: -25
     BoosterDuration: 1800000
@@ -197,6 +220,7 @@ items:
     CapacitorCapacityBonus: 15.0
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
+    name: Improved Mindflood Booster
   Improved Sooth Sayer Booster:
     BoosterArmorRepairAmountPenalty: -25
     BoosterDuration: 1800000
@@ -212,6 +236,7 @@ items:
     FalloffBonus: 15.0
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
+    name: Improved Sooth Sayer Booster
   Improved X-Instinct Booster:
     BoosterArmorHPPenalty: -25
     BoosterDuration: 1800000
@@ -227,12 +252,14 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -11.25
+    name: Improved X-Instinct Booster
   Nugoehuvi Synth Blue Pill Booster:
     BoosterDuration: 1980000
     Boosterness: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 5.0
+    name: Nugoehuvi Synth Blue Pill Booster
   Prototype Cerebral Accelerator:
     BoosterMaxCharAgeHours: 336
     Boosterness: 4
@@ -245,6 +272,7 @@ items:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     WillpowerBonus: 9
+    name: Prototype Cerebral Accelerator
   QA Cerebral Accelerator - (128):
     BoosterDuration: 43200000
     Boosterness: 12
@@ -257,6 +285,7 @@ items:
     RequiredSkill1: 9955
     RequiredSkill1Level: 5
     WillpowerBonus: 128
+    name: QA Cerebral Accelerator - (128)
   QA Cerebral Accelerator - (16):
     BoosterDuration: 600000
     Boosterness: 4
@@ -269,6 +298,7 @@ items:
     RequiredSkill1: 9955
     RequiredSkill1Level: 5
     WillpowerBonus: 16
+    name: QA Cerebral Accelerator - (16)
   QA Cerebral Accelerator - (32):
     BoosterDuration: 86400000
     BoosterLastInjectionDatetime: 17486.5
@@ -282,6 +312,7 @@ items:
     RequiredSkill1: 9955
     RequiredSkill1Level: 5
     WillpowerBonus: 32
+    name: QA Cerebral Accelerator - (32)
   QA Cerebral Accelerator - (64):
     BoosterDuration: 86400000
     Boosterness: 8
@@ -294,11 +325,13 @@ items:
     RequiredSkill1: 9955
     RequiredSkill1Level: 5
     WillpowerBonus: 64
+    name: QA Cerebral Accelerator - (64)
   Quafe Zero:
     BoosterDuration: 3600000
     Boosterness: 1
     ScanResolutionBonus: 5.0
     VelocityBonus: 5.0
+    name: Quafe Zero
   Rogue Swarm Cerebral Accelerator:
     BoosterDuration: 86400000
     BoosterLastInjectionDatetime: 17561.458984375
@@ -312,6 +345,7 @@ items:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     WillpowerBonus: 12
+    name: Rogue Swarm Cerebral Accelerator
   Standard Blue Pill Booster:
     BoosterAOEVelocityPenalty: -20
     BoosterCapacitorCapacityPenalty: -20
@@ -327,6 +361,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 20.0
+    name: Standard Blue Pill Booster
   Standard Cerebral Accelerator:
     BoosterMaxCharAgeHours: 840
     Boosterness: 4
@@ -341,6 +376,7 @@ items:
     RequiredSkill1Level: 1
     RofBonus: -20
     WillpowerBonus: 3
+    name: Standard Cerebral Accelerator
   Standard Crash Booster:
     AoeCloudSizeBonus: -20.0
     BoosterArmorHPPenalty: -20
@@ -356,6 +392,7 @@ items:
     Boosterness: 3
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
+    name: Standard Crash Booster
   Standard Drop Booster:
     BoosterArmorRepairAmountPenalty: -20
     BoosterDuration: 1800000
@@ -371,6 +408,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     TrackingSpeedBonus: 25.0
+    name: Standard Drop Booster
   Standard Exile Booster:
     ArmorDamageAmountBonus: 20
     BoosterArmorHPPenalty: -20
@@ -386,6 +424,7 @@ items:
     Boosterness: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
+    name: Standard Exile Booster
   Standard Frentix Booster:
     BoosterArmorHPPenalty: -20
     BoosterDuration: 1800000
@@ -401,6 +440,7 @@ items:
     RangeSkillBonus: 10
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
+    name: Standard Frentix Booster
   Standard Mindflood Booster:
     BoosterArmorRepairAmountPenalty: -20
     BoosterDuration: 1800000
@@ -416,6 +456,7 @@ items:
     CapacitorCapacityBonus: 10.0
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
+    name: Standard Mindflood Booster
   Standard Sooth Sayer Booster:
     BoosterArmorRepairAmountPenalty: -20
     BoosterDuration: 1800000
@@ -431,6 +472,7 @@ items:
     FalloffBonus: 10.0
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
+    name: Standard Sooth Sayer Booster
   Standard X-Instinct Booster:
     BoosterArmorHPPenalty: -20
     BoosterDuration: 1800000
@@ -446,6 +488,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SignatureRadiusBonus: -7.5
+    name: Standard X-Instinct Booster
   Strong Blue Pill Booster:
     BoosterAOEVelocityPenalty: -30
     BoosterCapacitorCapacityPenalty: -30
@@ -461,6 +504,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 30.0
+    name: Strong Blue Pill Booster
   Strong Crash Booster:
     AoeCloudSizeBonus: -30.0
     BoosterArmorHPPenalty: -30
@@ -476,6 +520,7 @@ items:
     Boosterness: 3
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
+    name: Strong Crash Booster
   Strong Drop Booster:
     BoosterArmorRepairAmountPenalty: -30
     BoosterDuration: 1800000
@@ -491,6 +536,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     TrackingSpeedBonus: 37.5
+    name: Strong Drop Booster
   Strong Exile Booster:
     ArmorDamageAmountBonus: 30
     BoosterArmorHPPenalty: -30
@@ -506,6 +552,7 @@ items:
     Boosterness: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
+    name: Strong Exile Booster
   Strong Frentix Booster:
     BoosterArmorHPPenalty: -30
     BoosterDuration: 1800000
@@ -521,6 +568,7 @@ items:
     RangeSkillBonus: 20
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
+    name: Strong Frentix Booster
   Strong Mindflood Booster:
     BoosterArmorRepairAmountPenalty: -30
     BoosterDuration: 1800000
@@ -536,6 +584,7 @@ items:
     CapacitorCapacityBonus: 20.0
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
+    name: Strong Mindflood Booster
   Strong Sooth Sayer Booster:
     BoosterArmorRepairAmountPenalty: -30
     BoosterDuration: 1800000
@@ -551,6 +600,7 @@ items:
     FalloffBonus: 20.0
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
+    name: Strong Sooth Sayer Booster
   Strong X-Instinct Booster:
     BoosterArmorHPPenalty: -30
     BoosterDuration: 1800000
@@ -566,54 +616,63 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -15.0
+    name: Strong X-Instinct Booster
   Synth Blue Pill Booster:
     BoosterDuration: 1800000
     Boosterness: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 3.0
+    name: Synth Blue Pill Booster
   Synth Crash Booster:
     AoeCloudSizeBonus: -3.0
     BoosterDuration: 1800000
     Boosterness: 3
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
+    name: Synth Crash Booster
   Synth Drop Booster:
     BoosterDuration: 1800000
     Boosterness: 2
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     TrackingSpeedBonus: 3.0
+    name: Synth Drop Booster
   Synth Exile Booster:
     ArmorDamageAmountBonus: 3
     BoosterDuration: 1800000
     Boosterness: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
+    name: Synth Exile Booster
   Synth Frentix Booster:
     BoosterDuration: 1800000
     Boosterness: 2
     RangeSkillBonus: 3
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
+    name: Synth Frentix Booster
   Synth Mindflood Booster:
     BoosterDuration: 1800000
     Boosterness: 1
     CapacitorCapacityBonus: 3.0
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
+    name: Synth Mindflood Booster
   Synth Sooth Sayer Booster:
     BoosterDuration: 1800000
     Boosterness: 2
     FalloffBonus: 3.0
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
+    name: Synth Sooth Sayer Booster
   Synth X-Instinct Booster:
     BoosterDuration: 1800000
     Boosterness: 1
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     SignatureRadiusBonus: -2.25
+    name: Synth X-Instinct Booster
   Yoiul Festival Cerebral Accelerator:
     BoosterDuration: 259200000
     BoosterLastInjectionDatetime: 17561.458984375
@@ -627,3 +686,4 @@ items:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     WillpowerBonus: 10
+    name: Yoiul Festival Cerebral Accelerator

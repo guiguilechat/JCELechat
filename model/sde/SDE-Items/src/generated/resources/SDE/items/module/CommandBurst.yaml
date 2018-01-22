@@ -34,6 +34,7 @@ items:
     WarfareBuff2Value: 1.0
     WarfareBuff3Value: 1.0
     WarfareBuff4Value: 1.0
+    name: Armor Command Burst I
   Armor Command Burst II:
     BuffDuration: 60000
     CanFitShipGroup01: 1534
@@ -72,6 +73,7 @@ items:
     WarfareBuff2Value: 1.25
     WarfareBuff3Value: 1.25
     WarfareBuff4Value: 1.25
+    name: Armor Command Burst II
   Information Command Burst I:
     BuffDuration: 60000
     CanFitShipGroup01: 1534
@@ -107,6 +109,7 @@ items:
     WarfareBuff2Value: 1.0
     WarfareBuff3Value: 1.0
     WarfareBuff4Value: 1.0
+    name: Information Command Burst I
   Information Command Burst II:
     BuffDuration: 60000
     CanFitShipGroup01: 1534
@@ -145,6 +148,7 @@ items:
     WarfareBuff2Value: 1.25
     WarfareBuff3Value: 1.25
     WarfareBuff4Value: 1.25
+    name: Information Command Burst II
   Mining Foreman Burst I:
     BuffDuration: 60000
     CanFitShipGroup01: 1534
@@ -180,6 +184,7 @@ items:
     WarfareBuff2Value: 1.0
     WarfareBuff3Value: 1.0
     WarfareBuff4Value: 1.0
+    name: Mining Foreman Burst I
   Mining Foreman Burst II:
     BuffDuration: 60000
     CanFitShipGroup01: 1534
@@ -218,6 +223,7 @@ items:
     WarfareBuff2Value: 1.25
     WarfareBuff3Value: 1.25
     WarfareBuff4Value: 1.25
+    name: Mining Foreman Burst II
   Shield Command Burst I:
     BuffDuration: 60000
     CanFitShipGroup01: 1534
@@ -253,6 +259,7 @@ items:
     WarfareBuff2Value: 1.0
     WarfareBuff3Value: 1.0
     WarfareBuff4Value: 1.0
+    name: Shield Command Burst I
   Shield Command Burst II:
     BuffDuration: 60000
     CanFitShipGroup01: 1534
@@ -291,6 +298,7 @@ items:
     WarfareBuff2Value: 1.25
     WarfareBuff3Value: 1.25
     WarfareBuff4Value: 1.25
+    name: Shield Command Burst II
   Skirmish Command Burst I:
     BuffDuration: 60000
     CanFitShipGroup01: 1534
@@ -326,6 +334,7 @@ items:
     WarfareBuff2Value: 1.0
     WarfareBuff3Value: 1.0
     WarfareBuff4Value: 1.0
+    name: Skirmish Command Burst I
   Skirmish Command Burst II:
     BuffDuration: 60000
     CanFitShipGroup01: 1534
@@ -364,3 +373,4 @@ items:
     WarfareBuff2Value: 1.25
     WarfareBuff3Value: 1.25
     WarfareBuff4Value: 1.25
+    name: Skirmish Command Burst II

@@ -1,9 +1,17 @@
 items:
-  Republic Norn: {}
-  Republic Nutia: {}
-  Republic Tribal Caluka: {}
-  Republic Tribal Norn: {}
-  Republic Tribal Nutia: {}
-  Republic Tribal Venis: {}
-  Republic Tribal Vorshud: {}
-  Republic Venis: {}
+  Republic Norn:
+    name: Republic Norn
+  Republic Nutia:
+    name: Republic Nutia
+  Republic Tribal Caluka:
+    name: Republic Tribal Caluka
+  Republic Tribal Norn:
+    name: Republic Tribal Norn
+  Republic Tribal Nutia:
+    name: Republic Tribal Nutia
+  Republic Tribal Venis:
+    name: Republic Tribal Venis
+  Republic Tribal Vorshud:
+    name: Republic Tribal Vorshud
+  Republic Venis:
+    name: Republic Venis

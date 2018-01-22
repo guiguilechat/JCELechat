@@ -1,334 +1,667 @@
 items:
-  Abandoned Container: {}
-  Abandoned Wreck: {}
-  Amarr Academy Office: {}
-  Amarr Avatar Titan: {}
-  Amarr Battleship Wreckage: {}
-  Amarr Cargo Rig: {}
-  Amarr Diplomat Quarters: {}
-  Amarr Workers' Quarters: {}
-  Amarrian Battleship Wreckage: {}
-  Ammo_Container: {}
-  Ancient Starbase Ruins: {}
-  Ancient Tomb Dig Site: {}
-  Angel Derelict: {}
-  Angel Hardware Storage: {}
-  Angel Hulk: {}
-  Angel Network Hub: {}
-  Angel Network Nexus: {}
-  Angel Network Node: {}
-  Angel Network Nucleus: {}
-  Angel Officer's Quarters: {}
-  Angel Ship Debris: {}
-  Angel Ship Derelict: {}
-  Angel Ship Hulk: {}
-  Angel Ship Remains: {}
-  Angel Ship Rubble: {}
-  Angel Ship Ruins: {}
-  Angel Ship Waste: {}
-  Angel Ship Wreck: {}
-  Angel Stash_Extrava: {}
-  Angel Waste: {}
-  Angel Wreck: {}
-  Archives: {}
-  Armor_Container: {}
-  Army Quarters: {}
-  Assembly Station DC105-A: {}
-  Asteroid Pirate Station: {}
-  Azil's Transport: {}
-  Barbican Alignment Unit 0: {}
-  Barbican Alignment Unit 1: {}
-  Barbican Alpha Access Unit: {}
-  Barbican Beta Access Unit: {}
-  Barbican Delta Access Unit: {}
-  Barbican Gamma Access Unit: {}
-  Blasted Neon Sign: {}
-  Blood Derelict: {}
-  Blood Factory: {}
-  Blood Hulk: {}
-  Blood Raider Network Hub: {}
-  Blood Raider Network Nexus: {}
-  Blood Raider Network Node: {}
-  Blood Raider Network Nucleus: {}
-  Blood Ship Debris: {}
-  Blood Ship Derelict: {}
-  Blood Ship Hulk: {}
-  Blood Ship Remains: {}
-  Blood Ship Rubble: {}
-  Blood Ship Ruins: {}
-  Blood Ship Waste: {}
-  Blood Ship Wreck: {}
-  Blood Waste: {}
-  Blood Wreck: {}
-  CONCORD MTAC Factory: {}
-  CPF Habitation Module: {}
-  Cache Container: {}
-  'Caldari Academy Office  ': {}
-  Caldari Cargo Rig: {}
-  Caldari Leviathan Titan: {}
-  Caldari Storage Warehouse: {}
-  Cargo Container - Ancient Amarrian Relic: {}
-  Cargo Container - Broken Mining Equipment: {}
-  Cargo Container - Brutor Tribe Roster: {}
-  Cargo Container - Dolls: {}
-  Cargo Container - Encoded Data Chip: {}
-  Cargo Container - Federation Court Logs: {}
-  Cargo Container - Ishukone Corporate Records: {}
-  Cargo Container - Mina Darabi: {}
-  Cargo Container - Physical Samples: {}
-  Cargo Container - Tactical Information I: {}
-  Cargo Container - Tactical Information II: {}
-  Cargo Container - Tactical Information III: {}
-  Cargo Container - Tactical Information IV: {}
-  Cargo Warehouse - Crates of Silicate Glass: {}
-  Cargo Warehouse - Crates of Synthetic Oil: {}
-  Cargo Warehouse - Quafe Ultra: {}
-  Cargo Warehouse - Spiced Wine: {}
-  Cartographer's Quarters: {}
-  Cell Block D: {}
-  Central Burial Tomb: {}
-  Central Control Nexus: {}
-  Centrien's Shuttle: {}
-  Cerebrum Maintenance Chamber: {}
-  'Chapel of the Obsidian ': {}
-  Charge Ammunition Storage: {}
-  Citizen Quarters: {}
-  Civilian Transport Ship Wreck: {}
-  Cloaked Cache: {}
-  Compromised Stasis Vault: {}
-  Conflux Alignment Unit 0: {}
-  Conflux Alignment Unit 1: {}
-  Conflux Alpha Access Unit: {}
-  Conflux Beta Access Unit: {}
-  Conflux Delta Access Unit: {}
-  Conflux Gamma Access Unit: {}
-  Coordinate Plotting Device: {}
-  Corpse Stash: {}
-  Corrupted Drone: {}
-  Cruise Missile Storage: {}
-  Damaged Caldari Shuttle: {}
-  Damaged Escape Pod: {}
-  Damaged Heron: {}
-  Damaged Heron_2: {}
-  Damaged Prorator: {}
-  Damaged Radio Telescope: {}
-  Data Bank: {}
-  Data Storage: {}
-  Dented Storage Depot: {}
-  Destroyed Ship: {}
-  Disabled Badger: {}
-  Disposal Unit: {}
-  Drifting Cask: {}
-  Drifting Cask - Minmatar Training Facility: {}
-  Drone Hold: {}
-  Drone Sensor Storage: {}
-  Electronic_Container: {}
-  Encrypted Communications Array: {}
-  Erakki's Storage Bin: {}
-  Exploration Supplies: {}
-  Federation Detention Facility FNSBR-106V.1: {}
-  Federation Navy Shipyard: {}
-  Flotsam: {}
-  Forcefield Array: {}
-  Forgotten Debris: {}
-  Forsaken Stockpile: {}
-  Frequency Crystal Storage: {}
-  Gallente Academy Office: {}
-  Gallente Cargo Rig: {}
-  Gallente Erebus Titan: {}
-  Gallente Passenger Liner Damaged: {}
-  Guristas Derelict: {}
-  Guristas Hulk: {}
-  Guristas Network Hub: {}
-  Guristas Network Nexus: {}
-  Guristas Network Node: {}
-  Guristas Network Nucleus: {}
-  Guristas Officer's Quarters Mission Spy Stash: {}
-  Guristas Research and Trade Hub: {}
-  Guristas Ship Debris: {}
-  Guristas Ship Derelict: {}
-  Guristas Ship Hulk: {}
-  Guristas Ship Remains: {}
-  Guristas Ship Rubble: {}
-  Guristas Ship Ruins: {}
-  Guristas Ship Waste: {}
-  Guristas Ship Wreck: {}
-  Guristas Stash: {}
-  Guristas Transponder Tower: {}
-  Guristas Waste: {}
-  Guristas Wreck: {}
-  Habitation Module With Encoded Data Chip: {}
-  Habitation Module w/4xScientists: {}
-  Habitation Module w/FR Personnel: {}
-  Habitation_Module_Container: {}
-  Hidden Treasure Chest: {}
-  Holding Cell: {}
-  Hyasyoda Security Compound: {}
-  Hyperfluct Generator: {}
-  Imperial Armory: {}
-  Info Shard: {}
-  Intact Storage Depot: {}
-  Kador Bunker: {}
-  Kazka Loot Container: {}
-  Kutill's Storage Bin: {}
-  Laser-Pistol Stash: {}
-  Life pod: {}
-  Locced's Bribe: {}
-  Logistics Control Array: {}
-  Lord Arachnan's Outpost: {}
-  Lord Methros' Outpost: {}
-  Madcat's Stash: {}
-  Mangled Storage Depot: {}
-  Metadrones - LM-G-2 - B: {}
-  Metadrones - LM-G-2 - F: {}
-  Metadrones - LM-M-2 - B: {}
-  Metadrones - LM-M-2 - F: {}
-  Mineral Container: {}
-  Minmatar Academy Office: {}
-  Minmatar Bunker_Alliance Barracks: {}
-  Minmatar Cargo Rig: {}
-  Minmatar Diplomat Quarters: {}
-  Minmatar Prison_Mission: {}
-  Minmatar Ragnarok Titan: {}
-  Missile Storage: {}
-  Mission Hacking Can: {}
-  Mission Hacking Can 1: {}
-  Mission Hacking Can 2: {}
-  Munition Storage: {}
-  Nefantar Debris I: {}
-  Nefantar Debris II: {}
-  Nuomo's Scanner: {}
-  Office Facility: {}
-  Old Storage Container: {}
-  Parthus' Malfunctioning Capsule: {}
-  Podded Pilot: {}
-  Preacher's Quarters: {}
-  Prison Facility: {}
-  Prison_Mission: {}
-  Pristine Storage Depot: {}
-  Quarantine Station Ruins: {}
-  RSS Radio Telescope: {}
-  Radio Telescope - Hacking - Encoded Data Chip: {}
-  Radio_Telescope_MISSION: {}
-  Reconnaissance Ship Wreck: {}
-  Redoubt Alignment Unit 0: {}
-  Redoubt Alignment Unit 1: {}
-  Redoubt Alpha Access Unit: {}
-  Redoubt Beta Access Unit: {}
-  Redoubt Delta Access Unit: {}
-  Redoubt Gamma Access Unit: {}
-  Remote Defense Grid Unit: {}
-  Remote Pressure Control Unit: {}
-  Remote Reroute Unit: {}
-  Republic Navy Container: {}
-  Research Cache: {}
-  Research Vault: {}
-  Research Warehouse: {}
-  Resource Container: {}
-  Resource Crate: {}
-  Rogue Drone Container: {}
-  Rolette Residence: {}
-  Sansha Communications Array: {}
-  Sansha Derelict: {}
-  Sansha Hulk: {}
-  Sansha Ship Debris: {}
-  Sansha Ship Derelict: {}
-  Sansha Ship Hulk: {}
-  Sansha Ship Remains: {}
-  Sansha Ship Rubble: {}
-  Sansha Ship Ruins: {}
-  Sansha Ship Waste: {}
-  Sansha Ship Wreck: {}
-  Sansha Waste: {}
-  Sansha Wreck: {}
-  Science Vessel Wreck: {}
-  Scorched Container: {}
-  Secure Communications Tower: {}
-  Secure Databank: {}
-  Secure Depot: {}
-  Secure Lab: {}
-  Secure Mainframe: {}
-  Secure Vault: {}
-  Sentinel Alignment Unit 0: {}
-  Sentinel Alignment Unit 1: {}
-  Sentinel Alpha Access Unit: {}
-  Sentinel Beta Access Unit: {}
-  Sentinel Delta Access Unit: {}
-  Sentinel Gamma Access Unit: {}
-  Sentry Repair Station: {}
-  Serpentis Derelict: {}
-  Serpentis Hulk: {}
-  Serpentis Network Hub: {}
-  Serpentis Network Nexus: {}
-  Serpentis Network Node: {}
-  Serpentis Network Nucleus: {}
-  Serpentis Prison_Mission: {}
-  Serpentis Ship Debris: {}
-  Serpentis Ship Derelict: {}
-  Serpentis Ship Hulk: {}
-  Serpentis Ship Remains: {}
-  Serpentis Ship Rubble: {}
-  Serpentis Ship Ruins: {}
-  Serpentis Ship Waste: {}
-  Serpentis Ship Wreck: {}
-  Serpentis Stash: {}
-  Serpentis Waste: {}
-  Serpentis Wreck: {}
-  Ship Carcass: {}
-  Ship Carcass_2: {}
-  Ship Wreckage: {}
-  Ship Wreckage2: {}
-  Ship Wreckage3: {}
-  Ship Wreckage4: {}
-  Ship Wreckage5: {}
-  Ship Wreckage6: {}
-  Shuttle Wreck: {}
-  Slave Pens: {}
-  Solray Observational Unit: {}
-  Storage Bin: {}
-  Stranded Personnel Transport: {}
-  Strange Drifting Cask: {}
-  Strange Drifting Cask_2: {}
-  Strange Drifting Cask_3: {}
-  Suntendi Research Outpost: {}
-  Suspicious Ship Wreck: {}
-  Temple Stone Storage: {}
-  The Heartbreak: {}
-  The Scope Storage Container: {}
-  The Seven Holding Cells: {}
-  Tikui's Stash: {}
-  Tili's Brothel: {}
-  Tomb of the Unknown Soldiers: {}
-  Training Container - Anomalies: {}
-  Training Container - Gas: {}
-  Training Container - Ore: {}
-  Training Container - Salvaging: {}
-  Urigamu_Warehouse_MISSION: {}
-  Venal Regional Comms Tower: {}
-  Vessel Rejuvenation Battery: {}
-  Vidette Alignment Unit 0: {}
-  Vidette Alignment Unit 1: {}
-  Vidette Alpha Access Unit: {}
-  Vidette Beta Access Unit: {}
-  Vidette Delta Access Unit: {}
-  Vidette Gamma Access Unit: {}
-  Viral Stash: {}
-  Warehouse_MISSION: {}
-  Warehouse_MISSION2: {}
-  Wiyrkomi Warehouse: {}
-  Wreck W/ 23 Survivors: {}
-  Wreckage of Isone's Ship: {}
-  Wrecked Amarr Apocalypse Battleship: {}
-  Wrecked Amarr Armageddon Battleship: {}
-  Wrecked Caldari Raven Battleship: {}
-  Wrecked Caldari Scorpion Battleship: {}
-  Wrecked Gallente Dominix Battleship: {}
-  Wrecked Gallente Megathron Battleship: {}
-  Wrecked Minmatar Tempest Battleship: {}
-  Wrecked Minmatar Typhoon Battleship: {}
-  Wrecked Science Vessel: {}
-  Wrecked Ship: {}
-  Yamia Mida's Residence: {}
-  Zainou Biotech Convoy Wreck: {}
-  colins test Hulk: {}
-  weapon_container: {}
+  Abandoned Container:
+    name: Abandoned Container
+  Abandoned Wreck:
+    name: Abandoned Wreck
+  Amarr Academy Office:
+    name: Amarr Academy Office
+  Amarr Avatar Titan:
+    name: Amarr Avatar Titan
+  Amarr Battleship Wreckage:
+    name: Amarr Battleship Wreckage
+  Amarr Cargo Rig:
+    name: Amarr Cargo Rig
+  Amarr Diplomat Quarters:
+    name: Amarr Diplomat Quarters
+  Amarr Workers' Quarters:
+    name: Amarr Workers' Quarters
+  Amarrian Battleship Wreckage:
+    name: Amarrian Battleship Wreckage
+  Ammo_Container:
+    name: Ammo_Container
+  Ancient Starbase Ruins:
+    name: Ancient Starbase Ruins
+  Ancient Tomb Dig Site:
+    name: Ancient Tomb Dig Site
+  Angel Derelict:
+    name: Angel Derelict
+  Angel Hardware Storage:
+    name: Angel Hardware Storage
+  Angel Hulk:
+    name: Angel Hulk
+  Angel Network Hub:
+    name: Angel Network Hub
+  Angel Network Nexus:
+    name: Angel Network Nexus
+  Angel Network Node:
+    name: Angel Network Node
+  Angel Network Nucleus:
+    name: Angel Network Nucleus
+  Angel Officer's Quarters:
+    name: Angel Officer's Quarters
+  Angel Ship Debris:
+    name: Angel Ship Debris
+  Angel Ship Derelict:
+    name: Angel Ship Derelict
+  Angel Ship Hulk:
+    name: Angel Ship Hulk
+  Angel Ship Remains:
+    name: Angel Ship Remains
+  Angel Ship Rubble:
+    name: Angel Ship Rubble
+  Angel Ship Ruins:
+    name: Angel Ship Ruins
+  Angel Ship Waste:
+    name: Angel Ship Waste
+  Angel Ship Wreck:
+    name: Angel Ship Wreck
+  Angel Stash_Extrava:
+    name: Angel Stash_Extrava
+  Angel Waste:
+    name: Angel Waste
+  Angel Wreck:
+    name: Angel Wreck
+  Archives:
+    name: Archives
+  Armor_Container:
+    name: Armor_Container
+  Army Quarters:
+    name: Army Quarters
+  Assembly Station DC105-A:
+    name: Assembly Station DC105-A
+  Asteroid Pirate Station:
+    name: Asteroid Pirate Station
+  Azil's Transport:
+    name: Azil's Transport
+  Barbican Alignment Unit 0:
+    name: Barbican Alignment Unit 0
+  Barbican Alignment Unit 1:
+    name: Barbican Alignment Unit 1
+  Barbican Alpha Access Unit:
+    name: Barbican Alpha Access Unit
+  Barbican Beta Access Unit:
+    name: Barbican Beta Access Unit
+  Barbican Delta Access Unit:
+    name: Barbican Delta Access Unit
+  Barbican Gamma Access Unit:
+    name: Barbican Gamma Access Unit
+  Blasted Neon Sign:
+    name: Blasted Neon Sign
+  Blood Derelict:
+    name: Blood Derelict
+  Blood Factory:
+    name: Blood Factory
+  Blood Hulk:
+    name: Blood Hulk
+  Blood Raider Network Hub:
+    name: Blood Raider Network Hub
+  Blood Raider Network Nexus:
+    name: Blood Raider Network Nexus
+  Blood Raider Network Node:
+    name: Blood Raider Network Node
+  Blood Raider Network Nucleus:
+    name: Blood Raider Network Nucleus
+  Blood Ship Debris:
+    name: Blood Ship Debris
+  Blood Ship Derelict:
+    name: Blood Ship Derelict
+  Blood Ship Hulk:
+    name: Blood Ship Hulk
+  Blood Ship Remains:
+    name: Blood Ship Remains
+  Blood Ship Rubble:
+    name: Blood Ship Rubble
+  Blood Ship Ruins:
+    name: Blood Ship Ruins
+  Blood Ship Waste:
+    name: Blood Ship Waste
+  Blood Ship Wreck:
+    name: Blood Ship Wreck
+  Blood Waste:
+    name: Blood Waste
+  Blood Wreck:
+    name: Blood Wreck
+  CONCORD MTAC Factory:
+    name: CONCORD MTAC Factory
+  CPF Habitation Module:
+    name: CPF Habitation Module
+  Cache Container:
+    name: Cache Container
+  'Caldari Academy Office  ':
+    name: 'Caldari Academy Office  '
+  Caldari Cargo Rig:
+    name: Caldari Cargo Rig
+  Caldari Leviathan Titan:
+    name: Caldari Leviathan Titan
+  Caldari Storage Warehouse:
+    name: Caldari Storage Warehouse
+  Cargo Container - Ancient Amarrian Relic:
+    name: Cargo Container - Ancient Amarrian Relic
+  Cargo Container - Broken Mining Equipment:
+    name: Cargo Container - Broken Mining Equipment
+  Cargo Container - Brutor Tribe Roster:
+    name: Cargo Container - Brutor Tribe Roster
+  Cargo Container - Dolls:
+    name: Cargo Container - Dolls
+  Cargo Container - Encoded Data Chip:
+    name: Cargo Container - Encoded Data Chip
+  Cargo Container - Federation Court Logs:
+    name: Cargo Container - Federation Court Logs
+  Cargo Container - Ishukone Corporate Records:
+    name: Cargo Container - Ishukone Corporate Records
+  Cargo Container - Mina Darabi:
+    name: Cargo Container - Mina Darabi
+  Cargo Container - Physical Samples:
+    name: Cargo Container - Physical Samples
+  Cargo Container - Tactical Information I:
+    name: Cargo Container - Tactical Information I
+  Cargo Container - Tactical Information II:
+    name: Cargo Container - Tactical Information II
+  Cargo Container - Tactical Information III:
+    name: Cargo Container - Tactical Information III
+  Cargo Container - Tactical Information IV:
+    name: Cargo Container - Tactical Information IV
+  Cargo Warehouse - Crates of Silicate Glass:
+    name: Cargo Warehouse - Crates of Silicate Glass
+  Cargo Warehouse - Crates of Synthetic Oil:
+    name: Cargo Warehouse - Crates of Synthetic Oil
+  Cargo Warehouse - Quafe Ultra:
+    name: Cargo Warehouse - Quafe Ultra
+  Cargo Warehouse - Spiced Wine:
+    name: Cargo Warehouse - Spiced Wine
+  Cartographer's Quarters:
+    name: Cartographer's Quarters
+  Cell Block D:
+    name: Cell Block D
+  Central Burial Tomb:
+    name: Central Burial Tomb
+  Central Control Nexus:
+    name: Central Control Nexus
+  Centrien's Shuttle:
+    name: Centrien's Shuttle
+  Cerebrum Maintenance Chamber:
+    name: Cerebrum Maintenance Chamber
+  'Chapel of the Obsidian ':
+    name: 'Chapel of the Obsidian '
+  Charge Ammunition Storage:
+    name: Charge Ammunition Storage
+  Citizen Quarters:
+    name: Citizen Quarters
+  Civilian Transport Ship Wreck:
+    name: Civilian Transport Ship Wreck
+  Cloaked Cache:
+    name: Cloaked Cache
+  Compromised Stasis Vault:
+    name: Compromised Stasis Vault
+  Conflux Alignment Unit 0:
+    name: Conflux Alignment Unit 0
+  Conflux Alignment Unit 1:
+    name: Conflux Alignment Unit 1
+  Conflux Alpha Access Unit:
+    name: Conflux Alpha Access Unit
+  Conflux Beta Access Unit:
+    name: Conflux Beta Access Unit
+  Conflux Delta Access Unit:
+    name: Conflux Delta Access Unit
+  Conflux Gamma Access Unit:
+    name: Conflux Gamma Access Unit
+  Coordinate Plotting Device:
+    name: Coordinate Plotting Device
+  Corpse Stash:
+    name: Corpse Stash
+  Corrupted Drone:
+    name: Corrupted Drone
+  Cruise Missile Storage:
+    name: Cruise Missile Storage
+  Damaged Caldari Shuttle:
+    name: Damaged Caldari Shuttle
+  Damaged Escape Pod:
+    name: Damaged Escape Pod
+  Damaged Heron:
+    name: Damaged Heron
+  Damaged Heron_2:
+    name: Damaged Heron_2
+  Damaged Prorator:
+    name: Damaged Prorator
+  Damaged Radio Telescope:
+    name: Damaged Radio Telescope
+  Data Bank:
+    name: Data Bank
+  Data Storage:
+    name: Data Storage
+  Dented Storage Depot:
+    name: Dented Storage Depot
+  Destroyed Ship:
+    name: Destroyed Ship
+  Disabled Badger:
+    name: Disabled Badger
+  Disposal Unit:
+    name: Disposal Unit
+  Drifting Cask:
+    name: Drifting Cask
+  Drifting Cask - Minmatar Training Facility:
+    name: Drifting Cask - Minmatar Training Facility
+  Drone Hold:
+    name: Drone Hold
+  Drone Sensor Storage:
+    name: Drone Sensor Storage
+  Electronic_Container:
+    name: Electronic_Container
+  Encrypted Communications Array:
+    name: Encrypted Communications Array
+  Erakki's Storage Bin:
+    name: Erakki's Storage Bin
+  Exploration Supplies:
+    name: Exploration Supplies
+  Federation Detention Facility FNSBR-106V.1:
+    name: Federation Detention Facility FNSBR-106V.1
+  Federation Navy Shipyard:
+    name: Federation Navy Shipyard
+  Flotsam:
+    name: Flotsam
+  Forcefield Array:
+    name: Forcefield Array
+  Forgotten Debris:
+    name: Forgotten Debris
+  Forsaken Stockpile:
+    name: Forsaken Stockpile
+  Frequency Crystal Storage:
+    name: Frequency Crystal Storage
+  Gallente Academy Office:
+    name: Gallente Academy Office
+  Gallente Cargo Rig:
+    name: Gallente Cargo Rig
+  Gallente Erebus Titan:
+    name: Gallente Erebus Titan
+  Gallente Passenger Liner Damaged:
+    name: Gallente Passenger Liner Damaged
+  Guristas Derelict:
+    name: Guristas Derelict
+  Guristas Hulk:
+    name: Guristas Hulk
+  Guristas Network Hub:
+    name: Guristas Network Hub
+  Guristas Network Nexus:
+    name: Guristas Network Nexus
+  Guristas Network Node:
+    name: Guristas Network Node
+  Guristas Network Nucleus:
+    name: Guristas Network Nucleus
+  Guristas Officer's Quarters Mission Spy Stash:
+    name: Guristas Officer's Quarters Mission Spy Stash
+  Guristas Research and Trade Hub:
+    name: Guristas Research and Trade Hub
+  Guristas Ship Debris:
+    name: Guristas Ship Debris
+  Guristas Ship Derelict:
+    name: Guristas Ship Derelict
+  Guristas Ship Hulk:
+    name: Guristas Ship Hulk
+  Guristas Ship Remains:
+    name: Guristas Ship Remains
+  Guristas Ship Rubble:
+    name: Guristas Ship Rubble
+  Guristas Ship Ruins:
+    name: Guristas Ship Ruins
+  Guristas Ship Waste:
+    name: Guristas Ship Waste
+  Guristas Ship Wreck:
+    name: Guristas Ship Wreck
+  Guristas Stash:
+    name: Guristas Stash
+  Guristas Transponder Tower:
+    name: Guristas Transponder Tower
+  Guristas Waste:
+    name: Guristas Waste
+  Guristas Wreck:
+    name: Guristas Wreck
+  Habitation Module With Encoded Data Chip:
+    name: Habitation Module With Encoded Data Chip
+  Habitation Module w/4xScientists:
+    name: Habitation Module w/4xScientists
+  Habitation Module w/FR Personnel:
+    name: Habitation Module w/FR Personnel
+  Habitation_Module_Container:
+    name: Habitation_Module_Container
+  Hidden Treasure Chest:
+    name: Hidden Treasure Chest
+  Holding Cell:
+    name: Holding Cell
+  Hyasyoda Security Compound:
+    name: Hyasyoda Security Compound
+  Hyperfluct Generator:
+    name: Hyperfluct Generator
+  Imperial Armory:
+    name: Imperial Armory
+  Info Shard:
+    name: Info Shard
+  Intact Storage Depot:
+    name: Intact Storage Depot
+  Kador Bunker:
+    name: Kador Bunker
+  Kazka Loot Container:
+    name: Kazka Loot Container
+  Kutill's Storage Bin:
+    name: Kutill's Storage Bin
+  Laser-Pistol Stash:
+    name: Laser-Pistol Stash
+  Life pod:
+    name: Life pod
+  Locced's Bribe:
+    name: Locced's Bribe
+  Logistics Control Array:
+    name: Logistics Control Array
+  Lord Arachnan's Outpost:
+    name: Lord Arachnan's Outpost
+  Lord Methros' Outpost:
+    name: Lord Methros' Outpost
+  Madcat's Stash:
+    name: Madcat's Stash
+  Mangled Storage Depot:
+    name: Mangled Storage Depot
+  Metadrones - LM-G-2 - B:
+    name: Metadrones - LM-G-2 - B
+  Metadrones - LM-G-2 - F:
+    name: Metadrones - LM-G-2 - F
+  Metadrones - LM-M-2 - B:
+    name: Metadrones - LM-M-2 - B
+  Metadrones - LM-M-2 - F:
+    name: Metadrones - LM-M-2 - F
+  Mineral Container:
+    name: Mineral Container
+  Minmatar Academy Office:
+    name: Minmatar Academy Office
+  Minmatar Bunker_Alliance Barracks:
+    name: Minmatar Bunker_Alliance Barracks
+  Minmatar Cargo Rig:
+    name: Minmatar Cargo Rig
+  Minmatar Diplomat Quarters:
+    name: Minmatar Diplomat Quarters
+  Minmatar Prison_Mission:
+    name: Minmatar Prison_Mission
+  Minmatar Ragnarok Titan:
+    name: Minmatar Ragnarok Titan
+  Missile Storage:
+    name: Missile Storage
+  Mission Hacking Can:
+    name: Mission Hacking Can
+  Mission Hacking Can 1:
+    name: Mission Hacking Can 1
+  Mission Hacking Can 2:
+    name: Mission Hacking Can 2
+  Munition Storage:
+    name: Munition Storage
+  Nefantar Debris I:
+    name: Nefantar Debris I
+  Nefantar Debris II:
+    name: Nefantar Debris II
+  Nuomo's Scanner:
+    name: Nuomo's Scanner
+  Office Facility:
+    name: Office Facility
+  Old Storage Container:
+    name: Old Storage Container
+  Parthus' Malfunctioning Capsule:
+    name: Parthus' Malfunctioning Capsule
+  Podded Pilot:
+    name: Podded Pilot
+  Preacher's Quarters:
+    name: Preacher's Quarters
+  Prison Facility:
+    name: Prison Facility
+  Prison_Mission:
+    name: Prison_Mission
+  Pristine Storage Depot:
+    name: Pristine Storage Depot
+  Quarantine Station Ruins:
+    name: Quarantine Station Ruins
+  RSS Radio Telescope:
+    name: RSS Radio Telescope
+  Radio Telescope - Hacking - Encoded Data Chip:
+    name: Radio Telescope - Hacking - Encoded Data Chip
+  Radio_Telescope_MISSION:
+    name: Radio_Telescope_MISSION
+  Reconnaissance Ship Wreck:
+    name: Reconnaissance Ship Wreck
+  Redoubt Alignment Unit 0:
+    name: Redoubt Alignment Unit 0
+  Redoubt Alignment Unit 1:
+    name: Redoubt Alignment Unit 1
+  Redoubt Alpha Access Unit:
+    name: Redoubt Alpha Access Unit
+  Redoubt Beta Access Unit:
+    name: Redoubt Beta Access Unit
+  Redoubt Delta Access Unit:
+    name: Redoubt Delta Access Unit
+  Redoubt Gamma Access Unit:
+    name: Redoubt Gamma Access Unit
+  Remote Defense Grid Unit:
+    name: Remote Defense Grid Unit
+  Remote Pressure Control Unit:
+    name: Remote Pressure Control Unit
+  Remote Reroute Unit:
+    name: Remote Reroute Unit
+  Republic Navy Container:
+    name: Republic Navy Container
+  Research Cache:
+    name: Research Cache
+  Research Vault:
+    name: Research Vault
+  Research Warehouse:
+    name: Research Warehouse
+  Resource Container:
+    name: Resource Container
+  Resource Crate:
+    name: Resource Crate
+  Rogue Drone Container:
+    name: Rogue Drone Container
+  Rolette Residence:
+    name: Rolette Residence
+  Sansha Communications Array:
+    name: Sansha Communications Array
+  Sansha Derelict:
+    name: Sansha Derelict
+  Sansha Hulk:
+    name: Sansha Hulk
+  Sansha Ship Debris:
+    name: Sansha Ship Debris
+  Sansha Ship Derelict:
+    name: Sansha Ship Derelict
+  Sansha Ship Hulk:
+    name: Sansha Ship Hulk
+  Sansha Ship Remains:
+    name: Sansha Ship Remains
+  Sansha Ship Rubble:
+    name: Sansha Ship Rubble
+  Sansha Ship Ruins:
+    name: Sansha Ship Ruins
+  Sansha Ship Waste:
+    name: Sansha Ship Waste
+  Sansha Ship Wreck:
+    name: Sansha Ship Wreck
+  Sansha Waste:
+    name: Sansha Waste
+  Sansha Wreck:
+    name: Sansha Wreck
+  Science Vessel Wreck:
+    name: Science Vessel Wreck
+  Scorched Container:
+    name: Scorched Container
+  Secure Communications Tower:
+    name: Secure Communications Tower
+  Secure Databank:
+    name: Secure Databank
+  Secure Depot:
+    name: Secure Depot
+  Secure Lab:
+    name: Secure Lab
+  Secure Mainframe:
+    name: Secure Mainframe
+  Secure Vault:
+    name: Secure Vault
+  Sentinel Alignment Unit 0:
+    name: Sentinel Alignment Unit 0
+  Sentinel Alignment Unit 1:
+    name: Sentinel Alignment Unit 1
+  Sentinel Alpha Access Unit:
+    name: Sentinel Alpha Access Unit
+  Sentinel Beta Access Unit:
+    name: Sentinel Beta Access Unit
+  Sentinel Delta Access Unit:
+    name: Sentinel Delta Access Unit
+  Sentinel Gamma Access Unit:
+    name: Sentinel Gamma Access Unit
+  Sentry Repair Station:
+    name: Sentry Repair Station
+  Serpentis Derelict:
+    name: Serpentis Derelict
+  Serpentis Hulk:
+    name: Serpentis Hulk
+  Serpentis Network Hub:
+    name: Serpentis Network Hub
+  Serpentis Network Nexus:
+    name: Serpentis Network Nexus
+  Serpentis Network Node:
+    name: Serpentis Network Node
+  Serpentis Network Nucleus:
+    name: Serpentis Network Nucleus
+  Serpentis Prison_Mission:
+    name: Serpentis Prison_Mission
+  Serpentis Ship Debris:
+    name: Serpentis Ship Debris
+  Serpentis Ship Derelict:
+    name: Serpentis Ship Derelict
+  Serpentis Ship Hulk:
+    name: Serpentis Ship Hulk
+  Serpentis Ship Remains:
+    name: Serpentis Ship Remains
+  Serpentis Ship Rubble:
+    name: Serpentis Ship Rubble
+  Serpentis Ship Ruins:
+    name: Serpentis Ship Ruins
+  Serpentis Ship Waste:
+    name: Serpentis Ship Waste
+  Serpentis Ship Wreck:
+    name: Serpentis Ship Wreck
+  Serpentis Stash:
+    name: Serpentis Stash
+  Serpentis Waste:
+    name: Serpentis Waste
+  Serpentis Wreck:
+    name: Serpentis Wreck
+  Ship Carcass:
+    name: Ship Carcass
+  Ship Carcass_2:
+    name: Ship Carcass_2
+  Ship Wreckage:
+    name: Ship Wreckage
+  Ship Wreckage2:
+    name: Ship Wreckage2
+  Ship Wreckage3:
+    name: Ship Wreckage3
+  Ship Wreckage4:
+    name: Ship Wreckage4
+  Ship Wreckage5:
+    name: Ship Wreckage5
+  Ship Wreckage6:
+    name: Ship Wreckage6
+  Shuttle Wreck:
+    name: Shuttle Wreck
+  Slave Pens:
+    name: Slave Pens
+  Solray Observational Unit:
+    name: Solray Observational Unit
+  Storage Bin:
+    name: Storage Bin
+  Stranded Personnel Transport:
+    name: Stranded Personnel Transport
+  Strange Drifting Cask:
+    name: Strange Drifting Cask
+  Strange Drifting Cask_2:
+    name: Strange Drifting Cask_2
+  Strange Drifting Cask_3:
+    name: Strange Drifting Cask_3
+  Suntendi Research Outpost:
+    name: Suntendi Research Outpost
+  Suspicious Ship Wreck:
+    name: Suspicious Ship Wreck
+  Temple Stone Storage:
+    name: Temple Stone Storage
+  The Heartbreak:
+    name: The Heartbreak
+  The Scope Storage Container:
+    name: The Scope Storage Container
+  The Seven Holding Cells:
+    name: The Seven Holding Cells
+  Tikui's Stash:
+    name: Tikui's Stash
+  Tili's Brothel:
+    name: Tili's Brothel
+  Tomb of the Unknown Soldiers:
+    name: Tomb of the Unknown Soldiers
+  Training Container - Anomalies:
+    name: Training Container - Anomalies
+  Training Container - Gas:
+    name: Training Container - Gas
+  Training Container - Ore:
+    name: Training Container - Ore
+  Training Container - Salvaging:
+    name: Training Container - Salvaging
+  Urigamu_Warehouse_MISSION:
+    name: Urigamu_Warehouse_MISSION
+  Venal Regional Comms Tower:
+    name: Venal Regional Comms Tower
+  Vessel Rejuvenation Battery:
+    name: Vessel Rejuvenation Battery
+  Vidette Alignment Unit 0:
+    name: Vidette Alignment Unit 0
+  Vidette Alignment Unit 1:
+    name: Vidette Alignment Unit 1
+  Vidette Alpha Access Unit:
+    name: Vidette Alpha Access Unit
+  Vidette Beta Access Unit:
+    name: Vidette Beta Access Unit
+  Vidette Delta Access Unit:
+    name: Vidette Delta Access Unit
+  Vidette Gamma Access Unit:
+    name: Vidette Gamma Access Unit
+  Viral Stash:
+    name: Viral Stash
+  Warehouse_MISSION:
+    name: Warehouse_MISSION
+  Warehouse_MISSION2:
+    name: Warehouse_MISSION2
+  Wiyrkomi Warehouse:
+    name: Wiyrkomi Warehouse
+  Wreck W/ 23 Survivors:
+    name: Wreck W/ 23 Survivors
+  Wreckage of Isone's Ship:
+    name: Wreckage of Isone's Ship
+  Wrecked Amarr Apocalypse Battleship:
+    name: Wrecked Amarr Apocalypse Battleship
+  Wrecked Amarr Armageddon Battleship:
+    name: Wrecked Amarr Armageddon Battleship
+  Wrecked Caldari Raven Battleship:
+    name: Wrecked Caldari Raven Battleship
+  Wrecked Caldari Scorpion Battleship:
+    name: Wrecked Caldari Scorpion Battleship
+  Wrecked Gallente Dominix Battleship:
+    name: Wrecked Gallente Dominix Battleship
+  Wrecked Gallente Megathron Battleship:
+    name: Wrecked Gallente Megathron Battleship
+  Wrecked Minmatar Tempest Battleship:
+    name: Wrecked Minmatar Tempest Battleship
+  Wrecked Minmatar Typhoon Battleship:
+    name: Wrecked Minmatar Typhoon Battleship
+  Wrecked Science Vessel:
+    name: Wrecked Science Vessel
+  Wrecked Ship:
+    name: Wrecked Ship
+  Yamia Mida's Residence:
+    name: Yamia Mida's Residence
+  Zainou Biotech Convoy Wreck:
+    name: Zainou Biotech Convoy Wreck
+  colins test Hulk:
+    name: colins test Hulk
+  weapon_container:
+    name: weapon_container

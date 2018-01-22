@@ -1,7 +1,13 @@
 items:
-  True Sansha's Abomination: {}
-  True Sansha's Cannibal: {}
-  True Sansha's Devourer: {}
-  True Sansha's Horror: {}
-  True Sansha's Misshape: {}
-  True Sansha's Monster: {}
+  True Sansha's Abomination:
+    name: True Sansha's Abomination
+  True Sansha's Cannibal:
+    name: True Sansha's Cannibal
+  True Sansha's Devourer:
+    name: True Sansha's Devourer
+  True Sansha's Horror:
+    name: True Sansha's Horror
+  True Sansha's Misshape:
+    name: True Sansha's Misshape
+  True Sansha's Monster:
+    name: True Sansha's Monster

@@ -1,3 +1,5 @@
 items:
-  Encrypted Strongbox: {}
-  Special Encrypted Strongbox: {}
+  Encrypted Strongbox:
+    name: Encrypted Strongbox
+  Special Encrypted Strongbox:
+    name: Special Encrypted Strongbox

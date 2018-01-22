@@ -5,15 +5,18 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Zainou 'Beancounter' Industry BX-801
   Zainou 'Beancounter' Industry BX-802:
     Implantness: 8
     ManufacturingTimeBonus: -2
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Zainou 'Beancounter' Industry BX-802
   Zainou 'Beancounter' Industry BX-804:
     Implantness: 8
     ManufacturingTimeBonus: -4
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Zainou 'Beancounter' Industry BX-804

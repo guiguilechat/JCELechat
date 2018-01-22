@@ -1,42 +1,83 @@
 items:
-  Analog Panel: {}
-  Armor Blocks: {}
-  Auxiliary Parts: {}
-  Computer Chips: {}
-  Construction Alloy: {}
-  Current Amplifier: {}
-  Data Processor: {}
-  Electric Conduit: {}
-  Electronic Link: {}
-  Elemental Crux: {}
-  Energy Cells: {}
-  Force Cable: {}
-  Heat Depressor: {}
-  Inexplicable Drone Junk: {}
-  Internal Bulkhead: {}
-  Mainframe Bit: {}
-  Mechanic Parts: {}
-  Positron Cord: {}
-  Power Couplings: {}
-  Second-hand Parts: {}
-  Sleeper Cryo Batteries: {}
-  Sleeper Foundation Block: {}
-  Sleeper Micro Circuits: {}
-  Sleeper Split Cables: {}
-  Sleeper Virtual Energizer: {}
-  Spare Parts: {}
-  Takmahl Cohere Cord: {}
-  Takmahl Diamond Rod: {}
-  Takmahl Magnetic Slab: {}
-  Takmahl Solid Mox: {}
-  Takmahl Tri-polished Lens: {}
-  Talocan Ignition Device: {}
-  Talocan Mechanical Gears: {}
-  Talocan Molecule Binder: {}
-  Talocan Partition Plates: {}
-  Talocan Reflective Sheets: {}
-  Yan Jung Glass Scale: {}
-  Yan Jung Nano Fabric: {}
-  Yan Jung Null Shell: {}
-  Yan Jung Plenary Wire: {}
-  Yan Jung Silk Armor: {}
+  Analog Panel:
+    name: Analog Panel
+  Armor Blocks:
+    name: Armor Blocks
+  Auxiliary Parts:
+    name: Auxiliary Parts
+  Computer Chips:
+    name: Computer Chips
+  Construction Alloy:
+    name: Construction Alloy
+  Current Amplifier:
+    name: Current Amplifier
+  Data Processor:
+    name: Data Processor
+  Electric Conduit:
+    name: Electric Conduit
+  Electronic Link:
+    name: Electronic Link
+  Elemental Crux:
+    name: Elemental Crux
+  Energy Cells:
+    name: Energy Cells
+  Force Cable:
+    name: Force Cable
+  Heat Depressor:
+    name: Heat Depressor
+  Inexplicable Drone Junk:
+    name: Inexplicable Drone Junk
+  Internal Bulkhead:
+    name: Internal Bulkhead
+  Mainframe Bit:
+    name: Mainframe Bit
+  Mechanic Parts:
+    name: Mechanic Parts
+  Positron Cord:
+    name: Positron Cord
+  Power Couplings:
+    name: Power Couplings
+  Second-hand Parts:
+    name: Second-hand Parts
+  Sleeper Cryo Batteries:
+    name: Sleeper Cryo Batteries
+  Sleeper Foundation Block:
+    name: Sleeper Foundation Block
+  Sleeper Micro Circuits:
+    name: Sleeper Micro Circuits
+  Sleeper Split Cables:
+    name: Sleeper Split Cables
+  Sleeper Virtual Energizer:
+    name: Sleeper Virtual Energizer
+  Spare Parts:
+    name: Spare Parts
+  Takmahl Cohere Cord:
+    name: Takmahl Cohere Cord
+  Takmahl Diamond Rod:
+    name: Takmahl Diamond Rod
+  Takmahl Magnetic Slab:
+    name: Takmahl Magnetic Slab
+  Takmahl Solid Mox:
+    name: Takmahl Solid Mox
+  Takmahl Tri-polished Lens:
+    name: Takmahl Tri-polished Lens
+  Talocan Ignition Device:
+    name: Talocan Ignition Device
+  Talocan Mechanical Gears:
+    name: Talocan Mechanical Gears
+  Talocan Molecule Binder:
+    name: Talocan Molecule Binder
+  Talocan Partition Plates:
+    name: Talocan Partition Plates
+  Talocan Reflective Sheets:
+    name: Talocan Reflective Sheets
+  Yan Jung Glass Scale:
+    name: Yan Jung Glass Scale
+  Yan Jung Nano Fabric:
+    name: Yan Jung Nano Fabric
+  Yan Jung Null Shell:
+    name: Yan Jung Null Shell
+  Yan Jung Plenary Wire:
+    name: Yan Jung Plenary Wire
+  Yan Jung Silk Armor:
+    name: Yan Jung Silk Armor

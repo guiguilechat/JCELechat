@@ -12,6 +12,7 @@ items:
     ShipScanRange: 250000
     Slots: 1
     TechLevel: 1
+    name: BH Ship Scanner
   Practical Type-E Ship Probe:
     Cpu: 16.0
     DisallowRepeatingActivation: 1
@@ -25,6 +26,7 @@ items:
     ShipScanRange: 55000
     Slots: 1
     TechLevel: 1
+    name: Practical Type-E Ship Probe
   Ship Scanner I:
     DisallowRepeatingActivation: 1
     Duration: 2000.0
@@ -36,6 +38,7 @@ items:
     ShipScanRange: 50000
     Slots: 1
     TechLevel: 1
+    name: Ship Scanner I
   Ship Scanner II:
     CapacitorNeed: 5.0
     DisallowRepeatingActivation: 1
@@ -49,6 +52,7 @@ items:
     ShipScanRange: 60000
     Slots: 1
     TechLevel: 2
+    name: Ship Scanner II
   Speculative Ship Identifier I:
     DisallowRepeatingActivation: 1
     Duration: 1800.0
@@ -61,6 +65,7 @@ items:
     ShipScanRange: 55000
     Slots: 1
     TechLevel: 1
+    name: Speculative Ship Identifier I
   Ta3 Compact Ship Scanner:
     Cpu: 11.0
     DisallowRepeatingActivation: 1
@@ -74,6 +79,7 @@ items:
     ShipScanRange: 55000
     Slots: 1
     TechLevel: 1
+    name: Ta3 Compact Ship Scanner
   Ta3 Perfunctory Vessel Probe:
     DisallowRepeatingActivation: 1
     Duration: 1700.0
@@ -86,3 +92,4 @@ items:
     ShipScanRange: 56000
     Slots: 1
     TechLevel: 1
+    name: Ta3 Perfunctory Vessel Probe

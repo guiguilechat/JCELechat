@@ -20,6 +20,7 @@ public class TestLoad {
 	public void testLoadMetainf() {
 		MetaInf mi = MetaInf.load();
 		Assert.assertEquals(mi.name2group.get("Atron"), "ship/Frigate");
+		Assert.assertEquals(MetaInf.getItem("Atron").name, "Atron");
 	}
 
 }

@@ -3,256 +3,339 @@ items:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Abaddon Blueprint
   Abaddon Kador Edition Blueprint:
     IndustryBlueprintRank: 60.0
     TechLevel: 1
+    name: Abaddon Kador Edition Blueprint
   Abaddon Tash-Murkon Edition Blueprint:
     IndustryBlueprintRank: 60.0
     TechLevel: 1
+    name: Abaddon Tash-Murkon Edition Blueprint
   Apocalypse Blood Raider Edition Blueprint:
     TechLevel: 1
+    name: Apocalypse Blood Raider Edition Blueprint
   Apocalypse Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Apocalypse Blueprint
   Apocalypse Imperial Issue Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Apocalypse Imperial Issue Blueprint
   Apocalypse Kador Edition Blueprint:
     TechLevel: 1
+    name: Apocalypse Kador Edition Blueprint
   Apocalypse Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Apocalypse Navy Issue Blueprint
   Apocalypse Tash-Murkon Edition Blueprint:
     TechLevel: 1
+    name: Apocalypse Tash-Murkon Edition Blueprint
   Armageddon Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Armageddon Blueprint
   Armageddon Imperial Issue Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Armageddon Imperial Issue Blueprint
   Armageddon Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Armageddon Navy Issue Blueprint
   Barghest Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Barghest Blueprint
   Bhaalgorn Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Bhaalgorn Blueprint
   Dominix Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Dominix Blueprint
   Dominix Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Dominix Navy Issue Blueprint
   Dominix Quafe Edition Blueprint:
     TechLevel: 1
+    name: Dominix Quafe Edition Blueprint
   Golem Blueprint:
     IndustryBlueprintRank: 1200.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Golem Blueprint
   Golem Guristas Edition Blueprint:
     TechLevel: 1
+    name: Golem Guristas Edition Blueprint
   Golem Kaalakiota Edition Blueprint:
     TechLevel: 1
+    name: Golem Kaalakiota Edition Blueprint
   Golem Nugoeihuvi Edition Blueprint:
     TechLevel: 1
+    name: Golem Nugoeihuvi Edition Blueprint
   Hyperion Aliastra Edition Blueprint:
     IndustryBlueprintRank: 60.0
     TechLevel: 1
+    name: Hyperion Aliastra Edition Blueprint
   Hyperion Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Hyperion Blueprint
   Hyperion Inner Zone Shipping Edition Blueprint:
     IndustryBlueprintRank: 60.0
     TechLevel: 1
+    name: Hyperion Inner Zone Shipping Edition Blueprint
   Kronos Blueprint:
     IndustryBlueprintRank: 1200.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Kronos Blueprint
   Kronos Inner Zone Shipping Edition Blueprint:
     TechLevel: 1
+    name: Kronos Inner Zone Shipping Edition Blueprint
   Kronos Police Edition Blueprint:
     TechLevel: 1
+    name: Kronos Police Edition Blueprint
   Kronos Quafe Edition Blueprint:
     TechLevel: 1
+    name: Kronos Quafe Edition Blueprint
   Machariel Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Machariel Blueprint
   Maelstrom Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Maelstrom Blueprint
   Maelstrom Krusual Edition Blueprint:
     IndustryBlueprintRank: 60.0
     TechLevel: 1
+    name: Maelstrom Krusual Edition Blueprint
   Maelstrom Nefantar Edition Blueprint:
     IndustryBlueprintRank: 60.0
     TechLevel: 1
+    name: Maelstrom Nefantar Edition Blueprint
   Marshal Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Marshal Blueprint
   Megathron Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Megathron Blueprint
   Megathron Federate Issue Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Megathron Federate Issue Blueprint
   Megathron Inner Zone Shipping Edition Blueprint:
     TechLevel: 1
+    name: Megathron Inner Zone Shipping Edition Blueprint
   Megathron Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Megathron Navy Issue Blueprint
   Megathron Police Edition Blueprint:
     TechLevel: 1
+    name: Megathron Police Edition Blueprint
   Megathron Quafe Edition Blueprint:
     IndustryBlueprintRank: 60.0
     TechLevel: 1
+    name: Megathron Quafe Edition Blueprint
   Nestor Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Nestor Blueprint
   Nightmare Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Nightmare Blueprint
   Paladin Blood Raider Edition Blueprint:
     TechLevel: 1
+    name: Paladin Blood Raider Edition Blueprint
   Paladin Blueprint:
     IndustryBlueprintRank: 1200.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Paladin Blueprint
   Paladin Kador Edition Blueprint:
     TechLevel: 1
+    name: Paladin Kador Edition Blueprint
   Paladin Tash-Murkon Edition Blueprint:
     TechLevel: 1
+    name: Paladin Tash-Murkon Edition Blueprint
   Panther Blueprint:
     IndustryBlueprintRank: 1200.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Panther Blueprint
   Rattlesnake Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Rattlesnake Blueprint
   Rattlesnake Victory Edition Blueprint:
     IndustryBlueprintRank: 60.0
     TechLevel: 1
+    name: Rattlesnake Victory Edition Blueprint
   Raven Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Raven Blueprint
   Raven Guristas Edition Blueprint:
     TechLevel: 1
+    name: Raven Guristas Edition Blueprint
   Raven Kaalakiota Edition Blueprint:
     TechLevel: 1
+    name: Raven Kaalakiota Edition Blueprint
   Raven Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Raven Navy Issue Blueprint
   Raven Nugoeihuvi Edition Blueprint:
     TechLevel: 1
+    name: Raven Nugoeihuvi Edition Blueprint
   Redeemer Blueprint:
     IndustryBlueprintRank: 1200.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Redeemer Blueprint
   Rokh Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Rokh Blueprint
   Rokh Nugoeihuvi Edition Blueprint:
     IndustryBlueprintRank: 60.0
     TechLevel: 1
+    name: Rokh Nugoeihuvi Edition Blueprint
   Rokh Wiyrkomi Edition Blueprint:
     IndustryBlueprintRank: 60.0
     TechLevel: 1
+    name: Rokh Wiyrkomi Edition Blueprint
   Scorpion Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Scorpion Blueprint
   Scorpion Ishukone Watch Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Scorpion Ishukone Watch Blueprint
   Scorpion Navy Issue Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Scorpion Navy Issue Blueprint
   Sin Blueprint:
     IndustryBlueprintRank: 1200.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Sin Blueprint
   Tempest Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Tempest Blueprint
   Tempest Fleet Issue Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Tempest Fleet Issue Blueprint
   Tempest Justice Edition Blueprint:
     TechLevel: 1
+    name: Tempest Justice Edition Blueprint
   Tempest Krusual Edition Blueprint:
     TechLevel: 1
+    name: Tempest Krusual Edition Blueprint
   Tempest Nefantar Edition Blueprint:
     TechLevel: 1
+    name: Tempest Nefantar Edition Blueprint
   Tempest Tournament Issue TEST Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Tempest Tournament Issue TEST Blueprint
   Typhoon Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Typhoon Blueprint
   Typhoon Fleet Issue Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Typhoon Fleet Issue Blueprint
   Vargur Blueprint:
     IndustryBlueprintRank: 1200.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Vargur Blueprint
   Vargur Justice Edition Blueprint:
     TechLevel: 1
+    name: Vargur Justice Edition Blueprint
   Vargur Krusual Edition Blueprint:
     TechLevel: 1
+    name: Vargur Krusual Edition Blueprint
   Vargur Nefantar Edition Blueprint:
     TechLevel: 1
+    name: Vargur Nefantar Edition Blueprint
   Vindicator Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    name: Vindicator Blueprint
   Widow Blueprint:
     IndustryBlueprintRank: 1200.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    name: Widow Blueprint
   万王宝座级YC117年特别版蓝图:
     TechLevel: 1
+    name: 万王宝座级YC117年特别版蓝图
   乌鸦级YC117年特别版蓝图:
     TechLevel: 1
+    name: 乌鸦级YC117年特别版蓝图
   响尾蛇级YC117年特别版蓝图:
     TechLevel: 1
+    name: 响尾蛇级YC117年特别版蓝图
   地狱天使级YC117年特别版蓝图:
     TechLevel: 1
+    name: 地狱天使级YC117年特别版蓝图
   多米尼克斯级YC117年特别版蓝图:
     TechLevel: 1
+    name: 多米尼克斯级YC117年特别版蓝图
   末日沙场级YC117年特别版蓝图:
     TechLevel: 1
+    name: 末日沙场级YC117年特别版蓝图
   灾难级YC117年特别版蓝图:
     TechLevel: 1
+    name: 灾难级YC117年特别版蓝图
   马克瑞级YC117年特别版蓝图:
     TechLevel: 1
+    name: 马克瑞级YC117年特别版蓝图

@@ -2,24 +2,32 @@ items:
   Broadcast Node:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
+    name: Broadcast Node
   Integrity Response Drones:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
+    name: Integrity Response Drones
   Nano-Factory:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
+    name: Nano-Factory
   Organic Mortar Applicators:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
+    name: Organic Mortar Applicators
   Recursive Computing Module:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
+    name: Recursive Computing Module
   Self-Harmonizing Power Core:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
+    name: Self-Harmonizing Power Core
   Sterile Conduits:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
+    name: Sterile Conduits
   Wetware Mainframe:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
+    name: Wetware Mainframe

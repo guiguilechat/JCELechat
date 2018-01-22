@@ -70,6 +70,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Naga
   Oracle:
     Agility: 0.4950000047683716
     ArmorEmDamageResonance: 0.5
@@ -141,6 +142,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Oracle
   Talos:
     Agility: 0.44999998807907104
     ArmorEmDamageResonance: 0.5
@@ -214,6 +216,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Talos
   Tornado:
     Agility: 0.4749999940395355
     ArmorEmDamageResonance: 0.4000000059604645
@@ -285,3 +288,4 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
+    name: Tornado

@@ -11,6 +11,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 50
+    name: Standup XL-Set Integrated Fighter and PD Network I
   Standup XL-Set Integrated Fighter and PD Network II:
     CanFitShipGroup01: 1657
     CapNeedBonus: -35
@@ -23,3 +24,4 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 100
+    name: Standup XL-Set Integrated Fighter and PD Network II

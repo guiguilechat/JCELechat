@@ -1,22 +1,43 @@
 items:
-  Centus Beast Lord: {}
-  Centus Dark Lord: {}
-  Centus Dread Lord: {}
-  Centus Lord: {}
-  Centus Mutant Lord: {}
-  Centus Overlord: {}
-  Centus Plague Lord: {}
-  Centus Savage Lord: {}
-  Centus Slave Lord: {}
-  Centus Tyrant: {}
-  Sansha's Tyrant Elite: {}
-  True Centus Beast Lord: {}
-  True Centus Dark Lord: {}
-  True Centus Dread Lord: {}
-  True Centus Lord: {}
-  True Centus Mutant Lord: {}
-  True Centus Overlord: {}
-  True Centus Plague Lord: {}
-  True Centus Savage Lord: {}
-  True Centus Slave Lord: {}
-  True Centus Tyrant: {}
+  Centus Beast Lord:
+    name: Centus Beast Lord
+  Centus Dark Lord:
+    name: Centus Dark Lord
+  Centus Dread Lord:
+    name: Centus Dread Lord
+  Centus Lord:
+    name: Centus Lord
+  Centus Mutant Lord:
+    name: Centus Mutant Lord
+  Centus Overlord:
+    name: Centus Overlord
+  Centus Plague Lord:
+    name: Centus Plague Lord
+  Centus Savage Lord:
+    name: Centus Savage Lord
+  Centus Slave Lord:
+    name: Centus Slave Lord
+  Centus Tyrant:
+    name: Centus Tyrant
+  Sansha's Tyrant Elite:
+    name: Sansha's Tyrant Elite
+  True Centus Beast Lord:
+    name: True Centus Beast Lord
+  True Centus Dark Lord:
+    name: True Centus Dark Lord
+  True Centus Dread Lord:
+    name: True Centus Dread Lord
+  True Centus Lord:
+    name: True Centus Lord
+  True Centus Mutant Lord:
+    name: True Centus Mutant Lord
+  True Centus Overlord:
+    name: True Centus Overlord
+  True Centus Plague Lord:
+    name: True Centus Plague Lord
+  True Centus Savage Lord:
+    name: True Centus Savage Lord
+  True Centus Slave Lord:
+    name: True Centus Slave Lord
+  True Centus Tyrant:
+    name: True Centus Tyrant

@@ -16,6 +16,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Ahremen's Modified Heavy Energy Nosferatu
   Ammatar Navy Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 12000
@@ -33,6 +34,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Ammatar Navy Heavy Energy Nosferatu
   Ammatar Navy Medium Energy Nosferatu:
     Duration: 5000.0
     FalloffEffectiveness: 6000
@@ -50,6 +52,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Ammatar Navy Medium Energy Nosferatu
   Ammatar Navy Small Energy Nosferatu:
     Duration: 2500.0
     FalloffEffectiveness: 3000
@@ -67,6 +70,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Ammatar Navy Small Energy Nosferatu
   Brokara's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 13000
@@ -84,6 +88,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Brokara's Modified Heavy Energy Nosferatu
   Capital Energy Nosferatu I:
     Cpu: 100.0
     Duration: 20000.0
@@ -101,6 +106,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Capital Energy Nosferatu I
   Capital Energy Nosferatu II:
     Cpu: 100.0
     Duration: 20000.0
@@ -119,6 +125,7 @@ items:
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Capital Energy Nosferatu II
   Capital Ghoul Compact Energy Nosferatu:
     Cpu: 80.0
     Duration: 20000.0
@@ -137,6 +144,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Capital Ghoul Compact Energy Nosferatu
   Capital Knave Scoped Energy Nosferatu:
     Cpu: 100.0
     Duration: 20000.0
@@ -155,6 +163,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Capital Knave Scoped Energy Nosferatu
   Chelm's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 16000
@@ -172,6 +181,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Chelm's Modified Heavy Energy Nosferatu
   Corpii A-Type Small Energy Nosferatu:
     Duration: 2500.0
     FalloffEffectiveness: 4500
@@ -189,6 +199,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Corpii A-Type Small Energy Nosferatu
   Corpii B-Type Small Energy Nosferatu:
     Duration: 2500.0
     FalloffEffectiveness: 4000
@@ -206,6 +217,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Corpii B-Type Small Energy Nosferatu
   Corpii C-Type Small Energy Nosferatu:
     Duration: 2500.0
     FalloffEffectiveness: 3500
@@ -223,6 +235,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Corpii C-Type Small Energy Nosferatu
   Corpum A-Type Medium Energy Nosferatu:
     Duration: 5000.0
     FalloffEffectiveness: 8250
@@ -240,6 +253,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Corpum A-Type Medium Energy Nosferatu
   Corpum B-Type Medium Energy Nosferatu:
     Duration: 5000.0
     FalloffEffectiveness: 7500
@@ -257,6 +271,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Corpum B-Type Medium Energy Nosferatu
   Corpum C-Type Medium Energy Nosferatu:
     Duration: 5000.0
     FalloffEffectiveness: 6750
@@ -274,6 +289,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Corpum C-Type Medium Energy Nosferatu
   Corpus A-Type Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 15000
@@ -291,6 +307,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Corpus A-Type Heavy Energy Nosferatu
   Corpus B-Type Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 14000
@@ -308,6 +325,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Corpus B-Type Heavy Energy Nosferatu
   Corpus C-Type Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 13000
@@ -325,6 +343,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Corpus C-Type Heavy Energy Nosferatu
   Corpus X-Type Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 16000
@@ -342,6 +361,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Corpus X-Type Heavy Energy Nosferatu
   Dark Blood Capital Energy Nosferatu:
     Cpu: 100.0
     Duration: 20000.0
@@ -361,6 +381,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dark Blood Capital Energy Nosferatu
   Dark Blood Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 12000
@@ -378,6 +399,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dark Blood Heavy Energy Nosferatu
   Dark Blood Medium Energy Nosferatu:
     Duration: 5000.0
     FalloffEffectiveness: 6000
@@ -395,6 +417,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dark Blood Medium Energy Nosferatu
   Dark Blood Small Energy Nosferatu:
     Duration: 2500.0
     FalloffEffectiveness: 3000
@@ -412,6 +435,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Dark Blood Small Energy Nosferatu
   Draclira's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 16000
@@ -429,6 +453,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Draclira's Modified Heavy Energy Nosferatu
   E5 Prototype Energy Vampire:
     Duration: 2500.0
     FalloffEffectiveness: 2000
@@ -445,6 +470,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: E5 Prototype Energy Vampire
   E50 Prototype Energy Vampire:
     Cpu: 25.0
     Duration: 5000.0
@@ -462,6 +488,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: E50 Prototype Energy Vampire
   E500 Prototype Energy Vampire:
     Cpu: 50.0
     Duration: 10000.0
@@ -479,6 +506,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: E500 Prototype Energy Vampire
   Heavy 'Vrykolakas' Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 10000
@@ -496,6 +524,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Heavy 'Vrykolakas' Energy Nosferatu
   Heavy Diminishing Power System Drain I:
     Cpu: 50.0
     Duration: 10000.0
@@ -513,6 +542,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Heavy Diminishing Power System Drain I
   Heavy Energy Nosferatu I:
     Duration: 10000.0
     FalloffEffectiveness: 8000
@@ -528,6 +558,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Heavy Energy Nosferatu I
   Heavy Energy Nosferatu II:
     Duration: 10000.0
     FalloffEffectiveness: 10000
@@ -544,6 +575,7 @@ items:
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Heavy Energy Nosferatu II
   Heavy Ghoul Compact Energy Nosferatu:
     Cpu: 40.0
     Duration: 10000.0
@@ -561,6 +593,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Heavy Ghoul Compact Energy Nosferatu
   Heavy Knave Scoped Energy Nosferatu:
     Cpu: 50.0
     Duration: 10000.0
@@ -578,6 +611,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Heavy Knave Scoped Energy Nosferatu
   Imperial Navy Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 12000
@@ -595,6 +629,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Imperial Navy Heavy Energy Nosferatu
   Imperial Navy Medium Energy Nosferatu:
     Duration: 5000.0
     FalloffEffectiveness: 6000
@@ -612,6 +647,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Imperial Navy Medium Energy Nosferatu
   Imperial Navy Small Energy Nosferatu:
     Duration: 2500.0
     FalloffEffectiveness: 3000
@@ -629,6 +665,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Imperial Navy Small Energy Nosferatu
   Medium 'Strigoi' Energy Nosferatu:
     Duration: 5000.0
     FalloffEffectiveness: 5000
@@ -646,6 +683,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium 'Strigoi' Energy Nosferatu
   Medium Diminishing Power System Drain I:
     Cpu: 25.0
     Duration: 5000.0
@@ -663,6 +701,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium Diminishing Power System Drain I
   Medium Energy Nosferatu I:
     Duration: 5000.0
     FalloffEffectiveness: 4000
@@ -678,6 +717,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium Energy Nosferatu I
   Medium Energy Nosferatu II:
     Duration: 5000.0
     FalloffEffectiveness: 5000
@@ -694,6 +734,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Medium Energy Nosferatu II
   Medium Ghoul Compact Energy Nosferatu:
     Cpu: 20.0
     Duration: 5000.0
@@ -711,6 +752,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium Ghoul Compact Energy Nosferatu
   Medium Knave Scoped Energy Nosferatu:
     Cpu: 25.0
     Duration: 5000.0
@@ -728,6 +770,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Medium Knave Scoped Energy Nosferatu
   Raysere's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 14000
@@ -745,6 +788,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Raysere's Modified Heavy Energy Nosferatu
   Selynne's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 14000
@@ -762,6 +806,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Selynne's Modified Heavy Energy Nosferatu
   Shaqil's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 16000
@@ -779,6 +824,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Shaqil's Modified Heavy Energy Nosferatu
   Small 'Upir' Energy Nosferatu:
     Duration: 2500.0
     FalloffEffectiveness: 2500
@@ -796,6 +842,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small 'Upir' Energy Nosferatu
   Small Diminishing Power System Drain I:
     Duration: 2500.0
     FalloffEffectiveness: 2000
@@ -812,6 +859,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small Diminishing Power System Drain I
   Small Energy Nosferatu I:
     Duration: 2500.0
     FalloffEffectiveness: 2000
@@ -827,6 +875,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small Energy Nosferatu I
   Small Energy Nosferatu II:
     Duration: 2500.0
     FalloffEffectiveness: 2500
@@ -843,6 +892,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    name: Small Energy Nosferatu II
   Small Ghoul Compact Energy Nosferatu:
     Cpu: 12.0
     Duration: 2500.0
@@ -860,6 +910,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small Ghoul Compact Energy Nosferatu
   Small Knave Scoped Energy Nosferatu:
     Duration: 2500.0
     FalloffEffectiveness: 2250
@@ -876,6 +927,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Small Knave Scoped Energy Nosferatu
   Tairei's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 13000
@@ -893,6 +945,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Tairei's Modified Heavy Energy Nosferatu
   True Sansha Capital Energy Nosferatu:
     Cpu: 100.0
     Duration: 20000.0
@@ -912,6 +965,7 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: True Sansha Capital Energy Nosferatu
   True Sansha Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 12000
@@ -929,6 +983,7 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: True Sansha Heavy Energy Nosferatu
   True Sansha Medium Energy Nosferatu:
     Duration: 5000.0
     FalloffEffectiveness: 6000
@@ -946,6 +1001,7 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: True Sansha Medium Energy Nosferatu
   True Sansha Small Energy Nosferatu:
     Duration: 2500.0
     FalloffEffectiveness: 3000
@@ -963,6 +1019,7 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: True Sansha Small Energy Nosferatu
   Vizan's Modified Heavy Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 15000
@@ -980,3 +1037,4 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    name: Vizan's Modified Heavy Energy Nosferatu

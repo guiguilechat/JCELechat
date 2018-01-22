@@ -1,500 +1,999 @@
 items:
-  '''Abatis'' Basic Ferroscale Plates': {}
-  '''Auga'' Complex Precision Enhancer': {}
-  '''Azimuth'' Basic PG Upgrade': {}
-  '''Bastion'' Enhanced Ferroscale Plates': {}
-  '''Bond'' Enhanced Shield Energizer': {}
-  '''Brille'' Enhanced Reactive Plates': {}
-  '''Cascade'' Complex Light Damage Modifier': {}
-  '''Castra'' Complex Ferroscale Plates': {}
-  '''Cataract'' Basic Profile Dampener': {}
-  '''Chord'' Basic Cardiac Stimulant': {}
-  '''Cirrus'' Calibration Subsystem': {}
-  '''Contagion'' Enhanced Codebreaker': {}
-  '''Cuticle'' Complex Reactive Plates': {}
-  '''Debris'' Basic Sidearm Damage Modifier': {}
-  '''Delphi'' Tracking CPU': {}
-  '''Diaemus'' Enhanced Precision Enhancer': {}
-  '''Dimension'' Enhanced CPU Upgrade': {}
-  '''Echo'' Basic Light Damage Modifier': {}
-  '''Fragment'' Enhanced Sidearm Damage Modifier': {}
-  '''Goliath'' Basic Armor Plates': {}
-  '''Graft'' Complex Shield Energizer': {}
-  '''Grid'' Complex Power Diagnostics Unit': {}
-  '''Helios'' Heat Sink': {}
-  '''Helix'' Enhanced PG Upgrade': {}
-  '''Hercules'' Complex Armor Plates': {}
-  '''Icarus'' Basic Kinetic Catalyzer': {}
-  '''Impact'' Enhanced Heavy Damage Modifier': {}
-  '''Impulse'' Enhanced Shield Extender': {}
-  '''Iris'' Complex Kinetic Catalyzer': {}
-  '''Kinesis'' Basic Shield Extender': {}
-  '''Macro'' Enhanced Cardiac Stimulant': {}
-  '''Membrane'' Complex Cardiac Regulator': {}
-  '''Menhir'' Enhanced Armor Repairer': {}
-  '''Mercury'' Defensive Countermeasure': {}
-  '''Mercury'' Enhanced Kinetic Catalyzer': {}
-  '''Miosis'' Complex Profile Damper': {}
-  '''Monolith'' Basic Armor Repairer': {}
-  '''Nacre'' Basic Reactive Plates': {}
-  '''Neuron'' Basic Cardiac Regulator': {}
-  '''Node'' Enhanced Power Diagnostics Unit': {}
-  '''Nucleus'' Enhanced Cardiac Regulator': {}
-  '''Nyctalus'' Enhanced Profile Damper': {}
-  '''Obelisk'' Complex Armor Repairer': {}
-  '''Oculus'' Basic Range Amplifier': {}
-  '''Origin'' Enhanced Shield Regulator': {}
-  '''Pandemic'' Complex Codebreaker': {}
-  '''Pathogen'' Basic Codebreaker': {}
-  '''Polaris'' Complex PG Upgrade': {}
-  '''Ricochet'' Enhanced Light Damage Modifier': {}
-  '''Samson'' Enhanced Armor Plates': {}
-  '''Sanction'' Enhanced Myofibril Stimulant': {}
-  '''Scalar'' Basic CPU Upgrade': {}
-  '''Seismic'' Complex Heavy Damage Modifier': {}
-  '''Shaft'' Basic Shield Regulator': {}
-  '''Sheath'' Basic Myofibril Stimulant': {}
-  '''Sjon'' Complex Range Amplifer': {}
-  '''Sliver'' Complex Sidearm Damage Modifier': {}
-  '''Spark'' Enhanced Shield Recharger': {}
-  '''Spiral'' Complex Cardiac Stimulant': {}
-  '''Static'' Complex Shield Recharger': {}
-  '''Stimulus'' Complex Shield Extender': {}
-  '''Synapse'' Basic Shield Recharger': {}
-  '''Terminal'' Basic Power Diagnostics Unit': {}
-  '''Tether'' Complex Shield Regulator': {}
-  '''Tremor'' Basic Heavy Damage Modifier': {}
-  '''Trojan'' Fire Control System': {}
-  '''Ultrasonic'' Enhanced Range Amplifier': {}
-  '''Utopia'' Magnetic Field Stabilizer': {}
-  '''Vector'' Complex CPU Upgrade': {}
-  '''Vigil'' Complex Myofibril Stimulant': {}
-  '''Visio'' Basic Precision Enhancer': {}
-  '''Weld'' Basic Shield Energizer': {}
-  1.5dn Myofibril Stimulant: {}
-  120mm Reinforced Type-A Plates: {}
-  180mm Reinforced Nanofibre Plates: {}
-  180mm Reinforced Polycrystalline Plates: {}
-  180mm Reinforced Steel Plates: {}
-  180mm Reinforced Type-A Plates: {}
-  60mm Reinforced Type-A Plates: {}
-  Advanced Countermeasure: {}
-  Advanced Precision Enhancer: {}
-  'Altered M-Type Nanofiber ': {}
-  Asynchronous Fire Control: {}
-  Basic 120mm Armor Plates: {}
-  Basic 60mm Armor Plates: {}
-  Basic Afterburner: {}
-  Basic Armor Hardener: {}
-  Basic Armor Plates: {}
-  Basic Armor Repairer: {}
-  Basic Auto-Detonator: {}
-  Basic Blaster Ammo Expansion Unit: {}
-  Basic Blaster Damage Amplifier: {}
-  Basic CPU Upgrade: {}
-  Basic CPU Upgrade Unit: {}
-  Basic Cardiac Regulator: {}
-  Basic Cardiac Stimulant: {}
-  Basic Codebreaker: {}
-  Basic Countermeasure: {}
-  Basic Dispersion Stabilizer: {}
-  Basic Ferroscale Plates: {}
-  Basic Fuel Injector: {}
-  Basic Heat Sink: {}
-  Basic Heavy Armor Repairer: {}
-  Basic Heavy Damage Modifier: {}
-  Basic Heavy Shield Booster: {}
-  Basic Heavy Shield Extender: {}
-  Basic Kinetic Catalyzer: {}
-  Basic Light Armor Repairer: {}
-  Basic Light Damage Modifier: {}
-  Basic Light Shield Booster: {}
-  Basic Light Shield Extender: {}
-  Basic Missile Ammo Expansion Unit: {}
-  Basic Missile Damage Amplifier: {}
-  Basic Mobile CRU: {}
-  Basic Myofibril Stimulant: {}
-  Basic Overdrive Unit: {}
-  Basic PG Upgrade: {}
-  Basic Power Diagnostics Unit: {}
-  Basic Powergrid Upgrade: {}
-  Basic Precision Enhancer: {}
-  Basic Profile Dampener: {}
-  Basic Railgun Ammo Expansion Unit: {}
-  Basic Railgun Damage Amplifer: {}
-  Basic Range Amplifier: {}
-  Basic Reactive Plates: {}
-  Basic Scanner: {}
-  Basic Shield Energizer: {}
-  Basic Shield Extender: {}
-  Basic Shield Hardener: {}
-  Basic Shield Recharger: {}
-  Basic Shield Regulator: {}
-  Basic Sidearm Damage Modifier: {}
-  Beta Power Diagnostic System: {}
-  CN-V Light Damage Modifier: {}
-  Calibration Subsystem: {}
-  Complex 120mm Armor Plates: {}
-  Complex 60mm Armor Plates: {}
-  Complex Afterburner: {}
-  Complex Armor Hardener: {}
-  Complex Armor Plates: {}
-  Complex Armor Repairer: {}
-  Complex Blaster Ammo Expansion Unit: {}
-  Complex Blaster Damage Amplifier: {}
-  Complex CPU Upgrade: {}
-  Complex CPU Upgrade Unit: {}
-  Complex Cardiac Regulator: {}
-  Complex Cardiac Stimulant: {}
-  Complex Codebreaker: {}
-  Complex Dispersion Stabilizer: {}
-  Complex Ferroscale Plates: {}
-  Complex Fuel Injector: {}
-  Complex Heat Sink: {}
-  Complex Heavy Armor Repairer: {}
-  Complex Heavy Damage Modifier: {}
-  Complex Heavy Shield Booster: {}
-  Complex Heavy Shield Extender: {}
-  Complex Kinetic Catalyzer: {}
-  Complex Light Armor Repairer: {}
-  Complex Light Damage Modifier: {}
-  Complex Light Shield Booster: {}
-  Complex Light Shield Extender: {}
-  Complex Missile Ammo Expansion Unit: {}
-  Complex Missile Damage Amplifier: {}
-  Complex Myofibril Stimulant: {}
-  Complex Overdrive Unit: {}
-  Complex PG Upgrade: {}
-  Complex Power Diagnostics Unit: {}
-  Complex Powergrid Upgrade: {}
-  Complex Precision Enhancer: {}
-  Complex Profile Dampener: {}
-  Complex Railgun Ammo Expansion Unit: {}
-  Complex Railgun Damage Amplifer: {}
-  Complex Range Amplifier: {}
-  Complex Reactive Plates: {}
-  Complex Scanner: {}
-  Complex Shield Energizer: {}
-  Complex Shield Extender: {}
-  Complex Shield Hardener: {}
-  Complex Shield Recharger: {}
-  Complex Shield Regulator: {}
-  Complex Sidearm Damage Modifier: {}
-  Conscript Heat Sink: {}
-  Conscript Tracking Computer I: {}
-  Conscript Tracking Computer II: {}
-  Conscript Tracking Enhancer I: {}
-  Conscript Tracking Enhancer II: {}
-  Crisis Damage Control Unit: {}
-  Damage Control Unit I: {}
-  Delta-Nought Tracking Mode: {}
-  Electron Damage Control Unit: {}
-  Energized Nanite Plating: {}
-  Energized Plating I: {}
-  Enhanced 120mm Armor Plates: {}
-  Enhanced 60mm Armor Plates: {}
-  Enhanced Afterburner: {}
-  Enhanced Armor Hardener: {}
-  Enhanced Armor Plates: {}
-  Enhanced Armor Repairer: {}
-  Enhanced Blaster Ammo Expansion Unit: {}
-  Enhanced Blaster Damage Amplifier: {}
-  Enhanced CPU Upgrade: {}
-  Enhanced CPU Upgrade Unit: {}
-  Enhanced Cardiac Regulator: {}
-  Enhanced Cardiac Stimulant: {}
-  Enhanced Codebreaker: {}
-  Enhanced Dispersion Stabilizer: {}
-  Enhanced Ferroscale Plates: {}
-  Enhanced Fuel Injector: {}
-  Enhanced Heat Sink: {}
-  Enhanced Heavy Armor Repairer: {}
-  Enhanced Heavy Damage Modifier: {}
-  Enhanced Heavy Shield Booster: {}
-  Enhanced Heavy Shield Extender: {}
-  Enhanced Kinetic Catalyzer: {}
-  Enhanced Light Armor Repairer: {}
-  Enhanced Light Damage Modifier: {}
-  Enhanced Light Shield Booster: {}
-  Enhanced Light Shield Extender: {}
-  Enhanced Missile Ammo Expansion Unit: {}
-  Enhanced Missile Damage Amplifier: {}
-  Enhanced Myofibril Stimulant: {}
-  Enhanced Overdrive Unit: {}
-  Enhanced PG Upgrade: {}
-  Enhanced Power Diagnostics Unit: {}
-  Enhanced Powergrid Upgrade: {}
-  Enhanced Profile Dampener: {}
-  Enhanced Railgun Ammo Expansion Unit: {}
-  Enhanced Railgun Damage Amplifer: {}
-  Enhanced Range Amplifier: {}
-  Enhanced Reactive Plates: {}
-  Enhanced Scanner: {}
-  Enhanced Shield Energizer: {}
-  Enhanced Shield Extender: {}
-  Enhanced Shield Hardener: {}
-  Enhanced Shield Recharger: {}
-  Enhanced Shield Regulator: {}
-  Enhanced Sidearm Damage Modifier: {}
-  F-S3 Regolith Shield Extender: {}
-  F-S3 Shield Amplifier: {}
-  F45 Peripheral Damage Control Unit: {}
-  Federation Basic Armor Plates: {}
-  Federation Basic Armor Repairer: {}
-  Federation Basic CPU Upgrade: {}
-  Federation Basic Codebreaker: {}
-  Federation Basic Kinetic Catalyzer: {}
-  Federation Basic PG Upgrade: {}
-  Federation Complex Armor Plates: {}
-  Federation Complex Armor Repairer: {}
-  Federation Complex CPU Upgrade: {}
-  Federation Complex Codebreaker: {}
-  Federation Complex Kinetic Catalyzer: {}
-  Federation Complex PG Upgrade: {}
-  Federation Enhanced Armor Plates: {}
-  Federation Enhanced Armor Repairer: {}
-  Federation Enhanced CPU Upgrade: {}
-  Federation Enhanced Codebreaker: {}
-  Federation Enhanced Kinetic Catalyzer: {}
-  Federation Enhanced PG Upgrade: {}
-  Fire Control System: {}
-  Fire Control System II: {}
-  G-11 Nonlinear Tracking Processor: {}
-  Gadolinium Array: {}
-  HEP Metabolic Enhancer: {}
-  HP Multiphasic Bolt Array I: {}
-  HP Muon Coil Bolt Array I: {}
-  HT Insulated Stabilizer Array: {}
-  Heavy Automated Armor Repair Unit: {}
-  Heavy C5-L Shield Booster: {}
-  Heavy C5-R Shield Transporter: {}
-  Heavy Clarity Ward Shield Transporter: {}
-  Heavy Converse Shield Transporter: {}
-  Heavy F-S5 Regolith Shield Extender: {}
-  Heavy Payload Control System I: {}
-  Heavy Payload Control System II: {}
-  Heavy Remote Armor Repair Unit I: {}
-  Heavy Remote Automated Armor Repair Unit: {}
-  Heavy Remote Efficient Armor Repair Unit: {}
-  Heavy Remote IG-R Polarized Armor Regenerator: {}
-  Heavy Shield Transporter I: {}
-  Imperial Basic Armor Plates: {}
-  Imperial Basic Armor Repairer: {}
-  Imperial Basic CPU Upgrade: {}
-  Imperial Basic Cardiac Regulator: {}
-  Imperial Basic Heavy Damage Modifier: {}
-  Imperial Basic PG Upgrade: {}
-  Imperial Complex Armor Plates: {}
-  Imperial Complex Armor Repairer: {}
-  Imperial Complex CPU Upgrade: {}
-  Imperial Complex Cardiac Regulator: {}
-  Imperial Complex Heavy Damage Modifier: {}
-  Imperial Complex PG Upgrade: {}
-  Imperial Enhanced Armor Plates: {}
-  Imperial Enhanced Armor Repairer: {}
-  Imperial Enhanced CPU Upgrade: {}
-  Imperial Enhanced Cardiac Regulator: {}
-  Imperial Enhanced Heavy Damage Modifier: {}
-  Imperial Enhanced PG Upgrade: {}
-  Inertia Test Plates: {}
-  Insulated Magnetic Field Stabilizer: {}
-  Krin’s LEX -71 Damage Modifier: {}
-  LP Muon Coil Bolt Array I: {}
-  LT Insulated Stabilizer Array: {}
-  Light Automated Armor Repair Unit: {}
-  Light C3-L Shield Booster: {}
-  Light C3-R Shield Transporter: {}
-  Light Clarity Ward Shield Transporter: {}
-  Light Converse Shield Transporter: {}
-  Light Remote Armor Repair Unit I: {}
-  Light Remote Automated Armor Repair Unit: {}
-  Light Remote Efficient Armor Repair Unit: {}
-  Light Remote IG-R Polarized Armor Regenerator: {}
-  Light Shield Transporter I: {}
-  Local Power Diagnostic System: {}
-  Logistics LAV Mass Remote Repairer (S): {}
-  M42 Shield Regenerator: {}
-  Magnetic Field Stabilizer: {}
-  Militia 120mm Armor Plates: {}
-  Militia 120mm Armor Plates Blueprint: {}
-  Militia 180mm Reinforced Steel Plates: {}
-  Militia 180mm Reinforced Steel Plates Blueprint: {}
-  Militia 60mm Armor Plates: {}
-  Militia 60mm Armor Plates Blueprint: {}
-  Militia Active Heat Sink: {}
-  Militia Afterburner: {}
-  Militia Armor Hardener: {}
-  Militia Armor Plates: {}
-  Militia Armor Plates Blueprint: {}
-  Militia Armor Repairer: {}
-  Militia Armor Repairer Blueprint: {}
-  Militia Blaster Ammo Expansion Unit: {}
-  Militia Blaster Damage Amplifier: {}
-  Militia Blaster Damage Amplifier Blueprint: {}
-  Militia CPU Upgrade: {}
-  Militia CPU Upgrade Blueprint: {}
-  Militia CPU Upgrade Unit: {}
-  Militia CPU Upgrade Unit Blueprint: {}
-  Militia Cardiac Regulator: {}
-  Militia Cardiac Regulator Blueprint: {}
-  Militia Cardiac Stimulant: {}
-  Militia Cardiac Stimulant Blueprint: {}
-  Militia Codebreaker: {}
-  Militia Codebreaker Blueprint: {}
-  Militia Damage Control Unit: {}
-  Militia Energized Plating: {}
-  Militia Fuel Injector: {}
-  Militia Heat Sink: {}
-  Militia Heavy Armor Repairer: {}
-  Militia Heavy Armor Repairer Blueprint: {}
-  Militia Heavy Damage Modifier: {}
-  Militia Heavy Damage Modifier Blueprint: {}
-  Militia Heavy Shield Booster: {}
-  Militia Heavy Shield Booster Blueprint: {}
-  Militia Heavy Shield Extender: {}
-  Militia Heavy Shield Extender Blueprint: {}
-  Militia Kinetic Catalyzer: {}
-  Militia Kinetic Catalyzer Blueprint: {}
-  Militia Light Armor Repairer: {}
-  Militia Light Armor Repairer Blueprint: {}
-  Militia Light Damage Modifier: {}
-  Militia Light Damage Modifier Blueprint: {}
-  Militia Light Shield Booster: {}
-  Militia Light Shield Booster Blueprint: {}
-  'Militia Light Shield Extender ': {}
-  Militia Light Shield Extender Blueprint: {}
-  Militia Missile Ammo Expansion Unit: {}
-  Militia Missile Damage Amplifier: {}
-  Militia Missile Damage Amplifier Blueprint: {}
-  Militia Mobile CRU: {}
-  Militia Mobile CRU Blueprint: {}
-  Militia Myofibril Stimulant: {}
-  Militia Myofibril Stimulant Blueprint: {}
-  Militia Overdrive: {}
-  Militia PG Upgrade: {}
-  Militia PG Upgrade Blueprint: {}
-  Militia Power Diagnostic System: {}
-  Militia Power Diagnostic System Blueprint: {}
-  Militia Powergrid Upgrade: {}
-  Militia Powergrid Upgrade Blueprint: {}
-  Militia Precision Enhancer: {}
-  Militia Precision Enhancer Blueprint: {}
-  Militia Profile Dampener: {}
-  Militia Profile Dampener Blueprint: {}
-  Militia Railgun Ammo Expansion Unit: {}
-  Militia Railgun Damage Amplifier: {}
-  Militia Range Amplifier: {}
-  Militia Range Amplifier Blueprint: {}
-  Militia Scanner: {}
-  Militia Shield Extender: {}
-  Militia Shield Extender Blueprint: {}
-  Militia Shield Hardener: {}
-  Militia Shield Recharger: {}
-  Militia Shield Recharger Blueprint: {}
-  Militia Shield Regenerator: {}
-  Militia Shield Regenerator Blueprint: {}
-  Militia Shield Regulator: {}
-  Militia Shield Regulator Blueprint: {}
-  Militia Shield Resistance Amplifier: {}
-  Militia Sidearm Damage Modifier: {}
-  Militia Sidearm Damage Modifier Blueprint: {}
-  Militia Spool Reduction Unit: {}
-  Militia Tracking CPU: {}
-  Militia Tracking Enhancement: {}
-  Modified Extruded Heat Sink: {}
-  Modified P-Type Nanofiber: {}
-  N-Type Energized Plating: {}
-  Nanofiber Structure I: {}
-  Nonlinear Flux Stabilizer: {}
-  Overdrive: {}
-  'Power Diagnostic System I ': {}
-  Propulsion Test Plates: {}
-  Quantum CPU Enhancer: {}
-  R-Type Vehicular Hardener: {}
-  Reactive Deflection Field I: {}
-  Remote Shield Booster (S): {}
-  Republic Basic CPU Upgrade: {}
-  Republic Basic Myofibril Stimulant: {}
-  Republic Basic PG Upgrade: {}
-  Republic Basic Shield Energizer: {}
-  Republic Basic Shield Extender: {}
-  Republic Basic Shield Recharger: {}
-  Republic Basic Shield Regulator: {}
-  Republic Basic Sidearm Damage Modifier: {}
-  Republic Complex CPU Upgrade: {}
-  Republic Complex Myofibril Stimulant: {}
-  Republic Complex PG Upgrade: {}
-  Republic Complex Shield Energizer: {}
-  Republic Complex Shield Extender: {}
-  Republic Complex Shield Recharger: {}
-  Republic Complex Shield Regulator: {}
-  Republic Complex Sidearm Damage Modifier: {}
-  Republic Enhanced CPU Upgrade: {}
-  Republic Enhanced Myofibril Stimulant: {}
-  Republic Enhanced PG Upgrade: {}
-  Republic Enhanced Shield Energizer: {}
-  Republic Enhanced Shield Extender: {}
-  Republic Enhanced Shield Recharger: {}
-  Republic Enhanced Shield Regulator: {}
-  Republic Enhanced Sidearm Damage Modifier: {}
-  Routine Calibration Subsystem: {}
-  Shield Regenerator I: {}
-  Shield Resistance Amplifier I: {}
-  Squad - Armor Bonus Test: {}
-  Squad - Shield Energizer: {}
-  Squad - Shield Resistance: {}
-  Squad - Signature Dampener: {}
-  Squad - Speed Test: {}
-  State Basic CPU Upgrade: {}
-  State Basic Light Damage Modifier: {}
-  State Basic PG Upgrade: {}
-  State Basic Shield Energizer: {}
-  State Basic Shield Extender: {}
-  State Basic Shield Recharger: {}
-  State Basic Shield Regulator: {}
-  State Complex CPU Upgrade: {}
-  State Complex Light Damage Modifier: {}
-  State Complex PG Upgrade: {}
-  State Complex Shield Energizer: {}
-  State Complex Shield Extender: {}
-  State Complex Shield Recharger: {}
-  State Complex Shield Regulator: {}
-  State Enhanced CPU Upgrade: {}
-  State Enhanced Light Damage Modifier: {}
-  State Enhanced PG Upgrade: {}
-  State Enhanced Shield Energizer: {}
-  State Enhanced Shield Extender: {}
-  State Enhanced Shield Recharger: {}
-  State Enhanced Shield Regulator: {}
-  Supplemental Shield Amplifier: {}
-  Supplemental Shield Regenerator: {}
-  Surge Carapace I: {}
-  Surge Carapace II: {}
-  Systemic 'Pandemonium' Ballistic Enhancement: {}
-  Systemic Ballistic Control System I: {}
-  Systemic Ballistic Control System II: {}
-  Systemic Bolt Array I: {}
-  Systemic Field Stabilizer I: {}
-  Systemic Field Stabilizer II: {}
-  Systemic Stabilizer Array: {}
-  Systemic Vortex Stabilizer: {}
-  Tolerant Calibration Subsystem: {}
-  Tracking Enhancer (Scout LAV): {}
-  Type-G Active Scanner: {}
-  Type-G Nanofibre Internal Structure: {}
-  Type-G Power Diagnostic System: {}
-  Type-G Powergrid Expansion System: {}
-  Vehicle Shield Recharger: {}
-  Vented Heat Sink: {}
-  Voltaic Energized Plating: {}
-  Ward Shield Amplifier: {}
-  Ward Shield Regenerator: {}
-  XM-1 Capacitive Shell: {}
-  Zeta-Nought Tracking Mode: {}
-  '[DEV] Anti-ROF': {}
-  '[DEV] Anti-Shield Recharger': {}
-  '[DEV] High Infantry PG/CPU': {}
-  '[DEV] High Vehicle PG/CPU': {}
-  '[DEV] Movement Nullifier': {}
-  '[DEV] Remote Armor Repairer': {}
-  '[DEV] Remote Shield Recharger': {}
+  '''Abatis'' Basic Ferroscale Plates':
+    name: '''Abatis'' Basic Ferroscale Plates'
+  '''Auga'' Complex Precision Enhancer':
+    name: '''Auga'' Complex Precision Enhancer'
+  '''Azimuth'' Basic PG Upgrade':
+    name: '''Azimuth'' Basic PG Upgrade'
+  '''Bastion'' Enhanced Ferroscale Plates':
+    name: '''Bastion'' Enhanced Ferroscale Plates'
+  '''Bond'' Enhanced Shield Energizer':
+    name: '''Bond'' Enhanced Shield Energizer'
+  '''Brille'' Enhanced Reactive Plates':
+    name: '''Brille'' Enhanced Reactive Plates'
+  '''Cascade'' Complex Light Damage Modifier':
+    name: '''Cascade'' Complex Light Damage Modifier'
+  '''Castra'' Complex Ferroscale Plates':
+    name: '''Castra'' Complex Ferroscale Plates'
+  '''Cataract'' Basic Profile Dampener':
+    name: '''Cataract'' Basic Profile Dampener'
+  '''Chord'' Basic Cardiac Stimulant':
+    name: '''Chord'' Basic Cardiac Stimulant'
+  '''Cirrus'' Calibration Subsystem':
+    name: '''Cirrus'' Calibration Subsystem'
+  '''Contagion'' Enhanced Codebreaker':
+    name: '''Contagion'' Enhanced Codebreaker'
+  '''Cuticle'' Complex Reactive Plates':
+    name: '''Cuticle'' Complex Reactive Plates'
+  '''Debris'' Basic Sidearm Damage Modifier':
+    name: '''Debris'' Basic Sidearm Damage Modifier'
+  '''Delphi'' Tracking CPU':
+    name: '''Delphi'' Tracking CPU'
+  '''Diaemus'' Enhanced Precision Enhancer':
+    name: '''Diaemus'' Enhanced Precision Enhancer'
+  '''Dimension'' Enhanced CPU Upgrade':
+    name: '''Dimension'' Enhanced CPU Upgrade'
+  '''Echo'' Basic Light Damage Modifier':
+    name: '''Echo'' Basic Light Damage Modifier'
+  '''Fragment'' Enhanced Sidearm Damage Modifier':
+    name: '''Fragment'' Enhanced Sidearm Damage Modifier'
+  '''Goliath'' Basic Armor Plates':
+    name: '''Goliath'' Basic Armor Plates'
+  '''Graft'' Complex Shield Energizer':
+    name: '''Graft'' Complex Shield Energizer'
+  '''Grid'' Complex Power Diagnostics Unit':
+    name: '''Grid'' Complex Power Diagnostics Unit'
+  '''Helios'' Heat Sink':
+    name: '''Helios'' Heat Sink'
+  '''Helix'' Enhanced PG Upgrade':
+    name: '''Helix'' Enhanced PG Upgrade'
+  '''Hercules'' Complex Armor Plates':
+    name: '''Hercules'' Complex Armor Plates'
+  '''Icarus'' Basic Kinetic Catalyzer':
+    name: '''Icarus'' Basic Kinetic Catalyzer'
+  '''Impact'' Enhanced Heavy Damage Modifier':
+    name: '''Impact'' Enhanced Heavy Damage Modifier'
+  '''Impulse'' Enhanced Shield Extender':
+    name: '''Impulse'' Enhanced Shield Extender'
+  '''Iris'' Complex Kinetic Catalyzer':
+    name: '''Iris'' Complex Kinetic Catalyzer'
+  '''Kinesis'' Basic Shield Extender':
+    name: '''Kinesis'' Basic Shield Extender'
+  '''Macro'' Enhanced Cardiac Stimulant':
+    name: '''Macro'' Enhanced Cardiac Stimulant'
+  '''Membrane'' Complex Cardiac Regulator':
+    name: '''Membrane'' Complex Cardiac Regulator'
+  '''Menhir'' Enhanced Armor Repairer':
+    name: '''Menhir'' Enhanced Armor Repairer'
+  '''Mercury'' Defensive Countermeasure':
+    name: '''Mercury'' Defensive Countermeasure'
+  '''Mercury'' Enhanced Kinetic Catalyzer':
+    name: '''Mercury'' Enhanced Kinetic Catalyzer'
+  '''Miosis'' Complex Profile Damper':
+    name: '''Miosis'' Complex Profile Damper'
+  '''Monolith'' Basic Armor Repairer':
+    name: '''Monolith'' Basic Armor Repairer'
+  '''Nacre'' Basic Reactive Plates':
+    name: '''Nacre'' Basic Reactive Plates'
+  '''Neuron'' Basic Cardiac Regulator':
+    name: '''Neuron'' Basic Cardiac Regulator'
+  '''Node'' Enhanced Power Diagnostics Unit':
+    name: '''Node'' Enhanced Power Diagnostics Unit'
+  '''Nucleus'' Enhanced Cardiac Regulator':
+    name: '''Nucleus'' Enhanced Cardiac Regulator'
+  '''Nyctalus'' Enhanced Profile Damper':
+    name: '''Nyctalus'' Enhanced Profile Damper'
+  '''Obelisk'' Complex Armor Repairer':
+    name: '''Obelisk'' Complex Armor Repairer'
+  '''Oculus'' Basic Range Amplifier':
+    name: '''Oculus'' Basic Range Amplifier'
+  '''Origin'' Enhanced Shield Regulator':
+    name: '''Origin'' Enhanced Shield Regulator'
+  '''Pandemic'' Complex Codebreaker':
+    name: '''Pandemic'' Complex Codebreaker'
+  '''Pathogen'' Basic Codebreaker':
+    name: '''Pathogen'' Basic Codebreaker'
+  '''Polaris'' Complex PG Upgrade':
+    name: '''Polaris'' Complex PG Upgrade'
+  '''Ricochet'' Enhanced Light Damage Modifier':
+    name: '''Ricochet'' Enhanced Light Damage Modifier'
+  '''Samson'' Enhanced Armor Plates':
+    name: '''Samson'' Enhanced Armor Plates'
+  '''Sanction'' Enhanced Myofibril Stimulant':
+    name: '''Sanction'' Enhanced Myofibril Stimulant'
+  '''Scalar'' Basic CPU Upgrade':
+    name: '''Scalar'' Basic CPU Upgrade'
+  '''Seismic'' Complex Heavy Damage Modifier':
+    name: '''Seismic'' Complex Heavy Damage Modifier'
+  '''Shaft'' Basic Shield Regulator':
+    name: '''Shaft'' Basic Shield Regulator'
+  '''Sheath'' Basic Myofibril Stimulant':
+    name: '''Sheath'' Basic Myofibril Stimulant'
+  '''Sjon'' Complex Range Amplifer':
+    name: '''Sjon'' Complex Range Amplifer'
+  '''Sliver'' Complex Sidearm Damage Modifier':
+    name: '''Sliver'' Complex Sidearm Damage Modifier'
+  '''Spark'' Enhanced Shield Recharger':
+    name: '''Spark'' Enhanced Shield Recharger'
+  '''Spiral'' Complex Cardiac Stimulant':
+    name: '''Spiral'' Complex Cardiac Stimulant'
+  '''Static'' Complex Shield Recharger':
+    name: '''Static'' Complex Shield Recharger'
+  '''Stimulus'' Complex Shield Extender':
+    name: '''Stimulus'' Complex Shield Extender'
+  '''Synapse'' Basic Shield Recharger':
+    name: '''Synapse'' Basic Shield Recharger'
+  '''Terminal'' Basic Power Diagnostics Unit':
+    name: '''Terminal'' Basic Power Diagnostics Unit'
+  '''Tether'' Complex Shield Regulator':
+    name: '''Tether'' Complex Shield Regulator'
+  '''Tremor'' Basic Heavy Damage Modifier':
+    name: '''Tremor'' Basic Heavy Damage Modifier'
+  '''Trojan'' Fire Control System':
+    name: '''Trojan'' Fire Control System'
+  '''Ultrasonic'' Enhanced Range Amplifier':
+    name: '''Ultrasonic'' Enhanced Range Amplifier'
+  '''Utopia'' Magnetic Field Stabilizer':
+    name: '''Utopia'' Magnetic Field Stabilizer'
+  '''Vector'' Complex CPU Upgrade':
+    name: '''Vector'' Complex CPU Upgrade'
+  '''Vigil'' Complex Myofibril Stimulant':
+    name: '''Vigil'' Complex Myofibril Stimulant'
+  '''Visio'' Basic Precision Enhancer':
+    name: '''Visio'' Basic Precision Enhancer'
+  '''Weld'' Basic Shield Energizer':
+    name: '''Weld'' Basic Shield Energizer'
+  1.5dn Myofibril Stimulant:
+    name: 1.5dn Myofibril Stimulant
+  120mm Reinforced Type-A Plates:
+    name: 120mm Reinforced Type-A Plates
+  180mm Reinforced Nanofibre Plates:
+    name: 180mm Reinforced Nanofibre Plates
+  180mm Reinforced Polycrystalline Plates:
+    name: 180mm Reinforced Polycrystalline Plates
+  180mm Reinforced Steel Plates:
+    name: 180mm Reinforced Steel Plates
+  180mm Reinforced Type-A Plates:
+    name: 180mm Reinforced Type-A Plates
+  60mm Reinforced Type-A Plates:
+    name: 60mm Reinforced Type-A Plates
+  Advanced Countermeasure:
+    name: Advanced Countermeasure
+  Advanced Precision Enhancer:
+    name: Advanced Precision Enhancer
+  'Altered M-Type Nanofiber ':
+    name: 'Altered M-Type Nanofiber '
+  Asynchronous Fire Control:
+    name: Asynchronous Fire Control
+  Basic 120mm Armor Plates:
+    name: Basic 120mm Armor Plates
+  Basic 60mm Armor Plates:
+    name: Basic 60mm Armor Plates
+  Basic Afterburner:
+    name: Basic Afterburner
+  Basic Armor Hardener:
+    name: Basic Armor Hardener
+  Basic Armor Plates:
+    name: Basic Armor Plates
+  Basic Armor Repairer:
+    name: Basic Armor Repairer
+  Basic Auto-Detonator:
+    name: Basic Auto-Detonator
+  Basic Blaster Ammo Expansion Unit:
+    name: Basic Blaster Ammo Expansion Unit
+  Basic Blaster Damage Amplifier:
+    name: Basic Blaster Damage Amplifier
+  Basic CPU Upgrade:
+    name: Basic CPU Upgrade
+  Basic CPU Upgrade Unit:
+    name: Basic CPU Upgrade Unit
+  Basic Cardiac Regulator:
+    name: Basic Cardiac Regulator
+  Basic Cardiac Stimulant:
+    name: Basic Cardiac Stimulant
+  Basic Codebreaker:
+    name: Basic Codebreaker
+  Basic Countermeasure:
+    name: Basic Countermeasure
+  Basic Dispersion Stabilizer:
+    name: Basic Dispersion Stabilizer
+  Basic Ferroscale Plates:
+    name: Basic Ferroscale Plates
+  Basic Fuel Injector:
+    name: Basic Fuel Injector
+  Basic Heat Sink:
+    name: Basic Heat Sink
+  Basic Heavy Armor Repairer:
+    name: Basic Heavy Armor Repairer
+  Basic Heavy Damage Modifier:
+    name: Basic Heavy Damage Modifier
+  Basic Heavy Shield Booster:
+    name: Basic Heavy Shield Booster
+  Basic Heavy Shield Extender:
+    name: Basic Heavy Shield Extender
+  Basic Kinetic Catalyzer:
+    name: Basic Kinetic Catalyzer
+  Basic Light Armor Repairer:
+    name: Basic Light Armor Repairer
+  Basic Light Damage Modifier:
+    name: Basic Light Damage Modifier
+  Basic Light Shield Booster:
+    name: Basic Light Shield Booster
+  Basic Light Shield Extender:
+    name: Basic Light Shield Extender
+  Basic Missile Ammo Expansion Unit:
+    name: Basic Missile Ammo Expansion Unit
+  Basic Missile Damage Amplifier:
+    name: Basic Missile Damage Amplifier
+  Basic Mobile CRU:
+    name: Basic Mobile CRU
+  Basic Myofibril Stimulant:
+    name: Basic Myofibril Stimulant
+  Basic Overdrive Unit:
+    name: Basic Overdrive Unit
+  Basic PG Upgrade:
+    name: Basic PG Upgrade
+  Basic Power Diagnostics Unit:
+    name: Basic Power Diagnostics Unit
+  Basic Powergrid Upgrade:
+    name: Basic Powergrid Upgrade
+  Basic Precision Enhancer:
+    name: Basic Precision Enhancer
+  Basic Profile Dampener:
+    name: Basic Profile Dampener
+  Basic Railgun Ammo Expansion Unit:
+    name: Basic Railgun Ammo Expansion Unit
+  Basic Railgun Damage Amplifer:
+    name: Basic Railgun Damage Amplifer
+  Basic Range Amplifier:
+    name: Basic Range Amplifier
+  Basic Reactive Plates:
+    name: Basic Reactive Plates
+  Basic Scanner:
+    name: Basic Scanner
+  Basic Shield Energizer:
+    name: Basic Shield Energizer
+  Basic Shield Extender:
+    name: Basic Shield Extender
+  Basic Shield Hardener:
+    name: Basic Shield Hardener
+  Basic Shield Recharger:
+    name: Basic Shield Recharger
+  Basic Shield Regulator:
+    name: Basic Shield Regulator
+  Basic Sidearm Damage Modifier:
+    name: Basic Sidearm Damage Modifier
+  Beta Power Diagnostic System:
+    name: Beta Power Diagnostic System
+  CN-V Light Damage Modifier:
+    name: CN-V Light Damage Modifier
+  Calibration Subsystem:
+    name: Calibration Subsystem
+  Complex 120mm Armor Plates:
+    name: Complex 120mm Armor Plates
+  Complex 60mm Armor Plates:
+    name: Complex 60mm Armor Plates
+  Complex Afterburner:
+    name: Complex Afterburner
+  Complex Armor Hardener:
+    name: Complex Armor Hardener
+  Complex Armor Plates:
+    name: Complex Armor Plates
+  Complex Armor Repairer:
+    name: Complex Armor Repairer
+  Complex Blaster Ammo Expansion Unit:
+    name: Complex Blaster Ammo Expansion Unit
+  Complex Blaster Damage Amplifier:
+    name: Complex Blaster Damage Amplifier
+  Complex CPU Upgrade:
+    name: Complex CPU Upgrade
+  Complex CPU Upgrade Unit:
+    name: Complex CPU Upgrade Unit
+  Complex Cardiac Regulator:
+    name: Complex Cardiac Regulator
+  Complex Cardiac Stimulant:
+    name: Complex Cardiac Stimulant
+  Complex Codebreaker:
+    name: Complex Codebreaker
+  Complex Dispersion Stabilizer:
+    name: Complex Dispersion Stabilizer
+  Complex Ferroscale Plates:
+    name: Complex Ferroscale Plates
+  Complex Fuel Injector:
+    name: Complex Fuel Injector
+  Complex Heat Sink:
+    name: Complex Heat Sink
+  Complex Heavy Armor Repairer:
+    name: Complex Heavy Armor Repairer
+  Complex Heavy Damage Modifier:
+    name: Complex Heavy Damage Modifier
+  Complex Heavy Shield Booster:
+    name: Complex Heavy Shield Booster
+  Complex Heavy Shield Extender:
+    name: Complex Heavy Shield Extender
+  Complex Kinetic Catalyzer:
+    name: Complex Kinetic Catalyzer
+  Complex Light Armor Repairer:
+    name: Complex Light Armor Repairer
+  Complex Light Damage Modifier:
+    name: Complex Light Damage Modifier
+  Complex Light Shield Booster:
+    name: Complex Light Shield Booster
+  Complex Light Shield Extender:
+    name: Complex Light Shield Extender
+  Complex Missile Ammo Expansion Unit:
+    name: Complex Missile Ammo Expansion Unit
+  Complex Missile Damage Amplifier:
+    name: Complex Missile Damage Amplifier
+  Complex Myofibril Stimulant:
+    name: Complex Myofibril Stimulant
+  Complex Overdrive Unit:
+    name: Complex Overdrive Unit
+  Complex PG Upgrade:
+    name: Complex PG Upgrade
+  Complex Power Diagnostics Unit:
+    name: Complex Power Diagnostics Unit
+  Complex Powergrid Upgrade:
+    name: Complex Powergrid Upgrade
+  Complex Precision Enhancer:
+    name: Complex Precision Enhancer
+  Complex Profile Dampener:
+    name: Complex Profile Dampener
+  Complex Railgun Ammo Expansion Unit:
+    name: Complex Railgun Ammo Expansion Unit
+  Complex Railgun Damage Amplifer:
+    name: Complex Railgun Damage Amplifer
+  Complex Range Amplifier:
+    name: Complex Range Amplifier
+  Complex Reactive Plates:
+    name: Complex Reactive Plates
+  Complex Scanner:
+    name: Complex Scanner
+  Complex Shield Energizer:
+    name: Complex Shield Energizer
+  Complex Shield Extender:
+    name: Complex Shield Extender
+  Complex Shield Hardener:
+    name: Complex Shield Hardener
+  Complex Shield Recharger:
+    name: Complex Shield Recharger
+  Complex Shield Regulator:
+    name: Complex Shield Regulator
+  Complex Sidearm Damage Modifier:
+    name: Complex Sidearm Damage Modifier
+  Conscript Heat Sink:
+    name: Conscript Heat Sink
+  Conscript Tracking Computer I:
+    name: Conscript Tracking Computer I
+  Conscript Tracking Computer II:
+    name: Conscript Tracking Computer II
+  Conscript Tracking Enhancer I:
+    name: Conscript Tracking Enhancer I
+  Conscript Tracking Enhancer II:
+    name: Conscript Tracking Enhancer II
+  Crisis Damage Control Unit:
+    name: Crisis Damage Control Unit
+  Damage Control Unit I:
+    name: Damage Control Unit I
+  Delta-Nought Tracking Mode:
+    name: Delta-Nought Tracking Mode
+  Electron Damage Control Unit:
+    name: Electron Damage Control Unit
+  Energized Nanite Plating:
+    name: Energized Nanite Plating
+  Energized Plating I:
+    name: Energized Plating I
+  Enhanced 120mm Armor Plates:
+    name: Enhanced 120mm Armor Plates
+  Enhanced 60mm Armor Plates:
+    name: Enhanced 60mm Armor Plates
+  Enhanced Afterburner:
+    name: Enhanced Afterburner
+  Enhanced Armor Hardener:
+    name: Enhanced Armor Hardener
+  Enhanced Armor Plates:
+    name: Enhanced Armor Plates
+  Enhanced Armor Repairer:
+    name: Enhanced Armor Repairer
+  Enhanced Blaster Ammo Expansion Unit:
+    name: Enhanced Blaster Ammo Expansion Unit
+  Enhanced Blaster Damage Amplifier:
+    name: Enhanced Blaster Damage Amplifier
+  Enhanced CPU Upgrade:
+    name: Enhanced CPU Upgrade
+  Enhanced CPU Upgrade Unit:
+    name: Enhanced CPU Upgrade Unit
+  Enhanced Cardiac Regulator:
+    name: Enhanced Cardiac Regulator
+  Enhanced Cardiac Stimulant:
+    name: Enhanced Cardiac Stimulant
+  Enhanced Codebreaker:
+    name: Enhanced Codebreaker
+  Enhanced Dispersion Stabilizer:
+    name: Enhanced Dispersion Stabilizer
+  Enhanced Ferroscale Plates:
+    name: Enhanced Ferroscale Plates
+  Enhanced Fuel Injector:
+    name: Enhanced Fuel Injector
+  Enhanced Heat Sink:
+    name: Enhanced Heat Sink
+  Enhanced Heavy Armor Repairer:
+    name: Enhanced Heavy Armor Repairer
+  Enhanced Heavy Damage Modifier:
+    name: Enhanced Heavy Damage Modifier
+  Enhanced Heavy Shield Booster:
+    name: Enhanced Heavy Shield Booster
+  Enhanced Heavy Shield Extender:
+    name: Enhanced Heavy Shield Extender
+  Enhanced Kinetic Catalyzer:
+    name: Enhanced Kinetic Catalyzer
+  Enhanced Light Armor Repairer:
+    name: Enhanced Light Armor Repairer
+  Enhanced Light Damage Modifier:
+    name: Enhanced Light Damage Modifier
+  Enhanced Light Shield Booster:
+    name: Enhanced Light Shield Booster
+  Enhanced Light Shield Extender:
+    name: Enhanced Light Shield Extender
+  Enhanced Missile Ammo Expansion Unit:
+    name: Enhanced Missile Ammo Expansion Unit
+  Enhanced Missile Damage Amplifier:
+    name: Enhanced Missile Damage Amplifier
+  Enhanced Myofibril Stimulant:
+    name: Enhanced Myofibril Stimulant
+  Enhanced Overdrive Unit:
+    name: Enhanced Overdrive Unit
+  Enhanced PG Upgrade:
+    name: Enhanced PG Upgrade
+  Enhanced Power Diagnostics Unit:
+    name: Enhanced Power Diagnostics Unit
+  Enhanced Powergrid Upgrade:
+    name: Enhanced Powergrid Upgrade
+  Enhanced Profile Dampener:
+    name: Enhanced Profile Dampener
+  Enhanced Railgun Ammo Expansion Unit:
+    name: Enhanced Railgun Ammo Expansion Unit
+  Enhanced Railgun Damage Amplifer:
+    name: Enhanced Railgun Damage Amplifer
+  Enhanced Range Amplifier:
+    name: Enhanced Range Amplifier
+  Enhanced Reactive Plates:
+    name: Enhanced Reactive Plates
+  Enhanced Scanner:
+    name: Enhanced Scanner
+  Enhanced Shield Energizer:
+    name: Enhanced Shield Energizer
+  Enhanced Shield Extender:
+    name: Enhanced Shield Extender
+  Enhanced Shield Hardener:
+    name: Enhanced Shield Hardener
+  Enhanced Shield Recharger:
+    name: Enhanced Shield Recharger
+  Enhanced Shield Regulator:
+    name: Enhanced Shield Regulator
+  Enhanced Sidearm Damage Modifier:
+    name: Enhanced Sidearm Damage Modifier
+  F-S3 Regolith Shield Extender:
+    name: F-S3 Regolith Shield Extender
+  F-S3 Shield Amplifier:
+    name: F-S3 Shield Amplifier
+  F45 Peripheral Damage Control Unit:
+    name: F45 Peripheral Damage Control Unit
+  Federation Basic Armor Plates:
+    name: Federation Basic Armor Plates
+  Federation Basic Armor Repairer:
+    name: Federation Basic Armor Repairer
+  Federation Basic CPU Upgrade:
+    name: Federation Basic CPU Upgrade
+  Federation Basic Codebreaker:
+    name: Federation Basic Codebreaker
+  Federation Basic Kinetic Catalyzer:
+    name: Federation Basic Kinetic Catalyzer
+  Federation Basic PG Upgrade:
+    name: Federation Basic PG Upgrade
+  Federation Complex Armor Plates:
+    name: Federation Complex Armor Plates
+  Federation Complex Armor Repairer:
+    name: Federation Complex Armor Repairer
+  Federation Complex CPU Upgrade:
+    name: Federation Complex CPU Upgrade
+  Federation Complex Codebreaker:
+    name: Federation Complex Codebreaker
+  Federation Complex Kinetic Catalyzer:
+    name: Federation Complex Kinetic Catalyzer
+  Federation Complex PG Upgrade:
+    name: Federation Complex PG Upgrade
+  Federation Enhanced Armor Plates:
+    name: Federation Enhanced Armor Plates
+  Federation Enhanced Armor Repairer:
+    name: Federation Enhanced Armor Repairer
+  Federation Enhanced CPU Upgrade:
+    name: Federation Enhanced CPU Upgrade
+  Federation Enhanced Codebreaker:
+    name: Federation Enhanced Codebreaker
+  Federation Enhanced Kinetic Catalyzer:
+    name: Federation Enhanced Kinetic Catalyzer
+  Federation Enhanced PG Upgrade:
+    name: Federation Enhanced PG Upgrade
+  Fire Control System:
+    name: Fire Control System
+  Fire Control System II:
+    name: Fire Control System II
+  G-11 Nonlinear Tracking Processor:
+    name: G-11 Nonlinear Tracking Processor
+  Gadolinium Array:
+    name: Gadolinium Array
+  HEP Metabolic Enhancer:
+    name: HEP Metabolic Enhancer
+  HP Multiphasic Bolt Array I:
+    name: HP Multiphasic Bolt Array I
+  HP Muon Coil Bolt Array I:
+    name: HP Muon Coil Bolt Array I
+  HT Insulated Stabilizer Array:
+    name: HT Insulated Stabilizer Array
+  Heavy Automated Armor Repair Unit:
+    name: Heavy Automated Armor Repair Unit
+  Heavy C5-L Shield Booster:
+    name: Heavy C5-L Shield Booster
+  Heavy C5-R Shield Transporter:
+    name: Heavy C5-R Shield Transporter
+  Heavy Clarity Ward Shield Transporter:
+    name: Heavy Clarity Ward Shield Transporter
+  Heavy Converse Shield Transporter:
+    name: Heavy Converse Shield Transporter
+  Heavy F-S5 Regolith Shield Extender:
+    name: Heavy F-S5 Regolith Shield Extender
+  Heavy Payload Control System I:
+    name: Heavy Payload Control System I
+  Heavy Payload Control System II:
+    name: Heavy Payload Control System II
+  Heavy Remote Armor Repair Unit I:
+    name: Heavy Remote Armor Repair Unit I
+  Heavy Remote Automated Armor Repair Unit:
+    name: Heavy Remote Automated Armor Repair Unit
+  Heavy Remote Efficient Armor Repair Unit:
+    name: Heavy Remote Efficient Armor Repair Unit
+  Heavy Remote IG-R Polarized Armor Regenerator:
+    name: Heavy Remote IG-R Polarized Armor Regenerator
+  Heavy Shield Transporter I:
+    name: Heavy Shield Transporter I
+  Imperial Basic Armor Plates:
+    name: Imperial Basic Armor Plates
+  Imperial Basic Armor Repairer:
+    name: Imperial Basic Armor Repairer
+  Imperial Basic CPU Upgrade:
+    name: Imperial Basic CPU Upgrade
+  Imperial Basic Cardiac Regulator:
+    name: Imperial Basic Cardiac Regulator
+  Imperial Basic Heavy Damage Modifier:
+    name: Imperial Basic Heavy Damage Modifier
+  Imperial Basic PG Upgrade:
+    name: Imperial Basic PG Upgrade
+  Imperial Complex Armor Plates:
+    name: Imperial Complex Armor Plates
+  Imperial Complex Armor Repairer:
+    name: Imperial Complex Armor Repairer
+  Imperial Complex CPU Upgrade:
+    name: Imperial Complex CPU Upgrade
+  Imperial Complex Cardiac Regulator:
+    name: Imperial Complex Cardiac Regulator
+  Imperial Complex Heavy Damage Modifier:
+    name: Imperial Complex Heavy Damage Modifier
+  Imperial Complex PG Upgrade:
+    name: Imperial Complex PG Upgrade
+  Imperial Enhanced Armor Plates:
+    name: Imperial Enhanced Armor Plates
+  Imperial Enhanced Armor Repairer:
+    name: Imperial Enhanced Armor Repairer
+  Imperial Enhanced CPU Upgrade:
+    name: Imperial Enhanced CPU Upgrade
+  Imperial Enhanced Cardiac Regulator:
+    name: Imperial Enhanced Cardiac Regulator
+  Imperial Enhanced Heavy Damage Modifier:
+    name: Imperial Enhanced Heavy Damage Modifier
+  Imperial Enhanced PG Upgrade:
+    name: Imperial Enhanced PG Upgrade
+  Inertia Test Plates:
+    name: Inertia Test Plates
+  Insulated Magnetic Field Stabilizer:
+    name: Insulated Magnetic Field Stabilizer
+  Krin’s LEX -71 Damage Modifier:
+    name: Krin’s LEX -71 Damage Modifier
+  LP Muon Coil Bolt Array I:
+    name: LP Muon Coil Bolt Array I
+  LT Insulated Stabilizer Array:
+    name: LT Insulated Stabilizer Array
+  Light Automated Armor Repair Unit:
+    name: Light Automated Armor Repair Unit
+  Light C3-L Shield Booster:
+    name: Light C3-L Shield Booster
+  Light C3-R Shield Transporter:
+    name: Light C3-R Shield Transporter
+  Light Clarity Ward Shield Transporter:
+    name: Light Clarity Ward Shield Transporter
+  Light Converse Shield Transporter:
+    name: Light Converse Shield Transporter
+  Light Remote Armor Repair Unit I:
+    name: Light Remote Armor Repair Unit I
+  Light Remote Automated Armor Repair Unit:
+    name: Light Remote Automated Armor Repair Unit
+  Light Remote Efficient Armor Repair Unit:
+    name: Light Remote Efficient Armor Repair Unit
+  Light Remote IG-R Polarized Armor Regenerator:
+    name: Light Remote IG-R Polarized Armor Regenerator
+  Light Shield Transporter I:
+    name: Light Shield Transporter I
+  Local Power Diagnostic System:
+    name: Local Power Diagnostic System
+  Logistics LAV Mass Remote Repairer (S):
+    name: Logistics LAV Mass Remote Repairer (S)
+  M42 Shield Regenerator:
+    name: M42 Shield Regenerator
+  Magnetic Field Stabilizer:
+    name: Magnetic Field Stabilizer
+  Militia 120mm Armor Plates:
+    name: Militia 120mm Armor Plates
+  Militia 120mm Armor Plates Blueprint:
+    name: Militia 120mm Armor Plates Blueprint
+  Militia 180mm Reinforced Steel Plates:
+    name: Militia 180mm Reinforced Steel Plates
+  Militia 180mm Reinforced Steel Plates Blueprint:
+    name: Militia 180mm Reinforced Steel Plates Blueprint
+  Militia 60mm Armor Plates:
+    name: Militia 60mm Armor Plates
+  Militia 60mm Armor Plates Blueprint:
+    name: Militia 60mm Armor Plates Blueprint
+  Militia Active Heat Sink:
+    name: Militia Active Heat Sink
+  Militia Afterburner:
+    name: Militia Afterburner
+  Militia Armor Hardener:
+    name: Militia Armor Hardener
+  Militia Armor Plates:
+    name: Militia Armor Plates
+  Militia Armor Plates Blueprint:
+    name: Militia Armor Plates Blueprint
+  Militia Armor Repairer:
+    name: Militia Armor Repairer
+  Militia Armor Repairer Blueprint:
+    name: Militia Armor Repairer Blueprint
+  Militia Blaster Ammo Expansion Unit:
+    name: Militia Blaster Ammo Expansion Unit
+  Militia Blaster Damage Amplifier:
+    name: Militia Blaster Damage Amplifier
+  Militia Blaster Damage Amplifier Blueprint:
+    name: Militia Blaster Damage Amplifier Blueprint
+  Militia CPU Upgrade:
+    name: Militia CPU Upgrade
+  Militia CPU Upgrade Blueprint:
+    name: Militia CPU Upgrade Blueprint
+  Militia CPU Upgrade Unit:
+    name: Militia CPU Upgrade Unit
+  Militia CPU Upgrade Unit Blueprint:
+    name: Militia CPU Upgrade Unit Blueprint
+  Militia Cardiac Regulator:
+    name: Militia Cardiac Regulator
+  Militia Cardiac Regulator Blueprint:
+    name: Militia Cardiac Regulator Blueprint
+  Militia Cardiac Stimulant:
+    name: Militia Cardiac Stimulant
+  Militia Cardiac Stimulant Blueprint:
+    name: Militia Cardiac Stimulant Blueprint
+  Militia Codebreaker:
+    name: Militia Codebreaker
+  Militia Codebreaker Blueprint:
+    name: Militia Codebreaker Blueprint
+  Militia Damage Control Unit:
+    name: Militia Damage Control Unit
+  Militia Energized Plating:
+    name: Militia Energized Plating
+  Militia Fuel Injector:
+    name: Militia Fuel Injector
+  Militia Heat Sink:
+    name: Militia Heat Sink
+  Militia Heavy Armor Repairer:
+    name: Militia Heavy Armor Repairer
+  Militia Heavy Armor Repairer Blueprint:
+    name: Militia Heavy Armor Repairer Blueprint
+  Militia Heavy Damage Modifier:
+    name: Militia Heavy Damage Modifier
+  Militia Heavy Damage Modifier Blueprint:
+    name: Militia Heavy Damage Modifier Blueprint
+  Militia Heavy Shield Booster:
+    name: Militia Heavy Shield Booster
+  Militia Heavy Shield Booster Blueprint:
+    name: Militia Heavy Shield Booster Blueprint
+  Militia Heavy Shield Extender:
+    name: Militia Heavy Shield Extender
+  Militia Heavy Shield Extender Blueprint:
+    name: Militia Heavy Shield Extender Blueprint
+  Militia Kinetic Catalyzer:
+    name: Militia Kinetic Catalyzer
+  Militia Kinetic Catalyzer Blueprint:
+    name: Militia Kinetic Catalyzer Blueprint
+  Militia Light Armor Repairer:
+    name: Militia Light Armor Repairer
+  Militia Light Armor Repairer Blueprint:
+    name: Militia Light Armor Repairer Blueprint
+  Militia Light Damage Modifier:
+    name: Militia Light Damage Modifier
+  Militia Light Damage Modifier Blueprint:
+    name: Militia Light Damage Modifier Blueprint
+  Militia Light Shield Booster:
+    name: Militia Light Shield Booster
+  Militia Light Shield Booster Blueprint:
+    name: Militia Light Shield Booster Blueprint
+  'Militia Light Shield Extender ':
+    name: 'Militia Light Shield Extender '
+  Militia Light Shield Extender Blueprint:
+    name: Militia Light Shield Extender Blueprint
+  Militia Missile Ammo Expansion Unit:
+    name: Militia Missile Ammo Expansion Unit
+  Militia Missile Damage Amplifier:
+    name: Militia Missile Damage Amplifier
+  Militia Missile Damage Amplifier Blueprint:
+    name: Militia Missile Damage Amplifier Blueprint
+  Militia Mobile CRU:
+    name: Militia Mobile CRU
+  Militia Mobile CRU Blueprint:
+    name: Militia Mobile CRU Blueprint
+  Militia Myofibril Stimulant:
+    name: Militia Myofibril Stimulant
+  Militia Myofibril Stimulant Blueprint:
+    name: Militia Myofibril Stimulant Blueprint
+  Militia Overdrive:
+    name: Militia Overdrive
+  Militia PG Upgrade:
+    name: Militia PG Upgrade
+  Militia PG Upgrade Blueprint:
+    name: Militia PG Upgrade Blueprint
+  Militia Power Diagnostic System:
+    name: Militia Power Diagnostic System
+  Militia Power Diagnostic System Blueprint:
+    name: Militia Power Diagnostic System Blueprint
+  Militia Powergrid Upgrade:
+    name: Militia Powergrid Upgrade
+  Militia Powergrid Upgrade Blueprint:
+    name: Militia Powergrid Upgrade Blueprint
+  Militia Precision Enhancer:
+    name: Militia Precision Enhancer
+  Militia Precision Enhancer Blueprint:
+    name: Militia Precision Enhancer Blueprint
+  Militia Profile Dampener:
+    name: Militia Profile Dampener
+  Militia Profile Dampener Blueprint:
+    name: Militia Profile Dampener Blueprint
+  Militia Railgun Ammo Expansion Unit:
+    name: Militia Railgun Ammo Expansion Unit
+  Militia Railgun Damage Amplifier:
+    name: Militia Railgun Damage Amplifier
+  Militia Range Amplifier:
+    name: Militia Range Amplifier
+  Militia Range Amplifier Blueprint:
+    name: Militia Range Amplifier Blueprint
+  Militia Scanner:
+    name: Militia Scanner
+  Militia Shield Extender:
+    name: Militia Shield Extender
+  Militia Shield Extender Blueprint:
+    name: Militia Shield Extender Blueprint
+  Militia Shield Hardener:
+    name: Militia Shield Hardener
+  Militia Shield Recharger:
+    name: Militia Shield Recharger
+  Militia Shield Recharger Blueprint:
+    name: Militia Shield Recharger Blueprint
+  Militia Shield Regenerator:
+    name: Militia Shield Regenerator
+  Militia Shield Regenerator Blueprint:
+    name: Militia Shield Regenerator Blueprint
+  Militia Shield Regulator:
+    name: Militia Shield Regulator
+  Militia Shield Regulator Blueprint:
+    name: Militia Shield Regulator Blueprint
+  Militia Shield Resistance Amplifier:
+    name: Militia Shield Resistance Amplifier
+  Militia Sidearm Damage Modifier:
+    name: Militia Sidearm Damage Modifier
+  Militia Sidearm Damage Modifier Blueprint:
+    name: Militia Sidearm Damage Modifier Blueprint
+  Militia Spool Reduction Unit:
+    name: Militia Spool Reduction Unit
+  Militia Tracking CPU:
+    name: Militia Tracking CPU
+  Militia Tracking Enhancement:
+    name: Militia Tracking Enhancement
+  Modified Extruded Heat Sink:
+    name: Modified Extruded Heat Sink
+  Modified P-Type Nanofiber:
+    name: Modified P-Type Nanofiber
+  N-Type Energized Plating:
+    name: N-Type Energized Plating
+  Nanofiber Structure I:
+    name: Nanofiber Structure I
+  Nonlinear Flux Stabilizer:
+    name: Nonlinear Flux Stabilizer
+  Overdrive:
+    name: Overdrive
+  'Power Diagnostic System I ':
+    name: 'Power Diagnostic System I '
+  Propulsion Test Plates:
+    name: Propulsion Test Plates
+  Quantum CPU Enhancer:
+    name: Quantum CPU Enhancer
+  R-Type Vehicular Hardener:
+    name: R-Type Vehicular Hardener
+  Reactive Deflection Field I:
+    name: Reactive Deflection Field I
+  Remote Shield Booster (S):
+    name: Remote Shield Booster (S)
+  Republic Basic CPU Upgrade:
+    name: Republic Basic CPU Upgrade
+  Republic Basic Myofibril Stimulant:
+    name: Republic Basic Myofibril Stimulant
+  Republic Basic PG Upgrade:
+    name: Republic Basic PG Upgrade
+  Republic Basic Shield Energizer:
+    name: Republic Basic Shield Energizer
+  Republic Basic Shield Extender:
+    name: Republic Basic Shield Extender
+  Republic Basic Shield Recharger:
+    name: Republic Basic Shield Recharger
+  Republic Basic Shield Regulator:
+    name: Republic Basic Shield Regulator
+  Republic Basic Sidearm Damage Modifier:
+    name: Republic Basic Sidearm Damage Modifier
+  Republic Complex CPU Upgrade:
+    name: Republic Complex CPU Upgrade
+  Republic Complex Myofibril Stimulant:
+    name: Republic Complex Myofibril Stimulant
+  Republic Complex PG Upgrade:
+    name: Republic Complex PG Upgrade
+  Republic Complex Shield Energizer:
+    name: Republic Complex Shield Energizer
+  Republic Complex Shield Extender:
+    name: Republic Complex Shield Extender
+  Republic Complex Shield Recharger:
+    name: Republic Complex Shield Recharger
+  Republic Complex Shield Regulator:
+    name: Republic Complex Shield Regulator
+  Republic Complex Sidearm Damage Modifier:
+    name: Republic Complex Sidearm Damage Modifier
+  Republic Enhanced CPU Upgrade:
+    name: Republic Enhanced CPU Upgrade
+  Republic Enhanced Myofibril Stimulant:
+    name: Republic Enhanced Myofibril Stimulant
+  Republic Enhanced PG Upgrade:
+    name: Republic Enhanced PG Upgrade
+  Republic Enhanced Shield Energizer:
+    name: Republic Enhanced Shield Energizer
+  Republic Enhanced Shield Extender:
+    name: Republic Enhanced Shield Extender
+  Republic Enhanced Shield Recharger:
+    name: Republic Enhanced Shield Recharger
+  Republic Enhanced Shield Regulator:
+    name: Republic Enhanced Shield Regulator
+  Republic Enhanced Sidearm Damage Modifier:
+    name: Republic Enhanced Sidearm Damage Modifier
+  Routine Calibration Subsystem:
+    name: Routine Calibration Subsystem
+  Shield Regenerator I:
+    name: Shield Regenerator I
+  Shield Resistance Amplifier I:
+    name: Shield Resistance Amplifier I
+  Squad - Armor Bonus Test:
+    name: Squad - Armor Bonus Test
+  Squad - Shield Energizer:
+    name: Squad - Shield Energizer
+  Squad - Shield Resistance:
+    name: Squad - Shield Resistance
+  Squad - Signature Dampener:
+    name: Squad - Signature Dampener
+  Squad - Speed Test:
+    name: Squad - Speed Test
+  State Basic CPU Upgrade:
+    name: State Basic CPU Upgrade
+  State Basic Light Damage Modifier:
+    name: State Basic Light Damage Modifier
+  State Basic PG Upgrade:
+    name: State Basic PG Upgrade
+  State Basic Shield Energizer:
+    name: State Basic Shield Energizer
+  State Basic Shield Extender:
+    name: State Basic Shield Extender
+  State Basic Shield Recharger:
+    name: State Basic Shield Recharger
+  State Basic Shield Regulator:
+    name: State Basic Shield Regulator
+  State Complex CPU Upgrade:
+    name: State Complex CPU Upgrade
+  State Complex Light Damage Modifier:
+    name: State Complex Light Damage Modifier
+  State Complex PG Upgrade:
+    name: State Complex PG Upgrade
+  State Complex Shield Energizer:
+    name: State Complex Shield Energizer
+  State Complex Shield Extender:
+    name: State Complex Shield Extender
+  State Complex Shield Recharger:
+    name: State Complex Shield Recharger
+  State Complex Shield Regulator:
+    name: State Complex Shield Regulator
+  State Enhanced CPU Upgrade:
+    name: State Enhanced CPU Upgrade
+  State Enhanced Light Damage Modifier:
+    name: State Enhanced Light Damage Modifier
+  State Enhanced PG Upgrade:
+    name: State Enhanced PG Upgrade
+  State Enhanced Shield Energizer:
+    name: State Enhanced Shield Energizer
+  State Enhanced Shield Extender:
+    name: State Enhanced Shield Extender
+  State Enhanced Shield Recharger:
+    name: State Enhanced Shield Recharger
+  State Enhanced Shield Regulator:
+    name: State Enhanced Shield Regulator
+  Supplemental Shield Amplifier:
+    name: Supplemental Shield Amplifier
+  Supplemental Shield Regenerator:
+    name: Supplemental Shield Regenerator
+  Surge Carapace I:
+    name: Surge Carapace I
+  Surge Carapace II:
+    name: Surge Carapace II
+  Systemic 'Pandemonium' Ballistic Enhancement:
+    name: Systemic 'Pandemonium' Ballistic Enhancement
+  Systemic Ballistic Control System I:
+    name: Systemic Ballistic Control System I
+  Systemic Ballistic Control System II:
+    name: Systemic Ballistic Control System II
+  Systemic Bolt Array I:
+    name: Systemic Bolt Array I
+  Systemic Field Stabilizer I:
+    name: Systemic Field Stabilizer I
+  Systemic Field Stabilizer II:
+    name: Systemic Field Stabilizer II
+  Systemic Stabilizer Array:
+    name: Systemic Stabilizer Array
+  Systemic Vortex Stabilizer:
+    name: Systemic Vortex Stabilizer
+  Tolerant Calibration Subsystem:
+    name: Tolerant Calibration Subsystem
+  Tracking Enhancer (Scout LAV):
+    name: Tracking Enhancer (Scout LAV)
+  Type-G Active Scanner:
+    name: Type-G Active Scanner
+  Type-G Nanofibre Internal Structure:
+    name: Type-G Nanofibre Internal Structure
+  Type-G Power Diagnostic System:
+    name: Type-G Power Diagnostic System
+  Type-G Powergrid Expansion System:
+    name: Type-G Powergrid Expansion System
+  Vehicle Shield Recharger:
+    name: Vehicle Shield Recharger
+  Vented Heat Sink:
+    name: Vented Heat Sink
+  Voltaic Energized Plating:
+    name: Voltaic Energized Plating
+  Ward Shield Amplifier:
+    name: Ward Shield Amplifier
+  Ward Shield Regenerator:
+    name: Ward Shield Regenerator
+  XM-1 Capacitive Shell:
+    name: XM-1 Capacitive Shell
+  Zeta-Nought Tracking Mode:
+    name: Zeta-Nought Tracking Mode
+  '[DEV] Anti-ROF':
+    name: '[DEV] Anti-ROF'
+  '[DEV] Anti-Shield Recharger':
+    name: '[DEV] Anti-Shield Recharger'
+  '[DEV] High Infantry PG/CPU':
+    name: '[DEV] High Infantry PG/CPU'
+  '[DEV] High Vehicle PG/CPU':
+    name: '[DEV] High Vehicle PG/CPU'
+  '[DEV] Movement Nullifier':
+    name: '[DEV] Movement Nullifier'
+  '[DEV] Remote Armor Repairer':
+    name: '[DEV] Remote Armor Repairer'
+  '[DEV] Remote Shield Recharger':
+    name: '[DEV] Remote Shield Recharger'

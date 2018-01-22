@@ -77,6 +77,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Arbitrator
   Ashimmu:
     Agility: 0.5799999833106995
     ArmorEmDamageResonance: 0.5
@@ -160,6 +161,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Ashimmu
   Augoror:
     Agility: 0.5600000023841858
     ArmorEmDamageResonance: 0.5
@@ -241,6 +243,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Augoror
   Augoror Navy Issue:
     Agility: 0.47999998927116394
     ArmorEmDamageResonance: 0.5
@@ -320,6 +323,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Augoror Navy Issue
   Bellicose:
     Agility: 0.5099999904632568
     ArmorEmDamageResonance: 0.4000000059604645
@@ -397,6 +401,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Bellicose
   Blackbird:
     Agility: 0.47999998927116394
     ArmorEmDamageResonance: 0.5
@@ -474,6 +479,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Blackbird
   Caracal:
     Agility: 0.4699999988079071
     ArmorEmDamageResonance: 0.5
@@ -550,6 +556,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Caracal
   Caracal Navy Issue:
     Agility: 0.5099999904632568
     ArmorEmDamageResonance: 0.5
@@ -626,6 +633,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Caracal Navy Issue
   Caracal Nugoeihuvi Edition:
     Agility: 0.4699999988079071
     ArmorEmDamageResonance: 0.5
@@ -702,6 +710,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Caracal Nugoeihuvi Edition
   Caracal Wiyrkomi Edition:
     Agility: 0.4699999988079071
     ArmorEmDamageResonance: 0.5
@@ -778,6 +787,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Caracal Wiyrkomi Edition
   Celestis:
     Agility: 0.5049999952316284
     ArmorEmDamageResonance: 0.5
@@ -855,6 +865,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Celestis
   Concord Police Cruiser:
     Agility: 0.6499999761581421
     ArmorEmDamageResonance: 0.4000000059604645
@@ -930,6 +941,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Concord Police Cruiser
   Cynabal:
     Agility: 0.44999998807907104
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1011,6 +1023,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    name: Cynabal
   Exequror:
     Agility: 0.6100000143051147
     ArmorEmDamageResonance: 0.5
@@ -1091,6 +1104,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Exequror
   Exequror Navy Issue:
     Agility: 0.4000000059604645
     ArmorEmDamageResonance: 0.5
@@ -1169,6 +1183,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Exequror Navy Issue
   Gila:
     Agility: 0.6600000262260437
     ArmorEmDamageResonance: 0.5
@@ -1251,6 +1266,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Gila
   Guardian-Vexor:
     Agility: 0.5462499856948853
     ArmorEmDamageResonance: 0.5
@@ -1329,6 +1345,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Guardian-Vexor
   Maller:
     Agility: 0.47600001096725464
     ArmorEmDamageResonance: 0.5
@@ -1406,6 +1423,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Maller
   Moa:
     Agility: 0.5199999809265137
     ArmorEmDamageResonance: 0.5
@@ -1482,6 +1500,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Moa
   Omen:
     Agility: 0.4300000071525574
     ArmorEmDamageResonance: 0.5
@@ -1558,6 +1577,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Omen
   Omen Kador Edition:
     Agility: 0.4300000071525574
     ArmorEmDamageResonance: 0.5
@@ -1635,6 +1655,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Omen Kador Edition
   Omen Navy Issue:
     Agility: 0.4300000071525574
     ArmorEmDamageResonance: 0.5
@@ -1714,6 +1735,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Omen Navy Issue
   Omen Tash-Murkon Edition:
     Agility: 0.4300000071525574
     ArmorEmDamageResonance: 0.5
@@ -1791,6 +1813,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Omen Tash-Murkon Edition
   Opux Dragoon Yacht:
     Agility: 0.006500000134110451
     ArmorEmDamageResonance: 0.5
@@ -1866,6 +1889,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Opux Dragoon Yacht
   Opux Luxury Yacht:
     Agility: 0.6499999761581421
     ArmorEmDamageResonance: 0.5
@@ -1941,6 +1965,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Opux Luxury Yacht
   Orthrus:
     Agility: 0.47999998927116394
     ArmorEmDamageResonance: 0.5
@@ -2023,6 +2048,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Orthrus
   Osprey:
     Agility: 0.6100000143051147
     ArmorEmDamageResonance: 0.5
@@ -2104,6 +2130,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Osprey
   Osprey Navy Issue:
     Agility: 0.38499999046325684
     ArmorEmDamageResonance: 0.5
@@ -2185,6 +2212,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Osprey Navy Issue
   Phantasm:
     Agility: 0.6200000047683716
     ArmorEmDamageResonance: 0.5
@@ -2267,6 +2295,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Phantasm
   Rupture:
     Agility: 0.5
     ArmorEmDamageResonance: 0.4000000059604645
@@ -2344,6 +2373,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Rupture
   Scythe:
     Agility: 0.6000000238418579
     ArmorEmDamageResonance: 0.4000000059604645
@@ -2426,6 +2456,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Scythe
   Scythe Fleet Issue:
     Agility: 0.4399999976158142
     ArmorEmDamageResonance: 0.4000000059604645
@@ -2507,6 +2538,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Scythe Fleet Issue
   Stabber:
     Agility: 0.5
     ArmorEmDamageResonance: 0.4000000059604645
@@ -2585,6 +2617,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Stabber
   Stabber Fleet Issue:
     Agility: 0.4650000035762787
     ArmorEmDamageResonance: 0.4000000059604645
@@ -2664,6 +2697,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Stabber Fleet Issue
   Stabber Krusual Edition:
     Agility: 0.5
     ArmorEmDamageResonance: 0.4000000059604645
@@ -2742,6 +2776,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Stabber Krusual Edition
   Stabber Nefantar Edition:
     Agility: 0.5
     ArmorEmDamageResonance: 0.4000000059604645
@@ -2820,6 +2855,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Stabber Nefantar Edition
   Stratios:
     Agility: 0.4699999988079071
     ArmorEmDamageResonance: 0.5
@@ -2905,6 +2941,7 @@ items:
     VirusStrengthBonus: 10
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Stratios
   Stratios Emergency Responder:
     Agility: 0.4699999988079071
     ArmorEmDamageResonance: 0.5
@@ -2990,6 +3027,7 @@ items:
     VirusStrengthBonus: 10
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Stratios Emergency Responder
   Thorax:
     Agility: 0.49000000953674316
     ArmorEmDamageResonance: 0.5
@@ -3065,6 +3103,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Thorax
   Thorax Aliastra Edition:
     Agility: 0.49000000953674316
     ArmorEmDamageResonance: 0.5
@@ -3141,6 +3180,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Thorax Aliastra Edition
   Thorax Inner Zone Shipping Edition:
     Agility: 0.49000000953674316
     ArmorEmDamageResonance: 0.5
@@ -3217,6 +3257,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Thorax Inner Zone Shipping Edition
   Vexor:
     Agility: 0.5600000023841858
     ArmorEmDamageResonance: 0.5
@@ -3292,6 +3333,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Vexor
   Vexor Navy Issue:
     Agility: 0.4399999976158142
     ArmorEmDamageResonance: 0.5
@@ -3369,6 +3411,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Vexor Navy Issue
   Vexor Quafe Edition:
     Agility: 0.5600000023841858
     ArmorEmDamageResonance: 0.5
@@ -3445,6 +3488,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Vexor Quafe Edition
   Victorieux Luxury Yacht:
     Agility: 0.4000000059604645
     ArmorEmDamageResonance: 0.5
@@ -3519,6 +3563,7 @@ items:
     WarpBubbleImmune: 1
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 6.0
+    name: Victorieux Luxury Yacht
   Vigilant:
     Agility: 0.47999998927116394
     ArmorEmDamageResonance: 0.5
@@ -3600,6 +3645,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: Vigilant
   毒蜥级YC117年特别版:
     Agility: 0.6600000262260437
     ArmorEmDamageResonance: 0.5
@@ -3682,3 +3728,4 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    name: 毒蜥级YC117年特别版

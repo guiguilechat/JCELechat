@@ -1,40 +1,79 @@
 items:
-  Black Morphite Reaction: {}
-  Caesarium Cadmide Reaction: {}
-  Carbon Polymers Reaction: {}
-  Ceramic Powder Reaction: {}
-  Crystallite Alloy Reaction: {}
-  Dysporite Reaction: {}
-  Fernite Alloy Reaction: {}
-  Ferrofluid Reaction: {}
-  Fluxed Condensates Reaction: {}
-  Hexite Reaction: {}
-  Hyperflurite Reaction: {}
-  Neo Mercurite Reaction: {}
-  Platinum Technite Reaction: {}
-  Promethium Mercurite Reaction: {}
-  Prometium Reaction: {}
-  Rolled Tungsten Alloy Reaction: {}
-  Silicon Diborite Reaction: {}
-  Solerium Reaction: {}
-  Sulfuric Acid Reaction: {}
-  Thulium Hafnite Reaction: {}
-  Titanium Chromide Reaction: {}
-  Unrefined Caesarium Cadmide Reaction: {}
-  Unrefined Crystallite Alloy Reaction: {}
-  Unrefined Dysporite Reaction: {}
-  Unrefined Fernite Alloy Reaction: {}
-  Unrefined Ferrofluid Reaction: {}
-  Unrefined Fluxed Condensates Reaction: {}
-  Unrefined Hexite Reaction: {}
-  Unrefined Hyperflurite Reaction: {}
-  Unrefined Neo Mercurite Reaction: {}
-  Unrefined Platinum Technite Reaction: {}
-  Unrefined Promethium Mercurite Reaction: {}
-  Unrefined Prometium Reaction: {}
-  Unrefined Rolled Tungsten Alloy Reaction: {}
-  Unrefined Solerium Reaction: {}
-  Unrefined Thulium Hafnite Reaction: {}
-  Unrefined Titanium Chromide Reaction: {}
-  Unrefined Vanadium Hafnite Reaction: {}
-  Vanadium Hafnite Reaction: {}
+  Black Morphite Reaction:
+    name: Black Morphite Reaction
+  Caesarium Cadmide Reaction:
+    name: Caesarium Cadmide Reaction
+  Carbon Polymers Reaction:
+    name: Carbon Polymers Reaction
+  Ceramic Powder Reaction:
+    name: Ceramic Powder Reaction
+  Crystallite Alloy Reaction:
+    name: Crystallite Alloy Reaction
+  Dysporite Reaction:
+    name: Dysporite Reaction
+  Fernite Alloy Reaction:
+    name: Fernite Alloy Reaction
+  Ferrofluid Reaction:
+    name: Ferrofluid Reaction
+  Fluxed Condensates Reaction:
+    name: Fluxed Condensates Reaction
+  Hexite Reaction:
+    name: Hexite Reaction
+  Hyperflurite Reaction:
+    name: Hyperflurite Reaction
+  Neo Mercurite Reaction:
+    name: Neo Mercurite Reaction
+  Platinum Technite Reaction:
+    name: Platinum Technite Reaction
+  Promethium Mercurite Reaction:
+    name: Promethium Mercurite Reaction
+  Prometium Reaction:
+    name: Prometium Reaction
+  Rolled Tungsten Alloy Reaction:
+    name: Rolled Tungsten Alloy Reaction
+  Silicon Diborite Reaction:
+    name: Silicon Diborite Reaction
+  Solerium Reaction:
+    name: Solerium Reaction
+  Sulfuric Acid Reaction:
+    name: Sulfuric Acid Reaction
+  Thulium Hafnite Reaction:
+    name: Thulium Hafnite Reaction
+  Titanium Chromide Reaction:
+    name: Titanium Chromide Reaction
+  Unrefined Caesarium Cadmide Reaction:
+    name: Unrefined Caesarium Cadmide Reaction
+  Unrefined Crystallite Alloy Reaction:
+    name: Unrefined Crystallite Alloy Reaction
+  Unrefined Dysporite Reaction:
+    name: Unrefined Dysporite Reaction
+  Unrefined Fernite Alloy Reaction:
+    name: Unrefined Fernite Alloy Reaction
+  Unrefined Ferrofluid Reaction:
+    name: Unrefined Ferrofluid Reaction
+  Unrefined Fluxed Condensates Reaction:
+    name: Unrefined Fluxed Condensates Reaction
+  Unrefined Hexite Reaction:
+    name: Unrefined Hexite Reaction
+  Unrefined Hyperflurite Reaction:
+    name: Unrefined Hyperflurite Reaction
+  Unrefined Neo Mercurite Reaction:
+    name: Unrefined Neo Mercurite Reaction
+  Unrefined Platinum Technite Reaction:
+    name: Unrefined Platinum Technite Reaction
+  Unrefined Promethium Mercurite Reaction:
+    name: Unrefined Promethium Mercurite Reaction
+  Unrefined Prometium Reaction:
+    name: Unrefined Prometium Reaction
+  Unrefined Rolled Tungsten Alloy Reaction:
+    name: Unrefined Rolled Tungsten Alloy Reaction
+  Unrefined Solerium Reaction:
+    name: Unrefined Solerium Reaction
+  Unrefined Thulium Hafnite Reaction:
+    name: Unrefined Thulium Hafnite Reaction
+  Unrefined Titanium Chromide Reaction:
+    name: Unrefined Titanium Chromide Reaction
+  Unrefined Vanadium Hafnite Reaction:
+    name: Unrefined Vanadium Hafnite Reaction
+  Vanadium Hafnite Reaction:
+    name: Vanadium Hafnite Reaction

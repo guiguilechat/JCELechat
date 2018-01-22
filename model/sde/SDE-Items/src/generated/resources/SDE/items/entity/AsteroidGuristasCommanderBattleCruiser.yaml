@@ -1,7 +1,13 @@
 items:
-  Dread Guristas Assassin: {}
-  Dread Guristas Assaulter: {}
-  Dread Guristas Death Dealer: {}
-  Dread Guristas Enforcer: {}
-  Dread Guristas Executor: {}
-  Dread Guristas Revolter: {}
+  Dread Guristas Assassin:
+    name: Dread Guristas Assassin
+  Dread Guristas Assaulter:
+    name: Dread Guristas Assaulter
+  Dread Guristas Death Dealer:
+    name: Dread Guristas Death Dealer
+  Dread Guristas Enforcer:
+    name: Dread Guristas Enforcer
+  Dread Guristas Executor:
+    name: Dread Guristas Executor
+  Dread Guristas Revolter:
+    name: Dread Guristas Revolter

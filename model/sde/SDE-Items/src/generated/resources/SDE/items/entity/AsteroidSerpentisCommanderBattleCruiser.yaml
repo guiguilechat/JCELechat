@@ -1,7 +1,13 @@
 items:
-  Shadow Serpentis Captain: {}
-  Shadow Serpentis Captain Sentry: {}
-  Shadow Serpentis High Captain: {}
-  Shadow Serpentis Platoon Leader: {}
-  Shadow Serpentis Squad Leader: {}
-  Shadow Serpentis Wing Leader: {}
+  Shadow Serpentis Captain:
+    name: Shadow Serpentis Captain
+  Shadow Serpentis Captain Sentry:
+    name: Shadow Serpentis Captain Sentry
+  Shadow Serpentis High Captain:
+    name: Shadow Serpentis High Captain
+  Shadow Serpentis Platoon Leader:
+    name: Shadow Serpentis Platoon Leader
+  Shadow Serpentis Squad Leader:
+    name: Shadow Serpentis Squad Leader
+  Shadow Serpentis Wing Leader:
+    name: Shadow Serpentis Wing Leader

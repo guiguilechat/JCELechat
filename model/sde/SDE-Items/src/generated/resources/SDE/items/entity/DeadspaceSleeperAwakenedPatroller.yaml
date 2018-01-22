@@ -1,4 +1,7 @@
 items:
-  Awakened Escort: {}
-  Awakened Patroller: {}
-  Awakened Watchman: {}
+  Awakened Escort:
+    name: Awakened Escort
+  Awakened Patroller:
+    name: Awakened Patroller
+  Awakened Watchman:
+    name: Awakened Watchman

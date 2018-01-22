@@ -1,13 +1,25 @@
 items:
-  Corpior Cleric: {}
-  Corpior Converter: {}
-  Corpior Devoter: {}
-  Corpior Friar: {}
-  Corpior Templar: {}
-  Corpior Visionary: {}
-  Dark Corpior Cleric: {}
-  Dark Corpior Converter: {}
-  Dark Corpior Devoter: {}
-  Dark Corpior Friar: {}
-  Dark Corpior Templar: {}
-  Dark Corpior Visioner: {}
+  Corpior Cleric:
+    name: Corpior Cleric
+  Corpior Converter:
+    name: Corpior Converter
+  Corpior Devoter:
+    name: Corpior Devoter
+  Corpior Friar:
+    name: Corpior Friar
+  Corpior Templar:
+    name: Corpior Templar
+  Corpior Visionary:
+    name: Corpior Visionary
+  Dark Corpior Cleric:
+    name: Dark Corpior Cleric
+  Dark Corpior Converter:
+    name: Dark Corpior Converter
+  Dark Corpior Devoter:
+    name: Dark Corpior Devoter
+  Dark Corpior Friar:
+    name: Dark Corpior Friar
+  Dark Corpior Templar:
+    name: Dark Corpior Templar
+  Dark Corpior Visioner:
+    name: Dark Corpior Visioner

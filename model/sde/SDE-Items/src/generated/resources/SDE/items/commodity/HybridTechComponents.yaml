@@ -1,33 +1,49 @@
 items:
   Electromechanical Interface Nexus:
     MoonMiningAmount: 100
+    name: Electromechanical Interface Nexus
   Emergent Neurovisual Interface:
     MoonMiningAmount: 100
+    name: Emergent Neurovisual Interface
   Fullerene Intercalated Sheets:
     MoonMiningAmount: 100
+    name: Fullerene Intercalated Sheets
   Fulleroferrocene Power Conduits:
     MoonMiningAmount: 100
+    name: Fulleroferrocene Power Conduits
   Metallofullerene Plating:
     MoonMiningAmount: 100
+    name: Metallofullerene Plating
   Nanowire Composites:
     MoonMiningAmount: 100
+    name: Nanowire Composites
   Neurovisual Output Analyzer:
     MoonMiningAmount: 100
+    name: Neurovisual Output Analyzer
   Optimized Nano-Engines:
     MoonMiningAmount: 100
+    name: Optimized Nano-Engines
   Reconfigured Subspace Calibrator:
     MoonMiningAmount: 100
+    name: Reconfigured Subspace Calibrator
   Reinforced Metallofullerene Alloys:
     MoonMiningAmount: 100
+    name: Reinforced Metallofullerene Alloys
   Self-Assembling Nanolattice:
     MoonMiningAmount: 100
+    name: Self-Assembling Nanolattice
   Superconducting Gravimetric Amplifier:
     MoonMiningAmount: 1
+    name: Superconducting Gravimetric Amplifier
   Superconducting Ladar Amplifier:
     MoonMiningAmount: 1
+    name: Superconducting Ladar Amplifier
   Superconducting Magnetometric Amplifier:
     MoonMiningAmount: 1
+    name: Superconducting Magnetometric Amplifier
   Superconducting Radar Amplifier:
     MoonMiningAmount: 1
+    name: Superconducting Radar Amplifier
   Warfare Computation Core:
     MoonMiningAmount: 100
+    name: Warfare Computation Core

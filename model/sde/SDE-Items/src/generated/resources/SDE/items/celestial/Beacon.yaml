@@ -4,36 +4,43 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Abandoned CRC Monitoring Station
   Abandoned Guristas Transportation Facility:
     SignatureRadius: 100
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Abandoned Guristas Transportation Facility
   Celestial Agent Site Beacon:
     SignatureRadius: 100
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Celestial Agent Site Beacon
   Celestial Beacon:
     SignatureRadius: 100
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Celestial Beacon
   Celestial Beacon II:
     SignatureRadius: 100
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Celestial Beacon II
   Command Node Beacon:
     SignatureRadius: 2000
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Command Node Beacon
   Core Military Beacon:
     SignatureRadius: 100
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Core Military Beacon
   Cynosural Field I:
     ExplosionDelay: 600000
     Hp: 240
@@ -45,43 +52,52 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     Untargetable: 1
+    name: Cynosural Field I
   Cynosural Jammer Beacon:
     SignatureRadius: 100
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Cynosural Jammer Beacon
   Drone Celestial Beacon:
     SignatureRadius: 100
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Drone Celestial Beacon
   Large Military Beacon:
     SignatureRadius: 100
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Large Military Beacon
   Medium Military Beacon:
     SignatureRadius: 100
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Medium Military Beacon
   Novice Military Beacon:
     SignatureRadius: 100
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Novice Military Beacon
   Small Military Beacon:
     SignatureRadius: 100
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Small Military Beacon
   Titanomachy:
     SignatureRadius: 100
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: Titanomachy
   泰坦会战遗址:
     SignatureRadius: 100
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    name: 泰坦会战遗址

@@ -53,6 +53,7 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeedBonus: -5.0
     Uniformity: 0.75
+    name: Acolyte TD-300
   Berserker TP-900:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -105,6 +106,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Berserker TP-900
   Hammerhead SD-600:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -158,6 +160,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Hammerhead SD-600
   Hobgoblin SD-300:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -211,6 +214,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Hobgoblin SD-300
   Hornet EC-300:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -264,6 +268,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Hornet EC-300
   Infiltrator TD-600:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -318,6 +323,7 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeedBonus: -12.0
     Uniformity: 0.75
+    name: Infiltrator TD-600
   Ogre SD-900:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -371,6 +377,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Ogre SD-900
   Praetor TD-900:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -425,6 +432,7 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeedBonus: -25.0
     Uniformity: 0.75
+    name: Praetor TD-900
   Valkyrie TP-600:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -477,6 +485,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Valkyrie TP-600
   Vespa EC-600:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -532,6 +541,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Vespa EC-600
   Warrior TP-300:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -584,6 +594,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Warrior TP-300
   Wasp EC-900:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -639,3 +650,4 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    name: Wasp EC-900

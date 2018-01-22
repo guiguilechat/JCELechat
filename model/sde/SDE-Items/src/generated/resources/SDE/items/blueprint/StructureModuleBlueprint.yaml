@@ -1,73 +1,114 @@
 items:
   Dark Blood Standup Heavy Energy Neutralizer Blueprint:
     StructureItemVisualFlag: 1
+    name: Dark Blood Standup Heavy Energy Neutralizer Blueprint
   Dread Guristas Standup Variable Spectrum ECM Blueprint:
     StructureItemVisualFlag: 1
+    name: Dread Guristas Standup Variable Spectrum ECM Blueprint
   Standup ASML Missile Launcher I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup ASML Missile Launcher I Blueprint
   Standup AXL Missile Launcher I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup AXL Missile Launcher I Blueprint
   Standup Arcing Vorton Projector I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Arcing Vorton Projector I Blueprint
   Standup Ballistic Control System I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Ballistic Control System I Blueprint
   Standup Biochemical Reactor I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Biochemical Reactor I Blueprint
   Standup Capital Shipyard I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Capital Shipyard I Blueprint
   Standup Cloning Center I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Cloning Center I Blueprint
   Standup Co-Processor Array I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Co-Processor Array I Blueprint
   Standup Composite Reactor I Blueprint:
     StructureItemVisualFlag: 1
-  Standup ECM Jammer Burst Projector Blueprint: {}
-  Standup Energy Neutralization Burst Projector Blueprint: {}
-  Standup Gravitational Transportation Field Oscillator Blueprint: {}
+    name: Standup Composite Reactor I Blueprint
+  Standup ECM Jammer Burst Projector Blueprint:
+    name: Standup ECM Jammer Burst Projector Blueprint
+  Standup Energy Neutralization Burst Projector Blueprint:
+    name: Standup Energy Neutralization Burst Projector Blueprint
+  Standup Gravitational Transportation Field Oscillator Blueprint:
+    name: Standup Gravitational Transportation Field Oscillator Blueprint
   Standup Guided Bomb Launcher I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Guided Bomb Launcher I Blueprint
   Standup Heavy Energy Neutralizer I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Heavy Energy Neutralizer I Blueprint
   Standup Hyasyoda Research Lab Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Hyasyoda Research Lab Blueprint
   Standup Hybrid Reactor I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Hybrid Reactor I Blueprint
   Standup Invention Lab I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Invention Lab I Blueprint
   Standup Manufacturing Plant I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Manufacturing Plant I Blueprint
   Standup Market Hub I Blueprint:
     StructureItemVisualFlag: 1
-  Standup Missile Guidance Enhancer I Blueprint: {}
-  Standup Moon Drill I Blueprint: {}
+    name: Standup Market Hub I Blueprint
+  Standup Missile Guidance Enhancer I Blueprint:
+    name: Standup Missile Guidance Enhancer I Blueprint
+  Standup Moon Drill I Blueprint:
+    name: Standup Moon Drill I Blueprint
   Standup Point Defense Battery I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Point Defense Battery I Blueprint
   Standup Reactor Control Unit I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Reactor Control Unit I Blueprint
   Standup Remote Sensor Dampener I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Remote Sensor Dampener I Blueprint
   Standup Reprocessing Facility I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Reprocessing Facility I Blueprint
   Standup Research Lab I Blueprint:
     StructureItemVisualFlag: 1
-  Standup Sensor Dampening Burst Projector Blueprint: {}
+    name: Standup Research Lab I Blueprint
+  Standup Sensor Dampening Burst Projector Blueprint:
+    name: Standup Sensor Dampening Burst Projector Blueprint
   Standup Signal Amplifier I Blueprint:
     StructureItemVisualFlag: 1
-  Standup Stasis Webification Burst Projector Blueprint: {}
+    name: Standup Signal Amplifier I Blueprint
+  Standup Stasis Webification Burst Projector Blueprint:
+    name: Standup Stasis Webification Burst Projector Blueprint
   Standup Stasis Webifier I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Stasis Webifier I Blueprint
   Standup Supercapital Shipyard I Blueprint:
     StructureItemVisualFlag: 1
-  Standup Target Illumination Burst Projector Blueprint: {}
+    name: Standup Supercapital Shipyard I Blueprint
+  Standup Target Illumination Burst Projector Blueprint:
+    name: Standup Target Illumination Burst Projector Blueprint
   Standup Target Painter I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Target Painter I Blueprint
   Standup Variable Spectrum ECM I Blueprint:
     StructureItemVisualFlag: 1
-  Standup Warp Disruption Burst Projector Blueprint: {}
+    name: Standup Variable Spectrum ECM I Blueprint
+  Standup Warp Disruption Burst Projector Blueprint:
+    name: Standup Warp Disruption Burst Projector Blueprint
   Standup Warp Scrambler I Blueprint:
     StructureItemVisualFlag: 1
-  Standup Weapon Disruption Burst Projector Blueprint: {}
+    name: Standup Warp Scrambler I Blueprint
+  Standup Weapon Disruption Burst Projector Blueprint:
+    name: Standup Weapon Disruption Burst Projector Blueprint
   Standup Weapon Disruptor I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup Weapon Disruptor I Blueprint
   Standup XL Energy Neutralizer I Blueprint:
     StructureItemVisualFlag: 1
+    name: Standup XL Energy Neutralizer I Blueprint

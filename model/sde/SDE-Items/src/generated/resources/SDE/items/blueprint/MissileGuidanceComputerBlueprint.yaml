@@ -2,6 +2,8 @@ items:
   Missile Guidance Computer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Missile Guidance Computer I Blueprint
   Missile Guidance Computer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Missile Guidance Computer II Blueprint

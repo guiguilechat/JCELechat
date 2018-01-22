@@ -2,43 +2,59 @@ items:
   '''Censer'' Medium Cap Battery Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Censer'' Medium Cap Battery Blueprint'
   '''Crucible'' Small Cap Battery Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Crucible'' Small Cap Battery Blueprint'
   '''Thurifer'' Large Cap Battery Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Thurifer'' Large Cap Battery Blueprint'
   Capital Cap Battery I Blueprint:
     TechLevel: 1
+    name: Capital Cap Battery I Blueprint
   Capital Cap Battery II Blueprint:
     TechLevel: 1
+    name: Capital Cap Battery II Blueprint
   Capital Compact Pb-Acid Cap Battery Blueprint:
     TechLevel: 1
+    name: Capital Compact Pb-Acid Cap Battery Blueprint
   Dark Blood Capital Cap Battery Blueprint:
     TechLevel: 1
+    name: Dark Blood Capital Cap Battery Blueprint
   Domination Capital Cap Battery Blueprint:
     TechLevel: 1
+    name: Domination Capital Cap Battery Blueprint
   Large Cap Battery I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Large Cap Battery I Blueprint
   Large Cap Battery II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Large Cap Battery II Blueprint
   Medium Cap Battery I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Medium Cap Battery I Blueprint
   Medium Cap Battery II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Medium Cap Battery II Blueprint
   Small Cap Battery I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Cap Battery I Blueprint
   Small Cap Battery II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Cap Battery II Blueprint
   X-Large Capacitor Battery I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: X-Large Capacitor Battery I Blueprint
   X-Large Capacitor Battery II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: X-Large Capacitor Battery II Blueprint

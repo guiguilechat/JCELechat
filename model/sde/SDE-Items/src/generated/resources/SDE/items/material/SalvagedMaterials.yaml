@@ -1,77 +1,115 @@
 items:
   Alloyed Tritanium Bar:
     Hp: 20
+    name: Alloyed Tritanium Bar
   Armor Plates:
     Hp: 20
+    name: Armor Plates
   Artificial Neural Network:
     Hp: 20
+    name: Artificial Neural Network
   Broken Drone Transceiver:
     Hp: 20
+    name: Broken Drone Transceiver
   Burned Logic Circuit:
     Hp: 20
+    name: Burned Logic Circuit
   Capacitor Console:
     Hp: 20
+    name: Capacitor Console
   Charred Micro Circuit:
     Hp: 20
+    name: Charred Micro Circuit
   Conductive Polymer:
     Hp: 20
+    name: Conductive Polymer
   Conductive Thermoplastic:
     Hp: 20
+    name: Conductive Thermoplastic
   Contaminated Lorentz Fluid:
     Hp: 20
+    name: Contaminated Lorentz Fluid
   Contaminated Nanite Compound:
     Hp: 20
+    name: Contaminated Nanite Compound
   Current Pump:
     Hp: 20
+    name: Current Pump
   Damaged Artificial Neural Network:
     Hp: 20
+    name: Damaged Artificial Neural Network
   Defective Current Pump:
     Hp: 20
+    name: Defective Current Pump
   Drone Transceiver:
     Hp: 20
+    name: Drone Transceiver
   Enhanced Ward Console:
     Hp: 20
+    name: Enhanced Ward Console
   Fried Interface Circuit:
     Hp: 20
+    name: Fried Interface Circuit
   Impetus Console:
     Hp: 20
+    name: Impetus Console
   Intact Armor Plates:
     Hp: 20
+    name: Intact Armor Plates
   Intact Shield Emitter:
     Hp: 20
+    name: Intact Shield Emitter
   Interface Circuit:
     Hp: 20
+    name: Interface Circuit
   Logic Circuit:
     Hp: 20
+    name: Logic Circuit
   Lorentz Fluid:
     Hp: 20
+    name: Lorentz Fluid
   Malfunctioning Shield Emitter:
     Hp: 20
+    name: Malfunctioning Shield Emitter
   Melted Capacitor Console:
     Hp: 20
+    name: Melted Capacitor Console
   Micro Circuit:
     Hp: 20
+    name: Micro Circuit
   Nanite Compound:
     Hp: 20
+    name: Nanite Compound
   Power Circuit:
     Hp: 20
+    name: Power Circuit
   Power Conduit:
     Hp: 20
+    name: Power Conduit
   Scorched Telemetry Processor:
     Hp: 20
+    name: Scorched Telemetry Processor
   Single-crystal Superalloy I-beam:
     Hp: 20
+    name: Single-crystal Superalloy I-beam
   Smashed Trigger Unit:
     Hp: 20
+    name: Smashed Trigger Unit
   Tangled Power Conduit:
     Hp: 20
+    name: Tangled Power Conduit
   Telemetry Processor:
     Hp: 20
+    name: Telemetry Processor
   Thruster Console:
     Hp: 20
+    name: Thruster Console
   Trigger Unit:
     Hp: 20
+    name: Trigger Unit
   Tripped Power Circuit:
     Hp: 20
+    name: Tripped Power Circuit
   Ward Console:
     Hp: 20
+    name: Ward Console

@@ -28,6 +28,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     SpeedFactor: -86.0
     TechLevel: 1
+    name: Domination Heavy Stasis Grappler
   Heavy Gunnar Compact Stasis Grappler:
     CanFitShipGroup01: 27
     CanFitShipGroup02: 898
@@ -56,6 +57,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     SpeedFactor: -82.5
     TechLevel: 1
+    name: Heavy Gunnar Compact Stasis Grappler
   Heavy Jigoro Enduring Stasis Grappler:
     CanFitShipGroup01: 27
     CanFitShipGroup02: 898
@@ -84,6 +86,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     SpeedFactor: -82.5
     TechLevel: 1
+    name: Heavy Jigoro Enduring Stasis Grappler
   Heavy Karelin Scoped Stasis Grappler:
     CanFitShipGroup01: 27
     CanFitShipGroup02: 898
@@ -112,6 +115,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     SpeedFactor: -82.5
     TechLevel: 1
+    name: Heavy Karelin Scoped Stasis Grappler
   Heavy Stasis Grappler I:
     CanFitShipGroup01: 27
     CanFitShipGroup02: 898
@@ -139,6 +143,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     SpeedFactor: -80.0
     TechLevel: 1
+    name: Heavy Stasis Grappler I
   Heavy Stasis Grappler II:
     CanFitShipGroup01: 27
     CanFitShipGroup02: 898
@@ -167,6 +172,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     SpeedFactor: -85.0
     TechLevel: 2
+    name: Heavy Stasis Grappler II
   Shadow Serpentis Heavy Stasis Grappler:
     CanFitShipGroup01: 27
     CanFitShipGroup02: 898
@@ -196,3 +202,4 @@ items:
     RequiredThermoDynamicsSkill: 1
     SpeedFactor: -87.0
     TechLevel: 1
+    name: Shadow Serpentis Heavy Stasis Grappler

@@ -2,41 +2,55 @@ items:
   '''Bootleg'' Remote Sensor Booster Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Bootleg'' Remote Sensor Booster Blueprint'
   '''Boss'' Remote Sensor Booster I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Boss'' Remote Sensor Booster I Blueprint'
   '''Broker'' Remote Sensor Dampener I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Broker'' Remote Sensor Dampener I Blueprint'
   '''Entrepreneur'' Remote Sensor Booster I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Entrepreneur'' Remote Sensor Booster I Blueprint'
   '''Executive'' Remote Sensor Dampener Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Executive'' Remote Sensor Dampener Blueprint'
   '''Shady'' Sensor Booster Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Shady'' Sensor Booster Blueprint'
   Federation Navy Sensor Booster Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Federation Navy Sensor Booster Blueprint
   Networked Sensor Array Blueprint:
     TechLevel: 1
+    name: Networked Sensor Array Blueprint
   Remote Sensor Booster I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Remote Sensor Booster I Blueprint
   Remote Sensor Booster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Remote Sensor Booster II Blueprint
   Remote Sensor Dampener I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Remote Sensor Dampener I Blueprint
   Remote Sensor Dampener II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Remote Sensor Dampener II Blueprint
   Sensor Booster I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Sensor Booster I Blueprint
   Sensor Booster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Sensor Booster II Blueprint

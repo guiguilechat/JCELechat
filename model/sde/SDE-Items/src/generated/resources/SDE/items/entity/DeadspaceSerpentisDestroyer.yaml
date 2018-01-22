@@ -1,15 +1,29 @@
 items:
-  Corelior Artillery: {}
-  Corelior Cannoneer: {}
-  Corelior Infantry: {}
-  Corelior Sentinel: {}
-  Corelior Soldier: {}
-  Corelior Trooper: {}
-  Locced's Destroyer: {}
-  Phenod's Broke-Ass Destroyer: {}
-  Shadow Corelior Artillery: {}
-  Shadow Corelior Cannoneer: {}
-  Shadow Corelior Infantry: {}
-  Shadow Corelior Sentinel: {}
-  Shadow Corelior Soldier: {}
-  Shadow Corelior Trooper: {}
+  Corelior Artillery:
+    name: Corelior Artillery
+  Corelior Cannoneer:
+    name: Corelior Cannoneer
+  Corelior Infantry:
+    name: Corelior Infantry
+  Corelior Sentinel:
+    name: Corelior Sentinel
+  Corelior Soldier:
+    name: Corelior Soldier
+  Corelior Trooper:
+    name: Corelior Trooper
+  Locced's Destroyer:
+    name: Locced's Destroyer
+  Phenod's Broke-Ass Destroyer:
+    name: Phenod's Broke-Ass Destroyer
+  Shadow Corelior Artillery:
+    name: Shadow Corelior Artillery
+  Shadow Corelior Cannoneer:
+    name: Shadow Corelior Cannoneer
+  Shadow Corelior Infantry:
+    name: Shadow Corelior Infantry
+  Shadow Corelior Sentinel:
+    name: Shadow Corelior Sentinel
+  Shadow Corelior Soldier:
+    name: Shadow Corelior Soldier
+  Shadow Corelior Trooper:
+    name: Shadow Corelior Trooper

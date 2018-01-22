@@ -1,11 +1,21 @@
 items:
-  Guristas Conquistador: {}
-  Guristas Destroyer: {}
-  Guristas Dismantler: {}
-  Guristas Eliminator: {}
-  Guristas Eradicator: {}
-  Guristas Exterminator: {}
-  Guristas Extinguisher: {}
-  Guristas Massacrer: {}
-  Guristas Obliterator: {}
-  Guristas Usurper: {}
+  Guristas Conquistador:
+    name: Guristas Conquistador
+  Guristas Destroyer:
+    name: Guristas Destroyer
+  Guristas Dismantler:
+    name: Guristas Dismantler
+  Guristas Eliminator:
+    name: Guristas Eliminator
+  Guristas Eradicator:
+    name: Guristas Eradicator
+  Guristas Exterminator:
+    name: Guristas Exterminator
+  Guristas Extinguisher:
+    name: Guristas Extinguisher
+  Guristas Massacrer:
+    name: Guristas Massacrer
+  Guristas Obliterator:
+    name: Guristas Obliterator
+  Guristas Usurper:
+    name: Guristas Usurper

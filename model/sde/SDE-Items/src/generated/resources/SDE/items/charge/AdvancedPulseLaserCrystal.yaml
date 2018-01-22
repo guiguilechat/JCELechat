@@ -18,6 +18,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
+    name: Blaze L
   Blaze M:
     ChargeSize: 2
     CrystalVolatilityChance: 0.10000000149011612
@@ -37,6 +38,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
+    name: Blaze M
   Blaze S:
     ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
@@ -56,6 +58,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
+    name: Blaze S
   Conflagration L:
     CapNeedBonus: 25
     ChargeSize: 3
@@ -76,6 +79,7 @@ items:
     ThermalDamage: 30.799999237060547
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
+    name: Conflagration L
   Conflagration M:
     CapNeedBonus: 25
     ChargeSize: 2
@@ -96,6 +100,7 @@ items:
     ThermalDamage: 15.399999618530273
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
+    name: Conflagration M
   Conflagration S:
     CapNeedBonus: 25
     ChargeSize: 1
@@ -116,6 +121,7 @@ items:
     ThermalDamage: 7.699999809265137
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
+    name: Conflagration S
   Conflagration XL:
     CapNeedBonus: 25
     ChargeSize: 4
@@ -136,6 +142,7 @@ items:
     ThermalDamage: 61.599998474121094
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
+    name: Conflagration XL
   Scorch L:
     ChargeSize: 3
     CrystalVolatilityChance: 0.10000000149011612
@@ -155,6 +162,7 @@ items:
     ThermalDamage: 8.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
+    name: Scorch L
   Scorch M:
     ChargeSize: 2
     CrystalVolatilityChance: 0.10000000149011612
@@ -174,6 +182,7 @@ items:
     ThermalDamage: 4.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
+    name: Scorch M
   Scorch S:
     ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
@@ -193,6 +202,7 @@ items:
     ThermalDamage: 2.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
+    name: Scorch S
   Scorch XL:
     ChargeSize: 4
     CrystalVolatilityChance: 0.10000000149011612
@@ -212,3 +222,4 @@ items:
     ThermalDamage: 16.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
+    name: Scorch XL

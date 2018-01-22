@@ -1,44 +1,87 @@
 items:
-  Caldari CA Cruiser: {}
-  Caldari Military Transport: {}
-  Caldari Navy Blackbird: {}
-  Caldari Navy Moa: {}
-  Caldari Navy Raid Leader: {}
-  Caldari Personnel Transport: {}
-  Caldari Transport Ship: {}
-  Civilian Caldari Cruiser Blackbird: {}
-  Civilian Caldari Cruiser Caracal: {}
-  Civilian Caldari Cruiser Moa: {}
-  Civilian Caldari Cruiser Osprey: {}
-  Corporate Liaison: {}
-  Independent Blackbird: {}
-  Independent Caracal: {}
-  Independent Green-Crewed Blackbird: {}
-  Independent Green-Crewed Caracal: {}
-  Independent Green-Crewed Moa: {}
-  Independent Green-Crewed Osprey: {}
-  Independent Moa: {}
-  Independent Osprey: {}
-  Independent Veteran Blackbird: {}
-  Independent Veteran Caracal: {}
-  Independent Veteran Moa: {}
-  Independent Veteran Osprey: {}
-  Scions of the Superior Gene: {}
-  State Ashigaru: {}
-  State Buke: {}
-  State Bushi: {}
-  State Chugen: {}
-  State Dogo: {}
-  State Fudai: {}
-  State Shukuro Ashigaru: {}
-  State Shukuro Ashura: {}
-  State Shukuro Buke: {}
-  State Shukuro Chugen: {}
-  Taibu State Bajo: {}
-  Taibu State Daimyo: {}
-  Taibu State Kanpaku: {}
-  Taibu State Oni: {}
-  Taibu State Samurai: {}
-  Taibu State Shugo: {}
-  Taibu State Sohei: {}
-  Taibu State Tendai: {}
+  Caldari CA Cruiser:
+    name: Caldari CA Cruiser
+  Caldari Military Transport:
+    name: Caldari Military Transport
+  Caldari Navy Blackbird:
+    name: Caldari Navy Blackbird
+  Caldari Navy Moa:
+    name: Caldari Navy Moa
+  Caldari Navy Raid Leader:
+    name: Caldari Navy Raid Leader
+  Caldari Personnel Transport:
+    name: Caldari Personnel Transport
+  Caldari Transport Ship:
+    name: Caldari Transport Ship
+  Civilian Caldari Cruiser Blackbird:
+    name: Civilian Caldari Cruiser Blackbird
+  Civilian Caldari Cruiser Caracal:
+    name: Civilian Caldari Cruiser Caracal
+  Civilian Caldari Cruiser Moa:
+    name: Civilian Caldari Cruiser Moa
+  Civilian Caldari Cruiser Osprey:
+    name: Civilian Caldari Cruiser Osprey
+  Corporate Liaison:
+    name: Corporate Liaison
+  Independent Blackbird:
+    name: Independent Blackbird
+  Independent Caracal:
+    name: Independent Caracal
+  Independent Green-Crewed Blackbird:
+    name: Independent Green-Crewed Blackbird
+  Independent Green-Crewed Caracal:
+    name: Independent Green-Crewed Caracal
+  Independent Green-Crewed Moa:
+    name: Independent Green-Crewed Moa
+  Independent Green-Crewed Osprey:
+    name: Independent Green-Crewed Osprey
+  Independent Moa:
+    name: Independent Moa
+  Independent Osprey:
+    name: Independent Osprey
+  Independent Veteran Blackbird:
+    name: Independent Veteran Blackbird
+  Independent Veteran Caracal:
+    name: Independent Veteran Caracal
+  Independent Veteran Moa:
+    name: Independent Veteran Moa
+  Independent Veteran Osprey:
+    name: Independent Veteran Osprey
+  Scions of the Superior Gene:
+    name: Scions of the Superior Gene
+  State Ashigaru:
+    name: State Ashigaru
+  State Buke:
+    name: State Buke
+  State Bushi:
+    name: State Bushi
+  State Chugen:
+    name: State Chugen
+  State Dogo:
+    name: State Dogo
+  State Fudai:
+    name: State Fudai
+  State Shukuro Ashigaru:
+    name: State Shukuro Ashigaru
+  State Shukuro Ashura:
+    name: State Shukuro Ashura
+  State Shukuro Buke:
+    name: State Shukuro Buke
+  State Shukuro Chugen:
+    name: State Shukuro Chugen
+  Taibu State Bajo:
+    name: Taibu State Bajo
+  Taibu State Daimyo:
+    name: Taibu State Daimyo
+  Taibu State Kanpaku:
+    name: Taibu State Kanpaku
+  Taibu State Oni:
+    name: Taibu State Oni
+  Taibu State Samurai:
+    name: Taibu State Samurai
+  Taibu State Shugo:
+    name: Taibu State Shugo
+  Taibu State Sohei:
+    name: Taibu State Sohei
+  Taibu State Tendai:
+    name: Taibu State Tendai

@@ -1,28 +1,55 @@
 items:
-  Angel Drug Addict: {}
-  Ansedon Blat: {}
-  Bandit Mechanic: {}
-  Captain Jark Makon: {}
-  Corpse Collector: {}
-  Corpse Dealer: {}
-  Dread Guristas Envoy_destroyer: {}
-  Dry River Gangleader: {}
-  Dry River Gangmember: {}
-  Dry River Guardian: {}
-  Dyklan Harrikar: {}
-  Guristas Defender: {}
-  Guristas Propagandist: {}
-  Hired Gunman: {}
-  Honim Iratur: {}
-  Kazka Eunuch: {}
-  Minmatar Republic Narcotics Officer 1st Rank: {}
-  Nanom Basskel: {}
-  Nugoeihuvi Defender: {}
-  Nugoeihuvi Miner: {}
-  Propel Dynamics Defender: {}
-  Propel Dynamics Miner: {}
-  ST 58: {}
-  Sefo Caraton: {}
-  Serpentis Junkie: {}
-  Umeld Iratur: {}
-  Zarkona Mirei's Worm: {}
+  Angel Drug Addict:
+    name: Angel Drug Addict
+  Ansedon Blat:
+    name: Ansedon Blat
+  Bandit Mechanic:
+    name: Bandit Mechanic
+  Captain Jark Makon:
+    name: Captain Jark Makon
+  Corpse Collector:
+    name: Corpse Collector
+  Corpse Dealer:
+    name: Corpse Dealer
+  Dread Guristas Envoy_destroyer:
+    name: Dread Guristas Envoy_destroyer
+  Dry River Gangleader:
+    name: Dry River Gangleader
+  Dry River Gangmember:
+    name: Dry River Gangmember
+  Dry River Guardian:
+    name: Dry River Guardian
+  Dyklan Harrikar:
+    name: Dyklan Harrikar
+  Guristas Defender:
+    name: Guristas Defender
+  Guristas Propagandist:
+    name: Guristas Propagandist
+  Hired Gunman:
+    name: Hired Gunman
+  Honim Iratur:
+    name: Honim Iratur
+  Kazka Eunuch:
+    name: Kazka Eunuch
+  Minmatar Republic Narcotics Officer 1st Rank:
+    name: Minmatar Republic Narcotics Officer 1st Rank
+  Nanom Basskel:
+    name: Nanom Basskel
+  Nugoeihuvi Defender:
+    name: Nugoeihuvi Defender
+  Nugoeihuvi Miner:
+    name: Nugoeihuvi Miner
+  Propel Dynamics Defender:
+    name: Propel Dynamics Defender
+  Propel Dynamics Miner:
+    name: Propel Dynamics Miner
+  ST 58:
+    name: ST 58
+  Sefo Caraton:
+    name: Sefo Caraton
+  Serpentis Junkie:
+    name: Serpentis Junkie
+  Umeld Iratur:
+    name: Umeld Iratur
+  Zarkona Mirei's Worm:
+    name: Zarkona Mirei's Worm

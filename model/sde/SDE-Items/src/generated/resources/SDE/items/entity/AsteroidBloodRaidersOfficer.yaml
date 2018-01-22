@@ -1,5 +1,9 @@
 items:
-  Ahremen Arkah: {}
-  Draclira Merlonne: {}
-  Raysere Giant: {}
-  Tairei Namazoth: {}
+  Ahremen Arkah:
+    name: Ahremen Arkah
+  Draclira Merlonne:
+    name: Draclira Merlonne
+  Raysere Giant:
+    name: Raysere Giant
+  Tairei Namazoth:
+    name: Tairei Namazoth

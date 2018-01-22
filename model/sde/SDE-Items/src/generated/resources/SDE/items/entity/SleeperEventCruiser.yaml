@@ -1,3 +1,5 @@
 items:
-  Eosian Inquisitor: {}
-  Eosian Sentinel: {}
+  Eosian Inquisitor:
+    name: Eosian Inquisitor
+  Eosian Sentinel:
+    name: Eosian Sentinel

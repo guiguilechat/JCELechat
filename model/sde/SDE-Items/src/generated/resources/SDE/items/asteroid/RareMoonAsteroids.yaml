@@ -7,6 +7,7 @@ items:
     OreBasicType: 45502
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
+    name: Carnotite
   Cinnabar:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -15,6 +16,7 @@ items:
     OreBasicType: 45506
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
+    name: Cinnabar
   Glowing Carnotite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -23,6 +25,7 @@ items:
     OreBasicType: 45502
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
+    name: Glowing Carnotite
   Glowing Cinnabar:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -31,6 +34,7 @@ items:
     OreBasicType: 45506
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
+    name: Glowing Cinnabar
   Glowing Pollucite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -39,6 +43,7 @@ items:
     OreBasicType: 45504
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
+    name: Glowing Pollucite
   Glowing Zircon:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -47,6 +52,7 @@ items:
     OreBasicType: 45503
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
+    name: Glowing Zircon
   Pollucite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -55,6 +61,7 @@ items:
     OreBasicType: 45504
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
+    name: Pollucite
   Replete Carnotite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -63,6 +70,7 @@ items:
     OreBasicType: 45502
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
+    name: Replete Carnotite
   Replete Cinnabar:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -71,6 +79,7 @@ items:
     OreBasicType: 45506
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
+    name: Replete Cinnabar
   Replete Pollucite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -79,6 +88,7 @@ items:
     OreBasicType: 45504
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
+    name: Replete Pollucite
   Replete Zircon:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -87,6 +97,7 @@ items:
     OreBasicType: 45503
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
+    name: Replete Zircon
   Zircon:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -95,3 +106,4 @@ items:
     OreBasicType: 45503
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
+    name: Zircon

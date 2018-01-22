@@ -1,39 +1,58 @@
 items:
   Capital Armor Plates:
     MoonMiningAmount: 100
+    name: Capital Armor Plates
   Capital Capacitor Battery:
     MoonMiningAmount: 100
+    name: Capital Capacitor Battery
   Capital Cargo Bay:
     MoonMiningAmount: 100
+    name: Capital Cargo Bay
   Capital Clone Vat Bay:
     MoonMiningAmount: 100
+    name: Capital Clone Vat Bay
   Capital Computer System:
     MoonMiningAmount: 100
+    name: Capital Computer System
   Capital Construction Parts:
     MoonMiningAmount: 100
+    name: Capital Construction Parts
   Capital Corporate Hangar Bay:
     MoonMiningAmount: 100
+    name: Capital Corporate Hangar Bay
   Capital Doomsday Weapon Mount:
     MoonMiningAmount: 100
+    name: Capital Doomsday Weapon Mount
   Capital Drone Bay:
     MoonMiningAmount: 100
+    name: Capital Drone Bay
   Capital Jump Bridge Array:
     MoonMiningAmount: 100
+    name: Capital Jump Bridge Array
   Capital Jump Drive:
     MoonMiningAmount: 100
+    name: Capital Jump Drive
   Capital Launcher Hardpoint:
     MoonMiningAmount: 100
+    name: Capital Launcher Hardpoint
   Capital Power Generator:
     MoonMiningAmount: 100
+    name: Capital Power Generator
   Capital Propulsion Engine:
     MoonMiningAmount: 100
+    name: Capital Propulsion Engine
   Capital Sensor Cluster:
     MoonMiningAmount: 100
+    name: Capital Sensor Cluster
   Capital Shield Emitter:
     MoonMiningAmount: 100
+    name: Capital Shield Emitter
   Capital Ship Maintenance Bay:
     MoonMiningAmount: 100
+    name: Capital Ship Maintenance Bay
   Capital Siege Array:
     MoonMiningAmount: 100
+    name: Capital Siege Array
   Capital Turret Hardpoint:
     MoonMiningAmount: 100
+    name: Capital Turret Hardpoint

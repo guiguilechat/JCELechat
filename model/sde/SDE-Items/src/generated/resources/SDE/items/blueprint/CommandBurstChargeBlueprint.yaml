@@ -1,16 +1,31 @@
 items:
-  Active Shielding Charge Blueprint: {}
-  Armor Energizing Charge Blueprint: {}
-  Armor Reinforcement Charge Blueprint: {}
-  Electronic Hardening Charge Blueprint: {}
-  Electronic Superiority Charge Blueprint: {}
-  Evasive Maneuvers Charge Blueprint: {}
-  Interdiction Maneuvers Charge Blueprint: {}
-  Mining Equipment Preservation Charge Blueprint: {}
-  Mining Laser Field Enhancement Charge Blueprint: {}
-  Mining Laser Optimization Charge Blueprint: {}
-  Rapid Deployment Charge Blueprint: {}
-  Rapid Repair Charge Blueprint: {}
-  Sensor Optimization Charge Blueprint: {}
-  Shield Extension Charge Blueprint: {}
-  Shield Harmonizing Charge Blueprint: {}
+  Active Shielding Charge Blueprint:
+    name: Active Shielding Charge Blueprint
+  Armor Energizing Charge Blueprint:
+    name: Armor Energizing Charge Blueprint
+  Armor Reinforcement Charge Blueprint:
+    name: Armor Reinforcement Charge Blueprint
+  Electronic Hardening Charge Blueprint:
+    name: Electronic Hardening Charge Blueprint
+  Electronic Superiority Charge Blueprint:
+    name: Electronic Superiority Charge Blueprint
+  Evasive Maneuvers Charge Blueprint:
+    name: Evasive Maneuvers Charge Blueprint
+  Interdiction Maneuvers Charge Blueprint:
+    name: Interdiction Maneuvers Charge Blueprint
+  Mining Equipment Preservation Charge Blueprint:
+    name: Mining Equipment Preservation Charge Blueprint
+  Mining Laser Field Enhancement Charge Blueprint:
+    name: Mining Laser Field Enhancement Charge Blueprint
+  Mining Laser Optimization Charge Blueprint:
+    name: Mining Laser Optimization Charge Blueprint
+  Rapid Deployment Charge Blueprint:
+    name: Rapid Deployment Charge Blueprint
+  Rapid Repair Charge Blueprint:
+    name: Rapid Repair Charge Blueprint
+  Sensor Optimization Charge Blueprint:
+    name: Sensor Optimization Charge Blueprint
+  Shield Extension Charge Blueprint:
+    name: Shield Extension Charge Blueprint
+  Shield Harmonizing Charge Blueprint:
+    name: Shield Harmonizing Charge Blueprint

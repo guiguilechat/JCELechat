@@ -14,6 +14,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanMagnetometricStrengthPercent: 88
     TechLevel: 1
+    name: '''Forger'' ECCM - Magnetometric I'
   Alumel Gravimetric ECCM Sensor Array I:
     CapacitorNeed: 10.0
     Duration: 12000.0
@@ -28,6 +29,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanGravimetricStrengthPercent: 84
     TechLevel: 1
+    name: Alumel Gravimetric ECCM Sensor Array I
   Alumel Ladar ECCM Sensor Array I:
     CapacitorNeed: 10.0
     Duration: 12000.0
@@ -42,6 +44,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanLadarStrengthPercent: 84
     TechLevel: 1
+    name: Alumel Ladar ECCM Sensor Array I
   Alumel Magnetometric ECCM Sensor Array I:
     CapacitorNeed: 10.0
     Duration: 10000.0
@@ -56,6 +59,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanMagnetometricStrengthPercent: 84
     TechLevel: 1
+    name: Alumel Magnetometric ECCM Sensor Array I
   Alumel Omni ECCM Sensor Array I:
     CapacitorNeed: 20.0
     Duration: 6000.0
@@ -73,6 +77,7 @@ items:
     ScanMagnetometricStrengthPercent: 84
     ScanRadarStrengthPercent: 84
     TechLevel: 1
+    name: Alumel Omni ECCM Sensor Array I
   Alumel Radar ECCM Sensor Array I:
     CapacitorNeed: 10.0
     Duration: 12000.0
@@ -87,6 +92,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanRadarStrengthPercent: 84
     TechLevel: 1
+    name: Alumel Radar ECCM Sensor Array I
   Conjunctive Gravimetric ECCM Scanning Array I:
     CapacitorNeed: 8.0
     Duration: 10000.0
@@ -101,6 +107,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanGravimetricStrengthPercent: 96
     TechLevel: 1
+    name: Conjunctive Gravimetric ECCM Scanning Array I
   Conjunctive Ladar ECCM Scanning Array I:
     CapacitorNeed: 8.0
     Duration: 10000.0
@@ -115,6 +122,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanLadarStrengthPercent: 96
     TechLevel: 1
+    name: Conjunctive Ladar ECCM Scanning Array I
   Conjunctive Magnetometric ECCM Scanning Array I:
     CapacitorNeed: 8.0
     Duration: 10000.0
@@ -129,6 +137,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanMagnetometricStrengthPercent: 96
     TechLevel: 1
+    name: Conjunctive Magnetometric ECCM Scanning Array I
   Conjunctive Radar ECCM Scanning Array I:
     CapacitorNeed: 8.0
     Duration: 10000.0
@@ -143,6 +152,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanRadarStrengthPercent: 96
     TechLevel: 1
+    name: Conjunctive Radar ECCM Scanning Array I
   ECCM - Gravimetric I:
     CapacitorNeed: 10.0
     Duration: 10000.0
@@ -156,6 +166,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanGravimetricStrengthPercent: 80
     TechLevel: 1
+    name: ECCM - Gravimetric I
   ECCM - Gravimetric II:
     CapacitorNeed: 12.0
     Duration: 10000.0
@@ -170,6 +181,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanGravimetricStrengthPercent: 96
     TechLevel: 2
+    name: ECCM - Gravimetric II
   ECCM - Ladar I:
     CapacitorNeed: 10.0
     Duration: 10000.0
@@ -183,6 +195,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanLadarStrengthPercent: 80
     TechLevel: 1
+    name: ECCM - Ladar I
   ECCM - Ladar II:
     CapacitorNeed: 12.0
     Duration: 10000.0
@@ -197,6 +210,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanLadarStrengthPercent: 96
     TechLevel: 2
+    name: ECCM - Ladar II
   ECCM - Magnetometric I:
     CapacitorNeed: 10.0
     Duration: 10000.0
@@ -210,6 +224,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanMagnetometricStrengthPercent: 80
     TechLevel: 1
+    name: ECCM - Magnetometric I
   ECCM - Magnetometric II:
     CapacitorNeed: 12.0
     Duration: 10000.0
@@ -224,6 +239,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanMagnetometricStrengthPercent: 96
     TechLevel: 2
+    name: ECCM - Magnetometric II
   ECCM - Omni I:
     CapacitorNeed: 20.0
     Duration: 10000.0
@@ -240,6 +256,7 @@ items:
     ScanMagnetometricStrengthPercent: 80
     ScanRadarStrengthPercent: 80
     TechLevel: 1
+    name: ECCM - Omni I
   ECCM - Omni II:
     CapacitorNeed: 24.0
     Duration: 10000.0
@@ -257,6 +274,7 @@ items:
     ScanMagnetometricStrengthPercent: 96
     ScanRadarStrengthPercent: 96
     TechLevel: 2
+    name: ECCM - Omni II
   ECCM - Radar I:
     CapacitorNeed: 10.0
     Duration: 10000.0
@@ -270,6 +288,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanRadarStrengthPercent: 80
     TechLevel: 1
+    name: ECCM - Radar I
   ECCM - Radar II:
     CapacitorNeed: 12.0
     Duration: 10000.0
@@ -284,6 +303,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanRadarStrengthPercent: 96
     TechLevel: 2
+    name: ECCM - Radar II
   Extra Gravimetric ECCM Scanning Array I:
     CapacitorNeed: 9.0
     Duration: 10000.0
@@ -298,6 +318,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanGravimetricStrengthPercent: 88
     TechLevel: 1
+    name: Extra Gravimetric ECCM Scanning Array I
   Extra Ladar ECCM Scanning Array I:
     CapacitorNeed: 9.0
     Duration: 10000.0
@@ -312,6 +333,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanLadarStrengthPercent: 88
     TechLevel: 1
+    name: Extra Ladar ECCM Scanning Array I
   Extra Magnetometric ECCM Scanning Array I:
     CapacitorNeed: 9.0
     Duration: 10000.0
@@ -326,6 +348,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanMagnetometricStrengthPercent: 88
     TechLevel: 1
+    name: Extra Magnetometric ECCM Scanning Array I
   Extra Radar ECCM Scanning Array I:
     CapacitorNeed: 9.0
     Duration: 10000.0
@@ -340,6 +363,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanRadarStrengthPercent: 88
     TechLevel: 1
+    name: Extra Radar ECCM Scanning Array I
   Gravimetric Positional ECCM Sensor System I:
     CapacitorNeed: 10.0
     Duration: 10000.0
@@ -354,6 +378,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanGravimetricStrengthPercent: 92
     TechLevel: 1
+    name: Gravimetric Positional ECCM Sensor System I
   Incremental Gravimetric ECCM Scanning Array I:
     CapacitorNeed: 9.0
     Duration: 10000.0
@@ -368,6 +393,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanGravimetricStrengthPercent: 92
     TechLevel: 1
+    name: Incremental Gravimetric ECCM Scanning Array I
   Incremental Ladar ECCM Scanning Array I:
     CapacitorNeed: 9.0
     Duration: 10000.0
@@ -382,6 +408,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanLadarStrengthPercent: 92
     TechLevel: 1
+    name: Incremental Ladar ECCM Scanning Array I
   Incremental Magnetometric ECCM Scanning Array I:
     CapacitorNeed: 9.0
     Duration: 10000.0
@@ -396,6 +423,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanMagnetometricStrengthPercent: 92
     TechLevel: 1
+    name: Incremental Magnetometric ECCM Scanning Array I
   Incremental Radar ECCM Scanning Array I:
     CapacitorNeed: 9.0
     Duration: 10000.0
@@ -410,6 +438,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanRadarStrengthPercent: 92
     TechLevel: 1
+    name: Incremental Radar ECCM Scanning Array I
   Ladar Positional ECCM Sensor System I:
     CapacitorNeed: 10.0
     Duration: 12000.0
@@ -424,6 +453,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanLadarStrengthPercent: 92
     TechLevel: 1
+    name: Ladar Positional ECCM Sensor System I
   Magnetometric Positional ECCM Sensor System I:
     CapacitorNeed: 10.0
     Duration: 12000.0
@@ -438,6 +468,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanMagnetometricStrengthPercent: 92
     TechLevel: 1
+    name: Magnetometric Positional ECCM Sensor System I
   Omni Positional ECCM Sensor System I:
     CapacitorNeed: 20.0
     Duration: 10000.0
@@ -455,6 +486,7 @@ items:
     ScanMagnetometricStrengthPercent: 92
     ScanRadarStrengthPercent: 92
     TechLevel: 1
+    name: Omni Positional ECCM Sensor System I
   Prototype ECCM Gravimetric Sensor Cluster:
     CapacitorNeed: 10.0
     Duration: 12000.0
@@ -469,6 +501,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanGravimetricStrengthPercent: 96
     TechLevel: 1
+    name: Prototype ECCM Gravimetric Sensor Cluster
   Prototype ECCM Ladar Sensor Cluster:
     CapacitorNeed: 10.0
     Duration: 12000.0
@@ -483,6 +516,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanLadarStrengthPercent: 96
     TechLevel: 1
+    name: Prototype ECCM Ladar Sensor Cluster
   Prototype ECCM Magnetometric Sensor Cluster:
     CapacitorNeed: 10.0
     Duration: 12000.0
@@ -497,6 +531,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanMagnetometricStrengthPercent: 96
     TechLevel: 1
+    name: Prototype ECCM Magnetometric Sensor Cluster
   Prototype ECCM Omni Sensor Cluster:
     CapacitorNeed: 20.0
     Duration: 6000.0
@@ -514,6 +549,7 @@ items:
     ScanMagnetometricStrengthPercent: 96
     ScanRadarStrengthPercent: 96
     TechLevel: 1
+    name: Prototype ECCM Omni Sensor Cluster
   Prototype ECCM Radar Sensor Cluster:
     CapacitorNeed: 10.0
     Duration: 10000.0
@@ -528,6 +564,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanRadarStrengthPercent: 96
     TechLevel: 1
+    name: Prototype ECCM Radar Sensor Cluster
   Radar Positional ECCM Sensor System I:
     CapacitorNeed: 10.0
     Duration: 12000.0
@@ -542,6 +579,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanRadarStrengthPercent: 92
     TechLevel: 1
+    name: Radar Positional ECCM Sensor System I
   Supplemental Gravimetric ECCM Scanning Array I:
     CapacitorNeed: 10.0
     Duration: 12000.0
@@ -556,6 +594,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanGravimetricStrengthPercent: 88
     TechLevel: 1
+    name: Supplemental Gravimetric ECCM Scanning Array I
   Supplemental Ladar ECCM Scanning Array I:
     CapacitorNeed: 10.0
     Duration: 10000.0
@@ -570,6 +609,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanLadarStrengthPercent: 88
     TechLevel: 1
+    name: Supplemental Ladar ECCM Scanning Array I
   Supplemental Magnetometric ECCM Scanning Array I:
     CapacitorNeed: 10.0
     Duration: 12000.0
@@ -584,6 +624,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanMagnetometricStrengthPercent: 88
     TechLevel: 1
+    name: Supplemental Magnetometric ECCM Scanning Array I
   Supplemental Omni ECCM Scanning Array I:
     CapacitorNeed: 20.0
     Duration: 6000.0
@@ -601,6 +642,7 @@ items:
     ScanMagnetometricStrengthPercent: 88
     ScanRadarStrengthPercent: 88
     TechLevel: 1
+    name: Supplemental Omni ECCM Scanning Array I
   Supplemental Radar ECCM Scanning Array I:
     CapacitorNeed: 10.0
     Duration: 12000.0
@@ -615,3 +657,4 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanRadarStrengthPercent: 88
     TechLevel: 1
+    name: Supplemental Radar ECCM Scanning Array I

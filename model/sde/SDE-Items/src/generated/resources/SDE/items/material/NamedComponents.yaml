@@ -1,19 +1,37 @@
 items:
-  Ample Compounds: {}
-  Ample Conductors: {}
-  Ample Electronics: {}
-  Compact Compounds: {}
-  Compact Conductors: {}
-  Compact Electronics: {}
-  Enduring Compounds: {}
-  Enduring Conductors: {}
-  Enduring Electronics: {}
-  Precise Compounds: {}
-  Precise Conductors: {}
-  Precise Electronics: {}
-  Restrained Compounds: {}
-  Restrained Conductors: {}
-  Restrained Electronics: {}
-  Scoped Compounds: {}
-  Scoped Conductors: {}
-  Scoped Electronics: {}
+  Ample Compounds:
+    name: Ample Compounds
+  Ample Conductors:
+    name: Ample Conductors
+  Ample Electronics:
+    name: Ample Electronics
+  Compact Compounds:
+    name: Compact Compounds
+  Compact Conductors:
+    name: Compact Conductors
+  Compact Electronics:
+    name: Compact Electronics
+  Enduring Compounds:
+    name: Enduring Compounds
+  Enduring Conductors:
+    name: Enduring Conductors
+  Enduring Electronics:
+    name: Enduring Electronics
+  Precise Compounds:
+    name: Precise Compounds
+  Precise Conductors:
+    name: Precise Conductors
+  Precise Electronics:
+    name: Precise Electronics
+  Restrained Compounds:
+    name: Restrained Compounds
+  Restrained Conductors:
+    name: Restrained Conductors
+  Restrained Electronics:
+    name: Restrained Electronics
+  Scoped Compounds:
+    name: Scoped Compounds
+  Scoped Conductors:
+    name: Scoped Conductors
+  Scoped Electronics:
+    name: Scoped Electronics

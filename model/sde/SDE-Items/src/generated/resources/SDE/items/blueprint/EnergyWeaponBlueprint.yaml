@@ -2,209 +2,277 @@ items:
   '''Arquebus'' Heavy Beam Laser I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Arquebus'' Heavy Beam Laser I Blueprint'
   '''Ballista'' Tachyon Beam Laser I Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: '''Ballista'' Tachyon Beam Laser I Blueprint'
   '''Catapult'' Mega Beam Laser I Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: '''Catapult'' Mega Beam Laser I Blueprint'
   '''Crossbow'' Focused Medium Beam Laser I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Crossbow'' Focused Medium Beam Laser I Blueprint'
   '''Gauntlet'' Small Focused Beam Laser I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Gauntlet'' Small Focused Beam Laser I Blueprint'
   '''Halberd'' Mega Pulse Laser I Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: '''Halberd'' Mega Pulse Laser I Blueprint'
   '''Joust'' Heavy Pulse Laser I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: '''Joust'' Heavy Pulse Laser I Blueprint'
   '''Longbow'' Small Focused Pulse Laser I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Longbow'' Small Focused Pulse Laser I Blueprint'
   '''Mace'' Dual Light Beam Laser I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: '''Mace'' Dual Light Beam Laser I Blueprint'
   Afocal Precise Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Afocal Precise Dual Giga Beam Laser Blueprint
   Afocal Precise Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Afocal Precise Dual Giga Pulse Laser Blueprint
   Afocal Precise Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Afocal Precise Quad Mega Pulse Laser Blueprint
   Anode Scoped Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Anode Scoped Dual Giga Beam Laser Blueprint
   Anode Scoped Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Anode Scoped Dual Giga Pulse Laser Blueprint
   Anode Scoped Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Anode Scoped Quad Mega Pulse Laser Blueprint
   CONCORD Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 120.0
     MetaGroupID: 4
     TechLevel: 1
+    name: CONCORD Dual Giga Beam Laser Blueprint
   CONCORD Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 120.0
     MetaGroupID: 4
     TechLevel: 1
+    name: CONCORD Dual Giga Pulse Laser Blueprint
   Dark Blood Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: Dark Blood Dual Giga Beam Laser Blueprint
   Dark Blood Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: Dark Blood Dual Giga Pulse Laser Blueprint
   Dark Blood Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: Dark Blood Quad Mega Pulse Laser Blueprint
   Dual Giga Beam Laser I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: Dual Giga Beam Laser I Blueprint
   Dual Giga Beam Laser II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
+    name: Dual Giga Beam Laser II Blueprint
   Dual Giga Pulse Laser I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: Dual Giga Pulse Laser I Blueprint
   Dual Giga Pulse Laser II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
+    name: Dual Giga Pulse Laser II Blueprint
   Dual Heavy Beam Laser I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Dual Heavy Beam Laser I Blueprint
   Dual Heavy Beam Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Dual Heavy Beam Laser II Blueprint
   Dual Heavy Pulse Laser I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Dual Heavy Pulse Laser I Blueprint
   Dual Heavy Pulse Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Dual Heavy Pulse Laser II Blueprint
   Dual Light Beam Laser I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Dual Light Beam Laser I Blueprint
   Dual Light Beam Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Dual Light Beam Laser II Blueprint
   Dual Light Pulse Laser I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Dual Light Pulse Laser I Blueprint
   Dual Light Pulse Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Dual Light Pulse Laser II Blueprint
   Focused Medium Beam Laser I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Focused Medium Beam Laser I Blueprint
   Focused Medium Beam Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Focused Medium Beam Laser II Blueprint
   Focused Medium Pulse Laser I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Focused Medium Pulse Laser I Blueprint
   Focused Medium Pulse Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Focused Medium Pulse Laser II Blueprint
   Gatling Pulse Laser I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Gatling Pulse Laser I Blueprint
   Gatling Pulse Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Gatling Pulse Laser II Blueprint
   Heavy Beam Laser I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Heavy Beam Laser I Blueprint
   Heavy Beam Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Heavy Beam Laser II Blueprint
   Heavy Pulse Laser I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Heavy Pulse Laser I Blueprint
   Heavy Pulse Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Heavy Pulse Laser II Blueprint
   Mega Beam Laser I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Mega Beam Laser I Blueprint
   Mega Beam Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Mega Beam Laser II Blueprint
   Mega Pulse Laser I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Mega Pulse Laser I Blueprint
   Mega Pulse Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Mega Pulse Laser II Blueprint
   Modal Enduring Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Modal Enduring Dual Giga Beam Laser Blueprint
   Modal Enduring Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Modal Enduring Dual Giga Pulse Laser Blueprint
   Modal Enduring Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Modal Enduring Quad Mega Pulse Laser Blueprint
   Modulated Compact Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Modulated Compact Dual Giga Beam Laser Blueprint
   Modulated Compact Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Modulated Compact Dual Giga Pulse Laser Blueprint
   Modulated Compact Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    name: Modulated Compact Quad Mega Pulse Laser Blueprint
   Polarized Heavy Pulse Laser Blueprint:
     TechLevel: 2
+    name: Polarized Heavy Pulse Laser Blueprint
   Polarized Mega Pulse Laser Blueprint:
     TechLevel: 2
+    name: Polarized Mega Pulse Laser Blueprint
   Polarized Small Focused Pulse Laser Blueprint:
     TechLevel: 2
+    name: Polarized Small Focused Pulse Laser Blueprint
   Quad Light Beam Laser I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    name: Quad Light Beam Laser I Blueprint
   Quad Light Beam Laser II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    name: Quad Light Beam Laser II Blueprint
   Quad Mega Pulse Laser I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    name: Quad Mega Pulse Laser I Blueprint
   Quad Mega Pulse Laser II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
+    name: Quad Mega Pulse Laser II Blueprint
   Small Focused Beam Laser I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Focused Beam Laser I Blueprint
   Small Focused Beam Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Focused Beam Laser II Blueprint
   Small Focused Pulse Laser I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Small Focused Pulse Laser I Blueprint
   Small Focused Pulse Laser II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    name: Small Focused Pulse Laser II Blueprint
   Tachyon Beam Laser I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    name: Tachyon Beam Laser I Blueprint
   Tachyon Beam Laser II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    name: Tachyon Beam Laser II Blueprint
   True Sansha Dual Giga Beam Laser Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: True Sansha Dual Giga Beam Laser Blueprint
   True Sansha Dual Giga Pulse Laser Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: True Sansha Dual Giga Pulse Laser Blueprint
   True Sansha Quad Mega Pulse Laser Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    name: True Sansha Quad Mega Pulse Laser Blueprint

@@ -80,6 +80,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Arazu
   Chameleon:
     Agility: 0.6000000238418579
     ArmorEmDamageResonance: 0.5
@@ -163,6 +164,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.249999968422344E-6
     WarpSpeedMultiplier: 3.299999952316284
+    name: Chameleon
   Enforcer:
     Agility: 0.550000011920929
     ArmorEmDamageResonance: 0.6700000166893005
@@ -258,6 +260,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.249999968422344E-6
     WarpSpeedMultiplier: 3.299999952316284
+    name: Enforcer
   Falcon:
     Agility: 0.6399999856948853
     ArmorEmDamageResonance: 0.5
@@ -339,6 +342,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Falcon
   Moracha:
     Agility: 0.4699999988079071
     ArmorEmDamageResonance: 0.20000000298023224
@@ -422,6 +426,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Moracha
   Pilgrim:
     Agility: 0.6100000143051147
     ArmorEmDamageResonance: 0.5
@@ -504,6 +509,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Pilgrim
   Rapier:
     Agility: 0.5899999737739563
     ArmorEmDamageResonance: 0.15000000596046448
@@ -586,6 +592,7 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Rapier
   Victor:
     Agility: 0.5899999737739563
     ArmorEmDamageResonance: 0.5
@@ -675,3 +682,4 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    name: Victor

@@ -2,62 +2,84 @@ items:
   Barrage L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Barrage L Blueprint
   Barrage M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Barrage M Blueprint
   Barrage S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Barrage S Blueprint
   Barrage XL Blueprint:
     TechLevel: 2
+    name: Barrage XL Blueprint
   Hail L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Hail L Blueprint
   Hail M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Hail M Blueprint
   Hail S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Hail S Blueprint
   Hail XL Blueprint:
     TechLevel: 2
+    name: Hail XL Blueprint
   Quake L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Quake L Blueprint
   Quake M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Quake M Blueprint
   Quake S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Quake S Blueprint
   Quake XL Blueprint:
     TechLevel: 2
+    name: Quake XL Blueprint
   Shock L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Shock L Blueprint
   Shock M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Shock M Blueprint
   Shock S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Shock S Blueprint
   Storm L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Storm L Blueprint
   Storm M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Storm M Blueprint
   Storm S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Storm S Blueprint
   Tremor L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    name: Tremor L Blueprint
   Tremor M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    name: Tremor M Blueprint
   Tremor S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    name: Tremor S Blueprint
   Tremor XL Blueprint:
     TechLevel: 2
+    name: Tremor XL Blueprint

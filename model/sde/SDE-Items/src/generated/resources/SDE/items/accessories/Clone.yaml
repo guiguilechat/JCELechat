@@ -1,49 +1,73 @@
 items:
   Clone Grade Alpha:
     SkillPointsSaved: 900000
+    name: Clone Grade Alpha
   Clone Grade Beta:
     SkillPointsSaved: 1380000
+    name: Clone Grade Beta
   Clone Grade Chi:
     SkillPointsSaved: 264000000
+    name: Clone Grade Chi
   Clone Grade Delta:
     SkillPointsSaved: 2800000
+    name: Clone Grade Delta
   Clone Grade Epsilon:
     SkillPointsSaved: 3750000
+    name: Clone Grade Epsilon
   Clone Grade Eta:
     SkillPointsSaved: 6100000
+    name: Clone Grade Eta
   Clone Grade Gamma:
     SkillPointsSaved: 2050000
+    name: Clone Grade Gamma
   Clone Grade Iota:
     SkillPointsSaved: 9800000
+    name: Clone Grade Iota
   Clone Grade Kappa:
     SkillPointsSaved: 12400000
+    name: Clone Grade Kappa
   Clone Grade Lambda:
     SkillPointsSaved: 15700000
+    name: Clone Grade Lambda
   Clone Grade Mu:
     SkillPointsSaved: 20000000
+    name: Clone Grade Mu
   Clone Grade Nu:
     SkillPointsSaved: 25600000
+    name: Clone Grade Nu
   Clone Grade Omega:
     SkillPointsSaved: 450000000
+    name: Clone Grade Omega
   Clone Grade Omicron:
     SkillPointsSaved: 42200000
+    name: Clone Grade Omicron
   Clone Grade Phi:
     SkillPointsSaved: 203000000
+    name: Clone Grade Phi
   Clone Grade Pi:
     SkillPointsSaved: 54600000
+    name: Clone Grade Pi
   Clone Grade Psi:
     SkillPointsSaved: 343500000
+    name: Clone Grade Psi
   Clone Grade Rho:
     SkillPointsSaved: 71000000
+    name: Clone Grade Rho
   Clone Grade Sigma:
     SkillPointsSaved: 92500000
+    name: Clone Grade Sigma
   Clone Grade Tau:
     SkillPointsSaved: 120000000
+    name: Clone Grade Tau
   Clone Grade Theta:
     SkillPointsSaved: 7750000
+    name: Clone Grade Theta
   Clone Grade Upsilon:
     SkillPointsSaved: 156000000
+    name: Clone Grade Upsilon
   Clone Grade Xi:
     SkillPointsSaved: 32800000
+    name: Clone Grade Xi
   Clone Grade Zeta:
     SkillPointsSaved: 4800000
+    name: Clone Grade Zeta

@@ -1,10 +1,18 @@
 items:
   ECM Jammer Burst Projector Blueprint:
     IndustryBlueprintRank: 180.0
-  Energy Neutralization Burst Projector Blueprint: {}
-  Sensor Dampening Burst Projector Blueprint: {}
-  Stasis Webification Burst Projector Blueprint: {}
-  Superweapon_AOEGuide Blueprint: {}
-  Target Illumination Burst Projector Blueprint: {}
-  Warp Disruption Burst Projector Blueprint: {}
-  Weapon Disruption Burst Projector Blueprint: {}
+    name: ECM Jammer Burst Projector Blueprint
+  Energy Neutralization Burst Projector Blueprint:
+    name: Energy Neutralization Burst Projector Blueprint
+  Sensor Dampening Burst Projector Blueprint:
+    name: Sensor Dampening Burst Projector Blueprint
+  Stasis Webification Burst Projector Blueprint:
+    name: Stasis Webification Burst Projector Blueprint
+  Superweapon_AOEGuide Blueprint:
+    name: Superweapon_AOEGuide Blueprint
+  Target Illumination Burst Projector Blueprint:
+    name: Target Illumination Burst Projector Blueprint
+  Warp Disruption Burst Projector Blueprint:
+    name: Warp Disruption Burst Projector Blueprint
+  Weapon Disruption Burst Projector Blueprint:
+    name: Weapon Disruption Burst Projector Blueprint

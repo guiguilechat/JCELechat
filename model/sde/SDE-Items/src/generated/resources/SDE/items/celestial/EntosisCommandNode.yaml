@@ -1,2 +1,3 @@
 items:
-  Structure Command Node: {}
+  Structure Command Node:
+    name: Structure Command Node

@@ -1,5 +1,9 @@
 items:
-  Thukker Follower: {}
-  Thukker Mercenary Elite Fighter: {}
-  Thukker Mercenary Fighter: {}
-  Thukker Mercenary Rookie: {}
+  Thukker Follower:
+    name: Thukker Follower
+  Thukker Mercenary Elite Fighter:
+    name: Thukker Mercenary Elite Fighter
+  Thukker Mercenary Fighter:
+    name: Thukker Mercenary Fighter
+  Thukker Mercenary Rookie:
+    name: Thukker Mercenary Rookie

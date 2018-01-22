@@ -7,6 +7,7 @@ items:
     RequiredSkill1: 3429
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: 41F Veiled Targeting Unit
   Indirect Target Acquisition I:
     Duration: 5000.0
     Hp: 40
@@ -15,6 +16,7 @@ items:
     RequiredSkill1: 3429
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Indirect Target Acquisition I
   Passive Targeter I:
     Duration: 5000.0
     Hp: 40
@@ -22,6 +24,7 @@ items:
     RequiredSkill1: 3429
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Passive Targeter I
   Passive Targeter II:
     Duration: 10000.0
     Hp: 40
@@ -30,6 +33,7 @@ items:
     RequiredSkill1: 3429
     RequiredSkill1Level: 2
     TechLevel: 2
+    name: Passive Targeter II
   Passive Targeting Array I:
     Duration: 5000.0
     Hp: 40
@@ -38,6 +42,7 @@ items:
     RequiredSkill1: 3429
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Passive Targeting Array I
   Suppressed Targeting System I:
     Duration: 5000.0
     Hp: 40
@@ -46,3 +51,4 @@ items:
     RequiredSkill1: 3429
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Suppressed Targeting System I

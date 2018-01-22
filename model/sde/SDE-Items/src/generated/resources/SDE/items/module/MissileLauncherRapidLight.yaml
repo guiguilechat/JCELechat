@@ -20,6 +20,7 @@ items:
     Speed: 7670
     TechLevel: 1
     TypeColorScheme: 20114
+    name: '''Pickaxe'' Rapid Light Missile Launcher'
   Caldari Navy Rapid Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
@@ -41,6 +42,7 @@ items:
     Speed: 5460
     TechLevel: 1
     TypeColorScheme: 11321
+    name: Caldari Navy Rapid Light Missile Launcher
   Domination Rapid Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
@@ -62,6 +64,7 @@ items:
     Speed: 6045
     TechLevel: 1
     TypeColorScheme: 11318
+    name: Domination Rapid Light Missile Launcher
   Dread Guristas Rapid Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
@@ -83,6 +86,7 @@ items:
     Speed: 5460
     TechLevel: 1
     TypeColorScheme: 11335
+    name: Dread Guristas Rapid Light Missile Launcher
   Experimental SV-2000 Rapid Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
@@ -103,6 +107,7 @@ items:
     Speed: 6630
     TechLevel: 1
     TypeColorScheme: 20116
+    name: Experimental SV-2000 Rapid Light Missile Launcher
   Limited 'Limos' Rapid Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
@@ -123,6 +128,7 @@ items:
     Speed: 7020
     TechLevel: 1
     TypeColorScheme: 20115
+    name: Limited 'Limos' Rapid Light Missile Launcher
   Prototype 'Arbalest' Rapid Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
@@ -143,6 +149,7 @@ items:
     Speed: 6240
     TechLevel: 1
     TypeColorScheme: 20113
+    name: Prototype 'Arbalest' Rapid Light Missile Launcher
   Rapid Light Missile Launcher I:
     ChargeGroup1: 384
     ChargeGroup2: 394
@@ -162,6 +169,7 @@ items:
     Speed: 7800
     TechLevel: 1
     TypeColorScheme: 11324
+    name: Rapid Light Missile Launcher I
   Rapid Light Missile Launcher II:
     ChargeGroup1: 384
     ChargeGroup2: 394
@@ -183,6 +191,7 @@ items:
     Speed: 6240
     TechLevel: 2
     TypeColorScheme: 11325
+    name: Rapid Light Missile Launcher II
   Republic Fleet Rapid Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
@@ -204,6 +213,7 @@ items:
     Speed: 6045
     TechLevel: 1
     TypeColorScheme: 11339
+    name: Republic Fleet Rapid Light Missile Launcher
   True Sansha Rapid Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
@@ -225,6 +235,7 @@ items:
     Speed: 6045
     TechLevel: 1
     TypeColorScheme: 11349
+    name: True Sansha Rapid Light Missile Launcher
   Upgraded 'Malkuth' Rapid Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
@@ -245,3 +256,4 @@ items:
     Speed: 7410
     TechLevel: 1
     TypeColorScheme: 20123
+    name: Upgraded 'Malkuth' Rapid Light Missile Launcher

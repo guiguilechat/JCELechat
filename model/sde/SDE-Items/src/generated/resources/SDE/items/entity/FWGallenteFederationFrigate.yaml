@@ -1,2 +1,3 @@
 items:
-  Federation Frigate: {}
+  Federation Frigate:
+    name: Federation Frigate

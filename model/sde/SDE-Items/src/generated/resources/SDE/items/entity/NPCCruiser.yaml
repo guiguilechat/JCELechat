@@ -1,25 +1,49 @@
 items:
-  ♦ Annihilator Drone: {}
-  ♦ Arbitrator: {}
-  ♦ Ashimmu: {}
-  ♦ Augoror: {}
-  ♦ Bellicose: {}
-  ♦ Blackbird: {}
-  ♦ Caracal: {}
-  ♦ Celestis: {}
-  ♦ Cynabal: {}
-  ♦ Exequror: {}
-  ♦ Gila: {}
-  ♦ Ixion: {}
-  ♦ Maller: {}
-  ♦ Moa: {}
-  ♦ Omen: {}
-  ♦ Osprey: {}
-  ♦ Phantasm: {}
-  ♦ Rupture: {}
-  ♦ Scythe: {}
-  ♦ Stabber: {}
-  ♦ Thorax: {}
-  ♦ Vexor: {}
-  ♦ Vigilant: {}
-  ��� Caracal: {}
+  ♦ Annihilator Drone:
+    name: ♦ Annihilator Drone
+  ♦ Arbitrator:
+    name: ♦ Arbitrator
+  ♦ Ashimmu:
+    name: ♦ Ashimmu
+  ♦ Augoror:
+    name: ♦ Augoror
+  ♦ Bellicose:
+    name: ♦ Bellicose
+  ♦ Blackbird:
+    name: ♦ Blackbird
+  ♦ Caracal:
+    name: ♦ Caracal
+  ♦ Celestis:
+    name: ♦ Celestis
+  ♦ Cynabal:
+    name: ♦ Cynabal
+  ♦ Exequror:
+    name: ♦ Exequror
+  ♦ Gila:
+    name: ♦ Gila
+  ♦ Ixion:
+    name: ♦ Ixion
+  ♦ Maller:
+    name: ♦ Maller
+  ♦ Moa:
+    name: ♦ Moa
+  ♦ Omen:
+    name: ♦ Omen
+  ♦ Osprey:
+    name: ♦ Osprey
+  ♦ Phantasm:
+    name: ♦ Phantasm
+  ♦ Rupture:
+    name: ♦ Rupture
+  ♦ Scythe:
+    name: ♦ Scythe
+  ♦ Stabber:
+    name: ♦ Stabber
+  ♦ Thorax:
+    name: ♦ Thorax
+  ♦ Vexor:
+    name: ♦ Vexor
+  ♦ Vigilant:
+    name: ♦ Vigilant
+  ��� Omen:
+    name: ��� Omen

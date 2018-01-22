@@ -1,73 +1,145 @@
 items:
-  Amarr CA Frigate: {}
-  Ammatar Navy Delta I Support Frigate: {}
-  Ammatar Navy Delta II Support Frigate: {}
-  Ammatar Navy Detective: {}
-  Ammatar Navy Elite Soldier: {}
-  Ammatar Navy Executioner: {}
-  Ammatar Navy Gamma I Support Frigate: {}
-  Ammatar Navy Gamma II Support Frigate: {}
-  Ammatar Navy Inquisitor: {}
-  Ammatar Navy Officer: {}
-  Ammatar Navy Scout: {}
-  Ammatar Navy Soldier: {}
-  Ammatar Navy Squad Leader: {}
-  Civilian Amarr Frigate Crucifier: {}
-  Civilian Amarr Frigate Executioner: {}
-  Civilian Amarr Frigate Inquisitor: {}
-  Civilian Amarr Frigate Punisher: {}
-  Divine Imperial Bahir: {}
-  Divine Imperial Felix: {}
-  Divine Imperial Forian: {}
-  Divine Imperial Imran: {}
-  Divine Imperial Nabih: {}
-  Divine Imperial Napat: {}
-  Divine Imperial Paladin: {}
-  Divine Imperial Sixtus: {}
-  Divine Imperial Sprite: {}
-  Divine Imperial Valok: {}
-  Imperial Bahir: {}
-  Imperial Disciple: {}
-  Imperial Dopa: {}
-  Imperial Felix: {}
-  Imperial Felix_old: {}
-  Imperial Forian: {}
-  Imperial Forian_old: {}
-  Imperial Haran: {}
-  Imperial Iezaz: {}
-  Imperial Matendi: {}
-  Imperial Nabih: {}
-  Imperial Navy Crucifer: {}
-  Imperial Navy Delta I Support Frigate: {}
-  Imperial Navy Delta II Support Frigate: {}
-  Imperial Navy Detective: {}
-  Imperial Navy Elite Soldier: {}
-  Imperial Navy Executioner: {}
-  Imperial Navy Gamma I Support Frigate: {}
-  Imperial Navy Gamma II Support Frigate: {}
-  Imperial Navy Scout: {}
-  Imperial Navy Soldier: {}
-  Imperial Navy Squad Leader: {}
-  Imperial Paladin: {}
-  Imperial Sixtus: {}
-  Imperial Sprite: {}
-  Imperial Templar Forian: {}
-  Imperial Templar Forian_old: {}
-  Imperial Templar Napat: {}
-  Imperial Templar Paladin: {}
-  Imperial Templar Paladin_old: {}
-  Imperial Templar Valok: {}
-  Independent Crucifier: {}
-  Independent Executioner: {}
-  Independent Green-Crewed Crucifier: {}
-  Independent Green-Crewed Executioner: {}
-  Independent Green-Crewed Inquisitor: {}
-  Independent Green-Crewed Punisher: {}
-  Independent Inquisitor: {}
-  Independent Punisher: {}
-  Independent Veteran Crucifier: {}
-  Independent Veteran Executioner: {}
-  Independent Veteran Inquisitor: {}
-  Independent Veteran Punisher: {}
-  Izia Tabar: {}
-  Sarum Spider: {}
+  Amarr CA Frigate:
+    name: Amarr CA Frigate
+  Ammatar Navy Delta I Support Frigate:
+    name: Ammatar Navy Delta I Support Frigate
+  Ammatar Navy Delta II Support Frigate:
+    name: Ammatar Navy Delta II Support Frigate
+  Ammatar Navy Detective:
+    name: Ammatar Navy Detective
+  Ammatar Navy Elite Soldier:
+    name: Ammatar Navy Elite Soldier
+  Ammatar Navy Executioner:
+    name: Ammatar Navy Executioner
+  Ammatar Navy Gamma I Support Frigate:
+    name: Ammatar Navy Gamma I Support Frigate
+  Ammatar Navy Gamma II Support Frigate:
+    name: Ammatar Navy Gamma II Support Frigate
+  Ammatar Navy Inquisitor:
+    name: Ammatar Navy Inquisitor
+  Ammatar Navy Officer:
+    name: Ammatar Navy Officer
+  Ammatar Navy Scout:
+    name: Ammatar Navy Scout
+  Ammatar Navy Soldier:
+    name: Ammatar Navy Soldier
+  Ammatar Navy Squad Leader:
+    name: Ammatar Navy Squad Leader
+  Civilian Amarr Frigate Crucifier:
+    name: Civilian Amarr Frigate Crucifier
+  Civilian Amarr Frigate Executioner:
+    name: Civilian Amarr Frigate Executioner
+  Civilian Amarr Frigate Inquisitor:
+    name: Civilian Amarr Frigate Inquisitor
+  Civilian Amarr Frigate Punisher:
+    name: Civilian Amarr Frigate Punisher
+  Divine Imperial Bahir:
+    name: Divine Imperial Bahir
+  Divine Imperial Felix:
+    name: Divine Imperial Felix
+  Divine Imperial Forian:
+    name: Divine Imperial Forian
+  Divine Imperial Imran:
+    name: Divine Imperial Imran
+  Divine Imperial Nabih:
+    name: Divine Imperial Nabih
+  Divine Imperial Napat:
+    name: Divine Imperial Napat
+  Divine Imperial Paladin:
+    name: Divine Imperial Paladin
+  Divine Imperial Sixtus:
+    name: Divine Imperial Sixtus
+  Divine Imperial Sprite:
+    name: Divine Imperial Sprite
+  Divine Imperial Valok:
+    name: Divine Imperial Valok
+  Imperial Bahir:
+    name: Imperial Bahir
+  Imperial Disciple:
+    name: Imperial Disciple
+  Imperial Dopa:
+    name: Imperial Dopa
+  Imperial Felix:
+    name: Imperial Felix
+  Imperial Felix_old:
+    name: Imperial Felix_old
+  Imperial Forian:
+    name: Imperial Forian
+  Imperial Forian_old:
+    name: Imperial Forian_old
+  Imperial Haran:
+    name: Imperial Haran
+  Imperial Iezaz:
+    name: Imperial Iezaz
+  Imperial Matendi:
+    name: Imperial Matendi
+  Imperial Nabih:
+    name: Imperial Nabih
+  Imperial Navy Crucifer:
+    name: Imperial Navy Crucifer
+  Imperial Navy Delta I Support Frigate:
+    name: Imperial Navy Delta I Support Frigate
+  Imperial Navy Delta II Support Frigate:
+    name: Imperial Navy Delta II Support Frigate
+  Imperial Navy Detective:
+    name: Imperial Navy Detective
+  Imperial Navy Elite Soldier:
+    name: Imperial Navy Elite Soldier
+  Imperial Navy Executioner:
+    name: Imperial Navy Executioner
+  Imperial Navy Gamma I Support Frigate:
+    name: Imperial Navy Gamma I Support Frigate
+  Imperial Navy Gamma II Support Frigate:
+    name: Imperial Navy Gamma II Support Frigate
+  Imperial Navy Scout:
+    name: Imperial Navy Scout
+  Imperial Navy Soldier:
+    name: Imperial Navy Soldier
+  Imperial Navy Squad Leader:
+    name: Imperial Navy Squad Leader
+  Imperial Paladin:
+    name: Imperial Paladin
+  Imperial Sixtus:
+    name: Imperial Sixtus
+  Imperial Sprite:
+    name: Imperial Sprite
+  Imperial Templar Forian:
+    name: Imperial Templar Forian
+  Imperial Templar Forian_old:
+    name: Imperial Templar Forian_old
+  Imperial Templar Napat:
+    name: Imperial Templar Napat
+  Imperial Templar Paladin:
+    name: Imperial Templar Paladin
+  Imperial Templar Paladin_old:
+    name: Imperial Templar Paladin_old
+  Imperial Templar Valok:
+    name: Imperial Templar Valok
+  Independent Crucifier:
+    name: Independent Crucifier
+  Independent Executioner:
+    name: Independent Executioner
+  Independent Green-Crewed Crucifier:
+    name: Independent Green-Crewed Crucifier
+  Independent Green-Crewed Executioner:
+    name: Independent Green-Crewed Executioner
+  Independent Green-Crewed Inquisitor:
+    name: Independent Green-Crewed Inquisitor
+  Independent Green-Crewed Punisher:
+    name: Independent Green-Crewed Punisher
+  Independent Inquisitor:
+    name: Independent Inquisitor
+  Independent Punisher:
+    name: Independent Punisher
+  Independent Veteran Crucifier:
+    name: Independent Veteran Crucifier
+  Independent Veteran Executioner:
+    name: Independent Veteran Executioner
+  Independent Veteran Inquisitor:
+    name: Independent Veteran Inquisitor
+  Independent Veteran Punisher:
+    name: Independent Veteran Punisher
+  Izia Tabar:
+    name: Izia Tabar
+  Sarum Spider:
+    name: Sarum Spider

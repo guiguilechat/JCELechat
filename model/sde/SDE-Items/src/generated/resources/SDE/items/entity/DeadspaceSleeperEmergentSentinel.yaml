@@ -1,5 +1,9 @@
 items:
-  Emergent Keeper: {}
-  Emergent Retainer: {}
-  Emergent Sentinel: {}
-  Emergent Warden: {}
+  Emergent Keeper:
+    name: Emergent Keeper
+  Emergent Retainer:
+    name: Emergent Retainer
+  Emergent Sentinel:
+    name: Emergent Sentinel
+  Emergent Warden:
+    name: Emergent Warden

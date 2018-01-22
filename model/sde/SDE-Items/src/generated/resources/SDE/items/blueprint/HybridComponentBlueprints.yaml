@@ -1,28 +1,44 @@
 items:
   Electromechanical Interface Nexus Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Electromechanical Interface Nexus Blueprint
   Emergent Neurovisual Interface Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Emergent Neurovisual Interface Blueprint
   Fullerene Intercalated Sheets Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Fullerene Intercalated Sheets Blueprint
   Fulleroferrocene Power Conduits Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Fulleroferrocene Power Conduits Blueprint
   Metallofullerene Plating Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Metallofullerene Plating Blueprint
   Nanowire Composites Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Nanowire Composites Blueprint
   Neurovisual Output Analyzer Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Neurovisual Output Analyzer Blueprint
   Optimized Nano-Engines Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Optimized Nano-Engines Blueprint
   Reconfigured Subspace Calibrator Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Reconfigured Subspace Calibrator Blueprint
   Reinforced Metallofullerene Alloys Blueprint:
     IndustryBlueprintRank: 1.0
-  Self-Assembling Nanolattice Blueprint: {}
-  Superconducting Gravimetric Amplifier Blueprint: {}
-  Superconducting Ladar Amplifier Blueprint: {}
-  Superconducting Magnetometric Amplifier Blueprint: {}
-  Superconducting Radar Amplifier Blueprint: {}
+    name: Reinforced Metallofullerene Alloys Blueprint
+  Self-Assembling Nanolattice Blueprint:
+    name: Self-Assembling Nanolattice Blueprint
+  Superconducting Gravimetric Amplifier Blueprint:
+    name: Superconducting Gravimetric Amplifier Blueprint
+  Superconducting Ladar Amplifier Blueprint:
+    name: Superconducting Ladar Amplifier Blueprint
+  Superconducting Magnetometric Amplifier Blueprint:
+    name: Superconducting Magnetometric Amplifier Blueprint
+  Superconducting Radar Amplifier Blueprint:
+    name: Superconducting Radar Amplifier Blueprint
   Warfare Computation Core Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Warfare Computation Core Blueprint

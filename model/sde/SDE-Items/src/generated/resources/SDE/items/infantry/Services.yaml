@@ -1,7 +1,13 @@
 items:
-  Instant Booster 2X: {}
-  Instant Booster 3X: {}
-  Instant Booster 4X: {}
-  Skill Tree Reset and Refund: {}
-  instant_booster4: {}
-  mission_reroll: {}
+  Instant Booster 2X:
+    name: Instant Booster 2X
+  Instant Booster 3X:
+    name: Instant Booster 3X
+  Instant Booster 4X:
+    name: Instant Booster 4X
+  Skill Tree Reset and Refund:
+    name: Skill Tree Reset and Refund
+  instant_booster4:
+    name: instant_booster4
+  mission_reroll:
+    name: mission_reroll

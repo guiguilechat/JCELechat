@@ -2,12 +2,16 @@ items:
   Confessor Blueprint:
     IndustryBlueprintRank: 600.0
     TechLevel: 3
+    name: Confessor Blueprint
   Hecate Blueprint:
     IndustryBlueprintRank: 600.0
     TechLevel: 3
+    name: Hecate Blueprint
   Jackdaw Blueprint:
     IndustryBlueprintRank: 600.0
     TechLevel: 3
+    name: Jackdaw Blueprint
   Svipul Blueprint:
     IndustryBlueprintRank: 600.0
     TechLevel: 3
+    name: Svipul Blueprint

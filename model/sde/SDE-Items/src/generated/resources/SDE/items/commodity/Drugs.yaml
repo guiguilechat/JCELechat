@@ -1,14 +1,27 @@
 items:
-  Blue Pill: {}
-  Crash: {}
-  Crates of Crystal Eggs: {}
-  Crystal Egg: {}
-  Drop: {}
-  Exile: {}
-  Frentix: {}
-  Large Crates of Crystal Eggs: {}
-  Mindflood: {}
-  Nerve Sticks: {}
-  Sooth Sayer: {}
-  Vitoc: {}
-  X-Instinct: {}
+  Blue Pill:
+    name: Blue Pill
+  Crash:
+    name: Crash
+  Crates of Crystal Eggs:
+    name: Crates of Crystal Eggs
+  Crystal Egg:
+    name: Crystal Egg
+  Drop:
+    name: Drop
+  Exile:
+    name: Exile
+  Frentix:
+    name: Frentix
+  Large Crates of Crystal Eggs:
+    name: Large Crates of Crystal Eggs
+  Mindflood:
+    name: Mindflood
+  Nerve Sticks:
+    name: Nerve Sticks
+  Sooth Sayer:
+    name: Sooth Sayer
+  Vitoc:
+    name: Vitoc
+  X-Instinct:
+    name: X-Instinct

@@ -44,6 +44,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Cruise Missile Battery
   Dread Guristas Cruise Missile Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -90,6 +91,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Dread Guristas Cruise Missile Battery
   Dread Guristas Torpedo Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -136,6 +138,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Dread Guristas Torpedo Battery
   Dread Guristas XL Torpedo Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -182,6 +185,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Dread Guristas XL Torpedo Battery
   Guristas Cruise Missile Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -228,6 +232,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Guristas Cruise Missile Battery
   Guristas Torpedo Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -274,6 +279,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Guristas Torpedo Battery
   Guristas XL Torpedo Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -320,6 +326,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Guristas XL Torpedo Battery
   Heavy Missile Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -362,6 +369,7 @@ items:
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
+    name: Heavy Missile Battery
   Light Missile Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -404,6 +412,7 @@ items:
     TargetSwitchDelay: 60000
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
+    name: Light Missile Battery
   Torpedo Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -449,6 +458,7 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: Torpedo Battery
   XL Torpedo Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -494,3 +504,4 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    name: XL Torpedo Battery

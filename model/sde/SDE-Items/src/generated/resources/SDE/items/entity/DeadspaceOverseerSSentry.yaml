@@ -1,26 +1,51 @@
 items:
-  '''True Power'' Assembly Security HQ': {}
-  Angel Central Command: {}
-  Angel Fleet Outpost: {}
-  Angel Retention Facility: {}
-  Blood Raider Central Bastion: {}
-  Blood Raider Fleet Outpost: {}
-  Blood Raider Fleet Stronghold: {}
-  Crimson Sentinel: {}
-  Drone Creation Compound: {}
-  Guristas Fleet Outpost: {}
-  Guristas Fleet Stronghold: {}
-  Hive mother 2_Complex: {}
-  Kois City: {}
-  Kuari Strain Mother: {}
-  Outgrowth Strain Mother: {}
-  Outgrowth Strain Mother_00COSMOS: {}
-  Rakogh Citadel: {}
-  Sansha Fleet Outpost: {}
-  Sansha's Nation Central Bastion: {}
-  Serpentis Administration Facility: {}
-  Serpentis Fleet Outpost: {}
-  Serpentis Fleet Stronghold: {}
-  Station Ultima: {}
-  Swarm Defense Battery: {}
-  Swarm Defense Battery Deluxe: {}
+  '''True Power'' Assembly Security HQ':
+    name: '''True Power'' Assembly Security HQ'
+  Angel Central Command:
+    name: Angel Central Command
+  Angel Fleet Outpost:
+    name: Angel Fleet Outpost
+  Angel Retention Facility:
+    name: Angel Retention Facility
+  Blood Raider Central Bastion:
+    name: Blood Raider Central Bastion
+  Blood Raider Fleet Outpost:
+    name: Blood Raider Fleet Outpost
+  Blood Raider Fleet Stronghold:
+    name: Blood Raider Fleet Stronghold
+  Crimson Sentinel:
+    name: Crimson Sentinel
+  Drone Creation Compound:
+    name: Drone Creation Compound
+  Guristas Fleet Outpost:
+    name: Guristas Fleet Outpost
+  Guristas Fleet Stronghold:
+    name: Guristas Fleet Stronghold
+  Hive mother 2_Complex:
+    name: Hive mother 2_Complex
+  Kois City:
+    name: Kois City
+  Kuari Strain Mother:
+    name: Kuari Strain Mother
+  Outgrowth Strain Mother:
+    name: Outgrowth Strain Mother
+  Outgrowth Strain Mother_00COSMOS:
+    name: Outgrowth Strain Mother_00COSMOS
+  Rakogh Citadel:
+    name: Rakogh Citadel
+  Sansha Fleet Outpost:
+    name: Sansha Fleet Outpost
+  Sansha's Nation Central Bastion:
+    name: Sansha's Nation Central Bastion
+  Serpentis Administration Facility:
+    name: Serpentis Administration Facility
+  Serpentis Fleet Outpost:
+    name: Serpentis Fleet Outpost
+  Serpentis Fleet Stronghold:
+    name: Serpentis Fleet Stronghold
+  Station Ultima:
+    name: Station Ultima
+  Swarm Defense Battery:
+    name: Swarm Defense Battery
+  Swarm Defense Battery Deluxe:
+    name: Swarm Defense Battery Deluxe

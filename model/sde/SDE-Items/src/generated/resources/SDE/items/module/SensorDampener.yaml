@@ -21,6 +21,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionBonus: -15.300000190734863
     TechLevel: 1
+    name: '''Broker'' Remote Sensor Dampener I'
   '''Executive'' Remote Sensor Dampener':
     CapacitorNeed: 20.0
     ChargeGroup1: 911
@@ -43,6 +44,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionBonus: -15.569999694824219
     TechLevel: 1
+    name: '''Executive'' Remote Sensor Dampener'
   Indirect Scanning Dampening Unit I:
     CapacitorNeed: 27.0
     ChargeGroup1: 911
@@ -64,6 +66,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionBonus: -14.489999771118164
     TechLevel: 1
+    name: Indirect Scanning Dampening Unit I
   Kapteyn Compact Sensor Dampener:
     CapacitorNeed: 30.0
     ChargeGroup1: 911
@@ -86,6 +89,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionBonus: -14.5
     TechLevel: 1
+    name: Kapteyn Compact Sensor Dampener
   LFT Enduring Sensor Dampener:
     CapacitorNeed: 20.0
     ChargeGroup1: 911
@@ -108,6 +112,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionBonus: -14.5
     TechLevel: 1
+    name: LFT Enduring Sensor Dampener
   Phased Muon Scoped Sensor Dampener:
     CapacitorNeed: 30.0
     ChargeGroup1: 911
@@ -130,6 +135,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionBonus: -14.5
     TechLevel: 1
+    name: Phased Muon Scoped Sensor Dampener
   Remote Sensor Dampener I:
     CapacitorNeed: 30.0
     ChargeGroup1: 911
@@ -150,6 +156,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionBonus: -13.699999809265137
     TechLevel: 1
+    name: Remote Sensor Dampener I
   Remote Sensor Dampener II:
     CapacitorNeed: 36.0
     ChargeGroup1: 911
@@ -171,6 +178,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionBonus: -15.300000190734863
     TechLevel: 2
+    name: Remote Sensor Dampener II
   Shadow Serpentis Remote Sensor Dampener:
     CapacitorNeed: 24.0
     ChargeGroup1: 911
@@ -194,3 +202,4 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionBonus: -15.84000015258789
     TechLevel: 1
+    name: Shadow Serpentis Remote Sensor Dampener

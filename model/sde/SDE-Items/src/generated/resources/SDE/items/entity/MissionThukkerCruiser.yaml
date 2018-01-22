@@ -1,3 +1,5 @@
 items:
-  Thukker Mercenary Captain: {}
-  Thukker Mercenary Eliminator: {}
+  Thukker Mercenary Captain:
+    name: Thukker Mercenary Captain
+  Thukker Mercenary Eliminator:
+    name: Thukker Mercenary Eliminator

@@ -1,14 +1,27 @@
 items:
-  Anire Scarlet: {}
-  Corpatis Bishop: {}
-  Corpatis Exorcist: {}
-  Corpatis Fanatic: {}
-  Corpatis Phantom: {}
-  Corpatis Seer: {}
-  Corpatis Shade: {}
-  Dark Corpatis Bishop: {}
-  Dark Corpatis Exorcist: {}
-  Dark Corpatis Fanatic: {}
-  Dark Corpatis Phantom: {}
-  Dark Corpatis Seer: {}
-  Dark Corpatis Shade: {}
+  Anire Scarlet:
+    name: Anire Scarlet
+  Corpatis Bishop:
+    name: Corpatis Bishop
+  Corpatis Exorcist:
+    name: Corpatis Exorcist
+  Corpatis Fanatic:
+    name: Corpatis Fanatic
+  Corpatis Phantom:
+    name: Corpatis Phantom
+  Corpatis Seer:
+    name: Corpatis Seer
+  Corpatis Shade:
+    name: Corpatis Shade
+  Dark Corpatis Bishop:
+    name: Dark Corpatis Bishop
+  Dark Corpatis Exorcist:
+    name: Dark Corpatis Exorcist
+  Dark Corpatis Fanatic:
+    name: Dark Corpatis Fanatic
+  Dark Corpatis Phantom:
+    name: Dark Corpatis Phantom
+  Dark Corpatis Seer:
+    name: Dark Corpatis Seer
+  Dark Corpatis Shade:
+    name: Dark Corpatis Shade

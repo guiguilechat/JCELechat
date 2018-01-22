@@ -5,201 +5,235 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Cybernetic Subprocessor - Advanced
   Cybernetic Subprocessor - Basic:
     Implantness: 4
     IntelligenceBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Cybernetic Subprocessor - Basic
   Cybernetic Subprocessor - Elite:
     Implantness: 4
     IntelligenceBonus: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Cybernetic Subprocessor - Elite
   Cybernetic Subprocessor - Improved:
     Implantness: 4
     IntelligenceBonus: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Cybernetic Subprocessor - Improved
   Cybernetic Subprocessor - Standard:
     Implantness: 4
     IntelligenceBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Cybernetic Subprocessor - Standard
   Limited Cybernetic Subprocessor:
     Implantness: 4
     IntelligenceBonus: 1
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Limited Cybernetic Subprocessor
   Limited Cybernetic Subprocessor - Beta:
     Implantness: 4
     IntelligenceBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Limited Cybernetic Subprocessor - Beta
   Limited Memory Augmentation:
     Implantness: 2
     MemoryBonus: 1
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Limited Memory Augmentation
   Limited Memory Augmentation - Beta:
     Implantness: 2
     MemoryBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Limited Memory Augmentation - Beta
   Limited Neural Boost:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
     WillpowerBonus: 1
+    name: Limited Neural Boost
   Limited Neural Boost - Beta:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
     WillpowerBonus: 2
+    name: Limited Neural Boost - Beta
   Limited Ocular Filter:
     Implantness: 1
     PerceptionBonus: 1
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Limited Ocular Filter
   Limited Ocular Filter - Beta:
     Implantness: 1
     PerceptionBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Limited Ocular Filter - Beta
   Limited Social Adaptation Chip:
     CharismaBonus: 1
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Limited Social Adaptation Chip
   Limited Social Adaptation Chip - Beta:
     CharismaBonus: 2
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Limited Social Adaptation Chip - Beta
   Memory Augmentation - Advanced:
     Implantness: 2
     MemoryBonus: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Memory Augmentation - Advanced
   Memory Augmentation - Basic:
     Implantness: 2
     MemoryBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Memory Augmentation - Basic
   Memory Augmentation - Elite:
     Implantness: 2
     MemoryBonus: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Memory Augmentation - Elite
   Memory Augmentation - Improved:
     Implantness: 2
     MemoryBonus: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Memory Augmentation - Improved
   Memory Augmentation - Standard:
     Implantness: 2
     MemoryBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Memory Augmentation - Standard
   Neural Boost - Advanced:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
     WillpowerBonus: 6
+    name: Neural Boost - Advanced
   Neural Boost - Basic:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
     WillpowerBonus: 3
+    name: Neural Boost - Basic
   Neural Boost - Elite:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
     WillpowerBonus: 7
+    name: Neural Boost - Elite
   Neural Boost - Improved:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
     WillpowerBonus: 5
+    name: Neural Boost - Improved
   Neural Boost - Standard:
     Implantness: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
     WillpowerBonus: 4
+    name: Neural Boost - Standard
   Ocular Filter - Advanced:
     Implantness: 1
     PerceptionBonus: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Ocular Filter - Advanced
   Ocular Filter - Basic:
     Implantness: 1
     PerceptionBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Ocular Filter - Basic
   Ocular Filter - Elite:
     Implantness: 1
     PerceptionBonus: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Ocular Filter - Elite
   Ocular Filter - Improved:
     Implantness: 1
     PerceptionBonus: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Ocular Filter - Improved
   Ocular Filter - Standard:
     Implantness: 1
     PerceptionBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Ocular Filter - Standard
   Social Adaptation Chip - Advanced:
     CharismaBonus: 6
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    name: Social Adaptation Chip - Advanced
   Social Adaptation Chip - Basic:
     CharismaBonus: 3
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    name: Social Adaptation Chip - Basic
   Social Adaptation Chip - Improved:
     CharismaBonus: 5
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    name: Social Adaptation Chip - Improved
   Social Adaptation Chip - Standard:
     CharismaBonus: 4
     Implantness: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    name: Social Adaptation Chip - Standard

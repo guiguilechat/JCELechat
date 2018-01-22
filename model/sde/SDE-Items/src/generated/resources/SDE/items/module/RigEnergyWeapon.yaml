@@ -9,6 +9,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 50
+    name: Capital Algid Energy Administrations Unit I
   Capital Algid Energy Administrations Unit II:
     CpuNeedBonus: -15
     DamageMultiplier: 1.0
@@ -20,6 +21,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 75
+    name: Capital Algid Energy Administrations Unit II
   Capital Energy Ambit Extension I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -30,6 +32,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 50
+    name: Capital Energy Ambit Extension I
   Capital Energy Ambit Extension II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -41,6 +44,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 75
+    name: Capital Energy Ambit Extension II
   Capital Energy Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -50,6 +54,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    name: Capital Energy Burst Aerator I
   Capital Energy Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -60,6 +65,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    name: Capital Energy Burst Aerator II
   Capital Energy Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
@@ -69,6 +75,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    name: Capital Energy Collision Accelerator I
   Capital Energy Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
@@ -79,6 +86,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    name: Capital Energy Collision Accelerator II
   Capital Energy Discharge Elutriation I:
     CapNeedBonus: -20
     DamageMultiplier: 1.0
@@ -89,6 +97,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Capital Energy Discharge Elutriation I
   Capital Energy Discharge Elutriation II:
     CapNeedBonus: -25
     DamageMultiplier: 1.0
@@ -100,6 +109,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Capital Energy Discharge Elutriation II
   Capital Energy Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -110,6 +120,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Capital Energy Locus Coordinator I
   Capital Energy Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -121,6 +132,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Capital Energy Locus Coordinator II
   Capital Energy Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -131,6 +143,7 @@ items:
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Capital Energy Metastasis Adjuster I
   Capital Energy Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -142,6 +155,7 @@ items:
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Capital Energy Metastasis Adjuster II
   Large Algid Energy Administrations Unit I:
     CpuNeedBonus: -10
     DamageMultiplier: 1.0
@@ -152,6 +166,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 50
+    name: Large Algid Energy Administrations Unit I
   Large Algid Energy Administrations Unit II:
     CpuNeedBonus: -15
     DamageMultiplier: 1.0
@@ -163,6 +178,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 75
+    name: Large Algid Energy Administrations Unit II
   Large Energy Ambit Extension I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -172,6 +188,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 50
+    name: Large Energy Ambit Extension I
   Large Energy Ambit Extension II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -182,6 +199,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 75
+    name: Large Energy Ambit Extension II
   Large Energy Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -191,6 +209,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    name: Large Energy Burst Aerator I
   Large Energy Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -201,6 +220,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    name: Large Energy Burst Aerator II
   Large Energy Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
@@ -210,6 +230,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    name: Large Energy Collision Accelerator I
   Large Energy Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
@@ -220,6 +241,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    name: Large Energy Collision Accelerator II
   Large Energy Discharge Elutriation I:
     CapNeedBonus: -20
     DamageMultiplier: 1.0
@@ -230,6 +252,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Large Energy Discharge Elutriation I
   Large Energy Discharge Elutriation II:
     CapNeedBonus: -25
     DamageMultiplier: 1.0
@@ -241,6 +264,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Large Energy Discharge Elutriation II
   Large Energy Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -251,6 +275,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Large Energy Locus Coordinator I
   Large Energy Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -262,6 +287,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Large Energy Locus Coordinator II
   Large Energy Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -272,6 +298,7 @@ items:
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Large Energy Metastasis Adjuster I
   Large Energy Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -283,6 +310,7 @@ items:
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Large Energy Metastasis Adjuster II
   Medium Algid Energy Administrations Unit I:
     CpuNeedBonus: -10
     DamageMultiplier: 1.0
@@ -293,6 +321,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 50
+    name: Medium Algid Energy Administrations Unit I
   Medium Algid Energy Administrations Unit II:
     CpuNeedBonus: -15
     DamageMultiplier: 1.0
@@ -304,6 +333,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 75
+    name: Medium Algid Energy Administrations Unit II
   Medium Energy Ambit Extension I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -314,6 +344,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 50
+    name: Medium Energy Ambit Extension I
   Medium Energy Ambit Extension II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -325,6 +356,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 75
+    name: Medium Energy Ambit Extension II
   Medium Energy Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -334,6 +366,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    name: Medium Energy Burst Aerator I
   Medium Energy Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -344,6 +377,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    name: Medium Energy Burst Aerator II
   Medium Energy Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
@@ -353,6 +387,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    name: Medium Energy Collision Accelerator I
   Medium Energy Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
@@ -363,6 +398,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    name: Medium Energy Collision Accelerator II
   Medium Energy Discharge Elutriation I:
     CapNeedBonus: -20
     DamageMultiplier: 1.0
@@ -373,6 +409,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Medium Energy Discharge Elutriation I
   Medium Energy Discharge Elutriation II:
     CapNeedBonus: -25
     DamageMultiplier: 1.0
@@ -384,6 +421,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Medium Energy Discharge Elutriation II
   Medium Energy Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -394,6 +432,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Medium Energy Locus Coordinator I
   Medium Energy Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -405,6 +444,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Medium Energy Locus Coordinator II
   Medium Energy Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -415,6 +455,7 @@ items:
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Medium Energy Metastasis Adjuster I
   Medium Energy Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -426,6 +467,7 @@ items:
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Medium Energy Metastasis Adjuster II
   Small Algid Energy Administrations Unit I:
     CpuNeedBonus: -10
     DamageMultiplier: 1.0
@@ -436,6 +478,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 50
+    name: Small Algid Energy Administrations Unit I
   Small Algid Energy Administrations Unit II:
     CpuNeedBonus: -15
     DamageMultiplier: 1.0
@@ -447,6 +490,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 75
+    name: Small Algid Energy Administrations Unit II
   Small Energy Ambit Extension I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -457,6 +501,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 50
+    name: Small Energy Ambit Extension I
   Small Energy Ambit Extension II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -468,6 +513,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 75
+    name: Small Energy Ambit Extension II
   Small Energy Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -477,6 +523,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    name: Small Energy Burst Aerator I
   Small Energy Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -487,6 +534,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    name: Small Energy Burst Aerator II
   Small Energy Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
@@ -496,6 +544,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    name: Small Energy Collision Accelerator I
   Small Energy Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
@@ -506,6 +555,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    name: Small Energy Collision Accelerator II
   Small Energy Discharge Elutriation I:
     CapNeedBonus: -20
     DamageMultiplier: 1.0
@@ -516,6 +566,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Small Energy Discharge Elutriation I
   Small Energy Discharge Elutriation II:
     CapNeedBonus: -25
     DamageMultiplier: 1.0
@@ -527,6 +578,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Small Energy Discharge Elutriation II
   Small Energy Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -537,6 +589,7 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Small Energy Locus Coordinator I
   Small Energy Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -548,6 +601,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Small Energy Locus Coordinator II
   Small Energy Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -558,6 +612,7 @@ items:
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    name: Small Energy Metastasis Adjuster I
   Small Energy Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -569,3 +624,4 @@ items:
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    name: Small Energy Metastasis Adjuster II

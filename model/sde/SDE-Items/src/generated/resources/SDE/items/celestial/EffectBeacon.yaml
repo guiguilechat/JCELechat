@@ -11,6 +11,7 @@ items:
     SpeedFactor: 1.0
     StasisWebStrengthMultiplier: 0.8500000238418579
     TrackingSpeedMultiplier: 1.0
+    name: Black Hole Effect Beacon Class 1
   Black Hole Effect Beacon Class 2:
     AgilityMultiplier: 1.2200000286102295
     AoeVelocityMultiplier: 1.440000057220459
@@ -23,6 +24,7 @@ items:
     SpeedFactor: 1.0
     StasisWebStrengthMultiplier: 0.7799999713897705
     TrackingSpeedMultiplier: 1.0
+    name: Black Hole Effect Beacon Class 2
   Black Hole Effect Beacon Class 3:
     AgilityMultiplier: 1.2899999618530273
     AoeVelocityMultiplier: 1.5800000429153442
@@ -35,6 +37,7 @@ items:
     SpeedFactor: 1.0
     StasisWebStrengthMultiplier: 0.7099999785423279
     TrackingSpeedMultiplier: 1.0
+    name: Black Hole Effect Beacon Class 3
   Black Hole Effect Beacon Class 4:
     AgilityMultiplier: 1.3600000143051147
     AoeVelocityMultiplier: 1.7200000286102295
@@ -47,6 +50,7 @@ items:
     SpeedFactor: 1.0
     StasisWebStrengthMultiplier: 0.6399999856948853
     TrackingSpeedMultiplier: 1.0
+    name: Black Hole Effect Beacon Class 4
   Black Hole Effect Beacon Class 5:
     AgilityMultiplier: 1.4299999475479126
     AoeVelocityMultiplier: 1.8600000143051147
@@ -59,6 +63,7 @@ items:
     SpeedFactor: 1.0
     StasisWebStrengthMultiplier: 0.5699999928474426
     TrackingSpeedMultiplier: 1.0
+    name: Black Hole Effect Beacon Class 5
   Black Hole Effect Beacon Class 6:
     AgilityMultiplier: 1.5
     AoeVelocityMultiplier: 2.0
@@ -71,6 +76,7 @@ items:
     SpeedFactor: 1.0
     StasisWebStrengthMultiplier: 0.5
     TrackingSpeedMultiplier: 1.0
+    name: Black Hole Effect Beacon Class 6
   Cataclysmic Variable Effect Beacon Class 1:
     ArmorDamageAmountMultiplier: 0.8500000238418579
     ArmorDamageAmountMultiplierRemote: 1.2999999523162842
@@ -85,6 +91,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Cataclysmic Variable Effect Beacon Class 1
   Cataclysmic Variable Effect Beacon Class 2:
     ArmorDamageAmountMultiplier: 0.7799999713897705
     ArmorDamageAmountMultiplierRemote: 1.440000057220459
@@ -99,6 +106,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Cataclysmic Variable Effect Beacon Class 2
   Cataclysmic Variable Effect Beacon Class 3:
     ArmorDamageAmountMultiplier: 0.7099999785423279
     ArmorDamageAmountMultiplierRemote: 1.5800000429153442
@@ -113,6 +121,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Cataclysmic Variable Effect Beacon Class 3
   Cataclysmic Variable Effect Beacon Class 4:
     ArmorDamageAmountMultiplier: 0.6399999856948853
     ArmorDamageAmountMultiplierRemote: 1.7200000286102295
@@ -127,6 +136,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Cataclysmic Variable Effect Beacon Class 4
   Cataclysmic Variable Effect Beacon Class 5:
     ArmorDamageAmountMultiplier: 0.5699999928474426
     ArmorDamageAmountMultiplierRemote: 1.8600000143051147
@@ -141,6 +151,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Cataclysmic Variable Effect Beacon Class 5
   Cataclysmic Variable Effect Beacon Class 6:
     ArmorDamageAmountMultiplier: 0.5
     ArmorDamageAmountMultiplierRemote: 2.0
@@ -155,6 +166,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Cataclysmic Variable Effect Beacon Class 6
   Drifter Incursion 3 to 4 Defeat:
     ArmorEmDamageResistanceBonus: 10
     ArmorExplosiveDamageResistanceBonus: 10
@@ -172,6 +184,7 @@ items:
     SpeedFactor: -10.0
     SystemEffectDamageReduction: -10
     TrackingSpeedMultiplier: 1.0
+    name: Drifter Incursion 3 to 4 Defeat
   Drifter Incursion 3 to 4 Victory:
     ArmorEmDamageResistanceBonus: -30
     ArmorExplosiveDamageResistanceBonus: -30
@@ -189,6 +202,7 @@ items:
     SpeedFactor: 30.0
     SystemEffectDamageReduction: 30
     TrackingSpeedMultiplier: 1.0
+    name: Drifter Incursion 3 to 4 Victory
   Drifter Incursion 5 to 7 Defeat:
     ArmorEmDamageResistanceBonus: 20
     ArmorExplosiveDamageResistanceBonus: 20
@@ -206,6 +220,7 @@ items:
     SpeedFactor: -20.0
     SystemEffectDamageReduction: -20
     TrackingSpeedMultiplier: 1.0
+    name: Drifter Incursion 5 to 7 Defeat
   Drifter Incursion 5 to 7 Victory:
     ArmorEmDamageResistanceBonus: -20
     ArmorExplosiveDamageResistanceBonus: -20
@@ -223,6 +238,7 @@ items:
     SpeedFactor: 20.0
     SystemEffectDamageReduction: 20
     TrackingSpeedMultiplier: 1.0
+    name: Drifter Incursion 5 to 7 Victory
   Drifter Incursion 8+ Defeat:
     ArmorEmDamageResistanceBonus: 30
     ArmorExplosiveDamageResistanceBonus: 30
@@ -240,6 +256,7 @@ items:
     SpeedFactor: -30.0
     SystemEffectDamageReduction: -30
     TrackingSpeedMultiplier: 1.0
+    name: Drifter Incursion 8+ Defeat
   Drifter Incursion 8+ Victory:
     ArmorEmDamageResistanceBonus: -10
     ArmorExplosiveDamageResistanceBonus: -10
@@ -257,6 +274,7 @@ items:
     SpeedFactor: 10.0
     SystemEffectDamageReduction: 10
     TrackingSpeedMultiplier: 1.0
+    name: Drifter Incursion 8+ Victory
   Electronic Effect Beacon:
     ArmorHPMultiplier: 1.0
     MaxTargetRangeBonus: -75.0
@@ -265,6 +283,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Electronic Effect Beacon
   Incursion Effect Assault:
     ArmorEmDamageResistanceBonus: 25
     ArmorExplosiveDamageResistanceBonus: 25
@@ -276,6 +295,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Incursion Effect Assault
   Incursion Effect HQ:
     ArmorEmDamageResistanceBonus: 50
     ArmorExplosiveDamageResistanceBonus: 50
@@ -287,6 +307,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Incursion Effect HQ
   'Incursion ship attributes effects Assault ':
     ArmorEmDamageResistanceBonus: 25
     ArmorExplosiveDamageResistanceBonus: 25
@@ -303,6 +324,7 @@ items:
     SpeedFactor: 1.0
     SystemEffectDamageReduction: -25
     TrackingSpeedMultiplier: 1.0
+    name: 'Incursion ship attributes effects Assault '
   Incursion ship attributes effects HQ:
     ArmorEmDamageResistanceBonus: 50
     ArmorExplosiveDamageResistanceBonus: 50
@@ -319,6 +341,7 @@ items:
     SpeedFactor: 1.0
     SystemEffectDamageReduction: -50
     TrackingSpeedMultiplier: 1.0
+    name: Incursion ship attributes effects HQ
   Incursion ship attributes effects Vanguard:
     ArmorEmDamageResistanceBonus: 10
     ArmorExplosiveDamageResistanceBonus: 10
@@ -335,6 +358,7 @@ items:
     SpeedFactor: 1.0
     SystemEffectDamageReduction: -10
     TrackingSpeedMultiplier: 1.0
+    name: Incursion ship attributes effects Vanguard
   Magnetar Effect Beacon Class 1:
     AoeCloudSizeMultiplier: 1.2999999523162842
     ArmorHPMultiplier: 1.0
@@ -345,6 +369,7 @@ items:
     SpeedFactor: 1.0
     TargetPainterStrengthMultiplier: 0.8500000238418579
     TrackingSpeedMultiplier: 0.8500000238418579
+    name: Magnetar Effect Beacon Class 1
   Magnetar Effect Beacon Class 2:
     AoeCloudSizeMultiplier: 1.440000057220459
     ArmorHPMultiplier: 1.0
@@ -355,6 +380,7 @@ items:
     SpeedFactor: 1.0
     TargetPainterStrengthMultiplier: 0.7799999713897705
     TrackingSpeedMultiplier: 0.7799999713897705
+    name: Magnetar Effect Beacon Class 2
   Magnetar Effect Beacon Class 3:
     AoeCloudSizeMultiplier: 1.5800000429153442
     ArmorHPMultiplier: 1.0
@@ -365,6 +391,7 @@ items:
     SpeedFactor: 1.0
     TargetPainterStrengthMultiplier: 0.7099999785423279
     TrackingSpeedMultiplier: 0.7099999785423279
+    name: Magnetar Effect Beacon Class 3
   Magnetar Effect Beacon Class 4:
     AoeCloudSizeMultiplier: 1.7200000286102295
     ArmorHPMultiplier: 1.0
@@ -375,6 +402,7 @@ items:
     SpeedFactor: 1.0
     TargetPainterStrengthMultiplier: 0.6399999856948853
     TrackingSpeedMultiplier: 0.6399999856948853
+    name: Magnetar Effect Beacon Class 4
   Magnetar Effect Beacon Class 5:
     AoeCloudSizeMultiplier: 1.8600000143051147
     ArmorHPMultiplier: 1.0
@@ -385,6 +413,7 @@ items:
     SpeedFactor: 1.0
     TargetPainterStrengthMultiplier: 0.5699999928474426
     TrackingSpeedMultiplier: 0.5699999928474426
+    name: Magnetar Effect Beacon Class 5
   Magnetar Effect Beacon Class 6:
     AoeCloudSizeMultiplier: 2.0
     ArmorHPMultiplier: 1.0
@@ -395,6 +424,7 @@ items:
     SpeedFactor: 1.0
     TargetPainterStrengthMultiplier: 0.5
     TrackingSpeedMultiplier: 0.5
+    name: Magnetar Effect Beacon Class 6
   Omni Effect Beacon:
     ArmorHPMultiplier: 1.0
     DurationBonus: -50
@@ -405,6 +435,7 @@ items:
     SpeedFactor: 1.0
     TrackingSpeedBonus: -50.0
     TrackingSpeedMultiplier: 1.0
+    name: Omni Effect Beacon
   Pulsar Effect Beacon Class 1:
     ArmorEmDamageResistanceBonus: 15
     ArmorExplosiveDamageResistanceBonus: 15
@@ -419,6 +450,7 @@ items:
     SignatureRadiusMultiplier: 1.2999999523162842
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Pulsar Effect Beacon Class 1
   Pulsar Effect Beacon Class 2:
     ArmorEmDamageResistanceBonus: 22
     ArmorExplosiveDamageResistanceBonus: 22
@@ -433,6 +465,7 @@ items:
     SignatureRadiusMultiplier: 1.440000057220459
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Pulsar Effect Beacon Class 2
   Pulsar Effect Beacon Class 3:
     ArmorEmDamageResistanceBonus: 29
     ArmorExplosiveDamageResistanceBonus: 29
@@ -447,6 +480,7 @@ items:
     SignatureRadiusMultiplier: 1.5800000429153442
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Pulsar Effect Beacon Class 3
   Pulsar Effect Beacon Class 4:
     ArmorEmDamageResistanceBonus: 36
     ArmorExplosiveDamageResistanceBonus: 36
@@ -461,6 +495,7 @@ items:
     SignatureRadiusMultiplier: 1.7200000286102295
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Pulsar Effect Beacon Class 4
   Pulsar Effect Beacon Class 5:
     ArmorEmDamageResistanceBonus: 43
     ArmorExplosiveDamageResistanceBonus: 43
@@ -475,6 +510,7 @@ items:
     SignatureRadiusMultiplier: 1.8600000143051147
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Pulsar Effect Beacon Class 5
   Pulsar Effect Beacon Class 6:
     ArmorEmDamageResistanceBonus: 50
     ArmorExplosiveDamageResistanceBonus: 50
@@ -489,6 +525,7 @@ items:
     SignatureRadiusMultiplier: 2.0
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Pulsar Effect Beacon Class 6
   Red Giant Beacon Class 1:
     ArmorHPMultiplier: 1.0
     EmpFieldRangeMultiplier: 1.2999999523162842
@@ -500,6 +537,7 @@ items:
     SmartbombDamageMultiplier: 1.2999999523162842
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Red Giant Beacon Class 1
   Red Giant Beacon Class 2:
     ArmorHPMultiplier: 1.0
     EmpFieldRangeMultiplier: 1.440000057220459
@@ -511,6 +549,7 @@ items:
     SmartbombDamageMultiplier: 1.440000057220459
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Red Giant Beacon Class 2
   Red Giant Beacon Class 3:
     ArmorHPMultiplier: 1.0
     EmpFieldRangeMultiplier: 1.5800000429153442
@@ -522,6 +561,7 @@ items:
     SmartbombDamageMultiplier: 1.5800000429153442
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Red Giant Beacon Class 3
   Red Giant Beacon Class 4:
     ArmorHPMultiplier: 1.0
     EmpFieldRangeMultiplier: 1.7200000286102295
@@ -533,6 +573,7 @@ items:
     SmartbombDamageMultiplier: 1.7200000286102295
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Red Giant Beacon Class 4
   Red Giant Beacon Class 5:
     ArmorHPMultiplier: 1.0
     EmpFieldRangeMultiplier: 1.8600000143051147
@@ -544,6 +585,7 @@ items:
     SmartbombDamageMultiplier: 1.8600000143051147
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Red Giant Beacon Class 5
   Red Giant Beacon Class 6:
     ArmorHPMultiplier: 1.0
     EmpFieldRangeMultiplier: 2.0
@@ -555,6 +597,7 @@ items:
     SmartbombDamageMultiplier: 2.0
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Red Giant Beacon Class 6
   Tournament Resistance Lowering Beacon:
     ArmorEmDamageResistanceBonus: 50
     ArmorExplosiveDamageResistanceBonus: 50
@@ -570,6 +613,7 @@ items:
     ShieldThermalDamageResistanceBonus: 50
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Tournament Resistance Lowering Beacon
   Wolf Rayet Effect Beacon Class 1:
     ArmorHPMultiplier: 1.2999999523162842
     MaxTargetRangeMultiplier: 1.0
@@ -583,6 +627,7 @@ items:
     SmallWeaponDamageMultiplier: 1.600000023841858
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Wolf Rayet Effect Beacon Class 1
   Wolf Rayet Effect Beacon Class 2:
     ArmorHPMultiplier: 1.440000057220459
     MaxTargetRangeMultiplier: 1.0
@@ -596,6 +641,7 @@ items:
     SmallWeaponDamageMultiplier: 1.8799999952316284
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Wolf Rayet Effect Beacon Class 2
   Wolf Rayet Effect Beacon Class 3:
     ArmorHPMultiplier: 1.5800000429153442
     MaxTargetRangeMultiplier: 1.0
@@ -609,6 +655,7 @@ items:
     SmallWeaponDamageMultiplier: 2.1600000858306885
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Wolf Rayet Effect Beacon Class 3
   Wolf Rayet Effect Beacon Class 4:
     ArmorHPMultiplier: 1.7200000286102295
     MaxTargetRangeMultiplier: 1.0
@@ -622,6 +669,7 @@ items:
     SmallWeaponDamageMultiplier: 2.440000057220459
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Wolf Rayet Effect Beacon Class 4
   Wolf Rayet Effect Beacon Class 5:
     ArmorHPMultiplier: 1.8600000143051147
     MaxTargetRangeMultiplier: 1.0
@@ -635,6 +683,7 @@ items:
     SmallWeaponDamageMultiplier: 2.7200000286102295
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Wolf Rayet Effect Beacon Class 5
   Wolf Rayet Effect Beacon Class 6:
     ArmorHPMultiplier: 2.0
     MaxTargetRangeMultiplier: 1.0
@@ -648,3 +697,4 @@ items:
     SmallWeaponDamageMultiplier: 3.0
     SpeedFactor: 1.0
     TrackingSpeedMultiplier: 1.0
+    name: Wolf Rayet Effect Beacon Class 6

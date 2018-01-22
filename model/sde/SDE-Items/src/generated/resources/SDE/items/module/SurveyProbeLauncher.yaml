@@ -14,6 +14,7 @@ items:
     Slots: 1
     Speed: 2000
     TechLevel: 1
+    name: Survey Probe Launcher I
   Survey Probe Launcher II:
     ChargeGroup2: 492
     ChargeRate: 1
@@ -31,3 +32,4 @@ items:
     Speed: 2000
     SurveyProbeDurationBonus: -10
     TechLevel: 2
+    name: Survey Probe Launcher II

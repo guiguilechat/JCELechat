@@ -10,6 +10,7 @@ items:
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 720
     StructureItemVisualFlag: 1
+    name: Standup Cloning Center I
   Standup Market Hub I:
     CanFitShipType1: 35833
     CanFitShipType2: 35834
@@ -24,3 +25,4 @@ items:
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 2880
     StructureItemVisualFlag: 1
+    name: Standup Market Hub I

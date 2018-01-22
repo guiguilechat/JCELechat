@@ -1,10 +1,19 @@
 items:
-  Planet (Barren): {}
-  Planet (Gas): {}
-  Planet (Ice): {}
-  Planet (Lava): {}
-  Planet (Oceanic): {}
-  Planet (Plasma): {}
-  Planet (Shattered): {}
-  Planet (Storm): {}
-  Planet (Temperate): {}
+  Planet (Barren):
+    name: Planet (Barren)
+  Planet (Gas):
+    name: Planet (Gas)
+  Planet (Ice):
+    name: Planet (Ice)
+  Planet (Lava):
+    name: Planet (Lava)
+  Planet (Oceanic):
+    name: Planet (Oceanic)
+  Planet (Plasma):
+    name: Planet (Plasma)
+  Planet (Shattered):
+    name: Planet (Shattered)
+  Planet (Storm):
+    name: Planet (Storm)
+  Planet (Temperate):
+    name: Planet (Temperate)

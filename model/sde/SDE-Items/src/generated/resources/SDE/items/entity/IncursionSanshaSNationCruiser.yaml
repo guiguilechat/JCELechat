@@ -1,11 +1,21 @@
 items:
-  Antem Neo: {}
-  Arnon Epithalamus: {}
-  Auga Hypophysis: {}
-  Gang booster test NPC: {}
-  Lirsautton Parichaya: {}
-  Mara Paleo: {}
-  Raa Thalamus: {}
-  Romi Thalamus: {}
-  Uitra Telen: {}
-  Vylade Dien: {}
+  Antem Neo:
+    name: Antem Neo
+  Arnon Epithalamus:
+    name: Arnon Epithalamus
+  Auga Hypophysis:
+    name: Auga Hypophysis
+  Gang booster test NPC:
+    name: Gang booster test NPC
+  Lirsautton Parichaya:
+    name: Lirsautton Parichaya
+  Mara Paleo:
+    name: Mara Paleo
+  Raa Thalamus:
+    name: Raa Thalamus
+  Romi Thalamus:
+    name: Romi Thalamus
+  Uitra Telen:
+    name: Uitra Telen
+  Vylade Dien:
+    name: Vylade Dien

@@ -1,26 +1,51 @@
 items:
-  Barracuda Alvi: {}
-  Brute Render Alvi: {}
-  COSMOS Marauder Drone: {}
-  COSMOS Ripper Drone: {}
-  Decimator Alvi: {}
-  Devilfish Alvi: {}
-  Hunter Alvi: {}
-  Infester Alvi: {}
-  Raider Alvi: {}
-  Render Alvi: {}
-  Silverfish Alvi: {}
-  Spider Drone I: {}
-  Spider Drone II: {}
-  Splinter Alvi: {}
-  Strain Barracuda Alvi: {}
-  Strain Decimator Alvi: {}
-  Strain Devilfish Alvi: {}
-  Strain Hunter Alvi: {}
-  Strain Infester Alvi: {}
-  Strain Raider Alvi: {}
-  Strain Render Alvi: {}
-  Strain Silverfish Alvi: {}
-  Strain Splinter Alvi: {}
-  Strain Sunder Alvi: {}
-  Sunder Alvi: {}
+  Barracuda Alvi:
+    name: Barracuda Alvi
+  Brute Render Alvi:
+    name: Brute Render Alvi
+  COSMOS Marauder Drone:
+    name: COSMOS Marauder Drone
+  COSMOS Ripper Drone:
+    name: COSMOS Ripper Drone
+  Decimator Alvi:
+    name: Decimator Alvi
+  Devilfish Alvi:
+    name: Devilfish Alvi
+  Hunter Alvi:
+    name: Hunter Alvi
+  Infester Alvi:
+    name: Infester Alvi
+  Raider Alvi:
+    name: Raider Alvi
+  Render Alvi:
+    name: Render Alvi
+  Silverfish Alvi:
+    name: Silverfish Alvi
+  Spider Drone I:
+    name: Spider Drone I
+  Spider Drone II:
+    name: Spider Drone II
+  Splinter Alvi:
+    name: Splinter Alvi
+  Strain Barracuda Alvi:
+    name: Strain Barracuda Alvi
+  Strain Decimator Alvi:
+    name: Strain Decimator Alvi
+  Strain Devilfish Alvi:
+    name: Strain Devilfish Alvi
+  Strain Hunter Alvi:
+    name: Strain Hunter Alvi
+  Strain Infester Alvi:
+    name: Strain Infester Alvi
+  Strain Raider Alvi:
+    name: Strain Raider Alvi
+  Strain Render Alvi:
+    name: Strain Render Alvi
+  Strain Silverfish Alvi:
+    name: Strain Silverfish Alvi
+  Strain Splinter Alvi:
+    name: Strain Splinter Alvi
+  Strain Sunder Alvi:
+    name: Strain Sunder Alvi
+  Sunder Alvi:
+    name: Sunder Alvi

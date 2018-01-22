@@ -1,11 +1,21 @@
 items:
-  Sentient Alvus Controller: {}
-  Sentient Alvus Creator: {}
-  Sentient Alvus Queen: {}
-  Sentient Alvus Ruler: {}
-  Sentient Domination Alvus: {}
-  Sentient Matriarch Alvus: {}
-  Sentient Patriarch Alvus: {}
-  Sentient Spearhead Alvus: {}
-  Sentient Supreme Alvus Parasite: {}
-  Sentient Swarm Preserver Alvus: {}
+  Sentient Alvus Controller:
+    name: Sentient Alvus Controller
+  Sentient Alvus Creator:
+    name: Sentient Alvus Creator
+  Sentient Alvus Queen:
+    name: Sentient Alvus Queen
+  Sentient Alvus Ruler:
+    name: Sentient Alvus Ruler
+  Sentient Domination Alvus:
+    name: Sentient Domination Alvus
+  Sentient Matriarch Alvus:
+    name: Sentient Matriarch Alvus
+  Sentient Patriarch Alvus:
+    name: Sentient Patriarch Alvus
+  Sentient Spearhead Alvus:
+    name: Sentient Spearhead Alvus
+  Sentient Supreme Alvus Parasite:
+    name: Sentient Supreme Alvus Parasite
+  Sentient Swarm Preserver Alvus:
+    name: Sentient Swarm Preserver Alvus

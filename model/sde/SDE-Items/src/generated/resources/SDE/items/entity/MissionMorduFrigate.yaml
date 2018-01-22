@@ -1,9 +1,17 @@
 items:
-  Mordur Bloodsworn: {}
-  Mordus Bounty Hunter: {}
-  Mordus Gladius: {}
-  Mordus Katana: {}
-  Mordus Rapier: {}
-  Mordus Rookie: {}
-  Mordus Sabre: {}
-  Mordus Squad Leader: {}
+  Mordur Bloodsworn:
+    name: Mordur Bloodsworn
+  Mordus Bounty Hunter:
+    name: Mordus Bounty Hunter
+  Mordus Gladius:
+    name: Mordus Gladius
+  Mordus Katana:
+    name: Mordus Katana
+  Mordus Rapier:
+    name: Mordus Rapier
+  Mordus Rookie:
+    name: Mordus Rookie
+  Mordus Sabre:
+    name: Mordus Sabre
+  Mordus Squad Leader:
+    name: Mordus Squad Leader

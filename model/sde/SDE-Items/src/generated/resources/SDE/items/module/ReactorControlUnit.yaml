@@ -12,6 +12,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: '''Portcullis'' Reactor Control Unit I'
   Ahremen's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -25,6 +26,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Ahremen's Modified Reactor Control Unit
   'Alpha Reactor Control: Reaction Control':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -35,6 +37,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: 'Alpha Reactor Control: Reaction Control'
   Ammatar Navy Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -48,6 +51,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Ammatar Navy Reactor Control Unit
   Basic Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -61,6 +65,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Basic Reactor Control Unit
   'Beta Reactor Control: Reaction Control I':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -72,6 +77,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: 'Beta Reactor Control: Reaction Control I'
   Brokara's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -85,6 +91,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Brokara's Modified Reactor Control Unit
   Brynn's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -98,6 +105,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Brynn's Modified Reactor Control Unit
   Chelm's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -111,6 +119,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Chelm's Modified Reactor Control Unit
   Cormack's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -124,6 +133,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Cormack's Modified Reactor Control Unit
   Dark Blood Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -137,6 +147,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Dark Blood Reactor Control Unit
   Draclira's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -150,6 +161,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Draclira's Modified Reactor Control Unit
   'Local Power Plant Manager: Reaction Control I':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -161,6 +173,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: 'Local Power Plant Manager: Reaction Control I'
   Mark I Compact Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -173,6 +186,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Mark I Compact Reactor Control Unit
   'Mark I Generator Refitting: Reaction Control':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -184,6 +198,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: 'Mark I Generator Refitting: Reaction Control'
   'Marked Generator Refitting: Reaction Control':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -194,6 +209,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: 'Marked Generator Refitting: Reaction Control'
   'Partial Power Plant Manager: Reaction Control':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -204,6 +220,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: 'Partial Power Plant Manager: Reaction Control'
   Raysere's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -217,6 +234,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Raysere's Modified Reactor Control Unit
   Reactor Control Unit I:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -228,6 +246,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Reactor Control Unit I
   Reactor Control Unit II:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -240,6 +259,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
+    name: Reactor Control Unit II
   Selynne's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -253,6 +273,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Selynne's Modified Reactor Control Unit
   Setele's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -266,6 +287,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Setele's Modified Reactor Control Unit
   Shadow Serpentis Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -279,6 +301,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Shadow Serpentis Reactor Control Unit
   Syndicate Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -292,6 +315,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Syndicate Reactor Control Unit
   Tairei's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -305,6 +329,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Tairei's Modified Reactor Control Unit
   True Sansha Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -318,6 +343,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: True Sansha Reactor Control Unit
   Tuvan's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -331,6 +357,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Tuvan's Modified Reactor Control Unit
   Vizan's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -344,3 +371,4 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    name: Vizan's Modified Reactor Control Unit

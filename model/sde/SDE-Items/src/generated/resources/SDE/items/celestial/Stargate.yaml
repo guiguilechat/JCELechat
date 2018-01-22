@@ -1,21 +1,41 @@
 items:
-  Smuggler route stargate: {}
-  Stargate (Amarr Border): {}
-  Stargate (Amarr Constellation): {}
-  Stargate (Amarr Region): {}
-  Stargate (Amarr System): {}
-  Stargate (Caldari Border): {}
-  Stargate (Caldari Constellation): {}
-  Stargate (Caldari Region): {}
-  Stargate (Caldari System): {}
-  Stargate (Caldari Unused): {}
-  Stargate (Gallente Border): {}
-  Stargate (Gallente Constellation): {}
-  Stargate (Gallente Region): {}
-  Stargate (Gallente System): {}
-  Stargate (Gallente Unused 1): {}
-  Stargate (Gallente Unused 2): {}
-  Stargate (Minmatar Border): {}
-  Stargate (Minmatar Constellation): {}
-  Stargate (Minmatar Region): {}
-  Stargate (Minmatar System): {}
+  Smuggler route stargate:
+    name: Smuggler route stargate
+  Stargate (Amarr Border):
+    name: Stargate (Amarr Border)
+  Stargate (Amarr Constellation):
+    name: Stargate (Amarr Constellation)
+  Stargate (Amarr Region):
+    name: Stargate (Amarr Region)
+  Stargate (Amarr System):
+    name: Stargate (Amarr System)
+  Stargate (Caldari Border):
+    name: Stargate (Caldari Border)
+  Stargate (Caldari Constellation):
+    name: Stargate (Caldari Constellation)
+  Stargate (Caldari Region):
+    name: Stargate (Caldari Region)
+  Stargate (Caldari System):
+    name: Stargate (Caldari System)
+  Stargate (Caldari Unused):
+    name: Stargate (Caldari Unused)
+  Stargate (Gallente Border):
+    name: Stargate (Gallente Border)
+  Stargate (Gallente Constellation):
+    name: Stargate (Gallente Constellation)
+  Stargate (Gallente Region):
+    name: Stargate (Gallente Region)
+  Stargate (Gallente System):
+    name: Stargate (Gallente System)
+  Stargate (Gallente Unused 1):
+    name: Stargate (Gallente Unused 1)
+  Stargate (Gallente Unused 2):
+    name: Stargate (Gallente Unused 2)
+  Stargate (Minmatar Border):
+    name: Stargate (Minmatar Border)
+  Stargate (Minmatar Constellation):
+    name: Stargate (Minmatar Constellation)
+  Stargate (Minmatar Region):
+    name: Stargate (Minmatar Region)
+  Stargate (Minmatar System):
+    name: Stargate (Minmatar System)

@@ -1,55 +1,109 @@
 items:
-  Caesarium Cadmide Reaction Formula: {}
-  Carbon Polymers Reaction Formula: {}
-  Ceramic Powder Reaction Formula: {}
-  Crystalline Carbonide Reaction Formula: {}
-  Crystallite Alloy Reaction Formula: {}
-  Dysporite Reaction Formula: {}
-  Fermionic Condensates Reaction Formula: {}
-  Fernite Alloy Reaction Formula: {}
-  Fernite Carbide Reaction Formula: {}
-  Ferrofluid Reaction Formula: {}
-  Ferrogel Reaction Formula: {}
-  Fluxed Condensates Reaction Formula: {}
-  Fulleride Reaction Formula: {}
-  Hexite Reaction Formula: {}
-  Hyperflurite Reaction Formula: {}
-  Hypersynaptic Fibers Reaction Formula: {}
-  Nanotransistors Reaction Formula: {}
-  Neo Mercurite Reaction Formula: {}
-  Nonlinear Metamaterials Reaction Formula: {}
-  Phenolic Composites Reaction Formula: {}
-  Photonic Metamaterials Reaction Formula: {}
-  Plasmonic Metamaterials Reaction Formula: {}
-  Platinum Technite Reaction Formula: {}
-  Promethium Mercurite Reaction Formula: {}
-  Prometium Reaction Formula: {}
-  Rolled Tungsten Alloy Reaction Formula: {}
-  Silicon Diborite Reaction Formula: {}
-  Solerium Reaction Formula: {}
-  Sulfuric Acid Reaction Formula: {}
-  Sylramic Fibers Reaction Formula: {}
-  Terahertz Metamaterials Reaction Formula: {}
-  Test Reaction Blueprint: {}
-  Thulium Hafnite Reaction Formula: {}
-  Titanium Carbide Reaction Formula: {}
-  Titanium Chromide Reaction Formula: {}
-  Tungsten Carbide Reaction Formula: {}
-  Unrefined Caesarium Cadmide Reaction Formula: {}
-  Unrefined Crystallite Alloy Reaction Formula: {}
-  Unrefined Dysporite Reaction Formula: {}
-  Unrefined Fernite Alloy Reaction Formula: {}
-  Unrefined Ferrofluid Reaction Formula: {}
-  Unrefined Fluxed Condensates Reaction Formula: {}
-  Unrefined Hexite Reaction Formula: {}
-  Unrefined Hyperflurite Reaction Formula: {}
-  Unrefined Neo Mercurite Reaction Formula: {}
-  Unrefined Platinum Technite Reaction Formula: {}
-  Unrefined Promethium Mercurite Reaction Formula: {}
-  Unrefined Prometium Reaction Formula: {}
-  Unrefined Rolled Tungsten Alloy Reaction Formula: {}
-  Unrefined Solerium Reaction Formula: {}
-  Unrefined Thulium Hafnite Reaction Formula: {}
-  Unrefined Titanium Chromide Reaction Formula: {}
-  Unrefined Vanadium Hafnite Reaction Formula: {}
-  Vanadium Hafnite Reaction Formula: {}
+  Caesarium Cadmide Reaction Formula:
+    name: Caesarium Cadmide Reaction Formula
+  Carbon Polymers Reaction Formula:
+    name: Carbon Polymers Reaction Formula
+  Ceramic Powder Reaction Formula:
+    name: Ceramic Powder Reaction Formula
+  Crystalline Carbonide Reaction Formula:
+    name: Crystalline Carbonide Reaction Formula
+  Crystallite Alloy Reaction Formula:
+    name: Crystallite Alloy Reaction Formula
+  Dysporite Reaction Formula:
+    name: Dysporite Reaction Formula
+  Fermionic Condensates Reaction Formula:
+    name: Fermionic Condensates Reaction Formula
+  Fernite Alloy Reaction Formula:
+    name: Fernite Alloy Reaction Formula
+  Fernite Carbide Reaction Formula:
+    name: Fernite Carbide Reaction Formula
+  Ferrofluid Reaction Formula:
+    name: Ferrofluid Reaction Formula
+  Ferrogel Reaction Formula:
+    name: Ferrogel Reaction Formula
+  Fluxed Condensates Reaction Formula:
+    name: Fluxed Condensates Reaction Formula
+  Fulleride Reaction Formula:
+    name: Fulleride Reaction Formula
+  Hexite Reaction Formula:
+    name: Hexite Reaction Formula
+  Hyperflurite Reaction Formula:
+    name: Hyperflurite Reaction Formula
+  Hypersynaptic Fibers Reaction Formula:
+    name: Hypersynaptic Fibers Reaction Formula
+  Nanotransistors Reaction Formula:
+    name: Nanotransistors Reaction Formula
+  Neo Mercurite Reaction Formula:
+    name: Neo Mercurite Reaction Formula
+  Nonlinear Metamaterials Reaction Formula:
+    name: Nonlinear Metamaterials Reaction Formula
+  Phenolic Composites Reaction Formula:
+    name: Phenolic Composites Reaction Formula
+  Photonic Metamaterials Reaction Formula:
+    name: Photonic Metamaterials Reaction Formula
+  Plasmonic Metamaterials Reaction Formula:
+    name: Plasmonic Metamaterials Reaction Formula
+  Platinum Technite Reaction Formula:
+    name: Platinum Technite Reaction Formula
+  Promethium Mercurite Reaction Formula:
+    name: Promethium Mercurite Reaction Formula
+  Prometium Reaction Formula:
+    name: Prometium Reaction Formula
+  Rolled Tungsten Alloy Reaction Formula:
+    name: Rolled Tungsten Alloy Reaction Formula
+  Silicon Diborite Reaction Formula:
+    name: Silicon Diborite Reaction Formula
+  Solerium Reaction Formula:
+    name: Solerium Reaction Formula
+  Sulfuric Acid Reaction Formula:
+    name: Sulfuric Acid Reaction Formula
+  Sylramic Fibers Reaction Formula:
+    name: Sylramic Fibers Reaction Formula
+  Terahertz Metamaterials Reaction Formula:
+    name: Terahertz Metamaterials Reaction Formula
+  Test Reaction Blueprint:
+    name: Test Reaction Blueprint
+  Thulium Hafnite Reaction Formula:
+    name: Thulium Hafnite Reaction Formula
+  Titanium Carbide Reaction Formula:
+    name: Titanium Carbide Reaction Formula
+  Titanium Chromide Reaction Formula:
+    name: Titanium Chromide Reaction Formula
+  Tungsten Carbide Reaction Formula:
+    name: Tungsten Carbide Reaction Formula
+  Unrefined Caesarium Cadmide Reaction Formula:
+    name: Unrefined Caesarium Cadmide Reaction Formula
+  Unrefined Crystallite Alloy Reaction Formula:
+    name: Unrefined Crystallite Alloy Reaction Formula
+  Unrefined Dysporite Reaction Formula:
+    name: Unrefined Dysporite Reaction Formula
+  Unrefined Fernite Alloy Reaction Formula:
+    name: Unrefined Fernite Alloy Reaction Formula
+  Unrefined Ferrofluid Reaction Formula:
+    name: Unrefined Ferrofluid Reaction Formula
+  Unrefined Fluxed Condensates Reaction Formula:
+    name: Unrefined Fluxed Condensates Reaction Formula
+  Unrefined Hexite Reaction Formula:
+    name: Unrefined Hexite Reaction Formula
+  Unrefined Hyperflurite Reaction Formula:
+    name: Unrefined Hyperflurite Reaction Formula
+  Unrefined Neo Mercurite Reaction Formula:
+    name: Unrefined Neo Mercurite Reaction Formula
+  Unrefined Platinum Technite Reaction Formula:
+    name: Unrefined Platinum Technite Reaction Formula
+  Unrefined Promethium Mercurite Reaction Formula:
+    name: Unrefined Promethium Mercurite Reaction Formula
+  Unrefined Prometium Reaction Formula:
+    name: Unrefined Prometium Reaction Formula
+  Unrefined Rolled Tungsten Alloy Reaction Formula:
+    name: Unrefined Rolled Tungsten Alloy Reaction Formula
+  Unrefined Solerium Reaction Formula:
+    name: Unrefined Solerium Reaction Formula
+  Unrefined Thulium Hafnite Reaction Formula:
+    name: Unrefined Thulium Hafnite Reaction Formula
+  Unrefined Titanium Chromide Reaction Formula:
+    name: Unrefined Titanium Chromide Reaction Formula
+  Unrefined Vanadium Hafnite Reaction Formula:
+    name: Unrefined Vanadium Hafnite Reaction Formula
+  Vanadium Hafnite Reaction Formula:
+    name: Vanadium Hafnite Reaction Formula

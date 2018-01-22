@@ -1,91 +1,136 @@
 items:
   Advanced Large Ship Assembly Array Blueprint:
     IndustryBlueprintRank: 80.0
+    name: Advanced Large Ship Assembly Array Blueprint
   Advanced Medium Ship Assembly Array Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Advanced Medium Ship Assembly Array Blueprint
   Advanced Small Ship Assembly Array Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Advanced Small Ship Assembly Array Blueprint
   Ammunition Assembly Array Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Ammunition Assembly Array Blueprint
   Ballistic Deflection Array Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Ballistic Deflection Array Blueprint
   Biochemical Reactor Array Blueprint:
     IndustryBlueprintRank: 80.0
+    name: Biochemical Reactor Array Blueprint
   Biochemical Silo Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Biochemical Silo Blueprint
   Capital Ship Assembly Array Blueprint:
     IndustryBlueprintRank: 80.0
+    name: Capital Ship Assembly Array Blueprint
   Catalyst Silo Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Catalyst Silo Blueprint
   Complex Reactor Array Blueprint:
     IndustryBlueprintRank: 80.0
+    name: Complex Reactor Array Blueprint
   Component Assembly Array Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Component Assembly Array Blueprint
   Compression Array Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Compression Array Blueprint
   Corporate Hangar Array Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Corporate Hangar Array Blueprint
   Coupling Array Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Coupling Array Blueprint
   Customs Office Gantry Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Customs Office Gantry Blueprint
   Cynosural Generator Array Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Cynosural Generator Array Blueprint
   Cynosural System Jammer Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Cynosural System Jammer Blueprint
   Drone Assembly Array Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Drone Assembly Array Blueprint
   Drug Lab Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Drug Lab Blueprint
   Equipment Assembly Array Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Equipment Assembly Array Blueprint
   Explosion Dampening Array Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Explosion Dampening Array Blueprint
   General Storage Blueprint:
     IndustryBlueprintRank: 60.0
+    name: General Storage Blueprint
   Hazardous Chemical Silo Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Hazardous Chemical Silo Blueprint
   Heat Dissipation Array Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Heat Dissipation Array Blueprint
   Hybrid Polymer Silo Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Hybrid Polymer Silo Blueprint
   Intensive Reprocessing Array Blueprint:
     IndustryBlueprintRank: 80.0
+    name: Intensive Reprocessing Array Blueprint
   Jump Bridge Blueprint:
     IndustryBlueprintRank: 80.0
+    name: Jump Bridge Blueprint
   Large Ship Assembly Array Blueprint:
     IndustryBlueprintRank: 80.0
+    name: Large Ship Assembly Array Blueprint
   Medium Biochemical Reactor Array Blueprint:
     IndustryBlueprintRank: 80.0
+    name: Medium Biochemical Reactor Array Blueprint
   Medium Ship Assembly Array Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Medium Ship Assembly Array Blueprint
   Moon Harvesting Array Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Moon Harvesting Array Blueprint
   Personal Hangar Array Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Personal Hangar Array Blueprint
   Photon Scattering Array Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Photon Scattering Array Blueprint
   Polymer Reactor Array Blueprint:
     IndustryBlueprintRank: 80.0
+    name: Polymer Reactor Array Blueprint
   Rapid Equipment Assembly Array Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Rapid Equipment Assembly Array Blueprint
   Reprocessing Array Blueprint:
     IndustryBlueprintRank: 80.0
+    name: Reprocessing Array Blueprint
   Sensor Dampening Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Sensor Dampening Battery Blueprint
   Ship Maintenance Array Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Ship Maintenance Array Blueprint
   Silo Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Silo Blueprint
   Simple Reactor Array Blueprint:
     IndustryBlueprintRank: 80.0
+    name: Simple Reactor Array Blueprint
   Small Ship Assembly Array Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Small Ship Assembly Array Blueprint
   Subsystem Assembly Array Blueprint:
     IndustryBlueprintRank: 60.0
+    name: Subsystem Assembly Array Blueprint
   Supercapital Ship Assembly Array Blueprint:
     IndustryBlueprintRank: 80.0
+    name: Supercapital Ship Assembly Array Blueprint
   Thukker Component Assembly Array Blueprint:
     IndustryBlueprintRank: 40.0
+    name: Thukker Component Assembly Array Blueprint
   X-Large Ship Maintenance Array Blueprint:
     IndustryBlueprintRank: 40.0
+    name: X-Large Ship Maintenance Array Blueprint

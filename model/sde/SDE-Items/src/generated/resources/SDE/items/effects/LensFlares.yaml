@@ -1,42 +1,83 @@
 items:
-  C_Blue_01: {}
-  C_Blue_Long_01: {}
-  C_Blue_Long_02: {}
-  C_Blue_Long_03: {}
-  C_Blue_Long_04: {}
-  C_Blue_long_ns_01: {}
-  C_Green_Long_01: {}
-  C_Green_Long_02: {}
-  C_Green_Long_03: {}
-  C_Orange_01: {}
-  C_Orange_Long_01: {}
-  C_Yellow_long_01: {}
-  S_Blue_Fixed_01: {}
-  S_Blue_Fixed_Chack: {}
-  S_Blue_Fixed_Large: {}
-  S_Blue_Oval_01: {}
-  S_Blue_Oval_02: {}
-  S_Blue_Oval_03: {}
-  S_Blue_Small_01: {}
-  S_Blue_VStretch_01: {}
-  S_Green_01: {}
-  S_Green_Fixed_01: {}
-  S_Green_Oval_01: {}
-  S_Green_Small_01: {}
-  S_Orange_Fixed_01: {}
-  S_Orange_Long_01: {}
-  S_Orange_Oval_01: {}
-  S_Orange_Oval_H_01: {}
-  S_Orange_Round_01: {}
-  S_Orange_Small_01: {}
-  S_Orange_Small_H_01: {}
-  S_Pale_01: {}
-  S_Yellow_01: {}
-  S_Yellow_Fixed_01: {}
-  S_Yellow_Fixed_H_01: {}
-  S_Yellow_Fixed_V_02: {}
-  S_Yellow_Large_01: {}
-  S_Yellow_Oval_01: {}
-  S_Yellow_Small_01: {}
-  Simple Flare 03: {}
-  Simple Flare Long 01: {}
+  C_Blue_01:
+    name: C_Blue_01
+  C_Blue_Long_01:
+    name: C_Blue_Long_01
+  C_Blue_Long_02:
+    name: C_Blue_Long_02
+  C_Blue_Long_03:
+    name: C_Blue_Long_03
+  C_Blue_Long_04:
+    name: C_Blue_Long_04
+  C_Blue_long_ns_01:
+    name: C_Blue_long_ns_01
+  C_Green_Long_01:
+    name: C_Green_Long_01
+  C_Green_Long_02:
+    name: C_Green_Long_02
+  C_Green_Long_03:
+    name: C_Green_Long_03
+  C_Orange_01:
+    name: C_Orange_01
+  C_Orange_Long_01:
+    name: C_Orange_Long_01
+  C_Yellow_long_01:
+    name: C_Yellow_long_01
+  S_Blue_Fixed_01:
+    name: S_Blue_Fixed_01
+  S_Blue_Fixed_Chack:
+    name: S_Blue_Fixed_Chack
+  S_Blue_Fixed_Large:
+    name: S_Blue_Fixed_Large
+  S_Blue_Oval_01:
+    name: S_Blue_Oval_01
+  S_Blue_Oval_02:
+    name: S_Blue_Oval_02
+  S_Blue_Oval_03:
+    name: S_Blue_Oval_03
+  S_Blue_Small_01:
+    name: S_Blue_Small_01
+  S_Blue_VStretch_01:
+    name: S_Blue_VStretch_01
+  S_Green_01:
+    name: S_Green_01
+  S_Green_Fixed_01:
+    name: S_Green_Fixed_01
+  S_Green_Oval_01:
+    name: S_Green_Oval_01
+  S_Green_Small_01:
+    name: S_Green_Small_01
+  S_Orange_Fixed_01:
+    name: S_Orange_Fixed_01
+  S_Orange_Long_01:
+    name: S_Orange_Long_01
+  S_Orange_Oval_01:
+    name: S_Orange_Oval_01
+  S_Orange_Oval_H_01:
+    name: S_Orange_Oval_H_01
+  S_Orange_Round_01:
+    name: S_Orange_Round_01
+  S_Orange_Small_01:
+    name: S_Orange_Small_01
+  S_Orange_Small_H_01:
+    name: S_Orange_Small_H_01
+  S_Pale_01:
+    name: S_Pale_01
+  S_Yellow_01:
+    name: S_Yellow_01
+  S_Yellow_Fixed_01:
+    name: S_Yellow_Fixed_01
+  S_Yellow_Fixed_H_01:
+    name: S_Yellow_Fixed_H_01
+  S_Yellow_Fixed_V_02:
+    name: S_Yellow_Fixed_V_02
+  S_Yellow_Large_01:
+    name: S_Yellow_Large_01
+  S_Yellow_Oval_01:
+    name: S_Yellow_Oval_01
+  S_Yellow_Small_01:
+    name: S_Yellow_Small_01
+  Simple Flare 03:
+    name: Simple Flare 03
+  Simple Flare Long 01:
+    name: Simple Flare Long 01

@@ -2,54 +2,72 @@ items:
   Heavy Armor Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Heavy Armor Maintenance Bot I Blueprint
   Heavy Armor Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    name: Heavy Armor Maintenance Bot II Blueprint
   Heavy Hull Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Heavy Hull Maintenance Bot I Blueprint
   Heavy Hull Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    name: Heavy Hull Maintenance Bot II Blueprint
   Heavy Shield Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    name: Heavy Shield Maintenance Bot I Blueprint
   Heavy Shield Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    name: Heavy Shield Maintenance Bot II Blueprint
   Light Armor Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Light Armor Maintenance Bot I Blueprint
   Light Armor Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 2
+    name: Light Armor Maintenance Bot II Blueprint
   Light Hull Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Light Hull Maintenance Bot I Blueprint
   Light Hull Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 2
+    name: Light Hull Maintenance Bot II Blueprint
   Light Shield Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    name: Light Shield Maintenance Bot I Blueprint
   Light Shield Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 2
+    name: Light Shield Maintenance Bot II Blueprint
   Medium Armor Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: Medium Armor Maintenance Bot I Blueprint
   Medium Armor Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 2
+    name: Medium Armor Maintenance Bot II Blueprint
   Medium Hull Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: Medium Hull Maintenance Bot I Blueprint
   Medium Hull Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 2
+    name: Medium Hull Maintenance Bot II Blueprint
   Medium Shield Maintenance Bot I Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    name: Medium Shield Maintenance Bot I Blueprint
   Medium Shield Maintenance Bot II Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 2
+    name: Medium Shield Maintenance Bot II Blueprint

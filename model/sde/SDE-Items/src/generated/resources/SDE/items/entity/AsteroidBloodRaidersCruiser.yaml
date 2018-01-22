@@ -1,26 +1,51 @@
 items:
-  Blood Arch Engraver: {}
-  Blood Arch Priest: {}
-  Blood Arch Reaver: {}
-  Blood Arch Sage: {}
-  Blood Arch Templar: {}
-  Blood Clone Soldier Negotiator: {}
-  'Blood Clone Soldier Recruiter ': {}
-  Blood Clone Soldier Trainer: {}
-  Blood Clone Soldier Transporter: {}
-  Blood Dark Priest: {}
-  Blood Priest: {}
-  Blood Revenant: {}
-  Blood Sage: {}
-  Blood Shadow Sage: {}
-  Elder Blood Arch Engraver: {}
-  Elder Blood Arch Priest: {}
-  Elder Blood Arch Reaver: {}
-  Elder Blood Arch Sage: {}
-  Elder Blood Arch Templar: {}
-  Elder Blood Dark Priest: {}
-  Elder Blood Priest: {}
-  Elder Blood Revenant: {}
-  Elder Blood Sage: {}
-  Elder Blood Shadow Sage: {}
-  TEST DRAINER: {}
+  Blood Arch Engraver:
+    name: Blood Arch Engraver
+  Blood Arch Priest:
+    name: Blood Arch Priest
+  Blood Arch Reaver:
+    name: Blood Arch Reaver
+  Blood Arch Sage:
+    name: Blood Arch Sage
+  Blood Arch Templar:
+    name: Blood Arch Templar
+  Blood Clone Soldier Negotiator:
+    name: Blood Clone Soldier Negotiator
+  'Blood Clone Soldier Recruiter ':
+    name: 'Blood Clone Soldier Recruiter '
+  Blood Clone Soldier Trainer:
+    name: Blood Clone Soldier Trainer
+  Blood Clone Soldier Transporter:
+    name: Blood Clone Soldier Transporter
+  Blood Dark Priest:
+    name: Blood Dark Priest
+  Blood Priest:
+    name: Blood Priest
+  Blood Revenant:
+    name: Blood Revenant
+  Blood Sage:
+    name: Blood Sage
+  Blood Shadow Sage:
+    name: Blood Shadow Sage
+  Elder Blood Arch Engraver:
+    name: Elder Blood Arch Engraver
+  Elder Blood Arch Priest:
+    name: Elder Blood Arch Priest
+  Elder Blood Arch Reaver:
+    name: Elder Blood Arch Reaver
+  Elder Blood Arch Sage:
+    name: Elder Blood Arch Sage
+  Elder Blood Arch Templar:
+    name: Elder Blood Arch Templar
+  Elder Blood Dark Priest:
+    name: Elder Blood Dark Priest
+  Elder Blood Priest:
+    name: Elder Blood Priest
+  Elder Blood Revenant:
+    name: Elder Blood Revenant
+  Elder Blood Sage:
+    name: Elder Blood Sage
+  Elder Blood Shadow Sage:
+    name: Elder Blood Shadow Sage
+  TEST DRAINER:
+    name: TEST DRAINER

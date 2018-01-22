@@ -7,6 +7,7 @@ items:
     OreBasicType: 45494
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    name: Cobaltite
   Copious Cobaltite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -15,6 +16,7 @@ items:
     OreBasicType: 45494
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    name: Copious Cobaltite
   Copious Euxenite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -23,6 +25,7 @@ items:
     OreBasicType: 45495
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    name: Copious Euxenite
   Copious Scheelite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -31,6 +34,7 @@ items:
     OreBasicType: 45497
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    name: Copious Scheelite
   Copious Titanite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -39,6 +43,7 @@ items:
     OreBasicType: 45496
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    name: Copious Titanite
   Euxenite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -47,6 +52,7 @@ items:
     OreBasicType: 45495
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    name: Euxenite
   Scheelite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -55,6 +61,7 @@ items:
     OreBasicType: 45497
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    name: Scheelite
   Titanite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -63,6 +70,7 @@ items:
     OreBasicType: 45496
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    name: Titanite
   Twinkling Cobaltite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -71,6 +79,7 @@ items:
     OreBasicType: 45494
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    name: Twinkling Cobaltite
   Twinkling Euxenite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -79,6 +88,7 @@ items:
     OreBasicType: 45495
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    name: Twinkling Euxenite
   Twinkling Scheelite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -87,6 +97,7 @@ items:
     OreBasicType: 45497
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    name: Twinkling Scheelite
   Twinkling Titanite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -95,3 +106,4 @@ items:
     OreBasicType: 45496
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
+    name: Twinkling Titanite

@@ -1,5 +1,9 @@
 items:
-  A Hired Saboteur: {}
-  CONCORD Surveillance Drone: {}
-  Construction Freight: {}
-  Ore Supply Freight: {}
+  A Hired Saboteur:
+    name: A Hired Saboteur
+  CONCORD Surveillance Drone:
+    name: CONCORD Surveillance Drone
+  Construction Freight:
+    name: Construction Freight
+  Ore Supply Freight:
+    name: Ore Supply Freight

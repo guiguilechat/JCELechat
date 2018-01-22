@@ -8,6 +8,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 164
     SkillTimeConstant: 3.0
+    name: CFO Training
   Chief Science Officer:
     BaseDefenderAllyCost: 10000000
     DurationSkillBonus: 1
@@ -21,12 +22,14 @@ items:
     ResearchGangSizeBonus: 1
     SecondaryAttribute: 164
     SkillTimeConstant: 6.0
+    name: Chief Science Officer
   Corporation Management:
     BaseDefenderAllyCost: 10000000
     CorporationMemberBonus: 20
     PrimaryAttribute: 166
     SecondaryAttribute: 164
     SkillTimeConstant: 1.0
+    name: Corporation Management
   Diplomatic Relations:
     BaseDefenderAllyCost: 10000000
     PrimaryAttribute: 166
@@ -37,6 +40,7 @@ items:
     SecondaryAttribute: 164
     SkillAllyCostModifierBonus: -5
     SkillTimeConstant: 2.0
+    name: Diplomatic Relations
   Empire Control:
     BaseDefenderAllyCost: 10000000
     CanNotBeTrainedOnTrial: 1
@@ -46,6 +50,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 164
     SkillTimeConstant: 5.0
+    name: Empire Control
   Factory Management:
     BaseDefenderAllyCost: 10000000
     PrimaryAttribute: 166
@@ -55,6 +60,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 164
     SkillTimeConstant: 5.0
+    name: Factory Management
   Intelligence Analyst:
     BaseDefenderAllyCost: 10000000
     PrimaryAttribute: 166
@@ -64,6 +70,7 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 164
     SkillTimeConstant: 4.0
+    name: Intelligence Analyst
   Megacorp Management:
     BaseDefenderAllyCost: 10000000
     CanNotBeTrainedOnTrial: 1
@@ -73,6 +80,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 164
     SkillTimeConstant: 3.0
+    name: Megacorp Management
   Public Relations:
     BaseDefenderAllyCost: 10000000
     PrimaryAttribute: 166
@@ -82,6 +90,7 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 3.0
+    name: Public Relations
   Refinery Management:
     BaseDefenderAllyCost: 10000000
     PrimaryAttribute: 166
@@ -91,6 +100,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 164
     SkillTimeConstant: 3.0
+    name: Refinery Management
   Sovereignty:
     BaseDefenderAllyCost: 10000000
     CanNotBeTrainedOnTrial: 1
@@ -100,6 +110,7 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 164
     SkillTimeConstant: 8.0
+    name: Sovereignty
   Starbase Management:
     BaseDefenderAllyCost: 10000000
     PrimaryAttribute: 166
@@ -109,6 +120,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 164
     SkillTimeConstant: 4.0
+    name: Starbase Management
   Station Management:
     BaseDefenderAllyCost: 10000000
     PrimaryAttribute: 166
@@ -118,3 +130,4 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 4.0
+    name: Station Management

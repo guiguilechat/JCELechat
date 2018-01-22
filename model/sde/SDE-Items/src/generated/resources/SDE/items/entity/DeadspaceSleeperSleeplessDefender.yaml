@@ -1,5 +1,9 @@
 items:
-  Sleepless Defender: {}
-  Sleepless Preserver: {}
-  Sleepless Safeguard: {}
-  Sleepless Upholder: {}
+  Sleepless Defender:
+    name: Sleepless Defender
+  Sleepless Preserver:
+    name: Sleepless Preserver
+  Sleepless Safeguard:
+    name: Sleepless Safeguard
+  Sleepless Upholder:
+    name: Sleepless Upholder

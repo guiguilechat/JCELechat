@@ -1,102 +1,154 @@
 items:
   Antimatter Reactor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Antimatter Reactor Unit Blueprint
   Crystalline Carbonide Armor Plate Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Crystalline Carbonide Armor Plate Blueprint
   Deflection Shield Emitter Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Deflection Shield Emitter Blueprint
   EM Pulse Generator Blueprint:
     IndustryBlueprintRank: 1.0
+    name: EM Pulse Generator Blueprint
   Electrolytic Capacitor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Electrolytic Capacitor Unit Blueprint
   Fernite Carbide Composite Armor Plate Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Fernite Carbide Composite Armor Plate Blueprint
   Fusion Reactor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Fusion Reactor Unit Blueprint
   Fusion Thruster Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Fusion Thruster Blueprint
   Gravimetric Sensor Cluster Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Gravimetric Sensor Cluster Blueprint
   Graviton Pulse Generator Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Graviton Pulse Generator Blueprint
   Graviton Reactor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Graviton Reactor Unit Blueprint
   Ion Thruster Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Ion Thruster Blueprint
   Ladar Sensor Cluster Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Ladar Sensor Cluster Blueprint
   Laser Focusing Crystals Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Laser Focusing Crystals Blueprint
   Linear Shield Emitter Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Linear Shield Emitter Blueprint
   Magnetometric Sensor Cluster Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Magnetometric Sensor Cluster Blueprint
   Magpulse Thruster Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Magpulse Thruster Blueprint
   Nanoelectrical Microprocessor Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Nanoelectrical Microprocessor Blueprint
   Nanomechanical Microprocessor Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Nanomechanical Microprocessor Blueprint
   Nuclear Pulse Generator Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Nuclear Pulse Generator Blueprint
   Nuclear Reactor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Nuclear Reactor Unit Blueprint
   Oscillator Capacitor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Oscillator Capacitor Unit Blueprint
   Particle Accelerator Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Particle Accelerator Unit Blueprint
   Photon Microprocessor Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Photon Microprocessor Blueprint
   Plasma Pulse Generator Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Plasma Pulse Generator Blueprint
   Plasma Thruster Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Plasma Thruster Blueprint
   Pulse Shield Emitter Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Pulse Shield Emitter Blueprint
   Quantum Microprocessor Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Quantum Microprocessor Blueprint
   Radar Sensor Cluster Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Radar Sensor Cluster Blueprint
   Scalar Capacitor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Scalar Capacitor Unit Blueprint
   Spatial Attunement Unit Blueprint:
     IndustryBlueprintRank: 2.0
-  Structure Acceleration Coils Blueprint: {}
-  Structure Advertisement Nexus Blueprint: {}
+    name: Spatial Attunement Unit Blueprint
+  Structure Acceleration Coils Blueprint:
+    name: Structure Acceleration Coils Blueprint
+  Structure Advertisement Nexus Blueprint:
+    name: Structure Advertisement Nexus Blueprint
   Structure Construction Parts Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Structure Construction Parts Blueprint
   Structure Docking Bay Blueprint:
     IndustryBlueprintRank: 200.0
-  Structure Electromagnetic Sensor Blueprint: {}
+    name: Structure Docking Bay Blueprint
+  Structure Electromagnetic Sensor Blueprint:
+    name: Structure Electromagnetic Sensor Blueprint
   Structure Factory Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Structure Factory Blueprint
   Structure Hangar Array Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Structure Hangar Array Blueprint
   Structure Laboratory Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Structure Laboratory Blueprint
   Structure Market Network Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Structure Market Network Blueprint
   Structure Medical Center Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Structure Medical Center Blueprint
   Structure Mission Network Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Structure Mission Network Blueprint
   Structure Office Center Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Structure Office Center Blueprint
   Structure Repair Facility Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Structure Repair Facility Blueprint
   Structure Reprocessing Plant Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Structure Reprocessing Plant Blueprint
   Structure Storage Bay Blueprint:
     IndustryBlueprintRank: 200.0
+    name: Structure Storage Bay Blueprint
   Superconductor Rails Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Superconductor Rails Blueprint
   Sustained Shield Emitter Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Sustained Shield Emitter Blueprint
   Tesseract Capacitor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Tesseract Capacitor Unit Blueprint
   Thermonuclear Trigger Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Thermonuclear Trigger Unit Blueprint
   Titanium Diborite Armor Plate Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Titanium Diborite Armor Plate Blueprint
   Tungsten Carbide Armor Plate Blueprint:
     IndustryBlueprintRank: 1.0
+    name: Tungsten Carbide Armor Plate Blueprint

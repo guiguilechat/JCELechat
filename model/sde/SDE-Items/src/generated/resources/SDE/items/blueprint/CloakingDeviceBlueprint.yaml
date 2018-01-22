@@ -2,21 +2,28 @@ items:
   '''Smokescreen'' Covert Ops Cloaking Device II Blueprint':
     IndustryBlueprintRank: 39.0
     TechLevel: 2
+    name: '''Smokescreen'' Covert Ops Cloaking Device II Blueprint'
   Caldari Navy Cloaking Device Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 1
+    name: Caldari Navy Cloaking Device Blueprint
   Covert Ops Cloaking Device II Blueprint:
     IndustryBlueprintRank: 39.0
     TechLevel: 2
+    name: Covert Ops Cloaking Device II Blueprint
   Improved 'Guise' Cloaking Device II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Improved 'Guise' Cloaking Device II Blueprint
   Improved Cloaking Device II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    name: Improved Cloaking Device II Blueprint
   Prototype 'Poncho' Cloaking Device I Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 1
+    name: Prototype 'Poncho' Cloaking Device I Blueprint
   Prototype Cloaking Device I Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 1
+    name: Prototype Cloaking Device I Blueprint

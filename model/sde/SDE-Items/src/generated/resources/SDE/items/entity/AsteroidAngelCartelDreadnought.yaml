@@ -1,3 +1,5 @@
 items:
-  Angel Dreadnought: {}
-  Domination Dreadnought: {}
+  Angel Dreadnought:
+    name: Angel Dreadnought
+  Domination Dreadnought:
+    name: Domination Dreadnought
