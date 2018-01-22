@@ -43,6 +43,10 @@ public class MetaInf {
         return map.get(name);
     }
 
+    public static Item getItem(int id) {
+        return MetaInf.getItem(MetaInf.load().id2name.get(id));
+    }
+
     public static MetaInf load() {
         if (cache == null) {
             try {

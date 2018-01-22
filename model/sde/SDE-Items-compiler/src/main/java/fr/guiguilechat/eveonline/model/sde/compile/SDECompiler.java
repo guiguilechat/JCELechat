@@ -335,6 +335,13 @@ public class SDECompiler {
 			createBlock._if(map.eq(JExpr._null()))._then().assign(map, cm.ref(Collections.class).staticInvoke("emptyMap"));
 			createBlock.invoke(groupcache, "put").arg(grp).arg(map);
 			getItem.body()._return(map.invoke("get").arg(itemName));
+
+			// create the getItem(int id)
+			getItem = ret.metaInfClass.method(JMod.PUBLIC | JMod.STATIC, typeClass, "getItem");
+			JVar itemId = getItem.param(cm.INT, "id");
+			getItem.body()._return(ret.metaInfClass.staticInvoke("getItem")
+					.arg(ret.metaInfClass.staticInvoke("load").ref("id2name").invoke("get").arg(itemId)));
+
 		} catch (JClassAlreadyExistsException e1) {
 			throw new UnsupportedOperationException("catch this", e1);
 		}
