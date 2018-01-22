@@ -90,13 +90,14 @@ public class NPCsTranslater {
 				allianceNames.put(l, ally.name);
 			}
 		});
-		Map<Long, String> agentNames = Stream
-				.of(esi.names.characterNames(eagents.stream().parallel().mapToLong(a -> a.agentID).toArray()))
-				.collect(Collectors.toMap(n -> ((Long) n.character_id), n -> n.character_name));
+		Map<Integer, String> agentNames = Stream
+				.of(esi.names.characterNames(eagents.stream().parallel().mapToInt(a -> a.agentID).toArray()))
+				.collect(Collectors.toMap(n -> (int) n.character_id, n -> n.character_name));
 		for (EagtAgents eagt : eagents) {
 			Agent agent = new Agent();
 			agent.corporation = corpNames.get(eagt.corporationID).name;
 			agent.id = eagt.agentID;
+			agent.name = agentNames.get(eagt.agentID);
 			agent.isLocator = eagt.isLocator;
 			agent.level = eagt.level;
 			agent.type = agentTypes.get(eagt.agentTypeID);
@@ -105,11 +106,12 @@ public class NPCsTranslater {
 				agent.station = station;
 				agent.system = stations.get(station).solarSystem;
 			}
-			agents.put(agentNames.get((long) eagt.agentID), agent);
+			agents.put(agent.name, agent);
 		}
 		for (Entry<Integer, R_get_corporations_corporation_id> e : corpNames.entrySet()) {
 			Corporation add = new Corporation();
 			add.id = e.getKey();
+			add.name = e.getValue().name;
 			add.alliance = allianceNames.get(e.getValue().alliance_id);
 			corporations.put(e.getValue().name, add);
 		}
@@ -130,7 +132,7 @@ public class NPCsTranslater {
 		LPOffer lpo = new LPOffer();
 		lpo.requirements.isk += o.isk_cost;
 		lpo.requirements.lp += o.lp_cost;
-		lpo.offer_name = typesbyID.get(o.type_id).enName();
+		lpo.name = typesbyID.get(o.type_id).enName();
 		lpo.id = o.offer_id;
 
 		for (R_get_loyalty_stores_corporation_id_offers_required_items ir : o.required_items) {
@@ -152,11 +154,11 @@ public class NPCsTranslater {
 			Material prod = bp.activities.manufacturing.products.get(0);
 			lpo.product.item = typesbyID.get(prod.typeID).enName();
 			lpo.product.quantity = prod.quantity * o.quantity;
-			lpo.offer_name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.item + "(BPC)";
+			lpo.name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.item + "(BPC)";
 		} else {// the lp offers a non-bpc
 			lpo.product.quantity = o.quantity;
 			lpo.product.item = typesbyID.get(o.type_id).enName();
-			lpo.offer_name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.item;
+			lpo.name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.item;
 		}
 		return lpo;
 	}

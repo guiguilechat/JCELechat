@@ -53,6 +53,7 @@ public class Corporation {
 	// structure
 
 	public int id;
+	public String name;
 	public String alliance;
 	public ArrayList<Integer> lpoffers = new ArrayList<>();
 

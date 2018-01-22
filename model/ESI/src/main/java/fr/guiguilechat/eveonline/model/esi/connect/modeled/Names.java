@@ -20,7 +20,7 @@ public class Names {
 	 */
 	public static final int MAXIDPERREQUEST = (2083 - 100) / (1 + (int) Math.log10(Integer.MAX_VALUE));
 
-	public R_get_characters_names[] characterNames(long... ids) {
+	public R_get_characters_names[] characterNames(int... ids) {
 		if (ids == null || ids.length == 0) {
 			return new R_get_characters_names[0];
 		}

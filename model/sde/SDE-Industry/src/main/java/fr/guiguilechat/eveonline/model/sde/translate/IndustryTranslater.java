@@ -62,6 +62,7 @@ public class IndustryTranslater {
 			EtypeIDs type = types.get(e.getValue().blueprintTypeID);
 			if (type != null) {
 				Blueprint bp2 = makeBlueprint(e.getValue(), types);
+				bp2.name = type.enName();
 				blueprints.put(type.enName(), bp2);
 			} else {
 				logger.warn("can't find type for blueprint id " + e.getValue().blueprintTypeID);

@@ -65,6 +65,14 @@ public class ItemsTranslater {
 			String fileName = item.getClass().getSuperclass().getSimpleName().toLowerCase() + "/"
 					+ item.getClass().getSimpleName()
 					+ ".yaml";
+			// set the name by introspection
+			try {
+				Field nameField = item.getClass().getField("name");
+				nameField.setAccessible(true);
+				nameField.set(item, type.enName());
+			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e1) {
+				throw new UnsupportedOperationException("catch this", e1);
+			}
 			LinkedHashMap<String, Object> m = exportItems.get(fileName);
 			if (m == null) {
 				m = new LinkedHashMap<>();

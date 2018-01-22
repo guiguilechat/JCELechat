@@ -14,6 +14,7 @@ import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EstaOperationServices;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EstaServices;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EstaStations;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.Universe;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.SolarSystem.Moon;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.SolarSystem.NPCStation;
@@ -151,6 +152,7 @@ public class LocationsTranslater {
 			r.constellations.add(e.getKey());
 			addConstellation(e.getKey(), e.getValue(), name, constellations, systems, stations, isWormhole);
 		}
+		r.name = name;
 		r.id = region.regionID;
 		r.isWormhole = isWormhole;
 	}
@@ -171,6 +173,7 @@ public class LocationsTranslater {
 			c.hasFringe |= sys.isFringe;
 			c.hasHub |= sys.isHub;
 		}
+		c.name = name;
 		c.id = constellation.constellationID;
 		c.isWormhole = isWormhole;
 		return c;
@@ -182,6 +185,7 @@ public class LocationsTranslater {
 			boolean isWormhole) {
 		SolarSystem s = new SolarSystem();
 		systems.put(name, s);
+		s.name = name;
 		s.id = system.solarSystemID;
 		s.constellation = ConstellationName;
 		s.region = regionName;
@@ -211,6 +215,7 @@ public class LocationsTranslater {
 		added.id = id;
 		added.solarSystem = solarSystemName;
 		added.services.addAll(operationServices().get(npcsta.operationID));
+		added.name = EtypeIDs.load().get(id).enName();
 		stations.put(stationsByID().get(id).stationName, added);
 		return added;
 	}

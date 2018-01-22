@@ -67,7 +67,7 @@ public class LPOffer {
 
 	public Requirements requirements = new Requirements();
 
-	public String offer_name;
+	public String name;
 	public int id;
 
 }

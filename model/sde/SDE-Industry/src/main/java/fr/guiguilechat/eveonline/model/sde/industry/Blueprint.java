@@ -82,4 +82,6 @@ public class Blueprint {
 
 	public int id;
 
+	public String name;
+
 }

@@ -14,4 +14,6 @@ public class ALocation {
 
 	public ArrayList<String> adjacentRegions = new ArrayList<>();
 
+	public String name;
+
 }
