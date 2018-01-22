@@ -204,7 +204,10 @@ public class SDECompiler {
 			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.ref(Class.class).narrow(cm.wildcard()), "getGroup");
 			typeClass.field(JMod.PUBLIC, cm.INT, "id");
 			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
+			typeClass.field(JMod.PUBLIC, cm.ref(String.class), "name");
 
+			// create a method to load the values of the fields in root class from the
+			// actual fields, when they are annotated
 			JMethod loadDefault = typeClass.method(JMod.PUBLIC, cm.VOID, "loadDefault");
 			JForEach fr = loadDefault.body().forEach(cm.ref(Field.class), "f", JExpr.direct("getClass().getFields()"));
 			JVar annotDouble = fr.body().decl(getDefaultDoubleValueAnnotation(), "annotDouble",

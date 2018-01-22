@@ -72,6 +72,8 @@ public class Station {
 
 	public int id;
 
+	public String name;
+
 	public String solarSystem;
 
 }

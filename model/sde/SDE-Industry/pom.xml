@@ -38,7 +38,7 @@
 				<version>1.2.1</version>
 				<executions>
 					<execution>
-						<id>generate-locations</id>
+						<id>generate-industrys</id>
 						<phase>process-classes</phase>
 						<goals>
 							<goal>java</goal>

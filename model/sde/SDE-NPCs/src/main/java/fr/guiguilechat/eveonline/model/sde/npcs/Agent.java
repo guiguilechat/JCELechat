@@ -52,6 +52,7 @@ public class Agent {
 	// structure
 
 	public int id;
+	public String name;
 	public int level;
 	public String corporation;
 	public boolean isLocator = false;
