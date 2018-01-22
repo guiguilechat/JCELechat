@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class AsteroidBelt
     extends Celestial
 {
-
     public final static String RESOURCE_PATH = "SDE/items/celestial/AsteroidBelt.yaml";
     private static LinkedHashMap<String, AsteroidBelt> cache = (null);
 
@@ -24,10 +22,10 @@ public class AsteroidBelt
     }
 
     public static LinkedHashMap<String, AsteroidBelt> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidBelt.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class AsteroidBelt
     }
 
     private static class Container {
-
         public LinkedHashMap<String, AsteroidBelt> items;
-
     }
-
 }

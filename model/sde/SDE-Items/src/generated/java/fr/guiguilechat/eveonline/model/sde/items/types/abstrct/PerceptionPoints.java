@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.abstrct;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class PerceptionPoints
     extends Abstrct
 {
-
     public final static String RESOURCE_PATH = "SDE/items/abstrct/PerceptionPoints.yaml";
     private static LinkedHashMap<String, PerceptionPoints> cache = (null);
 
@@ -24,10 +22,10 @@ public class PerceptionPoints
     }
 
     public static LinkedHashMap<String, PerceptionPoints> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PerceptionPoints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class PerceptionPoints
     }
 
     private static class Container {
-
         public LinkedHashMap<String, PerceptionPoints> items;
-
     }
-
 }

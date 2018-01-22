@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,17 +12,14 @@ import org.yaml.snakeyaml.Yaml;
 public class TargetBreaker
     extends Module
 {
-
     /**
      * The amount of charge used from the capacitor for a module activation.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -32,22 +28,19 @@ public class TargetBreaker
     public int MaxGroupFitted;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,14 +49,12 @@ public class TargetBreaker
     public int CanFitShipGroup01;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup02;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -72,15 +63,13 @@ public class TargetBreaker
     public int CanFitShipGroup03;
     /**
      * Improves the targeting time of ships by boosting the Scan Resolution.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanResolutionMultiplier;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,15 +77,13 @@ public class TargetBreaker
     public int RequiredSkill1Level;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double OverloadSelfDurationBonus;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,15 +91,13 @@ public class TargetBreaker
     public int RequiredSkill1;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double HeatDamage;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,14 +105,12 @@ public class TargetBreaker
     public int MaxGroupActive;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double HeatAbsorbtionRateModifier;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -136,7 +119,6 @@ public class TargetBreaker
     public int RequiredThermoDynamicsSkill;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -156,10 +138,10 @@ public class TargetBreaker
     }
 
     public static LinkedHashMap<String, TargetBreaker> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TargetBreaker.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -167,9 +149,6 @@ public class TargetBreaker
     }
 
     private static class Container {
-
         public LinkedHashMap<String, TargetBreaker> items;
-
     }
-
 }

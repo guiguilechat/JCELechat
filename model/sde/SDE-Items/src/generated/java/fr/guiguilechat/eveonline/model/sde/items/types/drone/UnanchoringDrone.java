@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class UnanchoringDrone
     extends Drone
 {
-
     /**
      * How long it takes to unanchor this object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class UnanchoringDrone
     public int UnanchoringDelay;
     /**
      * Maximum range at which the scanner can lock a target.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -31,7 +27,6 @@ public class UnanchoringDrone
     public int MaxTargetRange;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -39,7 +34,6 @@ public class UnanchoringDrone
     public int RequiredSkill2Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -47,7 +41,6 @@ public class UnanchoringDrone
     public int RequiredSkill2;
     /**
      * The range at which this thing does it thing.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -67,10 +60,10 @@ public class UnanchoringDrone
     }
 
     public static LinkedHashMap<String, UnanchoringDrone> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(UnanchoringDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -78,9 +71,6 @@ public class UnanchoringDrone
     }
 
     private static class Container {
-
         public LinkedHashMap<String, UnanchoringDrone> items;
-
     }
-
 }

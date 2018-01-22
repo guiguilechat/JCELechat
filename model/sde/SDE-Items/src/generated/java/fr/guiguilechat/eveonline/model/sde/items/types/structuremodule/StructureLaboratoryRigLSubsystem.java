@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -12,17 +11,14 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureLaboratoryRigLSubsystem
     extends StructureModule
 {
-
     /**
      * How much of the upgrade capacity is used when this is fitted to a ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -31,7 +27,6 @@ public class StructureLaboratoryRigLSubsystem
     public int CanFitShipGroup01;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -39,14 +34,12 @@ public class StructureLaboratoryRigLSubsystem
     public int TechLevel;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -55,7 +48,6 @@ public class StructureLaboratoryRigLSubsystem
     public int RigSize;
     /**
      * High-sec bonus on structure rigs.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -75,10 +67,10 @@ public class StructureLaboratoryRigLSubsystem
     }
 
     public static LinkedHashMap<String, StructureLaboratoryRigLSubsystem> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureLaboratoryRigLSubsystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -86,9 +78,6 @@ public class StructureLaboratoryRigLSubsystem
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureLaboratoryRigLSubsystem> items;
-
     }
-
 }

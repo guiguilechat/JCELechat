@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.bonus;
 
 import fr.guiguilechat.eveonline.model.sde.items.types.Bonus;
@@ -6,7 +5,6 @@ import fr.guiguilechat.eveonline.model.sde.items.types.Bonus;
 public class SocialHandicap
     extends Bonus
 {
-
 
     @Override
     public int getGroupId() {
@@ -17,5 +15,4 @@ public class SocialHandicap
     public Class<?> getGroup() {
         return SocialHandicap.class;
     }
-
 }

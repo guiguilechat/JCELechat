@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
@@ -13,17 +12,14 @@ import org.yaml.snakeyaml.Yaml;
 public class CommandShip
     extends Ship
 {
-
     /**
      * How many upgrades can by fitted to this ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -32,7 +28,6 @@ public class CommandShip
     public int EliteBonusCommandShips3;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class CommandShip
     public int RigSize;
     /**
      * The number of low power slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,14 +42,12 @@ public class CommandShip
     public int LowSlots;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MedSlots;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -64,14 +56,12 @@ public class CommandShip
     public int RoleBonusCommandBurstAoERange;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int HiSlots;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -80,7 +70,6 @@ public class CommandShip
     public int FwLpKill;
     /**
      * Deprecated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,7 +77,6 @@ public class CommandShip
     public int MaxDirectionalVelocity;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,15 +84,13 @@ public class CommandShip
     public int RequiredSkill1Level;
     /**
      * Deprecated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double MinTargetVelDmgMultiplier;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,14 +98,12 @@ public class CommandShip
     public int RequiredSkill2Level;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusABC1;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -128,7 +112,6 @@ public class CommandShip
     public int MaxGangModules;
     /**
      * The resolution that the vessel can target other objects at.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -136,7 +119,6 @@ public class CommandShip
     public int ScanResolution;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -144,14 +126,12 @@ public class CommandShip
     public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -160,14 +140,12 @@ public class CommandShip
     public int WingCommandBonus;
     /**
      * scanning speed in milliseconds
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int ScanSpeed;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -176,23 +154,20 @@ public class CommandShip
     public int ShipBonusABC2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double EliteBonusCommandShips2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusCBC1;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -200,14 +175,12 @@ public class CommandShip
     public int TypeColorScheme;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double EliteBonusCommandShips1;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -216,31 +189,27 @@ public class CommandShip
     public int ShipBonusCBC2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusGBC2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationHi;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusGBC1;
     /**
      * Attribute on ships used for ship upgrades
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -248,22 +217,19 @@ public class CommandShip
     public int UpgradeCapacity;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusMBC1;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationMed;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -272,15 +238,13 @@ public class CommandShip
     public int ShipBonusMBC2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationLow;
     /**
      * The number of rig slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -288,7 +252,6 @@ public class CommandShip
     public int RigSlots;
     /**
      * The main color of a ship type.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -308,10 +271,10 @@ public class CommandShip
     }
 
     public static LinkedHashMap<String, CommandShip> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CommandShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -319,9 +282,6 @@ public class CommandShip
     }
 
     private static class Container {
-
         public LinkedHashMap<String, CommandShip> items;
-
     }
-
 }

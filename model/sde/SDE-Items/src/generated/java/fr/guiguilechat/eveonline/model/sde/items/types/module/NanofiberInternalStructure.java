@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,18 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 public class NanofiberInternalStructure
     extends Module
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ImplantBonusVelocity;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,15 +28,13 @@ public class NanofiberInternalStructure
     public int RequiredSkill1Level;
     /**
      * Multiplier to the ships structural HP.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureHPMultiplier;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,15 +42,13 @@ public class NanofiberInternalStructure
     public int RequiredSkill1;
     /**
      * Multiplier to the agility of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double AgilityMultiplier;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -76,10 +68,10 @@ public class NanofiberInternalStructure
     }
 
     public static LinkedHashMap<String, NanofiberInternalStructure> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NanofiberInternalStructure.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -87,9 +79,6 @@ public class NanofiberInternalStructure
     }
 
     private static class Container {
-
         public LinkedHashMap<String, NanofiberInternalStructure> items;
-
     }
-
 }

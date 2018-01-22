@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.apparel;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class Tattoos
     extends Apparel
 {
-
     public final static String RESOURCE_PATH = "SDE/items/apparel/Tattoos.yaml";
     private static LinkedHashMap<String, Tattoos> cache = (null);
 
@@ -24,10 +22,10 @@ public class Tattoos
     }
 
     public static LinkedHashMap<String, Tattoos> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Tattoos.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class Tattoos
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Tattoos> items;
-
     }
-
 }

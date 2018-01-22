@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class AgentsInSpace
     extends Celestial
 {
-
     /**
      * Reward for destroying this entity.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,7 +21,6 @@ public class AgentsInSpace
     public int EntityKillBounty;
     /**
      * Amount of maximum shield HP on the item.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,7 +28,6 @@ public class AgentsInSpace
     public int ShieldCapacity;
     /**
      * agentID to use when initiating NPC communications with this type.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,14 +35,12 @@ public class AgentsInSpace
     public int AgentID;
     /**
      * Signature Radius is used for turret tracking and scanning.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(100)
     public int SignatureRadius;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,7 +49,6 @@ public class AgentsInSpace
     public int EntityEquipmentMin;
     /**
      * The range of the agent's communication sphere
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,14 +56,12 @@ public class AgentsInSpace
     public int AgentCommRange;
     /**
      * The number of hit points on the entities armor.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ArmorHP;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -80,7 +70,6 @@ public class AgentsInSpace
     public int EntityEquipmentMax;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,7 +77,6 @@ public class AgentsInSpace
     public int Hp;
     /**
      * If the player comes within this range of this agent-in-space, an automatic communication window popup will occur.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,15 +84,13 @@ public class AgentsInSpace
     public int AgentAutoPopupRange;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
      * Deprecated. The minimum number of pieces of loot dropped by this entity.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,7 +98,6 @@ public class AgentsInSpace
     public int EntityLootCountMin;
     /**
      * The maximum number of pieces of loot dropped by this entity.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -121,14 +106,12 @@ public class AgentsInSpace
     /**
      * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
      * Value is a % movement of the character's current security towards the upper/lower limit.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int EntitySecurityStatusKillBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -137,11 +120,10 @@ public class AgentsInSpace
     public int FactionID;
     /**
      * Amount of time taken to fully recharge the shield.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldRechargeRate;
     public final static String RESOURCE_PATH = "SDE/items/celestial/AgentsInSpace.yaml";
     private static LinkedHashMap<String, AgentsInSpace> cache = (null);
@@ -157,10 +139,10 @@ public class AgentsInSpace
     }
 
     public static LinkedHashMap<String, AgentsInSpace> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AgentsInSpace.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -168,9 +150,6 @@ public class AgentsInSpace
     }
 
     private static class Container {
-
         public LinkedHashMap<String, AgentsInSpace> items;
-
     }
-
 }

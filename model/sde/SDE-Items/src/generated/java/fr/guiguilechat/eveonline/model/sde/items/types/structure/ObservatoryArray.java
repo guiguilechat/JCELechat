@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class ObservatoryArray
     extends Structure
 {
-
     public final static String RESOURCE_PATH = "SDE/items/structure/ObservatoryArray.yaml";
     private static LinkedHashMap<String, ObservatoryArray> cache = (null);
 
@@ -24,10 +22,10 @@ public class ObservatoryArray
     }
 
     public static LinkedHashMap<String, ObservatoryArray> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ObservatoryArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class ObservatoryArray
     }
 
     private static class Container {
-
         public LinkedHashMap<String, ObservatoryArray> items;
-
     }
-
 }

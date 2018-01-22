@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class WarpAccelerator
     extends Module
 {
-
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,14 +21,12 @@ public class WarpAccelerator
     public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,15 +35,13 @@ public class WarpAccelerator
     public int MaxGroupFitted;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double WarpSpeedAdd;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -68,10 +61,10 @@ public class WarpAccelerator
     }
 
     public static LinkedHashMap<String, WarpAccelerator> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WarpAccelerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -79,9 +72,6 @@ public class WarpAccelerator
     }
 
     private static class Container {
-
         public LinkedHashMap<String, WarpAccelerator> items;
-
     }
-
 }

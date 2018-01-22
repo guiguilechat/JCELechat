@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.entity;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class IncursionSanshaSNationCruiser
     extends Entity
 {
-
     public final static String RESOURCE_PATH = "SDE/items/entity/IncursionSanshaSNationCruiser.yaml";
     private static LinkedHashMap<String, IncursionSanshaSNationCruiser> cache = (null);
 
@@ -24,10 +22,10 @@ public class IncursionSanshaSNationCruiser
     }
 
     public static LinkedHashMap<String, IncursionSanshaSNationCruiser> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(IncursionSanshaSNationCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class IncursionSanshaSNationCruiser
     }
 
     private static class Container {
-
         public LinkedHashMap<String, IncursionSanshaSNationCruiser> items;
-
     }
-
 }

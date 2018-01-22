@@ -16,7 +16,7 @@ import javax.tools.ToolProvider;
 import org.mdkt.compiler.CompiledCode;
 import org.mdkt.compiler.SourceCode;
 
-import com.sun.codemodel.JCodeModel;
+import com.helger.jcodemodel.JCodeModel;
 
 /**
  * class loader that allows dynamic classes.

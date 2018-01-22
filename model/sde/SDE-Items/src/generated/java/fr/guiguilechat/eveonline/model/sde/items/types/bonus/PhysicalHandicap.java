@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.bonus;
 
 import java.io.InputStreamReader;
@@ -12,22 +11,19 @@ import org.yaml.snakeyaml.Yaml;
 public class PhysicalHandicap
     extends Bonus
 {
-
     /**
      * Scales the capacitor need for fitted modules.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeedMultiplier;
     /**
      * Scales the accuracy of some targeted weapon.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double AccuracyMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/bonus/PhysicalHandicap.yaml";
     private static LinkedHashMap<String, PhysicalHandicap> cache = (null);
@@ -43,10 +39,10 @@ public class PhysicalHandicap
     }
 
     public static LinkedHashMap<String, PhysicalHandicap> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PhysicalHandicap.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -54,9 +50,6 @@ public class PhysicalHandicap
     }
 
     private static class Container {
-
         public LinkedHashMap<String, PhysicalHandicap> items;
-
     }
-
 }

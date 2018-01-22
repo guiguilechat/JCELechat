@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
@@ -13,9 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class ScannerArray
     extends Starbase
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(false)
@@ -24,7 +21,6 @@ public class ScannerArray
     public int FighterAbilityAntiCapitalMissileResistance;
     /**
      * Amount of maximum shield HP on the item.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,23 +28,20 @@ public class ScannerArray
     public int ShieldCapacity;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Uniformity;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
      * The number of hit points on the entities armor.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,47 +49,41 @@ public class ScannerArray
     public int ArmorHP;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
      * Radar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanRadarStrength;
     /**
      * Ladar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanLadarStrength;
     /**
      * Magnetometric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
      * Gravimetric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanGravimetricStrength;
     /**
      * Minimum scanning error
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,15 +91,13 @@ public class ScannerArray
     public int MinScanDeviation;
     /**
      * Maximum scan error
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double MaxScanDeviation;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,15 +105,13 @@ public class ScannerArray
     public int RequiredSkill1Level;
     /**
      * The hull damage proportion at which an entity becomes incapacitated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double IncapacitationRatio;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -136,15 +119,13 @@ public class ScannerArray
     public int Power;
     /**
      * Amount of time taken to fully recharge the shield.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldRechargeRate;
     /**
      * Whether the structure requires the onliner's alliance to hold sovereignty in the system for it to be onlineable.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -152,15 +133,13 @@ public class ScannerArray
     public int OnliningRequiresSovereigntyLevel;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
     /**
      * Signature Radius is used for turret tracking and scanning.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -168,7 +147,6 @@ public class ScannerArray
     public int SignatureRadius;
     /**
      * How many structures in this group can be anchored for the same alliance per solar system.  0 means there is no limit.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -176,15 +154,13 @@ public class ScannerArray
     public int PosAnchoredPerSolarSystemAmount;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -192,7 +168,6 @@ public class ScannerArray
     public int RequiredSkill1;
     /**
      * Effective range of scanner in multiples of AUs
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -212,10 +187,10 @@ public class ScannerArray
     }
 
     public static LinkedHashMap<String, ScannerArray> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ScannerArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -223,9 +198,6 @@ public class ScannerArray
     }
 
     private static class Container {
-
         public LinkedHashMap<String, ScannerArray> items;
-
     }
-
 }

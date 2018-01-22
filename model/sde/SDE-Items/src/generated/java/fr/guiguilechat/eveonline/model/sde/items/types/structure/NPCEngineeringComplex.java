@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class NPCEngineeringComplex
     extends Structure
 {
-
     /**
      * How many upgrades can by fitted to this ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,14 +21,12 @@ public class NPCEngineeringComplex
     public int UpgradeSlotsLeft;
     /**
      * This defines the total capacity of fighters allowed in the fighter bay of the ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int FighterCapacity;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,14 +35,12 @@ public class NPCEngineeringComplex
     public int ServiceSlots;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RigSize;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,7 +49,6 @@ public class NPCEngineeringComplex
     public int HeatCapacityHi;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,7 +56,6 @@ public class NPCEngineeringComplex
     public int StructureServiceRoleBonus;
     /**
      * This defines the total number of fighter launch tubes on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -72,7 +63,6 @@ public class NPCEngineeringComplex
     public int FighterTubes;
     /**
      * Number of Light Fighters the ship can launch.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -80,7 +70,6 @@ public class NPCEngineeringComplex
     public int FighterLightSlots;
     /**
      * Number of Support Fighters the ship can launch.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,14 +77,12 @@ public class NPCEngineeringComplex
     public int FighterSupportSlots;
     /**
      * Number of Heavy Fighters the ship can launch.Heavy 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int FighterHeavySlots;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -104,14 +91,12 @@ public class NPCEngineeringComplex
     public int HeatCapacityMed;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double NpcStructureStasisWebificationBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -120,14 +105,12 @@ public class NPCEngineeringComplex
     public int HeatCapacityLow;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double NpcStructureEnergyWarfareBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -136,7 +119,6 @@ public class NPCEngineeringComplex
     public int ChargeRateMultiplier;
     /**
      * Number of hours of vulnerability each week required. Applies only to categoryStructure.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -144,7 +126,6 @@ public class NPCEngineeringComplex
     public int VulnerabilityRequired;
     /**
      * Distance which tethering will engage / disengage piloted ships.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -152,7 +133,6 @@ public class NPCEngineeringComplex
     public int TetheringRange;
     /**
      * The number of remaining unused launcher slots.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -160,15 +140,13 @@ public class NPCEngineeringComplex
     public int LauncherSlotsLeft;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationHi;
     /**
      * Attribute on ships used for ship upgrades
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -176,23 +154,20 @@ public class NPCEngineeringComplex
     public int UpgradeCapacity;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationMed;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationLow;
     /**
      * The number of rig slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -212,10 +187,10 @@ public class NPCEngineeringComplex
     }
 
     public static LinkedHashMap<String, NPCEngineeringComplex> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCEngineeringComplex.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -223,9 +198,6 @@ public class NPCEngineeringComplex
     }
 
     private static class Container {
-
         public LinkedHashMap<String, NPCEngineeringComplex> items;
-
     }
-
 }

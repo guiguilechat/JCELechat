@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
@@ -13,25 +12,21 @@ import org.yaml.snakeyaml.Yaml;
 public class PropulsionSystems
     extends Subsystem
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusGallentePropulsion;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double AgilityBonusAdd;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,14 +35,12 @@ public class PropulsionSystems
     public int WarpBubbleImmuneModifier;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusCaldariPropulsion;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,7 +49,6 @@ public class PropulsionSystems
     public int SubsystemBonusAmarrPropulsion2;
     /**
      * Signature Radius is used for turret tracking and scanning.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -64,14 +56,12 @@ public class PropulsionSystems
     public int SignatureRadius;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusCaldariPropulsion2;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -80,7 +70,6 @@ public class PropulsionSystems
     public int SubsystemBonusMinmatarPropulsion;
     /**
      * Maximum range at which the scanner can lock a target.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -88,14 +77,12 @@ public class PropulsionSystems
     public int MaxTargetRange;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double SubsystemBonusGallentePropulsion2;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -103,7 +90,6 @@ public class PropulsionSystems
     @DefaultIntValue(0)
     public int SubsystemBonusMinmatarPropulsion2;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -124,10 +110,10 @@ public class PropulsionSystems
     }
 
     public static LinkedHashMap<String, PropulsionSystems> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PropulsionSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -135,9 +121,6 @@ public class PropulsionSystems
     }
 
     private static class Container {
-
         public LinkedHashMap<String, PropulsionSystems> items;
-
     }
-
 }

@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -13,25 +12,21 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureLaboratoryRigMDrone
     extends StructureModule
 {
-
     /**
      * High-sec bonus on structure rigs.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double StructureRigBonus2;
     /**
      * How much of the upgrade capacity is used when this is fitted to a ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,7 +35,6 @@ public class StructureLaboratoryRigMDrone
     public int CanFitShipGroup01;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,14 +42,12 @@ public class StructureLaboratoryRigMDrone
     public int TechLevel;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -64,7 +56,6 @@ public class StructureLaboratoryRigMDrone
     public int RigSize;
     /**
      * High-sec bonus on structure rigs.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -84,10 +75,10 @@ public class StructureLaboratoryRigMDrone
     }
 
     public static LinkedHashMap<String, StructureLaboratoryRigMDrone> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureLaboratoryRigMDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -95,9 +86,6 @@ public class StructureLaboratoryRigMDrone
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureLaboratoryRigMDrone> items;
-
     }
-
 }

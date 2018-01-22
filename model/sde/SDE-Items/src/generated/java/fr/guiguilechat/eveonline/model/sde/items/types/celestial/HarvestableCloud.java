@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class HarvestableCloud
     extends Celestial
 {
-
     public final static String RESOURCE_PATH = "SDE/items/celestial/HarvestableCloud.yaml";
     private static LinkedHashMap<String, HarvestableCloud> cache = (null);
 
@@ -24,10 +22,10 @@ public class HarvestableCloud
     }
 
     public static LinkedHashMap<String, HarvestableCloud> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HarvestableCloud.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class HarvestableCloud
     }
 
     private static class Container {
-
         public LinkedHashMap<String, HarvestableCloud> items;
-
     }
-
 }

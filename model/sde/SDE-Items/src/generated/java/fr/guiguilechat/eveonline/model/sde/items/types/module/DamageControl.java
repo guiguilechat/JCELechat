@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,17 +12,14 @@ import org.yaml.snakeyaml.Yaml;
 public class DamageControl
     extends Module
 {
-
     /**
      * The amount of charge used from the capacitor for a module activation.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -32,87 +28,76 @@ public class DamageControl
     public int MaxGroupFitted;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
      * Multiplies EM damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorEmDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorExplosiveDamageResonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorKineticDamageResonance;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullEmDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ArmorThermalDamageResonance;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullExplosiveDamageResonance;
     /**
      * Multiplies EM damage taken by shield
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldEmDamageResonance;
     /**
-     * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullKineticDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldExplosiveDamageResonance;
     /**
      * Can be fitted to
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,30 +105,26 @@ public class DamageControl
     public int CanFitShipGroup05;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullThermalDamageResonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldKineticDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Shield. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -152,14 +133,12 @@ public class DamageControl
     public int CanFitShipGroup01;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup02;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -168,14 +147,12 @@ public class DamageControl
     public int CanFitShipGroup03;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -184,7 +161,6 @@ public class DamageControl
     public int CanFitShipGroup04;
     /**
      * Can be fitted to
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -192,7 +168,6 @@ public class DamageControl
     public int CanFitShipGroup06;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -200,7 +175,6 @@ public class DamageControl
     public int MetaGroupID;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -208,15 +182,13 @@ public class DamageControl
     public int Power;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -224,7 +196,6 @@ public class DamageControl
     public int RequiredSkill1;
     /**
      * If set, this module cannot be activated and made to autorepeat.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -232,7 +203,6 @@ public class DamageControl
     public int DisallowRepeatingActivation;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -252,10 +222,10 @@ public class DamageControl
     }
 
     public static LinkedHashMap<String, DamageControl> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DamageControl.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -263,9 +233,6 @@ public class DamageControl
     }
 
     private static class Container {
-
         public LinkedHashMap<String, DamageControl> items;
-
     }
-
 }

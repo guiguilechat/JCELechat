@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.orbitals;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class TestOrbitals
     extends Orbitals
 {
-
     /**
      * How long it takes to unanchor this object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,7 +21,6 @@ public class TestOrbitals
     public int UnanchoringDelay;
     /**
      * How long it takes to bring this object online.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,23 +28,20 @@ public class TestOrbitals
     public int OnliningDelay;
     /**
      * The difficulty in opening this object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double AccessDifficulty;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Uniformity;
     /**
      * How long it takes to anchor or unanchor this object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -68,10 +61,10 @@ public class TestOrbitals
     }
 
     public static LinkedHashMap<String, TestOrbitals> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TestOrbitals.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -79,9 +72,6 @@ public class TestOrbitals
     }
 
     private static class Container {
-
         public LinkedHashMap<String, TestOrbitals> items;
-
     }
-
 }

@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class ControlTower
     extends Starbase
 {
-
     /**
      * Bonus attribute to entity Target Switch Delay
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,7 +21,6 @@ public class ControlTower
     public int ControlTowerEwTargetSwitchDelayBonus;
     /**
      * Amount of maximum shield HP on the item.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -33,7 +29,6 @@ public class ControlTower
     /**
      * numeric classification for tower size
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -41,15 +36,13 @@ public class ControlTower
     public int ControlTowerSize;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Uniformity;
     /**
      * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -57,7 +50,6 @@ public class ControlTower
     public int ShieldCharge;
     /**
      * The number of hit points on the entities armor.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -65,7 +57,6 @@ public class ControlTower
     public int ArmorHP;
     /**
      * The distance that structures have to be from a control tower in order to work with it.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -73,7 +64,6 @@ public class ControlTower
     public int MaxStructureDistance;
     /**
      * DO NOT MESS WITH. The amount of damage done to the entities armor hit points.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -81,7 +71,6 @@ public class ControlTower
     public int ArmorDamage;
     /**
      * power output of power core
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -89,46 +78,40 @@ public class ControlTower
     public int PowerOutput;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
      * Multiplies EM damage taken by shield
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldEmDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldExplosiveDamageResonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldKineticDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Shield. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -137,7 +120,6 @@ public class ControlTower
     public int ControlTowerMissileVelocityBonus;
     /**
      * The distance at which to react when relevant objects come within range.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -145,7 +127,6 @@ public class ControlTower
     public int ProximityRange;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -153,7 +134,6 @@ public class ControlTower
     public int MetaGroupID;
     /**
      * Radius of the force shield that this structure generates.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -161,7 +141,6 @@ public class ControlTower
     public int ShieldRadius;
     /**
      * Signature Radius is used for turret tracking and scanning.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -169,7 +148,6 @@ public class ControlTower
     public int SignatureRadius;
     /**
      * CPU output of ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -177,14 +155,12 @@ public class ControlTower
     public int CpuOutput;
     /**
      * The maximum distance from the control tower, at which structures can be controlled.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(15000)
     public int PosStructureControlDistanceMax;
     /**
-     * 
      * 
      */
     @HighIsGood(false)
@@ -193,7 +169,6 @@ public class ControlTower
     public int FighterAbilityAntiCapitalMissileResistance;
     /**
      * How many meters from the standard warp-in distance a moon can be anchored from.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -201,7 +176,6 @@ public class ControlTower
     public int MoonAnchorDistance;
     /**
      * Maximum range at which the scanner can lock a target.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -209,55 +183,48 @@ public class ControlTower
     public int MaxTargetRange;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullEmDamageResonance;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullExplosiveDamageResonance;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullKineticDamageResonance;
     /**
      * Radar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanRadarStrength;
     /**
-     * 
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HullThermalDamageResonance;
     /**
      * Ladar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanLadarStrength;
     /**
      * Secondary cargo space allowed, meant to supplement capacity. This is currently used exclusively for Strontium storage on starbases.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -265,7 +232,6 @@ public class ControlTower
     public int CapacitySecondary;
     /**
      * The interval for fuel consumption of a control tower
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -273,22 +239,19 @@ public class ControlTower
     public int PosControlTowerPeriod;
     /**
      * Magnetometric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
      * Gravimetric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanGravimetricStrength;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -297,7 +260,6 @@ public class ControlTower
     public int ControlTowerLaserDamageBonus;
     /**
      * Autogenerated skill attribute, prototypingBonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -305,22 +267,19 @@ public class ControlTower
     public int PrototypingBonus;
     /**
      * Amount of time taken to fully recharge the shield.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldRechargeRate;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -329,14 +288,12 @@ public class ControlTower
     public int ControlTowerLaserOptimalBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ControlTowerProjectileOptimalBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -345,14 +302,12 @@ public class ControlTower
     public int ControlTowerProjectileFallOffBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ControlTowerProjectileROFBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -361,14 +316,12 @@ public class ControlTower
     public int ControlTowerMissileROFBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ControlTowerSiloCapacityBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -389,10 +342,10 @@ public class ControlTower
     }
 
     public static LinkedHashMap<String, ControlTower> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ControlTower.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -400,9 +353,6 @@ public class ControlTower
     }
 
     private static class Container {
-
         public LinkedHashMap<String, ControlTower> items;
-
     }
-
 }

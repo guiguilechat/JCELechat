@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
 import fr.guiguilechat.eveonline.model.sde.items.Item;
@@ -9,10 +8,8 @@ import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 public abstract class Skill
     extends Item
 {
-
     /**
      * Level of skill
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -28,5 +25,4 @@ public abstract class Skill
     public Class<?> getCategory() {
         return Skill.class;
     }
-
 }

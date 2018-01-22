@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
 import fr.guiguilechat.eveonline.model.sde.items.Item;
@@ -9,14 +8,12 @@ import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 public abstract class AncientRelics
     extends Item
 {
-
     /**
      * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
 
     @Override
@@ -28,5 +25,4 @@ public abstract class AncientRelics
     public Class<?> getCategory() {
         return AncientRelics.class;
     }
-
 }

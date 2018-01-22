@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.entity;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class AsteroidMordusLegionCommanderBattleship
     extends Entity
 {
-
     public final static String RESOURCE_PATH = "SDE/items/entity/AsteroidMordusLegionCommanderBattleship.yaml";
     private static LinkedHashMap<String, AsteroidMordusLegionCommanderBattleship> cache = (null);
 
@@ -24,10 +22,10 @@ public class AsteroidMordusLegionCommanderBattleship
     }
 
     public static LinkedHashMap<String, AsteroidMordusLegionCommanderBattleship> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidMordusLegionCommanderBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class AsteroidMordusLegionCommanderBattleship
     }
 
     private static class Container {
-
         public LinkedHashMap<String, AsteroidMordusLegionCommanderBattleship> items;
-
     }
-
 }

@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class Processors
     extends PlanetaryInteraction
 {
-
     /**
      * This type can only be found/used/created on a planet matching this type ID.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class Processors
     public int PlanetRestriction;
     /**
      * CPU load of ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -31,7 +27,6 @@ public class Processors
     public int CpuLoad;
     /**
      * Current load of power core
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -51,10 +46,10 @@ public class Processors
     }
 
     public static LinkedHashMap<String, Processors> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Processors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -62,9 +57,6 @@ public class Processors
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Processors> items;
-
     }
-
 }

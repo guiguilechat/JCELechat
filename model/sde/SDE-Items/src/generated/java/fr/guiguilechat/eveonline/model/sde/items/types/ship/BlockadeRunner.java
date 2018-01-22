@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
@@ -13,17 +12,14 @@ import org.yaml.snakeyaml.Yaml;
 public class BlockadeRunner
     extends Ship
 {
-
     /**
      * How many upgrades can by fitted to this ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -32,7 +28,6 @@ public class BlockadeRunner
     public int CovertOpsAndReconOpsCloakModuleDelay;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class BlockadeRunner
     public int RigSize;
     /**
      * The number of low power slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class BlockadeRunner
     public int LowSlots;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,14 +49,12 @@ public class BlockadeRunner
     public int MedSlots;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int HiSlots;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -72,7 +63,6 @@ public class BlockadeRunner
     public int FwLpKill;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -80,7 +70,6 @@ public class BlockadeRunner
     public int IndustrialBonusDroneDamage;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,7 +77,6 @@ public class BlockadeRunner
     public int RequiredSkill1Level;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,14 +84,12 @@ public class BlockadeRunner
     public int RequiredSkill2Level;
     /**
      * Tells if this type (ship) can be affected by the Rorqual Invulnerability Module
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int AffectedByIndustrialInvulnModule;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -112,7 +98,6 @@ public class BlockadeRunner
     public int EliteBonusIndustrial1;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,15 +105,13 @@ public class BlockadeRunner
     public int EliteBonusIndustrial2;
     /**
      * Multiplier for jump fatigue distance
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double JumpFatigueMultiplier;
     /**
      * The resolution that the vessel can target other objects at.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -136,7 +119,6 @@ public class BlockadeRunner
     public int ScanResolution;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -144,7 +126,6 @@ public class BlockadeRunner
     public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -152,7 +133,6 @@ public class BlockadeRunner
     public int RequiredSkill2;
     /**
      * Chance of being able to resist a cargo scan.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -160,14 +140,12 @@ public class BlockadeRunner
     public int CargoScanResistance;
     /**
      * scanning speed in milliseconds
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int ScanSpeed;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -176,14 +154,12 @@ public class BlockadeRunner
     public int EliteIndustrialCovertCloakBonus;
     /**
      * Tells if this type (ship) can be placed in the maintenance bay of a capital industrial ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int AllowedInCapIndustrialMaintenanceBay;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -192,7 +168,6 @@ public class BlockadeRunner
     public int JumpHarmonics;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -200,7 +175,6 @@ public class BlockadeRunner
     public int TypeColorScheme;
     /**
      * Warp ability of a ship.  If greater than zero than the ship cannot warp.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -208,15 +182,13 @@ public class BlockadeRunner
     public int WarpScrambleStatus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationHi;
     /**
      * Attribute on ships used for ship upgrades
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -224,14 +196,12 @@ public class BlockadeRunner
     public int UpgradeCapacity;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationMed;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -240,14 +210,12 @@ public class BlockadeRunner
     public int ShipBonusMI;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationLow;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -256,14 +224,12 @@ public class BlockadeRunner
     public int ShipBonusAI;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(5)
     public int ShipBonusCI;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -272,7 +238,6 @@ public class BlockadeRunner
     public int ShipBonusGI;
     /**
      * The number of rig slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -280,7 +245,6 @@ public class BlockadeRunner
     public int RigSlots;
     /**
      * The main color of a ship type.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -300,10 +264,10 @@ public class BlockadeRunner
     }
 
     public static LinkedHashMap<String, BlockadeRunner> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BlockadeRunner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -311,9 +275,6 @@ public class BlockadeRunner
     }
 
     private static class Container {
-
         public LinkedHashMap<String, BlockadeRunner> items;
-
     }
-
 }

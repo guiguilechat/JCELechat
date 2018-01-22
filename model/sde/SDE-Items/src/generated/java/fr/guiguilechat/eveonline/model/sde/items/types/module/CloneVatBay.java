@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,17 +12,14 @@ import org.yaml.snakeyaml.Yaml;
 public class CloneVatBay
     extends Module
 {
-
     /**
      * Modules with this attribute set to 1 can not be used in deadspace. Modules with this attribute set to 2 can not be used in deadspace even where "disableModuleBlocking" is selected
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int DeadspaceUnsafe;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -32,15 +28,13 @@ public class CloneVatBay
     public int MaxGroupFitted;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
      * The type of resource needed to be consumed for each activation cycle of this structure.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class CloneVatBay
     public int ConsumptionType;
     /**
      * The amount of the given resource type needed to be consumed for each activation cycle of this structure.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -56,14 +49,12 @@ public class CloneVatBay
     public int ConsumptionQuantity;
     /**
      * Signifies that this module if activated, will prevent ejection from the ship it is fitted to and extend the log out ship removal timer.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int DisallowEarlyDeactivation;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -72,14 +63,12 @@ public class CloneVatBay
     public int CanCloak;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -88,7 +77,6 @@ public class CloneVatBay
     public int CanFitShipGroup01;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,14 +84,12 @@ public class CloneVatBay
     public int CanFitShipGroup02;
     /**
      * Factor by which topspeed increases.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double SpeedFactor;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -112,7 +98,6 @@ public class CloneVatBay
     public int SiegeModeWarpStatus;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,7 +105,6 @@ public class CloneVatBay
     public int RequiredSkill1Level;
     /**
      * If this module is active and the ship supports it, the ship can serve as a destination for clone jumps.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -128,7 +112,6 @@ public class CloneVatBay
     public int AllowsCloneJumpsWhenActive;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -136,7 +119,6 @@ public class CloneVatBay
     public int RequiredSkill1;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -144,7 +126,6 @@ public class CloneVatBay
     public int MaxGroupActive;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -164,10 +145,10 @@ public class CloneVatBay
     }
 
     public static LinkedHashMap<String, CloneVatBay> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CloneVatBay.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -175,9 +156,6 @@ public class CloneVatBay
     }
 
     private static class Container {
-
         public LinkedHashMap<String, CloneVatBay> items;
-
     }
-
 }

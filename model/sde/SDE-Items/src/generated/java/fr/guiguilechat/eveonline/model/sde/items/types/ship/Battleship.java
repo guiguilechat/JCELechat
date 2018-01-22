@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class Battleship
     extends Ship
 {
-
     /**
      * How many upgrades can by fitted to this ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,14 +21,12 @@ public class Battleship
     public int UpgradeSlotsLeft;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusMB2;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,7 +35,6 @@ public class Battleship
     public int RigSize;
     /**
      * Indicates whether a ship type has a ship maintenance bay.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class Battleship
     public int HasShipMaintenanceBay;
     /**
      * The number of low power slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,7 +49,6 @@ public class Battleship
     public int LowSlots;
     /**
      * The capacity of the hangar in a ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,7 +56,6 @@ public class Battleship
     public int ShipMaintenanceBayCapacity;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -72,14 +63,12 @@ public class Battleship
     public int MedSlots;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int HiSlots;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -88,7 +77,6 @@ public class Battleship
     public int FwLpKill;
     /**
      * Deprecated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,7 +84,6 @@ public class Battleship
     public int MaxDirectionalVelocity;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,15 +91,13 @@ public class Battleship
     public int RequiredSkill1Level;
     /**
      * Deprecated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double MinTargetVelDmgMultiplier;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,23 +105,20 @@ public class Battleship
     public int RequiredSkill2Level;
     /**
      * Second Stock Bonus on Pirate Faction Ships.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusPirateFaction2;
     /**
      * Fixed Role Bonus on a ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusRole7;
     /**
      * NOS override allows a nosferatu module to drain the target capacitor below the current ships capacitor level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -144,7 +126,6 @@ public class Battleship
     public int NosOverride;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -152,15 +133,13 @@ public class Battleship
     public int MetaGroupID;
     /**
      * skill bonus attribute2 for gallente battleship
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusGB2;
     /**
      * The resolution that the vessel can target other objects at.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -168,7 +147,6 @@ public class Battleship
     public int ScanResolution;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -176,7 +154,6 @@ public class Battleship
     public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -184,15 +161,13 @@ public class Battleship
     public int RequiredSkill2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusAB2;
     /**
      * The maximum distance at which the object can be used.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -200,7 +175,6 @@ public class Battleship
     public int MaxOperationalDistance;
     /**
      * The maximum number of users that can be present within the operational range of the structure for it to be capable of operation.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -208,14 +182,12 @@ public class Battleship
     public int MaxOperationalUsers;
     /**
      * scanning speed in milliseconds
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int ScanSpeed;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -224,7 +196,6 @@ public class Battleship
     public int ShipBonusCB3;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -232,22 +203,19 @@ public class Battleship
     public int TypeColorScheme;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(5.0D)
+    @DefaultDoubleValue(5.0)
     public double ShipBonusMB;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationHi;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -256,7 +224,6 @@ public class Battleship
     public int ShipBonusCB;
     /**
      * Attribute on ships used for ship upgrades
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -264,31 +231,27 @@ public class Battleship
     public int UpgradeCapacity;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(5.0D)
+    @DefaultDoubleValue(5.0)
     public double ShipBonusAB;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationMed;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationLow;
     /**
      * The number of rig slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -296,14 +259,12 @@ public class Battleship
     public int RigSlots;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusGB;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -312,14 +273,12 @@ public class Battleship
     public int ShipBonus2CB;
     /**
      * The main color of a ship type.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MainColor;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -340,10 +299,10 @@ public class Battleship
     }
 
     public static LinkedHashMap<String, Battleship> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Battleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -351,9 +310,6 @@ public class Battleship
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Battleship> items;
-
     }
-
 }

@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items;
 
 import java.lang.reflect.Field;
@@ -6,7 +5,6 @@ import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 
 public abstract class Item {
-
     public int id;
     public double volume;
 
@@ -25,7 +23,7 @@ public abstract class Item {
                 try {
                     f.setAccessible(true);
                     f.set(this, annotDouble.value());
-                } catch (Exception _x) {
+                } catch (final Exception ex) {
                 }
             } else {
                 DefaultIntValue annotLong = f.getAnnotation(DefaultIntValue.class);
@@ -33,11 +31,10 @@ public abstract class Item {
                     try {
                         f.setAccessible(true);
                         f.set(this, annotLong.value());
-                    } catch (Exception _x) {
+                    } catch (final Exception ex) {
                     }
                 }
             }
         }
     }
-
 }

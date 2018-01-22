@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
@@ -13,18 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 public class StationImprovementPlatform
     extends Celestial
 {
-
     /**
      * Bonus for refining ore. Used for station improvements
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double StationOreRefiningBonus;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,7 +28,6 @@ public class StationImprovementPlatform
     public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class StationImprovementPlatform
     public int RequiredSkill1;
     /**
      * The type of station this platform can be used to build.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class StationImprovementPlatform
     public int StationTypeID;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,7 +49,6 @@ public class StationImprovementPlatform
     public int Hp;
     /**
      * How long it takes to anchor or unanchor this object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,7 +56,6 @@ public class StationImprovementPlatform
     public int AnchoringDelay;
     /**
      * This is a display-only attribute for showinfo
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -84,10 +75,10 @@ public class StationImprovementPlatform
     }
 
     public static LinkedHashMap<String, StationImprovementPlatform> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StationImprovementPlatform.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -95,9 +86,6 @@ public class StationImprovementPlatform
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StationImprovementPlatform> items;
-
     }
-
 }

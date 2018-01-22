@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -13,18 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureStasisWebifier
     extends StructureModule
 {
-
     /**
      * The amount of charge used from the capacitor for a module activation.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,14 +28,12 @@ public class StructureStasisWebifier
     public int Hp;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -48,14 +42,12 @@ public class StructureStasisWebifier
     public int CanFitShipGroup01;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -64,14 +56,12 @@ public class StructureStasisWebifier
     public int CanFitShipGroup02;
     /**
      * Factor by which topspeed increases.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double SpeedFactor;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -80,7 +70,6 @@ public class StructureStasisWebifier
     public int CanFitShipGroup03;
     /**
      * Distance below which range does not affect the to-hit equation.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -88,7 +77,6 @@ public class StructureStasisWebifier
     public int MaxRange;
     /**
      * Attribute ID of the resistance type v's this Ewar module.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,7 +84,6 @@ public class StructureStasisWebifier
     public int RemoteResistanceID;
     /**
      * distance from maximum range at which effectiveness has fallen by half
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -104,7 +91,6 @@ public class StructureStasisWebifier
     public int FalloffEffectiveness;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,7 +98,6 @@ public class StructureStasisWebifier
     public int StructureItemVisualFlag;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -132,10 +117,10 @@ public class StructureStasisWebifier
     }
 
     public static LinkedHashMap<String, StructureStasisWebifier> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureStasisWebifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -143,9 +128,6 @@ public class StructureStasisWebifier
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureStasisWebifier> items;
-
     }
-
 }

@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
@@ -13,9 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class Logistics
     extends Ship
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -24,14 +21,12 @@ public class Logistics
     public int CovertOpsAndReconOpsCloakModuleDelay;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RigSize;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,7 +35,6 @@ public class Logistics
     public int CovertOpsStealthBomberTargettingDelay;
     /**
      * The number of low power slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class Logistics
     public int LowSlots;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,14 +49,12 @@ public class Logistics
     public int MedSlots;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int HiSlots;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -72,7 +63,6 @@ public class Logistics
     public int FwLpKill;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -80,7 +70,6 @@ public class Logistics
     public int RequiredSkill1Level;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,7 +77,6 @@ public class Logistics
     public int RequiredSkill2Level;
     /**
      * Required skill level for skill 3
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,7 +84,6 @@ public class Logistics
     public int RequiredSkill3Level;
     /**
      * Alliance Tournament Frigate Bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,7 +91,6 @@ public class Logistics
     public int ShipBonusATF1;
     /**
      * The resolution that the vessel can target other objects at.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -112,7 +98,6 @@ public class Logistics
     public int ScanResolution;
     /**
      * scanning speed in milliseconds
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -120,7 +105,6 @@ public class Logistics
     public int ScanSpeed;
     /**
      * Attribute on ships used for ship upgrades
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -128,7 +112,6 @@ public class Logistics
     public int UpgradeCapacity;
     /**
      * The number of rig slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -136,7 +119,6 @@ public class Logistics
     public int RigSlots;
     /**
      * The main color of a ship type.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -144,7 +126,6 @@ public class Logistics
     public int MainColor;
     /**
      * How many upgrades can by fitted to this ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -152,39 +133,34 @@ public class Logistics
     public int UpgradeSlotsLeft;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusAC2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusCC2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusGC2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusMC2;
     /**
      * NOS override allows a nosferatu module to drain the target capacitor below the current ships capacitor level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -192,7 +168,6 @@ public class Logistics
     public int NosOverride;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -200,14 +175,12 @@ public class Logistics
     public int MetaGroupID;
     /**
      * third bonus for support cruisers
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int EliteBonusLogistics3;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -216,7 +189,6 @@ public class Logistics
     public int RoleBonusRepairRange;
     /**
      * special corpse hold capacity
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -224,7 +196,6 @@ public class Logistics
     public int SpecialCorpseHoldCapacity;
     /**
      * first bonus for support cruisers
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -232,7 +203,6 @@ public class Logistics
     public int EliteBonusLogistics1;
     /**
      * second bonus for support cruisers
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -240,7 +210,6 @@ public class Logistics
     public int EliteBonusLogistics2;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -248,7 +217,6 @@ public class Logistics
     public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -256,7 +224,6 @@ public class Logistics
     public int RequiredSkill2;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -264,7 +231,6 @@ public class Logistics
     public int RequiredSkill3;
     /**
      * Reduction of CPU need of shield transporters.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -272,7 +238,6 @@ public class Logistics
     public int ShieldTransportCpuNeedBonus;
     /**
      * Reduction of power grid needs of energy transfer arrays
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -280,7 +245,6 @@ public class Logistics
     public int PowerTransferPowerNeedBonus;
     /**
      * Bonus to drone armor repair amount
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -288,7 +252,6 @@ public class Logistics
     public int DroneArmorDamageAmountBonus;
     /**
      * Bonus to drone shield transport amount
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -296,14 +259,12 @@ public class Logistics
     public int DroneShieldBonusBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusAC;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -312,14 +273,12 @@ public class Logistics
     public int JumpHarmonics;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(5.0D)
+    @DefaultDoubleValue(5.0)
     public double ShipBonusGC;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -328,7 +287,6 @@ public class Logistics
     public int ShipBonusCC;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -336,39 +294,34 @@ public class Logistics
     public int TypeColorScheme;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusMC;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationHi;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationMed;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationLow;
     /**
      * Ship Role Bonus. Not multiplied by skills.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -376,7 +329,6 @@ public class Logistics
     public int ShipBonusRole4;
     /**
      * Ship Role Bonus. Not multiplied by skills.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -396,10 +348,10 @@ public class Logistics
     }
 
     public static LinkedHashMap<String, Logistics> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Logistics.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -407,9 +359,6 @@ public class Logistics
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Logistics> items;
-
     }
-
 }

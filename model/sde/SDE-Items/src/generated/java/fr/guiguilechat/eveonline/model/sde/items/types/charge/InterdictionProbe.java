@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
@@ -13,18 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 public class InterdictionProbe
     extends Charge
 {
-
     /**
      * Maximum velocity of ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double MaxVelocity;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,15 +28,13 @@ public class InterdictionProbe
     public int TechLevel;
     /**
      * The agility of the object.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Agility;
     /**
      * Maximum range objects can be warp scrambled from.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class InterdictionProbe
     public int WarpScrambleRange;
     /**
      * Signature Radius is used for turret tracking and scanning.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -56,7 +49,6 @@ public class InterdictionProbe
     public int SignatureRadius;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,7 +56,6 @@ public class InterdictionProbe
     public int Hp;
     /**
      * One of the groups of launcher this charge can be loaded into.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -72,23 +63,20 @@ public class InterdictionProbe
     public int LauncherGroup;
     /**
      * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
      * If set on a charge or module type, will prevent it from being activated in empire space.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,7 +84,6 @@ public class InterdictionProbe
     public int DisallowInEmpireSpace;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,7 +91,6 @@ public class InterdictionProbe
     public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,7 +98,6 @@ public class InterdictionProbe
     public int RequiredSkill1;
     /**
      * The amount of milliseconds before the object explodes.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -132,10 +117,10 @@ public class InterdictionProbe
     }
 
     public static LinkedHashMap<String, InterdictionProbe> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(InterdictionProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -143,9 +128,6 @@ public class InterdictionProbe
     }
 
     private static class Container {
-
         public LinkedHashMap<String, InterdictionProbe> items;
-
     }
-
 }

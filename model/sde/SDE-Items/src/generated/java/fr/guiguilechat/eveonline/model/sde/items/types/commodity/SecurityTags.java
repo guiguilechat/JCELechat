@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class SecurityTags
     extends Commodity
 {
-
     /**
      * ISK fee per tag to be paid when turning in a tag for a security-status gain
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -35,10 +32,10 @@ public class SecurityTags
     }
 
     public static LinkedHashMap<String, SecurityTags> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SecurityTags.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -46,9 +43,6 @@ public class SecurityTags
     }
 
     private static class Container {
-
         public LinkedHashMap<String, SecurityTags> items;
-
     }
-
 }

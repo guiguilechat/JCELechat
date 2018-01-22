@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class MobileWarpDisruptor
     extends Deployable
 {
-
     /**
      * Maximum range objects can be warp scrambled from.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class MobileWarpDisruptor
     public int WarpScrambleRange;
     /**
      * How long it takes to anchor or unanchor this object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -31,7 +27,6 @@ public class MobileWarpDisruptor
     public int AnchoringDelay;
     /**
      * If set on a charge or module type, will prevent it from being activated in empire space.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -39,7 +34,6 @@ public class MobileWarpDisruptor
     public int DisallowInEmpireSpace;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -47,7 +41,6 @@ public class MobileWarpDisruptor
     public int RequiredSkill1Level;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -55,7 +48,6 @@ public class MobileWarpDisruptor
     public int RequiredSkill2Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -63,7 +55,6 @@ public class MobileWarpDisruptor
     public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -71,7 +62,6 @@ public class MobileWarpDisruptor
     public int RequiredSkill2;
     /**
      * The ranking of the module within its tech level
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -79,7 +69,6 @@ public class MobileWarpDisruptor
     public int MetaLevel;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -99,10 +88,10 @@ public class MobileWarpDisruptor
     }
 
     public static LinkedHashMap<String, MobileWarpDisruptor> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileWarpDisruptor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -110,9 +99,6 @@ public class MobileWarpDisruptor
     }
 
     private static class Container {
-
         public LinkedHashMap<String, MobileWarpDisruptor> items;
-
     }
-
 }

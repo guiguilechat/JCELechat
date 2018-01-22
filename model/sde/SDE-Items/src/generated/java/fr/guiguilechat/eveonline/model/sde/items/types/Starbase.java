@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
 import fr.guiguilechat.eveonline.model.sde.items.Item;
@@ -10,10 +9,8 @@ import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 public abstract class Starbase
     extends Item
 {
-
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -21,15 +18,13 @@ public abstract class Starbase
     public int Hp;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
      * How long it takes to anchor or unanchor this object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -37,7 +32,6 @@ public abstract class Starbase
     public int AnchoringDelay;
     /**
      * If this module is in use and this attribute is 1, then offensive modules cannot be used on the ship if they apply modifiers for the duration of their effect. If this is put on a ship or NPC with value of 1, then the ship or NPC are immune to offensive modifiers (target jamming, tracking disruption etc.)
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -45,7 +39,6 @@ public abstract class Starbase
     public int DisallowOffensiveModifiers;
     /**
      * How long it takes to unanchor this object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -53,7 +46,6 @@ public abstract class Starbase
     public int UnanchoringDelay;
     /**
      * How long it takes to bring this object online.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -69,5 +61,4 @@ public abstract class Starbase
     public Class<?> getCategory() {
         return Starbase.class;
     }
-
 }

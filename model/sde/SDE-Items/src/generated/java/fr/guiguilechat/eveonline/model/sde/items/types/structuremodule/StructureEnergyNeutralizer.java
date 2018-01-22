@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureEnergyNeutralizer
     extends StructureModule
 {
-
     /**
      * An amount to modify the power of the target by.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,15 +21,13 @@ public class StructureEnergyNeutralizer
     public int EnergyNeutralizerAmount;
     /**
      * The amount of charge used from the capacitor for a module activation.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,23 +35,20 @@ public class StructureEnergyNeutralizer
     public int TechLevel;
     /**
      * modifier to an entity capacitor level to represent energy drain for small ships
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double EntityCapacitorLevelModifierSmall;
     /**
      * modifier to an entity capacitor level to represent energy drain for medium ships
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double EntityCapacitorLevelModifierMedium;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,30 +56,26 @@ public class StructureEnergyNeutralizer
     public int Hp;
     /**
      * modifier to an entity capacitor level to represent energy drain for large ships
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double EntityCapacitorLevelModifierLarge;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -96,7 +84,6 @@ public class StructureEnergyNeutralizer
     public int CanFitShipGroup01;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,14 +91,12 @@ public class StructureEnergyNeutralizer
     public int CanFitShipGroup02;
     /**
      * Signature Resolution of Energy Neutralizer
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int EnergyNeutralizerSignatureResolution;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -120,7 +105,6 @@ public class StructureEnergyNeutralizer
     public int CanFitShipGroup03;
     /**
      * Distance below which range does not affect the to-hit equation.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -128,7 +112,6 @@ public class StructureEnergyNeutralizer
     public int MaxRange;
     /**
      * The ranking of the module within its tech level
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -136,7 +119,6 @@ public class StructureEnergyNeutralizer
     public int MetaLevel;
     /**
      * distance from maximum range at which effectiveness has fallen by half
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -144,7 +126,6 @@ public class StructureEnergyNeutralizer
     public int FalloffEffectiveness;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -152,7 +133,6 @@ public class StructureEnergyNeutralizer
     public int MetaGroupID;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -160,7 +140,6 @@ public class StructureEnergyNeutralizer
     public int Power;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -180,10 +159,10 @@ public class StructureEnergyNeutralizer
     }
 
     public static LinkedHashMap<String, StructureEnergyNeutralizer> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEnergyNeutralizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -191,9 +170,6 @@ public class StructureEnergyNeutralizer
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureEnergyNeutralizer> items;
-
     }
-
 }

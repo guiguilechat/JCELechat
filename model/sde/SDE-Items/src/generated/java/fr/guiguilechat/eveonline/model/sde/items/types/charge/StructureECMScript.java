@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureECMScript
     extends Charge
 {
-
     /**
      * The size of the charges that can fit in the turret/whatever.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class StructureECMScript
     public int ChargeSize;
     /**
      * Bonus to Gravimetric Strength bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -31,7 +27,6 @@ public class StructureECMScript
     public int ScanGravimetricStrengthBonusBonus;
     /**
      * One of the groups of launcher this charge can be loaded into.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -39,7 +34,6 @@ public class StructureECMScript
     public int LauncherGroup;
     /**
      * Bonus to Lader Strength bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -47,7 +41,6 @@ public class StructureECMScript
     public int ScanLadarStrengthBonusBonus;
     /**
      * Bonus to Magnetometric Strength bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -55,7 +48,6 @@ public class StructureECMScript
     public int ScanMagnetometricStrengthBonusBonus;
     /**
      * Bonus to Radar Strength bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -63,7 +55,6 @@ public class StructureECMScript
     public int ScanRadarStrengthBonusBonus;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -83,10 +74,10 @@ public class StructureECMScript
     }
 
     public static LinkedHashMap<String, StructureECMScript> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureECMScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -94,9 +85,6 @@ public class StructureECMScript
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureECMScript> items;
-
     }
-
 }

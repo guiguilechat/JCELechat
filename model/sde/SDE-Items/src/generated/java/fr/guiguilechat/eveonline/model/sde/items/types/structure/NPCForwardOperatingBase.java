@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class NPCForwardOperatingBase
     extends Structure
 {
-
     /**
      * The maximum possible target range.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,23 +21,20 @@ public class NPCForwardOperatingBase
     public int MaximumRangeCap;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double NpcStructureStasisWebificationBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double NpcStructureEnergyWarfareBonus;
     /**
      * Number of hours of vulnerability each week required. Applies only to categoryStructure.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -60,10 +54,10 @@ public class NPCForwardOperatingBase
     }
 
     public static LinkedHashMap<String, NPCForwardOperatingBase> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCForwardOperatingBase.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -71,9 +65,6 @@ public class NPCForwardOperatingBase
     }
 
     private static class Container {
-
         public LinkedHashMap<String, NPCForwardOperatingBase> items;
-
     }
-
 }

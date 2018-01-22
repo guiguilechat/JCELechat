@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
@@ -13,17 +12,14 @@ import org.yaml.snakeyaml.Yaml;
 public class ElectronicAttackShip
     extends Ship
 {
-
     /**
      * How many upgrades can by fitted to this ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -32,7 +28,6 @@ public class ElectronicAttackShip
     public int RigSize;
     /**
      * The number of low power slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class ElectronicAttackShip
     public int LowSlots;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,14 +42,12 @@ public class ElectronicAttackShip
     public int MedSlots;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int HiSlots;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -64,7 +56,6 @@ public class ElectronicAttackShip
     public int FwLpKill;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -72,7 +63,6 @@ public class ElectronicAttackShip
     public int RequiredSkill1Level;
     /**
      * Deprecated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -80,7 +70,6 @@ public class ElectronicAttackShip
     public int MaxDirectionalVelocity;
     /**
      * eliteBonusElectronicAttackShip3
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,7 +77,6 @@ public class ElectronicAttackShip
     public int EliteBonusElectronicAttackShip3;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,15 +84,13 @@ public class ElectronicAttackShip
     public int RequiredSkill2Level;
     /**
      * Deprecated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double MinTargetVelDmgMultiplier;
     /**
      * The resolution that the vessel can target other objects at.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -112,7 +98,6 @@ public class ElectronicAttackShip
     public int ScanResolution;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,7 +105,6 @@ public class ElectronicAttackShip
     public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -128,54 +112,47 @@ public class ElectronicAttackShip
     public int RequiredSkill2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusGF2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusMF2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusCF2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusMF;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusGF;
     /**
      * scanning speed in milliseconds
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int ScanSpeed;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -184,15 +161,13 @@ public class ElectronicAttackShip
     public int ShipBonusCF;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusAF;
     /**
      * eliteBonusElectronicAttackShip1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -200,7 +175,6 @@ public class ElectronicAttackShip
     public int EliteBonusElectronicAttackShip1;
     /**
      * eliteBonusElectronicAttackShip2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -208,15 +182,13 @@ public class ElectronicAttackShip
     public int EliteBonusElectronicAttackShip2;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(5.0D)
+    @DefaultDoubleValue(5.0)
     public double ShipBonus2AF;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -224,15 +196,13 @@ public class ElectronicAttackShip
     public int TypeColorScheme;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationHi;
     /**
      * Attribute on ships used for ship upgrades
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -240,23 +210,20 @@ public class ElectronicAttackShip
     public int UpgradeCapacity;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationMed;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationLow;
     /**
      * The number of rig slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -264,7 +231,6 @@ public class ElectronicAttackShip
     public int RigSlots;
     /**
      * The main color of a ship type.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -272,7 +238,6 @@ public class ElectronicAttackShip
     public int MainColor;
     /**
      * Chance of being able to resist a ship scan.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -292,10 +257,10 @@ public class ElectronicAttackShip
     }
 
     public static LinkedHashMap<String, ElectronicAttackShip> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ElectronicAttackShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -303,9 +268,6 @@ public class ElectronicAttackShip
     }
 
     private static class Container {
-
         public LinkedHashMap<String, ElectronicAttackShip> items;
-
     }
-
 }

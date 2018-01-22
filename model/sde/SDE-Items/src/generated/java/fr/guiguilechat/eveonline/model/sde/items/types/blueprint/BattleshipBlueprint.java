@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class BattleshipBlueprint
     extends Blueprint
 {
-
     /**
      * Multiplies the job cost for this blueprint type by the specified value
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,15 +21,13 @@ public class BattleshipBlueprint
     public int IndustryJobCostMultiplier;
     /**
      * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -52,10 +47,10 @@ public class BattleshipBlueprint
     }
 
     public static LinkedHashMap<String, BattleshipBlueprint> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BattleshipBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -63,9 +58,6 @@ public class BattleshipBlueprint
     }
 
     private static class Container {
-
         public LinkedHashMap<String, BattleshipBlueprint> items;
-
     }
-
 }

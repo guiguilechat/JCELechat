@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,9 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class ECMStabilizer
     extends Module
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -24,15 +21,13 @@ public class ECMStabilizer
     public int EcmRangeBonus;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,14 +35,12 @@ public class ECMStabilizer
     public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,7 +49,6 @@ public class ECMStabilizer
     public int EcmStrengthBonusPercent;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -76,10 +68,10 @@ public class ECMStabilizer
     }
 
     public static LinkedHashMap<String, ECMStabilizer> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ECMStabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -87,9 +79,6 @@ public class ECMStabilizer
     }
 
     private static class Container {
-
         public LinkedHashMap<String, ECMStabilizer> items;
-
     }
-
 }

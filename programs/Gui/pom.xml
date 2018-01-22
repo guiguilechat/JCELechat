@@ -17,10 +17,6 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>de.saxsys</groupId>
 			<artifactId>jfx-testrunner</artifactId>
 			<version>1.2</version>
@@ -29,6 +25,11 @@
 		<dependency>
 			<groupId>fr.guiguilechat.eveonline.model</groupId>
 			<artifactId>ESI</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 	<build>

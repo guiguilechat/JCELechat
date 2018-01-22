@@ -1,22 +1,42 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>fr.guiguilechat.eveonline</groupId>
-    <version>18.01.10</version>
-    <artifactId>model</artifactId>
-  </parent>
-  <groupId>fr.guiguilechat.eveonline.model</groupId>
-  <artifactId>sde</artifactId>
-  <name>sde</name>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>SDE-Items</module>
-  	<module>SDE-Locations</module>
-  	<module>SDE-Raw</module>
-  	<module>SDE-Items-compiler</module>
-  	<module>SDE-Full</module>
-  	<module>SDE-NPCs</module>
-  	
-  	<module>SDE-Industry</module>
-  </modules>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>fr.guiguilechat.eveonline</groupId>
+		<version>18.01.10</version>
+		<artifactId>model</artifactId>
+	</parent>
+	<groupId>fr.guiguilechat.eveonline.model</groupId>
+	<artifactId>sde</artifactId>
+	<name>sde</name>
+	<packaging>pom</packaging>
+	<modules>
+		<module>SDE-Items</module>
+		<module>SDE-Locations</module>
+		<module>SDE-Raw</module>
+		<module>SDE-Items-compiler</module>
+		<module>SDE-Full</module>
+		<module>SDE-NPCs</module>
+
+		<module>SDE-Industry</module>
+	</modules>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.helger</groupId>
+				<artifactId>jcodemodel</artifactId>
+				<version>3.0.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.javassist</groupId>
+				<artifactId>javassist</artifactId>
+				<version>3.22.0-CR1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.mdkt.compiler</groupId>
+				<artifactId>InMemoryJavaCompiler</artifactId>
+				<version>1.2</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>

@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.bonus;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class PhobiaHandicap
     extends Bonus
 {
-
     public final static String RESOURCE_PATH = "SDE/items/bonus/PhobiaHandicap.yaml";
     private static LinkedHashMap<String, PhobiaHandicap> cache = (null);
 
@@ -24,10 +22,10 @@ public class PhobiaHandicap
     }
 
     public static LinkedHashMap<String, PhobiaHandicap> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PhobiaHandicap.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class PhobiaHandicap
     }
 
     private static class Container {
-
         public LinkedHashMap<String, PhobiaHandicap> items;
-
     }
-
 }

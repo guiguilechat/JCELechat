@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
@@ -13,17 +12,14 @@ import org.yaml.snakeyaml.Yaml;
 public class Carrier
     extends Ship
 {
-
     /**
      * This defines the total capacity of fighters allowed in the fighter bay of the ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int FighterCapacity;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -32,7 +28,6 @@ public class Carrier
     public int RigSize;
     /**
      * The number of low power slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class Carrier
     public int LowSlots;
     /**
      * special fuel bay capacity
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -48,14 +42,12 @@ public class Carrier
     public int SpecialFuelBayCapacity;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MedSlots;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -64,14 +56,12 @@ public class Carrier
     public int RoleBonusCommandBurstAoERange;
     /**
      * tbd
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int HiSlots;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -80,7 +70,6 @@ public class Carrier
     public int FwLpKill;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,7 +77,6 @@ public class Carrier
     public int RequiredSkill1Level;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,7 +84,6 @@ public class Carrier
     public int RequiredSkill2Level;
     /**
      * The maximum possible target range.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,7 +91,6 @@ public class Carrier
     public int MaximumRangeCap;
     /**
      * The resolution that the vessel can target other objects at.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -112,7 +98,6 @@ public class Carrier
     public int ScanResolution;
     /**
      * Multiplied by Amarr Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -120,7 +105,6 @@ public class Carrier
     public int ShipBonusCarrierA1;
     /**
      * Multiplied by Amarr Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -128,7 +112,6 @@ public class Carrier
     public int ShipBonusCarrierA2;
     /**
      * Multiplied by Amarr Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -136,7 +119,6 @@ public class Carrier
     public int ShipBonusCarrierA3;
     /**
      * Multiplied by Amarr Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -144,7 +126,6 @@ public class Carrier
     public int ShipBonusCarrierA4;
     /**
      * Multiplied by Caldari Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -152,7 +133,6 @@ public class Carrier
     public int ShipBonusCarrierC1;
     /**
      * Multiplied by Caldari Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -160,7 +140,6 @@ public class Carrier
     public int ShipBonusCarrierC2;
     /**
      * Multiplied by Caldari Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -168,7 +147,6 @@ public class Carrier
     public int ShipBonusCarrierC3;
     /**
      * Multiplied by Caldari Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -176,7 +154,6 @@ public class Carrier
     public int ShipBonusCarrierC4;
     /**
      * Multiplied by Gallente Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -184,15 +161,13 @@ public class Carrier
     public int ShipBonusCarrierG1;
     /**
      * Resistance against Remote Sensor Dampeners.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double SensorDampenerResistance;
     /**
      * Multiplied by Gallente Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -200,31 +175,27 @@ public class Carrier
     public int ShipBonusCarrierG2;
     /**
      * Resistance against Remote Weapon Disruptors.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double WeaponDisruptionResistance;
     /**
      * Multiplied by Gallente Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusCarrierG3;
     /**
      * Resistance against Target Painters
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double TargetPainterResistance;
     /**
      * Multiplied by Gallente Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -232,15 +203,13 @@ public class Carrier
     public int ShipBonusCarrierG4;
     /**
      * Resistance against Stasis Webifiers
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StasisWebifierResistance;
     /**
      * Multiplied by Minmatar Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -248,15 +217,13 @@ public class Carrier
     public int ShipBonusCarrierM1;
     /**
      * Impedance against Remote Repair (shield, armor, hull and energy).
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double RemoteRepairImpedance;
     /**
      * Multiplied by Minmatar Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -264,15 +231,13 @@ public class Carrier
     public int ShipBonusCarrierM2;
     /**
      * Multiplied by Minmatar Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusCarrierM3;
     /**
      * Multiplied by Minmatar Carrier skill level.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -280,7 +245,6 @@ public class Carrier
     public int ShipBonusCarrierM4;
     /**
      * scanning speed in milliseconds
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -288,7 +252,6 @@ public class Carrier
     public int ScanSpeed;
     /**
      * Attribute on ship to make advanced command affect only ships that we want.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -296,15 +259,13 @@ public class Carrier
     public int AdvancedAgility;
     /**
      * Impedance against Remote assistance (sensor boosters, tracking computers and ECCM).
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double RemoteAssistanceImpedance;
     /**
      *  1 = ship can use jump drive
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -312,7 +273,6 @@ public class Carrier
     public int CanJump;
     /**
      * Type that is used for consumption from cargo hold when activating jump drive operation.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -320,15 +280,13 @@ public class Carrier
     public int JumpDriveConsumptionType;
     /**
      * Range in light years the ship can maximum jump to.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double JumpDriveRange;
     /**
      * Number of units it consumes per light year.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -336,14 +294,12 @@ public class Carrier
     public int JumpDriveConsumptionAmount;
     /**
      * The amount of time before the ship actually jumps.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(300000)
     public int JumpDriveDuration;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -352,7 +308,6 @@ public class Carrier
     public int AdvancedCapitalAgility;
     /**
      * Attribute on ships used for ship upgrades
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -360,7 +315,6 @@ public class Carrier
     public int UpgradeCapacity;
     /**
      * The number of rig slots on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -368,14 +322,12 @@ public class Carrier
     public int RigSlots;
     /**
      * The main color of a ship type.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MainColor;
     /**
-     * 
      * 
      */
     @HighIsGood(false)
@@ -384,7 +336,6 @@ public class Carrier
     public int FighterAbilityKamikazeResistance;
     /**
      * How many upgrades can by fitted to this ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -392,15 +343,13 @@ public class Carrier
     public int UpgradeSlotsLeft;
     /**
      * Minimum capacitor need for jump drive operation from full capacitor in modifier%.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double JumpDriveCapacitorNeed;
     /**
      * Indicates whether a ship type has a ship maintenance bay.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -408,7 +357,6 @@ public class Carrier
     public int HasShipMaintenanceBay;
     /**
      * The capacity of the hangar in a ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -416,7 +364,6 @@ public class Carrier
     public int ShipMaintenanceBayCapacity;
     /**
      * Whether this ship has fleet hangars.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -424,7 +371,6 @@ public class Carrier
     public int HasFleetHangars;
     /**
      * The capacity of the fleet hangar.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -432,7 +378,6 @@ public class Carrier
     public int FleetHangarCapacity;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -440,7 +385,6 @@ public class Carrier
     public int MetaGroupID;
     /**
      * This defines the total number of fighter launch tubes on the ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -448,7 +392,6 @@ public class Carrier
     public int FighterTubes;
     /**
      * Number of Light Fighters the ship can launch.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -456,7 +399,6 @@ public class Carrier
     public int FighterLightSlots;
     /**
      * Number of Support Fighters the ship can launch.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -464,7 +406,6 @@ public class Carrier
     public int FighterSupportSlots;
     /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -472,7 +413,6 @@ public class Carrier
     public int DisallowInHighSec;
     /**
      * If greater than zero than the ship cannot activate gates. Set this to 0 on a type if you want it to be gate scramble-able.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -480,7 +420,6 @@ public class Carrier
     public int GateScrambleStatus;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -488,14 +427,12 @@ public class Carrier
     public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2;
     /**
-     * 
      * 
      */
     @HighIsGood(false)
@@ -504,7 +441,6 @@ public class Carrier
     public int FighterAbilityAntiCapitalMissileResistance;
     /**
      * The maximum distance at which the object can be used.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -512,14 +448,12 @@ public class Carrier
     public int MaxOperationalDistance;
     /**
      * The maximum number of users that can be present within the operational range of the structure for it to be capable of operation.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MaxOperationalUsers;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -528,7 +462,6 @@ public class Carrier
     public int EntosisDurationMultiplier;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -536,7 +469,6 @@ public class Carrier
     public int JumpHarmonics;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -544,30 +476,26 @@ public class Carrier
     public int TypeColorScheme;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationHi;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationMed;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HeatAttenuationLow;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -576,19 +504,17 @@ public class Carrier
     public int IsCapitalSize;
     /**
      * Ship Role Bonus. Not multiplied by skills.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShipBonusRole1;
     /**
      * Resistance against Energy Neutralizing and Nosferatu
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double EnergyWarfareResistance;
     public final static String RESOURCE_PATH = "SDE/items/ship/Carrier.yaml";
     private static LinkedHashMap<String, Carrier> cache = (null);
@@ -604,10 +530,10 @@ public class Carrier
     }
 
     public static LinkedHashMap<String, Carrier> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Carrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -615,9 +541,6 @@ public class Carrier
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Carrier> items;
-
     }
-
 }

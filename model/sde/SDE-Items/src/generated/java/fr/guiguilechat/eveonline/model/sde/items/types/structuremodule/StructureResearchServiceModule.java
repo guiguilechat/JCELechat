@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -13,9 +12,7 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureResearchServiceModule
     extends StructureModule
 {
-
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -24,15 +21,13 @@ public class StructureResearchServiceModule
     public int CanFitShipGroup01;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * Fuel consumed by the structure service module
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class StructureResearchServiceModule
     public int ServiceModuleFuelConsumptionGroup;
     /**
      * Fuel consumed at the beginning of each hour to keep a service module online.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class StructureResearchServiceModule
     public int ServiceModuleFuelAmount;
     /**
      * Fuel consumed to online the service module.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -56,7 +49,6 @@ public class StructureResearchServiceModule
     public int ServiceModuleFuelOnlineAmount;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -76,10 +68,10 @@ public class StructureResearchServiceModule
     }
 
     public static LinkedHashMap<String, StructureResearchServiceModule> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureResearchServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -87,9 +79,6 @@ public class StructureResearchServiceModule
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureResearchServiceModule> items;
-
     }
-
 }

@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class SensorBooster
     extends Module
 {
-
     /**
      * The size of the charges that can fit in the turret/whatever.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,14 +21,12 @@ public class SensorBooster
     public int ChargeSize;
     /**
      * reload time (ms)
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(10000.0D)
+    @DefaultDoubleValue(10000.0)
     public double ReloadTime;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,14 +35,12 @@ public class SensorBooster
     public int ScanGravimetricStrengthPercent;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ScanLadarStrengthPercent;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -56,7 +49,6 @@ public class SensorBooster
     public int ScanMagnetometricStrengthPercent;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,22 +56,19 @@ public class SensorBooster
     public int ScanRadarStrengthPercent;
     /**
      * The amount of charge used from the capacitor for a module activation.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -88,15 +77,13 @@ public class SensorBooster
     public int OverloadSensorModuleStrengthBonus;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,23 +91,20 @@ public class SensorBooster
     public int RequiredSkill1Level;
     /**
      * Bonus to Max Targeting Range
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double MaxTargetRangeBonus;
     /**
      * Bonus for scan resolution
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -128,22 +112,19 @@ public class SensorBooster
     public int RequiredSkill1;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double HeatDamage;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double HeatAbsorbtionRateModifier;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -152,7 +133,6 @@ public class SensorBooster
     public int RequiredThermoDynamicsSkill;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -160,7 +140,6 @@ public class SensorBooster
     public int MetaGroupID;
     /**
      * One of the groups of charge this launcher can be loaded with.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -168,7 +147,6 @@ public class SensorBooster
     public int ChargeGroup1;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -188,10 +166,10 @@ public class SensorBooster
     }
 
     public static LinkedHashMap<String, SensorBooster> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SensorBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -199,9 +177,6 @@ public class SensorBooster
     }
 
     private static class Container {
-
         public LinkedHashMap<String, SensorBooster> items;
-
     }
-
 }

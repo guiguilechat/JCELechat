@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
 import fr.guiguilechat.eveonline.model.sde.items.Item;
@@ -6,7 +5,6 @@ import fr.guiguilechat.eveonline.model.sde.items.Item;
 public abstract class PlanetaryInteraction
     extends Item
 {
-
 
     @Override
     public int getCategoryId() {
@@ -17,5 +15,4 @@ public abstract class PlanetaryInteraction
     public Class<?> getCategory() {
         return PlanetaryInteraction.class;
     }
-
 }

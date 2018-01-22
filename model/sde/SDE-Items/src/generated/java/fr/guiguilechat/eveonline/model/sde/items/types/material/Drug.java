@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.material;
 
 import fr.guiguilechat.eveonline.model.sde.items.types.Material;
@@ -6,7 +5,6 @@ import fr.guiguilechat.eveonline.model.sde.items.types.Material;
 public class Drug
     extends Material
 {
-
 
     @Override
     public int getGroupId() {
@@ -17,5 +15,4 @@ public class Drug
     public Class<?> getGroup() {
         return Drug.class;
     }
-
 }

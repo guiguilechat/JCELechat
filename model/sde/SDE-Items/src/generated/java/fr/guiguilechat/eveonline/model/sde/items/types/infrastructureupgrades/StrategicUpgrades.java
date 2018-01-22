@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.infrastructureupgrades;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class StrategicUpgrades
     extends InfrastructureUpgrades
 {
-
     /**
      * The sum of this attribute on the claim markers, Infrastructure hub, and each upgrade is the systems base cost. 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class StrategicUpgrades
     public int SovBillSystemCost;
     /**
      * The minimum required sovereignty index level
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -43,10 +39,10 @@ public class StrategicUpgrades
     }
 
     public static LinkedHashMap<String, StrategicUpgrades> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StrategicUpgrades.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -54,9 +50,6 @@ public class StrategicUpgrades
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StrategicUpgrades> items;
-
     }
-
 }

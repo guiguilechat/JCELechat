@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.specialeditionassets;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class TournamentCardsAllianceTournamentAllStars
     extends SpecialEditionAssets
 {
-
     public final static String RESOURCE_PATH = "SDE/items/specialeditionassets/TournamentCardsAllianceTournamentAllStars.yaml";
     private static LinkedHashMap<String, TournamentCardsAllianceTournamentAllStars> cache = (null);
 
@@ -24,10 +22,10 @@ public class TournamentCardsAllianceTournamentAllStars
     }
 
     public static LinkedHashMap<String, TournamentCardsAllianceTournamentAllStars> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TournamentCardsAllianceTournamentAllStars.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class TournamentCardsAllianceTournamentAllStars
     }
 
     private static class Container {
-
         public LinkedHashMap<String, TournamentCardsAllianceTournamentAllStars> items;
-
     }
-
 }

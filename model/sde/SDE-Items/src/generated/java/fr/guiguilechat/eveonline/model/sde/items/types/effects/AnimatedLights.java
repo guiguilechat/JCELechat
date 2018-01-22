@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.effects;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class AnimatedLights
     extends Effects
 {
-
     public final static String RESOURCE_PATH = "SDE/items/effects/AnimatedLights.yaml";
     private static LinkedHashMap<String, AnimatedLights> cache = (null);
 
@@ -24,10 +22,10 @@ public class AnimatedLights
     }
 
     public static LinkedHashMap<String, AnimatedLights> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AnimatedLights.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class AnimatedLights
     }
 
     private static class Container {
-
         public LinkedHashMap<String, AnimatedLights> items;
-
     }
-
 }

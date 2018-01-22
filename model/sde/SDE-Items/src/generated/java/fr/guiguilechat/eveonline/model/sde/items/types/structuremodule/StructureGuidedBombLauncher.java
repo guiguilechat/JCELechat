@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureGuidedBombLauncher
     extends StructureModule
 {
-
     /**
      * Modules with this attribute set to 1 can not be used in deadspace. Modules with this attribute set to 2 can not be used in deadspace even where "disableModuleBlocking" is selected
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,14 +21,12 @@ public class StructureGuidedBombLauncher
     public int DeadspaceUnsafe;
     /**
      * reload time (ms)
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(10000.0D)
+    @DefaultDoubleValue(10000.0)
     public double ReloadTime;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -40,7 +35,6 @@ public class StructureGuidedBombLauncher
     public int MaxGroupFitted;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,14 +42,12 @@ public class StructureGuidedBombLauncher
     public int Hp;
     /**
      * The number of slots this module requires.  Only used for launchers, bays and turrets.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
     public int Slots;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -64,7 +56,6 @@ public class StructureGuidedBombLauncher
     public int CanFitShipGroup01;
     /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -72,14 +63,12 @@ public class StructureGuidedBombLauncher
     public int DisallowInHighSec;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -88,14 +77,12 @@ public class StructureGuidedBombLauncher
     public int CanFitShipGroup02;
     /**
      * Time in milliseconds between possible activations
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int Speed;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -108,7 +95,6 @@ public class StructureGuidedBombLauncher
      *  0=Nullsec
      *  1=Lowsec
      *  2=Highsec
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -116,7 +102,6 @@ public class StructureGuidedBombLauncher
     public int OnlineMaxSecurityClass;
     /**
      * Number of charges consumed per activation
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -124,7 +109,6 @@ public class StructureGuidedBombLauncher
     public int ChargeRate;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -132,7 +116,6 @@ public class StructureGuidedBombLauncher
     public int MaxGroupActive;
     /**
      * One of the groups of charge this launcher can be loaded with.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -140,7 +123,6 @@ public class StructureGuidedBombLauncher
     public int ChargeGroup1;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -148,7 +130,6 @@ public class StructureGuidedBombLauncher
     public int StructureItemVisualFlag;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -168,10 +149,10 @@ public class StructureGuidedBombLauncher
     }
 
     public static LinkedHashMap<String, StructureGuidedBombLauncher> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureGuidedBombLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -179,9 +160,6 @@ public class StructureGuidedBombLauncher
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureGuidedBombLauncher> items;
-
     }
-
 }

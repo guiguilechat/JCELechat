@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
 import fr.guiguilechat.eveonline.model.sde.items.Item;
@@ -10,10 +9,8 @@ import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 public abstract class Fighter
     extends Item
 {
-
     /**
      * Amount of maximum shield HP on the item.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -21,7 +18,6 @@ public abstract class Fighter
     public int ShieldCapacity;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -29,47 +25,41 @@ public abstract class Fighter
     public int Hp;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
      * Multiplies EM damage taken by shield
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldEmDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldExplosiveDamageResonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldKineticDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Shield. 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -77,7 +67,6 @@ public abstract class Fighter
     public int RequiredSkill1Level;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -85,15 +74,13 @@ public abstract class Fighter
     public int RequiredSkill2Level;
     /**
      * Maximum velocity of ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double MaxVelocity;
     /**
      * Signature Radius is used for turret tracking and scanning.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -101,7 +88,6 @@ public abstract class Fighter
     public int SignatureRadius;
     /**
      * The resolution that the vessel can target other objects at.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -109,23 +95,20 @@ public abstract class Fighter
     public int ScanResolution;
     /**
      * Impedance against Remote Repair (shield, armor, hull and energy).
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double RemoteRepairImpedance;
     /**
      * The agility of the object.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Agility;
     /**
      * Maximum range at which the scanner can lock a target.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -133,23 +116,20 @@ public abstract class Fighter
     public int MaxTargetRange;
     /**
      * Impedance against Remote assistance (sensor boosters, tracking computers and ECCM).
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double RemoteAssistanceImpedance;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(3.0D)
+    @DefaultDoubleValue(3.0)
     public double WarpSpeedMultiplier;
     /**
      * Maximum Velocity Bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -157,7 +137,6 @@ public abstract class Fighter
     public int FighterAbilityMicroWarpDriveSpeedBonus;
     /**
      * Signature Radius Bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -165,7 +144,6 @@ public abstract class Fighter
     public int FighterAbilityMicroWarpDriveSignatureRadiusBonus;
     /**
      * Duration
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -173,14 +151,12 @@ public abstract class Fighter
     public int FighterAbilityMicroWarpDriveDuration;
     /**
      * The ranking of the module within its tech level
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaLevel;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -189,7 +165,6 @@ public abstract class Fighter
     public int FighterRefuelingTime;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -197,14 +172,12 @@ public abstract class Fighter
     public int FighterAbilityAntiFighterMissileResistance;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -213,7 +186,6 @@ public abstract class Fighter
     public int FighterSquadronMaxSize;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -221,7 +193,6 @@ public abstract class Fighter
     public int FighterSquadronOrbitRange;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -229,7 +200,6 @@ public abstract class Fighter
     public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -237,7 +207,6 @@ public abstract class Fighter
     public int RequiredSkill2;
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -245,35 +214,31 @@ public abstract class Fighter
     public int MaxLockedTargets;
     /**
      * Radar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanRadarStrength;
     /**
      * Ladar strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanLadarStrength;
     /**
      * Magnetometric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
      * Gravimetric strength.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ScanGravimetricStrength;
     /**
      *  0=None
@@ -282,7 +247,6 @@ public abstract class Fighter
      *  3=Ewar
      *  4=TorpedoBomber
      *  5=AOEBomber
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -290,19 +254,17 @@ public abstract class Fighter
     public int FighterSquadronRole;
     /**
      * Amount of time taken to fully recharge the shield.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldRechargeRate;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
 
     @Override
@@ -314,5 +276,4 @@ public abstract class Fighter
     public Class<?> getCategory() {
         return Fighter.class;
     }
-
 }

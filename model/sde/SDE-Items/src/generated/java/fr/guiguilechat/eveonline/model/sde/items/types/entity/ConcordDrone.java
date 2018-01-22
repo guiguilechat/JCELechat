@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.entity;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class ConcordDrone
     extends Entity
 {
-
     public final static String RESOURCE_PATH = "SDE/items/entity/ConcordDrone.yaml";
     private static LinkedHashMap<String, ConcordDrone> cache = (null);
 
@@ -24,10 +22,10 @@ public class ConcordDrone
     }
 
     public static LinkedHashMap<String, ConcordDrone> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ConcordDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class ConcordDrone
     }
 
     private static class Container {
-
         public LinkedHashMap<String, ConcordDrone> items;
-
     }
-
 }

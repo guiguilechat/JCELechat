@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class CriminalTags
     extends Commodity
 {
-
     public final static String RESOURCE_PATH = "SDE/items/commodity/CriminalTags.yaml";
     private static LinkedHashMap<String, CriminalTags> cache = (null);
 
@@ -24,10 +22,10 @@ public class CriminalTags
     }
 
     public static LinkedHashMap<String, CriminalTags> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CriminalTags.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class CriminalTags
     }
 
     private static class Container {
-
         public LinkedHashMap<String, CriminalTags> items;
-
     }
-
 }

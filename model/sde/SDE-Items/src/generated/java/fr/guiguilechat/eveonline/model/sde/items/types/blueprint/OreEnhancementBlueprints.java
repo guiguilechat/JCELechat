@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.blueprint;
 
 import fr.guiguilechat.eveonline.model.sde.items.types.Blueprint;
@@ -6,7 +5,6 @@ import fr.guiguilechat.eveonline.model.sde.items.types.Blueprint;
 public class OreEnhancementBlueprints
     extends Blueprint
 {
-
 
     @Override
     public int getGroupId() {
@@ -17,5 +15,4 @@ public class OreEnhancementBlueprints
     public Class<?> getGroup() {
         return OreEnhancementBlueprints.class;
     }
-
 }

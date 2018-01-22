@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
@@ -13,18 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 public class EmpireAsteroids
     extends Asteroid
 {
-
     /**
      * Resistance against Stasis Webifiers
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StasisWebifierResistance;
     /**
      * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
@@ -37,7 +33,6 @@ public class EmpireAsteroids
      *  3: +10% Ore
      *  4: High Quality Ice or Extracted Ore
      *  5: Jackpot Moon Ore
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -45,7 +40,6 @@ public class EmpireAsteroids
     public int AsteroidMetaLevel;
     /**
      * Sets the radius of the asteroid ball when it has a quantity of 1 unit
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -65,10 +59,10 @@ public class EmpireAsteroids
     }
 
     public static LinkedHashMap<String, EmpireAsteroids> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EmpireAsteroids.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -76,9 +70,6 @@ public class EmpireAsteroids
     }
 
     private static class Container {
-
         public LinkedHashMap<String, EmpireAsteroids> items;
-
     }
-
 }

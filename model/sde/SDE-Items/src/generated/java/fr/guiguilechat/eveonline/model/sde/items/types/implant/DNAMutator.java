@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import fr.guiguilechat.eveonline.model.sde.items.types.Implant;
@@ -6,7 +5,6 @@ import fr.guiguilechat.eveonline.model.sde.items.types.Implant;
 public class DNAMutator
     extends Implant
 {
-
 
     @Override
     public int getGroupId() {
@@ -17,5 +15,4 @@ public class DNAMutator
     public Class<?> getGroup() {
         return DNAMutator.class;
     }
-
 }

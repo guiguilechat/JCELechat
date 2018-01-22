@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import fr.guiguilechat.eveonline.model.sde.items.types.Module;
@@ -6,7 +5,6 @@ import fr.guiguilechat.eveonline.model.sde.items.types.Module;
 public class NewEWTesting
     extends Module
 {
-
 
     @Override
     public int getGroupId() {
@@ -17,5 +15,4 @@ public class NewEWTesting
     public Class<?> getGroup() {
         return NewEWTesting.class;
     }
-
 }

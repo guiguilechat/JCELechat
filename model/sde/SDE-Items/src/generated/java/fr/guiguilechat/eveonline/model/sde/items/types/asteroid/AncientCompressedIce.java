@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class AncientCompressedIce
     extends Asteroid
 {
-
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class AncientCompressedIce
     public int RequiredSkill1;
     /**
      * The skill required to reprocess this ore type.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -43,10 +39,10 @@ public class AncientCompressedIce
     }
 
     public static LinkedHashMap<String, AncientCompressedIce> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AncientCompressedIce.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -54,9 +50,6 @@ public class AncientCompressedIce
     }
 
     private static class Container {
-
         public LinkedHashMap<String, AncientCompressedIce> items;
-
     }
-
 }

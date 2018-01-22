@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.placeables;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class Furniture
     extends Placeables
 {
-
     public final static String RESOURCE_PATH = "SDE/items/placeables/Furniture.yaml";
     private static LinkedHashMap<String, Furniture> cache = (null);
 
@@ -24,10 +22,10 @@ public class Furniture
     }
 
     public static LinkedHashMap<String, Furniture> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Furniture.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class Furniture
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Furniture> items;
-
     }
-
 }

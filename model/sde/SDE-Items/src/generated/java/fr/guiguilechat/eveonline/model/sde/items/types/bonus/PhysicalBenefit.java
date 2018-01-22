@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.bonus;
 
 import java.io.InputStreamReader;
@@ -12,62 +11,54 @@ import org.yaml.snakeyaml.Yaml;
 public class PhysicalBenefit
     extends Bonus
 {
-
     /**
      * Additional percentage to the characters missile damage multiplier.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double MissileDamageMultiplierBonus;
     /**
      * Multiplier to the agility of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double AgilityMultiplier;
     /**
      * Factor to adjust module cpu need by.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double CpuMultiplier;
     /**
      * Bonus or penalty to the percentage time it takes to research a blueprint.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double BlueprintResearchTimeMultiplierBonus;
     /**
      * Scales the accuracy of some targeted weapon.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double AccuracyMultiplier;
     /**
      * Bonus or penalty to the percentage time it takes to manufacture from a blueprint.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double BlueprintManufactureTimeMultiplierBonus;
     /**
      * The factor by which the amount mined by a mining laser is scaled.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double MiningAmountMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/bonus/PhysicalBenefit.yaml";
     private static LinkedHashMap<String, PhysicalBenefit> cache = (null);
@@ -83,10 +74,10 @@ public class PhysicalBenefit
     }
 
     public static LinkedHashMap<String, PhysicalBenefit> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PhysicalBenefit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -94,9 +85,6 @@ public class PhysicalBenefit
     }
 
     private static class Container {
-
         public LinkedHashMap<String, PhysicalBenefit> items;
-
     }
-
 }

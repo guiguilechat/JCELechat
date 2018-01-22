@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.bonus;
 
 import java.io.InputStreamReader;
@@ -12,46 +11,40 @@ import org.yaml.snakeyaml.Yaml;
 public class MinmatarEducation
     extends Bonus
 {
-
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Charisma as the primary attribute.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CharismaSkillTrainingTimeMultiplierBonus;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Memory as the primary attribute.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double MemorySkillTrainingTimeMultiplierBonus;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Perception as the primary attribute.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double PerceptionSkillTrainingTimeMultiplierBonus;
     /**
      * Scales the capacitor need for fitted modules.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeedMultiplier;
     /**
      * Factor to adjust module cpu need by.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double CpuMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/bonus/MinmatarEducation.yaml";
     private static LinkedHashMap<String, MinmatarEducation> cache = (null);
@@ -67,10 +60,10 @@ public class MinmatarEducation
     }
 
     public static LinkedHashMap<String, MinmatarEducation> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MinmatarEducation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -78,9 +71,6 @@ public class MinmatarEducation
     }
 
     private static class Container {
-
         public LinkedHashMap<String, MinmatarEducation> items;
-
     }
-
 }

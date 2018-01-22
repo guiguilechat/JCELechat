@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class Ring
     extends Celestial
 {
-
     public final static String RESOURCE_PATH = "SDE/items/celestial/Ring.yaml";
     private static LinkedHashMap<String, Ring> cache = (null);
 
@@ -24,10 +22,10 @@ public class Ring
     }
 
     public static LinkedHashMap<String, Ring> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Ring.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class Ring
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Ring> items;
-
     }
-
 }

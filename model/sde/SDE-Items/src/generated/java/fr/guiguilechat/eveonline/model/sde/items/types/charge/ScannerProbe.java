@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
@@ -13,18 +12,15 @@ import org.yaml.snakeyaml.Yaml;
 public class ScannerProbe
     extends Charge
 {
-
     /**
      * Maximum velocity of ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double MaxVelocity;
     /**
      * If this is 1 then the probe can scan for ships, otherwise it can't.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -32,15 +28,13 @@ public class ScannerProbe
     public int ProbeCanScanShips;
     /**
      * The agility of the object.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Agility;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class ScannerProbe
     public int TechLevel;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,7 +49,6 @@ public class ScannerProbe
     public int Hp;
     /**
      * One of the groups of launcher this charge can be loaded into.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -64,7 +56,6 @@ public class ScannerProbe
     public int LauncherGroup;
     /**
      * Range in meters of explosion effect area.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -72,15 +63,13 @@ public class ScannerProbe
     public int ExplosionRange;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,7 +77,6 @@ public class ScannerProbe
     public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -96,15 +84,13 @@ public class ScannerProbe
     public int RequiredSkill1;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(3.0D)
+    @DefaultDoubleValue(3.0)
     public double WarpSpeedMultiplier;
     /**
      * The amount of milliseconds before the object explodes.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -112,15 +98,13 @@ public class ScannerProbe
     public int ExplosionDelay;
     /**
      * This is the lowest scan range value in AUs for probes under the revised probing system
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double BaseScanRange;
     /**
      * This is the highest sensor strength in points for probes under the revised probing system
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -128,7 +112,6 @@ public class ScannerProbe
     public int BaseSensorStrength;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -136,15 +119,13 @@ public class ScannerProbe
     public int MetaGroupID;
     /**
      * This is the lowest maximum scan deviation in AU for probes under the revised probing system
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double BaseMaxScanDeviation;
     /**
      * This is the multiplier/divisor for probe range increases and associated values under the revised probing system
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -164,10 +145,10 @@ public class ScannerProbe
     }
 
     public static LinkedHashMap<String, ScannerProbe> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ScannerProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -175,9 +156,6 @@ public class ScannerProbe
     }
 
     private static class Container {
-
         public LinkedHashMap<String, ScannerProbe> items;
-
     }
-
 }

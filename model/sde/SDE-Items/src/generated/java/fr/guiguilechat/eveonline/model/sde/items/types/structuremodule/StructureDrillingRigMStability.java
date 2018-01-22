@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureDrillingRigMStability
     extends StructureModule
 {
-
     /**
      * How much of the upgrade capacity is used when this is fitted to a ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,14 +20,12 @@ public class StructureDrillingRigMStability
     public int UpgradeCost;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -39,14 +34,12 @@ public class StructureDrillingRigMStability
     public int MaxGroupFitted;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -55,7 +48,6 @@ public class StructureDrillingRigMStability
     public int RigSize;
     /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -63,14 +55,12 @@ public class StructureDrillingRigMStability
     public int DisallowInHighSec;
     /**
      * Rig Bonus that affects fracture delay for moon chunk
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MoonRigFractureDelayBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -79,7 +69,6 @@ public class StructureDrillingRigMStability
     public int CanFitShipGroup03;
     /**
      * Moon rig bonus that delays spew asteroid decay
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -87,7 +76,6 @@ public class StructureDrillingRigMStability
     public int MoonRigAsteroidDecayBonus;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -95,7 +83,6 @@ public class StructureDrillingRigMStability
     public int RequiredSkill1Level;
     /**
      * Rig Bonus that affects spew asteroid belt radius from moon extraction
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -103,7 +90,6 @@ public class StructureDrillingRigMStability
     public int MoonRigSpewRadiusBonus;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -111,7 +97,6 @@ public class StructureDrillingRigMStability
     public int RequiredSkill1;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -131,10 +116,10 @@ public class StructureDrillingRigMStability
     }
 
     public static LinkedHashMap<String, StructureDrillingRigMStability> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureDrillingRigMStability.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -142,9 +127,6 @@ public class StructureDrillingRigMStability
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureDrillingRigMStability> items;
-
     }
-
 }

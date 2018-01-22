@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class FreightContainer
     extends Celestial
 {
-
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,11 +21,10 @@ public class FreightContainer
     public int Hp;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     public final static String RESOURCE_PATH = "SDE/items/celestial/FreightContainer.yaml";
     private static LinkedHashMap<String, FreightContainer> cache = (null);
@@ -44,10 +40,10 @@ public class FreightContainer
     }
 
     public static LinkedHashMap<String, FreightContainer> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FreightContainer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -55,9 +51,6 @@ public class FreightContainer
     }
 
     private static class Container {
-
         public LinkedHashMap<String, FreightContainer> items;
-
     }
-
 }

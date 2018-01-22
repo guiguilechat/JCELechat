@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class ShieldResistanceAmplifier
     extends Module
 {
-
     /**
      * Bonus to capacity (shield at least).
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,15 +21,13 @@ public class ShieldResistanceAmplifier
     public int CapacityBonus;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -40,7 +35,6 @@ public class ShieldResistanceAmplifier
     public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,39 +42,34 @@ public class ShieldResistanceAmplifier
     public int RequiredSkill1;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double EmDamageResistanceBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ExplosiveDamageResistanceBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double KineticDamageResistanceBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
     /**
      * meta group of type
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -88,7 +77,6 @@ public class ShieldResistanceAmplifier
     public int MetaGroupID;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -108,10 +96,10 @@ public class ShieldResistanceAmplifier
     }
 
     public static LinkedHashMap<String, ShieldResistanceAmplifier> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldResistanceAmplifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -119,9 +107,6 @@ public class ShieldResistanceAmplifier
     }
 
     private static class Container {
-
         public LinkedHashMap<String, ShieldResistanceAmplifier> items;
-
     }
-
 }

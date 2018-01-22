@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.sovereigntystructures;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class TerritorialClaimUnit
     extends SovereigntyStructures
 {
-
     public final static String RESOURCE_PATH = "SDE/items/sovereigntystructures/TerritorialClaimUnit.yaml";
     private static LinkedHashMap<String, TerritorialClaimUnit> cache = (null);
 
@@ -24,10 +22,10 @@ public class TerritorialClaimUnit
     }
 
     public static LinkedHashMap<String, TerritorialClaimUnit> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TerritorialClaimUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class TerritorialClaimUnit
     }
 
     private static class Container {
-
         public LinkedHashMap<String, TerritorialClaimUnit> items;
-
     }
-
 }

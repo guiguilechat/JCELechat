@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.sovereigntystructures;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class InfrastructureHub
     extends SovereigntyStructures
 {
-
     /**
      * How many meters from the standard warp-in distance a planet can be anchored from.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -35,10 +32,10 @@ public class InfrastructureHub
     }
 
     public static LinkedHashMap<String, InfrastructureHub> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(InfrastructureHub.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -46,9 +43,6 @@ public class InfrastructureHub
     }
 
     private static class Container {
-
         public LinkedHashMap<String, InfrastructureHub> items;
-
     }
-
 }

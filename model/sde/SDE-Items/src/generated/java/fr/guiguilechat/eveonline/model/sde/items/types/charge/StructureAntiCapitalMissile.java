@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureAntiCapitalMissile
     extends Charge
 {
-
     /**
      * Determines wether a missile launches aligned with the ship (0) or directly at the target (1).
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,23 +21,20 @@ public class StructureAntiCapitalMissile
     public int AimedLaunch;
     /**
      * Maximum velocity of ship
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double MaxVelocity;
     /**
      * The agility of the object.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Agility;
     /**
      * One of the groups of launcher this charge can be loaded into.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -48,7 +42,6 @@ public class StructureAntiCapitalMissile
     public int LauncherGroup;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -56,15 +49,13 @@ public class StructureAntiCapitalMissile
     public int Hp;
     /**
      * Missile Damage Modifier. Smaller is better (Don't use less than 0.5)
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double AoeDamageReductionFactor;
     /**
      * the range in meters for an object to trigger detonation of missile. (own ship excluded)
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -72,30 +63,26 @@ public class StructureAntiCapitalMissile
     public int DetonationRange;
     /**
      * DO NOT MESS WITH
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
      * Velocity of the damage cloud created on impact.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double AoeVelocity;
     /**
      * Size of the damage cloud caused by impact.
-     * 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int AoeCloudSize;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -104,39 +91,34 @@ public class StructureAntiCapitalMissile
     public int AoeFalloff;
     /**
      * EM damage done.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double EmDamage;
     /**
      * Explosive damage done.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ExplosiveDamage;
     /**
      * Kinetic damage done.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double KineticDamage;
     /**
      * Thermal damage done.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double ThermalDamage;
     /**
      * The amount of milliseconds before the object explodes.
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
@@ -144,7 +126,6 @@ public class StructureAntiCapitalMissile
     public int ExplosionDelay;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -164,10 +145,10 @@ public class StructureAntiCapitalMissile
     }
 
     public static LinkedHashMap<String, StructureAntiCapitalMissile> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureAntiCapitalMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -175,9 +156,6 @@ public class StructureAntiCapitalMissile
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureAntiCapitalMissile> items;
-
     }
-
 }

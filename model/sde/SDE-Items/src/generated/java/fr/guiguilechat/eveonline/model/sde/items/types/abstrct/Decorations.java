@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.abstrct;
 
 import java.io.InputStreamReader;
@@ -9,7 +8,6 @@ import org.yaml.snakeyaml.Yaml;
 public class Decorations
     extends Abstrct
 {
-
     public final static String RESOURCE_PATH = "SDE/items/abstrct/Decorations.yaml";
     private static LinkedHashMap<String, Decorations> cache = (null);
 
@@ -24,10 +22,10 @@ public class Decorations
     }
 
     public static LinkedHashMap<String, Decorations> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Decorations.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -35,9 +33,6 @@ public class Decorations
     }
 
     private static class Container {
-
         public LinkedHashMap<String, Decorations> items;
-
     }
-
 }

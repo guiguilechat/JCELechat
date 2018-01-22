@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
@@ -12,10 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 public class CyberLearning
     extends Implant
 {
-
     /**
      * +/- bonus to the intelligence of a character.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -23,7 +20,6 @@ public class CyberLearning
     public int IntelligenceBonus;
     /**
      * +/- bonus to the memory of a character.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -31,7 +27,6 @@ public class CyberLearning
     public int MemoryBonus;
     /**
      * +/- bonus to the perception of a character.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -39,7 +34,6 @@ public class CyberLearning
     public int PerceptionBonus;
     /**
      * +/- bonus to the willpower of a character.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -47,7 +41,6 @@ public class CyberLearning
     public int WillpowerBonus;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -55,7 +48,6 @@ public class CyberLearning
     public int TechLevel;
     /**
      * Whether an item is an implant or not
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -63,7 +55,6 @@ public class CyberLearning
     public int Implantness;
     /**
      * +/- bonus to the charisma of a character.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -83,10 +74,10 @@ public class CyberLearning
     }
 
     public static LinkedHashMap<String, CyberLearning> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberLearning.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -94,9 +85,6 @@ public class CyberLearning
     }
 
     private static class Container {
-
         public LinkedHashMap<String, CyberLearning> items;
-
     }
-
 }

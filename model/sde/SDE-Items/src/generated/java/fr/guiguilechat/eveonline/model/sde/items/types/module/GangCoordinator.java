@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
@@ -13,10 +12,8 @@ import org.yaml.snakeyaml.Yaml;
 public class GangCoordinator
     extends Module
 {
-
     /**
      * If set to True on a module, the module will not be allowed to activate whilst the ship is inside a starbase forcefield
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -24,38 +21,33 @@ public class GangCoordinator
     public int DisallowActivateInForcefield;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CommandBonus;
     /**
      * The amount of charge used from the capacitor for a module activation.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
      * Length of activation time.
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Duration;
     /**
      * Can be fitted to
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup05;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -64,14 +56,12 @@ public class GangCoordinator
     public int CanFitShipGroup09;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup01;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -80,14 +70,12 @@ public class GangCoordinator
     public int CanFitShipGroup02;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup03;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -96,7 +84,6 @@ public class GangCoordinator
     public int CanFitShipGroup04;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -104,7 +91,6 @@ public class GangCoordinator
     public int RequiredSkill1Level;
     /**
      * Required skill level for skill 2
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,14 +98,12 @@ public class GangCoordinator
     public int RequiredSkill2Level;
     /**
      * Can be fitted to
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup06;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -128,14 +112,12 @@ public class GangCoordinator
     public int CanFitShipGroup07;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup08;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -144,7 +126,6 @@ public class GangCoordinator
     public int WarfareLinkCPUAdd;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -152,7 +133,6 @@ public class GangCoordinator
     public int CanFitShipGroup10;
     /**
      * current power need
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
@@ -160,7 +140,6 @@ public class GangCoordinator
     public int Power;
     /**
      * commandBonusHidden
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -168,7 +147,6 @@ public class GangCoordinator
     public int CommandBonusHidden;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from activating the structure tethering.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -176,15 +154,13 @@ public class GangCoordinator
     public int DisallowTethering;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CommandBonusECM;
     /**
      * Remote Sensor Dampening Command Bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -192,7 +168,6 @@ public class GangCoordinator
     public int CommandBonusRSD;
     /**
      * Tracking Disruption Command Bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -200,15 +175,13 @@ public class GangCoordinator
     public int CommandBonusTD;
     /**
      * Target Painting Command Bonus
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double CommandBonusTP;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -216,14 +189,12 @@ public class GangCoordinator
     public int DisallowDocking;
     /**
      * CPU need of module
-     * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -232,7 +203,6 @@ public class GangCoordinator
     public int MaxGangModules;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -240,7 +210,6 @@ public class GangCoordinator
     public int RequiredSkill1;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -248,7 +217,6 @@ public class GangCoordinator
     public int RequiredSkill2;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -268,10 +236,10 @@ public class GangCoordinator
     }
 
     public static LinkedHashMap<String, GangCoordinator> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GangCoordinator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -279,9 +247,6 @@ public class GangCoordinator
     }
 
     private static class Container {
-
         public LinkedHashMap<String, GangCoordinator> items;
-
     }
-
 }

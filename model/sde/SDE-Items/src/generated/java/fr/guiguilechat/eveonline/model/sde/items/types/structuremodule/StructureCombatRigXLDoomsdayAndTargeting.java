@@ -1,4 +1,3 @@
-
 package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
@@ -13,17 +12,14 @@ import org.yaml.snakeyaml.Yaml;
 public class StructureCombatRigXLDoomsdayAndTargeting
     extends StructureModule
 {
-
     /**
      * How much of the upgrade capacity is used when this is fitted to a ship.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -32,14 +28,12 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     public int StructureRigMaxTargetBonus;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
     public int StructureRigScanResBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -48,14 +42,12 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     public int StructureRigPDRangeBonus;
     /**
      * Bonus to Arcving Vorton Projector
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureRigDoomsdayTargetAmountBonus;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -64,22 +56,19 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     public int StructureRigPDCapUseBonus;
     /**
      * Reduction in damage lost per target on the Arcing Vorton Projector
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0D)
+    @DefaultDoubleValue(0.0)
     public double StructureRigDoomsdayDamageLossTargetBonus;
     /**
      * Tech level of an item
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -88,14 +77,12 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     public int MaxGroupFitted;
     /**
      * The maximum hitpoints of an object.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -104,7 +91,6 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     public int RigSize;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -112,14 +98,12 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     public int CanFitShipGroup01;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double HiSecModifier;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -128,30 +112,26 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     public int CanFitShipGroup02;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double LowSecModifier;
     /**
      * 
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0D)
+    @DefaultDoubleValue(1.0)
     public double NullSecModifier;
     /**
      * Required skill level for skill 1
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     /**
-     * 
      * 
      */
     @HighIsGood(true)
@@ -160,7 +140,6 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     public int SecurityModifier;
     /**
      * The type ID of the skill that is required.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -168,7 +147,6 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     public int RequiredSkill1;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
-     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -188,10 +166,10 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     }
 
     public static LinkedHashMap<String, StructureCombatRigXLDoomsdayAndTargeting> load() {
-        if ((cache==null)) {
+        if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigXLDoomsdayAndTargeting.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
-            } catch (Exception exception) {
+            } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
@@ -199,9 +177,6 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     }
 
     private static class Container {
-
         public LinkedHashMap<String, StructureCombatRigXLDoomsdayAndTargeting> items;
-
     }
-
 }
