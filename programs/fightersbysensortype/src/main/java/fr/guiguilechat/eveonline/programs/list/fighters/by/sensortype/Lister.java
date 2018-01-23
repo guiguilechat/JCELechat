@@ -12,28 +12,41 @@ import fr.guiguilechat.eveonline.model.sde.items.types.fighter.SupportFighter;
 
 public class Lister {
 
+	public static enum SensorTypes {
+		gravimetric("blue", "aqua"), magnetometric("green", "lime"), ladar("red", "red"), radar("yellow", "orange");
+
+		private SensorTypes(String color, String webColor) {
+			this.webColor = webColor;
+			this.color = color;
+		}
+
+		public final String color;
+		public final String webColor;
+
+	}
+
 	public static void main(String[] args) {
-		HashMap<String, String> fighter2type = new HashMap<>();
+		HashMap<String, SensorTypes> fighter2type = new HashMap<>();
 		Stream.concat(Stream.concat(HeavyFighter.load().entrySet().stream(), SupportFighter.load().entrySet().stream()),
 				LightFighter.load().entrySet().stream()).forEach(e -> {
 					String name = e.getKey();
 					Fighter f = e.getValue();
-					String sensor = null;
+					SensorTypes sensor = null;
 					if (f.ScanGravimetricStrength > 0) {
-						sensor= "gravimetric";
+						sensor = SensorTypes.gravimetric;
 					}
 					if (f.ScanMagnetometricStrength > 0) {
-						sensor="magnetometric";
+						sensor = SensorTypes.magnetometric;
 					}
 					if (f.ScanLadarStrength > 0) {
-						sensor="ladar";
+						sensor = SensorTypes.ladar;
 					}
 					if (f.ScanRadarStrength > 0) {
-						sensor="radar";
+						sensor = SensorTypes.radar;
 					}
 					if (name.contains(" II")) {
 						String previousmade = name.replaceAll(" II", " I");
-						String t1sensor = fighter2type.get(previousmade);
+						SensorTypes t1sensor = fighter2type.get(previousmade);
 						if (t1sensor!=null&& t1sensor.equals(sensor)) {
 							fighter2type.remove(previousmade);
 							fighter2type.put(name.replaceAll(" II", ""), sensor);
@@ -42,7 +55,7 @@ public class Lister {
 						}
 					} else if (name.contains(" I")) {
 						String previousmade = name.replaceAll(" I", " II");
-						String t2sensor = fighter2type.get(previousmade);
+						SensorTypes t2sensor = fighter2type.get(previousmade);
 						if (t2sensor != null && t2sensor.equals(sensor)) {
 							fighter2type.remove(previousmade);
 							fighter2type.put(name.replaceAll(" I", ""), sensor);
@@ -55,11 +68,14 @@ public class Lister {
 				});
 		ArrayList<String> list = new ArrayList<>(fighter2type.keySet());
 		Collections.sort(list);
+		System.out.println("<table>");
 		for (String n : list) {
-			if (fighter2type.get(n) != null) {
-				System.out.println(n + "\t" + fighter2type.get(n));
+			SensorTypes s = fighter2type.get(n);
+			if (s != null) {
+				System.out.println("<tr><td>" + n + "</td><td style=\"color:" + s.webColor + "\">" + s.name() + "</td></tr>");
 			}
 		}
+		System.out.println("</table>");
 	}
 
 
