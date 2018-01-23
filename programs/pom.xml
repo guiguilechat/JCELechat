@@ -17,7 +17,8 @@
   	<module>Optimize</module>
   	<module>EvalMyProd</module>
   	<module>Gui</module>
-   </modules>
+  	<module>fightersbysensortype</module>
+  </modules>
   <dependencyManagement>
   	<dependencies>
   		<dependency>
