@@ -18,6 +18,7 @@
   	<module>EvalMyProd</module>
   	<module>Gui</module>
   	<module>fightersbysensortype</module>
+  	<module>GUIV2</module>
   </modules>
   <dependencyManagement>
   	<dependencies>

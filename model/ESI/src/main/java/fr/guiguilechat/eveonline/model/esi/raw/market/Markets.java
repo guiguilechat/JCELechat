@@ -19,6 +19,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
 
+@Deprecated
 public class Markets {
 
 	private static final Logger logger = LoggerFactory.getLogger(Markets.class);
@@ -323,7 +324,8 @@ public class Markets {
 		for (int trynb = 0; trynb <= retries && arr == null; trynb++) {
 			try {
 				MarketOrder[] orders = marketOrderArrReader.readValue(new URL(url));
-				arr = Stream.of(orders).map(mo -> new MarketOrderEntry(mo.volume_remain, mo.price))
+				arr = Stream.of(orders).filter(mo -> mo.min_volume == 1)
+						.map(mo -> new MarketOrderEntry(mo.volume_remain, mo.price))
 						.toArray(MarketOrderEntry[]::new);
 				Arrays.sort(arr, buy ? (mo1, mo2) -> (int) Math.signum(mo2.price - mo1.price)
 						: (mo1, mo2) -> (int) Math.signum(mo1.price - mo2.price));

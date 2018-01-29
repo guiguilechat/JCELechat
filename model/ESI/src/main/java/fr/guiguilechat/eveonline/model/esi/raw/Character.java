@@ -16,6 +16,7 @@ import com.fasterxml.jackson.databind.ObjectReader;
 import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.connect.ESIRawConnection;
 
+@Deprecated
 public class Character extends ESIConnection {
 
 	public Character(ESIRawConnection connection) {
