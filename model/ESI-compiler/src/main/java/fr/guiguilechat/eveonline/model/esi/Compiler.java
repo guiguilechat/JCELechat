@@ -60,7 +60,7 @@ public class Compiler {
 	 * @throws IOException
 	 * @throws JClassAlreadyExistsException
 	 */
-	public static void main(String[] args) throws IOException, JClassAlreadyExistsException {
+	public static void main(String... args) throws IOException, JClassAlreadyExistsException {
 		long startTime = System.currentTimeMillis();
 		logger.info("compiling esi with params " + Arrays.asList(args));
 		Compiler c = new Compiler();
@@ -138,39 +138,49 @@ public class Compiler {
 
 				boolean connected = false;
 				for (Parameter p : operation.getParameters()) {
-					if (p.getRequired()) {
-						if (p instanceof PathParameter) {
+					switch (p.getName()) {
+					case "token":
+						connected = true;
+						break;
+						// we skip following parameters
+					case "user_agent":
+					case "X-User-Agent":
+					case "datasource":
+					case "page":
+						continue;
+					default:
+						String in = p.getIn();
+						AbstractJType pt;
+						JVar param;
+						switch (in) {
+						case "path":
 							PathParameter pp = (PathParameter) p;
-							AbstractJType pt = getExistingClass(pp.getType(), pp.getFormat());
+							pt = getExistingClass(pp.getType(), pp.getFormat());
 							pathparameters.add(meth.param(pt, pp.getName()));
-						} else if (p instanceof QueryParameter) {
+							break;
+						case "query":
 							QueryParameter qp = (QueryParameter) p;
-							AbstractJType pt = getExistingClass(qp);
-							JVar param = meth.param(pt, qp.getName());
+							param = meth.param(getExistingClass(qp), qp.getName());
 							queryparameters.add(param);
-						} else if (p instanceof BodyParameter) {
-							BodyParameter bp = (BodyParameter) p;
-							Model schema = bp.getSchema();
-							if (schema instanceof ArrayModel) {
-								AbstractJType pt = getExistingClass((ArrayModel) schema);
-								JVar param = meth.param(pt, bp.getName());
-								bodyparameters.add(param);
-							} else {
-								for (Entry<String, Property> e : schema.getProperties().entrySet()) {
-									AbstractJType type = translateToClass(e.getValue(), structurePackage, e.getKey());
-									JVar param = meth.param(type, e.getKey());
-									bodyparameters.add(param);
-								}
-							}
+							break;
+						case "body":BodyParameter bp = (BodyParameter) p;
+						Model schema = bp.getSchema();
+						if (schema instanceof ArrayModel) {
+							pt = getExistingClass((ArrayModel) schema);
+							param = meth.param(pt, bp.getName());
+							bodyparameters.add(param);
 						} else {
+							for (Entry<String, Property> e : schema.getProperties().entrySet()) {
+								AbstractJType type = translateToClass(e.getValue(), structurePackage, e.getKey());
+								param = meth.param(type, e.getKey());
+								bodyparameters.add(param);
+							}
+						}
+						break;
+						default:
 							logger.error("no match for parameter " + p.getClass());
 						}
-					} else {
-						if (p.getName().equals("token")) {
-							connected = true;
-						}
 					}
-
 				}
 				String urlAssign = "\"" + baseURL + path + "\"";
 				for (JVar jv : pathparameters) {
@@ -281,7 +291,16 @@ public class Compiler {
 
 	protected AbstractJType getExistingClass(QueryParameter pp) {
 		if (pp.getType().equals(ArrayProperty.TYPE)) {
-			return getExistingClass(pp.getItems().getType(), pp.getItems().getFormat()).array();
+			return getExistingClass(pp.getItems()).array();
+		} else {
+			return getExistingClass(pp.getType(), pp.getFormat());
+		}
+	}
+
+	public AbstractJType getExistingClass(Property pp) {
+		if (pp.getType().equals(ArrayProperty.TYPE)) {
+			ArrayProperty ap = (ArrayProperty) pp;
+			return getExistingClass(ap.getItems()).array();
 		} else {
 			return getExistingClass(pp.getType(), pp.getFormat());
 		}

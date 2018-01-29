@@ -9,6 +9,7 @@ import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.connect.ESIRawConnection;
 import is.ccp.tech.esi.Swagger;
 
+@Deprecated
 public class ESIRaw extends ESIConnection implements Swagger {
 
 	public ESIRaw(ESIRawConnection connection) {

@@ -12,6 +12,7 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
 
+@Deprecated
 public class ESIUniverse {
 
 	private static final Logger logger = LoggerFactory.getLogger(ESIUniverse.class);
