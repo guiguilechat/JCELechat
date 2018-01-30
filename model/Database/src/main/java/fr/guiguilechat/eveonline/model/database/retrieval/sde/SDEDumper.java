@@ -770,7 +770,8 @@ public class SDEDumper {
 	}
 
 	public static void loadLPOffers(SDEData sde, DatabaseFile db, ESIRaw esi) {
-		IntStream.of(esi.get_corporations_npccorps()).parallel().mapToObj(i -> streamoffers(i, esi, sde)).flatMap(s -> s)
+		IntStream.of(esi.get_corporations_npccorps(null)).parallel().mapToObj(i -> streamoffers(i, esi, sde))
+				.flatMap(s -> s)
 		.forEachOrdered(db.lpoffers::add);
 		// lp offers are sorted by corporation, offer name
 		Collections.sort(db.lpoffers, (o1, o2) -> {
@@ -789,8 +790,8 @@ public class SDEDumper {
 	}
 
 	protected static Stream<LPOffer> streamoffers(int corpid, ESIRaw esi, SDEData sde) {
-		R_get_corporations_corporation_id corp = esi.get_corporations_corporation_id(corpid);
-		R_get_loyalty_stores_corporation_id_offers[] offers = esi.get_loyalty_stores_corporation_id_offers(corpid);
+		R_get_corporations_corporation_id corp = esi.get_corporations_corporation_id(corpid, null);
+		R_get_loyalty_stores_corporation_id_offers[] offers = esi.get_loyalty_stores_corporation_id_offers(corpid, null);
 		return corp != null && offers != null ? Stream.of(offers).map(o -> {
 			LPOffer lpo = new LPOffer();
 			if (corp.name == null) {
@@ -831,8 +832,8 @@ public class SDEDumper {
 
 	public static void loadAgents(SDEData sde, DatabaseFile db, ESIRaw esi,
 			ESIUniverse uni) {
-		Map<Integer, R_get_corporations_corporation_id> corps = IntStream.of(esi.get_corporations_npccorps()).parallel()
-				.mapToObj(l -> l).collect(Collectors.toMap(l -> l, esi::get_corporations_corporation_id));
+		Map<Integer, R_get_corporations_corporation_id> corps = IntStream.of(esi.get_corporations_npccorps(null)).parallel()
+				.mapToObj(l -> l).collect(Collectors.toMap(l -> l, l -> esi.get_corporations_corporation_id(l, null)));
 
 		ArrayList<EagtAgents> sdeAgents = sde.getAgents();
 		HashMap<Integer, String> agtTypes = sde.getAgentTypes();

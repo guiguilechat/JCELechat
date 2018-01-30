@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.model.esi.raw;
 
-import java.io.IOException;
+import java.util.List;
 import java.util.Map;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -20,28 +20,27 @@ public class ESIRaw extends ESIConnection implements Swagger {
 		this(new ESIRawConnection(basicAuth, refreshToken));
 	}
 
-	@Override
-	public String connectGet(String url, boolean connected) {
-		return raw.connectGet(url, connected);
-	}
-
-	@Override
-	public String connectPost(String url, Map<String, String> content, boolean connected) {
-		return raw.connectPost(url, content, connected);
-	}
-
 	ObjectMapper om = new ObjectMapper();
 
 	@Override
+	public String flatten(Object o) {
+		return raw.flatten(o);
+	}
+
+	@Override
+	public String connectGet(String url, boolean connected, Map<String, List<String>> headerHandler) {
+		return raw.connectGet(url, connected, headerHandler);
+	}
+
+	@Override
+	public String connectPost(String url, Map<String, String> content, boolean connected,
+			Map<String, List<String>> headerHandler) {
+		return raw.connectPost(url, content, connected, headerHandler);
+	}
+
+	@Override
 	public <T> T convert(String line, Class<? extends T> clazz) {
-		if (line == null) {
-			return null;
-		}
-		try {
-			return om.readerFor(clazz).readValue(line);
-		} catch (IOException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		}
+		return raw.convert(line, clazz);
 	}
 
 }

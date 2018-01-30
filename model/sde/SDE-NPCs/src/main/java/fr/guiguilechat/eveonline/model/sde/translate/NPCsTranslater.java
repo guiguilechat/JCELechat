@@ -81,11 +81,12 @@ public class NPCsTranslater {
 		ESIConnection esi = new ESIConnection(null, null);
 		Map<Integer, String> stationsByID = Station.loadById();
 		LinkedHashMap<String, Station> stations = Station.load();
-		Map<Integer, R_get_corporations_corporation_id> corpNames = IntStream.of(esi.raw.get_corporations_npccorps())
-				.parallel().mapToObj(l -> l).collect(Collectors.toMap(l -> l, esi.raw::get_corporations_corporation_id));
+		Map<Integer, R_get_corporations_corporation_id> corpNames = IntStream.of(esi.raw.get_corporations_npccorps(null))
+				.parallel().mapToObj(l -> l)
+				.collect(Collectors.toMap(l -> l, l -> esi.raw.get_corporations_corporation_id(l, null)));
 		Map<Integer, String> allianceNames = new HashMap<>();
 		corpNames.values().stream().mapToInt(corp -> corp.alliance_id).distinct().filter(l -> l > 0).forEachOrdered(l -> {
-			R_get_alliances_alliance_id ally = esi.raw.get_alliances_alliance_id(l);
+			R_get_alliances_alliance_id ally = esi.raw.get_alliances_alliance_id(l, null);
 			if (ally != null) {
 				allianceNames.put(l, ally.name);
 			}
@@ -116,7 +117,8 @@ public class NPCsTranslater {
 			corporations.put(e.getValue().name, add);
 		}
 		corporations.values().stream().parallel().flatMap(c -> {
-			R_get_loyalty_stores_corporation_id_offers[] values = esi.raw.get_loyalty_stores_corporation_id_offers(c.id);
+			R_get_loyalty_stores_corporation_id_offers[] values = esi.raw.get_loyalty_stores_corporation_id_offers(c.id,
+					null);
 			return values == null ? Stream.empty() : Stream.of(values);
 		}).forEachOrdered(o -> {
 			if (!offers.containsKey(o.offer_id)) {
@@ -164,7 +166,7 @@ public class NPCsTranslater {
 	}
 
 	protected static void loadCorpOffers(Corporation c, ESIRawConnection raw, LinkedHashMap<Integer, LPOffer> alloffers) {
-		R_get_loyalty_stores_corporation_id_offers[] offers = raw.get_loyalty_stores_corporation_id_offers(c.id);
+		R_get_loyalty_stores_corporation_id_offers[] offers = raw.get_loyalty_stores_corporation_id_offers(c.id, null);
 		if (offers != null) {
 			for (R_get_loyalty_stores_corporation_id_offers o : offers) {
 				c.lpoffers.add(o.offer_id);
