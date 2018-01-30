@@ -34,7 +34,7 @@ public class Names {
 				fullbuffer = new long[lids.length - start];
 			}
 			System.arraycopy(lids, start, fullbuffer, 0, fullbuffer.length);
-			Stream.of(raw.get_characters_names(fullbuffer)).forEachOrdered(ret::add);
+			Stream.of(raw.get_characters_names(fullbuffer, null)).forEachOrdered(ret::add);
 		}
 		return ret.toArray(new R_get_characters_names[0]);
 	}

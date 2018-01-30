@@ -93,7 +93,8 @@ public class Character extends ESIConnection {
 		String transmit = IntStream.of(ids).distinct().mapToObj(Integer::toString)
 				.collect(Collectors.joining(",", "[", "]"));
 		return affiliationReader.readValue(
-				ESIRawConnection.connect("https://esi.tech.ccp.is/latest/characters/affiliation/", "POST", null, transmit));
+				ESIRawConnection.connect("https://esi.tech.ccp.is/latest/characters/affiliation/", "POST", null, transmit,
+						null));
 	}
 
 	// character public infos
@@ -111,7 +112,8 @@ public class Character extends ESIConnection {
 
 	public static CharacterInformations character(int id) throws IOException {
 		return characterIDReader
-				.readValue(ESIRawConnection.connect("https://esi.tech.ccp.is/latest/characters/" + id + "/", "GET", null, null));
+				.readValue(
+						ESIRawConnection.connect("https://esi.tech.ccp.is/latest/characters/" + id + "/", "GET", null, null, null));
 	}
 
 }

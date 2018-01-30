@@ -17,7 +17,7 @@ public class Character {
 
 	protected synchronized R_get_characters_character_id getInfos() {
 		if (infos == null) {
-			infos = raw.get_characters_character_id(raw.verify().CharacterID);
+			infos = raw.get_characters_character_id(raw.verify().CharacterID, null);
 		}
 		return infos;
 	}

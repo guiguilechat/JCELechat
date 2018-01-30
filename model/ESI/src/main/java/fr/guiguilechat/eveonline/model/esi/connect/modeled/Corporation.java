@@ -12,6 +12,6 @@ public class Corporation {
 	}
 
 	public R_get_corporations_corporation_id_industry_jobs[] jobs() {
-		return con.raw.get_corporations_corporation_id_industry_jobs(con.character.corporation_id(), false);
+		return con.raw.get_corporations_corporation_id_industry_jobs(con.character.corporation_id(), false, null);
 	}
 }

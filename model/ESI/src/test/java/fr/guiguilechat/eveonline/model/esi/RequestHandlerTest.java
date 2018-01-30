@@ -1,31 +1,15 @@
 package fr.guiguilechat.eveonline.model.esi;
 
-import java.util.Map;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import fr.guiguilechat.eveonline.model.esi.connect.ESIRawConnection;
 
 public class RequestHandlerTest {
 
 	@Test
 	public void testFlatten() {
-		RequestHandler rh = new RequestHandler() {
-
-			@Override
-			public <T> T convert(String line, Class<? extends T> clazz) {
-				return null;
-			}
-
-			@Override
-			public String connectPost(String url, Map<String, String> content, boolean connected) {
-				return null;
-			}
-
-			@Override
-			public String connectGet(String url, boolean connected) {
-				return null;
-			}
-		};
+		ESIRawConnection rh = new ESIRawConnection(null, null);
 		Assert.assertEquals(rh.flatten(null), null);
 		Assert.assertEquals(rh.flatten("lol"), "lol");
 		Assert.assertEquals(rh.flatten(12), "12");

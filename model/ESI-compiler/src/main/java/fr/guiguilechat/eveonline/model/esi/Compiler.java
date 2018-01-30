@@ -21,6 +21,7 @@ import com.helger.jcodemodel.EClassType;
 import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.JDefinedClass;
+import com.helger.jcodemodel.JDirectClass;
 import com.helger.jcodemodel.JExpr;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
@@ -95,6 +96,8 @@ public class Compiler {
 	JPackage responsePackage = null;
 	JPackage structurePackage = null;
 
+	private AbstractJClass headerhandlertype;
+
 	public JCodeModel compile() throws JClassAlreadyExistsException {
 		Swagger swagger = new SwaggerParser().read(baseURL + "/" + swaggerFile);
 		cm = new JCodeModel();
@@ -104,7 +107,29 @@ public class Compiler {
 		System.err.println("root package is " + rootPackage);
 
 		jc = cm._class(rootPackage + "." + "Swagger", EClassType.INTERFACE);
-		jc._extends(cm.ref(RequestHandler.class));
+
+		JMethod flatten = jc.method(JMod.PUBLIC, cm.ref(String.class), "flatten");
+		flatten.param(cm.ref(Object.class), "o");
+
+
+		headerhandlertype = cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(List.class).narrow(cm.ref(String.class)));
+
+		JMethod coget = jc.method(JMod.PUBLIC, cm.ref(String.class), "connectGet");
+		coget.param(cm.ref(String.class), "url");
+		coget.param(cm.BOOLEAN, "connected");
+		coget.param(headerhandlertype, "headerHandler");
+
+		JMethod copost = jc.method(JMod.PUBLIC, cm.ref(String.class), "connectPost");
+		copost.param(cm.ref(String.class), "url");
+		copost.param(cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(String.class)), "content");
+		copost.param(cm.BOOLEAN, "connected");
+		copost.param(headerhandlertype, "headerHandler");
+
+		JDirectClass genericType = cm.directClass("T");
+		JMethod convert = jc.method(JMod.PUBLIC, genericType, "convert");
+		convert.generify("T");
+		convert.param(cm.ref(String.class), "line");
+		convert.param(cm.ref(Class.class).narrow(genericType.wildcardExtends()), "clazz");
 
 		responsePackage = cm._package(rootPackage + "." + responsesPackage);
 		structurePackage = cm._package(rootPackage + "." + structuresPackage);
@@ -182,6 +207,8 @@ public class Compiler {
 						}
 					}
 				}
+				JVar header = meth.param(headerhandlertype, "headerHandler");
+
 				String urlAssign = "\"" + baseURL + path + "\"";
 				for (JVar jv : pathparameters) {
 					urlAssign += ".replace(\"{" + jv.name() + "}\", \"\"+" + jv.name() + ")";
@@ -205,15 +232,16 @@ public class Compiler {
 					if (s == null) {
 						meth.body().invoke("connectPost").arg(url)
 						.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
-						.arg(JExpr.lit(connected));
+								.arg(JExpr.lit(connected)).arg(header);
 					} else {
 						JVar fetched = meth.body().decl(cm.ref(String.class), "fetched");
 						fetched.init(meth.body().invoke("connectPost").arg(url)
 								.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
-								.arg(JExpr.lit(connected)));
+								.arg(JExpr.lit(connected)).arg(header));
 					}
 				} else {
-					meth.body().directStatement("String fetched=" + "connectGet(url," + Boolean.toString(connected) + ");");
+					meth.body().directStatement(
+							"String fetched=" + "connectGet(url," + Boolean.toString(connected) + ", headerHandler);");
 				}
 				if (s != null) {
 					meth.body()._return(

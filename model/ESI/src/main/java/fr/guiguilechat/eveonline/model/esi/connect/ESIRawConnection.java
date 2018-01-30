@@ -7,8 +7,14 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.stream.Collectors;
+import java.util.stream.DoubleStream;
+import java.util.stream.IntStream;
+import java.util.stream.LongStream;
+import java.util.stream.Stream;
 
 import javax.net.ssl.HttpsURLConnection;
 
@@ -61,11 +67,14 @@ public class ESIRawConnection implements Swagger {
 	 * @param properties
 	 *          the properties to transmit in the header
 	 * @param transmit
-	 *          the data to transmit duing the query
+	 *          the data to transmit during the query
+	 * @param headerHandler
+	 *          the map to store the header received from the server.
 	 * @return the line returned by the server as a response. null if there was an
 	 *         issue
 	 */
-	public static String connect(String url, String method, Map<String, String> properties, String transmit) {
+	public static String connect(String url, String method, Map<String, String> properties, String transmit,
+			Map<String, List<String>> headerHandler) {
 		try {
 			URL target = new URL(url);
 			HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
@@ -83,21 +92,26 @@ public class ESIRawConnection implements Swagger {
 				wr.close();
 			}
 			int responseCode = con.getResponseCode();
-			if (responseCode != 200) {
-				StringBuilder sb = new StringBuilder(method).append(url).append(" ").append(responseCode);
-				if (responseCode != 500) {
-					sb.append(" error : ");
-					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
+			switch (responseCode) {
+			case HttpsURLConnection.HTTP_OK:
+			case HttpsURLConnection.HTTP_CREATED:
+			case HttpsURLConnection.HTTP_ACCEPTED:
+				if (headerHandler != null) {
+					headerHandler.putAll(con.getHeaderFields());
 				}
-				System.err.println(sb.toString());
-				return null;
-			} else {
 				return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
+			case HttpsURLConnection.HTTP_INTERNAL_ERROR:
+				// TODO ??
+				break;
+			default:
+				StringBuilder sb = new StringBuilder(method).append(url).append(" ").append(responseCode);
+				new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
 			}
 		} catch (Exception e) {
 			logger.debug("while geting " + url, e);
 			return null;
 		}
+		return null;
 	}
 
 	/**
@@ -109,7 +123,7 @@ public class ESIRawConnection implements Swagger {
 	 *         issue
 	 */
 	@Override
-	public String connectGet(String url, boolean connected) {
+	public String connectGet(String url, boolean connected, Map<String, List<String>> headerHandler) {
 		Map<String, String> props;
 		if (connected) {
 			props = new HashMap<>();
@@ -117,7 +131,7 @@ public class ESIRawConnection implements Swagger {
 		} else {
 			props = Collections.emptyMap();
 		}
-		return connect(url, "GET", props, null);
+		return connect(url, "GET", props, null, headerHandler);
 	}
 
 	/**
@@ -132,21 +146,23 @@ public class ESIRawConnection implements Swagger {
 	 * @return the line returned by the server as a response. null if there was an
 	 *         issue
 	 */
-	public String connectPost(String url, String contentType, String transmit, boolean connected) {
+	public String connectPost(String url, String contentType, String transmit, boolean connected,
+			Map<String, List<String>> headerHandler) {
 		HashMap<String, String> props = new HashMap<>();
 		if (connected) {
 			props.put("Authorization", getAuthorization());
 		}
 		props.put("Content-Type", contentType);
-		return connect(url, "POST", props, transmit);
+		return connect(url, "POST", props, transmit, headerHandler);
 	}
 
 	ObjectWriter ow = new ObjectMapper().writer();
 
 	@Override
-	public String connectPost(String url, Map<String, String> transmit, boolean connected) {
+	public String connectPost(String url, Map<String, String> transmit, boolean connected,
+			Map<String, List<String>> headerHandler) {
 		try {
-			return connectPost(url, "application/json", ow.writeValueAsString(transmit), connected);
+			return connectPost(url, "application/json", ow.writeValueAsString(transmit), connected, headerHandler);
 		} catch (JsonProcessingException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
@@ -163,7 +179,7 @@ public class ESIRawConnection implements Swagger {
 	}
 
 	public R_Verify verify() {
-		return convert(connectGet("https://login.eveonline.com/oauth/verify", true), R_Verify.class);
+		return convert(connectGet("https://login.eveonline.com/oauth/verify", true, null), R_Verify.class);
 	}
 
 	private final ObjectMapper mapper = new ObjectMapper();
@@ -194,6 +210,34 @@ public class ESIRawConnection implements Swagger {
 		return (refreshToken == null && o.refreshToken == null
 				|| refreshToken != null && refreshToken.equals(o.refreshToken))
 				&& (basicAuth == null && o.basicAuth == null || basicAuth != null && basicAuth.equals(o.basicAuth));
+	}
+
+	/**
+	 * flatten all
+	 *
+	 * @param o
+	 * @return
+	 */
+	@Override
+	public String flatten(Object o) {
+		if (o == null) {
+			return null;
+		}
+		if (o.getClass().isArray()) {
+			Class<?> ct = o.getClass().getComponentType();
+			if (ct.isPrimitive()) {
+				if (ct == int.class || ct == short.class || ct == byte.class || ct == char.class || ct == boolean.class) {
+					return IntStream.of((int[]) o).mapToObj(Integer::toString).collect(Collectors.joining(","));
+				} else if (ct == long.class) {
+					return LongStream.of((long[]) o).mapToObj(Long::toString).collect(Collectors.joining(","));
+				} else if (ct == double.class || ct == float.class) {
+					return DoubleStream.of((double[]) o).mapToObj(Double::toString).collect(Collectors.joining(","));
+				}
+			}
+			return Stream.of((Object[]) o).map(Object::toString).collect(Collectors.joining(","));
+		} else {
+			return o.toString();
+		}
 	}
 
 }
