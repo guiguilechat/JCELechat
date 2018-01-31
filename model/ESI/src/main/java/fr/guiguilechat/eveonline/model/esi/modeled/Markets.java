@@ -48,8 +48,12 @@ public class Markets {
 					return;
 				}
 				Map<String, List<String>> headers = new HashMap<>();
-				R_get_markets_region_id_orders[] orders = esiConnection.raw.get_markets_region_id_orders("all", typeID,
-						regionID, headers);
+
+				R_get_markets_region_id_orders[] orders = esiConnection.raw.get_markets_region_id_orders("all", regionID,
+						typeID, headers);
+				for (Entry<String, List<String>> h : headers.entrySet()) {
+					// System.err.println(" " + h.getKey() + " : " + h.getValue());
+				}
 				ArrayList<R_get_markets_region_id_orders> nbo = new ArrayList<>();
 				ArrayList<R_get_markets_region_id_orders> nso = new ArrayList<>();
 				for (R_get_markets_region_id_orders o : orders) {
@@ -66,14 +70,9 @@ public class Markets {
 				buyOrders.setAll(nbo);
 				sellOrders.setAll(nso);
 
-				for (Entry<String, List<String>> h : headers.entrySet()) {
-					System.err.println(" " + h.getKey() + " : " + h.getValue());
-				}
-
 				cacheEnd = System.currentTimeMillis()
 						+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), formatter).toEpochSecond()
 						- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), formatter).toEpochSecond();
-
 			}
 
 			public ObservableList<R_get_markets_region_id_orders> getBuyOrders() {
@@ -259,6 +258,8 @@ public class Markets {
 					fcachedAverage.put(id, p.average_price);
 					fcachedAdjusted.put(id, p.adjusted_price);
 				}
+				cachedAverage = fcachedAverage;
+				cachedAdjusted = fcachedAdjusted;
 			}
 		}
 	}
