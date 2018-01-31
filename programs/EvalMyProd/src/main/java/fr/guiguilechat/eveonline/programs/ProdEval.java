@@ -25,7 +25,8 @@ import fr.guiguilechat.eveonline.model.database.yaml.Location;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
+import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.connect.modeled.Markets.RegionalMarket;
 
 /**
  *
@@ -79,7 +80,7 @@ public class ProdEval {
 				hubR = db.getLocation(hubR.parentRegion);
 			}
 		}
-		Markets market = new Markets(hubR.locationID);
+		RegionalMarket market = ESIConnection.DISCONNECTED.markets.getMarket(hubR.locationID);
 		Stream<EveChar> characters = apis.parallelStream().map(s_arr -> new APIRoot(Integer.parseInt(s_arr[0]), s_arr[1]))
 				.flatMap(api -> api.account.characters().parallelStream()).filter(c -> acceptName(c.name.toLowerCase()));
 		// first pass we copy the bpcs to get the required and produced amount of
@@ -94,7 +95,7 @@ public class ProdEval {
 					.sum();
 			eval.outValue = (outputSO ? market.getSO(eval.output.id, eval.outNb) : market.getBO(eval.output.id, eval.outNb))
 					* (1.0 - outTax / 100);
-			eval.inValue += db.ESIBasePrices().getAdjusted(eval.output.id) * eval.outNb * prodTax / 100;
+			eval.inValue += ESIConnection.DISCONNECTED.markets.getAdjusted(eval.output.id) * eval.outNb * prodTax / 100;
 			eval.gain = eval.outValue - eval.inValue;
 			eval.mult = eval.outValue / eval.inValue;
 		});

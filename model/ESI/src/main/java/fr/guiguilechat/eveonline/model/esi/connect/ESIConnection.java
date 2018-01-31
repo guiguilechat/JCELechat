@@ -27,6 +27,8 @@ public class ESIConnection {
 		this(new ESIRawConnection(refresh, base));
 	}
 
+	public static final ESIConnection DISCONNECTED = new ESIConnection(null, null);
+
 	public ESIRawConnection getConnection() {
 		return raw;
 	}

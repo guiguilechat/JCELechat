@@ -38,9 +38,7 @@ import fr.guiguilechat.eveonline.model.database.yaml.Module;
 import fr.guiguilechat.eveonline.model.database.yaml.Station;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.model.esi.raw.Character;
-import fr.guiguilechat.eveonline.model.esi.raw.ESIRaw;
-import fr.guiguilechat.eveonline.model.esi.raw.ESIUniverse;
+import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
 import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgents;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeAttributes;
@@ -191,8 +189,6 @@ public class SDEDumper {
 	public static DatabaseFile loadDb() throws FileNotFoundException {
 		SDEData sde = new SDEData();
 		DatabaseFile db = new DatabaseFile();
-		ESIUniverse uni = new ESIUniverse();
-		ESIRaw esi = new ESIRaw(null, null);
 
 		logger.info("loading ships and modules");
 		loadShipModules(sde, db);
@@ -216,10 +212,10 @@ public class SDEDumper {
 		// informations.
 
 		logger.info("loading lpoffers");
-		loadLPOffers(sde, db, esi);
+		loadLPOffers(sde, db);
 
 		logger.info("loading agents");
-		loadAgents(sde, db, esi, uni);
+		loadAgents(sde, db);
 
 		logger.info("missings ids " + sde.missings);
 
@@ -769,9 +765,10 @@ public class SDEDumper {
 		}
 	}
 
-	public static void loadLPOffers(SDEData sde, DatabaseFile db, ESIRaw esi) {
-		IntStream.of(esi.get_corporations_npccorps(null)).parallel().mapToObj(i -> streamoffers(i, esi, sde))
-				.flatMap(s -> s)
+	public static void loadLPOffers(SDEData sde, DatabaseFile db) {
+		IntStream.of(ESIConnection.DISCONNECTED.raw.get_corporations_npccorps(null)).parallel()
+		.mapToObj(i -> streamoffers(i, sde))
+		.flatMap(s -> s)
 		.forEachOrdered(db.lpoffers::add);
 		// lp offers are sorted by corporation, offer name
 		Collections.sort(db.lpoffers, (o1, o2) -> {
@@ -789,9 +786,11 @@ public class SDEDumper {
 		});
 	}
 
-	protected static Stream<LPOffer> streamoffers(int corpid, ESIRaw esi, SDEData sde) {
-		R_get_corporations_corporation_id corp = esi.get_corporations_corporation_id(corpid, null);
-		R_get_loyalty_stores_corporation_id_offers[] offers = esi.get_loyalty_stores_corporation_id_offers(corpid, null);
+	protected static Stream<LPOffer> streamoffers(int corpid, SDEData sde) {
+		R_get_corporations_corporation_id corp = ESIConnection.DISCONNECTED.raw.get_corporations_corporation_id(corpid,
+				null);
+		R_get_loyalty_stores_corporation_id_offers[] offers = ESIConnection.DISCONNECTED.raw
+				.get_loyalty_stores_corporation_id_offers(corpid, null);
 		return corp != null && offers != null ? Stream.of(offers).map(o -> {
 			LPOffer lpo = new LPOffer();
 			if (corp.name == null) {
@@ -830,15 +829,17 @@ public class SDEDumper {
 		}).filter(lpo -> lpo != null) : Stream.empty();
 	}
 
-	public static void loadAgents(SDEData sde, DatabaseFile db, ESIRaw esi,
-			ESIUniverse uni) {
-		Map<Integer, R_get_corporations_corporation_id> corps = IntStream.of(esi.get_corporations_npccorps(null)).parallel()
-				.mapToObj(l -> l).collect(Collectors.toMap(l -> l, l -> esi.get_corporations_corporation_id(l, null)));
+	public static void loadAgents(SDEData sde, DatabaseFile db) {
+		Map<Integer, R_get_corporations_corporation_id> corps = IntStream
+				.of(ESIConnection.DISCONNECTED.raw.get_corporations_npccorps(null)).parallel().mapToObj(l -> l).collect(
+						Collectors.toMap(l -> l, l -> ESIConnection.DISCONNECTED.raw.get_corporations_corporation_id(l, null)));
 
 		ArrayList<EagtAgents> sdeAgents = sde.getAgents();
 		HashMap<Integer, String> agtTypes = sde.getAgentTypes();
 		HashMap<Integer, String> crpDivisions = sde.getNPCDivisions();
-		Map<Integer, String> names = Character.getNames(sdeAgents.stream().mapToInt(a -> a.agentID).toArray());
+		Map<Long, String> names = Stream.of(ESIConnection.DISCONNECTED.raw
+				.get_characters_names(sdeAgents.stream().mapToLong(a -> a.agentID).toArray(), null))
+				.collect(Collectors.toMap(n -> n.character_id, n -> n.character_name));
 		Map<Integer, EstaStations> stations = sde.getStations();
 		Map<Integer, String> system2Name = new HashMap<>();
 		for (Location l : db.locations.values()) {

@@ -4415,7 +4415,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     name: Vindicator
-  万王宝座级YC117年特别版:
+  万��宝座级YC117年特别版:
     Agility: 0.11400000005960464
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -4488,7 +4488,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
-    name: 万王宝座级YC117年特别版
+    name: 万��宝座级YC117年特别版
   乌鸦级YC117年特别版:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
@@ -4643,7 +4643,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     name: 响尾蛇级YC117年特别版
-  地狱天使级YC117年特��版:
+  地狱天使级YC117年特别版:
     Agility: 0.14000000059604645
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
@@ -4716,7 +4716,7 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
-    name: 地狱天使级YC117年特��版
+    name: 地狱天使级YC117年特别版
   多米尼克斯级YC117年特别版:
     Agility: 0.12540000677108765
     ArmorEmDamageResonance: 0.5
@@ -4791,7 +4791,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     name: 多米尼克斯级YC117年特别版
-  末日沙场��YC117年特别版:
+  末日沙��级YC117年特别版:
     Agility: 0.12999999523162842
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
@@ -4864,8 +4864,8 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
-    name: 末日沙场��YC117年特别版
-  灾难级YC117年特别版:
+    name: 末日沙��级YC117年特别版
+  灾难级YC117年特别��:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
@@ -4937,8 +4937,8 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
-    name: 灾难级YC117年特别版
-  马克瑞级YC117年特别版:
+    name: 灾难级YC117年特别��
+  马克瑞��YC117年特别版:
     Agility: 0.09600000083446503
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -5015,4 +5015,4 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 3.0
-    name: 马克瑞级YC117年特别版
+    name: 马克瑞��YC117年特别版

@@ -20,7 +20,8 @@ import org.yaml.snakeyaml.constructor.SafeConstructor;
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
+import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.connect.modeled.Markets.RegionalMarket;
 
 /**
  * analysis of a series of item drops
@@ -106,7 +107,7 @@ public class LootAnalysis {
 	public static void main(String[] args) throws IOException {
 		EveDatabase db = new YamlDatabase();
 		LootParser bp = new LootParser(db);
-		Markets em = new Markets(db.getLocation("TheForge").locationID);
+		RegionalMarket em = ESIConnection.DISCONNECTED.markets.getMarket(db.getLocation("TheForge").locationID);
 		File srcDir = new File("src/main/resources");
 		srcDir.mkdirs();
 		int parrallelism = Runtime.getRuntime().availableProcessors() * 10;
