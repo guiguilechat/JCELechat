@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.programs.manager;
 
-import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.programs.ISettings;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

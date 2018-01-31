@@ -1,6 +1,6 @@
-package fr.guiguilechat.eveonline.model.esi.connect.modeled;
+package fr.guiguilechat.eveonline.model.esi.modeled;
 
-import fr.guiguilechat.eveonline.model.esi.connect.ESIRawConnection;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
 import is.ccp.tech.esi.responses.R_get_characters_character_id;
 
 public class Character {

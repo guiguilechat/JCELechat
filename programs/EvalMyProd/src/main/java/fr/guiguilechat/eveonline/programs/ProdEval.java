@@ -25,8 +25,8 @@ import fr.guiguilechat.eveonline.model.database.yaml.Location;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
-import fr.guiguilechat.eveonline.model.esi.connect.modeled.Markets.RegionalMarket;
+import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 
 /**
  *

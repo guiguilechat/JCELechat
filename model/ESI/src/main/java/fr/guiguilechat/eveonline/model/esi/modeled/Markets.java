@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.esi.connect.modeled;
+package fr.guiguilechat.eveonline.model.esi.modeled;
 
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
@@ -9,8 +9,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
-import fr.guiguilechat.eveonline.model.esi.connect.modeled.Markets.RegionalMarket.CachedOrdersList;
+import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket.CachedOrdersList;
 import is.ccp.tech.esi.responses.R_get_markets_prices;
 import is.ccp.tech.esi.responses.R_get_markets_region_id_orders;
 import javafx.beans.binding.DoubleBinding;

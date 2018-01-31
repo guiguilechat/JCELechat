@@ -1,10 +1,11 @@
-package fr.guiguilechat.eveonline.model.esi.connect.modeled;
+package fr.guiguilechat.eveonline.model.esi.modeled;
 
 import java.text.ParseException;
 
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.modeled.Markets;
 import is.ccp.tech.esi.responses.R_get_markets_region_id_orders;
 
 public class MarketsTest {

@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.esi;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.eveonline.model.esi.connect.ESIRawConnection;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
 
 public class RequestHandlerTest {
 

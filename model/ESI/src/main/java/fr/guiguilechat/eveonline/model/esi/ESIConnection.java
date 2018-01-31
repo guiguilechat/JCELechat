@@ -1,10 +1,11 @@
-package fr.guiguilechat.eveonline.model.esi.connect;
+package fr.guiguilechat.eveonline.model.esi;
 
-import fr.guiguilechat.eveonline.model.esi.connect.modeled.Character;
-import fr.guiguilechat.eveonline.model.esi.connect.modeled.Corporation;
-import fr.guiguilechat.eveonline.model.esi.connect.modeled.Markets;
-import fr.guiguilechat.eveonline.model.esi.connect.modeled.Names;
-import fr.guiguilechat.eveonline.model.esi.connect.modeled.Verify;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
+import fr.guiguilechat.eveonline.model.esi.modeled.Character;
+import fr.guiguilechat.eveonline.model.esi.modeled.Corporation;
+import fr.guiguilechat.eveonline.model.esi.modeled.Markets;
+import fr.guiguilechat.eveonline.model.esi.modeled.Names;
+import fr.guiguilechat.eveonline.model.esi.modeled.Verify;
 
 /**
  * encapsulation of a raw connection to have better modeling
