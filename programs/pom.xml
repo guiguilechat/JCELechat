@@ -10,7 +10,7 @@
   <name>Programs</name>
   <description>pom for all main programs</description>
   <modules>
-  	<module>EvaluateRigMarket</module>
+  	
   	
   	<module>StatsBurnerDest</module>
   	<module>LootStats</module>

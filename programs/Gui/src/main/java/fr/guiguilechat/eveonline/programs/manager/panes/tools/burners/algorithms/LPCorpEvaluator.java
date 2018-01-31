@@ -16,7 +16,9 @@ import fr.guiguilechat.eveonline.model.database.EveDatabase;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
+import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.connect.modeled.Markets;
+import fr.guiguilechat.eveonline.model.esi.connect.modeled.Markets.RegionalMarket;
 
 
 /**
@@ -53,7 +55,7 @@ public class LPCorpEvaluator {
 
 	public final EveDatabase db;
 
-	protected Markets market = null;
+	protected RegionalMarket market = null;
 
 	// adjust sales by removing this taxe
 	protected double saleTax = 0.01;
@@ -67,9 +69,6 @@ public class LPCorpEvaluator {
 
 	public void clearCache() {
 		cachedLists.clear();
-		if (market != null) {
-			market.clearCache();
-		}
 	}
 
 	public LPCorpEvaluator() {
@@ -90,7 +89,7 @@ public class LPCorpEvaluator {
 	 * @param db
 	 *          the database to get the lp offers from.
 	 */
-	public LPCorpEvaluator(EveDatabase db, Markets market) {
+	public LPCorpEvaluator(EveDatabase db, RegionalMarket market) {
 		this.db = db;
 		this.market = market;
 	}
@@ -115,7 +114,7 @@ public class LPCorpEvaluator {
 	}
 
 	public LPCorpEvaluator withMarket(String region) {
-		market = db.ESIRegion(region);
+		market = ESIConnection.DISCONNECTED.markets.getMarket(db.getLocation(region).locationID);
 		cachedLists.clear();
 		return this;
 	}
@@ -159,13 +158,13 @@ public class LPCorpEvaluator {
 	/**
 	 * analyze a list of lp offers and sort them by decreasing isk/lp
 	 *
-	 * @param market
+	 * @param market2
 	 *          the market to consider for BO/SO
 	 * @param lpos
 	 *          lp offers
 	 * @return a new list of the corresponding offer analyses.
 	 */
-	protected List<OfferAnalysis> analyseOffers(Markets market, String corpName) {
+	protected List<OfferAnalysis> analyseOffers(RegionalMarket market2, String corpName) {
 		Collection<LPOffer> lpos = listCorpOffers(corpName);
 		HashSet<Integer> allIDs = new HashSet<>();
 
@@ -176,7 +175,7 @@ public class LPCorpEvaluator {
 			}
 		}
 
-		List<OfferAnalysis> offers = lpos.parallelStream().map(lp -> analyse(lp, market))
+		List<OfferAnalysis> offers = lpos.parallelStream().map(lp -> analyse(lp, market2))
 				.filter(oa -> oa != null && oa.iskPerLPBOSO > 0)
 				.collect(Collectors.toList());
 
@@ -199,7 +198,7 @@ public class LPCorpEvaluator {
 	 *          the market for BO/SO
 	 * @return a new offer analysis which contains the data analysis.
 	 */
-	protected OfferAnalysis analyse(LPOffer o, Markets market) {
+	protected OfferAnalysis analyse(LPOffer o, RegionalMarket market) {
 		OfferAnalysis ret = new OfferAnalysis();
 		ret.offer = o;
 		ret.offerCorp = o.corporation;
@@ -211,7 +210,8 @@ public class LPCorpEvaluator {
 		if (prodSO == Double.POSITIVE_INFINITY) {
 			prodSO = 0;
 		}
-		double prodAVG = market.priceAverage(o.product.type_id) * o.product.quantity * mult * (100.0 - saleTax) / 100;
+		double prodAVG = ESIConnection.DISCONNECTED.markets.getAverage(o.product.type_id) * o.product.quantity * mult
+				* (100.0 - saleTax) / 100;
 
 		double reqSO = o.requirements.isk * mult;
 		reqSO += o.requirements.items.parallelStream().mapToDouble(rq -> market.getSO(rq.type_id, rq.quantity * mult))
@@ -222,7 +222,7 @@ public class LPCorpEvaluator {
 				.sum();
 		double reqAVG = o.requirements.isk * mult;
 		reqAVG += o.requirements.items.parallelStream()
-				.mapToDouble(rq -> market.priceAverage(rq.type_id) * rq.quantity * mult).sum();
+				.mapToDouble(rq -> ESIConnection.DISCONNECTED.markets.getAverage(rq.type_id) * rq.quantity * mult).sum();
 
 		ret.iskPerLPSOBO = (prodBO - reqSO) / o.requirements.lp / mult;
 		ret.iskPerLPBOSO = (prodSO - reqBO) / o.requirements.lp / mult;

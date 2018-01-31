@@ -17,7 +17,8 @@ import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.eveonline.model.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
+import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.connect.modeled.Markets.RegionalMarket;
 
 public class ShowMinePrice {
 
@@ -57,7 +58,7 @@ public class ShowMinePrice {
 
 	}
 
-	public static OreTradeOrder getAsteroidData(Asteroid astero, String name, Markets market) {
+	public static OreTradeOrder getAsteroidData(Asteroid astero, String name, RegionalMarket market) {
 		OreTradeOrder order = new OreTradeOrder();
 		order.name = name;
 		order.bo = market.getBO(astero.id, 1);
@@ -97,7 +98,7 @@ public class ShowMinePrice {
 	public static LinkedHashMap<Float, LinkedHashMap<String, Double>> makePrices(EveDatabase db,
 			Predicate<Asteroid> typefilter,
 			String marketRegion) {
-		Markets m = db.ESIRegion(marketRegion);
+		RegionalMarket m = ESIConnection.DISCONNECTED.markets.getMarket(db.getLocation(marketRegion).locationID);
 		LinkedHashMap<Float, LinkedHashMap<String, Double>> ret = new LinkedHashMap<>();
 		List<OreTradeOrder> asteroiDataList = new ArrayList<>();
 		for (Entry<String, Asteroid> e : db.getAsteroids().entrySet()) {

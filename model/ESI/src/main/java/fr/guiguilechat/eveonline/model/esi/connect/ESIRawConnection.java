@@ -91,14 +91,14 @@ public class ESIRawConnection implements Swagger {
 				wr.flush();
 				wr.close();
 			}
+			if (headerHandler != null) {
+				headerHandler.putAll(con.getHeaderFields());
+			}
 			int responseCode = con.getResponseCode();
 			switch (responseCode) {
 			case HttpsURLConnection.HTTP_OK:
 			case HttpsURLConnection.HTTP_CREATED:
 			case HttpsURLConnection.HTTP_ACCEPTED:
-				if (headerHandler != null) {
-					headerHandler.putAll(con.getHeaderFields());
-				}
 				return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
 			case HttpsURLConnection.HTTP_INTERNAL_ERROR:
 				// TODO ??

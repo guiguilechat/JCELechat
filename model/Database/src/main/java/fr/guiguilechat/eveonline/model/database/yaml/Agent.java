@@ -2,7 +2,7 @@ package fr.guiguilechat.eveonline.model.database.yaml;
 
 public class Agent {
 
-	public int agentID;
+	public long agentID;
 	public String name;
 	public String agentType;
 	public String corporation;

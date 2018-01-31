@@ -19776,7 +19776,7 @@ id2name:
   32404: Cilis Leglise's Headquarters
   32405: Serpentis Research Facility
   32406: Caldari Storage Warehouse
-  32407: Holoreel �� Torture Log I15B
+  32407: Holoreel – Torture Log I15B
   32408: Correspondence Log KL-513
   32409: Aton Hordner's Tempest
   32410: Arajna Ashia's Arbitrator
@@ -21337,22 +21337,22 @@ id2name:
   34454: Archive Sentry Tower
   34455: Impaired Archive Sentry Tower
   34456: Angel Fence
-  34457: 末日沙场��YC117年特别版
+  34457: 末日沙��级YC117年特别版
   34458: 末日沙场级YC117年特别版蓝图
-  34459: 地狱天使级YC117年特��版
+  34459: 地狱天使级YC117年特别版
   34460: 地狱天使级YC117年特别版蓝图
-  34461: 马克瑞级YC117年特别版
+  34461: 马克瑞��YC117年特别版
   34462: 马克瑞级YC117年特别版蓝图
   34463: 响尾蛇级YC117年特别版
   34464: 响尾蛇级YC117年特别版蓝图
   34465: 多米尼克斯级YC117年特别版
   34466: 多米尼克斯级YC117年特别版蓝图
-  34467: 万王宝座级YC117年特别版
+  34467: 万��宝座级YC117年特别版
   34468: 万王宝座级YC117年特别版蓝图
   34469: 乌鸦级YC117年特别版
   34470: 乌鸦级YC117年特别版蓝图
-  34471: 灾难级YC117年特别版
-  34472: 灾难级YC117年特���版蓝图
+  34471: 灾难级YC117年特别��
+  34472: 灾难级YC117年特别版蓝图
   34473: 幼龙级YC117年特别版
   34474: 幼龙级YC117年特别版蓝图
   34475: 毒蜥级YC117年特别版
@@ -27463,11 +27463,11 @@ id2name:
   41444: ‘Jormungandr’ Explosive Reaper
   41445: ‘Holy Destiny’ Electromagnetic Lance Blueprint
   41446: ‘Iron Pike’ Kinetic Lance Blueprint
-  41447: ‘Phalarica��� Thermal Lance Blueprint
+  41447: ‘Phalarica’ Thermal Lance Blueprint
   41448: ‘Geiravor’ Explosive Lance Blueprint
   41449: ‘Cold Wind’ Kinetic Reaper Blueprint
   41450: ‘Guillotine’ Thermal Reaper Blueprint
-  41451: ‘Jormungandr��� Explosive Reaper Blueprint
+  41451: ‘Jormungandr’ Explosive Reaper Blueprint
   41452: ‘Divine Harvest’ Electromagnetic Reaper Blueprint
   41456: CONCORD 25000mm Steel Plates
   41457: Dark Blood 25000mm Steel Plates
@@ -28541,7 +28541,7 @@ id2name:
   42657: ♦ Bustard
   42658: ♦ Iteron Mark V
   42659: ♦ Occator
-  42660: ��� Mammoth
+  42660: ♦ Mammoth
   42661: ♦ Mastodon
   42662: Wrecked Amarr Battleship
   42663: Wrecked Amarr Apocalypse Battleship
@@ -29394,13 +29394,13 @@ id2name:
   43614: ♦ Kestrel
   43615: ♦ Bantam
   43616: ♦ Condor
-  43617: �� Worm
+  43617: ♦ Worm
   43618: ♦ Griffin
-  43622: ♦ Caracal
+  43622: ��� Caracal
   43623: ♦ Osprey
   43624: ♦ Gila
   43625: ♦ Blackbird
-  43626: ♦ Raven
+  43626: ��� Raven
   43627: ♦ Rattlesnake
   43630: Mini Skill Injector
   43633: ♦ Dramiel
@@ -30672,11 +30672,11 @@ id2name:
   45467: Minmatar CA Frigate
   45468: Minmatar CA Destroyer
   45469: Minmatar CA Cruiser
-  45470: ♦ Chemosh
+  45470: �� Chemosh
   45471: ♦ Molok
   45472: ♦ Molok
   45473: ♦ Dagon
-  45474: ♦ Chemosh
+  45474: �� Chemosh
   45480: Enforcer CONCORD Aerospace 'Prototype' SKIN (Permanent)
   45481: Pacifier CONCORD Aerospace 'Prototype' SKIN (Permanent)
   45482: Capsule YC119 Capsuleer Day SKIN (Permanent)
@@ -31236,7 +31236,7 @@ id2name:
   46049: ♦ Orca
   46050: Superior Exoplanets Hunter Reward Crate
   46051: Daredevil IGC SKIN (Permanent)
-  46052: ��� Cruor
+  46052: ♦ Cruor
   46053: ♦ Worm
   46054: ♦ Ashimmu
   46055: ♦ Bhaalgorn
@@ -49263,7 +49263,7 @@ name2group:
   Hollow Asteroid: celestial/LargeCollidableObject
   Hollow Talocan Extraction Silo: entity/LargeCollidableStructure
   Holoreel GRS-81A: commodity/General
-  Holoreel �� Torture Log I15B: commodity/Miscellaneous
+  Holoreel – Torture Log I15B: commodity/Miscellaneous
   'Holoreel: Wanted for Love': commodity/Miscellaneous
   Holoreels: commodity/General
   Holy Statue: commodity/Commodities
@@ -67886,9 +67886,9 @@ name2group:
   ‘Iron Pike’ Kinetic Lance: module/SuperWeapon
   ‘Iron Pike’ Kinetic Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Jormungandr’ Explosive Reaper: module/SuperWeapon
-  ‘Jormungandr��� Explosive Reaper Blueprint: blueprint/SuperWeaponBlueprint
+  ‘Jormungandr’ Explosive Reaper Blueprint: blueprint/SuperWeaponBlueprint
   ‘Phalarica’ Thermal Lance: module/SuperWeapon
-  ‘Phalarica��� Thermal Lance Blueprint: blueprint/SuperWeaponBlueprint
+  ‘Phalarica’ Thermal Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Tairei’s Crimson’ AM-L SKIN: infantry/InfantryColorSkin
   ♦ Annihilator Drone: entity/NPCCruiser
   ♦ Apocalypse: entity/NPCBattleship
@@ -67910,7 +67910,6 @@ name2group:
   ♦ Caiman: entity/NPCDreadnought
   ♦ Caracal: entity/NPCCruiser
   ♦ Celestis: entity/NPCCruiser
-  ♦ Chemosh: entity/NPCDreadnought
   ♦ Condor: entity/NPCFrigate
   ♦ Crucifier: entity/NPCFrigate
   ♦ Cruor: entity/NPCFrigate
@@ -67938,6 +67937,7 @@ name2group:
   ♦ Lynx: entity/NPCFrigate
   ♦ Machariel: entity/NPCBattleship
   ♦ Maller: entity/NPCCruiser
+  ♦ Mammoth: entity/NPCMiningHauler
   ♦ Mastodon: entity/NPCMiningHauler
   ♦ Maulus: entity/NPCFrigate
   ♦ Medusa: entity/NPCFrigate
@@ -67979,33 +67979,33 @@ name2group:
   ♦ Vigilant: entity/NPCCruiser
   ♦ Vindicator: entity/NPCBattleship
   ♦ Worm: entity/NPCFrigate
-  万王宝座级YC117年特别版: ship/Battleship
   万王宝座级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  万��宝座级YC117年特别版: ship/Battleship
   乌鸦级YC117年特别版: ship/Battleship
   乌鸦级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   伊什塔级YC117年特别版: ship/HeavyAssaultCruiser
   伊什塔级YC117年特别版蓝图: blueprint/CruiserBlueprint
   响尾蛇级YC117年特别版: ship/Battleship
   响尾蛇级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  地狱天使级YC117年特别版: ship/Battleship
   地狱天使级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  地狱天使级YC117年特��版: ship/Battleship
   多米尼克斯级YC117年特别版: ship/Battleship
   多米尼克斯级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   幼龙级YC117年特别版: ship/CombatBattlecruiser
   幼龙级YC117年特别版蓝图: blueprint/BattlecruiserBlueprint
   未来人类纪念章: specialeditionassets/SpecialEditionCommodities
   末日沙场级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  末日沙场��YC117年特别版: ship/Battleship
+  末日沙��级YC117年特别版: ship/Battleship
   毒蜥级YC117年特别版: ship/Cruiser
   毒蜥级YC117年特别版蓝图: blueprint/CruiserBlueprint
   泰坦会战纪念碑: celestial/LargeCollidableObject
   泰坦会战遗址: celestial/Beacon
-  灾难级YC117年特别版: ship/Battleship
-  灾难级YC117年特���版蓝图: blueprint/BattleshipBlueprint
+  灾难级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  灾难级YC117年特别��: ship/Battleship
   银鹰级YC117年特别版: ship/HeavyAssaultCruiser
   银鹰级YC117年特别版蓝图: blueprint/CruiserBlueprint
-  马克瑞级YC117年特别版: ship/Battleship
   马克瑞级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  �� Worm: entity/NPCFrigate
-  ��� Cruor: entity/NPCFrigate
-  ��� Mammoth: entity/NPCMiningHauler
+  马克瑞��YC117年特别版: ship/Battleship
+  �� Chemosh: entity/NPCDreadnought
+  ��� Caracal: entity/NPCCruiser
+  ��� Raven: entity/NPCBattleship

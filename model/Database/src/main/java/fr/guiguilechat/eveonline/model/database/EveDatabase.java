@@ -19,8 +19,6 @@ import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Module;
 import fr.guiguilechat.eveonline.model.database.yaml.Station;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
-import fr.guiguilechat.eveonline.model.esi.raw.market.Markets;
-import fr.guiguilechat.eveonline.model.esi.raw.market.Prices;
 
 public abstract class EveDatabase {
 
@@ -114,35 +112,6 @@ public abstract class EveDatabase {
 		return getTypeByName(getElementById(id));
 	}
 
-	protected Prices esi = new Prices();
-
-	public Prices ESIBasePrices() {
-		return esi;
-	}
-
-	// market cache
-
-	protected HashMap<Integer, Markets> esiregions = new HashMap<>();
-
-	public Markets ESIRegion(int regionID) {
-		synchronized (esiregions) {
-			Markets ret = esiregions.get(regionID);
-			if (ret == null) {
-				ret = new Markets(regionID);
-				esiregions.put(regionID, ret);
-			}
-			return ret;
-		}
-	}
-
-	public Markets ESIRegion(String region) {
-		region = region.replaceAll(" ", "");
-		Location location = getLocation(region);
-		if (location == null || location.getLocationType() != 1) {
-			return null;
-		}
-		return ESIRegion(location.locationID);
-	}
 
 	// locations
 
