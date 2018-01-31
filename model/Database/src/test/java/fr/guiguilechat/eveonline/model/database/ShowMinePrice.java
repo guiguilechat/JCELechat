@@ -17,8 +17,8 @@ import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.eveonline.model.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
-import fr.guiguilechat.eveonline.model.esi.connect.modeled.Markets.RegionalMarket;
+import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 
 public class ShowMinePrice {
 

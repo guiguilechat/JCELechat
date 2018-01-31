@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.esi.connect;
+package fr.guiguilechat.eveonline.model.esi.direct;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -25,7 +25,8 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
-import fr.guiguilechat.eveonline.model.esi.connect.MakeKey.AccessToken;
+import fr.guiguilechat.eveonline.model.esi.ESITools;
+import fr.guiguilechat.eveonline.model.esi.ESITools.AccessToken;
 import is.ccp.tech.esi.Swagger;
 
 /**
@@ -48,7 +49,7 @@ public class ESIRawConnection implements Swagger {
 	protected String getAccessToken() {
 		if (accessToken == null || accessToken.expire < System.currentTimeMillis()) {
 			logger.trace("fetching access token");
-			accessToken = MakeKey.getAccessToken(basicAuth, refreshToken);
+			accessToken = ESITools.getAccessToken(basicAuth, refreshToken);
 		}
 		return accessToken.token;
 	}

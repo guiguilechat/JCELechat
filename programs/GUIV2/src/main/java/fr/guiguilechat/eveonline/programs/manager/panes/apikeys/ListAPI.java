@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.programs.manager.panes.apikeys;
 
-import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.programs.manager.DataHandler;
 import fr.guiguilechat.eveonline.programs.manager.MPane;
 import javafx.beans.property.ReadOnlyObjectWrapper;

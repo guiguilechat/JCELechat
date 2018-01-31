@@ -1,8 +1,10 @@
-package fr.guiguilechat.eveonline.model.esi;
+package fr.guiguilechat.eveonline.model.esi.compile;
 
 import java.io.IOException;
 
 import com.helger.jcodemodel.JClassAlreadyExistsException;
+
+import fr.guiguilechat.eveonline.model.esi.Compiler;
 
 public class Compile {
 

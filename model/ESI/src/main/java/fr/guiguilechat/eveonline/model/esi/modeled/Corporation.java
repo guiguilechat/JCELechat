@@ -1,6 +1,6 @@
-package fr.guiguilechat.eveonline.model.esi.connect.modeled;
+package fr.guiguilechat.eveonline.model.esi.modeled;
 
-import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import is.ccp.tech.esi.responses.R_get_corporations_corporation_id_industry_jobs;
 
 public class Corporation {

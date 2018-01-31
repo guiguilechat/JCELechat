@@ -16,9 +16,9 @@ import fr.guiguilechat.eveonline.model.database.EveDatabase;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
-import fr.guiguilechat.eveonline.model.esi.connect.modeled.Markets;
-import fr.guiguilechat.eveonline.model.esi.connect.modeled.Markets.RegionalMarket;
+import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.modeled.Markets;
+import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 
 
 /**

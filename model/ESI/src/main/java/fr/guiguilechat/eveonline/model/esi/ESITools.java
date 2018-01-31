@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.model.esi.connect;
+package fr.guiguilechat.eveonline.model.esi;
 
 import java.awt.Desktop;
 import java.awt.Toolkit;
@@ -31,8 +31,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * code to make a sso key
  *
  */
-public class MakeKey {
-	private static final Logger logger = LoggerFactory.getLogger(MakeKey.class);
+public class ESITools {
+	private static final Logger logger = LoggerFactory.getLogger(ESITools.class);
 
 	// acess flow to the sso
 	public static void main(String[] args) {

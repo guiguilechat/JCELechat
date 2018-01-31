@@ -2,9 +2,9 @@ package fr.guiguilechat.eveonline.programs.manager.panes.apikeys;
 
 import java.util.regex.Pattern;
 
-import fr.guiguilechat.eveonline.model.esi.connect.ESIRawConnection;
-import fr.guiguilechat.eveonline.model.esi.connect.MakeKey;
-import fr.guiguilechat.eveonline.model.esi.connect.MakeKey.SCOPES;
+import fr.guiguilechat.eveonline.model.esi.ESITools;
+import fr.guiguilechat.eveonline.model.esi.ESITools.SCOPES;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
 import fr.guiguilechat.eveonline.programs.manager.DataHandler;
 import fr.guiguilechat.eveonline.programs.manager.MPane;
 import javafx.application.Platform;
@@ -92,10 +92,10 @@ public class SSOCreationPane extends Accordion implements MPane {
 			thread.interrupt();
 		}
 		thread = Thread.currentThread();
-		MakeKey.openBrowserForDevAPI();
+		ESITools.openBrowserForDevAPI();
 		boolean correct = false;
 		while(!correct) {
-			String entry = MakeKey.extractStringFromClipboard();
+			String entry = ESITools.extractStringFromClipboard();
 			if(entry!=null) {
 				if (appIdPat.matcher(entry).matches()) {
 					appIDField.setText(entry);
@@ -113,7 +113,7 @@ public class SSOCreationPane extends Accordion implements MPane {
 	protected void changeToRefreshToken() {
 		String appID = appIDField.getText(), appKey = appKeyField.getText();
 		if (appID != null && appIdPat.matcher(appID).matches() && appKey != null && appKeyPat.matcher(appKey).matches()) {
-			baseField.setText(MakeKey.encode(appID, appKey));
+			baseField.setText(ESITools.encode(appID, appKey));
 			setExpandedPane(refreshTokenPane);
 		}
 	}
@@ -123,9 +123,9 @@ public class SSOCreationPane extends Accordion implements MPane {
 			thread.interrupt();
 		}
 		thread = Thread.currentThread();
-		String authCode = MakeKey.getCodeByClipboard(appIDField.getText(), localcallback, SCOPES.values());
+		String authCode = ESITools.getCodeByClipboard(appIDField.getText(), localcallback, SCOPES.values());
 		if (authCode != null) {
-			refreshTokenField.setText(MakeKey.getRefreshToken(baseField.getText(), authCode));
+			refreshTokenField.setText(ESITools.getRefreshToken(baseField.getText(), authCode));
 		}
 	}
 
