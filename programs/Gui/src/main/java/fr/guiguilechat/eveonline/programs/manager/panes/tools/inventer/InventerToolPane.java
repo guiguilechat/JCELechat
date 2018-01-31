@@ -11,6 +11,8 @@ import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.apiv2.Account;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
+import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventionGainAlgorithm.InventionProdData;
@@ -149,7 +151,7 @@ public class InventerToolPane extends BorderPane implements EvePane {
 		table.getColumns().add(cycleDuration);
 
 		for (TableColumn<?, ?> t : new TableColumn<?, ?>[] { sobophCol, maxCycleCol, marginCol, gainCol, itemCostCol,
-				volumeCol, gainCol, }) {
+			volumeCol, gainCol, }) {
 			t.setMaxWidth(60);
 		}
 
@@ -182,10 +184,13 @@ public class InventerToolPane extends BorderPane implements EvePane {
 				ObservableList<InventionProdData> list = FXCollections.observableArrayList();
 				List<Blueprint> bpos = blueprints(skills).collect(Collectors.toList());
 
+				RegionalMarket market = ESIConnection.DISCONNECTED.markets
+						.getMarket(db().getLocation(parent().settings.invention.marketRegion).locationID);
+
 				bpos.parallelStream().flatMap(bpo -> bpo.invention.products.stream().parallel()
 						.filter(nameMatcher == null ? mat -> true : mat -> nameMatcher.matcher(mat.name.toLowerCase()).matches())
 						.flatMap(mat -> InventionGainAlgorithm
-								.evalCostInventionProd(bpo, mat, skills, db(), parent().settings.invention).stream()))
+								.evalCostInventionProd(bpo, mat, skills, db(), parent().settings.invention, market).stream()))
 				.forEachOrdered(e -> {
 					list.add(e);
 				});

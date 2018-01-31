@@ -63,14 +63,12 @@ public class InventionGainAlgorithm {
 
 	/** evaluate the cost of producing a T2 item form a T1 bpo */
 	public static List<InventionProdData> evalCostInventionProd(Blueprint bpo, Material selectedbpc,
-			Map<String, Integer> skills, YamlDatabase db, InventionParams params) {
+			Map<String, Integer> skills, YamlDatabase db, InventionParams params, RegionalMarket market) {
 		// the bpc selected
 		Blueprint bpc = db.getBlueprints().get(selectedbpc.name);
 		if (!haveReqSkills(skills, bpc.manufacturing.skills)) {
 			return Collections.emptyList();
 		}
-		RegionalMarket market = ESIConnection.DISCONNECTED.markets
-				.getMarket(db.getLocation(params.marketRegion).locationID);
 		Material product = bpc.manufacturing.products.get(0);
 		int prodID = db.getId(product.name);
 
