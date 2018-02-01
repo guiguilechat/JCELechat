@@ -1,10 +1,16 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
+import fr.guiguilechat.eveonline.model.sde.items.types.orbitals.OrbitalConstructionPlatform;
+import fr.guiguilechat.eveonline.model.sde.items.types.orbitals.OrbitalInfrastructure;
+import fr.guiguilechat.eveonline.model.sde.items.types.orbitals.TestOrbitals;
 
 public abstract class Orbitals
     extends Item
@@ -67,5 +73,9 @@ public abstract class Orbitals
     @Override
     public Class<?> getCategory() {
         return Orbitals.class;
+    }
+
+    public static Map<String, ? extends Orbitals> loadCategory() {
+        return Stream.of(OrbitalConstructionPlatform.load(), TestOrbitals.load(), OrbitalInfrastructure.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

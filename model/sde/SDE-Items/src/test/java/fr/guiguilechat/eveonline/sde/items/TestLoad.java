@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
+import fr.guiguilechat.eveonline.model.sde.items.types.Ship;
 import fr.guiguilechat.eveonline.model.sde.items.types.ship.Frigate;
 
 public class TestLoad {
@@ -17,10 +18,16 @@ public class TestLoad {
 	}
 
 	@Test
-	public void testLoadMetainf() {
+	public void testLoadAtronFromMetainf() {
 		MetaInf mi = MetaInf.load();
 		Assert.assertEquals(mi.name2group.get("Atron"), "ship/Frigate");
 		Assert.assertEquals(MetaInf.getItem("Atron").name, "Atron");
+	}
+
+	@Test
+	public void testLoadAtronFromShips() {
+		Ship atron = Ship.loadCategory().get("Atron");
+		Assert.assertEquals(atron.WarpSpeedMultiplier, 5.0);
 	}
 
 }

@@ -1,10 +1,16 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
+import fr.guiguilechat.eveonline.model.sde.items.types.fighter.HeavyFighter;
+import fr.guiguilechat.eveonline.model.sde.items.types.fighter.LightFighter;
+import fr.guiguilechat.eveonline.model.sde.items.types.fighter.SupportFighter;
 
 public abstract class Fighter
     extends Item
@@ -275,5 +281,9 @@ public abstract class Fighter
     @Override
     public Class<?> getCategory() {
         return Fighter.class;
+    }
+
+    public static Map<String, ? extends Fighter> loadCategory() {
+        return Stream.of(HeavyFighter.load(), LightFighter.load(), SupportFighter.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

@@ -1,10 +1,16 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
+import fr.guiguilechat.eveonline.model.sde.items.types.sovereigntystructures.InfrastructureHub;
+import fr.guiguilechat.eveonline.model.sde.items.types.sovereigntystructures.SovereigntyBlockadeUnit;
+import fr.guiguilechat.eveonline.model.sde.items.types.sovereigntystructures.TerritorialClaimUnit;
 
 public abstract class SovereigntyStructures
     extends Item
@@ -53,5 +59,9 @@ public abstract class SovereigntyStructures
     @Override
     public Class<?> getCategory() {
         return SovereigntyStructures.class;
+    }
+
+    public static Map<String, ? extends SovereigntyStructures> loadCategory() {
+        return Stream.of(SovereigntyBlockadeUnit.load(), InfrastructureHub.load(), TerritorialClaimUnit.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

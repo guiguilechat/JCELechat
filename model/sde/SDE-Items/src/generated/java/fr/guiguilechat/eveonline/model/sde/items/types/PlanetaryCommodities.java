@@ -1,9 +1,16 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
+import fr.guiguilechat.eveonline.model.sde.items.types.planetarycommodities.AdvancedCommodities;
+import fr.guiguilechat.eveonline.model.sde.items.types.planetarycommodities.BasicCommodities;
+import fr.guiguilechat.eveonline.model.sde.items.types.planetarycommodities.RefinedCommodities;
+import fr.guiguilechat.eveonline.model.sde.items.types.planetarycommodities.SpecializedCommodities;
 
 public abstract class PlanetaryCommodities
     extends Item
@@ -31,5 +38,9 @@ public abstract class PlanetaryCommodities
     @Override
     public Class<?> getCategory() {
         return PlanetaryCommodities.class;
+    }
+
+    public static Map<String, ? extends PlanetaryCommodities> loadCategory() {
+        return Stream.of(BasicCommodities.load(), RefinedCommodities.load(), SpecializedCommodities.load(), AdvancedCommodities.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

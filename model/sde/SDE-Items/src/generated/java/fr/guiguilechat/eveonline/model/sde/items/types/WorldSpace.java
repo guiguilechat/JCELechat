@@ -1,5 +1,8 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 
 public abstract class WorldSpace
@@ -14,5 +17,9 @@ public abstract class WorldSpace
     @Override
     public Class<?> getCategory() {
         return WorldSpace.class;
+    }
+
+    public static Map<String, ? extends WorldSpace> loadCategory() {
+        return Stream.of(fr.guiguilechat.eveonline.model.sde.items.types.worldspace.WorldSpace.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

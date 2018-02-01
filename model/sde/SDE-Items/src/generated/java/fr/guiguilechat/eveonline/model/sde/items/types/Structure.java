@@ -1,10 +1,23 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
+import fr.guiguilechat.eveonline.model.sde.items.types.structure.AdministrationHub;
+import fr.guiguilechat.eveonline.model.sde.items.types.structure.AdvertisementCenter;
+import fr.guiguilechat.eveonline.model.sde.items.types.structure.Citadel;
+import fr.guiguilechat.eveonline.model.sde.items.types.structure.EngineeringComplex;
+import fr.guiguilechat.eveonline.model.sde.items.types.structure.Laboratory;
+import fr.guiguilechat.eveonline.model.sde.items.types.structure.NPCEngineeringComplex;
+import fr.guiguilechat.eveonline.model.sde.items.types.structure.NPCForwardOperatingBase;
+import fr.guiguilechat.eveonline.model.sde.items.types.structure.ObservatoryArray;
+import fr.guiguilechat.eveonline.model.sde.items.types.structure.Refinery;
+import fr.guiguilechat.eveonline.model.sde.items.types.structure.Stargate;
 
 public abstract class Structure
     extends Item
@@ -340,5 +353,9 @@ public abstract class Structure
     @Override
     public Class<?> getCategory() {
         return Structure.class;
+    }
+
+    public static Map<String, ? extends Structure> loadCategory() {
+        return Stream.of(Refinery.load(), Stargate.load(), NPCForwardOperatingBase.load(), EngineeringComplex.load(), NPCEngineeringComplex.load(), AdvertisementCenter.load(), ObservatoryArray.load(), Citadel.load(), Laboratory.load(), AdministrationHub.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

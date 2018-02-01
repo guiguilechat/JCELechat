@@ -1,10 +1,23 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
+import fr.guiguilechat.eveonline.model.sde.items.types.drone.CombatDrone;
+import fr.guiguilechat.eveonline.model.sde.items.types.drone.ElectronicWarfareDrone;
+import fr.guiguilechat.eveonline.model.sde.items.types.drone.EnergyNeutralizerDrone;
+import fr.guiguilechat.eveonline.model.sde.items.types.drone.LogisticDrone;
+import fr.guiguilechat.eveonline.model.sde.items.types.drone.MiningDrone;
+import fr.guiguilechat.eveonline.model.sde.items.types.drone.RepairDrone;
+import fr.guiguilechat.eveonline.model.sde.items.types.drone.SalvageDrone;
+import fr.guiguilechat.eveonline.model.sde.items.types.drone.StasisWebifyingDrone;
+import fr.guiguilechat.eveonline.model.sde.items.types.drone.UnanchoringDrone;
+import fr.guiguilechat.eveonline.model.sde.items.types.drone.WarpScramblingDrone;
 
 public abstract class Drone
     extends Item
@@ -151,5 +164,9 @@ public abstract class Drone
     @Override
     public Class<?> getCategory() {
         return Drone.class;
+    }
+
+    public static Map<String, ? extends Drone> loadCategory() {
+        return Stream.of(RepairDrone.load(), SalvageDrone.load(), StasisWebifyingDrone.load(), EnergyNeutralizerDrone.load(), LogisticDrone.load(), CombatDrone.load(), WarpScramblingDrone.load(), MiningDrone.load(), UnanchoringDrone.load(), ElectronicWarfareDrone.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }
