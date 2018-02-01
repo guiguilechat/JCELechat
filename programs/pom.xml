@@ -29,11 +29,6 @@
   		</dependency>
   		<dependency>
   			<groupId>fr.guiguilechat.eveonline.model</groupId>
-  			<artifactId>SDE</artifactId>
-  			<version>${model-version}</version>
-  		</dependency>
-  		<dependency>
-  			<groupId>fr.guiguilechat.eveonline.model</groupId>
   			<artifactId>ESI</artifactId>
   			<version>0.7.4</version>
   		</dependency>
@@ -46,6 +41,11 @@
   	<dependency>
   		<groupId>fr.guiguilechat.eveonline.model</groupId>
   		<artifactId>DataBase</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+  		<artifactId>SDE-Full</artifactId>
+  		<version>18.01.10</version>
   	</dependency>
   </dependencies>
   <version>1.3.2</version>

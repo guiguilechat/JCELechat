@@ -141,24 +141,6 @@ public class YamlDatabase extends EveDatabase {
 		return modules;
 	}
 
-	protected LinkedHashMap<String, Asteroid> asteroids = null;
-
-	@Override
-	public synchronized LinkedHashMap<String, Asteroid> getAsteroids() {
-		if (asteroids == null) {
-			logger.debug("loading asteroids");
-			InputStream asteroidsStream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_ASTEROIDS_RES);
-			DatabaseFile asteroidsDB = asteroidsStream != null ? load(asteroidsStream) : null;
-			if (asteroidsDB != null) {
-				asteroids = asteroidsDB.asteroids;
-			} else {
-				System.err.println("can't load asteroids");
-				asteroids = new LinkedHashMap<>();
-			}
-		}
-		return asteroids;
-	}
-
 	protected LinkedHashMap<String, Blueprint> blueprints = null;
 
 	@Override

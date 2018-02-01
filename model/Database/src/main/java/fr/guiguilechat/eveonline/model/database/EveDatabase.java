@@ -10,7 +10,6 @@ import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.model.apiv2.Eve;
 import fr.guiguilechat.eveonline.model.database.yaml.Agent;
-import fr.guiguilechat.eveonline.model.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Hull;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
@@ -25,8 +24,6 @@ public abstract class EveDatabase {
 	public abstract LinkedHashMap<String, Hull> getHulls();
 
 	public abstract LinkedHashMap<String, Module> getModules();
-
-	public abstract LinkedHashMap<String, Asteroid> getAsteroids();
 
 	public abstract LinkedHashMap<String, Blueprint> getBlueprints();
 
@@ -98,9 +95,6 @@ public abstract class EveDatabase {
 		Type ret = getHulls().get(name);
 		if (ret == null) {
 			ret = getModules().get(name);
-		}
-		if (ret == null) {
-			ret = getAsteroids().get(name);
 		}
 		if (ret == null) {
 			ret = getBlueprints().get(name);
