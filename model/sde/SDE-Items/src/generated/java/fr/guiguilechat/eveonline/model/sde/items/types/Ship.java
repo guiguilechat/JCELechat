@@ -1,10 +1,56 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.AssaultFrigate;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.AttackBattlecruiser;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Battleship;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.BlackOps;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.BlockadeRunner;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.CapitalIndustrialShip;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Capsule;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Carrier;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.CombatBattlecruiser;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.CombatReconShip;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.CommandDestroyer;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.CommandShip;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Corvette;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.CovertOps;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Cruiser;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.DeepSpaceTransport;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Destroyer;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Dreadnought;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.ElectronicAttackShip;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Exhumer;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.ExpeditionFrigate;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.ForceAuxiliary;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.ForceReconShip;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Freighter;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Frigate;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.HeavyAssaultCruiser;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.HeavyInterdictionCruiser;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Industrial;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.IndustrialCommandShip;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Interceptor;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Interdictor;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.JumpFreighter;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Logistics;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.LogisticsFrigate;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Marauder;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.MiningBarge;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.PrototypeExplorationShip;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Shuttle;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.StealthBomber;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.StrategicCruiser;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Supercarrier;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.TacticalDestroyer;
+import fr.guiguilechat.eveonline.model.sde.items.types.ship.Titan;
 
 public abstract class Ship
     extends Item
@@ -417,5 +463,9 @@ public abstract class Ship
     @Override
     public Class<?> getCategory() {
         return Ship.class;
+    }
+
+    public static Map<String, ? extends Ship> loadCategory() {
+        return Stream.of(ForceReconShip.load(), Battleship.load(), JumpFreighter.load(), Interdictor.load(), Dreadnought.load(), Shuttle.load(), Exhumer.load(), Capsule.load(), PrototypeExplorationShip.load(), Frigate.load(), StrategicCruiser.load(), CommandShip.load(), BlackOps.load(), HeavyAssaultCruiser.load(), HeavyInterdictionCruiser.load(), LogisticsFrigate.load(), Logistics.load(), Interceptor.load(), StealthBomber.load(), CombatReconShip.load(), DeepSpaceTransport.load(), Destroyer.load(), MiningBarge.load(), IndustrialCommandShip.load(), Industrial.load(), Freighter.load(), AssaultFrigate.load(), ForceAuxiliary.load(), Corvette.load(), Supercarrier.load(), BlockadeRunner.load(), Marauder.load(), ExpeditionFrigate.load(), TacticalDestroyer.load(), Carrier.load(), ElectronicAttackShip.load(), Cruiser.load(), CombatBattlecruiser.load(), CapitalIndustrialShip.load(), CovertOps.load(), Titan.load(), AttackBattlecruiser.load(), CommandDestroyer.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

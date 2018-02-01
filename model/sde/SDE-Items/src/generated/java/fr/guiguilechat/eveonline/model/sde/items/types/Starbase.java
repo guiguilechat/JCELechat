@@ -1,10 +1,46 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.AssemblyArray;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.CompressionArray;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.ControlTower;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.CorporateHangarArray;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.CynosuralGeneratorArray;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.CynosuralSystemJammer;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.ElectronicWarfareBattery;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.EnergyNeutralizingBattery;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.ForceFieldArray;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.JumpPortalArray;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.Laboratory;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.MobileHybridSentry;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.MobileLaserSentry;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.MobileMissileSentry;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.MobilePowerCore;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.MobileProjectileSentry;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.MobileReactor;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.MobileShieldGenerator;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.MobileStorage;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.MoonMining;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.PersonalHangar;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.ReprocessingArray;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.ScannerArray;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.SensorDampeningBattery;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.ShieldHardeningArray;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.ShipMaintenanceArray;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.Silo;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.StasisWebificationBattery;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.StealthEmitterArray;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.StructureRepairArray;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.TargetPaintingBattery;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.TrackingArray;
+import fr.guiguilechat.eveonline.model.sde.items.types.starbase.WarpScramblingBattery;
 
 public abstract class Starbase
     extends Item
@@ -60,5 +96,9 @@ public abstract class Starbase
     @Override
     public Class<?> getCategory() {
         return Starbase.class;
+    }
+
+    public static Map<String, ? extends Starbase> loadCategory() {
+        return Stream.of(MobileProjectileSentry.load(), JumpPortalArray.load(), ShieldHardeningArray.load(), TargetPaintingBattery.load(), AssemblyArray.load(), MobileShieldGenerator.load(), MobileLaserSentry.load(), ShipMaintenanceArray.load(), CynosuralGeneratorArray.load(), TrackingArray.load(), CynosuralSystemJammer.load(), Laboratory.load(), StealthEmitterArray.load(), ForceFieldArray.load(), MobileMissileSentry.load(), Silo.load(), CorporateHangarArray.load(), SensorDampeningBattery.load(), MobileHybridSentry.load(), PersonalHangar.load(), ReprocessingArray.load(), MobilePowerCore.load(), StructureRepairArray.load(), ElectronicWarfareBattery.load(), CompressionArray.load(), ScannerArray.load(), EnergyNeutralizingBattery.load(), WarpScramblingBattery.load(), MobileStorage.load(), ControlTower.load(), StasisWebificationBattery.load(), MoonMining.load(), MobileReactor.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

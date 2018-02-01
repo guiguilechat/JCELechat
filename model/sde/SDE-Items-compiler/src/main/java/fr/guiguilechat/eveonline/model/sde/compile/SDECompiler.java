@@ -13,6 +13,7 @@ import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -57,10 +58,6 @@ public class SDECompiler {
 
 	public SDECompiler(SDECache sdeCache) {
 		sde = sdeCache;
-	}
-
-	public static class GroupData {
-
 	}
 
 	protected JCodeModel cm;
@@ -124,6 +121,9 @@ public class SDECompiler {
 		public HashMap<Integer, String> groupID2ClassName = new HashMap<>();
 		public HashMap<Integer, String> attID2FieldName = new HashMap<>();
 		public JDefinedClass metaInfClass;
+
+		// for each category, the set of groups that inherit it.
+		public HashMap<JDefinedClass, Set<JDefinedClass>> cat2Groups = new HashMap<>();
 	}
 
 	public CompiledClassesData compile() {
@@ -196,8 +196,6 @@ public class SDECompiler {
 
 		// build
 
-		// create all categories
-
 		// root class is abstract
 
 		JDefinedClass typeClass;
@@ -234,9 +232,10 @@ public class SDECompiler {
 			throw new UnsupportedOperationException("catch this", e2);
 		}
 
+		// create all categories
 		// categories are abstract classes.
 
-		HashMap<Integer, JDefinedClass> catNameToClass = new HashMap<>();
+		HashMap<Integer, JDefinedClass> catIDToClass = new HashMap<>();
 
 		for (Entry<Integer, EcategoryIDs> cate : catids.entrySet()) {
 			String newName = formatName(cate.getValue().enName());
@@ -250,7 +249,8 @@ public class SDECompiler {
 				JMethod catMeth = catClass.method(JMod.PUBLIC, cm.ref(Class.class).narrow(cm.wildcard()), "getCategory");
 				catMeth.body()._return(JExpr.dotclass(catClass));
 				catMeth.annotate(Override.class);
-				catNameToClass.put(cate.getKey(), catClass);
+				catIDToClass.put(cate.getKey(), catClass);
+				ret.cat2Groups.put(catClass, new HashSet<>());
 			} catch (JClassAlreadyExistsException e1) {
 				throw new UnsupportedOperationException("catch this", e1);
 			}
@@ -258,21 +258,24 @@ public class SDECompiler {
 
 		// then create all groups
 
-		for (Entry<Integer, EgroupIDs> groupe : groupids.entrySet()) {
-			String newName = formatName(groupe.getValue().enName());
-			JDefinedClass catClass = catNameToClass.get(groupe.getValue().categoryID);
+		for (Entry<Integer, EgroupIDs> groupEntry : groupids.entrySet()) {
+			String newName = formatName(groupEntry.getValue().enName());
+			JDefinedClass catClass = catIDToClass.get(groupEntry.getValue().categoryID);
 			try {
 				JDefinedClass groupClass = itemPackage().subPackage(catClass.name().toLowerCase())._class(formatName(newName));
 				groupClass._extends(catClass);
-				addAttributes(groupClass, groupAttributes.get(groupe.getKey()), attributesWithFloatValue);
+				addAttributes(groupClass, groupAttributes.get(groupEntry.getKey()), attributesWithFloatValue);
+
 				JMethod groupID = groupClass.method(JMod.PUBLIC, cm.INT, "getGroupId");
-				groupID.body()._return(JExpr.lit(groupe.getKey()));
+				groupID.body()._return(JExpr.lit(groupEntry.getKey()));
 				groupID.annotate(Override.class);
+
 				JMethod groupMeth = groupClass.method(JMod.PUBLIC, cm.ref(Class.class).narrow(cm.wildcard()), "getGroup");
 				groupMeth.body()._return(JExpr.dotclass(groupClass));
 				groupMeth.annotate(Override.class);
 
-				ret.groupID2ClassName.put(groupe.getKey(), groupClass.fullName());
+				ret.groupID2ClassName.put(groupEntry.getKey(), groupClass.fullName());
+				ret.cat2Groups.get(catClass).add(groupClass);
 			} catch (JClassAlreadyExistsException e1) {
 				throw new UnsupportedOperationException("catch this", e1);
 			}

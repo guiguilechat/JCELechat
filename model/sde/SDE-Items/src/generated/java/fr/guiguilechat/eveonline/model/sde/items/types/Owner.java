@@ -1,10 +1,17 @@
 package fr.guiguilechat.eveonline.model.sde.items.types;
 
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
+import fr.guiguilechat.eveonline.model.sde.items.types.owner.Alliance;
+import fr.guiguilechat.eveonline.model.sde.items.types.owner.Character;
+import fr.guiguilechat.eveonline.model.sde.items.types.owner.Corporation;
+import fr.guiguilechat.eveonline.model.sde.items.types.owner.Faction;
 
 public abstract class Owner
     extends Item
@@ -453,5 +460,9 @@ public abstract class Owner
     @Override
     public Class<?> getCategory() {
         return Owner.class;
+    }
+
+    public static Map<String, ? extends Owner> loadCategory() {
+        return Stream.of(Alliance.load(), Corporation.load(), Character.load(), Faction.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

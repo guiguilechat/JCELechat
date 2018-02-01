@@ -10,13 +10,18 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
 import com.helger.jcodemodel.AbstractJClass;
+import com.helger.jcodemodel.AbstractJType;
 import com.helger.jcodemodel.IJExpression;
 import com.helger.jcodemodel.JBlock;
 import com.helger.jcodemodel.JCatchBlock;
@@ -24,6 +29,7 @@ import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.JDefinedClass;
 import com.helger.jcodemodel.JExpr;
+import com.helger.jcodemodel.JInvocation;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JTryBlock;
@@ -174,6 +180,37 @@ public class ItemsTranslater {
 			throw new UnsupportedOperationException("catch this", e1);
 		}
 
+		// create the method to load the groups of a category class.
+		//
+		// public static Map<String, ? extends Asteroid> Asteroid::load() {
+		// return Stream.of(Arkonor.load(),
+		// Bistot.load()).flatMap(m -> m.entrySet().stream())
+		// .collect(Collectors.toMap(Entry::getKey, Entry::getValue));
+		// }
+
+		for (Entry<JDefinedClass, Set<JDefinedClass>> e : classes.cat2Groups.entrySet()) {
+			JDefinedClass cat = e.getKey();
+			Set<JDefinedClass> groups = e.getValue();
+			AbstractJClass retType = cm.ref(Map.class).narrow(cm.ref(String.class), cat.wildcardExtends());
+			JMethod loadMeth = cat.method(JMod.PUBLIC | JMod.STATIC, retType, "loadCategory");
+			JInvocation stream = cm.ref(Stream.class).staticInvoke("of");
+			boolean catHasElements = false;
+			for (JDefinedClass group : groups) {
+				boolean groupHashElements = group.getMethod("load", new AbstractJType[0]) != null;
+				if (groupHashElements) {
+					stream = stream.arg(group.staticInvoke("load"));
+					catHasElements = true;
+				}
+			}
+			if (catHasElements) {
+				JInvocation flatstream = stream.invoke("flatMap").arg(JExpr.direct("m -> m.entrySet().stream()"));
+				JInvocation retmap = flatstream.invoke("collect").arg(cm.ref(Collectors.class).staticInvoke("toMap")
+						.arg(cm.ref(Entry.class).methodRef("getKey")).arg(cm.ref(Entry.class).methodRef("getValue")));
+				loadMeth.body()._return(retmap);
+			} else {
+				loadMeth.body()._return(cm.ref(Collections.class).staticInvoke("emptyMap"));
+			}
+		}
 
 		logger.info("translated items in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
 	}
